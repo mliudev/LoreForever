@@ -1,24 +1,24 @@
 {
- "generated": "2026-10-19",
+ "generated": "2026-10-20",
  "forever_only": {
-  "quests_known": 426,
-  "quests_with_text": 391,
-  "narrated": 271,
+  "quests_known": 443,
+  "quests_with_text": 403,
+  "narrated": 363,
   "npcs_known": 223,
-  "npcs_with_text": 64
+  "npcs_with_text": 65
  },
  "zones": [
   {
    "zone": "Other",
    "key": "general",
-   "quests": 305,
-   "with_text": 284,
-   "narrated": 168
+   "quests": 323,
+   "with_text": 296,
+   "narrated": 258
   },
   {
    "zone": "Tirisfal Glades",
    "key": "tirisfal",
-   "quests": 26,
+   "quests": 25,
    "with_text": 14,
    "narrated": 14
   },
@@ -27,7 +27,7 @@
    "key": "zephras",
    "quests": 25,
    "with_text": 25,
-   "narrated": 24
+   "narrated": 25
   },
   {
    "zone": "Wetlands",
@@ -111,7 +111,7 @@
    "key": "darnassus",
    "quests": 1,
    "with_text": 1,
-   "narrated": 0
+   "narrated": 1
   },
   {
    "zone": "Duskwood",
@@ -164,13 +164,6 @@
   }
  ],
  "wanted": [
-  {
-   "kind": "quest",
-   "id": 91282,
-   "name": "A Second Home",
-   "zone": "Tirisfal Glades",
-   "level": 11
-  },
   {
    "kind": "quest",
    "id": 91316,
@@ -264,7 +257,35 @@
   },
   {
    "kind": "quest",
+   "id": 91860,
+   "name": null,
+   "zone": "Other",
+   "level": null
+  },
+  {
+   "kind": "quest",
+   "id": 96204,
+   "name": null,
+   "zone": "Other",
+   "level": null
+  },
+  {
+   "kind": "quest",
+   "id": 97951,
+   "name": null,
+   "zone": "Other",
+   "level": null
+  },
+  {
+   "kind": "quest",
    "id": 91899,
+   "name": "A Sealed Crate",
+   "zone": "Other",
+   "level": null
+  },
+  {
+   "kind": "quest",
+   "id": 91900,
    "name": "A Sealed Crate",
    "zone": "Other",
    "level": null
@@ -320,6 +341,13 @@
   },
   {
    "kind": "quest",
+   "id": 95494,
+   "name": "Bruised Pride and Lion Hides",
+   "zone": "Other",
+   "level": null
+  },
+  {
+   "kind": "quest",
    "id": 97905,
    "name": "Camping 101: Herbalism",
    "zone": "Other",
@@ -329,13 +357,6 @@
    "kind": "quest",
    "id": 96031,
    "name": "Camping 101: Leatherworking",
-   "zone": "Other",
-   "level": null
-  },
-  {
-   "kind": "quest",
-   "id": 96046,
-   "name": "Camping 101: Mining",
    "zone": "Other",
    "level": null
   },
@@ -397,6 +418,13 @@
   },
   {
    "kind": "quest",
+   "id": 79095,
+   "name": "The Apothecary's Metaphysical Primer",
+   "zone": "Other",
+   "level": null
+  },
+  {
+   "kind": "quest",
    "id": 94947,
    "name": "Welcome to Azeroth",
    "zone": "Other",
@@ -406,6 +434,13 @@
    "kind": "quest",
    "id": 93090,
    "name": "What Comes Next",
+   "zone": "Other",
+   "level": null
+  },
+  {
+   "kind": "quest",
+   "id": 97250,
+   "name": "Wrongly Blamed, Justly Corrected",
    "zone": "Other",
    "level": null
   },

@@ -21,12 +21,16 @@ import { keptSummary } from "../../../lib/keeps-notebook.js";
 import { lookupsFor, actionsFor, actionOf, keepsOffer, offerInstead, offerLine, freeKey, SAYS_DONE } from "../../../lib/willo-tools.js";
 import { picksFor, pickNamed } from "../../../lib/companion-voice.js";
 import { planFor, plansOn, holdUserSpend, releaseUserSpend, addUserSpend, useStarter, useShare, returnStarter, offersFor,
-  poolWindow, capState, companionFeatures, PLANS } from "../../../lib/billing.js";
-import { promptBlocks, NPC_KEY } from "../../../lib/willo-custom.js";
-import { takeTaste, returnTaste, takeTasteLookup, holdDay, settleDay } from "../../../lib/best-first.js";
+  poolWindow, capState, companionFeatures, PLANS, setupBilling } from "../../../lib/billing.js";
+import { promptRow, blocksOf, allowedFor, NPC_KEY } from "../../../lib/willo-custom.js";
+import { takeFirst, returnTaste, takeTasteLookup, giveTasteLookup, holdDay, settleDay, tasteFor, trialOf, trialRow,
+  tryOnce, untry } from "../../../lib/best-first.js";
+import { bulkScope, bulkTurn, bulkReply, bulkLine, relocateOps, relocateLine, undoAsk, undoPages, undoLine, NOTHING_TO_UNDO, UNDO_ELSEWHERE,
+  REMINDER_GONE_LINE, tookReminder, setReminder } from "../../../lib/willo-notebook-manage.js";
 import { pageOf, notebookIntent, readNotebook, notebookView, notebookTools, notebookCall, plannedChange,
   confirmed, alreadyLine, unclaimed, saidYes, withRest, titleOf, knownPlaces, plannedReminder, reminderLine, isNotebookTool,
-  NOT_FOUND_LINE, FULL_LINE, UNSAVED_LINE, REMIND_RULES, REMIND_PLAN_RULE, REMIND_PLAN_SPOKEN, REMINDERS_FULL_LINE,
+  allReminders, undoPage,
+  NOT_FOUND_LINE, FULL_LINE, UNSAVED_LINE, NOTE_CLAIM, notWritten, REMIND_RULES, REMIND_PLAN_RULE, REMIND_PLAN_SPOKEN, REMINDERS_FULL_LINE,
   unknownPlace, unknownPlaceLine, planReminderLine, asksReminders, remindersAnswer, noMoment, lateReminder, timedReminder, emptyListAnswer }
   from "../../../lib/willo-notebook.js";
 import { pinIntent, spotOf, pinTool, pinCall, pinUpdate, pinRules, pinnedLine, unpinned, pinsAnswer, pinsSaid,
@@ -39,7 +43,7 @@ import { stockOf, GOALS_ON_HERO, goalIntent, writesGoals, goalsOf, askedGoal, go
   wrongGold, planLine } from "../../../lib/willo-goals.js";
 import { guardAnswer, groundedWritten, evidenceOf, SOUNDS } from "../../../lib/willo-guards.js";
 import { activateReferral, machineOf } from "../../../lib/referrals.js";
-import { sendIntent, sendOffer, sendsFrom } from "../../../lib/friend-send.js";
+import { sendIntent, looseSendIntent, sendOffer, sendsFrom } from "../../../lib/friend-send.js";
 import { withFriendsNote } from "../../../lib/friends-note.js";
 
 // A typed question about Willo herself that the companion asked to have researched is answered from her help, which
@@ -221,15 +225,16 @@ async function answerQuestion(context, hold) {
   // What WoW Forever changed, for this question and place (LOR-446), looked up while the allowance is checked.
   const parts = compact ? null : promptParts(prompt);
   // "Willo, send this to Mike" (lib/friend-send.js, LOR-674): answered here in fixed words, with the send offered as an
-  // action, never by the answer model and without using one of their answers. Only a Willo that runs the action.
+  // action, never by the answer model and without using one of their answers. Only a Willo that runs the action. A
+  // loose one (a thing by its bare name, or one she can't send) only to a friend by that name: else it's a question.
   const sending = operation === "answer" && persona === "willo" && sendsFrom(request.headers.get("X-LF-Client"))
-    ? sendIntent(parts.question) : null;
-  if (sending) {
+    ? sendIntent(parts.question) || looseSendIntent(parts.question) : null;
+  const [offer, sendLeft] = sending ? await Promise.all([sendOffer(env, app.user.id, sending, parts, prompt, now.getTime()),
+    allowance(env, app.user.id, now)]) : [];
+  if (offer) {
     const asked = markAsked(env, app.user.id, now.getTime());
     if (context.waitUntil) context.waitUntil(asked); else await asked;
-    const [offer, left] = await Promise.all([sendOffer(env, app.user.id, sending, parts, prompt, now.getTime()),
-      allowance(env, app.user.id, now)]);
-    return Response.json({ ok: true, answer: offer.answer, model: "willo-friends", allowance: left,
+    return Response.json({ ok: true, answer: offer.answer, model: "willo-friends", allowance: sendLeft,
       timing: { model_ms: 0, total_ms: Date.now() - started }, lookups: ["friends"], looked_up: "no",
       ...(offer.action ? { action: offer.action } : {}) }, { headers: noStore });
   }
@@ -263,6 +268,12 @@ async function answerQuestion(context, hold) {
   // A yes or a no to her "Both of Húrin's pins? Say yes and I'll take them off.": the site's to answer.
   const clearing = operation === "answer" && Boolean(clearTurn(parts.question, parts.previous));
   if (pinning.read || clearing) intent.read = true;
+  // Taking many lines off ("clear my done items", her ask's yes) and "undo that" (lib/willo-notebook-manage.js): the
+  // site's to do, read from the pages themselves, with no model call.
+  const bulking = operation === "answer" && !clearing && Boolean(bulkTurn(parts.question, parts.previous)
+    || bulkScope(parts.question));
+  const undoing = operation === "answer" && undoAsk(parts.question);
+  if (bulking || undoing) intent.read = true;
   if (pinning.manage || (pinning.add && spot)) intent.write = true;
   // "What do you know about me?" (LOR-666): all of it, read with the rest as always, so she can say what she keeps (its
   // counts go in her help, below).
@@ -270,7 +281,7 @@ async function answerQuestion(context, hold) {
   if (intent.write) [researchRequired, autoResearch, image] = [false, false, null];
   // Their notebook's two pages (this character's and the account's), read from now on alongside the rest: one indexed
   // read, which a failed one reads as empty, never failing the answer.
-  const reading = operation === "answer" ? readNotebook(env, app.user.id, current).catch(e => {
+  const reading = operation === "answer" ? readNotebook(env, app.user.id, current, { prev: undoing }).catch(e => {
     console.warn(`companion answer: notebook: ${e?.message || e}`);
     return { pages: [], reminders: [] };
   }) : null;
@@ -280,17 +291,22 @@ async function answerQuestion(context, hold) {
   // Mike's own and test accounts skip the daily answer cap; the monthly budget below still applies to them. The plan
   // sets the daily answers; a paying player skips the shared monthly budget and has a cost cap instead. Both at once:
   // every round trip to D1 here is one a player far from it waits for before Willo can start (LOR-654).
+  // A chat memory's compaction reads the account's first-run trial alongside (lib/best-first.js: longer memory while its
+  // days last); an answer has it from its take below.
+  const memoryRow = compact ? setupBilling(env).then(() => trialRow(env, app.user.id).first()).catch(() => null) : null;
   const [exempt, plan] = await Promise.all([uncapped(env, app.user.id), planFor(env, app.user.id, now)]);
   const subscriber = plan.id !== "free";
-  // Willo's best first (below) and a paying player's customization (lib/willo-custom.js: Willo's style, or their tale
-  // of the character; a failure to read it gives an ordinary answer) go out now too, while the answer is counted.
-  // Whatever happens to them is seen where they're used; an answer that's out of answers gives the taste back.
-  const tasting = compact ? null : takeTaste(env, app.user.id, plan, now, { spoken: Boolean(style) });
+  // Willo's best first and its first-run trial (below), and a customization (lib/willo-custom.js: Willo's style, or
+  // their tale of the character; a failure to read it gives an ordinary answer) a paying plan or the trial may use, go
+  // out now too, while the answer is counted. Whatever happens to them is seen where they're used; an answer that's
+  // out of answers gives the taste back.
+  const tasting = compact ? null : takeFirst(env, app.user.id, plan, now, { spoken: Boolean(style) });
   tasting?.catch(() => {});
-  const customizing = subscriber ? promptBlocks(env, app.user.id, plan, { operation, npc }).catch(e => {
-    console.warn(`companion answer: customization: ${e?.message || e}`);
-    return { system: "", tale: false };
-  }) : null;
+  const customizing = !compact && (subscriber || tasteFor(env, plan))
+    ? promptRow(env, app.user.id, { operation, npc }).catch(e => {
+      console.warn(`companion answer: customization: ${e?.message || e}`);
+      return null;
+    }) : null;
   // Willo's daily and weekly players (lib/activity.js markAsked, LOR-524): every question counts, answered or not.
   if (!compact) {
     const asked = markAsked(env, app.user.id, now.getTime());
@@ -355,7 +371,7 @@ async function answerQuestion(context, hold) {
     if (!planned && !(plansOn(env) && !subscriber && (pack = await useStarter(env, app.user.id)))
         && !(!capped && (pack = await useShare(env, app.user.id)))) {
       const taken = tasting && await tasting.catch(() => null);
-      if (taken) await returnTaste(env, taken);
+      if (taken?.taste) await returnTaste(env, taken.taste);
       return outOfAnswers(env, app.user.id, plan, now, exempt, capped);
     }
   }
@@ -382,12 +398,23 @@ async function answerQuestion(context, hold) {
   // free Hero month earn a reply in her finest voice when asked out loud (lib/companion-voice.js speakTaste), and on the
   // free plan look online and see the game as a paid plan's do. Taken while the Forever facts are looked up, after the
   // plan's own answer, and given back if this one fails; the day's cap reached, it's the plan's own answer, uncounted.
-  const [known, taste] = await Promise.all([knowledge || { facts: [], block: "" }, tasting]);
+  // trial: its first-run trial (lib/best-first.js trialOf), read with the take: while its days last, what the plan
+  // doesn't have is tried here too (look-ups, sight, goals and reminders, her style and tales; longer memory with a
+  // compaction), a few times each where a use costs something.
+  const [known, first] = await Promise.all([knowledge || { facts: [], block: "" }, tasting]);
+  const taste = first?.taste || null;
+  const trial = compact ? trialOf(env, plan, await memoryRow, now) : first?.trial || null;
+  const trying = Boolean(trial?.on);
   // The free plan, while plans are on (Mike, 2026-10-12): its answers stay with the world's lore (LORE_FOCUS below),
-  // without looking online or the game picture, except its best first. Willo still speaks (style "spoken" stays).
-  const freePath = plansOn(env) && !subscriber && !taste;
+  // without looking online or the game picture, except its best first and its trial's days. Willo still speaks (style
+  // "spoken" stays).
+  const freePath = plansOn(env) && !subscriber && !taste && !trying;
   const askedToLook = researchRequired === true || autoResearch;   // what the companion asked for, before the plan
   if (freePath) [researchRequired, autoResearch, image] = [false, false, null];
+  // The trial's pictures (lib/best-first.js TRIAL.sight), counted once the answer used one: none once they're gone.
+  if (plansOn(env) && !subscriber && !(trying && trial.left.sight > 0)) image = null;
+  // What the plan has, with the trial's days: its reminders and seeing the game (lib/billing.js companionFeatures).
+  const features = companionFeatures(plan, { taste: { on: Boolean(taste), left: taste ? 1 : 0, trial } });
   const stronger = Boolean(PLANS[plan.id]?.stronger);
   // The site's look-ups for this question (lib/willo-tools.js lookupsFor, LOR-546). A question about Willo herself:
   // her own help, what her app says of itself right now and, about plans, the answers left, never a look online.
@@ -410,7 +437,7 @@ async function answerQuestion(context, hold) {
   // A question that sets, changes or drops one, or turns her check-ins off, gets the goals' tools (and the notebook
   // numbered, to name them by), and isn't looked up or looked at, like a note. How they stand is worked out here, on
   // this read, from what the add-on last saved (stock): THEIR GOALS, when the question bears on them or one's reached.
-  const goalsOn = operation === "answer" && (!plansOn(env) || subscriber);
+  const goalsOn = operation === "answer" && (!plansOn(env) || subscriber || trying);
   const haveGoals = goalsOn && Boolean(book?.pages?.some(p => /^#{1,6}\s+goals?\s*$/im.test(p.body || "")));
   const goalAsk = goalsOn ? goalIntent(parts.question, { have: haveGoals }) : null;
   const goalWrite = Boolean(goalAsk && writesGoals(goalAsk));
@@ -419,7 +446,22 @@ async function answerQuestion(context, hold) {
     previous: `${parts.previousQuestion} ${parts.previous}`, reminders: book.reminders, offset,
     level: Number(parts.level) || null, now, intent: goalWrite ? { ...intent, read: true } : intent }) : null;
   if (view) view.places = await placing;
-  const reminding = intent.remind && (!plansOn(env) || companionFeatures(plan).reminders === true);
+  // A clear, its yes or no, or "undo that", worked out on the pages read (lib/willo-notebook-manage.js): {noted} to
+  // write, {undo: pages} to put back, or {answer}, her words for it. Reminders said and waiting are read for a clear of
+  // reminders only.
+  let managed = null;
+  if (view && undoing) {
+    const back = setReminder(view, parts.previous, now);
+    const pages = back ? [] : undoPages(view, now, parts.previous);
+    managed = back ? { noted: { page: back.page, op: { op: "unremind", reminders: [back] } } }
+      : pages === null ? { answer: UNDO_ELSEWHERE }
+      : pages.length ? { undo: pages } : { answer: tookReminder(parts.previous) ? REMINDER_GONE_LINE : NOTHING_TO_UNDO };
+  } else if (view && bulking) {
+    const reminders = /\breminders?\b/i.test(`${parts.question} ${parts.previous}`)
+      ? await allReminders(env, app.user.id, now).catch(() => []) : [];
+    managed = bulkReply(view, parts.question, parts.previous, reminders);
+  }
+  const reminding = intent.remind && (!plansOn(env) || features.reminders === true);
   // notebook_pin with the notebook's own tools, never beside its reminder or move tools (together they'd pass
   // lib/companion-answers.js ACTIONS_MAX_BYTES, and none would be offered). Asked to pin with no spot from the game,
   // nothing is written at all (not even a note without its place).
@@ -428,7 +470,8 @@ async function answerQuestion(context, hold) {
   // Fargodeep Mine" 2 of 2).
   const pinOnly = pinning.add && spot && !intent.remind && !intent.move;
   const noteTools = !view || !intent.write || (pinning.add && !spot) ? [] : pinOnly ? pinTool(spot, pinning)
-    : [...notebookTools(view, { move: intent.move, remind: reminding, adding: intent.adding }),
+    : [...notebookTools(view, { move: intent.move, remind: reminding, adding: intent.adding, merge: intent.merge,
+      relocate: intent.relocate }),
       ...(intent.remind || intent.move ? [] : pinTool(spot, pinning))];
   const goals = goalsOn && view ? goalsOf(view) : [];
   const asked = goalAsk && (goalAsk.set || goalAsk.change) ? askedGoal(parts.question) : null;
@@ -457,12 +500,12 @@ async function answerQuestion(context, hold) {
   // a plan with it (lib/billing.js companionFeatures).
   // Asked to write in their notebook, its tools instead (noteTools, above): a note never needs the app's.
   const actions = noteTools.length || goalOffer.length ? [...noteTools, ...goalOffer] : help ? actionsFor(helpTopics(helpAsked, { plans: plansOn(env), client: request.headers.get("X-LF-Client") }), {
-    voices: plan.voice?.choice ? picksFor(request.headers.get("X-LF-Client")) : [],
+    voices: plan.voice?.choice || trying ? picksFor(request.headers.get("X-LF-Client")) : [],
     current: pickNamed(/^voice now: ([^(\n]+)/m.exec(state)?.[1]),
     key: freeKey(state), liveOff: /^live: (?:bad|warn)\b/m.test(state),
     fixable: /^\w+: (?:bad|warn), .*; fix: /m.test(state), spoken: Boolean(style), plans: plansOn(env),
     off: { live: /^live: off\b/m.test(state), sight: /\bseeing the game when asked out loud: off\b/.test(state) },
-    sight: !plansOn(env) || companionFeatures(plan, { taste: taste && { on: true, left: 1 } }).sight,
+    sight: !plansOn(env) || features.sight,
     client: request.headers.get("X-LF-Client"), asked: helpAsked }) : [];
   // Live game info, offered once (the PM, 10/19, after the live check: most questions asked out loud came with no
   // zone): a question that needs where they are, with Live game info off in her window, gets its consent button
@@ -501,7 +544,7 @@ async function answerQuestion(context, hold) {
   // A question about Willo herself never looks online, typed (research_required) or spoken: her help answers it.
   const wantsResearch = operation === "answer" && !help && (researchRequired || ((autoResearch || real) && lookOnline));
   let strong = stronger && !compact;
-  const longMemory = Boolean(PLANS[plan.id]?.longMemory) && compact;
+  const longMemory = (Boolean(PLANS[plan.id]?.longMemory) || trying) && compact;
   // Looking it up (LOR-446). What another player's search found for the same question here answers without searching
   // again, for required research too. research "auto" (the companion asks for it with spoken questions) looks online
   // quickly only when the lore and Forever facts can't answer: a practical or current question or a correction that no
@@ -547,32 +590,36 @@ async function answerQuestion(context, hold) {
   // The free plan never looks online, so its questions about the player's own world get the same plain line about the
   // very latest (LOR-545: without it Flash-Lite named last year's cards as today's and made up a town's weather).
   let trailCold = !lookOnline && operation === "answer" && !help && (real || /\b(?:weather|forecast)\b/i.test(parts.question));
-  // The free plan's best first has its own few (lib/best-first.js TASTE_LOOKUPS).
+  // The free plan's best first and its trial's days have their own few (lib/best-first.js TASTE_LOOKUPS).
   if ((research || quick) && plansOn(env) && !exempt && !(subscriber
       ? await perPeriod(env, app.user.id, "companion-lookup", poolWindow(plan, now).key, plan.lookupsPerMonth || 0)
-      : await takeTasteLookup(env, taste))) {
+      : await takeTasteLookup(env, trying ? trial : null, now))) {
     research = quick = false;
     trailCold = true;
     await release(upgrade());
   }
-  // What a free best-first answer may cost is held on the taste's daily cap (lib/best-first.js): one that won't fit
-  // answers without looking online, as past the look-ups.
+  // What a free best-first answer may cost is held on the taste's daily cap (lib/best-first.js), and a look-up in the
+  // trial's days: one that won't fit answers without looking online, as past the look-ups.
   let tasteHold = null;
-  const tasteFree = Boolean(taste) && !subscriber;
+  const tasteFree = (Boolean(taste) || trying) && !subscriber;
   if (tasteFree && (research || quick)) {
     tasteHold = await holdDay(env, answerReservation(research, operation,
       { lookup: quick, picture: seesPicture(operation, research, style, image), lite, smarter }), now);
-    if (!tasteHold) [research, quick, trailCold] = [false, false, true];
+    if (!tasteHold) {
+      [research, quick, trailCold] = [false, false, true];
+      if (!exempt) await giveTasteLookup(env, trial);
+    }
   }
   // What a best-first answer cost, on the taste's day (a free one's whole cost; a free Hero month's is Hero's), and that
-  // it was one; given back, with its place, when it failed.
-  const tasted = (cost, ok) => taste && settleDay(env, tasteHold, tasteFree ? cost : 0,
-    ok ? { answers: 1, ...(taste.used === 1 ? { starts: 1 } : {}) } : {}, now);
-  // A paying player's customization (customizing, above). The free plan's answers get LORE_FOCUS instead, while plans
-  // are on.
+  // it was one; given back, with its place, when it failed. In the trial's days after it, only the look-up's (look):
+  // the answer itself is the free plan's.
+  const tasted = (look, cost, ok) => (taste || tasteHold) && settleDay(env, tasteHold, !tasteFree ? 0 : taste ? look + cost
+    : look, ok && taste ? { answers: 1, ...(taste.used === 1 ? { starts: 1 } : {}) } : {}, now);
+  // A paying player's customization, or the trial's (customizing, above), as the plan allows it now. The free plan's
+  // answers get LORE_FOCUS instead, while plans are on.
   let custom = { system: "", tale: false };
-  if (subscriber) custom = await customizing;
-  else if (freePath && operation === "answer") custom = { system: LORE_FOCUS, tale: false };
+  if (customizing) custom = blocksOf(await customizing, allowedFor(plan, trial), { operation });
+  if (freePath && operation === "answer") custom = { system: LORE_FOCUS, tale: false };
   const withBlock = (system, block) => {
     const added = [system, block].filter(Boolean).join("\n\n");
     return new TextEncoder().encode(added).length <= CUSTOM_PROMPT_BYTES ? added : system;
@@ -594,7 +641,7 @@ async function answerQuestion(context, hold) {
     // What it took (the plan's day and month, or a starter answer) goes back for a question that never reached the
     // model, and a best-first one.
     await giveBack();
-    if (taste) await Promise.all([returnTaste(env, taste), tasted(0, false)]);
+    await Promise.all([taste && returnTaste(env, taste), tasted(0, 0, false)]);
     return tooMany("We're at capacity for free live answers right now. Try again next month.",
       86400, await allowance(env, app.user.id, now, exempt, plan));
   }
@@ -630,6 +677,16 @@ async function answerQuestion(context, hold) {
   const later = context.waitUntil ? work => context.waitUntil(work.catch(e =>
     console.warn(`companion answer: after the answer: ${e?.message || e}`))) : null;
   const afterwards = work => later ? later(work) : work;
+  let sighting = null;   // the trial's picture taken for this answer (below)
+  // The reply's allowance with this answer's picture among the trial's (took: it was counted), read alongside the count,
+  // so it may or may not have it yet: never more than one fewer than the trial had before this answer.
+  const seen = (left, took) => {
+    const sight = left?.trial?.uses?.sight;
+    if (!took || !sight) return left;
+    const n = Math.max(0, Math.min(sight.left, trial.left.sight - 1));
+    return { ...left, trial: { ...left.trial, uses: { ...left.trial.uses, sight: { ...sight, left: n } } },
+             ...(left.features && !n ? { features: { ...left.features, sight: false } } : {}) };
+  };
   // The answer, kept KEEP_DAYS for the nightly check while the player's switch is on (keep, above); never a
   // compaction. Written while the reply goes out (waitUntil), so it never holds it up; logAnswer never throws.
   const keepAnswer = async entry => {
@@ -642,7 +699,10 @@ async function answerQuestion(context, hold) {
   };
   try {
     // The allowance the reply carries is read while the answer is written (LOR-654): this answer's count is in already;
-    // its cost, settled afterwards, shows from the next one.
+    // its cost, settled afterwards, shows from the next one. The trial's picture (lib/best-first.js TRIAL.sight) is
+    // counted as it goes with the answer, alongside, and the reply's allowance shows it (seen, below) whichever came
+    // first; a failed answer gives it back.
+    sighting = image && !subscriber && trying ? tryOnce(env, trial.claim, "sight", now).catch(() => false) : null;
     const leaving = allowance(env, app.user.id, now, exempt, plan);
     leaving.catch(() => {});
     // The quick look online writes a finding first (companion-answers.js lookUp), kept for the next player; the answer
@@ -702,9 +762,11 @@ async function answerQuestion(context, hold) {
       && !pinning.manage && !pinning.list && !pinning.clearAll
       && !(view && (view.block || asksReminders(parts.question, intent) || saidYes(parts.question, parts.previous)));
     let said = null;
-    const onSay = early ? say => { said = guarded(say); hold.say?.(said); } : null;
-    const { model_ms, counted, call, say: modelSay, ...result } = listing ? await Promise.resolve(loggedFirst).then(() => ({
-      answer: listing, sources: [], web_sources: [], web_search: { status: "not_needed", queries: [], suggestions_html: "" },
+    // Spoken words that claim a note or pin written, with nothing to write it with, never go out early (NOTE_CLAIM).
+    const onSay = early ? say => { if (NOTE_CLAIM.test(say)) return; said = guarded(say); hold.say?.(said); } : null;
+    const siteSays = listing || (managed ? managed.answer || " " : "");
+    const { model_ms, counted, call, say: modelSay, ...result } = siteSays ? await Promise.resolve(loggedFirst).then(() => ({
+      answer: siteSays, sources: [], web_sources: [], web_search: { status: "not_needed", queries: [], suggestions_html: "" },
       model: "site", usage: null, model_ms: 0, counted: 0 }))
       : await writeAnswer(env, prompt, now, research, operation,
         { persona, style, image, facts: knowledgeText, help, dispute, custom: custom.system, strong, longMemory, actions,
@@ -736,7 +798,7 @@ async function answerQuestion(context, hold) {
     // A pin (lib/willo-pins.js) is hers to write, the game's place and day in it; renaming one is the notebook's own
     // notebook_update, its name taken from the model and its place and day kept; clearing them all, a yes to her ask.
     const cleared = clearing && view ? clearReply(view, parts.question, parts.previous) : null;
-    const noted = cleared ? cleared.noted || null : goalCalled?.op ? goalCalled
+    const noted = managed ? managed.noted || null : cleared ? cleared.noted || null : goalCalled?.op ? goalCalled
       : dropping.length === 1 ? { page: dropping[0].page, op: { op: "remove", targets: [{ raw: dropping[0].raw,
         text: dropping[0].text }] } }
       : dropping.length > 1 ? { say: whichLine(dropping) }
@@ -771,6 +833,25 @@ async function answerQuestion(context, hold) {
     if (view && pinning.list) result.answer = pinsAnswer(view, { spoken: Boolean(style) });
     if (pinning.clearAll && view) result.answer = clearAsk(view);
     if (cleared?.answer) result.answer = cleared.answer;
+    if (managed?.answer) result.answer = managed.answer;
+    // "Undo that": the page (or the two a move changed) as it was before its last change, if nothing's changed it since.
+    if (managed?.undo) {
+      const undone = [];
+      for (const u of managed.undo) {
+        const back = await undoPage(env, app.user.id, u.page, u.version, now).catch(e => {
+          console.warn(`companion answer: undo: ${e?.message || e}`);
+          return null;
+        });
+        // The first page that can't be undone stops the rest: never half a move.
+        if (!back) break;
+        undone.push({ ...u, view: back });
+      }
+      if (undone.length) {
+        notebook = { change: "update", did: "undo", ...undone[0].view, changed: [],
+          ...(undone.length > 1 ? { also: undone.slice(1).map(u => u.view) } : {}) };
+        result.answer = undoLine(undone);
+      } else result.answer = "That page has changed since, so there's nothing to undo.";
+    }
     const planless = Boolean(intent.remind && !reminding);
     if (planless && !noted) result.answer = planReminderLine([], Boolean(style));
     // A reminder asked for at a place not of this age: only that she doesn't know it, never what lies beyond.
@@ -792,9 +873,38 @@ async function answerQuestion(context, hold) {
         else {
           notebook = { change: noted.op.op, page: noted.page, title: titleOf(noted.page), reminders: planned.reminders,
             changed: planned.changed };
-          result.answer = withRest(reminderLine(noted.op, offset, now), result.answer);
+          result.answer = noted.bulk ? bulkLine(noted.bulk, planned.changed)
+            : withRest(reminderLine(noted.op, offset, now), result.answer);
         }
       }
+    }
+    else if (noted && (noted.ops || noted.op?.op === "relocate")) {
+      // Over two pages: a clear of both, or lines moved to the other page (lib/willo-notebook-manage.js), each page
+      // written in turn. A move writes the lines onto the other page first, so a failed write never loses them.
+      const steps = noted.ops || relocateOps(noted).reverse();
+      const done = [];
+      let failed = null;
+      for (const step of steps) {
+        const planned = plannedChange(view, app.user.id, step, now);
+        if (!planned.page) {
+          if (planned.full) { failed = FULL_LINE; break; }
+          continue;
+        }
+        const saved = await planned.write(env).catch(e => {
+          console.warn(`companion answer: notebook write: ${e?.message || e}`);
+          return null;
+        });
+        if (!saved) { failed = UNSAVED_LINE; break; }
+        done.push({ step, saved, changed: planned.changed });
+      }
+      const moved = noted.op?.op === "relocate";
+      const changed = done.filter(d => moved ? d.step.op.op === "receive" : true).flatMap(d => d.changed);
+      // Willo's app (0.23.0 and before) knows add, check, update, remove and move: a move to the other page goes as
+      // "move", on the page it left (its Undo then puts it back there, never losing it); did says what it was.
+      if (done.length) notebook = { change: moved ? "move" : noted.op.op, ...(moved ? { did: "relocate" } : {}), ...done[done.length - 1].saved,
+        changed, ...(done.length > 1 ? { also: done.slice(0, -1).map(d => d.saved) } : {}) };
+      result.answer = failed && !changed.length ? failed : !changed.length ? NOT_FOUND_LINE
+        : moved ? relocateLine(noted.op.to, changed) : bulkLine(noted.bulk, changed);
     }
     else if (noted) {
       const planned = plannedChange(view, app.user.id, noted, now);
@@ -808,11 +918,14 @@ async function answerQuestion(context, hold) {
         });
         if (!saved) result.answer = UNSAVED_LINE;
         else {
-          notebook = { change: noted.op.op, ...saved, changed: planned.changed };
+          // A merge goes to Willo's app as the change it knows ("update"); did says what it was.
+          notebook = { change: noted.op.op === "merge" ? "update" : noted.op.op, ...(noted.op.op === "merge" ? { did: "merge" } : {}),
+            ...saved, changed: planned.changed };
           // Goals taken off with the notebook's own tool are dropped goals, in her goals' words.
           const dropped = noted.op.op === "remove" ? noted.op.targets.map(t => goals.find(g => g.page === noted.page
             && typeof t.raw === "string" && g.raw.trim() === t.raw.trim())) : [];
-          result.answer = noted.pin ? pinnedLine(result.answer, noted.pin)
+          result.answer = noted.bulk ? bulkLine(noted.bulk, planned.changed)
+            : noted.pin ? pinnedLine(result.answer, noted.pin)
             : noted.goal ? goalConfirmed(result.answer, noted.goal, noted.op)
             : dropped.length && dropped.every(Boolean) ? goalConfirmed(result.answer, dropped[0].goal, noted.op,
               dropped.map(g => g.goal))
@@ -852,6 +965,11 @@ async function answerQuestion(context, hold) {
       const line = planLine(goals, stock, { asked: goalCalled?.goal || goalInfo.asked, question: parts.question, ...here });
       if (line) result.answer = notebook && noted?.goal ? goalConfirmed(line, noted.goal, noted.op) : line;
     }
+    // Nothing written, and her own words say she wrote it down (any question, notebook in play or not): never.
+    // A question about what she wrote before ("where did you write that down?", "what's on my list?") may say she wrote it.
+    if (operation === "answer" && !notebook && !goalsReply && result.answer === fromModel && NOTE_CLAIM.test(result.answer)
+      && !asksWhereNotes(parts.question) && !(intent.read && !intent.write))
+      result.answer = notWritten(result.answer);
     if (!compact && !result.answer && !action) throw new Error("Empty answer");
     if (action && (!result.answer || SAYS_DONE.test(result.answer))) result.answer = offerInstead(result.answer, action);
     // Her spoken words (layered): what she said already, or the model's own while the answer is still its words; with
@@ -866,7 +984,8 @@ async function answerQuestion(context, hold) {
     const supplied = [evidenceOf(prompt, parts?.question), knowledgeText, help].join("\n");
     if (!compact && result.answer && result.answer !== VERIFICATION_FAILED)
       result.answer = guardAnswer(result.answer, { supplied, own: operation === "answer", researched: research, prompt,
-        question: parts.question, names: [parts.zone, parts.sub, parts.target], savedPlace: parts.savedPlace });
+        question: parts.question, names: [parts.zone, parts.sub, parts.target], savedPlace: parts.savedPlace,
+        character: operation === "character" });
     // Two layers: the written answer adds only names and numbers what she was given holds (groundedWritten), then
     // her line about the rest when it still says more than her words (restLine): on the end of her words when they go
     // with the answer, or as rest for the app to say after the words it said already.
@@ -894,11 +1013,11 @@ async function answerQuestion(context, hold) {
       result.web_sources = [HELP_SOURCE];
       result.web_search = { status: "searched", queries: [], suggestions_html: "" };
     }
-    if (taste) {
-      const kept = tasted(lookCost + (counted || 0), true);
+    if (taste || tasteHold) {
+      const kept = tasted(lookCost, counted || 0, true);
       if (context.waitUntil) context.waitUntil(kept); else await kept;
     }
-    const left = await leaving;
+    const left = seen(await leaving, sighting && await sighting);
     // timing: where the time went, in whole milliseconds (the companion logs it). forever_facts: the titles of the
     // Forever facts the answer was given; feedback: what we kept of this message ("correction", "frustration");
     // looked_up: "required", "quick" (research "auto" looked online and found something), "cached" (an earlier
@@ -944,7 +1063,8 @@ async function answerQuestion(context, hold) {
     // A failed answer gives back what it took (the plan's day and month, or its starter answer): it's for answers, not
     // attempts. A best-first one too.
     await giveBack();
-    if (taste) await Promise.all([returnTaste(env, taste), tasted(lookCost + (e?.counted || 0), false)]);
+    await Promise.all([taste && returnTaste(env, taste), tasted(lookCost, e?.counted || 0, false),
+      sighting && sighting.then(took => took && untry(env, app.user.id, "sight")).catch(() => {})]);
     console.warn(`companion answer: ${e?.message || e}`);
     await keepAnswer({ outcome: "failed", error: String(e?.message || e) });
     return failed(e, answerId);

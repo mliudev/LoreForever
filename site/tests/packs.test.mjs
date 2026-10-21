@@ -83,3 +83,21 @@ test("a lore page links the downloads that have its recording, to rows /download
   assert.match(list, /<select name="p">/);
   assert.match(list, /<option value="LoreForever_Voice_Female_Alliance">Female narrator: Alliance lands<\/option>/);
 });
+
+test("/voices, the link voice actors were sent to record, still goes to /downloads, which opens with the recorder", async () => {
+  const { onRequestGet: voicesGet } = await import("../functions/voices/index.js");
+  for (const path of ["/voices", "/voices/", "/voices?x=1"]) {
+    const r = voicesGet({ request: new Request(HOME + path) });
+    assert.equal(r.status, 301);
+    const to = new URL(r.headers.get("Location"));
+    assert.equal(to.pathname, "/downloads");
+    assert.equal(to.searchParams.get("from"), "voices");
+    if (path.includes("x=1")) assert.equal(to.searchParams.get("x"), "1");      // its query kept
+  }
+  const env = { ASSETS: assets(), STUDIO: await bucketWith([]) };
+  const from = await (await downloadsGet({ request: new Request(HOME + "/downloads?from=voices"), env })).text();
+  const card = from.indexOf('class="dl-record"');
+  assert.ok(card > 0 && card < from.indexOf('id="addon-title"'), "the recording card comes first");
+  assert.match(from, /<b>Recording for Lore Forever\?<\/b> <a class="h-btn h-sm" href="\/voices\/lend">Start here<\/a>/);
+  assert.doesNotMatch(await downloads(env), /class="dl-record"/);  // players who come to Downloads don't see it
+});

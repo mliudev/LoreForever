@@ -23,6 +23,9 @@
 // sendOnce never sends to an address there, so "That address won't get any more emails from us" stays true. Kept
 // outside functions/ so Pages doesn't route it.
 
+import { isReportRead, refuseReportEffect } from "./report-read.js";
+import { markActionUncertain, actionIsUncertain, isDashboardAction } from "./dashboard-action.js";
+
 export const DOMAIN = "loreforeverwow.com";
 export const FROM = `Mike from Lore Forever <hello@${DOMAIN}>`;
 export const REPLY_TO = `hello@${DOMAIN}`;   // Email Routing forwards it to Mike's Gmail
@@ -44,6 +47,7 @@ export const EMAIL_USER_DATA = [["DELETE FROM email_sends WHERE user_id = ?", u 
 
 const ready = new WeakSet();
 async function setupEmail(env) {
+  if (isReportRead(env)) return;
   if (ready.has(env.DB)) return;
   await env.DB.batch(EMAIL_SETUP.map(s => env.DB.prepare(s)));
   ready.add(env.DB);
@@ -133,15 +137,19 @@ export function senderOf(env) {
 // the send fails. key: an idempotency key, for services that take one. sendOnce is what features use; this is for
 // tests by hand (/api/admin "email-test").
 export async function sendEmail(env, message, key = null) {
+  refuseReportEffect(env, "sending email");
   const service = emailService(env);
   if (!service) throw new Error("No email service is set up.");
   const to = cleanAddress(message.to);
   if (!to) throw new Error("That isn't an email address.");
   const sender = senderOf(env);
   const ours = address => typeof address === "string" && parseFrom(address).email.toLowerCase().endsWith(`@${DOMAIN}`);
-  const messageId = await SERVICES[service](env, { ...message, to, from: ours(message.from) ? message.from : sender.from,
-    replyTo: ours(message.replyTo) ? cleanAddress(message.replyTo) : sender.replyTo,
-    headers: { "List-Unsubscribe": `<${UNSUBSCRIBE_URL}>`, ...message.headers } }, key);
+  let messageId;
+  try {
+    messageId = await SERVICES[service](env, { ...message, to, from: ours(message.from) ? message.from : sender.from,
+      replyTo: ours(message.replyTo) ? cleanAddress(message.replyTo) : sender.replyTo,
+      headers: { "List-Unsubscribe": `<${UNSUBSCRIBE_URL}>`, ...message.headers } }, key);
+  } catch (error) { markActionUncertain(env); throw error; }
   return { service, messageId };
 }
 
@@ -156,16 +164,28 @@ export async function sendOnce(env, { id, kind, userId = null, message, off = fa
     const status = !to ? "no_address" : await optedOut(env, to) ? "opted_out" : service && !off ? "sending" : "off";
     const claimed = await env.DB.prepare("INSERT OR IGNORE INTO email_sends (id, kind, user_id, status, provider, " +
       "created, updated) VALUES (?, ?, ?, ?, ?, ?, ?)").bind(id, kind, userId, status, service, iso(), iso()).run();
-    if (!claimed.meta.changes) return "seen";
+    if (!claimed.meta.changes) {
+      if (isDashboardAction(env)) {
+        // A new request key must not turn an unresolved prior send into success.
+        // Keep the product claim and the new dashboard audit outcome uncertain.
+        const previous = await env.DB.prepare("SELECT status FROM email_sends WHERE id = ?").bind(id).first()
+          .catch(error => { markActionUncertain(env); throw error; });
+        if (!["sent", "off", "opted_out", "no_address"].includes(previous?.status)) markActionUncertain(env);
+      }
+      return "seen";
+    }
     if (status === "off") console.log(`email: would send ${kind} (${id}); ${service ? "held back" : "no email service is set up"}`);
     if (status !== "sending") return status;
+    let accepted = false;
     try {
       const { messageId } = await sendEmail(env, message, id);
+      accepted = true;
       await env.DB.prepare("UPDATE email_sends SET status = 'sent', message_id = ?, updated = ? WHERE id = ?")
         .bind(messageId ? String(messageId) : null, iso(), id).run();
       return "sent";
     } catch (e) {
-      await env.DB.prepare("DELETE FROM email_sends WHERE id = ? AND status = 'sending'").bind(id).run();
+      if (accepted) markActionUncertain(env);
+      if (!actionIsUncertain(env)) await env.DB.prepare("DELETE FROM email_sends WHERE id = ? AND status = 'sending'").bind(id).run();
       throw e;
     }
   } catch (e) {

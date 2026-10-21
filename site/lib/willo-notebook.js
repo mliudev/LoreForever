@@ -207,6 +207,37 @@ function moveLine(body, { target, to }) {
   return moved === tidy(body) ? { body, changed: [] } : { body: moved, changed: [line.text] };
 }
 
+// Two or more lines made one (notebook_merge): the first named line becomes the merged words (a to-do stays one, open
+// unless all were done), the others go. {body, changed: [the merged words]}.
+function mergeLines(body, { targets, text }) {
+  let lines = linesOf(body);
+  const at = targets.map(t => findLine(lines, t.raw));
+  if (at.some(i => i < 0) || new Set(at).size < 2) return { body, changed: [] };
+  const first = lines[at[0]];
+  const todo = targets.length && at.every(i => lines[i].kind === "todo");
+  const done = todo && at.every(i => lines[i].done);
+  const lead = first.lead || "- ";
+  lines[at[0]] = lineOf(todo ? `${lead}[${done ? "x" : " "}] ${text}` : first.kind === "text" ? text : `${lead}${text}`);
+  const gone = new Set(at.slice(1));
+  lines = lines.filter((_, i) => !gone.has(i));
+  return { body: tidy(lines.map(l => l.raw).join("\n")), changed: [text] };
+}
+
+// A line moved in from the other page (relocate's second half): under a heading of the same name, as the same kind.
+function receiveLines(body, { targets }) {
+  let now = body;
+  const added = [];
+  for (const t of targets) {
+    const kind = t.kind === "todo" ? "todo" : "note";
+    const r = addLines(now, { kind, items: [t.text], heading: t.heading || null });
+    if (!r.added.length) continue;
+    now = r.body;
+    if (t.kind === "todo" && t.done) now = checkLines(now, { targets: [{ raw: `- [ ] ${t.text}` }], done: true }).body;
+    added.push(t.text);
+  }
+  return { body: now, changed: added };
+}
+
 export function applyOp(body, op) {
   if (op.op === "add") { const r = addLines(body, op); return { body: r.body, changed: r.added }; }
   if (op.op === "check") return checkLines(body, op);
@@ -219,6 +250,8 @@ export function applyOp(body, op) {
     return now === body ? { body, changed: [] } : { body: now, changed: [op.targets[0].text] };
   }
   if (op.op === "move") return moveLine(body, op);
+  if (op.op === "merge") return mergeLines(body, op);
+  if (op.op === "receive") return receiveLines(body, op);
   return { body, changed: [] };
 }
 
@@ -230,8 +263,11 @@ const LIST = String.raw`(?:list|to-?dos?|todo|notes?|notebook|checklist)`;
 // They ask for all of it to be cleared: "clear your notes", "wipe my notebook", "empty the list", "clear all my notes".
 // Not a line she could take off ("take Hogger off my list"): she has no clear-all, and the page What Willo keeps does it
 // (lib/willo-help.js says so; the stream, 10/18: "I have cleared your notes", with nothing cleared).
-export const CLEAR_ALL = new RegExp(String.raw`\b(?:clear|wipe|empty|erase|delete|reset)\s+(?:out\s+)?(?:all\s+(?:of\s+)?|everything\s+(?:in|on|from)\s+)?` +
-  String.raw`(?:your|my|our|the)\s+(?:shopping\s+)?(?:notes?|notebook|lists?|to-?dos?)\b`, "i");
+// Only the whole of something: "clear my notes", "wipe the notebook", "delete all my to-dos", never one line ("delete my
+// note about the guild bank" got "I can't clear your whole notebook myself": the vision check, 10/19).
+export const CLEAR_ALL = new RegExp(String.raw`\b(?:clear|wipe|empty|erase|delete|reset)\s+(?:out\s+)?(?:(?:all\s+(?:of\s+)?|everything\s+(?:in|on|from)\s+)` +
+  String.raw`(?:your|my|our|the)\s+(?:shopping\s+)?(?:notes?|notebook|lists?|to-?dos?)|(?:your|my|our|the)\s+(?:whole\s+|entire\s+)?` +
+  String.raw`(?:shopping\s+)?(?:notes|notebook|lists|list|to-?dos))\b(?!\s+(?:about|on|for|that|with|saying|called|of|from)\b)`, "i");
 const WRITE = new RegExp([
   String.raw`(?<!\b(?:you|u|we|i)\s)(?<!\bask(?:ed)?\s+you\s+to\s)\bremember(?!\s+(?:when|who|what|how|where|why|which|if|whether|the\s+(?:time|day|name)|me\b))`,
   String.raw`\b(?:can|could|would|will)\s+(?:you\s+)?(?:please\s+)?remember\b(?!\s+(?:when|who|what|how|where|why|which|if|whether|me\b))`,
@@ -248,7 +284,10 @@ const WRITE = new RegExp([
   String.raw`\b(?:remove|delete|drop|take|scratch|erase|clear)\b[^.?!]{0,60}\b(?:off|from|out\s+of)\s+(?:my|the|our|your)\s+(?:\w+\s+)?${LIST}\b`,
   String.raw`\b(?:change|update|edit|rename|fix)\b[^.?!]{0,60}\b(?:on|in)\s+(?:my|the|our|your)\s+(?:\w+\s+)?${LIST}\b`,
   String.raw`\b(?:change|update|edit)\s+(?:my|the)\s+(?:\w+\s+)?${LIST}\b`,
-].join("|"), "i");
+  // One line by what it is: "delete my note about the guild bank", "remove the Thor note", "edit my hearthstone note".
+  String.raw`\b(?:remove|delete|drop|erase|scratch|change|update|edit|rename|reword|fix)\s+(?:my|the|that|this|your)\s+(?:[\p{L}'-]+\s+){0,3}(?:note|to-?do|line|entry|item|one|thing|bit)\b`,
+  String.raw`\b(?:remove|delete|drop|erase|scratch)\s+(?:my|the|that|this|your)\s+(?:note|to-?do|line|entry|item|thing|bit)\s+(?:about|on|for|with|saying|called)\b`,
+].join("|"), "iu");
 // The question asks to move a line: "put that at the top", "move Hogger to the bottom", "prioritize the linen".
 // "Get my spells first, add that to the top of the list" and "do the trainer first on my list" too: the blind check's
 // case 3 in the player's own words (LOR-624) got no tools, and a claim of a move anyway.
@@ -257,6 +296,10 @@ const MOVE = new RegExp([
   String.raw`\b(?:move|bump)\b[^.?!]{0,40}\b(?:up|down|first|last)\b`, String.raw`\bprioriti[sz]e\b`,
   String.raw`(?<!\b(?:what|which|who)\b[^.?!]{0,30})\b(?:do|get|put|make|have|want|need|go|visit|see|grab|buy|finish)\b[^.?!]{0,40}\bfirst\b[^.?!]{0,40}\b(?:on|in|of|at\s+the\s+top\s+of)\s+(?:my|the|our)\s+(?:\w+\s+)?${LIST}\b`,
 ].join("|"), "i");
+// Two or more lines made one (Mike, 10/19: "merge these two notes").
+const MERGE = /\b(?:merge|combine|join|consolidate)\b|\b(?:put|make|turn|fold)\b[^.?!]{0,40}\binto\s+one\b/i;
+// A line moved to the other page: this character's, or the one for all their characters.
+const MOVE_PAGE = /\b(?:move|put|shift|transfer)\b[^.?!]{0,60}\b(?:to|onto|on|into)\s+(?:the\s+)?(?:page\s+for\s+all|all\s+(?:of\s+)?(?:my\s+)?(?:characters?|toons?|alts?)|(?:my\s+)?account(?:[- ]wide)?(?:\s+page)?|every\s+character|(?:this|my)\s+character(?:'s)?(?:\s+page)?|[\p{L}]+'s\s+page)\b/iu;
 // The question asks what's in it: the to-do list, the notes, what's left, what they still need.
 const READ = new RegExp([
   String.raw`\b(?:my|the|our)\s+(?:\w+\s+)?${LIST}\b`, String.raw`\bto-?dos?\b`, String.raw`\bnotebook\b`,
@@ -289,6 +332,9 @@ const REMIND = new RegExp([
   String.raw`\b(?:set|make|add|create)\s+(?:me\s+)?(?:an?\s+)?(?:reminder|alarm|timer)\b`,
   String.raw`\b(?:cancel|forget|drop|delete|remove|clear|stop|move|change|update|push|postpone|switch)\b[^.?!]{0,60}\breminders?\b`,
   String.raw`\b(?:tell|ping|alert|nudge|warn|let)\s+me\b[^.?!]{0,60}\b(?:${IN_TIME}|at\s+\d|when\s+i|once\s+i|as\s+soon\s+as|tonight|tomorrow)`,
+  // "Remember to check the auction house in five minutes", "don't let me forget to train when I hit 20": a reminder, as
+  // "remind me" is (Mike's recording, 10/19: kept as a to-do). Without a moment it stays a line of their list.
+  String.raw`\b(?:remember|don'?t\s+(?:let\s+me\s+)?forget)\s+to\b[^.?!]{0,80}\b(?:${IN_TIME}|at\s+\d|when\s+i|once\s+i|as\s+soon\s+as|tonight|tomorrow)`,
   String.raw`\b(?:in\s+${HOW_MANY}\b[^.?!]{0,20}\b(?:hours?|hrs?|minutes?|mins?)|at\s+\d{1,2}(?::\d\d)?\s*(?:am|pm)?|when\s+i(?:'m|\s+am|\s+get|\s+reach|\s+hit)[^.?!]{0,40})[^.?!]{0,10},?\s*(?:tell|ping|warn|let|nudge|alert)\s+me\b`,
 ].join("|"), "i");
 
@@ -313,21 +359,28 @@ export const lateMoment = (question, previous) => NO_MOMENT_LINE.test(String(pre
 // will keep watch and let you know when five minutes have passed", with nothing set). Never a question ("what can I do in
 // 5 minutes?") or their own plans ("I'll be back in 10 minutes").
 const NOT_ASKED = /^\s*(?:(?:hey|ok|okay|so|and|but|willo|willow)\b[,!]?\s+)*(?:what|how|where|who|why|when|which|whose|is|are|was|were|am|do|does|did|can|could|will|would|should|shall|may|might|i|i'm|i'll|i've|i'd|we|we're|we'll|brb|be\s+right\s+back)\b/i;
+// Said out loud: "uh", "um" and the greeting aren't words of the ask ("Hey Willow. Remember to uh check on the auction
+// house in five minutes" was thirteen words, one too many: Mike's recording, 10/19).
+export const unfilled = question => String(question || "").replace(/’/g, "'").replace(/\b(?:uh+|um+|uhm|er+|erm|hmm+)\b[,.]?\s*/gi, "")
+  .replace(/^\s*(?:(?:hey|hi|ok|okay|so)\s+)?(?:willo|willow)\b[,.!]?\s*/i, "").replace(/\s+/g, " ").trim();
 export const timedAsk = question => {
-  const q = String(question || "").replace(/’/g, "'");
+  const q = unfilled(question);
   return (minutesAsked(q) !== null || DURATION.test(q)) && !/\?\s*$/.test(q) && !NOT_ASKED.test(q)
-    && q.trim().split(/\s+/).length <= 12;
+    && q.split(/\s+/).length <= 12;
 };
 export function notebookIntent(question, previous = "") {
   const q = String(question || "").replace(/’/g, "'");
-  const move = MOVE.test(q);
+  const relocate = MOVE_PAGE.test(q);
+  const merge = MERGE.test(q);
+  const move = MOVE.test(q) || relocate;
   const remind = REMIND.test(q) || lateMoment(q, previous) || timedAsk(q);
   const clear = CLEAR_ALL.test(q);
   const offer = YES.test(q) && !move && !remind && !WRITE.test(q)
     ? (String(previous || "").match(/[^.!?]*[.!?]*/g) || []).filter(t => OFFERED.test(t)).at(-1) : null;
-  const write = move || remind || WRITE.test(q) || Boolean(offer);
+  const write = move || merge || remind || WRITE.test(q) || Boolean(offer);
   // clear: all of it asked to be cleared. Read, never written: she has no clear-all, so nothing she says may claim one.
   return { write, read: write || READ.test(q) || /\breminders?\b/i.test(q), remind, ...(move ? { move } : {}),
+    ...(relocate ? { relocate } : {}), ...(merge ? { merge } : {}),
     ...(clear ? { clear } : {}), ...(offer && ADD_OFFER.test(offer) && !TAKE_OFFER.test(offer) ? { adding: true } : {}) };
 }
 
@@ -444,7 +497,7 @@ export function notebookView(pages, { current = null, intent = { write: false, r
 
 // ---- Her tools ----
 
-export const NOTEBOOK_TOOLS = ["notebook_add", "notebook_check", "notebook_update", "notebook_remove", "notebook_move",
+export const NOTEBOOK_TOOLS = ["notebook_add", "notebook_check", "notebook_update", "notebook_remove", "notebook_move", "notebook_merge",
   "notebook_remind"];
 // Any notebook_ tool, the notebook's own and those built on its pages (journey pins, LOR-664: notebook_pin), is done when
 // called, so it gets NOTEBOOK_RULES, never the app's actions' "only offers" (lib/companion-answers.js).
@@ -466,7 +519,7 @@ export const NOTEBOOK_RULES = "THE NOTEBOOK: you keep the player's notebook for 
 // plan has them (remind: LOR-663, Hero and up); the page choice only when there's a character's page besides the
 // account's. All of them stay inside lib/companion-answers.js ACTIONS_MAX_BYTES, past which the answer would be offered
 // none.
-export function notebookTools(view, { move = false, remind = false, adding = false } = {}) {
+export function notebookTools(view, { move = false, remind = false, adding = false, merge = false, relocate = false } = {}) {
   const numbered = view.refs.size > 0;
   const two = Boolean(view.current);
   const out = [{ name: "notebook_add",
@@ -511,10 +564,22 @@ export function notebookTools(view, { move = false, remind = false, adding = fal
     parameters: { type: "object", properties: {
       item: { type: "integer", description: "The line's number in NOTEBOOK." },
       text: { type: "string", description: "Its new words, short and tidy." } }, required: ["item", "text"] } });
-  if (move && !remind) out.push({ name: "notebook_move", description: "Move one line to the top or the bottom of its list.",
+  // To the other page (Mike, 10/19: "manage them for me"): this character's, or the one for all their characters.
+  if (relocate && two && !remind) out.push({ name: "notebook_move", description: "Move lines to the other page of their " +
+    "notebook: this character's page, or their page for all characters.",
+    parameters: { type: "object", properties: {
+      items: { type: "array", items: { type: "integer" }, description: "The lines' numbers in NOTEBOOK." },
+      page: { type: "string", enum: ["character", "account"], description: "Where to: character (this character's " +
+        "page) or account (their page for all characters)." } }, required: ["items", "page"] } });
+  else if (move && !remind) out.push({ name: "notebook_move", description: "Move one line to the top or the bottom of its list.",
     parameters: { type: "object", properties: {
       item: { type: "integer", description: "The line's number in NOTEBOOK." },
       to: { type: "string", enum: ["top", "bottom"] } }, required: ["item", "to"] } });
+  if (merge && !remind) out.push({ name: "notebook_merge", description: "Make two or more lines one: their words " +
+    "together in one short, tidy line, keeping every detail.",
+    parameters: { type: "object", properties: {
+      items: { type: "array", items: { type: "integer" }, description: "The lines' numbers in NOTEBOOK, two or more." },
+      text: { type: "string", description: "The one line they become." } }, required: ["items", "text"] } });
   if (!(move && !REMOVEY.test(view.question || ""))) out.push({ name: "notebook_remove", description: "Take lines out of their notebook: \"take … off my list\", \"remove\", " +
     "\"delete\", \"scratch that\".",
     parameters: { type: "object", properties: {
@@ -586,14 +651,17 @@ export function notebookCall(call, offered, view) {
       ...(args.top === true ? { top: true } : {}) } };
   }
   if (call.name === "notebook_remind") return remindCall(args, view);
-  const one = call.name === "notebook_update" || call.name === "notebook_move";
+  const relocating = call.name === "notebook_move" && (args.page === "account" || args.page === "character");
+  const one = call.name === "notebook_update" || (call.name === "notebook_move" && !relocating);
   const named = (one ? nums(args.item).slice(0, 1) : nums(args.items)).map(n => view.refs.get(n)).filter(Boolean);
   if (!named.length) return { missing: true };
   // Only the lines they named. A line that shares no word with what they said (or the talk just before, for "tick that
   // off") is never changed: asked to cross off linen with no linen there, Flash-Lite ticked the copper bars (the blind
   // check, case 7). And a name two lines share asks which: "tick off copper" ticked both copper lines (case 6). A
   // reminder goes by its words and its moment ("the Ironforge reminder").
-  const said = terms(view.question);
+  // A change of words is matched on the words that name the line, never the new ones: "rename my Thor note to Thor the
+  // gryphon master" took the flight master's line of the two about Thor, for its "master" (the vision check, 10/19).
+  const said = call.name === "notebook_update" ? namingTerms(view.question, args.text) : terms(view.question);
   const before = terms(view.previous);
   const byNumber = /\b(?:#?\d{1,2}(?:st|nd|rd|th)?|first|second|third|fourth|fifth|last|top|bottom)\b/i.test(view.question || "");
   const fits = t => [...terms(refWords(t))].some(w => said.has(w) || (REFERS.test(view.question || "") && before.has(w)));
@@ -611,6 +679,14 @@ export function notebookCall(call, offered, view) {
   if (!targets.length) return { missing: true };
   const page = targets[0].page;
   const mine = targets.filter(t => t.page === page);
+  // Lines made one: two or more, on one page (the "which one" below is for a single line).
+  if (call.name === "notebook_merge") {
+    const text = cleanItem(args.text);
+    if (mine.length < 2 || !text) return { say: "Which lines should I make one? Name two or more." };
+    if (mine.length < named.filter(t => !t.reminder).length)
+      return { say: "Those are on different pages, so I can't make them one line. Move one first." };
+    return { page, op: { op: "merge", targets: mine, text } };
+  }
   if (!byNumber && !PLURAL.test(view.question || "")) {
     const shared = [...view.refs.values()].filter(r => !r.reminder && r.page === page && fits(r) && overlap(r.text, said) >= best(mine, said));
     if (shared.length > 1 && (mine.length > 1 || shared.some(r => r.raw !== mine[0].raw))) {
@@ -620,9 +696,32 @@ export function notebookCall(call, offered, view) {
   }
   if (call.name === "notebook_check") return { page, op: { op: "check", targets: mine, done: args.done !== false } };
   if (call.name === "notebook_remove") return { page, op: { op: "remove", targets: mine } };
+  if (relocating) {
+    const to = args.page === "account" || !view.current ? ACCOUNT_PAGE : view.current;
+    if (to === page) return { say: `${mine.length === 1 ? "That's" : "Those are"} on ${to === ACCOUNT_PAGE ? "the page for all your characters" : `${titleOf(to)}'s page`} already.` };
+    const lines = linesOf(view.pages[page]?.body);
+    const moved = mine.map(t => {
+      const i = findLine(lines, t.raw);
+      const head = i >= 0 ? headingOver(lines, i) : -1;
+      return { ...t, ...(i >= 0 && lines[i].kind === "todo" ? { done: lines[i].done } : {}),
+        ...(head >= 0 ? { heading: lines[head].text } : {}) };
+    });
+    return { page, op: { op: "relocate", targets: moved, to } };
+  }
   if (call.name === "notebook_move") return { page, op: { op: "move", target: mine[0], to: args.to === "bottom" ? "bottom" : "top" } };
   const text = cleanItem(args.text);
   return text ? { page, op: { op: "update", target: mine[0], text } } : null;
+}
+
+// The words of a question that name the line to change: before its "to" ("rename X to Y", "change X to say Y"), and
+// any others that aren't the new words.
+function namingTerms(question, text) {
+  const q = String(question || "");
+  const cut = /\s(?:to|into|as)\s/i.exec(q);
+  if (!cut) return terms(q);
+  const named = terms(q.slice(0, cut.index)), fresh = terms(text);
+  for (const w of terms(q)) if (!fresh.has(w)) named.add(w);
+  return named;
 }
 
 // An item in the words they said it in: "Rough stone" back as "rough stones" when they said that (the blind check,
@@ -760,7 +859,7 @@ const DAYPART = /\b(?:am|pm|a\.m|p\.m|morning|afternoon|evening|night|tonight|no
 const IF_MOMENT = String.raw`(?<!\b(?:check|see|ask|find\s+out|know|look))\s+if\b`;
 // "check up on my auction" keeps "on my auction": only "on all my characters" (and its like) ends the words, as "for all my
 // characters" does. Their moment ("in fifteen minutes") is IN_TIME, from the shared HOW_MANY.
-const ASKED_TEXT = new RegExp(String.raw`\b(?:remind|tell|ping|warn|nudge)\s+me\s+(?:to|that|about)\s+(.+?)(?=\s+(?:when|once|as\s+soon\s+as|at\s+(?:\d|noon|midnight)|${IN_TIME}|in\s+the\b|tonight|tomorrow|before|after|on\s+(?:all|every|each)\b|on\s+my\s+(?:other\s+)?(?:characters?|toons?|alts?|chars?)\b|for\s+(?:all|every))\b|${IF_MOMENT}|[,.?!]|$)`, "i");
+const ASKED_TEXT = new RegExp(String.raw`\b(?:(?:remind|tell|ping|warn|nudge)\s+me\s+(?:to|that|about)|(?:remember|don'?t\s+(?:let\s+me\s+)?forget)\s+to)\s+(.+?)(?=\s+(?:when|once|as\s+soon\s+as|at\s+(?:\d|noon|midnight)|${IN_TIME}|in\s+the\b|tonight|tomorrow|before|after|on\s+(?:all|every|each)\b|on\s+my\s+(?:other\s+)?(?:characters?|toons?|alts?|chars?)\b|for\s+(?:all|every))\b|${IF_MOMENT}|[,.?!]|$)`, "i");
 const ASKED_AFTER = /\b(?:hit|reach|get\s+to|am\s+in|'m\s+in|arrive\s+(?:in|at))\s+[^,.?!]*?\bto\s+([^,.?!]+?)\s*[.?!]?$/i;
 // "remember to visit the bank sometime", "don't let me forget to repair": the thing, in their words.
 const ASKED_TODO = new RegExp(String.raw`\b(?:remember|don'?t\s+(?:let\s+me\s+)?forget|remind\s+me)\s+to\s+(.+?)(?=\s+(?:sometime|someday|later|soon|when|once|as\s+soon\s+as|at\s+(?:\d|noon|midnight)|${IN_TIME}|in\s+the\b|tonight|tomorrow|before|after|next|for\s+(?:all|every))\b|${IF_MOMENT}|[,.?!]|$)`, "i");
@@ -771,7 +870,7 @@ function askedTodo(question) {
 }
 
 function askedText(question) {
-  const q = String(question || "").replace(/’/g, "'");
+  const q = unfilled(question);
   const m = ASKED_TEXT.exec(q) || ASKED_AFTER.exec(q);
   const text = m ? cleanItem(m[1], REMIND_CHARS) : "";
   return text && text.split(/\s+/).length <= 10 ? text : "";
@@ -829,10 +928,10 @@ export function lateReminder(view, intent) {
 // auction house" is "check the auction house"; none given ("remind me in 5 min", "set a reminder for 5 minutes"): "time's up".
 const TIMED = new RegExp(String.raw`\b(?:in|for)\s+(?:(?:about|around|roughly)\s+)?half\s+an?\s+hour\b|\b(?:in|for)\s+${HOW_MANY}\s*(?:hours?|hrs?|minutes?|mins?)\b(?:\s+and\s+a\s+half\b)?(?:\s+from\s+now\b)?|\b${HOW_MANY}\s*(?:hours?|hrs?|minutes?|mins?)\s+from\s+now\b`, "gi");
 export function timedText(question) {
-  const t = String(question || "").replace(/’/g, "'").replace(TIMED, " ")
+  const t = unfilled(question).replace(TIMED, " ")
     .replace(/^\s*(?:(?:hey|ok|okay|willo|willow)\b[,!]?\s+)+/i, "")
     .replace(/\b(?:please|can\s+you|could\s+you|would\s+you|will\s+you)\b/gi, " ")
-    .replace(/\b(?:remind|tell|ping|nudge|alert|warn)\s+me\b/gi, " ")
+    .replace(/\b(?:remind|tell|ping|nudge|alert|warn)\s+me\b|\b(?:remember|don'?t\s+(?:let\s+me\s+)?forget)\s+to\b/gi, " ")
     .replace(/\b(?:set|make|add|create|start)\s+(?:me\s+)?(?:an?\s+)?(?:reminder|alarm|timer)\b/gi, " ")
     .replace(/\s+/g, " ").replace(/^[\s,.;:!-]+|[\s,.;:!?-]+$/g, "").replace(/^(?:to|that|about|for)\s+/i, "");
   return cleanItem(t, REMIND_CHARS);
@@ -1010,6 +1109,7 @@ export function namedLines(op, changed, page) {
   if (op.op === "check") return op.done === false ? [`Unticked: ${what}.`]
     : [`Ticked off: ${what}.`, `Done, and ticked: ${what}.`, `${cap(what)}: ticked off. Well done.`];
   if (op.op === "update") return [`Changed: ${what} now reads ${plain(op.text)}.`, `Now it reads: ${plain(op.text)}.`];
+  if (op.op === "merge") return [`Made one line: ${plain(op.text)}.`, `Merged into one: ${plain(op.text)}.`];
   if (op.op === "remove") return [`Taken off your list: ${what}.`, `Gone from your list: ${what}.`, `Struck off: ${what}.`];
   if (op.op === "move") return op.to === "top" ? [`Moved to the top of your list: ${what}.`, `${cap(what)} goes first now.`]
     : [`Moved to the bottom of your list: ${what}.`, `${cap(what)} goes last now.`];
@@ -1034,6 +1134,18 @@ export function alreadyLine(op) {
 // added…").
 const CLAIMED = /\b(?:I(?:'ve|\s+have|\s+just)?|I'll|we've)\s+(?:just\s+|now\s+|also\s+|gone\s+ahead\s+and\s+)?(?:added|moved|put|placed|ticked|crossed|noted|updated|changed|removed|written|wrote|saved|marked|jotted|deleted|taken|bumped|listed|set|cleared|wiped|emptied|erased)\b|\b(?:notebook|list|page|to-?do(?:\s+list)?)\s+(?:now\s+)?(?:shows|has|lists|reads)\b[^.?!]*\bnow\b|\bnow\s+(?:shows|has|lists|reads)\b|\bis\s+now\s+(?:first|at\s+the\s+(?:top|bottom)|on\s+your|in\s+your)\b|^\s*(?:done|noted|got\s+it|all\s+set|added|moved|sure|of\s+course|absolutely|certainly|happy\s+to|will\s+do|okay|ok)\b[^.?!]{0,20}[.!]?\s*$|\b(?:I'll|I\s+will|I\s+shall|I'm\s+going\s+to)\s+(?:\w+\s+){0,3}(?:remind|tell|ping|nudge|alert|let\s+you\s+know|call\s+(?:it|that)\s+out)\b/i;
 export const NO_CHANGE_LINE = "I haven't changed your notebook yet. Tell me what to add, tick off or move.";
+// A claim of writing to their notes, list, map or pins in an answer that wrote nothing, whatever the question was: the
+// notebook's guard (unclaimed) runs only when the notebook is in play, and "mark this as a spot that's cool to look out
+// from" got "I have marked the Gates of Ironforge in your notes" with nothing written (Mike, 10/19).
+export const NOTE_CLAIM = /\b(?:I(?:'ve|\s+have|\s+just)?|I'll|I\s+will)\s+(?:just\s+|now\s+|also\s+|gone\s+ahead\s+and\s+)?(?:marked|noted|pinned|added|saved|written|wrote|jotted|put|kept|stored|recorded|logged|mark|note|pin|add|save|write|jot|keep|store|record)\b[^.?!]{0,80}\b(?:notes?|notebook|list|map|pins?|journal|to-?dos?)\b|\b(?:I(?:'ve|\s+have|\s+just)?|I'll|I\s+will)\s+(?:just\s+|now\s+|also\s+)?(?:pinned|marked|pin|mark)\b/i;
+export const NOT_WRITTEN_LINE = "I haven't written that down. Say \"pin this spot\" for where you stand, or \"note that…\", and I will.";
+// Her answer without the claim: the line that's true, and what else she said that isn't about her notebook.
+export function notWritten(answer) {
+  const sentences = String(answer || "").match(/[^.!?]+[.!?]*\s*/g) || [];
+  const rest = sentences.filter(t => !NOTE_CLAIM.test(t) && !/\b(?:notes?|notebook|list|pins?|journal|to-?dos?)\b/i.test(t)
+    && !CLAIMED.test(t)).join("").trim();
+  return rest ? `${NOT_WRITTEN_LINE} ${rest}` : NOT_WRITTEN_LINE;
+}
 export const NO_REMINDER_LINE = "I haven't set a reminder yet. Tell me where or when, and what to say.";
 // Asked to clear all of it: she can't, so never a line that says she did (the stream, 10/18: "I have cleared your notes").
 export const NO_CLEAR_LINE = "I can't clear your whole notebook myself. Tell me which lines to take off your list, and I will.";
@@ -1120,7 +1232,7 @@ export const UNSAVED_LINE = "I couldn't write that in your notebook just now. As
 // wrote, moved or added are never kept: the model's words claimed a move that never happened and an add that was a
 // duplicate (the blind check, cases 3 and 12; the quality owner: confirmations from what the site really wrote). Its
 // pages in plain words, never "account page".
-const WROTE = /\b(?:add(?:ed|ing)?|not(?:ed|e|ing)|tick(?:ed|ing)?|cross(?:ed|ing)?|tak(?:en|e|ing)|remov(?:ed|e|ing)|delet(?:ed|e|ing)|wr(?:ote|itten|ite|iting)|put|plac(?:ed|e|ing)|mov(?:ed|e|ing)|chang(?:ed|e|ing)|updat(?:ed|e|ing)|sav(?:ed|e|ing)|list|notebook|notes|entr(?:y|ies)|top|bottom|done|got\s+it|all\s+set)\b/i;
+const WROTE = /\b(?:add(?:ed|ing)?|not(?:ed|e|ing)|tick(?:ed|ing)?|cross(?:ed|ing)?|tak(?:en|e|ing)|remov(?:ed|e|ing)|delet(?:ed|e|ing)|wr(?:ote|itten|ite|iting)|put|plac(?:ed|e|ing)|mov(?:ed|e|ing)|chang(?:ed|e|ing)|updat(?:ed|e|ing)|sav(?:ed|e|ing)|list|notebook|notes|entr(?:y|ies)|top|bottom|done|got\s+it|all\s+set|combin(?:ed|e|ing)|merg(?:ed|e|ing)|join(?:ed|ing)?|clear(?:ed|ing)?|undo(?:ne)?|restor(?:ed|e|ing))\b/i;
 // question: theirs. An add's line stands alone unless they asked something else too ("Written down: Visit the bank."
 // came with a sentence of bank lore: the voice check, 10/18), and so does the no-moment one (her words were "as a
 // Paladin, you don't have a pet").
@@ -1149,11 +1261,12 @@ const REMINDED = /\b(?:remind(?:er|ed|ing)?|(?:i'?ll|i\s+will|i'm\s+going\s+to)\
 
 // This character's page and the account's, and their reminders not said yet, for an answer: one batch of indexed
 // reads, alongside the answer's other look-ups. {pages, reminders}.
-export async function readNotebook(env, userId, current = null) {
+// prev: each page's version before its last change too, for "undo that" (lib/willo-notebook-manage.js undoPages).
+export async function readNotebook(env, userId, current = null, { prev = false } = {}) {
   const pages = [ACCOUNT_PAGE, ...(current ? [current] : [])];
   const marks = pages.map(() => "?").join(", ");
   const [found, waiting] = await env.DB.batch([
-    env.DB.prepare(`SELECT page, title, body, version, updated FROM notebook_pages WHERE user_id = ? AND page IN (${marks})`)
+    env.DB.prepare(`SELECT page, title, body, version, updated${prev ? ", prev_body" : ""} FROM notebook_pages WHERE user_id = ? AND page IN (${marks})`)
       .bind(userId, ...pages),
     env.DB.prepare(`SELECT ${REMINDER_COLUMNS} FROM notebook_reminders WHERE user_id = ? AND fired IS NULL AND page IN (${marks}) ` +
       "ORDER BY created").bind(userId, ...pages),

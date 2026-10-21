@@ -128,6 +128,8 @@ end
 
 Voice.active, Voice.chain, Voice.stats, Voice.total, Voice.provided, Voice.servedBy = {}, {}, {}, 0, {}, {}
 Voice.questPaths, Voice.questServed = {}, {}   -- quest dialogue picked for an open quest window (Voice.QuestClip)
+Voice.questWords = {}   -- what it reads, when that isn't the window's text (a recording in another language, Voice.QuestClip)
+Voice.questTitles = {}  -- and the quest's title in that language, for the subtitles and the player
 Voice.answerPaths, Voice.answerServed = {}, {}   -- the answers packs' questions and answers (LOR-227, Refresh)
 
 -- Put a voice first in the list and tick it, along with the default voice (what choosing a voice always meant: that
@@ -682,7 +684,8 @@ function Voice.Refresh()
     stats[list[1][1]].plays = stats[list[1][1]].plays + 1
   end
   -- Quest dialogue (quest:<id>#detail|progress|complete, from the voices' quest packs): each voice with a current
-  -- recording, in list order, with the fingerprints of the words it reads ({ voice, path, fingerprint rows }).
+  -- recording, in list order, with the fingerprints of the words it reads ({ voice, path, fingerprint rows, and for a
+  -- pack in another language its name, for Voice.QuestClip's English-client path and its words }).
   -- Voice.QuestClip picks one when a quest window opens. An English recording is current when its hash is
   -- ns.DB.questClip's, and reads ns.DB.questVoice's words; a quest pack in another language (LOR-226,
   -- LoreForever_Voice_Female_Quests_deDE) brings the fingerprints of the game's own text in its language
@@ -697,7 +700,8 @@ function Voice.Refresh()
         if not seen[id] and (own and isQuestClip(id) or questHash[id] == h) then
           seen[id] = true
           questRanked[id] = questRanked[id] or {}
-          table.insert(questRanked[id], { name, Voice.ClipPath(pack, id, data.ext), own or ns.DB.questVoice })
+          table.insert(questRanked[id], { name, Voice.ClipPath(pack, id, data.ext), own or ns.DB.questVoice,
+            own and pack or nil })
         end
       end
     end
@@ -827,6 +831,9 @@ Voice.hinted = {}
 function Voice.OnZone(zk)
   if ns.lang and ns.lang.edition then return end
   if not zk or Voice.hinted[zk] or S().packHints == false or Voice.Current() == "none" then return end
+  -- The lands packs are English only: in another language its narrator's own pack (and its more people pack) has the
+  -- places and people, so there's no lands pack to point to (QA 10/19: French named the English Alliance lands pack).
+  if not sameLanguage(readingLocale(), "enUS") then return end
   if not Voice.ready then Voice.Refresh() end
   local db = ns.DB or {}
   local zone = db.zones and db.zones[zk]
@@ -2185,9 +2192,19 @@ end
 -- leaving Voice.questPaths as it is (a tooltip or the playlist's + asking, UI.QuestPageClip).
 local GENDER_CODE = { f = "female", m = "male" }
 -- Each recording is checked against the fingerprints of the words it reads: ns.DB.questVoice's for English, a quest
--- pack's own in another language (LOR-226), so an English recording never plays over German text, nor a German one
--- over English. The quest's row in the add-on's data names its clip and who says each page; a quest only a pack in
--- another language has (its English left the data since) goes by its quest ID.
+-- pack's own in another language (LOR-226), so an English recording never plays over German text. One exception
+-- (Mike 10/19): with the game's text in English and Lore Forever in another language, that language's recording plays
+-- over the English page when the page is the one the add-on's English data has (its words match ns.DB.questVoice's)
+-- and the pack recorded that part from its language's current text; the subtitles then show the pack's own words
+-- (P.questText, Voice.questWords), not the English window's. A game in that language keeps the matched-text path. The
+-- quest's row in the add-on's data names its clip and who says each page; a quest only a pack in another language has
+-- (its English left the data since) goes by its quest ID.
+local function gameInEnglish()
+  local ok, loc = false, nil
+  if GetLocale then ok, loc = pcall(GetLocale) end
+  return sameLanguage(ok and loc or "enUS", "enUS")
+end
+
 function Voice.QuestClip(qid, kind, text, unchecked, peek)
   if ns.lang and ns.lang.edition then return nil end
   local part = QUEST_PART[kind]
@@ -2231,9 +2248,15 @@ function Voice.QuestClip(qid, kind, text, unchecked, peek)
     return shown == nil
   end
   if giver and not reads(giverRows) then giver = nil end
-  local fits = {}
+  local english = gameInEnglish() and ns.DB and ns.DB.questVoice
+  local function across(v)   -- a recording in another language over the game's English page (see above)
+    local row = english and v[4] and type(v[3]) == "table" and v[3][qid]
+    return type(row) == "table" and type(row[part]) == "string" and row[part] ~= "" and reads(english)
+  end
+  local fits, crossed = {}, {}
   for _, v in ipairs(list) do
-    if reads(v[3]) then fits[#fits + 1] = v end
+    if reads(v[3]) then fits[#fits + 1] = v
+    elseif across(v) then fits[#fits + 1], crossed[v] = v, true end
   end
   if not fits[1] and not giver then return nil end
   if peek then return id end
@@ -2248,6 +2271,16 @@ function Voice.QuestClip(qid, kind, text, unchecked, peek)
   for _, v in ipairs(order) do paths[#paths + 1] = v[2] end
   -- Kept apart from Voice.active / servedBy, which list and count the lore narrations (Listen tab, Status).
   Voice.questPaths[id], Voice.questServed[id] = paths, giver and giverPack or order[1][1]
+  local first = not giver and order[1]
+  Voice.questWords[id], Voice.questTitles[id] = nil, nil
+  if first and crossed[first] then
+    local data = ns.Packs.data[first[4]] or {}
+    local said = type(data.questText) == "table" and data.questText[id]
+    local named = type(data.questTitle) == "table" and data.questTitle[id:match("^quest:(%d+)#") or ""]
+    -- (false: a pack from before P.questText; its words aren't known, and the English window's aren't the ones heard)
+    Voice.questWords[id] = type(said) == "string" and said or false
+    Voice.questTitles[id] = type(named) == "string" and named ~= "" and named or nil
+  end
   return id
 end
 
@@ -2260,7 +2293,8 @@ local function questTarget(qid, kind, recorded)
   local key = voiced and Voice.QuestClip(qid, kind) or nil
   if not key then return nil end
   local id = QUEST_PREFIX .. qid .. ":" .. kind
-  return { id = id, key = key, label = (GetTitleText and GetTitleText()) or L["Quest"], text = questPage(kind),
+  return { id = id, key = key, label = Voice.questTitles[key] or (GetTitleText and GetTitleText()) or L["Quest"],
+    text = questPage(kind),
     story = recorded }
 end
 

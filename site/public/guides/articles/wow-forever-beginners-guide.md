@@ -3,7 +3,6 @@ title: WoW Forever Beginner's Guide (2026): How to Start Playing and What to Kno
 description: How to start WoW Forever: pick a ruleset, class and faction, get through your first ten levels, earn gold, and follow the story of Azeroth as you go.
 date: 2026-10-17
 kind: tutorial
-draft: true
 ---
 *New to World of Warcraft: Forever? Here's everything you need to know before your first adventure, from choosing your class to leveling, earning gold, and discovering the world of Azeroth.*
 

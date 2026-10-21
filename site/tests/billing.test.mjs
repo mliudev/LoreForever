@@ -14,9 +14,11 @@ import { onRequest as billing } from "../functions/api/billing/[action].js";
 import { onRequest as answer } from "../functions/api/companion/answer.js";
 import { findOrCreateUser, startSession, setup, deleteUser } from "../lib/accounts.js";
 import { startLink, decideLink, claimToken } from "../lib/devices.js";
-import { setupBilling, planFor, companionFeatures, INTEGRATION_ID, PLANS } from "../lib/billing.js";
+import { setupBilling, planFor, companionFeatures, INTEGRATION_ID, PLANS, TASTE_ANSWERS } from "../lib/billing.js";
 import { allowance, ANSWER_MODEL, LITE_MODEL, RESEARCH_MODEL, SMART_MODEL } from "../lib/companion-answers.js";
 import { optOut } from "../lib/email.js";
+import { setupWilloCustom } from "../lib/willo-custom.js";
+import { TRIAL, trialView } from "../lib/best-first.js";
 
 import { d1 } from "./helpers.mjs";
 
@@ -131,9 +133,11 @@ const entitle = (user, plan, status, endDays) => env.DB.prepare(
   "INSERT OR REPLACE INTO entitlements (user_id, subscription_id, plan, status, current_period_end, updated) VALUES (?, ?, ?, ?, ?, ?)"
 ).bind(user.id, `sub-${user.id}`, plan, status, new Date(NOW + endDays * 86400e3).toISOString(), new Date(NOW).toISOString()).run();
 
-// The account's first answers at Willo's best (lib/best-first.js) already had: `used` of them.
-const tasted = (user, used = 20) => env.DB.prepare("INSERT OR REPLACE INTO best_first (claim, user_id, used) VALUES (?, ?, ?)")
-  .bind(`taste:test-${user.id}`, user.id, used).run();
+// The account's first answers at Willo's best (lib/best-first.js) already had: `used` of them, the first `daysAgo`
+// (null: its first-run trial's days not started yet; past TRIAL_DAYS: over).
+const tasted = (user, used = TASTE_ANSWERS, daysAgo = null) => env.DB.prepare("INSERT OR REPLACE INTO best_first (claim, user_id, " +
+  "used, started) VALUES (?, ?, ?, ?)").bind(`taste:test-${user.id}`, user.id, used,
+  daysAgo === null ? null : new Date(NOW - daysAgo * 86400e3).toISOString()).run();
 
 const daily = async user => {
   const a = await allowance(env, user.id);
@@ -311,18 +315,18 @@ test("a whole refund of the current period's payment ends the plan; an older mon
 
 test("daily answers: free, Hero while active or past due, Champion, an ended period, and the brake", async () => {
   const free = await linkedDaysAgo("free", 30), hero = await linkedDaysAgo("hero", 30), champion = await linkedDaysAgo("champ", 3);
-  assert.deepEqual(await daily(free), ["free", 20]);
+  assert.deepEqual(await daily(free), ["free", 30]);
   await entitle(hero, "hero", "active", 20);
   assert.deepEqual(await daily(hero), ["hero", 100]);
   await entitle(hero, "hero", "past_due", 20);
   assert.deepEqual(await daily(hero), ["hero", 100], "a failed payment keeps the plan while Stripe retries");
   await entitle(champion, "champion", "active", 20);
   assert.deepEqual(await daily(champion), ["champion", 200]);
-  // The month's pool rides along, as plans are sold ("1,900 answers a month"): Mike's QA, 10/15.
+  // The month's pool rides along, as plans are sold ("3,000 answers a month"): Mike's QA, 10/15; pools set 10/19.
   const month = (await allowance(env, champion.id)).month;
-  assert.deepEqual([month.limit, month.remaining], [1900, 1900]);
+  assert.deepEqual([month.limit, month.remaining], [3000, 3000]);
   await entitle(hero, "hero", "active", -1);
-  assert.deepEqual(await daily(hero), ["free", 20], "a period that ended is the free plan");
+  assert.deepEqual(await daily(hero), ["free", 30], "a period that ended is the free plan");
 
   await entitle(hero, "hero", "active", 20);
   await env.DB.prepare("INSERT INTO story_spend (month, micro_usd) VALUES ('2026-10', 80000001)").run();
@@ -335,15 +339,25 @@ test("the allowance tells the companion what each plan may do", async () => {
   const free = await linkedDaysAgo("free", 3), hero = await linkedDaysAgo("hero", 3), champion = await linkedDaysAgo("champ", 3);
   await entitle(hero, "hero", "active", 20);
   await entitle(champion, "champion", "active", 20);
-  assert.deepEqual((await allowance(env, free.id)).features,
-    { voices: "default", push_to_talk: true, sight: true, npc_voices: false, research: true, reminders: false },
-    "its first answers at Willo's best (lib/best-first.js): asked out loud, seeing the game, looking online");
-  await tasted(free);
+  const trying = { voices: "all", push_to_talk: true, sight: true, npc_voices: false, research: true, reminders: true };
+  assert.deepEqual((await allowance(env, free.id)).features, trying,
+    "its first answers at Willo's best and its first-run trial (lib/best-first.js): asked out loud, seeing the game, " +
+    "looking online, her voices on the PC, goals and reminders");
+  await tasted(free, TASTE_ANSWERS, 3);
+  assert.deepEqual((await allowance(env, free.id)).features, trying, "the trial's days go on after the 20");
+  await env.DB.prepare("UPDATE best_first SET lookups = ?, tries = ? WHERE user_id = ?")
+    .bind(TRIAL.lookups, JSON.stringify({ sight: TRIAL.sight }), free.id).run();
+  assert.deepEqual((await allowance(env, free.id)).features, { ...trying, sight: false, research: false },
+    "its look-ups and pictures used");
+  await tasted(free, TASTE_ANSWERS, 15);
   assert.deepEqual((await allowance(env, free.id)).features,
     { voices: "default", push_to_talk: true, sight: false, npc_voices: false, research: false, reminders: false },
-    "while its starter lasts, asking out loud gets an answer aloud in Willo's default voice (site/tests/companion-voice.test.mjs)");
+    "the trial's days over: asking out loud gets an answer aloud in Willo's default voice (site/tests/companion-voice.test.mjs)");
+  // Option D (10/19): the free plan's studio voice is on every spoken answer, not a counted starter, so none left changes
+  // nothing. (companionFeatures reads PLAN_VOICE.free itself, so the old text-only ending can't be given a plan here.)
   assert.deepEqual(companionFeatures(PLANS.free, { starter: 0 }),
-    { voices: "none", push_to_talk: false, sight: false, npc_voices: false, research: false, reminders: false }, "after it: text, typed");
+    { voices: "default", push_to_talk: true, sight: false, npc_voices: false, research: false, reminders: false },
+    "no starter count any more: always asking out loud, always her default voice");
   for (const user of [hero, champion]) {
     assert.deepEqual((await allowance(env, user.id)).features,
       { voices: "all", push_to_talk: true, sight: true, npc_voices: true, research: true, reminders: true });
@@ -356,7 +370,7 @@ test("what paying players' answers cost never uses up the free players' budget",
   env.DB.sqlite.exec("INSERT INTO answer_spend (month, reserved_micro, actual_micro, calls) VALUES ('2026-10', 90000000, 90000000, 9000)");
   env.DB.sqlite.exec("INSERT INTO answer_user_spend (user_id, month, micro, calls) VALUES ('someone', '2026-10', 90000000, 9000)");
   const a = await allowance(env, free.id);
-  assert.deepEqual([a.limit, a.available], [20, true], "no brake, and the shared budget is still open");
+  assert.deepEqual([a.limit, a.available], [30, true], "no brake, and the shared budget is still open");
   // The same spend by free players: the brake is on and the budget is nearly gone.
   env.DB.sqlite.exec("DELETE FROM answer_user_spend");
   env.STORY_BUDGET_USD = "90";
@@ -577,7 +591,7 @@ test("a paid finest-voice pack is credited once, whatever events arrive; a refun
 
 test("a failed answer gives its starter answer back", async () => {
   const { user, ask } = await companionPlayer("budget", { starter: 30 });
-  await usedToday(user, "companion-answer", 20);
+  await usedToday(user, "companion-answer", 30);
   const working = globalThis.fetch;
   globalThis.fetch = async () => Response.json({ error: { message: "overloaded" } }, { status: 503 });
   try { assert.equal((await ask()).status, 502); } finally { globalThis.fetch = working; }
@@ -633,12 +647,12 @@ test("a failed answer gives back the day and the month it was counted on, howeve
 
 test("out of answers: Willo's words for when they come back, Hero the free plan's one offer, nothing for Legend", async () => {
   const { user, ask } = await freePlayer("broke");
-  await usedToday(user, "companion-answer", 20);
+  await usedToday(user, "companion-answer", 30);
   const out = await ask();
   assert.equal(out.status, 429);
   assert.equal(out.body.error, "My light's spent for today. The Moonwell refills it tomorrow.",
     "only when they come back: the companion starts its lore-library answer with these words");
-  assert.deepEqual(out.body.offers, [{ id: "hero", text: "Get Hero: 900 answers a month", url: "/plans" }]);
+  assert.deepEqual(out.body.offers, [{ id: "hero", text: "Get Hero: 1,500 answers a month", url: "/plans" }]);
 
   // With plans off, the 20 free answers a day and nothing for sale.
   delete env.SITE_FEATURES;
@@ -661,11 +675,14 @@ test("out of answers: Willo's words for when they come back, Hero the free plan'
 
 // ---- The launch plans (Mike, 2026-10-12) ----
 
-test("free with plans on: 20 a day, then the 30-answer starter, once per Google account, then a 429 with offers", async () => {
+test("free with plans on: 30 a day, then the 30-answer starter, once per Google account, then a 429 with offers", async () => {
   const { user, ask } = await companionPlayer("newcomer");
   const first = await allowance(env, user.id);
-  assert.deepEqual([first.limit, first.remaining], [20, 50], "the day's 20 and the starter");
-  for (let i = 0; i < 50; i++) assert.equal((await ask()).status, 200, `answer ${i + 1}`);
+  assert.deepEqual([first.limit, first.remaining, first.extra], [30, 60, 30], "the day's 30 and the starter");
+  for (let i = 0; i < 30; i++) assert.equal((await ask()).status, 200, `answer ${i + 1}`);
+  const dayGone = await allowance(env, user.id);
+  assert.deepEqual([dayGone.limit, dayGone.remaining, dayGone.extra], [30, 30, 30], "today's are gone: the starter's left");
+  for (let i = 30; i < 60; i++) assert.equal((await ask()).status, 200, `answer ${i + 1}`);
   assert.deepEqual(starterLeft(user), [0]);
   assert.equal(env.DB.sqlite.prepare("SELECT COUNT(*) AS n FROM answer_user_spend").get().n, 0,
     "starter answers are free: none of their cost is the player's");
@@ -673,7 +690,7 @@ test("free with plans on: 20 a day, then the 30-answer starter, once per Google 
   assert.equal(out.status, 429);
   assert.match(out.body.error, /^My light's spent for today\./);
   assert.deepEqual(out.body.offers.map(o => o.id), ["hero"]);
-  assert.equal(gemini.length, 50);
+  assert.equal(gemini.length, 60);
   // Connecting the companion again doesn't bring another starter.
   env.DB.sqlite.prepare("DELETE FROM devices WHERE user_id = ?").run(user.id);
   env.DB.sqlite.prepare("INSERT INTO devices (id, token_hash, user_id, label, created) VALUES ('again', 'again', ?, 'companion', ?)")
@@ -684,12 +701,13 @@ test("free with plans on: 20 a day, then the 30-answer starter, once per Google 
   await deleteUser(env, user);
   const again = await companionPlayer("newcomer");
   assert.notEqual(again.user.id, user.id);
-  assert.equal((await allowance(env, again.user.id)).remaining, 20, "today's 20, and no starter");
+  const fresh = await allowance(env, again.user.id);
+  assert.deepEqual([fresh.remaining, fresh.extra], [30, 0], "today's 30, and no starter");
 });
 
 test("starter answers wait for the shared budget like free ones, and one that can't be answered goes back", async () => {
   const { user, ask } = await companionPlayer("thrifty");
-  await usedToday(user, "companion-answer", 20);
+  await usedToday(user, "companion-answer", 30);
   env.STORY_BUDGET_USD = "0";
   try {
     const full = await ask();
@@ -703,9 +721,9 @@ test("starter answers wait for the shared budget like free ones, and one that ca
 // A stand-in JPEG: the site checks only its FF D8 FF start.
 const jpeg = Buffer.concat([Buffer.from([0xff, 0xd8, 0xff, 0xe0]), Buffer.alloc(296, 7)]).toString("base64");
 
-test("after their first 20, free answers stay with the lore: no looking online, no game picture, and the LORE FOCUS block", async () => {
+test("after their first-run trial, free answers stay with the lore: no looking online, no game picture, and the LORE FOCUS block", async () => {
   const { user, ask } = await companionPlayer("lorekeeper");
-  await tasted(user);
+  await tasted(user, TASTE_ANSWERS, 15);
   const required = await ask({ research_required: true, persona: "willo", style: "spoken", image: jpeg });
   assert.equal(required.status, 200, JSON.stringify(required.body));
   assert.equal(required.body.looked_up, "off");          // asked to look; the free plan never does (LOR-627)
@@ -722,17 +740,18 @@ test("after their first 20, free answers stay with the lore: no looking online, 
   }
 });
 
-test("a new free player's first 20 answers are at Willo's best, counted only when answered; the day's cap turns them away", async () => {
+test("a new free player's first answers are at Willo's best, counted only when answered; the day's cap turns them away", async () => {
   const { user, ask } = await companionPlayer("newcomer");
   const mine = () => env.DB.prepare("SELECT used, voices, lookups FROM best_first WHERE user_id = ?").bind(user.id).first();
-  assert.deepEqual((await allowance(env, user.id)).taste, { of: 20, left: 20, on: true });
+  const T = TASTE_ANSWERS;
+  assert.deepEqual((await allowance(env, user.id)).taste, { of: T, left: T, on: true });
   // Asked out loud with a picture: Willo sees the game, without the free plan's LORE FOCUS, and the answer earns one
   // reply in her finest voice (site/tests/companion-voice.test.mjs says it).
   const spoken = await ask({ persona: "willo", style: "spoken", image: jpeg });
   assert.equal(spoken.status, 200, JSON.stringify(spoken.body));
   assert.equal(gemini[0].body.contents[0].parts.length, 2, "the picture goes with it");
   assert.doesNotMatch(gemini[0].body.systemInstruction.parts[0].text, /LORE FOCUS/);
-  assert.deepEqual(spoken.body.allowance.taste, { of: 20, left: 19, on: true });
+  assert.deepEqual(spoken.body.allowance.taste, { of: T, left: T - 1, on: true });
   // Typed, with research: it looks online, one of its few look-ups, and earns no spoken reply.
   assert.equal((await ask({ research_required: true })).status, 200);
   assert.deepEqual(gemini[1].body.tools, [{ googleSearch: {} }]);
@@ -749,30 +768,105 @@ test("a new free player's first 20 answers are at Willo's best, counted only whe
     const capped = await ask({ research_required: true });
     assert.equal(capped.status, 200);
     assert.equal(gemini.at(-1).body.tools, undefined);
-    assert.match(gemini.at(-1).body.systemInstruction.parts[0].text, /LORE FOCUS/);
-    assert.deepEqual(capped.body.allowance.taste, { of: 20, left: 18, on: false, why: "resting" });
-    assert.equal((await mine()).used, 2);
+    assert.doesNotMatch(gemini.at(-1).body.systemInstruction.parts[0].text, /LORE FOCUS/, "still in the trial's days");
+    assert.deepEqual(capped.body.allowance.taste, { of: T, left: T - 2, on: false, why: "resting" });
+    assert.deepEqual(await mine(), { used: 2, voices: 1, lookups: 1 }, "the look-up the cap turned away went back");
   } finally { delete env.TASTE_DAY_USD; }
   const day = env.DB.sqlite.prepare("SELECT answers, starts, capped, spent_micro FROM best_first_days").get();
   assert.deepEqual([day.answers, day.starts, day.capped], [2, 1, 1]);
   assert.ok(day.spent_micro > 0, "what they cost is on the day");
   // All 20 used: the free path, and once per Google account, even after "Delete my account".
-  await env.DB.prepare("UPDATE best_first SET used = 20 WHERE user_id = ?").bind(user.id).run();
-  assert.deepEqual((await allowance(env, user.id)).taste, { of: 20, left: 0, on: true }, "its last finest reply is still owed");
+  await env.DB.prepare("UPDATE best_first SET used = ? WHERE user_id = ?").bind(T, user.id).run();
+  assert.deepEqual((await allowance(env, user.id)).taste, { of: T, left: 0, on: true }, "its last finest reply is still owed");
   await env.DB.prepare("UPDATE best_first SET voices = 0 WHERE user_id = ?").bind(user.id).run();
-  assert.deepEqual((await allowance(env, user.id)).taste, { of: 20, left: 0, on: false, why: "used" });
+  assert.deepEqual((await allowance(env, user.id)).taste, { of: T, left: 0, on: false, why: "used" });
   await env.DB.prepare("DELETE FROM best_first").run();
   assert.equal((await ask()).status, 200);
   await deleteUser(env, user);
   const back = await companionPlayer("newcomer");
-  assert.deepEqual((await allowance(env, back.user.id)).taste.left, 19, "the same Google account keeps its count");
+  assert.deepEqual((await allowance(env, back.user.id)).taste.left, T - 1, "the same Google account keeps its count");
+});
+
+test("in a new free player's first-run trial days after their 20: a few look-ups and pictures, her style, longer memory", async () => {
+  // Mike, 2026-10-19: "the best voice models and all the features that Willow has to offer for a limited time, like a
+  // limited number of uses for just about everything" (lib/best-first.js TRIAL).
+  const { user, ask } = await companionPlayer("trier");
+  await tasted(user, TASTE_ANSWERS, 3);
+  const mine = () => env.DB.prepare("SELECT lookups, tries FROM best_first WHERE user_id = ?").bind(user.id).first();
+  await setupWilloCustom(env);
+  await env.DB.prepare("INSERT INTO custom_prompts (user_id, kind, target, tale, text, preset, status, created, updated) " +
+    "VALUES (?, 'style', '', 'mine', 'Call me Captain.', 'bard', 'ok', ?, ?)").bind(user.id, "2026-10-10", "2026-10-10").run();
+  const trial = (await allowance(env, user.id)).trial;
+  assert.deepEqual(trial, { on: true, until: "2026-10-15T12:00:00.000Z",
+    uses: { web: { of: TRIAL.lookups, left: TRIAL.lookups }, sight: { of: TRIAL.sight, left: TRIAL.sight },
+            characters: { of: TRIAL.cast, left: TRIAL.cast } },
+    opens: ["voices", "memory", "style", "tales", "goals", "talk"] });
+  // Asked out loud with a picture: Willo sees the game, in the player's style, without the free plan's LORE FOCUS; the
+  // picture is one of the trial's.
+  const seen = await ask({ persona: "willo", style: "spoken", image: jpeg });
+  assert.equal(seen.status, 200, JSON.stringify(seen.body));
+  assert.equal(gemini[0].body.contents[0].parts.length, 2, "the picture goes with it");
+  const system = gemini[0].body.systemInstruction.parts[0].text;
+  assert.doesNotMatch(system, /LORE FOCUS/);
+  assert.match(system, /In the player's own words: "Call me Captain\."/);
+  assert.deepEqual(seen.body.lookups.includes("sight"), true);
+  assert.deepEqual(JSON.parse((await mine()).tries), { sight: 1 });
+  assert.deepEqual(seen.body.allowance.trial.uses.sight, { of: TRIAL.sight, left: TRIAL.sight - 1 }, "her window shows it");
+  // Typed, with research: one of the trial's look-ups; its last gone, the lore and nothing online.
+  const looked = await ask({ research_required: true });
+  assert.equal(looked.status, 200);
+  assert.deepEqual(gemini[1].body.tools, [{ googleSearch: {} }]);
+  assert.equal((await mine()).lookups, 1);
+  assert.deepEqual(looked.body.allowance.trial.uses.web, { of: TRIAL.lookups, left: TRIAL.lookups - 1 });
+  // The last picture: the reply says none are left, and that she no longer sees the game.
+  await env.DB.prepare("UPDATE best_first SET tries = ? WHERE user_id = ?")
+    .bind(JSON.stringify({ sight: TRIAL.sight - 1 }), user.id).run();
+  const last = await ask({ persona: "willo", style: "spoken", image: jpeg });
+  assert.equal(gemini[2].body.contents[0].parts.length, 2);
+  assert.deepEqual([last.body.allowance.trial.uses.sight.left, last.body.allowance.features.sight], [0, false]);
+  await env.DB.prepare("UPDATE best_first SET lookups = ?, tries = ? WHERE user_id = ?")
+    .bind(TRIAL.lookups, JSON.stringify({ sight: TRIAL.sight }), user.id).run();
+  assert.equal((await ask({ research_required: true, style: "spoken", image: jpeg })).status, 200);
+  assert.equal(gemini[3].body.tools, undefined);
+  assert.equal(gemini[3].body.contents[0].parts.length, 1, "the trial's pictures are used");
+  // Asked what they're trying: her help has the trial, plainly; a quest's "Trial of ..." isn't asked about her.
+  assert.equal((await ask({ prompt: "QUESTION\nWhat am I trying right now?", persona: "willo" })).status, 200);
+  assert.match(gemini.at(-1).body.systemInstruction.parts[0].text,
+    /They're trying what their plan doesn't have yet, their first-run trial, until October 15: looking things up/);
+  const { helpTopics } = await import("../lib/willo-help.js");
+  for (const q of ["How many tries do I have left?", "What's in my trial?", "What am I trying?"])
+    assert.ok(helpTopics(q).includes("plans"), q);
+  for (const q of ["What am I trying to do in this quest?", "Where does the Trial of the Sea Lion start?"])
+    assert.ok(!helpTopics(q).includes("plans"), q);
+  gemini.splice(-1);
+  // Chat memory keeps twice as much in the trial's days, as Champion's does.
+  assert.equal((await ask({ operation: "compact", prompt: "PREVIOUS MEMORY\nPepper" })).status, 200);
+  assert.match(gemini[4].body.systemInstruction.parts[0].text, /at most 700 words and 4,800 UTF-8 bytes/);
+  // The trial's days over: the free plan's own answers, its style kept for a plan that has it.
+  await env.DB.prepare("UPDATE best_first SET started = ? WHERE user_id = ?")
+    .bind(new Date(NOW - 15 * 86400e3).toISOString(), user.id).run();
+  assert.equal((await allowance(env, user.id)).trial.on, false);
+  assert.equal((await ask({ style: "spoken", image: jpeg })).status, 200);
+  assert.match(gemini[5].body.systemInstruction.parts[0].text, /LORE FOCUS/);
+  assert.doesNotMatch(gemini[5].body.systemInstruction.parts[0].text, /Call me Captain/);
+  assert.equal((await ask({ operation: "compact", prompt: "PREVIOUS MEMORY\nPepper" })).status, 200);
+  assert.doesNotMatch(gemini[6].body.systemInstruction.parts[0].text, /at most 700 words/);
+});
+
+test("the beta's free Hero month tries Legend's: her own words, tales and longer memory, not the look-ups it already has", async () => {
+  const trial = { on: true, left: { lookups: TRIAL.lookups, sight: TRIAL.sight, cast: TRIAL.cast } };
+  const hero = { ...PLANS.hero, launch: true };
+  assert.deepEqual(companionFeatures(hero, { taste: { on: true, left: TASTE_ANSWERS, trial } }),
+    { voices: "all", push_to_talk: true, sight: true, npc_voices: true, research: true, reminders: true });
+  assert.deepEqual(trialView(hero, trial), { on: true, uses: { characters: { of: TRIAL.cast, left: TRIAL.cast } },
+    opens: ["voices", "memory", "style", "tales"] });
 });
 
 test("a paying player hears their plan; back on the free plan, the first answers at Willo's best they never had", async () => {
   const { user, ask } = await companionPlayer("beta", { plan: "hero" });
   assert.equal((await allowance(env, user.id)).taste, undefined, "a paying player hears their plan");
   await env.DB.prepare("DELETE FROM entitlements").run();
-  assert.equal((await allowance(env, user.id)).taste.left, 20, "back on the free plan, the taste they never had");
+  assert.equal((await allowance(env, user.id)).taste.left, TASTE_ANSWERS, "back on the free plan, the taste they never had");
 });
 
 test("Legend's answers are on the smarter model, pictures too, and on Flash-Lite past its text cap; Hero's on Flash-Lite", async () => {
@@ -810,11 +904,11 @@ test("a paid plan's answers and web look-ups are a month's pool from its renewal
   assert.deepEqual([fresh.period, fresh.limit, fresh.remaining], ["day", 100, 100], "today's 100 run out first");
   const used = n => env.DB.prepare("INSERT OR REPLACE INTO rate_limits (user_id, bucket, n) VALUES (?, ?, ?)")
     .bind(user.id, "companion-month:2026-09-30", n).run();
-  await used(850);
+  await used(1450);
   const late = await allowance(env, user.id);
-  assert.deepEqual([late.period, late.limit, late.remaining, late.resetsAt], ["month", 900, 50, "2026-10-31T12:00:00.000Z"],
+  assert.deepEqual([late.period, late.limit, late.remaining, late.resetsAt], ["month", 1500, 50, "2026-10-31T12:00:00.000Z"],
     "the pool comes back with the renewal itself (noon), not at midnight before it");
-  await used(900);
+  await used(1500);
   const out = await ask();
   assert.equal(out.status, 429);
   assert.equal(out.body.error, "My light's spent for this month. The Moonwell refills it on October 31.");

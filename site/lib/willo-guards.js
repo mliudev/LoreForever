@@ -180,11 +180,82 @@ export function fromWhereLast(text, place) {
   return out;
 }
 
+// A level she gives for a day of their journey (Silver's iPhone QA, 10/19: "Did I ever kill Hogger?" got "...back on
+// October 12, when you were level 11" from a journey with level 1 on October 10 and level 11 on October 13, and Mother
+// Fang "level 6"). It stays only when FROM THEIR JOURNEY gives that level on a day the sentence names, or, said as
+// about ("around level 6"), lies between the levels it gives that day; in a sentence naming no day of it, only a level
+// it gives at all. Otherwise the level goes and the rest of the sentence stays.
+const MONTHS = "January|February|March|April|May|June|July|August|September|October|November|December";
+const A_DAY = `(?:${MONTHS}) \\d{1,2}(?:, \\d{4})?`;
+const LINE_DAY = new RegExp(`^(?:- (?:[^:\\n]{1,40}: )?|Their journey begins )(${A_DAY})(?:,(?: at)? level (\\d{1,2})\\b)?`, "gm");
+// A day as she writes or says it ("October 12", "October 12th", "October the twelfth"): "October 12".
+const ORDINALS = ["", "first", "second", "third", "fourth", "fifth", "sixth", "seventh", "eighth", "ninth", "tenth",
+  "eleventh", "twelfth", "thirteenth", "fourteenth", "fifteenth", "sixteenth", "seventeenth", "eighteenth", "nineteenth",
+  "twentieth"];
+const ordinal = word => {
+  const w = word.toLowerCase(), [tens, ones] = w.split(/[- ]/);
+  if (ORDINALS.includes(w)) return ORDINALS.indexOf(w);
+  if (w === "thirtieth") return 30;
+  return ones && ORDINALS.includes(ones) ? { twenty: 20, thirty: 30 }[tens] + ORDINALS.indexOf(ones) : NaN;
+};
+const SAID_DAY = new RegExp(`\\b(${MONTHS})\\s+(?:the\\s+)?(\\d{1,2})(?:st|nd|rd|th)?\\b|\\b(${MONTHS})\\s+(?:the\\s+)?` +
+  `((?:twenty|thirty)[- ](?:${ORDINALS.slice(1, 10).join("|")})|${ORDINALS.slice(1).reverse().join("|")}|thirtieth)\\b`, "gi");
+const daysIn = sentence => [...sentence.matchAll(SAID_DAY)].map(([, month, digits, month2, word]) => {
+  const name = month || month2;
+  return `${name[0].toUpperCase()}${name.slice(1).toLowerCase()} ${digits ? Number(digits) : ordinal(word)}`;
+});
+const LEVEL_SAID = new RegExp(`(,?\\s*\\b(?:back\\s+)?(?:[Ww]hen|[Ww]hile)\\s+you\\s+were\\s+(?:still\\s+|only\\s+|just\\s+)?|` +
+  `,?\\s+(?=(?:at|around|about)\\s+level\\b))((?:at|around|about)\\s+)?level\\s+(${NUMBER})`, "g");
+export function journeyLevels(text, prompt) {
+  const source = String(prompt || ""), at = source.indexOf("FROM THEIR JOURNEY (");
+  if (typeof text !== "string" || at < 0) return text;
+  const end = source.indexOf("\n\n", at);
+  const byDay = new Map();
+  for (const [, line, lv] of source.slice(at, end < 0 ? undefined : end).matchAll(LINE_DAY)) {
+    const day = line.replace(/, \d{4}$/, "");
+    byDay.set(day, byDay.get(day) || []);
+    if (lv) byDay.get(day).push(Number(lv));
+  }
+  const all = [...byDay.values()].flat();
+  return (text.match(/[^.!?]+(?:[.!?]+|$)\s*/g) || [text]).map(sentence => {
+    const days = daysIn(sentence).filter(d => byDay.has(d));
+    return sentence.replace(LEVEL_SAID, (said, lead, about, n, offset) => {
+      // "at level" only where the sentence is about a day of the journey ("you can ride at level 40" stays).
+      if (!/\bwere\b/.test(lead) && !days.length) return said;
+      const level = numberOf(n), near = Boolean(about && /around|about/.test(about));
+      const fits = levels => levels.includes(level) || (near && levels.length > 0 && level >= Math.min(...levels) &&
+        level <= Math.max(...levels));
+      if (days.length ? days.some(d => fits(byDay.get(d))) : all.includes(level)) return said;
+      // Said first in its sentence ("When you were level 11, you..."): its comma goes, and the next word leads.
+      return offset === 0 || /^\s*$/.test(sentence.slice(0, offset)) ? "\u0000" : "";
+    }).replace(/^(\s*)\u0000,?\s*(\S)/, (_, space, first) => space + first.toUpperCase());
+  }).join("");
+}
+
+// A character's reply never sends the adventurer to their companion (Mike, 10/19: "The characters keep telling me to
+// ask the willow wisp of light by my shoulder"; 12 of 23 character replies in the answer log did, "ask your little
+// wisp of light", "speak wit' yer little wisp friend"): a sentence naming Willo, or a wisp or light that's theirs, is
+// left out. The wisps of the night elves' world ("the wisps of Teldrassil") are no one's companion and stay.
+const COMPANION_MENTION = new RegExp([
+  String.raw`\bwillow?\b`,
+  String.raw`\b(?:your|yer|ye|thy)\s+(?:[\p{L}']+\s+){0,2}wisps?\b`,
+  String.raw`\bwisps?\s+(?:of\s+yours|friend)\b`,
+  String.raw`\b(?:your|yer|thy)\s+companion\b`,
+  String.raw`\b(?:light|wisp)\b[^.!?]{0,40}\b(?:by|at|on|over)\s+(?:your|yer|thy)\s+shoulder\b`,
+].join("|"), "iu");
+const NO_IDEA = "I couldn't say, friend.";
+export function noCompanion(text) {
+  if (typeof text !== "string" || !COMPANION_MENTION.test(text)) return text;
+  const kept = (text.match(/[^.!?]+(?:[.!?]+["”’']?|$)\s*/g) || [text]).filter(s => !COMPANION_MENTION.test(s));
+  return kept.join("").trim() || NO_IDEA;
+}
+
 export function guardAnswer(answer, { supplied = "", own = true, researched = false, prompt = "", question = "",
-  names = [], savedPlace = "" } = {}) {
+  names = [], savedPlace = "", character = false } = {}) {
   if (typeof answer !== "string" || !answer) return answer;
   let text = researched ? answer : unsuppliedPlaces(answer, supplied);
-  if (own) text = inWorld(asCompanion(text));
+  if (own) text = journeyLevels(inWorld(asCompanion(text)), prompt);
+  if (character) text = noCompanion(text);
   if (own && savedPlace) text = fromWhereLast(text, savedPlace);
   const spellings = soundSpellings(playerLines(prompt, question).filter(l => SOUNDS.test(l)), names);
   return spellings.size ? spelledRight(text, spellings) : text;

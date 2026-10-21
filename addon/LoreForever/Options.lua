@@ -37,6 +37,7 @@ Options.DEFAULTS = {
   skipHeard = true,        -- don't play automatically what this character has heard (LoreForeverDB.heard)
   packHints = true,        -- say (once a session per zone) when its places and people are in a lands pack you lack
   tips = true,             -- one tip at login about a feature (Core.lua loginTip), until they run out
+  updateNotice = true,     -- say once when a newer Lore Forever is out, and on the minimap button (Updates.lua)
   journey = true,          -- "Remember my journey": record places, people, quests and foes for Journey
   pictureHideUI = true,    -- the journey picture key hides the interface for its picture, out of combat (Journey.lua)
   -- Pictures at milestones (Journey.MilestonePicture): a level, a boss, a first zone or dungeon, with the companion's
@@ -596,6 +597,7 @@ local function rows()
     { "capture", L["Keep the quest text you see"], L["Keep the quest, gossip and book text Forever shows you, so you can share what Lore Forever doesn't have yet at loreforeverwow.com/contribute. It stays on your PC unless you share it."] },
     { "contributeButtons", L["Contribute buttons"], L["A small button on quest, gossip and book windows whose text Lore Forever doesn't have yet. Click it for a link to share that text."] },
     { "tips", L["Tips at login"], L["Now and then at login, a tip in chat about something Lore Forever can do."] },
+    { "updateNotice", L["Tell me when a new version is out"], L["Once, in chat, when a newer Lore Forever is out (%s tells it, or this version is a few days old), with how to update, then not again for two weeks. The minimap button's tooltip says it too."]:format(ns.COMPANION_NAME) },
     { "getWillo", L["Suggest %s"]:format(ns.COMPANION_NAME), L["Until you install %s, Lore Forever's free companion app, her small glowing icon sits beside Journey, and one line in the chat says where to get her when Lore Forever has no answer, at most once a session. Untick to hide both."]:format(ns.COMPANION_NAME) },
   }
   -- No Suggest Willo checkbox until Willo launches (Companion.OFFER_WILLO); the saved setting is kept as it is.

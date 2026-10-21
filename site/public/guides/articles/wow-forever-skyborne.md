@@ -3,7 +3,6 @@ title: WoW Forever Skyborne Guide: Classes, Unlock and Zephras Isle
 description: How to unlock the Skyborne in WoW Forever, choose Horde Windshaper or Alliance High Order, compare classes and racials, and start on Zephras Isle.
 date: 2026-10-17
 kind: tutorial
-draft: true
 ---
 **The Skyborne are a new elf-descended playable race in WoW Forever with two faction paths: Horde-aligned Windshapers and Alliance-aligned High Order Skyborne.** Both begin on **Zephras Isle**, a new level 1–12 region. Warrior, Hunter, Rogue and Druid are open to both paths. The Horde path can also play Shaman, and the Alliance path can also play Mage.
 

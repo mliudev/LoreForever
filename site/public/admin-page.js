@@ -492,10 +492,13 @@ function tasteText(t) {
   const today = t.days.at(-1), c = t.cohorts;
   const side = x => `${plural(x.players, "player")}, ${pct(x.paid, x.players)} started a plan, ${pct(x.returned, x.players)} ` +
     `came back, ${pct(x.week, x.players)} a week on`;
-  return `${n0(t.finished)} had all 20 · $${t.usd.toFixed(2)} so far, $${t.perTaster.toFixed(3)} a player` +
+  return `${n0(t.finished)} had all ${t.of ?? 20} · $${t.usd.toFixed(2)} so far, $${t.perTaster.toFixed(3)} a player` +
     (today ? ` · $${today.usd.toFixed(2)} of the $${t.capUsd.toFixed(2)} day cap on ${fmtDay(today.day)}` +
       (today.capped ? `, ${n0(today.capped)} past it` : "") + (today.unreachable ? `, ${n0(today.unreachable)} unsaid` : "") : "") +
-    ` · with it: ${side(c.taste)} · before it: ${side(c.before)}`;
+    ` · with it: ${side(c.taste)} · before it: ${side(c.before)}` +
+    // The first-run trial's uses so far (lib/best-first.js TRIAL), for tuning its limits.
+    (t.trial ? ` · trial: ${n0(t.trial.trying)} trying now; look-ups ${n0(t.trial.lookups)} by ${n0(t.trial.lookupsBy)}, ` +
+      `pictures ${n0(t.trial.sight)} by ${n0(t.trial.sightBy)}, character voices ${n0(t.trial.cast)} by ${n0(t.trial.castBy)}` : "");
 }
 function renderWilloStats() {
   const w = data.willo;
@@ -542,7 +545,7 @@ function renderWilloStats() {
       `${n0(c.half)} at 50% off · finest-voice packs: ${n0(subs.packs.sold)} sold ($${subs.packs.usd.toFixed(2)})` +
       (subs.packs.refunded ? `, ${n0(subs.packs.refunded)} refunded` : "");
   }
-  // Willo's best first (lib/best-first.js tasteReport): new players' first 20 answers at her best.
+  // Willo's best first (lib/best-first.js tasteReport): new players' first answers at her best.
   const t = w.taste;
   $("w-taste").textContent = t ? n0(t.tasters) : "-";
   $("w-taste-sub").textContent = t ? tasteText(t) : "starts with a new player's first answer";

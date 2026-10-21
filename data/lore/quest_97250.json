@@ -1,0 +1,110 @@
+{
+ "key": "quest:97250",
+ "type": "quest",
+ "name": "Wrongly Blamed, Justly Corrected",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   97250
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "angles": [
+  {
+   "target": "faction:Horde",
+   "text": "The quest marks a notable victory and defensive statement against Alliance encroachments, while raising concerns about protecting vital Horde trade and civilian routes."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "The outcome serves as a stern warning from Horde forces against mounting Alliance presence and provocations along the eastern coast."
+  }
+ ],
+ "faq": [
+  {
+   "aliases": [
+    "what is this quest",
+    "wrongly blamed justly corrected lore",
+    "what happened in wrongly blamed"
+   ],
+   "answer": "Wrongly Blamed, Justly Corrected is a Horde task involving rising cross-faction friction along the eastern coast, following the destruction of a roadside tavern along a vital travel route.",
+   "q": "What is Wrongly Blamed, Justly Corrected about?"
+  },
+  {
+   "aliases": [
+    "did horde destroy tavern",
+    "who burned the tavern",
+    "who destroyed the tavern"
+   ],
+   "answer": "Horde leadership remains highly skeptical that Horde forces were responsible. Too many Horde civilians depend on that route for trade and everyday passage, making its destruction counterproductive.",
+   "q": "Did the Horde destroy the tavern?"
+  },
+  {
+   "aliases": [
+    "why is tavern route important",
+    "why does the tavern matter"
+   ],
+   "answer": "The tavern sits along an important thoroughfare relied upon heavily by civilian travelers and merchants for trade and movement, making its disruption a strategic concern.",
+   "q": "Why does the destroyed tavern matter to the Horde?"
+  },
+  {
+   "aliases": [
+    "why fighting on eastern coast",
+    "eastern coast conflict"
+   ],
+   "answer": "Tensions between the Horde and Alliance have been mounting along the eastern coast for some time, making it inevitable that skirmishes would eventually spill into surrounding territories.",
+   "q": "What caused tensions on the eastern coast?"
+  },
+  {
+   "aliases": [
+    "what did horde achieve",
+    "why warning to alliance"
+   ],
+   "answer": "The action represents a tactical victory that delivers a stern warning to the Alliance, demonstrating that territorial incursions against Horde interests will not go unanswered.",
+   "q": "What message does this outcome send to the Alliance?"
+  },
+  {
+   "aliases": [
+    "what to investigate",
+    "will the tavern be investigated"
+   ],
+   "answer": "Because the circumstances surrounding the tavern's ruin remain suspicious and civilian passage is threatened, further investigation is sought to uncover who truly caused the destruction.",
+   "q": "Is there further investigation into the tavern's destruction?"
+  }
+ ],
+ "keywords": [
+  "alliance warning",
+  "civilian route",
+  "eastern coast",
+  "horde trade",
+  "tavern",
+  "territorial conflict",
+  "wrongly blamed, justly corrected"
+ ],
+ "related": [
+  "topic:horde",
+  "topic:alliance"
+ ],
+ "sections": [
+  {
+   "body": "As friction between the Horde and the Alliance steadily mounts along the eastern coast, skirmishes have begun creeping directly into contested territories. The destruction of a local tavern along a major thoroughfare has brought these tensions to a head, threatening ordinary travel and regional stability.",
+   "spoiler": 0,
+   "title": "Friction on the Coast"
+  },
+  {
+   "body": "Although suspicions initially pointed toward Horde aggression, local leadership doubts their own forces were behind the tavern's ruin. The thoroughfare serves as a critical artery for Horde civilians and merchants moving goods, giving the Horde every reason to keep the path open and prompting calls for a deeper look into who really destroyed it.",
+   "spoiler": 1,
+   "title": "Doubt and Disruption"
+  },
+  {
+   "body": "Despite lingering questions regarding the tavern itself, the conclusion of the affair stands as a decisive victory for Horde forces in the area. The outcome serves as an explicit warning to the Alliance that any territorial encroachment along the coast will meet immediate resistance.",
+   "spoiler": 0,
+   "title": "A Warning to the Alliance"
+  }
+ ],
+ "summary": "Wrongly Blamed, Justly Corrected centers on escalating coastal tensions between the Horde and the Alliance following the suspicious destruction of a roadside tavern. The incident delivers a firm warning to Alliance forces while leaving unanswered questions about who truly threatened a vital civilian trade route.",
+ "attribution": [
+  "In-game quest text: Wrongly Blamed, Justly Corrected"
+ ]
+}

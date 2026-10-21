@@ -17,7 +17,15 @@ import { SEED_FACTS } from "../lib/forever-knowledge.js";
 import { RIDING } from "../lib/forever-game-facts.js";
 import { stockOf, goalOf, goalLine, askedGoal, goalIntent, writesGoals, goalsOf, progressOf, goalsBlock, goalTools,
   goalChecks, paceOf, wrongGold, numbersIn, GOALS_MAX_BYTES, GOALS_ON_HERO, GOAL_RULES, QUIET_LINES } from "../lib/willo-goals.js";
+import { setupBilling } from "../lib/billing.js";
 import { d1 } from "./helpers.mjs";
+
+// A free account whose first-run trial (lib/best-first.js) is over: its 20 had and its days gone, so it's the free plan's own.
+async function trialOver(e, user) {
+  await setupBilling(e);
+  await e.DB.prepare("INSERT OR REPLACE INTO best_first (claim, user_id, used, started) VALUES (?, ?, 20, ?)")
+    .bind(`taste:test-${user.id}`, user.id, new Date(Date.now() - 15 * 86400e3).toISOString()).run();
+}
 
 const env = { DB: d1(), GEMINI_API_KEY: "test-key" };
 const originalFetch = globalThis.fetch;
@@ -476,7 +484,7 @@ test("6. a change of level is a real change: the riding goal for 45, her line fr
   reply = () => said("Updated: your goal is now riding at level 45. Noted: your goal is updated. Nine levels to go.");
   const twice = await ask(token, "Change my mount goal: I'll get it at level 45 instead.");
   assert.equal(twice.answer, "That's already one of your goals: riding at level 45 for 100 gold. Nine levels to go.");
-  assert.match(system(calls[0]), /Level: 36 of 45, 9 levels to go \(riding opens at 40; they chose to ride at 45\)/);
+  assert.match(system(calls[0]), /Level: 36 of 45, 9 levels to go \(riding opens at 40, so it can be learned from 40; 45 is the level they chose to ride at, never a level riding needs\)/);
   // Nothing written, nothing claimed: "Goal updated" never stands on its own.
   reply = () => said("Goal updated: riding at level 50. You're doing great.");
   const again = await ask(token, "how close am I to my mount?");
@@ -498,6 +506,7 @@ test("7. dropping by what it's about: 'forget the mount goal' takes the riding l
 test("17. the free plan while plans are sold: no goal kept, and (typed only) one plain line that goals come with Hero", async () => {
   const plans = { ...env, SITE_FEATURES: "plans", LAUNCH_WEEK_START: "2020-01-01T00:00:00Z", BETA_END: "2020-02-01T00:00:00Z" };
   const { user, token } = await linked(plans);
+  await trialOver(plans, user);
   reply = () => said("Riding is level 40 and 100 gold.");
   await ask(token, "I want my mount at 40", { e: plans });
   assert.equal(calls[0].tools, undefined);

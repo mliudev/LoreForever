@@ -200,6 +200,9 @@ function Errors.Report()
   local text = ns.lang and ns.lang.locale
   local head = string.format("Lore Forever %s, WoW %s, %s%s, %s", addonVersion(), client, tostring(locale),
     (text and text ~= locale) and (", text " .. tostring(text)) or "", Errors.source and ("via " .. Errors.source) or "no handler")
+  -- Willo's version and the newest version known (Updates.lua), so a report from an old version says so at once.
+  local more = ns.Updates and ns.Updates.ReportParts and ns.Updates.ReportParts() or {}
+  if #more > 0 then head = head .. ", " .. table.concat(more, ", ") end
   local out = { head, string.format("%d Lua error%s, most recent first:", #list, #list == 1 and "" or "s") }
   local size, shown = #head + #out[2], 0
   for i = #list, 1, -1 do

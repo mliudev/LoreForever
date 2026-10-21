@@ -1,0 +1,111 @@
+{
+ "key": "quest:8312",
+ "type": "quest",
+ "name": "Hallow's End Treats for Spoops!",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   8312
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "angles": [
+  {
+   "target": "faction:Horde",
+   "text": "This quest sends Horde adventurers trick-or-treating across their major cities and down to the Darkspear settlement of Sen'jin Village on behalf of an ailing child."
+  },
+  {
+   "target": "race:Troll",
+   "text": "Darkspear trolls in Durotar take part in the festivities, with Kali Remik distributing seasonal sweets right from Sen'jin Village."
+  }
+ ],
+ "faq": [
+  {
+   "aliases": [
+    "who is spoops",
+    "spoops",
+    "what is spoops"
+   ],
+   "answer": "Spoops is a sick young person who is unable to go out trick-or-treating during Hallow's End. Wanting to participate in the holiday, Spoops asks travelers to collect seasonal treats from innkeepers and vendors across the world on their behalf.",
+   "q": "Who is Spoops?"
+  },
+  {
+   "aliases": [
+    "why cant spoops go trick or treating",
+    "why is spoops staying in",
+    "spoops sick"
+   ],
+   "answer": "Spoops is unwell and too sick to venture outside to celebrate Hallow's End. Because illness keeps them bedridden, they rely on helpful adventurers to make the rounds to the various city innkeepers and collect holiday sweets.",
+   "q": "Why can't Spoops go trick-or-treating?"
+  },
+  {
+   "aliases": [
+    "what candy does spoops give",
+    "spoops reward candy",
+    "special candy"
+   ],
+   "answer": "In exchange for the holiday sweets collected from innkeepers, Spoops promises special candies that have magical, transformative properties. Eating them can turn you into various creatures and forms that are both comical and frightening.",
+   "q": "What candy does Spoops offer in exchange?"
+  },
+  {
+   "aliases": [
+    "where do i get candy",
+    "who gives treats",
+    "candy locations"
+   ],
+   "answer": "Holiday candy is distributed by innkeepers located throughout the capital cities, who ask travelers to perform tricks in exchange for treats. In addition to the urban taverns, a troll named Kali Remik in Sen'jin Village hands out seasonal sweets.",
+   "q": "Where do you find the treats for Spoops?"
+  },
+  {
+   "aliases": [
+    "who is kali remik",
+    "kali remik candy",
+    "senjin village candy"
+   ],
+   "answer": "Kali Remik is a troll living in Sen'jin Village in Durotar who participates in Hallow's End by handing out holiday candy to festive travelers who stop by.",
+   "q": "Who is Kali Remik?"
+  },
+  {
+   "aliases": [
+    "what do innkeepers want",
+    "innkeeper tricks",
+    "how to get innkeeper candy"
+   ],
+   "answer": "During Hallow's End, innkeepers in major settlements require visitors to demonstrate their holiday spirit by performing various silly tricks or gestures before they will share their holiday sweets.",
+   "q": "Why do innkeepers ask for tricks?"
+  }
+ ],
+ "keywords": [
+  "candy",
+  "hallow's end",
+  "innkeeper",
+  "kali remik",
+  "sen'jin village",
+  "spoops",
+  "treats",
+  "trick or treat"
+ ],
+ "related": [
+  "npc:kali-remik",
+  "subzone:sen-jin-village",
+  "topic:troll"
+ ],
+ "sections": [
+  {
+   "body": "Hallow's End brings celebration, mischief, and festive confections across the realm, but not everyone can join the festivities outdoors. Spoops is stuck inside due to illness while the rest of the world partakes in the revelry. Unable to roam the streets, Spoops enlists wandering travelers to venture forth and gather treats on their behalf, offering a curious stash of shape-shifting confections in return.",
+   "spoiler": 0,
+   "title": "A Bedridden Holiday"
+  },
+  {
+   "body": "Securing the treats requires a journey across the realm's settlements. Major city innkeepers hold stashes of festival candy, though they demand visitors show their holiday spirit with tricks before parting with their sweets. Beyond the bustling city taverns, the tradition extends even to the coastal shores of Durotar, where Kali Remik in Sen'jin Village distributes treats to those making the trek.",
+   "spoiler": 0,
+   "title": "Tricks and Treats Across the Realm"
+  }
+ ],
+ "summary": "Hallow's End Treats for Spoops! is a seasonal quest where an adventurer gathers holiday sweets on behalf of Spoops, who is too ill to go trick-or-treating. In exchange for treats gathered from city innkeepers and Kali Remik in Sen'jin Village, Spoops offers magical candy that transforms the eater into funny and frightening shapes.",
+ "attribution": [
+  "In-game quest text: Hallow's End Treats for Spoops!"
+ ]
+}

@@ -54,13 +54,24 @@ test("the admin view counts kept answers and checkout sources by plan", async ()
   await setupBilling(env);
   env.DB.sqlite.exec("DELETE FROM answer_log; DELETE FROM plan_log");
   const add = (plan, spoken, extra = {}) => env.DB.sqlite.prepare("INSERT INTO answer_log (created, player, operation, " +
-    "spoken, question, outcome, plan, looked_up, lookups) VALUES (?, ?, ?, ?, 'q', ?, ?, ?, ?)").run(now.toISOString(),
-    extra.player || "p1", extra.operation || "answer", spoken, extra.outcome || "answered", plan, extra.looked_up || "no",
-    extra.lookups || null);
+    "spoken, question, outcome, plan, looked_up, lookups, model) VALUES (?, ?, ?, ?, 'q', ?, ?, ?, ?, ?)").run(
+    extra.created || now.toISOString(), extra.player || "p1", extra.operation || "answer", spoken,
+    extra.outcome || "answered", plan, extra.looked_up || "no", extra.lookups || null, extra.model || null);
   add("hero", 1, { lookups: "forever_facts,sight", looked_up: "quick" });
   add("hero", 0, { player: "p2", operation: "character" });
   add("hero", 1, { outcome: "failed" });   // a failed answer isn't one
-  add("free", 1);
+  add("free", 1, { model: "gemini-3.6-flash" });
+  // Legend, the smarter model's plan, past the text cap: her answers step down to Flash-Lite. A character's reply is
+  // always on Flash-Lite, and before the step-down began (10/19) so was every answer of hers: neither is a step-down.
+  // Nor is a Champion's or the beta Hero's answer on Flash-Lite: their plans are on it anyway.
+  const flash = "gemini-3.6-flash", lite = "gemini-3.1-flash-lite";
+  add("legend", 1, { player: "p3", model: flash });
+  add("legend", 1, { player: "p3", model: lite });
+  add("legend-trialing", 0, { player: "p4", model: lite });
+  add("legend", 1, { player: "p4", model: lite, operation: "character" });
+  add("legend", 1, { player: "p5", model: lite, created: "2026-10-19T20:00:00.000Z" });
+  add("champion", 1, { player: "p6", model: lite });
+  add("beta-hero", 1, { player: "p7", model: lite });
   const log = (id, plan, source, comp = "") => env.DB.sqlite.prepare("INSERT INTO plan_log (subscription_id, plan, " +
     "status, comp, source, updated) VALUES (?, ?, 'active', ?, ?, ?)").run(id, plan, comp, source, now.toISOString());
   log("sub_1", "hero", "welcome");
@@ -70,6 +81,10 @@ test("the admin view counts kept answers and checkout sources by plan", async ()
   assert.deepEqual(view.answers.find(a => a.plan === "hero"),
     { plan: "hero", players: 2, answers: 2, spoken: 1, typed: 1, quick: 1, required: 0, sight: 1, characters: 1 });
   assert.equal(view.answers.find(a => a.plan === "free").answers, 1);
+  assert.deepEqual(view.models.sort((a, b) => a.plan.localeCompare(b.plan)), [
+    { plan: "legend", players: 1, answers: 2, flash: 1, stepped: 1, steppedPlayers: 1, share: 0.5 },
+    { plan: "legend-trialing", players: 1, answers: 1, flash: 0, stepped: 1, steppedPlayers: 1, share: 1 },
+  ]);
   assert.deepEqual(view.sources.sort((a, b) => a.plan.localeCompare(b.plan)),
     [{ source: "welcome", plan: "hero", n: 1 }, { source: "willo-empty", plan: "legend", n: 1 }]);
   assert.equal(view.collectingSince, "2026-10-19");

@@ -47,6 +47,9 @@ export const PENDING_MAX = 50;            // requests sent and not answered yet
 export const ASKS_PER_DAY = 20;
 export const MESSAGES_PER_MINUTE = 20;
 export const MESSAGES_PER_DAY = 500;
+// The free plan's messages a day while plans are on (option D, Mike, 2026-10-19; Patrick's "10 messages to your
+// friend"): Hero and up, and the beta's free Hero month, send as many as MESSAGES_PER_DAY allows.
+export const FREE_MESSAGES_PER_DAY = 10;
 export const REPORTS_PER_DAY = 10;
 export const PRESENCE_PER_HOUR = 60;
 export const ONLINE_MINUTES = 12;         // devices.last_used is kept within 10 minutes of the app's last call

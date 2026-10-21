@@ -231,16 +231,19 @@ def _plain(text: str) -> str:
 
 
 def addon(notes_lua: Path) -> None:
-    """The newest released version's notes as Lua, for the add-on's What's new card (WhatsNew.lua): each change as
+    """The newest released version's notes as Lua, for the add-on's What's new card (WhatsNew.lua) and its release day
+    (Updates.lua), when its heading has one: each change as
     {lead-in without its trailing punctuation, the rest, the lead-in as written}; a change with no bold lead-in has
     an empty first and third field."""
     released = [(v, b) for v, b in sections(CHANGELOG.read_text()) if v != "Unreleased"]
     if not released:
         sys.exit("changelog: no released versions in CHANGELOG.md")
     version, body = released[0]
+    # Its release day too, from the heading: how old this build is tells the add-on it may be out of date (Updates.lua).
+    day = next(("-".join(m.group(2, 3, 4)) for m in DATED.finditer(CHANGELOG.read_text()) if m.group(1) == version), None)
     out = ["-- The newest version's notes, for the What's new card (WhatsNew.lua). Written by scripts/changelog.py addon",
            "-- from CHANGELOG.md at each release: edit that, not this.", "", "local _, ns = ...", "ns.Notes = {",
-           f"  version = {_lua(version)},", "  items = {"]
+           f"  version = {_lua(version)},"] + ([f"  released = {_lua(day)},"] if day else []) + ["  items = {"]
     for item in _bullets(body):
         m = re.match(r"\*\*(.+?)\*\*\s*(.*)$", item)
         raw, rest = (m.group(1), m.group(2)) if m else ("", item)

@@ -1,3 +1,4 @@
+import { isReportRead } from "./report-read.js";
 // What each plan's players really use, for pricing decisions (Mike, 2026-10-19: "Our discussion about the pricing and
 // features in each pricing needs to be validated against Data"). Bookkeeping only: nothing here changes what a plan
 // gets, and every write happens off the answer's way (after the reply, or on a path that isn't an answer).
@@ -6,7 +7,7 @@
 // "day", the plan's answers a day; "month", a paid plan's month; "cost_cap", a paying player's month of answers and
 // hosted voice cost the plan's whole net, lib/billing.js capState; "brake", the free plan's brake), with the plan label
 // when it last happened (planLabel) and how many times. Answers stepped down to Flash-Lite past the text cap aren't
-// turned away: answer_log.model shows them.
+// turned away: answer_log.model shows them (planUsageView models).
 // Written from functions/api/companion/answer.js outOfAnswers. The trial's own limits are already kept elsewhere
 // (lib/best-first.js: best_first.finished, best_first_days.capped), and so is a paid plan's look-ups (rate_limits).
 //
@@ -20,7 +21,7 @@
 // (PLAN_USAGE_USER_DATA). /api/admin's "planUsage" (planUsageReport) sums them by plan for the last days.
 
 import { setupAnswerLog, KEEP_DAYS as ANSWER_LOG_DAYS } from "./answer-log.js";
-import { setupBilling } from "./billing.js";
+import { setupBilling, PLANS } from "./billing.js";
 
 export const KEEP_DAYS = 90;
 const SETUP = [
@@ -37,6 +38,7 @@ export const VOICE_KINDS = ["willo", "character", "line"];
 
 const ready = new WeakMap();
 export async function setupPlanUsage(env) {
+  if (isReportRead(env)) return;
   if (ready.get(env.DB)) return;
   await env.DB.batch(SETUP.map(sql => env.DB.prepare(sql)));
   ready.set(env.DB, true);
@@ -108,7 +110,7 @@ export async function planUsageReport(env, { days = 14, now = new Date() } = {})
   const span = Math.min(Math.max(Number.parseInt(days, 10) || 14, 1), KEEP_DAYS);
   const since = dayOf(new Date(now.getTime() - (span - 1) * 864e5));
   const oldest = dayOf(new Date(now.getTime() - KEEP_DAYS * 864e5));
-  await env.DB.batch([env.DB.prepare("DELETE FROM limit_hits WHERE day < ?").bind(oldest),
+  if (!isReportRead(env)) await env.DB.batch([env.DB.prepare("DELETE FROM limit_hits WHERE day < ?").bind(oldest),
     env.DB.prepare("DELETE FROM voice_days WHERE day < ?").bind(oldest)]);
   const all = (sql, ...binds) => env.DB.prepare(sql).bind(...binds).all().then(r => r.results);
   const [limits, voices, picks] = await Promise.all([
@@ -125,11 +127,26 @@ export async function planUsageReport(env, { days = 14, now = new Date() } = {})
 // When the plan labels, limit hits, voices and checkout sources started being kept (PRs #1322, #1323): a day range
 // that starts earlier only has them from here.
 export const COLLECTING_SINCE = "2026-10-19";
+// When her answers moved to 3.6 Flash, and a paying plan's past its text cap to Flash-Lite (PR #1328, live on the site
+// 10/19 at 22:12 UTC, plus a few minutes for the deploy): before it every answer of hers was on Flash-Lite. Since PR
+// #1339 (10/19, Mike: the smarter model is Legend's only) only a plan with `smarter` (lib/billing.js PLANS) is on 3.6
+// Flash, so only its answers can step down: every other plan's are on Flash-Lite anyway. The models are
+// lib/companion-answers.js SMART_MODEL and LITE_MODEL (modelFor), named here rather than imported, so this bookkeeping
+// (lib/accounts.js imports it) doesn't pull in the answer path.
+export const STEP_DOWN_SINCE = "2026-10-19T22:20:00.000Z";
+const SMART_MODEL = "gemini-3.6-flash", LITE_MODEL = "gemini-3.1-flash-lite";
+// A plan label (planLabel) whose plan has the smarter model: Legend, its Stripe trial, its free month for friends.
+// The beta's free Hero month is Hero's.
+const smarterLabel = p => Boolean(PLANS[(p || "").replace(/^reward-/, "").replace(/-trialing$/, "")]?.smarter);
 
 // /admin's Growth > Plans & usage (functions/api/admin/plans-usage.js, public/admin-plans.js): planUsageReport, and
 //   answers: [{plan, players, answers, spoken, typed, quick, required, sight, characters}]   from the kept answers
 //            (lib/answer-log.js: only players who leave "Help improve Willo's answers" on, and at most its 14 days),
 //            by the plan label each was answered on; answersDays: how many days those cover
+//   models: [{plan, players, answers, flash, stepped, steppedPlayers, share}]   a smarter plan's answers of hers (not a
+//            character's; smarterLabel: Legend's) among those kept answers, since the step-down began (modelsSince,
+//            STEP_DOWN_SINCE): on 3.6 Flash (flash), or stepped down to Flash-Lite past the plan's text cap (stepped, for
+//            steppedPlayers players; share: stepped of answers). No other plan's answers are on 3.6 Flash to step down
 //   allAnswers: every live answer in the range (answer_days, all players, no plan)
 //   sources: [{source, plan, n}]   plans by where their checkout started (plan_log, comped plans left out)
 //   collectingSince
@@ -139,17 +156,25 @@ export async function planUsageView(env, { days = 14, now = new Date() } = {}) {
   const sinceIso = new Date(`${usage.since}T00:00:00Z`).toISOString();
   const answersFrom = new Date(Math.max(Date.parse(sinceIso), now.getTime() - ANSWER_LOG_DAYS * 864e5)).toISOString();
   const all = (sql, ...binds) => env.DB.prepare(sql).bind(...binds).all().then(r => r.results);
-  const [answers, allAnswers, sources] = await Promise.all([
+  const modelsSince = answersFrom > STEP_DOWN_SINCE ? answersFrom : STEP_DOWN_SINCE;
+  const [answers, byModel, allAnswers, sources] = await Promise.all([
     all("SELECT COALESCE(plan, '') AS plan, COUNT(DISTINCT player) AS players, COUNT(*) AS answers, " +
       "SUM(spoken = 1) AS spoken, SUM(spoken = 0) AS typed, SUM(looked_up = 'quick') AS quick, " +
       "SUM(looked_up = 'required') AS required, SUM(',' || COALESCE(lookups, '') || ',' LIKE '%,sight,%') AS sight, " +
       "SUM(operation = 'character') AS characters FROM answer_log WHERE created >= ? AND outcome != 'failed' " +
       "GROUP BY plan ORDER BY answers DESC", answersFrom),
+    all("SELECT COALESCE(plan, '') AS plan, COUNT(DISTINCT player) AS players, COUNT(*) AS answers, " +
+      "SUM(model IS ?) AS flash, SUM(model IS ?) AS stepped, " +
+      "COUNT(DISTINCT CASE WHEN model IS ? THEN player END) AS steppedPlayers FROM answer_log " +
+      "WHERE created >= ? AND operation = 'answer' AND outcome != 'failed' GROUP BY plan ORDER BY answers DESC",
+      SMART_MODEL, LITE_MODEL, LITE_MODEL, modelsSince),
     env.DB.prepare("SELECT COALESCE(SUM(n), 0) AS answers, COUNT(DISTINCT user_id) AS players FROM answer_days WHERE day >= ?")
       .bind(usage.since).first().catch(() => ({ answers: 0, players: 0 })),
     all("SELECT COALESCE(source, '') AS source, plan, COUNT(*) AS n FROM plan_log WHERE plan IS NOT NULL " +
       "AND (comp IS NULL OR comp = '') GROUP BY source, plan ORDER BY n DESC"),
   ]);
+  const models = byModel.filter(m => smarterLabel(m.plan))
+    .map(m => ({ ...m, share: m.answers ? Math.round(1000 * m.stepped / m.answers) / 1000 : 0 }));
   return { ...usage, answers, answersDays: Math.ceil((now.getTime() - Date.parse(answersFrom)) / 864e5),
-           allAnswers, sources, collectingSince: COLLECTING_SINCE };
+           models, modelsSince, allAnswers, sources, collectingSince: COLLECTING_SINCE };
 }

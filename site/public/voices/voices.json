@@ -54,7 +54,7 @@
           "addon": "LoreForever_Voice_Default_Quests",
           "status": "live",
           "included": false,
-          "clips": 4259,
+          "clips": 4598,
           "coverage": "recorded quest dialogue in his voice; turn on Speak quest dialogue in Options to hear it",
           "curseforge": "https://www.curseforge.com/wow/addons/lore-forever-quest-dialogue-male-narrator",
           "download": "https://github.com/mliudev/LoreForever/releases/latest/download/LoreForever_Voice_Default_Quests.zip"
@@ -117,7 +117,7 @@
           "addon": "LoreForever_Voice_Default_deDE",
           "status": "live",
           "clips": 902,
-          "coverage": "zone, dungeon and place stories, starting areas and people, in German (other entries stay available as text)",
+          "coverage": "zone, dungeon and place stories and starting areas, in German; people, dungeon bosses and lore topics are in More people (other entries stay available as text)",
           "download": "https://github.com/mliudev/LoreForever/releases/latest/download/LoreForever_Voice_Default_deDE.zip"
         },
         {
@@ -125,7 +125,7 @@
           "name": "Deutsch: more people",
           "language": "Deutsch",
           "addon": "LoreForever_Voice_Default_MorePeople_deDE",
-          "status": "soon",
+          "status": "live",
           "included": false,
           "clips": 777,
           "coverage": "the whole story of hundreds more characters, plus factions, peoples and lore topics, in his voice, in German",
@@ -133,12 +133,11 @@
         },
         {
           "id": "male-portuguese",
-          "curseforge": "https://www.curseforge.com/wow/addons/lore-forever-portuguese-narration-male-narrator",
           "name": "Português (Brasil)",
           "language": "Português (Brasil)",
           "addon": "LoreForever_Voice_Default_ptBR",
           "status": "soon",
-          "clips": 260,
+          "clips": 897,
           "coverage": "zone, dungeon and place stories, in Brazilian Portuguese (other entries stay available as text)",
           "download": "https://github.com/mliudev/LoreForever/releases/latest/download/LoreForever_Voice_Default_ptBR.zip"
         },
@@ -149,7 +148,7 @@
           "addon": "LoreForever_Voice_Default_MorePeople_ptBR",
           "status": "soon",
           "included": false,
-          "clips": 0,
+          "clips": 806,
           "coverage": "the whole story of hundreds more characters, plus factions, peoples and lore topics, in his voice, in Brazilian Portuguese",
           "download": "https://github.com/mliudev/LoreForever/releases/latest/download/LoreForever_Voice_Default_MorePeople_ptBR.zip"
         },
@@ -180,7 +179,7 @@
           "language": "Español",
           "addon": "LoreForever_Voice_Default_esES",
           "status": "live",
-          "clips": 374,
+          "clips": 604,
           "coverage": "zone, dungeon and place stories, in Spanish (other entries stay available as text)",
           "download": "https://github.com/mliudev/LoreForever/releases/latest/download/LoreForever_Voice_Default_esES.zip"
         },
@@ -202,7 +201,7 @@
           "addon": "LoreForever_Voice_Default_itIT",
           "status": "live",
           "clips": 108,
-          "coverage": "zone stories and lore, in Italian (other entries stay available as text)",
+          "coverage": "zone stories and lore, in Italian (other entries stay available as text; quest dialogue stays English text, since the game has no Italian quest text)",
           "download": "https://github.com/mliudev/LoreForever/releases/latest/download/LoreForever_Voice_Default_itIT.zip"
         },
         {
@@ -230,7 +229,7 @@
           "name": "Français: quest dialogue",
           "language": "Français",
           "addon": "LoreForever_Voice_Default_Quests_frFR",
-          "status": "soon",
+          "status": "live",
           "clips": 3520,
           "coverage": "what quest givers say, in French",
           "download": "https://github.com/mliudev/LoreForever/releases/latest/download/LoreForever_Voice_Default_Quests_frFR.zip"
@@ -314,7 +313,7 @@
           "name": "Quest dialogue (optional)",
           "addon": "LoreForever_Voice_Female_Quests",
           "included": false,
-          "clips": 4258,
+          "clips": 4597,
           "coverage": "recorded quest dialogue in her voice; turn on Speak quest dialogue in Options to hear it",
           "download": "https://github.com/mliudev/LoreForever/releases/latest/download/LoreForever_Voice_Female_Quests.zip"
         },
@@ -389,7 +388,7 @@
           "addon": "LoreForever_Voice_Female_deDE",
           "status": "live",
           "clips": 391,
-          "coverage": "zone, dungeon and place stories, starting areas, dungeon bosses and people, in German (other entries stay available as text)",
+          "coverage": "zone, dungeon and place stories and starting areas, in German; people, dungeon bosses and lore topics are in More people (other entries stay available as text)",
           "download": "https://github.com/mliudev/LoreForever/releases/latest/download/LoreForever_Voice_Female_deDE.zip"
         },
         {
@@ -397,7 +396,7 @@
           "name": "Deutsch: more people",
           "language": "Deutsch",
           "addon": "LoreForever_Voice_Female_MorePeople_deDE",
-          "status": "soon",
+          "status": "live",
           "included": false,
           "clips": 161,
           "coverage": "the whole story of hundreds more characters, plus factions, peoples and lore topics, in her voice, in German",
@@ -452,7 +451,7 @@
           "language": "Español",
           "addon": "LoreForever_Voice_Female_esES",
           "status": "live",
-          "clips": 372,
+          "clips": 590,
           "coverage": "zone, dungeon and place stories, in Spanish (other entries stay available as text)",
           "download": "https://github.com/mliudev/LoreForever/releases/latest/download/LoreForever_Voice_Female_esES.zip"
         },
@@ -474,7 +473,7 @@
           "addon": "LoreForever_Voice_Female_itIT",
           "status": "live",
           "clips": 108,
-          "coverage": "zone stories and lore, in Italian (other entries stay available as text)",
+          "coverage": "zone stories and lore, in Italian (other entries stay available as text; quest dialogue stays English text, since the game has no Italian quest text)",
           "download": "https://github.com/mliudev/LoreForever/releases/latest/download/LoreForever_Voice_Female_itIT.zip"
         },
         {
@@ -502,7 +501,7 @@
           "name": "Français: quest dialogue",
           "language": "Français",
           "addon": "LoreForever_Voice_Female_Quests_frFR",
-          "status": "soon",
+          "status": "live",
           "clips": 3523,
           "coverage": "what quest givers say, in French",
           "download": "https://github.com/mliudev/LoreForever/releases/latest/download/LoreForever_Voice_Female_Quests_frFR.zip"
@@ -628,16 +627,16 @@
       "language": "Español",
       "addon": "LoreForever_Edition_Densuad_esES_Audio",
       "clips": 804,
-      "download": "https://github.com/mliudev/LoreForever/releases/download/v0.23.0/LoreForever_Edition_Densuad_esES.zip",
+      "download": "https://github.com/mliudev/LoreForever/releases/download/v0.24.0/LoreForever_Edition_Densuad_esES.zip",
       "bio": "Spanish text and narration contributed by Densuad. This edition uses its own wording and recordings together. It contains contributed overviews and answers; these are not complete story recordings.",
       "coverage": "699 contributed entries, 109 answer texts and 804 recordings, each played with Densuad’s own text. Text without a matching recording remains readable.",
       "edition": {
         "id": "densuad-esES",
         "locale": "esES",
-        "version": "1385e5d41c049eab0830f981342e223ba13d7ea7fa209943f9c0c10b21cf2091",
+        "version": "baee2263ab6416638ba3286d29852ec1c5b46929569dd89d31a9abd9d7017880",
         "entries": 699,
         "answers": 109,
-        "coreVersion": "0.23.0",
+        "coreVersion": "0.24.0",
         "api": 1,
         "installedSize": 704920095,
         "textAddon": "LoreForever_Edition_Densuad_esES_Text",

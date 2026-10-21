@@ -1,0 +1,115 @@
+{
+ "key": "quest:1783",
+ "type": "quest",
+ "name": "The Tome of Divinity",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   1783
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "angles": [
+  {
+   "target": "class:Paladin",
+   "text": "This trial marks a paladin's mastery over death itself, demonstrating the capacity to channel the Light through the Symbol of Life to restore a fallen ally."
+  },
+  {
+   "target": "race:Dwarf",
+   "text": "The trial directly confronts the threat of Dark Iron dwarves entrenched south of Helm's Bed Lake in Dun Morogh."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "Rescuing dwarven scouts and recovering sacred scripts keeps vital Alliance knowledge and defenders safe from Dark Iron machinations."
+  }
+ ],
+ "faq": [
+  {
+   "aliases": [
+    "what is the tome of divinity",
+    "tome of divinity purpose",
+    "paladin resurrection quest"
+   ],
+   "answer": "The Tome of Divinity represents a defining trial for young paladins. In this stage, an initiate receives the Symbol of Life and is sent to rescue a fallen scout, proving their worthiness and devotion by calling upon the Light to bring someone back from death.",
+   "q": "What is the purpose of this quest?"
+  },
+  {
+   "aliases": [
+    "who is narm faulk",
+    "where is narm",
+    "fallen dwarf narm"
+   ],
+   "answer": "Narm Faulk is an Alliance scout who was ambushed by Dark Iron dwarves south of Helm's Bed Lake. He sacrificed his chance to flee so his partner Muiredon could get away, falling in battle before being restored by the Light.",
+   "q": "Who is Narm Faulk?"
+  },
+  {
+   "aliases": [
+    "who is muiredon",
+    "quest giver muiredon",
+    "who gives the quest"
+   ],
+   "answer": "Muiredon is the scout who fled the Dark Iron ambush at Narm Faulk's urging. He returns to seek reinforcements and directs the paladin to save his fallen comrade with the Symbol of Life.",
+   "q": "Who is Muiredon?"
+  },
+  {
+   "aliases": [
+    "what is the symbol of life",
+    "resurrection item",
+    "symbol of life lore"
+   ],
+   "answer": "The Symbol of Life is a sacred holy relic bestowed upon the paladin alongside instructions from Tiza and Muiredon. Channeled by a worthy servant of the Light, it possesses the power to resurrect the dead.",
+   "q": "What is the Symbol of Life?"
+  },
+  {
+   "aliases": [
+    "what were they doing south of helms bed lake",
+    "why spy on dark iron",
+    "dark iron helms bed lake"
+   ],
+   "answer": "Muiredon and Narm Faulk were spying on Dark Iron dwarves who had entrenched themselves south of Helm's Bed Lake. During their scouting mission, they witnessed an enemy leader barking orders and attempted to recover sacred scripts before being overwhelmed.",
+   "q": "What were Narm and Muiredon doing near Helm's Bed Lake?"
+  },
+  {
+   "aliases": [
+    "who is tiza",
+    "tiza paladin"
+   ],
+   "answer": "Tiza is one of the mentors or coordinators involved in dispatching help and preparing the Symbol of Life alongside Muiredon for the rescue mission.",
+   "q": "Who is Tiza?"
+  }
+ ],
+ "keywords": [
+  "dark iron",
+  "dun morogh",
+  "helm's bed lake",
+  "muiredon",
+  "narm faulk",
+  "paladin",
+  "resurrection",
+  "symbol of life",
+  "tome of divinity"
+ ],
+ "related": [
+  "zone:dunmorogh",
+  "subzone:helm-s-bed-lake",
+  "topic:light"
+ ],
+ "sections": [
+  {
+   "body": "A routine scouting mission south of Helm's Bed Lake turned perilous when dwarven scouts Muiredon and Narm Faulk observed hostile Dark Iron dwarves entrenching themselves. After spotting an enemy commander issuing orders, the scouts attempted to strike down several foes and secure a script, but the Dark Irons overwhelmed them with unexpected ferocity. Muiredon fled to secure reinforcements while Narm held the line.",
+   "spoiler": 0,
+   "title": "Ambush at the Lake"
+  },
+  {
+   "body": "Armed with the Symbol of Life, a paladin initiate travels into the snowy reaches of Dun Morogh to find Narm Faulk. Though Narm fell beneath the Dark Iron onslaught, channeling the power of the holy relic successfully pulls his spirit back just as the Light was ready to embrace him fully. The act cements the paladin's nascent calling and ability to restore life to the fallen.",
+   "spoiler": 1,
+   "title": "A Test of Faith"
+  }
+ ],
+ "summary": "The Tome of Divinity sends a paladin initiate to the frigid shores south of Helm's Bed Lake in Dun Morogh. Armed with the Symbol of Life, the paladin must locate and resurrect Narm Faulk, a brave scout who fell while holding off a band of Dark Iron dwarves.",
+ "attribution": [
+  "In-game quest text: The Tome of Divinity"
+ ]
+}

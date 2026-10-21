@@ -12,7 +12,7 @@
 // Only for a Willo that runs the action (SEND_FROM, by its X-LF-Client); any other gets the question answered as before.
 
 import { CARD_KINDS, readCard, ONLINE_MINUTES } from "./friends.js";
-import { spotOf } from "./willo-pins.js";
+import { spotOf, pinPlaces, placeNamed } from "./willo-pins.js";
 import { clientFrom } from "./willo-help.js";
 
 // The first Willo whose app runs send_to_friend: on the PC and the Mac (companion/lore_companion/actions.py), and the
@@ -39,6 +39,9 @@ const NOT_A_NAME = new Set(["me", "myself", "you", "yourself", "him", "her", "th
 // What can be sent: "this", "my location", "the quest", "my target", "what you just told me", a [bracketed] or
 // "quoted" name.
 const THING = /^(?:this|that|it|these|those|here|where i am|where i'm standing|what you (?:just )?(?:said|told me|wrote)|your (?:answer|story)|(?:this|that|the|my|our)\s+[\p{L}' -]{2,40}|(?:(?:this|that|the|my)\s+)?(?:quest|item)\s+(?:\[[^\]]{2,80}\]|"[^"]{2,80}")|\[[^\]]{2,80}\]|"[^"]{2,80}")$/iu;
+// A thing said by its name alone, capitalized: "send Fargodeep Mine to Doran", "send Goldshire to Mira" (Silver's
+// develop run, 10/20: these got no offer). A send only to a friend by that name (loose: sendOffer).
+const BARE_NAME = /^\p{Lu}[\p{L}'-]*(?:\s+(?:of|the|\p{Lu}[\p{L}'-]*)){0,5}$/u;
 
 const KINDS = [
   ["lore", /\b(?:what you (?:just )?(?:said|told me|wrote)|your (?:answer|story)|story|lore|entry|tale|history)\b/i],
@@ -48,24 +51,43 @@ const KINDS = [
   ["item", /\b(?:item|gear|weapon|armou?r|loot|drop)\b|^\[/i],
 ];
 
-// The question as a send: {name, what, kind ("place" | "quest" | "character" | "item" | "lore" | "this")}, or null.
+const clean = question => String(question || "").replace(/[’‘]/g, "'").replace(/[“”]/g, '"')
+  .replace(/^\s*(?:hey\s+)?willow?[,!]?\s*/i, "").trim();
+
+// The question as a send: {name, what, kind ("place" | "quest" | "character" | "item" | "lore" | "this"), loose?}, or
+// null. loose: a thing by its bare name, a send only when `name` is a friend's (sendOffer); otherwise it's answered
+// as any question.
 export function sendIntent(question) {
-  const q = String(question || "").replace(/[’‘]/g, "'").replace(/[“”]/g, '"').replace(/^\s*(?:hey\s+)?willow?[,!]?\s*/i, "")
-    .trim();
+  const q = clean(question);
   if (!q || q.length > 200) return null;
   const m = TO.exec(q) || NAMED_FIRST.exec(q);
   if (!m) return null;
   const name = m.groups.name, what = m.groups.what.trim().replace(/^(?:please\s+)/i, "");
-  if (NOT_A_NAME.has(name.toLowerCase()) || !THING.test(what)) return null;
+  if (NOT_A_NAME.has(name.toLowerCase())) return null;
+  if (!THING.test(what)) return BARE_NAME.test(what) && !NOT_A_NAME.has(what.toLowerCase()) ? { name, what, kind: "this", loose: true } : null;
   // Something it knows how to send, or a bare "this": "send my regards to Thrall" is no send.
   const kind = KINDS.find(([, re]) => re.test(what))?.[0] || (/^(?:this|that|it|these|those|\[.+\]|".+")$/i.test(what)
     || CAPITALIZED.test(what) ? "this" : null);
   return kind ? { name, what, kind } : null;
 }
 
-// A thing named in [brackets] or "quotes", or out loud by its name ("send the Lucky Fishing Hat to Mike": capitalized,
-// since brackets can't be said): an item, or a quest of theirs by its title.
-const CAPITALIZED = /^(?:the|my)\s+(\p{Lu}[\p{L}'-]*(?:\s+(?:of|the|\p{Lu}[\p{L}'-]*))*)$/u;
+// Anything else asked to be sent to someone ("send Mike a message", "send goldshire to Mira"): {name, what, kind:
+// "unknown", loose: true}, or null. Only ever a send to a friend by that name (sendOffer), who then hears what Willo
+// can send, never the notebook's "I haven't changed your notebook yet" (Silver's develop run, 10/20).
+const LOOSE_TO = new RegExp(LEAD + String.raw`(?:send|share|forward|pass)\s+(?<what>.{1,80}?)\s+(?:to|with)\s+${NAME}(?:,?\s+please)?\s*[.!?]*$`, "iu");
+const LOOSE_FIRST = new RegExp(LEAD + String.raw`send\s+${NAME}\s+(?<what>.{1,80}?)(?:,?\s+please)?\s*[.!?]*$`, "iu");
+export function looseSendIntent(question) {
+  const q = clean(question);
+  if (!q || q.length > 200) return null;
+  const m = LOOSE_TO.exec(q) || LOOSE_FIRST.exec(q);
+  const name = m?.groups.name, what = m?.groups.what.trim();
+  if (!m || NOT_A_NAME.has(name.toLowerCase()) || NOT_A_NAME.has(what.toLowerCase())) return null;
+  return { name, what, kind: "unknown", loose: true };
+}
+
+// A thing named in [brackets] or "quotes", or out loud by its name ("send the Lucky Fishing Hat to Mike", "send
+// Fargodeep Mine to Mike": capitalized, since brackets can't be said): their quest by its title, a place, or an item.
+const CAPITALIZED = /^(?:(?:the|my)\s+)?(\p{Lu}[\p{L}'-]*(?:\s+(?:of|the|\p{Lu}[\p{L}'-]*))*)$/u;
 const named = what => /\[([^\]]{2,80})\]|"([^"]{2,80})"/.exec(what)?.slice(1).find(Boolean)?.trim() || CAPITALIZED.exec(what)?.[1] || "";
 const sentence = (text, max) => {
   const t = String(text || "").replace(/\s+/g, " ").trim();
@@ -75,9 +97,12 @@ const sentence = (text, max) => {
 };
 
 // What the send is, from the prompt: {card (lib/friends.js readCard's), phrase (how Willo says it: "the quest
-// "The Defias Brotherhood"")}, or {missing: what she'd need} when there's nothing to send.
-export function thingToSend(intent, parts, prompt) {
+// "The Defias Brotherhood"")}, or {missing: what she'd need} when there's nothing to send. places: this age's places
+// by name (lib/willo-pins.js pinPlaces), for a place said by its name.
+export function thingToSend(intent, parts, prompt, places = null) {
   const kind = intent.kind;
+  // A place said by its name ("Fargodeep Mine", "goldshire"): "Fargodeep Mine, Elwynn Forest", or "".
+  const namedPlace = () => /^\[/.test(intent.what) ? "" : placeNamed(named(intent.what) || intent.what, places) || "";
   const place = () => {
     const spot = spotOf(prompt);
     if (spot) return { card: { kind: "place", title: spot.place,
@@ -112,12 +137,21 @@ export function thingToSend(intent, parts, prompt) {
     return { card: { kind: "lore", title: asked || "What Willo told me", detail: said }, phrase: "what I just told you" };
   };
   const by = { place, quest, character: target, item, lore };
+  const placeByName = where => ({ card: { kind: "place", title: where }, phrase: where });
+  // Something Willo doesn't know how to send: a place by its name, or nothing.
+  if (kind === "unknown") {
+    const where = namedPlace();
+    return where ? placeByName(where) : { missing: "anything" };
+  }
   if (kind !== "this") return by[kind]();
-  // "Send this to Mike": a [bracketed] or "quoted" name is an item, or their quest by that title; else what she just
-  // told them, their target, where they are, in that order.
+  // "Send this to Mike": a [bracketed] or "quoted" name, or one said capitalized, is their quest by that title, else a
+  // place by that name (not a bracketed one: those are items), else an item; with no name, what she just told them,
+  // their target, where they are, in that order.
   if (named(intent.what)) {
     const q = quest(), bare = t => String(t || "").toLowerCase().replace(/^the\s+/, "");
-    return q.card && bare(named(intent.what)) === bare(q.card.title) ? q : item();
+    if (q.card && bare(named(intent.what)) === bare(q.card.title)) return q;
+    const where = namedPlace();
+    return where ? placeByName(where) : item();
   }
   for (const f of [lore, target, place]) {
     const out = f();
@@ -153,9 +187,11 @@ const MISSING = {
   anything: name => `What should I send ${name}? Where you are, your quest, your target, or what I just told you.`,
 };
 
-// The whole answer to a send: {answer, action ({id: "send_to_friend", args, label}) when there's one to offer}.
+// The whole answer to a send: {answer, action ({id: "send_to_friend", args, label}) when there's one to offer}, or null
+// for a loose one (sendIntent, looseSendIntent) to someone who isn't a friend: that's answered as any question.
 export async function sendOffer(env, userId, intent, parts, prompt, now = Date.now()) {
   const friends = await friendsNamed(env, userId, intent.name, now);
+  if (!friends.length && intent.loose) return null;
   if (!friends.length) return { answer: `I don't see ${intent.name} among your friends yet. Once you're friends, I can send it.` };
   if (friends.length > 1) {
     const list = friends.slice(0, 4).map(f => f.name);
@@ -163,7 +199,9 @@ export async function sendOffer(env, userId, intent, parts, prompt, now = Date.n
       `${list.at(-1)}. Which one?` };
   }
   const friend = friends[0];
-  const thing = thingToSend(intent, parts, prompt);
+  // This age's places, only for a thing said by its name (read once per isolate).
+  const places = intent.kind === "unknown" || (intent.kind === "this" && named(intent.what)) ? await pinPlaces(env) : null;
+  const thing = thingToSend(intent, parts, prompt, places);
   if (!thing.card) return { answer: MISSING[thing.missing](friend.name) };
   const card = readCard(thing.card);
   if (!card || !Object.hasOwn(CARD_KINDS, card.kind)) return { answer: MISSING.anything(friend.name) };

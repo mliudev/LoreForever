@@ -1,3 +1,4 @@
+import { isReportRead } from "./report-read.js";
 // What became of a report a player sent from the site (LOR-621): feedback (functions/api/feedback.js) and bad
 // translations (functions/api/translations/report.js). /admin closes one as fixed, or as kept as it is with why; after
 // a release, the fixed ones closed before its release commit say "Fixed in X.Y.Z" (shipReports: POST /api/admin
@@ -15,6 +16,7 @@ export const TABLES = Object.keys(COLUMNS);
 // and Worker; another cold Worker may add one at the same moment.
 const ready = new WeakMap();
 export async function setupReports(env) {
+  if (isReportRead(env)) return;
   if (ready.get(env.DB)) return;
   let all = true;
   for (const [table, columns] of Object.entries(COLUMNS)) {

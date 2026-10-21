@@ -7,7 +7,7 @@ import assert from "node:assert/strict";
 import { onRequest as friendsApi } from "../functions/api/friends/[action].js";
 import { findOrCreateUser, setup, deleteUser } from "../lib/accounts.js";
 import { startLink, decideLink, claimToken } from "../lib/devices.js";
-import { parseWho, cleanMessage, MESSAGE_MAX, friendOffer } from "../lib/friends.js";
+import { parseWho, cleanMessage, MESSAGE_MAX, friendOffer, FREE_MESSAGES_PER_DAY } from "../lib/friends.js";
 import { shareCode, newShareCode, codeOwner, setupReferrals } from "../lib/referrals.js";
 import { escape } from "../lib/voices.js";
 
@@ -301,4 +301,18 @@ test("a shared quest goes as a card with plain words beside it; an unread messag
   assert.equal((await sam.call("unsend", { id: sent.id })).status, 409, "she read it");
   const mine = (await sam.call("messages", undefined, `?with=${anaId}`)).body.messages;
   assert.equal(mine[0].seen, true);
+});
+
+test("while plans are sold, the free plan sends 10 messages a day; the 11th waits for tomorrow", async () => {
+  const sam = await player("samfree"), ana = await player("anafree");
+  const { bId: anaId } = await befriend(sam, ana);
+  env.SITE_FEATURES = "plans";
+  try {
+    for (let i = 0; i < FREE_MESSAGES_PER_DAY; i++) assert.equal((await sam.call("send", { to: anaId, text: `hi ${i}` })).status, 200);
+    const over = await sam.call("send", { to: anaId, text: "one more" });
+    assert.equal(over.status, 429);
+    assert.match(over.body.error, /today's 10 messages on the free plan/);
+  } finally { delete env.SITE_FEATURES; }
+  // Plans off (the site before plans): no free cap.
+  assert.equal((await sam.call("send", { to: anaId, text: "plans off" })).status, 200);
 });

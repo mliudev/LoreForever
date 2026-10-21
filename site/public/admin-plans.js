@@ -1,7 +1,8 @@
 // /admin's Growth > Plans & usage (functions/api/admin/plans-usage.js, lib/plan-usage.js): what each plan's players
-// really use, for pricing decisions: answers asked out loud or typed, look-ups, sight and characters, limits that
-// turned answers away, which voice said the replies (or why the PC did), the Willo voices picked, and plans by where
-// their checkout started. By plan, never who; one CSV of all of it. Loaded by admin-page.js when Growth opens.
+// really use, for pricing decisions: answers asked out loud or typed, look-ups, sight and characters, how many of the
+// smarter plan's (Legend's) answers stepped down to Flash-Lite past its text cap, limits that turned answers away, which voice said
+// the replies (or why the PC did), the Willo voices picked, and plans by where their checkout started. By plan, never
+// who; one CSV of all of it. Loaded by admin-page.js when Growth opens.
 
 const PLAN = { free: "Free", "free-brake": "Free (brake on)", "beta-hero": "Beta's free Hero month", hero: "Hero",
   champion: "Champion", legend: "Legend", "": "Before plans were recorded (Oct 19)" };
@@ -17,7 +18,7 @@ const voiceName = s => {
   const name = rest ? rest[0].toUpperCase() + rest.slice(1) : "";
   return kind === "finest" ? `Finest · ${name}` : kind === "studio" ? `Studio · ${name}` : s;
 };
-const LIMIT = { day: "Daily answers", month: "Month's answers", cost_cap: "Month's cost cap", brake: "Free brake" };
+const LIMIT = { day: "Daily answers", month: "Month's answers", cost_cap: "Month's full net", brake: "Free brake" };
 const SOURCE = { welcome: "Welcome page", plans: "Plans page", "willo-empty": "Willo: her answers ran out",
   "willo-chorus": "Willo: her best-first answers ended", "willo-locked": "Willo: a locked feature",
   "willo-ask": "Willo offered Plans", "": "Before tracking (Oct 19)" };
@@ -55,6 +56,10 @@ export function plansCsv(res) {
     for (const k of ["spoken", "typed", "quick", "required", "sight", "characters"])
       lines.push(["answers", a.plan, k, "", a[k], pct(a[k], a.answers)]);
   }
+  for (const m of res.models || []) {
+    lines.push(["models", m.plan, "on 3.6 flash", m.players, m.flash, pct(m.flash, m.answers)]);
+    lines.push(["models", m.plan, "stepped down to flash-lite", m.steppedPlayers, m.stepped, pct(m.stepped, m.answers)]);
+  }
   for (const l of res.limits) lines.push(["limits", l.plan, l.kind, l.players, l.n, ""]);
   for (const v of res.voices) lines.push(["voices", v.plan, `${v.kind} ${v.said}`, v.players, v.replies, ""]);
   for (const p of res.picks) lines.push(["picks", p.plan, p.pick, p.players, p.replies, ""]);
@@ -89,6 +94,13 @@ export function loadPlansUsage(key, $ = id => document.getElementById(id)) {
       `${a.quick + a.required} (${pct(a.quick + a.required, a.answers)})`, `${a.sight} (${pct(a.sight, a.answers)})`,
       `${a.characters} (${pct(a.characters, a.answers)})`)));
     if (!res.answers.length) $("pu-answers").replaceChildren(empty(8, "No shared answers in these days yet."));
+    // Her answers on 3.6 Flash, or stepped down to Flash-Lite past the plan's text cap: the smarter plan's (Legend's)
+    // only, as every other plan's are on Flash-Lite anyway.
+    const models = res.models || [];
+    $("pu-models").replaceChildren(...models.map(m => row(planName(m.plan), m.flash.toLocaleString(),
+      m.stepped ? `${m.stepped.toLocaleString()} (${m.steppedPlayers} player${m.steppedPlayers === 1 ? "" : "s"})` : 0,
+      pct(m.stepped, m.answers))));
+    if (!models.length) $("pu-models").replaceChildren(empty(4, "No Legend answers kept in these days yet."));
     // Limits: one row a plan, a column a limit, "players / times".
     const plans = [...new Set(res.limits.map(l => l.plan))];
     $("pu-limits").replaceChildren(...plans.map(p => row(planName(p), ...Object.keys(LIMIT).map(k => {

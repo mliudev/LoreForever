@@ -139,7 +139,7 @@ test("a friend counts after Willo's first real answer, not on the click or the c
   assert.deepEqual([s.joined, s.waiting, s.progress.have, s.progress.left], [1, 0, 1, 9]);
   assert.equal(s.tally, "1 / 10 friends joined — 9 more until a free month of Hero.");
   assert.equal(s.invite, "Invite a friend to awaken their Willo");
-  assert.match(s.about, /5 friends: 300 bonus answers\. 10 friends: a free month of Hero\./);
+  assert.match(s.about, /5 friends: 450 bonus answers\. 10 friends: a free month of Hero\./);
   assert.ok(row(pal).machine, "Willo's computer noted, one-way");
 
   // The same Google account again, after Delete my account: not a second friend.
@@ -165,7 +165,7 @@ test("the fifth friend gives bonus answers and the tenth a free Hero month, each
   assert.equal(env.DB.sqlite.prepare("SELECT COUNT(*) AS n FROM referral_rewards").get().n, 0);
   await friend(cookie);
   const bonus = env.DB.sqlite.prepare("SELECT * FROM answer_packs WHERE user_id = ? AND kind = 'share'").all(sharer.id);
-  assert.deepEqual(bonus.map(p => [p.id, p.answers]), [[`bonus:${sharer.id}:0`, 300]], "half the free plan's 600");
+  assert.deepEqual(bonus.map(p => [p.id, p.answers]), [[`bonus:${sharer.id}:0`, 450]], "half the free plan's 900");
   await settleRewards(env, sharer.id);
   assert.equal(env.DB.sqlite.prepare("SELECT COUNT(*) AS n FROM answer_packs WHERE kind = 'share'").get().n, 1, "once");
 
@@ -175,10 +175,10 @@ test("the fifth friend gives bonus answers and the tenth a free Hero month, each
   assert.equal(grant[0].plan, "hero");
   assert.equal(Date.parse(grant[0].ends) - Date.parse(grant[0].starts), 30 * DAY * 1000);
   const plan = await planFor(env, sharer.id);
-  assert.deepEqual([plan.id, plan.reward, plan.answersPerMonth], ["hero", true, 900]);
+  assert.deepEqual([plan.id, plan.reward, plan.answersPerMonth], ["hero", true, 1500]);
   let s = await summary(sharer);
   assert.equal(s.tally.split(" —")[0], "0 / 10 friends joined");
-  assert.match(s.earned, /1 free month and 300 bonus answers/);
+  assert.match(s.earned, /1 free month and 450 bonus answers/);
   assert.equal(s.rewards.find(r => r.kind === "month").text.startsWith("A free month of Hero, October 16 to November 15"), true);
 
   // The eleventh this month joins but doesn't count until next month.

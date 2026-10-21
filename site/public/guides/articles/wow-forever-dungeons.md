@@ -3,7 +3,6 @@ title: WoW Forever New Dungeons Guide: All 9 Locations and Levels
 description: All nine new WoW Forever dungeons with level ranges, locations and lore: Hall of Thanes, Ruins of Lordaeron, City of Dalaran, Shaper's Terrace and more.
 date: 2026-10-17
 kind: tutorial
-draft: true
 ---
 **WoW Forever adds nine new dungeons across the 1–60 journey**, from early adventures in **Hall of Thanes** and **Ruins of Lordaeron** to late challenges such as **Blackmaw Hold** and **Shaper's Terrace**. They expand places that have been part of Azeroth's geography for years.
 

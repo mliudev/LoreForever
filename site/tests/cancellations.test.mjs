@@ -162,6 +162,24 @@ test("comped and team accounts are logged but marked; an extra subscription's en
   assert.equal(rows()[0].counted, 0);
   assert.match(posts[0], /team or comped account, not counted/);
 
+  // A creator's Legend for three months (COMP_COUPONS "creator-legend-3mo"), its coupon sent as an id only: comped
+  // without reading the coupon from Stripe.
+  const creator = await player("domin0gam3s");
+  const creatorLegend = sub("sub_c", creator, { plan: "legend", discounts: [{ id: "di_c", coupon: "creator-legend-3mo" }] });
+  assert.equal(await hook(cancel(creatorLegend)), 200);
+  assert.equal(rows().find(r => r.subscription_id === "sub_c").counted, 0);
+  assert.match(posts[1], /team or comped account, not counted/);
+  // The coupon Mike made for them, by its id only ("domino-games-free"), and any other 100%-off coupon Stripe gives
+  // whole (a creator's comp named nowhere here): comped too.
+  const domino = await player("domino");
+  assert.equal(await hook(cancel(sub("sub_d", domino, { plan: "legend",
+    discounts: [{ id: "di_d", coupon: "domino-games-free" }] }))), 200);
+  const next = await player("nextcreator");
+  assert.equal(await hook(cancel(sub("sub_n", next, { plan: "legend",
+    discounts: [{ id: "di_n", coupon: { id: "someone-new-free", percent_off: 100, duration: "repeating",
+      duration_in_months: 2 } }] }))), 200);
+  for (const id of ["sub_d", "sub_n"]) assert.equal(rows().find(r => r.subscription_id === id).counted, 0, id);
+
   const tester = await player("tester");
   env.DB.sqlite.prepare("INSERT INTO excluded_accounts (user_id, reason, created) VALUES (?, 'admin', ?)").run(tester.id, "x");
   assert.equal(await hook(cancel(sub("sub_g", tester))), 200);
@@ -177,7 +195,7 @@ test("comped and team accounts are logged but marked; an extra subscription's en
   assert.equal(await hook(event("customer.subscription.deleted", extra)), 200);
   const replaced = rows().find(r => r.subscription_id === "sub_h2");
   assert.deepEqual([replaced.kind, replaced.counted], ["replaced", 0]);
-  assert.equal(posts.length, 2, "not posted");
+  assert.equal(posts.length, 5, "not posted");
 });
 
 test("Stripe or Slack failing never fails the webhook; the line goes out without what it paid", async () => {

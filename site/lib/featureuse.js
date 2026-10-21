@@ -1,3 +1,4 @@
+import { isReportRead } from "./report-read.js";
 // Which features players use, from every companion install (LOR-435). The companion's daily check-in
 // (functions/api/companion/checkin.js, lib/checkins.js) carries the add-on's usage counts (Log.lua's
 // LoreForeverDB.usage, read from SavedVariables) and the companion's own, per day, with the same hashed random install
@@ -136,6 +137,7 @@ const SETUP = [
 // Once per Worker and database: every later call costs no round trip to D1.
 const ready = new WeakSet();
 export async function setupFeatureUsage(env) {
+  if (isReportRead(env)) return;
   if (ready.has(env.DB)) return;
   await env.DB.batch(SETUP.map(s => env.DB.prepare(s)));
   ready.add(env.DB);
@@ -244,8 +246,18 @@ export async function featureReport(env, now = Date.now()) {
   const PLAYERS = "u.day >= ? AND u.internal = 0";
   // Only the trend reads the rollups, so the rest don't wait for them.
   const [trend, active, use, metrics, levelUse, levelSize, backUse, backSize] = await Promise.all([
-    rollupUsage(env, utcDay(now, -1), utcDay(now)).then(() => all("SELECT day, metric, installs FROM usage_rollup " +
-      "WHERE day >= ? AND (metric = '_installs' OR metric GLOB 'f:*') ORDER BY day", d30)),
+    isReportRead(env) ? all(`${WITH_FEATURES}, fresh AS (
+      SELECT day, '_installs' AS metric, COUNT(DISTINCT install) AS installs FROM install_usage
+      WHERE day >= ? AND day <= ? AND internal = 0 GROUP BY day
+      UNION ALL
+      SELECT u.day, 'f:' || f.id, COUNT(DISTINCT u.install) FROM install_usage u, json_each(u.counts) j, f
+      WHERE u.day >= ? AND u.day <= ? AND u.internal = 0 AND j.key GLOB f.pat GROUP BY u.day, f.id
+      ) SELECT day, metric, installs FROM usage_rollup
+      WHERE day >= ? AND (day < ? OR day > ?) AND (metric = '_installs' OR metric GLOB 'f:*')
+      UNION ALL SELECT day, metric, installs FROM fresh ORDER BY day`,
+      utcDay(now, -1), utcDay(now), utcDay(now, -1), utcDay(now), d30, utcDay(now, -1), utcDay(now))
+      : rollupUsage(env, utcDay(now, -1), utcDay(now)).then(() => all("SELECT day, metric, installs FROM usage_rollup " +
+        "WHERE day >= ? AND (metric = '_installs' OR metric GLOB 'f:*') ORDER BY day", d30)),
     env.DB.prepare("SELECT COUNT(DISTINCT CASE WHEN day >= ? THEN install END) AS d14, COUNT(DISTINCT install) AS d30, " +
       "COUNT(*) AS days, COALESCE(SUM(json_extract(counts, '$.min') > 0), 0) AS played, " +
       "COALESCE(SUM(json_extract(counts, '$.min')), 0) AS minutes, COALESCE(SUM(json_extract(counts, '$.login')), 0) AS logins " +

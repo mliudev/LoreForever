@@ -1,3 +1,4 @@
+import { isReportRead } from "../../lib/report-read.js";
 // The public download counts on the home page (index.html's #downloads). The add-on's: the zip and installer downloads
 // of every GitHub release (the site's own /download/* links redirect there, so they're in it) plus CurseForge's total.
 // Willo's: her own installer, Willo-Setup.exe (lib/willo.js), which is never in the add-on's.
@@ -90,7 +91,7 @@ export async function siteWilloDownloads(env) {
 }
 
 export async function onRequestGet({ request, env, waitUntil }) {
-  const cache = globalThis.caches?.default;
+  const cache = !isReportRead(env) && globalThis.caches?.default;
   const key = new Request(new URL("/api/downloads", request.url).toString());
   const hit = cache && await cache.match(key).catch(() => null);
   if (hit) return hit;
@@ -102,8 +103,10 @@ export async function onRequestGet({ request, env, waitUntil }) {
   const github = releases && releases.reduce((n, r) => n + r.downloads, 0);
   const willo = releases ? releases.reduce((n, r) => n + r.willo, 0) : siteWillo;
   const willoSource = releases ? "github" : siteWillo != null ? "site" : null;
-  const res = Response.json({ total: (github || 0) + (cf.curseforge || 0), github, ...cf, willo, willoSource },
+  const total = isReportRead(env) && (github == null || cf.curseforge == null) ? null : (github || 0) + (cf.curseforge || 0);
+  const res = Response.json({ total, github, ...cf, willo, willoSource },
     { headers: { "Cache-Control": `public, max-age=${TTL}` } });
+  if (isReportRead(env)) return res;
   const snapshot = snapshotStores(env, { github: releases, getGithub: () => githubReleases(env) })
     .catch(() => {});   // never the answer's problem
   if (waitUntil) waitUntil(snapshot); else await snapshot;

@@ -12,6 +12,7 @@ import { findOrCreateUser, setup } from "../lib/accounts.js";
 import { startLink, decideLink, claimToken } from "../lib/devices.js";
 import { NO_SPOT_LINE, NO_PIN_LINE } from "../lib/willo-pins.js";
 import { ACTIONS_MAX_BYTES } from "../lib/companion-answers.js";
+import { NOT_WRITTEN_LINE } from "../lib/willo-notebook.js";
 import { d1 } from "./helpers.mjs";
 
 const env = { DB: d1(), GEMINI_API_KEY: "test-key" };
@@ -209,4 +210,25 @@ test("remember this spot, with the game's spot, is a pin, never a plain note", a
     assert.match(res.answer, /^Pinned: Fargodeep Mine in Elwynn Forest\./, q);
     assert.match(page(user, `char:${HURIN}`).body, /^## Pins\n- Fargodeep Mine/, q);
   }
+});
+
+test("\"mark this as a spot that's cool to look out from\" is a pin, and no answer claims one it didn't write (Mike, 10/19)", async () => {
+  const { user, token } = await linked();
+  // Live: "I have marked the Gates of Ironforge in your notes as a scenic lookout" with nothing written. With the game's spot,
+  // it's pinned; the model's own claim is never what she says.
+  reply = body => offered(body).includes("notebook_pin")
+    ? called("notebook_pin", { answer: "I have marked these grand gates for you.", name: "the lookout" }) : said("?");
+  let res = await ask(token, "Hey Willow, mark this as a spot that's cool to look out from in Ironforge.");
+  assert.equal(res.answer, "Pinned: the lookout, Fargodeep Mine in Elwynn Forest.");
+  assert.match(page(user, `char:${HURIN}`).body, /^## Pins\n- the lookout · Fargodeep Mine, Elwynn Forest/);
+  // Without the game's spot: why not, never "marked".
+  reply = () => said("I have marked the Gates of Ironforge in your notes as a scenic lookout over Dun Morogh.");
+  res = await ask(token, "Hey Willow, mark this as a spot that's cool to look out from in Ironforge.", { spot: "" });
+  assert.equal(res.answer, NO_SPOT_LINE);
+  // Any other question: a claim of a note, a pin or the map written, with nothing written, goes; the rest stays.
+  reply = () => said("I've noted the Gates of Ironforge in your notebook. The view across Dun Morogh is wonderful at dusk.");
+  res = await ask(token, "What a view from the gates!", { spot: "" });
+  assert.equal(res.answer, `${NOT_WRITTEN_LINE} The view across Dun Morogh is wonderful at dusk.`);
+  reply = () => said("Hogger has marked the road with bones. Beware the Riverpaw.");
+  assert.equal((await ask(token, "Who is Hogger?", { spot: "" })).answer, "Hogger has marked the road with bones. Beware the Riverpaw.");
 });

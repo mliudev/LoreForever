@@ -9,11 +9,16 @@ import { onRequest as answer } from "../functions/api/companion/answer.js";
 import { findOrCreateUser, setup } from "../lib/accounts.js";
 import { startLink, decideLink, claimToken } from "../lib/devices.js";
 import { addFriend, answerRequest, person } from "../lib/friends.js";
-import { sendIntent, thingToSend } from "../lib/friend-send.js";
+import { sendIntent, looseSendIntent, thingToSend } from "../lib/friend-send.js";
+import { pinPlacesOf } from "../lib/willo-pins.js";
 import { promptParts } from "../lib/forever-knowledge.js";
 import { d1 } from "./helpers.mjs";
 
-const env = { DB: d1(), GEMINI_API_KEY: "test-key" };
+// The lore library's places, as pinPlaces reads them (public/lore/data/index.json).
+const INDEX = { zones: [{ key: "elwynn", name: "Elwynn Forest" }],
+  pages: [{ n: "Elwynn Forest", k: "zone", z: "elwynn" }, { n: "Fargodeep Mine", k: "subzone", z: "elwynn" },
+          { n: "Goldshire", k: "subzone", z: "elwynn" }] };
+const env = { DB: d1(), GEMINI_API_KEY: "test-key", ASSETS: { fetch: async () => Response.json(INDEX) } };
 const originalFetch = globalThis.fetch;
 let calls;
 
@@ -131,5 +136,38 @@ test("a Willo without the action, and an older iPhone, get the question answered
     assert.equal(res.answer, "Hello, friend.", client);
     assert.notEqual(res.action?.id, "send_to_friend");
   }
+  assert.equal(calls, 2);
+});
+
+test("a thing said by its bare name, and anything else sent to a friend (Silver's develop run, 10/20)", async () => {
+  // Parsed: a bare capitalized name is a send only to a friend (loose); other words, only through looseSendIntent.
+  assert.deepEqual(sendIntent("Willo, send Fargodeep Mine to Doran"), { name: "Doran", what: "Fargodeep Mine", kind: "this", loose: true });
+  assert.deepEqual(sendIntent("send Goldshire to Mira"), { name: "Mira", what: "Goldshire", kind: "this", loose: true });
+  assert.equal(sendIntent("send goldshire to Mira"), null);
+  assert.deepEqual(looseSendIntent("send goldshire to Mira"), { name: "Mira", what: "goldshire", kind: "unknown", loose: true });
+  assert.deepEqual(looseSendIntent("Send Mira a message saying hi"), { name: "Mira", what: "a message saying hi", kind: "unknown", loose: true });
+  for (const q of ["send this to me", "share your thoughts with me", "Send me to Booty Bay"]) assert.equal(looseSendIntent(q), null, q);
+  const parts = promptParts(PROMPT("x")), places = pinPlacesOf(INDEX);
+  assert.deepEqual(thingToSend(sendIntent("send Fargodeep Mine to Doran"), parts, PROMPT("x"), places).card,
+    { kind: "place", title: "Fargodeep Mine, Elwynn Forest" });
+  assert.deepEqual(thingToSend(sendIntent("send the Lucky Fishing Hat to Doran"), parts, PROMPT("x"), places).card,
+    { kind: "item", title: "Lucky Fishing Hat" }, "not a place: still an item");
+  assert.deepEqual(thingToSend(sendIntent("send [Fargodeep Mine] to Doran"), parts, PROMPT("x"), places).card,
+    { kind: "item", title: "Fargodeep Mine" }, "brackets are an item's");
+
+  const me = await player("sam", "Sam"), ana = await player("ana", "Aelric");
+  await friends(me, ana, "ana");
+  const mine = await ask(me.token, "Willo, send Fargodeep Mine to Aelric");
+  assert.equal(mine.answer, "Aelric's Willo is awake. Want me to send them Fargodeep Mine, Elwynn Forest?");
+  assert.deepEqual([mine.action.label, mine.action.args.kind, mine.action.args.title], ["Send to Aelric", "place", "Fargodeep Mine, Elwynn Forest"]);
+  assert.equal((await ask(me.token, "send goldshire to aelric")).action.args.title, "Goldshire, Elwynn Forest");
+  assert.equal((await ask(me.token, "send the Defias Brotherhood to Aelric")).action.args.kind, "quest", "their quest first");
+  // Something she can't send, to a friend: she says what she can, never the notebook's line.
+  const what = await ask(me.token, "Send Aelric a message saying hi");
+  assert.equal(what.answer, "What should I send Aelric? Where you are, your quest, your target, or what I just told you.");
+  assert.equal(what.action, undefined);
+  assert.equal(calls, 0, "never the answer model");
+  // Not to a friend: a question, answered as before.
+  for (const q of ["send my regards to Thrall", "send Fargodeep Mine to Thrall"]) assert.equal((await ask(me.token, q)).answer, "Hello, friend.", q);
   assert.equal(calls, 2);
 });

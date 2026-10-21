@@ -19,7 +19,7 @@
 //                    failures, dropped takes
 
 import { setupAnswerLog, KEEP_DAYS as LOG_DAYS } from "./answer-log.js";
-import { setupFeedback, REASONS, SAID_KINDS } from "./answer-feedback.js";
+import { setupFeedback, prepareFeedbackRead, REASONS, SAID_KINDS } from "./answer-feedback.js";
 import { MISSED, TOPICS, topicOf } from "./answer-signals.js";
 
 const like = tags => `(${tags.map(() => "signals LIKE ?").join(" OR ")})`;
@@ -46,7 +46,7 @@ export async function qualityReport(env, { days = 7, now = new Date() } = {}) {
   const span = Math.min(Math.max(Number.parseInt(days, 10) || 7, 1), LOG_DAYS);
   const from = new Date(now.getTime() - span * 864e5).toISOString();
   await Promise.all([setupAnswerLog(env), setupFeedback(env)]);
-  const all = (sql, ...binds) => env.DB.prepare(sql).bind(...binds).all().then(r => r.results);
+  const all = (sql, ...binds) => prepareFeedbackRead(env, sql, now).bind(...binds).all().then(r => r.results);
   const [totals, byDay, topics, questions, kinds, reasons, open, fixed, installs] = await Promise.all([
     env.DB.prepare("SELECT COUNT(*) AS answers, COUNT(DISTINCT player) AS players, " +
       "SUM(CASE WHEN signals LIKE '%reported%' THEN 1 ELSE 0 END) AS reported, " +
@@ -76,9 +76,9 @@ export async function qualityReport(env, { days = 7, now = new Date() } = {}) {
     all("SELECT reasons FROM answer_feedback WHERE created >= ? AND reasons IS NOT NULL", from),
     all("SELECT status, COALESCE(class, '') AS class, COUNT(*) AS n FROM answer_feedback " +
       "WHERE status IN ('new', 'triaged') GROUP BY status, class"),
-    env.DB.prepare("SELECT COUNT(*) AS n, SUM(CASE WHEN followup = 1 THEN 1 ELSE 0 END) AS followups, " +
+    prepareFeedbackRead(env, "SELECT COUNT(*) AS n, SUM(CASE WHEN followup = 1 THEN 1 ELSE 0 END) AS followups, " +
       "SUM(CASE WHEN told_at IS NOT NULL THEN 1 ELSE 0 END) AS told FROM answer_feedback " +
-      "WHERE status IN ('fixed', 'fact') AND COALESCE(fixed_at, updated, created) >= ?").bind(from).first(),
+      "WHERE status IN ('fixed', 'fact') AND COALESCE(fixed_at, updated, created) >= ?", now).bind(from).first(),
     installCounts(env, from.slice(0, 10)),
   ]);
   const answers = totals?.answers || 0;

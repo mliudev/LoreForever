@@ -6,7 +6,7 @@ import { test, afterEach } from "node:test";
 import assert from "node:assert/strict";
 
 import { setup, findOrCreateUser } from "../lib/accounts.js";
-import { setupBilling, billingReport, claimOf } from "../lib/billing.js";
+import { setupBilling, billingReport, claimOf, TASTE_ANSWERS } from "../lib/billing.js";
 import { markAsked, utcDay } from "../lib/activity.js";
 import { willoReport } from "../lib/willo-stats.js";
 import { d1 } from "./helpers.mjs";
@@ -147,7 +147,7 @@ test("Willo's best first: what it cost a day, and plans and returns for the play
   asked(fresh, "2026-10-15");
   asked(freshPaid, "2026-10-15");
   asked(test, "2026-10-15");
-  for (const [id, used] of [[fresh, 20], [freshPaid, 3], [test, 5]])
+  for (const [id, used] of [[fresh, TASTE_ANSWERS], [freshPaid, 3], [test, 5]])
     env.DB.sqlite.prepare("INSERT INTO best_first (claim, user_id, used, started) VALUES (?, ?, ?, '2026-10-15T01:00:00Z')")
       .run(`taste:${id}`, id, used);
   env.DB.sqlite.prepare("INSERT INTO plan_log (subscription_id, user_id, plan, status, comp, updated) VALUES " +
@@ -156,9 +156,14 @@ test("Willo's best first: what it cost a day, and plans and returns for the play
   env.DB.sqlite.prepare("INSERT INTO best_first_days (day, spent_micro, reserved_micro, answers, capped) VALUES " +
     "('2026-10-15', 240000, 240000, 23, 2)").run();
   const r = await tasteReport(env, new Date(NOW));
-  assert.deepEqual([r.tasters, r.finished, r.usd, r.capUsd], [2, 1, 0.24, 2], "the test account left out");
+  assert.deepEqual([r.tasters, r.finished, r.usd, r.capUsd], [2, 1, 0.24, 5], "the test account left out; the day's cap is $5");
   assert.equal(r.perTaster, 0.12);
   assert.deepEqual(r.days, [{ day: "2026-10-15", usd: 0.24, answers: 23, replies: 0, lines: 0, starts: 0, capped: 2, unreachable: 0 }]);
   assert.deepEqual(r.cohorts, { taste: { players: 2, paid: 1, returned: 0, week: 0 },
                                 before: { players: 2, paid: 0, returned: 1, week: 0 } });
+  // The first-run trial's uses (lib/best-first.js TRIAL), the test account left out.
+  env.DB.sqlite.prepare("UPDATE best_first SET lookups = 2, tries = '{\"sight\":3,\"cast\":1}' WHERE user_id IN (?, ?)")
+    .run(fresh, test);
+  assert.deepEqual((await tasteReport(env, new Date(NOW))).trial,
+    { trying: 2, lookups: 2, lookupsBy: 1, sight: 3, sightBy: 1, cast: 1, castBy: 1 });
 });

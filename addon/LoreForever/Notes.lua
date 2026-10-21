@@ -3,16 +3,15 @@
 
 local _, ns = ...
 ns.Notes = {
-  version = "0.23.0",
+  version = "0.24.0",
+  released = "2026-10-20",
   items = {
-    { "Willo's journey and notebook grow up", "pins show on your journey map with their name and note, and keep the exact spot where you stood. She remembers rares you only saw and mounts you bought, keeps goals on a page of their own, and is straight about her notebook, including what she can and can't clear. Empty headings tidy themselves away.", "Willo's journey and notebook grow up:" },
-    { "Willo knows more about where you are", "ask how much gold you have and she tells you, to the copper. Asked out loud without Live game info, she gives the way from where the game last saved you. Battlegrounds no longer count as where you last were.", "Willo knows more about where you are:" },
-    { "More native voices", "German people stories (777 characters, bosses and lore topics) arrive in the male narrator's new voice as an optional download. Spanish zone stories get new native Castilian narrators, male and female. Quest givers now read their quests aloud in French, in two new optional downloads. Goldshire's stories are re-recorded.", "More native voices:" },
-    { "Move the story subtitles", "Options has a new Move the subtitles... button (or type /lore subtitles). Drag them anywhere, for example off your action bars, and Put them back returns them to the bottom.", "Move the story subtitles:" },
-    { "The people you target answer under their own names", "a guard captain is \"Melris Malagan\", not \"Human\", and each person you talk to gets a chat of their own.", "The people you target answer under their own names:" },
-    { "Friends and Willo's window", "the Friends tab shows who has Willo connected, and \"Willo, send this to Aelric\" sends your place, quest or target with Undo. Willo's window reads clearer, with older chats marked \"Saved chat\".", "Friends and Willo's window:" },
-    { "Opt-in error reports", "when the add-on hits a problem, Willo asks once whether to send what it noted. No names or account, and it stays off until you say yes.", "Opt-in error reports:" },
-    { "Fixes", "moving Willo's sky works again, and a story with no recording yet now says so beside its title.", "Fixes:" },
-    { "", "Corrected lore in 40 entries.", "" },
+    { "Easier updates", "the new Windows Willo app downloads updates in the background and installs them when she next starts. She also updates Lore Forever and your installed packs while the game is closed. The add-on tells you when you're falling behind.", "Easier updates:" },
+    { "Willo's notebook and chat", "ask her to clear finished items, combine notes, move a note to all your characters, or undo a recent note edit. Her chat over the game now scrolls with the wheel, dragging, or Page Up and Page Down.", "Willo's notebook and chat:" },
+    { "More voices and quest dialogue", "optional downloads bring more Castilian Spanish places, a new native Brazilian Portuguese male narrator, and more English quest lines. French quest voices, subtitles and titles now work with an English game.", "More voices and quest dialogue:" },
+    { "Closing the player now sticks", "X forgets the current story and keeps the player closed after /reload, while keeping your playlist. A paused story outside the playlist appears at its top, where Clear all removes it too.", "Closing the player now sticks:" },
+    { "Try more of Willo", "during their first seven days, new players get limited tries of her extra voices, characters speaking in their own voices, looking things up and seeing the game. Her window shows how many tries remain.", "Try more of Willo:" },
+    { "Everyday requests work more naturally", "\"remember to check the auction house in five minutes\" sets a reminder, \"mark this as a lookout spot\" makes a pin, and you can share a place with a friend by name. Timed reminders still reach you when the game is out of view.", "Everyday requests work more naturally:" },
+    { "More lore and fixes", "more community quest text and lore, corrected stories, and updated German, Spanish, French and Brazilian Portuguese translations. Outdated language packs no longer stop the add-on loading, and the small wisp is easier to click.", "More lore and fixes:" },
   },
 }

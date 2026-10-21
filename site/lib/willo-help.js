@@ -9,7 +9,7 @@
 // Companion.lua). Plans come from lib/billing.js, so they can't drift. No prices: they change, and "no prices in the
 // wisp" (talk/talker.py LOCKED_LINE); the Plans page has them.
 import { COMPANION_NAME as NAME } from "./brand.js";
-import { PLANS, PAID, planFeatures, VOICE_NOTE, VOICE_PACK } from "./billing.js";
+import { PLANS, PAID, planFeatures, VOICE_NOTE } from "./billing.js";
 import { hasAzeroth } from "./character-voices.js";
 import { CLEAR_ALL } from "./willo-notebook.js";
 
@@ -23,8 +23,8 @@ const plansText = ({ azeroth }) => `Your plans (a player asking what Adventurer,
   `which one they're on; Change plan opens ` +
   `the Plans page (with the prices) and Billing your payments. ` +
   ["free", ...PAID].map(id => `${PLANS[id].name}${id === "free" ? " (free)" : ""}: ${planFeatures({ azeroth })[id].join("; ")}.`).join(" ") +
-  ` ${VOICE_NOTE} The one thing bought once is a pack of ${VOICE_PACK.replies} replies in your finest voice, on any paid ` +
-  `plan; answers can't be bought. When a plan's answers are used up, I answer from the add-on's lore library until they ` +
+  ` ${VOICE_NOTE} Nothing is bought once: answers can't be bought. When a plan's answers are used up, I answer from ` +
+  `the add-on's lore library until they ` +
   `come back. Never say a price (the Plans page has them), nor "limit", "cap" or "unlimited": answers are counts.`;
 
 // A topic's own words with more alternatives joined on (other patterns').
@@ -66,8 +66,7 @@ const TOPICS = [
         `instead, they pick a key under "Ask who you're targeting" in the same place and hold that: the character ` +
         `answers in person, and with no one targeted you answer. ` : "") +
       `If WoW runs as administrator, Windows hides the key from you: start WoW normally, or run ${NAME} as ` +
-      `administrator too. Asking out loud comes with Hero and up; on the free plan the first 30 questions out loud are ` +
-      `answered aloud. Microphone trouble: Windows Settings › Privacy & security › Microphone. Their voice becomes text ` +
+      `administrator too. Every plan asks out loud, the free one too, and I answer aloud. Microphone trouble: Windows Settings › Privacy & security › Microphone. Their voice becomes text ` +
       `on their PC and never leaves it.` },
   { id: "voice", own: /\bwillo'?s voice\b/i,
     words: /\bvoices?\b|\bsound(?:s| like)?\b|\baccent\b|\bvolume\b|\bspeak (?:faster|slower|louder|softer)\b/i,
@@ -118,7 +117,7 @@ const TOPICS = [
       `off (in your window or unticked in the add-on), the game needs a /reload, the sky over the minimap isn't ` +
       `showing, the game is minimized, behind another window or in exclusive fullscreen, seeing the game is off for a ` +
       `spoken question, or nothing is targeted. Meanwhile they can tell you who it is; never guess.` },
-  { id: "plans", own: /\b(?:hero|champion|legend|adventurer)\b(?!\s+of\b)[^.?!]*\b(?:plan|tier|adds?|gets?|includes?|costs?|price|worth|gives?|offers?|differen\w*|upgrade|subscri\w*)\b|\b(?:what|which)\b[^.?!]*\b(?:do i get|comes? with|in|with|on)\b[^.?!]*\b(?:hero|champion|legend)\b(?!\s+of\b)[^.?!]*\?|\b(?:subscription|subscribe|billing|refund|paid plan|free plan|your plans?|willo plans?|my plan|upgrade (?:my|to)|cancel my)\b|\banswers? (?:left|a day|per day|a month)\b|\bout of answers\b|\bvoice pack\b/i,
+  { id: "plans", own: /\b(?:hero|champion|legend|adventurer)\b(?!\s+of\b)[^.?!]*\b(?:plan|tier|adds?|gets?|includes?|costs?|price|worth|gives?|offers?|differen\w*|upgrade|subscri\w*)\b|\b(?:what|which)\b[^.?!]*\b(?:do i get|comes? with|in|with|on)\b[^.?!]*\b(?:hero|champion|legend)\b(?!\s+of\b)[^.?!]*\?|\b(?:subscription|subscribe|billing|refund|paid plan|free plan|your plans?|willo plans?|my plan|upgrade (?:my|to)|cancel my)\b|\banswers? (?:left|a day|per day|a month)\b|\bout of answers\b|\bvoice pack\b|\bwhat am i trying\b(?! to\b)|\b(?:how many )?tries\b[^.?!]*\bleft\b|\b(?:my|this|the|free|first-run) trial\b(?! of\b)/i,
     words: /\bplans?\b|\bpay\b|\bcost\b|\bprice\b|\bfree\b/i,
     text: plansText },
   { id: "signin", own: /\bsign(?:ed|ing)? (?:in|out)\b|\bconnect(?:ed)? (?:my |your )?(?:account|profile)\b|\b(?:dis|re)connect\b/i,
@@ -224,7 +223,9 @@ const TOPICS = [
       `"Something's wrong" in your window tells the people who made you.` },
   // Her notebook (lib/willo-notebook.js, LOR-661): what she writes in it and when, and its tab (the release after 0.21.0).
   // Pinned spots live in it too (lib/willo-pins.js, LOR-664).
-  { id: "notebook", own: orElse(/\bnotebook\b|\bto-?do(?:s| list)?\b|\b(?:take|keep|make|write)(?: down)? (?:a )?notes?\b|\bchecklist\b|\bpin (?:a |this )?(?:spot|place)s?\b/i,
+  // Asked whether she can change them ("can you delete notes for me?" got "they're stored on your computer": the vision
+  // check, 10/19).
+  { id: "notebook", own: orElse(/\bnotebook\b|\bto-?do(?:s| list)?\b|\b(?:take|keep|make|write)(?: down)? (?:a )?notes?\b|\bchecklist\b|\bpin (?:a |this )?(?:spot|place)s?\b|\b(?:can|could|will|would)\s+you\b[^.?!]{0,20}\b(?:delete|edit|change|clear|remove|erase|manage|tidy|merge|move|undo)\b[^.?!]{0,30}\b(?:notes?|lists?|reminders?|pins?|goals?)\b|\b(?:are\s+you\s+able|is\s+there\s+a\s+way)\s+to\s+(?:delete|edit|change|clear|remove|erase|manage)\b/i,
       FIND_NOTES, CLEAR_ALL),
     words: /\bremember (?:things|stuff|for me|places|spots)\b|\blists?\b|\bpins?\b/i,
     text: () => `Your notebook: you keep one for them, markdown pages of to-dos and notes, one for each ` +
@@ -236,8 +237,10 @@ const TOPICS = [
       `update). On it they read each page, tick the box beside a to-do, press Edit to change a page by hand (then Save ` +
       `or Cancel), press Undo for the last change, and Download notebook; their reminders show under Reminders, each ` +
       `with an × to cancel it. To remove lines, they ask you ("take the linen off my list") or press Edit on the page, ` +
-      `delete the lines and press Save. There are no trash icons or delete buttons on single lines, and you can't clear ` +
-      `the whole notebook yourself: never say you cleared, emptied or wiped it, or point at buttons that don't exist. ` +
+      `delete the lines and press Save. There are no trash icons or delete buttons on single lines. Asked, you also clear ` +
+      `what's done, a list, their notes or a page (asking first when it's more than one line), make lines one, move them to ` +
+      `the other page and undo your last change ("undo that"); never say you changed what you didn't, or point at buttons ` +
+      `that don't exist. ` +
       `Everything you keep, the notebook too, can be erased on the What ${NAME} keeps page (offer to open it). ` +
       `Asked whether you can keep notes or a list, say yes, how ` +
       `to ask ("remember…", "add … to my list") and where the Notebook tab is; you've written nothing until they ask. ` +
@@ -351,8 +354,25 @@ const usageLine = usage => {
     // Their best first (lib/best-first.js): the Moonwell chorus sings with you, your finest voice, for their first ones.
     (taste?.left > 0 ? `- Of their first ${taste.of} answers at your best (the Moonwell chorus sings with you: your ` +
       `finest voice when they ask out loud${taste.why === "resting" ? "; the chorus is resting until tomorrow" : ""}), ` +
-      `${taste.left} are left.\n` : "");
+      `${taste.left} are left.\n` : "") + trialLine(usage.trial);
 };
+// Their first-run trial (lib/best-first.js trialView): what they're trying that their plan doesn't have, plainly, for
+// "what am I trying?" and "how many look-ups do I have?".
+const TRYING = { web: "looking things up online for them", sight: "answers where you see their game",
+  characters: "characters answering in their own voices" };
+const OPENS = { voices: "picking your voice from all of yours", memory: "your longer memory of your chats",
+  style: "your style in their own words", tales: "their own tales of the characters", goals: "goals and reminders",
+  talk: "asking you out loud" };
+function trialLine(trial) {
+  if (!trial?.on) return "";
+  const until = trial.until ? new Date(trial.until).toLocaleDateString("en-US", { month: "long", day: "numeric",
+    timeZone: "UTC" }) : "";
+  const uses = Object.entries(trial.uses || {}).filter(([k]) => TRYING[k])
+    .map(([k, u]) => `${TRYING[k]} (${u.left} of ${u.of} left)`);
+  const opens = (trial.opens || []).filter(k => OPENS[k]).map(k => OPENS[k]);
+  return `- They're trying what their plan doesn't have yet, their first-run trial${until ? `, until ${until}` : ""}: ` +
+    `${[...uses, ...opens].join("; ")}. After it, the Plans page says which plan keeps each; never press them to buy.\n`;
+}
 
 export function helpBlock(question, { plans = true, plan = "", client = "", state = "", usage = null, keeping = null } = {}) {
   const card = atLeast(versionOf(client), CARD_FROM), azeroth = hasAzeroth(client), color = hasColor(client);

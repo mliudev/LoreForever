@@ -1,7 +1,7 @@
 // Willo's last checks in code (lib/willo-guards.js), on the 10/18 answer log's own answers.
 import test from "node:test";
 import assert from "node:assert/strict";
-import { guardAnswer, evidenceOf, fromWhereLast } from "../lib/willo-guards.js";
+import { guardAnswer, evidenceOf, fromWhereLast, noCompanion } from "../lib/willo-guards.js";
 
 const FACTS = "TOWN AND ROAD FACTS\n- Menethil Harbor, in the Wetlands, has a first aid trainer: Fremal Doohickey in the " +
   "Deepwater Tavern (11, 61).";
@@ -62,4 +62,70 @@ test("the place the game last saved is said as where they were last, never where
   assert.equal(fromWhereLast("Since you are at level 18, try the Deadmines.", at),
     "From Sentinel Hill, where you were last, since you are at level 18, try the Deadmines.", "only a place is where they were");
   assert.equal(guardAnswer("You are at Sentinel Hill."), "You are at Sentinel Hill.", "live: as it is");
+});
+
+// Silver's iPhone QA (10/19): the journey had level 1 on October 10 and level 11 on October 13, and she said Hogger
+// fell "on October 12, when you were level 11" and Mother Fang at "level 6".
+const JOURNEY = "PLAYER CONTEXT\nzone: Elwynn Forest\n\nFROM THEIR JOURNEY (Hurin's: what the game kept. Today is October 19.)\n" +
+  "Their journey begins October 10, at level 1, with 0 quests already done before it.\n" +
+  "- October 10, level 1, at Northshire Abbey, Elwynn Forest: arrived for the first time\n" +
+  "- October 12, at Forest's Edge, Westfall: fought and beat Hogger, a rare elite, for the first time\n" +
+  "- October 13, level 11, at Goldshire, Elwynn Forest: reached level 11\n" +
+  "- October 13, level 12, at Goldshire, Elwynn Forest: reached level 12\n\nSOURCES\n=== Hogger ===\nLevel 11 gnoll.";
+const guarded = text => guardAnswer(text, { prompt: JOURNEY, supplied: JOURNEY });
+
+test("a level said for a day of their journey stays only when the journey gives it that day", () => {
+  assert.equal(guarded("Yes! You beat Hogger at Forest's Edge back on October 12, when you were level 11."),
+    "Yes! You beat Hogger at Forest's Edge back on October 12.");
+  assert.equal(guarded("When you were level eleven, you beat Hogger on October 12. Well fought!"),
+    "You beat Hogger on October 12. Well fought!");
+  assert.equal(guarded("On October 12, at level 6, you took down Hogger."), "On October 12, you took down Hogger.");
+  // Said out loud, the day in words.
+  assert.equal(guarded("You beat Hogger back on October twelfth, when you were level eleven."),
+    "You beat Hogger back on October twelfth.");
+  assert.equal(guarded("You reached Goldshire on October the thirteenth, when you were level twelve."),
+    "You reached Goldshire on October the thirteenth, when you were level twelve.");
+  // Given that day, or about and between that day's levels: it stays.
+  assert.equal(guarded("You reached Goldshire on October 13, when you were level 11."),
+    "You reached Goldshire on October 13, when you were level 11.");
+  assert.equal(guarded("On October 13, at around level 11, you reached Goldshire."),
+    "On October 13, at around level 11, you reached Goldshire.");
+  // No day named: a level the journey holds at all stays, one it never gives goes.
+  assert.equal(guarded("You beat Mother Fang when you were level 6."), "You beat Mother Fang.");
+  assert.equal(guarded("You were in Goldshire when you were level 12."), "You were in Goldshire when you were level 12.");
+  // Not about a day of the journey: untouched, and without the journey nothing changes.
+  assert.equal(guarded("You can learn riding at level 40."), "You can learn riding at level 40.");
+  assert.equal(guardAnswer("Back on October 12, when you were level 11.", { prompt: "PLAYER CONTEXT\nzone: Elwynn" }),
+    "Back on October 12, when you were level 11.");
+});
+
+test("a character never sends the adventurer to their wisp: the answer log's own replies (Mike, 10/19)", () => {
+  // 12 of the 23 character replies in the answer log, 10/16 to 10/19, ended this way.
+  const cases = [
+    ["The Defias are a secretive lot, and their true leader remains a shadow even to us. If ye seek more answers on such " +
+      "dangerous matters, perhaps that wisp of yours can shed some light on the subject.",
+     "The Defias are a secretive lot, and their true leader remains a shadow even to us."],
+    ["You can find a simple fishing pole for sale at the trade supplies stall right here in Bloodhoof Village. If you " +
+      "need more help with your journey, you might ask your wisp, Willo, to guide your way.",
+     "You can find a simple fishing pole for sale at the trade supplies stall right here in Bloodhoof Village."],
+    ["It adds directly to the total health ye carry into the fray. If ye be curious how those numbers shift with yer " +
+      "gear or strange contraptions, best ye ask Willo about it.", "It adds directly to the total health ye carry into the fray."],
+    ["I have no concept of your strange machines or how they track the passing of your hours. Perhaps you should ask " +
+      "your little wisp of light, for I care only for the work we have yet to finish here in the glades.",
+     "I have no concept of your strange machines or how they track the passing of your hours."],
+    ["As for your strange inquiries regarding settings, I suggest you consult your little wisp, Willo. Do try not to die " +
+      "before your next flight.", "Do try not to die before your next flight."],
+    ["I be Master Gadrin, a witch doctor of the Darkspear tribe. If ye be lookin' for more, speak wit' yer little wisp " +
+      "friend, for I have much work to tend to.", "I be Master Gadrin, a witch doctor of the Darkspear tribe."],
+    ["Aye, ye have it, lad. If ye be lookin' for something else, best ask that wee wisp o' light floatin' by yer shoulder.",
+     "Aye, ye have it, lad."],
+    ["Ask yer little wisp friend if ye be lookin' for strange magic.", "I couldn't say, friend."],
+  ];
+  for (const [said, kept] of cases) assert.equal(noCompanion(said), kept);
+  // The world's own wisps, and the Light, stay.
+  for (const said of ["The wisps of Teldrassil guard the ancient groves. Ishnu-alah.", "May the Light guide you, friend.",
+    "Have you dealt with that wisp near the moonwell yet?"]) assert.equal(noCompanion(said), said);
+  // Only in a character's reply: Willo's own answers say her name freely.
+  assert.equal(guardAnswer("Ask your wisp, she knows.", { own: false }), "Ask your wisp, she knows.");
+  assert.equal(guardAnswer("Ask your wisp, she knows.", { own: false, character: true }), "I couldn't say, friend.");
 });

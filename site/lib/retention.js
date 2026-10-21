@@ -1,3 +1,4 @@
+import { isReportRead } from "./report-read.js";
 // How long Willo plans are kept (Patrick, 2026-10-19: "a ratio of retention per week (4 users for 2 weeks 1 user for 1
 // week 3 cancelled, etc)"), for /admin's Growth > Retention (functions/api/admin/retention.js, public/admin-retention.js).
 // Read only, from plan_log (lib/billing.js: every subscription, when it started, was cancelled and ended), the
@@ -102,7 +103,7 @@ export async function retentionReport(env, { paidOnly = false, now = Date.now() 
   const unread = await all("SELECT p.subscription_id FROM plan_log p WHERE p.started IS NOT NULL AND COALESCE(p.comp, '') = '' " +
     `AND NOT ${team} AND NOT ${replaced} AND p.subscription_id NOT IN (SELECT subscription_id FROM plan_payments_read) LIMIT ?`,
     READ_PER_LOAD);
-  await Promise.all(unread.map(r => paidSoFar(env, r.subscription_id)));
+  if (!isReportRead(env)) await Promise.all(unread.map(r => paidSoFar(env, r.subscription_id)));
   const [rows, left, log] = await Promise.all([
     // Each plan, its payments, and its newest cancellation's reason (lib/cancellations.js).
     all("SELECT p.subscription_id, p.plan, p.status, p.started, p.canceled, p.ended, p.updated, " +

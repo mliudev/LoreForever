@@ -1,0 +1,114 @@
+{
+ "key": "quest:94468",
+ "type": "quest",
+ "name": "Call of Fire",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   94468
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "angles": [
+  {
+   "target": "class:Shaman",
+   "text": "This rite completes the trial of fire for aspiring shamans in Khaz Modan, earning them the Fire Totem necessary to channel flame and commune with the fire spirits."
+  },
+  {
+   "target": "race:Dwarf",
+   "text": "Carrying the flame from the heights above Loch Modan back down into Dun Morogh reflects the deep ties between dwarven spiritual seekers and the elemental forces of their mountain home."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "As spiritual callings take root within the Alliance territories of Khaz Modan, masters like Bruegs Kindleborn guide new initiates to master the elemental arts."
+  }
+ ],
+ "faq": [
+  {
+   "aliases": [
+    "what is call of fire",
+    "call of fire quest",
+    "what do you do in call of fire"
+   ],
+   "answer": "Call of Fire is a spiritual trial for shamans in Khaz Modan. After lighting the Torch of Eternal Flame at a brazier overlooking Loch Modan, the initiate must carry the burning flame through the mountains back to Bruegs Kindleborn in Dun Morogh.",
+   "q": "What is the Call of Fire?"
+  },
+  {
+   "aliases": [
+    "who is bruegs kindleborn",
+    "where is bruegs kindleborn",
+    "bruegs kindleborn location"
+   ],
+   "answer": "Bruegs Kindleborn is a mentor and elemental guide residing in Dun Morogh. He oversees the elemental rites of flame and presents initiates who complete the trek with their Fire Totem.",
+   "q": "Who is Bruegs Kindleborn?"
+  },
+  {
+   "aliases": [
+    "what is torch of eternal flame",
+    "torch of eternal flame",
+    "where do you get the torch"
+   ],
+   "answer": "The Torch of Eternal Flame is a sacred ceremonial torch lit at a brazier looking out over Loch Modan. It signifies an initiate's inner connection to elemental fire and must be carried safely back to Dun Morogh before its flame wavers.",
+   "q": "What is the Torch of Eternal Flame?"
+  },
+  {
+   "aliases": [
+    "what reward for call of fire",
+    "do you get fire totem",
+    "call of fire totem"
+   ],
+   "answer": "Upon safely delivering the Torch of Eternal Flame to Bruegs Kindleborn, the mentor acknowledges your blazing spirit and awards you your Fire Totem, marking you as flameborn.",
+   "q": "What do you receive upon completing this trial?"
+  },
+  {
+   "aliases": [
+    "where does call of fire take place",
+    "call of fire path",
+    "where to take the torch"
+   ],
+   "answer": "The journey begins at an overlook viewing Loch Modan where the torch is ignited, and follows the mountain path back into the snowy territory of Dun Morogh to meet Bruegs Kindleborn.",
+   "q": "Where does this journey take place?"
+  },
+  {
+   "aliases": [
+    "why by madorans beard",
+    "madoran meaning",
+    "who is madoran bruegs mentions"
+   ],
+   "answer": "Bruegs swears 'By Madoran's beard,' referencing High King Madoran Anvilmar, the revered ancient dwarven ruler of Ironforge prior to the War of the Three Hammers.",
+   "q": "Why does Bruegs mention Madoran?"
+  }
+ ],
+ "keywords": [
+  "bruegs kindleborn",
+  "call of fire",
+  "dun morogh",
+  "fire totem",
+  "flameborn",
+  "loch modan",
+  "shaman",
+  "torch of eternal flame"
+ ],
+ "related": [
+  "zone:dunmorogh",
+  "zone:lochmodan"
+ ],
+ "sections": [
+  {
+   "body": "The Call of Fire marks a pivotal moment in an initiate's elemental communion. High on a mountain ridge with the wind whipping across the heights, the initiate ignites the Torch of Eternal Flame overlooking Loch Modan. The dancing flame mirrors an awakening spirit, stirring an elemental excitement that must be nurtured and carried safely down the trails into the snowy vales of Dun Morogh.",
+   "spoiler": 0,
+   "title": "The Flame Over the Loch"
+  },
+  {
+   "body": "Awaiting the traveler in Dun Morogh is Bruegs Kindleborn, an elemental mentor who judges whether the traveler's inner fire has truly taken hold. Presenting the blazing torch proves that the petitioner possesses the will and reverence to commune with fire. Celebrating the initiate as flameborn, Kindleborn bestows the Fire Totem, inducting them into a lineage of elemental guidance for their kin.",
+   "spoiler": 0,
+   "title": "The Flameborn's Reward"
+  }
+ ],
+ "summary": "Call of Fire is a sacred rite of passage where an initiate retrieves the Torch of Eternal Flame from an overlook above Loch Modan and carries it to Dun Morogh. Returning the flame to mentor Bruegs Kindleborn proves the traveler's elemental mastery and earns them their Fire Totem.",
+ "attribution": [
+  "In-game quest text: Call of Fire"
+ ]
+}

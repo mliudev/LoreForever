@@ -1,3 +1,4 @@
+import { isReportRead } from "./report-read.js";
 // What players think of Willo's answers (LOR-446), and the one review queue for them (Mike, 10/18: the feedback loop):
 // every time a player says an answer is wrong, gets frustrated, presses 👎 "Not right", or the answer log's signals
 // say an answer missed, it lands here, with the question, the answer and where they were, for /admin's Willo quality,
@@ -128,6 +129,7 @@ export function feedbackKind(said, previous = "") {
 
 const ready = new WeakMap();
 export async function setupFeedback(env) {
+  if (isReportRead(env)) return;
   if (ready.get(env.DB)) return;
   // The answer log's too: its salt keys these rows, and the queue reads its rows.
   await Promise.all([env.DB.batch(SETUP.map(sql => env.DB.prepare(sql))), setupAnswerLog(env)]);
@@ -165,6 +167,20 @@ function purge(env, now = new Date()) {
   return env.DB.prepare("DELETE FROM answer_feedback WHERE (kind = 'signal' AND created < ?) OR (created < ? AND " +
     "(followup IS NOT 1 OR created < ? OR (fixed_at IS NOT NULL AND fixed_at < ?)))")
     .bind(ago(now, LOG_DAYS), ago(now, KEEP_DAYS), ago(now, FOLLOWUP_DAYS), ago(now, FIXED_DAYS));
+}
+
+// The private dashboard has no cleanup privilege. Apply the same expiry to reads,
+// including related log rows, without waiting for the next writer to delete them.
+export function prepareFeedbackRead(env, sql, now = new Date()) {
+  if (!isReportRead(env)) return env.DB.prepare(sql);
+  const args = [ago(now, LOG_DAYS), ago(now, KEEP_DAYS), ago(now, FOLLOWUP_DAYS), ago(now, FIXED_DAYS), ago(now, LOG_DAYS)];
+  const statement = env.DB.prepare(`WITH retained_feedback AS (
+    SELECT * FROM answer_feedback WHERE NOT ((kind = 'signal' AND created < ?) OR (created < ? AND
+      (followup IS NOT 1 OR created < ? OR (fixed_at IS NOT NULL AND fixed_at < ?)))))
+    , retained_log AS (SELECT * FROM answer_log WHERE created >= ?) ` +
+    sql.replace(/\banswer_feedback\b/g, "retained_feedback").replace(/\banswer_log\b/g, "retained_log"));
+  return { bind: (...values) => statement.bind(...args, ...values),
+    all: () => statement.bind(...args).all(), first: (...values) => statement.bind(...args).first(...values) };
 }
 
 const list = (values, allowed) => [...new Set((Array.isArray(values) ? values : [])
@@ -218,12 +234,12 @@ const shaped = r => ({ ...r, reasons: split(r.reasons), signals: split(r.signals
 // the same place show as separate rows; `players` counts the distinct accounts behind a zone's new signals.
 export async function feedbackReport(env, limit = 200) {
   await setupFeedback(env);
-  await purge(env).run();
+  if (!isReportRead(env)) await purge(env).run();
   const [counts, rows, zones] = await Promise.all([
-    env.DB.prepare("SELECT kind, status, COUNT(*) AS n FROM answer_feedback GROUP BY kind, status").all(),
-    env.DB.prepare(`SELECT ${COLUMNS}, substr(user_hash, 1, 10) AS player ` +
+    prepareFeedbackRead(env, "SELECT kind, status, COUNT(*) AS n FROM answer_feedback GROUP BY kind, status").all(),
+    prepareFeedbackRead(env, `SELECT ${COLUMNS}, substr(user_hash, 1, 10) AS player ` +
       "FROM answer_feedback ORDER BY status IN ('new', 'triaged') DESC, id DESC LIMIT ?").bind(limit).all(),
-    env.DB.prepare("SELECT COALESCE(zone, '') AS zone, COUNT(*) AS n, COUNT(DISTINCT user_hash) AS players " +
+    prepareFeedbackRead(env, "SELECT COALESCE(zone, '') AS zone, COUNT(*) AS n, COUNT(DISTINCT user_hash) AS players " +
       "FROM answer_feedback WHERE status = 'new' GROUP BY zone ORDER BY n DESC LIMIT 20").all(),
   ]);
   return { counts: counts.results, rows: rows.results.map(shaped), zones: zones.results };
@@ -237,7 +253,7 @@ export async function feedbackReport(env, limit = 200) {
 // (players_same).
 export async function queueReport(env, { status = "open", since = null, after = 0, limit = 200, now = new Date() } = {}) {
   await setupFeedback(env);
-  await purge(env, now).run();
+  if (!isReportRead(env)) await purge(env, now).run();
   const statuses = status === "all" ? FEEDBACK_STATUSES : status === "open" ? ["new", "triaged"]
     : FEEDBACK_STATUSES.includes(status) ? [status] : ["new"];
   const from = typeof since === "string" && !Number.isNaN(Date.parse(since)) ? new Date(since).toISOString() : "";
@@ -245,7 +261,7 @@ export async function queueReport(env, { status = "open", since = null, after = 
   const start = Math.max(Number.parseInt(after, 10) || 0, 0);
   const marks = statuses.map(() => "?").join(", ");
   let logged = true;
-  const query = joined => env.DB.prepare(`SELECT ${COLUMNS.split(", ").map(c => `f.${c}`).join(", ")}, ` +
+  const query = joined => prepareFeedbackRead(env, `SELECT ${COLUMNS.split(", ").map(c => `f.${c}`).join(", ")}, ` +
     "substr(f.user_hash, 1, 10) AS player, (SELECT COUNT(DISTINCT g.user_hash) FROM answer_feedback g " +
     "WHERE g.status IN ('new', 'triaged') AND lower(g.question) = lower(f.question) AND g.zone IS f.zone) AS players_same" +
     (joined ? ", l.model AS l_model, l.looked_up AS l_looked_up, l.lookups AS l_lookups, l.facts AS l_facts, " +
@@ -256,7 +272,7 @@ export async function queueReport(env, { status = "open", since = null, after = 
       "AND p.id < l.id AND p.created >= strftime('%Y-%m-%dT%H:%M:%fZ', l.created, '-1 hour') ORDER BY p.id DESC LIMIT 1) AS l_previous " +
       "FROM answer_feedback f LEFT JOIN answer_log l ON l.ref = f.answer_ref AND f.answer_ref IS NOT NULL "
       : "FROM answer_feedback f ") +
-    `WHERE f.status IN (${marks}) AND f.created >= ? AND f.id > ? ORDER BY f.id LIMIT ?`)
+    `WHERE f.status IN (${marks}) AND f.created >= ? AND f.id > ? ORDER BY f.id LIMIT ?`, now)
     .bind(...statuses, from, start, n + 1).all();
   // No answer log yet (no player has kept an answer): the rows without it.
   const { results } = await query(true).catch(() => { logged = false; return query(false); });

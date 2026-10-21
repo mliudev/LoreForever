@@ -38,7 +38,7 @@ import { setup, currentUser, fail, noStore, sameOrigin } from "../../../lib/acco
 import {
   billingOn, setupBilling, sellablePlans, planFor, packsFor, createCheckout, createVoicePack, createPortal, changePlan,
   verifyWebhook, applyEvent, launchWeek, launchText, launchEnds, launchOffers, voicePackFor, planCompare, PLANS, planFeatures, VOICE_PACK,
-  VOICE_PACK_TEXT, VOICE_NOTE,
+  VOICE_PACK_TEXT, VOICE_NOTE, VOICE_PACK_SOLD,
 } from "../../../lib/billing.js";
 import { ALLOWED } from "../../../lib/willo-custom.js";
 import { featureOn } from "../../../lib/features.js";
@@ -72,7 +72,7 @@ async function plans({ request, env }) {
       features: features[p.id], ...(offers[p.id] && sellable.includes(p.id) ? { promo: offers[p.id] } : {}) })),
     compare: planCompare(ALLOWED, { azeroth }),
     ...(packs ? { starter: packs.starter } : {}),
-    voicePack: pack && { price: VOICE_PACK.price, replies: VOICE_PACK.replies, monthMax: VOICE_PACK.monthMax, ...pack,
+    voicePack: VOICE_PACK_SOLD && pack && { price: VOICE_PACK.price, replies: VOICE_PACK.replies, monthMax: VOICE_PACK.monthMax, ...pack,
       ...(packs ? { boughtThisMonth: packs.voice.boughtThisMonth, open: current.id !== "free" && !current.launch } : {}) },
     voiceNote: VOICE_NOTE,
     launch: beta ? launchText(env) : null,
@@ -142,7 +142,10 @@ export async function onRequest(context) {
   const user = await currentUser(env, request);
   if (!user) return fail(401, "You're signed out. Please sign in again.");
   if (action === "portal") return stripePage(context, user, origin => createPortal(env, user, origin));
-  if (action === "voicepack") return stripePage(context, user, origin => createVoicePack(env, user, origin));
+  if (action === "voicepack") {
+    if (!VOICE_PACK_SOLD) return fail(400, "The finest-voice pack isn't sold anymore: every paid plan has her finest voice.");
+    return stripePage(context, user, origin => createVoicePack(env, user, origin));
+  }
   let input;
   try { input = await request.json(); } catch (e) { return fail(400, "Couldn't read that."); }
   if (!input || typeof input !== "object") return fail(400, "Couldn't read that.");

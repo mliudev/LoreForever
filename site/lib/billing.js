@@ -1,3 +1,5 @@
+import { isReportRead, refuseReportEffect } from "./report-read.js";
+import { markActionUncertain } from "./dashboard-action.js";
 // Plans (LOR-252): what a player's subscription gives them, paid through Stripe. The free plan is Adventurer; Hero,
 // Champion and Legend are monthly subscriptions, nothing yearly (Mike, 2026-10-13). A plan sets how many live answers Willo, the companion,
 // gets a day and a month, and what kind (lib/companion-answers.js, functions/api/companion/answer.js): free answers
@@ -84,7 +86,15 @@ import { thankSubscriber } from "./thanks.js";
 // Legend's finest voice is Inworld TTS 2 Flash ($15 a million characters), whose cost breaks even over about 1,900
 // replies a month; "inworld-tts-2" ($25) is the one-line way back (lib/companion-voice.js prices both).
 export const LEGEND_BEST_MODEL = "inworld-tts-2-flash";
-export const LEGEND_BEST_PER_MONTH = 1900;
+export const LEGEND_BEST_PER_MONTH = 6000;
+// Option D (Mike, 2026-10-19: "OK this is good enough for now let's ship it", the pricing review): her voice gets
+// better with each plan. Free answers out loud in her studio voice on every spoken answer (always: no starter count;
+// the shared free budget pays, about $0.0002 a reply). Hero hears her finest voice (Inworld TTS 2 Flash) on every reply,
+// Champion picks hers too and characters answer in their own, and Legend's is richer (Inworld TTS 2, RICHER_MODEL).
+// best is the plan month's answers, so every reply is the finest one; the total cost cap still steps the voice down
+// before a month would cost more than the plan brings.
+export const RICHER_MODEL = "inworld-tts-2";
+const POOL = { free: 900, hero: 1500, champion: 3000, legend: 6000 };
 // Characters who answer in person in a voice of their own (lib/character-voices.js; Mike, 2026-10-13: Inworld TTS 2
 // Flash, CHARACTER_MODEL, with Fish S2.1 Pro when Inworld is slow or down): characters is how many of a plan month's
 // replies they get, a number of their own (Champion's), or "best" (Legend's: out of its finest replies, at the same
@@ -96,10 +106,10 @@ export const LEGEND_BEST_PER_MONTH = 1900;
 export const CHAMPION_CHARACTER_REPLIES = 300;
 export const CHARACTER_MODEL = "inworld-tts-2-flash";
 export const PLAN_VOICE = {
-  free: { voice: "chatterbox", choice: false, starter: true },
-  hero: { voice: "chatterbox", choice: false },
-  champion: { voice: "chatterbox", choice: true, characters: CHAMPION_CHARACTER_REPLIES },
-  legend: { voice: "inworld", choice: true, best: LEGEND_BEST_PER_MONTH, model: LEGEND_BEST_MODEL, characters: "best" },
+  free: { voice: "chatterbox", choice: false, always: true },
+  hero: { voice: "inworld", choice: false, best: POOL.hero, model: LEGEND_BEST_MODEL },
+  champion: { voice: "inworld", choice: true, best: POOL.champion, model: LEGEND_BEST_MODEL, characters: "best" },
+  legend: { voice: "inworld", choice: true, best: POOL.legend, model: RICHER_MODEL, characters: "best" },
 };
 
 // The plans, cheapest first. Prices and net (what a month brings after Stripe's fees) in US cents. A plan's answers are
@@ -121,14 +131,14 @@ export const PLAN_VOICE = {
 // does but is over a second slower to her first word (the model bake-off, 10/19).
 const caps = net => ({ net, costCapMicro: Math.floor(net / 2) * 10_000, totalCapMicro: net * 10_000 });
 export const PLANS = {
-  free: { id: "free", name: "Adventurer", monthly: 0, answersPerDay: 20, answersPerMonth: 600,
+  free: { id: "free", name: "Adventurer", monthly: 0, answersPerDay: 30, answersPerMonth: POOL.free,
           lookupsPerMonth: 0, costCapMicro: 0 },
-  hero: { id: "hero", name: "Hero", monthly: 499, answersPerDay: 100, answersPerMonth: 900,
+  hero: { id: "hero", name: "Hero", monthly: 499, answersPerDay: 100, answersPerMonth: POOL.hero,
           lookupsPerMonth: 10, ...caps(437) },
-  champion: { id: "champion", name: "Champion", monthly: 999, answersPerDay: 200, answersPerMonth: 1900,
+  champion: { id: "champion", name: "Champion", monthly: 999, answersPerDay: 200, answersPerMonth: POOL.champion,
               lookupsPerMonth: 20, longMemory: true, ...caps(905) },
-  legend: { id: "legend", name: "Legend", monthly: 1999, answersPerDay: 300, answersPerMonth: 4000,
-            lookupsPerMonth: 40, longMemory: true, smarter: true, ...caps(1841) },
+  legend: { id: "legend", name: "Legend", monthly: 1999, answersPerDay: 300, answersPerMonth: POOL.legend,
+            lookupsPerMonth: 80, longMemory: true, smarter: true, ...caps(1841) },
 };
 export const PAID = Object.keys(PLANS).filter(id => id !== "free");
 
@@ -136,7 +146,10 @@ export const PAID = Object.keys(PLANS).filter(id => id !== "free");
 export const STARTER_ANSWERS = 30;
 // Willo's best first: an account's first live answers at her best (lib/best-first.js, which uses it; kept here so the
 // plan cards can say it without the two modules loading each other first).
-export const TASTE_ANSWERS = 20;
+export const TASTE_ANSWERS = 50;
+// Its first-run trial's days (lib/best-first.js TRIAL_DAYS, which the Pages variable TRIAL_DAYS can change; Mike,
+// 2026-10-19: "I think 7 days is more than enough").
+export const TRIAL_DAYS = 7;
 // Willo's voices in the companion app (companion/lore_companion/talk/tts.py KOKORO_VOICES); the free plan has its
 // default one.
 export const WILLO_VOICES = 7;
@@ -170,12 +183,17 @@ export const COMPANION_FEATURES = {
 // starter lasts a free account may ask out loud (push_to_talk) and Willo answers in her studio voice; after it, free
 // answers are text and there's no asking out loud. The same 30 spoken replies are counted. The beta's free Hero month
 // (planFor launch) is Hero's. taste: the free plan's best first (lib/best-first.js tasteState), whose answers left ask
-// out loud, see the game and look online as a paid plan's do, and whose finest replies still owed are spoken.
+// out loud, see the game and look online as a paid plan's do, and whose finest replies still owed are spoken. Its
+// trial (taste.trial, lib/best-first.js trialOf), while its days last: all of Willo's voices on the PC, asking out
+// loud, goals and reminders, and sight and look-ups while their uses last. Since option D (Mike, 2026-10-19) the free
+// plan asks out loud and hears her studio voice always (PLAN_VOICE.free.always), not only for its starter.
 export function companionFeatures(plan, { starter = 0, taste = null } = {}) {
   if (plan.id !== "free") return COMPANION_FEATURES.paid;
-  const asks = Boolean(taste?.on && taste.left > 0);
-  return { ...COMPANION_FEATURES.free, voices: starter > 0 || taste?.on ? "default" : "none",
-           push_to_talk: starter > 0 || asks, ...(asks ? { sight: true, research: true } : {}) };
+  const asks = Boolean(taste?.on && taste.left > 0), trial = taste?.trial?.on ? taste.trial : null;
+  const talks = Boolean(PLAN_VOICE.free.always);
+  return { ...COMPANION_FEATURES.free, voices: trial ? "all" : talks || starter > 0 || taste?.on ? "default" : "none",
+           push_to_talk: talks || starter > 0 || asks || Boolean(trial), ...(asks ? { sight: true, research: true } : {}),
+           ...(trial ? { sight: trial.left.sight > 0, research: trial.left.lookups > 0, reminders: true } : {}) };
 }
 
 // What /plans lists on each plan's card, in plain words: how it feels to play with Willo first, then the month's
@@ -188,35 +206,37 @@ const answers = plan => `${count(plan.answersPerMonth)} ${NAME} answers a month`
 // cost caps, and past it Willo answers from the lore and the searches other players' questions kept.
 const WEB = `${NAME} can check the web when the lore runs out`;
 const FIRST = {
-  free: `Chat with ${NAME}: ${PLANS.free.answersPerDay} answers a day. Your first ${TASTE_ANSWERS} at her best, in her ` +
-        `finest voice, then ${STARTER_ANSWERS} more questions out loud answered aloud`,
-  hero: `Ask out loud and ${NAME} answers in her voice, up to 4 hours of play a day`,
-  champion: `${NAME}'s studio voices, up to 8 hours a day`,
-  legend: `The most answers and ${NAME}'s finest voice`,
+  free: `Chat with ${NAME}: ${PLANS.free.answersPerDay} answers a day, out loud when you ask out loud. Your first ` +
+        `${TRIAL_DAYS} days, try everything she can do, a few times each, with your first ${TASTE_ANSWERS} answers in ` +
+        "her finest voice",
+  hero: `${NAME}'s finest voice on every answer you ask out loud, up to 4 hours of play a day`,
+  champion: `Characters answer in their own voices, up to 8 hours a day`,
+  legend: `${NAME}'s smarter mind, her richer voice and the most answers`,
 };
 // azeroth: the Voices of Azeroth are in the picker (the site feature "azeroth", or the asking companion has them).
 export const planFeatures = ({ azeroth = false } = {}) => ({
   free: [FIRST.free, "The whole add-on, every narration pack and language"],
-  hero: [FIRST.hero, answers(PLANS.hero), WEB, `${NAME} sees your game`, `${NAME} keeps your goals and tracks them`,
-         `Preset ${NAME} styles`],
-  champion: [FIRST.champion, pickLine(azeroth), answers(PLANS.champion), WEB, `${NAME}'s longer memory`,
-             `Write ${NAME}'s personality`, "Rewrite NPCs as your own tale", `Create your own ${NAME} voice (coming soon)`],
-  legend: [FIRST.legend, pickLine(azeroth), answers(PLANS.legend), WEB, "Everything in Champion"],
+  hero: [FIRST.hero, answers(PLANS.hero), WEB, `${NAME} sees your game`,
+         `${NAME} keeps your goals and reminders`, `Preset ${NAME} styles`],
+  champion: [FIRST.champion, pickLine(azeroth), answers(PLANS.champion), `${NAME}'s longer memory`,
+             `Write ${NAME}'s personality`, "Everything in Hero"],
+  legend: [FIRST.legend, answers(PLANS.legend), "Rewrite NPCs as your own tale", pickLine(azeroth),
+           "Everything in Champion"],
 });
 const AZEROTH = featureOn(null, "azeroth");   // the code's own switch: the Stripe blurbs have no request
 export const FEATURES = planFeatures({ azeroth: AZEROTH });
 // /plans' one line of fine print about the finest voice.
-export const VOICE_NOTE = `${NAME}'s finest voice for your first ${count(LEGEND_BEST_PER_MONTH)} replies each month, ` +
-  "then her studio voice.";
+export const VOICE_NOTE = `${NAME}'s finest voice on every spoken answer from Hero up, and Legend's is richer; in an ` +
+  "unusually busy month she may answer in her studio voice.";
 
 // The line under each plan's name on Stripe's checkout page, invoices and billing portal (its product's description,
 // set by scripts/stripe-setup.mjs, whose next run publishes a change here).
 export const BLURBS = {
-  hero: `${FIRST.hero}: ${answers(PLANS.hero)}, and ${NAME} sees your game. ${WEB}.`,
-  champion: `${FIRST.champion}: ${answers(PLANS.champion)}, ${NAME}'s ` +
-            `longer memory, ${NAME}'s personality in your words, and NPCs rewritten as your own tale. ${pickLine(AZEROTH)}. ` +
-            `Everything in Hero too. Create your own ${NAME} voice (coming soon).`,
-  legend: `${FIRST.legend}: ${answers(PLANS.legend)}, and everything in Champion. ${pickLine(AZEROTH)}.`,
+  hero: `${FIRST.hero}: ${answers(PLANS.hero)}, and ${NAME} sees your game and keeps your goals. ${WEB}.`,
+  champion: `${FIRST.champion}: ${answers(PLANS.champion)}, ${NAME}'s longer memory and ${NAME}'s personality in ` +
+            `your words. ${pickLine(AZEROTH)}. Everything in Hero too.`,
+  legend: `${FIRST.legend}: ${answers(PLANS.legend)}, NPCs rewritten as your own tale, and everything in Champion. ` +
+          `${pickLine(AZEROTH)}.`,
 };
 
 // For sale unless BILLING_PLANS says otherwise. A hidden plan is never for sale or listed.
@@ -230,6 +250,9 @@ export const SELLABLE = ["hero", "champion", "legend"];
 // Kept in answer_packs (kind 'voice'). key, product: its Stripe price's lookup key and product's id.
 export const VOICE_PACK = { replies: 400, price: 299, monthMax: 3, costCapMicro: 2_600_000, key: "voice_400",
                             product: "lore_forever_voice_pack" };
+// Retired with option D (Mike, 2026-10-19; none sold): every paid plan hears the finest voice now. Packs bought before
+// still work; /plans no longer offers one, and /api/billing/voicepack says it isn't sold.
+export const VOICE_PACK_SOLD = false;
 // What /plans says of it, plain, no meters; and its Stripe product's description (scripts/stripe-setup.mjs).
 export const VOICE_PACK_TEXT = `${VOICE_PACK.replies} replies in ${COMPANION_NAME}'s finest voice, ` +
   `$${(VOICE_PACK.price / 100).toFixed(2)}, yours until you use them.`;
@@ -333,9 +356,9 @@ export function planCompare(allowed = {}, { azeroth = false } = {}) {
   const voice = id => {
     const v = PLAN_VOICE[id];
     if (v.starter) return `Your first ${STARTER_ANSWERS} answers`;
-    if (v.voice === "inworld") return "Finest";
     const picks = HOSTED_PICKS + (azeroth ? WILLO_PARTNERS + AZEROTH_VOICES : 0);
-    return v.choice ? `Pick from ${WORDS[picks] || picks}` : "Studio";
+    const kind = v.voice === "inworld" ? (v.model === RICHER_MODEL ? "Richer" : "Finest") : "Studio";
+    return v.choice ? `${kind}, pick from ${WORDS[picks] || picks}` : kind;
   };
   const style = id => (allowed[id] || []).includes("words") ? "Presets or your own words"
     : (allowed[id] || []).includes("presets") ? "Presets" : "—";
@@ -348,6 +371,8 @@ export function planCompare(allowed = {}, { azeroth = false } = {}) {
     row("Checks the web when the lore runs out", id => yes(features(id).research)),
     row(`${NAME}'s style`, style),
     row("Longer memory", id => yes(Boolean(PLANS[id].longMemory))),
+    row(`${NAME}'s smarter mind`, id => yes(Boolean(PLANS[id].smarter))),
+    row("Rewrite NPCs as your own tale", id => yes((allowed[id] || []).includes("tales"))),
   ];
 }
 // The beta prices by plan (launchOffer), the same for every account: the beta is a price until the launch, not an offer
@@ -661,12 +686,15 @@ const MIGRATE = ["ALTER TABLE answer_user_spend ADD COLUMN topup_micro INTEGER N
                  "ALTER TABLE voice_replies ADD COLUMN provider TEXT",
                  "ALTER TABLE entitlements ADD COLUMN gap_from TEXT",
                  // The pieces of a reply whose letters are counted, one bit each (lib/companion-voice.js PIECE_BIT).
-                 "ALTER TABLE voice_replies ADD COLUMN bits INTEGER NOT NULL DEFAULT 0"];
+                 "ALTER TABLE voice_replies ADD COLUMN bits INTEGER NOT NULL DEFAULT 0",
+                 // The first-run trial's counted uses (lib/best-first.js TRIAL), JSON {sight, cast}.
+                 "ALTER TABLE best_first ADD COLUMN tries TEXT"];
 // The column checks go out at once (each fails once its column exists): one after another, a fresh Worker waited a round
 // trip to D1 for each before a live answer could start, about 2 s for a player far from the database (LOR-654).
 // Callers at the same moment share one setup.
 const ready = new WeakMap();
 export function setupBilling(env) {
+  if (isReportRead(env)) return;
   if (!ready.has(env.DB)) ready.set(env.DB, (async () => {
     await env.DB.batch(SETUP.map(s => env.DB.prepare(s)));
     await Promise.all(MIGRATE.map(sql => env.DB.prepare(sql).run().catch(() => {})));
@@ -691,6 +719,7 @@ export function formBody(params, prefix = "", out = new URLSearchParams()) {
 // out, so no key reaches a log. A live key is refused unless STRIPE_LIVE is "1", so a key pasted into the wrong place
 // (Preview, say) can't charge anyone.
 export async function stripe(env, method, path, params, { idempotencyKey } = {}) {
+  if (method !== "GET") refuseReportEffect(env, "a Stripe mutation");
   const key = String(env.STRIPE_SECRET_KEY || "");
   if (!key) throw new Error("Stripe isn't set up (no STRIPE_SECRET_KEY).");
   if (/^[sr]k_live_/.test(key) && env.STRIPE_LIVE !== "1")
@@ -699,9 +728,13 @@ export async function stripe(env, method, path, params, { idempotencyKey } = {})
   const headers = { Authorization: `Bearer ${key}`, "Stripe-Version": STRIPE_VERSION };
   if (method !== "GET") headers["Content-Type"] = "application/x-www-form-urlencoded";
   if (idempotencyKey) headers["Idempotency-Key"] = idempotencyKey;
-  const res = await fetch(`https://api.stripe.com/v1/${path}${method === "GET" && body ? "?" + body : ""}`,
-    { method, headers, body: method === "GET" ? undefined : body, signal: AbortSignal.timeout(15000) });
+  let res;
+  try {
+    res = await fetch(`https://api.stripe.com/v1/${path}${method === "GET" && body ? "?" + body : ""}`,
+      { method, headers, body: method === "GET" ? undefined : body, signal: AbortSignal.timeout(15000) });
+  } catch (error) { if (method !== "GET") markActionUncertain(env); throw error; }
   const data = await res.json().catch(() => null);
+  if (method !== "GET" && (res.status >= 500 || !data)) markActionUncertain(env);
   if (!res.ok) {
     const message = String(data?.error?.message || `Stripe HTTP ${res.status}`).replace(/\b(?:[sr]k|whsec)_[\w*]+/g, "[key]");
     throw Object.assign(new Error(message), { status: res.status });
@@ -1890,9 +1923,12 @@ async function refundPack(env, charge, status = "refunded") {
 
 // ---- /admin ----
 
-// Coupons that make a plan free on purpose, never revenue: Mike's own Legend ("owner-legend-free", 100% off forever).
-// Any coupon that takes 100% off for more than one invoice counts the same, once Stripe's coupon can be read.
-export const COMP_COUPONS = ["owner-legend-free"];
+// Coupons that make a plan free on purpose, never revenue. Any coupon that takes 100% off counts, once Stripe's coupon
+// can be read (compOf), so a new creator's comp needs nothing here; these ids count even when only the id arrives and
+// the coupon can't be read: Mike's own Legend ("owner-legend-free", 100% off forever) and TikTok creator domin0gam3s's
+// three months of Legend (Mike, 10/20: "domino-games-free"; "creator-legend-3mo", the name planned for it). When a
+// comp's months end and the plan carries on paid, its discounts change and it counts as paid again.
+export const COMP_COUPONS = ["owner-legend-free", "creator-legend-3mo", "domino-games-free"];
 const LAUNCH_COUPON_IDS = [...Object.values(LAUNCH_COUPONS).map(c => c.id), BETA_HALF.id];
 
 // The coupons a subscription's discounts name ([] for none), or null when Stripe sent the discounts as ids only (the
@@ -1913,7 +1949,7 @@ async function compOf(env, coupons) {
     if (!id || LAUNCH_COUPON_IDS.includes(id)) continue;
     const coupon = typeof c === "object" ? c
       : await stripe(env, "GET", `coupons/${encodeURIComponent(id)}`).catch(() => null);
-    if (coupon?.percent_off === 100 && coupon.duration !== "once") return id;
+    if (coupon?.percent_off === 100) return id;
   }
   return "";
 }
@@ -1941,6 +1977,7 @@ async function logSubscription(env, userId, subscription) {
 // Before /admin counts plans: reads from Stripe (GET only) the subscriptions plan_log doesn't know yet, or whose
 // coupons it hasn't read, at most `limit` a load, so comps are never counted as revenue. Without a Stripe key, nothing.
 export async function checkPlanLog(env, limit = 10) {
+  if (isReportRead(env)) return;
   if (!env.STRIPE_SECRET_KEY) return 0;
   const { results } = await env.DB.prepare(
     "SELECT e.user_id, e.subscription_id FROM entitlements e LEFT JOIN plan_log p ON p.subscription_id = e.subscription_id " +

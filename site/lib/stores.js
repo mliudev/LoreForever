@@ -1,3 +1,4 @@
+import { isReportRead } from "./report-read.js";
 // CurseForge's and GitHub's own download counts (LOR-421), for /admin's Growth tab. Most players get Lore Forever
 // through CurseForge, and the CurseForge app updates installed add-ons, so the downloads a release gets in its first day
 // come close to the CurseForge installs in use that day: a trend, not a head count (a download can be a new install, an
@@ -42,7 +43,7 @@ export const CF_PACKS = [1727331, 1727332, 1727333, 1727666, 1727667, 1727668, 1
   1731411, 1731412, 1731414, 1731415, 1731417, 1731418, 1731419, 1731420, 1733811, 1734020,
   1736067, 1740579, 1743314, 1743315, 1743518, 1743604, 1745680, 1745682, 1752597, 1752598, 1752599,
   1752600, 1753615, 1753616,
-  1754443, 1754444, 1754446, 1754448];
+  1754443, 1754444, 1754446, 1754448, 1755322, 1755323];
 export const GITHUB_REPO = "mliudev/LoreForever";
 const HOUR = 3600e3, DAY = 864e5;
 const EVERY = { core: HOUR, pack: 6 * HOUR };
@@ -65,6 +66,7 @@ const ready = new WeakMap();
 // The tables, and store_counts' first and first_taken on a table from before they were kept (its rows' first count
 // becomes the one they have now).
 export async function setupStores(env) {
+  if (isReportRead(env)) return;
   if (ready.get(env.DB)) return;
   await env.DB.batch(SETUP.map(s => env.DB.prepare(s)));
   const { results } = await env.DB.prepare("PRAGMA table_info(store_counts)").all();

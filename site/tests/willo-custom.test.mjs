@@ -14,6 +14,7 @@ import {
   setupWilloCustom, saveCustom, promptBlocks, clean, loreNpcs, findNpcs, TALES_MAX,
 } from "../lib/willo-custom.js";
 
+import { TRIAL } from "../lib/best-first.js";
 import { d1, assets } from "./helpers.mjs";
 
 const ORIGIN = "https://preview.example";
@@ -28,7 +29,8 @@ beforeEach(async (t) => {
   await setupBilling(env);
   await setupWilloCustom(env);
   for (const table of ["users", "sessions", "devices", "device_links", "rate_limits", "answer_spend", "story_spend",
-                       "entitlements", "answer_user_spend", "answer_packs", "custom_prompts"]) env.DB.sqlite.exec(`DELETE FROM ${table}`);
+                       "entitlements", "answer_user_spend", "answer_packs", "custom_prompts", "best_first"])
+    env.DB.sqlite.exec(`DELETE FROM ${table}`);
   checks = [];
   answers = [];
   // The check turns away anything that asks to ignore the rules; answers and chat memory get a fixed reply.
@@ -59,6 +61,10 @@ async function player(sub, plan) {
   const cookie = (await startSession(env, new Request(ORIGIN), user.id)).split(";")[0];
   return { user, cookie };
 }
+
+// A free account whose first-run trial (lib/best-first.js) started `daysAgo` (past TRIAL_DAYS: over).
+const trialStarted = (user, daysAgo) => env.DB.prepare("INSERT OR REPLACE INTO best_first (claim, user_id, used, started) " +
+  "VALUES (?, ?, 20, ?)").bind(`taste:test-${user.id}`, user.id, new Date(NOW - daysAgo * 86400e3).toISOString()).run();
 
 async function companionToken(user) {
   const link = await startLink(env);
@@ -113,8 +119,31 @@ test("with plans off, saved customizations reach no prompt and the API is closed
   } finally { env.SITE_FEATURES = "plans"; }
 });
 
-test("what each plan can save: Hero a preset but no tales, Champion its own words and up to 25 tales", async () => {
+test("a new free player tries Legend's in the first-run trial's days: own words and a couple of tales, kept after", async () => {
+  const free = await player("trier");
+  await trialStarted(free.user, 2);
+  const got = await api("GET", { cookie: free.cookie });
+  assert.deepEqual([got.status, got.body.allowed, got.body.trial, got.body.limits.tales],
+    [200, ["presets", "words", "tales"], { until: "2026-10-17T12:00:00.000Z" }, TRIAL.tales]);
+  const words = await api("PUT", { cookie: free.cookie, body: style("bard", "Call me Captain.") });
+  assert.equal(words.status, 200, JSON.stringify(words.body));
+  for (let i = 0; i < TRIAL.tales; i++) {
+    assert.equal((await api("PUT", { cookie: free.cookie, body: tale(`npc:someone-${i}`, `Tale ${i}.`) })).status, 200);
+  }
+  const over = await api("PUT", { cookie: free.cookie, body: tale("npc:one-too-many", "Another tale.") });
+  assert.deepEqual([over.status, over.body.error],
+    [400, `While you're trying Willo's plans you can keep ${TRIAL.tales} tales. Delete one to write another.`]);
+  // Its days over: nothing to change, and what they saved stays for a plan that has it.
+  await trialStarted(free.user, 15);
+  const after = await api("GET", { cookie: free.cookie });
+  assert.deepEqual([after.body.allowed, after.body.trial, after.body.style.text, after.body.tales.length],
+    [[], undefined, "Call me Captain.", TRIAL.tales]);
+  assert.equal((await api("PUT", { cookie: free.cookie, body: style("bard") })).status, 403);
+});
+
+test("what each plan can save: Hero a preset but no tales, Champion its own words, Legend its own words and up to 25 tales", async () => {
   const free = await player("free");
+  await trialStarted(free.user, 15);
   assert.equal((await api("PUT", { cookie: free.cookie, body: style("bard") })).status, 403);
   const got = await api("GET", { cookie: free.cookie });
   assert.deepEqual([got.status, got.body.plan.id, got.body.allowed], [200, "free", []]);
@@ -124,7 +153,8 @@ test("what each plan can save: Hero a preset but no tales, Champion its own word
   assert.equal((await api("PUT", { cookie: hero.cookie, body: style("bard", "Call me Captain.") })).status, 403);
   assert.equal((await api("PUT", { cookie: hero.cookie, body: style("pirate") })).status, 400, "only the presets");
   const heroTale = await api("PUT", { cookie: hero.cookie, body: tale("npc:gryan-stoutmantle", "A soldier.") });
-  assert.deepEqual([heroTale.status, heroTale.body.error], [403, "Writing your own tales comes with Champion."]);
+  assert.equal(heroTale.status, 403);
+  assert.match(heroTale.body.error, /^Writing your own tales comes with /);
   assert.equal(checks.length, 0, "a preset needs no check");
   assert.match((await promptBlocks(env, hero.user.id, { id: "hero" }, { operation: "answer" })).system, /tavern storyteller/);
 
@@ -134,27 +164,42 @@ test("what each plan can save: Hero a preset but no tales, Champion its own word
   assert.deepEqual([words.body.style.text, words.body.style.status], ["Call me Captain, and keep it short.", "ok"]);
   assert.match(checks[0], /"Call me Captain, and keep it short\."/, "the check gets the words quoted, as data");
   assert.equal((await api("PUT", { cookie: champion.cookie, body: style("classic", "x".repeat(301)) })).status, 400);
+  const championTale = await api("PUT", { cookie: champion.cookie, body: tale("npc:gryan-stoutmantle", "A soldier.") });
+  assert.equal(championTale.status, 403, "tales are Legend's");
+  assert.match(championTale.body.error, /^Writing your own tales comes with /);
+  assert.deepEqual((await api("GET", { cookie: champion.cookie })).body.allowed, ["presets", "words"]);
+
+  const legend = await player("legend", "legend");
+  assert.equal((await api("PUT", { cookie: legend.cookie, body: style("classic", "Call me Captain, and keep it short.") })).status, 200);
   for (let i = 0; i < TALES_MAX; i++) {
-    const saved = await saveCustom(env, champion.user, { id: "champion" }, { kind: "tale", target: `npc:someone-${i}`, text: `Tale ${i}.` });
+    const saved = await saveCustom(env, legend.user, { id: "legend" }, { kind: "tale", target: `npc:someone-${i}`, text: `Tale ${i}.` });
     assert.deepEqual(saved, { ok: true });
   }
-  const over = await api("PUT", { cookie: champion.cookie, body: tale("npc:one-too-many", "Another tale.") });
+  const over = await api("PUT", { cookie: legend.cookie, body: tale("npc:one-too-many", "Another tale.") });
   assert.deepEqual([over.status, over.body.error], [400, `You have ${TALES_MAX} tales. Delete one to write another.`]);
-  assert.equal((await api("PUT", { cookie: champion.cookie, body: tale("npc:someone-3", "Tale 3, retold.") })).status, 200,
+  assert.equal((await api("PUT", { cookie: legend.cookie, body: tale("npc:someone-3", "Tale 3, retold.") })).status, 200,
     "an existing tale can still change");
-  assert.equal((await api("PUT", { cookie: champion.cookie, body: tale("Gryan", "A soldier.") })).status, 400, "a lore key, not a name");
-  const deleted = await api("DELETE", { cookie: champion.cookie, query: "?kind=tale&npc=npc:someone-0" });
+  assert.equal((await api("PUT", { cookie: legend.cookie, body: tale("Gryan", "A soldier.") })).status, 400, "a lore key, not a name");
+  const deleted = await api("DELETE", { cookie: legend.cookie, query: "?kind=tale&npc=npc:someone-0" });
   assert.equal(deleted.body.tales.length, TALES_MAX - 1);
-  assert.equal((await api("PUT", { cookie: champion.cookie, body: tale("npc:one-too-many", "Another tale.") })).status, 200);
+  assert.equal((await api("PUT", { cookie: legend.cookie, body: tale("npc:one-too-many", "Another tale.") })).status, 200);
+
+  // Down to Champion: its tales stay saved but aren't used; its own words are.
+  await entitle(legend.user, "champion");
+  const kept1 = await api("GET", { cookie: legend.cookie });
+  assert.deepEqual([kept1.body.allowed, kept1.body.tales.length], [["presets", "words"], TALES_MAX]);
+  assert.deepEqual(await promptBlocks(env, legend.user.id, { id: "champion" }, { operation: "character", npc: "npc:someone-3" }),
+    { system: "", tale: false });
+  assert.match((await promptBlocks(env, legend.user.id, { id: "champion" }, { operation: "answer" })).system, /Captain/);
 
   // Down to Hero: everything stays saved, and only the preset is used.
-  await api("PUT", { cookie: champion.cookie, body: style("trickster") });   // a Champion's words stay with a preset change
-  await entitle(champion.user, "hero");
-  const kept = await api("GET", { cookie: champion.cookie });
+  await api("PUT", { cookie: legend.cookie, body: style("trickster") });   // a Champion's words stay with a preset change
+  await entitle(legend.user, "hero");
+  const kept = await api("GET", { cookie: legend.cookie });
   assert.deepEqual([kept.body.allowed, kept.body.tales.length], [["presets"], TALES_MAX]);
-  assert.deepEqual(await promptBlocks(env, champion.user.id, { id: "hero" }, { operation: "character", npc: "npc:someone-3" }),
+  assert.deepEqual(await promptBlocks(env, legend.user.id, { id: "hero" }, { operation: "character", npc: "npc:someone-3" }),
     { system: "", tale: false });
-  const heroNow = (await promptBlocks(env, champion.user.id, { id: "hero" }, { operation: "answer" })).system;
+  const heroNow = (await promptBlocks(env, legend.user.id, { id: "hero" }, { operation: "answer" })).system;
   assert.match(heroNow, /cheeky and playful/);
   assert.doesNotMatch(heroNow, /Captain/);
   assert.equal(kept.body.style.text, "Call me Captain, and keep it short.");
@@ -191,8 +236,8 @@ test("clean drops code fences, instruction headers and control characters, and c
   assert.equal(clean(null, 10), "");
 });
 
-test("a Willo answer gets PLAYER STYLE, chat memory doesn't, and a Champion's character talk gets their tale", async () => {
-  const { user, cookie } = await player("champion", "champion");
+test("a Willo answer gets PLAYER STYLE, chat memory doesn't, and a Legend's character talk gets their tale", async () => {
+  const { user, cookie } = await player("legend", "legend");
   const token = await companionToken(user);
   assert.equal((await api("PUT", { cookie, body: style("trickster", "Call me Captain.") })).status, 200);
   assert.equal((await api("PUT", { cookie, body: tale("npc:gryan-stoutmantle", "A retired soldier who hums old marching songs.") })).status, 200);

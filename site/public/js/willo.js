@@ -79,8 +79,8 @@
     $("wl-tales-max").textContent = data.limits.tales;
     $("wl-tales-up").hidden = can;
     if (!can) {
-      $("wl-tales-up").replaceChildren(n ? `Your ${n} saved ${n === 1 ? "tale comes" : "tales come"} back with Champion. `
-        : "Writing your own tales of the characters you meet comes with Champion. ", plansLink());
+      $("wl-tales-up").replaceChildren(n ? `Your ${n} saved ${n === 1 ? "tale comes" : "tales come"} back with Legend. `
+        : "Writing your own tales of the characters you meet comes with Legend. ", plansLink());
     }
     $("wl-list").replaceChildren(...data.tales.map(taleItem));
   }
@@ -171,6 +171,15 @@
     $("wl-free").hidden = data.allowed.length > 0;
     $("wl-on").hidden = !data.allowed.length;
     if (!data.allowed.length) return;
+    // A new player's first-run trial (lib/best-first.js): what they're trying, until when, and that it stays saved.
+    $("wl-trial").hidden = !data.trial;
+    if (data.trial) {
+      const until = data.trial.until ? new Date(data.trial.until).toLocaleDateString("en-US",
+        { month: "long", day: "numeric" }) : "";
+      $("wl-trial").replaceChildren(`You're trying Willo's style in your own words and up to ${data.limits.tales} of ` +
+        `your own tales${until ? ` until ${until}` : " in your first days with her"}. What you save stays for when a plan ` +
+        "has it. ", plansLink());
+    }
     showStyle();
     showTales();
   }

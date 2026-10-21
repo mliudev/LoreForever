@@ -1,3 +1,4 @@
+import { isReportRead } from "./report-read.js";
 // What Lore Forever costs, for the Costs tab on /admin. Mike's Operations session checks each vendor's dashboard and
 // posts one snapshot (POST /api/admin/costs); the page reads the latest (GET). Snapshots are admin-only: they live in
 // D1 (cost_snapshots), never in a public file. The last KEEP are kept so a later change can show a trend.
@@ -79,7 +80,7 @@ export async function saveSnapshot(env, body) {
 
 // The newest snapshot (the one posted last, whatever its date) and how many are kept; snapshot is null before the first.
 export async function latestSnapshot(env) {
-  await ensure(env.DB);
+  if (!isReportRead(env)) await ensure(env.DB);
   const row = await env.DB.prepare("SELECT json FROM cost_snapshots ORDER BY id DESC LIMIT 1").first();
   const n = await env.DB.prepare("SELECT COUNT(*) AS n FROM cost_snapshots").first("n");
   return { snapshot: row ? JSON.parse(row.json) : null, kept: n };

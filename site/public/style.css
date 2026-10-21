@@ -33,8 +33,8 @@ code { background: #00000066; padding: 1px 5px; border-radius: 3px; font-size: 0
 /* Site header, on every page (LOR-222): the brand, then Download, Lore, What's new and Community; on the right, Make
    your profile (Your profile once signed in) next to Sign in or the account chip. The links are in each page's own
    markup, so they work without JavaScript; header.js marks the one you're on, turns Community into a menu, switches
-   the profile link once you're signed in and adds the What's new dot. Up to 840px it's two rows: the brand, the
-   profile link and the account, then the four links. Deeper pages add a breadcrumb under it (.subcrumb). */
+   the profile link once you're signed in and adds the What's new dot. Up to 1100px it's two rows: the brand, the
+   profile link and the account, then the six links. Deeper pages add a breadcrumb under it (.subcrumb). */
 .top { position: relative; z-index: 5; border-bottom: 1px solid var(--line); background: #070605; }   /* menus over the hero */
 .crumb { display: block; padding: 10px 0; color: var(--muted); font-size: 0.85rem; }
 .subcrumb { border-top: 1px solid #ffffff0d; }
@@ -107,15 +107,15 @@ code { background: #00000066; padding: 1px 5px; border-radius: 3px; font-size: 0
 .menu-head { margin: 6px 10px 2px; color: var(--gold-soft); font: 600 0.68rem/1.4 var(--heading); letter-spacing: 0.12em; text-transform: uppercase; }
 .menu-note, .menu-who { margin: 2px 10px 4px; font-size: 0.78rem; color: var(--muted); }
 .menu-who strong { color: var(--text); font-weight: 600; word-break: break-all; }
-/* Sized for the links (five with Willo; the narrowest phones wrap them, below), signed in or out, with nothing wider than the screen from 320px up: the short labels
-   (Profile) to 960px, two rows to 840px, phone sizes to 600px. */
+/* Sized for the links (six with Guides; the narrowest phones wrap them, below), signed in or out, with nothing wider than the screen from 320px up: the short labels
+   (Profile) to 960px, two rows to 1100px, phone sizes to 600px. */
 @media (max-width: 960px) {
   .nav { gap: 6px 8px; }
   .nl { padding: 0 9px; }
   .nav .hd-wide { display: none; }
   .nav .hd-narrow { display: inline; }
 }
-@media (max-width: 840px) {
+@media (max-width: 1100px) {
   .nav { flex-wrap: wrap; min-height: 0; }
   .brand { min-height: 52px; }
   .nav-links { order: 3; flex: 1 0 100%; margin: 0 0 8px; }
@@ -136,8 +136,8 @@ code { background: #00000066; padding: 1px 5px; border-radius: 3px; font-size: 0
 @media (max-width: 359px) {
   .nav-links .nl { font-size: 0.7rem; }
 }
-/* Five links since Willo joined (2026-10-14): on the narrowest phones they wrap onto a second row, never off screen.
-   Tighter padding up to 400px keeps them on one row at 375px (they measure 340px there, of 343px). */
+/* On narrow phones the links wrap onto another row, never off screen.
+   Tighter padding up to 400px gives the links more room. */
 @media (max-width: 600px) {
   .nav-links { flex-wrap: wrap; }
 }
@@ -537,6 +537,9 @@ dd { margin: 0; }
 .tl-meter { height: 8px; margin: 2px 0 8px; border-radius: 4px; background: #00000066; border: 1px solid var(--panel-line); overflow: hidden; }
 .tl-meter span { display: block; height: 100%; min-width: 0; background: linear-gradient(90deg, #8a6d2c, var(--gold)); }
 .tl-percent strong { color: var(--gold); font-size: 1.1rem; }
+.tl-new { font-size: 0.88rem; }
+.tl-new strong { color: var(--gold); }
+.tl-note { color: var(--muted); font-size: 0.82rem; }
 .tl-review { color: var(--muted); font-size: 0.88rem; }
 .tl-get { font-size: 0.88rem; color: var(--muted); }
 .tl-get .btn-small { margin: 0 8px 6px 0; }

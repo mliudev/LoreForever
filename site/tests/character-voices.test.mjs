@@ -1,7 +1,8 @@
 // Characters in a voice of their own (lib/character-voices.js, lib/companion-voice.js speakPiece): a reference whose
-// provenance doesn't name a source we have the rights to is refused, by the site and by the import script; Champion's
-// month of character replies; Legend's shared with its finest replies; Free and Hero in Willo's voice unless a pack
-// pays; a slot's Inworld voice first, then Fish; and every fallback to Willo's voice. Inworld, Fish (OpenRouter) and
+// provenance doesn't name a source we have the rights to is refused, by the site and by the import script; a plan's
+// own count of character replies (no plan has one now, run with an explicit voice config); Champion's and Legend's
+// shared with their finest replies; Hero in Willo's finest voice, Free in her studio voice; a slot's Inworld voice
+// first, then Fish; and every fallback to Willo's voice. Inworld, Fish (OpenRouter) and
 // DeepInfra are mocked through fetch; D1 is node:sqlite and R2 in memory (helpers.mjs).
 // Run: node --test 'site/tests/*.test.mjs'
 
@@ -16,10 +17,10 @@ import { fileURLToPath } from "node:url";
 import { onRequest as speakApi } from "../functions/api/companion/speak.js";
 import { findOrCreateUser, setup } from "../lib/accounts.js";
 import { startLink, decideLink, claimToken } from "../lib/devices.js";
-import { setupBilling, planFor, poolWindow, CHAMPION_CHARACTER_REPLIES, LEGEND_BEST_PER_MONTH, VOICE_PACK,
-  CHARACTER_MODEL, AZEROTH_VOICES } from "../lib/billing.js";
+import { setupBilling, planFor, poolWindow, CHAMPION_CHARACTER_REPLIES, PLAN_VOICE, CHARACTER_MODEL, AZEROTH_VOICES }
+  from "../lib/billing.js";
 import { CHARACTER_VOICES, characterVoices, voiceLabel, voicePhrase, refusal, hasAzeroth } from "../lib/character-voices.js";
-import { FISH_MICRO_PER_BYTE, MICRO_PER_CHAR, CHARACTER_FIRST_AUDIO_MS, PROVIDER_MS, AZEROTH_PICKS, AZEROTH_STUDIO }
+import { FISH_MICRO_PER_BYTE, MICRO_PER_CHAR, CHARACTER_FIRST_AUDIO_MS, PROVIDER_MS, AZEROTH_PICKS, AZEROTH_STUDIO, speakPiece }
   from "../lib/companion-voice.js";
 
 import { d1, r2 } from "./helpers.mjs";
@@ -71,8 +72,13 @@ beforeEach(async (t) => {
 });
 afterEach((t) => { globalThis.fetch = originalFetch; t.mock.timers.reset(); });
 
-// A player on `plan` with a connected companion, and their spoken pieces in `voice`.
-async function player(sub, plan) {
+// A character count of its own, as Champion had before 10/19 (characters is a number: that many of the plan month's
+// replies in their own voices, apart from the finest ones; no plan has it now, but speakPiece still does).
+const OWN_COUNT = { voice: "chatterbox", choice: true, characters: CHAMPION_CHARACTER_REPLIES };
+
+// A player on `plan` with a connected companion, and their spoken pieces in `voice`. voiceConfig: a PLAN_VOICE-shaped
+// voice for the plan in place of its own (the pieces then go to speakPiece with that plan, not through the API).
+async function player(sub, plan, voiceConfig = null) {
   const user = await findOrCreateUser(env, { email: `${sub}@example.com`, googleSub: sub, name: sub });
   const link = await startLink(env);
   assert.equal(await decideLink(env, link.user_code, user, true), true);
@@ -81,6 +87,11 @@ async function player(sub, plan) {
     "VALUES (?, ?, ?, 'active', ?, ?)").bind(user.id, `sub-${user.id}`, plan, new Date(NOW + 20 * 86400e3).toISOString(),
     new Date(NOW).toISOString()).run();
   const speak = async (text, voice = "dwarf-male") => {
+    if (voiceConfig) {
+      const said = await speakPiece(env, user.id, { ...await planFor(env, user.id), voice: voiceConfig },
+        { text, voice, reply: crypto.randomUUID() }, new Date());
+      return said.audio ? 200 : said.status;
+    }
     const res = await speakApi({ env, request: new Request(ORIGIN + "/api/companion/speak", { method: "POST",
       headers: { "X-LF-Client": "companion/0.1.0", Authorization: `Bearer ${token}`, "Content-Type": "application/json" },
       body: JSON.stringify({ text, voice }) }) });
@@ -133,8 +144,8 @@ test("a character's reference without provenance naming our own design, a consen
   assert.doesNotMatch(run.stdout, /design-voice/);
 });
 
-test("Champion: the month's character replies in their own voice, then Willo's studio voice", async () => {
-  const { user, speak, said } = await player("champ", "champion");
+test("a plan with a character count of its own: that many replies in their own voice, then Willo's studio voice", async () => {
+  const { user, speak, said } = await player("champ", "champion", OWN_COUNT);
   await said(CHAMPION_CHARACTER_REPLIES - 1, "npc");
   assert.equal(await speak("Mind the anvil, lad."), 200);
   const [fish] = calls;
@@ -156,25 +167,23 @@ test("Champion: the month's character replies in their own voice, then Willo's s
   assert.equal(calls[2].provider, "deepinfra");
 });
 
-test("Legend's characters share its finest replies; Hero's speak in Willo's studio voice unless a finest-voice pack pays", async () => {
-  const legend = await player("legend", "legend");
-  await legend.said(LEGEND_BEST_PER_MONTH - 1, "best");
-  assert.equal(await legend.speak("The last of the month's finest."), 200);
-  assert.equal(calls[0].provider, "fish");
-  assert.equal(await legend.speak("Willo again.", "willo"), 200);
-  assert.equal(calls[1].provider, "deepinfra", "one pool: the character took its last place");
+test("Champion's and Legend's characters share their finest replies; Hero's speak in Willo's finest voice", async () => {
+  for (const plan of ["champion", "legend"]) {
+    const paid = await player(plan, plan);
+    await paid.said(PLAN_VOICE[plan].best - 1, "best");
+    assert.equal(await paid.speak("The last of the month's finest."), 200);
+    assert.equal(calls.at(-1).provider, "fish", plan);
+    assert.equal(await paid.speak("Willo again.", "willo"), 200);
+    assert.equal(calls.at(-1).provider, "deepinfra", `${plan}: one pool, the character took its last place`);
+  }
 
+  // Hero has no characters' own voices (option D): a character speaks in Willo's voice, her finest like her replies.
   const hero = await player("hero", "hero");
   assert.equal(await hero.speak("Hail, friend."), 200);
-  assert.equal(calls.at(-1).provider, "deepinfra", "Hero: the character in Willo's studio voice");
-  await env.DB.prepare("INSERT INTO answer_packs (id, user_id, kind, answers, remaining, created) VALUES " +
-    "('cs_voice', ?, 'voice', ?, 5, ?)").bind(hero.user.id, VOICE_PACK.replies, new Date(NOW).toISOString()).run();
-  assert.equal(await hero.speak("Hail, friend."), 200);
-  assert.equal(calls.at(-1).provider, "fish");
-  assert.equal(env.DB.sqlite.prepare("SELECT remaining FROM answer_packs WHERE id = 'cs_voice'").get().remaining, 4);
+  assert.equal(calls.at(-1).provider, "inworld", "Hero: the character in Willo's finest voice");
 });
 
-test("Fish failing, a missing reference or a people without one: the character speaks in Willo's voice", async () => {
+test("Fish failing or a missing reference: the character steps down to Willo's studio voice; a people without one speak in her finest", async () => {
   const { speak } = await player("champ", "champion");
   failing.add("fish");
   assert.equal(await speak("Nobody hears the dwarf."), 200);
@@ -182,30 +191,47 @@ test("Fish failing, a missing reference or a people without one: the character s
   failing.clear();
   assert.equal(await speak("No reference yet.", "dwarf-female"), 200);
   assert.deepEqual(calls.slice(2).map(c => c.provider), ["deepinfra"], "Fish isn't even asked without its reference");
+  const best = () => env.DB.sqlite.prepare("SELECT COALESCE(SUM(best), 0) AS n FROM voice_replies").get().n;
+  assert.equal(best(), 0, "a character Fish didn't say took none of the month's finest replies");
+  // Champion's Willo voice is the finest one: an ogre, with no voice of its own, is said in it and takes a place.
+  assert.equal(await speak("An ogre speaks.", "ogre-male"), 200);
+  assert.equal(calls.at(-1).provider, "inworld");
+  assert.equal(best(), 1);
+});
+
+test("a plan with a character count of its own: Fish failing or a people without a voice of their own take none of the count", async () => {
+  const { speak } = await player("counted", "champion", OWN_COUNT);
+  failing.add("fish");
+  assert.equal(await speak("Nobody hears the dwarf."), 200);
+  assert.deepEqual(calls.map(c => c.provider), ["fish", "deepinfra"]);
+  failing.clear();
   assert.equal(await speak("An ogre speaks.", "ogre-male"), 200);
   assert.equal(calls.at(-1).provider, "deepinfra");
   assert.equal(env.DB.sqlite.prepare("SELECT COALESCE(SUM(npc), 0) AS n FROM voice_replies").get().n, 0,
     "a character Fish didn't say took none of the month's character replies, nor the ogre without a voice of its own");
 });
 
-test("A slot's Inworld voice says it first; Fish when Inworld fails or is slow; it counts whichever said it", async () => {
-  const { user, speak, said } = await player("champ", "champion");
-  const npc = () => env.DB.sqlite.prepare("SELECT COALESCE(SUM(npc), 0) AS n FROM voice_replies WHERE user_id = ?")
+// Once with a character count of its own (the npc column), once as Champion has them now, out of its finest replies (best).
+for (const [name, voiceConfig, column, pool] of [["a character count of its own", OWN_COUNT, "npc", CHAMPION_CHARACTER_REPLIES],
+    ["Champion's finest replies", null, "best", PLAN_VOICE.champion.best]])
+test(`A slot's Inworld voice says it first; Fish when Inworld fails or is slow; it counts whichever said it (${name})`, async () => {
+  const { user, speak, said } = await player("champ", "champion", voiceConfig);
+  const npc = () => env.DB.sqlite.prepare(`SELECT COALESCE(SUM(${column}), 0) AS n FROM voice_replies WHERE user_id = ?`)
     .get(user.id).n;
-  await said(CHAMPION_CHARACTER_REPLIES - 3, "npc");
+  await said(pool - 3, column);
   assert.equal(await speak("Stay sharp, mon.", "troll-male"), 200);
   assert.deepEqual(calls.map(c => c.provider), ["inworld"]);
   assert.deepEqual([calls[0].headers.Authorization, calls[0].body.voiceId, calls[0].body.modelId, calls[0].body.text],
     ["Basic iw-test", TROLL.inworld, CHARACTER_MODEL, "Stay sharp, mon."], "the slot's own clone on Flash, no Fish cues");
   assert.equal(env.DB.sqlite.prepare("SELECT voice_micro FROM answer_user_spend WHERE user_id = ?").get(user.id).voice_micro,
     "Stay sharp, mon.".length * MICRO_PER_CHAR[CHARACTER_MODEL]);
-  assert.equal(npc(), CHAMPION_CHARACTER_REPLIES - 2);
+  assert.equal(npc(), pool - 2);
 
   failing.add("inworld");
   assert.equal(await speak("Da spirits be restless.", "troll-male"), 200);
   assert.deepEqual(calls.slice(1).map(c => c.provider), ["inworld", "fish"]);
   assert.equal(calls[2].body.input, `${TROLL.cue} Da spirits be restless.`);
-  assert.equal(npc(), CHAMPION_CHARACTER_REPLIES - 1, "Fish said it: one of the month's character replies");
+  assert.equal(npc(), pool - 1, "Fish said it: one of the month's character replies");
 
   // Inworld answers but sends no audio: Fish is asked once CHARACTER_FIRST_AUDIO_MS is up, not the whole PROVIDER_MS.
   failing.clear();
@@ -215,7 +241,7 @@ test("A slot's Inworld voice says it first; Fish when Inworld fails or is slow; 
   const took = performance.now() - started;
   assert.deepEqual(calls.slice(3).map(c => c.provider), ["inworld", "fish"]);
   assert.ok(took >= CHARACTER_FIRST_AUDIO_MS - 50 && took < PROVIDER_MS, `Fish said it after ${Math.round(took)} ms`);
-  assert.equal(npc(), CHAMPION_CHARACTER_REPLIES);
+  assert.equal(npc(), pool);
 
   slow.clear();
   assert.equal(await speak("One more, mon.", "troll-male"), 200);
