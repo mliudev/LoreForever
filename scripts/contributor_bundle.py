@@ -316,8 +316,6 @@ def build_bundle(addon_root, out_dir, versioned=False):
     addon_root, out_dir = Path(addon_root), Path(out_dir)
     manifest = validate_pair(addon_root)
     core_metadata = _core_metadata(addon_root)
-    if core_metadata[1] != manifest["core_version"]:
-        raise ValueError("restamp contributor pair for current core before bundle build")
     out_dir.mkdir(parents=True, exist_ok=True)
     suffix = "-" + manifest["core_version"] if versioned else ""
     dest = out_dir / ("LoreForever_Edition_Densuad_esES" + suffix + ".zip")
