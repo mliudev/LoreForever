@@ -164,8 +164,7 @@ DOWNLOADS = {
     # Italian (10/18): the stories the Italian community's pack has, read by native narrators. Skipped until recorded.
     "LoreForever_Voice_Default_itIT": (["LoreForever_Voice_Default_itIT"], "Male narrator: Italiano {v}"),
     "LoreForever_Voice_Female_itIT": (["LoreForever_Voice_Female_itIT"], "Female narrator: Italiano {v}"),
-    # Brazilian Portuguese (LOR-567): both recast in native voices; the male narrator is back 10/19, the female one stays
-    # paused until her new recordings land (PAUSED below leaves her out).
+    # Brazilian Portuguese (LOR-567): both recast in native voices; the male narrator is back 10/19, the female one 10/21.
     "LoreForever_Voice_Default_ptBR": (["LoreForever_Voice_Default_ptBR"], "Male narrator: Português {v}"),
     "LoreForever_Voice_Female_ptBR": (["LoreForever_Voice_Female_ptBR"], "Female narrator: Português {v}"),
     # Their quest dialogue in those languages, the game's own quest text (LOR-226): one zip per narrator and language

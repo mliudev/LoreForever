@@ -130,7 +130,7 @@ Voice.active, Voice.chain, Voice.stats, Voice.total, Voice.provided, Voice.serve
 Voice.questPaths, Voice.questServed = {}, {}   -- quest dialogue picked for an open quest window (Voice.QuestClip)
 Voice.questWords = {}   -- what it reads, when that isn't the window's text (a recording in another language, Voice.QuestClip)
 Voice.questTitles = {}  -- and the quest's title in that language, for the subtitles and the player
-Voice.answerPaths, Voice.answerServed = {}, {}   -- the answers packs' questions and answers (LOR-227, Refresh)
+Voice.answerPaths, Voice.answerServed = {}, {}   -- the retired answers packs' (LOR-227): always empty now (Refresh)
 
 -- Put a voice first in the list and tick it, along with the default voice (what choosing a voice always meant: that
 -- voice, then the default for the rest). "none" unticks every voice.
@@ -564,6 +564,58 @@ local function packOf(key)
   return Voice.InLanguage(key)
 end
 
+-- Narrator families (voice pack layering, option A: Mike, 10/21). A man's and a woman's narrator don't fill in for each
+-- other: the top narrator's gender is the family's, and a voice of the other gender plays nothing (its stories show as
+-- text) unless the player allows it (voiceFillGender, Options > Narration voices). A voice whose gender we can't tell (a
+-- community pack without ## X-LoreForever-Gender) belongs to every family, so a community narrator plays his stories
+-- and the Chronicler fills the rest. Language is a wall by construction: only packs in the language shown are in the
+-- chain, and English fills in only with voiceFillLanguage (englishFill).
+local function familyOf(lead, s)
+  local want = lead and Voice.Gender(lead)
+  return function(name)
+    if s.voiceFillGender or not want then return true end
+    local g = Voice.Gender(name)
+    return g == nil or g == want
+  end
+end
+
+-- "Let English narration fill in" (voiceFillLanguage): with Lore Forever in another language, a story that has no
+-- recording in that language plays the English one, when it was recorded from the English text we have
+-- (ns.DB.englishClipHash, kept by Lang.lua). Only the voices ticked in the list, in its order, each with its English
+-- lands packs, and only in the family (fits). Returns { clip id -> { voice, paths } } for the clips nothing in the
+-- language shown has.
+local function englishFill(s, ranked, fits)
+  local english = ns.DB and ns.DB.englishClipHash
+  if not (s.voiceFillLanguage and english) or sameLanguage(readingLocale(), "enUS") then return {} end
+  local voices = {}
+  for _, key in ipairs(s.voiceOrder) do
+    local base = key == AUTO and DEFAULT_PACK or key
+    local rec = not s.voiceOff[key] and ns.Packs.Get(base)
+    if rec and sameLanguage(rec.locale, "enUS") and rec.loadable ~= false and fits(base) and ns.Packs.Load(base) then
+      local packs = { base }
+      for _, r in ipairs(ns.Packs.List("voice")) do
+        if r.extends == base and sameLanguage(r.locale, "enUS") and ns.Packs.Load(r.name) then packs[#packs + 1] = r.name end
+      end
+      voices[#voices + 1] = { base, packs }
+    end
+  end
+  local out = {}
+  for id, h in pairs(english) do
+    if not ranked[id] then
+      for _, v in ipairs(voices) do
+        for _, pack in ipairs(v[2]) do
+          local data = ns.Packs.data[pack]
+          if data and data.clips[id] == h then
+            out[id] = out[id] or { v[1], {} }
+            if out[id][1] == v[1] then table.insert(out[id][2], Voice.ClipPath(pack, id, data.ext)) end
+          end
+        end
+      end
+    end
+  end
+  return out
+end
+
 -- Rebuild Voice.active (clip id -> the paths to try, in order) from the voice list. Each voice in the chain brings
 -- its installed lands packs; their counts go to the voice they extend. For each clip the voices with a current
 -- recording are ranked in list order, except that the voice playing the clip's anchor (anchorOf) goes first when it
@@ -616,6 +668,9 @@ function Voice.Refresh()
   end
   local stats, total, provided, ranked = {}, 0, {}, {}
   for _, name in ipairs(chain) do stats[name] = { have = 0, stale = 0, plays = 0 } end
+  -- (Stories, places, people and their answers follow the first voice that narrates in the language shown; quest
+  -- dialogue the first in the list with quest dialogue in it, which can be a voice with only its quest packs here.)
+  local fits, questFits = familyOf(chain[1] or questChain[1], s), familyOf(questChain[1], s)
   -- Every clip our data has a hash for, and every one a community pack in the chain brings its own words for (the
   -- text it was recorded from: Voice.ScopedClip), even where our English or translation no longer has one.
   local hashes, ids = (ns.DB and ns.DB.clipHash) or {}, {}
@@ -642,8 +697,10 @@ function Voice.Refresh()
       end
       if paths then
         stats[name].have = stats[name].have + 1
-        ranked[id] = ranked[id] or {}
-        table.insert(ranked[id], { name, paths })
+        if fits(name) then
+          ranked[id] = ranked[id] or {}
+          table.insert(ranked[id], { name, paths })
+        end
       end
     end
   end
@@ -664,6 +721,12 @@ function Voice.Refresh()
         ranked[id] = yes
       end
     end
+  end
+  -- English fill-ins go last: only clips nothing in the language shown has.
+  for id, v in pairs(englishFill(s, ranked, fits)) do
+    stats[v[1]] = stats[v[1]] or { have = 0, stale = 0, plays = 0 }
+    stats[v[1]].have = stats[v[1]].have + 1
+    ranked[id] = { v }
   end
   local mode, first = s.voiceGroup or "story", {}
   for id, list in pairs(ranked) do first[id] = list[1][1] end
@@ -693,7 +756,7 @@ function Voice.Refresh()
   local questRanked, questHash = {}, (ns.DB and ns.DB.questClip) or {}
   for _, name in ipairs(questChain) do
     local seen = {}
-    for _, pack in ipairs(packsOf[name]) do
+    for _, pack in ipairs(questFits(name) and packsOf[name] or {}) do
       local data = ns.Packs.data[pack]
       local own = data and type(data.questVoice) == "table" and data.questVoice or nil
       for id, h in pairs(data and data.clips or {}) do
@@ -707,43 +770,11 @@ function Voice.Refresh()
     end
   end
   Voice.questRanked = questRanked
-  -- Every other question and answer (LOR-227): the answers packs (LoreForever_Voice_<voice>_Answers_<Part>, and
-  -- _<locale> in another language) extend a voice like a lands pack, with <entry>#faqN clips ns.DB.clipHash doesn't
-  -- list. Their current hashes are ns.DB.answerHash[entry], one string with #faqN's at 6N-5..6N (a language pack's
-  -- replaces it: Lang.lua). Each voice with a current recording, in list order, the voice that plays the clip's anchor
-  -- first (anchorOf: a story's questions keep its narrator); a voice whose packs in the language shown are only ones
-  -- that extend it plays them too, as with quest dialogue. Kept apart from Voice.active / servedBy, so the Listen tab,
-  -- the counts and the lands hint stay the lore narrations'.
-  local answerHash, answerRanked = (ns.DB and ns.DB.answerHash) or {}, {}
-  for _, name in ipairs(questChain) do
-    for _, pack in ipairs(packsOf[name]) do
-      local data = ns.Packs.data[pack]
-      if data and data.clips and pack:find("_Answers_", 1, true) then
-        for id, h in pairs(data.clips) do
-          local base, n = id:match("^(.-)#faq(%d+)$")
-          local all = base and answerHash[base]
-          n = tonumber(n)
-          if type(all) == "string" and n and all:sub(6 * n - 5, 6 * n) == h then
-            answerRanked[id] = answerRanked[id] or {}
-            table.insert(answerRanked[id], { name, Voice.ClipPath(pack, id, data.ext) })
-          end
-        end
-      end
-    end
-  end
+  -- The answers packs (LOR-227: LoreForever_Voice_<voice>_Answers_<Part>) are retired (Mike's voices and plans picks,
+  -- 10/21): an installed one plays nothing, so every short answer goes to Willo (Companion.CanRead), who reads it in the
+  -- narrator's own voice from Hero up, or it shows as text. Community narrators' answers come through their own packs
+  -- (Voice.ScopedClip, Voice.active) and still play.
   local answerPaths, answerServed = {}, {}
-  for id, list in pairs(answerRanked) do
-    local anchor = anchorOf(id, mode)
-    local keep = anchor and servedBy[anchor]
-    if keep and keep ~= list[1][1] then
-      for i = 2, #list do
-        if list[i][1] == keep then table.insert(list, 1, table.remove(list, i)) break end
-      end
-    end
-    local paths = {}
-    for _, voice in ipairs(list) do paths[#paths + 1] = voice[2] end
-    answerPaths[id], answerServed[id] = paths, list[1][1]
-  end
   Voice.answerPaths, Voice.answerServed = answerPaths, answerServed
   Voice.active, Voice.chain, Voice.stats, Voice.total, Voice.ready = active, chain, stats, total, true
   Voice.provided, Voice.servedBy = provided, servedBy
@@ -757,9 +788,10 @@ function Voice.Resolve(id)
   return Voice.servedBy[id] or Voice.questServed[id] or Voice.answerServed[id], paths and paths[1]
 end
 
--- Voices installed since the last login go to the top of the list (installing one means you want to hear it; a
--- partial pack only takes over the clips it has), with a line in chat. After moving from the one-voice setting
--- they're added unticked at the bottom instead, so nothing changes for the player. A voice that can't be used
+-- Voices installed since the last login go to the bottom of the narrator list, ticked, with a line in chat that says
+-- where to move them up: installing a pack never changes what plays (a voice below the others only fills their gaps,
+-- and one of the other gender plays nothing: familyOf). After moving from the one-voice setting they're added unticked
+-- at the bottom, so nothing changes for the player. A voice that can't be used
 -- (another language, disabled, too new) goes to the bottom without a word, to show greyed in the list. Lands packs
 -- aren't voices. A pack combat kept from loading waits for OnCombatEnded; returns true if one did.
 -- A lands or quest pack extends a voice, or is named after one (LoreForever_Voice_Female_Horde,
@@ -805,13 +837,34 @@ local function adoptNew(quiet)
     end
     return waiting
   end
+  -- (Option A, Mike 10/21: installing never changes what plays. Before, a new voice went to the top: installing the
+  -- Original put the old narrator first, and two men took turns in 42 of 62 zones.)
+  -- One exception (the PM, 10/21): a narrator of the other family while the default voice still leads the list was
+  -- chosen on purpose (the installer's "female narrator", or her pack downloaded: she never comes with the add-on), and
+  -- at the bottom she'd read nothing, so she goes on top. A list the player arranged keeps its top.
+  local top = Voice.Current()
+  local fits = familyOf(top ~= "none" and packOf(top) or nil, s)
+  local first
+  for _, key in ipairs(new) do
+    if not first and top == AUTO and not fits(packOf(key)) then
+      first = key
+      table.insert(s.voiceOrder, 1, key)
+    else
+      s.voiceOrder[#s.voiceOrder + 1] = key
+    end
+  end
   for _, key in ipairs(unusable) do s.voiceOrder[#s.voiceOrder + 1] = key end
-  for i = #new, 1, -1 do table.insert(s.voiceOrder, 1, new[i]) end
   for _, key in ipairs(new) do
     local name = packOf(key)
     local have = Voice.Count(name)
-    say(string.format(L["new voice: %s. It plays first now; you can change the order in Options."],
-      string.format(have == 1 and L["%s (%d narration)"] or L["%s (%d narrations)"], Voice.PackName(name), have)))
+    local title = string.format(have == 1 and L["%s (%d narration)"] or L["%s (%d narrations)"], Voice.PackName(name), have)
+    if key == first then
+      say(string.format(L["new voice: %s. It reads first now. Stories it hasn't recorded show as text; to let the default narrator fill those in, or to change the order, see Options > Narration voices."], title))
+    elseif fits(name) then
+      say(string.format(L["new voice: %s. It's at the bottom of your narrator list, so it only reads stories the voices above it haven't recorded. To hear it first, move it up in Options > Narration voices."], title))
+    else
+      say(string.format(L["new voice: %s. It's at the bottom of your narrator list and won't read anything until you move it to the top in Options > Narration voices."], title))
+    end
   end
   return waiting
 end
@@ -2163,6 +2216,26 @@ end
 -- hash is ns.DB.questClip's), LoreForever_Voice_QuestGivers_<locale> in another language (LOR-226, with its own
 -- P.questVoice like the narrators' quest packs in that language); one in another language than the one shown never
 -- loads.
+-- The races the quest givers' voices speak (their P.speaker voices, and P.model's races drawn with another model).
+-- A model the add-on reads as anything else (a skeleton, a naga, a mount, a race no voice speaks) tells us nothing
+-- about who's speaking, so it's taken as unreadable and the giver's voice stays (Mike, 10/21: an unreadable NPC model
+-- must not flip a giver page to the narrator).
+local voicedRaces = setmetatable({}, { __mode = "k" })
+local function voiced(data, race)
+  local set = voicedRaces[data]
+  if not set then
+    set = {}
+    for _, t in ipairs({ type(data.speaker) == "table" and data.speaker or {}, type(data.model) == "table" and data.model or {} }) do
+      for _, v in pairs(t) do
+        local r = type(v) == "string" and (v:match("^(%a+)%-%a+$") or v)
+        if r then set[r] = true end
+      end
+    end
+    voicedRaces[data] = set
+  end
+  return set[race] == true
+end
+
 local function giverClip(id, want, window)
   local pack = want and Voice.InLanguage(QUEST_GIVERS)
   local data = pack and ensure(pack)
@@ -2175,7 +2248,7 @@ local function giverClip(id, want, window)
   if window then
     local seen = npcRace()
     local expect = type(data.model) == "table" and type(data.model[id]) == "string" and data.model[id] or race
-    if seen and seen ~= expect then return nil end
+    if seen and seen ~= expect and voiced(data, seen) then return nil end
   end
   return Voice.ClipPath(pack, id, data.ext), own or ns.DB.questVoice, pack
 end
@@ -2205,6 +2278,73 @@ local function gameInEnglish()
   return sameLanguage(ok and loc or "enUS", "enUS")
 end
 
+-- Who speaks a whole quest (option A, Mike 10/21: "never switches voice mid-quest"): "giver" when the quest givers'
+-- voices have every page some voice recorded, else "narrator", who then reads all of it. The data decides (each page's
+-- recording, current, with a known speaker of the data's gender for it); a quest whose giver didn't fit the NPC at its
+-- window once stays with the narrator (S().questNarrated, kept), so its later pages don't switch back. And of the
+-- narrators, the first in the list that has the most of its pages reads it (a lower one only fills a page it lacks).
+local function questPages(qid, rec)
+  local out = {}
+  for kind, part in pairs(QUEST_PART) do
+    if type(rec[part]) == "string" and rec[part] ~= "" then
+      out[kind] = "quest:" .. tostring(rec[1] or qid) .. "#" .. kind
+    end
+  end
+  return out
+end
+
+-- A narrator has a page when a voice's recording of it was made from the current words: an English one is in
+-- questRanked only then (its hash), one in another language when its own rows have the page (P.questVoice).
+local function narratorHas(qid, id, part)
+  for _, v in ipairs(Voice.questRanked and Voice.questRanked[id] or {}) do
+    local row = type(v[3]) == "table" and v[3][qid]
+    if type(row) == "table" and type(row[part]) == "string" and row[part] ~= "" then return true end
+  end
+  return false
+end
+
+function Voice.QuestSpeaker(qid, rec)
+  rec = rec or (ns.DB and ns.DB.questVoice and ns.DB.questVoice[qid])
+  if not rec then return nil end
+  local narrated = S().questNarrated
+  if S().voiceMatchGender == false or (type(narrated) == "table" and narrated[tostring(qid)]) then return "narrator" end
+  local any = false
+  for kind, id in pairs(questPages(qid, rec)) do
+    local code = type(rec[5]) == "string" and rec[5]:sub(QUEST_PART[kind] - 1, QUEST_PART[kind] - 1) or ""
+    local speaker = GENDER_CODE[code]
+    local giver = speaker and giverClip(id, speaker, false)
+    if not speaker then   -- the data doesn't say: the giver pack's own speaker, either gender
+      giver = giverClip(id, "male", false) or giverClip(id, "female", false)
+    end
+    if not giver and narratorHas(qid, id, QUEST_PART[kind]) then return "narrator" end
+    any = any or giver ~= nil
+  end
+  return any and "giver" or "narrator"
+end
+
+-- The narrator who reads a quest: the first in list order with the most of its pages. With a man's and a woman's
+-- narrator allowed to fill in for each other (voiceFillGender), one of the quest giver's gender goes first, as the
+-- data has it (0.7.0, Mike: Madame Eva spoke in his voice), still for the whole quest.
+local function questNarrator(qid, rec)
+  local count, order = {}, {}
+  for _, id in pairs(questPages(qid, rec)) do
+    for _, v in ipairs(Voice.questRanked[id] or {}) do
+      if not count[v[1]] then count[v[1]], order[#order + 1] = 0, v[1] end
+      count[v[1]] = count[v[1]] + 1
+    end
+  end
+  local want
+  if S().voiceFillGender and type(rec[5]) == "string" then
+    for i = 1, #rec[5] do want = want or GENDER_CODE[rec[5]:sub(i, i)] end
+  end
+  local function score(name) return (want and Voice.Gender(name) == want and 1000 or 0) + count[name] end
+  local best
+  for _, name in ipairs(order) do   -- (questRanked keeps list order)
+    if not best or score(name) > score(best) then best = name end
+  end
+  return best
+end
+
 function Voice.QuestClip(qid, kind, text, unchecked, peek)
   if ns.lang and ns.lang.edition then return nil end
   local part = QUEST_PART[kind]
@@ -2216,13 +2356,20 @@ function Voice.QuestClip(qid, kind, text, unchecked, peek)
   rec = rec or (list[1] and list[1][3] and list[1][3][qid])
   if not rec then return nil end
   local window = text == nil and not unchecked   -- the quest window's own page, read from the window below
+  local speaker = Voice.QuestSpeaker(qid, rec)
   local want
-  if S().voiceMatchGender ~= false then
-    -- "npc" is whoever's window is open, so only the window's own page asks it (a story's Listen may be another quest).
+  if speaker == "giver" then
+    -- "npc" is whoever's window is open, so only the window's own page asks it (a story's Listen may be another quest),
+    -- and only when it's an NPC: on a quest a party member shares, "npc" is that player (the audit, 10/20).
     -- Giver.Sex leaves out a gender the game hides (LOR-572): the data's decides then.
-    local sex = window and ns.Giver and ns.Giver.Sex("npc") or nil
+    local ok, guid = pcall(function() return UnitGUID and UnitGUID("npc") end)
+    local player = ok and type(guid) == "string" and guid:sub(1, 7) == "Player-"
+    local sex = window and not player and ns.Giver and ns.Giver.Sex("npc") or nil
     local code = type(rec[5]) == "string" and rec[5]:sub(part - 1, part - 1) or ""
     want = (sex == 2 and "male") or (sex == 3 and "female") or GENDER_CODE[code]
+    if not want and not window then   -- the data doesn't say: the giver pack's own speaker
+      want = (giverClip(id, "male", false) and "male") or (giverClip(id, "female", false) and "female") or nil
+    end
   end
   local giver, giverRows, giverPack = giverClip(id, want, window)
   if not list[1] and not giver then return nil end
@@ -2258,17 +2405,25 @@ function Voice.QuestClip(qid, kind, text, unchecked, peek)
     if reads(v[3]) then fits[#fits + 1] = v
     elseif across(v) then fits[#fits + 1], crossed[v] = v, true end
   end
+  -- The quest givers' role and the narrator's never fill for each other page by page: a giver quest plays the
+  -- giver's recording alone; a page whose giver doesn't fit the NPC in front of you goes to the narrator, and so
+  -- does the rest of the quest from then on (questNarrated).
+  if speaker == "giver" and not giver and window and fits[1] and not peek then
+    S().questNarrated = type(S().questNarrated) == "table" and S().questNarrated or {}
+    S().questNarrated[tostring(qid)] = true
+  end
+  if speaker == "narrator" then giver = nil end
   if not fits[1] and not giver then return nil end
   if peek then return id end
   local order = fits
-  if want and #fits > 1 then
-    local yes, no = {}, {}
-    for _, v in ipairs(fits) do table.insert(Voice.Gender(v[1]) == want and yes or no, v) end
-    for _, v in ipairs(no) do yes[#yes + 1] = v end
-    order = yes
+  local reader = not giver and #fits > 1 and questNarrator(qid, rec)
+  if reader and fits[1][1] ~= reader then
+    order = {}
+    for _, v in ipairs(fits) do if v[1] == reader then order[#order + 1] = v end end
+    for _, v in ipairs(fits) do if v[1] ~= reader then order[#order + 1] = v end end
   end
-  local paths = { giver }
-  for _, v in ipairs(order) do paths[#paths + 1] = v[2] end
+  local paths = {}
+  if giver then paths[1] = giver else for _, v in ipairs(order) do paths[#paths + 1] = v[2] end end
   -- Kept apart from Voice.active / servedBy, which list and count the lore narrations (Listen tab, Status).
   Voice.questPaths[id], Voice.questServed[id] = paths, giver and giverPack or order[1][1]
   local first = not giver and order[1]

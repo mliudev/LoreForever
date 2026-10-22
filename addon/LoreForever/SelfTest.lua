@@ -391,7 +391,7 @@ check("packs", {
       table.insert((rec.kind == "voice") and voices or (rec.kind == "transport") and support or langs, label)
       -- A withdrawn edition (Packs.WITHDRAWN) is an old copy on purpose: it stays paused, which is right.
       if isOwn(rec.name) and rec.reason ~= "WITHDRAWN" then
-        -- The answer packs were retired in 0.19 (LOR-561): they stay at their last version and keep playing.
+        -- The answer packs were retired in 0.19 (LOR-561): they stay at their last version, and play nothing since 10/21.
         local retired = rec.name:find("_Answers_", 1, true) ~= nil
         if core and v and v ~= core and not retired then bad[#bad + 1] = string.format("%s is %s", rec.name, v) end
         if rec.loadable == false and rec.reason ~= "DISABLED" then
@@ -1059,6 +1059,7 @@ check("strings", {
 -- What the run may touch, to put back afterwards.
 local function snapshot()
   local UI, J = ns.UI, ns.Journey
+  UI.RememberProgress()   -- capture the current segment before the run stops any live narration
   local ch = charRecord()
   local win = _G.SettingsPanel or _G.InterfaceOptionsFrame
   local suggested = {}   -- the suggested questions under the chat (UI.SetNext)
@@ -1077,6 +1078,8 @@ local function snapshot()
     journey = J.IsShown(), msgs = list(UI.msgs), blocks = list(UI.blocks), welcomeFor = UI.welcomeFor,
     nav = { keys = list(UI.nav.keys), pos = UI.nav.pos }, lastKey = UI.engine.lastKey, race = UI.engine.race,
     pl = { items = list(UI.pl.items), pos = UI.pl.pos, state = UI.pl.state },
+    miniClosed = UI.miniClosed, progress = copy(UI.progress), playback = copy(LoreForeverDB.playback),
+    activeTarget = UI.activeTarget, resumeTarget = UI.resumeTarget, stoppedTarget = UI.stoppedTarget,
     options = win and win:IsShown() or false,
   }
 end
@@ -1162,6 +1165,11 @@ local function putBack()
     if type(LoreForeverDB.heard) == "table" then LoreForeverDB.heard[(J.CharKey())] = copy(st.heard) end
   end
   LoreForeverDB.usage = copy(st.usage)   -- the run's plays and opens aren't the player's (LOR-413)
+  -- StopAll remembers the test narration too. Discard that state only after the last UI/setting changes,
+  -- keeping the player's original resume target and closed state without starting a sound.
+  UI.progress, LoreForeverDB.playback = copy(st.progress), copy(st.playback)
+  UI.activeTarget, UI.resumeTarget, UI.stoppedTarget = st.activeTarget, st.resumeTarget, st.stoppedTarget
+  UI.miniClosed = st.miniClosed
   UI.UpdateListen()
   return changed
 end

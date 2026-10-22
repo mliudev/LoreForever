@@ -589,6 +589,8 @@ local function init(lang)
   -- Voice packs match recordings to the text by clipHash: the pack's hashes (for recordings in this language) replace
   -- the English ones, and Voice only picks packs in the reading language. Voice.Init runs after this. The answers
   -- packs' hashes (answerHash, LOR-227) too.
+  -- The English ones stay as db.englishClipHash, for "Let English narration fill in" (Voice.lua, voiceFillLanguage).
+  db.englishClipHash = db.englishClipHash or db.clipHash
   db.clipHash = (tw and tw.clipHash) or {}
   db.answerHash = (tw and tw.answerHash) or {}
   -- Complete stories have their own hash. Only translations that actually merged may validate a recording;

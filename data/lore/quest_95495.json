@@ -24,7 +24,7 @@
     "where start quest",
     "vrang delivery"
    ],
-   "answer": "A trader named Vrang arranges this task, asking a passing traveler to deliver a bundle of prepared hides to a business partner perched on the ridge above.",
+   "answer": "A trader named Vrang arranges this task, asking a passing traveler to deliver a bundle of raw hides to a business partner perched on the ridge above.",
    "q": "Who sends you on this delivery?"
   },
   {
@@ -80,7 +80,6 @@
   "vrang"
  ],
  "related": [
-  "item:bundle-of-hides",
   "subzone:dry-hills",
   "zone:barrens"
  ],
@@ -91,12 +90,12 @@
    "title": "A Ridge in the Barrens"
   },
   {
-   "body": "Before sending travelers on their way, Vrang takes care to offer a pointed warning regarding the solitary craftsman. The hermit possesses an alarming and unusual appearance that might startle unsuspecting visitors, though Vrang insists the reclusive tanner poses no danger to guests. Upon receiving the leather goods at his ridge property, the hermit welcomes the courier warmly, though he laments that Vrang was unable to make the ascent, as there remains a matter he hoped to discuss with the trader in person.",
+   "body": "Before sending travelers on their way, Vrang takes care to offer a pointed warning regarding the solitary craftsman. The hermit possesses an alarming and unusual appearance that might startle unsuspecting visitors, though Vrang insists the reclusive tanner poses no danger to guests. Upon receiving the raw hides at his ridge property, the hermit welcomes the courier warmly, though he laments that Vrang was unable to make the ascent, as there remains a matter he hoped to discuss with the trader in person.",
    "spoiler": 0,
    "title": "An Unconventional Craftsman"
   }
  ],
- "summary": "The Hermit Tanner is a local delivery quest in the Barrens where adventurers carry a bundle of cured hides to a reclusive craftsman living atop a ridge overlooking the Dry Hills. The task highlights the remote working partnerships of the savanna and introduces an isolated, striking hermit who maintains regular trade despite his seclusion.",
+ "summary": "The Hermit Tanner is a local delivery quest in the Barrens where adventurers carry a bundle of raw hides to a reclusive craftsman living atop a ridge overlooking the Dry Hills. The task highlights the remote working partnerships of the savanna and introduces an isolated, striking hermit who maintains regular trade despite his seclusion.",
  "attribution": [
   "In-game quest text: The Hermit Tanner"
  ]
