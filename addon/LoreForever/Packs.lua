@@ -57,8 +57,9 @@ local function plain(s) return (tostring(s or ""):gsub("|c%x%x%x%x%x%x%x%x", "")
 -- version into every pack they ship, so an installed copy at or below it is the withdrawn recording, and a re-recorded
 -- edition (released later, so a higher version) plays again with no change here. Such a pack shows as paused in the
 -- voices list and never loads, so its language shows text. The Brazilian Portuguese narrators: the "male" voice was a
--- woman, and both had a European accent. pipeline/tests/test_release_packs.py keeps each entry at or above the
--- folder's .toc version while the pack is out of the release.
+-- woman, and both had a European accent; both are back with new native recordings (male 10/19, female 10/21), so their
+-- entries stay at the last version that carried the old ones. pipeline/tests/test_release_packs.py keeps each entry at
+-- or above the folder's .toc version while the pack is out of the release, and below it once it is back in.
 Packs.WITHDRAWN = {
   LoreForever_Voice_Default_ptBR = "0.18.0",
   LoreForever_Voice_Female_ptBR = "0.18.0",

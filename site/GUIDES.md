@@ -1,83 +1,136 @@
-# Guides and lore articles: /guides (LOR-414)
+# Guides and site contributions (LOR-414, LOR-714)
 
-Patrick's articles (lore stories and how-to guides) live on the site at **`/guides/<slug>`**, listed at **`/guides`**
-and in **`/guides/sitemap.xml`** (named in `public/robots.txt`). Each one is written in Markdown; the site does the
-rest: the page in the site's style, a date and kind line, Article structured data, FAQ structured data for search and
-AI answers, links to the other guides, and the "Get Lore Forever" call to action (`CTA` in `lib/guides.js`: one place
-to point it at Willo later).
+## Patrick: write articles on the site
 
-## The editor: loreforeverwow.com/guides/edit
+Open **https://loreforeverwow.com/guides/edit** and sign in with your existing
+editor account. No repository change or deployment is needed for an article.
 
-The easy way, and the main one. Sign in on the site with an editor's account (the emails in the Pages variable
-`GUIDE_EDITORS`, comma-separated: Patrick's and Mike's), then:
+1. Choose **New article**, or open an existing title. Write on the left and preview
+   the actual article layout on the right. Add picture, drop, and paste all work.
+2. Leave **Status: Draft** while writing. Save keeps it private to signed-in editors.
+   Its site link also requires an editor account; it is absent from Guides and search.
+3. Choose **Published** and save when you intentionally want the article public.
+   Existing editorial publishing permission is unchanged; nothing publishes a draft
+   automatically. Publishing from the editor takes effect without a site release.
+4. Earlier versions lists saved copies. Load one, check it, then Save to restore it.
+   Delete hides an article and retains its history.
 
-- **All articles** are listed, drafts too. **New article** starts one; click a title to edit it.
-- **Edit** on the left, the **preview** on the right: the article exactly as the site shows it, updated as you type.
-  The toolbar adds headings, bold, italic, links, lists, quotes and a FAQ section.
-- **Pictures:** Add picture, or drop or paste one into the text. It's shrunk to 1600px wide, uploaded, and put in as
-  `![what it shows](/guides/img/... "caption")`. On a line of its own it's a full-width picture with the caption under
-  it; the first picture is also the article's picture when it's shared.
-- **Status:** Draft (opens only from its link, kept out of the list and search) or Published. **Save** makes it live
-  at once, no deploy. **Open on the site** shows the real page.
-- **Earlier versions:** every save is kept; Load one and Save to bring it back. **Delete** hides the article (its
-  versions stay).
+The existing `GUIDE_EDITORS` site setting is the narrow editorial allowlist. It uses
+site sign-in and gives access to Guides only. It does not grant dashboard owner
+access, player/billing/security admin writes, deployment rights, or keys. Patrick's
+separate private dashboard membership remains **viewer**. Do not change it to owner.
 
-Under the hood (`lib/guides-cms.js`): articles are rows in D1 (`guides`, every save also in `guide_revisions`),
-pictures are in R2 (STUDIO, `guides/img/`) and served at `/guides/img/<name>`. An editor row replaces the file
-article with the same address, so the files below open in the editor too and move to it on their first save.
+Draft pages return a private, non-cached response only to editors. Raw Markdown and
+the file index are bundled into the Worker from outside the public assets directory;
+the old `/guides/articles/` paths are unavailable over HTTP, including encoded aliases;
+editors read articles through the authenticated editor API. Uploaded pictures have
+random public URLs, including before an article is published: do not upload private
+material. Existing public article and picture URLs continue working.
 
-## Add an article as a file (GitHub)
+Articles are D1 rows (`guides` and `guide_revisions`); pictures use the existing R2
+`guides/img/` prefix. An editor copy overrides a Git file with the same slug, so edit
+it in the editor after its first save. Deletion keeps that file hidden as well.
 
-Still works, for articles written in git. Once an article has been saved in the editor, the editor's copy wins, so
-edit it there from then on.
+## Patrick: change layout through a PR
 
-1. Put the file in `site/public/guides/articles/<slug>.md`. The slug is the address: lowercase words joined by dashes
-   (`who-was-edwin-vancleef.md` → loreforeverwow.com/guides/who-was-edwin-vancleef).
-2. Start it with this header, then write the article in Markdown:
+Use a fork branch and open a PR to `mliudev/lore-forever:main`. Include what changed,
+which pages to inspect, and screenshots when useful. Keep article writing in the
+editor. The existing Guides navigation is already live; no further navigation work
+is needed for this issue.
 
-   ```markdown
-   ---
-   title: Who was Edwin VanCleef?
-   description: The stonemason Stormwind refused to pay, and how he built the Defias Brotherhood. (Under 170 characters.)
-   date: 2026-10-12
-   kind: lore
-   draft: true
-   ---
-   Edwin VanCleef was ...
+The **Site preview** check runs site tests and builds a Pages bundle on a disposable
+GitHub-hosted runner with a read-only token, no stored checkout credentials, and no
+production secrets. Download its `site-preview-pr-<number>-<head SHA>` artifact. It
+contains `public/` (including the compiled Worker), `commit.txt` (the tested merge
+commit), and `README.txt`. Neither this check nor the older `guides-publish.sh`
+compatibility command merges or publishes anything.
 
-   ## The Stonemasons' Guild
-   ...
+The preview is for public page/layout review. It has no live article database,
+accounts, payments, uploads, or private player data. It cannot fully test signed-in
+flows. Mike may test those on shared develop **after reviewing the code**.
 
-   ## FAQ
-   ### Is VanCleef in WoW Forever?
-   Yes: he waits at the end of the Deadmines.
-   ```
+A merged PR is **merged**, not **live**. `main` goes to a shared Pages preview;
+`site-live` controls the public site. Mike reviews the code and preview, then promotes
+an exact reviewed commit. Ask for the live URL/status in the PR rather than assuming
+a merge means the website changed.
 
-   - `kind`: `lore` (stories, places, people) or `tutorial` (how to play, how to use Lore Forever).
-   - `draft: true` keeps it out of search, the list and the sitemap; it's still readable at its address. Remove the
-     line (or `draft: false`) to publish. Patrick decides which (see "Publishing" below).
-   - Optional: `author:` (a byline; leave it out for "Lore Forever") and `updated:` (a date).
-   - Markdown: `##` and `###` headings, paragraphs, `- ` and `1. ` lists, `> ` quotes, `**bold**`, `*italic*` and
-     `[links](https://...)`. Link to our own pages with `/lore/...` and `/downloads`. Pictures aren't supported yet.
-   - **FAQ:** a `## FAQ` (or `## Questions`) section whose questions are `###` headings, each followed by its answer.
-     They become the page's FAQ structured data.
-3. Run `node scripts/guides-index.mjs`. It updates `index.json` and lists anything missing from the header.
-4. Open a PR (a regular one, not a draft PR). It publishes itself; see below.
+## Contribution access (configured October 21, 2026)
 
-## Publishing
+Patrick's existing site editor and dashboard viewer membership are unchanged. The
+personal GitHub repository cannot grant a read-only collaborator role, so his
+membership remains write. Use a fork and the normal PR review process for code.
+At Mike's October 21 direction, GitHub has no mandatory approval/check gate or
+branch creation/update lock. Deletion and force-push protections remain. Code
+review and exact-commit promotion are the team's working process, not an enforced
+read-only contributor boundary.
 
-Patrick has the say on publish vs draft, and a guides PR goes live by itself: when a PR changes only files in
-`site/public/guides/articles/`, the **Guides publish** check (`.github/workflows/guides-publish.yml`, which runs
-`scripts/guides-publish.sh`) runs the guides test, merges the PR, puts it on loreforeverwow.com and comments each
-article's address. It's live about three minutes later. Nobody else needs to review or merge it.
+Ordinary private-fork workflows stay disabled: a fork must not be able to request
+an owner Mac or production credentials. The **Site preview** workflow instead
+runs from the trusted base definition (`pull_request_target`) on a disposable
+GitHub-hosted runner with read-only permissions. Only the code being tested comes
+from the PR. It receives no production secrets or data. Do not enable ordinary
+fork workflows or send fork write tokens/secrets.
 
-- **Publish a draft:** a PR that removes its `draft: true` line (and the rebuilt `index.json`).
-- **Back to draft:** a PR that puts `draft: true` back. **Take one down:** a PR that deletes the file.
-- **If the check fails** (a stale `index.json`, a header missing something), its comment says what. Fix it and push to
-  the same PR; it runs again.
-- A PR that also changes anything outside the articles folder merges the usual way (`scripts/merge-pr.sh`).
-- When the site has other changes waiting to go out (held for a release), the PR still merges, and the comment says it
-  goes live with the next site update.
+Current manual workflows also check the original and rerun actor against the
+owner. GitHub still reports Patrick's membership as write; historical workflows
+can retain their old dispatch/rerun behavior. The isolated fork-preview path
+provides no deployment credentials, but it does not revoke an existing GitHub
+collaborator's write permissions. The separate dashboard role remains viewer.
 
-The lore rules apply as everywhere else: follow WoW Forever (post-Warcraft III, before The Burning Crusade), no
-spoilers past what the article is about, nothing from later expansions, and no "AI" wording in the copy.
+The isolated **Direct Upload** Pages project is
+`lore-forever-contributor-preview`, production branch `preview-only`. Both
+environments have no custom variables, secrets, databases, storage, service bindings,
+custom domains or Git integration. They use compatibility date `2026-10-01` and
+`nodejs_compat`. Keep it empty of service bindings. The existing live project's
+branch filters and production credentials remain unchanged. The isolated project
+intentionally cannot sign in; use it for public layout and code previews.
+
+## Mike: review and publish
+
+Use a trusted checkout of the helper scripts, never scripts or config taken from the
+unreviewed artifact. Download the artifact for the exact PR head shown in GitHub,
+check its run/head and `commit.txt`, then extract to an empty directory. With your
+local Cloudflare credentials in the environment (never in GitHub or the artifact):
+
+```bash
+# Read-only readiness check; refuses an unsafe/missing target project.
+node scripts/deploy-site-preview.mjs --check-only --pr 123
+# Deploys this bundle only to the isolated preview project, on pr-<number>.
+node scripts/deploy-site-preview.mjs --pr 123 /absolute/path/to/extracted-artifact
+```
+
+The helper checks both target environments and deploys with bundling disabled from
+an empty working directory. It never runs article/code tests with your credentials.
+Open the returned preview URL, review the diff, and approve the exact head before
+merging. Run the normal merge gate only after review; it executes repository code
+on an owner machine. Unreviewed contributor code must not run on those machines.
+The Mac workflow's trusted base definition admits only owner-authored, owner-triggered
+PR checks; contributor checks run in the hosted preview job. Owner dispatch is for
+reviewed code only. Keep the repository rules and private-fork workflow settings above.
+
+For a site-only publication, inspect everything between the current `site-live`
+and the chosen merge commit; this also publishes any earlier merged site changes.
+After checking that exact commit's preview, promote that commit (not a moving main):
+
+```bash
+git fetch origin
+reviewed=<full-reviewed-merge-commit-SHA>
+git merge-base --is-ancestor origin/site-live "$reviewed"
+git push origin "$reviewed:refs/heads/site-live"
+```
+
+Do not force-push past a failed ancestor check. Confirm the matching Cloudflare
+Production deployment succeeded and check the public page before calling it live.
+A full add-on release still follows the existing release workflow.
+
+## Optional Git-authored articles
+
+Existing Markdown sources remain supported at `site/content/guides/articles/<slug>.md`.
+Use lowercase dash-separated slugs and frontmatter: `title`, `description` (under 170
+characters), `date` (YYYY-MM-DD), `kind` (`lore` or `tutorial`), and `draft: true` while
+writing. Optional fields: `author` and `updated`. Run `node scripts/guides-index.mjs`
+and commit the updated `index.json` and `site/lib/guide-files.js` bundle. Git-authored articles follow reviewed code PRs;
+they no longer merge or publish automatically. After an editor save, the D1 copy wins.
+
+The lore rules still apply: WoW Forever after Warcraft III and before The Burning
+Crusade, no later-expansion spoilers, and no AI wording in player-facing copy.

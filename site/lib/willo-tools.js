@@ -64,10 +64,10 @@ export const ACTIONS = {
   // What Willo keeps (LOR-666, lib/willo-keeps.js): only from the app that has it (KEEPS_FROM), in her window.
   open_keeps: { side: "willo", confirm: "tap", topics: ["privacy"],
     what: "opens What Willo keeps in the browser, signed in (/api/account/open): everything she keeps, to change or erase" },
-  // "Willo, send this to Mike" (LOR-674): offered only by the site's own fixed answer to a send (lib/friend-send.js),
-  // never to the answer model (no topics). Undo takes the message back while the friend hasn't read it.
-  send_to_friend: { side: "willo", confirm: "yes", undo: true, topics: [],
-    what: "sends a friend a place, item, quest, character or story as a message (/api/friends/send, a card)" },
+  // Offered only by the fixed screenshot answer (lib/friend-send.js), never to the model. This prepares a preview;
+  // the desktop asks for Send only after capture succeeds and the actual image is visible.
+  capture_game_to_friend: { side: "willo", confirm: "preview", undo: false, topics: [],
+    what: "prepares a local game screenshot for a named friend; the player reviews it and chooses Send before upload" },
   send_feedback: { side: "willo", confirm: "send", topics: ["problems"],
     what: `fills in "Something's wrong" with a note; the player presses Send` },
   set_voice: { side: "willo", confirm: "yes", undo: true, topics: ["voice"],

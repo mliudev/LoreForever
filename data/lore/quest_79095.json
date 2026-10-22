@@ -13,8 +13,8 @@
  },
  "angles": [
   {
-   "target": "faction:Alliance",
-   "text": "Alliance scholars and adventurers assist the Ironforge Library by recovering rare treatises to bolster the Grand Library's arcane repositories."
+   "target": "faction:Horde",
+   "text": "Horde scholars and adventurers assist Owen Thadd in Undercity by recovering rare treatises to bolster the library's arcane repositories."
   },
   {
    "target": "class:Mage",
@@ -37,7 +37,7 @@
     "where do i turn in the primer",
     "who takes the primer"
    ],
-   "answer": "The volume is brought to a scholar curating a library collection, who seeks out magical works and arcane treatises to preserve knowledge for researchers and spellcasters.",
+   "answer": "The volume is brought to Owen Thadd in Undercity, who seeks out magical works and arcane treatises to preserve knowledge for researchers and spellcasters.",
    "q": "Who wants this primer delivered to them?"
   },
   {
@@ -80,14 +80,14 @@
  "keywords": [
   "alchemy",
   "apothecary",
-  "ironforge",
+  "undercity",
   "library",
   "magical works",
   "metaphysical primer",
   "tome"
  ],
  "related": [
-  "subzone:library-ironforge"
+  "zone:undercity"
  ],
  "sections": [
   {
@@ -96,7 +96,7 @@
    "title": "A Scholar's Acquisition"
   },
   {
-   "body": "Preserving specialized treatises is essential for institutions like the Grand Library of Ironforge. By turning over rare primers on arcane and alchemical theory, explorers help ensure that rare metaphysical insights are safely archived and accessible to researchers rather than lost to the wilderness.",
+   "body": "Preserving specialized treatises is essential for libraries such as Owen Thadd's collection in Undercity. By turning over rare primers on arcane and alchemical theory, explorers help ensure that rare metaphysical insights are safely archived and accessible to researchers rather than lost to the wilderness.",
    "spoiler": 0,
    "title": "Expanding the Archives"
   }

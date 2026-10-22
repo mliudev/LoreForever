@@ -5,7 +5,8 @@
 //   SELECT day, n FROM willo_clicks ORDER BY day DESC
 // and fills the page's call to action from lib/willo.js: Willo's own download once a release has Willo-Setup.exe,
 // else word that Willo is coming. Link-preview bots get the page but aren't counted. ?shared=<code> (a Share Willo
-// link, functions/w/[code].js) adds who sent them above the download (lib/referrals.js shareBanner).
+// link, functions/w/[code].js) adds who sent them above the download (lib/referrals.js shareBanner). The plans line
+// says what Hero leads with, as its card on /plans does (lib/billing.js planFeatures), so the two never differ.
 
 import { loadSizes } from "../lib/packs.js";
 import { willoGet, willoPreview } from "../lib/willo.js";
@@ -13,11 +14,13 @@ import { codeOwner, shareBanner } from "../lib/referrals.js";
 import { escape } from "../lib/voices.js";
 import { currentUser } from "../lib/accounts.js";
 import { friendOffer } from "../lib/friends.js";
+import { plansLine } from "../lib/billing.js";
 
 const SETUP = "CREATE TABLE IF NOT EXISTS willo_clicks (day TEXT PRIMARY KEY, n INTEGER NOT NULL)";
 const BOTS = /bot|crawler|spider|preview|facebookexternalhit|embedly|whatsapp|telegram|slack/i;
 const GET = /<!-- willo-get -->[\s\S]*?<!-- \/willo-get -->/;
 const SHARED = /<!-- willo-shared:[^>]*-->/;
+const PLANS_LINE = /<!-- willo-plans -->[\s\S]*?<!-- \/willo-plans -->/;
 
 export async function onRequestGet({ request, env, waitUntil, next }) {
   // Counting runs after the response, so it never holds up or breaks the page.
@@ -36,7 +39,8 @@ export async function onRequestGet({ request, env, waitUntil, next }) {
   headers.delete("Content-Length");
   headers.delete("ETag");
   return new Response(html.replace(GET, () => willoGet(sizes, preview))
-    .replace(SHARED, () => shareBanner(owner, escape) + offer), { status: page.status, headers });
+    .replace(SHARED, () => shareBanner(owner, escape) + offer)
+    .replace(PLANS_LINE, () => escape(plansLine(env))), { status: page.status, headers });
 }
 
 async function count(db) {

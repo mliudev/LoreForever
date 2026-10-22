@@ -22,12 +22,14 @@ import { setupPlanUsage, PLAN_USAGE_USER_DATA } from "./plan-usage.js";
 import { forgetKeeps } from "./willo-keeps.js";
 import { cancelPlan } from "./billing.js";
 import { setupWilloCustom } from "./willo-custom.js";
-import { FRIENDS_SETUP, FRIENDS_USER_DATA, FRIENDS_COLUMNS } from "./friends.js";
+import { setupWilloMemories } from "./willo-memories.js";
+import { FRIENDS_SETUP, FRIENDS_USER_DATA, FRIENDS_COLUMNS, forgetFriendImages } from "./friends.js";
 import { setupReferrals, REFERRAL_USER_DATA } from "./referrals.js";
 import { setupSources, SOURCES_USER_DATA } from "./sources.js";
 import { setupCancellations, CANCELLATIONS_USER_DATA } from "./cancellations.js";
 import { EMAIL_SETUP, EMAIL_USER_DATA } from "./email.js";
 import { NOTEBOOK_SETUP, NOTEBOOK_USER_DATA } from "./willo-notebook.js";
+import { STOCK_SETUP, STOCK_USER_DATA } from "./willo-stock.js";
 
 const SETUP = [
   ...HISTORY_BASE_SETUP,
@@ -41,6 +43,8 @@ const SETUP = [
   ...EMAIL_SETUP,
   // Willo's notebook: each account's pages of notes and to-dos, a character's and the account's (lib/willo-notebook.js).
   ...NOTEBOOK_SETUP,
+  // What the add-on last saved of each character (gold, level, skills), for Willo's goals off the PC (lib/willo-stock.js).
+  ...STOCK_SETUP,
   // last_seen: the last UTC day it was signed in (lib/activity.js); setup adds it to a table from before.
   `CREATE TABLE IF NOT EXISTS users (
     id TEXT PRIMARY KEY, email TEXT UNIQUE, google_sub TEXT UNIQUE, display_name TEXT, links TEXT,
@@ -360,7 +364,7 @@ export async function endSession(env, request) {
 
 // The Terms (public/terms.html) a sign-in agrees to: its "Updated" date. Change both together when the terms change, so
 // the next sign-in records the new version. Every sign-in page says "By signing in, you agree to the Terms and Privacy".
-export const TERMS_VERSION = "2026-10-18";
+export const TERMS_VERSION = "2026-10-21";
 
 // Records that this account agreed to TERMS_VERSION, once per version (the first sign-in that showed it). Never stops a
 // sign-in: a failure only leaves the record out.
@@ -454,6 +458,8 @@ const USER_DATA = [
   ["UPDATE best_first SET user_id = NULL WHERE user_id = ?", u => u.id],
   // How they had Willo talk to them, and their tales (lib/willo-custom.js).
   ["DELETE FROM custom_prompts WHERE user_id = ?", u => u.id],
+  // What they told Willo about themselves (lib/willo-memories.js).
+  ["DELETE FROM willo_memories WHERE user_id = ?", u => u.id],
   // Their friends, requests, messages either way, shared whereabouts and reports either way (lib/friends.js).
   ...FRIENDS_USER_DATA,
   // Their share link, and the friends they brought or were brought by, kept without the account (lib/referrals.js).
@@ -464,6 +470,8 @@ const USER_DATA = [
   ...EMAIL_USER_DATA,
   // Their notebook, every page (lib/willo-notebook.js).
   ...NOTEBOOK_USER_DATA,
+  // What their game last saved of each character, kept for their goals (lib/willo-stock.js).
+  ...STOCK_USER_DATA,
   ["DELETE FROM apple_logins WHERE user_id = ?", u => u.id],
   ["DELETE FROM users WHERE id = ?", u => u.id],
 ];
@@ -477,6 +485,7 @@ export async function deleteUser(env, user) {
   // Their uploaded recordings (R2 keys studio/<user id>/...), pictures (pictures/<user id>/...) and their story's
   // recordings (story-voice/<user id>/..., lib/storyvoice.js) go first, so no file outlives its row.
   if (env.STUDIO) {
+    await forgetFriendImages(env, user.id);
     for (const prefix of [`studio/${user.id}/`, `pictures/${user.id}/`, `story-voice/${user.id}/`]) {
       let cursor;
       do {
@@ -497,9 +506,10 @@ export async function deleteUser(env, user) {
   await forgetAnswerLog(env, user.id);
   // What the page "What Willo keeps" changed, for the account's apps (lib/willo-keeps.js).
   await forgetKeeps(env, user.id);
-  // lib/willo-custom.js and lib/referrals.js make their tables the first time they're used: make sure they're there
+  // lib/willo-custom.js, lib/willo-memories.js and lib/referrals.js make their tables the first time they're used: make sure they're there
   // for the batch.
   await setupWilloCustom(env);
+  await setupWilloMemories(env);
   await setupReferrals(env);
   await setupSources(env);
   await setupCancellations(env);

@@ -38,7 +38,7 @@ P.transport["subzone:andorhal"] = {
   fullHash = "8731d3",
   text = "Andorhal. Once the thriving agricultural heart of northern Lordaeron, Andorhal became ground zero for the Kingdom's destruction during the Third War. It was here that Kel'Thuzad tainted the grain with the Plague of Undeath, unleashing horror across the region. Today, the ruined town is held firmly in the iron grip of the Scourge. Before the Third War, Andorhal was the prosperous granary of the Eastweald, gathering grain from across Lordaeron and distributing it eastward to Hearthglen and Stratholme. Because of this vast distribution network, Kel'Thuzad and the Cult of the Damned chose Andorhal as the staging ground for their horrific plot. By tainting the grain crates with the Plague of Undeath, the cult turned the breadbasket of the kingdom into an engine of necrosis, infecting countless citizens before the Crown even understood the threat. Prince Arthas Menethil and Jaina Proudmoore initially confronted and slew Kel'Thuzad here, but the necromancer's death was not the end. When Arthas returned from Northrend as a champion of the Scourge, he marched back to Andorhal to reclaim Kel'Thuzad's remains. Uther the Lightbringer and the remnants of the Silver Hand made a desperate last stand in defense of King Terenas's ashes. The paladins were overwhelmed, Uther was slain by his former pupil, and the grand settlement was reduced to a blight-choked Scourge stronghold.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_andorhal-2c8aaf9a500d187c0161/1-0000.mp3", duration = 79.5689796, start = 0},
+    {file = "Audio/Transport/full_subzone_andorhal-05ca1ba30a02f387a233/1-0000.mp3", duration = 79.9346939, start = 0},
   },
 }
 P.transport["subzone:ariden-s-camp"] = {
@@ -542,7 +542,7 @@ P.transport["subzone:dandred-s-fold"] = {
   fullHash = "84f78b",
   text = "Dandred's Fold. Dandred's Fold is a secluded farmstead and manor tucked along the misty northwestern shores of Lordamere Lake in the Alterac Mountains. Now overrun by the Syndicate, it serves as a secure hideout for Lord Aliden Perenolde and his co-conspirators. Both the Horde and the Alliance keep a watchful eye on this lakefront retreat for very different reasons. Perched on the western edge of the Uplands with private access to the waters of Lordamere Lake, Dandred's Fold was once a tranquil country estate, likely owned by an Alteraci noble named Dandred. In the aftermath of the kingdom's fall, the estate transformed into a fortified enclave for the Syndicate. Syndicate assassins and enforcers now patrol its fences and docks, shielding the fallen nobility from the eyes of Southshore authorities and the Forsaken across the lake.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_dandred-s-fold-ce45ba094669879e576d/1-0000.mp3", duration = 46.0016327, start = 0},
+    {file = "Audio/Transport/full_subzone_dandred-s-fold-95fdd18c4fc97855356c/1-0000.mp3", duration = 46.2889796, start = 0},
   },
 }
 P.transport["subzone:dark-portal"] = {
@@ -694,7 +694,7 @@ P.transport["subzone:dream-bough"] = {
   fullHash = "dbae5b",
   text = "Dream Bough. Dream Bough is a colossal Great Tree nestled on an island in the center of Jademir Lake in northern Feralas. The ancient tree shelters a mysterious gateway connecting Azeroth directly to the Emerald Dream. Green dragons loyally watch over the sanctuary, keeping unwanted intruders away from its verdant boughs. Rising high above the canopy of northern Feralas, the Dream Bough stands as the largest tree in the region. Situated in the tranquil waters of Jademir Lake, the towering sentinel houses a natural portal carved into its trunk, providing a direct threshold into the untamed Emerald Dream. Because of its connection to the Emerald Dream, the tree is under the vigilant protection of the Green Dragonflight. Dragonkin and drakes patrol the banks of Jademir Lake and the approaches to the great trunk. While primarily a place of contemplation and slumber for druids wandering between realms, travelers should approach with care, as the green dragons tolerate few uninvited visitors near such an important threshold.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_dream-bough-6c4f94dc803f069cd78c/1-0000.mp3", duration = 59.3763265, start = 0},
+    {file = "Audio/Transport/full_subzone_dream-bough-5cbdf61c221d9cc8fa09/1-0000.mp3", duration = 59.0628571, start = 0},
   },
 }
 P.transport["subzone:drowned-reef"] = {
@@ -1206,7 +1206,7 @@ P.transport["subzone:hidden-grove"] = {
   fullHash = "56a68e",
   text = "Hidden Grove. Tucked away behind towering cliffs in northeastern Winterspring, the Hidden Grove is a secluded crater basin. Once an untroubled haven for Arctic hares, the basin has fallen under the domain of fiercely territorial wild moonkin. Walled off from the bitter howling winds of Winterspring, the Hidden Grove forms a sunken, snow-dusted forest crater that is nearly impossible to access from the outside cliffs. Travelers who discover its concealed rim must brave a sheer, dangerous drop or navigate a narrow cavern passage tucked into the southeastern ridge. Though the valley was long the undisturbed home of harmless white hares, aggressive wild moonkin have seized the glade, turning an isolated natural paradise into an ambush for unwary wanderers.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_hidden-grove-4952f14a9bc64cb65064/1-0000.mp3", duration = 43.6506122, start = 0},
+    {file = "Audio/Transport/full_subzone_hidden-grove-11b5801b48c9f2ab11c9/1-0000.mp3", duration = 43.6767347, start = 0},
   },
 }
 P.transport["subzone:high-wilderness"] = {
@@ -1662,7 +1662,7 @@ P.transport["subzone:misty-valley"] = {
   fullHash = "3a4521",
   text = "Misty Valley. Tucked away in the northwestern reaches of the Swamp of Sorrows, the Misty Valley is a shadowed, fog-drenched hollow north of the pass into Deadwind. The secluded basin is overrun by primordial swamp beasts, wandering swampwalkers, and tangled horrors. Deep in its rearmost cave dwells the colossal and terrifying Mire Lord. Nestled beneath the high cliffs separating the Swamp of Sorrows from Deadwind Pass, the Misty Valley is perpetually choked with thick marsh vapor. Unlike the open wetlands to the east, this isolated pocket is dense with colossal marsh elementals, including looming swampwalkers, ancient swampwalker elders, and creeping tangled horrors. At the far end of the misty gorge lies a cavern that serves as the lair of the Mire Lord, one of the most formidable natural threats haunting the bog.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_misty-valley-669d5a8a4ac3047998e7/1-0000.mp3", duration = 47.6995918, start = 0},
+    {file = "Audio/Transport/full_subzone_misty-valley-c8ae8597bbe8e1618633/1-0000.mp3", duration = 48.1436735, start = 0},
   },
 }
 P.transport["subzone:mizjah-ruins"] = {
@@ -1902,7 +1902,7 @@ P.transport["subzone:plaguewood"] = {
   fullHash = "f05234",
   text = "Plaguewood. Once a peaceful woodland known as Greenwood, the Plaguewood is now a blighted, fungus-choked expanse stretching south of Stratholme. Crawling with Scourge infrastructure and patrolling Scarlet Crusaders, it stands as one of the most corrupt corners of the Eastern Plaguelands. Before the Third War, this region was Greenwood, a vibrant forest that mirrored the lush woods of Elwynn. A modest village sat near its entrance, and its roads were traveled by farmers and soldiers alike. All of that collapsed when tainted grain arrived from Andorhal. Today, spongy, corrupted soil has taken the place of rich earth, and titanic mushrooms dwarf the dead trees, constantly spewing noxious brown vapors across the woodland floor. Now completely claimed by the Scourge, the Plaguewood serves as a grim staging ground for the undead surrounding Stratholme. Ziggurats and slaughterhouses dot the decayed landscape, churning out abominations and cultists. To make matters worse for travelers, fanatic Scarlet Crusaders relentlessly patrol the road toward Stratholme's gates, eager to purge the Scourge and brutally slaughter any living wanderers they encounter.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_plaguewood-f7c3265137f6a6fcfadc/1-0000.mp3", duration = 67.8138776, start = 0},
+    {file = "Audio/Transport/full_subzone_plaguewood-b57bb888a9b79ff3af1a/1-0000.mp3", duration = 67.6832653, start = 0},
   },
 }
 P.transport["subzone:plaguewood-tower"] = {

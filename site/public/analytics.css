@@ -1,0 +1,11 @@
+.lf-analytics-panel{font-family:system-ui,sans-serif;font-size:15px;line-height:1.5;color:#f6f2e9;background:#182326;border:1px solid #c7b581;border-radius:8px;box-shadow:0 4px 24px #0006;z-index:10000;position:fixed;bottom:1rem;right:1rem;width:min(35rem,calc(100vw - 2rem));max-height:75vh;overflow:auto;padding:1.25rem}
+.lf-analytics-panel[hidden]{display:none}
+.lf-analytics-panel h2{font:700 1.2rem/1.3 system-ui,sans-serif;margin:0 0 .7rem;color:inherit}
+.lf-analytics-panel p{margin:.7rem 0}
+.lf-analytics-panel a{color:#efe0aa;text-decoration:underline}
+.lf-analytics-actions{display:flex;flex-wrap:wrap;gap:.75rem}
+.lf-analytics-actions button,.lf-analytics-manage{cursor:pointer;padding:.65rem 1rem;min-height:44px}
+.lf-analytics-actions button{flex:1;border:1px solid #c7b581;border-radius:5px;background:#f0e6ca;color:#182326;font:600 15px/1.4 system-ui,sans-serif}
+.lf-analytics-manage{display:block;margin:.75rem auto 0;border:0;background:none;color:inherit;font:inherit;text-decoration:underline;text-underline-offset:.2em}
+.lf-analytics-panel button:focus-visible,.lf-analytics-panel a:focus-visible,.lf-analytics-manage:focus-visible{outline:3px solid #90d6ff;outline-offset:3px}
+.lf-analytics-status:empty{display:none}

@@ -2,6 +2,13 @@
 -- Sources: data/i18n/itIT. Lore text adapted from warcraft.wiki.gg (CC BY-SA 4.0); the core add-on's src fields name the articles.
 local P = LoreForeverPacks.Begin("LoreForever_Lang_itIT")
 local Po = P.search.post
+Po["zarghmeats"] = "Ba+CBa/DBbABBbBBBbCBBbDDF2YBF3NC"
+Po["zarghmotivation"] = "F3gC"
+Po["zarghmotive"] = "F2aC"
+Po["zarghmotives"] = "DN6C"
+Po["zarghneed"] = "F2bC"
+Po["zarghnpc"] = "DN0C"
+Po["zarghquest"] = "DN6C"
 Po["zarghrelationship"] = "DN1C"
 Po["zarghsell"] = "DN3C"
 Po["zarghsend"] = "F3gC"

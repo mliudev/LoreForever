@@ -9,7 +9,7 @@
 // Companion.lua). Plans come from lib/billing.js, so they can't drift. No prices: they change, and "no prices in the
 // wisp" (talk/talker.py LOCKED_LINE); the Plans page has them.
 import { COMPANION_NAME as NAME } from "./brand.js";
-import { PLANS, PAID, planFeatures, VOICE_NOTE } from "./billing.js";
+import { PLANS, PAID, planFeatures, cardFlags, VOICE_NOTE } from "./billing.js";
 import { hasAzeroth } from "./character-voices.js";
 import { CLEAR_ALL } from "./willo-notebook.js";
 
@@ -22,13 +22,21 @@ const plansText = ({ azeroth }) => `Your plans (a player asking what Adventurer,
   `means these, never a quest, title or anything in the world): Settings › Account › Your plan in your window says ` +
   `which one they're on; Change plan opens ` +
   `the Plans page (with the prices) and Billing your payments. ` +
-  ["free", ...PAID].map(id => `${PLANS[id].name}${id === "free" ? " (free)" : ""}: ${planFeatures({ azeroth })[id].join("; ")}.`).join(" ") +
+  ["free", ...PAID].map(id => `${PLANS[id].name}${id === "free" ? " (free)" : ""}: ${planFeatures({ ...cardFlags(null), azeroth })[id].join("; ")}.`).join(" ") +
   ` ${VOICE_NOTE} Nothing is bought once: answers can't be bought. When a plan's answers are used up, I answer from ` +
   `the add-on's lore library until they ` +
   `come back. Never say a price (the Plans page has them), nor "limit", "cap" or "unlimited": answers are counts.`;
 
 // A topic's own words with more alternatives joined on (other patterns').
 const orElse = (...patterns) => new RegExp(patterns.map(r => r.source).join("|"), "i");
+// LOR-720: the text beside her blue dot is her speech bubble, independent of Live game info.
+// Require her own text, or the dot's overlay/control context: a blue dot on a quest map isn't her.
+const OVERLAY_TEXT = orElse(
+  /\b(?:your|willo'?s?|willow'?s?|the wisp'?s?) (?:text|captions?|subtitles?)\b/,
+  /\b(?:you|you're|willo|willow)\b[^.?!]{0,45}\b(?:show(?:ing)?|display(?:ing)?) (?:the )?(?:text|captions?|subtitles?)\b[^.?!]{0,45}\b(?:game|screen|window)\b/,
+  /\b(?:text|captions?|subtitles?)\b[^.?!]{0,45}\b(?:next to|beside|by) (?:the |your )?(?:little )?blue dot\b[^.?!]{0,30}\bover the game\b/,
+  /\b(?:hide|turn|switch|disable|remove)\b[^.?!]{0,40}\b(?:text|captions?|subtitles?)\b[^.?!]{0,45}\b(?:next to|beside|by) (?:the |your )?(?:little )?blue dot\b/,
+);
 // Where their notes are: "where are my notes?", "how do I see my list?", "where did you write it down?", "how do I see
 // where you've written it down?" (the stream, 10/18: it got the Settings, and the app opened them). The notebook's, whatever
 // else the words say: the sight topic's "how do I … see" yields to it.
@@ -79,7 +87,7 @@ const TOPICS = [
         : `of five voices there (Sprite, quick and sprightly; Sunbeam, bright and lively; Moonwell, soft and ` +
           `otherworldly; Fenlight, warm with an Irish lilt; Starling, light and silvery)`) +
       // Voices of Azeroth (LOR-609): only for a companion whose picker has them (lib/character-voices.js hasAzeroth).
-      (azeroth ? `, or under "Voices of Azeroth" a voice you borrow from Azeroth's peoples, a man's or a woman's of ` +
+      (azeroth ? `, and on Legend also under "Voices of Azeroth" a voice you borrow from Azeroth's peoples, a man's or a woman's of ` +
         `each: dwarf, Forsaken, gnome, goblin, high elf, human, night elf, orc, Skyborne, tauren and troll ("Dwarf, ` +
         `man", "Night elf, woman"). You're still yourself in a borrowed voice, and characters who answer in person ` +
         `keep their own` : ``) +
@@ -179,10 +187,14 @@ const TOPICS = [
       `add-on not found: Settings › Your game says what to do; install Lore Forever in that game folder, then /reload. ` +
       `After an add-on update with the game open, /reload. Run the game and ${NAME} the same way (both normally, not ` +
       `one as administrator).` },
-  { id: "wisp", own: /\bthe wisp\b|\bover the game\b|\bbubble\b|\boverlay\b|\banswer window\b/i,
+  { id: "wisp", own: orElse(/\bthe wisp\b|\bover the game\b|\bbubble\b|\boverlay\b|\banswer window\b/i, OVERLAY_TEXT),
     words: /\b(?:move|hide|bigger|smaller|size|drag|turn (?:you )?off|go away|stop (?:talking|chirping)|mute|chirp\w*|how often)\b/i,
     text: () => `Over the game: Settings › ${NAME} › ${NAME} over the game › "Show ${NAME} over the game" (untick to ` +
-      `hide you), with Chirp when she speaks, How often (every 2, 5 or 10 minutes) and Size, and the Show her and Put ` +
+      `hide you). This hides the wisp (the blue dot) and its text/captions together; there is no separate text-only ` +
+      `or captions switch. Live game info controls what you know from the game and does not hide this overlay. ` +
+      `To keep asking and listening by voice with the overlay hidden, leave "Talk with ${NAME}" on and use the talk ` +
+      `key: spoken questions still get voice answers. The overlay's other controls are Chirp when she speaks, ` +
+      `How often (every 2, 5 or 10 minutes) and Size, and the Show her and Put ` +
       `her back buttons. You show only while the game is in front; they can drag you anywhere. Left-click opens your chat over the game, ` +
       `right-click your full window. The answer window over the game moves by its header and closes with its ✕; it ` +
       `needs the game in windowed or borderless fullscreen.` },
@@ -314,7 +326,11 @@ const topicsOf = (question, plans, client = null) => {
   const picked = TOPICS.filter(t => (t.id !== "plans" || plans) && (t.from !== "color" || client === null || hasColor(client))
     && (t.own?.test(q) || (her && t.words?.test(q) && !t.unless?.test(q))));
   const keeps = picked.some(t => t.id === "privacy" && t.own.test(q));
-  return picked.filter(t => !(keeps && KEEPS_FIRST.includes(t.id) && !t.own?.test(q))).slice(0, MAX_TOPICS);
+  const relevant = picked.filter(t => !(keeps && KEEPS_FIRST.includes(t.id) && !t.own?.test(q)));
+  // A captions complaint can also mention voice, Live game info and troubleshooting. Keep its actual control
+  // ahead of those related topics so it survives both the topic count and the help block's byte bound.
+  if (OVERLAY_TEXT.test(q)) relevant.sort((a, b) => Number(b.id === "wisp") - Number(a.id === "wisp"));
+  return relevant.slice(0, MAX_TOPICS);
 };
 // The help topics a question is about (lib/willo-tools.js lookupsFor), by id; none for any other question.
 export const helpTopics = (question, { plans = true, client = null } = {}) => topicsOf(question, plans, client).map(t => t.id);

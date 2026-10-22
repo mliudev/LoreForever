@@ -22,7 +22,7 @@
 //               way, and /u/<handle>?pictures=1 (or ?pictures=1 on the API) shows them while it's off. On since
 //               2026-10-10, with the companion's Picture book setting on by default.
 //   storyvoice  Listen on a player profile's story (lib/storyvoice.js, LOR-316): the written story read aloud by the
-//               male campfire narrator. While it's off, nothing is recorded and the page has no Listen box. Recording
+//               male narrator (the Chronicler). While it's off, nothing is recorded and the page has no Listen box. Recording
 //               also needs the Pages secret FAL_KEY and his embedding in R2 (experiments/voices/local/story_voice_embed.py).
 //               On since 2026-10-05 (Mike), with the male narrator's embedding and FAL_KEY set up.
 //   plans       Paid plans (lib/billing.js, LOR-431): /plans, /willo/style and /account's plan card, checkout, the billing
@@ -40,6 +40,13 @@
 //               picker says them, and Willo's help and offers wait for that companion, character-voices.js
 //               hasAzeroth). Off until the release whose companion has them in its picker (the first after 0.20.0):
 //               turn it on in that release.
+//   readings    The add-on's short answers in the player's narrator's voice on Hero and up (Mike, 2026-10-21, the voices and
+//               plans picks: lib/companion-voice.js speakReading): what /plans, its compare table, /willo, the Terms
+//               and the Stripe blurbs say of it (lib/billing.js planFeatures). The readings themselves work either way
+//               (a companion that asks for them gets them). Off until the release whose companion reads them: turn it
+//               on in that release.
+//   whole       Legend hears her whole answer spoken, not only its short spoken part (Mike, 2026-10-21): what /plans,
+//               its compare table and the Stripe blurbs say of it. Off until the release whose companion speaks it.
 //   thanks      The thank-you email from Mike to a new subscriber (lib/thanks.js, LOR-640). While it's off, a start is
 //               only logged ("would send") and never sent later. It also needs the email service (lib/email.js:
 //               CLOUDFLARE_EMAIL_TOKEN). /api/admin "email-test" works either way, and "email-status" says whether it's
@@ -48,7 +55,8 @@
 // The Pages variable SITE_FEATURES overrides this file without a code change, e.g. on Preview to test the "on" state:
 // a comma-separated list, where "contribute" turns a feature on and "-contribute" turns it off.
 export const FEATURES = { contribute: true, zones: true, lore: true, companion: true, pictures: true, storyvoice: true,
-                          plans: false, azeroth: true, thanks: true };
+                          plans: false, azeroth: true, readings: false, whole: false,
+                          thanks: true };
 
 export function featureOn(env, name) {
   const over = String(env?.SITE_FEATURES || "").split(",").map(s => s.trim()).filter(Boolean);

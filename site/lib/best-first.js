@@ -135,8 +135,8 @@ export async function untry(env, userId, what) {
 export const trialRow = (env, userId) => env.DB.prepare(`SELECT ${ROW} FROM best_first WHERE user_id = ?`).bind(userId);
 // A plan as the trial has it, for what's open all the window: Willo's voice picked from all of hers (PLAN_VOICE choice,
 // lib/companion-voice.js willoPick).
-export const withTrial = (plan, trial) => trial?.on && plan?.voice && !plan.voice.choice
-  ? { ...plan, voice: { ...plan.voice, choice: true } } : plan;
+export const withTrial = (plan, trial) => trial?.on && plan?.voice && !(plan.voice.choice && plan.voice.azeroth)
+  ? { ...plan, voice: { ...plan.voice, choice: true, azeroth: true } } : plan;
 // What the companion is told of the trial, with the allowance (lib/companion-answers.js): {on, until (ISO, or none
 // before the first answer), uses: {web, sight, characters: {of, left}}, opens: [...]}, only what the plan doesn't have
 // itself (the beta's free Hero month already looks online, sees the game, keeps goals and picks a preset style).

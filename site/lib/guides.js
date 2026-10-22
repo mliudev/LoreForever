@@ -1,13 +1,14 @@
 // Guides and lore articles (LOR-414): /guides lists them and /guides/<slug> is one article. Patrick writes them in
 // Markdown, in the editor at /guides/edit (lib/guides-cms.js: saved in D1, pictures in R2, live at once) or as a file
-// in public/guides/articles/<slug>.md with a short header (site/GUIDES.md says how), listed in
-// public/guides/articles/index.json (rebuilt by `node scripts/guides-index.mjs`, checked by tests/guides.test.mjs). The
+// in site/content/guides/articles/<slug>.md with a short header (site/GUIDES.md says how), listed in its index.json.
+// `node scripts/guides-index.mjs` bundles the source into guide-files.js, outside public/ so static asset URLs cannot
+// bypass draft access checks (checked by tests/guides.test.mjs). The
 // editor's copy of an article wins over a file with the same address. Every article ends with the download call to
 // action (CTA below: one place to point it at Willo later). Kept outside functions/ so Pages doesn't route it.
 
 import { page, escape, FRESH } from "./voices.js";
+import bundledFiles from "./guide-files.js";
 
-export const ARTICLES = "/guides/articles";
 export const HOME = "https://loreforeverwow.com";
 // The call to action under every article. The add-on today; point it at Willo here when that's the better first step.
 export const CTA = {
@@ -150,14 +151,8 @@ export function renderMarkdown(md) {
 
 // ---- Loading ----
 
-async function asset(env, request, path) {
-  try {
-    const res = await env.ASSETS.fetch(new URL(path, request.url));
-    return res.ok ? res : null;
-  } catch {
-    return null;
-  }
-}
+// Tests can supply an explicit server-side fixture. Request URLs/headers never select or override the source.
+const guideFiles = env => env.GUIDE_FILES ?? bundledFiles;
 
 // The editor's rows (lib/guides-cms.js), or none: no D1 here (tests), or no table yet (nothing saved in the editor).
 // Reads never create the table; the editor's first save does.
@@ -165,9 +160,35 @@ export async function editorRows(env, sql, ...args) {
   if (!env.DB) return [];
   try {
     return (await env.DB.prepare(sql).bind(...args).all()).results;
-  } catch {
-    return [];
+  } catch (error) {
+    // An installation with no CMS table can still serve file articles. A failed read of an existing table must
+    // never resurrect a file that an editor made private or deleted.
+    if (/\bno such table: (?:main\.)?(?:guides|guide_revisions)\b/i.test(String(error?.message || error))) return [];
+    throw new GuidesUnavailableError("Guide storage is unavailable", { cause: error });
   }
+}
+
+export class GuidesUnavailableError extends Error {}
+
+export const privateHeaders = { "Cache-Control": "private, no-store", "X-Robots-Tag": "noindex" };
+export const unavailableResponse = () => new Response("Guides are temporarily unavailable. Please try again.", {
+  status: 503, headers: { ...privateHeaders, "Content-Type": "text/plain; charset=utf-8" },
+});
+
+// Public read routes fail closed when the CMS cannot say whether the file copy is still public.
+export async function guideResponse(read) {
+  try { return await read(); }
+  catch (error) {
+    if (error instanceof GuidesUnavailableError) return unavailableResponse();
+    throw error;
+  }
+}
+
+export async function privateGuideResponse(read) {
+  const res = await guideResponse(read);
+  const out = new Response(res.body, res);
+  for (const [name, value] of Object.entries(privateHeaders)) out.headers.set(name, value);
+  return out;
 }
 
 const newestFirst = (a, b) => (b.date || "").localeCompare(a.date || "") || a.slug.localeCompare(b.slug);
@@ -177,14 +198,13 @@ export const rowArticle = r => ({ slug: r.slug, body: r.body || "", meta: {
   title: r.title, description: r.description, date: r.date, kind: r.kind, draft: !!r.draft,
   ...(r.updated ? { updated: r.updated } : {}), ...(r.author ? { author: r.author } : {}) } });
 
-// The files' index.json: [{slug, title, description, date, kind, draft}], newest first.
-export async function fileIndex(env, request) {
-  const res = await asset(env, request, `${ARTICLES}/index.json`);
-  try {
-    return res ? await res.json() : [];
-  } catch {
-    return [];
-  }
+// The bundled files' metadata, with the same shape as the private content index.json.
+export async function fileIndex(env) {
+  return Object.entries(guideFiles(env)).map(([slug, raw]) => {
+    const { meta } = parseArticle(raw);
+    return { slug, title: meta.title || slug, description: meta.description || "", date: meta.date || "",
+      ...(meta.updated ? { updated: meta.updated } : {}), kind: meta.kind || "lore", draft: meta.draft };
+  }).sort(newestFirst);
 }
 
 // Every article, newest first: the files' index with the editor's rows on top (a row replaces the file with its
@@ -206,10 +226,9 @@ export async function loadIndex(env, request) {
 
 export async function loadFileArticle(env, request, slug) {
   if (!SLUG.test(slug || "")) return null;
-  const res = await asset(env, request, `${ARTICLES}/${slug}.md`);
-  if (!res) return null;
-  const { meta, body } = parseArticle(await res.text());
-  // Pages answers a file it doesn't have with the home page (200), so an article is one with a header and a title.
+  const files = guideFiles(env);
+  if (!Object.hasOwn(files, slug)) return null;
+  const { meta, body } = parseArticle(files[slug]);
   return meta.title ? { slug, meta, body } : null;
 }
 
@@ -221,7 +240,7 @@ export async function loadArticle(env, request, slug) {
 }
 
 export const published = index => index.filter(a => !a.draft);
-// A draft is served (for review at its address) but kept out of search, the list and the sitemap.
+// Draft responses also use privateHeaders; the article route checks editor access before rendering one.
 export const htmlHeaders = robots => ({
   "Content-Type": "text/html; charset=utf-8", "Cache-Control": "no-cache",
   ...(robots ? { "X-Robots-Tag": robots } : {}),

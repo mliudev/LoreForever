@@ -3,9 +3,9 @@
     "npc:agathelos-the-raging": {
       "1": [
         {
-          "duration": 92.23836734693877,
-          "file": "Audio/Transport/full_npc_agathelos-the-raging-aff1104a2e8b6d9d8960/1-0000.mp3",
-          "sha256": "22221f45cc67e15236d874edfde6955c69ec428ef87781aebf480e6589133893",
+          "duration": 52.58448979591837,
+          "file": "Audio/Transport/full_npc_agathelos-the-raging-267399db7148c567c8e8/1-0000.mp3",
+          "sha256": "e1ca37d98083bc210ffea9c140e8c466569506483ebf3063461f4bdc46825218",
           "start": 0
         }
       ],
@@ -17,21 +17,21 @@
         ]
       },
       "fullHash": "369cc1",
-      "generation": "90c578d513f442b97a54",
+      "generation": "82207dbb9a4a2b352817",
       "hash": "45101d",
       "source": {
-        "duration": 92.212188,
+        "duration": 52.558313,
         "file": null,
-        "sha256": "aff1104a2e8b6d9d89608c0f48586cb04a106ab8368976022f2c52abb23408b2"
+        "sha256": "267399db7148c567c8e8a0ecfaa301b3599d43acc4335f674bda15c1216a759d"
       },
       "text": "Agathelos the Raging. Agathelos the Raging is a colossal armored boar penned within the thorned tunnels of Razorfen Kraul. To the quilboar, whose god and progenitor is the great boar Agamaggan, a beast of his size carries considerable spiritual significance, and he grows even more fearsome when enraged. His sheer mass and strength make him one of the most dangerous beasts lurking under the southern Barrens. The god and progenitor of the quilboar is Agamaggan, a titanic boar. A beast the size of Agathelos—standing roughly twice as tall as a Barrens thunder lizard—therefore carries considerable spiritual significance among the Razorfen tribes. The quilboar do not let Agathelos roam loose within the Kraul. He is kept in a short, dead-end tunnel behind a field maintained by several quilboar guards. Should intruders break past the barrier, they face a raging beast that grows even bigger and more terrifying when enraged."
     },
     "npc:aggem-thorncurse": {
       "1": [
         {
-          "duration": 17.240816326530613,
-          "file": "Audio/Transport/full_npc_aggem-thorncurse-ed965ff95bbd769a5379/1-0000.mp3",
-          "sha256": "2c6a03772a30bc1103af56d159651ef82f474c1979ab1dd578df740e1353e84e",
+          "duration": 19.72244897959184,
+          "file": "Audio/Transport/full_npc_aggem-thorncurse-aeccf528efd82ea335ab/1-0000.mp3",
+          "sha256": "d035194269c011dbf15c609c318279f9ed403ec5c053b37d41a4fec1c7d65ebd",
           "start": 0
         }
       ],
@@ -43,12 +43,12 @@
         ]
       },
       "fullHash": "6512f7",
-      "generation": "430991b819b41e3bed91",
+      "generation": "c398edcc2551ba3dce4d",
       "hash": "aceb96",
       "source": {
-        "duration": 17.214688,
+        "duration": 19.722449,
         "file": null,
-        "sha256": "ed965ff95bbd769a5379048fe542e1de124986df7dee45140e72545c307ae691"
+        "sha256": "aeccf528efd82ea335ab052be1866095ba3914d24b69e4e10174cbd23e475f1a"
       },
       "text": "Aggem Thorncurse. Aggem Thorncurse is a living quilboar shaman in Razorfen Kraul, bearing the title Death's Head Prophet. He calls a boar spirit to his aid when threatened. Aggem guards a part of Razorfen Kraul occupied by the Death's Head tribe. His shamanic powers include summoning a boar spirit, reflecting the quilboar's reverence for Agamaggan."
     },
@@ -81,9 +81,9 @@
     "npc:arcanist-doan": {
       "1": [
         {
-          "duration": 99.42204081632653,
-          "file": "Audio/Transport/full_npc_arcanist-doan-358f5ad0c020fcbf7944/1-0000.mp3",
-          "sha256": "b5f3deb6ccb0515a26a79ed2d9b8d4aaf4e5b00b22a86d8855610968341cd8a6",
+          "duration": 35.866122448979596,
+          "file": "Audio/Transport/full_npc_arcanist-doan-f5b59c26b4c2084c5893/1-0000.mp3",
+          "sha256": "1a02948c4bf14eb095b1437c6a932e5992ac67d46447354de512d25bd3110653",
           "start": 0
         }
       ],
@@ -95,12 +95,12 @@
         ]
       },
       "fullHash": "1f7e63",
-      "generation": "053ede26fd43a539ede5",
+      "generation": "3369ec0a8d5d1c24dc06",
       "hash": "f8dd01",
       "source": {
-        "duration": 99.395875,
+        "duration": 35.84,
         "file": null,
-        "sha256": "358f5ad0c020fcbf794436a6a863c2e529264180179322f67b3a1afaa02bf479"
+        "sha256": "f5b59c26b4c2084c58932820d5c5e064d515e5c18c5dde54c176ecb2cb05cb98"
       },
       "text": "Arcanist Doan. Arcanist Doan is a master human mage residing within the Athenaeum of the Scarlet Monastery's Library wing. He serves the Scarlet Crusade as one of its most lethal arcane specialists and guardian of key crusade archives. While the fanatical ranks of the Scarlet Crusade lean heavily on martial fury and holy fervor, Doan remained convinced that raw arcane power was essential to purging the Scourge from Lordaeron. Stationed deep inside the Athenaeum of the Monastery's library, he was entrusted as both a lorekeeper and an operational gatekeeper, safeguarding the Scarlet Key that secures crusade sanctuaries across the northern kingdoms."
     },
@@ -133,9 +133,9 @@
     "npc:baron-silverlaine": {
       "1": [
         {
-          "duration": 67.36979591836734,
-          "file": "Audio/Transport/full_npc_baron-silverlaine-bee56cf3234e42b82712/1-0000.mp3",
-          "sha256": "823a0edeb3f392732a911a03119f3e0d73754c54bba74eafe19f3a6a44e9b093",
+          "duration": 61.7534693877551,
+          "file": "Audio/Transport/full_npc_baron-silverlaine-b9a294ce7cbc2a4d41b4/1-0000.mp3",
+          "sha256": "01143f0d64d83c9e7d1cc2626421b3d049ee3b5b714404cad356837111f7ab04",
           "start": 0
         }
       ],
@@ -147,21 +147,21 @@
         ]
       },
       "fullHash": "ff6fac",
-      "generation": "80a69501b6aef888de2a",
+      "generation": "7fb7f82479084b0ead7b",
       "hash": "8c96b4",
       "source": {
-        "duration": 67.343625,
+        "duration": 61.727313,
         "file": null,
-        "sha256": "bee56cf3234e42b827121319d273a6701f430a56d2e3b8411be6b5cd51d2809c"
+        "sha256": "b9a294ce7cbc2a4d41b476758800c6bcfce8cf622ae3ca382fdc01d6f3309fd9"
       },
       "text": "Baron Silverlaine. Baron Silverlaine was the rightful human lord of the fortress once known as Silverlaine Keep, perched high above Pyrewood Village. When Archmage Arugal unleashed the savage worgen upon the region, the baron was mercilessly slaughtered. Now, his tormented spirit lingers in the ruined dining hall, bound in undeath to defend the very lair that became his tomb. Before the shadow of the wolf-beasts blanketed the southern hills of Silverpine, Baron Silverlaine ruled over a proud noble estate. His fortress provided safety and oversight to the surrounding lands. That peace shattered when Archmage Arugal, seeking a weapon against the rampaging Scourge, unleashed summoned worgen into the region. The feral monstrosities could not be controlled; they stormed the stronghold, overran its guards, and butchered the baron. Death brought no release to Baron Silverlaine. Bound to the keep's ancient Great Hall, his restless ghost now wanders the trashed dining tables where he once feasted. The cursed lord lashes out at intruders who enter his ruined home."
     },
     "npc:bazil-thredd": {
       "1": [
         {
-          "duration": 80.66612244897959,
-          "file": "Audio/Transport/full_npc_bazil-thredd-21e57ef0dab5c48cba7c/1-0000.mp3",
-          "sha256": "dc94769e5ee1c61f16057ec95cb415bd991a52a8933b1a48161233e05f225740",
+          "duration": 75.46775510204083,
+          "file": "Audio/Transport/full_npc_bazil-thredd-803d366bf3c4b77c4f08/1-0000.mp3",
+          "sha256": "47787e112cea8c1d2812ebf809242aa8ad3bd837442523ee3c8e6641680f23b0",
           "start": 0
         }
       ],
@@ -173,12 +173,12 @@
         ]
       },
       "fullHash": "50c8dc",
-      "generation": "eb6eaa0814dc65a22523",
+      "generation": "f096b151cf9a3b179d03",
       "hash": "2861ed",
       "source": {
-        "duration": 80.64,
+        "duration": 75.441625,
         "file": null,
-        "sha256": "21e57ef0dab5c48cba7c0e8c86e6f601a212c84973c055d15af85e0636d86efa"
+        "sha256": "803d366bf3c4b77c4f0864664e1d5f3a06edd9385c8bd80e247f62fec45eeaa7"
       },
       "text": "Bazil Thredd. Bazil Thredd is Edwin VanCleef's lieutenant and most trusted assistant, locked in the Stormwind Stockade since the Stonemasons' riots. Now the prison has risen in revolt, and Thredd leads the rioting Defias inmates from its eastern cell block. When the Stonemasons Guild was refused payment by the nobility of Stormwind for rebuilding the city, Edwin VanCleef rejected government appeasements and sparked open revolt. Bazil Thredd stood at VanCleef's side as his chief lieutenant and most trusted assistant. During the violent clashes that followed, Thredd was captured by the city guard. While VanCleef and the surviving masons fled into Westfall to form the Defias Brotherhood, Thredd was cast into the depths of the Stormwind Stockade. For years, Thredd remained silent and seemingly forsaken behind iron bars. That isolation shattered with a massive prison riot that overran the guards, opening the cells and turning the Stockade into an armed fortress right under the Mage Quarter. Taking leadership of the imprisoned Defias bandits, insurgents, and allied cutthroats, Thredd established his command post in the eastern wing under the guard of an ogre named Hamhock. Warden Thelwater, desperate to restore order before the chaos spills into the city streets, demands Thredd's head to break the rebellion's leadership."
     },
@@ -237,9 +237,9 @@
     "npc:bloodmage-thalnos": {
       "1": [
         {
-          "duration": 63.97387755102041,
-          "file": "Audio/Transport/full_npc_bloodmage-thalnos-b0f44121c2cd2cd464cd/1-0000.mp3",
-          "sha256": "bffbd6673de6b841a11caf9d13dacf772fb08ce569a45622e34788f0060ef35d",
+          "duration": 55.17061224489796,
+          "file": "Audio/Transport/full_npc_bloodmage-thalnos-7d4d983af4060f6a240f/1-0000.mp3",
+          "sha256": "4902781bf1927c316cb0f6498eb8e4786cddd6cd3231d3ec5e4b0d35e5e8c6d7",
           "start": 0
         }
       ],
@@ -251,12 +251,12 @@
         ]
       },
       "fullHash": "10d1aa",
-      "generation": "9738cdada9ec8e0ca276",
+      "generation": "bb11451c395aacb0bd3e",
       "hash": "ac4634",
       "source": {
-        "duration": 63.94775,
+        "duration": 55.144438,
         "file": null,
-        "sha256": "b0f44121c2cd2cd464cd247df32eda9b0aef27a1658aea662861df3ee74a8766"
+        "sha256": "7d4d983af4060f6a240f6ae8586ef7c49186df227958e67cd224152cae14441c"
       },
       "text": "Bloodmage Thalnos. Bloodmage Thalnos is a skeletal spellcaster who haunts the Graveyard wing of the Scarlet Monastery. Who he was in life is not recorded, but the plague of undeath claimed him, and he now lingers deep within the Crusade's holy grounds, hungering for vengeance. No record tells who Thalnos was in life. Whatever his past, the plague of undeath claimed him. Rather than being cleansed or permanently destroyed, he rose as a withered skeleton, still clinging to his fiery magic and arcane mastery, and crying out for vengeance and for more souls. Confined to the deepest corner of the monastery's courtyard tombs, Thalnos commands apparitions and shambling undead minions against anyone who disturbs his domain. His continued presence poses a bitter contradiction for the Crusade: an undead monstrosity lingering right beneath their sacred halls, embodying the very horror they swore an eternity to eradicate."
     },
@@ -289,9 +289,9 @@
     "npc:captain-greenskin": {
       "1": [
         {
-          "duration": 61.4661224489796,
-          "file": "Audio/Transport/full_npc_captain-greenskin-811a0b5aa8d0ff69dacc/1-0000.mp3",
-          "sha256": "0c1c5a8841cf1d8a0857fcbfa7c7ff9b0f63dbdc9256bfd582aae8eb07ce8ccf",
+          "duration": 55.928163265306125,
+          "file": "Audio/Transport/full_npc_captain-greenskin-468ded2e00171595c8f3/1-0000.mp3",
+          "sha256": "a4eafe8c78a8c0a3f6aa7b3d1a6374fe30b562a00d156ac204af6cfae91edb98",
           "start": 0
         }
       ],
@@ -303,12 +303,12 @@
         ]
       },
       "fullHash": "0026ec",
-      "generation": "f106d22f08b41ea38b28",
+      "generation": "c572ead0be2b849bb4d6",
       "hash": "2cef2b",
       "source": {
-        "duration": 61.44,
+        "duration": 55.902,
         "file": null,
-        "sha256": "811a0b5aa8d0ff69dacc1fd4c2ffa2e6d099b492cd26824492c28dc3a45d90c3"
+        "sha256": "468ded2e00171595c8f362856420b4c301cdfed0ff119aabaeebd5b9a25edd35"
       },
       "text": "Captain Greenskin. Captain Greenskin is an elite goblin pirate overseeing the construction and crew of Edwin VanCleef's massive ironclad juggernaut. Hidden deep in the subterranean cove of the Deadmines, he commands the pirate forces hired by the Defias Brotherhood. His goal is to bring the warship to readiness to sail against Stormwind. Pacing the main deck of the gigantic juggernaut under construction in the Deadmines cove, Captain Greenskin represents the naval backbone of the Defias conspiracy. A seasoned goblin mariner, Greenskin was brought into Edwin VanCleef's inner circle to turn an underground cavern into a drydock for an engine of war. Greenskin does not command an ordinary crew of stonemasons or bandits. Under his direct watch serve seasoned cutthroats, including his fearsome tauren first mate Mr. Smite and the murloc ship's cook, Cookie. Together, they hold the ship's gangplanks and upper deck, standing between intruders and VanCleef's private cabin atop the bridge."
     },
@@ -341,9 +341,9 @@
     "npc:commander-springvale": {
       "1": [
         {
-          "duration": 76.19918367346939,
-          "file": "Audio/Transport/full_npc_commander-springvale-3e66b95c0266752baf75/1-0000.mp3",
-          "sha256": "4393ae8bc64078307c0dfa3c05c42ae838577cc10da0ed3d84dc285caf11b53f",
+          "duration": 66.45551020408163,
+          "file": "Audio/Transport/full_npc_commander-springvale-853da1fd3b07922cc460/1-0000.mp3",
+          "sha256": "824073c4db2d06d7f516d4d39b2e92adae2de6b1758fb0b04f2df5554a38259e",
           "start": 0
         }
       ],
@@ -355,21 +355,21 @@
         ]
       },
       "fullHash": "f44e9f",
-      "generation": "b0b1000196701346a305",
+      "generation": "71713d28ba76e77211fb",
       "hash": "e44ff4",
       "source": {
-        "duration": 76.173063,
+        "duration": 66.481633,
         "file": null,
-        "sha256": "3e66b95c0266752baf75b7a90a187f95b8993dbe4bbe1bac9d743a5e7a4734ab"
+        "sha256": "853da1fd3b07922cc4602178ceaa0dc971e1bf4c536c3029b3dbb44119ee5cf9"
       },
       "text": "Commander Springvale. Commander Springvale was once a devoted paladin and a commander at Shadowfang Keep. Slain alongside his men during the feral worgen slaughter orchestrated by Archmage Arugal, his vengeful spirit remains behind to haunt the castle halls. Even in death, his ghost fiercely guards the keep against all who enter. Before the ruin of Shadowfang Keep, Commander Springvale stood as an honorable paladin dedicated to the Holy Light. Leading the garrison in Silverpine Forest, he oversaw the keep's security during the fraught days following the fall of Lordaeron to the Scourge. When Archmage Arugal summoned the extraplanar worgen to bolster Dalaran's failing ranks against the undead Scourge, the wild beasts quickly slipped from the mage's control. The ravenous pack descended upon the fortress, slaughtering Baron Silverlaine and his entire guard. Springvale perished in the halls he had sworn to protect, his service violently cut short. Death offered no release to Springvale. His ghost haunts the keep's council room alongside its spectral soldiers. He still wields paladin powers, including Holy Light and Hammer of Justice, against intruders."
     },
     "npc:cookie": {
       "1": [
         {
-          "duration": 74.44897959183673,
-          "file": "Audio/Transport/full_npc_cookie-f5cf7934ff3a62e340b3/1-0000.mp3",
-          "sha256": "a7feb6c1206b0ad6088c30059e7874356299be0c4d55cfb0b313e3e2d30f9a51",
+          "duration": 71.15755102040816,
+          "file": "Audio/Transport/full_npc_cookie-e930c4a063b4b74b75c0/1-0000.mp3",
+          "sha256": "8dfdd4f327d3f373798428b4a3c7733d3443b8c0c5f5514fc03f8c3c80bbe705",
           "start": 0
         }
       ],
@@ -381,21 +381,21 @@
         ]
       },
       "fullHash": "f70b8c",
-      "generation": "29756acdbb24144d6c68",
+      "generation": "dd87c93358a738458b31",
       "hash": "59d851",
       "source": {
-        "duration": 74.422813,
+        "duration": 71.131375,
         "file": null,
-        "sha256": "f5cf7934ff3a62e340b39b09c5af81c00e86624fb45e1e3d2190a5ba72c56b26"
+        "sha256": "e930c4a063b4b74b75c0bdc0c43d5788de8ea3319ada7480d68493292711470d"
       },
       "text": "Cookie. Cookie is an elite murloc serving as the ship's cook aboard the juggernaut hidden deep within the Deadmines. An unusual recruit among the Defias Brotherhood, he tends the crew's cauldrons beneath the watchful eye of Captain Greenskin and Edwin VanCleef. He is the only entirely optional boss encountered within the underground dry dock. Beneath the decks of the towering juggernaut in the Ironclad Cove, cooking duty falls neither to a human outrider nor a goblin engineer, but to a solitary murloc known simply as Cookie. How he came by the position is anyone's guess. Whatever doubts the rest of the crew might harbor about a murloc presiding over their rations, pirates are rarely in a position to be picky, and in the underworld of Moonbrook, a meal is a meal. Cookie patrols the waterways and shores around the pirate flagship, wielding his cooking utensils alongside acidic brews. Despite being isolated from typical murloc tribes, he defends his cauldron with savage ferocity, flinging caustic concoctions at any intruders who wander into the docks. Because his station sits away from the main gangplanks, many who storm the cove bypass his kitchen entirely, making him the only optional overseer aboard the Defias juggernaut."
     },
     "npc:dark-iron-ambassador": {
       "1": [
         {
-          "duration": 19.121632653061226,
-          "file": "Audio/Transport/full_npc_dark-iron-ambassador-7f0e8778bcdca163515c/1-0000.mp3",
-          "sha256": "b8782def2174d57bfe5fe5ffb3f2346499a1ab23427feb7700211d61ec18064d",
+          "duration": 18.207346938775512,
+          "file": "Audio/Transport/full_npc_dark-iron-ambassador-dcf2289248708b2811f6/1-0000.mp3",
+          "sha256": "2d8bf988d3b59384860c4e60e906c1fb352fff6dfb64e8d15e6a302a5f9f1383",
           "start": 0
         }
       ],
@@ -407,21 +407,21 @@
         ]
       },
       "fullHash": "24ccda",
-      "generation": "d14f0cec590088cbfdcf",
+      "generation": "e3b2cc9a86d0cbff1a25",
       "hash": "041f9a",
       "source": {
-        "duration": 19.0955,
+        "duration": 18.207347,
         "file": null,
-        "sha256": "7f0e8778bcdca163515c7347cecf403dc456b74388e96cbd3894e50fa96a0fa5"
+        "sha256": "dcf2289248708b2811f667fa1ed1532ed5ce4c1986e422e0d6eac49dd7322c39"
       },
       "text": "Dark Iron Ambassador. The Dark Iron Ambassador is an emissary of the Dark Iron clan found deep within Gnomeregan. His presence raises questions about the clan's interest in the ruined gnome capital. The Dark Iron Ambassador is found among the dangers of irradiated Gnomeregan. He represents the Dark Iron clan, but the purpose of his mission is not explained."
     },
     "npc:dextren-ward": {
       "1": [
         {
-          "duration": 91.71591836734694,
-          "file": "Audio/Transport/full_npc_dextren-ward-b6e13eea31d9cf794b99/1-0000.mp3",
-          "sha256": "3f6c9c7e1928dc42edb21d580867837a218bd1b22eef6240a363b93be2bdd5a9",
+          "duration": 95.89551020408163,
+          "file": "Audio/Transport/full_npc_dextren-ward-0121ab8d21e86b5c8146/1-0000.mp3",
+          "sha256": "1bf93d43eee11ce26a777a5b9b3a685c05b1cdcfd71a97f5ddb68c9aa7365a11",
           "start": 0
         }
       ],
@@ -433,21 +433,21 @@
         ]
       },
       "fullHash": "6fd2b3",
-      "generation": "296d2fda39b893c9c275",
+      "generation": "4feb72ffee9c5783fc61",
       "hash": "7bb011",
       "source": {
-        "duration": 91.68975,
+        "duration": 95.89551,
         "file": null,
-        "sha256": "b6e13eea31d9cf794b9907431b164fd81403828d57d3e35c12174526b3993e23"
+        "sha256": "0121ab8d21e86b5c8146b8ebb49e82d9d5241d536a033c06301cefb5406fc42f"
       },
       "text": "Dextren Ward. Dextren Ward is an infamous criminal and grave robber locked away inside the Stormwind Stockade. Before his capture, he profited by exhuming bodies from Duskwood's Raven Hill Cemetery and delivering them to the necromancer Morbent Fel. Now caught in the midst of the prison's bloody uprising, he remains marked for death by the town council of Darkshire. Before ending up in chains beneath the streets of Stormwind, Dextren Ward conducted a grim and lucrative business in the fog-choked woods of Duskwood. Raven Hill Cemetery was already a site of sorrow and growing horror, but Ward treated its burial grounds as a private quarry. Rather than hunting merely for trinkets and heirlooms left with the dead, Ward dealt in flesh, unearthing fresh graves to supply local dark practitioners. Ward's primary customer was Morbent Fel, a necromancer whose dark rituals have plagued Duskwood and swelled the ranks of the undead. In supplying bodies to Fel, Ward actively contributed to the terror that grips Darkshire. Though eventually caught by Stormwind authorities and dragged into the Stockade, his crimes earned him the undying enmity of the people of Duskwood, prompting Councilman Millstipe to demand Ward's hand as proof of justice served. When a sweeping rebellion broke out inside the Stockade, Ward was not liberated by allies, but rather freed from his cell to join the chaos within the locked-down dungeon. Armed and vicious, he commands his own corner of the prison and uses terror to ward off interlopers, making him one of the priority targets Alliance forces seek to eliminate while restoring order."
     },
     "npc:edwin-vancleef": {
       "1": [
         {
-          "duration": 88.29387755102042,
-          "file": "Audio/Transport/full_npc_edwin-vancleef-85c47b4aad9a29735cc2/1-0000.mp3",
-          "sha256": "9de93a6510df22483bf871356bab9bfbceb05a50b4bd41ace85badefbf56a0d7",
+          "duration": 81.6065306122449,
+          "file": "Audio/Transport/full_npc_edwin-vancleef-32cf0b7dd02dcb923db1/1-0000.mp3",
+          "sha256": "0b393937e67c24f619faece58954edeaf17b7b0ee3e67dcb1189ba7d15c031b5",
           "start": 0
         }
       ],
@@ -459,21 +459,21 @@
         ]
       },
       "fullHash": "492b01",
-      "generation": "0c98714c10434703b8cc",
+      "generation": "6fec6959b5c7c2c2d4f8",
       "hash": "480462",
       "source": {
-        "duration": 88.26775,
+        "duration": 81.580375,
         "file": null,
-        "sha256": "85c47b4aad9a29735cc214328e9b01c7dbd3fae8da43d4489856185d6661532b"
+        "sha256": "32cf0b7dd02dcb923db13c163468165463b3a1e67a6f20884f8684abcfb8bc55"
       },
       "text": "Edwin VanCleef. Edwin VanCleef was the brilliant Guildmaster of the Stonemasons who rebuilt Stormwind City after the Second War. After being cheated of payment by the House of Nobles, he led a violent workers' revolt and formed the outlaw Defias Brotherhood. Operating from deep within the Deadmines of Westfall, he seeks vengeance against the kingdom he helped restore. Following the devastation of the First War, Edwin VanCleef was chosen to lead the Stonemasons Guild in the monumental task of rebuilding Stormwind City. A peerless craftsman and an idealist, VanCleef directed the construction of the capital's grand ramparts and towering cathedrals. Alongside his mastery of architecture, VanCleef was a remarkably deadly operative; he was trained in stealth, subterfuge, and bladecraft by his childhood friend, Mathias Shaw. When the years of labor concluded, the House of Nobles ran up colossal debts through military campaigns and refused to provide the Stonemasons their promised compensation. Enraged, VanCleef demanded restitution, only for the nobles to officially dissolve the guild. Leading a riot, VanCleef took the Stonemasons out of the city; in the chaos his lieutenant and most trusted assistant, Bazil Thredd, was captured and left to languish in the Stockade. In Westfall, VanCleef gathered his exiled workers and allied outcasts beneath the banner of the Defias Brotherhood."
     },
     "npc:electrocutioner-6000": {
       "1": [
         {
-          "duration": 71.78448979591838,
-          "file": "Audio/Transport/full_npc_electrocutioner-6000-a0942fe73c5950751c55/1-0000.mp3",
-          "sha256": "d6c26d94dd5209d1faf29919cf00f3c9f3398ced97a8787cbae9c7d99bc4c5e0",
+          "duration": 46.419591836734696,
+          "file": "Audio/Transport/full_npc_electrocutioner-6000-8336f5d7a0c288ab52d1/1-0000.mp3",
+          "sha256": "2835d65187efc39f1b524dae68faf2de217f2da749ba415c70ff8dcc4aaa6099",
           "start": 0
         }
       ],
@@ -485,12 +485,12 @@
         ]
       },
       "fullHash": "5f3a8e",
-      "generation": "f75065a63ce7ba6ddd16",
+      "generation": "26f064e1d6849ad5766c",
       "hash": "c648ee",
       "source": {
-        "duration": 71.758313,
+        "duration": 46.393438,
         "file": null,
-        "sha256": "a0942fe73c5950751c55d146e07b8853a5127e901d149a7a5fbcf5dc7179585f"
+        "sha256": "8336f5d7a0c288ab52d1dee17c984e8b7969ec0bb91bdcf518d51a71a02dfeaf"
       },
       "text": "Electrocutioner 6000. The Electrocutioner 6000 is a deadly, super-charged spider tank deployed to defend the Launch Bay within the irradiated halls of Gnomeregan. It fights for Mekgineer Thermaplugg and the leper gnomes who follow him, holding the upper platform against anyone pushing deeper into the fallen city. Gnomeregan's fall left its war machines in the hands of Mekgineer Thermaplugg and the irradiated leper gnomes who still follow him. The Electrocutioner 6000, a hulking spider tank crackling with high-voltage current, stands guard on the upper platform of Gnomeregan's Launch Bay and lashes intruders with electricity. The machine also guards a prize: the Workshop Key, which opens Gnomeregan's back door into its workshops. Those who bring down the Electrocutioner can claim the key and a quicker route into the city's depths."
     },
@@ -523,9 +523,9 @@
     "npc:gelihast": {
       "1": [
         {
-          "duration": 59.06285714285715,
-          "file": "Audio/Transport/full_npc_gelihast-bb6051e5a54283216fcb/1-0000.mp3",
-          "sha256": "d4f9559b346e0facc31cc65628f0ec78e751123637426925e6fc900792368767",
+          "duration": 43.70285714285714,
+          "file": "Audio/Transport/full_npc_gelihast-6bc22fed2a42fd1d3f68/1-0000.mp3",
+          "sha256": "ff27363dca85aab16a65984e6074f093cc28166a034d2fd7f5acdbb758998ae2",
           "start": 0
         }
       ],
@@ -537,12 +537,12 @@
         ]
       },
       "fullHash": "d4d881",
-      "generation": "93527f03583c1614696d",
+      "generation": "cbb2218c1debcc4887b1",
       "hash": "b12b85",
       "source": {
-        "duration": 59.036688,
+        "duration": 43.676688,
         "file": null,
-        "sha256": "bb6051e5a54283216fcb461ef60d73a6db58a449d4cd26b874887de2748223df"
+        "sha256": "6bc22fed2a42fd1d3f68ef4ef101b6985786ad5cce9005b8c21710564e0e343d"
       },
       "text": "Gelihast. Gelihast is a ferocious, twin-blade wielding murloc chieftain residing in the Pool of Ask'ar within Blackfathom Deeps. Surrounded by his Blindlight murlocs, he guards a strange altar in the flooded ruins of the sunken temple. While most murlocs stay near coastal shallows, Gelihast has claimed a lair deep in the sunken temple of Blackfathom Deeps beneath the Zoram Strand. Wielding twin swords with blinding speed, he cuts down intruders before they can react, and casters who stray into his reach rarely survive. Gelihast rules the Pool of Ask'ar, surrounded by his Blindlight brood, who swarm to his side at the first sign of trouble. Beyond his lair stands an altar; those who defeat him and touch it receive the Blessing of Blackfathom."
     },
@@ -783,9 +783,9 @@
     "npc:lady-anacondra": {
       "1": [
         {
-          "duration": 77.89714285714285,
-          "file": "Audio/Transport/full_npc_lady-anacondra-0020f45c9245e854fe85/1-0000.mp3",
-          "sha256": "56289a68d901c1f9092df623a015d27b3a211120b8a44a22bc07450d01553e16",
+          "duration": 74.8930612244898,
+          "file": "Audio/Transport/full_npc_lady-anacondra-0b675cd08c2ec8aac3af/1-0000.mp3",
+          "sha256": "6be402454de06b726c828bcd7b30489d1a86600c5e3fb8e26e7019df4a1689b5",
           "start": 0
         }
       ],
@@ -797,12 +797,12 @@
         ]
       },
       "fullHash": "e5b9ce",
-      "generation": "35dac7752586106f9adf",
+      "generation": "4bc9aaff354ebe9a1c0a",
       "hash": "bce7b5",
       "source": {
-        "duration": 77.871,
+        "duration": 74.866938,
         "file": null,
-        "sha256": "0020f45c9245e854fe8535ae53e95f8c17a486df94b13cae57352eaecefaa33f"
+        "sha256": "0b675cd08c2ec8aac3af8f4283e7cdfb33d7a94f3fa5ac3db94ce8c23db435c4"
       },
       "text": "Lady Anacondra. Lady Anacondra is one of the Fanglords leading the Druids of the Fang within the Wailing Caverns. Once one of the night elf druids who followed Naralex in his ambitious effort to heal the Barrens, she was lost when her master's Emerald Dream communion turned into a nightmare. Her mind broke, twisting her devotion into a drive to remake the land to match that twisted dream. Before adopting her serpentine title, Lady Anacondra was one of Naralex's druids. When the elder druid Naralex conceived of tapping into the subterranean springs of the Barrens through the Emerald Dream, she followed him into the caverns. Her loyalty, however, proved her undoing. As Naralex's mind was seized by dark visions, the nightmare seeped out from the dreaming realm and contaminated his disciples, shattering her sanity and reshaping her reverie into a cold, reptilian obsession. Now styling herself Lady Anacondra, she stands guard among the first subterranean chambers of the Wailing Caverns. Like her fellow Fanglords, she abandoned the traditional tenets of the Cenarion Circle in favor of the vicious aspects of the viper. Channeling lightning, nature magic, and slumbering trances, she enforces Naralex's twisted slumber and works to spread the nightmare's corruption into the arid land above."
     },
@@ -861,9 +861,9 @@
     "npc:lord-pythas": {
       "1": [
         {
-          "duration": 83.2261224489796,
-          "file": "Audio/Transport/full_npc_lord-pythas-abe6f50494b59240dd0d/1-0000.mp3",
-          "sha256": "080a1d65ee327431c566a53c72c77667d9246bfdcab79ba2af1466aedaabce77",
+          "duration": 73.97877551020409,
+          "file": "Audio/Transport/full_npc_lord-pythas-7220a2889a487f14f208/1-0000.mp3",
+          "sha256": "494b75c1a1058d28f0d9cce072527ff8d601e78f23d6ffa194820b327eae2889",
           "start": 0
         }
       ],
@@ -875,12 +875,12 @@
         ]
       },
       "fullHash": "d632a4",
-      "generation": "76d590b68bab7bd75e7f",
+      "generation": "11856c633afb3ce7f578",
       "hash": "274a76",
       "source": {
-        "duration": 83.2,
+        "duration": 74.004898,
         "file": null,
-        "sha256": "abe6f50494b59240dd0d3bcbe6e195797e27b5794852952f9723fced3ec93dc5"
+        "sha256": "7220a2889a487f14f208a37780b6c24957f49e5bcb859c2081d6a5165cb3edb3"
       },
       "text": "Lord Pythas. Lord Pythas, once a night elf warrior, is one of the four corrupted leaders of the Druids of the Fang in the Wailing Caverns. Originally one of the personal guards of the druid Naralex, he fell victim to the nightmare tainting the oasis underground. Now he wields both martial might and twisted serpent magic against any who try to reach his slumbering master. Before his corruption, Pythas was a seasoned night elf warrior who served among the druid Naralex's personal guard when the expedition ventured into the dry wastes of the Barrens. Alongside his martial training, he took up the druidic arts in service of Naralex's dream of restoring lush life to the arid realm. However, physical discipline and martial valor offered no shelter against the insidious corruption waiting deep within the subterranean fissures. When Naralex's connection to the Emerald Dream was hijacked by dark nightmares, Pythas's mind succumbed alongside those of his fellow acolytes. Abandoning his former loyalty, he became one of the leaders of the Druids of the Fang. Where his fellow serpent lords favor cunning spellcasting or beast forms, Pythas seamlessly blends lethal combat prowess with nature magic. He now prowls the winding tunnels of the caverns, determined to defend the nightmare's twisted grip on the cavern spring."
     },
@@ -1017,9 +1017,9 @@
     "npc:naralex": {
       "1": [
         {
-          "duration": 90.38367346938776,
-          "file": "Audio/Transport/full_npc_naralex-3c0e5a8e610c3423992b/1-0000.mp3",
-          "sha256": "e175a92fce6e36dc2043748faab6e4f1b7e1cc20bbf1c70af28e135beaddf6ab",
+          "duration": 84.55836734693878,
+          "file": "Audio/Transport/full_npc_naralex-99ecb352d6c3730966ad/1-0000.mp3",
+          "sha256": "fd55c68c446fb7eed4485900882f8366a3faf1070055b9798c99d52034849e9a",
           "start": 0
         }
       ],
@@ -1031,21 +1031,21 @@
         ]
       },
       "fullHash": "6dcdbf",
-      "generation": "7efe16ff411130e44851",
+      "generation": "ee104b55f0dfa503213b",
       "hash": "526094",
       "source": {
-        "duration": 90.3575,
+        "duration": 84.532188,
         "file": null,
-        "sha256": "3c0e5a8e610c3423992b49802f9abe73b2e1abdfed16532e479a3ab84c6eb595"
+        "sha256": "99ecb352d6c3730966adc9466bc87c965ad0e39c54d005de8ce5db3b27df92b7"
       },
       "text": "Naralex. Naralex is a night elf druid who sought to restore the parched Barrens to a lush forest using the powers of the Emerald Dream. Instead, his slumber was overtaken by a dark nightmare, twisting the Wailing Caverns beneath the earth and turning his followers into venomous fiends. Long before the Great Sundering, the sun-scorched plains of the Barrens were once a vibrant forest. Viewing this loss as a tragedy, Naralex journeyed to the Barrens with a cohort of devoted disciples to reverse the drought. Deep beneath the savannah, he discovered an intricate subterranean network of underground springs and rushing geysers, naming them the Wailing Caverns after the howling wind and steam that moaned through the rock. He believed that by entering a deep trance and channeling the pristine energies of the Emerald Dream into these subterranean waters, the life-giving flow would reach the surface and cause the entire wasteland to bloom. Naralex seated himself in deep meditation deep within the subterranean caverns, but his noble design collapsed the moment his consciousness touched the realm of the Dream. Rather than finding peaceful fonts of wild nature, his mind was ensnared by a malignant, encroaching corruption—an Emerald Nightmare. The festering corruption seized the sleeping druid's body, transforming him into an open conduit through which dark energies bled into the living world. The pristine springs turned foul, sprouting mutated fungal blooms and warping the native beasts of the caverns into ravenous deviate horrors."
     },
     "npc:oggleflint": {
       "1": [
         {
-          "duration": 83.06938775510204,
-          "file": "Audio/Transport/full_npc_oggleflint-c3620897da08ba6b3e47/1-0000.mp3",
-          "sha256": "ad64259e82d343a9f5273e796b1b9588ea754d46397c3afe295b25ffaba56906",
+          "duration": 70.06040816326531,
+          "file": "Audio/Transport/full_npc_oggleflint-592a9746fe82cabdd99c/1-0000.mp3",
+          "sha256": "86a0f8d73911ab54d064ae0bc2381c3e209124d96be70eff0ffa63ea5aec6d4f",
           "start": 0
         }
       ],
@@ -1057,21 +1057,21 @@
         ]
       },
       "fullHash": "99ba55",
-      "generation": "4ef9ed5590df6a450486",
+      "generation": "a2f36be8939ca17bf2f4",
       "hash": "6e56f3",
       "source": {
-        "duration": 83.04325,
+        "duration": 70.03425,
         "file": null,
-        "sha256": "c3620897da08ba6b3e4705ec7874275bb42b7d2d7c6089d1bfa46055c5f4d897"
+        "sha256": "592a9746fe82cabdd99c78a24e769b9e48bf85e81a870d0bcba4860605f3882d"
       },
       "text": "Oggleflint. Oggleflint is the chieftain of the trogg tribe dwelling within the volcanic depths of Ragefire Chasm directly beneath Orgrimmar. His troggs have been creeping up from the lava-filled tunnels toward the surface, and from his place near the cavern's entrance he commands a savage pack that poses an immediate threat to the Horde capital above. Oggleflint and his troggs climbed out of the fiery tunnels deep beneath Orgrimmar and into Ragefire Chasm. Brutal and territorial, they carved out a primitive domain among the molten rock. Though troggs possess little in the way of advanced civilization, Oggleflint maintained absolute authority over the pack through sheer brute strength. When Elder Crone Magatha Grimtotem sent diplomats into the chasm to make peace with the troggs, the troggs turned on them and killed them. The body of one envoy, Maur Grimtotem, lay in the caverns under Oggleflint's watch. The trogg chieftain now waits near the cavern entrance, striking at any outsider who comes down into the dark. Having troggs directly beneath Thrall's capital is a hazard the Horde cannot tolerate. Creeping closer to the surface, Oggleflint's tribe is far too volatile to leave unchecked, threatening to spill into the Drag and Cleft of Shadow if left undisturbed."
     },
     "npc:old-serra-kis": {
       "1": [
         {
-          "duration": 66.48163265306123,
-          "file": "Audio/Transport/full_npc_old-serra-kis-07ab657a2f6ad076d3cc/1-0000.mp3",
-          "sha256": "b03907ca8efcd917d5a0e108d100b492ce298f475ec5c67ea80c8ef7a97c437c",
+          "duration": 49.632653061224495,
+          "file": "Audio/Transport/full_npc_old-serra-kis-4f114d30a472f9dc5568/1-0000.mp3",
+          "sha256": "d17dc022546364db21f3133a281fc7df749d92dbb2563ed6f7bb742baacc8e75",
           "start": 0
         }
       ],
@@ -1083,21 +1083,21 @@
         ]
       },
       "fullHash": "8aad85",
-      "generation": "48842e109bcdf08cb1bb",
+      "generation": "238ea890e54ba2f3ef81",
       "hash": "4722af",
       "source": {
-        "duration": 66.4555,
+        "duration": 49.6065,
         "file": null,
-        "sha256": "07ab657a2f6ad076d3ccc94b48201e3ec936e86001faf205e1d759199f59acdc"
+        "sha256": "4f114d30a472f9dc556854579c20150feeb096c85eecf109c10f168db360875a"
       },
       "text": "Old Serra'kis. Old Serra'kis is an ancient, massive threshadon dwelling in the submerged subterranean waters of Blackfathom Deeps. Hidden in a flooded cave beneath the ruins, the enormous beast is lethal to any who seek it out. The Twilight's Hammer has made its home in the sunken Moonshrine Ruins, but the dark waters beneath the Moonshrine Sanctum hide older, wilder things. Old Serra'kis, the largest threshadon in the sunken temple, lurks in the Forgotten Pool, a flooded cave beneath the ruins where few would think to look. Reaching Old Serra'kis requires plunging deep beneath the temple floor into a flooded cavern beneath the ruins. Lacking air pockets, the cave itself is as deadly as the beast within. Those who corner him find that Serra'kis possesses an unnatural shadow-leeching resilience, draining the life from his attackers while sustaining his own vitality in the murky darkness."
     },
     "npc:overlord-ramtusk": {
       "1": [
         {
-          "duration": 68.4669387755102,
-          "file": "Audio/Transport/full_npc_overlord-ramtusk-ceaacab58b83db440ad3/1-0000.mp3",
-          "sha256": "f013296b7a62d9b4dcef69dc3e9f1b33978acc677ce24ac164651d207aa505a8",
+          "duration": 50.83428571428571,
+          "file": "Audio/Transport/full_npc_overlord-ramtusk-f30c64d1ab539ebcabba/1-0000.mp3",
+          "sha256": "b6d844d7261c73449544b47898c4cabb2ceebf1b84c783f467d9f0bf50245581",
           "start": 0
         }
       ],
@@ -1109,12 +1109,12 @@
         ]
       },
       "fullHash": "09ff4d",
-      "generation": "128ffe85d19bcabc63ff",
+      "generation": "89f7e2a2e42020ddf10a",
       "hash": "a42068",
       "source": {
-        "duration": 68.440813,
+        "duration": 50.808125,
         "file": null,
-        "sha256": "ceaacab58b83db440ad3f21b6f15606f0e890cfc487d9880bb7fce4b69b40403"
+        "sha256": "f30c64d1ab539ebcabbadce0fc3fe23096e8d953b69e116968f0759885325807"
       },
       "text": "Overlord Ramtusk. Overlord Ramtusk is a massive quilboar warlord who leads the warriors deep within Razorfen Kraul. Crying out for victory and for Agamaggan, he fights at the head of his elite guards, and striking him down shatters the martial backbone of the Kraul's defenders. Overlord Ramtusk holds command deep within the thorny maze of Razorfen Kraul, the quilboar stronghold in the southern Barrens. He goes into battle with a war cry to the boar demigod Agamaggan, and he rules the Kraul's fighters with unyielding authority. Within the winding brambles of the Kraul, Ramtusk directs the quilboar warriors. As their warlord, he maintains tight discipline among the bristled fighters defending the tribe's sanctum. Flanked by elite marksmen, Ramtusk fights like a frontline berserker, bellowing rallying shouts and unleashing earth-shattering slams that can break opposing battle lines in seconds."
     },
@@ -1147,9 +1147,9 @@
     "npc:scarlet-commander-mograine": {
       "1": [
         {
-          "duration": 39.81061224489796,
-          "file": "Audio/Transport/full_npc_scarlet-commander-mograine-10b85dff7dcb49479b45/1-0000.mp3",
-          "sha256": "7d96e502b6e1f9332560719b6bfcd9aa59b4db95351bd11160df2911d924bb83",
+          "duration": 39.78448979591837,
+          "file": "Audio/Transport/full_npc_scarlet-commander-mograine-2fbc62d60504c0376faf/1-0000.mp3",
+          "sha256": "26a0def782a9eeced3fb5b204e7990f21171683312bde6ec8745449a2040fcb4",
           "start": 0
         }
       ],
@@ -1161,12 +1161,12 @@
         ]
       },
       "fullHash": "53fc83",
-      "generation": "3cd8cbb295c1d0229966",
+      "generation": "2ca7295ed4f0e719b8e3",
       "hash": "53fc83",
       "source": {
-        "duration": 39.784438,
+        "duration": 39.758313,
         "file": null,
-        "sha256": "10b85dff7dcb49479b45d04b5068d38b0c7cedc9a326ce1240ddc2ef31a2870c"
+        "sha256": "2fbc62d60504c0376fafbf5e0ab9b934fe25f31e246f8318b02fa28cee7baf5b"
       },
       "text": "Scarlet Commander Mograine. Scarlet Commander Mograine serves as the military leader garrisoned inside the Cathedral of the Scarlet Monastery. A zealous paladin of the Scarlet Crusade, he defends the chapel alongside High Inquisitor Whitemane. Both the Horde and Alliance target him to disrupt the zealots threatening Tirisfal Glades and the surrounding lands. Stationed within the grand Crusader's Chapel at the heart of the Scarlet Monastery, Scarlet Commander Mograine commands the standing garrison of the Scarlet Crusade. He wields the holy power of a paladin with ferocious dedication, relying on retribution, divine shields, and stunning blows to shatter any whom the Crusade deems corrupted or unclean."
     },
@@ -1277,9 +1277,9 @@
     "npc:twilight-lord-kelris": {
       "1": [
         {
-          "duration": 76.01632653061225,
-          "file": "Audio/Transport/full_npc_twilight-lord-kelris-1ce7620136bd21fab652/1-0000.mp3",
-          "sha256": "05b3ad239faed62d0c889ee162cdaa3a6780bd59d9127136ec8d10c36258ead1",
+          "duration": 67.39591836734694,
+          "file": "Audio/Transport/full_npc_twilight-lord-kelris-35bd9bb441af26481a63/1-0000.mp3",
+          "sha256": "d26334aa83cef664e2a86e1658e486096cb759bb332cd600b261261d53e4474d",
           "start": 0
         }
       ],
@@ -1291,12 +1291,12 @@
         ]
       },
       "fullHash": "05adfc",
-      "generation": "75143c3b1b02a9941f38",
+      "generation": "c6700e30333f20d73eee",
       "hash": "5235c2",
       "source": {
-        "duration": 75.990188,
+        "duration": 67.36975,
         "file": null,
-        "sha256": "1ce7620136bd21fab65253df0717d6ec5237c4b14fb0b6cba31d26e7a3a2871e"
+        "sha256": "35bd9bb441af26481a6310fdd3f4539f03faeb560ba9c2996256b7ac660dd0ea"
       },
       "text": "Twilight Lord Kelris. Twilight Lord Kelris is an orc warlock and high-ranking leader within the Twilight's Hammer cult operating deep inside Blackfathom Deeps. From his perch in the Moonshrine Sanctum, he leads dark rituals in worship of the primordial hydra Aku'mai, aiming to usher in a reign of cosmic chaos. Twilight Lord Kelris directs the cultists of the Twilight's Hammer who seized the sunken ruins of Blackfathom Deeps. For years, Kelris slipped through the grasp of watchful eyes in Darnassus, evading the Argent Dawn and earning a grim reputation: whenever ancient malice stirred across Kalimdor, Kelris was suspected of orchestrating it. Rather than serving warlords or clans, this orc has pledged himself entirely to the Old Gods, seeking to unmake mortal civilization and return Azeroth to a state of absolute, primordial chaos. Within the Moonshrine Sanctum, Kelris oversees the cult's worship of Aku'mai, a vicious three-headed hydra and servant of an Old God. Allied with the naga, the Twilight's Hammer occupies the drowned temple, and Kelris presides over the cult's rites, sacrificing innocents to Aku'mai for power."
     },
@@ -1329,9 +1329,9 @@
     "npc:viscous-fallout": {
       "1": [
         {
-          "duration": 67.76163265306123,
-          "file": "Audio/Transport/full_npc_viscous-fallout-f26e73f35ed105041553/1-0000.mp3",
-          "sha256": "684a7776b139c758bf83524433933cf646680af66289a528c926fb8c43c4fdc4",
+          "duration": 50.39020408163265,
+          "file": "Audio/Transport/full_npc_viscous-fallout-f764c2abe602367e3037/1-0000.mp3",
+          "sha256": "a9e93ac556422048091b4c526d31582d4d8fd06c97b4f72361abf857aad5d9a8",
           "start": 0
         }
       ],
@@ -1343,12 +1343,12 @@
         ]
       },
       "fullHash": "d304b5",
-      "generation": "d366461520bafa366eae",
+      "generation": "71d28ee7d7e5f7a607a0",
       "hash": "8e4d32",
       "source": {
-        "duration": 67.7355,
+        "duration": 50.364063,
         "file": null,
-        "sha256": "f26e73f35ed1050415539dfe4d538b2f874ad9db4ab49192707ada466245b245"
+        "sha256": "f764c2abe602367e3037ee264c5b6503f5cfc4b77a126ddc9f26ab7549eba6bf"
       },
       "text": "Viscous Fallout. Viscous Fallout is a toxic water elemental wandering the irradiated corridors of Gnomeregan, a living mass of the poison that fouled the city after Mekgineer Thermaplugg's devastating radiation release. When Gnomeregan was flooded with radiation on Mekgineer Thermaplugg's treacherous advice to wipe out the invading troggs, the fallout left the city's lower levels awash in toxic slime and contamination. Viscous Fallout is a water elemental of that poisoned depth, its very substance thick with the city's toxic waste. Where it came from before the fall is not known. Now, the creature is little more than a living pool of toxic sludge, drifting through the irradiated lower passages. Spewing volleys of toxin, Viscous Fallout lashes out at anything in its path. Striking it down is a grim necessity for those venturing into Gnomeregan to cleanse the tainted depths."
     },
@@ -1459,9 +1459,9 @@
     "subzone:sen-jin-village": {
       "1": [
         {
-          "duration": 93.96244897959184,
-          "file": "Audio/Transport/full_subzone_sen-jin-village-71e78e03a92215b4b43c/1-0000.mp3",
-          "sha256": "7eb2f9f84965441a19df9abdaa304ebea6fd41e9219c782a8f6767ab5c307230",
+          "duration": 90.95836734693877,
+          "file": "Audio/Transport/full_subzone_sen-jin-village-dc83f1ef09ed70a89b29/1-0000.mp3",
+          "sha256": "83e9d503932403758458888b017b32d58f90e8d4e437ff6759e0399a7c21b556",
           "start": 0
         }
       ],
@@ -1473,12 +1473,12 @@
         ]
       },
       "fullHash": "19fcfa",
-      "generation": "f2610e215bb5cb2007da",
+      "generation": "31db5de1eda1569db2d1",
       "hash": "940fe4",
       "source": {
-        "duration": 93.936313,
+        "duration": 90.932188,
         "file": null,
-        "sha256": "71e78e03a92215b4b43c8dfe808b99143b19999c07d92c8d367f2c3dbb885722"
+        "sha256": "dc83f1ef09ed70a89b295271547f74d775e9985a4d9f412c791eb5e520c4f560"
       },
       "text": "Sen'jin Village. Sen'jin Village is a coastal settlement on the southern shores of Durotar, serving as a sanctuary for the Darkspear trolls. Established by Chieftain Vol'jin after his people were driven from their ancestral home on the Echo Isles, the hamlet honors his fallen father, the witch doctor Sen'jin. Today, it stands as a fragile haven focused on survival, herbalism, and reclaiming what was stolen. When the dark witch doctor Zalazane betrayed the Darkspear and seized control of the Echo Isles, Chieftain Vol'jin was forced to lead the survivors across the strait to the mainland of Durotar. There, nestled beneath coastal cliffs and looking out over the water, they raised crude huts and established Sen'jin Village. The settlement carries the name of Vol'jin's father, the venerable elder who was captured and sacrificed by murlocs during the Third War. Despite their close alliance with Thrall's Horde, the trolls here live under the shadow of exile, staring daily across the shallows at the home they lost. Daily life in Sen'jin Village revolves around preparation and defense. Between local quilboar raids, aggressive sea beasts, and Zalazane's hexes reaching across the sea, the villagers rely heavily on herbal remedies and brewing potent alchemical spirits. While Vol'jin coordinates broader tribal defense from the Horde capital, local shamans, hunters, and scouts gather here to recruit fresh wanderers stepping out of the Valley of Trials. Their aim is clear: to gather resources, protect Durotar's southern flank, and plot the eventual downfall of the traitor Zalazane."
     },
@@ -1537,9 +1537,9 @@
     "topic:alliance-of-lordaeron": {
       "1": [
         {
-          "duration": 162.6122448979592,
-          "file": "Audio/Transport/full_topic_alliance-of-lordaeron-b86ded8c0e7e7ba17df2/1-0000.mp3",
-          "sha256": "dc94f55a43e3d717bee5135b84bbb5a7c90665189f8edc8f0f49c04d3ec5a6d7",
+          "duration": 141.66204081632654,
+          "file": "Audio/Transport/full_topic_alliance-of-lordaeron-d472178dd0fec24d6351/1-0000.mp3",
+          "sha256": "9a68e232c5827a3cb829d51378347bc608ba7bf0211d304f7196f23907ebb8b1",
           "start": 0
         }
       ],
@@ -1551,12 +1551,12 @@
         ]
       },
       "fullHash": "be36a6",
-      "generation": "73d35e5f8fc1d90433ed",
+      "generation": "cfbec0d12669b627fca3",
       "hash": "be36a6",
       "source": {
-        "duration": 162.586063,
+        "duration": 141.635875,
         "file": null,
-        "sha256": "b86ded8c0e7e7ba17df2b922e3298316dcd76eaea286f8a9036117227035a052"
+        "sha256": "d472178dd0fec24d635156e5af4208cc9431ee19e434cd562278220132616afa"
       },
       "text": "Alliance of Lordaeron. The Alliance of Lordaeron was the historic grand coalition of the seven human kingdoms, Khaz Modan dwarves, Wildhammer gryphon riders, gnomes, and high elves formed to resist the Old Horde in the Second War. Led militarily by Supreme Commander Anduin Lothar and diplomatically by King Terenas Menethil II, it shattered the invading orcish forces and secured the Eastern Kingdoms. Though political fractures and the devastation of the Scourge tore it apart during the Third War, its legacy laid the foundation for the current Alliance. Following the horrific sack of Stormwind in the First War, Regent Lord Anduin Lothar brought the battered southern refugees across the Great Sea to Capital City. Pleading their cause before King Terenas Menethil II, Lothar convinced him to gather the rulers of the human nations in council. Old rivalries and border tensions ran deep, but the threat of the Horde outweighed them. Choosing Lothar as their Supreme Commander, the seven human nations bound themselves together in a desperate pact. Facing brutal orcish warriors, dark warlocks, and monstrous red dragons, the Alliance forged entirely new doctrines of war. Archbishop Alonsus Faol and Lothar established the Knights of the Silver Hand, elevating holy paladins like Uther the Lightbringer to counter the Horde's dark magic. When the war raged across the Hinterlands and quelled the siege of Aerie Peak, Kurdran Wildhammer pledged his fierce gryphon riders to rule the skies. Shortly thereafter, the Bronzebeard dwarves and Gnomeregan gnomes were liberated, joining high elven rangers under Alleria Windrunner. Despite the treacherous betrayal of King Perenolde of Alterac, the grand coalition drove the Horde back to Blackrock Spire and crushed their dominion. Victory brought bitterness rather than enduring peace. Bitter disputes erupted over the high taxes required to maintain the orc internment camps and rebuild the blasted kingdom of Stormwind. Seeing little personal gain, Gilneas built the Greymane Wall and severed ties, Stromgarde departed over territorial and prisoner quarrels, and Quel'Thalas pulled back behind its enchanted runestones. The coalition that remained under King Terenas attempted to weather the political storm, only to be utterly dismantled during the Third War when the Cult of the Damned and the Plague of Undeath swept across Lordaeron. Arthas Menethil's betrayal tore the heart out of the kingdom, ending the golden age of the northern realm."
     },
@@ -1693,9 +1693,9 @@
     "topic:blackrock-clan": {
       "1": [
         {
-          "duration": 108.09469387755102,
-          "file": "Audio/Transport/full_topic_blackrock-clan-0cfc7efefa011c380c07/1-0000.mp3",
-          "sha256": "cc1617beac51a93bfe48fbd43c4257269bc506df5a9fe1f947bafc80c188fb2f",
+          "duration": 102.29551020408164,
+          "file": "Audio/Transport/full_topic_blackrock-clan-a4c3358996f4264f987b/1-0000.mp3",
+          "sha256": "caaacfe6d413e918cf64373e15641fdb3b021fbc52c82d908695bc258ef9e26f",
           "start": 0
         }
       ],
@@ -1707,12 +1707,12 @@
         ]
       },
       "fullHash": "24138e",
-      "generation": "aa8d1448025bdec96aee",
+      "generation": "0db511741d4113e9f21d",
       "hash": "24138e",
       "source": {
-        "duration": 108.068563,
+        "duration": 102.269375,
         "file": null,
-        "sha256": "0cfc7efefa011c380c07ed28b8f701283c55dd95cdcbb208209d41c147c55509"
+        "sha256": "a4c3358996f4264f987bf88877cd604a7390441197619c12534b8b132547551a"
       },
       "text": "Blackrock clan. The Blackrock clan is a martial orcish clan renowned for its strict military discipline, unmatched blacksmithing, and central role in the First and Second Wars. Today, the clan is deeply fractured: while some veterans follow Thrall in the New Horde, a vicious and renegade splinter group known as the Dark Horde occupies the upper peaks of Blackrock Mountain under Rend Blackhand. Hailing from Draenor, the Blackrock clan made its name through rigid hierarchy, heavy armor, and mastery over the forge. Under Chieftain Blackhand, they served as the brutal core of the Old Horde during the invasion of Azeroth, laying siege to Stormwind. When Orgrim Doomhammer slew Blackhand to cleanse the Horde of Gul'dan's direct puppet mastery, leadership of both the clan and the Horde remained firmly in Blackrock hands through the grueling campaigns of the Second War. Following the Horde's catastrophic defeat at Blackrock Mountain, the clan shattered. Many warriors were rounded up and placed in Alliance internment camps, later to be liberated by Thrall and inducted into his reformed New Horde. However, unrepentant elements rallied behind Blackhand's sons, Rend and Maim. This faction retreated into the heights of Blackrock Spire, forming the hostile Dark Horde alongside remnants of the Dragonmaw and other rogue clans. Today, Rend Blackhand claims the mantle of true Warchief from his throne in Blackrock Spire. The Dark Horde maintains an uneasy and treacherous truce with the Dark Iron dwarves who lurk in the molten depths below, all while waging war against both the Alliance and Thrall's Horde. Uncompromising, demon-tainted remnants of the clan have also been spotted lingering in Lordaeron, seeking to revive dark sacrificial rituals."
     },
@@ -1771,9 +1771,9 @@
     "topic:burning-legion": {
       "1": [
         {
-          "duration": 130.74285714285716,
-          "file": "Audio/Transport/full_topic_burning-legion-56c573c49e71baa80ddc/1-0000.mp3",
-          "sha256": "c777df75e264d5a37bc6c4fc64848f30bd1ef13eb3cb73d8df09cd8f545d543a",
+          "duration": 129.6457142857143,
+          "file": "Audio/Transport/full_topic_burning-legion-b265a3dbf6df74a2e704/1-0000.mp3",
+          "sha256": "d4d294ab1e7cd53ec717c1580a0f62fd931c2be6dd142ae8bd156d49f5d62a30",
           "start": 0
         }
       ],
@@ -1785,12 +1785,12 @@
         ]
       },
       "fullHash": "a7353f",
-      "generation": "a60b54f9d588a0f8a76c",
+      "generation": "1cf62c322aea50cf854e",
       "hash": "a7353f",
       "source": {
-        "duration": 130.716688,
+        "duration": 129.645714,
         "file": null,
-        "sha256": "56c573c49e71baa80ddcc302f69c8a23d4759297a0625091007c1ae16ec77305"
+        "sha256": "b265a3dbf6df74a2e704d5081dd26c7461994816e0abcafbbd821e7d84fce57d"
       },
       "text": "Burning Legion. The Burning Legion is an infinite, apocalyptic host of demons led by the fallen titan Sargeras, dedicated to scouring all life from creation. Having already shattered ancient Kalimdor ten thousand years ago, the demons remain Azeroth's most relentless nemesis, orchestrating the corruption of the orcs and the horrors of the Third War. Long ago, Sargeras stood as the champion of the titans, tasked with hunting down and imprisoning the demons that plagued the cosmos. Over countless ages of battling their evil, he grew disillusioned and concluded that creation itself was fatally flawed and must be unmade in flame. To enact his crusade, he freed the demons he had imprisoned, bending them to his will through fel magic. He augmented their chaos with the intellect of the corrupted eredar—elevating Archimonde and Kil'jaeden as his chief lieutenants—and forged an unstoppable engine of cosmic annihilation. Ten millennia ago, the reckless sorceries of the Highborne drew the Legion's gaze to Azeroth. Whispering through the Well of Eternity, Sargeras seduced Queen Azshara and her councilor Xavius with promises of reshaping the world into paradise. Instead, the portal unleashed commanders like Mannoroth and Archimonde alongside swarms of doomguard, felhounds, and flaming infernals. The ensuing war reduced Kalimdor's civilization to ruin before an alliance of night elves, dragonflights, and demigods collapsed the gateway. The catastrophic implosion tore the supercontinent apart in the Great Sundering, casting the ruined lands across vast new seas. Though cast back into the Twisting Nether, the Legion never abandoned Azeroth. Deciding that direct invasion invited failure, Kil'jaeden orchestrated proxy cataclysms from afar. The deceiver bound the orcs of Draenor through demonic blood pacts, sending the Horde charging through the Dark Portal to weaken mortal defenses. When that failed, the Legion forged the Lich King and unleashed the undead Scourge across Lordaeron, paving the way for Archimonde's return in the Third War. Even after Archimonde fell at Mount Hyjal, remnants of the Legion linger across Felwood, the Blasted Lands, and hidden cults throughout the world."
     },
@@ -1823,9 +1823,9 @@
     "topic:cenarius": {
       "1": [
         {
-          "duration": 112.90122448979592,
-          "file": "Audio/Transport/full_topic_cenarius-dc0a5f66a75bef7af760/1-0000.mp3",
-          "sha256": "1dae53a66d2d5460a8d389aa226586f05b986d99236b4c50c8b7c3da992d3801",
+          "duration": 96.6791836734694,
+          "file": "Audio/Transport/full_topic_cenarius-9af88fba77428f285721/1-0000.mp3",
+          "sha256": "15d36c0bef14c573c224576291cb78313e6457bb4a04ec86ea83f1a3ade70e75",
           "start": 0
         }
       ],
@@ -1837,12 +1837,12 @@
         ]
       },
       "fullHash": "c1403e",
-      "generation": "354e5c8cf7607aa31ea6",
+      "generation": "2978437404f554e97ba6",
       "hash": "c1403e",
       "source": {
-        "duration": 112.875063,
+        "duration": 96.653063,
         "file": null,
-        "sha256": "dc0a5f66a75bef7af760ef5f05e284db29ceedbd0fc3c659233c7e8c26b3e168"
+        "sha256": "9af88fba77428f285721b4faeb7d95a078e859d9f31e6a34994dad0281f5cea1"
       },
       "text": "Cenarius. Cenarius, the Lord of the Forest, is the ancient demigod son of Elune and Malorne who taught the night elves the secrets of druidism. For thousands of years he served as the great patron of mortal druids and guardian of the wilderness before falling in battle during the Third War. Cenarius was born to Elune, the goddess of the moon, and the great white stag demigod Malorne. Because Cenarius was bound to the mortal world, Elune placed him in the care of Malorne, while Ysera the Dreamer embraced him as a foster mother and guided him through the infinite paths of the Emerald Dream. Blessed with powers over living wood and earth, Cenarius fathered the Keepers of the Grove and the dryads, forever tying his bloodline to the wild places of Kalimdor. Millennia ago, three youths—Malfurion Stormrage, his twin Illidan, and Tyrande Whisperwind—sought out the demigod of legend. Cenarius recognized Malfurion's exceptional heart and trained him as the first mortal druid. When Queen Azshara and her Highborne unleashed the Burning Legion during the War of the Ancients, Cenarius marshaled Kalimdor's wild demigods to fight alongside mortal defenders. For ten millennia following the Great Sundering, Cenarius watched over Kalimdor and nurtured the Cenarion Circle alongside Malfurion. That vigilant watch ended during the Third War when the Warsong clan began harvesting timber in Ashenvale. Outraged by the destruction of sacred woodlands, Cenarius drove the invaders back until Grom Hellscream and his warriors partook of Mannoroth's demonic blood. Infused with demonic fury, the corrupted orcs overwhelmed the demigod and struck him down, casting a dark pall across nature's defenders."
     },
@@ -1979,9 +1979,9 @@
     "topic:darkspear-tribe": {
       "1": [
         {
-          "duration": 103.28816326530612,
-          "file": "Audio/Transport/full_topic_darkspear-tribe-077365b4b9119b52a650/1-0000.mp3",
-          "sha256": "708b23ea1bf89a8653a08fa36545120f896c8aa42422eaf19279893abf7e8701",
+          "duration": 98.84734693877552,
+          "file": "Audio/Transport/full_topic_darkspear-tribe-0b8b899f76d28292b658/1-0000.mp3",
+          "sha256": "6286638d17cd1157c0f47a63e4df9d6fd0d76aee688a8a05c4b8208ce213d9d0",
           "start": 0
         }
       ],
@@ -1993,21 +1993,21 @@
         ]
       },
       "fullHash": "7bba8f",
-      "generation": "1e3f810d476137515c15",
+      "generation": "9c90624e3efb334bb21d",
       "hash": "7bba8f",
       "source": {
-        "duration": 103.262,
+        "duration": 98.821188,
         "file": null,
-        "sha256": "077365b4b9119b52a650c514b97b51d132790ab776de3f2dc7da2b8465e4b29b"
+        "sha256": "0b8b899f76d28292b6583d27c3536c6e75d09b6096ac3fc2254fe4a936ac7470"
       },
       "text": "Darkspear tribe. The Darkspear are a tribe of jungle trolls who joined Thrall's Horde after being driven from their ancestral home in Stranglethorn Vale and rescued from a sea witch in the Great Sea. Led by Shadow Hunter Vol'jin from their temporary refuge at Sen'jin Village, they now serve as core members of the Horde across Kalimdor and the Eastern Kingdoms. Despite their alliance, they currently struggle to reclaim their new home, the Echo Isles, from the traitorous witch doctor Zalazane. Originally a smaller, less ruthless tribe within the broken Gurubashi Empire of Stranglethorn Vale, the Darkspear endured centuries of warfare and famine against brutal neighbors like the Bloodscalp and Skullsplitter tribes. Driven out to sea, they settled on remote islands, only to face aquatic murlocs, Kul Tiran sailors, and a naga sea witch. Their elder chieftain, Sen'jin, was captured and slain in dark sacrificial rites beneath the sea, but before dying he foretold that the orc Warchief Thrall would lead the Darkspear to a new destiny. Rescued by Thrall's passing fleet, the survivors pledged their undying loyalty to the new Horde and sailed westward to Kalimdor. Unlike their cannibalistic jungle kin, the Darkspear have adapted rapidly to the Horde's values of honor, establishing enclaves like Malaka'jin in the Stonetalon Mountains, Shadowprey Village in Desolace, and Zoram'gar Outpost in Ashenvale. In Orgrimmar, they make their spiritual home within the Valley of Spirits, where shadow hunters and witch doctors commune with the loa. Though respected for their scouts, bat riders, and powerful hexes, old traditions run deep; some ancient rituals frowned upon by their allies are still practiced quietly in the dark."
     },
     "topic:dragonmaw-clan": {
       "1": [
         {
-          "duration": 106.00489795918368,
-          "file": "Audio/Transport/full_topic_dragonmaw-clan-d4e529cc5a6087f41fa4/1-0000.mp3",
-          "sha256": "8d8c4170682f8d44b73077f038e329cb2c2b0d5487bd424c3abda9825001dc57",
+          "duration": 101.92979591836735,
+          "file": "Audio/Transport/full_topic_dragonmaw-clan-4260f9f5ec46e4558260/1-0000.mp3",
+          "sha256": "d09139ad20ab9f37775cf78dce54a3747ecc667680558846efb2861411ccbc1b",
           "start": 0
         }
       ],
@@ -2019,12 +2019,12 @@
         ]
       },
       "fullHash": "c857ef",
-      "generation": "165b95ec675f34b8b15e",
+      "generation": "c646eddd9e114ebaba48",
       "hash": "c857ef",
       "source": {
-        "duration": 105.97875,
+        "duration": 101.903625,
         "file": null,
-        "sha256": "d4e529cc5a6087f41fa4bf5d0f5558999edca0c0233464d049cfe1b37b4d1a89"
+        "sha256": "4260f9f5ec46e45582602755fa230e195f84df15acb5737eda890c60f773e8e1"
       },
       "text": "Dragonmaw clan. The Dragonmaw clan is an infamous orcish faction notorious for subduing and riding red dragons during the Second War. Guided by dark artifacts and foul magic, they imprisoned the Dragonqueen Alexstrasza beneath the cursed halls of Grim Batol until her liberation shattered their dominion. Today, their scattered remnants lurk in the wetlands and mountains of Khaz Modan, remaining hostile to both the Alliance and Thrall's New Horde. The Dragonmaw clan hailed from Draenor and crossed the Dark Portal with the Old Horde. On Azeroth, they turned their talents to subjugating its winged terrors. Guided by whispers from the black dragon Deathwing, the clan's chieftain, Zuluhed the Whacked, recovered an ancient golden disk: the Dragon Soul. Zuluhed entrusted this relic to his greatest warlock, Nekros Skullcrusher, who tapped into its fel taint and christened it the Demon Soul. Using the artifact's agonizing power, Nekros ensnared Alexstrasza the Life-Binder herself. The Dragonmaw fortified the abandoned dwarven bastion of Grim Batol, keeping the Dragonqueen chained in darkness and forcing her red dragon brood to serve the Old Horde as aerial dreadnoughts during the Second War. The Dragonmaw reign ended when the Demon Soul was finally destroyed, freeing Alexstrasza and her flight from their psychic torment. Alexstrasza devoured Nekros Skullcrusher, and her vengeful flight laid waste to Grim Batol, breaking the clan's back. Routed and terrified, the surviving Dragonmaw scattered into the marshy bogs of the Wetlands and the jagged peaks around Grim Batol. The remnants on Azeroth live as desperate, feral renegades, fiercely guarding their dwindling encampments against dwarven patrols and vengeful dragons alike."
     },
@@ -2083,9 +2083,9 @@
     "topic:explorers-league": {
       "1": [
         {
-          "duration": 129.75020408163266,
-          "file": "Audio/Transport/full_topic_explorers-league-7fa711dd9953527989ba/1-0000.mp3",
-          "sha256": "34f8911c5fa55a6921dcb65abdcc847db7c611bcdcd20cf00e7ffd88a8148da5",
+          "duration": 113.05795918367347,
+          "file": "Audio/Transport/full_topic_explorers-league-db3a51daf92894acc726/1-0000.mp3",
+          "sha256": "1ea44e6da37405fdaffaf264d6ec20a917b1b900ef97063872284d79bcc658d6",
           "start": 0
         }
       ],
@@ -2097,12 +2097,12 @@
         ]
       },
       "fullHash": "ca3a2a",
-      "generation": "fff15141cc8afcbc7c56",
+      "generation": "504c1d3724190dc023d6",
       "hash": "ca3a2a",
       "source": {
-        "duration": 129.724063,
+        "duration": 113.031813,
         "file": null,
-        "sha256": "7fa711dd9953527989bacf23ea809a786ebafae5008cfd587c42cf4f59f82d82"
+        "sha256": "db3a51daf92894acc726aa37bfb8e68fcffa913ed10525bf25840a1e548a5131"
       },
       "text": "Explorers' League. The Explorers' League is a renowned dwarven archaeological guild headquartered in Ironforge's Hall of Explorers. Founded under King Magni Bronzebeard and led by his wandering brother Brann, the League seeks to uncover the forgotten origins of the dwarven race. Their expansive digs span across Azeroth, uncovering ancient titan ruins while frequently igniting regional conflicts. For centuries, the dwarves of Khaz Modan focused their formidable energies on mining, stonework, and engineering. That focus changed drastically when ancient ruins were unearthed, hinting at a forgotten legacy connecting dwarves to mythical titan creators. Eager to solve the mystery of his people's beginnings, King Magni Bronzebeard decreed that dwarven industry pivot heavily toward archaeology. Magni, alongside his brother Brann, established the Explorers' Guild—now widely known as the Explorers' League—to scour the world for relics, forgotten cities, and traces of their ancient ancestry. The League's operations are directed from the cavernous Hall of Explorers in Ironforge, oversaw on a day-to-day administrative level by High Explorer Muninn Magellas while Brann Bronzebeard explores distant reaches. Across Khaz Modan and beyond, prospectors manage extensive digsites. Sites like Ironband's Excavation in Loch Modan and Whelgar's Excavation in the Wetlands uncover immense fossil records and ancient architecture. However, prospectors often find themselves under siege by displaced wildlife, troggs, and rival factions interested in subterranean relics. The League's aggressive expeditions have sparked fierce resistance outside dwarven homelands. In Kalimdor, League operations such as the Bael Modan dig in the southern Barrens drove out the native Stonespire tauren through heavy industrial blasting, stirring vengeance and angering local earth spirits. In the arid Badlands, League prospectors clash openly with the Dark Iron clan over the vast titan vaults of Uldaman."
     },
@@ -2135,9 +2135,9 @@
     "topic:forsaken": {
       "1": [
         {
-          "duration": 84.79346938775511,
-          "file": "Audio/Transport/full_topic_forsaken-1516e91aa677bfda430c/1-0000.mp3",
-          "sha256": "e4305f2d849773e959e8e0542036632f6f2ca4d5a53503890cb50a0211f17ae9",
+          "duration": 78.00163265306122,
+          "file": "Audio/Transport/full_topic_forsaken-bd0b68e4bb4f1964de73/1-0000.mp3",
+          "sha256": "af7fa75fa834d49b99f3a884ab6cae3717319a0c0a8ee4bfeec0aae785d4cbaa",
           "start": 0
         }
       ],
@@ -2149,12 +2149,12 @@
         ]
       },
       "fullHash": "0d519e",
-      "generation": "6a48400d964b6465e1d9",
+      "generation": "2d49fc76930efc2ef868",
       "hash": "0d519e",
       "source": {
-        "duration": 84.767313,
+        "duration": 77.9755,
         "file": null,
-        "sha256": "1516e91aa677bfda430c33b1c987dd49dd4ab47fb08646baf63d0474d4b6e480"
+        "sha256": "bd0b68e4bb4f1964de731d3bbb5ea3ed0379c69257cc889423c1eecfe37c073c"
       },
       "text": "Forsaken. The Forsaken are a free-willed faction of intelligent undead who broke away from the Scourge following the Third War. Led by the Banshee Queen Lady Sylvanas Windrunner, they dwell within the subterranean Undercity carved beneath the ruins of Lordaeron's capital. Though deeply distrusted across Azeroth, they maintain a tenuous alliance of convenience with the Horde. When the Lich King's grip over his northern armies slipped after the Third War, thousands of undead in the blighted ruins of Lordaeron suddenly regained their sapience and memories. Horrified by the butchery they had been forced to carry out while enslaved to his will, these former citizens found themselves reviled and hunted by the living. Lady Sylvanas Windrunner, the fallen ranger-general of Quel'Thalas who had been transformed into an unholy banshee, rallied these adrift spirits, claimed the catacombs beneath Capital City, and dubbed her new nation the Forsaken. Hemmed in by relentless enemies—chief among them the fanatic Scarlet Crusade and the Scourge—Sylvanas dispatched emissaries seeking allies. Across the Great Sea in Kalimdor, tauren elders counseled compassion, believing the cursed people might yet find redemption or a cure through the earth. Despite Warchief Thrall's misgivings, the Horde admitted the Forsaken, gaining a vital northern foothold in the Eastern Kingdoms."
     },
@@ -2317,9 +2317,9 @@
     "topic:harpy": {
       "1": [
         {
-          "duration": 140.27755102040817,
-          "file": "Audio/Transport/full_topic_harpy-b235c0b92aa205ad40c5/1-0000.mp3",
-          "sha256": "aeaa659b3cfbd442c50e69f2a2a7677b007a275d71227c5b800e3d40028ce8bd",
+          "duration": 115.61795918367348,
+          "file": "Audio/Transport/full_topic_harpy-32183701cfd4018238c6/1-0000.mp3",
+          "sha256": "3662db31d744a780eddb57eca59e35cfc6da84471f4d27b287e5324b30a4ce0b",
           "start": 0
         }
       ],
@@ -2331,12 +2331,12 @@
         ]
       },
       "fullHash": "8d3ebf",
-      "generation": "8bcea60df2846da2bf6a",
+      "generation": "909b55b0384f06fb7040",
       "hash": "8d3ebf",
       "source": {
-        "duration": 140.251375,
+        "duration": 115.591813,
         "file": null,
-        "sha256": "b235c0b92aa205ad40c5c9d13d59810c891a52b2f6d88c6001e9e58275302513"
+        "sha256": "32183701cfd4018238c6dc79ee22143d7b82aea01deee4841649f61f7f113f6c"
       },
       "text": "Harpy. Harpies are predatory, avian humanoids resembling winged night elves who dwell in foul-smelling roosts across Kalimdor and the high mountain passes of Alterac. Infamous for their shrill shrieks and tempestuous elemental magic, they raid unwary travelers and blight the environments they inhabit. Night elf folklore links them to cursed betrayers of Queen Azshara, though their true origins remain uncertain. Harpies bear the upper torsos and heads of night elf women, joined to broad feathered wings and wicked talons. Despite their delicate, elven visage—which ironically grows more striking as they age—their nature is thoroughly savage. Originally roosting among the crags of the Stonetalon Mountains, they have aggressively migrated across Kalimdor, terrorizing the arid canyons of Durotar, the sacred boughs of Teldrassil, and the heights of Mulgore. Unlike the wild creatures they hunt, harpies do not live in harmony with nature; they despoil surrounding flora and fauna, turning their nesting grounds into foul, fetid middens littered with the picked-clean bones of their prey. Night elf myth often claims harpies originated as treacherous handmaidens cursed by Queen Azshara before the Great Sundering, though no one can say for certain where they truly came from. Whatever their origins, harpies today operate as ruthless matriarchies, where aspiring queens must betray, slaughter, and torment rivals to maintain command. Beyond rending flesh with razor-sharp claws, harpies command dangerous wind and lightning magic, channeling shrieking gales to batter foes from above. They are deeply cunning hunters capable of spoken language, occasionally trading scavenged oddities with subterranean creatures like kobolds in exchange for bright gems and shiny trinkets. Unwary explorers are sometimes beguiled by their elven forms, but physical contact carries grave danger: a harpy's kiss is venomous, rapidly inflicting a violent, wasting fever upon those foolish enough to let their guard down."
     },
@@ -2421,9 +2421,9 @@
     "topic:knights-of-the-silver-hand": {
       "1": [
         {
-          "duration": 138.68408163265306,
-          "file": "Audio/Transport/full_topic_knights-of-the-silver-hand-0933c6db428206cc2054/1-0000.mp3",
-          "sha256": "d1ba4d8ec6de6bc6c7d169d28524dabc1e5abfcb14a1fdebe29980d2e3969373",
+          "duration": 123.35020408163265,
+          "file": "Audio/Transport/full_topic_knights-of-the-silver-hand-d372d70182eb8a411be5/1-0000.mp3",
+          "sha256": "2e3b6d0a95defc7050188bde7b7e3ad31d8e50911ed3f2030c67e1a1bff32c5d",
           "start": 0
         }
       ],
@@ -2435,21 +2435,21 @@
         ]
       },
       "fullHash": "c38ae1",
-      "generation": "fe75f4f77f8964e47e28",
+      "generation": "9d9441bd2c8191eef7a2",
       "hash": "c38ae1",
       "source": {
-        "duration": 138.657938,
+        "duration": 123.324063,
         "file": null,
-        "sha256": "0933c6db428206cc20542dc6e417b7821488de4c2fbc21f4c76da3a88ae8fd63"
+        "sha256": "d372d70182eb8a411be5edb4d3e75283d16f10eecabe30fb712b53e3899fff96"
       },
       "text": "Knights of the Silver Hand. The Knights of the Silver Hand are the legendary order of holy paladins founded after the First War to combine martial combat with the healing and smiting power of the Holy Light. Though their original northern chapter was broken during the fall of Lordaeron, surviving knights carry on their sacred vows in Stormwind and Ironforge, while scattered remnants battle the undead in the northern Plaguelands. Following the destruction of Stormwind during the First War, Archbishop Alonsus Faol recognized a dire flaw in the Alliance's defenses: the clerics of Northshire were devoted and skilled healers, but they lacked martial training and fell easily on the front lines. To ensure holy warriors could endure the brutal combat of the Second War, Faol and his premier student, Uther the Lightbringer, founded the Order of the Knights of the Silver Hand. Faol recruited both battle-hardened knights willing to learn devotion to the Light and devout clerics willing to bear plate armor and warhammers. Led by Uther the Lightbringer, the first paladins proved instrumental to the Alliance of Lordaeron. Riding into combat, the paladins lifted the morale of weary soldiers and countered the sinister necromancy of the Horde's death knights. Throughout the war, the Silver Hand broke peasant rebellions, reclaimed Caer Darrow, and helped defend Capital City against the siege of the orcs. In the years of peace that followed, the paladins guarded Lordaeron's borders, settled civil disputes, and served as shining exemplars of honor, humility, and justice. Tragedy struck the order from within during the Third War. Prince Arthas Menethil, a decorated knight of the Silver Hand, clashed bitterly with his mentor Uther outside Stratholme and unlawfully suspended the paladins when Uther refused to butcher the infected citizenry. When Arthas later succumbed to corruption and led the Scourge against Lordaeron, Uther was slain, shattering the order's central leadership. The surviving knights in the north fractured under differing doctrines, eventually birthing the zealous Scarlet Crusade and the vigilant Argent Dawn, while the surviving chapters in Stormwind and Ironforge continue to train new paladins under the classic banner of the Silver Hand."
     },
     "topic:kobold": {
       "1": [
         {
-          "duration": 109.7926530612245,
-          "file": "Audio/Transport/full_topic_kobold-d50efd44a9d2fb1f8090/1-0000.mp3",
-          "sha256": "d11f70e4a97e53736e61ec75bc3b2819e70252d35c147eec312fa4abcc7263b5",
+          "duration": 91.45469387755102,
+          "file": "Audio/Transport/full_topic_kobold-c268cb594a5a79f4760c/1-0000.mp3",
+          "sha256": "dc62700e9e451c2ae9434f7dcd3541a462aa51dbdb6bc07bfa3b5688f40f266b",
           "start": 0
         }
       ],
@@ -2461,21 +2461,21 @@
         ]
       },
       "fullHash": "050fa9",
-      "generation": "46aa5917d26ddbeff2fc",
+      "generation": "366712ccb1e5f6ad3c91",
       "hash": "050fa9",
       "source": {
-        "duration": 109.7665,
+        "duration": 91.428563,
         "file": null,
-        "sha256": "d50efd44a9d2fb1f809070d2957cef5b09c8a85a5cdd2670579f226904f6a987"
+        "sha256": "c268cb594a5a79f4760c64becd0312c01d4de35fcf27f4f59ab5a157c071f7ca"
       },
       "text": "Kobold. Kobolds are diminutive, rat-like subterranean humanoids found scuttling through mines and caverns across Azeroth. Notorious for their obsessive devotion to the tallow candles strapped to their heads, they are individually cowardly but dangerous in swarms, fiercely defending their dig sites against any who threaten their light. Standing barely four feet tall, kobolds are filthy, subterranean scavengers who spend their lives delving into the earth. Though they possess low-light vision, the deepest shafts are pitch-black, compelling every kobold to affix a crude candle to their head. While cowardly when cornered alone, kobolds breed in massive numbers and work with relentless energy. When agitated, their rat-like tails whip violently, and they overwhelm intruders in frantic mobs, beating foes to death with heavy iron mining picks. To a kobold, a candle is far more than a light source; it is an existential shield. They harbor a deep, primal terror of the pitch-black tunnels, believing that the unlit darkness will actively consume them. Across the Eastern Kingdoms, kobolds frequently overrun commercial mines. In Elwynn Forest, a clan displaced from the Redridge Mountains seized the Echo Ridge, Fargodeep, and Jasperlode mines, driven in part by Riverpaw gnolls and the Defias Brotherhood. In Loch Modan, the Tunnel Rat clan seized the Silver Stream Mine from the dwarven Miners' League. Even on Kalimdor, kobolds plague industrial digs, laboring for the Venture Company in Stonetalon or uncovering strange minerals in Thousand Needles."
     },
     "topic:kolkar-clan": {
       "1": [
         {
-          "duration": 103.83673469387756,
-          "file": "Audio/Transport/full_topic_kolkar-clan-9a7b655a228f82b48ee9/1-0000.mp3",
-          "sha256": "9ff8c944fbaf831a477a29a18bc65f255b7b1dde5c030413c08d10d60403ed20",
+          "duration": 99.55265306122449,
+          "file": "Audio/Transport/full_topic_kolkar-clan-eb66f1f6918a5432b5b4/1-0000.mp3",
+          "sha256": "cdac69db0f55bf8ab1ae05eba2b1b3265ffd40fa2aa1c35d5597e8162a0ee131",
           "start": 0
         }
       ],
@@ -2487,12 +2487,12 @@
         ]
       },
       "fullHash": "21a162",
-      "generation": "65d8663c135df7b36d06",
+      "generation": "da8c9e12971b1268dc26",
       "hash": "21a162",
       "source": {
-        "duration": 103.810563,
+        "duration": 99.5265,
         "file": null,
-        "sha256": "9a7b655a228f82b48ee967f3de278e6741b1c9e4d84145c399f41cd40c8c8ad1"
+        "sha256": "eb66f1f6918a5432b5b4851d58cc077aff88a23a5b562da3714eeaa88f283769"
       },
       "text": "Kolkar clan. The Kolkar are an aggressive clan of centaur native to central Kalimdor, claiming descent from the legendary first Khan, Kolk. They maintain strongholds in Desolace and across the Barrens, frequently raiding Horde settlements and fighting anyone who crosses their path. The Kolkar take their name from Khan Kolk, the legendary first centaur khan born from the union of Zaetar and Theradras. Driven by a deep hatred for other races and their fellow centaur clans alike, the Kolkar distinguish themselves by their red markings and an absolute refusal to form alliances. Historically based out of their ancient village in eastern Desolace, the restless spirit of Khan Kolk still wanders the subterranean depths of their ancestral lands. For generations, the nomadic tauren endured brutal raids from the Kolkar as they traversed the arid Barrens. When the orcs arrived on Kalimdor during the Third War, Thrall allied with Cairne Bloodhoof to push the marauding centaur back and escort the tauren to safety in Mulgore. Defeat did not break the clan; instead, it fueled a lingering blood feud. The Kolkar entrenched themselves around all three vital water sources in the Barrens: the Forgotten Pools, the Lushwater Oasis, and the Stagnant Oasis. Emboldened by their fortified positions across the savanna, the Kolkar have pushed eastward past the Southfury River into Durotar itself. From Kolkar Crag in the south, raiding parties plot assaults against Sen'jin Village, the Valley of Trials, and the paths approaching Orgrimmar. While senior Horde leadership focuses on larger regional threats, young recruits are dispatched to cull the centaur advance before their raiding parties can strike the nascent orc capital."
     },
@@ -2681,9 +2681,9 @@
     "topic:night-elf": {
       "1": [
         {
-          "duration": 126.74612244897959,
-          "file": "Audio/Transport/full_topic_night-elf-a424bc627ff9a8f3d017/1-0000.mp3",
-          "sha256": "86cefb8bf977de36ff8d0884c30a07360297e31d8f126435c2fec4d892c670db",
+          "duration": 121.96571428571428,
+          "file": "Audio/Transport/full_topic_night-elf-48f73738893b48813aa9/1-0000.mp3",
+          "sha256": "44ed65f988d1cae12d4ad4b592f84e44f77f07440073a778834826f647295f5a",
           "start": 0
         }
       ],
@@ -2695,12 +2695,12 @@
         ]
       },
       "fullHash": "38fa5a",
-      "generation": "a057568973975dff8fef",
+      "generation": "67a0eb36caf4fa8046dd",
       "hash": "38fa5a",
       "source": {
-        "duration": 126.72,
+        "duration": 121.939563,
         "file": null,
-        "sha256": "a424bc627ff9a8f3d0176ebcaac0567479199adf2bb56439abcae77ec2ec7896"
+        "sha256": "48f73738893b48813aa936e7192b33b2be4cb53820b8d8066790a5117cfb2b82"
       },
       "text": "Night elf. The night elves, or kaldorei, are an ancient and reclusive race native to the forests of northern Kalimdor. Once the masters of a sprawling magical empire, they abandoned arcane magic following the catastrophic War of the Ancients and turned to the worship of Elune and the path of druidism. In the wake of the Third War, having sacrificed their immortality to stop the Burning Legion, they joined the Alliance to defend their ancestral lands from Horde encroachment. Millennia ago, an inquisitive nocturnal tribe gathered around the shores of the Well of Eternity, a vast font of raw arcane energy. Over generations, the Well's cosmic magic transformed them into tall, violet-skinned, long-lived beings who called themselves the kaldorei—'children of the stars.' Guiding their early society were the moon goddess Elune and the forest demigod Cenarius, who nurtured their deep connection to the living wilds of Kalimdor. As centuries passed, the ruling caste—the Highborne, led by Queen Azshara—became obsessed with unlocking the Well's infinite arcane secrets. Their reckless use of sorcery built breathtaking wonders, but it ultimately caught the attention of the Burning Legion. The ensuing demonic invasion ended in the Great Sundering: the Well imploded, shattering ancient Kalimdor into fragmented continents and destroying Azshara's realm. Horrified by the calamity, the surviving kaldorei strictly outlawed arcane magic under penalty of death or exile. For ten thousand years, the night elves retreated into seclusion. Druids slumbered in the Emerald Dream to heal the world while the Priestesses of Elune and Sentinels stood guard over Kalimdor's woodlands beneath the World Tree Nordrassil. This isolation ended during the Third War when the Legion returned to attack Mount Hyjal. The kaldorei sacrificed their immortality to defeat Archimonde. Now, led by High Priestess Tyrande Whisperwind and Archdruid Fandral Staghelm, the night elves dwell in their young World Tree, Teldrassil, and fight alongside the Alliance to safeguard Ashenvale."
     },
@@ -2941,9 +2941,9 @@
     "topic:refugee": {
       "1": [
         {
-          "duration": 94.90285714285714,
-          "file": "Audio/Transport/full_topic_refugee-0543af6632d4c177514e/1-0000.mp3",
-          "sha256": "4aceb13013963b8a123b11d1e164be1d42519f4662ff3dce9862490ae3dbae3b",
+          "duration": 87.45795918367347,
+          "file": "Audio/Transport/full_topic_refugee-1fe7eefbdf068e9c426c/1-0000.mp3",
+          "sha256": "2e16cdc53ff8a90eb62a525ad3b6f2d53cf02cdfa86c08344e0c2a8b61023467",
           "start": 0
         }
       ],
@@ -2955,12 +2955,12 @@
         ]
       },
       "fullHash": "04912e",
-      "generation": "e619f8053bf738a6bdb7",
+      "generation": "8a6c86ff3a99733c8ead",
       "hash": "04912e",
       "source": {
-        "duration": 94.876688,
+        "duration": 87.431813,
         "file": null,
-        "sha256": "0543af6632d4c177514e4abc61faae989d691b6a67bc75eb21c543fa06ef65c3"
+        "sha256": "1fe7eefbdf068e9c426c849a1534f05f1b8da667b41d550f3ceeff03de390e67"
       },
       "text": "Refugee. Throughout the violent history of Azeroth, constant warfare has repeatedly driven civilian populations from their homes. From the exodus of Stormwind during the First War to the tragic flight from Lordaeron in the Third War, refugees remain living testaments to the devastating costs of invasion, plague, and betrayal. When the Orcish Horde swept through the kingdom of Stormwind during the First War, settlements like Goldshire, Moonbrook, and Grand Hamlet burned. Following the assassination of King Llane Wrynn, Sir Anduin Lothar took command of the kingdom's remnants. He gathered surviving soldiers and desperate civilians, escorting them to the harbor as the city burned. Lothar led a massive fleet across the Great Sea to the northern shores of Lordaeron. Arriving near Southshore, the exiled survivors—including the young Prince Varian Wrynn—were granted sanctuary by King Terenas Menethil II. A generation after welcoming Stormwind's exiles, the people of Lordaeron faced ruin of their own. During the Third War, the Scourge plague and the legions of the undead systematically dismantled the kingdom. Prince Arthas Menethil slaughtered his own subjects as he swept across the realm, leaving survivors scattered and terrified. Lady Jaina Proudmoore managed to lead an expedition of refugees across the sea to Kalimdor, eventually establishing a settlement at Theramore. However, countless others remained behind in the Eastern Kingdoms, hunted relentlessly by the Scourge, the Forsaken, and monstrous horrors that arose in the ruins."
     },
@@ -3123,9 +3123,9 @@
     "topic:second-war": {
       "1": [
         {
-          "duration": 130.16816326530613,
-          "file": "Audio/Transport/full_topic_second-war-6e454c3f752e63e3e4dc/1-0000.mp3",
-          "sha256": "df08e5f5a8da513a6b70ad9b38ebc7b226bbdaf54d605e72fb3e473341da75f6",
+          "duration": 123.08897959183673,
+          "file": "Audio/Transport/full_topic_second-war-448822d9ff174bbe32d0/1-0000.mp3",
+          "sha256": "dc26ba9307ea6ac253cf8fe3b0da8ba703912f5fedad766453bfd59c978e806d",
           "start": 0
         }
       ],
@@ -3137,12 +3137,12 @@
         ]
       },
       "fullHash": "e9dc82",
-      "generation": "8992ee448656c9e3b4dc",
+      "generation": "880929f332322d7b1107",
       "hash": "e9dc82",
       "source": {
-        "duration": 130.142,
+        "duration": 123.08898,
         "file": null,
-        "sha256": "6e454c3f752e63e3e4dc01e363b082e9148b82c22d21dca4573b6dcfaa3d1e72"
+        "sha256": "448822d9ff174bbe32d02e855b1d9feefab58d29e6054791224a2c0dd74e01ae"
       },
       "text": "Second War. The Second War was the continent-spanning clash across the Eastern Kingdoms between the Orcish Horde and the newly forged Alliance of Lordaeron. Sparked after the sack of Stormwind, the war devastated Khaz Modan and northern human realms before turning at the gates of Capital City. It ended in the destruction of the Dark Portal and the dispersal of the old Horde. Following the fall of Stormwind during the First War, Regent Anduin Lothar led human refugees north across the Great Sea to Lordaeron. King Terenas Menethil II convened the Council of Seven Nations, forging the Alliance of Lordaeron alongside the high elves of Quel'Thalas, the Bronzebeard dwarves of Ironforge, and the gnomes of Gnomeregan. Meanwhile, Warchief Orgrim Doomhammer consolidated the Horde, forging alliances with forest troll tribes and the Steamwheedle Cartel while subjugating red dragons through the Dragonmaw clan to invade the northern continents. The Horde launched devastating land and naval offensives, quickly overrunning Khaz Modan and driving the dwarves and gnomes behind the sealed gates of Ironforge and Gnomeregan. Advancing north across the Thandol Span and through the seas, orcish forces burned their way through Hillsbrad and the Hinterlands before laying siege to Capital City itself. The kingdom of Alterac betrayed the Alliance, guiding orc divisions through mountain passes. Despite devastating dragon attacks, the Alliance rallied around the newly created Knights of the Silver Hand and paladins who wielded the Holy Light against orcish warlocks and death knights. The war turned when the warlock Gul'dan deserted the Horde with his followers to pursue personal power, forcing Doomhammer to divert critical forces from the front lines. The Alliance counterattacked, breaking the siege of Lordaeron and systematically driving the Horde back south across the Thandol Span, liberating Khaz Modan along the way. In the final mountain passes of the Burning Steppes, Anduin Lothar fell in single combat against Doomhammer, but his lieutenant Turalyon rallied the troops and routed the orcs. The Alliance pursued the survivors all the way to the Black Morass, shattering the remnants and demolishing the Dark Portal."
     },
@@ -3227,9 +3227,9 @@
     "topic:steamwheedle-cartel": {
       "1": [
         {
-          "duration": 127.60816326530613,
-          "file": "Audio/Transport/full_topic_steamwheedle-cartel-25521c0935aa247d178d/1-0000.mp3",
-          "sha256": "1662e6332fc5e1fec072cbe8ab2ad39ccd9b166629b218436bf8ebd7e25843c7",
+          "duration": 130.50775510204082,
+          "file": "Audio/Transport/full_topic_steamwheedle-cartel-f579d24b90ca933657fe/1-0000.mp3",
+          "sha256": "a639b49063baa231f7e2ebf50b9cd96a0eb4969912c1a9194883144d6e90a967",
           "start": 0
         }
       ],
@@ -3241,12 +3241,12 @@
         ]
       },
       "fullHash": "75fdc9",
-      "generation": "8763ee52e7353175449e",
+      "generation": "c5faa0cd0e5e017178ce",
       "hash": "75fdc9",
       "source": {
-        "duration": 127.582,
+        "duration": 130.507755,
         "file": null,
-        "sha256": "25521c0935aa247d178dcdfd268b786b453befdb498dbc7e6b0937ea3707869a"
+        "sha256": "f579d24b90ca933657fe86e7409a26b843ef798f33ca680ce1abd5c210d31b74"
       },
       "text": "Steamwheedle Cartel. The Steamwheedle Cartel is the largest and most influential goblin enterprise operating across modern Azeroth. Fiercely neutral, the cartel governs bustling commercial hubs like Booty Bay, Ratchet, and Gadgetzan, serving Alliance and Horde patrons alike so long as their coin is genuine. Their sprawling operations encompass cross-continental shipping, alchemy, salvaging, and cutthroat mercenary contracting. Originating from the subterranean goblin capital of Undermine, the Steamwheedle Cartel initially allied with the Old Horde during the Second War, supplying war machines, sappers, and naval engineering. After the dust settled, the cartel's leaders realized that picking sides cost more than it earned. Embracing absolute neutrality, they expanded across both continents, opening trade networks that welcome Alliance and Horde alike. Today, as open tensions simmer, Steamwheedle ports provide vital common ground where anyone with gold can purchase passage, bank resources, and hire local specialists. The cartel's influence rests on strategic ports and frontier towns. In Stranglethorn Vale, Baron Revilgaz presides over Booty Bay, a fortified harbor town carved into the cliffs alongside the Blackwater Raiders. Across the Great Sea, Chief Engineer Gazlowe directs Ratchet on the coast of the Barrens, running a deep-water ferry line directly back to Booty Bay. Deep within the deserts of Tanaris lies the boomtown of Gadgetzan, while smaller operations like Steamwheedle Port and remote outposts in Desolace, Azshara, and Stonetalon Mountains secure regional resources. Steamwheedle trade is constantly imperiled by opportunistic cutthroats. In the Southern Seas, the Bloodsail Buccaneers continually menace Booty Bay's naval lanes, while Southsea Freebooters raid the coastlines near Ratchet. On land, the cartel frequently clashes with their corporate arch-rivals, the Venture Company, competing violently for timber rights, oil fields, and shredder technology across Stonetalon and the Barrens. To maintain order and enforce trade contracts, cartel barons routinely hire passing mercenaries to settle grievances with extreme prejudice."
     },
@@ -3279,9 +3279,9 @@
     "topic:stormwind-army": {
       "1": [
         {
-          "duration": 83.35673469387756,
-          "file": "Audio/Transport/full_topic_stormwind-army-c797a10cab22a42dbbde/1-0000.mp3",
-          "sha256": "de461f74882112be4084476172ba7b78c59e92688045d852bbafb5ffda3c7a06",
+          "duration": 79.64734693877551,
+          "file": "Audio/Transport/full_topic_stormwind-army-5c288e61007ece31e4ea/1-0000.mp3",
+          "sha256": "6133e1aa683d05840eec2f2bcd7667f61f89f8bfd74e8655648c85a81b0aa5aa",
           "start": 0
         }
       ],
@@ -3293,21 +3293,21 @@
         ]
       },
       "fullHash": "494a3c",
-      "generation": "e0c9eebfd3eb58bb2f96",
+      "generation": "57fabe2da544ad1e89e2",
       "hash": "494a3c",
       "source": {
-        "duration": 83.330563,
+        "duration": 79.621188,
         "file": null,
-        "sha256": "c797a10cab22a42dbbde8372a72cb3a385597773633fa9c659648fb2d8db2eeb"
+        "sha256": "5c288e61007ece31e4ea08b79368af5a5a68948fbfdb6080f2b4eacd5a907ebd"
       },
       "text": "Stormwind Army. The Stormwind Army is the standing military force charged with defending the Kingdom of Stormwind and preserving the security of the Grand Alliance in the south. Though legendary for its resilient knights and marshals, the army is currently crippled by royal absence, political infighting, and crippling troop shortages across the provinces. The army traces its martial lineage through centuries of brutal conflict, from early frontier clashes against gnolls to the desperate defense against the Gurubashi trolls. In the First War, under King Llane Wrynn I and Sir Anduin Lothar, the Knights of Stormwind mounted legendary ambushes against the Orcish Horde, yet fell when the capital burned. Surviving remnants evacuated to Lordaeron, spearheading the formation of the Alliance of Lordaeron and fighting through the Second War. After the Dark Portal's fall, Stormwind's military was rebuilt alongside the restored kingdom. Headquartered within Stormwind Keep, the military relies on dedicated regional garrisons overseen by the Stormwind Marshals. Within the stone walls of the capital, the Stormwind City Guard maintains civil order, while the elite Royal Guard attends the boy-king Anduin Wrynn and Highlord Bolvar Fordragon. Beyond the gates, the army deploys outposts to patrol Elwynn Forest, keep order along trade roads, and man defensive ramparts as far as the Redridge Mountains, assisted on the water by the Stormwind Fleet."
     },
     "topic:stormwind-guard": {
       "1": [
         {
-          "duration": 104.41142857142857,
-          "file": "Audio/Transport/full_topic_stormwind-guard-a8aaecfe48a4eb8f2f5e/1-0000.mp3",
-          "sha256": "8bd83eec3aed8431862948dbf007a915cf7d3743f6dc1953c606c84eb462efd0",
+          "duration": 104.72489795918368,
+          "file": "Audio/Transport/full_topic_stormwind-guard-f7b9ac77b48fa1cb91c2/1-0000.mp3",
+          "sha256": "f929c014a908a087c499e58550149cad4b5b89f6ba3b51b5e3a8ac06832bdb62",
           "start": 0
         }
       ],
@@ -3319,12 +3319,12 @@
         ]
       },
       "fullHash": "812171",
-      "generation": "6f677843c57268992e5f",
+      "generation": "30a77862597e3ddc68a8",
       "hash": "812171",
       "source": {
-        "duration": 104.38525,
+        "duration": 104.69875,
         "file": null,
-        "sha256": "a8aaecfe48a4eb8f2f5e35bc6bd9dfe6ca84dd841052c06a88477950065ee640"
+        "sha256": "f7b9ac77b48fa1cb91c20b518c6402fd6ccc8f4a19858ebf7c9525b24e5bdd72"
       },
       "text": "Stormwind Guard. The Stormwind Guard comprises the regional garrisons and sentries tasked with enforcing the kingdom's laws and defending its surrounding territories. Stretched perilously thin by political gridlock and distant military campaigns, its scattered marshals struggle to hold back gnolls, orcs, and bandits across Elwynn and Redridge. Operating as a vital branch of the Stormwind Army, the Stormwind Guard patrols the highways, crossroads, and stone watchtowers that bind the kingdom together. In outlying settlements, governance and defense fall to appointed marshals—such as Marshal McBride in Northshire Valley, Marshal Dughan in Goldshire, and Marshal Marris in Lakeshire. These officers muster recruits and maintain order, relying on trusty brown horses known for stamina to cover ground between fortified outposts like Westbrook Garrison. Following the Third War, the Guard successfully kept Elwynn Forest safe and quiet, but recent years have brought crisis. With King Varian Wrynn vanished and the kingdom's standing army tied down abroad, regional garrisons have received little aid. At Westbrook Garrison, Deputy Rainer can barely hold the western border against Riverpaw gnolls and Defias thieves, forcing local commanders to outsource crucial security tasks and bounties to visiting adventurers. While Duskwood and Westfall were abandoned, the crown kept a tenuous military presence in the Redridge Mountains. Even so, the guard's position is desperate. Overwhelmed by Shadowhide gnolls and Blackrock orcs descending from the Burning Steppes, soldiers were forced to cede Stonewatch Keep. In Lakeshire, blacksmith Verner Osgood burns through iron merely keeping guards outfitted, while exhausted sentries scan the road waiting for a 2nd Battalion that never arrives."
     },
@@ -3461,9 +3461,9 @@
     "topic:troll": {
       "1": [
         {
-          "duration": 129.43673469387755,
-          "file": "Audio/Transport/full_topic_troll-5d37a1a5d7e1d686bd3f/1-0000.mp3",
-          "sha256": "7eabd013f7f8a099d97c0cbfc7080c3503c948e9a8fc4978786d72581cb0c86e",
+          "duration": 122.95836734693879,
+          "file": "Audio/Transport/full_topic_troll-804bf264e84cd74ac40d/1-0000.mp3",
+          "sha256": "37a32f3f4a105d07549bdbb78a030f179b067986b854a5b1e4cb94f0aea217e6",
           "start": 0
         }
       ],
@@ -3475,21 +3475,21 @@
         ]
       },
       "fullHash": "794291",
-      "generation": "46c59d0df7932f35f991",
+      "generation": "e59382fdd79461706571",
       "hash": "794291",
       "source": {
-        "duration": 129.410563,
+        "duration": 122.932188,
         "file": null,
-        "sha256": "5d37a1a5d7e1d686bd3f8bdc63eaf5829babe4a63dfd6c4765049e9cce19711b"
+        "sha256": "804bf264e84cd74ac40d5537ab826ae92ba9eabf4b5cbec5cd13d1913d692dc2"
       },
       "text": "Troll. Trolls are among the oldest sentient races native to Azeroth, having arisen around the Well of Eternity long before the Sundering. Renowned for their incredible physical regeneration, worship of primal spirits known as loa, and mastery of voodoo, their fractured empires once ruled vast swaths of the ancient world. Today, while ancient kingdoms like the Gurubashi and Amani remain deeply hostile to outsiders, the Darkspear tribe has found a lasting haven within Thrall's Horde. Long before the Great Sundering shattered ancient Kalimdor, the primal energies of the Well of Eternity nurtured the rise of trollkind. Emerging as savage, highly agile hunter-gatherers, the early trolls possessed a unique physiology that granted them astonishing regenerative powers, allowing them to recover rapidly from grievous wounds and even regrow severed limbs over time. Settling around the sacred mountains of Zandalar, they directed their reverence toward primal spirits they called loa. Under the spiritual guidance of shadow hunters and witch doctors, these rituals coalesced into the practice of voodoo. In ancient times, the trolls waged a long war against the insectoid aqir, whose swarms threatened to overrun the continent. The Amani and Gurubashi empires led the fight and eventually drove the aqir to the far corners of the land: north into what became Azjol-Nerub and south into the deserts where Ahn'Qiraj would rise. With the insect swarms broken and contained, the trolls' common cause dissolved. Each great faction withdrew into its own sovereign empire, developing distinct cultures, physical traits, and tribal hierarchies adapted to forests, jungles, and frozen wastes. Over millennia of separation, rivalry, and territorial wars against younger races, troll dominion slowly decayed into ruin and insularity. Most remaining troll kingdoms view all other races with fierce, unyielding hostility, clinging bitterly to the ruins of their former greatness. Only the exile jungle trolls of the Darkspear tribe have chosen a new path, joining the Horde alongside orcs and tauren."
     },
     "topic:twilight-s-hammer": {
       "1": [
         {
-          "duration": 129.33224489795919,
-          "file": "Audio/Transport/full_topic_twilight-s-hammer-11ac2993c496a663da0b/1-0000.mp3",
-          "sha256": "a423865c8c58a965dbe12cca858e99bca0219eceee425ed625f14d6964d440b7",
+          "duration": 123.95102040816327,
+          "file": "Audio/Transport/full_topic_twilight-s-hammer-31f4771c19a49cccf67b/1-0000.mp3",
+          "sha256": "ec0a3885c7fbd8d4b759ca07f39b667e44ba91fdff944164870df1c985380ccb",
           "start": 0
         }
       ],
@@ -3501,12 +3501,12 @@
         ]
       },
       "fullHash": "6026ad",
-      "generation": "6bd0e926322482179704",
+      "generation": "03709746779174556bbb",
       "hash": "6026ad",
       "source": {
-        "duration": 129.306063,
+        "duration": 123.924875,
         "file": null,
-        "sha256": "11ac2993c496a663da0b69ebb034cc2bdcb986d05714909aafa5590d88eaafb4"
+        "sha256": "31f4771c19a49cccf67b7e4db0b8d4ea7dcd03a8a41c94f57d1f607514515668"
       },
       "text": "Twilight's Hammer. The Twilight's Hammer is a nihilistic, apocalyptic cult dedicated to awakening the Old Gods and bringing about the end of Azeroth. Originally an orcish clan led by the ogre-mage Cho'gall, it has evolved into a secretive, multiracial order actively conducting dark rituals across Kalimdor and the Eastern Kingdoms. The Twilight's Hammer began on Draenor as an orc clan of the Old Horde, led by the two-headed ogre-mage Cho'gall, one of Gul'dan's chief lieutenants in the Shadow Council. Under Cho'gall the clan embraced a grim, apocalyptic creed, coming to see the Horde as merely an engine of destruction meant to bring about the end of all things. When the Twilight's Hammer crossed the Dark Portal during the First War, their apocalyptic fanaticism only deepened. In the soil of Azeroth, the cultists sensed the genuine whispers of the Old Gods—ancient horrors chained beneath the earth. Blackhand tolerated their erratic, ritualistic behavior solely because Cho'gall managed their bloodlust, deploying them alongside Kilrogg Deadeye's Bleeding Hollow clan in early assaults on Stormwind Keep. The clan later operated deep within Grim Batol during the Second War, overseeing critical refineries until Gul'dan's betrayal fractured the Horde. Though Orgrim Doomhammer ordered the traitorous clan butchered near the Tomb of Sargeras, a core cadre of zealots survived. Upon reaching the forgotten shores of Kalimdor, the cult transformed from a shattered orc clan into a clandestine, multiracial conspiracy. Seducing disillusioned members of both the Alliance and the Horde, the Twilight's Hammer recruits any soul broken enough to welcome oblivion. In northern Kalimdor, led by Twilight Lord Kelris, cultists have entrenched themselves within the submerged halls of Blackfathom Deeps, feeding sacrifices to Aku'mai, a monstrous servant of an Old God. Further north in Darkshore, their excavators disturb the colossal fossilized remains at the Master's Glaive. Across the southern deserts of Silithus, camps of robed fanatics tend abyssal windstones, listening for the stirring of ancient horrors entombed beneath the sands."
     },
@@ -3591,9 +3591,9 @@
     "zone:alterac": {
       "1": [
         {
-          "duration": 120.55510204081634,
-          "file": "Audio/Transport/full_zone_alterac-0fe285ca8ad0787861a9/1-0000.mp3",
-          "sha256": "8277696222cc6d7feba95524e3644af3b19fbdc40a2804eb95ceacb28ad93ac4",
+          "duration": 112.35265306122449,
+          "file": "Audio/Transport/full_zone_alterac-242bd368f72b76eb6411/1-0000.mp3",
+          "sha256": "764b3c3c2802a66cef8aed142b8abcfe1d2f5de23392f5348c642ed8c815709d",
           "start": 0
         }
       ],
@@ -3605,12 +3605,12 @@
         ]
       },
       "fullHash": "c060a2",
-      "generation": "92ed47a74b07cb8ee3d1",
+      "generation": "a59902422b7d4b897124",
       "hash": "b79aea",
       "source": {
-        "duration": 120.528938,
+        "duration": 112.3265,
         "file": null,
-        "sha256": "0fe285ca8ad0787861a9cfda979d557eebdf80c2bb2a4b318cf62390c8b38d2b"
+        "sha256": "242bd368f72b76eb64119b38f65da1551bc99998a5e9e33a6d208f64af21a504"
       },
       "text": "Alterac Mountains. The Alterac Mountains are a cold, ruined highland in central Lordaeron, once home to the treacherous human kingdom of Alterac and the scholarly magocracy of Dalaran. Today, the snow-dusted crags are overrun by the Crushridge ogres, the aristocratic bandits of the Syndicate, and remnant arcane forces. Travelers venture from nearby foothill settlements and the rebuilding city of Dalaran. During the Second War, Alterac was one of the Seven Kingdoms of humanity, but King Aiden Perenolde betrayed the Alliance of Lordaeron to side with the Old Horde, hoping to preserve his realm. His treachery was discovered and stamped out, fracturing the nation into disputed borderlands. Following the kingdom's dissolution and the horrors of the Third War, Alterac's grand stone capital was reduced to rubble. Today, the Ruins of Alterac are occupied by the brutal Crushridge ogres, led by Mug'thol, while the surviving human nobility organized into the Syndicate, a vicious criminal syndicate fighting to reclaim their lost estates by force. On the western edge of the mountains, along the shores of Lordamere Lake, sits what remains of the Kirin Tor's great city-state of Dalaran. Devastated by the demon lord Archimonde during the Third War, Dalaran's surviving magi threw up a massive, opaque violet dome of protective magic over the ruins, but it has since been removed, and they rebuild the city in the open. The Kirin Tor continue rebuilding their sanctum, and Archmage Ansirem Runeweaver can be found within the Violet Citadel. Adventurers often venture into the peaks using Southshore or Tarren Mill as staging grounds. Beyond the wandering yetis, mountain lions, and Syndicate footpads, the region's greatest conflict churns beneath the snow line. Deep within the mountain passes lies Alterac Valley, where the dwarven Stormpike Guard have clashed with the reclusive Frostwolf clan of orcs over ancient territorial and mining rights."
     },
@@ -3747,9 +3747,9 @@
     "zone:blackfathom": {
       "1": [
         {
-          "duration": 93.51836734693877,
-          "file": "Audio/Transport/full_zone_blackfathom-abb6f95c7e13e62ba3a2/1-0000.mp3",
-          "sha256": "468a7466efbcb4dba96cd20e2b3e9be8e55e77c73ddb1efa2e3051b6de5fbb0b",
+          "duration": 87.22285714285715,
+          "file": "Audio/Transport/full_zone_blackfathom-e007ce699f57946dd5bc/1-0000.mp3",
+          "sha256": "6bcda9f6786fd77ba542374771db6abd24ea075b90c3f0cd4552d27609f993f1",
           "start": 0
         }
       ],
@@ -3761,21 +3761,21 @@
         ]
       },
       "fullHash": "e4b008",
-      "generation": "376aa8a1a208371f620f",
+      "generation": "e0f479227689f4d9740d",
       "hash": "241f6a",
       "source": {
-        "duration": 93.492188,
+        "duration": 87.196688,
         "file": null,
-        "sha256": "abb6f95c7e13e62ba3a22aa414abaeb9f876e5982e5e4764f22e49a95aba846b"
+        "sha256": "e007ce699f57946dd5bc60a941fd79d6024cc4e312ad9c3ab1df219cdedea623"
       },
       "text": "Blackfathom Deeps. Blackfathom Deeps is a flooded subterranean temple complex situated along the Zoram Strand in northwestern Ashenvale. Once a shrine dedicated to the night elven moon goddess Elune, the sunken sanctuary has been overtaken by the Twilight's Hammer cult, treacherous naga, and satyrs. They gather in its dark waters to venerate Aku'mai, a primordial hydra and servant of an Old God. Long before the Great Sundering shattered ancient Kalimdor, this complex was a splendid temple dedicated to Elune. Highborne masons raised gem-encrusted bridges while Queen Azshara commanded the surrounding waters, partitionining salt seas and mountain streams around a sacred moonwell. When the Sundering tore the world apart ten thousand years ago, the temple sank into the coastal depths of the Veiled Sea. For millenia, it sat undisturbed beneath the waves—until foul whispers began seeping upward from the subterranean dark. Drawn by mad dreams and dark portents, the Twilight's Hammer cult converged on the sunken ruins. Within, they forged an unholy truce with coastal naga led by Lady Sarevess and prowling satyrs. Together, they desecrated the moonwell and enslaved local life. They drove the giant sea turtle Ghamoo-ra mad through years of torment, allowed the brutal murloc Gelihast to erect a blood shrine, and stocked cavernous depths with fresh sacrifices. Under the leadership of Twilight Lord Kelris, the cultists turned the ruins into a staging ground for the Old Gods' impending return."
     },
     "zone:blastedlands": {
       "1": [
         {
-          "duration": 154.2269387755102,
-          "file": "Audio/Transport/full_zone_blastedlands-8d90140862455d92eb69/1-0000.mp3",
-          "sha256": "8c9c03444c6f7b7ae3a8570f16a7f670bec6762d2f710f803c1a6eb5fc975470",
+          "duration": 152.52897959183673,
+          "file": "Audio/Transport/full_zone_blastedlands-2be885f3ff541153e6eb/1-0000.mp3",
+          "sha256": "dde1141db3e2f676216a5e63347ddcd207cd27e34da9f081fc83506034c92655",
           "start": 0
         }
       ],
@@ -3787,12 +3787,12 @@
         ]
       },
       "fullHash": "977846",
-      "generation": "6275f3652f6039e365ff",
+      "generation": "7df6f180cb9844f07fc4",
       "hash": "7fb091",
       "source": {
-        "duration": 154.200813,
+        "duration": 152.52898,
         "file": null,
-        "sha256": "8d90140862455d92eb69d15e7cf7cfc1186bb08129ea7cb232708569d157bbb7"
+        "sha256": "2be885f3ff541153e6eb35e949c79ae4d701097d7e9b0fe71440a3a9107cdd72"
       },
       "text": "Blasted Lands. The Blasted Lands are a desolate expanse of red clay and barren rock at the southeastern tip of the Eastern Kingdoms, ruined by the chaotic energies of the Dark Portal. Once part of the verdant Black Morass, the shattered earth now harbors demonic remnants of the Burning Legion, brutal Dreadmaul ogres, and hardy desert beasts. Nethergarde Keep stands vigil over the desolate wasteland, guarding Azeroth from whatever horrors may spill out of the dormant gateway. Before the First War, this region was a continuation of the dense fenlands known as the Black Morass. That lush swamp was utterly eradicated when the warlock Gul'dan and the possessed Medivh tore open the Dark Portal to unleash the orcish Horde. Chaotic fel energies bled through the dimensional breach, stripping all moisture and baking the earth into cracked red clay. When the Dark Portal was later destroyed at the end of the Second War, catastrophic shockwaves scorched the terrain further, transmuting the native stone into its unearthly crimson hue. Perched upon the northern bluffs, Nethergarde Keep watches over the only road entering the valley. Commissioned by Archmage Khadgar and the Kirin Tor following the Second War, this stone bastion is manned by grim mages and stalwart soldiers sworn to prevent any renewed demonic or orcish incursions. It is an uninviting and strictly disciplined posting; infractions among the garrison are punished with banishment to the Stockade in Stormwind. The defenders face relentless pressure from the Dreadmaul ogres who stayed behind after Draenor's fall, raiding the roads and attacking the fortress gates under fell guidance. In the southwestern reaches lies the Tainted Scar, a cratered canyon teeming with the deadliest demonic force on the continent. Stranded after the defeat at Mount Hyjal, the doomguard commander Lord Kazzak gathers wandering demons, doomguard, and felhounds to his banner. High above the red barrens, his dreadlord lieutenant, Razelikh the Defiler, orchestrates mortal servitude among the Shadowsworn cultists at the Altar of Storms and commands the local Dreadmaul ogres. Despite the land's desolation, scholars and wanderers brave its horrors for unique discoveries. Just inside the northern pass, Bloodmage Drazial and Bloodmage Lynnore conduct eccentric alchemical experiments, extracting organs from local scorpids, basilisks, and boars to brew extraordinarily potent physical enhancers. Farther into the wastes, a lone draenei hermit named Kum'isha seeks scattered draenethyst fragments, rewarding travelers who recover these alien remnants left behind by Draenor's shattered past."
     },
@@ -3825,9 +3825,9 @@
     "zone:darkshore": {
       "1": [
         {
-          "duration": 120.76408163265306,
-          "file": "Audio/Transport/full_zone_darkshore-09d344f998e44bd2f257/1-0000.mp3",
-          "sha256": "c4fd9bec3fb68c9c0c86ad28561f25db8f74e595a0e7c2258590c24a88c7b556",
+          "duration": 118.30857142857143,
+          "file": "Audio/Transport/full_zone_darkshore-0db105596cc0108d5a14/1-0000.mp3",
+          "sha256": "ca1e81e7675b6f35bba2c85543935c87b408d8dcfcc32dcd1cc444968809d2b8",
           "start": 0
         }
       ],
@@ -3839,21 +3839,21 @@
         ]
       },
       "fullHash": "5dc611",
-      "generation": "209cfed50fbaa1fe77e2",
+      "generation": "9bcb73dc5bac381f9e76",
       "hash": "3b8af3",
       "source": {
-        "duration": 120.737938,
+        "duration": 118.282438,
         "file": null,
-        "sha256": "09d344f998e44bd2f2571c81591b84d101852b390d50c81586acc35499be12c0"
+        "sha256": "0db105596cc0108d5a14ceeed1780d85e64d1ac34946808276a0e5ee649f7847"
       },
       "text": "Darkshore. Darkshore is a cold, mist-shrouded strip of coast lining northwestern Kalimdor, dotted with ancient Kaldorei ruins and troubled wildlife. Anchored by the Alliance harbor town of Auberdine, it serves as the primary continental gateway for travelers arriving from Teldrassil and the Eastern Kingdoms. Beyond the patrolled road, demonic cults, encroaching naga, and a creeping corruption from the highlands threaten the region's delicate balance. Stretching beneath the western shadows of Mount Hyjal and Felwood, Darkshore is characterized by pine groves, sea fog, and rocky beaches beaten by cold waves. Millennia ago, this coast was home to the flourishing Kaldorei twin cities of Ameth'Aran and Bashal'Aran. Shattered during the Great Sundering, their skeletal pillars and marble arches now lie half-drowned in the surf or overgrown with roots, haunted by restless Highborne spirits and overrun by scavenger murlocs and invasive naga. Following the Third War and the planting of Teldrassil, the night elves established Auberdine as a bustling maritime haven amidst the wilderness. Featuring wooden piers that welcome regular vessels from Rut'theran Village, Stormwind Harbor and, by way of Southshore, Menethil Harbor in the distant Wetlands, Auberdine is the lifeline linking night elf territory to the rest of the Alliance. Sentinels diligently patrol the trade highway south toward Ashenvale, though their small garrison struggles to police the deep wilds beyond the path. Despite its shelter against the eastern mountains, Darkshore suffers from a slow, malignant rot. Corrupted run-off trickling down from Felwood poisons sources like Cliffspring Falls, fouling the water table and driving the local bears, stags, and furbolgs of Blackwood Den into violent madness. Worse still, sinister organizations have established footholds in the shadows: the Dark Strand and Twilight's Hammer cultists perform foul rituals at the Tower of Althalaxx and convene around the terrifying, ancient monument known as the Master's Glaive."
     },
     "zone:darnassus": {
       "1": [
         {
-          "duration": 122.43591836734694,
-          "file": "Audio/Transport/full_zone_darnassus-b84a9e2b3334fd3c8987/1-0000.mp3",
-          "sha256": "719aaf376af4dba7b60bde6dec8fedda99249331583dbc3b155518b0f5f202cb",
+          "duration": 115.8530612244898,
+          "file": "Audio/Transport/full_zone_darnassus-1068e90049172f71bcac/1-0000.mp3",
+          "sha256": "d3aec90195bd9303a345c5518b85941e063ed6c43a33a65ad9260ec799bd65c6",
           "start": 0
         }
       ],
@@ -3865,12 +3865,12 @@
         ]
       },
       "fullHash": "30a404",
-      "generation": "a14c895a87e12e349624",
+      "generation": "7860189064dbc987ee82",
       "hash": "64ec56",
       "source": {
-        "duration": 122.40975,
+        "duration": 115.826938,
         "file": null,
-        "sha256": "b84a9e2b3334fd3c8987c82c8bd0516b801bad7f092888981a2e4859941d71a6"
+        "sha256": "1068e90049172f71bcac2a7829b33354720fa483c12f7fdd0147a0903227d1b4"
       },
       "text": "Darnassus. Darnassus is the serene, open-air capital city of the night elves, built amidst the branches of the newly planted World Tree, Teldrassil. Governed by High Priestess Tyrande Whisperwind alongside the druids of the Cenarion Enclave, it serves as a tranquil sanctuary for an ancient people adapting to mortality. Sheltered across vast terraces surrounding a crystalline lake, it stands as the heart of night elf society and their bridge to the Alliance. Unlike the dense masonry of Stormwind or the carved stone tunnels of Ironforge, Darnassus is broad, quiet, and intimately open to the wilderness. Formed upon the upper canopy of Teldrassil off northern Kalimdor's coast, the capital's graceful wooden structures and winding pathways encircle a tranquil central lake. Elegant bridges connect terraces dedicated to tradesmen, craftsmen, sentinels, and druids, creating an atmosphere that balances civic governance with profound reverence for nature. Darnassus is remarkably young for a civilization thousands of years old. Following the Third War and the sacrifice of Nordrassil at Mount Hyjal, the kaldorei suddenly faced the perils of aging and sickness. Seeking a renewal of their lost vitality, Archdruid Fandral Staghelm and his followers planted Teldrassil while Archdruid Malfurion Stormrage was lost in the Emerald Dream. Darnassus was founded among its immense boughs as an asylum and monument to their survival, though shadows of malaise already whisper among its roots. Though peaceful on its surface, Darnassus balances on a delicate political divide. From the towering colonnades of the Temple of the Moon, High Priestess Tyrande Whisperwind guides the spiritual life and military defense of her people through the vigilant Sentinels. Across the waterways in the Cenarion Enclave, Archdruid Fandral Staghelm commands the druids in Malfurion's continuing absence. While both leaders present a united front to their newfound Alliance partners, friction between the priestesses and the druidic circle lingers throughout the city."
     },
@@ -3903,9 +3903,9 @@
     "zone:deadwind": {
       "1": [
         {
-          "duration": 130.42938775510206,
-          "file": "Audio/Transport/full_zone_deadwind-beb6c3c2a920aebab7fc/1-0000.mp3",
-          "sha256": "afb24a52eb1e78c0016135b8e12781ee5c8f3aa07bd8a4341add94faf65f34f9",
+          "duration": 132.36244897959185,
+          "file": "Audio/Transport/full_zone_deadwind-e6a9179984d37f462fcc/1-0000.mp3",
+          "sha256": "fac16b6ba59d8db2478725d7bf7a0f80af2f92becfcf4865e13965bfd68b87ec",
           "start": 0
         }
       ],
@@ -3917,12 +3917,12 @@
         ]
       },
       "fullHash": "ebbb90",
-      "generation": "34e85e564e63b60a7ac7",
+      "generation": "19a8b722e7e4946925d3",
       "hash": "7990db",
       "source": {
-        "duration": 130.40325,
+        "duration": 132.336313,
         "file": null,
-        "sha256": "beb6c3c2a920aebab7fcbad1994fbf0e28b9157ae4c7bb18186b0c1cfa3b17b3"
+        "sha256": "e6a9179984d37f462fcc0f1ebf658ba71f5f151d5fe6e1a63f74df4af05ee7f8"
       },
       "text": "Deadwind Pass. Deadwind Pass is a blighted, jagged canyon in central Azeroth connecting Duskwood to the Swamp of Sorrows. At its center looms the Ivory Spire of Karazhan, former seat of the Guardian Medivh, whose death unleashed corrupting magical runoff across the land. It is a lifeless corridor stalked by ogres, ghosts, and demonic winds, offering neither refuge nor civilized shelter. Once considered an extension of the Redridge Mountains, Deadwind Pass has devolved into a hollowed-out scar of bleached stone and petrified wood. A foul, relentless wind cuts through the ravines, giving the gorge its name. The sky above is locked in a perpetual sepulchral gray, threatening erratic lightning storms that make traveling with metal arms hazardous. Totemic effigies hang from lifeless branches alongside the main road, warning wayfarers to keep moving. There are no fertile soils here, no mineable mineral veins, and no towns or flight masters to offer aid. The history of the pass revolves around the towering citadel of Karazhan. Built atop a potent convergence of subterranean ley lines, the tower served as the redoubt of the Guardian Medivh. It was within this spire that Medivh plotted the opening of the Dark Portal and the ruin of Stormwind. When his madness and possession came to light during the First War, an expedition led by Lord Anduin Lothar and young Khadgar breached the tower and executed him. Medivh's violent demise released a shockwave of fel taint that blighted both the pass and the neighboring forest of Duskwood, leaving Karazhan an ominous remnant leaking unstable magical energy. South of the main thoroughfare, the pass branches into the territory of the Deadwind ogres around the Vice. Dressed in foul rags and wielding jagged iron, these brutes relentlessly ambuscade anyone venturing near the southern road, reportedly serving a hidden master within the vicinity. Further south lies Morgan's Plot and the skeletal remnants of a hamlet that once catered to the tower. Today, the village's above-ground ruins and labyrinthine cellars crawl with wailing phantoms and restless shades, remnants of those whose lives were extinguished by Karazhan's unbridled sorcery."
     },
@@ -3955,9 +3955,9 @@
     "zone:dunmorogh": {
       "1": [
         {
-          "duration": 131.00408163265305,
-          "file": "Audio/Transport/full_zone_dunmorogh-d722cf00debe28e851bd/1-0000.mp3",
-          "sha256": "3d636ddf3c0aa8cada5737c49d649d71a2e97be867cb4ae24efd3d944f8e5202",
+          "duration": 127.94775510204082,
+          "file": "Audio/Transport/full_zone_dunmorogh-1fdbbf5e8883a15411ce/1-0000.mp3",
+          "sha256": "c928e74831bc73c87aa3cf82a1d26e62607ad9d1dc29404fca9810c76a17de9f",
           "start": 0
         }
       ],
@@ -3969,12 +3969,12 @@
         ]
       },
       "fullHash": "b44509",
-      "generation": "31cb4cb3026c5858adee",
+      "generation": "bec3c1ca319751439653",
       "hash": "ee26fa",
       "source": {
-        "duration": 130.977938,
+        "duration": 127.921625,
         "file": null,
-        "sha256": "d722cf00debe28e851bdb1c24f7429ea259e760426aa3243d3c14cb7fb14379c"
+        "sha256": "1fdbbf5e8883a15411ceba3f1a9f4d32e2f07b0521f61bacc599fc123967346d"
       },
       "text": "Dun Morogh. Dun Morogh is a snow-swept mountain highland situated at the heart of Khaz Modan. It serves as the ancestral starting ground and shared homeland for the dwarves of Ironforge and the displaced gnomes of Gnomeregan. Though guarded by towering peaks and fortified passes, the snowy realm faces rising internal threats from troggs, Frostmane trolls, and irradiated leper gnomes. Dun Morogh occupies the highest peaks in the Eastern Kingdoms, an alpine expanse ringed by jagged summits that shield it from Searing Gorge to the south and the Wetlands to the north. These snowy mountains feed the rivers flowing across Khaz Modan and provide near-limitless veins of copper and iron. Access is heavily restricted to mountain tunnels like North Gate Pass and South Gate Pass, watched closely by dwarven Mountaineers. At the heart of the region sits Ironforge, an ancient subterranean wonder and the capital of King Magni Bronzebeard's realm, linked straight to Stormwind by the marvel of the Deeprun Tram. Centuries ago, the dwarves drove the native Frostmane ice trolls into the crags, carving out room for themselves alongside their brilliant gnome allies. The two races flourished in neighboring mountain halls until the recent catastrophe in Gnomeregan during the Third War. A horrific trogg invasion and a catastrophic radioactive venting ruined the technological wonder, turning its defenders into mindless leper gnomes and driving High Tinker Gelbin Mekkatorque and his surviving folk into exile. Now, the gnomes dwell as guests inside Ironforge, while leper gnomes and surviving troggs spill out into Chill Breeze Valley. Life in the drifts is far from quiet. The Frostmane tribe has grown emboldened, establishing heavily armed encampments from Shimmer Ridge down to Coldridge Valley. Meanwhile, primitive troggs have clawed their way out of ancient subterranean fissures into Gol'Bolar Quarry, threatening the region's mining operations. Between prowling wendigos, wild boars, infiltrating Dark Iron dwarven agents, and toxic fallout spreading from the ruins of Gnomeregan, the dwarven Mountaineers are stretched thin maintaining order from Kharanos to the border gates."
     },
@@ -4163,9 +4163,9 @@
     "zone:gnomeregan": {
       "1": [
         {
-          "duration": 117.15918367346939,
-          "file": "Audio/Transport/full_zone_gnomeregan-d79829939a3d805dbf55/1-0000.mp3",
-          "sha256": "f3f0b4ded2b5fd1885ac4425f989bf21c7893de3f7b12cc21f01735bb3a3501d",
+          "duration": 107.5722448979592,
+          "file": "Audio/Transport/full_zone_gnomeregan-6ae3d9ac8c2fcbff8334/1-0000.mp3",
+          "sha256": "148d789d1daaa02e53388a6176bba2bfe3c7c9ad614ec3b0202485c921bf014c",
           "start": 0
         }
       ],
@@ -4177,12 +4177,12 @@
         ]
       },
       "fullHash": "4660a3",
-      "generation": "5ab874b04cfcfbb69359",
+      "generation": "4ba36eef400894cd5ff3",
       "hash": "7af386",
       "source": {
-        "duration": 117.133063,
+        "duration": 107.546063,
         "file": null,
-        "sha256": "d79829939a3d805dbf55f93a1a552ea21ded316a7116acebaa11f9973dec352f"
+        "sha256": "6ae3d9ac8c2fcbff833479b3aaa0183f8c14407bc58b6667b821ff9707e37b4c"
       },
       "text": "Gnomeregan. Carved into the snowy foothills of Dun Morogh, Gnomeregan was once the subterranean capital and greatest technological wonder of the gnomish race. Today it lies ruined and quarantined, poisoned by radioactive fallout following a desperate defense against an underground trogg invasion. Its surviving people now dwell as refugees in nearby Ironforge, while the irradiated halls remain overrun by mutated troggs, deranged leper gnomes, and rogue mechanical sentries. Long before its tragic fall, Gnomeregan stood as a testament to the heights of gnomish brilliance, ambition, and industry. Constructed with the assistance of the nearby dwarves of Ironforge, the sprawling mechanical complex was powered by giant grinding engines, whirring gears, and an intricate ventilation network that required fifteen technicians working around the clock just to maintain fresh air. It was a thriving center of invention, competitive craft, and politics centered on Tinkers' Court, serving as the proud capital from which gnomes contributed invaluable siege engines, flying machines, and armaments to the Alliance of Lordaeron during the Second War. Around the time the Scourge tore through Lordaeron during the Third War, a subterranean nightmare stirred beneath Dun Morogh. Unwitting dwarven excavations at the ancient titan vault of Uldaman awakened hordes of primitive troggs, which burrowed into the lower foundations of Gnomeregan. High Tinker Gelbin Mekkatorque and his forces fought a desperate war against the invaders. When defenses collapsed, Mekkatorque yielded to the counsel of his chief advisor, Mekgineer Thermaplugg, and authorized venting the city's radioactive waste tanks into the lower levels to eradicate the troggs. Instead, the toxic gas spread uncontrollable catastrophe, wiping out nearly eighty percent of the gnomish population in days."
     },
@@ -4371,9 +4371,9 @@
     "zone:orgrimmar": {
       "1": [
         {
-          "duration": 83.04326530612245,
-          "file": "Audio/Transport/full_zone_orgrimmar-63245c052bb0512554a3/1-0000.mp3",
-          "sha256": "9caf59dee4a0ce4e4d52d9488531ce640886435fb385f5abee299badaf3749b7",
+          "duration": 78.10612244897959,
+          "file": "Audio/Transport/full_zone_orgrimmar-9e24c8368489b3daab77/1-0000.mp3",
+          "sha256": "a1f4f2fed5aa636cc78342dde96cb1901754c9d8d3fc99ded2fb4937dff42f18",
           "start": 0
         }
       ],
@@ -4385,12 +4385,12 @@
         ]
       },
       "fullHash": "3d5e0c",
-      "generation": "9ad96f35ded586916d66",
+      "generation": "e0b0e735a24ca0f62ee3",
       "hash": "bbb1c4",
       "source": {
-        "duration": 83.017125,
+        "duration": 78.08,
         "file": null,
-        "sha256": "63245c052bb0512554a34d80ced2753fe6d8bb9e945b3fd73a1f1b5690f9b669"
+        "sha256": "9e24c8368489b3daab776c66b86fb20d0ca1e60f35a9cc0eb731f28ecc40962d"
       },
       "text": "Orgrimmar. Orgrimmar is the fortress capital of the orcs and the beating heart of Thrall's New Horde. Carved directly into the towering red-rock canyons of northern Durotar, the fortified city stands as a monument to orcish perseverance and an unyielding sanctuary for trolls, tauren, and Forsaken allies alike. Following the Third War, Warchief Thrall led the orcs to the arid coasts of Kalimdor to build a homeland free from demonic corruption and human bondage. Naming the harsh region Durotar after his father, Thrall established Orgrimmar in memory of his fallen mentor, Orgrim Doomhammer. Raising the city required blood and sweat; aided by the tauren, the Darkspear trolls, goblin engineers, and the Champion Rexxar, the Horde drove back encroaching centaur, harpies, and ferocious thunder lizards to secure the canyon stronghold. Orgrimmar is naturally fortified by rugged mountains that shield it from both foreign invaders and the violent razor-winds sweeping through Durotar. The settlement is partitioned into distinct natural hollows. The Valley of Strength serves as the bustling civic gatehouse, leading deeper into the trade bazaar of The Drag. Tauren druids and shaman congregate in the serene pools of the Valley of Wisdom, while Darkspear shadow hunters and witch doctors dwell among the stilted pavilions of the Valley of Spirits."
     },
@@ -4735,9 +4735,9 @@
     "zone:stormwind": {
       "1": [
         {
-          "duration": 135.94122448979593,
-          "file": "Audio/Transport/full_zone_stormwind-90e5f29e9f7fa0b4ccfc/1-0000.mp3",
-          "sha256": "fd303528f674007a06dadd76059d75fb83e64d3b888606a7a6a318f8239464c6",
+          "duration": 125.91020408163266,
+          "file": "Audio/Transport/full_zone_stormwind-28d2abf834d4d93c1c23/1-0000.mp3",
+          "sha256": "22a49c919361f2a2563ada486fda72503feeb95c7664436befdebca4fe2d1bca",
           "start": 0
         }
       ],
@@ -4749,12 +4749,12 @@
         ]
       },
       "fullHash": "216dfc",
-      "generation": "32d85833077c99d93339",
+      "generation": "6cfc0006ccfa085ed8ab",
       "hash": "2527da",
       "source": {
-        "duration": 135.915063,
+        "duration": 125.884063,
         "file": null,
-        "sha256": "90e5f29e9f7fa0b4ccfc5dfa2ce364ab4ac23693a6613145df68c192e408515e"
+        "sha256": "28d2abf834d4d93c1c23e8b8961bfc3b462baed6c1ce6d10eaae5eabd503d0b4"
       },
       "text": "Stormwind City. Stormwind City is the bustling capital of the Kingdom of Stormwind and the premier human bastion in the world following the fall of Lordaeron. Rebuilt from ashes by the Stonemasons Guild after its destruction in the First War, its magnificent white stone districts now house the heart of the Grand Alliance. Beneath its majestic canals and cathedrals, however, the city grapples with the sudden disappearance of King Varian Wrynn and brewing political intrigue. Founded over a millennium ago by the descendants of the Arathi, Stormwind stood for generations as a flourishing, self-sufficient realm. That golden era ended when the Orcish Horde poured through the Dark Portal, laying waste to the southern continent and razing the capital to the ground in the First War. Survivors led by Sir Anduin Lothar fled north across the Great Sea to Lordaeron. Following the Horde's defeat in the Second War, King Terenas Menethil II and the Alliance funded a complete reconstruction. The Stonemasons Guild painstakingly rebuilt the capital into New Stormwind—a gleaming citadel of polished white stone and canal-laced boroughs. Despite its outward majesty, the capital is locked in domestic turmoil. A dispute between the House of Nobles and the Stonemasons Guild over wages left the kingdom paralyzed by debt. The ensuing rioting drove the exiled artisans into criminality as the Defias Brotherhood. Now, King Varian Wrynn has mysteriously vanished en route to a diplomatic summit. To avert panic, the crown was placed upon his young son, ten-year-old Prince Anduin Wrynn, with Highlord Bolvar Fordragon ruling as Regent and military commander alongside royal advisor Lady Katrana Prestor. With Lordaeron overrun by the Scourge, Stormwind has inherited the mantle of humanity's greatest haven and the epicenter of the Alliance. It connects directly to the dwarven kingdom of Ironforge via High Tinker Mekkatorque's subterranean Deeprun Tram. Visitors crossing the Valley of Heroes are greeted by towering statues of the Sons of Lothar who vanished beyond the Dark Portal. From the spiritual beacon of the Cathedral of Light to the arcane studies within the Wizard's Sanctum, Stormwind stands as the supreme hub of trade, culture, and defense across the southern seas."
     },
@@ -4813,9 +4813,9 @@
     "zone:tanaris": {
       "1": [
         {
-          "duration": 114.96489795918367,
-          "file": "Audio/Transport/full_zone_tanaris-157f93983892252a82fa/1-0000.mp3",
-          "sha256": "85fd598a950fd506e7d35e7f2a5958071026f2e456e30acca28842f53f64412c",
+          "duration": 96.80979591836736,
+          "file": "Audio/Transport/full_zone_tanaris-3b3370fe0bb79ab1995e/1-0000.mp3",
+          "sha256": "708ed9a54bb43aaa3dd4eb8625cd025d49b88154a636498a0a8aa38bd7ea2ef5",
           "start": 0
         }
       ],
@@ -4827,12 +4827,12 @@
         ]
       },
       "fullHash": "3f5846",
-      "generation": "df04f1d48d9655ef7a1b",
+      "generation": "b42c8a44d1463e45d713",
       "hash": "f09fd8",
       "source": {
-        "duration": 114.93875,
+        "duration": 96.783625,
         "file": null,
-        "sha256": "157f93983892252a82fa97d32eac58a8f027bfa8beed7ef03d921fda56220dbd"
+        "sha256": "3b3370fe0bb79ab1995eb3738f5d9421ae3b809628fcff5888f5a883bc555d02"
       },
       "text": "Tanaris. Tanaris is a vast, sweltering desert spanning the southern reaches of Kalimdor, defined by rolling sand dunes and blistering heat. At its heart lies Gadgetzan, a neutral trading outpost operated by the goblins of the Steamwheedle Cartel. Beyond the bustling settlements, the dunes conceal hostile sand trolls, dangerous silithid hives, and the hidden domain of the bronze dragonflight. Tanaris is a barren, sun-scorched wilderness. Within the walled city of Zul'Farrak, the hardened Sandfury trolls guard their isolated domain. Today, the desert floor is ruled by hyenas, basilisks, and scorpids, while subterranean tunnels snake beneath the baking earth. Because Tanaris is as close to their island homeland of Kezan as the mainland allows, the Steamwheedle Cartel has established a thriving enterprise here. From the walled oasis of Gadgetzan to the coastal docks of Steamwheedle Port, the goblins maintain strict neutrality, welcoming coin from both the Alliance and the Horde. Their peace is maintained by heavy bruiser muscle, though rogue threats like the Southsea Freebooters constantly harass shipping and dig sites along the coastline. The sands hide powers far older than mortal empires. In the eastern reaches lie the Caverns of Time, the ancestral domain of Nozdormu and his bronze dragonflight, whose drakes can occasionally be seen riding the desert thermals. To the south, massive stone gates mark the titan complex of Uldum. Yet a darker danger stirs from subterranean nests like the Gaping Chasm and the Noxious Lair, where creeping silithid swarms have begun burrowing outward across the sands."
     },
@@ -5047,9 +5047,9 @@
     "zone:westfall": {
       "1": [
         {
-          "duration": 100.33632653061225,
-          "file": "Audio/Transport/full_zone_westfall-7aceaa920c5f1cbef177/1-0000.mp3",
-          "sha256": "d7ffdf6002e95a14c14e8f3393aec9b0a66913a51227e1902db809b4859313ef",
+          "duration": 102.45224489795919,
+          "file": "Audio/Transport/full_zone_westfall-568b9d4a3448aaca2d51/1-0000.mp3",
+          "sha256": "b63fb14d1f652280f44ea1dbf8c3f84904f2113cc2fd480bdd2889f250432b5a",
           "start": 0
         }
       ],
@@ -5061,21 +5061,21 @@
         ]
       },
       "fullHash": "51e782",
-      "generation": "40cb46a8b3a4f6993650",
+      "generation": "e6d0c679997b8542a853",
       "hash": "343283",
       "source": {
-        "duration": 100.310188,
+        "duration": 102.426063,
         "file": null,
-        "sha256": "7aceaa920c5f1cbef17771ef9efb0d60417bac5be9f78539538c4b2555bf182f"
+        "sha256": "568b9d4a3448aaca2d5102ed2b3cd1686f7a49b9dce290f7aeaf8207f39e8809"
       },
       "text": "Westfall. Once the fertile breadbasket of the Kingdom of Stormwind, Westfall has collapsed into a windswept, neglected territory overrun by outlaws. Deprived of official crown support and military garrisons, its surviving homesteaders cling to their farms while the Defias Brotherhood tightens its grip from the abandoned mining town of Moonbrook. For generations, Westfall fed the Kingdom of Stormwind. Its rolling pastures and wheat fields flourished until the aftermath of the Second War brought financial exhaustion and political neglect. When the kingdom poured its resources elsewhere and failed to maintain its garrisons, the territory grew fallow. Today, barren pastures, howling coastal gusts, rogue harvest golems, and raiding Riverpaw gnolls make daily survival a constant trial for the stubborn few who refuse to abandon their homesteads. Westfall's collapse accelerated when the Stonemasons Guild, denied payment for rebuilding Stormwind City, turned to open revolt. Outlawed and exiled under Edwin VanCleef, the stonemasons reconstituted themselves as the Defias Brotherhood. They claimed Westfall as their stronghold, burning stubborn farmers' fields, salting soil, and seizing abandoned mines. Operating out of the ghost town of Moonbrook, the Brotherhood now rules the majority of the countryside in all but name. With the House of Nobles ignoring Westfall's plight, local inhabitants took up their own defense. Based at the fortified post of Sentinel Hill, Gryan Stoutmantle organized the People's Militia—a volunteer force attempting to hold the line against gnolls and bandits. Lacking formal soldiers and supplies from Stormwind, the Militia relies on wandering adventurers to push back the Defias tide and protect the remaining farms."
     },
     "zone:wetlands": {
       "1": [
         {
-          "duration": 155.45469387755102,
-          "file": "Audio/Transport/full_zone_wetlands-11cebaa3c2baea7d29a0/1-0000.mp3",
-          "sha256": "3f2720a7ff4d26bbb840684cf0ad3cdddf577fdf0728f9ea0c214c32dbec7b90",
+          "duration": 148.48000000000002,
+          "file": "Audio/Transport/full_zone_wetlands-3f762a3f005bbaceb8d2/1-0000.mp3",
+          "sha256": "03d7dc1e4ef1e3b50e0b65bdf7577e5462e73210b6b3abf675ed17db0234f12e",
           "start": 0
         }
       ],
@@ -5087,12 +5087,12 @@
         ]
       },
       "fullHash": "22678f",
-      "generation": "da8c1d83787a139fa08d",
+      "generation": "a832eece9e1c5269acbd",
       "hash": "5a7384",
       "source": {
-        "duration": 155.428563,
+        "duration": 148.453875,
         "file": null,
-        "sha256": "11cebaa3c2baea7d29a0e06964ad988870004e765f1beebce3bf32bfb7ef5cbe"
+        "sha256": "3f762a3f005bbaceb8d222a74c826c3740a8c43744bed1efdc9aca8a4c5df545"
       },
       "text": "Wetlands. The Wetlands is a vast, mist-shrouded swamp nestled between the mountains of Khaz Modan and the shores of Baradin Bay. Historically battered by dwarven wars and orcish invasions, it serves as a rugged buffer zone between Ironforge and the northern lands of Lordaeron. The fortified port of Menethil Harbor stands as the Alliance's primary lifeline in a sodden wilderness overrun by Dragonmaw orcs, murlocs, and gnolls. Spreading out beneath the towering precipice of the Stonewrought Dam, the Wetlands is a cold, waterlogged expanse cloaked in perpetual fog and uniform gray skies. While once home to thriving dwarven settlements, the marshlands are now scattered with sunken stone ruins, sodden bogs, and treacherous mires. Adventurers entering the region must navigate narrow passes, either coming north through the barricaded defile of Dun Algaz from Loch Modan or crossing the towering arches of the Thandol Span from the Arathi Highlands. The eastern reaches of the swamp are dominated by the brooding presence of Grim Batol, the former Wildhammer stronghold. After its defilement during the War of the Three Hammers, it became the fortified redoubt of the Dragonmaw clan during the Second War. When the red dragonflight broke free from orcish captivity, their fiery vengeance shattered the orcish forces and laid waste to the surrounding slopes. Today, red wyrmkin guard the Dragonmaw Gates against all trespassers, while feral remnants of the Dragonmaw clan dwell in scattered hill camps, continuing to harass travellers across the swamp. Perched on the rim of Baradin Bay, Menethil Harbor is the beating heart of Alliance trade and logistics in Khaz Modan. Named in honor of King Terenas Menethil II, this stalwart port connects the Eastern Kingdoms to distant Kalimdor through regular transport ships sailing to Theramore Isle and, by way of Southshore, to Auberdine. Despite its strategic military importance and solid dwarven architecture, the harbor is perpetually under threat from coastal murlocs, swamp creatures, and coastal raiders who prey on vessels navigating the rocky channels. The Wetlands is an active war zone on multiple fronts. In the far north, Dark Iron dwarves under the warlock Balgaras the Foul have sabotage-bombed the Thandol Span and overrun the town of Dun Modr, cutting off overland supply trains. Meanwhile, Mosshide gnolls run rampant through the central fens, threatening even ancient protectors like Rethiel the Greenwarden. Between rogue orc warbands, Dark Iron infiltrators, and cursed shipwrecks along the coast, holding the swamp requires constant vigilance."
     },
@@ -5150,6 +5150,16 @@
     }
   },
   "cuts": {
+    "01143f0d64d83c9e7d1cc2626421b3d049ee3b5b714404cad356837111f7ab04": [
+      270,
+      493,
+      765,
+      1089,
+      1256,
+      1555,
+      1833,
+      2038
+    ],
     "028e4eee5cb3eb18203827afa38801bd75c7c42c861fc07a9c57e06d68a8eb3f": [
       527,
       1142
@@ -5174,6 +5184,21 @@
       3981,
       4237
     ],
+    "03d7dc1e4ef1e3b50e0b65bdf7577e5462e73210b6b3abf675ed17db0234f12e": [
+      584,
+      965,
+      1589,
+      2074,
+      2598,
+      2943,
+      3366,
+      3627,
+      4130,
+      4601,
+      4736,
+      5144,
+      5394
+    ],
     "050f1578b973b9a9477c6eefaadceb07a55a26135bf339cfdf56cecbde7c35a2": [
       289,
       774,
@@ -5192,13 +5217,6 @@
       3671,
       4695
     ],
-    "05b3ad239faed62d0c889ee162cdaa3a6780bd59d9127136ec8d10c36258ead1": [
-      684,
-      1450,
-      1906,
-      2306,
-      2553
-    ],
     "065ab33016c8c3afe1b1c64a2e30b904d7c169039f49e1b3a5c7dd2204e190c2": [
       315,
       669,
@@ -5206,23 +5224,20 @@
       1674,
       2322
     ],
-    "080a1d65ee327431c566a53c72c77667d9246bfdcab79ba2af1466aedaabce77": [
-      630,
-      1028,
-      1387,
-      1752,
-      2377,
-      2935
-    ],
     "084dab047cc01290810acefa0d07316d381ef5380c513bf2924de210ea3d0bd0": [
       434,
       946
     ],
-    "0c1c5a8841cf1d8a0857fcbfa7c7ff9b0f63dbdc9256bfd582aae8eb07ce8ccf": [
-      737,
-      1121,
-      1763,
-      2088
+    "0b393937e67c24f619faece58954edeaf17b7b0ee3e67dcb1189ba7d15c031b5": [
+      255,
+      544,
+      777,
+      1128,
+      1441,
+      1638,
+      1860,
+      2451,
+      2866
     ],
     "0dc2c0cae409647d7b08ab4f53a3ed6ec37817da74eb78c20813e16c50b7c960": [
       862,
@@ -5262,16 +5277,30 @@
       3089,
       3723
     ],
-    "1662e6332fc5e1fec072cbe8ab2ad39ccd9b166629b218436bf8ebd7e25843c7": [
-      679,
-      968,
-      1420,
-      1905,
-      2782,
-      3125,
-      3777,
-      4126,
-      4576
+    "148d789d1daaa02e53388a6176bba2bfe3c7c9ad614ec3b0202485c921bf014c": [
+      335,
+      635,
+      1080,
+      1365,
+      1935,
+      2779,
+      3168,
+      3374,
+      3611
+    ],
+    "15d36c0bef14c573c224576291cb78313e6457bb4a04ec86ea83f1a3ade70e75": [
+      787,
+      1220,
+      1566,
+      1862,
+      2102,
+      2499,
+      2794,
+      3033,
+      3457
+    ],
+    "1a02948c4bf14eb095b1437c6a932e5992ac67d46447354de512d25bd3110653": [
+      242
     ],
     "1b7c6497c11b65e69d34ddfe1218de0262e9889f4a2a5733b15eb886f8d15198": [
       272,
@@ -5288,15 +5317,20 @@
       3808,
       4090
     ],
-    "1dae53a66d2d5460a8d389aa226586f05b986d99236b4c50c8b7c3da992d3801": [
-      332,
-      889,
-      1375,
-      1762,
-      2395,
-      3046,
-      3602,
-      3979
+    "1bf93d43eee11ce26a777a5b9b3a685c05b1cdcfd71a97f5ddb68c9aa7365a11": [
+      237,
+      440,
+      682,
+      946,
+      1151,
+      1441,
+      1781,
+      2107,
+      2329,
+      2826,
+      2963,
+      3228,
+      3474
     ],
     "1e7b43119978fe9feb363fbfc6dc080c7dc98fcbaa9d4ff0a5e123832add6876": [
       196,
@@ -5306,6 +5340,17 @@
       2081,
       2323,
       2622
+    ],
+    "1ea44e6da37405fdaffaf264d6ec20a917b1b900ef97063872284d79bcc658d6": [
+      541,
+      834,
+      1100,
+      1716,
+      2153,
+      3091,
+      3427,
+      3613,
+      4067
     ],
     "1efba7d2b35c6f6cb6742f23387aa028956b0ac408b6b13abb290501998fd1d9": [
       335,
@@ -5329,14 +5374,20 @@
       2320,
       2758
     ],
-    "22221f45cc67e15236d874edfde6955c69ec428ef87781aebf480e6589133893": [
-      232,
-      1008,
-      1665,
-      1977,
-      2311,
-      2662,
-      3177
+    "22a49c919361f2a2563ada486fda72503feeb95c7664436befdebca4fe2d1bca": [
+      285,
+      885,
+      1024,
+      1190,
+      1537,
+      1734,
+      2347,
+      2509,
+      2966,
+      3568,
+      3896,
+      4408,
+      4613
     ],
     "243f80b4e883acf7a79194b237b18e67de6a55a3572b6f054f703cfc91ea284f": [
       272,
@@ -5347,6 +5398,13 @@
       2690,
       3015,
       3597
+    ],
+    "26a0def782a9eeced3fb5b204e7990f21171683312bde6ec8745449a2040fcb4": [
+      234,
+      476,
+      722,
+      898,
+      1085
     ],
     "27bc583729cb0780c1ac9cbbad8f031a6d21a9e6141771750d713d244af960ad": [
       216,
@@ -5362,6 +5420,12 @@
       1461,
       1781,
       2999
+    ],
+    "2835d65187efc39f1b524dae68faf2de217f2da749ba415c70ff8dcc4aaa6099": [
+      311,
+      623,
+      1337,
+      1573
     ],
     "2af3aac7da528c85ce7ef4a0fe116311d178e82b032d9abb299e5abfc9a9e640": [
       156,
@@ -5385,6 +5449,35 @@
       1474,
       1815,
       1965
+    ],
+    "2d8bf988d3b59384860c4e60e906c1fb352fff6dfb64e8d15e6a302a5f9f1383": [
+      201,
+      380,
+      532
+    ],
+    "2e16cdc53ff8a90eb62a525ad3b6f2d53cf02cdfa86c08344e0c2a8b61023467": [
+      269,
+      674,
+      981,
+      1221,
+      1441,
+      1621,
+      1949,
+      2170,
+      2406,
+      2572,
+      2879
+    ],
+    "2e3b6d0a95defc7050188bde7b7e3ad31d8e50911ed3f2030c67e1a1bff32c5d": [
+      784,
+      1731,
+      2238,
+      2508,
+      2840,
+      3228,
+      3424,
+      3850,
+      4129
     ],
     "2e8509c28e21bedefec06dda4733e3e15f38209c4d5e060b1254ebcfd5541217": [
       659,
@@ -5434,16 +5527,33 @@
       1823,
       2492
     ],
-    "34f8911c5fa55a6921dcb65abdcc847db7c611bcdcd20cf00e7ffd88a8148da5": [
-      803,
-      1373,
-      1674,
-      2178,
-      2828,
-      3206,
-      3737,
-      4509,
-      4739
+    "3662db31d744a780eddb57eca59e35cfc6da84471f4d27b287e5324b30a4ce0b": [
+      365,
+      632,
+      855,
+      1100,
+      1377,
+      1722,
+      1870,
+      2057,
+      2392,
+      2657,
+      3151,
+      3496,
+      3895,
+      4158
+    ],
+    "37a32f3f4a105d07549bdbb78a030f179b067986b854a5b1e4cb94f0aea217e6": [
+      712,
+      1063,
+      1383,
+      1914,
+      2162,
+      2425,
+      2708,
+      3135,
+      4117,
+      4439
     ],
     "381648ef9428c70d3ea343938d2553f8ba8738ad3eb5de967e62d3f09c0c752f": [
       891,
@@ -5491,24 +5601,6 @@
       3216,
       3530
     ],
-    "3d636ddf3c0aa8cada5737c49d649d71a2e97be867cb4ae24efd3d944f8e5202": [
-      198,
-      467,
-      859,
-      1006,
-      1283,
-      1564,
-      1765,
-      2303,
-      2635,
-      2873,
-      3418,
-      3568,
-      3761,
-      4156,
-      4480,
-      4804
-    ],
     "3eb9217524f3989092d3d9ce19481f94399079f72610015b27595e9020fcb3a6": [
       291,
       661,
@@ -5521,32 +5613,6 @@
       3646,
       4049,
       4441
-    ],
-    "3f2720a7ff4d26bbb840684cf0ad3cdddf577fdf0728f9ea0c214c32dbec7b90": [
-      290,
-      431,
-      628,
-      986,
-      1739,
-      1888,
-      2068,
-      2237,
-      2502,
-      2780,
-      3096,
-      3534,
-      3814,
-      4245,
-      4712,
-      5227,
-      5617
-    ],
-    "3f6c9c7e1928dc42edb21d580867837a218bd1b22eef6240a363b93be2bdd5a9": [
-      519,
-      1075,
-      1501,
-      2707,
-      3096
     ],
     "3ffae8e77cfdf48f18d2b32aad1b7cd19097c00319ef1d94b9de57c26b37cef2": [
       321,
@@ -5588,14 +5654,6 @@
       3943,
       4187
     ],
-    "4393ae8bc64078307c0dfa3c05c42ae838577cc10da0ed3d84dc285caf11b53f": [
-      270,
-      845,
-      1217,
-      1557,
-      2193,
-      2693
-    ],
     "44640c4a2784c1e731c7fa65f8b3eeecf2b87101cd94dc49209257e51f47a4d3": [
       266,
       780,
@@ -5605,6 +5663,22 @@
       1934,
       2795
     ],
+    "44ed65f988d1cae12d4ad4b592f84e44f77f07440073a778834826f647295f5a": [
+      282,
+      690,
+      1032,
+      1369,
+      1740,
+      2076,
+      2405,
+      2655,
+      3026,
+      3312,
+      3469,
+      3831,
+      4039,
+      4202
+    ],
     "46364be1390a005ed0e33c41de573fb79f232c130b5719c0afd28c737a0e2016": [
       240,
       624,
@@ -5613,19 +5687,16 @@
       1681,
       2061
     ],
-    "468a7466efbcb4dba96cd20e2b3e9be8e55e77c73ddb1efa2e3051b6de5fbb0b": [
-      291,
-      921,
-      1071,
-      1220,
-      1632,
-      1768,
-      1914,
-      2209,
-      2450,
-      2682,
-      2834,
-      3290
+    "47787e112cea8c1d2812ebf809242aa8ad3bd837442523ee3c8e6641680f23b0": [
+      310,
+      919,
+      1117,
+      1297,
+      1483,
+      1619,
+      1815,
+      2166,
+      2559
     ],
     "47f30616bf545b8c3d7a8d672d039f07bcdbd43a7af71e3c1b964ee7b6a61643": [
       674,
@@ -5665,6 +5736,26 @@
       4402,
       5086
     ],
+    "4902781bf1927c316cb0f6498eb8e4786cddd6cd3231d3ec5e4b0d35e5e8c6d7": [
+      407,
+      599,
+      843,
+      1293,
+      1681,
+      1832
+    ],
+    "494b75c1a1058d28f0d9cce072527ff8d601e78f23d6ffa194820b327eae2889": [
+      336,
+      596,
+      817,
+      1206,
+      1513,
+      1810,
+      1980,
+      2126,
+      2305,
+      2609
+    ],
     "4ac080c2a0e763208e187170959538f3ab85accb4ee6eb40aa0df07665b2d862": [
       555,
       884,
@@ -5672,14 +5763,6 @@
       1887,
       2771,
       3070
-    ],
-    "4aceb13013963b8a123b11d1e164be1d42519f4662ff3dce9862490ae3dbae3b": [
-      1016,
-      1483,
-      1818,
-      2457,
-      2968,
-      3289
     ],
     "4b11cdb5b8f3c4dda3e671c606f2659745c26355f8b3e8f32289451abf53a836": [
       650,
@@ -5711,13 +5794,6 @@
       1437,
       2077,
       2447
-    ],
-    "56289a68d901c1f9092df623a015d27b3a211120b8a44a22bc07450d01553e16": [
-      505,
-      1057,
-      1319,
-      2044,
-      2619
     ],
     "56994f1cfe752d43f892d8292154dc773ab39fdb33bcc0be6f56c96f093f03c8": [
       293,
@@ -5806,6 +5882,12 @@
       860,
       1315
     ],
+    "6133e1aa683d05840eec2f2bcd7667f61f89f8bfd74e8655648c85a81b0aa5aa": [
+      327,
+      1431,
+      1929,
+      2599
+    ],
     "627cf2b9a95f07fe1a72cab4c37ca11881c9a00c178204b3d2c79bb5abc0c5be": [
       254,
       968,
@@ -5818,6 +5900,17 @@
       3586,
       3798,
       4042
+    ],
+    "6286638d17cd1157c0f47a63e4df9d6fd0d76aee688a8a05c4b8208ce213d9d0": [
+      705,
+      986,
+      2007,
+      2215,
+      2492,
+      2739,
+      2897,
+      3080,
+      3384
     ],
     "63e1d7f242f5d6c29dd41137595dcbd5015d1d4c6ee31e088e54fdca6fb341ca": [
       719,
@@ -5849,11 +5942,29 @@
       2019,
       3119
     ],
-    "684a7776b139c758bf83524433933cf646680af66289a528c926fb8c43c4fdc4": [
-      227,
-      1014,
+    "6bcda9f6786fd77ba542374771db6abd24ea075b90c3f0cd4552d27609f993f1": [
+      818,
+      958,
+      1096,
+      1454,
+      1698,
+      2000,
+      2267,
+      2496,
+      2645,
+      3070
+    ],
+    "6be402454de06b726c828bcd7b30489d1a86600c5e3fb8e26e7019df4a1689b5": [
+      213,
+      417,
+      589,
+      816,
+      1021,
+      1276,
       1748,
-      2379
+      1957,
+      2218,
+      2505
     ],
     "6dedfd41e10d92a78718720aaf60f467fe8ce3a7e288f158739332dbf53d0c7f": [
       322,
@@ -5868,33 +5979,16 @@
       2402,
       2861
     ],
-    "708b23ea1bf89a8653a08fa36545120f896c8aa42422eaf19279893abf7e8701": [
-      385,
-      999,
-      1871,
-      2117,
-      2635,
-      3517
-    ],
-    "719aaf376af4dba7b60bde6dec8fedda99249331583dbc3b155518b0f5f202cb": [
-      158,
-      329,
-      541,
-      716,
-      853,
-      1040,
-      1400,
-      1589,
-      1796,
-      2011,
-      2196,
-      2382,
-      2557,
-      2705,
-      3121,
-      3451,
-      4033,
-      4353
+    "708ed9a54bb43aaa3dd4eb8625cd025d49b88154a636498a0a8aa38bd7ea2ef5": [
+      561,
+      910,
+      1256,
+      1586,
+      1922,
+      2325,
+      2675,
+      3178,
+      3342
     ],
     "737764f42b30a59a6b2fb6e0bee0137fb26d5964928d0efbe9b106f7038ae784": [
       597,
@@ -5932,6 +6026,23 @@
       1723,
       2113,
       2502
+    ],
+    "764b3c3c2802a66cef8aed142b8abcfe1d2f5de23392f5348c642ed8c815709d": [
+      160,
+      695,
+      889,
+      1071,
+      1571,
+      1835,
+      2050,
+      2359,
+      2633,
+      2776,
+      3161,
+      3426,
+      3611,
+      3784,
+      3928
     ],
     "77c46d148c84d4f2e914dabc2074d534c0f8583aef777c526e2574ecaef988d2": [
       298,
@@ -5994,10 +6105,6 @@
       981,
       1301
     ],
-    "7d96e502b6e1f9332560719b6bfcd9aa59b4db95351bd11160df2911d924bb83": [
-      473,
-      1081
-    ],
     "7e2ddee315edadf3ce6acc77f387061fc64732160ef1e9c56b21018769100794": [
       235,
       371,
@@ -6016,29 +6123,6 @@
       4585,
       4800,
       5180
-    ],
-    "7eabd013f7f8a099d97c0cbfc7080c3503c948e9a8fc4978786d72581cb0c86e": [
-      289,
-      1084,
-      1569,
-      1995,
-      2343,
-      2883,
-      3378,
-      4009,
-      4392,
-      4699
-    ],
-    "7eb2f9f84965441a19df9abdaa304ebea6fd41e9219c782a8f6767ab5c307230": [
-      631,
-      890,
-      1305,
-      1463,
-      1701,
-      1893,
-      2244,
-      2856,
-      3280
     ],
     "7eb68a08de6f69bff6df6e380a6acdd420a9203535ccfc6f0462bfe597c6e490": [
       268,
@@ -6080,32 +6164,10 @@
       3087,
       3542
     ],
-    "823a0edeb3f392732a911a03119f3e0d73754c54bba74eafe19f3a6a44e9b093": [
-      579,
-      901,
-      1214,
-      1693,
-      2148
-    ],
-    "8277696222cc6d7feba95524e3644af3b19fbdc40a2804eb95ceacb28ad93ac4": [
-      397,
-      712,
-      925,
-      1086,
-      1351,
-      1567,
-      1847,
-      2088,
-      2413,
-      2733,
-      2887,
-      3152,
-      3358,
-      3640,
-      3861,
-      4042,
-      4189,
-      4323
+    "824073c4db2d06d7f516d4d39b2e92adae2de6b1758fb0b04f2df5554a38259e": [
+      733,
+      1871,
+      2087
     ],
     "82ac2522516c6b0ace40c9ed44dcbbc81559ccc657810f56991e572c57384f3a": [
       610,
@@ -6132,22 +6194,25 @@
       4053,
       4248
     ],
-    "85fd598a950fd506e7d35e7f2a5958071026f2e456e30acca28842f53f64412c": [
-      348,
-      604,
-      951,
-      1273,
-      1858,
-      2045,
-      2193,
-      2548,
-      2712,
-      2937,
-      3294,
-      3432,
-      3687,
-      3826,
-      3990
+    "83e9d503932403758458888b017b32d58f90e8d4e437ff6759e0399a7c21b556": [
+      267,
+      874,
+      1097,
+      1315,
+      1598,
+      1877,
+      2198,
+      2600,
+      2788,
+      3229
+    ],
+    "86a0f8d73911ab54d064ae0bc2381c3e209124d96be70eff0ffa63ea5aec6d4f": [
+      293,
+      721,
+      960,
+      1716,
+      2144,
+      2344
     ],
     "86be802e32b0f44cf1eade40ad25a338c437cd7470c14a03a41f173c86982c24": [
       359,
@@ -6165,50 +6230,6 @@
       3605,
       3864,
       4018
-    ],
-    "86cefb8bf977de36ff8d0884c30a07360297e31d8f126435c2fec4d892c670db": [
-      676,
-      1059,
-      1414,
-      1817,
-      2167,
-      2514,
-      2821,
-      3219,
-      3664,
-      4044,
-      4416
-    ],
-    "8bd83eec3aed8431862948dbf007a915cf7d3743f6dc1953c606c84eb462efd0": [
-      748,
-      1549,
-      1907,
-      2447,
-      2971,
-      3620
-    ],
-    "8c9c03444c6f7b7ae3a8570f16a7f670bec6762d2f710f803c1a6eb5fc975470": [
-      390,
-      624,
-      767,
-      1053,
-      1301,
-      1615,
-      1895,
-      2164,
-      2313,
-      2515,
-      2687,
-      2985,
-      3286,
-      3493,
-      3638,
-      3924,
-      4268,
-      4731,
-      4959,
-      5237,
-      5496
     ],
     "8ce85ad642cfc436934818324b69bdfd8808d99fabeee2457ecfff59c1c45e15": [
       176,
@@ -6228,14 +6249,17 @@
       4096,
       4301
     ],
-    "8d8c4170682f8d44b73077f038e329cb2c2b0d5487bd424c3abda9825001dc57": [
-      665,
-      983,
-      1352,
-      1886,
-      2843,
-      3144,
-      3730
+    "8dfdd4f327d3f373798428b4a3c7733d3443b8c0c5f5514fc03f8c3c80bbe705": [
+      221,
+      532,
+      706,
+      852,
+      1019,
+      1262,
+      1533,
+      1800,
+      1944,
+      2344
     ],
     "8e0c4cd823804462a805769afadb5452317f8b85a6af6af8a8880b7824fccbbc": [
       327,
@@ -6307,6 +6331,21 @@
       1695,
       2309
     ],
+    "9a68e232c5827a3cb829d51378347bc608ba7bf0211d304f7196f23907ebb8b1": [
+      824,
+      1749,
+      1957,
+      2204,
+      2533,
+      2916,
+      3077,
+      3247,
+      3562,
+      3874,
+      4312,
+      4763,
+      5214
+    ],
     "9b97ccb73102b60d5e18c937153e18a288c8ae054c252a2b278b99cfc56b6723": [
       293,
       766,
@@ -6323,18 +6362,6 @@
       4016,
       4211,
       4354
-    ],
-    "9caf59dee4a0ce4e4d52d9488531ce640886435fb385f5abee299badaf3749b7": [
-      213,
-      392,
-      755,
-      1136,
-      1468,
-      1622,
-      1779,
-      2042,
-      2767,
-      2959
     ],
     "9d2ae98ce210db06e0473c8a9b1fd764e3fe6847c2ad5ea89ea556662d038c9f": [
       612,
@@ -6358,14 +6385,6 @@
       1999,
       2457
     ],
-    "9de93a6510df22483bf871356bab9bfbceb05a50b4bd41ace85badefbf56a0d7": [
-      744,
-      1116,
-      1590,
-      2056,
-      2443,
-      2992
-    ],
     "9e1999bfe358ab8ec5a0eb47e66fea7da9567309526ee3e88bfc75ff89173c1a": [
       170,
       709,
@@ -6388,15 +6407,6 @@
       2657,
       3127
     ],
-    "9ff8c944fbaf831a477a29a18bc65f255b7b1dde5c030413c08d10d60403ed20": [
-      582,
-      855,
-      1277,
-      1643,
-      2017,
-      2449,
-      3481
-    ],
     "a0258ed89260e8a1cc9b15143752ed11f63d67b73a167d6038525557a1313aee": [
       608,
       930,
@@ -6407,6 +6417,16 @@
       1094,
       1390,
       1825
+    ],
+    "a1f4f2fed5aa636cc78342dde96cb1901754c9d8d3fc99ded2fb4937dff42f18": [
+      202,
+      366,
+      687,
+      1036,
+      1369,
+      2239,
+      2373,
+      2616
     ],
     "a1fc84dd1ba713ad1159b38d3638fdf88cc5178198f6c117de7e96ebdc9312c9": [
       591,
@@ -6437,17 +6457,15 @@
       720,
       1144
     ],
-    "a423865c8c58a965dbe12cca858e99bca0219eceee425ed625f14d6964d440b7": [
-      746,
-      1149,
-      1745,
-      2047,
-      2522,
-      2871,
-      3168,
-      3795,
-      4313,
-      4567
+    "a4eafe8c78a8c0a3f6aa7b3d1a6374fe30b562a00d156ac204af6cfae91edb98": [
+      281,
+      543,
+      687,
+      879,
+      1053,
+      1371,
+      1532,
+      1752
     ],
     "a5d3a3501d29490bb2c681408d00e9166426a73fa61c95c38425669d7101788c": [
       248,
@@ -6456,6 +6474,21 @@
       1221,
       1431,
       1896
+    ],
+    "a639b49063baa231f7e2ebf50b9cd96a0eb4969912c1a9194883144d6e90a967": [
+      248,
+      924,
+      1399,
+      1626,
+      1922,
+      2381,
+      2537,
+      2863,
+      3210,
+      3734,
+      3908,
+      4269,
+      4702
     ],
     "a6f8fbf8998e28819f24974598b73510e0d1ff681f6df903f0bb30abd7c0bc13": [
       245,
@@ -6475,13 +6508,6 @@
       1710,
       2118,
       2544
-    ],
-    "a7feb6c1206b0ad6088c30059e7874356299be0c4d55cfb0b313e3e2d30f9a51": [
-      241,
-      701,
-      1782,
-      2081,
-      2478
     ],
     "a89fb4d704b2c782e4816d6ed0f281033ea7bf1e2574f0abfd272a8c012206b4": [
       262,
@@ -6504,6 +6530,13 @@
       3432,
       3934
     ],
+    "a9e93ac556422048091b4c526d31582d4d8fd06c97b4f72361abf857aad5d9a8": [
+      212,
+      445,
+      859,
+      1501,
+      1703
+    ],
     "ab14ea09e015021509ebeea302f2f98cb284febd402393cc084d51642c82e2e9": [
       535,
       913
@@ -6522,51 +6555,14 @@
       3188,
       3446
     ],
-    "ad64259e82d343a9f5273e796b1b9588ea754d46397c3afe295b25ffaba56906": [
-      288,
-      868,
-      1733,
-      2001,
-      2576
-    ],
-    "aeaa659b3cfbd442c50e69f2a2a7677b007a275d71227c5b800e3d40028ce8bd": [
-      361,
-      660,
-      973,
-      1485,
-      1991,
-      2523,
-      3090,
-      3582,
-      4031,
-      4821,
-      5160
-    ],
-    "afb24a52eb1e78c0016135b8e12781ee5c8f3aa07bd8a4341add94faf65f34f9": [
-      602,
-      887,
-      1431,
-      1731,
-      1984,
-      2262,
-      2432,
-      2586,
-      2932,
-      3073,
-      3309,
-      3541,
-      3714,
-      3939,
-      4230,
-      4367,
-      4592
-    ],
-    "b03907ca8efcd917d5a0e108d100b492ce298f475ec5c67ea80c8ef7a97c437c": [
-      638,
-      1174,
-      1468,
-      2111,
-      2345
+    "af7fa75fa834d49b99f3a884ab6cae3717319a0c0a8ee4bfeec0aae785d4cbaa": [
+      250,
+      576,
+      806,
+      2045,
+      2347,
+      2529,
+      2697
     ],
     "b21d4077fa96fcc01675aac540cc58c7a0a6c8e9d35c4ee7ad0a684dab558b6e": [
       512,
@@ -6598,17 +6594,26 @@
       3288,
       3530
     ],
-    "b5f3deb6ccb0515a26a79ed2d9b8d4aaf4e5b00b22a86d8855610968341cd8a6": [
-      890,
-      1453,
-      1845,
-      2295,
-      2713,
-      3307,
-      3606
+    "b63fb14d1f652280f44ea1dbf8c3f84904f2113cc2fd480bdd2889f250432b5a": [
+      134,
+      347,
+      895,
+      1201,
+      1456,
+      1913,
+      2209,
+      2463,
+      2753,
+      2990,
+      3215,
+      3596
     ],
-    "b8782def2174d57bfe5fe5ffb3f2346499a1ab23427feb7700211d61ec18064d": [
-      390
+    "b6d844d7261c73449544b47898c4cabb2ceebf1b84c783f467d9f0bf50245581": [
+      220,
+      569,
+      837,
+      1126,
+      1318
     ],
     "b9163ddbb9b1d1699f48a0f54c833bb979c4555d94c4d64848c34353c86414d8": [
       270,
@@ -6617,11 +6622,6 @@
       1702,
       2222,
       2769
-    ],
-    "bffbd6673de6b841a11caf9d13dacf772fb08ce569a45622e34788f0060ef35d": [
-      1014,
-      1628,
-      1993
     ],
     "c3f9275cda9cbf672786174b96cd32051743805d170b4719713d2cc9d1e7605c": [
       915,
@@ -6651,19 +6651,6 @@
       3329,
       4121
     ],
-    "c4fd9bec3fb68c9c0c86ad28561f25db8f74e595a0e7c2258590c24a88c7b556": [
-      974,
-      1128,
-      1381,
-      1711,
-      2166,
-      2494,
-      2758,
-      2963,
-      3312,
-      3543,
-      4029
-    ],
     "c7240ca988596139e952a12671125deaf0e273b85c93ad83572cf9a3f88ad5d3": [
       328,
       606,
@@ -6685,29 +6672,63 @@
       3398,
       3931
     ],
-    "c777df75e264d5a37bc6c4fc64848f30bd1ef13eb3cb73d8df09cd8f545d543a": [
-      810,
-      1112,
-      1447,
-      2083,
-      2971,
-      3313,
-      3775,
-      4337,
-      4681
+    "c928e74831bc73c87aa3cf82a1d26e62607ad9d1dc29404fca9810c76a17de9f": [
+      472,
+      849,
+      1253,
+      1516,
+      1815,
+      2256,
+      2590,
+      2824,
+      3335,
+      3652,
+      4045,
+      4386,
+      4708
+    ],
+    "ca1e81e7675b6f35bba2c85543935c87b408d8dcfcc32dcd1cc444968809d2b8": [
+      337,
+      968,
+      1126,
+      1387,
+      2118,
+      2427,
+      2950,
+      3293,
+      3509,
+      3961,
+      4160
+    ],
+    "caaacfe6d413e918cf64373e15641fdb3b021fbc52c82d908695bc258ef9e26f": [
+      397,
+      886,
+      1193,
+      1488,
+      1935,
+      2129,
+      2459,
+      2662,
+      2984,
+      3203,
+      3610
     ],
     "cbf3038a31fbd92baa7b5dc9e649c6bb7eae7c8afe1add9eae9b5f1c9bda8c3e": [
       756,
       1189
     ],
-    "cc1617beac51a93bfe48fbd43c4257269bc506df5a9fe1f947bafc80c188fb2f": [
-      361,
-      839,
-      1517,
-      2005,
-      2517,
-      3112,
-      3790
+    "cdac69db0f55bf8ab1ae05eba2b1b3265ffd40fa2aa1c35d5597e8162a0ee131": [
+      595,
+      875,
+      1261,
+      1604,
+      1834,
+      2224,
+      2416,
+      2604,
+      2775,
+      3108,
+      3444
     ],
     "cf133931439102fde757753dcd58929271d93e5c0ca4a4d05006333e78ef2f4f": [
       622,
@@ -6715,28 +6736,24 @@
       1481,
       1924
     ],
-    "d11f70e4a97e53736e61ec75bc3b2819e70252d35c147eec312fa4abcc7263b5": [
-      294,
-      725,
-      1171,
-      1688,
-      2126,
-      2729,
-      3259,
-      3668
+    "d035194269c011dbf15c609c318279f9ed403ec5c053b37d41a4fec1c7d65ebd": [
+      372
     ],
-    "d1ba4d8ec6de6bc6c7d169d28524dabc1e5abfcb14a1fdebe29980d2e3969373": [
-      386,
-      875,
-      1191,
-      1859,
-      2166,
-      2597,
-      2950,
-      3695,
-      4321,
-      4677,
-      5023
+    "d09139ad20ab9f37775cf78dce54a3747ecc667680558846efb2861411ccbc1b": [
+      271,
+      651,
+      1159,
+      1977,
+      2222,
+      2677,
+      2829,
+      3256,
+      3548
+    ],
+    "d17dc022546364db21f3133a281fc7df749d92dbb2563ed6f7bb742baacc8e75": [
+      466,
+      1104,
+      1509
     ],
     "d1c1b35887b683e63f222803ceff2266c2525f36cfae6f54478fa6e5dddcc97b": [
       789,
@@ -6745,70 +6762,80 @@
       2714,
       3227
     ],
-    "d4f9559b346e0facc31cc65628f0ec78e751123637426925e6fc900792368767": [
-      635,
-      1169,
-      1776
+    "d26334aa83cef664e2a86e1658e486096cb759bb332cd600b261261d53e4474d": [
+      318,
+      657,
+      1325,
+      1636,
+      1886,
+      2216
     ],
-    "d6c26d94dd5209d1faf29919cf00f3c9f3398ced97a8787cbae9c7d99bc4c5e0": [
-      710,
-      1148,
-      1497,
-      2039,
-      2372
+    "d3aec90195bd9303a345c5518b85941e063ed6c43a33a65ad9260ec799bd65c6": [
+      500,
+      1321,
+      2055,
+      2228,
+      2534,
+      2941,
+      3251,
+      3441,
+      3786,
+      4107
     ],
-    "d7ffdf6002e95a14c14e8f3393aec9b0a66913a51227e1902db809b4859313ef": [
-      311,
-      713,
-      1131,
-      1372,
-      1831,
-      2153,
-      2430,
-      2695,
-      2934,
-      3153,
-      3522
+    "d4d294ab1e7cd53ec717c1580a0f62fd931c2be6dd142ae8bd156d49f5d62a30": [
+      348,
+      750,
+      1042,
+      1396,
+      1551,
+      2044,
+      2267,
+      2614,
+      2952,
+      3278,
+      3448,
+      3730,
+      3972,
+      4301,
+      4655
     ],
-    "dc94769e5ee1c61f16057ec95cb415bd991a52a8933b1a48161233e05f225740": [
-      357,
-      951,
-      1440,
-      1962,
-      2331,
-      2742
+    "dc26ba9307ea6ac253cf8fe3b0da8ba703912f5fedad766453bfd59c978e806d": [
+      301,
+      753,
+      1075,
+      1540,
+      2017,
+      2399,
+      2781,
+      3367,
+      3700,
+      4086,
+      4466
     ],
-    "dc94f55a43e3d717bee5135b84bbb5a7c90665189f8edc8f0f49c04d3ec5a6d7": [
-      506,
-      943,
-      1273,
-      1920,
-      2868,
-      3183,
-      3593,
-      3931,
-      4226,
-      4988,
-      5502,
-      5993
+    "dc62700e9e451c2ae9434f7dcd3541a462aa51dbdb6bc07bfa3b5688f40f266b": [
+      949,
+      1275,
+      1864,
+      2348,
+      3149
     ],
-    "de461f74882112be4084476172ba7b78c59e92688045d852bbafb5ffda3c7a06": [
-      450,
-      1105,
-      1790,
-      2747
-    ],
-    "df08e5f5a8da513a6b70ad9b38ebc7b226bbdaf54d605e72fb3e473341da75f6": [
-      592,
-      1108,
-      1604,
-      2119,
-      2507,
-      2899,
-      3545,
-      3926,
-      4331,
-      4735
+    "dde1141db3e2f676216a5e63347ddcd207cd27e34da9f081fc83506034c92655": [
+      379,
+      781,
+      1081,
+      1323,
+      1678,
+      1972,
+      2383,
+      2593,
+      2757,
+      3032,
+      3323,
+      3666,
+      3933,
+      4267,
+      4700,
+      4908
     ],
     "df45d162ffc6792458be7009b2649494c6a13e580459b9562202a2389eb45f5d": [
       373,
@@ -6824,15 +6851,11 @@
       3390,
       3766
     ],
-    "e175a92fce6e36dc2043748faab6e4f1b7e1cc20bbf1c70af28e135beaddf6ab": [
-      636,
-      873,
-      1175,
-      1617,
-      2075,
-      2450,
-      2791,
-      3137
+    "e1ca37d98083bc210ffea9c140e8c466569506483ebf3063461f4bdc46825218": [
+      646,
+      867,
+      1054,
+      1263
     ],
     "e20efc2dcda319a70f9140cbf95e9c814f1ca701c0d372ea4eaf3d2928e3fe49": [
       297,
@@ -6846,14 +6869,6 @@
     ],
     "e3f5c04a92098ddbe15fbb2320ffeff0ad284729e12346eb70ae5674a0991276": [
       881
-    ],
-    "e4305f2d849773e959e8e0542036632f6f2ca4d5a53503890cb50a0211f17ae9": [
-      259,
-      808,
-      1527,
-      2020,
-      2484,
-      2912
     ],
     "e447ebd0ec68189a73fad795be047f7428c5363b319dd17ff1a34769675b5f4a": [
       862,
@@ -6903,12 +6918,19 @@
       1962,
       2373
     ],
-    "f013296b7a62d9b4dcef69dc3e9f1b33978acc677ce24ac164651d207aa505a8": [
-      555,
-      907,
-      1331,
-      2013,
-      2302
+    "ec0a3885c7fbd8d4b759ca07f39b667e44ba91fdff944164870df1c985380ccb": [
+      292,
+      695,
+      1090,
+      1451,
+      1707,
+      2008,
+      2464,
+      2970,
+      3518,
+      3676,
+      4140,
+      4380
     ],
     "f225d8abbe9d812f88a72a5a76dc6b1f7870e64045bd9439244ff5111707d263": [
       350,
@@ -6928,23 +6950,6 @@
       2714,
       3130,
       3792
-    ],
-    "f3f0b4ded2b5fd1885ac4425f989bf21c7893de3f7b12cc21f01735bb3a3501d": [
-      351,
-      541,
-      688,
-      847,
-      1142,
-      1420,
-      1565,
-      1740,
-      2060,
-      2659,
-      2943,
-      3316,
-      3481,
-      3719,
-      4214
     ],
     "f476b411eb4e52df15e317371f951bc6da0ecd27dec61af764e4c514529ceb60": [
       151,
@@ -6998,6 +7003,20 @@
       2478,
       2736
     ],
+    "f929c014a908a087c499e58550149cad4b5b89f6ba3b51b5e3a8ac06832bdb62": [
+      150,
+      322,
+      720,
+      1092,
+      1438,
+      1622,
+      1869,
+      2136,
+      2404,
+      2925,
+      3182,
+      3507
+    ],
     "f9660a6b15d2edbbed3c372551f3cf3d6b8c5dc7db5904a1c3b968df847d3455": [
       303,
       851,
@@ -7018,6 +7037,24 @@
       2663,
       2957,
       3207
+    ],
+    "fac16b6ba59d8db2478725d7bf7a0f80af2f92becfcf4865e13965bfd68b87ec": [
+      251,
+      615,
+      882,
+      1210,
+      1402,
+      1708,
+      1960,
+      2237,
+      2665,
+      2877,
+      3270,
+      3534,
+      3743,
+      3967,
+      4387,
+      4633
     ],
     "fb06798312c38260825d7e0865515b2de8060c675c3349ea9244793f2a655995": [
       702,
@@ -7058,23 +7095,16 @@
       3125,
       3470
     ],
-    "fd303528f674007a06dadd76059d75fb83e64d3b888606a7a6a318f8239464c6": [
-      298,
-      646,
-      979,
-      1127,
-      1312,
-      1668,
-      1873,
-      2174,
-      2503,
-      2664,
-      2895,
-      3212,
-      3394,
-      3870,
-      4185,
-      4745
+    "fd55c68c446fb7eed4485900882f8366a3faf1070055b9798c99d52034849e9a": [
+      778,
+      1057,
+      1490,
+      1759,
+      1937,
+      2133,
+      2308,
+      2629,
+      2938
     ],
     "fd6e946c9e3eb381af575be90ec94ffe4129f13702e5a38512ce16981de6238d": [
       256,
@@ -7099,6 +7129,14 @@
       2266,
       2984,
       3404
+    ],
+    "ff27363dca85aab16a65984e6074f093cc28166a034d2fd7f5acdbb758998ae2": [
+      286,
+      520,
+      824,
+      1031,
+      1166,
+      1463
     ],
     "ff57a87a28597a4d47be3d6030a927fc7b196a0017b565612fb4d622788ffd0a": [
       1215,

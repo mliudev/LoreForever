@@ -214,13 +214,13 @@
          functions/api/device/[action].js; they connect on /link. -->
     <div class="ac-panel" id="apps" hidden>
       <!-- Inviting friends (lib/referrals.js, functions/api/share/[action].js): the player's own link, how far their
-           friends have brought them toward the next free month (Patrick's "7 / 10 friends joined"), what counts and what
+           friends have brought them toward the next free month ("1 / 2 friends joined"), what counts and what
            it gives in plain words, and what they've earned. Its words come from the site (shareWords). -->
       <section class="fb-form ac-invite" id="ac-share" aria-labelledby="ac-share-title" hidden>
         <h2 id="ac-share-title">Invite a friend to awaken their Willo</h2>
         <p id="ac-share-grows"></p>
         <p class="ac-invite-tally"><strong id="ac-share-tally"></strong></p>
-        <progress class="invite-bar" id="ac-share-bar" max="10" value="0" aria-label="Friends toward your next free month"></progress>
+        <progress class="invite-bar" id="ac-share-bar" max="2" value="0" aria-label="Friends toward your next free month"></progress>
         <p class="vp-note" id="ac-share-waiting" hidden></p>
         <p class="ac-share-link"><code id="ac-share-url"></code>
           <button class="btn-small" type="button" id="ac-share-copy">Copy link</button>
@@ -641,6 +641,9 @@
       return isNaN(t) ? "" : t.toLocaleDateString(undefined, { month: "long", day: "numeric", year: "numeric" });
     };
     const paid = c.id !== "free";
+    // What the plan leads with, as its card on /plans says it (lib/billing.js planFeatures: the first line), so this
+    // card, /plans, /willo and the Terms say the same.
+    const lead = id => { const f = res.plans.find(p => p.id === id)?.features?.[0]; return f ? `${f}. ` : ""; };
     $("ac-plan").classList.toggle("ac-plan-paid", paid);
     $("ac-plan-willo").hidden = !paid;
     if (c.reward) {
@@ -657,8 +660,8 @@
       // month"); Champion and Legend are half price until then (launchEnds).
       const keep = res.plans.find(p => p.id === "hero")?.promo;
       $("ac-plan-title").textContent = `Beta: Hero is free until ${c.ends}`;
-      $("ac-plan-text").textContent = `${(c.answersPerMonth || 0).toLocaleString("en-US")} Willo answers this month, ` +
-        `up to ${c.answersPerDay} a day. ` +
+      $("ac-plan-text").textContent = lead("hero") +
+        `${(c.answersPerMonth || 0).toLocaleString("en-US")} Willo answers this month, up to ${c.answersPerDay} a day. ` +
         (keep ? `Keep Hero with a card and nothing is charged ${keep.note}.` : "Keep Hero after it for $4.99 a month.") +
         (res.launchEnds && res.plans.some(p => p.id !== "hero" && p.promo)
           ? ` Champion and Legend are half price until ${res.launchEnds}.` : "");
@@ -667,7 +670,8 @@
     }
     if (paid) {
       $("ac-plan-title").textContent = `Your plan: ${c.name}`;
-      $("ac-plan-text").textContent = `${(c.answersPerMonth || 0).toLocaleString("en-US")} Willo answers a month, up to ${c.answersPerDay} a day. ` +
+      $("ac-plan-text").textContent = lead(c.id) +
+        `${(c.answersPerMonth || 0).toLocaleString("en-US")} Willo answers a month, up to ${c.answersPerDay} a day. ` +
         (c.status === "past_due" ? "Your last payment didn't go through: update your card to keep it."
           : c.cancelAtPeriodEnd ? `It ends on ${day(c.renews)}.`
           : c.changesTo ? `Changes to ${c.changesTo.name} on ${day(c.changesTo.at)}.`
@@ -690,7 +694,7 @@
     $("ac-plan-title").textContent = "Get more Willo answers";
     $("ac-plan-text").textContent = `You're on ${c.name}, the free plan: ${c.answersPerDay} live answers a day. ` +
       `${names.slice(0, -1).join(", ")} and ${names.at(-1)} give Willo more` +
-      (open ? `, from ${open.name} at $${(open.monthly / 100).toFixed(2)} a month.` : ".");
+      (open ? `, from ${open.name} at $${(open.monthly / 100).toFixed(2)} a month: ${lead(open.id).trim() || "."}` : ".");
     $("ac-plan-go").textContent = "See plans";
   }
 

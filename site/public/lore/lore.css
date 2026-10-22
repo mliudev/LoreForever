@@ -115,6 +115,15 @@
 .lx-check { font-size: 0.9rem; color: var(--muted); }
 .lx-check[hidden] { display: none; }
 .lx-count { margin: 6px 0; color: var(--muted); font-size: 0.88rem; }
+.lx-packnote {
+  margin: 8px 0; padding: 8px 12px; line-height: 2.2;
+  border: 1px solid var(--panel-line); border-radius: 6px; background: var(--panel); font-size: 0.92rem;
+}
+.lx-packnote[hidden] { display: none; }
+.lx-packnote strong { color: var(--gold-soft); }
+.lx-packnote .lx-sample { margin-left: 6px; }
+.lx-nosample { color: var(--muted); margin-left: 4px; }
+.lx-get { margin-left: 8px; color: var(--gold-soft); }
 .lx-list { display: flex; flex-direction: column; gap: 6px; }
 .lx-row {
   display: grid; grid-template-columns: 40px minmax(0, 1fr) auto; gap: 12px; align-items: center; padding: 8px 12px;

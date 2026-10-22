@@ -8,6 +8,7 @@
 // written by Flash-Lite without search; it returns the finding's sources, so the player still sees where it came from.
 
 import { words } from "./forever-knowledge.js";
+import { namedCorrection } from "./answer-feedback.js";
 
 export const CACHE_DAYS = 14;
 // The most an EARLIER RESEARCH block adds to a system prompt (companion-answers.js counts it in its bound).
@@ -176,6 +177,14 @@ export function wantsSearch(question, dispute, facts) {
   if ((facts || []).some(f => f.asked)) return false;
   if (HERE_AND_NOW.test(q)) return false;
   return dispute === "correction" || PRACTICAL.test(q) || REAL_WORLD.test(q);
+}
+// Talent advice needs current game evidence even when an older typed client omits research "auto" (LOR-721).
+// Only an explicit named correction carries this need from the immediately preceding talent question; ordinary
+// follow-ups, and the model's own earlier claims, do not create a new research topic.
+export function needsTalentResearch(question, previous = "", dispute = null) {
+  const q = String(question || "");
+  return /\btalents?\b/i.test(q) || (dispute === "correction" && /\btalents?\b/i.test(String(previous || "")) &&
+    namedCorrection(q));
 }
 // The player asks to search, or doubts the answer, with no topic of their own ("can you search on the interwebs?",
 // "are you sure?"): the look-up is for what they asked before (functions/api/companion/answer.js). On 10/15 the site

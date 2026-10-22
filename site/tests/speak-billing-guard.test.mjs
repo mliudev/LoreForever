@@ -16,7 +16,8 @@ import { readFileSync, writeFileSync } from "node:fs";
 import { onRequest as speakApi } from "../functions/api/companion/speak.js";
 import { findOrCreateUser, setup } from "../lib/accounts.js";
 import { startLink, decideLink, claimToken } from "../lib/devices.js";
-import { setupBilling, planFor, poolWindow, LEGEND_BEST_PER_MONTH, STARTER_ANSWERS, PLANS, PLAN_VOICE } from "../lib/billing.js";
+import { setupBilling, planFor, poolWindow, LEGEND_BEST_PER_MONTH, STARTER_ANSWERS, STARTER, PLANS, PLAN_VOICE }
+  from "../lib/billing.js";
 import { d1, assets } from "./helpers.mjs";
 
 const FIXTURE = new URL("./fixtures/speak-billing-guard.json", import.meta.url);
@@ -25,6 +26,9 @@ const HOSTED = JSON.parse(readFileSync(new URL("../public/lore/data/respell-host
 const MP3 = Buffer.from("ID3\x04\x00\x00fake-mp3-frames", "latin1");
 
 test("the hosted voice counts and charges exactly as recorded, step by step", async (t) => {
+  // Recorded with a free starter credited (no new ones since 10/21; one already credited is still used).
+  STARTER.credited = true;
+  t.after(() => { STARTER.credited = false; });
   t.mock.timers.enable({ apis: ["Date"], now: NOW });
   const env = { DB: d1(), GEMINI_API_KEY: "test-key", SITE_FEATURES: "plans", DEEPINFRA_API_KEY: "di-test",
                 INWORLD_API_KEY: "iw-test", ASSETS: assets({ "/lore/data/respell-hosted.json": HOSTED }),

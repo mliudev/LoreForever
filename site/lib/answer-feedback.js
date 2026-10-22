@@ -67,10 +67,11 @@ export const CLASSES = ["missing_fact", "retrieval", "model", "voice", "ux", "no
 export const FIX_HOW = ["fact", "lore", "prompt", "code", "voice"];
 
 // A player telling the companion its last answer is wrong, or what's true in Forever. Plain words always count:
-// "you're wrong", "that's not right", "make a note that ...".
+// "you're wrong", "that's not right", "your information is outdated". A notebook request alone is not a correction.
 const CORRECTION = new RegExp([
   String.raw`\b(?:you(?:'re| are)|that(?:'s| is| was)|it(?:'s| is| was)|this(?:'s| is)|you(?:'ve| have) got (?:it|that)) (?:wrong|not right|incorrect|outdated|mistaken)\b`,
-  String.raw`\b(?:make|take) a note\b`, String.raw`\bthat(?:'s| is) not (?:true|how it is|what|where|right)\b`,
+  String.raw`\b(?:your|that|this|the) (?:information|info|answer) (?:is|was) (?:wrong|not right|incorrect|outdated|mistaken)\b`,
+  String.raw`\bthat(?:'s| is) not (?:true|how it is|what|where|right)\b`,
   String.raw`^\W*(?:wrong|not true|not right)\s*[,.!]`,
 ].join("|"), "i");
 // ...and a statement (not a question) that disagrees: "I'm pretty sure that's Dalaran", "Actually it's rebuilt",
@@ -91,9 +92,12 @@ const NO_CLAIM = new RegExp([
   String.raw`\b(?:actually|is|are|was|were|isn't|aren't|wasn't|weren't)\b`,
 ].join("|"), "i");
 const POLITE = /\b(?:thanks?|thank you|thx|ty|not (?:yet|now|really|today)|i'?m (?:good|fine|ok|okay|set|all set)|that'?s (?:all|ok|okay|fine|it|alright)|all good|no worries|maybe later)\b/i;
+// A complete reassurance after "no" agrees with her; its "you are" is not a factual correction (LOR-718).
+// Anchor the whole reply so praise followed by an actual correction is still caught.
+const REASSURANCE = /^(?:(?:willo|willow)[\s,.!]+)?you(?:'re| are) (?:just |already )?(?:perfect|fine|great|wonderful|amazing|lovely|helpful|right)(?: just (?:the way|as) you are)?[\s.!]*(?:(?:thanks|thank you)[\s.!]*)?$/i;
 function disputingNo(text, previous) {
   const rest = text.match(NO) ? text.replace(NO, "") : null;
-  if (!rest || POLITE.test(rest) || !NO_CLAIM.test(rest)) return false;
+  if (!rest || POLITE.test(rest) || REASSURANCE.test(rest) || !NO_CLAIM.test(rest)) return false;
   return !/\?\W*$/.test(previous) || /\bactually\b/i.test(rest);
 }
 // A player losing patience with the answers: said at the answers or at the companion, not about an item or a place.
@@ -112,13 +116,20 @@ const MISHEARD = new RegExp([
 const GAVE_UP = /^\W*(?:never ?mind|nevermind|nvm|forget it|forget (?:that|i asked)|whatever|ugh+)\b/i;
 const FOUND = /\b(?:found it|got it|figured (?:it )?out|my bad|thanks?|thank you|ty)\b/i;
 const plain = text => String(text || "").replace(/[’‘]/g, "'").trim();
+// A statement offering the corrected name, not a request to explain "what you meant" (LOR-721).
+// Shared with the talent research route so a clarification cannot become a correction there either.
+export function namedCorrection(said) {
+  const text = plain(said);
+  return !text.includes("?") && /(?:^|[.!;]\s*|\band\s+)(?:(?:i\s+(?:think|believe)|maybe|perhaps)\s+)?you\s+meant\s+[^\s?.!]/i.test(text);
+}
 // "frustration", "gave_up", "misheard", "correction" or null for what a player said. Only after an answer (previous:
 // the companion's last answer in this chat): with nothing said yet there's nothing to dispute.
 export function feedbackKind(said, previous = "") {
   const text = plain(said);
   if (!text || !plain(previous)) return null;
   if (FRUSTRATION.test(text)) return "frustration";
-  if (CORRECTION.test(text) || (!text.endsWith("?") && (DISAGREES.test(text) || disputingNo(text, plain(previous)))))
+  if (CORRECTION.test(text) || namedCorrection(text) ||
+    (!text.endsWith("?") && (DISAGREES.test(text) || disputingNo(text, plain(previous)))))
     return "correction";
   // After the two above, so nothing they caught changes kind: these two get no words of their own in her prompt
   // (lib/companion-answers.js DISPUTE_SYSTEM), and her answer is as it was.

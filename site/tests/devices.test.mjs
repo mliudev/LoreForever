@@ -522,3 +522,12 @@ test("overlapping changed syncs only acknowledge delivered facts and the loser r
     assert.equal(JSON.parse((await row(me.user.id)).data).level, 26);
   } finally { env.DB.prepare = prepare; releaseReads?.(); resolveFirstWrite?.(); }
 });
+
+test("status gives the phone the profile's side as its own field, empty when the profile has none", async () => {
+  const me = await signIn("aelric");
+  const token = await connect(me);
+  assert.equal((await app("status", { token })).body.profile, null);
+  await sync(token, RECORD);
+  const { profile } = (await app("status", { token })).body;
+  assert.deepEqual([profile.sheet, profile.faction], ["Level 24 Night Elf Druid", "Alliance"]);
+});

@@ -326,8 +326,29 @@ export function packsForEntry(key, entries, data, shown) {
     .map(f => ({ name: data.packs[f].name, href: `/downloads#${anchorOf(f)}`, main: Boolean(data.packs[f].in_main) }));
 }
 
-// /lore's pack filter: the packs that have recordings of some page, as <option>s.
+// The language a pack's recordings speak, in English, for /lore's "plays in French in the add-on".
+const LANGUAGE = { deDE: "German", frFR: "French", esES: "Spanish", esMX: "Spanish", ptBR: "Brazilian Portuguese",
+  itIT: "Italian", ruRU: "Russian", ukUA: "Ukrainian" };
+
+// What /lore plays when a pack is picked (site_packs.py writes it): an English narrator's pack plays its narrator's
+// recordings in the list where it has them ({voice}); where it has none (another language, the "more" packs, the
+// quest givers), /lore says what language it plays in, in the add-on, and offers the pack's own sample ({lang,
+// sample}), or none ("No sample yet"), never the English recording.
+export function packPlays(folder, data) {
+  const f = data?.packs?.[folder];
+  if (!f) return {};
+  const loc = f.locale || locale(folder);
+  const out = f.lore_voice ? { voice: f.lore_voice } : {};
+  const lang = LANGUAGE[loc] || (loc && !/^en/.test(loc) ? loc : "");
+  if (lang) out.lang = lang;
+  if (f.sample?.audio) out.sample = { audio: f.sample.audio, title: f.sample.title || "", lang: f.sample.lang || loc.slice(0, 2), key: f.sample.key || "" };
+  return out;
+}
+
+// /lore's pack filter: the packs that have recordings of some page, as <option>s, each with what it plays (packPlays)
+// and where to get it.
 export function packOptions(entries, data, shown) {
   if (!entries?.packs || !data?.packs) return [];
-  return entries.packs.filter(f => data.packs[f] && (!shown || shown.has(f))).map(f => ({ value: f, name: data.packs[f].name }));
+  return entries.packs.filter(f => data.packs[f] && (!shown || shown.has(f)))
+    .map(f => ({ value: f, name: data.packs[f].name, href: `/downloads#${anchorOf(f)}`, ...packPlays(f, data) }));
 }

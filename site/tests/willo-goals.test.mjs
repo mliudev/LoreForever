@@ -176,7 +176,11 @@ test("the mount at 40: level, Forever's price with the Honored discount, the tra
 test("what she doesn't know she's told to say so: no save, no pace, the skyborne's trainer, a swift mount, a stale save", () => {
   const none = progressOf({ kind: "riding", skill: 75, gold: null }, null).facts.join(" ");
   assert.match(none, /can't see their level yet/);
-  assert.match(none, /can't see their purse yet: say so, and that you will after their next \/reload or log out/);
+  assert.match(none, /can't see their purse yet: say so, and that you will once they've spent an evening in the world with you at their side/);
+  // The instruction is in the world's words: no app, computer, save, reload or log-out (the PM's ruling, 10/21).
+  const unseenLines = none.match(/you can't see their [^.]*?\(never guess it\)/g);
+  assert.equal(unseenLines.length, 2);
+  for (const line of unseenLines) assert.doesNotMatch(line, /reload|SavedVariables|sync|\bapp\b|computer|\bsave|log ?out|log out/i);
   const fresh = progressOf({ kind: "gold", gold: 200 }, stockOf(hurin({ days: EVENINGS.slice(-1) }))).facts.join(" ");
   assert.match(fresh, /not enough evenings saved yet; say you'll know it after a couple more evenings/);
   const sky = progressOf({ kind: "riding", skill: 75, gold: null }, stockOf(hurin({ race: "Skyborne" }))).facts.join(" ");

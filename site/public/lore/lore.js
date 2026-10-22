@@ -250,6 +250,8 @@
   const bar = lx.querySelector(".lx-bar"), list = lx.querySelector(".lx-list"), more = lx.querySelector(".lx-more");
   const count = lx.querySelector(".lx-count"), player = document.querySelector(".lx-player");
   let rows = [], shown = [], limit = PAGE, sel = -1, playing = null, voices = [], kinds = [], zoneName = {};
+  let liveKeys = new Set(), pathOf = {}, sampleRow = null, voiceChips = false, anyPlayable = false;
+  const note = lx.querySelector(".lx-packnote");
   const params = new URLSearchParams(location.search);
   const state = { q: params.get("q") || "", z: params.get("z") || "", k: params.get("k") || "", v: params.get("v") || "",
     p: params.get("p") || "", playable: params.get("playable") === "1" };
@@ -273,7 +275,7 @@
     fetch("/lore/data/more.json").then(r => r.json()).catch(() => ({ pages: [] })),
     fetch("/api/narration/live").then(r => (r.ok ? r.json() : { keys: [] })).catch(() => ({ keys: [] })),
   ]).then(([index, more, liveData]) => {
-    const live = new Set(liveData.keys || []);
+    const live = liveKeys = new Set(liveData.keys || []);
     voices = index.voices || [];
     kinds = index.kinds || [];
     (index.zones || []).forEach(z => { zoneName[z.key] = z.name; });
@@ -288,6 +290,7 @@
       || (a.p < b.p ? -1 : 1));
     for (const p of pages) {
       const key = keyOf(p.p);
+      pathOf[key] = p.p;
       if (!(p.c || []).length) {   // a page with nothing to play: one row that opens it
         const sub = [kindLabel[p.k] || "", zoneName[p.z] || ""].filter(s => s && s !== p.n);
         rows.push({ cid: key, hash: "", kind: p.k, z: p.z, title: p.n, sub: sub.join(" · "), href: p.p, v: {}, text: true,
@@ -350,7 +353,9 @@
     };
     chips(bar.querySelector(".lx-chips:not(.lx-voices)"), [["", "All"], ...kinds.map(k => [k.id, k.label])], "k");
     const vbox = bar.querySelector(".lx-voices");
-    if (anyLive && voices.length > 1) chips(vbox, [["", "Any voice"], ...voices.map(v => [v.id, v.name])], "v");
+    voiceChips = anyLive && voices.length > 1;
+    anyPlayable = anyLive;
+    if (voiceChips) chips(vbox, [["", "Any voice"], ...voices.map(v => [v.id, v.name])], "v");
     else vbox.hidden = true;
     const check = bar.playable;
     check.checked = state.playable;
@@ -362,7 +367,7 @@
     if (pack) {
       if (![...pack.options].some(o => o.value === state.p)) state.p = "";
       pack.value = state.p;
-      pack.addEventListener("change", () => { state.p = pack.value; loadPack().then(apply); });
+      pack.addEventListener("change", () => { state.p = pack.value; sampleRow = null; loadPack().then(apply); });
     }
     check.addEventListener("change", () => { state.playable = check.checked; apply(); });
   }
@@ -370,11 +375,12 @@
   function apply() {
     const words = fold(state.q).split(/\s+/).filter(Boolean);
     shown = rows.filter(r => (!state.z || r.z === state.z) && (!state.k || r.kind === state.k)
-      && (!state.v || r.v[state.v]) && (!state.playable || Object.keys(r.v).length)
+      && (!state.v || pickOf() || r.v[state.v]) && (!state.playable || (pickOf() && !packVoice()) || voiceOf(r))
       && (!packKeys || packKeys.has(r.cid.split("#")[0]))
       && words.every(w => r.find.includes(w)));
     limit = PAGE;
     sel = -1;
+    showNote();
     render();
     const q = new URLSearchParams();
     for (const k of ["q", "z", "k", "v", "p"]) if (state[k]) q.set(k, state[k]);
@@ -382,7 +388,72 @@
     history.replaceState(null, "", location.pathname + (q.toString() ? `?${q}` : "") + location.hash);
   }
 
-  const voiceOf = r => (r.v[voicePref] ? voicePref : Object.keys(r.v)[0]);
+  // The picked download (the pack filter's option, lib/packs.js packPlays): an English narrator's pack plays its
+  // narrator in the list (data-voice), on the rows that have it; any other plays nothing there, since its recordings
+  // aren't in the list (never the English one in its place). .lx-packnote says what plays, and when the list plays
+  // none of the pack, what language it plays in, in the add-on, with its sample.
+  const pickOf = () => {
+    const o = state.p && bar.p ? bar.p.selectedOptions[0] : null;
+    return o && o.value === state.p ? o : null;
+  };
+  const packVoice = () => {
+    const v = pickOf()?.dataset.voice;
+    return v && voices.some(x => x.id === v) ? v : "";
+  };
+  const voiceOf = r => {
+    if (r.sample) return "sample";
+    if (pickOf()) { const v = packVoice(); return v && r.v[v] ? v : ""; }
+    return r.v[voicePref] ? voicePref : Object.keys(r.v)[0];
+  };
+
+  function sampleOf(o) {
+    const d = o.dataset;
+    if (!d.sample || !liveKeys.has(d.sample)) return null;
+    if (!sampleRow || sampleRow.pack !== o.value) {
+      sampleRow = { sample: true, pack: o.value, cid: d.sampleKey || "", hash: "", title: d.sampleTitle || o.textContent,
+        lang: d.sampleLang || "", sub: `${o.textContent} · sample`, href: pathOf[d.sampleKey] || d.href || "#",
+        v: { sample: { src: `/audio/clip/${d.sample}`, sec: 0 } } };
+    }
+    return sampleRow;
+  }
+
+  function showNote() {
+    const o = pickOf();
+    note.hidden = !o;
+    // A pick plays one voice (or none here): the voice chips and, for a pack the list can't play, "Playable here" go.
+    const d = o?.dataset, v = packVoice();
+    const inList = v && shown.some(r => r.v[v]);
+    bar.querySelector(".lx-voices").hidden = !voiceChips || Boolean(o);
+    bar.playable.closest("label").hidden = !anyPlayable || Boolean(o && !inList);
+    if (!o) { note.replaceChildren(); return; }
+    const what = inList ? " plays below in this pack's voice, as in the add-on."
+      : d.lang ? ` plays in ${d.lang} in the add-on.` : v ? " plays in the add-on." : " plays in the add-on, in its own voices.";
+    const parts = [el("strong", "", o.textContent), what];
+    if (!inList) {
+      const r = sampleOf(o);
+      if (r) {
+        const b = el("button", "btn-small lx-sample", "▶ Hear a sample");
+        b.type = "button";
+        if (r.lang) b.lang = r.lang;
+        b.title = r.title;
+        b.addEventListener("click", () => toggle(r));
+        parts.push(" ", b);
+      } else {
+        parts.push(" ", el("span", "lx-nosample", "No sample yet."));
+      }
+    }
+    if (d.href) {
+      const a = el("a", "lx-get", "Get this pack");
+      a.href = d.href;
+      parts.push(" ", a);
+    }
+    note.replaceChildren(...parts);
+    markSample();
+  }
+  function markSample() {
+    const b = note.querySelector(".lx-sample");
+    if (b) b.textContent = sampleRow && playing === sampleRow && !audio.paused ? "❚❚ Pause sample" : "▶ Hear a sample";
+  }
 
   function render() {
     count.textContent = `${shown.length.toLocaleString("en-US")} ${shown.length === 1 ? "result" : "results"}`;
@@ -444,12 +515,13 @@
     document.body.classList.add("lx-has-player");
     titleLink.textContent = r.title;
     titleLink.href = r.href;
+    titleLink.lang = r.lang || "";
     subLine.textContent = r.sub;
     const names = Object.keys(r.v);
-    voiceBtn.hidden = names.length < 2;
+    voiceBtn.hidden = names.length < 2 || Boolean(pickOf());
     voiceBtn.textContent = (voices.find(v => v.id === playingVoice) || {}).name || playingVoice;
-    reportBtn.hidden = !reportable;
-    showCount(openBox, r.cid);
+    reportBtn.hidden = !reportable || Boolean(r.sample);
+    showCount(openBox, r.sample ? "" : r.cid);
     load(r.v[playingVoice].src);
     if ("mediaSession" in navigator && window.MediaMetadata) {
       navigator.mediaSession.metadata = new MediaMetadata({ title: r.title, artist: "Lore Forever", album: r.sub });
@@ -461,7 +533,7 @@
     else start(r);
   }
   function step(d) {
-    const playableRows = shown.filter(r => Object.keys(r.v).length);
+    const playableRows = shown.filter(r => voiceOf(r));
     if (!playableRows.length) return;
     const at = playableRows.indexOf(playing);
     const next = playableRows[at < 0 ? 0 : at + d];
@@ -473,8 +545,8 @@
   }
   onReportable.push(() => {
     if (!playing) return;
-    reportBtn.hidden = !reportable;
-    showCount(openBox, playing.cid);
+    reportBtn.hidden = !reportable || Boolean(playing.sample);
+    showCount(openBox, playing.sample ? "" : playing.cid);
   });
   pp.addEventListener("click", () => { if (playing) toggle(playing); });
   player.querySelector(".lx-prev").addEventListener("click", () => step(-1));
@@ -503,7 +575,8 @@
     pp.innerHTML = audio.paused ? "&#9654;" : "&#10074;&#10074;";
     pp.setAttribute("aria-label", audio.paused ? "Play" : "Pause");
     mark();
-    if (type === "ended" && auto.checked) step(1);
+    markSample();
+    if (type === "ended" && auto.checked && !playing.sample) step(1);
   });
   if ("mediaSession" in navigator) {
     try {
@@ -526,14 +599,14 @@
       list.querySelector(`.lx-row[data-i="${sel}"]`)?.scrollIntoView({ block: "nearest" });
     } else if (e.key === " ") {
       const r = shown[sel] || playing;
-      if (!r || !Object.keys(r.v).length) return;
+      if (!r || !voiceOf(r)) return;
       e.preventDefault();
       toggle(r);
     } else if (e.key === "Enter" && shown[sel]) {
       location.href = shown[sel].href;
     } else if (e.key === "s") {
       nextRate();
-    } else if (e.key === "v" && voices.length > 1) {
+    } else if (e.key === "v" && voices.length > 1 && !pickOf()) {
       const ids = voices.map(v => v.id);
       voicePref = ids[(ids.indexOf(voicePref) + 1) % ids.length];
       store.set("lf-lore-voice", voicePref);

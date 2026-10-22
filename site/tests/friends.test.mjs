@@ -7,7 +7,7 @@ import assert from "node:assert/strict";
 import { onRequest as friendsApi } from "../functions/api/friends/[action].js";
 import { findOrCreateUser, setup, deleteUser } from "../lib/accounts.js";
 import { startLink, decideLink, claimToken } from "../lib/devices.js";
-import { parseWho, cleanMessage, MESSAGE_MAX, friendOffer, FREE_MESSAGES_PER_DAY } from "../lib/friends.js";
+import { parseWho, cleanMessage, MESSAGE_MAX, friendOffer, FREE_MESSAGES_PER_DAY, readCard, cardWords, sendMessage } from "../lib/friends.js";
 import { shareCode, newShareCode, codeOwner, setupReferrals } from "../lib/referrals.js";
 import { escape } from "../lib/voices.js";
 
@@ -277,20 +277,21 @@ test("friends see each other as online or away, never more, and only while each 
   assert.equal((await ana.call("online", { show: true })).body.me.online, true);
 });
 
-// LOR-674: "Willo, send this to Mike": a message may carry a card, whose words stand in for the text for a Willo that
-// shows only text; and the sender can take a message back while it's unread.
-test("a shared quest goes as a card with plain words beside it; an unread message can be taken back", async () => {
+test("legacy cards remain readable, new card sends are rejected, and unread text can be taken back", async () => {
   const sam = await player("sam"), ana = await player("ana");
   const { aId: samId, bId: anaId } = await befriend(sam, ana);
   const card = { kind: "quest", title: "The Defias  Brotherhood", detail: "Westfall, from Gryan Stoutmantle", ref: "65" };
-  const sent = (await sam.call("send", { to: anaId, card })).body.message;
-  assert.equal(sent.text, "Shared a quest: The Defias Brotherhood\nWestfall, from Gryan Stoutmantle");
-  assert.deepEqual(sent.card, { kind: "quest", title: "The Defias Brotherhood", detail: "Westfall, from Gryan Stoutmantle", ref: "65" });
+  const historical = readCard(card);
+  const sent = await env.DB.prepare("INSERT INTO friend_messages (sender, recipient, body, created, card) VALUES (?, ?, ?, ?, ?) RETURNING id")
+    .bind(sam.user.id, ana.user.id, cardWords(historical), new Date().toISOString(), JSON.stringify(historical)).first();
+  assert.equal((await sam.call("send", { to: anaId, card })).status, 400);
+  await assert.rejects(sendMessage(env, sam.user.id, anaId, "hello", Date.now(), card), /Cards can no longer be sent/);
   assert.equal((await sam.call("send", { to: anaId, card: { kind: "gold", title: "1,000 gold" } })).status, 400);
   assert.equal((await sam.call("send", { to: anaId, card: { kind: "place" } })).status, 400, "a card needs a title");
-  const withText = (await sam.call("send", { to: anaId, text: "Meet me here", card: { kind: "place", title: "Goldshire, Elwynn Forest" } })).body.message;
+  assert.equal((await sam.call("send", { to: anaId, text: "Meet me here", card: { kind: "place", title: "Goldshire" } })).status, 400);
+  const withText = (await sam.call("send", { to: anaId, text: "Meet me here" })).body.message;
   assert.equal(withText.text, "Meet me here");
-  assert.equal((await ana.call("list")).body.friends[0].last.kind, "place");
+  assert.equal((await ana.call("list")).body.friends[0].last.text, "Meet me here");
 
   // Taken back while unread; not someone else's, not once read.
   assert.equal((await ana.call("unsend", { id: withText.id })).status, 404);
@@ -298,6 +299,7 @@ test("a shared quest goes as a card with plain words beside it; an unread messag
   assert.equal((await sam.call("unsend", { id: withText.id })).status, 404);
   const read = (await ana.call("messages", undefined, `?with=${samId}`)).body.messages;
   assert.deepEqual(read.map(m => m.card?.kind), ["quest"]);
+  assert.deepEqual(read[0].card, historical);
   assert.equal((await sam.call("unsend", { id: sent.id })).status, 409, "she read it");
   const mine = (await sam.call("messages", undefined, `?with=${anaId}`)).body.messages;
   assert.equal(mine[0].seen, true);
@@ -315,4 +317,31 @@ test("while plans are sold, the free plan sends 10 messages a day; the 11th wait
   } finally { delete env.SITE_FEATURES; }
   // Plans off (the site before plans): no free cap.
   assert.equal((await sam.call("send", { to: anaId, text: "plans off" })).status, 200);
+});
+
+test("the free plan's count is checked alongside the others and given back when it doesn't apply", async () => {
+  // The limits run at once (Mike, 10/21: "an immediate messaging system"), the free day counted with them: a paid plan,
+  // or a message another limit refused, gives it back, so the free plan's 10 are exactly as before.
+  const { setupBilling } = await import("../lib/billing.js");
+  const sam = await player("sampaid"), ana = await player("anapaid");
+  const { bId: anaId } = await befriend(sam, ana);
+  env.SITE_FEATURES = "plans";
+  const freeCount = who => env.DB.sqlite.prepare("SELECT COALESCE(SUM(n), 0) AS n FROM rate_limits WHERE user_id = ? " +
+    "AND bucket LIKE 'friends-send-free:%'").get(who.user.id).n;
+  try {
+    await setupBilling(env);
+    env.DB.sqlite.prepare("INSERT INTO entitlements (user_id, subscription_id, plan, status, current_period_end, updated) " +
+      "VALUES (?, ?, ?, ?, ?, ?)").run(sam.user.id, "sub_sam", "hero", "active",
+      new Date(Date.now() + 30 * 864e5).toISOString(), new Date().toISOString());
+    for (let i = 0; i < FREE_MESSAGES_PER_DAY + 2; i++) assert.equal((await sam.call("send", { to: anaId, text: `hero ${i}` })).status, 200);
+    assert.equal(freeCount(sam), 0, "a paid plan never uses up the free day");
+    // A free player sending too fast: the minute's 429 doesn't take one of their 10.
+    env.DB.sqlite.prepare("INSERT INTO rate_limits (user_id, bucket, n) VALUES (?, ?, ?)")
+      .run(ana.user.id, `friends-send:${new Date().toISOString().slice(0, 16)}`, 999);
+    assert.equal((await ana.call("send", { to: (await ana.call("list")).body.friends[0].id, text: "too fast" })).status, 429);
+    assert.equal(freeCount(ana), 0);
+  } finally { delete env.SITE_FEATURES; }
+  // Not friends: still refused, the limits first.
+  const lone = await player("lonepaid");
+  assert.equal((await lone.call("send", { to: anaId, text: "hello?" })).status, 403);
 });

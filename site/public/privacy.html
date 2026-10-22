@@ -47,14 +47,14 @@
      companion/lore_companion/usage.py (the anonymous usage counts that go with it), lib/billing.js (plans and the
      finest-voice pack), lib/willo-custom.js (Willo's style and tales), lib/answer-feedback.js (reported answers) and
      lib/answer-log.js (answers kept 14 days), lib/willo-keeps.js (What Willo keeps), lib/friends.js (friends in Willo)
-     and lib/willo-notebook.js (Willo's notebook). When something here changes,
+     and lib/willo-notebook.js (Willo's notebook) and lib/willo-stock.js (the last save kept for goals). When something here changes,
      change the
      date below. -->
 <main class="bw-page">
   <div class="h-sky bw-sky" aria-hidden="true"></div>
   <div class="h-wrap bw-in vp-page vp-doc">
   <h1>Privacy</h1>
-  <p class="vp-version">Updated 2026-10-18</p>
+  <p class="vp-version">Updated 2026-10-21</p>
   <p class="pitch">What this site keeps about you, why, who else handles it, and how to get rid of it. The add-on
     itself can't send anything anywhere: it runs inside your game, and you only share what you copy out of it.</p>
 
@@ -143,10 +143,32 @@
       through our site to it, and nothing else goes with them. Willo's own voice, made on your PC, only stands in
       when that service is slow or down. We don't keep the words; we count your spoken replies (this month's, and on
       the free plan your first 30) and what they cost us.</li>
+    <li><strong>Willo for iPhone</strong>, if you sign in on the app: you sign in with Apple, or link the phone to your
+      account here with a code. With Sign in with Apple we get from Apple a code for your Apple ID that only we can read,
+      your email address (or Apple's private relay address, if you chose to hide yours) and, the first time, your name;
+      a verified, non-relay address joins the account that already has it. Questions you ask Willo on the phone go
+      through our site to Google's API like the companion app's (above), with your character's name, level, race and
+      class, the recent messages of that chat and, when they bear on the question, lines from Willo's notebook. The
+      app asks before your first question and you can withdraw that under You. <strong>Talk</strong> uses the
+      microphone only while you're asking, after you tap it: Apple's speech recognition turns your words into text on
+      the phone, or on Apple's servers when your iPhone can't do it on the phone itself, and the text goes on like a
+      typed question. Spoken replies are said by the same voice services as above. Your chats and the app's settings
+      stay on the phone; the app keeps a short log of what it did (no questions or answers) on the phone only.</li>
     <li><strong>If you let Willo see the game</strong> (a separate choice in the companion app, off until you turn it
       on): one picture of the game window, only the game's own window, goes with that spoken question through our
-      site to Google's API, which writes the answer. We don't keep it. A copy stays in your chat on your PC (the
+      site to Google's API, which writes the answer. We don't keep it unless you separately choose screenshot improvement below. A copy stays in your chat on your PC (the
       newest 300).</li>
+    <li><strong>Screenshot improvement</strong> is a separate choice on <a href="/willo/keeps">What Willo keeps</a>,
+      off by default for everyone, including current players, and needs &ldquo;Help improve Willo's answers&rdquo; on. If enabled, we may keep
+      the exact game image already supplied with an answer you report as wrong, plus a 1% sample of other answers
+      with images, up to 3 per player per day and no more than 50 a day across all players. No new screenshots or video are taken. Images may
+      contain character names, nameplates or chat and are not anonymous: Willo blanks out only the small ring of
+      stars her add-on draws on your screen, and nothing else is hidden. The image is kept with the question and reply
+      it came with (names in the text are removed as usual). Only you and the Lore Forever team reviewing answers can
+      see it; it never appears on public profiles. An image is kept with its question and reply until you erase it, even after the answer
+      log's 14 days. You can view and erase them on What Willo keeps; erasing the answer or account also erases its
+      image, and turning this choice or answer logging off erases them all. Reporting never overrides the
+      choice.</li>
     <li><strong>Friends in Willo</strong>, if you add friends in the companion app: who you're friends with, the
       requests you sent and got, who you blocked, and the messages you and your friends write to each other. Only the
       two of you can read a conversation. Your friends see your character's name and your profile name (and your
@@ -168,7 +190,10 @@
       like the rest of what the companion sends (above). The companion keeps a copy on your PC so it opens at once, and
       the Notebook tab downloads all of it as one file. Goals you tell Willo are lines in it too (under Goals); after
       each <code>/reload</code> or logout the companion sends what the add-on saved of that character (above) so Willo
-      can tell how they're going and tick off the ones you reach. We don't keep those numbers.</li>
+      can tell how they're going and tick off the ones you reach. With your profile kept up to date, the companion also
+      sends the latest of those numbers for each character (level, gold, skills and reputations), and we keep only the
+      newest, so Willo can work out your goals when you ask from your phone, always as of that last save. What Willo
+      keeps shows it (Your last save) and erases it; deleting your account does too.</li>
     <li><strong>The companion app's daily check-in</strong>: once a day the companion app tells us it's in use, with a
       random number made on your PC (scrambled) and the app's and the add-on's version numbers, with no account, name
       or game data and without keeping your IP address; we keep these 90 days to count installs in use, and you can
@@ -236,6 +261,24 @@
     small things, like which version's news you've seen and, while you're signed in, the name at the top of the page,
     but those stay on your device.</p>
 
+  <h2 id="optional-analytics">Optional Google Analytics</h2>
+  <p>On public pages, when Google Analytics is enabled, we ask before loading it. <strong>Allow analytics</strong>
+    lets Google Analytics 4 count public page visits, published article reads, and clicks on download and Discord
+    links. These clicks show interest; they do not tell us that a download finished, an account was made or a purchase
+    happened. <strong>Decline analytics</strong> is equally available, and the site works either way.</p>
+  <p>If you allow it, Google receives analytics cookie identifiers, connection information (including your IP address
+    while processing the request), browser/device information, a public page address without its query or fragment,
+    and the referring site's origin without its page path. We do not send account details, email addresses, profile
+    pages, searches, form contents or chats. Advertising storage, personalization and Google signals are off.</p>
+  <p>Use <strong>Analytics settings</strong> at the bottom of a public page to change your mind. Withdrawing stops
+    collection on that page and removes accessible Google Analytics cookies from this site; it cannot undo data
+    already sent to Google. We remember your choice for up to 180 days, and analytics cookies expire after up to
+    180 days. If your browser blocks storage, your choice may need to be made again on another page. These controls
+    are separate from Cloudflare's cookie-free counts and our own Sources counts described above.</p>
+  <p>Google handles this information under its <a href="https://policies.google.com/privacy" rel="noopener">privacy
+    policy</a>. Analytics reports can include country-level location and device categories. Analytics is not used
+    on account, profile, admin, contribution or editing pages.</p>
+
   <h2>Who else handles it</h2>
   <ul>
     <li><strong>Cloudflare</strong> hosts the site and stores everything above (its database and file storage). It
@@ -246,6 +289,9 @@
       character's facts, never your email or name) and writes Willo's answers in the companion app (from your
       question and its game context, with the picture of the game window if you let Willo see the game, never your
       email or name).</li>
+    <li><strong>Apple</strong> handles Sign in with Apple in the iPhone app (and its private relay email, if you
+      chose it) and, when your iPhone can't do it on the phone, turns what you say to Talk into text. It gets your
+      voice for that and nothing else from us.</li>
     <li><strong>Anthropic</strong>: our nightly check of Willo's answers reads the questions and answers we keep
       (above) with its AI model, Claude, to find the wrong ones. It gets that text and nothing about you.</li>
     <li><strong>OpenRouter</strong> and <strong>Fish Audio</strong> record your profile's story in our narrators'
@@ -278,7 +324,7 @@
     you agreed to in the voice studio, a voice you lent (its recording, test pack and credit), the narration and
     picture reports you sent while signed in, the languages and edits on your translation dashboard, and your friends
     in Willo: your friend list and requests, the messages you sent and got, where you shared you are, reports
-    you sent or that were sent about you, every page of Willo's notebook, and the note that we sent you a thank-you
+    you sent or that were sent about you, every page of Willo's notebook, the last save kept for your goals, and the note that we sent you a thank-you
     email.</p>
   <p>Some things stay, and here's why:</p>
   <ul>

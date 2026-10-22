@@ -14,7 +14,8 @@
 // Messages: text, between friends only, kept MESSAGE_KEEP_DAYS and then deleted. Removing or blocking a friend deletes
 // the conversation for both. Nothing is ever sent to the game (no whispers) and Willo never acts in it. A message may
 // carry a card (LOR-674, "Willo, send this to Mike": readCard): a place, an item, a quest, a character or a story, as a
-// kind, a title and a few words; its text then says the same in plain words, so an older Willo shows it as a message.
+// kind, a title and a few words; its text says the same in plain words. New card sending is retired; private
+// screenshot messages use friend-images.js and authenticated reads, after local preview and confirmation.
 // The sender can take a message back while it's unread (unsendMessage: the Undo under Willo's "Sent").
 //
 // Online (LOR-674, Patrick's "Mike — Willo connected"): a friend shows as online while their Willo has been in touch
@@ -70,20 +71,27 @@ export const FRIENDS_SETUP = [
   "CREATE INDEX IF NOT EXISTS friend_edges_other ON friend_edges (other_id)",
   `CREATE TABLE IF NOT EXISTS friend_messages (
     id INTEGER PRIMARY KEY AUTOINCREMENT, sender TEXT NOT NULL, recipient TEXT NOT NULL, body TEXT NOT NULL,
-    created TEXT NOT NULL, seen INTEGER NOT NULL DEFAULT 0, card TEXT)`,
+    created TEXT NOT NULL, seen INTEGER NOT NULL DEFAULT 0, card TEXT, image TEXT)`,
   "CREATE INDEX IF NOT EXISTS friend_messages_to ON friend_messages (recipient, seen, sender)",
   "CREATE INDEX IF NOT EXISTS friend_messages_from ON friend_messages (sender, recipient)",
   "CREATE INDEX IF NOT EXISTS friend_messages_created ON friend_messages (created)",
+  // Keep a receipt when its message goes: retrying an old confirmation must never send it again.
+  `CREATE TABLE IF NOT EXISTS friend_image_sends (
+    sender TEXT NOT NULL, nonce TEXT NOT NULL, recipient TEXT NOT NULL, digest TEXT NOT NULL,
+    created TEXT NOT NULL, message_id INTEGER, PRIMARY KEY (sender, nonce))`,
   `CREATE TABLE IF NOT EXISTS friend_reports (
     id INTEGER PRIMARY KEY AUTOINCREMENT, reporter TEXT NOT NULL, reported TEXT NOT NULL, messages TEXT NOT NULL,
     note TEXT, created TEXT NOT NULL, status TEXT NOT NULL DEFAULT 'open')`,
 ];
 
 // Columns added after their tables were first made (lib/accounts.js setup adds the missing ones): table -> [column, type].
-export const FRIENDS_COLUMNS = { friend_people: [["hide_online", "INTEGER NOT NULL DEFAULT 0"]], friend_messages: [["card", "TEXT"]] };
+export const FRIENDS_COLUMNS = { friend_people: [["hide_online", "INTEGER NOT NULL DEFAULT 0"]],
+  friend_messages: [["card", "TEXT"], ["image", "TEXT"]] };
 
 // What "Delete my account" runs (lib/accounts.js USER_DATA): every row that names the account, either side.
 export const FRIENDS_USER_DATA = [
+  ["DELETE FROM friend_image_sends WHERE sender = ?", u => u.id],
+  ["DELETE FROM friend_image_sends WHERE recipient = ?", u => u.id],
   ["DELETE FROM friend_messages WHERE sender = ?", u => u.id],
   ["DELETE FROM friend_messages WHERE recipient = ?", u => u.id],
   ["DELETE FROM friend_edges WHERE user_id = ?", u => u.id],
@@ -96,6 +104,38 @@ export const FRIENDS_USER_DATA = [
 // A friend-facing error: `status` for the API, `error` in plain words the companion shows as is.
 export class FriendError extends Error {
   constructor(status, message) { super(message); this.status = status; }
+}
+
+// Receipts retain enough information to find private files after an unsend/removal has deleted the message.
+// Keep this derivation shared by uploads and account deletion; no account ids or object keys go to the client.
+export async function friendImageKey(sender, nonce, recipient, digest) {
+  const bytes = new TextEncoder().encode(`${sender}\0${nonce}\0${recipient}\0${digest}`);
+  const owner = [...new Uint8Array(await crypto.subtle.digest("SHA-256", new TextEncoder().encode(sender)))].map(b => b.toString(16).padStart(2, "0")).join("");
+  return `friend-images/${owner}/` + [...new Uint8Array(await crypto.subtle.digest("SHA-256", bytes))]
+    .map(b => b.toString(16).padStart(2, "0")).join("");
+}
+
+// Account deletion removes files before dropping their receipts, as it does for other private uploads. Page only
+// this account's receipts, including expired/removed messages; never scan the bucket or lose retry information on
+// a storage failure. R2 deletion is idempotent when a file was already removed.
+export async function forgetFriendImages(env, userId) {
+  if (!env.STUDIO) return;
+  let after = 0;
+  for (;;) {
+    const { results } = await env.DB.prepare("SELECT rowid AS receipt_id, sender, nonce, recipient, digest FROM friend_image_sends " +
+      "WHERE (sender = ? OR recipient = ?) AND rowid > ? ORDER BY rowid LIMIT 100").bind(userId, userId, after).all();
+    if (!results.length) break;
+    await env.STUDIO.delete(await Promise.all(results.map(row => friendImageKey(row.sender, row.nonce, row.recipient, row.digest))));
+    after = results[results.length - 1].receipt_id;
+  }
+  // A storage success followed by a DB failure or a conflicting simultaneous nonce may leave no receipt.
+  // The uploader's private prefix lets account deletion remove those files too, without scanning other accounts.
+  const prefix = (await friendImageKey(userId, "", "", "")).replace(/[^/]+$/, "");
+  for (;;) {
+    const page = await env.STUDIO.list({ prefix, limit: 100 });
+    if (!page.objects.length) break;
+    await env.STUDIO.delete(page.objects.map(object => object.key));
+  }
 }
 
 const iso = (now = Date.now()) => new Date(now).toISOString();
@@ -202,7 +242,7 @@ export async function friendsList(env, userId, now = Date.now()) {
       "WHERE m.recipient = ? AND m.seen = 0 GROUP BY m.sender").bind(userId).all(),
     // The latest message with each friend, either way.
     env.DB.prepare(
-      "SELECT m.id, m.sender, m.body, m.created, m.card, p.pid FROM friend_messages m JOIN friend_people p " +
+      "SELECT m.id, m.sender, m.body, m.created, m.card, m.image, p.pid FROM friend_messages m JOIN friend_people p " +
       "ON p.user_id = CASE WHEN m.sender = ? THEN m.recipient ELSE m.sender END WHERE m.id IN (" +
       "SELECT MAX(id) FROM friend_messages WHERE sender = ? OR recipient = ? " +
       "GROUP BY CASE WHEN sender = ? THEN recipient ELSE sender END)"
@@ -226,7 +266,7 @@ export async function friendsList(env, userId, now = Date.now()) {
         ...who(r), unread: n, url: r.public && r.handle ? `/u/${r.handle}` : null, since: r.updated,
         online: r.hide_online ? null : Boolean(r.online),
         last: m ? { id: m.id, text: m.body.slice(0, 140), at: m.created, mine: m.sender === userId,
-                    ...(m.card ? { kind: cardOf(m.card)?.kind || null } : {}) } : null,
+                    ...(m.image ? { kind: "image" } : m.card ? { kind: cardOf(m.card)?.kind || null } : {}) } : null,
         progress: progressOf(r, now),
       });
     } else if (r.state === "asking") out.incoming.push({ ...who(r), at: r.updated });
@@ -235,6 +275,18 @@ export async function friendsList(env, userId, now = Date.now()) {
   }
   out.friends.sort((a, b) => (b.last?.id || 0) - (a.last?.id || 0) || a.name.localeCompare(b.name));
   return out;
+}
+
+// The friends who show when their Willo is on, with the note they share, as one statement for a caller that batches it
+// with other reads (lib/willo-tonight.js): [{pid, name, online, share, progress, progress_at}], newest note first; online: a device used lately.
+// A friend who hides when their Willo is on isn't in it; read progress only when share is 1.
+export function friendsTonightStatement(env, userId, now = Date.now()) {
+  return env.DB.prepare(
+    "SELECT p.pid, p.share, p.progress, p.progress_at, COALESCE(json_extract(pr.data, '$.name'), pr.handle) AS name, " +
+    "EXISTS (SELECT 1 FROM devices d WHERE d.user_id = e.other_id AND d.last_used > ?) AS online " +
+    "FROM friend_edges e JOIN friend_people p ON p.user_id = e.other_id LEFT JOIN profiles pr ON pr.user_id = e.other_id " +
+    "WHERE e.user_id = ? AND e.state = 'friends' AND p.hide_online = 0 ORDER BY p.progress_at DESC LIMIT 200"
+  ).bind(onlineSince(now), userId);
 }
 
 // Just the counts, for the companion's minute poll (reads only, one query): {unread, incoming, stamp}. stamp changes
@@ -410,7 +462,7 @@ export function cleanMessage(text) {
 }
 
 // The friend behind `pid`, both sides still friends (one query), or a 403.
-async function needFriend(env, userId, pid) {
+export async function needFriend(env, userId, pid) {
   const row = PID.test(String(pid || "")) ? await env.DB.prepare(
     "SELECT p.user_id FROM friend_people p JOIN friend_edges a ON a.user_id = ? AND a.other_id = p.user_id " +
     "AND a.state = 'friends' JOIN friend_edges b ON b.user_id = p.user_id AND b.other_id = ? AND b.state = 'friends' " +
@@ -435,26 +487,33 @@ const cardOf = json => { try { return readCard(JSON.parse(json)); } catch (e) { 
 export const cardWords = card => cleanMessage(`Shared ${CARD_KINDS[card.kind]}: ${card.title}` +
   (card.detail ? `\n${card.detail}` : ""));
 
-const asMessage = (userId, r) => {
+// Only the authenticated API's URL is public to the client; never send the R2 key.
+export const messageImage = (id, image) => ({ url: `/api/friends/image?id=${id}`, width: image.width,
+  height: image.height, type: image.type, bytes: image.bytes });
+export const asMessage = (userId, r) => {
   const card = r.card ? cardOf(r.card) : null;
+  const image = r.image ? JSON.parse(r.image) : null;
   return { id: r.id, mine: r.sender === userId, text: r.body, at: r.created, ...(card ? { card } : {}),
+           ...(image ? { image: messageImage(r.id, image) } : {}),
            ...(r.sender === userId ? { seen: Boolean(r.seen) } : {}) };
 };
 
-// Sends `text` to friend `pid`, with a card (readCard's) when one comes: then the text is optional, and the card's
-// words stand in for it. The caller checks the rate limits first.
-export async function sendMessage(env, userId, pid, text, now = Date.now(), card = null) {
-  const shared = card ? readCard(card) : null;
-  if (card && !shared) throw new FriendError(400, "That can't be sent.");
-  const body = cleanMessage(text) || (shared ? cardWords(shared) : "");
+// Sends text to a friend; legacy structured-card sends are rejected. readCard remains for historical messages.
+// The caller checks the rate limits first.
+// other: the friend's account, when the caller looked it up already (needFriend's). later: runs the clean-up after the
+// reply (a Pages waitUntil); without it, before.
+export async function sendMessage(env, userId, pid, text, now = Date.now(), card = null, { other = null, later = null } = {}) {
+  if (card !== null && card !== undefined) throw new FriendError(400, "Cards can no longer be sent. Share a game screenshot instead.");
+  const body = cleanMessage(text);
   if (!body) throw new FriendError(400, "Write something first.");
-  const other = await needFriend(env, userId, pid);
+  const to = other || await needFriend(env, userId, pid);
   const row = await env.DB.prepare("INSERT INTO friend_messages (sender, recipient, body, created, card) VALUES (?, ?, ?, ?, ?) " +
-    "RETURNING id").bind(userId, other, body, iso(now), shared ? JSON.stringify(shared) : null).first();
+    "RETURNING id").bind(userId, to, body, iso(now), null).first();
   // Old messages go, a few at a time, as new ones come.
-  await env.DB.prepare("DELETE FROM friend_messages WHERE id IN (SELECT id FROM friend_messages WHERE created < ? LIMIT 200)")
+  const old = env.DB.prepare("DELETE FROM friend_messages WHERE id IN (SELECT id FROM friend_messages WHERE created < ? LIMIT 200)")
     .bind(daysAgo(MESSAGE_KEEP_DAYS, now)).run();
-  return { id: row.id, mine: true, text: body, at: iso(now), ...(shared ? { card: shared } : {}), seen: false };
+  await (later ? later(old) : old);
+  return { id: row.id, mine: true, text: body, at: iso(now), seen: false };
 }
 
 // Takes back the player's own message `id` while the friend hasn't read it and it's at most UNSEND_MINUTES old (the

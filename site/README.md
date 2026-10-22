@@ -1,8 +1,12 @@
 # Lore Forever landing page
 
+**Optional GA4:** [GA4 setup and Patrick's reporting workflow](GA4.md) covers the production-only measurement ID,
+consent controls, event meanings, required Google settings and activation checks. Existing Sources reports remain in place.
+
 **Live:** https://loreforeverwow.com (Cloudflare Pages project `lore-forever`, also at https://lore-forever.pages.dev). Production deploys from the `site-live` branch of github.com/mliudev/lore-forever, not from `main`: pushes to
-`main` and PR branches only make preview deploys (`<hash>.lore-forever.pages.dev`, listed in the Pages project),
-so merging never changes the live site by itself.
+`main` makes a preview deploy, so merging never changes the live site by itself.
+Other PR branches do not automatically deploy to this project. The **Site preview**
+GitHub check builds an isolated preview artifact; see [Guides and site contributions](GUIDES.md).
 
 **Publishing the site** (after checking the preview of the commit you want live):
 
@@ -18,9 +22,10 @@ the Pages project.
 Preview environment (Preview's own D1 `loreforever-preview` and R2 `lore-forever-voices-preview`, so its data is
 disposable). It's the one Preview address in the Google OAuth client, so it's where anything that needs signing in
 gets tested: put a branch there with `scripts/deploy-develop.sh <branch>` (a force push; it says what it replaces).
-Only `main`, `develop` and `preview` get Preview builds (Pages > Settings > Builds > Branch control, since 10/13), so
-other branches' Preview keys aren't on a public address: test a PR branch on develop or locally (`wrangler pages
-dev`). Sign-in only works on develop, and no other preview address should be added to the OAuth client. develop holds one branch at a time: on release
+Only `main`, `develop` and `preview` get Preview builds (Pages > Settings > Builds > Branch control, since 10/13).
+The shared Preview environment has service secrets: only put reviewed code there. Contributor code uses the
+separate unbound preview described in [GUIDES.md](GUIDES.md), not this project's branch previews.
+Sign-in only works on develop, and no other preview address should be added to the OAuth client. develop holds one branch at a time: on release
 days the release coordinator hands it out. Never merge develop into anything.
 
 **Test players on develop** (`lib/test-players.js`, `functions/api/test/[action].js`, the panel `public/js/test-players.js`
@@ -649,6 +654,25 @@ to `/account#profile` when there's none yet).
     and serves the next player who asks the same there, without searching (`looked_up: "cached"`), required research
     too (then it returns the finding's sources as `searched`). Answers return `looked_up`: "required", "quick",
     "cached", "facts" (item facts) or "no".
+  - **Diagnostic screenshots (LOR-723, `lib/diagnostic-screenshots.js`):** a separate, explicit default-OFF
+    choice on What Willo keeps, requiring answer logging. Only the JPEG already sent with a successful answer
+    qualifies; no new capture. Willo covers only her own info strip and the sky, so names and chat stay: images
+    are not anonymous. Every image answer leaves a digest-only receipt (claimed within a day or swept); a 1% sample
+    (at most 20 a day) uploads through `waitUntil`, and a report asks the companion for the same image from its
+    RAM-only cache (20 images / 10 minutes), which `/api/companion/diagnostic` (6 a minute) checks against the
+    report, owner, consent version, digest, dimensions and 150 KB. Storage attempts: 3/player/day and 50/day.
+    **Kept until erased** (Mike, 10/21: "too much overhead for the size and usage of this addon, we'll address it
+    when users complain"): no expiry, lifecycle rule or schedule. Each copy carries its own question, reply,
+    model and context (the answer log's scrubbed text), so it outlives the log's 14 days. Erasing the answer,
+    the account, or turning this choice or answer logging off erases the copies. Caps: 100 per player and
+    5,000 overall. Private `STUDIO` prefix `diagnostic-screenshots/` under a random 128-bit name per copy;
+    `/api/keeps/screenshot?ref=...` serves the owner's cookie or ADMIN_KEY/FEEDBACK_KEY (our own QA and
+    routines) with `private, no-store`; `&context=1` adds the question and reply. QA list and a forced cleanup:
+    `GET` / `POST /api/admin/diagnostic-screenshots`. Companion check-ins also clean up, at most hourly. Only
+    the signed-in page can turn the choice on; the app can turn it off. Erasing invalidates the row before the
+    R2 delete, and a late upload rechecks consent and its answer.
+    Tests: `node --test site/tests/diagnostic-screenshots.test.mjs`; companion:
+    `uv run --directory companion pytest -q tests/test_diagnostic_screenshots.py tests/test_sponsored.py`.
   - **Answer feedback (LOR-446, `lib/answer-feedback.js`):** after an answer, a message that says it was wrong ("I'm
     pretty sure that's Dalaran") or is frustrated ("that's useless") gets a short note not to argue (and low thinking,
     2,048 more output tokens, so a wrong player is gently corrected rather than agreed with), and is kept in
@@ -1030,9 +1054,10 @@ product; approved creators bring subscribers and earn cash. The numbers are in o
 own profile and in Willo's window (Settings, and the Friends tab). Opening it keeps the code in a 30-day cookie and goes
 to /willo, which says who sent them. A friend *joins* when their account is made in that browser (or, for an account
 new to Willo, when it first connects Willo there), and *counts* once Willo has given them a first real answer. Only the
-inviter earns: the fifth friend of each ten gives bonus answers (half the plan's month), the tenth a free month (a
-Stripe balance credit as big as the next charge on a paying plan, `lib/billing.js giveFreeMonth`; a month of Hero on us,
-`plan_grants`, on the free plan), each once (`referral_rewards`), at most 10 friends a calendar month. Guards (a friend
+inviter earns: every second friend gives a free month, one a calendar month (Mike, 10/21: 2 friends, not 10; a Stripe balance credit as big
+as the next charge on a paying plan, `lib/billing.js giveFreeMonth`; a month of Hero on us, `plan_grants`, on the free
+plan), the fifth of each ten bonus answers (half the plan's month), each once (`referral_rewards`), at most 10 friends a
+calendar month. Guards (a friend
 that fails one is kept as void, with the reason, on /admin): once per Google account, not the inviter's own account,
 browser (`lf_b` cookie, `browser_seen`), computer (`X-LF-Machine`, Willo's one-way code, `devices.machine`) or card
 (Stripe fingerprint), not another friend's computer, not a throwaway address. Friends counted before 10/18 kept their
@@ -1079,6 +1104,33 @@ Behind the same `plans` feature: while it's off, nothing reaches a prompt and th
 - With the companion's token, GET `/api/willo` also returns the blocks as answers use them (`blocks`, LOR-448), for
   a model on the player's own PC later. Table `custom_prompts`; Delete my account removes its rows.
 - Tests: `site/tests/willo-custom.test.mjs` (Gemini mocked).
+
+### What she remembers about you (LOR-729)
+
+Short facts a player tells Willo about themselves (up to 160 characters each), which her own answers use and which the
+player can see, change and erase on any plan. `lib/willo-memories.js`, the API `functions/api/willo/memories.js`
+(GET list, POST add, PUT edit, DELETE one or `?all=1`; the session cookie or Willo's device token), the keeper on
+`/willo/keeps` ("What she remembers about you", with a delete each and in Erase everything). Table `willo_memories`
+(Delete my account removes its rows). Not behind the `plans` feature.
+
+- **Room:** 10 on the free plan, 50 on a paid plan and in the first-run trial (`MEMORIES_FREE`, `MEMORIES_PAID`; assumed
+  until the pricing decision, Friday 10/24). Only adding is limited: a player over their room keeps everything and can
+  still see, edit and erase it.
+- **Guardrails:** cleaned, then a cheap pre-filter (`lib/willo-memory-rules.js` `memoryPreFilter`: later ages such as TBC
+  or Outland, the future of the story, spoilers allowed, "ignore the rules", links, adverts, all caps, health and other
+  private details) turns the obvious cases away with no model call; the rest goes to the content check
+  (`willo-custom.js` `check`, kind `memory`, its own prompt: guild names, "new to WoW" and "keep answers short" are fine).
+  Reasons are Willo's own plain words (never "assistant", "AI", "model", "prompt"; a technical one is replaced).
+  Turned-away text is kept with its reason and never reaches a prompt. A checked save counts against the same 30 a day
+  as `/api/willo` (bucket `willo-custom`).
+- **Prompt:** `memoriesBlock` gives `writeAnswer` a `memories` block (`WHAT THE PLAYER HAS TOLD WILLO ABOUT THEMSELVES`)
+  that comes FIRST in the system prompt, before the era, spoiler and immersion rules, and ends with a line that the notes
+  never change them (or her format, length limits, links or ads). Only notes the question is about are in it: the name
+  only for a greeting or a question about the player, any other note only when it shares a stemmed meaningful word (or
+  a near-synonym such as riding/mount) with the question (metals count only in the same sense, mining vs money; a greeting brings the name alone; "what do you know about me" brings the 5 newest); no match, no block, so the prompt is exactly as before (also for
+  a player with none). 1,536 bytes at most (800 of notes). Willo's own answers only (not chat memory, not a character's
+  talk). The filtering is string work in the same request; no new network calls. Nothing in friends reads them.
+- Tests: `site/tests/willo-memories.test.mjs` (Gemini mocked).
 
 ### Thank-you email to new subscribers (LOR-640)
 

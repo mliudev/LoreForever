@@ -1,4 +1,7 @@
 import { isReportRead } from "./report-read.js";
+// Loaded when first needed: lib/diagnostic-screenshots.js imports this module, and through it lib/accounts.js and
+// lib/willo-keeps.js, which reads KEEP_DAYS while loading (an import cycle).
+const diagnostics = () => import("./diagnostic-screenshots.js");
 // Every live Willo answer, kept KEEP_DAYS and then deleted (Mike, 2026-10-16), so the nightly answer-quality check
 // (scheduled task "nightly-willo-feedback") sees every conversation, not only the ones players flag
 // (lib/answer-feedback.js). Only while the player leaves "Help improve Willo's answers" on in the companion app: the
@@ -81,8 +84,11 @@ export async function playerKey(env, userId) {
       .bind(hex(crypto.getRandomValues(new Uint8Array(32)))).run();
     salts.set(env.DB, (await env.DB.prepare("SELECT salt FROM answer_log_salt WHERE id = 1").first()).salt);
   }
-  return hex(await crypto.subtle.digest("SHA-256", new TextEncoder().encode(`${salts.get(env.DB)}:${userId}`))).slice(0, 32);
+  return keyWith(salts.get(env.DB), userId);
 }
+// The key itself, for a salt already read (lib/north-star.js matches accounts to the log with it, read-only).
+export const keyWith = async (salt, userId) =>
+  hex(await crypto.subtle.digest("SHA-256", new TextEncoder().encode(`${salt}:${userId}`))).slice(0, 32);
 
 const cutoff = now => new Date(now.getTime() - KEEP_DAYS * 864e5).toISOString();
 // Who was asking, as the question's PLAYER CONTEXT said it: never their name (a target that is one of their own
@@ -264,6 +270,7 @@ export async function keepingOff(env, userId) {
 // anything). Never throws.
 export async function sweepAnswerLog(env, now = new Date()) {
   try {
+    await diagnostics().then(d => d.sweepDiagnostics(env, now)).catch(() => console.warn("diagnostic screenshot cleanup incomplete"));
     await setupAnswerLog(env);
     await env.DB.prepare("DELETE FROM answer_log WHERE created < ?").bind(cutoff(now)).run();
     return true;
@@ -314,6 +321,7 @@ export async function playerAnswers(env, userId, { limit = 300, now = new Date()
 
 export async function eraseAnswer(env, userId, id) {
   await setupAnswerLog(env);
+  await (await diagnostics()).eraseDiagnostics(env, await playerKey(env, userId), Number(id));
   const res = await env.DB.prepare("DELETE FROM answer_log WHERE id = ? AND player = ?")
     .bind(Number(id), await playerKey(env, userId)).run();
   return res.meta.changes > 0;
@@ -323,5 +331,7 @@ export async function eraseAnswer(env, userId, id) {
 // the account.
 export async function forgetAnswerLog(env, userId) {
   await setupAnswerLog(env);
+  await (await diagnostics()).eraseDiagnostics(env, await playerKey(env, userId));
+  await env.DB.prepare("DELETE FROM diagnostic_consent WHERE user_id=?").bind(userId).run();
   await env.DB.prepare("DELETE FROM answer_log WHERE player = ?").bind(await playerKey(env, userId)).run();
 }

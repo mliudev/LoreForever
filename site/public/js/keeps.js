@@ -62,6 +62,7 @@
     const meta = el("p", { className: "wk-meta" }, [item.due ? `At ${when(item.due)}` : "", item.detail,
       item.due ? "" : when(item.when)].filter(Boolean).join(" · "));
     li.append(text, meta);
+    if (item.image) li.append(el("a", { href: item.image, target: "_blank", rel: "noopener", textContent: "View saved screenshot" }));
     if (item.reply) {
       li.append(el("details", { className: "wk-reply" }, el("summary", { textContent: "What she said" }),
         el("p", { textContent: item.reply })));
@@ -114,6 +115,7 @@
     card.append(el("h2", { textContent: section.title }), el("p", { className: "vp-note", textContent: section.about }));
     if (section.kept) card.append(el("p", { className: "wk-kept", textContent: section.kept }));
     if (section.id === "answers") card.append(keepSwitch());
+    if (section.id === "screenshots") card.append(screenshotSwitch());
     if (!items.length) {
       card.append(el("p", { className: "wk-none", textContent: section.empty || "Nothing kept." }));
       return card;
@@ -165,9 +167,26 @@
       box.disabled = false;
       if (!res.ok) { box.checked = !box.checked; return say("wk-status", res.error || TRY_AGAIN); }
       data.keep_answers = res.on;
+      if (!res.on) data.keep_screenshots = false;
       show();
       say("wk-status", res.on ? "On. Willo keeps your questions for 14 days again."
         : "Off. Nothing new is kept, and Willo's own switch turns off the next time she's open.", true);
+    });
+    return label;
+  }
+
+  function screenshotSwitch() {
+    const box = el("input", { type: "checkbox", checked: data.keep_screenshots === true, disabled: data.keep_screenshots !== true && (!data.screenshots_available || data.keep_answers !== true) });
+    const label = el("label", { className: "fb-check wk-switch" }, box,
+      el("span", { textContent: "Help improve answers with screenshots (off by default). Needs \"Help improve Willo's answers\" on. Screenshots can include names and chat; they're kept until you erase them or turn this off." + (data.screenshots_available ? "" : " Screenshot improvement is not available yet; no new images are kept.") }));
+    box.addEventListener("change", async () => {
+      box.disabled = true;
+      const res = await call("keep-screenshots", { on: box.checked });
+      box.disabled = false;
+      if (!res.ok) { box.checked = !box.checked; return say("wk-status", res.error || TRY_AGAIN); }
+      data.keep_screenshots = res.on;
+      show();
+      say("wk-status", res.on ? "Screenshot improvement is on for future answers." : "Off. The screenshots kept are erased, and no new ones will be kept.", true);
     });
     return label;
   }

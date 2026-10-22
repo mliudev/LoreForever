@@ -15,6 +15,7 @@
 // served through here keeps its own (/admin's stricter Content-Security-Policy).
 
 import { migratedAdminLocation } from '../lib/admin-location.js';
+import { analyticsPage, withAnalytics } from '../lib/analytics.js';
 
 const OLD_HOSTS = ["loreforever.mliu.io", "lore-forever.pages.dev"];
 const STAY = ["/api/billing/webhook", "/api/profile/voice/hook"];
@@ -46,5 +47,6 @@ export async function onRequest({ request, env, next }) {
   const res = await next();
   const out = new Response(res.body, res);
   for (const [name, value] of Object.entries(SITE_HEADERS)) if (!out.headers.has(name)) out.headers.set(name, value);
-  return out;
+  const analytics = analyticsPage(request, env, out);
+  return analytics ? withAnalytics(out, analytics) : out;
 }

@@ -235,7 +235,7 @@ export const htmlHeaders = (env, entry) => ({
 });
 
 const HEAD = `<link rel="stylesheet" href="/lore/lore.css?${FRESH}">`;
-const SCRIPTS = `<script src="/lore/lore.js" defer></script>`;
+const SCRIPTS = `<script src="/lore/lore.js?${FRESH}" defer></script>`;
 
 // ---- What a search result shows (LOR-22) ----
 // Search Console, 9/28-10/13: the lore pages showed on page one (mostly 5th to 10th) for their own names and
@@ -449,7 +449,16 @@ export function entryPage(entry, { live = new Set(), names = {}, env, packs = []
 
 // /lore: the list. Filters, search and the player come from public/lore/lore.js reading index.json; without
 // JavaScript the zones below still lead to every page. packs: the downloads to filter by (LOR-437; lib/packs.js
-// packOptions, [{value: pack folder, name}]): lore.js reads /data/pack-entries.json when one is picked.
+// packOptions, [{value: pack folder, name, href, voice | lang, sample}]): lore.js reads /data/pack-entries.json when
+// one is picked, plays the pack's narrator in the list (voice), or else says what it plays in the add-on and offers
+// its sample (.lx-packnote).
+const packOption = p => {
+  const data = { href: p.href, voice: p.voice, lang: p.lang, sample: p.sample?.audio, "sample-title": p.sample?.title,
+    "sample-lang": p.sample?.lang, "sample-key": p.sample?.key };
+  const attrs = Object.entries(data).filter(([, v]) => v).map(([k, v]) => ` data-${k}="${escape(v)}"`).join("");
+  return `<option value="${escape(p.value)}"${attrs}>${escape(p.name)}</option>`;
+};
+
 export function indexPage(index, { more, env, packs = [] } = {}) {
   const pages = allPages(index, more);
   const clipCount = (index?.pages || []).reduce((n, p) => n + p.c.length, 0);
@@ -481,12 +490,13 @@ export function indexPage(index, { more, env, packs = [] } = {}) {
         <input type="search" name="q" placeholder="Search a zone, place, character, quest or item" autocomplete="off"></label>
       <label class="lx-zone"><span class="visually-hidden">Zone</span><select name="z"><option value="">All zones</option></select></label>
       ${packs.length ? `<label class="lx-zone lx-pack"><span class="visually-hidden">Download</span><select name="p"><option value="">Any download</option>
-        ${packs.map(p => `<option value="${escape(p.value)}">${escape(p.name)}</option>`).join("\n        ")}
+        ${packs.map(packOption).join("\n        ")}
       </select></label>` : ""}
       <div class="lx-chips" role="group" aria-label="Kind"></div>
       <div class="lx-chips lx-voices" role="group" aria-label="Voice"></div>
       <label class="lx-check"><input type="checkbox" name="playable"> Playable here</label>
     </form>
+    <p class="lx-packnote" hidden></p>
     <p class="lx-count" aria-live="polite"></p>
     <div class="lx-list" role="list"></div>
     <p><button type="button" class="lx-more btn-small" hidden>Show more</button></p>

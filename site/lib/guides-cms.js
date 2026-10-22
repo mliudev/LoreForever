@@ -2,7 +2,7 @@
 // live preview and pictures, and a save is live at once (no deploy). Articles are rows in D1 (`guides`); every save is
 // also kept in `guide_revisions`, so an earlier version can be brought back. Pictures go to R2 (STUDIO, under
 // guides/img/) and are served at /guides/img/<name> (functions/guides/img/[name].js). An editor row replaces the file
-// article with the same address (lib/guides.js loadIndex/loadArticle), so the files in public/guides/articles open in
+// article with the same address (lib/guides.js loadIndex/loadArticle), so the files in site/content/guides/articles open in
 // the editor too and move to it on their first save; deleting one there hides it.
 // Who may edit: the site accounts whose emails are in the Pages variable GUIDE_EDITORS (comma-separated). Unset, nobody.
 

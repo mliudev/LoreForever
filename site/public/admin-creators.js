@@ -48,8 +48,8 @@ export function loadCreators(key, $ = id => document.getElementById(id)) {
     const list = res.payoutList || { due: [], held: [] };
     // The Stripe payouts switch, and the rules in force.
     const r = res.rules || {}, pr = res.payoutRules || {};
-    $("ct-switch").replaceChildren(`Players: a friend counts after Willo's first answer; ${r.bonusAt} friends give bonus answers ` +
-      `(${r.bonusPercent}% of their plan's month), ${r.monthAt} a free month (counts ${r.monthCounts} friends), at most ` +
+    $("ct-switch").replaceChildren(`Players: a friend counts after Willo's first answer; every ${r.monthAt} give a free month, ${r.monthsPerMonth} a month at most ` +
+      `(counts ${r.monthCounts} friends), the ${r.bonusAt}th of each ${r.bonusEvery} bonus answers (${r.bonusPercent}% of their plan's month), at most ` +
       `${r.perMonth} a month. Creators are paid ${pr.holdDays} days after a payment, from ${usd(pr.minimumCents)}. ` +
       `Stripe payouts: ${list.stripe ? "on" : "off (pay by hand)"}. `,
       el("button", { type: "button", text: list.stripe ? "Turn Stripe payouts off" : "Turn Stripe payouts on",

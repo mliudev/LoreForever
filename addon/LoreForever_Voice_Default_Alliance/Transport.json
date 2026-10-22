@@ -29,9 +29,9 @@
     "npc:alanndarian-nightsong": {
       "1": [
         {
-          "duration": 66.45551020408163,
-          "file": "Audio/Transport/full_npc_alanndarian-nightsong-2278b785441cedf0029e/1-0000.mp3",
-          "sha256": "dfb9ac16ca65c22946e227ba2df5ff8b83aa2db4a244b39796d280b5ad057149",
+          "duration": 68.57142857142857,
+          "file": "Audio/Transport/full_npc_alanndarian-nightsong-40c22b62c0874b578b9c/1-0000.mp3",
+          "sha256": "de0e5309a34e3cba30edaa013d5cd80b939758228da695c0bda6d2b4e1284790",
           "start": 0
         }
       ],
@@ -43,12 +43,12 @@
         ]
       },
       "fullHash": "cd660f",
-      "generation": "5eabc656d4002d068d46",
+      "generation": "c091195e58a3a735d9af",
       "hash": "e1fb77",
       "source": {
-        "duration": 66.429375,
+        "duration": 68.54525,
         "file": null,
-        "sha256": "2278b785441cedf0029e5257a94ceed7a32900a9602ca472cdc78b00d56af13a"
+        "sha256": "40c22b62c0874b578b9c4799ef0bcbc9b492aa442683befb9d63dae168990373"
       },
       "text": "Alanndarian Nightsong. Alanndarian Nightsong is a night elf resident of Auberdine in Darkshore dedicated to tending to the region's beleaguered fauna. She works alongside travelers to remedy the blights plaguing the local wildlife, particularly the region's deer, sickened by poison in Darkshore's waters. Situated in the coastal settlement of Auberdine, Alanndarian Nightsong watches over the fragile ecological balance of Darkshore. As mysterious taints seep into the soil and waters, the creatures of the ancient woods have begun to succumb to sickness and unnatural aggression. Alanndarian acts as a guardian and naturalist, seeking practical remedies to ease their suffering and restore their natural vigor. Much of Alanndarian's attention is focused on identifying the root causes of the afflictions spreading through the local fauna. Through careful gathering of botanical reagents and researching the principal water sources of the region, she crafts salves and curative draughts. She enlists wandering adventurers to apply these cures directly to ailing forest creatures, attempting to stave off the spreading corruption before it permanently overtakes Darkshore's wildlife."
     },
@@ -445,9 +445,9 @@
     "npc:collin-mauren": {
       "1": [
         {
-          "duration": 103.60163265306123,
-          "file": "Audio/Transport/full_npc_collin-mauren-0c461518dbb5f1918bdf/1-0000.mp3",
-          "sha256": "88f5a18f5f63590dbcef0d9a7ed0e51838b7a80be690d1b1b2090f0710378702",
+          "duration": 95.81714285714285,
+          "file": "Audio/Transport/full_npc_collin-mauren-bdc7aa2a52d245ae404c/1-0000.mp3",
+          "sha256": "30795995c16fc8ff056b9ddb96f7030219b1f7ea1e4718044407b9da8d849dbb",
           "start": 0
         }
       ],
@@ -459,12 +459,12 @@
         ]
       },
       "fullHash": "11b390",
-      "generation": "1c7aed7000f5225f3adb",
+      "generation": "9b9455f5e66cfb4c7411",
       "hash": "c0384b",
       "source": {
-        "duration": 103.5755,
+        "duration": 95.791,
         "file": null,
-        "sha256": "0c461518dbb5f1918bdfdd84ee76dd6ef2c56f066fc6ae6e5401d03100c0c2ac"
+        "sha256": "bdc7aa2a52d245ae404c5887c9686a5a385e5ec2975d8e3142094d04379a8fd7"
       },
       "text": "Collin Mauren. Collin Mauren is a human mage residing in the Mage Quarter of Stormwind City. A scholarly researcher and crafter of incantations, he experiments with exotic natural reagents to devise unique utility spells. Among his pursuits is assisting his acquaintance, the gnome engineer and explorer Gaxim Rustfizzle, with specialized arcane scrolls. Situated within Stormwind's bustling Mage Quarter, Collin Mauren spends his days pursuing the quieter, more practical applications of magic. Rather than chasing raw elemental power, he focuses on crafting arcane formulas that solve specific, logistical problems. Collin often turns to natural anomalies and raw components scavenged across Azeroth, weaving their intrinsic properties into functional magic scrolls and reagents for friends and travelers alike. Collin maintains a close friendship with the gnomish tinker Gaxim Rustfizzle. When Gaxim needed a way to set off his NG-5 explosives from a distance, Collin worked out that a messaging spell would do the job. To impress the spell onto a scroll, he uses debris from Westfall's erratic Dust Devils, and he looks forward to hearing how his inventive friend's scheme turns out. Beyond his work with local elementals, Collin's research extends clear across the Great Sea to the crags of Kalimdor. Curiously captivated by the resilient hides of basilisks native to the Stonetalon Mountains, Collin seeks out their scales to synthesize new spells. Travelers venturing into Kalimdor frequently receive his requests for these rare hides, fueling Collin's ongoing fascination with how primal creature anatomy can stabilize complex enchantments."
     },
@@ -627,9 +627,9 @@
     "npc:duthorian-rall": {
       "1": [
         {
-          "duration": 81.2930612244898,
-          "file": "Audio/Transport/full_npc_duthorian-rall-ec2b120eada08a606e36/1-0000.mp3",
-          "sha256": "02f59e1a7a6ba52afc46e53d761378b17dd7c59ccb8acce606ab8c43035661b1",
+          "duration": 77.60979591836735,
+          "file": "Audio/Transport/full_npc_duthorian-rall-8f41ec550ac300a42e26/1-0000.mp3",
+          "sha256": "7af27fc244e8d2fbe915bb87eef9c668f112c4dd472138397574198f051022f8",
           "start": 0
         }
       ],
@@ -641,12 +641,12 @@
         ]
       },
       "fullHash": "557a46",
-      "generation": "d6c97d72d6166cb05c46",
+      "generation": "da86164e8374461cde4e",
       "hash": "3eadf2",
       "source": {
-        "duration": 81.266938,
+        "duration": 77.583625,
         "file": null,
-        "sha256": "ec2b120eada08a606e36c60b276703c126ad483d880a590ce16b6923dc2bcd78"
+        "sha256": "8f41ec550ac300a42e26e3826de8d3517684bb69435a15e787c1ada447a90643"
       },
       "text": "Duthorian Rall. Duthorian Rall is a respected human knight of the Silver Hand stationed within Stormwind's Cathedral of Light. Renowned as one of the most influential paladins in the Alliance, he oversees the training and spiritual trials of emerging holy warriors. He guides recruits through solemn vows of charity, valor, and devotion to defend Azeroth against the Scourge and lurking domestic threats. Standing within the vaulted transept of the Cathedral of Light, Duthorian Rall represents the venerable traditions of the Knights of the Silver Hand. With the kingdom unsettled by internal strife and the missing King Varian Wrynn, Duthorian shoulders the vital duty of instilling righteous discipline in fresh initiates. Respected paladins in the field, including Brother Wilhelm in Goldshire and Brandur Ironhammer in Ironforge, direct promising recruits to his guidance to begin their sacred trials. Duthorian teaches that martial power without moral foundation is hollow. Through the Tome of Divinity, he tests a paladin's capacity for empathy, requiring acts of mercy and selfless service across Stormwind before entrusting them with deeper mysteries. His trials culminate in testing candidates with the Symbol of Life near Heroes' Vigil, sending them to aid wounded allies and teach them to channel the Light's miraculous power to restore fallen comrades from death."
     },
@@ -705,9 +705,9 @@
     "npc:farthing": {
       "1": [
         {
-          "duration": 59.08897959183674,
-          "file": "Audio/Transport/full_npc_farthing-80ede56d7bf72d60d473/1-0000.mp3",
-          "sha256": "09c7b32164c98ea1fb842a02ce0e54b63c8a8bcac1e10b5cce8a8b894d0ff709",
+          "duration": 56.21551020408163,
+          "file": "Audio/Transport/full_npc_farthing-d245ecf7502126a29eba/1-0000.mp3",
+          "sha256": "f76d9437f02531eb0d1ad4aa50df2d01d5f1c6b8187c6356660e87c2d4d5c2cc",
           "start": 0
         }
       ],
@@ -719,12 +719,12 @@
         ]
       },
       "fullHash": "1b1438",
-      "generation": "5845a0a6165dc727ddb0",
+      "generation": "10e56cbc303099814809",
       "hash": "014af8",
       "source": {
-        "duration": 59.062813,
+        "duration": 56.189375,
         "file": null,
-        "sha256": "80ede56d7bf72d60d473029d006dd5f39540cd2a051db86007420aefe459002e"
+        "sha256": "d245ecf7502126a29eba6e55f187d416b6d159f2e34c54b444f93947ce84842e"
       },
       "text": "Farthing. Bishop Farthing is a human clergyman residing within the Cathedral of Light in Stormwind City. Known as a kind and wise servant of the Holy Light, he guides parishioners and directs aid toward beleaguered settlements across the kingdom. Within the serene marble halls of the Cathedral of Light, Bishop Farthing stands as one of the prominent figures attending to the spiritual needs of Stormwind City. Alongside Archbishop Benedictus and the gathered clergy, he offers counsel to travelers, assists those pursuing the holy arts, and attends to the civic and pastoral obligations of the Church of the Holy Light. Despite remaining situated within the capital, Farthing directs earnest travelers toward darker corners of the kingdom that desperately require holy aid. When troubled reports filter in regarding the necromancer Morbent Fel and the creeping undead blight overtaking Duskwood, Farthing serves as an advisor in seeking out methods to overcome dark sorceries and cleanse the blighted frontier."
     },
@@ -757,9 +757,9 @@
     "npc:foreman-oslow": {
       "1": [
         {
-          "duration": 74.97142857142858,
-          "file": "Audio/Transport/full_npc_foreman-oslow-7526221d2423e4a26f37/1-0000.mp3",
-          "sha256": "daa53be3fcbb93769dfdcd847e59cad662b6b8bde3100302a661a0625e8dd003",
+          "duration": 78.23673469387755,
+          "file": "Audio/Transport/full_npc_foreman-oslow-13ce53863909f16290e8/1-0000.mp3",
+          "sha256": "e237ff324807ed44b65e66a3a0c77cb51bd014aa9bf02c50244c7cb141a9f0ae",
           "start": 0
         }
       ],
@@ -771,12 +771,12 @@
         ]
       },
       "fullHash": "6859c0",
-      "generation": "f49ce7fce06d5669cc1d",
+      "generation": "f7e4010459bbb4730e58",
       "hash": "82e2b8",
       "source": {
-        "duration": 74.94525,
+        "duration": 78.236735,
         "file": null,
-        "sha256": "7526221d2423e4a26f37afa08d26135d01a021b1647ad025d96d03d254c7ce57"
+        "sha256": "13ce53863909f16290e8dc6cf6fd5bd1394e0df704ce153c32504a5087565105"
       },
       "text": "Foreman Oslow. Foreman Oslow is Lakeshire's beleaguered master builder, tasked with repairing the ruined Everstill Bridge in the heart of Redridge Mountains. Beset by Blackrock orc artillery and gnoll raiders, his reconstruction efforts have stalled due to lost shipments and sunken equipment. He relies heavily on traveling adventurers to retrieve his gear and secure materials so Lakeshire can reconnect its vital trade route. Standing by the fractured masonry of the Everstill Bridge, Foreman Oslow faces an uphill battle. The bridge is the lifeline of Lakeshire, spanning the expanse of Lake Everstill and linking the western roads toward Elwynn to the eastern shores. Blackrock orcs, sweeping down from the crags of Stonewatch, targeted the crossing to cripple the town's logistics and military movement, leaving the settlement splintered and vulnerable. Every attempt Oslow makes to rebuild seems plagued by misfortune. When the bridge fell, his replacement tools were shipped overland from Goldshire and loaded onto a lake ferry. Orc catapult crews caught the vessel in their sights, sending his heavy iron toolbox straight to the muddy bed of Lake Everstill. To compound matters, local Redridge gnolls hijacked the caravan of new materials sent from Stormwind, making off with the iron pikes and rivets necessary to raise the arches."
     },
@@ -913,9 +913,9 @@
     "npc:grelin-whitebeard": {
       "1": [
         {
-          "duration": 82.07673469387755,
-          "file": "Audio/Transport/full_npc_grelin-whitebeard-0222aa56f4994b5b0b77/1-0000.mp3",
-          "sha256": "e5f60ccc46753910439b90b422270deff17b3f51c2c5e7e80e9e334acff90f31",
+          "duration": 79.77795918367347,
+          "file": "Audio/Transport/full_npc_grelin-whitebeard-c8355c580a1c02e70db7/1-0000.mp3",
+          "sha256": "207889e1b046a9dad38b99963844bf9b0fab70d682a071c0abe638d28f1ed424",
           "start": 0
         }
       ],
@@ -927,12 +927,12 @@
         ]
       },
       "fullHash": "26ff4e",
-      "generation": "c11480c21c481e9d9db7",
+      "generation": "e79b7efb7c906a886b5c",
       "hash": "a10bb3",
       "source": {
-        "duration": 82.050563,
+        "duration": 79.751813,
         "file": null,
-        "sha256": "0222aa56f4994b5b0b7728d6ad4988c2559a8ef3d518933b30e786ba49609c6e"
+        "sha256": "c8355c580a1c02e70db72ad1e77513677ba5cf7ef06d06cec6cef83b76094008"
       },
       "text": "Grelin Whitebeard. Grelin Whitebeard is a dwarven scout stationed in Coldridge Valley by royal decree to assess the Frostmane troll threat. Operating out of an isolated camp, he relies on rising adventurers to keep the trolls contained while Ironforge's attention remains consumed by the trogg crisis. Grelin Whitebeard and his brother Senir were dispatched to Coldridge Valley under direct orders from the Senate of Ironforge and King Magni Bronzebeard himself. Their mission was clear: assess and neutralize the threat posed by the native Frostmane trolls. With Ironforge's official military fully bogged down combating trogg outbreaks across Dun Morogh, the brothers were given very few resources to accomplish their task. Grelin had to establish an outpost in the snowy hills and look toward local recruits and passing initiates to carry out the necessary work. From his camp, Grelin monitors the encroaching Frostmane tribe south of Coldridge Valley. The trolls have grown increasingly aggressive, staging bolder incursions outside their mountain caverns. During one such raid, a heavily painted brute named Grik'nir the Cold slipped into the unattended camp and made off with Grelin's field journal, containing his critical observations. Unwilling to fail the King, Grelin uses intrepid travelers to strike deep into the Frostmane caves, recover his stolen writings, and ensure his final intelligence reaches Senir in Kharanos."
     },
@@ -965,9 +965,9 @@
     "npc:gryan-stoutmantle": {
       "1": [
         {
-          "duration": 86.54367346938776,
-          "file": "Audio/Transport/full_npc_gryan-stoutmantle-6d0f773dc0fd91145e1f/1-0000.mp3",
-          "sha256": "cf085b9076e57ef28fc32acfe397925d1803ce241d9a2c654af099bf4619c66d",
+          "duration": 79.41224489795918,
+          "file": "Audio/Transport/full_npc_gryan-stoutmantle-912448086c937086e8b9/1-0000.mp3",
+          "sha256": "e220acf5736ed1bf5f8dfa6ec96029afd73d234c63a6093627960518d558d701",
           "start": 0
         }
       ],
@@ -979,12 +979,12 @@
         ]
       },
       "fullHash": "7a1d76",
-      "generation": "433c73eb4da5a0dee5b1",
+      "generation": "bac008cce14d5f5eace2",
       "hash": "ed4bcb",
       "source": {
-        "duration": 86.5175,
+        "duration": 79.386063,
         "file": null,
-        "sha256": "6d0f773dc0fd91145e1f8030719229d640d6f445482f748713e24db94d2c7c90"
+        "sha256": "912448086c937086e8b92c2a55120bd864add23c5d51d64cda9de34619a0c6e8"
       },
       "text": "Gryan Stoutmantle. Gryan Stoutmantle is a paladin of the Silver Hand and the commander of the People's Militia, operating out of Sentinel Hill in Westfall. Born in Westfall, he returned from the devastated northern kingdom of Lordaeron to protect his homeland after Stormwind's crown abandoned the region to banditry. Gryan Stoutmantle began his service far from the quiet fields of southern Azeroth. Traveling north to Lordaeron as a young man, he took vows as a Knight of the Silver Hand and endured the horrors of the Third War. When news reached him that his native province of Westfall was collapsing into lawlessness, overrun by organized brigands and abandoned by the crown, Gryan left the northern fronts behind. He traded imperial battlefields for the defense of honest farmers, swearing that his home would not fall as the north had. Upon his return, Gryan found Westfall virtually undefended. Due to royal neglect and political paralysis within the House of Nobles, Stormwind refused to dispatch garrison troops. In response, Stoutmantle established the People's Militia at Sentinel Hill, rallying local farmers, sentries, and traveling mercenaries into a volunteer defense corps. His forces hold a precarious line against the Defias Brotherhood, riverpaw gnolls, and hostile mechanoids, unable even to spare reinforcements when neighbor settlements like Lakeshire plead for aid."
     },
@@ -1069,9 +1069,9 @@
     "npc:high-priestess-laurena": {
       "1": [
         {
-          "duration": 81.18857142857144,
-          "file": "Audio/Transport/full_npc_high-priestess-laurena-75a419e197d62c3c0f4a/1-0000.mp3",
-          "sha256": "c6abca073e308cda978b89148f61a8279e86dbb04f8f51dede57b80de9e1876e",
+          "duration": 55.40571428571429,
+          "file": "Audio/Transport/full_npc_high-priestess-laurena-ae78d0e1d9ab10595d75/1-0000.mp3",
+          "sha256": "ecbf372eb942812150bcbe7a5ba0c837d31780bacd0a1fcaed1faf7b44e7efbf",
           "start": 0
         }
       ],
@@ -1083,12 +1083,12 @@
         ]
       },
       "fullHash": "6216ce",
-      "generation": "bb512d000174ec4cb014",
+      "generation": "9ce3d901cbfaca3e185b",
       "hash": "7a8e40",
       "source": {
-        "duration": 81.162438,
+        "duration": 55.379563,
         "file": null,
-        "sha256": "75a419e197d62c3c0f4a31e25cdf9d9c75e9eb26cfd8694387d11c0e9b578a51"
+        "sha256": "ae78d0e1d9ab10595d754c0fd600ad8039ce9e784c33f2afda34647297ec5e84"
       },
       "text": "High Priestess Laurena. High Priestess Laurena is a respected human priest trainer stationed behind the grand altar within Stormwind City's Cathedral of Light. She instructs budding Alliance priests in spiritual devotion and arcane wards. As a High Priestess of the Church of the Holy Light, Laurena holds one of the senior posts within the towering halls of the Cathedral of Light, the heart of the faith in Stormwind City, where Archbishop Benedictus leads the Church. Positioned directly behind the central altar within the cathedral sanctuary, High Priestess Laurena dedicates herself to mentoring aspiring priests. When promising acolytes demonstrate sufficient dedication and piety, they are directed to her to deepen their studies. Laurena guides them in the invocation of sacred boons such as Desperate Prayer and instructs them in defensive arts, including spells designed to turn enemy arcane magic back against those who wield it. Once an initiate has learned all she can offer, she sends them onward to other master priests across the Alliance."
     },
@@ -1225,9 +1225,9 @@
     "npc:jitters": {
       "1": [
         {
-          "duration": 36.4930612244898,
-          "file": "Audio/Transport/full_npc_jitters-8dba9d7ee3a7aa89a7d8/1-0000.mp3",
-          "sha256": "dd954163ced0245a662fbea8acfe49515a77dd8a16f64690364128261a09101d",
+          "duration": 37.38122448979592,
+          "file": "Audio/Transport/full_npc_jitters-bfc2ad7cc11b8e77bbc3/1-0000.mp3",
+          "sha256": "89eaa86f264391b6932aa5c03aa41ecca54dbf681b6f44bd5710e603b297334f",
           "start": 0
         }
       ],
@@ -1239,12 +1239,12 @@
         ]
       },
       "fullHash": "6e1802",
-      "generation": "728e0ba372c7494d197b",
+      "generation": "65add6b76a8792a9404b",
       "hash": "5918c8",
       "source": {
-        "duration": 36.466938,
+        "duration": 37.381224,
         "file": null,
-        "sha256": "8dba9d7ee3a7aa89a7d84e9dbf1864a8cad94fcae0d5092aa8ee466ac93fa5a1"
+        "sha256": "bfc2ad7cc11b8e77bbc3b37c04342a5e71a1852b65db57265dfbe7424ad32e0c"
       },
       "text": "Jitters. Jitters is a terrified, half-starved human hiding among the ruins of Raven Hill in Duskwood. He clings to scraps of food and struggles to speak about the horrors he has witnessed. Found shivering amid the dilapidated houses of Raven Hill, Jitters lives in constant terror of the predators stalking Duskwood's western trails. He relies on passing adventurers for simple sustenance, desperate for food while keeping a frantic eye on the encroaching shadows. His skittish mannerisms and uncanny reflex for leaping clear of sudden danger earned him his moniker long ago, but his frantic paranoia is born from firsthand encounters with horrific horrors."
     },
@@ -1303,9 +1303,9 @@
     "npc:kaela-shadowspear": {
       "1": [
         {
-          "duration": 73.71755102040817,
-          "file": "Audio/Transport/full_npc_kaela-shadowspear-3983ab3829b7292e5bbf/1-0000.mp3",
-          "sha256": "fa011551c4cfbad1260ba95b5716cc934fb6f51fb049cd5605380930128c12ad",
+          "duration": 69.30285714285715,
+          "file": "Audio/Transport/full_npc_kaela-shadowspear-84e4ecc15aac5c176bbd/1-0000.mp3",
+          "sha256": "5d72bb53a1262e3747f9ae35d9afdbc0616eb5717731eb50bf73cbe706f129e9",
           "start": 0
         }
       ],
@@ -1317,12 +1317,12 @@
         ]
       },
       "fullHash": "1d13fc",
-      "generation": "b476edc8f2e38e6f0aab",
+      "generation": "6def797fb54348e5d478",
       "hash": "3bcc5f",
       "source": {
-        "duration": 73.691375,
+        "duration": 69.276688,
         "file": null,
-        "sha256": "3983ab3829b7292e5bbf0b4bd4304986550a4944cdd0cd95fda93b9c44c0e206"
+        "sha256": "84e4ecc15aac5c176bbdf254f322d987e374018774cf8746e61881bf77b9addd"
       },
       "text": "Kaela Shadowspear. Kaela Shadowspear is a night elf sentinel stationed southwest of Windshear Crag in the Stonetalon Mountains. From her small outpost, she coordinates with fellow sentinels to monitor escalating tensions and regional disruptions in the wilderness. She relies on brave travelers to scout dangerous territory and learn what has corrupted the land's ancient defenders. Positioned just southwest of the industrial devastation of Windshear Crag, Kaela Shadowspear keeps a watchful vigil over the surrounding passes. The Stonetalon Mountains are fraught with danger as the Horde encroaches and goblin operations exploit the land's natural bounty. Operating alongside the gnome Gaxim Rustfizzle, Kaela acts as an essential forward liaison for the night elves, tracking threats that push deeper into ancestral territory. The unrest in Stonetalon goes far beyond territorial skirmishes. The violent disruption of nature has agitated the elementals and brought harm to ancient guardians of the forest. Kaela works tirelessly to dispatch adventurers against raging elemental spirits and to learn what has corrupted the wounded ancients, the treants who once guarded the Vale, striving to restore peace before the land is irrevocably scarred."
     },
@@ -1407,9 +1407,9 @@
     "npc:madame-eva": {
       "1": [
         {
-          "duration": 82.99102040816327,
-          "file": "Audio/Transport/full_npc_madame-eva-5a8bb85f2e0214d8b853/1-0000.mp3",
-          "sha256": "8776ed5174818d69f8460471efcb789a8d3b80fe08006a20debe5e8ffb0f9d1e",
+          "duration": 81.03183673469388,
+          "file": "Audio/Transport/full_npc_madame-eva-3c3f37a25ea275173c2d/1-0000.mp3",
+          "sha256": "0aade45555d48f373d355bbfadd11ec25da86ef282d2ef6560d3322e924d4847",
           "start": 0
         }
       ],
@@ -1421,12 +1421,12 @@
         ]
       },
       "fullHash": "3da342",
-      "generation": "cbb401ef0c24e6174c9f",
+      "generation": "7388bc8e763aee9702bb",
       "hash": "bbe24c",
       "source": {
-        "duration": 82.964875,
+        "duration": 81.005688,
         "file": null,
-        "sha256": "5a8bb85f2e0214d8b85336356b34b269dc2e0331803e8bb24b90628eccb2ea11"
+        "sha256": "3c3f37a25ea275173c2d3b8e80d2c34451204a34bf3b8025717f1ebc4e36328c"
       },
       "text": "Madame Eva. Madame Eva is a revered fortune-teller and matriarch living in Darkshire in the shadowed forest of Duskwood. Practicing older, mystic arts of divination and cartomancy, she often serves as the first townsperson to sense unnatural disturbances across the woods. Travelers frequently seek her out to unravel grim mysteries or procure occult charms against the creeping dark. Dwelling quietly amidst the gloom of Darkshire, Madame Eva practices cartomancy and ancient folk rituals that many in Stormwind's cathedral would view with suspicion. In a forsaken region plagued by feral beasts, the undead, and darker horrors, her eerie insights are tolerated and sought after by desperate townspeople and visiting adventurers alike. Beyond her role as an occult reader, Madame Eva is deeply devoted to her family, serving as grandmother to Alyssa Eva and young Lohgan. When her cartomancy reveals dark omens threatening her granddaughter, Eva does not hesitate to enlist the aid of passing wanderers to scour the woods, uncovering long-buried tragedies before history can repeat itself. Eva's knowledge extends beyond card reading to ritual crafting and warding. From spinning Ghost Hair Thread out of a spirit's hair to crafting bizarre folk relics like the Totem of Infliction, she understands the strange, twilight logic that governs Duskwood's restless spirits better than almost anyone else in town."
     },
@@ -1485,9 +1485,9 @@
     "npc:magni-bronzebeard": {
       "1": [
         {
-          "duration": 134.42612244897958,
-          "file": "Audio/Transport/full_npc_magni-bronzebeard-b1df051ab2b395d8973c/1-0000.mp3",
-          "sha256": "d257c8cbb5f32b2b9b8e1ea8b4c5587451f52ba1eb5afb6388eddc37e5d6c6c8",
+          "duration": 116.29714285714286,
+          "file": "Audio/Transport/full_npc_magni-bronzebeard-ab52088d4fcba9c09cc1/1-0000.mp3",
+          "sha256": "40dec1075c208faf5eab28cccade87e580a2060508c9ce75093716a97cb89c67",
           "start": 0
         }
       ],
@@ -1499,12 +1499,12 @@
         ]
       },
       "fullHash": "455989",
-      "generation": "be35a09e2da297e107f3",
+      "generation": "a67bf77174c3cc5ad2d6",
       "hash": "5cea49",
       "source": {
-        "duration": 134.4,
+        "duration": 116.271,
         "file": null,
-        "sha256": "b1df051ab2b395d8973cb75b981920a1b41253e5d651a95414cf09f9e4c5eddc"
+        "sha256": "ab52088d4fcba9c09cc1430e86664e7a380906e6e82c46db2941e8229eb08468"
       },
       "text": "Magni Bronzebeard. Magni Bronzebeard is the Lord of Ironforge, Thane of the Bronzebeard clan, and ruler of Khaz Modan. A veteran commander of the Second War, he leads his mountainous kingdom through grief and political tension while championing dwarven archaeology across Azeroth. The eldest of three brothers, Magni grew up keenly aware of the weight awaiting him under the mountain. When the Horde invaded during the Second War, he held Ironforge behind its impenetrable gates, emerging to pledge Khaz Modan to the Alliance of Lordaeron once the siege was broken. In the years of peace that followed, Magni welcomed his gnomish allies into the city after the fall of Gnomeregan, granting High Tinker Gelbin Mekkatorque and his refugees sanctuary within the mountain. To unite the fractured southern and northern kingdoms, Magni petitioned Mekkatorque to engineer an unprecedented subterranean marvel: the Deeprun Tram, connecting Ironforge directly to Stormwind. Beneath Magni's regal bearing lies deep personal tragedy. During the Third War, word arrived from Northrend that his beloved younger brother, Muradin, had perished on Prince Arthas Menethil's expedition. Magni was overcome with grief, yet he and his youngest brother, Brann, remained steadfast in their duty to the dwarven people, and the king still rules wisely with that sorrow weighing upon him. Under Magni's decree, dwarven society has turned much of its focus away from traditional commercial mining toward the unearthing of ancient history. Spurred by discoveries of strange titan relics deep beneath the earth, Magni co-founded the Explorers' League alongside his surviving brother, Brann Bronzebeard. Dwarven dig sites now dot the continents, from Dun Morogh to Kalimdor, striving to unlock the mystery of the dwarves' fabled origins. However, domestic peace remains fragile: Magni's daughter, Princess Moira, has gone missing, believed kidnapped by the hated Dark Iron clan."
     },
@@ -1563,9 +1563,9 @@
     "npc:marshal-dughan": {
       "1": [
         {
-          "duration": 81.21469387755103,
-          "file": "Audio/Transport/full_npc_marshal-dughan-15f57ec5c92104600c23/1-0000.mp3",
-          "sha256": "ce218552c60415f10e70520653692d713171ab19bd8782524d67aeee705fb1b3",
+          "duration": 79.09877551020408,
+          "file": "Audio/Transport/full_npc_marshal-dughan-902cb003cda579ba4113/1-0000.mp3",
+          "sha256": "c500ccf6a2f25a2c789c3e27d0fb27b87f0ce330aad7d88eef502685a0186064",
           "start": 0
         }
       ],
@@ -1577,12 +1577,12 @@
         ]
       },
       "fullHash": "1602c1",
-      "generation": "5c4261b06bbacf23f5d9",
+      "generation": "8570121cc0ccdf83edbd",
       "hash": "4f65b1",
       "source": {
-        "duration": 81.188563,
+        "duration": 79.098776,
         "file": null,
-        "sha256": "15f57ec5c92104600c23d20341037ab9b2bdcb9f5f98f26d2087c1e7873f31f6"
+        "sha256": "902cb003cda579ba41130d2fe14cb16a7410762e7a34824e6b139ae351a986e5"
       },
       "text": "Marshal Dughan. Marshal Dughan is the commanding officer of the Stormwind Army detachment stationed in Goldshire. Tasked with protecting the heart of Elwynn Forest, he finds his local garrison stretched thin against growing incursions of kobolds, gnolls, and bandits. To keep the crossroads town and surrounding farmsteads safe, he relies heavily on independent adventurers. Stationed prominently in Goldshire outside the Lion's Pride Inn, Marshal Dughan bears the heavy burden of keeping Elwynn Forest secure while Stormwind's military resources are tied up elsewhere. The surrounding woods are steadily deteriorating: vermin choke the mines, gnolls mass along the riverbanks, and highwaymen harass travelers along the King's Road. With too few footmen under his direct command, Dughan orchestrates local defense by directing fresh recruits to reinforce outposts and scout contested ground. Dughan's immediate concerns lie with the kobold infestations overrunning Fargodeep and Jasperlode Mines, threatening Goldshire's vital mineral output. To the west, Riverpaw gnolls led by the notorious Hogger press hard against Westbrook Garrison. To the east, Dughan is forced to confront reports from Guard Thomas concerning vicious murlocs slaughtering patrols along the river. Managing these overlapping crises with limited manpower keeps the marshal in constant need of capable mercenaries."
     },
@@ -1849,9 +1849,9 @@
     "npc:raene-wolfrunner": {
       "1": [
         {
-          "duration": 81.63265306122449,
-          "file": "Audio/Transport/full_npc_raene-wolfrunner-cced58356b7e28cd1db8/1-0000.mp3",
-          "sha256": "623ff2c7708baf006100155137c4f3d7bbac61700cb839bce1bdb0a215b70ef3",
+          "duration": 69.32897959183674,
+          "file": "Audio/Transport/full_npc_raene-wolfrunner-ab9f423ef72505a09c1f/1-0000.mp3",
+          "sha256": "31a3223ad9012e3d9b4cab0dc47f9ecb390468cea244f5da70a59cac1a8791ef",
           "start": 0
         }
       ],
@@ -1863,12 +1863,12 @@
         ]
       },
       "fullHash": "008a76",
-      "generation": "e00a0b8f8827ddc5f36e",
+      "generation": "32748bad3248b39292ec",
       "hash": "1f5ce7",
       "source": {
-        "duration": 81.6065,
+        "duration": 69.302813,
         "file": null,
-        "sha256": "cced58356b7e28cd1db8536037a6224a4c47bfb0612fb04bbb543ea3ba3ac28a"
+        "sha256": "ab9f423ef72505a09c1f9ef3a6eda9df8ecf97bd9c5140682307e5903c330af3"
       },
       "text": "Raene Wolfrunner. Raene Wolfrunner is an accomplished Sentinel officer and hunter stationed at the heart of Astranaar in Ashenvale. Accompanied by her loyal wolf and saber cat companions, she coordinates defense efforts across the forest against encroaching Horde forces and corrupted furbolg tribes. She serves as a vital anchor for Alliance champions striving to protect the sacred wilderness. Raene Wolfrunner stands watchful in Astranaar alongside her trusty saber cat Korra and wolf Dagri. As an officer among the Sentinels, she oversees patrols throughout Ashenvale and coordinates intelligence reaching beyond its borders, dispatching scouts like Kaela Shadowspear into neighboring regions such as the Stonetalon Mountains. Beyond the tensions with the Horde, Raene is deeply invested in addressing the dark taint sickening Ashenvale's native denizens. She directs campaigns against hostile furbolg tribes, including aggressive strikes against the Foulweald camps harassing travelers and targeted culls against rising Thistlefur leadership. Her subordinate scouts keep close watch over changing furbolg behavior, relying on Raene's steady command to protect local settlements and passing wayfarers from coordinated ambushes."
     },
@@ -2005,9 +2005,9 @@
     "npc:shael-dryn": {
       "1": [
         {
-          "duration": 39.23591836734694,
-          "file": "Audio/Transport/full_npc_shael-dryn-0b0fd9f7dbcb387fcaaa/1-0000.mp3",
-          "sha256": "0cde8d37d8eff426b8132b6d44be89bebca39a50ad378236919bdc7f6cd99a67",
+          "duration": 39.627755102040815,
+          "file": "Audio/Transport/full_npc_shael-dryn-22d2737897674d1b38bc/1-0000.mp3",
+          "sha256": "0ef851518279f825106dc0a021ade46a04a22b2abeb2fd4aec95fd641085e61f",
           "start": 0
         }
       ],
@@ -2019,12 +2019,12 @@
         ]
       },
       "fullHash": "409904",
-      "generation": "0ddab9ed8241e9ae68d5",
+      "generation": "1bc84d5d2e27291a4ae3",
       "hash": "7fdf7d",
       "source": {
-        "duration": 39.20975,
+        "duration": 39.627755,
         "file": null,
-        "sha256": "0b0fd9f7dbcb387fcaaa95bb4b9274aaaf14f6c8be770d90332a9c018bf8ed51"
+        "sha256": "22d2737897674d1b38bc8a7267c837c56fff7a526e0c0591dadc40e4a194da3a"
       },
       "text": "Shael'dryn. Shael'dryn is an inquisitive dryad residing beside the Moonwell of Purity, east of Iris Lake in Ashenvale. She serves as a vital contact for night elf scouts investigating forest corruption. She plays a pivotal role in aiding Astranaar's sentinels with cleansing relics to combat demonic and foul influences spreading across the wilderness. Stationed beside the Moonwell of Purity, Shael'dryn keeps watch alongside the night elf sentinels guarding the eastern approaches of the forest. When corruption surfaces among the local wildlife or tainted relics threaten the land's harmony, her deep natural understanding allows her to guide adventurers through the steps required to restore spiritual balance."
     },
@@ -2109,9 +2109,9 @@
     "npc:tallonkai-swiftroot": {
       "1": [
         {
-          "duration": 57.05142857142857,
-          "file": "Audio/Transport/full_npc_tallonkai-swiftroot-b3ce066cddc2f8f0cc03/1-0000.mp3",
-          "sha256": "c5cc8b2a3d701dbb9fccddca21d4eb802c27a6bb094b395aa5b186405ab95a9f",
+          "duration": 56.58122448979592,
+          "file": "Audio/Transport/full_npc_tallonkai-swiftroot-76142b2dc435da0f0496/1-0000.mp3",
+          "sha256": "bf4934bdb6b5ad882e46936c7592804bcfe9e10b7a5bdc2242d939cc6d419305",
           "start": 0
         }
       ],
@@ -2123,12 +2123,12 @@
         ]
       },
       "fullHash": "f66dce",
-      "generation": "7c87731b24d35e5ae20c",
+      "generation": "46e6cffad7f3533eccb2",
       "hash": "14b2dd",
       "source": {
-        "duration": 57.02525,
+        "duration": 56.555063,
         "file": null,
-        "sha256": "b3ce066cddc2f8f0cc03001fe7ecb8adf75b6d7c2960e02b379be9703d509ba5"
+        "sha256": "76142b2dc435da0f04960cf6dfe357ecfffd30ded7e38a4b34912dafe5a5c9a8"
       },
       "text": "Tallonkai Swiftroot. Tallonkai Swiftroot is a night elf resident of Dolanaar in Teldrassil. Concerned with the emerging corruption tainting the great boughs, he enlists young adventurers to recover enchanted relics and stem the foul forces plaguing the woods. Dwelling in the canopy settlement of Dolanaar, Tallonkai Swiftroot keeps a watchful eye over the surrounding woods. Like many night elves living beneath the boughs of the newly grown World Tree, he is alarmed by the unnatural agitation of the wildlife and the unsettling shadows gathering at the edges of their settlements. Tallonkai directs adventurers to confront foul entities disturbing Teldrassil's peace. His concerns include corrupted dream catchers crafted to protect sleeping druids, vicious gnarlpine furbolgs succumbing to a dark malaise, and the corrupted Gnarlpine mystics led by Ferocitas the Dream Eater. To Tallonkai, cleansing these disturbances is crucial to defending the fragile home of the Kaldorei."
     },
@@ -2395,9 +2395,9 @@
     "npc:william-pestle": {
       "1": [
         {
-          "duration": 71.31428571428572,
-          "file": "Audio/Transport/full_npc_william-pestle-eb68800377d9d203c7bf/1-0000.mp3",
-          "sha256": "88b9dff2ec1230f9568c67c47dcd8b15bef091dd133b0908c37555f7d7cf29f4",
+          "duration": 69.09387755102041,
+          "file": "Audio/Transport/full_npc_william-pestle-910233588daa9095db02/1-0000.mp3",
+          "sha256": "e494afb47841c00caa331fd0748d4e6895c97c919e7c5cf3e6aa7255799838b6",
           "start": 0
         }
       ],
@@ -2409,12 +2409,12 @@
         ]
       },
       "fullHash": "1d87a3",
-      "generation": "6235ec154d817c8f1aef",
+      "generation": "f7a9fc07c287734b4e60",
       "hash": "78ce20",
       "source": {
-        "duration": 71.288125,
+        "duration": 69.06775,
         "file": null,
-        "sha256": "eb68800377d9d203c7bf3811ab709b54ee3971c795fc3959781d639c3451e2a4"
+        "sha256": "910233588daa9095db02f8bf0ccf87d2c4ba6500f02cafba3ce1b65d4ab6d8b2"
       },
       "text": "William Pestle. William Pestle is a human alchemist staying inside Goldshire's Lion's Pride Inn. Together with his brother Morgan, he helps run the apothecary shop in Stormwind's Trade District. He frequently employs traveling adventurers to gather odd reagents like kobold candles, murloc kelp, and herbal supplies. While his brother Morgan Pestle manages the counter at Pestle's Apothecary in the Trade District of Stormwind City, William operates out of the Lion's Pride Inn in Goldshire. Being stationed in Elwynn Forest allows him to work closely with local gatherers and secure raw materials that city shops constantly require. He maintains regular shipments back to the capital, ensuring Stormwind's citizens have steady access to restorative salves, draughts, and powders. William's craft often demands unusual components that go beyond simple garden herbs. He frequently commissions newcomers to gather wax candles carried by Elwynn's infesting kobolds, as well as crystal kelp taken from the murlocs of Crystal Lake, just east of Goldshire. Although such concoctions seem bizarre to the uninitiated, William insists these strange ingredients possess potent alchemical virtues."
     },
@@ -2681,9 +2681,9 @@
     "subzone:anvilmar": {
       "1": [
         {
-          "duration": 73.03836734693878,
-          "file": "Audio/Transport/full_subzone_anvilmar-d72385769b828b8262f2/1-0000.mp3",
-          "sha256": "80cb67862b551aaf5255dce463ed2c57934de0388423ee3af4489dd473766e8d",
+          "duration": 61.70122448979592,
+          "file": "Audio/Transport/full_subzone_anvilmar-4d3b81c9f6a4d4fd2cea/1-0000.mp3",
+          "sha256": "2446ee6fe4f42b8674d7c6537ae0379c9f73e5c4bccd04a5874080a29a18a658",
           "start": 0
         }
       ],
@@ -2695,21 +2695,21 @@
         ]
       },
       "fullHash": "e45a3b",
-      "generation": "498e38f70c4a9ce3cee0",
+      "generation": "3f4ac494756728ba1b7a",
       "hash": "f07758",
       "source": {
-        "duration": 73.012188,
+        "duration": 61.675063,
         "file": null,
-        "sha256": "d72385769b828b8262f2325b4fce2615e60072e92c31b6efcfb17772a0557760"
+        "sha256": "4d3b81c9f6a4d4fd2cea95d7ece24eb1b881f67cdf4dfff0a89a5014b0df606f"
       },
       "text": "Anvilmar. Anvilmar is a fortified dwarven outpost nestled in the snowy depths of Coldridge Valley in Dun Morogh. Centered around a massive stone forge, it serves as the primary training grounds and rallying point for young Bronzebeard dwarves and displaced gnomish refugees beginning their adventures. Tucked away in the northern crags of Coldridge Valley, Anvilmar stands as an enduring symbol of dwarven perseverance. Dominated by a roaring central forge, this sturdy masonry complex houses class mentors, supply vendors, and veteran mountain mountaineers who drill recruits before sending them out into the wider kingdom. Though sheltered behind towering drifts, the settlement remains on constant guard against the hostile Frostmane trolls and aggressive wild beasts prowling the frozen valley. The settlement likely takes its proud name from High King Modimus Anvilmar, the ancient sovereign who ruled all dwarven clans before the War of the Three Hammers. Today, the garrison remains vigilant, ensuring the forge fires stay lit against the trolls and beasts of the valley."
     },
     "subzone:astranaar": {
       "1": [
         {
-          "duration": 73.71755102040817,
-          "file": "Audio/Transport/full_subzone_astranaar-d5e63520f7caff01e947/1-0000.mp3",
-          "sha256": "b3062e134fcecb21737cf5b3ce8d6b9746cf0aab67df3a930a2381ef05f790cc",
+          "duration": 62.66775510204082,
+          "file": "Audio/Transport/full_subzone_astranaar-b09137858b93045e8699/1-0000.mp3",
+          "sha256": "fc550ecdce1199118986bc71bab031268b05a1be5fd475e6c98e8e4fedcb785f",
           "start": 0
         }
       ],
@@ -2721,21 +2721,21 @@
         ]
       },
       "fullHash": "213c39",
-      "generation": "c9feeda0c541f7e00171",
+      "generation": "1d4e5d3d56c2063231f7",
       "hash": "495cf6",
       "source": {
-        "duration": 73.691375,
+        "duration": 62.641625,
         "file": null,
-        "sha256": "d5e63520f7caff01e947745e0f8248ae3836ccaa2b300bcee4aeb142cfa32a1b"
+        "sha256": "b09137858b93045e86995772d9c80a9d5b943152d963d3fcda7bc9a37958cd3f"
       },
       "text": "Astranaar. Astranaar is the primary Night Elf settlement in central Ashenvale, built across a serene lake island straddling the ancient forest road. Serving as the beating heart of Alliance operations in the region, it provides vital refuge to travelers facing encroaching threats from hostile furbolgs, satyrs, and the Horde. Situated atop an island in the middle of a forest lake, Astranaar stands as the largest night elven settlement in Ashenvale. Connected to the mainland by wooden footbridges spanning the waters, the town houses sentinels, priests, and artisans who keep vigil over the woodlands. In addition to offering basic comforts such as an inn, traders, and an expert leatherworker, its elevated perches host a flight master providing hippogryph travel to distant outposts across Kalimdor. Despite its tranquil waters and glowing lanterns, Astranaar exists in a state of perpetual readiness. Local leaders like Raene Wolfrunner coordinate patrols and defensive actions against the corrupted Thistlefur furbolgs encroaching from the north, fearful they may mount a direct assault on the settlement."
     },
     "subzone:auberdine": {
       "1": [
         {
-          "duration": 99.2130612244898,
-          "file": "Audio/Transport/full_subzone_auberdine-8436e591f0b1c79b52d6/1-0000.mp3",
-          "sha256": "9d996513503ebc7438eb764d801e4819c1235a456326e8988e5665bf85bd00f5",
+          "duration": 92.94367346938776,
+          "file": "Audio/Transport/full_subzone_auberdine-73c123367b27fb9dacd4/1-0000.mp3",
+          "sha256": "aaf4e648a317f8434352d916983d4ad04ddc242382151219cd301dcfa9907962",
           "start": 0
         }
       ],
@@ -2747,12 +2747,12 @@
         ]
       },
       "fullHash": "ddb09e",
-      "generation": "18651a8bb1fc1ef3df43",
+      "generation": "d48044954c330410d308",
       "hash": "7a49b2",
       "source": {
-        "duration": 99.186938,
+        "duration": 92.9175,
         "file": null,
-        "sha256": "8436e591f0b1c79b52d6d550ecc650eaea2cbf9c4d009622af081a594227aeb0"
+        "sha256": "73c123367b27fb9dacd467a7021f39e20c50bc60c128c0e93db0e3862ec49e87"
       },
       "text": "Auberdine. Auberdine is a coastal night elven port town on the gloomy shores of Darkshore, serving as the Alliance's primary maritime gateway to northern Kalimdor. Sheltered beneath overcast skies and pine-covered bluffs, it connects the island home of Teldrassil to the Eastern Kingdoms while serving as an administrative haven against the encroaching wilderness. Resting along the shores of the Veiled Sea, Auberdine is the only major settlement to successfully endure in modern Darkshore. Unlike the secluded treetop cities of Teldrassil, Auberdine looks outward, serving as the Alliance's busiest port in the north. Regular ships sail between here and the Eastern Kingdoms, to Stormwind Harbor and, by way of Southshore, to Menethil Harbor, while local ferries run to Rut'theran Village at the boughs of the World Tree. Because of its trade role, Auberdine embraces a more cosmopolitan air than traditional elven enclaves; visitors find lamps illuminating stone-laid streets and outland merchants including dwarves and gnomes mingling among the low-slung, arched timber houses. Governed by elder Thundris Windweaver and the Auberdine Village Council, the town coordinates the defence of Darkshore alongside the local Sentinels. Despite its role as a vital trade hub, Auberdine's name is rarely spoken in the boughs of Darnassus, where memory dwells on the great cities the Sundering took. The town endures relentless regional perils: aggressive murlocs raid the fishing boats along the strand, corrupted Blackwood furbolgs press from the south, and foul magic seeping down from Felwood agitates the local wildlife."
     },
@@ -2915,9 +2915,9 @@
     "subzone:beggar-s-haunt": {
       "1": [
         {
-          "duration": 78.36734693877551,
-          "file": "Audio/Transport/full_subzone_beggar-s-haunt-1962bf996d9db9407949/1-0000.mp3",
-          "sha256": "555f9f655077c18731b87621e930a6d82b2ff0ec6a8a7c3d7f69575a4f90fad9",
+          "duration": 71.49714285714286,
+          "file": "Audio/Transport/full_subzone_beggar-s-haunt-1f68e4dc948a136eb2f2/1-0000.mp3",
+          "sha256": "294ffb606372aaa8eeba43d8061047f55dd4589d1c465bd67985f50d7bb9a8c1",
           "start": 0
         }
       ],
@@ -2929,12 +2929,12 @@
         ]
       },
       "fullHash": "ceea9d",
-      "generation": "59d8126c2a8bbe40a31b",
+      "generation": "4aae6aadb247bd5f6327",
       "hash": "534809",
       "source": {
-        "duration": 78.341188,
+        "duration": 71.471,
         "file": null,
-        "sha256": "1962bf996d9db9407949f58312487f7a6db758cb4cf0bf87852fa1c394972482"
+        "sha256": "1f68e4dc948a136eb2f20f606de34c4215436bf500203c810760c1628c4ea012"
       },
       "text": "Beggar's Haunt. Beggar's Haunt is an abandoned Stormwind scout tower perched on a hillside in northeastern Duskwood, near the mountain road to Deadwind Pass. While originally built to keep watch over the kingdom's eastern borders, it has become an outpost for Forsaken infiltrators deep within Alliance territory. Perched above the foggy hills east of Manor Mistmantle, Beggar's Haunt was once an active observation post manned by the Stormwind Guard to secure the eastern approaches to the realm. As the region fell into the gloom of modern Duskwood and kingdom patrols withdrew to Darkshire, the stone tower was abandoned to the elements. Today, its commanding vantage point serves a far more sinister purpose: agents of the Forsaken, including members of the Royal Apothecary Society and Deathstalkers, use the ruined stronghold to conduct research and monitor the region under the Alliance's nose. Behind the tower, a steep, twisting path descends to a secluded pool and waterfall known as Knight's Hollow. Here lies an unmarked grave flanked by two ominous hooded stone statues resembling the guardians flanking the Dark Portal. Nearby resting plots, including the burial site of an Unknown Soldier, speak to forgotten clashes fought along this frontier long before the Forsaken moved into the watchtower."
     },
@@ -3227,9 +3227,9 @@
     "subzone:canals-stormwind-city": {
       "1": [
         {
-          "duration": 76.61714285714287,
-          "file": "Audio/Transport/full_subzone_canals-stormwind-city-c9e709f49989163bbfda/1-0000.mp3",
-          "sha256": "ca9a086ae5ba28a3e75d161e64d7dfa882ac901e0605c8b9d1dc95f67074af8c",
+          "duration": 67.08244897959185,
+          "file": "Audio/Transport/full_subzone_canals-stormwind-city-f0617928ff96aaabf36d/1-0000.mp3",
+          "sha256": "51fb0a4844b263cdb491257d495ecf711e49304c705499aadf287df3eb729d40",
           "start": 0
         }
       ],
@@ -3241,12 +3241,12 @@
         ]
       },
       "fullHash": "0ab82a",
-      "generation": "17597337d47823fa22f6",
+      "generation": "5a4cc3ab6cd39abc9ea3",
       "hash": "34363d",
       "source": {
-        "duration": 76.591,
+        "duration": 67.056313,
         "file": null,
-        "sha256": "c9e709f49989163bbfda1d2e4d0ad092a55d035993b9feb2a43f205080524311"
+        "sha256": "f0617928ff96aaabf36daefe81fd8b3dbcd08c8773d6b5e7bb1dce506db0e11b"
       },
       "text": "Canals (Stormwind City). The Canals are a network of stone-lined waterways weaving through Stormwind City, separating its distinct districts. They serve as quiet thoroughfares for pedestrians and anglers, while quietly harboring hidden hazards and the entrance to the city's prison. The Canals link and define the districts of Stormwind, dividing the bustling markets of the Trade District from the aged alleys of Old Town, the cathedral gardens, and the Dwarven District. Stone bridges, archways, and waterside walkways frame quiet establishments like the Gallina Winery, tailor shops, and quiet residential homes. In addition to serving local merchants and recreational fishermen, the waterways conceal the fortified entrance to the Stockade, where Stormwind's most dangerous criminals and rebels are held beneath street level. The placid surface of the waterways belies a violent past. When the Horde sacked Stormwind during the First War, the city was left in ruins, and the canals were restored only as the capital was rebuilt after the Second War. Today, while cleaned and restored, the depths retain an air of mystery, fueled by city rumors of a massive albino crocolisk prowling beneath the docks."
     },
@@ -3383,9 +3383,9 @@
     "subzone:chill-breeze-valley": {
       "1": [
         {
-          "duration": 47.777959183673474,
-          "file": "Audio/Transport/full_subzone_chill-breeze-valley-63ee8aa0205ccbccb8e2/1-0000.mp3",
-          "sha256": "c538b77e210f1277b5d8f6f44392eb286794e841db2e486fb6053de5cdcd5ff6",
+          "duration": 47.49061224489796,
+          "file": "Audio/Transport/full_subzone_chill-breeze-valley-493f841198cca5f35e19/1-0000.mp3",
+          "sha256": "ad7adbb35506336ddb278582666b88f144df8deb6808f4febf22fdb17a29602a",
           "start": 0
         }
       ],
@@ -3397,12 +3397,12 @@
         ]
       },
       "fullHash": "9d715a",
-      "generation": "e46d4d90c2f1104dc043",
+      "generation": "56a02696afbe82ea6296",
       "hash": "9d715a",
       "source": {
-        "duration": 47.751813,
+        "duration": 47.464438,
         "file": null,
-        "sha256": "63ee8aa0205ccbccb8e232517d3582ca267a457f1ceccbc37e26c5e7aa5434ee"
+        "sha256": "493f841198cca5f35e1995d151dd2246fc28a7d94141a9d2da63cd202cc09d70"
       },
       "text": "Chill Breeze Valley. Chill Breeze Valley is a rugged, snow-covered pass in western Dun Morogh linking the dwarven settlement of Kharanos with the embattled city of Gnomeregan. While its main path is a well-traveled thoroughfare for young travelers and refugees, its secluded recesses harbor dangerous beasts and bloody dens. Chill Breeze Valley forms a T-shaped trench through the mountains of western Dun Morogh. The main east-west trail sees steady foot traffic from novice dwarves and gnomes journeying between Kharanos and the outskirts of Gnomeregan. However, straying into the valley's north-south offshoot is another matter entirely. Strewn with bloodstains and mangled carcasses, these shadowy reaches harbor ferocious predators—most notably savage wendigos that lair in deep ice caves and prey on anyone reckless enough to wander into their hunting grounds."
     },
@@ -3435,9 +3435,9 @@
     "subzone:cleft": {
       "1": [
         {
-          "duration": 35.23918367346939,
-          "file": "Audio/Transport/full_subzone_cleft-2451540782612fe7f3b6/1-0000.mp3",
-          "sha256": "db59ff49bd4380b832604f5fc9a20351884add20bab28361c469475f7de4fada",
+          "duration": 37.04163265306123,
+          "file": "Audio/Transport/full_subzone_cleft-88efdfcc82c9336c2f31/1-0000.mp3",
+          "sha256": "cfc92354ad76e9a7343e96a577db866c8add24f2e21890d7e35ed2b8e5e3b0ff",
           "start": 0
         }
       ],
@@ -3449,12 +3449,12 @@
         ]
       },
       "fullHash": "8246d1",
-      "generation": "9dc61c4be6ebf53ed8dc",
+      "generation": "722400b1196a49d78ac3",
       "hash": "1c0824",
       "source": {
-        "duration": 35.213063,
+        "duration": 37.067755,
         "file": null,
-        "sha256": "2451540782612fe7f3b6dff0b5af64055ef9aaa54b3e6336232890ed3ff459cb"
+        "sha256": "88efdfcc82c9336c2f31b7e666563c9e8cd664294910d2e313dda16a79031888"
       },
       "text": "Cleft. The Cleft is a darkened hollow located northwest of Dolanaar in Teldrassil. Once a tranquil corner of the boughs, it has been claimed by the corrupted Gnarlpine furbolgs, who use it as a stronghold to ambush travelers moving along the main highway toward Darnassus. Situated off the highway between Dolanaar and Darnassus, the Cleft has turned into one of the most perilous dens on the world tree. Driven mad by the foul taint spreading through Teldrassil, the resident Gnarlpine furbolgs have fortified this hollow. From this redoubt, the maddened beasts terrorize the local roads, threatening to cut Dolanaar off from the capital."
     },
@@ -3539,9 +3539,9 @@
     "subzone:commons": {
       "1": [
         {
-          "duration": 69.17224489795919,
-          "file": "Audio/Transport/full_subzone_commons-91dc7c65b5b1cebccfc2/1-0000.mp3",
-          "sha256": "aa68ea87a09dfe03b9315f81fb4416b4b3063a93a3cb20b30d0c2b30b96aa15c",
+          "duration": 69.64244897959183,
+          "file": "Audio/Transport/full_subzone_commons-0144be43da9e1f536882/1-0000.mp3",
+          "sha256": "18ef8d3711ef935b22d0b31d042f0ca4e313dd2dde12d124705491bc172472ee",
           "start": 0
         }
       ],
@@ -3553,12 +3553,12 @@
         ]
       },
       "fullHash": "961f13",
-      "generation": "157d095301aec9e859b6",
+      "generation": "43411c13f257f917095e",
       "hash": "14242a",
       "source": {
-        "duration": 69.146063,
+        "duration": 69.616313,
         "file": null,
-        "sha256": "91dc7c65b5b1cebccfc24b9e08c41b81cb827c7288c1fa9a4e1ab7ea939a7d5a"
+        "sha256": "0144be43da9e1f5368821e8bc5212c18ae0cb80324b7270ed2845785e88dde5b"
       },
       "text": "Commons. The Commons serves as the vibrant commercial heart of Ironforge, connecting the city entrance directly to its vast caverns. Teeming with merchants, travelers, and bankers, it is the busiest thoroughfare in the dwarven capital and the central marketplace for the entire Alliance. Located just northeast of the Gates of Ironforge, the Commons is the first district that greets travelers entering the mountain kingdom. Carved directly out of the stone, this bustling market street houses the primary Alliance Auction House, the Stonefire Tavern, and the city's central bank within the Vault of Ironforge. Broad avenues connect it seamlessly to the Great Forge, the Mystic Ward, and the Military Ward, ensuring that nearly all foot traffic in the mountain passes through its bustling storefronts. Due to Ironforge's central location on the Eastern Kingdoms continent and its direct underground Deeprun Tram link to Stormwind, the Commons functions as the Alliance's primary trade nexus. Adventurers converge here to trade goods brought from every corner of Azeroth, purchase armaments from Steelfury's Weapon Emporium and reagents from Barim, or meet under the warm lantern light of the local inn before heading out into the Khaz Modan snows."
     },
@@ -3591,9 +3591,9 @@
     "subzone:cragpool-lake": {
       "1": [
         {
-          "duration": 30.928979591836736,
-          "file": "Audio/Transport/full_subzone_cragpool-lake-c391261545a50af2505b/1-0000.mp3",
-          "sha256": "a42700edd7c0cb1d59c0d2728a328ad956587ff8a3c9b790099c55e0fbf99997",
+          "duration": 30.824489795918367,
+          "file": "Audio/Transport/full_subzone_cragpool-lake-9b4be49d139897042572/1-0000.mp3",
+          "sha256": "78d52556d0736a448bd45a810774ecd26421325e2db54f5154e501c5a93689ae",
           "start": 0
         }
       ],
@@ -3605,12 +3605,12 @@
         ]
       },
       "fullHash": "20297c",
-      "generation": "988f026bc6a1bd9acef7",
+      "generation": "c97d108ae0c906fbe4c6",
       "hash": "b9f011",
       "source": {
-        "duration": 30.902813,
+        "duration": 30.82449,
         "file": null,
-        "sha256": "c391261545a50af2505b082ec4cc092779e63d354a834177cc575e7915603e71"
+        "sha256": "9b4be49d139897042572e74156858a8249d0fbfcf187a19d5772154ec0ed4153"
       },
       "text": "Cragpool Lake. Cragpool Lake is a body of water tucked inside Windshear Crag in the Stonetalon Mountains. Looming above its dark waters sits a massive timber structure erected by the Venture Company. Nestled within Windshear Crag, Cragpool Lake lies directly beneath the towering logging apparatus built by the Venture Company. An enormous wooden structure spans above the water, serving as the vantage point from which Gerenzo Wrenchwhistle oversees operations across the mountain valley. Venture Company workers occupy the platforms overhead."
     },
@@ -3747,9 +3747,9 @@
     "subzone:darkshire": {
       "1": [
         {
-          "duration": 85.4465306122449,
-          "file": "Audio/Transport/full_subzone_darkshire-9367e104504b04afa856/1-0000.mp3",
-          "sha256": "c0aff4556a1c93cb7a24fcb0a21eefaee4c5cf05fa4c2899aba316b494d9c59f",
+          "duration": 85.18530612244898,
+          "file": "Audio/Transport/full_subzone_darkshire-5e30c6edd152d4cb8814/1-0000.mp3",
+          "sha256": "703fb4ddfb02f90fd99d586ac0bdc7782ac4d03a9e6e8ea5be84f9b354a52606",
           "start": 0
         }
       ],
@@ -3761,12 +3761,12 @@
         ]
       },
       "fullHash": "20fec9",
-      "generation": "4a6b5334a64aeaec1fc0",
+      "generation": "a8f572f15d4c73e19a0c",
       "hash": "0577e8",
       "source": {
-        "duration": 85.420375,
+        "duration": 85.159125,
         "file": null,
-        "sha256": "9367e104504b04afa85644258af8a467a8f668e68df9f99d8f164bfb29af6e91"
+        "sha256": "5e30c6edd152d4cb8814196c6805b403724fdfd1f631a9a98e506bf1b75fc95d"
       },
       "text": "Darkshire. Darkshire, formerly known as Grand Hamlet, is a battered settlement in eastern Duskwood. Cloaked in an enduring, unnatural gloom and neglected by Stormwind, the town survives only through the vigilance of the Night Watch and the stubborn endurance of its people. Once a peaceful woodland settlement called Grand Hamlet, the village was razed by the Old Horde during the First War and later rebuilt. Its fortune turned truly bitter following the fall of Medivh at Karazhan, whose lingering death throes cursed the surrounding woods into the shadowy wilderness of Duskwood. Despite being a nominal holding of the Kingdom of Stormwind, the town hall receives virtually no aid from the crown. Political paralysis in Stormwind City has left the garrison unstaffed and the borders unpatrolled, forcing Mayor Ello Ebonlocke and the local council to administer their own harsh, insular justice in the shadows. Surrounded by walking dead from the western graveyards and feral worgen hunting through the woods, Darkshire clings to life along its palisades. The town's primary shield is the Night Watch, a voluntary civilian militia commanded by Althea Ebonlocke. Operating out of the town square and patrolling the pitch-black thoroughfares, these weary sentries keep the town's roads open and turn back the terrors prowling the tree line. Travelers arriving at the Scarlet Raven Tavern find the locals suspicious, frightened, and desperate for any mercenary capable of holding a blade."
     },
@@ -3981,9 +3981,9 @@
     "subzone:demont-s-place": {
       "1": [
         {
-          "duration": 75.07591836734694,
-          "file": "Audio/Transport/full_subzone_demont-s-place-21fcf0fb92eaf34158c3/1-0000.mp3",
-          "sha256": "0ed624d221c1fd8d1f35170edfcc48bbc9d0f93a169a96166276be3d8d8ac306",
+          "duration": 72.48979591836735,
+          "file": "Audio/Transport/full_subzone_demont-s-place-a6b47e8a55d20f32a720/1-0000.mp3",
+          "sha256": "77b9553abc7d26c7f5e45c78fa03b336289885c2698d065c074cfbb7459d212f",
           "start": 0
         }
       ],
@@ -3995,12 +3995,12 @@
         ]
       },
       "fullHash": "3c403e",
-      "generation": "89e4f65ce2f97b0f4f79",
+      "generation": "3da7fd4f92b5be3e6199",
       "hash": "2cfc57",
       "source": {
-        "duration": 75.04975,
+        "duration": 72.463625,
         "file": null,
-        "sha256": "21fcf0fb92eaf34158c34c1d3ca188215342f68fbc56d89f720ea5d94514d05b"
+        "sha256": "a6b47e8a55d20f32a72000108d95245a4fc7b6487c632d760d29a63e5c612d44"
       },
       "text": "Demont's Place. Demont's Place is a ruined homestead nestled in southwestern Westfall, just west of the forsaken town of Moonbrook. Once a working agricultural plot, the farm was driven to ruin alongside the rest of the region and claimed by the rogue agents of the Defias Brotherhood. Today, its weathered fences and empty fields stand as another casualty of the realm's fading prosperity. Situated within sight of Moonbrook, Demont's Place was once among the private family holdings feeding the Kingdom of Stormwind. Economic collapse and the sudden rise of outlaw brigands stripped the farm of its livelihood, forcing out its original caretakers. Much like its neighboring fields, the plot has degenerated into a rough hideout, overrun by outlaws using its weathered grounds as an extension of the Defias stronghold in Moonbrook. Because of its close proximity to Moonbrook, Demont's Place serves the Defias Brotherhood as an operational outpost on the outskirts of their regional center. Thugs, cutpurses, and displaced laborers linger among the fences and shattered structures, ambushing travelers who wander off the southern roads. Until Moonbrook is reclaimed and the outlaws broken, the ground remains far too dangerous for peaceful farming to ever return."
     },
@@ -4241,9 +4241,9 @@
     "subzone:eastvale-logging-camp": {
       "1": [
         {
-          "duration": 82.41632653061225,
-          "file": "Audio/Transport/full_subzone_eastvale-logging-camp-73210b9fdd71afaec82c/1-0000.mp3",
-          "sha256": "4396e3a25f78d891f5a409f03e38c9157c58373db7c33ce13936c2faad775584",
+          "duration": 70.47836734693878,
+          "file": "Audio/Transport/full_subzone_eastvale-logging-camp-da1c368981477ee84ea5/1-0000.mp3",
+          "sha256": "41c6926ede4303fac94337844e5b553d77571f52102998659994b71e393650c0",
           "start": 0
         }
       ],
@@ -4255,12 +4255,12 @@
         ]
       },
       "fullHash": "4b4d64",
-      "generation": "f42fdc28952ee1d43761",
+      "generation": "ac1ccb79ff99bdbf9b97",
       "hash": "2af34c",
       "source": {
-        "duration": 82.390188,
+        "duration": 70.452188,
         "file": null,
-        "sha256": "73210b9fdd71afaec82ce47a6e3a14f1ed377561abb65506d39331efd94fb68d"
+        "sha256": "da1c368981477ee84ea5215163546f28cbf332afd81a5b83abb1142930a5c3ee"
       },
       "text": "Eastvale Logging Camp. Eastvale Logging Camp is a vital lumber settlement tucked into the eastern woodlands of Elwynn Forest, near the border with the Redridge Mountains. The camp supplies vital timber to Stormwind and surrounding settlements, but its operations are constantly hampered by hungry predators prowling the surrounding forests. Orders for timber constantly stream into Eastvale Logging Camp from buyers across the Kingdom of Stormwind, but meeting these strict deadlines is a harrowing task. The dense wilderness surrounding the camp swarms with vicious wolves and prowling bears that routinely chase lumberjacks away from their worksites, leaving valuable cut timber abandoned in the woods. Under the direction of Supervisor Raelen, the camp frequently relies on wandering adventurers to cull the encroaching beasts and retrieve fallen wood before deliveries fall fatally behind schedule. Despite its remote location, Eastvale is more than just a logging outpost. It features several residential dwellings and bustling horse stables where travelers can purchase fine mounts. On a nearby hill overlooking the worksite sits the quiet manor of retired Marshal Haggard, the former leader of the Stormwind Guard, who withdrew to this rustic outpost to live out his retirement away from capital politics."
     },
@@ -4371,9 +4371,9 @@
     "subzone:fargodeep-mine": {
       "1": [
         {
-          "duration": 62.693877551020414,
-          "file": "Audio/Transport/full_subzone_fargodeep-mine-3e4ad5d919f5b60c232a/1-0000.mp3",
-          "sha256": "d88eb56902fb076abacf265353995e25723f88c3a4bb112548ad7ff5b447fce1",
+          "duration": 64.80979591836734,
+          "file": "Audio/Transport/full_subzone_fargodeep-mine-60c4c924400a5f37cb4e/1-0000.mp3",
+          "sha256": "55584a895f3c44986c3aa17109d77518cf30b7d5fcc8eff8b978d568d8f5eacf",
           "start": 0
         }
       ],
@@ -4385,12 +4385,12 @@
         ]
       },
       "fullHash": "d1cd97",
-      "generation": "55abfd6e041168bab244",
+      "generation": "05d29b1062df7b90f82e",
       "hash": "c12ebb",
       "source": {
-        "duration": 62.66775,
+        "duration": 64.783625,
         "file": null,
-        "sha256": "3e4ad5d919f5b60c232a71c6def9d86875bd829827f6836978ea60c3a3a5e4e3"
+        "sha256": "60c4c924400a5f37cb4e038b6cbad980f7d329d88caed7052153ef4e5013794b"
       },
       "text": "Fargodeep Mine. Fargodeep Mine is an abandoned gold mine nestled in central Elwynn Forest, south of Goldshire. Once a productive source of wealth for the Kingdom of Stormwind, it has recently been overrun by a belligerent clan of kobolds. Fargodeep Mine once provided steady gold to Stormwind's treasury, but the Kingdom's dwindling military presence in Elwynn has left outlying resources vulnerable. Kobolds quickly swarmed into the dark tunnels, establishing a bustling warren beneath the hills. Marshal Dughan and the local authorities in Goldshire view the infestation with deep concern, not only because of lost ore, but because the emboldened creatures now threaten nearby farmsteads like the Stonefield and Maclure holdings. The mine spans multiple levels, with the lower shafts winding deep beneath the forest floor. Kobold laborers and vermin scurry along the wooden scaffolds, fiercely guarding their scavenged wax and gold dust. In a den above the main tunnels lurks Goldtooth, a particularly cunning kobold leader known for hoarding trinkets pilfered from unwary travelers and surrounding residents."
     },
@@ -4553,9 +4553,9 @@
     "subzone:forlorn-cavern": {
       "1": [
         {
-          "duration": 45.34857142857143,
-          "file": "Audio/Transport/full_subzone_forlorn-cavern-0b9b13d595f204116235/1-0000.mp3",
-          "sha256": "a76babc77140b8696f4a1ed29776e42c8370c142c0eb4ce31b7eb2fe74655488",
+          "duration": 49.52816326530613,
+          "file": "Audio/Transport/full_subzone_forlorn-cavern-4e15c2e50625ea0c6624/1-0000.mp3",
+          "sha256": "b0b134aef4b754e160c45c8b0cecca6c9ef396a41b1baabed9767aa6c1de8914",
           "start": 0
         }
       ],
@@ -4567,12 +4567,12 @@
         ]
       },
       "fullHash": "bec0b0",
-      "generation": "c2eb402659a2d638d464",
+      "generation": "cbd47cc7d20db64ef092",
       "hash": "4f1894",
       "source": {
-        "duration": 45.322438,
+        "duration": 49.528163,
         "file": null,
-        "sha256": "0b9b13d595f204116235e6ad848d950d07e5e5e0a56073165d4c3f3bfcd37988"
+        "sha256": "4e15c2e50625ea0c66245c260a7ac36571e8f8bf6b510ef10f2eced58cc52b3c"
       },
       "text": "Forlorn Cavern. Tucked along the northern shores of Ironforge's subterranean lake, the Forlorn Cavern is a dimly lit, secluded district far removed from the city's bustling Great Forge. It serves as a shadowy refuge where thieves, cutpurses, and practitioners of the dark arts conduct their business away from prying dwarven guards. While the rest of Ironforge clangs with anvil strikes and radiates heat from the Great Forge, the Forlorn Cavern is cold, damp, and hushed. Wrapping along the northern edge of the mountain's underground lake, the winding pathways sit comfortably out of sight between the Mystic Ward and the Hall of Explorers. Its gloom makes it an ideal gathering place for those who prefer to keep their affairs discreet. Rogues and warlocks train here alongside vendors serving them, while weapon merchants and fishermen also work beside the lake."
     },
@@ -5177,9 +5177,9 @@
     "subzone:hall-of-arms-northshire": {
       "1": [
         {
-          "duration": 46.88979591836735,
-          "file": "Audio/Transport/full_subzone_hall-of-arms-northshire-2fd328c48fadb9103fce/1-0000.mp3",
-          "sha256": "3899e28b22834f62cb264261d0a835a402eedbcdd93ad4db1a2d13d29a6f64b8",
+          "duration": 45.844897959183676,
+          "file": "Audio/Transport/full_subzone_hall-of-arms-northshire-b9cc022d243755b9670b/1-0000.mp3",
+          "sha256": "0f2782ffde63fd0283f728a482423b2de2cf554ce894c29a373d67311d1becbb",
           "start": 0
         }
       ],
@@ -5191,21 +5191,21 @@
         ]
       },
       "fullHash": "819ac8",
-      "generation": "606db018d80f51838990",
+      "generation": "4c523d8bbfdae9def44b",
       "hash": "88749d",
       "source": {
-        "duration": 46.863625,
+        "duration": 45.87102,
         "file": null,
-        "sha256": "2fd328c48fadb9103fce67bfb4773553ae018403e7c2fca68cae74fbbcee5e8c"
+        "sha256": "b9cc022d243755b9670b8cb30cb0eb4d63bd1bd679c5fabf7993b6f13fc2face"
       },
       "text": "Hall of Arms (Northshire). The Hall of Arms is the martial wing of Northshire Abbey, situated south of the Main Hall. Here, veteran instructors drill the newest recruits of the Stormwind Army in the arts of the sword, shield, and holy combat. While the clerics and scholars ponder ancient tomes across the courtyard in the Library Wing, the Hall of Arms rings with the clash of blunted steel and the heavy cadence of martial instruction. Positioned on the south side of Northshire Abbey, this chamber serves as the primary training station for raw human fighters and devout aspirants taking up arms for the Stormwind Army. Here, seasoned battle instructors and paladin mentors teach the basic postures, disciplines, and fundamentals required to defend Elwynn Forest against encroaching kobolds, Defias bandits, and gnoll raiders."
     },
     "subzone:hall-of-explorers": {
       "1": [
         {
-          "duration": 50.46857142857143,
-          "file": "Audio/Transport/full_subzone_hall-of-explorers-84fb392f49fcd963b481/1-0000.mp3",
-          "sha256": "b51d7dc10c8c93e0f5c3dff2d3dd058708492ba3f70a5d4ae1e3c0998e360378",
+          "duration": 49.18857142857143,
+          "file": "Audio/Transport/full_subzone_hall-of-explorers-dcd12398e6d43fd0cb13/1-0000.mp3",
+          "sha256": "529f3c2fb694114fd74be5d12cde3dce526dc0a93a75b239beb96237396fca03",
           "start": 0
         }
       ],
@@ -5217,21 +5217,21 @@
         ]
       },
       "fullHash": "2e11f8",
-      "generation": "a66a4096d2d8d55abb17",
+      "generation": "416ec7a09435f930737b",
       "hash": "9eecf1",
       "source": {
-        "duration": 50.468571,
+        "duration": 49.188571,
         "file": null,
-        "sha256": "84fb392f49fcd963b481adf4c663070a47d462087e3aff59216c4626c99d543b"
+        "sha256": "dcd12398e6d43fd0cb13fdbd1ed7dcecc408f5e2c5c566e99ff277dd9488c7b8"
       },
       "text": "Hall of Explorers. The Hall of Explorers is the sprawling archaeological wing of Ironforge and the bustling headquarters of the dwarven Explorers' League. Part museum, part archive, and part expedition command, it gathers relics, fossils, and ancient tomes from every corner of Azeroth to piece together the forgotten origins of the dwarven race. Occupying the northeastern cavern of Ironforge, the Hall of Explorers—sometimes referred to as the Assembly of Explorers—serves as the nerve center for all Alliance-sanctioned archaeological endeavors. Under the direction of High Explorer Muninn Magellas, scholars and field agents coordinate digs across distant lands, shipping back mysterious relics, ancient titan machinery, and prehistoric bones. The vast Library at its center functions as both a public museum and a restricted storehouse of historical lore."
     },
     "subzone:hall-of-gears": {
       "1": [
         {
-          "duration": 68.31020408163266,
-          "file": "Audio/Transport/full_subzone_hall-of-gears-3c8f87ebe3df28cbc356/1-0000.mp3",
-          "sha256": "e20aa5c5636663d914d9c25cb09f4d99ed79c7f03feef0611f23a5fe2bf72037",
+          "duration": 64.02612244897959,
+          "file": "Audio/Transport/full_subzone_hall-of-gears-8274a494ed828399bb72/1-0000.mp3",
+          "sha256": "7c98e7257c205b4747c533347612fb6d93e5e23972250a93518aa4bde3d5eb55",
           "start": 0
         }
       ],
@@ -5243,12 +5243,12 @@
         ]
       },
       "fullHash": "fe4319",
-      "generation": "56170d26b3a728e900f2",
+      "generation": "b896506b8ff1814523b3",
       "hash": "6b6d4f",
       "source": {
-        "duration": 68.284063,
+        "duration": 64.0,
         "file": null,
-        "sha256": "3c8f87ebe3df28cbc3564118ce030089ba6e8a491c59a2ded9938371cf220199"
+        "sha256": "8274a494ed828399bb7276cb4303c65ee203de0e3c6b3156bd832d69abb42e9a"
       },
       "text": "Hall of Gears. The Hall of Gears is a multi-tiered industrial chamber situated inside the fallen city of Gnomeregan, just past the Clockwerk Run. Once a bustling center of mechanical movement, it has fallen into ruin, flooded with toxic sludge, roaming oozes, and irradiated troggs. Positioned just beyond the Clockwerk Run, the Hall of Gears illustrates the catastrophic collapse of the gnome capital. Divided into two main levels, the chamber's upper catwalks are held by aggressive, irradiated troggs that claw through collapsed access shafts. Below, the floor sits drenched in pools of radioactive fallout, where corrosive slimes and living poison elementals thrive in the toxic runoff. The chamber serves as a critical junction deep within Gnomeregan's operational quarters. From its upper walkways, paths branch toward contaminated dead ends and the relative safety of the Clean Zone and the Dormitory. Descending into the radioactive depths below eventually leads travelers through winding maintenance passages toward the Launch Bay, though navigating either floor requires cutting through the lingering horrors of Mekgineer Thermaplugg's devastating venting scheme."
     },
@@ -5307,9 +5307,9 @@
     "subzone:heroes-vigil": {
       "1": [
         {
-          "duration": 76.7738775510204,
-          "file": "Audio/Transport/full_subzone_heroes-vigil-6be5a51b54dc1082cbac/1-0000.mp3",
-          "sha256": "ae7f17345df3d746deff3fd024dae1957cba27153ebb97c95dca4eea454dd6af",
+          "duration": 73.03836734693878,
+          "file": "Audio/Transport/full_subzone_heroes-vigil-5b9ff8a1d72547ec4c96/1-0000.mp3",
+          "sha256": "8be41b198cba520a1630270021ecf082b5ed49d8979a3982cb803187e850c83a",
           "start": 0
         }
       ],
@@ -5321,12 +5321,12 @@
         ]
       },
       "fullHash": "6ed023",
-      "generation": "73bfef27503936fe38fb",
+      "generation": "a3233b7be1db87840812",
       "hash": "e43720",
       "source": {
-        "duration": 76.74775,
+        "duration": 73.012188,
         "file": null,
-        "sha256": "6be5a51b54dc1082cbac8e225cae47377072826ff2738e684c4af6e5aa96f97c"
+        "sha256": "5b9ff8a1d72547ec4c96428db42e90991be9ced93383ceb2afec2a456d13438e"
       },
       "text": "Heroes' Vigil. Heroes' Vigil is a quiet, sacred clearing situated on the central island within Stone Cairn Lake in eastern Elwynn Forest. Centered around a monument known as the Stone of Remembrance, it was dedicated to honor those who fell during the First War. Today, however, the shrine sits largely neglected by Stormwind and is overrun by dangerous renegade wizards. Erected after the First War, Heroes' Vigil centers upon the Stone of Remembrance, an inscribed stone circle meant to honor the soldiers and citizens slaughtered during the Old Horde's sacking of Goldshire and the surrounding valleys. Though once revered as a sacred bastion of faith and sacrifice, the vigil has gradually slipped from the attention of Stormwind's current rulers, leaving its hallowed grounds overgrown and unattended by the realm's soldiers. Because the kingdom has left the island garrisoned by none, outcasts have seized the memorial. A cabal of rogue wizards now controls Stone Cairn Lake and the monument grounds, practicing wild and undisciplined magic away from the oversight of the Kirin Tor and the Academy of Arcane Sciences. The desecration is made all the more bitter by tragic casualties left near the stones, including the body of Henze Faulk, leaving travelers to wonder if the shrine will ever be restored to peace."
     },
@@ -5463,9 +5463,9 @@
     "subzone:iceflow-lake": {
       "1": [
         {
-          "duration": 51.48734693877551,
-          "file": "Audio/Transport/full_subzone_iceflow-lake-56d28b605b5f1ecb9039/1-0000.mp3",
-          "sha256": "779f0b81566e94ba1b135cfe964f72d31eeccb6f7a0508fca979ec19ae2fe32f",
+          "duration": 53.1330612244898,
+          "file": "Audio/Transport/full_subzone_iceflow-lake-5c39d5a0f6fc71ac6d78/1-0000.mp3",
+          "sha256": "228971de24a6eae1d8926c86db62736a16a7aeae3d5418699730dc5bd9d18a0c",
           "start": 0
         }
       ],
@@ -5477,12 +5477,12 @@
         ]
       },
       "fullHash": "65d9ec",
-      "generation": "f13da07b85c1395fc82a",
+      "generation": "4cbc59a8c04dd299dc48",
       "hash": "bdc55f",
       "source": {
-        "duration": 51.461188,
+        "duration": 53.133061,
         "file": null,
-        "sha256": "56d28b605b5f1ecb903943832097d5bddcbe7fe86b066194d20f464498dfe3bc"
+        "sha256": "5c39d5a0f6fc71ac6d78cad5fe71805657faa3c80c607db9bb16a0e0d6f3ec75"
       },
       "text": "Iceflow Lake. Iceflow Lake is a frigid, partially frozen body of water situated in western Dun Morogh, directly north of Brewnall Village. Despite the relentless frost, local dwarves maintain fishing holes through the sheet ice to secure fresh water and fish. The snow-covered islands in the center of the lake are prowled by aggressive winter wolves and their alpha, Timber. Spanning western Dun Morogh just outside Brewnall Village, Iceflow Lake battles the bitter Khaz Modan climate year-round. Thick ice sheets continually creep across the surface, forcing local residents like Paxton Ganter to regularly clear holes for ice fishing and drinking water. While the shore provides sustenance, the islands rising from the middle of the lake are far less welcoming. A fierce pack of wild wolves has made these icy mounds their territory, dominated by the notoriously savage gray worg known as Timber."
     },
@@ -5671,9 +5671,9 @@
     "subzone:jansen-stead": {
       "1": [
         {
-          "duration": 49.47591836734694,
-          "file": "Audio/Transport/full_subzone_jansen-stead-2fdf388786b9e5bf818b/1-0000.mp3",
-          "sha256": "d6ce394df0265777dc4df7cac70d3e4b3b81fc2124ccf3269c26939ad7da4f44",
+          "duration": 48.248163265306125,
+          "file": "Audio/Transport/full_subzone_jansen-stead-1a1a38b4cd442da65e05/1-0000.mp3",
+          "sha256": "455b71a6cc9a7266c7f48070f404e8ca33319cad916c167bcdb965fd7a8e1510",
           "start": 0
         }
       ],
@@ -5685,12 +5685,12 @@
         ]
       },
       "fullHash": "23fcdb",
-      "generation": "7d457bcbb74af61fdfbd",
+      "generation": "c922e00d4ee76145f206",
       "hash": "f20dd9",
       "source": {
-        "duration": 49.44975,
+        "duration": 48.248163,
         "file": null,
-        "sha256": "2fdf388786b9e5bf818ba2db4d13fa8156c10c28fe86345ce42430be2c21829f"
+        "sha256": "1a1a38b4cd442da65e05d564a12dfa126856e22cc931d46ce0c77b18f30279bc"
       },
       "text": "Jansen Stead. Jansen Stead is the northernmost farmstead in Westfall, situated just down the road from the bridge to Elwynn Forest. Like much of the surrounding breadbasket, the homestead has fallen out of peasant hands and is swarming with rogue mechanical Harvest Watchers and roving Defias bandits. Positioned right past the Elwynn border, the Jansen Stead represents the harsh reality greeting anyone traveling westward into Westfall. Once a flourishing family farm feeding the kingdom, its rightful occupants have been driven away by the rising tide of unrest. In their place, hostile Harvest Watchers—mechanical constructs associated with the Defias Brotherhood—patrol the blighted fields alongside brigands. Its proximity to the main road makes it a prominent early hazard for couriers and travelers moving between Goldshire and Sentinel Hill."
     },
@@ -5801,9 +5801,9 @@
     "subzone:lake-al-ameth": {
       "1": [
         {
-          "duration": 71.41877551020409,
-          "file": "Audio/Transport/full_subzone_lake-al-ameth-f4b0f7aa167a09cf65b8/1-0000.mp3",
-          "sha256": "87340ed2c057f799b8d1a32b1786b0d3bbfdb51853ddbf1b9c0f10495b44d1be",
+          "duration": 72.12408163265306,
+          "file": "Audio/Transport/full_subzone_lake-al-ameth-c7021e8465f1755b3448/1-0000.mp3",
+          "sha256": "0aa416c8b0634f1735e743d2aeb17cbcecd1d3da1f9d0341efc725d705ebf793",
           "start": 0
         }
       ],
@@ -5815,21 +5815,21 @@
         ]
       },
       "fullHash": "8d00f0",
-      "generation": "6d8c38e2c6d9325c7d0c",
+      "generation": "1dd7c0e4537e0d1bacf8",
       "hash": "222b41",
       "source": {
-        "duration": 71.392625,
+        "duration": 72.097938,
         "file": null,
-        "sha256": "f4b0f7aa167a09cf65b8c898169591f686e8b3a45758c6996f659c36f8c5c991"
+        "sha256": "c7021e8465f1755b344873c486c75277d790079a904cb1edc3e17a48338bd0e3"
       },
       "text": "Lake Al'Ameth. Lake Al'Ameth is one of the largest freshwater bodies nestled high in the boughs of Teldrassil, located just south of Dolanaar. Though once a tranquil haven featuring little more than a simple wooden jetty, its shores have grown perilous due to the violent agitation of the local plant life. Resting immediately south of the village of Dolanaar, Lake Al'Ameth serves as a vital natural basin in the heart of Teldrassil. Despite its serene waters and minimal settlement, peace here has evaporated. Swarms of agitated timberlings and timberling sprouts prowl the water's edge, driven mad by an unnatural sickness spreading through the world tree. Druids and researchers from Dolanaar frequently dispatch travelers to these shores to gather seeds and cull the aggressive creatures before the corruption spreads deeper into the surrounding forest. The hostility around Lake Al'Ameth is directly tied to the woodland spirits losing their balance. Oakenscowl, a once-noble timberling swollen with a gargantuan tumor, spreads the corruption from a cave along the lake's southern bank, while natural timberlings lash out at any who approach. For the Cenarion Circle, diagnosing and treating the rot around Lake Al'Ameth is an urgent test of whether Teldrassil's unblessed creation can truly be sustained."
     },
     "subzone:lake-everstill": {
       "1": [
         {
-          "duration": 71.49714285714286,
-          "file": "Audio/Transport/full_subzone_lake-everstill-26450308f29907e25d66/1-0000.mp3",
-          "sha256": "cc328b6839c4dc33c38434693ae75c15db95e37a2bf79c105af5a4ae3fc4bd1d",
+          "duration": 54.59591836734694,
+          "file": "Audio/Transport/full_subzone_lake-everstill-50931d5b01947560fe8f/1-0000.mp3",
+          "sha256": "c934d0d8ed7630d1eec5fd6460e67978beffec73ccf73cb85860036b57c40548",
           "start": 0
         }
       ],
@@ -5841,12 +5841,12 @@
         ]
       },
       "fullHash": "055777",
-      "generation": "28902373f1da60156ff2",
+      "generation": "7da3cbf9d24c6a08c086",
       "hash": "1ee5dc",
       "source": {
-        "duration": 71.471,
+        "duration": 54.56975,
         "file": null,
-        "sha256": "26450308f29907e25d66a7b9cb0496a53e9f43f5fb0bc4751d7f23d7398dbb0d"
+        "sha256": "50931d5b01947560fe8f802d62ac9570d078da45b5901694759ae6289da9a01e"
       },
       "text": "Lake Everstill. Lake Everstill is the expansive azure body of water dominating the heart of the Redridge Mountains, flanking the town of Lakeshire. Once celebrated for tranquil fishing and clean mountain runoff, its shores and waters have lately turned treacherous due to aggressive murloc tribes and predatory lake beasts. Spanning the central basin of Redridge, Lake Everstill provides the scenic backdrop and vital waterway for the township of Lakeshire. Its crystal-clear waters drain eastward toward the looming heights of Stonewatch. Spanned by the town's central bridge, the lake has long sustained local trade and quiet anglers, though anyone walking the shoreline today will find its peaceful reputation thoroughly shattered by encroaching wilderness threats. In recent times, hostile murlocs have established camps along the northern and eastern shallows, disrupting trade and harrying fishermen. Below the surface, aquatic hazards lurk as well, including dangerous threshers that patrol the deeper waters."
     },
@@ -6061,9 +6061,9 @@
     "subzone:long-wash": {
       "1": [
         {
-          "duration": 42.971428571428575,
-          "file": "Audio/Transport/full_subzone_long-wash-e994f6fbd22065add1d7/1-0000.mp3",
-          "sha256": "a8fe1230dfe1db021a7cb5cd8d45acb750c3ff0fdd442d2870632b832479b136",
+          "duration": 45.06122448979592,
+          "file": "Audio/Transport/full_subzone_long-wash-62f73e031ceeedd149c0/1-0000.mp3",
+          "sha256": "8537d0e1b3fe6bb3b94b064526852e8a42f2b67ba6cee68faa5e84ce188cd1fd",
           "start": 0
         }
       ],
@@ -6075,12 +6075,12 @@
         ]
       },
       "fullHash": "2a440f",
-      "generation": "4b79fb863a67e637284d",
+      "generation": "9498832918551a4c543a",
       "hash": "bfb993",
       "source": {
-        "duration": 42.971429,
+        "duration": 45.061224,
         "file": null,
-        "sha256": "e994f6fbd22065add1d7b3686899f57c50b67bf4681e80d9a328c941dabd497a"
+        "sha256": "62f73e031ceeedd149c01f60b74dd4477314d261cdaad72d79b233eef30868dd"
       },
       "text": "Long Wash. The Long Wash is a bleak, windswept stretch of beach in Darkshore running just south of Auberdine toward the ruins of Ameth'Aran. Gloomy and scattered with marine carcasses and flotsam, the shoreline has recently grown dangerous due to an increasing presence of hostile murlocs. Despite its name, the Long Wash is actually the shortest distinct stretch of coastline in Darkshore. It sits under the region's perpetual overcast skies, an expanse of damp sand littered with flotsam, beached driftwood, and the carcasses of sea creatures washed up by the Veiled Sea. While local crabs comb through the surf, travelers southward from Auberdine must tread cautiously: murloc tribes have established camps along the water's edge, aggressively attacking anyone encroaching on their scavenged territory."
     },
@@ -6347,9 +6347,9 @@
     "subzone:menethil-harbor": {
       "1": [
         {
-          "duration": 93.80571428571429,
-          "file": "Audio/Transport/full_subzone_menethil-harbor-42e6d78ec6003eb84d22/1-0000.mp3",
-          "sha256": "ba079ccaa77bc9355f6c593b510e450e33f4ad57d754cda423dbd87f49300c03",
+          "duration": 75.44163265306123,
+          "file": "Audio/Transport/full_subzone_menethil-harbor-5ccb04f82f8779e98d54/1-0000.mp3",
+          "sha256": "5ef82e6b22bee1ef675caaac78a13fd6b0b2d672557480efe6e59b5a246be95e",
           "start": 0
         }
       ],
@@ -6361,12 +6361,12 @@
         ]
       },
       "fullHash": "0d648c",
-      "generation": "6ffc4300a7190dc201a8",
+      "generation": "e732b22e8b46d933d759",
       "hash": "274589",
       "source": {
-        "duration": 93.779563,
+        "duration": 75.4155,
         "file": null,
-        "sha256": "42e6d78ec6003eb84d22bcaabe5cd8697e0a20b19bed5132464e8a36523eebf8"
+        "sha256": "5ccb04f82f8779e98d5479fb3d606e5a7a98b33d1d0056dc1f08bbcd5505c50f"
       },
       "text": "Menethil Harbor. Menethil Harbor is a heavily fortified dwarven port town perched on an island off the western shore of the Wetlands. Named after King Terenas Menethil II, it acts as the primary maritime lifeline connecting the Eastern Kingdoms to the distant shores of Kalimdor. Sheltered behind massive stone battlements and the sturdy towers of Menethil Keep, it is a bustling hub for merchants, off-duty soldiers, and salty adventurers. Named in tribute to King Terenas Menethil II of Lordaeron, Menethil Harbor stands as a premier Alliance haven on the Wetlands coast. Despite its remote marshland setting, it remains a heavily defended bastion, reinforced by massive walls, a single bridged causeway, and the four stone watchtowers of Menethil Keep. Today, the harbor is the grand crossroads of the Alliance. Ships steam continually across the ocean toward Theramore Isle in Dustwallow Marsh and, by way of Southshore, Auberdine in Darkshore, carrying trade, diplomats, and off-duty Kul Tiran marines blowing their wages at the Deepwater Tavern. Yet peace is fragile here: inland supply paths through Dun Algaz are regularly contested by the Dragonmaw clan, while hostile Dark Iron raiders pressure the northern marshes, leaving Captain Stoutfist and the harbor garrison on constant alert."
     },
@@ -6529,9 +6529,9 @@
     "subzone:misty-pine-refuge": {
       "1": [
         {
-          "duration": 29.15265306122449,
-          "file": "Audio/Transport/full_subzone_misty-pine-refuge-cce09a296482d1ebb4fc/1-0000.mp3",
-          "sha256": "a9ac070cbff5bc2c9594bd9d10a761154ad0fd7155cc9a95dc4396e0934f94b6",
+          "duration": 28.525714285714287,
+          "file": "Audio/Transport/full_subzone_misty-pine-refuge-c1182169c1bb0e7ae29e/1-0000.mp3",
+          "sha256": "441dd5c038cd8be7dcb6eec7a96d67a50e652be9c550360b69a0bab99bc554a8",
           "start": 0
         }
       ],
@@ -6543,21 +6543,21 @@
         ]
       },
       "fullHash": "74b635",
-      "generation": "de73740b986437584d96",
+      "generation": "fd41e1d7c8bd66cc0ede",
       "hash": "74b635",
       "source": {
-        "duration": 29.1265,
+        "duration": 28.499563,
         "file": null,
-        "sha256": "cce09a296482d1ebb4fcd2a060c4029c63026721d67e8c8e5c5854d0937e385c"
+        "sha256": "c1182169c1bb0e7ae29e2c20c4f6d57f49c6720b467efe82bd25b0f1625a01a2"
       },
       "text": "Misty Pine Refuge. Misty Pine Refuge is a small outpost building of the Argent Dawn tucked amidst the frigid snows of central Dun Morogh. Situated amid the windswept hills of Dun Morogh, Misty Pine Refuge is an unassuming outpost of the Argent Dawn in the dwarven realm. While the surrounding crags are patrolled by Ironforge mountaineers, the refuge is home to Father Gavin, the order's lone agent here, who offers a quiet hearth amid the bitter elements and the perils that threaten the mountain roads."
     },
     "subzone:mo-grosh-stronghold": {
       "1": [
         {
-          "duration": 38.68734693877551,
-          "file": "Audio/Transport/full_subzone_mo-grosh-stronghold-d70a69d34f5af7369969/1-0000.mp3",
-          "sha256": "aee34da1d33b73e6bdedbdea3dabdfc321897cad7fceb48cc243c0cbbec9fcbe",
+          "duration": 40.98612244897959,
+          "file": "Audio/Transport/full_subzone_mo-grosh-stronghold-aacfc03fe43336c65983/1-0000.mp3",
+          "sha256": "3ac1989d5788e909dbb82725433fb0942cdcd0bba8aee2d5966c7c64262f3398",
           "start": 0
         }
       ],
@@ -6569,12 +6569,12 @@
         ]
       },
       "fullHash": "10d5f8",
-      "generation": "b73e270626f876183206",
+      "generation": "fe6655c1e57380adc4e1",
       "hash": "48f704",
       "source": {
-        "duration": 38.661188,
+        "duration": 40.986122,
         "file": null,
-        "sha256": "d70a69d34f5af73699693a5b969da74ce6191a733d2db20688c0b576f3514ea7"
+        "sha256": "aacfc03fe43336c6598301d6cf2f647e36041bf8b00e93bb808dc8af192ac5e0"
       },
       "text": "Mo'grosh Stronghold. Mo'grosh Stronghold is a fortified den of ogres dug into the northeastern hills of Loch Modan. Nestled among ancient, weathered ruins, these brutal giants pose a constant threat to the dwarven settlements below. Tucked away in the crags of northeastern Loch Modan, Mo'grosh Stronghold serves as the primary base for the Mo'grosh clan of ogres in the region. The brute forces lurking within the caves and outer camps raid traveling dwarven supply caravans and present an enduring danger to the peace of Thelsamar. The rugged stonework scattered around the camp suggests the site once belonged to an older settlement, before the lumbering ogres claimed the territory and raised their distinctive mounds."
     },
@@ -6633,9 +6633,9 @@
     "subzone:moonbrook-schoolhouse": {
       "1": [
         {
-          "duration": 46.524081632653065,
-          "file": "Audio/Transport/full_subzone_moonbrook-schoolhouse-557396122eb4890ea199/1-0000.mp3",
-          "sha256": "3108740d4244f640c595920109710304f61dbdfd5e5a8d44e61f228aeff09026",
+          "duration": 47.38612244897959,
+          "file": "Audio/Transport/full_subzone_moonbrook-schoolhouse-100974f5804d3c1dc812/1-0000.mp3",
+          "sha256": "2c6fd20a7b306d5221c060e68ed33e642328e8e8a1e5c0665fe1bd023026df36",
           "start": 0
         }
       ],
@@ -6647,12 +6647,12 @@
         ]
       },
       "fullHash": "88aac5",
-      "generation": "1f77d7c76a68fa4745a9",
+      "generation": "68eb452fb0ecc4edf845",
       "hash": "824320",
       "source": {
-        "duration": 46.497938,
+        "duration": 47.386122,
         "file": null,
-        "sha256": "557396122eb4890ea199d2f1dadaa15aad9685bec92c754edbdfd7c05c48a859"
+        "sha256": "100974f5804d3c1dc81232386c891593dc5e4b84e139144c2fe88b9d3d85386f"
       },
       "text": "Moonbrook Schoolhouse. Standing in the northwestern corner of Moonbrook, the Schoolhouse is a prominent building resembling a town hall with a small graveyard behind it. Originally erected to educate local children under headmaster Stalvan Mistmantle, it now stands derelict amidst the Defias occupation of Westfall. Before Moonbrook fell to ruin and bandits, the community invested in the education of its youth by raising this grand schoolhouse. After Stalvan Mistmantle began tutoring local children, the mayor commissioned him to run a school. In those brighter days, the hall bustled with students rather than thieves, standing as proof of Moonbrook's former prosperity. Now, the schoolhouse lies abandoned to the elements and infested with outlaws, while the weathered headstones of its rear cemetery silently oversee Westfall's steady decay."
     },
@@ -6685,9 +6685,9 @@
     "subzone:moonspray": {
       "1": [
         {
-          "duration": 31.007346938775513,
-          "file": "Audio/Transport/full_subzone_moonspray-e7cfac33e2f00d3a3b39/1-0000.mp3",
-          "sha256": "f01d798a9a8989e652d2c8742d67d0ecb908eaa11097834484300e7f77582498",
+          "duration": 32.73142857142857,
+          "file": "Audio/Transport/full_subzone_moonspray-15c56d4af40f755c8ac1/1-0000.mp3",
+          "sha256": "488f5613f7239b3552e4a6ed601ad8aa72ce2fe9eaa2364ce4ffc4f5b29209ec",
           "start": 0
         }
       ],
@@ -6699,12 +6699,12 @@
         ]
       },
       "fullHash": "e91ac3",
-      "generation": "04d2c58529676e26f27b",
+      "generation": "04b62659380d0ff4f399",
       "hash": "0a9b3a",
       "source": {
-        "duration": 30.981188,
+        "duration": 32.731429,
         "file": null,
-        "sha256": "e7cfac33e2f00d3a3b3974a23942f4fee484bbfadd48a62b369c06a9f111eb24"
+        "sha256": "15c56d4af40f755c8ac1bc13cd0ba1702bc6fb980dc7c57fe4231e2fff202fbd"
       },
       "text": "Moonspray. The Moonspray is an Alliance transport vessel belonging to the Kaldorei Fleet. It provides essential maritime passage across the waters separating mainland Kalimdor from the great World Tree, Teldrassil. The Moonspray serves as an indispensable lifeline between the docks of Auberdine on Darkshore's coast and Rut'theran Village at the root of Teldrassil. Traversing the Veiled Sea, the transport carries adventurers, couriers, and vital provisions between the isolated night elf sanctuary in the crown of the World Tree and the ancient mainland of Kalimdor."
     },
@@ -6763,9 +6763,9 @@
     "subzone:mortwake-s-tower": {
       "1": [
         {
-          "duration": 39.053061224489795,
-          "file": "Audio/Transport/full_subzone_mortwake-s-tower-a3e620c26a6fa47daf71/1-0000.mp3",
-          "sha256": "97f3091b64a5dfaf40811c7a559eac6beff0a45d8350eed5ade1e8d5e9381f81",
+          "duration": 40.568163265306126,
+          "file": "Audio/Transport/full_subzone_mortwake-s-tower-1c0b09c783584e544153/1-0000.mp3",
+          "sha256": "1ebc822803843aecac11af8b770a6c0417ed182ce96ecef8a9317e62dab60ef5",
           "start": 0
         }
       ],
@@ -6777,12 +6777,12 @@
         ]
       },
       "fullHash": "929701",
-      "generation": "8f725eedb0f891f115fe",
+      "generation": "3da51443598a81756a63",
       "hash": "b098a9",
       "source": {
-        "duration": 39.026938,
+        "duration": 40.568163,
         "file": null,
-        "sha256": "a3e620c26a6fa47daf71230a801bfec0d1545f9d68cd38145a197b4a29b14c8c"
+        "sha256": "1c0b09c783584e5441533753adf6e3301e2b472994d1d9e655b163bd6ff94ec5"
       },
       "text": "Klaven's Tower. Klaven's Tower, also called the Defias Tower, is a fortified watchtower standing near the river in southeastern Westfall. Commanded by the rogue Klaven Mortwake, it serves as a critical waypoint for smuggling stolen goods across kingdom borders. Perched on the borderlands north of the Dagger Hills, Klaven's Tower is a vital hub for Defias Brotherhood operations in southern Westfall. Together with Jerod's Landing across the river in Elwynn Forest, the site acts as a receiving post and staging ground for contraband plundered from the Redridge Mountains. Its commanding vantage over the waterways allows the Brotherhood to slip supplies past Kingdom patrols, shielding their logistical network from the crown's eyes."
     },
@@ -6867,9 +6867,9 @@
     "subzone:nightsong-woods": {
       "1": [
         {
-          "duration": 62.798367346938775,
-          "file": "Audio/Transport/full_subzone_nightsong-woods-278dec3b840dd7e9a752/1-0000.mp3",
-          "sha256": "e2846bae733e09c2b2ecad0cb313cc99b97581824b1dcab22a07d523e06c7d5b",
+          "duration": 62.95510204081633,
+          "file": "Audio/Transport/full_subzone_nightsong-woods-54edf191f37214dc9ddf/1-0000.mp3",
+          "sha256": "827f190152d65e868f6a22b8b3d4f7b4bd78911cbbf5b29558c5fd9feef25389",
           "start": 0
         }
       ],
@@ -6881,12 +6881,12 @@
         ]
       },
       "fullHash": "1708a3",
-      "generation": "20f7d02220be9311555e",
+      "generation": "f9d0bc314b35da17e0b2",
       "hash": "a3ca6c",
       "source": {
-        "duration": 62.798367,
+        "duration": 62.955102,
         "file": null,
-        "sha256": "278dec3b840dd7e9a7528b8985549108df2f89a7d52334843b2ee0124b4068e2"
+        "sha256": "54edf191f37214dc9ddfe04b10f856f79d6a09d8cac33cd4a2d6e32dbb63dfa4"
       },
       "text": "Nightsong Woods. Nightsong Woods forms the embattled eastern expanse of Ashenvale, reaching from Raynewood Retreat toward the borders of Azshara. It serves as the primary battleground between the night elves defending their sacred forest and the Warsong clan harvesting lumber for the Horde. Across its shadowed glades, ancient groves clash with fortified encampments amidst persistent demonic corruption. Stretching eastward across Ashenvale to Azshara, Nightsong Woods is defined by escalating violence. The Falfarren River bisects the western reaches, creating a volatile boundary between Alliance settlements and Horde encroachments. Further east, the forest fractures into heavily disputed territories where Splintertree Post coordinates Horde campaigns against the Silverwing Sentinels. Orcish axes continuously clear southern groves to fuel the Horde's expansion, leaving clear-cut swaths that infuriate the Kaldorei. Adding to the peril, satyr strongholds like Satyrnaar and Xavian, alongside demonic remnants in Demon Fall Canyon and Felfire Hill, taint the eastern canopies."
     },
@@ -6945,9 +6945,9 @@
     "subzone:northshire-valley": {
       "1": [
         {
-          "duration": 89.20816326530613,
-          "file": "Audio/Transport/full_subzone_northshire-valley-3e42db6f1c81ef199b5f/1-0000.mp3",
-          "sha256": "500958dd3dbaa40532531ec9642a6ef4f6901488682df09ac89d2588f3abe565",
+          "duration": 94.19755102040817,
+          "file": "Audio/Transport/full_subzone_northshire-valley-69e807d5a9e533968f94/1-0000.mp3",
+          "sha256": "1347c240e9705a508d8b364530c1318fbfaa546ab0a2ca132c8379f2df2d4e2c",
           "start": 0
         }
       ],
@@ -6959,12 +6959,12 @@
         ]
       },
       "fullHash": "71acd9",
-      "generation": "c9fd2d1a1a826675f305",
+      "generation": "e6132320aa321d4b8d36",
       "hash": "9c92fc",
       "source": {
-        "duration": 89.182,
+        "duration": 94.171375,
         "file": null,
-        "sha256": "3e42db6f1c81ef199b5f15f597c7809e544eada61ac517f78be834d44a77c294"
+        "sha256": "69e807d5a9e533968f94f5f62600e232db0f5c6f213cf86d9a8f6faf629ab42e"
       },
       "text": "Northshire Valley. Tucked away in the northern mountains of Elwynn Forest, Northshire Valley serves as the peaceful cradle and training ground for the kingdom of Stormwind's newest defenders. Surrounded by natural barriers, it hosts the historic Northshire Abbey, fertile vineyards, and the rich Echo Ridge Mine. Despite its tranquil appearance, the valley faces mounting unrest from rogue bandits, infesting kobolds, and displaced predators. Northshire Valley is framed by nearly impassable mountain ridges, with its only road heading south through a fortified gatehouse toward Goldshire and the rest of Elwynn Forest. A clear river winds through its pastures before feeding south into Crystal Lake. At the valley's heart stands Northshire Abbey, an ancient sanctuary where the Holy Light is taught and where recruits are trained by the Knights of the Silver Hand and seasoned veterans. Beyond the abbey walls lie the bountiful Northshire Vineyards and Echo Ridge Mine, forming a self-sustaining pocket of Stormwind territory that feels far removed from the wider world's wars. Even this sheltered haven has felt the strain of Stormwind's overextended defenses. Marshal McBride and his detachment of the Stormwind Guard struggle to maintain order across the vale. Packs of wolves driven north from blighted Duskwood prowl the surrounding woods, while vermin-like kobolds have overrun the tunnels of Echo Ridge Mine. Worse still, masked thugs aligned with the Defias Brotherhood openly harass the vineyards and threaten the abbey's grounds, forcing local commanders to recruit every able-bodied civilian arriving at their gates."
     },
@@ -7127,9 +7127,9 @@
     "subzone:pig-and-whistle-tavern": {
       "1": [
         {
-          "duration": 41.2995918367347,
-          "file": "Audio/Transport/full_subzone_pig-and-whistle-tavern-30f58a071bca8cdd6fde/1-0000.mp3",
-          "sha256": "16bd53f7b04cab70db6e6b8f536dfadc6944909f85b7d3cbd6bb08858063395e",
+          "duration": 43.04979591836735,
+          "file": "Audio/Transport/full_subzone_pig-and-whistle-tavern-39cddf74225280c61feb/1-0000.mp3",
+          "sha256": "23d31b724a6f1792b2d12e1d6df9a12b2a7492865f8cb8b07125dcd70817314a",
           "start": 0
         }
       ],
@@ -7141,12 +7141,12 @@
         ]
       },
       "fullHash": "0dae36",
-      "generation": "272689b3c0c95b372341",
+      "generation": "a6e84f69a23a063e3260",
       "hash": "ad3b88",
       "source": {
-        "duration": 41.273438,
+        "duration": 43.049796,
         "file": null,
-        "sha256": "30f58a071bca8cdd6fded28a7d7d7ea192b23601ec0ca30deed8ba92b13d7d7b"
+        "sha256": "39cddf74225280c61feb14aeed2118abd8680ab4f1f47245d1d4eb9260e99709"
       },
       "text": "Pig and Whistle Tavern. The Pig and Whistle Tavern is a bustling tavern nestled within Stormwind City's rugged Old Town district. It serves as a favored gathering spot for Alliance travelers, local laborers, and weathered veterans recalling the kingdom's past conflicts. Situated amidst the gritty, winding alleys of Old Town, the Pig and Whistle Tavern offers warmth, ale, and lodging to those who walk the capital's rougher quarter. While the nobles of the city congregate in cathedral squares and marble plazas, this establishment caters to common citizens, working folk, and travelers fresh from the road. Inside, patrons can find merchants like the renowned recipe vendor Kendor Kabonka, alongside grizzled veterans who nurse their tankards while trading memories of the First and Second Wars."
     },
@@ -7205,9 +7205,9 @@
     "subzone:raven-hill": {
       "1": [
         {
-          "duration": 74.00489795918368,
-          "file": "Audio/Transport/full_subzone_raven-hill-05615d78ffb5004d1ead/1-0000.mp3",
-          "sha256": "9d38eb43dedd07ba6064710b2057553c9fb7ad22c53de6c19a439060b5a7a609",
+          "duration": 72.59428571428572,
+          "file": "Audio/Transport/full_subzone_raven-hill-fcaceb02b57ede658599/1-0000.mp3",
+          "sha256": "16e80969e7fe93c096576f8004d2cd288eab75b31d7be413baefc6b9101be212",
           "start": 0
         }
       ],
@@ -7219,12 +7219,12 @@
         ]
       },
       "fullHash": "474511",
-      "generation": "4836242daa0b6003905c",
+      "generation": "fa0bc16c6fde9bf1c36b",
       "hash": "74bb7f",
       "source": {
-        "duration": 73.97875,
+        "duration": 72.568125,
         "file": null,
-        "sha256": "05615d78ffb5004d1eade4aa981c5c2d8e43a1c614add4fd539dc2251c828c03"
+        "sha256": "fcaceb02b57ede65859906725946b996a678d73f3360cf38ce1bd85eeb63374f"
       },
       "text": "Raven Hill. Raven Hill is a desolate, ruined village in western Duskwood sitting in the long shadow of the vast Raven Hill Cemetery. Once a lively human settlement, it lies abandoned by all but a handful of frightened squatters and invisible spirits. Situated along the western thoroughfare of Duskwood just north of Addle's Stead, Raven Hill is a tragic shell of its former self. When dark magic and undead horrors swept through the Grand Hamlet region, the living evacuated eastward toward Darkshire or fled the territory entirely. Today, ruined timber homes rot beneath perpetual gloom, avoided by travelers who fear both the restless dead wandering down from the neighboring cemetery and the invisible Unseen lurking between the crumbling walls. Despite its bleak reputation, Raven Hill is not entirely uninhabited. A nervous wreck of an adventurer named Jitters hides among the abandoned structures, terrified of the horrors that stalk the woods. Higher up in one of the dilapidated attics, an entrepreneurial goblin named Bliztik ekes out a solitary living selling supplies to wary passersby. They share the ruins with invisible spirits known as the Unseen, living on borrowed time at the edge of the sprawling burial grounds."
     },
@@ -7257,9 +7257,9 @@
     "subzone:ravenholdt-manor": {
       "1": [
         {
-          "duration": 95.94775510204082,
-          "file": "Audio/Transport/full_subzone_ravenholdt-manor-16da4eaed98badfab856/1-0000.mp3",
-          "sha256": "df1eb876227674c7aa307186833008e0d306ceb2e721718c1f8591632dfaef25",
+          "duration": 83.85306122448979,
+          "file": "Audio/Transport/full_subzone_ravenholdt-manor-01e319c94b50bc0e5a25/1-0000.mp3",
+          "sha256": "70ef0fdfd494d9e6ae1b1633eabbf54ccfc3da99659db6392b6c4e5149a0f769",
           "start": 0
         }
       ],
@@ -7271,12 +7271,12 @@
         ]
       },
       "fullHash": "7a0788",
-      "generation": "d3eb4686b74c692726cf",
+      "generation": "61be9580ee8ea4829d8c",
       "hash": "f5c7d7",
       "source": {
-        "duration": 95.921625,
+        "duration": 83.826938,
         "file": null,
-        "sha256": "16da4eaed98badfab8568b5016e846b078c99bbddd8b68e847da9041d457acde"
+        "sha256": "01e319c94b50bc0e5a25a5bc6bb0f70dc4eaadd47177d0e74d4317b326886dd6"
       },
       "text": "Ravenholdt Manor. Tucked away high in the mountains above Hillsbrad Foothills, Ravenholdt Manor serves as the secluded headquarters for the guild of thieves and assassins known as Ravenholdt. Overseen by Lord Jorach Ravenholdt, the estate provides a discreet haven where practitioners of stealth hone their craft far from the eyes of authorities. Hidden behind a narrow mountain pass and a winding cave northwest of Durnholde Keep, Ravenholdt Manor sits isolated on the borderlands of the Alterac Mountains. The property belongs to Lord Jorach Ravenholdt, a nobleman who maintains a disciplined enclave of rogues, assassins, and intelligence operatives. The grounds feature a tranquil garden and an outdoor training arena overseen by martial experts like Master Kang, providing a disciplined space to practice lockpicking, poison-crafting, and close-quarters combat. While the manor welcomes those with a talent for skullduggery, clumsy outsiders and unwanted visitors are treated with cold suspicion by the manor's watchful sentries. Prior to the First War, the land surrounding the manor was part of the kingdom of Alterac, reflected in the weathered orange tiles of the manor's roof. In the turbulent wake of Alterac's ruin, the fallen nobles of the Syndicate sought to control the region, placing them in direct conflict with Ravenholdt. For Jorach's followers, every skirmish fought across Hillsbrad and Alterac is part of a silent war to maintain their sovereign haven."
     },
@@ -7439,9 +7439,9 @@
     "subzone:ridgepoint-tower": {
       "1": [
         {
-          "duration": 70.89632653061224,
-          "file": "Audio/Transport/full_subzone_ridgepoint-tower-2be39bb59b4772af27d9/1-0000.mp3",
-          "sha256": "9c6be8d1b819569b8ed03cbc016ab921194fe9c86de4d756e0ca354024a928e9",
+          "duration": 67.68326530612245,
+          "file": "Audio/Transport/full_subzone_ridgepoint-tower-3c3dc889b0f461b40ef9/1-0000.mp3",
+          "sha256": "e692dc6b01c3fa86eb16f9bf4c36e52da8b74cdc8134bf9d5339a2ef0a2cca75",
           "start": 0
         }
       ],
@@ -7453,12 +7453,12 @@
         ]
       },
       "fullHash": "6641f4",
-      "generation": "3ebe16e4a1fb64f224cb",
+      "generation": "1a6a6319c522f327e0bc",
       "hash": "1922ec",
       "source": {
-        "duration": 70.870188,
+        "duration": 67.657125,
         "file": null,
-        "sha256": "2be39bb59b4772af27d9d245243b7a9bf2612f0cc909df94bcfb1d01e64f7c25"
+        "sha256": "3c3dc889b0f461b40ef995fbda8d695dd7c5a6cd67cdac735376e208b3e1401e"
       },
       "text": "Ridgepoint Tower. Ridgepoint Tower is a fortified guard post watching the eastern frontier of Elwynn Forest. Manned by the Stormwind Guard, it serves as an early warning bulwark against hostile incursions threatening the heart of the kingdom. Its guards keep vigil over the perilous corridors leading to neighboring wilderness. Standing sentinel on the high ground of eastern Elwynn Forest, Ridgepoint Tower marks the final bastion of direct Stormwind authority before the untamed wilds take over. The garrison stationed here keeps a constant watch over the surrounding valleys and roads. With tensions mounting across the continent, this stone watchtower ensures that encroaching threats are spotted and checked before they can endanger the farms and settlements closer to Northshire and Goldshire. Ridgepoint Tower faces pressure from multiple frontiers at once. To the east lie the Redridge Mountains, home to aggressive gnoll packs and blackrock orc raiders who test human defenses. Across the southern river looms the shadowy timberline of Duskwood, with its prowling undead horrors. Closer to home, rogue Defias Brotherhood bandits prowl the wilderness camps, eager to exploit any gap in the guard's defensive line."
     },
@@ -7543,9 +7543,9 @@
     "subzone:royal-library": {
       "1": [
         {
-          "duration": 63.81714285714286,
-          "file": "Audio/Transport/full_subzone_royal-library-38daece446130cf3f871/1-0000.mp3",
-          "sha256": "73938f9d301cc8e709ed93399bc09484e1f77fedeba9c9e0c6c0c5fb41f2ba48",
+          "duration": 48.561632653061224,
+          "file": "Audio/Transport/full_subzone_royal-library-0a2c14d57a05a09c4935/1-0000.mp3",
+          "sha256": "59e9f7388b2e5f9b7d258e0ca5367f1569c689687b847884800690ee86255645",
           "start": 0
         }
       ],
@@ -7557,12 +7557,12 @@
         ]
       },
       "fullHash": "b0a695",
-      "generation": "97c0c586cc553ef9bdae",
+      "generation": "103a79da2cdfdbb58da4",
       "hash": "b0a695",
       "source": {
-        "duration": 63.791,
+        "duration": 48.5355,
         "file": null,
-        "sha256": "38daece446130cf3f8712182333888fe236ed2c306e1fe6dd82d9183b517e5e8"
+        "sha256": "0a2c14d57a05a09c4935f066ac70f38e13dad097c5f8bc8846df461381a6cbf0"
       },
       "text": "Royal Library. Tucked deep within the stone wing of Stormwind Keep, the Royal Library preserves the collective memory, chronicle scrolls, and treatises of the kingdom. Under the watchful eye of Head Librarian Milton Sheaf, its shelves hold crucial records of ancient wars, lost legends, and the realms beyond the sea. While Stormwind Keep bristles with armored guards and courtly intrigue, its Royal Library offers an island of scholarly quiet. Overseen by Milton Sheaf, the hall serves as the premier archive of southern human history, preserving surviving texts from before the First War alongside recent military chronicles and recovered tomes. Alliance scholars, priests, and travelers are free to browse its open treatises, which cover everything from the formation of the original Alliance of Lordaeron to the recent emergence of Thrall's Horde in Kalimdor."
     },
@@ -7699,9 +7699,9 @@
     "subzone:satyrnaar": {
       "1": [
         {
-          "duration": 55.53632653061225,
-          "file": "Audio/Transport/full_subzone_satyrnaar-4ed491d7ef72530abba9/1-0000.mp3",
-          "sha256": "084ab370d92d43a784369c4b3d054a4a943cb5792610b91ce7ec8cc715d7471b",
+          "duration": 55.82367346938776,
+          "file": "Audio/Transport/full_subzone_satyrnaar-39e172c438adac52b22f/1-0000.mp3",
+          "sha256": "98d4db1996861af6be8b2665f539b096ac06b9f1014b9358046c72757976fd88",
           "start": 0
         }
       ],
@@ -7713,12 +7713,12 @@
         ]
       },
       "fullHash": "8d3cdf",
-      "generation": "1786744fe7ae58a6c7e5",
+      "generation": "5e87a55ffe73a3915306",
       "hash": "8d3cdf",
       "source": {
-        "duration": 55.510188,
+        "duration": 55.7975,
         "file": null,
-        "sha256": "4ed491d7ef72530abba9dd3c04304f6860101c4b042a8b9a97c487976e163a42"
+        "sha256": "39e172c438adac52b22fd164858d5daff55c6843e3255571aa9f325353965851"
       },
       "text": "Satyrnaar. Satyrnaar is an ancient, ruined night elf settlement in northeastern Ashenvale that has fallen entirely into the hands of the Bleakheart satyrs. Perched just off the main road between Splintertree Post and Azshara, it is the most intact and easily accessible of the satyr strongholds in the forest. Located northeast of Splintertree Post and southwest of Forest Song, Satyrnaar stands as one of Ashenvale's three primary satyr settlements alongside Xavian and Night Run. Unlike the deeper wilderness ruins, Satyrnaar is relatively well-preserved, featuring pitched tents nestled among crumbled elven architecture. It serves as a bustling camp for the Bleakheart satyrs, making the nearby trade route fraught with peril for travelers moving east toward Azshara. Furthermore, dark ties fester here: the satyrs have forged an alliance with the shadowy Cult of the Dark Strand, harboring one of their insidious soulgems amidst the corrupted stones."
     },
@@ -7907,9 +7907,9 @@
     "subzone:si-7-stormwind-city": {
       "1": [
         {
-          "duration": 55.04,
-          "file": "Audio/Transport/full_subzone_si-7-stormwind-city-61db9007257876639d01/1-0000.mp3",
-          "sha256": "be684d38a57449390ef5924c5077897e51dd3ee301f39677f486e5ec298058e8",
+          "duration": 56.163265306122454,
+          "file": "Audio/Transport/full_subzone_si-7-stormwind-city-16116313f2de3d51e351/1-0000.mp3",
+          "sha256": "f45b937ab5e48130d97e72a25b2576033eeba0e1869bc4e11d27a92e3bc11235",
           "start": 0
         }
       ],
@@ -7921,12 +7921,12 @@
         ]
       },
       "fullHash": "0de936",
-      "generation": "0e8a7da4ed10384c4ae4",
+      "generation": "1a6843c7281af4e70215",
       "hash": "6cccdd",
       "source": {
-        "duration": 55.066122,
+        "duration": 56.189388,
         "file": null,
-        "sha256": "61db9007257876639d01fea0b1c3efa0e3723683b8f137e63b22bba51a9064b4"
+        "sha256": "16116313f2de3d51e351c7f5c55305f8da32acfec61c7a9ab185e08d51212ac9"
       },
       "text": "SI:7 (Stormwind City). Tucked away in the eastern corner of Old Town, this unassuming stone manor houses the headquarters of SI:7, the kingdom of Stormwind's elite intelligence and espionage service. Behind its heavy doors, spymaster Master Mathias Shaw and his senior operatives quietly monitor threats to the realm, coordinating undercover agents across the kingdom. To the casual passerby in Old Town, this fortified stone structure looks little different from a standard manor or military barracks. In truth, it serves as the nerve center for Stormwind Intelligence, Section 7. Directed by Master Mathias Shaw, SI:7 gathers intelligence, conducts surveillance, and executes covert operations to protect the kingdom from subversion. While the city guard patrols the open cobblestones and the Royal Guard defends Stormwind Keep, SI:7 works in the margins, training handlers and dispatching stealthy operatives against foreign enemies, saboteurs, and domestic unrest alike."
     },
@@ -8063,9 +8063,9 @@
     "subzone:slaughtered-lamb": {
       "1": [
         {
-          "duration": 41.50857142857143,
-          "file": "Audio/Transport/full_subzone_slaughtered-lamb-9cd727d11f75b9911bc4/1-0000.mp3",
-          "sha256": "d9ac79a3cf52624f255edde57ed658537b6844cc2f7847d2b00f8be7056a774a",
+          "duration": 42.18775510204082,
+          "file": "Audio/Transport/full_subzone_slaughtered-lamb-3d4a2cbb7a32d463e3fe/1-0000.mp3",
+          "sha256": "072bd0778874a4fa7b4c2c03c39109dcc054d634706e47b9845f7936c414f2f1",
           "start": 0
         }
       ],
@@ -8077,12 +8077,12 @@
         ]
       },
       "fullHash": "8cdd38",
-      "generation": "a7edd27d89550995d331",
+      "generation": "0ddfa8700324252cfc34",
       "hash": "8cdd38",
       "source": {
-        "duration": 41.482438,
+        "duration": 42.161625,
         "file": null,
-        "sha256": "9cd727d11f75b9911bc4f9c3c54a965ca94a7177999b2f09201d6da4bbee0ad7"
+        "sha256": "3d4a2cbb7a32d463e3fef79f15b3a2ab73e7f82479c554ee4f12669729834350"
       },
       "text": "Slaughtered Lamb. Tucked away in Stormwind's Mage Quarter, the Slaughtered Lamb appears to be nothing more than a quiet, seedy tavern. Beneath its floorboards, however, sprawling catacombs hide the sanctum and training grounds of the Alliance's illicit warlocks. On the surface, the Slaughtered Lamb offers little more than dark corners and sparse patronage, attended by barkeep Jarel Moor, who warns casual visitors to stay away from the shadows. That warning is literal. Descending through the back passages reveals a subterranean complex of crypts and summoning circles, where human warlocks and transfer practitioners from Khaz Modan openly study fel arcana sheltered from the disapproving eyes of the Church of the Holy Light and the Kirin Tor."
     },
@@ -8141,9 +8141,9 @@
     "subzone:southshore": {
       "1": [
         {
-          "duration": 77.27020408163266,
-          "file": "Audio/Transport/full_subzone_southshore-ece8d1155d705eaeb4c0/1-0000.mp3",
-          "sha256": "b26d91e6c5421baef6a6c7d0aaee57bfbf521b8faad4e5ee9824e52cc0685667",
+          "duration": 80.50938775510204,
+          "file": "Audio/Transport/full_subzone_southshore-26f8379ce89048c89b3b/1-0000.mp3",
+          "sha256": "2967ab6f05ba056576462779f5c2ad8edb2340aac33c2639fe29d1d88c00d84d",
           "start": 0
         }
       ],
@@ -8155,12 +8155,12 @@
         ]
       },
       "fullHash": "9d725f",
-      "generation": "180bd7060773614c5689",
+      "generation": "f589eba3b0c7fe6de581",
       "hash": "a59a4b",
       "source": {
-        "duration": 77.244063,
+        "duration": 80.48325,
         "file": null,
-        "sha256": "ece8d1155d705eaeb4c062bf4f1b15724c6bf7e9fa57c8b77648459c319e4db8"
+        "sha256": "26f8379ce89048c89b3ba52b5d7ee8f2eee985ea76abee2fd177e0ce02970d75"
       },
       "text": "Southshore. Southshore is a coastal human port in the Hillsbrad Foothills and one of the Alliance's few surviving strongholds in fallen Lordaeron. Once a sleepy fishing village, it now stands as an embattled bastion facing constant hostility from the Forsaken garrison at Tarren Mill, rogue Syndicate bandits, and shoreline monsters. Southshore first rose to prominence during the First War when refugee boats carrying survivors from the fallen kingdom of Stormwind landed upon its beaches. Though contested and overrun during the Second War, it was rebuilt and later endured the horrors of the Third War. Today, while the rest of Lordaeron lies in ruins or under the rule of the Forsaken, Southshore remains fiercely loyal to the Grand Alliance. It offers shelter to displaced human survivors, veteran paladins of the Silver Hand, and scholars of the Kirin Tor. Despite its scenic docks, where the ship between Menethil Harbor and Auberdine calls, and its famous turtle bisque, life in Southshore is perilous. Led by Magistrate Henry Maleb and Marshal Redpath, the town struggles against relentless pressure. To the north, the Forsaken of Tarren Mill wage a bitter border conflict for dominance over Hillsbrad. Inland, the aristocratic outlaws of the Syndicate raid supply lines and assassinate local leaders, while ogres, murlocs, and naga constantly harass the town's borders."
     },
@@ -8297,9 +8297,9 @@
     "subzone:stendel-s-pond": {
       "1": [
         {
-          "duration": 37.25061224489796,
-          "file": "Audio/Transport/full_subzone_stendel-s-pond-eaf59eeee1882a289d15/1-0000.mp3",
-          "sha256": "84763cefdf596d219124349ca6e476215e8723aaa760da277b58f8cda3de619a",
+          "duration": 37.53795918367347,
+          "file": "Audio/Transport/full_subzone_stendel-s-pond-c19087d888a84a729188/1-0000.mp3",
+          "sha256": "c0cc40f1d370c38dd3b378f8b49add5228461ffd406e815458e9a7ae5b182f9e",
           "start": 0
         }
       ],
@@ -8311,12 +8311,12 @@
         ]
       },
       "fullHash": "95a4e1",
-      "generation": "8d19f0c7e1103cf4cda2",
+      "generation": "3d44362c66b2c351a489",
       "hash": "5fe9c2",
       "source": {
-        "duration": 37.224438,
+        "duration": 37.537959,
         "file": null,
-        "sha256": "eaf59eeee1882a289d15e3a8b96007a15fdb2f8d3e9bab684ab5c68d1b09a75f"
+        "sha256": "c19087d888a84a729188cf13626f8291550d1a9e3756ab74e2c16dd574bed781"
       },
       "text": "Stendel's Pond. Stendel's Pond is a small, possibly tainted body of water located southwest of Sentinel Hill in Westfall. Surrounded by prowling gnolls and marked by nearby graves, it remains one of the few fresh fishing spots in the parched countryside despite its sinister hazards. Tucked away southwest of Sentinel Hill, Stendel's Pond offers a quiet break from Westfall's dusty plains, though danger is never far. Gnolls roam the muddy banks, while scattered skeletons and a pair of lone graves suggest that either the waters or the beasts around it are fatal to careless travelers. Anglers still risk the trek for schools of sagefish."
     },
@@ -8401,9 +8401,9 @@
     "subzone:stonesplinter-valley": {
       "1": [
         {
-          "duration": 48.64,
-          "file": "Audio/Transport/full_subzone_stonesplinter-valley-d4c143e6751c010ce911/1-0000.mp3",
-          "sha256": "dff4f008a5752e0351e53a5b7664a97b2ba3c195cace6cb41751139f59c92fc8",
+          "duration": 50.25959183673469,
+          "file": "Audio/Transport/full_subzone_stonesplinter-valley-fe20c188ad0bf10a870e/1-0000.mp3",
+          "sha256": "d591082d0f0cfb38f7c23da9d8b9740a80c876b8f3538fcdee50918dfa133b2c",
           "start": 0
         }
       ],
@@ -8415,12 +8415,12 @@
         ]
       },
       "fullHash": "580255",
-      "generation": "2bf29ded97d7f15e3e2e",
+      "generation": "0ad3c116fb601f5ea255",
       "hash": "ff19b6",
       "source": {
-        "duration": 48.613875,
+        "duration": 50.259592,
         "file": null,
-        "sha256": "d4c143e6751c010ce9119531816ac021ddb2fd0b2034705e55ace6f9f0eda729"
+        "sha256": "fe20c188ad0bf10a870e4c586032f6cac6ae616d9b37f012defa6d3ba5e85d92"
       },
       "text": "Stonesplinter Valley. Stonesplinter Valley is a rugged mountain vale in southwestern Loch Modan overrun by hostile troggs. Once a pristine alpine hollow, it has transformed into a fortified encampment under the brute command of the trogg chieftain Grawmug. Tucked away among the craggy slopes of southwestern Loch Modan, Stonesplinter Valley was once a quiet alpine hollow. That serenity ended when waves of subterranean troggs clawed their way to the surface across Khaz Modan. Claiming the valley for their own, the Stonesplinter tribe rapidly turned the rocky defiles into crude fortifications, digging dens, erecting barricades, and hunting anything that strays too close. Their numbers make the valley an open wound on roads through southern Loch Modan, forcing Mountaineers out of Thelsamar to hire adventurous mercenaries willing to cull their ranks and eliminate their towering warlord, Grawmug."
     },
@@ -8531,9 +8531,9 @@
     "subzone:stonewatch-tower": {
       "1": [
         {
-          "duration": 49.86775510204082,
-          "file": "Audio/Transport/full_subzone_stonewatch-tower-51958346ae70279b856f/1-0000.mp3",
-          "sha256": "3c0a768708f2d1afe12fc1a1c7b08dd6f3f86ddf84108985db2d19f14edefd2f",
+          "duration": 50.076734693877555,
+          "file": "Audio/Transport/full_subzone_stonewatch-tower-8e56751f3944e9bfcae5/1-0000.mp3",
+          "sha256": "a5372a3b37f27e5d5fb7dbca5f0afe5b1f70d585320d927f6dd27e8d667cc310",
           "start": 0
         }
       ],
@@ -8545,12 +8545,12 @@
         ]
       },
       "fullHash": "19f00c",
-      "generation": "82d0c980e7300e7ed41e",
+      "generation": "f26c87647f07198033ed",
       "hash": "1e506c",
       "source": {
-        "duration": 49.841625,
+        "duration": 50.050563,
         "file": null,
-        "sha256": "51958346ae70279b856f60403f5385e9a1549faf76470981c892b788642b8e3f"
+        "sha256": "8e56751f3944e9bfcae52727b1abcf6c06428f2942f7fd31aaa22e08f732b6ea"
       },
       "text": "Stonewatch Tower. Stonewatch Tower is a stone guard tower standing within the overrun stronghold of Stonewatch in northeastern Redridge. Once maintained by the defenders of Lakeshire, the outpost was captured by the Blackrock clan to monitor the surrounding ridges and secure their mountain bastion. Built by the Kingdom of Stormwind to guard the high mountain passes above Lake Everstill, Stonewatch Tower served as the forward scouting sibling to Stonewatch Keep. From its elevated vantage point, sentries could easily watch the eastern ridges and alert Lakeshire to any threats advancing from the Burning Steppes. That early warning network collapsed when Warlord Gath'Ilzogg's Blackrock orcs swept down from the heights, overrunning the human defenders and claiming the stronghold for their own war effort. Today, the tower bristles with Blackrock sentinels, ensuring no Alliance scouts approach the fortress undetected."
     },
@@ -8687,9 +8687,9 @@
     "subzone:stoutlager-inn": {
       "1": [
         {
-          "duration": 43.57224489795919,
-          "file": "Audio/Transport/full_subzone_stoutlager-inn-c4c9d962774072357905/1-0000.mp3",
-          "sha256": "f0020266f29ee115435d67f264219036354e28b79cab14745c729152b132b8fa",
+          "duration": 44.09469387755102,
+          "file": "Audio/Transport/full_subzone_stoutlager-inn-09cc4eeabe31cb82ab92/1-0000.mp3",
+          "sha256": "a379f44486a62c25e5b6d4bc7638757b917a36e73f8b6bb1f7d6458e2be4c882",
           "start": 0
         }
       ],
@@ -8701,12 +8701,12 @@
         ]
       },
       "fullHash": "4d4b89",
-      "generation": "adad5a8b3e5c3c14bfc1",
+      "generation": "74751b5d7c161237b5ba",
       "hash": "95efa6",
       "source": {
-        "duration": 43.546063,
+        "duration": 44.094694,
         "file": null,
-        "sha256": "c4c9d96277407235790589236a49311d33a08c1f07da86007dcaff761a250b28"
+        "sha256": "09cc4eeabe31cb82ab921b23d706be3ab07e42ba741d563b741386fba442f942"
       },
       "text": "Stoutlager Inn. The Stoutlager Inn is the lively heart of Thelsamar and a primary haven for travelers in Loch Modan. Tucked beneath the rolling hills of the loch, it offers warm hearths, strong dwarven ale, and a bustling gathering place for adventurers and locals alike. Situated squarely in the settlement of Thelsamar, the Stoutlager Inn serves as the center of community life for western Loch Modan. Miners, mountaineers, and wayfarers passing between Dun Morogh and the Wetlands stop here to trade rumors, secure lodging, and share hearty drafts of dwarven brew. While the wilderness beyond Thelsamar grows increasingly hostile with trogg and kobold activity, the thick stone walls and roaring fires of the Stoutlager provide a dependable sanctuary."
     },
@@ -9467,9 +9467,9 @@
     "subzone:valley-of-kings": {
       "1": [
         {
-          "duration": 83.40897959183674,
-          "file": "Audio/Transport/full_subzone_valley-of-kings-5d146fff7d187425a7e3/1-0000.mp3",
-          "sha256": "15b77454c7447a7d50bb3e17ded06eef58ded42e88e77f4749c464267a83add8",
+          "duration": 79.80408163265307,
+          "file": "Audio/Transport/full_subzone_valley-of-kings-612a4b2072c331822d09/1-0000.mp3",
+          "sha256": "669ec383c0f55ce92664da38bcf1e8cf4681ccfecf985fbaf3b38189f73e535b",
           "start": 0
         }
       ],
@@ -9481,21 +9481,21 @@
         ]
       },
       "fullHash": "1d6552",
-      "generation": "5e8744820b65102e5183",
+      "generation": "5998ae0df29db3ba96f4",
       "hash": "95a679",
       "source": {
-        "duration": 83.382813,
+        "duration": 79.777938,
         "file": null,
-        "sha256": "5d146fff7d187425a7e3e1d8cef1ac21dfafd37758c35ca2aa696e2df5e3f1ab"
+        "sha256": "612a4b2072c331822d097a1a658bf2eca93d4a12d603350ee254eaed4dea56cf"
       },
       "text": "Valley of Kings. The Valley of Kings is a lush canyon nestled in the southwestern corner of Loch Modan, directly south of the passage to Dun Morogh. It serves as a heavily watched gateway into the fiery Searing Gorge, flanked by monumental stone figures carved in memory of the War of the Three Hammers. Travelers venturing here walk beneath ancient dwarven history while facing the immediate threat of Blackrock encroachers and troggs. The valley's most commanding feature is the pair of colossal statues depicting King Madoran Bronzebeard and High Thane Khardros Wildhammer. Carved by joint commission from their sons following their deaths, these stone titans overlook the pass into the scorched southlands. They stand as a lasting monument to the allied victory in the War of the Three Hammers and an eternal warning against the Dark Iron clan, reminding all who look south of the ruin brought upon the southlands by the summoning of Ragnaros. Beyond serving as a path between South Gate Pass and Stonesplinter Valley, the Valley of Kings holds the heavy iron gate leading down into the Searing Gorge. Because of the hostile Blackrock orcs, Dark Iron dwarves, and volcanic hazards lurking on the other side, the gate is kept strictly locked and guarded by Ironforge mountaineers. Mountaineer Pebblebitty keeps watch over the threshold, turning away all but the hardiest adventurers who can prove they possess the strength to survive the inferno beyond."
     },
     "subzone:vault-of-ironforge": {
       "1": [
         {
-          "duration": 42.99755102040817,
-          "file": "Audio/Transport/full_subzone_vault-of-ironforge-bf08af0c8319000affe8/1-0000.mp3",
-          "sha256": "51f6014058848d82bd0e4e84988462cc8dc3babb21ecfbb4939acee5858c2a55",
+          "duration": 42.81469387755102,
+          "file": "Audio/Transport/full_subzone_vault-of-ironforge-74080cd57fb5457fef9f/1-0000.mp3",
+          "sha256": "2460371ba796c91cb7c5199105133752b80c43bbb6930a23fead2302ee78e466",
           "start": 0
         }
       ],
@@ -9507,21 +9507,21 @@
         ]
       },
       "fullHash": "d6c4d5",
-      "generation": "0949d62d587957adaeb3",
+      "generation": "34a507bea886972e4c5c",
       "hash": "4ad602",
       "source": {
-        "duration": 42.971375,
+        "duration": 42.814694,
         "file": null,
-        "sha256": "bf08af0c8319000affe82f7eae458f154fc1982fc7ffa31987bb27ab545bd9b2"
+        "sha256": "74080cd57fb5457fef9f9cb3c3bafa109b4b85d0582951a4cd4f040f1c47014f"
       },
       "text": "Vault of Ironforge. The Vault of Ironforge is the primary banking house and treasure repository for the dwarven capital. Situated in the bustling Commons directly opposite the Auction House, it serves as a central hub where citizens and travelers across the Alliance securely store their wealth. The vault's operations are overseen by Dinita and the esteemed Stonemantle family. Carved deep into the mountain rock of the Commons, the Vault of Ironforge stands as a symbol of dwarven fiscal security and craft. With the city's trade booming, travelers, soldiers, and merchants gather here daily to deposit coin, relics, and provisions under the vigilant eyes of city guards and tellers. Overseen by Dinita and the trusted Stonemantle family, the institution offers Alliance patrons absolute peace of mind."
     },
     "subzone:vul-gol-ogre-mound": {
       "1": [
         {
-          "duration": 81.42367346938777,
-          "file": "Audio/Transport/full_subzone_vul-gol-ogre-mound-25531a3a5fb52e4a397f/1-0000.mp3",
-          "sha256": "507edee8a5947097968ead9c548f98760f7eae39d76c8f73918b22e56a9c9d7d",
+          "duration": 81.76326530612245,
+          "file": "Audio/Transport/full_subzone_vul-gol-ogre-mound-c608977ce9545c7cb14d/1-0000.mp3",
+          "sha256": "d81bb54340362e28f5f58f17d4f6b9f0a58a7cee36c7b95f9d752860c888a30a",
           "start": 0
         }
       ],
@@ -9533,21 +9533,21 @@
         ]
       },
       "fullHash": "d1fe4e",
-      "generation": "f8078885ba9302888006",
+      "generation": "8e19d1398085d30460d8",
       "hash": "06cb61",
       "source": {
-        "duration": 81.3975,
+        "duration": 81.737125,
         "file": null,
-        "sha256": "25531a3a5fb52e4a397f40daad77ccef4794bb38df75c6d4d99f13ff0a63cc1d"
+        "sha256": "c608977ce9545c7cb14dad5ff19ef7794186209dc2a1dfb39cf652d61589c2e9"
       },
       "text": "Vul'Gol Ogre Mound. Vul'Gol Ogre Mound is a sunken basin in southern Duskwood overrun by the Splinter Fist ogres under the brute Zzarc'Vul. Once a cluster of human homesteads, its ruined farmhouses and subterranean cavern are now littered with the carcasses and scavenged plunder of the clan. Tucked away in the shadows southwest of the fork heading toward Stranglethorn Vale, the Vul'Gol Ogre Mound serves as the seat of the Splinter Fist clan in Duskwood. The basin was once peaceful farmland, but its human inhabitants have long since fled or perished, leaving behind hollowed-out cabins now claimed by lumbering ogres and used as crude shelters. Inside the cavern beneath the rise, piles of slaughtered black bears attest to the clan's voracious appetite. Their chieftain, Zzarc'Vul, rules over the encampment, hoarding odd trinkets alongside mundane scavenged goods. Because the beleaguered Night Watch must stretch its thin ranks to guard Darkshire against rabid worgen and the restless dead, Commander Althea Ebonlocke and her militia rely on outside mercenaries to cull the Splinter Fist numbers before they push north. However, the ogres have made enemies beyond the town guard. They raided the recluse Abercrombie, stealing a crate of his alchemical tools, and attracted the attention of inquisitive mages seeking the arcane lenses that chieftain Zzarc'Vul is rumored to possess."
     },
     "subzone:war-room": {
       "1": [
         {
-          "duration": 53.91673469387755,
-          "file": "Audio/Transport/full_subzone_war-room-be06f81d4fc3b189c185/1-0000.mp3",
-          "sha256": "70f8249039dc9e6c9aded833238ada6e1e3696c2bed0eed9e4693d47fd654aaa",
+          "duration": 48.248163265306125,
+          "file": "Audio/Transport/full_subzone_war-room-acf5ac7a03b72f5db70c/1-0000.mp3",
+          "sha256": "87ae858f16ebc74702d8e94a27ada00b25db9c345c6ff4086dd2dcba90b02ec2",
           "start": 0
         }
       ],
@@ -9559,12 +9559,12 @@
         ]
       },
       "fullHash": "dda0a5",
-      "generation": "ec178473d5257c056ba8",
+      "generation": "cf9e90df6728cf7478f4",
       "hash": "7c707f",
       "source": {
-        "duration": 53.890563,
+        "duration": 48.222,
         "file": null,
-        "sha256": "be06f81d4fc3b189c185a7725d448cb0ed215ea9949f747f353e4ca201aee04a"
+        "sha256": "acf5ac7a03b72f5db70c30292ecc8a88e8c4d23d006cc3e254a192d32f27db2d"
       },
       "text": "War Room. Tucked deep inside Stormwind Keep, the War Room serves as the strategic nerve center of the Alliance military. Ringed with armaments, historical war tomes, and tactical charts, it is where generals and strategists monitor distant fronts and coordinate the defense of the kingdom. Branching off from the grand chambers of Stormwind Keep, the War Room is outfitted specifically for military logistics and high-level campaign planning. Its stone walls are decorated with rows of armaments, including swords, blunderbusses, and even heavy artillery cannons. Piles of military treatises and historical chronicles stand stacked on nearby tables. At the room's core lies a large tactical map table, allowing commanders to assess Alliance deployments across Azeroth while the royal court handles matters of state just steps away."
     },
@@ -9675,9 +9675,9 @@
     "subzone:webwinder-path": {
       "1": [
         {
-          "duration": 41.06448979591837,
-          "file": "Audio/Transport/full_subzone_webwinder-path-4379c1ce010e0470aab3/1-0000.mp3",
-          "sha256": "f2e87cd27c63e4abd094aff63cc0c0fbfef33f71fb4caecb0c583d9258f9fd39",
+          "duration": 41.351836734693876,
+          "file": "Audio/Transport/full_subzone_webwinder-path-94eaa6d72505e1b21b0f/1-0000.mp3",
+          "sha256": "8b58b23fa176b64574314d1af5a85341710c34141dda68014d5966d5d3f4cef2",
           "start": 0
         }
       ],
@@ -9689,12 +9689,12 @@
         ]
       },
       "fullHash": "dc46d7",
-      "generation": "090d4cc6116962a1138b",
+      "generation": "e10f147ce052608b6407",
       "hash": "dc46d7",
       "source": {
-        "duration": 41.038313,
+        "duration": 41.325688,
         "file": null,
-        "sha256": "4379c1ce010e0470aab31f23687080f37216220f11b052cf927c11ff5a30a191"
+        "sha256": "94eaa6d72505e1b21b0fd379e9ae81004ae0171ba48224ab585e695d371fdb8b"
       },
       "text": "Webwinder Path. Webwinder Path is a winding mountainous road in the Stonetalon Mountains connecting the troll outpost of Malaka'jin to Mirkfallon Lake. It cuts through rugged crags and dense highland woods inhabited by aggressive arachnids and native beasts. Running from the Horde settlement of Malaka'jin toward Mirkfallon Lake, Webwinder Path serves as one of the primary roadways carving through the lower Stonetalon Mountains. True to its name, the route is notorious for the thick cobwebs strung high among the canopy and jagged cliff sides. Travelers along this winding stretch must constantly watch their step, sharing the beaten path with prowling mountain spiders, aggressive thunder lizards, and territorial rams."
     },
@@ -9753,9 +9753,9 @@
     "subzone:westbrook-garrison": {
       "1": [
         {
-          "duration": 81.68489795918367,
-          "file": "Audio/Transport/full_subzone_westbrook-garrison-bfd1a2af10512e4f0ee3/1-0000.mp3",
-          "sha256": "bf9265333c44fa616ae886f7b6cd409287f42926bcdc9b4f58713691d74c76ec",
+          "duration": 79.41224489795918,
+          "file": "Audio/Transport/full_subzone_westbrook-garrison-b9c9a5d1494b5b40ab3b/1-0000.mp3",
+          "sha256": "27a5e816c550343f7e2a74007ff161cab196bf21852f62b4d24f261825e10f1c",
           "start": 0
         }
       ],
@@ -9767,12 +9767,12 @@
         ]
       },
       "fullHash": "44e21b",
-      "generation": "4936dab9f25da46acff0",
+      "generation": "30d732b1b10676f4360a",
       "hash": "75d6dc",
       "source": {
-        "duration": 81.65875,
+        "duration": 79.386063,
         "file": null,
-        "sha256": "bfd1a2af10512e4f0ee34ce7bf0cdce3974c6f1bdbfa2e95492cb8e4ee4e79ef"
+        "sha256": "b9c9a5d1494b5b40ab3be9440a78fac2aa8f380f348db57b89478ebb3073f5dd"
       },
       "text": "Westbrook Garrison. Westbrook Garrison is a Stormwind Guard outpost situated on the western edge of Elwynn Forest near the Westfall border. Manned by an overworked, under-supplied skeleton crew under Deputy Rainer, it serves as the realm's first line of defense against the encroaching Riverpaw gnolls and rogue bandits. Positioned where Elwynn Forest begins to thin toward Westfall, Westbrook Garrison stands as a vital but struggling watchpoint. With much of the Stormwind Army committed abroad or tied down by political inertia in the capital, the outpost has been left critically shorthanded. Deputy Rainer and his handful of guards must patrol the western roads while fending off emboldened thieves and the vicious Riverpaw gnolls who have overrun the southern woods. Unable to secure formal reinforcements from Marshal Dughan in Goldshire, the garrison relies almost entirely on traveling adventurers to secure the highway. The primary threat facing Westbrook is the swelling gnoll presence centered around the south of Forest's Edge. The packs have grown bold enough to stage raids directly on supply lines and homesteads, organized under the fearsome gnoll chieftain known as Hogger. Outnumbered and overwhelmed by the brute strength of Hogger's forces, the garrison has posted a high bounty across its grounds, desperately seeking capable fighters willing to venture into the hills and bring down the beast before he pushes farther east."
     },
@@ -9805,9 +9805,9 @@
     "subzone:whelgar-s-excavation-site": {
       "1": [
         {
-          "duration": 45.32244897959184,
-          "file": "Audio/Transport/full_subzone_whelgar-s-excavation-site-c54415d96c5f8afe4255/1-0000.mp3",
-          "sha256": "68be02b953f53be40443517699fc25d384af2a016873353a32448d27ee78a07d",
+          "duration": 45.68816326530612,
+          "file": "Audio/Transport/full_subzone_whelgar-s-excavation-site-60d3b6fae37b433a3592/1-0000.mp3",
+          "sha256": "657b404211523634d556b5c8abd38ca3e45668777f6a8cbe3d3a65d3d9896ba6",
           "start": 0
         }
       ],
@@ -9819,12 +9819,12 @@
         ]
       },
       "fullHash": "aa1d65",
-      "generation": "a8ddf96053ae119f470a",
+      "generation": "a8f316338cb47c5d5026",
       "hash": "981de7",
       "source": {
-        "duration": 45.296313,
+        "duration": 45.688163,
         "file": null,
-        "sha256": "c54415d96c5f8afe4255aaa446c8cba4b82c96c8940157cb5a398e2d0dce32db"
+        "sha256": "60d3b6fae37b433a359298389da517e02816eb78a541d4ce8ff30485bd3f599b"
       },
       "text": "Whelgar's Excavation Site. Whelgar's Excavation Site is a dwarven archaeological dig in the western foothills of the Wetlands. Intended to unearth ancient Titan relics and prehistoric secrets, the expedition ended in disaster when vicious mottled raptors overran the quarry. The surviving excavators are now trapped on a ridge overlooking the dig, cut off from their findings. Spearheaded by dwarven prospectors searching for ancient fossils and earthen mysteries, the excavation carved out a massive quarry between Menethil Harbor and Dun Modr. However, unearthing prehistoric remnants drew the wrath of native mottled raptors. Overwhelmed and under-equipped, the archaeologists retreated to a ridge overlooking the dig site, leaving their tents, tools, and unearthed relics scattered among prowling predators."
     },
@@ -10043,12 +10043,6 @@
       1151,
       1402
     ],
-    "02f59e1a7a6ba52afc46e53d761378b17dd7c59ccb8acce606ab8c43035661b1": [
-      262,
-      594,
-      1636,
-      2634
-    ],
     "032847429d75dcc2c4884e74df8b002db846d02b21e121751e4acb7ce8699e2c": [
       606,
       1066
@@ -10076,6 +10070,11 @@
       646,
       1141
     ],
+    "072bd0778874a4fa7b4c2c03c39109dcc054d634706e47b9845f7936c414f2f1": [
+      272,
+      538,
+      953
+    ],
     "077779772737650d10cf66d5165df4e75357f780a5230bed26ad537fe6614124": [
       225,
       703,
@@ -10088,12 +10087,6 @@
       598,
       775,
       1426
-    ],
-    "084ab370d92d43a784369c4b3d054a4a943cb5792610b91ce7ec8cc715d7471b": [
-      318,
-      1061,
-      1399,
-      1727
     ],
     "088eef4469ccea632cda06462bb8bd9978468d3967cb66145c8eb3de157dc985": [
       303,
@@ -10130,12 +10123,24 @@
       1552,
       1942
     ],
-    "09c7b32164c98ea1fb842a02ce0e54b63c8a8bcac1e10b5cce8a8b894d0ff709": [
-      576,
-      902,
-      1377,
-      1726,
-      2002
+    "0aa416c8b0634f1735e743d2aeb17cbcecd1d3da1f9d0341efc725d705ebf793": [
+      282,
+      604,
+      858,
+      1045,
+      1363,
+      1747,
+      2392
+    ],
+    "0aade45555d48f373d355bbfadd11ec25da86ef282d2ef6560d3322e924d4847": [
+      253,
+      588,
+      826,
+      1214,
+      1640,
+      1974,
+      2436,
+      2837
     ],
     "0abd4a22b1c3929e8d0cb600e86544988ffe489a7942e1c4ac411dfaf60bbcbd": [
       289,
@@ -10153,10 +10158,6 @@
       517,
       826,
       1192
-    ],
-    "0cde8d37d8eff426b8132b6d44be89bebca39a50ad378236919bdc7f6cd99a67": [
-      266,
-      1048
     ],
     "0d4afe5eea863683e5ee6731ec376cbb784ab68b4e5336d6d43df00c7f30e84e": [
       442,
@@ -10183,14 +10184,9 @@
       1776,
       2322
     ],
-    "0ed624d221c1fd8d1f35170edfcc48bbc9d0f93a169a96166276be3d8d8ac306": [
-      281,
-      605,
-      857,
-      1503,
-      1928,
-      2288,
-      2480
+    "0ef851518279f825106dc0a021ade46a04a22b2abeb2fd4aec95fd641085e61f": [
+      463,
+      1088
     ],
     "0f0bc115c8b7060424df2648d0e5cc789b71039bad71bbb5434d4d3130a094ea": [
       240,
@@ -10198,6 +10194,12 @@
       600,
       1133,
       1374
+    ],
+    "0f2782ffde63fd0283f728a482423b2de2cf554ce894c29a373d67311d1becbb": [
+      213,
+      479,
+      869,
+      1273
     ],
     "0f8bf0dc90496addb1f8953bb155efb1644e93d949e70cd0350c2c0036fbae34": [
       274,
@@ -10220,6 +10222,17 @@
       2242,
       2514
     ],
+    "1347c240e9705a508d8b364530c1318fbfaa546ab0a2ca132c8379f2df2d4e2c": [
+      363,
+      647,
+      953,
+      1367,
+      1903,
+      2342,
+      2532,
+      2760,
+      3123
+    ],
     "139b9750c0dbd23e903e265dc64dc8fa3fd669b6f0cf8d8bd7a354ad4a1e6af5": [
       173,
       677,
@@ -10234,16 +10247,6 @@
       1144,
       1626,
       1960
-    ],
-    "15b77454c7447a7d50bb3e17ded06eef58ded42e88e77f4749c464267a83add8": [
-      308,
-      934,
-      1250,
-      1555,
-      2066,
-      2413,
-      2668,
-      2847
     ],
     "15b825982fc3a8fddce56b30a7322fade373cd5aaa5dcc1ef44583b00a78b26a": [
       574,
@@ -10265,10 +10268,15 @@
       1508,
       1705
     ],
-    "16bd53f7b04cab70db6e6b8f536dfadc6944909f85b7d3cbd6bb08858063395e": [
-      227,
-      833,
-      1191
+    "16e80969e7fe93c096576f8004d2cd288eab75b31d7be413baefc6b9101be212": [
+      283,
+      735,
+      1199,
+      1549,
+      1697,
+      1881,
+      2171,
+      2516
     ],
     "1874f301899549fcbafd8066f235e5806d082b86c6dd0192aae847f2c0b39500": [
       158,
@@ -10290,6 +10298,14 @@
       578,
       898,
       1460
+    ],
+    "18ef8d3711ef935b22d0b31d042f0ca4e313dd2dde12d124705491bc172472ee": [
+      605,
+      881,
+      1298,
+      1692,
+      2134,
+      2317
     ],
     "1a05da384e44732fa3c922d7597b591d900ab2c9de2d0e67e5c9c52cd61f97be": [
       363,
@@ -10345,12 +10361,29 @@
       1038,
       1362
     ],
+    "1ebc822803843aecac11af8b770a6c0417ed182ce96ecef8a9317e62dab60ef5": [
+      580,
+      868,
+      1007,
+      1237
+    ],
     "1fae3b6298672efb4693eda4b7e291ab9c57ad2e3907d33b57f3769b3c74a176": [
       294,
       558,
       1072,
       1735,
       2086
+    ],
+    "207889e1b046a9dad38b99963844bf9b0fab70d682a071c0abe638d28f1ed424": [
+      272,
+      621,
+      935,
+      1158,
+      1495,
+      1779,
+      1968,
+      2198,
+      2517
     ],
     "207a0af6b3069e8dd7fa149eff036771169fd0473288a1f86d445a07267288c9": [
       275,
@@ -10365,6 +10398,18 @@
       2102,
       2337
     ],
+    "228971de24a6eae1d8926c86db62736a16a7aeae3d5418699730dc5bd9d18a0c": [
+      324,
+      610,
+      855,
+      1502,
+      1732
+    ],
+    "23d31b724a6f1792b2d12e1d6df9a12b2a7492865f8cb8b07125dcd70817314a": [
+      225,
+      548,
+      922
+    ],
     "242b792c7c0355e51a30970bf7eb6068c86914652cfe33d404d48c0cb752ddea": [
       209,
       598,
@@ -10375,6 +10420,20 @@
       2040,
       2289,
       2539
+    ],
+    "2446ee6fe4f42b8674d7c6537ae0379c9f73e5c4bccd04a5874080a29a18a658": [
+      245,
+      673,
+      945,
+      1413,
+      1786,
+      1951,
+      2127
+    ],
+    "2460371ba796c91cb7c5199105133752b80c43bbb6930a23fead2302ee78e466": [
+      578,
+      768,
+      1043
     ],
     "255eb5fa85fe9630e95ecc5f81ec97cdd6be98f267dac52817ee5e0c87888783": [
       331,
@@ -10399,11 +10458,37 @@
       644,
       1046
     ],
+    "27a5e816c550343f7e2a74007ff161cab196bf21852f62b4d24f261825e10f1c": [
+      904,
+      1125,
+      1607,
+      1947,
+      2193,
+      2523
+    ],
     "27ec63828195aa12790dc2acef023f63539e96c22b11c5d21c07df4c8c4af617": [
       741,
       1365,
       1811,
       2412
+    ],
+    "294ffb606372aaa8eeba43d8061047f55dd4589d1c465bd67985f50d7bb9a8c1": [
+      296,
+      962,
+      1271,
+      1861,
+      2113,
+      2382
+    ],
+    "2967ab6f05ba056576462779f5c2ad8edb2340aac33c2639fe29d1d88c00d84d": [
+      304,
+      724,
+      1034,
+      1296,
+      1628,
+      1902,
+      2246,
+      2479
     ],
     "2b440b4a4857660c78a375fba3e3fbf17f3cc3284fd4746a250067d83654720d": [
       320,
@@ -10415,6 +10500,14 @@
     "2bc88c746e9e57287060b02c2ae14cf262987146ba064914d7af1daaa1d8d67c": [
       904,
       1247
+    ],
+    "2c6fd20a7b306d5221c060e68ed33e642328e8e8a1e5c0665fe1bd023026df36": [
+      305,
+      648,
+      919,
+      1153,
+      1438,
+      1618
     ],
     "2d28bb0d2a112e7ee09dcb3a483d2e6ac3f9593e6c82db4a72d01780f393ed5c": [
       305,
@@ -10442,12 +10535,17 @@
       2510,
       2668
     ],
-    "3108740d4244f640c595920109710304f61dbdfd5e5a8d44e61f228aeff09026": [
-      296,
-      480,
-      648,
-      935,
-      1158
+    "30795995c16fc8ff056b9ddb96f7030219b1f7ea1e4718044407b9da8d849dbb": [
+      759,
+      1078,
+      1376,
+      1576,
+      1801,
+      1961,
+      2249,
+      2595,
+      2870,
+      3092
     ],
     "310d06979eda6d52fd67c6fd494be72788b7fb4289826bf0fc98d44659501eab": [
       254,
@@ -10478,6 +10576,15 @@
       456,
       1155,
       1411
+    ],
+    "31a3223ad9012e3d9b4cab0dc47f9ecb390468cea244f5da70a59cac1a8791ef": [
+      231,
+      810,
+      1025,
+      1329,
+      1540,
+      1827,
+      2251
     ],
     "31fa203aef06b39e23723210a6d2f3b02641fab2cef31abf4334ea14a2d25c7e": [
       582,
@@ -10530,12 +10637,6 @@
       2184,
       2495
     ],
-    "3899e28b22834f62cb264261d0a835a402eedbcdd93ad4db1a2d13d29a6f64b8": [
-      215,
-      513,
-      929,
-      1339
-    ],
     "393669b347881128fa1e22c7dceb77a7f23e1aaa2e6cb430f7d50aff98a9b5ed": [
       573,
       1036,
@@ -10566,6 +10667,12 @@
       2107,
       2375
     ],
+    "3ac1989d5788e909dbb82725433fb0942cdcd0bba8aee2d5966c7c64262f3398": [
+      224,
+      506,
+      824,
+      1185
+    ],
     "3b6d595b4c140a756748d3002bfdc288d06607c33e7cc370b3401e54781a6ddc": [
       715,
       1026,
@@ -10573,14 +10680,6 @@
       1841,
       2157,
       2875
-    ],
-    "3c0a768708f2d1afe12fc1a1c7b08dd6f3f86ddf84108985db2d19f14edefd2f": [
-      254,
-      584,
-      929,
-      1256,
-      1479,
-      1664
     ],
     "3e51544b9c7c3f82edca10577f0651be53f9bfd1da2ac9db59f49400ffe36a73": [
       254,
@@ -10618,6 +10717,22 @@
       1105,
       1389
     ],
+    "40dec1075c208faf5eab28cccade87e580a2060508c9ce75093716a97cb89c67": [
+      586,
+      811,
+      1235,
+      1473,
+      1662,
+      2143,
+      2297,
+      2629,
+      3099,
+      3432,
+      3595,
+      3807,
+      3983,
+      4128
+    ],
     "4161cc1bde4a2b50e8ca3df926d41629f9701970aff455047c86759d107b0b5f": [
       244,
       425,
@@ -10635,6 +10750,13 @@
       1324,
       1641,
       1872
+    ],
+    "41c6926ede4303fac94337844e5b553d77571f52102998659994b71e393650c0": [
+      290,
+      627,
+      1244,
+      1968,
+      2210
     ],
     "41f1e70ceb3b9a17925af63c6aebb5c105c03cd96d875fab6333dea380f5cace": [
       180,
@@ -10658,16 +10780,10 @@
       1731,
       2344
     ],
-    "4396e3a25f78d891f5a409f03e38c9157c58373db7c33ce13936c2faad775584": [
-      303,
-      655,
-      901,
-      1460,
-      1877,
-      2055,
-      2288,
-      2666,
-      2874
+    "441dd5c038cd8be7dcb6eec7a96d67a50e652be9c550360b69a0bab99bc554a8": [
+      285,
+      588,
+      742
     ],
     "445433cc7e4cdf0a2404ea22c75ccacbdc5d2f81c6c8bd205a40c162a9cf2c1a": [
       620,
@@ -10694,11 +10810,23 @@
       2335,
       2676
     ],
+    "455b71a6cc9a7266c7f48070f404e8ca33319cad916c167bcdb965fd7a8e1510": [
+      282,
+      667,
+      975,
+      1251,
+      1588
+    ],
     "46420b78b537f005ea9cc02bbe3eec7ffc4da984073342675019e83d0ff593cf": [
       768,
       1099,
       1425,
       2127
+    ],
+    "488f5613f7239b3552e4a6ed601ad8aa72ce2fe9eaa2364ce4ffc4f5b29209ec": [
+      177,
+      429,
+      819
     ],
     "48aa6104e1f2c159294a98a9f6a07303d3c0c80ad3b7acdec8f1e83b0ef2bce7": [
       304,
@@ -10732,33 +10860,6 @@
       684,
       1286,
       1545
-    ],
-    "500958dd3dbaa40532531ec9642a6ef4f6901488682df09ac89d2588f3abe565": [
-      475,
-      855,
-      1002,
-      1239,
-      1409,
-      1765,
-      1951,
-      2090,
-      2412,
-      2631,
-      2812,
-      2973,
-      3245
-    ],
-    "507edee8a5947097968ead9c548f98760f7eae39d76c8f73918b22e56a9c9d7d": [
-      324,
-      678,
-      854,
-      1044,
-      1271,
-      1479,
-      1722,
-      1985,
-      2519,
-      2667
     ],
     "509ef2be8b02842fad448eb45ddb610e24d73f6450c25e9633d340c6e7d27c3a": [
       265,
@@ -10795,10 +10896,13 @@
       1620,
       1823
     ],
-    "51f6014058848d82bd0e4e84988462cc8dc3babb21ecfbb4939acee5858c2a55": [
-      756,
-      1057,
-      1398
+    "51fb0a4844b263cdb491257d495ecf711e49304c705499aadf287df3eb729d40": [
+      271,
+      563,
+      974,
+      1706,
+      1844,
+      2210
     ],
     "52521a599071d3eaf802a86b431c6e26de143849946de718c41c2aa83a6bb352": [
       291,
@@ -10815,6 +10919,12 @@
       540,
       1111,
       1437
+    ],
+    "529f3c2fb694114fd74be5d12cde3dce526dc0a93a75b239beb96237396fca03": [
+      293,
+      728,
+      1176,
+      1522
     ],
     "532039d7dea3a52403e069e57b4938350e562e3f0b34e7b41a0d9e18fc3ff8c6": [
       289,
@@ -10842,15 +10952,15 @@
       1098,
       1256
     ],
-    "555f9f655077c18731b87621e930a6d82b2ff0ec6a8a7c3d7f69575a4f90fad9": [
-      336,
-      700,
+    "55584a895f3c44986c3aa17109d77518cf30b7d5fcc8eff8b978d568d8f5eacf": [
+      172,
+      527,
+      678,
+      881,
       1097,
-      1446,
-      1606,
-      2018,
-      2300,
-      2600
+      1616,
+      1841,
+      2215
     ],
     "559ca15b27da40fc9d5c2cb50597afcb92d8ec08f079e1bb28e51b608c6b660f": [
       177,
@@ -10913,6 +11023,11 @@
       1847,
       2464
     ],
+    "59e9f7388b2e5f9b7d258e0ca5367f1569c689687b847884800690ee86255645": [
+      368,
+      725,
+      1436
+    ],
     "5a38d932b6f2f2f93ca3264a7b482d7cda804c656073fa098f177158ef4a613d": [
       208,
       564,
@@ -10954,6 +11069,15 @@
       270,
       972
     ],
+    "5d72bb53a1262e3747f9ae35d9afdbc0616eb5717731eb50bf73cbe706f129e9": [
+      787,
+      961,
+      1130,
+      1396,
+      1787,
+      1948,
+      2170
+    ],
     "5d7b1e636dab3afc00fa5abe04aea74ddc70957f485984f31a5a6c0bab66beef": [
       237,
       603,
@@ -10972,6 +11096,14 @@
       1937,
       2306,
       3006
+    ],
+    "5ef82e6b22bee1ef675caaac78a13fd6b0b2d672557480efe6e59b5a246be95e": [
+      243,
+      742,
+      929,
+      1094,
+      1684,
+      2355
     ],
     "6105ace20377c1e2e8bb99a448a4cc26177c1a8181f13054d10c0d8cb6d73914": [
       628,
@@ -10995,15 +11127,6 @@
       923,
       1133,
       1564
-    ],
-    "623ff2c7708baf006100155137c4f3d7bbac61700cb839bce1bdb0a215b70ef3": [
-      240,
-      819,
-      1074,
-      1578,
-      1988,
-      2321,
-      2738
     ],
     "62680d722b99fa370df3c7dc0ddcbabf4b98ec62f72a76e2b2ffbfaafd9ccc96": [
       593,
@@ -11042,6 +11165,15 @@
       978,
       1406
     ],
+    "657b404211523634d556b5c8abd38ca3e45668777f6a8cbe3d3a65d3d9896ba6": [
+      223,
+      563,
+      774,
+      969,
+      1170,
+      1375,
+      1570
+    ],
     "666cccf4455eabedf175d9be84cc4c734afb902bec90236841e19c35b65960bb": [
       739,
       1016,
@@ -11049,6 +11181,14 @@
       1847,
       2119,
       2425
+    ],
+    "669ec383c0f55ce92664da38bcf1e8cf4681ccfecf985fbaf3b38189f73e535b": [
+      301,
+      1251,
+      2018,
+      2172,
+      2347,
+      2721
     ],
     "66cd2ef57eed4af7a943cc2b3dd761d90cad53f6ac38d5c8fe67986a324f3e4e": [
       612,
@@ -11067,16 +11207,6 @@
       188,
       439,
       1142
-    ],
-    "68be02b953f53be40443517699fc25d384af2a016873353a32448d27ee78a07d": [
-      214,
-      369,
-      560,
-      782,
-      977,
-      1173,
-      1357,
-      1568
     ],
     "68dca0ff6403dcc827d1e178cff099755c807c8012dfb673e71d0a53c76be3a1": [
       392,
@@ -11112,6 +11242,16 @@
       1200,
       1413
     ],
+    "703fb4ddfb02f90fd99d586ac0bdc7782ac4d03a9e6e8ea5be84f9b354a52606": [
+      214,
+      569,
+      863,
+      1258,
+      1508,
+      2305,
+      2553,
+      2955
+    ],
     "704f9f9ed76157510ba5884a6fd2a98b35ca0a5556637ee3ca3fd02a14b87628": [
       203,
       491,
@@ -11136,11 +11276,16 @@
       2046,
       2681
     ],
-    "70f8249039dc9e6c9aded833238ada6e1e3696c2bed0eed9e4693d47fd654aaa": [
-      746,
-      944,
-      1247,
-      1668
+    "70ef0fdfd494d9e6ae1b1633eabbf54ccfc3da99659db6392b6c4e5149a0f769": [
+      365,
+      704,
+      906,
+      1073,
+      1406,
+      1910,
+      2273,
+      2478,
+      2935
     ],
     "714bdf6fc755ae26b3b82356b33f337081e656503848d4f260c135910dca42f3": [
       254,
@@ -11182,14 +11327,6 @@
       1037,
       1315
     ],
-    "73938f9d301cc8e709ed93399bc09484e1f77fedeba9c9e0c6c0c5fb41f2ba48": [
-      363,
-      708,
-      1005,
-      1454,
-      1884,
-      2039
-    ],
     "75e7d4a04fa4d5bc58dcf6a61b7daeef8301da2b62f557fbdb6d8ffac0beaab7": [
       675,
       1433,
@@ -11217,11 +11354,15 @@
       2217,
       2474
     ],
-    "779f0b81566e94ba1b135cfe964f72d31eeccb6f7a0508fca979ec19ae2fe32f": [
-      299,
-      1040,
-      1418,
-      1657
+    "77b9553abc7d26c7f5e45c78fa03b336289885c2698d065c074cfbb7459d212f": [
+      282,
+      623,
+      873,
+      1153,
+      1415,
+      1784,
+      2155,
+      2506
     ],
     "77e3a0121f16079b24295491bcbcf08b63dfdf4ac2d4a3a27d02699df4d0ba84": [
       180,
@@ -11235,6 +11376,11 @@
       793,
       1693,
       1888
+    ],
+    "78d52556d0736a448bd45a810774ecd26421325e2db54f5154e501c5a93689ae": [
+      209,
+      502,
+      719
     ],
     "78e987b812924476230afde30774a52205a23e85c79bd4e52644a5fa9415573f": [
       239,
@@ -11269,6 +11415,15 @@
       797,
       1302
     ],
+    "7af27fc244e8d2fbe915bb87eef9c668f112c4dd472138397574198f051022f8": [
+      250,
+      552,
+      859,
+      1571,
+      1989,
+      2144,
+      2546
+    ],
     "7c7849bfb1458c299da7416e1c22b4b421bb0ef14c32aaeb0476e4b6356a0620": [
       578,
       843,
@@ -11277,14 +11432,19 @@
       1879,
       2307
     ],
-    "80cb67862b551aaf5255dce463ed2c57934de0388423ee3af4489dd473766e8d": [
-      639,
-      916,
-      1395,
-      1782,
-      1964,
-      2262,
-      2503
+    "7c98e7257c205b4747c533347612fb6d93e5e23972250a93518aa4bde3d5eb55": [
+      609,
+      858,
+      1663,
+      1948
+    ],
+    "827f190152d65e868f6a22b8b3d4f7b4bd78911cbbf5b29558c5fd9feef25389": [
+      298,
+      606,
+      1072,
+      1378,
+      1720,
+      2031
     ],
     "8426e4463a5ddb186bec7e03df6eb2c031451cbf6a9691078b393d654647946b": [
       150,
@@ -11293,10 +11453,10 @@
       953,
       1350
     ],
-    "84763cefdf596d219124349ca6e476215e8723aaa760da277b58f8cda3de619a": [
-      241,
-      584,
-      910
+    "8537d0e1b3fe6bb3b94b064526852e8a42f2b67ba6cee68faa5e84ce188cd1fd": [
+      272,
+      791,
+      1240
     ],
     "85e7d7a7202082848f62549a8f3ab37d417efc0b9d02b1f333ca66082536574f": [
       246,
@@ -11320,37 +11480,17 @@
       2119,
       2406
     ],
-    "87340ed2c057f799b8d1a32b1786b0d3bbfdb51853ddbf1b9c0f10495b44d1be": [
-      209,
-      649,
-      922,
-      1114,
-      1305,
-      1472,
-      1902,
-      2106,
-      2390
-    ],
-    "8776ed5174818d69f8460471efcb789a8d3b80fe08006a20debe5e8ffb0f9d1e": [
-      565,
-      810,
-      1195,
-      1636,
-      1965,
-      2632,
-      2913
+    "87ae858f16ebc74702d8e94a27ada00b25db9c345c6ff4086dd2dcba90b02ec2": [
+      261,
+      638,
+      950,
+      1249,
+      1448
     ],
     "88b1c2e9db81b1f6d3d4e5b07256289d4588d7ef0a733a3a4494f7824777ab91": [
       669,
       1334,
       2192
-    ],
-    "88b9dff2ec1230f9568c67c47dcd8b15bef091dd133b0908c37555f7d7cf29f4": [
-      428,
-      1118,
-      1453,
-      1977,
-      2556
     ],
     "88e5a350e205f57f70d96e1af27006daa5bc149d32395a3523a09028d3eead35": [
       255,
@@ -11362,20 +11502,29 @@
       3784,
       4020
     ],
-    "88f5a18f5f63590dbcef0d9a7ed0e51838b7a80be690d1b1b2090f0710378702": [
-      498,
-      1142,
-      1642,
-      2084,
-      3173,
-      3567
-    ],
     "89c98fec76b92e08c97f01a98734d3512216578b368f358c5b5353d7cfbbcd66": [
       357,
       634,
       967,
       1163,
       1794
+    ],
+    "89eaa86f264391b6932aa5c03aa41ecca54dbf681b6f44bd5710e603b297334f": [
+      214,
+      378,
+      517,
+      704,
+      985
+    ],
+    "8b58b23fa176b64574314d1af5a85341710c34141dda68014d5966d5d3f4cef2": [
+      910,
+      1201
+    ],
+    "8be41b198cba520a1630270021ecf082b5ed49d8979a3982cb803187e850c83a": [
+      316,
+      584,
+      827,
+      1986
     ],
     "8c359bd340896bc81d43e641147b6f6cb950efd7c28b2c83ae10dc92649a1d58": [
       219,
@@ -11469,9 +11618,11 @@
       1309,
       1545
     ],
-    "97f3091b64a5dfaf40811c7a559eac6beff0a45d8350eed5ade1e8d5e9381f81": [
-      527,
-      817
+    "98d4db1996861af6be8b2665f539b096ac06b9f1014b9358046c72757976fd88": [
+      671,
+      1077,
+      1419,
+      1749
     ],
     "98e09c30e3a373dade15a4352fc72d8346f7e14d2ab52b478bc13347f081a184": [
       703,
@@ -11499,17 +11650,6 @@
       2226,
       2464
     ],
-    "9c6be8d1b819569b8ed03cbc016ab921194fe9c86de4d756e0ca354024a928e9": [
-      502,
-      677,
-      818,
-      1075,
-      1271,
-      1695,
-      1880,
-      2155,
-      2310
-    ],
     "9c910372576786927b87b7ae450285b7ca8d6b4093a083bb55dd5e4cd00c066d": [
       225,
       575,
@@ -11521,33 +11661,6 @@
       1234,
       1556,
       1964
-    ],
-    "9d38eb43dedd07ba6064710b2057553c9fb7ad22c53de6c19a439060b5a7a609": [
-      295,
-      533,
-      721,
-      1216,
-      1691,
-      1868,
-      2206,
-      2556
-    ],
-    "9d996513503ebc7438eb764d801e4819c1235a456326e8988e5665bf85bd00f5": [
-      179,
-      362,
-      504,
-      801,
-      1100,
-      1292,
-      1582,
-      1767,
-      2031,
-      2166,
-      2502,
-      2667,
-      2833,
-      3107,
-      3296
     ],
     "9daf41c37065102943a258b31af7d2fe01a439ffb6e73c9f11bda880c9ca3831": [
       301,
@@ -11641,6 +11754,11 @@
       2105,
       2499
     ],
+    "a379f44486a62c25e5b6d4bc7638757b917a36e73f8b6bb1f7d6458e2be4c882": [
+      256,
+      608,
+      905
+    ],
     "a38c89ef316b0d00c7e9adf68ef4d0db65b393c5666aacc6c986a3e18c6aded8": [
       732,
       1280
@@ -11654,11 +11772,6 @@
       1882,
       2176
     ],
-    "a42700edd7c0cb1d59c0d2728a328ad956587ff8a3c9b790099c55e0fbf99997": [
-      212,
-      415,
-      727
-    ],
     "a50bacf6345d9f7c7521cc3ce06bd00c6ba206a89e1683a2b2a6fb8428a3430e": [
       257,
       579,
@@ -11668,23 +11781,20 @@
       1883,
       2059
     ],
+    "a5372a3b37f27e5d5fb7dbca5f0afe5b1f70d585320d927f6dd27e8d667cc310": [
+      270,
+      598,
+      919,
+      1258,
+      1657
+    ],
     "a54ee720448f7a6e662f209a6205ab92649b6d0138ebe2dd7fb141b62b5651a7": [
       893,
       1317
     ],
-    "a76babc77140b8696f4a1ed29776e42c8370c142c0eb4ce31b7eb2fe74655488": [
-      949,
-      1084,
-      1285,
-      1481
-    ],
     "a84160de36c5299bd0fcc660e749cdff62a275dfd8f07c27495938ea326081c0": [
       189,
       330
-    ],
-    "a8fe1230dfe1db021a7cb5cd8d45acb750c3ff0fdd442d2870632b832479b136": [
-      757,
-      1176
     ],
     "a963e706aba80c9979575b64c1349d9546e1f01d5c3fb73cfb46d8c25024e514": [
       380,
@@ -11696,20 +11806,6 @@
       1828,
       1969
     ],
-    "a9ac070cbff5bc2c9594bd9d10a761154ad0fd7155cc9a95dc4396e0934f94b6": [
-      187,
-      431,
-      618
-    ],
-    "aa68ea87a09dfe03b9315f81fb4416b4b3063a93a3cb20b30d0c2b30b96aa15c": [
-      272,
-      608,
-      883,
-      1310,
-      1721,
-      2021,
-      2171
-    ],
     "aae097366f10fc95310f89e46494d35b4b22fd544022db4e6c42fea1daf9e1c5": [
       151,
       312,
@@ -11718,10 +11814,22 @@
       879,
       1072
     ],
+    "aaf4e648a317f8434352d916983d4ad04ddc242382151219cd301dcfa9907962": [
+      496,
+      780,
+      1057,
+      1374,
+      2065,
+      2384,
+      3056
+    ],
     "ab06b1df9498b7f64b47f22d83aafaeb2abd66aece468143ecd96616d5de51ec": [
       543,
       788,
       1186
+    ],
+    "ab0a3781e7931520f764ca9e7692c97a58fe109757875040b77874898d0b615a": [
+      204
     ],
     "ac1c66256edf16ece7cce80cb58854befeb810f6603d1352595a5d01ada04b13": [
       250,
@@ -11754,14 +11862,9 @@
       1813,
       2151
     ],
-    "ae7f17345df3d746deff3fd024dae1957cba27153ebb97c95dca4eea454dd6af": [
-      427,
-      562,
-      831,
-      1344,
-      1852,
-      1993,
-      2541
+    "ad7adbb35506336ddb278582666b88f144df8deb6808f4febf22fdb17a29602a": [
+      672,
+      878
     ],
     "ae9881d3428ff56dee17c36e646ea5a5bfcd585fc671e64fc64e6b4b4baabbe3": [
       152,
@@ -11772,42 +11875,22 @@
       1581,
       1857
     ],
-    "aee34da1d33b73e6bdedbdea3dabdfc321897cad7fceb48cc243c0cbbec9fcbe": [
-      243,
-      509
-    ],
     "b04e077e8a276b831ebbbe66eff7a21a0b2fa96e26af2075139c869c96facb97": [
       453,
       706,
       1059,
       1314
     ],
+    "b0b134aef4b754e160c45c8b0cecca6c9ef396a41b1baabed9767aa6c1de8914": [
+      1052,
+      1405,
+      1624
+    ],
     "b190f2ef8960157e8609563054330c970dbfee7857ec0b8626bc1f581a9cc0b5": [
       633,
       1112,
       1544,
       2138
-    ],
-    "b26d91e6c5421baef6a6c7d0aaee57bfbf521b8faad4e5ee9824e52cc0685667": [
-      294,
-      733,
-      1060,
-      1309,
-      1640,
-      2102,
-      2339,
-      2576
-    ],
-    "b3062e134fcecb21737cf5b3ce8d6b9746cf0aab67df3a930a2381ef05f790cc": [
-      421,
-      676,
-      958,
-      1103,
-      1283,
-      1490,
-      1718,
-      1951,
-      2402
     ],
     "b30deae92ee1254ae260ba90f601f556a7ce0bdff2b54a0df95f35471c68caae": [
       234,
@@ -11821,12 +11904,6 @@
       1272,
       1615,
       1822
-    ],
-    "b51d7dc10c8c93e0f5c3dff2d3dd058708492ba3f70a5d4ae1e3c0998e360378": [
-      275,
-      727,
-      1199,
-      1664
     ],
     "b53fd39004911bd30f431642e0dd223c124d24c99396fc93cad0bd69253328a4": [
       675,
@@ -11875,16 +11952,6 @@
       2065,
       2208
     ],
-    "ba079ccaa77bc9355f6c593b510e450e33f4ad57d754cda423dbd87f49300c03": [
-      639,
-      990,
-      1204,
-      1432,
-      1909,
-      2382,
-      2521,
-      3024
-    ],
     "babb1c16902d9f04e139d2b285b9d8980f0808b694f7a263e5eb4333dfe1f172": [
       631,
       899,
@@ -11924,27 +11991,13 @@
       892,
       2294
     ],
-    "be684d38a57449390ef5924c5077897e51dd3ee301f39677f486e5ec298058e8": [
-      423,
-      791,
-      1046,
-      1247,
-      1621,
-      1810
-    ],
-    "bf9265333c44fa616ae886f7b6cd409287f42926bcdc9b4f58713691d74c76ec": [
-      285,
-      460,
-      686,
-      974,
-      1193,
-      1670,
-      1838,
-      2020,
-      2258,
-      2581,
-      2740,
-      2876
+    "bf4934bdb6b5ad882e46936c7592804bcfe9e10b7a5bdc2242d939cc6d419305": [
+      170,
+      552,
+      804,
+      1245,
+      1458,
+      1940
     ],
     "c0a7c988f808c4c15f5b1e2ef8b114ae9414525c7b5f317c7ced0d428ad2d8f8": [
       343,
@@ -11952,17 +12005,10 @@
       1081,
       1281
     ],
-    "c0aff4556a1c93cb7a24fcb0a21eefaee4c5cf05fa4c2899aba316b494d9c59f": [
-      202,
-      357,
-      557,
-      842,
-      1240,
-      1510,
-      1986,
-      2191,
-      2571,
-      2954
+    "c0cc40f1d370c38dd3b378f8b49add5228461ffd406e815458e9a7ae5b182f9e": [
+      390,
+      617,
+      929
     ],
     "c0fd41acdd3041018743f1b54e0383aa552e7076f6b43a806c50eec13c5e6cd7": [
       854,
@@ -12029,11 +12075,15 @@
       2099,
       2361
     ],
-    "c538b77e210f1277b5d8f6f44392eb286794e841db2e486fb6053de5cdcd5ff6": [
-      353,
-      685,
-      878,
-      1345
+    "c500ccf6a2f25a2c789c3e27d0fb27b87f0ce330aad7d88eef502685a0186064": [
+      275,
+      598,
+      829,
+      1266,
+      1603,
+      1971,
+      2307,
+      2524
     ],
     "c545ef42f17170fb43ffd74dd5df039d0567b0a4bed6dbbacb8b25b8af01dca8": [
       188,
@@ -12047,23 +12097,11 @@
       1869,
       2211
     ],
-    "c5cc8b2a3d701dbb9fccddca21d4eb802c27a6bb094b395aa5b186405ab95a9f": [
-      796,
-      1261,
-      1825
-    ],
     "c647d6dcb27f17c4ce1496417a6891c97436486f235e7b12950502493aeba051": [
       225,
       400,
       694,
       1161
-    ],
-    "c6abca073e308cda978b89148f61a8279e86dbb04f8f51dede57b80de9e1876e": [
-      900,
-      1343,
-      1793,
-      2406,
-      2852
     ],
     "c6f3f647e9dc299e82dc092ca8d01f2f44deffab5756734ece9d3c5a4780d2dd": [
       613,
@@ -12090,6 +12128,11 @@
       2153,
       2465,
       2669
+    ],
+    "c934d0d8ed7630d1eec5fd6460e67978beffec73ccf73cb85860036b57c40548": [
+      912,
+      1554,
+      1852
     ],
     "c9ba08778cd585f6d55531e12ed8282f87374f2befc9d1e3a7030958985774b0": [
       200,
@@ -12131,16 +12174,6 @@
       1589,
       2129
     ],
-    "ca9a086ae5ba28a3e75d161e64d7dfa882ac901e0605c8b9d1dc95f67074af8c": [
-      408,
-      572,
-      872,
-      1347,
-      1770,
-      1910,
-      2248,
-      2597
-    ],
     "cab692d9b570201994341cd0a4c6a31d193bcc1aaf215593286de3ca2cf7cfc9": [
       554,
       784,
@@ -12159,31 +12192,6 @@
       843,
       1211
     ],
-    "cc328b6839c4dc33c38434693ae75c15db95e37a2bf79c105af5a4ae3fc4bd1d": [
-      913,
-      1094,
-      1320,
-      1574,
-      1868,
-      2131,
-      2472
-    ],
-    "ce218552c60415f10e70520653692d713171ab19bd8782524d67aeee705fb1b3": [
-      810,
-      1232,
-      1617,
-      1993,
-      2556,
-      2855
-    ],
-    "cf085b9076e57ef28fc32acfe397925d1803ce241d9a2c654af099bf4619c66d": [
-      677,
-      1336,
-      1765,
-      2042,
-      2472,
-      2855
-    ],
     "cf0c9f5da9f88916d909a92fd17c40ecd2d0b5995da4a0a81347414f163d49b3": [
       146,
       348,
@@ -12201,6 +12209,12 @@
       856,
       1019,
       1258
+    ],
+    "cfc92354ad76e9a7343e96a577db866c8add24f2e21890d7e35ed2b8e5e3b0ff": [
+      198,
+      587,
+      863,
+      1160
     ],
     "d0aeb31a9b557046248704467c39d2ed009f9baa84abf36089b0bd825a904255": [
       383,
@@ -12229,17 +12243,6 @@
       1647,
       1863
     ],
-    "d257c8cbb5f32b2b9b8e1ea8b4c5587451f52ba1eb5afb6388eddc37e5d6c6c8": [
-      667,
-      1320,
-      1769,
-      2239,
-      2719,
-      3729,
-      4065,
-      4440,
-      4781
-    ],
     "d30d27e84e960f17776d733a034c2a78de2a8b14425b443eeec0cc9d5430cb57": [
       281,
       434,
@@ -12257,6 +12260,11 @@
       2071,
       2472
     ],
+    "d591082d0f0cfb38f7c23da9d8b9740a80c876b8f3538fcdee50918dfa133b2c": [
+      511,
+      1254,
+      1452
+    ],
     "d632e22fe1d555ce75319df9d8d85ffdce11209774c1dffeac50c980b2c01f65": [
       270,
       569,
@@ -12266,28 +12274,24 @@
       2302,
       2614
     ],
-    "d6ce394df0265777dc4df7cac70d3e4b3b81fc2124ccf3269c26939ad7da4f44": [
-      278,
-      733,
-      958,
-      1239,
-      1608
+    "d81bb54340362e28f5f58f17d4f6b9f0a58a7cee36c7b95f9d752860c888a30a": [
+      287,
+      618,
+      983,
+      1229,
+      1477,
+      1727,
+      1873,
+      2015,
+      2286,
+      2529,
+      2719
     ],
     "d864bd2427a055865a84b04799be36fb84ad7823e10d736aba84c3ad6df384a4": [
       258,
       636,
       968,
       1216
-    ],
-    "d88eb56902fb076abacf265353995e25723f88c3a4bb112548ad7ff5b447fce1": [
-      237,
-      512,
-      869,
-      1096,
-      1292,
-      1583,
-      1772,
-      2056
     ],
     "d8b142c366cde44eeaa826c1a2988a66b55ae0ddfe403006c49059b688abdabc": [
       322,
@@ -12297,9 +12301,6 @@
       1252,
       1528,
       1742
-    ],
-    "d9ac79a3cf52624f255edde57ed658537b6844cc2f7847d2b00f8be7056a774a": [
-      900
     ],
     "d9c611404c0234f477afba8dc1ef31284f551397a9fb68e1e0ee2042a04c88b4": [
       202,
@@ -12331,13 +12332,6 @@
       1358,
       1631
     ],
-    "daa53be3fcbb93769dfdcd847e59cad662b6b8bde3100302a661a0625e8dd003": [
-      306,
-      913,
-      1474,
-      1997,
-      2531
-    ],
     "dad175f0b2688effa3b3f4ec5fadd4c497646f32d16ed07ca5f1fec19e01f508": [
       307
     ],
@@ -12361,10 +12355,6 @@
       1178,
       1752
     ],
-    "db59ff49bd4380b832604f5fc9a20351884add20bab28361c469475f7de4fada": [
-      188,
-      583
-    ],
     "dcbd263b72a9c4f9766363c70870cba6d3e948388d5f64537a2ad422fd68653c": [
       199,
       566,
@@ -12382,9 +12372,6 @@
       2354,
       2626
     ],
-    "dd954163ced0245a662fbea8acfe49515a77dd8a16f64690364128261a09101d": [
-      703
-    ],
     "dde1eab112dc37e1fe87ffac1a66cf2f425f3ed2407ffc8be4a9edced2f075db": [
       230,
       510,
@@ -12393,28 +12380,13 @@
       1876,
       2473
     ],
-    "df1eb876227674c7aa307186833008e0d306ceb2e721718c1f8591632dfaef25": [
-      364,
-      726,
-      1101,
-      1454,
-      1720,
-      1964,
-      2340,
-      2658,
-      2987,
-      3405
-    ],
-    "dfb9ac16ca65c22946e227ba2df5ff8b83aa2db4a244b39796d280b5ad057149": [
-      480,
-      953,
-      1588,
-      1843,
-      2160
-    ],
-    "dff4f008a5752e0351e53a5b7664a97b2ba3c195cace6cb41751139f59c92fc8": [
-      780,
-      1005
+    "de0e5309a34e3cba30edaa013d5cd80b939758228da695c0bda6d2b4e1284790": [
+      291,
+      660,
+      981,
+      1313,
+      1616,
+      1875
     ],
     "e085361b9ab3f1f5bd47f7b09515e06996b39b269166f1d6068d67ff16de731e": [
       162,
@@ -12443,23 +12415,27 @@
       1387,
       2235
     ],
-    "e20aa5c5636663d914d9c25cb09f4d99ed79c7f03feef0611f23a5fe2bf72037": [
-      230,
-      482,
-      661,
-      930,
-      1258,
-      1586,
-      1777,
-      2091,
-      2366
+    "e220acf5736ed1bf5f8dfa6ec96029afd73d234c63a6093627960518d558d701": [
+      308,
+      656,
+      834,
+      1130,
+      1304,
+      1535,
+      1775,
+      2616,
+      2764
     ],
-    "e2846bae733e09c2b2ecad0cb313cc99b97581824b1dcab22a07d523e06c7d5b": [
-      323,
-      856,
-      1376,
-      1685,
-      2026
+    "e237ff324807ed44b65e66a3a0c77cb51bd014aa9bf02c50244c7cb141a9f0ae": [
+      362,
+      644,
+      923,
+      1168,
+      1484,
+      1900,
+      2071,
+      2343,
+      2619
     ],
     "e3338d351d71dcd6837238368f951f3a7202ab99edc59b9b7b62ff2a92e2713f": [
       615,
@@ -12477,6 +12453,15 @@
       1576,
       1722,
       2093
+    ],
+    "e494afb47841c00caa331fd0748d4e6895c97c919e7c5cf3e6aa7255799838b6": [
+      190,
+      375,
+      650,
+      1004,
+      1337,
+      1684,
+      2253
     ],
     "e4c211531860805b3b0f277273579c4043d5397f601f98ca90efdaf40dba3bc5": [
       355,
@@ -12516,14 +12501,6 @@
       2334,
       2479
     ],
-    "e5f60ccc46753910439b90b422270deff17b3f51c2c5e7e80e9e334acff90f31": [
-      275,
-      664,
-      1583,
-      2089,
-      2325,
-      2720
-    ],
     "e5fab7760a6cb8758306177db67f820b522b55a78ede6083eb67d3a21e015b6e": [
       187,
       362,
@@ -12537,6 +12514,14 @@
       495,
       818,
       1145
+    ],
+    "e692dc6b01c3fa86eb16f9bf4c36e52da8b74cdc8134bf9d5339a2ef0a2cca75": [
+      209,
+      668,
+      1063,
+      1640,
+      2059,
+      2292
     ],
     "e95a081411360debacf2bfaa9c4a285e47ab550e068fd55f021ed8b06840cdea": [
       274,
@@ -12568,21 +12553,16 @@
       1065,
       1302
     ],
+    "ecbf372eb942812150bcbe7a5ba0c837d31780bacd0a1fcaed1faf7b44e7efbf": [
+      879,
+      1204,
+      1466,
+      1875
+    ],
     "eea8db8969fe339c0ea9e4f43d2105fc58022c7845d4125dc8081b7533b792d3": [
       723,
       1017,
       1392
-    ],
-    "f0020266f29ee115435d67f264219036354e28b79cab14745c729152b132b8fa": [
-      243,
-      573,
-      870,
-      1273
-    ],
-    "f01d798a9a8989e652d2c8742d67d0ecb908eaa11097834484300e7f77582498": [
-      164,
-      436,
-      741
     ],
     "f1ca7ce98b571b497239862db0858abd4d303f2270d0e4cbf4a381cb7c39992f": [
       387,
@@ -12616,12 +12596,6 @@
       1499,
       1931
     ],
-    "f2e87cd27c63e4abd094aff63cc0c0fbfef33f71fb4caecb0c583d9258f9fd39": [
-      298,
-      677,
-      889,
-      1175
-    ],
     "f3a7ea742963025e7f0261482bf2b61f316faff02a0a3461bee3d97620e6f967": [
       361,
       575,
@@ -12630,6 +12604,11 @@
       1423,
       1573,
       1813
+    ],
+    "f45b937ab5e48130d97e72a25b2576033eeba0e1869bc4e11d27a92e3bc11235": [
+      787,
+      1051,
+      1643
     ],
     "f468cb725b40fe731f8eb97689a048d4dc43a233401fc83d09d9656389c95296": [
       1305,
@@ -12657,6 +12636,13 @@
       1180,
       1437,
       1662
+    ],
+    "f76d9437f02531eb0d1ad4aa50df2d01d5f1c6b8187c6356660e87c2d4d5c2cc": [
+      510,
+      848,
+      1309,
+      1636,
+      1897
     ],
     "f816874aba92c504954790115a2efe0b4ef232d115c73b63e54782f94985d1fb": [
       219,
@@ -12709,13 +12695,6 @@
       264,
       1043
     ],
-    "fa011551c4cfbad1260ba95b5716cc934fb6f51fb049cd5605380930128c12ad": [
-      564,
-      1165,
-      1453,
-      1850,
-      2308
-    ],
     "fa5cd07992711777372d0eddad9f7565458588c586df3fe964649e9c606f1a49": [
       193,
       355,
@@ -12736,6 +12715,15 @@
       1895,
       2076,
       2576
+    ],
+    "fc550ecdce1199118986bc71bab031268b05a1be5fd475e6c98e8e4fedcb785f": [
+      291,
+      712,
+      983,
+      1137,
+      1325,
+      1743,
+      1976
     ],
     "fe2e4f5b62e5449f3d1103f6c3456bfea91411e81322da05d9e25a7b04f2d24d": [
       668,

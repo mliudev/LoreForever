@@ -46,11 +46,11 @@ async function bucketWith(keys) {
 }
 
 test("with recordings in R2: a player per voice and the report form; only what the manifest lists plays", async () => {
-  const e = entryJson("zone:stormwind");
+  const e = entryJson("zone:elwynn");
   const story = e.clips.find(c => c.part === "narration");
   const male = audioKey("male-narrator", story.id, story.voices["male-narrator"]);
   const STUDIO = await bucketWith([male]);
-  const res = await entry("/lore/zone/stormwind", env({ STUDIO }));
+  const res = await entry("/lore/zone/elwynn", env({ STUDIO }));
   const html = await res.text();
   assert.ok(html.includes(`href="/audio/clip/${male}"`), male);
   assert.equal((html.match(/class="lp-btn"/g) || []).length, 1, "the female recording isn't in the manifest");

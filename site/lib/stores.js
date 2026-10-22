@@ -394,12 +394,13 @@ export async function storesReport(env, now = Date.now(), days = 14) {
   const releases = newestFirst.map((f, i) => {
     const next = i ? Date.parse(newestFirst[i - 1].uploaded) : NaN, up = Date.parse(f.uploaded);
     const day1 = first24(f.name, f.uploaded, "downloads"), unique1 = first24(f.name, f.uploaded, "unique");
-    return { name: f.name, uploaded: f.uploaded, downloads: f.downloads, day1: day1 ?? f.day1, unique1,
-             from: day1 != null ? "author" : "cfwidget",
+    return { file: f.file, name: f.name, uploaded: f.uploaded, downloads: f.downloads, day1: day1 ?? f.day1, unique1,
+             from: day1 != null ? "author" : "cfwidget", seen: f.seen,
              current: Number.isFinite(next) && Number.isFinite(up) ? Math.round((next - up) / HOUR) : null };
   });
-  const newest = releases[0] ? { name: releases[0].name, uploaded: releases[0].uploaded, downloads: releases[0].downloads,
-    day1: releases[0].day1, hours: Math.round((now - Date.parse(releases[0].uploaded)) / HOUR) } : null;
+  const newest = releases[0] ? { file: releases[0].file, name: releases[0].name, uploaded: releases[0].uploaded,
+    downloads: releases[0].downloads, day1: releases[0].day1, from: releases[0].from, seen: releases[0].seen,
+    hours: Math.round((now - Date.parse(releases[0].uploaded)) / HOUR) } : null;
   const full = releases.find(r => (r.current ?? (now - Date.parse(r.uploaded)) / HOUR) >= 20);
   const inUse = full ? { n: full.day1 ?? full.downloads, name: full.name,
                          hours: full.current ?? Math.round((now - Date.parse(full.uploaded)) / HOUR) } : null;

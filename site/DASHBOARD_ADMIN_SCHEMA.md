@@ -36,6 +36,7 @@ deployment script or copy its data-changing statements into a migration.
 | Sources | `source_events`, `source_links`; `cached_results` with Search Console enabled | `lib/sources.js`, `lib/accounts.js` |
 | Voice work | `voice_status`, `voice_status_history` | `lib/voice-status.js` |
 | Willo overview/queue/quality/answers | `friend_reports`, `profiles`, `answer_feedback`, `answer_log`, `forever_facts`, `usage_rollup` | `lib/accounts.js`, `lib/profiles.js`, `lib/answer-feedback.js`, `lib/answer-log.js`, `lib/forever-knowledge.js`, `lib/featureuse.js` |
+| North star | `answer_days`, `excluded_accounts`, `answer_log`, `answer_log_salt` | `lib/accounts.js`, `lib/answer-log.js`; counted in `lib/north-star.js` |
 | Translation summary/review | `translation_edits`, `users` | `lib/accounts.js` |
 | Clip review | `clip_reports` | `lib/accounts.js` |
 | Downloads | `downloads` when GitHub is unavailable | `functions/download/[file].js` |

@@ -23,6 +23,7 @@ import { reserveOtherPaid, CUSTOM_PROMPT_BYTES } from "./companion-answers.js";
 import { perDay } from "./ratelimit.js";
 import { loadIndex, keyOf } from "./lore.js";
 import { TRIAL } from "./best-first.js";
+import { memoryPreFilter, memoryReason, MEMORY_CHECK_SYSTEM } from "./willo-memory-rules.js";
 
 // The styles a plan can pick. text: what the answer's prompt gets (tone only; the rules and the length stay); blurb:
 // what /willo/style says about it. classic is today's Willo, with nothing added.
@@ -123,21 +124,29 @@ const CHECK_SCHEMA = { type: "object", properties: { ok: { type: "boolean" }, re
 
 // What one check may cost, reserved from the shared monthly budget first (lib/companion-answers.js reserveOtherPaid,
 // as profile stories and their voice do): its whole input counted as a token a byte, and every output token.
-const checkReservation = prompt => Math.ceil(bytes(CHECK_SYSTEM + prompt) * 0.25 + CHECK_OUTPUT_TOKENS * 1.50);
+const checkReservation = (system, prompt) => Math.ceil(bytes(system + prompt) * 0.25 + CHECK_OUTPUT_TOKENS * 1.50);
 
-// The content check: {ok, reason} for a player's cleaned text (kind: style or tale). Throws when it can't run:
+// The content check: {ok, reason} for a player's cleaned text (kind: style, tale or memory). Throws when it can't run:
 // with `unavailable` set when there's no GEMINI_API_KEY or the month's budget is spent, so nothing is saved unchecked.
 export async function check(env, text, kind) {
+  // A memory that plainly breaks the rules of what Willo says is turned away before any model is asked
+  // (lib/willo-memory-rules.js), so it never depends on the model getting it right.
+  if (kind === "memory") {
+    const early = memoryPreFilter(text);
+    if (early) return { ok: false, reason: early };
+  }
   if (!env.GEMINI_API_KEY) throw Object.assign(new Error("no GEMINI_API_KEY"), { unavailable: true });
   const what = kind === "tale" ? "The player's own version of a character of the game's world"
+    : kind === "memory" ? `A short fact the player told ${NAME} about themselves`
     : `The player's notes on ${NAME}'s tone and manner`;
+  const system = kind === "memory" ? MEMORY_CHECK_SYSTEM : CHECK_SYSTEM;
   // JSON-quoted, so the note can't end its quotes and speak for itself.
   const prompt = `${what}, as a quoted string:\n${JSON.stringify(text)}`;
-  const reserved = checkReservation(prompt), started = new Date();
+  const reserved = checkReservation(system, prompt), started = new Date();
   if (!(await reserveOtherPaid(env, reserved, started))) throw Object.assign(new Error("monthly budget is full"), { unavailable: true });
   const res = await fetch(`https://generativelanguage.googleapis.com/v1beta/models/${CHECK_MODEL}:generateContent`, {
     method: "POST", headers: { "Content-Type": "application/json", "x-goog-api-key": env.GEMINI_API_KEY },
-    body: JSON.stringify({ systemInstruction: { parts: [{ text: CHECK_SYSTEM }] },
+    body: JSON.stringify({ systemInstruction: { parts: [{ text: system }] },
       contents: [{ role: "user", parts: [{ text: prompt }] }],
       generationConfig: { temperature: 0, candidateCount: 1, responseMimeType: "application/json", responseSchema: CHECK_SCHEMA,
         maxOutputTokens: CHECK_OUTPUT_TOKENS, thinkingConfig: { thinkingLevel: "minimal" } } }),
@@ -160,6 +169,7 @@ export async function check(env, text, kind) {
   try { verdict = JSON.parse(parts.filter(p => !p?.thought && typeof p?.text === "string").map(p => p.text).join("")); }
   catch { throw new Error("Unreadable check"); }
   if (typeof verdict?.ok !== "boolean") throw new Error("Unreadable check");
+  if (kind === "memory") return { ok: verdict.ok, reason: verdict.ok ? "" : memoryReason(clean(verdict.reason, 200)) };
   return { ok: verdict.ok, reason: verdict.ok ? "" : clean(verdict.reason, 200) || TURNED_AWAY };
 }
 

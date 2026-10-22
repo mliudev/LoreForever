@@ -7,9 +7,26 @@ wrap long bullets with an indented continuation line.
 
 ## Unreleased
 
+## 0.25.0 (2026-10-21)
+
+- **Willo's new window:** a slimmer top bar, three tabs (Chat, Notes and Friends), simpler settings with a search box,
+  and with the game closed a Tonight card with what happened last time and a few picks for tonight.
+- **Talk to Willo outside the game (off until you turn it on):** with WoW closed, hold Ctrl+Alt+W to talk or tap it to
+  type, and she answers from where you last were, on PC or phone.
+- **Chatting feels instant:** Willo's answers and your messages to friends appear right away, and friends' messages
+  arrive within a second or two, on PC and iPhone.
+- **Your narrator reads the short answers:** on Hero and up, Willo's short answers are read in your narrator's voice,
+  and Legend hears her whole answer. The old recorded answer packs no longer play.
+- **More native voices:** the Brazilian Portuguese female narrator is back, German, Castilian and French narration
+  cover many more places, people and lore topics, and quest givers read 87 more quests in their own voices.
+- **Your narrator stays your narrator:** a new voice pack joins the bottom of your list, a quest keeps one voice from
+  start to finish, and Hear the lore plays the pack you pick.
+- **Fixes:** saved characters no longer disappear after a restart on some Windows PCs, notes belong to the character
+  you're playing, Willo asks when she isn't sure you said "wand," and 14 lore entries are corrected.
+
 ## 0.24.2 (2026-10-21)
 
-- Fixed a Windows issue that could stop Willo from saving your journal and syncing character information.
+- **Fixes:** on Windows, Willo saves your journal and syncs your character information reliably again.
 
 ## 0.24.0 (2026-10-20)
 

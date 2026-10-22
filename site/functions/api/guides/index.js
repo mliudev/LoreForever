@@ -9,9 +9,9 @@
 
 import { fail, noStore, sameOrigin } from "../../../lib/accounts.js";
 import { editorFor, fromInput, getOne, getRevision, listAll, remove, revisions, save } from "../../../lib/guides-cms.js";
-import { articleBody, loadIndex } from "../../../lib/guides.js";
+import { articleBody, loadIndex, privateGuideResponse } from "../../../lib/guides.js";
 
-export async function onRequestGet({ request, env }) {
+async function get({ request, env }) {
   const who = await editorFor(env, request);
   if (who.error) return fail(who.status, who.error);
   const url = new URL(request.url);
@@ -23,7 +23,7 @@ export async function onRequestGet({ request, env }) {
   return Response.json({ ok: true, article, ...(revision ? {} : { revisions: await revisions(env, slug) }) }, { headers: noStore });
 }
 
-export async function onRequestPost({ request, env }) {
+async function post({ request, env }) {
   if (!sameOrigin(request)) return fail(403, "Not from this site.");
   const who = await editorFor(env, request);
   if (who.error) return fail(who.status, who.error);
@@ -46,4 +46,11 @@ export async function onRequestPost({ request, env }) {
     return out.error ? fail(out.status, out.error) : Response.json({ ok: true }, { headers: noStore });
   }
   return fail(400, "Unknown action.");
+}
+
+export const onRequestGet = context => privateGuideResponse(() => get(context));
+export const onRequestPost = context => privateGuideResponse(() => post(context));
+export async function onRequestHead(context) {
+  const res = await onRequestGet(context);
+  return new Response(null, { status: res.status, headers: res.headers });
 }
