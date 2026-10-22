@@ -44,13 +44,14 @@
 // replies stay on the PC.
 
 import { plansOn, poolWindow, setupBilling, holdUserSpend, holdStatements, releaseUserSpend, addVoiceSpend, userSpend, STARTER_ANSWERS,
-  VOICE_PACK, LEGEND_BEST_MODEL, CHARACTER_MODEL } from "./billing.js";
+  VOICE_PACK, LEGEND_BEST_MODEL, CHARACTER_MODEL, READINGS_FROM, PLANS } from "./billing.js";
 import { reserveFreeVoice, reserveFreeVoiceStatements, reservedFreeVoice, settleFreeVoice } from "./companion-answers.js";
 import { characterVoices, CHARACTER_KEY, CHARACTER_VOICES, voiceLabel, hasAzeroth } from "./character-voices.js";
 import { tasteFor, tasteState, tasteDayMicro, takeVoice, giveVoice, holdDay, holdDayStatements, heldDay, settleDay,
   countDay, TASTE_PERIOD, TASTE_REPLY_MICRO, TASTE_ANSWERS, trialOf, trialRow, tryOnce, untry, withTrial
 } from "./best-first.js";
 import { respell, loadRespell } from "./respell.js";
+import { savedPick } from "./plan-usage.js";
 
 export const PROVIDERS = {
   inworld: { key: "INWORLD_API_KEY", url: "https://api.inworld.ai/tts/v1/voice:stream" },
@@ -72,12 +73,19 @@ export const hostedSpellings = (env, origin) => loadRespell(env, origin, HOSTED_
 // names it respells for the voice can make that a little longer). A voice steps down once the month's room can't hold
 // a whole reply of this in it.
 export const SPEAK_MAX_CHARS = 600;
-// How long a provider gets for a piece: the companion waits about 2.5 s for a reply's first one before it talks on the
-// PC. A later piece is asked for while the one before plays, and the companion waits 5.5 s for it (talk/tts.py
+// A plan that hears her whole answer spoken (lib/billing.js PLAN_VOICE whole, Legend's): its replies' pieces together,
+// at most; the written answer is under 140 words. Each piece is still at most SPEAK_MAX_CHARS, and each holds its
+// cost against the month first, so the total cap steps the voice down as before.
+export const WHOLE_MAX_CHARS = 1500;
+export const replyMax = plan => plan?.voice?.whole ? WHOLE_MAX_CHARS : SPEAK_MAX_CHARS;
+// How long a provider gets for a piece: the companion waits about 4 s for a reply's first one, her words on screen,
+// before it says that reply on the PC (talk/tts.py PIECE_WAIT; 2.5 s before the voices and plans picks, 10/21, when a
+// slow first word was a reply, and the minute after it, in a stand-in voice). The site gives up first. A later piece
+// is asked for while the one before plays, and the companion waits 5.5 s for it (talk/tts.py
 // PIECE_WAIT + RETRY_WAIT) before the rest of the reply is captions: its provider gets LATER_PIECE_MS, what's left of
 // that after reading the account, so the site gives up (and gives its letters back) before the companion does
 // (LOR-673: a later piece cut at 2.5 s was the rest of a reply gone quiet).
-export const PROVIDER_MS = 2500;
+export const PROVIDER_MS = 3500;
 export const LATER_PIECE_MS = 4500;
 // A piece's number in its reply (the companion's, 0 for the first), as one bit of voice_replies.bits: its letters
 // count once toward the reply's SPEAK_MAX_CHARS, however often it's asked for (LOR-673: a piece asked again after the
@@ -88,18 +96,18 @@ const pieceBit = piece => (Number.isInteger(piece) && piece >= 0 && piece <= MAX
 // A reply's letters with this piece's, once (pieceBit), in one batch with what was counted before it, so the caller
 // knows whether this ask counted them (`again`: an earlier ask of the same piece did) and gives back only what it took.
 // {taken: the row after (RETURNING), again} or {taken: null} when the reply would pass SPEAK_MAX_CHARS.
-async function countPiece(env, userId, reply, period, chars, piece, returning) {
-  return countedPiece(await env.DB.batch(countStatements(env, userId, reply, period, chars, piece, returning)), piece);
+async function countPiece(env, userId, reply, period, chars, piece, returning, max = SPEAK_MAX_CHARS) {
+  return countedPiece(await env.DB.batch(countStatements(env, userId, reply, period, chars, piece, returning, max)), piece);
 }
 // countPiece's two statements, for a caller that batches them with its own (speakPiece), and what their results say.
-const countStatements = (env, userId, reply, period, chars, piece, returning) => {
+const countStatements = (env, userId, reply, period, chars, piece, returning, max = SPEAK_MAX_CHARS) => {
   const bit = pieceBit(piece);
   return [
     env.DB.prepare("SELECT bits FROM voice_replies WHERE user_id = ? AND reply = ? AND period = ?").bind(userId, reply, period),
     env.DB.prepare("UPDATE voice_replies SET chars = chars + CASE WHEN bits & ? THEN 0 ELSE ? END, " +
       "pieces = pieces + CASE WHEN bits & ? THEN 0 ELSE 1 END, bits = bits | ? WHERE user_id = ? AND reply = ? AND " +
       `period = ? AND (bits & ? OR chars + ? <= ?) RETURNING ${returning}`)
-      .bind(bit, chars, bit, bit, userId, reply, period, bit, chars, SPEAK_MAX_CHARS),
+      .bind(bit, chars, bit, bit, userId, reply, period, bit, chars, max),
   ];
 };
 function countedPiece([before, after], piece) {
@@ -179,10 +187,14 @@ export const AZEROTH_STUDIO = {
   "troll-male": "s59hrhio6uwb4qmousbw",
 };
 export const AZEROTH_PICKS = Object.keys(CHARACTER_VOICES).filter(slot => voiceLabel(slot));
-const isPick = pick => Object.hasOwn(WILLO_PICKS, pick) || AZEROTH_PICKS.includes(pick);
-// The picks a companion can offer: her first five, and her male partners and the Voices of Azeroth for a companion
-// that has them (lib/character-voices.js hasAzeroth), so an older one is never offered a voice it can't switch to.
-export const picksFor = client => hasAzeroth(client) ? [...Object.keys(WILLO_PICKS), ...AZEROTH_PICKS] : [...FIRST_FIVE];
+// The Voices of Azeroth are Legend's (lib/billing.js PLAN_VOICE azeroth; the voices and plans picks, Mike, 2026-10-21),
+// and the first-run trial's, which tries Legend's voices (lib/best-first.js withTrial).
+const isPick = (pick, plan = null) => Object.hasOwn(WILLO_PICKS, pick) || (Boolean(plan?.voice?.azeroth) && AZEROTH_PICKS.includes(pick));
+// The picks a companion can offer on a plan: her first five, and her male partners for a companion that has them
+// (lib/character-voices.js hasAzeroth), so an older one is never offered a voice it can't switch to, and the Voices of
+// Azeroth with them on a plan that has those.
+export const picksFor = (client, plan = null) => !hasAzeroth(client) ? [...FIRST_FIVE]
+  : [...Object.keys(WILLO_PICKS), ...(plan?.voice?.azeroth ? AZEROTH_PICKS : [])];
 // The pick a voice's name in WILLO STATE ("voice now: Moonwell", "voice now: Dwarf, man") is, or "" (a voice on the
 // PC, "Heart (on this PC)", is none of them).
 export function pickNamed(name) {
@@ -207,7 +219,7 @@ export const isVoiceKey = key => VOICE_KEYS.includes(key) || (typeof key === "st
 // (lib/billing.js CHARACTER_MODEL, $15 a million letters, about $0.0045 a 300-letter line) in the slot's own Inworld
 // voice, a clone of its reference (its first audio came in 0.40 to 0.66 s, 10/13). Inworld gets CHARACTER_FIRST_AUDIO_MS
 // for its first audio, and the whole piece PROVIDER_MS, as Willo's own; one that's slower, or fails, and Fish says the
-// piece instead, in time for the companion's 2.5 s wait. A slot without an Inworld voice is Fish's alone.
+// piece instead, in time for the companion's 4 s wait. A slot without an Inworld voice is Fish's alone.
 export const CHARACTER_FIRST_AUDIO_MS = 1200;
 // Fish S2.1 Pro through OpenRouter, the paid model, never a free one, and never with data collection. $15 a million
 // bytes of text, its cues too, and OpenRouter's 5.5% (Mike measured about $0.0047 a 300-letter reply and 0.83 to
@@ -239,9 +251,9 @@ export function hostedVoices(env) {
   return voices;
 }
 
-// The pick a plan's player hears: theirs when the plan has choice and it's one of WILLO_PICKS or the Voices of
-// Azeroth, else Sprite.
-export const willoPick = (plan, pick) => plan?.voice?.choice && isPick(pick) ? pick : DEFAULT_PICK;
+// The pick a plan's player hears: theirs when the plan has choice and it's one of WILLO_PICKS, or of the Voices of
+// Azeroth on a plan that has them, else Sprite.
+export const willoPick = (plan, pick) => plan?.voice?.choice && isPick(pick, plan) ? pick : DEFAULT_PICK;
 // Willo's voice for that pick: {name, ids, names (by provider, the pick each id is: Sprite's, "willo", where the pick
 // has no id there, so a pick without a studio clone says the studio voice's replies as Sprite)}.
 function willoVoice(env, plan, pick) {
@@ -284,12 +296,12 @@ async function standing(env, userId, plan, now) {
     best = row?.n || 0;
   }
   const bestLeft = pv.voice === "inworld" ? Math.max(0, (pv.best || 0) - best) : 0;
-  if (pv.voice === "inworld" && ready.includes("inworld") && bestLeft > 0 && room >= SPEAK_MAX_CHARS * rate("inworld", pv.model))
+  if (pv.voice === "inworld" && ready.includes("inworld") && bestLeft > 0 && room >= replyMax(plan) * rate("inworld", pv.model))
     return { now: "finest", bestLeft };
   if (ready.includes("inworld") && (await openPacks(env, userId)).some(packRoom)) return { now: "finest", bestLeft, pack: true };
   if (pv.voice === "local") return { now: "everyday", bestLeft };
   const back = pv.voice === "inworld" && bestLeft === 0 ? window.resetsAt : nextMonth(now);
-  if (ready.includes("deepinfra") && room >= SPEAK_MAX_CHARS * rate("deepinfra"))
+  if (ready.includes("deepinfra") && room >= replyMax(plan) * rate("deepinfra"))
     return { now: "studio", bestLeft, ...(pv.voice === "inworld" ? { back } : {}) };
   return { now: "everyday", bestLeft, back: nextMonth(now) };
 }
@@ -310,27 +322,36 @@ export async function voiceAllowance(env, userId, plan, now = new Date(), taste 
   if (!plansOn(env) || !plan?.voice) return null;
   if (taste === undefined) taste = await tasteState(env, userId, plan, now);
   // The first-run trial (lib/best-first.js) picks her voice from all of hers while its days last.
-  const own = await planVoice(env, userId, withTrial(plan, taste?.trial), now);
-  return taste?.on && readyFor(env, "willo").includes("inworld") ? { ...own, tier: "hosted", now: "finest" } : own;
+  const heard = withTrial(plan, taste?.trial);
+  // pick: the Willo voice this plan hears, from the one the account last picked on its PC (lib/plan-usage.js
+  // savedPick), so the iPhone can show it.
+  const [own, saved] = await Promise.all([planVoice(env, userId, heard, now), savedPick(env, userId)]);
+  const pick = willoPick(heard, saved);
+  return taste?.on && readyFor(env, "willo").includes("inworld") ? { ...own, tier: "hosted", now: "finest", pick }
+    : { ...own, pick };
 }
 async function planVoice(env, userId, plan, now) {
   const pv = plan.voice, choice = Boolean(pv.choice);
-  const pc = { tier: "local", top: "everyday", now: "everyday", choice };
+  // azeroth: the Voices of Azeroth are in her picker (Legend's, and the first-run trial's); whole: her whole answer is
+  // spoken, not only its short spoken part (Legend's); readings: the add-on's short answers in the narrator's voice
+  // (speakReading, Hero and up). The companion shows and asks by them.
+  const more = { azeroth: Boolean(pv.azeroth), whole: Boolean(pv.whole), readings: readsAloud(plan) };
+  const pc = { tier: "local", top: "everyday", now: "everyday", choice, ...more };
   if (plan.id === "free") {
     if (pv.always) return readyFor(env, "willo").includes("deepinfra")
-      ? { tier: "hosted", top: "studio", now: "studio", choice, starterLeft: 0 } : { ...pc, starterLeft: 0 };
+      ? { tier: "hosted", top: "studio", now: "studio", choice, ...more, starterLeft: 0 } : { ...pc, starterLeft: 0 };
     if (!pv.starter) return { ...pc, starterLeft: 0 };
     await setupBilling(env);
     const starterLeft = Math.max(0, STARTER_ANSWERS - await starterSaid(env, userId));
     return starterLeft > 0 && readyFor(env, "willo").includes("deepinfra")
-      ? { tier: "hosted", top: "studio", now: "studio", choice, starterLeft } : { ...pc, starterLeft };
+      ? { tier: "hosted", top: "studio", now: "studio", choice, ...more, starterLeft } : { ...pc, starterLeft };
   }
   if (!readyFor(env, "willo").length || (pv.voice === "local" && !paying(plan))) return pc;
   await setupBilling(env);
   const s = await standing(env, userId, plan, now);
   if (pv.voice === "local" && s.now !== "finest") return pc;
   return { tier: s.now === "everyday" ? "local" : "hosted", top: TOP[pv.voice], now: s.now,
-           ...(s.back ? { back: s.back } : {}), choice, ...(pv.voice === "inworld" ? { bestLeft: s.bestLeft } : {}) };
+           ...(s.back ? { back: s.back } : {}), choice, ...more, ...(pv.voice === "inworld" ? { bestLeft: s.bestLeft } : {}) };
 }
 
 const fromBase64 = b64 => Uint8Array.from(atob(b64), c => c.charCodeAt(0));
@@ -439,7 +460,8 @@ function afterAudio(settled, later, provider) {
 // One piece of a reply said by a hosted voice: {audio (MP3 bytes), provider}, or {local: reason, status} when the
 // companion should say it in Willo's everyday voice on the PC: "plan" (the plan's replies are said on the PC), "spent"
 // (the month's room for the hosted voice is used, or the free plan's spoken starter or the shared free budget), "long"
-// (the reply is past SPEAK_MAX_CHARS), "unavailable" (no voice set up here, or no provider could say it). piece: {text,
+// (the reply is past replyMax: SPEAK_MAX_CHARS, a whole-answer plan's WHOLE_MAX_CHARS), "unavailable" (no voice set up
+// here, or no provider could say it). piece: {text,
 // voice ("willo", or a character's people and gender: isVoiceKey), reply (its REPLY_ID, the same for each of its
 // pieces), pick (the player's Willo voice, as willoPick allows it), spellings (hostedSpellings: the names respelled for
 // the providers)}.
@@ -451,14 +473,15 @@ function afterAudio(settled, later, provider) {
 // fails or sends no audio in CHARACTER_FIRST_AUDIO_MS; when neither can, or the month's room won't hold it, the
 // character steps down to Willo's studio voice (a hosted plan), or the PC, silently. The free plan's spoken starter is
 // Willo's own voice, characters' replies too. line: one of Willo's own lines, not a reply (speakLine); reading: a line
-// that is the add-on's own short answer read aloud (LOR-547), always said on the PC ({local: "reading"}).
+// that is the add-on's own short answer read aloud (LOR-547), said on the PC ({local: "reading"}): readings in the
+// narrator's voice are speakReading's.
 //
 // later (the request's waitUntil, optional): what a said piece cost and that it was heard are written after its audio
 // has gone back, not before (its hold on the month's cap counts until then); without it, before speakPiece returns.
 export async function speakPiece(env, userId, plan, { text, voice, reply, pick, piece, line = false, reading = false,
                                  spellings = {} }, now = new Date(), later = null) {
-  // The add-on's short answers read aloud are always said in Willo's voice on the PC (Mike, 10/15): no provider, and
-  // nothing on the player's month or the free budget. Today's companion never asks; an older one hears this.
+  // The add-on's short answers read aloud go through speakReading, in the narrator's voice; asked as one of Willo's own
+  // lines (an older companion's way, which never asks), they're said on the PC.
   if (line && reading) return { local: "reading", status: 402 };
   const pv = plan?.voice;
   const free = plan?.id === "free";
@@ -510,7 +533,7 @@ export async function speakPiece(env, userId, plan, { text, voice, reply, pick, 
            free && !pv.always ? 1 : 0, userId, period, STARTER_ANSWERS),
     env.DB.prepare("SELECT 1 AS y FROM voice_replies WHERE user_id = ? AND reply = ?").bind(userId, reply),
     ...(packs ? [openPacksStatement(env, userId)] : []),
-    ...countStatements(env, userId, reply, period, chars, piece, "best, npc, pack, chars"),
+    ...countStatements(env, userId, reply, period, chars, piece, "best, npc, pack, chars", replyMax(plan)),
   ]);
   const [, made, kept] = results;
   // The free plan's starter is said: the rest are text (lib/billing.js companionFeatures).
@@ -557,7 +580,7 @@ export async function speakPiece(env, userId, plan, { text, voice, reply, pick, 
   let full = false;
   for (const { provider, model, pack, voiceId, firstAudioMs } of order) {
     const micro = provider === "fish" ? fishCost(input) : chars * rate(provider, model);
-    const left = SPEAK_MAX_CHARS - before;
+    const left = replyMax(plan) - before;
     const need = provider === "fish" ? Math.ceil(left * FISH_MICRO_PER_BYTE) : left * rate(provider, model);
     // The reply taken for this provider and the piece's cost held, in one round trip: held only where the claim took.
     const claimed = await claimAndHold(env, userId, reply, provider, free ? { micro, now }
@@ -768,6 +791,53 @@ async function speakTaste(env, userId, plan, { text, voice, reply, pick, piece, 
 // in that voice or a provider fails. {audio, provider, voice: the voice that said it and its pick ("studio:sprite"), by
 // which the companion keeps it (talk/linecache.py)}, or {local, status} as speakPiece's. The add-on's short answers
 // read aloud (LOR-547) never come here: speakPiece keeps them on the PC, so they cost nothing.
+// The add-on's short answers read aloud in the player's own narrator's voice (Mike, 2026-10-19: "We should host those
+// voices and require a hero plan to listen to short answers"; the voices and plans picks, 10/21: the studio engine
+// first). From Hero up (lib/billing.js READINGS_FROM; the beta's free Hero month and a friends' free month too), said
+// live from the answer's text as the add-on shows it now, never recorded ahead. narrator: the narrator at the top of
+// the player's narrator list, "chronicler" (the male narrator) or "female"; a community narrator's voice is never
+// copied, so the companion shows those as text and never asks. The studio engine only (DeepInfra Chatterbox Turbo),
+// cloned from the pack narrators' own references (experiments/voices/narrators/m-chronicler-1.wav and
+// f-campfire-2.wav, the first 10 s; ~/lab/voice-pricing-picks/narrator-readings); the Pages variable NARRATOR_VOICES
+// (JSON, {"chronicler": "<id>"}) replaces an id. A reading isn't an answer: nothing is counted, and its cost (about
+// $0.0002 for a typical one) goes on the player's month within its total cap (holdUserSpend), never the shared free
+// budget. Without room, or without the voice here, the companion shows the answer as text: {local: "spent" |
+// "unavailable" | "plan" | "narrator"}.
+export const NARRATOR_STUDIO = { chronicler: "wb5jgo95yl22fg3etv8g", female: "sk0s2twuhv4p8tyal7up" };
+export const NARRATORS = Object.keys(NARRATOR_STUDIO);
+// A reading isn't waited on as a reply's first word is: a 400-letter answer took the studio voice 2 to 5 s (10/21).
+export const READING_MS = 8000;
+const PLAN_ORDER = Object.keys(PLANS);
+export const readsAloud = plan => Boolean(plan?.voice) && PLAN_ORDER.indexOf(plan.id) >= PLAN_ORDER.indexOf(READINGS_FROM);
+export function narratorIds(env) {
+  let extra = {};
+  try { extra = env?.NARRATOR_VOICES ? JSON.parse(env.NARRATOR_VOICES) : {}; }
+  catch (e) { console.warn("companion voice: NARRATOR_VOICES isn't JSON; using the ids in the code"); }
+  return Object.fromEntries(NARRATORS.map(n => [n, typeof extra?.[n] === "string" && VOICE_ID.test(extra[n])
+    ? extra[n] : NARRATOR_STUDIO[n]]));
+}
+export async function speakReading(env, userId, plan, { text, narrator, spellings = {} }, now = new Date(), later = null) {
+  if (!plansOn(env) || !readsAloud(plan)) return { local: "plan", status: 402 };
+  if (!NARRATORS.includes(narrator)) return { local: "narrator", status: 400 };
+  const id = narratorIds(env)[narrator];
+  if (!id || !env.DEEPINFRA_API_KEY) return { local: "unavailable", status: 503 };
+  await setupBilling(env);
+  const micro = text.length * rate("deepinfra");
+  const hold = await holdUserSpend(env, userId, micro, now, { cap: plan.totalCapMicro, total: true,
+    need: SPEAK_MAX_CHARS * rate("deepinfra"), launch: Boolean(plan.launch) });
+  if (!hold) return { local: "spent", status: 402 };
+  try {
+    const audio = await deepinfra(env, respell(text, spellings), id, null, null, READING_MS);
+    if (!audio.length || audio.length > MAX_AUDIO_BYTES) throw new Error(`deepinfra sent ${audio.length} bytes of audio`);
+    await afterAudio(addVoiceSpend(env, userId, micro, now, hold, null, Boolean(plan.launch)), later, "deepinfra");
+    return { audio, provider: "deepinfra", voice: `studio:${narrator}` };
+  } catch (e) {
+    await releaseUserSpend(env, hold);
+    console.warn(`companion voice: a reading: deepinfra: ${e?.message || e}`);
+    return { local: "unavailable", status: 503 };
+  }
+}
+
 async function speakLine(env, userId, plan, { text, pick, spellings }, now, later = null) {
   const pv = plan.voice, free = plan.id === "free", ready = readyFor(env, "willo");
   if (!ready.length) return { local: "unavailable", status: 503 };

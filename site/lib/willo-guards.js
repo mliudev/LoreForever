@@ -157,12 +157,16 @@ export function evidenceOf(prompt, question = "") {
 const YOU_ARE_AT = /\b([Yy]ou)(?:'re| are)(?: (?:standing|currently|now|still))*(?: right)? (in|at|near|by) (?=(?:the )?(?:heart|town|edge|middle|center|centre|outskirts|village|city|camp|ruins|gates?) of\b|the(?: \p{Ll}+){1,2} (?:in|of) \p{Lu}|(?:the )?\p{Lu})/gu;
 const LAST_SAID = /\bwhere you were last\b|\byou were last\b|\blast (?:saved|saw)\b|\bif you(?:'re| are)(?: not| no longer| still)\b|\banymore\b/i;
 const OPENERS = /^(?:The|You|Your|Head|Go|Take|Fly|Travel|Walk|Ride|It|There|A|An|Just|To|Follow|Find|Look|Make|Once|First|If|When|Since)\b/;
-export function fromWhereLast(text, place) {
+// said: false is only the rewrite of the present tense (away from the game, where the zone she was given is stale but she
+// may still answer a question that has nothing to do with it): no "From <place>, where you were last," added.
+export function fromWhereLast(text, place, { said = true } = {}) {
   if (typeof text !== "string" || !text.trim() || !place) return text;
   let out = text.replace(YOU_ARE_AT, (_, you, at) => `${you} were last ${at} `)
     // "at the inn here in Sentinel Hill": the "here" goes (the vision check: 2 of 3).
     .replace(/\b(?:right )?here (?=(?:in|at) \p{Lu})/gu, "").replace(/\bright here\b/gi, "there").replace(/\b(?:is |are )?just ahead of you\b/gi, m => m.replace(/just ahead of you/i, "near there"));
-  if (!LAST_SAID.test(out)) {
+  // "You are standing right here in X": the "here" goes first, then the present tense (away, nothing follows to say it).
+  if (!said) out = out.replace(YOU_ARE_AT, (_, you, at) => `${you} were last ${at} `);
+  if (said && !LAST_SAID.test(out)) {
     const town = String(place).split(",")[0].trim();     // the town, not its zone too
     // Words that name the town already get it after its first mention, not the town twice (the vision re-check,
     // 10/19: "From Darkshire, where you were last, to reach the Wetlands from Darkshire, ...").
@@ -251,12 +255,13 @@ export function noCompanion(text) {
 }
 
 export function guardAnswer(answer, { supplied = "", own = true, researched = false, prompt = "", question = "",
-  names = [], savedPlace = "", character = false } = {}) {
+  names = [], savedPlace = "", lastPlace = "", character = false } = {}) {
   if (typeof answer !== "string" || !answer) return answer;
   let text = researched ? answer : unsuppliedPlaces(answer, supplied);
   if (own) text = journeyLevels(inWorld(asCompanion(text)), prompt);
   if (character) text = noCompanion(text);
   if (own && savedPlace) text = fromWhereLast(text, savedPlace);
+  else if (own && lastPlace) text = fromWhereLast(text, lastPlace, { said: false });
   const spellings = soundSpellings(playerLines(prompt, question).filter(l => SOUNDS.test(l)), names);
   return spellings.size ? spelledRight(text, spellings) : text;
 }

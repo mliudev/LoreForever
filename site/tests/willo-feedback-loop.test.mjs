@@ -113,6 +113,29 @@ test("\"no, I meant…\" and \"never mind\" are reports too, and a polite never 
   assert.equal(feedbackKind("I meant to ask about the inn", ""), null, "nothing answered yet");
 });
 
+test("note requests and reassurance do not report the previous answer as wrong (LOR-718)", async () => {
+  const pairs = [
+    ["Make a note to buy free action potions.", "You have 12 gold, 34 silver and 56 copper."],
+    ["No, Willow, you're perfect just the way you are.", "Hold your talk key, speak, then let go."],
+  ];
+  const { ask, rate } = await linked();
+  for (const [said, previous] of pairs) {
+    assert.equal(feedbackKind(said, previous), null, said);
+    assert.deepEqual(signalsFor({ question: said, previousQuestion: "How do I talk to you?",
+      dispute: feedbackKind(said, previous) }), [], said);
+    const result = await ask(said, {}, { question: "Previous question", answer: previous });
+    assert.equal(result.feedback, undefined, said);
+  }
+  assert.equal(rows("answer_feedback").length, 0, "ordinary conversation adds no correction to the review queue");
+  for (const said of ["That's wrong. The boat goes to Southshore.", "Make a note that your information is outdated.",
+    "No, you're perfect just the way you are, but that's wrong. The boat goes to Southshore."]) {
+    assert.equal(feedbackKind(said, pairs[0][1]), "correction", said);
+  }
+  const report = await rate({ question: "How much gold?", answer: pairs[0][1], reasons: ["wrong_fact"], source: "window" });
+  assert.equal(report.body.ok, true);
+  assert.equal(rows("answer_feedback", "kind = 'report'").length, 1, "manual Wrong answer reports still count");
+});
+
 test("topics by the question's words, and by how it was answered", () => {
   assert.equal(topicOf("Where do I turn in the Defias quest?"), "quest");
   assert.equal(topicOf("How do I get to Booty Bay?"), "route");

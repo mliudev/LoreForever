@@ -11,7 +11,7 @@ import { isReportRead } from "./report-read.js";
 // Written from functions/api/companion/answer.js outOfAnswers. The trial's own limits are already kept elsewhere
 // (lib/best-first.js: best_first.finished, best_first_days.capped), and so is a paid plan's look-ups (rate_limits).
 //
-// voice_days, per account, UTC day and what said it: who spoke a reply (kind: "willo", "character" or "line", one of
+// voice_days, per account, UTC day and what said it: who spoke a reply (kind: "willo", "character" or "line" or "reading", one of
 // Willo's own lines), the voice that said it as the companion is told ("finest:moonwell", "studio:sprite") or, when
 // the PC said it, "pc:<why>" (speak.js's reason: "room" when the month's room for a hosted voice is used, "long",
 // "busy", "unavailable", "off"), the Willo voice the player picked (pick, '' for none) and the plan label; replies
@@ -32,9 +32,10 @@ const SETUP = [
     said TEXT NOT NULL, pick TEXT NOT NULL DEFAULT '', plan TEXT, replies INTEGER NOT NULL DEFAULT 0,
     pieces INTEGER NOT NULL DEFAULT 0, chars INTEGER NOT NULL DEFAULT 0, PRIMARY KEY (user_id, day, kind, said, pick))`,
   "CREATE INDEX IF NOT EXISTS voice_days_day ON voice_days (day)",
+  `CREATE TABLE IF NOT EXISTS voice_picks (user_id TEXT PRIMARY KEY, pick TEXT NOT NULL, updated TEXT NOT NULL)`,
 ];
 export const LIMIT_KINDS = ["day", "month", "cost_cap", "brake"];
-export const VOICE_KINDS = ["willo", "character", "line"];
+export const VOICE_KINDS = ["willo", "character", "line", "reading"];
 
 const ready = new WeakMap();
 export async function setupPlanUsage(env) {
@@ -94,10 +95,36 @@ export async function recordVoice(env, userId, plan, { kind, said, pick = "", fi
   }
 }
 
+// The Willo voice an account last picked on its PC (voice_picks; the PM, 10/21): the PC sends its pick with every piece
+// it asks the site to say (functions/api/companion/speak.js), and the iPhone, which has no picker, sends none and gets
+// it, so she sounds the same on both. Only a name: what a plan may hear is still lib/companion-voice.js willoPick's.
+export async function savePick(env, userId, pick, now = new Date()) {
+  const p = word(pick, 40);
+  if (!env?.DB || !userId || !p) return false;
+  try {
+    await setupPlanUsage(env);
+    await env.DB.prepare("INSERT INTO voice_picks (user_id, pick, updated) VALUES (?, ?, ?) ON CONFLICT (user_id) DO " +
+      "UPDATE SET pick = excluded.pick, updated = excluded.updated WHERE voice_picks.pick != excluded.pick")
+      .bind(userId, p, now.toISOString()).run();
+    return true;
+  } catch (e) {
+    console.warn(`plan usage: voice pick: ${e?.message || e}`);
+    return false;
+  }
+}
+export async function savedPick(env, userId) {
+  if (!env?.DB || !userId) return "";
+  try {
+    await setupPlanUsage(env);
+    return (await env.DB.prepare("SELECT pick FROM voice_picks WHERE user_id = ?").bind(userId).first())?.pick || "";
+  } catch { return ""; }
+}
+
 // "Delete my account" (lib/accounts.js USER_DATA): the account's rows here.
 export const PLAN_USAGE_USER_DATA = [
   ["DELETE FROM limit_hits WHERE user_id = ?", u => u.id],
   ["DELETE FROM voice_days WHERE user_id = ?", u => u.id],
+  ["DELETE FROM voice_picks WHERE user_id = ?", u => u.id],
 ];
 
 // The last `days` UTC days by plan label, for /api/admin (and the pricing page's numbers):

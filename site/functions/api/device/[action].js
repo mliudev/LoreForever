@@ -25,7 +25,7 @@
 // account, status 30 a minute per account.
 
 import { setup, currentUser, fail, noStore, sameOrigin, verifyApple, findOrCreateAppleUser, recordTerms } from "../../../lib/accounts.js";
-import { profileOf, sheetLine } from "../../../lib/profiles.js";
+import { profileOf, sheetLine, sideOf } from "../../../lib/profiles.js";
 import {
   startLink, openLink, decideLink, claimToken, currentDevice, listDevices, revokeDevice, forgetDevice, normalizeCode,
   issueToken, LABEL,
@@ -90,7 +90,7 @@ async function status({ env }, app) {
   return ok({
     ...(historyEnabled(env) ? { historyVersion: 2 } : {}),
     connected: true, device: { id: app.device.id, last_sync: app.device.last_sync },
-    profile: p ? { name: p.data.name, realm: p.data.realm, sheet: sheetLine(p.data), handle: p.handle,
+    profile: p ? { name: p.data.name, realm: p.data.realm, sheet: sheetLine(p.data), faction: sideOf(p.data) || undefined, handle: p.handle,
                    url: "/u/" + p.handle, public: Boolean(p.public), updated: p.updated } : null,
   });
 }

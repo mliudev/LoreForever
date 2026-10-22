@@ -8,14 +8,15 @@ import { markAsked } from "../../../lib/activity.js";
 import { allowance, reserveAnswer, answerReservation, seesPicture, writeAnswer, restLine, sayOf, SAY_MAX_CHARS, lookUp, uncapped,
   personaOf, styleOf, COMPACTIONS_PER_DAY, ANSWER_PROMPT_BYTES, ANSWER_IMAGE_CHARS, LORE_FOCUS, TRAIL_COLD, CUSTOM_PROMPT_BYTES,
   VERIFICATION_FAILED } from "../../../lib/companion-answers.js";
-import { promptParts, knowledgeFor, asksTheWay, wayQuestion, withQuestion, factSources, offerTaken, meant, otherVersions }
+import { promptParts, withoutLive, knowledgeFor, asksTheWay, wayQuestion, withQuestion, factSources, offerTaken, meant, otherVersions }
   from "../../../lib/forever-knowledge.js";
 import { feedbackKind, logFeedback, IMPLICIT_KINDS } from "../../../lib/answer-feedback.js";
+import { registerScreenshot, diagnosticConsent, storageReady } from "../../../lib/diagnostic-screenshots.js";
 import { logAnswer, tagAnswer } from "../../../lib/answer-log.js";
 import { planLabel, recordLimit } from "../../../lib/plan-usage.js";
 import { lastOf, signalsFor, queueWorthy, newAnswerId, signalWords, topicOf } from "../../../lib/answer-signals.js";
 import { cachedFinding, keepFinding, findingBlock, wantsSearch, realWorld, searchesBefore, pressedToLook, FOUND_NOTHING,
-  askedAgain } from "../../../lib/research-cache.js";
+  askedAgain, needsTalentResearch } from "../../../lib/research-cache.js";
 import { helpBlock, helpTopics, helpQuestion, stateOf, asksWhatKept, asksWhereNotes } from "../../../lib/willo-help.js";
 import { keptSummary } from "../../../lib/keeps-notebook.js";
 import { lookupsFor, actionsFor, actionOf, keepsOffer, offerInstead, offerLine, freeKey, SAYS_DONE } from "../../../lib/willo-tools.js";
@@ -23,13 +24,14 @@ import { picksFor, pickNamed } from "../../../lib/companion-voice.js";
 import { planFor, plansOn, holdUserSpend, releaseUserSpend, addUserSpend, useStarter, useShare, returnStarter, offersFor,
   poolWindow, capState, companionFeatures, PLANS, setupBilling } from "../../../lib/billing.js";
 import { promptRow, blocksOf, allowedFor, NPC_KEY } from "../../../lib/willo-custom.js";
-import { takeFirst, returnTaste, takeTasteLookup, giveTasteLookup, holdDay, settleDay, tasteFor, trialOf, trialRow,
+import { memoriesBlock } from "../../../lib/willo-memories.js";
+import { takeFirst, returnTaste, takeTasteLookup, giveTasteLookup, holdDay, settleDay, tasteFor, trialOf, trialRow, withTrial,
   tryOnce, untry } from "../../../lib/best-first.js";
 import { bulkScope, bulkTurn, bulkReply, bulkLine, relocateOps, relocateLine, undoAsk, undoPages, undoLine, NOTHING_TO_UNDO, UNDO_ELSEWHERE,
   REMINDER_GONE_LINE, tookReminder, setReminder } from "../../../lib/willo-notebook-manage.js";
 import { pageOf, notebookIntent, readNotebook, notebookView, notebookTools, notebookCall, plannedChange,
   confirmed, alreadyLine, unclaimed, saidYes, withRest, titleOf, knownPlaces, plannedReminder, reminderLine, isNotebookTool,
-  allReminders, undoPage,
+  allReminders, undoPage, notebookWritePage, NEED_CHARACTER_LINE,
   NOT_FOUND_LINE, FULL_LINE, UNSAVED_LINE, NOTE_CLAIM, notWritten, REMIND_RULES, REMIND_PLAN_RULE, REMIND_PLAN_SPOKEN, REMINDERS_FULL_LINE,
   unknownPlace, unknownPlaceLine, planReminderLine, asksReminders, remindersAnswer, noMoment, lateReminder, timedReminder, emptyListAnswer }
   from "../../../lib/willo-notebook.js";
@@ -38,12 +40,13 @@ import { pinIntent, spotOf, pinTool, pinCall, pinUpdate, pinRules, pinnedLine, u
   from "../../../lib/willo-pins.js";
 import { savedJourney } from "../../../lib/saved-journey.js";
 import { asks as asksJourney, hasJourney, recall, withRecall } from "../../../lib/willo-recall.js";
+import { savedStock } from "../../../lib/willo-stock.js";
 import { stockOf, GOALS_ON_HERO, goalIntent, writesGoals, goalsOf, askedGoal, goalsBlock, asOfSave, goalTools, goalCall, isGoalTool,
   goalConfirmed, withoutClaims, withoutGoalClaims, goalsNamed, whichLine, goalsList, GOAL_LIST, QUIET_LINES, numbersIn,
   wrongGold, planLine } from "../../../lib/willo-goals.js";
 import { guardAnswer, groundedWritten, evidenceOf, SOUNDS } from "../../../lib/willo-guards.js";
 import { activateReferral, machineOf } from "../../../lib/referrals.js";
-import { sendIntent, looseSendIntent, sendOffer, sendsFrom } from "../../../lib/friend-send.js";
+import { sendIntent, screenshotRecipientReply, sendOffer, capturesFrom } from "../../../lib/friend-send.js";
 import { withFriendsNote } from "../../../lib/friends-note.js";
 
 // A typed question about Willo herself that the companion asked to have researched is answered from her help, which
@@ -70,6 +73,9 @@ export const needsPlace = (question, parts, image, facts = []) => !parts?.zone &
   (NEEDS_PLACE.has(topicOf(question)) || OWN_STATE.test(String(question || "")));
 
 const CLIENT = /^companion\/[\w.-]{1,24}$/;
+// Away from the game, the zone the context gave ("<sub>, <zone>") is where they last were: willo-guards.js fromWhereLast
+// says her "right here" and "you are in" as from there.
+const placeOf = (parts, away) => away ? [parts.sub, parts.zone].filter(Boolean).join(", ") : "";
 // What the facts don't hold, so a question about it is still researched when the companion asks. "Auction" is a
 // price, but the auction house or its auctioneers are a place the town facts hold ("where's the auction house in
 // Ironforge?", LOR-614).
@@ -164,7 +170,7 @@ async function answerQuestion(context, hold) {
   const bytes = new TextEncoder().encode(input).length;
   if (bytes > MAX_PICTURE_BODY_BYTES) return tooBig();
   let prompt, operation, researchRequired, persona, style, image, autoResearch, npc, dataVersion, keep, names, current,
-    offset, stock, layers, last;
+    offset, stock, layers, last, awayAsked;
   try {
     const body = JSON.parse(input);
     prompt = body.prompt;
@@ -190,18 +196,22 @@ async function answerQuestion(context, hold) {
     keep = body.keep === true;
     names = keep && Array.isArray(body.names) ? body.names.slice(0, 60) : [];
     // Optional (Willo's notebook, lib/willo-notebook.js): {character: the add-on's key for who's asking}, for that
-    // character's page beside the account's. Without it (an older companion, the iPhone), the account's page only.
+    // character's page beside the account's. Without it the shared page can be read, but writes need explicit scope.
     current = pageOf(body.notebook?.character);
     // and offset: the player's clock, minutes from UTC, for a reminder at a time of day (LOR-663).
     offset = Number.isInteger(body.notebook?.offset) && Math.abs(body.notebook.offset) <= 14 * 60 ? body.notebook.offset : null;
     // Optional (Willo's goals, lib/willo-goals.js stockOf, LOR-665): what the add-on last saved of that character (gold,
     // level, skills, reputation, riding, their evenings), for how their goals stand. Without it she says she can't see
-    // it yet.
+    // it yet. Without it (Willo for iPhone, an older app), the last save the PC's app sent with the profile is read with
+    // the notebook below and told as of that save (lib/willo-stock.js); stock sent with the question always wins.
     stock = stockOf(body.stock);
     // Optional (LOR-673, speak short, show full): layers 2 from an app that takes a spoken answer in two layers, her
     // spoken words (say, at most SAY_MAX_CHARS letters) and the written answer, as NDJSON when her words come first
     // (onRequest). Without it (an older app, the iPhone), one answer as before.
     layers = body.layers === 2;
+    // Optional (10/21): away true from a Willo on a PC whose game isn't running (the iPhone is always away, below), so her
+    // answer speaks of where they last were, not where they are. Anything else, an older companion too, is in the game.
+    awayAsked = body.away === true;
     // Optional (the feedback loop, 10/18): what the app knows of the answer before this question (lib/answer-signals.js
     // lastOf: its answer_id, how long ago, whether she was cut off or her voice never played, whether it failed), for
     // the signals it gives that answer. Read only while keep is on.
@@ -220,16 +230,18 @@ async function answerQuestion(context, hold) {
   // An older Willo's note about the player's friends, with the newer one in its place (lib/friends-note.js: they/them
   // always, old sightings as last seen, never speaking for them).
   prompt = withFriendsNote(prompt);
+  // Away from the game (the iPhone, or a PC whose game isn't running): nothing in the context is what's around them now.
+  const away = operation === "answer" && (awayAsked || /^companion\/ios-/.test(request.headers.get("X-LF-Client") || ""));
+  if (away) prompt = withoutLive(prompt);
   const now = new Date();
   const compact = operation === "compact";
   // What WoW Forever changed, for this question and place (LOR-446), looked up while the allowance is checked.
   const parts = compact ? null : promptParts(prompt);
-  // "Willo, send this to Mike" (lib/friend-send.js, LOR-674): answered here in fixed words, with the send offered as an
-  // action, never by the answer model and without using one of their answers. Only a Willo that runs the action. A
-  // loose one (a thing by its bare name, or one she can't send) only to a friend by that name: else it's a question.
-  const sending = operation === "answer" && persona === "willo" && sendsFrom(request.headers.get("X-LF-Client"))
-    ? sendIntent(parts.question) || looseSendIntent(parts.question) : null;
-  const [offer, sendLeft] = sending ? await Promise.all([sendOffer(env, app.user.id, sending, parts, prompt, now.getTime()),
+  // Screenshot requests are answered in fixed words without spending an answer. Only an explicitly capable desktop
+  // gets a local capture action; phone and older desktop clients get clear directions. Card sends have retired.
+  const sending = operation === "answer" && persona === "willo" ? sendIntent(parts.question) || screenshotRecipientReply(parts) : null;
+  const [offer, sendLeft] = sending ? await Promise.all([sendOffer(env, app.user.id, sending,
+    capturesFrom(request.headers.get("X-LF-Capabilities")), now.getTime()),
     allowance(env, app.user.id, now)]) : [];
   if (offer) {
     const asked = markAsked(env, app.user.id, now.getTime());
@@ -250,6 +262,13 @@ async function answerQuestion(context, hold) {
   // notebook, so asked about one she reads it, and asked to pin or change one she's offered its tools. Where they stand
   // comes only from Willo's app ("spot now:" in PLAYER CONTEXT); without it nothing can be pinned.
   const pinning = operation === "answer" ? pinIntent(parts.question) : { add: false, manage: false, read: false };
+  // Ask before offering tools or spending an answer. An unknown character is not a request for an account-wide note.
+  if (operation === "answer" && !notebookWritePage({ current, question: parts.question })
+      && (intent.write || pinning.add || pinning.manage || goalIntent(parts.question).set)) {
+    return Response.json({ ok: true, answer: NEED_CHARACTER_LINE, ...(style ? { say: NEED_CHARACTER_LINE } : {}),
+      model: "willo-notebook", timing: { model_ms: 0, total_ms: Date.now() - started },
+      lookups: [], looked_up: "no" }, { headers: noStore });
+  }
   // ...or by a place's name ("pin Fargodeep Mine as the kobold den": one this age has, never a model's), or where their
   // last save left them ("pin where I last was": the journey Willo's app synced) (LOR-672). Willo for iPhone never knows
   // where they stand: asked to pin it, she says so and how to pin from the phone (pinSay).
@@ -281,7 +300,8 @@ async function answerQuestion(context, hold) {
   if (intent.write) [researchRequired, autoResearch, image] = [false, false, null];
   // Their notebook's two pages (this character's and the account's), read from now on alongside the rest: one indexed
   // read, which a failed one reads as empty, never failing the answer.
-  const reading = operation === "answer" ? readNotebook(env, app.user.id, current, { prev: undoing }).catch(e => {
+  // The character's last kept save (stock, when the question came without one) rides in the same batch: no round trip of its own.
+  const reading = operation === "answer" ? readNotebook(env, app.user.id, current, { prev: undoing, stock: !stock }).catch(e => {
     console.warn(`companion answer: notebook: ${e?.message || e}`);
     return { pages: [], reminders: [] };
   }) : null;
@@ -307,6 +327,12 @@ async function answerQuestion(context, hold) {
       console.warn(`companion answer: customization: ${e?.message || e}`);
       return null;
     }) : null;
+  // What the player told Willo about themselves (lib/willo-memories.js, LOR-729): for her own answers only, read alongside
+  // the rest; a failure to read it gives an ordinary answer. "" for a player with none, which leaves the prompt as it was.
+  const remembering = operation === "answer" ? memoriesBlock(env, app.user.id, { operation, question: parts.question }).catch(e => {
+    console.warn(`companion answer: memories: ${e?.message || e}`);
+    return "";
+  }) : null;
   // Willo's daily and weekly players (lib/activity.js markAsked, LOR-524): every question counts, answered or not.
   if (!compact) {
     const asked = markAsked(env, app.user.id, now.getTime());
@@ -428,6 +454,7 @@ async function answerQuestion(context, hold) {
   // with the question), and its tools when asked to write: in place of the app's actions, which a note never needs.
   // Reminders (LOR-663) on Hero and up, while the site sells plans (lib/billing.js companionFeatures).
   const book = await reading;
+  if (!stock && book?.stock) stock = savedStock(book.stock);
   // "What do you know about me?" (LOR-666): what she keeps in it, counted here (lib/keeps-notebook.js keptSummary).
   if (help && book && asksWhatKept(parts.question)) {
     help += `\n- What you keep in their notebook now, counted for you (this character's page and the one for all of ` +
@@ -442,6 +469,8 @@ async function answerQuestion(context, hold) {
   const goalAsk = goalsOn ? goalIntent(parts.question, { have: haveGoals }) : null;
   const goalWrite = Boolean(goalAsk && writesGoals(goalAsk));
   if (goalWrite) [researchRequired, autoResearch, image] = [false, false, null];
+  const talentResearch = operation === "answer" && !intent.write && !goalWrite &&
+    needsTalentResearch(parts.question, parts.previousQuestion, dispute);
   const view = book ? notebookView(book.pages, { current, question: parts.question, spoken: Boolean(style),
     previous: `${parts.previousQuestion} ${parts.previous}`, reminders: book.reminders, offset,
     level: Number(parts.level) || null, now, intent: goalWrite ? { ...intent, read: true } : intent }) : null;
@@ -500,7 +529,7 @@ async function answerQuestion(context, hold) {
   // a plan with it (lib/billing.js companionFeatures).
   // Asked to write in their notebook, its tools instead (noteTools, above): a note never needs the app's.
   const actions = noteTools.length || goalOffer.length ? [...noteTools, ...goalOffer] : help ? actionsFor(helpTopics(helpAsked, { plans: plansOn(env), client: request.headers.get("X-LF-Client") }), {
-    voices: plan.voice?.choice || trying ? picksFor(request.headers.get("X-LF-Client")) : [],
+    voices: plan.voice?.choice || trying ? picksFor(request.headers.get("X-LF-Client"), withTrial(plan, trial)) : [],
     current: pickNamed(/^voice now: ([^(\n]+)/m.exec(state)?.[1]),
     key: freeKey(state), liveOff: /^live: (?:bad|warn)\b/m.test(state),
     fixable: /^\w+: (?:bad|warn), .*; fix: /m.test(state), spoken: Boolean(style), plans: plansOn(env),
@@ -526,9 +555,14 @@ async function answerQuestion(context, hold) {
   // Her last answer rides along: it may spell what speech misheard ("Shoney's disarm" was Shoni's Disarming Tool).
   // A yes to her own offer ("Want me to tell you where to train?" "Yes.") looks up the offer (forever-knowledge.js meant).
   const taken = !compact && !real && Boolean(offerTaken(parts));
-  const subject = taken ? meant(parts) : !compact && !real && parts.previousQuestion && searchesBefore(parts.question)
-    ? { ...parts, question: `${parts.previousQuestion} (about: ${parts.previous.slice(0, 200)})`.slice(0, 600) } : parts;
-  const pressed = operation === "answer" && !real && !help && (dispute === "correction" || pressedToLook(parts?.question));
+  const searchingBefore = !taken && !compact && !real && parts.previousQuestion && searchesBefore(parts.question);
+  const subject = taken ? meant(parts) : searchingBefore
+    ? { ...parts, question: `${parts.previousQuestion} (about: ${parts.previous.slice(0, 200)})`.slice(0, 600) }
+    // A named talent correction keeps its new name, never the model's rejected talent names (LOR-721).
+    : talentResearch && !/\btalents?\b/i.test(parts.question)
+      ? { ...parts, question: `Talent guidance in WoW Forever: ${parts.question}` } : parts;
+  const pressed = operation === "answer" && !real && !help &&
+    (talentResearch || dispute === "correction" || pressedToLook(parts?.question));
   // A typed question the companion wants researched (research_required) that its facts answer (FOREVER FACTS,
   // travel and flights among them, QUEST AND NPC FACTS, ITEM FACTS: the same "asked" that skips a spoken question's
   // quick look-up) is answered from them instead, on the ordinary model. Required research throws away an answer
@@ -538,21 +572,23 @@ async function answerQuestion(context, hold) {
   // 26% -> 11% and 14%, p50 4.5-5.6 s -> 1.1-1.3 s, $23-25 -> $9.20 per 1,000. Not when the player asks for a look
   // themselves, nor for what the facts don't hold (a quest's rewards, prices), nor when no covering fact has a source
   // to show.
-  const fromFacts = operation === "answer" && researchRequired && !real && !help && !pressedToLook(parts.question)
+  const fromFacts = operation === "answer" && researchRequired && !talentResearch && !real && !help && !pressedToLook(parts.question)
     && !NOT_IN_FACTS.test(parts.question) && factSources(known.facts.filter(f => f.asked)).length > 0;
   const lookOnline = !freePath;
   // A question about Willo herself never looks online, typed (research_required) or spoken: her help answers it.
-  const wantsResearch = operation === "answer" && !help && (researchRequired || ((autoResearch || real) && lookOnline));
+  const wantsResearch = operation === "answer" && !help &&
+    (researchRequired || ((autoResearch || real || talentResearch) && lookOnline));
   let strong = stronger && !compact;
   const longMemory = (Boolean(PLANS[plan.id]?.longMemory) || trying) && compact;
   // Looking it up (LOR-446). What another player's search found for the same question here answers without searching
   // again, for required research too. research "auto" (the companion asks for it with spoken questions) looks online
   // quickly only when the lore and Forever facts can't answer: a practical or current question or a correction that no
-  // fact covers (lib/research-cache.js wantsSearch). One it wouldn't look up gets no earlier finding either, so where
+  // fact covers (lib/research-cache.js wantsSearch). Talent guidance also opts in on older typed clients: incidental
+  // race/class facts don't verify talent mechanics. One it wouldn't look up gets no earlier finding either, so where
   // am I or a lore question never shows web sources. Forever facts never cover the player's own world: "the best
   // graphics card for WoW?" shares "best" and "WoW" with facts about Dalaran.
   const searchable = wantsResearch && !fromFacts &&
-    (researchRequired || real || wantsSearch(parts.question, dispute, known.facts));
+    (talentResearch || researchRequired || real || wantsSearch(parts.question, dispute, known.facts));
   let finding = searchable ? await cachedFinding(env, subject, now) : null;
   const cached = Boolean(finding);
   let research = researchRequired && !help && !finding && !fromFacts;
@@ -689,13 +725,24 @@ async function answerQuestion(context, hold) {
   };
   // The answer, kept KEEP_DAYS for the nightly check while the player's switch is on (keep, above); never a
   // compaction. Written while the reply goes out (waitUntil), so it never holds it up; logAnswer never throws.
+  // Snapshot consent before starting the model request; a later opt-in is never retroactive.
+  const imageConsent = keep && image && storageReady(env)
+    ? diagnosticConsent(env, app.user.id).catch(() => null) : Promise.resolve(null);
   const keepAnswer = async entry => {
     if (!keep || compact) return;
     const kept = logAnswer(env, app.user.id, { operation, npc, spoken: Boolean(style), zone: parts.zone,
       sub: parts.sub, question: parts.question, feedback: dispute, ref: answerId, total_ms: Date.now() - started,
       ctx: { race: parts.race, class: parts.class, level: parts.level, faction: parts.faction, target: parts.target },
       plan: planLabel(plan), ...entry }, { names, now });
-    if (context.waitUntil) context.waitUntil(kept); else await kept;
+    if (context.waitUntil) {
+      context.waitUntil(kept);
+      if (entry.outcome === "answered" && entry.model !== "site" && seesPicture(operation, research, style, image)) {
+        context.waitUntil(kept.then(async saved => {
+          const consent = await imageConsent;
+          if (saved && consent) await registerScreenshot(env, app.user.id, answerId, image, { consent });
+        }).catch(() => {}));
+      }
+    } else await kept;
   };
   try {
     // The allowance the reply carries is read while the answer is written (LOR-654): this answer's count is in already;
@@ -736,7 +783,7 @@ async function answerQuestion(context, hold) {
       if (size(recalled) > ANSWER_PROMPT_BYTES) recalled = recalled.replace(/\n\nCONVERSATION\n[\s\S]*?(?=\n\nQUESTION\n)/, "");
       if (size(recalled) <= ANSWER_PROMPT_BYTES) prompt = recalled;
     }
-    if (subject !== parts && !taken) {
+    if (searchingBefore) {
       reread(parts.previousQuestion);
       custom = { ...custom, system: withBlock(custom.system, askedAgain(parts.previousQuestion, Boolean(finding))) };
     } else if (pressed && !finding && !research) custom = { ...custom, system: withBlock(custom.system, FOUND_NOTHING) };
@@ -756,7 +803,7 @@ async function answerQuestion(context, hold) {
     const layered = layers && Boolean(style) && operation === "answer" && !research && !listing;
     const guarded = text => guardAnswer(text, { supplied: [evidenceOf(prompt, parts.question), knowledgeText, help]
       .join("\n"), own: true, researched: research, prompt, question: parts.question,
-      names: [parts.zone, parts.sub, parts.target], savedPlace: parts.savedPlace });
+      names: [parts.zone, parts.sub, parts.target], savedPlace: parts.savedPlace, lastPlace: placeOf(parts, away) });
     const early = layered && !actions.length && !clearing && !dropping.length && !goalText && !goalInfo.reached.length
       && !intent.read && !intent.write && !intent.remind && !intent.move && !pinning.add && !pinning.read
       && !pinning.manage && !pinning.list && !pinning.clearAll
@@ -769,8 +816,9 @@ async function answerQuestion(context, hold) {
       answer: siteSays, sources: [], web_sources: [], web_search: { status: "not_needed", queries: [], suggestions_html: "" },
       model: "site", usage: null, model_ms: 0, counted: 0 }))
       : await writeAnswer(env, prompt, now, research, operation,
-        { persona, style, image, facts: knowledgeText, help, dispute, custom: custom.system, strong, longMemory, actions,
-          later, layered, onSay, lite, smarter })
+        { persona, style, image, facts: knowledgeText, help, dispute, custom: custom.system, memories: remembering ? await remembering : "", strong, longMemory, actions,
+          later, layered, onSay, lite, smarter,
+          away: away && (parts.zone || parts.sub || parts.savedPlace ? "last" : "none") })
         .finally(() => loggedFirst);
     const fromModel = result.answer;
     await afterwards(settle(counted));
@@ -957,12 +1005,12 @@ async function answerQuestion(context, hold) {
       result.answer = withoutClaims(result.answer);
     else if ((goalText || goalOffer.length) && !notebook && !listing && !goalsReply && !noted?.say && !noted?.missing
       && !goalCalled?.same)
-      result.answer = withoutGoalClaims(result.answer, planLine(goals, stock, { question: parts.question, ...here }));
+      result.answer = withoutGoalClaims(result.answer, planLine(goals, stock, { question: parts.question, stale: goalInfo.stale === true, ...here }));
     // The wrong-number guard: an answer about their goals that says a gold amount nothing she was given holds (a price
     // remembered from the original game, a sum of her own) says the plan's own line instead.
     if (goalText && result.answer && wrongGold(result.answer, new Set([...numbersIn(knowledgeText, parts.question),
       ...goalInfo.numbers]))) {
-      const line = planLine(goals, stock, { asked: goalCalled?.goal || goalInfo.asked, question: parts.question, ...here });
+      const line = planLine(goals, stock, { asked: goalCalled?.goal || goalInfo.asked, question: parts.question, stale: goalInfo.stale === true, ...here });
       if (line) result.answer = notebook && noted?.goal ? goalConfirmed(line, noted.goal, noted.op) : line;
     }
     // Nothing written, and her own words say she wrote it down (any question, notebook in play or not): never.
@@ -976,15 +1024,16 @@ async function answerQuestion(context, hold) {
     // other words in the answer, none, and the app says the start of the written answer, as it did before.
     const ownWords = result.answer === fromModel;
     if (layered && (said || (ownWords && modelSay))) result.say = said ?? guarded(modelSay);
-    // Out loud, about their goals, from a save older than STALE_SECONDS: her numbers as of that save (asOfSave).
-    if (style && goalText && goalInfo.stale) for (const k of ["answer", "say"]) if (result[k]) result[k] = asOfSave(result[k]);
+    // About their goals from a save older than STALE_SECONDS, or from the site's keeping of the last one (the phone's
+    // answers: stock.fromSave): her numbers as of that save (asOfSave), out loud or written.
+    if (goalText && goalInfo.stale && (style || stock?.fromSave)) for (const k of ["answer", "say"]) if (result[k]) result[k] = asOfSave(result[k]);
     if (said && !ownWords) console.warn("companion answer: her spoken words went out before the site changed the answer");
     // Last checks, in code (lib/willo-guards.js): no map coordinates nothing supplied gives, "your people" in Willo's
     // own words, names spelled as the game spells them. Her own earlier answers are no evidence (evidenceOf).
     const supplied = [evidenceOf(prompt, parts?.question), knowledgeText, help].join("\n");
     if (!compact && result.answer && result.answer !== VERIFICATION_FAILED)
       result.answer = guardAnswer(result.answer, { supplied, own: operation === "answer", researched: research, prompt,
-        question: parts.question, names: [parts.zone, parts.sub, parts.target], savedPlace: parts.savedPlace,
+        question: parts.question, names: [parts.zone, parts.sub, parts.target], savedPlace: parts.savedPlace, lastPlace: placeOf(parts, away),
         character: operation === "character" });
     // Two layers: the written answer adds only names and numbers what she was given holds (groundedWritten), then
     // her line about the rest when it still says more than her words (restLine): on the end of her words when they go
@@ -1036,7 +1085,7 @@ async function answerQuestion(context, hold) {
     // plan never looks online), its month's look-ups or the day's budget said no. The nightly check tells those apart
     // from a question the rule let go (LOR-627: 42 of 42 kept answers said "no").
     const offline = !research && !quick && !cached && !fromFacts && operation === "answer" && !help &&
-      (real || (askedToLook && wantsSearch(parts.question, dispute, known.facts)));
+      (talentResearch || real || (askedToLook && wantsSearch(parts.question, dispute, known.facts)));
     const lookedUp = cached ? "cached" : research ? "required" : fromFacts ? "facts" : looked ? "quick"
       : quick ? "empty" : offline ? "off" : "no";
     // Of the notebook, only which of its tools ran, never what's in it (a to-do the site wrote itself: notebook_add; a

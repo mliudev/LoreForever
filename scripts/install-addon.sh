@@ -20,6 +20,12 @@ STORE="$ADDONS_SRC/../scripts/audio_store.py"
 # Audio lived in Git LFS until 10/18. A checkout of an older commit has small pointer files where the recordings
 # should be; installing those would leave the narration silent, so stop before copying anything.
 for name in "${FOLDERS[@]}"; do
+  # A store pack with no recordings here would install silent: say so instead (hydrate above fills the packs it names).
+  if [ -f "$ADDONS_SRC/../release/audio-store/$name.json" ] && ! grep -q '"files": 0,' "$ADDONS_SRC/../release/audio-store/$name.json" \
+     && [ -z "$(find "$ADDONS_SRC/$name/Audio" -type f -print -quit 2>/dev/null)" ]; then
+    echo "install-addon: addon/$name/Audio has no recordings. Fetch them first: python3 scripts/audio_store.py hydrate --pack $name" >&2
+    exit 1
+  fi
   [ -d "$ADDONS_SRC/$name/Audio" ] || continue
   n="$(find "$ADDONS_SRC/$name/Audio" -type f -size -1025c -print0 \
        | xargs -0 -r grep -l '^version https://git-lfs' | wc -l || true)"
@@ -43,7 +49,7 @@ for name in "${FOLDERS[@]}"; do
   # failed delete would leave a half-removed add-on. Files the game has locked are skipped (audio rarely changes).
   mkdir -p "$DEST"
   ( cd "$SRC" && find . -type d -exec mkdir -p "$DEST/{}" \; )
-  ( cd "$SRC" && find . -type f | while read -r f; do cp -f "$f" "$DEST/$f" 2>/dev/null || echo "skipped (in use): $name/$f"; done )
+  ( cd "$SRC" && find . -type f | while read -r f; do cp -f --no-preserve=mode "$f" "$DEST/$f" 2>/dev/null || echo "skipped (in use): $name/$f"; done )
   # Drop files that no longer exist in the source (old data chunks), again skipping anything locked.
   ( cd "$DEST" && find . -type f | while read -r f; do [ -e "$SRC/$f" ] || rm -f "$f" 2>/dev/null || true; done )
   echo "Installed $name -> $DEST"

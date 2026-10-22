@@ -288,6 +288,14 @@ def cmd_manifest(_args) -> int:
             raise Failure(str(e)) from e
         files = recordings(pack)
         if not files:
+            store = ROOT / "release" / "audio-store" / f"{pack}.json"
+            try:   # an asset-store pack whose manifest names recordings must not drop out of release/audio.json unseen
+                named = json.loads(store.read_text(encoding="utf-8")).get("files") or 0 if store.is_file() else 0
+            except (OSError, ValueError):
+                named = 0
+            if named:
+                raise Failure(f"addon/{pack}/Audio has no recordings, but {store.relative_to(ROOT)} names {named}. "
+                              f"Fetch them first: python3 scripts/audio_store.py hydrate --pack {pack}")
             continue   # build-release.sh refuses a shipped voice pack without recordings
         reject_pointers(pack, files)
         fp = fingerprint(files)

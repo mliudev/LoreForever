@@ -1,5 +1,5 @@
 // A profile's story read aloud (LOR-316): the written story on /u/<handle> (lib/profiles.js), recorded in the male
-// campfire narrator's voice, with a Listen button over it (public/js/storyvoice.js). Each story is recorded once,
+// narrator's voice (the Chronicler), with a Listen button over it (public/js/storyvoice.js). Each story is recorded once,
 // the first time its page is opened. Only written stories: a template story changes with every update, and the
 // add-on's own summary isn't worth a recording.
 //

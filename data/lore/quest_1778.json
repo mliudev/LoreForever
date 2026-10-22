@@ -49,7 +49,7 @@
     "who is stephanie",
     "stephanie stormwind"
    ],
-   "answer": "Stephanie is an acquaintance or loved one residing back in Stormwind, whom the quest giver hopes to reunite with after completing business away from home.",
+   "answer": "Stephanie Turner is John Turner's wife in Stormwind, where they run an orphanage together. John hopes to return to her after gathering supplies in Ironforge.",
    "q": "Who is Stephanie?"
   },
   {
@@ -66,7 +66,7 @@
     "why speak to tiza in ironforge",
     "ironforge tome of divinity"
    ],
-   "answer": "Initiates are sent back to Ironforge to report their deeds to Tiza Battleforge, proving that they have acted with compassion and selflessness away from the mountain kingdom.",
+   "answer": "Initiates are sent back to Ironforge to report their deeds to Tiza Battleforge, proving that they have acted with compassion and selflessness by helping John Turner in the city.",
    "q": "Why must initiates report to Ironforge?"
   },
   {
@@ -101,7 +101,7 @@
    "title": "Lessons of the Holy Light"
   },
   {
-   "body": "Upon completing a task of assistance abroad, an aspiring paladin returns to the great mountain city of Ironforge to face Tiza Battleforge. Standing before their mentor, the initiate accounts for how they spent their time away and whose burdens they helped shoulder. Satisfied that genuine charity and duty were upheld, Tiza commends the initiate, confirming that such selfless sacrifice is precisely what it means to follow the Light.",
+   "body": "Upon completing a task of assistance in Ironforge, an aspiring paladin returns to Tiza Battleforge. Standing before their mentor, the initiate accounts for how they spent their time away and whose burdens they helped shoulder. Satisfied that genuine charity and duty were upheld, Tiza commends the initiate, confirming that such selfless sacrifice is precisely what it means to follow the Light.",
    "spoiler": 0,
    "title": "Accounting Before Ironforge"
   }

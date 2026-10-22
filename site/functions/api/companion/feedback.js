@@ -17,7 +17,8 @@ import { setup, fail, noStore } from "../../../lib/accounts.js";
 import { currentDevice } from "../../../lib/devices.js";
 import { perDay } from "../../../lib/ratelimit.js";
 import { logFeedback, REASONS } from "../../../lib/answer-feedback.js";
-import { tagAnswer } from "../../../lib/answer-log.js";
+import { diagnosticConsent, storageReady, setupDiagnostics } from "../../../lib/diagnostic-screenshots.js";
+import { playerKey, tagAnswer } from "../../../lib/answer-log.js";
 import { ANSWER_ID } from "../../../lib/answer-signals.js";
 
 const CLIENT = /^companion\/[\w.-]{1,24}$/;
@@ -62,8 +63,20 @@ export async function onRequestPost(context) {
     zone: str(body.zone), sub: str(body.sub), persona: "willo", spoken: body.spoken === true, answerRef: ref, reasons,
     source: str(body.source), followup }, { context, client: request.headers.get("X-LF-Client") });
   if (!ok) return fail(503, "Couldn't send that just now.");
-  // The kept answer, when there is one, says it was reported: the report rate (lib/willo-quality.js). After the reply.
+  // Mark the report before requesting its image, so the separate upload can verify that report.
   const tagging = tagAnswer(env, app.user.id, { ref, tags: ["reported"], question: ref ? null : str(body.question) || null });
-  if (context.waitUntil) context.waitUntil(tagging); else await tagging;
-  return Response.json({ ok: true, line: followup ? THANKS_FOLLOWUP : THANKS }, { headers: noStore });
+  // With screenshot storage off, as before: the tag goes on after the reply.
+  if (!(env.STUDIO && storageReady(env))) {
+    if (context.waitUntil) context.waitUntil(tagging); else await tagging;
+    return Response.json({ ok: true, line: followup ? THANKS_FOLLOWUP : THANKS }, { headers: noStore });
+  }
+  await tagging;
+  // No screenshot is sent unless the server already holds its exact answer receipt and consent is still on.
+  let diagnosticUpload = false;
+  try { if (ref && env.STUDIO && storageReady(env) && await diagnosticConsent(env, app.user.id)) {
+    await setupDiagnostics(env);
+    diagnosticUpload = Boolean(await env.DB.prepare("SELECT ref FROM diagnostic_screenshots WHERE ref=? AND player=? AND state='candidate'")
+      .bind(ref, await playerKey(env, app.user.id)).first());
+  } } catch { /* Diagnostic failure must never fail a report. */ }
+  return Response.json({ ok: true, line: followup ? THANKS_FOLLOWUP : THANKS, ...(diagnosticUpload ? { diagnostic_upload: true } : {}) }, { headers: noStore });
 }

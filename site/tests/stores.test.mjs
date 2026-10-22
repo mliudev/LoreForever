@@ -52,6 +52,8 @@ test("snapshots: the add-on hourly, packs daily, a release's first 24 hours read
     { n: Math.round(3369 * 0.75 / 21 + 3400 * 23.25 / 25), kind: "estimate" });
   assert.deepEqual(report.releases.map(r => [r.name, r.day1, r.current]),
     [["Lore Forever 0.14.0", 3200, null], ["Lore Forever 0.13.1", null, 21]]);
+  assert.deepEqual(report.newest, { file: "9124319", name: "Lore Forever 0.14.0", uploaded: new Date(UPLOAD).toISOString(),
+    downloads: 3400, day1: 3200, from: "cfwidget", seen: new Date(UPLOAD + 25 * H).toISOString(), hours: 25 });
   assert.deepEqual(report.inUse, { n: 3200, name: "Lore Forever 0.14.0", hours: 25 }, "newest 20 hours or more: its first day");
   assert.equal((await storesReport(env, UPLOAD + 7 * H)).inUse.name, "Lore Forever 0.13.1", "only 7 hours out: the one before");
 });
@@ -93,6 +95,7 @@ test("author dashboard numbers: admin key only, resending changes nothing, uniqu
   assert.deepEqual((await storesReport(env, Date.parse("2026-10-12T12:00:00Z"))).author.thisWeek,
     { week: "2026-10-05", current: false, downloads: 0, unique: 9139 }, "Monday, before the new week's numbers: last week's");
   assert.deepEqual(report.releases.map(r => [r.name, r.day1, r.from]), [["Lore Forever 0.14.0", Math.round(3000 + 480 * 0.75 / 24), "author"]]);
+  assert.equal(report.newest.from, "author", "the first-day count uses author data when available");
 });
 
 test("the site keeps the same CurseForge projects as release/curseforge.json", () => {

@@ -18,6 +18,7 @@
 // The page: the session cookie, and our Origin on a POST. Willo's app: X-LF-Client: companion/<version>, no Origin,
 // Authorization: Bearer <device token>; it may read and erase too, as the notebook's tab does.
 
+import { setDiagnosticConsent } from "../../../lib/diagnostic-screenshots.js";
 import { setup, currentUser, fail, noStore, sameOrigin } from "../../../lib/accounts.js";
 import { currentDevice } from "../../../lib/devices.js";
 import { perMinute, slowDown } from "../../../lib/ratelimit.js";
@@ -52,6 +53,13 @@ const GETS = {
 };
 
 const POSTS = {
+  "keep-screenshots": async ({ env }, input, { user, app }) => {
+    if (typeof input.on !== "boolean") throw new KeepsError("Choose on or off.");
+    // Turning it on is the player's own choice on the page; the app may only turn it off (the privacy review, 10/21).
+    if (input.on && app) throw new KeepsError("Turn this on from What Willo keeps on the site.");
+    try { return ok({ on: await setDiagnosticConsent(env, user.id, input.on) }); }
+    catch (e) { throw new KeepsError(e.message); }
+  },
   edit: async ({ env }, input, { user }) => ok({ item: await editItem(env, user.id, input) }),
   erase: async ({ env }, input, { user }) => ok({ gone: await eraseItem(env, user.id, input) }),
   "erase-section": async ({ env }, input, { user }) => { await eraseSection(env, user.id, input); return ok(); },

@@ -14,7 +14,7 @@ import { onRequest as billing } from "../functions/api/billing/[action].js";
 import { onRequest as answer } from "../functions/api/companion/answer.js";
 import { findOrCreateUser, startSession, setup, deleteUser } from "../lib/accounts.js";
 import { startLink, decideLink, claimToken } from "../lib/devices.js";
-import { setupBilling, planFor, companionFeatures, INTEGRATION_ID, PLANS, TASTE_ANSWERS } from "../lib/billing.js";
+import { setupBilling, planFor, companionFeatures, INTEGRATION_ID, PLANS, TASTE_ANSWERS, STARTER } from "../lib/billing.js";
 import { allowance, ANSWER_MODEL, LITE_MODEL, RESEARCH_MODEL, SMART_MODEL } from "../lib/companion-answers.js";
 import { optOut } from "../lib/email.js";
 import { setupWilloCustom } from "../lib/willo-custom.js";
@@ -27,7 +27,7 @@ const NOW = Date.parse("2026-10-11T12:00:00Z");
 const env = { DB: d1(), GEMINI_API_KEY: "test-key", STRIPE_SECRET_KEY: "sk_test_123", STRIPE_WEBHOOK_SECRET: "whsec_test",
               SITE_FEATURES: "plans" };
 const originalFetch = globalThis.fetch;
-let stripeCalls, gemini, subscriptions, checkoutSessions, charges, invoices;
+let stripeCalls, gemini, subscriptions, checkoutSessions, charges, invoices, customers;
 
 beforeEach(async (t) => {
   t.mock.timers.enable({ apis: ["Date"], now: NOW });
@@ -43,6 +43,7 @@ beforeEach(async (t) => {
   checkoutSessions = {};
   charges = {};
   invoices = {};
+  customers = [];
   globalThis.fetch = async (url, options = {}) => {
     const u = new URL(url);
     if (u.hostname === "generativelanguage.googleapis.com") {
@@ -61,6 +62,7 @@ beforeEach(async (t) => {
     if (route === "GET prices") return Response.json({ data: [
       { id: "price_hero_m", lookup_key: "hero_monthly" }, { id: "price_hero_y", lookup_key: "hero_yearly" }] });
     if (route === "POST customers") return Response.json({ id: "cus_1" });
+    if (route === "GET customers") return Response.json({ data: customers.filter(c => c.email === u.searchParams.get("email")) });
     if (route === "POST checkout/sessions") return Response.json({ id: "cs_test_1", url: "https://checkout.stripe.com/c/pay/cs_test_1" });
     if (route === "GET checkout/sessions") return Response.json({ data: [] });
     // A payment's charge, as creditPack reads it: refunded or disputed when a test says so.
@@ -383,6 +385,7 @@ test("what paying players' answers cost never uses up the free players' budget",
 test("checkout needs a signed-in player, refuses a plan that isn't for sale, and sends the account and the looked-up price", async () => {
   assert.equal((await post("checkout", { plan: "hero", interval: "month" })).status, 401);
   const user = await player("buyer");
+  customers = [{ id: "cus_another_account", email: user.email, metadata: { user_id: "another-account" } }];
   const cookie = (await startSession(env, new Request(ORIGIN), user.id)).split(";")[0];
   assert.equal((await post("checkout", { plan: "hero", interval: "month" }, { cookie, origin: "https://elsewhere.example" })).status, 403);
   env.BILLING_PLANS = "hero,champion";
@@ -398,7 +401,7 @@ test("checkout needs a signed-in player, refuses a plan that isn't for sale, and
   const res = await post("checkout", { plan: "hero", source: "willo-empty" }, { cookie });
   assert.equal(res.status, 200, JSON.stringify(res.body));
   assert.equal(res.body.url, "https://checkout.stripe.com/c/pay/cs_test_1");
-  const session = stripeCalls.find(c => c.path === "checkout/sessions");
+  const session = stripeCalls.find(c => c.method === "POST" && c.path === "checkout/sessions");
   assert.equal(session.headers.Authorization, "Bearer sk_test_123");
   assert.equal(session.body.get("mode"), "subscription");
   assert.equal(session.body.get("client_reference_id"), user.id);
@@ -418,7 +421,7 @@ test("checkout needs a signed-in player, refuses a plan that isn't for sale, and
   try {
     const without = await post("checkout", { plan: "hero" }, { cookie });
     assert.equal(without.status, 200, JSON.stringify(without.body));
-    assert.equal(stripeCalls.filter(c => c.path === "checkout/sessions").pop().body.get("consent_collection[terms_of_service]"), null);
+    assert.equal(stripeCalls.filter(c => c.method === "POST" && c.path === "checkout/sessions").pop().body.get("consent_collection[terms_of_service]"), null);
   } finally { globalThis.fetch = working; }
   assert.ok(![...session.body.keys()].some(k => /^(payment_method_types|automatic_tax|managed_payments)/.test(k)),
     "payment methods come from the Dashboard; tax waits for Managed Payments");
@@ -427,11 +430,83 @@ test("checkout needs a signed-in player, refuses a plan that isn't for sale, and
   env.STRIPE_MANAGED_PAYMENTS = "1";
   try {
     assert.equal((await post("checkout", { plan: "hero", interval: "month" }, { cookie })).status, 200);
-    const managed = stripeCalls.filter(c => c.path === "checkout/sessions").pop();
+    const managed = stripeCalls.filter(c => c.method === "POST" && c.path === "checkout/sessions").pop();
     assert.equal(managed.body.get("managed_payments[enabled]"), "true");
     assert.equal(managed.body.get("line_items[0][price]"), "price_hero_m");
-    assert.equal(stripeCalls.filter(c => c.path === "customers").length, 1, "the account keeps its Stripe customer");
+    assert.equal(stripeCalls.filter(c => c.path === "customers" && c.method === "POST").length, 1,
+      "the account keeps its Stripe customer");
   } finally { delete env.STRIPE_MANAGED_PAYMENTS; }
+});
+
+test("checkout reuses a prepared customer only when it belongs to the signed-in account", async () => {
+  const user = await player("prepared");
+  const cookie = (await startSession(env, new Request(ORIGIN), user.id)).split(";")[0];
+  customers = [
+    { id: "cus_other_account", email: user.email, metadata: { user_id: "another-account" } },
+    { id: "cus_prepared", email: user.email, metadata: { user_id: user.id } },
+  ];
+  const result = await post("checkout", { plan: "hero" }, { cookie });
+  assert.equal(result.status, 200, JSON.stringify(result.body));
+  const checkout = stripeCalls.find(c => c.method === "POST" && c.path === "checkout/sessions");
+  assert.equal(checkout.body.get("customer"), "cus_prepared",
+    "a customer-bound offer must use the existing customer, not a new one or another account at the same email");
+  assert.equal(stripeCalls.filter(c => c.method === "POST" && c.path === "customers").length, 0);
+  assert.equal(env.DB.sqlite.prepare("SELECT customer_id FROM entitlements WHERE user_id = ?").get(user.id).customer_id,
+    "cus_prepared");
+});
+
+test("checkout refuses ambiguous prepared customers without creating another customer or checkout", async () => {
+  const user = await player("ambiguous");
+  const cookie = (await startSession(env, new Request(ORIGIN), user.id)).split(";")[0];
+  customers = ["cus_first", "cus_second"].map(id => ({ id, email: user.email, metadata: { user_id: user.id } }));
+  assert.equal((await post("checkout", { plan: "hero" }, { cookie })).status, 502);
+  assert.equal(stripeCalls.filter(c => c.method === "POST").length, 0);
+  assert.equal(env.DB.sqlite.prepare("SELECT customer_id FROM entitlements WHERE user_id = ?").get(user.id), undefined);
+});
+
+test("a prepared customer's existing subscription is recovered instead of opening another checkout", async () => {
+  const user = await player("prepared-subscriber");
+  const cookie = (await startSession(env, new Request(ORIGIN), user.id)).split(";")[0];
+  customers = [{ id: "cus_prepared", email: user.email, metadata: { user_id: user.id } }];
+  subscriptions.sub_prepared = { ...subscription("sub_prepared", user.id), customer: "cus_prepared" };
+  const result = await post("checkout", { plan: "hero" }, { cookie });
+  assert.deepEqual(result, { status: 200, body: { ok: true, url: `${ORIGIN}/plans` } });
+  assert.equal(stripeCalls.filter(c => c.method === "POST" && c.path === "checkout/sessions").length, 0);
+  assert.equal((await planFor(env, user.id)).id, "hero");
+});
+
+test("a stale customer lookup cannot replace the customer another checkout has already adopted", async () => {
+  const user = await player("racing-customer");
+  const cookie = (await startSession(env, new Request(ORIGIN), user.id)).split(";")[0];
+  customers = [{ id: "cus_prepared", email: user.email, metadata: { user_id: user.id } }];
+  const working = globalThis.fetch;
+  let releaseLookup, startedLookup;
+  const started = new Promise(resolve => { startedLookup = resolve; });
+  globalThis.fetch = async (url, options = {}) => {
+    if (new URL(url).pathname === "/v1/customers" && options.method === "GET" && !releaseLookup) {
+      const stale = new Promise(resolve => { releaseLookup = resolve; });
+      startedLookup();
+      return stale;
+    }
+    return working(url, options);
+  };
+  const first = post("checkout", { plan: "hero" }, { cookie });
+  try {
+    await started;
+    const second = await post("checkout", { plan: "hero" }, { cookie });
+    assert.equal(second.status, 200);
+    releaseLookup(Response.json({ data: [] }));
+    assert.equal((await first).status, 200);
+    assert.equal(env.DB.sqlite.prepare("SELECT customer_id FROM entitlements WHERE user_id = ?").get(user.id).customer_id,
+      "cus_prepared");
+    const checkouts = stripeCalls.filter(c => c.method === "POST" && c.path === "checkout/sessions");
+    assert.equal(checkouts.length, 2);
+    assert.ok(checkouts.every(c => c.body.get("customer") === "cus_prepared"));
+  } finally {
+    releaseLookup?.(Response.json({ data: [] }));
+    globalThis.fetch = working;
+    await first;
+  }
 });
 
 test("a paying player skips the shared budget; past half their plan's net a month answers step down to Flash-Lite, past all of it the lore library", async () => {
@@ -675,7 +750,10 @@ test("out of answers: Willo's words for when they come back, Hero the free plan'
 
 // ---- The launch plans (Mike, 2026-10-12) ----
 
-test("free with plans on: 30 a day, then the 30-answer starter, once per Google account, then a 429 with offers", async () => {
+test("free with plans on: 30 a day, then the 30-answer starter, once per Google account, then a 429 with offers", async (t) => {
+  // A starter credited before 10/21 (none are now: STARTER.credited) works as before.
+  STARTER.credited = true;
+  t.after(() => { STARTER.credited = false; });
   const { user, ask } = await companionPlayer("newcomer");
   const first = await allowance(env, user.id);
   assert.deepEqual([first.limit, first.remaining, first.extra], [30, 60, 30], "the day's 30 and the starter");
@@ -705,7 +783,21 @@ test("free with plans on: 30 a day, then the 30-answer starter, once per Google 
   assert.deepEqual([fresh.remaining, fresh.extra], [30, 0], "today's 30, and no starter");
 });
 
-test("starter answers wait for the shared budget like free ones, and one that can't be answered goes back", async () => {
+test("no new free starter since 10/21 (option D: 30 answers a day): past the day's 30, a 429 with offers", async () => {
+  const { user, ask } = await companionPlayer("no-starter");
+  const first = await allowance(env, user.id);
+  assert.deepEqual([first.limit, first.remaining, first.extra], [30, 30, 0], "the day's 30, no starter");
+  for (let i = 0; i < 30; i++) assert.equal((await ask()).status, 200, `answer ${i + 1}`);
+  const out = await ask();
+  assert.equal(out.status, 429);
+  assert.match(out.body.error, /^My light's spent for today\./);
+  assert.equal(env.DB.sqlite.prepare("SELECT COUNT(*) AS n FROM answer_packs WHERE kind = 'starter'").get().n, 0);
+});
+
+test("starter answers wait for the shared budget like free ones, and one that can't be answered goes back", async (t) => {
+  // A starter credited before 10/21 (none are now: STARTER.credited) works as before.
+  STARTER.credited = true;
+  t.after(() => { STARTER.credited = false; });
   const { user, ask } = await companionPlayer("thrifty");
   await usedToday(user, "companion-answer", 30);
   env.STORY_BUDGET_USD = "0";

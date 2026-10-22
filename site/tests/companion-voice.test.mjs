@@ -15,7 +15,8 @@ import { startLink, decideLink, claimToken } from "../lib/devices.js";
 import { setupBilling, planFor, poolWindow, userSpend, capState, PLANS, PLAN_VOICE, LEGEND_BEST_PER_MONTH,
   RICHER_MODEL, STARTER_ANSWERS } from "../lib/billing.js";
 import { allowance, answerBudgetUsed } from "../lib/companion-answers.js";
-import { willoPick, hostedSpellings, AZEROTH_STUDIO, AZEROTH_PICKS, WILLO_PICKS } from "../lib/companion-voice.js";
+import { willoPick, hostedSpellings, AZEROTH_STUDIO, AZEROTH_PICKS, WILLO_PICKS, picksFor, NARRATOR_STUDIO, readsAloud,
+  replyMax, WHOLE_MAX_CHARS, SPEAK_MAX_CHARS } from "../lib/companion-voice.js";
 import { TRIAL, TASTE_ANSWERS } from "../lib/best-first.js";
 import { CHARACTER_VOICES } from "../lib/character-voices.js";
 
@@ -115,15 +116,18 @@ function freeStarter(t) {
 test("who says each plan's answers: Free's studio voice, Hero's finest, Champion's finest by choice, Legend's richer", async () => {
   const free = await companionPlayer("free"), hero = await companionPlayer("hero", "hero");
   const champion = await companionPlayer("champ", "champion"), legend = await companionPlayer("legend", "legend");
-  const studio = { tier: "hosted", top: "studio", now: "studio", choice: false };
-  const finest = { tier: "hosted", top: "finest", now: "finest" };
-  assert.deepEqual(await free.voice(), { ...studio, now: "finest", choice: true, starterLeft: 0 },
+  // azeroth, whole, readings (the voices and plans picks, 10/21): the Voices of Azeroth in her picker and her whole
+  // answer spoken are Legend's (and the trial tries Legend's voices); the narrator reads short answers from Hero up.
+  const plain = { azeroth: false, whole: false, readings: false, pick: "sprite" };
+  const studio = { tier: "hosted", top: "studio", now: "studio", choice: false, ...plain };
+  const finest = { tier: "hosted", top: "finest", now: "finest", ...plain, readings: true };
+  assert.deepEqual(await free.voice(), { ...studio, now: "finest", choice: true, azeroth: true, starterLeft: 0 },
     "its first answers at Willo's best (below), her voice picked from all of hers in its first-run trial's days");
   free.tasted(TASTE_ANSWERS, 0, 15);
   assert.deepEqual(await free.voice(), { ...studio, starterLeft: 0 }, "the studio voice always: no starter to count down");
   assert.deepEqual(await hero.voice(), { ...finest, choice: false, bestLeft: 1500 });
   assert.deepEqual(await champion.voice(), { ...finest, choice: true, bestLeft: 3000 });
-  assert.deepEqual(await legend.voice(), { ...finest, choice: true, bestLeft: LEGEND_BEST_PER_MONTH });
+  assert.deepEqual(await legend.voice(), { ...finest, choice: true, azeroth: true, whole: true, bestLeft: LEGEND_BEST_PER_MONTH });
   assert.equal(LEGEND_BEST_PER_MONTH, 6000);
   // The free plan asks out loud, and those questions are answered aloud (below) in the studio voice, at any time of
   // the month; typed questions get text (Mike, 2026-10-14; always, Mike, 2026-10-19).
@@ -188,44 +192,56 @@ test("Willo speaks as Sprite; Champion and Legend in the voice the player picks,
   assert.equal(willoPick({ voice: { voice: "chatterbox", choice: false } }, "moonwell"), "sprite");
 });
 
-test("Voices of Azeroth (LOR-609): Champion and Legend may pick a people's voice as Willo's; NPCs keep their own", async () => {
+test("Voices of Azeroth (LOR-609): Legend may pick a people's voice as Willo's, Champion picks her own; NPCs keep their own", async () => {
   const champion = await companionPlayer("champ", "champion"), legend = await companionPlayer("legend", "legend");
-  const hero = await companionPlayer("hero", "hero"), tired = await tiredChampion("tired");
+  const hero = await companionPlayer("hero", "hero"), tired = await companionPlayer("tired", "legend");
+  await tired.saidBest(6000);
+  const tiredChamp = await tiredChampion("tired-champ");
   const idOf = async (player, body) => {
     const said = await player.speak({ text: "Lok'tar ogar.", ...body });
     assert.equal(said.status, 200);
     return [calls.at(-1).provider, calls.at(-1).body.voice_id ?? calls.at(-1).body.voiceId, said.voice];
   };
   assert.equal(AZEROTH_PICKS.length, 22);
-  // The finest voice (Champion's, Legend's): the slot's Inworld clone. A Champion whose month's finest replies are said
-  // has the studio voice: the slot's Chatterbox clone, the same reference.
-  assert.deepEqual(await idOf(champion, { pick: "dwarf-male" }), ["inworld", CHARACTER_VOICES["dwarf-male"].inworld, null]);
+  // The finest voice (Legend's): the slot's Inworld clone. A Legend whose month's finest replies are said has the
+  // studio voice: the slot's Chatterbox clone, the same reference.
+  assert.deepEqual(await idOf(legend, { pick: "dwarf-male" }), ["inworld", CHARACTER_VOICES["dwarf-male"].inworld, null]);
   assert.deepEqual(await idOf(tired, { pick: "dwarf-male" }), ["deepinfra", AZEROTH_STUDIO["dwarf-male"], null]);
   assert.deepEqual(await idOf(legend, { pick: "nightelf-female" }),
     ["inworld", CHARACTER_VOICES["nightelf-female"].inworld, null]);
   // Her own lines in the borrowed voice too, kept by the companion under its name.
   assert.deepEqual(await idOf(tired, { pick: "orc-female", line: true, text: "Westfall was farmland once." }),
     ["deepinfra", AZEROTH_STUDIO["orc-female"], "studio:orc-female"]);
-  assert.deepEqual(await idOf(champion, { pick: "orc-female", line: true, text: "Westfall was farmland once." }),
+  assert.deepEqual(await idOf(legend, { pick: "orc-female", line: true, text: "Westfall was farmland once." }),
     ["inworld", CHARACTER_VOICES["orc-female"].inworld, "finest:orc-female"]);
-  // Her male partners (LOR-610) are her own picks too, in both voices.
-  assert.deepEqual((await idOf(tired, { pick: "puck" })).slice(0, 2), ["deepinfra", "rbo1dwi5xclqs2rgluhk"]);
-  assert.deepEqual((await idOf(legend, { pick: "kestrel" })).slice(0, 2),
+  // The Voices of Azeroth are Legend's (the voices and plans picks, 10/21): Champion's pick of one is Sprite.
+  assert.deepEqual((await idOf(champion, { pick: "dwarf-male" })).slice(0, 2), ["inworld", "willo-finest"]);
+  assert.deepEqual((await idOf(tiredChamp, { pick: "dwarf-male" })).slice(0, 2), ["deepinfra", "willo-studio"]);
+  // Her male partners (LOR-610) are her own picks, Champion's too, in both voices.
+  assert.deepEqual((await idOf(tiredChamp, { pick: "puck" })).slice(0, 2), ["deepinfra", "rbo1dwi5xclqs2rgluhk"]);
+  assert.deepEqual((await idOf(champion, { pick: "kestrel" })).slice(0, 2),
     ["inworld", "humble-aspen-1573__design-voice-b10f5442"]);
   // Hero has no choice, and a slot that isn't one of ours is no pick: Sprite.
   assert.deepEqual((await idOf(hero, { pick: "dwarf-male" })).slice(0, 2), ["inworld", "willo-finest"]);
   assert.deepEqual((await idOf(tired, { pick: "kobold-male" })).slice(0, 2), ["deepinfra", "willo-studio"]);
-  assert.deepEqual((await idOf(champion, { pick: "kobold-male" })).slice(0, 2), ["inworld", "willo-finest"]);
-  assert.equal(willoPick({ voice: { voice: "chatterbox", choice: true } }, "troll-male"), "troll-male");
+  assert.deepEqual((await idOf(legend, { pick: "kobold-male" })).slice(0, 2), ["inworld", "willo-finest"]);
+  assert.equal(willoPick({ voice: { voice: "chatterbox", choice: true, azeroth: true } }, "troll-male"), "troll-male");
+  assert.equal(willoPick({ voice: { voice: "chatterbox", choice: true } }, "troll-male"), "sprite");
+  assert.equal(willoPick({ voice: { voice: "chatterbox", choice: true } }, "puck"), "puck");
   assert.equal(willoPick({ voice: { voice: "chatterbox", choice: false } }, "troll-male"), "sprite");
+  // What the companion is offered: the Voices of Azeroth only on Legend, her own ten on Champion, five to an old app.
+  const now = "companion/0.22.0";
+  assert.equal(picksFor(now, { voice: PLAN_VOICE.legend }).length, 32);
+  assert.deepEqual(picksFor(now, { voice: PLAN_VOICE.champion }), Object.keys(WILLO_PICKS));
+  assert.equal(picksFor("companion/0.19.0", { voice: PLAN_VOICE.legend }).length, 5);
   // An orc who answers in person keeps an orc's own voice, whatever Willo borrows (LOR-477).
-  assert.deepEqual((await idOf(champion, { voice: "orc-male", pick: "dwarf-female" })).slice(0, 2),
+  assert.deepEqual((await idOf(legend, { voice: "orc-male", pick: "dwarf-female" })).slice(0, 2),
     ["inworld", CHARACTER_VOICES["orc-male"].inworld]);
   // A slot whose rights aren't cleared any more is never said, for Willo either: Sprite instead.
   env.CHARACTER_VOICES = JSON.stringify({ "dwarf-male": { ...CHARACTER_VOICES["dwarf-male"], provenance: "a trailer" } });
   try {
     assert.deepEqual((await idOf(tired, { pick: "dwarf-male" })).slice(0, 2), ["deepinfra", "willo-studio"]);
-    assert.deepEqual((await idOf(champion, { pick: "dwarf-male" })).slice(0, 2), ["inworld", "willo-finest"]);
+    assert.deepEqual((await idOf(legend, { pick: "dwarf-male" })).slice(0, 2), ["inworld", "willo-finest"]);
   } finally { delete env.CHARACTER_VOICES; }
 });
 
@@ -283,7 +299,8 @@ test("Legend: Inworld's richer voice for the 6,000 replies of its plan month, th
   assert.equal((await speak({ text: "The rest of it.", reply: "reply-best" })).status, 200);
   assert.equal(calls[1].provider, "inworld", "a reply keeps its voice");
   assert.deepEqual(await voice(), { tier: "hosted", top: "finest", now: "studio", back: "2026-10-31T12:00:00.000Z",
-                                    choice: true, bestLeft: 0 }, "the studio voice until the plan month renews");
+                                    choice: true, azeroth: true, whole: true, readings: true, pick: "sprite", bestLeft: 0 },
+                   "the studio voice until the plan month renews");
   assert.equal((await speak({ text: "Then the studio voice.", reply: "reply-next" })).status, 200);
   assert.equal(calls[2].provider, "deepinfra");
 
@@ -314,7 +331,7 @@ test("a reply stays in the voice that said its first piece, when room runs short
   const net = PLANS.legend.totalCapMicro;
   // Room for one whole finest reply and a little: its first piece takes some of it, and the rest of the reply,
   // which the room held from the start, is still Inworld's.
-  spent(9_000_000, net - 9_000_000 - 600 * 25 - 50);
+  spent(9_000_000, net - 9_000_000 - WHOLE_MAX_CHARS * 25 - 50);
   for (const text of ["Strength.", "And honor, always."])
     assert.equal((await speak({ text, reply: "reply-tight" })).status, 200);
   assert.deepEqual(calls.map(c => c.provider), ["inworld", "inworld"]);
@@ -466,7 +483,8 @@ test("Willo's tips in the voice its replies get, costing what a reply would but 
   // It steps down with the replies: no room for a whole finest reply, the studio voice; none for a studio one, the PC.
   const net = PLANS.legend.totalCapMicro;
   spent(9_000_000, net - 9_000_000 - 5_000);
-  assert.deepEqual([(await speak({ text: tip, line: true })).voice, calls.at(-1).provider], ["studio:sprite", "deepinfra"]);
+  // (Sent without a pick, the one this account last sent: Moonwell, above.)
+  assert.deepEqual([(await speak({ text: tip, line: true })).voice, calls.at(-1).provider], ["studio:moonwell", "deepinfra"]);
   spent(9_000_000, net - 9_000_000 - 500);
   const out = await speak({ text: tip, line: true });
   assert.deepEqual([out.status, out.body.reason, calls.length], [402, "spent", 2]);
@@ -549,8 +567,9 @@ test("a new player's first-run trial: her voice from all of hers, and characters
   assert.deepEqual([tries(), owed()], [{ cast: 1 }, 1]);
   // The trial's character voices used: Willo's finest voice says the character's reply, from what the taste owes.
   env.DB.sqlite.prepare("UPDATE best_first SET tries = ? WHERE user_id = ?").run(JSON.stringify({ cast: TRIAL.cast }), user.id);
+  // (In the voice they last picked, Moonwell: lib/plan-usage.js savedPick.)
   assert.deepEqual(idOf(await speak({ text: "Strength and honor.", voice: "orc-male", reply: "orc-0002" })),
-    [200, "inworld", "willo-finest", "finest:sprite"]);
+    [200, "inworld", WILLO_PICKS.moonwell.inworld, "finest:moonwell"]);
   assert.equal(owed(), 0);
   // The taste's finest replies all said, one of the trial's still left: a character's own voice from it alone.
   env.DB.sqlite.prepare("UPDATE best_first SET used = ?, tries = ? WHERE user_id = ?")
@@ -603,11 +622,12 @@ test("a piece asked for again counts its letters once, and a later piece's voice
   assert.equal((await speak({ text: rest + "!", reply: "old-reply" })).status, 200);
   assert.equal((await speak({ text: rest + "!", reply: "old-reply" })).body.reason, "long", "301 letters twice");
 
-  // A later piece's voice may take longer than a first piece's 2.5 s (LATER_PIECE_MS); a first piece may not.
+  // A later piece's voice may take longer than a first piece's 3.5 s (PROVIDER_MS, LATER_PIECE_MS); a first piece
+  // may not.
   const slow = globalThis.fetch;
   globalThis.fetch = async (url, options) => {
     await new Promise((done, stop) => {
-      const t = setTimeout(done, 2700);
+      const t = setTimeout(done, 3700);
       options.signal?.addEventListener("abort", () => { clearTimeout(t); stop(options.signal.reason); });
     });
     return slow(url, options);
@@ -617,7 +637,7 @@ test("a piece asked for again counts its letters once, and a later piece's voice
     globalThis.fetch = slow;
     assert.equal((await speak({ text: "Hello.", reply: "slow-two", piece: 0 })).status, 200);
     globalThis.fetch = async (url, options) => {
-      await new Promise(done => setTimeout(done, 2700));
+      await new Promise(done => setTimeout(done, 3700));
       return slow(url, options);
     };
     assert.equal((await speak({ text: "A slow later piece.", reply: "slow-two", piece: 1 })).status, 200);
@@ -684,4 +704,76 @@ test("names are sent to the providers respelled so they're said right (LOR-653);
   // A deploy without the list (a missing file is the site's home page, not a 404) sends the text as written.
   const home = { ASSETS: { fetch: async () => new Response("<!doctype html><title>Lore Forever</title>") } };
   assert.deepEqual(await hostedSpellings(home, ORIGIN), {});
+});
+
+test("short answers in the narrator's voice (the 10/21 picks): Hero and up, the studio engine, never an answer counted", async () => {
+  const hero = await companionPlayer("hero-reads", "hero"), legend = await companionPlayer("legend-reads", "legend");
+  const free = await companionPlayer("free-reads");
+  const text = "Thrall chose this land because its red earth reminded the orcs of Draenor.";
+  const read = await hero.speak({ text, reading: true, narrator: "chronicler" });
+  assert.equal(read.status, 200);
+  assert.equal(read.voice, "studio:chronicler");
+  assert.deepEqual(read.body, MP3);
+  assert.equal(calls.at(-1).provider, "deepinfra");
+  assert.equal(calls.at(-1).body.voice_id, NARRATOR_STUDIO.chronicler);
+  assert.equal((await legend.speak({ text, reading: true, narrator: "female" })).voice, "studio:female");
+  assert.equal(calls.at(-1).body.voice_id, NARRATOR_STUDIO.female);
+  // Not an answer: no reply counted; what it cost is on the player's month.
+  assert.equal(env.DB.sqlite.prepare("SELECT COUNT(*) AS n FROM voice_replies").get().n, 0);
+  assert.equal(env.DB.sqlite.prepare("SELECT voice_micro FROM answer_user_spend WHERE user_id = ?").get(hero.user.id)
+    .voice_micro, text.length);
+  // Free sees short answers as text; a narrator that isn't ours (a community narrator is never copied) is no reading.
+  const before = calls.length;
+  assert.deepEqual((await free.speak({ text, reading: true, narrator: "chronicler" })).body,
+    { ok: false, speak: "local", reason: "plan" });
+  assert.equal((await hero.speak({ text, reading: true, narrator: "kael-community" })).body.reason, "narrator");
+  // An older companion's reading as one of Willo's lines is still said on the PC.
+  assert.equal((await hero.speak({ text, line: true, reading: true })).body.reason, "reading");
+  assert.equal(calls.length, before, "none of those reached a provider");
+  // The studio voice down: text, and nothing held on the month.
+  failing.add("deepinfra");
+  assert.equal((await hero.speak({ text, reading: true, narrator: "chronicler" })).body.reason, "unavailable");
+  failing.delete("deepinfra");
+  assert.equal(env.DB.sqlite.prepare("SELECT COUNT(*) AS n FROM answer_holds").get().n, 0);
+  // Past the plan's net for the month: text.
+  hero.spent(PLANS.hero.totalCapMicro);
+  assert.equal((await hero.speak({ text, reading: true, narrator: "chronicler" })).body.reason, "spent");
+  // NARRATOR_VOICES replaces an id.
+  env.NARRATOR_VOICES = JSON.stringify({ female: "new-female" });
+  try {
+    await legend.speak({ text, reading: true, narrator: "female" });
+    assert.equal(calls.at(-1).body.voice_id, "new-female");
+  } finally { delete env.NARRATOR_VOICES; }
+  assert.equal(readsAloud(PLANS.free), false);
+  assert.equal(readsAloud({ ...PLANS.hero, voice: PLAN_VOICE.hero }), true);
+});
+
+test("Legend hears her whole answer spoken: its replies may run to WHOLE_MAX_CHARS, Champion's stop at SPEAK_MAX_CHARS", async () => {
+  const legend = await companionPlayer("legend-whole", "legend"), champion = await companionPlayer("champ-whole", "champion");
+  const piece = "Thrall chose Durotar for its red earth, which reminded the orcs of Draenor, and named it for his father. "
+    .repeat(3).slice(0, 300);
+  for (let i = 0; i < 5; i++) {
+    assert.equal((await legend.speak({ text: piece, reply: "reply-whole", piece: i })).status, 200, `Legend piece ${i}`);
+  }
+  assert.equal((await legend.speak({ text: piece, reply: "reply-whole", piece: 5 })).status, 413, "past 1,500 letters");
+  assert.equal((await champion.speak({ text: piece, reply: "reply-short", piece: 0 })).status, 200);
+  assert.equal((await champion.speak({ text: piece, reply: "reply-short", piece: 1 })).status, 200);
+  assert.equal((await champion.speak({ text: piece, reply: "reply-short", piece: 2 })).status, 413, "past 600 letters");
+  assert.equal(replyMax({ voice: PLAN_VOICE.legend }), WHOLE_MAX_CHARS);
+  assert.equal(replyMax({ voice: PLAN_VOICE.champion }), SPEAK_MAX_CHARS);
+});
+
+test("the voice an account last picked on its PC is remembered: a phone's speak without a pick hears it, within its plan", async () => {
+  const legend = await companionPlayer("legend-pick", "legend");
+  assert.equal((await legend.voice()).pick, "sprite", "none picked yet");
+  assert.equal((await legend.speak({ text: "Hello.", reply: "reply-pc-01", pick: "dwarf-male" })).status, 200);
+  assert.equal((await legend.voice()).pick, "dwarf-male");
+  await legend.speak({ text: "Hello again.", reply: "reply-ph-01" });
+  assert.equal(calls.at(-1).body.voiceId, CHARACTER_VOICES["dwarf-male"].inworld, "the phone hears the PC's pick");
+  // The same pick on a plan without the Voices of Azeroth: Sprite, as willoPick allows.
+  const champ = await companionPlayer("champ-pick", "champion");
+  await champ.speak({ text: "Hello.", reply: "reply-pc-02", pick: "dwarf-male" });
+  assert.equal((await champ.voice()).pick, "sprite");
+  await champ.speak({ text: "Hello.", reply: "reply-pc-03", pick: "moonwell" });
+  assert.equal((await champ.voice()).pick, "moonwell");
 });

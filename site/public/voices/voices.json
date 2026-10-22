@@ -17,13 +17,13 @@
       "sample": {
         "src": "/audio/voices/male-narrator-stormwind.mp3",
         "title": "Stormwind City",
-        "length": "2:16"
+        "length": "2:06"
       },
       "samples": [
         {
           "src": "/audio/voices/male-narrator-stormwind.mp3",
           "title": "Stormwind City",
-          "length": "2:16"
+          "length": "2:06"
         },
         {
           "src": "/audio/voices/male-narrator-zephras.mp3",
@@ -44,7 +44,7 @@
           "addon": "LoreForever_Voice_QuestGivers",
           "status": "live",
           "included": false,
-          "clips": 3321,
+          "clips": 3493,
           "coverage": "Reads selected quest dialogue for male human, dwarf, Forsaken and orc quest givers. Turn on Speak quest dialogue and Match the quest giver's voice in Options. Other lines use your narrator's recording where available, or stay as text. These are quest lines, separate from Lore Forever's stories.",
           "download": "https://github.com/mliudev/LoreForever/releases/latest/download/LoreForever_Voice_QuestGivers.zip"
         },
@@ -85,7 +85,7 @@
           "addon": "LoreForever_Voice_Default_MoreItems",
           "status": "live",
           "included": false,
-          "clips": 119,
+          "clips": 734,
           "coverage": "the story behind hundreds of quest items, letters and relics, in his voice",
           "download": "https://github.com/mliudev/LoreForever/releases/latest/download/LoreForever_Voice_Default_MoreItems.zip"
         },
@@ -158,7 +158,7 @@
           "language": "Français",
           "addon": "LoreForever_Voice_Default_frFR",
           "status": "live",
-          "clips": 509,
+          "clips": 894,
           "coverage": "zone, dungeon and place stories, starting areas and people, in French (other entries stay available as text)",
           "download": "https://github.com/mliudev/LoreForever/releases/latest/download/LoreForever_Voice_Default_frFR.zip"
         },
@@ -169,7 +169,7 @@
           "addon": "LoreForever_Voice_Default_MorePeople_frFR",
           "status": "soon",
           "included": false,
-          "clips": 0,
+          "clips": 727,
           "coverage": "the whole story of hundreds more characters, plus factions, peoples and lore topics, in his voice, in French",
           "download": "https://github.com/mliudev/LoreForever/releases/latest/download/LoreForever_Voice_Default_MorePeople_frFR.zip"
         },
@@ -179,7 +179,7 @@
           "language": "Español",
           "addon": "LoreForever_Voice_Default_esES",
           "status": "live",
-          "clips": 604,
+          "clips": 890,
           "coverage": "zone, dungeon and place stories, in Spanish (other entries stay available as text)",
           "download": "https://github.com/mliudev/LoreForever/releases/latest/download/LoreForever_Voice_Default_esES.zip"
         },
@@ -190,7 +190,7 @@
           "addon": "LoreForever_Voice_Default_MorePeople_esES",
           "status": "soon",
           "included": false,
-          "clips": 0,
+          "clips": 677,
           "coverage": "the whole story of hundreds more characters, plus factions, peoples and lore topics, in his voice, in Spanish",
           "download": "https://github.com/mliudev/LoreForever/releases/latest/download/LoreForever_Voice_Default_MorePeople_esES.zip"
         },
@@ -343,7 +343,7 @@
           "addon": "LoreForever_Voice_Female_MoreItems",
           "status": "soon",
           "included": false,
-          "clips": 0,
+          "clips": 733,
           "coverage": "the story behind hundreds of quest items, letters and relics, in her voice",
           "download": "https://github.com/mliudev/LoreForever/releases/latest/download/LoreForever_Voice_Female_MoreItems.zip"
         },
@@ -387,7 +387,7 @@
           "language": "Deutsch",
           "addon": "LoreForever_Voice_Female_deDE",
           "status": "live",
-          "clips": 391,
+          "clips": 901,
           "coverage": "zone, dungeon and place stories and starting areas, in German; people, dungeon bosses and lore topics are in More people (other entries stay available as text)",
           "download": "https://github.com/mliudev/LoreForever/releases/latest/download/LoreForever_Voice_Female_deDE.zip"
         },
@@ -398,7 +398,7 @@
           "addon": "LoreForever_Voice_Female_MorePeople_deDE",
           "status": "live",
           "included": false,
-          "clips": 161,
+          "clips": 799,
           "coverage": "the whole story of hundreds more characters, plus factions, peoples and lore topics, in her voice, in German",
           "download": "https://github.com/mliudev/LoreForever/releases/latest/download/LoreForever_Voice_Female_MorePeople_deDE.zip"
         },
@@ -409,7 +409,7 @@
           "language": "Português (Brasil)",
           "addon": "LoreForever_Voice_Female_ptBR",
           "status": "soon",
-          "clips": 1,
+          "clips": 897,
           "coverage": "zone, dungeon and place stories, in Brazilian Portuguese (other entries stay available as text)",
           "download": "https://github.com/mliudev/LoreForever/releases/latest/download/LoreForever_Voice_Female_ptBR.zip"
         },
@@ -420,7 +420,7 @@
           "addon": "LoreForever_Voice_Female_MorePeople_ptBR",
           "status": "soon",
           "included": false,
-          "clips": 0,
+          "clips": 809,
           "coverage": "the whole story of hundreds more characters, plus factions, peoples and lore topics, in her voice, in Brazilian Portuguese",
           "download": "https://github.com/mliudev/LoreForever/releases/latest/download/LoreForever_Voice_Female_MorePeople_ptBR.zip"
         },
@@ -451,7 +451,7 @@
           "language": "Español",
           "addon": "LoreForever_Voice_Female_esES",
           "status": "live",
-          "clips": 590,
+          "clips": 893,
           "coverage": "zone, dungeon and place stories, in Spanish (other entries stay available as text)",
           "download": "https://github.com/mliudev/LoreForever/releases/latest/download/LoreForever_Voice_Female_esES.zip"
         },
@@ -462,7 +462,7 @@
           "addon": "LoreForever_Voice_Female_MorePeople_esES",
           "status": "soon",
           "included": false,
-          "clips": 0,
+          "clips": 671,
           "coverage": "the whole story of hundreds more characters, plus factions, peoples and lore topics, in her voice, in Spanish",
           "download": "https://github.com/mliudev/LoreForever/releases/latest/download/LoreForever_Voice_Female_MorePeople_esES.zip"
         },
@@ -627,16 +627,16 @@
       "language": "Español",
       "addon": "LoreForever_Edition_Densuad_esES_Audio",
       "clips": 804,
-      "download": "https://github.com/mliudev/LoreForever/releases/download/v0.24.0/LoreForever_Edition_Densuad_esES.zip",
+      "download": "https://github.com/mliudev/LoreForever/releases/download/v0.25.0/LoreForever_Edition_Densuad_esES.zip",
       "bio": "Spanish text and narration contributed by Densuad. This edition uses its own wording and recordings together. It contains contributed overviews and answers; these are not complete story recordings.",
       "coverage": "699 contributed entries, 109 answer texts and 804 recordings, each played with Densuad’s own text. Text without a matching recording remains readable.",
       "edition": {
         "id": "densuad-esES",
         "locale": "esES",
-        "version": "baee2263ab6416638ba3286d29852ec1c5b46929569dd89d31a9abd9d7017880",
+        "version": "099746318c972adb3e407477015e12a686b2f90d096ab0ce123104b6e8da7066",
         "entries": 699,
         "answers": 109,
-        "coreVersion": "0.24.0",
+        "coreVersion": "0.25.0",
         "api": 1,
         "installedSize": 704920095,
         "textAddon": "LoreForever_Edition_Densuad_esES_Text",

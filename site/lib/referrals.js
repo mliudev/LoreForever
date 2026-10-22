@@ -10,13 +10,14 @@ import { actionIsUncertain } from "./dashboard-action.js";
 // in a browser that opened the link in the last COOKIE_DAYS days (functions/api/auth/[action].js noteJoin), or, for
 // an account that had never used Willo, when it first connects Willo there (functions/api/device/[action].js
 // noteConnect); "activated" once Willo has given them a first real answer (functions/api/companion/answer.js
-// activateReferral), never on a click. Activated friends move the inviter on (REWARDS): each is a tenth of a free
-// month, the fifth of each ten gives bonus answers (answer_packs kind 'share', lib/billing.js useShare), and the tenth
-// a free month of their plan (Hero on the free plan; lib/billing.js giveFreeMonth: a Stripe credit for a paying plan,
-// a month on us otherwise), each once (referral_rewards), with no manual step. The free month counts activated
+// activateReferral), never on a click. Activated friends move the inviter on (REWARDS): every second one gives a free
+// month of their plan, at most one a calendar month (Mike, 10/21: 2 friends, not 10; Hero on the free plan;
+// lib/billing.js giveFreeMonth: a Stripe credit for a paying plan, a month on us otherwise), and the fifth of each ten
+// gives bonus answers (answer_packs kind 'share', lib/billing.js useShare), each once (referral_rewards), with no manual
+// step. The free month counts activated
 // friends, not paying ones (REWARDS.monthCounts, "paid" to change it): paying friends would put it out of reach of a
-// mostly free player base, and the guards below plus a bounded reward (a month, at most one a month) make abusing it
-// more work than it's worth.
+// mostly free player base, and the guards below plus a bounded reward (at most REWARDS.perMonth friends a month) make
+// abusing it more work than it's worth.
 //
 // The guards (a friend that fails one is kept as void, with the reason, and counts for nothing): once per Google
 // account, ever (sub_hash, kept after "Delete my account"); never the inviter's own account or link; not an account
@@ -65,12 +66,15 @@ import { COMPANION_NAME } from "./brand.js";
 // ---- The rules (Patrick's example; the numbers are Mike's to change, here) ----
 
 export const REWARDS = {
-  monthAt: 10,               // activated friends for a free month of the inviter's plan
-  bonusAt: 5,                // in each ten, the friend that gives bonus answers
+  monthAt: 2,                // activated friends for a free month of the inviter's plan (Mike, 10/21: was 10)
+  bonusAt: 5,                // in each bonusEvery friends, the one that gives bonus answers (the 5th, 15th, 25th...)
+  bonusEvery: 10,
   bonusPercent: 50,          // the bonus: this share of the plan's month of answers (Free 300, Hero 450, Champion 950)
+  monthsPerMonth: 1,         // free months a calendar month, at most (Mike, 10/21): friends past this month's monthAt x
+                             // monthsPerMonth still count, for bonus answers, but don't move the free month on
   freePlanMonth: "hero",     // the free month of a player on the free plan
   monthCounts: "activated",  // what moves the free month on: "activated" friends, or only those who "paid" a month
-  perMonth: 10,              // friends who count in one calendar month, at most (so at most one free month a month)
+  perMonth: 10,              // friends who count in one calendar month, at most (for anything)
 };
 // A creator's terms unless /admin says otherwise (Mike and Patrick's deal, 10/19 call, LOR-691: "60% of the first month
 // of the plan", and "a 15% discount" for their audience with the creator's code): they get sharePct% of each
@@ -443,27 +447,42 @@ export async function activateReferral(env, { userId, deviceId = null, machine =
 
 // ---- Rewards ----
 
-// Where the inviter is: friends (counted ever), paid (of those, who paid a first month), toward (what moves the free
-// month on, REWARDS.monthCounts), and in the current ten: have, left (until the next free month), bonusLeft (until its
-// bonus; 0 once it's earned), months (free months earned).
-export function progressOf({ friends = 0, paid = 0 } = {}) {
-  const r = REWARDS, toward = r.monthCounts === "paid" ? paid : friends;
-  const have = toward % r.monthAt, inTen = friends % r.monthAt;
+// Where the inviter is: friends (counted ever), paid (of those, who paid a first month), toward (what moved the free
+// month on: REWARDS.monthCounts, at most monthCap() of them a calendar month; towardSql's), toward the next free month:
+// have, left, then bonusLeft (until the bonus of the current ten; 0 once it's earned) and months (free months earned).
+export function progressOf({ friends = 0, paid = 0, toward = null } = {}) {
+  const r = REWARDS;
+  toward ??= r.monthCounts === "paid" ? paid : friends;
+  const have = toward % r.monthAt, inTen = friends % r.bonusEvery;
   return { friends, paid, toward, have, goal: r.monthAt, left: r.monthAt - have,
            bonusAt: r.bonusAt, bonusLeft: Math.max(0, r.bonusAt - inTen), months: Math.floor(toward / r.monthAt) };
 }
 
 // The rewards `counts` (progressOf's) have earned: the bonus of each ten reached (bonus:<user>:<n>, from 0) and each
-// free month (month:<user>:<n>, from 1).
+// free month (month:<user>:<n>, from 1). Ids by count, so a change of the numbers gives what's newly earned at the next
+// settle and never twice what was (the 10/21 change from 10 friends to 2 had no month given before it).
 function earned(userId, counts) {
   const r = REWARDS, out = [];
-  for (let k = 0; k * r.monthAt + r.bonusAt <= counts.friends; k++) out.push({ id: `bonus:${userId}:${k}`, kind: "bonus", cycle: k });
+  for (let k = 0; k * r.bonusEvery + r.bonusAt <= counts.friends; k++) out.push({ id: `bonus:${userId}:${k}`, kind: "bonus", cycle: k });
   for (let k = 1; k * r.monthAt <= counts.toward; k++) out.push({ id: `month:${userId}:${k}`, kind: "month", cycle: k });
   return out;
 }
 
-const countsSql = "SELECT COALESCE(SUM(counted), 0) AS friends, COALESCE(SUM(counted AND paid IS NOT NULL), 0) AS paid " +
-  "FROM referrals WHERE sharer_id = ? AND void IS NULL";
+// Friends a calendar month that move the free month on, at most (2: one free month a month).
+const monthCap = () => REWARDS.monthAt * REWARDS.monthsPerMonth;
+// toward (progressOf's) and toward_now (of those, this calendar month's): the friends who move the free month on,
+// counted by the month they were activated (or paid, REWARDS.monthCounts "paid"), at most monthCap() of each month.
+// Binds: monthCap(), the inviter, this month ("2026-10").
+const towardSql = () => {
+  const at = REWARDS.monthCounts === "paid" ? "paid" : "activated";
+  return `(SELECT COALESCE(SUM(MIN(n, ?1)), 0) FROM (SELECT COUNT(*) AS n FROM referrals t WHERE t.sharer_id = ?2 AND ` +
+    `t.void IS NULL AND t.counted = 1 AND t.${at} IS NOT NULL GROUP BY substr(t.${at}, 1, 7))) AS toward, ` +
+    `(SELECT MIN(COUNT(*), ?1) FROM referrals t WHERE t.sharer_id = ?2 AND t.void IS NULL AND t.counted = 1 AND ` +
+    `substr(t.${at}, 1, 7) = ?3) AS toward_now`;
+};
+const readCounts = (env, userId, now) => env.DB.prepare("SELECT COALESCE(SUM(counted), 0) AS friends, " +
+  `COALESCE(SUM(counted AND paid IS NOT NULL), 0) AS paid, ${towardSql()} FROM referrals WHERE sharer_id = ?2 AND void IS NULL`)
+  .bind(monthCap(), userId, iso(now.getTime()).slice(0, 7)).first();
 // A reward tried and not finished (a Worker cut off mid-way) is tried again after this long; Stripe's idempotency key
 // keeps a credit from being made twice.
 const STUCK_MS = 10 * 60e3;
@@ -473,7 +492,7 @@ const STUCK_MS = 10 * 60e3;
 // the next settle (the share card's next look). The rewards given now.
 export async function settleRewards(env, userId, now = new Date()) {
   await setupReferrals(env);
-  const counts = progressOf(await env.DB.prepare(countsSql).bind(userId).first() || {});
+  const counts = progressOf(await readCounts(env, userId, now) || {});
   const want = earned(userId, counts);
   if (!want.length) return [];
   const { results: have } = await env.DB.prepare("SELECT id, status, tried FROM referral_rewards WHERE user_id = ?").bind(userId).all();
@@ -490,7 +509,7 @@ export async function settleRewards(env, userId, now = new Date()) {
     try {
       const out = r.kind === "bonus" ? await giveBonus(env, userId, r.id, now)
         : await giveFreeMonth(env, userId, { id: r.id, freePlan: REWARDS.freePlanMonth, now,
-            description: `A free month: ${REWARDS.monthAt * r.cycle} friends joined ${COMPANION_NAME} with your link` });
+            description: `A free month: friends joined ${COMPANION_NAME} with your link` });
       await env.DB.prepare("UPDATE referral_rewards SET status = 'applied', method = ?, plan = ?, answers = ?, cents = ?, " +
         "stripe_id = ?, starts = ?, ends = ?, applied = ? WHERE id = ?").bind(out.method, out.plan || null,
         out.answers ?? null, out.cents ?? null, out.stripeId || null, out.starts || null, out.ends || null, at, r.id).run();
@@ -518,10 +537,11 @@ async function giveBonus(env, userId, id, now) {
 const plural = (n, one, many = one + "s") => `${n.toLocaleString("en-US")} ${n === 1 ? one : many}`;
 const usd = cents => `$${(cents / 100).toFixed(2)}`;
 const longDay = iso => new Date(iso).toLocaleDateString("en-US", { month: "long", day: "numeric", timeZone: "UTC" });
+const nth = n => n + (Math.floor(n / 10) % 10 === 1 ? "th" : ["th", "st", "nd", "rd"][n % 10] || "th");
 
 // The invite card's words, here so Willo's window, /account and the profile say the same. In Willo's world for the
-// invitation (invite, grows); plain for what it gives (about) and where they are (tally: Patrick's "7 / 10 friends
-// joined — 3 more until your next month is free"), and for what they've earned and who's still to ask (earned,
+// invitation (invite, grows); plain for what it gives (about) and where they are (tally, after Patrick's "7 / 10
+// friends joined — 3 more until your next month is free"), and for what they've earned and who's still to ask (earned,
 // waiting). s: shareSummary's; planId: the inviter's plan now.
 export function shareWords(s, planId, billed = null, now = new Date()) {
   const r = REWARDS, p = s.progress;
@@ -529,13 +549,20 @@ export function shareWords(s, planId, billed = null, now = new Date()) {
   const month = billed?.renews ? `your next month of ${freeName} free, as a credit on your bill` : `a free month of ${freeName}`;
   const counts = r.monthCounts === "paid" ? "sign in to " + COMPANION_NAME + " with your link, ask her a first question and " +
     "pay for a first month" : "sign in to " + COMPANION_NAME + " with your link and ask her a first question";
-  const about = `A friend counts once they ${counts}. ${r.bonusAt} friends: ${plural(bonusAnswersFor(planId), "bonus answer")}. ` +
-    `${r.monthAt} friends: ${month}. Then it starts again. Up to ${r.perMonth} friends count each month. ` +
-    "The reward is yours: friends earn their own by inviting theirs.";
+  const bonusFriends = [0, 1, 2].map(k => nth(r.bonusAt + k * r.bonusEvery)).join(", ");
+  const perCalendar = r.monthsPerMonth === 1 ? "one a month" : `up to ${r.monthsPerMonth} a month`;
+  const about = `A friend counts once they ${counts}. Every ${r.monthAt} friends: ${month}, ${perCalendar}. ` +
+    `Your ${bonusFriends} friend and so on: ${plural(bonusAnswersFor(planId), "bonus answer")}. ` +
+    `Up to ${r.perMonth} friends count each month. The reward is yours: friends earn their own by inviting theirs.`;
   const next = new Date(Date.UTC(now.getUTCFullYear(), now.getUTCMonth() + 1, 1));
-  const tally = `${p.have} / ${p.goal} friends joined — ${p.left} more until ` +
-    (billed?.renews ? "your next month is free." : `a free month of ${freeName}.`) +
-    (s.month.counted >= r.perMonth ? ` That's this month's ${r.perMonth}; friends who join from ${longDay(next.toISOString())} count again.` : "");
+  const from = longDay(next.toISOString());
+  const tally = s.month.counted >= r.perMonth
+    ? `${p.have} / ${p.goal} friends joined. That's this month's ${r.perMonth}; friends who join from ${from} count again.`
+    : s.month.toward >= s.month.cap
+    ? `${p.have} / ${p.goal} friends joined. This month's free month is yours: friends who join from ${from} move the ` +
+      "next one on, and until then they still count toward bonus answers."
+    : `${p.have} / ${p.goal} friends joined — ${p.left} more until ` +
+      (billed?.renews ? "your next month is free." : `a free month of ${freeName}.`);
   const months = s.rewards.filter(x => x.kind === "month" && x.status === "applied");
   const bonus = s.rewards.filter(x => x.kind === "bonus" && x.status === "applied").reduce((a, x) => a + (x.answers || 0), 0);
   const earnedWords = [months.length && plural(months.length, "free month"), bonus && plural(bonus, "bonus answer")].filter(Boolean);
@@ -561,7 +588,8 @@ function rewardView(x) {
 }
 
 // What the invite card shows (Willo's window, /account, the profile): {code, url, joined (friends who joined, not
-// void), waiting (of those, not activated yet), friends (counted), progress (progressOf's), month: {counted, max},
+// void), waiting (of those, not activated yet), friends (counted), progress (progressOf's), month: {counted, max,
+// toward (this month's friends that moved the free month on), cap (at most that many)},
 // left (answers from friends and bonuses still to use, a creator's gift included), rewards [{kind, status, text,
 // when}], earnedBefore (answers friends gave before 10/18), invite, grows, about, tally, earned, waiting words}. A
 // reward that's earned and not given yet (a failure) is given here first.
@@ -571,8 +599,8 @@ export async function shareSummary(env, userId, origin, now = new Date()) {
   const read = () => Promise.all([
     env.DB.prepare("SELECT COUNT(*) AS joined, COALESCE(SUM(activated IS NULL), 0) AS waiting, " +
       "COALESCE(SUM(counted), 0) AS friends, COALESCE(SUM(counted AND paid IS NOT NULL), 0) AS paid, " +
-      "COALESCE(SUM(counted AND substr(activated, 1, 7) = ?), 0) AS month, COALESCE(SUM(answers), 0) AS answers " +
-      "FROM referrals WHERE sharer_id = ? AND void IS NULL").bind(month, userId).first(),
+      "COALESCE(SUM(counted AND substr(activated, 1, 7) = ?3), 0) AS month, COALESCE(SUM(answers), 0) AS answers, " +
+      `${towardSql()} FROM referrals WHERE sharer_id = ?2 AND void IS NULL`).bind(monthCap(), userId, month).first(),
     env.DB.prepare("SELECT * FROM referral_rewards WHERE user_id = ? ORDER BY created, id").bind(userId).all(),
   ]);
   let [row, { results: rewards }] = await read();
@@ -585,7 +613,8 @@ export async function shareSummary(env, userId, origin, now = new Date()) {
     planIdNow(env, userId, now), billedPlan(env, userId, now),
   ]);
   const s = { code, url: shareUrl(origin, code), joined: row?.joined || 0, waiting: row?.waiting || 0,
-              friends: row?.friends || 0, progress: progressOf(row || {}), month: { counted: row?.month || 0, max: REWARDS.perMonth },
+              friends: row?.friends || 0, progress: progressOf(row || {}),
+              month: { counted: row?.month || 0, max: REWARDS.perMonth, toward: row?.toward_now || 0, cap: monthCap() },
               left: packs?.n || 0, earnedBefore: row?.answers || 0, rewards };
   return { ...s, rewards: rewards.map(rewardView), ...shareWords(s, planId, billed, now) };
 }
@@ -617,7 +646,7 @@ export function shareBanner(owner, escape) {
   }
   const who = owner.name ? `<strong>${escape(owner.name)}</strong>` : "A friend";
   return `<aside class="w-shared" aria-label="Who sent you"><p>${who} invited you to awaken your own ${COMPANION_NAME}. ` +
-    `Once you're in, invite your friends too: ${REWARDS.monthAt} friends who join give you a free month.</p></aside>`;
+    `Once you're in, invite your friends too: every ${REWARDS.monthAt} friends who join give you a free month.</p></aside>`;
 }
 
 // ---- Creators ----
@@ -1050,6 +1079,11 @@ export async function payCreator(env, code, { method = "manual", note = "", now 
     return { error, status: 409 };
   }
   if (cents <= 0) { await untie("nothing due"); return { error: `Nothing is due to ${creator.name} now.` }; }
+  // Under the minimum (clawbacks netted in, as payoutList does) is carried to next month, not paid.
+  if (cents < PAYOUTS.minimumCents) {
+    await untie("below minimum");
+    return { error: `Under ${usd(PAYOUTS.minimumCents)} is carried to next month: ${creator.name} has ${usd(cents)} due.` };
+  }
   let transfer = null;
   if (method === "stripe") {
     try {

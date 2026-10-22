@@ -16,9 +16,12 @@ import * as willo from "../functions/api/admin/willo.js";
 import * as translations from "../functions/api/translations/[action].js";
 import * as clips from "../functions/api/clip-report/[action].js";
 import * as downloads from "../functions/api/downloads.js";
+import { northStarReport } from "./north-star.js";
 
 const HANDLERS = { main, costs, creators, curseforge, "plans-usage": plans, retention, sources,
-  "voice-status": voices, willo, downloads };
+  "voice-status": voices, willo, downloads,
+  // A report of its own, with no old /admin route behind it.
+  "north-star": { onRequestGet: async ({ env }) => Response.json(await northStarReport(env)) } };
 const SUBROUTES = { "translation-summary": [translations, "summary"], "translation-review": [translations, "review"],
   "translation-decide": [translations, "decide"], "clip-export": [clips, "export"],
   "clip-resolve": [clips, "resolve"], "clip-reject": [clips, "reject"] };

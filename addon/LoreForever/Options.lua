@@ -61,7 +61,10 @@ Options.DEFAULTS = {
   -- set up by Voice.lua, which also moves the old one-voice setting (voicePack) into them.
   voiceGroup = "story",    -- keep one voice per "story" (a story and its questions), per "zone", or pick per "line"
   voiceMatchRace = false,  -- prefer voices that suit the race of the lore (orc lore in an orc voice)
-  voiceMatchGender = true, -- quest dialogue: prefer a voice of the quest giver's gender (Voice.QuestClip)
+  voiceMatchGender = true, -- quest dialogue: the quest givers' race and gender voices (Voice.QuestClip)
+  -- Narrators of the other gender, and English ones in another language, fill in only when allowed (Voice.lua familyOf).
+  voiceFillGender = false,
+  voiceFillLanguage = false,
   -- The game's sound channel recordings play on (Play voices on, LOR-315): Dialog, SFX, Music, Ambience or Master.
   -- Voice volume is that channel's own volume in the game's settings, which Lore Forever never keeps a copy of.
   voiceChannel = "Dialog",
@@ -325,15 +328,43 @@ local MODES = { "story", "line", "zone" }
 function Options.VoiceSection(c, anchor)
   local head = heading(c, L["Narration voices"], anchor, 24)
   local volume = volumeRow(c, head)
-  local intro = note(c, L["Each narration plays from the first voice in this list that has it. Use the arrows to change the order; untick a voice to stop using it."], volume.note, 14)
+  -- Three kinds of voice that never stand in for each other (voice pack layering, option A: Mike, 10/21): the narrator,
+  -- the quest givers and Willo. Each has its own part here.
+  local narratorHead = heading(c, L["Narrator: stories, places and people"], volume.note, 16)
+  local intro = note(c, L["Each story plays from the first narrator in this list that has it, and the ones below fill only what it hasn't recorded. Use the arrows to change the order; untick one to stop using it. A new voice pack goes to the bottom."], narratorHead, 6)
   local box = CreateFrame("Frame", nil, c)
   box:SetPoint("TOPLEFT", intro, "BOTTOMLEFT", 0, -6)
   box:SetPoint("RIGHT", c, "RIGHT", -24, 0)
   box:SetHeight(VROW)
-  local packsHead = heading(c, L["Installed packs"], box, 14)
-  local packsHelp = note(c, L["Several packs add recordings to the same narrator above. Language packs are chosen in Options > Language; reload to change language."], packsHead, 6)
-  local packsList = note(c, "", packsHelp, 10)
-  local modeLabel = note(c, L["When several voices have a narration:"], packsList, 14, "GameFontNormalSmall")
+  -- A tick box with its note under it (indented), saved as settings[key]; returns the box, its label and the note.
+  local function tick(label, words, anchorTo, gap, key, onClick)
+    local b = CreateFrame("CheckButton", nil, c, "UICheckButtonTemplate")
+    b:SetPoint("TOPLEFT", anchorTo, "BOTTOMLEFT", -4, -(gap or 6))
+    local text = type(b.Text) == "table" and b.Text or b:CreateFontString(nil, "ARTWORK", "GameFontHighlight")
+    text:ClearAllPoints()
+    text:SetPoint("LEFT", b, "RIGHT", 4, 0)
+    text:SetText(label)
+    local n = note(c, words, b, 2)
+    n:SetPoint("TOPLEFT", b, "BOTTOMLEFT", 30, 4)
+    b:SetScript("OnClick", function(self)
+      LoreForeverDB.settings[key] = self:GetChecked() and true or false
+      if onClick then onClick(self) end
+    end)
+    return b, text, n
+  end
+  local function revoice()
+    ns.Voice.Refresh()
+    if ns.UI and ns.UI.OnVoiceChanged then ns.UI.OnVoiceChanged() end
+  end
+  local fillGender, _, fillGenderNote = tick(L["Let a man's and a woman's narrator fill in for each other"],
+    L["Off: a story your top narrator hasn't recorded shows as text, rather than switching to a narrator of the other gender."],
+    box, 4, "voiceFillGender", revoice)
+  local fillLang, _, fillLangNote = tick(L["Let English narration fill in"],
+    L["With Lore Forever in another language: a story with no recording in it plays in English instead of showing as text."],
+    fillGenderNote, 2, "voiceFillLanguage", revoice)
+  fillLang:SetPoint("TOPLEFT", fillGenderNote, "BOTTOMLEFT", -30, -2)
+  local modeLabel = note(c, L["When several voices have a narration:"], fillLangNote, 10, "GameFontNormalSmall")
+  modeLabel:SetPoint("TOPLEFT", fillLangNote, "BOTTOMLEFT", -26, -10)
   local mode, modeList = dropDown("LoreForeverVoiceMode", c, 300)
   mode:SetPoint("TOPLEFT", modeLabel, "BOTTOMLEFT", 2, -4)
   local race = CreateFrame("CheckButton", nil, c, "UICheckButtonTemplate")
@@ -347,30 +378,36 @@ function Options.VoiceSection(c, anchor)
   raceNote:SetPoint("TOPLEFT", race, "BOTTOMLEFT", 30, 4)
   race:SetScript("OnClick", function(self)
     LoreForeverDB.settings.voiceMatchRace = self:GetChecked() and true or false
-    ns.Voice.Refresh()
-    if ns.UI and ns.UI.OnVoiceChanged then ns.UI.OnVoiceChanged() end
+    revoice()
   end)
+  local giversHead = heading(c, L["Quest givers"], raceNote, 16)
+  giversHead:SetPoint("TOPLEFT", raceNote, "BOTTOMLEFT", -28, -16)
   local gender = CreateFrame("CheckButton", nil, c, "UICheckButtonTemplate")
-  gender:SetPoint("TOPLEFT", raceNote, "BOTTOMLEFT", -30, -2)
+  gender:SetPoint("TOPLEFT", giversHead, "BOTTOMLEFT", -4, -4)
   local genderText = type(gender.Text) == "table" and gender.Text
     or gender:CreateFontString(nil, "ARTWORK", "GameFontHighlight")
   genderText:ClearAllPoints()
   genderText:SetPoint("LEFT", gender, "RIGHT", 4, 0)
   genderText:SetText(L["Match the quest giver's voice"])
-  local genderNote = note(c, L["Quest dialogue only: a woman's lines in a woman's voice and a man's in a man's, ahead of the list order, when you have both."],
+  local genderNote = note(c, L["Quest dialogue in a voice of the quest giver's race and gender. If a quest has a page no such voice recorded, your narrator reads that whole quest, so it never changes voice partway."],
     gender, 2)
   genderNote:SetPoint("TOPLEFT", gender, "BOTTOMLEFT", 30, 4)
   gender:SetScript("OnClick", function(self)
     LoreForeverDB.settings.voiceMatchGender = self:GetChecked() and true or false
   end)
+  local willoHead = heading(c, L["Willo's voice"], genderNote, 16)
+  willoHead:SetPoint("TOPLEFT", genderNote, "BOTTOMLEFT", -26, -16)
+  local willoNote = note(c, L["Willo always speaks in her own voice, picked in Willo. The narrators and quest givers never stand in for her, and she never stands in for them."], willoHead, 6)
   -- "New" after an update, when this version's notes name one of the two (WhatsNew.lua; section.ShowNew).
   local raceNew = ns.WhatsNew.Tag(c, raceText, "LEFT", "RIGHT", 8, 0)
   local genderNew = ns.WhatsNew.Tag(c, genderText, "LEFT", "RIGHT", 8, 0)
-  local status = note(c, "", genderNote, 8, "GameFontHighlightSmall")
-  status:SetPoint("TOPLEFT", genderNote, "BOTTOMLEFT", -26, -8)   -- back under the tick box, not its indented note
+  local status = note(c, "", willoNote, 12, "GameFontHighlightSmall")
   local moreLabel, url, fillUrl = urlRow(c, L["Get more voices:"], VOICES_URL, status, 14)
-  local hint = note(c, L["Installed a voice? Type /reload; it's added at the top."],
+  local hint = note(c, L["Installed a voice? Type /reload; it's added at the bottom of the narrator list."],
     moreLabel, 10)
+  local packsHead = heading(c, L["Installed packs"], hint, 18)
+  local packsHelp = note(c, L["Several packs add recordings to the same narrator above. Language packs are chosen in Options > Language; reload to change language."], packsHead, 6)
+  local packsList = note(c, "", packsHelp, 10)
 
   local section, rows = {}, {}
   function section.ShowNew()
@@ -536,6 +573,8 @@ function Options.VoiceSection(c, anchor)
     local cur = (LoreForeverDB and LoreForeverDB.settings.voiceGroup) or "story"
     mode:SetText(modeNames[cur] or modeNames.story)
     race:SetChecked(LoreForeverDB and LoreForeverDB.settings.voiceMatchRace and true or false)
+    fillGender:SetChecked(LoreForeverDB and LoreForeverDB.settings.voiceFillGender and true or false)
+    fillLang:SetChecked(LoreForeverDB and LoreForeverDB.settings.voiceFillLanguage and true or false)
     gender:SetChecked(not (LoreForeverDB and LoreForeverDB.settings.voiceMatchGender == false))
     status:SetText(ns.Voice.Status(true))
     fillUrl()
@@ -563,11 +602,12 @@ function Options.VoiceSection(c, anchor)
   end)
   section.rows, section.box, section.mode, section.modeList = rows, box, mode, modeList
   section.status, section.url, section.race = status, url, race
+  section.fillGender, section.fillLanguage, section.gender = fillGender, fillLang, gender
   section.volume, section.volumeValue, section.volumeNote = volume.slider, volume.value, volume.note
   section.volumeLabel, section.volumeNew, section.SyncVolume = volume.label, volume.new, volume.Sync
   section.channel, section.channelList, section.channelLabel = volume.channel, volume.channelList, volume.pick
   section.channelNew = volume.channelNew
-  return section, hint
+  return section, packsList
 end
 
 -- Built when the panel is, after the language pack has loaded.

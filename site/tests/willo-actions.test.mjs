@@ -93,15 +93,18 @@ test("money is a tap in her window: never offered out loud, never without plans 
 test("the Voices of Azeroth are offered only to a companion whose picker has them, in players' words (LOR-609)", () => {
   assert.deepEqual(picksFor("companion/0.20.0"), ["sprite", "sunbeam", "moonwell", "fenlight", "starling"]);
   assert.equal(picksFor("companion/0.1.0").length, 5, "a build without a release version: her own five");
-  // From then: her five with their male partners (LOR-610), then the Voices of Azeroth.
-  assert.deepEqual(picksFor("companion/0.20.1").slice(0, 10), ["sprite", "puck", "sunbeam", "daybreak", "moonwell",
+  // From then: her five with their male partners (LOR-610), then the Voices of Azeroth on a plan that has them
+  // (Legend's, and the first-run trial's: the voices and plans picks, 10/21).
+  const legend = { voice: { choice: true, azeroth: true } }, champion = { voice: { choice: true } };
+  assert.deepEqual(picksFor("companion/0.20.1", legend).slice(0, 10), ["sprite", "puck", "sunbeam", "daybreak", "moonwell",
     "moonshade", "fenlight", "fenfire", "starling", "kestrel"]);
-  assert.deepEqual(picksFor("companion/0.20.1").slice(10), AZEROTH_PICKS);
-  assert.equal(picksFor("companion/0.21.0").length, 32);
+  assert.deepEqual(picksFor("companion/0.20.1", legend).slice(10), AZEROTH_PICKS);
+  assert.equal(picksFor("companion/0.21.0", legend).length, 32);
+  assert.equal(picksFor("companion/0.21.0", champion).length, 10);
   // WILLO STATE's "voice now" names her voice as Settings does: never offered the one she has.
   assert.deepEqual([pickNamed("Dwarf, man"), pickNamed("Sprite"), pickNamed("Heart "), pickNamed("")], ["dwarf-male", "sprite", "", ""]);
   const all = ["problems", "talk", "voice", "wisp", "sight", "live", "plans", "chat", "color", "settings"];
-  const offered = actionsFor(all, { voices: picksFor("companion/0.21.0"), current: "dwarf-male", key: "f9",
+  const offered = actionsFor(all, { voices: picksFor("companion/0.21.0", legend), current: "dwarf-male", key: "f9",
     off: { live: true, sight: true }, plans: true });
   const enumOf = offered.find(d => d.name === "set_voice").parameters.properties.voice.enum;
   assert.ok(enumOf.includes("nightelf-female") && !enumOf.includes("dwarf-male"));

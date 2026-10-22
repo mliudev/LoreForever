@@ -835,9 +835,9 @@
     "npc:bath-rah-the-windwatcher": {
       "1": [
         {
-          "duration": 43.650612244897964,
-          "file": "Audio/Transport/full_npc_bath-rah-the-windwatcher-1c63049518ba005937fc/1-0000.mp3",
-          "sha256": "193b98587ca43160a0d351efdd87a31797061135fd74a4bed5a503460f66306a",
+          "duration": 43.91183673469388,
+          "file": "Audio/Transport/full_npc_bath-rah-the-windwatcher-dd50304242710f7f618c/1-0000.mp3",
+          "sha256": "41b15b6799140ce60c922cf6e120cbf01269f0b9eac76d6ded3840caf04cfcb7",
           "start": 0
         }
       ],
@@ -849,12 +849,12 @@
         ]
       },
       "fullHash": "fb540b",
-      "generation": "5bc85eb66bdadfc8fb3e",
+      "generation": "680de1fe81f6279a97fa",
       "hash": "fb540b",
       "source": {
-        "duration": 43.624438,
+        "duration": 43.885688,
         "file": null,
-        "sha256": "1c63049518ba005937fc77f0025aa888e5e48c1ddd70dbbfbce61c87efe9b509"
+        "sha256": "dd50304242710f7f618c4fe557b0e8b81db4abdc457bc50ce194abbdc87c3323"
       },
       "text": "Bath'rah the Windwatcher. Bath'rah the Windwatcher is a solitary jungle troll shaman and weaponcrafter dwelling amidst the ruins near Chillwind Point. Far from his tropical homelands, he studies the tempestuous elements of the northern mountains, seeking champions powerful enough to help him craft formidable weapons of wind. While most jungle trolls keep to the warm forests and coasts of the south, Bath'rah has embraced the solitary life of a mountain hermit among the cold ruins of the Alterac Mountains. A seasoned shaman and craftsman, he devotes his days to listening to the howling winds and communing with nature spirits. His obsession is not merely philosophical; he seeks to bind the fury of violent elemental storms into tangible armaments for those who possess the strength to wield them."
     },
@@ -3773,9 +3773,9 @@
     "npc:felix-whindlebolt": {
       "1": [
         {
-          "duration": 42.10938775510204,
-          "file": "Audio/Transport/full_npc_felix-whindlebolt-d4290e14566bb12042d2/1-0000.mp3",
-          "sha256": "448bd9a6334b9ec904f02b09d7a08386fd0d4dcc16a06fc34753be92d82e1b75",
+          "duration": 41.97877551020408,
+          "file": "Audio/Transport/full_npc_felix-whindlebolt-d30cd6f8ed01661b4e88/1-0000.mp3",
+          "sha256": "92ef9bd429072e019a23f23363ded68063c585ef5b26fd9a83d39ce0e48b676a",
           "start": 0
         }
       ],
@@ -3787,12 +3787,12 @@
         ]
       },
       "fullHash": "ee02bb",
-      "generation": "5c1cebc64701d013f74d",
+      "generation": "40c0418713242bd34159",
       "hash": "ee02bb",
       "source": {
-        "duration": 42.08325,
+        "duration": 41.952625,
         "file": null,
-        "sha256": "d4290e14566bb12042d29479d652f8b7306bbab0dac45495bec806514d692b99"
+        "sha256": "d30cd6f8ed01661b4e88e72039eb5d1e045cc661fe36d00e130fe605c4b6e8ed"
       },
       "text": "Felix Whindlebolt. Felix Whindlebolt is a displaced gnome refugee taking shelter at Anvilmar in Coldridge Valley. In his haste to flee the radiation flooding Gnomeregan, he lost his personal belongings, and hostile Frostmane trolls made off with them. Following the tragic fall of Gnomeregan, thousands of gnomes found themselves wandering the freezing reaches of Dun Morogh in search of safety. Felix Whindlebolt fled the irradiated city in such haste that he lost all his personal belongings and tools. To make matters worse, Frostmane ice trolls carried his chest, his box and his bucket of bolts back to their camps southwest of Anvilmar, leaving him stranded, destitute, and relying on sympathetic wanderers to retrieve his stolen gear."
     },
@@ -5385,9 +5385,9 @@
     "npc:hogger": {
       "1": [
         {
-          "duration": 52.42775510204082,
-          "file": "Audio/Transport/full_npc_hogger-41b5d810687af5139bdf/1-0000.mp3",
-          "sha256": "766177de94b41d8c046125d83a8a9354c5ab58ccdd3a95758a9eb9cbc267245e",
+          "duration": 52.688979591836734,
+          "file": "Audio/Transport/full_npc_hogger-8df39bdd4431bb555553/1-0000.mp3",
+          "sha256": "c61334ab2f48b65f9aeb85d10e32b31640b05307e5e5f2043b52b57a1c235ac8",
           "start": 0
         }
       ],
@@ -5399,12 +5399,12 @@
         ]
       },
       "fullHash": "16da6e",
-      "generation": "647ee9ce09b1f380393c",
+      "generation": "f09e61c277ffc81ede98",
       "hash": "16da6e",
       "source": {
-        "duration": 52.401625,
+        "duration": 52.662813,
         "file": null,
-        "sha256": "41b5d810687af5139bdf5aaaa1fdd5feccc3a53c8f107054b427b7234c755735"
+        "sha256": "8df39bdd4431bb555553141d1a664f3fce9d240800610cdc0d59028d6e74fc74"
       },
       "text": "Hogger. Hogger is the vicious chieftain of the Riverpaw gnolls prowling southwestern Elwynn Forest. Towering over his kin and remarkably aggressive, he has become notorious for raiding local farms and butchering unsuspecting travelers. His violent rampages have earned him an official bounty from the Stormwind Marshals. Prowling atop Hogger Hill in southwestern Elwynn Forest, Hogger commands the local Riverpaw pack with unmatched savagery. In the years following the Third War, gnoll raids across local homesteads grew increasingly bold and coordinated. Behind this rise in violence lies an unsettling alliance: the Riverpaw have begun colluding with the Defias Brotherhood, trading raw ferocity for arms, tactical direction, and magical support. To safeguard Elwynn's borders and protect trade routes from further bloodshed, Marshal Dughan has posted a generous bounty on Hogger's head."
     },
@@ -5541,9 +5541,9 @@
     "npc:innkeeper-farley": {
       "1": [
         {
-          "duration": 34.63836734693878,
-          "file": "Audio/Transport/full_npc_innkeeper-farley-cfd004eeaef67c37d4ec/1-0000.mp3",
-          "sha256": "ac408ffd675aee9b20d1a9a3c323eb3d381efe6729859da23a6078a3260a3736",
+          "duration": 35.00408163265306,
+          "file": "Audio/Transport/full_npc_innkeeper-farley-119d24c166a82acc1a7b/1-0000.mp3",
+          "sha256": "41112dd7b51686686440dae46961380e79b97ecc61a90975e7fbe8b1546b1a0c",
           "start": 0
         }
       ],
@@ -5555,12 +5555,12 @@
         ]
       },
       "fullHash": "29c37f",
-      "generation": "75a97543bf528c606c7a",
+      "generation": "dbac6a6857dbdc2204b1",
       "hash": "29c37f",
       "source": {
-        "duration": 34.612188,
+        "duration": 34.977938,
         "file": null,
-        "sha256": "cfd004eeaef67c37d4ec06f08b8b7a3f8273484ade3715fe6767b510b21db7c9"
+        "sha256": "119d24c166a82acc1a7b296b104034dc5b0eec2338f719991d55aca2494860e3"
       },
       "text": "Innkeeper Farley. Innkeeper Farley manages the Lion's Pride Inn in Goldshire, providing food, lodging, and hearthstones to travelers passing through Elwynn Forest. Well-liked and observant, he often holds misplaced mail and listens to the troubles of adventurers on the road. Innkeeper Farley runs the Lion's Pride Inn with a welcoming hand and a sharp eye. Travelers bound for Stormwind, Westfall and Duskwood stop at his counter for a warm meal, a mug of ale and a bed, and Farley keeps order in one of the realm's busiest waystations, pouring ale and serving cheese to all who pass through Goldshire."
     },
@@ -6087,9 +6087,9 @@
     "npc:kanati-greycloud": {
       "1": [
         {
-          "duration": 39.44489795918368,
-          "file": "Audio/Transport/full_npc_kanati-greycloud-aad9ee4531c0fb535e19/1-0000.mp3",
-          "sha256": "4fc9d15f37740871544e395bdd1c1f02e015fea4430ecd2513795d5c7b55ee02",
+          "duration": 38.89632653061225,
+          "file": "Audio/Transport/full_npc_kanati-greycloud-590492b93a53582645fe/1-0000.mp3",
+          "sha256": "1bb0df68063b35917301df7aa8466121ecfdf5c93f2a5a5cddbad3d652aa3f6c",
           "start": 0
         }
       ],
@@ -6101,12 +6101,12 @@
         ]
       },
       "fullHash": "319ea0",
-      "generation": "b94fb92d4f7c888df7ae",
+      "generation": "85bc74cddc76c278dfca",
       "hash": "319ea0",
       "source": {
-        "duration": 39.41875,
+        "duration": 38.870188,
         "file": null,
-        "sha256": "aad9ee4531c0fb535e192ad158a3ec701b119e7403d404bfbea5403ad312c1a0"
+        "sha256": "590492b93a53582645fe3495a8c99dc3bd8337091dd072482071a32de8caf944"
       },
       "text": "Kanati Greycloud. Kanati Greycloud is a tauren hunter stationed at Whitereach Post within Thousand Needles. Alongside his hunting companions, he musters what defense he can while enduring constant hostility from the local Galak centaur. Kanati Greycloud makes his camp at Whitereach Post, high atop the sandstone spires of western Thousand Needles. While the canyon offers abundant game and open vistas, it is hemmed in by the Galak centaur, whose warbands contest every inch of the arid flats below. Together with other tauren hunters, Kanati keeps watch over the canyon floor, striving to preserve the post against the brutal depredations of the surrounding marauders."
     },
@@ -6737,9 +6737,9 @@
     "npc:krolg": {
       "1": [
         {
-          "duration": 40.96,
-          "file": "Audio/Transport/full_npc_krolg-3c5900c2f40ed47f4c66/1-0000.mp3",
-          "sha256": "9fdaf8023beb290ac239f2e73e0f582ab83e3cd344840c11c320c0f6bdd36644",
+          "duration": 41.53469387755102,
+          "file": "Audio/Transport/full_npc_krolg-9cae48b889a22b39ab37/1-0000.mp3",
+          "sha256": "085e2b874974d863b5a34ee9c4a05083fa8cdd5c832e50008744810d27f9354c",
           "start": 0
         }
       ],
@@ -6751,12 +6751,12 @@
         ]
       },
       "fullHash": "331f6c",
-      "generation": "702e940eab7844a5ae4e",
+      "generation": "b64a3546e5269065529a",
       "hash": "331f6c",
       "source": {
-        "duration": 40.933875,
+        "duration": 41.508563,
         "file": null,
-        "sha256": "3c5900c2f40ed47f4c662ed02bf42511498497d6f182af511ac32d648ff2a695"
+        "sha256": "9cae48b889a22b39ab37cc54b11cc402ee7547b614c02e2a0d584d1e408ae06b"
       },
       "text": "Krolg. Krolg is an uncorrupted furbolg living in an isolated hut south of Mystral Lake in Ashenvale. Formerly a member of the Foulweald tribe, he was cast out by his kin, who fell to demonic madness, and will only speak with those who appear to him in furbolg form. While most of the Foulweald furbolgs in Ashenvale have succumbed to the demonic taint left behind by the Burning Legion, Krolg remains lucid and untouched by madness. Residing in a secluded shelter south of Mystral Lake, he keeps a cautious vigil over the forest. Having witnessed the tragic descent of his brethren into senseless violence, he refuses to interact with outsiders at face value, speaking only with beings that appear as kin."
     },
@@ -7179,9 +7179,9 @@
     "npc:lomac-gearstrip": {
       "1": [
         {
-          "duration": 60.8130612244898,
-          "file": "Audio/Transport/full_npc_lomac-gearstrip-54e606f9fefaa383303f/1-0000.mp3",
-          "sha256": "66c7163297669b15593176cf0a6b4aa34ef87e412a1aa5e7176d43f1b8aa7cd0",
+          "duration": 60.499591836734695,
+          "file": "Audio/Transport/full_npc_lomac-gearstrip-355bd181a774aabc104a/1-0000.mp3",
+          "sha256": "8dd6946027b3049e5975467bf10ee7f902df67ee1e91ce197f46488259b29247",
           "start": 0
         }
       ],
@@ -7193,12 +7193,12 @@
         ]
       },
       "fullHash": "8ae00f",
-      "generation": "ecc013ddfc9cb6c4b649",
+      "generation": "5c2898fdf8ba438fc519",
       "hash": "8ae00f",
       "source": {
-        "duration": 60.786938,
+        "duration": 60.473438,
         "file": null,
-        "sha256": "54e606f9fefaa383303fbfc3afbb733bc5612005f2e10e04640a08c3f6255f97"
+        "sha256": "355bd181a774aabc104a8994e7620e6bfceca1572f8fd327b73d1010a6f0334c"
       },
       "text": "Lomac Gearstrip. Lomac Gearstrip is an ambitious gnome inventor based in Tinker Town within Ironforge. Renowned for formulating the devastating NG-5 explosive, he liaises with fellow gnomish researchers operating across Kalimdor. Amid the clanging gears and hissing pipes of Ironforge's Tinker Town, Lomac Gearstrip pursues the finer points of gnomish ordnance. Like many exiled gnomes who fled the tragedy at Gnomeregan, Lomac has integrated his tinkering operations directly into the dwarven capital. His workshop focuses on volatile chemical mixtures and specialized munitions designed to overcome heavily defended enemy strongholds. Lomac's proudest contribution to modern combat engineering is the NG-5 explosive. Formulated for maximum destructive yield, the compound demands precise handling and rare chemical reagents. To refine and deploy such hazardous inventions in the field, Lomac maintains contact with old colleagues stationed in distant theaters, exchanging technical orders and dangerous supplies across the Great Sea."
     },
@@ -8323,9 +8323,9 @@
     "npc:merrin-rockweaver": {
       "1": [
         {
-          "duration": 64.41795918367347,
-          "file": "Audio/Transport/full_npc_merrin-rockweaver-9ba1c5cd36c83cd3b0fa/1-0000.mp3",
-          "sha256": "70c730b55882c54b24e4760d206853045c6984531a6c1dca5d2e07582c28ca3a",
+          "duration": 64.05224489795918,
+          "file": "Audio/Transport/full_npc_merrin-rockweaver-aad421d50b7d7356586f/1-0000.mp3",
+          "sha256": "69167d412171b6c10e137778f88ef600df6b050f039f323c9ae9677cd430b732",
           "start": 0
         }
       ],
@@ -8337,12 +8337,12 @@
         ]
       },
       "fullHash": "8aa5c7",
-      "generation": "448d78f811b8e49bd77d",
+      "generation": "917b7ca223e4e56183f7",
       "hash": "8aa5c7",
       "source": {
-        "duration": 64.391813,
+        "duration": 64.026063,
         "file": null,
-        "sha256": "9ba1c5cd36c83cd3b0fafb8ebb7cc0f0ef89c959bad57bd8bc7e27bc48b2f247"
+        "sha256": "aad421d50b7d7356586fa4c0635e7262beba4da1f63ae1b5faf732fea5e831c1"
       },
       "text": "Merrin Rockweaver. Merrin Rockweaver is a dwarven researcher representing the Explorers' League in the Wetlands. Following a violent raptor infestation that overran Whelgar's Excavation Site, she took refuge alongside Prospector Whelgar on a ridge overlooking the site. Merrin Rockweaver traveled to the Wetlands on behalf of the Ironforge Explorers' League to unearth ancient Titan secrets buried beneath the muck. The expedition ended in disaster when the large bones they unearthed drew raptors to the dig. Vicious prehistoric beasts swarmed the trenches, forcing Merrin and the surviving crew to abandon their equipment, notes, and progress. She is now trapped with the few survivors on a bluff overlooking the overrun ruins. Trapped on the bluff, the survivors refuse to let the expedition become an outright failure. While Ormer Ironbraid plots vengeance against the beasts and Prospector Whelgar seeks the tablet fragments left behind in the raptor-infested trenches, Merrin's thoughts turn to her husband Tarrel, who has not heard from her in weeks. She relies on the scout Longbraid sent to find the team to carry word of their plight back to him."
     },
@@ -9285,9 +9285,9 @@
     "npc:orendil-broadleaf": {
       "1": [
         {
-          "duration": 38.42612244897959,
-          "file": "Audio/Transport/full_npc_orendil-broadleaf-d3e1f66b5b1ff791b634/1-0000.mp3",
-          "sha256": "45da2daf71e659ca0ec002e87f5735cefda89b1d0bed41b4455cc9e8cf46b456",
+          "duration": 38.29551020408164,
+          "file": "Audio/Transport/full_npc_orendil-broadleaf-9f0ef293b1818432c5bb/1-0000.mp3",
+          "sha256": "ea766170549309954771eea035db2da88580392002897ca685862f4c94e625e5",
           "start": 0
         }
       ],
@@ -9299,12 +9299,12 @@
         ]
       },
       "fullHash": "1a8e40",
-      "generation": "0072eba63cf18ad5cb49",
+      "generation": "587d77999979ccfbd2cc",
       "hash": "1a8e40",
       "source": {
-        "duration": 38.4,
+        "duration": 38.269375,
         "file": null,
-        "sha256": "d3e1f66b5b1ff791b6348ca5447bed24882778ff380d3b537a3ab28e428f9a84"
+        "sha256": "9f0ef293b1818432c5bb3384936b5fafc5a616a0874c697be85f58df466a8c8f"
       },
       "text": "Orendil Broadleaf. Orendil Broadleaf is a skilled night elf herbalist and healer stationed at Maestra's Post in western Ashenvale. Known for his deep knowledge of forest flora, he concocts vital remedies to save young lives across the troubled woodlands. Positioned at Maestra's Post along the western threshold of Ashenvale, Orendil Broadleaf tends to the sick as a skilled healer. Recognized for his masterful knowledge of local herbs and restorative craft, Orendil relies on passing travelers to gather rare natural reagents. Even as tension and conflict encroach upon the forest, his tireless focus remains on safeguarding his kin and soothing their ailments."
     },
@@ -9337,9 +9337,9 @@
     "npc:ormak-grimshot": {
       "1": [
         {
-          "duration": 43.415510204081635,
-          "file": "Audio/Transport/full_npc_ormak-grimshot-b0e34dfa68a581e4603a/1-0000.mp3",
-          "sha256": "48545147b179c7ebc605f8a851df9f0512764b507570f37a7e7c0effa2e387f0",
+          "duration": 43.59836734693878,
+          "file": "Audio/Transport/full_npc_ormak-grimshot-d2cd4e5999b245cf74ae/1-0000.mp3",
+          "sha256": "c313b1c06ec7a1e613ccef4ed89f378549cd718769f4eb34a1bf66a6327f5be6",
           "start": 0
         }
       ],
@@ -9351,12 +9351,12 @@
         ]
       },
       "fullHash": "632d01",
-      "generation": "5c6dd56e271a3bbad8d9",
+      "generation": "cf2fe90f1681a5d0d1b2",
       "hash": "632d01",
       "source": {
-        "duration": 43.389375,
+        "duration": 43.572188,
         "file": null,
-        "sha256": "b0e34dfa68a581e4603aef7bed85d1a1f0431f38c795dae2b0bd8c76d9e3df06"
+        "sha256": "d2cd4e5999b245cf74ae01567e3c72eeab1956ce2c8a903e264d771007b3dcd7"
       },
       "text": "Ormak Grimshot. Ormak Grimshot is an experienced orc hunter trainer residing in the Hunter's Hall within Orgrimmar's Valley of Honor. Accompanied by his loyal wolf, Grimfang, he instructs young hunters of the Horde in tracking, marksmanship, and bonding with wild beasts. Stationed within the Hunter's Hall in the Valley of Honor, Ormak Grimshot serves as a cornerstone of martial instruction for the Horde's trackers and marksmen. Alongside his companion wolf, Grimfang, Ormak imparts the foundational discipline needed to survive Kalimdor's harsh wilderness. For orc and troll hunters arriving from their trials in Durotar, he provides vital guidance on the sacred art of taming and commanding wild beasts, ensuring every hunter forms an enduring bond with their animal partner."
     },
@@ -9649,9 +9649,9 @@
     "npc:pilot-stonegear": {
       "1": [
         {
-          "duration": 80.48326530612245,
-          "file": "Audio/Transport/full_npc_pilot-stonegear-472b4ec640d6f4287298/1-0000.mp3",
-          "sha256": "90ca3e4d06a2b265ee22740dacc30608c751d4896e82365cc6f6454977c8e089",
+          "duration": 80.69224489795918,
+          "file": "Audio/Transport/full_npc_pilot-stonegear-c69476092484462f619a/1-0000.mp3",
+          "sha256": "8b2dd3713c038ca19c01b0f2f2a072657e42e69f54881922f5b8208afd90aec0",
           "start": 0
         }
       ],
@@ -9663,12 +9663,12 @@
         ]
       },
       "fullHash": "e37213",
-      "generation": "632d8dc89b0d4ec53deb",
+      "generation": "9f6c55995923246a1348",
       "hash": "e37213",
       "source": {
-        "duration": 80.457125,
+        "duration": 80.666063,
         "file": null,
-        "sha256": "472b4ec640d6f4287298a887324e2834fc4a3ccaa9c7a2b9cf0b705a1559019c"
+        "sha256": "c69476092484462f619ab211ba3538d3b8bf08aad7bc706afaefdae63108684d"
       },
       "text": "Pilot Stonegear. Pilot Stonegear, nicknamed 'Stone', is a dwarf mechanic and driver in the Ironforge Siege Brigade stationed at Steelgrill's Depot. He operates the formidable siege engine known as Trollplow and works tirelessly to enhance its performance and armor. Adventurers traveling through Dun Morogh often help him secure rare materials to keep his war machine battle-ready. Stationed among the rumbling boilers and clanking tracks of Steelgrill's Depot, Pilot Stonegear serves Ironforge as a proud driver in the Siege Brigade. His pride and joy is Trollplow, a heavy siege tank built to smash through enemy lines. Stonegear takes his machine seriously—knowing that in the heat of battle, a driver's life depends entirely on the resilience of gears, plates, and steam pressure. He constantly seeks to fine-tune both Trollplow's combat efficiency and the everyday livability of its cramped cockpit. Like many dwarven and gnomish grease-monkeys at the depot, Stonegear is rarely content with factory specifications. He often spends off-duty hours debating engineering schematics with comrades like Pilot Bellowfiz. Whether chasing down rumors of exotic ores or tracking down volatile minerals to fuel enhanced plating and munitions, Stonegear relies on eager recruits to venture into the snowy wilderness and dangerous caves of Dun Morogh on supply runs."
     },
@@ -12223,9 +12223,9 @@
     "npc:thadius-grimshade": {
       "1": [
         {
-          "duration": 44.61714285714286,
-          "file": "Audio/Transport/full_npc_thadius-grimshade-4bcae89003681175bb1c/1-0000.mp3",
-          "sha256": "9735c07761812d964d1f90361598e9abe2364cc8a2fb157f05039a98e1dc1e1b",
+          "duration": 44.40816326530612,
+          "file": "Audio/Transport/full_npc_thadius-grimshade-2a41a8b692df9e80e04f/1-0000.mp3",
+          "sha256": "49482e6b976afac0194cbd7c35832ec0e3c99132cd1d9c245006aa7cf157880a",
           "start": 0
         }
       ],
@@ -12237,12 +12237,12 @@
         ]
       },
       "fullHash": "d61efa",
-      "generation": "88dee204cb68e5901fc7",
+      "generation": "c192dcad4794ab862411",
       "hash": "d61efa",
       "source": {
-        "duration": 44.591,
+        "duration": 44.382,
         "file": null,
-        "sha256": "4bcae89003681175bb1cd009877fb74b70158f989cd54cebe969e127e08c4d80"
+        "sha256": "2a41a8b692df9e80e04fd18345868651f189118fc7ee1fec3cd292da67142c43"
       },
       "text": "Thadius Grimshade. Thadius Grimshade is a Wildhammer dwarf diviner dwelling within the mage tower of Nethergarde Keep in the Blasted Lands. Though he parted ways with Aerie Peak long ago to study esoteric and darker magical arts, he remains loyal to his kin at heart. Unlike most Wildhammer dwarves who prefer the open skies and roaring winds of the Hinterlands, Thadius Grimshade makes his home inside Nethergarde Keep. Driven by a thirst for arcane divination and darker mystic lore, he relocated to the edge of the tainted Blasted Lands to pursue his esoteric studies. Despite his brooding discipline and separation from his clan, he retains a deep fondness for his homeland and gryphonkind, offering his rare scrying talents to those who come seeking aid on behalf of Aerie Peak."
     },
@@ -12899,9 +12899,9 @@
     "npc:valstag-ironjaw": {
       "1": [
         {
-          "duration": 64.6530612244898,
-          "file": "Audio/Transport/full_npc_valstag-ironjaw-abcea7d737ad6d5355a5/1-0000.mp3",
-          "sha256": "2381b6b1f5ebb968ee9a1e156f3ddb507b3a42ef322f288d78a48080a7238ada",
+          "duration": 64.47020408163266,
+          "file": "Audio/Transport/full_npc_valstag-ironjaw-4742d857799143ce8b12/1-0000.mp3",
+          "sha256": "cb65d5f0a2d1afd67688ec2778cdc58ee7699bf2afc05fd54155b70e795aae48",
           "start": 0
         }
       ],
@@ -12913,12 +12913,12 @@
         ]
       },
       "fullHash": "830ba3",
-      "generation": "136c6fca4c6488c240c6",
+      "generation": "085f0139dbefcf73dab0",
       "hash": "830ba3",
       "source": {
-        "duration": 64.626938,
+        "duration": 64.444063,
         "file": null,
-        "sha256": "abcea7d737ad6d5355a59b5768196ebc992ff0243f35c84b9153cea97d9be11e"
+        "sha256": "4742d857799143ce8b12e040df912a174aa6ea3b23c965e7d5c75a687bec7aca"
       },
       "text": "Valstag Ironjaw. Valstag Ironjaw is an Ironforge dwarven soldier stationed within Menethil Keep in the coastal marshlands of the Wetlands. Facing the pressing dangers that plague the trade passages connecting Loch Modan and the coast, he assists in securing regional routes and keeping the harbor's garrison informed of local threats. Found inside Menethil Keep in Menethil Harbor, Valstag Ironjaw serves as part of the dwarven garrison keeping watch over the lowlands. The surrounding marsh is rife with danger, from hostile Dragonmaw orcs to ravenous wildlife, making communications and supply lines difficult to maintain. Valstag helps coordinate defense efforts along the primary thoroughfares, particularly the treacherous passage cutting through Dun Algaz toward Loch Modan. With the treacherous Algaz Gauntlet choked by hostile forces, travelers and supply convoys heading between Menethil Harbor and Loch Modan are under constant threat. Valstag directs capable adventurers to confront the brigands and orcs lurking in the passes, relaying crucial military intelligence back and forth between forward scouts and commanders like Captain Stoutfist."
     },
@@ -13185,9 +13185,9 @@
     "npc:volcor": {
       "1": [
         {
-          "duration": 32.10448979591837,
-          "file": "Audio/Transport/full_npc_volcor-6b2381b525201c404c01/1-0000.mp3",
-          "sha256": "4c41837dbb95ee147326b5d0151d5916c0e790411906b391dbb581987c121cee",
+          "duration": 31.634285714285717,
+          "file": "Audio/Transport/full_npc_volcor-f99cc845a3b6d3542a35/1-0000.mp3",
+          "sha256": "1dd85f6dc97a5f978fc6f6fb20af583f229260a271e162aa6827b1fb1aa0ccc5",
           "start": 0
         }
       ],
@@ -13199,12 +13199,12 @@
         ]
       },
       "fullHash": "a1c913",
-      "generation": "f1b188f97606f3812423",
+      "generation": "e6fda01a45ee41f8f29c",
       "hash": "a1c913",
       "source": {
-        "duration": 32.078313,
+        "duration": 31.608125,
         "file": null,
-        "sha256": "6b2381b525201c404c01b2087664f865c24b667b16d3a21c509086a5267a963c"
+        "sha256": "f99cc845a3b6d3542a35e5f878a5507586d669fa4732177c9bae67bf731e472b"
       },
       "text": "Volcor. Volcor is an injured night elf scout stranded deep within Blackwood Den in southern Darkshore. Trapped by hostile Blackwood furbolgs, he relies on his faithful companion Grimclaw and the aid of Auberdine's defenders to escape. While tracking the corrupted Blackwood tribe in their subterranean lair, Volcor was ambushed and severely wounded. Unable to fight his way past the hostile furbolgs on his own, he sent his loyal bear companion, Grimclaw, out into the wilds of Darkshore to seek help from the settlement of Auberdine."
     },
@@ -13679,9 +13679,9 @@
     "npc:wizzlecrank-s-shredder": {
       "1": [
         {
-          "duration": 53.31591836734694,
-          "file": "Audio/Transport/full_npc_wizzlecrank-s-shredder-7eb64d76b4451ab260bd/1-0000.mp3",
-          "sha256": "6affe97d90112b5746a82ec88b3815006ea3585036d42915d133da0032912c70",
+          "duration": 52.92408163265306,
+          "file": "Audio/Transport/full_npc_wizzlecrank-s-shredder-14cb835153cf5afcb211/1-0000.mp3",
+          "sha256": "f7af4925a119c99ea0b736de424b43ace1572d3cf3606c3f5f72ee821e24e688",
           "start": 0
         }
       ],
@@ -13693,12 +13693,12 @@
         ]
       },
       "fullHash": "018988",
-      "generation": "2b1d2dd1f9ac925a783b",
+      "generation": "c49ff01ebd24af769e1b",
       "hash": "018988",
       "source": {
-        "duration": 53.28975,
+        "duration": 52.897938,
         "file": null,
-        "sha256": "7eb64d76b4451ab260bd7706028c886199ce9e444bcec857f652166ea08554fb"
+        "sha256": "14cb835153cf5afcb2117555569d6a5c058fcf2725f7ff1dfd22e131974367e6"
       },
       "text": "Wizzlecrank's Shredder. Wizzlecrank's Shredder is a Venture Company shredder stuck in the foul depths of Sludge Fen in the northern Barrens. The goblin Pilot Wizzlecrank has climbed inside to steal it, but without its key the machine will not move, and it sits amidst hostile Venture Company operators. Helping fire up its engine is the only way the trapped pilot can make a desperate bid for freedom. Deep within the oil-slicked, heavily polluted basin of Sludge Fen sits Wizzlecrank's Shredder, immobile and surrounded by hostile Venture Company mercenaries. The goblin inside, Wizzlecrank, hopped into the Venture Co. machine to steal it, only to discover he needed a key to unlock its movement column. When another shredder operator asked if everything was all right, he panicked and blamed a mechanical problem. Now he sits sealed inside amid hostile guards and overseers, hoping someone can fetch the key before the Venture Company grows suspicious."
     },
@@ -13913,9 +13913,9 @@
     "npc:zankaja": {
       "1": [
         {
-          "duration": 43.57224489795919,
-          "file": "Audio/Transport/full_npc_zankaja-0652a6d0eb1c3fecda03/1-0000.mp3",
-          "sha256": "d50ac787386e5bee055d7bc4d2720679f426add5acd9643a71e709000ecfc706",
+          "duration": 43.59836734693878,
+          "file": "Audio/Transport/full_npc_zankaja-6bd755100a167730bc14/1-0000.mp3",
+          "sha256": "0364c195dba4694323383ec2a7de3c05231da703b963d4f553751b04f4792e9d",
           "start": 0
         }
       ],
@@ -13927,12 +13927,12 @@
         ]
       },
       "fullHash": "e08e56",
-      "generation": "f1b3f69f3c02b84bfade",
+      "generation": "1ebb4e7fb2e15fe64f61",
       "hash": "e08e56",
       "source": {
-        "duration": 43.546063,
+        "duration": 43.572188,
         "file": null,
-        "sha256": "0652a6d0eb1c3fecda03f85f21f82fd65407f7b7c5e4c470eab7e473d7389ec0"
+        "sha256": "6bd755100a167730bc140b7d1211442f1a80d6804eed0963608e361b21ca2f7b"
       },
       "text": "Zankaja. Zankaja is a young orc woman living in Orgrimmar, residing along the path between the Valley of Strength and the Valley of Wisdom. She anxiously awaits news of her mate, Dogran, who was assigned to duty at the Crossroads in the dangerous frontier of the Barrens. Life in the fledgling Horde capital is demanding, but for Zankaja, the true ordeal is the waiting. Her mate Dogran earned a promotion that sent him south into the Barrens to bolster the outpost at the Crossroads. While an honor for a warrior, the Barrens is a brutal expanse crawling with quilboar, centaur, and aggressive beasts. When Dogran failed to send word or return home as expected, Zankaja began seeking out travelers willing to seek news of his fate."
     },
@@ -15125,6 +15125,13 @@
       1482,
       2074
     ],
+    "0364c195dba4694323383ec2a7de3c05231da703b963d4f553751b04f4792e9d": [
+      286,
+      595,
+      835,
+      1077,
+      1276
+    ],
     "03c8f79ffac950f95eafaf717241591adcf469e1cc7eb8d428e295619412f52e": [
       217,
       558,
@@ -15171,6 +15178,12 @@
     "085d6686d922502dc638af4ff5a6a9edc6106d6bbc3edebe712e9ff8d7d3c1d0": [
       499,
       1061
+    ],
+    "085e2b874974d863b5a34ee9c4a05083fa8cdd5c832e50008744810d27f9354c": [
+      234,
+      613,
+      850,
+      1201
     ],
     "08a94ee2412dedfec56a0800958550fe0761c6e54ab5c9ee20480c04cb167953": [
       274,
@@ -15369,10 +15382,6 @@
       1616,
       1931
     ],
-    "193b98587ca43160a0d351efdd87a31797061135fd74a4bed5a503460f66306a": [
-      659,
-      1336
-    ],
     "1a4758d70778217a7b60326292ff3b508586bb60b1d44cab8c266554cd19f54f": [
       463,
       725,
@@ -15391,11 +15400,23 @@
       618,
       1360
     ],
+    "1bb0df68063b35917301df7aa8466121ecfdf5c93f2a5a5cddbad3d652aa3f6c": [
+      205,
+      520,
+      776,
+      1142
+    ],
     "1d1b1ea79c4160b924dc4aca36296f2a14815dfdda2fe5845e7dd01299d4d77b": [
       559,
       1136,
       1491,
       1970
+    ],
+    "1dd85f6dc97a5f978fc6f6fb20af583f229260a271e162aa6827b1fb1aa0ccc5": [
+      215,
+      538,
+      779,
+      935
     ],
     "1df7bf2fa49363b1c00e96d4e78d48ccf159fdfe172607674a24381da0b31086": [
       565,
@@ -15479,12 +15500,6 @@
     ],
     "2246dd8a87985a113fa8858f197dcb4ababd2c1e226d2ef52888d98771e5701c": [
       461
-    ],
-    "2381b6b1f5ebb968ee9a1e156f3ddb507b3a42ef322f288d78a48080a7238ada": [
-      655,
-      1062,
-      1334,
-      2036
     ],
     "24006f8cb4c48e9e600c46d6d9fce3434030d5855585c22ba0dff81b8df604c4": [
       239,
@@ -15788,9 +15803,21 @@
       5674,
       6011
     ],
+    "41112dd7b51686686440dae46961380e79b97ecc61a90975e7fbe8b1546b1a0c": [
+      399,
+      576,
+      781
+    ],
     "41561bcbea2e2806e0c7734b458fb899f491451ee3e9ec1b9ff8781dcc6d594d": [
       521,
       1212
+    ],
+    "41b15b6799140ce60c922cf6e120cbf01269f0b9eac76d6ded3840caf04cfcb7": [
+      266,
+      635,
+      801,
+      1040,
+      1323
     ],
     "4215994a9b0d46da59a76a7db31a443a94055ad5822e7faffae1fabfe13b1eaa": [
       538,
@@ -15838,10 +15865,6 @@
       1933,
       2235
     ],
-    "448bd9a6334b9ec904f02b09d7a08386fd0d4dcc16a06fc34753be92d82e1b75": [
-      508,
-      1040
-    ],
     "4587660230cad5344a7d986a8f11980c21ae82b5de3df94964d50d3aa45a654d": [
       563,
       895,
@@ -15850,11 +15873,6 @@
     "45cd153013e2931818d56d63d32044059aa7ef3eaeccf66089230f1b3a80b44a": [
       571,
       1290
-    ],
-    "45da2daf71e659ca0ec002e87f5735cefda89b1d0bed41b4455cc9e8cf46b456": [
-      544,
-      834,
-      1177
     ],
     "463c25e64461871cddde23c19097bf0f72d22b06d4594df3ebc42f5e8697b631": [
       448,
@@ -15888,10 +15906,6 @@
       947,
       1468
     ],
-    "48545147b179c7ebc605f8a851df9f0512764b507570f37a7e7c0effa2e387f0": [
-      693,
-      1232
-    ],
     "4891ef074a646376333f38a15eb283d7d93318ce8e233976e49e1fcec26f1dbf": [
       488,
       727,
@@ -15902,6 +15916,11 @@
     "493b5f7b5d9dd1f088ee7e48989368fcda5f9a8e48ae1657491882bdc777b794": [
       1130,
       1468
+    ],
+    "49482e6b976afac0194cbd7c35832ec0e3c99132cd1d9c245006aa7cf157880a": [
+      560,
+      1256,
+      1519
     ],
     "4a020031e768f0fea5cf8b754329b30a248f657976374017c084d09f54de061b": [
       635,
@@ -15949,10 +15968,6 @@
     "4c0e243d52e2cf84798e54bb683c3810cf868bd49267a21e53cde8280435aa70": [
       594
     ],
-    "4c41837dbb95ee147326b5d0151d5916c0e790411906b391dbb581987c121cee": [
-      789,
-      1019
-    ],
     "4c9d2a9d055fbc6c6c5a39ecfb604e80ffef3e82f6d474331726fdbceae8dbe0": [
       398,
       937
@@ -15975,11 +15990,6 @@
       542,
       1144,
       1500
-    ],
-    "4fc9d15f37740871544e395bdd1c1f02e015fea4430ecd2513795d5c7b55ee02": [
-      497,
-      775,
-      1149
     ],
     "4fd54e5eff624e7edc203c9970be8a646bcbcdd5c202ffb5a1c2713fab130976": [
       611,
@@ -16250,6 +16260,9 @@
       4371,
       4558
     ],
+    "62a4b21b4d0bf9910e236ccaab2a3be279a91a80776f53947e000eba313ff273": [
+      199
+    ],
     "62d47e57e44f4a3a34ed40faec12afd42cf1cb6c6b5d790e38449a024c37845b": [
       671,
       1260
@@ -16289,11 +16302,6 @@
       3475,
       3992,
       4739
-    ],
-    "66c7163297669b15593176cf0a6b4aa34ef87e412a1aa5e7176d43f1b8aa7cd0": [
-      1096,
-      1596,
-      1861
     ],
     "6713bbca93699e9ee1163036a980fd6ebffc4f4a55a3825013dfd1f4d1d33703": [
       1001,
@@ -16336,6 +16344,16 @@
       876,
       1261
     ],
+    "69167d412171b6c10e137778f88ef600df6b050f039f323c9ae9677cd430b732": [
+      572,
+      884,
+      1092,
+      1394,
+      1581,
+      1774,
+      2092,
+      2272
+    ],
     "69a57eadf0a78da662c72f996da0ab0e37205bd4f257dd9bcb17f0ba01fefc19": [
       635,
       1041,
@@ -16376,11 +16394,6 @@
       936,
       1255,
       2111
-    ],
-    "6affe97d90112b5746a82ec88b3815006ea3585036d42915d133da0032912c70": [
-      837,
-      1200,
-      1518
     ],
     "6b0c4c88494a425426ef8a99e138e0b78233b1dc251f8d667cbff11c71ef9682": [
       268,
@@ -16468,13 +16481,6 @@
       1534,
       2140
     ],
-    "70c730b55882c54b24e4760d206853045c6984531a6c1dca5d2e07582c28ca3a": [
-      533,
-      840,
-      1374,
-      1778,
-      2284
-    ],
     "712bbb86e52931ef2adb7d1aed24307ca80c878730fb26b2aa0ad69da6464327": [
       559,
       1146,
@@ -16540,10 +16546,6 @@
       593,
       975,
       1462
-    ],
-    "766177de94b41d8c046125d83a8a9354c5ab58ccdd3a95758a9eb9cbc267245e": [
-      1021,
-      1726
     ],
     "76f8975213d7fb58304929829e748b453fda1a52dc7d5dd5af34346d733a82f1": [
       520,
@@ -16790,6 +16792,17 @@
       768,
       1247
     ],
+    "8b2dd3713c038ca19c01b0f2f2a072657e42e69f54881922f5b8208afd90aec0": [
+      325,
+      575,
+      807,
+      1173,
+      1400,
+      1761,
+      2043,
+      2316,
+      2534
+    ],
     "8bebe3266e439d145930aec28b2c9ae12848d16a6ad81528c139647c925fb7f2": [
       264,
       923,
@@ -16817,6 +16830,14 @@
       455,
       866,
       1290
+    ],
+    "8dd6946027b3049e5975467bf10ee7f902df67ee1e91ce197f46488259b29247": [
+      204,
+      517,
+      805,
+      1108,
+      1422,
+      1868
     ],
     "8ef83b9b295b30cb8f5f1406da7d6d80150b976510464083ef8afc602e06bb41": [
       337,
@@ -16873,13 +16894,6 @@
       504,
       1025
     ],
-    "90ca3e4d06a2b265ee22740dacc30608c751d4896e82365cc6f6454977c8e089": [
-      543,
-      1148,
-      1736,
-      2154,
-      2532
-    ],
     "91825029334fed54760ae84986ae7b559c353c65f42a5082f09fcb53c6db089e": [
       250,
       541,
@@ -16901,6 +16915,12 @@
     "92ce71a46c82dce517e137ff0f7511ce378677e49222e5376cb367043a857b99": [
       268,
       1117
+    ],
+    "92ef9bd429072e019a23f23363ded68063c585ef5b26fd9a83d39ce0e48b676a": [
+      510,
+      810,
+      1061,
+      1384
     ],
     "9312a407504351ca6ed30089597ee0f728bc37bc6b2ce9a18b81f047a11dc8d2": [
       634,
@@ -16932,11 +16952,6 @@
       456,
       1029,
       1226
-    ],
-    "9735c07761812d964d1f90361598e9abe2364cc8a2fb157f05039a98e1dc1e1b": [
-      569,
-      891,
-      1252
     ],
     "976e451a3aad05deeafd78fc931791537a1fb5ab4a8cca2794ba262d74868244": [
       527,
@@ -17104,10 +17119,6 @@
       797,
       1144
     ],
-    "9fdaf8023beb290ac239f2e73e0f582ab83e3cd344840c11c320c0f6bdd36644": [
-      594,
-      963
-    ],
     "9ffe6909fc3e99abd954e4df9ed28c6684caefb30666e8c481f6fbd12e3b28fd": [
       673,
       1185,
@@ -17243,10 +17254,6 @@
     "abaa6045a34f4b4c1968a3d25e8e630eb9b0a0cf0cf8f1899eac0bc3265c0c9f": [
       516,
       955
-    ],
-    "ac408ffd675aee9b20d1a9a3c323eb3d381efe6729859da23a6078a3260a3736": [
-      590,
-      987
     ],
     "ac9b934e0e699d83a611e12ad0d33c5d032a6d651407d5e5e2b3fc80af14cbba": [
       335,
@@ -17515,6 +17522,12 @@
       462,
       789
     ],
+    "c313b1c06ec7a1e613ccef4ed89f378549cd718769f4eb34a1bf66a6327f5be6": [
+      246,
+      581,
+      921,
+      1224
+    ],
     "c447b23d5a0b94af6ff02e7cd0156547ed19d4a99eec6e83606671650f4c2fc4": [
       611,
       961,
@@ -17563,6 +17576,13 @@
       1014,
       1807,
       2078
+    ],
+    "c61334ab2f48b65f9aeb85d10e32b31640b05307e5e5f2043b52b57a1c235ac8": [
+      218,
+      533,
+      1014,
+      1278,
+      1724
     ],
     "c62f4fa3122dba1395f433d0f566ec031d21c473f5ee13d41a41f1cd8b3e07ab": [
       226,
@@ -17662,6 +17682,12 @@
     "ca7a72374b7110ee7ef7ef8c68cc366abbc743f74d5793cef518630964268767": [
       262,
       1315
+    ],
+    "cb65d5f0a2d1afd67688ec2778cdc58ee7699bf2afc05fd54155b70e795aae48": [
+      757,
+      947,
+      1314,
+      2014
     ],
     "cb8fbbbf65dfdb2b18c0e737d9ae2b05f5751c13a91c01b32b346a3eb18dbcc6": [
       226,
@@ -17806,11 +17832,6 @@
       949,
       1183
     ],
-    "d50ac787386e5bee055d7bc4d2720679f426add5acd9643a71e709000ecfc706": [
-      583,
-      1085,
-      1372
-    ],
     "d5c8ef24fbafec5fed36aefddf6191ecda95380b233524b3bd534ffaaef61e4e": [
       1167
     ],
@@ -17855,6 +17876,9 @@
     "d9bf12de690029205bba5c1802fd22848f9a274619c35b9fdc2a67f9bab5ff1d": [
       523,
       1121
+    ],
+    "daa57d74e45f667e456586823e41407123c8616efdf50f6940f0a7b49c69cf59": [
+      174
     ],
     "dad02ae8472ac8efb9eb62e7f2e16264a573ba7870c0f95a446ed64006c61df6": [
       484,
@@ -18119,6 +18143,12 @@
       1470,
       1780
     ],
+    "ea766170549309954771eea035db2da88580392002897ca685862f4c94e625e5": [
+      274,
+      542,
+      834,
+      1173
+    ],
     "ea934a5a2e244012bd97855c9136a3b2c4f0ebc08b8705ebca2eb1c1df9e42d6": [
       935,
       1393
@@ -18260,6 +18290,13 @@
       1540,
       1939,
       2247
+    ],
+    "f7af4925a119c99ea0b736de424b43ace1572d3cf3606c3f5f72ee821e24e688": [
+      602,
+      810,
+      1188,
+      1501,
+      1716
     ],
     "f7c756f1ee177ebc32a66c3f17c7beb10ccb8d112777153b2daa71997cb9f12f": [
       838,

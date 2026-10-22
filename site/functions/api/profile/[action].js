@@ -14,6 +14,10 @@
 //                               existing budgets. Current writer input and overlapping requests share one story.
 //                               usage? (lib/usage.js readUsage, LOR-413): the add-on's per-day usage counts, kept
 //                               per day for /admin; a sync that can't keep them still syncs.
+//                               stock? (lib/willo-stock.js readStock): {character: "Name-Realm", t, level, money,
+//                               skills, rep, ...} what the add-on last saved of that character, so Willo's goals can be
+//                               worked out from the phone too. Only the newest save of a character is kept; one that
+//                               doesn't read is left out, and the sync still syncs.
 //   POST /api/profile/settings  {public?, spec?, handle?}: whether anyone with the link can see it, your favorite
 //                               spec, its address (/u/<handle>)
 //   POST /api/profile/delete    removes your profile and its pictures, and disconnects your connected apps (your account
@@ -34,6 +38,7 @@ import { forgetPictures } from "../../../lib/pictures.js";
 import { forgetStoryVoice } from "../../../lib/storyvoice.js";
 import { historyRequest, forgetHistoryStatements } from "../../../lib/history.js";
 import { readUsage, saveUsage, countSite } from "../../../lib/usage.js";
+import { readStock, saveStock } from "../../../lib/willo-stock.js";
 
 const ok = (body = {}) => Response.json({ ok: true, ...body }, { headers: noStore });
 // Profile updates per day for /admin (LOR-304): a plain number per way in, nothing about who. Never holds a save up.
@@ -245,6 +250,9 @@ async function sync({ env }, input, { user, device }) {
   }
   await markSynced(env, device.id);
   try { await saveUsage(env, user.id, readUsage(input.usage)); } catch (e) { /* counts never hold up the profile */ }
+  // What the add-on last saved of the character (lib/willo-stock.js), so Willo's goals work from the phone too: only the
+  // newest is kept, and one that doesn't read, or can't be kept, never holds up the profile.
+  try { await saveStock(env, user.id, readStock(input.stock, data)); } catch (e) { /* the sync still stands */ }
   await countUpdate(env, out, "profile.sync");
   return ok({ profile: summary(out.profile), created: out.created, ...(out.unchanged ? { unchanged: true } : {}),
               story: out.story, storyRetryAt: out.storyRetryAt });

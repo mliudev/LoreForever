@@ -489,6 +489,7 @@ function Strip.Payload()
 end
 
 local frame = nil
+local showing = false
 local stale, lastPaint, hiddenForShot = true, -math.huge, false
 
 local ring = nil   -- the outer ring's 5 bytes (Strip.SetRing), nil for nothing
@@ -531,6 +532,25 @@ end
 local PURSE_EVERY = 4
 local purseTurn, purseDue = 0, true
 
+-- The character in the world now (LOR-711), independent of the last disk save: kind 3, low bits 3, then the
+-- CRC-32 of Journey.CharKey's UTF-8 bytes. Willo resolves it only against a unique saved gameKey; equal names
+-- across accounts or hash collisions stay unknown. Never send Journey.CharKey's fallback "?" as an identity.
+function Strip.Identity()
+  if not (ns.Journey and ns.Journey.CharKey) then return nil end
+  local key, name, realm = ns.Journey.CharKey()
+  if type(key) ~= "string" or not name or not realm or name == "?" or realm == "?" then return nil end
+  local out = { 0xC3 }
+  put(out, Strip.CRC32(key), 4)
+  return out
+end
+
+local identityTurn = 7
+local lastIdentity
+local function identityFromWillo()
+  local data = _G.LoreForeverJourneyData
+  return type(data) == "table" and data.skyIdentity == true
+end
+
 function Strip.Purse()
   local c = tonumber((try(GetMoney)))
   if not c or c < 0 then return nil end
@@ -549,6 +569,18 @@ local function idlePage(payload)
 end
 
 local function ringFor(payload)
+  -- Idle: first repaint and at least every eight seconds, also where Journey.Here has no map spot. Over an answer,
+  -- require its own capability: older spot readers treat any unknown page as the answer gone. Questions stay intact.
+  local kind = ring and math.floor(ring[1] / 64)
+  if identityFromWillo() and (ring == nil or kind == 1) then
+    identityTurn = (identityTurn + 1) % 8
+    local identity = Strip.Identity()
+    local key = identity and table.concat(identity, ":")
+    if identityTurn == 0 or key ~= lastIdentity then
+      lastIdentity = key
+      if identity then identityTurn = 0; return identity end
+    end
+  end
   if ring == nil then return idlePage(payload) end
   if math.floor(ring[1] / 64) == 1 and Strip.SpotFromWillo() then
     spotTurn = (spotTurn + 1) % SPOT_EVERY
@@ -816,6 +848,7 @@ binder:SetScript("OnEvent", function() Strip.OfferAskKey() end)
 function Strip.Update()
   Strip.OfferAskKey()
   if not Strip.Showing() then
+    showing = false
     if frame then
       frame:UnregisterAllEvents()
       frame:Hide()
@@ -823,6 +856,8 @@ function Strip.Update()
     ns.Sky.Hide()
     return
   end
+  if not showing then identityTurn = 7 end  -- the first visible page must reach a short talk-key capture
+  showing = true
   if not frame then create() end
   for _, e in ipairs(EVENTS) do pcall(frame.RegisterEvent, frame, e) end
   stale, hiddenForShot = true, false

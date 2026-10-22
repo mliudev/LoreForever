@@ -26,6 +26,10 @@ export const GOALS_HEADING = "Goals";
 export const GOALS_MAX_BYTES = 2400;
 // A save older than this is told as "as of your last save" (the quality bar's stale case).
 const STALE_SECONDS = 3 * 3600;
+// Told as of the last save: one older than STALE_SECONDS, and always one read from the site's keeping
+// (lib/willo-stock.js savedStock marks it fromSave: the phone has no game beside it, so its numbers are never live).
+const isStale = (stock, now = new Date()) => stock?.fromSave === true ||
+  (stock?.t ? Math.floor(now.getTime() / 1000) - stock.t > STALE_SECONDS : false);
 // An evening: a day they played at least this long (shorter days don't say much about a pace).
 const EVENING_SECONDS = 15 * 60;
 const PACE_EVENINGS = 7, PACE_MIN = 2, EVENINGS_MAX = 365;
@@ -289,8 +293,8 @@ export function progressOf(goal, stock, { live = null, race = null, pace = paceO
   const L = level === null ? null : Math.floor(level + EPS);
   const money = stock?.money ?? null;
   const have = money === null ? null : Math.floor(money / 10000 + EPS);
-  const unseen = what => `you can't see their ${what} yet: say so, and that you will after their next /reload or log out ` +
-    `in the game (never guess it)`;
+  const unseen = what => `you can't see their ${what} yet: say so, and that you will once they've spent an ` +
+    `evening in the world with you at their side (never guess it)`;
   const paceNote = stock ? "their pace: not enough evenings saved yet; say you'll know it after a couple more evenings"
     : "their pace: nothing saved yet, so no estimate";
   if (goal.kind === "riding") {
@@ -520,7 +524,7 @@ export function goalsBlock(goals, stock, { intent, question = "", asked = null, 
   const pace = paceOf(stock);
   const open = goals.filter(g => !g.done);
   const old = stock?.t ? Math.floor(now.getTime() / 1000) - stock.t : null;
-  const stale = old !== null && old > STALE_SECONDS;
+  const stale = isStale(stock, now);
   const states = open.map(g => ({ g, p: progressOf(g.goal, stock, { live, race, pace, stale }) }));
   const reached = states.filter(s => s.p.reached).map(s => s.g);
   // The goals the question names ("my mount"), or all of them for one about their goals ("what are my goals?").
@@ -535,7 +539,7 @@ export function goalsBlock(goals, stock, { intent, question = "", asked = null, 
   if (!shown.length && !fresh && !(intent.read && goals.length)) return { block: "", reached, asked: fresh ? asked : null,
     numbers, cheer: "", stale };
   const head = "THEIR GOALS (kept in their notebook; worked out for you from Forever's prices and what their add-on " +
-    "last saved" + (stale ? `, ${ago(old)}: say "as of your last save", for their level too` : "") + ". Use these " +
+    "last saved" + (stale ? `${old !== null ? `, ${ago(old)}` : ""}: say "as of your last save", for their level too` : "") + ". Use these " +
     "numbers exactly: never your own sums or prices you remember, no prices for what they could sell, and no places " +
     "or steps it doesn't name. " + (bears && !named.length && intent.read && !writesGoals(intent)
       ? "They asked about their goals: name every one below, one short line each.)"
@@ -686,7 +690,7 @@ export const GOALS_ON_HERO = "GOALS: they'd like you to keep a goal for them. Ke
   "one plain line that you can keep their goals and check their progress once they have the Hero plan. Never claim " +
   "you've kept it, or that you're keeping track.";
 // A goal in words, as she says it: "riding at level 40 for 100 gold", "Tailoring 225".
-function goalSaid(goal) {
+export function goalSaid(goal) {
   if (goal.kind === "riding") {
     const R = RIDING[goal.skill];
     return `${R.name.toLowerCase()} at level ${rideAt(goal)} for ${fmt(goal.gold ?? R.gold)} gold`;
@@ -767,7 +771,7 @@ function listLine(goal, p) {
 export function goalsList(goals, stock, { current = null, live = null, race = null, now = new Date() } = {}) {
   const name = current ? titleOf(current) : "";
   const pace = paceOf(stock);
-  const stale = stock?.t ? Math.floor(now.getTime() / 1000) - stock.t > STALE_SECONDS : false;
+  const stale = isStale(stock, now);
   const open = goals.filter(g => !g.done);
   const of = page => open.filter(g => g.page === page).map(g => listLine(g.goal, progressOf(g.goal, stock, { live, race, pace })));
   const mine = current ? of(current) : [], all = of(ACCOUNT_PAGE);
@@ -806,11 +810,11 @@ export function wrongGold(answer, allowed) {
   return [...String(answer || "").matchAll(/(\d[\d,]*(?:\.\d+)?)\s*(?:gold|g)\b/gi)].some(m => !allowed.has(Math.round(num(m[1]))));
 }
 // Her plan's own words in place of an answer with a wrong number: the goal the question names, or the first one it bears on.
-export function planLine(goals, stock, { asked = null, question = "", live = null, race = null } = {}) {
+export function planLine(goals, stock, { asked = null, question = "", live = null, race = null, stale = false } = {}) {
   const pace = paceOf(stock);
   const pick = asked || goals.find(g => !g.done && touches(g, question))?.goal || goals.find(g => !g.done)?.goal;
   if (!pick) return "";
-  const p = progressOf(pick, stock, { live, race, pace });
+  const p = progressOf(pick, stock, { live, race, pace, stale });
   if (p.summary) return p.summary;
   if (pick.kind === "riding") {
     const R = RIDING[pick.skill];

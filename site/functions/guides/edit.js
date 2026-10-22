@@ -11,7 +11,7 @@ const BODY = `  <section class="gde" id="gde">
 
     <div id="gde-list" hidden>
       <p class="gde-top"><a class="gde-btn gde-primary" href="/guides/edit?new=1">New article</a>
-        <span class="gde-hint">Drafts open only from their link. Published ones are listed on <a href="/guides">/guides</a> and in search.</span></p>
+        <span class="gde-hint">Drafts are private to signed-in guide editors. Published ones are listed on <a href="/guides">/guides</a> and in search.</span></p>
       <table class="gde-table">
         <thead><tr><th>Article</th><th>Status</th><th>Date</th><th>Last saved</th></tr></thead>
         <tbody id="gde-rows"></tbody>
@@ -23,7 +23,7 @@ const BODY = `  <section class="gde" id="gde">
         <a href="/guides/edit">&larr; All articles</a>
         <label class="gde-status">Status
           <select id="f-draft">
-            <option value="1">Draft: only people with the link</option>
+            <option value="1">Draft: guide editors only</option>
             <option value="0">Published: listed and in search</option>
           </select>
         </label>

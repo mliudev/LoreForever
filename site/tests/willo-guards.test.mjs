@@ -129,3 +129,12 @@ test("a character never sends the adventurer to their wisp: the answer log's own
   assert.equal(guardAnswer("Ask your wisp, she knows.", { own: false }), "Ask your wisp, she knows.");
   assert.equal(guardAnswer("Ask your wisp, she knows.", { own: false, character: true }), "I couldn't say, friend.");
 });
+
+test("fromWhereLast with said: false only rewrites the present tense, and adds nothing to an answer that has none", () => {
+  const at = "Sentinel Hill, Westfall";
+  assert.equal(fromWhereLast("Hello, friend.", at, { said: false }), "Hello, friend.");
+  assert.equal(fromWhereLast("You are standing right here in Darkshire.", "Darkshire, Duskwood", { said: false }),
+    "You were last in Darkshire.");
+  assert.equal(guardAnswer("Hello, friend.", { own: true, lastPlace: at }), "Hello, friend.");
+  assert.match(guardAnswer("The flight master is right here.", { own: true, lastPlace: at }), /^The flight master is there\.$/);
+});

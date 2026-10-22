@@ -262,7 +262,7 @@ P.transport["npc:bath-rah-the-windwatcher"] = {
   fullHash = "fb540b",
   text = "Bath'rah the Windwatcher. Bath'rah the Windwatcher is a solitary jungle troll shaman and weaponcrafter dwelling amidst the ruins near Chillwind Point. Far from his tropical homelands, he studies the tempestuous elements of the northern mountains, seeking champions powerful enough to help him craft formidable weapons of wind. While most jungle trolls keep to the warm forests and coasts of the south, Bath'rah has embraced the solitary life of a mountain hermit among the cold ruins of the Alterac Mountains. A seasoned shaman and craftsman, he devotes his days to listening to the howling winds and communing with nature spirits. His obsession is not merely philosophical; he seeks to bind the fury of violent elemental storms into tangible armaments for those who possess the strength to wield them.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_bath-rah-the-windwatcher-1c63049518ba005937fc/1-0000.mp3", duration = 43.6506122, start = 0},
+    {file = "Audio/Transport/full_npc_bath-rah-the-windwatcher-dd50304242710f7f618c/1-0000.mp3", duration = 43.9118367, start = 0},
   },
 }
 P.transport["npc:beldin-steelgrill"] = {
@@ -1166,7 +1166,7 @@ P.transport["npc:felix-whindlebolt"] = {
   fullHash = "ee02bb",
   text = "Felix Whindlebolt. Felix Whindlebolt is a displaced gnome refugee taking shelter at Anvilmar in Coldridge Valley. In his haste to flee the radiation flooding Gnomeregan, he lost his personal belongings, and hostile Frostmane trolls made off with them. Following the tragic fall of Gnomeregan, thousands of gnomes found themselves wandering the freezing reaches of Dun Morogh in search of safety. Felix Whindlebolt fled the irradiated city in such haste that he lost all his personal belongings and tools. To make matters worse, Frostmane ice trolls carried his chest, his box and his bucket of bolts back to their camps southwest of Anvilmar, leaving him stranded, destitute, and relying on sympathetic wanderers to retrieve his stolen gear.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_felix-whindlebolt-d4290e14566bb12042d2/1-0000.mp3", duration = 42.1093878, start = 0},
+    {file = "Audio/Transport/full_npc_felix-whindlebolt-d30cd6f8ed01661b4e88/1-0000.mp3", duration = 41.9787755, start = 0},
   },
 }
 P.transport["npc:field-marshal-snowfall"] = {
@@ -1662,7 +1662,7 @@ P.transport["npc:hogger"] = {
   fullHash = "16da6e",
   text = "Hogger. Hogger is the vicious chieftain of the Riverpaw gnolls prowling southwestern Elwynn Forest. Towering over his kin and remarkably aggressive, he has become notorious for raiding local farms and butchering unsuspecting travelers. His violent rampages have earned him an official bounty from the Stormwind Marshals. Prowling atop Hogger Hill in southwestern Elwynn Forest, Hogger commands the local Riverpaw pack with unmatched savagery. In the years following the Third War, gnoll raids across local homesteads grew increasingly bold and coordinated. Behind this rise in violence lies an unsettling alliance: the Riverpaw have begun colluding with the Defias Brotherhood, trading raw ferocity for arms, tactical direction, and magical support. To safeguard Elwynn's borders and protect trade routes from further bloodshed, Marshal Dughan has posted a generous bounty on Hogger's head.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_hogger-41b5d810687af5139bdf/1-0000.mp3", duration = 52.4277551, start = 0},
+    {file = "Audio/Transport/full_npc_hogger-8df39bdd4431bb555553/1-0000.mp3", duration = 52.6889796, start = 0},
   },
 }
 P.transport["npc:holt-thunderhorn"] = {
@@ -1710,7 +1710,7 @@ P.transport["npc:innkeeper-farley"] = {
   fullHash = "29c37f",
   text = "Innkeeper Farley. Innkeeper Farley manages the Lion's Pride Inn in Goldshire, providing food, lodging, and hearthstones to travelers passing through Elwynn Forest. Well-liked and observant, he often holds misplaced mail and listens to the troubles of adventurers on the road. Innkeeper Farley runs the Lion's Pride Inn with a welcoming hand and a sharp eye. Travelers bound for Stormwind, Westfall and Duskwood stop at his counter for a warm meal, a mug of ale and a bed, and Farley keeps order in one of the realm's busiest waystations, pouring ale and serving cheese to all who pass through Goldshire.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_innkeeper-farley-cfd004eeaef67c37d4ec/1-0000.mp3", duration = 34.6383673, start = 0},
+    {file = "Audio/Transport/full_npc_innkeeper-farley-119d24c166a82acc1a7b/1-0000.mp3", duration = 35.0040816, start = 0},
   },
 }
 P.transport["npc:innkeeper-firebrew"] = {
@@ -1878,7 +1878,7 @@ P.transport["npc:kanati-greycloud"] = {
   fullHash = "319ea0",
   text = "Kanati Greycloud. Kanati Greycloud is a tauren hunter stationed at Whitereach Post within Thousand Needles. Alongside his hunting companions, he musters what defense he can while enduring constant hostility from the local Galak centaur. Kanati Greycloud makes his camp at Whitereach Post, high atop the sandstone spires of western Thousand Needles. While the canyon offers abundant game and open vistas, it is hemmed in by the Galak centaur, whose warbands contest every inch of the arid flats below. Together with other tauren hunters, Kanati keeps watch over the canyon floor, striving to preserve the post against the brutal depredations of the surrounding marauders.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_kanati-greycloud-aad9ee4531c0fb535e19/1-0000.mp3", duration = 39.444898, start = 0},
+    {file = "Audio/Transport/full_npc_kanati-greycloud-590492b93a53582645fe/1-0000.mp3", duration = 38.8963265, start = 0},
   },
 }
 P.transport["npc:kaplak"] = {
@@ -2078,7 +2078,7 @@ P.transport["npc:krolg"] = {
   fullHash = "331f6c",
   text = "Krolg. Krolg is an uncorrupted furbolg living in an isolated hut south of Mystral Lake in Ashenvale. Formerly a member of the Foulweald tribe, he was cast out by his kin, who fell to demonic madness, and will only speak with those who appear to him in furbolg form. While most of the Foulweald furbolgs in Ashenvale have succumbed to the demonic taint left behind by the Burning Legion, Krolg remains lucid and untouched by madness. Residing in a secluded shelter south of Mystral Lake, he keeps a cautious vigil over the forest. Having witnessed the tragic descent of his brethren into senseless violence, he refuses to interact with outsiders at face value, speaking only with beings that appear as kin.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_krolg-3c5900c2f40ed47f4c66/1-0000.mp3", duration = 40.96, start = 0},
+    {file = "Audio/Transport/full_npc_krolg-9cae48b889a22b39ab37/1-0000.mp3", duration = 41.5346939, start = 0},
   },
 }
 P.transport["npc:krom-stoutarm"] = {
@@ -2214,7 +2214,7 @@ P.transport["npc:lomac-gearstrip"] = {
   fullHash = "8ae00f",
   text = "Lomac Gearstrip. Lomac Gearstrip is an ambitious gnome inventor based in Tinker Town within Ironforge. Renowned for formulating the devastating NG-5 explosive, he liaises with fellow gnomish researchers operating across Kalimdor. Amid the clanging gears and hissing pipes of Ironforge's Tinker Town, Lomac Gearstrip pursues the finer points of gnomish ordnance. Like many exiled gnomes who fled the tragedy at Gnomeregan, Lomac has integrated his tinkering operations directly into the dwarven capital. His workshop focuses on volatile chemical mixtures and specialized munitions designed to overcome heavily defended enemy strongholds. Lomac's proudest contribution to modern combat engineering is the NG-5 explosive. Formulated for maximum destructive yield, the compound demands precise handling and rare chemical reagents. To refine and deploy such hazardous inventions in the field, Lomac maintains contact with old colleagues stationed in distant theaters, exchanging technical orders and dangerous supplies across the Great Sea.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_lomac-gearstrip-54e606f9fefaa383303f/1-0000.mp3", duration = 60.8130612, start = 0},
+    {file = "Audio/Transport/full_npc_lomac-gearstrip-355bd181a774aabc104a/1-0000.mp3", duration = 60.4995918, start = 0},
   },
 }
 P.transport["npc:longbraid-the-grim"] = {
@@ -2566,7 +2566,7 @@ P.transport["npc:merrin-rockweaver"] = {
   fullHash = "8aa5c7",
   text = "Merrin Rockweaver. Merrin Rockweaver is a dwarven researcher representing the Explorers' League in the Wetlands. Following a violent raptor infestation that overran Whelgar's Excavation Site, she took refuge alongside Prospector Whelgar on a ridge overlooking the site. Merrin Rockweaver traveled to the Wetlands on behalf of the Ironforge Explorers' League to unearth ancient Titan secrets buried beneath the muck. The expedition ended in disaster when the large bones they unearthed drew raptors to the dig. Vicious prehistoric beasts swarmed the trenches, forcing Merrin and the surviving crew to abandon their equipment, notes, and progress. She is now trapped with the few survivors on a bluff overlooking the overrun ruins. Trapped on the bluff, the survivors refuse to let the expedition become an outright failure. While Ormer Ironbraid plots vengeance against the beasts and Prospector Whelgar seeks the tablet fragments left behind in the raptor-infested trenches, Merrin's thoughts turn to her husband Tarrel, who has not heard from her in weeks. She relies on the scout Longbraid sent to find the team to carry word of their plight back to him.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_merrin-rockweaver-9ba1c5cd36c83cd3b0fa/1-0000.mp3", duration = 64.4179592, start = 0},
+    {file = "Audio/Transport/full_npc_merrin-rockweaver-aad421d50b7d7356586f/1-0000.mp3", duration = 64.0522449, start = 0},
   },
 }
 P.transport["npc:miles-welsh"] = {
@@ -2862,7 +2862,7 @@ P.transport["npc:orendil-broadleaf"] = {
   fullHash = "1a8e40",
   text = "Orendil Broadleaf. Orendil Broadleaf is a skilled night elf herbalist and healer stationed at Maestra's Post in western Ashenvale. Known for his deep knowledge of forest flora, he concocts vital remedies to save young lives across the troubled woodlands. Positioned at Maestra's Post along the western threshold of Ashenvale, Orendil Broadleaf tends to the sick as a skilled healer. Recognized for his masterful knowledge of local herbs and restorative craft, Orendil relies on passing travelers to gather rare natural reagents. Even as tension and conflict encroach upon the forest, his tireless focus remains on safeguarding his kin and soothing their ailments.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_orendil-broadleaf-d3e1f66b5b1ff791b634/1-0000.mp3", duration = 38.4261224, start = 0},
+    {file = "Audio/Transport/full_npc_orendil-broadleaf-9f0ef293b1818432c5bb/1-0000.mp3", duration = 38.2955102, start = 0},
   },
 }
 P.transport["npc:orenthil-whisperwind"] = {
@@ -2878,7 +2878,7 @@ P.transport["npc:ormak-grimshot"] = {
   fullHash = "632d01",
   text = "Ormak Grimshot. Ormak Grimshot is an experienced orc hunter trainer residing in the Hunter's Hall within Orgrimmar's Valley of Honor. Accompanied by his loyal wolf, Grimfang, he instructs young hunters of the Horde in tracking, marksmanship, and bonding with wild beasts. Stationed within the Hunter's Hall in the Valley of Honor, Ormak Grimshot serves as a cornerstone of martial instruction for the Horde's trackers and marksmen. Alongside his companion wolf, Grimfang, Ormak imparts the foundational discipline needed to survive Kalimdor's harsh wilderness. For orc and troll hunters arriving from their trials in Durotar, he provides vital guidance on the sacred art of taming and commanding wild beasts, ensuring every hunter forms an enduring bond with their animal partner.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_ormak-grimshot-b0e34dfa68a581e4603a/1-0000.mp3", duration = 43.4155102, start = 0},
+    {file = "Audio/Transport/full_npc_ormak-grimshot-d2cd4e5999b245cf74ae/1-0000.mp3", duration = 43.5983673, start = 0},
   },
 }
 P.transport["npc:ormer-ironbraid"] = {
@@ -2974,7 +2974,7 @@ P.transport["npc:pilot-stonegear"] = {
   fullHash = "e37213",
   text = "Pilot Stonegear. Pilot Stonegear, nicknamed 'Stone', is a dwarf mechanic and driver in the Ironforge Siege Brigade stationed at Steelgrill's Depot. He operates the formidable siege engine known as Trollplow and works tirelessly to enhance its performance and armor. Adventurers traveling through Dun Morogh often help him secure rare materials to keep his war machine battle-ready. Stationed among the rumbling boilers and clanking tracks of Steelgrill's Depot, Pilot Stonegear serves Ironforge as a proud driver in the Siege Brigade. His pride and joy is Trollplow, a heavy siege tank built to smash through enemy lines. Stonegear takes his machine seriously—knowing that in the heat of battle, a driver's life depends entirely on the resilience of gears, plates, and steam pressure. He constantly seeks to fine-tune both Trollplow's combat efficiency and the everyday livability of its cramped cockpit. Like many dwarven and gnomish grease-monkeys at the depot, Stonegear is rarely content with factory specifications. He often spends off-duty hours debating engineering schematics with comrades like Pilot Bellowfiz. Whether chasing down rumors of exotic ores or tracking down volatile minerals to fuel enhanced plating and munitions, Stonegear relies on eager recruits to venture into the snowy wilderness and dangerous caves of Dun Morogh on supply runs.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_pilot-stonegear-472b4ec640d6f4287298/1-0000.mp3", duration = 80.4832653, start = 0},
+    {file = "Audio/Transport/full_npc_pilot-stonegear-c69476092484462f619a/1-0000.mp3", duration = 80.6922449, start = 0},
   },
 }
 P.transport["npc:pixel"] = {
@@ -3766,7 +3766,7 @@ P.transport["npc:thadius-grimshade"] = {
   fullHash = "d61efa",
   text = "Thadius Grimshade. Thadius Grimshade is a Wildhammer dwarf diviner dwelling within the mage tower of Nethergarde Keep in the Blasted Lands. Though he parted ways with Aerie Peak long ago to study esoteric and darker magical arts, he remains loyal to his kin at heart. Unlike most Wildhammer dwarves who prefer the open skies and roaring winds of the Hinterlands, Thadius Grimshade makes his home inside Nethergarde Keep. Driven by a thirst for arcane divination and darker mystic lore, he relocated to the edge of the tainted Blasted Lands to pursue his esoteric studies. Despite his brooding discipline and separation from his clan, he retains a deep fondness for his homeland and gryphonkind, offering his rare scrying talents to those who come seeking aid on behalf of Aerie Peak.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_thadius-grimshade-4bcae89003681175bb1c/1-0000.mp3", duration = 44.6171429, start = 0},
+    {file = "Audio/Transport/full_npc_thadius-grimshade-2a41a8b692df9e80e04f/1-0000.mp3", duration = 44.4081633, start = 0},
   },
 }
 P.transport["npc:thalia-amberhide"] = {
@@ -3974,7 +3974,7 @@ P.transport["npc:valstag-ironjaw"] = {
   fullHash = "830ba3",
   text = "Valstag Ironjaw. Valstag Ironjaw is an Ironforge dwarven soldier stationed within Menethil Keep in the coastal marshlands of the Wetlands. Facing the pressing dangers that plague the trade passages connecting Loch Modan and the coast, he assists in securing regional routes and keeping the harbor's garrison informed of local threats. Found inside Menethil Keep in Menethil Harbor, Valstag Ironjaw serves as part of the dwarven garrison keeping watch over the lowlands. The surrounding marsh is rife with danger, from hostile Dragonmaw orcs to ravenous wildlife, making communications and supply lines difficult to maintain. Valstag helps coordinate defense efforts along the primary thoroughfares, particularly the treacherous passage cutting through Dun Algaz toward Loch Modan. With the treacherous Algaz Gauntlet choked by hostile forces, travelers and supply convoys heading between Menethil Harbor and Loch Modan are under constant threat. Valstag directs capable adventurers to confront the brigands and orcs lurking in the passes, relaying crucial military intelligence back and forth between forward scouts and commanders like Captain Stoutfist.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_valstag-ironjaw-abcea7d737ad6d5355a5/1-0000.mp3", duration = 64.6530612, start = 0},
+    {file = "Audio/Transport/full_npc_valstag-ironjaw-4742d857799143ce8b12/1-0000.mp3", duration = 64.4702041, start = 0},
   },
 }
 P.transport["npc:vanndar-stormpike"] = {
@@ -4062,7 +4062,7 @@ P.transport["npc:volcor"] = {
   fullHash = "a1c913",
   text = "Volcor. Volcor is an injured night elf scout stranded deep within Blackwood Den in southern Darkshore. Trapped by hostile Blackwood furbolgs, he relies on his faithful companion Grimclaw and the aid of Auberdine's defenders to escape. While tracking the corrupted Blackwood tribe in their subterranean lair, Volcor was ambushed and severely wounded. Unable to fight his way past the hostile furbolgs on his own, he sent his loyal bear companion, Grimclaw, out into the wilds of Darkshore to seek help from the settlement of Auberdine.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_volcor-6b2381b525201c404c01/1-0000.mp3", duration = 32.1044898, start = 0},
+    {file = "Audio/Transport/full_npc_volcor-f99cc845a3b6d3542a35/1-0000.mp3", duration = 31.6342857, start = 0},
   },
 }
 P.transport["npc:vorn-skyseer"] = {
@@ -4214,7 +4214,7 @@ P.transport["npc:wizzlecrank-s-shredder"] = {
   fullHash = "018988",
   text = "Wizzlecrank's Shredder. Wizzlecrank's Shredder is a Venture Company shredder stuck in the foul depths of Sludge Fen in the northern Barrens. The goblin Pilot Wizzlecrank has climbed inside to steal it, but without its key the machine will not move, and it sits amidst hostile Venture Company operators. Helping fire up its engine is the only way the trapped pilot can make a desperate bid for freedom. Deep within the oil-slicked, heavily polluted basin of Sludge Fen sits Wizzlecrank's Shredder, immobile and surrounded by hostile Venture Company mercenaries. The goblin inside, Wizzlecrank, hopped into the Venture Co. machine to steal it, only to discover he needed a key to unlock its movement column. When another shredder operator asked if everything was all right, he panicked and blamed a mechanical problem. Now he sits sealed inside amid hostile guards and overseers, hoping someone can fetch the key before the Venture Company grows suspicious.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_wizzlecrank-s-shredder-7eb64d76b4451ab260bd/1-0000.mp3", duration = 53.3159184, start = 0},
+    {file = "Audio/Transport/full_npc_wizzlecrank-s-shredder-14cb835153cf5afcb211/1-0000.mp3", duration = 52.9240816, start = 0},
   },
 }
 P.transport["npc:wrenix-the-wretched"] = {
@@ -4286,7 +4286,7 @@ P.transport["npc:zankaja"] = {
   fullHash = "e08e56",
   text = "Zankaja. Zankaja is a young orc woman living in Orgrimmar, residing along the path between the Valley of Strength and the Valley of Wisdom. She anxiously awaits news of her mate, Dogran, who was assigned to duty at the Crossroads in the dangerous frontier of the Barrens. Life in the fledgling Horde capital is demanding, but for Zankaja, the true ordeal is the waiting. Her mate Dogran earned a promotion that sent him south into the Barrens to bolster the outpost at the Crossroads. While an honor for a warrior, the Barrens is a brutal expanse crawling with quilboar, centaur, and aggressive beasts. When Dogran failed to send word or return home as expected, Zankaja began seeking out travelers willing to seek news of his fate.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_zankaja-0652a6d0eb1c3fecda03/1-0000.mp3", duration = 43.5722449, start = 0},
+    {file = "Audio/Transport/full_npc_zankaja-6bd755100a167730bc14/1-0000.mp3", duration = 43.5983673, start = 0},
   },
 }
 P.transport["npc:zardeth-of-the-black-claw"] = {

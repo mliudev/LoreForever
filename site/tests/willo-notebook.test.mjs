@@ -12,7 +12,8 @@ import { findOrCreateUser, setup, deleteUser } from "../lib/accounts.js";
 import { startLink, decideLink, claimToken } from "../lib/devices.js";
 import { notebookIntent, notebookView, notebookTools, notebookCall, applyOp, tidy, cleanItem, pageOf, plannedChange, confirmed,
   UNSAVED_LINE, placeKey, REMIND_RULES, REMIND_PLAN_RULE, namedLines, namedLine, reminderLines, reminderLine, toYou, withRest, noMoment, unclaimed, saidYes,
-  NOTEBOOK_MAX_BYTES, NOT_FOUND_LINE, NOTEBOOK_RULES, ACCOUNT_PAGE, NO_CLEAR_LINE, minutesAsked, linesOf } from "../lib/willo-notebook.js";
+  NOTEBOOK_MAX_BYTES, NOT_FOUND_LINE, NOTEBOOK_RULES, ACCOUNT_PAGE, NO_CLEAR_LINE, minutesAsked, linesOf,
+  NEED_CHARACTER_LINE } from "../lib/willo-notebook.js";
 import { ACTIONS_MAX_BYTES } from "../lib/companion-answers.js";
 import { NOTHING_TO_UNDO, REMINDER_GONE_LINE, UNDO_ELSEWHERE } from "../lib/willo-notebook-manage.js";
 import { helpTopics, helpBlock, keepsAsked } from "../lib/willo-help.js";
@@ -207,21 +208,57 @@ test("tick off, change and take off name lines by their number; one she can't fi
   assert.equal(page(user, key).version, 4);
 });
 
-test("the account's page when they say so, or when no character is known (the iPhone, an older companion)", async () => {
+test("the account's page only when they ask for all characters, including without a known character", async () => {
   const { user, token } = await linked();
   reply = () => called("notebook_add", { answer: "Noted for all your characters.", kind: "note", items: ["Bank alt: Bobby"],
     page: "account" });
   let out = await ask(token, "note for all my characters that my bank alt is Bobby");
   assert.equal(out.notebook.page, ACCOUNT_PAGE);
   assert.equal(page(user, ACCOUNT_PAGE).body, "## Notes\n- Bank alt: Bobby\n");
-  // With no character, the page choice isn't offered and it's the account's.
+  // An older app can still write on the shared page, when the player actually asks for it.
   reply = body => {
     assert.equal(body.tools[0].functionDeclarations[0].parameters.properties.page, undefined);
     return called("notebook_add", { answer: "Noted.", kind: "todo", items: ["Hearthstone to Goldshire"] });
   };
-  out = await ask(token, "remember to set my hearthstone to Goldshire", { notebook: undefined });
+  out = await ask(token, "remember for all characters to set my hearthstone to Goldshire", { notebook: undefined });
   assert.equal(out.notebook.page, ACCOUNT_PAGE);
   assert.equal(page(user, ACCOUNT_PAGE).body, "## Notes\n- Bank alt: Bobby\n\n## To do\n- [ ] Hearthstone to Goldshire\n");
+});
+
+test("an unknown character asks before a note, reminder, goal or pin and leaves existing pages untouched (LOR-711)", async () => {
+  const { user, token } = await linked();
+  seed(user, "## Notes\n- My existing private note\n");
+  seed(user, "## To do\n- [ ] My existing shared note\n", ACCOUNT_PAGE);
+  const before = env.DB.sqlite.prepare("SELECT * FROM notebook_pages WHERE user_id = ? ORDER BY page").all(user.id);
+  for (const question of [
+    "Hey Willow, can you make a note for me to buy some free action potions for PPP?",
+    "Remind me about tonight's raid at nine PM",
+    "I'm saving up 200 gold",
+    "Pin this spot",
+  ]) {
+    const out = await ask(token, question, { notebook: undefined, style: "spoken", layers: 2 });
+    assert.equal(out.answer, NEED_CHARACTER_LINE);
+    assert.equal(out.say, NEED_CHARACTER_LINE);
+    assert.equal(out.notebook, undefined);
+  }
+  // A page labeled account in the request also cannot silently widen an ordinary request's scope.
+  const out = await ask(token, "Remember to buy linen", { notebook: { character: "account" } });
+  assert.equal(out.answer, NEED_CHARACTER_LINE);
+  assert.equal(calls.length, 0, "no model call or guessed destination");
+  assert.deepEqual(env.DB.sqlite.prepare("SELECT * FROM notebook_pages WHERE user_id = ? ORDER BY page").all(user.id), before);
+  assert.equal(reminders(user).length, 0);
+});
+
+test("explicitly declining shared scope cannot create an all-character note (LOR-711)", async () => {
+  const { user, token } = await linked();
+  const question = "Remember to buy linen for this character, not for all my characters";
+  reply = () => called("notebook_add", { kind: "todo", items: ["Buy linen"], page: "account" });
+  const out = await ask(token, question);
+  assert.equal(out.notebook.page, `char:${HURIN}`);
+  assert.equal(page(user, ACCOUNT_PAGE), undefined);
+  const unknown = await ask(token, question, { notebook: undefined });
+  assert.equal(unknown.answer, NEED_CHARACTER_LINE);
+  assert.equal(unknown.notebook, undefined);
 });
 
 test("the answer log keeps which tool ran, never the notebook", async () => {
@@ -394,8 +431,8 @@ test("asked where her notes are, she points to the Notebook tab, never the Setti
 });
 
 test("a new heading only where the player named one: otherwise To do or Notes", () => {
-  const view = (question, body = "") => notebookView([{ page: ACCOUNT_PAGE, body, version: 1 }],
-    { intent: { write: true, read: true }, question });
+  const view = (question, body = "") => notebookView([{ page: `char:${HURIN}`, body, version: 1 }],
+    { current: `char:${HURIN}`, intent: { write: true, read: true }, question });
   const add = (question, heading, body) => {
     const v = view(question, body);
     return notebookCall({ name: "notebook_add", args: { kind: "note", items: ["x"], heading } }, notebookTools(v), v).op.heading;
@@ -479,7 +516,7 @@ test("her line is the site's, from what it wrote; her own sentences stay only wh
 });
 
 test("what she writes keeps to their words: no map coordinates they didn't give", () => {
-  const view = question => notebookView([], { intent: { write: true, read: true }, question });
+  const view = question => notebookView([], { current: `char:${HURIN}`, intent: { write: true, read: true }, question });
   const add = (question, item) => {
     const v = view(question);
     return notebookCall({ name: "notebook_add", args: { kind: "note", items: [item] } }, notebookTools(v), v).op.items[0];

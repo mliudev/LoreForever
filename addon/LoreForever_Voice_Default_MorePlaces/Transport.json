@@ -107,9 +107,9 @@
     "subzone:andorhal": {
       "1": [
         {
-          "duration": 79.56897959183674,
-          "file": "Audio/Transport/full_subzone_andorhal-2c8aaf9a500d187c0161/1-0000.mp3",
-          "sha256": "4882a8bf18ace055ebc4d3c347235285d63a1914a1601b2f23acf6b742839bf4",
+          "duration": 79.93469387755103,
+          "file": "Audio/Transport/full_subzone_andorhal-05ca1ba30a02f387a233/1-0000.mp3",
+          "sha256": "a24fabaf03bed2b58f57979e19e729a083df439db2efe93dbce78bf019618bb0",
           "start": 0
         }
       ],
@@ -121,12 +121,12 @@
         ]
       },
       "fullHash": "8731d3",
-      "generation": "147ab6edfb1b16ed4f76",
+      "generation": "a1e35101143a23845853",
       "hash": "8731d3",
       "source": {
-        "duration": 79.542813,
+        "duration": 79.908563,
         "file": null,
-        "sha256": "2c8aaf9a500d187c01615c5219f329b1242b6e4f376df65568a552cefbffffb5"
+        "sha256": "05ca1ba30a02f387a233539a4ccb31c48c84b292e8d092d5a7f8374e1cc45c80"
       },
       "text": "Andorhal. Once the thriving agricultural heart of northern Lordaeron, Andorhal became ground zero for the Kingdom's destruction during the Third War. It was here that Kel'Thuzad tainted the grain with the Plague of Undeath, unleashing horror across the region. Today, the ruined town is held firmly in the iron grip of the Scourge. Before the Third War, Andorhal was the prosperous granary of the Eastweald, gathering grain from across Lordaeron and distributing it eastward to Hearthglen and Stratholme. Because of this vast distribution network, Kel'Thuzad and the Cult of the Damned chose Andorhal as the staging ground for their horrific plot. By tainting the grain crates with the Plague of Undeath, the cult turned the breadbasket of the kingdom into an engine of necrosis, infecting countless citizens before the Crown even understood the threat. Prince Arthas Menethil and Jaina Proudmoore initially confronted and slew Kel'Thuzad here, but the necromancer's death was not the end. When Arthas returned from Northrend as a champion of the Scourge, he marched back to Andorhal to reclaim Kel'Thuzad's remains. Uther the Lightbringer and the remnants of the Silver Hand made a desperate last stand in defense of King Terenas's ashes. The paladins were overwhelmed, Uther was slain by his former pupil, and the grand settlement was reduced to a blight-choked Scourge stronghold."
     },
@@ -1745,9 +1745,9 @@
     "subzone:dandred-s-fold": {
       "1": [
         {
-          "duration": 46.00163265306123,
-          "file": "Audio/Transport/full_subzone_dandred-s-fold-ce45ba094669879e576d/1-0000.mp3",
-          "sha256": "c62406bfd05898f174350808bf97973d8ff3342d8ccf911616401639075532d0",
+          "duration": 46.288979591836735,
+          "file": "Audio/Transport/full_subzone_dandred-s-fold-95fdd18c4fc97855356c/1-0000.mp3",
+          "sha256": "66a6365d0f4cf3b5cb338d9237591e8deae2bab6bc5faaf915f1039b4450f3e1",
           "start": 0
         }
       ],
@@ -1759,12 +1759,12 @@
         ]
       },
       "fullHash": "84f78b",
-      "generation": "7c1f0ef40435add5d026",
+      "generation": "94d49961782897478829",
       "hash": "84f78b",
       "source": {
-        "duration": 45.9755,
+        "duration": 46.262813,
         "file": null,
-        "sha256": "ce45ba094669879e576d4b94f72858a5b9e96a58997ba62b5b813e1d3ecc4458"
+        "sha256": "95fdd18c4fc97855356ce4012cfd55b41c5ed63810f46096d060b2caaa6ce395"
       },
       "text": "Dandred's Fold. Dandred's Fold is a secluded farmstead and manor tucked along the misty northwestern shores of Lordamere Lake in the Alterac Mountains. Now overrun by the Syndicate, it serves as a secure hideout for Lord Aliden Perenolde and his co-conspirators. Both the Horde and the Alliance keep a watchful eye on this lakefront retreat for very different reasons. Perched on the western edge of the Uplands with private access to the waters of Lordamere Lake, Dandred's Fold was once a tranquil country estate, likely owned by an Alteraci noble named Dandred. In the aftermath of the kingdom's fall, the estate transformed into a fortified enclave for the Syndicate. Syndicate assassins and enforcers now patrol its fences and docks, shielding the fallen nobility from the eyes of Southshore authorities and the Forsaken across the lake."
     },
@@ -2239,9 +2239,9 @@
     "subzone:dream-bough": {
       "1": [
         {
-          "duration": 59.376326530612246,
-          "file": "Audio/Transport/full_subzone_dream-bough-6c4f94dc803f069cd78c/1-0000.mp3",
-          "sha256": "b4c6c4c6fec5a0888b5372a215ce546c575b5c766f019326c8f479c3d878013d",
+          "duration": 59.06285714285715,
+          "file": "Audio/Transport/full_subzone_dream-bough-5cbdf61c221d9cc8fa09/1-0000.mp3",
+          "sha256": "ecdd41fce615c759faa480da3c5ca1d5e64b2bb46ec46eab2a6fdc623e8ea308",
           "start": 0
         }
       ],
@@ -2253,12 +2253,12 @@
         ]
       },
       "fullHash": "dbae5b",
-      "generation": "e321f62d4f9385c2f3ce",
+      "generation": "875a7551285654b6e2a2",
       "hash": "dbae5b",
       "source": {
-        "duration": 59.350188,
+        "duration": 59.036688,
         "file": null,
-        "sha256": "6c4f94dc803f069cd78c09e859129b986b24d78703bf56ead2bbec9560e874a8"
+        "sha256": "5cbdf61c221d9cc8fa0974d5e8823e633f654a2e042daf3184f7b032bae3a16b"
       },
       "text": "Dream Bough. Dream Bough is a colossal Great Tree nestled on an island in the center of Jademir Lake in northern Feralas. The ancient tree shelters a mysterious gateway connecting Azeroth directly to the Emerald Dream. Green dragons loyally watch over the sanctuary, keeping unwanted intruders away from its verdant boughs. Rising high above the canopy of northern Feralas, the Dream Bough stands as the largest tree in the region. Situated in the tranquil waters of Jademir Lake, the towering sentinel houses a natural portal carved into its trunk, providing a direct threshold into the untamed Emerald Dream. Because of its connection to the Emerald Dream, the tree is under the vigilant protection of the Green Dragonflight. Dragonkin and drakes patrol the banks of Jademir Lake and the approaches to the great trunk. While primarily a place of contemplation and slumber for druids wandering between realms, travelers should approach with care, as the green dragons tolerate few uninvited visitors near such an important threshold."
     },
@@ -3903,9 +3903,9 @@
     "subzone:hidden-grove": {
       "1": [
         {
-          "duration": 43.650612244897964,
-          "file": "Audio/Transport/full_subzone_hidden-grove-4952f14a9bc64cb65064/1-0000.mp3",
-          "sha256": "38f852a1a754813591cc4a45dca434892a3fc030e34323b729f0bc121e4a40a3",
+          "duration": 43.676734693877556,
+          "file": "Audio/Transport/full_subzone_hidden-grove-11b5801b48c9f2ab11c9/1-0000.mp3",
+          "sha256": "d8ad570b3e6ee8219ae5fb11a4e0f075555677b6501bfcfacc38ee24e7ebc4b5",
           "start": 0
         }
       ],
@@ -3917,12 +3917,12 @@
         ]
       },
       "fullHash": "56a68e",
-      "generation": "798a8c79d174b7f360f4",
+      "generation": "74ba7d818a9d844b7a62",
       "hash": "56a68e",
       "source": {
-        "duration": 43.624438,
+        "duration": 43.650563,
         "file": null,
-        "sha256": "4952f14a9bc64cb65064223ba06dc48ec01051a741b72a71eb12df6dd7b12f7f"
+        "sha256": "11b5801b48c9f2ab11c99609d80ecd0f5ade4e23f32782f63711d7a04a7899c1"
       },
       "text": "Hidden Grove. Tucked away behind towering cliffs in northeastern Winterspring, the Hidden Grove is a secluded crater basin. Once an untroubled haven for Arctic hares, the basin has fallen under the domain of fiercely territorial wild moonkin. Walled off from the bitter howling winds of Winterspring, the Hidden Grove forms a sunken, snow-dusted forest crater that is nearly impossible to access from the outside cliffs. Travelers who discover its concealed rim must brave a sheer, dangerous drop or navigate a narrow cavern passage tucked into the southeastern ridge. Though the valley was long the undisturbed home of harmless white hares, aggressive wild moonkin have seized the glade, turning an isolated natural paradise into an ambush for unwary wanderers."
     },
@@ -5385,9 +5385,9 @@
     "subzone:misty-valley": {
       "1": [
         {
-          "duration": 47.6995918367347,
-          "file": "Audio/Transport/full_subzone_misty-valley-669d5a8a4ac3047998e7/1-0000.mp3",
-          "sha256": "97d447aceafe388b9fffc23d1f77fc047a9281f92e461c01fb45d324b3498d36",
+          "duration": 48.14367346938776,
+          "file": "Audio/Transport/full_subzone_misty-valley-c8ae8597bbe8e1618633/1-0000.mp3",
+          "sha256": "bdd9c5cde7eef8cf7d72049e05eeb29c7875781b3c15ac8f0d5e965e7b8c09ea",
           "start": 0
         }
       ],
@@ -5399,12 +5399,12 @@
         ]
       },
       "fullHash": "3a4521",
-      "generation": "ae86630c5cff4963d960",
+      "generation": "8d90c35258a2d5192627",
       "hash": "3a4521",
       "source": {
-        "duration": 47.673438,
+        "duration": 48.1175,
         "file": null,
-        "sha256": "669d5a8a4ac3047998e700e7a01758bb71c6916b84b1f6289bb1101fd34d5bc7"
+        "sha256": "c8ae8597bbe8e16186332424a6006c3002c80ab40517c35effe0bf7c10907303"
       },
       "text": "Misty Valley. Tucked away in the northwestern reaches of the Swamp of Sorrows, the Misty Valley is a shadowed, fog-drenched hollow north of the pass into Deadwind. The secluded basin is overrun by primordial swamp beasts, wandering swampwalkers, and tangled horrors. Deep in its rearmost cave dwells the colossal and terrifying Mire Lord. Nestled beneath the high cliffs separating the Swamp of Sorrows from Deadwind Pass, the Misty Valley is perpetually choked with thick marsh vapor. Unlike the open wetlands to the east, this isolated pocket is dense with colossal marsh elementals, including looming swampwalkers, ancient swampwalker elders, and creeping tangled horrors. At the far end of the misty gorge lies a cavern that serves as the lair of the Mire Lord, one of the most formidable natural threats haunting the bog."
     },
@@ -6165,9 +6165,9 @@
     "subzone:plaguewood": {
       "1": [
         {
-          "duration": 67.81387755102041,
-          "file": "Audio/Transport/full_subzone_plaguewood-f7c3265137f6a6fcfadc/1-0000.mp3",
-          "sha256": "dedfcfe8908e60e02bd76a307477362b914383798c62d33b478969348644b3d2",
+          "duration": 67.68326530612245,
+          "file": "Audio/Transport/full_subzone_plaguewood-b57bb888a9b79ff3af1a/1-0000.mp3",
+          "sha256": "3e2e48b9d26290fc0b80a5ed8a1588fb13d4df740366ae20d1be6b7f34e8f55c",
           "start": 0
         }
       ],
@@ -6179,12 +6179,12 @@
         ]
       },
       "fullHash": "f05234",
-      "generation": "72f9588be7d1f23fa2a0",
+      "generation": "c865b59c38b09b934a2e",
       "hash": "f05234",
       "source": {
-        "duration": 67.78775,
+        "duration": 67.657125,
         "file": null,
-        "sha256": "f7c3265137f6a6fcfadc58fc615959811ed441187ccf01baf9b69de66b0af646"
+        "sha256": "b57bb888a9b79ff3af1a26599e7f2663bf7fb741b08725985e4ee2eb8f4aca16"
       },
       "text": "Plaguewood. Once a peaceful woodland known as Greenwood, the Plaguewood is now a blighted, fungus-choked expanse stretching south of Stratholme. Crawling with Scourge infrastructure and patrolling Scarlet Crusaders, it stands as one of the most corrupt corners of the Eastern Plaguelands. Before the Third War, this region was Greenwood, a vibrant forest that mirrored the lush woods of Elwynn. A modest village sat near its entrance, and its roads were traveled by farmers and soldiers alike. All of that collapsed when tainted grain arrived from Andorhal. Today, spongy, corrupted soil has taken the place of rich earth, and titanic mushrooms dwarf the dead trees, constantly spewing noxious brown vapors across the woodland floor. Now completely claimed by the Scourge, the Plaguewood serves as a grim staging ground for the undead surrounding Stratholme. Ziggurats and slaughterhouses dot the decayed landscape, churning out abominations and cultists. To make matters worse for travelers, fanatic Scarlet Crusaders relentlessly patrol the road toward Stratholme's gates, eager to purge the Scourge and brutally slaughter any living wanderers they encounter."
     },
@@ -11327,12 +11327,6 @@
       1514,
       1820
     ],
-    "38f852a1a754813591cc4a45dca434892a3fc030e34323b729f0bc121e4a40a3": [
-      153,
-      666,
-      941,
-      1269
-    ],
     "39363351b416a2aa3224f9d507cba39817518b01e931792c76aeb65bd031b4a3": [
       337,
       479,
@@ -11406,6 +11400,14 @@
       860,
       1256,
       1475
+    ],
+    "3e2e48b9d26290fc0b80a5ed8a1588fb13d4df740366ae20d1be6b7f34e8f55c": [
+      585,
+      831,
+      1048,
+      1195,
+      1633,
+      2126
     ],
     "3fdd2c30d34399ba64bcbde171fd783db5a47e9c3288e394c86f9edb053f3022": [
       297,
@@ -11546,17 +11548,6 @@
       2052,
       2202,
       2548
-    ],
-    "4882a8bf18ace055ebc4d3c347235285d63a1914a1601b2f23acf6b742839bf4": [
-      339,
-      590,
-      749,
-      1128,
-      1444,
-      1859,
-      2077,
-      2459,
-      2728
     ],
     "4892053de932d53fb95703931a14cacc055ce93969b86d667adb82bb5247da83": [
       256,
@@ -11921,6 +11912,14 @@
       1756,
       1912,
       2332
+    ],
+    "66a6365d0f4cf3b5cb338d9237591e8deae2bab6bc5faaf915f1039b4450f3e1": [
+      295,
+      550,
+      735,
+      931,
+      1186,
+      1415
     ],
     "66e80bb0394ab564fa74bcf5f547e46311bc01bbf8479e4a5ca2b4c3122d54e0": [
       313,
@@ -12531,11 +12530,6 @@
       1031,
       1295
     ],
-    "97d447aceafe388b9fffc23d1f77fc047a9281f92e461c01fb45d324b3498d36": [
-      311,
-      1059,
-      1511
-    ],
     "98a0ac98341e594d62f626e0fe6de825b713a9a1073423857735c7b9c14a3030": [
       951,
       1418
@@ -12652,6 +12646,17 @@
       1242,
       1707,
       2252
+    ],
+    "a24fabaf03bed2b58f57979e19e729a083df439db2efe93dbce78bf019618bb0": [
+      318,
+      557,
+      712,
+      1395,
+      1680,
+      1850,
+      2067,
+      2458,
+      2741
     ],
     "a387314897b29ac20ec8b62daeaee3205ebe1832041ef157e8c45bd73a9bd209": [
       365,
@@ -12855,14 +12860,6 @@
       824,
       1129
     ],
-    "b4c6c4c6fec5a0888b5372a215ce546c575b5c766f019326c8f479c3d878013d": [
-      240,
-      448,
-      784,
-      1354,
-      1583,
-      1814
-    ],
     "b69db541fce2415ff583e70271f73762473b4d27fe79104d3a62f44b5210ccdc": [
       329,
       579,
@@ -13054,6 +13051,14 @@
       1325,
       1643
     ],
+    "bdd9c5cde7eef8cf7d72049e05eeb29c7875781b3c15ac8f0d5e965e7b8c09ea": [
+      137,
+      320,
+      581,
+      753,
+      945,
+      1535
+    ],
     "bec410c4a17435d83517ec2de0dfe1865b61b95b1a72451b3fdd0db58c8d7b92": [
       611,
       831,
@@ -13140,13 +13145,6 @@
       797,
       1066,
       1589
-    ],
-    "c62406bfd05898f174350808bf97973d8ff3342d8ccf911616401639075532d0": [
-      294,
-      542,
-      760,
-      1200,
-      1415
     ],
     "c64ae68fd4f92f83e994337eac0d8257d26da17a7afb32bbd733059e7d655e85": [
       243,
@@ -13303,6 +13301,11 @@
       1267,
       1445
     ],
+    "d8ad570b3e6ee8219ae5fb11a4e0f075555677b6501bfcfacc38ee24e7ebc4b5": [
+      147,
+      909,
+      1257
+    ],
     "da5430118081c4f7767e2f1bee183400d4252eef031e3bd7a657d5871eea3b3a": [
       237,
       606,
@@ -13385,17 +13388,6 @@
       865,
       1021,
       1262
-    ],
-    "dedfcfe8908e60e02bd76a307477362b914383798c62d33b478969348644b3d2": [
-      584,
-      819,
-      1036,
-      1186,
-      1609,
-      1871,
-      2010,
-      2200,
-      2399
     ],
     "df74cc5d28fa6bc5c6e4c2765ddbddab2cc48ea809a9c12a8166768d7b90d614": [
       785,
@@ -13491,6 +13483,14 @@
     "ec53db3f16355c320de8424546dd1622eadc929a40cde607faf3b032085ea569": [
       762,
       1020
+    ],
+    "ecdd41fce615c759faa480da3c5ca1d5e64b2bb46ec46eab2a6fdc623e8ea308": [
+      250,
+      915,
+      1341,
+      1584,
+      1794,
+      2068
     ],
     "ecfc3c2c1943ffb30545f53610185e920b1acf6e41193674567544fcecbe642d": [
       715,

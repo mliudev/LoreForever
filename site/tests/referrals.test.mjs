@@ -1,7 +1,7 @@
 // Inviting friends and the creator program (lib/referrals.js). The rules that guard money and abuse: a friend counts
 // only once Willo has given them a first real answer, once per Google account, never from the inviter's computer,
-// browser or card; the fifth friend gives bonus answers and the tenth a free month, each once (a Stripe credit for a
-// paying plan, a month on us for a free one), at most ten a month; a creator earns 60% of a subscriber's first paid
+// browser or card; every second friend gives a free month (one a calendar month) and the fifth of each ten bonus
+// answers, each once (a Stripe credit for a paying plan, a month on us for a free one), at most ten a month; a creator earns 60% of a subscriber's first paid
 // month without tax, payable after the hold, taken back on a refund, paid once, and their audience gets 15% off its
 // first month with the creator's link or code. Stripe and Gemini are mocked through
 // fetch; D1 is node:sqlite (helpers.mjs). Run: node --test 'site/tests/*.test.mjs'
@@ -58,7 +58,9 @@ beforeEach(async (t) => {
     if (routes[route]) return routes[route](call);
     if (route === "POST coupons") return Response.json({ id: call.body.get("id") });
     if (route === "GET prices") return Response.json({ data: [{ id: "price_hero_m", lookup_key: "hero_monthly" }] });
-    if (route === "POST customers") return Response.json({ id: `cus_${stripeCalls.filter(c => c.path === "customers").length}` });
+    if (route === "POST customers") return Response.json({ id: `cus_${stripeCalls.filter(c => c.path === "customers" && c.method === "POST").length}` });
+    if (route === "GET customers") return Response.json({ data: [] });
+    if (route === "GET subscriptions" || route === "GET checkout/sessions") return Response.json({ data: [] });
     if (route === "POST checkout/sessions") return Response.json({ id: "cs_1", url: "https://checkout.stripe.com/c/pay/cs_1" });
     if (route === "GET invoice_payments") return Response.json({ data: [] });
     if (call.method === "GET" && subscriptions[call.path.replace("subscriptions/", "")])
@@ -108,11 +110,12 @@ async function ask(token, computer = null) {
   assert.equal(res.status, 200, JSON.stringify(body));
   return body;
 }
-// A friend who joined with the cookie and had their first answer, from their own computer (activateReferral directly).
-async function friend(cookie, n = ++made) {
+// A friend who joined with the cookie and had their first answer, from their own computer (activateReferral directly),
+// now or at `at`.
+async function friend(cookie, n = ++made, at = undefined) {
   const user = await signUp(`friend-${n}`, `${cookie}; ${browser(`f${n}`)}`);
   const sent = await crypto.subtle.digest("SHA-256", new TextEncoder().encode(`lf-machine:${machine(n)}`));
-  await activateReferral(env, { userId: user.id, machine: [...new Uint8Array(sent)].map(b => b.toString(16).padStart(2, "0")).join("").slice(0, 32) });
+  await activateReferral(env, { userId: user.id, machine: [...new Uint8Array(sent)].map(b => b.toString(16).padStart(2, "0")).join("").slice(0, 32) }, at);
   return user;
 }
 const summary = user => shareSummary(env, user.id, ORIGIN);
@@ -136,10 +139,10 @@ test("a friend counts after Willo's first real answer, not on the click or the c
   assert.equal((await summary(sharer)).progress.have, 0, "connecting Willo isn't enough");
   await ask(token, machine(1));
   s = await summary(sharer);
-  assert.deepEqual([s.joined, s.waiting, s.progress.have, s.progress.left], [1, 0, 1, 9]);
-  assert.equal(s.tally, "1 / 10 friends joined — 9 more until a free month of Hero.");
+  assert.deepEqual([s.joined, s.waiting, s.progress.have, s.progress.left], [1, 0, 1, 1]);
+  assert.equal(s.tally, "1 / 2 friends joined — 1 more until a free month of Hero.");
   assert.equal(s.invite, "Invite a friend to awaken their Willo");
-  assert.match(s.about, /5 friends: 450 bonus answers\. 10 friends: a free month of Hero\./);
+  assert.match(s.about, /Every 2 friends: a free month of Hero, one a month\. Your 5th, 15th, 25th friend and so on: 450 bonus answers\./);
   assert.ok(row(pal).machine, "Willo's computer noted, one-way");
 
   // The same Google account again, after Delete my account: not a second friend.
@@ -155,39 +158,84 @@ test("a friend counts after Willo's first real answer, not on the click or the c
   // Someone who already had an account but never used Willo joins at their first connect.
   const late = await player("late");
   await ask(await connect(late, cookie), machine(2));
-  assert.equal((await summary(sharer)).progress.have, 2);
+  s = await summary(sharer);
+  assert.deepEqual([s.progress.friends, s.progress.have, s.progress.months], [2, 0, 1], "two friends: a free month");
 });
 
-test("the fifth friend gives bonus answers and the tenth a free Hero month, each once; the eleventh in a month waits", async () => {
+test("every second friend gives a free Hero month, one a calendar month; every friend counts for the fifth's bonus; the eleventh waits", async () => {
   const sharer = await player("sharer");
   const { cookie } = await open(await shareCode(env, sharer.id));
-  for (let i = 0; i < 4; i++) await friend(cookie);
+  await friend(cookie);
   assert.equal(env.DB.sqlite.prepare("SELECT COUNT(*) AS n FROM referral_rewards").get().n, 0);
   await friend(cookie);
-  const bonus = env.DB.sqlite.prepare("SELECT * FROM answer_packs WHERE user_id = ? AND kind = 'share'").all(sharer.id);
-  assert.deepEqual(bonus.map(p => [p.id, p.answers]), [[`bonus:${sharer.id}:0`, 450]], "half the free plan's 900");
-  await settleRewards(env, sharer.id);
-  assert.equal(env.DB.sqlite.prepare("SELECT COUNT(*) AS n FROM answer_packs WHERE kind = 'share'").get().n, 1, "once");
-
-  for (let i = 0; i < 5; i++) await friend(cookie);
-  const grant = env.DB.sqlite.prepare("SELECT * FROM plan_grants WHERE user_id = ?").all(sharer.id);
-  assert.equal(grant.length, 1);
-  assert.equal(grant[0].plan, "hero");
-  assert.equal(Date.parse(grant[0].ends) - Date.parse(grant[0].starts), 30 * DAY * 1000);
+  let grants = env.DB.sqlite.prepare("SELECT * FROM plan_grants WHERE user_id = ? ORDER BY starts").all(sharer.id);
+  assert.equal(grants.length, 1);
+  assert.equal(grants[0].plan, "hero");
+  assert.equal(Date.parse(grants[0].ends) - Date.parse(grants[0].starts), 30 * DAY * 1000);
   const plan = await planFor(env, sharer.id);
   assert.deepEqual([plan.id, plan.reward, plan.answersPerMonth], ["hero", true, 1500]);
   let s = await summary(sharer);
-  assert.equal(s.tally.split(" —")[0], "0 / 10 friends joined");
-  assert.match(s.earned, /1 free month and 450 bonus answers/);
+  assert.equal(s.tally, "0 / 2 friends joined. This month's free month is yours: friends who join from November 1 move " +
+    "the next one on, and until then they still count toward bonus answers.");
   assert.equal(s.rewards.find(r => r.kind === "month").text.startsWith("A free month of Hero, October 16 to November 15"), true);
+  await settleRewards(env, sharer.id);
+  assert.equal(env.DB.sqlite.prepare("SELECT COUNT(*) AS n FROM plan_grants").get().n, 1, "once");
+
+  // The third to the tenth this month: no second month, but the fifth's bonus.
+  for (let i = 0; i < 3; i++) await friend(cookie);
+  const bonus = env.DB.sqlite.prepare("SELECT * FROM answer_packs WHERE user_id = ? AND kind = 'share'").all(sharer.id);
+  assert.deepEqual(bonus.map(p => [p.id, p.answers]), [[`bonus:${sharer.id}:0`, 750]], "half the Hero month's 1500 they're on");
+  for (let i = 0; i < 5; i++) await friend(cookie);
+  assert.equal(env.DB.sqlite.prepare("SELECT COUNT(*) AS n FROM plan_grants").get().n, 1, "one free month a calendar month");
+  s = await summary(sharer);
+  assert.deepEqual([s.progress.friends, s.progress.toward, s.progress.months], [10, 2, 1]);
+  assert.match(s.earned, /1 free month and 750 bonus answers/);
 
   // The eleventh this month joins but doesn't count until next month.
   const eleventh = await friend(cookie);
   assert.equal(row(eleventh).counted, 0);
   s = await summary(sharer);
   assert.equal(s.progress.friends, 10);
-  assert.match(s.tally, /count again/);
+  assert.match(s.tally, /That's this month's 10; friends who join from November 1 count again/);
+
+  // November: its second friend gives the next month, after the first.
+  const nov = new Date("2026-11-02T12:00:00Z");
+  await friend(cookie, undefined, nov);
   assert.equal(env.DB.sqlite.prepare("SELECT COUNT(*) AS n FROM plan_grants").get().n, 1);
+  assert.match((await shareSummary(env, sharer.id, ORIGIN, nov)).tally, /^1 \/ 2 friends joined — 1 more until/);
+  await friend(cookie, undefined, nov);
+  grants = env.DB.sqlite.prepare("SELECT * FROM plan_grants WHERE user_id = ? ORDER BY starts").all(sharer.id);
+  assert.equal(grants.length, 2);
+  assert.equal(grants[1].starts, grants[0].ends, "the second month starts when the first ends");
+  assert.equal(env.DB.sqlite.prepare("SELECT COUNT(*) AS n FROM answer_packs WHERE kind = 'share'").get().n, 1);
+});
+
+test("players partway under the old ten get this month's free month at their next settle, once, however often it runs", async () => {
+  const three = await player("three"), seven = await player("seven");
+  const old = REWARDS.monthAt;
+  REWARDS.monthAt = 10;
+  try {
+    const a = (await open(await shareCode(env, three.id))).cookie, b = (await open(await shareCode(env, seven.id))).cookie;
+    for (let i = 0; i < 3; i++) await friend(a);
+    for (let i = 0; i < 7; i++) await friend(b);
+  } finally { REWARDS.monthAt = old; }
+  assert.equal(env.DB.sqlite.prepare("SELECT COUNT(*) AS n FROM plan_grants").get().n, 0, "nothing under the old ten");
+  assert.equal(env.DB.sqlite.prepare("SELECT COUNT(*) AS n FROM referral_rewards WHERE kind = 'month'").get().n, 0);
+
+  // The share card's next look (or the next friend) settles: two at once, and again after, give each month once.
+  await Promise.all([summary(three), settleRewards(env, three.id), settleRewards(env, seven.id), summary(seven)]);
+  await settleRewards(env, three.id);
+  await settleRewards(env, seven.id);
+  const months = id => env.DB.sqlite.prepare("SELECT id, status FROM referral_rewards WHERE user_id = ? AND kind = 'month' " +
+    "ORDER BY cycle").all(id).map(r => `${r.id.split(":")[2]} ${r.status}`);
+  assert.deepEqual(months(three.id), ["1 applied"], "3 friends: one month");
+  assert.deepEqual(months(seven.id), ["1 applied"], "7 friends this month: still one month");
+  const grants = id => env.DB.sqlite.prepare("SELECT COUNT(*) AS n FROM plan_grants WHERE user_id = ?").get(id).n;
+  assert.deepEqual([grants(three.id), grants(seven.id)], [1, 1]);
+  const s = await summary(three);
+  assert.deepEqual([s.progress.friends, s.progress.months], [3, 1]);
+  assert.match(s.tally, /This month's free month is yours/);
+  assert.match(s.earned, /1 free month/);
 });
 
 test("a paying player's free month is a Stripe credit as big as their next charge, made once even when Stripe fails first", async () => {
@@ -215,8 +263,7 @@ test("a paying player's free month is a Stripe credit as big as their next charg
   assert.match(s.about, /your next month of Champion free, as a credit on your bill/);
   await settleRewards(env, sharer.id);
   assert.equal(stripeCalls.filter(c => c.path === "customers/cus_s/balance_transactions").length, 2, "applied: no more tries");
-  assert.equal(env.DB.sqlite.prepare("SELECT COUNT(*) AS n FROM answer_packs WHERE kind = 'share'").get().n, 1,
-    "and the fifth's bonus");
+  assert.equal(env.DB.sqlite.prepare("SELECT COUNT(*) AS n FROM referral_rewards").get().n, 1, "one month, no bonus yet");
 });
 
 test("the inviter's computer or browser, another friend's computer and throwaway addresses don't count", async () => {
@@ -308,7 +355,7 @@ test("a creator earns 60% of a subscriber's first paid month, without tax; later
     method: "POST", body: JSON.stringify({ plan: "hero" }),
     headers: { "Content-Type": "application/json", Origin: ORIGIN, Cookie: await session(fan) } }) });
   assert.equal(res.status, 200);
-  const checkout = stripeCalls.find(c => c.path === "checkout/sessions").body;
+  const checkout = stripeCalls.find(c => c.method === "POST" && c.path === "checkout/sessions").body;
   assert.equal(checkout.get("subscription_data[metadata][creator]"), "ziqo");
   assert.equal(checkout.get("discounts[0][promotion_code]"), "promo_ziqo", "their link takes the 15% off");
 
@@ -361,6 +408,59 @@ test("anyone may type a creator's code at checkout: the subscriber is the creato
   assert.deepEqual([row(viewer).creator, row(viewer).via], ["ziqo", "code"]);
   const earned = env.DB.sqlite.prepare("SELECT creator, paid_cents, share_cents, pct FROM creator_earnings").get();
   assert.deepEqual({ ...earned }, { creator: "ziqo", paid_cents: 424, share_cents: 254, pct: 60 });
+});
+
+// A creator with earnings rows of the given cents, past their hold (reversed: after they were paid out, clawed back).
+async function owed(code, rows) {
+  await env.DB.prepare("INSERT INTO creators (code, name, discount, share_pct, months, gift, created) VALUES (?, ?, 15, 60, 1, 0, ?)")
+    .bind(code, code, new Date(NOW).toISOString()).run();
+  let n = 0;
+  for (const [cents, kind] of rows) {
+    const paidOut = kind === "clawback" ? new Date(NOW - 20 * DAY * 1000).toISOString() : null;
+    const reversed = kind === "clawback" ? new Date(NOW - 5 * DAY * 1000).toISOString() : null;
+    await env.DB.prepare("INSERT INTO creator_earnings (invoice_id, creator, paid_cents, share_cents, pct, paid_at, recorded, " +
+      "payable_at, paid_out, reversed) VALUES (?, ?, ?, ?, 60, ?, ?, ?, ?, ?)").bind(`in_${code}_${++n}`, code, cents, cents,
+      new Date(NOW - 40 * DAY * 1000).toISOString(), new Date(NOW).toISOString(), new Date(NOW - 10 * DAY * 1000).toISOString(),
+      paidOut, reversed).run();
+  }
+}
+const earnings = code => env.DB.sqlite.prepare("SELECT payout_id, clawed FROM creator_earnings WHERE creator = ?").all(code);
+const payouts = (code, status) => env.DB.sqlite.prepare("SELECT * FROM creator_payouts WHERE creator = ? AND status = ?").all(code, status);
+
+test("a creator under the $10 minimum isn't paid: it's carried over, untied, and paid once there's enough", async () => {
+  await owed("small", [[509]]);
+  assert.equal((await payoutList(env)).due.length, 0, "not on the list");
+  const refused = await payCreator(env, "small", { method: "manual" });
+  assert.equal(refused.error, "Under $10.00 is carried to next month: small has $5.09 due.");
+  assert.equal(refused.payout, undefined);
+  assert.deepEqual(earnings("small").map(e => e.payout_id), [null], "still payable later");
+  assert.equal(payouts("small", "paid").length, 0);
+  assert.deepEqual(payouts("small", "failed").map(p => p.error), ["below minimum"]);
+  // More arrives: now it is due, and the carried amount goes with it.
+  await env.DB.prepare("INSERT INTO creator_earnings (invoice_id, creator, paid_cents, share_cents, pct, paid_at, recorded, " +
+    "payable_at) VALUES ('in_small_more', 'small', 600, 600, 60, ?, ?, ?)").bind(new Date(NOW - 40 * DAY * 1000).toISOString(),
+    new Date(NOW).toISOString(), new Date(NOW - 10 * DAY * 1000).toISOString()).run();
+  assert.equal((await payoutList(env)).due[0].due, 1109);
+  assert.equal((await payCreator(env, "small", { method: "manual" })).payout.cents, 1109);
+});
+
+test("exactly $10 is paid, and one cent under is not", async () => {
+  await owed("edge", [[1000]]);
+  await owed("short", [[999]]);
+  assert.deepEqual((await payoutList(env)).due.map(d => d.code), ["edge"], "the list and the payout agree");
+  assert.match((await payCreator(env, "short", { method: "manual" })).error, /Under \$10\.00 .* \$9\.99 due/);
+  const { payout } = await payCreator(env, "edge", { method: "manual" });
+  assert.deepEqual([payout.cents, payout.status], [1000, "paid"]);
+});
+
+test("a clawback that takes what's due under $10 is refused, and stays to be taken off later", async () => {
+  await owed("clawed", [[1500], [600, "clawback"]]);
+  assert.equal((await payoutList(env)).due.length, 0, "1500 less 600 is 900");
+  assert.match((await payCreator(env, "clawed", { method: "manual" })).error, /Under \$10\.00 .* \$9\.00 due/);
+  assert.equal(earnings("clawed").every(e => e.payout_id === null && e.clawed === null), true, "clawback not taken off yet");
+  assert.equal(payouts("clawed", "paid").length, 0);
+  // Reviewed amount too: the same refusal after the amount check.
+  assert.match((await payCreator(env, "clawed", { method: "manual", expectedCents: 900 })).error, /Under \$10\.00/);
 });
 
 test("a subscriber who pays with the creator's own card brings them nothing", async () => {

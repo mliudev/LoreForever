@@ -13,7 +13,7 @@ import { isReportRead } from "./report-read.js";
 // DATA_VERSION is the add-on data they were checked against. A player whose add-on is older is told so (factsBlock).
 
 import { FLIGHT_FACTS } from "./forever-flights.js";
-import { GAME_FACTS, ridingMountsFor, ridingTrainerFor } from "./forever-game-facts.js";
+import { GAME_FACTS, ridingMountsFor, ridingPeople, ridingTrainerFor } from "./forever-game-facts.js";
 import { LOOP_FACTS } from "./forever-loop-facts.js";
 import { DATA_VERSION } from "./knowledge-version.js";
 import { questFacts, questBlock, questChain } from "./forever-quest-facts.js";
@@ -369,6 +369,13 @@ const stem = w => (w.length > 4 ? w.replace(/(?:ies|es|s)$/, "") : w);
 
 // The player's words and place, read from the prompt the companion built (lore_companion/answer.py). Every companion
 // version writes these sections, so the facts reach the ones already installed too.
+// An away request's PLAYER CONTEXT without the lines that say what is around them now (the PC's screen, target and spot):
+// what they last faced is no one in front of them (the blind check, 10/21: "she stands right there in Darkshire").
+export function withoutLive(prompt) {
+  return String(prompt || "").replace(/((?:^|\n)PLAYER CONTEXT\n)([\s\S]*?)(?=\n\n|$)/, (_, head, context) =>
+    head + context.split("\n").filter(l => !/^(?:target|target_unit|screen|spot now): /.test(l)).join("\n"));
+}
+const SHEET = new RegExp(`^(?:Level (\\d+) )?(night elf|human|dwarf|gnome|orc|troll|tauren|undead|skyborne|forsaken|scourge)(?: (\\S+))?$`, "i");
 export function promptParts(prompt) {
   const text = String(prompt || "");
   // The last such heading: the question comes after the conversation, which is data.
@@ -378,6 +385,12 @@ export function promptParts(prompt) {
   // Place and faction only from PLAYER CONTEXT (answer.py _context_block): sources and summaries can say "zone:" too.
   const context = /(?:^|\n)PLAYER CONTEXT\n([\s\S]*?)(?:\n\n|$)/.exec(text)?.[1] || "";
   const line = key => new RegExp(`^${key}: (.+)$`, "m").exec(context)?.[1]?.trim() || "";
+  // Willo for iPhone (mobile/src/lib/prompt.ts) says who they are in one line, "character: Level 22 Night Elf Druid", where
+  // the PC writes level:, race:, class: and faction: lines. Read it for what those lines don't say: after the level, a
+  // people from Forever's list (two words first), then the class, which a profile may not have. The faction comes from
+  // the people (Forever's skyborne can be either: none).
+  const sheet = SHEET.exec(line("character")) || [];
+  const [, sheetLevel = "", sheetRace = "", sheetClass = ""] = sheet;
   // A character reply's "Where you both are: <sub>, <zone>", or just "<zone>".
   const both = /^Where you both are: (.+)$/m.exec(text)?.[1]?.split(",").map(s => s.trim()) || [];
   if (both.length === 1) both.unshift("");
@@ -396,7 +409,8 @@ export function promptParts(prompt) {
   // answer.py _context_block: "quest in their log: <title> (ID <id>)", one line each.
   const quests = [...context.matchAll(/^quest in their log: (.+) \(ID (\d+)\)$/gm)].map(m => ({ title: m[1], id: m[2] }));
   return { question: asked.trim(), zone: line("zone") || both[1] || "", sub: line("sub") || both[0] || "",
-    faction: line("faction"), race: line("race"), class: line("class"), level: line("level"), previous: str(previous),
+    faction: line("faction") || (line("race") ? "" : ridingPeople(sheetRace)?.side || ""), race: line("race") || sheetRace,
+    class: line("class") || sheetClass, level: line("level") || sheetLevel, previous: str(previous),
     previousQuestion: str(previousQuestion), target: line("target"), quests,
     // Where they were last, given for the way or the nearest place with no live game info (answer.py saved_place).
     savedPlace: line("saved place") };

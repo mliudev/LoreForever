@@ -33,12 +33,15 @@
 // (POST /api/keeps/cleared), so the page can say "cleared on your PC". "Erase everything" stamps "chats" too, unless the
 // player keeps them: the app then deletes every chat older than the stamp.
 
-import { playerAnswers, eraseAnswer, forgetAnswerLog, KEEP_DAYS as ANSWER_DAYS } from "./answer-log.js";
+import { diagnosticConsent, storageReady, setDiagnosticConsent, playerScreenshots, eraseDiagnostics } from "./diagnostic-screenshots.js";
+import { playerKey, playerAnswers, eraseAnswer, forgetAnswerLog, KEEP_DAYS as ANSWER_DAYS } from "./answer-log.js";
 import { playerFeedback, eraseFeedback, forgetFeedback, setupFeedback, REASONS, KEEP_DAYS as FEEDBACK_DAYS }
   from "./answer-feedback.js";
 import { profileOf, sheetLine } from "./profiles.js";
 import { getCustom, PRESETS } from "./willo-custom.js";
+import { MEMORIES as MEMORIES_KEEPER } from "./willo-memories.js";
 import { NOTEBOOK_KEEPERS } from "./keeps-notebook.js";
+import { STOCK_KEEPER } from "./willo-stock.js";
 import { COMPANION_NAME as NAME } from "./brand.js";
 
 export const TEXT_MAX = 2000;
@@ -137,7 +140,27 @@ const FEEDBACK = {
 };
 
 // Her notebook's four (lib/keeps-notebook.js: notes, goals, pins, reminders) first, then what she keeps of your questions.
-export const KEEPERS = [...NOTEBOOK_KEEPERS, ANSWERS, FEEDBACK];
+const SCREENSHOTS = {
+  id: "screenshots", title: "Screenshots used to improve answers",
+  about: "Only game images already supplied with an answer: reported mistakes and a 1% sample, at most 3 a day per player and no more than 50 a day across all players. Images may contain names or chat; they are not anonymous. Only you and the Lore Forever team can see them. Willo blanks out only the small ring of stars her add-on draws on your screen; nothing else is hidden.",
+  kept: "Kept until you erase them. Turning this switch off, or answer logging off, erases them all.",
+  empty: "No screenshots kept. This separate choice starts off and needs \"Help improve Willo's answers\" on.",
+  async list(env, userId) {
+    return { items: (await playerScreenshots(env, userId)).map(r => ({ id: String(r.answer_id),
+      character: null, text: named(r.question), reply: named(r.answer), when: r.created,
+      detail: r.reason === "report" ? "Reported mistake" : "Random sample", image: `/api/keeps/screenshot?ref=${r.ref}` })) };
+  },
+  erase: async (env, userId, id) => { await eraseDiagnostics(env, await playerKey(env, userId), Number(id)); return true; },
+  eraseAll: async (env, userId) => eraseDiagnostics(env, await playerKey(env, userId)),
+};
+// What she remembers about you (lib/willo-memories.js, LOR-729): short facts you told her, which her own answers use. Its
+// edit checks the new words like a save in her window does, and says why when they are turned away.
+const MEMORIES = { ...MEMORIES_KEEPER, async edit(env, userId, id, text) {
+  try { return await MEMORIES_KEEPER.edit(env, userId, id, text); }
+  catch (e) { throw e?.memory ? new KeepsError(e.message, e.status) : e; }
+} };
+
+export const KEEPERS = [...NOTEBOOK_KEEPERS, MEMORIES, STOCK_KEEPER, ANSWERS, FEEDBACK, SCREENSHOTS];
 
 export const keeperOf = id => KEEPERS.find(k => k.id === id) || null;
 
@@ -189,6 +212,7 @@ const keepAnswersOf = row => row?.keep_answers != null ? Boolean(row.keep_answer
 export async function setKeepAnswers(env, userId, on, now = new Date()) {
   if (typeof on !== "boolean") throw new KeepsError("Couldn't read that.");
   await setupKeeps(env);
+  if (!on) await setDiagnosticConsent(env, userId, false);
   await env.DB.prepare("INSERT INTO keeps_settings (user_id, keep_answers, set_at) VALUES (?, ?, ?) " +
     "ON CONFLICT (user_id) DO UPDATE SET keep_answers = excluded.keep_answers, set_at = excluded.set_at")
     .bind(userId, on ? 1 : 0, now.toISOString()).run();
@@ -249,6 +273,8 @@ export async function keepsView(env, userId) {
     }),
     chats_erased: stamps.changes[CHATS] || null,
     friends, style, keep_answers: keepAnswersOf(settings),
+    keep_screenshots: Boolean(await diagnosticConsent(env, userId)),
+    screenshots_available: Boolean(env.STUDIO && storageReady(env)),
   };
 }
 
@@ -349,6 +375,7 @@ export async function changesFor(env, userId, { keepAnswers = null, applied = ""
   await setupKeeps(env);
   const [{ changes }, row] = await Promise.all([stampsOf(env, userId), settingsOf(env, userId)]);
   let choice = row;
+  if (keepAnswers === false) await setDiagnosticConsent(env, userId, false);
   if (typeof keepAnswers === "boolean") {
     const said = keepAnswers ? 1 : 0;
     const writes = [];

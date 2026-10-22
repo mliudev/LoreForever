@@ -46,6 +46,10 @@ const fromRow = row => {
   return data ? { ...row, data, journey } : null;
 };
 
+// The same row as a statement, for a caller that reads it in a batch with others (lib/willo-tonight.js), and its parse.
+export const profileStatement = (env, userId) => env.DB.prepare("SELECT * FROM profiles WHERE user_id = ?").bind(userId);
+export const profileFromRow = fromRow;
+
 export async function profileOf(env, userId) {
   return fromRow(await env.DB.prepare("SELECT * FROM profiles WHERE user_id = ?").bind(userId).first());
 }
@@ -97,9 +101,12 @@ export function road(d) {
   return { zones, dungeons, battlegrounds };
 }
 
+// The side the character fights for ("Alliance", "Horde" or ""), from the profile's own record, so a skyborne has theirs.
+export const sideOf = d => ({ alliance: "Alliance", horde: "Horde" }[d?.factionKey] || "");
+
 // The side the character fights for, in English, and the other one.
 const sides = d => {
-  const side = { alliance: "Alliance", horde: "Horde" }[d.factionKey] || "";
+  const side = sideOf(d);
   return { side, foe: { Alliance: "Horde", Horde: "Alliance" }[side] || "" };
 };
 

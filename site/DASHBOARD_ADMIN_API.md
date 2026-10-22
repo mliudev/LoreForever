@@ -50,7 +50,7 @@ Read-only local/preproduction verification can run
 
 | Endpoint | Query fields |
 | --- | --- |
-| `main`, `costs`, `creators`, `curseforge`, `voice-status`, `translation-summary`, `downloads` | None |
+| `main`, `costs`, `creators`, `curseforge`, `voice-status`, `translation-summary`, `downloads`, `north-star` | None |
 | `plans-usage` | `days=14\|30` |
 | `retention` | `paid=0\|1` |
 | `sources` | `from`, `to` (real YYYY-MM-DD, at most 366 days); `by=landing`; `search=0\|1` |

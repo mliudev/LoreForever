@@ -1,7 +1,4 @@
-// "Willo, send this to Mike" (lib/friend-send.js through functions/api/companion/answer.js, LOR-674): what a question
-// asks to send, the friend by the name Willo shows, Willo's fixed words (Patrick's offline line for a friend who's
-// away), the send offered as an action for her app, never the answer model and never one of their answers; and the
-// question answered as before for a Willo without the action (an older one, the iPhone).
+// Screenshot requests resolve accepted friends and prepare desktop capture only; old cards are never offered.
 // In-process on node:sqlite (helpers.mjs); Gemini is a stub. Run: node --test 'site/tests/*.test.mjs'
 import { test, beforeEach, afterEach } from "node:test";
 import assert from "node:assert/strict";
@@ -9,9 +6,7 @@ import { onRequest as answer } from "../functions/api/companion/answer.js";
 import { findOrCreateUser, setup } from "../lib/accounts.js";
 import { startLink, decideLink, claimToken } from "../lib/devices.js";
 import { addFriend, answerRequest, person } from "../lib/friends.js";
-import { sendIntent, looseSendIntent, thingToSend } from "../lib/friend-send.js";
-import { pinPlacesOf } from "../lib/willo-pins.js";
-import { promptParts } from "../lib/forever-knowledge.js";
+import { sendIntent } from "../lib/friend-send.js";
 import { d1 } from "./helpers.mjs";
 
 // The lore library's places, as pinPlaces reads them (public/lore/data/index.json).
@@ -70,104 +65,86 @@ const PROMPT = question => "PLAYER CONTEXT\nzone: Westfall\nsub: Sentinel Hill\n
   "quest in their log: The Defias Brotherhood (ID 65)\n\nRECENT CONVERSATION (oldest first)\n" +
   JSON.stringify([{ player: "Who leads the Defias?", willo: "Edwin VanCleef leads the Defias Brotherhood from the Deadmines. " +
     "He was a stonemason of Stormwind, wronged over unpaid wages." }]) + `\n\nQUESTION\n${question}`;
-const ask = async (token, question, client = "companion/0.22.1") => (await answer({ env, request: new Request(
-  "https://example.test/api/companion/answer", { method: "POST", headers: { "X-LF-Client": client,
+const ask = async (token, question, client = "companion/0.24.0", capabilities = "game-screenshot-sharing") => (await answer({ env, request: new Request(
+  "https://example.test/api/companion/answer", { method: "POST", headers: { "X-LF-Client": client, "X-LF-Capabilities": capabilities,
     Authorization: `Bearer ${token}`, "Content-Type": "application/json" },
   body: JSON.stringify({ prompt: PROMPT(question), persona: "willo" }) }) })).json();
 
-test("what a question asks to send, and what isn't a send", () => {
-  const kind = q => sendIntent(q)?.kind ?? null;
-  assert.deepEqual(sendIntent("Willo, send this to Aelric"), { name: "Aelric", what: "this", kind: "this" });
-  assert.equal(kind("send my location to Aelric please"), "place");
-  assert.equal(kind("share the quest with Aelric."), "quest");
-  assert.equal(kind("send Aelric my target"), "character");
-  assert.equal(kind("pass [Lucky Fishing Hat] to Aelric"), "item");
-  assert.equal(kind("send Aelric what you just told me"), "lore");
-  // The vision session's blind check (10/18): questions about sending, and lore where someone sends something, are
-  // never a send; the requests are.
-  for (const q of NEAR_MISSES) assert.equal(sendIntent(q), null, q);
-  for (const q of REQUESTS) assert.ok(sendIntent(q), q);
-  // Out loud, by its name (no brackets to say): an item, or their quest by its title.
-  assert.equal(kind("send the Lucky Fishing Hat to Aelric"), "this");
-  const parts = promptParts(PROMPT("send this to Aelric"));
-  const card = q => thingToSend(sendIntent(q), parts, PROMPT(q)).card;
-  assert.deepEqual(card("send the quest to Aelric"), { kind: "quest", title: "The Defias Brotherhood", ref: "65" });
-  assert.deepEqual(card("send where I am to Aelric"), { kind: "place", title: "Sentinel Hill, Westfall" });
-  assert.equal(card("send my target to Aelric").title, "Gryan Stoutmantle");
-  assert.equal(card("send this to Aelric").kind, "lore", "this, after an answer: what she just told them");
-  assert.equal(card("send this to Aelric").title, "Who leads the Defias?");
-  assert.deepEqual(card("send the Lucky Fishing Hat to Aelric"), { kind: "item", title: "Lucky Fishing Hat" });
-  assert.equal(card("send the Defias Brotherhood to Aelric").kind, "quest");
-});
-
-test("a send is offered in Willo's fixed words, as an action; a friend who's away gets the offline line", async () => {
-  const me = await player("sam", "Sam"), ana = await player("ana", "Aelric");
-  await friends(me, ana, "ana");
-  const online = await ask(me.token, "Willo, send the quest to Aelric");
-  assert.equal(online.answer, `Aelric's Willo is awake. Want me to send them the quest "The Defias Brotherhood"?`);
-  assert.equal(online.action.id, "send_to_friend");
-  assert.equal(online.action.label, "Send to Aelric");
-  assert.deepEqual({ ...online.action.args, to: "?" }, { to: "?", name: "Aelric", kind: "quest",
-    title: "The Defias Brotherhood", ref: "65" });
-  assert.equal(online.action.args.to, (await person(env, ana.user.id)).pid);
-  assert.equal(calls, 0, "never the answer model");
-  assert.equal(env.DB.sqlite.prepare("SELECT COUNT(*) AS n FROM rate_limits WHERE user_id = ? AND bucket LIKE 'companion-answer%'")
-    .get(me.user.id).n, 0, "never one of their answers");
-
-  env.DB.sqlite.prepare("UPDATE devices SET last_used = ? WHERE user_id = ?").run(new Date(Date.now() - 3600e3).toISOString(), ana.user.id);
-  const away = await ask(me.token, "send where I am to ana");
-  assert.equal(away.answer, "Aelric is offline. Would you like me to save this for them? It's where you are, Sentinel Hill, Westfall.");
-  assert.equal(away.action.label, "Save it for Aelric");
-  assert.equal(away.action.args.kind, "place");
-
-  const stranger = await ask(me.token, "send this to Thrall");
-  assert.equal(stranger.answer, "I don't see Thrall among your friends yet. Once you're friends, I can send it.");
-  assert.equal(stranger.action, undefined);
-});
-
-test("a Willo without the action, and an older iPhone, get the question answered as before", async () => {
-  const me = await player("sam", "Sam"), ana = await player("ana", "Aelric");
-  await friends(me, ana, "ana");
-  // The iPhone's runs it from 0.2.0 (mobile/, PR #1232).
-  assert.equal((await ask(me.token, "send this to Aelric", "companion/ios-0.2.0")).action.id, "send_to_friend");
-  assert.equal(calls, 0);
-  for (const client of ["companion/0.22.0", "companion/ios-0.1.0"]) {
-    const res = await ask(me.token, "send this to Aelric", client);
-    assert.equal(res.answer, "Hello, friend.", client);
-    assert.notEqual(res.action?.id, "send_to_friend");
+test("screenshot commands are distinct from questions and old game cards", () => {
+  for (const q of ["Willo take a screenshot of the game and send it to Patrick", "Willo, send a picture of my game to Patrick",
+    "Can you share this screenshot with Patrick?", "send Patrick this screenshot", "send this to Patrick", "send a screenshot to Patrick please",
+    "take a screen shot and send it to Patrick", "send a screenshot to Patrick Smith"]) {
+    assert.equal(sendIntent(q)?.kind, "screenshot", q);
   }
-  assert.equal(calls, 2);
+  for (const q of NEAR_MISSES) assert.notEqual(sendIntent(q)?.kind, "screenshot", q);
+  assert.equal(sendIntent("send the quest to Patrick")?.kind, "retired");
+  assert.equal(sendIntent("send a screenshot to Patrick Smith")?.name, "Patrick Smith");
 });
 
-test("a thing said by its bare name, and anything else sent to a friend (Silver's develop run, 10/20)", async () => {
-  // Parsed: a bare capitalized name is a send only to a friend (loose); other words, only through looseSendIntent.
-  assert.deepEqual(sendIntent("Willo, send Fargodeep Mine to Doran"), { name: "Doran", what: "Fargodeep Mine", kind: "this", loose: true });
-  assert.deepEqual(sendIntent("send Goldshire to Mira"), { name: "Mira", what: "Goldshire", kind: "this", loose: true });
-  assert.equal(sendIntent("send goldshire to Mira"), null);
-  assert.deepEqual(looseSendIntent("send goldshire to Mira"), { name: "Mira", what: "goldshire", kind: "unknown", loose: true });
-  assert.deepEqual(looseSendIntent("Send Mira a message saying hi"), { name: "Mira", what: "a message saying hi", kind: "unknown", loose: true });
-  for (const q of ["send this to me", "share your thoughts with me", "Send me to Booty Bay"]) assert.equal(looseSendIntent(q), null, q);
-  const parts = promptParts(PROMPT("x")), places = pinPlacesOf(INDEX);
-  assert.deepEqual(thingToSend(sendIntent("send Fargodeep Mine to Doran"), parts, PROMPT("x"), places).card,
-    { kind: "place", title: "Fargodeep Mine, Elwynn Forest" });
-  assert.deepEqual(thingToSend(sendIntent("send the Lucky Fishing Hat to Doran"), parts, PROMPT("x"), places).card,
-    { kind: "item", title: "Lucky Fishing Hat" }, "not a place: still an item");
-  assert.deepEqual(thingToSend(sendIntent("send [Fargodeep Mine] to Doran"), parts, PROMPT("x"), places).card,
-    { kind: "item", title: "Fargodeep Mine" }, "brackets are an item's");
-
+test("accepted friend resolved into capture preview only, with no model or sent message", async () => {
   const me = await player("sam", "Sam"), ana = await player("ana", "Aelric");
   await friends(me, ana, "ana");
-  const mine = await ask(me.token, "Willo, send Fargodeep Mine to Aelric");
-  assert.equal(mine.answer, "Aelric's Willo is awake. Want me to send them Fargodeep Mine, Elwynn Forest?");
-  assert.deepEqual([mine.action.label, mine.action.args.kind, mine.action.args.title], ["Send to Aelric", "place", "Fargodeep Mine, Elwynn Forest"]);
-  assert.equal((await ask(me.token, "send goldshire to aelric")).action.args.title, "Goldshire, Elwynn Forest");
-  assert.equal((await ask(me.token, "send the Defias Brotherhood to Aelric")).action.args.kind, "quest", "their quest first");
-  // Something she can't send, to a friend: she says what she can, never the notebook's line.
-  const what = await ask(me.token, "Send Aelric a message saying hi");
-  assert.equal(what.answer, "What should I send Aelric? Where you are, your quest, your target, or what I just told you.");
-  assert.equal(what.action, undefined);
-  assert.equal(calls, 0, "never the answer model");
-  // Not to a friend: a question, answered as before.
-  for (const q of ["send my regards to Thrall", "send Fargodeep Mine to Thrall"]) assert.equal((await ask(me.token, q)).answer, "Hello, friend.", q);
-  assert.equal(calls, 2);
+  const r = await ask(me.token, "Willo take a screenshot of the game and send it to Aelric");
+  assert.deepEqual(r.action, { id: "capture_game_to_friend", label: "Preview screenshot",
+    args: { to: (await person(env, ana.user.id)).pid, name: "Aelric" } });
+  assert.match(r.answer, /prepare a screenshot/);
+  assert.match(r.answer, /see the picture and choose Send before anything is shared/);
+  assert.equal(calls, 0);
+  assert.equal(env.DB.sqlite.prepare("SELECT COUNT(*) AS n FROM friend_messages").get().n, 0);
+  assert.equal(env.DB.sqlite.prepare("SELECT COUNT(*) AS n FROM rate_limits WHERE user_id = ? AND bucket LIKE 'companion-answer%'").get(me.user.id).n, 0);
+  env.DB.sqlite.prepare("UPDATE devices SET last_used = ? WHERE user_id = ?").run(new Date(Date.now() - 3600e3).toISOString(), ana.user.id);
+  const away = await ask(me.token, "send this to ana");
+  assert.equal(away.action.id, "capture_game_to_friend");
+  assert.doesNotMatch(away.answer, /is awake|is offline|saved|sent it/i, "no capture or send claimed, presence still independent");
+});
+
+test("older desktop and phone require desktop capture and never fall through to game mail advice", async () => {
+  const me = await player("sam", "Sam"), ana = await player("ana", "Aelric");
+  await friends(me, ana, "ana");
+  for (const client of ["companion/0.24.0", "companion/99.0.0", "companion/ios-0.2.0", "companion/ios-0.1.0"]) {
+    const r = await ask(me.token, "take a screenshot of the game and send it to Aelric", client, "");
+    assert.equal(r.action, undefined);
+    assert.match(r.answer, /PC or Mac/);
+    assert.match(r.answer, /can't capture/);
+  }
+  const retired = await ask(me.token, "send the quest to Aelric");
+  assert.equal(retired.action, undefined);
+  assert.match(retired.answer, /don't send game cards anymore/);
+  assert.equal(calls, 0);
+});
+
+test("missing and ambiguous friends never get a capture action", async () => {
+  const me = await player("sam", "Sam");
+  const stranger = await ask(me.token, "send a screenshot to Patrick");
+  assert.match(stranger.answer, /don't see Patrick among your friends/);
+  assert.equal(stranger.action, undefined);
+  const one = await player("patrick-one", "Patrick One"), two = await player("patrick-two", "Patrick Two");
+  await friends(me, one, "patrick-one"); await friends(me, two, "patrick-two");
+  const ambiguous = await ask(me.token, "send a screenshot to Patrick");
+  assert.match(ambiguous.answer, /more than one friend/);
+  assert.equal(ambiguous.action, undefined);
+  assert.equal((await ask(me.token, "send a screenshot to Patrick One")).action.args.to, (await person(env, one.user.id)).pid);
+  assert.equal(calls, 0);
+});
+
+test("missing screenshot recipients and ambiguous names can be clarified in the next turn", async () => {
+  const me = await player("sam", "Sam"), first = await player("ana-one", "Ana One"), second = await player("ana-two", "Ana Two");
+  await friends(me, first, "ana-one"); await friends(me, second, "ana-two");
+  for (const question of ["send a screenshot", "take a screenshot of the game and send it", "send a screenshot to a friend"]) {
+    const missing = await ask(me.token, question);
+    assert.match(missing.answer, /Which friend/); assert.equal(missing.action, undefined);
+  }
+  const follow = async (prior, said, reply) => {
+    const prompt = `PLAYER CONTEXT\nzone: Westfall\n\nRECENT CONVERSATION (oldest first)\n${JSON.stringify([{player: prior, willo: said}])}\n\nQUESTION\n${reply}`;
+    return (await answer({ env, request: new Request("https://example.test/api/companion/answer", {
+      method: "POST", headers: { "X-LF-Client": "companion/0.24.0", "X-LF-Capabilities": "game-screenshot-sharing", Authorization: `Bearer ${me.token}`, "Content-Type": "application/json" },
+      body: JSON.stringify({prompt, persona: "willo"}),
+    }) })).json();
+  };
+  const missing = await ask(me.token, "send a screenshot");
+  assert.equal((await follow("send a screenshot", missing.answer, "@ana-one")).action.args.to, (await person(env, first.user.id)).pid);
+  const ambiguous = await ask(me.token, "send a screenshot to Ana");
+  assert.match(ambiguous.answer, /more than one friend/);
+  assert.equal((await follow("send a screenshot to Ana", ambiguous.answer, "Ana Two")).action.args.to, (await person(env, second.user.id)).pid);
+  assert.equal(calls, 0);
 });

@@ -2,7 +2,7 @@
 // Content-Security-Policy (public/_headers) runs no inline script, so nothing in a report can run on this page.
 
 import { mergeContacts } from "/admin-contacts.js";
-import { loadCreators } from "/admin-creators.js?v=20261018";
+import { loadCreators } from "/admin-creators.js?v=20261021";
 import { loadSources } from "/admin-sources.js?v=20261019g";
 import { loadRetention } from "/admin-retention.js?v=20261019w";
 import { loadPlansUsage } from "/admin-plans.js?v=20261019q";
@@ -179,10 +179,18 @@ function renderOverview() {
     $("o-unique-sub").textContent = "waiting for the CurseForge author dashboard's numbers";
   }
   const nw = st.newest;
+  $("o-release-link").href = nw?.file
+    ? `https://www.curseforge.com/wow/addons/lore-forever/files/${encodeURIComponent(nw.file)}` : "#curseforge";
   $("o-release").textContent = nw ? n0(nw.day1 ?? nw.downloads) : "-";
-  $("o-release-sub").textContent = nw ? short(nw.name) + (nw.day1 != null ? " in its first 24 hours" : `, out ${nw.hours} h so far`) +
-    (st.inUse && st.inUse.name !== nw.name ? ` · ${short(st.inUse.name)}: ${n0(st.inUse.n)} in its day` : "") +
-    " · CurseForge" : "no CurseForge numbers yet";
+  const countSource = nw?.day1 != null
+    ? (nw.from === "author" ? "author dashboard · first 24 hours" : "estimated from mirror · first 24 hours")
+    : `mirror count · ${nw.hours} h since release`;
+  const mirrorSample = nw?.from === "cfwidget"
+    ? (nw.seen ? ` · mirror checked ${fmtDate(nw.seen)} (may lag)` : " · CurseForge mirror")
+    : "";
+  $("o-release-sub").textContent = nw
+    ? `${short(nw.name)} · ${countSource}${mirrorSample}`
+    : "no CurseForge numbers yet";
   const su = data.signups || { accounts: 0, week: 0 };
   $("o-accounts").textContent = n0(su.accounts);
   $("o-accounts-sub").textContent = `${n0(su.week)} new in the last 7 days · admin and test accounts left out`;

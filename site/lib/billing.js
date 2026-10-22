@@ -109,8 +109,15 @@ export const PLAN_VOICE = {
   free: { voice: "chatterbox", choice: false, always: true },
   hero: { voice: "inworld", choice: false, best: POOL.hero, model: LEGEND_BEST_MODEL },
   champion: { voice: "inworld", choice: true, best: POOL.champion, model: LEGEND_BEST_MODEL, characters: "best" },
-  legend: { voice: "inworld", choice: true, best: POOL.legend, model: RICHER_MODEL, characters: "best" },
+  legend: { voice: "inworld", choice: true, best: POOL.legend, model: RICHER_MODEL, characters: "best", azeroth: true,
+            whole: true },
 };
+// The voices and plans picks (Mike, 2026-10-21: "voices and plans picks make sense ship it"): the Voices of Azeroth are
+// Legend's (azeroth: lib/companion-voice.js picksFor and willoPick; Champion picks among her own), and so is her whole
+// answer spoken (whole: the companion speaks the written answer, not only its short spoken part). The add-on's short
+// answers are read in the player's own narrator's voice from Hero up (READINGS_FROM; lib/companion-voice.js
+// speakReading), on the studio engine; Free sees them as text.
+export const READINGS_FROM = "hero";
 
 // The plans, cheapest first. Prices and net (what a month brings after Stripe's fees) in US cents. A plan's answers are
 // a month's pool (answersPerMonth) with a most in one day (answersPerDay), and lookupsPerMonth of them may look online
@@ -144,6 +151,10 @@ export const PAID = Object.keys(PLANS).filter(id => id !== "free");
 
 // The free plan's one-time starter: answers for each account, used after the day's free answers (creditStarter).
 export const STARTER_ANSWERS = 30;
+// No new starters since option D (the voices and plans picks, 10/21): the free plan is 30 answers a day, and after
+// them she says once that she's resting her voice and writes (the first-run trial is the newcomer's taste now). A
+// starter already credited is still used. Tests turn crediting back on to check the mechanism (STARTER.credited).
+export const STARTER = { credited: false };
 // Willo's best first: an account's first live answers at her best (lib/best-first.js, which uses it; kept here so the
 // plan cards can say it without the two modules loading each other first).
 export const TASTE_ANSWERS = 50;
@@ -162,10 +173,17 @@ export const HOSTED_PICKS = 5;
 export const WILLO_PARTNERS = 5;
 export const AZEROTH_VOICES = 22;
 // How many voices Champion and Legend pick Willo's from, as /plans says it (the thank-you email, lib/thanks.js).
-export const voicePicks = env => featureOn(env, "azeroth") ? HOSTED_PICKS + WILLO_PARTNERS + AZEROTH_VOICES : HOSTED_PICKS;
+// planId: the Voices of Azeroth count only on the plan that has them (PLAN_VOICE azeroth, Legend's).
+export const voicePicks = (env, planId = "legend") => !featureOn(env, "azeroth") ? HOSTED_PICKS
+  : HOSTED_PICKS + WILLO_PARTNERS + (PLAN_VOICE[planId]?.azeroth ? AZEROTH_VOICES : 0);
 const pickLine = azeroth => azeroth
   ? `Pick ${COMPANION_NAME}'s voice: her own ${HOSTED_PICKS + WILLO_PARTNERS}, women's and men's, or one of ` +
     `${AZEROTH_VOICES} voices of Azeroth's peoples`
+  : `Pick ${COMPANION_NAME}'s voice from ${HOSTED_PICKS}`;
+// Champion's picker: her own voices, her male partners among them once the Voices of Azeroth are out (they came
+// together, LOR-610); the Voices of Azeroth themselves are Legend's (PLAN_VOICE azeroth).
+const ownPickLine = azeroth => azeroth
+  ? `Pick ${COMPANION_NAME}'s voice from her own ${HOSTED_PICKS + WILLO_PARTNERS}, women's and men's`
   : `Pick ${COMPANION_NAME}'s voice from ${HOSTED_PICKS}`;
 
 // What the companion app may do on each plan, sent with the allowance (lib/companion-answers.js `features`): Willo's
@@ -205,39 +223,54 @@ const answers = plan => `${count(plan.answersPerMonth)} ${NAME} answers a month`
 // Web look-ups aren't a number players read (Mike, 2026-10-13): a plan's lookupsPerMonth is a quiet guard inside its
 // cost caps, and past it Willo answers from the lore and the searches other players' questions kept.
 const WEB = `${NAME} can check the web when the lore runs out`;
+// The voices and plans picks (Mike, 2026-10-21): Hero's card sells in words, at a glance, since players buy before they
+// hear her (her finest voice, and the narrator reads the add-on's short answers); Legend's adds the Voices of Azeroth,
+// her whole answer spoken and new features first. readings and whole wait for the release whose companion does them
+// (lib/features.js), so a card never promises what the app can't do yet.
+const READS = `your narrator reads the add-on's short answers`;
 const FIRST = {
   free: `Chat with ${NAME}: ${PLANS.free.answersPerDay} answers a day, out loud when you ask out loud. Your first ` +
         `${TRIAL_DAYS} days, try everything she can do, a few times each, with your first ${TASTE_ANSWERS} answers in ` +
         "her finest voice",
-  hero: `${NAME}'s finest voice on every answer you ask out loud, up to 4 hours of play a day`,
+  hero: readings => readings ? `${NAME}'s finest voice on every answer, and ${READS}`
+    : `${NAME}'s finest voice on every answer you ask out loud`,
   champion: `Characters answer in their own voices, up to 8 hours a day`,
-  legend: `${NAME}'s smarter mind, her richer voice and the most answers`,
+  legend: whole => `${NAME}'s richer voice and smarter mind` + (whole ? ", and she speaks her whole answer" : ""),
 };
-// azeroth: the Voices of Azeroth are in the picker (the site feature "azeroth", or the asking companion has them).
-export const planFeatures = ({ azeroth = false } = {}) => ({
+const NEW_FIRST = "New features first";
+// azeroth: the Voices of Azeroth are in the picker (the site feature "azeroth", or the asking companion has them);
+// readings, whole: the site features of those names (lib/features.js).
+export const planFeatures = ({ azeroth = false, readings = false, whole = false } = {}) => ({
   free: [FIRST.free, "The whole add-on, every narration pack and language"],
-  hero: [FIRST.hero, answers(PLANS.hero), WEB, `${NAME} sees your game`,
-         `${NAME} keeps your goals and reminders`, `Preset ${NAME} styles`],
-  champion: [FIRST.champion, pickLine(azeroth), answers(PLANS.champion), `${NAME}'s longer memory`,
+  hero: [FIRST.hero(readings), answers(PLANS.hero), `${NAME} sees your game and keeps your goals`, WEB,
+         `Reminders and preset ${NAME} styles`],
+  champion: [FIRST.champion, ownPickLine(azeroth), answers(PLANS.champion), `${NAME}'s longer memory`,
              `Write ${NAME}'s personality`, "Everything in Hero"],
-  legend: [FIRST.legend, answers(PLANS.legend), "Rewrite NPCs as your own tale", pickLine(azeroth),
-           "Everything in Champion"],
+  legend: [FIRST.legend(whole), ...(azeroth ? [pickLine(azeroth)] : []), answers(PLANS.legend), NEW_FIRST,
+           "Rewrite NPCs as your own tale", "Everything in Champion"],
 });
+// The site features the cards read, for a request (env) or for the code's own default (null).
+export const cardFlags = env => ({ azeroth: featureOn(env, "azeroth"), readings: featureOn(env, "readings"),
+                                   whole: featureOn(env, "whole") });
+// /willo's one line about the plans (functions/willo.js): what Hero leads with, as its card says it.
+export const plansLine = env => `From Hero, ${planFeatures(cardFlags(env)).hero[0]}.`;
 const AZEROTH = featureOn(null, "azeroth");   // the code's own switch: the Stripe blurbs have no request
-export const FEATURES = planFeatures({ azeroth: AZEROTH });
+export const FEATURES = planFeatures(cardFlags(null));
 // /plans' one line of fine print about the finest voice.
 export const VOICE_NOTE = `${NAME}'s finest voice on every spoken answer from Hero up, and Legend's is richer; in an ` +
   "unusually busy month she may answer in her studio voice.";
 
 // The line under each plan's name on Stripe's checkout page, invoices and billing portal (its product's description,
 // set by scripts/stripe-setup.mjs, whose next run publishes a change here).
-export const BLURBS = {
-  hero: `${FIRST.hero}: ${answers(PLANS.hero)}, and ${NAME} sees your game and keeps your goals. ${WEB}.`,
+// blurbs(flags): the same, for flags other than the code's own (scripts/stripe-setup.mjs --print stages them).
+export const blurbs = ({ azeroth = AZEROTH, readings = featureOn(null, "readings"), whole = featureOn(null, "whole") } = {}) => ({
+  hero: `${FIRST.hero(readings)}: ${answers(PLANS.hero)}, and ${NAME} sees your game and keeps your goals. ${WEB}.`,
   champion: `${FIRST.champion}: ${answers(PLANS.champion)}, ${NAME}'s longer memory and ${NAME}'s personality in ` +
-            `your words. ${pickLine(AZEROTH)}. Everything in Hero too.`,
-  legend: `${FIRST.legend}: ${answers(PLANS.legend)}, NPCs rewritten as your own tale, and everything in Champion. ` +
-          `${pickLine(AZEROTH)}.`,
-};
+            `your words. ${ownPickLine(azeroth)}. Everything in Hero too.`,
+  legend: `${FIRST.legend(whole)}: ${answers(PLANS.legend)}, ` + (azeroth ? `the ${AZEROTH_VOICES} Voices of Azeroth, ` : "") +
+          `new features first, NPCs rewritten as your own tale, and everything in Champion.`,
+});
+export const BLURBS = blurbs();
 
 // For sale unless BILLING_PLANS says otherwise. A hidden plan is never for sale or listed.
 export const SELLABLE = ["hero", "champion", "legend"];
@@ -348,7 +381,7 @@ export function launchOffer(env, planId, now = launchNow(env)) {
 // azeroth: the Voices of Azeroth count among the picks (planFeatures).
 // Look-ups are never a count here (WEB).
 const WORDS = ["none", "one", "two", "three", "four", "five", "six", "seven", "eight", "nine", "ten"];
-export function planCompare(allowed = {}, { azeroth = false } = {}) {
+export function planCompare(allowed = {}, { azeroth = false, readings = false, whole = false } = {}) {
   const row = (label, of) => ({ label, values: Object.fromEntries(Object.keys(PLANS).map(id => [id, of(id)])) });
   const yes = on => on ? "✓" : "—";
   const paid = id => id !== "free";
@@ -356,7 +389,7 @@ export function planCompare(allowed = {}, { azeroth = false } = {}) {
   const voice = id => {
     const v = PLAN_VOICE[id];
     if (v.starter) return `Your first ${STARTER_ANSWERS} answers`;
-    const picks = HOSTED_PICKS + (azeroth ? WILLO_PARTNERS + AZEROTH_VOICES : 0);
+    const picks = HOSTED_PICKS + (azeroth ? WILLO_PARTNERS + (v.azeroth ? AZEROTH_VOICES : 0) : 0);
     const kind = v.voice === "inworld" ? (v.model === RICHER_MODEL ? "Richer" : "Finest") : "Studio";
     return v.choice ? `${kind}, pick from ${WORDS[picks] || picks}` : kind;
   };
@@ -366,6 +399,9 @@ export function planCompare(allowed = {}, { azeroth = false } = {}) {
     row("Answers a day", id => count(PLANS[id].answersPerDay)),
     row(`${NAME}'s voice: when you ask out loud`, voice),
     row("Characters' own voices", id => yes(Boolean(PLAN_VOICE[id].characters))),
+    ...(readings ? [row("Your narrator reads the add-on's short answers", id => yes(paid(id)))] : []),
+    ...(azeroth ? [row(`${AZEROTH_VOICES} Voices of Azeroth for ${NAME}`, id => yes(Boolean(PLAN_VOICE[id].azeroth)))] : []),
+    ...(whole ? [row("Her whole answer spoken", id => yes(Boolean(PLAN_VOICE[id].whole)))] : []),
     // Asking out loud is the voice row's (free has its first answers aloud), so this row is only sight.
     row(`${NAME} sees your game`, id => yes(features(id).sight)),
     row("Checks the web when the lore runs out", id => yes(features(id).research)),
@@ -373,6 +409,7 @@ export function planCompare(allowed = {}, { azeroth = false } = {}) {
     row("Longer memory", id => yes(Boolean(PLANS[id].longMemory))),
     row(`${NAME}'s smarter mind`, id => yes(Boolean(PLANS[id].smarter))),
     row("Rewrite NPCs as your own tale", id => yes((allowed[id] || []).includes("tales"))),
+    row("New features first", id => yes(id === "legend")),
   ];
 }
 // The beta prices by plan (launchOffer), the same for every account: the beta is a price until the launch, not an offer
@@ -803,6 +840,7 @@ async function paidSpend(env, now) {
 const hasStarter = (env, userId) =>
   env.DB.prepare("SELECT 1 AS y FROM answer_packs WHERE id = ?").bind(`starter:${userId}`).first().then(Boolean);
 async function creditStarter(env, userId, now, credited = null) {
+  if (!STARTER.credited) return;
   const id = `starter:${userId}`;
   if (credited ?? await hasStarter(env, userId)) return;
   const claim = await starterClaim(env, userId);
@@ -1268,15 +1306,14 @@ export async function createCheckout(env, user, planId, interval, origin, { crea
   const price = await priceId(env, lookupKey(planId));
   if (!price) throw new Error(`No Stripe price has the lookup key ${lookupKey(planId)}; run scripts/stripe-setup.mjs`);
   const customer = row?.customer_id || await newCustomer(env, user);
-  if (row?.customer_id) {
-    const [live] = await liveSubscriptions(env, customer);
-    if (live) {
-      await storeSubscription(env, user.id, live);
-      return { url: `${origin}/plans` };
-    }
-    // A plan's checkout page left open in another tab could start a second subscription: earlier ones are closed first.
-    await closeOpenCheckouts(env, customer);
+  const [live] = await liveSubscriptions(env, customer);
+  if (live) {
+    await storeSubscription(env, user.id, live);
+    return { url: `${origin}/plans` };
   }
+  // Also applies to a prepared customer whose id was not yet recorded in D1.
+  // A plan's checkout page left open in another tab could start a second subscription: earlier ones are closed first.
+  await closeOpenCheckouts(env, customer);
   // The beta (launchWeek): the plan's months start at the launch (billing_cycle_anchor; as far from the real clock as
   // from the promo's, PROMO_NOW on a preview, since Stripe wants it in its future), its first full charge then. Until
   // then Hero is free (no proration) and Champion and Legend half price for the days left (a prorated first invoice
@@ -1371,16 +1408,21 @@ async function liveSubscriptions(env, customer) {
     .sort((a, b) => (a.created || 0) - (b.created || 0) || (a.id < b.id ? -1 : 1));
 }
 
-// The account's Stripe customer, made the first time they open checkout. The idempotency key gives a double click
-// (two checkouts at once) the same customer.
+// Reuse a customer prepared for this account (for example, a customer-bound creator offer). Email alone never
+// establishes ownership: the user_id must also match. Otherwise create one, with the same idempotency key for a
+// double click (two checkouts at once).
 async function newCustomer(env, user) {
-  const customer = await stripe(env, "POST", "customers", { email: user.email, metadata: { user_id: user.id } },
-    { idempotencyKey: `customer-${user.id}` });
-  await env.DB.prepare(
+  const found = await stripe(env, "GET", "customers", { email: user.email, limit: 100 });
+  const matching = (found.data || []).filter(c => c.email === user.email && c.metadata?.user_id === user.id && !c.deleted);
+  if (found.has_more || matching.length > 1) throw new Error("Couldn't identify a single Stripe customer for this account.");
+  const customer = matching[0] || await stripe(env, "POST", "customers",
+    { email: user.email, metadata: { user_id: user.id } }, { idempotencyKey: `customer-${user.id}` });
+  const assigned = await env.DB.prepare(
     "INSERT INTO entitlements (user_id, customer_id, updated) VALUES (?, ?, ?) " +
-    "ON CONFLICT (user_id) DO UPDATE SET customer_id = excluded.customer_id, updated = excluded.updated"
-  ).bind(user.id, customer.id, iso()).run();
-  return customer.id;
+    "ON CONFLICT (user_id) DO UPDATE SET customer_id = COALESCE(entitlements.customer_id, excluded.customer_id), " +
+    "updated = excluded.updated RETURNING customer_id"
+  ).bind(user.id, customer.id, iso()).first();
+  return assigned.customer_id;
 }
 
 // Stripe's billing portal (change plan, card, cancel, invoices): {url}, or {error} when there's nothing to manage.
@@ -1790,7 +1832,7 @@ async function storeSubscription(env, userId, subscription, { deduped = false } 
   // A new subscriber's thank-you from Mike, once per account (lib/thanks.js); it never fails the webhook either. Its
   // trial is the beta's Keep Hero from before the launch anchor (a paid plan moved to the launch is a trial too).
   if (plan !== "free") await thankSubscriber(env, userId, subscription, { id: plan, name: PLANS[plan].name,
-    picks: voicePicks(env), trial: status === "trialing" && subscription.metadata?.launch === "hero" });
+    picks: voicePicks(env, plan), trial: status === "trialing" && subscription.metadata?.launch === "hero" });
   return { user: userId, plan, status, ...(next ? { next: next.plan } : {}) };
 }
 

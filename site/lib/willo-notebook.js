@@ -33,6 +33,15 @@ export const NOTEBOOK_USER_DATA = [["DELETE FROM notebook_pages WHERE user_id = 
   ["DELETE FROM notebook_reminders WHERE user_id = ?", u => u.id]];
 
 export const ACCOUNT_PAGE = "account";
+export const NEED_CHARACTER_LINE = "Which character should I write that down for? Choose them in my window and ask me again, or ask for all characters.";
+// A missing character never grants permission to write on the shared page (LOR-711).
+export function notebookWritePage(view) {
+  const question = view?.question || "";
+  const shared = ALL_CHARACTERS.exec(question);
+  if (shared && !/\b(?:not|never|rather than|instead of)\s+(?:(?:for|on|across|to)\s+)?$/i.test(question.slice(0, shared.index)))
+    return ACCOUNT_PAGE;
+  return typeof view?.current === "string" && view.current.startsWith("char:") ? view.current : null;
+}
 export const PAGE_BYTES = 16 * 1024;        // one page's markdown
 export const PAGES_MAX = 60;                // pages per account: the characters', and the account's
 // What the notebook may add to an answer's system prompt (lib/companion-answers.js INPUT_BOUND counts it).
@@ -606,6 +615,8 @@ export function notebookCall(call, offered, view) {
   // Only the notebook's own tools: another built on its pages (notebook_pin) is its caller's to run.
   if (!call || !NOTEBOOK_TOOLS.includes(call.name) || !(offered || []).some(t => t.name === call.name)) return null;
   const args = call.args && typeof call.args === "object" ? call.args : {};
+  if (["notebook_add", "notebook_remind"].includes(call.name) && !notebookWritePage(view))
+    return { say: NEED_CHARACTER_LINE };
   const nums = v => (Array.isArray(v) ? v : [v]).map(Number).filter(n => Number.isInteger(n) && n > 0).slice(0, 20);
   if (call.name === "notebook_add") {
     const kind = args.kind === "note" ? "note" : args.kind === "todo" ? "todo" : null;
@@ -625,7 +636,7 @@ export function notebookCall(call, offered, view) {
     // A reminder asked for and kept as a line (the free plan) is a to-do too (2 runs in 6 came back as notes).
     const asTodo = kind === "note" && (TASKY.test(view.question || "") || REMIND.test(view.question || ""))
       && !/\bnote\s+(?:that|down\s+that)\b/i.test(view.question || "");
-    const page = (args.page === "account" && ALL_CHARACTERS.test(view.question || "")) || !view.current ? ACCOUNT_PAGE : view.current;
+    const page = notebookWritePage(view);
     const heading = namedHeading(view.question, cleanItem(args.heading, HEADING_CHARS).replace(/#/g, "").trim(),
       view.pages[page]?.body);
     // Asked for an order, an "add" of a line that's there already moves it (the model added "Paladin trainer" again
@@ -888,7 +899,9 @@ export function noMoment(view, intent) {
   const text = cleanItem(m[1], REMIND_CHARS);
   // "Remind me to do that": what "that" is, the model knows from the talk before, not here.
   if (!text || text.split(/\s+/).length > 10 || /^(?:do\s+)?(?:it|that|this|those|them|so)$/i.test(text)) return null;
-  return { page: view.current || ACCOUNT_PAGE, op: { op: "add", kind: "todo", items: [text], heading: null, why: "no-moment" } };
+  const page = notebookWritePage(view);
+  return page ? { page, op: { op: "add", kind: "todo", items: [text], heading: null, why: "no-moment" } }
+    : { say: NEED_CHARACTER_LINE };
 }
 
 // How long from now they asked for, in minutes, or null: "in 15 minutes", "in fifteen mins", "in an hour", "in half an hour",
@@ -971,7 +984,7 @@ function remindCall(args, view) {
     args = { ...args, when: "time", in_minutes: minutes };
   // The page for all their characters only when they say so: a reminder set on Húrin came back on it, and Brynn heard
   // it as hers (LOR-663's blind check, case 11).
-  const page = (args.page === "account" && ALL_CHARACTERS.test(view.question || "")) || !view.current ? ACCOUNT_PAGE : view.current;
+  const page = notebookWritePage(view);
   // A moment only from their words, never a guess: "remind me to buy linen" once came back set for Ironforge (10/18,
   // live). With none in what they said, it's a to-do.
   const q = ` ${placeKey(view.question)} `;
@@ -1262,16 +1275,27 @@ const REMINDED = /\b(?:remind(?:er|ed|ing)?|(?:i'?ll|i\s+will|i'm\s+going\s+to)\
 // This character's page and the account's, and their reminders not said yet, for an answer: one batch of indexed
 // reads, alongside the answer's other look-ups. {pages, reminders}.
 // prev: each page's version before its last change too, for "undo that" (lib/willo-notebook-manage.js undoPages).
-export async function readNotebook(env, userId, current = null, { prev = false } = {}) {
+export async function readNotebook(env, userId, current = null, { prev = false, stock = false } = {}) {
   const pages = [ACCOUNT_PAGE, ...(current ? [current] : [])];
   const marks = pages.map(() => "?").join(", ");
-  const [found, waiting] = await env.DB.batch([
+  // stock: this character's last save (lib/willo-stock.js willo_stock), read in the same batch: one round trip to D1,
+  // not a second one after it.
+  const saved = stock && current?.startsWith("char:");
+  const [found, waiting, kept] = await env.DB.batch([
     env.DB.prepare(`SELECT page, title, body, version, updated${prev ? ", prev_body" : ""} FROM notebook_pages WHERE user_id = ? AND page IN (${marks})`)
       .bind(userId, ...pages),
     env.DB.prepare(`SELECT ${REMINDER_COLUMNS} FROM notebook_reminders WHERE user_id = ? AND fired IS NULL AND page IN (${marks}) ` +
       "ORDER BY created").bind(userId, ...pages),
+    ...(saved ? [env.DB.prepare("SELECT stock FROM willo_stock WHERE user_id = ? AND character = ?").bind(userId, current.slice(5))] : []),
   ]);
-  return { pages: found.results, reminders: waiting.results };
+  return { pages: found.results, reminders: waiting.results, ...(kept?.results?.[0] ? { stock: kept.results[0].stock } : {}) };
+}
+
+// The pages alone as a statement, for a caller that batches them with other reads (lib/willo-tonight.js).
+export function pagesStatement(env, userId, current = null) {
+  const pages = [ACCOUNT_PAGE, ...(current ? [current] : [])];
+  return env.DB.prepare(`SELECT page, title, body, version, updated FROM notebook_pages WHERE user_id = ? AND page IN (${pages.map(() => "?").join(", ")})`)
+    .bind(userId, ...pages);
 }
 
 const REMINDER_COLUMNS = "id, page, text, kind, place, level, at, created, fired";

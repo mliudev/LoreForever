@@ -70,6 +70,8 @@ beforeEach(async (t) => {
     if (options.method === "GET" && path.startsWith("payment_intents/"))
       return Response.json({ id: path.slice(16), latest_charge: { refunded: false, amount_refunded: 0, disputed: false } });
     if (route === "POST customers") return Response.json({ id: "cus_1" });
+    if (route === "GET customers") return Response.json({ data: [] });
+    if (route === "GET subscriptions" || route === "GET checkout/sessions") return Response.json({ data: [] });
     if (route === "POST checkout/sessions") return Response.json({ id: "cs_new", url: "https://checkout.stripe.com/c/pay/cs_new" });
     if (options.method === "GET" && path.startsWith("subscriptions/")) return Response.json(subscriptions[path.slice(14)]);
     if (options.method === "GET" && path.startsWith("checkout/sessions/")) return Response.json(sessions[path.slice(18)]);
@@ -237,14 +239,16 @@ test("the beta's checkout: the plan's months start at the launch; Hero free and 
   // The plans side by side, for /willo's table (planCompare), from the plans themselves.
   assert.deepEqual(fresh.compare.map(r => [r.label, Object.values(r.values).join(" | ")]), [
     ["Answers a day", "30 | 100 | 200 | 300"],
-    ["Willo's voice: when you ask out loud", "Studio | Finest | Finest, pick from 32 | Richer, pick from 32"],
+    ["Willo's voice: when you ask out loud", "Studio | Finest | Finest, pick from ten | Richer, pick from 32"],
     ["Characters' own voices", "— | — | ✓ | ✓"],
+    ["22 Voices of Azeroth for Willo", "— | — | — | ✓"],
     ["Willo sees your game", "— | ✓ | ✓ | ✓"],
     ["Checks the web when the lore runs out", "— | ✓ | ✓ | ✓"],
     ["Willo's style", "— | Presets | Presets or your own words | Presets or your own words"],
     ["Longer memory", "— | — | ✓ | ✓"],
     ["Willo's smarter mind", "— | — | — | ✓"],
     ["Rewrite NPCs as your own tale", "— | — | — | ✓"],
+    ["New features first", "— | — | — | ✓"],
   ]);
   // The Voices of Azeroth in the plans' words, on since 0.21.0 shipped them (LOR-609).
   assert.match(fresh.plans.find(p => p.id === "legend").features.join("\n"),

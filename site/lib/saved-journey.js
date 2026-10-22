@@ -10,7 +10,16 @@ import { pageOf } from "./willo-notebook.js";
 // theirs to tell. Never throws: a failed read is no journey.
 export async function savedJourney(env, userId, current = null) {
   try {
-    const p = await profileOf(env, userId);
+    return journeyFrom(await profileOf(env, userId), current);
+  } catch (e) {
+    console.warn(`saved journey: ${e?.message || e}`);
+    return { journey: null, name: "", theirs: true };
+  }
+}
+
+// The same from a profile already read (lib/profiles.js profileOf), for a caller that reads it in a batch with others.
+export function journeyFrom(p, current = null) {
+  try {
     if (!p) return { journey: null, name: "", theirs: true };
     const name = String(p.data?.name || ""), realm = String(p.data?.realm || "");
     const page = name && realm ? pageOf(`${name}-${realm}`) : null;

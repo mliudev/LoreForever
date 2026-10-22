@@ -2,6 +2,13 @@
 -- Sources: data/i18n/ukUA. Lore text adapted from warcraft.wiki.gg (CC BY-SA 4.0); the core add-on's src fields name the articles.
 local P = LoreForeverPacks.Begin("LoreForever_Lang_ukUA")
 local Po = P.search.post
+Po["чогововчі"] = "A6dC"
+Po["чоговода"] = "G+lC"
+Po["чоговодяна"] = "BiVC"
+Po["чоговоскові"] = "FscC"
+Po["чоговоєнна"] = "JYbC"
+Po["чоговчаться"] = "FveC"
+Po["чоговчить"] = "EISCEuLCEwhCExyCE0lCFSwCFTFCFw7CGzICHUeCHq5C"
 Po["чоговчиться"] = "Fw7C"
 Po["чогогарбузи"] = "BQtCE7sC"
 Po["чогогліф"] = "AhxC"

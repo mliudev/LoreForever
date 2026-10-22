@@ -8,7 +8,7 @@ import { readFileSync, existsSync } from "node:fs";
 import { join } from "node:path";
 import { SITE, r2 } from "./helpers.mjs";
 import { MANIFEST_KEY } from "../lib/lore.js";
-import { visiblePacks } from "../lib/packs.js";
+import { visiblePacks, packPlays } from "../lib/packs.js";
 import { onRequestGet as downloadsGet } from "../functions/downloads/index.js";
 import { onRequestGet as entryGet } from "../functions/lore/[type]/[id].js";
 import { onRequestGet as indexGet } from "../functions/lore/index.js";
@@ -81,7 +81,53 @@ test("a lore page links the downloads that have its recording, to rows /download
   for (const a of links) assert.ok(there.has(a), `#${a} is on /downloads`);
   const list = await (await indexGet({ request: new Request(HOME + "/lore"), env })).text();
   assert.match(list, /<select name="p">/);
-  assert.match(list, /<option value="LoreForever_Voice_Female_Alliance">Female narrator: Alliance lands<\/option>/);
+  assert.match(list, /<option value="LoreForever_Voice_Female_Alliance" data-href="\/downloads#pack-voice-female-alliance" data-voice="female-narrator" data-sample="female-narrator\/[^"]+"[^>]*>Female narrator: Alliance lands<\/option>/);
+});
+
+test("/lore's pack filter: a pick plays its own narrator or its own sample, in its own language, never English", async () => {
+  // An English narrator's pack plays its narrator's recordings in the list, and has a sample for when the list has
+  // none of its pages (the "more" packs).
+  assert.equal(packPlays("LoreForever_Voice_Female_MorePlaces", packs).voice, "female-narrator");
+  assert.equal(packPlays("LoreForever_Voice_Original_Horde", packs).voice, "original-male-narrator");
+  assert.ok(packPlays("LoreForever_Voice_Female_MorePlaces", packs).sample.audio);
+  assert.equal(packPlays("LoreForever_Voice_Female_MorePlaces", packs).lang, undefined);
+  // A narrator in another language plays its own sample: that narrator, that language.
+  for (const [folder, lang, seg] of [["LoreForever_Voice_Default_frFR", "French", "voice-default-frfr/"],
+    ["LoreForever_Voice_Female_frFR", "French", "voice-female-frfr/"], ["LoreForever_Voice_Default_deDE", "German", "voice-default-dede/"],
+    ["LoreForever_Voice_Female_esES", "Spanish", "voice-female-eses/"], ["LoreForever_Voice_Female_ptBR", "Brazilian Portuguese", "voice-female-ptbr/"],
+    ["LoreForever_Voice_Default_itIT", "Italian", "voice-default-itit/"]]) {
+    const p = packPlays(folder, packs);
+    assert.equal(p.voice, undefined, folder);
+    assert.equal(p.lang, lang, folder);
+    assert.ok(p.sample?.audio.startsWith(seg) && p.sample.title, folder);
+    assert.equal(p.sample.lang, packs.packs[folder].locale.slice(0, 2), folder);
+  }
+  // A pack with no sample recorded says so (lore.js: "No sample yet") rather than borrowing one.
+  const bare = structuredClone(packs);
+  delete bare.packs.LoreForever_Voice_Female_itIT.sample;
+  assert.deepEqual(packPlays("LoreForever_Voice_Female_itIT", bare), { lang: "Italian" });
+  delete bare.packs.LoreForever_Voice_Female_Alliance.sample;
+  assert.deepEqual(packPlays("LoreForever_Voice_Female_Alliance", bare), { voice: "female-narrator" });
+  assert.deepEqual(packPlays("LoreForever_Nope", packs), {});
+  // Rendered on the option /lore's script reads.
+  const env = { ASSETS: assets(), STUDIO: await bucketWith([]) };
+  const list = await (await indexGet({ request: new Request(HOME + "/lore"), env })).text();
+  const fr = packPlays("LoreForever_Voice_Default_frFR", packs);
+  assert.ok(list.includes(`<option value="LoreForever_Voice_Default_frFR" data-href="/downloads#pack-voice-default-frfr" ` +
+    `data-lang="French" data-sample="${fr.sample.audio}"`), "the French narrator's option carries his sample");
+  assert.match(list, /<p class="lx-packnote" hidden><\/p>/);
+});
+
+test("packs.json: every voice pack plays on /lore, every one in another language with a sample of its own", () => {
+  // Built in a sparse worktree (no translated lore) every language pack lost its sample and /downloads its
+  // examples (10/21); site_packs build now refuses there, and this catches a file built that way anyway.
+  for (const [folder, f] of Object.entries(packs.packs)) {
+    if (f.kind !== "voice") continue;
+    assert.ok(f.sample?.audio, `${folder}: no sample for /lore`);
+    if (!/^en/.test(f.locale)) assert.ok(f.sample?.audio && !f.lore_voice, `${folder}: no sample in its own language`);
+  }
+  assert.ok(packs.groups.find(g => g.id === "languages").examples.filter(ex => ex.audio).length >= 2,
+    "the language card on /downloads has examples to hear");
 });
 
 test("/voices, the link voice actors were sent to record, still goes to /downloads, which opens with the recorder", async () => {

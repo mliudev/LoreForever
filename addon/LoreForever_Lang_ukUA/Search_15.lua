@@ -2,6 +2,13 @@
 -- Sources: data/i18n/ukUA. Lore text adapted from warcraft.wiki.gg (CC BY-SA 4.0); the core add-on's src fields name the articles.
 local P = LoreForeverPacks.Begin("LoreForever_Lang_ukUA")
 local Po = P.search.post
+Po["мерзнеякщо"] = "E93C"
+Po["мерзота"] = "BCZBDk3B"
+Po["мерзоти"] = "EfPB"
+Po["мерзотником"] = "FDhB"
+Po["мерзотного"] = "H2gBH2kB"
+Po["мерзотою"] = "E85BE9kBE/DBE/KBE/QBFFCBFIbB"
+Po["мерзоту"] = "EJkBE7SB"
 Po["мерли"] = "BBAE"
 Po["мерлиостанки"] = "BBAB"
 Po["мерлиостання"] = "BBAC"
@@ -11995,10 +12002,3 @@ Po["насильством"] = "AtfBC8CBD9RBESABEcEBFFWBFFeBF41BGH9BGzPBGzYBJyHB
 Po["насильствонаростає"] = "DpHB"
 Po["насип"] = "ILHB"
 Po["насипали"] = "EfYBILLBIrZB"
-Po["насипами"] = "EocBJNiB"
-Po["насипаної"] = "HIqB"
-Po["насипах"] = "ILMB"
-Po["насипи"] = "ILRBJXtBJXyB"
-Po["насипний"] = "I/LB"
-Po["насипів"] = "H7wBIVuBJXzB"
-Po["наситився"] = "EMjB"

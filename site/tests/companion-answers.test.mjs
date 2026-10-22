@@ -4,7 +4,7 @@ import { onRequest } from "../functions/api/companion/answer.js";
 import { findOrCreateUser, setup } from "../lib/accounts.js";
 import { startLink, decideLink, claimToken } from "../lib/devices.js";
 import { ANSWER_RESERVATION_MICRO, RESEARCH_RESERVATION_MICRO, COMPACTION_RESERVATION_MICRO, ANSWER_GROUNDING_MICRO,
-  ANSWER_MODEL, SIGHT_MODEL, RESEARCH_MODEL, SEARCH_QUERY_RESERVATION, ANSWERS_PER_DAY, VERIFICATION_FAILED, paidBudgetMicro, reserveAnswer, reserveOtherPaid, writeAnswer } from "../lib/companion-answers.js";
+  ANSWER_MODEL, SIGHT_MODEL, RESEARCH_MODEL, CLARIFY_NOTE, SEARCH_QUERY_RESERVATION, ANSWERS_PER_DAY, VERIFICATION_FAILED, paidBudgetMicro, reserveAnswer, reserveOtherPaid, writeAnswer } from "../lib/companion-answers.js";
 import { storyBudgetLeft } from "../lib/profiles.js";
 import { d1 } from "./helpers.mjs";
 
@@ -26,6 +26,38 @@ beforeEach(async (t) => {
   };
 });
 afterEach((t) => { globalThis.fetch = originalFetch; t.mock.timers.reset(); });
+
+test("unclear requests use the general answer call without rewriting their words (LOR-719)", async () => {
+  const { token } = await linked();
+  const questions = [
+    "Hey Willow, when do you get a want? When can you get a want? As like uh what's it called, uh Warlock.",
+    "Where do I hand the thing in?",
+    "Should I use it now?",
+  ];
+  const clarification = "Which item do you mean?";
+  globalThis.fetch = async (url, options) => {
+    calls.push({ url, body: JSON.parse(options.body) });
+    return Response.json({ candidates: [{ content: { parts: [{ text: clarification }] } }],
+      usageMetadata: { promptTokenCount: 200, candidatesTokenCount: 40 } });
+  };
+  for (const question of questions) {
+    for (const style of [undefined, "spoken"]) {
+      calls = [];
+      const result = await ask(token, { prompt: `PLAYER CONTEXT\nlevel: 2\n\nQUESTION\n${question}`,
+        persona: "willo", style });
+      assert.equal(result.status, 200);
+      assert.equal(result.body.answer, clarification);
+      assert.equal(calls.length, 1, "clarification comes from the same answer call");
+      const sent = calls[0].body.contents[0].parts.at(-1).text;
+      assert.ok(sent.endsWith(`QUESTION\n${question}\n\n${CLARIFY_NOTE}`), "the words as received, then the note");
+      const instruction = calls[0].body.systemInstruction.parts[0].text;
+      assert.match(instruction, /UNDERSTAND BEFORE ANSWERING:/);
+    }
+  }
+  const spend = env.DB.sqlite.prepare("SELECT reserved_micro, actual_micro FROM answer_spend").get();
+  assert.ok(spend.actual_micro > 0, "the model's actual usage is counted");
+  assert.equal(spend.reserved_micro, spend.actual_micro, "no unused model reservation remains held");
+});
 
 async function linked(sub = "aelric") {
   const user = await findOrCreateUser(env, { email: `${sub}@example.com`, googleSub: sub, name: sub });
@@ -64,6 +96,22 @@ test("required research rejects an answer without usable web evidence", async ()
   assert.equal(result.body.answer, VERIFICATION_FAILED);
   assert.doesNotMatch(result.body.answer, /VanCleef/);
   assert.equal(env.DB.sqlite.prepare("SELECT actual_micro FROM answer_spend").get().actual_micro, 338);
+});
+
+test("required research lets a lone short question back through, but not a claim without a search (LOR-719)", async () => {
+  const { token } = await linked();
+  for (const [text, through] of [["Did you mean a wand?", true],
+    ["Wands come from enchanters. Did you mean a wand?", false], ["Edwin VanCleef sells wands?\nAsk him.", false]]) {
+    calls = [];
+    globalThis.fetch = async (url, options) => {
+      calls.push({ url, body: JSON.parse(options.body) });
+      return Response.json({ candidates: [{ content: { parts: [{ text }] } }],
+        usageMetadata: { promptTokenCount: 200, candidatesTokenCount: 10 } });
+    };
+    const result = await ask(token, { prompt: "QUESTION\nhow do I get a want", researchRequired: true });
+    assert.equal(result.body.answer, through ? text : VERIFICATION_FAILED, text);
+    assert.equal(result.body.web_search.status, through ? "not_needed" : "failed");
+  }
 });
 
 test("required research for a question item facts answer is answered from them, without a search", async () => {
@@ -218,6 +266,7 @@ test("spoken style shortens ordinary and character replies only", async () => {
   assert.equal(calls[0].body.generationConfig.maxOutputTokens, 300);
   // Willo's own answers are as long as the question needs (LOR-587); a character keeps two or three sentences.
   assert.match(system(0), /\n\nWillo says this answer out loud .*Reply with only Willo's words, .*as long as the question needs.* anything after it\.$/);
+  assert.match(system(0), /UNDERSTAND BEFORE ANSWERING:[\s\S]*\n\nWillo says this answer out loud/, "the rule, before the spoken rules");
   assert.ok(Number.isInteger(spoken.body.timing.model_ms) && Number.isInteger(spoken.body.timing.total_ms));
   await ask(token, { style: "spoken", operation: "character" });
   assert.equal(calls[1].body.generationConfig.maxOutputTokens, 300);
@@ -242,7 +291,7 @@ test("a spoken answer sends the player's picture to Gemini, and the allowance sa
   const result = await ask(token, { prompt, persona: "willo", style: "spoken", image });
   assert.equal(result.status, 200, "a body with a picture may pass the 64 KB text limit");
   assert.equal(result.body.allowance.pictures, true);
-  assert.deepEqual(parts(0), [{ inlineData: { mimeType: "image/jpeg", data: image } }, { text: prompt }]);
+  assert.deepEqual(parts(0), [{ inlineData: { mimeType: "image/jpeg", data: image } }, { text: `${prompt}\n\n${CLARIFY_NOTE}` }]);
   assert.equal(calls[0].body.generationConfig.mediaResolution, "MEDIA_RESOLUTION_MEDIUM");
   assert.match(system(0), /Willo's words, .*anything after it\.\n\nA picture of the player's game window, .* interface numbers\.$/);
   // On the sight model, at its prices, and what it held is what it settled.
@@ -555,7 +604,7 @@ test("missing token usage retains the full reservation and also counts known sea
 
 test("truncated or empty research answers preserve known query excess without inventing an answer", async () => {
   const { token } = await linked();
-  const queries = Array.from({ length: SEARCH_QUERY_RESERVATION + 8 }, (_, i) => `query ${i}`);
+  const queries = Array.from({ length: SEARCH_QUERY_RESERVATION + 12 }, (_, i) => `query ${i}`);
   for (const candidate of [
     { finishReason: "MAX_TOKENS", content: { parts: [{ text: "A misleading unfinished answer" }] } },
     { finishReason: "STOP", content: { parts: [] } },
