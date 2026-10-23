@@ -1,0 +1,101 @@
+{
+ "key": "quest:4267",
+ "type": "quest",
+ "name": "Rise of the Silithid",
+ "era": "classic",
+ "zone": "feralas",
+ "meta": {
+  "ids": [
+   4267
+  ],
+  "level": "46",
+  "faction": "Alliance",
+  "start": "Shandris Feathermoon",
+  "end": "Gracina Spiritmight",
+  "previous": "A Hero's Welcome (Classic)",
+  "next": "",
+  "wiki": "Rise of the Silithid (Feralas)",
+  "chain": [],
+  "prev_q": [
+   "A Hero's Welcome (Classic)"
+  ],
+  "category": "Feralas",
+  "chain_tpl": [
+   "The Missing Courier"
+  ]
+ },
+ "summary": "General Shandris Feathermoon hands you a copy of Raschal's account of the infestation in southeastern Feralas. Darnassus is where the main report is filed, and she wants this copy to reach Gracina Spiritmight, a priestess of the Temple of the Moon who knows a great deal about such creatures.",
+ "sections": [
+  {
+   "title": "A Copy for the Protectorate",
+   "body": "While the main report is filed in Darnassus, Shandris Feathermoon entrusts this copy to you. It is meant for Gracina Spiritmight, an associate of the Protectorate. She is a priestess, and her home is the Temple of the Moon in Darnassus, and the General says her broad knowledge of such creatures, and her receiving the report, would benefit everyone. She dismisses you with good wishes and a prayer that Elune watch over all.",
+   "spoiler": 0
+  },
+  {
+   "title": "What the Priestess Knows",
+   "body": "Gracina welcomes you to the blessed temple, and tells you the night elves already know the terror outlined in the report. These creatures, she says, will consume Feralas rapidly, and they are among the greatest menaces anyone will face. They are known as the silithid, and they serve as mere tools of one of the gravest threats the Horde and the Alliance will ever face. She prays that resolve will be found to defeat them before they can destroy us.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who sends you to Darnassus with this report?",
+   "aliases": [
+    "who starts rise of the silithid",
+    "quest giver rise of the silithid",
+    "who gives rise of the silithid"
+   ],
+   "answer": "General Shandris Feathermoon gives you a copy of Raschal's report to carry to Darnassus."
+  },
+  {
+   "q": "Who is Gracina Spiritmight?",
+   "aliases": [
+    "who is gracina",
+    "gracina spiritmight lore",
+    "where is gracina spiritmight"
+   ],
+   "answer": "Gracina Spiritmight is a priestess of Darnassus, found in the Temple of the Moon. Shandris Feathermoon calls her an associate of the Protectorate with broad knowledge of the creatures in the report."
+  },
+  {
+   "q": "What is Raschal's report about?",
+   "aliases": [
+    "what is raschals report",
+    "what did raschal find",
+    "contents of raschal report"
+   ],
+   "answer": "It is Raschal's own account of the infestation in southeastern Feralas."
+  },
+  {
+   "q": "What came before this delivery?",
+   "aliases": [
+    "rise of the silithid prerequisite",
+    "what quest comes before rise of the silithid"
+   ],
+   "answer": "It follows A Hero's Welcome, your meeting with General Feathermoon at the Stronghold."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "darnassus",
+  "feathermoon stronghold",
+  "feralas",
+  "gracina spiritmight",
+  "raschal",
+  "shandris feathermoon",
+  "silithid",
+  "temple of the moon"
+ ],
+ "related": [
+  "subzone:feathermoon-stronghold",
+  "subzone:temple-of-the-moon",
+  "npc:shandris-feathermoon",
+  "zone:feralas",
+  "zone:darnassus",
+  "topic:elune",
+  "topic:alliance",
+  "topic:horde"
+ ],
+ "attribution": [
+  "Rise of the Silithid (Feralas)"
+ ]
+}

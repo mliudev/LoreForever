@@ -1,0 +1,110 @@
+{
+ "key": "quest:1188",
+ "type": "quest",
+ "name": "Safety First",
+ "era": "classic",
+ "zone": "thousandneedles",
+ "meta": {
+  "ids": [
+   1188
+  ],
+  "level": "41",
+  "faction": null,
+  "start": "Razzeric",
+  "end": "Shreev",
+  "previous": "Razzeric's Tweaking",
+  "next": "Safety First (2)",
+  "wiki": "Safety First (Thousand Needles)",
+  "chain": [],
+  "next_q": [
+   "Safety First (2)"
+  ],
+  "category": "Thousand Needles",
+  "chain_tpl": [
+   "Goblin Sponsorship"
+  ],
+  "prev_q": [
+   "Razzeric's Tweaking"
+  ]
+ },
+ "summary": "Razzeric has found that Shreev left the safety on the seaforium booster. It caps the power Razzeric gets out of the booster, and Razzeric had asked for it to be taken off. You are sent to Shreev in Gadgetzan, in Tanaris.",
+ "sections": [
+  {
+   "title": "A Safety Nobody Wanted",
+   "body": "Razzeric looks over the seaforium booster and finds the safety still on. It caps the power the booster can give, and Razzeric had told Shreev it should be off. Razzeric gives you the booster and sends you south of the Shimmering Flats into the Tanaris desert, to the Gadgetzan Gizmorium, to have Shreev remove the safety.",
+   "spoiler": 0
+  },
+  {
+   "title": "Shreev's Answer",
+   "body": "The Gizmorium offers to service all of your tinkering needs. When you hand over the booster, Shreev denies putting any safety lock on it. By Shreev's account the booster is almost entirely seaforium explosive, already altered so more of its payload is delivered when used. Razzeric, Shreev says, is never content unless he goes all the way to eleven.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who sends you to Gadgetzan?",
+   "aliases": [
+    "quest giver",
+    "who starts safety first",
+    "razzeric quest"
+   ],
+   "answer": "Razzeric, the goblin pilot, sends you to Gadgetzan with his seaforium booster."
+  },
+  {
+   "q": "Why is Razzeric unhappy with the booster?",
+   "aliases": [
+    "why does razzeric complain",
+    "booster problem",
+    "what is wrong with the booster"
+   ],
+   "answer": "Shreev left the safety on. It caps the power Razzeric gets out of the booster, and Razzeric had asked for it to be removed."
+  },
+  {
+   "q": "Where can Shreev be found?",
+   "aliases": [
+    "shreev location",
+    "where is shreev",
+    "gadgetzan gizmorium location"
+   ],
+   "answer": "Shreev is in Gadgetzan, at the Gizmorium, out in the Tanaris desert south of the Shimmering Flats."
+  },
+  {
+   "q": "What item are you carrying to Gadgetzan?",
+   "aliases": [
+    "what item",
+    "booster item",
+    "what do you bring to shreev"
+   ],
+   "answer": "You carry Razzeric's seaforium booster, which Razzeric gives you to bring to Shreev."
+  },
+  {
+   "q": "What comes after this delivery?",
+   "aliases": [
+    "next quest",
+    "what follows safety first",
+    "safety first continuation"
+   ],
+   "answer": "The chain continues with a second part, also called Safety First."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "gadgetzan gizmorium",
+  "razzeric",
+  "safety first",
+  "seaforium booster",
+  "shimmering flats",
+  "shreev",
+  "tanaris"
+ ],
+ "related": [
+  "subzone:gadgetzan",
+  "zone:tanaris",
+  "subzone:shimmering-flats",
+  "topic:goblin",
+  "zone:thousandneedles"
+ ],
+ "attribution": [
+  "Safety First (Thousand Needles)"
+ ]
+}

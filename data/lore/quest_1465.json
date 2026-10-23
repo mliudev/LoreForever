@@ -1,0 +1,100 @@
+{
+ "key": "quest:1465",
+ "type": "quest",
+ "name": "Vahlarriel's Search",
+ "era": "classic",
+ "zone": "desolace",
+ "meta": {
+  "ids": [
+   1465
+  ],
+  "level": "33",
+  "faction": "Alliance",
+  "start": "Malem Chest",
+  "end": "Vahlarriel Demonslayer",
+  "previous": "Vahlarriel's Search",
+  "next": "Vahlarriel's Search (3)",
+  "wiki": "Vahlarriel's Search (2)",
+  "chain": [
+   "Vahlarriel's Search",
+   "Vahlarriel's Search (2)",
+   "Vahlarriel's Search (3)",
+   "Search for Tyranis",
+   "Return to Vahlarriel"
+  ],
+  "prev_q": [
+   "Vahlarriel's Search"
+  ],
+  "next_q": [
+   "Vahlarriel's Search (3)"
+  ],
+  "category": "Desolace"
+ },
+ "summary": "Going on with the search of the Malems' wagon, you turn up a pendant and a trail of footprints heading south. Smoke rises from a big fort far off. Vahlarriel Demonslayer at Nijel's Point should be shown the pendant and told about the sign that the Malems may live.",
+ "sections": [
+  {
+   "title": "Signs of Life",
+   "body": "Searching the wagon further, you turn up a pendant, and beyond it footprints leading south. Far off, smoke rises from a big fort. A tended fire makes it, not buildings burning, and your instincts say that if the Malems are still alive, they were taken that way.",
+   "spoiler": 0
+  },
+  {
+   "title": "Word for Vahlarriel",
+   "body": "Vahlarriel Demonslayer at Nijel's Point should see the Malem Pendant, and should hear of the footprints leading south.",
+   "spoiler": 0
+  },
+  {
+   "title": "What the Locals Say",
+   "body": "Vahlarriel is furious at the whole affair. The two Malems were warned how dangerous Desolace is, and now both are missing, or worse. Hearing of the tracks toward the fort nearby, Vahlarriel calls it the best lead there is. By the locals' account, that fortress is overrun with the Burning Blade, orcs given over to demonic causes. They do not speak for most of the Horde, yet they are evil, and anyone caught spying on them will be killed on sight.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "What did you find in the wagon?",
+   "aliases": [
+    "what is in the chest",
+    "wagon clues",
+    "malem pendant"
+   ],
+   "answer": "A pendant, and footprints leading off to the south. In the distance, smoke rises from a large fort."
+  },
+  {
+   "q": "Where do the tracks lead?",
+   "aliases": [
+    "where did the footprints go",
+    "where is the fort",
+    "tracks direction"
+   ],
+   "answer": "South, toward a large fort. The smoke over it is from a tended fire, not burning buildings, which suggests the Malems, should they be alive, were taken off in that direction."
+  },
+  {
+   "q": "Where is Vahlarriel Demonslayer located?",
+   "aliases": [
+    "vahlarriel location",
+    "where to turn in malem pendant",
+    "vahlarriel demonslayer spot"
+   ],
+   "answer": "Vahlarriel Demonslayer is at Nijel's Point in Desolace. That is where the pendant and news of the tracks go."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "burning blade",
+  "demonslayer",
+  "desolace",
+  "fortress",
+  "malem",
+  "nijel's point",
+  "pendant",
+  "vahlarriel"
+ ],
+ "related": [
+  "quest:1437",
+  "subzone:nijel-s-point",
+  "zone:desolace",
+  "topic:horde"
+ ],
+ "attribution": [
+  "Vahlarriel's Search (2)"
+ ]
+}

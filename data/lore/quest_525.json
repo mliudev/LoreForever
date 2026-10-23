@@ -1,0 +1,94 @@
+{
+ "key": "quest:525",
+ "type": "quest",
+ "name": "Further Mysteries",
+ "era": "classic",
+ "zone": "alterac",
+ "meta": {
+  "ids": [
+   525
+  ],
+  "level": "34",
+  "faction": "Alliance",
+  "start": "Prospector Stormpike",
+  "end": "Magistrate Henry Maleb",
+  "previous": "Letter to Stormpike",
+  "next": "Dark Council",
+  "wiki": "Further Mysteries",
+  "chain": [],
+  "prev_q": [
+   "Letter to Stormpike"
+  ],
+  "next_q": [
+   "Dark Council"
+  ],
+  "category": "Dun Morogh",
+  "chain_tpl": [
+   "Encrypted Letter (Hillsbrad Foothills)"
+  ]
+ },
+ "summary": "Prospector Stormpike has decrypted the letter you found among thieves in the Alterac foothills, but cannot make sense of it. He tells you to take it to the magistrate of Southshore.",
+ "sections": [
+  {
+   "title": "A Letter Without Meaning",
+   "body": "After Letter to Stormpike, the prospector says he has decrypted the letter but cannot tell what it means. He finds it very strange that you came by it among thieves in the Alterac foothills. The letter is cryptic, yet Southshore lies nearest to Alterac, so if a threat is brewing, the magistrate there should hear of it. You are to carry the decrypted letter to Magistrate Henry Maleb.",
+   "spoiler": 0
+  },
+  {
+   "title": "What Maleb Reads",
+   "body": "Maleb studies the letter and judges that no thief and no Alterac noble could have written it. To Maleb it points to a darker power behind the Syndicate, and Maleb shudders to think what that power might be.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who sends you with the decrypted letter?",
+   "aliases": [
+    "who gives further mysteries",
+    "further mysteries questgiver",
+    "where does further mysteries start"
+   ],
+   "answer": "Prospector Stormpike, who decrypted it but cannot make sense of it, tells you to take it to the magistrate of Southshore."
+  },
+  {
+   "q": "Who needs to see the decrypted letter?",
+   "aliases": [
+    "who gets the decrypted letter",
+    "further mysteries turn in",
+    "where do i take the letter"
+   ],
+   "answer": "Magistrate Henry Maleb in Southshore. Stormpike points out that Southshore lies nearest to Alterac, so if a threat is brewing, the magistrate should know."
+  },
+  {
+   "q": "Where did the original encrypted letter come from?",
+   "aliases": [
+    "origin of the decrypted letter",
+    "where was letter found",
+    "who had the letter"
+   ],
+   "answer": "You found it among thieves in the Alterac foothills before it went to Prospector Stormpike."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "alterac",
+  "decrypted letter",
+  "further mysteries",
+  "magistrate henry maleb",
+  "prospector stormpike",
+  "southshore",
+  "syndicate"
+ ],
+ "related": [
+  "quest:514",
+  "quest:537",
+  "npc:prospector-stormpike",
+  "npc:magistrate-henry-maleb",
+  "subzone:southshore",
+  "topic:syndicate",
+  "zone:alterac"
+ ],
+ "attribution": [
+  "Further Mysteries"
+ ]
+}

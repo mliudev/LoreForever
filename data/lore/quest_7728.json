@@ -1,0 +1,83 @@
+{
+ "key": "quest:7728",
+ "type": "quest",
+ "name": "STOLEN: Smithing Tuyere and Lookout's Spyglass",
+ "era": "classic",
+ "zone": "searinggorge",
+ "meta": {
+  "ids": [
+   7728
+  ],
+  "level": "48",
+  "faction": null,
+  "start": "Wanted/Missing/Lost & Found",
+  "end": "Taskmaster Scrange",
+  "previous": "",
+  "next": "",
+  "wiki": "STOLEN: Smithing Tuyere and Lookout's Spyglass",
+  "chain": [],
+  "category": "Searing Gorge"
+ },
+ "summary": "A notice lists two items stolen: a Dark Iron tuyere and a Lookout's Spyglass. The Thorium Brotherhood is certain unscrupulous, jealous Dark Iron dwarves of the Searing Gorge took them, and whoever finds them is to take them to Taskmaster Scrange for payment.",
+ "sections": [
+  {
+   "title": "Stolen Goods",
+   "body": "The notice calls the spyglass a fine tool for lookouts and the tuyere a smithing tool that cannot be replaced. All that is known is that Dark Iron dwarves definitely took them. Whoever finds them is to return them to Taskmaster Scrange.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who posted the notice?",
+   "aliases": [
+    "who wants the stolen items",
+    "who gave this quest",
+    "stolen smithing tuyere quest giver"
+   ],
+   "answer": "The notice speaks of the Thorium Brotherhood, who are certain that Dark Iron dwarves took the items."
+  },
+  {
+   "q": "Who stole the tools?",
+   "aliases": [
+    "who took the tuyere",
+    "who stole the spyglass",
+    "who has the stolen items"
+   ],
+   "answer": "The Thorium Brotherhood is certain it was unscrupulous and jealous Dark Iron dwarves of the Searing Gorge."
+  },
+  {
+   "q": "Who receives the recovered items?",
+   "aliases": [
+    "where do i turn this in",
+    "who is taskmaster scrange",
+    "who gets the spyglass"
+   ],
+   "answer": "Taskmaster Scrange in the Searing Gorge."
+  },
+  {
+   "q": "What are the stolen items for?",
+   "aliases": [
+    "what is a smithing tuyere",
+    "why does the brotherhood want the tuyere",
+    "what does the spyglass do"
+   ],
+   "answer": "The tuyere is a smithing tool that cannot be replaced, and the spyglass is a valuable monitoring tool for lookouts."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "dark iron",
+  "scrange",
+  "searing gorge",
+  "smithing",
+  "spyglass",
+  "thorium brotherhood",
+  "tuyere"
+ ],
+ "related": [
+  "zone:searinggorge"
+ ],
+ "attribution": [
+  "STOLEN: Smithing Tuyere and Lookout's Spyglass"
+ ]
+}

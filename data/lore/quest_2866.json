@@ -1,0 +1,97 @@
+{
+ "key": "quest:2866",
+ "type": "quest",
+ "name": "The Ruins of Solarsal",
+ "era": "classic",
+ "zone": "feralas",
+ "meta": {
+  "ids": [
+   2866
+  ],
+  "level": "43",
+  "faction": "Alliance",
+  "start": "Shandris Feathermoon",
+  "end": "Solarsal Gazebo",
+  "previous": "",
+  "next": "Return to Feathermoon Stronghold",
+  "wiki": "The Ruins of Solarsal",
+  "chain": [
+   "The Ruins of Solarsal",
+   "Return to Feathermoon Stronghold"
+  ],
+  "next_q": [
+   "Return to Feathermoon Stronghold"
+  ],
+  "category": "Feralas"
+ },
+ "summary": "Shandris Feathermoon tells you that the Ruins of Solarsal, to the south, are now crowded with Hatecrest naga. You are sent to walk through the ruins and notice whatever seems out of the ordinary.",
+ "sections": [
+  {
+   "title": "Naga in the Old Stones",
+   "body": "The Ruins of Solarsal far pre-date modern times. Shandris says they explored the place at first, found nothing of note and left it alone. Very recently, though, Hatecrest naga have taken it over in alarming numbers. At first that looked like the prelude to an attack, a threat that is still possible, but Shandris believes something else may be going on. You are to walk through the ruins and notice whatever seems out of the ordinary.",
+   "spoiler": 0
+  },
+  {
+   "title": "What Stands Out",
+   "body": "Looking over the gazebo, you find it stands apart from the stonework around it. It is plainly a newer construction. Small glyphs run along its sides in a repeating pattern, and nobody knows where they come from or what they mean. The stone itself is warm to the touch.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Where are the Ruins of Solarsal?",
+   "aliases": [
+    "ruins of solarsal location",
+    "where is solarsal",
+    "where to find solarsal"
+   ],
+   "answer": "They lie to the south of Shandris Feathermoon."
+  },
+  {
+   "q": "Why is Shandris Feathermoon concerned about the ruins?",
+   "aliases": [
+    "why send me to solarsal",
+    "shandris feathermoon solarsal reason",
+    "why investigate solarsal"
+   ],
+   "answer": "Hatecrest naga have lately occupied the ruins in alarming numbers. At first this looked like preparation for an attack, and that is still possible, but Shandris believes something else may be going on."
+  },
+  {
+   "q": "What were the Ruins of Solarsal before the naga arrived?",
+   "aliases": [
+    "solarsal history",
+    "what is solarsal"
+   ],
+   "answer": "The ruins far pre-date modern times. Shandris says they were explored at first, nothing of note turned up, and they were left in peace."
+  },
+  {
+   "q": "Which naga are in the ruins?",
+   "aliases": [
+    "who is at solarsal",
+    "solarsal enemies",
+    "naga tribe in solarsal"
+   ],
+   "answer": "The Hatecrest naga."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "feathermoon stronghold",
+  "feralas",
+  "gazebo",
+  "glyphs",
+  "hatecrest",
+  "naga",
+  "shandris feathermoon",
+  "solarsal"
+ ],
+ "related": [
+  "npc:shandris-feathermoon",
+  "quest:2867",
+  "topic:naga",
+  "zone:feralas"
+ ],
+ "attribution": [
+  "The Ruins of Solarsal"
+ ]
+}

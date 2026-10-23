@@ -1,0 +1,96 @@
+{
+ "key": "quest:1365",
+ "type": "quest",
+ "name": "Khan Dez'hepah",
+ "era": "classic",
+ "zone": "desolace",
+ "meta": {
+  "ids": [
+   1365
+  ],
+  "level": "35",
+  "faction": "Horde",
+  "start": "Felgur Twocuts",
+  "end": "Felgur Twocuts",
+  "previous": "The Kolkar of Desolace",
+  "next": "Centaur Bounty (Horde)",
+  "wiki": "Khan Dez'hepah (quest)",
+  "chain": [],
+  "category": "Desolace",
+  "prev_q": [
+   "The Kolkar of Desolace"
+  ],
+  "next_q": [
+   "Centaur Bounty (Horde)"
+  ]
+ },
+ "summary": "After The Kolkar of Desolace, Felgur Twocuts sets you against the Kolkar's leader, Khan Dez'hepah. Many centaur clans fight one another across Desolace, and Felgur wants the Kolkar disrupted before the clans unite.",
+ "sections": [
+  {
+   "title": "Divided Clans",
+   "body": "The Kolkar are only one of the centaur clans of Desolace. Many roam the dry plains, fighting and dying at one another's hands. Felgur Twocuts does not mind, because the centaur are strong and brutal, and a united centaur people would be a fierce foe for the Horde. They must be dealt with before that happens.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Kolkar Leader",
+   "body": "Felgur's first move is to disrupt the Kolkar by killing their leader, Khan Dez'hepah. The Kolkar Village lies northeast of where Felgur stands, and Felgur wants the khan's head brought back.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Why does Felgur Twocuts want Khan Dez'hepah dead?",
+   "aliases": [
+    "why kill dezhepah",
+    "khan dezhepah purpose",
+    "reason for killing dezhepah"
+   ],
+   "answer": "Felgur worries that the centaur clans may unite against the Horde. Killing Khan Dez'hepah is meant to disrupt the Kolkar clan first."
+  },
+  {
+   "q": "Where is Khan Dez'hepah located?",
+   "aliases": [
+    "khan dezhepah location",
+    "where is dezhepah",
+    "kolkar village location"
+   ],
+   "answer": "In the Kolkar Village, northeast of Felgur Twocuts in Desolace."
+  },
+  {
+   "q": "What does Felgur want brought back?",
+   "aliases": [
+    "khan dezhepah proof",
+    "what to bring felgur"
+   ],
+   "answer": "Khan Dez'hepah's head, brought back to Felgur Twocuts."
+  },
+  {
+   "q": "What comes before Khan Dez'hepah?",
+   "aliases": [
+    "previous quest dezhepah",
+    "prerequisite for khan dezhepah"
+   ],
+   "answer": "The Kolkar of Desolace. After it, Felgur Twocuts sends you against the Kolkar leader, Khan Dez'hepah."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "centaur",
+  "desolace",
+  "dez'hepah",
+  "felgur twocuts",
+  "khan dez'hepah",
+  "kolkar",
+  "kolkar village"
+ ],
+ "related": [
+  "npc:felgur-twocuts",
+  "topic:kolkar-clan",
+  "topic:centaur",
+  "quest:1362",
+  "zone:desolace"
+ ],
+ "attribution": [
+  "Khan Dez'hepah (quest)"
+ ]
+}

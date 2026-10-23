@@ -1,0 +1,83 @@
+{
+ "key": "quest:2933",
+ "type": "quest",
+ "name": "Venom Bottles",
+ "era": "classic",
+ "zone": "hinterlands",
+ "meta": {
+  "ids": [
+   2933
+  ],
+  "level": "43",
+  "faction": "Horde",
+  "start": "Venom Bottle",
+  "end": "Apothecary Lydon",
+  "previous": "",
+  "next": "Undamaged Venom Sac (quest)",
+  "wiki": "Venom Bottles",
+  "chain": [],
+  "next_q": [
+   "Undamaged Venom Sac (quest)"
+  ],
+  "category": "Hinterlands"
+ },
+ "summary": "Bottles of a vile green venom fill a Witherbark village in the Hinterlands. So many of them suggest the Witherbarks value it highly, and an apothecary in nearby Tarren Mill might like a sample.",
+ "sections": [
+  {
+   "title": "A Toxic Discovery",
+   "body": "The bottles in the Witherbark village hold a vile, green venom. There are so many that the Witherbarks must consider it very important. A sample could be carried to an apothecary in Tarren Mill, who may want to see it.",
+   "spoiler": 0
+  },
+  {
+   "title": "Lydon's Verdict",
+   "body": "Apothecary Lydon, whose experiments have all failed that day, takes the bottle and declares the contents venom drawn from some arachnoid creature. Lydon asks where it came from.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Where are the venom bottles found?",
+   "aliases": [
+    "venom bottle location",
+    "where to find venom bottles",
+    "witherbark venom"
+   ],
+   "answer": "They are in a Witherbark village in the Hinterlands, in great numbers."
+  },
+  {
+   "q": "Who is interested in the venom bottles?",
+   "aliases": [
+    "who wants the venom",
+    "where to turn in venom bottle",
+    "tarren mill apothecary"
+   ],
+   "answer": "The suggestion is to take a sample to an apothecary in Tarren Mill, and Apothecary Lydon is the one to see."
+  },
+  {
+   "q": "What is in the bottles?",
+   "aliases": [
+    "what is the venom",
+    "what is in the bottles"
+   ],
+   "answer": "A vile, green venom, and the Witherbarks seem to value it highly given how many bottles they keep."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "apothecary lydon",
+  "arachnoid",
+  "hinterlands",
+  "tarren mill",
+  "troll venom",
+  "venom bottle",
+  "witherbark"
+ ],
+ "related": [
+  "zone:hinterlands",
+  "subzone:tarren-mill",
+  "quest:2934"
+ ],
+ "attribution": [
+  "Venom Bottles"
+ ]
+}

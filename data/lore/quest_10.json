@@ -1,0 +1,102 @@
+{
+ "key": "quest:10",
+ "type": "quest",
+ "name": "The Scrimshank Redemption",
+ "era": "classic",
+ "zone": "tanaris",
+ "meta": {
+  "ids": [
+   10
+  ],
+  "level": "48",
+  "faction": null,
+  "start": "Senior Surveyor Fizzledowser",
+  "end": "Senior Surveyor Fizzledowser",
+  "previous": "Noxious Lair Investigation",
+  "next": "Insect Part Analysis",
+  "wiki": "The Scrimshank Redemption",
+  "chain": [],
+  "prev_q": [
+   "Noxious Lair Investigation"
+  ],
+  "next_q": [
+   "Insect Part Analysis"
+  ],
+  "category": "Tanaris",
+  "chain_tpl": [
+   "Rise of the Silithid"
+  ]
+ },
+ "summary": "In Gadgetzan, Senior Surveyor Fizzledowser is troubled: Junior Surveyor Scrimshank, a top assistant sent into the Gaping Chasm, an area of desert southeast of town, has gone missing. You are asked to find out what became of Scrimshank, or at the least to find the surveying equipment.",
+ "sections": [
+  {
+   "title": "A Surveyor Gone Missing",
+   "body": "Senior Surveyor Fizzledowser is troubled. Junior Surveyor Scrimshank went into the Gaping Chasm and has not been seen since, and the last report from there spoke of more of those weird bugs. Fizzledowser wonders whether the bugs now hold two big regions of the desert at once. You are asked to go in and search for Scrimshank, or failing that, for the surveying equipment, which Fizzledowser fears may be all that is left.",
+   "spoiler": 0
+  },
+  {
+   "title": "Fizzledowser's Verdict",
+   "body": "Scrimshank, a good goblin by Fizzledowser's account, did not survive. Fizzledowser hopes the loss counts for something, given what the surveying equipment managed to record. The bugs show a worrying cunning, and the research so far points to a third party controlling them, which bodes ill for Gadgetzan and the whole desert.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Senior Surveyor Fizzledowser?",
+   "aliases": [
+    "fizzledowser",
+    "who gives this quest",
+    "surveyor fizzledowser"
+   ],
+   "answer": "Fizzledowser is the Senior Surveyor in Gadgetzan who has been looking into the weird bugs of the desert, and Scrimshank's superior."
+  },
+  {
+   "q": "Who is Junior Surveyor Scrimshank?",
+   "aliases": [
+    "scrimshank",
+    "who is scrimshank",
+    "junior surveyor"
+   ],
+   "answer": "Scrimshank was Fizzledowser's top assistant, sent into the desert southeast of Gadgetzan before going missing."
+  },
+  {
+   "q": "Where is the Gaping Chasm located?",
+   "aliases": [
+    "gaping chasm location",
+    "where is gaping chasm",
+    "chasm location"
+   ],
+   "answer": "It is the area of desert southeast of Gadgetzan that the surveyors call the Gaping Chasm."
+  },
+  {
+   "q": "What came before this step?",
+   "aliases": [
+    "previous quest",
+    "prerequisite",
+    "what quest comes first"
+   ],
+   "answer": "It follows the Noxious Lair Investigation."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "fizzledowser",
+  "gadgetzan",
+  "gaping chasm",
+  "scrimshank",
+  "surveying",
+  "tanaris"
+ ],
+ "related": [
+  "npc:senior-surveyor-fizzledowser",
+  "subzone:gaping-chasm",
+  "subzone:gadgetzan",
+  "quest:82",
+  "quest:110",
+  "zone:tanaris",
+  "topic:goblin"
+ ],
+ "attribution": [
+  "The Scrimshank Redemption"
+ ]
+}

@@ -1,0 +1,75 @@
+{
+ "key": "quest:1319",
+ "type": "quest",
+ "name": "The Black Shield",
+ "era": "classic",
+ "zone": "dustwallow",
+ "meta": {
+  "ids": [
+   1319
+  ],
+  "level": "35",
+  "start": "Captain Garran Vimes",
+  "end": "Caz Twosprocket",
+  "previous": "The Black Shield (Alliance)",
+  "next": "The Black Shield (Alliance 3)",
+  "wiki": null
+ },
+ "summary": "Captain Garran Vimes is sorry to be of little help with the Blackened Iron Shield, but knows who can do better: Caz Twosprocket, one of the best blacksmiths around, who tends the forge in Theramore's smithy.",
+ "sections": [
+  {
+   "title": "A Smith Who Can Say",
+   "body": "Vimes apologizes for being unable to help much with the shield, but names someone who can. You are sent with it to Caz Twosprocket, one of the best blacksmiths, who tends the forge in Theramore's smithy. Perhaps Caz can tell you something about it.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Smith's Opinion",
+   "body": "Caz looks the iron over and calls it an interesting piece. It is not Caz's own work, and certainly not the work of any smith Caz knows of this side of the water.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who sends you to examine the shield?",
+   "aliases": [
+    "who gives the black shield",
+    "black shield quest starter",
+    "who starts the black shield"
+   ],
+   "answer": "Captain Garran Vimes in Theramore, who is sorry to be of little help with it and points you to someone better."
+  },
+  {
+   "q": "Who is Caz Twosprocket?",
+   "aliases": [
+    "caz twosprocket",
+    "who is the blacksmith in theramore"
+   ],
+   "answer": "A blacksmith who tends the forge in Theramore's smithy. Vimes counts him among the best."
+  },
+  {
+   "q": "What shield is shown to Caz?",
+   "aliases": [
+    "blackened iron shield",
+    "what shield do i show caz"
+   ],
+   "answer": "The Blackened Iron Shield."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "blackened iron shield",
+  "captain garran vimes",
+  "caz twosprocket",
+  "dustwallow marsh",
+  "the black shield",
+  "theramore"
+ ],
+ "related": [
+  "quest:1253",
+  "quest:1320",
+  "zone:dustwallow"
+ ],
+ "attribution": [
+  "Classic quest text: The Black Shield"
+ ]
+}

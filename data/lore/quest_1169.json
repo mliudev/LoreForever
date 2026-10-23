@@ -1,0 +1,79 @@
+{
+ "key": "quest:1169",
+ "type": "quest",
+ "name": "Identifying the Brood",
+ "era": "classic",
+ "zone": "dustwallow",
+ "meta": {
+  "ids": [
+   1169
+  ],
+  "level": "43",
+  "start": "Draz'Zilb",
+  "end": "Draz'Zilb",
+  "wiki": null,
+  "previous": "",
+  "next": "The Brood of Onyxia"
+ },
+ "summary": "In Brackenwall Village, Draz'Zilb calls Mok'Morokk a craven fool who wallows in power, and says Tharg is wrestling with sorrow and vengeance while vying to lead the clan. Draz'Zilb believes nobody else is concerned with finding who attacked the old home, and asks you for fifteen searing tongues and fifteen searing hearts.",
+ "sections": [
+  {
+   "title": "A Voice of Reason",
+   "body": "Draz'Zilb says Mok'Morokk wallows in power while Tharg wrestles with sorrow and a thirst for vengeance, so by Draz'Zilb's account nobody else is concerned with who is behind the aggression against the old home. Draz'Zilb notes that you may have expected an ogre to speak like a brute.",
+   "spoiler": 0
+  },
+  {
+   "title": "Hearts and Tongues",
+   "body": "Draz'Zilb wants tongues and hearts taken from whelps and hatchlings, fifteen of each, in order to trace where this evil comes from. From the burnt young of the black dragon army, Draz'Zilb hopes to learn which wretched beast set her young loose in the ogres' home. Knowing the enemy better, the ogres might destroy them for good and take back Stonemaul Village from ruin. Getting Mok'Morokk to leave this swamp, Draz'Zilb adds, will be a great labor of its own.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Draz'Zilb?",
+   "aliases": [
+    "drazzilb",
+    "ogre mage brackenwall",
+    "smart ogre"
+   ],
+   "answer": "Draz'Zilb is an ogre in Brackenwall Village who speaks in a formal way rather than like a brute, and who wants to find out who is behind the attack on the clan's old home."
+  },
+  {
+   "q": "What does Draz'Zilb want from the whelps and hatchlings?",
+   "aliases": [
+    "searing hearts use",
+    "why tongues and hearts",
+    "identifying the brood purpose"
+   ],
+   "answer": "Draz'Zilb wants fifteen searing tongues and fifteen searing hearts. They are meant to help trace which beast set her young loose in the old home."
+  },
+  {
+   "q": "What does Draz'Zilb think of the clan's leaders?",
+   "aliases": [
+    "mokmorokk problem",
+    "tharg and mokmorokk",
+    "stonemaul leaders"
+   ],
+   "answer": "Draz'Zilb has little respect for Mok'Morokk, calling that ogre a craven fool who lets power go to the head, and speaks of Tharg as someone caught up in sorrow and the hunger for revenge."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "black dragon",
+  "brackenwall village",
+  "draz'zilb",
+  "dustwallow marsh",
+  "mok'morokk",
+  "searing hearts",
+  "searing tongues",
+  "stonemaul",
+  "tharg"
+ ],
+ "related": [
+  "subzone:brackenwall-village",
+  "zone:dustwallow"
+ ],
+ "attribution": [
+  "Classic quest text: Identifying the Brood"
+ ]
+}

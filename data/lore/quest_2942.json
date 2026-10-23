@@ -1,0 +1,96 @@
+{
+ "key": "quest:2942",
+ "type": "quest",
+ "name": "The Morrow Stone",
+ "era": "classic",
+ "zone": "feralas",
+ "meta": {
+  "ids": [
+   2942
+  ],
+  "level": "50",
+  "faction": "Alliance",
+  "start": "Equinex Monolith",
+  "end": "Troyas Moonbreeze",
+  "previous": "The Stave of Equinex",
+  "next": "",
+  "wiki": "The Morrow Stone",
+  "chain": [],
+  "prev_q": [
+   "The Stave of Equinex"
+  ],
+  "category": "Feralas",
+  "chain_tpl": [
+   "In Search of Knowledge"
+  ]
+ },
+ "summary": "The moment you take the artifact from the Equinex Monolith, the power in the Stave of Equinex starts to fade. You are to bring the Sparkling Stone and the stave back to Troyas Moonbreeze at Feathermoon Stronghold.",
+ "sections": [
+  {
+   "title": "Back to Feathermoon Stronghold",
+   "body": "As the artifact leaves the monolith, the stave's energy starts to fade. Troyas Moonbreeze at Feathermoon Stronghold is eager to hear what you found, so bring both the Sparkling Stone and the stave to him.",
+   "spoiler": 0
+  },
+  {
+   "title": "Troyas's Findings",
+   "body": "Troyas has been reading since you left, and he names the stone the Morrow Stone. He is not yet sure of its purpose, but anything hidden inside the monolith the way it was must carry great significance. He will go on with his studies and hopes you will stand with him.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Where does this begin?",
+   "aliases": [
+    "where do I get this quest",
+    "where to start morrow stone",
+    "equinex monolith start"
+   ],
+   "answer": "At the Equinex Monolith, once the artifact has been taken from it."
+  },
+  {
+   "q": "Who do I bring the stone to?",
+   "aliases": [
+    "who turns in morrow stone",
+    "where is troyas moonbreeze",
+    "who gets the sparkling stone"
+   ],
+   "answer": "Troyas Moonbreeze, in Feathermoon Stronghold. Bring the Stave of Equinex too."
+  },
+  {
+   "q": "What happens to the Stave of Equinex?",
+   "aliases": [
+    "stave of equinex energy",
+    "what happens to the staff",
+    "why did the stave lose power"
+   ],
+   "answer": "Its energy starts to fade the moment the artifact is taken from the monolith."
+  },
+  {
+   "q": "What comes before this?",
+   "aliases": [
+    "previous quest",
+    "what quest comes before the morrow stone",
+    "prerequisite quest"
+   ],
+   "answer": "It follows The Stave of Equinex, in which you energized the stave beside the monolith."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "equinex monolith",
+  "feathermoon stronghold",
+  "feralas",
+  "morrow stone",
+  "sparkling stone",
+  "stave of equinex",
+  "troyas moonbreeze"
+ ],
+ "related": [
+  "quest:2879",
+  "subzone:feathermoon-stronghold",
+  "zone:feralas"
+ ],
+ "attribution": [
+  "The Morrow Stone"
+ ]
+}

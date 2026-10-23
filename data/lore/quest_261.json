@@ -1,0 +1,107 @@
+{
+ "key": "quest:261",
+ "type": "quest",
+ "name": "Down the Scarlet Path",
+ "era": "classic",
+ "zone": "desolace",
+ "meta": {
+  "ids": [
+   261
+  ],
+  "level": "39",
+  "faction": "Alliance",
+  "start": "Brother Anton",
+  "end": "Brother Anton",
+  "previous": "Brother Anton (quest)",
+  "next": "Down the Scarlet Path (2)",
+  "wiki": "Down the Scarlet Path",
+  "chain": [
+   "Brother Anton (quest)",
+   "Down the Scarlet Path",
+   "Down the Scarlet Path (2)",
+   "In the Name of the Light"
+  ],
+  "prev_q": [
+   "Brother Anton (quest)"
+  ],
+  "next_q": [
+   "Down the Scarlet Path (2)"
+  ],
+  "category": "Desolace"
+ },
+ "summary": "Brother Anton of the Scarlet Crusade, at Nijel's Point, says his order is at war with the Scourge, an evil that corrupts the people and infects the land. He asks you to prove your allegiance by destroying thirty undead ravagers in the Valley of Bones.",
+ "sections": [
+  {
+   "title": "Proof of Allegiance",
+   "body": "Brother Anton speaks bluntly. He says the Scourge must be halted before it swallows the land and pulls the world into darkness, and the Scarlet Crusade has pledged itself to that fight. If you are with them, he wants your courage and allegiance shown by destroying thirty undead ravagers. They are found south of Anton, in the Valley of Bones. Succeed, and the Crusade will welcome you.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who asks you to destroy the undead ravagers?",
+   "aliases": [
+    "who gives down the scarlet path",
+    "brother anton quest",
+    "scarlet crusade desolace npc"
+   ],
+   "answer": "Brother Anton of the Scarlet Crusade, at Nijel's Point."
+  },
+  {
+   "q": "Where are the undead ravagers found?",
+   "aliases": [
+    "undead ravager location",
+    "where is valley of bones",
+    "ravagers in desolace"
+   ],
+   "answer": "The Valley of Bones, south of Nijel's Point in Desolace."
+  },
+  {
+   "q": "Why does Brother Anton want the ravagers destroyed?",
+   "aliases": [
+    "why kill undead ravagers",
+    "brother anton motive",
+    "scarlet crusade reason"
+   ],
+   "answer": "He says the Crusade is at war with the Scourge, an evil that corrupts the people and infects the land, and he wants you to prove your allegiance."
+  },
+  {
+   "q": "How many ravagers must be destroyed?",
+   "aliases": [
+    "how many ravagers",
+    "ravager count"
+   ],
+   "answer": "Thirty."
+  },
+  {
+   "q": "What comes before this?",
+   "aliases": [
+    "previous quest",
+    "prerequisite for down the scarlet path"
+   ],
+   "answer": "Your meeting with Brother Anton comes first."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "brother anton",
+  "desolace",
+  "down the scarlet path",
+  "nijel's point",
+  "scarlet crusade",
+  "scourge",
+  "undead ravager",
+  "valley of bones"
+ ],
+ "related": [
+  "quest:6141",
+  "topic:scarlet-crusade",
+  "subzone:nijel-s-point",
+  "subzone:valley-of-bones",
+  "zone:desolace",
+  "topic:scourge"
+ ],
+ "attribution": [
+  "Down the Scarlet Path"
+ ]
+}

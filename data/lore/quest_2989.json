@@ -1,0 +1,104 @@
+{
+ "key": "quest:2989",
+ "type": "quest",
+ "name": "The Altar of Zul",
+ "era": "classic",
+ "zone": "hinterlands",
+ "meta": {
+  "ids": [
+   2989
+  ],
+  "level": "48",
+  "faction": "Alliance",
+  "start": "Gryphon Master Talonaxe",
+  "end": "Gryphon Master Talonaxe",
+  "previous": "Witherbark Cages",
+  "next": "Thadius Grimshade (quest)",
+  "wiki": "The Altar of Zul (quest)",
+  "chain": [
+   "Witherbark Cages",
+   "The Altar of Zul (quest)",
+   "Thadius Grimshade (quest)",
+   "Nekrum's Medallion (quest)",
+   "The Divination",
+   "Return to the Hinterlands",
+   "Saving Sharpbeak"
+  ],
+  "prev_q": [
+   "Witherbark Cages"
+  ],
+  "next_q": [
+   "Thadius Grimshade (quest)"
+  ],
+  "category": "Hinterlands"
+ },
+ "summary": "The Witherbark trolls do not have Sharpbeak, so Gryphon Master Talonaxe wonders whether the Vilebranch trolls took the young gryphon instead. You are sent to the Altar of Zul, at the western edge of Vilebranch lands, to search for him.",
+ "sections": [
+  {
+   "title": "Another Tribe, Another Search",
+   "body": "The cages of the Witherbark trolls held no sign of Sharpbeak. Talonaxe now suspects the Vilebranch trolls and sends you up to the Altar of Zul, at the western edge of their lands, to look on its top for the gryphon child. Talonaxe fears to think what the Vilebranch may be doing to the captive, if they hold him.",
+   "spoiler": 0
+  },
+  {
+   "title": "Word From the Altar",
+   "body": "Sharpbeak is not at the altar. Talonaxe calls it bad news and good news at once: the Vilebranch trolls are known to carry out sacrifices, so it is a relief that the gryphon was not found there. Talonaxe thanks you for your aid and says a greater undertaking lies ahead.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Why does Gryphon Master Talonaxe send you to the Altar of Zul?",
+   "aliases": [
+    "why altar of zul",
+    "altar of zul reason",
+    "why go to altar of zul"
+   ],
+   "answer": "The Witherbark trolls do not have Sharpbeak, so Talonaxe thinks the Vilebranch trolls may have taken him."
+  },
+  {
+   "q": "Where is the Altar of Zul located?",
+   "aliases": [
+    "altar of zul location",
+    "where is altar of zul"
+   ],
+   "answer": "The Altar of Zul lies at the western edge of Vilebranch lands in the Hinterlands. You are to check the top of it."
+  },
+  {
+   "q": "Who is Sharpbeak?",
+   "aliases": [
+    "who is sharpbeak",
+    "sharpbeak lore"
+   ],
+   "answer": "Sharpbeak is Swiftwing's heir, the gryphon child Talonaxe has been searching for since he went missing."
+  },
+  {
+   "q": "Why is Talonaxe worried about the Vilebranch trolls?",
+   "aliases": [
+    "why are vilebranch dangerous",
+    "what do vilebranch do"
+   ],
+   "answer": "Talonaxe fears that if the Vilebranch have Sharpbeak, no one can know what they are doing with him."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "altar of zul",
+  "gryphon master talonaxe",
+  "hinterlands",
+  "sharpbeak",
+  "vilebranch",
+  "witherbark"
+ ],
+ "related": [
+  "quest:1450",
+  "quest:2988",
+  "zone:hinterlands",
+  "topic:troll",
+  "quest:2992",
+  "quest:2993",
+  "quest:2994"
+ ],
+ "attribution": [
+  "Wowpedia: The Altar of Zul (quest)"
+ ]
+}

@@ -1,0 +1,98 @@
+{
+ "key": "quest:3566",
+ "type": "quest",
+ "name": "Rise, Obsidion!",
+ "era": "classic",
+ "zone": "searinggorge",
+ "meta": {
+  "ids": [
+   3566
+  ],
+  "level": "46",
+  "faction": "Alliance",
+  "start": "Dying Archaeologist",
+  "end": "Curator Thorius",
+  "previous": "Release Them",
+  "next": "",
+  "wiki": "Rise, Obsidion!",
+  "chain": [],
+  "category": "Searing Gorge",
+  "chain_tpl": [
+   "Suntara Stones"
+  ],
+  "prev_q": [
+   "Release Them"
+  ]
+ },
+ "summary": "After Release Them, a dying archaeologist gasps that it was all a trap, and begs you to kill the traitor for them and for Thorius. Both Lathoric the Black and Obsidion must die, and Curator Thorius in Ironforge wants proof of it.",
+ "sections": [
+  {
+   "title": "A Dying Plea",
+   "body": "The archaeologist is barely able to speak. They say it was all a trap, ask for forgiveness, and plead for the traitor to be killed for them and for Thorius. Lathoric the Black and Obsidion must both fall, and Curator Thorius in Ironforge wants the head of one and the heart of the other.",
+   "spoiler": 0
+  },
+  {
+   "title": "A Voice Answers",
+   "body": "Dorius appears and scorns you as fools. Playing on the weak feelings of his brother, he had rescuers sent so that the last Suntara stone would be taken from the Twilight's Hammer. He came across the Suntara stones at the Grimesilt Digsite, and Ragnaros's power surged through him, giving him a purpose. By Ragnaros's will Obsidion was built, to destroy the Blackrock orcs of Blackrock Spire. Reborn as an acolyte of fire, he took the name Lathoric the Black. Back in Ironforge, Thorius turns pale at the proof: his own brother set all of this up and betrayed him and Ironforge. Thorius fears the Old Gods still hold strong sway here, and that if so honorable a man could be turned so easily to Ragnaros, no one is safe.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who gives this quest?",
+   "aliases": [
+    "quest giver",
+    "who starts rise obsidion",
+    "dying archaeologist"
+   ],
+   "answer": "A dying archaeologist, who begs you to avenge them and Thorius."
+  },
+  {
+   "q": "What comes before this quest?",
+   "aliases": [
+    "previous quest",
+    "prerequisite",
+    "chain before rise obsidion"
+   ],
+   "answer": "Release Them, which this follows."
+  },
+  {
+   "q": "Who do you bring the proof to?",
+   "aliases": [
+    "where do i return",
+    "who do i return to",
+    "where is thorius"
+   ],
+   "answer": "Curator Thorius in Ironforge, who wants proof in the form of a head and a heart."
+  },
+  {
+   "q": "Who are you sent to slay?",
+   "aliases": [
+    "who is obsidion",
+    "who is lathoric",
+    "targets"
+   ],
+   "answer": "Two foes: the one named Lathoric the Black, and Obsidion."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "curator thorius",
+  "dying archaeologist",
+  "ironforge",
+  "lathoric the black",
+  "obsidion",
+  "ragnaros",
+  "rise obsidion",
+  "searing gorge"
+ ],
+ "related": [
+  "quest:3372",
+  "zone:searinggorge",
+  "zone:ironforge",
+  "topic:old-god"
+ ],
+ "attribution": [
+  "Rise, Obsidion!"
+ ]
+}

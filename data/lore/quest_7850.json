@@ -1,0 +1,87 @@
+{
+ "key": "quest:7850",
+ "type": "quest",
+ "name": "Dark Vessels",
+ "era": "classic",
+ "zone": "hinterlands",
+ "meta": {
+  "ids": [
+   7850
+  ],
+  "level": "50",
+  "faction": "Horde",
+  "start": "Primal Torntusk",
+  "end": "Primal Torntusk",
+  "previous": "",
+  "next": "",
+  "wiki": "Dark Vessels (Classic)",
+  "chain": [],
+  "category": "Hinterlands"
+ },
+ "summary": "Primal Torntusk in Revantusk Village says the Vilebranch fight with a supernatural ferocity, the work of Vile Priestess Hexx's foul weavings of magic. Throughout Jintha'alor lie dark vessels of tainted blood, radiating a foul magic that belongs to the faceless blood God. Torntusk asks you to steal them and bring them back, so the taint can be removed.",
+ "sections": [
+  {
+   "title": "The Vilebranch Fury",
+   "body": "Wherever you walk in Jintha'alor, you will find vessels of tainted blood. They radiate the dark power of the faceless blood God, which strengthens the Vilebranch and drives them to madness. Torntusk believes that taking the vessels away and removing their taint will loosen the blood God's grip on them.",
+   "spoiler": 0
+  },
+  {
+   "title": "After the Vessels Return",
+   "body": "With the vessels in hand, the dark energy compelling the Vilebranch is lifted, though only for now. Torntusk reminds you to stay ever vigilant against evil, since a fallen priestess is soon replaced by another.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who gives the quest Dark Vessels?",
+   "aliases": [
+    "who gives dark vessels",
+    "dark vessels questgiver"
+   ],
+   "answer": "Primal Torntusk gives it, in Revantusk Village in the Hinterlands."
+  },
+  {
+   "q": "Where are the tainted vessels located?",
+   "aliases": [
+    "where are dark vessels",
+    "vessels of tainted blood location",
+    "find tainted blood"
+   ],
+   "answer": "Dark vessels of tainted blood can be found throughout Jintha'alor in the Hinterlands."
+  },
+  {
+   "q": "Why are the Vilebranch trolls so ferocious?",
+   "aliases": [
+    "why are vilebranch crazy",
+    "vilebranch madness",
+    "vilebranch ferocity"
+   ],
+   "answer": "Primal Torntusk blames the foul magical weavings of Vile Priestess Hexx. The vessels of tainted blood also carry the power of the faceless blood God, which strengthens the Vilebranch and drives them mad."
+  },
+  {
+   "q": "What does Primal Torntusk plan to do with the vessels?",
+   "aliases": [
+    "why collect the vessels",
+    "what happens to the blood vessels"
+   ],
+   "answer": "Torntusk plans to remove the taint from them, in order to loosen the faceless blood God's grip on the Vilebranch."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "blood god",
+  "dark vessels",
+  "jintha'alor",
+  "primal torntusk",
+  "revantusk village",
+  "tainted blood",
+  "vile priestess hexx",
+  "vilebranch"
+ ],
+ "related": [
+  "zone:hinterlands"
+ ],
+ "attribution": [
+  "Wowpedia: Dark Vessels (Classic)"
+ ]
+}

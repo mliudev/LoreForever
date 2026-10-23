@@ -1,0 +1,97 @@
+{
+ "key": "quest:2979",
+ "type": "quest",
+ "name": "Dark Ceremony",
+ "era": "classic",
+ "zone": "feralas",
+ "meta": {
+  "ids": [
+   2979
+  ],
+  "level": "46",
+  "faction": "Horde",
+  "start": "Rok Orhan",
+  "end": "Rok Orhan",
+  "previous": "The Gordunni Scroll",
+  "next": "The Gordunni Orb (Classic)",
+  "wiki": "Dark Ceremony",
+  "chain": [
+   "The Gordunni Scroll",
+   "Dark Ceremony",
+   "The Gordunni Orb (Classic)"
+  ],
+  "prev_q": [
+   "The Gordunni Scroll"
+  ],
+  "next_q": [
+   "The Gordunni Orb (Classic)"
+  ],
+  "category": "Feralas"
+ },
+ "summary": "After the Gordunni Scroll, Rok Orhan at Camp Mojache reads it as plans for a dark ceremony led by the Gordunni mage-lords. Rok Orhan wants you to take an orb from one of those mage-lords, to learn more about the ceremony and the Gordunni's magic.",
+ "sections": [
+  {
+   "title": "Plans for a Dark Ceremony",
+   "body": "Rok Orhan has looked over the Gordunni Scroll you brought and reads it as the plans for a dark ceremony. As far as Rok can tell, the Gordunni mage-lords are the ones who conduct it. A mage-lord must be found, and an orb taken from him. A mage's orb holds great power, and it should reveal more about the ceremony and the magic the Gordunni wield.",
+   "spoiler": 0
+  },
+  {
+   "title": "When the Orb Is Delivered",
+   "body": "Once the orb is in hand, Rok Orhan says it will tell more about the Gordunni, and the knowledge will go into planning their downfall.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who gives Dark Ceremony?",
+   "aliases": [
+    "who gives dark ceremony",
+    "dark ceremony questgiver"
+   ],
+   "answer": "Rok Orhan at Camp Mojache, following the Gordunni Scroll you brought."
+  },
+  {
+   "q": "Who carries out the dark ceremony?",
+   "aliases": [
+    "who is performing the dark ceremony",
+    "gordunni ritual leader"
+   ],
+   "answer": "Rok Orhan makes out from the plans that the Gordunni mage-lords conduct it."
+  },
+  {
+   "q": "What orb is Rok Orhan after?",
+   "aliases": [
+    "why get gordunni orb",
+    "purpose of gordunni orb"
+   ],
+   "answer": "An orb taken from one of the Gordunni mage-lords. The orb of a mage holds great power, and Rok Orhan expects it to teach more about the ceremony and the Gordunni's magic."
+  },
+  {
+   "q": "What follows Dark Ceremony?",
+   "aliases": [
+    "next quest after dark ceremony",
+    "dark ceremony chain"
+   ],
+   "answer": "The chain goes on with The Gordunni Orb."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "camp mojache",
+  "dark ceremony",
+  "feralas",
+  "gordunni",
+  "gordunni orb",
+  "mage-lord",
+  "rok orhan"
+ ],
+ "related": [
+  "quest:2978",
+  "quest:3002",
+  "subzone:camp-mojache",
+  "zone:feralas"
+ ],
+ "attribution": [
+  "Dark Ceremony"
+ ]
+}

@@ -1,0 +1,76 @@
+{
+ "key": "quest:1289",
+ "type": "quest",
+ "name": "Vimes's Report",
+ "era": "classic",
+ "zone": "dustwallow",
+ "meta": {
+  "ids": [
+   1289
+  ],
+  "level": "38",
+  "faction": "Alliance",
+  "start": "Lady Jaina Proudmoore",
+  "end": "Captain Garran Vimes",
+  "previous": "Vimes's Report",
+  "next": "",
+  "wiki": "Vimes's Report (2)",
+  "chain": [],
+  "prev_q": [
+   "Vimes's Report"
+  ],
+  "category": "Dustwallow Marsh"
+ },
+ "summary": "Lady Jaina Proudmoore has read Captain Garran Vimes's report and thanks you for your help with the investigation. She asks you to return to Vimes and help get to the bottom of the mystery.",
+ "sections": [
+  {
+   "title": "Back to the Captain",
+   "body": "Going by Captain Vimes's report, Lady Proudmoore sees that you have been a great help to his investigation, and she thanks you for it. She is easier in her mind knowing the matter rests in such capable hands. She asks you to return to Captain Vimes in Theramore and help him get to the bottom of this mystery.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who sends you back to Captain Vimes?",
+   "aliases": [
+    "who gives vimes report",
+    "jaina quest giver",
+    "who sends me to vimes"
+   ],
+   "answer": "Lady Jaina Proudmoore, once she has read Vimes's report in Theramore."
+  },
+  {
+   "q": "What does Lady Jaina think of the report?",
+   "aliases": [
+    "jaina reaction",
+    "what does jaina say about vimes report"
+   ],
+   "answer": "She says you have been a great help to the investigation and thanks you for it. Knowing the matter is in capable hands lets her rest easier."
+  },
+  {
+   "q": "Where do you find Captain Garran Vimes?",
+   "aliases": [
+    "where is captain vimes",
+    "captain vimes location",
+    "where to turn in vimes report"
+   ],
+   "answer": "Captain Garran Vimes is in Theramore."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "captain garran vimes",
+  "dustwallow marsh",
+  "investigation",
+  "lady jaina proudmoore",
+  "theramore",
+  "vimes's report"
+ ],
+ "related": [
+  "quest:1288",
+  "zone:dustwallow"
+ ],
+ "attribution": [
+  "Wowpedia: Vimes's Report (2)"
+ ]
+}

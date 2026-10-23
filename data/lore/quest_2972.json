@@ -1,0 +1,101 @@
+{
+ "key": "quest:2972",
+ "type": "quest",
+ "name": "Doling Justice",
+ "era": "classic",
+ "zone": "feralas",
+ "meta": {
+  "ids": [
+   2972
+  ],
+  "level": "47",
+  "faction": "Alliance",
+  "start": "Jer'kai Moonweaver",
+  "end": "Tyrande Whisperwind",
+  "previous": "Doling Justice",
+  "next": "An Orphan Looking For a Home",
+  "wiki": "Doling Justice (2)",
+  "chain": [],
+  "prev_q": [
+   "Doling Justice"
+  ],
+  "next_q": [
+   "An Orphan Looking For a Home"
+  ],
+  "category": "Feralas",
+  "chain_tpl": [
+   "Freedom for All Creatures"
+  ]
+ },
+ "summary": "Out in the wilderness, Jer'kai Moonweaver and Kindal have little to give in thanks, so Jer'kai hands you a signet ring. It is yours to carry to High Priestess Tyrande Whisperwind at the Temple of the Moon in Darnassus, where it will tell her that the two of them are well and lend weight to your story. This follows Doling Justice.",
+ "sections": [
+  {
+   "title": "A Ring for the High Priestess",
+   "body": "Jer'kai Moonweaver and Kindal cannot offer much out in the wilds of Feralas, but they do not want you to feel unappreciated. Jer'kai hands over a signet ring and points you toward Darnassus, where High Priestess Tyrande Whisperwind waits in the Temple of the Moon. The ring will show her that the pair are well, and it backs up the tale you will tell.",
+   "spoiler": 0
+  },
+  {
+   "title": "Tyrande's Answer",
+   "body": "Tyrande is pleased that you helped dragonkind and one of her own priestesses, and says Jer'kai was right to send you. She promises that the ring will be returned to Jer'kai. Scouts are soon to head toward Feralas, and the ring will be one more matter for them to look into.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who gives the signet ring?",
+   "aliases": [
+    "who starts this quest",
+    "quest giver"
+   ],
+   "answer": "Jer'kai Moonweaver, in Feralas, as thanks from Jer'kai and Kindal."
+  },
+  {
+   "q": "Where does the signet ring go?",
+   "aliases": [
+    "where do I take the ring",
+    "turn in location",
+    "who gets jerkai's signet ring"
+   ],
+   "answer": "To High Priestess Tyrande Whisperwind, found at the Temple of the Moon in Darnassus."
+  },
+  {
+   "q": "Why does Jer'kai give you the ring?",
+   "aliases": [
+    "purpose of the signet ring",
+    "why jerkai signet ring"
+   ],
+   "answer": "Jer'kai and Kindal have little to give in the wilderness. The ring shows Tyrande that they are well and gives credit to your story."
+  },
+  {
+   "q": "What comes next in the chain?",
+   "aliases": [
+    "next quest",
+    "where to go next"
+   ],
+   "answer": "The chain goes on with An Orphan Looking For a Home."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "darnassus",
+  "feralas",
+  "jer'kai moonweaver",
+  "kindal moonweaver",
+  "signet ring",
+  "teldrassil",
+  "temple of the moon",
+  "tyrande whisperwind"
+ ],
+ "related": [
+  "npc:tyrande-whisperwind",
+  "subzone:temple-of-the-moon",
+  "quest:3841",
+  "quest:2970",
+  "quest:2969",
+  "zone:feralas",
+  "zone:darnassus"
+ ],
+ "attribution": [
+  "Doling Justice (2)"
+ ]
+}

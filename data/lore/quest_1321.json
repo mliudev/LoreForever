@@ -1,0 +1,77 @@
+{
+ "key": "quest:1321",
+ "type": "quest",
+ "name": "The Black Shield",
+ "era": "classic",
+ "zone": "dustwallow",
+ "meta": {
+  "ids": [
+   1321
+  ],
+  "level": "35",
+  "start": "Krog",
+  "end": "Do'gol",
+  "previous": "The Black Shield",
+  "next": "The Black Shield",
+  "wiki": null
+ },
+ "summary": "Krog looks over the Blackened Iron Shield and sees nothing unusual about it. Krog suggests that the blacksmith Do'gol inspect it, though without much hope, and sends you to Brackenwall Village.",
+ "sections": [
+  {
+   "title": "A Second Opinion",
+   "body": "Krog sees nothing unusual about the shield. Do'gol, the blacksmith, might be able to tell more about it, Krog says, but warns against expecting much. Do'gol is in Brackenwall Village.",
+   "spoiler": 0
+  },
+  {
+   "title": "Do'gol's Answer",
+   "body": "Do'gol calls it a good shield, strong and heavy. Do'gol has no need of it, though, being a maker of shields and not a buyer, and says you should know that.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who sends you to Do'gol with the shield?",
+   "aliases": [
+    "who gives the black shield quest",
+    "where do i start the black shield",
+    "black shield questgiver"
+   ],
+   "answer": "Krog, who looked over the Blackened Iron Shield and found nothing unusual about it."
+  },
+  {
+   "q": "Where can Do'gol be found?",
+   "aliases": [
+    "dogol location",
+    "where is dogol",
+    "find dogol"
+   ],
+   "answer": "Do'gol is the blacksmith in Brackenwall Village."
+  },
+  {
+   "q": "Why does Krog send you to Do'gol?",
+   "aliases": [
+    "why visit dogol",
+    "why show the shield to the blacksmith"
+   ],
+   "answer": "Krog hopes the blacksmith can tell more about the shield, though Krog does not expect much to come of it."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "black shield",
+  "blackened iron shield",
+  "brackenwall village",
+  "do'gol",
+  "dustwallow marsh",
+  "krog"
+ ],
+ "related": [
+  "quest:1251",
+  "quest:1322",
+  "subzone:brackenwall-village",
+  "zone:dustwallow"
+ ],
+ "attribution": [
+  "Classic quest text: The Black Shield"
+ ]
+}

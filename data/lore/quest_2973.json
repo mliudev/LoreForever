@@ -1,0 +1,88 @@
+{
+ "key": "quest:2973",
+ "type": "quest",
+ "name": "A New Cloak's Sheen",
+ "era": "classic",
+ "zone": "feralas",
+ "meta": {
+  "ids": [
+   2973
+  ],
+  "level": "45",
+  "start": "Krueg Skullsplitter",
+  "end": "Krueg Skullsplitter",
+  "next": "A Grim Discovery (Classic)",
+  "wiki": null,
+  "previous": ""
+ },
+ "summary": "Krueg Skullsplitter has come down to Feralas with companions, sent by their masters in Orgrimmar. Krueg plans a cloak for life-mate Korrin and asks you for ten Iridescent Sprite Darter Wings.",
+ "sections": [
+  {
+   "title": "A Cloak for Korrin",
+   "body": "Krueg and companions came down to Feralas, sent by their masters in Orgrimmar. Krueg's life-mate Korrin loves new clothes, so Krueg plans a cloak adorned with the delicate wings of faerie dragons. The sprite darters with the beautiful wings Krueg wants live west of Camp Mojache, and Krueg asks you for ten Iridescent Sprite Darter Wings.",
+   "spoiler": 0
+  },
+  {
+   "title": "Krueg's Warning",
+   "body": "Krueg cautions that provoked sprite darters are risky. Krueg says to be even more careful around night elves nearby, who tend to hole up in the forests too.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Krueg Skullsplitter?",
+   "aliases": [
+    "who is krueg",
+    "krueg skullsplitter lore",
+    "krueg in feralas"
+   ],
+   "answer": "Krueg Skullsplitter is at Camp Mojache. Krueg came down to Feralas with companions, sent by their masters in Orgrimmar."
+  },
+  {
+   "q": "Why does Krueg want sprite darter wings?",
+   "aliases": [
+    "why need darter wings",
+    "sprite darter wing purpose",
+    "what is krueg making"
+   ],
+   "answer": "Krueg plans a cloak for life-mate Korrin, who loves new clothes, adorned with faerie dragon wings."
+  },
+  {
+   "q": "Where are the sprite darters located?",
+   "aliases": [
+    "where to find sprite darters",
+    "sprite darter location",
+    "where are faerie dragons in feralas"
+   ],
+   "answer": "West of Camp Mojache."
+  },
+  {
+   "q": "What dangers does Krueg warn about?",
+   "aliases": [
+    "krueg warnings",
+    "threats in the forest feralas"
+   ],
+   "answer": "Krueg says provoked sprite darters are risky, and that night elves nearby, who also tend to hole up in the forests, call for even more care."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "camp mojache",
+  "cloak",
+  "faerie dragon",
+  "feralas",
+  "iridescent wings",
+  "korrin",
+  "krueg skullsplitter",
+  "sprite darter"
+ ],
+ "related": [
+  "subzone:camp-mojache",
+  "npc:sprite-darter",
+  "zone:feralas",
+  "zone:orgrimmar"
+ ],
+ "attribution": [
+  "Classic quest text: A New Cloak's Sheen"
+ ]
+}

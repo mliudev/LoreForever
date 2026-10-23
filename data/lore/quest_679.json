@@ -1,0 +1,98 @@
+{
+ "key": "quest:679",
+ "type": "quest",
+ "name": "Call to Arms",
+ "era": "classic",
+ "zone": "arathi",
+ "meta": {
+  "ids": [
+   679
+  ],
+  "level": "40",
+  "faction": "Horde",
+  "start": "Drum Fel",
+  "end": "Drum Fel",
+  "previous": "Call to Arms",
+  "next": "",
+  "wiki": "Call to Arms (3)",
+  "chain": [
+   "The Hammer May Fall",
+   "Call to Arms (1)",
+   "Call to Arms (2)",
+   "Call to Arms (3)",
+   "The Real Threat (Classic)"
+  ],
+  "category": "Arathi Highlands",
+  "prev_q": [
+   "Call to Arms"
+  ]
+ },
+ "summary": "Following the previous Call to Arms, Drum Fel at Hammerfall declares that it is time to strike the head from the beast. He sends you after the Boulderfist lords and shaman who lair in the ruins of Stromgarde.",
+ "sections": [
+  {
+   "title": "The Head of the Beast",
+   "body": "Drum Fel says you have proven able enough to help deliver one last great blow. Those leading the attacks have made their lair in the ruins of Stromgarde, which he calls a symbol of human frailty. Hunt down the Boulderfist lords and the shaman who serve them, for they would try to drive the Horde out of these lands.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who sends you to fight the Boulderfist leaders?",
+   "aliases": [
+    "who gives call to arms",
+    "drum fel quest",
+    "who starts call to arms 3"
+   ],
+   "answer": "Drum Fel, at the Horde outpost of Hammerfall in the Arathi Highlands."
+  },
+  {
+   "q": "Where are the Boulderfist lords and shaman located?",
+   "aliases": [
+    "where are boulderfist lords",
+    "boulderfist shaman location",
+    "where to find ogre leaders"
+   ],
+   "answer": "Drum Fel says those leading the attacks are holed up in the ruins of Stromgarde."
+  },
+  {
+   "q": "Where does this step fit into the chain?",
+   "aliases": [
+    "what came before call to arms 3",
+    "call to arms chain",
+    "hammerfall ogre chain"
+   ],
+   "answer": "It follows the previous Call to Arms and is the last step in the chain that begins with Tallow in Tarren Mill."
+  },
+  {
+   "q": "What does Drum Fel want done to the Boulderfist leaders?",
+   "aliases": [
+    "why kill boulderfist lords",
+    "why attack stromgarde ogres"
+   ],
+   "answer": "He wants the lords and shaman leading the attacks killed as one last great blow, because they would drive the Horde from these lands."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "arathi highlands",
+  "boulderfist",
+  "boulderfist lords",
+  "boulderfist shaman",
+  "drum fel",
+  "hammerfall",
+  "stromgarde"
+ ],
+ "related": [
+  "quest:677",
+  "subzone:hammerfall",
+  "npc:drum-fel",
+  "quest:680",
+  "quest:676",
+  "npc:tallow",
+  "subzone:tarren-mill",
+  "zone:arathi"
+ ],
+ "attribution": [
+  "Call to Arms (3)"
+ ]
+}

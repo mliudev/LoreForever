@@ -1,0 +1,112 @@
+{
+ "key": "quest:585",
+ "type": "quest",
+ "name": "Speaking with Nezzliok",
+ "era": "classic",
+ "zone": "stranglethorn",
+ "meta": {
+  "ids": [
+   585
+  ],
+  "level": "40",
+  "faction": "Horde",
+  "start": "Bubbling Cauldron",
+  "end": "Bubbling Cauldron",
+  "previous": "Bloodscalp Clan Heads",
+  "next": "The Fate of Yenniku",
+  "wiki": "Speaking with Nezzliok (Classic)",
+  "chain": [],
+  "prev_q": [
+   "Bloodscalp Clan Heads"
+  ],
+  "next_q": [
+   "The Fate of Yenniku"
+  ],
+  "category": "Stranglethorn Vale",
+  "chain_tpl": [
+   "Fate of Yenniku"
+  ]
+ },
+ "summary": "After defeating the Bloodscalp witch doctor, his severed head speaks from the bubbling cauldron at Grom'gol Base Camp. He claims to know where the lost Darkspear child was taken, but he refuses to give up the secret without a grim tribute.",
+ "sections": [
+  {
+   "title": "A Spirit's Price",
+   "body": "Though bound within the bubbling cauldron following the hunt for Bloodscalp Clan Heads, Nezzliok is far from cooperative. He admits knowing where Yenniku was taken, yet he demands appeasement before parting with the information. He commands that three trophy skulls be taken from the rival Skullsplitter tribe and brought to his resting place, ensuring his departed spirit will command thralls in the Nether.",
+   "spoiler": 0
+  },
+  {
+   "title": "Skulls of the Rivals",
+   "body": "Nezzliok demands one skull taken directly from the Skullsplitter trophy pile at Balia'mah, a second from Ziata'jai, and a third from Zul'Mamwe. Only when all three offerings rest alongside his own head will the dead witch doctor consider his spirit satisfied.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Nezzliok?",
+   "aliases": [
+    "nezzliok",
+    "witch doctor nezzliok",
+    "nezzliok lore"
+   ],
+   "answer": "Nezzliok was a witch doctor of the Bloodscalp tribe. After falling in battle, his severed head was placed into a bubbling cauldron at Grom'gol Base Camp, where his bound spirit continues to speak."
+  },
+  {
+   "q": "What does Nezzliok demand?",
+   "aliases": [
+    "what does nezzliok want",
+    "nezzliok trophies",
+    "speaking with nezzliok objective"
+   ],
+   "answer": "He demands three trophy skulls stolen from the camps of his hated rivals, the Skullsplitters: one from Balia'mah, one from Ziata'jai, and one from Zul'Mamwe."
+  },
+  {
+   "q": "Why does Nezzliok want Skullsplitter trophies?",
+   "aliases": [
+    "why trophy skulls",
+    "why nezzliok wants skulls"
+   ],
+   "answer": "Nezzliok wants the trophy skulls placed with him so that when his spirit passes into the Nether, he will possess three servants bound to him in death."
+  },
+  {
+   "q": "Where does this happen?",
+   "aliases": [
+    "where is nezzliok",
+    "bubbling cauldron location"
+   ],
+   "answer": "The encounter takes place at the bubbling cauldron situated in Grom'gol Base Camp, deep in Stranglethorn Vale."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Horde",
+   "text": "The Horde relies on bargaining with a bound enemy spirit at Grom'gol Base Camp to unravel the disappearance of Yenniku, the son of the Darkspear chieftain."
+  },
+  {
+   "target": "race:Troll",
+   "text": "Darkspear trolls must barter with the severed head of a hostile Bloodscalp witch doctor to uncover what became of their chieftain's stolen son."
+  }
+ ],
+ "keywords": [
+  "balia'mah",
+  "bloodscalp",
+  "cauldron",
+  "grom'gol",
+  "nezzliok",
+  "skullsplitter",
+  "stranglethorn",
+  "yenniku",
+  "ziata'jai",
+  "zul'mamwe"
+ ],
+ "related": [
+  "quest:584",
+  "quest:586",
+  "quest:588",
+  "subzone:grom-gol-base-camp",
+  "topic:darkspear-tribe",
+  "zone:stranglethorn"
+ ],
+ "attribution": [
+  "Speaking with Nezzliok (Classic)"
+ ]
+}

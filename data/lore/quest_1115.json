@@ -1,0 +1,110 @@
+{
+ "key": "quest:1115",
+ "type": "quest",
+ "name": "The Rumormonger",
+ "era": "classic",
+ "zone": "thousandneedles",
+ "meta": {
+  "ids": [
+   1115
+  ],
+  "level": "36",
+  "faction": null,
+  "start": "Kravel Koalbeard",
+  "end": "Krazek",
+  "previous": "Delivery to the Gnomes",
+  "next": "Dream Dust in the Swamp",
+  "wiki": "The Rumormonger",
+  "chain": [
+   "Kravel Koalbeard",
+   "Mirage Raceway",
+   "Thousand Needles"
+  ],
+  "prev_q": [
+   "Delivery to the Gnomes"
+  ],
+  "next_q": [
+   "Dream Dust in the Swamp"
+  ],
+  "category": "Thousand Needles",
+  "chain_tpl": [
+   "Errands for Kravel"
+  ]
+ },
+ "summary": "Having done a service for the gnomes, Kravel Koalbeard now wants to do the goblins a favor. He has heard that Nazz Steamboil, the goblin racer pilot, once went by another name, and wonders whether it is a secret worth money. He sends you to Krazek of Booty Bay, who would know.",
+ "sections": [
+  {
+   "title": "A Name Worth Asking About",
+   "body": "Kravel Koalbeard says the goblins are next in line for a favor. Nazz Steamboil, the goblin racer pilot, once went by another name, he hears, and Kravel wonders why it changed, whether it hides a secret, and whether Nazz cares to keep it hidden. The one who would know the truth, Kravel says, is Krazek, down at the southern tip of Stranglethorn in Booty Bay. Useful information might turn a profit. Look for Krazek at the Salty Sailor Tavern.",
+   "spoiler": 0
+  },
+  {
+   "title": "Krazek's Answer",
+   "body": "Krazek knows of Nazz Steamboil as a racer pilot out on the Shimmering Flats. Krazek says something might be found out, but warns it will be neither easy, nor fast, nor cheap.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who sends you to Krazek?",
+   "aliases": [
+    "who gives the rumormonger",
+    "rumormonger questgiver",
+    "who starts the quest"
+   ],
+   "answer": "Kravel Koalbeard, a dwarf at the Mirage Raceway, out on the Shimmering Flats, sends you."
+  },
+  {
+   "q": "Why is Kravel interested in Nazz Steamboil?",
+   "aliases": [
+    "why nazz steamboil",
+    "kravel motive nazz",
+    "what is the rumor"
+   ],
+   "answer": "Kravel heard that the goblin racer pilot did not always use that name. He wonders whether it is a secret, and whether Nazz values it enough to make it profitable."
+  },
+  {
+   "q": "Where can Krazek be found?",
+   "aliases": [
+    "krazek location",
+    "where is krazek",
+    "how to find krazek"
+   ],
+   "answer": "Krazek is at the Salty Sailor Tavern, in Booty Bay at the southern tip of Stranglethorn."
+  },
+  {
+   "q": "What comes before this?",
+   "aliases": [
+    "prereq for the rumormonger",
+    "rumormonger previous quest",
+    "what quest comes first"
+   ],
+   "answer": "It follows Delivery to the Gnomes, the service done for the gnomes."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "booty bay",
+  "kravel koalbeard",
+  "krazek",
+  "mirage raceway",
+  "nazz steamboil",
+  "salty sailor tavern",
+  "shimmering flats",
+  "stranglethorn vale",
+  "thousand needles"
+ ],
+ "related": [
+  "npc:kravel-koalbeard",
+  "subzone:mirage-raceway",
+  "subzone:booty-bay",
+  "subzone:salty-sailor-tavern",
+  "quest:1114",
+  "quest:1116",
+  "zone:thousandneedles",
+  "zone:stranglethorn"
+ ],
+ "attribution": [
+  "The Rumormonger"
+ ]
+}

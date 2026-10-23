@@ -1,0 +1,77 @@
+{
+ "key": "quest:2748",
+ "type": "quest",
+ "name": "A Fine Egg",
+ "era": "classic",
+ "zone": "tanaris",
+ "meta": {
+  "ids": [
+   2748
+  ],
+  "level": "60",
+  "faction": null,
+  "start": "Curgle Cranklehop",
+  "end": "Curgle Cranklehop",
+  "previous": "The Super Egg-O-Matic",
+  "next": "",
+  "wiki": "A Fine Egg",
+  "chain": [
+   "The Super Egg-O-Matic",
+   "A Fine Egg"
+  ],
+  "category": "Tanaris",
+  "prev_q": [
+   "The Super Egg-O-Matic"
+  ]
+ },
+ "summary": "Curgle Cranklehop speaks of the fine egg, which stands a chance of hatching free of the Gordunni ogres' evil incantations.",
+ "sections": [
+  {
+   "title": "What Makes It Fine",
+   "body": "Curgle Cranklehop describes a fine egg as one with a good chance of hatching untouched by the wicked chanting of the Gordunni ogres, provided conditions are ideal.",
+   "spoiler": 0
+  },
+  {
+   "title": "What Curgle Does Next",
+   "body": "Curgle takes the egg and plans to send it to Darnassus, where it is hoped that it will soon hatch.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "What makes an egg considered a fine egg?",
+   "aliases": [
+    "what is a fine egg",
+    "fine egg lore",
+    "why fine egg"
+   ],
+   "answer": "With ideal conditions it can hatch free of the evil that Gordunni ogre incantations bring."
+  },
+  {
+   "q": "What came before this step?",
+   "aliases": [
+    "fine egg prerequisite",
+    "previous quest fine egg"
+   ],
+   "answer": "It follows The Super Egg-O-Matic."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "curgle cranklehop",
+  "darnassus",
+  "fine egg",
+  "gordunni",
+  "ogre incantations",
+  "super egg-o-matic",
+  "tanaris"
+ ],
+ "related": [
+  "quest:2741",
+  "zone:darnassus",
+  "zone:tanaris"
+ ],
+ "attribution": [
+  "A Fine Egg"
+ ]
+}

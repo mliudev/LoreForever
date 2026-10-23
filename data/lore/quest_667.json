@@ -1,0 +1,94 @@
+{
+ "key": "quest:667",
+ "type": "quest",
+ "name": "Death From Below",
+ "era": "classic",
+ "zone": "arathi",
+ "meta": {
+  "ids": [
+   667
+  ],
+  "level": "44",
+  "faction": null,
+  "start": "Shakes O'Breen",
+  "end": "Shakes O'Breen",
+  "previous": "Sunken Treasure (5)",
+  "next": "",
+  "wiki": "Death From Below (Classic)",
+  "chain": [],
+  "prev_q": [
+   "Sunken Treasure (5)"
+  ],
+  "category": "Arathi Highlands",
+  "chain_tpl": [
+   "Sunken Treasure"
+  ]
+ },
+ "summary": "In the Arathi Highlands, Shakes O'Breen expects the Daggerspine naga to attack from the sea, and the crew cannot sail home to Booty Bay without O'Breen's knowledge of the waters. You stay aboard beside O'Breen, man the cannon and drive the naga back.",
+ "sections": [
+  {
+   "title": "Holding the Deck",
+   "body": "After Sunken Treasure, Shakes O'Breen sees the Daggerspines gathering to attack. Naga have a name for ruthlessness and will keep coming until O'Breen is dead. O'Breen does not value their own life above those of the crew, but asks you to defend them, since the crew cannot reach Booty Bay without that knowledge of the seas. You wait aboard with O'Breen for the naga to come from the water.",
+   "spoiler": 0
+  },
+  {
+   "title": "Afterward",
+   "body": "When the attack is over, O'Breen says the ship will leave as soon as the tide rises. O'Breen would have offered you a place on the crew, but sees that you have bigger fish to fry.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is attacking Shakes O'Breen?",
+   "aliases": [
+    "who attacks shakes",
+    "who are the attackers",
+    "daggerspine attack"
+   ],
+   "answer": "The Daggerspine naga are gathering to attack, and they will keep at it until Shakes O'Breen is dead. They come from the sea."
+  },
+  {
+   "q": "Why is protecting Shakes O'Breen so vital to the crew?",
+   "aliases": [
+    "why protect shakes obreen",
+    "why is shakes important",
+    "shakes obreen navigation"
+   ],
+   "answer": "Shakes O'Breen does not value their own life above those of the crew, but without O'Breen's knowledge of the seas the crew cannot sail back to Booty Bay."
+  },
+  {
+   "q": "How do you repel the naga assault?",
+   "aliases": [
+    "how to beat death from below",
+    "how to defend shakes",
+    "cannon defense"
+   ],
+   "answer": "You remain up on the ship with Shakes O'Breen and man the cannon to drive the naga back as they come from the sea."
+  },
+  {
+   "q": "Where does this defense take place?",
+   "aliases": [
+    "where is death from below",
+    "death from below location"
+   ],
+   "answer": "On Shakes O'Breen's ship in the Arathi Highlands, with the naga coming from the sea."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "arathi highlands",
+  "booty bay",
+  "daggerspine",
+  "naga",
+  "shakes o'breen",
+  "ship cannon"
+ ],
+ "related": [
+  "topic:naga",
+  "zone:arathi",
+  "subzone:booty-bay"
+ ],
+ "attribution": [
+  "Death From Below (Classic)"
+ ]
+}

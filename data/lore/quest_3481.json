@@ -1,0 +1,84 @@
+{
+ "key": "quest:3481",
+ "type": "quest",
+ "name": "Trinkets...",
+ "era": "classic",
+ "zone": "searinggorge",
+ "meta": {
+  "ids": [
+   3481
+  ],
+  "level": "50",
+  "faction": null,
+  "start": "Hoard of the Black Dragonflight",
+  "end": "Hoard of the Black Dragonflight",
+  "previous": "Set Them Ablaze! (Classic)",
+  "next": "",
+  "wiki": "Trinkets...",
+  "chain": [],
+  "prev_q": [
+   "Set Them Ablaze! (Classic)"
+  ],
+  "category": "Searing Gorge",
+  "chain_tpl": [
+   "Torch of Retribution"
+  ]
+ },
+ "summary": "After Set Them Ablaze!, a chest called the Hoard of the Black Dragonflight waits for you in Searing Gorge. It looks locked.",
+ "sections": [
+  {
+   "title": "A Locked Chest",
+   "body": "The Hoard of the Black Dragonflight looks to be locked, and it is yours to open. The chest comes into being once the towers of Searing Gorge are burning.",
+   "spoiler": 0
+  },
+  {
+   "title": "At Your Touch",
+   "body": "The chest gives way at your touch, with no key needed. Inside lies a black dragonflight molt. A passing thought wonders how much cheese could be in there, and the only way to learn is to look.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is the Hoard of the Black Dragonflight?",
+   "aliases": [
+    "what is hoard of the black dragonflight",
+    "who owns the chest",
+    "trinkets chest location"
+   ],
+   "answer": "A chest in Searing Gorge that appears after Set Them Ablaze!. It looks to be locked."
+  },
+  {
+   "q": "What comes before the chest?",
+   "aliases": [
+    "trinkets prerequisite",
+    "prior quest",
+    "what leads to trinkets"
+   ],
+   "answer": "Set Them Ablaze!, the fire-setting against the towers of Searing Gorge."
+  },
+  {
+   "q": "What are you asked to do with the chest?",
+   "aliases": [
+    "is the chest locked",
+    "how to open the chest",
+    "what to do with the chest"
+   ],
+   "answer": "Open it. The chest looks locked, but opening it is all that is asked of you."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "hoard of the black dragonflight",
+  "searing gorge",
+  "set them ablaze",
+  "trinkets"
+ ],
+ "related": [
+  "quest:3463",
+  "zone:searinggorge",
+  "topic:black-dragonflight"
+ ],
+ "attribution": [
+  "Trinkets..."
+ ]
+}

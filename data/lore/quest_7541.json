@@ -1,0 +1,77 @@
+{
+ "key": "quest:7541",
+ "type": "quest",
+ "name": "Service to the Horde",
+ "era": "classic",
+ "zone": "dustwallow",
+ "meta": {
+  "ids": [
+   7541
+  ],
+  "level": "40",
+  "faction": "Horde",
+  "start": "Zor Lonetree",
+  "end": "Zor Lonetree",
+  "previous": "Report to Zor",
+  "next": "",
+  "wiki": "Service to the Horde",
+  "chain": [],
+  "prev_q": [
+   "Report to Zor"
+  ],
+  "category": "Dustwallow Marsh",
+  "chain_tpl": [
+   "Service to the Horde"
+  ]
+ },
+ "summary": "The jeweled pendant now sits with Zor Lonetree in Orgrimmar, delivered after Report to Zor, and Zor has one more word for you.",
+ "sections": [
+  {
+   "title": "Zor Lonetree in Orgrimmar",
+   "body": "You carried the jeweled pendant to Zor Lonetree in Orgrimmar, and the pendant now sits with Zor. Return to Zor Lonetree and there is more to hear about what you have done for the Horde.",
+   "spoiler": 0
+  },
+  {
+   "title": "Zor's Last Word",
+   "body": "Zor says the scholars will need time to study the pendant. For your service to the Horde, Zor offers a small token, and says that what you have done brings honor to you and to the Horde.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who has the pendant now?",
+   "aliases": [
+    "who takes the pendant",
+    "who gives this quest",
+    "zor lonetree role"
+   ],
+   "answer": "Zor Lonetree in Orgrimmar, after you carried it there from Nazeer Bloodpike in Brackenwall Village."
+  },
+  {
+   "q": "What comes before this quest?",
+   "aliases": [
+    "what quest came before",
+    "service to the horde prerequisite",
+    "previous quest"
+   ],
+   "answer": "It follows Report to Zor, where you took the jeweled pendant to Zor Lonetree."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "dustwallow marsh",
+  "pendant",
+  "report to zor",
+  "service to the horde",
+  "zor lonetree"
+ ],
+ "related": [
+  "npc:zor-lonetree",
+  "quest:1262",
+  "topic:horde",
+  "zone:dustwallow"
+ ],
+ "attribution": [
+  "Service to the Horde"
+ ]
+}

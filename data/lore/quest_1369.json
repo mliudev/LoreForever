@@ -1,0 +1,101 @@
+{
+ "key": "quest:1369",
+ "type": "quest",
+ "name": "Broken Tears",
+ "era": "classic",
+ "zone": "desolace",
+ "meta": {
+  "ids": [
+   1369
+  ],
+  "level": "33",
+  "faction": null,
+  "start": "Warug",
+  "end": "Warug",
+  "previous": "Assault on the Kolkar, Magram Alliance",
+  "next": "Gizmo for Warug",
+  "wiki": "Broken Tears (quest)",
+  "chain": [],
+  "prev_q": [
+   "Assault on the Kolkar",
+   "Magram Alliance"
+  ],
+  "next_q": [
+   "Gizmo for Warug"
+  ],
+  "category": "Desolace",
+  "chain_tpl": [
+   "Magram Alliance"
+  ]
+ },
+ "summary": "Warug says the Gelkis foolishly believe the centaur mother, Theradras, protects them. He sends you into the cave in their village to destroy the crystals they hoard there, the tears of Theradras, and bring him three of the broken pieces.",
+ "sections": [
+  {
+   "title": "Crystals in the Cave",
+   "body": "Warug scorns the Gelkis for trusting Theradras, mother of the centaur, to protect them. To him no one protects the centaur, and the Magram, being the strongest, need no protection. He sends you to the cave in the Gelkis village, where they keep a hoard of crystals called the tears of Theradras. Smash them and bring Warug three broken pieces. He will only trust you with this if you are no enemy of the Magram.",
+   "spoiler": 0
+  },
+  {
+   "title": "Warug's Boast",
+   "body": "Warug is delighted: with the tears broken, the Gelkis will see that Theradras cannot help them, and no tears of hers will fall when the Magram crush them. He declares the Magram will rule, and calls you wise to side with the strongest.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Warug?",
+   "aliases": [
+    "warug",
+    "who gives broken tears",
+    "broken tears quest giver"
+   ],
+   "answer": "A Magram centaur in Magram Village in Desolace. He asks you to destroy the tears of Theradras in the Gelkis cave."
+  },
+  {
+   "q": "What are the tears of Theradras?",
+   "aliases": [
+    "tears of theradras",
+    "broken tears lore",
+    "gelkis crystals"
+   ],
+   "answer": "Crystals the Gelkis hoard in a cave in their village."
+  },
+  {
+   "q": "Why does Warug want the tears destroyed?",
+   "aliases": [
+    "why destroy the tears",
+    "magram motive",
+    "why break crystals"
+   ],
+   "answer": "The Gelkis think the centaur mother, Theradras, protects them. Warug calls them stupid, says the Magram need no protection, and wants to show the Gelkis they are wrong."
+  },
+  {
+   "q": "Where are the crystals found?",
+   "aliases": [
+    "where are broken tears",
+    "gelkis cave location",
+    "where are the tears"
+   ],
+   "answer": "In the cave in the Gelkis village. Warug wants three broken pieces brought back to him."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "broken tears",
+  "centaur",
+  "desolace",
+  "gelkis",
+  "magram",
+  "theradras",
+  "warug"
+ ],
+ "related": [
+  "subzone:magram-village",
+  "topic:centaur",
+  "quest:1371",
+  "zone:desolace"
+ ],
+ "attribution": [
+  "Broken Tears (quest)"
+ ]
+}

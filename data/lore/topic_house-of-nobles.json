@@ -7,16 +7,11 @@
  "meta": {
   "wiki": "House of Nobles"
  },
- "summary": "The House of Nobles is the hereditary aristocratic council that helps administer the kingdom of Stormwind from Stormwind Keep. Holding immense leverage over regional land, taxation, and trade, their refusal to pay the rebuilt city's laborers ignited the bloody riots that gave birth to the Defias Brotherhood.",
+ "summary": "The House of Nobles is the hereditary aristocratic council that helps administer the kingdom of Stormwind from Stormwind Keep. Holding immense leverage over regional land, taxation, and trade, their refusal to pay the rebuilt city's laborers ignited the bloody riots that ultimately shook the realm and birthed the shadowy threat known as the Defias Brotherhood.",
  "sections": [
   {
    "title": "Aristocrats of the Realm",
    "body": "Composed of Stormwind's most powerful patrician bloodlines, the House of Nobles serves as the primary advisory body to the Crown. Because the aristocracy owns the majority of the arable land throughout Elwynn, Westfall, and Duskwood, they wield outsized authority over commerce, regional magistrates, and royal decrees. While the boy-king Anduin Wrynn and Highlord Bolvar Fordragon officially rule the kingdom, the council routinely ties the throne's hands in red tape, asserting the power to stall trials, block executions, and meddle in provincial administration.",
-   "spoiler": 0
-  },
-  {
-   "title": "The Labor Revolt",
-   "body": "Following the Second War, the House of Nobles contracted Guildmaster Edwin VanCleef and the Stonemasons Guild to rebuild Stormwind City from its ashes. However, the nobility simultaneously incurred staggering debts while expanding the kingdom's military frontier south into Stranglethorn. When the gleaming capital was finished, the nobles balked at the invoice and refused to pay the workers their full wages. Enraged by the betrayal, the masons rioted in the streets, prompting the nobility to banish the guild, driving the ruined workers into Westfall to form the Defias Brotherhood.",
    "spoiler": 0
   },
   {
@@ -27,6 +22,11 @@
   {
    "title": "Whispers of Treason",
    "body": "The council's obstinacy is far from simple greed. In truth, Lady Katrana Prestor—secretly the black dragon Onyxia—has systematically manipulated the House of Nobles to paralyze the kingdom. By stoking the aristocracy's arrogance during the stonemason negotiations and encouraging them to hoard royal funds, she orchestrated the realm's internal paralysis. High-ranking aristocrats like Lord Gregor Lescovar actively conspire alongside the Defias Brotherhood in the shadow of the throne, ensuring no imperial troops march to save the outlying towns.",
+   "spoiler": 1
+  },
+  {
+   "title": "The Labor Revolt",
+   "body": "Following the Second War, the House of Nobles contracted Guildmaster Edwin VanCleef and the Stonemasons Guild to rebuild Stormwind City from its ashes. However, the nobility simultaneously incurred staggering debts while expanding the kingdom's military frontier south into Stranglethorn. When the gleaming capital was finished, the nobles balked at the invoice and refused to pay the workers their full wages. Enraged by the betrayal, the masons rioted in the streets, prompting the nobility to banish the guild, driving the ruined workers into Westfall to form the Defias Brotherhood.",
    "spoiler": 1
   }
  ],

@@ -1,0 +1,92 @@
+{
+ "key": "quest:641",
+ "type": "quest",
+ "name": "Sigil of Thoradin",
+ "era": "classic",
+ "zone": "arathi",
+ "meta": {
+  "ids": [
+   641
+  ],
+  "level": "40",
+  "faction": "Horde",
+  "start": "Tor'gan",
+  "end": "Zengu",
+  "previous": "The Broken Sigil",
+  "next": "Sigil of Arathor (Classic)",
+  "wiki": "Sigil of Thoradin (Classic)",
+  "chain": [],
+  "prev_q": [
+   "The Broken Sigil"
+  ],
+  "next_q": [
+   "Sigil of Arathor (Classic)"
+  ],
+  "category": "Arathi Highlands",
+  "chain_tpl": [
+   "Broken Sigil"
+  ]
+ },
+ "summary": "Tor'gan's reconstruction of the broken sigil worked flawlessly. The restored Sigil of Thoradin can now open the seal on Trollbane's tomb, and he tells you to return it to Zengu in Hammerfall.",
+ "sections": [
+  {
+   "title": "The Restored Sigil",
+   "body": "Tor'gan says the reconstruction worked flawlessly, and the Sigil of Thoradin is now able to open the seal on Trollbane's tomb. Take it back to Zengu in Hammerfall, who no doubt has more for you to do.",
+   "spoiler": 0
+  },
+  {
+   "title": "Halfway There",
+   "body": "Zengu asks if you have the second sigil, and then says they are halfway to taking Trol'kalar out of Trollbane's tomb. The third sigil's whereabouts are uncertain, because those who hold it keep moving about Arathi, but he trusts you will find it.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is the Sigil of Thoradin used for?",
+   "aliases": [
+    "sigil of thoradin purpose",
+    "what does sigil of thoradin do",
+    "why do we need the sigil"
+   ],
+   "answer": "The restored sigil can open the seal on Trollbane's tomb."
+  },
+  {
+   "q": "Who do you bring the Sigil of Thoradin to?",
+   "aliases": [
+    "where do i take the sigil",
+    "who turns in sigil of thoradin",
+    "sigil of thoradin turn in"
+   ],
+   "answer": "Zengu in Hammerfall. Tor'gan, who restored the sigil, tells you to return it to Zengu."
+  },
+  {
+   "q": "Where does this step fit in the search for Trol'kalar?",
+   "aliases": [
+    "sigil chain progress",
+    "how far along is this quest",
+    "what quest is before this"
+   ],
+   "answer": "It follows The Broken Sigil, in which Tor'gan reconstructed the sigil from the pieces you brought him."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "arathi highlands",
+  "hammerfall",
+  "sigil of thoradin",
+  "tor'gan",
+  "trol'kalar",
+  "trollbane's tomb",
+  "zengu"
+ ],
+ "related": [
+  "quest:640",
+  "quest:645",
+  "quest:638",
+  "subzone:hammerfall",
+  "zone:arathi"
+ ],
+ "attribution": [
+  "Sigil of Thoradin (Classic)"
+ ]
+}

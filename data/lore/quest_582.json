@@ -1,0 +1,105 @@
+{
+ "key": "quest:582",
+ "type": "quest",
+ "name": "Headhunting",
+ "era": "classic",
+ "zone": "stranglethorn",
+ "meta": {
+  "ids": [
+   582
+  ],
+  "level": "37",
+  "faction": "Horde",
+  "start": "Nimboya",
+  "end": "Nimboya",
+  "previous": "Hunt for Yenniku (Classic)",
+  "next": "Bloodscalp Clan Heads",
+  "wiki": "Headhunting (Classic)",
+  "chain": [],
+  "prev_q": [
+   "Hunt for Yenniku (Classic)"
+  ],
+  "next_q": [
+   "Bloodscalp Clan Heads"
+  ],
+  "category": "Stranglethorn Vale",
+  "chain_tpl": [
+   "Fate of Yenniku"
+  ]
+ },
+ "summary": "Nimboya at Grom'gol Base Camp needs to determine whether Yenniku, the son of the Darkspear chieftain, is dead. Adventurers are asked to hunt Bloodscalp headhunters and recover their shrunken heads so Nimboya can examine them.",
+ "sections": [
+  {
+   "title": "Searching the Trophies",
+   "body": "Following the search begun in Hunt for Yenniku, Nimboya worries that the chieftain's son may have already perished at the hands of the Bloodscalp tribe. To find out, he asks you to hunt the Bloodscalp Headhunters roaming the ruins of Zuuldaia and Zul'Kunda up the northern coast. By gathering twenty shrunken heads from them, Nimboya hopes to inspect the grisly trophies and confirm whether Yenniku met a violent end, cursing the Bloodscalp chief Gan'zulah if the youth was indeed slain.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is looking for Yenniku?",
+   "aliases": [
+    "who gives headhunting",
+    "nimboya purpose",
+    "why find yenniku"
+   ],
+   "answer": "Nimboya at Grom'gol Base Camp is searching for Yenniku, who is the son of the Darkspear tribe's chieftain."
+  },
+  {
+   "q": "Why does Nimboya want shrunken heads?",
+   "aliases": [
+    "why collect shrunken heads",
+    "shrunken head purpose",
+    "what does nimboya do with heads"
+   ],
+   "answer": "Nimboya plans to inspect the shrunken heads taken from Bloodscalp headhunters to verify whether Yenniku's head is among their trophies."
+  },
+  {
+   "q": "Where can the Bloodscalp Headhunters be found?",
+   "aliases": [
+    "headhunter location",
+    "where are zuuldaia and zulkunda",
+    "where to find shrunken heads"
+   ],
+   "answer": "Bloodscalp Headhunters gather along the northern coast of Stranglethorn Vale, particularly around the ruins of Zuuldaia and Zul'Kunda."
+  },
+  {
+   "q": "Who leads the Bloodscalp tribe mentioned here?",
+   "aliases": [
+    "bloodscalp chief",
+    "who is ganzulah",
+    "ganzulah chief"
+   ],
+   "answer": "The Bloodscalps are led by Chief Gan'zulah, upon whose spirit Nimboya wishes a six-hundred-year curse should Yenniku be dead."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Troll",
+   "text": "The fate of the chief's son is deeply personal to the Darkspear, who must face the Bloodscalp tribe to learn what happened to him."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "Operating out of Grom'gol Base Camp, Horde forces assist their Darkspear allies in discovering whether the chieftain's missing son still lives."
+  }
+ ],
+ "keywords": [
+  "bloodscalp",
+  "gan'zulah",
+  "grom'gol base camp",
+  "headhunting",
+  "nimboya",
+  "shrunken head",
+  "yenniku",
+  "zul'kunda",
+  "zuuldaia"
+ ],
+ "related": [
+  "subzone:grom-gol-base-camp",
+  "quest:584",
+  "zone:stranglethorn"
+ ],
+ "attribution": [
+  "Headhunting (Classic)"
+ ]
+}

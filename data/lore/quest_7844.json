@@ -1,0 +1,104 @@
+{
+ "key": "quest:7844",
+ "type": "quest",
+ "name": "Cannibalistic Cousins",
+ "era": "classic",
+ "zone": "hinterlands",
+ "meta": {
+  "ids": [
+   7844
+  ],
+  "level": "48",
+  "faction": "Horde",
+  "start": "Mystic Yayo'jin",
+  "end": "Mystic Yayo'jin",
+  "previous": "",
+  "next": "",
+  "wiki": "Cannibalistic Cousins",
+  "chain": [],
+  "category": "Hinterlands"
+ },
+ "summary": "Mystic Yayo'jin of Revantusk Village calls the Vilebranch trolls a depraved lot who prey on other trolls and humanoids. With Zul'jin not there to destroy them, she asks you to destroy their Scalpers and Soothsayers near the temples in the north by northeast.",
+ "sections": [
+  {
+   "title": "Three Tribes, One Land",
+   "body": "Three tribes of trolls live in the Hinterlands, and Mystic Yayo'jin says that apart from being trolls in the same land, they have little in common. She calls the Vilebranch, aptly named, a depraved lot who prey on other trolls and humanoids. Zul'jin would have wiped them out with ease, but Zul'jin is not there, and the Revantusk are left to their own devices.",
+   "spoiler": 0
+  },
+  {
+   "title": "Where the Vilebranch Gather",
+   "body": "Yayo'jin asks you to destroy the Vilebranch Scalpers and Soothsayers, who are to be found around the Shaol'watha and Agol'watha temples, in the Hinterlands' north by northeast.",
+   "spoiler": 0
+  },
+  {
+   "title": "Yayo'jin's Praise",
+   "body": "On your return, Yayo'jin declares that even Zul'jin could not have done better.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who offers this quest?",
+   "aliases": [
+    "cannibalistic cousins quest giver",
+    "who gives cannibalistic cousins",
+    "mystic yayojin"
+   ],
+   "answer": "Mystic Yayo'jin, who stands in Revantusk Village."
+  },
+  {
+   "q": "Why does Yayo'jin want the Vilebranch destroyed?",
+   "aliases": [
+    "why revantusk fight vilebranch",
+    "vilebranch cannibalism",
+    "revantusk vilebranch conflict"
+   ],
+   "answer": "She calls the Vilebranch a depraved lot who prey on other trolls and humanoids, and says the filth of the region falls to you to destroy."
+  },
+  {
+   "q": "Where can the Vilebranch trolls be found?",
+   "aliases": [
+    "shaolwatha location",
+    "agolwatha location",
+    "where are vilebranch soothsayers"
+   ],
+   "answer": "Around the Shaol'watha and Agol'watha temples, in the Hinterlands' north by northeast."
+  },
+  {
+   "q": "Which Vilebranch does Yayo'jin want destroyed?",
+   "aliases": [
+    "cannibalistic cousins targets",
+    "who do i kill for cannibalistic cousins"
+   ],
+   "answer": "Vilebranch Scalpers and Vilebranch Soothsayers."
+  },
+  {
+   "q": "Where is Zul'jin?",
+   "aliases": [
+    "is zuljin here",
+    "where is zuljin hinterlands",
+    "zul'jin status"
+   ],
+   "answer": "Not in the Hinterlands for now. Yayo'jin says that if Zul'jin were there, he would wipe the Vilebranch out with ease, but he is not, so the Revantusk are left to their own devices."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "agol'watha",
+  "cannibalistic cousins",
+  "mystic yayo'jin",
+  "revantusk village",
+  "scalper",
+  "shaol'watha",
+  "soothsayer",
+  "vilebranch",
+  "zul'jin"
+ ],
+ "related": [
+  "zone:hinterlands",
+  "topic:troll"
+ ],
+ "attribution": [
+  "Wowpedia: Cannibalistic Cousins"
+ ]
+}

@@ -1,0 +1,83 @@
+{
+ "key": "quest:2935",
+ "type": "quest",
+ "name": "Consult Master Gadrin",
+ "era": "classic",
+ "zone": "hinterlands",
+ "meta": {
+  "ids": [
+   2935
+  ],
+  "level": "45",
+  "faction": "Horde",
+  "start": "Apothecary Lydon",
+  "end": "Master Gadrin",
+  "previous": "Undamaged Venom Sac (quest)",
+  "next": "",
+  "wiki": "Consult Master Gadrin",
+  "chain": [],
+  "prev_q": [
+   "Undamaged Venom Sac (quest)"
+  ],
+  "qtype": "Group",
+  "category": "Hinterlands"
+ },
+ "summary": "Apothecary Lydon found the venom from the broodguards less potent than the sample you first brought, which points to another kind of spider. Lydon sends you to Master Gadrin in Sen'jin Village, in Durotar, who may know more.",
+ "sections": [
+  {
+   "title": "A Search for Potency",
+   "body": "Apothecary Lydon found the venom taken from the broodguards weaker than the sample you brought first, so it must come from a different spider. Lydon wants a fresh sample of the stronger kind. To learn where it comes from, ask a troll well acquainted with the Witherbark: Master Gadrin, in Sen'jin Village, in Durotar. With luck, Gadrin can name the source of that venom.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Why does Apothecary Lydon send you to Master Gadrin?",
+   "aliases": [
+    "why consult gadrin",
+    "why go to senjin",
+    "lydon gadrin"
+   ],
+   "answer": "The broodguard venom was weaker than the first sample, which points to a different spider. Gadrin is a troll well acquainted with the Witherbark and may be able to name the source of that venom."
+  },
+  {
+   "q": "Where is Master Gadrin located?",
+   "aliases": [
+    "where is gadrin",
+    "master gadrin location",
+    "find master gadrin"
+   ],
+   "answer": "Master Gadrin is in Sen'jin Village, in Durotar."
+  },
+  {
+   "q": "What came before this journey?",
+   "aliases": [
+    "prereq",
+    "what was before this",
+    "previous quest"
+   ],
+   "answer": "Before this you brought Apothecary Lydon an undamaged venom sac from the Hinterlands."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "apothecary lydon",
+  "consult master gadrin",
+  "durotar",
+  "hinterlands",
+  "master gadrin",
+  "sen'jin village",
+  "venom",
+  "witherbark"
+ ],
+ "related": [
+  "npc:master-gadrin",
+  "subzone:sen-jin-village",
+  "zone:durotar",
+  "zone:hinterlands",
+  "topic:troll"
+ ],
+ "attribution": [
+  "Consult Master Gadrin"
+ ]
+}

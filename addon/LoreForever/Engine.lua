@@ -696,6 +696,40 @@ function Engine:Finished(key, done)
   return false
 end
 
+-- Whether story beat `id` (ns.DB.beats, lore.beats) is open: the character completed one of its quests, or killed
+-- one of its bosses. `done` is ctx.done: completed quest IDs, plus "boss:<name>" for each boss killed (Context.Done).
+-- A beat nothing opens yet (its quests aren't in our data) stays closed.
+function Engine:BeatOpen(id, done)
+  local b = done and self.db.beats and self.db.beats[id]
+  if not b then return false end
+  for _, q in ipairs(b.d or {}) do
+    if done[q] then return true end
+  end
+  for _, name in ipairs(b.b or {}) do
+    if done["boss:" .. name] then return true end
+  end
+  return false
+end
+
+-- Whether a section or FAQ answer of entry `key` can show without asking. A spoiler tagged with story beats (bt) waits
+-- for all of them, wherever it is (Stormwind's passage about the Defias opens with Westfall's quest); an untagged one
+-- opens when `key` is a quest the character has finished.
+function Engine:Opens(key, item, done)
+  if not item or not item.sp or item.sp == 0 then return true end
+  if item.bt then
+    for _, id in ipairs(item.bt) do
+      if not self:BeatOpen(id, done) then return false end
+    end
+    return true
+  end
+  return self:Finished(key, done)
+end
+
+-- Engine:Opens for entry `key` as a function of the item, for the FAQ lists below.
+function Engine:Opener(key, done)
+  return function(item) return self:Opens(key, item, done) end
+end
+
 -- Replace unknown words with the closest entity-name word ("vancleaf" -> "vancleef").
 function Engine:CorrectTokens(qtoks)
   local out, fixed = {}, {}
@@ -754,13 +788,20 @@ local function forRace(f, race)
   return not f.rc or not race or raceKey(f.rc) == raceKey(race)
 end
 
+-- Whether FAQ `f` can be offered: not a spoiler, or `open` says it can show (Engine:Opener; true opens them all).
+local function isOpen(f, open)
+  if not f.sp then return true end
+  if type(open) == "function" then return open(f) end
+  return open == true
+end
+
 -- Index of the first FAQ tagged with one of `intents` (in that order), the player's own race's version first,
--- skipping gameplay filler and spoilers (unless `open`: a quest you've finished).
+-- skipping gameplay filler and spoilers that aren't open (`open`: Engine:Opener).
 local function taggedFaq(e, intents, race, open)
   for _, it in ipairs(intents) do
     local generic
     for i, f in ipairs(e.faq or {}) do
-      if f.it == it and (open or not f.sp) and not f.gp and forRace(f, race) then
+      if f.it == it and isOpen(f, open) and not f.gp and forRace(f, race) then
         if f.rc then return i end
         generic = generic or i
       end
@@ -786,7 +827,7 @@ function Engine:IntentTarget(intent, scope, ctx, raw, namedKey)
     end
     local e = k and db.entries[k]
     -- The subject's own answer, else its overview ("who leads them?" about a creature whose leader isn't known).
-    if e then return k, taggedFaq(e, intents, ctx.race, self:Finished(k, ctx.done)) or 0 end
+    if e then return k, taggedFaq(e, intents, ctx.race, self:Opener(k, ctx.done)) or 0 end
     -- A target with no entry of its own (a young wolf): the question is still about it, so Ask searches by its name
     -- rather than answering about the place.
     if not e and scope == "subject" and not namedKey and ctx.targetName then return nil end
@@ -797,12 +838,12 @@ function Engine:IntentTarget(intent, scope, ctx, raw, namedKey)
   if scope == "place" then
     -- "Where does the name Defias come from?" is about the Defias, not the place the player stands in.
     local named = namedKey and db.entries[namedKey]
-    local ni = named and taggedFaq(named, intents, ctx.race, self:Finished(namedKey, ctx.done))
+    local ni = named and taggedFaq(named, intents, ctx.race, self:Opener(namedKey, ctx.done))
     if ni then return namedKey, ni end
     for _, k in ipairs(keys) do
       local t = db.entries[k].t
       if weight[k] >= 0.8 and (t == "subzone" or t == "zone" or t == "city" or t == "dungeon") then
-        local i = taggedFaq(db.entries[k], intents, ctx.race)
+        local i = taggedFaq(db.entries[k], intents, ctx.race, self:Opener(k, ctx.done))
         -- "What is this place?", "what happened here?": the overview of the most specific place, when it has no
         -- such FAQ.
         if i or intent == "place" or intent == "history" then return k, i or 0 end
@@ -851,7 +892,7 @@ function Engine:IntentTarget(intent, scope, ctx, raw, namedKey)
     return a < b2
   end)
   for _, k in ipairs(cands) do
-    local i = taggedFaq(db.entries[k], intents, ctx.race, self:Finished(k, ctx.done))
+    local i = taggedFaq(db.entries[k], intents, ctx.race, self:Opener(k, ctx.done))
     if i then return k, i end
   end
 end
@@ -1477,8 +1518,8 @@ function Engine:Complete(text, ctx, limit)
   for _, r in ipairs(ranked) do
     local f = self.db.entries[r.key].faq[r.idx]
     local q = f.q
-    -- Never suggest a spoiler answer, unless it's about a quest you've finished.
-    if Engine.HasQuestion(f) and not seenQ[q] and (not f.sp or self:Finished(r.key, ctx and ctx.done)) then
+    -- Never suggest a spoiler answer that isn't open (Engine:Opens).
+    if Engine.HasQuestion(f) and not seenQ[q] and self:Opens(r.key, f, ctx and ctx.done) then
       seenQ[q] = true
       out[#out + 1] = { kind = "faq", key = r.key, idx = r.idx, q = q, name = self.db.entries[r.key].n, score = r.score }
       if #out >= limit then break end
@@ -1651,7 +1692,7 @@ function Engine:Linkify(text, opts)
 end
 
 -- "Ask next" questions after showing entry `key` (FAQ `idx`, or the overview when idx is nil). `done`: the
--- character's completed quest IDs (ctx.done), whose own spoiler answers can be offered.
+-- character's completed quest IDs (ctx.done), which open spoiler answers (Engine:Opens).
 function Engine:FollowUps(key, idx, limit, done)
   limit = limit or 3
   local e = self.db.entries[key]
@@ -1661,14 +1702,14 @@ function Engine:FollowUps(key, idx, limit, done)
   local function push(k, i)
     local q = self.db.entries[k] and self.db.entries[k].faq and self.db.entries[k].faq[i]
     local id = k .. ":" .. i
-    if Engine.HasQuestion(q) and (not q.sp or self:Finished(k, done)) and not q.gp and not used[id] and not self.asked[id]
+    if Engine.HasQuestion(q) and self:Opens(k, q, done) and not q.gp and not used[id] and not self.asked[id]
       and #out < limit then
       used[id] = true
       out[#out + 1] = { key = k, idx = i, q = q.q, name = self.db.entries[k].n }
       return true
     end
   end
-  local own = Engine.RankedFaq(e, self.race, self:Finished(key, done))
+  local own = Engine.RankedFaq(e, self.race, self:Opener(key, done))
   local function nextOwn()
     for _, i in ipairs(own) do
       if push(key, i) then return end
@@ -1683,7 +1724,7 @@ function Engine:FollowUps(key, idx, limit, done)
   nextOwn()
   -- Then people and places the answer itself mentions, then more about this entry.
   for _, k in ipairs(self:Mentions(text, key)) do
-    for _, i in ipairs(Engine.RankedFaq(self.db.entries[k], self.race, self:Finished(k, done))) do
+    for _, i in ipairs(Engine.RankedFaq(self.db.entries[k], self.race, self:Opener(k, done))) do
       if push(k, i) then break end
     end
     if #out >= limit then break end
@@ -1714,13 +1755,13 @@ function Engine:Angle(key, ctx, rawWords)
 end
 
 -- An entry's FAQ indices in the order to offer them: situational questions first (INTENT_RANK), then the rest in
--- their own order. Spoiler answers (unless `open`: a quest you've finished), gameplay filler ("where are the
+-- their own order. Spoiler answers that aren't open (`open`: Engine:Opener, or true for all), gameplay filler ("where are the
 -- wolves?") and other races' answers are left out. In a translated reading language, appended questions still in
 -- English (untr, Lang.MarkUntranslated) come after all the others.
 function Engine.RankedFaq(e, race, open)
   local out, faq = {}, e and e.faq or {}
   for i, f in ipairs(faq) do
-    if Engine.HasQuestion(f) and (open or not f.sp) and not f.gp and forRace(f, race) then out[#out + 1] = i end
+    if Engine.HasQuestion(f) and isOpen(f, open) and not f.gp and forRace(f, race) then out[#out + 1] = i end
   end
   table.sort(out, function(a, b2)
     local ua, ub = faq[a].untr and 1 or 0, faq[b2].untr and 1 or 0
@@ -1754,7 +1795,7 @@ function Engine:Suggest(ctx, limit)
   for round = 1, 3 do
     for _, key in ipairs(keys) do
       local e = self.db.entries[key]
-      ranked[key] = ranked[key] or Engine.RankedFaq(e, ctx and ctx.race, self:Finished(key, ctx and ctx.done))
+      ranked[key] = ranked[key] or Engine.RankedFaq(e, ctx and ctx.race, self:Opener(key, ctx and ctx.done))
       local list, p = ranked[key], pos[key] or 1
       while list[p] and seen[Engine.lower(e.faq[list[p]].q)] do p = p + 1 end
       if list[p] and #out < limit then

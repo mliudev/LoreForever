@@ -1,0 +1,89 @@
+{
+ "key": "quest:2938",
+ "type": "quest",
+ "name": "Venom to the Undercity",
+ "era": "classic",
+ "zone": "hinterlands",
+ "meta": {
+  "ids": [
+   2938
+  ],
+  "level": "55",
+  "faction": "Horde",
+  "start": "Apothecary Lydon",
+  "end": "Master Apothecary Faranell",
+  "previous": "Summoning Shadra (Classic)",
+  "next": "",
+  "wiki": "Venom to the Undercity",
+  "chain": [],
+  "prev_q": [
+   "Summoning Shadra (Classic)"
+  ],
+  "category": "Hinterlands",
+  "chain_tpl": [
+   "Venom to the Undercity"
+  ]
+ },
+ "summary": "Apothecary Lydon is delighted with the venom taken from the Witherbark's spider god, and wants a sample sent to Lydon's superior, Faranell, at the Apothecarium in the Undercity. A parcel is entrusted to you for the journey.",
+ "sections": [
+  {
+   "title": "A Potent Find",
+   "body": "Lydon has killed nearly two dozen rabbits with a single dose of the venom. Some of them were tiny, so their resistance was surely low, but there is no denying the poison is powerful. Lydon is certain that Faranell will want to test it personally, and hands you a parcel to carry to the Apothecarium in the Undercity.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is sending the parcel to the Undercity?",
+   "aliases": [
+    "who gives venom to the undercity",
+    "quest giver venom to the undercity",
+    "who starts venom to the undercity"
+   ],
+   "answer": "Apothecary Lydon sends it, after testing the venom taken from the Witherbark's spider god."
+  },
+  {
+   "q": "Who is supposed to receive the venom in the Undercity?",
+   "aliases": [
+    "who gets the parcel",
+    "where does venom go undercity",
+    "who is faranell"
+   ],
+   "answer": "Master Apothecary Faranell, Lydon's superior, in the Apothecarium of the Undercity."
+  },
+  {
+   "q": "How potent was the venom during testing?",
+   "aliases": [
+    "how strong is shadra venom",
+    "lydon rabbit tests"
+   ],
+   "answer": "A single dose was enough to kill nearly two dozen rabbits, though some were very young and tiny."
+  },
+  {
+   "q": "What comes before this delivery?",
+   "aliases": [
+    "previous quest venom to the undercity",
+    "prerequisite venom to the undercity"
+   ],
+   "answer": "It follows Summoning Shadra, in which the venom was taken from the spider god."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "apothecarium",
+  "apothecary lydon",
+  "faranell's parcel",
+  "master apothecary faranell",
+  "shadra",
+  "venom to the undercity"
+ ],
+ "related": [
+  "npc:master-apothecary-faranell",
+  "subzone:apothecarium",
+  "zone:undercity",
+  "zone:hinterlands"
+ ],
+ "attribution": [
+  "Venom to the Undercity"
+ ]
+}

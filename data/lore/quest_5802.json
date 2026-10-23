@@ -1,0 +1,93 @@
+{
+ "key": "quest:5802",
+ "type": "quest",
+ "name": "Fire Plume Forged",
+ "era": "classic",
+ "zone": "tanaris",
+ "meta": {
+  "ids": [
+   5802
+  ],
+  "level": "57",
+  "faction": "Horde",
+  "start": "Krinkle Goodsteel",
+  "end": "Apothecary Dithers",
+  "previous": "",
+  "next": "",
+  "wiki": "Fire Plume Forged (Horde)",
+  "chain": [],
+  "category": "Tanaris",
+  "chain_tpl": [
+   "The Key to Scholomance"
+  ]
+ },
+ "summary": "Krinkle Goodsteel points you to Fire Plume Ridge, a simmering volcano west in Un'Goro Crater, where the lava lake at the top is hot enough to forge the stem of a skeletal key. Afterward you carry it to Apothecary Dithers at the Bulwark in the Western Plaguelands.",
+ "sections": [
+  {
+   "title": "Fire for the Key Stem",
+   "body": "Forging the stem of the key takes two bars of thorium and fierce heat. The thorium is yours to find, but Krinkle Goodsteel can help with the heat. Your gold has bought a mold, and it only needs dipping in the lava lake on top of Fire Plume Ridge. The lava does the rest, fusing thorium and bone together.",
+   "spoiler": 0
+  },
+  {
+   "title": "Back to Dithers",
+   "body": "Krinkle Goodsteel has done their part. To finish the key, you will need to talk to Apothecary Dithers at the Bulwark in the Western Plaguelands again. The key from the lava is still unfinished, and the work so far is preparation for an assault.",
+   "spoiler": 0
+  },
+  {
+   "title": "What Lies Ahead",
+   "body": "Dithers calls the key quite costly, but says it is still unfinished. The foe all this work has been aimed at is in Andorhal: Araj the Summoner, a lich who ranks among the most powerful of the Scourge.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Where is the key stem forged?",
+   "aliases": [
+    "where to forge key",
+    "lava lake location",
+    "fire plume ridge lava"
+   ],
+   "answer": "At the lava lake on top of Fire Plume Ridge, a simmering volcano in Un'Goro Crater, west of Krinkle Goodsteel."
+  },
+  {
+   "q": "What is needed to forge the key stem?",
+   "aliases": [
+    "what do i need",
+    "key materials",
+    "thorium needed"
+   ],
+   "answer": "The skeleton key mold and two bars of thorium. The thorium is for you to find."
+  },
+  {
+   "q": "Who receives the unfinished key?",
+   "aliases": [
+    "who to turn in to",
+    "where does the key go",
+    "hand in key"
+   ],
+   "answer": "Apothecary Dithers, at the Bulwark in the Western Plaguelands."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "andorhal",
+  "apothecary dithers",
+  "bulwark",
+  "fire plume ridge",
+  "krinkle goodsteel",
+  "skeleton key mold",
+  "thorium bar",
+  "un'goro crater",
+  "unfinished skeleton key"
+ ],
+ "related": [
+  "subzone:fire-plume-ridge",
+  "zone:ungoro",
+  "subzone:bulwark",
+  "zone:westernplaguelands",
+  "zone:tanaris"
+ ],
+ "attribution": [
+  "Fire Plume Forged (Horde)"
+ ]
+}

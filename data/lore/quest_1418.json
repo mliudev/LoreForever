@@ -1,0 +1,101 @@
+{
+ "key": "quest:1418",
+ "type": "quest",
+ "name": "Neeka Bloodscar",
+ "era": "classic",
+ "zone": "swampofsorrows",
+ "meta": {
+  "ids": [
+   1418
+  ],
+  "level": "35",
+  "faction": "Horde",
+  "start": "Helgrum the Swift",
+  "end": "Neeka Bloodscar",
+  "previous": "",
+  "next": "Report to Helgrum",
+  "wiki": "Neeka Bloodscar (Classic)",
+  "chain": [
+   "Neeka Bloodscar (Classic)",
+   "Report to Helgrum"
+  ],
+  "next_q": [
+   "Report to Helgrum"
+  ],
+  "category": "Swamp of Sorrows"
+ },
+ "summary": "Helgrum the Swift sends you from Stonard to the Badlands outpost of Kargath, to speak with its head scout, Neeka Bloodscar. Word between Stonard and Kargath is often cut.",
+ "sections": [
+  {
+   "title": "A Cut Line",
+   "body": "The Badlands are harsh country and lie close to Loch Modan, which the Alliance holds. Because of this, word between Stonard and Kargath is often cut. Helgrum asks you to prove yourself by travelling to the Badlands and speaking with Neeka Bloodscar, who is head scout there. Neeka's report is then to be sent back to Helgrum.",
+   "spoiler": 0
+  },
+  {
+   "title": "Neeka's Answer",
+   "body": "Neeka tells you an outrunner was sent toward Stonard barely three days earlier. If Stonard has nothing from Neeka, that runner must have failed. Neeka hopes the next one has more skill, or more luck.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Where does Helgrum the Swift send you?",
+   "aliases": [
+    "where do i go",
+    "neeka bloodscar location",
+    "where is neeka"
+   ],
+   "answer": "From Stonard to the outpost of Kargath in the Badlands, to speak with Neeka Bloodscar."
+  },
+  {
+   "q": "Why is communication between Stonard and Kargath cut off?",
+   "aliases": [
+    "why are communications cut",
+    "badlands communication problem",
+    "why stonard to kargath"
+   ],
+   "answer": "The Badlands are harsh and lie close to Loch Modan, which the Alliance holds, and word between Stonard and Kargath is often cut."
+  },
+  {
+   "q": "Who is Neeka Bloodscar?",
+   "aliases": [
+    "who is neeka",
+    "neeka role",
+    "neeka bloodscar lore"
+   ],
+   "answer": "Neeka Bloodscar is the head scout of the Kargath outpost in the Badlands."
+  },
+  {
+   "q": "What comes after speaking with Neeka Bloodscar?",
+   "aliases": [
+    "what next",
+    "follow up quest",
+    "after neeka bloodscar"
+   ],
+   "answer": "Report to Helgrum follows."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "badlands",
+  "head scout",
+  "helgrum the swift",
+  "kargath",
+  "loch modan",
+  "neeka bloodscar",
+  "stonard",
+  "swamp of sorrows"
+ ],
+ "related": [
+  "subzone:kargath",
+  "subzone:stonard",
+  "zone:badlands",
+  "zone:swampofsorrows",
+  "zone:lochmodan",
+  "quest:1420",
+  "topic:alliance"
+ ],
+ "attribution": [
+  "Neeka Bloodscar (Classic)"
+ ]
+}

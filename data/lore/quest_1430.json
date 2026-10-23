@@ -1,0 +1,80 @@
+{
+ "key": "quest:1430",
+ "type": "quest",
+ "name": "Fresh Meat",
+ "era": "classic",
+ "zone": "swampofsorrows",
+ "meta": {
+  "ids": [
+   1430
+  ],
+  "level": "44",
+  "faction": "Horde",
+  "start": "Dar",
+  "end": "Dar",
+  "previous": "",
+  "next": "",
+  "wiki": "Fresh Meat (Swamp of Sorrows)",
+  "chain": [],
+  "category": "Swamp of Sorrows"
+ },
+ "summary": "In the Swamp of Sorrows, Dar says customers in Orgrimmar have a high demand for crawler meat, especially that of the monstrous crawlers. Dar asks you to bring back some of their legs from the coast.",
+ "sections": [
+  {
+   "title": "Crawler Legs for Orgrimmar",
+   "body": "Dar's customers have a taste for succulent crawler meat, particularly from the monstrous crawlers. Dar promises to make a trip to the coast worth your while if you bring back some of their legs, to be sent on to Orgrimmar. The coast lies east of here, where the creatures scurry over the beaches and into the surf. A cask of wine awaits your success, and Dar means to taste the goods before they ship.",
+   "spoiler": 0
+  },
+  {
+   "title": "A Taste for the Road",
+   "body": "Dar is pleased with the legs, imagining them perfectly cooked over an open fire. Dar urges you to take a cooked sample along on your travels and swears it is truly delicious.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who wants crawler meat in the Swamp of Sorrows?",
+   "aliases": [
+    "who gives fresh meat",
+    "dar quest",
+    "who is dar"
+   ],
+   "answer": "Dar, whose customers in Orgrimmar have a high demand for it."
+  },
+  {
+   "q": "Where are the monstrous crawlers located?",
+   "aliases": [
+    "crawler location",
+    "where are the crawlers",
+    "monstrous crawler shore"
+   ],
+   "answer": "On the coast to the east, scurrying over the beaches and into the surf."
+  },
+  {
+   "q": "Why does Dar need these specific legs?",
+   "aliases": [
+    "why crawler meat",
+    "what is the meat for",
+    "orgrimmar crawler meat"
+   ],
+   "answer": "Dar's customers have a taste for crawler meat, the monstrous crawlers' most of all, and the legs are to be sent back to Orgrimmar."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "crawler legs",
+  "dar",
+  "fresh meat",
+  "monstrous crawler",
+  "orgrimmar",
+  "swamp of sorrows"
+ ],
+ "related": [
+  "zone:swampofsorrows",
+  "zone:orgrimmar",
+  "item:crawler-leg"
+ ],
+ "attribution": [
+  "Fresh Meat (Swamp of Sorrows)"
+ ]
+}

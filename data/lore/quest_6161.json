@@ -1,0 +1,83 @@
+{
+ "key": "quest:6161",
+ "type": "quest",
+ "name": "Claim Rackmore's Treasure!",
+ "era": "classic",
+ "zone": "desolace",
+ "meta": {
+  "ids": [
+   6161
+  ],
+  "level": "36",
+  "faction": "Neutral",
+  "start": "Rackmore's Log",
+  "end": "Rackmore's Chest",
+  "previous": "",
+  "next": "",
+  "wiki": "Claim Rackmore's Treasure!",
+  "chain": [],
+  "category": "Desolace"
+ },
+ "summary": "Rackmore's log tells of a ship bound for Feathermoon Stronghold that was set upon by creatures of the sea. To keep his treasure from his enemies, Rackmore hid the chest on Ranazjar Isle, and the silver key and golden key that open it are lost.",
+ "sections": [
+  {
+   "title": "A Hidden Chest",
+   "body": "The log says Rackmore's ship was on its way to Feathermoon Stronghold when seafaring creatures attacked it. Hoping to keep his treasure from his enemies, he hid the chest on Ranazjar Isle. Two keys open it, one silver and one gold, and both were lost. Someone who finds the keys and the chest will find a treasure.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Where was Rackmore's ship sailing when it was attacked?",
+   "aliases": [
+    "rackmore destination",
+    "where was rackmore going",
+    "rackmore ship route"
+   ],
+   "answer": "His log says his ship was on its way to Feathermoon Stronghold when seafaring creatures attacked."
+  },
+  {
+   "q": "Where is Rackmore's chest hidden?",
+   "aliases": [
+    "where is rackmore's chest",
+    "rackmore chest location",
+    "ranazjar isle chest"
+   ],
+   "answer": "On Ranazjar Isle, where Rackmore hid it."
+  },
+  {
+   "q": "What is needed to unlock the chest?",
+   "aliases": [
+    "rackmore chest keys",
+    "how to open rackmore's chest",
+    "what opens rackmore chest"
+   ],
+   "answer": "Two keys, Rackmore's Silver Key and Rackmore's Golden Key. Both were lost."
+  },
+  {
+   "q": "Why did Rackmore hide his treasure?",
+   "aliases": [
+    "why hide rackmore treasure",
+    "rackmore treasure motive"
+   ],
+   "answer": "His ship came under attack, and he hid the chest on Ranazjar Isle so the treasure would not fall into enemy hands."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "chest",
+  "desolace",
+  "feathermoon stronghold",
+  "golden key",
+  "rackmore",
+  "ranazjar isle",
+  "silver key"
+ ],
+ "related": [
+  "zone:desolace",
+  "subzone:feathermoon-stronghold"
+ ],
+ "attribution": [
+  "Claim Rackmore's Treasure!"
+ ]
+}

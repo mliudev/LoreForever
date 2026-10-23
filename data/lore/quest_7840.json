@@ -1,0 +1,88 @@
+{
+ "key": "quest:7840",
+ "type": "quest",
+ "name": "Lard Lost His Lunch",
+ "era": "classic",
+ "zone": "hinterlands",
+ "meta": {
+  "ids": [
+   7840
+  ],
+  "level": "49",
+  "start": "Lard",
+  "end": "Lard",
+  "wiki": null,
+  "previous": "",
+  "next": ""
+ },
+ "summary": "Lard, of the village of Revantusk in the Hinterlands, is hungry and frightened. A Vilebranch struck Lard during a private picnic, and Lard fled without lunch. You are asked to fetch it from an island to the north.",
+ "sections": [
+  {
+   "title": "A Picnic Interrupted",
+   "body": "Lard was picnicking at a secret spot when a Vilebranch, ugly and mean in Lard's telling, hit Lard with a big stick. Lard bolted for Revantusk and left the lunch behind. Now Lard is hungry, and afraid to go back.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Island Northward",
+   "body": "The picnic spot lies on an island to the north. Lard hopes you will go there, find the lunch and bring it back, taking care around the Vilebranch trolls.",
+   "spoiler": 0
+  },
+  {
+   "title": "Lard's Thanks",
+   "body": "The lunch turns out to be a huge haunch of meat. Lard wolfs it down, thanks you, and promises you a special picnic basket for your help.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Lard?",
+   "aliases": [
+    "lard hinterlands",
+    "who is lard",
+    "lard revantusk"
+   ],
+   "answer": "A resident of Revantusk in the Hinterlands, hungry and frightened after a Vilebranch struck Lard with a big stick."
+  },
+  {
+   "q": "Where did Lard lose his lunch?",
+   "aliases": [
+    "where is lards lunch",
+    "lard picnic spot",
+    "lards secret spot"
+   ],
+   "answer": "At a hidden picnic spot on an island to the north."
+  },
+  {
+   "q": "Why did Lard leave his food behind?",
+   "aliases": [
+    "why did lard run",
+    "who attacked lard"
+   ],
+   "answer": "A Vilebranch hit Lard with a big stick during the picnic, and Lard ran back to Revantusk without the lunch."
+  },
+  {
+   "q": "What should you watch out for on the island?",
+   "aliases": [
+    "vilebranch on island",
+    "dangers lards island"
+   ],
+   "answer": "Lard names the Vilebranch trolls as the danger on the island."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "hinterlands",
+  "island",
+  "lard",
+  "lunch",
+  "picnic",
+  "revantusk village",
+  "vilebranch"
+ ],
+ "related": [
+  "zone:hinterlands"
+ ],
+ "attribution": [
+  "Classic quest text: Lard Lost His Lunch"
+ ]
+}

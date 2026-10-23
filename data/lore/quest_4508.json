@@ -1,0 +1,97 @@
+{
+ "key": "quest:4508",
+ "type": "quest",
+ "name": "Calm Before the Storm",
+ "era": "classic",
+ "zone": "tanaris",
+ "meta": {
+  "ids": [
+   4508
+  ],
+  "level": "54",
+  "faction": "Alliance",
+  "start": "Alchemist Pestlezugg",
+  "end": "Gracina Spiritmight",
+  "previous": "Pawn Captures Queen",
+  "next": "",
+  "wiki": "Calm Before the Storm (Alliance)",
+  "chain": [],
+  "prev_q": [
+   "Pawn Captures Queen"
+  ],
+  "category": "Tanaris",
+  "chain_tpl": [
+   "Rise of the Silithid"
+  ]
+ },
+ "summary": "After the queen's fall, Alchemist Pestlezugg wants the latest findings to reach people who can act on them. You carry the Un'Goro report to Gracina Spiritmight at the Temple of the Moon in Darnassus.",
+ "sections": [
+  {
+   "title": "A Report for Darnassus",
+   "body": "Pestlezugg says that the findings of the day must reach hands that might do something with them, since Gadgetzan cannot manage alone. The latest report is to go to Gracina Spiritmight in Darnassus, whom Pestlezugg hopes can be found at the Temple of the Moon. She has friends among the Alliance bigwigs, and if they can be drawn in, there may be a way through this alive.",
+   "spoiler": 0
+  },
+  {
+   "title": "Gracina's Answer",
+   "body": "Gracina calls those who will not look past their hatred of the Horde fools, and says she cannot prove the silithid threat any further short of dropping them into a hive. She is glad of the report but doubts it will help, for the Alliance ignores any threat but the Horde, and even the leaders of Darnassus disagree about what this threat is. Fandral Staghelm, she says, theorizes that the silithid are unlike the ancient peril she believes them to be. She urges you to stay committed to defeating the silithid.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who sends you with the report?",
+   "aliases": [
+    "who starts calm before the storm",
+    "quest giver calm before the storm",
+    "where does calm before the storm start"
+   ],
+   "answer": "Alchemist Pestlezugg, from Gadgetzan."
+  },
+  {
+   "q": "Where must the report be delivered?",
+   "aliases": [
+    "where do i take pestlezugg's report",
+    "where is gracina spiritmight",
+    "turn in calm before the storm"
+   ],
+   "answer": "To Gracina Spiritmight in Darnassus, where Pestlezugg last knew her to be, at the Temple of the Moon."
+  },
+  {
+   "q": "Why does Pestlezugg send the report to Gracina Spiritmight?",
+   "aliases": [
+    "why send to darnassus",
+    "why gracina spiritmight"
+   ],
+   "answer": "Gadgetzan cannot do this alone. Gracina has friends who are Alliance bigwigs, and if they can be drawn in, there may be a way through this alive."
+  },
+  {
+   "q": "What comes directly before this?",
+   "aliases": [
+    "prerequisite for calm before the storm",
+    "previous quest calm before the storm"
+   ],
+   "answer": "Pawn Captures Queen, in which you were sent after the Gorishi Hive Queen."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "darnassus",
+  "gadgetzan",
+  "gracina spiritmight",
+  "pestlezugg",
+  "silithid",
+  "tanaris",
+  "temple of the moon",
+  "un'goro report"
+ ],
+ "related": [
+  "quest:4507",
+  "subzone:gadgetzan",
+  "zone:tanaris",
+  "zone:darnassus",
+  "subzone:temple-of-the-moon"
+ ],
+ "attribution": [
+  "Calm Before the Storm (Alliance)"
+ ]
+}

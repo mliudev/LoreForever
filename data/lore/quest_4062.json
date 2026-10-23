@@ -1,0 +1,93 @@
+{
+ "key": "quest:4062",
+ "type": "quest",
+ "name": "The Rise of the Machines",
+ "era": "classic",
+ "zone": "badlands",
+ "meta": {
+  "ids": [
+   4062
+  ],
+  "level": "54",
+  "faction": "Horde",
+  "start": "Hierophant Theodora Mulvadania",
+  "end": "Lotwil Veriatus",
+  "previous": "",
+  "next": "",
+  "wiki": "The Rise of the Machines (2)",
+  "chain": [
+   "The Rise of the Machines",
+   "The Rise of the Machines (2)",
+   "The Rise of the Machines (3)"
+  ],
+  "category": "Badlands"
+ },
+ "summary": "Hierophant Theodora Mulvadania has found initials and a rank marking on the elemental shards, and the machines you brought down in the Burning Steppes bore Rank IV. Theodora sends you with a shard sample to Lotwil Veriatus, a scholar of elemental sciences, in a camp to the east.",
+ "sections": [
+  {
+   "title": "Marks on the Shards",
+   "body": "The shards carry the initials G.L.A., with a rank marking beneath them. The machines you brought down in the Burning Steppes bore Rank IV, which Theodora assumes is a lowly rank. Theodora wants you to bring a sample shard to Lotwil Veriatus, renowned among scholars of elemental sciences. Lotwil is stationed at a camp to the east, and Theodora hopes Lotwil can help the search.",
+   "spoiler": 0
+  },
+  {
+   "title": "What Lotwil Sees",
+   "body": "When you show Lotwil the shard, his face turns white. He knows these markings.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who sends you to Lotwil Veriatus?",
+   "aliases": [
+    "who gives this quest",
+    "quest giver",
+    "theodora mulvadania"
+   ],
+   "answer": "Hierophant Theodora Mulvadania, who wants Lotwil to look at a sample shard from the machines destroyed in the Burning Steppes."
+  },
+  {
+   "q": "Where is Lotwil Veriatus located?",
+   "aliases": [
+    "where is lotwil",
+    "lotwil location",
+    "lotwil veriatus camp"
+   ],
+   "answer": "In a camp to the east."
+  },
+  {
+   "q": "What markings are on the elemental shards?",
+   "aliases": [
+    "shard initials",
+    "what does gla mean",
+    "rank iv"
+   ],
+   "answer": "The shards bear the initials G.L.A., with a rank marking below. The destroyed machines were of Rank IV."
+  },
+  {
+   "q": "Why does Theodora want Lotwil to inspect the shard?",
+   "aliases": [
+    "why lotwil",
+    "why consult lotwil"
+   ],
+   "answer": "Lotwil is renowned among scholars of elemental sciences, and Theodora hopes he can help with the search."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "badlands",
+  "burning steppes",
+  "elemental shard sample",
+  "g.l.a.",
+  "lotwil veriatus",
+  "rise of the machines",
+  "theodora mulvadania"
+ ],
+ "related": [
+  "npc:lotwil-veriatus",
+  "zone:badlands",
+  "zone:burningsteppes"
+ ],
+ "attribution": [
+  "The Rise of the Machines (2)"
+ ]
+}

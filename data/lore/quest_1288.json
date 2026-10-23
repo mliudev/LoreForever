@@ -1,0 +1,77 @@
+{
+ "key": "quest:1288",
+ "type": "quest",
+ "name": "Vimes's Report",
+ "era": "classic",
+ "zone": "dustwallow",
+ "meta": {
+  "ids": [
+   1288
+  ],
+  "level": "38",
+  "faction": "Alliance",
+  "start": "Captain Garran Vimes",
+  "end": "Lady Jaina Proudmoore",
+  "previous": "",
+  "next": "Vimes's Report (2)",
+  "wiki": "Vimes's Report",
+  "chain": [],
+  "next_q": [
+   "Vimes's Report (2)"
+  ],
+  "category": "Dustwallow Marsh"
+ },
+ "summary": "Captain Garran Vimes rates your work as the best Vimes has seen from an amateur. Lady Jaina Proudmoore asked Vimes to keep her apprised of a delicate situation, and Vimes gives you the report to bring to her in Theramore.",
+ "sections": [
+  {
+   "title": "A Report for Lady Proudmoore",
+   "body": "Lady Proudmoore asked Captain Vimes to keep her apprised of a delicate situation, and Vimes has not spoken with her for some time. Vimes meant to deliver the report later, but now judges it more fitting for you to speak with her about it, since you may well have better answers for her questions than Vimes would.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who gives you the report to take to Jaina Proudmoore?",
+   "aliases": [
+    "who starts vimes's report",
+    "who gives the report",
+    "who wrote vimes report"
+   ],
+   "answer": "Captain Garran Vimes hands you Vimes's report to carry to Lady Jaina Proudmoore in Theramore."
+  },
+  {
+   "q": "Why does Captain Vimes send you instead of going himself?",
+   "aliases": [
+    "why send me",
+    "why not vimes deliver it",
+    "why jaina report"
+   ],
+   "answer": "Vimes has not spoken with Lady Proudmoore for some time, and thinks it more fitting that you go instead. Vimes believes you may have better answers for her questions."
+  },
+  {
+   "q": "Where does the report need to go?",
+   "aliases": [
+    "where to turn in vimes report",
+    "where is jaina proudmoore",
+    "report destination"
+   ],
+   "answer": "To Lady Jaina Proudmoore in Theramore."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "dustwallow",
+  "garran vimes",
+  "jaina proudmoore",
+  "report",
+  "theramore",
+  "vimes"
+ ],
+ "related": [
+  "npc:jaina-proudmoore",
+  "zone:dustwallow"
+ ],
+ "attribution": [
+  "Wowpedia: Vimes's Report"
+ ]
+}

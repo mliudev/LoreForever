@@ -1,0 +1,103 @@
+{
+ "key": "quest:8925",
+ "type": "quest",
+ "name": "A Portable Power Source",
+ "era": "classic",
+ "zone": "tanaris",
+ "meta": {
+  "ids": [
+   8925
+  ],
+  "level": "60",
+  "faction": null,
+  "start": "Mux Manascrambler",
+  "end": "Mux Manascrambler",
+  "previous": "Hunting for Ectoplasm",
+  "next": "A Shifty Merchant",
+  "wiki": "A Portable Power Source",
+  "chain": [],
+  "prev_q": [
+   "Hunting for Ectoplasm"
+  ],
+  "next_q": [
+   "A Shifty Merchant"
+  ],
+  "category": "Tanaris",
+  "chain_tpl": [
+   "Tier 0.5 quests"
+  ]
+ },
+ "summary": "With the ectoplasm in hand, Mux Manascrambler needs a stable, portable source of energy to keep it active. He has heard rumours of Magma Lord Bokk, an elemental in the Burning Steppes whose heart is a Magma Core, and wants that core brought to him in Gadgetzan.",
+ "sections": [
+  {
+   "title": "A Heart of Endless Heat",
+   "body": "After Hunting for Ectoplasm, Mux Manascrambler wants a steady, movable source of power to keep the ectoplasm active. Rumour has it that Magma Lord Bokk, a mighty elemental, carries a Magma Core for a heart, an endless supply of heat. The Magma Lord is said to dwell in the Burning Steppes, to the south of Blackrock Mountain and west of the Pillar of Ash. Mux wants that core brought to Gadgetzan, so the extra-dimensional ghost revealer can run.",
+   "spoiler": 0
+  },
+  {
+   "title": "Power at Last",
+   "body": "Mux is thrilled when you arrive with the core, and declares that it will certainly give the ghost revealer all the energy it needs.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Why does Mux Manascrambler need a power source?",
+   "aliases": [
+    "why need power source",
+    "what is the power source for",
+    "why magma core"
+   ],
+   "answer": "Mux wants a steady, movable supply of energy, enough to keep the ectoplasm going and run the extra-dimensional ghost revealer."
+  },
+  {
+   "q": "Who is Magma Lord Bokk?",
+   "aliases": [
+    "who is bokk",
+    "magma lord bokk lore",
+    "where is bokk"
+   ],
+   "answer": "A mighty elemental, according to rumour, with a Magma Core for a heart, a font of heat that never runs dry."
+  },
+  {
+   "q": "Where in the Burning Steppes can Magma Lord Bokk be found?",
+   "aliases": [
+    "bokk location",
+    "where is magma lord bokk",
+    "find magma lord bokk"
+   ],
+   "answer": "Rumour places him in the Burning Steppes, to the south of Blackrock Mountain and west of the Pillar of Ash."
+  },
+  {
+   "q": "Where does this step fit into Mux's work?",
+   "aliases": [
+    "what comes before",
+    "quest chain order",
+    "what comes next"
+   ],
+   "answer": "It comes after Hunting for Ectoplasm, and A Shifty Merchant follows it."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "blackrock mountain",
+  "burning steppes",
+  "gadgetzan",
+  "ghost revealer",
+  "magma core",
+  "magma lord bokk",
+  "mux manascrambler"
+ ],
+ "related": [
+  "npc:mux-manascrambler",
+  "zone:burningsteppes",
+  "subzone:blackrock-mountain",
+  "subzone:gadgetzan",
+  "quest:8924",
+  "quest:8928",
+  "zone:tanaris"
+ ],
+ "attribution": [
+  "A Portable Power Source"
+ ]
+}

@@ -1,0 +1,98 @@
+{
+ "key": "quest:2975",
+ "type": "quest",
+ "name": "The Ogres of Feralas",
+ "era": "classic",
+ "zone": "feralas",
+ "meta": {
+  "ids": [
+   2975
+  ],
+  "level": "43",
+  "faction": "Horde",
+  "start": "Rok Orhan",
+  "end": "Rok Orhan",
+  "previous": "",
+  "next": "The Ogres of Feralas (2)",
+  "wiki": "The Ogres of Feralas (1)",
+  "chain": [
+   "A Threat in Feralas",
+   "The Ogres of Feralas (1)",
+   "The Ogres of Feralas (2)"
+  ],
+  "next_q": [
+   "The Ogres of Feralas (2)"
+  ],
+  "category": "Feralas"
+ },
+ "summary": "Rok Orhan at Camp Mojache wants the Gordunni ogres pushed back before they spread further into Feralas. Following the river north leads to their outpost, where ogres, ogre-magi and brutes are to be thinned out.",
+ "sections": [
+  {
+   "title": "The Mark of the Gordunni",
+   "body": "Rok Orhan points out that the Gordunni ogre tribe is hard to miss around here, since their very presence scars the land. They must be driven back before they reach deeper into Feralas. Their outpost lies up the river to the north. There you cut down ten Gordunni Ogres, ten Gordunni Ogre-Magi and five Gordunni Brutes, to show the tribe they are unwelcome.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who wants the Gordunni ogres driven back?",
+   "aliases": [
+    "who gives the quest",
+    "quest giver",
+    "rok orhan"
+   ],
+   "answer": "Rok Orhan at Camp Mojache."
+  },
+  {
+   "q": "Why does Rok Orhan want the Gordunni pushed back?",
+   "aliases": [
+    "why kill the ogres",
+    "gordunni motive",
+    "why fight gordunni"
+   ],
+   "answer": "Rok Orhan says their very presence scars the land, and they must be stopped before they expand further into Feralas."
+  },
+  {
+   "q": "Where is the Gordunni outpost?",
+   "aliases": [
+    "ogre outpost location",
+    "where are the ogres",
+    "gordunni location feralas"
+   ],
+   "answer": "Follow the river north, says Rok Orhan, and the outpost will be found there."
+  },
+  {
+   "q": "Which Gordunni must be slain?",
+   "aliases": [
+    "how many ogres",
+    "gordunni kill count"
+   ],
+   "answer": "Ten Gordunni Ogres, ten Gordunni Ogre-Magi and five Gordunni Brutes."
+  },
+  {
+   "q": "What follows this quest?",
+   "aliases": [
+    "next quest ogres of feralas",
+    "ogres of feralas chain"
+   ],
+   "answer": "The chain goes on with The Ogres of Feralas (2)."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "brute",
+  "camp mojache",
+  "feralas",
+  "gordunni",
+  "ogre",
+  "ogre mage",
+  "rok orhan"
+ ],
+ "related": [
+  "subzone:camp-mojache",
+  "zone:feralas"
+ ],
+ "attribution": [
+  "The Ogres of Feralas (1)"
+ ]
+}

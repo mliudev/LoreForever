@@ -1,0 +1,79 @@
+{
+ "key": "quest:1444",
+ "type": "quest",
+ "name": "Return to Fel'Zerul",
+ "era": "classic",
+ "zone": "hinterlands",
+ "meta": {
+  "ids": [
+   1444
+  ],
+  "level": "44",
+  "faction": "Horde",
+  "start": "Atal'ai Exile",
+  "end": "Fel'zerul",
+  "previous": "The Atal'ai Exile",
+  "next": "",
+  "wiki": "Return to Fel'Zerul",
+  "chain": [],
+  "category": "Hinterlands",
+  "chain_tpl": [
+   "Pool of Tears"
+  ]
+ },
+ "summary": "An exiled Atal'ai in the Hinterlands has looked over the artifacts brought to them and calls them harmless. They have darker worries about Jammal'an the Prophet, and Fel'zerul in Stonard is to hear them.",
+ "sections": [
+  {
+   "title": "Words from an Exile",
+   "body": "The Atal'ai Exile once held Jammal'an the Prophet to be a worthy high priest. But the prophet's unyielding faith in the prophecy may doom the Atal'ai, if it has not done so already. Speaking up got the exile branded an infidel and driven out of the Temple of Atal'Hakkar. The artifacts you brought pose no harm. What frightens the exile is the chance that Jammal'an has found the right fetish enchantment for the summoning ritual, which would put the world in great peril. Fel'zerul in Stonard waits to hear what was learned.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Where must I go to speak with Fel'zerul?",
+   "aliases": [
+    "fel'zerul location",
+    "where is fel'zerul",
+    "turn in return to fel'zerul"
+   ],
+   "answer": "Fel'zerul is in Stonard."
+  },
+  {
+   "q": "Why was the Atal'ai Exile banished?",
+   "aliases": [
+    "why was atal'ai exile banished",
+    "why is the exile in hinterlands",
+    "atal'ai exile backstory"
+   ],
+   "answer": "The exile spoke out about Jammal'an the Prophet's unyielding faith in his prophecy, which they believe will destroy the Atal'ai. For voicing those concerns they were called an infidel and driven out of the Temple of Atal'Hakkar."
+  },
+  {
+   "q": "Are the artifacts brought to the exile dangerous?",
+   "aliases": [
+    "are the artifacts harmful",
+    "fetish artifacts danger"
+   ],
+   "answer": "The exile says they are harmless. The worry is the summoning ritual, and whether Jammal'an has found the right fetish enchantment for it."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "atal'ai exile",
+  "fel'zerul",
+  "hinterlands",
+  "jammal'an",
+  "stonard",
+  "summoning ritual",
+  "temple of atal'hakkar"
+ ],
+ "related": [
+  "npc:fel-zerul",
+  "subzone:stonard",
+  "subzone:temple-of-atal-hakkar",
+  "zone:hinterlands"
+ ],
+ "attribution": [
+  "Wowpedia: Return to Fel'Zerul"
+ ]
+}

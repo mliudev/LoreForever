@@ -1,0 +1,89 @@
+{
+ "key": "quest:1690",
+ "type": "quest",
+ "name": "Wastewander Justice",
+ "era": "classic",
+ "zone": "tanaris",
+ "meta": {
+  "ids": [
+   1690
+  ],
+  "level": "43",
+  "faction": null,
+  "start": "Chief Engineer Bilgewhizzle",
+  "end": "Chief Engineer Bilgewhizzle",
+  "previous": "",
+  "next": "More Wastewander Justice",
+  "wiki": "Wastewander Justice",
+  "chain": [
+   "Wastewander Justice",
+   "More Wastewander Justice"
+  ],
+  "next_q": [
+   "More Wastewander Justice"
+  ],
+  "category": "Tanaris"
+ },
+ "summary": "Chief Engineer Bilgewhizzle of the Gadgetzan Water Company says the Wastewander nomads now hold nearly every water well in the Tanaris desert. You are sent east of Gadgetzan to bring justice to the Wastewander Bandits and Thieves.",
+ "sections": [
+  {
+   "title": "Justice for the Wells",
+   "body": "Out in the Tanaris desert, the Wastewander nomads now hold nearly every water well, and Gadgetzan's supply will soon run dry without access to them. Chief Engineer Bilgewhizzle, who has a taste for goblin-style justice, wants ten Wastewander Bandits and Thieves brought down east of town, and then a report back at once.",
+   "spoiler": 0
+  },
+  {
+   "title": "Far From Done",
+   "body": "Bilgewhizzle is pleased with the speed of the work. The nomads are thinned enough that the company can start thinking about winning back its water wells, though it is far from done with the foul nomads and has more in mind.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Chief Engineer Bilgewhizzle?",
+   "aliases": [
+    "bilgewhizzle",
+    "who gives wastewander justice",
+    "gadgetzan water company engineer"
+   ],
+   "answer": "A Chief Engineer of the Gadgetzan Water Company, in Gadgetzan."
+  },
+  {
+   "q": "Why is the Gadgetzan Water Company going after the Wastewanders?",
+   "aliases": [
+    "why kill wastewander bandits",
+    "wastewander justice reason",
+    "why attack nomads tanaris"
+   ],
+   "answer": "The Wastewander nomads hold nearly every water well in the desert, and without access to them Gadgetzan's water supply will dry up."
+  },
+  {
+   "q": "Where are the Wastewander Bandits and Thieves located?",
+   "aliases": [
+    "where to find wastewander bandits",
+    "wastewander bandit location",
+    "thieves tanaris location"
+   ],
+   "answer": "Out to the east of Gadgetzan, in the desert."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "bandit",
+  "bilgewhizzle",
+  "gadgetzan",
+  "tanaris",
+  "thief",
+  "wastewander",
+  "water company",
+  "wells"
+ ],
+ "related": [
+  "quest:1691",
+  "subzone:gadgetzan",
+  "zone:tanaris",
+  "topic:goblin"
+ ],
+ "attribution": [
+  "Wastewander Justice"
+ ]
+}

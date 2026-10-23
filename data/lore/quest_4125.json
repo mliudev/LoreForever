@@ -1,0 +1,101 @@
+{
+ "key": "quest:4125",
+ "type": "quest",
+ "name": "The Missing Courier",
+ "era": "classic",
+ "zone": "feralas",
+ "meta": {
+  "ids": [
+   4125
+  ],
+  "level": "43",
+  "faction": "Alliance",
+  "start": "Ginro Hearthkindle",
+  "end": "Wrecked Row Boat",
+  "previous": "The Missing Courier",
+  "next": "Boat Wreckage",
+  "wiki": "The Missing Courier (2)",
+  "chain": [],
+  "prev_q": [
+   "The Missing Courier"
+  ],
+  "next_q": [
+   "Boat Wreckage"
+  ],
+  "category": "Feralas",
+  "chain_tpl": [
+   "The Missing Courier"
+  ]
+ },
+ "summary": "Ginro Hearthkindle tells you the courier, Raschal, set out for Thalanaar about a week ago, planning to row down the coast. Ginro could not find the boat and asks you to look for it along the coast of Feralas, in case it holds a clue to where Raschal is.",
+ "sections": [
+  {
+   "title": "A Route Down the Coast",
+   "body": "About a week ago Raschal set out for Thalanaar. Raschal knows Feralas well and has been with the expeditionary forces since General Feathermoon led them here. Ginro's understanding is that Raschal meant to go by row boat down the coast and cross southern Feralas, avoiding the Horde camp. Ginro could not find the boat, which may be hidden or sunk, and asks you to look for it along the coast of Feralas, since it might hold a clue to where Raschal is. On the mainland, the Forgotten Coast stretches south from the jetty.",
+   "spoiler": 0
+  },
+  {
+   "title": "At the Shore",
+   "body": "Through slightly muddy water you spot a wrecked row boat, riddled with gaping holes along one side and shredded nearly down to its wooden frame. Whatever broke it probably tried to split it in half. A small crest of Feathermoon Stronghold is painted on the other side, and in the mud at the boat's base something metallic glints.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Raschal?",
+   "aliases": [
+    "who is raschal",
+    "missing courier identity",
+    "who went missing"
+   ],
+   "answer": "The courier who went missing. Raschal knows Feralas well and has been with the expeditionary forces since General Feathermoon led them here."
+  },
+  {
+   "q": "Where was Raschal heading?",
+   "aliases": [
+    "raschal destination",
+    "where was he going",
+    "courier route"
+   ],
+   "answer": "To Thalanaar. Raschal planned to go by boat down the coast, then over southern Feralas, to steer clear of the Horde camp."
+  },
+  {
+   "q": "How long has Raschal been missing?",
+   "aliases": [
+    "when did raschal leave",
+    "how long gone"
+   ],
+   "answer": "About a week, since setting out for Thalanaar."
+  },
+  {
+   "q": "Where did this search begin?",
+   "aliases": [
+    "previous step",
+    "how did this quest start"
+   ],
+   "answer": "This step follows the earlier The Missing Courier, in which you spoke with Ginro Hearthkindle."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "feathermoon stronghold",
+  "feralas",
+  "forgotten coast",
+  "ginro hearthkindle",
+  "raschal",
+  "rowboat",
+  "thalanaar"
+ ],
+ "related": [
+  "quest:4124",
+  "quest:4127",
+  "subzone:feathermoon-stronghold",
+  "subzone:forgotten-coast",
+  "subzone:thalanaar",
+  "zone:feralas",
+  "topic:horde"
+ ],
+ "attribution": [
+  "The Missing Courier (2)"
+ ]
+}

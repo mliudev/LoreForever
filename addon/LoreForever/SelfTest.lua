@@ -1174,6 +1174,13 @@ local function putBack()
   return changed
 end
 
+-- "59 passed, 1 failed, 1 skipped": each count said plainly (0.25.0 QA: "60/61 passed, 1 skipped" beside a FAIL line
+-- read as if nothing had failed).
+local function counts(passed, failed, skipped)
+  return string.format("%d passed", passed) .. (failed > 0 and string.format(", %d failed", failed) or "")
+    .. (skipped > 0 and string.format(", %d skipped", skipped) or "")
+end
+
 local function summarize(r)
   local passed, failed, skipped, failures, names = 0, 0, 0, {}, {}
   for _, x in ipairs(r.results) do
@@ -1188,8 +1195,7 @@ local function summarize(r)
     end
   end
   local version = meta(addonName, "Version") or "?"
-  local summary = string.format("Lore Forever QA %s: %d/%d passed", version, passed, passed + failed)
-    .. (skipped > 0 and string.format(", %d skipped", skipped) or "")
+  local summary = string.format("Lore Forever QA %s: %s", version, counts(passed, failed, skipped))
     .. (failed > 0 and (". FAIL: " .. table.concat(names, "; ")) or "")
   local build, buildNo
   if _G.GetBuildInfo then build, buildNo = GetBuildInfo() end
@@ -1207,15 +1213,31 @@ local function report(qa)
   local T = ns.Theme.code
   local function line(s) DEFAULT_CHAT_FRAME:AddMessage(s) end
   local esc = function(s) return (tostring(s):gsub("|", "||")) end
-  line(T.gold .. "Lore Forever QA " .. esc(qa.version) .. ":|r "
-    .. string.format("%d/%d passed", qa.passed, qa.passed + qa.failed)
-    .. (qa.skipped > 0 and string.format(", %d skipped", qa.skipped) or "") .. ".")
-  for i, f in ipairs(qa.failures) do
+  line(T.gold .. "Lore Forever QA " .. esc(qa.version) .. ":|r " .. counts(qa.passed, qa.failed, qa.skipped) .. ".")
+  -- Each failure whole, a line per part of what it found ("; " between them: the packs check names every pack out of
+  -- step), so nothing that says what's wrong runs off the end of one long line (0.25.0 QA: six language packs did).
+  local failed = {}
+  for _, x in ipairs(qa.results or {}) do
+    if x.status == "fail" then failed[#failed + 1] = x end
+  end
+  for i, x in ipairs(failed) do
     if i > 6 then
-      line(T.warn .. string.format("  ... and %d more", #qa.failures - 6) .. "|r")
+      line(T.warn .. string.format("  ... and %d more", #failed - 6) .. "|r")
       break
     end
-    line(T.warn .. "  FAIL|r " .. esc(cut(f, 220)))
+    line(T.warn .. "  FAIL|r " .. esc(x.name))
+    local parts = {}
+    for part in tostring(x.detail or ""):gsub("%. ", "; ", 1):gmatch("[^;]+") do
+      part = part:match("^%s*(.-)%s*$")
+      if part ~= "" then parts[#parts + 1] = part end
+    end
+    for j, part in ipairs(parts) do
+      if j > 16 then
+        line(T.grey .. string.format("      ... and %d more", #parts - 16) .. "|r")
+        break
+      end
+      line("      " .. esc(cut(part, 400)))
+    end
   end
   line(T.grey .. "  Full results: LoreForeverDB.qa in SavedVariables\\LoreForever.lua (written on /reload).|r")
 end

@@ -1,0 +1,86 @@
+{
+ "key": "quest:7701",
+ "type": "quest",
+ "name": "WANTED: Overseer Maltorius",
+ "era": "classic",
+ "zone": "searinggorge",
+ "meta": {
+  "ids": [
+   7701
+  ],
+  "level": "50",
+  "faction": null,
+  "start": "Wanted/Missing/Lost & Found",
+  "end": "Lookout Captain Lolo Longstriker",
+  "previous": "",
+  "next": "",
+  "wiki": "WANTED: Overseer Maltorius",
+  "chain": [],
+  "category": "Searing Gorge"
+ },
+ "summary": "A bounty notice declares that Overseer Maltorius, a rogue Thorium Brotherhood agent and newly hired commander of the Dark Iron Slag Pit crew of the Cauldron, is to die. By order of Overseer Oilfist, his head must be brought back as proof to Lookout Captain Lolo Longstriker.",
+ "sections": [
+  {
+   "title": "A Price on a Traitor",
+   "body": "Overseer Maltorius, a traitorous Dark Iron dwarf, is to be found in the depths of the Cauldron's Slag Pit. The order is to slay him, take his head, and carry it back to Lookout Captain Lolo Longstriker for the bounty.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Overseer Maltorius?",
+   "aliases": [
+    "maltorius lore",
+    "who is maltorius",
+    "overseer maltorius backstory"
+   ],
+   "answer": "A traitorous Dark Iron dwarf. The notice calls him a rogue Thorium Brotherhood agent and the newly hired commander of the Dark Iron Slag Pit crew of the Cauldron."
+  },
+  {
+   "q": "Where can Overseer Maltorius be found?",
+   "aliases": [
+    "maltorius location",
+    "where is maltorius",
+    "how to find overseer maltorius"
+   ],
+   "answer": "Down in the Slag Pit, which belongs to the Cauldron."
+  },
+  {
+   "q": "Who ordered the death of Overseer Maltorius?",
+   "aliases": [
+    "who posted the bounty",
+    "who wants maltorius dead",
+    "who ordered the kill"
+   ],
+   "answer": "Overseer Oilfist, who is named in the notice as having given the order."
+  },
+  {
+   "q": "Who receives proof of Maltorius's death?",
+   "aliases": [
+    "who to turn in maltorius head",
+    "where to bring maltorius head",
+    "lolo longstriker location"
+   ],
+   "answer": "Lookout Captain Lolo Longstriker, in Searing Gorge. The head of Maltorius is the proof asked for."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "bounty",
+  "cauldron",
+  "lolo longstriker",
+  "overseer maltorius",
+  "overseer oilfist",
+  "searing gorge",
+  "slag pit",
+  "thorium brotherhood"
+ ],
+ "related": [
+  "subzone:slag-pit",
+  "subzone:cauldron",
+  "zone:searinggorge"
+ ],
+ "attribution": [
+  "WANTED: Overseer Maltorius"
+ ]
+}

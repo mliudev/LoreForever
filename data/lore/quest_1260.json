@@ -1,0 +1,87 @@
+{
+ "key": "quest:1260",
+ "type": "quest",
+ "name": "Morgan Stern",
+ "era": "classic",
+ "zone": "dustwallow",
+ "meta": {
+  "ids": [
+   1260
+  ],
+  "level": "38",
+  "faction": "Alliance",
+  "start": "Angus Stern",
+  "end": "Morgan Stern",
+  "previous": "",
+  "next": "Mudrock Soup and Bugs",
+  "wiki": "Morgan Stern (quest)",
+  "chain": [
+   "Morgan Stern (quest)",
+   "Mudrock Soup and Bugs",
+   "... and Bugs"
+  ],
+  "next_q": [
+   "Mudrock Soup and Bugs"
+  ],
+  "category": "Stormwind City"
+ },
+ "summary": "Angus Stern of the Blue Recluse in Stormwind is putting together a new menu of rural dishes with a bayou theme. Angus has a nephew, Morgan, who was sent to Theramore to gather recipes from the locals, and wants word of what Morgan has found so far.",
+ "sections": [
+  {
+   "title": "A Bayou Menu",
+   "body": "Angus Stern believes the customers of the Blue Recluse will love a menu of rural dishes in the bayou style. To build it, Angus sent nephew Morgan off to Theramore, a city beside Dustwallow Marsh, to gather the locals' recipes. The trip is too long for Angus to make, so a young traveler like you is wanted to go and speak with Morgan.",
+   "spoiler": 0
+  },
+  {
+   "title": "What Morgan Has to Say",
+   "body": "When you find Morgan Stern in Theramore, you hear that the recipe research has turned up some leads, but help is needed to follow them. The helper has to be someone willing to get their feet wet.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Morgan Stern?",
+   "aliases": [
+    "who is morgan stern",
+    "morgan stern lore",
+    "angus stern nephew"
+   ],
+   "answer": "Morgan Stern is the nephew of Angus Stern of the Blue Recluse. Morgan was sent to Theramore to gather recipes from the locals."
+  },
+  {
+   "q": "Why does Angus Stern want to reach Morgan?",
+   "aliases": [
+    "why send to theramore",
+    "blue recluse menu",
+    "angus stern quest"
+   ],
+   "answer": "Angus is developing a new menu of rural dishes with a bayou theme for the Blue Recluse, and wants to know what Morgan has found so far."
+  },
+  {
+   "q": "Where can Morgan Stern be found?",
+   "aliases": [
+    "where is morgan stern",
+    "morgan stern location",
+    "theramore chef location"
+   ],
+   "answer": "Morgan is in Theramore, the city beside Dustwallow Marsh."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "angus stern",
+  "bayou",
+  "blue recluse",
+  "dustwallow marsh",
+  "morgan stern",
+  "stormwind",
+  "theramore"
+ ],
+ "related": [
+  "quest:1204",
+  "zone:dustwallow"
+ ],
+ "attribution": [
+  "Morgan Stern (quest)"
+ ]
+}

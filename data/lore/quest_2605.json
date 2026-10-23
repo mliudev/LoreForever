@@ -1,0 +1,97 @@
+{
+ "key": "quest:2605",
+ "type": "quest",
+ "name": "The Thirsty Goblin",
+ "era": "classic",
+ "zone": "tanaris",
+ "meta": {
+  "ids": [
+   2605
+  ],
+  "level": "49",
+  "faction": null,
+  "start": "Marin Noggenfogger",
+  "end": "Marin Noggenfogger",
+  "previous": "",
+  "next": "In Good Taste",
+  "wiki": "The Thirsty Goblin",
+  "chain": [
+   "The Thirsty Goblin",
+   "In Good Taste",
+   "Sprinkle's Secret Ingredient",
+   "Delivery for Marin",
+   "Noggenfogger Elixir (quest)"
+  ],
+  "next_q": [
+   "In Good Taste"
+  ],
+  "category": "Tanaris"
+ },
+ "summary": "Marin Noggenfogger in Gadgetzan is tormented by thirst. Rumor says the dew collectors of the cactus garden to the southwest store water in special glands, and Marin hopes one of those glands can become a drink that finally quenches it.",
+ "sections": [
+  {
+   "title": "A Gland Worth Drinking",
+   "body": "Marin has heard of strange creatures called dew collectors, living southwest of Gadgetzan, that keep water in special glands. A laden gland, Marin reckons, could be the start of a drink to end the thirst for good. You are asked to find the cactus garden where they live and bring one back.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who sends you to hunt for the dew gland?",
+   "aliases": [
+    "thirsty goblin questgiver",
+    "who starts thirsty goblin",
+    "marin noggenfogger"
+   ],
+   "answer": "Marin Noggenfogger, in the town of Gadgetzan, asks you to find a laden dew gland to cure a terrible thirst."
+  },
+  {
+   "q": "Where are the dew collectors located?",
+   "aliases": [
+    "dew collector location",
+    "where to find dew gland",
+    "cactus garden location"
+   ],
+   "answer": "They live in the cactus garden of Thistleshrub Valley, southwest of Gadgetzan in Tanaris."
+  },
+  {
+   "q": "What creature carries the laden dew gland?",
+   "aliases": [
+    "what drops laden dew gland",
+    "dew collector mob"
+   ],
+   "answer": "The glands come from the Thistleshrub Dew Collectors, creatures said to store water in special glands."
+  },
+  {
+   "q": "What comes next in the chain?",
+   "aliases": [
+    "thirsty goblin follow up",
+    "next quest after thirsty goblin"
+   ],
+   "answer": "The chain carries on with In Good Taste."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "cactus garden",
+  "dew collector",
+  "dew gland",
+  "gadgetzan",
+  "marin noggenfogger",
+  "tanaris",
+  "thistleshrub valley"
+ ],
+ "related": [
+  "quest:2606",
+  "subzone:gadgetzan",
+  "zone:tanaris",
+  "subzone:thistleshrub-valley",
+  "quest:2641",
+  "quest:2661",
+  "quest:2662",
+  "topic:goblin"
+ ],
+ "attribution": [
+  "The Thirsty Goblin"
+ ]
+}

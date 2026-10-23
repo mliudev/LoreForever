@@ -1,0 +1,74 @@
+{
+ "key": "quest:619",
+ "type": "quest",
+ "name": "Enticing Negolash",
+ "era": "classic",
+ "zone": "stranglethorn",
+ "meta": {
+  "ids": [
+   619
+  ],
+  "level": "42",
+  "faction": "Neutral",
+  "start": "Ruined Lifeboat",
+  "end": "Ruined Lifeboat",
+  "previous": "",
+  "next": "",
+  "wiki": "Enticing Negolash",
+  "chain": [],
+  "category": "Stranglethorn Vale"
+ },
+ "summary": "Along the shores of Stranglethorn Vale rests an abandoned lifeboat marked with the faded words Smotts' Revenge. Piling barbecued buzzard wings and junglevine wine upon the wrecked craft serves to lure out the giant Negolash.",
+ "sections": [
+  {
+   "title": "A Tempting Offering",
+   "body": "The wreckage of a small boat lies neglected, carrying only weathered lettering that names it Smotts' Revenge. To catch the attention of Negolash during the hunt against him, the boat must be turned into bait, heaped with ten barbecued buzzard wings and five bottles of junglevine wine.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is the Ruined Lifeboat?",
+   "aliases": [
+    "smotts revenge boat",
+    "lifeboat strangletorn",
+    "what is smotts revenge"
+   ],
+   "answer": "It is an abandoned, broken boat bearing the faded inscription Smotts' Revenge, used as a platform to arrange food and drink to lure Negolash."
+  },
+  {
+   "q": "What provisions are required for the offering?",
+   "aliases": [
+    "what food is needed",
+    "enticing negolash items",
+    "what items for negolash"
+   ],
+   "answer": "The offering requires ten barbecued buzzard wings alongside five vessels of junglevine wine, which are stacked together directly onto the wreck."
+  },
+  {
+   "q": "When does this task become available?",
+   "aliases": [
+    "when can i do enticing negolash",
+    "facing negolash prerequisite",
+    "how to unlock enticing negolash"
+   ],
+   "answer": "This offering can only be prepared while undertaking the hunt to face Negolash."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "barbecued buzzard wing",
+  "junglevine wine",
+  "negolash",
+  "ruined lifeboat",
+  "smotts revenge",
+  "stranglethorn vale"
+ ],
+ "related": [
+  "quest:618",
+  "zone:stranglethorn"
+ ],
+ "attribution": [
+  "Enticing Negolash"
+ ]
+}

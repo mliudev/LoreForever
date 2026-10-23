@@ -1,0 +1,97 @@
+{
+ "key": "quest:243",
+ "type": "quest",
+ "name": "Into the Field",
+ "era": "classic",
+ "zone": "tanaris",
+ "meta": {
+  "ids": [
+   243
+  ],
+  "level": "46",
+  "faction": "Horde",
+  "start": "Apothecary Zinge",
+  "end": "Chief Engineer Bilgewhizzle",
+  "previous": "",
+  "next": "Slake That Thirst",
+  "wiki": "Into the Field",
+  "chain": [],
+  "next_q": [
+   "Slake That Thirst"
+  ],
+  "category": "Tanaris",
+  "chain_tpl": [
+   "Errand for Apothecary Zinge"
+  ]
+ },
+ "summary": "Apothecary Zinge sends you into the Tanaris desert with a field testing kit to test the tissue of basilisks, scorpids and hyenas. The modified kit also needs a power source that the goblins of Gadgetzan have, so Zinge points you to Chief Engineer Bilgewhizzle there.",
+ "sections": [
+  {
+   "title": "Tissue in the Desert",
+   "body": "Apothecary Zinge wants the consistency of the tissue of the desert's basilisks, scorpids and hyenas tested. You gather samples and run them through the testing kit you carry, though a good chunk of the samples will fail. Eight acceptable samples of each kind of creature are needed, and Zinge asks you to return only once you have succeeded.",
+   "spoiler": 0
+  },
+  {
+   "title": "A Power Source in Gadgetzan",
+   "body": "The modified kit has to be used with a power source of a kind the goblins of Gadgetzan have. Zinge sends you to Chief Engineer Bilgewhizzle in Gadgetzan to get one.",
+   "spoiler": 0
+  },
+  {
+   "title": "Nothing Is Free",
+   "body": "Bilgewhizzle knows the model 4711-FTZ power sources well; they normally run the water wells, and thanks to the vile nomads there are more than enough of them just now. Bilgewhizzle will arrange one for whatever nefarious experiment you are trying to hide, but not for free, since in Gadgetzan nothing is.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who sends you to Tanaris for this research?",
+   "aliases": [
+    "who starts into the field",
+    "who gives into the field",
+    "into the field questgiver"
+   ],
+   "answer": "Apothecary Zinge, who hands you a field testing kit and wants tissue from the desert creatures tested."
+  },
+  {
+   "q": "Why do you need to see Chief Engineer Bilgewhizzle?",
+   "aliases": [
+    "bilgewhizzle role",
+    "why visit bilgewhizzle",
+    "testing kit power source"
+   ],
+   "answer": "The modified testing kit needs a power supply of the kind the goblins of Gadgetzan have, and Bilgewhizzle is the one to speak to about getting one."
+  },
+  {
+   "q": "Which beasts are targeted for testing?",
+   "aliases": [
+    "beasts to test",
+    "into the field creature types",
+    "tissue samples tanaris"
+   ],
+   "answer": "Basilisks, scorpids and hyenas of the Tanaris desert, with eight acceptable samples of each needed."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "apothecary",
+  "basilisk",
+  "bilgewhizzle",
+  "gadgetzan",
+  "hyena",
+  "power source",
+  "scorpid",
+  "tanaris",
+  "testing kit",
+  "zinge"
+ ],
+ "related": [
+  "npc:apothecary-zinge",
+  "subzone:gadgetzan",
+  "zone:tanaris",
+  "quest:379",
+  "topic:goblin"
+ ],
+ "attribution": [
+  "Into the Field"
+ ]
+}

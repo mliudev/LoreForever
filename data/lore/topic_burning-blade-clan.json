@@ -7,16 +7,11 @@
  "meta": {
   "wiki": "Burning Blade clan"
  },
- "summary": "Once an ancient orcish clan renowned for its deadly blademasters and consumed by chaotic frenzy during the early wars, the Burning Blade now largely persists as a sinister demon-worshiping cult. Its acolytes infiltrate Durotar and the Barrens under the direction of the Shadow Council. Meanwhile, a handful of honorable blademasters have forsaken its demonic corruption to serve Warchief Thrall in the New Horde.",
+ "summary": "Once an ancient orcish clan renowned for its deadly blademasters and consumed by chaotic frenzy during the early wars, the Burning Blade now largely persists as a sinister demon-worshiping cult. Its acolytes infiltrate Durotar and the Barrens, pursuing dark agendas whispered to be guided by hidden masters. Meanwhile, a handful of honorable blademasters have forsaken its demonic corruption to serve Warchief Thrall in the New Horde.",
  "sections": [
   {
    "title": "From Clan to Elemental Fury",
    "body": "Originating in the lands of Draenor alongside clans like the Warsong, the Burning Blade were long respected for the lethal tradition of their blademasters. When they drank the blood of Mannoroth and marched through the Dark Portal into Azeroth during the First War, however, the clan fractured mentally. By the Second War, they were scarcely an organized society, behaving instead like a berserk force of nature. Nomadic and demented, they threw themselves into battle with total disregard for survival, requiring ogres to hold them in check until unleashed. Ultimately, their numbers were battered and routed near the Dark Portal by the Alliance.",
-   "spoiler": 0
-  },
-  {
-   "title": "A Split Legacy",
-   "body": "Following the Second War, the surviving remnants of the Burning Blade split dramatically. A disciplined contingent of blademasters swore solemn oaths to liberate their people from demonic enslavement, pledging their blades directly to Warchief Thrall as his personal honor guard. Yet a far larger portion of the scattered clan fell entirely under the sway of the Burning Legion and the Shadow Council, morphing into a clandestine cult of warlocks, fel acolytes, and conspirators lurking throughout Kalimdor.",
    "spoiler": 0
   },
   {
@@ -27,6 +22,11 @@
   {
    "title": "The Traitor in the Cleft",
    "body": "While Thrall works to establish the New Horde, the cult's master orchestrator sits directly under his nose. Neeru Fireblade, an ostensible Horde warlock dwelling in the Cleft of Shadow, secretly leads the Burning Blade as an agent of the Shadow Council. Neeru uses pawns, including the expendable Searing Blade of Ragefire Chasm, to maintain his disguise as a benign researcher helping the Warchief. Unbeknownst to Neeru, Thrall has already deduced his treacherous allegiance and watches him closely.",
+   "spoiler": 1
+  },
+  {
+   "title": "A Split Legacy",
+   "body": "Following the Second War, the surviving remnants of the Burning Blade split dramatically. A disciplined contingent of blademasters swore solemn oaths to liberate their people from demonic enslavement, pledging their blades directly to Warchief Thrall as his personal honor guard. Yet a far larger portion of the scattered clan fell entirely under the sway of the Burning Legion and the Shadow Council, morphing into a clandestine cult of warlocks, fel acolytes, and conspirators lurking throughout Kalimdor.",
    "spoiler": 1
   }
  ],

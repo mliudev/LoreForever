@@ -1,0 +1,90 @@
+{
+ "key": "quest:7828",
+ "type": "quest",
+ "name": "Stalking the Stalkers",
+ "era": "classic",
+ "zone": "hinterlands",
+ "meta": {
+  "ids": [
+   7828
+  ],
+  "level": "48",
+  "start": "Huntsman Markhor",
+  "end": "Huntsman Markhor",
+  "wiki": null,
+  "previous": "",
+  "next": ""
+ },
+ "summary": "Huntsman Markhor, of the village of Revantusk in the Hinterlands, names the Silvermane wolves as one of the worst dangers to the village's hunters. You are asked to turn the tables and hunt the hunters.",
+ "sections": [
+  {
+   "title": "Wolves in Hiding",
+   "body": "Markhor points to the many trolls the Hinterlands wilds have already claimed, and ranks the Silvermane wolves among the greatest dangers to Revantusk's hunters. The wolves wait hidden among the bushes and the lay of the land, then pounce when the moment is right. Markhor will not let that go unanswered, and urges you to think as a Silvermane does and turn the hunt on the hunters, putting every one of them down.",
+   "spoiler": 0
+  },
+  {
+   "title": "What Markhor Asks",
+   "body": "Markhor wants fifteen Silvermane Stalkers and fifteen Silvermane Howlers killed. Markhor adds that the wolves lurk out in the Hinterlands wilds.",
+   "spoiler": 0
+  },
+  {
+   "title": "Revantusk's Thanks",
+   "body": "Once it is done, Markhor thanks you on behalf of the Revantusk for what you have given them.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who asks for the wolves to be hunted?",
+   "aliases": [
+    "who gives stalking the stalkers",
+    "quest giver stalking the stalkers",
+    "markhor quest"
+   ],
+   "answer": "Huntsman Markhor, of the village of Revantusk in the Hinterlands."
+  },
+  {
+   "q": "Why are the Silvermane wolves such a threat?",
+   "aliases": [
+    "why kill silvermane wolves",
+    "silvermane wolf threat",
+    "why cull wolves hinterlands"
+   ],
+   "answer": "Markhor ranks them among the greatest dangers to Revantusk's hunters: they hide among bushes and the lay of the land and strike when the chance comes, and many trolls have already been lost out in the wilds."
+  },
+  {
+   "q": "Which wolves need to be culled?",
+   "aliases": [
+    "what wolves to kill",
+    "stalking the stalkers targets",
+    "wolf types hinterlands"
+   ],
+   "answer": "Fifteen Silvermane Stalkers and fifteen Silvermane Howlers."
+  },
+  {
+   "q": "Where are these wolves found?",
+   "aliases": [
+    "where are silvermane wolves",
+    "silvermane stalker location",
+    "silvermane howler location"
+   ],
+   "answer": "Markhor says they lurk out in the Hinterlands wilds."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "hinterlands wolves",
+  "huntsman markhor",
+  "revantusk",
+  "revantusk village",
+  "silvermane howler",
+  "silvermane stalker",
+  "stalking the stalkers"
+ ],
+ "related": [
+  "zone:hinterlands"
+ ],
+ "attribution": [
+  "Classic quest text: Stalking the Stalkers"
+ ]
+}

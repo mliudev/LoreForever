@@ -1,0 +1,98 @@
+{
+ "key": "quest:1107",
+ "type": "quest",
+ "name": "Encrusted Tail Fins",
+ "era": "classic",
+ "zone": "thousandneedles",
+ "meta": {
+  "ids": [
+   1107
+  ],
+  "level": "35",
+  "faction": null,
+  "start": "Wizzle Brassbolts",
+  "end": "Wizzle Brassbolts",
+  "previous": "Hardened Shells",
+  "next": "",
+  "wiki": "Encrusted Tail Fins",
+  "chain": [],
+  "category": "Thousand Needles",
+  "prev_q": [
+   "Hardened Shells"
+  ]
+ },
+ "summary": "Wizzle Brassbolts at the Mirage Raceway fears the rocket car is so fast that friction will tear it apart. To protect it, he needs tail fins from the Saltscale murlocs at the Vile Reef, off the coast of Stranglethorn Vale.",
+ "sections": [
+  {
+   "title": "A Coating for the Car",
+   "body": "Wizzle calls the rocket car the fastest thing on the Shimmering Flats, and worries that friction will tear it apart. The moving parts need a coat of composite that is hard but not brittle, and able to resist salt corrosion, or the flats will eat the car away. Its key ingredient is the tail fins of the Saltscale murlocs, who live at the Vile Reef, off the coast of Stranglethorn Vale. You are asked to bring Wizzle ten of them.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Finished Composite",
+   "body": "Wizzle will grind your fins to powder and mix them with a few other ingredients, and the finished composite should keep the car safe from its own speed. Wizzle adds that this holds only as long as the car does not hit anything.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Why does Wizzle Brassbolts need encrusted tail fins?",
+   "aliases": [
+    "why tail fins",
+    "wizzle tail fins purpose",
+    "why murloc fins"
+   ],
+   "answer": "The rocket car is so fast that Wizzle fears friction will tear it apart. The fins are a crucial ingredient of a composite to coat its moving parts, one hard but not brittle, and resistant to salt corrosion."
+  },
+  {
+   "q": "Where can the Saltscale murlocs be found?",
+   "aliases": [
+    "vile reef location",
+    "where are saltscale murlocs",
+    "where to find encrusted fins"
+   ],
+   "answer": "At the Vile Reef, off the coast of Stranglethorn Vale, lying almost due west of Grom'gol Base Camp."
+  },
+  {
+   "q": "What came before this for Wizzle?",
+   "aliases": [
+    "what quest comes first",
+    "wizzle chain previous quest",
+    "prerequisite for encrusted tail fins"
+   ],
+   "answer": "Hardened Shells comes before it in the chain."
+  },
+  {
+   "q": "Who is Wizzle Brassbolts?",
+   "aliases": [
+    "who is wizzle",
+    "who gives encrusted tail fins"
+   ],
+   "answer": "Wizzle Brassbolts is at the Mirage Raceway, worried for the rocket car, and is the one who asks you for the fins."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "encrusted tail fins",
+  "mirage raceway",
+  "rocket car",
+  "saltscale murlocs",
+  "shimmering flats",
+  "stranglethorn vale",
+  "vile reef",
+  "wizzle brassbolts"
+ ],
+ "related": [
+  "quest:1105",
+  "npc:wizzle-brassbolts",
+  "subzone:mirage-raceway",
+  "subzone:shimmering-flats",
+  "subzone:vile-reef",
+  "zone:stranglethorn",
+  "zone:thousandneedles",
+  "topic:murloc"
+ ],
+ "attribution": [
+  "Encrusted Tail Fins"
+ ]
+}

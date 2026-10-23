@@ -1,0 +1,102 @@
+{
+ "key": "quest:623",
+ "type": "quest",
+ "name": "Akiris by the Bundle",
+ "era": "classic",
+ "zone": "stranglethorn",
+ "meta": {
+  "ids": [
+   623
+  ],
+  "level": "43",
+  "faction": "Alliance",
+  "start": "Privateer Bloads",
+  "end": "Privateer Groy",
+  "previous": "Akiris by the Bundle (Classic)",
+  "next": "",
+  "wiki": "Akiris by the Bundle (2)",
+  "chain": [
+   "Akiris by the Bundle (Classic)",
+   "Akiris by the Bundle (2)"
+  ],
+  "prev_q": [
+   "Akiris by the Bundle (Classic)"
+  ],
+  "category": "Stranglethorn Vale"
+ },
+ "summary": "Privateer Bloads in Stranglethorn Vale needs a fresh bundle of akiris reeds transported across the sea to Dustwallow Marsh. A contact named Privateer Groy has a client in Theramore Isle who wants more right away, and Bloads himself will not be heading there for a week.",
+ "sections": [
+  {
+   "title": "A Crossing to Theramore",
+   "body": "Word has arrived from across the sea while you were away. Privateer Groy in Theramore Isle sent word to Privateer Bloads expressing satisfaction with the prior shipment of akiris reeds, noting that an interested client demands more immediately. With Bloads not scheduled to sail for Dustwallow Marsh for another week, he entrusts you with the packaged parcel of reeds to deliver by hand.",
+   "spoiler": 0
+  },
+  {
+   "title": "Delivery on the Docks",
+   "body": "Privateer Groy waits along the docks of Theramore. Though dismissive of strangers at first, Groy inspects the bundle carefully upon learning that Bloads arranged the delivery. Pleased with the quality of the reeds, he pays a cut of coin for the courier work and promptly warns travelers not to loiter around his docks.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Privateer Groy?",
+   "aliases": [
+    "who is groy",
+    "groy theramore",
+    "privateer groy"
+   ],
+   "answer": "Privateer Groy is a contact of Privateer Bloads in Theramore Isle in Dustwallow Marsh, who has a client wanting more akiris reeds."
+  },
+  {
+   "q": "Why does Privateer Bloads need a courier?",
+   "aliases": [
+    "why carry reeds",
+    "why theramore",
+    "bloads delivery"
+   ],
+   "answer": "Bloads received word that Groy has an urgent buyer waiting for another bundle of akiris reeds. Since Bloads is not scheduled to sail to Dustwallow Marsh for another week, he relies on a traveler to make the journey immediately."
+  },
+  {
+   "q": "Where does this shipment need to go?",
+   "aliases": [
+    "where do i take the reeds",
+    "akiris delivery location",
+    "dustwallow marsh delivery"
+   ],
+   "answer": "The bundle must be carried across the sea to Theramore Isle, an Alliance port located within Dustwallow Marsh."
+  },
+  {
+   "q": "What came before this journey?",
+   "aliases": [
+    "previous quest",
+    "akiris reed chain",
+    "prerequisite"
+   ],
+   "answer": "This delivery follows the initial harvesting effort in Stranglethorn Vale, where bundles of akiris reeds were first gathered and brought to Privateer Bloads."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Alliance",
+   "text": "Theramore Isle is an Alliance stronghold in Dustwallow Marsh, though Privateer Bloads warns that visitors can still find trouble if they are the wrong kind of crowd."
+  }
+ ],
+ "keywords": [
+  "akiris",
+  "bloads",
+  "dustwallow",
+  "groy",
+  "privateer",
+  "reeds",
+  "stranglethorn",
+  "theramore"
+ ],
+ "related": [
+  "quest:617",
+  "zone:dustwallow",
+  "zone:stranglethorn"
+ ],
+ "attribution": [
+  "Akiris by the Bundle (2)"
+ ]
+}

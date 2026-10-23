@@ -1,0 +1,100 @@
+{
+ "key": "quest:705",
+ "type": "quest",
+ "name": "Pearl Diving",
+ "era": "classic",
+ "zone": "badlands",
+ "meta": {
+  "ids": [
+   705
+  ],
+  "level": "37",
+  "faction": null,
+  "start": "Rigglefuzz",
+  "end": "Rigglefuzz",
+  "previous": "",
+  "next": "Flash Bomb Recipe",
+  "wiki": "Pearl Diving",
+  "chain": [
+   "Pearl Diving",
+   "Flash Bomb Recipe"
+  ],
+  "next_q": [
+   "Flash Bomb Recipe"
+  ],
+  "category": "Badlands"
+ },
+ "summary": "Rigglefuzz, a goblin, finds the Badlands full of vicious predators and bold scavengers, and survives by being tricky: flash bombs scare off the wildlife. The supply of crushed blue pearl powder is running low, so you are sent to the Vile Reef in Stranglethorn for more.",
+ "sections": [
+  {
+   "title": "A Tricky Little Goblin",
+   "body": "The Badlands are harsh, and Rigglefuzz admits to being scared as a short little goblin among predators and scavengers. Rigglefuzz knows the recipe for flash bombs and uses them to frighten wildlife away. One ingredient is running low: crushed blue pearl powder.",
+   "spoiler": 0
+  },
+  {
+   "title": "Pearls from the Reef",
+   "body": "Blue pearls come from the clams at the Vile Reef in Stranglethorn. Rigglefuzz jokes that you had better wear good boots, then waits in the Badlands for nine of them, promising to make your effort worthwhile.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Why does Rigglefuzz need blue pearls?",
+   "aliases": [
+    "rigglefuzz pearls",
+    "why pearl diving",
+    "why blue pearls"
+   ],
+   "answer": "Rigglefuzz uses crushed blue pearl powder to make flash bombs, and the supply is running low."
+  },
+  {
+   "q": "Where are the blue pearls found?",
+   "aliases": [
+    "where are blue pearls",
+    "blue pearl location",
+    "vile reef pearls"
+   ],
+   "answer": "They are found in clams at the Vile Reef in Stranglethorn."
+  },
+  {
+   "q": "Why does Rigglefuzz use flash bombs?",
+   "aliases": [
+    "why flash bombs",
+    "rigglefuzz defense"
+   ],
+   "answer": "The Badlands are full of vicious predators and bold scavengers, and flash bombs scare the wildlife away."
+  },
+  {
+   "q": "How many blue pearls does Rigglefuzz want?",
+   "aliases": [
+    "blue pearl count",
+    "how many pearls"
+   ],
+   "answer": "Nine blue pearls, brought back to Rigglefuzz in the Badlands."
+  }
+ ],
+ "angles": [
+  {
+   "target": "profession:Engineering",
+   "text": "Engineers have good reason to take an interest in Rigglefuzz's flash bombs."
+  }
+ ],
+ "keywords": [
+  "badlands",
+  "blue pearl",
+  "flash bomb",
+  "pearl diving",
+  "rigglefuzz",
+  "stranglethorn vale",
+  "vile reef"
+ ],
+ "related": [
+  "zone:badlands",
+  "subzone:vile-reef",
+  "zone:stranglethorn",
+  "topic:goblin"
+ ],
+ "attribution": [
+  "Pearl Diving"
+ ]
+}

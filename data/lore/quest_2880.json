@@ -1,0 +1,84 @@
+{
+ "key": "quest:2880",
+ "type": "quest",
+ "name": "Troll Necklace Bounty",
+ "era": "classic",
+ "zone": "hinterlands",
+ "meta": {
+  "ids": [
+   2880
+  ],
+  "level": "45",
+  "faction": "Alliance",
+  "start": "Fraggar Thundermantle",
+  "end": "Fraggar Thundermantle",
+  "previous": "",
+  "next": "",
+  "wiki": "Troll Necklace Bounty",
+  "chain": [],
+  "category": "Hinterlands"
+ },
+ "summary": "Fraggar Thundermantle of Aerie Peak insists the Wildhammers answer to no Alliance and judge folk by what they do. Five tribal necklaces taken from Hinterlands trolls would be a good start for you.",
+ "sections": [
+  {
+   "title": "Earning Wildhammer Regard",
+   "body": "Fraggar Thundermantle has no use for talk and wants it clear that the Wildhammers are independent. Whoever hopes for friends among them must first prove their worth. Trolls that roam the hillsides of the Hinterlands sometimes wear tribal necklaces, and five of those brought to Fraggar in Aerie Peak would mark a good beginning.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Why does Fraggar Thundermantle want troll necklaces?",
+   "aliases": [
+    "why troll necklaces",
+    "troll necklace bounty purpose",
+    "why does fraggar want necklaces"
+   ],
+   "answer": "Fraggar judges people by deeds, not talk, and says five necklaces would mark a good beginning for anyone seeking Wildhammer friendship."
+  },
+  {
+   "q": "Are the Wildhammers part of the Alliance?",
+   "aliases": [
+    "are wildhammers alliance",
+    "is aerie peak alliance",
+    "wildhammer allegiance"
+   ],
+   "answer": "Fraggar is firm that they are not. The Wildhammers are independent and judge people by deeds and actions."
+  },
+  {
+   "q": "Where can troll tribal necklaces be found?",
+   "aliases": [
+    "where to get troll tribal necklace",
+    "troll necklace location",
+    "how to get troll necklaces"
+   ],
+   "answer": "Trolls roaming the Hinterlands hillsides are said to carry them now and then."
+  },
+  {
+   "q": "Who do I return the necklaces to?",
+   "aliases": [
+    "who gets troll necklaces",
+    "fraggar thundermantle turn in",
+    "where is fraggar thundermantle"
+   ],
+   "answer": "Five necklaces go to Fraggar Thundermantle in Aerie Peak."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "aerie peak",
+  "bounty",
+  "fraggar thundermantle",
+  "hinterlands",
+  "troll tribal necklace",
+  "trolls",
+  "wildhammer"
+ ],
+ "related": [
+  "zone:hinterlands",
+  "topic:troll"
+ ],
+ "attribution": [
+  "Wowpedia: Troll Necklace Bounty"
+ ]
+}

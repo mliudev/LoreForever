@@ -1,0 +1,99 @@
+{
+ "key": "quest:2623",
+ "type": "quest",
+ "name": "The Swamp Talker",
+ "era": "classic",
+ "zone": "swampofsorrows",
+ "meta": {
+  "ids": [
+   2623
+  ],
+  "level": "55",
+  "faction": "Horde",
+  "start": "Bengor",
+  "end": "Fallen Hero of the Horde",
+  "previous": "The Missing Orders",
+  "next": "",
+  "wiki": "The Swamp Talker",
+  "chain": [],
+  "prev_q": [
+   "The Missing Orders"
+  ],
+  "category": "Swamp of Sorrows",
+  "chain_tpl": [
+   "You Are Rakh'likh, Demon"
+  ]
+ },
+ "summary": "Bengor can barely speak, but he manages to tell what became of the orders. The dispatch commander gave them, and on the way to the Blasted Lands the group was ambushed by many murlocs. One of them, named Swamp Talker, took the orders from his hands. They must be recovered and brought to the Fallen Hero of the Horde.",
+ "sections": [
+  {
+   "title": "Bengor's Broken Account",
+   "body": "Bengor says the dispatch commander gave out the orders and that his group was on its way to the Blasted Lands when many murlocs ambushed them. One of the murlocs, named Swamp Talker, took the orders from his hands as a spear was thrust into his skull. Bengor manages a word about a cave to the east before passing out. The orders must be recovered and brought to the Fallen Hero of the Horde.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Fallen Hero's Reckoning",
+   "body": "The Fallen Hero of the Horde finds it worse than imagined. Nineteen of the Hero's men could have been spared agony if the Hero had not acted so irrationally. Powerless to act, the Hero urges you to help those men.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who stole the Warchief's Orders?",
+   "aliases": [
+    "who took the orders",
+    "who is swamp talker",
+    "who stole orders"
+   ],
+   "answer": "A murloc named Swamp Talker took the orders from Bengor's hands during the ambush."
+  },
+  {
+   "q": "Where did the Swamp Talker go?",
+   "aliases": [
+    "where is swamp talker",
+    "swamp talker location",
+    "where is the murloc cave"
+   ],
+   "answer": "Bengor's fading words mention a cave to the east."
+  },
+  {
+   "q": "Where were Bengor and his unit heading?",
+   "aliases": [
+    "bengor destination",
+    "where was bengor going",
+    "bengor unit goal"
+   ],
+   "answer": "They were on their way to the Blasted Lands, carrying orders from the dispatch commander, when the murlocs ambushed them."
+  },
+  {
+   "q": "To whom should the orders be returned?",
+   "aliases": [
+    "who gets the warchief orders",
+    "where do i turn in the orders",
+    "turn in swamp talker quest"
+   ],
+   "answer": "They must be brought to the Fallen Hero of the Horde."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "bengor",
+  "blasted lands",
+  "fallen hero of the horde",
+  "murloc",
+  "swamp of sorrows",
+  "swamp talker",
+  "warchief's orders"
+ ],
+ "related": [
+  "quest:2622",
+  "npc:fallen-hero-of-the-horde",
+  "zone:swampofsorrows",
+  "zone:blastedlands",
+  "topic:murloc",
+  "topic:horde"
+ ],
+ "attribution": [
+  "The Swamp Talker"
+ ]
+}

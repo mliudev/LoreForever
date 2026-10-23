@@ -1,0 +1,97 @@
+{
+ "key": "quest:3452",
+ "type": "quest",
+ "name": "The Flame's Casing",
+ "era": "classic",
+ "zone": "searinggorge",
+ "meta": {
+  "ids": [
+   3452
+  ],
+  "level": "50",
+  "faction": null,
+  "start": "Kalaran Windblade",
+  "end": "Kalaran Windblade",
+  "previous": "Forging the Shaft",
+  "next": "The Torch of Retribution",
+  "wiki": "The Flame's Casing",
+  "chain": [],
+  "prev_q": [
+   "Forging the Shaft"
+  ],
+  "next_q": [
+   "The Torch of Retribution"
+  ],
+  "category": "Searing Gorge",
+  "chain_tpl": [
+   "Torch of Retribution"
+  ]
+ },
+ "summary": "After Forging the Shaft, Kalaran Windblade says one final piece is needed for the torch. A large Twilight's Hammer encampment lies to the northwest, rumored to hold symbols and idols honoring its god, and Kalaran wants a single Symbol of Ragnaros.",
+ "sections": [
+  {
+   "title": "A Piece for the Casing",
+   "body": "Kalaran calls this the last piece the torch needs. Northwest, among the mountains, a large Twilight's Hammer encampment is rumored to hold symbols and idols honoring their god, and these could carry enough enchantment for a magical casing. Kalaran asks for one Symbol of Ragnaros and will try to draw the magic out of it. The torch of retribution lacks one thing, a suitable source of arcane energy.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Symbol Examined",
+   "body": "The symbol gives off a foul magic, which Kalaran finds ideal for the work.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is needed to create the flame's casing?",
+   "aliases": [
+    "flames casing item",
+    "what does kalaran need",
+    "symbol needed"
+   ],
+   "answer": "Kalaran Windblade asks for a single Symbol of Ragnaros, from which magic may be drawn to form the casing."
+  },
+  {
+   "q": "Where is the Twilight's Hammer encampment?",
+   "aliases": [
+    "twilights hammer location",
+    "where is the cult camp",
+    "northwest mountains cult"
+   ],
+   "answer": "Kalaran says a large Twilight's Hammer encampment lies in the mountains to the northwest."
+  },
+  {
+   "q": "Why does Kalaran want a Symbol of Ragnaros?",
+   "aliases": [
+    "why symbol of ragnaros",
+    "ragnaros symbol purpose",
+    "what does the symbol do"
+   ],
+   "answer": "The symbols and idols of Twilight's Hammer could carry enough enchantment to form a magical casing, and Kalaran hopes to draw that magic out of one."
+  },
+  {
+   "q": "What comes before this step in the chain?",
+   "aliases": [
+    "previous quest",
+    "what quest before flames casing"
+   ],
+   "answer": "It follows Forging the Shaft, in which Kalaran asked for thorium plated daggers to reforge into a shaft."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "flame's casing",
+  "kalaran windblade",
+  "searing gorge",
+  "symbol of ragnaros",
+  "torch of retribution",
+  "twilight's hammer"
+ ],
+ "related": [
+  "quest:3443",
+  "topic:twilight-s-hammer",
+  "zone:searinggorge"
+ ],
+ "attribution": [
+  "The Flame's Casing"
+ ]
+}

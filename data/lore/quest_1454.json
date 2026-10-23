@@ -1,0 +1,102 @@
+{
+ "key": "quest:1454",
+ "type": "quest",
+ "name": "The Karnitol Shipwreck",
+ "era": "classic",
+ "zone": "desolace",
+ "meta": {
+  "ids": [
+   1454
+  ],
+  "level": "39",
+  "faction": "Alliance",
+  "start": "Kreldig Ungor",
+  "end": "Karnitol's Chest",
+  "previous": "Reclaimers' Business in Desolace",
+  "next": "The Karnitol Shipwreck (2)",
+  "wiki": "The Karnitol Shipwreck",
+  "chain": [],
+  "prev_q": [
+   "Reclaimers' Business in Desolace"
+  ],
+  "next_q": [
+   "The Karnitol Shipwreck (2)"
+  ],
+  "category": "Desolace",
+  "chain_tpl": [
+   "The Karnitol Shipwreck/Chain"
+  ]
+ },
+ "summary": "Kreldig Ungor tells you of Karnitol, a mage who is some kind of noble in Stormwind. Sea giants struck his ship in the northwest waters of Desolace, and he left a valuable chest behind and teleported away. The chest and what is inside are to be found.",
+ "sections": [
+  {
+   "title": "A Noble's Flight",
+   "body": "After Reclaimers' Business in Desolace, Kreldig Ungor tells you of a first order of business. It concerns Karnitol, a mage who is some kind of noble in Stormwind. Sea giants struck Karnitol's ship in the northwest waters of Desolace. Karnitol and his servants tried to carry one of his costlier chests to shore, but the giants swarmed in, and he gave up the chest and teleported himself and his servants out. The chest and its contents are to be found, then returned to Karnitol in Stormwind. It lies along the northern coastline, in the Ethel Rethor stretch.",
+   "spoiler": 0
+  },
+  {
+   "title": "What the Chest Shows",
+   "body": "The chest shows no water damage, but the lid has been forced open, and burn marks around the edges show that any magical traps guarding it were sprung long ago.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Karnitol?",
+   "aliases": [
+    "karnitol",
+    "who is karnitol",
+    "who wants the chest"
+   ],
+   "answer": "A mage who is some kind of noble in Stormwind. Sea giants struck his ship in the northwest waters of Desolace."
+  },
+  {
+   "q": "What happened to Karnitol's ship?",
+   "aliases": [
+    "shipwreck story",
+    "why did ship sink",
+    "sea giant attack"
+   ],
+   "answer": "Sea giants struck it in the northwest waters of Desolace. Karnitol and his servants tried to carry a valuable chest to shore, but the giants swarmed in, so he left the chest and teleported out with his servants."
+  },
+  {
+   "q": "Who is looking for the chest?",
+   "aliases": [
+    "who gives quest",
+    "kreldig ungor role"
+   ],
+   "answer": "Kreldig Ungor, who says Karnitol wants the chest and its contents found and returned to him in Stormwind."
+  },
+  {
+   "q": "Where does the chest lie?",
+   "aliases": [
+    "karnitol chest location",
+    "where is karnitol's chest",
+    "ethel rethor chest"
+   ],
+   "answer": "Along the northern coastline of Desolace, in the Ethel Rethor stretch."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "desolace",
+  "ethel rethor",
+  "karnitol",
+  "kreldig ungor",
+  "reclaimers",
+  "sea giants",
+  "shipwreck",
+  "stormwind"
+ ],
+ "related": [
+  "npc:kreldig-ungor",
+  "subzone:ethel-rethor",
+  "zone:desolace",
+  "topic:stormwind-kingdom",
+  "topic:mage",
+  "quest:1453"
+ ],
+ "attribution": [
+  "The Karnitol Shipwreck"
+ ]
+}

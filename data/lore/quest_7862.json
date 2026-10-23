@@ -1,0 +1,81 @@
+{
+ "key": "quest:7862",
+ "type": "quest",
+ "name": "Job Opening: Guard Captain of Revantusk Village",
+ "era": "classic",
+ "zone": "hinterlands",
+ "meta": {
+  "ids": [
+   7862
+  ],
+  "level": "51",
+  "faction": "Horde",
+  "start": "Call to Arms!",
+  "end": "Primal Torntusk",
+  "previous": "",
+  "next": "",
+  "wiki": "Job Opening: Guard Captain of Revantusk Village",
+  "chain": [],
+  "category": "Hinterlands"
+ },
+ "summary": "Guard Captain Malkhor has been lost, and Revantusk's guard needs a new captain. Anyone who wants the post must wipe out Vilebranch Berserkers, Shadow Hunters, Blood Drinkers and Soul Eaters, then bring an application to Primal Torntusk in the Hinterlands.",
+ "sections": [
+  {
+   "title": "A Vacant Post",
+   "body": "A call to arms announces that Guard Captain Malkhor has been lost, so Revantusk's guard has no captain once more. Whoever wants to lead it is invited to do the work set out in the notice and then send an application to Primal Torntusk.",
+   "spoiler": 0
+  },
+  {
+   "title": "Proving Worth",
+   "body": "An applicant is to exterminate four kinds of Vilebranch: Berserkers, Shadow Hunters, Blood Drinkers and Soul Eaters. When that is done, return to Primal Torntusk in Revantusk Village.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Why is the position of Guard Captain open?",
+   "aliases": [
+    "why is guard captain open",
+    "what happened to malkhor",
+    "who was previous captain"
+   ],
+   "answer": "Guard Captain Malkhor was lost, and the notice says the captaincy of Revantusk is vacant again."
+  },
+  {
+   "q": "Who receives the application once the enemies are slain?",
+   "aliases": [
+    "who do i turn this in to",
+    "where to submit application",
+    "who evaluates the applicants"
+   ],
+   "answer": "Applications go to Primal Torntusk, in Revantusk Village."
+  },
+  {
+   "q": "Which enemies must be defeated to qualify?",
+   "aliases": [
+    "which vilebranch to kill",
+    "job opening targets",
+    "who do i kill for guard captain"
+   ],
+   "answer": "Applicants must exterminate Vilebranch Berserkers, Shadow Hunters, Blood Drinkers and Soul Eaters."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "berserker",
+  "blood drinker",
+  "guard captain",
+  "malkhor",
+  "revantusk",
+  "shadow hunter",
+  "soul eater",
+  "torntusk",
+  "vilebranch"
+ ],
+ "related": [
+  "zone:hinterlands"
+ ],
+ "attribution": [
+  "Wowpedia: Job Opening: Guard Captain of Revantusk Village"
+ ]
+}

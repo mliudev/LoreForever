@@ -1,0 +1,84 @@
+{
+ "key": "quest:209",
+ "type": "quest",
+ "name": "Skullsplitter Tusks",
+ "era": "classic",
+ "zone": "stranglethorn",
+ "meta": {
+  "ids": [
+   209
+  ],
+  "level": "42",
+  "faction": "Neutral",
+  "start": "Kebok",
+  "end": "Kebok",
+  "previous": "Bloodscalp Ears",
+  "next": "",
+  "wiki": "Skullsplitter Tusks",
+  "chain": [
+   "Bloodscalp Ears",
+   "Skullsplitter Tusks"
+  ],
+  "prev_q": [
+   "Bloodscalp Ears"
+  ],
+  "category": "Stranglethorn Vale"
+ },
+ "summary": "Kebok in Booty Bay needs materials to meet export demands for tiger fangs destined for the South Seas. Because hunting genuine jungle predators proves too costly, he has devised an undetectable forging process using tusks harvested from the Skullsplitter trolls.",
+ "sections": [
+  {
+   "title": "A Lucrative Substitute",
+   "body": "Supplying tiger fangs to distant island buyers across the South Seas has grown too expensive and difficult through ordinary hunting. Rather than abandon the trade, Kebok devised an undetectable forging method that turns mundane horn-like objects into convincing replicas. The closest physical match for these fangs comes directly from the jaws of the local Skullsplitter trolls, leading Kebok to hire adventurers willing to strip eighteen tusks from the jungle tribe to fill his upcoming export shipment.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Why does Kebok need Skullsplitter tusks?",
+   "aliases": [
+    "why skullsplitter tusks",
+    "kebok tusk plan",
+    "why fake tiger fangs"
+   ],
+   "answer": "Hunting enough real tigers to supply buyers in the South Seas has proven far too expensive and difficult. Kebok discovered that troll tusks can be forged into undetectable replicas of tiger fangs, allowing his trade operation to fill its monthly export orders."
+  },
+  {
+   "q": "Who is buying the fangs?",
+   "aliases": [
+    "who buys the tusks",
+    "south seas buyers",
+    "where do the fangs go"
+   ],
+   "answer": "The finished counterfeit fangs are shipped out to trading partners located on various islands throughout the South Seas."
+  },
+  {
+   "q": "Where does this task fall in Kebok's chain?",
+   "aliases": [
+    "what comes before skullsplitter tusks",
+    "skullsplitter tusks prerequisite",
+    "kebok quest order"
+   ],
+   "answer": "This assignment follows Kebok's earlier request for Bloodscalp Ears."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "booty bay",
+  "forgery",
+  "kebok",
+  "skullsplitter",
+  "south seas",
+  "stranglethorn",
+  "tiger fangs",
+  "tusks"
+ ],
+ "related": [
+  "quest:189",
+  "zone:stranglethorn",
+  "topic:troll",
+  "subzone:south-seas"
+ ],
+ "attribution": [
+  "Skullsplitter Tusks"
+ ]
+}

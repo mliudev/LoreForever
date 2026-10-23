@@ -1,0 +1,100 @@
+{
+ "key": "quest:692",
+ "type": "quest",
+ "name": "The Lost Fragments",
+ "era": "classic",
+ "zone": "badlands",
+ "meta": {
+  "ids": [
+   692
+  ],
+  "level": "41",
+  "faction": null,
+  "start": "Theldurin the Lost",
+  "end": "Theldurin the Lost",
+  "previous": "Theldurin the Lost (quest)",
+  "next": "Summoning the Princess",
+  "wiki": "The Lost Fragments",
+  "chain": [],
+  "prev_q": [
+   "Theldurin the Lost (quest)"
+  ],
+  "next_q": [
+   "Summoning the Princess"
+  ],
+  "category": "Badlands",
+  "chain_tpl": [
+   "The Princess Trapped Classic"
+  ]
+ },
+ "summary": "Theldurin the Lost is in a panic over the Scroll of Myzrael. Its magic could drag Myzrael up to the surface, yet if she is already free, the scroll may be the only way to bind her again. Elementals in a rage have shredded it and fight over the scraps, and you are sent to gather them.",
+ "sections": [
+  {
+   "title": "A Dangerous Parchment",
+   "body": "Theldurin the Lost is alarmed at the mention of the Scroll of Myzrael, fearing its magic could draw Myzrael to the surface. Then comes a change of heart: if she has already slipped free, or is gathering strength to strike, the scroll is just what you will need to trap her again.",
+   "spoiler": 0
+  },
+  {
+   "title": "Torn by the Elements",
+   "body": "The scroll is no longer whole. Furious elementals took it, ripped it to shreds and now fight over the scraps. You are after three pieces, one torn, one crumpled and one singed, and Theldurin means to try mending them. The thieves roam the hills behind Theldurin.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who sends you to collect the scroll fragments?",
+   "aliases": [
+    "quest giver",
+    "who starts the lost fragments",
+    "theldurin quest"
+   ],
+   "answer": "Theldurin the Lost asks you to bring back the pieces of the destroyed scroll."
+  },
+  {
+   "q": "What is the Scroll of Myzrael supposed to do?",
+   "aliases": [
+    "what does the scroll do",
+    "scroll of myzrael lore",
+    "why find scroll fragments"
+   ],
+   "answer": "Theldurin says its magic could draw Myzrael up to the surface. Theldurin also thinks that, if she is already free, it is what you would need to trap her again."
+  },
+  {
+   "q": "Where are the scroll fragments?",
+   "aliases": [
+    "who has the fragments",
+    "where to find the scroll pieces",
+    "scroll fragment location"
+   ],
+   "answer": "Elementals in a rage carried off the scroll, tore it up and fight over the pieces. They are in the hills behind Theldurin."
+  },
+  {
+   "q": "What comes before this quest?",
+   "aliases": [
+    "previous quest",
+    "prerequisite for the lost fragments"
+   ],
+   "answer": "It follows your earlier dealings with Theldurin the Lost."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "badlands",
+  "crumpled scroll fragment",
+  "elementals",
+  "myzrael",
+  "scroll of myzrael",
+  "singed scroll fragment",
+  "theldurin the lost",
+  "torn scroll fragment"
+ ],
+ "related": [
+  "npc:theldurin-the-lost",
+  "quest:687",
+  "quest:656",
+  "zone:badlands"
+ ],
+ "attribution": [
+  "The Lost Fragments"
+ ]
+}

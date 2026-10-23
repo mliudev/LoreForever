@@ -1,0 +1,101 @@
+{
+ "key": "quest:5581",
+ "type": "quest",
+ "name": "Portals of the Legion",
+ "era": "classic",
+ "zone": "desolace",
+ "meta": {
+  "ids": [
+   5581
+  ],
+  "level": "38",
+  "faction": "Horde",
+  "start": "Taiga Wisemane",
+  "end": "Taiga Wisemane",
+  "previous": "Hand of Iruxos (quest)",
+  "next": "",
+  "wiki": "Portals of the Legion (Classic)",
+  "chain": [
+   "Hand of Iruxos (quest)",
+   "Portals of the Legion (Classic)"
+  ],
+  "prev_q": [
+   "Hand of Iruxos (quest)"
+  ],
+  "category": "Desolace"
+ },
+ "summary": "After Hand of Iruxos, Taiga Wisemane in Shadowprey Village shows you the Hand and asks you to banish six demon portals at Mannoroc Coven, warning you to be wary of the portal guardians.",
+ "sections": [
+  {
+   "title": "Closing the Gates",
+   "body": "Taiga Wisemane holds up the Hand of Iruxos, a grisly thing to look at, and says you must carry it if the demon portals around Mannoroc Coven are ever to be closed. The demon threat is increasing, and shutting the portals will check the number of demons crossing into this world. She wants all six portals banished, and she warns you to be wary of their guardians.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Where are the demon portals?",
+   "aliases": [
+    "portal location",
+    "where is mannoroc coven",
+    "where are the legion portals"
+   ],
+   "answer": "At Mannoroc Coven in Desolace."
+  },
+  {
+   "q": "What is needed to banish the portals?",
+   "aliases": [
+    "how to banish portals",
+    "what item closes portals",
+    "hand of iruxos use"
+   ],
+   "answer": "The Hand of Iruxos. Taiga Wisemane says you must possess it for the portals to be banished."
+  },
+  {
+   "q": "Who asks you to banish the portals?",
+   "aliases": [
+    "quest giver",
+    "who gives portals of the legion",
+    "taiga wisemane location"
+   ],
+   "answer": "Taiga Wisemane, in Shadowprey Village."
+  },
+  {
+   "q": "How many portals must be banished?",
+   "aliases": [
+    "how many portals",
+    "portal count"
+   ],
+   "answer": "Six, at Mannoroc Coven."
+  },
+  {
+   "q": "What came before this?",
+   "aliases": [
+    "previous quest",
+    "prereq",
+    "prerequisite"
+   ],
+   "answer": "Hand of Iruxos, in which Taiga Wisemane sent you to Thunder Axe Fortress for the Demon Box."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "demon portals",
+  "desolace",
+  "hand of iruxos",
+  "legion",
+  "mannoroc coven",
+  "shadowprey village",
+  "taiga wisemane"
+ ],
+ "related": [
+  "quest:5381",
+  "npc:taiga-wisemane",
+  "subzone:mannoroc-coven",
+  "subzone:shadowprey-village",
+  "zone:desolace"
+ ],
+ "attribution": [
+  "Portals of the Legion (Classic)"
+ ]
+}

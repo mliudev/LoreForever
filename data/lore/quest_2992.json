@@ -1,0 +1,93 @@
+{
+ "key": "quest:2992",
+ "type": "quest",
+ "name": "The Divination",
+ "era": "classic",
+ "zone": "hinterlands",
+ "meta": {
+  "ids": [
+   2992
+  ],
+  "level": "47",
+  "faction": "Alliance",
+  "start": "Thadius Grimshade",
+  "end": "Thadius Grimshade",
+  "previous": "",
+  "next": "Return to the Hinterlands",
+  "wiki": "The Divination",
+  "chain": [
+   "Witherbark Cages",
+   "The Altar of Zul (quest)",
+   "Thadius Grimshade (quest)",
+   "Nekrum's Medallion (quest)",
+   "The Divination",
+   "Return to the Hinterlands",
+   "Saving Sharpbeak"
+  ],
+  "next_q": [
+   "Return to the Hinterlands"
+  ],
+  "category": "Hinterlands"
+ },
+ "summary": "Thadius Grimshade asks you to give him room while he performs a ritual of divination. He means to follow the link between the feather you brought and its owner until it leads him to Sharpbeak.",
+ "sections": [
+  {
+   "title": "A Ritual of Divination",
+   "body": "Thadius follows the link between Sharpbeak's feather and the gryphon who owns it, hoping to reach Sharpbeak himself. He asks for silence and room to work. He admits it may not go to plan, and warns that in that case you had better close your eyes.",
+   "spoiler": 0
+  },
+  {
+   "title": "When the Ritual Ends",
+   "body": "The ritual succeeds. Thadius has glimpsed Sharpbeak and is able to tell you where to look.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is Thadius Grimshade doing in this ritual?",
+   "aliases": [
+    "what is the divination",
+    "grimshade ritual",
+    "how does grimshade find sharpbeak"
+   ],
+   "answer": "Thadius performs a ritual of divination. He seeks the link between the feather you brought and Sharpbeak, and means to follow it to Sharpbeak himself."
+  },
+  {
+   "q": "Who is Sharpbeak?",
+   "aliases": [
+    "sharpbeak",
+    "who is sharpbeak"
+   ],
+   "answer": "Sharpbeak is the gryphon child whose feather you brought to Thadius, and whom Gryphon Master Talonaxe has been trying to find."
+  },
+  {
+   "q": "Is the ritual dangerous?",
+   "aliases": [
+    "is the divination dangerous",
+    "why close my eyes",
+    "divination risk"
+   ],
+   "answer": "Thadius warns that if the ritual does not go according to plan, you had better close your eyes. He asks you to give him room while he works."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "feather",
+  "gryphon",
+  "ritual",
+  "sharpbeak",
+  "thadius grimshade",
+  "the divination"
+ ],
+ "related": [
+  "npc:thadius-grimshade",
+  "quest:2993",
+  "quest:2994",
+  "quest:2989",
+  "quest:2988",
+  "zone:blastedlands"
+ ],
+ "attribution": [
+  "The Divination"
+ ]
+}

@@ -1,0 +1,94 @@
+{
+ "key": "quest:7722",
+ "type": "quest",
+ "name": "What the Flux?",
+ "era": "classic",
+ "zone": "searinggorge",
+ "meta": {
+  "ids": [
+   7722
+  ],
+  "level": "50",
+  "faction": null,
+  "start": "Master Smith Burninate",
+  "end": "Master Smith Burninate",
+  "previous": "",
+  "next": "Restoring Fiery Flux Supplies via Heavy Leather, Restoring Fiery Flux Supplies via Iron, Restoring Fiery Flux Supplies via Kingsblood",
+  "wiki": "What the Flux?",
+  "chain": [],
+  "category": "Searing Gorge",
+  "next_q": [
+   "Restoring Fiery Flux Supplies via Heavy Leather",
+   "Restoring Fiery Flux Supplies via Iron",
+   "Restoring Fiery Flux Supplies via Kingsblood"
+  ]
+ },
+ "summary": "Master Smith Burninate says that when Maltorius left their clan, he took their recipe for fiery flux, worth more than a pristine arcane crystal. Burninate wants the secret plans back and is sure they are near Maltorius, deep in the Slag Pit.",
+ "sections": [
+  {
+   "title": "The Stolen Recipe",
+   "body": "Master Smith Burninate calls Maltorius a traitor who left the clan with the recipe for fiery flux. Burninate would bet the recipe came with Maltorius's new promotion among the Dark Irons, and wants the secret plans returned.",
+   "spoiler": 0
+  },
+  {
+   "title": "Into the Slag Pit",
+   "body": "Burninate is sure the plans are not far from Maltorius, down in the depths of the Slag Pit. The Secret Plans: Fiery Flux are what Burninate wants carried back.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who stole the recipe for fiery flux?",
+   "aliases": [
+    "who stole the recipe",
+    "who took the plans",
+    "what the flux traitor"
+   ],
+   "answer": "Maltorius, whom Master Smith Burninate calls a traitor to their clan."
+  },
+  {
+   "q": "Where are the secret plans?",
+   "aliases": [
+    "where are the plans",
+    "secret plans fiery flux location",
+    "where to find fiery flux plans"
+   ],
+   "answer": "Burninate believes they are close to Maltorius, deep in the Cauldron's Slag Pit."
+  },
+  {
+   "q": "Who asks for the plans to be recovered?",
+   "aliases": [
+    "who gives what the flux",
+    "what the flux quest giver"
+   ],
+   "answer": "It is Burninate, a master smith, who wants them back."
+  },
+  {
+   "q": "Why do the plans matter to Burninate?",
+   "aliases": [
+    "why is fiery flux important",
+    "importance of fiery flux recipe"
+   ],
+   "answer": "Burninate says the recipe for fiery flux is worth more than a pristine arcane crystal, and it was the clan's own secret."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "burninate",
+  "cauldron",
+  "fiery flux",
+  "maltorius",
+  "plans",
+  "searing gorge",
+  "slag pit"
+ ],
+ "related": [
+  "zone:searinggorge",
+  "subzone:cauldron",
+  "subzone:slag-pit",
+  "quest:7701"
+ ],
+ "attribution": [
+  "What the Flux?"
+ ]
+}

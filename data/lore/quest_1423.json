@@ -1,0 +1,79 @@
+{
+ "key": "quest:1423",
+ "type": "quest",
+ "name": "The Lost Supplies",
+ "era": "classic",
+ "zone": "swampofsorrows",
+ "meta": {
+  "ids": [
+   1423
+  ],
+  "level": "40",
+  "faction": "Alliance",
+  "start": "Lost Supplies (starter)",
+  "end": "Quartermaster Lungertz",
+  "previous": "",
+  "next": "",
+  "wiki": "The Lost Supplies",
+  "chain": [],
+  "category": "Swamp of Sorrows"
+ },
+ "summary": "A small, sturdy barrel has its seams sealed with pungent yellow wax. A stamp on its base names Quartermaster Lungertz and Nethergarde Keep, and that is where it belongs.",
+ "sections": [
+  {
+   "title": "A Stamped Barrel",
+   "body": "Pungent yellow wax seals the seams of this compact, stout barrel. Underneath, a stamp reads Quartermaster Lungertz, Nethergarde Keep, so the barrel is meant for the quartermaster there.",
+   "spoiler": 0
+  },
+  {
+   "title": "Word from the Quartermaster",
+   "body": "Quartermaster Lungertz thanks you. Supplies go astray all the way from Darkshire to Nethergarde, and it is good to see some recovered.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is meant to receive the lost supplies?",
+   "aliases": [
+    "who gets the barrel",
+    "lost supplies recipient",
+    "where does the barrel go"
+   ],
+   "answer": "The barrel is marked for Quartermaster Lungertz at Nethergarde Keep."
+  },
+  {
+   "q": "How can you tell who owns the barrel?",
+   "aliases": [
+    "barrel markings",
+    "how to read barrel",
+    "quartermaster lungertz stamp"
+   ],
+   "answer": "The base of the barrel carries a stamp naming Quartermaster Lungertz and Nethergarde Keep."
+  },
+  {
+   "q": "What does the barrel look like?",
+   "aliases": [
+    "lost supplies barrel",
+    "barrel description"
+   ],
+   "answer": "It is a small, sturdy barrel with pungent yellow wax along its seams."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "barrel",
+  "darkshire",
+  "lost supplies",
+  "nethergarde keep",
+  "quartermaster lungertz",
+  "swamp of sorrows"
+ ],
+ "related": [
+  "subzone:nethergarde-keep",
+  "zone:swampofsorrows",
+  "subzone:darkshire"
+ ],
+ "attribution": [
+  "The Lost Supplies"
+ ]
+}

@@ -1,0 +1,96 @@
+{
+ "key": "quest:1374",
+ "type": "quest",
+ "name": "Khan Jehn",
+ "era": "classic",
+ "zone": "desolace",
+ "meta": {
+  "ids": [
+   1374
+  ],
+  "level": "37",
+  "faction": null,
+  "start": "Uthek the Wise",
+  "end": "Uthek the Wise",
+  "previous": "Ongeku (quest)",
+  "next": "Khan Hratha (Gelkis)",
+  "wiki": "Khan Jehn (quest)",
+  "chain": [],
+  "prev_q": [
+   "Ongeku (quest)"
+  ],
+  "next_q": [
+   "Khan Hratha (Gelkis)"
+  ],
+  "category": "Desolace",
+  "chain_tpl": [
+   "Gelkis Alliance quest chain"
+  ]
+ },
+ "summary": "Following Ongeku, Uthek the Wise tells you the earth says the Magram are growing weak, and that the hour has come to slay their Khan. Uthek wants the head of Khan Jehn brought to Gelkis Village.",
+ "sections": [
+  {
+   "title": "The Magram Khan",
+   "body": "Uthek the Wise at Gelkis Village says the earth speaks to Uthek, and it tells of the Magram growing weak. Uthek names their Khan, Jehn, as the one to strike down and asks for the head of the Magram Khan. Uthek expects you to still count as a friend of the Gelkis when you come back.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Khan Jehn?",
+   "aliases": [
+    "khan jehn",
+    "who is jehn",
+    "magram leader"
+   ],
+   "answer": "The Khan of the Magram centaur."
+  },
+  {
+   "q": "Why does Uthek the Wise want Khan Jehn dead?",
+   "aliases": [
+    "why kill jehn",
+    "uthek motivation",
+    "why kill magram khan"
+   ],
+   "answer": "Uthek says the earth tells him the Magram grow weak, so now is the time to kill their Khan."
+  },
+  {
+   "q": "What came before this?",
+   "aliases": [
+    "what comes before khan jehn",
+    "chain order",
+    "previous quest"
+   ],
+   "answer": "It comes after Ongeku."
+  },
+  {
+   "q": "Where is Uthek the Wise?",
+   "aliases": [
+    "uthek location",
+    "where is uthek"
+   ],
+   "answer": "At Gelkis Village in Desolace."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "centaur",
+  "desolace",
+  "gelkis",
+  "gelkis village",
+  "head of jehn",
+  "khan jehn",
+  "magram",
+  "uthek the wise"
+ ],
+ "related": [
+  "subzone:gelkis-village",
+  "zone:desolace",
+  "topic:centaur",
+  "quest:1373",
+  "quest:1380"
+ ],
+ "attribution": [
+  "Khan Jehn (quest)"
+ ]
+}

@@ -1,0 +1,109 @@
+{
+ "key": "quest:662",
+ "type": "quest",
+ "name": "Deep Sea Salvage",
+ "era": "classic",
+ "zone": "arathi",
+ "meta": {
+  "ids": [
+   662
+  ],
+  "level": "40",
+  "faction": null,
+  "start": "First Mate Nilzlix",
+  "end": "First Mate Nilzlix",
+  "previous": "Land Ho!",
+  "next": "",
+  "wiki": "Deep Sea Salvage",
+  "chain": [],
+  "prev_q": [
+   "Land Ho!"
+  ],
+  "category": "Arathi Highlands"
+ },
+ "summary": "Following Land Ho!, First Mate Nilzlix asks you to bring back the charts and logs of two sunken ships before anyone leaves the cove.",
+ "sections": [
+  {
+   "title": "Two Ships Lost in the Reef",
+   "body": "O'Breen led three ships into the cove, certain the treasure lay here. The Harbinger docked safely. Then, as the Maiden's Folly with the Spirit of Silverpine came in, the tides began to lower, and both ships ran aground on a temple-like structure in the reef and sank fast.",
+   "spoiler": 0
+  },
+  {
+   "title": "What Nilzlix Wants Back",
+   "body": "Nilzlix wants the logs and the charts of both wrecked ships recovered, since that information must not be left behind for prying eyes. If it reached enemy hands, he says, Fleet Master Seahorn would force the crew down the plank.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Why did the Maiden's Folly and Spirit of Silverpine sink?",
+   "aliases": [
+    "why did the ships wreck",
+    "how did the ships sink",
+    "arathi cove shipwreck cause"
+   ],
+   "answer": "As the two ships came in, the tides began to lower. Both ran aground on something like a temple in the reef and sank quickly."
+  },
+  {
+   "q": "Who is First Mate Nilzlix?",
+   "aliases": [
+    "nilzlix",
+    "who gives deep sea salvage"
+   ],
+   "answer": "He is the first mate who speaks of the three ships O'Breen led into the cove, and he wants the logs and charts of the two sunken ones recovered."
+  },
+  {
+   "q": "Why are the charts and logs so important?",
+   "aliases": [
+    "why recover logs",
+    "why charts and logs"
+   ],
+   "answer": "Nilzlix does not want that information left behind for prying eyes. If enemies got hold of it, he says Fleet Master Seahorn would force the crew down the plank."
+  },
+  {
+   "q": "What ship made it to safety?",
+   "aliases": [
+    "which ship survived",
+    "harbinger ship"
+   ],
+   "answer": "Only the Harbinger. It docked safely in the cove, while the other two ships went down."
+  },
+  {
+   "q": "Who is Fleet Master Seahorn?",
+   "aliases": [
+    "fleet master seahorn role",
+    "who is seahorn"
+   ],
+   "answer": "Nilzlix names him as the one who would force the crew down the plank if their records reached enemy hands."
+  },
+  {
+   "q": "What came before this task?",
+   "aliases": [
+    "deep sea salvage prerequisite",
+    "previous quest"
+   ],
+   "answer": "It follows Land Ho!"
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "arathi highlands",
+  "booty bay",
+  "deep sea salvage",
+  "harbinger",
+  "maiden's folly",
+  "nilzlix",
+  "o'breen",
+  "seahorn",
+  "spirit of silverpine"
+ ],
+ "related": [
+  "quest:663",
+  "npc:fleet-master-seahorn",
+  "subzone:booty-bay",
+  "zone:arathi"
+ ],
+ "attribution": [
+  "Deep Sea Salvage"
+ ]
+}

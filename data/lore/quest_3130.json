@@ -1,0 +1,97 @@
+{
+ "key": "quest:3130",
+ "type": "quest",
+ "name": "Against the Hatecrest",
+ "era": "classic",
+ "zone": "feralas",
+ "meta": {
+  "ids": [
+   3130
+  ],
+  "level": "43",
+  "faction": "Alliance",
+  "start": "Shandris Feathermoon",
+  "end": "Latronicus Moonspear",
+  "previous": "Return to Feathermoon Stronghold",
+  "next": "Against the Hatecrest (2)",
+  "wiki": "Against the Hatecrest",
+  "chain": [
+   "Against the Hatecrest",
+   "Against the Hatecrest (2)",
+   "Against Lord Shalzaru",
+   "Delivering the Relic"
+  ],
+  "next_q": [
+   "Against the Hatecrest (2)"
+  ],
+  "category": "Feralas",
+  "prev_q": [
+   "Return to Feathermoon Stronghold"
+  ]
+ },
+ "summary": "Having reported back, you are sent on by General Shandris Feathermoon to Latronicus Moonspear, the general's second, in Feathermoon Stronghold. Shandris would like to commit a full force against the naga but will not leave the stronghold open to the Horde, or worse.",
+ "sections": [
+  {
+   "title": "Shandris Weighs the Risk",
+   "body": "General Shandris Feathermoon sends you on to Latronicus Moonspear, the general's second, who has been keeping a close watch on the naga forces so far. Shandris will assess the wider situation with the naga here. Much as a full force against them is wanted, leaving the stronghold open to a direct attack from the Horde, or something worse, seems less than ideal. Latronicus awaits you in Feathermoon Stronghold.",
+   "spoiler": 0
+  },
+  {
+   "title": "What Latronicus Intends",
+   "body": "Latronicus Moonspear says the General has charged Latronicus with dealing with the naga head-on. The plan has two parts: weaken them in number and in command, and find out what they are doing in the ruins. With your help, their presence can be countered while the stronghold stays secure.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Why does Shandris Feathermoon send you to Latronicus?",
+   "aliases": [
+    "why talk to latronicus",
+    "why latronicus moonspear",
+    "feathermoon referral"
+   ],
+   "answer": "Shandris will not commit a full force against the naga if that would leave Feathermoon Stronghold exposed to the Horde, or to something worse. Instead the general points you to the second, Latronicus, who has been watching the naga."
+  },
+  {
+   "q": "Where is Latronicus Moonspear located?",
+   "aliases": [
+    "latronicus location",
+    "where is latronicus",
+    "find latronicus moonspear"
+   ],
+   "answer": "In Feathermoon Stronghold, where Shandris sends you to report to him."
+  },
+  {
+   "q": "What came before this assignment?",
+   "aliases": [
+    "against the hatecrest prerequisite",
+    "previous quest",
+    "hatecrest chain start"
+   ],
+   "answer": "Return to Feathermoon Stronghold, after which Shandris sends you on to Latronicus."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "against the hatecrest",
+  "feathermoon stronghold",
+  "feralas",
+  "hatecrest",
+  "horde",
+  "latronicus moonspear",
+  "naga",
+  "shandris feathermoon"
+ ],
+ "related": [
+  "npc:shandris-feathermoon",
+  "subzone:feathermoon-stronghold",
+  "quest:2867",
+  "quest:2869",
+  "topic:naga",
+  "topic:horde",
+  "zone:feralas"
+ ],
+ "attribution": [
+  "Against the Hatecrest"
+ ]
+}

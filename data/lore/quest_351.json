@@ -1,0 +1,88 @@
+{
+ "key": "quest:351",
+ "type": "quest",
+ "name": "Find OOX-17/TN!",
+ "era": "classic",
+ "zone": "tanaris",
+ "meta": {
+  "ids": [
+   351
+  ],
+  "level": "48",
+  "faction": "Neutral",
+  "start": "OOX-17/TN Distress Beacon",
+  "end": "Homing Robot OOX-17/TN",
+  "previous": "",
+  "next": "Rescue OOX-17/TN!",
+  "wiki": "Find OOX-17/TN!",
+  "chain": [],
+  "next_q": [
+   "Rescue OOX-17/TN!"
+  ],
+  "category": "Tanaris",
+  "chain_tpl": [
+   "Oglethorpe's Homing Robots"
+  ]
+ },
+ "summary": "A strange egg-shaped metal device you have uncovered springs to life when you fiddle with its knob, and a voice from inside introduces itself as Oglethorpe. Oglethorpe's homing robot has gone missing, and you are asked to carry the beacon to it.",
+ "sections": [
+  {
+   "title": "A Voice From the Egg",
+   "body": "Fiddling with a knob on the strange egg opens it up into a gnomish robotic contraption, and a voice crackles to life from inside. The speaker gives the name Oglethorpe and says a homing robot has gone missing. Oglethorpe has now computed where it went down, near the Gaping Chasm in Tanaris, and asks you to take the beacon to the robot.",
+   "spoiler": 0
+  },
+  {
+   "title": "At the Crash Site",
+   "body": "At the crash site, the homing robot turns out to be a robotic chicken. Oglethorpe says it must be jump started before it can fly home to Booty Bay for repairs, and the beacon goes inside it. Hums and whirs follow as the robot struggles to stand, and Oglethorpe's voice now comes from the robot itself. It works, but major repairs are needed, and it is far too heavy for you to lift.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is contacting you through the device?",
+   "aliases": [
+    "who is oglethorpe",
+    "who speaks through the egg"
+   ],
+   "answer": "A voice from inside the egg gives the name Oglethorpe and says the homing robot has gone missing."
+  },
+  {
+   "q": "Where did the homing robot crash?",
+   "aliases": [
+    "where is the robot",
+    "where is oox-17/tn",
+    "where do i bring the beacon",
+    "gaping chasm robot location"
+   ],
+   "answer": "Oglethorpe's computed coordinates put it near the Gaping Chasm in Tanaris."
+  },
+  {
+   "q": "What is the beacon for?",
+   "aliases": [
+    "what does the beacon do",
+    "what is the egg",
+    "why carry the beacon"
+   ],
+   "answer": "Oglethorpe asks you to bring the beacon to the missing homing robot."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "distress beacon",
+  "gaping chasm",
+  "homing robot",
+  "mechanical chicken",
+  "oglethorpe",
+  "oox-17/tn",
+  "tanaris"
+ ],
+ "related": [
+  "quest:648",
+  "zone:tanaris",
+  "subzone:gaping-chasm",
+  "subzone:booty-bay"
+ ],
+ "attribution": [
+  "Find OOX-17/TN!"
+ ]
+}

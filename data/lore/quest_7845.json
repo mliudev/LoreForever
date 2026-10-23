@@ -1,0 +1,103 @@
+{
+ "key": "quest:7845",
+ "type": "quest",
+ "name": "Kidnapped Elder Torntusk!",
+ "era": "classic",
+ "zone": "hinterlands",
+ "meta": {
+  "ids": [
+   7845
+  ],
+  "level": "51",
+  "faction": "Horde",
+  "start": "Primal Torntusk",
+  "end": "Elder Torntusk",
+  "previous": "",
+  "next": "Recover the Key!",
+  "wiki": "Kidnapped Elder Torntusk!",
+  "chain": [
+   "Kidnapped Elder Torntusk!",
+   "Recover the Key!",
+   "Return to Primal Torntusk"
+  ],
+  "next_q": [
+   "Recover the Key!"
+  ],
+  "category": "Hinterlands"
+ },
+ "summary": "Primal Torntusk of Revantusk Village says Vilebranch savages carried off her mate, Elder Torntusk, in a bold midnight raid. Spies say he is alive and held prisoner atop Jintha'alor, and she asks you to save him.",
+ "sections": [
+  {
+   "title": "A Midnight Raid",
+   "body": "Vilebranch savages struck Revantusk Village at midnight and took Elder Torntusk, mate of Primal Torntusk. Her spies say he is still alive, a prisoner atop Jintha'alor, capital of the Vilebranch in the southern Hinterlands. Primal Torntusk fears the village could not bear losing him.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Faceless Blood God",
+   "body": "Word is that Vile Priestess Hexx readies the captive for sacrifice to Hakkar, the faceless blood God.",
+   "spoiler": 0
+  },
+  {
+   "title": "Once You Reach Him",
+   "body": "Reaching the Elder, you are told to move quickly, for the guards surely know of your arrival by now.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who took Elder Torntusk?",
+   "aliases": [
+    "who kidnapped elder torntusk",
+    "who took torntusk",
+    "kidnappers of torntusk"
+   ],
+   "answer": "Vilebranch savages took him in a bold midnight raid on Revantusk Village."
+  },
+  {
+   "q": "Where is Elder Torntusk being held?",
+   "aliases": [
+    "elder torntusk location",
+    "where is elder torntusk",
+    "where is torntusk captive"
+   ],
+   "answer": "Her spies say he is a prisoner atop Jintha'alor, capital of the Vilebranch in the southern Hinterlands."
+  },
+  {
+   "q": "What fate awaits Elder Torntusk atop Jintha'alor?",
+   "aliases": [
+    "why was torntusk captured",
+    "what do vilebranch want with torntusk",
+    "hexx sacrifice torntusk"
+   ],
+   "answer": "Word is that Vile Priestess Hexx readies him for sacrifice to Hakkar, the faceless blood God."
+  },
+  {
+   "q": "Who is Primal Torntusk?",
+   "aliases": [
+    "who is primal torntusk",
+    "primal torntusk mate"
+   ],
+   "answer": "Primal Torntusk is the mate of Elder Torntusk, and she asks you to save him."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "elder torntusk",
+  "hakkar",
+  "hexx",
+  "hinterlands",
+  "jintha'alor",
+  "primal torntusk",
+  "revantusk",
+  "torntusk",
+  "vilebranch"
+ ],
+ "related": [
+  "quest:7846",
+  "quest:7847",
+  "zone:hinterlands"
+ ],
+ "attribution": [
+  "Wowpedia: Kidnapped Elder Torntusk!"
+ ]
+}

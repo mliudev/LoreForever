@@ -1,0 +1,112 @@
+{
+ "key": "quest:583",
+ "type": "quest",
+ "name": "Welcome to the Jungle",
+ "era": "classic",
+ "zone": "stranglethorn",
+ "meta": {
+  "ids": [
+   583
+  ],
+  "level": "30",
+  "faction": "Neutral",
+  "start": "Barnil Stonepot",
+  "end": "Hemet Nesingwary",
+  "previous": "",
+  "next": "Panther Mastery (Classic), Raptor Mastery (Classic), The Green Hills of Stranglethorn (Classic), Tiger Mastery (Classic)",
+  "wiki": "Welcome to the Jungle (Classic)",
+  "chain": [
+   "Welcome to the Jungle (Classic)",
+   "The Green Hills of Stranglethorn (Classic)",
+   "Panther Mastery (Classic)",
+   "Raptor Mastery (Classic)",
+   "Tiger Mastery (Classic)"
+  ],
+  "next_q": [
+   "Panther Mastery (Classic)",
+   "Raptor Mastery (Classic)",
+   "The Green Hills of Stranglethorn (Classic)",
+   "Tiger Mastery (Classic)"
+  ],
+  "category": "Stranglethorn Vale"
+ },
+ "summary": "Barnil Stonepot welcomes newcomers arriving at the hunting camp in northern Stranglethorn Vale. Recognizing a fellow battle-tested wanderer, he arranges an introduction to the expedition's leader, the renowned huntsman Hemet Nesingwary.",
+ "sections": [
+  {
+   "title": "An Audience with the Master",
+   "body": "Barnil Stonepot greets newcomers at the camp in the jungle of Stranglethorn Vale, and he can tell a seasoned combatant when he sees one. He points out Hemet Nesingwary, a famous Alliance war hero and peerless tracker. Nesingwary reserves his fellowship for proven veterans, and Barnil believes the old marksman might be convinced to share his hunting wisdom with someone who has endured the trials of battle.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Trials of the Expedition",
+   "body": "Nesingwary welcomes you warmly, noting how rare it is to see someone of your calling in these wild lands. He explains that his expedition gathered here with a single goal: pursuing a legendary, elusive jungle beast. While he is willing to include you in the grand chase, trust must be earned through the blood of lesser quarry. Nesingwary personally oversees the stalking of raptors, while his comrades Ajeck and Sir Erlgadin tutor hunters in the ways of tigers and panthers.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Hemet Nesingwary?",
+   "aliases": [
+    "hemet nesingwary",
+    "who is hemet",
+    "nesingwary lore"
+   ],
+   "answer": "Hemet Nesingwary is a celebrated Alliance war veteran and a renowned big game hunter. He leads an expedition camp in the jungles of Stranglethorn Vale."
+  },
+  {
+   "q": "Who sends you to speak with Nesingwary?",
+   "aliases": [
+    "barnil stonepot",
+    "quest giver",
+    "who starts welcome to the jungle"
+   ],
+   "answer": "Barnil Stonepot, one of the members stationed at the jungle encampment, directs seasoned adventurers to greet Nesingwary after recognizing their combat experience."
+  },
+  {
+   "q": "What comes after speaking with Nesingwary?",
+   "aliases": [
+    "how to join the hunt",
+    "nesingwary trials",
+    "hunting lessons"
+   ],
+   "answer": "Several hunts open up: Raptor Mastery, Tiger Mastery, Panther Mastery and The Green Hills of Stranglethorn."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Hunter",
+   "text": "For a hunter wandering the jungles of Stranglethorn, Hemet Nesingwary may have some hunting pointers to share."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "Barnil Stonepot points out that Hemet Nesingwary is a renowned war hero of the Alliance with a soft spot for fellow veterans."
+  },
+  {
+   "target": "race:Dwarf",
+   "text": "The camp's famed hunter, Hemet Nesingwary, is a dwarf like you, and Barnil Stonepot points him out as a master big game hunter."
+  }
+ ],
+ "keywords": [
+  "barnil",
+  "hemet",
+  "nesingwary",
+  "panther",
+  "raptor",
+  "stonepot",
+  "stranglethorn",
+  "tiger"
+ ],
+ "related": [
+  "quest:5762",
+  "zone:stranglethorn",
+  "quest:194",
+  "quest:185",
+  "quest:190",
+  "quest:338",
+  "topic:alliance",
+  "topic:hunter"
+ ],
+ "attribution": [
+  "Welcome to the Jungle (Classic)"
+ ]
+}

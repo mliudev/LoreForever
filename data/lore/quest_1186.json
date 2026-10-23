@@ -1,0 +1,96 @@
+{
+ "key": "quest:1186",
+ "type": "quest",
+ "name": "The Eighteenth Pilot",
+ "era": "classic",
+ "zone": "thousandneedles",
+ "meta": {
+  "ids": [
+   1186
+  ],
+  "level": "37",
+  "faction": "Neutral",
+  "start": "Pozzik",
+  "end": "Razzeric",
+  "previous": "Goblin Sponsorship (5)",
+  "next": "",
+  "wiki": "The Eighteenth Pilot",
+  "chain": [],
+  "prev_q": [
+   "Goblin Sponsorship (5)"
+  ],
+  "category": "Thousand Needles",
+  "chain_tpl": [
+   "Goblin Sponsorship"
+  ]
+ },
+ "summary": "Pozzik will be busy fitting the new fuel regulator into the racer designs, but suggests that you help the team further by speaking with Razzeric on the Shimmering Flats. Razzeric is the team's pilot, its eighteenth, and likes to add modifications to the racers.",
+ "sections": [
+  {
+   "title": "Meet the Pilot",
+   "body": "Pozzik says the fuel regulator is keeping him busy, but you can help the team some more by talking to Razzeric on the Shimmering Flats. Razzeric is the team's pilot, its eighteenth in fact, and likes to add little modifications of his own to the racers. Pozzik adds that Razzeric is a little off his rocker, so you should try not to seem too surprised.",
+   "spoiler": 0
+  },
+  {
+   "title": "A Pilot Remembers",
+   "body": "Razzeric knows you have been helping Pozzik, and says he was once like you, running around the pit area and pitching in on any job the mechanics let him near. Now he is the goblin racing team's pilot extraordinaire.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Razzeric?",
+   "aliases": [
+    "who is the eighteenth pilot",
+    "razzeric lore",
+    "goblin pilot"
+   ],
+   "answer": "Razzeric is a goblin, the pilot of the goblin racing team on the Shimmering Flats. Pozzik calls him the team's eighteenth pilot."
+  },
+  {
+   "q": "Why does Pozzik send you to Razzeric?",
+   "aliases": [
+    "why talk to razzeric",
+    "pozzik eighteenth pilot"
+   ],
+   "answer": "Pozzik is busy integrating the new fuel regulator into the racer designs, and suggests that you help the team further by speaking with Razzeric."
+  },
+  {
+   "q": "What is Razzeric like?",
+   "aliases": [
+    "razzeric personality",
+    "is razzeric crazy"
+   ],
+   "answer": "Pozzik says Razzeric enjoys making small changes of his own to the racers, and is a little off his rocker."
+  },
+  {
+   "q": "What came before this?",
+   "aliases": [
+    "eighteenth pilot prerequisite",
+    "quest chain before razzeric"
+   ],
+   "answer": "This follows Goblin Sponsorship (5), in which you delivered the Fuel Regulator Blueprints to Pozzik."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "goblin",
+  "pilot",
+  "pozzik",
+  "raceway",
+  "razzeric",
+  "shimmering flats",
+  "thousand needles"
+ ],
+ "related": [
+  "npc:pozzik",
+  "npc:razzeric",
+  "quest:1183",
+  "subzone:shimmering-flats",
+  "zone:thousandneedles",
+  "topic:goblin"
+ ],
+ "attribution": [
+  "The Eighteenth Pilot"
+ ]
+}

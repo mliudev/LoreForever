@@ -1,0 +1,106 @@
+{
+ "key": "quest:7731",
+ "type": "quest",
+ "name": "Stinglasher",
+ "era": "classic",
+ "zone": "feralas",
+ "meta": {
+  "ids": [
+   7731
+  ],
+  "level": "47",
+  "faction": "Horde",
+  "start": "Hadoken Swiftstrider",
+  "end": "Hadoken Swiftstrider",
+  "previous": "The Battle Plans",
+  "next": "Zukk'ash Report",
+  "wiki": "Stinglasher (Classic)",
+  "chain": [
+   "War on the Woodpaw",
+   "Alpha Strike (Classic)",
+   "Woodpaw Investigation",
+   "The Battle Plans",
+   "Zukk'ash Infestation (Classic)",
+   "Stinglasher (Classic)",
+   "Zukk'ash Report"
+  ],
+  "category": "Feralas",
+  "next_q": [
+   "Zukk'ash Report"
+  ],
+  "prev_q": [
+   "The Battle Plans"
+  ]
+ },
+ "summary": "While surveying the Writhing Deep, one of Hadoken Swiftstrider's scouts spotted a giant insect, far larger than the others, wandering the twisted terrain. It has been named Stinglasher, and Hadoken wants it brought down and its secretion glands brought back to Camp Mojache.",
+ "sections": [
+  {
+   "title": "A Giant Among the Insects",
+   "body": "One scout in the Writhing Deep saw an insect much bigger than the others, wandering about the twisted terrain. It also seems to give off an aura that sets it apart from the rest. It has been given the name Stinglasher. Its innards would be invaluable to study while Hadoken works out how to deal with this new threat, so Hadoken wants its secretion glands cut out and brought straight to Camp Mojache.",
+   "spoiler": 0
+  },
+  {
+   "title": "Hadoken's Thanks",
+   "body": "Hadoken is most impressed. If Stinglasher is indeed one of the strongest of the insects, studying the beast will prove valuable in time, and Hadoken's charge is to make sure the camp defends itself long enough to benefit. A coin bounty is given, with thanks from the whole camp.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who sends you after Stinglasher?",
+   "aliases": [
+    "quest giver",
+    "who gives stinglasher",
+    "hadoken swiftstrider"
+   ],
+   "answer": "Hadoken Swiftstrider, at Camp Mojache in Feralas."
+  },
+  {
+   "q": "Where is Stinglasher found?",
+   "aliases": [
+    "stinglasher location",
+    "where is stinglasher",
+    "writhing deep location"
+   ],
+   "answer": "Stinglasher wanders around the twisted terrain of the Writhing Deep."
+  },
+  {
+   "q": "What makes Stinglasher different from the other insects?",
+   "aliases": [
+    "why stinglasher",
+    "what is stinglasher",
+    "stinglasher aura"
+   ],
+   "answer": "A scout reported an insect of giant size, and it seems to give off an aura the rest lack."
+  },
+  {
+   "q": "Why does Hadoken want Stinglasher's glands?",
+   "aliases": [
+    "why collect glands",
+    "stinglasher glands purpose"
+   ],
+   "answer": "Hadoken says studying its innards would be invaluable while a plan against this new threat is worked out."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "camp mojache",
+  "feralas",
+  "glands",
+  "hadoken swiftstrider",
+  "insect",
+  "stinglasher",
+  "writhing deep",
+  "zukk'ash"
+ ],
+ "related": [
+  "quest:7730",
+  "quest:7732",
+  "subzone:camp-mojache",
+  "subzone:writhing-deep",
+  "zone:feralas"
+ ],
+ "attribution": [
+  "Stinglasher (Classic)"
+ ]
+}

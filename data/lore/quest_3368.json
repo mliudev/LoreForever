@@ -1,0 +1,118 @@
+{
+ "key": "quest:3368",
+ "type": "quest",
+ "name": "Suntara Stones",
+ "era": "classic",
+ "zone": "searinggorge",
+ "meta": {
+  "ids": [
+   3368
+  ],
+  "level": "48",
+  "faction": "Alliance",
+  "start": ":Singed Letter",
+  "end": "Curator Thorius",
+  "previous": "Suntara Stones",
+  "next": "",
+  "wiki": "Suntara Stones (2)",
+  "chain": [],
+  "prev_q": [
+   "Suntara Stones"
+  ],
+  "category": "Searing Gorge",
+  "chain_tpl": [
+   "Suntara Stones"
+  ]
+ },
+ "summary": "A singed letter that Dorius let fall is written to his brother. It tells of the Suntara stones, which are real and in the hands of the Dark Irons, whose leader Lathoric the Black uses their power to enslave Dorius's excavation team. It is meant for Thorius at the Hall of Explorers in Ironforge, and you are the one to carry it there.",
+ "sections": [
+  {
+   "title": "The Dead Man's Letter",
+   "body": "In the letter, Dorius writes to his brother that if it is being read, he is gone. The stones exist, and the Dark Irons hold them. Their leader, Lathoric the Black, uses their power to enslave Dorius's excavation team. The team was taken to the cauldron, and their minds are twisted as they toil by day and by night to finish something called Obsidion. Dorius begs his brother to help them, his final wish, and asks that those who bring the letter be thanked.",
+   "spoiler": 0
+  },
+  {
+   "title": "Thorius Hears the News",
+   "body": "Thorius sobs as the letter is brought. Then Thorius dries his face and swears in the name of the Light that Dorius will have his wish.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who wrote the singed letter?",
+   "aliases": [
+    "who wrote the letter",
+    "author of singed letter",
+    "dorius letter"
+   ],
+   "answer": "Dorius wrote it to his brother, as a message to be read after his death."
+  },
+  {
+   "q": "Where does Thorius reside?",
+   "aliases": [
+    "where is thorius",
+    "curator thorius location",
+    "thorius hall of explorers"
+   ],
+   "answer": "Curator Thorius can be found in the Hall of Explorers in Ironforge."
+  },
+  {
+   "q": "What happened to Dorius's excavation team?",
+   "aliases": [
+    "what happened to the dig team",
+    "dorius excavation team",
+    "enslaved miners cauldron"
+   ],
+   "answer": "The letter says Lathoric the Black and the Dark Irons are using the stones to enslave them. They were taken to the cauldron."
+  },
+  {
+   "q": "What is the enslaved team working on?",
+   "aliases": [
+    "what is obsidion",
+    "cauldron excavation project",
+    "dark iron project obsidion"
+   ],
+   "answer": "The letter says their minds are twisted, and they toil by day and by night on something called Obsidion."
+  },
+  {
+   "q": "Who is Lathoric the Black?",
+   "aliases": [
+    "who is lathoric",
+    "lathoric the black",
+    "dark iron leader searing gorge"
+   ],
+   "answer": "The letter names him as the leader of the Dark Irons, who hold the Suntara stones and use their power to enslave Dorius's team."
+  },
+  {
+   "q": "How does this follow the earlier Suntara Stones?",
+   "aliases": [
+    "previous suntara stones quest",
+    "suntara stones chain"
+   ],
+   "answer": "It follows the first Suntara Stones, where Dorius was shot and the letter fell from Dorius. The letter is to be carried to Ironforge."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "cauldron",
+  "dorius",
+  "hall of explorers",
+  "ironforge",
+  "lathoric the black",
+  "obsidion",
+  "searing gorge",
+  "singed letter",
+  "suntara stones",
+  "thorius"
+ ],
+ "related": [
+  "quest:3367",
+  "zone:ironforge",
+  "subzone:hall-of-explorers",
+  "subzone:cauldron",
+  "zone:searinggorge"
+ ],
+ "attribution": [
+  "Suntara Stones (2)"
+ ]
+}

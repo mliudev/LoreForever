@@ -1,0 +1,118 @@
+{
+ "key": "quest:1116",
+ "type": "quest",
+ "name": "Dream Dust in the Swamp",
+ "era": "classic",
+ "zone": "thousandneedles",
+ "meta": {
+  "ids": [
+   1116
+  ],
+  "level": "36",
+  "faction": null,
+  "start": "Krazek",
+  "end": "Krazek",
+  "previous": "The Rumormonger",
+  "next": "Rumors for Kravel",
+  "wiki": "Dream Dust in the Swamp",
+  "chain": [
+   "Kravel Koalbeard",
+   "Mirage Raceway",
+   "Thousand Needles"
+  ],
+  "prev_q": [
+   "The Rumormonger"
+  ],
+  "next_q": [
+   "Rumors for Kravel"
+  ],
+  "category": "Swamp of Sorrows",
+  "chain_tpl": [
+   "Errands for Kravel"
+  ]
+ },
+ "summary": "Krazek of Booty Bay says that learning about Nazz is quite a favor. While Krazek contacts sources, you are asked to bring 10 specks of dream dust, taken from dragon whelps in the Swamp of Sorrows, for Krazek's snuff pouch. Bring it back and Krazek will give you the information you seek.",
+ "sections": [
+  {
+   "title": "A Favor for a Favor",
+   "body": "Krazek tells you that learning about Nazz is a considerable favor, and that you have already come a long way from the Shimmering Flats for it. While Krazek contacts sources, you are asked to gather something. The choice falls on ten specks of dream dust, taken from dragon whelps in the Swamp of Sorrows, which Krazek would love for a snuff pouch. Once you return with it, the information is yours.",
+   "spoiler": 0
+  },
+  {
+   "title": "Where the Dust Is Found",
+   "body": "Green dragons of the Swamp of Sorrows carry the dream dust. Adolescent whelps and dreaming whelps both have it, and both live in the swamp's south-western corner.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is asking for the dream dust?",
+   "aliases": [
+    "who gives dream dust quest",
+    "who sends me to swamp of sorrows",
+    "dream dust quest giver"
+   ],
+   "answer": "Krazek of Booty Bay asks for it, in exchange for the information about Nazz."
+  },
+  {
+   "q": "Why does Krazek want dream dust?",
+   "aliases": [
+    "what is dream dust for",
+    "why krazek wants dust",
+    "dream dust snuff"
+   ],
+   "answer": "Krazek says the dust is wanted for a snuff pouch, and asks for it while contacting sources about Nazz."
+  },
+  {
+   "q": "Where is the dream dust found?",
+   "aliases": [
+    "where to find dream dust",
+    "where is dream dust swamp of sorrows",
+    "dream dust location"
+   ],
+   "answer": "It is taken from dragon whelps in the Swamp of Sorrows, such as adolescent and dreaming whelps, in the swamp's south-western corner."
+  },
+  {
+   "q": "How does this connect back to Kravel Koalbeard?",
+   "aliases": [
+    "why am i in booty bay",
+    "how does this relate to kravel",
+    "shimmering flats connection"
+   ],
+   "answer": "Kravel Koalbeard of the Mirage Raceway sent you to Krazek to ask about the goblin racer pilot Nazz Steamboil, and you came from the Shimmering Flats for the answer."
+  },
+  {
+   "q": "What comes next?",
+   "aliases": [
+    "what after dream dust in the swamp",
+    "next quest dream dust",
+    "rumors for kravel next"
+   ],
+   "answer": "The next step is Rumors for Kravel."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "booty bay",
+  "dream dust",
+  "kravel koalbeard",
+  "krazek",
+  "mirage raceway",
+  "nazz",
+  "swamp of sorrows",
+  "whelps"
+ ],
+ "related": [
+  "quest:1115",
+  "quest:1117",
+  "npc:kravel-koalbeard",
+  "subzone:booty-bay",
+  "zone:swampofsorrows",
+  "subzone:mirage-raceway",
+  "subzone:shimmering-flats",
+  "topic:goblin"
+ ],
+ "attribution": [
+  "Dream Dust in the Swamp"
+ ]
+}

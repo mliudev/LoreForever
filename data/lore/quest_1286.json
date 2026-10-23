@@ -1,0 +1,85 @@
+{
+ "key": "quest:1286",
+ "type": "quest",
+ "name": "The Deserters",
+ "era": "classic",
+ "zone": "dustwallow",
+ "meta": {
+  "ids": [
+   1286
+  ],
+  "level": "38",
+  "start": "Captain Garran Vimes",
+  "end": "Balos Jacken",
+  "previous": "Daelin's Men",
+  "next": "The Deserters",
+  "prev_q": [
+   "Daelin's Men"
+  ],
+  "wiki": null,
+  "next_q": [
+   "The Deserters"
+  ]
+ },
+ "summary": "Captain Garran Vimes says deserters have settled into a tower that Theramore had abandoned. The tower stands at Lost Point, which lies southeast of the inn. A man called Jacken leads the deserters, and Vimes wants information about Reethe from him.",
+ "sections": [
+  {
+   "title": "A Tower Taken",
+   "body": "Vimes admits that holding on in the marsh has been a struggle, though the resolve of Vimes's people has kept several defensive watchtowers standing. Scouting reports say deserters have moved into an abandoned one at Lost Point, which lies southeast of the inn. A man named Jacken leads them. Vimes asks you to see what information Jacken will give up about Reethe, and warns that Jacken may not part with it easily.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who sends you to deal with the deserters?",
+   "aliases": [
+    "who starts the deserters",
+    "who gives the deserters quest"
+   ],
+   "answer": "Captain Garran Vimes, whose scouting reports say deserters have settled into one of the towers Theramore abandoned."
+  },
+  {
+   "q": "Where are the deserters hiding?",
+   "aliases": [
+    "deserters location",
+    "where is lost point"
+   ],
+   "answer": "At Lost Point, which lies southeast of the inn, in an abandoned tower in Dustwallow Marsh."
+  },
+  {
+   "q": "Who leads the deserters at Lost Point?",
+   "aliases": [
+    "who is balos jacken",
+    "deserter leader"
+   ],
+   "answer": "A man called Jacken, or Balos Jacken, leads them. Vimes warns that Jacken may not give up information easily."
+  },
+  {
+   "q": "What does Captain Vimes want from Balos Jacken?",
+   "aliases": [
+    "why find jacken",
+    "what does vimes want"
+   ],
+   "answer": "Information about Reethe, from Jacken and the deserters."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "balos jacken",
+  "captain garran vimes",
+  "deserters",
+  "dustwallow marsh",
+  "lost point",
+  "reethe",
+  "watchtower"
+ ],
+ "related": [
+  "quest:1285",
+  "quest:1287",
+  "subzone:lost-point",
+  "zone:dustwallow"
+ ],
+ "attribution": [
+  "Classic quest text: The Deserters"
+ ]
+}

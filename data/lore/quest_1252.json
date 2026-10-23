@@ -1,0 +1,86 @@
+{
+ "key": "quest:1252",
+ "type": "quest",
+ "name": "Lieutenant Paval Reethe",
+ "era": "classic",
+ "zone": "dustwallow",
+ "meta": {
+  "ids": [
+   1252
+  ],
+  "level": "40",
+  "faction": "Alliance",
+  "start": "Theramore Guard Badge",
+  "end": "Captain Garran Vimes",
+  "next": "Lieutenant Paval Reethe",
+  "wiki": null,
+  "previous": ""
+ },
+ "summary": "Something gleams beneath the rubble: a badge bearing Theramore's sign, a golden anchor over white enamel, with the name Lieutenant Paval Reethe embossed under the anchor. Captain Garran Vimes in Theramore is the one to bring it to.",
+ "sections": [
+  {
+   "title": "A Glint in the Rubble",
+   "body": "Something gleams beneath the rubble. Brushing off the ash and debris reveals a badge showing the sign of Theramore, with Lieutenant Paval Reethe's name embossed below it. Captain Garran Vimes in Theramore should see it, and will ask what turned up in the ruins of the Shady Rest Inn.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Captain's Reply",
+   "body": "Vimes says a guard's badge brought in is never good news. Some guards fall in battle, and Vimes must carry the word to their grieving families. For others, nobody ever learns what became of them, and sometimes the truth is worse still.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Where is the badge found?",
+   "aliases": [
+    "badge location",
+    "where to find reethe badge",
+    "shady rest inn badge"
+   ],
+   "answer": "It lies beneath rubble, caked in ash and debris. Captain Garran Vimes will ask what turned up in the ruins of the Shady Rest Inn."
+  },
+  {
+   "q": "Whose name is on the badge?",
+   "aliases": [
+    "who is paval reethe",
+    "name on badge",
+    "who lost the badge"
+   ],
+   "answer": "The name embossed beneath the anchor is Lieutenant Paval Reethe."
+  },
+  {
+   "q": "Who gets the badge?",
+   "aliases": [
+    "who do i give the badge to",
+    "where to turn in badge",
+    "captain garran vimes location"
+   ],
+   "answer": "Captain Garran Vimes, in Theramore, is who should see it."
+  },
+  {
+   "q": "What does the badge look like?",
+   "aliases": [
+    "theramore symbol",
+    "guard badge appearance",
+    "what does the badge look like"
+   ],
+   "answer": "A gold anchor over white enamel, which is the sign of Theramore."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "dustwallow marsh",
+  "garran vimes",
+  "paval reethe",
+  "shady rest inn",
+  "theramore guard badge"
+ ],
+ "related": [
+  "quest:1259",
+  "subzone:shady-rest-inn",
+  "zone:dustwallow"
+ ],
+ "attribution": [
+  "Classic quest text: Lieutenant Paval Reethe"
+ ]
+}

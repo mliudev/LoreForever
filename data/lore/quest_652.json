@@ -1,0 +1,92 @@
+{
+ "key": "quest:652",
+ "type": "quest",
+ "name": "Breaking the Keystone",
+ "era": "classic",
+ "zone": "arathi",
+ "meta": {
+  "ids": [
+   652
+  ],
+  "level": "42",
+  "start": "Stone of Inner Binding",
+  "end": "Keystone",
+  "previous": "Stones of Binding",
+  "prev_q": [
+   "Stones of Binding"
+  ],
+  "wiki": null,
+  "next": "Myzrael's Allies (Alliance), Myzrael's Allies (Horde)",
+  "next_q": [
+   "Myzrael's Allies (Alliance)",
+   "Myzrael's Allies (Horde)"
+  ]
+ },
+ "summary": "Once the Stones of Binding were opened, much of the voice's confinement eased, yet a lock still holds it. That lock is the Keystone among a ring of stones, and the stone watcher Fozruk, one of the voice's captors, holds the key, known to the watchers as the Rod of Order.",
+ "sections": [
+  {
+   "title": "The Last Lock",
+   "body": "With the Stones of Binding opened, the voice's confinement has eased a great deal, but one lock remains: the Keystone, among the circle of stones around you. Its key is held by a captor, the stone watcher Fozruk, and the watchers call it the Rod of Order. Taking the rod from Fozruk and carrying it to the Keystone is how the lock will open. The voice promises that its gratitude, if you manage this, will shake the earth to its roots. The Keystone itself is charged with immense geomantic energy.",
+   "spoiler": 0
+  },
+  {
+   "title": "At the Keystone",
+   "body": "When the rod is set into the Keystone, a tremor runs beneath you.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "What comes before this step?",
+   "aliases": [
+    "prerequisite",
+    "previous quest",
+    "stones of binding prerequisite"
+   ],
+   "answer": "Stones of Binding came first, and opening those stones loosened much of the voice's confinement."
+  },
+  {
+   "q": "Who is Fozruk?",
+   "aliases": [
+    "who is fozruk",
+    "fozruk lore",
+    "stone watcher fozruk"
+   ],
+   "answer": "Fozruk is a stone watcher and one of the voice's captors, who holds the key to the Keystone."
+  },
+  {
+   "q": "What is the Rod of Order?",
+   "aliases": [
+    "rod of order",
+    "what is rod of order",
+    "keystone key"
+   ],
+   "answer": "The name the stone watchers use for the key to the Keystone, which Fozruk holds."
+  },
+  {
+   "q": "Where is the Keystone?",
+   "aliases": [
+    "where is breaking the keystone",
+    "keystone location",
+    "stone circle arathi"
+   ],
+   "answer": "The Keystone stands among a circle of stones in the Arathi Highlands."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "arathi highlands",
+  "fozruk",
+  "keystone",
+  "rod of order",
+  "stone of inner binding",
+  "stone watcher"
+ ],
+ "related": [
+  "quest:651",
+  "zone:arathi"
+ ],
+ "attribution": [
+  "Classic quest text: Breaking the Keystone"
+ ]
+}

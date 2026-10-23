@@ -1,0 +1,108 @@
+{
+ "key": "quest:7725",
+ "type": "quest",
+ "name": "Again With the Zapped Giants",
+ "era": "classic",
+ "zone": "feralas",
+ "meta": {
+  "ids": [
+   7725
+  ],
+  "level": "55",
+  "faction": null,
+  "start": "Zorbin Fandazzle",
+  "end": "Zorbin Fandazzle",
+  "previous": "Zapped Giants",
+  "next": "",
+  "wiki": "Again With the Zapped Giants",
+  "chain": [
+   "Zapped Giants",
+   "Again With the Zapped Giants"
+  ],
+  "prev_q": [
+   "Zapped Giants"
+  ],
+  "repeatable": "Yes",
+  "category": "Feralas"
+ },
+ "summary": "Zorbin Fandazzle knows you have already gathered residue, but can always use more. The Ultra-Shrinker is yours to use once more on the giants of Feralas, and Zorbin waits by the Forgotten Coast docks. Zorbin cannot pay nearly as much this time, but promises to spread word of your service.",
+ "sections": [
+  {
+   "title": "An Encore for the Ultra-Shrinker",
+   "body": "Zorbin Fandazzle admits you have gathered residue already, yet calls this an encore performance and says there is always room for more. Zorbin asks you to zap giants in Feralas once more with the Ultra-Shrinker and bring ten miniaturization residues from the shrunken giants to the docks of the Forgotten Coast. Since Zorbin cannot offer nearly as much in return, the offer is to praise your service among goblin friends, who have quite large ears.",
+   "spoiler": 0
+  },
+  {
+   "title": "Zorbin's Thanks",
+   "body": "Zorbin is overjoyed that you have come through again, even though the coin is less than you are used to. Zorbin insists that word of your great deeds for goblindom is already ringing through the Steamwheedle Cartel's seats of power.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who asks for more residue?",
+   "aliases": [
+    "quest giver",
+    "zorbin location",
+    "who gives again with the zapped giants"
+   ],
+   "answer": "Zorbin Fandazzle, who waits by the Forgotten Coast docks in Feralas."
+  },
+  {
+   "q": "What came before this?",
+   "aliases": [
+    "prerequisite",
+    "previous quest",
+    "what do i do first"
+   ],
+   "answer": "It follows Zapped Giants, your first round of residue gathering for Zorbin Fandazzle."
+  },
+  {
+   "q": "How is the residue gathered?",
+   "aliases": [
+    "how to get residue",
+    "miniaturization residue",
+    "how to shrink giants"
+   ],
+   "answer": "Zorbin's Ultra-Shrinker is turned on any kind of giant in Feralas to shrink it, and the residue is found on the shrunken giants."
+  },
+  {
+   "q": "Where are the giants found?",
+   "aliases": [
+    "giant location",
+    "where are feralas giants",
+    "forgotten coast giants"
+   ],
+   "answer": "The giants are found along the western coast of Feralas."
+  },
+  {
+   "q": "Will Zorbin take more residue another time?",
+   "aliases": [
+    "is this repeatable",
+    "can i repeat again with the zapped giants",
+    "repeatable giant quest"
+   ],
+   "answer": "Zorbin says more residue can always be used, so you are welcome to come back with another batch of ten."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "feralas",
+  "forgotten coast",
+  "giants",
+  "miniaturization residue",
+  "steamwheedle cartel",
+  "ultra-shrinker",
+  "zorbin fandazzle"
+ ],
+ "related": [
+  "quest:7003",
+  "subzone:forgotten-coast",
+  "zone:feralas",
+  "topic:steamwheedle-cartel",
+  "topic:goblin"
+ ],
+ "attribution": [
+  "Again With the Zapped Giants"
+ ]
+}

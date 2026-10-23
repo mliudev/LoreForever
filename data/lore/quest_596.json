@@ -1,0 +1,104 @@
+{
+ "key": "quest:596",
+ "type": "quest",
+ "name": "Bloody Bone Necklaces",
+ "era": "classic",
+ "zone": "stranglethorn",
+ "meta": {
+  "ids": [
+   596
+  ],
+  "level": "37",
+  "faction": "Horde",
+  "start": "Kin'weelay",
+  "end": "Kin'weelay",
+  "previous": "",
+  "next": "Split Bone Necklace (quest)",
+  "wiki": "Bloody Bone Necklaces",
+  "chain": [],
+  "category": "Stranglethorn Vale",
+  "next_q": [
+   "Split Bone Necklace (quest)"
+  ]
+ },
+ "summary": "Kin'weelay at Grom'gol Base Camp has his own agenda in Stranglethorn Vale beyond assisting Nimboya. He seeks to weaken the rival Bloodscalp tribe by gathering trophies from their warriors.",
+ "sections": [
+  {
+   "title": "Trophies of War",
+   "body": "Though Kin'weelay arrived in the jungle outpost of Grom'gol Base Camp to help Nimboya, he maintains private purposes of his own. The Bloodscalp trolls dwelling to the north are enemies of the Darkspears. Kin'weelay believes that claiming personal trophies from fallen foes bestows spiritual power over them, asking travelers to hunt Bloodscalp warriors and take the bloody bone necklaces they wear around their necks.",
+   "spoiler": 0
+  },
+  {
+   "title": "Leeching the Spirits",
+   "body": "Upon receiving the harvested bone adornments, Kin'weelay intends to boil and leech them down until they are reduced to paste. Through this ritual work, he aims to directly wither and weaken the lingering spirits of the Bloodscalp slain.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who asks for the bone necklaces?",
+   "aliases": [
+    "quest giver",
+    "who gives bloody bone necklaces",
+    "kin'weelay quest"
+   ],
+   "answer": "Kin'weelay offers the undertaking at Grom'gol Base Camp in Stranglethorn Vale. Although sent there to aid Nimboya, he uses the encampment to wage his own spiritual vendetta."
+  },
+  {
+   "q": "Why does Kin'weelay want trophies from the Bloodscalp tribe?",
+   "aliases": [
+    "why collect necklaces",
+    "bloodscalp necklaces purpose",
+    "why hunt bloodscalp"
+   ],
+   "answer": "The Bloodscalps are bitter enemies of the Darkspear tribe. Kin'weelay believes that taking trophies from slain foes grants power over them, allowing the Darkspear to assert dominance over their rivals."
+  },
+  {
+   "q": "Where are the Bloodscalps located?",
+   "aliases": [
+    "where to find bloodscalp",
+    "bloodscalp location",
+    "where are the trolls"
+   ],
+   "answer": "The Bloodscalp trolls dwell in the lands to the north of Grom'gol Base Camp throughout northern Stranglethorn Vale."
+  },
+  {
+   "q": "What comes next after this hunt?",
+   "aliases": [
+    "next quest",
+    "bloody bone necklaces followup",
+    "what after bloody bone necklaces"
+   ],
+   "answer": "After this hunt, Kin'weelay sends adventurers on to the follow-up, Split Bone Necklace."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Troll",
+   "text": "For the Darkspear, hunting the Bloodscalp is about gaining power over an enemy tribe."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "Kin'weelay was sent to Grom'gol Base Camp to aid Nimboya, and uses his time there to hunt the Bloodscalp tribe to the north."
+  }
+ ],
+ "keywords": [
+  "bloodscalp",
+  "darkspear",
+  "grom'gol",
+  "kin'weelay",
+  "necklaces",
+  "nimboya",
+  "stranglethorn"
+ ],
+ "related": [
+  "npc:kin-weelay",
+  "subzone:grom-gol-base-camp",
+  "zone:stranglethorn",
+  "topic:troll"
+ ],
+ "attribution": [
+  "Bloody Bone Necklaces",
+  "In-game quest text: Bloody Bone Necklaces"
+ ]
+}

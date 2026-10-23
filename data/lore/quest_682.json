@@ -1,0 +1,81 @@
+{
+ "key": "quest:682",
+ "type": "quest",
+ "name": "Stromgarde Badges",
+ "era": "classic",
+ "zone": "arathi",
+ "meta": {
+  "ids": [
+   682
+  ],
+  "level": "37",
+  "start": "Captain Nials",
+  "end": "Captain Nials",
+  "previous": "Northfold Manor (Classic)",
+  "prev_q": [
+   "Northfold Manor (Classic)"
+  ],
+  "wiki": null,
+  "next": ""
+ },
+ "summary": "In Stromgarde, the Syndicate is fighting a contingent of militia, and its leaders pay gold for every badge taken from a fallen militiaman. At Refuge Pointe, Captain Nials wants those badges recovered.",
+ "sections": [
+  {
+   "title": "A Bounty on Soldiers",
+   "body": "In Stromgarde the Syndicate is at war with a contingent of militia. To push their followers into fighting the better-trained soldiers, Syndicate leaders pay gold for each badge taken from a slain militiaman. Captain Nials calls them cutthroats and will not let them keep trophies of the brave fallen, so you are sent into the Syndicate-held part of Stromgarde to hunt for the badges and bring them back to Refuge Pointe. Nials wants the Syndicate to learn it cannot profit from the dead.",
+   "spoiler": 0
+  },
+  {
+   "title": "After the Hunt",
+   "body": "Nials promises that the relatives of the fallen will be told they died in battle. The news is grim to deliver, but Nials judges it better than leaving a family to wonder what became of a missing relative.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Why does the Syndicate want Stromgarde badges?",
+   "aliases": [
+    "why syndicate badges",
+    "syndicate bounty stromgarde",
+    "why collect badges"
+   ],
+   "answer": "Their leaders have put a bounty on the militia: gold for every badge taken from a militiaman who has fallen, meant to push the Syndicate's followers into fighting the better-trained troops."
+  },
+  {
+   "q": "Where are the badges found?",
+   "aliases": [
+    "where to find badges",
+    "stromgarde badge location",
+    "badge drop location"
+   ],
+   "answer": "Captain Nials sends you into the part of Stromgarde the Syndicate controls to hunt them for the badges."
+  },
+  {
+   "q": "Who orders the retrieval of the badges?",
+   "aliases": [
+    "who gives stromgarde badges",
+    "captain nials badge quest",
+    "questgiver stromgarde badges"
+   ],
+   "answer": "Captain Nials, at Refuge Pointe, who does not want the Syndicate keeping trophies from the fallen militia."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "arathi",
+  "badges",
+  "captain nials",
+  "militia",
+  "refuge pointe",
+  "stromgarde",
+  "syndicate"
+ ],
+ "related": [
+  "subzone:refuge-pointe",
+  "topic:syndicate",
+  "zone:arathi"
+ ],
+ "attribution": [
+  "Classic quest text: Stromgarde Badges"
+ ]
+}

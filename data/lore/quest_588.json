@@ -1,0 +1,88 @@
+{
+ "key": "quest:588",
+ "type": "quest",
+ "name": "The Fate of Yenniku",
+ "era": "classic",
+ "zone": "stranglethorn",
+ "meta": {
+  "ids": [
+   588
+  ],
+  "level": "45",
+  "faction": "Horde",
+  "start": "Bubbling Cauldron",
+  "end": "Kin'weelay",
+  "previous": "Speaking with Gan'zulah, Speaking with Nezzliok (Classic)",
+  "next": "The Singing Crystals",
+  "wiki": "The Fate of Yenniku",
+  "chain": [],
+  "prev_q": [
+   "Speaking with Gan'zulah",
+   "Speaking with Nezzliok (Classic)"
+  ],
+  "next_q": [
+   "The Singing Crystals"
+  ],
+  "category": "Stranglethorn Vale",
+  "chain_tpl": [
+   "Fate of Yenniku"
+  ]
+ },
+ "summary": "At Grom'gol Base Camp, the head of Nezzliok speaks from the bubbling cauldron, ready to tell what became of the young Darkspear troll Yenniku. Kin'weelay stands beside the pot, waiting to hear the spirit's words.",
+ "sections": [
+  {
+   "title": "Words from the Kettle",
+   "body": "Having placated the spirits of Gan'zulah and Nezzliok, you listen as the head within the bubbling cauldron finally imparts its secret. Kin'weelay stands right beside the cauldron, waiting to hear it.",
+   "spoiler": 0
+  },
+  {
+   "title": "What the Head Revealed",
+   "body": "Nezzliok declares that Yenniku is lost to his clan, taken by the witch doctor Zanzil the Outcast. Zanzil has bound the boy completely, and nothing short of very strong magic will free him. Kin'weelay, hearing it, is left with only a faint hope.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who reveals Yenniku's whereabouts?",
+   "aliases": [
+    "who speaks from cauldron",
+    "who reveals fate of yenniku",
+    "cauldron voice"
+   ],
+   "answer": "The head of Nezzliok speaks through the bubbling cauldron to disclose what happened to Yenniku."
+  },
+  {
+   "q": "Who should be informed of Nezzliok's words?",
+   "aliases": [
+    "who do i talk to",
+    "turn in fate of yenniku",
+    "kin'weelay location"
+   ],
+   "answer": "Kin'weelay, who stands right beside the bubbling cauldron at the northern edge of Grom'gol Base Camp, needs to hear what Nezzliok revealed."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Horde",
+   "text": "Recovering the chief's son is vital for the Darkspear tribe and their allies stationed within Grom'gol Base Camp."
+  }
+ ],
+ "keywords": [
+  "cauldron",
+  "grom'gol",
+  "kin'weelay",
+  "nezzliok",
+  "yenniku",
+  "zanzil"
+ ],
+ "related": [
+  "npc:kin-weelay",
+  "quest:589",
+  "subzone:grom-gol-base-camp",
+  "zone:stranglethorn",
+  "topic:troll"
+ ],
+ "attribution": [
+  "The Fate of Yenniku"
+ ]
+}

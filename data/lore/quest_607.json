@@ -1,0 +1,80 @@
+{
+ "key": "quest:607",
+ "type": "quest",
+ "name": "Return to MacKinley",
+ "era": "classic",
+ "zone": "stranglethorn",
+ "meta": {
+  "ids": [
+   607
+  ],
+  "level": "41",
+  "start": "\"Shaky\" Phillipe",
+  "end": "\"Sea Wolf\" MacKinley",
+  "previous": "Scaring Shaky",
+  "next": "Voodoo Dues",
+  "prev_q": [
+   "Scaring Shaky"
+  ],
+  "next_q": [
+   "Voodoo Dues"
+  ],
+  "wiki": null
+ },
+ "summary": "After the scare of the giblets, \"Shaky\" Phillipe hands you a pouch to carry to \"Sea Wolf\" MacKinley. Phillipe swears the debt was always meant to be paid and adds that there is no need to get rough.",
+ "sections": [
+  {
+   "title": "Shaky's Plea",
+   "body": "Phillipe presses a pouch of payment on you for Sea Wolf. Phillipe wants MacKinley told that the debt was always meant to be repaid, and swears to it. Phillipe puts it down to getting a little drunk and losing the way, and says MacKinley will understand and that there is no need to get rough.",
+   "spoiler": 0
+  },
+  {
+   "title": "Sea Wolf Hears the Tale",
+   "body": "MacKinley chuckles and asks how hard Phillipe shook when shown the giblets. MacKinley adds that Phillipe is so easy to read that, playing cards against Phillipe, winning comes without effort.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who gives you the pouch?",
+   "aliases": [
+    "who gives return to mackinley",
+    "where do i start return to mackinley"
+   ],
+   "answer": "\"Shaky\" Phillipe gives you the pouch of payment for Sea Wolf MacKinley."
+  },
+  {
+   "q": "What excuse does Phillipe give for not paying?",
+   "aliases": [
+    "why didn't shaky pay",
+    "phillipe excuse",
+    "why was shaky phillipe late"
+   ],
+   "answer": "Phillipe puts it down to getting a little drunk and losing the way, and swears the debt was always going to be repaid."
+  },
+  {
+   "q": "What came before this step?",
+   "aliases": [
+    "what comes before return to mackinley",
+    "previous quest"
+   ],
+   "answer": "This follows Scaring Shaky, where MacKinley had you frighten Phillipe with giblets."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "debt",
+  "mackinley",
+  "sea wolf",
+  "shaky phillipe",
+  "stranglethorn vale"
+ ],
+ "related": [
+  "quest:606",
+  "quest:609",
+  "zone:stranglethorn"
+ ],
+ "attribution": [
+  "Classic quest text: Return to MacKinley"
+ ]
+}

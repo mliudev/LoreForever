@@ -1,0 +1,104 @@
+{
+ "key": "quest:2941",
+ "type": "quest",
+ "name": "The Borrower",
+ "era": "classic",
+ "zone": "feralas",
+ "meta": {
+  "ids": [
+   2941
+  ],
+  "level": "48",
+  "faction": "Alliance",
+  "start": "Daryn Lightwind",
+  "end": "Curgle Cranklehop",
+  "previous": "Feralas: A History (quest)",
+  "next": "The Super Snapper FX",
+  "wiki": "The Borrower",
+  "chain": [],
+  "prev_q": [
+   "Feralas: A History (quest)"
+  ],
+  "next_q": [
+   "The Super Snapper FX"
+  ],
+  "category": "Teldrassil",
+  "chain_tpl": [
+   "In Search of Knowledge"
+  ]
+ },
+ "summary": "Daryn Lightwind is fascinated by the snapjaws on the beach in the Hinterlands, and above all by a giant one named Gammerita. Her research keeps her where she is, so she gives you a letter to carry to Curgle Cranklehop in Tanaris.",
+ "sections": [
+  {
+   "title": "A Picture of Gammerita",
+   "body": "Daryn Lightwind says she has studied many subjects, and her latest fascination is the snapjaws that live along the beach in the Hinterlands. One she especially wants to see is a giant snapjaw called Gammerita. She would go herself, but her research keeps her here, so a picture of Gammerita would be the next best thing.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Letter to Tanaris",
+   "body": "Daryn hands you a letter for Curgle Cranklehop in Tanaris. Curgle has made an invention for Daryn that can capture a picture, which Daryn believes Curgle calls a snapshot.",
+   "spoiler": 0
+  },
+  {
+   "title": "Curgle's Reaction",
+   "body": "Curgle takes you for one of Daryn's interns and speaks well of Daryn as a knowledgeable historian. Then Curgle goes off to fetch the Super Snapper FX, certain you will love it.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who sends you to Tanaris?",
+   "aliases": [
+    "quest giver",
+    "who gives the borrower",
+    "daryn lightwind"
+   ],
+   "answer": "Daryn Lightwind, who gives you a letter to carry. Her research keeps her from going herself."
+  },
+  {
+   "q": "Who is Curgle Cranklehop?",
+   "aliases": [
+    "who is curgle",
+    "curgle cranklehop location",
+    "curgle tanaris"
+   ],
+   "answer": "Someone in Tanaris who has made an invention for Daryn that can capture a picture, which Daryn believes is called a snapshot."
+  },
+  {
+   "q": "Why does Daryn want a picture of Gammerita?",
+   "aliases": [
+    "gammerita snapjaw",
+    "why gammerita",
+    "giant snapjaw"
+   ],
+   "answer": "Daryn is fascinated by the snapjaws along the Hinterlands beach, and wants to see Gammerita in particular. Research keeps Daryn from going, so a picture is the next best thing."
+  },
+  {
+   "q": "What is Gammerita?",
+   "aliases": [
+    "who is gammerita",
+    "gammerita"
+   ],
+   "answer": "A giant snapjaw on the beach in the Hinterlands."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "curgle cranklehop",
+  "daryn lightwind",
+  "gammerita",
+  "snapjaw",
+  "snapshot",
+  "super snapper fx",
+  "tanaris",
+  "the borrower"
+ ],
+ "related": [
+  "quest:2944",
+  "zone:tanaris",
+  "zone:hinterlands"
+ ],
+ "attribution": [
+  "The Borrower"
+ ]
+}

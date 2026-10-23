@@ -1,0 +1,85 @@
+{
+ "key": "quest:2844",
+ "type": "quest",
+ "name": "The Giant Guardian",
+ "era": "classic",
+ "zone": "feralas",
+ "meta": {
+  "ids": [
+   2844
+  ],
+  "level": "49",
+  "faction": "Alliance",
+  "start": "Rockbiter",
+  "end": "Shay Leafrunner",
+  "previous": "",
+  "next": "Wandering Shay",
+  "wiki": "The Giant Guardian",
+  "chain": [
+   "The Giant Guardian",
+   "Wandering Shay"
+  ],
+  "next_q": [
+   "Wandering Shay"
+  ],
+  "category": "Feralas"
+ },
+ "summary": "Rockbiter, a giant, was supposed to be watching over his little friend Shay, a night elf girl, but somehow she got away. Worried and unsure what to do, he asks you to go and look for her.",
+ "sections": [
+  {
+   "title": "Gone While His Back Was Turned",
+   "body": "Rockbiter was supposed to look after Shay. The last time he saw her, the two of them were walking through the ruins just north of where he stands. All was well until he turned around and found her gone. He cannot work out what to do, but he knows your legs travel much faster than his, so he asks you to search for her.",
+   "spoiler": 0
+  },
+  {
+   "title": "When You Find Her",
+   "body": "Shay is glad to be found. She admits she is a bit lost, yet cannot help remarking on what a beautiful place this is.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Rockbiter looking for?",
+   "aliases": [
+    "who is shay",
+    "who is the missing girl",
+    "who got lost"
+   ],
+   "answer": "A little night elf girl named Shay, his friend, whom he was supposed to be watching over."
+  },
+  {
+   "q": "Where was Shay last seen?",
+   "aliases": [
+    "where did shay go",
+    "last seen location",
+    "where are the ruins"
+   ],
+   "answer": "Rockbiter says they were walking through the ruins just north of where he is when she disappeared."
+  },
+  {
+   "q": "Why does Rockbiter ask someone else to search?",
+   "aliases": [
+    "why cant rockbiter search",
+    "why send an adventurer"
+   ],
+   "answer": "He is worried and unsure what to do, and he figures your legs can travel much faster than his."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "feralas",
+  "giant guardian",
+  "lost girl",
+  "rockbiter",
+  "ruins",
+  "shay",
+  "shay leafrunner"
+ ],
+ "related": [
+  "quest:2845",
+  "zone:feralas"
+ ],
+ "attribution": [
+  "The Giant Guardian"
+ ]
+}

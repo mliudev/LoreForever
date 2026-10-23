@@ -1,0 +1,105 @@
+{
+ "key": "quest:2875",
+ "type": "quest",
+ "name": "WANTED: Andre Firebeard",
+ "era": "classic",
+ "zone": "tanaris",
+ "meta": {
+  "ids": [
+   2875
+  ],
+  "level": "45",
+  "faction": "Neutral",
+  "start": "Wanted Poster (Gadgetzan) / Wanted Poster (Steamwheedle Port)",
+  "end": "Security Chief Bilgewhizzle",
+  "previous": "",
+  "next": "",
+  "wiki": "WANTED: Andre Firebeard",
+  "chain": [],
+  "category": "Tanaris"
+ },
+ "summary": "A wanted notice in Gadgetzan and Steamwheedle Port names the pirate Andre Firebeard, who stands accused of crimes against Steamwheedle and Gadgetzan. The notice declares that his head, delivered to Security Chief Bilgewhizzle at Steamwheedle Port, counts as a binding contract.",
+ "sections": [
+  {
+   "title": "The Decree",
+   "body": "The notice calls Andre Firebeard a vile pirate, accused of crimes against Steamwheedle and Gadgetzan. The governing counsel has decreed that anyone who reads it may use lethal force in capturing Andre and those who aid him. He is to be found at the pirate enclave a way south along the coast from Steamwheedle Port, where he stands by a campfire inside the walls.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Head as Proxy",
+   "body": "A further decree says that if Andre is dead or otherwise unable to attend when his hearing comes, his head can act in his place. Delivered to Security Chief Bilgewhizzle at Steamwheedle Port, it counts as a binding contract.",
+   "spoiler": 0
+  },
+  {
+   "title": "Terms of Payment",
+   "body": "Bilgewhizzle is pleased that Andre will make his trial after all. Payment is issued once you sign, and Bilgewhizzle waves off the small print as harmless, adding that it is too small for any magnifying glass to read.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Andre Firebeard?",
+   "aliases": [
+    "andre firebeard",
+    "who is andre",
+    "firebeard tanaris"
+   ],
+   "answer": "A pirate accused of crimes against Steamwheedle and Gadgetzan."
+  },
+  {
+   "q": "Where can the wanted notice be found?",
+   "aliases": [
+    "where to get quest",
+    "wanted poster location",
+    "wanted andre firebeard poster"
+   ],
+   "answer": "In Gadgetzan and at Steamwheedle Port."
+  },
+  {
+   "q": "Where is Andre Firebeard located?",
+   "aliases": [
+    "firebeard location",
+    "where is firebeard",
+    "find andre firebeard"
+   ],
+   "answer": "At a campfire inside the walls of the pirate enclave, a way south along the coast from Steamwheedle Port."
+  },
+  {
+   "q": "Who receives the head once Andre is dealt with?",
+   "aliases": [
+    "who do i turn in firebeard to",
+    "bilgewhizzle location",
+    "where to turn in firebeard head"
+   ],
+   "answer": "Security Chief Bilgewhizzle, in Steamwheedle Port."
+  },
+  {
+   "q": "Why is his head required?",
+   "aliases": [
+    "why his head",
+    "head as proxy",
+    "trial proxy"
+   ],
+   "answer": "A decree lets it act in his place if he is dead or otherwise unable to attend when his hearing comes."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "andre firebeard",
+  "bilgewhizzle",
+  "gadgetzan",
+  "pirate enclave",
+  "steamwheedle port",
+  "tanaris",
+  "wanted poster"
+ ],
+ "related": [
+  "subzone:steamwheedle-port",
+  "subzone:gadgetzan",
+  "zone:tanaris",
+  "topic:pirate"
+ ],
+ "attribution": [
+  "WANTED: Andre Firebeard"
+ ]
+}

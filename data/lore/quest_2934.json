@@ -1,0 +1,94 @@
+{
+ "key": "quest:2934",
+ "type": "quest",
+ "name": "Undamaged Venom Sac",
+ "era": "classic",
+ "zone": "hinterlands",
+ "meta": {
+  "ids": [
+   2934
+  ],
+  "level": "45",
+  "faction": "Horde",
+  "start": "Apothecary Lydon",
+  "end": "Apothecary Lydon",
+  "previous": "Venom Bottles",
+  "next": "Consult Master Gadrin",
+  "wiki": "Undamaged Venom Sac (quest)",
+  "chain": [],
+  "prev_q": [
+   "Venom Bottles"
+  ],
+  "next_q": [
+   "Consult Master Gadrin"
+  ],
+  "category": "Hinterlands",
+  "chain_tpl": [
+   "Venom to the Undercity"
+  ]
+ },
+ "summary": "Apothecary Lydon in Tarren Mill wants a fresh sample of the venom already delivered, and sends you after the spiders that yield it in the Hinterlands. Time matters, since it must arrive fresh.",
+ "sections": [
+  {
+   "title": "A Fresh Sample",
+   "body": "After Venom Bottles, Apothecary Lydon asks for something fresher. The spiders that yielded the venom must live in the Hinterlands, and an undamaged venom sac is wanted from them. Many roam near the troll city of Shadra'Alor. There is no time to waste, because the sac has to be fresh on arrival. Lydon is eager to run experiments with it, and has ordered in several small, terribly cute animals to test it on.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who requests the undamaged venom sac?",
+   "aliases": [
+    "who gives undamaged venom sac",
+    "who starts undamaged venom sac",
+    "undamaged venom sac quest giver"
+   ],
+   "answer": "Apothecary Lydon in Tarren Mill asks for it and waits there for it."
+  },
+  {
+   "q": "Where can the spiders be found?",
+   "aliases": [
+    "spider location",
+    "where are the spiders",
+    "where to find undamaged venom sac"
+   ],
+   "answer": "In the Hinterlands, where many spiders are found near the troll city of Shadra'Alor."
+  },
+  {
+   "q": "Why does Apothecary Lydon say not to tarry?",
+   "aliases": [
+    "why is it timed",
+    "why does the sac spoil",
+    "undamaged venom sac timer"
+   ],
+   "answer": "Freshness is essential, so Lydon wants the sac delivered without delay."
+  },
+  {
+   "q": "What came before this step?",
+   "aliases": [
+    "previous quest",
+    "what quest comes before undamaged venom sac",
+    "undamaged venom sac prerequisite"
+   ],
+   "answer": "It follows Venom Bottles, in which a sample of venom from a Witherbark village was brought to Lydon."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "apothecary lydon",
+  "hinterlands",
+  "shadra'alor",
+  "spider venom",
+  "tarren mill",
+  "venom sac"
+ ],
+ "related": [
+  "quest:2933",
+  "quest:2935",
+  "subzone:tarren-mill",
+  "zone:hinterlands"
+ ],
+ "attribution": [
+  "Undamaged Venom Sac (quest)"
+ ]
+}

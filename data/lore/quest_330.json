@@ -1,0 +1,101 @@
+{
+ "key": "quest:330",
+ "type": "quest",
+ "name": "Patrol Schedules",
+ "era": "classic",
+ "zone": "stranglethorn",
+ "meta": {
+  "ids": [
+   330
+  ],
+  "level": "37",
+  "faction": "Alliance",
+  "start": "Lieutenant Doren",
+  "end": "Corporal Sethman",
+  "previous": "The Spy Revealed!",
+  "next": "Report to Doren",
+  "wiki": "Patrol Schedules",
+  "chain": [],
+  "prev_q": [
+   "The Spy Revealed!"
+  ],
+  "next_q": [
+   "Report to Doren"
+  ],
+  "category": "Stranglethorn Vale",
+  "chain_tpl": [
+   "Jungle Secrets"
+  ]
+ },
+ "summary": "Following the discovery of an incriminating message signed only by an initial, Lieutenant Doren seeks to identify the traitor within the Rebel Camp. By cross-referencing duty rosters, duty records can reveal who shared patrol routes with Private Thorsen during the previous week.",
+ "sections": [
+  {
+   "title": "A Clue in the Rosters",
+   "body": "The recovered note bears only the initial M, which provides little on its own to expose the conspirator aiding the Kurzen forces. However, the author mentions sharing regular duty paths alongside Private Thorsen throughout the previous week. Lieutenant Doren directs you across the Rebel Camp to speak with Corporal Sethman, the soldier responsible for maintaining duty logs, to identify who walked alongside Thorsen.",
+   "spoiler": 0
+  },
+  {
+   "title": "What the Records Show",
+   "body": "Reviewing the official records confirms that Private Merle was assigned to the exact same duty times and routes as Thorsen for the entirety of the prior week. The realization exposes Merle as the informant feeding intelligence to Kurzen's men. Once identified, the traitor flees the encampment toward the northern boundary with Duskwood.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Why does Lieutenant Doren send you to Corporal Sethman?",
+   "aliases": [
+    "why talk to sethman",
+    "corporal sethman role",
+    "sethman patrol schedules"
+   ],
+   "answer": "Corporal Sethman oversees the duty logs and schedules for the Rebel Camp. Because the recovered note mentions walking regular routes with Private Thorsen, Sethman's records can pinpoint who was assigned to duty alongside him."
+  },
+  {
+   "q": "What clue is found in the recovered note?",
+   "aliases": [
+    "note clue",
+    "letter clue",
+    "who signed note"
+   ],
+   "answer": "The message is signed with the single letter M and explicitly mentions that its author walked the same duty paths as Private Thorsen during the previous week."
+  },
+  {
+   "q": "Where does this inquiry take place?",
+   "aliases": [
+    "where is patrol schedules",
+    "patrol schedules location"
+   ],
+   "answer": "This investigation takes place entirely inside the Rebel Camp in northern Stranglethorn Vale, passing between Lieutenant Doren and Corporal Sethman."
+  },
+  {
+   "q": "What event preceded this inquiry?",
+   "aliases": [
+    "previous quest",
+    "what led to patrol schedules"
+   ],
+   "answer": "In The Spy Revealed! you brought Lieutenant Doren the muddy note found among Bookie Herod's valuables, signed only with an initial."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "corporal sethman",
+  "kurzen",
+  "lieutenant doren",
+  "patrol schedules",
+  "private merle",
+  "private thorsen",
+  "rebel camp",
+  "stranglethorn vale"
+ ],
+ "related": [
+  "quest:329",
+  "quest:331",
+  "subzone:rebel-camp",
+  "zone:stranglethorn",
+  "npc:doren",
+  "zone:duskwood"
+ ],
+ "attribution": [
+  "Patrol Schedules"
+ ]
+}

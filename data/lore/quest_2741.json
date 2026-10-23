@@ -1,0 +1,87 @@
+{
+ "key": "quest:2741",
+ "type": "quest",
+ "name": "The Super Egg-O-Matic",
+ "era": "classic",
+ "zone": "tanaris",
+ "meta": {
+  "ids": [
+   2741
+  ],
+  "level": "47",
+  "faction": "Neutral",
+  "start": "Egg-O-Matic",
+  "end": "Egg-O-Matic",
+  "previous": "",
+  "next": "A Bad Egg, A Fine Egg, An Extraordinary Egg, An Ordinary Egg",
+  "wiki": "The Super Egg-O-Matic",
+  "chain": [],
+  "repeatable": "Yes",
+  "category": "Tanaris",
+  "next_q": [
+   "A Bad Egg",
+   "A Fine Egg",
+   "An Extraordinary Egg",
+   "An Ordinary Egg"
+  ]
+ },
+ "summary": "Curgle Cranklehop's newest invention is an impressive piece of machinery, and it sputters wildly when you reach its control panel. Hippogryph eggs go into it.",
+ "sections": [
+  {
+   "title": "A Machine of Curgle Cranklehop",
+   "body": "Curgle Cranklehop's newest invention makes an impressive sight. When you walk up to its control panel it sputters wildly. It is built to take a hippogryph egg, and the eggs are to be found in the mountains of southern Feralas, around the Ruins of Isildien.",
+   "spoiler": 0
+  },
+  {
+   "title": "What the Machine Does",
+   "body": "Place a hippogryph egg inside and the machine answers with a run of beeps and odd mechanical noises. Its Eggometer weighs and measures the egg, then packages it up, all in very quick service. What comes out is an Egg Crate, which holds an egg of some variety.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who built the Super Egg-O-Matic?",
+   "aliases": [
+    "who made egg-o-matic",
+    "egg-o-matic creator",
+    "curgle cranklehop invention"
+   ],
+   "answer": "Curgle Cranklehop, whose latest invention it is."
+  },
+  {
+   "q": "What does the machine need to operate?",
+   "aliases": [
+    "what do i give the egg-o-matic",
+    "egg-o-matic item needed",
+    "hippogryph egg machine"
+   ],
+   "answer": "A hippogryph egg, which you place into the machine."
+  },
+  {
+   "q": "Where do you find hippogryph eggs?",
+   "aliases": [
+    "hippogryph egg location",
+    "where to find hippogryph eggs",
+    "where are the eggs feralas"
+   ],
+   "answer": "Up in the mountains of southern Feralas, around the Ruins of Isildien."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "curgle cranklehop",
+  "egg-o-matic",
+  "eggometer",
+  "feralas",
+  "hippogryph egg",
+  "tanaris"
+ ],
+ "related": [
+  "zone:tanaris",
+  "zone:feralas",
+  "subzone:ruins-of-isildien"
+ ],
+ "attribution": [
+  "The Super Egg-O-Matic"
+ ]
+}

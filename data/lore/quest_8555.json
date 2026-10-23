@@ -1,0 +1,74 @@
+{
+ "key": "quest:8555",
+ "type": "quest",
+ "name": "The Charge of the Dragonflights",
+ "era": "classic",
+ "zone": "tanaris",
+ "meta": {
+  "ids": [
+   8555
+  ],
+  "level": "60",
+  "faction": null,
+  "start": "Anachronos",
+  "end": "Anachronos",
+  "previous": "",
+  "next": "",
+  "wiki": "The Charge of the Dragonflights",
+  "chain": [],
+  "category": "Tanaris",
+  "chain_tpl": [
+   "What Tomorrow Brings (Gates of Ahn'Qiraj)"
+  ]
+ },
+ "summary": "Anachronos, of the bronze dragonflight, meets you in Tanaris to wrap up the first part of the Scepter of the Shifting Sands. That chain is the road toward opening the Gates of Ahn'Qiraj.",
+ "sections": [
+  {
+   "title": "The End of the Beginning",
+   "body": "This meeting wraps up the opening stretch of the Scepter of the Shifting Sands, the chain that leads toward opening the Gates of Ahn'Qiraj. Anachronos is the one who closes this first part with you.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Three Watchers",
+   "body": "Anachronos names three dragons, Eranikus, Vaelastrasz and Azuregos, who have played influential roles as watchers of the world. Each of these guardians, Anachronos says, has fallen to tragedy, whether through agents of the Old Gods or through betrayal by those who called them friend. Anachronos admits to being partly to blame through naivety, and says the whole matter has fueled a distrust of mortals. You are told to seek the three out and prepare for the worst.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Anachronos?",
+   "aliases": [
+    "who is anachronos",
+    "anachronos tanaris",
+    "bronze dragon"
+   ],
+   "answer": "Anachronos is a dragon of the bronze dragonflight, met here in Tanaris."
+  },
+  {
+   "q": "What is the Scepter of the Shifting Sands?",
+   "aliases": [
+    "scepter chain",
+    "scepter of the shifting sands",
+    "gates of ahn'qiraj chain"
+   ],
+   "answer": "It is the long chain that leads toward opening the Gates of Ahn'Qiraj. This meeting wraps up its first part."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "anachronos",
+  "azuregos",
+  "eranikus",
+  "gates of ahn'qiraj",
+  "scepter of the shifting sands",
+  "tanaris",
+  "vaelastrasz"
+ ],
+ "related": [
+  "npc:azuregos",
+  "zone:tanaris"
+ ],
+ "attribution": [
+  "The Charge of the Dragonflights"
+ ]
+}

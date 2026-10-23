@@ -1,0 +1,102 @@
+{
+ "key": "quest:3127",
+ "type": "quest",
+ "name": "Mountain Giant Muisek",
+ "era": "classic",
+ "zone": "feralas",
+ "meta": {
+  "ids": [
+   3127
+  ],
+  "level": "50",
+  "start": "Witch Doctor Uzer'i",
+  "end": "Witch Doctor Uzer'i",
+  "previous": "Treant Muisek",
+  "next": "Weapons of Spirit",
+  "prev_q": [
+   "Treant Muisek"
+  ],
+  "next_q": [
+   "Weapons of Spirit"
+  ],
+  "wiki": null
+ },
+ "summary": "Witch Doctor Uzer'i calls this the last job and sends you northwest to find the final enemy: mountain giants, whose size and strength Uzer'i is eager to harness.",
+ "sections": [
+  {
+   "title": "Giants of the Rocky Ground",
+   "body": "In Uzer'i's telling, the mountain giants came down out of the mountains to help the night elves once the Burning Legion arrived in the world. They are easy to know by their sheer size and the tremors underfoot on their rocky ground. Uzer'i is eager to harness power on that scale. Uzer'i wants seven Land Walkers or Cliff Giants brought down, each one shrunk and captured with the Muisek Vessel.",
+   "spoiler": 0
+  },
+  {
+   "title": "Uzer'i's Boast",
+   "body": "When you return, Uzer'i speaks of the possibilities of what has now been gathered. With the materials you collected along the way, Uzer'i claims to be able to trap the spirits of these creatures permanently into whatever Uzer'i wishes.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who asks for the mountain giants' muisek?",
+   "aliases": [
+    "quest giver",
+    "who gives mountain giant muisek",
+    "uzeri quest"
+   ],
+   "answer": "Witch Doctor Uzer'i, who calls it the last request of you."
+  },
+  {
+   "q": "Where are the mountain giants located?",
+   "aliases": [
+    "mountain giant location",
+    "where are land walkers",
+    "cliff giant location"
+   ],
+   "answer": "Uzer'i sends you to travel northwest to find them on rocky terrain."
+  },
+  {
+   "q": "Why are mountain giants here?",
+   "aliases": [
+    "why are giants here",
+    "mountain giant lore feralas"
+   ],
+   "answer": "By Uzer'i's account, they came down from the mountains to help the night elves once the Burning Legion arrived in the world."
+  },
+  {
+   "q": "Which creatures provide the required muisek?",
+   "aliases": [
+    "what do i kill for muisek",
+    "which giants count"
+   ],
+   "answer": "Land Walkers and Cliff Giants. Seven are needed, and the Muisek Vessel shrinks and captures each fallen one."
+  },
+  {
+   "q": "What comes before this in the sequence?",
+   "aliases": [
+    "previous quest",
+    "muisek chain order"
+   ],
+   "answer": "It follows Treant Muisek, and Weapons of Spirit is listed after it."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "burning legion",
+  "cliff giant",
+  "feralas",
+  "land walker",
+  "mountain giant muisek",
+  "muisek vessel",
+  "treant muisek",
+  "witch doctor uzer'i"
+ ],
+ "related": [
+  "npc:witch-doctor-uzer-i",
+  "quest:3126",
+  "quest:3129",
+  "zone:feralas",
+  "topic:burning-legion"
+ ],
+ "attribution": [
+  "Classic quest text: Mountain Giant Muisek"
+ ]
+}

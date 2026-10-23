@@ -1,0 +1,88 @@
+{
+ "key": "quest:2742",
+ "type": "quest",
+ "name": "Rin'ji is Trapped!",
+ "era": "classic",
+ "zone": "hinterlands",
+ "meta": {
+  "ids": [
+   2742
+  ],
+  "level": "47",
+  "faction": "Horde",
+  "start": "Rin'ji",
+  "end": "Rin'ji's Secret",
+  "previous": "",
+  "next": "Rin'ji's Secret (quest)",
+  "wiki": "Rin'ji is Trapped!",
+  "chain": [
+   "Rin'ji is Trapped!",
+   "Rin'ji's Secret (quest)",
+   "Oran's Gratitude"
+  ],
+  "next_q": [
+   "Rin'ji's Secret (quest)"
+  ],
+  "category": "Hinterlands"
+ },
+ "summary": "Rin'ji, a troll, has lost an axe and been captured in Quel'Danil Lodge, and begs for help to escape. Rin'ji knows that others may not like Rin'ji's kind, but promises something in return and mentions a secret hidden at the Overlook Cliffs.",
+ "sections": [
+  {
+   "title": "A Plea for Escape",
+   "body": "Rin'ji is a captive at Quel'Danil Lodge and badly frightened. The axe is gone, and Rin'ji begs any passer-by to help get away. Rin'ji knows many dislike Rin'ji's kind, but offers something for a kind soul who helps, and says a secret lies hidden at the Overlook Cliffs.",
+   "spoiler": 0
+  },
+  {
+   "title": "At the End of the Escape",
+   "body": "What awaits is a troll tablet covered with strange markings. Nothing about the writing can be made out.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Rin'ji?",
+   "aliases": [
+    "rinji",
+    "who is the troll in quel'danil",
+    "who is rin'ji"
+   ],
+   "answer": "Rin'ji is a troll who lost an axe and was captured at Quel'Danil Lodge in the Hinterlands. Rin'ji speaks of the self in the third person and begs for help to escape."
+  },
+  {
+   "q": "Where is Rin'ji held captive?",
+   "aliases": [
+    "where is rin'ji",
+    "rinji location",
+    "quel'danil cage"
+   ],
+   "answer": "Rin'ji is held at Quel'Danil Lodge in the Hinterlands."
+  },
+  {
+   "q": "What does Rin'ji offer for help?",
+   "aliases": [
+    "what is rin'ji's secret",
+    "rinji reward",
+    "what is at overlook cliffs"
+   ],
+   "answer": "Rin'ji has something for those who help, and says a secret is hidden at the Overlook Cliffs."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "captive",
+  "escort",
+  "hinterlands",
+  "overlook cliffs",
+  "quel'danil",
+  "rin'ji",
+  "tablet"
+ ],
+ "related": [
+  "quest:2782",
+  "zone:hinterlands",
+  "topic:troll"
+ ],
+ "attribution": [
+  "Wowpedia: Rin'ji is Trapped!"
+ ]
+}

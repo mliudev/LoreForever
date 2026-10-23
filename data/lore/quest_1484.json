@@ -1,0 +1,97 @@
+{
+ "key": "quest:1484",
+ "type": "quest",
+ "name": "The Corrupter",
+ "era": "classic",
+ "zone": "desolace",
+ "meta": {
+  "ids": [
+   1484
+  ],
+  "level": "33",
+  "faction": "Horde",
+  "start": "Maurin Bonesplitter",
+  "end": "Takata Steelblade",
+  "previous": "The Corrupter (3)",
+  "next": "The Corrupter (5)",
+  "wiki": "The Corrupter (4)",
+  "chain": [],
+  "prev_q": [
+   "The Corrupter (3)"
+  ],
+  "next_q": [
+   "The Corrupter (5)"
+  ],
+  "category": "Desolace",
+  "chain_tpl": [
+   "Quest:The Corrupter/Chain"
+  ]
+ },
+ "summary": "Maurin Bonesplitter has found the demon lord far more dangerous than expected. He is certain Takata Steelblade doubts his abilities, and leaving the swordsman uninformed of what happened would insult Takata's honor. Maurin sends you to speak with Takata, who is nearby.",
+ "sections": [
+  {
+   "title": "A Matter of Honor",
+   "body": "Maurin Bonesplitter finds the creature much more dangerous than he had anticipated. No doubt Takata Steelblade questions whether Maurin can handle it, and not being told of what just happened would insult Takata's honor. Maurin asks you to speak to the swordsman and offer to slay the demon, should Takata allow it. Maurin cautions you not to press Takata too hard, since it is better if Takata believes the idea is his own.",
+   "spoiler": 0
+  },
+  {
+   "title": "Across the Path",
+   "body": "Takata Steelblade is close at hand, just across the path from Maurin, on a cliff overlooking the Kodo Graveyard.",
+   "spoiler": 0
+  },
+  {
+   "title": "Takata's Answer",
+   "body": "Takata witnessed what passed between Maurin and the demon lord. Even as an apparition, the creature seems to have more power than Maurin, Takata's warlock companion, and Takata wonders whether Maurin can defeat it. Takata going in person would serve the Warchief better, yet Takata's responsibilities here are such that leaving them to fight this evil for personal honor would disgrace the clan.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Why does Maurin Bonesplitter want Takata Steelblade told?",
+   "aliases": [
+    "why talk to takata",
+    "maurin bonesplitter reason",
+    "why tell takata"
+   ],
+   "answer": "Maurin finds the demon lord far more dangerous than he expected. He is certain Takata doubts his abilities, and leaving the swordsman uninformed of what happened would insult Takata's honor."
+  },
+  {
+   "q": "Where is Takata Steelblade located?",
+   "aliases": [
+    "takata location",
+    "where is takata",
+    "find takata steelblade"
+   ],
+   "answer": "Close by, just across the path from Maurin, on a cliff overlooking the Kodo Graveyard in Desolace."
+  },
+  {
+   "q": "Why does Maurin advise against pressing Takata too hard?",
+   "aliases": [
+    "why not press takata",
+    "handling takata",
+    "takata pride"
+   ],
+   "answer": "Maurin wants you to offer to slay the demon, if Takata allows it, without pressing hard. It is better if Takata believes the idea is his own."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "demon lord",
+  "desolace",
+  "kodo graveyard",
+  "maurin bonesplitter",
+  "swordsman",
+  "takata steelblade",
+  "the corrupter"
+ ],
+ "related": [
+  "npc:maurin-bonesplitter",
+  "npc:takata-steelblade",
+  "subzone:kodo-graveyard",
+  "zone:desolace",
+  "topic:warlock"
+ ],
+ "attribution": [
+  "The Corrupter (4)"
+ ]
+}

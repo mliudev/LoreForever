@@ -1,0 +1,95 @@
+{
+ "key": "quest:716",
+ "type": "quest",
+ "name": "Stone Is Better than Cloth",
+ "era": "classic",
+ "zone": "badlands",
+ "meta": {
+  "ids": [
+   716
+  ],
+  "level": "42",
+  "faction": "Neutral",
+  "start": "Lucien Tosselwrench",
+  "end": "Lucien Tosselwrench",
+  "previous": "Study of the Elements: Rock (3)",
+  "next": "",
+  "wiki": "Stone Is Better than Cloth",
+  "chain": [],
+  "category": "Badlands",
+  "prev_q": [
+   "Study of the Elements: Rock (3)"
+  ]
+ },
+ "summary": "Lucien Tosselwrench knows how cheap Lotwil can be, and offers to make something for your trouble: enchanted bracers built from the extra stones you collected. What Lucien lacks is a blacksmith's patterned bronze bracers.",
+ "sections": [
+  {
+   "title": "A Thank-You for Your Trouble",
+   "body": "After the Study of the Elements: Rock trials, Lucien Tosselwrench admits how cheap Lotwil can be and wants to make it up to you. Lucien has been busy with the extra stones you gathered and can make fine enchanted bracers. They may even help guard you against what Lucien calls the coming atrocity of Lotwil's newest invention.",
+   "spoiler": 0
+  },
+  {
+   "title": "What Lucien Needs",
+   "body": "To finish the bracers, Lucien needs patterned bronze bracers, the kind a blacksmith makes. Lucien warns that it is wise not to wait long, since no one knows what happens next.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who offers to craft the bracers?",
+   "aliases": [
+    "who gives stone is better than cloth",
+    "quest giver",
+    "lucien tosselwrench"
+   ],
+   "answer": "Lucien Tosselwrench, in the Badlands, offers to make enchanted bracers from the extra stones you collected."
+  },
+  {
+   "q": "Why is Lucien making this armor for you?",
+   "aliases": [
+    "why make bracers",
+    "lucien motive",
+    "lotwil cheap"
+   ],
+   "answer": "Lucien knows how cheap Lotwil can be and wants to make something for all your troubles. It may also help protect you from Lotwil's newest invention."
+  },
+  {
+   "q": "What does Lucien need to finish crafting the bracers?",
+   "aliases": [
+    "what item is needed",
+    "required items",
+    "patterned bronze bracers needed"
+   ],
+   "answer": "Patterned bronze bracers, the kind a blacksmith makes."
+  },
+  {
+   "q": "What comes before this quest?",
+   "aliases": [
+    "previous quest",
+    "prerequisite for stone is better than cloth"
+   ],
+   "answer": "It follows Lotwil's third Study of the Elements: Rock request."
+  }
+ ],
+ "angles": [
+  {
+   "target": "profession:Blacksmithing",
+   "text": "The bronze bracers Lucien wants come from a blacksmith."
+  }
+ ],
+ "keywords": [
+  "badlands",
+  "elemental rock",
+  "enchanted bracers",
+  "lotwil veriatus",
+  "lucien tosselwrench",
+  "patterned bronze bracers"
+ ],
+ "related": [
+  "quest:712",
+  "zone:badlands"
+ ],
+ "attribution": [
+  "Stone Is Better than Cloth"
+ ]
+}

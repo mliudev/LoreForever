@@ -1,0 +1,90 @@
+{
+ "key": "quest:1240",
+ "type": "quest",
+ "name": "The Troll Witchdoctor",
+ "era": "classic",
+ "zone": "dustwallow",
+ "meta": {
+  "ids": [
+   1240
+  ],
+  "level": "35",
+  "faction": "Horde",
+  "start": "Nazeer Bloodpike",
+  "end": "Kin'weelay",
+  "previous": "The Severed Head",
+  "next": "Marg Speaks",
+  "wiki": "The Troll Witchdoctor",
+  "chain": [],
+  "prev_q": [
+   "The Severed Head"
+  ],
+  "category": "Dustwallow Marsh",
+  "chain_tpl": [
+   "Service to the Horde"
+  ],
+  "next_q": [
+   "Marg Speaks"
+  ]
+ },
+ "summary": "Nazeer Bloodpike means to learn what happened around Marg Nighteye's death, and says only the witch-magic of trolls can tell. You carry Marg's head to Kin'weelay at Grom'gol Base Camp in Stranglethorn Vale.",
+ "sections": [
+  {
+   "title": "Witch-Magic of the Trolls",
+   "body": "After the severed head turned up, Nazeer Bloodpike insists the events around Marg's death must be known, and that only troll witch-magic can reveal them. Marg's head is to go to Kin'weelay in Stranglethorn Vale, at Grom'gol Base Camp. Among the Darkspear trolls no witchdoctor is mightier than Kin'weelay, and Nazeer reckons that Kin'weelay, if anyone, can reach Marg's spirit.",
+   "spoiler": 0
+  },
+  {
+   "title": "Words at Grom'gol",
+   "body": "Kin'weelay senses an angry spirit about you as you arrive. Looking at the head, the witchdoctor sees that the orc's spirit is bound in this world, boiling with rage over a duty left undone, and proposes to have words with it.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Why must Marg Nighteye's head be taken to Stranglethorn Vale?",
+   "aliases": [
+    "why go to stranglethorn",
+    "why grom'gol",
+    "why kin'weelay"
+   ],
+   "answer": "Nazeer Bloodpike says the only way to learn the events of Marg's death is the witch-magic of trolls, and Kin'weelay is at Grom'gol Base Camp."
+  },
+  {
+   "q": "Who is Kin'weelay?",
+   "aliases": [
+    "who is the witchdoctor",
+    "witchdoctor kin'weelay"
+   ],
+   "answer": "The mightiest witchdoctor among the Darkspear trolls, found at Grom'gol Base Camp in Stranglethorn Vale."
+  },
+  {
+   "q": "What comes after this step?",
+   "aliases": [
+    "what quest is next",
+    "after the troll witchdoctor"
+   ],
+   "answer": "The next step is Marg Speaks."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "darkspear witchdoctor",
+  "defiant orc head",
+  "grom'gol base camp",
+  "kin'weelay",
+  "marg nighteye",
+  "nazeer bloodpike",
+  "stranglethorn vale"
+ ],
+ "related": [
+  "npc:kin-weelay",
+  "subzone:grom-gol-base-camp",
+  "zone:stranglethorn",
+  "quest:1239",
+  "zone:dustwallow"
+ ],
+ "attribution": [
+  "The Troll Witchdoctor"
+ ]
+}

@@ -1,0 +1,92 @@
+{
+ "key": "quest:3821",
+ "type": "quest",
+ "name": "Dreadmaul Rock",
+ "era": "classic",
+ "zone": "badlands",
+ "meta": {
+  "ids": [
+   3821
+  ],
+  "level": "52",
+  "faction": "Horde",
+  "start": "Thal'trak Proudtusk",
+  "end": "Sha'ni Proudtusk",
+  "previous": "",
+  "next": "",
+  "wiki": "Dreadmaul Rock (quest)",
+  "chain": [
+   "Dreadmaul Rock (quest)",
+   "Krom'Grul (quest)"
+  ],
+  "category": "Burning Steppes"
+ },
+ "summary": "Thal'trak Proudtusk's wife Sha'ni was sent over three weeks ago to look into strange rituals among the Firegut ogres, and nobody has heard from her platoon. Thal'trak cannot leave his post, so he asks you to go and learn what became of her.",
+ "sections": [
+  {
+   "title": "A Husband Without Word",
+   "body": "Sha'ni's orders took her to the Burning Steppes, to look into strange rituals among the Firegut ogres. That was more than three weeks ago. Goretooth says nothing has been heard from anyone in her platoon, and advises Thal'trak to put it behind him and keep to his duty. Thal'trak will not accept that, for it is his wife who is missing. He cannot leave his post, so he asks you to go there and search for her.",
+   "spoiler": 0
+  },
+  {
+   "title": "Sha'ni's Words",
+   "body": "Sha'ni speaks of Thal'trak with pity. The two had planned to move in with her mother and father in the Hinterlands once their tours were over, and now those plans are ruined.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Thal'trak looking for?",
+   "aliases": [
+    "who is missing",
+    "thaltrak wife",
+    "sha'ni proudtusk"
+   ],
+   "answer": "His wife, Sha'ni Proudtusk, who was sent into the Burning Steppes to look into strange rituals among the Firegut ogres and has not been heard from."
+  },
+  {
+   "q": "Why did Sha'ni go to the Burning Steppes?",
+   "aliases": [
+    "shani mission",
+    "firegut ogre ritual",
+    "why did shani leave"
+   ],
+   "answer": "She was sent there more than three weeks ago to look into reports of strange rituals among the Firegut ogres."
+  },
+  {
+   "q": "Why hasn't Thal'trak searched for her himself?",
+   "aliases": [
+    "why cant thaltrak go",
+    "why is thaltrak waiting"
+   ],
+   "answer": "He cannot leave his post, so he asks you to go in his place."
+  },
+  {
+   "q": "What does Goretooth say about the missing platoon?",
+   "aliases": [
+    "goretooth response",
+    "what does goretooth say"
+   ],
+   "answer": "Goretooth has heard nothing from anyone in that platoon, and tells Thal'trak to put it behind him and keep to his duty."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "badlands",
+  "burning steppes",
+  "dreadmaul rock",
+  "firegut ogres",
+  "goretooth",
+  "sha'ni proudtusk",
+  "thal'trak proudtusk"
+ ],
+ "related": [
+  "zone:burningsteppes",
+  "subzone:dreadmaul-rock",
+  "zone:badlands",
+  "zone:hinterlands"
+ ],
+ "attribution": [
+  "Dreadmaul Rock (quest)"
+ ]
+}

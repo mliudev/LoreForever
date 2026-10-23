@@ -1,0 +1,96 @@
+{
+ "key": "quest:687",
+ "type": "quest",
+ "name": "Theldurin the Lost",
+ "era": "classic",
+ "zone": "arathi",
+ "meta": {
+  "ids": [
+   687
+  ],
+  "level": "40",
+  "faction": "Both",
+  "start": "Gerrig Bonegrip, Zaruk",
+  "end": "Theldurin the Lost",
+  "previous": "Myzrael's Allies (Alliance), Myzrael's Allies (Horde)",
+  "next": "",
+  "wiki": "Theldurin the Lost (quest)",
+  "chain": [],
+  "prev_q": [
+   "Myzrael's Allies (Alliance)",
+   "Myzrael's Allies (Horde)"
+  ],
+  "category": "Arathi Highlands",
+  "chain_tpl": [
+   "The Princess Trapped Classic"
+  ]
+ },
+ "summary": "A member of the Twilight's Hammer asks you to find Theldurin the Lost, who was once of their order, lost his mind, and fled with the scroll of Myzrael. Rumor places him in the Badlands.",
+ "sections": [
+  {
+   "title": "The Man Who Stole the Scroll",
+   "body": "Theldurin once belonged to the Twilight's Hammer, until his mind slipped and he turned his back on the order's teachings. As he fled, he took the scroll of Myzrael with him. Those he left behind could not catch him.",
+   "spoiler": 0
+  },
+  {
+   "title": "Rumors of the Badlands",
+   "body": "The order has heard that Theldurin hides in the Badlands, raving and mad. The scroll is needed for the Lady's return, and to get it you must first find the man who took it.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Theldurin the Lost?",
+   "aliases": [
+    "theldurin backstory",
+    "who is theldurin",
+    "theldurin lore"
+   ],
+   "answer": "A former member of the Twilight's Hammer who lost his mind, rejected the order's teachings, and fled with the scroll of Myzrael."
+  },
+  {
+   "q": "Why is the Twilight's Hammer looking for him?",
+   "aliases": [
+    "why find theldurin",
+    "why do cultists want theldurin"
+   ],
+   "answer": "He ran off with the scroll of Myzrael, which the order says must be found to bring the Lady back."
+  },
+  {
+   "q": "Where did Theldurin flee after leaving the order?",
+   "aliases": [
+    "where is theldurin",
+    "theldurin location lore"
+   ],
+   "answer": "The order has only rumors, which place him in the Badlands."
+  },
+  {
+   "q": "What comes directly before this search?",
+   "aliases": [
+    "previous quest theldurin",
+    "prereq for theldurin the lost"
+   ],
+   "answer": "It follows Myzrael's Allies."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "badlands",
+  "gerrig bonegrip",
+  "myzrael",
+  "scroll of myzrael",
+  "theldurin",
+  "theldurin the lost",
+  "twilight's hammer",
+  "zaruk"
+ ],
+ "related": [
+  "npc:theldurin-the-lost",
+  "topic:twilight-s-hammer",
+  "zone:badlands",
+  "zone:arathi"
+ ],
+ "attribution": [
+  "Theldurin the Lost (quest)"
+ ]
+}

@@ -1,0 +1,96 @@
+{
+ "key": "quest:8606",
+ "type": "quest",
+ "name": "Decoy!",
+ "era": "classic",
+ "zone": "tanaris",
+ "meta": {
+  "ids": [
+   8606
+  ],
+  "level": "60",
+  "faction": null,
+  "start": "Narain Soothfancy",
+  "end": "Narain Soothfancy",
+  "previous": "RAnS0m",
+  "next": "",
+  "wiki": "Decoy!",
+  "chain": [],
+  "prev_q": [
+   "RAnS0m"
+  ],
+  "qtype": "Group",
+  "category": "Silithus",
+  "chain_tpl": [
+   "Azuregos's Magical Ledger"
+  ]
+ },
+ "summary": "Narain Soothfancy has a plan for the ransom: a sack of rocks in place of money, and you in place of him. You carry his disguise to the handover spot the booknappers set down in Winterspring. This follows the ransom letter.",
+ "sections": [
+  {
+   "title": "Narain's Scheme",
+   "body": "The ransom note said Narain should make the delivery himself, and he means to, after a fashion. He fills a sack with rocks, looks you up and down, and decides you will do. His special kit holds a turban, a robe and the sack, and you carry it to the handover spot the booknappers set down in Winterspring. When the booknappers show up for the goods, Narain wants them snuffed out, as a lesson in what comes of crossing him.",
+   "spoiler": 0
+  },
+  {
+   "title": "Narain's Verdict",
+   "body": "When you return, Narain admits that he and you may have underestimated these booknappers.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Why does Narain want you to wear a disguise?",
+   "aliases": [
+    "why wear the turban",
+    "why the disguise",
+    "why dress like narain"
+   ],
+   "answer": "The ransom note said Narain should make the delivery himself. His plan is to send you in his place, with the turban and robe from his special kit."
+  },
+  {
+   "q": "Where does the handover take place?",
+   "aliases": [
+    "where is the drop",
+    "where do i take the bag",
+    "drop off point location"
+   ],
+   "answer": "At the handover spot in Winterspring that the booknappers set down, where the sack of rocks is to be left."
+  },
+  {
+   "q": "What is inside the ransom bag?",
+   "aliases": [
+    "what is in the bag",
+    "is it real gold",
+    "what did narain pack"
+   ],
+   "answer": "Narain fills the sack with rocks rather than money."
+  },
+  {
+   "q": "What came before this quest?",
+   "aliases": [
+    "prerequisite quest",
+    "previous quest",
+    "what led to this"
+   ],
+   "answer": "The ransom letter came before, the note demanding money for Narain's stolen book that you carried back to him."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "booknappers",
+  "decoy",
+  "narain soothfancy",
+  "number two",
+  "ransom",
+  "winterspring"
+ ],
+ "related": [
+  "npc:narain-soothfancy",
+  "zone:winterspring",
+  "zone:tanaris"
+ ],
+ "attribution": [
+  "Decoy!"
+ ]
+}

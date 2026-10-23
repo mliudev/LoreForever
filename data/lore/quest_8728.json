@@ -1,0 +1,97 @@
+{
+ "key": "quest:8728",
+ "type": "quest",
+ "name": "The Good News and The Bad News",
+ "era": "classic",
+ "zone": "tanaris",
+ "meta": {
+  "ids": [
+   8728
+  ],
+  "level": "60",
+  "faction": null,
+  "start": "Narain Soothfancy",
+  "end": "Narain Soothfancy",
+  "previous": "Return to Narain",
+  "next": "",
+  "wiki": "The Good News and The Bad News",
+  "chain": [],
+  "category": "Tanaris",
+  "chain_tpl": [
+   "Azuregos's Magical Ledger"
+  ],
+  "prev_q": [
+   "Return to Narain"
+  ]
+ },
+ "summary": "Narain Soothfancy has read through the ledger and has both good news and bad. He is nearly certain he can build an arcanite buoy to your specifications, but he needs a great deal of arcanite, elementium ore and fine gems. This comes once the chicken, the goggles and the second Draconic For Dummies book are all done.",
+ "sections": [
+  {
+   "title": "Good News, Bad News",
+   "body": "Narain Soothfancy reads the ledger in silence, mumbling under his breath. He is ninety-nine percent sure he can make an arcanite buoy that will work as you specified, but says all of that depends on the bad news. For the buoy he wants twenty arcanite bars, ten elementium ore, ten Azerothian diamonds and ten blue sapphires. Bring them, and he will craft it.",
+   "spoiler": 0
+  },
+  {
+   "title": "Narain's Warning",
+   "body": "When you bring everything, Narain says a deal is a deal. He hopes you know what you are getting into, since in his view it is a great deal of bother just to go fishing.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who offers this quest?",
+   "aliases": [
+    "quest giver",
+    "narain soothfancy location",
+    "where is narain"
+   ],
+   "answer": "Narain Soothfancy in Tanaris. He offers it only after the chicken, the Scrying Goggles and the second Draconic For Dummies parts of the work are all complete."
+  },
+  {
+   "q": "What materials does Narain require?",
+   "aliases": [
+    "required items",
+    "mats needed",
+    "what materials do i need"
+   ],
+   "answer": "Narain wants twenty arcanite bars, ten elementium ore, ten Azerothian diamonds and ten blue sapphires."
+  },
+  {
+   "q": "What is Narain building with these materials?",
+   "aliases": [
+    "what is narain making",
+    "why arcanite buoy",
+    "what is the buoy for"
+   ],
+   "answer": "An arcanite buoy. He is ninety-nine percent sure he can make one that works to the specifications you gave him."
+  },
+  {
+   "q": "What comes before this step?",
+   "aliases": [
+    "previous quest",
+    "prerequisites",
+    "what leads to this"
+   ],
+   "answer": "Return to Narain comes before it. Narain also expects the goggles and the second Draconic For Dummies parts of the work to be finished."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "arcanite bar",
+  "arcanite buoy",
+  "azerothian diamond",
+  "blue sapphire",
+  "elementium",
+  "narain soothfancy",
+  "tanaris"
+ ],
+ "related": [
+  "npc:narain-soothfancy",
+  "quest:8587",
+  "zone:tanaris",
+  "quest:8597"
+ ],
+ "attribution": [
+  "The Good News and The Bad News"
+ ]
+}

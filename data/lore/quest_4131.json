@@ -1,0 +1,102 @@
+{
+ "key": "quest:4131",
+ "type": "quest",
+ "name": "The Woodpaw Gnolls",
+ "era": "classic",
+ "zone": "feralas",
+ "meta": {
+  "ids": [
+   4131
+  ],
+  "level": "44",
+  "faction": "Alliance",
+  "start": "Ginro Hearthkindle",
+  "end": "Large Leather Backpacks",
+  "previous": "Psychometric Reading",
+  "next": "The Writhing Deep (quest)",
+  "wiki": "The Woodpaw Gnolls",
+  "chain": [],
+  "prev_q": [
+   "Psychometric Reading"
+  ],
+  "next_q": [
+   "The Writhing Deep (quest)"
+  ],
+  "category": "Feralas",
+  "chain_tpl": [
+   "The Missing Courier"
+  ]
+ },
+ "summary": "After Quintis's vision, Ginro Hearthkindle sends you to search the camps of the Woodpaw gnolls in southern Feralas for evidence of the courier or the courier's belongings. Ginro doubts the gnolls were Raschal's undoing, but they are the best place to start.",
+ "sections": [
+  {
+   "title": "Where to Start Looking",
+   "body": "Ginro Hearthkindle allows that the Woodpaw, whom Ginro puts in quotation marks as friends, may have done for Raschal in the end, though something tells Ginro otherwise. Still, they are the best place to start. Ginro has no clearer plan than searching their camps, and knows gnolls keep what they scavenge and fight over it, so they may have come across the backpacks Quintis mentioned. In past searches Ginro steered clear of open fighting, but with the vision to go on now says to rip into them. The camps lie in southern Feralas.",
+   "spoiler": 0
+  },
+  {
+   "title": "At the Camps",
+   "body": "Two large leather backpacks are tacked to a nearby tree, and each carries a small insignia of Feathermoon Stronghold on its front. They are in the Lower Wilds.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is being searched for?",
+   "aliases": [
+    "who is missing",
+    "woodpaw gnolls search target",
+    "who is raschal"
+   ],
+   "answer": "Raschal, the courier. Ginro Hearthkindle wants evidence of the courier or the courier's belongings."
+  },
+  {
+   "q": "Why search the Woodpaw gnoll camps?",
+   "aliases": [
+    "why woodpaw gnolls",
+    "why kill gnolls",
+    "why search gnoll camps"
+   ],
+   "answer": "Ginro says they are the best place to start. Gnolls keep what they scavenge and fight over it, so they may have come across the backpacks Quintis mentioned."
+  },
+  {
+   "q": "Where did the clue about the backpacks come from?",
+   "aliases": [
+    "who mentioned backpacks",
+    "quint vision backpacks",
+    "how does ginro know about backpacks"
+   ],
+   "answer": "Quintis Jonespyre mentioned them in the vision of Raschal taking two large leather backpacks from the boat."
+  },
+  {
+   "q": "Where are the Woodpaw camps?",
+   "aliases": [
+    "woodpaw gnoll location",
+    "where are gnoll camps feralas",
+    "woodpaw camps map"
+   ],
+   "answer": "In southern Feralas."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "feathermoon stronghold",
+  "feralas",
+  "ginro hearthkindle",
+  "leather backpacks",
+  "lower wilds",
+  "quintis jonespyre",
+  "raschal",
+  "woodpaw gnolls"
+ ],
+ "related": [
+  "quest:4130",
+  "zone:feralas",
+  "subzone:feathermoon-stronghold",
+  "subzone:lower-wilds",
+  "topic:gnoll"
+ ],
+ "attribution": [
+  "The Woodpaw Gnolls"
+ ]
+}

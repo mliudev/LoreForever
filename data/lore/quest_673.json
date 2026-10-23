@@ -1,0 +1,98 @@
+{
+ "key": "quest:673",
+ "type": "quest",
+ "name": "Foul Magics",
+ "era": "classic",
+ "zone": "arathi",
+ "meta": {
+  "ids": [
+   673
+  ],
+  "level": "40",
+  "faction": "Horde",
+  "start": "Tor'gan",
+  "end": "Tor'gan",
+  "previous": "Foul Magics",
+  "next": "",
+  "wiki": "Foul Magics (2)",
+  "chain": [
+   "Foul Magics",
+   "Foul Magics (2)"
+  ],
+  "category": "Arathi Highlands",
+  "prev_q": [
+   "Foul Magics"
+  ]
+ },
+ "summary": "Tor'gan in Hammerfall is sure that a powerful warlock lives within the walls of Stromgarde and uses an arcane relic to summon demons in large numbers. Following the first part of Foul Magics, he sends you to kill the warlock and bring back the relic.",
+ "sections": [
+  {
+   "title": "A Warlock in Stromgarde",
+   "body": "Tor'gan is certain that a warlock lives within Stromgarde's walls. Now and then the warlock uses an arcane relic to call up terrible demons in great numbers. The burning in Tor'gan's blood grows by the day. He wants the warlock found and killed, and whatever magical object is on the body brought to him, so that he can destroy it and keep its power from tainting the land. The warlock is Marez Cowl, and the object is a Befouled Bloodstone Orb.",
+   "spoiler": 0
+  },
+  {
+   "title": "What the Orb Recalls",
+   "body": "With the orb destroyed, Tor'gan expects his restless nights to turn to peaceful sleep. To him it recalls the dreadful hold demons once had over the orcs, back before Hellscream freed them from their curse.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who sends you to hunt the warlock?",
+   "aliases": [
+    "who gives foul magics",
+    "foul magics quest giver",
+    "torgan quest"
+   ],
+   "answer": "Tor'gan in Hammerfall sends you into Stromgarde to find the warlock and take the magical object they carry."
+  },
+  {
+   "q": "Where is the warlock located?",
+   "aliases": [
+    "where is marez cowl",
+    "stromgarde warlock location",
+    "where to find marez cowl"
+   ],
+   "answer": "Marez Cowl is within the walls of Stromgarde, outside the Keep itself and to the west, hiding behind a building. You can hear her channeling a spell."
+  },
+  {
+   "q": "What relic are you sent to retrieve?",
+   "aliases": [
+    "what item does torgan want",
+    "befouled bloodstone orb",
+    "foul magics item"
+   ],
+   "answer": "Marez Cowl's Befouled Bloodstone Orb, the magical object Tor'gan wants brought to him so he can destroy it."
+  },
+  {
+   "q": "Why does Tor'gan want the warlock stopped?",
+   "aliases": [
+    "why destroy the orb",
+    "torgan motivation",
+    "why stop the warlock"
+   ],
+   "answer": "The warlock has summoned terrible demons in large numbers. Tor'gan wants the source of that power removed and the orb destroyed so it cannot taint the land any longer."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "arathi highlands",
+  "bloodstone",
+  "hammerfall",
+  "marez cowl",
+  "stromgarde",
+  "torgan",
+  "warlock"
+ ],
+ "related": [
+  "quest:671",
+  "subzone:hammerfall",
+  "subzone:stromgarde-keep",
+  "topic:warlock",
+  "zone:arathi"
+ ],
+ "attribution": [
+  "Foul Magics (2)"
+ ]
+}

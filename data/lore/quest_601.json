@@ -1,0 +1,114 @@
+{
+ "key": "quest:601",
+ "type": "quest",
+ "name": "Water Elementals",
+ "era": "classic",
+ "zone": "stranglethorn",
+ "meta": {
+  "ids": [
+   601
+  ],
+  "level": "37",
+  "faction": "Alliance",
+  "start": "Baron Revilgaz",
+  "end": "Baron Revilgaz",
+  "previous": "The Stone of the Tides (quest)",
+  "next": "Magical Analysis",
+  "wiki": "Water Elementals (Classic)",
+  "chain": [],
+  "prev_q": [
+   "The Stone of the Tides (quest)"
+  ],
+  "next_q": [
+   "Magical Analysis"
+  ],
+  "category": "Stranglethorn Vale",
+  "chain_tpl": [
+   "Stone of the Tides"
+  ]
+ },
+ "summary": "Following discoveries regarding the Stone of the Tides, Baron Revilgaz seeks a way to counteract the artifact's curse. He sends adventurers back to the island to harvest bracers from conjured water elementals so their magical residue can be inspected by experts.",
+ "sections": [
+  {
+   "title": "Curbing the Curse",
+   "body": "Believing the water elementals were summoned by the goblin wizard Gazban, Baron Revilgaz suspects their magical residue holds clues to dealing with the Stone of the Tides. The stone is said to curse anyone who wields it, causing the bearer to drift in and out of reality. To find a countermeasure, Revilgaz directs you back to the island off the coast to gather elemental bracers that might be scrutinized by the scholarly mages of Dalaran.",
+   "spoiler": 0
+  },
+  {
+   "title": "Booty Bay's Master",
+   "body": "Upon receiving the bracers, Revilgaz admits he lacks the specialized expertise to tell whether any of them will be of use. Rather than travel to Dalaran himself\u2014he will not leave Booty Bay just to chat with tiresome old mages\u2014he sends you north to have a mage look at them.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who wants the water elemental bracers?",
+   "aliases": [
+    "who gives water elementals quest",
+    "baron revilgaz quest",
+    "who wants bracers"
+   ],
+   "answer": "Baron Revilgaz, leader of the Blackwater Raiders in Booty Bay, asks for the bracers to investigate the magic surrounding the Stone of the Tides."
+  },
+  {
+   "q": "Why does Baron Revilgaz need elemental bracers?",
+   "aliases": [
+    "why collect bracers",
+    "water elemental bracers purpose",
+    "curse of the stone of the tides"
+   ],
+   "answer": "He hopes that studying the magical residue on the bracers can reveal a method to counteract the curse of the Stone of the Tides, which causes its bearer to fade in and out of existence."
+  },
+  {
+   "q": "Who summoned these water elementals?",
+   "aliases": [
+    "who summoned elementals",
+    "gazban lore",
+    "goblin wizard"
+   ],
+   "answer": "Baron Revilgaz believes they were conjured by Gazban, a goblin wizard said to have found the Stone of the Tides."
+  },
+  {
+   "q": "Where does this task lead next?",
+   "aliases": [
+    "what is after water elementals",
+    "next quest",
+    "where do bracers go"
+   ],
+   "answer": "Next comes Magical Analysis: Revilgaz sends the bracers north to Dalaran so a mage can examine their residue."
+  },
+  {
+   "q": "Why doesn't Revilgaz take the bracers to Dalaran himself?",
+   "aliases": [
+    "why doesnt revilgaz go",
+    "revilgaz dalaran",
+    "why stay in booty bay"
+   ],
+   "answer": "He has no wish to leave Booty Bay just to chat with tiresome old mages, and he insists he has nothing to fear from would-be rivals."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "booty bay",
+  "bracers",
+  "curse",
+  "dalaran",
+  "gazban",
+  "revilgaz",
+  "stone of the tides",
+  "water elemental"
+ ],
+ "related": [
+  "quest:578",
+  "quest:602",
+  "npc:baron-revilgaz",
+  "subzone:booty-bay",
+  "subzone:dalaran",
+  "topic:mage",
+  "topic:goblin",
+  "zone:stranglethorn"
+ ],
+ "attribution": [
+  "Water Elementals (Classic)"
+ ]
+}

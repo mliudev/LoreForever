@@ -1,0 +1,113 @@
+{
+ "key": "quest:584",
+ "type": "quest",
+ "name": "Bloodscalp Clan Heads",
+ "era": "classic",
+ "zone": "stranglethorn",
+ "meta": {
+  "ids": [
+   584
+  ],
+  "level": "41",
+  "faction": "Horde",
+  "start": "Nimboya",
+  "end": "Bubbling Cauldron",
+  "previous": "Headhunting (Classic)",
+  "next": "Speaking with Gan'zulah, Speaking with Nezzliok (Classic)",
+  "wiki": "Bloodscalp Clan Heads",
+  "chain": [],
+  "prev_q": [
+   "Headhunting (Classic)"
+  ],
+  "next_q": [
+   "Speaking with Gan'zulah",
+   "Speaking with Nezzliok (Classic)"
+  ],
+  "category": "Stranglethorn Vale",
+  "chain_tpl": [
+   "Fate of Yenniku"
+  ]
+ },
+ "summary": "Following the sorting of trophies gathered in the jungle, Nimboya confirms that the missing young troll Yenniku was not among them. To discover the truth of Yenniku's fate, the Darkspear seek to compel answers from the leaders of the rival Bloodscalp tribe.",
+ "sections": [
+  {
+   "title": "Demanding Answers from the Dead",
+   "body": "After the earlier hunt proved Yenniku was not among the fallen Bloodscalp trophies, Nimboya looks to higher leadership for answers. The Bloodscalp chief, Gan'zulah, and his witch doctor, Nezzliok the Dire, are enemies of the Darkspear tribe and would never talk willingly. Nimboya means to force the truth from their dead lips, bringing their heads to the cauldron at Grom'gol Base Camp to make them talk.",
+   "spoiler": 0
+  },
+  {
+   "title": "Into Zul'Kunda",
+   "body": "Both Bloodscalp leaders dwell deep within the ruins of Zul'Kunda in northwestern Stranglethorn Vale. Claiming their heads and casting them into the boiling brew is how Nimboya means to make them talk about Yenniku.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Why does Nimboya want the heads of Gan'zulah and Nezzliok?",
+   "aliases": [
+    "why kill bloodscalp leaders",
+    "why severed heads",
+    "nimboya motivation"
+   ],
+   "answer": "Yenniku is still missing, and Nimboya believes only the Bloodscalp chief and his witch doctor hold the truth. Because these leaders are enemies of the Darkspear and would never talk willingly, Nimboya plans to force the truth from their dead lips with the cauldron."
+  },
+  {
+   "q": "Where are Gan'zulah and Nezzliok located?",
+   "aliases": [
+    "where is ganzulah",
+    "where is nezzliok",
+    "find bloodscalp chiefs",
+    "zulkunda location"
+   ],
+   "answer": "Both troll leaders reside deep within Zul'Kunda, a ruin in northwestern Stranglethorn Vale, close to the beach."
+  },
+  {
+   "q": "What happens once the heads are delivered?",
+   "aliases": [
+    "where do the heads go",
+    "what do i do with the heads",
+    "bubbling cauldron turn in"
+   ],
+   "answer": "The severed heads are placed directly into the bubbling cauldron at Grom'gol Base Camp, so the two leaders can be made to talk."
+  },
+  {
+   "q": "How does this connect to the search for Yenniku?",
+   "aliases": [
+    "yenniku questline",
+    "hunt for yenniku connection"
+   ],
+   "answer": "This investigation began with the search for young Yenniku. After earlier headhunting proved he was not among the common dead, questioning the Bloodscalp leaders is the next effort to track his whereabouts."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Troll",
+   "text": "For the Darkspear, confronting the Bloodscalp chiefs means facing the leaders of a tribe that is their enemy."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "Horde fighters at Grom'gol Base Camp lend their strength to the Darkspear search for Yenniku."
+  }
+ ],
+ "keywords": [
+  "bloodscalp",
+  "cauldron",
+  "darkspear",
+  "gan'zulah",
+  "grom'gol",
+  "nezzliok",
+  "nimboya",
+  "yenniku",
+  "zul'kunda"
+ ],
+ "related": [
+  "subzone:grom-gol-base-camp",
+  "quest:581",
+  "topic:darkspear-tribe",
+  "topic:troll",
+  "zone:stranglethorn"
+ ],
+ "attribution": [
+  "Bloodscalp Clan Heads"
+ ]
+}

@@ -1,0 +1,106 @@
+{
+ "key": "quest:618",
+ "type": "quest",
+ "name": "Facing Negolash",
+ "era": "classic",
+ "zone": "stranglethorn",
+ "meta": {
+  "ids": [
+   618
+  ],
+  "level": "42",
+  "faction": "Both",
+  "start": "Sprogger",
+  "end": "Captain Hecklebury Smotts",
+  "previous": "The Captain's Cutlass",
+  "next": "",
+  "wiki": "Facing Negolash",
+  "chain": [
+   "The Monogrammed Sash",
+   "The Captain's Cutlass",
+   "Facing Negolash"
+  ],
+  "prev_q": [
+   "The Captain's Cutlass"
+  ],
+  "qtype": "Group",
+  "category": "Stranglethorn Vale"
+ },
+ "summary": "Following the trail of Captain Hecklebury Smotts' lost weapon, Sprogger reveals a plan to bait the giant Negolash using the creature's favorite delicacies. By staging a banquet in a wrecked lifeboat on the coast of Stranglethorn Vale, adventurers can confront the brute and reclaim the captain's stolen cutlass.",
+ "sections": [
+  {
+   "title": "A Hungry Giant",
+   "body": "When giants smashed Captain Smotts' vessel, one brute named Negolash headed straight for the galley. Unlike his brethren, he wasn't hungry for the crew. Sprogger saw that Negolash wanted wine and Barbecued Buzzard Wings, Sprogger's own specialty, whose recipe he had to travel to the Badlands to get.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Trap in the Lifeboat",
+   "body": "To lure the giant, Sprogger devises an irresistible feast. Adventurers must haul ten helpings of the wings alongside five bottles of wine into the captain's ruined lifeboat down the southeastern shoreline. Drawn by the smell of the banquet, Negolash can be cornered, slain, and stripped of the captain's prize blade.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Negolash?",
+   "aliases": [
+    "what is negolash",
+    "who is the giant",
+    "negolash lore"
+   ],
+   "answer": "Negolash is a hungry giant who helped wreck Captain Smotts' ship. Instead of hunting the sailors, he ransacked the vessel's galley for food and drink."
+  },
+  {
+   "q": "Why does Sprogger know how to lure Negolash?",
+   "aliases": [
+    "how to bait negolash",
+    "why buzzard wings",
+    "negolash food"
+   ],
+   "answer": "Sprogger witnessed the giant raid his kitchen during the shipwreck. Negolash showed an obsession with Sprogger's Barbecued Buzzard Wings and bottles of Junglevine Wine, making those exact provisions the ideal bait."
+  },
+  {
+   "q": "Where does the confrontation take place?",
+   "aliases": [
+    "where is negolash",
+    "where to place the food",
+    "lifeboat location"
+   ],
+   "answer": "The banquet must be placed in Captain Smotts' old ruined lifeboat, which sits stranded along the coast southeast of Sprogger's position."
+  },
+  {
+   "q": "What came before this task?",
+   "aliases": [
+    "what quest comes first",
+    "facing negolash previous quest",
+    "prereqs for negolash"
+   ],
+   "answer": "This confrontation is the conclusion of a trail that begins with The Monogrammed Sash and continues through The Captain's Cutlass."
+  }
+ ],
+ "angles": [
+  {
+   "target": "profession:Cooking",
+   "text": "The entire plan relies on Sprogger's culinary craft, specifically a specialized recipe for Barbecued Buzzard Wings that he traveled all the way to the Badlands to learn."
+  }
+ ],
+ "keywords": [
+  "badlands",
+  "buzzard wings",
+  "captain smotts",
+  "junglevine wine",
+  "negolash",
+  "smotts' cutlass",
+  "sprogger",
+  "stranglethorn vale"
+ ],
+ "related": [
+  "quest:8553",
+  "quest:619",
+  "quest:8552",
+  "zone:stranglethorn",
+  "zone:badlands"
+ ],
+ "attribution": [
+  "Facing Negolash"
+ ]
+}

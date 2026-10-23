@@ -13,13 +13,13 @@
  "summary": "Whitestone Oak Lumber is a sturdy crafting timber sourced from the subterranean shipyards beneath Moonbrook. Prized for its strength, it serves as a critical shaft material for sacred armaments forged by Alliance master smiths.",
  "sections": [
   {
-   "title": "Timber of the Under-Docks",
-   "body": "Found deep inside the labyrinthine Deadmines of Westfall, Whitestone Oak is shaped by Goblin Woodcarvers constructing the Defias Brotherhood's clandestine war fleet. Its dense, resilient grain makes it ideally suited to bear structural strain and high-impact wear, drawing the interest of seasoned armorers who require more than common ash or pine for ceremonial and martial craft.",
-   "spoiler": 0
-  },
-  {
    "title": "A Sacred Haft",
    "body": "Outside Ironforge, the smith Jordan Stilwell demands Whitestone Oak Lumber to construct a weapon befitting a true champion of the Light. Joined with a purified Kor gem and refined metals, this lumber provides the balanced, unyielding haft needed to withstand the holy energies channeled during the Test of Righteousness.",
+   "spoiler": 1
+  },
+  {
+   "title": "Timber of the Under-Docks",
+   "body": "Found deep inside the labyrinthine Deadmines of Westfall, Whitestone Oak is shaped by Goblin Woodcarvers constructing the Defias Brotherhood's clandestine war fleet. Its dense, resilient grain makes it ideally suited to bear structural strain and high-impact wear, drawing the interest of seasoned armorers who require more than common ash or pine for ceremonial and martial craft.",
    "spoiler": 1
   }
  ],

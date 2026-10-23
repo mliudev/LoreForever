@@ -1,0 +1,112 @@
+{
+ "key": "quest:598",
+ "type": "quest",
+ "name": "Split Bone Necklace",
+ "era": "classic",
+ "zone": "stranglethorn",
+ "meta": {
+  "ids": [
+   598
+  ],
+  "level": "42",
+  "faction": "Horde",
+  "start": "Kin'weelay",
+  "end": "Kin'weelay",
+  "previous": "Bloody Bone Necklaces",
+  "next": "",
+  "wiki": "Split Bone Necklace (quest)",
+  "chain": [],
+  "category": "Stranglethorn Vale",
+  "prev_q": [
+   "Bloody Bone Necklaces"
+  ]
+ },
+ "summary": "Kin'weelay at Grom'gol Base Camp calls upon Horde allies to hunt the Skullsplitter tribe living to the southeast. Although the Darkspears left Stranglethorn Vale behind, their ancient conflict with these jungle rivals remains unresolved. Returning with twenty-five split bone trophies aids the Darkspears in their war and earns their friendship.",
+ "sections": [
+  {
+   "title": "An Unbroken Feud",
+   "body": "Following the collection of Bloodscalp trophies, Kin'weelay turns his attention toward another longstanding enemy. The Skullsplitter tribe dwells to the southeast of Grom'gol Base Camp, where they have clashed with the Darkspears across many years. Even though the Darkspears no longer reside within the jungles of Stranglethorn Vale, they remain bound to this enduring war.",
+   "spoiler": 0
+  },
+  {
+   "title": "Trophies of War",
+   "body": "To earn the friendship and respect of the Darkspear tribe, an adventurer must march into Skullsplitter territory and claim twenty-five of their distinctive split bone necklaces. Kin'weelay takes pride in seeing these hostile trolls cut down like young saplings by a basilisk, counting every retrieved trophy as a victory for his people.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who offers this hunt, and where is he located?",
+   "aliases": [
+    "who gives split bone necklace",
+    "kinweelay location",
+    "quest giver split bone necklace"
+   ],
+   "answer": "Kin'weelay offers the hunt from Grom'gol Base Camp, a Horde outpost on the western coast of Stranglethorn Vale."
+  },
+  {
+   "q": "What came before this task?",
+   "aliases": [
+    "split bone necklace prerequisite",
+    "prior quest to split bone necklace",
+    "previous step"
+   ],
+   "answer": "This assignment follows Bloody Bone Necklaces, an earlier hunt wherein Kin'weelay tasked adventurers with collecting trophies from the Bloodscalp tribe."
+  },
+  {
+   "q": "Why do the Darkspears fight the Skullsplitters if they left Stranglethorn Vale?",
+   "aliases": [
+    "why darkspears hate skullsplitters",
+    "skullsplitter war lore",
+    "darkspear skullsplitter conflict"
+   ],
+   "answer": "The Darkspears and Skullsplitters waged war against each other for years in the jungle. Even though the Darkspear tribe has migrated away from Stranglethorn Vale, Kin'weelay explains that they remain bound to the conflict and intend to see their foes regret ever starting it."
+  },
+  {
+   "q": "Where can the Skullsplitter tribe be found?",
+   "aliases": [
+    "skullsplitter location",
+    "where are skullsplitters",
+    "skullsplitter camps"
+   ],
+   "answer": "The Skullsplitters inhabit territories located to the southeast of Grom'gol Base Camp in Stranglethorn Vale."
+  },
+  {
+   "q": "What proof does Kin'weelay demand from the hunt?",
+   "aliases": [
+    "what items needed for kinweelay",
+    "split bone necklace item",
+    "how many necklaces"
+   ],
+   "answer": "Kin'weelay requires twenty-five Split Bone Necklaces taken directly from fallen Skullsplitter trolls."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Horde",
+   "text": "Aiding Kin'weelay in Grom'gol Base Camp in the war against the Skullsplitters earns the friendship of the Darkspears."
+  },
+  {
+   "target": "race:Troll",
+   "text": "For Darkspear trolls, taking trophies from the Skullsplitters carries on a long war that did not end when the tribe left Stranglethorn."
+  }
+ ],
+ "keywords": [
+  "darkspear",
+  "grom'gol base camp",
+  "kin'weelay",
+  "skullsplitter",
+  "split bone necklace",
+  "stranglethorn vale"
+ ],
+ "related": [
+  "quest:596",
+  "npc:kin-weelay",
+  "subzone:grom-gol-base-camp",
+  "topic:troll",
+  "zone:stranglethorn"
+ ],
+ "attribution": [
+  "Split Bone Necklace (quest)"
+ ]
+}

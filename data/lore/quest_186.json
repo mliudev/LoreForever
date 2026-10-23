@@ -1,0 +1,82 @@
+{
+ "key": "quest:186",
+ "type": "quest",
+ "name": "Tiger Mastery",
+ "era": "classic",
+ "zone": "stranglethorn",
+ "meta": {
+  "ids": [
+   186
+  ],
+  "level": "33",
+  "faction": null,
+  "start": "Ajeck Rouack",
+  "end": "Ajeck Rouack",
+  "previous": "Tiger Mastery (Classic)",
+  "next": "Tiger Mastery (3)",
+  "wiki": "Tiger Mastery (2)",
+  "chain": [],
+  "prev_q": [
+   "Tiger Mastery (Classic)"
+  ],
+  "next_q": [
+   "Tiger Mastery (3)"
+  ],
+  "category": "Stranglethorn Vale",
+  "chain_tpl": [
+   "Big Game Hunter (Classic)"
+  ]
+ },
+ "summary": "At Nesingwary's Expedition in northern Stranglethorn Vale, Ajeck Rouack escalates his hunting trials. Having seen your early promise with young stalkers, he now sends you into the jungle to fell mature Stranglethorn Tigers.",
+ "sections": [
+  {
+   "title": "Hunting the Mature Cats",
+   "body": "Following your initial success against younger predators, Ajeck Rouack seeks to test your growing skills against more seasoned beasts. She directs you back out into the wilds of Stranglethorn Vale to hunt down ten mature Stranglethorn Tigers before you can pursue even greater challenges.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who assigns this hunt?",
+   "aliases": [
+    "who gives tiger mastery",
+    "ajeck rouack location",
+    "who gives this quest"
+   ],
+   "answer": "Ajeck Rouack, a hunter stationed at Nesingwary's Expedition in northern Stranglethorn Vale, issues the trial."
+  },
+  {
+   "q": "What beasts are you tasked with hunting?",
+   "aliases": [
+    "what tigers do i kill",
+    "which cats",
+    "tiger mastery targets"
+   ],
+   "answer": "You are challenged to track and slay ten mature Stranglethorn Tigers roaming the surrounding jungle."
+  },
+  {
+   "q": "Where does this trial fit in the hunt?",
+   "aliases": [
+    "what comes before tiger mastery 2",
+    "what is next",
+    "tiger mastery chain"
+   ],
+   "answer": "This trial follows the initial Tiger Mastery hunt and leads directly into a third stage under Ajeck Rouack's guidance."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "ajeck rouack",
+  "nesingwary's expedition",
+  "stranglethorn tigers",
+  "stranglethorn vale",
+  "tiger mastery"
+ ],
+ "related": [
+  "subzone:nesingwary-s-expedition",
+  "zone:stranglethorn"
+ ],
+ "attribution": [
+  "Tiger Mastery (2)"
+ ]
+}

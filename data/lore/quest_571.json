@@ -1,0 +1,103 @@
+{
+ "key": "quest:571",
+ "type": "quest",
+ "name": "Mok'thardin's Enchantment",
+ "era": "classic",
+ "zone": "stranglethorn",
+ "meta": {
+  "ids": [
+   571
+  ],
+  "level": "41",
+  "faction": "Horde",
+  "start": "Far Seer Mok'thardin",
+  "end": "Far Seer Mok'thardin",
+  "previous": "Mok'thardin's Enchantment (3)",
+  "next": "Mok'thardin's Enchantment (4)",
+  "wiki": "Mok'thardin's Enchantment (2)",
+  "chain": [],
+  "prev_q": [
+   "Mok'thardin's Enchantment (3)"
+  ],
+  "next_q": [
+   "Mok'thardin's Enchantment (4)"
+  ],
+  "category": "Stranglethorn Vale",
+  "chain_tpl": [
+   "Mok'thardin's Enchantment"
+  ]
+ },
+ "summary": "Far Seer Mok'thardin in Grom'gol Base Camp needs a sturdy magical binding to hold together the Stranglethorn trophies collected so far. To bind the feathers, claws, and fang securely, he requires an aged sinew harvested from the elder primates roaming southern Stranglethorn Vale.",
+ "sections": [
+  {
+   "title": "A Magical Tether",
+   "body": "Having gathered feathers, claws, and a pristine fang, Far Seer Mok'thardin reaches the next stage of his ritual. To fasten these potent relics together, he requires a magical tether of exceptional toughness. Only the aged sinew of an Elder Mistvale Gorilla will suffice to endure the magic he intends to weave.",
+   "spoiler": 0
+  },
+  {
+   "title": "Hunting the Mistvale Elders",
+   "body": "The beasts carrying the necessary sinew forage in the jungles east of Booty Bay. Mok'thardin warns that only a flawless sinew will do, meaning hunters may need to track and fell several of the elder gorillas before securing a specimen fit for the enchantment.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is the aged gorilla sinew needed for?",
+   "aliases": [
+    "why sinew",
+    "what does mokthardin need the sinew for",
+    "gorilla sinew purpose"
+   ],
+   "answer": "Far Seer Mok'thardin requires it as a magical tether to hold the previously gathered feathers, claws, and pristine fang securely together for his enchantment."
+  },
+  {
+   "q": "Where are the Elder Mistvale Gorillas located?",
+   "aliases": [
+    "where to find elder mistvale gorilla",
+    "mistvale gorilla location",
+    "where are gorillas"
+   ],
+   "answer": "Elder Mistvale Gorillas forage in the southern jungles of Stranglethorn Vale, specifically to the east of Booty Bay."
+  },
+  {
+   "q": "Who requests this hunt?",
+   "aliases": [
+    "who gives quest",
+    "quest giver"
+   ],
+   "answer": "Far Seer Mok'thardin, an orc spiritual guide stationed at Grom'gol Basecamp in Stranglethorn Vale, asks for the sinew."
+  },
+  {
+   "q": "Where does this fit into Mok'thardin's enchantment work?",
+   "aliases": [
+    "what comes before this",
+    "chain order",
+    "prerequisite"
+   ],
+   "answer": "This hunt comes after the gathering of the claws and the pristine fang, and Far Seer Mok'thardin's enchantment work carries on afterward."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Horde",
+   "text": "Far Seer Mok'thardin aids Horde adventurers out of Grom'gol Basecamp, crafting potent jungle magic to bolster their standing in Stranglethorn Vale."
+  }
+ ],
+ "keywords": [
+  "aged gorilla sinew",
+  "booty bay",
+  "gorilla",
+  "grom'gol",
+  "mistvale",
+  "mok'thardin",
+  "sinew",
+  "stranglethorn"
+ ],
+ "related": [
+  "zone:stranglethorn",
+  "subzone:booty-bay"
+ ],
+ "attribution": [
+  "Mok'thardin's Enchantment (2)"
+ ]
+}

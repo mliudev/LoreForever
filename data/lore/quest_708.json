@@ -1,0 +1,81 @@
+{
+ "key": "quest:708",
+ "type": "quest",
+ "name": "The Black Box",
+ "era": "classic",
+ "zone": "badlands",
+ "meta": {
+  "ids": [
+   708
+  ],
+  "level": "40",
+  "faction": "Alliance",
+  "start": "Corroded Black Box",
+  "end": "Pilot Longbeard",
+  "previous": "",
+  "next": "",
+  "wiki": "The Black Box",
+  "chain": [],
+  "category": "Badlands"
+ },
+ "summary": "A metallic black box has turned up in a giant condor's stomach in the Badlands, its surface heavily pitted as if left in acid. Stamped on its underside, beneath a symbol, is a mark reading Engine #19 - Ironforge Siege Brigade.",
+ "sections": [
+  {
+   "title": "Pulled from a Condor",
+   "body": "The pitting suggests the box sat inside the condor for ages while acid ate at the metal. Turn it over and a symbol is stamped on the bottom, with Engine #19 - Ironforge Siege Brigade written below. You are to carry it to the Hall of Arms in Ironforge, to Pilot Longbeard.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Where did the corroded black box come from?",
+   "aliases": [
+    "where did the box come from",
+    "how did the box get here",
+    "black box origin"
+   ],
+   "answer": "It was in the stomach of a giant condor in the Badlands, and seems to have lain there a very long while."
+  },
+  {
+   "q": "What markings are stamped on the box?",
+   "aliases": [
+    "what does the box say",
+    "markings on the black box",
+    "box inscription"
+   ],
+   "answer": "A symbol is stamped on the bottom, and beneath it is written Engine #19 - Ironforge Siege Brigade."
+  },
+  {
+   "q": "Who is supposed to receive the box?",
+   "aliases": [
+    "who gets the box",
+    "where does the black box go",
+    "who do i bring the box to"
+   ],
+   "answer": "Pilot Longbeard, at the Hall of Arms in Ironforge."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Alliance",
+   "text": "The box bears Ironforge's markings, and its trail ends in Ironforge."
+  }
+ ],
+ "keywords": [
+  "badlands",
+  "black box",
+  "corroded black box",
+  "giant condor",
+  "hall of arms",
+  "ironforge siege brigade",
+  "pilot longbeard"
+ ],
+ "related": [
+  "npc:pilot-longbeard",
+  "zone:ironforge",
+  "zone:badlands"
+ ],
+ "attribution": [
+  "The Black Box"
+ ]
+}

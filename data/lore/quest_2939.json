@@ -1,0 +1,98 @@
+{
+ "key": "quest:2939",
+ "type": "quest",
+ "name": "In Search of Knowledge",
+ "era": "classic",
+ "zone": "feralas",
+ "meta": {
+  "ids": [
+   2939
+  ],
+  "level": "47",
+  "faction": "Alliance",
+  "start": "Troyas Moonbreeze",
+  "end": "Daryn Lightwind",
+  "previous": "",
+  "next": "Feralas: A History (quest)",
+  "wiki": "In Search of Knowledge",
+  "chain": [],
+  "next_q": [
+   "Feralas: A History (quest)"
+  ],
+  "category": "Feralas",
+  "chain_tpl": [
+   "In Search of Knowledge"
+  ]
+ },
+ "summary": "Troyas Moonbreeze found what looks like an ordinary stave in the rubble of the Feralas ruins, but he cannot shake the feeling there is more to it. He sends you to talk to his colleague Daryn Lightwind in Rut'theran Village.",
+ "sections": [
+  {
+   "title": "An Ordinary Stave",
+   "body": "Troyas Moonbreeze says the Feralas ruins are dangerous but have much to tell about what has happened there. A few days ago, searching the rubble to the south, he came upon a stave that seems ordinary, yet he cannot shake the feeling there is more to it. He and Angelas have pored over their books without finding a word about it.",
+   "spoiler": 0
+  },
+  {
+   "title": "A Colleague in Darnassus",
+   "body": "Troyas has a colleague in Darnassus who may be able to say what the stave is. He asks you to go and talk to her, Daryn Lightwind, in Rut'theran Village.",
+   "spoiler": 0
+  },
+  {
+   "title": "Daryn's Reply",
+   "body": "Daryn grumbles that Troyas keeps pestering her with wild notions that he has found something important. In her view, the ogres or harpies living in those ruins now probably carried off anything truly valuable long ago. You are welcome to look around, she adds, though she doubts any books there will help.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who sends you to Daryn Lightwind?",
+   "aliases": [
+    "who starts in search of knowledge",
+    "quest giver"
+   ],
+   "answer": "Troyas Moonbreeze, who wants to know what the stave he found in the Feralas ruins really is."
+  },
+  {
+   "q": "What did Troyas find?",
+   "aliases": [
+    "what did troyas find",
+    "feralas stave"
+   ],
+   "answer": "A stave that seems ordinary, found in the rubble to the south of where Troyas works. He feels there is something more to it."
+  },
+  {
+   "q": "Where is Daryn Lightwind?",
+   "aliases": [
+    "daryn lightwind location",
+    "where is daryn"
+   ],
+   "answer": "In Rut'theran Village. Troyas describes her as a colleague in Darnassus."
+  },
+  {
+   "q": "Why does Troyas send you to Daryn?",
+   "aliases": [
+    "why visit daryn lightwind",
+    "why darnassus"
+   ],
+   "answer": "He and Angelas could find nothing about the stave in their books, and Daryn may be able to tell them what it is."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "angelas",
+  "darnassus",
+  "daryn lightwind",
+  "feralas",
+  "ruins",
+  "rut'theran village",
+  "stave",
+  "troyas moonbreeze"
+ ],
+ "related": [
+  "zone:feralas",
+  "subzone:rut-theran-village",
+  "zone:darnassus"
+ ],
+ "attribution": [
+  "In Search of Knowledge"
+ ]
+}

@@ -1,0 +1,92 @@
+{
+ "key": "quest:4449",
+ "type": "quest",
+ "name": "Caught!",
+ "era": "classic",
+ "zone": "searinggorge",
+ "meta": {
+  "ids": [
+   4449
+  ],
+  "level": "45",
+  "faction": null,
+  "start": "Wooden Outhouse",
+  "end": "Wooden Outhouse",
+  "previous": "",
+  "next": "Ledger from Tanaris",
+  "wiki": "Caught!",
+  "chain": [
+   "Caught!",
+   "Ledger from Tanaris"
+  ],
+  "next_q": [
+   "Ledger from Tanaris"
+  ],
+  "category": "Searing Gorge"
+ },
+ "summary": "Someone is locked inside a wooden outhouse in Searing Gorge, shouting for help from within. They were running from the Dark Iron dwarves, hid in there, and the geologists locked the door behind them. They want eight Dark Iron geologists taught a lesson, and fifteen pieces of silk cloth for... nothing in particular.",
+ "sections": [
+  {
+   "title": "Locked In",
+   "body": "The voice from the outhouse tells of fleeing the Dark Iron dwarves and ducking inside to hide. The Dark Iron geologists, with their magic, must have seen, for the door was locked on the occupant before they knew it.",
+   "spoiler": 0
+  },
+  {
+   "title": "Two Favors",
+   "body": "The occupant wants eight Dark Iron geologists taught a lesson, and fifteen pieces of silk cloth too, though the reason for the silk trails off into stammering and ends up as nothing in particular.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is trapped inside the outhouse?",
+   "aliases": [
+    "who is in the outhouse",
+    "who is locked in the outhouse",
+    "outhouse guy"
+   ],
+   "answer": "A person who is not named, who ran from the Dark Iron dwarves and hid in there."
+  },
+  {
+   "q": "Why does the occupant want silk cloth?",
+   "aliases": [
+    "why silk cloth",
+    "what is the silk for",
+    "why does outhouse guy want silk"
+   ],
+   "answer": "They ask for fifteen pieces but stumble over the reason and claim it is for nothing."
+  },
+  {
+   "q": "Who locked the outhouse door?",
+   "aliases": [
+    "who locked the door",
+    "who trapped the guy",
+    "which dark iron dwarves"
+   ],
+   "answer": "The Dark Iron geologists. The occupant believes they saw them hide and then used their magic ways to lock the door."
+  },
+  {
+   "q": "How many geologists must be slain?",
+   "aliases": [
+    "how many geologists",
+    "geologist count"
+   ],
+   "answer": "The occupant asks for eight of them to be dealt with."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "caught",
+  "dark iron geologists",
+  "searing gorge",
+  "silk cloth",
+  "wooden outhouse"
+ ],
+ "related": [
+  "quest:4450",
+  "zone:searinggorge"
+ ],
+ "attribution": [
+  "Caught!"
+ ]
+}

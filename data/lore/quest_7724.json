@@ -1,0 +1,87 @@
+{
+ "key": "quest:7724",
+ "type": "quest",
+ "name": "Fiery Menace!",
+ "era": "classic",
+ "zone": "searinggorge",
+ "meta": {
+  "ids": [
+   7724
+  ],
+  "level": "49",
+  "faction": null,
+  "start": "Hansel Heavyhands",
+  "end": "Hansel Heavyhands",
+  "previous": "",
+  "next": "",
+  "wiki": "Fiery Menace!",
+  "chain": [],
+  "repeatable": "No",
+  "category": "Searing Gorge"
+ },
+ "summary": "Hansel Heavyhands says that every time he wants a moment to relax and reflect on his life, the powers that be hand him another job. Greater lava spiders are causing a ruckus in the Searing Gorge, and he wants you to kill twenty of them.",
+ "sections": [
+  {
+   "title": "Another Job for Hansel",
+   "body": "Hansel Heavyhands complains that the powers that be never leave him in peace. Greater lava spiders are causing a ruckus, and he would rather you did the killing than him.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Greater Lava Spiders",
+   "body": "Oilfist says the spiders shoot fire out of an awkward place, which upsets the children. Hansel wants twenty greater lava spiders slain, and they are found on the plateaus and by the lava pools of the Searing Gorge.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who sends you after the spiders?",
+   "aliases": [
+    "quest giver",
+    "who gives quest",
+    "hansel"
+   ],
+   "answer": "Hansel Heavyhands in the Searing Gorge, who had hoped for a quiet moment and been handed another job."
+  },
+  {
+   "q": "Why do the spiders need to be killed?",
+   "aliases": [
+    "why kill spiders",
+    "what did spiders do",
+    "spider problem"
+   ],
+   "answer": "Greater lava spiders are causing a ruckus, and Oilfist says the way they shoot fire upsets the children."
+  },
+  {
+   "q": "Who told Hansel about the spiders?",
+   "aliases": [
+    "who complained about spiders",
+    "oilfist"
+   ],
+   "answer": "Oilfist, who says the spiders shoot fire from an awkward place."
+  },
+  {
+   "q": "How many greater lava spiders must be killed?",
+   "aliases": [
+    "how many spiders",
+    "spider count"
+   ],
+   "answer": "Hansel asks for twenty to be put down."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "fiery menace",
+  "greater lava spiders",
+  "hansel heavyhands",
+  "oilfist",
+  "searing gorge",
+  "spiders"
+ ],
+ "related": [
+  "npc:hansel-heavyhands",
+  "zone:searinggorge"
+ ],
+ "attribution": [
+  "Fiery Menace!"
+ ]
+}

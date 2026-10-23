@@ -1,0 +1,100 @@
+{
+ "key": "quest:6143",
+ "type": "quest",
+ "name": "Other Fish to Fry",
+ "era": "classic",
+ "zone": "desolace",
+ "meta": {
+  "ids": [
+   6143
+  ],
+  "level": "36",
+  "faction": "Horde",
+  "start": "Drulzegar Skraghook",
+  "end": "Drulzegar Skraghook",
+  "previous": "",
+  "next": "",
+  "wiki": "Other Fish to Fry",
+  "chain": [],
+  "category": "Desolace"
+ },
+ "summary": "Drulzegar Skraghook, a fisherman at Shadowprey Village in Desolace, lost the entire crew to the naga while fishing near Ranazjar Isle. Guilt weighs on Drulzegar, who asks you to go after the Slitherblade.",
+ "sections": [
+  {
+   "title": "A Crew Lost",
+   "body": "Drulzegar Skraghook and the crew fished by Ranazjar Isle, which lies north of a wreck on the coast, and had done so many times. One morning the naga attacked and killed everyone except Drulzegar. Since then revenge is all Drulzegar thinks about, and the guilt is too much to bear.",
+   "spoiler": 0
+  },
+  {
+   "title": "Fry the Naga",
+   "body": "Drulzegar wants seven Slitherblade Myrmidons, seven Slitherblade Naga and five Slitherblade Sorceresses slain. A bad knee keeps Drulzegar from going along. The naga, Drulzegar says, usually lurk far down among the coral reefs beneath the waves, and the effort will be rewarded.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Drulzegar Skraghook?",
+   "aliases": [
+    "drulzegar",
+    "drulzegar skraghook",
+    "who gives other fish to fry"
+   ],
+   "answer": "A fisherman at Shadowprey Village in Desolace. The naga killed the whole crew near Ranazjar Isle, and Drulzegar is the only survivor."
+  },
+  {
+   "q": "Where did the attack on Drulzegar's crew happen?",
+   "aliases": [
+    "where were the fishermen attacked",
+    "crew attack location",
+    "ranazjar isle ambush"
+   ],
+   "answer": "Beside Ranazjar Isle, north of a wreck on the coast. The crew fished there often, and the naga attacked one morning."
+  },
+  {
+   "q": "Why doesn't Drulzegar fight the naga himself?",
+   "aliases": [
+    "why cant drulzegar fight",
+    "drulzegar bad knee"
+   ],
+   "answer": "Drulzegar has a bad knee, and says that without it they would help you kill the naga. The guilt over the crew weighs on Drulzegar's conscience."
+  },
+  {
+   "q": "Where do the Slitherblade naga lurk?",
+   "aliases": [
+    "slitherblade location",
+    "where to find slitherblade naga",
+    "naga location desolace"
+   ],
+   "answer": "Drulzegar says they usually lurk far down among the coral reefs beneath the waves. The attack on the crew happened near Ranazjar Isle."
+  },
+  {
+   "q": "Which naga does Drulzegar want eliminated?",
+   "aliases": [
+    "what naga need to be killed",
+    "other fish to fry targets",
+    "slitherblade requirements"
+   ],
+   "answer": "Seven Slitherblade Myrmidons, seven Slitherblade Naga and five Slitherblade Sorceresses."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "desolace",
+  "drulzegar",
+  "myrmidon",
+  "naga",
+  "other fish to fry",
+  "ranazjar isle",
+  "shadowprey village",
+  "skraghook",
+  "slitherblade",
+  "sorceress"
+ ],
+ "related": [
+  "zone:desolace",
+  "topic:naga"
+ ],
+ "attribution": [
+  "Other Fish to Fry"
+ ]
+}

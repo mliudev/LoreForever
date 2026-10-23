@@ -1,0 +1,95 @@
+{
+ "key": "quest:710",
+ "type": "quest",
+ "name": "Study of the Elements: Rock",
+ "era": "classic",
+ "zone": "badlands",
+ "meta": {
+  "ids": [
+   710
+  ],
+  "level": "37",
+  "faction": "Neutral",
+  "start": "Lotwil Veriatus",
+  "end": "Lotwil Veriatus",
+  "previous": "",
+  "next": "Study of the Elements: Rock (2)",
+  "wiki": "Study of the Elements: Rock",
+  "chain": [],
+  "next_q": [
+   "Study of the Elements: Rock (2)"
+  ],
+  "category": "Badlands",
+  "chain_tpl": [
+   "Study of the Elements: Rock"
+  ]
+ },
+ "summary": "Lotwil Veriatus has stopped in the Badlands to work on shackles of elemental binding. To test some offensive spells and a few pieced-together gizmos, Lotwil needs small stone shards from the lesser rock elementals nearby.",
+ "sections": [
+  {
+   "title": "Elemental Shackles",
+   "body": "Here in the Badlands, Lotwil Veriatus is working on a project: shackles of elemental binding. Once finished, they would let mages summon still stronger elementals for even greater uses. To get started, Lotwil wants ten small stone shards, easily taken from the lesser rock elementals in the hills immediately west.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is asking for the stone shards?",
+   "aliases": [
+    "who gives this quest",
+    "quest giver",
+    "lotwil veriatus"
+   ],
+   "answer": "Lotwil Veriatus, who has stopped in the Badlands to work on a project."
+  },
+  {
+   "q": "What is Lotwil Veriatus working on?",
+   "aliases": [
+    "lotwil project",
+    "shackles of elemental binding",
+    "what is lotwil building"
+   ],
+   "answer": "Shackles of elemental binding, meant to let mages summon even more powerful elementals."
+  },
+  {
+   "q": "Why does Lotwil need small stone shards?",
+   "aliases": [
+    "why stone shards",
+    "shards purpose",
+    "what are shards for"
+   ],
+   "answer": "They are for testing some of Lotwil's newest offensive spells and a few gizmos pieced together."
+  },
+  {
+   "q": "Where are the stone shards found?",
+   "aliases": [
+    "where to find shards",
+    "lesser rock elementals location",
+    "stone shard source"
+   ],
+   "answer": "From the lesser rock elementals in the hills immediately west of Lotwil."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Mage",
+   "text": "Mages are the ones Lotwil's shackles are meant to serve."
+  }
+ ],
+ "keywords": [
+  "badlands",
+  "lesser rock elementals",
+  "lotwil veriatus",
+  "shackles of elemental binding",
+  "small stone shards",
+  "study of the elements: rock"
+ ],
+ "related": [
+  "npc:lotwil-veriatus",
+  "zone:badlands",
+  "topic:mage"
+ ],
+ "attribution": [
+  "Study of the Elements: Rock"
+ ]
+}

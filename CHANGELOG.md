@@ -7,6 +7,30 @@ wrap long bullets with an indented continuation line.
 
 ## Unreleased
 
+## 0.26.0 (2026-10-22)
+
+- **One Willo everywhere:** a new glass panel over the game, her window, the chat by the wisp and the talk key always
+  show the same chat, draft and answer, and with WoW closed her wisp waits by the clock.
+- **Willo says her whole answer:** once, in one bubble, and a play button on every answer says it again. With quest
+  dialogue on, she also reads quest pages nobody recorded.
+- **Free answers last through busy days:** when Willo's light runs low she keeps answering in her own voice, a few a
+  day, before resting.
+- **Story as you play, without spoilers:** stories hold back what your quests haven't shown you yet, chat points you to
+  the next part as you uncover it, and short recaps retell a storyline at its turning points.
+- **More quests tell their lore, out loud:** Stranglethorn Vale, Desolace, Arathi Highlands, Thousand Needles and
+  Hillsbrad Foothills, in both narrators' voices, and the silent first-hour quests speak again.
+- **More French narration:** the female narrator covers more places, people and lore.
+- **Update reminders:** Willo and Lore Forever say plainly when a version is too old to keep working, and where to
+  get the new one.
+
+- **Willo rests by your clock when the game is closed:** with "Willo outside the game" on, her wisp floats down to a
+  quiet spot above the clock. Click her to open her panel, right-click to hide her until the game starts. Off until you
+  turn it on, and she stays out of the way of full-screen apps.
+
+- Corrected lore in 22 entries.
+
+- **Willo beside you in game:** click her wisp to open her chat, notes and friends right over the game, no alt-tab.
+
 ## 0.25.0 (2026-10-21)
 
 - **Willo's new window:** a slimmer top bar, three tabs (Chat, Notes and Friends), simpler settings with a search box,

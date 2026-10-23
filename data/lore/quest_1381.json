@@ -1,0 +1,101 @@
+{
+ "key": "quest:1381",
+ "type": "quest",
+ "name": "Khan Hratha",
+ "era": "classic",
+ "zone": "desolace",
+ "meta": {
+  "ids": [
+   1381
+  ],
+  "level": "42",
+  "faction": null,
+  "start": "Warug",
+  "end": "Warug",
+  "previous": "Khan Shaka (quest)",
+  "next": "",
+  "wiki": "Khan Hratha (Magram)",
+  "chain": [],
+  "prev_q": [
+   "Khan Shaka (quest)"
+  ],
+  "category": "Desolace",
+  "chain_tpl": [
+   "Magram Alliance"
+  ]
+ },
+ "summary": "Warug announces the death of the Gelkis Khan and says the Maraudine are next. Warug sends you after their Khan, Hratha, and wants the piece of a key that Hratha carries.",
+ "sections": [
+  {
+   "title": "A Horn on the Bluff",
+   "body": "Warug wants the Maraudine Khan, Hratha, dead. A horn on a bluff in the Valley of Spears calls him out, but it will not sound without a mouthpiece, and a mouthpiece is found by killing Maraudine centaur. After the blast, Maraudine centaur gather at the tower, and Hratha shows himself in the end.",
+   "spoiler": 0
+  },
+  {
+   "title": "A Piece of a Key",
+   "body": "Hratha holds part of a key, and Warug wants it brought to Warug in Magram Village. Warug expects you to prove yourself an ally of the Magram.",
+   "spoiler": 0
+  },
+  {
+   "title": "Masters of the Centaur",
+   "body": "With Hratha dead, Warug proclaims the Magram the mightiest of the centaur, destined to crush their rivals and rule Desolace. Warug says you will be remembered and spared when the rest are trampled.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who sends you to defeat Khan Hratha?",
+   "aliases": [
+    "who gives khan hratha",
+    "khan hratha quest giver"
+   ],
+   "answer": "Warug, at Magram Village in Desolace, after the Gelkis Khan's death."
+  },
+  {
+   "q": "How do you reach Khan Hratha?",
+   "aliases": [
+    "how to summon hratha",
+    "find khan hratha",
+    "blow horn valley of spears"
+   ],
+   "answer": "Warug says the way to face Hratha is to sound the horn on the bluff in the Valley of Spears. It needs a mouthpiece, found by killing Maraudine centaur, and the centaur then gather at the tower before Hratha appears."
+  },
+  {
+   "q": "Where does Khan Hratha appear?",
+   "aliases": [
+    "khan hratha location",
+    "where is hratha"
+   ],
+   "answer": "Hratha appears at the tower in the Valley of Spears once the horn has been blown and the Maraudine centaur who gather there are cut down."
+  },
+  {
+   "q": "What does Khan Hratha hold?",
+   "aliases": [
+    "what does hratha drop",
+    "maraudine key fragment"
+   ],
+   "answer": "Hratha holds part of a key, and Warug asks you to bring that piece to Warug."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "desolace",
+  "key fragment",
+  "khan hratha",
+  "magram",
+  "maraudine",
+  "valley of spears",
+  "war horn",
+  "warug"
+ ],
+ "related": [
+  "subzone:magram-village",
+  "subzone:valley-of-spears",
+  "zone:desolace",
+  "topic:centaur",
+  "quest:1375"
+ ],
+ "attribution": [
+  "Khan Hratha (Magram)"
+ ]
+}

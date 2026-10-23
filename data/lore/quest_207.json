@@ -1,0 +1,102 @@
+{
+ "key": "quest:207",
+ "type": "quest",
+ "name": "Kurzen's Mystery",
+ "era": "classic",
+ "zone": "stranglethorn",
+ "meta": {
+  "ids": [
+   207
+  ],
+  "level": "38",
+  "faction": "Alliance",
+  "start": "Brother Nimetz",
+  "end": "",
+  "previous": "",
+  "next": "Troll Witchery",
+  "wiki": "Kurzen's Mystery",
+  "chain": [
+   "Kurzen's Mystery",
+   "Troll Witchery"
+  ],
+  "next_q": [
+   "Troll Witchery"
+  ],
+  "category": "Stranglethorn Vale"
+ },
+ "summary": "Brother Nimetz at the Rebel Camp wants to know what turned Colonel Kurzen to depravity. Suspecting that troll magic holds him, Nimetz sends you to the troll ruins of Stranglethorn to copy the legends written on four tablets.",
+ "sections": [
+  {
+   "title": "Searching for Answers",
+   "body": "Colonel Kurzen was once a great and noble man, and Brother Nimetz means to learn what caused his fall into depravity. Nimetz suspects troll magic has a hold on the colonel. To test that, the old troll legends must be read, and they are carved on four tablets hidden among the troll ruins of Stranglethorn. You are asked to copy the markings from each tablet and carry the copies back.",
+   "spoiler": 0
+  },
+  {
+   "title": "Where the Tablets Lie",
+   "body": "One tablet stands in the Bal'lal Ruins. Another lies deep underwater off the coast, in the Vile Reef, near a sunken city held by Saltscale murlocs. The last two are in the Ruins of Zul'Kunda.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who starts the search for the troll tablets?",
+   "aliases": [
+    "who gives kurzens mystery",
+    "where do i start kurzens mystery",
+    "brother nimetz quest"
+   ],
+   "answer": "Brother Nimetz gives it, at the Rebel Camp."
+  },
+  {
+   "q": "Why does Brother Nimetz want copies of troll legends?",
+   "aliases": [
+    "why need troll tablets",
+    "kurzens mystery purpose",
+    "why nimetz wants legends"
+   ],
+   "answer": "Brother Nimetz wants to know why Colonel Kurzen, once a great and noble man, sank into depravity. Troll magic may be to blame, and the legends on the tablets could confirm it."
+  },
+  {
+   "q": "Where are the four troll tablets located?",
+   "aliases": [
+    "tablet locations",
+    "where are the tablets",
+    "kurzen tablets map"
+   ],
+   "answer": "Bal'lal Ruins hold one. Another is deep underwater in the Vile Reef, west of Grom'gol. Two more are in the Ruins of Zul'Kunda."
+  },
+  {
+   "q": "What comes after the four tablets are brought back?",
+   "aliases": [
+    "what next after kurzens mystery",
+    "kurzens mystery follow up",
+    "quest chain after tablets"
+   ],
+   "answer": "Brother Nimetz studies the legends for a link between the trolls and Colonel Kurzen's fall, and the tale goes on with Troll Witchery."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "bal'lal ruins",
+  "brother nimetz",
+  "colonel kurzen",
+  "rebel camp",
+  "stranglethorn vale",
+  "troll legend",
+  "vile reef",
+  "zul'kunda"
+ ],
+ "related": [
+  "quest:205",
+  "subzone:rebel-camp",
+  "npc:colonel-kurzen",
+  "subzone:bal-lal-ruins",
+  "subzone:vile-reef",
+  "zone:stranglethorn",
+  "topic:alliance",
+  "topic:troll"
+ ],
+ "attribution": [
+  "Kurzen's Mystery"
+ ]
+}

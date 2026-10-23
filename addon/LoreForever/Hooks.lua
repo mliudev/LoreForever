@@ -991,6 +991,7 @@ function Hooks.HandleLink(link)
   elseif kind == "listen" then ns.UI.ListenTo(ns.UI.EntryTarget(key))
   elseif kind == "open" then ns.UI.Open(nil, nil, "chatlink")
   elseif kind == "whatsnew" then ns.WhatsNew.Show()
+  elseif kind == "recap" then ns.Storyline.ShowRecap(tonumber(key), tonumber(idx))
   elseif kind == "key" and Hooks.KeyActions[key] then Hooks.KeyPrompt(key):Show() end
   return true
 end

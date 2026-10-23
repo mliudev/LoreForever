@@ -1,0 +1,94 @@
+{
+ "key": "quest:2845",
+ "type": "quest",
+ "name": "Wandering Shay",
+ "era": "classic",
+ "zone": "feralas",
+ "meta": {
+  "ids": [
+   2845
+  ],
+  "level": "49",
+  "faction": "Alliance",
+  "start": "Shay Leafrunner",
+  "end": "Rockbiter",
+  "previous": "The Giant Guardian",
+  "next": "",
+  "wiki": "Wandering Shay",
+  "chain": [
+   "The Giant Guardian",
+   "Wandering Shay"
+  ],
+  "prev_q": [
+   "The Giant Guardian"
+  ],
+  "category": "Feralas"
+ },
+ "summary": "Shay Leafrunner, once found, asks you to help her get back to her friend Rockbiter. She admits she wanders off whenever there is something to see, but she has a bell whose sound brings her running back.",
+ "sections": [
+  {
+   "title": "A Girl Easily Distracted",
+   "body": "Shay wants to find her way back to Rockbiter, who was supposed to be watching her. She admits she tends to wander off now and then, since there are so many things to see and she gets distracted.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Bell in the Chest",
+   "body": "Shay says one thing always gets her attention. In a chest beside her lies a bell she treasures, and she loves its sound. She gives her word that if she wanders off, ringing it will bring her running back. The bell is yours to carry, and Rockbiter's camp is where she hopes to be taken.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Shay Leafrunner trying to get back to?",
+   "aliases": [
+    "who is rockbiter",
+    "shay friend",
+    "where does shay go"
+   ],
+   "answer": "Her friend Rockbiter, who was meant to be watching her. You are to take her to his camp."
+  },
+  {
+   "q": "Why does Shay wander off?",
+   "aliases": [
+    "why is shay lost",
+    "how did shay get lost",
+    "why did shay wander off"
+   ],
+   "answer": "She says there are so many things to see that she gets distracted."
+  },
+  {
+   "q": "How do I keep Shay from straying?",
+   "aliases": [
+    "how to control shay",
+    "shay bell",
+    "what does the bell do"
+   ],
+   "answer": "Shay's bell sits in a chest by her. She loves its sound and promises that if she wanders off, ringing it will bring her running back."
+  },
+  {
+   "q": "What comes before this?",
+   "aliases": [
+    "previous quest",
+    "giant guardian",
+    "what leads to wandering shay"
+   ],
+   "answer": "It follows The Giant Guardian, in which Rockbiter sends you to look for Shay."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "escort",
+  "feralas",
+  "giant guardian",
+  "rockbiter",
+  "shay leafrunner",
+  "shay's bell"
+ ],
+ "related": [
+  "quest:2844",
+  "zone:feralas"
+ ],
+ "attribution": [
+  "Wandering Shay"
+ ]
+}

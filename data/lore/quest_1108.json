@@ -1,0 +1,124 @@
+{
+ "key": "quest:1108",
+ "type": "quest",
+ "name": "Indurium",
+ "era": "classic",
+ "zone": "thousandneedles",
+ "meta": {
+  "ids": [
+   1108
+  ],
+  "level": "39",
+  "faction": "Neutral",
+  "start": "Martek the Exiled",
+  "end": "Martek the Exiled",
+  "previous": "Martek the Exiled (quest)",
+  "next": "News for Fizzle",
+  "wiki": "Indurium",
+  "chain": [
+   "Martek the Exiled (quest)",
+   "Indurium",
+   "News for Fizzle"
+  ],
+  "prev_q": [
+   "Martek the Exiled (quest)"
+  ],
+  "next_q": [
+   "News for Fizzle"
+  ],
+  "category": "Thousand Needles"
+ },
+ "summary": "Martek the Exiled says the Badlands hold a wealth of metal for anyone with the nerve to get it. Indurium is said to stand up to heat and stress, and Martek wants samples to test whether it could serve Fizzle's racecar. Stonevault troggs out in the Badlands are the ones carrying flakes of it.",
+ "sections": [
+  {
+   "title": "A Metal Worth Testing",
+   "body": "Martek the Exiled tells you he is not out in the Badlands just to avoid company. The region holds indurium, a metal said to stand up to heat and stress, and it might do for Fizzle's car. Martek wants samples to test, and has the forge hot and waiting.",
+   "spoiler": 0
+  },
+  {
+   "title": "Flakes from the Troggs",
+   "body": "The true ore is deep in Uldaman, but Stonevault troggs in the Badlands carry flakes of it now and then. Martek asks for ten. The troggs that have them roam the south-east slope of a rocky clump at Agmond's End, just south of the Valley of Fangs.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Forge Test",
+   "body": "Martek takes the flakes to the forge and turns up the heat in stages. They hold, and Martek swears by Orgrim that this indurium can withstand massive heat. The test is a success, and Martek calls the metal amazing stuff.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who sends you after the indurium?",
+   "aliases": [
+    "who gives indurium quest",
+    "where to get indurium"
+   ],
+   "answer": "Martek the Exiled, out in the central Badlands, asks for the samples. The chain that leads to him starts with Fizzle Brassbolts at the Mirage Raceway in Thousand Needles."
+  },
+  {
+   "q": "Why does Martek need indurium?",
+   "aliases": [
+    "what is indurium used for",
+    "why indurium"
+   ],
+   "answer": "Martek thinks this metal, said to stand up to heat and stress, might work for Fizzle's car, and wants samples to put through his forge."
+  },
+  {
+   "q": "Where can the indurium flakes be found?",
+   "aliases": [
+    "where are indurium flakes",
+    "how to get flakes",
+    "who drops indurium flakes"
+   ],
+   "answer": "Stonevault troggs in the Badlands carry them now and then, on the south-east slope of a rocky clump at Agmond's End, just south of the Valley of Fangs."
+  },
+  {
+   "q": "Where does true indurium ore come from?",
+   "aliases": [
+    "where is indurium ore",
+    "where is indurium mined"
+   ],
+   "answer": "Martek says the true ore is deep in Uldaman."
+  },
+  {
+   "q": "What comes before this?",
+   "aliases": [
+    "previous quest indurium",
+    "how to start indurium"
+   ],
+   "answer": "It follows Martek the Exiled, the first step of this chain, which starts with Fizzle Brassbolts at the Mirage Raceway."
+  },
+  {
+   "q": "What comes after the flakes are delivered?",
+   "aliases": [
+    "next quest after indurium",
+    "what happens next"
+   ],
+   "answer": "The chain continues with News for Fizzle."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "agmond's end",
+  "badlands",
+  "fizzle brassbolts",
+  "indurium",
+  "indurium flakes",
+  "martek the exiled",
+  "mirage raceway",
+  "stonevault troggs",
+  "uldaman"
+ ],
+ "related": [
+  "quest:1106",
+  "quest:1137",
+  "npc:fizzle-brassbolts",
+  "zone:badlands",
+  "subzone:agmond-s-end",
+  "subzone:uldaman",
+  "topic:trogg"
+ ],
+ "attribution": [
+  "Indurium"
+ ]
+}

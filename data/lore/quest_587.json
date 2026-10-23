@@ -1,0 +1,82 @@
+{
+ "key": "quest:587",
+ "type": "quest",
+ "name": "Up to Snuff",
+ "era": "classic",
+ "zone": "stranglethorn",
+ "meta": {
+  "ids": [
+   587
+  ],
+  "level": "41",
+  "start": "Deeg",
+  "end": "Deeg",
+  "previous": "The Bloodsail Buccaneers (Classic)",
+  "wiki": null,
+  "next": ""
+ },
+ "summary": "In Booty Bay, the pirate Deeg likes a bottle of grog and fine snuff whenever in port, but the town's herbalist has sold out. The herbalist says Bloodsail Raiders hijacked the shipment, and Deeg wants fifteen shares of snuff brought to him.",
+ "sections": [
+  {
+   "title": "Vices Ashore",
+   "body": "Deeg admits the sea life may not be the good life, yet it is the only one Deeg has. In port, Deeg looks for grog and good-quality snuff: bad habits, but a pirate needs his vices. Deeg was crushed to learn that the herbalist in Booty Bay has none left. The herbalist claims Bloodsail Raiders hijacked the shipment. Deeg figures a fearless adventurer could talk the raiders into sharing, and wants fifteen shares of snuff.",
+   "spoiler": 0
+  },
+  {
+   "title": "Deeg's Thanks",
+   "body": "Deeg is delighted with the snuff, glad it arrived just before time to ship out, and thanks you warmly as an old friend.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Deeg?",
+   "aliases": [
+    "deeg booty bay",
+    "who gives up to snuff"
+   ],
+   "answer": "Deeg is a pirate in Booty Bay who looks for grog and fine snuff whenever in port."
+  },
+  {
+   "q": "Why is the herbalist out of snuff?",
+   "aliases": [
+    "why no snuff",
+    "herbalist shipment hijacked"
+   ],
+   "answer": "According to the herbalist, the shipment of snuff was hijacked by the Bloodsail Raiders."
+  },
+  {
+   "q": "Who has the snuff?",
+   "aliases": [
+    "who took the snuff",
+    "bloodsail snuff"
+   ],
+   "answer": "According to the herbalist, Bloodsail Raiders hijacked the shipment, and Deeg hopes they can be talked into sharing it."
+  },
+  {
+   "q": "How much snuff does Deeg want?",
+   "aliases": [
+    "how many snuff",
+    "up to snuff requirement"
+   ],
+   "answer": "Fifteen shares of snuff, brought to Deeg in Booty Bay."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "bloodsail",
+  "booty bay",
+  "deeg",
+  "grog",
+  "herbalist",
+  "snuff"
+ ],
+ "related": [
+  "subzone:booty-bay",
+  "zone:stranglethorn",
+  "topic:pirate"
+ ],
+ "attribution": [
+  "Classic quest text: Up to Snuff"
+ ]
+}

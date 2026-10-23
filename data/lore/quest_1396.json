@@ -1,0 +1,99 @@
+{
+ "key": "quest:1396",
+ "type": "quest",
+ "name": "Encroaching Wildlife",
+ "era": "classic",
+ "zone": "swampofsorrows",
+ "meta": {
+  "ids": [
+   1396
+  ],
+  "level": "37",
+  "faction": "Alliance",
+  "start": "Watcher Biggs",
+  "end": "Watcher Biggs",
+  "previous": "Help Watcher Biggs",
+  "next": "The Lost Caravan",
+  "wiki": "Encroaching Wildlife",
+  "chain": [],
+  "prev_q": [
+   "Help Watcher Biggs"
+  ],
+  "next_q": [
+   "The Lost Caravan"
+  ],
+  "category": "Swamp of Sorrows",
+  "chain_tpl": [
+   "Help Watcher Biggs"
+  ]
+ },
+ "summary": "Watcher Biggs was bound for the eastern coast with a caravan when the lost ones attacked. Biggs alone survived, and now wild creatures skulk near the camp. Biggs asks for your help defending it. This follows Help Watcher Biggs.",
+ "sections": [
+  {
+   "title": "A Camp Under Watch",
+   "body": "The caravan of Watcher Biggs was bound for the eastern coast, but it never arrived. Lost Ones attacked, killing the guards and smashing the supplies, and Biggs alone survived. Biggs has sworn to protect what supplies remain, yet wild creatures skulk close to the camp. Biggs wants you to help defend it.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Creatures Nearby",
+   "body": "Biggs names three kinds of creature pressing near the camp: young sawtooth crocolisks, sorrow spinners and swamp jaguars. Eight crocolisks, ten spinners and ten jaguars are to be slain.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Where was Watcher Biggs's caravan traveling?",
+   "aliases": [
+    "where was biggs going",
+    "caravan destination",
+    "biggs caravan route"
+   ],
+   "answer": "To the eastern coast, but the caravan never reached its goal."
+  },
+  {
+   "q": "Who attacked Watcher Biggs's caravan?",
+   "aliases": [
+    "who attacked biggs",
+    "who destroyed the caravan",
+    "caravan ambush"
+   ],
+   "answer": "Lost Ones. They killed the guards and smashed the supplies, and Biggs alone survived."
+  },
+  {
+   "q": "What beasts threaten the camp?",
+   "aliases": [
+    "which beasts are encroaching",
+    "what animals attack biggs",
+    "swamp beasts"
+   ],
+   "answer": "Young sawtooth crocolisks, sorrow spinners and swamp jaguars skulk near it."
+  },
+  {
+   "q": "Why does Watcher Biggs remain at the camp?",
+   "aliases": [
+    "why is biggs staying",
+    "why not flee",
+    "biggs supplies"
+   ],
+   "answer": "Biggs has sworn to protect the supplies that remain from the caravan."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "caravan",
+  "lost ones",
+  "sawtooth crocolisk",
+  "sorrow spinner",
+  "supplies",
+  "swamp jaguar",
+  "swamp of sorrows",
+  "watcher biggs"
+ ],
+ "related": [
+  "zone:swampofsorrows",
+  "quest:1421"
+ ],
+ "attribution": [
+  "Encroaching Wildlife"
+ ]
+}

@@ -10,16 +10,16 @@
    "quest:142"
   ]
  },
- "summary": "A Mysterious Message is a piece of correspondence intercepted from a courier traveling across Westfall. Addressed among conspirators, the dispatch provides the People's Militia with concrete evidence linking Edwin VanCleef directly to the leadership of the Defias Brotherhood.",
+ "summary": "A Mysterious Message is a piece of correspondence intercepted from a courier traveling across Westfall. Addressed among conspirators, the dispatch provides the People's Militia with crucial evidence concerning the hidden leadership guiding the Defias Brotherhood's operations in the region.",
  "sections": [
-  {
-   "title": "Intercepted Orders",
-   "body": "Carried by a courier journeying between the Defias operations at Moonbrook, the Gold Coast Quarry, and the Jangolode Mine, this message represents a crucial break in Gryan Stoutmantle's investigation. For weeks, the People's Militia suspected organized direction behind the bandit uprising, but lacked irrefutable proof. Intercepting this missive confirms beyond doubt that Edwin VanCleef commands the brotherhood's efforts across the region, directing his network through coded ranks and intermediaries.",
-   "spoiler": 0
-  },
   {
    "title": "Whispers of Blacknails",
    "body": "Beyond confirming VanCleef's overarching authority, the mysterious dispatch alludes to other figures moving within the conspiracy, including a shadowy associate referred to as 'Blacknails'. While the full scope of their underground network remains concealed, decoding the document provides the People's Militia with the leverage needed to turn captured cutpurses and locate the brotherhood's true stronghold.",
+   "spoiler": 1
+  },
+  {
+   "title": "Intercepted Orders",
+   "body": "Carried by a courier journeying between the Defias operations at Moonbrook, the Gold Coast Quarry, and the Jangolode Mine, this message represents a crucial break in Gryan Stoutmantle's investigation. For weeks, the People's Militia suspected organized direction behind the bandit uprising, but lacked irrefutable proof. Intercepting this missive confirms beyond doubt that Edwin VanCleef commands the brotherhood's efforts across the region, directing his network through coded ranks and intermediaries.",
    "spoiler": 1
   }
  ],

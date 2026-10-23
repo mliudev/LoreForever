@@ -1,0 +1,72 @@
+{
+ "key": "quest:1177",
+ "type": "quest",
+ "name": "Hungry!",
+ "era": "classic",
+ "zone": "dustwallow",
+ "meta": {
+  "ids": [
+   1177
+  ],
+  "level": "36",
+  "faction": null,
+  "start": "Mudcrush Durtfeet",
+  "end": "Mudcrush Durtfeet",
+  "previous": "",
+  "next": "",
+  "wiki": "Hungry!",
+  "chain": [],
+  "category": "Dustwallow Marsh"
+ },
+ "summary": "Mudcrush Durtfeet, an ogre in northern Dustwallow Marsh, is hungry. Mud wants you to go bash the fishy Mirefin and bring back their heads, or Mud will eat you instead.",
+ "sections": [
+  {
+   "title": "A Hungry Ogre",
+   "body": "Mudcrush Durtfeet is a big ogre and says so plainly. Mud is hungry and has a simple bargain: go bash the fishy Mirefin and bring Mud their heads as food. Feed Mud, or Mud will eat you.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Mudcrush Durtfeet?",
+   "aliases": [
+    "mudcrush durtfeet",
+    "who is mudcrush",
+    "ogre in dustwallow"
+   ],
+   "answer": "Mudcrush Durtfeet is a big ogre in northern Dustwallow Marsh who goes by Mud. Mud is hungry and wants food."
+  },
+  {
+   "q": "What does Mudcrush Durtfeet want to eat?",
+   "aliases": [
+    "mudcrush food",
+    "what does the ogre want",
+    "hungry quest food"
+   ],
+   "answer": "Mud wants Mirefin heads, brought from the fishy Mirefin that you are told to bash."
+  },
+  {
+   "q": "What happens if you refuse to feed him?",
+   "aliases": [
+    "mudcrush threat",
+    "will mudcrush eat me"
+   ],
+   "answer": "Mud makes it plain: feed Mud or Mud will eat you."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "dustwallow marsh",
+  "fishy",
+  "hungry!",
+  "mirefin heads",
+  "mudcrush durtfeet",
+  "ogre"
+ ],
+ "related": [
+  "zone:dustwallow"
+ ],
+ "attribution": [
+  "Hungry!"
+ ]
+}

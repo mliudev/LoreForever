@@ -1,0 +1,83 @@
+{
+ "key": "quest:1268",
+ "type": "quest",
+ "name": "Suspicious Hoofprints",
+ "era": "classic",
+ "zone": "dustwallow",
+ "meta": {
+  "ids": [
+   1268
+  ],
+  "level": "35",
+  "faction": "Horde",
+  "start": "Hoofprints",
+  "end": "Krog",
+  "wiki": null,
+  "previous": "",
+  "next": ""
+ },
+ "summary": "Tracks of hooves stretch off from the Shady Rest Inn, whose bare frame still smokes. A few can be seen clearly, while more rows are nearly lost in the marsh's soft ground. Krog at Brackenwall Village is the one to report them to.",
+ "sections": [
+  {
+   "title": "Prints in the Mud",
+   "body": "The Shady Rest Inn is a bare frame now, still smoking, and trails of hoofprints stretch off from it. Some impressions are easy to see; others can hardly be made out in the soft ground. Krog at Brackenwall Village should hear about them.",
+   "spoiler": 0
+  },
+  {
+   "title": "Krog's Reply",
+   "body": "Krog allows that the quilboar may have done it, or even the centaur, since both have a sizeable presence in the Barrens and the deed would not be hard to believe of them. Krog adds that the inn was not only burned: the inn's owner also lost a woman and a pup, both killed. Krog will send Kagoro to learn where the tracks lead.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Where are the hoofprints?",
+   "aliases": [
+    "hoofprints location",
+    "where are tracks",
+    "shady rest inn prints"
+   ],
+   "answer": "They lead away from the Shady Rest Inn, whose bare frame still smokes, over the marsh's soft ground."
+  },
+  {
+   "q": "Who should hear about the hoofprints?",
+   "aliases": [
+    "who do I tell",
+    "krog location",
+    "where to report hoofprints"
+   ],
+   "answer": "Krog, at Brackenwall Village, is the one to report them to."
+  },
+  {
+   "q": "How many prints are there?",
+   "aliases": [
+    "how many hoofprints",
+    "how many tracks"
+   ],
+   "answer": "A few are clearly visible, and further rows are nearly impossible to see in the mud."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "brackenwall village",
+  "centaur",
+  "dustwallow marsh",
+  "hoofprints",
+  "kagoro",
+  "krog",
+  "quilboar",
+  "shady rest inn",
+  "suspicious hoofprints"
+ ],
+ "related": [
+  "subzone:shady-rest-inn",
+  "subzone:brackenwall-village",
+  "zone:dustwallow",
+  "topic:centaur",
+  "topic:quilboar",
+  "zone:barrens"
+ ],
+ "attribution": [
+  "Classic quest text: Suspicious Hoofprints"
+ ]
+}

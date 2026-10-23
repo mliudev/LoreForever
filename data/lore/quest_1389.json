@@ -1,0 +1,97 @@
+{
+ "key": "quest:1389",
+ "type": "quest",
+ "name": "Draenethyst Crystals",
+ "era": "classic",
+ "zone": "swampofsorrows",
+ "meta": {
+  "ids": [
+   1389
+  ],
+  "level": "35",
+  "faction": null,
+  "start": "Magtoor",
+  "end": "Magtoor",
+  "previous": "",
+  "next": "",
+  "wiki": "Draenethyst Crystals (Classic)",
+  "chain": [],
+  "category": "Swamp of Sorrows"
+ },
+ "summary": "Magtoor, at the Harborage, asks for six draenethyst crystals, sacred to Magtoor's people and stolen by the lost ones of the Fallow Sanctuary. Without them, Magtoor's people fear they too may lose their way.",
+ "sections": [
+  {
+   "title": "The Lost Ones",
+   "body": "The lost ones of the Fallow Sanctuary look as Magtoor's people do, but the rigors of the journey to Azeroth drove them mad. Once brethren, they now dwell in the Sanctuary, to the east, and they seize or kill anyone who strays close. They have also stolen something sacred: draenethyst crystals.",
+   "spoiler": 0
+  },
+  {
+   "title": "Without the Crystals",
+   "body": "Magtoor's people do not have the strength to enter the Fallow Sanctuary and take the draenethyst back from among the huts and campfires. Without the crystals, they fear they too may lose their way. Magtoor asks you to bring back six.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is asking for the draenethyst crystals?",
+   "aliases": [
+    "who gives draenethyst crystals",
+    "magtoor quest",
+    "who wants draenethyst"
+   ],
+   "answer": "Magtoor, who is found at the Harborage."
+  },
+  {
+   "q": "Why are the draenethyst crystals important to Magtoor?",
+   "aliases": [
+    "why draenethyst crystals",
+    "what do draenethyst crystals do",
+    "draenethyst purpose"
+   ],
+   "answer": "They are sacred to Magtoor's people. Without them, Magtoor fears they too may lose their way."
+  },
+  {
+   "q": "Who took the crystals?",
+   "aliases": [
+    "who stole draenethyst",
+    "who has the crystals",
+    "fallow sanctuary enemies"
+   ],
+   "answer": "The lost ones of the Fallow Sanctuary, to the east. They were once Magtoor's brethren, until the rigors of the journey to Azeroth drove them mad."
+  },
+  {
+   "q": "Where can the crystals be found?",
+   "aliases": [
+    "draenethyst crystal location",
+    "where are draenethyst crystals",
+    "find draenethyst"
+   ],
+   "answer": "Among the huts and campfires of the Fallow Sanctuary, which lies to the east."
+  },
+  {
+   "q": "Why can't Magtoor's people retrieve them themselves?",
+   "aliases": [
+    "why doesn't magtoor fight",
+    "why help magtoor"
+   ],
+   "answer": "They do not have the strength to enter the Sanctuary and take the crystals back."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "draenethyst",
+  "fallow sanctuary",
+  "harborage",
+  "lost ones",
+  "magtoor",
+  "swamp of sorrows"
+ ],
+ "related": [
+  "subzone:harborage",
+  "subzone:fallow-sanctuary",
+  "zone:swampofsorrows"
+ ],
+ "attribution": [
+  "Draenethyst Crystals (Classic)"
+ ]
+}

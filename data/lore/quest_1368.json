@@ -1,0 +1,98 @@
+{
+ "key": "quest:1368",
+ "type": "quest",
+ "name": "Gelkis Alliance",
+ "era": "classic",
+ "zone": "desolace",
+ "meta": {
+  "ids": [
+   1368
+  ],
+  "level": "33",
+  "faction": "Horde",
+  "start": "Gurda Wildmane",
+  "end": "Uthek the Wise",
+  "previous": "",
+  "next": "Stealing Supplies",
+  "wiki": "Gelkis Alliance",
+  "chain": [],
+  "next_q": [
+   "Stealing Supplies"
+  ],
+  "category": "Desolace",
+  "chain_tpl": [
+   "Gelkis Alliance quest chain"
+  ]
+ },
+ "summary": "Gurda Wildmane proposes turning the centaur clans' hatred against them: befriend one clan and use it to learn how all of them can be beaten. Siding with the Gelkis means killing their worst enemy, the Magram, then meeting Uthek the Wise, a shaman of the Gelkis, on the edge of Gelkis Village in the southwest of Desolace.",
+ "sections": [
+  {
+   "title": "Hatred as a Weapon",
+   "body": "Gurda Wildmane's plan is to exploit the centaurs' hatred of each other. A single clan is chosen as ally, and what it teaches shows how to defeat every clan. Choose the Gelkis and you kill the Magram, whom the Gelkis hate most, to win their respect.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Shaman",
+   "body": "Once you have won their respect, Uthek the Wise, shaman of the Gelkis, is to be met on the outskirts of Gelkis Village in southwest Desolace. Before then you are not welcome there: Uthek says you tread on Gelkis earth, and friendship must be proven by killing Magram centaur. Come back once Magram blood has soaked the ground.",
+   "spoiler": 0
+  },
+  {
+   "title": "Uthek's Word",
+   "body": "Uthek says the earth tells of how many Magram you have killed, and that this is good. To a friend of the Gelkis, Uthek has more work to give.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who proposes an alliance with the Gelkis?",
+   "aliases": [
+    "who gives gelkis alliance",
+    "gelkis alliance quest giver"
+   ],
+   "answer": "Gurda Wildmane, who wants to pit the centaur clans' hatred against them by allying with one clan and learning from it how to beat all of them."
+  },
+  {
+   "q": "How do you earn the favor of the Gelkis?",
+   "aliases": [
+    "how to get friendly with gelkis",
+    "gelkis rep"
+   ],
+   "answer": "By killing the Magram, whom the Gelkis hate most."
+  },
+  {
+   "q": "Who do you speak to among the Gelkis?",
+   "aliases": [
+    "where is uthek",
+    "uthek the wise location"
+   ],
+   "answer": "Uthek the Wise, a Gelkis shaman, on the outskirts of Gelkis Village in southwest Desolace."
+  },
+  {
+   "q": "What does Uthek require before welcoming you?",
+   "aliases": [
+    "why does uthek reject me",
+    "gelkis village hostile"
+   ],
+   "answer": "Uthek says you are not welcome on Gelkis earth until you prove friendship by killing Magram centaur."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "centaur",
+  "desolace",
+  "gelkis",
+  "gelkis village",
+  "gurda wildmane",
+  "magram",
+  "uthek the wise"
+ ],
+ "related": [
+  "subzone:gelkis-village",
+  "topic:centaur",
+  "zone:desolace",
+  "quest:1370"
+ ],
+ "attribution": [
+  "Gelkis Alliance"
+ ]
+}

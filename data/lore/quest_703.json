@@ -1,0 +1,87 @@
+{
+ "key": "quest:703",
+ "type": "quest",
+ "name": "Barbecued Buzzard Wings",
+ "era": "classic",
+ "zone": "badlands",
+ "meta": {
+  "ids": [
+   703
+  ],
+  "level": "40",
+  "faction": null,
+  "start": "Rigglefuzz",
+  "end": "Rigglefuzz",
+  "previous": "",
+  "next": "",
+  "wiki": "Barbecued Buzzard Wings",
+  "chain": [],
+  "category": "Badlands"
+ },
+ "summary": "Rigglefuzz swears by barbecued buzzard wings, a rich sauce on tangy meat. Everything for a batch is on hand except the wings themselves. Fetch enough of them and Rigglefuzz may part with the recipe.",
+ "sections": [
+  {
+   "title": "A Local Favorite",
+   "body": "Rigglefuzz is proud of barbecued buzzard wings. The sauce is rich, the meat tangy, and the aroma carries to hungry folk a long way off. Every ingredient for a batch is already in hand, all but the wings. Bring four buzzard wings, and Rigglefuzz might share the recipe.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who asks for the buzzard wings?",
+   "aliases": [
+    "who gives barbecued buzzard wings",
+    "who is rigglefuzz",
+    "quest giver"
+   ],
+   "answer": "Rigglefuzz wants buzzard wings to cook a batch of barbecued buzzard wings."
+  },
+  {
+   "q": "What does Rigglefuzz offer in return for the wings?",
+   "aliases": [
+    "what is the reward",
+    "what do i get",
+    "recipe reward"
+   ],
+   "answer": "Rigglefuzz hints at sharing the recipe if you bring enough wings."
+  },
+  {
+   "q": "Why does Rigglefuzz need buzzard wings?",
+   "aliases": [
+    "why buzzards",
+    "rigglefuzz motive",
+    "why does rigglefuzz want wings"
+   ],
+   "answer": "Rigglefuzz has everything else needed for a batch of barbecued buzzard wings, and only the wings are missing."
+  },
+  {
+   "q": "How many wings does Rigglefuzz want?",
+   "aliases": [
+    "how many buzzard wings",
+    "buzzard wing count"
+   ],
+   "answer": "Four buzzard wings."
+  }
+ ],
+ "angles": [
+  {
+   "target": "profession:Cooking",
+   "text": "Cooks take note: the recipe for the dish is on offer."
+  }
+ ],
+ "keywords": [
+  "badlands",
+  "barbecue",
+  "buzzard",
+  "cooking",
+  "recipe",
+  "rigglefuzz",
+  "wings"
+ ],
+ "related": [
+  "zone:badlands"
+ ],
+ "attribution": [
+  "Barbecued Buzzard Wings"
+ ]
+}

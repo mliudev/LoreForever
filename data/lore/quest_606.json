@@ -1,0 +1,98 @@
+{
+ "key": "quest:606",
+ "type": "quest",
+ "name": "Scaring Shaky",
+ "era": "classic",
+ "zone": "stranglethorn",
+ "meta": {
+  "ids": [
+   606
+  ],
+  "level": "41",
+  "start": "\"Sea Wolf\" MacKinley",
+  "end": "\"Shaky\" Phillipe",
+  "next": "Return to MacKinley",
+  "next_q": [
+   "Return to MacKinley"
+  ],
+  "wiki": null,
+  "previous": ""
+ },
+ "summary": "\"Sea Wolf\" MacKinley can't stand unpaid gambling debts, and plenty of people owe him. First is \"Shaky\" Phillipe by the docks in Booty Bay, who still owes a good deal from last week's game. MacKinley's plan is a scare, using giblets from Elder Mistvale Gorillas.",
+ "sections": [
+  {
+   "title": "Collecting a Debt",
+   "body": "\"Sea Wolf\" MacKinley cannot abide gambling debts left unpaid, and many people owe. First among them is \"Shaky\" Phillipe, who is by the docks and whose debt from last week's game is large. The way to collect is to frighten Phillipe. You are sent out of town to hunt Elder Mistvale Gorillas and bring back a good haul of giblets for Phillipe. MacKinley wants it kept quiet that they came from an animal, so that Phillipe imagines the worst.",
+   "spoiler": 0
+  },
+  {
+   "title": "Phillipe's Reaction",
+   "body": "Phillipe recoils at the giblets and does not want to know where they came from. Then Phillipe asks whether Sea Wolf sent you.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is \"Sea Wolf\" MacKinley?",
+   "aliases": [
+    "who is mackinley",
+    "sea wolf mackinley",
+    "who gives scaring shaky"
+   ],
+   "answer": "MacKinley is owed gambling debts by many people and wants help collecting them, starting with \"Shaky\" Phillipe."
+  },
+  {
+   "q": "Why does MacKinley want to scare \"Shaky\" Phillipe?",
+   "aliases": [
+    "why scare shaky",
+    "shaky phillipe debt",
+    "why target phillipe"
+   ],
+   "answer": "Phillipe still owes MacKinley a large sum from last week's game, and MacKinley thinks a fright is the way to get paid."
+  },
+  {
+   "q": "What creatures provide the giblets?",
+   "aliases": [
+    "where do giblets come from",
+    "mistvale giblets source",
+    "what do i kill for giblets"
+   ],
+   "answer": "Elder Mistvale Gorillas, which MacKinley says are found outside town."
+  },
+  {
+   "q": "Where can \"Shaky\" Phillipe be found?",
+   "aliases": [
+    "where is shaky phillipe",
+    "shaky location",
+    "find shaky phillipe"
+   ],
+   "answer": "Down by the docks in Booty Bay."
+  },
+  {
+   "q": "What should you tell Phillipe about the giblets?",
+   "aliases": [
+    "do i tell shaky where giblets came from"
+   ],
+   "answer": "Nothing. MacKinley wants Phillipe to imagine the worst, so the giblets' animal origin is not to be mentioned."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "booty bay",
+  "gambling debt",
+  "mistvale giblets",
+  "mistvale gorillas",
+  "scaring shaky",
+  "sea wolf mackinley",
+  "shaky phillipe",
+  "stranglethorn vale"
+ ],
+ "related": [
+  "quest:607",
+  "subzone:booty-bay",
+  "zone:stranglethorn"
+ ],
+ "attribution": [
+  "Classic quest text: Scaring Shaky"
+ ]
+}

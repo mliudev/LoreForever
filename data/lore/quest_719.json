@@ -1,0 +1,89 @@
+{
+ "key": "quest:719",
+ "type": "quest",
+ "name": "A Dwarf and His Tools",
+ "era": "classic",
+ "zone": "badlands",
+ "meta": {
+  "ids": [
+   719
+  ],
+  "level": "35",
+  "faction": "Alliance",
+  "start": "Prospector Ryedol",
+  "end": "Prospector Ryedol",
+  "previous": "",
+  "next": "",
+  "wiki": "A Dwarf and His Tools",
+  "chain": [],
+  "category": "Badlands"
+ },
+ "summary": "Prospector Ryedol warns that Dark Iron dwarves, looking like the Shadowforge clan, are all around. They just attacked the dig site where Ryedol worked, and Ryedol wants the lucky pick back.",
+ "sections": [
+  {
+   "title": "Raiders at the Dig",
+   "body": "Dark Iron dwarves of the Shadowforge clan, by Prospector Ryedol's account, have attacked the excavation site where Ryedol worked. They killed nearly everyone, Ryedol's boss Hammertoe among them, and Ryedol barely escaped with life intact. The site lies to the north of Ryedol's position.",
+   "spoiler": 0
+  },
+  {
+   "title": "A Lucky Pick",
+   "body": "Ryedol is working out how to win back some of the lost supplies, above all his lucky pick. One of the Dark Iron must be carrying it, though it could be any of them. Ryedol hopes you will help, and waits south of Hammertoe's Dig Site.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Prospector Ryedol?",
+   "aliases": [
+    "who is ryedol",
+    "prospector ryedol",
+    "who gives a dwarf and his tools"
+   ],
+   "answer": "Ryedol worked at an excavation site that Dark Iron dwarves attacked. He barely escaped and now waits south of Hammertoe's Dig Site."
+  },
+  {
+   "q": "Who attacked the excavation camp?",
+   "aliases": [
+    "who attacked the dig",
+    "who attacked hammertoe",
+    "what attacked the camp"
+   ],
+   "answer": "Dark Iron dwarves who looked to be of the Shadowforge clan."
+  },
+  {
+   "q": "What happened to Hammertoe?",
+   "aliases": [
+    "who is hammertoe",
+    "is hammertoe alive",
+    "what happened to boss hammertoe"
+   ],
+   "answer": "Hammertoe was Ryedol's boss, and was among those killed in the attack."
+  },
+  {
+   "q": "Where is the lucky pick located?",
+   "aliases": [
+    "where is ryedols lucky pick",
+    "how to find the pick",
+    "who has ryedols pick"
+   ],
+   "answer": "Ryedol believes one of the Dark Iron has it, though it could be any of them."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "badlands",
+  "dark iron",
+  "excavation",
+  "hammertoe",
+  "lucky pick",
+  "ryedol",
+  "shadowforge"
+ ],
+ "related": [
+  "npc:prospector-ryedol",
+  "zone:badlands"
+ ],
+ "attribution": [
+  "A Dwarf and His Tools"
+ ]
+}

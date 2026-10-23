@@ -1,0 +1,113 @@
+{
+ "key": "quest:507",
+ "type": "quest",
+ "name": "Lord Aliden Perenolde",
+ "era": "classic",
+ "zone": "hillsbrad",
+ "meta": {
+  "ids": [
+   507
+  ],
+  "level": "42",
+  "faction": "Horde",
+  "start": "Krusk",
+  "end": "Elysa",
+  "previous": "Blackmoore's Legacy",
+  "next": "Taretha's Gift",
+  "wiki": "Lord Aliden Perenolde (quest)",
+  "chain": [
+   "The Rescue",
+   "Infiltration (Classic)",
+   "Gol'dir (quest)",
+   "Blackmoore's Legacy",
+   "Lord Aliden Perenolde (quest)",
+   "Taretha's Gift"
+  ],
+  "prev_q": [
+   "Blackmoore's Legacy"
+  ],
+  "next_q": [
+   "Taretha's Gift"
+  ],
+  "category": "Hillsbrad Foothills"
+ },
+ "summary": "Krusk wants Lord Aliden Perenolde, leader of the Syndicate, dead and the Warchief's pendant recovered. His manor stands north, on the shores of Lordamere Lake, and his mistress Elysa is the one to ask about the pendant.",
+ "sections": [
+  {
+   "title": "The Lord of the Syndicate",
+   "body": "After Blackmoore's Legacy, Krusk says Perenolde has to die, and the world be rid of his foulness. The manor sits a way to the north, on the shores of Lordamere Lake, at Dandred's Fold. When the deed is done, you are to put your questions about Taretha's pendant, which the Warchief desires, to his mistress Elysa.",
+   "spoiler": 0
+  },
+  {
+   "title": "A Frightened Mistress",
+   "body": "Elysa is terrified when you come to her. She cries that she never meant your people any harm and that Perenolde kept her against her will, and she begs to be spared.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who sends you to kill Lord Aliden Perenolde?",
+   "aliases": [
+    "who gives lord aliden perenolde quest",
+    "where do i get lord aliden perenolde"
+   ],
+   "answer": "Krusk, after you have finished Blackmoore's Legacy."
+  },
+  {
+   "q": "Where is Lord Aliden Perenolde located?",
+   "aliases": [
+    "where is perenolde",
+    "lord aliden perenolde location",
+    "dandred's fold manor"
+   ],
+   "answer": "In his manor on the shores of Lordamere Lake, a way to the north. He is upstairs in the house at Dandred's Fold."
+  },
+  {
+   "q": "Who is Lord Aliden Perenolde?",
+   "aliases": [
+    "who is aliden perenolde",
+    "perenolde lore"
+   ],
+   "answer": "The leader of the Syndicate."
+  },
+  {
+   "q": "What item are you sent to retrieve after killing Perenolde?",
+   "aliases": [
+    "what pendant does thrall want",
+    "what does perenolde have"
+   ],
+   "answer": "Taretha's pendant, which the Warchief desires. You are to ask Perenolde's mistress, Elysa, about it."
+  },
+  {
+   "q": "What comes after this quest?",
+   "aliases": [
+    "what is after lord aliden perenolde",
+    "next quest after perenolde"
+   ],
+   "answer": "Taretha's Gift, the next part of the chain."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "alterac mountains",
+  "dandred's fold",
+  "elysa",
+  "krusk",
+  "lord aliden perenolde",
+  "lordamere lake",
+  "syndicate",
+  "taretha's pendant"
+ ],
+ "related": [
+  "quest:506",
+  "quest:508",
+  "npc:krusk",
+  "subzone:dandred-s-fold",
+  "subzone:lordamere-lake",
+  "topic:syndicate",
+  "zone:alterac"
+ ],
+ "attribution": [
+  "Lord Aliden Perenolde (quest)"
+ ]
+}

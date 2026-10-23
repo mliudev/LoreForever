@@ -1,0 +1,92 @@
+{
+ "key": "quest:77",
+ "type": "quest",
+ "name": "A Sticky Situation",
+ "era": "classic",
+ "zone": "hinterlands",
+ "meta": {
+  "ids": [
+   77
+  ],
+  "level": "48",
+  "faction": "Horde",
+  "start": "Gilveradin Sunchaser",
+  "end": "Gilveradin Sunchaser",
+  "previous": "",
+  "next": "",
+  "wiki": "A Sticky Situation",
+  "chain": [],
+  "category": "Hinterlands",
+  "chain_tpl": [
+   "Ripple Recovery"
+  ]
+ },
+ "summary": "Gilveradin Sunchaser holds the original packaging for the Hinterlands Honey Ripple that Dran Droffers is after, and will help package it for a fee of two extra bottles. The bottles are in crates around the abandoned Horde base near Skulk Rock.",
+ "sections": [
+  {
+   "title": "A Matter of Packaging",
+   "body": "Dran Droffers seeks the ripple, and Gilveradin Sunchaser has the original packaging for it. The help is not free: Gilveradin wants two additional bottles for the trouble. Ten bottles of Hinterlands Honey Ripple are to be gathered and brought back to the camp.",
+   "spoiler": 0
+  },
+  {
+   "title": "Ruins of Skulk Rock",
+   "body": "The crates stand around the abandoned Horde base near Skulk Rock. Foul slimes and oozes cling to the ruins, and rumor says some sort of master ooze leads them.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who wants the Hinterlands Honey Ripple packaged?",
+   "aliases": [
+    "who needs the ripple",
+    "dran droffers ripple",
+    "who is the packaging for"
+   ],
+   "answer": "Dran Droffers is the one seeking the ripple, and Gilveradin Sunchaser has the original packaging for it, which is meant for Malton's father."
+  },
+  {
+   "q": "What does Gilveradin charge for the packaging?",
+   "aliases": [
+    "why 10 bottles",
+    "gilveradin fee",
+    "why so much ripple"
+   ],
+   "answer": "Gilveradin asks for two additional bottles of the ripple as a fee. Ten bottles are to be recovered from the crates."
+  },
+  {
+   "q": "Where are the crates of Hinterlands Honey Ripple kept?",
+   "aliases": [
+    "ripple location",
+    "where is the honey ripple",
+    "skulk rock crates"
+   ],
+   "answer": "They are in crates around the abandoned Horde base near Skulk Rock in the Hinterlands."
+  },
+  {
+   "q": "What is at the abandoned camp at Skulk Rock?",
+   "aliases": [
+    "skulk rock monsters",
+    "what is at skulk rock",
+    "skulk rock oozes"
+   ],
+   "answer": "Foul slimes and oozes cling to the ruins, and rumor says a master ooze leads them."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "dran droffers",
+  "gilveradin sunchaser",
+  "hinterlands",
+  "hinterlands honey ripple",
+  "oozes",
+  "skulk rock",
+  "slimes"
+ ],
+ "related": [
+  "zone:hinterlands",
+  "topic:horde"
+ ],
+ "attribution": [
+  "Wowpedia: A Sticky Situation"
+ ]
+}

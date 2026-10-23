@@ -106,8 +106,8 @@ def validate_translation(zip_path: Path, project: dict, version: str) -> None:
 
 def quest_dialogue(folder: str) -> bool:
     """Quest dialogue folders that players install deliberately, including language and quest giver packs."""
-    return folder == "LoreForever_Voice_QuestGivers" or bool(re.fullmatch(
-        r"LoreForever_Voice_(Default|Female)_Quests(?:_[a-z]{2}[A-Z]{2})?", folder))
+    return bool(re.fullmatch(r"LoreForever_Voice_QuestGivers[23]?", folder)) or bool(re.fullmatch(
+        r"LoreForever_Voice_(Default|Female)_Quests(?:[23]|_[a-z]{2}[A-Z]{2})?", folder))
 
 
 def load_config(path: Path | None = None) -> list[dict]:

@@ -1,0 +1,78 @@
+{
+ "key": "quest:1251",
+ "type": "quest",
+ "name": "The Black Shield",
+ "era": "classic",
+ "zone": "dustwallow",
+ "meta": {
+  "ids": [
+   1251
+  ],
+  "level": "35",
+  "faction": "Horde",
+  "start": "Black Shield",
+  "end": "Krog",
+  "next": "The Black Shield",
+  "wiki": null,
+  "previous": ""
+ },
+ "summary": "The Shady Rest Inn lies burned out, and one of the few parts still standing is a crumbling chimney. A shield blackened by the flames is fixed to its brick. Krog at Brackenwall Village is the one to show it to.",
+ "sections": [
+  {
+   "title": "A Shield on the Chimney",
+   "body": "Fire tore through the Shady Rest Inn, and little of it remains. Fixed to the crumbling chimney is an iron shield charred black, and it can be worked free of the brick. Krog at Brackenwall Village is the one to bring it to, and will ask whether it counts as evidence from the inn's remains.",
+   "spoiler": 0
+  },
+  {
+   "title": "What Krog Makes of It",
+   "body": "Krog grants that humans have odd tastes in decoration, yet doubts anyone would hang a plain iron shield over a fireplace. Krog suspects whoever set the inn ablaze left it there, perhaps as a warning or a threat.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Where is the black shield found?",
+   "aliases": [
+    "black shield location",
+    "where is shield",
+    "shady rest inn shield"
+   ],
+   "answer": "It is fixed to the chimney of the burned Shady Rest Inn, one of the few remnants of the building."
+  },
+  {
+   "q": "Who gets the shield?",
+   "aliases": [
+    "who wants the black shield",
+    "where to turn in shield",
+    "krog location"
+   ],
+   "answer": "Krog, at Brackenwall Village, is the one to bring it to."
+  },
+  {
+   "q": "Can the shield be taken from the chimney?",
+   "aliases": [
+    "can i remove the shield",
+    "take shield off chimney"
+   ],
+   "answer": "Yes, it can be worked loose from the chimney's brick."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "black shield",
+  "blackened iron shield",
+  "brackenwall village",
+  "dustwallow marsh",
+  "krog",
+  "shady rest inn"
+ ],
+ "related": [
+  "quest:1321",
+  "subzone:shady-rest-inn",
+  "subzone:brackenwall-village",
+  "zone:dustwallow"
+ ],
+ "attribution": [
+  "Classic quest text: The Black Shield"
+ ]
+}

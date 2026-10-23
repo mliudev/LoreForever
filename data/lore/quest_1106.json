@@ -1,0 +1,100 @@
+{
+ "key": "quest:1106",
+ "type": "quest",
+ "name": "Martek the Exiled",
+ "era": "classic",
+ "zone": "thousandneedles",
+ "meta": {
+  "ids": [
+   1106
+  ],
+  "level": "35",
+  "faction": null,
+  "start": "Fizzle Brassbolts",
+  "end": "Martek the Exiled",
+  "previous": "Salt Flat Venom",
+  "next": "Indurium",
+  "wiki": "Martek the Exiled (quest)",
+  "chain": [
+   "Salt Flat Venom",
+   "Hardened Shells",
+   "Martek the Exiled (quest)",
+   "Indurium",
+   "News for Fizzle"
+  ],
+  "prev_q": [
+   "Salt Flat Venom"
+  ],
+  "next_q": [
+   "Indurium"
+  ],
+  "category": "Thousand Needles"
+ },
+ "summary": "Fizzle Brassbolts is building a new engine for his car, but he cannot make pistons hard enough to take the strain. He sends you with a letter to a great smith named Martek the Exiled, far off in a camp in the Badlands.",
+ "sections": [
+  {
+   "title": "A Letter for the Smith",
+   "body": "After Salt Flat Venom, Fizzle at the Mirage Raceway explains that his new engine should make the car so fast it could fly. All his trials have failed because he cannot make pistons hard enough for the heavy stress. He knows one person who might know how: Martek the Exiled, a great smith who knows more about metal than anyone. Martek is a long way off in the Badlands, camped there with a goblin, and you carry Fizzle's letter to him.",
+   "spoiler": 0
+  },
+  {
+   "title": "At the Camp",
+   "body": "Martek is not friendly when you find the camp. Martek asks whether you have come over an axe made for Gath'Ilzogg, or to reclaim Duchess Pamay's honor, and says that if a fight is what you want, it may as well start now.",
+   "spoiler": 1
+  },
+  {
+   "title": "Martek's Reply",
+   "body": "Learning that Fizzle sent you changes everything. Martek says Fizzle and his brother are among the few who do not want him dead, and agrees to help with pistons strong enough for whatever stress Fizzle has planned, since the new car sounds, to Martek, like a volcano on wheels.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Why does Fizzle Brassbolts need Martek's help?",
+   "aliases": [
+    "why visit martek",
+    "fizzle brassbolts piston problem",
+    "why martek the exiled"
+   ],
+   "answer": "Fizzle's new engine should make the car fast enough to fly, but every trial has failed because he cannot make pistons hard enough for the stress. Martek is a great smith who knows more about metal than anyone."
+  },
+  {
+   "q": "Where is Martek the Exiled located?",
+   "aliases": [
+    "where is martek",
+    "martek the exiled location",
+    "how to find martek"
+   ],
+   "answer": "In the Badlands, in a camp where a goblin is also staying."
+  },
+  {
+   "q": "What came before this journey?",
+   "aliases": [
+    "prerequisites for martek the exiled",
+    "what quest comes before martek the exiled"
+   ],
+   "answer": "Salt Flat Venom, which comes before it in the chain. Indurium follows it."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "badlands",
+  "fizzle brassbolts",
+  "gath'ilzogg",
+  "martek the exiled",
+  "mirage raceway",
+  "pistons",
+  "thousand needles"
+ ],
+ "related": [
+  "npc:fizzle-brassbolts",
+  "quest:1104",
+  "quest:1108",
+  "zone:badlands",
+  "subzone:mirage-raceway",
+  "npc:gath-ilzogg"
+ ],
+ "attribution": [
+  "Martek the Exiled (quest)"
+ ]
+}

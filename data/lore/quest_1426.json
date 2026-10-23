@@ -1,0 +1,97 @@
+{
+ "key": "quest:1426",
+ "type": "quest",
+ "name": "Threat From the Sea",
+ "era": "classic",
+ "zone": "swampofsorrows",
+ "meta": {
+  "ids": [
+   1426
+  ],
+  "level": "43",
+  "faction": "Horde",
+  "start": "Katar",
+  "end": "Katar",
+  "previous": "Threat From the Sea",
+  "next": "Threat From the Sea (3)",
+  "wiki": "Threat From the Sea (2)",
+  "chain": [],
+  "prev_q": [
+   "Threat From the Sea"
+  ],
+  "next_q": [
+   "Threat From the Sea (3)"
+  ],
+  "category": "Swamp of Sorrows",
+  "chain_tpl": [
+   "Lack of Surplus"
+  ]
+ },
+ "summary": "After Tok'Kar sends you to speak with Katar, Katar makes plain a hatred of the sea. Watching the fish men die at the hands of anyone who does the Horde's will gives Katar some pleasure, and Katar asks how many you can slay and whether you would test yourself against their strongest kind.",
+ "sections": [
+  {
+   "title": "A Grudge Against the Sea",
+   "body": "Katar bears no affection for the sea or for any creature that comes out of it, and calls it a mistress strong but blind, callous and brutal. Killing the fish men by the hundreds would delight Katar, were it possible, and watching them fall to those who serve the Horde gives a little satisfaction. Katar, in the Swamp of Sorrows, asks you to slay marsh murlocs, marsh inkspewers and marsh flesheaters.",
+   "spoiler": 0
+  },
+  {
+   "title": "Katar's Verdict",
+   "body": "On your return, Katar says the sea may seem vast and relentless, yet her own offspring now bear your bloody mark. The fish men now know pain and must rebuild their ranks, which Katar finds good, and Katar will smile each time one is silenced. Katar invites you back to slay more.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Why does Katar want the murlocs destroyed?",
+   "aliases": [
+    "why kill murlocs",
+    "katar murlocs",
+    "why hate sea"
+   ],
+   "answer": "Katar bears no love for the sea or what comes out of it, and would gladly see the fish men slain by the hundreds. Watching them die to those who do the Horde's will gives some pleasure."
+  },
+  {
+   "q": "Where does this hunt take place?",
+   "aliases": [
+    "where are the marsh murlocs",
+    "threat from the sea location"
+   ],
+   "answer": "In the Swamp of Sorrows, among marsh murlocs, marsh inkspewers and marsh flesheaters."
+  },
+  {
+   "q": "Who gives this hunt?",
+   "aliases": [
+    "who gives threat from the sea",
+    "threat from the sea questgiver"
+   ],
+   "answer": "Katar, whom Tok'Kar sent you to speak with in the Swamp of Sorrows."
+  },
+  {
+   "q": "What comes before this hunt?",
+   "aliases": [
+    "threat from the sea prerequisite",
+    "threat from the sea previous quest"
+   ],
+   "answer": "It follows the first Threat From the Sea, in which Tok'Kar sent you to speak with Katar."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "katar",
+  "marsh flesheater",
+  "marsh inkspewer",
+  "marsh murloc",
+  "murloc",
+  "swamp of sorrows",
+  "threat from the sea"
+ ],
+ "related": [
+  "quest:1422",
+  "zone:swampofsorrows",
+  "topic:murloc",
+  "topic:horde"
+ ],
+ "attribution": [
+  "Threat From the Sea (2)"
+ ]
+}

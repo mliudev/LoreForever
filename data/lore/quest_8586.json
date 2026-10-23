@@ -1,0 +1,94 @@
+{
+ "key": "quest:8586",
+ "type": "quest",
+ "name": "Dirge's Kickin' Chimaerok Chops",
+ "era": "classic",
+ "zone": "tanaris",
+ "meta": {
+  "ids": [
+   8586
+  ],
+  "level": "60",
+  "faction": null,
+  "start": "Dirge Quikcleave",
+  "end": "Dirge Quikcleave",
+  "previous": "",
+  "next": "Return to Narain",
+  "wiki": "Dirge's Kickin' Chimaerok Chops (quest)",
+  "chain": [],
+  "next_q": [
+   "Return to Narain"
+  ],
+  "category": "Tanaris",
+  "chain_tpl": [
+   "Azuregos's Magical Ledger"
+  ]
+ },
+ "summary": "Dirge Quikcleave in Gadgetzan has finished working out his recipe. He still needs twenty Goblin Rocket Fuel and twenty Deeprock Salt from you, and he wants them fast so the meat you brought him does not spoil.",
+ "sections": [
+  {
+   "title": "What Dirge Still Needs",
+   "body": "Dirge Quikcleave sees to the spices himself, and the meat you brought him makes up the remainder of the dish. All he lacks is rocket fuel and deeprock salt, twenty of each. With those in his hands, the chicken will be ready to go back to Narain Soothfancy. Dirge urges you not to dawdle, because he does not want the meat going bad.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who asks for these supplies?",
+   "aliases": [
+    "who starts this quest",
+    "who gives dirge's kickin chimaerok chops",
+    "dirge quikcleave quest"
+   ],
+   "answer": "Dirge Quikcleave in Gadgetzan asks for them, to finish his recipe."
+  },
+  {
+   "q": "What ingredients does Dirge Quikcleave need?",
+   "aliases": [
+    "what items do i need",
+    "ingredients for dirge chops",
+    "dirges chops items"
+   ],
+   "answer": "Dirge wants twenty Goblin Rocket Fuel and twenty Deeprock Salt. The spices are his own job, and the meat you gave him covers the rest."
+  },
+  {
+   "q": "Who is the finished dish intended for?",
+   "aliases": [
+    "who eats the chops",
+    "who gets the chicken",
+    "who is the food for"
+   ],
+   "answer": "Dirge says that once you bring him what he asked for, the bird is ready to be carried back to Narain Soothfancy."
+  },
+  {
+   "q": "What comes after delivering these ingredients?",
+   "aliases": [
+    "next quest",
+    "what do i do after dirge chops",
+    "what follows this quest"
+   ],
+   "answer": "Return to Narain is the next step."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "chimaerok",
+  "chops",
+  "deeprock salt",
+  "dirge",
+  "gadgetzan",
+  "narain",
+  "quikcleave",
+  "rocket fuel"
+ ],
+ "related": [
+  "npc:dirge-quikcleave",
+  "npc:narain-soothfancy",
+  "quest:8587",
+  "subzone:gadgetzan",
+  "zone:tanaris"
+ ],
+ "attribution": [
+  "Dirge's Kickin' Chimaerok Chops (quest)"
+ ]
+}

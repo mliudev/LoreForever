@@ -1,0 +1,87 @@
+{
+ "key": "quest:8241",
+ "type": "quest",
+ "name": "Restoring Fiery Flux Supplies via Iron",
+ "era": "classic",
+ "zone": "searinggorge",
+ "meta": {
+  "ids": [
+   8241
+  ],
+  "level": "60",
+  "faction": null,
+  "start": "Master Smith Burninate",
+  "end": "Master Smith Burninate",
+  "previous": "What the Flux?",
+  "next": "",
+  "wiki": "Restoring Fiery Flux Supplies via Iron",
+  "chain": [],
+  "category": "Searing Gorge",
+  "prev_q": [
+   "What the Flux?"
+  ]
+ },
+ "summary": "After What the Flux?, Master Smith Burninate turns to replenishing the dwindling supply of fiery flux in the Searing Gorge. Burninate wants incendosaur scales, iron bars, and coal, and will take all you can offer.",
+ "sections": [
+  {
+   "title": "Fiery Flux Wanted",
+   "body": "Master Smith Burninate has no time for idle talk. Fiery flux is running low, and Burninate asks for incendosaur scales, iron bars, and coal: two scales, four iron bars, and coal. Burninate will take all that you can offer.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who asks for these goods?",
+   "aliases": [
+    "who gives this quest",
+    "burninate fiery flux",
+    "where to turn in"
+   ],
+   "answer": "Master Smith Burninate in the Searing Gorge, who receives the goods in person."
+  },
+  {
+   "q": "What materials does Burninate want?",
+   "aliases": [
+    "what items do i need",
+    "materials for fiery flux",
+    "burninate turn in items"
+   ],
+   "answer": "Two incendosaur scales, four iron bars, and some coal."
+  },
+  {
+   "q": "What came before this request?",
+   "aliases": [
+    "prereq for this quest",
+    "previous quest fiery flux",
+    "what the flux prerequisite"
+   ],
+   "answer": "The step called What the Flux?, which Burninate gave you before this."
+  },
+  {
+   "q": "Why does Burninate want these goods?",
+   "aliases": [
+    "why fiery flux",
+    "burninate motivation"
+   ],
+   "answer": "Burninate says the supply of fiery flux is dwindling and wants it replenished."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "coal",
+  "fiery flux",
+  "incendosaur scale",
+  "iron bar",
+  "master smith burninate",
+  "restoring fiery flux supplies via iron",
+  "searing gorge",
+  "thorium brotherhood"
+ ],
+ "related": [
+  "quest:7722",
+  "zone:searinggorge"
+ ],
+ "attribution": [
+  "Restoring Fiery Flux Supplies via Iron"
+ ]
+}

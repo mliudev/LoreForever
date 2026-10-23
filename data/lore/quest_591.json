@@ -1,0 +1,119 @@
+{
+ "key": "quest:591",
+ "type": "quest",
+ "name": "The Mind's Eye",
+ "era": "classic",
+ "zone": "stranglethorn",
+ "meta": {
+  "ids": [
+   591
+  ],
+  "level": "46",
+  "faction": "Horde",
+  "start": "Kin'weelay",
+  "end": "Kin'weelay",
+  "previous": "The Singing Crystals",
+  "next": "Saving Yenniku (Classic)",
+  "wiki": "The Mind's Eye (Classic)",
+  "chain": [],
+  "prev_q": [
+   "The Singing Crystals"
+  ],
+  "next_q": [
+   "Saving Yenniku (Classic)"
+  ],
+  "category": "Stranglethorn Vale",
+  "chain_tpl": [
+   "Fate of Yenniku"
+  ]
+ },
+ "summary": "Kin'weelay at Grom'gol Base Camp seeks a powerful gem known as the Mind's Eye, an artifact essential for rescuing young Yenniku. The stone rests in the hands of the formidable ogre spellcaster Mai'Zoth, who dwells deep within the Mosh'Ogg Ogre Mound.",
+ "sections": [
+  {
+   "title": "A Powerful Gem",
+   "body": "Following the recovery of the singing crystals, Kin'weelay turns his attention toward securing the Mind's Eye. This potent artifact is the solitary instrument capable of aiding the rescue of Yenniku, the son of the Darkspear chieftain. However, the stone is currently held by Mai'Zoth, a ruthless ogre mage whose presence Kin'weelay remembers from the tribe's earlier days in the jungle.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Depths of Mosh'Ogg",
+   "body": "Mai'Zoth resides deep inside the Mosh'Ogg Ogre Mound to the east of Grom'gol. His magical prowess was formidable even before acquiring the Mind's Eye, and the stone has only amplified his strength. Confronting him amidst the ogre stronghold is fraught with peril, but wresting the artifact from his grasp remains the sole hope of freeing the young troll.",
+   "spoiler": 0
+  },
+  {
+   "title": "Into the Nether",
+   "body": "With the recovery of the gem, Kin'weelay notes that defeating Mai'Zoth casts the ogre mage out of the realm of flesh and bone into the Nether. While his physical threat is extinguished, Kin'weelay harbors quiet concern that Mai'Zoth may begin a new dominion within the spirit world. For the moment, however, those worries are set aside so the witch doctor can prepare the ritual needed for Saving Yenniku.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who possesses the Mind's Eye?",
+   "aliases": [
+    "who has minds eye",
+    "where is the minds eye",
+    "who drops the minds eye"
+   ],
+   "answer": "The Mind's Eye is held by Mai'Zoth, an ogre mage who makes his lair deep within the Mosh'Ogg Ogre Mound east of Grom'gol Base Camp."
+  },
+  {
+   "q": "Why does Kin'weelay need the Mind's Eye?",
+   "aliases": [
+    "why do we need minds eye",
+    "purpose of minds eye",
+    "why get the minds eye"
+   ],
+   "answer": "Kin'weelay requires the artifact to perform a ritual, which he believes is the only way to save Yenniku, the lost son of the Darkspear chief."
+  },
+  {
+   "q": "Where does this stand in the search for Yenniku?",
+   "aliases": [
+    "what quest comes before the minds eye",
+    "previous quest minds eye",
+    "what comes after singing crystals"
+   ],
+   "answer": "This follows The Singing Crystals. Once the Mind's Eye is secured, the path opens for the next step, Saving Yenniku."
+  },
+  {
+   "q": "Who is Mai'Zoth?",
+   "aliases": [
+    "who is maizoth",
+    "about maizoth",
+    "maizoth lore"
+   ],
+   "answer": "Mai'Zoth is a vicious ogre mage known to Kin'weelay from the era when the Darkspear trolls inhabited the jungle. His magic is exceptionally strong, magnified further by the power of the Mind's Eye."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Troll",
+   "text": "Recovering the Mind's Eye is vital to freeing Yenniku, the son of the Darkspear chieftain."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "Operating out of Grom'gol Base Camp, this effort strikes directly at the ogre stronghold of Mosh'Ogg on behalf of the Darkspear trolls."
+  }
+ ],
+ "keywords": [
+  "darkspear",
+  "grom'gol",
+  "kin'weelay",
+  "mai'zoth",
+  "mind's eye",
+  "mosh'ogg",
+  "ogre mound",
+  "yenniku"
+ ],
+ "related": [
+  "quest:589",
+  "quest:592",
+  "npc:kin-weelay",
+  "quest:206",
+  "subzone:mosh-ogg-ogre-mound",
+  "subzone:grom-gol-base-camp",
+  "zone:stranglethorn",
+  "topic:mage"
+ ],
+ "attribution": [
+  "The Mind's Eye (Classic)"
+ ]
+}

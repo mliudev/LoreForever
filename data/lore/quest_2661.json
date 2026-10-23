@@ -1,0 +1,100 @@
+{
+ "key": "quest:2661",
+ "type": "quest",
+ "name": "Delivery for Marin",
+ "era": "classic",
+ "zone": "tanaris",
+ "meta": {
+  "ids": [
+   2661
+  ],
+  "level": "49",
+  "faction": null,
+  "start": "Sprinkle",
+  "end": "Marin Noggenfogger",
+  "previous": "Sprinkle's Secret Ingredient",
+  "next": "Noggenfogger Elixir (quest)",
+  "wiki": "Delivery for Marin",
+  "chain": [
+   "The Thirsty Goblin",
+   "In Good Taste",
+   "Sprinkle's Secret Ingredient",
+   "Delivery for Marin",
+   "Noggenfogger Elixir (quest)"
+  ],
+  "prev_q": [
+   "Sprinkle's Secret Ingredient"
+  ],
+  "next_q": [
+   "Noggenfogger Elixir (quest)"
+  ],
+  "category": "Tanaris"
+ },
+ "summary": "Sprinkle in Gadgetzan hands you the Violet Powder to carry to Marin Noggenfogger, along with a reminder that Marin owes her a favor.",
+ "sections": [
+  {
+   "title": "A Town Delivery",
+   "body": "With the Violet Tragan in hand, Sprinkle gives you the Violet Powder to take to Marin Noggenfogger, who is also in Gadgetzan. You are to tell Marin that a favor is owed to her.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who sends you to Marin Noggenfogger?",
+   "aliases": [
+    "who gives delivery for marin",
+    "delivery for marin quest giver",
+    "sprinkle delivery"
+   ],
+   "answer": "Sprinkle, in Gadgetzan, gives you the Violet Powder after you bring her the Violet Tragan."
+  },
+  {
+   "q": "What item are you delivering?",
+   "aliases": [
+    "what do you bring marin",
+    "marin delivery item",
+    "what powder is it"
+   ],
+   "answer": "Violet Powder, which Sprinkle gives you to carry to Marin Noggenfogger."
+  },
+  {
+   "q": "Where is Marin Noggenfogger located?",
+   "aliases": [
+    "marin noggenfogger location",
+    "where is marin",
+    "find marin noggenfogger"
+   ],
+   "answer": "In Gadgetzan, the same town as Sprinkle."
+  },
+  {
+   "q": "What message does Sprinkle want passed to Marin?",
+   "aliases": [
+    "sprinkle message",
+    "what does sprinkle say to marin",
+    "sprinkle favor"
+   ],
+   "answer": "She wants Marin told that he owes her a favor."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "gadgetzan",
+  "marin noggenfogger",
+  "noggenfogger elixir",
+  "sprinkle",
+  "tanaris",
+  "violet powder"
+ ],
+ "related": [
+  "quest:2641",
+  "quest:2662",
+  "quest:2606",
+  "quest:2605",
+  "subzone:gadgetzan",
+  "zone:tanaris",
+  "topic:goblin"
+ ],
+ "attribution": [
+  "Delivery for Marin"
+ ]
+}

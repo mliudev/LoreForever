@@ -1,0 +1,104 @@
+{
+ "key": "quest:195",
+ "type": "quest",
+ "name": "Raptor Mastery",
+ "era": "classic",
+ "zone": "stranglethorn",
+ "meta": {
+  "ids": [
+   195
+  ],
+  "level": "36",
+  "faction": null,
+  "start": "Hemet Nesingwary",
+  "end": "Hemet Nesingwary",
+  "previous": "Raptor Mastery (Classic)",
+  "next": "Raptor Mastery (3)",
+  "wiki": "Raptor Mastery (2)",
+  "chain": [],
+  "prev_q": [
+   "Raptor Mastery (Classic)"
+  ],
+  "next_q": [
+   "Raptor Mastery (3)"
+  ],
+  "category": "Stranglethorn Vale",
+  "chain_tpl": [
+   "Big Game Hunter (Classic)"
+  ]
+ },
+ "summary": "Deep in the jungle of Stranglethorn Vale, Hemet Nesingwary challenges hunters to step up their game against more dangerous quarry. Following an earlier raptor hunt, he directs adventurers to pursue and bring down ten Lashtail Raptors.",
+ "sections": [
+  {
+   "title": "A Steeper Challenge",
+   "body": "After proving an initial measure of hunting prowess, Hemet Nesingwary expects more than idly passing time by the camp's fire. To prove true focus and skill, hunters are dispatched into the dense jungle brush just north of Grom'gol Base Camp to track down and slay ten fierce Lashtail Raptors.",
+   "spoiler": 0
+  },
+  {
+   "title": "Trophies for the Hearth",
+   "body": "Returning successful from the jungle earns Nesingwary's hearty approval. The seasoned hunter considers such dangerous predators worthy quarry, well suited for securing trophies above the hearth, and prepares the adventurer for even greater challenges.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who offers this hunting challenge?",
+   "aliases": [
+    "who starts raptor mastery 2",
+    "raptor mastery quest giver",
+    "where to get raptor mastery"
+   ],
+   "answer": "The famed big game hunter Hemet Nesingwary issues the challenge from his expedition camp in northern Stranglethorn Vale."
+  },
+  {
+   "q": "What quarry are you tasked with hunting?",
+   "aliases": [
+    "what raptors to kill",
+    "which raptor quest",
+    "lashtail raptor target"
+   ],
+   "answer": "You are challenged to track into the jungle and slay ten Lashtail Raptors."
+  },
+  {
+   "q": "Where are the Lashtail Raptors found?",
+   "aliases": [
+    "where are lashtail raptors",
+    "lashtail raptor location",
+    "where to find lashtails"
+   ],
+   "answer": "Lashtail Raptors prowl the wild foliage of northern Stranglethorn Vale, particularly north of Grom'gol Base Camp."
+  },
+  {
+   "q": "Where does this hunt fit into Nesingwary's trials?",
+   "aliases": [
+    "what comes before this raptor hunt",
+    "raptor mastery progression",
+    "raptor quest chain"
+   ],
+   "answer": "This is the second trial in the raptor series, following the introductory Raptor Mastery hunt and leading into a third part of the challenge."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Hunter",
+   "text": "For trackers and beast stalkers, Hemet Nesingwary's challenges test fundamental hunting discipline against the deadlier predators roaming Stranglethorn Vale."
+  }
+ ],
+ "keywords": [
+  "grom'gol base camp",
+  "hemet nesingwary",
+  "hunting",
+  "lashtail raptor",
+  "raptor mastery",
+  "stranglethorn vale"
+ ],
+ "related": [
+  "quest:5762",
+  "zone:stranglethorn",
+  "subzone:grom-gol-base-camp",
+  "topic:hunter"
+ ],
+ "attribution": [
+  "Raptor Mastery (2)"
+ ]
+}

@@ -1,0 +1,98 @@
+{
+ "key": "quest:203",
+ "type": "quest",
+ "name": "The Second Rebellion",
+ "era": "classic",
+ "zone": "stranglethorn",
+ "meta": {
+  "ids": [
+   203
+  ],
+  "level": "33",
+  "faction": "Alliance",
+  "start": "Sergeant Yohwa",
+  "end": "Sergeant Yohwa",
+  "previous": "",
+  "next": "Special Forces",
+  "wiki": "The Second Rebellion",
+  "chain": [],
+  "next_q": [
+   "Special Forces"
+  ],
+  "category": "Stranglethorn Vale",
+  "chain_tpl": [
+   "Special Forces/Quest chain"
+  ]
+ },
+ "summary": "At the Rebel Camp in northern Stranglethorn Vale, Sergeant Yohwa seeks help against the overwhelming forces of Colonel Kurzen. Outnumbered ten to one by a cunning tactician, the rebels must rely on swift, covert strikes to survive. Cutting down Kurzen's jungle fighters is the first step toward relieving the relentless pressure on their refuge.",
+ "sections": [
+  {
+   "title": "A Losing Battle",
+   "body": "The soldiers at the Rebel Camp face dire odds against Colonel Kurzen. Yohwa explains that the Colonel is a brilliant military tactician whose force outnumbers the rebellion by at least ten to one. Unable to wage an open war of attrition, the rebels have no choice but to adopt the Colonel's own covert tactics, launching quick incursions into his encampment to thin his ranks and escaping before heavy reinforcements can retaliate.",
+   "spoiler": 0
+  },
+  {
+   "title": "Striking the Compound",
+   "body": "To stem the tide, Yohwa asks you to push east into Kurzen's stronghold and eliminate a sizable contingent of his jungle fighters. Thinning out these foot soldiers eases the pressure bearing down on the Rebel Camp.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Sergeant Yohwa?",
+   "aliases": [
+    "yohwa",
+    "who gives the second rebellion",
+    "sergeant yohwa"
+   ],
+   "answer": "Sergeant Yohwa is an officer stationed at the Rebel Camp in northern Stranglethorn Vale, coordinating covert strikes against the host led by Colonel Kurzen."
+  },
+  {
+   "q": "Where is Colonel Kurzen's camp located?",
+   "aliases": [
+    "kurzen camp location",
+    "where are the jungle fighters",
+    "kurzen location"
+   ],
+   "answer": "Colonel Kurzen's compound lies to the east of the Rebel Camp in the dense wilderness of northern Stranglethorn Vale."
+  },
+  {
+   "q": "Why are the rebels using covert tactics instead of open war?",
+   "aliases": [
+    "why covert",
+    "why not fight kurzen openly",
+    "rebel tactics"
+   ],
+   "answer": "The rebels are outnumbered at least ten to one by Colonel Kurzen, a brilliant military strategist. Facing such massive odds, a direct assault is impossible, forcing the rebels to rely on rapid guerrilla strikes."
+  },
+  {
+   "q": "What comes after The Second Rebellion?",
+   "aliases": [
+    "next quest",
+    "what is after the second rebellion",
+    "follow up to the second rebellion"
+   ],
+   "answer": "After cutting down Kurzen's jungle fighters, Sergeant Yohwa offers the follow-up step titled Special Forces."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "colonel kurzen",
+  "jungle fighter",
+  "kurzen",
+  "rebel camp",
+  "sergeant yohwa",
+  "special forces",
+  "stranglethorn vale",
+  "yohwa"
+ ],
+ "related": [
+  "subzone:rebel-camp",
+  "npc:colonel-kurzen",
+  "quest:574",
+  "zone:stranglethorn"
+ ],
+ "attribution": [
+  "The Second Rebellion"
+ ]
+}

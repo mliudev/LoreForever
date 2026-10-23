@@ -1,0 +1,95 @@
+{
+ "key": "quest:2990",
+ "type": "quest",
+ "name": "Thadius Grimshade",
+ "era": "classic",
+ "zone": "hinterlands",
+ "meta": {
+  "ids": [
+   2990
+  ],
+  "level": "47",
+  "faction": "Alliance",
+  "start": "Gryphon Master Talonaxe",
+  "end": "Thadius Grimshade",
+  "previous": "The Altar of Zul (quest)",
+  "next": "",
+  "wiki": "Thadius Grimshade (quest)",
+  "chain": [
+   "Witherbark Cages",
+   "The Altar of Zul (quest)",
+   "Thadius Grimshade (quest)",
+   "Nekrum's Medallion (quest)",
+   "The Divination",
+   "Return to the Hinterlands",
+   "Saving Sharpbeak"
+  ],
+  "prev_q": [
+   "The Altar of Zul (quest)"
+  ],
+  "category": "Hinterlands"
+ },
+ "summary": "Gryphon Master Talonaxe hands you a feather taken from the gryphon child Sharpbeak's nest. You are to carry it to the diviner Thadius Grimshade, who dwells in Nethergarde Keep's mage tower in the Blasted Lands.",
+ "sections": [
+  {
+   "title": "A Plea to a Diviner",
+   "body": "Years ago Thadius Grimshade quit Aerie Peak to chase darker knowledge, yet Talonaxe says he remains a Wildhammer at heart. With luck, divining magic and the feather from Sharpbeak's nest will let Thadius find the gryphon child. Talonaxe says Thadius is to be found in the mage tower at Nethergarde Keep, in the Blasted Lands.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Diviner's Welcome",
+   "body": "Thadius greets you as someone bearing a gift. He knows the feather at once as belonging to a fine gryphon, one meant for great things if he lives to grow up unharmed. He then tells you to listen closely.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Thadius Grimshade?",
+   "aliases": [
+    "thadius grimshade lore",
+    "who is thadius"
+   ],
+   "answer": "Thadius Grimshade is a diviner. He quit Aerie Peak years ago to chase darker knowledge, though Talonaxe says he remains a Wildhammer at heart."
+  },
+  {
+   "q": "Why do you need Sharpbeak's feather?",
+   "aliases": [
+    "why sharpbeak feather",
+    "feather purpose"
+   ],
+   "answer": "The feather was gathered at the nest where Sharpbeak sleeps. Talonaxe hopes Thadius can use his divining magics on it to find the young gryphon."
+  },
+  {
+   "q": "Where is Thadius Grimshade located?",
+   "aliases": [
+    "thadius grimshade location",
+    "where is thadius"
+   ],
+   "answer": "Thadius Grimshade dwells in the Blasted Lands, in Nethergarde Keep's mage tower."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "aerie peak",
+  "blasted lands",
+  "divination",
+  "gryphon",
+  "nethergarde keep",
+  "sharpbeak",
+  "talonaxe",
+  "thadius grimshade"
+ ],
+ "related": [
+  "npc:thadius-grimshade",
+  "quest:1450",
+  "subzone:nethergarde-keep",
+  "zone:blastedlands",
+  "zone:hinterlands",
+  "quest:2989",
+  "quest:2992",
+  "quest:2994"
+ ],
+ "attribution": [
+  "Thadius Grimshade (quest)"
+ ]
+}

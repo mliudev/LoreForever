@@ -1,0 +1,119 @@
+{
+ "key": "quest:640",
+ "type": "quest",
+ "name": "The Broken Sigil",
+ "era": "classic",
+ "zone": "arathi",
+ "meta": {
+  "ids": [
+   640
+  ],
+  "level": "40",
+  "faction": "Horde",
+  "start": "Zengu",
+  "end": "Tor'gan",
+  "previous": "Sigil of Strom (Classic)",
+  "next": "Sigil of Thoradin (Classic)",
+  "wiki": "The Broken Sigil",
+  "chain": [],
+  "prev_q": [
+   "Sigil of Strom (Classic)"
+  ],
+  "next_q": [
+   "Sigil of Thoradin (Classic)"
+  ],
+  "category": "Arathi Highlands",
+  "chain_tpl": [
+   "Broken Sigil"
+  ]
+ },
+ "summary": "After you took the first sigil from the Syndicate, Zengu sends you after the remaining two, which the dug-in Stromgarde militia guards. Galen, son of Thoras Trollbane, broke the Sigil of Thoradin into pieces, and you are to carry them to the troll shaman Tor'gan in Hammerfall.",
+ "sections": [
+  {
+   "title": "A Sigil in Pieces",
+   "body": "Three sigils guard the tomb of Thoras Trollbane, and you have already recovered the first from the Syndicate. The other two are harder to get, since the firmly entrenched Stromgarde militia holds them. Thoras' son, Galen, divided the Sigil of Thoradin into eleven pieces and dispersed them among the Stromgarde defenders.",
+   "spoiler": 0
+  },
+  {
+   "title": "To Tor'gan",
+   "body": "Zengu tells you to retrieve the pieces from the defenders in Stromgarde and take them to Tor'gan, the troll shaman at Hammerfall, who can bind them into the whole sigil.",
+   "spoiler": 0
+  },
+  {
+   "title": "At Hammerfall",
+   "body": "Tor'gan says Zengu told him you needed his help. Seeing the pieces, he judges the work not too difficult, since all of them are present and the magical structure is easy to reform. He warns you to close your eyes, and soon declares the Sigil of Thoradin whole once again.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is the Sigil of Thoradin?",
+   "aliases": [
+    "sigil of thoradin lore",
+    "broken sigil meaning",
+    "what is the broken sigil"
+   ],
+   "answer": "It is one of three sigils protecting Thoras Trollbane's tomb. His son Galen divided it into eleven pieces and dispersed them among the Stromgarde defenders."
+  },
+  {
+   "q": "Who divided the sigil?",
+   "aliases": [
+    "who broke the sigil",
+    "why is the sigil broken",
+    "galen trollbane sigil"
+   ],
+   "answer": "Galen, the son of Thoras Trollbane, divided the Sigil of Thoradin into eleven pieces and dispersed them among the Stromgarde defenders."
+  },
+  {
+   "q": "Where are the sigil fragments held?",
+   "aliases": [
+    "where to find fragments",
+    "who has the fragments",
+    "stromgarde defenders sigil"
+   ],
+   "answer": "The pieces are with the defenders in Stromgarde, where the firmly entrenched militia holds the remaining sigils."
+  },
+  {
+   "q": "Who can bind the broken sigil?",
+   "aliases": [
+    "who fixes the sigil",
+    "torgan sigil",
+    "who binds the fragments"
+   ],
+   "answer": "Tor'gan, the troll shaman at Hammerfall, will be able to bind the pieces into the complete sigil."
+  },
+  {
+   "q": "What came before this?",
+   "aliases": [
+    "previous quest",
+    "what quest comes before the broken sigil",
+    "sigil chain start"
+   ],
+   "answer": "It follows Sigil of Strom, in which you retrieved the first sigil from the Syndicate."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "arathi highlands",
+  "broken sigil",
+  "galen trollbane",
+  "hammerfall",
+  "sigil of thoradin",
+  "stromgarde",
+  "thoras trollbane",
+  "tor'gan",
+  "zengu"
+ ],
+ "related": [
+  "quest:641",
+  "subzone:hammerfall",
+  "zone:arathi",
+  "quest:645",
+  "topic:shaman",
+  "topic:syndicate",
+  "topic:troll"
+ ],
+ "attribution": [
+  "The Broken Sigil"
+ ]
+}

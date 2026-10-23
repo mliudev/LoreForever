@@ -1,0 +1,105 @@
+{
+ "key": "quest:1458",
+ "type": "quest",
+ "name": "Reagents for Reclaimers Inc.",
+ "era": "classic",
+ "zone": "desolace",
+ "meta": {
+  "ids": [
+   1458
+  ],
+  "level": "33",
+  "faction": "Alliance",
+  "start": "Kreldig Ungor",
+  "end": "Kreldig Ungor",
+  "previous": "Reclaimers' Business in Desolace",
+  "next": "Reagents for Reclaimers Inc. (2)",
+  "wiki": "Reagents for Reclaimers Inc. (quest)",
+  "chain": [],
+  "prev_q": [
+   "Reclaimers' Business in Desolace"
+  ],
+  "next_q": [
+   "Reagents for Reclaimers Inc. (2)"
+  ],
+  "category": "Desolace",
+  "chain_tpl": [
+   "Reagents for Reclaimers Inc."
+  ]
+ },
+ "summary": "Kreldig Ungor is gathering reagents for the gnome mage Leftwitch, who lives in Kharanos, and the Reclaimers are short-handed. He wants claws and horns from the Hatefury satyrs to the east before the rest of the list can begin.",
+ "sections": [
+  {
+   "title": "Leftwitch's List",
+   "body": "After Reclaimers' Business in Desolace, Kreldig Ungor has another job on his hands: fetching reagents for Leftwitch, the gnome mage who lives in Kharanos. Roetten reckons it is easy coin, since the Reclaimers are already out in Desolace, and Kreldig says he does not care that the crew is short-handed.",
+   "spoiler": 0
+  },
+  {
+   "title": "Horns and Claws",
+   "body": "The first items on the list should be simple enough. Kreldig wants ten claws and ten horns taken from the Hatefury satyrs to the east, who are found in the Sargeron ruins due east of Nijel's Point. Once he has them, the rest of the list can begin.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is requesting these reagents?",
+   "aliases": [
+    "who is leftwitch",
+    "reagents for reclaimers inc quest giver",
+    "who wants the reagents"
+   ],
+   "answer": "Kreldig Ungor is collecting them for a gnome mage named Leftwitch, who lives in Kharanos. Roetten thinks it is easy coin, since the Reclaimers are already out in Desolace."
+  },
+  {
+   "q": "Where are the Hatefury satyrs located?",
+   "aliases": [
+    "hatefury satyr location",
+    "where are hatefury claws",
+    "hatefury horns location"
+   ],
+   "answer": "The Hatefury satyrs are found in the ruins of Sargeron, due east of Nijel's Point."
+  },
+  {
+   "q": "What does Kreldig want from the satyrs?",
+   "aliases": [
+    "what do i need to collect",
+    "reagents for reclaimers inc items",
+    "satyr parts needed"
+   ],
+   "answer": "Ten Hatefury claws and ten Hatefury horns. With those in hand, he and you can move on to the next items on Leftwitch's list."
+  },
+  {
+   "q": "What does Kreldig think about satyrs?",
+   "aliases": [
+    "kreldig satyr lore",
+    "are satyrs night elves"
+   ],
+   "answer": "He calls them despicable creatures. He has heard they are linked in some way to the night elves, though he doubts it. In his view the story comes from the one elf who brought them into the war a few years back, and the world has been more dangerous and frightening since."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "desolace",
+  "hatefury",
+  "kharanos",
+  "kreldig ungor",
+  "leftwitch",
+  "reclaimers",
+  "roetten",
+  "sargeron",
+  "satyr"
+ ],
+ "related": [
+  "quest:1453",
+  "npc:kreldig-ungor",
+  "subzone:sargeron",
+  "subzone:nijel-s-point",
+  "subzone:kharanos",
+  "topic:satyr",
+  "topic:gnome",
+  "zone:desolace"
+ ],
+ "attribution": [
+  "Reagents for Reclaimers Inc. (quest)"
+ ]
+}

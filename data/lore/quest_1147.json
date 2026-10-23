@@ -1,0 +1,107 @@
+{
+ "key": "quest:1147",
+ "type": "quest",
+ "name": "The Swarm Grows",
+ "era": "classic",
+ "zone": "thousandneedles",
+ "meta": {
+  "ids": [
+   1147
+  ],
+  "level": "35",
+  "faction": "Horde",
+  "start": "Moktar Krin",
+  "end": "Moktar Krin",
+  "previous": "The Swarm Grows (2)",
+  "next": "",
+  "wiki": "The Swarm Grows (3)",
+  "chain": [
+   "The Swarm Grows",
+   "The Swarm Grows (2)",
+   "The Swarm Grows (3)"
+  ],
+  "prev_q": [
+   "The Swarm Grows (2)"
+  ],
+  "category": "Thousand Needles"
+ },
+ "summary": "Moktar Krin at Ironstone Camp says Belgrom wants the silithid pushed back into the depths they crawled out of. Moktar's own half-dead war party cannot do it, so Moktar asks you to take on the silithid at the dig site to the south.",
+ "sections": [
+  {
+   "title": "A Half-Dead War Party",
+   "body": "After The Swarm Grows (2), Moktar Krin says Belgrom considers the silithid a threat and wants them driven back into whatever depths they came from. Having already killed the dwarves the Explorers' League sent, Moktar now has a war party in no state to fight again, and cannot do it without help. The dig site lies to the south, and Moktar expects no more dwarves there. Searchers, hive drones and invaders are the silithid to be killed, and Moktar's party cannot leave until it is done.",
+   "spoiler": 0
+  },
+  {
+   "title": "Moktar's Thanks",
+   "body": "Moktar jokes that the ichor covering you actually improves your looks, though you reek of it. Moktar warns you to keep away from the kodo, and says the smell alone proves you have done your part against the silithid.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Where is the silithid infestation located?",
+   "aliases": [
+    "silithid location",
+    "where are the bugs",
+    "where is the dig site"
+   ],
+   "answer": "At the Rustmaul Dig Site, south of Ironstone Camp."
+  },
+  {
+   "q": "Why can't Moktar Krin's party handle the insects themselves?",
+   "aliases": [
+    "why help moktar",
+    "why is the war party hurt",
+    "moktar party condition"
+   ],
+   "answer": "Moktar's war party is half-dead after killing the dwarves the Explorers' League sent, and in that condition it cannot take on another battle."
+  },
+  {
+   "q": "Who wants the silithid driven back?",
+   "aliases": [
+    "who wants the silithid dead",
+    "belgrom silithid order"
+   ],
+   "answer": "Belgrom thinks the silithid are a threat and wants them pushed back into the depths they crawled up out of."
+  },
+  {
+   "q": "What kinds of silithid must be defeated?",
+   "aliases": [
+    "which silithid to kill",
+    "silithid targets"
+   ],
+   "answer": "Silithid Searchers, Silithid Hive Drones and Silithid Invaders, five of each."
+  },
+  {
+   "q": "Are there still dwarves at the dig site?",
+   "aliases": [
+    "are dwarves at rustmaul",
+    "explorers league at dig site"
+   ],
+   "answer": "Moktar says there should be no more dwarves to deal with there."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "belgrom",
+  "explorers' league",
+  "ironstone camp",
+  "moktar krin",
+  "rustmaul dig site",
+  "shimmering flats",
+  "silithid",
+  "thousand needles"
+ ],
+ "related": [
+  "subzone:rustmaul-dig-site",
+  "subzone:ironstone-camp",
+  "subzone:shimmering-flats",
+  "zone:thousandneedles",
+  "topic:explorers-league",
+  "topic:horde"
+ ],
+ "attribution": [
+  "The Swarm Grows (3)"
+ ]
+}

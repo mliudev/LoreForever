@@ -1,0 +1,115 @@
+{
+ "key": "quest:782",
+ "type": "quest",
+ "name": "Broken Alliances",
+ "era": "classic",
+ "zone": "badlands",
+ "meta": {
+  "ids": [
+   782
+  ],
+  "level": "43",
+  "faction": "Horde",
+  "start": "Gorn",
+  "end": "Gorn",
+  "previous": "",
+  "next": "Broken Alliances (2)",
+  "wiki": "Broken Alliances (1)",
+  "chain": [
+   "Broken Alliances (1)",
+   "Broken Alliances (2)"
+  ],
+  "next_q": [
+   "Broken Alliances (2)"
+  ],
+  "category": "Badlands"
+ },
+ "summary": "In Kargath, Gorn wants the Horde's honor restored after its alliance with Deathwing. The ogre Boss Tho'grun, hired to help get the Sign of the Earth, turned on the Horde and kept it for himself, and you are to take it back at Camp Boff.",
+ "sections": [
+  {
+   "title": "A Hired Band Turns",
+   "body": "During the Second War the Horde stood with the dragon Deathwing. Blacklash and Hematus, a pair of his lieutenants, ended up locked away in Lethlor Ravine, far off to the east. Gorn holds that these depraved allies of old must be silenced if the Horde's honor is to be restored. To open the drakes' prison the Horde needed the Sign of the Earth, and hired ogre mercenaries under Boss Tho'grun to help find it. Tho'grun turned on them, overwhelmed them and kept it for himself.",
+   "spoiler": 0
+  },
+  {
+   "title": "Camp Boff",
+   "body": "Gorn sends you southeast of Kargath to Camp Boff, to kill Tho'grun and carry the Sign of the Earth back. Gorn will be glad to see Tho'grun dead, and says the ogres are no longer part of the Horde.",
+   "spoiler": 0
+  },
+  {
+   "title": "What the Sign Opens",
+   "body": "With Tho'grun dead, Gorn expects the ogres to fall into disarray, a small victory leading to a larger one. With the Sign in the Horde's hands, the black drakes' prison in Lethlor can be opened, freeing them from endless imprisonment, but to their doom.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Gorn?",
+   "aliases": [
+    "who gives broken alliances",
+    "gorn kargath",
+    "gorn lore"
+   ],
+   "answer": "Gorn is the Horde figure in Kargath who sends you after the Sign of the Earth, and wants to restore the Horde's honor by silencing its depraved allies of old."
+  },
+  {
+   "q": "Why does Gorn want Boss Tho'grun dead?",
+   "aliases": [
+    "why kill thogrun",
+    "thogrun betrayal",
+    "boss thogrun lore"
+   ],
+   "answer": "The Horde hired Tho'grun and his ogre mercenaries to help obtain the Sign of the Earth. Tho'grun turned on them, overwhelmed them and kept it."
+  },
+  {
+   "q": "Where is Camp Boff?",
+   "aliases": [
+    "camp boff location",
+    "where is thogrun",
+    "find boss thogrun"
+   ],
+   "answer": "Camp Boff lies southeast of Kargath."
+  },
+  {
+   "q": "What is the Sign of the Earth?",
+   "aliases": [
+    "sign of the earth",
+    "what does sign of the earth do"
+   ],
+   "answer": "It is a key needed to unlock the prison of the drakes in Lethlor Ravine."
+  },
+  {
+   "q": "Which dragons are imprisoned in Lethlor Ravine?",
+   "aliases": [
+    "who is in lethlor ravine",
+    "blacklash and hematus",
+    "deathwing lieutenants"
+   ],
+   "answer": "Blacklash and Hematus, two of Deathwing's lieutenants from the time of the Horde's alliance with him in the Second War."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "badlands",
+  "blacklash",
+  "camp boff",
+  "deathwing",
+  "gorn",
+  "hematus",
+  "kargath",
+  "lethlor ravine",
+  "sign of the earth",
+  "tho'grun"
+ ],
+ "related": [
+  "subzone:kargath",
+  "subzone:lethlor-ravine",
+  "npc:deathwing",
+  "topic:second-war",
+  "topic:horde",
+  "zone:badlands"
+ ],
+ "attribution": [
+  "Broken Alliances (1)"
+ ]
+}

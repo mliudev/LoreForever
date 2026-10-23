@@ -1,0 +1,76 @@
+{
+ "key": "quest:98463",
+ "type": "quest",
+ "name": "Talk of the Town",
+ "era": "forever",
+ "zone": "stranglethorn",
+ "meta": {
+  "ids": [
+   98463
+  ],
+  "wiki": null,
+  "harvested": true,
+  "previous": "",
+  "next": ""
+ },
+ "summary": "A friendly barkeep points travelers eager for a livelier gathering toward the port of Booty Bay in Stranglethorn Vale. Those looking for wilder company are directed to seek out Nixxrax Fillamug at the Salty Sailor Tavern.",
+ "sections": [
+  {
+   "title": "A Word Across the Counter",
+   "body": "Word passes quickly between drink-servers and their patrons, and news travels far beyond the local counter. A friendly bartender passes along a tip about where the genuine commotion is brewing, pointing anyone searching for wilder spectacles toward the port of Booty Bay.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Salty Sailor",
+   "body": "The destination is the Salty Sailor Tavern, a lively establishment maintained by goblins amidst the bustle of Stranglethorn Vale. There, Nixxrax Fillamug keeps cups topped up for anyone who walks in.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Where does this lead?",
+   "aliases": [
+    "where do i go",
+    "destination",
+    "booty bay directions"
+   ],
+   "answer": "This leads to Stranglethorn Vale, straight to the goblin-run port town of Booty Bay."
+  },
+  {
+   "q": "Who are you supposed to find in Booty Bay?",
+   "aliases": [
+    "who to visit",
+    "who is nixxrax",
+    "nixxrax fillamug"
+   ],
+   "answer": "You are directed to find Nixxrax Fillamug inside the Salty Sailor Tavern, where he keeps everyone's drinks topped up."
+  },
+  {
+   "q": "Why send someone all the way to Stranglethorn Vale?",
+   "aliases": [
+    "why salty sailor",
+    "why go to booty bay",
+    "why the recommendation"
+   ],
+   "answer": "Bartenders hear all the gossip from their patrons, and word has it that the Salty Sailor Tavern holds the wildest festivities around, regardless of goblin management."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "booty bay",
+  "goblin tavern",
+  "nixxrax fillamug",
+  "salty sailor tavern",
+  "stranglethorn vale",
+  "talk of the town"
+ ],
+ "related": [
+  "subzone:salty-sailor-tavern",
+  "subzone:booty-bay",
+  "zone:stranglethorn",
+  "topic:goblin"
+ ],
+ "attribution": [
+  "In-game quest text: Talk of the Town"
+ ]
+}

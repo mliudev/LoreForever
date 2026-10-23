@@ -1,0 +1,91 @@
+{
+ "key": "quest:187",
+ "type": "quest",
+ "name": "Tiger Mastery",
+ "era": "classic",
+ "zone": "stranglethorn",
+ "meta": {
+  "ids": [
+   187
+  ],
+  "level": "35",
+  "faction": null,
+  "start": "Ajeck Rouack",
+  "end": "Ajeck Rouack",
+  "previous": "Tiger Mastery (2)",
+  "next": "Tiger Mastery (4)",
+  "wiki": "Tiger Mastery (3)",
+  "chain": [],
+  "prev_q": [
+   "Tiger Mastery (2)"
+  ],
+  "next_q": [
+   "Tiger Mastery (4)"
+  ],
+  "category": "Stranglethorn Vale",
+  "chain_tpl": [
+   "Big Game Hunter (Classic)"
+  ]
+ },
+ "summary": "Deep in the jungle at Nesingwary's Expedition, Ajeck Rouack raises the stakes of his hunting trials. He demands the death of ten elder Stranglethorn tigers to prove your prowess before the final test.",
+ "sections": [
+  {
+   "title": "A Test of Skill",
+   "body": "Following the earlier hunts, Ajeck Rouack asks you to pursue ten elder Stranglethorn tigers across the wilds. He considers these beasts both the most elusive to track and the fiercest to overcome. Felling ten of them serves as the prelude to a concluding trial, after which he promises to proclaim you a master tiger hunter before Master Nesingwary.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who assigns this trial?",
+   "aliases": [
+    "who gives tiger mastery",
+    "ajeck rouack quest",
+    "quest giver"
+   ],
+   "answer": "Ajeck Rouack offers this trial from the camp of Nesingwary's Expedition in northern Stranglethorn Vale."
+  },
+  {
+   "q": "What quarry are you tracking?",
+   "aliases": [
+    "what do i kill",
+    "which tigers",
+    "tiger mastery targets"
+   ],
+   "answer": "You must hunt down ten elder Stranglethorn tigers."
+  },
+  {
+   "q": "Why are elder Stranglethorn tigers singled out?",
+   "aliases": [
+    "why elder tigers",
+    "elder tiger difficulty"
+   ],
+   "answer": "Ajeck Rouack notes that elder Stranglethorn tigers are the hardest to find and the most ferocious to defeat among the local cats."
+  },
+  {
+   "q": "What comes before this hunt?",
+   "aliases": [
+    "previous quest",
+    "prerequisite"
+   ],
+   "answer": "This trial directly follows the second stage of Ajeck Rouack's Tiger Mastery series."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "ajeck rouack",
+  "big game hunting",
+  "elder stranglethorn tiger",
+  "nesingwary",
+  "stranglethorn vale",
+  "tiger mastery"
+ ],
+ "related": [
+  "subzone:nesingwary-s-expedition",
+  "zone:stranglethorn",
+  "topic:hunter"
+ ],
+ "attribution": [
+  "Tiger Mastery (3)"
+ ]
+}

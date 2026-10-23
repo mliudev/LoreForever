@@ -1,0 +1,80 @@
+{
+ "key": "quest:2747",
+ "type": "quest",
+ "name": "An Extraordinary Egg",
+ "era": "classic",
+ "zone": "tanaris",
+ "meta": {
+  "ids": [
+   2747
+  ],
+  "level": "60",
+  "faction": null,
+  "start": "Curgle Cranklehop",
+  "end": "Curgle Cranklehop",
+  "previous": "The Super Egg-O-Matic",
+  "next": "",
+  "wiki": "An Extraordinary Egg",
+  "chain": [
+   "The Super Egg-O-Matic",
+   "An Extraordinary Egg"
+  ],
+  "category": "Tanaris",
+  "prev_q": [
+   "The Super Egg-O-Matic"
+  ]
+ },
+ "summary": "Curgle Cranklehop has rarely seen an egg from Feralas in extraordinary shape. Such eggs are the rarest of all.",
+ "sections": [
+  {
+   "title": "A Rarity from Feralas",
+   "body": "Curgle Cranklehop says that very few eggs come out of Feralas in extraordinary shape, and that these are the rarest of all. An egg of that kind is what Curgle is looking for.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is looking for an extraordinary egg?",
+   "aliases": [
+    "who starts an extraordinary egg",
+    "who gives an extraordinary egg quest",
+    "curgle cranklehop egg"
+   ],
+   "answer": "Curgle Cranklehop, who is the inventor of the Super Egg-O-Matic."
+  },
+  {
+   "q": "Where do these extraordinary eggs come from?",
+   "aliases": [
+    "extraordinary egg location",
+    "where to find extraordinary egg",
+    "egg from feralas"
+   ],
+   "answer": "They are retrieved from Feralas, but very few arrive in extraordinary shape."
+  },
+  {
+   "q": "What comes before this request?",
+   "aliases": [
+    "prerequisite for extraordinary egg",
+    "an extraordinary egg chain",
+    "previous quest for extraordinary egg"
+   ],
+   "answer": "It follows The Super Egg-O-Matic."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "curgle cranklehop",
+  "extraordinary egg",
+  "feralas",
+  "super egg-o-matic",
+  "tanaris"
+ ],
+ "related": [
+  "quest:2741",
+  "zone:feralas",
+  "zone:tanaris"
+ ],
+ "attribution": [
+  "An Extraordinary Egg"
+ ]
+}

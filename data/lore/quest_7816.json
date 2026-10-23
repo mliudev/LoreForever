@@ -1,0 +1,91 @@
+{
+ "key": "quest:7816",
+ "type": "quest",
+ "name": "Gammerita, Mon!",
+ "era": "classic",
+ "zone": "hinterlands",
+ "meta": {
+  "ids": [
+   7816
+  ],
+  "level": "48",
+  "start": "Katoom the Angler",
+  "end": "Katoom the Angler",
+  "wiki": null,
+  "previous": "",
+  "next": ""
+ },
+ "summary": "Katoom the Angler, from Revantusk Village in the Hinterlands, has lost his best lure to Gammerita, the head of the saltwater snapjaws. You are asked to find her and get it back.",
+ "sections": [
+  {
+   "title": "A Thief Among the Turtles",
+   "body": "Katoom describes Gammerita as no ordinary turtle: she heads the saltwater snapjaws, and Katoom brands her a thief. She snapped his best lure off his line, and since then the fish have not bitten the way they used to.",
+   "spoiler": 0
+  },
+  {
+   "title": "Getting the Lure Back",
+   "body": "Katoom wants you to find Gammerita and recover the lure from her stomach. Gammerita keeps to the coast, among the other turtles.",
+   "spoiler": 0
+  },
+  {
+   "title": "Katoom's Hopes",
+   "body": "With the lure back in hand and fewer snapjaws about, Katoom expects the fish to come in by the heap.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Katoom the Angler?",
+   "aliases": [
+    "who is katoom",
+    "katoom revantusk",
+    "katoom location"
+   ],
+   "answer": "A fisher of Revantusk in the Hinterlands, who asks you to hunt Gammerita."
+  },
+  {
+   "q": "What is Gammerita?",
+   "aliases": [
+    "who is gammerita",
+    "what is gammerita",
+    "gammerita turtle"
+   ],
+   "answer": "A turtle unlike the others, who heads the saltwater snapjaws and whom Katoom calls a thief."
+  },
+  {
+   "q": "Why does Katoom want Gammerita dead?",
+   "aliases": [
+    "why kill gammerita",
+    "what did gammerita steal",
+    "katoom motive"
+   ],
+   "answer": "Gammerita snapped Katoom's best lure off his line, and the fish have not been biting the same since. Katoom wants the lure back from her stomach."
+  },
+  {
+   "q": "Where can Gammerita be found?",
+   "aliases": [
+    "where is gammerita",
+    "gammerita location",
+    "find gammerita"
+   ],
+   "answer": "On the coast, where she keeps company with the other saltwater snapjaw turtles."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "angler",
+  "gammerita",
+  "hinterlands",
+  "katoom",
+  "lure",
+  "revantusk",
+  "snapjaw",
+  "turtle"
+ ],
+ "related": [
+  "zone:hinterlands"
+ ],
+ "attribution": [
+  "Classic quest text: Gammerita, Mon!"
+ ]
+}

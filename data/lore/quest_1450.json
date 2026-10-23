@@ -1,0 +1,80 @@
+{
+ "key": "quest:1450",
+ "type": "quest",
+ "name": "Gryphon Master Talonaxe",
+ "era": "classic",
+ "zone": "hinterlands",
+ "meta": {
+  "ids": [
+   1450
+  ],
+  "level": "43",
+  "faction": "Alliance",
+  "start": "Falstad Wildhammer",
+  "end": "Gryphon Master Talonaxe",
+  "previous": "",
+  "next": "Rhapsody Shindigger (quest)",
+  "wiki": "Gryphon Master Talonaxe (quest)",
+  "chain": [],
+  "next_q": [
+   "Rhapsody Shindigger (quest)"
+  ],
+  "category": "Hinterlands",
+  "chain_tpl": [
+   "Into The Temple of Atal'Hakkar"
+  ]
+ },
+ "summary": "Falstad Wildhammer will not be drawn on who once flew with an old Explorers' League friend, and sends you off to ask the gryphon master. Gryphon Master Talonaxe waits inside the Aerie Peak Aviary.",
+ "sections": [
+  {
+   "title": "Sent Away",
+   "body": "Falstad Wildhammer has no patience for someone sent on behalf of an old Explorers' League member. Who that friend once flew with is not something Falstad knows, and the flight assignments are for the gryphon master to answer. Gryphon Master Talonaxe is to be found inside the Aerie Peak Aviary, and lingering around Falstad will earn real work.",
+   "spoiler": 0
+  },
+  {
+   "title": "What Talonaxe Remembers",
+   "body": "Talonaxe remembers sending a gryphon rider to help Brohann Caskbelly, and has long had a soft spot for the Explorers' League, since Talonaxe's father helped with the first excavation team to find Uldaman. The rider was Rhapsody Shindigger, whom Talonaxe thought the best at the time.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Why does Falstad Wildhammer send you to Talonaxe?",
+   "aliases": [
+    "why see talonaxe",
+    "falstad sending away",
+    "who is talonaxe"
+   ],
+   "answer": "Falstad does not know who the Explorers' League friend flew with, and points to the gryphon master as the one who handles flight assignments."
+  },
+  {
+   "q": "Where is Gryphon Master Talonaxe located?",
+   "aliases": [
+    "where is talonaxe",
+    "talonaxe location",
+    "aerie peak aviary"
+   ],
+   "answer": "Gryphon Master Talonaxe is inside the Aerie Peak Aviary."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "aerie peak",
+  "aviary",
+  "brohann caskbelly",
+  "explorers league",
+  "falstad wildhammer",
+  "gryphon master talonaxe",
+  "rhapsody shindigger",
+  "uldaman"
+ ],
+ "related": [
+  "quest:1451",
+  "topic:explorers-league",
+  "subzone:uldaman",
+  "zone:hinterlands"
+ ],
+ "attribution": [
+  "Wowpedia: Gryphon Master Talonaxe (quest)"
+ ]
+}

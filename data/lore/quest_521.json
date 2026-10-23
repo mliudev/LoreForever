@@ -1,0 +1,85 @@
+{
+ "key": "quest:521",
+ "type": "quest",
+ "name": "The Crown of Will",
+ "era": "classic",
+ "zone": "hillsbrad",
+ "meta": {
+  "ids": [
+   521
+  ],
+  "level": "43",
+  "faction": "Horde",
+  "start": "Melisara",
+  "end": "Sharlindra",
+  "previous": "The Crown of Will (4)",
+  "next": "",
+  "wiki": "The Crown of Will (5)",
+  "chain": [],
+  "prev_q": [
+   "The Crown of Will (4)"
+  ],
+  "category": "Hillsbrad Foothills",
+  "chain_tpl": [
+   "Crown of Will"
+  ]
+ },
+ "summary": "Only one thing remains. The Crown is to go to Sharlindra in the Undercity, who will make sure it reaches Lady Sylvanas.",
+ "sections": [
+  {
+   "title": "To the Undercity",
+   "body": "Melisara says all that remains is to take the Crown to Sharlindra in the Undercity, and she will pass it on to Lady Sylvanas. Melisara also warns you against thinking of using it for your own purposes. Mug'Thol's fate, Melisara says, is illustration enough.",
+   "spoiler": 0
+  },
+  {
+   "title": "Sharlindra's Reaction",
+   "body": "Sharlindra recognises it as the relic the ogre used to slip out from under the Dark Lady's will. It strikes Sharlindra as odd that something so plain held such power, and that it ended up in hands so clumsy. Sharlindra will take it to Lady Sylvanas and tell her of what you did.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who receives the Crown of Will in the Undercity?",
+   "aliases": [
+    "who gets crown of will",
+    "where do i take the crown",
+    "sharlindra turn in"
+   ],
+   "answer": "Sharlindra, in the Undercity. Melisara says she will see that Lady Sylvanas gets it."
+  },
+  {
+   "q": "Why does Melisara warn against using the crown?",
+   "aliases": [
+    "can i equip the crown",
+    "why not use crown of will",
+    "mugthol fate warning"
+   ],
+   "answer": "Melisara tells you not to use it for your own ends, and points to what happened to Mug'Thol as warning enough."
+  },
+  {
+   "q": "Who sends you with the crown?",
+   "aliases": [
+    "crown of will final part",
+    "who gives crown of will 5"
+   ],
+   "answer": "Melisara, as the fifth and last part of The Crown of Will, after the fourth."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "crown of will",
+  "hillsbrad",
+  "melisara",
+  "mugthol",
+  "sharlindra",
+  "sylvanas",
+  "undercity"
+ ],
+ "related": [
+  "zone:undercity",
+  "zone:hillsbrad"
+ ],
+ "attribution": [
+  "The Crown of Will (5)"
+ ]
+}

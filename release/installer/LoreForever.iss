@@ -131,13 +131,17 @@ Type: filesandordirs; Name: "{app}\_classic_beta_\Interface\AddOns\LoreForever_V
 Type: filesandordirs; Name: "{app}\_classic_beta_\Interface\AddOns\LoreForever_Voice_Female_MoreItems"; Check: VoiceChosen('female')
 Type: filesandordirs; Name: "{app}\_classic_beta_\Interface\AddOns\LoreForever_Voice_Female_MoreQuests1"; Check: VoiceChosen('female')
 Type: filesandordirs; Name: "{app}\_classic_beta_\Interface\AddOns\LoreForever_Voice_Female_MoreQuests2"; Check: VoiceChosen('female')
+Type: filesandordirs; Name: "{app}\_classic_beta_\Interface\AddOns\LoreForever_Voice_Female_MoreQuests3"; Check: VoiceChosen('female')
 
 Type: filesandordirs; Name: "{app}\_classic_beta_\Interface\AddOns\LoreForever_Voice_Default_Quests"; Check: VoiceChosen('quests')
+Type: filesandordirs; Name: "{app}\_classic_beta_\Interface\AddOns\LoreForever_Voice_Default_Quests2"; Check: VoiceChosen('quests')
+Type: filesandordirs; Name: "{app}\_classic_beta_\Interface\AddOns\LoreForever_Voice_Default_Quests3"; Check: VoiceChosen('quests')
 Type: filesandordirs; Name: "{app}\_classic_beta_\Interface\AddOns\LoreForever_Voice_Default_MorePlaces"; Check: VoiceChosen('quests')
 Type: filesandordirs; Name: "{app}\_classic_beta_\Interface\AddOns\LoreForever_Voice_Default_MorePeople"; Check: VoiceChosen('quests')
 Type: filesandordirs; Name: "{app}\_classic_beta_\Interface\AddOns\LoreForever_Voice_Default_MoreItems"; Check: VoiceChosen('quests')
 Type: filesandordirs; Name: "{app}\_classic_beta_\Interface\AddOns\LoreForever_Voice_Default_MoreQuests1"; Check: VoiceChosen('quests')
 Type: filesandordirs; Name: "{app}\_classic_beta_\Interface\AddOns\LoreForever_Voice_Default_MoreQuests2"; Check: VoiceChosen('quests')
+Type: filesandordirs; Name: "{app}\_classic_beta_\Interface\AddOns\LoreForever_Voice_Default_MoreQuests3"; Check: VoiceChosen('quests')
 
 Type: filesandordirs; Name: "{app}\_classic_beta_\Interface\AddOns\LoreForever_Voice_Original"; Check: VoiceChosen('original')
 Type: filesandordirs; Name: "{app}\_classic_beta_\Interface\AddOns\LoreForever_Voice_Original_Alliance"; Check: VoiceChosen('original')

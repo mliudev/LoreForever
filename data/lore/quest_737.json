@@ -1,0 +1,85 @@
+{
+ "key": "quest:737",
+ "type": "quest",
+ "name": "Forbidden Knowledge",
+ "era": "classic",
+ "zone": "badlands",
+ "meta": {
+  "ids": [
+   737
+  ],
+  "level": "40",
+  "faction": "Both",
+  "start": "",
+  "end": "Theldurin the Lost",
+  "previous": "The Star, the Hand and the Heart, The Star, the Hand and the Heart (Alliance)",
+  "next": "",
+  "wiki": "Forbidden Knowledge (Classic)",
+  "chain": [],
+  "prev_q": [
+   "The Star, the Hand and the Heart",
+   "The Star, the Hand and the Heart (Alliance)"
+  ],
+  "category": "Badlands",
+  "chain_tpl": [
+   "Solution to Doom"
+  ]
+ },
+ "summary": "Yagyin's Digest is handed over with a warning to guard it well from unfriendly hands. Theldurin the Lost is the one to carry it to.",
+ "sections": [
+  {
+   "title": "A Book That Burns",
+   "body": "Gerrig Bonegrip in Ironforge, or Keeper Bel'dugur in the Undercity, gives you the digest. You are cautioned to guard it well and keep it away from unfriendly hands, for it carries many truths and truth has a way of burning. Carry it to Theldurin the Lost.",
+   "spoiler": 0
+  },
+  {
+   "title": "Theldurin's Hope",
+   "body": "Theldurin cries out that hope glimmers and says your efforts may yet save them all, with a monument, a shrine and your name praised for generations to come. All of it holds only as long as THEY are not freed to rise to the surface, in which case, Theldurin says, everyone is worm food.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "What item needs to be delivered?",
+   "aliases": [
+    "what book is this",
+    "what is yagyin's digest",
+    "what do i bring"
+   ],
+   "answer": "Yagyin's Digest, a book that holds many truths. It must be guarded closely and kept from unfriendly hands."
+  },
+  {
+   "q": "Who receives the digest?",
+   "aliases": [
+    "who gets the book",
+    "who do i turn this into",
+    "where does the digest go"
+   ],
+   "answer": "The digest is meant for Theldurin the Lost."
+  },
+  {
+   "q": "What came before this?",
+   "aliases": [
+    "previous quest",
+    "what leads to this",
+    "what quest comes before forbidden knowledge"
+   ],
+   "answer": "It follows the step in which three items were fetched in exchange for the digest."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "badlands",
+  "forbidden knowledge",
+  "the star the hand and the heart",
+  "theldurin the lost",
+  "yagyin's digest"
+ ],
+ "related": [
+  "npc:theldurin-the-lost",
+  "zone:badlands"
+ ],
+ "attribution": [
+  "Forbidden Knowledge (Classic)"
+ ]
+}

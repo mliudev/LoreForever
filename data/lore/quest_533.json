@@ -1,0 +1,103 @@
+{
+ "key": "quest:533",
+ "type": "quest",
+ "name": "Infiltration",
+ "era": "classic",
+ "zone": "hillsbrad",
+ "meta": {
+  "ids": [
+   533
+  ],
+  "level": "34",
+  "faction": "Horde",
+  "start": "Krusk",
+  "end": "Krusk",
+  "previous": "",
+  "next": "Gol'dir (quest)",
+  "wiki": "Infiltration (Classic)",
+  "chain": [
+   "The Rescue",
+   "Infiltration (Classic)",
+   "Gol'dir (quest)",
+   "Blackmoore's Legacy",
+   "Lord Aliden Perenolde (quest)",
+   "Taretha's Gift"
+  ],
+  "next_q": [
+   "Gol'dir (quest)"
+  ],
+  "category": "Hillsbrad Foothills"
+ },
+ "summary": "In Tarren Mill, Krusk at last hears word and rumor of Gol'dir, an orc held prisoner by the Syndicate. The humans keep moving their captive about, so Krusk has narrowed the search to the Syndicate's large camp, just to the north of town, and wants you to bring back whatever information you can find.",
+ "sections": [
+  {
+   "title": "Word of Gol'dir",
+   "body": "Krusk has begun to hear word and rumor of Gol'dir. The Syndicate's humans keep moving the orc about, but the search is narrowing to their large camp, just to the north of Tarren Mill. Krusk sends you there to lay hands on whatever information you can and carry it back. Krusk fears that with each day Gol'dir's prospects darken.",
+   "spoiler": 0
+  },
+  {
+   "title": "News for Krusk",
+   "body": "What you bring back tells Krusk where Gol'dir is being held. That camp is not far from Tarren Mill, and Krusk hopes its defenders will be less prepared than the captors who took Krusk and the others the first time.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Krusk looking for?",
+   "aliases": [
+    "who is krusk looking for",
+    "who is goldir",
+    "who needs to be rescued"
+   ],
+   "answer": "Gol'dir, an orc held prisoner by the Syndicate, whose humans keep moving him about."
+  },
+  {
+   "q": "Where does Krusk send you to find the information?",
+   "aliases": [
+    "where do i go for infiltration",
+    "syndicate camp location",
+    "where is the syndicate missive"
+   ],
+   "answer": "To the Syndicate's large camp, just to the north of Tarren Mill, to bring back whatever information you can find about where Gol'dir is."
+  },
+  {
+   "q": "What information is needed to locate Gol'dir?",
+   "aliases": [
+    "what do i need to find",
+    "what item is krusk looking for",
+    "what is the missive"
+   ],
+   "answer": "Anything that shows where Gol'dir is. A Syndicate missive is what is brought back to Krusk."
+  },
+  {
+   "q": "Who is holding Gol'dir?",
+   "aliases": [
+    "who captured goldir",
+    "who is holding the orc captive"
+   ],
+   "answer": "The Syndicate. Its humans keep moving him about."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "alterac",
+  "gol'dir",
+  "hillsbrad",
+  "infiltration",
+  "krusk",
+  "missive",
+  "syndicate",
+  "tarren mill"
+ ],
+ "related": [
+  "quest:503",
+  "npc:krusk",
+  "subzone:tarren-mill",
+  "topic:syndicate",
+  "zone:hillsbrad",
+  "topic:horde"
+ ],
+ "attribution": [
+  "Infiltration (Classic)"
+ ]
+}

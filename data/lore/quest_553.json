@@ -1,0 +1,110 @@
+{
+ "key": "quest:553",
+ "type": "quest",
+ "name": "Helcular's Revenge",
+ "era": "classic",
+ "zone": "hillsbrad",
+ "meta": {
+  "ids": [
+   553
+  ],
+  "level": "33",
+  "faction": "Horde",
+  "start": "Novice Thaivand",
+  "end": "Helcular's Grave",
+  "previous": "Helcular's Revenge",
+  "next": "",
+  "wiki": "Helcular's Revenge (2)",
+  "chain": [
+   "Helcular's Revenge",
+   "Helcular's Revenge (2)"
+  ],
+  "prev_q": [
+   "Helcular's Revenge"
+  ],
+  "category": "Hillsbrad Foothills"
+ },
+ "summary": "Novice Thaivand hands you the Rod of Helcular. Three ceremonial pyres that Helcular fashioned for his most powerful spell must each charge it, and then it is to be driven into Helcular's grave in Southshore.",
+ "sections": [
+  {
+   "title": "The Three Flames",
+   "body": "Helcular fashioned three ceremonial pyres for his most powerful spell, and the rod must be charged from each one. The flames of Azel and Veraz lie within the Foothill Caverns, in the yeti cave at Darrow Hill. The third, the Flame of Uzel, is found in a small cave above the caverns, farther north in the mountains, near Growless Cave.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Grave in Southshore",
+   "body": "Once the rod is charged from all three flames, it is to be driven into Helcular's grave at Southshore, a heavily guarded human town. The graveyard sits in the northeast corner of the town, by the river, and the grave lies at the graveyard's southeastern corner.",
+   "spoiler": 0
+  },
+  {
+   "title": "After the Ritual",
+   "body": "When the charged rod is driven into the grave, a great rumbling comes from the ground, and Helcular returns, wandering the Southshore graveyard and attacking people nearby.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Where are the three ceremonial flames located?",
+   "aliases": [
+    "flame locations",
+    "where is flame of azel",
+    "where is flame of uzel",
+    "find the pyres"
+   ],
+   "answer": "Azel's flame and Veraz's flame are within the Foothill Caverns, in the yeti cave at Darrow Hill, in Hillsbrad Foothills. Uzel's flame is in a small cave above those caverns, farther north in the mountains near Growless Cave, in the Alterac Mountains."
+  },
+  {
+   "q": "Where is Helcular's grave?",
+   "aliases": [
+    "helcular grave location",
+    "where is the grave",
+    "southshore graveyard"
+   ],
+   "answer": "At Southshore, a heavily guarded human town. The graveyard sits in the northeast corner of the town, by the river, and the grave lies at the graveyard's southeastern corner."
+  },
+  {
+   "q": "Who provides the Rod of Helcular?",
+   "aliases": [
+    "who gives the rod",
+    "quest giver",
+    "novice thaivand"
+   ],
+   "answer": "Novice Thaivand gives you the rod."
+  },
+  {
+   "q": "What came before this quest?",
+   "aliases": [
+    "previous quest",
+    "helcular chain part 1"
+   ],
+   "answer": "Helcular's Revenge, in which Novice Thaivand needed Helcular's Rod found. Thaivand is Helcular's apprentice, and Helcular was killed by a human lynch mob and buried in the Southshore cemetery."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "alterac",
+  "azel",
+  "darrow hill",
+  "growless cave",
+  "helcular",
+  "hillsbrad",
+  "southshore",
+  "thaivand",
+  "uzel",
+  "veraz"
+ ],
+ "related": [
+  "quest:552",
+  "zone:hillsbrad",
+  "subzone:southshore",
+  "subzone:darrow-hill",
+  "subzone:growless-cave",
+  "zone:alterac",
+  "topic:horde",
+  "topic:human"
+ ],
+ "attribution": [
+  "Helcular's Revenge (2)",
+  "In-game quest text: Helcular's Revenge"
+ ]
+}

@@ -1,0 +1,100 @@
+{
+ "key": "quest:520",
+ "type": "quest",
+ "name": "The Crown of Will",
+ "era": "classic",
+ "zone": "hillsbrad",
+ "meta": {
+  "ids": [
+   520
+  ],
+  "level": "43",
+  "faction": "Horde",
+  "start": "Melisara",
+  "end": "Melisara",
+  "previous": "The Crown of Will (3)",
+  "next": "The Crown of Will (5)",
+  "wiki": "The Crown of Will (4)",
+  "chain": [],
+  "prev_q": [
+   "The Crown of Will (3)"
+  ],
+  "next_q": [
+   "The Crown of Will (5)"
+  ],
+  "category": "Hillsbrad Foothills",
+  "chain_tpl": [
+   "Crown of Will"
+  ]
+ },
+ "summary": "With Mug'Thol's lieutenants dead, Melisara in Tarren Mill sends you after Mug'Thol himself. You are to bring back his head and the Crown of Will, and the Crushridge resistance will be over.",
+ "sections": [
+  {
+   "title": "The Last Head",
+   "body": "Only Mug'Thol is left now. Melisara expects him to be reluctant to give up the Crown of Will, and thinks he is probably expecting you, given what befell his lieutenants. Find him, kill him, and carry his head and the Crown back to Tarren Mill.",
+   "spoiler": 0
+  },
+  {
+   "title": "Melisara's Reply",
+   "body": "Melisara is pleased with the work. Mug'Thol's head will adorn the topmost peak of the Ruins of Alterac, while the Deathguard are to crush whatever remains of the Crushridge.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who sends you to kill Mug'Thol?",
+   "aliases": [
+    "crown of will quest giver",
+    "who gives the crown of will",
+    "melisara quest"
+   ],
+   "answer": "Melisara, in Tarren Mill, who is also the one you bring his head to."
+  },
+  {
+   "q": "What does Melisara require from Mug'Thol?",
+   "aliases": [
+    "mugthol objectives",
+    "what do i get from mugthol",
+    "mug'thol items"
+   ],
+   "answer": "His head, and the Crown of Will."
+  },
+  {
+   "q": "Why does Melisara think Mug'Thol expects trouble?",
+   "aliases": [
+    "why is mugthol ready",
+    "mugthol expecting fight",
+    "mug'thol alerted"
+   ],
+   "answer": "His lieutenants have been killed, so Melisara suspects he is expecting you, and that he will be reluctant to part with the Crown."
+  },
+  {
+   "q": "Where does this fall in The Crown of Will?",
+   "aliases": [
+    "crown of will chain",
+    "what quest comes before crown of will 4",
+    "crown of will progression"
+   ],
+   "answer": "It comes after the third part, in which Mug'Thol's lieutenants were hunted, and is followed by a fifth part."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "alterac",
+  "crown of will",
+  "crushridge",
+  "hillsbrad foothills",
+  "melisara",
+  "mug'thol",
+  "tarren mill"
+ ],
+ "related": [
+  "subzone:tarren-mill",
+  "subzone:ruins-of-alterac",
+  "zone:hillsbrad",
+  "topic:alterac-kingdom"
+ ],
+ "attribution": [
+  "The Crown of Will (4)"
+ ]
+}

@@ -1,0 +1,101 @@
+{
+ "key": "quest:215",
+ "type": "quest",
+ "name": "Jungle Secrets",
+ "era": "classic",
+ "zone": "stranglethorn",
+ "meta": {
+  "ids": [
+   215
+  ],
+  "level": "33",
+  "faction": "Alliance",
+  "start": "Private Thorsen",
+  "end": "Lieutenant Doren",
+  "previous": "",
+  "next": "Bookie Herod (quest)",
+  "wiki": "Jungle Secrets",
+  "chain": [],
+  "next_q": [
+   "Bookie Herod (quest)"
+  ],
+  "category": "Stranglethorn Vale",
+  "chain_tpl": [
+   "Jungle Secrets"
+  ]
+ },
+ "summary": "After being rescued from an ambush in northern Stranglethorn Vale, Private Thorsen explains why he re-enlisted with Kurzen's men. He directs you back to the Rebel Camp so his commander can verify his covert intentions.",
+ "sections": [
+  {
+   "title": "A Covert Undertaking",
+   "body": "Following his rescue, Private Thorsen admits the scene looks bad and asks to explain. He claims Lieutenant Doren ordered him to re-enlist with Colonel Kurzen's men to gather desperately needed intelligence for the rebellion. What seemed to be an opportunity to infiltrate Kurzen's Compound quickly turned disastrous, forcing Thorsen to refer you directly to Doren at the Rebel Camp for official confirmation while begging for complete discretion.",
+   "spoiler": 0
+  },
+  {
+   "title": "Suspicions at Camp",
+   "body": "Lieutenant Doren confirms that Thorsen was indeed acting under his orders. The rebels were once fiercely loyal to Kurzen until Kurzen's corruption twisted their loyalty into rage, and discovery of Thorsen's dealings would prompt his own comrades to slit his throat. Because only Doren, Sergeant Yohwa, and Thorsen were supposed to know of the plan, the failed ambush indicates an unsettling truth: an unknown traitor lurks within their ranks.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Why was Private Thorsen meeting with Kurzen's forces?",
+   "aliases": [
+    "why did thorsen meet kurzen",
+    "is thorsen a traitor",
+    "why was thorsen outside camp"
+   ],
+   "answer": "He was acting under orders from Lieutenant Doren to re-enlist among Colonel Kurzen's men as a spy and gather vital military intelligence for the rebels."
+  },
+  {
+   "q": "Where does Private Thorsen send you?",
+   "aliases": [
+    "where do i go",
+    "thorsen turn in",
+    "where is doren"
+   ],
+   "answer": "He directs you to speak with Lieutenant Doren at the Rebel Camp in northern Stranglethorn Vale so the commander can confirm his story."
+  },
+  {
+   "q": "Why does Thorsen insist on secrecy?",
+   "aliases": [
+    "why keep it secret",
+    "why secret mission"
+   ],
+   "answer": "The rebels were once fiercely loyal to Colonel Kurzen. If word got out that Thorsen had been dealing with Kurzen's men, he could be killed in the night."
+  },
+  {
+   "q": "What comes after reporting to Lieutenant Doren?",
+   "aliases": [
+    "next quest",
+    "what follows jungle secrets"
+   ],
+   "answer": "Following your conversation with Lieutenant Doren, your search leads into the next step, Bookie Herod."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Alliance",
+   "text": "The Rebel Camp depends on the sorely needed intelligence Private Thorsen hopes to bring back from Kurzen's men."
+  }
+ ],
+ "keywords": [
+  "doren",
+  "kurzen",
+  "rebel camp",
+  "stranglethorn",
+  "thorsen",
+  "traitor",
+  "yohwa"
+ ],
+ "related": [
+  "npc:doren",
+  "npc:colonel-kurzen",
+  "subzone:rebel-camp",
+  "subzone:kurzen-s-compound",
+  "zone:stranglethorn"
+ ],
+ "attribution": [
+  "Jungle Secrets"
+ ]
+}

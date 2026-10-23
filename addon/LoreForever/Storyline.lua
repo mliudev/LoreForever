@@ -160,11 +160,123 @@ function Storyline.OnTurnIn(id)
   return msg
 end
 
+-- Story as you play: the hidden sections that turning in quest `id` opened (their story beats are all open now and
+-- weren't before), as { {key, idx}, ... }. Nothing when "Tell me everything" already shows them.
+function Storyline.NewPassages(id)
+  local db, engine = ns.DB, ns.engine
+  if S().showSpoilers or not (db and db.beats and engine) then return {} end
+  local opened = {}
+  for bid, b in pairs(db.beats) do
+    for _, q in ipairs(b.d or {}) do
+      if q == id then opened[bid] = true end
+    end
+  end
+  if not next(opened) then return {} end
+  local base = ns.Context.Done() or {}
+  local with = setmetatable({}, { __index = function(_, k) if k == id then return true end return base[k] end })
+  local without = setmetatable({}, { __index = function(_, k) if k == id then return nil end return base[k] end })
+  local out = {}
+  for key, e in pairs(db.entries) do
+    for i, sec in ipairs(e.sec or {}) do
+      if sec.bt and (sec.sp or 0) ~= 0 then
+        local touched = false
+        for _, b in ipairs(sec.bt) do touched = touched or opened[b] == true end
+        if touched and engine:Opens(key, sec, with) and not engine:Opens(key, sec, without) then
+          out[#out + 1] = { key = key, idx = i }
+        end
+      end
+    end
+  end
+  table.sort(out, function(a, b) return a.key < b.key or (a.key == b.key and a.idx < b.idx) end)
+  return out
+end
+
+-- QUEST_TURNED_IN, for the story it opened: the passage about where you are plays once by itself (Voice.PlayPassage:
+-- the arrival story rules, so never in a fight), and a chat line names what else opened, each a link to its story.
+function Storyline.OnBeats(id)
+  local new = Storyline.NewPassages(id)
+  if not new[1] then return end
+  local here = ns.Context.Place()
+  local zk = here and here.zone and ns.engine:ZoneKey(here.zone)
+  local sk = here and here.subzone and ns.engine:SubzoneKey(here.subzone, here.zone)
+  local played, links = false, {}
+  for _, p in ipairs(new) do
+    if not played and (p.key == sk or p.key == (zk and ("zone:" .. zk))) and ns.Voice.PlayPassage then
+      played = ns.Voice.PlayPassage(p.key, p.idx)
+    end
+    local e = ns.DB.entries[p.key]
+    if e and #links < 3 and not (links[#links] and links[#links].key == p.key) then
+      links[#links + 1] = { key = p.key, text = ns.Hooks.Link(e.n, "entry", p.key) }
+    end
+  end
+  if not Storyline.ChatOn() or not links[1] then return end
+  local names = {}
+  for _, l in ipairs(links) do names[#names + 1] = l.text end
+  DEFAULT_CHAT_FRAME:AddMessage(T.CHAT_PREFIX .. string.format(L["New in the story: %s"], table.concat(names, ", ")))
+end
+
+-- Recaps (lore.recaps): at a storyline's turning points the narrator retells what you've done. ns.DB.recaps[storyline
+-- id] = { k = its clip key, before = { a = quest accepted, t = text }, mid = { d = quest turned in, t },
+-- ["end"] = { d, t } }; the clip is "recap:<k>#<part>".
+local RECAP_PARTS = { "before", "mid", "end" }
+
+-- The recap that accepting (how "a") or turning in (how "d") quest `id` starts: its storyline id and part number.
+-- Never the other faction's: its storyline can share this quest at another turning point (Samophlange, LOR-762).
+function Storyline.RecapFor(id, how)
+  local mine = faction()
+  for sid, r in pairs(ns.DB.recaps or {}) do
+    local sl = ns.DB.storylines and ns.DB.storylines[sid]
+    if not (sl and sl.f and mine and sl.f ~= mine) then
+      for i, part in ipairs(RECAP_PARTS) do
+        if type(r[part]) == "table" and r[part][how] == id then return sid, i end
+      end
+    end
+  end
+end
+
+local function recapTarget(sid, i)
+  local r = ns.DB.recaps and ns.DB.recaps[sid]
+  local p = r and r[RECAP_PARTS[i] or ""]
+  local sl = ns.DB.storylines and ns.DB.storylines[sid]
+  if not (p and sl) then return nil end
+  local id = "recap:" .. (r.k or sid) .. "#" .. RECAP_PARTS[i]
+  local name = Storyline.Name(sl, sl.c[#sl.c]) or sl.n
+  return { id = id, key = id, label = name, text = p.t }
+end
+
+-- The recap in the Lore panel, to read (and hear, when it's recorded): the chat line's link.
+function Storyline.ShowRecap(sid, i)
+  local t = sid and recapTarget(sid, i)
+  if not (t and ns.UI) then return end
+  ns.UI.Open(nil, nil, "chatlink")
+  ns.UI.AddMessage("lore", T.code.gold .. L["Storyline recap"] .. ns.Lang.Dotted(" · ") .. t.label .. "|r\n" .. t.text,
+    ns.Voice.HasAudio(t.key) and t or nil)
+end
+
+-- QUEST_ACCEPTED ("a") or QUEST_TURNED_IN ("d"): the recap it starts plays by itself when recorded (the arrival
+-- story rules: never in a fight); otherwise, or when it can't start now, a chat line links to it.
+function Storyline.OnRecap(id, how)
+  if S().recaps == false then return end
+  local sid, i = Storyline.RecapFor(id, how)
+  local t = sid and recapTarget(sid, i)
+  if not t then return end
+  if ns.Voice.HasAudio(t.key) and ns.Voice.PlayNow and ns.Voice.PlayNow(t) then return end
+  DEFAULT_CHAT_FRAME:AddMessage(T.CHAT_PREFIX .. string.format(L["Storyline recap: %s"],
+    ns.Hooks.Link(t.label, "recap", tostring(sid), i)))
+  return true
+end
+
 -- Its own events, whether or not "Remember my journey" is on.
 local frame = CreateFrame("Frame")
-for _, e in ipairs({ "QUEST_COMPLETE", "QUEST_TURNED_IN" }) do pcall(frame.RegisterEvent, frame, e) end
-frame:SetScript("OnEvent", function(_, event, id)
+for _, e in ipairs({ "QUEST_COMPLETE", "QUEST_TURNED_IN", "QUEST_ACCEPTED" }) do pcall(frame.RegisterEvent, frame, e) end
+frame:SetScript("OnEvent", function(_, event, id, id2)
   if not (ns.DB and LoreForeverDB and LoreForeverDB.settings and ns.Hooks) then return end   -- before login
   if event == "QUEST_COMPLETE" then pcall(Storyline.OnQuestComplete)
-  elseif event == "QUEST_TURNED_IN" then pcall(Storyline.OnTurnIn, id) end
+  elseif event == "QUEST_ACCEPTED" then
+    pcall(Storyline.OnRecap, id2 or id, "a")   -- classic passes (logIndex, questID), newer clients (questID)
+  elseif event == "QUEST_TURNED_IN" then
+    pcall(Storyline.OnTurnIn, id)
+    pcall(Storyline.OnRecap, id, "d")   -- the recap first; a passage about where you are waits behind it
+    pcall(Storyline.OnBeats, id)
+  end
 end)

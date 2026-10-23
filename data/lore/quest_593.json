@@ -1,0 +1,82 @@
+{
+ "key": "quest:593",
+ "type": "quest",
+ "name": "Filling the Soul Gem",
+ "era": "classic",
+ "zone": "stranglethorn",
+ "meta": {
+  "ids": [
+   593
+  ],
+  "level": "46",
+  "faction": "Horde",
+  "start": "None",
+  "end": "Yenniku",
+  "previous": "Saving Yenniku (Classic)",
+  "next": "",
+  "wiki": "Filling the Soul Gem",
+  "chain": [],
+  "repeatable": "Yes",
+  "category": "Stranglethorn Vale",
+  "prev_q": [
+   "Saving Yenniku (Classic)"
+  ]
+ },
+ "summary": "Deep in the jungle of Stranglethorn Vale, an attempt is made to preserve the young troll Yenniku. With the youth caught in a trance, a prepared soul gem is brought forth to capture his spirit.",
+ "sections": [
+  {
+   "title": "A Trance in the Jungle",
+   "body": "Following the effort to save Yenniku, you stand face to face with the young troll in Stranglethorn Vale. His mind is lost, caught entirely in another place while he remains motionless before you. The only path forward involves the enchanted gem prepared specifically to hold his essence.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Vessel",
+   "body": "Pressing the gem to Yenniku's forehead pulls his spirit directly into the stone. As the essence is drawn away, his physical form shudders and collapses into an empty, mindless shell.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "What condition is Yenniku in when you reach him?",
+   "aliases": [
+    "yenniku status",
+    "what is wrong with yenniku",
+    "yenniku stunned"
+   ],
+   "answer": "Yenniku stands stunned and unresponsive, his thoughts held far away from his physical surroundings."
+  },
+  {
+   "q": "What item is used on Yenniku?",
+   "aliases": [
+    "what item is needed",
+    "gem used on yenniku",
+    "yenniku item"
+   ],
+   "answer": "A soul gem brought from Stranglethorn Vale is used to interact with the young troll."
+  },
+  {
+   "q": "What came before this moment?",
+   "aliases": [
+    "previous quest",
+    "prereq for filling the soul gem",
+    "what leads to this"
+   ],
+   "answer": "This encounter directly follows the events of Saving Yenniku in the jungles of Stranglethorn Vale."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "saving yenniku",
+  "soul gem",
+  "stranglethorn vale",
+  "troll",
+  "yenniku"
+ ],
+ "related": [
+  "quest:592",
+  "zone:stranglethorn"
+ ],
+ "attribution": [
+  "Filling the Soul Gem"
+ ]
+}

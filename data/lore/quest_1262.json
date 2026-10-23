@@ -1,0 +1,102 @@
+{
+ "key": "quest:1262",
+ "type": "quest",
+ "name": "Report to Zor",
+ "era": "classic",
+ "zone": "dustwallow",
+ "meta": {
+  "ids": [
+   1262
+  ],
+  "level": "40",
+  "faction": "Horde",
+  "start": "Nazeer Bloodpike",
+  "end": "Zor Lonetree",
+  "previous": "Marg Speaks",
+  "next": "Service to the Horde",
+  "wiki": "Report to Zor",
+  "chain": [],
+  "prev_q": [
+   "Marg Speaks"
+  ],
+  "next_q": [
+   "Service to the Horde"
+  ],
+  "category": "Dustwallow Marsh",
+  "chain_tpl": [
+   "Service to the Horde"
+  ]
+ },
+ "summary": "Nazeer Bloodpike finds it strange that common soldiers were carrying the jeweled pendant Marg stole. Calling it a noble's piece, Nazeer sends you to Orgrimmar with it, to Zor Lonetree, who is well schooled in Alliance politics.",
+ "sections": [
+  {
+   "title": "A Noble's Pendant",
+   "body": "Nazeer Bloodpike finds it strange that common soldiers held a pendant like this. Its owner may have been in disguise, or the soldiers may have stolen it themselves. Either way, Nazeer judges it a noble's pendant, and its true owner must be found if the mystery is to unravel. Zor Lonetree in Orgrimmar knows a great deal about Alliance politics, and can say whether the pendant belongs to Stormwind's nobility.",
+   "spoiler": 0
+  },
+  {
+   "title": "Zor's Verdict",
+   "body": "Zor Lonetree admires the great skill that went into the pendant. Orcs would have no use for such a jewel, Zor says, but many humans would. Zor will have it studied and hopes that in time its mysteries will be revealed.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Why is the pendant being taken to Orgrimmar?",
+   "aliases": [
+    "why send pendant to orgrimmar",
+    "why go to orgrimmar",
+    "why see zor lonetree"
+   ],
+   "answer": "Nazeer Bloodpike judges it a noble's pendant. Zor Lonetree in Orgrimmar knows a great deal about Alliance politics and can say whether it has a history among Stormwind's nobles."
+  },
+  {
+   "q": "Who previously had the jeweled pendant?",
+   "aliases": [
+    "who had the pendant",
+    "where did the pendant come from"
+   ],
+   "answer": "Marg stole it from soldiers of an Alliance camp near Theramore. Nazeer finds it strange that common soldiers held it, and wonders whether the owner was in disguise or the soldiers stole it."
+  },
+  {
+   "q": "What came before this quest?",
+   "aliases": [
+    "previous quest",
+    "what quest comes before"
+   ],
+   "answer": "It follows Marg Speaks, where Marg told of stealing the pendant from soldiers camped near Theramore."
+  },
+  {
+   "q": "Where is Zor Lonetree?",
+   "aliases": [
+    "zor lonetree location",
+    "where is zor lonetree"
+   ],
+   "answer": "Zor Lonetree is in Orgrimmar."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "brackenwall village",
+  "jeweled pendant",
+  "marg speaks",
+  "nazeer bloodpike",
+  "orgrimmar",
+  "report to zor",
+  "stormwind",
+  "zor lonetree"
+ ],
+ "related": [
+  "npc:zor-lonetree",
+  "quest:1261",
+  "quest:7541",
+  "subzone:brackenwall-village",
+  "zone:orgrimmar",
+  "topic:stormwind-kingdom",
+  "zone:dustwallow",
+  "topic:alliance"
+ ],
+ "attribution": [
+  "Report to Zor"
+ ]
+}
