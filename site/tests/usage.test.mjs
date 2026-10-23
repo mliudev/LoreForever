@@ -14,14 +14,15 @@ import { onRequestPost as countApi } from "../functions/api/count/[what].js";
 import { findOrCreateUser, startSession, setup, deleteUser } from "../lib/accounts.js";
 import { readUsage, saveUsage, USAGE_KEEP_DAYS } from "../lib/usage.js";
 
-import { d1 } from "./helpers.mjs";
+import { d1, stopClock } from "./helpers.mjs";
 import { RECORD } from "./fixtures/journey/record.mjs";
 
 const ORIGIN = "https://preview.example";
 const KEY = "admin-test-key";
 const env = { DB: d1(), ADMIN_KEY: KEY };
 const day = (offset = 0) => new Date(Date.now() + offset * 864e5).toISOString().slice(0, 10);
-beforeEach(async () => {
+beforeEach(async t => {
+  stopClock(t);                         // day() and the code read one day
   await setup(env);
   env.DB.sqlite.exec("DROP TABLE IF EXISTS site_counts");
   for (const t of ["profiles", "sessions", "users", "rate_limits", "devices", "device_links", "usage_days"]) {

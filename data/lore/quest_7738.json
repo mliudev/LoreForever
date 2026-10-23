@@ -1,0 +1,74 @@
+{
+ "key": "quest:7738",
+ "type": "quest",
+ "name": "Perfect Yeti Hide",
+ "era": "classic",
+ "zone": "feralas",
+ "meta": {
+  "ids": [
+   7738
+  ],
+  "level": "48",
+  "start": "Perfect Yeti Hide",
+  "end": "Jangdor Swiftstrider",
+  "wiki": null,
+  "previous": "",
+  "next": ""
+ },
+ "summary": "You have found a yeti hide that may well be perfect: remarkably thick and tough, beyond what the yetis of Rage Scar yield. At Camp Mojache, Jangdor Swiftstrider is looking for yeti hides.",
+ "sections": [
+  {
+   "title": "A Hide Worth Showing",
+   "body": "The hide is plainly thicker and sturdier than the ones from the yetis of Rage Scar. At Camp Mojache in Feralas, Jangdor Swiftstrider wants to buy yeti hides, so this one is worth bringing there.",
+   "spoiler": 0
+  },
+  {
+   "title": "Jangdor's Verdict",
+   "body": "Jangdor is delighted, calling it the finest yeti hide he has ever seen. A fitting bounty is in order, more than he usually pays for a single hide, and he is confident something special can be made from it.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is interested in the Perfect Yeti Hide?",
+   "aliases": [
+    "who wants the hide",
+    "who turns in perfect yeti hide",
+    "jangdor yeti pelt"
+   ],
+   "answer": "Jangdor Swiftstrider, at Camp Mojache in Feralas, who wants to buy yeti hides."
+  },
+  {
+   "q": "Why is this hide considered special?",
+   "aliases": [
+    "why is it perfect",
+    "what makes the hide special"
+   ],
+   "answer": "It is unusually thick and tough, and may well be perfect, better than the hides from Rage Scar's yetis."
+  },
+  {
+   "q": "Where is Jangdor Swiftstrider?",
+   "aliases": [
+    "where is jangdor swiftstrider",
+    "where to bring perfect yeti hide"
+   ],
+   "answer": "At Camp Mojache in Feralas."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "camp mojache",
+  "feralas",
+  "jangdor swiftstrider",
+  "perfect yeti hide",
+  "rage scar",
+  "yeti pelt"
+ ],
+ "related": [
+  "subzone:camp-mojache",
+  "zone:feralas"
+ ],
+ "attribution": [
+  "Classic quest text: Perfect Yeti Hide"
+ ]
+}

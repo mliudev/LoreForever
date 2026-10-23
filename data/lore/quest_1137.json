@@ -1,0 +1,103 @@
+{
+ "key": "quest:1137",
+ "type": "quest",
+ "name": "News for Fizzle",
+ "era": "classic",
+ "zone": "thousandneedles",
+ "meta": {
+  "ids": [
+   1137
+  ],
+  "level": "38",
+  "faction": "Neutral",
+  "start": "Martek the Exiled",
+  "end": "Fizzle Brassbolts",
+  "previous": "Indurium",
+  "next": "Keeping Pace",
+  "wiki": "News for Fizzle",
+  "chain": [
+   "Martek the Exiled (quest)",
+   "Indurium",
+   "News for Fizzle"
+  ],
+  "prev_q": [
+   "Indurium"
+  ],
+  "category": "Thousand Needles",
+  "next_q": [
+   "Keeping Pace"
+  ]
+ },
+ "summary": "Martek the Exiled in the Badlands has news about indurium for Fizzle Brassbolts. You carry Martek's message back to the Shimmering Flats in Thousand Needles.",
+ "sections": [
+  {
+   "title": "Martek's Word on Indurium",
+   "body": "Martek reports that indurium stands up to heat remarkably well, and believes it suits Fizzle's pistons. Flakes will not do, though: Fizzle needs real indurium ore, dug out of the depths of Uldaman at the northern edge of the Badlands, which Martek names as the true source of indurium. Martek asks you to pass on regards and repeat all of this to Fizzle Brassbolts.",
+   "spoiler": 0
+  },
+  {
+   "title": "Fizzle Hears the News",
+   "body": "Fizzle Brassbolts is eager to hear what Martek said and whether Martek can help. When you tell him of your travels in the Badlands, Fizzle declares that indurium is the key.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Where does this journey begin and end?",
+   "aliases": [
+    "who gives news for fizzle",
+    "where to turn in news for fizzle",
+    "martek to fizzle"
+   ],
+   "answer": "Martek the Exiled in the Badlands gives you a message, and you bring it to Fizzle Brassbolts at the Mirage Raceway on the Shimmering Flats in Thousand Needles."
+  },
+  {
+   "q": "What news does Martek send to Fizzle?",
+   "aliases": [
+    "what does martek say",
+    "indurium news",
+    "martek message"
+   ],
+   "answer": "Martek says indurium holds up against heat remarkably well and should serve Fizzle's pistons. Fizzle needs real ore rather than flakes, and it must be mined from the depths of Uldaman."
+  },
+  {
+   "q": "Where does indurium ore come from?",
+   "aliases": [
+    "where is indurium ore",
+    "indurium ore source"
+   ],
+   "answer": "Martek says it is dug out of the depths of Uldaman, at the northern edge of the Badlands, which Martek calls the true source of indurium."
+  },
+  {
+   "q": "Where in the storyline does this step fit?",
+   "aliases": [
+    "news for fizzle chain",
+    "previous quest news for fizzle"
+   ],
+   "answer": "It follows Indurium, in the chain that began when Fizzle Brassbolts sent you to Martek the Exiled."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "badlands",
+  "fizzle brassbolts",
+  "indurium",
+  "indurium ore",
+  "martek the exiled",
+  "mirage raceway",
+  "shimmering flats",
+  "thousand needles",
+  "uldaman"
+ ],
+ "related": [
+  "npc:fizzle-brassbolts",
+  "quest:1108",
+  "quest:1106",
+  "subzone:mirage-raceway",
+  "subzone:shimmering-flats",
+  "subzone:uldaman"
+ ],
+ "attribution": [
+  "News for Fizzle"
+ ]
+}

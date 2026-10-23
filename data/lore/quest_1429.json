@@ -1,0 +1,110 @@
+{
+ "key": "quest:1429",
+ "type": "quest",
+ "name": "The Atal'ai Exile",
+ "era": "classic",
+ "zone": "swampofsorrows",
+ "meta": {
+  "ids": [
+   1429
+  ],
+  "level": "44",
+  "faction": "Horde",
+  "start": "Fel'zerul",
+  "end": "Atal'ai Exile",
+  "previous": "Pool of Tears (Horde)",
+  "next": "",
+  "wiki": "The Atal'ai Exile",
+  "chain": [],
+  "prev_q": [
+   "Pool of Tears (Horde)"
+  ],
+  "category": "Swamp of Sorrows",
+  "chain_tpl": [
+   "Pool of Tears"
+  ]
+ },
+ "summary": "While you were at the Pool of Tears, one of Fel'zerul's scouts brought back a scroll inked in blood on dried flesh. Fel'zerul now bundles the artifacts you gathered and sends you far north to the Hinterlands, to find an exiled Atal'ai priest.",
+ "sections": [
+  {
+   "title": "A Sentence in Blood",
+   "body": "The scroll reads as a judicial ruling against a priest of the Atal'ai, a fate worse than death among his own people. He was exiled to live among the Witherbark trolls, far to the north in the Hinterlands. Fel'zerul will bundle the artifacts and sends you to find the exile, discover their true use, and return.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Exile's Words",
+   "body": "Shown the bundle, the exile names the artifacts as summoning tools of the Atal'ai. He remarks that the disciples of the Chamber of Blood are being led by Jammal'an the Prophet toward their chosen fate, and wonders whether Hakkar has returned to the temple.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who sends you to find the Atal'ai Exile?",
+   "aliases": [
+    "who gives the atal'ai exile",
+    "atal'ai exile questgiver",
+    "who starts the quest"
+   ],
+   "answer": "Fel'zerul in Stonard, who bundles the artifacts you gathered and sends you north to the Hinterlands."
+  },
+  {
+   "q": "Where is the Atal'ai Exile located?",
+   "aliases": [
+    "where is the exile",
+    "atal'ai exile location",
+    "where to find atal'ai exile"
+   ],
+   "answer": "In the Hinterlands, living with the Witherbark trolls at the temple of Shadra'Alor."
+  },
+  {
+   "q": "What sentence was passed on the priest?",
+   "aliases": [
+    "why was he banished",
+    "what was the sentence",
+    "atal'ai exile backstory"
+   ],
+   "answer": "A scroll inked in blood on dried flesh condemns the priest to a fate worse than death among the Atal'ai: exile among the Witherbark trolls in the Hinterlands."
+  },
+  {
+   "q": "What are you carrying to the exile?",
+   "aliases": [
+    "what bundle do you bring",
+    "what are the artifacts",
+    "atal'ai artifacts purpose"
+   ],
+   "answer": "A bundle of the Atal'ai artifacts gathered at the Pool of Tears, whose true use Fel'zerul wants the exile to reveal."
+  },
+  {
+   "q": "What comes directly before this journey?",
+   "aliases": [
+    "previous quest",
+    "prerequisite",
+    "what leads to atal'ai exile"
+   ],
+   "answer": "It follows Pool of Tears, where Fel'zerul had you gather Atal'ai artifacts."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "atal'ai exile",
+  "fel'zerul",
+  "hakkar",
+  "hinterlands",
+  "jammal'an",
+  "pool of tears",
+  "shadra'alor",
+  "swamp of sorrows",
+  "witherbark"
+ ],
+ "related": [
+  "npc:fel-zerul",
+  "zone:swampofsorrows",
+  "zone:hinterlands",
+  "subzone:pool-of-tears",
+  "topic:troll",
+  "topic:priest"
+ ],
+ "attribution": [
+  "The Atal'ai Exile"
+ ]
+}

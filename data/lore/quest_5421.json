@@ -1,0 +1,84 @@
+{
+ "key": "quest:5421",
+ "type": "quest",
+ "name": "Fish in a Bucket",
+ "era": "classic",
+ "zone": "desolace",
+ "meta": {
+  "ids": [
+   5421
+  ],
+  "level": "25",
+  "faction": "Horde",
+  "start": "Jinar'Zillen",
+  "end": "Jinar'Zillen",
+  "previous": "",
+  "next": "",
+  "wiki": "Fish in a Bucket",
+  "chain": [],
+  "category": "Desolace",
+  "chain_tpl": [
+   "Shadowprey Village"
+  ]
+ },
+ "summary": "Jinar'Zillen of Shadowprey Village in Desolace likes to do as little as possible. Many shellfish traps sit below the village docks, and anyone who gathers the shellfish from them will be repaid with something worth having.",
+ "sections": [
+  {
+   "title": "Work Done by Someone Else",
+   "body": "Jinar'Zillen keeps many shellfish traps below the docks of Shadowprey Village, and would far rather someone else did the collecting. Anyone willing to take on that work is promised something they want in return: one fine Bloodbelly fish for every five shellfish brought in.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who offers this trade?",
+   "aliases": [
+    "who gives fish in a bucket",
+    "jinar'zillen",
+    "quest giver"
+   ],
+   "answer": "Jinar'Zillen, in Shadowprey Village in Desolace."
+  },
+  {
+   "q": "Where are the shellfish traps?",
+   "aliases": [
+    "trap location",
+    "where to find shellfish",
+    "shellfish traps"
+   ],
+   "answer": "Below the docks of Shadowprey Village."
+  },
+  {
+   "q": "Why does Jinar'Zillen want someone else to gather the shellfish?",
+   "aliases": [
+    "why does he need shellfish",
+    "jinar'zillen motive"
+   ],
+   "answer": "Jinar'Zillen enjoys doing as little as possible, so anyone who collects from the traps is promised something in return."
+  },
+  {
+   "q": "What does Jinar'Zillen give in return for the shellfish?",
+   "aliases": [
+    "fish in a bucket reward",
+    "what do i get"
+   ],
+   "answer": "One fine Bloodbelly fish for every five shellfish."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "bloodbelly fish",
+  "desolace",
+  "fish in a bucket",
+  "jinar'zillen",
+  "shadowprey village",
+  "shellfish"
+ ],
+ "related": [
+  "subzone:shadowprey-village",
+  "zone:desolace"
+ ],
+ "attribution": [
+  "Fish in a Bucket"
+ ]
+}

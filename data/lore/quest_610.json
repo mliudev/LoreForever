@@ -1,0 +1,106 @@
+{
+ "key": "quest:610",
+ "type": "quest",
+ "name": "\"Pretty Boy\" Duncan",
+ "era": "classic",
+ "zone": "stranglethorn",
+ "meta": {
+  "ids": [
+   610
+  ],
+  "level": "39",
+  "faction": "Alliance",
+  "start": "Catelyn the Blade",
+  "end": "Catelyn the Blade",
+  "previous": "Ansirem's Key",
+  "next": "The Curse of the Tides",
+  "wiki": "\"Pretty Boy\" Duncan (quest)",
+  "chain": [],
+  "prev_q": [
+   "Ansirem's Key"
+  ],
+  "next_q": [
+   "The Curse of the Tides"
+  ],
+  "category": "Stranglethorn Vale",
+  "chain_tpl": [
+   "Stone of the Tides"
+  ]
+ },
+ "summary": "After tracking down Catelyn the Blade on behalf of her father, an adventurer learns that her weapon is no longer in her hands. She demands that her lost dagger be retrieved from a pirate named Pretty Boy Duncan before she cooperates further.",
+ "sections": [
+  {
+   "title": "A Pirate's Grievance",
+   "body": "Following the trail from Ansirem's Key leads directly to Catelyn the Blade, who ran away from a quiet life of scholarship and dusty tomes alongside mages. She cannot hand over her dagger at her father's request, since she no longer has it. If anyone hopes to secure her blade, they will first have to deal with the Bloodsail Buccaneer who took it.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Stolen Steel",
+   "body": "Catelyn suffered an uncharacteristic defeat at the hands of Pretty Boy Duncan, who struck her unconscious and made off with her signature weapon. As a fighter who relies on her personal knife, she insists on recovering that exact weapon from the buccaneer before anything else can move forward.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Pretty Boy Duncan?",
+   "aliases": [
+    "pretty boy duncan",
+    "who is duncan",
+    "duncan pirate"
+   ],
+   "answer": "Pretty Boy Duncan is a member of the Bloodsail Buccaneers operating near Booty Bay. He beat Catelyn the Blade in a fight, knocked her out cold, and took her dagger."
+  },
+  {
+   "q": "Why does Catelyn want her dagger back?",
+   "aliases": [
+    "catelyn dagger",
+    "catelyn knife",
+    "why get blade back"
+   ],
+   "answer": "Catelyn relies on her knife in combat and refuses to settle for another. After losing it to Duncan in a knife fight, she wants the blade back before aiding anyone who comes looking for her."
+  },
+  {
+   "q": "Why did Catelyn run away from home?",
+   "aliases": [
+    "why catelyn ran away",
+    "ansirem daughter",
+    "catelyn backstory"
+   ],
+   "answer": "Catelyn abandoned her family to escape a dull existence spent reading old books and keeping company with rigid, aged mages; she refused to live that boring life."
+  },
+  {
+   "q": "Where does this step fit into the search?",
+   "aliases": [
+    "quest chain",
+    "what leads to pretty boy duncan"
+   ],
+   "answer": "This confrontation follows the recovery of Ansirem's Key and precedes the unraveling of The Curse of the Tides."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Mage",
+   "text": "Catelyn explicitly mocks scholars of the arcane, claiming she fled home precisely to avoid spending her days surrounded by stuffy, grey-haired spellcasters."
+  }
+ ],
+ "keywords": [
+  "bloodsail buccaneers",
+  "booty bay",
+  "catelyn the blade",
+  "catelyn's blade",
+  "pretty boy duncan",
+  "stranglethorn vale"
+ ],
+ "related": [
+  "quest:603",
+  "quest:611",
+  "quest:578",
+  "quest:595",
+  "subzone:booty-bay",
+  "zone:stranglethorn",
+  "topic:mage"
+ ],
+ "attribution": [
+  "\"Pretty Boy\" Duncan (quest)"
+ ]
+}

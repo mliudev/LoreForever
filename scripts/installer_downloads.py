@@ -15,10 +15,12 @@ import urllib.request
 from pathlib import Path
 
 CORE_PACKS = ['LoreForever_Voice_Default', 'LoreForever_Voice_Default_Alliance', 'LoreForever_Voice_Default_Horde']
-QUEST_PACKS = ['LoreForever_Voice_Default_Quests']   # (the answers packs are retired: LOR-561)
+# Quest dialogue: the first pack, then the rest of the game's quests (levels up to 50, 51-60: voicepack.QUEST_MORE_PACKS), each
+# its own zip under CurseForge's limit. (The answers packs are retired: LOR-561.) A zip not built yet is left out.
+QUEST_PACKS = ['LoreForever_Voice_Default_Quests', 'LoreForever_Voice_Default_Quests2', 'LoreForever_Voice_Default_Quests3']
 # More places and people, item stories and quest stories (complete stories only): each narrator's go with that
 # narrator's choice, the male narrator's with "more narration" (quests). One folder per zip, installed once built.
-MORE = ('MorePlaces', 'MorePeople', 'MoreItems', 'MoreQuests1', 'MoreQuests2')
+MORE = ('MorePlaces', 'MorePeople', 'MoreItems', 'MoreQuests1', 'MoreQuests2', 'MoreQuests3')
 MORE_PACKS = {'female': ['LoreForever_Voice_Female_' + s for s in MORE],
               'quests': ['LoreForever_Voice_Default_' + s for s in MORE],
               'original': ['LoreForever_Voice_Original_MorePlaces', 'LoreForever_Voice_Original_MorePeople']}

@@ -1,0 +1,100 @@
+{
+ "key": "quest:3841",
+ "type": "quest",
+ "name": "An Orphan Looking For a Home",
+ "era": "classic",
+ "zone": "feralas",
+ "meta": {
+  "ids": [
+   3841
+  ],
+  "level": "47",
+  "faction": "Alliance",
+  "start": "Kindal Moonweaver",
+  "end": "Quentin",
+  "previous": "Doling Justice (2)",
+  "next": "A Short Incubation",
+  "wiki": "An Orphan Looking For a Home",
+  "chain": [],
+  "prev_q": [
+   "Doling Justice (2)"
+  ],
+  "next_q": [
+   "A Short Incubation"
+  ],
+  "category": "Feralas",
+  "chain_tpl": [
+   "Freedom for All Creatures"
+  ]
+ },
+ "summary": "After Doling Justice, Kindal Moonweaver greets you on your return from Darnassus with news: a nest full of eggs was saved, though the mother died. Kindal offers you one of the eggs as a pet and sends you on to Quentin, who waits by the race tracks in the Shimmering Flats of Thousand Needles.",
+ "sections": [
+  {
+   "title": "A Nest Without a Mother",
+   "body": "Kindal Moonweaver is glad to see you back from Darnassus and reports good progress while you were away. A nest full of eggs was saved, though the mother died before help reached her. The eggs look set to hatch soon, so they will need a good keeper, and Kindal offers you one as a pet. If you are truly interested, carry an egg to the race tracks in the Shimmering Flats, where Quentin will tell you more.",
+   "spoiler": 0
+  },
+  {
+   "title": "Quentin at the Flats",
+   "body": "Quentin is in Thousand Needles, and asks you not to be fooled by the location: the races are not why Quentin is there. Quentin is investigating how salvageable the land is, hoping to replenish it with new, fertile soil and perhaps find a nearby water source. Quentin also finds the change between Feralas and Thousand Needles odd, and says strange magic was afoot when it happened.",
+   "spoiler": 0
+  },
+  {
+   "title": "What Quentin Makes of the Egg",
+   "body": "Quentin names it a sprite darter egg, near maturation and in remarkably good condition, and is amazed that you found one. Such creatures are rarely seen in Feralas these days; Quentin has heard that poachers were about, hunting them to capture or kill them, for assorted reasons. Quentin thinks it a shame, for they are beautiful when grown, and asks how you came across such a find.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Where did the egg come from?",
+   "aliases": [
+    "where did the egg come from",
+    "egg origin",
+    "sprite darter egg lore"
+   ],
+   "answer": "Kindal Moonweaver and others saved a nest full of eggs while you were in Darnassus. The mother had died before they reached her."
+  },
+  {
+   "q": "Where can Quentin be found?",
+   "aliases": [
+    "quentin location",
+    "where is quentin",
+    "quentin shimmering flats"
+   ],
+   "answer": "At the race tracks in the Shimmering Flats of Thousand Needles."
+  },
+  {
+   "q": "Why is Quentin at the Shimmering Flats?",
+   "aliases": [
+    "why is quentin at the raceway",
+    "what is quentin doing",
+    "quentin research"
+   ],
+   "answer": "Not for the races. Quentin is investigating how salvageable the land is, hoping to bring new, fertile soil to the area and perhaps find a water source nearby."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "egg",
+  "feralas",
+  "kindal moonweaver",
+  "quentin",
+  "shimmering flats",
+  "sprite darter",
+  "thousand needles"
+ ],
+ "related": [
+  "npc:kindal-moonweaver",
+  "quest:3842",
+  "npc:sprite-darter",
+  "subzone:shimmering-flats",
+  "zone:feralas",
+  "zone:thousandneedles",
+  "quest:2972",
+  "zone:darnassus"
+ ],
+ "attribution": [
+  "An Orphan Looking For a Home"
+ ]
+}

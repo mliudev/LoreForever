@@ -1,0 +1,109 @@
+{
+ "key": "quest:654",
+ "type": "quest",
+ "name": "Tanaris Field Sampling",
+ "era": "classic",
+ "zone": "tanaris",
+ "meta": {
+  "ids": [
+   654
+  ],
+  "level": "46",
+  "faction": "Horde",
+  "start": "Model 4711-FTZ Power Source",
+  "end": "Chief Engineer Bilgewhizzle",
+  "previous": "Slake That Thirst",
+  "next": "",
+  "wiki": "Tanaris Field Sampling",
+  "chain": [],
+  "prev_q": [
+   "Slake That Thirst"
+  ],
+  "category": "Tanaris",
+  "chain_tpl": [
+   "Errand for Apothecary Zinge"
+  ]
+ },
+ "summary": "Switching on the power source sets the field testing kit glowing and vibrating. You now have two hours to gather what the Tanaris desert can give, or the data is lost.",
+ "sections": [
+  {
+   "title": "A Ticking Power Source",
+   "body": "With the power source running, the kit glows and vibrates, so it seems to be working as planned. Chief Engineer Bilgewhizzle has said you have two hours to gather your data in the Tanaris desert: acceptable samples from eight basilisks, eight hyenas and eight scorpions. If time runs out, all of it is lost and another power source must be bought from Bilgewhizzle. The kit is meant to go back to Bilgewhizzle in Gadgetzan before the power runs out.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Company's Profit",
+   "body": "Bilgewhizzle offers no sympathy to anyone whose kit goes dead. All that matters is that the Gadgetzan Water Company makes a profit. Bilgewhizzle is willing to keep selling power sources until the company can afford to import water from the icy springs of Dun Morogh.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What creatures need to be sampled for the testing kit?",
+   "aliases": [
+    "what animals to test",
+    "sampling targets",
+    "what do i kill"
+   ],
+   "answer": "Acceptable samples from eight basilisks, eight hyenas and eight scorpions of the Tanaris desert."
+  },
+  {
+   "q": "How much time is available to complete the sampling?",
+   "aliases": [
+    "time limit",
+    "how long do i have",
+    "timer"
+   ],
+   "answer": "Two hours from the moment the power source is switched on."
+  },
+  {
+   "q": "What happens if the power source runs out?",
+   "aliases": [
+    "if timer runs out",
+    "failed quest",
+    "power ran out"
+   ],
+   "answer": "Everything in the kit is ruined, and another power source must be bought from Chief Engineer Bilgewhizzle in Gadgetzan to start again."
+  },
+  {
+   "q": "Where does the testing kit go once full?",
+   "aliases": [
+    "who do i turn this in to",
+    "turn in location",
+    "where is bilgewhizzle"
+   ],
+   "answer": "To Chief Engineer Bilgewhizzle in Gadgetzan, ahead of the power giving out."
+  },
+  {
+   "q": "Why does Bilgewhizzle keep selling power sources?",
+   "aliases": [
+    "bilgewhizzle goal",
+    "gadgetzan water company goal",
+    "why sample"
+   ],
+   "answer": "Bilgewhizzle wants the Gadgetzan Water Company to turn a profit, even if that means selling power sources until the company can afford to import water from the icy springs of Dun Morogh."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "basilisk",
+  "bilgewhizzle",
+  "field testing kit",
+  "gadgetzan",
+  "hyena",
+  "power source",
+  "scorpion",
+  "tanaris",
+  "water company"
+ ],
+ "related": [
+  "subzone:gadgetzan",
+  "zone:tanaris",
+  "quest:379",
+  "quest:841",
+  "zone:dunmorogh"
+ ],
+ "attribution": [
+  "Tanaris Field Sampling"
+ ]
+}

@@ -1,0 +1,100 @@
+{
+ "key": "quest:523",
+ "type": "quest",
+ "name": "Baron's Demise",
+ "era": "classic",
+ "zone": "alterac",
+ "meta": {
+  "ids": [
+   523
+  ],
+  "level": "40",
+  "faction": "Alliance",
+  "start": "Magistrate Henry Maleb",
+  "end": "Magistrate Henry Maleb",
+  "previous": "Assassin's Contract (quest)",
+  "next": "",
+  "wiki": "Baron's Demise",
+  "chain": [
+   "Assassin's Contract (quest)",
+   "Baron's Demise"
+  ],
+  "prev_q": [
+   "Assassin's Contract (quest)"
+  ],
+  "category": "Alterac Mountains"
+ },
+ "summary": "The contract you recovered bears the name of Baron Vardus, a nobleman from the old kingdom of Alterac. Magistrate Henry Maleb in Southshore wants him found and brought to justice, and asks for the baron's head.",
+ "sections": [
+  {
+   "title": "Justice for a Contract",
+   "body": "After Assassin's Contract, Magistrate Henry Maleb tells you that Baron Vardus put his name to the contract. Vardus is a nobleman from the old kingdom of Alterac, a man of cold heart and brutal ways, so Maleb is not surprised to find him behind it. Southshore will not let the baron send his thugs against the town without answering for it. Maleb wants him found among the Syndicate's haunts, perhaps in Strahnbrad's ruins or in the valley north of them, and asks for the baron's head.",
+   "spoiler": 0
+  },
+  {
+   "title": "Maleb's Relief",
+   "body": "When you bring the baron's head, Maleb thanks you and says that knowing the villain has lost his own lets the magistrate rest a little easier.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Baron Vardus?",
+   "aliases": [
+    "baron vardus lore",
+    "who is vardus",
+    "vardus alterac"
+   ],
+   "answer": "A nobleman from the old kingdom of Alterac, with a cold heart and brutal ways. His name is on the contract that marked Maleb for death."
+  },
+  {
+   "q": "Why does Magistrate Maleb want Baron Vardus dead?",
+   "aliases": [
+    "why kill baron vardus",
+    "maleb vardus",
+    "reason for baron's demise"
+   ],
+   "answer": "Vardus put his name to the contract you recovered, and Maleb will not let him send thugs against Southshore without answering for it."
+  },
+  {
+   "q": "Where can Baron Vardus be found?",
+   "aliases": [
+    "baron vardus location",
+    "where is vardus",
+    "strahnbrad vardus"
+   ],
+   "answer": "Maleb thinks Vardus is somewhere in the Syndicate's haunts, perhaps in Strahnbrad's ruins or in the valley north of them."
+  },
+  {
+   "q": "What comes before this?",
+   "aliases": [
+    "baron's demise prequest",
+    "chain before baron's demise",
+    "assassin's contract prerequisite"
+   ],
+   "answer": "It follows Assassin's Contract, the contract you recovered that bears the baron's signature."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "alterac mountains",
+  "baron vardus",
+  "baron's demise",
+  "magistrate henry maleb",
+  "southshore",
+  "strahnbrad",
+  "syndicate"
+ ],
+ "related": [
+  "quest:522",
+  "npc:magistrate-henry-maleb",
+  "subzone:southshore",
+  "subzone:strahnbrad",
+  "topic:syndicate",
+  "topic:alterac-kingdom",
+  "zone:alterac"
+ ],
+ "attribution": [
+  "Baron's Demise"
+ ]
+}

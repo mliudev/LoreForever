@@ -1,0 +1,90 @@
+{
+ "key": "quest:1173",
+ "type": "quest",
+ "name": "Challenge Overlord Mok'Morokk",
+ "era": "classic",
+ "zone": "dustwallow",
+ "meta": {
+  "ids": [
+   1173
+  ],
+  "level": "45",
+  "start": "Overlord Mok'Morokk",
+  "end": "Draz'Zilb",
+  "previous": "The Brood of Onyxia (3)",
+  "prev_q": [
+   "The Brood of Onyxia (3)"
+  ],
+  "wiki": null,
+  "next": ""
+ },
+ "summary": "Overlord Mok'Morokk scoffs at your challenge, promises to crush you and invites you to say when you are ready to be thrashed. Draz'Zilb in Brackenwall Village had hoped to see Mok'Morokk driven out of the village.",
+ "sections": [
+  {
+   "title": "A Challenge to the Overlord",
+   "body": "You step up to Overlord Mok'Morokk, who laughs at your nerve, promises to crush you and tells you to speak up when you are ready for your beating. This follows The Brood of Onyxia. Draz'Zilb in Brackenwall Village expects to see Mok'Morokk chased from the village, and wonders why you would come back just to talk.",
+   "spoiler": 0
+  },
+  {
+   "title": "Word for Draz'Zilb",
+   "body": "Once the fight is won, Draz'Zilb says Mok'Morokk ran off like a coward, and thanks you for a great service. With Mok'Morokk gone, the ogres can name a new leader who will aid them in taking back their old home for good.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who do you challenge?",
+   "aliases": [
+    "who do i fight",
+    "challenge target",
+    "who is mok'morokk"
+   ],
+   "answer": "You challenge Overlord Mok'Morokk in Brackenwall Village. The Overlord answers with a laugh and a boast of crushing you."
+  },
+  {
+   "q": "What comes before this challenge?",
+   "aliases": [
+    "what quest comes before this",
+    "prerequisite quest",
+    "previous quest"
+   ],
+   "answer": "It follows The Brood of Onyxia."
+  },
+  {
+   "q": "Who do you report to after the fight?",
+   "aliases": [
+    "who do i turn this in to",
+    "turn in npc",
+    "where to go after beating mok'morokk"
+   ],
+   "answer": "Draz'Zilb in Brackenwall Village is the one to report to."
+  },
+  {
+   "q": "What does Draz'Zilb expect of you?",
+   "aliases": [
+    "why fight mok'morokk",
+    "why challenge the overlord",
+    "reason for the fight"
+   ],
+   "answer": "Draz'Zilb expects to see Mok'Morokk chased from the village, and wonders why you would come back just to talk."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "brackenwall village",
+  "challenge overlord mok'morokk",
+  "draz'zilb",
+  "dustwallow marsh",
+  "mok'morokk",
+  "stonemaul"
+ ],
+ "related": [
+  "npc:overlord-mok-morokk",
+  "quest:1172",
+  "subzone:brackenwall-village",
+  "zone:dustwallow"
+ ],
+ "attribution": [
+  "Classic quest text: Challenge Overlord Mok'Morokk"
+ ]
+}

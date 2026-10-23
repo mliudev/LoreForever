@@ -1,0 +1,98 @@
+{
+ "key": "quest:611",
+ "type": "quest",
+ "name": "The Curse of the Tides",
+ "era": "classic",
+ "zone": "stranglethorn",
+ "meta": {
+  "ids": [
+   611
+  ],
+  "level": "40",
+  "faction": "Alliance",
+  "start": "Catelyn the Blade",
+  "end": "Baron Revilgaz",
+  "previous": "\"Pretty Boy\" Duncan (quest)",
+  "next": "",
+  "wiki": "The Curse of the Tides",
+  "chain": [],
+  "prev_q": [
+   "\"Pretty Boy\" Duncan (quest)"
+  ],
+  "category": "Stranglethorn Vale",
+  "chain_tpl": [
+   "Stone of the Tides"
+  ]
+ },
+ "summary": "With her knife recovered from Pretty Boy Duncan, Catelyn the Blade loans the troll artifact so it can be used against a sunken altar off the coast. Baron Revilgaz in Booty Bay wants the Stone of the Tides for his collection of ancient troll artifacts.",
+ "sections": [
+  {
+   "title": "The Sunken Altar",
+   "body": "Catelyn the Blade lends her recovered troll dagger to break an altar submerged deep beneath the waves. Though no expert on troll ruins like her father, she has heard of a sunken troll city, and she points toward it, out near the reef northwest of Grom'gol Base Camp. Within the underwater ruins of the Vile Reef, the Altar of the Tides rests, surrounded by a distinct blue glow amid sea life and murlocs.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Trapped Mage",
+   "body": "Striking the Altar of the Tides with Catelyn's blade shatters its magic and draws forth Gazban, a goblin mage who carries the Stone of the Tides and takes the form of a water elemental when challenged. Once he is overcome, the stone can be carried alongside the loaned dagger back to Booty Bay, where Baron Revilgaz prepares a special display stand to showcase the relic's captured oceanic magic among his prized collection.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Where is the Altar of the Tides located?",
+   "aliases": [
+    "where is the altar",
+    "altar of the tides location",
+    "where do i find the altar"
+   ],
+   "answer": "The altar rests deep under the sea in the Vile Reef, a sunken ruin situated off the coast northwest of Grom'gol Base Camp. It radiates a noticeable blue glow beneath the water."
+  },
+  {
+   "q": "Why does Baron Revilgaz want the stone?",
+   "aliases": [
+    "revilgaz stone",
+    "why revilgaz wants the stone",
+    "what does revilgaz do with it"
+   ],
+   "answer": "Baron Revilgaz is an avid collector of ancient troll antiquities and has cleared space and bought a fine stand specifically to show off the relic."
+  },
+  {
+   "q": "Why does Catelyn lend her blade?",
+   "aliases": [
+    "catelyn knife",
+    "why lend knife",
+    "catelyn blade"
+   ],
+   "answer": "After having her special knife recovered from Duncan, Catelyn lends the troll relic to shatter the altar, demanding its safe return once the deed is finished."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Alliance",
+   "text": "Alliance adventurers finish Baron Revilgaz's search for the ancient relic, venturing into waters close to the Horde encampment at Grom'gol Base Camp."
+  }
+ ],
+ "keywords": [
+  "altar of the tides",
+  "baron revilgaz",
+  "booty bay",
+  "catelyn the blade",
+  "gazban",
+  "stone of the tides",
+  "stranglethorn vale",
+  "vile reef"
+ ],
+ "related": [
+  "quest:578",
+  "subzone:vile-reef",
+  "npc:baron-revilgaz",
+  "subzone:booty-bay",
+  "subzone:grom-gol-base-camp",
+  "zone:stranglethorn",
+  "topic:goblin",
+  "topic:alliance"
+ ],
+ "attribution": [
+  "The Curse of the Tides"
+ ]
+}

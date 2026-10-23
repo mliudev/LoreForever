@@ -1,0 +1,69 @@
+{
+ "key": "quest:635",
+ "type": "quest",
+ "name": "Crystal in the Mountains",
+ "era": "classic",
+ "zone": "arathi",
+ "meta": {
+  "ids": [
+   635
+  ],
+  "level": "35",
+  "faction": null,
+  "start": "Pendant of Myzrael",
+  "end": "Shards of Myzrael",
+  "previous": "",
+  "next": "",
+  "wiki": "Crystal in the Mountains",
+  "chain": [],
+  "category": "Arathi Highlands"
+ },
+ "summary": "The Pendant of Myzrael pulses in your hand and a pleading reaches you, as if someone desperately needs help. A vision shows a gleaming crystal rising out of the ground in the northern mountains of Arathi, and you feel drawn to that place.",
+ "sections": [
+  {
+   "title": "A Silent Plea",
+   "body": "The pendant pulses as you hold it. From it comes a sense of pleading, as if someone is trying to reach you and badly needs your help. Then a vision opens before you: the mountains in the north of Arathi, and a gleaming crystal thrusting up out of the ground. You feel drawn to that place.",
+   "spoiler": 0
+  },
+  {
+   "title": "At the Crystal",
+   "body": "When you find the crystal, it pulses, as if a living force were trapped within it.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "What starts this journey?",
+   "aliases": [
+    "how to get crystal in the mountains",
+    "where does pendant of myzrael come from",
+    "crystal in the mountains start"
+   ],
+   "answer": "It begins with the Pendant of Myzrael. When you hold it, it pulses and you feel a pleading from someone who desperately needs your help."
+  },
+  {
+   "q": "Where does the vision lead?",
+   "aliases": [
+    "where is the crystal",
+    "crystal in the mountains location",
+    "find the crystal from vision"
+   ],
+   "answer": "It leads to a gleaming crystal standing in the northern mountains of Arathi, and you feel drawn to that place."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "arathi highlands",
+  "crystal",
+  "crystal in the mountains",
+  "pendant of myzrael",
+  "shards of myzrael",
+  "vision"
+ ],
+ "related": [
+  "zone:arathi"
+ ],
+ "attribution": [
+  "Crystal in the Mountains"
+ ]
+}

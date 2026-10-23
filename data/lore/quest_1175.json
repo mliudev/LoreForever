@@ -1,0 +1,88 @@
+{
+ "key": "quest:1175",
+ "type": "quest",
+ "name": "A Bump in the Road",
+ "era": "classic",
+ "zone": "thousandneedles",
+ "meta": {
+  "ids": [
+   1175
+  ],
+  "level": "33",
+  "faction": null,
+  "start": "Trackmaster Zherin",
+  "end": "Trackmaster Zherin",
+  "previous": "",
+  "next": "",
+  "wiki": "A Bump in the Road",
+  "chain": [],
+  "category": "Thousand Needles"
+ },
+ "summary": "Trackmaster Zherin looks after the track at the Mirage Raceway, and the animals out on the Shimmering Flats have grown big enough that their numbers must be kept down before they wander onto it. You are asked to thin out Saltstone Basilisks, Crystalhides and Gazers.",
+ "sections": [
+  {
+   "title": "Keeping the Track Clear",
+   "body": "A basilisk once collided with a racer belonging to the goblins, the Red Thunder, and in the aftermath Kronkrider took Zherin on to look after the track. Zherin cannot say what the animals out on the Shimmering Flats are eating to get so big, only that their numbers have to be kept down, or one will stray onto the course mid-race. Clearing wreckage is bad enough, and Zherin would rather not pick it out of burnt animal parts as well.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Trackmaster Zherin?",
+   "aliases": [
+    "who is zherin",
+    "trackmaster zherin",
+    "zherin lore"
+   ],
+   "answer": "The trackmaster at the Mirage Raceway on the Shimmering Flats, hired by Kronkrider to take care of the track."
+  },
+  {
+   "q": "Why are the basilisks being hunted?",
+   "aliases": [
+    "why kill basilisks",
+    "why basilisks must die",
+    "basilisk problem"
+   ],
+   "answer": "The beasts out on the flats have grown big, and one straying onto the track during a race could mean a crash, as happened when a basilisk met the goblins' Red Thunder."
+  },
+  {
+   "q": "What is the Red Thunder?",
+   "aliases": [
+    "red thunder",
+    "red thunder crash",
+    "goblin red thunder"
+   ],
+   "answer": "A racer belonging to the goblins, wrecked in a collision with a basilisk."
+  },
+  {
+   "q": "Where are the basilisks usually found on the flats?",
+   "aliases": [
+    "basilisk locations",
+    "where are the basilisks",
+    "where to find saltstone"
+   ],
+   "answer": "They roam all over the Shimmering Flats, but gather more thickly near Weazel's Crater and among the Tahonda Ruins."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "crystalhide",
+  "gazer",
+  "mirage raceway",
+  "red thunder",
+  "saltstone basilisk",
+  "shimmering flats",
+  "tahonda ruins",
+  "trackmaster zherin",
+  "weazel's crater"
+ ],
+ "related": [
+  "subzone:mirage-raceway",
+  "subzone:shimmering-flats",
+  "subzone:weazel-s-crater",
+  "subzone:tahonda-ruins"
+ ],
+ "attribution": [
+  "A Bump in the Road"
+ ]
+}

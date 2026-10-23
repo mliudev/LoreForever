@@ -1,0 +1,90 @@
+{
+ "key": "quest:7846",
+ "type": "quest",
+ "name": "Recover the Key!",
+ "era": "classic",
+ "zone": "hinterlands",
+ "meta": {
+  "ids": [
+   7846
+  ],
+  "level": "51",
+  "faction": "Horde",
+  "start": "Elder Torntusk",
+  "end": "Elder Torntusk",
+  "previous": "Kidnapped Elder Torntusk!",
+  "next": "Return to Primal Torntusk",
+  "wiki": "Recover the Key!",
+  "chain": [
+   "Kidnapped Elder Torntusk!",
+   "Recover the Key!",
+   "Return to Primal Torntusk"
+  ],
+  "prev_q": [
+   "Kidnapped Elder Torntusk!"
+  ],
+  "next_q": [
+   "Return to Primal Torntusk"
+  ],
+  "category": "Hinterlands"
+ },
+ "summary": "Elder Torntusk is held at Jintha'alor in shackles. He says Hitah'ya the Keeper has the key to his bindings and is in the nearby cave, well guarded, and he asks you to kill her and bring it back.",
+ "sections": [
+  {
+   "title": "The Keeper's Cave",
+   "body": "After Kidnapped Elder Torntusk!, you find Elder Torntusk bound in shackles at Jintha'alor. Hitah'ya the Keeper holds the key to his bindings and is in the nearby cave, well guarded. Elder Torntusk asks you to kill her and fetch the key so his shackles come loose, for only then can he go home.",
+   "spoiler": 0
+  },
+  {
+   "title": "Elder Torntusk's Thanks",
+   "body": "With the key in hand, Elder Torntusk rises to his feet. He thanks you and says the Revantusk will know your deeds.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who holds the key to Elder Torntusk's shackles?",
+   "aliases": [
+    "who has the key",
+    "hitahya the keeper",
+    "where is the shackle key"
+   ],
+   "answer": "Hitah'ya the Keeper holds the key. Elder Torntusk says she is in the nearby cave and is guarded well."
+  },
+  {
+   "q": "Where is Elder Torntusk held?",
+   "aliases": [
+    "where is elder torntusk",
+    "torntusk location",
+    "jintha'alor torntusk"
+   ],
+   "answer": "Elder Torntusk is held at Jintha'alor."
+  },
+  {
+   "q": "Why does Elder Torntusk need the key?",
+   "aliases": [
+    "why the shackle key",
+    "what is the key for"
+   ],
+   "answer": "The key opens the shackles on his bindings. Only then, he says, will he be free to return home."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "elder torntusk",
+  "hinterlands",
+  "hitah'ya the keeper",
+  "jintha'alor",
+  "recover the key",
+  "revantusk",
+  "shackle key"
+ ],
+ "related": [
+  "quest:7845",
+  "quest:7847",
+  "zone:hinterlands"
+ ],
+ "attribution": [
+  "Wowpedia: Recover the Key!"
+ ]
+}

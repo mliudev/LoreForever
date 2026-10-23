@@ -1,0 +1,75 @@
+{
+ "key": "quest:841",
+ "type": "quest",
+ "name": "Another Power Source?",
+ "era": "classic",
+ "zone": "tanaris",
+ "meta": {
+  "ids": [
+   841
+  ],
+  "level": "46",
+  "faction": "Horde",
+  "start": "Chief Engineer Bilgewhizzle",
+  "end": "Chief Engineer Bilgewhizzle",
+  "previous": "Slake That Thirst",
+  "next": "",
+  "wiki": "Another Power Source?",
+  "chain": [],
+  "category": "Tanaris",
+  "prev_q": [
+   "Slake That Thirst"
+  ]
+ },
+ "summary": "Chief Engineer Bilgewhizzle in Gadgetzan has more power sources and will sell you another one, at a price of ten Wastewander Water Pouches.",
+ "sections": [
+  {
+   "title": "A Costly Replacement",
+   "body": "Chief Engineer Bilgewhizzle guesses the first power source from Slake That Thirst ran out of time, or perhaps got lost in the sand. Whatever the reason, Bilgewhizzle has additional power sources to sell. This time the price is ten Wastewander Water Pouches, because times are tough all around and power sources do not grow on trees.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Why does Chief Engineer Bilgewhizzle want Wastewander water pouches?",
+   "aliases": [
+    "bilgewhizzle water pouches",
+    "why water pouches"
+   ],
+   "answer": "Bilgewhizzle sells another power source for ten Wastewander Water Pouches, saying times are tough all around."
+  },
+  {
+   "q": "Who offers this exchange?",
+   "aliases": [
+    "who starts another power source",
+    "power source quest giver"
+   ],
+   "answer": "Chief Engineer Bilgewhizzle, who has additional power sources to sell."
+  },
+  {
+   "q": "What happened prior to needing another power source?",
+   "aliases": [
+    "prereq another power source",
+    "previous quest power source"
+   ],
+   "answer": "It follows Slake That Thirst, where you first obtained a power source for your kit."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "bilgewhizzle",
+  "gadgetzan",
+  "power source",
+  "tanaris",
+  "wastewander",
+  "water pouches"
+ ],
+ "related": [
+  "quest:379",
+  "subzone:gadgetzan",
+  "zone:tanaris"
+ ],
+ "attribution": [
+  "Another Power Source?"
+ ]
+}

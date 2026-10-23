@@ -1,0 +1,98 @@
+{
+ "key": "quest:573",
+ "type": "quest",
+ "name": "Mok'thardin's Enchantment",
+ "era": "classic",
+ "zone": "stranglethorn",
+ "meta": {
+  "ids": [
+   573
+  ],
+  "level": "44",
+  "faction": "Horde",
+  "start": "Far Seer Mok'thardin",
+  "end": "Far Seer Mok'thardin",
+  "previous": "Mok'thardin's Enchantment (2)",
+  "next": "",
+  "wiki": "Mok'thardin's Enchantment (4)",
+  "chain": [],
+  "prev_q": [
+   "Mok'thardin's Enchantment (2)"
+  ],
+  "category": "Stranglethorn Vale",
+  "chain_tpl": [
+   "Mok'thardin's Enchantment"
+  ]
+ },
+ "summary": "Far Seer Mok'thardin requires one final sacred component to complete the enchantment of a ceremonial choker at Grom'gol Base Camp. He directs you to an elevated Holy Spring along the southern bluffs near the western sea, which has drawn the attention of a hostile naga expedition.",
+ "sections": [
+  {
+   "title": "A Contested Spring",
+   "body": "Following the earlier stages of Mok'thardin's enchantment, the far seer seeks water from a Holy Spring situated high above the bluffs in the southern reaches of Stranglethorn Vale, near the western coast. The site is a point of contention among scholars of the mystic and divine, with every race across Azeroth claiming the holy waters were sanctified specifically for their own people.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Naga Incursion",
+   "body": "A party of naga explorers has moved up to the spring and must be dealt with as well. Mok'thardin requires ten of these serpent intruders slain alongside a draught of the spring water to finish preparing the ceremonial choker in the name of the Warchief.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Where is the Holy Spring located?",
+   "aliases": [
+    "holy spring location",
+    "where is holy spring water",
+    "holy spring bluffs"
+   ],
+   "answer": "The Holy Spring sits high atop the bluffs toward the western coast in the southern region of Stranglethorn Vale."
+  },
+  {
+   "q": "Why is the Holy Spring considered important?",
+   "aliases": [
+    "why is the spring holy",
+    "holy spring significance"
+   ],
+   "answer": "Religious and mystical scholars argue fiercely over the spring, as every race across Azeroth maintains that its divine waters were sanctified especially for them."
+  },
+  {
+   "q": "Who is contesting the Holy Spring?",
+   "aliases": [
+    "who attacks the spring",
+    "holy spring enemies"
+   ],
+   "answer": "An expedition of naga explorers has advanced onto the bluffs surrounding the Holy Spring, menacing the area."
+  },
+  {
+   "q": "What is the water being used for?",
+   "aliases": [
+    "why need holy spring water",
+    "holy spring water purpose"
+   ],
+   "answer": "The water serves as the final reagent required by Far Seer Mok'thardin to prepare and enchant a ceremonial choker in defense of the Horde."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Horde",
+   "text": "Far Seer Mok'thardin asks Horde champions to help finish a ceremonial choker meant to honor the Warchief and protect the Horde."
+  }
+ ],
+ "keywords": [
+  "ceremonial choker",
+  "grom'gol",
+  "holy spring",
+  "holy spring water",
+  "mok'thardin",
+  "naga explorer",
+  "stranglethorn"
+ ],
+ "related": [
+  "zone:stranglethorn",
+  "topic:horde",
+  "topic:naga"
+ ],
+ "attribution": [
+  "Mok'thardin's Enchantment (4)"
+ ]
+}

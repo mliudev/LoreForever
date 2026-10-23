@@ -1,0 +1,87 @@
+{
+ "key": "quest:576",
+ "type": "quest",
+ "name": "Keep An Eye Out",
+ "era": "classic",
+ "zone": "stranglethorn",
+ "meta": {
+  "ids": [
+   576
+  ],
+  "level": "42",
+  "start": "Dizzy One-Eye",
+  "end": "Dizzy One-Eye",
+  "previous": "The Bloodsail Buccaneers (Classic)",
+  "wiki": null,
+  "next": ""
+ },
+ "summary": "In Booty Bay, the old sea dog Dizzy One-Eye lost his sight in battle and sees only through a special enchanted glass eye. Bloodsail Buccaneers ambushed him last night and took it, and Dizzy asks for help getting the eye back.",
+ "sections": [
+  {
+   "title": "The Enchanted Eye",
+   "body": "Dizzy One-Eye lost both eyes in battle. By good fortune, Dizzy's ship docked at Menethil, where a traveling wizard made a special enchanted glass eye that gave Dizzy sight again. Without it, Dizzy feels useless, and recalls that the crow's nest was once home.",
+   "spoiler": 0
+  },
+  {
+   "title": "Taken by the Buccaneers",
+   "body": "Last night, Bloodsail Buccaneers ambushed Dizzy on the way out and took the eye. It seems the Bloodsails have made their way into Booty Bay. Dizzy fears the captain will keelhaul Dizzy once the eye's fate comes out, and reckons a lookout who cannot see might only be fit for scrubbing the bilge. So Dizzy asks for help getting the eye back from the Bloodsail Buccaneers.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Dizzy One-Eye?",
+   "aliases": [
+    "dizzy one eye",
+    "who gives keep an eye out",
+    "who is dizzy"
+   ],
+   "answer": "Dizzy One-Eye is an old sea dog in Booty Bay who worked as a lookout. Dizzy lost both eyes in battle and sees only through an enchanted glass eye."
+  },
+  {
+   "q": "Where did Dizzy get the magical eye?",
+   "aliases": [
+    "how did dizzy get his eye",
+    "dizzy enchanted eye origin",
+    "glass eye wizard"
+   ],
+   "answer": "Dizzy's ship put in at Menethil, where a wizard passing through made a special enchanted glass eye that let Dizzy see again."
+  },
+  {
+   "q": "Who took Dizzy's eye?",
+   "aliases": [
+    "who stole the eye",
+    "who took dizzy eye",
+    "who has dizzy eye"
+   ],
+   "answer": "Bloodsail Buccaneers ambushed Dizzy last night on the way out and took the eye."
+  },
+  {
+   "q": "What does Dizzy fear will happen without the eye?",
+   "aliases": [
+    "what happens if dizzy loses eye",
+    "dizzy captain penalty"
+   ],
+   "answer": "Dizzy fears the captain will keelhaul Dizzy for it, and reckons a lookout who cannot see might only be fit for scrubbing the bilge."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "bloodsail",
+  "booty bay",
+  "buccaneers",
+  "dizzy",
+  "glass eye",
+  "menethil",
+  "one-eye",
+  "stranglethorn"
+ ],
+ "related": [
+  "subzone:booty-bay",
+  "quest:595",
+  "zone:stranglethorn"
+ ],
+ "attribution": [
+  "Classic quest text: Keep An Eye Out"
+ ]
+}

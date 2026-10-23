@@ -1,0 +1,102 @@
+{
+ "key": "quest:82",
+ "type": "quest",
+ "name": "Noxious Lair Investigation",
+ "era": "classic",
+ "zone": "tanaris",
+ "meta": {
+  "ids": [
+   82
+  ],
+  "level": "47",
+  "faction": null,
+  "start": "Senior Surveyor Fizzledowser",
+  "end": "Alchemist Pestlezugg",
+  "previous": "Gadgetzan Water Survey",
+  "next": "The Scrimshank Redemption",
+  "wiki": "Noxious Lair Investigation",
+  "chain": [],
+  "prev_q": [
+   "Gadgetzan Water Survey"
+  ],
+  "next_q": [
+   "The Scrimshank Redemption"
+  ],
+  "category": "Tanaris",
+  "chain_tpl": [
+   "Rise of the Silithid"
+  ]
+ },
+ "summary": "Senior Surveyor Fizzledowser wants to know who the enemy is. Bugs have been draining the pools of water that lay where the Noxious Lair now stands, and little else is known about them. You are asked to take five insect parts from the Centipaar in the lair and bring them to Alchemist Pestlezugg in Gadgetzan.",
+ "sections": [
+  {
+   "title": "Parts From the Lair",
+   "body": "After the Gadgetzan Water Survey, Senior Surveyor Fizzledowser turns to the reports about the bugs. Little is known except that they are draining the pools that once lay where the Noxious Lair now is. Fizzledowser wants to learn who the enemy is first, and asks you to go into the lair, take five parts from the Centipaar found there, and carry them back to Gadgetzan, to the alchemist Pestlezugg, to be examined.",
+   "spoiler": 0
+  },
+  {
+   "title": "What Pestlezugg Finds",
+   "body": "Pestlezugg starts on the parts at once and says right away that they match no insect form seen before, almost as if an outside force were controlling the bugs. Pestlezugg then sends you back to Fizzledowser, for an emergency needs your help, one that may involve more of the bugs in Tanaris.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Why does Senior Surveyor Fizzledowser want insect parts?",
+   "aliases": [
+    "why collect bug parts",
+    "fizzledowser insect parts",
+    "noxious lair purpose"
+   ],
+   "answer": "Bugs are draining the water pools that once lay where the Noxious Lair is, and little else about them is known. Parts from the Centipaar are meant to help Pestlezugg work out what they are."
+  },
+  {
+   "q": "Where are the Centipaar found?",
+   "aliases": [
+    "where is noxious lair",
+    "centipaar location",
+    "where to find centipaar"
+   ],
+   "answer": "The Centipaar are in the Noxious Lair, where water pools used to be."
+  },
+  {
+   "q": "Who receives the insect parts in Gadgetzan?",
+   "aliases": [
+    "who to turn in to",
+    "pestlezugg location",
+    "who wants the bug parts"
+   ],
+   "answer": "Alchemist Pestlezugg in Gadgetzan, who is to examine them."
+  },
+  {
+   "q": "What comes before this step?",
+   "aliases": [
+    "previous quest",
+    "prerequisite quest",
+    "what leads to this"
+   ],
+   "answer": "It follows the Gadgetzan Water Survey."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "centipaar",
+  "fizzledowser",
+  "gadgetzan",
+  "insects",
+  "noxious lair",
+  "pestlezugg",
+  "tanaris"
+ ],
+ "related": [
+  "subzone:noxious-lair",
+  "npc:senior-surveyor-fizzledowser",
+  "subzone:gadgetzan",
+  "zone:tanaris",
+  "quest:992",
+  "quest:10"
+ ],
+ "attribution": [
+  "Noxious Lair Investigation"
+ ]
+}

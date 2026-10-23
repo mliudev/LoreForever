@@ -1,0 +1,92 @@
+{
+ "key": "quest:1387",
+ "type": "quest",
+ "name": "Centaur Bounty",
+ "era": "classic",
+ "zone": "desolace",
+ "meta": {
+  "ids": [
+   1387
+  ],
+  "level": "31",
+  "faction": "Alliance",
+  "start": "Corporal Melkins",
+  "end": "Corporal Melkins",
+  "previous": "",
+  "next": "",
+  "wiki": "Centaur Bounty (Alliance)",
+  "chain": [],
+  "category": "Desolace"
+ },
+ "summary": "Corporal Melkins at Nijel's Point says every centaur clan in Desolace shares one trait, cruelty, and that peace will not come while the centaur remain. Melkins asks you to hunt them across the land and bring fifteen of their ears.",
+ "sections": [
+  {
+   "title": "One Thing in Common",
+   "body": "At Nijel's Point, Corporal Melkins describes a centaur race split among many clans, each with a leader and plans of its own, yet alike in cruelty. Peace, Melkins says, will only come if the centaurs are removed.",
+   "spoiler": 0
+  },
+  {
+   "title": "Ears for the Alliance",
+   "body": "Wandering Desolace, you hunt centaur and take their ears. Melkins wants a great many, fifteen in all, and calls the work a service to the Alliance that brings the war's end nearer.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who issues the bounty on the centaur?",
+   "aliases": [
+    "centaur bounty questgiver",
+    "who gives centaur bounty",
+    "melkins bounty"
+   ],
+   "answer": "Corporal Melkins, stationed at Nijel's Point in Desolace."
+  },
+  {
+   "q": "Why does Corporal Melkins want the centaur killed?",
+   "aliases": [
+    "why kill centaur",
+    "melkins motive",
+    "why centaur ears"
+   ],
+   "answer": "Melkins says the clans differ in leaders and aims but are all cruel, and that peace is impossible while the centaur remain."
+  },
+  {
+   "q": "What does Corporal Melkins ask you to bring?",
+   "aliases": [
+    "what to collect",
+    "centaur bounty items",
+    "centaur bounty trophy"
+   ],
+   "answer": "Fifteen centaur ears, taken from centaur you hunt while wandering Desolace."
+  },
+  {
+   "q": "Which centaur clans need to be hunted?",
+   "aliases": [
+    "which centaurs",
+    "centaur clan target",
+    "what clan for ears"
+   ],
+   "answer": "Melkins names no single clan, saying all the clans share cruelty, and asks only that you hunt centaur in Desolace."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "alliance",
+  "bounty",
+  "centaur",
+  "centaur ear",
+  "corporal melkins",
+  "desolace",
+  "ears",
+  "nijel's point"
+ ],
+ "related": [
+  "subzone:nijel-s-point",
+  "topic:centaur",
+  "zone:desolace",
+  "topic:alliance"
+ ],
+ "attribution": [
+  "Centaur Bounty (Alliance)"
+ ]
+}

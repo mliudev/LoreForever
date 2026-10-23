@@ -1,0 +1,99 @@
+{
+ "key": "quest:2822",
+ "type": "quest",
+ "name": "The Mark of Quality",
+ "era": "classic",
+ "zone": "feralas",
+ "meta": {
+  "ids": [
+   2822
+  ],
+  "level": "46",
+  "faction": "Horde",
+  "start": "Jangdor Swiftstrider",
+  "end": "Jangdor Swiftstrider",
+  "previous": "",
+  "next": "Improved Quality (Classic Horde)",
+  "wiki": "The Mark of Quality (Classic Horde)",
+  "chain": [],
+  "next_q": [
+   "Improved Quality (Classic Horde)"
+  ],
+  "category": "Feralas"
+ },
+ "summary": "In Camp Mojache, the leatherworker Jangdor Swiftstrider holds that quality should never be compromised. Jangdor has found thick yeti hides and wants a stack of ten.",
+ "sections": [
+  {
+   "title": "A Matter of Pride",
+   "body": "Jangdor Swiftstrider takes pride in leatherwork and says quality should never be compromised. Lately Jangdor has discovered thick yeti hides. Feralas is home to the yetis, and they are often found west of Camp Mojache in Feral Scar Vale, just inland of the Forgotten Coast.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Offer",
+   "body": "For a stack of ten hides, Jangdor will let you choose one of the leather goods Jangdor has made. Bring them back to Camp Mojache.",
+   "spoiler": 0
+  },
+  {
+   "title": "Jangdor's Thoughts on the Hides",
+   "body": "Jangdor declares that, given a special treatment, the hides hold up as well as iron. Finding the right tanning mix will take many attempts, yet Jangdor is sure the hides will raise the mark of quality higher than before.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is asking for the hides?",
+   "aliases": [
+    "who gives the quest",
+    "quest giver mark of quality",
+    "where is jangdor"
+   ],
+   "answer": "Jangdor Swiftstrider, a leatherworker at Camp Mojache in Feralas."
+  },
+  {
+   "q": "Where can the yetis be found?",
+   "aliases": [
+    "where are the yetis",
+    "yeti hide location",
+    "where is feral scar vale"
+   ],
+   "answer": "Yetis are native to Feralas. Many are found to the west of Camp Mojache in Feral Scar Vale, just inland of the Forgotten Coast."
+  },
+  {
+   "q": "How many hides are required?",
+   "aliases": [
+    "how many yeti hides",
+    "yeti hide count",
+    "mark of quality requirement"
+   ],
+   "answer": "Ten of them, as one stack."
+  },
+  {
+   "q": "What do I get for the hides?",
+   "aliases": [
+    "what does jangdor give",
+    "mark of quality payment"
+   ],
+   "answer": "Jangdor offers a choice among the leather goods Jangdor has made, in exchange for the stack."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "camp mojache",
+  "feral scar vale",
+  "feralas",
+  "forgotten coast",
+  "jangdor swiftstrider",
+  "leatherworking",
+  "thick yeti hide",
+  "yeti"
+ ],
+ "related": [
+  "subzone:camp-mojache",
+  "subzone:feral-scar-vale",
+  "subzone:forgotten-coast",
+  "zone:feralas"
+ ],
+ "attribution": [
+  "The Mark of Quality (Classic Horde)"
+ ]
+}

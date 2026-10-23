@@ -1,0 +1,117 @@
+{
+ "key": "quest:728",
+ "type": "quest",
+ "name": "To the Undercity for Yagyin's Digest",
+ "era": "classic",
+ "zone": "badlands",
+ "meta": {
+  "ids": [
+   728
+  ],
+  "level": "40",
+  "faction": "Horde",
+  "start": "Theldurin the Lost",
+  "end": "Keeper Bel'dugur",
+  "previous": "Solution to Doom",
+  "next": "The Star, the Hand and the Heart",
+  "wiki": "To the Undercity for Yagyin's Digest",
+  "chain": [],
+  "prev_q": [
+   "Solution to Doom"
+  ],
+  "next_q": [
+   "The Star, the Hand and the Heart"
+  ],
+  "category": "Badlands",
+  "chain_tpl": [
+   "Solution to Doom"
+  ]
+ },
+ "summary": "Theldurin the Lost sends you to the Undercity of Lordaeron with a sigil. Keeper Bel'dugur is to take you for one of the people Theldurin fled, and you are to ask the keeper for Yagyin's Digest.",
+ "sections": [
+  {
+   "title": "A Book Written Long Ago",
+   "body": "The tablet tells Theldurin much, but not nearly enough. Yagyin wrote a digest in ages past, and the people Theldurin fled keep copies in many places, with their most learned studying it. Theldurin believes it holds vast knowledge that can protect them, and wants it brought back.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Keeper in the Undercity",
+   "body": "Keeper Bel'dugur is in the Undercity of Lordaeron. Theldurin gives you the Sigil of the Hammer to show the keeper, so that you will be taken for one of them, and you are to ask for the digest.",
+   "spoiler": 0
+  },
+  {
+   "title": "A Word of Caution",
+   "body": "Bel'dugur greets you as an eager seeker of the collection and warns that knowledge gives power to the strong but drives the weak mad. Once the sigil is shown, Bel'dugur urges you to be discreet with such signs. Some do not believe in the righteousness of their pledge, and others would see them fail if they knew of them. Those who share the pledge must always be careful, watchful and patient.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who sends you to the Undercity?",
+   "aliases": [
+    "who starts this quest",
+    "who gives to the undercity for yagyin's digest",
+    "quest giver"
+   ],
+   "answer": "Theldurin the Lost sends you, with the Sigil of the Hammer, to find Keeper Bel'dugur."
+  },
+  {
+   "q": "What is the Sigil of the Hammer for?",
+   "aliases": [
+    "sigil of the hammer use",
+    "why do i need the sigil",
+    "what does the sigil do"
+   ],
+   "answer": "Theldurin gives it to you to show Keeper Bel'dugur, so that the keeper will think you one of the people Theldurin fled."
+  },
+  {
+   "q": "What is Yagyin's Digest?",
+   "aliases": [
+    "what is yagyins digest",
+    "who is yagyin",
+    "yagyin book"
+   ],
+   "answer": "It is a book Yagyin wrote in ages past. Theldurin says it holds vast knowledge and is studied by the most learned of the people Theldurin fled."
+  },
+  {
+   "q": "Where is Keeper Bel'dugur?",
+   "aliases": [
+    "keeper bel'dugur location",
+    "where to find keeper beldugur",
+    "beldugur undercity"
+   ],
+   "answer": "Keeper Bel'dugur stays in the Undercity of Lordaeron, where you find the Keeper."
+  },
+  {
+   "q": "What came before this?",
+   "aliases": [
+    "previous quest",
+    "what comes before this",
+    "solution to doom connection"
+   ],
+   "answer": "It follows Solution to Doom."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "badlands",
+  "bel'dugur",
+  "digest",
+  "hammer",
+  "sigil",
+  "theldurin",
+  "undercity",
+  "yagyin"
+ ],
+ "related": [
+  "npc:theldurin-the-lost",
+  "npc:keeper-bel-dugur",
+  "zone:undercity",
+  "quest:736",
+  "zone:badlands",
+  "topic:lordaeron"
+ ],
+ "attribution": [
+  "To the Undercity for Yagyin's Digest"
+ ]
+}

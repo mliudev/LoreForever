@@ -1,0 +1,122 @@
+{
+ "key": "quest:4450",
+ "type": "quest",
+ "name": "Ledger from Tanaris",
+ "era": "classic",
+ "zone": "searinggorge",
+ "meta": {
+  "ids": [
+   4450
+  ],
+  "level": "46",
+  "faction": null,
+  "start": "Wooden Outhouse",
+  "end": "Krinkle Goodsteel",
+  "previous": "Caught!",
+  "next": "",
+  "wiki": "Ledger from Tanaris",
+  "chain": [
+   "Caught!",
+   "Ledger from Tanaris"
+  ],
+  "prev_q": [
+   "Caught!"
+  ],
+  "category": "Searing Gorge"
+ },
+ "summary": "After Caught!, the occupant of the wooden outhouse in Searing Gorge offers you a small job taken on in Tanaris. Krinkle Goodsteel in Gadgetzan wants certain things found in the gorge and a few other places, and you are to collect them and bring them to him.",
+ "sections": [
+  {
+   "title": "A Job from Tanaris",
+   "body": "Having been helped, the occupant recalls a little job taken on while in Tanaris. Krinkle Goodsteel of Gadgetzan wants a list of things gathered, some from this gorge and some from elsewhere. Goodsteel's ledger will be slid under the door for you, and you are to carry it, along with everything on it, to Goodsteel in Tanaris.",
+   "spoiler": 0
+  },
+  {
+   "title": "What the Ledger Lists",
+   "body": "The ledger lists twenty solid crystal leg shafts, which come from the glassweb spiders of Searing Gorge, and an overdue package. The package is at a crashed zeppelin at Beezil's Wreck, in Dustwallow Marsh. The third item, Goodsteel's balanced flameberge, is held by Jarquia, a murloc along the eastern shore of the Swamp of Sorrows.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Where does this begin?",
+   "aliases": [
+    "quest start",
+    "who gives ledger from tanaris",
+    "outhouse location"
+   ],
+   "answer": "At the wooden outhouse in Searing Gorge, after you have helped the person locked inside."
+  },
+  {
+   "q": "Who is Krinkle Goodsteel?",
+   "aliases": [
+    "who is krinkle goodsteel",
+    "krinkle goodsteel gadgetzan",
+    "where is krinkle goodsteel"
+   ],
+   "answer": "He is in Gadgetzan, in Tanaris. He says he is awfully busy, with many patrons asking for his services."
+  },
+  {
+   "q": "What is on the ledger?",
+   "aliases": [
+    "what items are needed",
+    "ledger item list",
+    "goodsteel ledger items"
+   ],
+   "answer": "Twenty solid crystal leg shafts, an overdue package, and Goodsteel's balanced flameberge."
+  },
+  {
+   "q": "Where is the overdue package?",
+   "aliases": [
+    "overdue package location",
+    "where is overdue package",
+    "beezil's wreck package"
+   ],
+   "answer": "At the crashed zeppelin at Beezil's Wreck, in Dustwallow Marsh."
+  },
+  {
+   "q": "Who has Goodsteel's balanced flameberge?",
+   "aliases": [
+    "balanced flameberge location",
+    "who drops flameberge",
+    "jarquia swamp of sorrows"
+   ],
+   "answer": "Jarquia, a murloc along the Swamp of Sorrows' east coast."
+  },
+  {
+   "q": "What came before this?",
+   "aliases": [
+    "previous quest",
+    "prerequisite quest",
+    "chain before ledger from tanaris"
+   ],
+   "answer": "Caught!, at the same wooden outhouse."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "beezil's wreck",
+  "dustwallow marsh",
+  "gadgetzan",
+  "glassweb spiders",
+  "jarquia",
+  "krinkle goodsteel",
+  "ledger from tanaris",
+  "searing gorge",
+  "swamp of sorrows",
+  "wooden outhouse"
+ ],
+ "related": [
+  "quest:4449",
+  "subzone:gadgetzan",
+  "zone:tanaris",
+  "zone:searinggorge",
+  "subzone:beezil-s-wreck",
+  "zone:dustwallow",
+  "zone:swampofsorrows",
+  "topic:murloc"
+ ],
+ "attribution": [
+  "Ledger from Tanaris"
+ ]
+}

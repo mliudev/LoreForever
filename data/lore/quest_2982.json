@@ -1,0 +1,99 @@
+{
+ "key": "quest:2982",
+ "type": "quest",
+ "name": "The High Wilderness",
+ "era": "classic",
+ "zone": "feralas",
+ "meta": {
+  "ids": [
+   2982
+  ],
+  "level": "44",
+  "faction": "Alliance",
+  "start": "Angelas Moonbreeze",
+  "end": "Angelas Moonbreeze",
+  "previous": "",
+  "next": "",
+  "wiki": "The High Wilderness (quest)",
+  "chain": [],
+  "category": "Feralas"
+ },
+ "summary": "Angelas Moonbreeze and Troyas look into old ruins in the forests of Feralas, yet lately Troyas goes alone to the High Wilderness, which worries Angelas. Gordunni ogres hold that ground. Angelas hopes you will make the ruins to the southeast a little safer by culling the ogres.",
+ "sections": [
+  {
+   "title": "Worry for Troyas",
+   "body": "Angelas Moonbreeze admits the work is dangerous, but Angelas and Troyas keep exploring the ruins scattered through the forests of Feralas. Lately Troyas goes to the High Wilderness alone, and Angelas worries. The Gordunni ogres have taken over there and do not take kindly to anyone who enters their territory. Angelas hopes you will go to the ruins southeast of here and cull some of them, to make it safer for Troyas: eight Gordunni Warlocks, eight Gordunni Shamans and eight Gordunni Brutes.",
+   "spoiler": 0
+  },
+  {
+   "title": "Afterward",
+   "body": "Once it is done, Angelas is very grateful, and asks you not to mention a word of it to Troyas.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who asks you to clear out the High Wilderness?",
+   "aliases": [
+    "who is angelas",
+    "angelas moonbreeze",
+    "who gives the high wilderness quest"
+   ],
+   "answer": "Angelas Moonbreeze, who investigates the ruins of Feralas together with Troyas."
+  },
+  {
+   "q": "Why does Angelas want the Gordunni ogres thinned out?",
+   "aliases": [
+    "why kill gordunni",
+    "why kill ogres in high wilderness",
+    "angelas reason"
+   ],
+   "answer": "Troyas has been going alone to the High Wilderness, and Angelas worries. The Gordunni ogres have taken the area and do not welcome visitors in their territory."
+  },
+  {
+   "q": "Where is the High Wilderness ruin?",
+   "aliases": [
+    "where is high wilderness",
+    "high wilderness location",
+    "ruins to the southeast"
+   ],
+   "answer": "Angelas points you to the ruins to the southeast."
+  },
+  {
+   "q": "Which Gordunni must be slain?",
+   "aliases": [
+    "who do i kill high wilderness",
+    "gordunni targets high wilderness"
+   ],
+   "answer": "Eight Gordunni Warlocks, eight Gordunni Shamans and eight Gordunni Brutes."
+  },
+  {
+   "q": "What is said about the Gordunni's magic?",
+   "aliases": [
+    "gordunni magic",
+    "ogre spells",
+    "what magic wreaks havoc"
+   ],
+   "answer": "Angelas warns that the magic of the Gordunni seems to ravage the very ground beneath them, and bids you be watchful around them."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "angelas moonbreeze",
+  "feralas",
+  "gordunni",
+  "gordunni brute",
+  "gordunni shaman",
+  "gordunni warlock",
+  "high wilderness",
+  "ogres",
+  "troyas"
+ ],
+ "related": [
+  "subzone:high-wilderness",
+  "zone:feralas"
+ ],
+ "attribution": [
+  "The High Wilderness (quest)"
+ ]
+}

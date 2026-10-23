@@ -5,8 +5,12 @@
 import { loadIndex, loadMore, indexPage, htmlHeaders } from "../../lib/lore.js";
 import { loadVoices } from "../../lib/voices.js";
 import { loadPacks, loadPackEntries, visiblePacks, packOptions } from "../../lib/packs.js";
+import { edgeCached } from "../../lib/edge-cache.js";
 
-export async function onRequestGet({ request, env }) {
+// Kept at the edge like the entry pages (lib/edge-cache.js).
+export const onRequestGet = context => edgeCached(context, () => render(context), { ttl: 600, versioned: true });
+
+async function render({ request, env }) {
   const [index, more, voices, packData, packEntries] = await Promise.all([loadIndex(env, request), loadMore(env, request),
     loadVoices(env, request), loadPacks(env, request), loadPackEntries(env, request)]);
   const packs = packOptions(packEntries, packData, visiblePacks(packData, voices));

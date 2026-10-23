@@ -15,9 +15,10 @@ import { setup, currentUser, fail, noStore, sameOrigin } from "../../../lib/acco
 import { currentDevice } from "../../../lib/devices.js";
 import { perMinute, slowDown } from "../../../lib/ratelimit.js";
 import { shareSummary, newShareCode, codeOwner } from "../../../lib/referrals.js";
+import { isCompanion } from "../../../lib/client-version.js";
 
 const COMPANION = /^companion\/[\w.-]{1,24}$/;
-const fromCompanion = request => COMPANION.test(request.headers.get("X-LF-Client") || "") && !request.headers.get("Origin");
+const fromCompanion = request => isCompanion(request.headers.get("X-LF-Client")) && !request.headers.get("Origin");
 const ok = body => Response.json({ ok: true, ...body }, { headers: noStore });
 
 export async function onRequest({ request, env, params }) {

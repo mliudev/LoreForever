@@ -7,12 +7,12 @@
  "meta": {
   "wiki": "Defias Hideout"
  },
- "summary": "The Defias Hideout is an unassuming, derelict house situated on the southern edge of Moonbrook. Though it blends in with the surrounding ruined settlement, its upper floor conceals the primary overland entrance into the extensive subterranean network of the Deadmines.",
+ "summary": "The Defias Hideout is an unassuming, derelict house situated on the southern edge of Moonbrook. Though it blends in with the surrounding ruined settlement, its upper floor conceals an overland passage leading down into the dark subterranean chambers beneath the town.",
  "sections": [
   {
    "title": "A Gateway in Ruin",
    "body": "To the casual eye, the Defias Hideout looks like any other ransacked manor or farmhouse in Moonbrook, overrun by destitute vagrants and Defias thugs. However, its modest interior masks the nerve center of Edwin VanCleef's southern operations. Ascending to the upper floor reveals an opening that leads directly down into the sprawling labyrinth of the Deadmines. Because the Brotherhood focuses its manpower on guarding the perimeter of Moonbrook and laboring deep underground, the hideout itself is sparsely garrisoned, functioning more as a heavily monitored bottleneck than an active stronghold.",
-   "spoiler": 0
+   "spoiler": 1
   }
  ],
  "faq": [

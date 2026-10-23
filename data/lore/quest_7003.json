@@ -1,0 +1,103 @@
+{
+ "key": "quest:7003",
+ "type": "quest",
+ "name": "Zapped Giants",
+ "era": "classic",
+ "zone": "feralas",
+ "meta": {
+  "ids": [
+   7003
+  ],
+  "level": "48",
+  "faction": null,
+  "start": "Zorbin Fandazzle",
+  "end": "Zorbin Fandazzle",
+  "previous": "",
+  "next": "Again With the Zapped Giants",
+  "wiki": "Zapped Giants",
+  "chain": [
+   "Zapped Giants",
+   "Again With the Zapped Giants"
+  ],
+  "category": "Feralas",
+  "next_q": [
+   "Again With the Zapped Giants"
+  ]
+ },
+ "summary": "On the Forgotten Coast of Feralas, near the docks, Zorbin Fandazzle says the giants are bad for business. Zorbin has built a shrinking ray from a gnomish design, improved with goblin know-how, and hands you the Ultra-Shrinker to try on the giants of Feralas.",
+ "sections": [
+  {
+   "title": "A Shrinking Ray for the Giants",
+   "body": "Zorbin Fandazzle has to do something about the giants of Feralas, which are certainly no good for business if Zorbin is to remain out here. The remedy is a variant on a gnomish shrinking ray, built with what Zorbin proudly calls superior goblin advances. To avoid such inconveniences as death, Zorbin would rather you test it. You are to use the Ultra-Shrinker on giants such as Cliff Giants, Deep Striders, Wave Striders, Shore Striders or Land Walkers, and gather the miniaturization residue left on them once shrunk, to bring back to the docks.",
+   "spoiler": 0
+  },
+  {
+   "title": "Why Zorbin Wants the Residue",
+   "body": "Zorbin calls miniaturization residue a valuable commodity in engineering, because it helps make sure the zapper will not do something as disappointing as exploding on the user. Zorbin then adds that this applies only to other zappers, not the one in your hands.",
+   "spoiler": 0
+  },
+  {
+   "title": "Back at the Docks",
+   "body": "On your return Zorbin is delighted to see the residue and that you still have all your major appendages. Zorbin then insists the Ultra-Shrinker was never risky at all, and calls you a friend to goblins everywhere.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is behind the Ultra-Shrinker?",
+   "aliases": [
+    "who gives zapped giants",
+    "zorbin fandazzle quest giver",
+    "where to start zapped giants"
+   ],
+   "answer": "Zorbin Fandazzle, found by the docks on the Forgotten Coast in Feralas."
+  },
+  {
+   "q": "Why does Zorbin want the giants shrunk?",
+   "aliases": [
+    "why zap giants",
+    "why shrink giants feralas",
+    "zorbin fandazzle motivation"
+   ],
+   "answer": "Zorbin says the giants are certainly not good for business if Zorbin stays out here, and a shrunken giant is far more manageable."
+  },
+  {
+   "q": "Which giants can be shrunk?",
+   "aliases": [
+    "what giants can i zap",
+    "which giants count",
+    "zapped giants targets"
+   ],
+   "answer": "Any kind of giant in Feralas will do. Along the Forgotten Coast these include Cliff Giants, Deep Striders, Wave Striders, Shore Striders and Land Walkers."
+  },
+  {
+   "q": "What is miniaturization residue?",
+   "aliases": [
+    "why miniaturization residue",
+    "what does residue do",
+    "zorbin residue purpose"
+   ],
+   "answer": "It is found on a giant after it has been shrunk. Zorbin calls it a valuable commodity in engineering, and says it helps make sure the zapper will not explode on the user."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "cliff giant",
+  "feralas",
+  "forgotten coast",
+  "land walker",
+  "miniaturization residue",
+  "ultra-shrinker",
+  "zapped giants",
+  "zorbin fandazzle"
+ ],
+ "related": [
+  "quest:7725",
+  "zone:feralas",
+  "subzone:forgotten-coast",
+  "topic:goblin"
+ ],
+ "attribution": [
+  "Zapped Giants"
+ ]
+}

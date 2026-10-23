@@ -1,0 +1,109 @@
+{
+ "key": "quest:724",
+ "type": "quest",
+ "name": "Prospect of Faith",
+ "era": "classic",
+ "zone": "badlands",
+ "meta": {
+  "ids": [
+   724
+  ],
+  "level": "40",
+  "faction": "Alliance",
+  "start": "Prospector Ryedol",
+  "end": "Historian Karnik",
+  "previous": "Prospect of Faith",
+  "next": "Passing Word of a Threat",
+  "wiki": "Prospect of Faith (2)",
+  "chain": [
+   "A Sign of Hope",
+   "A Sign of Hope (2)",
+   "Amulet of Secrets",
+   "Prospect of Faith",
+   "Prospect of Faith (2)"
+  ],
+  "prev_q": [
+   "Prospect of Faith"
+  ],
+  "next_q": [
+   "Passing Word of a Threat"
+  ],
+  "category": "Badlands",
+  "chain_tpl": [
+   "Passing Word of a Threat"
+  ]
+ },
+ "summary": "Prospector Ryedol sends you to Ironforge with Hammertoe's Amulet. Historian Karnik and Hammertoe were working together to find the lost artifacts of Uldaman, and Ryedol guesses the Shadowforge found out the pair knew more than they let on.",
+ "sections": [
+  {
+   "title": "A Message for Ironforge",
+   "body": "Ryedol sorts through who might know what to do next and settles on Historian Karnik, who is in Ironforge. You are to tell Karnik what has happened to Hammertoe and place the amulet in the historian's hands. Karnik will say what needs doing from there.",
+   "spoiler": 0
+  },
+  {
+   "title": "Karnik's Welcome",
+   "body": "Karnik greets you as just another traveler asking for time and has none to spare, until the amulet is shown. Then Karnik takes the matter seriously, puts mourning for Hammertoe aside for later, and shows you why the amulet is worth so much by calling up Hammertoe's spirit.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who starts this quest?",
+   "aliases": [
+    "who gives prospect of faith",
+    "prospect of faith questgiver",
+    "where to start prospect of faith"
+   ],
+   "answer": "Prospector Ryedol in the Badlands sends you on to Ironforge with Hammertoe's Amulet."
+  },
+  {
+   "q": "Where is Historian Karnik located?",
+   "aliases": [
+    "where is karnik",
+    "historian karnik location",
+    "karnik ironforge"
+   ],
+   "answer": "Historian Karnik is in Ironforge."
+  },
+  {
+   "q": "Why was Historian Karnik chosen?",
+   "aliases": [
+    "why send the amulet to karnik",
+    "karnik connection"
+   ],
+   "answer": "Karnik and Hammertoe were working together to find the lost artifacts of Uldaman, so Ryedol trusts Karnik to know what to do."
+  },
+  {
+   "q": "What comes after this quest?",
+   "aliases": [
+    "next quest after prospect of faith",
+    "what follows prospect of faith"
+   ],
+   "answer": "Karnik's part of the story carries on with Passing Word of a Threat."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "badlands",
+  "hammertoe",
+  "hammertoes amulet",
+  "historian karnik",
+  "ironforge",
+  "prospect of faith",
+  "prospector ryedol",
+  "shadowforge",
+  "uldaman"
+ ],
+ "related": [
+  "npc:prospector-ryedol",
+  "zone:ironforge",
+  "quest:725",
+  "quest:723",
+  "quest:720",
+  "subzone:uldaman",
+  "zone:badlands"
+ ],
+ "attribution": [
+  "Prospect of Faith (2)"
+ ]
+}

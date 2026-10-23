@@ -6,8 +6,8 @@
 // as recall.py, so she answers the same on both: the moments that match go into the prompt with the day and the place,
 // nothing matching is said in so many words (she says it isn't in their journey instead of guessing, LOR-652), a count
 // is only what the journey holds, and other players are never named (the synced journey keeps none). What's synced
-// has no map spots: never a direction or a map number. With nothing synced, she says where their journey lives and
-// how it gets to the phone, never a guess.
+// has no map spots: never a direction or a map number. With nothing synced, she says in her own voice that she hasn't
+// heard of their travels yet, never a guess.
 
 export const RECALL_MAX_BYTES = 2000;   // what FROM THEIR JOURNEY may add to the prompt (recall.py MAX_BYTES)
 const LINES = 10;                       // moments told in full
@@ -27,11 +27,12 @@ const NOTHING = "(Nothing in the part of their journey that reaches the phone ma
   "what they asked about and that you can't see it from here, like \"I can't see <it> on the road that reaches me " +
   "here{since}.\" Never that it didn't happen. No place, no map numbers, nothing about where such a thing is or lives, " +
   "never a place from SOURCES as where they saw it, never records.)";
-// Nothing synced (P5): where their journey lives, and how it reaches the phone. Settings are named plainly (the
-// immersion rule's exception for plain things).
-const ELSEWHERE = "(Their journey isn't with you here: it lives in Willo on their PC and hasn't reached their phone. " +
-  "Answer in one or two lines that you can't see it from the phone yet, and that it comes once Willo on their PC is " +
-  "connected to their Lore Forever profile with \"Keep my profile up to date\" on, after the game saves. Never guess " +
+// Nothing synced (P5): she hasn't heard of their road yet, said in her own voice. No phone, PC, sync, profile or
+// setting (the immersion rule; the blind check, 10/21: "it only syncs once your computer connects to your Lore Forever
+// profile" in 3 of 3 runs).
+const ELSEWHERE = "(Their journey hasn't reached you yet. Answer in one short line, in your own voice, that you haven't " +
+  "heard of their travels yet, and ask them to tell you where they've been, like \"I haven't heard of your travels yet; " +
+  "tell me where you've been.\" Never a word about phones, computers, syncing, profiles, settings or apps. Never guess " +
   "what happened, where or when.)";
 // "On any of my characters": only the one the profile shows is synced (the quality bar's case 12, from the phone).
 const EVERYONE = /\b(?:any|all|which|each|every|other)\s+(?:of\s+)?(?:my\s+)?(?:characters?|alts?|toons?)\b|\bmy\s+(?:other\s+)?(?:alts?|toons?)\b/i;
@@ -49,7 +50,9 @@ const ASKS = new RegExp([
   String.raw`\b(?:where|when|who|what|which|how)\b[^.?!]{0,50}\b(?:did|have|had|was|were)\s+(?:i|we)\b`,
   String.raw`\bwho\s+(?:gave|sent|asked|told|handed|offered)\s+(?:me|us)\b`,
   String.raw`\b(?:where|when|who|what|which)\s+(?:was|were)\s+(?:that|those)\b`,
-  String.raw`\bhow\s+(?:many|often)\b[^.?!]{0,50}\b(?:i|i've|i'd)\b`,
+  // Only of the past: "how many times have I died", "how often I've wiped", "how many rares I killed"; never "how many
+  // rotations can I go through" (the accuracy eval, 10/21: she opened with "I can't see your journey").
+  String.raw`\bhow\s+(?:many|often)\b[^.?!]{0,50}\b(?:(?:have|had)\s+(?:i|we)|i've|we've|(?:i|we)\s+(?:killed|died|beat|beaten|saw|seen|met|got|gotten|did|done|visited|reached|looted|found|fought|finished|completed|read|learned|bought|ran|went|turned))\b`,
   String.raw`\b(?:have|had|did)\s+(?:i|we)\s+(?:ever\s+|already\s+|yet\s+)?(?:been|seen|met|killed|beaten|beat|done|` +
     String.raw`finished|visited|gone|read|got|gotten|found|fought|died|reached|learned|looted|taken|picked|spotted|bought)\b`,
   // "did I ever kill that rare?", "did I see Lupos?" (a rare only seen is in the journey too, LOR-672)
@@ -132,6 +135,15 @@ export function words(text, drop = new Set()) {
 const match = (a, h) => a === h || (a.length >= 4 && h.startsWith(a)) || (h.length >= 4 && a.startsWith(h) && a.length - h.length <= 2);
 
 export const asks = question => ASKS.test(String(question || "").replace(/’/g, "'"));
+// What's still ahead ("what have I got left to do in Elwynn?", "which quests have I yet to finish?"): their own synced
+// journey helps (what they've done there), but without it there's nothing of their past to say, so no journey line
+// (the accuracy lab, 10/22). Only ahead: the question reads as past only through these words; "...and where did I die?"
+// beside them is still about their past.
+const AHEAD = /\b(?:have|had)\s+(?:i|we)\s+(?:still\s+)?(?:got\s+(?:left|to)|yet\s+to|left\s+to)\b|\b(?:i|we)(?:'ve|\s+have)\s+(?:still\s+)?got\s+(?:left|to)\b/gi;
+export const onlyAhead = question => {
+  const q = String(question || "").replace(/’/g, "'");
+  return ASKS.test(q) && !ASKS.test(q.replace(AHEAD, " "));
+};
 
 // The kinds of moment the question asks about; a narrower kind wins over the broad one it's part of.
 function kindsOf(q) {
@@ -306,13 +318,14 @@ export function recall(question, saved, { previous = "", now = new Date(), tz = 
   const q = String(question || "").replace(/’/g, "'");
   const about = words(q, KIND_WORDS).size ? "" : String(previous || "").replace(/’/g, "'");
   if (!asks(q) || PINS.test(q)) return null;
+  if (onlyAhead(q) && !(saved?.journey && saved.theirs)) return null;
   const clock = Number.isInteger(tz) ? tz : saved?.journey?.tz || 0;
   if (!(words(q, KIND_WORDS).size || words(about, KIND_WORDS).size || kindsOf(q).size || when(q, now, clock))) return null;
   const name = saved?.name || who || "this character";
   const today = dayOf(Math.floor(now.getTime() / 1000), clock, now);
   if (!saved?.journey) {
-    return { section: `FROM THEIR JOURNEY (Today is ${today}.)\nTheir journey isn't on the phone: it lives in Willo ` +
-      "on their PC.", reminder: ELSEWHERE };
+    return { section: `FROM THEIR JOURNEY (Today is ${today}.)\nTheir journey hasn't reached you yet.`,
+      reminder: ELSEWHERE };
   }
   const all = EVERYONE.test(q);
   if (!saved.theirs && !all) {

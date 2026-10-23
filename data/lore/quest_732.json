@@ -1,0 +1,106 @@
+{
+ "key": "quest:732",
+ "type": "quest",
+ "name": "Tremors of the Earth",
+ "era": "classic",
+ "zone": "badlands",
+ "meta": {
+  "ids": [
+   732
+  ],
+  "level": "43",
+  "faction": "Alliance",
+  "start": "Garek",
+  "end": "Garek",
+  "previous": "Mirages",
+  "next": "Tremors of the Earth (2)",
+  "wiki": "Tremors of the Earth",
+  "chain": [
+   "Tremors of the Earth",
+   "Tremors of the Earth (2)"
+  ],
+  "next_q": [
+   "Tremors of the Earth (2)"
+  ],
+  "category": "Badlands",
+  "prev_q": [
+   "Mirages"
+  ]
+ },
+ "summary": "Garek has heard from Sigrun how much you have helped, and asks for your help in turn. Garek's master, Krasus of the Kirin Tor, sent Garek to stop whatever is brewing in Lethlor Ravine, and first a stolen Sign of the Earth must be found.",
+ "sections": [
+  {
+   "title": "A Matter Kept Close",
+   "body": "Garek was sent to the Badlands by Krasus of the Kirin Tor, Garek's master, to stop the trouble that is brewing in Lethlor Ravine. The exact assignment cannot be shared, only that it matters greatly. A band of roving ogres, now and then spotted around Camp Boff, took the Sign of the Earth, and Garek needs it. Bring it back and there will be more to learn.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Wandering Ogres",
+   "body": "The ogres move from camp to camp across the Badlands, and rising heat and swirling winds make their trail hard to follow. Garek has heard they sometimes pass through Camp Boff, a fair place to look if you lose track of them.",
+   "spoiler": 0
+  },
+  {
+   "title": "Garek Explains",
+   "body": "When you return with the Sign, Garek tells you that Dark Iron dwarves of Angor Fortress made it in order to bind Deathwing's twin lieutenants, the ruthless Blacklash and Hematus.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Garek working for?",
+   "aliases": [
+    "who sent garek",
+    "garek master",
+    "krasus badlands"
+   ],
+   "answer": "Garek's master is Krasus of the Kirin Tor, who sent Garek to the Badlands to stop the trouble brewing in Lethlor Ravine."
+  },
+  {
+   "q": "What is the Sign of the Earth?",
+   "aliases": [
+    "sign of the earth",
+    "what is the sign of the earth",
+    "sign of earth lore"
+   ],
+   "answer": "Wandering ogres stole it and Garek needs it back. Garek will say more once you bring it."
+  },
+  {
+   "q": "Where can the wandering ogres be found?",
+   "aliases": [
+    "where are the ogres",
+    "ogre camp boff",
+    "where is sign of the earth"
+   ],
+   "answer": "They roam between their camps across the Badlands, and Garek has heard they sometimes pass through Camp Boff."
+  },
+  {
+   "q": "Why does Garek keep the assignment secret?",
+   "aliases": [
+    "why secret",
+    "garek secret assignment"
+   ],
+   "answer": "Garek will not say what the assignment is or what work it calls for, only that it is vitally important."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "angor fortress",
+  "camp boff",
+  "dark iron",
+  "deathwing",
+  "garek",
+  "kirin tor",
+  "krasus",
+  "lethlor ravine",
+  "sign of the earth"
+ ],
+ "related": [
+  "zone:badlands",
+  "subzone:lethlor-ravine",
+  "quest:718",
+  "npc:deathwing"
+ ],
+ "attribution": [
+  "Tremors of the Earth"
+ ]
+}

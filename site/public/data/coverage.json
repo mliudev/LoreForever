@@ -1,33 +1,33 @@
 {
- "generated": "2026-10-20",
+ "generated": "2026-10-22",
  "forever_only": {
-  "quests_known": 443,
-  "quests_with_text": 403,
-  "narrated": 363,
-  "npcs_known": 223,
-  "npcs_with_text": 65
+  "quests_known": 547,
+  "quests_with_text": 505,
+  "narrated": 400,
+  "npcs_known": 225,
+  "npcs_with_text": 68
  },
  "zones": [
   {
    "zone": "Other",
    "key": "general",
-   "quests": 323,
-   "with_text": 296,
-   "narrated": 258
-  },
-  {
-   "zone": "Tirisfal Glades",
-   "key": "tirisfal",
-   "quests": 25,
-   "with_text": 14,
-   "narrated": 14
+   "quests": 430,
+   "with_text": 388,
+   "narrated": 290
   },
   {
    "zone": "Zephras Isle",
    "key": "zephras",
    "quests": 25,
    "with_text": 25,
-   "narrated": 25
+   "narrated": 24
+  },
+  {
+   "zone": "Tirisfal Glades",
+   "key": "tirisfal",
+   "quests": 15,
+   "with_text": 15,
+   "narrated": 15
   },
   {
    "zone": "Wetlands",
@@ -65,11 +65,18 @@
    "narrated": 6
   },
   {
+   "zone": "Alterac Mountains",
+   "key": "alterac",
+   "quests": 5,
+   "with_text": 5,
+   "narrated": 0
+  },
+  {
    "zone": "Redridge Mountains",
    "key": "redridge",
-   "quests": 4,
-   "with_text": 4,
-   "narrated": 4
+   "quests": 5,
+   "with_text": 5,
+   "narrated": 5
   },
   {
    "zone": "Durotar",
@@ -91,13 +98,6 @@
    "quests": 3,
    "with_text": 3,
    "narrated": 3
-  },
-  {
-   "zone": "Undercity",
-   "key": "undercity",
-   "quests": 2,
-   "with_text": 0,
-   "narrated": 0
   },
   {
    "zone": "Darkshore",
@@ -135,11 +135,25 @@
    "narrated": 1
   },
   {
+   "zone": "Ironforge",
+   "key": "ironforge",
+   "quests": 1,
+   "with_text": 1,
+   "narrated": 1
+  },
+  {
    "zone": "Mulgore",
    "key": "mulgore",
    "quests": 1,
    "with_text": 1,
-   "narrated": 0
+   "narrated": 1
+  },
+  {
+   "zone": "Orgrimmar",
+   "key": "orgrimmar",
+   "quests": 1,
+   "with_text": 1,
+   "narrated": 1
   },
   {
    "zone": "Silverpine Forest",
@@ -147,6 +161,13 @@
    "quests": 1,
    "with_text": 1,
    "narrated": 0
+  },
+  {
+   "zone": "Stranglethorn Vale",
+   "key": "stranglethorn",
+   "quests": 1,
+   "with_text": 1,
+   "narrated": 1
   },
   {
    "zone": "Teldrassil",
@@ -166,97 +187,6 @@
  "wanted": [
   {
    "kind": "quest",
-   "id": 91316,
-   "name": "Making Repairs",
-   "zone": "Tirisfal Glades",
-   "level": 11
-  },
-  {
-   "kind": "quest",
-   "id": 91285,
-   "name": "Murlocs at the Gates",
-   "zone": "Tirisfal Glades",
-   "level": 11
-  },
-  {
-   "kind": "quest",
-   "id": 91294,
-   "name": "Touring the Grounds",
-   "zone": "Tirisfal Glades",
-   "level": 11
-  },
-  {
-   "kind": "quest",
-   "id": 94427,
-   "name": "A Lesson in Divinity",
-   "zone": "Tirisfal Glades",
-   "level": 12
-  },
-  {
-   "kind": "quest",
-   "id": 94435,
-   "name": "A Lesson in Divinity",
-   "zone": "Tirisfal Glades",
-   "level": 12
-  },
-  {
-   "kind": "quest",
-   "id": 94436,
-   "name": "A Lesson in Divinity",
-   "zone": "Tirisfal Glades",
-   "level": 12
-  },
-  {
-   "kind": "quest",
-   "id": 94438,
-   "name": "A Lesson in Divinity",
-   "zone": "Tirisfal Glades",
-   "level": 12
-  },
-  {
-   "kind": "quest",
-   "id": 94440,
-   "name": "A Lesson in Divinity",
-   "zone": "Tirisfal Glades",
-   "level": 12
-  },
-  {
-   "kind": "quest",
-   "id": 94441,
-   "name": "A Lesson in Divinity",
-   "zone": "Tirisfal Glades",
-   "level": 12
-  },
-  {
-   "kind": "quest",
-   "id": 95803,
-   "name": "A Token of Good Faith",
-   "zone": "Tirisfal Glades",
-   "level": 12
-  },
-  {
-   "kind": "quest",
-   "id": 91317,
-   "name": "The Tarnished",
-   "zone": "Tirisfal Glades",
-   "level": 12
-  },
-  {
-   "kind": "quest",
-   "id": 94434,
-   "name": "A Lesson in Divinity",
-   "zone": "Undercity",
-   "level": 12
-  },
-  {
-   "kind": "quest",
-   "id": 97985,
-   "name": "Thundering Hearts",
-   "zone": "Undercity",
-   "level": 33
-  },
-  {
-   "kind": "quest",
    "id": 91860,
    "name": null,
    "zone": "Other",
@@ -273,6 +203,20 @@
    "kind": "quest",
    "id": 97951,
    "name": null,
+   "zone": "Other",
+   "level": null
+  },
+  {
+   "kind": "quest",
+   "id": 99191,
+   "name": "A Donation of Wool",
+   "zone": "Other",
+   "level": null
+  },
+  {
+   "kind": "quest",
+   "id": 99196,
+   "name": "A Donation of Wool",
    "zone": "Other",
    "level": null
   },
@@ -301,6 +245,13 @@
    "kind": "quest",
    "id": 91905,
    "name": "A Sealed Crate",
+   "zone": "Other",
+   "level": null
+  },
+  {
+   "kind": "quest",
+   "id": 98372,
+   "name": "An Unfortunate End",
    "zone": "Other",
    "level": null
   },
@@ -341,8 +292,29 @@
   },
   {
    "kind": "quest",
-   "id": 95494,
-   "name": "Bruised Pride and Lion Hides",
+   "id": 78142,
+   "name": "Bewitchments and Glamours",
+   "zone": "Other",
+   "level": null
+  },
+  {
+   "kind": "quest",
+   "id": 97928,
+   "name": "Camping 101: Blacksmithing",
+   "zone": "Other",
+   "level": null
+  },
+  {
+   "kind": "quest",
+   "id": 97901,
+   "name": "Camping 101: Enchanting",
+   "zone": "Other",
+   "level": null
+  },
+  {
+   "kind": "quest",
+   "id": 97931,
+   "name": "Camping 101: First Aid",
    "zone": "Other",
    "level": null
   },
@@ -362,6 +334,27 @@
   },
   {
    "kind": "quest",
+   "id": 97959,
+   "name": "Camping 101: Mining",
+   "zone": "Other",
+   "level": null
+  },
+  {
+   "kind": "quest",
+   "id": 96102,
+   "name": "Camping 101: Tailoring",
+   "zone": "Other",
+   "level": null
+  },
+  {
+   "kind": "quest",
+   "id": 98072,
+   "name": "Crocs of the Sky",
+   "zone": "Other",
+   "level": null
+  },
+  {
+   "kind": "quest",
    "id": 98896,
    "name": "Darkspear Islands Clash",
    "zone": "Other",
@@ -369,8 +362,22 @@
   },
   {
    "kind": "quest",
-   "id": 93739,
-   "name": "Exploring the Horde",
+   "id": 94472,
+   "name": "Earth Sapta",
+   "zone": "Other",
+   "level": null
+  },
+  {
+   "kind": "quest",
+   "id": 97286,
+   "name": "Forscherzugang",
+   "zone": "Other",
+   "level": null
+  },
+  {
+   "kind": "quest",
+   "id": 78146,
+   "name": "Goaz Scrolls",
    "zone": "Other",
    "level": null
   },
@@ -390,8 +397,8 @@
   },
   {
    "kind": "quest",
-   "id": 99123,
-   "name": "Lost in the Shadows",
+   "id": 92110,
+   "name": "My First Real Potion",
    "zone": "Other",
    "level": null
   },
@@ -425,6 +432,41 @@
   },
   {
    "kind": "quest",
+   "id": 78127,
+   "name": "The Dalaran Digest",
+   "zone": "Other",
+   "level": null
+  },
+  {
+   "kind": "quest",
+   "id": 99101,
+   "name": "Unser uralter Feind",
+   "zone": "Other",
+   "level": null
+  },
+  {
+   "kind": "quest",
+   "id": 95508,
+   "name": "Unwelcome Guests",
+   "zone": "Other",
+   "level": null
+  },
+  {
+   "kind": "quest",
+   "id": 99080,
+   "name": "Vertreibt sie",
+   "zone": "Other",
+   "level": null
+  },
+  {
+   "kind": "quest",
+   "id": 94616,
+   "name": "Water Sapta",
+   "zone": "Other",
+   "level": null
+  },
+  {
+   "kind": "quest",
    "id": 94947,
    "name": "Welcome to Azeroth",
    "zone": "Other",
@@ -438,17 +480,10 @@
    "level": null
   },
   {
-   "kind": "quest",
-   "id": 97250,
-   "name": "Wrongly Blamed, Justly Corrected",
-   "zone": "Other",
-   "level": null
-  },
-  {
    "kind": "npc",
-   "id": 251964,
-   "name": "Blademaster Ren",
-   "zone": "Zephras Isle",
+   "id": 244808,
+   "name": "Aramis Hammerhand",
+   "zone": "Tirisfal Glades",
    "level": 2
   },
   {
@@ -457,6 +492,13 @@
    "name": "Elatrell Featherlight",
    "zone": "Zephras Isle",
    "level": 2
+  },
+  {
+   "kind": "npc",
+   "id": 249363,
+   "name": "Yala Windwatcher",
+   "zone": "Zephras Isle",
+   "level": 3
   },
   {
    "kind": "npc",
@@ -478,6 +520,20 @@
    "name": "Aetheen of the Gales",
    "zone": "Zephras Isle",
    "level": 5
+  },
+  {
+   "kind": "npc",
+   "id": 267118,
+   "name": "Gilbert Gray",
+   "zone": "Stormwind City",
+   "level": 12
+  },
+  {
+   "kind": "npc",
+   "id": 267309,
+   "name": "Bainham",
+   "zone": "The Barrens",
+   "level": 21
   },
   {
    "kind": "npc",
@@ -581,13 +637,6 @@
    "kind": "npc",
    "id": 268238,
    "name": "Nordun Steadysight",
-   "zone": null,
-   "level": null
-  },
-  {
-   "kind": "npc",
-   "id": 275491,
-   "name": "Randal Emerson",
    "zone": null,
    "level": null
   },

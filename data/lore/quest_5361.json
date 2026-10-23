@@ -1,0 +1,102 @@
+{
+ "key": "quest:5361",
+ "type": "quest",
+ "name": "Family Tree",
+ "era": "classic",
+ "zone": "thousandneedles",
+ "meta": {
+  "ids": [
+   5361
+  ],
+  "level": "35",
+  "faction": "Horde",
+  "start": "Cliffwatcher Longhorn",
+  "end": "Nataka Longhorn",
+  "previous": "",
+  "next": "",
+  "wiki": "Family Tree (Thousand Needles)",
+  "chain": [],
+  "category": "Thousand Needles"
+ },
+ "summary": "Cliffwatcher Longhorn asks you to carry a report to Nataka Longhorn, Cliffwatcher's brother, who is stationed in Desolace. Word of unusual centaur activity is meant to reach Ghost Walker Post.",
+ "sections": [
+  {
+   "title": "A Report for a Brother",
+   "body": "Nataka, Cliffwatcher's brother, holds a posting at Ghost Walker Post in Desolace. A year has passed since Cliffwatcher last wrote, and in that time the centaurs have been behaving unusually. Nataka should hear of it, and you are asked to carry the report.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Way There",
+   "body": "The way runs to Stonetalon Mountain, which lies north of the Crossroads, then west into the Charred Vale. From there it turns south into Desolace, where a road runs south to Ghost Walker Post.",
+   "spoiler": 0
+  },
+  {
+   "title": "A Welcome at the Post",
+   "body": "Nataka Longhorn cannot say how you know Cliffwatcher, but it seems Cliffwatcher trusts you. Nataka welcomes you to Ghost Walker Post, which has plenty of needs, and suggests speaking with the others there, since someone may want your help.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Cliffwatcher Longhorn trying to contact?",
+   "aliases": [
+    "who is nataka",
+    "longhorn brother",
+    "who receives the report"
+   ],
+   "answer": "Nataka Longhorn, Cliffwatcher's brother, who is posted at Ghost Walker Post in Desolace."
+  },
+  {
+   "q": "Why is Cliffwatcher Longhorn sending a report now?",
+   "aliases": [
+    "why send report",
+    "centaur activity report",
+    "reason for message"
+   ],
+   "answer": "Cliffwatcher has not written for a year, and the centaurs have been acting unusually since then, so Nataka should be told."
+  },
+  {
+   "q": "Where is Nataka Longhorn located?",
+   "aliases": [
+    "nataka location",
+    "where is ghost walker post",
+    "where to deliver report"
+   ],
+   "answer": "At Ghost Walker Post in Desolace, which you reach by a road running south."
+  },
+  {
+   "q": "What path leads to Ghost Walker Post from Thousand Needles?",
+   "aliases": [
+    "how to get to desolace",
+    "route to ghost walker post",
+    "travel path"
+   ],
+   "answer": "Make for Stonetalon Mountain, north of the Crossroads. Go west from there into the Charred Vale, then south into Desolace and down the road to Ghost Walker Post."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "centaur",
+  "charred vale",
+  "cliffwatcher longhorn",
+  "desolace",
+  "family tree",
+  "ghost walker post",
+  "nataka longhorn",
+  "stonetalon",
+  "thousand needles"
+ ],
+ "related": [
+  "npc:cliffwatcher-longhorn",
+  "subzone:ghost-walker-post",
+  "zone:desolace",
+  "zone:thousandneedles",
+  "topic:centaur",
+  "subzone:charred-vale",
+  "zone:stonetalon",
+  "subzone:crossroads"
+ ],
+ "attribution": [
+  "Family Tree (Thousand Needles)"
+ ]
+}

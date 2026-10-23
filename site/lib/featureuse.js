@@ -20,6 +20,7 @@ import { isReportRead } from "./report-read.js";
 // metric keeps the larger of what's stored and what came, so a resend never adds twice.
 
 import { utcDay } from "./activity.js";
+import { createMissing } from "./schema.js";
 
 export const USAGE_V = 2;
 export const MAX_BODY = 16384;   // characters of the whole check-in; the companion keeps its counts under 12 KB
@@ -139,7 +140,7 @@ const ready = new WeakSet();
 export async function setupFeatureUsage(env) {
   if (isReportRead(env)) return;
   if (ready.has(env.DB)) return;
-  await env.DB.batch(SETUP.map(s => env.DB.prepare(s)));
+  await createMissing(env, SETUP);
   ready.add(env.DB);
 }
 

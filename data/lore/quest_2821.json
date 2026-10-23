@@ -1,0 +1,98 @@
+{
+ "key": "quest:2821",
+ "type": "quest",
+ "name": "The Mark of Quality",
+ "era": "classic",
+ "zone": "feralas",
+ "meta": {
+  "ids": [
+   2821
+  ],
+  "level": "46",
+  "faction": "Alliance",
+  "start": "Pratt McGrubben",
+  "end": "Pratt McGrubben",
+  "previous": "",
+  "next": "Improved Quality (Classic Alliance)",
+  "wiki": "The Mark of Quality (Classic Alliance)",
+  "chain": [],
+  "next_q": [
+   "Improved Quality (Classic Alliance)"
+  ],
+  "category": "Feralas"
+ },
+ "summary": "At Feathermoon Stronghold, the leatherworker Pratt McGrubben will not compromise on quality. Pratt has come across thick yeti hides and wants a stack of ten.",
+ "sections": [
+  {
+   "title": "Pratt's Philosophy",
+   "body": "Pratt McGrubben will not compromise on leatherwork: only the finest will do. While hunting for fine materials, Pratt came across thick yeti hides. The yetis are native to Feralas, with many around Feral Scar Vale, just inland of the Forgotten Coast.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Offer",
+   "body": "For a stack of ten hides, Pratt will let you choose one of the leather goods Pratt has crafted. Bring them back to Feathermoon Stronghold.",
+   "spoiler": 0
+  },
+  {
+   "title": "Pratt's Thoughts on the Hides",
+   "body": "Pratt asks whether you stopped to feel the texture of the hides. Properly treated, they could prove tougher than iron, and few people know of them. With a wide knowledge of treating solutions, Pratt hopes to make pieces that carry a true mark of quality.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is asking for the hides?",
+   "aliases": [
+    "quest giver",
+    "pratt mcgrubben",
+    "who gives the mark of quality"
+   ],
+   "answer": "Pratt McGrubben, a leatherworker at Feathermoon Stronghold."
+  },
+  {
+   "q": "Where can the yetis be found?",
+   "aliases": [
+    "yeti location",
+    "where are yetis",
+    "feral scar vale"
+   ],
+   "answer": "Yetis are native to Feralas, and many are found around Feral Scar Vale, just inland of the Forgotten Coast."
+  },
+  {
+   "q": "How many hides does Pratt want?",
+   "aliases": [
+    "how many yeti hides",
+    "hide count"
+   ],
+   "answer": "Ten of them, as one stack."
+  },
+  {
+   "q": "What do I get for the hides?",
+   "aliases": [
+    "what does pratt give",
+    "mark of quality payment"
+   ],
+   "answer": "Pratt offers a choice among the leather goods Pratt has crafted, in exchange for the stack."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "feathermoon stronghold",
+  "feral scar vale",
+  "feralas",
+  "forgotten coast",
+  "pratt mcgrubben",
+  "the mark of quality",
+  "thick yeti hide",
+  "yetis"
+ ],
+ "related": [
+  "subzone:feathermoon-stronghold",
+  "subzone:feral-scar-vale",
+  "zone:feralas",
+  "subzone:forgotten-coast"
+ ],
+ "attribution": [
+  "The Mark of Quality (Classic Alliance)"
+ ]
+}

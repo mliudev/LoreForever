@@ -71,8 +71,10 @@ import { markActionUncertain } from "./dashboard-action.js";
 // Kept outside functions/ so Pages doesn't route it.
 
 import { featureOn } from "./features.js";
+import { poolNow, softStep } from "./free-pool.js";
 import { COMPANION_NAME } from "./brand.js";
 import { thankSubscriber } from "./thanks.js";
+import { createMissing, addMissing } from "./schema.js";
 
 // Who says each plan's answers out loud (LOR-490, Mike, 2026-10-13): "local" (Willo's voices made on the player's PC,
 // free to us), "chatterbox" (its studio voices: DeepInfra's Chatterbox Turbo, lib/companion-voice.js) or "inworld" (its
@@ -106,15 +108,18 @@ const POOL = { free: 900, hero: 1500, champion: 3000, legend: 6000 };
 export const CHAMPION_CHARACTER_REPLIES = 300;
 export const CHARACTER_MODEL = "inworld-tts-2-flash";
 export const PLAN_VOICE = {
-  free: { voice: "chatterbox", choice: false, always: true },
-  hero: { voice: "inworld", choice: false, best: POOL.hero, model: LEGEND_BEST_MODEL },
-  champion: { voice: "inworld", choice: true, best: POOL.champion, model: LEGEND_BEST_MODEL, characters: "best" },
+  free: { voice: "chatterbox", choice: false, always: true, whole: true },
+  hero: { voice: "inworld", choice: false, best: POOL.hero, model: LEGEND_BEST_MODEL, whole: true },
+  champion: { voice: "inworld", choice: true, best: POOL.champion, model: LEGEND_BEST_MODEL, characters: "best",
+              whole: true },
   legend: { voice: "inworld", choice: true, best: POOL.legend, model: RICHER_MODEL, characters: "best", azeroth: true,
             whole: true },
 };
 // The voices and plans picks (Mike, 2026-10-21: "voices and plans picks make sense ship it"): the Voices of Azeroth are
-// Legend's (azeroth: lib/companion-voice.js picksFor and willoPick; Champion picks among her own), and so is her whole
-// answer spoken (whole: the companion speaks the written answer, not only its short spoken part). The add-on's short
+// Legend's (azeroth: lib/companion-voice.js picksFor and willoPick; Champion picks among her own). Every plan hears her
+// whole answer spoken (whole: the companion speaks the written answer after her first words, not only its short spoken
+// part, with no "I've written the rest out"; Mike, 2026-10-21: "it should always just read everything from now on"),
+// at most WHOLE_MAX_CHARS letters a reply (lib/companion-voice.js replyMax). The add-on's short
 // answers are read in the player's own narrator's voice from Hero up (READINGS_FROM; lib/companion-voice.js
 // speakReading), on the studio engine; Free sees them as text.
 export const READINGS_FROM = "hero";
@@ -225,7 +230,7 @@ const answers = plan => `${count(plan.answersPerMonth)} ${NAME} answers a month`
 const WEB = `${NAME} can check the web when the lore runs out`;
 // The voices and plans picks (Mike, 2026-10-21): Hero's card sells in words, at a glance, since players buy before they
 // hear her (her finest voice, and the narrator reads the add-on's short answers); Legend's adds the Voices of Azeroth,
-// her whole answer spoken and new features first. readings and whole wait for the release whose companion does them
+// and new features first. readings waits for the release whose companion does it
 // (lib/features.js), so a card never promises what the app can't do yet.
 const READS = `your narrator reads the add-on's short answers`;
 const FIRST = {
@@ -235,23 +240,22 @@ const FIRST = {
   hero: readings => readings ? `${NAME}'s finest voice on every answer, and ${READS}`
     : `${NAME}'s finest voice on every answer you ask out loud`,
   champion: `Characters answer in their own voices, up to 8 hours a day`,
-  legend: whole => `${NAME}'s richer voice and smarter mind` + (whole ? ", and she speaks her whole answer" : ""),
+  legend: `${NAME}'s richer voice and smarter mind`,
 };
 const NEW_FIRST = "New features first";
 // azeroth: the Voices of Azeroth are in the picker (the site feature "azeroth", or the asking companion has them);
-// readings, whole: the site features of those names (lib/features.js).
-export const planFeatures = ({ azeroth = false, readings = false, whole = false } = {}) => ({
+// readings: the site feature of that name (lib/features.js).
+export const planFeatures = ({ azeroth = false, readings = false } = {}) => ({
   free: [FIRST.free, "The whole add-on, every narration pack and language"],
   hero: [FIRST.hero(readings), answers(PLANS.hero), `${NAME} sees your game and keeps your goals`, WEB,
          `Reminders and preset ${NAME} styles`],
   champion: [FIRST.champion, ownPickLine(azeroth), answers(PLANS.champion), `${NAME}'s longer memory`,
              `Write ${NAME}'s personality`, "Everything in Hero"],
-  legend: [FIRST.legend(whole), ...(azeroth ? [pickLine(azeroth)] : []), answers(PLANS.legend), NEW_FIRST,
+  legend: [FIRST.legend, ...(azeroth ? [pickLine(azeroth)] : []), answers(PLANS.legend), NEW_FIRST,
            "Rewrite NPCs as your own tale", "Everything in Champion"],
 });
 // The site features the cards read, for a request (env) or for the code's own default (null).
-export const cardFlags = env => ({ azeroth: featureOn(env, "azeroth"), readings: featureOn(env, "readings"),
-                                   whole: featureOn(env, "whole") });
+export const cardFlags = env => ({ azeroth: featureOn(env, "azeroth"), readings: featureOn(env, "readings") });
 // /willo's one line about the plans (functions/willo.js): what Hero leads with, as its card says it.
 export const plansLine = env => `From Hero, ${planFeatures(cardFlags(env)).hero[0]}.`;
 const AZEROTH = featureOn(null, "azeroth");   // the code's own switch: the Stripe blurbs have no request
@@ -263,11 +267,11 @@ export const VOICE_NOTE = `${NAME}'s finest voice on every spoken answer from He
 // The line under each plan's name on Stripe's checkout page, invoices and billing portal (its product's description,
 // set by scripts/stripe-setup.mjs, whose next run publishes a change here).
 // blurbs(flags): the same, for flags other than the code's own (scripts/stripe-setup.mjs --print stages them).
-export const blurbs = ({ azeroth = AZEROTH, readings = featureOn(null, "readings"), whole = featureOn(null, "whole") } = {}) => ({
+export const blurbs = ({ azeroth = AZEROTH, readings = featureOn(null, "readings") } = {}) => ({
   hero: `${FIRST.hero(readings)}: ${answers(PLANS.hero)}, and ${NAME} sees your game and keeps your goals. ${WEB}.`,
   champion: `${FIRST.champion}: ${answers(PLANS.champion)}, ${NAME}'s longer memory and ${NAME}'s personality in ` +
             `your words. ${ownPickLine(azeroth)}. Everything in Hero too.`,
-  legend: `${FIRST.legend(whole)}: ${answers(PLANS.legend)}, ` + (azeroth ? `the ${AZEROTH_VOICES} Voices of Azeroth, ` : "") +
+  legend: `${FIRST.legend}: ${answers(PLANS.legend)}, ` + (azeroth ? `the ${AZEROTH_VOICES} Voices of Azeroth, ` : "") +
           `new features first, NPCs rewritten as your own tale, and everything in Champion.`,
 });
 export const BLURBS = blurbs();
@@ -381,7 +385,7 @@ export function launchOffer(env, planId, now = launchNow(env)) {
 // azeroth: the Voices of Azeroth count among the picks (planFeatures).
 // Look-ups are never a count here (WEB).
 const WORDS = ["none", "one", "two", "three", "four", "five", "six", "seven", "eight", "nine", "ten"];
-export function planCompare(allowed = {}, { azeroth = false, readings = false, whole = false } = {}) {
+export function planCompare(allowed = {}, { azeroth = false, readings = false } = {}) {
   const row = (label, of) => ({ label, values: Object.fromEntries(Object.keys(PLANS).map(id => [id, of(id)])) });
   const yes = on => on ? "✓" : "—";
   const paid = id => id !== "free";
@@ -401,7 +405,6 @@ export function planCompare(allowed = {}, { azeroth = false, readings = false, w
     row("Characters' own voices", id => yes(Boolean(PLAN_VOICE[id].characters))),
     ...(readings ? [row("Your narrator reads the add-on's short answers", id => yes(paid(id)))] : []),
     ...(azeroth ? [row(`${AZEROTH_VOICES} Voices of Azeroth for ${NAME}`, id => yes(Boolean(PLAN_VOICE[id].azeroth)))] : []),
-    ...(whole ? [row("Her whole answer spoken", id => yes(Boolean(PLAN_VOICE[id].whole)))] : []),
     // Asking out loud is the voice row's (free has its first answers aloud), so this row is only sight.
     row(`${NAME} sees your game`, id => yes(features(id).sight)),
     row("Checks the web when the lore runs out", id => yes(features(id).research)),
@@ -570,11 +573,14 @@ export function poolWindow(plan, now = new Date()) {
   return { key: start.toISOString().slice(0, 10), resetsAt: on(start.getUTCFullYear(), start.getUTCMonth() + 1).toISOString() };
 }
 
-// The free plan's brake: once this month's free spend (free live answers, profile stories and their voice) passes
-// this, free players get BRAKE_ANSWERS a day until the month ends, so the site's monthly budget lasts. Starter answers
-// still need that budget; paying players are unaffected.
-export const BRAKE_MICRO = 80_000_000;
+// The free plan's brake, its soft step (lib/free-pool.js): once the day's allowance of the shared free pool is used,
+// free players get BRAKE_ANSWERS a day, so the rest of the day stretches over more of them instead of running out for
+// everyone at once; the next day's slice lifts it again. Starter answers still need the pool; paying players are
+// unaffected.
 export const BRAKE_ANSWERS = 5;
+// How many free accounts' day one computer gets (functions/api/companion/answer.js: its X-LF-Machine code), so new free
+// accounts made on it add no answers. A household of three still has a day each.
+export const MACHINE_ACCOUNTS = 3;
 
 // Stripe statuses that keep the plan until the paid period ends. past_due: a payment failed and Stripe is retrying it.
 export const ACTIVE = ["active", "trialing", "past_due"];
@@ -733,8 +739,8 @@ const ready = new WeakMap();
 export function setupBilling(env) {
   if (isReportRead(env)) return;
   if (!ready.has(env.DB)) ready.set(env.DB, (async () => {
-    await env.DB.batch(SETUP.map(s => env.DB.prepare(s)));
-    await Promise.all(MIGRATE.map(sql => env.DB.prepare(sql).run().catch(() => {})));
+    await createMissing(env, SETUP);
+    await addMissing(env, MIGRATE);
   })().catch(e => { ready.delete(env.DB); throw e; }));
   return ready.get(env.DB);
 }
@@ -820,16 +826,6 @@ function paidNow(row, now = new Date()) {
     (!row.current_period_end || Date.parse(row.current_period_end) > now.getTime()));
 }
 
-// This month's paid calls site-wide that the shared budget pays for (what the free plan's brake looks at), as
-// lib/companion-answers.js counts them: paying players' answers are left out, since their plans pay for those.
-async function paidSpend(env, now) {
-  const row = await env.DB.prepare(
-    "SELECT COALESCE((SELECT reserved_micro FROM answer_spend WHERE month = ?), 0) - " +
-    "COALESCE((SELECT SUM(micro) FROM answer_user_spend WHERE month = ?), 0) + " +
-    "COALESCE((SELECT micro_usd + voice_micro_usd + reserved_micro FROM story_spend WHERE month = ?), 0) AS micro"
-  ).bind(month(now), month(now), month(now)).first();
-  return row?.micro || 0;
-}
 
 // The free plan's starter: STARTER_ANSWERS answers, credited once per account, the first time its plan is looked at
 // while a companion is connected (the companion's allowance check, usually). Keyed by the account, so two checks at
@@ -911,7 +907,7 @@ export async function planFor(env, userId, now = new Date()) {
   const at = launchNow(env, now), week = launchWindow(env);
   const promo = Boolean(week) && at.getTime() < week.end;
   const quiet = p => p.catch(() => null);   // a paying plan doesn't need them; a free one reads them again on a failure
-  const ahead = Promise.all([quiet(paidSpend(env, now)), promo ? quiet(launchSpend(env, week)) : null,
+  const ahead = Promise.all([quiet(poolNow(env, now)), promo ? quiet(launchSpend(env, week)) : null,
     promo ? quiet((async () => {
       const claim = await claimOf(env, userId, "free");
       return { claim, row: await promoRow(env, claim) };
@@ -932,8 +928,8 @@ export async function planFor(env, userId, now = new Date()) {
   }
   // The beta's free Hero month: looked for while one can still be running (until the launch). A read that failed ahead
   // is read again here, so its error is this one's, as before.
-  const [spentAhead, launchAhead, promoAhead, credited] = await ahead;
-  const spent = spentAhead ?? await paidSpend(env, now);
+  const [poolAhead, launchAhead, promoAhead, credited] = await ahead;
+  const pool = poolAhead ?? await poolNow(env, now);
   const launchSpent = !promo ? null : launchAhead ?? await launchSpend(env, week);
   // Hero's plan, on us, for the account's month, until the promo's brake; looked for while the starter is credited.
   const [, freeMonth] = await Promise.all([creditStarter(env, userId, now, credited),
@@ -955,7 +951,7 @@ export async function planFor(env, userId, now = new Date()) {
              ends: pacificDay(Date.parse(grant.ends)), status: null, renews: null, cancelAtPeriodEnd: false, portal,
              ...(p.smarter ? { smarter: true } : {}) };
   }
-  const brake = spent > BRAKE_MICRO;
+  const brake = softStep(pool);
   const free = PLANS.free;
   return { id: free.id, name: free.name, costCapMicro: 0, lookupsPerMonth: 0, status: null, renews: null,
            cancelAtPeriodEnd: false, portal, answersPerMonth: free.answersPerMonth, ...voiceOf(free.id),

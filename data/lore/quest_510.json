@@ -1,0 +1,79 @@
+{
+ "key": "quest:510",
+ "type": "quest",
+ "name": "Foreboding Plans",
+ "era": "classic",
+ "zone": "alterac",
+ "meta": {
+  "ids": [
+   510
+  ],
+  "level": "34",
+  "faction": "Alliance",
+  "start": "Syndicate Documents",
+  "end": "Magistrate Henry Maleb",
+  "previous": "",
+  "next": "Noble Deaths",
+  "wiki": "Foreboding Plans (quest)",
+  "chain": [
+   "Foreboding Plans (quest)",
+   "Noble Deaths"
+  ],
+  "next_q": [
+   "Noble Deaths"
+  ],
+  "category": "Alterac Mountains"
+ },
+ "summary": "The Syndicate documents hold a list of supplies the Syndicate asked for, wanted in a hurry for what the papers call an important undertaking against Southshore. Magistrate Henry Maleb in Southshore awaits them.",
+ "sections": [
+  {
+   "title": "The Supply List",
+   "body": "The documents include a list of requested supplies. Some are mundane: food, weapons and clothing. Others are more exotic: masks, oil and poison. What stands out most is the urgency, for the papers say the supplies were needed soon, for an important undertaking against Southshore. Magistrate Henry Maleb in Southshore is the one to receive them.",
+   "spoiler": 0
+  },
+  {
+   "title": "Maleb's Verdict",
+   "body": "Maleb reads the documents and finds them very troubling. From what they say, and from the Syndicate's past deeds, Maleb concludes that these cutthroats have gone to war against the town.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "What do the Syndicate documents say?",
+   "aliases": [
+    "what are the foreboding plans",
+    "syndicate documents contents",
+    "what is in the plans"
+   ],
+   "answer": "They list requested supplies: ordinary things like food, weapons and clothing, and stranger ones like masks, oil and poison. The papers stress that these were needed soon for an important operation against Southshore."
+  },
+  {
+   "q": "Who should see these plans?",
+   "aliases": [
+    "who do i bring the plans to",
+    "foreboding plans turn in",
+    "where do the plans go"
+   ],
+   "answer": "Magistrate Henry Maleb in Southshore."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "alterac mountains",
+  "foreboding plans",
+  "magistrate henry maleb",
+  "southshore",
+  "syndicate",
+  "syndicate documents"
+ ],
+ "related": [
+  "quest:512",
+  "npc:magistrate-henry-maleb",
+  "subzone:southshore",
+  "topic:syndicate",
+  "zone:alterac"
+ ],
+ "attribution": [
+  "Foreboding Plans (quest)"
+ ]
+}

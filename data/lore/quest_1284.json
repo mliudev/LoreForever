@@ -1,0 +1,80 @@
+{
+ "key": "quest:1284",
+ "type": "quest",
+ "name": "Suspicious Hoofprints",
+ "era": "classic",
+ "zone": "dustwallow",
+ "meta": {
+  "ids": [
+   1284
+  ],
+  "level": "35",
+  "faction": "Alliance",
+  "start": "Hoofprints",
+  "end": "Captain Garran Vimes",
+  "wiki": null,
+  "previous": "",
+  "next": ""
+ },
+ "summary": "Hoofprints trail away from the smoking remains of the Shady Rest Inn. A few are easy to see, while others are nearly lost in the soft marsh mud. Captain Garran Vimes in Theramore is the one to report them to.",
+ "sections": [
+  {
+   "title": "Prints in the Mud",
+   "body": "Rows of prints run off from the Shady Rest Inn, whose ruin is still smoking. A handful of the impressions are plain to see, while further rows are all but invisible in the marsh's soft mud. Captain Garran Vimes, in Theramore, should hear of them.",
+   "spoiler": 0
+  },
+  {
+   "title": "What Vimes Makes of It",
+   "body": "Vimes remarks that a great deal of centaur activity is found in the lands near Dustwallow Marsh. Short trips into the Barrens turned up their camps and holdings scattered across the area. Vimes will send Falgran Hastil, one of the trackers, to learn where the prints lead.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Where are the hoofprints found?",
+   "aliases": [
+    "where are the tracks",
+    "hoofprint location",
+    "shady rest inn prints"
+   ],
+   "answer": "They trail away from the Shady Rest Inn, which is still smoking, across the soft marsh mud."
+  },
+  {
+   "q": "Who receives the report about the prints?",
+   "aliases": [
+    "who do i tell about the hoofprints",
+    "who gets the hoofprints report",
+    "garran vimes hoofprints"
+   ],
+   "answer": "Captain Garran Vimes, in Theramore."
+  },
+  {
+   "q": "How easy are the prints to follow?",
+   "aliases": [
+    "are the prints hard to see",
+    "faint tracks marsh"
+   ],
+   "answer": "A few are clear, but many more rows are nearly invisible in the mud."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "barrens",
+  "captain garran vimes",
+  "centaur",
+  "dustwallow marsh",
+  "falgran hastil",
+  "hoofprints",
+  "shady rest inn",
+  "theramore"
+ ],
+ "related": [
+  "subzone:shady-rest-inn",
+  "zone:dustwallow",
+  "topic:centaur",
+  "zone:barrens"
+ ],
+ "attribution": [
+  "Classic quest text: Suspicious Hoofprints"
+ ]
+}

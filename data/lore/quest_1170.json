@@ -1,0 +1,92 @@
+{
+ "key": "quest:1170",
+ "type": "quest",
+ "name": "The Brood of Onyxia",
+ "era": "classic",
+ "zone": "dustwallow",
+ "meta": {
+  "ids": [
+   1170
+  ],
+  "level": "43",
+  "faction": "Horde",
+  "start": "Draz'Zilb",
+  "end": "Overlord Mok'Morokk",
+  "previous": "Identifying the Brood",
+  "next": "The Brood of Onyxia (2)",
+  "wiki": "The Brood of Onyxia",
+  "chain": [
+   "Identifying the Brood",
+   "The Brood of Onyxia",
+   "The Brood of Onyxia (2)",
+   "The Brood of Onyxia (3)"
+  ],
+  "next_q": [
+   "The Brood of Onyxia (2)"
+  ],
+  "category": "Dustwallow Marsh",
+  "prev_q": [
+   "Identifying the Brood"
+  ]
+ },
+ "summary": "Draz'Zilb tells of the brood of Onyxia invading Stonemaul Village, and wonders why Deathwing's daughter would come to these lands. You are sent to bring word to Overlord Mok'Morokk in Brackenwall Village.",
+ "sections": [
+  {
+   "title": "A Troubling Presence",
+   "body": "Stonemaul Village was invaded by Onyxia's brood, and Draz'Zilb finds it troubling that the daughter of Deathwing would descend upon these lands. Draz'Zilb feels certain Onyxia came for more than a siege on a few ogres, and wants Overlord Mok'Morokk told at once in Brackenwall Village so action can be taken.",
+   "spoiler": 0
+  },
+  {
+   "title": "Word at Brackenwall",
+   "body": "Mok'Morokk does not welcome the news. The Overlord dislikes dragons, likes it in Brackenwall Village and says there are no dragons here.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who sends you to speak with Overlord Mok'Morokk?",
+   "aliases": [
+    "who starts the brood of onyxia",
+    "brood of onyxia quest giver"
+   ],
+   "answer": "Draz'Zilb sends you, after the brood of Onyxia has invaded Stonemaul Village."
+  },
+  {
+   "q": "Where can Overlord Mok'Morokk be found?",
+   "aliases": [
+    "mok'morokk location",
+    "where is mok'morokk",
+    "overlord mok'morokk dustwallow"
+   ],
+   "answer": "You will find Overlord Mok'Morokk in Brackenwall Village."
+  },
+  {
+   "q": "Why is Draz'Zilb concerned about Onyxia's brood?",
+   "aliases": [
+    "why does draz'zilb care about dragons",
+    "draz'zilb onyxia concern"
+   ],
+   "answer": "Draz'Zilb wonders why Deathwing's daughter would come to these lands, and feels certain it was for more than a siege on a small band of ogres."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "brackenwall village",
+  "deathwing",
+  "draz'zilb",
+  "dustwallow marsh",
+  "mok'morokk",
+  "onyxia",
+  "stonemaul"
+ ],
+ "related": [
+  "npc:overlord-mok-morokk",
+  "subzone:brackenwall-village",
+  "npc:onyxia",
+  "npc:deathwing",
+  "zone:dustwallow"
+ ],
+ "attribution": [
+  "The Brood of Onyxia"
+ ]
+}

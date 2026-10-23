@@ -1,0 +1,96 @@
+{
+ "key": "quest:712",
+ "type": "quest",
+ "name": "Study of the Elements: Rock",
+ "era": "classic",
+ "zone": "badlands",
+ "meta": {
+  "ids": [
+   712
+  ],
+  "level": "42",
+  "faction": "Neutral",
+  "start": "Lotwil Veriatus",
+  "end": "Lotwil Veriatus",
+  "previous": "Study of the Elements: Rock (2)",
+  "next": "Stone Is Better than Cloth, This Is Going to Be Hard",
+  "wiki": "Study of the Elements: Rock (3)",
+  "chain": [],
+  "prev_q": [
+   "Study of the Elements: Rock (2)"
+  ],
+  "next_q": [
+   "Stone Is Better than Cloth",
+   "This Is Going to Be Hard"
+  ],
+  "category": "Badlands",
+  "chain_tpl": [
+   "Study of the Elements: Rock"
+  ]
+ },
+ "summary": "Lotwil Veriatus needs one more part from the elementals of the Badlands: bracers of rock binding, taken from greater rock elementals. By Lotwil's reckoning they are enough to gauge the strength of Lotwil's own shackles.",
+ "sections": [
+  {
+   "title": "Gauging the Shackles",
+   "body": "After the stone slabs, Lotwil Veriatus asks for one last part from the Badlands' elementals. Bracers of rock binding, taken from greater rock elementals, should let Lotwil judge the strength of the shackles under construction. Lotwil's scrying showed a group of the elementals southwest, near some ogres, if memory serves. Five bracers are wanted, so there are spares, since Servo is notorious for misplacing reagents and research.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Why does Lotwil need the bracers?",
+   "aliases": [
+    "why bracers of rock binding",
+    "what are bracers for",
+    "lotwil binding bracers"
+   ],
+   "answer": "By Lotwil's calculations, the bracers of rock binding are enough to gauge the strength of Lotwil's own shackles."
+  },
+  {
+   "q": "Why does Lotwil ask for five bracers?",
+   "aliases": [
+    "why five bracers",
+    "how many bracers",
+    "why extras"
+   ],
+   "answer": "To have extras, because Servo is notorious for misplacing Lotwil's reagents and research."
+  },
+  {
+   "q": "Where are the greater rock elementals located?",
+   "aliases": [
+    "where are rock elementals",
+    "greater rock elemental location",
+    "where to find bracers"
+   ],
+   "answer": "A group of them lies southwest of Lotwil, near some ogres, according to Lotwil's scrying. The hills around Camp Cagg are home to them."
+  },
+  {
+   "q": "What becomes of the stone slabs collected earlier?",
+   "aliases": [
+    "what happened to stone slabs",
+    "lucien stone slabs",
+    "kharanos slabs"
+   ],
+   "answer": "Lucien will take the extra slabs back to Kharanos once the work here is done, since they could prove useful again."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "badlands",
+  "bracers of rock binding",
+  "greater rock elementals",
+  "kharanos",
+  "lotwil veriatus",
+  "lucien",
+  "ogres",
+  "servo"
+ ],
+ "related": [
+  "npc:lotwil-veriatus",
+  "zone:badlands",
+  "subzone:kharanos"
+ ],
+ "attribution": [
+  "Study of the Elements: Rock (3)"
+ ]
+}

@@ -1,0 +1,91 @@
+{
+ "key": "quest:1201",
+ "type": "quest",
+ "name": "Theramore Spies",
+ "era": "classic",
+ "zone": "dustwallow",
+ "meta": {
+  "ids": [
+   1201
+  ],
+  "level": "35",
+  "faction": "Horde",
+  "start": "Nazeer Bloodpike",
+  "end": "Nazeer Bloodpike",
+  "previous": "",
+  "next": "The Theramore Docks",
+  "wiki": "Theramore Spies",
+  "chain": [
+   "Theramore Spies",
+   "The Theramore Docks"
+  ],
+  "next_q": [
+   "The Theramore Docks"
+  ],
+  "category": "Dustwallow Marsh"
+ },
+ "summary": "The truce between Horde and Alliance is an uneasy one, with skirmishes and covert deeds on both sides. Nazeer Bloodpike in Brackenwall Village wants the Alliance infiltrators east of the village hunted down and slain.",
+ "sections": [
+  {
+   "title": "Spies East of the Village",
+   "body": "Alliance infiltrators have settled in east of Brackenwall Village, watching it and sending word of Horde movements to Theramore. Nazeer Bloodpike, the local spymaster, will not stand for it. You are sent to find the infiltrators and kill them, so that their superiors know such spies are unwelcome.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who orders the death of the Theramore infiltrators?",
+   "aliases": [
+    "who gives quest theramore spies",
+    "nazeer bloodpike spy quest",
+    "who starts theramore spies"
+   ],
+   "answer": "Nazeer Bloodpike, the local spymaster in Brackenwall Village."
+  },
+  {
+   "q": "Where are the infiltrators hiding?",
+   "aliases": [
+    "theramore infiltrators location",
+    "where to find theramore spies",
+    "infiltrator locations dustwallow"
+   ],
+   "answer": "East of Brackenwall Village, on the islands."
+  },
+  {
+   "q": "Why are the spies watching Brackenwall Village?",
+   "aliases": [
+    "why are humans spying on brackenwall",
+    "brackenwall village spies motive"
+   ],
+   "answer": "They watch the village and pass word of Horde movements back to Theramore."
+  },
+  {
+   "q": "What comes after dealing with the spies?",
+   "aliases": [
+    "theramore spies follow up",
+    "what quest comes after theramore spies"
+   ],
+   "answer": "The next step in the story is The Theramore Docks."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "brackenwall",
+  "dustwallow",
+  "infiltrators",
+  "nazeer bloodpike",
+  "spies",
+  "theramore"
+ ],
+ "related": [
+  "quest:1202",
+  "subzone:brackenwall-village",
+  "subzone:theramore-isle",
+  "zone:dustwallow",
+  "topic:horde",
+  "topic:alliance"
+ ],
+ "attribution": [
+  "Theramore Spies"
+ ]
+}

@@ -17,6 +17,9 @@
 --   English page, and P.questTitle: each quest's title in that language (["176"] = "..."), the subtitles' and player's.
 -- Add-ons can't discover files at runtime, so packs are found through the game's add-on list and load when chosen.
 -- A pack's only code is `local P = LoreForeverPacks.Begin(...)` followed by writes into P (e.g. P.clips[id] = hash).
+--   A voice pack of ours also writes P.len[id] = tenths of a second, how long that clip's recording plays (read from
+--   the MP3 when the pack is built), for the subtitles; a clip with none (a story in pieces knows its length from
+--   Transport.lua, a community pack's recordings carry none) is timed by the voice's speed.
 
 local _, ns = ...
 local Packs = { registry = {}, byName = {}, data = {} }
@@ -29,7 +32,7 @@ local PREFIX = { voice = "LoreForever_Voice_", lang = "LoreForever_Lang_", ["lan
 local WRITERS = {
   ["edition-text"] = function() return { entries = {}, clipHash = {}, answerHash = {} } end,
   ["edition-voice"] = function() return { clips = {} } end,
-  voice = function() return { clips = {} } end,
+  voice = function() return { clips = {}, len = {} } end,   -- len: clip id -> how long its recording plays, in tenths of a second
   lang = function() return { ui = {}, entries = {}, names = {}, quests = {}, shown = {}, items = {}, clipHash = {}, answerHash = {} } end,   -- see Lang.lua
   ["lang-overlay"] = function() return { ui = {}, strings = {}, fp = {} } end,
 }

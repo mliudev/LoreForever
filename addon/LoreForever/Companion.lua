@@ -48,6 +48,9 @@ function Companion.Payload(question, ctx)
     -- Where you stand on the map ("mapID:x:y", thousandths), for "pin this spot" (LOR-664); nil in a dungeon or on a
     -- flight.
     at = ns.Journey and ns.Journey.Here and ns.Journey.Here() or nil,
+    -- This add-on's version ("0.25.0"), so Willo knows which add-on asked. A key of its own: Willo 0.25.0 and older
+    -- read only the keys above and pass over it, so this LFQ1 still reaches them.
+    ver = ns.Log and ns.Log.Version and ns.Log.Version() or nil,
   })
 end
 
@@ -177,10 +180,48 @@ function Companion.ListenRead(target)
   return true
 end
 
+-- Quest pages with no recording (Mike, 10/21: "for Willo read quest audio ... when no recording exists ... the race
+-- and gender of the quest giver, or ... a narrator"): the quest window's page is named in the ring, a page of kind 3
+-- with its low 6 bits 4 (0xC4; Strip's kind 3 has 0-3 for where you stand, the purse and the character), then 32 bits
+-- big-endian: the quest's ID << 10 | the page << 8 | a counter (page 1 its text, 2 progress, 3 completion; the counter
+-- goes up each time the page is named, so she reads it again). The site reads its own copy of the page in the quest
+-- giver's voice (#1535): so only a page whose words on screen are the add-on's (Voice.QuestPageKnown) is named. It
+-- stays named while the window shows it; an answer she's asked to read meanwhile goes first and gives it back.
+local questCounter, questPage = 0, nil
+local QUEST_PAGE = { detail = 1, progress = 2, complete = 3 }
+
+function Companion.QuestPage(qid, kind, counter)
+  local page = QUEST_PAGE[kind]
+  qid = tonumber(qid)
+  if not (page and qid and qid > 0 and qid < 4194304) then return nil end
+  local v = qid * 1024 + page * 256 + (counter or 0) % 256
+  return { 0xC4, math.floor(v / 0x1000000) % 256, math.floor(v / 0x10000) % 256, math.floor(v / 0x100) % 256, v % 256 }
+end
+
+-- The quest window shows a page no recording plays: Willo reads it, when she can (installed, Live game info on, the
+-- add-on in English). Returns true if the page was named.
+function Companion.ReadQuestPage(qid, kind, text)
+  if not Companion.ReadsAnswers() then return false end
+  questCounter = (questCounter + 1) % 256
+  local p = Companion.QuestPage(qid, kind, questCounter)
+  if not p then return false end
+  questPage = p
+  if not (readPage or sending) then ns.Strip.SetRing(p) end
+  -- What starts by itself makes way while she reads, as for an answer (Voice.OnWilloReads).
+  ns.Voice.OnWilloReads(math.min(45, #(text or "") / 14 + 2))
+  return true
+end
+
+-- The quest window closed, or shows a page that plays its own recording: nothing named for it.
+function Companion.ClearQuestPage()
+  if questPage and not (readPage or sending) and ns.Strip and ns.Strip.SetRing then ns.Strip.SetRing(nil) end
+  questPage = nil
+end
+
 -- Nothing for her to read: another question, an entry's overview, the panel cleared. A question still going round
--- to her stops too (the newest wins).
+-- to her stops too (the newest wins). A quest page still on screen keeps its name in the ring.
 function Companion.ClearRead()
-  if (readPage or sending) and ns.Strip and ns.Strip.SetRing then ns.Strip.SetRing(nil) end
+  if (readPage or sending) and ns.Strip and ns.Strip.SetRing then ns.Strip.SetRing(questPage) end
   readPage, sending = nil, nil
 end
 

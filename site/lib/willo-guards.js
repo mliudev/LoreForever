@@ -157,15 +157,46 @@ export function evidenceOf(prompt, question = "") {
 const YOU_ARE_AT = /\b([Yy]ou)(?:'re| are)(?: (?:standing|currently|now|still))*(?: right)? (in|at|near|by) (?=(?:the )?(?:heart|town|edge|middle|center|centre|outskirts|village|city|camp|ruins|gates?) of\b|the(?: \p{Ll}+){1,2} (?:in|of) \p{Lu}|(?:the )?\p{Lu})/gu;
 const LAST_SAID = /\bwhere you were last\b|\byou were last\b|\blast (?:saved|saw)\b|\bif you(?:'re| are)(?: not| no longer| still)\b|\banymore\b/i;
 const OPENERS = /^(?:The|You|Your|Head|Go|Take|Fly|Travel|Walk|Ride|It|There|A|An|Just|To|Follow|Find|Look|Make|Once|First|If|When|Since)\b/;
+// Away from the game, what she says of the place they last rested in is as it was then (the blind checks, 10/21: "You are
+// currently resting in Darkshire", "many souls walking the streets of Darkshire"): "you are (currently) (resting) in" the
+// place or its zone becomes "you were last in", and a scene clause of folk there ("there are many souls...", "folk are
+// moving about the square in X") is in the past tense. Only for the places given (the sub and the zone), only within a
+// clause that names one, never inside quotes, never after "if" or "whether" ("if you are in X" is a question of theirs),
+// (and a bare "here" ending a clause is "there"), and "you are level 28" stays (with a place after it, the level stays and the place is where they were).
+const SCENE = "souls|people|folk|folks|townsfolk|travelers|travellers|citizens|villagers|crowds?";
+function awayTense(text, place) {
+  const names = String(place).split(",").map(s => s.trim()).filter(Boolean)
+    .map(s => s.replace(/[.*+?^${}()|[\]\\]/g, "\\$&").replace(/['’]/g, "['’]?"));
+  if (!names.length) return text;
+  const at = `(?=[^.!?;]{0,70}\\b(?:${names.join("|")})\\b)`;
+  const here = new RegExp(`(?<!\\b(?:[Ii]f|[Ww]hether|[Ww]hen|[Uu]nless) )\\b([Yy]ou)(?:'re| are)(?: (?:currently|now|still|right))*(?: (?:resting|standing|staying|waiting|located|camped))? (in|at) ${at}`, "gu");
+  // "you are level 28 and resting in X" / "you are level 28 in X": the level stays, the place is where they were.
+  const level = new RegExp(`(?<!\\b(?:[Ii]f|[Ww]hether|[Ww]hen|[Uu]nless) )\\b([Yy]ou)(?:'re| are) (level \\w+)(?: and)?(?: (?:currently|now|still))*(?: (?:resting|standing|staying|waiting|located|camped))? (in|at) ${at}`, "gu");
+  const there = new RegExp(`\\b(there) (are|is)\\b(?=[^.!?;]{0,80}\\b(?:${SCENE})\\b)${at.replace("{0,70}", "{0,100}")}`, "giu");
+  // "I can see many folk walking the streets of X": she sees nothing now.
+  const sees = new RegExp(`\\bI (?:can )?see\\b(?= (?:many|several|a few|some|a number of|countless) [^.!?;]{0,40}\\b(?:${SCENE})\\b)${at.replace("{0,70}", "{0,100}")}`, "gu");
+  const folk = new RegExp(`\\b(${SCENE}) are\\b${at.replace("{0,70}", "{0,100}")}`, "giu");
+  // A bare "here" that ends a clause ("growing darkness here.") is there; "come here", "wait here" are asked of them, not said.
+  const bare = /(?<!\b(?:come|go|stay|wait|meet|look|listen|see|tell|help|stop|get|bring|ask|talk|sit|stand|rest|camp) )\bhere(?=\s*(?:[.,;!?]|$))/giu;
+  // Outside quotation marks only: a quoted line is someone else's words, not hers.
+  return text.split(/("[^"]*"|\u201c[^\u201d]*\u201d)/).map((part, i) => i % 2 ? part
+    : part.replace(sees, "I recall seeing")
+      .replace(level, (_, you, lv, prep) => `${you} are ${lv} and were last ${prep} `)
+      .replace(here, (_, you, prep) => `${you} were last ${prep} `)
+      .replace(there, (_, t, be) => `${t} ${be === "is" ? "was" : "were"}`)
+      .replace(folk, (_, who) => `${who} were`)
+      .replace(bare, m => (m[0] === "H" ? "There" : "there"))).join("");
+}
 // said: false is only the rewrite of the present tense (away from the game, where the zone she was given is stale but she
 // may still answer a question that has nothing to do with it): no "From <place>, where you were last," added.
 export function fromWhereLast(text, place, { said = true } = {}) {
   if (typeof text !== "string" || !text.trim() || !place) return text;
-  let out = text.replace(YOU_ARE_AT, (_, you, at) => `${you} were last ${at} `)
+  // Away (said: false) only the places she was given are said as from there (awayTense), outside quotes.
+  let out = (said ? text.replace(YOU_ARE_AT, (_, you, at) => `${you} were last ${at} `) : text)
     // "at the inn here in Sentinel Hill": the "here" goes (the vision check: 2 of 3).
     .replace(/\b(?:right )?here (?=(?:in|at) \p{Lu})/gu, "").replace(/\bright here\b/gi, "there").replace(/\b(?:is |are )?just ahead of you\b/gi, m => m.replace(/just ahead of you/i, "near there"));
-  // "You are standing right here in X": the "here" goes first, then the present tense (away, nothing follows to say it).
-  if (!said) out = out.replace(YOU_ARE_AT, (_, you, at) => `${you} were last ${at} `);
+  // "You are standing right here in X": the "here" went first, then the present tense (away, nothing follows to say it).
+  if (!said) out = awayTense(out, place);
   if (said && !LAST_SAID.test(out)) {
     const town = String(place).split(",")[0].trim();     // the town, not its zone too
     // Words that name the town already get it after its first mention, not the town twice (the vision re-check,

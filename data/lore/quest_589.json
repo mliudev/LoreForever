@@ -1,0 +1,116 @@
+{
+ "key": "quest:589",
+ "type": "quest",
+ "name": "The Singing Crystals",
+ "era": "classic",
+ "zone": "stranglethorn",
+ "meta": {
+  "ids": [
+   589
+  ],
+  "level": "45",
+  "faction": "Horde",
+  "start": "Kin'weelay",
+  "end": "Kin'weelay",
+  "previous": "The Fate of Yenniku",
+  "next": "The Mind's Eye (Classic)",
+  "wiki": "The Singing Crystals",
+  "chain": [],
+  "prev_q": [
+   "The Fate of Yenniku"
+  ],
+  "next_q": [
+   "The Mind's Eye (Classic)"
+  ],
+  "category": "Stranglethorn Vale",
+  "chain_tpl": [
+   "Fate of Yenniku"
+  ]
+ },
+ "summary": "Kin'weelay seeks a way to rescue young Yenniku from the darkness that has claimed him. Following the revelation of Yenniku's plight, the witch doctor plans to locate a legendary jewel known as the Mind's Eye, sending you to gather resonance shards needed to master its power.",
+ "sections": [
+  {
+   "title": "Echoes of the Mind's Eye",
+   "body": "After learning the grim fate that befell Yenniku, the medicine man Kin'weelay turns to ancient jungle lore for an answer. Tales speak of the Mind's Eye, a gem hidden within the depths of Stranglethorn that possesses immense magical strength. Kin'weelay believes this stone could hold the secret to freeing the young troll's spirit. While he communally seeks the guidance of the jungle spirits to pinpoint its location, he needs rare catalysts to safely command the jewel's potent sorcery.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Crystalvein Caverns",
+   "body": "Kin'weelay directs you southeast toward Crystalvein Mine, where ironjaw basilisks dwell beneath the earth. From these creatures, you are to recover three pulsing blue shards. Kin'weelay intends to channel the inherent magic of these singing stones in a concluding ritual, bending the raw might of the Mind's Eye to his command once the gem is recovered.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who offers this task?",
+   "aliases": [
+    "who gives the singing crystals",
+    "quest giver",
+    "where to start the singing crystals"
+   ],
+   "answer": "Kin'weelay, a troll medicine man stationed at Grom'gol Base Camp in Stranglethorn Vale, gives this assignment."
+  },
+  {
+   "q": "Why are the pulsing blue shards needed?",
+   "aliases": [
+    "why do we need blue shards",
+    "what are the shards for",
+    "pulsing blue shard purpose"
+   ],
+   "answer": "Kin'weelay requires their magic to control the Mind's Eye, a powerful jewel he intends to use to pull Yenniku back from the dark forces that hold him."
+  },
+  {
+   "q": "Where can the ironjaw basilisks be found?",
+   "aliases": [
+    "ironjaw basilisk location",
+    "where are ironjaw basilisks",
+    "where is crystalvein mine"
+   ],
+   "answer": "They dwell inside Crystalvein Mine, located southeast of Grom'gol Base Camp up in the peaks to the east of the Gurubashi Arena."
+  },
+  {
+   "q": "What came before this task?",
+   "aliases": [
+    "singing crystals prequest",
+    "previous quest"
+   ],
+   "answer": "This follows The Fate of Yenniku, which established the young troll's dire circumstances."
+  },
+  {
+   "q": "What is Kin'weelay doing while you gather the shards?",
+   "aliases": [
+    "what is kinweelay doing",
+    "kinweelay role"
+   ],
+   "answer": "He communes with the spirits of the jungle to uncover the exact hiding place of the Mind's Eye and find out what protects it."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Horde",
+   "text": "This effort aids the Darkspear tribe at Grom'gol Base Camp in their desperate struggle to recover the lost son of the Darkspear chief."
+  }
+ ],
+ "keywords": [
+  "crystalvein mine",
+  "grom'gol",
+  "ironjaw basilisk",
+  "kin'weelay",
+  "mind's eye",
+  "pulsing blue shard",
+  "stranglethorn",
+  "yenniku"
+ ],
+ "related": [
+  "quest:588",
+  "quest:591",
+  "npc:kin-weelay",
+  "subzone:crystalvein-mine",
+  "subzone:grom-gol-base-camp",
+  "zone:stranglethorn",
+  "subzone:gurubashi-arena"
+ ],
+ "attribution": [
+  "The Singing Crystals"
+ ]
+}

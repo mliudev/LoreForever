@@ -1,0 +1,103 @@
+{
+ "key": "quest:5501",
+ "type": "quest",
+ "name": "Bone Collector",
+ "era": "classic",
+ "zone": "desolace",
+ "meta": {
+  "ids": [
+   5501
+  ],
+  "level": "39",
+  "faction": "Neutral",
+  "start": "Bibbly F'utzbuckle",
+  "end": "Bibbly F'utzbuckle",
+  "previous": "",
+  "next": "",
+  "wiki": "Bone Collector",
+  "chain": [],
+  "category": "Desolace"
+ },
+ "summary": "At Kormek's Hut in Desolace, the goblin Bibbly F'utzbuckle is certain that kodo bones are about to transform the world. Ten of them are wanted from the Kodo Graveyard, south of the hut, and something is promised in return.",
+ "sections": [
+  {
+   "title": "Fortune in Old Bones",
+   "body": "Bibbly insists the hut is sitting on a goldmine. Customers make furniture, musical instruments and even blasting powder from kodo bones. Bibbly sends you south to the Kodo Graveyard to bring back ten of them, with something promised in return.",
+   "spoiler": 0
+  },
+  {
+   "title": "A Caravan on the Way",
+   "body": "A caravan comes by to pick up Bibbly's kodo bones, then sells them at Shadowprey Village. It is due any moment, and Bibbly is ten bones short of what is called a career high.",
+   "spoiler": 0
+  },
+  {
+   "title": "Bibbly's Big Dreams",
+   "body": "When the bones arrive, Bibbly pictures the chaps back home seeing Bibbly's face splashed across Goblin'preneur, and imagines being the richest goblin in the world. Bibbly also recalls a physical education teacher who said Bibbly would never amount to anything.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Bibbly F'utzbuckle?",
+   "aliases": [
+    "who gives bone collector",
+    "bibbly futzbuckle",
+    "kormek hut goblin"
+   ],
+   "answer": "Bibbly F'utzbuckle is a goblin at Kormek's Hut in Desolace, convinced that kodo bones are a goldmine and wanting ten more of them."
+  },
+  {
+   "q": "Why does Bibbly need kodo bones?",
+   "aliases": [
+    "what are kodo bones used for",
+    "why kodo bones"
+   ],
+   "answer": "Bibbly has customers who turn kodo bones into furniture, musical instruments and even blasting powder."
+  },
+  {
+   "q": "Where do the kodo bones go after Bibbly gets them?",
+   "aliases": [
+    "where do the bones go",
+    "caravan destination"
+   ],
+   "answer": "A caravan stops by to collect Bibbly's kodo bones, then sells them in Shadowprey Village."
+  },
+  {
+   "q": "Where can the kodo bones be found?",
+   "aliases": [
+    "kodo bone location",
+    "where to find kodo bones"
+   ],
+   "answer": "Bibbly sends you to the Kodo Graveyard, which lies south of Kormek's Hut in Desolace."
+  },
+  {
+   "q": "Where is Kormek's Hut?",
+   "aliases": [
+    "kormeks hut location",
+    "where is bibbly"
+   ],
+   "answer": "Kormek's Hut is in Desolace, north of the Kodo Graveyard."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "bibbly f'utzbuckle",
+  "bone collector",
+  "desolace",
+  "goblin'preneur",
+  "kodo bone",
+  "kodo graveyard",
+  "kormek's hut",
+  "shadowprey village"
+ ],
+ "related": [
+  "subzone:kodo-graveyard",
+  "subzone:kormek-s-hut",
+  "subzone:shadowprey-village",
+  "zone:desolace",
+  "topic:goblin"
+ ],
+ "attribution": [
+  "Bone Collector"
+ ]
+}

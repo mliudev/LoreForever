@@ -1,0 +1,89 @@
+{
+ "key": "quest:1427",
+ "type": "quest",
+ "name": "Threat From the Sea",
+ "era": "classic",
+ "zone": "swampofsorrows",
+ "meta": {
+  "ids": [
+   1427
+  ],
+  "level": "43",
+  "faction": "Horde",
+  "start": "Katar",
+  "end": "Tok'Kar",
+  "previous": "Threat From the Sea (2)",
+  "next": "Continued Threat",
+  "wiki": "Threat From the Sea (3)",
+  "chain": [],
+  "prev_q": [
+   "Threat From the Sea (2)"
+  ],
+  "category": "Swamp of Sorrows",
+  "chain_tpl": [
+   "Lack of Surplus"
+  ],
+  "next_q": [
+   "Continued Threat"
+  ]
+ },
+ "summary": "After your work for Katar, you are told to see Tok'Kar once more before you rest. Katar believes Tok'Kar finished a few weapons while you were away, and that one will be offered to you for your help.",
+ "sections": [
+  {
+   "title": "Back to Tok'Kar",
+   "body": "Katar believes Tok'Kar finished a few weapons while you were away, and that Tok'Kar will offer you one for your help. Katar adds that you would do well to try its strength on the fish men when ready, though only to please Katar further.",
+   "spoiler": 0
+  },
+  {
+   "title": "Tok'Kar's Thanks",
+   "body": "Tok'Kar is glad to see you back and says more weapons have been crafted for the war on the murlocs. As thanks for bringing fresh sawtooth meat, and for putting a small smile on Katar's face, he gives you one.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who sends you to speak with Tok'Kar?",
+   "aliases": [
+    "who gives this quest",
+    "where do I get threat from the sea",
+    "who starts this"
+   ],
+   "answer": "Katar does, telling you to see Tok'Kar once more before you rest in the Swamp of Sorrows."
+  },
+  {
+   "q": "Why is Tok'Kar offering a weapon?",
+   "aliases": [
+    "why does tok'kar give a weapon",
+    "what did tok'kar make",
+    "tok'kar reward reason"
+   ],
+   "answer": "Katar believes Tok'Kar finished a few weapons while you were gone, and that one will be offered to you in thanks for your help."
+  },
+  {
+   "q": "What comes next after speaking with Tok'Kar?",
+   "aliases": [
+    "what is the next quest",
+    "where to after this",
+    "what follows threat from the sea"
+   ],
+   "answer": "Continued Threat follows."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "katar",
+  "murloc",
+  "sawtooth meat",
+  "swamp of sorrows",
+  "threat from the sea",
+  "tok'kar"
+ ],
+ "related": [
+  "quest:1428",
+  "zone:swampofsorrows",
+  "topic:murloc"
+ ],
+ "attribution": [
+  "Threat From the Sea (3)"
+ ]
+}

@@ -1,0 +1,85 @@
+{
+ "key": "quest:847",
+ "type": "quest",
+ "name": "Guile of the Raptor",
+ "era": "classic",
+ "zone": "arathi",
+ "meta": {
+  "ids": [
+   847
+  ],
+  "level": "37",
+  "faction": "Horde",
+  "start": "Gor'mul",
+  "end": "Tor'gan",
+  "previous": "Guile of the Raptor (2)",
+  "next": "",
+  "wiki": "Guile of the Raptor (3)",
+  "chain": [],
+  "prev_q": [
+   "Guile of the Raptor (2)"
+  ],
+  "category": "Arathi Highlands",
+  "chain_tpl": [
+   "Raising Spirits"
+  ]
+ },
+ "summary": "After Tor'gan's orb gave Gor'mul the raptor's essence, the power he felt has him wondering about the shamans' magic. He sends you to tell Tor'gan he has been convinced, for the time being, and will listen.",
+ "sections": [
+  {
+   "title": "A Warrior Convinced",
+   "body": "Gor'mul wonders aloud whether the power coursing through him is the shamans' power that Tor'gan tried to show him. He finds it interesting. He asks you to tell Tor'gan that he has been convinced, for the time being, and will hear what Tor'gan has to say.",
+   "spoiler": 0
+  },
+  {
+   "title": "Tor'gan's Reply",
+   "body": "Tor'gan says he will speak with Gor'mul once the enchantment wears off. He thanks you for helping bring Gor'mul back among the living, and expects that Gor'mul is grateful as well.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who sends you to speak with Tor'gan?",
+   "aliases": [
+    "who starts guile of the raptor 3",
+    "who gives this quest",
+    "where does this start"
+   ],
+   "answer": "Gor'mul does. After feeling the power of the orb, he asks you to tell Tor'gan that he has been convinced, for the time being."
+  },
+  {
+   "q": "Why does Gor'mul change his mind about Tor'gan?",
+   "aliases": [
+    "why did gormul change his mind",
+    "gormul shaman magic",
+    "is gormul convinced"
+   ],
+   "answer": "He wonders whether the power he felt is the shamans' power that Tor'gan tried to show him, and he finds it interesting. He is convinced for the time being and will listen to Tor'gan."
+  },
+  {
+   "q": "What came before this step?",
+   "aliases": [
+    "previous quest",
+    "prereq guile of the raptor"
+   ],
+   "answer": "It follows the earlier step in which you brought Tor'gan's orb to Gor'mul."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "arathi highlands",
+  "gor'mul",
+  "guile of the raptor",
+  "hammerfall",
+  "shaman",
+  "tor'gan"
+ ],
+ "related": [
+  "subzone:hammerfall",
+  "topic:shaman",
+  "zone:arathi"
+ ],
+ "attribution": [
+  "Guile of the Raptor (3)"
+ ]
+}

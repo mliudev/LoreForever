@@ -1,0 +1,84 @@
+{
+ "key": "quest:1127",
+ "type": "quest",
+ "name": "Fool's Stout",
+ "era": "classic",
+ "zone": "stranglethorn",
+ "meta": {
+  "ids": [
+   1127
+  ],
+  "level": "44",
+  "faction": null,
+  "start": "Crank Fizzlebub",
+  "end": "Crank Fizzlebub",
+  "previous": "Zanzil's Mixture and a Fool's Stout",
+  "next": "",
+  "wiki": "Fool's Stout (quest)",
+  "chain": [],
+  "category": "Stranglethorn Vale"
+ },
+ "summary": "Crank Fizzlebub in Booty Bay brews batches of Fool's Stout for travelers looking to return to the Shimmering Flats raceway. To concoct another serving, he requires twelve flasks of Zanzil's mixture.",
+ "sections": [
+  {
+   "title": "A Second Batch",
+   "body": "For travelers whose initial supply of Fool's Stout has expired before reaching the gnomes at the raceway, Crank Fizzlebub offers to brew a replacement. The goblin Crank Fizzlebub in Booty Bay requires twelve flasks of Zanzil's mixture to prepare the potent beverage once more, compensating anyone willing to fetch the ingredients while offering a little extra to keep the transaction discreet.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who offers to brew Fool's Stout?",
+   "aliases": [
+    "who gives fools stout",
+    "fools stout questgiver",
+    "crank fizzlebub"
+   ],
+   "answer": "Crank Fizzlebub, found inside Booty Bay in southern Stranglethorn Vale, prepares the stout."
+  },
+  {
+   "q": "What ingredients does Crank Fizzlebub need?",
+   "aliases": [
+    "what items needed fools stout",
+    "fools stout ingredients",
+    "zanzils mixture requirement"
+   ],
+   "answer": "He requires twelve flasks of Zanzil's mixture to brew another batch of the stout."
+  },
+  {
+   "q": "Why would someone need another batch of Fool's Stout?",
+   "aliases": [
+    "why do fools stout again",
+    "fools stout expired",
+    "fools stout duration"
+   ],
+   "answer": "The concoction evaporates after two hours, so travelers who miss that window must gather fresh ingredients for a replacement."
+  },
+  {
+   "q": "Where is the brew intended to go?",
+   "aliases": [
+    "where does fools stout go",
+    "who drinks fools stout",
+    "fools stout destination"
+   ],
+   "answer": "The brew is meant for the gnomes at the raceway."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "booty bay",
+  "crank fizzlebub",
+  "fools stout",
+  "raceway",
+  "stranglethorn vale",
+  "zanzils mixture"
+ ],
+ "related": [
+  "subzone:booty-bay",
+  "zone:stranglethorn",
+  "topic:gnome"
+ ],
+ "attribution": [
+  "Fool's Stout (quest)"
+ ]
+}

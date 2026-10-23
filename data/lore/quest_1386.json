@@ -1,0 +1,100 @@
+{
+ "key": "quest:1386",
+ "type": "quest",
+ "name": "Assault on the Kolkar",
+ "era": "classic",
+ "zone": "desolace",
+ "meta": {
+  "ids": [
+   1386
+  ],
+  "level": "32",
+  "faction": null,
+  "start": "Warug",
+  "end": "Warug",
+  "previous": "Brutal Politics",
+  "next": "Broken Tears (quest)",
+  "wiki": "Assault on the Kolkar",
+  "chain": [],
+  "prev_q": [
+   "Brutal Politics"
+  ],
+  "next_q": [
+   "Broken Tears (quest)"
+  ],
+  "category": "Desolace",
+  "chain_tpl": [
+   "Magram Alliance"
+  ]
+ },
+ "summary": "After Brutal Politics, Warug in Magram Village wants proof that you can kill Kolkar the way the Magram do. Head north and slay Kolkar centaurs, scouts and maulers.",
+ "sections": [
+  {
+   "title": "We Laugh and We Kill",
+   "body": "Warug sneers that the Kolkar believe themselves strong while the Magram laugh at them as they kill them. Warug wants you to prove you can kill Kolkar as the Magram do, so you head north: twelve Kolkar centaurs, twelve scouts and six maulers are to fall.",
+   "spoiler": 0
+  },
+  {
+   "title": "Warug's Approval",
+   "body": "When you return, Warug says the Kolkar fear you now. Warug hopes you laughed as you killed them, because laughing while you kill lets the enemy see its own weakness.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who sends you to attack the Kolkar?",
+   "aliases": [
+    "who gives assault on the kolkar",
+    "quest giver assault on the kolkar",
+    "where to get assault on the kolkar"
+   ],
+   "answer": "Warug, of the Magram, in Magram Village in Desolace."
+  },
+  {
+   "q": "What came before this step?",
+   "aliases": [
+    "previous quest",
+    "prereq assault on the kolkar",
+    "assault on the kolkar prerequisite"
+   ],
+   "answer": "It follows Brutal Politics."
+  },
+  {
+   "q": "Where are the Kolkar located?",
+   "aliases": [
+    "kolkar location",
+    "where are kolkar centaur",
+    "where to find kolkar"
+   ],
+   "answer": "Warug tells you to head north to find them."
+  },
+  {
+   "q": "Why does Warug want the Kolkar killed?",
+   "aliases": [
+    "why kill kolkar",
+    "magram kolkar rivalry",
+    "why does warug hate kolkar"
+   ],
+   "answer": "Warug mocks the Kolkar for thinking themselves strong, and wants you to show you can kill them as the Magram do."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "brutal politics",
+  "centaur",
+  "desolace",
+  "kolkar",
+  "magram",
+  "magram village",
+  "warug"
+ ],
+ "related": [
+  "quest:1385",
+  "subzone:magram-village",
+  "topic:centaur",
+  "zone:desolace"
+ ],
+ "attribution": [
+  "Assault on the Kolkar"
+ ]
+}

@@ -1,0 +1,85 @@
+{
+ "key": "quest:1285",
+ "type": "quest",
+ "name": "Daelin's Men",
+ "era": "classic",
+ "zone": "dustwallow",
+ "meta": {
+  "ids": [
+   1285
+  ],
+  "level": "38",
+  "start": "Adjutant Tesoran",
+  "end": "Captain Garran Vimes",
+  "previous": "Lieutenant Paval Reethe",
+  "next": "The Deserters",
+  "prev_q": [
+   "Lieutenant Paval Reethe"
+  ],
+  "next_q": [
+   "The Deserters"
+  ],
+  "wiki": null
+ },
+ "summary": "Adjutant Tesoran has found Lieutenant Paval Reethe in the guard's records. They tell of an enlistment in the Kul Tiras marines at sixteen, distinguished service with promotions, and a place in the Theramore guard among the recruits who sailed over with Lady Proudmoore. The last entry lists Reethe as missing, and Captain Garran Vimes is to hear of it.",
+ "sections": [
+  {
+   "title": "What the Records Say",
+   "body": "Captain Garran Vimes sent you to Adjutant Tesoran, who has now searched the books and found Lieutenant Paval Reethe. Reethe signed up with the Kul Tiras marines at sixteen, and distinguished service brought promotions. Reethe went on to the Theramore guard, like most of the recruits who sailed over with Lady Proudmoore. The record ends with Reethe listed as missing. The news is for Vimes in Theramore.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Captain's Reaction",
+   "body": "Vimes takes \"missing\" to be Tesoran's kind word for traitor. Vimes is sure Reethe is one of the fools whose loyalty to Admiral Daelin is blind enough to make them turn traitor, and finds a bitter irony in it, since the deserters accuse Theramore of betraying the Alliance.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Adjutant Tesoran?",
+   "aliases": [
+    "tesoran",
+    "who gives daelins men"
+   ],
+   "answer": "Adjutant Tesoran is the one who looked up Lieutenant Paval Reethe in the guard's records and read out what they say."
+  },
+  {
+   "q": "What do the records say about Paval Reethe?",
+   "aliases": [
+    "reethe backstory",
+    "reethe record",
+    "paval reethe history"
+   ],
+   "answer": "Reethe signed up with the Kul Tiras marines at sixteen, earned promotions through distinguished service, and later joined the Theramore guard among the recruits who sailed over with Lady Proudmoore. The record ends by listing Reethe as missing."
+  },
+  {
+   "q": "Who gets the news about Reethe?",
+   "aliases": [
+    "why return to vimes",
+    "garran vimes reethe"
+   ],
+   "answer": "Captain Garran Vimes, in Theramore."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "adjutant tesoran",
+  "daelin's men",
+  "deserters",
+  "dustwallow marsh",
+  "garran vimes",
+  "kul tiras",
+  "paval reethe",
+  "theramore"
+ ],
+ "related": [
+  "quest:1259",
+  "quest:1286",
+  "topic:kul-tiras",
+  "topic:alliance",
+  "zone:dustwallow"
+ ],
+ "attribution": [
+  "Classic quest text: Daelin's Men"
+ ]
+}

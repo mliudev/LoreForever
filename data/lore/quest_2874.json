@@ -1,0 +1,96 @@
+{
+ "key": "quest:2874",
+ "type": "quest",
+ "name": "Deliver to MacKinley",
+ "era": "classic",
+ "zone": "tanaris",
+ "meta": {
+  "ids": [
+   2874
+  ],
+  "level": "45",
+  "faction": "Neutral",
+  "start": "Stoley",
+  "end": "\"Sea Wolf\" MacKinley",
+  "previous": "Stoley's Shipment (quest)",
+  "next": "",
+  "wiki": "Deliver to MacKinley",
+  "chain": [
+   "Stoley's Debt",
+   "Stoley's Shipment (quest)",
+   "Deliver to MacKinley"
+  ],
+  "prev_q": [
+   "Stoley's Shipment (quest)"
+  ],
+  "category": "Tanaris"
+ },
+ "summary": "Stoley hands you a bottle of Steamwheedle bilge rum for MacKinley, the \"Sea Wolf\" of Booty Bay, to put an end to MacKinley's beliefs about Booty Bay booze.",
+ "sections": [
+  {
+   "title": "A Bottle to Carry",
+   "body": "After the help you gave with the shipment, Stoley gives you a bottle of Steamwheedle bilge rum. You are to take it to MacKinley, in Booty Bay, so that he can finally let go of his crazy beliefs about the booze there.",
+   "spoiler": 0
+  },
+  {
+   "title": "MacKinley's Verdict",
+   "body": "MacKinley tries the rum and cannot believe how awful it is, which delights him. Stoley kept his word about the bilge rum, so he need not pay the money he owes. MacKinley calls the stuff thick as gravel and burning like lava.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who gives you the bottle?",
+   "aliases": [
+    "who starts deliver to mackinley",
+    "deliver to mackinley quest giver"
+   ],
+   "answer": "Stoley, at Steamwheedle Port."
+  },
+  {
+   "q": "Who receives the bottle of rum?",
+   "aliases": [
+    "where do i take the bottle",
+    "who gets the rum",
+    "mackinley location"
+   ],
+   "answer": "\"Sea Wolf\" MacKinley, in Booty Bay."
+  },
+  {
+   "q": "What kind of alcohol is being delivered?",
+   "aliases": [
+    "what rum is it",
+    "what booze does stoley give"
+   ],
+   "answer": "A bottle of Steamwheedle bilge rum."
+  },
+  {
+   "q": "Where does this step fit in the chain?",
+   "aliases": [
+    "what comes before deliver to mackinley",
+    "deliver to mackinley quest chain"
+   ],
+   "answer": "It follows Stoley's Debt and Stoley's Shipment."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "booty bay",
+  "mackinley",
+  "sea wolf mackinley",
+  "steamwheedle bilge rum",
+  "stoley",
+  "stoley's debt",
+  "stoley's shipment",
+  "tanaris"
+ ],
+ "related": [
+  "quest:2873",
+  "quest:2872",
+  "subzone:booty-bay",
+  "zone:tanaris"
+ ],
+ "attribution": [
+  "Deliver to MacKinley"
+ ]
+}

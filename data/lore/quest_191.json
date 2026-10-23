@@ -1,0 +1,95 @@
+{
+ "key": "quest:191",
+ "type": "quest",
+ "name": "Panther Mastery",
+ "era": "classic",
+ "zone": "stranglethorn",
+ "meta": {
+  "ids": [
+   191
+  ],
+  "level": "33",
+  "faction": null,
+  "start": "Sir S. J. Erlgadin",
+  "end": "Sir S. J. Erlgadin",
+  "previous": "Panther Mastery (Classic)",
+  "next": "Panther Mastery (3)",
+  "wiki": "Panther Mastery (2)",
+  "chain": [],
+  "prev_q": [
+   "Panther Mastery (Classic)"
+  ],
+  "next_q": [
+   "Panther Mastery (3)"
+  ],
+  "category": "Stranglethorn Vale",
+  "chain_tpl": [
+   "Big Game Hunter (Classic)"
+  ]
+ },
+ "summary": "Sir S. J. Erlgadin demands that you prove yourself worthy of the big game hunters at Nesingwary's Expedition. Following your initial cull of younger beasts, he challenges you to track down and slay ten fully grown panthers in the wilds of Stranglethorn Vale.",
+ "sections": [
+  {
+   "title": "A Higher Standard",
+   "body": "After dispatching the young panthers around the jungle, Sir S. J. Erlgadin asks you to raise your sights. To show that you deserve to keep company with seasoned big game hunters, you are sent out to hunt ten mature panthers, which are far tougher and more dangerous than their younger kin.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who offers this trial?",
+   "aliases": [
+    "who gives panther mastery",
+    "erlgadin quest",
+    "quest giver"
+   ],
+   "answer": "Sir S. J. Erlgadin, a hunter stationed at Nesingwary's Expedition in northern Stranglethorn Vale, oversees this stage of the hunt."
+  },
+  {
+   "q": "What quarry are you asked to hunt?",
+   "aliases": [
+    "what panthers to kill",
+    "which beasts",
+    "panther mastery target"
+   ],
+   "answer": "You are asked to track down and defeat ten mature panthers in the surrounding jungle, which are tougher than the younger specimens previously targeted."
+  },
+  {
+   "q": "What comes before this challenge?",
+   "aliases": [
+    "previous quest",
+    "prior step",
+    "panther mastery prerequisite"
+   ],
+   "answer": "This follows an earlier trial, also titled Panther Mastery, in which Erlgadin tested your mettle against younger jungle panthers."
+  },
+  {
+   "q": "What is the purpose of hunting these panthers?",
+   "aliases": [
+    "why kill panthers",
+    "erlgadin motive",
+    "nesingwary purpose"
+   ],
+   "answer": "Sir S. J. Erlgadin requires you to prove you have the skill and fortitude to socialize and hunt alongside the seasoned big game hunters of the expedition."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "big game",
+  "erlgadin",
+  "hunting",
+  "mastery",
+  "nesingwary",
+  "panther",
+  "stranglethorn"
+ ],
+ "related": [
+  "subzone:nesingwary-s-expedition",
+  "zone:stranglethorn",
+  "quest:208",
+  "topic:hunter"
+ ],
+ "attribution": [
+  "Panther Mastery (2)"
+ ]
+}

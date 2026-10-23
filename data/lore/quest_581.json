@@ -1,0 +1,121 @@
+{
+ "key": "quest:581",
+ "type": "quest",
+ "name": "Hunt for Yenniku",
+ "era": "classic",
+ "zone": "stranglethorn",
+ "meta": {
+  "ids": [
+   581
+  ],
+  "level": "34",
+  "faction": "Horde",
+  "start": "Nimboya",
+  "end": "Nimboya",
+  "previous": "",
+  "next": "Headhunting (Classic)",
+  "wiki": "Hunt for Yenniku (Classic)",
+  "chain": [],
+  "next_q": [
+   "Headhunting (Classic)"
+  ],
+  "category": "Stranglethorn Vale",
+  "chain_tpl": [
+   "Fate of Yenniku"
+  ]
+ },
+ "summary": "Nimboya has returned from Orgrimmar to the jungles of Stranglethorn Vale to search for Yenniku, the youngest son of his chieftain. Suspecting the Bloodscalp tribe holds the youth captive, the scout asks you to hunt their warriors and take their tusks to demonstrate your strength.",
+ "sections": [
+  {
+   "title": "A Chieftain's Lost Son",
+   "body": "At Grom'gol Base Camp, Nimboya speaks of a grim fate looming over Yenniku, the youngest son of the Darkspear chieftain. In accordance with an old tribal custom, the boy had been placed among the Gurubashi trolls of Zul'Gurub. When the Darkspear tribe departed their homeland alongside the orc warchief Thrall, Yenniku was left behind and lost. Sent back from distant Orgrimmar, Nimboya has undertaken the responsibility of finding the chieftain's son and bringing him to safety.",
+   "spoiler": 0
+  },
+  {
+   "title": "Hunting the Bloodscalps",
+   "body": "Nimboya believes the Bloodscalp tribe now holds Yenniku. He demands proof that an adventurer is strong enough to hunt them. You are directed north to hunt Bloodscalp trolls and gather nine of their tusks. Bringing these trophies back to Grom'gol Base Camp proves your martial prowess and begins a longer pursuit to locate the chieftain's boy, leading directly into the hunt known as Headhunting.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Yenniku?",
+   "aliases": [
+    "yenniku lore",
+    "who is yenniku",
+    "chieftain son"
+   ],
+   "answer": "Yenniku is the youngest son of the Darkspear tribe's chieftain. By tribal custom, he was given to the Gurubashi trolls in Zul'Gurub, but he became separated from his people when the Darkspears left the region."
+  },
+  {
+   "q": "Why was Yenniku left behind in Stranglethorn?",
+   "aliases": [
+    "why did yenniku stay",
+    "how was yenniku lost",
+    "why zul'gurub"
+   ],
+   "answer": "Tribal custom saw Yenniku sent to the Gurubashi trolls of Zul'Gurub. When the Darkspear tribe allied with Thrall and departed, the youth was lost to them."
+  },
+  {
+   "q": "Who is Nimboya?",
+   "aliases": [
+    "who gives hunt for yenniku",
+    "nimboya",
+    "grom'gol scout"
+   ],
+   "answer": "Nimboya is a Darkspear troll stationed at Grom'gol Base Camp. He was dispatched from distant Orgrimmar back to Stranglethorn Vale to search for his chieftain's lost son."
+  },
+  {
+   "q": "Why do you need to collect Bloodscalp tusks?",
+   "aliases": [
+    "bloodscalp tusks purpose",
+    "why tusks",
+    "hunt for yenniku tusks"
+   ],
+   "answer": "Nimboya suspects the Bloodscalp tribe has captured Yenniku. He requires nine Bloodscalp tusks as proof that you have the strength to hunt these hostile trolls before continuing the search."
+  },
+  {
+   "q": "Where are the Bloodscalp trolls located?",
+   "aliases": [
+    "where to find bloodscalps",
+    "bloodscalp location",
+    "where are bloodscalp trolls"
+   ],
+   "answer": "Nimboya directs hunters to seek out the Bloodscalp tribe in the territory to the north of Grom'gol Base Camp."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Troll",
+   "text": "For Darkspear trolls, answering Nimboya's call means aiding their own chieftain's family and hunting the Bloodscalps who may hold him."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "Sent directly from Orgrimmar, Nimboya relies on Horde allies operating out of Grom'gol Base Camp to help secure the Darkspear chieftain's kin."
+  }
+ ],
+ "keywords": [
+  "bloodscalp",
+  "darkspear",
+  "grom'gol",
+  "hunt for yenniku",
+  "nimboya",
+  "stranglethorn",
+  "tusks",
+  "yenniku",
+  "zul'gurub"
+ ],
+ "related": [
+  "subzone:grom-gol-base-camp",
+  "topic:darkspear-tribe",
+  "zone:stranglethorn",
+  "subzone:zul-gurub",
+  "npc:thrall",
+  "zone:orgrimmar",
+  "topic:troll"
+ ],
+ "attribution": [
+  "Hunt for Yenniku (Classic)",
+  "In-game quest text: Hunt for Yenniku"
+ ]
+}

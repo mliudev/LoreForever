@@ -8,7 +8,7 @@ import { onRequest as testApi } from "../functions/api/test/[action].js";
 import { onRequest as friendsApi } from "../functions/api/friends/[action].js";
 import { findOrCreateUser, startSession, setup } from "../lib/accounts.js";
 import { pinsOf } from "../lib/willo-pins.js";
-import { testPlayersOn, seedTestPlayers } from "../lib/test-players.js";
+import { testPlayersOn, seedTestPlayers, stubbed } from "../lib/test-players.js";
 import { d1 } from "./helpers.mjs";
 
 const DEVELOP = "https://develop.lore-forever.pages.dev";
@@ -103,4 +103,19 @@ test("Mira's pins carry the tester's own day, and a page they changed is left al
   env.DB.sqlite.exec("UPDATE notebook_pages SET version = 2 WHERE page = 'char:Mira-Forever'");   // they took a pin out
   await seedTestPlayers(env, at, { offset: -420 });
   assert.deepEqual(days(), ["October 20"], "an edited page stays theirs");
+});
+
+test("load players get app tokens on develop, and only their answers with the header get the stand-in model", async () => {
+  assert.equal((await call("https://loreforeverwow.com", "load-players", { body: { count: 2 } })).status, 404);
+  const res = await call(DEVELOP, "load-players", { body: { count: 2 } });
+  assert.equal(res.status, 200);
+  assert.deepEqual(res.body.players.map(p => p.email), ["load-001@example.test", "load-002@example.test"]);
+  assert.ok(res.body.players.every(p => /^[0-9a-f]{64}$/.test(p.token)));
+  const ask = (origin, headers = { "X-Load-Test": "stub" }) => new Request(origin + "/api/companion/answer", { headers });
+  const load = { email: "load-001@example.test" };
+  assert.equal(stubbed(env, ask(DEVELOP), load), true);
+  assert.equal(stubbed(env, ask(DEVELOP, {}), load), false, "no header");
+  assert.equal(stubbed(env, ask(DEVELOP), { email: "mira@example.test" }), false, "not a load player");
+  assert.equal(stubbed(env, ask("https://loreforeverwow.com"), load), false, "live site");
+  assert.equal(stubbed({ ...env, STRIPE_LIVE: "1" }, ask(DEVELOP), load), false, "live Stripe");
 });

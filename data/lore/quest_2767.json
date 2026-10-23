@@ -1,0 +1,98 @@
+{
+ "key": "quest:2767",
+ "type": "quest",
+ "name": "Rescue OOX-22/FE!",
+ "era": "classic",
+ "zone": "feralas",
+ "meta": {
+  "ids": [
+   2767
+  ],
+  "level": "45",
+  "faction": null,
+  "start": "Homing Robot OOX-22/FE, Feral Scar Vale",
+  "end": "Oglethorpe Obnoticus, Booty Bay",
+  "previous": "Find OOX-22/FE!",
+  "next": "",
+  "wiki": "Rescue OOX-22/FE!",
+  "chain": [],
+  "prev_q": [
+   "Find OOX-22/FE!"
+  ],
+  "category": "Feralas",
+  "chain_tpl": [
+   "Oglethorpe's Homing Robots"
+  ]
+ },
+ "summary": "After finding the homing robot OOX-22/FE in Feral Scar Vale, you hear the gnome's voice crackle from it once more. The robot is to be escorted to the Forgotten Coast dock, and afterwards Oglethorpe Obnoticus wants a word with you in Booty Bay.",
+ "sections": [
+  {
+   "title": "A Safe Place to Take Off",
+   "body": "The gnome's voice says OOX-22/FE needs somewhere open and safe where a lengthy take-off can begin. The robot has built-in cloaking, but Oglethorpe Obnoticus needs time to make it work again. Oglethorpe suggests the Forgotten Coast dock, long enough for getting everything running, so the robot is to be walked there from where it stands.",
+   "spoiler": 0
+  },
+  {
+   "title": "Afterwards, Booty Bay",
+   "body": "Once the robot is safely at the dock, Oglethorpe Obnoticus wants you to come and talk in Booty Bay.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Where does OOX-22/FE need to go?",
+   "aliases": [
+    "where do i take the chicken",
+    "oox-22/fe destination",
+    "feralas chicken escort path"
+   ],
+   "answer": "The dock along the Forgotten Coast. It is escorted there from Feral Scar Vale, where you found it."
+  },
+  {
+   "q": "Who is Oglethorpe Obnoticus?",
+   "aliases": [
+    "who made the robot chicken",
+    "who is oglethorpe obnoticus",
+    "chicken inventor"
+   ],
+   "answer": "A master inventor whose homing robot series includes OOX-22/FE. Oglethorpe speaks through the robot and is found in Booty Bay."
+  },
+  {
+   "q": "Why does the robot need to reach the dock?",
+   "aliases": [
+    "why escort oox-22",
+    "why walk to the dock"
+   ],
+   "answer": "A lengthy take-off needs an open, safe place, and Oglethorpe says the dock is long enough to get things online. The robot's built-in cloaking needs time before it works again."
+  },
+  {
+   "q": "Where do I report afterwards?",
+   "aliases": [
+    "where is oglethorpe",
+    "turn in location",
+    "who do i talk to after"
+   ],
+   "answer": "Once the robot is safely at the dock, speak to Oglethorpe Obnoticus in Booty Bay."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "booty bay",
+  "feral scar vale",
+  "feralas",
+  "forgotten coast",
+  "homing robot",
+  "oglethorpe obnoticus",
+  "oox-22/fe",
+  "robot chicken"
+ ],
+ "related": [
+  "quest:2766",
+  "subzone:feral-scar-vale",
+  "subzone:forgotten-coast",
+  "subzone:booty-bay",
+  "zone:feralas"
+ ],
+ "attribution": [
+  "Rescue OOX-22/FE!"
+ ]
+}

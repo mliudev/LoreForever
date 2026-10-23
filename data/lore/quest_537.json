@@ -1,0 +1,102 @@
+{
+ "key": "quest:537",
+ "type": "quest",
+ "name": "Dark Council",
+ "era": "classic",
+ "zone": "alterac",
+ "meta": {
+  "ids": [
+   537
+  ],
+  "level": "40",
+  "faction": "Alliance",
+  "start": "Magistrate Henry Maleb",
+  "end": "Magistrate Henry Maleb",
+  "previous": "Further Mysteries",
+  "next": "",
+  "wiki": "Dark Council",
+  "chain": [],
+  "prev_q": [
+   "Further Mysteries"
+  ],
+  "category": "Hillsbrad Foothills",
+  "chain_tpl": [
+   "Encrypted Letter (Hillsbrad Foothills)"
+  ]
+ },
+ "summary": "Magistrate Henry Maleb in Southshore has learned that the letter you brought came from a being who goes by Nagaz and belongs to the Argus Wake. If the Argus Wake is allied with the Syndicate, Maleb says, they must be a threat. You are sent to hunt down Nagaz and the Argus Shadow Mages in the Uplands.",
+ "sections": [
+  {
+   "title": "Envoys in the Uplands",
+   "body": "After Further Mysteries, Maleb tells you the letter came from a being who goes by Nagaz and belongs to the Argus Wake. Maleb does not know what the Argus Wake is, but an alliance with the Syndicate would make them a threat. Maleb wants Nagaz and the Argus Shadow Mages named in the letter found and killed, and asks for the head of Nagaz. You are to search the Uplands, north of Strahnbrad, where the Syndicate is strongest. Maleb hopes the Argus Wake's envoys are there.",
+   "spoiler": 0
+  },
+  {
+   "title": "What Maleb Concludes",
+   "body": "Maleb finds it unwelcome that a group like the Argus Wake might run the Syndicate. Nagaz was only another's servant, Maleb adds, and the Argus Wake's reach may go deep across the continent, or even the whole world.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who sends you after Nagaz?",
+   "aliases": [
+    "who gives dark council",
+    "dark council questgiver",
+    "where to pick up dark council"
+   ],
+   "answer": "Magistrate Henry Maleb in Southshore, who read the letter you brought him."
+  },
+  {
+   "q": "Where are Nagaz and the Argus Shadow Mages located?",
+   "aliases": [
+    "where is nagaz",
+    "argus shadow mage location",
+    "where are the uplands"
+   ],
+   "answer": "Maleb tells you to search the Uplands, north of Strahnbrad, where the Syndicate is strongest."
+  },
+  {
+   "q": "What is the Argus Wake?",
+   "aliases": [
+    "who are argus wake",
+    "what is argus wake",
+    "argus wake lore"
+   ],
+   "answer": "Maleb does not know. He only knows that Nagaz belongs to it and that, if it is allied with the Syndicate, it must be a threat."
+  },
+  {
+   "q": "What happens before this?",
+   "aliases": [
+    "prereq for dark council",
+    "previous quest",
+    "what quest comes before"
+   ],
+   "answer": "It follows Further Mysteries, in which you brought the decrypted letter to Maleb."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "argus shadow mage",
+  "argus wake",
+  "dark council",
+  "henry maleb",
+  "nagaz",
+  "southshore",
+  "strahnbrad",
+  "syndicate",
+  "uplands"
+ ],
+ "related": [
+  "npc:magistrate-henry-maleb",
+  "quest:525",
+  "subzone:uplands",
+  "subzone:strahnbrad",
+  "subzone:southshore",
+  "zone:alterac",
+  "topic:syndicate"
+ ],
+ "attribution": [
+  "Dark Council"
+ ]
+}

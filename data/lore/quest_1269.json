@@ -1,0 +1,79 @@
+{
+ "key": "quest:1269",
+ "type": "quest",
+ "name": "Lieutenant Paval Reethe",
+ "era": "classic",
+ "zone": "dustwallow",
+ "meta": {
+  "ids": [
+   1269
+  ],
+  "level": "37",
+  "faction": "Horde",
+  "start": "Theramore Guard Badge",
+  "end": "Krog",
+  "wiki": null,
+  "previous": "",
+  "next": "Questioning Reethe"
+ },
+ "summary": "Beneath the rubble lies a badge bearing Theramore's sign, a golden anchor over white enamel, with the name Lieutenant Paval Reethe embossed under the anchor. Krog at Brackenwall Village is the one to bring it to.",
+ "sections": [
+  {
+   "title": "A Glint in the Rubble",
+   "body": "Something gleams beneath the rubble. Brushing off the ash and debris reveals a badge showing the sign of Theramore, with Lieutenant Paval Reethe's name embossed below it. Krog at Brackenwall Village awaits it, and will ask if you have a lead on what befell the Shady Rest Inn.",
+   "spoiler": 0
+  },
+  {
+   "title": "What Krog Knows",
+   "body": "Krog knows this human, Paval Reethe, and calls him pathetic. By Krog's telling, Reethe abandoned the soldiers he served with and now hides out in the woods. Krog sent Ogron to track him down, since others suspect Reethe of stealing supplies. Krog thinks Ogron was seen going southeast.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is on the badge?",
+   "aliases": [
+    "what does the badge say",
+    "theramore guard badge markings",
+    "who owns the badge"
+   ],
+   "answer": "The sign of Theramore, a golden anchor over white enamel, with the name Lieutenant Paval Reethe embossed beneath it."
+  },
+  {
+   "q": "Who gets the badge?",
+   "aliases": [
+    "who do i bring the badge to",
+    "where does reethe's badge go",
+    "badge turn in"
+   ],
+   "answer": "Krog, at Brackenwall Village, is who should see it."
+  },
+  {
+   "q": "Where was the badge found?",
+   "aliases": [
+    "badge location",
+    "where was reethes badge found"
+   ],
+   "answer": "Beneath rubble, caked in ash and debris. Krog asks if you have a lead on what befell the Shady Rest Inn."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "badge",
+  "brackenwall",
+  "insignia",
+  "krog",
+  "ogron",
+  "paval",
+  "reethe",
+  "theramore"
+ ],
+ "related": [
+  "subzone:brackenwall-village",
+  "subzone:shady-rest-inn",
+  "zone:dustwallow"
+ ],
+ "attribution": [
+  "Classic quest text: Lieutenant Paval Reethe"
+ ]
+}

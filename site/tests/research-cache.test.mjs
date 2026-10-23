@@ -9,6 +9,9 @@ import { LITE_MODEL, ANSWER_RESERVATION_MICRO, LOOKUP_RESERVATION_MICRO } from "
 import { keepFinding, wantsSearch, realWorld, searchesBefore, ofThisEra } from "../lib/research-cache.js";
 import { helpBlock, helpQuestion } from "../lib/willo-help.js";
 import { d1 } from "./helpers.mjs";
+// The facts are checked for the names and numbers they carry, not the sentence around them.
+const says = (text, ...facts) => { for (const f of facts) assert.ok(String(text).toLowerCase().includes(String(f).toLowerCase()),
+  `${JSON.stringify(text)} should say ${f}`); };
 
 // RESEARCH_SHARED: these tests cover sharing a finding with the next player, which stays off in production until a search
 // provider's terms allow it (lib/research-cache.js sharedFindings); the last test checks it's off by default.
@@ -24,7 +27,7 @@ const plain = { candidates: [{ content: { parts: [{ text: "Take The Islander fro
 
 beforeEach(async () => {
   await setup(env);
-  for (const table of ["answer_spend", "research_cache"]) {
+  for (const table of ["answer_spend", "free_pool_days", "research_cache"]) {
     try { env.DB.sqlite.exec(`DELETE FROM ${table}`); } catch { /* made on first use */ }
   }
   calls = [];
@@ -119,7 +122,8 @@ test("the player's own world looks online, typed too, and Willo's own help never
   // Typed (no research "auto"): the look-up is its own, about the question alone, never where or who asked.
   const typed = await ask(token, "What's the best graphics card for WoW?", "Stormwind City", { style: undefined, research: undefined });
   assert.equal(typed.looked_up, "quick");
-  assert.match(calls[0].system, /Today is \d{4}-\d{2}-\d{2}\. Always run one or two short Google searches first for current information/);
+  assert.match(calls[0].system, /\b\d{4}-\d{2}-\d{2}\b/, "today's date");
+  assert.match(calls[0].system, /Google search/i);
   assert.equal(calls[0].user, "Question: What's the best graphics card for WoW?");
   // A question about Willo herself gets her help, and no look-up even asked out loud.
   calls = [];

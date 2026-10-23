@@ -1,0 +1,102 @@
+{
+ "key": "quest:600",
+ "type": "quest",
+ "name": "Venture Company Mining",
+ "era": "classic",
+ "zone": "stranglethorn",
+ "meta": {
+  "ids": [
+   600
+  ],
+  "level": "41",
+  "faction": null,
+  "start": "Crank Fizzlebub",
+  "end": "Crank Fizzlebub",
+  "previous": "Singing Blue Shards",
+  "next": "",
+  "wiki": "Venture Company Mining (Classic)",
+  "chain": [],
+  "prev_q": [
+   "Singing Blue Shards"
+  ],
+  "category": "Stranglethorn Vale",
+  "chain_tpl": [
+   "Singing Blue Shards/Quest chain"
+  ]
+ },
+ "summary": "In Booty Bay, the goblin Crank Fizzlebub wants someone to strike at the Venture Company's operations in northern Stranglethorn Vale. Their dig site near Crystalvein Mine continues to produce valuable Singing Blue Crystals from the nearby hills, and Crank asks for ten of those stones brought back to him.",
+ "sections": [
+  {
+   "title": "Disrupting the Competition",
+   "body": "Following your earlier collection of Singing Blue Shards, Crank Fizzlebub points toward a larger rival. The Venture Company runs operations across the jungle, cutting into the profits of independent goblins. Though the many basilisks keep the miners from setting foot inside Crystalvein Mine itself, the workers continue digging into the surrounding hillsides to extract Singing Blue Crystals. Crank asks you to take the crystals from these miners and bring them to Booty Bay as proof of their setback.",
+   "spoiler": 0
+  },
+  {
+   "title": "After the Crystals Arrive",
+   "body": "While Crank frames the request as righteous retribution against a ruthless cartel, his excitement upon seeing the gathered Singing Blue Crystals exposes his real interest. Far from merely wanting the Venture Company humbled, he intends to sell the recovered stones for a substantial fortune in Booty Bay.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who gives the Venture Company Mining quest?",
+   "aliases": [
+    "who starts venture company mining",
+    "venture company mining questgiver"
+   ],
+   "answer": "Crank Fizzlebub, a goblin found in Booty Bay, offers the work after you complete Singing Blue Shards."
+  },
+  {
+   "q": "Where are the miners digging for these crystals?",
+   "aliases": [
+    "where is venture company mining",
+    "venture company mine location stranglethorn"
+   ],
+   "answer": "The Venture Company is operating near Crystalvein Mine in the northern region of Stranglethorn Vale, working the hills around the mine."
+  },
+  {
+   "q": "Why aren't the Venture Company miners inside the mine?",
+   "aliases": [
+    "why outside crystalvein mine",
+    "crystalvein mine basilisks"
+   ],
+   "answer": "Crank explains that the many basilisks in Crystalvein Mine keep the miners from venturing inside, forcing them to dig along the perimeter hills instead."
+  },
+  {
+   "q": "What does Crank Fizzlebub ask you to bring him?",
+   "aliases": [
+    "venture company mining items needed",
+    "what items for crank fizzlebub"
+   ],
+   "answer": "He asks for ten Singing Blue Crystals taken from the Venture Company miners working near Crystalvein Mine."
+  },
+  {
+   "q": "What came before Venture Company Mining?",
+   "aliases": [
+    "venture company mining chain",
+    "prerequisite for venture company mining"
+   ],
+   "answer": "The previous quest in this sequence is Singing Blue Shards, where Crank first has you gather smaller crystal shards in Stranglethorn Vale."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "booty bay",
+  "crank fizzlebub",
+  "crystalvein mine",
+  "singing blue crystals",
+  "stranglethorn vale",
+  "venture company"
+ ],
+ "related": [
+  "quest:605",
+  "subzone:crystalvein-mine",
+  "topic:venture-company",
+  "subzone:booty-bay",
+  "topic:goblin",
+  "zone:stranglethorn"
+ ],
+ "attribution": [
+  "Venture Company Mining (Classic)"
+ ]
+}

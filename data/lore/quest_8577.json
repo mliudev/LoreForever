@@ -1,0 +1,103 @@
+{
+ "key": "quest:8577",
+ "type": "quest",
+ "name": "Stewvul, Ex-B.F.F.",
+ "era": "classic",
+ "zone": "tanaris",
+ "meta": {
+  "ids": [
+   8577
+  ],
+  "level": "60",
+  "faction": null,
+  "start": "Narain Soothfancy",
+  "end": "Inconspicuous Crate",
+  "previous": "Translating the Ledger",
+  "next": "",
+  "wiki": "Stewvul, Ex-B.F.F.",
+  "chain": [],
+  "prev_q": [
+   "Translating the Ledger"
+  ],
+  "category": "Tanaris",
+  "chain_tpl": [
+   "Azuregos's Magical Ledger"
+  ]
+ },
+ "summary": "After Translating the Ledger, Narain Soothfancy says nothing can be translated without the scrying goggles. Narain's ex-best friend forever, Stewvul, stole them, and you are to find Stewvul and take them back.",
+ "sections": [
+  {
+   "title": "The Stolen Goggles",
+   "body": "Narain Soothfancy needs the scrying goggles before translating anything. They were stolen a while back by Stewvul, Narain's ex-best friend forever, who broke Narain's heart in five places and then abandoned Narain in this place.",
+   "spoiler": 0
+  },
+  {
+   "title": "Where to Look",
+   "body": "With the help of a trusty crystal ball, Narain has narrowed Stewvul's whereabouts to two places. One is the Greymane Wall in Silverpine. The other is a world beyond a portal. You are the one to track Stewvul down and get the goggles back.",
+   "spoiler": 0
+  },
+  {
+   "title": "What Stewvul Says",
+   "body": "Stewvul cannot believe Narain has found them. Stewvul will not go back, and is finished with being a friend only part of the time and a slave the rest.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Why does Narain need the scrying goggles?",
+   "aliases": [
+    "why need goggles",
+    "narain goggles purpose",
+    "scrying goggles use"
+   ],
+   "answer": "Narain says nothing can be translated without them."
+  },
+  {
+   "q": "Who is Stewvul?",
+   "aliases": [
+    "who is stewvul",
+    "stewvul lore",
+    "narain friend"
+   ],
+   "answer": "Stewvul is Narain Soothfancy's ex-best friend forever. Stewvul stole the scrying goggles, broke Narain's heart in five places and then abandoned Narain here."
+  },
+  {
+   "q": "Where does Narain think Stewvul is?",
+   "aliases": [
+    "where is stewvul",
+    "stewvul locations",
+    "greymane wall"
+   ],
+   "answer": "Narain's crystal ball narrows it to two places: the Greymane Wall in Silverpine, or a distant portal world."
+  },
+  {
+   "q": "What comes before this?",
+   "aliases": [
+    "previous quest",
+    "prereq",
+    "what leads to this"
+   ],
+   "answer": "Translating the Ledger, where you brought Azuregos's ledger to Narain."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "greymane wall",
+  "inconspicuous crate",
+  "ledger",
+  "narain soothfancy",
+  "scrying goggles",
+  "silverpine",
+  "stewvul",
+  "tanaris"
+ ],
+ "related": [
+  "npc:narain-soothfancy",
+  "quest:8576",
+  "subzone:greymane-wall",
+  "zone:tanaris"
+ ],
+ "attribution": [
+  "Stewvul, Ex-B.F.F."
+ ]
+}

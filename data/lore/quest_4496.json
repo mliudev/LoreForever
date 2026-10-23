@@ -1,0 +1,98 @@
+{
+ "key": "quest:4496",
+ "type": "quest",
+ "name": "Bungle in the Jungle",
+ "era": "classic",
+ "zone": "tanaris",
+ "meta": {
+  "ids": [
+   4496
+  ],
+  "level": "53",
+  "faction": null,
+  "start": "Alchemist Pestlezugg",
+  "end": "Alchemist Pestlezugg",
+  "previous": "",
+  "next": "Pawn Captures Queen",
+  "wiki": "Bungle in the Jungle",
+  "chain": [],
+  "next_q": [
+   "Pawn Captures Queen"
+  ],
+  "category": "Tanaris",
+  "chain_tpl": [
+   "Rise of the Silithid"
+  ]
+ },
+ "summary": "Alchemist Pestlezugg in Gadgetzan has studied the silithid and likens them to bees, with the queen as the weak point. A lure must draw her out, and it calls for a scent gland and soil from Un'Goro Crater, to the west.",
+ "sections": [
+  {
+   "title": "A Lure for the Queen",
+   "body": "Pestlezugg's research compares the silithid to bees. Destroy the hive's queen, and the rest should be thrown into disarray. A lure will be brewed to bring the queen out, and once she is summoned, you are the one to take her down.",
+   "spoiler": 0
+  },
+  {
+   "title": "Reagents from Un'Goro",
+   "body": "Before the lure can be brewed, Pestlezugg needs reagents. The silithid hive lies west in Un'Goro Crater, and a scent gland must come from one of the bugs there. The gland cannot be damaged. Pestlezugg also needs five samples of the native Un'Goro soil.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who asks for the scent gland and soil, and where?",
+   "aliases": [
+    "who gives bungle in the jungle",
+    "where is pestlezugg",
+    "bungle in the jungle questgiver"
+   ],
+   "answer": "Alchemist Pestlezugg, in Gadgetzan."
+  },
+  {
+   "q": "What does Pestlezugg need for the lure?",
+   "aliases": [
+    "bungle in the jungle items",
+    "what reagents does pestlezugg need",
+    "scent gland and soil"
+   ],
+   "answer": "One undamaged Gorishi scent gland, taken from one of the silithid bugs, and five samples of the native Un'Goro soil."
+  },
+  {
+   "q": "Where is the silithid hive?",
+   "aliases": [
+    "where to find gorishi scent gland",
+    "where is the silithid hive",
+    "where is un'goro soil found"
+   ],
+   "answer": "In Un'Goro Crater, to the west of Gadgetzan."
+  },
+  {
+   "q": "Why does Pestlezugg want to bring out the hive queen?",
+   "aliases": [
+    "why kill the queen",
+    "pestlezugg plan",
+    "silithid bee theory"
+   ],
+   "answer": "Pestlezugg's research compares the silithid to bees, so with their queen gone the rest should fall into disarray."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "gadgetzan",
+  "gorishi",
+  "pestlezugg",
+  "scent gland",
+  "silithid",
+  "tanaris",
+  "un'goro crater",
+  "un'goro soil"
+ ],
+ "related": [
+  "quest:4507",
+  "subzone:gadgetzan",
+  "zone:ungoro",
+  "zone:tanaris"
+ ],
+ "attribution": [
+  "Bungle in the Jungle"
+ ]
+}

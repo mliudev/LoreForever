@@ -10,13 +10,13 @@
  "summary": "Fenris Keep is an isolated stone fortress situated atop Fenris Isle in the heart of Lordamere Lake. Once a strategic stronghold housing Lordaeron troops, it has fallen into the hands of the Scourge under the rogue mage Thule Ravenclaw.",
  "sections": [
   {
-   "title": "A Fallen Bastion of Lordaeron",
-   "body": "Before the Third War, Fenris Keep held strategic importance for the Kingdom of Lordaeron, stationing a sizable contingent of troops to safeguard Lordamere Lake. When the undead Scourge swept across the land, the island fortress was overwhelmed along with the rest of the realm. Rather than crumbling into forgotten ruin, it was seized by Thule Ravenclaw, a traitorous former wizard of the Kirin Tor. Ravenclaw allied himself with the Scourge, subjugated the resident gnolls with foul necromancy to create the ravenous Rot Hide pack, and entrenched himself deep inside the keep's stone halls.",
-   "spoiler": 0
-  },
-  {
    "title": "The Scourge on Lordamere",
    "body": "Today, Fenris Keep serves as the seat of Ravenclaw's power and an imminent threat to the Forsaken securing Silverpine Forest. From this bastion, Thule directs legions of Rot Hide gnolls that violently assail anyone daring to set foot on the isle. Because Fenris Isle sits mere miles across the water from the Tirisfal border, the Forsaken of the Sepulcher and Undercity actively dispatch champions to batter down the keep's defenses and put an end to the rogue necromancer.",
+   "spoiler": 1
+  },
+  {
+   "title": "A Fallen Bastion of Lordaeron",
+   "body": "Before the Third War, Fenris Keep held strategic importance for the Kingdom of Lordaeron, stationing a sizable contingent of troops to safeguard Lordamere Lake. When the undead Scourge swept across the land, the island fortress was overwhelmed along with the rest of the realm. Rather than crumbling into forgotten ruin, it was seized by Thule Ravenclaw, a traitorous former wizard of the Kirin Tor. Ravenclaw allied himself with the Scourge, subjugated the resident gnolls with foul necromancy to create the ravenous Rot Hide pack, and entrenched himself deep inside the keep's stone halls.",
    "spoiler": 1
   }
  ],

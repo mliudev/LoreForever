@@ -15,6 +15,7 @@ import { isReportRead } from "./report-read.js";
 
 import { sendOnce, optedOut, UNSUBSCRIBE_URL } from "./email.js";
 import { setupCancellations } from "./cancellations.js";
+import { createMissing } from "./schema.js";
 
 export const FROM_PATRICK = "Patrick from Lore Forever <patrick@loreforeverwow.com>";
 export const REPLY_PATRICK = "patrick@loreforeverwow.com";
@@ -38,7 +39,7 @@ export function setupWinback(env) {
   if (isReportRead(env)) return;
   if (!ready.has(env.DB)) ready.set(env.DB, (async () => {
     await setupCancellations(env);
-    await env.DB.batch(SETUP.map(s => env.DB.prepare(s)));
+    await createMissing(env, SETUP);
   })().catch(e => { ready.delete(env.DB); throw e; }));
   return ready.get(env.DB);
 }

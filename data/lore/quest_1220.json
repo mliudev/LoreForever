@@ -1,0 +1,78 @@
+{
+ "key": "quest:1220",
+ "type": "quest",
+ "name": "Captain Vimes",
+ "era": "classic",
+ "zone": "dustwallow",
+ "meta": {
+  "ids": [
+   1220
+  ],
+  "level": "35",
+  "faction": "Alliance",
+  "start": "Lieutenant Aden",
+  "end": "Captain Garran Vimes",
+  "previous": "",
+  "next": "",
+  "wiki": "Captain Vimes",
+  "chain": [
+   "The Orc Report",
+   "Captain Vimes"
+  ],
+  "category": "Dustwallow Marsh"
+ },
+ "summary": "Lieutenant Aden sends you with the orc report you found to Captain Garran Vimes, who reads orcish better than most. News of Horde spies near Theramore is to go with it.",
+ "sections": [
+  {
+   "title": "A Report for the Captain",
+   "body": "Lieutenant Aden thinks the orc report you found belongs in the hands of Captain Garran Vimes, who reads orcish better than most. Aden also wants the captain told that Horde spies are lurking close to Theramore. You will find Vimes at the barracks on Theramore Isle's northeastern side.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who sends you to Captain Vimes?",
+   "aliases": [
+    "who starts captain vimes",
+    "where do i get captain vimes"
+   ],
+   "answer": "Lieutenant Aden, who wants the captain to see the orc report you found."
+  },
+  {
+   "q": "Where is Captain Garran Vimes located?",
+   "aliases": [
+    "where is captain vimes",
+    "captain vimes location",
+    "vimes barracks"
+   ],
+   "answer": "At the barracks, on Theramore Isle's northeastern side."
+  },
+  {
+   "q": "Why does Captain Vimes need to see the report?",
+   "aliases": [
+    "why captain vimes",
+    "why does vimes need the report"
+   ],
+   "answer": "Aden says Vimes reads orcish better than most, and should hear that Horde spies are close to Theramore."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "captain vimes",
+  "dustwallow marsh",
+  "garran vimes",
+  "lieutenant aden",
+  "orc report",
+  "spy's report",
+  "theramore",
+  "theramore isle"
+ ],
+ "related": [
+  "subzone:theramore-isle",
+  "zone:dustwallow",
+  "topic:horde"
+ ],
+ "attribution": [
+  "Captain Vimes"
+ ]
+}

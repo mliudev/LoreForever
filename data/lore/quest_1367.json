@@ -1,0 +1,101 @@
+{
+ "key": "quest:1367",
+ "type": "quest",
+ "name": "Magram Alliance",
+ "era": "classic",
+ "zone": "desolace",
+ "meta": {
+  "ids": [
+   1367
+  ],
+  "level": "33",
+  "faction": "Horde",
+  "start": "Gurda Wildmane",
+  "end": "Warug",
+  "previous": "",
+  "next": "Broken Tears (quest)",
+  "wiki": "Magram Alliance",
+  "chain": [],
+  "next_q": [
+   "Broken Tears (quest)"
+  ],
+  "category": "Desolace",
+  "chain_tpl": [
+   "Magram Alliance"
+  ]
+ },
+ "summary": "Gurda Wildmane proposes turning the centaur clans' hatred against them: befriend one clan and use it to learn how all of them can be beaten. Siding with the Magram means slaying their enemies the Gelkis, then speaking with the Magram spokesman Warug at the edge of Magram Village, in the southeast of Desolace.",
+ "sections": [
+  {
+   "title": "Hatred as a Weapon",
+   "body": "Gurda Wildmane's plan is to exploit the centaurs' hatred of each other. A single clan is chosen as ally, and what it teaches shows how to defeat every clan. Choose the Magram and you cut down the Gelkis, their foes, which wins you respect among the Magram.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Spokesman",
+   "body": "Once you have earned enough respect, Warug, the Magram spokesman, is waiting on the outskirts of Magram Village in southeast Desolace. Before that he has nothing to say to you. The Magram have no words for the weak and kill them instead, so he sends you off to prove your strength against many Gelkis.",
+   "spoiler": 0
+  },
+  {
+   "title": "Warug's Judgment",
+   "body": "Warug tells you the Gelkis weep at the sound of your name, afraid of you and hating you as they hate the Magram. Maybe, he allows, you are as strong as the Magram. He will see.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who proposes an alliance with the Magram?",
+   "aliases": [
+    "who gives magram alliance",
+    "magram quest giver",
+    "gurda wildmane quest"
+   ],
+   "answer": "Gurda Wildmane, who wants to pit the centaur clans' hatred against them by allying with one clan and learning from it how to beat all of them."
+  },
+  {
+   "q": "How do you earn the respect of the Magram?",
+   "aliases": [
+    "how to get friendly with magram",
+    "magram reputation",
+    "make magram friendly"
+   ],
+   "answer": "By slaying their foes, the Gelkis."
+  },
+  {
+   "q": "Where is Warug?",
+   "aliases": [
+    "where is warug",
+    "find warug",
+    "warug location"
+   ],
+   "answer": "On the outskirts of Magram Village, in southeast Desolace. He is the Magram spokesman."
+  },
+  {
+   "q": "Why does Warug refuse to speak at first?",
+   "aliases": [
+    "why won't warug talk",
+    "warug angry",
+    "warug dialogue"
+   ],
+   "answer": "He says the Magram have no talk for the weak and kill them. First, prove your strength by slaying many Gelkis."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "centaur",
+  "desolace",
+  "gelkis",
+  "gurda wildmane",
+  "magram",
+  "magram village",
+  "warug"
+ ],
+ "related": [
+  "zone:desolace",
+  "subzone:magram-village",
+  "topic:centaur"
+ ],
+ "attribution": [
+  "Magram Alliance"
+ ]
+}

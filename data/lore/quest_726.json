@@ -1,0 +1,97 @@
+{
+ "key": "quest:726",
+ "type": "quest",
+ "name": "Passing Word of a Threat",
+ "era": "classic",
+ "zone": "badlands",
+ "meta": {
+  "ids": [
+   726
+  ],
+  "level": "40",
+  "faction": "Alliance",
+  "start": "Advisor Belgrum",
+  "end": "Historian Karnik",
+  "previous": "Passing Word of a Threat",
+  "next": "An Ambassador of Evil",
+  "wiki": "Passing Word of a Threat (2)",
+  "chain": [
+   "A Sign of Hope",
+   "A Sign of Hope (2)",
+   "Amulet of Secrets",
+   "Prospect of Faith",
+   "Prospect of Faith (2)"
+  ],
+  "prev_q": [
+   "Passing Word of a Threat"
+  ],
+  "next_q": [
+   "An Ambassador of Evil"
+  ],
+  "category": "Badlands",
+  "chain_tpl": [
+   "Passing Word of a Threat"
+  ]
+ },
+ "summary": "Advisor Belgrum has read Historian Karnik's note and sends you back to Karnik with a message spoken on the king's authority: act on what is known, swiftly and decisively, and halt the Shadowforge's doings in the Badlands.",
+ "sections": [
+  {
+   "title": "Belgrum's Answer",
+   "body": "Belgrum reads to the end of the note with widening eyes and calls the tidings evil. You are to return to Karnik and relay, on the king's authority, that the information must be acted on quickly and decisively. The Shadowforge's activities in the Badlands have to stop.",
+   "spoiler": 0
+  },
+  {
+   "title": "Karnik's Reply",
+   "body": "Karnik takes the urgency as the king's own and has a plan ready: the Shadowforge in Uldaman can be slowed by a blow against Angor Fortress, from which they run their operations.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who sends you back to Karnik?",
+   "aliases": [
+    "who gives the order",
+    "belgrum orders",
+    "royal authority badlands"
+   ],
+   "answer": "Advisor Belgrum, after reading Karnik's note. You carry a message on the king's authority to act swiftly and decisively."
+  },
+  {
+   "q": "What does Belgrum want done about the Shadowforge?",
+   "aliases": [
+    "what does belgrum want",
+    "shadowforge badlands order"
+   ],
+   "answer": "Belgrum wants Karnik to act quickly and firmly, and to put an end to what the Shadowforge are doing in the Badlands."
+  },
+  {
+   "q": "What came before this?",
+   "aliases": [
+    "previous step",
+    "quest before passing word of a threat",
+    "badlands lead up"
+   ],
+   "answer": "You brought Karnik's sealed note to Advisor Belgrum in the earlier Passing Word of a Threat, which followed the Prospect of Faith steps."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "angor fortress",
+  "badlands",
+  "belgrum",
+  "karnik",
+  "shadowforge",
+  "uldaman"
+ ],
+ "related": [
+  "quest:725",
+  "quest:762",
+  "zone:badlands",
+  "subzone:uldaman",
+  "quest:723",
+  "quest:720"
+ ],
+ "attribution": [
+  "Passing Word of a Threat (2)"
+ ]
+}

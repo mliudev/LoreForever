@@ -1,0 +1,89 @@
+{
+ "key": "quest:1878",
+ "type": "quest",
+ "name": "Water Pouch Bounty",
+ "era": "classic",
+ "zone": "tanaris",
+ "meta": {
+  "ids": [
+   1878
+  ],
+  "level": "44",
+  "faction": "Neutral",
+  "start": "Spigot Operator Luglunket",
+  "end": "Spigot Operator Luglunket",
+  "previous": "Water Pouch Bounty",
+  "next": "",
+  "wiki": "Water Pouch Bounty (2)",
+  "chain": [],
+  "prev_q": [
+   "Water Pouch Bounty"
+  ],
+  "repeatable": "Yes",
+  "category": "Tanaris"
+ },
+ "summary": "Spigot Operator Luglunket greets you again, hoping you carry five more Wastewander water pouches, and keeping a care package ready.",
+ "sections": [
+  {
+   "title": "Back Again",
+   "body": "After Water Pouch Bounty, Luglunket welcomes you back and asks whether five more Wastewander water pouches are in your pack. If so, a care package is already set aside with your name on it.",
+   "spoiler": 0
+  },
+  {
+   "title": "Keep Them Coming",
+   "body": "Luglunket is pleased with the pouches reclaimed, since each one keeps everyone further from disaster. Luglunket promises to make it worth your while for every five pouches you bring.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is offering this bounty?",
+   "aliases": [
+    "who gives water pouch bounty",
+    "luglunket quest",
+    "who takes water pouches"
+   ],
+   "answer": "Luglunket, the spigot operator in Gadgetzan."
+  },
+  {
+   "q": "How many water pouches are needed?",
+   "aliases": [
+    "how many pouches",
+    "water pouch count",
+    "pouches per turn in"
+   ],
+   "answer": "Five Wastewander water pouches, the same as before."
+  },
+  {
+   "q": "What does Luglunket have ready?",
+   "aliases": [
+    "what is the care package",
+    "what do i get"
+   ],
+   "answer": "A care package, held for you by name."
+  },
+  {
+   "q": "What comes before this step?",
+   "aliases": [
+    "previous quest",
+    "what do i do first"
+   ],
+   "answer": "It follows the earlier Water Pouch Bounty, in which you first brought pouches to Luglunket."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "care package",
+  "spigot operator luglunket",
+  "tanaris",
+  "wastewander water pouch",
+  "water pouch bounty"
+ ],
+ "related": [
+  "quest:1707",
+  "zone:tanaris"
+ ],
+ "attribution": [
+  "Water Pouch Bounty (2)"
+ ]
+}

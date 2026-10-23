@@ -1,0 +1,104 @@
+{
+ "key": "quest:1425",
+ "type": "quest",
+ "name": "Deliver the Shipment",
+ "era": "classic",
+ "zone": "swampofsorrows",
+ "meta": {
+  "ids": [
+   1425
+  ],
+  "level": "42",
+  "faction": "Alliance",
+  "start": "Watcher Biggs",
+  "end": "Quartermaster Lungertz",
+  "previous": "Driftwood (quest)",
+  "next": "",
+  "wiki": "Deliver the Shipment",
+  "chain": [],
+  "prev_q": [
+   "Driftwood (quest)"
+  ],
+  "category": "Swamp of Sorrows",
+  "chain_tpl": [
+   "Help Watcher Biggs"
+  ]
+ },
+ "summary": "After Driftwood, Watcher Biggs has one last job for you while the wagon is being repaired. Biggs has packed up the key supplies rescued from the ogre attacks and wants you to carry them to Quartermaster Lungertz at Nethergarde Keep.",
+ "sections": [
+  {
+   "title": "A Last Delivery for Biggs",
+   "body": "While Biggs repairs the wagon, the key supplies rescued from the ogre attacks have been packed up for you to carry to Nethergarde Keep. The keep stands in the Blasted Lands' northern hills, watching over the Dark Portal. Biggs gives the route: follow the road east, head south into the Blasted Lands where it branches, and turn left at the next fork, with a warning to be wary.",
+   "spoiler": 0
+  },
+  {
+   "title": "At Nethergarde",
+   "body": "Quartermaster Lungertz is startled to receive a package from Biggs' caravan, since the keep had given up the caravan and Biggs for lost. Lungertz thanks you and hopes the supplies hold Azoran Crystals, a much-needed reagent whose stock at the keep is running low.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who sends the shipment to Nethergarde?",
+   "aliases": [
+    "who gives deliver the shipment",
+    "deliver the shipment quest giver",
+    "watcher biggs delivery"
+   ],
+   "answer": "Watcher Biggs, who stays to repair the wagon, packed up key supplies rescued from the ogre attacks."
+  },
+  {
+   "q": "Where does this shipment need to go?",
+   "aliases": [
+    "where is nethergarde keep",
+    "how to get to nethergarde",
+    "quartermaster lungertz location"
+   ],
+   "answer": "It goes to Quartermaster Lungertz at Nethergarde Keep, in the Blasted Lands' northern hills."
+  },
+  {
+   "q": "What comes directly before this delivery?",
+   "aliases": [
+    "deliver the shipment prerequisite",
+    "what quest comes before deliver the shipment"
+   ],
+   "answer": "It follows Driftwood."
+  },
+  {
+   "q": "What route leads from the swamp to the keep?",
+   "aliases": [
+    "directions to nethergarde keep",
+    "path to blasted lands"
+   ],
+   "answer": "Follow the road east, turn south into the Blasted Lands where the road branches, then take the left at the next fork."
+  },
+  {
+   "q": "What is Nethergarde Keep watching over?",
+   "aliases": [
+    "purpose of nethergarde keep",
+    "why is nethergarde in blasted lands"
+   ],
+   "answer": "It keeps watch over the Dark Portal."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "azoran crystals",
+  "blasted lands",
+  "dark portal",
+  "nethergarde keep",
+  "quartermaster lungertz",
+  "shipment",
+  "swamp of sorrows",
+  "watcher biggs"
+ ],
+ "related": [
+  "subzone:nethergarde-keep",
+  "zone:blastedlands",
+  "zone:swampofsorrows",
+  "subzone:dark-portal"
+ ],
+ "attribution": [
+  "Deliver the Shipment"
+ ]
+}

@@ -10,6 +10,10 @@
 import { fail, noStore, sameOrigin } from "../../../lib/accounts.js";
 import { editorFor, fromInput, getOne, getRevision, listAll, remove, revisions, save } from "../../../lib/guides-cms.js";
 import { articleBody, loadIndex, privateGuideResponse } from "../../../lib/guides.js";
+import { dropEdgeCached } from "../../../lib/edge-cache.js";
+
+// The pages a save or delete changes, forgotten in the editor's data center so they see it at once (lib/edge-cache.js).
+const fresh = (env, request, slug) => dropEdgeCached(env, request, ["/guides", "/guides/" + slug]);
 
 async function get({ request, env }) {
   const who = await editorFor(env, request);
@@ -39,10 +43,12 @@ async function post({ request, env }) {
   }
   if (input?.action === "save") {
     const out = await save(env, request, who.user, input);
+    if (!out.error) await fresh(env, request, out.article?.slug || String(input.slug || ""));
     return out.error ? fail(out.status, out.error) : Response.json({ ok: true, article: out.article }, { headers: noStore });
   }
   if (input?.action === "delete") {
     const out = await remove(env, request, who.user, String(input.slug || ""));
+    if (!out.error) await fresh(env, request, String(input.slug || ""));
     return out.error ? fail(out.status, out.error) : Response.json({ ok: true }, { headers: noStore });
   }
   return fail(400, "Unknown action.");

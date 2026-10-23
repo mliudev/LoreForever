@@ -1,0 +1,72 @@
+{
+ "key": "quest:2876",
+ "type": "quest",
+ "name": "Ship Schedules",
+ "era": "classic",
+ "zone": "tanaris",
+ "meta": {
+  "ids": [
+   2876
+  ],
+  "level": "45",
+  "faction": null,
+  "start": "Ship Schedule",
+  "end": "Security Chief Bilgewhizzle",
+  "previous": "",
+  "next": "",
+  "wiki": "Ship Schedules",
+  "chain": [],
+  "category": "Tanaris"
+ },
+ "summary": "A scroll records ships sailing between Steamwheedle Port and Booty Bay, with marks beside some voyages. It belongs in the hands of an authority at Steamwheedle Port.",
+ "sections": [
+  {
+   "title": "The Scroll",
+   "body": "The scroll lists the shipments that sail between Steamwheedle Port and Booty Bay, those already made and those to come, along with the ships' names. Some journeys are marked with a large X, and others carry notes about plunder to be had or a hard fight. It is meant for someone in authority at Steamwheedle Port.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Port's Reaction",
+   "body": "Security Chief Bilgewhizzle finds the dates and times on the schedule accurate, and fears what a pirate captain could do with it. On hearing that you took it from a pirate, Bilgewhizzle calls that disturbing news, thanks you, and is glad the pirate is dead.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is written on the schedule?",
+   "aliases": [
+    "what does the ship schedule say",
+    "ship schedule text",
+    "shipment notes"
+   ],
+   "answer": "Ship names and the timings of voyages between Steamwheedle Port and Booty Bay, past and future, with large X marks beside some journeys and notes about plunder or a hard fight beside others."
+  },
+  {
+   "q": "Who needs to see this document?",
+   "aliases": [
+    "who do i give the schedule to",
+    "ship schedules turn in",
+    "where does the schedule go"
+   ],
+   "answer": "Someone in authority at Steamwheedle Port. Security Chief Bilgewhizzle is the one who takes it."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "bilgewhizzle",
+  "booty bay",
+  "pirates",
+  "ship schedules",
+  "steamwheedle port",
+  "tanaris"
+ ],
+ "related": [
+  "subzone:steamwheedle-port",
+  "subzone:booty-bay",
+  "topic:pirate",
+  "zone:tanaris"
+ ],
+ "attribution": [
+  "Ship Schedules"
+ ]
+}

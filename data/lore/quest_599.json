@@ -1,0 +1,98 @@
+{
+ "key": "quest:599",
+ "type": "quest",
+ "name": "The Bloodsail Buccaneers",
+ "era": "classic",
+ "zone": "stranglethorn",
+ "meta": {
+  "ids": [
+   599
+  ],
+  "level": "41",
+  "faction": null,
+  "start": "First Mate Crazz",
+  "end": "Fleet Master Seahorn",
+  "previous": "The Bloodsail Buccaneers (2)",
+  "next": "The Bloodsail Buccaneers (4)",
+  "wiki": "The Bloodsail Buccaneers (3)",
+  "chain": [],
+  "prev_q": [
+   "The Bloodsail Buccaneers (2)"
+  ],
+  "next_q": [
+   "The Bloodsail Buccaneers (4)"
+  ],
+  "category": "Stranglethorn Vale",
+  "chain_tpl": [
+   "Bloodsail Buccaneers"
+  ]
+ },
+ "summary": "First Mate Crazz has learned that the Bloodsail Buccaneers intend to launch an assault against Booty Bay. The scale of the threat demands the attention of the Blackwater Raiders' commander, Fleet Master Seahorn, who needs to hear the warning immediately.",
+ "sections": [
+  {
+   "title": "A Warning for the Fleet Master",
+   "body": "Upon discovering that the Bloodsail Buccaneers scheme to strike Booty Bay directly, First Mate Crazz decides it is bigger than he thought. He directs you to seek out Fleet Master Seahorn, who is somewhere in the port town, and inform him of the brewing assault before the rival pirates can make their move.",
+   "spoiler": 0
+  },
+  {
+   "title": "Seahorn's Defiance",
+   "body": "When presented with the report of the planned strike, Fleet Master Seahorn scoffs at the rival pirates' ambition, declaring an attack on Booty Bay as foolish as leaping from the Overlook Cliffs. Even so, he acknowledges the value of the intelligence and thanks you on behalf of the Blackwater Raiders.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who sends you to warn Fleet Master Seahorn?",
+   "aliases": [
+    "who starts this quest",
+    "first mate crazz quest",
+    "bloodsail buccaneers quest giver"
+   ],
+   "answer": "First Mate Crazz sends you to warn Seahorn after learning the extent of the Bloodsail Buccaneers' hostile plans against the port."
+  },
+  {
+   "q": "Where can Fleet Master Seahorn be found?",
+   "aliases": [
+    "where is seahorn",
+    "seahorn location",
+    "fleet master seahorn town"
+   ],
+   "answer": "Fleet Master Seahorn is stationed within the pirate haven of Booty Bay in southern Stranglethorn Vale."
+  },
+  {
+   "q": "What is the Bloodsail Buccaneers' scheme?",
+   "aliases": [
+    "what are bloodsail doing",
+    "bloodsail attack plan",
+    "bloodsail buccaneers plot"
+   ],
+   "answer": "The Bloodsail Buccaneers are preparing an outright attack against Booty Bay, challenging the Blackwater Raiders' rule over the town."
+  },
+  {
+   "q": "Which faction controls Booty Bay?",
+   "aliases": [
+    "who runs booty bay",
+    "booty bay pirates faction"
+   ],
+   "answer": "Booty Bay is held and operated by the Blackwater Raiders, who fiercely protect the port from their Bloodsail rivals."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "blackwater raiders",
+  "bloodsail bucaneers",
+  "booty bay",
+  "first mate crazz",
+  "fleet master seahorn",
+  "stranglethorn vale"
+ ],
+ "related": [
+  "npc:fleet-master-seahorn",
+  "subzone:booty-bay",
+  "zone:stranglethorn",
+  "quest:595"
+ ],
+ "attribution": [
+  "The Bloodsail Buccaneers (3)"
+ ]
+}

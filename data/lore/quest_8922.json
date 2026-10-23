@@ -1,0 +1,102 @@
+{
+ "key": "quest:8922",
+ "type": "quest",
+ "name": "A Supernatural Device",
+ "era": "classic",
+ "zone": "tanaris",
+ "meta": {
+  "ids": [
+   8922
+  ],
+  "level": "60",
+  "faction": "Alliance",
+  "start": "Deliana",
+  "end": "Mux Manascrambler",
+  "previous": "",
+  "next": "The Ectoplasmic Distiller",
+  "wiki": "A Supernatural Device (Alliance)",
+  "chain": [],
+  "next_q": [
+   "The Ectoplasmic Distiller"
+  ],
+  "category": "Ironforge",
+  "chain_tpl": [
+   "Tier 0.5 quests"
+  ]
+ },
+ "summary": "Deliana is looking for a way to speak with the ghost of Anthion Harmon. An engineer with a peculiar fascination for the supernatural says he can build a machine for talking to the dead, and you bring him the blood you collected, in Gadgetzan, as his payment.",
+ "sections": [
+  {
+   "title": "Payment for an Engineer",
+   "body": "Deliana is searching for a way to reach Anthion Harmon, or more exactly his ghost. The engineer Deliana has in mind is Mux Manascrambler, who boasts of a machine for conversing with the dead. That blood of yours was meant for him from the start, so carry it to Gadgetzan in Tanaris and give it to Mux in exchange for his services.",
+   "spoiler": 0
+  },
+  {
+   "title": "A Welcome Delivery",
+   "body": "Mux is pleased to receive the blood, since he was running low. He then asks you whether Deliana sent you.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Why does Deliana send you to Gadgetzan?",
+   "aliases": [
+    "why go to gadgetzan",
+    "deliana gadgetzan",
+    "supernatural device purpose"
+   ],
+   "answer": "Deliana wants to speak with the ghost of Anthion Harmon. An engineer in Gadgetzan claims he can build a machine to speak with the dead, so you bring him his payment."
+  },
+  {
+   "q": "What is inside the container being delivered?",
+   "aliases": [
+    "what is in the container",
+    "sealed venom container",
+    "what blood is this"
+   ],
+   "answer": "It is a sealed container of the blood you collected, intended as payment for the engineer's services."
+  },
+  {
+   "q": "Who receives the delivery in Gadgetzan?",
+   "aliases": [
+    "who gets the container",
+    "gadgetzan contact",
+    "who is mux manascrambler"
+   ],
+   "answer": "Mux Manascrambler, the engineer in Gadgetzan with a peculiar fascination for the supernatural."
+  },
+  {
+   "q": "What follows this delivery?",
+   "aliases": [
+    "what happens next",
+    "next quest",
+    "after a supernatural device"
+   ],
+   "answer": "The Ectoplasmic Distiller follows."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Alliance",
+   "text": "Deliana sends Alliance adventurers to Mux Manascrambler in Gadgetzan."
+  }
+ ],
+ "keywords": [
+  "anthion harmon",
+  "deliana",
+  "gadgetzan",
+  "mux manascrambler",
+  "sealed venom container",
+  "supernatural device",
+  "tanaris"
+ ],
+ "related": [
+  "npc:mux-manascrambler",
+  "subzone:gadgetzan",
+  "quest:8921",
+  "zone:tanaris"
+ ],
+ "attribution": [
+  "A Supernatural Device (Alliance)"
+ ]
+}

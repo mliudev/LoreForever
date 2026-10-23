@@ -1,0 +1,122 @@
+{
+ "key": "quest:3128",
+ "type": "quest",
+ "name": "Natural Materials",
+ "era": "classic",
+ "zone": "feralas",
+ "meta": {
+  "ids": [
+   3128
+  ],
+  "level": "50",
+  "faction": "Horde",
+  "start": "Witch Doctor Uzer'i",
+  "end": "Witch Doctor Uzer'i",
+  "previous": "Return to Witch Doctor Uzer'i",
+  "next": "Weapons of Spirit",
+  "wiki": "Natural Materials",
+  "chain": [],
+  "prev_q": [
+   "Return to Witch Doctor Uzer'i"
+  ],
+  "category": "Feralas",
+  "chain_tpl": [
+   "Muiseks in Feralas"
+  ],
+  "next_q": [
+   "Weapons of Spirit"
+  ]
+ },
+ "summary": "Witch Doctor Uzer'i in Camp Mojache needs materials to complete an endeavor, to be gathered alongside the other trials: splintered logs, encrusted minerals, resilient sinew and metallic fragments, taken from treants, mountain giants, faerie dragons, owlbeasts and hippogryphs.",
+ "sections": [
+  {
+   "title": "Gathering for the Witch Doctor",
+   "body": "After you return to Witch Doctor Uzer'i, a further list of materials awaits, to be collected alongside the other trials. Two splintered logs are needed from a Feralas treant. Six pieces of encrusted minerals are found on mountain giants and faerie dragons, westward. Twenty pieces of resilient sinew come from owlbeasts in the Hinterlands or hippogryphs in Feralas. A large amount of metallic fragments, forty in all, can come from any of these creatures.",
+   "spoiler": 0
+  },
+  {
+   "title": "Uzer'i's Verdict",
+   "body": "When the materials are brought back, Uzer'i is pleased. Joined with the muisek, they should yield just the results that have been wanted.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who requests these natural materials?",
+   "aliases": [
+    "who gives natural materials",
+    "natural materials quest giver",
+    "where to start natural materials"
+   ],
+   "answer": "Witch Doctor Uzer'i in Camp Mojache."
+  },
+  {
+   "q": "What creatures hold the splintered logs?",
+   "aliases": [
+    "where to get splintered logs",
+    "who drops splintered log",
+    "splintered log source"
+   ],
+   "answer": "A treant of Feralas; two splintered logs are needed."
+  },
+  {
+   "q": "Where can encrusted minerals be gathered?",
+   "aliases": [
+    "how to get encrusted minerals",
+    "encrusted minerals source",
+    "who drops encrusted minerals"
+   ],
+   "answer": "Mountain giants and faerie dragons, westward, carry them; six are needed."
+  },
+  {
+   "q": "Which beasts provide the resilient sinew?",
+   "aliases": [
+    "resilient sinew drop",
+    "where to find resilient sinew",
+    "who has resilient sinew"
+   ],
+   "answer": "The owlbeasts of the Hinterlands, or the hippogryphs of Feralas; twenty pieces are needed."
+  },
+  {
+   "q": "Where do metallic fragments come from?",
+   "aliases": [
+    "metallic fragments source",
+    "how to get metallic fragments",
+    "who drops metallic fragments"
+   ],
+   "answer": "Forty come from any of the creatures named: treants, mountain giants, faerie dragons, owlbeasts and hippogryphs."
+  },
+  {
+   "q": "What came before this request?",
+   "aliases": [
+    "natural materials prerequisite",
+    "previous quest natural materials",
+    "what leads to natural materials"
+   ],
+   "answer": "This request follows Return to Witch Doctor Uzer'i."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "camp mojache",
+  "encrusted minerals",
+  "feralas",
+  "metallic fragments",
+  "muisek",
+  "natural materials",
+  "resilient sinew",
+  "splintered log",
+  "the hinterlands",
+  "witch doctor uzer'i"
+ ],
+ "related": [
+  "npc:witch-doctor-uzer-i",
+  "subzone:camp-mojache",
+  "zone:feralas",
+  "quest:3122",
+  "zone:hinterlands"
+ ],
+ "attribution": [
+  "Natural Materials"
+ ]
+}

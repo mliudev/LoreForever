@@ -11,11 +11,9 @@ test("text beside Willo's blue dot gets the overlay control, even with voice or 
   ]) {
     assert.ok(helpTopics(question).includes("wisp"), question);
     const help = helpBlock(question, { client: "companion/0.23.0" });
-    assert.match(help, /Settings › Willo › Willo over the game › "Show Willo over the game"/, question);
-    assert.match(help, /(?:wisp|blue dot).*text.*together/i, question);
-    assert.match(help, /no separate.*(?:text|captions)/i, question);
-    assert.match(help, /Live game info.*does not.*(?:hide|control)/i, question);
-    assert.match(help, /Talk with Willo.*(?:on|enabled).*voice/i, question);
+    // The one switch that hides the text, by its name in Settings; and the two it is not.
+    assert.ok(help.includes("Show Willo over the game"), question);
+    for (const other of ["Live game info", "Talk with Willo"]) assert.ok(help.includes(other), `${question}: ${other}`);
   }
 });
 

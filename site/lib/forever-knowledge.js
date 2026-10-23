@@ -18,7 +18,9 @@ import { LOOP_FACTS } from "./forever-loop-facts.js";
 import { DATA_VERSION } from "./knowledge-version.js";
 import { questFacts, questBlock, questChain } from "./forever-quest-facts.js";
 import { itemFacts, itemBlock } from "./forever-item-facts.js";
+import { spellFacts, spellBlock } from "./forever-spell-facts.js";
 import { placeFacts, placeBlock } from "./forever-place-facts.js";
+import { createMissing } from "./schema.js";
 
 // At most this much of FOREVER FACTS goes into an answer's system prompt (companion-answers.js counts it in its bound):
 // room for a travel question's two networks (boats, flights) and two docks and two flight points besides.
@@ -435,7 +437,7 @@ const factRow = (f, origin, now) => [f.id, f.title, f.text, f.zone || null, f.so
 export async function setupKnowledge(env) {
   if (isReportRead(env)) return;
   if (ready.get(env.DB)) return;
-  await env.DB.batch(SETUP.map(sql => env.DB.prepare(sql)));
+  await createMissing(env, SETUP);
   const state = await env.DB.prepare("SELECT (SELECT value FROM forever_meta WHERE key = 'seed') AS seed, " +
     "(SELECT COUNT(*) FROM forever_fts) AS indexed, " +
     "(SELECT COUNT(*) FROM forever_facts WHERE status = 'verified') AS verified").first();
@@ -658,16 +660,17 @@ const OWN = { "riding-trainers": ridingTrainerFor, "riding-mounts": ridingMounts
 const forPlayer = (facts, parts) => facts.map(f => (OWN[f.id]?.(parts.race) ? { ...f, text: OWN[f.id](parts.race) } : f));
 
 export async function knowledgeFor(env, parts, { character = false, dataVersion = "" } = {}) {
-  // The Forever facts' search goes out first; quest, NPC, item, town and road facts need no database
-  // (lib/forever-quest-facts.js, lib/forever-item-facts.js, lib/forever-place-facts.js), so they're found while it's
-  // out (an isolate's first item lookup reads its data, about 60 ms), and they come even when D1 fails.
+  // The Forever facts' search goes out first; quest, NPC, item, spell, town and road facts need no database
+  // (lib/forever-quest-facts.js, lib/forever-item-facts.js, lib/forever-spell-facts.js, lib/forever-place-facts.js), so
+  // they're found while it's out (an isolate's first item lookup reads its data, about 60 ms), and they come even when
+  // D1 fails.
   parts = character ? parts : meant(parts);
   const asked = followUp(parts) ? { ...parts, question: `${parts.question} ${parts.previousQuestion}` } : parts;
   const searched = (async () => {
     await setupKnowledge(env);
     return searchFacts(env, asked, FACTS_PER_ANSWER, { character });
   })();
-  let quest = [], item = [], place = [];
+  let quest = [], item = [], spell = [], place = [];
   try {
     quest = questFacts(parts, { character });
   } catch (e) {
@@ -688,11 +691,16 @@ export async function knowledgeFor(env, parts, { character = false, dataVersion 
     console.warn(`item facts: ${e?.message || e}`);
   }
   try {
+    spell = spellFacts(parts, { character, claimed: item.map(f => f.title) });
+  } catch (e) {
+    console.warn(`spell facts: ${e?.message || e}`);
+  }
+  try {
     place = placeFacts(parts, { character, npcZones: quest.map(f => f.zone).filter(Boolean) });
   } catch (e) {
     console.warn(`place facts: ${e?.message || e}`);
   }
-  const local = [questBlock(quest), itemBlock(item), placeBlock(place)];
+  const local = [questBlock(quest), itemBlock(item), spellBlock(spell), placeBlock(place)];
   // The way worked out (TOWN AND ROAD FACTS: "The way to Orgrimmar"), from Forever's own ships, zeppelins, tram and
   // flights: the lists of every ship and flight point beside it only tempt another leg (the vision check, 10/19: from
   // Bloodhoof to Orgrimmar she added "the airship from Skywatcher Plateau to Zephras Isle", which the way doesn't take).
@@ -706,9 +714,9 @@ export async function knowledgeFor(env, parts, { character = false, dataVersion 
     const named = f => ride && asked.some(w => String(f.title || "").toLowerCase().includes(w));
     const facts = forPlayer(await searched, parts).filter(f => !routed || !/^(?:travel|flight)-/.test(f.id || "") || named(f));
     const block = factsBlock(facts, { character, olderData: olderData(dataVersion) });
-    return { facts: [...quest, ...item, ...place, ...facts], block: [...local, block].filter(Boolean).join("\n\n") };
+    return { facts: [...quest, ...item, ...spell, ...place, ...facts], block: [...local, block].filter(Boolean).join("\n\n") };
   } catch (e) {
     console.warn(`forever facts: ${e?.message || e}`);
-    return { facts: [...quest, ...item, ...place], block: local.filter(Boolean).join("\n\n") };
+    return { facts: [...quest, ...item, ...spell, ...place], block: local.filter(Boolean).join("\n\n") };
   }
 }

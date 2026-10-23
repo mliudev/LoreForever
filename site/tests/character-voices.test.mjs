@@ -20,7 +20,7 @@ import { startLink, decideLink, claimToken } from "../lib/devices.js";
 import { setupBilling, planFor, poolWindow, CHAMPION_CHARACTER_REPLIES, PLAN_VOICE, CHARACTER_MODEL, AZEROTH_VOICES }
   from "../lib/billing.js";
 import { CHARACTER_VOICES, characterVoices, voiceLabel, voicePhrase, refusal, hasAzeroth } from "../lib/character-voices.js";
-import { FISH_MICRO_PER_BYTE, MICRO_PER_CHAR, CHARACTER_FIRST_AUDIO_MS, PROVIDER_MS, AZEROTH_PICKS, AZEROTH_STUDIO, speakPiece }
+import { MICRO_PER_CHAR, CHARACTER_FIRST_AUDIO_MS, PROVIDER_MS, AZEROTH_PICKS, AZEROTH_STUDIO, speakPiece }
   from "../lib/companion-voice.js";
 
 import { d1, r2 } from "./helpers.mjs";
@@ -144,29 +144,6 @@ test("a character's reference without provenance naming our own design, a consen
   assert.doesNotMatch(run.stdout, /design-voice/);
 });
 
-test("a plan with a character count of its own: that many replies in their own voice, then Willo's studio voice", async () => {
-  const { user, speak, said } = await player("champ", "champion", OWN_COUNT);
-  await said(CHAMPION_CHARACTER_REPLIES - 1, "npc");
-  assert.equal(await speak("Mind the anvil, lad."), 200);
-  const [fish] = calls;
-  assert.equal(fish.provider, "fish");
-  assert.equal(fish.url, "https://openrouter.ai/api/v1/audio/speech");
-  assert.equal(fish.headers.Authorization, "Bearer or-test");
-  assert.deepEqual([fish.body.model, fish.body.input, fish.body.response_format, fish.body.provider],
-    ["fish-audio/s2.1-pro", "[gruff, warm] Mind the anvil, lad.", "mp3", { data_collection: "deny" }],
-    "the cues inline at the start, nothing else outside the words, never the free tier or data collection");
-  assert.deepEqual(fish.body.input_references, [
-    { type: "input_audio", input_audio: { data: "data:audio/wav;base64," + WAV.toString("base64") } },
-    { type: "text", text: DWARF.text }]);
-  const cost = Math.ceil(Buffer.byteLength("[gruff, warm] Mind the anvil, lad.") * FISH_MICRO_PER_BYTE);
-  assert.equal(env.DB.sqlite.prepare("SELECT voice_micro FROM answer_user_spend WHERE user_id = ?").get(user.id).voice_micro,
-    cost, "on the plan's month, toward its whole net");
-  assert.equal(await speak("And mind your fingers."), 200);
-  assert.equal(calls[1].provider, "deepinfra", "the month's character replies are said: Willo's studio voice");
-  assert.equal(await speak("Willo's own words.", "willo"), 200);
-  assert.equal(calls[2].provider, "deepinfra");
-});
-
 test("Champion's and Legend's characters share their finest replies; Hero's speak in Willo's finest voice", async () => {
   for (const plan of ["champion", "legend"]) {
     const paid = await player(plan, plan);
@@ -197,18 +174,6 @@ test("Fish failing or a missing reference: the character steps down to Willo's s
   assert.equal(await speak("An ogre speaks.", "ogre-male"), 200);
   assert.equal(calls.at(-1).provider, "inworld");
   assert.equal(best(), 1);
-});
-
-test("a plan with a character count of its own: Fish failing or a people without a voice of their own take none of the count", async () => {
-  const { speak } = await player("counted", "champion", OWN_COUNT);
-  failing.add("fish");
-  assert.equal(await speak("Nobody hears the dwarf."), 200);
-  assert.deepEqual(calls.map(c => c.provider), ["fish", "deepinfra"]);
-  failing.clear();
-  assert.equal(await speak("An ogre speaks.", "ogre-male"), 200);
-  assert.equal(calls.at(-1).provider, "deepinfra");
-  assert.equal(env.DB.sqlite.prepare("SELECT COALESCE(SUM(npc), 0) AS n FROM voice_replies").get().n, 0,
-    "a character Fish didn't say took none of the month's character replies, nor the ogre without a voice of its own");
 });
 
 // Once with a character count of its own (the npc column), once as Champion has them now, out of its finest replies (best).

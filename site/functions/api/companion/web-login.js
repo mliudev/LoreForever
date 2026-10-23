@@ -8,12 +8,13 @@ import { setup, fail, noStore } from "../../../lib/accounts.js";
 import { currentDevice } from "../../../lib/devices.js";
 import { perMinute, slowDown } from "../../../lib/ratelimit.js";
 import { issueWebLogin, safeNext, WEB_LOGIN_SECONDS } from "../../../lib/weblogin.js";
+import { isCompanion } from "../../../lib/client-version.js";
 
 const CLIENT = /^companion\/[\w.-]{1,24}$/;
 
 export async function onRequest({ request, env }) {
   if (!env.DB) return fail(503, "Accounts aren't set up yet.");
-  if (!CLIENT.test(request.headers.get("X-LF-Client") || "") || request.headers.get("Origin"))
+  if (!isCompanion(request.headers.get("X-LF-Client")) || request.headers.get("Origin"))
     return fail(403, "This is for the Lore Forever companion app.");
   if (request.method !== "POST") return fail(405, "Use POST.");
   await setup(env);

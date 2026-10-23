@@ -1,0 +1,99 @@
+{
+ "key": "quest:3443",
+ "type": "quest",
+ "name": "Forging the Shaft",
+ "era": "classic",
+ "zone": "searinggorge",
+ "meta": {
+  "ids": [
+   3443
+  ],
+  "level": "48",
+  "faction": null,
+  "start": "Kalaran Windblade",
+  "end": "Kalaran Windblade",
+  "previous": "The Flawless Flame",
+  "next": "The Flame's Casing",
+  "wiki": "Forging the Shaft",
+  "chain": [],
+  "prev_q": [
+   "The Flawless Flame"
+  ],
+  "next_q": [
+   "The Flame's Casing"
+  ],
+  "category": "Searing Gorge",
+  "chain_tpl": [
+   "Torch of Retribution"
+  ]
+ },
+ "summary": "After The Flawless Flame, Kalaran Windblade says that holding the flawless flame takes both a shaft and a casing, and the shaft must come first. The Dark Iron slavers and taskmasters of the cauldron use enchanted thorium weapons, and eight thorium plated daggers can be reforged into a shaft.",
+ "sections": [
+  {
+   "title": "Enchanted Alloy",
+   "body": "A shaft and a casing are both needed, Kalaran says, to hold the flawless flame. The slavers and taskmasters of the Dark Irons in the cauldron fight with enchanted thorium, a metal of great sturdiness. Kalaran can break eight of their thorium plated daggers down and reforge the alloy into a shaft.",
+   "spoiler": 0
+  },
+  {
+   "title": "A Sharp Tongue",
+   "body": "When the daggers are delivered, Kalaran has no thanks to give, only jeering. You are called an exceptional laborer and asked whether you ever thought of a different vocation: detective, junk collector, or one of those silly gnomes who comb the beaches of Azeroth with metal-detecting contraptions, hunting lost treasure.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Why does Kalaran need thorium plated daggers?",
+   "aliases": [
+    "why daggers",
+    "thorium plated daggers purpose",
+    "why thorium daggers"
+   ],
+   "answer": "Kalaran Windblade can break their alloy down and reforge it into a shaft to help hold the flawless flame."
+  },
+  {
+   "q": "Who carries the required daggers?",
+   "aliases": [
+    "who drops the daggers",
+    "where are the daggers",
+    "who has thorium daggers"
+   ],
+   "answer": "Dark Iron slavers and taskmasters in the cauldron fight with weapons of enchanted thorium."
+  },
+  {
+   "q": "Where does this step fit into the chain?",
+   "aliases": [
+    "what quest comes before forging the shaft",
+    "quest chain position"
+   ],
+   "answer": "It follows The Flawless Flame, in which you gathered materials for the torch of flawless flame."
+  },
+  {
+   "q": "How many daggers are required?",
+   "aliases": [
+    "how many daggers",
+    "dagger count",
+    "how many thorium daggers"
+   ],
+   "answer": "Kalaran asks for eight thorium plated daggers."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "cauldron",
+  "dark iron slaver",
+  "dark iron taskmaster",
+  "flawless flame",
+  "kalaran windblade",
+  "searing gorge",
+  "thorium plated dagger"
+ ],
+ "related": [
+  "quest:3442",
+  "subzone:cauldron",
+  "zone:searinggorge",
+  "topic:gnome"
+ ],
+ "attribution": [
+  "Forging the Shaft"
+ ]
+}

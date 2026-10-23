@@ -5,7 +5,7 @@ import { mergeContacts } from "/admin-contacts.js";
 import { loadCreators } from "/admin-creators.js?v=20261021";
 import { loadSources } from "/admin-sources.js?v=20261019g";
 import { loadRetention } from "/admin-retention.js?v=20261019w";
-import { loadPlansUsage } from "/admin-plans.js?v=20261019q";
+import { loadPlansUsage } from "/admin-plans.js?v=20261021w";
 import { funnelStages } from "/admin-funnel.js";
 import { costsView, dollars, KIND_WORDS } from "/admin-costs.js";
 
@@ -109,6 +109,17 @@ function render() {
   $("t-stories").textContent = "$" + total.toFixed(total < 10 ? 4 : 2);
   $("t-stories-sub").textContent = `$${held.toFixed(2)} of $${st.budget} budget held · ` +
     `${an.calls} live answer calls ($${an.usd.toFixed(2)}) · ${st.written} stories · voice $${(st.voiceUsd || 0).toFixed(2)}`;
+  // The free pool (lib/free-pool.js poolReport): the month used of the pool, today's spend against its allowance (the
+  // soft step past it) and its stop, the month's pace, and the alerts raised this month.
+  const fp = data.pool;
+  const lastAlert = fp?.alerts?.at(-1);
+  $("t-pool").textContent = !fp ? "" : `Free pool: $${fp.usedUsd.toFixed(2)} of $${fp.poolUsd} this month ` +
+    `(${fp.poolUsd ? Math.round(100 * fp.usedUsd / fp.poolUsd) : 0}%) · today $${fp.todayUsd.toFixed(2)} of ` +
+    `$${fp.softUsd.toFixed(2)} (slice $${fp.sliceUsd} + carry), stop at $${fp.hardUsd.toFixed(2)}` +
+    (fp.soft ? " · SOFT STEP ON: free answers text-only, 5 a day" : "") +
+    ` · $${fp.perDayUsd.toFixed(2)} a day · ` + (fp.runsOut ? `pool gone by ${fp.runsOut} at this pace` : "lasts the month at this pace") +
+    (lastAlert ? ` · last alert: ${Math.round(lastAlert.share * 100)}% of the ${lastAlert.kind === "day" ? "day" : "month"}, ` +
+                 `${lastAlert.at.slice(0, 16).replace("T", " ")} UTC` : "");
 
   const pl = data.plans || { on: false, paying: 0, counts: [], monthlyUsd: 0, spend: { usd: 0, players: 0, calls: 0 } };
   $("t-plans").textContent = pl.paying.toLocaleString();

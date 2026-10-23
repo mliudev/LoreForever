@@ -776,6 +776,7 @@ function UI.Create(engine)
     b:SetPoint("BOTTOMRIGHT", f, "BOTTOMRIGHT", -36, 108 - i * 22)
     b:SetScript("OnClick", function(self)
       if self.live then UI.AskWillo(self.live, self.copy)
+      elseif self.everything then UI.TellEverything()
       elseif self.section then UI.ShowSection(self.key, self.idx)
       elseif self.key and self.idx then UI.ShowFaq(self.key, self.idx, self.via or "next")
       elseif self.key then UI.ShowEntry(self.key, self.via or "next") end
@@ -1095,11 +1096,28 @@ function UI.EntryTarget(key)
     return { id = key, key = key, label = e.n, text = e.s, story = key }
   end
   local parts = { e.n .. ".", e.s }
-  local open = UI.Unlocked(key)
-  for _, sec in ipairs(e.sec or {}) do
-    if (sec.sp or 0) == 0 or open then parts[#parts + 1] = sec.t .. ". " .. sec.b end
+  local done, all = ns.Context.Done(), settings().showSpoilers
+  local passages = {}
+  for i, sec in ipairs(e.sec or {}) do
+    if all or UI.engine:Opens(key, sec, done) then
+      parts[#parts + 1] = sec.t .. ". " .. sec.b
+      -- A hidden section you've reached plays after the story, from its own recording (lore.passages).
+      local pid = key .. "#section" .. i
+      if (sec.sp or 0) ~= 0 and ns.Voice.HasAudio(pid) then passages[#passages + 1] = { id = pid, text = sec.b } end
+    end
   end
-  return { id = key, key = key, label = e.n, text = table.concat(parts, " "), story = key }
+  return { id = key, key = key, label = e.n, text = table.concat(parts, " "), story = key,
+    passages = passages[1] and passages or nil }
+end
+
+-- The next opened passage of a story target (UI.EntryTarget) as a target of its own, or nil when none is left: the
+-- same story to the player (its id, label and Stop button), playing the passage's recording.
+local function nextPassage(target)
+  local list, i = target and target.passages, (target and target.passage or 0) + 1
+  local p = list and list[i]
+  if not p or not ns.Voice.CanPlay(p.id) then return nil end
+  return { id = target.id, key = p.id, label = target.label, text = p.text, story = target.story, passages = list,
+    passage = i, started = target.started }
 end
 
 -- A FAQ answer as something to play; the starting zones and capitals have these recorded ("zone:elwynn#faq2").
@@ -1119,7 +1137,7 @@ function UI.SpoilerAllowed(key, kind, idx)
   local item = e and ((kind == "faq" and e.faq and e.faq[idx]) or (kind == "section" and e.sec and e.sec[idx]))
   if not item then return false end
   if not item.sp or item.sp == 0 then return true end
-  if settings().showSpoilers or UI.Unlocked(key) then return true end
+  if settings().showSpoilers or UI.engine:Opens(key, item, ns.Context.Done()) then return true end
   local text = kind == "faq" and item.a or item.b
   for _, m in ipairs(UI.msgs or {}) do
     local shown = m.spoiler
@@ -1169,6 +1187,12 @@ local function watchPlayback(estimate)
     local elapsed = (GetTime and GetTime() or 0) - started
     if playing == false or (playing == nil and elapsed > estimate) or (not ns.Voice.transport and elapsed > limit) then
       local target = UI.activeTarget
+      -- A story with opened passages goes straight on to the next one, as one story (no gap, no playlist step).
+      local more = target and nextPassage(target)
+      if more then
+        UI.progress[target.key] = nil
+        if UI.StartPassage(more, target.fromPlaylist) then return end
+      end
       if target then
         UI.progress[target.key] = nil
         ns.Log.Use("done", ns.Log.NarrationKind(target.key))   -- heard to the end (LOR-413)
@@ -1459,6 +1483,11 @@ local function startTarget(target, fromPlaylist, keepProgress)
   if not keepProgress then UI.ReadAlong(target, fromPlaylist) end
   target.asked = nil
   return true
+end
+
+-- A story's next passage, right after its recording ends (watchPlayback): keeps the story's read-along and counts.
+function UI.StartPassage(target, fromPlaylist)
+  return startTarget(target, fromPlaylist, true)
 end
 
 -- A seek/rate change restarts an actual segment, keeping queue position and one read-along item.
@@ -2159,6 +2188,7 @@ function UI.SetNext(items, label)
     local it = items[i]
     if it then
       b.key, b.idx, b.via, b.section, b.live, b.copy = it.key, it.idx, it.via, it.section, it.live, it.copy
+      b.everything = it.everything
       local who = it.name and (GREY .. "  (" .. esc(it.name) .. ")|r") or ""
       b.text:SetText(WHITE .. esc(it.label or it.q) .. "|r" .. who)
       b:Show()
@@ -4544,8 +4574,8 @@ end
 
 -- Answers ----------------------------------------------------------------------------------------------------------
 
--- Whether entry `key` is a quest this character has finished, so its own spoiler answers and sections show without
--- asking. Spoilers that span several quests wait on progress tags (LOR-29).
+-- Whether entry `key` is a quest this character has finished. Spoilers open by Engine:Opens: a quest's own once it's
+-- finished, and any tagged with story beats once those are open (lore.beats; the progress tags LOR-29 asked for).
 function UI.Unlocked(key)
   return UI.engine:Finished(key, ns.Context.Done())
 end
@@ -4868,7 +4898,8 @@ end
 
 -- Spoilers: an answer or section marked as giving away a story isn't shown until you ask for it. Returns true if it
 -- gated (and posted a warning with a Reveal chip). Options > "Show spoilers without asking" turns this off, and a
--- quest's own spoilers open once you've finished it (UI.Unlocked).
+-- quest's own spoilers open once you've finished it, and any tagged with story beats once those are open
+-- (Engine:Opens).
 function UI.SpoilerGate(key, kind, idx)
   if UI.SpoilerAllowed(key, kind, idx) then return false end
   local e = UI.engine.db.entries[key]
@@ -4879,12 +4910,28 @@ function UI.SpoilerGate(key, kind, idx)
     .. string.format(L["Spoiler ahead: this answer reveals part of %s's story that you may not have reached yet."], esc(e.n)) .. "|r")
   local items = { { key = key, idx = idx, via = "reveal", section = kind == "section" or nil,
     label = L["Reveal it anyway (spoiler)"] } }
+  -- The first time something is held back, offer "Tell me everything" once (story as you play: safe by default).
+  local s = LoreForeverDB and LoreForeverDB.settings
+  if s and not s.spoilerOffer then
+    s.spoilerOffer = true
+    items[#items + 1] = { everything = true, label = L["Tell me everything from now on"] }
+  end
   for _, s in ipairs(followUps(key, nil)) do
     if #items >= N_NEXT then break end
     items[#items + 1] = s
   end
   UI.SetNext(items, L["Your call:"])
   return true
+end
+
+-- "Tell me everything from now on": the Options switch, from the chip the first held-back spoiler offers.
+function UI.TellEverything()
+  local s = LoreForeverDB and LoreForeverDB.settings
+  if not s then return end
+  s.showSpoilers = true
+  UI.AddMessage("note", GREY .. L["From now on you'll see and hear the whole story. Options > Tell me everything turns this off."] .. "|r")
+  UI.UpdateListen()
+  UI.SetNext(followUps(UI.engine.lastKey, nil))
 end
 
 function UI.ShowSection(key, idx)
@@ -5018,9 +5065,9 @@ function UI.ShowEntry(key, via, asked)
   UI.engine.lastKey = key
   local link, linked = UI.Linker(key)
   local parts = { WHITE .. link(esc(e.s)) .. "|r" }
-  local open = UI.Unlocked(key) or settings().showSpoilers
+  local all, done = settings().showSpoilers, ns.Context.Done()
   for i, sec in ipairs(e.sec or {}) do
-    if (sec.sp or 0) == 0 or open then
+    if all or UI.engine:Opens(key, sec, done) then
       parts[#parts + 1] = GOLD .. esc(sec.t) .. "|r\n" .. WHITE .. link(esc(sec.b)) .. "|r"
     else
       -- A hidden spoiler: its title, and a click to show it.

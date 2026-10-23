@@ -29,6 +29,7 @@ import { pageOf, allPages, savePage, undoPage, deletePage, allReminders, fireRem
 import { stockOf, goalsOf, goalChecks } from "../../../lib/willo-goals.js";
 import { planFor, plansOn } from "../../../lib/billing.js";
 import { trialFor } from "../../../lib/best-first.js";
+import { isCompanion } from "../../../lib/client-version.js";
 
 const COMPANION = /^companion\/[\w.-]{1,24}$/;
 // A whole page, JSON-escaped: escaping can grow it, so twice the page and room for the rest.
@@ -127,7 +128,7 @@ async function readJson(request) {
 
 // The account behind the request: the companion's token, or a page's session.
 async function who(env, request) {
-  if (COMPANION.test(request.headers.get("X-LF-Client") || "") && !request.headers.get("Origin")) {
+  if (isCompanion(request.headers.get("X-LF-Client")) && !request.headers.get("Origin")) {
     return (await currentDevice(env, request))?.user || null;
   }
   if (request.method === "POST" && !sameOrigin(request)) return null;

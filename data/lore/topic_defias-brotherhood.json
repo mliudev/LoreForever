@@ -10,16 +10,6 @@
  "summary": "The Defias Brotherhood is a widespread criminal network of bandits, brigands, and assassins waging an underground insurgency against the Kingdom of Stormwind. Originally formed by the artisans of the Stonemasons Guild who were cheated of their pay for rebuilding the capital, they have devolved into violent outlaws terrorizing the southern farmlands. From their hidden redoubt deep beneath Westfall, they aim to overthrow the corrupt House of Nobles and lay waste to the kingdom.",
  "sections": [
   {
-   "title": "From Masons to Marauders",
-   "body": "Following the Second War, the Stonemasons Guild was hired to rebuild Stormwind from smoldering ruins into a grand stone capital. When their masterwork was finished, the House of Nobles refused to deliver the promised payment, citing crushing wartime debt. Guildmaster Edwin VanCleef spoke out on behalf of his workers, demanding fair restitution, but the nobles responded by ordering the Stonemasons Guild disbanded. The ensuing riots in the city streets ended with the laborers driven out of Stormwind into exile. Stripped of their livelihood and outlawed, VanCleef and the desperate workers banded together, binding their faces in red silk to represent the blood of the wronged, and turned to highway robbery to claim what they believed they were owed.",
-   "spoiler": 0
-  },
-  {
-   "title": "The Shadow Over Westfall",
-   "body": "With the royal army overextended, VanCleef turned the neglected farmlands of Westfall into the Brotherhood's base of operations. The bandits overran the hamlet of Moonbrook and commandeered the abandoned subterranean tunnels of the Deadmines. Defias agents seized local mines, driven farmers from their homesteads with reprogrammed harvest golems, and salted the earth to starve the region. With the Crown unable or unwilling to send soldiers to protect rural citizens, local farmers formed The People's Militia out of Sentinel Hill to fight a desperate war of attrition against an enemy that now outmans and outguns them.",
-   "spoiler": 0
-  },
-  {
    "title": "A Web of Conspiracies",
    "body": "The Brotherhood has long outgrown a simple band of displaced laborers. VanCleef recruited mercenary goblins to oversee armaments, struck alliances with Riverpaw gnolls and Elwynn kobolds, and traded with cutthroat pirates like the Bloodsail Buccaneers. Defias highwaymen raid gold shipments across Elwynn Forest, and their agents even established a foothold in Duskwood before unearthing a cursed artifact in Roland's Doom. Far worse, the Brotherhood's influence reaches into the very heart of the capital, enjoying covert support from treacherous aristocrats within the House of Nobles while orchestrating kidnappings that strike at the highest offices of the Alliance.",
    "spoiler": 1
@@ -28,6 +18,16 @@
    "title": "The Juggernaught in the Deadmines",
    "body": "Beneath Moonbrook lies the Ironclad Cove, where VanCleef's goblin engineers are secretly assembling an enormous iron-plated warship known as the Defias Juggernaught. The guildmaster intends to sail this floating fortress out through the subterranean coastal waterways and bombard Stormwind City from the sea, reducing his own grand architecture to rubble. The conspiracy extends into the royal court itself: corrupt nobles like Lord Gregor Lescovar serve as eyes and ears for the uprising, while the court machinations of Lady Katrana Prestor deliberately keep the kingdom fractured and blind to the rising fleet beneath Westfall.",
    "spoiler": 2
+  },
+  {
+   "title": "From Masons to Marauders",
+   "body": "Following the Second War, the Stonemasons Guild was hired to rebuild Stormwind from smoldering ruins into a grand stone capital. When their masterwork was finished, the House of Nobles refused to deliver the promised payment, citing crushing wartime debt. Guildmaster Edwin VanCleef spoke out on behalf of his workers, demanding fair restitution, but the nobles responded by ordering the Stonemasons Guild disbanded. The ensuing riots in the city streets ended with the laborers driven out of Stormwind into exile. Stripped of their livelihood and outlawed, VanCleef and the desperate workers banded together, binding their faces in red silk to represent the blood of the wronged, and turned to highway robbery to claim what they believed they were owed.",
+   "spoiler": 1
+  },
+  {
+   "title": "The Shadow Over Westfall",
+   "body": "With the royal army overextended, VanCleef turned the neglected farmlands of Westfall into the Brotherhood's base of operations. The bandits overran the hamlet of Moonbrook and commandeered the abandoned subterranean tunnels of the Deadmines. Defias agents seized local mines, driven farmers from their homesteads with reprogrammed harvest golems, and salted the earth to starve the region. With the Crown unable or unwilling to send soldiers to protect rural citizens, local farmers formed The People's Militia out of Sentinel Hill to fight a desperate war of attrition against an enemy that now outmans and outguns them.",
+   "spoiler": 1
   }
  ],
  "faq": [

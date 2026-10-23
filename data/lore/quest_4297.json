@@ -1,0 +1,114 @@
+{
+ "key": "quest:4297",
+ "type": "quest",
+ "name": "Food for Baby",
+ "era": "classic",
+ "zone": "feralas",
+ "meta": {
+  "ids": [
+   4297
+  ],
+  "level": "47",
+  "faction": "Alliance",
+  "start": "Agnar Beastamer",
+  "end": "Agnar Beastamer",
+  "previous": "The Newest Member of the Family",
+  "next": "Becoming a Parent",
+  "wiki": "Food for Baby",
+  "chain": [],
+  "prev_q": [
+   "The Newest Member of the Family"
+  ],
+  "next_q": [
+   "Becoming a Parent"
+  ],
+  "category": "Feralas",
+  "chain_tpl": [
+   "Freedom for All Creatures"
+  ]
+ },
+ "summary": "Agnar Beastamer will look after your egg for now, so that it is ready for the day it hatches. Sprite darters eat both meat and vegetation, and the young ones like flanks of meat, raw and juicy. Agnar wants Silvermane stalker flanks to feed the hatchling its first meal.",
+ "sections": [
+  {
+   "title": "A Hatchling's First Meal",
+   "body": "Agnar Beastamer says sprite darters are omnivores, so a hatchling will need something good to eat once it is out of its shell. Raw, juicy flanks of meat are good eating for the little ones. Agnar will care for the egg meanwhile and wants Silvermane stalker flanks to feed it. Without a good first meal, the newborn might not make it past its first week.",
+   "spoiler": 0
+  },
+  {
+   "title": "Elune's Plan",
+   "body": "Agnar never learned why sprite darters take to meat. All Agnar knows is that it is tied to Elune's plan for the elves, and wonders whether they were meant to be protectors, but cannot say for sure. Agnar also admits to being jealous that you were the one to get the egg.",
+   "spoiler": 0
+  },
+  {
+   "title": "Back with the Flanks",
+   "body": "When you return with the flanks, Agnar judges them good enough and says the egg looks just about ready to hatch. Agnar teases you about being a mother or father soon, since you did not expect that kind of responsibility.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "What does a sprite darter eat?",
+   "aliases": [
+    "sprite darter diet",
+    "what do sprite darters eat",
+    "sprite dragon food"
+   ],
+   "answer": "Sprite darters are omnivores, eating both meat and vegetation. Agnar Beastamer says flanks of raw, juicy meat are good eating for the young ones."
+  },
+  {
+   "q": "Where is Agnar Beastamer caring for the egg?",
+   "aliases": [
+    "agnar beastamer location",
+    "where is agnar"
+   ],
+   "answer": "Agnar looks after the egg in the Hinterlands, and that is where the meat is brought."
+  },
+  {
+   "q": "What meat does Agnar want?",
+   "aliases": [
+    "what meat to get",
+    "food for baby meat",
+    "stalker flanks"
+   ],
+   "answer": "Agnar wants five Silvermane stalker flanks, to feed the hatchling once it is out of its shell."
+  },
+  {
+   "q": "How does Elune connect to sprite darters?",
+   "aliases": [
+    "elune sprite darter",
+    "why meat elune"
+   ],
+   "answer": "Agnar never found out why darters take to meat, only that it is tied to Elune's plan for the elves, and wonders whether they were meant to be protectors."
+  },
+  {
+   "q": "What happens if the hatchling has no good first meal?",
+   "aliases": [
+    "hatchling no food",
+    "will the baby survive"
+   ],
+   "answer": "Agnar warns that without a good first meal it might not make it past its first week."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "agnar beastamer",
+  "egg",
+  "elune",
+  "flanks",
+  "hinterlands",
+  "omnivore",
+  "silvermane stalker",
+  "sprite darter"
+ ],
+ "related": [
+  "quest:3843",
+  "quest:4298",
+  "quest:2969",
+  "npc:sprite-darter",
+  "topic:elune",
+  "zone:feralas"
+ ],
+ "attribution": [
+  "Food for Baby"
+ ]
+}

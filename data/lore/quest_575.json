@@ -1,0 +1,90 @@
+{
+ "key": "quest:575",
+ "type": "quest",
+ "name": "Supply and Demand",
+ "era": "classic",
+ "zone": "stranglethorn",
+ "meta": {
+  "ids": [
+   575
+  ],
+  "level": "31",
+  "start": "Drizzlik",
+  "end": "Drizzlik",
+  "wiki": null,
+  "previous": "",
+  "next_q": [
+   "Some Assembly Required"
+  ],
+  "next": "Some Assembly Required"
+ },
+ "summary": "Drizzlik, a leathercrafter in Booty Bay, claims to be the finest in the South Seas. Director Riddlevox of the Tinkers' Union has placed an order for twelve Excelsior-line boots, and Drizzlik needs skins from crocolisks by the northern Stranglethorn river to start shaping them.",
+ "sections": [
+  {
+   "title": "An Order from the Tinkers' Union",
+   "body": "Drizzlik brags that this leatherwork is famed everywhere as exquisite, a connoisseur's choice. The latest order comes from Director Riddlevox, the Tinkers' Union's chief inventor, who wants a dozen of the Excelsior-line boots he favors, among Drizzlik's best sellers. To begin shaping them, Drizzlik needs skins from the crocolisks by the northern Stranglethorn river. The equipment stands ready, and leaving so important a customer unsatisfied would be a poor idea.",
+   "spoiler": 0
+  },
+  {
+   "title": "Once the Skins Arrive",
+   "body": "Drizzlik finds the skins good enough. How fine they are matters little, since they will form the inner layer of the boots, though they must still be comfortable. Skins that prove too stiff can be softened with tiger blood, one of the tricks of the trade.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Drizzlik?",
+   "aliases": [
+    "drizzlik booty bay",
+    "booty bay leatherworker"
+   ],
+   "answer": "Drizzlik is a leathercrafter in Booty Bay who boasts of being the finest in the South Seas and beyond."
+  },
+  {
+   "q": "Who ordered the Excelsior boots?",
+   "aliases": [
+    "who ordered the boots",
+    "director riddlevox",
+    "tinkers union order"
+   ],
+   "answer": "Director Riddlevox, the Tinkers' Union's chief inventor, ordered twelve Excelsior-line boots."
+  },
+  {
+   "q": "Where are the crocolisks found for this commission?",
+   "aliases": [
+    "crocolisk location",
+    "where are river crocs",
+    "where do i find the skins"
+   ],
+   "answer": "Drizzlik points to the northern Stranglethorn river, where the crocolisks live."
+  },
+  {
+   "q": "How many skins does Drizzlik want?",
+   "aliases": [
+    "how many crocolisk skins",
+    "large river crocolisk skins"
+   ],
+   "answer": "Two large river crocolisk skins."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "booty bay",
+  "crocolisk",
+  "drizzlik",
+  "excelsior",
+  "leathercraft",
+  "riddlevox",
+  "stranglethorn",
+  "tinkers union"
+ ],
+ "related": [
+  "quest:577",
+  "subzone:booty-bay",
+  "zone:stranglethorn",
+  "subzone:south-seas"
+ ],
+ "attribution": [
+  "Classic quest text: Supply and Demand"
+ ]
+}

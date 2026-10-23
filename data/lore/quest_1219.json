@@ -1,0 +1,77 @@
+{
+ "key": "quest:1219",
+ "type": "quest",
+ "name": "The Orc Report",
+ "era": "classic",
+ "zone": "dustwallow",
+ "meta": {
+  "ids": [
+   1219
+  ],
+  "level": "35",
+  "faction": "Alliance",
+  "start": "Loose Dirt",
+  "end": "Theramore Lieutenant",
+  "next": "Captain Vimes",
+  "next_q": [
+   "Captain Vimes"
+  ],
+  "wiki": null,
+  "previous": ""
+ },
+ "summary": "Sifting through loose dirt in Dustwallow Marsh, you come upon an orc's severed hand clutching a tube carved from bone. Inside lies a dirt-stained parchment in Orcish script, which looks important. It is meant for a Theramore Lieutenant.",
+ "sections": [
+  {
+   "title": "A Hand in the Dirt",
+   "body": "In the loose dirt lies an orc's severed hand, gripping a tube carved from bone. Inside is a parchment stained with dirt and the writing is Orcish, which seems significant. A Theramore Lieutenant is the one to show it to.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Lieutenant's Verdict",
+   "body": "The lieutenant admits to reading Orcish poorly, yet takes the parchment for an orc spy's report.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is hidden in the loose dirt?",
+   "aliases": [
+    "what do you find in loose dirt",
+    "loose dirt item",
+    "orc hand in dustwallow"
+   ],
+   "answer": "Sifting through it turns up an orc's severed hand clutching a tube carved from bone, with a dirt-stained parchment inside."
+  },
+  {
+   "q": "Who should get the parchment?",
+   "aliases": [
+    "where do I take the report",
+    "who gets the spy report",
+    "theramore lieutenant location"
+   ],
+   "answer": "A Theramore Lieutenant."
+  },
+  {
+   "q": "What language is the parchment written in?",
+   "aliases": [
+    "parchment language",
+    "can I read the parchment"
+   ],
+   "answer": "The writing is Orcish, and it seems significant."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "bone tube",
+  "dustwallow marsh",
+  "loose dirt",
+  "orc report",
+  "theramore lieutenant"
+ ],
+ "related": [
+  "zone:dustwallow"
+ ],
+ "attribution": [
+  "Classic quest text: The Orc Report"
+ ]
+}

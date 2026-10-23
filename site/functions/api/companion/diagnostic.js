@@ -4,11 +4,12 @@ import { currentDevice } from "../../../lib/devices.js";
 import { retainScreenshot, storageReady } from "../../../lib/diagnostic-screenshots.js";
 import { perMinute } from "../../../lib/ratelimit.js";
 import { ANSWER_ID } from "../../../lib/answer-signals.js";
+import { isCompanion } from "../../../lib/client-version.js";
 
 export async function onRequestPost(context) {
   const { env, request } = context;
   if (!env.DB || !env.STUDIO || !storageReady(env) || !context.waitUntil) return fail(503, "Screenshot storage is unavailable.");
-  if (!/^companion\/[\w.-]{1,24}$/.test(request.headers.get("X-LF-Client") || "") || request.headers.has("Origin"))
+  if (!isCompanion(request.headers.get("X-LF-Client")) ||request.headers.has("Origin"))
     return fail(403, "Use the companion app.");
   await setup(env);
   const app = await currentDevice(env, request);

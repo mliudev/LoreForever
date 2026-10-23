@@ -1,0 +1,99 @@
+{
+ "key": "quest:92434",
+ "type": "quest",
+ "name": "Blood in the Streets",
+ "era": "forever",
+ "zone": "alterac",
+ "meta": {
+  "ids": [
+   92434
+  ],
+  "level": "34",
+  "faction": "Horde",
+  "start": "Magus Wordeen Voidglare",
+  "end": "Image of Archmage Modera",
+  "previous": "Dalaran Patrols",
+  "next": "",
+  "wiki": "Blood in the Streets",
+  "chain": [],
+  "prev_q": [
+   "Dalaran Patrols"
+  ],
+  "category": "Alterac Mountains",
+  "chain_tpl": [
+   "City of Dalaran quests"
+  ]
+ },
+ "summary": "Dalaran's barrier has come down, and turmoil grips the city. With its patrols dealt with, Magus Wordeen Voidglare says there is no better time to slip inside and learn the mages' secrets. You are to carry the key from the internment camp to the city's sewers on its northern edge.",
+ "sections": [
+  {
+   "title": "A Disagreeable Way In",
+   "body": "After Dalaran Patrols, Magus Wordeen Voidglare says that whatever lowered Dalaran's barrier has thrown the city into turmoil, so now is the time for the Horde to get inside and learn the mages' secrets. You are to take the key from the internment camp and look for the sewers on the city's northern edge, by Lordamere Lake. With luck, the mages saw no need to ward so disagreeable an entrance.",
+   "spoiler": 0
+  },
+  {
+   "title": "What Comes of the Key",
+   "body": "The Image of Archmage Modera tells you to stay your weapon. She says the key will not be enough to get past her wards, since the mages would not leave such a weakness open at a time like this. She says the Horde's interest in her city is no coincidence, that she was counting on it, and that she has a proposition for you.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who sends you into Dalaran's sewers?",
+   "aliases": [
+    "blood in the streets quest giver",
+    "who gives blood in the streets",
+    "wordeen voidglare quest"
+   ],
+   "answer": "Magus Wordeen Voidglare, after the patrols have been dealt with."
+  },
+  {
+   "q": "Where is the entrance into Dalaran located?",
+   "aliases": [
+    "where are dalaran sewers",
+    "sewer entrance lordamere lake",
+    "how to enter dalaran"
+   ],
+   "answer": "Wordeen points you to the sewers on the northern edge of the city, by Lordamere Lake."
+  },
+  {
+   "q": "What key is used to attempt entry?",
+   "aliases": [
+    "grimy key dalaran",
+    "where did the key come from",
+    "internment camp key"
+   ],
+   "answer": "The grimy key from the internment camp."
+  },
+  {
+   "q": "Why is Dalaran vulnerable right now?",
+   "aliases": [
+    "why is dalaran barrier down",
+    "what happened to dalaran shield"
+   ],
+   "answer": "Its barrier has come down, and turmoil grips the city."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "alterac",
+  "blood in the streets",
+  "dalaran",
+  "grimy key",
+  "lordamere lake",
+  "modera",
+  "sewers",
+  "wordeen voidglare"
+ ],
+ "related": [
+  "quest:545",
+  "subzone:dalaran",
+  "subzone:sewers",
+  "subzone:lordamere-lake",
+  "topic:horde",
+  "zone:alterac"
+ ],
+ "attribution": [
+  "Blood in the Streets"
+ ]
+}

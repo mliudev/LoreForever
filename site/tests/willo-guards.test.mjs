@@ -138,3 +138,53 @@ test("fromWhereLast with said: false only rewrites the present tense, and adds n
   assert.equal(guardAnswer("Hello, friend.", { own: true, lastPlace: at }), "Hello, friend.");
   assert.match(guardAnswer("The flight master is right here.", { own: true, lastPlace: at }), /^The flight master is there\.$/);
 });
+
+// ---- away from the game: what she says of the place they last rested in is as it was then (the blind checks, 10/21) ----
+test("away, 'you are (currently) resting in X' and the scene of folk there are in the past tense", () => {
+  const P = "Darkshire, Duskwood", away = t => fromWhereLast(t, P, { said: false });
+  // The phrasings from vision's real runs.
+  assert.equal(away("You are currently resting in Darkshire, a town nestled within the dark and haunted woods of Duskwood."),
+    "You were last in Darkshire, a town nestled within the dark and haunted woods of Duskwood.");
+  assert.equal(away("You are currently in the dark, mist-covered woods of Duskwood."),
+    "You were last in the dark, mist-covered woods of Duskwood.");
+  assert.equal(away("You're now standing in Darkshire."), "You were last in Darkshire.");
+  assert.equal(away("Since you are still staying at the inn in Darkshire, rest well."), "Since you were last at the inn in Darkshire, rest well.");
+  assert.equal(away("I am not sure which NPC you mean, as there are many souls walking the streets of Darkshire; could you tell me their name?"),
+    "I am not sure which NPC you mean, as there were many souls walking the streets of Darkshire; could you tell me their name?");
+  assert.equal(away("Since there are several people in Darkshire, could you tell me which NPC you are looking at?"),
+    "Since there were several people in Darkshire, could you tell me which NPC you are looking at?");
+  assert.equal(away("Several people are moving about the square in Darkshire."), "Several people were moving about the square in Darkshire.");
+  assert.equal(away("I can see many folk walking the streets of Darkshire, and I want to be sure."),
+    "I recall seeing many folk walking the streets of Darkshire, and I want to be sure.");
+  assert.equal(away("I can see the problem, and Darkshire is far."), "I can see the problem, and Darkshire is far.");
+  assert.equal(away("There is a crowd in Darkshire."), "There was a crowd in Darkshire.");
+  assert.equal(away("Many in Darkshire need aid against the restless spirits and the growing darkness here."),
+    "Many in Darkshire need aid against the restless spirits and the growing darkness there.");
+  assert.equal(away("The woods around here are dark, so keep your blade sharp."), "The woods around here are dark, so keep your blade sharp.");
+  assert.equal(away("Good work is waiting for a warrior here, friend."), "Good work is waiting for a warrior there, friend.");
+  assert.equal(away("Since you are level 28 and resting in Darkshire, you should head east."),
+    "Since you are level 28 and were last in Darkshire, you should head east.");
+  assert.equal(away("Since you are level 28 in Darkshire, head to the Town Hall."),
+    "Since you are level 28 and were last in Darkshire, head to the Town Hall.");
+});
+
+test("away, the tense rewrite touches only what it should", () => {
+  const P = "Darkshire, Duskwood", away = t => fromWhereLast(t, P, { said: false });
+  for (const same of [
+    "Since you are level 28, head north.",                                    // a level, not a place
+    "If you are in Darkshire, ask the innkeeper.",                            // their own question
+    "Whether you are in Darkshire or not, the road is long.",
+    'The guard says "You are in Darkshire, friend." and nods.',               // someone else's words
+    "You are in Stormwind now.",                                              // not the place she was given
+    "Folk are gathered in Stormwind.",
+    "The guards are posted in Darkshire.",                                    // what stands there, not a scene
+    "There are three roads out of Darkshire.",                                // no one there
+    "Hello, friend.",
+    "Come here and I will tell you.",                                          // asked of them
+    "Wait here until the guards return.",
+    "Here is what the Night Watch asks of you.",                               // not a clause's end
+    'He shouted "I live here."',                                               // someone else's words
+  ]) assert.equal(away(same), same);
+  // In the game (said: true, a saved place) the older rewrite stands as it was.
+  assert.match(fromWhereLast("You are standing in Darkshire.", P), /^From Darkshire, where you were last|You were last in Darkshire/);
+});

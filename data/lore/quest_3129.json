@@ -1,0 +1,78 @@
+{
+ "key": "quest:3129",
+ "type": "quest",
+ "name": "Weapons of Spirit",
+ "era": "classic",
+ "zone": "feralas",
+ "meta": {
+  "ids": [
+   3129
+  ],
+  "level": "50",
+  "start": "Witch Doctor Uzer'i",
+  "end": "Witch Doctor Uzer'i",
+  "wiki": null,
+  "prev_q": [
+   "Mountain Giant Muisek",
+   "Natural Materials"
+  ],
+  "previous": "Mountain Giant Muisek, Natural Materials",
+  "next": ""
+ },
+ "summary": "Witch Doctor Uzer'i now has everything needed and the spirits you captured. Binding them into weapons is hard work, so Uzer'i asks you to wait a moment while the preparations are made.",
+ "sections": [
+  {
+   "title": "A Moment's Patience",
+   "body": "Uzer'i admits that imbuing weapons with muisek is hard going. Now holding all the materials needed, along with the spirits you captured, Uzer'i can begin, and asks you to wait while the weapons are prepared.",
+   "spoiler": 0
+  },
+  {
+   "title": "When the Wait Ends",
+   "body": "Uzer'i returns and lets you choose from the weapons, telling you the spirits of the captured creatures are sealed into them for good. Their energy can now be wielded as your own.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is behind Weapons of Spirit?",
+   "aliases": [
+    "who gives weapons of spirit",
+    "weapons of spirit quest giver",
+    "uzeri quest"
+   ],
+   "answer": "Witch Doctor Uzer'i, the same one who sent you after the muisek, and it comes after Mountain Giant Muisek."
+  },
+  {
+   "q": "What does Witch Doctor Uzer'i do during this step?",
+   "aliases": [
+    "what happens in weapons of spirit",
+    "what does uzeri do"
+   ],
+   "answer": "Uzer'i works at imbuing the captured muisek into weapons, a process called difficult, and asks you to wait while the preparations are made."
+  },
+  {
+   "q": "What is needed before Uzer'i can begin?",
+   "aliases": [
+    "requirements for weapons of spirit",
+    "prerequisites for weapons of spirit"
+   ],
+   "answer": "Uzer'i says the needed materials are gathered and the spirits you captured are in hand, so the work can start."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "feralas",
+  "muisek",
+  "spirit weapons",
+  "weapons of spirit",
+  "witch doctor uzer'i"
+ ],
+ "related": [
+  "npc:witch-doctor-uzer-i",
+  "quest:3127",
+  "zone:feralas"
+ ],
+ "attribution": [
+  "Classic quest text: Weapons of Spirit"
+ ]
+}

@@ -89,6 +89,8 @@ export function renderMarkdown(md) {
   const html = [];
   const faq = [];
   let para = [], list = null, quote = [], inFaq = false, q = null;
+  let section = false, tocAt = -1;   // an open FAQ or Sources wrapper (styled apart), and where "On this page" goes
+  const toc = [];
   const flushPara = () => {
     if (!para.length) return;
     const text = para.join(" ");
@@ -96,7 +98,7 @@ export function renderMarkdown(md) {
     para = [];
     if (pic) {
       const img = inline(text);
-      if (img) html.push(`<figure class="gd-fig">${img}${pic[3] ? `<figcaption>${inline(pic[3])}</figcaption>` : ""}</figure>`);
+      if (img) html.push(`<figure class="gd-fig">${/^<img /.test(img) ? `<a href="${safeImage(pic[2])}" title="Open the full-size picture">${img}</a>` : img}${pic[3] ? `<figcaption>${inline(pic[3])}</figcaption>` : ""}</figure>`);
       return;
     }
     html.push(`<p>${inline(text)}</p>`);
@@ -122,14 +124,20 @@ export function renderMarkdown(md) {
       flush();
       const level = Math.max(2, m[1].length);
       const text = m[2].trim();
+      let wrapper = "";
       if (level === 2) {
         inFaq = /^(faq|questions|frequently asked questions)\b/i.test(text);
         q = null;
+        if (section) wrapper = "</section>";
+        section = inFaq || /^sources\b/i.test(text);
+        if (section) wrapper += `<section class="${inFaq ? "gd-faq" : "gd-sources"}">`;
+        if (tocAt < 0) tocAt = html.length;
+        toc.push({ text, id: anchor(text) });
       } else if (inFaq) {
         q = { q: text, a: [] };
         faq.push(q);
       }
-      html.push(`<h${level} id="${anchor(text)}">${inline(text)}</h${level}>`);
+      html.push(`${wrapper}<h${level} id="${anchor(text)}">${inline(text)}</h${level}>`);
       continue;
     }
     if ((m = line.match(/^>\s?(.*)$/))) { flushPara(); flushList(); quote.push(m[1]); continue; }
@@ -146,6 +154,11 @@ export function renderMarkdown(md) {
     para.push(line.trim());
   }
   flush();
+  if (section) html.push("</section>");
+  // "On this page": a short contents list before the first section, once there are enough sections to need one.
+  if (toc.length >= 4) {
+    html.splice(tocAt, 0, `<nav class="gd-toc" aria-label="On this page"><p>On this page</p><ol>${toc.map(t => `<li><a href="#${t.id}">${inline(t.text)}</a></li>`).join("")}</ol></nav>`);
+  }
   return { html: html.join("\n      "), faq: faq.filter(x => x.a.length).map(x => ({ q: x.q, a: x.a.join(" ") })) };
 }
 

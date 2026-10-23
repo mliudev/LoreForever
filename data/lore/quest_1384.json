@@ -1,0 +1,97 @@
+{
+ "key": "quest:1384",
+ "type": "quest",
+ "name": "Raid on the Kolkar",
+ "era": "classic",
+ "zone": "desolace",
+ "meta": {
+  "ids": [
+   1384
+  ],
+  "level": "32",
+  "faction": null,
+  "start": "Uthek the Wise",
+  "end": "Uthek the Wise",
+  "previous": "Strange Alliance",
+  "next": "Stealing Supplies",
+  "wiki": "Raid on the Kolkar",
+  "chain": [],
+  "prev_q": [
+   "Strange Alliance"
+  ],
+  "next_q": [
+   "Stealing Supplies"
+  ],
+  "category": "Desolace",
+  "chain_tpl": [
+   "Gelkis Alliance quest chain"
+  ]
+ },
+ "summary": "After Strange Alliance, Uthek the Wise sends you against the Kolkar centaurs to the northeast. Kill them, take their charms, and bring ten of those charms back to Uthek.",
+ "sections": [
+  {
+   "title": "Contempt for Kolkar Magic",
+   "body": "Uthek scoffs at the Kolkar centaurs for thinking their magic strong; in Uthek's view they know nothing of magic. You go northeast to the Kolkar, kill them, and take their charms. Uthek wants ten Crude Charms to throw in the fire, laughing as they burn.",
+   "spoiler": 0
+  },
+  {
+   "title": "Uthek's Verdict",
+   "body": "Uthek praises the deed as a good one for the Gelkis. The Kolkar are feeble and doomed, Uthek says, and their magic will not save them. Having seen your work, they will fear all the more, and fear makes them feebler. In Gelkis lands, the feeble soon die.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Uthek the Wise?",
+   "aliases": [
+    "who gives raid on the kolkar",
+    "uthek",
+    "uthek the wise lore"
+   ],
+   "answer": "Uthek the Wise waits in Gelkis Village in Desolace. Uthek wants the Kolkar's charms."
+  },
+  {
+   "q": "Where are the Kolkar located?",
+   "aliases": [
+    "where to find kolkar",
+    "kolkar location desolace"
+   ],
+   "answer": "To the northeast, according to Uthek."
+  },
+  {
+   "q": "What are the Crude Charms?",
+   "aliases": [
+    "crude charm",
+    "kolkar charms"
+   ],
+   "answer": "Charms taken from the Kolkar. Uthek wants ten of them to throw in the fire and laugh."
+  },
+  {
+   "q": "How does this fit into the Gelkis chain?",
+   "aliases": [
+    "gelkis chain",
+    "what comes before raid on the kolkar"
+   ],
+   "answer": "It follows Strange Alliance."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "centaur",
+  "crude charms",
+  "desolace",
+  "gelkis",
+  "kolkar",
+  "uthek"
+ ],
+ "related": [
+  "quest:1382",
+  "quest:1370",
+  "subzone:gelkis-village",
+  "topic:centaur",
+  "zone:desolace"
+ ],
+ "attribution": [
+  "Raid on the Kolkar"
+ ]
+}

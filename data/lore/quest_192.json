@@ -1,0 +1,89 @@
+{
+ "key": "quest:192",
+ "type": "quest",
+ "name": "Panther Mastery",
+ "era": "classic",
+ "zone": "stranglethorn",
+ "meta": {
+  "ids": [
+   192
+  ],
+  "level": "38",
+  "faction": "Neutral",
+  "start": "Sir S. J. Erlgadin",
+  "end": "Sir S. J. Erlgadin",
+  "previous": "Panther Mastery (2)",
+  "next": "Panther Mastery (4)",
+  "wiki": "Panther Mastery (3)",
+  "chain": [],
+  "prev_q": [
+   "Panther Mastery (2)"
+  ],
+  "next_q": [
+   "Panther Mastery (4)"
+  ],
+  "category": "Stranglethorn Vale",
+  "chain_tpl": [
+   "Big Game Hunter (Classic)"
+  ]
+ },
+ "summary": "Sir S. J. Erlgadin of Nesingwary's Expedition challenges big game hunters to track and bring down the deadliest panthers in Stranglethorn Vale. Following your earlier trials, you must now seek out and slay ten Shadowmaw Panthers.",
+ "sections": [
+  {
+   "title": "The Deadliest Quarry",
+   "body": "Sir S. J. Erlgadin considers Shadowmaw Panthers to be the most dangerous cats prowling the jungles of Stranglethorn. Proving your mettle as a true stalker requires crawling through the dense underbrush to track down ten of these elusive beasts, whose ferocity makes them far harder to kill than to find.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who offers this hunt?",
+   "aliases": [
+    "who gives panther mastery",
+    "panther mastery quest giver",
+    "who gives this quest"
+   ],
+   "answer": "Sir S. J. Erlgadin offers this challenge from the Nesingwary Expedition camp in northern Stranglethorn Vale."
+  },
+  {
+   "q": "What beasts are you hunting?",
+   "aliases": [
+    "what do i kill",
+    "target of panther mastery",
+    "which panthers"
+   ],
+   "answer": "You are to hunt down ten Shadowmaw Panthers, which Erlgadin calls the deadliest panthers in all of Stranglethorn."
+  },
+  {
+   "q": "Where does this fit in the hunting trials?",
+   "aliases": [
+    "what quest comes before this",
+    "panther mastery chain",
+    "prerequisite quest"
+   ],
+   "answer": "This is the third trial in the panther hunting series, following directly after the second Panther Mastery trial and preceding the fourth."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Hunter",
+   "text": "Erlgadin challenges you directly on your reputation as a big game hunter, expecting you to master the stalking and slaying of the jungle's fiercest predators."
+  }
+ ],
+ "keywords": [
+  "big game",
+  "nesingwary",
+  "panther mastery",
+  "shadowmaw panther",
+  "sir s. j. erlgadin",
+  "stranglethorn vale"
+ ],
+ "related": [
+  "subzone:nesingwary-s-expedition",
+  "zone:stranglethorn",
+  "topic:hunter"
+ ],
+ "attribution": [
+  "Panther Mastery (3)"
+ ]
+}

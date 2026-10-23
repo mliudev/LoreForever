@@ -11,12 +11,13 @@ import { setup, currentUser, fail, noStore, sameOrigin } from "../../../lib/acco
 import { currentDevice } from "../../../lib/devices.js";
 import { stockOf } from "../../../lib/willo-goals.js";
 import { tonightFor } from "../../../lib/willo-tonight.js";
+import { isCompanion } from "../../../lib/client-version.js";
 
 const COMPANION = /^companion\/[\w.-]{1,24}$/;
 const MAX_BODY_BYTES = 32 * 1024;
 
 async function who(env, request) {
-  if (COMPANION.test(request.headers.get("X-LF-Client") || "") && !request.headers.get("Origin")) {
+  if (isCompanion(request.headers.get("X-LF-Client")) && !request.headers.get("Origin")) {
     return (await currentDevice(env, request))?.user || null;
   }
   if (request.method === "POST" && !sameOrigin(request)) return null;

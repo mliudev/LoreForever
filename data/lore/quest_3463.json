@@ -1,0 +1,98 @@
+{
+ "key": "quest:3463",
+ "type": "quest",
+ "name": "Set Them Ablaze!",
+ "era": "classic",
+ "zone": "searinggorge",
+ "meta": {
+  "ids": [
+   3463
+  ],
+  "level": "52",
+  "faction": null,
+  "start": "Squire Maltrake",
+  "end": "Squire Maltrake",
+  "previous": "Squire Maltrake (quest)",
+  "next": "Trinkets...",
+  "wiki": "Set Them Ablaze! (Classic)",
+  "chain": [],
+  "prev_q": [
+   "Squire Maltrake (quest)"
+  ],
+  "next_q": [
+   "Trinkets..."
+  ],
+  "category": "Searing Gorge",
+  "chain_tpl": [
+   "Torch of Retribution"
+  ]
+ },
+ "summary": "Squire Maltrake tells you the four towers of Searing Gorge can never be destroyed, but the Torch of Retribution can set them burning for a very long time. While they burn, no guard or sentry can hold the watch posts, and the Dark Irons lose their first line of defense.",
+ "sections": [
+  {
+   "title": "A Fire No Force Can Subdue",
+   "body": "The flames the torch lights cannot be put out by any element or force. Maltrake sends you inside each of the four sentry towers, North, South, East and West, to use the torch within their walls. The Dark Irons have posted lookouts at the towers, and Maltrake warns you to beware of them.",
+   "spoiler": 0
+  },
+  {
+   "title": "After the Last Flame",
+   "body": "Back with Maltrake after the last tower is ablaze, you hear him cry out in triumph to a master. Velarok the Deceiver answers, and he shows himself as a drake of the black dragonflight. His plan, he gloats, has worked perfectly, for you would never have helped the Blackrock legion had they simply asked. When Maltrake wonders what to do with you now, Velarok silences him: you will live to watch the Blackrock legion invade the gorge. He has Maltrake hand over trinkets, speaks of a molt, and flies off toward the gorge.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who sends you to set the towers ablaze?",
+   "aliases": [
+    "who gives set them ablaze",
+    "set them ablaze quest giver",
+    "maltrake quest"
+   ],
+   "answer": "Squire Maltrake does, and he provides the Torch of Retribution for the job."
+  },
+  {
+   "q": "Which towers must be ignited?",
+   "aliases": [
+    "which towers",
+    "sentry tower locations",
+    "set them ablaze towers"
+   ],
+   "answer": "The four sentry towers: North, South, East and West. Each must be entered, and the torch used inside."
+  },
+  {
+   "q": "Why use the Torch of Retribution instead of tearing down the towers?",
+   "aliases": [
+    "why torch",
+    "destroy sentry towers"
+   ],
+   "answer": "The towers can never be destroyed. Instead, the torch sets them burning for ages, with flames no element or force can subdue."
+  },
+  {
+   "q": "What was the previous step before this one?",
+   "aliases": [
+    "set them ablaze prerequisite",
+    "prior quest"
+   ],
+   "answer": "Speaking with Squire Maltrake, who then gives you this undertaking."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "dark iron",
+  "searing gorge",
+  "sentry towers",
+  "set them ablaze",
+  "squire maltrake",
+  "torch of retribution",
+  "velarok the deceiver"
+ ],
+ "related": [
+  "quest:3462",
+  "quest:3481",
+  "zone:searinggorge",
+  "topic:black-dragonflight"
+ ],
+ "attribution": [
+  "Set Them Ablaze! (Classic)"
+ ]
+}

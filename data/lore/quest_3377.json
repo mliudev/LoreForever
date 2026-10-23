@@ -1,0 +1,90 @@
+{
+ "key": "quest:3377",
+ "type": "quest",
+ "name": "Prayer to Elune",
+ "era": "classic",
+ "zone": "searinggorge",
+ "meta": {
+  "ids": [
+   3377
+  ],
+  "level": "50",
+  "faction": "Alliance",
+  "start": "Zamael Lunthistle",
+  "end": "Zamael Lunthistle",
+  "previous": "",
+  "next": "Prayer to Elune (2)",
+  "wiki": "Prayer to Elune (Classic)",
+  "chain": [
+   "Prayer to Elune (Classic)",
+   "Prayer to Elune (2)"
+  ],
+  "next_q": [
+   "Prayer to Elune (2)"
+  ],
+  "category": "Searing Gorge"
+ },
+ "summary": "A spirit held in a cage in Searing Gorge, Zamael Lunthistle, asks if you will help him. He has not had visitors in many years, and first wants you to hear his tale.",
+ "sections": [
+  {
+   "title": "A Spirit in a Cage",
+   "body": "Zamael Lunthistle greets you with a praise to Elune and says that many years have passed since anyone visited him. He asks if you will help, and begins with a request that you hear his tale.",
+   "spoiler": 0
+  },
+  {
+   "title": "Zamael's Tale",
+   "body": "Zamael was a young night elf from Darkshore when he fell in with the Twilight's Hammer, who befriended him and turned him from Elune. A vision from Elune woke him from the malaise of following the old gods, and in repentance he etched his sorrow into a tablet of pure gold as a prayer to Elune. The Twilight's Hammer found the tablet, branded him a blasphemer and had him executed, his prayer unfinished. He is now bound to the world as a spirit and held in the cage as a warning to all who would betray the Twilight's Hammer's faith. Zamael has accepted his fate, but says the prayer must be found.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Zamael Lunthistle?",
+   "aliases": [
+    "who is zamael",
+    "zamael lunthistle lore",
+    "who is the ghost in the cage"
+   ],
+   "answer": "Zamael Lunthistle is a spirit held in a cage in Searing Gorge. He asks you to hear his tale."
+  },
+  {
+   "q": "What does Zamael ask of you?",
+   "aliases": [
+    "what does zamael want",
+    "zamael request"
+   ],
+   "answer": "He asks if you will assist him, and first that you hear his tale."
+  },
+  {
+   "q": "What comes after hearing Zamael's tale?",
+   "aliases": [
+    "next step prayer to elune",
+    "prayer to elune chain"
+   ],
+   "answer": "A second part of Prayer to Elune follows, again with Zamael."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "darkshore",
+  "elune",
+  "lunthistle",
+  "prayer",
+  "repentance",
+  "searing gorge",
+  "tablet",
+  "twilight's hammer",
+  "zamael"
+ ],
+ "related": [
+  "topic:twilight-s-hammer",
+  "topic:elune",
+  "topic:night-elf",
+  "topic:old-god",
+  "zone:darkshore",
+  "zone:searinggorge"
+ ],
+ "attribution": [
+  "Prayer to Elune (Classic)"
+ ]
+}

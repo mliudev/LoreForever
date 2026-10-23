@@ -11,6 +11,7 @@
 import { COMPANION_NAME as NAME } from "./brand.js";
 import { PLANS, PAID, planFeatures, cardFlags, VOICE_NOTE } from "./billing.js";
 import { hasAzeroth } from "./character-voices.js";
+import { readClient, atLeast } from "./client-version.js";
 import { CLEAR_ALL } from "./willo-notebook.js";
 
 // The most WILLO HELP adds to a system prompt (lib/companion-answers.js counts it in its bound): MAX_TOPICS topics.
@@ -303,8 +304,8 @@ const ABOUT_HER = /\b(?:you|your|yours|yourself|willo|willow|willa|wilo|wisp)\b/
 // (Settings › Willo › Willo's color, LOR-552) only from COLOR_FROM.
 const CARD_FROM = [0, 19, 0];
 export const COLOR_FROM = [0, 21, 0];
-const versionOf = client => (/^companion\/(\d+)\.(\d+)\.(\d+)/.exec(String(client || "")) || []).slice(1).map(Number);
-const atLeast = (v, min) => v.length === 3 && (v[0] - min[0] || v[1] - min[1] || v[2] - min[2]) >= 0;
+// Willo on a PC or Mac only (lib/client-version.js readClient): the iPhone app has none of these cards.
+const versionOf = client => { const c = readClient(client, { loose: true }); return c.platform === "willo" ? c.version : null; };
 // Whether the companion asking (its X-LF-Client, "companion/0.21.0") is `min` ([0, 21, 0]) or later.
 export const clientFrom = (client, min) => atLeast(versionOf(client), min);
 // Whether it has her color's card.

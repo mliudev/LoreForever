@@ -1,0 +1,114 @@
+{
+ "key": "quest:660",
+ "type": "quest",
+ "name": "Hints of a New Plague?",
+ "era": "classic",
+ "zone": "hillsbrad",
+ "meta": {
+  "ids": [
+   660
+  ],
+  "level": "37",
+  "faction": "Alliance",
+  "start": "Kinelory",
+  "end": "Quae",
+  "previous": "Hints of a New Plague? (3)",
+  "next": "Hints of a New Plague? (5)",
+  "wiki": "Hints of a New Plague? (4)",
+  "chain": [],
+  "prev_q": [
+   "Hints of a New Plague? (3)"
+  ],
+  "next_q": [
+   "Hints of a New Plague? (5)"
+  ],
+  "qtype": "Escort",
+  "category": "Hillsbrad Foothills",
+  "chain_tpl": [
+   "Hints of a New Plague?"
+  ]
+ },
+ "summary": "Kinelory is ready to head down to the farm and wants you at her side. She fears the undead may be doing harm back in Hillsbrad the longer they wait, and you are asked to see her safely back to Quae.",
+ "sections": [
+  {
+   "title": "Watching Kinelory's Back",
+   "body": "After the earlier steps of the investigation, Kinelory is ready to act. She asks you to come with her down to the farm. You are to see her safely back to Quae, and anyone who cares about the people of Hillsbrad is urged to protect her.",
+   "spoiler": 0
+  },
+  {
+   "title": "A Safe Return",
+   "body": "Back with Quae, you are thanked for the service. Quae admits to hoping Kinelory was not too much of a handful: she is very friendly, but just as deadly when you are her enemy.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who sends you on this escort?",
+   "aliases": [
+    "quest giver",
+    "who gives quest",
+    "who starts hints of a new plague 4"
+   ],
+   "answer": "Kinelory asks you to come with her once she is ready to set out."
+  },
+  {
+   "q": "Where does Kinelory need to go?",
+   "aliases": [
+    "escort route",
+    "where does kinelory go",
+    "kinelory destination"
+   ],
+   "answer": "She goes down to a farm, then makes her way back to Quae."
+  },
+  {
+   "q": "Who do you report to when finished?",
+   "aliases": [
+    "turn in",
+    "who completes quest",
+    "where to turn in"
+   ],
+   "answer": "Quae, once Kinelory has made it back to her."
+  },
+  {
+   "q": "What came right before this part of the investigation?",
+   "aliases": [
+    "previous quest",
+    "prereq",
+    "what comes before"
+   ],
+   "answer": "The third part of Hints of a New Plague?, which leads straight into this one."
+  },
+  {
+   "q": "What follows after returning safely?",
+   "aliases": [
+    "next quest",
+    "what comes next",
+    "follow up"
+   ],
+   "answer": "The investigation goes on with the fifth part of Hints of a New Plague?."
+  },
+  {
+   "q": "Why must Kinelory be protected?",
+   "aliases": [
+    "why protect kinelory",
+    "why care about kinelory"
+   ],
+   "answer": "Anyone who cares about the people of Hillsbrad is urged to see her safely through."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "escort",
+  "hillsbrad foothills",
+  "hints of a new plague",
+  "kinelory",
+  "plague",
+  "quae"
+ ],
+ "related": [
+  "zone:hillsbrad"
+ ],
+ "attribution": [
+  "Hints of a New Plague? (4)"
+ ]
+}

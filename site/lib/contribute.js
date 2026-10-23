@@ -28,6 +28,7 @@ import { isReportRead } from "./report-read.js";
 // Upload rows drop the IP hash after 30 days.
 
 import { senderHash } from "./form.js";
+import { createMissing } from "./schema.js";
 
 export const LIMITS = { lines: 5000, text: 4000, title: 200, body: 8 * 1024 * 1024, nick: 24 };
 export const RATE = { file: 10, companion: 10, code: 60, preview: 30 };   // per sender (day's IP hash) per hour
@@ -65,7 +66,7 @@ let ready = false;
 export async function setup(env) {
   if (isReportRead(env)) return;
   if (ready) return;
-  await env.DB.batch(SETUP.map(s => env.DB.prepare(s)));
+  await createMissing(env, SETUP);
   // contrib_lines.picked and .pick_reason (LOR-621) on a table made before them. Another cold Worker may add one at the
   // same moment.
   for (const [column, type] of [["picked", "INTEGER NOT NULL DEFAULT 0"], ["pick_reason", "TEXT"]]) {

@@ -1,0 +1,84 @@
+{
+ "key": "quest:3454",
+ "type": "quest",
+ "name": "The Torch of Retribution",
+ "era": "classic",
+ "zone": "searinggorge",
+ "meta": {
+  "ids": [
+   3454
+  ],
+  "level": "50",
+  "faction": null,
+  "start": "Kalaran Windblade",
+  "end": ":Torch of Retribution",
+  "previous": "The Torch of Retribution",
+  "next": "Squire Maltrake (quest)",
+  "wiki": "The Torch of Retribution (2)",
+  "chain": [],
+  "prev_q": [
+   "The Torch of Retribution"
+  ],
+  "next_q": [
+   "Squire Maltrake (quest)"
+  ],
+  "category": "Searing Gorge",
+  "chain_tpl": [
+   "Torch of Retribution"
+  ]
+ },
+ "summary": "With the torch made, Kalaran Windblade says it now needs an owner to be bound to, and tells you to pick it up.",
+ "sections": [
+  {
+   "title": "Binding the Flame",
+   "body": "Kalaran says the torch needs to be bound to its owner. To do that, you are told to take it up yourself.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Torch in Hand",
+   "body": "You take the torch in both hands, and hatred and anger pulse through you in waves.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who tells you to take the torch?",
+   "aliases": [
+    "who gives the torch",
+    "torch quest giver",
+    "kalaran torch"
+   ],
+   "answer": "Kalaran Windblade, who says it needs to be bound to its owner."
+  },
+  {
+   "q": "Why must you pick up the torch?",
+   "aliases": [
+    "why pick up the torch",
+    "torch binding"
+   ],
+   "answer": "Kalaran says the torch must be bound to its owner, and tells you to take it up."
+  },
+  {
+   "q": "Where does this step fit into the chain?",
+   "aliases": [
+    "torch quest chain",
+    "previous quest"
+   ],
+   "answer": "It follows the earlier Torch of Retribution step, in which you waited while Kalaran combined the pieces and enchanted them."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "binding",
+  "kalaran windblade",
+  "searing gorge",
+  "torch of retribution"
+ ],
+ "related": [
+  "quest:3453",
+  "zone:searinggorge"
+ ],
+ "attribution": [
+  "The Torch of Retribution (2)"
+ ]
+}

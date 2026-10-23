@@ -6,9 +6,17 @@
 import { keyOf, loadEntry, liveKeys, voiceNames, entryPage, missingLorePage, htmlHeaders } from "../../../lib/lore.js";
 import { loadVoices } from "../../../lib/voices.js";
 import { loadPacks, loadPackEntries, visiblePacks, packsForEntry } from "../../../lib/packs.js";
+import { edgeCached } from "../../../lib/edge-cache.js";
 
-export async function onRequestGet({ request, env, params, next }) {
+// Kept at the edge for 10 minutes, under a new key once the lore data changes (lib/edge-cache.js): the page is the
+// same for everyone.
+export async function onRequestGet(context) {
+  const { params, next } = context;
   if (String(params.type) === "data" && next) return next();
+  return edgeCached(context, () => render(context), { ttl: 600, versioned: true });
+}
+
+async function render({ request, env, params }) {
   const key = keyOf(params.type, params.id);
   const entry = key ? await loadEntry(env, request, key) : null;
   if (!entry) return new Response(missingLorePage(env), { status: 404, headers: htmlHeaders(env) });

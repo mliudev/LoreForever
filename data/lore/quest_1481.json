@@ -1,0 +1,116 @@
+{
+ "key": "quest:1481",
+ "type": "quest",
+ "name": "The Corrupter",
+ "era": "classic",
+ "zone": "desolace",
+ "meta": {
+  "ids": [
+   1481
+  ],
+  "level": "33",
+  "faction": "Horde",
+  "start": "Maurin Bonesplitter",
+  "end": "Maurin Bonesplitter",
+  "previous": "The Corrupter",
+  "next": "The Corrupter (3)",
+  "wiki": "The Corrupter (2)",
+  "chain": [],
+  "prev_q": [
+   "The Corrupter"
+  ],
+  "next_q": [
+   "The Corrupter (3)"
+  ],
+  "category": "Desolace",
+  "chain_tpl": [
+   "Quest:The Corrupter/Chain"
+  ]
+ },
+ "summary": "Maurin Bonesplitter believes the demon lord can be found, but first any wards the creature holds against scrying must be broken. For that, Maurin wants the scalp of a Hatefury shadowstalker, hunted in the old ruins of Desolace's northeast.",
+ "sections": [
+  {
+   "title": "Breaking the Wards",
+   "body": "Maurin Bonesplitter believes the demon lord can be found, given the proper reagents. If the lord is as powerful as Maurin suspects, those must come from deadly creatures, and Maurin is sure you, acting in the Warchief's name, will take up the challenge. The first need is to break any wards the demon has against scrying. For that Maurin wants a scalp from a satyr, though only a Hatefury shadowstalker's will serve. They are to be sought in the old ruins of Desolace's northeast, near Sargeron.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Right Scalp",
+   "body": "Maurin cautions you against bringing back the wrong scalp. The wrong reagents could get people killed, since the demon lord may carry contingency spells meant to slay anyone who tries to scry on him. Maurin adds that fate has already dealt out enough pain.",
+   "spoiler": 0
+  },
+  {
+   "title": "When You Return",
+   "body": "Maurin judges the scalp fit for his spell. While you were away he gathered some of the other reagents it needs, and he is almost ready. He lacks only a focus, an object to cast the demon lord's image and show where he is.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who sends you to gather the scalp?",
+   "aliases": [
+    "quest giver",
+    "who starts this",
+    "maurin bonesplitter"
+   ],
+   "answer": "Maurin Bonesplitter asks for it, for a spell to find the demon lord."
+  },
+  {
+   "q": "Why does Maurin specifically need a Hatefury shadowstalker scalp?",
+   "aliases": [
+    "why shadowstalker scalp",
+    "satyr scalp reason",
+    "why a satyr"
+   ],
+   "answer": "Any wards the demon lord has against scrying must be broken first. For that Maurin needs the scalp of a satyr, and only a Hatefury shadowstalker's will do."
+  },
+  {
+   "q": "Where can the Hatefury shadowstalkers be found?",
+   "aliases": [
+    "where are shadowstalkers",
+    "shadowstalker location",
+    "satyr location"
+   ],
+   "answer": "In the old ruins of Desolace's northeast, near Sargeron."
+  },
+  {
+   "q": "What are the dangers of using the wrong reagents?",
+   "aliases": [
+    "why the right scalp",
+    "wrong reagents risk",
+    "contingency spells"
+   ],
+   "answer": "Maurin warns that the wrong reagents could cause deaths. The demon lord may carry contingency spells meant to slay anyone who tries to scry on him."
+  },
+  {
+   "q": "Where does this step fit into the search for the demon lord?",
+   "aliases": [
+    "chain progression",
+    "quest order",
+    "what comes before this"
+   ],
+   "answer": "It follows the first part of The Corrupter, when you brought the flayed demon skin to Maurin."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "desolace",
+  "hatefury shadowstalker",
+  "maurin bonesplitter",
+  "sargeron",
+  "satyr",
+  "scrying",
+  "shadowstalker scalp",
+  "the corrupter"
+ ],
+ "related": [
+  "quest:1480",
+  "npc:maurin-bonesplitter",
+  "subzone:sargeron",
+  "zone:desolace",
+  "topic:satyr"
+ ],
+ "attribution": [
+  "The Corrupter (2)"
+ ]
+}

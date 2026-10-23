@@ -1,0 +1,98 @@
+{
+ "key": "quest:4265",
+ "type": "quest",
+ "name": "Freed from the Hive",
+ "era": "classic",
+ "zone": "feralas",
+ "meta": {
+  "ids": [
+   4265
+  ],
+  "level": "46",
+  "faction": "Alliance",
+  "start": "Zukk'ash Pod",
+  "end": "Ginro Hearthkindle",
+  "previous": "The Writhing Deep (quest)",
+  "next": "A Hero's Welcome (Classic)",
+  "wiki": "Freed from the Hive",
+  "chain": [],
+  "prev_q": [
+   "The Writhing Deep (quest)"
+  ],
+  "next_q": [
+   "A Hero's Welcome (Classic)"
+  ],
+  "category": "Feralas",
+  "chain_tpl": [
+   "The Missing Courier"
+  ]
+ },
+ "summary": "The pod you found in the Writhing Deep splits open at your touch, and inside is a night elf, alive though deeply stunned. He is Raschal, the missing courier. With him freed from the Zukk'ash hive, word must reach Ginro Hearthkindle in Feathermoon Stronghold that Raschal is alive and well.",
+ "sections": [
+  {
+   "title": "Out of the Pod",
+   "body": "As you help the night elf down from the pod, he stirs. He gives his name as Raschal and says he woke paralyzed inside it after the bugs overwhelmed him. He looks healthy, but is deeply stunned. He asks whether you were sent by the Stronghold.",
+   "spoiler": 0
+  },
+  {
+   "title": "Word for Feathermoon Stronghold",
+   "body": "Ginro Hearthkindle waits in Feathermoon Stronghold, and he is the one to be told that Raschal lives and is well.",
+   "spoiler": 0
+  },
+  {
+   "title": "Back at the Stronghold",
+   "body": "Raschal has already reached the Stronghold and told Ginro what happened. Ginro says the whole Stronghold cannot begin to thank you, that Raschal would have died without you arriving in time, and that you asked for no mercenary's fee. You are named a true hero, and a friend to Ginro for good.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is trapped inside the Zukk'ash pod?",
+   "aliases": [
+    "who is in the pod",
+    "who is raschal",
+    "freed from the hive trapped elf"
+   ],
+   "answer": "A night elf named Raschal, the missing courier, who woke paralyzed inside it after the bugs overwhelmed him."
+  },
+  {
+   "q": "Who do I tell once Raschal is free?",
+   "aliases": [
+    "where to turn in freed from the hive",
+    "who do i talk to after freeing raschal",
+    "ginro hearthkindle location"
+   ],
+   "answer": "Ginro Hearthkindle, in Feathermoon Stronghold, should hear that Raschal is alive and well."
+  },
+  {
+   "q": "What came before this in the search?",
+   "aliases": [
+    "what quest comes before freed from the hive",
+    "freed from the hive prerequisites",
+    "previous quest"
+   ],
+   "answer": "It follows The Writhing Deep, where you found the pod."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "courier",
+  "feathermoon stronghold",
+  "feralas",
+  "ginro hearthkindle",
+  "pod",
+  "raschal",
+  "writhing deep",
+  "zukk'ash"
+ ],
+ "related": [
+  "quest:4135",
+  "quest:4266",
+  "subzone:feathermoon-stronghold",
+  "zone:feralas",
+  "quest:4124"
+ ],
+ "attribution": [
+  "Freed from the Hive"
+ ]
+}

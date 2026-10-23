@@ -1,0 +1,110 @@
+{
+ "key": "quest:698",
+ "type": "quest",
+ "name": "Lack of Surplus",
+ "era": "classic",
+ "zone": "swampofsorrows",
+ "meta": {
+  "ids": [
+   698
+  ],
+  "level": "40",
+  "faction": "Horde",
+  "start": "Dar",
+  "end": "Tok'Kar",
+  "previous": "",
+  "next": "Lack of Surplus (2)",
+  "wiki": "Lack of Surplus",
+  "chain": [],
+  "next_q": [
+   "Lack of Surplus (2)"
+  ],
+  "category": "Swamp of Sorrows",
+  "chain_tpl": [
+   "Lack of Surplus"
+  ]
+ },
+ "summary": "Dar is gathering supplies for the outpost by the beach in the east, where Tok'Kar has little time to spare between guard shifts and cooking for the soldiers. Dar asks you to bring Tok'Kar a shipment of sawtooth meat.",
+ "sections": [
+  {
+   "title": "Supplies for the Shore",
+   "body": "Dar is collecting supplies for the outpost by the beach in the east. Tok'Kar does what is possible there, but guard shifts and cooking for the soldiers leave little time in the day. The soldiers enjoy cooking sawtooth meat when they can get it, and Dar has had no time to send them another shipment.",
+   "spoiler": 0
+  },
+  {
+   "title": "Choosing the Meat",
+   "body": "Dar warns you to leave the young sawtooths alone, for the older ones taste better. The young need a year or two to reach full size. Eight unprepared sawtooth flanks are wanted, brought to Tok'Kar in the Swamp of Sorrows.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is requesting the sawtooth meat?",
+   "aliases": [
+    "who gives lack of surplus",
+    "who starts lack of surplus",
+    "dar swamp of sorrows"
+   ],
+   "answer": "Dar, who is gathering supplies for the outpost by the beach in the east."
+  },
+  {
+   "q": "Where is Tok'Kar stationed?",
+   "aliases": [
+    "where is tok'kar",
+    "tokkar location",
+    "tok'kar outpost"
+   ],
+   "answer": "At the outpost by the beach in the east that Dar speaks of. The meat is to be delivered to Tok'Kar there, in the Swamp of Sorrows."
+  },
+  {
+   "q": "Why does Tok'Kar need others to bring meat?",
+   "aliases": [
+    "why does tok'kar need meat",
+    "why does dar send food"
+   ],
+   "answer": "Between guard shifts and cooking for the soldiers, Tok'Kar has little time left in the day."
+  },
+  {
+   "q": "Which sawtooths should be hunted?",
+   "aliases": [
+    "which sawtooths",
+    "what sawtooths drop meat",
+    "sawtooth flank source"
+   ],
+   "answer": "The older ones. The young are less tasty, and need a year or two to reach full size."
+  },
+  {
+   "q": "How many flanks are needed?",
+   "aliases": [
+    "how many flanks",
+    "unprepared sawtooth flank count"
+   ],
+   "answer": "Eight unprepared sawtooth flanks, brought to Tok'Kar."
+  },
+  {
+   "q": "What comes next in the chain?",
+   "aliases": [
+    "next quest lack of surplus",
+    "lack of surplus follow up"
+   ],
+   "answer": "A second step under the same name follows."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "dar",
+  "flank",
+  "meat",
+  "outpost",
+  "sawtooth",
+  "swamp of sorrows",
+  "tok'kar"
+ ],
+ "related": [
+  "zone:swampofsorrows",
+  "quest:699"
+ ],
+ "attribution": [
+  "Lack of Surplus"
+ ]
+}

@@ -24,6 +24,7 @@ import { perDay } from "./ratelimit.js";
 import { loadIndex, keyOf } from "./lore.js";
 import { TRIAL } from "./best-first.js";
 import { memoryPreFilter, memoryReason, MEMORY_CHECK_SYSTEM } from "./willo-memory-rules.js";
+import { createMissing } from "./schema.js";
 
 // The styles a plan can pick. text: what the answer's prompt gets (tone only; the rules and the length stay); blurb:
 // what /willo/style says about it. classic is today's Willo, with nothing added.
@@ -80,7 +81,7 @@ const SETUP = [
 const ready = new WeakSet();
 export async function setupWilloCustom(env) {
   if (ready.has(env.DB)) return;
-  await env.DB.batch(SETUP.map(s => env.DB.prepare(s)));
+  await createMissing(env, SETUP);
   ready.add(env.DB);
 }
 

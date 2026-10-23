@@ -34,7 +34,7 @@
       <a class="ad-panel ad-tile" href="#willo-stats"><div class="ad-label">Willo players this week</div><div class="ad-num" id="o-willo">-</div><div class="ad-sub" id="o-willo-sub"></div></a>
       <a class="ad-panel ad-tile" href="#community"><div class="ad-label">Open feedback and reports</div><div class="ad-num" id="o-open">-</div><div class="ad-sub" id="o-open-sub"></div></a>
       <a class="ad-panel ad-tile" href="#costs" id="o-costs-tile"><div class="ad-label">Costs this month (estimate)</div><div class="ad-num" id="o-costs">-</div><div class="ad-sub" id="o-costs-sub"></div></a>
-      <div class="ad-panel ad-tile"><div class="ad-label">Paid usage this month</div><div class="ad-num" id="t-stories">-</div><div class="ad-sub" id="t-stories-sub"></div></div>
+      <div class="ad-panel ad-tile"><div class="ad-label">Paid usage this month</div><div class="ad-num" id="t-stories">-</div><div class="ad-sub" id="t-stories-sub"></div><div class="ad-sub" id="t-pool"></div></div>
       <!-- Plans (LOR-252, lib/billing.js billingReport): paying players, the monthly revenue estimate (before Stripe's
            fees; comped and owner plans left out), accounts by plan and status, and what paying players' answers cost this month;
            finest-voice packs sold this month, their replies still unused, and what their replies cost this month. -->
@@ -180,6 +180,12 @@
       <div class="ad-table-wrap">
         <table class="ad-usage"><thead><tr><th>Plan</th><th>Reply</th><th>Voice</th><th>Players</th><th>Replies</th></tr></thead>
           <tbody id="pu-voices"></tbody></table>
+      </div>
+      <h3 style="margin-top:14px">Hosted voice cost per player <span class="ad-count">last 7 days, as a month; watch Hero's
+        (every plan hears her whole answer since Oct 21: tell the PM if a typical Hero passes $2)</span></h3>
+      <div class="ad-table-wrap">
+        <table class="ad-usage"><thead><tr><th>Plan</th><th>Players who heard her</th><th>Voice cost, 7 days</th>
+          <th>Per player, a month</th></tr></thead><tbody id="pu-voice-cost"></tbody></table>
       </div>
       <h3 style="margin-top:14px">Willo voices picked</h3>
       <div class="ad-table-wrap">
@@ -714,6 +720,6 @@
 
 <!-- The page's script is a file: /admin's Content-Security-Policy (public/_headers) runs no inline script.
      Bump ?v= when admin-page.js changes, since browsers keep .js for 4 hours on loreforeverwow.com. -->
-<script type="module" src="/admin-page.js?v=20261021a"></script>
+<script type="module" src="/admin-page.js?v=20261021y"></script>
 </body>
 </html>

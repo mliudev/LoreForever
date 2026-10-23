@@ -1,0 +1,95 @@
+{
+ "key": "quest:1370",
+ "type": "quest",
+ "name": "Stealing Supplies",
+ "era": "classic",
+ "zone": "desolace",
+ "meta": {
+  "ids": [
+   1370
+  ],
+  "level": "35",
+  "faction": null,
+  "start": "Uthek the Wise",
+  "end": "Uthek the Wise",
+  "previous": "Gelkis Alliance, Raid on the Kolkar",
+  "next": "Ongeku (quest)",
+  "wiki": "Stealing Supplies",
+  "chain": [],
+  "prev_q": [
+   "Gelkis Alliance",
+   "Raid on the Kolkar"
+  ],
+  "next_q": [
+   "Ongeku (quest)"
+  ],
+  "category": "Desolace",
+  "chain_tpl": [
+   "Gelkis Alliance quest chain"
+  ]
+ },
+ "summary": "Uthek the Wise says meat gives the Gelkis their strength, and that the Magram keep extra stores so they can fight longer between hunts. You are sent to raid the Magram village to the east and bring back six bags of dried meat.",
+ "sections": [
+  {
+   "title": "Meat and Strength",
+   "body": "Between wars the Gelkis hunt, because meat means strength and a full belly fights harder than an empty one. Uthek the Wise says the Magram keep spare stock to last them between hunts. Raid their village to the east, take those stores, and their strength will fail. Six bags of crudely dried meat are wanted, to be brought to Uthek at the Gelkis Village.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who sends you to take these supplies?",
+   "aliases": [
+    "quest giver",
+    "who gives stealing supplies",
+    "uthek the wise"
+   ],
+   "answer": "Uthek the Wise of the Gelkis, in Desolace."
+  },
+  {
+   "q": "Why does Uthek want the Magram meat taken?",
+   "aliases": [
+    "why steal meat",
+    "magram food",
+    "reason for meat raid"
+   ],
+   "answer": "To the Gelkis, meat is strength. The Magram keep a reserve so they can keep fighting between hunts, and Uthek says taking it would sap them."
+  },
+  {
+   "q": "Where are the Magram supplies kept?",
+   "aliases": [
+    "where is magram village",
+    "where are supplies",
+    "magram location"
+   ],
+   "answer": "In the Magram village, to the east."
+  },
+  {
+   "q": "How much meat does Uthek want?",
+   "aliases": [
+    "how much meat",
+    "what do i bring uthek"
+   ],
+   "answer": "Six bags of crudely dried meat, which Uthek the Wise collects at the Gelkis Village."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "centaur",
+  "desolace",
+  "gelkis",
+  "magram",
+  "meat",
+  "supplies",
+  "uthek"
+ ],
+ "related": [
+  "subzone:gelkis-village",
+  "zone:desolace",
+  "topic:centaur",
+  "quest:1382"
+ ],
+ "attribution": [
+  "Stealing Supplies"
+ ]
+}

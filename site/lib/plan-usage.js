@@ -22,6 +22,7 @@ import { isReportRead } from "./report-read.js";
 
 import { setupAnswerLog, KEEP_DAYS as ANSWER_LOG_DAYS } from "./answer-log.js";
 import { setupBilling, PLANS } from "./billing.js";
+import { createMissing } from "./schema.js";
 
 export const KEEP_DAYS = 90;
 const SETUP = [
@@ -41,7 +42,7 @@ const ready = new WeakMap();
 export async function setupPlanUsage(env) {
   if (isReportRead(env)) return;
   if (ready.get(env.DB)) return;
-  await env.DB.batch(SETUP.map(sql => env.DB.prepare(sql)));
+  await createMissing(env, SETUP);
   ready.set(env.DB, true);
 }
 
@@ -129,8 +130,16 @@ export const PLAN_USAGE_USER_DATA = [
 
 // The last `days` UTC days by plan label, for /api/admin (and the pricing page's numbers):
 //   {days, since, limits: [{plan, kind, players, n}], voices: [{plan, kind, said, players, replies, chars}],
-//    picks: [{plan, pick, players, replies}]}
+//    picks: [{plan, pick, players, replies}], voiceCost}
+// voiceCost: [{plan, players, micro, perPlayerMonth}] what the hosted voice cost each plan in the last VOICE_COST_DAYS
+// days, whatever `days` is, and that per player who heard it, as a 30-day month (millionths of a dollar): the PM
+// watches Hero's weekly now that every plan hears her whole answer (10/21: tell the PM above ~$2 a month).
 // Rows older than KEEP_DAYS go first. now: a Date or milliseconds (/api/admin passes Date.now()).
+export const VOICE_COST_DAYS = 7;
+// A letter's cost by the voice that said it (lib/companion-voice.js MICRO_PER_CHAR): the studio voice $1 a million,
+// the finest $15, Legend's richer one $25 (smarterLabel: Legend's labels), a character's own voice $15; the PC's, none.
+const voiceMicro = (plan, said) => said.startsWith("studio") ? 1
+  : said.startsWith("finest") ? (smarterLabel(plan) ? 25 : 15) : said.startsWith("hosted") ? 15 : 0;
 export async function planUsageReport(env, { days = 14, now = new Date() } = {}) {
   now = new Date(now);
   await setupPlanUsage(env);
@@ -140,15 +149,28 @@ export async function planUsageReport(env, { days = 14, now = new Date() } = {})
   if (!isReportRead(env)) await env.DB.batch([env.DB.prepare("DELETE FROM limit_hits WHERE day < ?").bind(oldest),
     env.DB.prepare("DELETE FROM voice_days WHERE day < ?").bind(oldest)]);
   const all = (sql, ...binds) => env.DB.prepare(sql).bind(...binds).all().then(r => r.results);
-  const [limits, voices, picks] = await Promise.all([
+  const weekFrom = dayOf(new Date(now.getTime() - (VOICE_COST_DAYS - 1) * 864e5));
+  const [limits, voices, picks, week] = await Promise.all([
     all("SELECT COALESCE(plan, '') AS plan, kind, COUNT(DISTINCT user_id) AS players, SUM(n) AS n FROM limit_hits " +
       "WHERE day >= ? GROUP BY plan, kind ORDER BY plan, kind", since),
     all("SELECT COALESCE(plan, '') AS plan, kind, said, COUNT(DISTINCT user_id) AS players, SUM(replies) AS replies, " +
       "SUM(chars) AS chars FROM voice_days WHERE day >= ? GROUP BY plan, kind, said ORDER BY plan, kind, said", since),
     all("SELECT COALESCE(plan, '') AS plan, pick, COUNT(DISTINCT user_id) AS players, SUM(replies) AS replies " +
       "FROM voice_days WHERE day >= ? AND kind = 'willo' AND pick != '' GROUP BY plan, pick ORDER BY plan, pick", since),
+    all("SELECT COALESCE(plan, '') AS plan, said, user_id, SUM(chars) AS chars FROM voice_days WHERE day >= ? " +
+      "GROUP BY plan, said, user_id", weekFrom),
   ]);
-  return { days: span, since, limits, voices, picks };
+  const cost = new Map();
+  for (const r of week) {
+    const c = cost.get(r.plan) || { plan: r.plan, players: new Set(), micro: 0 };
+    const micro = (r.chars || 0) * voiceMicro(r.plan, r.said || "");
+    if (micro) { c.players.add(r.user_id); c.micro += micro; }
+    cost.set(r.plan, c);
+  }
+  const voiceCost = [...cost.values()].filter(c => c.micro).map(c => ({ plan: c.plan, players: c.players.size,
+    micro: c.micro, perPlayerMonth: Math.round(c.micro / c.players.size * 30 / VOICE_COST_DAYS) }))
+    .sort((a, b) => a.plan.localeCompare(b.plan));
+  return { days: span, since, limits, voices, picks, voiceCost };
 }
 
 // When the plan labels, limit hits, voices and checkout sources started being kept (PRs #1322, #1323): a day range

@@ -1,0 +1,100 @@
+{
+ "key": "quest:680",
+ "type": "quest",
+ "name": "The Real Threat",
+ "era": "classic",
+ "zone": "arathi",
+ "meta": {
+  "ids": [
+   680
+  ],
+  "level": "40",
+  "faction": "Horde",
+  "start": "Korin Fel",
+  "end": "Korin Fel",
+  "previous": "Call to Arms",
+  "next": "",
+  "wiki": "The Real Threat (Classic)",
+  "chain": [
+   "The Hammer May Fall",
+   "Call to Arms (1)",
+   "Call to Arms (2)",
+   "Call to Arms (3)",
+   "The Real Threat (Classic)"
+  ],
+  "prev_q": [
+   "Call to Arms"
+  ],
+  "category": "Arathi Highlands"
+ },
+ "summary": "Following Call to Arms, Korin Fel tells you that her husband is unaware of why Hammerfall is under attack, and asks you to slay the ogre Or'Kalar and bring her his head.",
+ "sections": [
+  {
+   "title": "A Grudge Against Her Husband",
+   "body": "Korin Fel says you serve her husband well, yet he has no idea why Hammerfall is being attacked. The cause is Or'Kalar, Mug'thol's pawn in Stromgarde, who hates her husband for defeating him years ago and wants him dead. Her auguries tell her the ogre has set a trap for him.",
+   "spoiler": 0
+  },
+  {
+   "title": "What Korin Hides",
+   "body": "Korin has hidden the signs of the ogre's presence from her husband, who she believes would rush off foolishly if he knew where Or'Kalar is. She asks for your help instead. You will find Or'Kalar near the Tower of Arathor, and she expects his death to end the attacks on Hammerfall.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Korin Fel trying to protect?",
+   "aliases": [
+    "korin husband",
+    "why does korin need help"
+   ],
+   "answer": "Her husband. Her auguries tell her Or'Kalar has set a trap for him, and the ogre wants him dead for defeating him years ago."
+  },
+  {
+   "q": "Why is Or'Kalar attacking Hammerfall?",
+   "aliases": [
+    "why does or'kalar hate korin's husband",
+    "who is or'kalar",
+    "or'kalar motive"
+   ],
+   "answer": "Korin Fel calls Or'Kalar Mug'thol's pawn in Stromgarde, filled with hatred for her husband, who defeated him years ago. She says his death would stop the attacks."
+  },
+  {
+   "q": "Where is Or'Kalar located?",
+   "aliases": [
+    "or'kalar location",
+    "where to find or'kalar",
+    "find or'kalar"
+   ],
+   "answer": "Korin Fel says he is near the Tower of Arathor."
+  },
+  {
+   "q": "Why does Korin keep the threat a secret from her husband?",
+   "aliases": [
+    "why keep it secret",
+    "why hide or'kalar",
+    "korin secret"
+   ],
+   "answer": "She fears he would rush off foolishly if he learned where the ogre is, so she has kept him from seeing any trace of Or'Kalar."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "arathi highlands",
+  "hammerfall",
+  "korin fel",
+  "mug'thol",
+  "or'kalar",
+  "stromgarde",
+  "tower of arathor"
+ ],
+ "related": [
+  "quest:677",
+  "quest:676",
+  "subzone:hammerfall",
+  "subzone:tower-of-arathor",
+  "zone:arathi"
+ ],
+ "attribution": [
+  "The Real Threat (Classic)"
+ ]
+}

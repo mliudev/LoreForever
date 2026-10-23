@@ -1,0 +1,109 @@
+{
+ "key": "quest:1482",
+ "type": "quest",
+ "name": "The Corrupter",
+ "era": "classic",
+ "zone": "desolace",
+ "meta": {
+  "ids": [
+   1482
+  ],
+  "level": "35",
+  "faction": "Horde",
+  "start": "Maurin Bonesplitter",
+  "end": "Maurin Bonesplitter",
+  "previous": "The Corrupter (2)",
+  "next": "The Corrupter (4)",
+  "wiki": "The Corrupter (3)",
+  "chain": [],
+  "prev_q": [
+   "The Corrupter (2)"
+  ],
+  "next_q": [
+   "The Corrupter (4)"
+  ],
+  "category": "Desolace",
+  "chain_tpl": [
+   "Quest:The Corrupter/Chain"
+  ]
+ },
+ "summary": "Maurin Bonesplitter wants an oracle crystal, which the naga craft for their oracles, in order to find the demon lord Azrethoc. A vast coral reef lies northwest along the coast, home to the Slitherblade naga, and they will not welcome you.",
+ "sections": [
+  {
+   "title": "An Oracle Crystal",
+   "body": "Maurin Bonesplitter says an oracle crystal will do the job of finding the demon lord Azrethoc, whose signature was on the skin you brought. Naga craft such crystals, and their oracles use them. Up the coast to the northwest lies a vast coral reef which the naga have made their home while near the shore, and the oracles can be found in that place. The Slitherblade there are deadly and will take your intrusion badly, so Maurin urges you to go carefully and quickly.",
+   "spoiler": 0
+  },
+  {
+   "title": "A Shared Prize",
+   "body": "Maurin points out that finding and destroying Lord Azrethoc would earn both of you much favor with the Warchief. Working together, and swiftly, would serve the ends of each.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Why does Maurin Bonesplitter need an oracle crystal?",
+   "aliases": [
+    "why oracle crystal",
+    "what is the crystal for",
+    "maurin crystal purpose"
+   ],
+   "answer": "He means to find the demon lord Azrethoc, and an oracle crystal is what he asks for to do it."
+  },
+  {
+   "q": "Where are the oracle crystals found?",
+   "aliases": [
+    "where to find crystal",
+    "oracle crystal location",
+    "where are slitherblade oracles"
+   ],
+   "answer": "The naga make them for their own oracles, and those oracles are in the vast coral reef northwest of Maurin, along the coast."
+  },
+  {
+   "q": "Who are the Slitherblade?",
+   "aliases": [
+    "what are slitherblade",
+    "slitherblade naga",
+    "who lives in the reef"
+   ],
+   "answer": "They are naga who have made a vast coral reef near the shore their home. Maurin calls them deadly and says they will take intruders badly."
+  },
+  {
+   "q": "Who is Azrethoc?",
+   "aliases": [
+    "who is azrethoc",
+    "demon lord azrethoc",
+    "what demon is maurin hunting"
+   ],
+   "answer": "Azrethoc is the demon lord whose signature was on the skin you brought Maurin. Maurin wants to find and destroy him."
+  },
+  {
+   "q": "What motivates Maurin to hunt this demon?",
+   "aliases": [
+    "maurin motivation",
+    "why hunt azrethoc",
+    "warchief favor"
+   ],
+   "answer": "Maurin says finding and destroying Lord Azrethoc would earn both of you much favor with the Warchief."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "azrethoc",
+  "corrupter",
+  "desolace",
+  "maurin bonesplitter",
+  "naga",
+  "oracle crystal",
+  "slitherblade",
+  "warchief"
+ ],
+ "related": [
+  "npc:maurin-bonesplitter",
+  "zone:desolace",
+  "topic:naga"
+ ],
+ "attribution": [
+  "The Corrupter (3)"
+ ]
+}

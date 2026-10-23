@@ -1,0 +1,96 @@
+{
+ "key": "quest:594",
+ "type": "quest",
+ "name": "Message in a Bottle",
+ "era": "classic",
+ "zone": "stranglethorn",
+ "meta": {
+  "ids": [
+   594
+  ],
+  "level": "45",
+  "faction": null,
+  "start": "Half-Buried Bottle",
+  "end": "Princess Poobah",
+  "previous": "",
+  "next": "Message in a Bottle (2)",
+  "wiki": "Message in a Bottle (Classic)",
+  "chain": [
+   "Message in a Bottle (Classic)",
+   "Message in a Bottle (2)"
+  ],
+  "next_q": [
+   "Message in a Bottle (2)"
+  ],
+  "category": "Stranglethorn Vale"
+ },
+ "summary": "A washed-up bottle found along the shores of Stranglethorn Vale holds an urgent plea for rescue. Its author claims to be held prisoner by a great beast on an isolated island in the South Seas.",
+ "sections": [
+  {
+   "title": "A Plea from the Waves",
+   "body": "Inside a glass container half-buried in the sand lies a neatly penned note asking for immediate assistance. The captive reports being trapped on a foreign island beneath thick jungle canopies, held by a great Skymane. Glimpses through the trees offer only faint landmarks: the coast of Wild Shore lies visible to the northwest, while large sailing vessels drift to the southwest.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Writer of the Note",
+   "body": "Following the nautical directions leads across the water to an offshore isle, where the message's writer awaits. The stranded captive is Princess Poobah, desperate for an adventurer to finally reach her and offer a chance at freedom.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "What does the note in the bottle say?",
+   "aliases": [
+    "note contents",
+    "bottle note",
+    "what is written in the bottle"
+   ],
+   "answer": "The message is an urgent plea written in clear handwriting. It explains that the author is held prisoner by a great Skymane on an island in the South Seas and begs whoever discovers the note for rescue."
+  },
+  {
+   "q": "Where does the writer say the island is located?",
+   "aliases": [
+    "island location",
+    "how to find the captive",
+    "island landmarks"
+   ],
+   "answer": "While jungle trees obscure the stars at night, the captive notes that on clear days the Wild Shore can be seen to the northwest, and large sailing vessels appear to the southwest."
+  },
+  {
+   "q": "What is holding the author captive?",
+   "aliases": [
+    "who captured the author",
+    "what holds the author captive",
+    "skymane captor"
+   ],
+   "answer": "The note states that a creature called a great Skymane is holding the author prisoner upon the island."
+  },
+  {
+   "q": "Does this lead to further adventures?",
+   "aliases": [
+    "next quest",
+    "is there a follow up",
+    "what happens after this"
+   ],
+   "answer": "Finding the sender is the first part of a two-step chain, leading directly into a second part upon locating the captive."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "half-buried bottle",
+  "message in a bottle",
+  "princess poobah",
+  "skymane",
+  "south seas",
+  "stranglethorn vale",
+  "wild shore"
+ ],
+ "related": [
+  "subzone:wild-shore",
+  "subzone:south-seas",
+  "zone:stranglethorn"
+ ],
+ "attribution": [
+  "Message in a Bottle (Classic)"
+ ]
+}

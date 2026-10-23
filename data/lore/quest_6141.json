@@ -1,0 +1,89 @@
+{
+ "key": "quest:6141",
+ "type": "quest",
+ "name": "Brother Anton",
+ "era": "classic",
+ "zone": "desolace",
+ "meta": {
+  "ids": [
+   6141
+  ],
+  "level": "39",
+  "faction": "Alliance",
+  "start": "Brother Crowley",
+  "end": "Brother Anton",
+  "previous": "",
+  "next": "Down the Scarlet Path",
+  "wiki": "Brother Anton (quest)",
+  "chain": [
+   "Brother Anton (quest)",
+   "Down the Scarlet Path",
+   "Down the Scarlet Path (2)",
+   "In the Name of the Light"
+  ],
+  "next_q": [
+   "Down the Scarlet Path"
+  ],
+  "category": "Desolace"
+ },
+ "summary": "Brother Crowley speaks of Brother Anton, a fellow warrior who learned of undead in distant Kalimdor and booked passage at once to destroy them. Anton is looking for people with bravery and resolve, and waits in Nijel's Point in Desolace.",
+ "sections": [
+  {
+   "title": "A Brother Abroad",
+   "body": "Brother Crowley says rumors of an undead infestation in Desolace, a land in far-off Kalimdor, reached Anton, who immediately booked passage to seek and destroy the menace. Anton wants help from those with bravery and resolve. If your heart is true, Crowley tells you to speak with Anton in Nijel's Point, the Alliance town in Desolace.",
+   "spoiler": 0
+  },
+  {
+   "title": "Word from the East",
+   "body": "Brother Anton has already received word that aid is arriving from the east. He asks whether you are the source of those rumors, and whether you have come to help with the crusade of the Scarlet Brother.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Brother Anton?",
+   "aliases": [
+    "who is anton",
+    "brother anton lore",
+    "anton desolace"
+   ],
+   "answer": "Brother Anton is the brother in arms of Brother Crowley. He heard that undead were infesting Desolace and booked passage there to destroy them."
+  },
+  {
+   "q": "Where can Brother Anton be found?",
+   "aliases": [
+    "where is brother anton",
+    "anton location",
+    "brother anton spot"
+   ],
+   "answer": "Brother Anton is in Nijel's Point, the Alliance town in Desolace."
+  },
+  {
+   "q": "Why did Brother Anton go to Kalimdor?",
+   "aliases": [
+    "why is anton in desolace",
+    "anton mission desolace",
+    "why did anton travel"
+   ],
+   "answer": "Rumors of undead infesting Desolace, in Kalimdor, reached him, and he booked passage straight away to destroy them."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "brother anton",
+  "brother crowley",
+  "desolace",
+  "nijel's point",
+  "scarlet",
+  "undead"
+ ],
+ "related": [
+  "quest:261",
+  "subzone:nijel-s-point",
+  "zone:desolace",
+  "topic:alliance"
+ ],
+ "attribution": [
+  "Brother Anton (quest)"
+ ]
+}

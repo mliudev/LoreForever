@@ -90,6 +90,7 @@ import { storesReport } from "../../lib/stores.js";
 import { checkinReport, checkinWeeks } from "../../lib/checkins.js";
 import { featureReport } from "../../lib/featureuse.js";
 import { billingReport, payDay, betaCoupon, PAID, PLANS, voicePicks } from "../../lib/billing.js";
+import { poolReport } from "../../lib/free-pool.js";
 import { sendEmail, senderOf, emailService, REPLY_TO } from "../../lib/email.js";
 import { featureOn } from "../../lib/features.js";
 import { thankYouEmail } from "../../lib/thanks.js";
@@ -210,7 +211,7 @@ export async function onRequestGet({ request, env, waitUntil }) {
 
   const [[[subscribers, feedback, downloads, clicks, voices, translations, translationReports, users, signupCounts,
            signupDays], usage, activity, funnel], [spend, answerSpend], plans, contributions, site,
-         [downloadTotals, downloadSources], features, stores, companions, companionWeeks, willo, taste, planUsage] =
+         [downloadTotals, downloadSources], features, stores, companions, companionWeeks, willo, taste, planUsage, pool] =
     await Promise.all([
     accountCounts,
     // Profile stories (lib/profiles.js): what this month's cost so far against the monthly budget.
@@ -245,6 +246,8 @@ export async function onRequestGet({ request, env, waitUntil }) {
     part("taste", () => safe(tasteReport(env, isReportRead(env) ? new Date(now) : now))),
     // What each plan's players use (lib/plan-usage.js): limits hit, voices that said their replies, picks.
     part("planUsage", () => safe(planUsageReport(env, { now }))),
+    // The free pool (lib/free-pool.js poolReport): used, today's allowance and stop, pace and the month's alerts.
+    part("pool", () => safe(poolReport(env, new Date(now)))),
   ]);
   const signups = { ...(signupCounts || { accounts: 0, profiles: 0, public: 0, today: 0, week: 0, month: 0 }),
                     days: signupDays };
@@ -265,7 +268,7 @@ export async function onRequestGet({ request, env, waitUntil }) {
   return json({ subscribers, feedback, downloads, clicks: clicks || 0, voices, translations, translationReports, users,
                 stories, answers, plans, contributions, signups, usage, site, downloadTotals, downloadSources, activity, funnel,
                 features, willo: willo && { ...willo, subscriptions: plans?.subscriptions || null, taste: taste || null },
-                planUsage: planUsage || null,
+                planUsage: planUsage || null, pool: pool || null,
                 // Slack #player-feedback forwarding (lib/slack-feedback.js): "webhook", "bot token", "log", "off" or
                 // why what's set is unused. scripts/feedback-setup.mjs checks it.
                 slackFeedback: slackState(env).state },

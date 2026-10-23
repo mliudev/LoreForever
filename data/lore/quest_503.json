@@ -1,0 +1,113 @@
+{
+ "key": "quest:503",
+ "type": "quest",
+ "name": "Gol'dir",
+ "era": "classic",
+ "zone": "hillsbrad",
+ "meta": {
+  "ids": [
+   503
+  ],
+  "level": "36",
+  "faction": "Horde",
+  "start": "Krusk",
+  "end": "Gol'dir",
+  "previous": "Infiltration (Classic)",
+  "next": "Blackmoore's Legacy",
+  "wiki": "Gol'dir (quest)",
+  "chain": [
+   "The Rescue",
+   "Infiltration (Classic)",
+   "Gol'dir (quest)",
+   "Blackmoore's Legacy",
+   "Lord Aliden Perenolde (quest)",
+   "Taretha's Gift"
+  ],
+  "prev_q": [
+   "Infiltration (Classic)"
+  ],
+  "next_q": [
+   "Blackmoore's Legacy"
+  ],
+  "category": "Hillsbrad Foothills"
+ },
+ "summary": "Krusk has gone through the documents you procured and concludes that Gol'dir is kept in a big Syndicate base up north, quite possibly in the Alterac Mountains. Gol'dir has languished in captivity far too long and needs to be freed.",
+ "sections": [
+  {
+   "title": "A Trail to the North",
+   "body": "Krusk, in Tarren Mill, has gone through the documents you brought back after Infiltration. They point to Gol'dir being kept in a big Syndicate base up north, quite possibly in the Alterac Mountains. Krusk says the captivity has dragged on far too long and Gol'dir needs to be freed.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Inn at Strahnbrad",
+   "body": "Gol'dir is held in the top room of the inn at Strahnbrad, and the inn is packed with Syndicate. A Rusted Iron Key opens the lock, and Jailor Borhuin carries it; Borhuin may be in any building of the town.",
+   "spoiler": 0
+  },
+  {
+   "title": "What Gol'dir Says",
+   "body": "Once freed, Gol'dir explains that the Warchief's orders sent him leading an expedition out of Durotar, and the plans went somewhat awry. The Syndicate has kept him in that town, forcing him to work, hauling burdens and digging. He brushes his suffering aside, for there is important information to be delivered to whoever now leads the group.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is holding Gol'dir captive?",
+   "aliases": [
+    "who captured goldir",
+    "who has goldir",
+    "goldir captors"
+   ],
+   "answer": "The Syndicate holds him in a large base to the north."
+  },
+  {
+   "q": "Where is Gol'dir imprisoned?",
+   "aliases": [
+    "goldir location",
+    "where is goldir",
+    "find goldir"
+   ],
+   "answer": "In the top room of the inn at Strahnbrad, which is packed with Syndicate."
+  },
+  {
+   "q": "How is Gol'dir's lock opened?",
+   "aliases": [
+    "rusted iron key",
+    "how to unlock goldir",
+    "goldir key"
+   ],
+   "answer": "With a Rusted Iron Key, carried by Jailor Borhuin, who may be in any building of Strahnbrad."
+  },
+  {
+   "q": "What came before this step in the chain?",
+   "aliases": [
+    "previous quest",
+    "what quest comes before goldir",
+    "chain before goldir"
+   ],
+   "answer": "Infiltration, in which you procured the documents that point to where Gol'dir is held."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "alterac",
+  "borhuin",
+  "gol'dir",
+  "key",
+  "krusk",
+  "strahnbrad",
+  "syndicate",
+  "tarren mill"
+ ],
+ "related": [
+  "quest:533",
+  "quest:506",
+  "subzone:strahnbrad",
+  "zone:alterac",
+  "npc:krusk",
+  "topic:syndicate",
+  "zone:durotar"
+ ],
+ "attribution": [
+  "Gol'dir (quest)"
+ ]
+}

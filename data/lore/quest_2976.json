@@ -1,0 +1,106 @@
+{
+ "key": "quest:2976",
+ "type": "quest",
+ "name": "A Grim Discovery",
+ "era": "classic",
+ "zone": "feralas",
+ "meta": {
+  "ids": [
+   2976
+  ],
+  "level": "45",
+  "faction": "Horde",
+  "start": "Krueg Skullsplitter",
+  "end": "Belgrom Rockmaul",
+  "previous": "A Grim Discovery (Classic)",
+  "next": "",
+  "wiki": "A Grim Discovery (2)",
+  "chain": [
+   "A New Cloak's Sheen",
+   "A Grim Discovery (Classic)",
+   "A Grim Discovery (2)"
+  ],
+  "prev_q": [
+   "A Grim Discovery (Classic)"
+  ],
+  "category": "Feralas"
+ },
+ "summary": "Krueg Skullsplitter admits to having mentioned a bounty, and says the one who did the work deserves the best of the payoff. The horns are put in a crate for you to carry to Belgrom Rockmaul, found in the Valley of Honor in Orgrimmar, who will want your account. This follows the first A Grim Discovery.",
+ "sections": [
+  {
+   "title": "The Crate of Horns",
+   "body": "After the first A Grim Discovery, Krueg Skullsplitter is taken aback, then admits to mentioning a bounty. You did the work, so Krueg feels it only right that you take the best of the payoff. The horns are packed into a crate for you. The crate goes to Belgrom Rockmaul, found in the Valley of Honor, who wishes to hear what you saw and will make your hard work worth it.",
+   "spoiler": 0
+  },
+  {
+   "title": "Belgrom's Interest",
+   "body": "Belgrom Rockmaul is struck by news of the Grimtotem and asks whether you truly met them out on a hunt in Feralas. Belgrom's peers will want the story, so you are asked to tell more while the coin is counted out. Belgrom ends with thanks for the information.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who gives this part of A Grim Discovery?",
+   "aliases": [
+    "who gives a grim discovery",
+    "krueg skullsplitter quest",
+    "quest giver a grim discovery 2"
+   ],
+   "answer": "Krueg Skullsplitter, who has the horns put in a crate for you."
+  },
+  {
+   "q": "Where does the crate of Grimtotem horns go?",
+   "aliases": [
+    "where do i take the horns",
+    "belgrom rockmaul location",
+    "turn in grim discovery 2"
+   ],
+   "answer": "To Belgrom Rockmaul, who waits in the Valley of Honor in Orgrimmar."
+  },
+  {
+   "q": "Why is the bounty yours?",
+   "aliases": [
+    "why grimtotem horns",
+    "bounty grim discovery"
+   ],
+   "answer": "Krueg says you did the work, so the best of the payoff should rightly be yours."
+  },
+  {
+   "q": "What does Belgrom want from you?",
+   "aliases": [
+    "belgrom rockmaul grimtotem",
+    "why care about feralas grimtotem"
+   ],
+   "answer": "Krueg says Belgrom will be eager to hear what you saw, and will make your hard work worth it."
+  },
+  {
+   "q": "What comes before this step?",
+   "aliases": [
+    "grim discovery chain",
+    "prerequisite for grim discovery 2",
+    "prior quests"
+   ],
+   "answer": "The first A Grim Discovery, in which you brought Krueg Grimtotem horns."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "belgrom rockmaul",
+  "bounty",
+  "feralas",
+  "grimtotem",
+  "horns",
+  "krueg skullsplitter",
+  "orgrimmar",
+  "valley of honor"
+ ],
+ "related": [
+  "quest:2974",
+  "zone:feralas",
+  "zone:orgrimmar",
+  "subzone:valley-of-honor"
+ ],
+ "attribution": [
+  "A Grim Discovery (2)"
+ ]
+}

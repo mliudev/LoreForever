@@ -7,16 +7,16 @@
  "meta": {
   "wiki": "Wailing Caverns"
  },
- "summary": "Tucked into the bluffs above Lushwater Oasis in the Barrens, the Wailing Caverns are a sprawling network of subterranean springs and caverns. Originally explored by the night elf druid Naralex to restore lush vitality to the arid plains, the complex has instead become a twisted den of nightmares, mutated wildlife, and corrupted druids.",
+ "summary": "Tucked into the bluffs above Lushwater Oasis in the Barrens, the Wailing Caverns are a sprawling network of subterranean springs and caverns. Originally explored by the night elf druid Naralex to restore lush vitality to the arid plains, the subterranean complex has instead become a twisted haven of bizarre mutations, agitated wildlife, and unnatural perils whose true source remains an unsettling mystery.",
  "sections": [
-  {
-   "title": "The Dream Curdled",
-   "body": "The caverns earn their name from the eerie, mournful wails that escape rock fissures when natural underground geysers erupt into steam. The night elf druid Naralex ventured into these deep waterways with his faithful followers, hoping to tap into the subterranean network and channel the Emerald Dream to make the barren savannas bloom. Instead, Naralex's consciousness was trapped within the Emerald Nightmare. The festering corruption bleeds outward through the slumbering druid, warping the springs and turning local beasts into unnatural deviate horrors.",
-   "spoiler": 0
-  },
   {
    "title": "The Druids of the Fang",
    "body": "As Naralex's slumber twisted into madness, his closest disciples were driven insane by the intrusive Nightmare. Renouncing their ancient traditions, they forged the Druids of the Fang under leaders like Lady Anacondra, embracing venomous snake aspects and defending their sleeping master from any who would break the trance. The subterranean waterways now threaten to poison the oases throughout the Barrens, drawing the attention of both concerned Cenarion Circle allies in Thunder Bluff and opportunistic goblins in Ratchet.",
+   "spoiler": 1
+  },
+  {
+   "title": "The Dream Curdled",
+   "body": "The caverns earn their name from the eerie, mournful wails that escape rock fissures when natural underground geysers erupt into steam. The night elf druid Naralex ventured into these deep waterways with his faithful followers, hoping to tap into the subterranean network and channel the Emerald Dream to make the barren savannas bloom. Instead, Naralex's consciousness was trapped within the Emerald Nightmare. The festering corruption bleeds outward through the slumbering druid, warping the springs and turning local beasts into unnatural deviate horrors.",
    "spoiler": 1
   }
  ],

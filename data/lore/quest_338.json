@@ -1,0 +1,113 @@
+{
+ "key": "quest:338",
+ "type": "quest",
+ "name": "The Green Hills of Stranglethorn",
+ "era": "classic",
+ "zone": "stranglethorn",
+ "meta": {
+  "ids": [
+   338
+  ],
+  "level": "40",
+  "faction": null,
+  "start": "Barnil Stonepot",
+  "end": "Barnil Stonepot",
+  "previous": "Welcome to the Jungle (Classic)",
+  "next": "Chapter I, Chapter II, Chapter III, Chapter IV",
+  "wiki": "The Green Hills of Stranglethorn (Classic)",
+  "chain": [],
+  "category": "Stranglethorn Vale",
+  "chain_tpl": [
+   "The Green Hills of Stranglethorn (Classic)"
+  ],
+  "prev_q": [
+   "Welcome to the Jungle (Classic)"
+  ],
+  "next_q": [
+   "Chapter I",
+   "Chapter II",
+   "Chapter III",
+   "Chapter IV"
+  ]
+ },
+ "summary": "Barnil Stonepot was trusted to proofread the manuscript for Hemet Nesingwary's novel, but a fierce gust of wind scattered the loose pages across the jungle. To spare him his master's anger, you are asked to scour the wilds, assemble the missing pages into four complete chapters, and return the finished work.",
+ "sections": [
+  {
+   "title": "A Scattered Manuscript",
+   "body": "Following your arrival in the expedition camp after Welcome to the Jungle, Barnil Stonepot finds himself facing a disaster. While reviewing the draft of Hemet Nesingwary's novel, The Green Hills of Stranglethorn, a sudden gale caught the loose leaves and flung them into the wild. Though he managed to recover a fair portion of the work, many sheets remain lost in the brush. To keep his master from discovering the mishap, he needs every misplaced page tracked down and compiled into Chapter I, Chapter II, Chapter III, and Chapter IV.",
+   "spoiler": 0
+  },
+  {
+   "title": "Preserving the Hunter's Tale",
+   "body": "Bringing back the four completed sections spares Barnil from an unpleasant confrontation with Nesingwary. With the chapters gathered safely in hand, he hopes the restored work will soon find its way into libraries across the world.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who wrote The Green Hills of Stranglethorn?",
+   "aliases": [
+    "author of green hills of stranglethorn",
+    "who wrote the book",
+    "nesingwary book"
+   ],
+   "answer": "The novel was written by the expedition's leader, Hemet Nesingwary, who entrusted the draft to Barnil Stonepot for proofreading."
+  },
+  {
+   "q": "How were the pages lost?",
+   "aliases": [
+    "why are pages scattered",
+    "what happened to the pages",
+    "how did pages blow away"
+   ],
+   "answer": "A powerful gust of wind blew directly through the hunting camp while Barnil was reviewing the manuscript, scattering the loose sheets across the jungle."
+  },
+  {
+   "q": "What is needed to finish the manuscript?",
+   "aliases": [
+    "what chapters are needed",
+    "how to complete green hills",
+    "manuscript requirements"
+   ],
+   "answer": "You must collect the scattered pages and assemble them into four distinct parts: Chapter I, Chapter II, Chapter III, and Chapter IV, then hand the full set to Barnil."
+  },
+  {
+   "q": "Where did this assignment come from?",
+   "aliases": [
+    "green hills prerequisite",
+    "quest before green hills",
+    "how do i get this quest"
+   ],
+   "answer": "Barnil offers this job at the expedition camp in Stranglethorn Vale after you complete Welcome to the Jungle."
+  },
+  {
+   "q": "What does Barnil intend to do with the restored novel?",
+   "aliases": [
+    "why collect the pages",
+    "what happens to the book",
+    "where will the book go"
+   ],
+   "answer": "Beyond saving himself from Nesingwary's wrath, Barnil expects the completed manuscript will eventually be distributed to libraries across the world."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "barnil stonepot",
+  "chapters",
+  "green hills of stranglethorn",
+  "hemet nesingwary",
+  "manuscript",
+  "pages",
+  "stranglethorn vale"
+ ],
+ "related": [
+  "quest:339",
+  "quest:340",
+  "quest:341",
+  "quest:342",
+  "zone:stranglethorn"
+ ],
+ "attribution": [
+  "The Green Hills of Stranglethorn (Classic)"
+ ]
+}

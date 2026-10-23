@@ -1,0 +1,88 @@
+{
+ "key": "quest:1422",
+ "type": "quest",
+ "name": "Threat From the Sea",
+ "era": "classic",
+ "zone": "swampofsorrows",
+ "meta": {
+  "ids": [
+   1422
+  ],
+  "level": "45",
+  "faction": "Horde",
+  "start": "Tok'Kar",
+  "end": "Katar",
+  "previous": "Lack of Surplus (2)",
+  "next": "Threat From the Sea (2)",
+  "wiki": "Threat From the Sea",
+  "chain": [],
+  "prev_q": [
+   "Lack of Surplus (2)"
+  ],
+  "next_q": [
+   "Threat From the Sea (2)"
+  ],
+  "category": "Swamp of Sorrows",
+  "chain_tpl": [
+   "Lack of Surplus"
+  ]
+ },
+ "summary": "After Lack of Surplus, Tok'Kar begins work on your weapon and tells you to speak with Katar in the Swamp of Sorrows. Katar has said patrols along the beach could use some help.",
+ "sections": [
+  {
+   "title": "A Word with Katar",
+   "body": "While working on your weapon, Tok'Kar suggests you talk to Katar, who has said patrols along the beach could use some help. Tok'Kar shares the camp with some louses who drink, and would rather see you keep your wits sharp and your weapons ready than join them.",
+   "spoiler": 0
+  },
+  {
+   "title": "Over the Roar of the Sea",
+   "body": "Katar asks you for a moment of silence. Above the sea's dull roar, the disgusting gurgling of the fish men can still be heard.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Why does Tok'Kar send you to Katar?",
+   "aliases": [
+    "why talk to katar",
+    "tok'kar reason",
+    "why visit katar"
+   ],
+   "answer": "Tok'Kar is busy with your weapon, and would rather you kept your wits and arms ready than got drunk with the louses sharing the camp."
+  },
+  {
+   "q": "What does Katar need assistance with?",
+   "aliases": [
+    "katar problem",
+    "what does katar want",
+    "katar patrol"
+   ],
+   "answer": "Katar has remarked that the patrols along the beach could use some help, and that is what Katar is after."
+  },
+  {
+   "q": "What came before this step?",
+   "aliases": [
+    "previous quest",
+    "prereq",
+    "threat from the sea chain"
+   ],
+   "answer": "It follows Lack of Surplus, after which Tok'Kar begins work on your weapon."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "beach",
+  "katar",
+  "patrol",
+  "shore",
+  "swamp of sorrows",
+  "threat from the sea",
+  "tok'kar"
+ ],
+ "related": [
+  "zone:swampofsorrows"
+ ],
+ "attribution": [
+  "Threat From the Sea"
+ ]
+}

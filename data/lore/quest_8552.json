@@ -1,0 +1,78 @@
+{
+ "key": "quest:8552",
+ "type": "quest",
+ "name": "The Monogrammed Sash",
+ "era": "classic",
+ "zone": "stranglethorn",
+ "meta": {
+  "ids": [
+   8552
+  ],
+  "level": "50",
+  "faction": null,
+  "start": "Monogrammed Sash",
+  "end": "Captain Hecklebury Smotts",
+  "previous": "",
+  "next": "The Captain's Cutlass",
+  "wiki": "The Monogrammed Sash",
+  "chain": [
+   "The Monogrammed Sash",
+   "The Captain's Cutlass",
+   "Facing Negolash"
+  ],
+  "next_q": [
+   "The Captain's Cutlass"
+  ],
+  "category": "Stranglethorn Vale"
+ },
+ "summary": "A fine sash bearing embroidered initials hints at a rightful owner somewhere in Stranglethorn Vale. Finding the seafarer who lost it leads on to The Captain's Cutlass.",
+ "sections": [
+  {
+   "title": "A Marked Garment",
+   "body": "This fine sash bears the letters 'HS' embroidered along its hem. Whoever lost it can only be traced by those two letters.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Smotts Connection",
+   "body": "Returning the garment to Captain Hecklebury Smotts confirms it belongs to him. Recovering it reveals that the sea giant Mok'rash has been slain, bringing relief to the captain after the brute took part in destroying his vessels and crew on multiple occasions.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "What letters are stitched into the sash?",
+   "aliases": [
+    "what initials are on sash",
+    "initials on monogrammed sash",
+    "sash letters"
+   ],
+   "answer": "The hem of the fine sash is embroidered with the initials 'HS'."
+  },
+  {
+   "q": "Where does this lead next?",
+   "aliases": [
+    "what quest comes after monogrammed sash",
+    "monogrammed sash next quest",
+    "next step"
+   ],
+   "answer": "Once the sash is returned to its owner, the next step is The Captain's Cutlass."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "hecklebury smotts",
+  "hs",
+  "mok'rash",
+  "monogrammed sash",
+  "sea giant",
+  "stranglethorn vale"
+ ],
+ "related": [
+  "quest:8553",
+  "quest:618",
+  "zone:stranglethorn"
+ ],
+ "attribution": [
+  "The Monogrammed Sash"
+ ]
+}

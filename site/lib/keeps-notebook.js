@@ -16,6 +16,7 @@
 
 import { cleanItem, tidy, reminderWhen, NOTEBOOK_SETUP } from "./willo-notebook.js";
 import { COMPANION_NAME as NAME } from "./brand.js";
+import { createMissing } from "./schema.js";
 
 const ITEM_MAX = 300;         // characters of a line changed on the page
 const TRIES = 3;              // writes tried on a page changed meanwhile
@@ -23,7 +24,7 @@ const TRIES = 3;              // writes tried on a page changed meanwhile
 const ready = new WeakMap();
 async function setupNotebook(env) {
   if (ready.get(env.DB)) return;
-  await env.DB.batch(NOTEBOOK_SETUP.map(sql => env.DB.prepare(sql)));
+  await createMissing(env, NOTEBOOK_SETUP);
   ready.set(env.DB, true);
 }
 

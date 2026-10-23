@@ -1,0 +1,108 @@
+{
+ "key": "quest:552",
+ "type": "quest",
+ "name": "Helcular's Revenge",
+ "era": "classic",
+ "zone": "hillsbrad",
+ "meta": {
+  "ids": [
+   552
+  ],
+  "level": "33",
+  "faction": "Horde",
+  "start": "Novice Thaivand",
+  "end": "Novice Thaivand",
+  "previous": "",
+  "next": "Helcular's Revenge (2)",
+  "wiki": "Helcular's Revenge",
+  "chain": [
+   "Helcular's Revenge",
+   "Helcular's Revenge (2)"
+  ],
+  "next_q": [
+   "Helcular's Revenge (2)"
+  ],
+  "category": "Hillsbrad Foothills"
+ },
+ "summary": "Novice Thaivand in Tarren Mill means to avenge Master Helcular, a great wizard on the brink of becoming a lich, who was killed by a human lynch mob after it found his ritual lair. Before vengeance can fall on Southshore, Thaivand needs Helcular's Rod, which one of the yeti there must hold.",
+ "sections": [
+  {
+   "title": "A Master Interrupted",
+   "body": "Master Helcular was on the brink of becoming a lich when he was found and killed by a human lynch mob, who had discovered the ritual lair he kept in the hills. They then buried the body in the Southshore cemetery. His apprentice, Thaivand, finds this disregard for a great wizard unacceptable and vows that the rains of vengeance will fall upon the town of Southshore.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Missing Rod",
+   "body": "Thaivand says Helcular's Rod is needed first. Yeti have overtaken the ritual lair, and Thaivand is sure one of the beasts has the rod. There are so many yeti in the region that finding it will be difficult. Growless Cave and Darrow Hill are among the places they can be found.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who was Master Helcular?",
+   "aliases": [
+    "who is helcular",
+    "helcular lore",
+    "helcular backstory"
+   ],
+   "answer": "A great wizard on the brink of becoming a lich, killed by a human lynch mob that found his ritual lair in the hills. His body was buried in the Southshore cemetery."
+  },
+  {
+   "q": "Why does Novice Thaivand want Helcular's Rod?",
+   "aliases": [
+    "why need rod",
+    "helculars rod purpose",
+    "thaivand goal"
+   ],
+   "answer": "Thaivand, Helcular's apprentice, plans vengeance upon the town of Southshore and says the rod is needed first."
+  },
+  {
+   "q": "Where did the rod go?",
+   "aliases": [
+    "where is the rod",
+    "how did yeti get rod",
+    "rod location"
+   ],
+   "answer": "Yeti have overtaken Helcular's ritual lair, and Thaivand is sure one of them has the rod. Yeti can be found in places such as Growless Cave and Darrow Hill."
+  },
+  {
+   "q": "Where is Novice Thaivand located?",
+   "aliases": [
+    "thaivand location",
+    "where to turn in helculars revenge",
+    "novice thaivand"
+   ],
+   "answer": "In Tarren Mill, in the Hillsbrad Foothills."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Horde",
+   "text": "This is for Horde adventurers; Thaivand in Tarren Mill is the one who calls on you."
+  }
+ ],
+ "keywords": [
+  "alterac",
+  "helcular",
+  "hillsbrad",
+  "lich",
+  "rod",
+  "southshore",
+  "tarren mill",
+  "thaivand",
+  "yeti"
+ ],
+ "related": [
+  "subzone:tarren-mill",
+  "subzone:southshore",
+  "subzone:growless-cave",
+  "subzone:darrow-hill",
+  "zone:hillsbrad",
+  "zone:alterac",
+  "topic:horde",
+  "topic:human"
+ ],
+ "attribution": [
+  "Helcular's Revenge"
+ ]
+}

@@ -1,0 +1,100 @@
+{
+ "key": "quest:1421",
+ "type": "quest",
+ "name": "The Lost Caravan",
+ "era": "classic",
+ "zone": "swampofsorrows",
+ "meta": {
+  "ids": [
+   1421
+  ],
+  "level": "35",
+  "faction": "Alliance",
+  "start": "Watcher Biggs",
+  "end": "Watcher Biggs",
+  "previous": "Encroaching Wildlife",
+  "next": "Driftwood (quest)",
+  "wiki": "The Lost Caravan",
+  "chain": [],
+  "prev_q": [
+   "Encroaching Wildlife"
+  ],
+  "next_q": [
+   "Driftwood (quest)"
+  ],
+  "category": "Swamp of Sorrows",
+  "chain_tpl": [
+   "Help Watcher Biggs"
+  ]
+ },
+ "summary": "After Encroaching Wildlife, Watcher Biggs has a further matter for you. Stunned in the Lost Ones' attack on the caravan, Biggs still saw a wagon hauled off to the Fallow Sanctuary, the Lost Ones' village in the north. A chest of valuable reagents rode in it, and Biggs wants those reagents brought back.",
+ "sections": [
+  {
+   "title": "The Stolen Wagon",
+   "body": "Biggs was knocked senseless in the attack, yet glimpsed one of the caravan's wagons being dragged away to the Fallow Sanctuary, the Lost Ones' village to the north. In that wagon was a chest of reagents prized by the wizards of Nethergarde Keep for their studies. Biggs wants the chest found and its contents carried back.",
+   "spoiler": 0
+  },
+  {
+   "title": "Word from Biggs",
+   "body": "Back with the reagents, you find Biggs pleased, for the wizards of Nethergarde can now carry on with their work. Biggs does not know what that work is, only that it has to do with the Dark Portal, over in the Blasted Lands and matters greatly to keeping the Alliance secure.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Watcher Biggs?",
+   "aliases": [
+    "watcher biggs",
+    "who gives the lost caravan"
+   ],
+   "answer": "Watcher Biggs lost a wagon of the caravan to the Lost Ones and wants the reagents it carried recovered."
+  },
+  {
+   "q": "Where did the Lost Ones take the caravan chest?",
+   "aliases": [
+    "caravan chest location",
+    "where is fallow sanctuary",
+    "where are the reagents"
+   ],
+   "answer": "Biggs saw the wagon hauled away to the Fallow Sanctuary, the Lost Ones' village in the north, with the chest aboard."
+  },
+  {
+   "q": "Why are the reagents important?",
+   "aliases": [
+    "why reagents matter",
+    "nethergarde reagents purpose"
+   ],
+   "answer": "The wizards of Nethergarde Keep depend on them for their studies."
+  },
+  {
+   "q": "What comes after recovering the chest?",
+   "aliases": [
+    "next quest after lost caravan",
+    "lost caravan chain"
+   ],
+   "answer": "Driftwood follows once Biggs has the reagents."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "dark portal",
+  "fallow sanctuary",
+  "lost ones",
+  "nethergarde keep",
+  "swamp of sorrows",
+  "watcher biggs",
+  "wizards reagents"
+ ],
+ "related": [
+  "subzone:fallow-sanctuary",
+  "subzone:nethergarde-keep",
+  "quest:1396",
+  "subzone:dark-portal",
+  "zone:swampofsorrows",
+  "zone:blastedlands",
+  "topic:alliance"
+ ],
+ "attribution": [
+  "The Lost Caravan"
+ ]
+}

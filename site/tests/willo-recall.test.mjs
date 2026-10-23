@@ -29,7 +29,10 @@ const saved = { journey: JOURNEY, name: "Húrin", theirs: true };
 test("a question about their own past, and only that", () => {
   for (const q of ["Where did I see that rare wolf?", "When did I first reach Westfall?", "How many times did I die in Westfall?",
     "Have I finished the Defias Brotherhood?", "What killed me the most?", "Have I ever been to Duskwood?"]) assert.ok(asks(q), q);
-  for (const q of ["Who is Hogger?", "Where is Fargodeep Mine?", "How do I get to Duskwood?", "What's a rare?"]) assert.ok(!asks(q), q);
+  for (const q of ["How many rares have I killed?", "How often I've died in Duskwood", "how many quests I finished"]) assert.ok(asks(q), q);
+  for (const q of ["Who is Hogger?", "Where is Fargodeep Mine?", "How do I get to Duskwood?", "What's a rare?",
+    "How many rotations of Sunder Armor can I go through before the boss enrages?", "How many bags do I need?",
+    "How often should I repair?"]) assert.ok(!asks(q), q);
 });
 
 test("the moments that match, as recall.py finds them", () => {
@@ -82,8 +85,10 @@ test("nothing matching, nothing synced, another character's: said plainly, never
   assert.match(none.reminder, /never a place from SOURCES as where they saw it/);
   assert.match(none.section, /From the phone you see only the main moments of their journey/);
   const empty = recall("Where did I see that rare wolf?", { journey: null, name: "", theirs: true }, { now: NOW });
-  assert.match(empty.reminder, /lives in Willo on their PC and hasn't reached their phone/);
-  assert.match(empty.reminder, /"Keep my profile up to date" on/);
+  // In her voice, never the plumbing (the immersion rule; the blind check, 10/21).
+  assert.match(empty.reminder, /I haven't heard of your travels yet; tell me where you've been\./);
+  assert.doesNotMatch(empty.section + empty.reminder.replace(/Never a word about [^.]*\./, ""),
+    /\b(?:phone|PC|computer|sync|profile|settings?|Lore Forever|Keep my profile)\b/i);
   const other = recall("Where did I see that rare wolf?", { ...saved, theirs: false }, { now: NOW });
   assert.match(other.reminder, /you can only see Húrin's road from the phone/);
   assert.doesNotMatch(other.section, /Mother Fang/);
@@ -96,6 +101,16 @@ test("nothing matching, nothing synced, another character's: said plainly, never
   assert.match(alt.reminder, /These lines are Húrin's, another of their characters, not the one asking: say it was Húrin\./);
   assert.equal(recall("Who is Hogger?", saved, { now: NOW }), null);
   assert.equal(recall("Where was the kobold den I pinned?", saved, { now: NOW }), null, "a pin is the notebook's");
+  // What's still ahead (the accuracy lab, 10/22): their own journey helps; without it, or with another character's,
+  // there's no journey line at all. A past question beside it still gets one.
+  const ahead = "What have I got left to do in Westfall?";
+  assert.ok(asks(ahead), "the journey is read for it");
+  assert.ok(recall(ahead, saved, { now: NOW, tz: -420 }));
+  for (const s of [{ journey: null, name: "", theirs: true }, { ...saved, theirs: false }])
+    assert.equal(recall(ahead, s, { now: NOW }), null);
+  assert.equal(recall("Which quests have I yet to finish in Westfall?", { journey: null, name: "", theirs: true }, { now: NOW }), null);
+  assert.ok(recall("What have I got left to do in Westfall, and where did I die?", { journey: null, name: "", theirs: true },
+    { now: NOW })?.reminder);
 });
 
 test("where it goes in the prompt; never over a journey the app sent", () => {
@@ -155,7 +170,7 @@ test("P4 on the phone: the day and place from the synced journey reach her answe
 test("P5: nothing synced, she's told where their journey lives; another character, never Húrin's road", async () => {
   const none = await linked();
   await ask(none, "When did I first reach Westfall?");
-  assert.match(sent(), /QUESTION\\nWhen did I first reach Westfall\?\\n\(Their journey isn't with you here/);
+  assert.match(sent(), /QUESTION\\nWhen did I first reach Westfall\?\\n\(Their journey hasn't reached you yet\. Answer in one short line/);
   const token = await linked({ journey: JOURNEY });
   await ask(token, "When did I first reach Westfall?", { character: "Brynn-ClassicBetaPvE" });
   assert.match(sent(), /you can only see Húrin's road from the phone/);

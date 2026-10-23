@@ -1,0 +1,78 @@
+{
+ "key": "quest:8576",
+ "type": "quest",
+ "name": "Translating the Ledger",
+ "era": "classic",
+ "zone": "tanaris",
+ "meta": {
+  "ids": [
+   8576
+  ],
+  "level": "60",
+  "faction": null,
+  "start": "Narain Soothfancy",
+  "end": "Narain Soothfancy",
+  "previous": "",
+  "next": "Draconic for Dummies (quest), Never Ask Me About My Business, Stewvul, Ex-B.F.F.",
+  "wiki": "Translating the Ledger",
+  "chain": [],
+  "category": "Tanaris",
+  "chain_tpl": [
+   "Azuregos's Magical Ledger"
+  ],
+  "next_q": [
+   "Draconic for Dummies (quest)",
+   "Never Ask Me About My Business",
+   "Stewvul, Ex-B.F.F."
+  ]
+ },
+ "summary": "You bring Azuregos's ledger to Narain Soothfancy, who must work out what is written in it. It is a step on the road toward opening the Gates of Ahn'Qiraj.",
+ "sections": [
+  {
+   "title": "The Ledger Comes to Narain",
+   "body": "You take Azuregos's ledger to Narain Soothfancy. Someone has to work out what Azuregos wrote in it, and that falls to Narain.",
+   "spoiler": 0
+  },
+  {
+   "title": "What Narain Makes of It",
+   "body": "Narain hears that Azuregos has set you to building an arcanite buoy, and that the ledger holds the schematic. Narain finds it odd that Azuregos wrote it in Draconic, which Narain cannot read. To make it work, Narain will need the scrying goggles, a chicken of five hundred pounds and the second volume of Draconic for Dummies, in whatever order.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Whose ledger is it?",
+   "aliases": [
+    "whose ledger",
+    "azuregos ledger",
+    "who wrote the ledger"
+   ],
+   "answer": "It is Azuregos's ledger. Narain Soothfancy is the one you bring it to."
+  },
+  {
+   "q": "Who reads the ledger?",
+   "aliases": [
+    "who translates the ledger",
+    "narain soothfancy",
+    "where to take the ledger"
+   ],
+   "answer": "Narain Soothfancy, who has to work out what Azuregos wrote in it."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "arcanite buoy",
+  "azuregos",
+  "draconic",
+  "ledger",
+  "narain soothfancy",
+  "tanaris"
+ ],
+ "related": [
+  "npc:narain-soothfancy",
+  "zone:tanaris"
+ ],
+ "attribution": [
+  "Translating the Ledger"
+ ]
+}

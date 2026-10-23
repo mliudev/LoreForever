@@ -1,0 +1,95 @@
+{
+ "key": "quest:1258",
+ "type": "quest",
+ "name": "... and Bugs",
+ "era": "classic",
+ "zone": "dustwallow",
+ "meta": {
+  "ids": [
+   1258
+  ],
+  "level": "40",
+  "faction": "Alliance",
+  "start": "Morgan Stern",
+  "end": "Morgan Stern",
+  "previous": "Mudrock Soup and Bugs",
+  "next": "Feast at the Blue Recluse",
+  "wiki": "... and Bugs",
+  "chain": [
+   "Mudrock Soup and Bugs",
+   "... and Bugs"
+  ],
+  "prev_q": [
+   "Mudrock Soup and Bugs"
+  ],
+  "category": "Dustwallow Marsh",
+  "next_q": [
+   "Feast at the Blue Recluse"
+  ]
+ },
+ "summary": "Morgan Stern in Theramore is working on a recipe that could become the next food craze in Stormwind. With the Mudrock tongues already in hand, the next part of the dish calls for the shelled legs of a giant crab, and only pristine, unscarred ones will do.",
+ "sections": [
+  {
+   "title": "Legs Without a Scratch",
+   "body": "Morgan Stern wants the shell of the crab leg to be a key part of how the dish looks, so every leg has to be pristine and unscarred. An adult crab might carry only one or two such legs, and the research calls for a lot of them. The Muckshells of Dustwallow Marsh will not do. Only the crabs of the faraway Swamp of Sorrows will suit, so a journey lies ahead.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Morgan Stern?",
+   "aliases": [
+    "who is morgan stern",
+    "morgan stern theramore",
+    "who gives and bugs"
+   ],
+   "answer": "Morgan Stern is working in Theramore on a new recipe that might become the next food craze in Stormwind."
+  },
+  {
+   "q": "Where do the crab legs come from?",
+   "aliases": [
+    "where to find crawler legs",
+    "where are spiny rock crawlers",
+    "crawler legs location"
+   ],
+   "answer": "Not from Dustwallow Marsh, where the Muckshells are no good for the dish. Morgan Stern points to the Swamp of Sorrows, far away, for crabs that will do."
+  },
+  {
+   "q": "Why do the crab legs need to be pristine?",
+   "aliases": [
+    "why pristine crawler legs",
+    "why unscarred legs",
+    "crawler leg presentation"
+   ],
+   "answer": "The shell is a key part of how the dish is presented, so Morgan Stern wants legs with no scars on them."
+  },
+  {
+   "q": "What comes before this quest?",
+   "aliases": [
+    "previous quest and bugs",
+    "mudrock soup and bugs prerequisite"
+   ],
+   "answer": "It follows Mudrock Soup and Bugs, the first part of the work you did for Morgan Stern's new recipe."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "crawler legs",
+  "dustwallow marsh",
+  "morgan stern",
+  "mudrock soup and bugs",
+  "pristine crawler leg",
+  "stormwind",
+  "theramore",
+  "swamp of sorrows"
+ ],
+ "related": [
+  "quest:1204",
+  "subzone:theramore-isle",
+  "zone:dustwallow",
+  "topic:stormwind-kingdom"
+ ],
+ "attribution": [
+  "... and Bugs"
+ ]
+}

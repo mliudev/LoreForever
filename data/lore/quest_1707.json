@@ -1,0 +1,90 @@
+{
+ "key": "quest:1707",
+ "type": "quest",
+ "name": "Water Pouch Bounty",
+ "era": "classic",
+ "zone": "tanaris",
+ "meta": {
+  "ids": [
+   1707
+  ],
+  "level": "44",
+  "faction": null,
+  "start": "Spigot Operator Luglunket",
+  "end": "Spigot Operator Luglunket",
+  "previous": "",
+  "next": "Water Pouch Bounty (2)",
+  "wiki": "Water Pouch Bounty",
+  "chain": [],
+  "next_q": [
+   "Water Pouch Bounty (2)"
+  ],
+  "category": "Tanaris"
+ },
+ "summary": "Spigot Operator Luglunket in Gadgetzan wants the Wastewander water pouches the nomads stole, wherever you find them out in the desert. The Gadgetzan Water Company offers an official care package in return for each five.",
+ "sections": [
+  {
+   "title": "Water That Belongs to Gadgetzan",
+   "body": "Luglunket, a seasoned spigot operator, would like nothing better than to receive the Wastewander water pouches you come across in the desert. It was Gadgetzan's water in the first place, and the nomads simply stole it. For every five pouches brought in, the Gadgetzan Water Company offers an official care package, and you are helping Gadgetzan help itself.",
+   "spoiler": 0
+  },
+  {
+   "title": "Keep Them Coming",
+   "body": "Luglunket is glad of every pouch reclaimed, since each one keeps everyone further from disaster. Luglunket promises to make it worth your while for every five pouches you bring.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Spigot Operator Luglunket?",
+   "aliases": [
+    "who is luglunket",
+    "luglunket role",
+    "spigot operator"
+   ],
+   "answer": "A seasoned spigot operator in Gadgetzan who asks for Wastewander water pouches."
+  },
+  {
+   "q": "Why does Luglunket want Wastewander water pouches?",
+   "aliases": [
+    "why water pouches",
+    "why kill wastewander",
+    "wastewander water lore"
+   ],
+   "answer": "The water is Gadgetzan's own, and the nomads stole it."
+  },
+  {
+   "q": "Where can Wastewander water pouches be found?",
+   "aliases": [
+    "where to find water pouches",
+    "wastewander pouch location",
+    "who drops water pouches"
+   ],
+   "answer": "Out in the desert, in the hands of the Wastewander nomads who stole them."
+  },
+  {
+   "q": "What does the Gadgetzan Water Company offer for the pouches?",
+   "aliases": [
+    "care package",
+    "what do i get for pouches"
+   ],
+   "answer": "One official care package for each set of five pouches."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "gadgetzan",
+  "luglunket",
+  "tanaris",
+  "wastewander",
+  "water company",
+  "water pouch"
+ ],
+ "related": [
+  "subzone:gadgetzan",
+  "zone:tanaris"
+ ],
+ "attribution": [
+  "Water Pouch Bounty"
+ ]
+}

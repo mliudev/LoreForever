@@ -17,8 +17,8 @@ import { onRequest as device } from "../functions/api/device/[action].js";
 import { onRequest as speakApi } from "../functions/api/companion/speak.js";
 import { findOrCreateUser, startSession, setup, deleteUser } from "../lib/accounts.js";
 import { startLink, decideLink, claimToken } from "../lib/devices.js";
-import { setupBilling, planFor, launchOffer, addUserSpend, userSpend, launchNow, previewDeploy, launchText, createVoicePack,
-  voicePackFor, LAUNCH_WEEK_BRAKE_MICRO, LEGEND_BEST_PER_MONTH, VOICE_PACK, VOICE_PACK_TEXT, TRIAL_MIN_SECONDS, poolWindow }
+import { setupBilling, planFor, launchOffer, addUserSpend, userSpend, launchNow, previewDeploy, launchText,
+  LAUNCH_WEEK_BRAKE_MICRO, LEGEND_BEST_PER_MONTH, VOICE_PACK, TRIAL_MIN_SECONDS, poolWindow }
   from "../lib/billing.js";
 import { allowance, answerBudgetUsed } from "../lib/companion-answers.js";
 
@@ -44,7 +44,7 @@ beforeEach(async (t) => {
   await setup(env);
   await setupBilling(env);
   for (const table of ["users", "sessions", "devices", "device_links", "rate_limits", "entitlements", "billing_events",
-                       "answer_user_spend", "answer_packs", "answer_holds", "starter_claims", "voice_replies", "answer_spend",
+                       "answer_user_spend", "answer_packs", "answer_holds", "starter_claims", "voice_replies", "answer_spend", "free_pool_days",
                        "promo_claims"])
     env.DB.sqlite.exec(`DELETE FROM ${table}`);
   subscriptions = {};
@@ -241,6 +241,7 @@ test("the beta's checkout: the plan's months start at the launch; Hero free and 
     ["Answers a day", "30 | 100 | 200 | 300"],
     ["Willo's voice: when you ask out loud", "Studio | Finest | Finest, pick from ten | Richer, pick from 32"],
     ["Characters' own voices", "— | — | ✓ | ✓"],
+    ["Your narrator reads the add-on's short answers", "— | ✓ | ✓ | ✓"],
     ["22 Voices of Azeroth for Willo", "— | — | — | ✓"],
     ["Willo sees your game", "— | ✓ | ✓ | ✓"],
     ["Checks the web when the lore runs out", "— | ✓ | ✓ | ✓"],
@@ -402,48 +403,4 @@ test("the finest-voice pack is retired (Mike, 2026-10-19): /plans offers none to
     "VALUES (?, ?, ?, 1, 1, 1, ?)");
   for (let i = 0; i < LEGEND_BEST_PER_MONTH - 10; i++) add.run(user.id, `said-${i}`, period, new Date(NOW).toISOString());
   assert.ok(!(await offered(user)), "10 of its finest left: still none");
-});
-
-test("voicePackFor (a pack is no longer sold) offers Legend more only near its month's last finest replies, the other plans the pack as it is", async () => {
-  const { user: legend } = await player("legend");
-  await entitle(legend, "legend");
-  const plan = await planFor(env, legend.id);
-  const period = poolWindow(plan).key;
-  let replies = 0;
-  const said = n => { for (let i = 0; i < n; i++) env.DB.sqlite.prepare("INSERT INTO voice_replies (user_id, reply, " +
-    "period, pieces, heard, best, created) VALUES (?, ?, ?, 1, 1, 1, ?)").run(legend.id, `said-${++replies}`, period,
-    new Date(NOW).toISOString()); };
-  said(LEGEND_BEST_PER_MONTH - 601);
-  assert.equal(await voicePackFor(env, legend.id, plan), null, "601 of its own left: nothing to sell");
-  said(1);
-  const near = await voicePackFor(env, legend.id, plan);
-  assert.equal(near.text, "400 more replies in Willo's finest voice, for after your monthly 6,000 (back on November 9). " +
-    "$2.99, yours until you use them.", "600 left: more of it, and when its own come back");
-  const { user: hero } = await player("herald");
-  await entitle(hero, "hero");
-  assert.deepEqual(await voicePackFor(env, hero.id, await planFor(env, hero.id)), { text: VOICE_PACK_TEXT }, "Hero's offer, as it is");
-});
-
-test("finest-voice packs bought earlier: three a month, on a paid plan only (createVoicePack; the endpoint no longer calls it)", async () => {
-  const { user } = await player("buyer");
-  assert.match((await createVoicePack(env, user, ORIGIN)).error, /comes with a plan/, "the free plan has no finest voice to buy");
-  await entitle(user, "champion");
-  assert.equal((await createVoicePack(env, user, ORIGIN)).url, "https://checkout.stripe.com/c/pay/cs_new");
-  const session = stripeCalls.find(c => c.route === "POST checkout/sessions").body;
-  assert.deepEqual([session.get("mode"), session.get("metadata[kind]"), session.get("line_items[0][price]")],
-    ["payment", "voice", "price_voice"]);
-  for (const id of ["cs_a", "cs_b", "cs_c"]) await addVoicePack(user, id);
-  await addVoicePack(user, "cs_last_month", { daysAgo: 25 });
-  const full = await createVoicePack(env, user, ORIGIN);
-  assert.match(full.error, /this month's 3/);
-
-  // The webhook credits a paid one once, as a pack of replies, not answers.
-  sessions.cs_paid = { id: "cs_paid", object: "checkout.session", mode: "payment", customer: "cus_1",
-    client_reference_id: user.id, payment_status: "paid", payment_intent: "pi_paid", metadata: { kind: "voice" } };
-  const credit = { id: "evt_pack", type: "checkout.session.completed", data: { object: sessions.cs_paid } };
-  await hook(credit);
-  await hook({ ...credit, id: "evt_pack_again" });
-  assert.deepEqual({ ...env.DB.sqlite.prepare("SELECT kind, answers, remaining FROM answer_packs WHERE id = 'cs_paid'").get() },
-    { kind: "voice", answers: VOICE_PACK.replies, remaining: VOICE_PACK.replies });
-  assert.equal((await allowance(env, user.id)).remaining, 200, "no answers in it: Champion's own 200 today");
 });

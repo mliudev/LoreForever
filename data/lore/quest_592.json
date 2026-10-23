@@ -1,0 +1,114 @@
+{
+ "key": "quest:592",
+ "type": "quest",
+ "name": "Saving Yenniku",
+ "era": "classic",
+ "zone": "stranglethorn",
+ "meta": {
+  "ids": [
+   592
+  ],
+  "level": "46",
+  "faction": "Horde",
+  "start": "Kin'weelay",
+  "end": "Nimboya",
+  "previous": "The Mind's Eye (Classic)",
+  "next": "Filling the Soul Gem",
+  "wiki": "Saving Yenniku (Classic)",
+  "chain": [],
+  "prev_q": [
+   "The Mind's Eye (Classic)"
+  ],
+  "category": "Stranglethorn Vale",
+  "chain_tpl": [
+   "Fate of Yenniku"
+  ],
+  "next_q": [
+   "Filling the Soul Gem"
+  ]
+ },
+ "summary": "After obtaining the Mind's Eye, Kin'weelay crafts it into a specialized soul gem to rescue the young troll Yenniku from Zanzil the Outcast. The enchanted vessel is designed to stun Yenniku and capture his spirit, allowing him to be freed and carried back to Nimboya.",
+ "sections": [
+  {
+   "title": "A Vessel for the Spirit",
+   "body": "Following the recovery of the Mind's Eye, Kin'weelay reshapes the potent relic into a magical soul gem. Its dual enchantment allows an adventurer to first stun Yenniku and then place the stone upon his head to capture his wayward spirit within. Once the boy's essence is contained inside the gem, it can safely be returned to his kin at Grom'gol Base Camp.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Outcast's Lair",
+   "body": "Yenniku resides alongside Zanzil the Outcast within the Ruins of Aboraz, situated along the Crystal Shore on the southern reaches of the Cape of Stranglethorn. Reaching the fallen youth requires venturing into Zanzil's territory, using the crafted vessel to break the witch doctor's hold over him, and carrying the filled gem back to Nimboya.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who provides the Soul Gem for this task?",
+   "aliases": [
+    "who gives the soul gem",
+    "where do I get the soul gem",
+    "who starts saving yenniku"
+   ],
+   "answer": "Kin'weelay crafts and provides the Soul Gem after reshaping the recovered Mind's Eye, sending you on to retrieve Yenniku's spirit."
+  },
+  {
+   "q": "Where is Yenniku located?",
+   "aliases": [
+    "where is yenniku",
+    "yenniku location",
+    "ruins of aboraz location"
+   ],
+   "answer": "Yenniku can be found with Zanzil the Outcast at the Ruins of Aboraz, on the Crystal Shore, far out on the Cape of Stranglethorn."
+  },
+  {
+   "q": "How does the Soul Gem work?",
+   "aliases": [
+    "how to use soul gem",
+    "what does the soul gem do",
+    "soul gem stranglethorn"
+   ],
+   "answer": "The reshaped gem has a twofold enchantment: it is used first to stun Yenniku, and then placed directly upon his head to draw his soul inside."
+  },
+  {
+   "q": "Who receives the Filled Soul Gem once Yenniku is secured?",
+   "aliases": [
+    "where to turn in filled soul gem",
+    "who gets the gem",
+    "where to deliver yenniku"
+   ],
+   "answer": "Once Yenniku's soul is safely trapped within the gem, it must be delivered to Nimboya back at Grom'gol Base Camp."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Troll",
+   "text": "For the Darkspear tribe, freeing young Yenniku from the vile magic of Zanzil the Outcast brings a captive Darkspear youth back toward his people."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "Horde adventurers from Grom'gol Base Camp carry Nimboya's search for Yenniku to Zanzil at the Ruins of Aboraz."
+  }
+ ],
+ "keywords": [
+  "aboraz",
+  "kin'weelay",
+  "nimboya",
+  "saving yenniku",
+  "soul gem",
+  "stranglethorn",
+  "yenniku",
+  "zanzil"
+ ],
+ "related": [
+  "quest:591",
+  "quest:593",
+  "quest:581",
+  "npc:kin-weelay",
+  "subzone:ruins-of-aboraz",
+  "subzone:crystal-shore",
+  "subzone:cape-of-stranglethorn",
+  "zone:stranglethorn"
+ ],
+ "attribution": [
+  "Saving Yenniku (Classic)"
+ ]
+}

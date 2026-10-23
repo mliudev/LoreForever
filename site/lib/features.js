@@ -45,8 +45,6 @@
 //               and the Stripe blurbs say of it (lib/billing.js planFeatures). The readings themselves work either way
 //               (a companion that asks for them gets them). Off until the release whose companion reads them: turn it
 //               on in that release.
-//   whole       Legend hears her whole answer spoken, not only its short spoken part (Mike, 2026-10-21): what /plans,
-//               its compare table and the Stripe blurbs say of it. Off until the release whose companion speaks it.
 //   thanks      The thank-you email from Mike to a new subscriber (lib/thanks.js, LOR-640). While it's off, a start is
 //               only logged ("would send") and never sent later. It also needs the email service (lib/email.js:
 //               CLOUDFLARE_EMAIL_TOKEN). /api/admin "email-test" works either way, and "email-status" says whether it's
@@ -55,7 +53,7 @@
 // The Pages variable SITE_FEATURES overrides this file without a code change, e.g. on Preview to test the "on" state:
 // a comma-separated list, where "contribute" turns a feature on and "-contribute" turns it off.
 export const FEATURES = { contribute: true, zones: true, lore: true, companion: true, pictures: true, storyvoice: true,
-                          plans: false, azeroth: true, readings: false, whole: false,
+                          plans: false, azeroth: true, readings: true,
                           thanks: true };
 
 export function featureOn(env, name) {

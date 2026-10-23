@@ -1,0 +1,90 @@
+{
+ "key": "quest:2781",
+ "type": "quest",
+ "name": "WANTED: Caliph Scorpidsting",
+ "era": "classic",
+ "zone": "tanaris",
+ "meta": {
+  "ids": [
+   2781
+  ],
+  "level": "46",
+  "faction": "Neutral",
+  "start": "Wanted Poster (Gadgetzan) / Wanted Poster (Steamwheedle Port)",
+  "end": "Chief Engineer Bilgewhizzle",
+  "previous": "",
+  "next": "",
+  "wiki": "WANTED: Caliph Scorpidsting",
+  "chain": [],
+  "category": "Tanaris"
+ },
+ "summary": "The Gadgetzan Water Company posts a bounty on Caliph Scorpidsting, who heads the Wastewander outlaws. Proof of his death goes to Chief Engineer Bilgewhizzle in Gadgetzan.",
+ "sections": [
+  {
+   "title": "The Company's Charges",
+   "body": "Notices at Gadgetzan and Steamwheedle Port announce a high bounty from the Gadgetzan Water Company for Caliph Scorpidsting, who leads the Wastewander outlaws. The charges against him are the murder of company employees, the theft of company resources and the seizure of company property. Proof of his death is to go to Chief Engineer Bilgewhizzle in Gadgetzan.",
+   "spoiler": 0
+  },
+  {
+   "title": "What the Water Company Hopes For",
+   "body": "Chief Engineer Bilgewhizzle calls Scorpidsting's death justice and a mighty blow against the Wastewanders, whom the engineer calls vile nomads and squatters. The hope is that it might finally push them off the water wells of Gadgetzan, and the bounty is paid on behalf of the company.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Caliph Scorpidsting?",
+   "aliases": [
+    "caliph scorpidsting lore",
+    "who leads wastewanders",
+    "scorpidsting"
+   ],
+   "answer": "He leads the Wastewander outlaws, wanted by the Gadgetzan Water Company."
+  },
+  {
+   "q": "Why does the Gadgetzan Water Company want him dead?",
+   "aliases": [
+    "why bounty on scorpidsting",
+    "caliph scorpidsting crimes",
+    "gadgetzan water company enemy"
+   ],
+   "answer": "The company accuses him of murdering its employees, stealing its resources and seizing its property."
+  },
+  {
+   "q": "Who pays the bounty for Caliph Scorpidsting?",
+   "aliases": [
+    "who turns in scorpidsting",
+    "where to turn in caliph head",
+    "bilgewhizzle bounty"
+   ],
+   "answer": "Chief Engineer Bilgewhizzle of the Gadgetzan Water Company, in Gadgetzan, takes proof of Scorpidsting's death."
+  },
+  {
+   "q": "Where are the wanted posters located?",
+   "aliases": [
+    "caliph poster location",
+    "where to pick up caliph bounty",
+    "scorpidsting notice"
+   ],
+   "answer": "In Gadgetzan and at Steamwheedle Port."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "bounty",
+  "caliph scorpidsting",
+  "chief engineer bilgewhizzle",
+  "gadgetzan",
+  "gadgetzan water company",
+  "steamwheedle port",
+  "tanaris",
+  "wastewander"
+ ],
+ "related": [
+  "subzone:gadgetzan",
+  "zone:tanaris"
+ ],
+ "attribution": [
+  "WANTED: Caliph Scorpidsting"
+ ]
+}

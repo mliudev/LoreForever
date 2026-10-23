@@ -1,0 +1,95 @@
+{
+ "key": "quest:4787",
+ "type": "quest",
+ "name": "The Ancient Egg",
+ "era": "classic",
+ "zone": "hinterlands",
+ "meta": {
+  "ids": [
+   4787
+  ],
+  "level": "50",
+  "faction": "Neutral",
+  "start": "Yeh'kinya",
+  "end": "Yeh'kinya",
+  "previous": "",
+  "next": "",
+  "wiki": "The Ancient Egg",
+  "chain": [],
+  "category": "Hinterlands",
+  "chain_tpl": [
+   "Hand of Rastakhan"
+  ]
+ },
+ "summary": "Yeh'kinya in Tanaris tells of an ancient egg named in the Prophecy of Mosh'aru, left from the age when trolls held vast empires. It can contain Hakkar's essence, and Yeh'kinya wants it fetched from Jintha'Alor in the Hinterlands.",
+ "sections": [
+  {
+   "title": "A Relic of Troll Empires",
+   "body": "An ancient egg is spoken of in the Prophecy of Mosh'aru, a relic of the age when trolls held vast empires. Its power can contain Hakkar's essence, and Yeh'kinya believes it could be the sole means of guarding the world from his evil.",
+   "spoiler": 0
+  },
+  {
+   "title": "Behind the Amphitheater",
+   "body": "Yeh'kinya asks you to bring the egg to Tanaris. Tales say it lies concealed far inside Jintha'Alor in the Hinterlands, within a cave behind the amphitheater atop the city. Yeh'kinya senses great forces stirring and fears that time is running short.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is the ancient egg?",
+   "aliases": [
+    "ancient egg lore",
+    "what does the egg do",
+    "prophecy of mosharu egg"
+   ],
+   "answer": "It is a relic from the age when trolls held vast empires, spoken of in the Prophecy of Mosh'aru. Its power can contain Hakkar's essence."
+  },
+  {
+   "q": "Why does Yeh'kinya want the egg?",
+   "aliases": [
+    "why find the egg",
+    "yehkinya purpose",
+    "stop hakkar egg"
+   ],
+   "answer": "Yeh'kinya believes the egg could be the sole means of guarding the world from Hakkar's evil."
+  },
+  {
+   "q": "Where is the egg hidden?",
+   "aliases": [
+    "where is the ancient egg",
+    "ancient egg location",
+    "egg cave jinthaalor"
+   ],
+   "answer": "Tales place it deep inside Jintha'Alor, in a cave behind the amphitheater that crowns the city."
+  },
+  {
+   "q": "Who wants the egg brought to them?",
+   "aliases": [
+    "who starts ancient egg",
+    "who gives the quest",
+    "yehkinya questgiver"
+   ],
+   "answer": "Yeh'kinya, who waits in Tanaris, wants the ancient egg brought there."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "ancient egg",
+  "hakkar",
+  "hinterlands",
+  "jintha'alor",
+  "mosh'aru",
+  "prophecy",
+  "tanaris",
+  "yeh'kinya"
+ ],
+ "related": [
+  "npc:yeh-kinya",
+  "zone:hinterlands",
+  "zone:tanaris",
+  "topic:troll"
+ ],
+ "attribution": [
+  "The Ancient Egg"
+ ]
+}

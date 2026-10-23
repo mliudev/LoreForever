@@ -36,7 +36,7 @@ beforeEach(async (t) => {
   await setup(env);
   await setupBilling(env);
   await setupReferrals(env);
-  for (const table of ["users", "sessions", "devices", "device_links", "rate_limits", "answer_spend", "answer_days",
+  for (const table of ["users", "sessions", "devices", "device_links", "rate_limits", "answer_spend", "free_pool_days", "answer_days",
                        "entitlements", "billing_events", "answer_user_spend", "answer_packs", "starter_claims",
                        "promo_claims", "share_codes", "referrals", "creators", "creator_earnings", "referral_rewards",
                        "plan_grants", "creator_applications", "creator_payouts", "browser_seen"])
@@ -143,6 +143,7 @@ test("a friend counts after Willo's first real answer, not on the click or the c
   assert.equal(s.tally, "1 / 2 friends joined — 1 more until a free month of Hero.");
   assert.equal(s.invite, "Invite a friend to awaken their Willo");
   assert.match(s.about, /Every 2 friends: a free month of Hero, one a month\. Your 5th, 15th, 25th friend and so on: 450 bonus answers\./);
+  assert.doesNotMatch(s.about, /\b10\b|Up to/, "no 'up to 10' on the card: a free month is 2 friends (Mike, 10/21)");
   assert.ok(row(pal).machine, "Willo's computer noted, one-way");
 
   // The same Google account again, after Delete my account: not a second friend.

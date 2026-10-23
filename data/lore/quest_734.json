@@ -1,0 +1,88 @@
+{
+ "key": "quest:734",
+ "type": "quest",
+ "name": "This Is Going to Be Hard",
+ "era": "classic",
+ "zone": "badlands",
+ "meta": {
+  "ids": [
+   734
+  ],
+  "level": "42",
+  "faction": "Neutral",
+  "start": "Lotwil Veriatus",
+  "end": "Lucien Tosselwrench",
+  "previous": "Gyro... What?, Study of the Elements: Rock (3)",
+  "next": "This Is Going to Be Hard (2)",
+  "wiki": "This Is Going to Be Hard",
+  "chain": [],
+  "prev_q": [
+   "Gyro... What?",
+   "Study of the Elements: Rock (3)"
+  ],
+  "next_q": [
+   "This Is Going to Be Hard (2)"
+  ],
+  "category": "Badlands",
+  "chain_tpl": [
+   "Study of the Elements: Rock"
+  ]
+ },
+ "summary": "Lotwil Veriatus, busy with a set of shackles, sends you to speak with Lucien Tosselwrench in the Badlands. Lotwil needs a cog #5 and wants it brought back.",
+ "sections": [
+  {
+   "title": "Cog Number Five",
+   "body": "Lotwil glances up at you briefly, then bends over the shackles again. You are to go and speak to Lucien Tosselwrench, because Lotwil needs a cog #5 and asks you to bring it.",
+   "spoiler": 0
+  },
+  {
+   "title": "Lucien's Verdict",
+   "body": "At the mention of cog #5, Lucien Tosselwrench is not hopeful about how things will go.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who gives this quest?",
+   "aliases": [
+    "who starts this quest",
+    "lotwil veriatus quest",
+    "quest giver"
+   ],
+   "answer": "Lotwil Veriatus, who is working on a set of shackles in the Badlands."
+  },
+  {
+   "q": "What does Lotwil need?",
+   "aliases": [
+    "what does lotwil want",
+    "which cog",
+    "cog 5"
+   ],
+   "answer": "A cog #5, which Lotwil asks you to bring back after speaking with Lucien Tosselwrench."
+  },
+  {
+   "q": "Who do I speak to about the cog?",
+   "aliases": [
+    "where to find cog 5",
+    "who is lucien",
+    "lucien tosselwrench"
+   ],
+   "answer": "Lotwil sends you to Lucien Tosselwrench in the Badlands."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "badlands",
+  "cog #5",
+  "lotwil veriatus",
+  "lucien tosselwrench",
+  "shackles"
+ ],
+ "related": [
+  "npc:lotwil-veriatus",
+  "zone:badlands"
+ ],
+ "attribution": [
+  "This Is Going to Be Hard"
+ ]
+}

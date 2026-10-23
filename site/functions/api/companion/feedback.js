@@ -20,6 +20,7 @@ import { logFeedback, REASONS } from "../../../lib/answer-feedback.js";
 import { diagnosticConsent, storageReady, setupDiagnostics } from "../../../lib/diagnostic-screenshots.js";
 import { playerKey, tagAnswer } from "../../../lib/answer-log.js";
 import { ANSWER_ID } from "../../../lib/answer-signals.js";
+import { isCompanion } from "../../../lib/client-version.js";
 
 const CLIENT = /^companion\/[\w.-]{1,24}$/;
 const MAX_BODY_BYTES = 8 * 1024;
@@ -32,7 +33,7 @@ export const THANKS_FOLLOWUP = "Thanks for telling me. I'll let you know once I'
 export async function onRequestPost(context) {
   const { request, env } = context;
   if (!env.DB) return fail(503, "Accounts aren't set up yet.");
-  if (!CLIENT.test(request.headers.get("X-LF-Client") || "") || request.headers.get("Origin"))
+  if (!isCompanion(request.headers.get("X-LF-Client")) || request.headers.get("Origin"))
     return fail(403, "This is for the Lore Forever companion app.");
   await setup(env);
   const app = await currentDevice(env, request);

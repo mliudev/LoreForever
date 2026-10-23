@@ -1,0 +1,98 @@
+{
+ "key": "quest:6134",
+ "type": "quest",
+ "name": "Ghost-o-plasm Round Up",
+ "era": "classic",
+ "zone": "desolace",
+ "meta": {
+  "ids": [
+   6134
+  ],
+  "level": "39",
+  "faction": "Neutral",
+  "start": "Hornizz Brimbuzzle",
+  "end": "Hornizz Brimbuzzle",
+  "previous": "",
+  "next": "",
+  "wiki": "Ghost-o-plasm Round Up",
+  "chain": [],
+  "category": "Desolace"
+ },
+ "summary": "Hornizz Brimbuzzle thinks there is money in the ghosts of the Valley of Bones. He figures the Magram centaurs would pay plenty for ghost energy, and he gives you a crate of ghost magnets to draw the spirits out.",
+ "sections": [
+  {
+   "title": "A Haunted Valley",
+   "body": "Hornizz points you southeast, to the Valley of Bones, where Magram ghosts walk. It sounds frightening, he admits, but surely it is scarier still for the Magram. He is sure that ghost energy captured there would be worth plenty to those centaurs.",
+   "spoiler": 0
+  },
+  {
+   "title": "Between the Dead Goliaths",
+   "body": "He hands you a crate of ghost magnets. Set down between the two huge skeletons in the valley, known as the Dead Goliaths, a magnet lures the ghosts toward it. From them you take ghost-o-plasm, which is what Hornizz plans to sell to the Magram. He wants eight ghost-o-plasms brought back to him, along with the crate.",
+   "spoiler": 0
+  },
+  {
+   "title": "Back with the Haul",
+   "body": "When you return, Hornizz notices that some of the ghost-o-plasm has rubbed off on you, and he calls it slimy. He reckons it a fortune in the making, provided the centaurs can be persuaded of what it is.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Hornizz Brimbuzzle?",
+   "aliases": [
+    "hornizz",
+    "brimbuzzle",
+    "who gives ghost-o-plasm round up"
+   ],
+   "answer": "Hornizz Brimbuzzle keeps a camp just southwest of the Kodo Graveyard in Desolace. He wants to sell ghost energy to the Magram centaurs."
+  },
+  {
+   "q": "Where is the Valley of Bones?",
+   "aliases": [
+    "valley of bones location",
+    "where do i find the ghosts",
+    "dead goliaths location"
+   ],
+   "answer": "Hornizz places the Valley of Bones to the southeast. The two Dead Goliaths, the big skeletons where the magnet is set, stand at its southern end."
+  },
+  {
+   "q": "Why does Hornizz want ghost-o-plasm?",
+   "aliases": [
+    "why collect ghost energy",
+    "who buys ghost-o-plasm",
+    "centaur ghost plasma"
+   ],
+   "answer": "He is sure the Magram centaurs would pay plenty for ghost energy captured in the haunted Valley of Bones, and ghost-o-plasm is what he means to sell them."
+  },
+  {
+   "q": "How does the ghost magnet work?",
+   "aliases": [
+    "how to use ghost magnet",
+    "where to place ghost magnet",
+    "attracting magram ghosts"
+   ],
+   "answer": "A magnet placed between the two Dead Goliaths draws the valley's ghosts toward it, and the ghosts yield ghost-o-plasm."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "dead goliaths",
+  "desolace",
+  "ghost magnet",
+  "ghost-o-plasm",
+  "hornizz brimbuzzle",
+  "magram",
+  "spectres",
+  "valley of bones"
+ ],
+ "related": [
+  "zone:desolace",
+  "subzone:valley-of-bones",
+  "subzone:kodo-graveyard",
+  "subzone:mannoroc-coven",
+  "topic:centaur"
+ ],
+ "attribution": [
+  "Ghost-o-plasm Round Up"
+ ]
+}

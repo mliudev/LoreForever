@@ -1,0 +1,101 @@
+{
+ "key": "quest:8587",
+ "type": "quest",
+ "name": "Return to Narain",
+ "era": "classic",
+ "zone": "tanaris",
+ "meta": {
+  "ids": [
+   8587
+  ],
+  "level": "60",
+  "faction": null,
+  "start": "Dirge Quikcleave",
+  "end": "Narain Soothfancy",
+  "previous": "Dirge's Kickin' Chimaerok Chops (quest)",
+  "next": "The Good News and The Bad News",
+  "wiki": "Return to Narain",
+  "chain": [],
+  "prev_q": [
+   "Dirge's Kickin' Chimaerok Chops (quest)"
+  ],
+  "category": "Tanaris",
+  "chain_tpl": [
+   "Azuregos's Magical Ledger"
+  ],
+  "next_q": [
+   "The Good News and The Bad News"
+  ]
+ },
+ "summary": "Dirge Quikcleave keeps his word and hands over the five-hundred-pound chicken. You carry it to Narain Soothfancy in Tanaris. This comes after Dirge's Kickin' Chimaerok Chops.",
+ "sections": [
+  {
+   "title": "A Bargain Kept",
+   "body": "Dirge Quikcleave gives you the chicken he promised, saying he is a goblin of his word. He cannot imagine what a gnome would want with a bird that large, and grumbles that it must be to sleep in. From here you take it to Narain Soothfancy in Tanaris.",
+   "spoiler": 0
+  },
+  {
+   "title": "Narain's Welcome",
+   "body": "The scent of the chicken draws Narain Soothfancy's notice. He mashes both fists into the bird and stuffs his face with Dirge's cooking, declaring it the best chicken he has ever had.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "What came before this delivery?",
+   "aliases": [
+    "previous quest",
+    "what did i do before this",
+    "prerequisite"
+   ],
+   "answer": "Dirge's Kickin' Chimaerok Chops comes first, where Dirge Quikcleave asked for the rocket fuel and salt to finish his recipe."
+  },
+  {
+   "q": "Who receives the massive chicken?",
+   "aliases": [
+    "who gets the chicken",
+    "who do i take this to",
+    "turn in location"
+   ],
+   "answer": "Narain Soothfancy, in Tanaris."
+  },
+  {
+   "q": "Why did Dirge prepare a five-hundred-pound chicken?",
+   "aliases": [
+    "why 500 pound chicken",
+    "what is the chicken for",
+    "dirge chicken"
+   ],
+   "answer": "Dirge is keeping his word by handing the chicken over. He says he will never know what a gnome wants with a bird that size."
+  },
+  {
+   "q": "What comes after delivering the chicken?",
+   "aliases": [
+    "next quest",
+    "what follows this",
+    "where to next"
+   ],
+   "answer": "The Good News and The Bad News follows, though Narain only offers it once two other parts of the work, Narain's Scrying Goggles and Draconic For Dummies: Volume II, are also finished."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "500 pound chicken",
+  "chimaerok",
+  "dirge quikcleave",
+  "narain soothfancy",
+  "tanaris"
+ ],
+ "related": [
+  "npc:narain-soothfancy",
+  "npc:dirge-quikcleave",
+  "zone:tanaris",
+  "quest:8586",
+  "quest:8728",
+  "topic:gnome",
+  "topic:goblin"
+ ],
+ "attribution": [
+  "Return to Narain"
+ ]
+}

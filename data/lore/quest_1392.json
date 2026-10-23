@@ -1,0 +1,87 @@
+{
+ "key": "quest:1392",
+ "type": "quest",
+ "name": "Noboru the Cudgel",
+ "era": "classic",
+ "zone": "swampofsorrows",
+ "meta": {
+  "ids": [
+   1392
+  ],
+  "level": "39",
+  "faction": "Neutral",
+  "start": "Noboru's Cudgel",
+  "end": "Magtoor",
+  "previous": "",
+  "next": "",
+  "wiki": "Noboru the Cudgel (quest)",
+  "chain": [],
+  "category": "Swamp of Sorrows"
+ },
+ "summary": "For months, Noboru has tormented the Draenei at the Harborage. Noboru's cudgel stands as a mark of the cruelty the lost ones have dealt them, and you are asked to bring it to the leader of the Harborage.",
+ "sections": [
+  {
+   "title": "A Symbol of Brutality",
+   "body": "Noboru has tormented the Harborage's Draenei for months. The cudgel has come to stand for the cruelty the lost ones have dealt them. With it in hand, you carry it to the leader of the Harborage.",
+   "spoiler": 0
+  },
+  {
+   "title": "Magtoor's Welcome",
+   "body": "Magtoor asks whether the weapon means Noboru is dead, and calls this a day of joy there. Noboru and his gang terrorized the Draenei, wandering the swamps and killing any who crossed their path. Noboru threatened their very survival, and they lacked the strength to face him.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Noboru?",
+   "aliases": [
+    "who is noboru",
+    "noboru lore",
+    "noboru cudgel guy"
+   ],
+   "answer": "One of the lost ones, who has tormented the Harborage's Draenei for months."
+  },
+  {
+   "q": "Why does the Harborage want Noboru's cudgel?",
+   "aliases": [
+    "why turn in the cudgel",
+    "noboru cudgel purpose",
+    "why bring cudgel to magtoor"
+   ],
+   "answer": "The cudgel stands for the cruelty that the lost ones have dealt the Draenei of the Harborage."
+  },
+  {
+   "q": "Who receives the cudgel?",
+   "aliases": [
+    "who is magtoor",
+    "where does the cudgel go"
+   ],
+   "answer": "Magtoor, who leads the Harborage."
+  },
+  {
+   "q": "Where is the Harborage located?",
+   "aliases": [
+    "where is harborage",
+    "harborage location"
+   ],
+   "answer": "In the Swamp of Sorrows, where the Draenei of the Harborage live."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "cudgel",
+  "draenei",
+  "harborage",
+  "lost ones",
+  "magtoor",
+  "noboru",
+  "swamp of sorrows"
+ ],
+ "related": [
+  "zone:swampofsorrows",
+  "subzone:harborage"
+ ],
+ "attribution": [
+  "Noboru the Cudgel (quest)"
+ ]
+}

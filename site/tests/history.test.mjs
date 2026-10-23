@@ -7,10 +7,10 @@ import { setupHistory, findOrCreateUser, startSession, sha256, deleteUser } from
 import { commitHistory, readHistory, historyPage } from '../lib/history.js';
 import { profileOf } from '../lib/profiles.js';
 import { RECORD } from './fixtures/journey/record.mjs';
-import { d1 } from './helpers.mjs';
+import { d1, stopClock } from './helpers.mjs';
 import { exportHistory } from '../public/js/history-export.js';
 import { moments } from '../lib/trails.js';
-import { readJourney } from '../lib/journey.js';
+import { readJourney, MAX_MOMENTS } from '../lib/journey.js';
 import { pictureLink } from '../lib/pictures.js';
 
 const origin = 'https://preview.example';
@@ -204,12 +204,14 @@ test('gaps, conflicting sequence/source IDs and a conflict late in a batch roll 
   assert.equal(count('history_records'), 5);
 });
 
-test('more than 10,000 moments survive bounded projection, paste and paged/full export', async () => {
-  for (let first = 1; first <= 10250; first += 250) {
+test('more moments than the profile shows survive bounded projection, paste and paged/full export', async () => {
+  // Past the profile's MAX_MOMENTS by a batch, not by thousands: the bound and the paging are the same at any size.
+  const total = (Math.floor(MAX_MOMENTS / 250) + 1) * 250;
+  for (let first = 1; first <= total; first += 250) {
     assert.equal((await api('history', { body: batch(first, 250) })).status, 200);
   }
-  assert.equal(count('history_records'), 10250);
-  assert.equal((await profileOf(env, user.id)).journey.moments.length, 2000);
+  assert.equal(count('history_records'), total);
+  assert.equal((await profileOf(env, user.id)).journey.moments.length, MAX_MOMENTS);
   assert.equal((await api('import', { owner: true, body: { record: RECORD } })).status, 200);
   const ids = new Set(); let next = '';
   do {
@@ -219,15 +221,15 @@ test('more than 10,000 moments survive bounded projection, paste and paged/full 
     for (const r of page.records) { assert.ok(!ids.has(r.id)); ids.add(r.id); }
     next = page.next;
   } while (next);
-  assert.equal(ids.size, 10250);
+  assert.equal(ids.size, total);
   const exported = await api('history', { owner: true, method: 'GET', query: '?export=1' });
   assert.match(exported.headers.get('Content-Disposition'), /attachment/);
   const firstPage = await exported.json();
   assert.equal(firstPage.records.length, 250);
   assert.ok(firstPage.next);
   const archive = await exportHistory(url => api('history', { owner: true, method: 'GET', query: url.slice(url.indexOf('?')) }));
-  assert.equal(archive.records.length, 10250);
-  assert.equal(new Set(archive.records.map(r => r.id)).size, 10250);
+  assert.equal(archive.records.length, total);
+  assert.equal(new Set(archive.records.map(r => r.id)).size, total);
 });
 
 test('privacy allowlist, wrong character/account, malformed schema and full request byte limits', async () => {
@@ -347,7 +349,8 @@ test('valid second owner cannot see or append the first owner archive; device re
   assert.equal(count('history_records'), 6);
 });
 
-test('rate limits return a retry delay and no acknowledgement', async () => {
+test('rate limits return a retry delay and no acknowledgement', async t => {
+  stopClock(t);                                   // one minute's bucket, here and in the API
   const bucket = 'profile-history:' + new Date().toISOString().slice(0, 16);
   await env.DB.prepare('INSERT INTO rate_limits (user_id, bucket, n) VALUES (?, ?, 120)').bind(user.id, bucket).run();
   const response = await api('history', { body: batch() });
@@ -357,8 +360,8 @@ test('rate limits return a retry delay and no acknowledgement', async () => {
   assert.equal(count('history_records'), 0);
 });
 
-test('browser full export follows 401 bounded pages for 100,001 records, and aborts on auth/character/cursor changes', async () => {
-  const total = 100001; let requests = 0;
+test('browser full export follows bounded pages to the last record, and aborts on auth/character/cursor changes', async () => {
+  const total = 1001; let requests = 0;
   const archive = await exportHistory(async url => {
     const before = new URL(url, origin).searchParams.get('before');
     const offset = before ? Number(before) : 0;
@@ -368,7 +371,7 @@ test('browser full export follows 401 bounded pages for 100,001 records, and abo
       records: Array.from({ length: n }, (_, i) => ({ id: 'record:' + (offset + i), moment: { t: 1759400000, k: 'lvl', lv: 2 } })),
       next: offset + n < total ? String(offset + n) : null });
   });
-  assert.equal(requests, 401);
+  assert.equal(requests, Math.ceil(total / 250));
   assert.equal(archive.records.length, total);
   assert.equal(new Set(archive.records.map(r => r.id)).size, total);
   await assert.rejects(exportHistory(async () => new Response('', { status: 401 })), /sign in/);

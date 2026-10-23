@@ -41,6 +41,8 @@ test("limits and voices add up by plan, and leave with the account", async () =>
     { plan: "hero", kind: "willo", said: "finest:moonwell", players: 1, replies: 1, chars: 150 },
   ]);
   assert.deepEqual(report.picks, [{ plan: "hero", pick: "moonwell", players: 1, replies: 1 }]);
+  // The hosted voice's cost per player (the PC's costs nothing): 150 finest letters at $15 a million, as a month.
+  assert.deepEqual(report.voiceCost, [{ plan: "hero", players: 1, micro: 2250, perPlayerMonth: Math.round(2250 * 30 / 7) }]);
   // /api/admin passes Date.now(), a number: the same report.
   assert.deepEqual(await planUsageReport(env, { now: now.getTime() }), report);
   await deleteUser(env, user);
@@ -88,4 +90,22 @@ test("the admin view counts kept answers and checkout sources by plan", async ()
   assert.deepEqual(view.sources.sort((a, b) => a.plan.localeCompare(b.plan)),
     [{ source: "welcome", plan: "hero", n: 1 }, { source: "willo-empty", plan: "legend", n: 1 }]);
   assert.equal(view.collectingSince, "2026-10-19");
+});
+
+test("the hosted voice's cost per player, by plan, the last 7 days as a month: Legend's richer voice, the studio voice", async () => {
+  await setup(env);
+  await setupPlanUsage(env);
+  const a = await findOrCreateUser(env, { email: "vc-a@example.com", googleSub: "vc-a", name: "A" });
+  const b = await findOrCreateUser(env, { email: "vc-b@example.com", googleSub: "vc-b", name: "B" });
+  const legend = { id: "legend", status: "active" }, free = { id: "free" };
+  await recordVoice(env, a.id, legend, { kind: "willo", said: "finest:sprite", first: true, chars: 400 }, now);
+  await recordVoice(env, b.id, free, { kind: "willo", said: "studio:sprite", first: true, chars: 1000 }, now);
+  await recordVoice(env, b.id, free, { kind: "reading", said: "studio:chronicler", first: true, chars: 200 }, now);
+  // Ten days ago: outside the week.
+  await recordVoice(env, a.id, legend, { kind: "willo", said: "finest:sprite", first: true, chars: 9000 },
+    new Date(now.getTime() - 10 * 864e5));
+  const { voiceCost } = await planUsageReport(env, { now, days: 30 });
+  assert.deepEqual(voiceCost.map(c => [c.plan, c.players, c.micro]), [["free", 1, 1200], ["legend", 1, 10000]]);
+  await deleteUser(env, a);
+  await deleteUser(env, b);
 });

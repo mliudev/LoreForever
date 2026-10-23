@@ -1,0 +1,73 @@
+{
+ "key": "quest:7729",
+ "type": "quest",
+ "name": "JOB OPPORTUNITY: Culling the Competition",
+ "era": "classic",
+ "zone": "searinggorge",
+ "meta": {
+  "ids": [
+   7729
+  ],
+  "level": "48",
+  "faction": "Neutral",
+  "start": "Wanted/Missing/Lost & Found",
+  "end": "Taskmaster Scrange",
+  "previous": "",
+  "next": "",
+  "wiki": "JOB OPPORTUNITY: Culling the Competition",
+  "chain": [],
+  "category": "Searing Gorge"
+ },
+ "summary": "A notice announces that Taskmaster Scrange wants some capable hands to cull the competition in the Searing Gorge. The work is slaying Dark Iron Taskmasters and Dark Iron Slavers until your clothes are bloody enough, then returning to Scrange.",
+ "sections": [
+  {
+   "title": "An Open Position",
+   "body": "Scrange wants applicants to head out through the gorge and slaughter the Dark Iron Taskmasters and Dark Iron Slavers they meet: fifteen of each. Come back when your clothes are bloody enough. You will know when that is, and you are not to ask.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is offering this job?",
+   "aliases": [
+    "who offers this quest",
+    "who wants the taskmasters killed",
+    "who is taskmaster scrange"
+   ],
+   "answer": "Taskmaster Scrange in the Searing Gorge, who wants help culling the competition."
+  },
+  {
+   "q": "Which enemies must be slain?",
+   "aliases": [
+    "what do i kill",
+    "targets for job opportunity",
+    "who are the competition"
+   ],
+   "answer": "Fifteen Dark Iron Taskmasters and fifteen Dark Iron Slavers."
+  },
+  {
+   "q": "How does Scrange tell the work is done?",
+   "aliases": [
+    "how to prove kills",
+    "bloody clothes requirement",
+    "how does scrange check"
+   ],
+   "answer": "By the state of your clothes. Scrange will weigh you with and without them to be sure."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "culling the competition",
+  "dark iron slaver",
+  "dark iron taskmaster",
+  "job opportunity",
+  "searing gorge",
+  "taskmaster scrange"
+ ],
+ "related": [
+  "zone:searinggorge"
+ ],
+ "attribution": [
+  "JOB OPPORTUNITY: Culling the Competition"
+ ]
+}

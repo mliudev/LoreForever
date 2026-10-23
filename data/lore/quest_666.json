@@ -1,0 +1,104 @@
+{
+ "key": "quest:666",
+ "type": "quest",
+ "name": "Sunken Treasure",
+ "era": "classic",
+ "zone": "arathi",
+ "meta": {
+  "ids": [
+   666
+  ],
+  "level": "40",
+  "faction": null,
+  "start": "Doctor Draxlegauge",
+  "end": "Doctor Draxlegauge",
+  "previous": "Sunken Treasure (1)",
+  "next": "Sunken Treasure (3)",
+  "wiki": "Sunken Treasure (2)",
+  "chain": [],
+  "prev_q": [
+   "Sunken Treasure (1)"
+  ],
+  "next_q": [
+   "Sunken Treasure (3)"
+  ],
+  "category": "Arathi Highlands",
+  "chain_tpl": [
+   "Sunken Treasure"
+  ]
+ },
+ "summary": "After the first part of Sunken Treasure, Doctor Draxlegauge lends you his Goggles of Gem Hunting and asks you to collect ten elven gems from the sea floor for Captain O'Breen, then bring the goggles back.",
+ "sections": [
+  {
+   "title": "Gems Turned to Stone",
+   "body": "Down on the sea floor, the gems have lain so many years that they have hardened into thick stone. The power built into the goggles lets you find them regardless, and Doctor Draxlegauge is proud of the gnomish ingenuity behind them. He lends you the goggles so you can gather the lost gems for Captain O'Breen.",
+   "spoiler": 0
+  },
+  {
+   "title": "Dry Land for the Doctor",
+   "body": "He would swim down himself, he says, but there is scientific work waiting for him on safe, dry land. He wants the goggles returned afterwards, sure that Captain O'Breen will put them to plenty of use.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who sends you to gather the gems?",
+   "aliases": [
+    "who gives sunken treasure 2",
+    "quest giver sunken treasure"
+   ],
+   "answer": "Doctor Draxlegauge, who waits in Faldir's Cove. He wants ten elven gems collected for Captain O'Breen."
+  },
+  {
+   "q": "Why are special goggles required for the search?",
+   "aliases": [
+    "why goggles of gem hunting",
+    "what do the goggles do"
+   ],
+   "answer": "After so long on the sea floor, the gems have turned into thick stone. The power built into the Goggles of Gem Hunting lets you find them easily."
+  },
+  {
+   "q": "Why doesn't Doctor Draxlegauge dive for the gems himself?",
+   "aliases": [
+    "why doesn't draxlegauge swim",
+    "why draxlegauge stays on land"
+   ],
+   "answer": "He says important scientific business keeps him up on safe, dry land."
+  },
+  {
+   "q": "Can you keep the Goggles of Gem Hunting?",
+   "aliases": [
+    "keep gem hunting goggles",
+    "do i return goggles"
+   ],
+   "answer": "No. The doctor lends them and wants them back when you are done, as he expects Captain O'Breen to use them often."
+  },
+  {
+   "q": "Where does this fall in the Sunken Treasure chain?",
+   "aliases": [
+    "what comes before this",
+    "what is the next step"
+   ],
+   "answer": "It follows the first part of Sunken Treasure, when Professor Phizzlethorpe charged the goggles. A third part comes after it."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "arathi highlands",
+  "captain o'breen",
+  "doctor draxlegauge",
+  "elven gem",
+  "faldir's cove",
+  "fleet master seahorn",
+  "goggles of gem hunting",
+  "sunken treasure"
+ ],
+ "related": [
+  "subzone:faldir-s-cove",
+  "zone:arathi",
+  "npc:fleet-master-seahorn"
+ ],
+ "attribution": [
+  "Sunken Treasure (2)"
+ ]
+}

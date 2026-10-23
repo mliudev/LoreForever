@@ -1,0 +1,95 @@
+{
+ "key": "quest:2980",
+ "type": "quest",
+ "name": "The Ogres of Feralas",
+ "era": "classic",
+ "zone": "feralas",
+ "meta": {
+  "ids": [
+   2980
+  ],
+  "level": "44",
+  "faction": "Horde",
+  "start": "Rok Orhan",
+  "end": "Rok Orhan",
+  "previous": "The Ogres of Feralas (1)",
+  "next": "",
+  "wiki": "The Ogres of Feralas (2)",
+  "chain": [
+   "A Threat in Feralas",
+   "The Ogres of Feralas (1)",
+   "The Ogres of Feralas (2)"
+  ],
+  "prev_q": [
+   "The Ogres of Feralas (1)"
+  ],
+  "category": "Feralas"
+ },
+ "summary": "Rok Orhan at Camp Mojache, satisfied that you are a true fighter, sends you on to the High Wilderness, southwest of the camp. Among ruined structures once held by the night elves, Gordunni ogres far tougher than before are to be pushed back. This follows The Ogres of Feralas.",
+ "sections": [
+  {
+   "title": "Into the High Wilderness",
+   "body": "Rok Orhan judges that you have proven yourself a true fighter, and trusts you with the next part of the work. The High Wilderness lies southwest of the camp, where abandoned, wrecked structures stand on ground the night elves once owned. Withered trees and desecrated ground show where the Gordunni are. Rok warns that these ogres are far tougher than the earlier ones. Ten Gordunni Shamans, ten Gordunni Warlocks and five Gordunni Maulers are to fall.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who sends you to the High Wilderness?",
+   "aliases": [
+    "quest giver",
+    "rok orhan",
+    "who starts this"
+   ],
+   "answer": "Rok Orhan at Camp Mojache."
+  },
+  {
+   "q": "Where are these Gordunni?",
+   "aliases": [
+    "where are the ogres",
+    "high wilderness location",
+    "ruins location"
+   ],
+   "answer": "In the High Wilderness, southwest of Camp Mojache, around wrecked structures on ground the night elves once owned. Withered trees and desecrated ground mark the spot."
+  },
+  {
+   "q": "Which ogres must be killed?",
+   "aliases": [
+    "who do i kill",
+    "ogre targets",
+    "gordunni types"
+   ],
+   "answer": "Ten Gordunni Shamans, ten Gordunni Warlocks and five Gordunni Maulers."
+  },
+  {
+   "q": "What comes before this step?",
+   "aliases": [
+    "prerequisite",
+    "previous quest",
+    "chain order"
+   ],
+   "answer": "The first The Ogres of Feralas, in which Rok Orhan sent you against the ogres at their outpost to the north."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "camp mojache",
+  "feralas",
+  "gordunni",
+  "high wilderness",
+  "maulers",
+  "rok orhan",
+  "shamans",
+  "warlocks"
+ ],
+ "related": [
+  "quest:2975",
+  "subzone:camp-mojache",
+  "subzone:high-wilderness",
+  "zone:feralas",
+  "quest:2982"
+ ],
+ "attribution": [
+  "The Ogres of Feralas (2)"
+ ]
+}

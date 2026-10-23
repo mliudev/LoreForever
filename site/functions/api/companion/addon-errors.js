@@ -16,13 +16,14 @@ import { perHour } from "../../../lib/ratelimit.js";
 import { authorized } from "../../../lib/auth.js";
 import { setup as setupAccounts } from "../../../lib/accounts.js";
 import { forwardAll } from "../../../lib/slack-feedback.js";
+import { isCompanion } from "../../../lib/client-version.js";
 
 const NO_STORE = { "Cache-Control": "no-store", "X-Robots-Tag": "noindex" };
 const fail = (status, error) => Response.json({ ok: false, error }, { status, headers: NO_STORE });
 
 export async function onRequestPost(context) {
   const { request, env } = context;
-  if (!/^companion\/[\w.+-]{1,32}$/.test(request.headers.get("X-LF-Client") || "") || request.headers.get("Origin")) {
+  if (!isCompanion(request.headers.get("X-LF-Client"), { loose: true }) ||request.headers.get("Origin")) {
     return fail(400, "Only the companion app sends these.");
   }
   if (Number(request.headers.get("Content-Length") || 0) > MAX_BODY) return fail(413, "Too long.");

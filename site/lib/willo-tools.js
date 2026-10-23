@@ -255,6 +255,11 @@ export function offerInstead(answer, action) {
   return kept ? `${kept} ${offerLine(action)}` : offerLine(action);
 }
 
+// What Willo adds, once, to an answer about a quest for a player whose plan reads quest pages with no recording aloud, with
+// Live game info's button under it (functions/api/companion/answer.js questOffer): the add-on only names those pages while
+// Live game info is on.
+export const QUEST_READING_OFFER = "Want quests without a recording read aloud? Turn on Live game info.";
+
 // What Willo says when the answer came back as only the offer, without words of its own, or said it was done.
 export function offerLine(action) {
   return {

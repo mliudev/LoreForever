@@ -1,0 +1,99 @@
+{
+ "key": "quest:1168",
+ "type": "quest",
+ "name": "Army of the Black Dragon",
+ "era": "classic",
+ "zone": "dustwallow",
+ "meta": {
+  "ids": [
+   1168
+  ],
+  "level": "43",
+  "faction": "Horde",
+  "start": "Tharg",
+  "end": "Tharg",
+  "previous": "",
+  "next": "",
+  "wiki": "Army of the Black Dragon",
+  "chain": [],
+  "category": "Dustwallow Marsh"
+ },
+ "summary": "In Brackenwall Village, the ogre Tharg wants vengeance on the army of the black dragon. Tharg resents Overlord Mok'Morokk for telling the ogres to run rather than fight, and asks you to strike at the Firemane.",
+ "sections": [
+  {
+   "title": "A Grievance of Blood",
+   "body": "Black dragons killed many ogres, and Tharg's wife was among the dead. Mok'Morokk, whom Rexxar made Overlord, told the survivors to run, and that is how they came to Brackenwall Village. Tharg says ogres are poor at running and ought to fight, and he believes Mok'Morokk cares only for Mok'Morokk. Tharg also says that Mok'Morokk tells all ogres to stay put and keep this place safe.",
+   "spoiler": 0
+  },
+  {
+   "title": "Home in the South",
+   "body": "Tharg calls the Stonemaul Ruins his home and likes it in the south. Brackenwall Village is not home to him. He wants revenge on the black dragon army and wants the old home back, so he asks you to cut down Firemane Scouts and Firemane Ash Tails among its ranks.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Tharg?",
+   "aliases": [
+    "tharg lore",
+    "who is tharg",
+    "tharg dustwallow"
+   ],
+   "answer": "Tharg is an ogre living in Brackenwall Village. His wife was killed by black dragons, and he wants revenge and a return to the Stonemaul Ruins."
+  },
+  {
+   "q": "Why does Tharg dislike Overlord Mok'Morokk?",
+   "aliases": [
+    "why tharg hate mok morokk",
+    "mok'morokk coward",
+    "tharg and mok morokk"
+   ],
+   "answer": "Rexxar made Mok'Morokk Overlord, but Tharg says he cares more for power than for ogres. When the black dragons killed many ogres, Mok'Morokk told the rest to run, and Tharg thinks ogres should fight."
+  },
+  {
+   "q": "What happened to Tharg's wife?",
+   "aliases": [
+    "thargs wife",
+    "what happened to thargs wife",
+    "tharg wife dead"
+   ],
+   "answer": "Black dragons killed her, along with many other ogres. It is the root of Tharg's wish for revenge."
+  },
+  {
+   "q": "Where is the ogres' old home?",
+   "aliases": [
+    "stonemaul ogre home",
+    "where did ogres come from",
+    "stonemaul ruins history"
+   ],
+   "answer": "Tharg calls the Stonemaul Ruins home and likes it in the south. He says Brackenwall Village is not home, and he wants to go back."
+  },
+  {
+   "q": "Which enemies make up the army of the black dragon?",
+   "aliases": [
+    "firemane dragonkin",
+    "who to kill army of black dragon",
+    "firemane enemies"
+   ],
+   "answer": "Tharg points you at the Firemane, among them Firemane Scouts and Firemane Ash Tails."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "brackenwall",
+  "dustwallow",
+  "firemane",
+  "mok'morokk",
+  "rexxar",
+  "stonemaul",
+  "tharg"
+ ],
+ "related": [
+  "subzone:brackenwall-village",
+  "subzone:stonemaul-ruins",
+  "zone:dustwallow"
+ ],
+ "attribution": [
+  "Army of the Black Dragon"
+ ]
+}

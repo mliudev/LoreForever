@@ -1,0 +1,95 @@
+{
+ "key": "quest:699",
+ "type": "quest",
+ "name": "Lack of Surplus",
+ "era": "classic",
+ "zone": "swampofsorrows",
+ "meta": {
+  "ids": [
+   699
+  ],
+  "level": "42",
+  "faction": "Horde",
+  "start": "Tok'Kar",
+  "end": "Tok'Kar",
+  "previous": "Lack of Surplus",
+  "next": "Threat From the Sea",
+  "wiki": "Lack of Surplus (2)",
+  "chain": [],
+  "prev_q": [
+   "Lack of Surplus"
+  ],
+  "next_q": [
+   "Threat From the Sea"
+  ],
+  "category": "Swamp of Sorrows",
+  "chain_tpl": [
+   "Lack of Surplus"
+  ]
+ },
+ "summary": "Tok'Kar and the soldiers on the coast are stationed to guard Stonard against murlocs, or to send warning when the force is too large. Tok'Kar wants six sawtooth snapper claws and offers one of the outpost's weapons in thanks.",
+ "sections": [
+  {
+   "title": "Weapons for the Coast",
+   "body": "With murlocs a threat along the coast, Tok'Kar and the soldiers are posted here to protect Stonard, or to warn it if the force is too large. That leaves little time for rest, and Tok'Kar could use more help. The claws of sawtooth snappers make fine weapons when properly prepared. Tok'Kar asks for six, and offers one of the outpost's weapons in return, grateful for the meat and the company.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who asks for the claws?",
+   "aliases": [
+    "who gives lack of surplus",
+    "quest giver",
+    "tokkar"
+   ],
+   "answer": "Tok'Kar, who is stationed along the coast to protect Stonard."
+  },
+  {
+   "q": "Why does Tok'Kar need sawtooth snapper claws?",
+   "aliases": [
+    "why claws",
+    "sawtooth snapper purpose",
+    "weapon claws"
+   ],
+   "answer": "Their claws make fine weapons when properly prepared, and Tok'Kar wants six of them."
+  },
+  {
+   "q": "What threat is the coastal post watching for?",
+   "aliases": [
+    "coastal dangers",
+    "murloc attack stonard",
+    "what is tokkar watching"
+   ],
+   "answer": "Murlocs along the coast. The soldiers are there to protect Stonard, or to warn it if the force is too large."
+  },
+  {
+   "q": "Where does this lead next?",
+   "aliases": [
+    "what comes next",
+    "next quest",
+    "after lack of surplus"
+   ],
+   "answer": "Threat From the Sea follows."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "claws",
+  "murlocs",
+  "sawtooth snapper",
+  "stonard",
+  "swamp of sorrows",
+  "tok'kar"
+ ],
+ "related": [
+  "subzone:stonard",
+  "quest:698",
+  "quest:1422",
+  "topic:murloc",
+  "zone:swampofsorrows"
+ ],
+ "attribution": [
+  "Lack of Surplus (2)"
+ ]
+}

@@ -1,0 +1,96 @@
+{
+ "key": "quest:2988",
+ "type": "quest",
+ "name": "Witherbark Cages",
+ "era": "classic",
+ "zone": "hinterlands",
+ "meta": {
+  "ids": [
+   2988
+  ],
+  "level": "45",
+  "faction": "Alliance",
+  "start": "Gryphon Master Talonaxe",
+  "end": "Gryphon Master Talonaxe",
+  "previous": "",
+  "next": "The Altar of Zul (quest)",
+  "wiki": "Witherbark Cages",
+  "chain": [
+   "Witherbark Cages",
+   "The Altar of Zul (quest)",
+   "Thadius Grimshade (quest)",
+   "Nekrum's Medallion (quest)",
+   "The Divination",
+   "Return to the Hinterlands",
+   "Saving Sharpbeak"
+  ],
+  "next_q": [
+   "The Altar of Zul (quest)"
+  ],
+  "category": "Hinterlands"
+ },
+ "summary": "Gryphon Master Talonaxe tells you that Sharpbeak, heir of Swiftwing, the mightiest gryphon, has been lost, and that trolls are believed to have taken the young gryphon. You are asked to look through the cages of the two Witherbark troll villages for any sign of Sharpbeak.",
+ "sections": [
+  {
+   "title": "A Missing Heir",
+   "body": "Sharpbeak was lost a few days ago while hunting with his parents. Talonaxe and the others believe the trolls took him, and you are asked for your help. Three cages wait to be checked across the two Witherbark troll villages, and Talonaxe wants to hear what you find.",
+   "spoiler": 0
+  },
+  {
+   "title": "Word From the Villages",
+   "body": "Sharpbeak is not in the Witherbark villages. Talonaxe takes the news gravely. The young gryphon is meant to lead the generation that follows, and if he is lost, the strength and spirit of the fleet will suffer greatly.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Sharpbeak?",
+   "aliases": [
+    "sharpbeak",
+    "who is the gryphon",
+    "swiftwing heir"
+   ],
+   "answer": "Sharpbeak is the heir of Swiftwing, whom Talonaxe calls the mightiest gryphon. He was lost a few days ago while hunting with his parents."
+  },
+  {
+   "q": "Why are the Witherbark trolls suspected?",
+   "aliases": [
+    "why trolls",
+    "witherbark involvement",
+    "who took sharpbeak"
+   ],
+   "answer": "Talonaxe and the others believe the trolls took Sharpbeak, so the cages of the Witherbark villages are the first place to look."
+  },
+  {
+   "q": "Where do I search for Sharpbeak?",
+   "aliases": [
+    "where are the cages",
+    "witherbark cages location",
+    "where to look for sharpbeak"
+   ],
+   "answer": "Look in the cages of the two Witherbark troll villages, then come back and tell Gryphon Master Talonaxe what you found."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "cages",
+  "gryphon",
+  "hinterlands",
+  "sharpbeak",
+  "swiftwing",
+  "talonaxe",
+  "trolls",
+  "witherbark"
+ ],
+ "related": [
+  "quest:2989",
+  "quest:1450",
+  "subzone:witherbark-village",
+  "zone:hinterlands",
+  "topic:troll",
+  "quest:2994"
+ ],
+ "attribution": [
+  "Wowpedia: Witherbark Cages"
+ ]
+}

@@ -1,0 +1,86 @@
+{
+ "key": "quest:720",
+ "type": "quest",
+ "name": "A Sign of Hope",
+ "era": "classic",
+ "zone": "badlands",
+ "meta": {
+  "ids": [
+   720
+  ],
+  "level": "35",
+  "faction": "Alliance",
+  "start": "Crumpled Map",
+  "end": "Prospector Ryedol",
+  "previous": "",
+  "next": "A Sign of Hope (2)",
+  "wiki": "A Sign of Hope",
+  "chain": [
+   "A Sign of Hope",
+   "A Sign of Hope (2)",
+   "Amulet of Secrets",
+   "Prospect of Faith",
+   "Prospect of Faith (2)"
+  ],
+  "next_q": [
+   "A Sign of Hope (2)"
+  ],
+  "category": "Badlands",
+  "chain_tpl": [
+   "Passing Word of a Threat"
+  ]
+ },
+ "summary": "A crumpled map bears a few words scrawled in chalk: a plea to Ryedol from Hammertoe, who says they are taking Hammertoe to Uldaman and asks for help. Prospector Ryedol should hear that Hammertoe Grez lives.",
+ "sections": [
+  {
+   "title": "Words in Chalk",
+   "body": "Roughly scribbled in chalk on the crumpled map is a short note signed by Hammertoe. It is addressed to Ryedol and says only that they are taking Hammertoe to Uldaman and that help is needed. The word to carry to Prospector Ryedol is that Hammertoe Grez lives.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is written on the crumpled map?",
+   "aliases": [
+    "what does the note say",
+    "chalk message on map",
+    "crumpled map text"
+   ],
+   "answer": "A note in chalk, addressed to Ryedol and signed Hammertoe. It says they are taking Hammertoe to Uldaman and asks for help."
+  },
+  {
+   "q": "Who is Prospector Ryedol?",
+   "aliases": [
+    "who is ryedol",
+    "where to bring crumpled map"
+   ],
+   "answer": "The one the note is meant for. You are to seek out Prospector Ryedol and tell him that Hammertoe Grez lives."
+  },
+  {
+   "q": "Where does the message say Hammertoe Grez is being taken?",
+   "aliases": [
+    "where is hammertoe taken",
+    "where is grez taken"
+   ],
+   "answer": "To Uldaman."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "a sign of hope",
+  "badlands",
+  "chalk note",
+  "crumpled map",
+  "hammertoe grez",
+  "prospector ryedol",
+  "uldaman"
+ ],
+ "related": [
+  "npc:prospector-ryedol",
+  "subzone:uldaman",
+  "zone:badlands"
+ ],
+ "attribution": [
+  "A Sign of Hope"
+ ]
+}

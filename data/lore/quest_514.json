@@ -1,0 +1,95 @@
+{
+ "key": "quest:514",
+ "type": "quest",
+ "name": "Letter to Stormpike",
+ "era": "classic",
+ "zone": "alterac",
+ "meta": {
+  "ids": [
+   514
+  ],
+  "level": "34",
+  "faction": "Alliance",
+  "start": "Loremaster Dibbs",
+  "end": "Prospector Stormpike",
+  "previous": "Encrypted Letter (Hillsbrad Foothills)",
+  "next": "Further Mysteries",
+  "wiki": "Letter to Stormpike",
+  "chain": [],
+  "prev_q": [
+   "Encrypted Letter (Hillsbrad Foothills)"
+  ],
+  "next_q": [
+   "Further Mysteries"
+  ],
+  "category": "Hillsbrad Foothills",
+  "chain_tpl": [
+   "Encrypted Letter (Hillsbrad Foothills)"
+  ]
+ },
+ "summary": "Loremaster Dibbs in Southshore holds a cleverly encrypted letter, and he knows someone in Ironforge who might decrypt it. He sends you with the letter to Prospector Stormpike, in the Library of the Hall of Explorers.",
+ "sections": [
+  {
+   "title": "A Colleague in Ironforge",
+   "body": "Prospector Stormpike is to be found in the Library, in the Hall of Explorers in Ironforge. Dibbs wants you to tell Stormpike that he sent you, and to show the letter. Dibbs reckons that if anyone north of Blackrock Spire can read it, Stormpike is the one.",
+   "spoiler": 0
+  },
+  {
+   "title": "Stormpike's Welcome",
+   "body": "Stormpike asks how the old bookworm is doing when he hears Dibbs sent you. Then he declares that encryption is a specialty of his and begins to look the letter over.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who sends you to Ironforge with the letter?",
+   "aliases": [
+    "who gave me this quest",
+    "quest giver",
+    "who starts letter to stormpike"
+   ],
+   "answer": "Loremaster Dibbs in Southshore sends you, hoping a colleague in Ironforge can decrypt the letter."
+  },
+  {
+   "q": "Where is Prospector Stormpike located?",
+   "aliases": [
+    "stormpike location",
+    "where is stormpike",
+    "prospector stormpike library"
+   ],
+   "answer": "Prospector Stormpike is in the Library inside the Hall of Explorers in Ironforge."
+  },
+  {
+   "q": "Why does Dibbs believe Stormpike can read the letter?",
+   "aliases": [
+    "why stormpike",
+    "why send to stormpike",
+    "stormpike encryption"
+   ],
+   "answer": "Dibbs says that if anyone north of Blackrock Spire can read it, it is Stormpike."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "encrypted letter",
+  "hall of explorers",
+  "ironforge library",
+  "letter to stormpike",
+  "loremaster dibbs",
+  "prospector stormpike",
+  "southshore"
+ ],
+ "related": [
+  "quest:511",
+  "quest:525",
+  "npc:prospector-stormpike",
+  "subzone:library-ironforge",
+  "subzone:hall-of-explorers",
+  "zone:ironforge",
+  "subzone:southshore",
+  "zone:alterac"
+ ],
+ "attribution": [
+  "Letter to Stormpike"
+ ]
+}

@@ -15,7 +15,7 @@ const NOW = new Date("2026-10-21T12:00:00Z");
 
 beforeEach(async () => {
   await setup(env);
-  for (const table of ["devices", "device_links", "rate_limits", "answer_spend", "story_spend", "users", "excluded_accounts"]) env.DB.sqlite.exec(`DELETE FROM ${table}`);
+  for (const table of ["devices", "device_links", "rate_limits", "answer_spend", "free_pool_days", "story_spend", "users", "excluded_accounts"]) env.DB.sqlite.exec(`DELETE FROM ${table}`);
   try { env.DB.sqlite.exec("DELETE FROM research_cache"); } catch { /* made on first use */ }
   systems = [];
   globalThis.fetch = async (url, options) => {
@@ -52,13 +52,13 @@ async function built(persona, [question, research, operation, extra], more = {})
 
 // Hashes of the system prompts main built for each case before the away state existed (2026-10-21, commit 147b91e).
 const MAIN = {
-  "sam answer": "614790521b8bd73f", "sam extras": "306f84eba7a1e068", "sam spoken": "aab70320435a8d93",
+  "sam answer": "614790521b8bd73f", "sam extras": "0bc83ddb1e6a5ba5", "sam spoken": "aab70320435a8d93",
   "sam layered": "38732e8a3397b413", "sam picture": "aab70320435a8d93", "sam grounded": "e2709e71ea250522",
-  "sam groundedExtras": "7b96673d020cfcbb", "sam character": "813ef01e36bad5b6", "sam characterText": "3659ea0ede473e1f",
+  "sam groundedExtras": "5515ef42398c19ae", "sam character": "813ef01e36bad5b6", "sam characterText": "3659ea0ede473e1f",
   "sam compact": "7edf7db34438f427",
-  "willo answer": "21569493ee115924", "willo extras": "640595ce606ef726", "willo spoken": "b33be2b73fd1bb9f",
+  "willo answer": "21569493ee115924", "willo extras": "6f9c72a2577a5d78", "willo spoken": "b33be2b73fd1bb9f",
   "willo layered": "5f59d3c939f5f973", "willo picture": "b33be2b73fd1bb9f", "willo grounded": "d91cc2072da35f2d",
-  "willo groundedExtras": "ba39a174f360b122", "willo character": "813ef01e36bad5b6",
+  "willo groundedExtras": "5e5c9befd51c972f", "willo character": "813ef01e36bad5b6",
   "willo characterText": "3659ea0ede473e1f", "willo compact": "847a22fc0913c8f8",
 };
 test("a request that is not away builds the same system prompt as before", async () => {
@@ -74,13 +74,13 @@ test("away changes the system prompt: no in-game sentences, a short rule, past t
   for (const persona of ["sam", "willo"]) for (const name of ["answer", "extras", "spoken", "layered", "grounded", "groundedExtras"]) {
     const home = await built(persona, CASES[name]), away = await built(persona, CASES[name], { away: true });
     assert.notEqual(away, home, `${persona} ${name}`);
-    assert.ok(away.includes("AWAY: the player is not in the world now. The place given is where they last rested"), `${persona} ${name} has the rule`);
+    assert.ok(away.includes("AWAY: zone and sub are where they last rested. Say it in the past tense"), `${persona} ${name} has the rule`);
     assert.ok(!home.includes("AWAY:"));
     assert.ok(!away.includes("over the game"), `${persona} ${name} speaks over nothing`);
     assert.ok(!away.includes("are in the game and can see"));
-    assert.ok(away.includes("when you rested last you were in"));
-    assert.ok(!AWAY_TECH.test(away.replace(/Never name saves[^.]*\./, "")), "the rule never teaches a tech word");
-    assert.ok(away.includes("from Darkshire, where you rested last") && away.includes('never "here", "right there" or who is near'), "directions too");
+    assert.ok(away.includes("when you rested last, folk were about"), "people and places as last seen");
+    assert.ok(!AWAY_TECH.test(away.replace(/Never say[^.]*\./, "")), "the rule never teaches a tech word");
+    assert.ok(away.includes("from Darkshire, where you rested last") && away.includes('never "here", "now" or "right there", nor name or guess who is near'), "directions too");
   }
   const text = await built("willo", CASES.answer, { away: true });
   assert.ok(text.includes("they know their world and can see what you can't"));
@@ -91,7 +91,7 @@ test("away changes the system prompt: no in-game sentences, a short rule, past t
 test("with no place given, she can't see where they are and asks: no past tense of a place", async () => {
   const none = await built("willo", CASES.answer, { away: "none" });
   assert.ok(none.includes("nothing says where they are: never guess a place"));
-  assert.ok(none.includes("say you can't see where they are, and ask, from inside the world"));
+  assert.ok(none.includes("say you can't see where they are and ask where they last rested"), "asks in rest terms, not log-in ones");
   assert.ok(!none.includes("when you rested last you were in"));
   assert.ok(!none.includes("over the game") && !none.includes("are in the game and can see"));
   assert.ok(Buffer.byteLength(none) < Buffer.byteLength(await built("willo", CASES.answer, { away: true })));
@@ -231,13 +231,14 @@ test("a phone with no place gets the no-place rule; a PC with a stale zone gets 
   const token = await linked();
   await askWith(token, { client: "companion/ios-0.3.0", prompt: "PLAYER CONTEXT\ncharacter: Level 22 Human Rogue\n\nQUESTION\nwhere am I?" });
   assert.ok(systems.at(-1).includes("nothing says where they are"), "the phone knows no place");
-  assert.ok(!systems.at(-1).includes("The place given is where they last rested"));
+  assert.ok(!systems.at(-1).includes("Say it in the past tense"));
   await askWith(token, { away: true, prompt: "PLAYER CONTEXT\nzone: Duskwood\nsub: Darkshire\ntarget: Madame Eva\n\nQUESTION\nWho is that NPC?" });
-  assert.ok(systems.at(-1).includes("The place given is where they last rested"));
+  assert.ok(systems.at(-1).includes("Say it in the past tense"));
   sentBodies = [];
   await askWith(token, { away: true, prompt: "PLAYER CONTEXT\nzone: Duskwood\nsub: Darkshire\ntarget: Madame Eva\n\nQUESTION\nWho is that NPC?" });
   assert.ok(!JSON.stringify(sentBodies[0].contents).includes("target: Madame Eva"), "the stale target never reaches her");
-  assert.ok(JSON.stringify(sentBodies[0].contents).includes("sub: Darkshire"));
+  const seen = JSON.stringify(sentBodies[0].contents);
+  assert.ok(seen.includes("zone: Duskwood\\nsub: Darkshire"), "the zone and sub lines reach her exactly as in the game");
 });
 
 test("away from a PC, her 'right here' is said as from where they last were", async () => {
@@ -256,3 +257,4 @@ test("away from a PC, her 'right here' is said as from where they last were", as
   assert.ok(!/right here/i.test(text), text);
   assert.ok(/You were last in Darkshire/.test(text), text);
 });
+

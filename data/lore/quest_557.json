@@ -1,0 +1,105 @@
+{
+ "key": "quest:557",
+ "type": "quest",
+ "name": "Bracers of Binding",
+ "era": "classic",
+ "zone": "hillsbrad",
+ "meta": {
+  "ids": [
+   557
+  ],
+  "level": "34",
+  "faction": "Horde",
+  "start": "Keeper Bel'varil",
+  "end": "Keeper Bel'varil",
+  "previous": "Stone Tokens",
+  "next": "",
+  "wiki": "Bracers of Binding",
+  "chain": [
+   "Stone Tokens",
+   "Bracers of Binding"
+  ],
+  "prev_q": [
+   "Stone Tokens"
+  ],
+  "category": "Hillsbrad Foothills"
+ },
+ "summary": "Keeper Bel'varil in Tarren Mill says the Magus, busy with the stone tokens you gathered, will eventually want their counterpart: bracers of binding. You are to collect four Bracers of Earth Binding from elementals among the ruins of Dalaran.",
+ "sections": [
+  {
+   "title": "Bracers of Earth Binding",
+   "body": "While the Magus studies the stone tokens you gathered, Bel'varil expects a further wish: samples of the matching piece, bracers of binding. Worn on an elemental's wrists, they tie it to a mage's service. Among the ruins of Dalaran, elementals wear them. Bel'varil wants four Bracers of Earth Binding brought to Tarren Mill.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who gives this quest?",
+   "aliases": [
+    "quest giver",
+    "who gives bracers of binding",
+    "keeper bel'varil quest"
+   ],
+   "answer": "Keeper Bel'varil, in Tarren Mill, after you gathered the stone tokens."
+  },
+  {
+   "q": "What are the bracers used for?",
+   "aliases": [
+    "what do bracers of binding do",
+    "purpose of bracers",
+    "why get bracers"
+   ],
+   "answer": "They are set around the wrists of elementals and bind them into a mage's service."
+  },
+  {
+   "q": "Where are the elementals found?",
+   "aliases": [
+    "elemental location",
+    "where to find bracers",
+    "where are elemental slaves"
+   ],
+   "answer": "In the ruins of Dalaran, which lie in the Alterac Mountains."
+  },
+  {
+   "q": "Why does Keeper Bel'varil want them?",
+   "aliases": [
+    "why does belvaril want bracers",
+    "who wants the bracers"
+   ],
+   "answer": "Bel'varil knows the Magus will eventually want examples of the bracers, the counterpart of the stone tokens the Magus is studying."
+  },
+  {
+   "q": "What came before this quest?",
+   "aliases": [
+    "previous quest",
+    "prerequisite",
+    "stone tokens follow up"
+   ],
+   "answer": "Stone Tokens, in which you gathered the stone tokens the Magus is now studying."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "alterac",
+  "bel'varil",
+  "binding",
+  "bracers",
+  "dalaran",
+  "earth binding",
+  "elementals",
+  "magus",
+  "tarren mill"
+ ],
+ "related": [
+  "quest:556",
+  "npc:keeper-bel-varil",
+  "subzone:dalaran",
+  "subzone:tarren-mill",
+  "zone:alterac",
+  "zone:hillsbrad",
+  "topic:mage"
+ ],
+ "attribution": [
+  "Bracers of Binding"
+ ]
+}

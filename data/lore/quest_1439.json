@@ -1,0 +1,117 @@
+{
+ "key": "quest:1439",
+ "type": "quest",
+ "name": "Search for Tyranis",
+ "era": "classic",
+ "zone": "desolace",
+ "meta": {
+  "ids": [
+   1439
+  ],
+  "level": "33",
+  "faction": "Alliance",
+  "start": "Dalinda Malem",
+  "end": "Dalinda Malem",
+  "previous": "Vahlarriel's Search (3)",
+  "next": "Return to Vahlarriel",
+  "wiki": "Search for Tyranis",
+  "chain": [
+   "Vahlarriel's Search",
+   "Vahlarriel's Search (2)",
+   "Vahlarriel's Search (3)",
+   "Search for Tyranis",
+   "Return to Vahlarriel"
+  ],
+  "prev_q": [
+   "Vahlarriel's Search (3)"
+  ],
+  "next_q": [
+   "Return to Vahlarriel"
+  ],
+  "category": "Desolace"
+ },
+ "summary": "Dalinda Malem tells you the orcs slaughtered all their guards and servants before bringing her and Tyranis here. Tyranis tried to speak to them, and she cannot leave until she knows what has become of her brother. She asks you to find him and come back when his fate is known.",
+ "sections": [
+  {
+   "title": "A Brother Taken",
+   "body": "Dalinda tells you that orcs killed every guard and servant of theirs before dragging her and Tyranis to this place. She expected to die at once, yet the orcs clearly had other designs. Tyranis tried talking to them, perhaps hoping his arcane learning would impress them, though she cannot say why. She will not escape until she knows his fate, so she asks you to find him and return when you do. He is in a building left of the fortress entrance.",
+   "spoiler": 0
+  },
+  {
+   "title": "Dalinda's Fear",
+   "body": "Dalinda dreads that Tyranis, if allowed, will seek the Burning Blade's secrets and become one of them. Power has always drawn him, as it does anyone magic seduces. To her people even studying such things is a grave crime, and she doubts she could face her family with word that his spirit toyed with that danger.",
+   "spoiler": 0
+  },
+  {
+   "title": "What Dalinda Learns",
+   "body": "When you come back, Dalinda calls it terrible but necessary. If your hand had not done it, her own people's would have. She asks pardon if her thanks sounds hollow. Knowing his fate, she is ready to escape and will accept your help if you are still willing.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Tyranis Malem?",
+   "aliases": [
+    "who is tyranis",
+    "tyranis backstory",
+    "tyranis malem"
+   ],
+   "answer": "Dalinda's brother. He spoke to their captors, perhaps hoping to impress them with arcane learning, and she says the power of magic has always drawn him."
+  },
+  {
+   "q": "Why does Dalinda refuse to leave yet?",
+   "aliases": [
+    "why wont dalinda leave",
+    "why does dalinda stay",
+    "why wait to escape"
+   ],
+   "answer": "She will not leave until she knows what has happened to her brother. She asks you to find him and come back for her when his fate is known."
+  },
+  {
+   "q": "What happened to the guards and servants?",
+   "aliases": [
+    "what happened to their guards",
+    "who was killed",
+    "guards and servants"
+   ],
+   "answer": "The orcs killed all of them, then took Dalinda and Tyranis alive, evidently with other plans."
+  },
+  {
+   "q": "Where is Tyranis?",
+   "aliases": [
+    "where is tyranis",
+    "tyranis location"
+   ],
+   "answer": "At Thunder Axe Fortress in Desolace, in the building on the left as you enter."
+  },
+  {
+   "q": "What came before this step?",
+   "aliases": [
+    "what quest is before this",
+    "quest progression",
+    "vahlarriel quest chain"
+   ],
+   "answer": "It follows the third part of Vahlarriel's Search, where Vahlarriel sent you to find Dalinda."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "burning blade",
+  "dalinda",
+  "desolace",
+  "malem",
+  "pendant",
+  "thunder axe fortress",
+  "tyranis",
+  "vahlarriel"
+ ],
+ "related": [
+  "quest:1437",
+  "quest:1440",
+  "subzone:thunder-axe-fortress",
+  "zone:desolace"
+ ],
+ "attribution": [
+  "Search for Tyranis"
+ ]
+}

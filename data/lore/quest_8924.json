@@ -1,0 +1,113 @@
+{
+ "key": "quest:8924",
+ "type": "quest",
+ "name": "Hunting for Ectoplasm",
+ "era": "classic",
+ "zone": "tanaris",
+ "meta": {
+  "ids": [
+   8924
+  ],
+  "level": "60",
+  "faction": null,
+  "start": "Mux Manascrambler",
+  "end": "Mux Manascrambler",
+  "previous": "The Ectoplasmic Distiller",
+  "next": "A Portable Power Source",
+  "wiki": "Hunting for Ectoplasm",
+  "chain": [],
+  "prev_q": [
+   "The Ectoplasmic Distiller"
+  ],
+  "next_q": [
+   "A Portable Power Source"
+  ],
+  "category": "Tanaris",
+  "chain_tpl": [
+   "Tier 0.5 quests"
+  ]
+ },
+ "summary": "Mux Manascrambler in Gadgetzan has his ectoplasmic distiller ready and now needs ectoplasm. You carry it to three distant lands, Silithus, Winterspring and the Eastern Plaguelands, and gather twelve of each kind from the incorporeal dead. This follows The Ectoplasmic Distiller.",
+ "sections": [
+  {
+   "title": "Three Climates, Three Kinds",
+   "body": "Mux Manascrambler is proud of the distiller and warns that you have some travelling ahead to find the incorporeal undead. In Mux's view, climate changes what the spectral fabric of the dead is like. Silithus has tortured night elves, Winterspring has spirits of the highborne, and the Eastern Plaguelands have ghosts and banshees. Each place yields a different ectoplasm: twelve scorched, twelve frozen and twelve stable. Mux says to set the distiller down nearby before harvesting, then bring it and the ectoplasm back to Gadgetzan.",
+   "spoiler": 0
+  },
+  {
+   "title": "Mux's Verdict",
+   "body": "Mux is delighted with the ectoplasm. Mux explains that the otherworldly energies in it will let you reach out to souls that have not fully left this world.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who sends you to gather ectoplasm?",
+   "aliases": [
+    "who gives hunting for ectoplasm",
+    "quest giver hunting for ectoplasm"
+   ],
+   "answer": "Mux Manascrambler in Gadgetzan, in Tanaris, once his distiller is built."
+  },
+  {
+   "q": "Why does Mux need ectoplasm from three different places?",
+   "aliases": [
+    "why three ectoplasms",
+    "different ectoplasm types",
+    "why silithus winterspring plaguelands"
+   ],
+   "answer": "Mux says different climates give the spectral fabric of the dead different consistencies. He wants twelve scorched from Silithus, twelve frozen from Winterspring and twelve stable from the Eastern Plaguelands."
+  },
+  {
+   "q": "Which spirits provide the ectoplasm?",
+   "aliases": [
+    "what enemies drop ectoplasm",
+    "what to kill for ectoplasm",
+    "which ghosts drop it"
+   ],
+   "answer": "Tortured night elves in Silithus, spirits of the highborne in Winterspring, and ghosts and banshees in the Eastern Plaguelands."
+  },
+  {
+   "q": "How is the ectoplasm gathered?",
+   "aliases": [
+    "how does the distiller work",
+    "how to collect ectoplasm"
+   ],
+   "answer": "Mux says to put the distiller down near the incorporeal undead before you harvest them."
+  },
+  {
+   "q": "Where does this fit in Mux's work?",
+   "aliases": [
+    "hunting for ectoplasm prerequisite",
+    "what comes before hunting for ectoplasm"
+   ],
+   "answer": "It comes after The Ectoplasmic Distiller, and A Portable Power Source follows it."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "eastern plaguelands",
+  "ectoplasmic distiller",
+  "frozen ectoplasm",
+  "gadgetzan",
+  "hunting for ectoplasm",
+  "mux manascrambler",
+  "scorched ectoplasm",
+  "silithus",
+  "stable ectoplasm",
+  "winterspring"
+ ],
+ "related": [
+  "npc:mux-manascrambler",
+  "quest:8921",
+  "quest:8925",
+  "subzone:gadgetzan",
+  "zone:silithus",
+  "zone:winterspring",
+  "zone:easternplaguelands",
+  "zone:tanaris"
+ ],
+ "attribution": [
+  "Hunting for Ectoplasm"
+ ]
+}

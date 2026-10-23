@@ -8,17 +8,22 @@
 // is a 413 (the companion then checks in without its counts).
 // It needs "X-LF-Client: companion/<version>", which a page on another site can't send without a preflight we never
 // answer. No account, no cookie, no name, no game text, and the IP isn't kept. Anything else is a 400; a database
-// failure is a 503, so the companion tries again later.
+// failure is a 503, so the companion tries again later. One sender (lib/ratelimit.js perDayFromIp: the day's IP hash,
+// never the IP) is counted CHECKINS_PER_DAY times a day; past that it's a 204 that keeps nothing, so a script can't
+// flood the counts or the database (the architect's launch review, 10/21). An install checks in once a day.
 
 import { readCheckin, saveCheckin, isInternal } from "../../../lib/checkins.js";
 import { readFeatureUsage, saveFeatureUsage, dailyUpkeep, MAX_BODY } from "../../../lib/featureuse.js";
 import { sweepAnswerLog } from "../../../lib/answer-log.js";
+import { perDayFromIp } from "../../../lib/ratelimit.js";
+import { isCompanion } from "../../../lib/client-version.js";
 
 const NO_STORE = { "Cache-Control": "no-store", "X-Robots-Tag": "noindex" };
 const answer = status => new Response(null, { status, headers: NO_STORE });
+export const CHECKINS_PER_DAY = 50;
 
 export async function onRequestPost({ request, env, waitUntil }) {
-  if (!/^companion\/[\w.+-]{1,32}$/.test(request.headers.get("X-LF-Client") || "")) return answer(400);
+  if (!isCompanion(request.headers.get("X-LF-Client"), { loose: true })) return answer(400);
   if (Number(request.headers.get("Content-Length") || 0) > MAX_BODY) return answer(413);
   let input = null;
   try {
@@ -31,6 +36,7 @@ export async function onRequestPost({ request, env, waitUntil }) {
   const usage = readFeatureUsage(input.usage);
   if (!env.DB) return answer(204);
   try {
+    if (!(await perDayFromIp(env, request, "checkin", CHECKINS_PER_DAY))) return answer(204);
     await saveCheckin(env, checkin);
     if (usage) await saveFeatureUsage(env, checkin.install, usage, isInternal(checkin));
   } catch (e) { return answer(503); }

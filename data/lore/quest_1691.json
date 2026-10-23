@@ -1,0 +1,92 @@
+{
+ "key": "quest:1691",
+ "type": "quest",
+ "name": "More Wastewander Justice",
+ "era": "classic",
+ "zone": "tanaris",
+ "meta": {
+  "ids": [
+   1691
+  ],
+  "level": "44",
+  "faction": null,
+  "start": "Chief Engineer Bilgewhizzle",
+  "end": "Chief Engineer Bilgewhizzle",
+  "previous": "Wastewander Justice",
+  "next": "",
+  "wiki": "More Wastewander Justice",
+  "chain": [
+   "Wastewander Justice",
+   "More Wastewander Justice"
+  ],
+  "prev_q": [
+   "Wastewander Justice"
+  ],
+  "category": "Tanaris"
+ },
+ "summary": "Chief Engineer Bilgewhizzle in Gadgetzan now turns to the tougher Wastewander nomads: their rogues, assassins and shadow mages, to be found east and southeast of town. The fewer nomads left, the easier it will be to take back the water wells.",
+ "sections": [
+  {
+   "title": "The Stronger Ranks",
+   "body": "You have done a good job so far, in Bilgewhizzle's view, but taking back the wells is best done against as few nomads as possible. Now the targets are the nomads' rogues, assassins and shadow mages, east and southeast of Gadgetzan. Bilgewhizzle admits they are a nasty lot, but says the wells are rightfully the company's.",
+   "spoiler": 0
+  },
+  {
+   "title": "Taking the Fight to Them",
+   "body": "The nomad population is now thin enough that the company can take the fight to them. Bilgewhizzle suggests speaking to Spigot Operator Luglunket in town, who gives a bounty on any Wastewander water pouches that came your way while dealing with the nomads.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who asks for this?",
+   "aliases": [
+    "who gives more wastewander justice",
+    "quest giver"
+   ],
+   "answer": "Chief Engineer Bilgewhizzle of the Gadgetzan Water Company, in Gadgetzan."
+  },
+  {
+   "q": "Why does the Gadgetzan Water Company want these nomads removed?",
+   "aliases": [
+    "why kill wastewanders",
+    "bilgewhizzle motive"
+   ],
+   "answer": "The company means to take back the water wells, and that is easier against as few nomads as possible."
+  },
+  {
+   "q": "Where can the targeted nomads be found?",
+   "aliases": [
+    "where are wastewander rogues",
+    "where to find shadow mages"
+   ],
+   "answer": "Lying east and southeast of Gadgetzan, where the nomads are found."
+  },
+  {
+   "q": "What comes before this step?",
+   "aliases": [
+    "prerequisite",
+    "prior quest"
+   ],
+   "answer": "It follows Wastewander Justice."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "assassins",
+  "bilgewhizzle",
+  "gadgetzan",
+  "shadow mages",
+  "tanaris",
+  "wastewander",
+  "water company"
+ ],
+ "related": [
+  "quest:1690",
+  "subzone:gadgetzan",
+  "zone:tanaris"
+ ],
+ "attribution": [
+  "More Wastewander Justice"
+ ]
+}

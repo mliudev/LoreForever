@@ -1,0 +1,101 @@
+{
+ "key": "quest:4266",
+ "type": "quest",
+ "name": "A Hero's Welcome",
+ "era": "classic",
+ "zone": "feralas",
+ "meta": {
+  "ids": [
+   4266
+  ],
+  "level": "46",
+  "faction": "Alliance",
+  "start": "Ginro Hearthkindle",
+  "end": "Shandris Feathermoon",
+  "previous": "Freed from the Hive",
+  "next": "Rise of the Silithid (Feralas)",
+  "wiki": "A Hero's Welcome (Classic)",
+  "chain": [],
+  "prev_q": [
+   "Freed from the Hive"
+  ],
+  "next_q": [
+   "Rise of the Silithid (Feralas)"
+  ],
+  "category": "Feralas",
+  "chain_tpl": [
+   "The Missing Courier"
+  ]
+ },
+ "summary": "Ginro Hearthkindle tells you that General Shandris Feathermoon wants a word with you in person. Gratitude for what you have done for the Stronghold is surely part of it, but she also means to discuss the insect creatures you and Raschal met in the south of Feralas.",
+ "sections": [
+  {
+   "title": "A Summons",
+   "body": "Ginro Hearthkindle passes the word: General Shandris Feathermoon wants to see you personally, and she is waiting in the main compound of Feathermoon Stronghold. Ginro admits the reports about the Zukk'ash insects are frightening.",
+   "spoiler": 0
+  },
+  {
+   "title": "At the General's Side",
+   "body": "The General gives her warmest thanks and a gift on behalf of the whole Stronghold, though she says your bravery against overwhelming odds deserves something a thousand times greater. She then asks for your help once more. With the Zukk'ash hive found here in Feralas, she thinks you are the best choice.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Why does General Feathermoon want to see me?",
+   "aliases": [
+    "why see shandris",
+    "shandris summons",
+    "a hero's welcome why"
+   ],
+   "answer": "Ginro expects she means to thank you for your help, and she also wants to talk about the Zukk'ash insects that you and Raschal met in the south of Feralas."
+  },
+  {
+   "q": "Who sends you to speak with Shandris Feathermoon?",
+   "aliases": [
+    "who starts a hero's welcome",
+    "quest giver hero's welcome",
+    "ginro hearthkindle quest"
+   ],
+   "answer": "Ginro Hearthkindle, who says the General wants to see you in person."
+  },
+  {
+   "q": "Where is General Shandris Feathermoon located?",
+   "aliases": [
+    "where is shandris",
+    "feathermoon stronghold general location",
+    "find shandris feathermoon"
+   ],
+   "answer": "General Feathermoon is waiting in the main compound of Feathermoon Stronghold."
+  },
+  {
+   "q": "What is the concern about the Zukk'ash insects?",
+   "aliases": [
+    "what are zukk'ash",
+    "why are zukk'ash dangerous",
+    "insect hive feralas"
+   ],
+   "answer": "Ginro finds the reports of the Zukk'ash insects frightening, and the General wants to talk with you about them."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "a hero's welcome",
+  "feathermoon stronghold",
+  "feralas",
+  "ginro hearthkindle",
+  "hive",
+  "raschal",
+  "shandris feathermoon",
+  "zukk'ash"
+ ],
+ "related": [
+  "npc:shandris-feathermoon",
+  "subzone:feathermoon-stronghold",
+  "quest:4265",
+  "zone:feralas"
+ ],
+ "attribution": [
+  "A Hero's Welcome (Classic)"
+ ]
+}

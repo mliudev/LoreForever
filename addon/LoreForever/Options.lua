@@ -11,6 +11,7 @@ Options.DEFAULTS = {
   itemTooltips = true,     -- quest notes on item tooltips
   storylines = true,       -- say a quest is part of a storyline, under its title and on its entry (Storyline.lua)
   storylineChat = true,    -- turning in a storyline quest names who gives the next one (Storyline.OnTurnIn)
+  recaps = true,           -- a storyline's recap at its turning points (Storyline.OnRecap; lore.recaps)
   floatPlayer = true,      -- the narration player floats on screen while the panel is closed (UI.UpdateNowPlaying)
   -- The words of the narration playing, on screen in step with the voice while the panel is closed (Subtitles.lua,
   -- LOR-344); subtitleScale is Subtitle size (Subtitles.SCALES), subtitlePos where it was Shift-dragged to.
@@ -25,7 +26,8 @@ Options.DEFAULTS = {
   questButton = true,
   typing = true,           -- answers type in quickly instead of appearing at once
   chatLinks = true,        -- names of other entries in answers are links (UI.Linker), Back / Forward above the chat
-  showSpoilers = false,    -- show answers marked as spoilers without asking first
+  showSpoilers = false,    -- "Tell me everything": spoilers show without waiting for your quests (story beats)
+  spoilerOffer = false,    -- "Tell me everything" was offered once, the first time a spoiler was held back
   -- (No "Read aloud": only recordings play, never the game's text-to-speech. Log.Init forgets the old setting.)
   narrateFlights = false,  -- play each zone's recorded story on taxi flights (Voice.OnTaxiCheck)
   onDemand = false,        -- "Narration: only when I press Play" (LOR-138): nothing plays by itself (Voice.OnDemand)
@@ -619,6 +621,7 @@ local function rows()
     { "itemTooltips", L["Notes on item tooltips"], L["Say when an item is wanted for a quest or starts one."] },
     { "storylines", L["Show storylines on quests"], L["When a quest is part of a storyline, say so under its title and at the top of its story."] },
     { "storylineChat", L["Storyline hints in chat"], L["When you turn in a quest that's part of a storyline, say in chat who to see next."] },
+    { "recaps", L["Storyline recaps"], L["At a storyline's turning points (before you head in for its last fight, and when it ends), the narrator retells what you've done so far. Never during a fight."] },
     { "minimap", L["Minimap button"], L["Also show a book button on the minimap."] },
     { "questButton", L["Lore button on the quest window"], L["A Lore button on the quest giver's window opens the quest's story. It keeps clear of other add-ons' buttons; Shift-drag it to put it somewhere else. Untick to hide it: the story is still in the Lore Forever panel."] },
     { "floatPlayer", L["Floating player"], L["While the panel is closed, show the narration player on screen when something plays or waits in your playlist. Drag it to move it."] },
@@ -626,7 +629,7 @@ local function rows()
     { "reportCross", L["Show the report button on the narration player"], L["A small cross on the player to tell us a narration sounds wrong: a name said wrong, the wrong voice, cut off. Right-clicking the player offers it too."] },
     { "typing", L["Typing animation"], L["Answers type in quickly. Click an answer to show it all at once."] },
     { "chatLinks", L["Clickable names in answers"], L["Names of places, people and events in an answer open their own story. Shift-click one to add it to your playlist."] },
-    { "showSpoilers", L["Show spoilers without asking"], L["Answers that give away a quest's twist or ending normally ask before revealing. Tick this to always show them."] },
+    { "showSpoilers", L["Tell me everything"], L["Story passages and answers that give away what's ahead wait until your quests reach them. Tick this to see and hear the whole story now."] },
     { "onDemand", L["Narration: only when I press Play"], L["Nothing plays by itself: not as you arrive, on flights, at quest givers or in books. Play buttons, the Narrate key and your playlist still work."] },
     { "narrateFlights", L["Narrate flights"], L["Read the story of each zone aloud while on a flight path."] },
     { "autoZone", L["Play narrations as you arrive"], L["When you reach a zone or place with a recorded narration, play it. Never during combat or a flight, and never over something already playing."] },

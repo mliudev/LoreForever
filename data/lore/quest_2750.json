@@ -1,0 +1,85 @@
+{
+ "key": "quest:2750",
+ "type": "quest",
+ "name": "A Bad Egg",
+ "era": "classic",
+ "zone": "tanaris",
+ "meta": {
+  "ids": [
+   2750
+  ],
+  "level": "60",
+  "faction": null,
+  "start": "Curgle Cranklehop",
+  "end": "Curgle Cranklehop",
+  "previous": "The Super Egg-O-Matic",
+  "next": "",
+  "wiki": "A Bad Egg",
+  "chain": [
+   "The Super Egg-O-Matic",
+   "A Bad Egg"
+  ],
+  "category": "Tanaris",
+  "prev_q": [
+   "The Super Egg-O-Matic"
+  ]
+ },
+ "summary": "Curgle Cranklehop speaks of the eggs that cannot be saved, which will never hatch.",
+ "sections": [
+  {
+   "title": "An Egg Beyond Saving",
+   "body": "Some hippogryph eggs cannot be saved, and a bad egg is one that will never hatch. It is Curgle Cranklehop who deals with such eggs.",
+   "spoiler": 0
+  },
+  {
+   "title": "What Becomes of It",
+   "body": "Curgle takes the egg so that it is disposed of properly. Not every egg can be saved, Curgle says, and you should not be discouraged but try again with another egg from Feralas.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who accepts the bad egg?",
+   "aliases": [
+    "who do i give bad egg to",
+    "curgle cranklehop egg",
+    "who takes bad egg"
+   ],
+   "answer": "Curgle Cranklehop."
+  },
+  {
+   "q": "Can the egg be saved?",
+   "aliases": [
+    "can bad egg hatch",
+    "will bad egg hatch",
+    "save bad egg"
+   ],
+   "answer": "No. A bad egg is one that cannot be saved and will never hatch."
+  },
+  {
+   "q": "What came before this?",
+   "aliases": [
+    "previous quest",
+    "pre-req",
+    "bad egg prerequisite"
+   ],
+   "answer": "It follows The Super Egg-O-Matic."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "bad egg",
+  "curgle cranklehop",
+  "feralas",
+  "super egg-o-matic",
+  "tanaris"
+ ],
+ "related": [
+  "quest:2741",
+  "zone:tanaris",
+  "zone:feralas"
+ ],
+ "attribution": [
+  "A Bad Egg"
+ ]
+}

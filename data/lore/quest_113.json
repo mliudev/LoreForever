@@ -1,0 +1,102 @@
+{
+ "key": "quest:113",
+ "type": "quest",
+ "name": "Insect Part Analysis",
+ "era": "classic",
+ "zone": "tanaris",
+ "meta": {
+  "ids": [
+   113
+  ],
+  "level": "48",
+  "faction": null,
+  "start": "Alchemist Pestlezugg",
+  "end": "Senior Surveyor Fizzledowser",
+  "previous": "Insect Part Analysis",
+  "next": "Rise of the Silithid (Alliance), Rise of the Silithid (Horde)",
+  "wiki": "Insect Part Analysis (2)",
+  "chain": [],
+  "prev_q": [
+   "Insect Part Analysis"
+  ],
+  "next_q": [
+   "Rise of the Silithid (Alliance)",
+   "Rise of the Silithid (Horde)"
+  ],
+  "category": "Tanaris",
+  "chain_tpl": [
+   "Rise of the Silithid"
+  ]
+ },
+ "summary": "Alchemist Pestlezugg has finished the report on the insect parts and says Senior Surveyor Fizzledowser must see it at once. The threat faces Tanaris and Gadgetzan and, if left unchecked, all of southern Kalimdor.",
+ "sections": [
+  {
+   "title": "A Grave Warning",
+   "body": "Pestlezugg insists that Senior Surveyor Fizzledowser must see the report right away, and that everyone who can read must see it too. The threat is grave and serious, for Tanaris and Gadgetzan and, if left unchecked, for all of southern Kalimdor. It may even reach the whole of Azeroth, for it has given no sign that it will subside. You are asked to carry the report to Fizzledowser in Gadgetzan and have a duplicate made, to share freely with your allegiance. Everyone must know of this threat.",
+   "spoiler": 0
+  },
+  {
+   "title": "A Matter of Coin",
+   "body": "Fizzledowser thanks you for the delivery and for your hard work for the Gadgetzan Water Company. Handing the company's valuable information out to everyone is not something Fizzledowser likes, since people would normally pay well for it. But Fizzledowser has long known Pestlezugg, and if Pestlezugg recommends letting everyone know, so be it. A copy is made for you.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who sends the report and who receives it?",
+   "aliases": [
+    "who gives insect part analysis",
+    "who do i turn insect part analysis in to",
+    "where to deliver the report"
+   ],
+   "answer": "Alchemist Pestlezugg gives you the report and sends you with it to Senior Surveyor Fizzledowser in Gadgetzan."
+  },
+  {
+   "q": "Why is Alchemist Pestlezugg so alarmed?",
+   "aliases": [
+    "pestlezugg warning",
+    "what is in the insect report",
+    "why is the insect threat serious"
+   ],
+   "answer": "Pestlezugg calls it a grave and serious threat to Tanaris and Gadgetzan, and if left unchecked, to all of southern Kalimdor and possibly the whole of Azeroth, with no sign of subsiding."
+  },
+  {
+   "q": "Why do you need a copy of the report?",
+   "aliases": [
+    "why copy the report",
+    "fizzledowser report copy",
+    "why share the report"
+   ],
+   "answer": "Pestlezugg wants everyone to know about the threat, so Fizzledowser is to make a duplicate that you can pass around freely among your own people."
+  },
+  {
+   "q": "What comes directly before this delivery?",
+   "aliases": [
+    "previous quest",
+    "what quest comes before this"
+   ],
+   "answer": "It follows an earlier step also named Insect Part Analysis."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "fizzledowser",
+  "gadgetzan",
+  "gadgetzan water company",
+  "insect analysis",
+  "pestlezugg",
+  "report",
+  "tanaris"
+ ],
+ "related": [
+  "npc:senior-surveyor-fizzledowser",
+  "subzone:gadgetzan",
+  "zone:tanaris",
+  "quest:110",
+  "quest:32",
+  "quest:162"
+ ],
+ "attribution": [
+  "Insect Part Analysis (2)"
+ ]
+}

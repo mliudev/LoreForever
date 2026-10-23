@@ -6,7 +6,7 @@ import assert from "node:assert/strict";
 
 import { onRequestPost as checkin } from "../functions/api/companion/checkin.js";
 import { checkinReport } from "../lib/checkins.js";
-import { d1 } from "./helpers.mjs";
+import { d1, stopClock } from "./helpers.mjs";
 
 const INSTALL = "a".repeat(64), OTHER = "b".repeat(64);
 const post = (env, body, headers = { "X-LF-Client": "companion/0.15.0" }) => checkin({ env,
@@ -14,7 +14,8 @@ const post = (env, body, headers = { "X-LF-Client": "companion/0.15.0" }) => che
     headers: { "Content-Type": "application/json", "CF-Connecting-IP": "203.0.113.7", ...headers },
     body: typeof body === "string" ? body : JSON.stringify(body) }) });
 
-test("a check-in keeps only the hashed install id and versions, once per install and day", async () => {
+test("a check-in keeps only the hashed install id and versions, once per install and day", async t => {
+  stopClock(t);
   const env = { DB: d1() };
   const sent = { v: 1, install: INSTALL, companion: "0.15.0", addon: "0.15.0", name: "Aelric", account: "x@y.z" };
   assert.equal((await post(env, sent)).status, 204);
@@ -30,7 +31,8 @@ test("a check-in keeps only the hashed install id and versions, once per install
   assert.ok(!JSON.stringify(rows).includes("203.0.113.7"));
 });
 
-test("/admin counts players' installs: internal builds (no version, unstamped 0.1.0, -dev, -preview or -qa) stay out", async () => {
+test("/admin counts players' installs: internal builds (no version, unstamped 0.1.0, -dev, -preview or -qa) stay out", async t => {
+  stopClock(t);
   const env = { DB: d1() };
   const daysAgo = n => new Date(Date.now() - n * 864e5).toISOString().slice(0, 10);
   await post(env, { v: 1, install: INSTALL, companion: "0.15.0", addon: "0.15.0" });

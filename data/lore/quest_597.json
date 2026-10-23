@@ -1,0 +1,97 @@
+{
+ "key": "quest:597",
+ "type": "quest",
+ "name": "The Bloodsail Buccaneers",
+ "era": "classic",
+ "zone": "stranglethorn",
+ "meta": {
+  "ids": [
+   597
+  ],
+  "level": "41",
+  "faction": null,
+  "start": "Bloodsail Correspondence",
+  "end": "First Mate Crazz",
+  "previous": "The Bloodsail Buccaneers (Classic)",
+  "next": "The Bloodsail Buccaneers (3)",
+  "wiki": "The Bloodsail Buccaneers (2)",
+  "chain": [],
+  "prev_q": [
+   "The Bloodsail Buccaneers (Classic)"
+  ],
+  "next_q": [
+   "The Bloodsail Buccaneers (3)"
+  ],
+  "category": "Stranglethorn Vale",
+  "chain_tpl": [
+   "Bloodsail Buccaneers"
+  ]
+ },
+ "summary": "Recovered correspondence from the Bloodsail Buccaneers carries a map of Booty Bay and written orders to secure a quiet camp at the marked spot and wait for a signal from their southern command post before attacking.",
+ "sections": [
+  {
+   "title": "A Plot Revealed",
+   "body": "Following your earlier investigation into the Bloodsail Buccaneers, an intercepted map and written orders uncover the pirates' immediate plans. A red X on a map of Booty Bay marks the exact spot where the pirates are to make camp. The orders command the crew to hold their ground quietly, eliminate anyone who approaches, and await an attack signal sent from the southern command post.",
+   "spoiler": 0
+  },
+  {
+   "title": "Reporting to the Harbor",
+   "body": "Carrying these written findings back to Booty Bay brings the intelligence directly to First Mate Crazz, who originally sent you out to scout. The pirates are plainly waiting on a signal before they attack.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is written on the Bloodsail correspondence?",
+   "aliases": [
+    "bloodsail orders text",
+    "what does the note say",
+    "bloodsail map details"
+   ],
+   "answer": "The text directs pirate crewmen to secure a quiet camp at the marked location, slay anyone who nears them, and wait for a signal from their southern command post to launch their assault."
+  },
+  {
+   "q": "Where does the map point?",
+   "aliases": [
+    "bloodsail map x",
+    "what does the red x mean",
+    "where is the camp"
+   ],
+   "answer": "The captured map of Booty Bay has a red X on it, and that is where the pirates mean to set up their camp."
+  },
+  {
+   "q": "Who needs to hear about this discovery?",
+   "aliases": [
+    "who do i turn this in to",
+    "who gets the bloodsail map",
+    "first mate crazz report"
+   ],
+   "answer": "The intelligence must be reported directly to First Mate Crazz in Booty Bay, who remembers sending you to scout the area."
+  },
+  {
+   "q": "What came before finding this correspondence?",
+   "aliases": [
+    "prerequisite quest",
+    "previous quest bloodsail",
+    "bloodsail chain start"
+   ],
+   "answer": "This investigation directly follows the initial assignment regarding the Bloodsail Buccaneers given by First Mate Crazz in Booty Bay."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "bloodsail buccaneers",
+  "bloodsail correspondence",
+  "booty bay",
+  "first mate crazz",
+  "southern command post",
+  "stranglethorn vale"
+ ],
+ "related": [
+  "subzone:booty-bay",
+  "zone:stranglethorn"
+ ],
+ "attribution": [
+  "The Bloodsail Buccaneers (2)"
+ ]
+}

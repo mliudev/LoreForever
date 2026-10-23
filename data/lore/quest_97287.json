@@ -1,0 +1,87 @@
+{
+ "key": "quest:97287",
+ "type": "quest",
+ "name": "Shrewd Negotiations",
+ "era": "forever",
+ "zone": "alterac",
+ "meta": {
+  "ids": [
+   97287
+  ],
+  "level": "33",
+  "faction": "Horde",
+  "start": "Magus Wordeen Voidglare",
+  "end": "Archmage Celindra",
+  "previous": "",
+  "next": "",
+  "wiki": "Shrewd Negotiations",
+  "chain": [],
+  "category": "Alterac Mountains",
+  "chain_tpl": [
+   "City of Dalaran quests"
+  ]
+ },
+ "summary": "Magus Wordeen Voidglare praises your infiltration of the mages' city, and says the time has come to be more negotiatory. You are to carry the arcane mote you acquired to Archmage Celindra in Dalaran.",
+ "sections": [
+  {
+   "title": "Time to Negotiate",
+   "body": "Magus Wordeen Voidglare admits that no place on Azeroth rivals the Kirin Tor for knowledge of the arcane, and that even Wordeen's own brilliant work pales beside their ancient wisdom. He thinks it high time the Horde was granted access to their exclusive order. You are to carry the mote you acquired to Archmage Celindra in Dalaran, for Wordeen is sure the Kirin Tor will give anything to get it back.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who sends you to negotiate with Dalaran?",
+   "aliases": [
+    "who gives shrewd negotiations",
+    "wordeen voidglare",
+    "quest giver shrewd negotiations"
+   ],
+   "answer": "Magus Wordeen Voidglare, who wants to be more negotiatory after your infiltration of the city."
+  },
+  {
+   "q": "Who are you sent to speak with?",
+   "aliases": [
+    "who do i talk to",
+    "celindra location",
+    "where is celindra"
+   ],
+   "answer": "Archmage Celindra, in Dalaran."
+  },
+  {
+   "q": "What leverage do you carry?",
+   "aliases": [
+    "what is the mote",
+    "bargaining chip",
+    "arcane mote"
+   ],
+   "answer": "The arcane mote you acquired. Wordeen is sure the Kirin Tor will give anything to have it back."
+  },
+  {
+   "q": "Why does Wordeen Voidglare want to deal with Dalaran?",
+   "aliases": [
+    "why negotiate with kirin tor",
+    "wordeen motive",
+    "why dalaran"
+   ],
+   "answer": "Wordeen admits no place on Azeroth rivals the Kirin Tor for knowledge of the arcane, and thinks it is time the Horde was granted access to their exclusive order."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "alterac mountains",
+  "arcane mote",
+  "archmage celindra",
+  "dalaran",
+  "kirin tor",
+  "shrewd negotiations",
+  "wordeen voidglare"
+ ],
+ "related": [
+  "subzone:dalaran",
+  "zone:alterac"
+ ],
+ "attribution": [
+  "Shrewd Negotiations"
+ ]
+}

@@ -1,0 +1,120 @@
+{
+ "key": "quest:2873",
+ "type": "quest",
+ "name": "Stoley's Shipment",
+ "era": "classic",
+ "zone": "tanaris",
+ "meta": {
+  "ids": [
+   2873
+  ],
+  "level": "45",
+  "faction": "Neutral",
+  "start": "Stoley",
+  "end": "Stoley",
+  "previous": "Stoley's Debt",
+  "next": "Deliver to MacKinley",
+  "wiki": "Stoley's Shipment (quest)",
+  "chain": [
+   "Stoley's Debt",
+   "Stoley's Shipment (quest)",
+   "Deliver to MacKinley"
+  ],
+  "prev_q": [
+   "Stoley's Debt"
+  ],
+  "next_q": [
+   "Deliver to MacKinley"
+  ],
+  "category": "Tanaris"
+ },
+ "summary": "Stoley is out of rum and in debt to a friend over a wager. Captain Cuergo stole the last shipment and keeps it in the walled pirate town to the south, so Stoley asks you to bring it back.",
+ "sections": [
+  {
+   "title": "A Stolen Shipment",
+   "body": "Stoley has none left of the rum promised to \"Sea Wolf\" MacKinley of Booty Bay to settle their wager. Captain Cuergo stole the last shipment, and has it stowed in the walled pirate town to the south, which is Lost Rigger Cove. Stoley asks you to find the rum and return it, so that he can show Kalimdor's drink is far better than anything Booty Bay pours.",
+   "spoiler": 0
+  },
+  {
+   "title": "Where It Is Kept",
+   "body": "Inside the pirate town, the rum sits in crates on the upper floor of the house in the northwest.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Stoley?",
+   "aliases": [
+    "stoley",
+    "who gives stoleys shipment",
+    "stoley tanaris"
+   ],
+   "answer": "Stoley is at Steamwheedle Port in Tanaris, and owes rum to \"Sea Wolf\" MacKinley in Booty Bay to settle a bet."
+  },
+  {
+   "q": "Why does Stoley want his shipment back?",
+   "aliases": [
+    "why rum",
+    "stoley motivation",
+    "what is stoleys shipment"
+   ],
+   "answer": "Captain Cuergo stole his last shipment of rum. Stoley needs it to settle a bet with MacKinley, and to prove that Kalimdor's booze beats Booty Bay's."
+  },
+  {
+   "q": "Where did the pirates hide the rum?",
+   "aliases": [
+    "stoley rum location",
+    "where is shipment",
+    "lost rigger cove rum"
+   ],
+   "answer": "In the walled pirate town to the south, Lost Rigger Cove, in crates on the upper floor of the northwestern house."
+  },
+  {
+   "q": "Who is Captain Cuergo?",
+   "aliases": [
+    "cuergo",
+    "captain cuergo"
+   ],
+   "answer": "The one who stole Stoley's last shipment of rum and keeps it in the walled pirate town to the south."
+  },
+  {
+   "q": "Where does this step fit in the chain?",
+   "aliases": [
+    "stoleys shipment chain",
+    "what comes after stoleys debt"
+   ],
+   "answer": "It follows Stoley's Debt."
+  },
+  {
+   "q": "Who is \"Sea Wolf\" MacKinley?",
+   "aliases": [
+    "sea wolf mackinley",
+    "mackinley booty bay"
+   ],
+   "answer": "He is in Booty Bay and made a wager with Stoley over whose rum is better."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "cuergo",
+  "lost rigger cove",
+  "mackinley",
+  "rum",
+  "shipment",
+  "steamwheedle port",
+  "stoley",
+  "tanaris"
+ ],
+ "related": [
+  "quest:2872",
+  "quest:2874",
+  "subzone:steamwheedle-port",
+  "subzone:lost-rigger-cove",
+  "subzone:booty-bay",
+  "topic:pirate",
+  "zone:tanaris"
+ ],
+ "attribution": [
+  "Stoley's Shipment (quest)"
+ ]
+}

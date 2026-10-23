@@ -23,7 +23,23 @@ export function parseRange(header) {
   return end >= offset ? { offset, length: end - offset + 1 } : null;
 }
 
-export async function onRequest({ request, env, params }) {
+// A clip at most this big is kept whole in the edge cache; a bigger one streams from R2 each time.
+const EDGE_MAX = 8 << 20;
+
+// The bytes of a whole clip, as a 200, or the part `range` asks for, as a 206 (a 416 past the end).
+export function fromBytes(bytes, range, headers) {
+  const size = bytes.byteLength;
+  if (!range) return new Response(bytes, { headers: { ...headers, "Content-Length": String(size) } });
+  const start = range.suffix != null ? Math.max(0, size - range.suffix) : range.offset;
+  const end = range.length != null ? Math.min(size, start + range.length) - 1 : size - 1;
+  if (start >= size) return text(416, "Range not satisfiable.\n", { "Content-Range": `bytes */${size}` });
+  return new Response(bytes.slice(start, end + 1), {
+    status: 206,
+    headers: { ...headers, "Content-Range": `bytes ${start}-${end}/${size}`, "Content-Length": String(end - start + 1) },
+  });
+}
+
+export async function onRequest({ request, env, params, waitUntil }) {
   if (request.method !== "GET" && request.method !== "HEAD") return text(405, "Use GET.\n", { Allow: "GET, HEAD" });
   const key = `${params.voice}/${params.file}`;
   if (!AUDIO_KEY.test(key)) return text(404, "Not found.\n");
@@ -38,6 +54,23 @@ export async function onRequest({ request, env, params }) {
 
   const bucket = env.STUDIO;
   const range = request.method === "GET" ? parseRange(request.headers.get("Range")) : null;
+  // A GET is served from the edge cache when it has the clip: its address names the recording, so a copy never goes
+  // stale. It's kept whole, so any range is cut from it here. On a miss the whole clip is read from R2 once and kept.
+  const cache = request.method === "GET" && bucket ? globalThis.caches?.default : null;
+  if (cache) {
+    const edgeKey = new Request(new URL(`/audio/clip/${key}`, request.url).toString(), { method: "GET" });
+    const hit = await cache.match(edgeKey).catch(() => null);
+    if (hit) return fromBytes(await hit.arrayBuffer(), range, { ...headers, "X-Edge-Cache": "HIT" });
+    const whole = await bucket.get(R2_PREFIX + key);
+    if (whole && whole.size <= EDGE_MAX) {
+      const bytes = await new Response(whole.body).arrayBuffer();
+      const kept = cache.put(edgeKey, new Response(bytes, { headers: { ...headers, "Content-Length": String(bytes.byteLength) } }))
+        .catch(e => console.warn(`clip edge cache: ${e?.message || e}`));
+      if (typeof waitUntil === "function") waitUntil(kept); else await kept;
+      return fromBytes(bytes, range, { ...headers, "X-Edge-Cache": "MISS" });
+    }
+    if (whole) await whole.body?.cancel?.();
+  }
   let obj = null;
   try {
     obj = bucket ? await (request.method === "HEAD" ? bucket.head(R2_PREFIX + key)

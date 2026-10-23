@@ -1,0 +1,101 @@
+{
+ "key": "quest:574",
+ "type": "quest",
+ "name": "Special Forces",
+ "era": "classic",
+ "zone": "stranglethorn",
+ "meta": {
+  "ids": [
+   574
+  ],
+  "level": "38",
+  "faction": "Alliance",
+  "start": "Sergeant Yohwa",
+  "end": "Lieutenant Doren",
+  "previous": "Bad Medicine (Classic), The Second Rebellion",
+  "next": "Colonel Kurzen (quest)",
+  "wiki": "Special Forces",
+  "chain": [],
+  "prev_q": [
+   "Bad Medicine (Classic)",
+   "The Second Rebellion"
+  ],
+  "next_q": [
+   "Colonel Kurzen (quest)"
+  ],
+  "category": "Stranglethorn Vale",
+  "chain_tpl": [
+   "Special Forces/Quest chain"
+  ]
+ },
+ "summary": "Following the reduction of the rogue colonel's rank-and-file soldiers, Sergeant Yohwa asks you to target the elite core of the compound. You are sent into the Stockpile cave to eliminate the commandos and headshrinkers before reporting to Lieutenant Doren.",
+ "sections": [
+  {
+   "title": "Striking the Stockpile",
+   "body": "With the regular soldiers of the Kurzen Compound diminished through the work of the Second Rebellion, Sergeant Yohwa sets her sights on the colonel's elite specialists. She knows many of Kurzen's troops personally and calls them skilled, loyal and cruel. When they are not out in the wilderness slaughtering rebel soldiers, they are found in a cave at the back of the compound called the Stockpile. To break their strength, you are sent into the cavern to dispatch ten Kurzen Commandos and six Kurzen Headshrinkers.",
+   "spoiler": 0
+  },
+  {
+   "title": "Reporting to Command",
+   "body": "After the fight, Sergeant Yohwa tells you to report to her commanding officer, Lieutenant Doren, at the Rebel Camp, who will want your account firsthand.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who orders the attack on Kurzen's elite troops?",
+   "aliases": [
+    "who gives special forces",
+    "special forces questgiver",
+    "where to start special forces"
+   ],
+   "answer": "Sergeant Yohwa at the Rebel Camp in northern Stranglethorn Vale asks you to undertake this assault after you have helped thin Kurzen's regular infantry."
+  },
+  {
+   "q": "Where are Kurzen's commandos and headshrinkers located?",
+   "aliases": [
+    "where are headshrinkers",
+    "where is the stockpile",
+    "kurzen commando location"
+   ],
+   "answer": "They are found in a cave at the back of the Kurzen Compound called the Stockpile, though they also range out into the wilderness to hunt rebels."
+  },
+  {
+   "q": "To whom do you report after clearing the cave?",
+   "aliases": [
+    "who to turn in to",
+    "where is doren",
+    "who completes special forces"
+   ],
+   "answer": "You deliver your firsthand report to Lieutenant Doren, the commanding officer stationed at the Rebel Camp."
+  },
+  {
+   "q": "What comes before this assault in the rebel campaign?",
+   "aliases": [
+    "special forces prerequisite",
+    "what quest comes before special forces"
+   ],
+   "answer": "This assignment follows The Second Rebellion, in which you weaken Colonel Kurzen's regular troops across the compound."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "kurzen commando",
+  "kurzen compound",
+  "kurzen headshrinker",
+  "lieutenant doren",
+  "rebel camp",
+  "sergeant yohwa",
+  "special forces",
+  "stockpile"
+ ],
+ "related": [
+  "quest:203",
+  "npc:doren",
+  "subzone:rebel-camp",
+  "zone:stranglethorn"
+ ],
+ "attribution": [
+  "Special Forces"
+ ]
+}

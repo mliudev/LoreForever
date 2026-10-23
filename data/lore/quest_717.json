@@ -1,0 +1,116 @@
+{
+ "key": "quest:717",
+ "type": "quest",
+ "name": "Tremors of the Earth",
+ "era": "classic",
+ "zone": "badlands",
+ "meta": {
+  "ids": [
+   717
+  ],
+  "level": "50",
+  "faction": "Alliance",
+  "start": "Garek",
+  "end": "Garek",
+  "previous": "Tremors of the Earth",
+  "next": "",
+  "wiki": "Tremors of the Earth (2)",
+  "chain": [
+   "Tremors of the Earth",
+   "Tremors of the Earth (2)"
+  ],
+  "prev_q": [
+   "Tremors of the Earth"
+  ],
+  "category": "Badlands"
+ },
+ "summary": "Garek has concluded that Blacklash and Hematus cannot be trusted to stay in their prison at Lethlor. Black dragons have moved in there and ogres took the Sign of the Earth, so Garek sends you to free the drakes and kill them.",
+ "sections": [
+  {
+   "title": "A Prison Failing",
+   "body": "Garek can no longer be sure Blacklash and Hematus will stay imprisoned. Black dragons now dwell at Lethlor, and ogres have made off with the Sign of the Earth. Garek judges that something harsher is needed, and the drakes must die.",
+   "spoiler": 0
+  },
+  {
+   "title": "Breaking the Seal",
+   "body": "Three runestones keep the drakes locked away, and only the Sign of the Earth can fetch them. You use the Sign on the Pillars of Amethyst, Opal and Diamond, then set the runestones into the Seal of the Earth. That frees the pair, and you slay them. Garek wants back Blacklash's Bindings, the Chains of Hematus and the Sign of the Earth.",
+   "spoiler": 0
+  },
+  {
+   "title": "After the Deed",
+   "body": "Once the drakes are dead, Garek declares that the Kirin Tor can stop fretting over Lethlor's prisoners. Garek means to report success to a master, Krasus, who will surely be pleased.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who are Blacklash and Hematus?",
+   "aliases": [
+    "blacklash and hematus",
+    "who are the drakes",
+    "what is imprisoned in lethlor"
+   ],
+   "answer": "Drakes held prisoner in Lethlor, behind a seal."
+  },
+  {
+   "q": "Why must the drakes be killed instead of kept locked away?",
+   "aliases": [
+    "why kill blacklash",
+    "why break the prison",
+    "why slay hematus"
+   ],
+   "answer": "Garek can no longer be sure they will stay imprisoned. Black dragons now live at Lethlor, and ogres took the Sign of the Earth."
+  },
+  {
+   "q": "How is the prison unsealed?",
+   "aliases": [
+    "how to open seal of the earth",
+    "how to summon blacklash",
+    "how to break the drakes out"
+   ],
+   "answer": "Three runestones are taken from the pillars with the Sign of the Earth, then placed in the Seal of the Earth."
+  },
+  {
+   "q": "What must be brought back to Garek?",
+   "aliases": [
+    "what to return to garek",
+    "blacklash's bindings",
+    "chains of hematus"
+   ],
+   "answer": "Three things go back to Garek: Blacklash's Bindings, the Chains of Hematus and the Sign of the Earth, each from a different pillar."
+  },
+  {
+   "q": "What comes before this quest?",
+   "aliases": [
+    "previous quest",
+    "prerequisite for tremors of the earth"
+   ],
+   "answer": "It follows the earlier Tremors of the Earth."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Alliance",
+   "text": "Garek's request is one for the Alliance."
+  }
+ ],
+ "keywords": [
+  "blacklash",
+  "garek",
+  "hematus",
+  "kirin tor",
+  "krasus",
+  "lethlor ravine",
+  "runestones",
+  "seal of the earth",
+  "sign of the earth",
+  "tremors of the earth"
+ ],
+ "related": [
+  "zone:badlands",
+  "subzone:lethlor-ravine"
+ ],
+ "attribution": [
+  "Tremors of the Earth (2)"
+ ]
+}

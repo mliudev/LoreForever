@@ -1,0 +1,87 @@
+{
+ "key": "quest:646",
+ "type": "quest",
+ "name": "Trol'kalar",
+ "era": "classic",
+ "zone": "arathi",
+ "meta": {
+  "ids": [
+   646
+  ],
+  "level": "42",
+  "faction": "Horde",
+  "start": "Trollbane's Tomb",
+  "end": "Zengu",
+  "previous": "Trol'kalar (Classic)",
+  "next": "",
+  "wiki": "Trol'kalar (2)",
+  "chain": [],
+  "prev_q": [
+   "Trol'kalar (Classic)"
+  ],
+  "category": "Arathi Highlands",
+  "chain_tpl": [
+   "Broken Sigil"
+  ]
+ },
+ "summary": "The long Trol'kalar chain reaches its last step. The light slowly fades, and Trol'kalar, held in a stone sheath, is released. Carry it to Zengu in Hammerfall.",
+ "sections": [
+  {
+   "title": "A Sword Set Free",
+   "body": "At Trollbane's Tomb the light slowly fades, and Trol'kalar, kept in a stone sheath, is released. You take the sheathed sword to Zengu in Hammerfall, in the Arathi Highlands.",
+   "spoiler": 0
+  },
+  {
+   "title": "What Zengu Says",
+   "body": "Zengu tells you that Strom and Arathor's forces preyed on the trolls for generation after generation, and that their greatest weapon is now in his people's hands. The slow advance into the humid forests of Zul'Gurub will no longer be a struggle. He says the Darkspear trolls are in your debt, and that he will see the sword delivered to Nimboya at Grom'gol.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Where does Trol'kalar need to go?",
+   "aliases": [
+    "where do i take trolkalar",
+    "trol'kalar delivery",
+    "trolkalar hand in"
+   ],
+   "answer": "To Zengu in Hammerfall, in the Arathi Highlands. The sword reaches you still in its stone sheath."
+  },
+  {
+   "q": "Where do I find the sword?",
+   "aliases": [
+    "where is trol'kalar",
+    "trolkalar location"
+   ],
+   "answer": "At Trollbane's Tomb, where the fading light has released it from its stone sheath."
+  },
+  {
+   "q": "What came before this step?",
+   "aliases": [
+    "trol'kalar previous",
+    "trolkalar chain"
+   ],
+   "answer": "This is the last step of the long Trol'kalar chain, and it follows the earlier Trol'kalar step."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "arathi",
+  "hammerfall",
+  "nimboya",
+  "trol'kalar",
+  "trollbane",
+  "zengu",
+  "zul'gurub"
+ ],
+ "related": [
+  "quest:645",
+  "subzone:hammerfall",
+  "subzone:zul-gurub",
+  "topic:troll",
+  "zone:arathi"
+ ],
+ "attribution": [
+  "Trol'kalar (2)"
+ ]
+}

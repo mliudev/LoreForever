@@ -1,0 +1,91 @@
+{
+ "key": "quest:8551",
+ "type": "quest",
+ "name": "The Captain's Chest",
+ "era": "classic",
+ "zone": "stranglethorn",
+ "meta": {
+  "ids": [
+   8551
+  ],
+  "level": "47",
+  "start": "Captain Hecklebury Smotts",
+  "end": "Captain Hecklebury Smotts",
+  "wiki": null,
+  "previous": "",
+  "next": ""
+ },
+ "summary": "Captain Hecklebury Smotts used to sail between Booty Bay and Ratchet in Kalimdor, until sea giants wrecked the ship, killed the crew and sent Smotts off in a lifeboat toward Booty Bay. The giant Gorlash took Smotts' Captain's Chest, and Smotts wants it back.",
+ "sections": [
+  {
+   "title": "A Ruined Captain",
+   "body": "Smotts says the voyages to Ratchet in Kalimdor built a successful career and a fine reputation. The sea giants ended all that: they smashed the ship, killed the crew and sent Smotts off in a lifeboat toward Booty Bay.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Stolen Chest",
+   "body": "The giant Gorlash took Smotts' Captain's Chest, saying he wanted it as a snuffbox. The chest was Smotts' favorite, with a secret compartment where the greatest treasures were stored. Smotts has heard that Gorlash roams the shore east of Booty Bay.",
+   "spoiler": 0
+  },
+  {
+   "title": "Smotts' Thanks",
+   "body": "Smotts is overjoyed to have the chest back, and it takes some of the fire out of the anger, yet the revenge is not complete.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Captain Hecklebury Smotts?",
+   "aliases": [
+    "captain smotts",
+    "who is smotts",
+    "hecklebury smotts"
+   ],
+   "answer": "Smotts is a ship captain in Booty Bay who once sailed between there and Ratchet in Kalimdor, until sea giants smashed the ship and killed the crew."
+  },
+  {
+   "q": "Who took the chest?",
+   "aliases": [
+    "who stole the chest",
+    "who has smotts chest",
+    "gorlash"
+   ],
+   "answer": "Gorlash, one of the sea giants, took it and said he wanted it as a snuffbox."
+  },
+  {
+   "q": "Where can Gorlash be found?",
+   "aliases": [
+    "where is gorlash",
+    "gorlash location",
+    "find gorlash"
+   ],
+   "answer": "East of Booty Bay, along the shore. That is where Smotts has heard the giant roams."
+  },
+  {
+   "q": "Why does Smotts want the chest back?",
+   "aliases": [
+    "what is in the chest",
+    "why does smotts want the chest"
+   ],
+   "answer": "It was Smotts' favorite chest, and its hidden compartment kept the greatest treasures."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "booty bay",
+  "gorlash",
+  "ratchet",
+  "sea giant",
+  "smotts",
+  "snuffbox",
+  "stranglethorn"
+ ],
+ "related": [
+  "subzone:booty-bay",
+  "subzone:ratchet",
+  "zone:stranglethorn"
+ ],
+ "attribution": [
+  "Classic quest text: The Captain's Chest"
+ ]
+}

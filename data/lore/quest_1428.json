@@ -1,0 +1,86 @@
+{
+ "key": "quest:1428",
+ "type": "quest",
+ "name": "Continued Threat",
+ "era": "classic",
+ "zone": "swampofsorrows",
+ "meta": {
+  "ids": [
+   1428
+  ],
+  "level": "45",
+  "faction": "Horde",
+  "start": "Katar",
+  "end": "Katar",
+  "previous": "Threat From the Sea (3)",
+  "next": "",
+  "wiki": "Continued Threat",
+  "chain": [],
+  "category": "Swamp of Sorrows",
+  "prev_q": [
+   "Threat From the Sea (3)"
+  ]
+ },
+ "summary": "Katar is pleased that your hatred of the fish men is growing alongside Katar's own, and sends you to hunt further fish men on the beach in the Swamp of Sorrows.",
+ "sections": [
+  {
+   "title": "More Along the Beach",
+   "body": "Katar tells you to find more of the fish men along the beach, and to return once you have had enough of fighting. Marsh inkspewers, marsh flesheaters and marsh oracles are the ones wanted. Katar will take no pleasure until the sea and every one of her children is silenced, least of all the repulsive fish men.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who gives this quest?",
+   "aliases": [
+    "who starts continued threat",
+    "continued threat quest giver",
+    "katar swamp of sorrows"
+   ],
+   "answer": "Katar, in the Swamp of Sorrows."
+  },
+  {
+   "q": "What creatures need to be hunted?",
+   "aliases": [
+    "what to kill continued threat",
+    "continued threat targets",
+    "which murlocs"
+   ],
+   "answer": "Katar wants marsh inkspewers, marsh flesheaters and marsh oracles along the beach."
+  },
+  {
+   "q": "Why does Katar want the murlocs culled?",
+   "aliases": [
+    "why kill murlocs",
+    "katar motive",
+    "why hate fish men"
+   ],
+   "answer": "Katar will take no pleasure until the sea and her brood are silenced, the fish men most of all."
+  },
+  {
+   "q": "What came before this step?",
+   "aliases": [
+    "continued threat prerequisite",
+    "previous quest continued threat"
+   ],
+   "answer": "It follows the previous Threat From the Sea, after which Tok'Kar offered you a weapon."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "continued threat",
+  "fish men",
+  "katar",
+  "marsh flesheater",
+  "marsh inkspewer",
+  "marsh oracle",
+  "murlocs",
+  "swamp of sorrows"
+ ],
+ "related": [
+  "zone:swampofsorrows"
+ ],
+ "attribution": [
+  "Continued Threat"
+ ]
+}

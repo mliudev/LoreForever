@@ -1,0 +1,88 @@
+{
+ "key": "quest:5763",
+ "type": "quest",
+ "name": "Hunting in Stranglethorn",
+ "era": "classic",
+ "zone": "desolace",
+ "meta": {
+  "ids": [
+   5763
+  ],
+  "level": "31",
+  "faction": "Horde",
+  "start": "Roon Wildmane",
+  "end": "Hemet Nesingwary",
+  "previous": "",
+  "next": "",
+  "wiki": "Hunting in Stranglethorn",
+  "chain": [],
+  "category": "Desolace"
+ },
+ "summary": "Roon Wildmane, a tauren in Desolace, once hunted beside a dwarf named Hemet. Now Roon sends you off with a kodo horn, bound for Hemet Nesingwary in Stranglethorn, north of Grom'gol Base Camp.",
+ "sections": [
+  {
+   "title": "A Token Between Hunters",
+   "body": "Long ago a dwarf named Hemet came to Desolace, eager to hunt great beasts. Hemet handled a rifle with uncanny skill, and the two hunters passed many days together, the old enmity between their peoples set aside. When Hemet went off to Stranglethorn, Roon vowed to welcome Hemet back one day for another hunt, and Roon decides that time has arrived. You are to carry Roon's kodo horn to Hemet, who will know whose it is. Look in Stranglethorn, north of Grom'gol Base Camp.",
+   "spoiler": 0
+  },
+  {
+   "title": "Hemet's Answer",
+   "body": "Hemet knows the horn at once for the tauren Roon Wildmane's, and recalls the good hunting they shared among the beasts of Desolace. Hemet is neck deep in the jungle for now, but thanks you, and thinks the next expedition may lead back to Desolace, where the centaurs live.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Hemet?",
+   "aliases": [
+    "hemet nesingwary",
+    "who is hemet"
+   ],
+   "answer": "A dwarf who came to Desolace wishing to hunt great beasts. Hemet's rifle skill was uncanny, and Hemet and Roon Wildmane hunted together for many days before Hemet left for Stranglethorn."
+  },
+  {
+   "q": "Why does Roon Wildmane care about a dwarf?",
+   "aliases": [
+    "why help dwarf",
+    "roon wildmane dwarf friend"
+   ],
+   "answer": "The two hunted together for many days, and the enmity between their peoples was forgotten. Roon vowed to welcome Hemet back so they could hunt again."
+  },
+  {
+   "q": "Where is Hemet located?",
+   "aliases": [
+    "where is hemet",
+    "hemet location",
+    "stranglethorn hunting camp"
+   ],
+   "answer": "In Stranglethorn, north of Grom'gol Base Camp."
+  },
+  {
+   "q": "What is the purpose of the kodo horn?",
+   "aliases": [
+    "kodo horn purpose",
+    "why deliver kodo horn"
+   ],
+   "answer": "Roon Wildmane sends it to Hemet, who will know it is from Roon."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "desolace",
+  "grom'gol",
+  "hemet nesingwary",
+  "kodo horn",
+  "roon wildmane",
+  "stranglethorn"
+ ],
+ "related": [
+  "zone:desolace",
+  "subzone:grom-gol-base-camp",
+  "topic:tauren",
+  "topic:dwarf",
+  "topic:centaur"
+ ],
+ "attribution": [
+  "Hunting in Stranglethorn"
+ ]
+}

@@ -9,6 +9,16 @@ import { crc32 } from "../public/voices/crc32.js";
 export const SITE = fileURLToPath(new URL("..", import.meta.url));
 export const ROOT = fileURLToPath(new URL("../..", import.meta.url));
 
+// stopClock(t): Date stopped for test t at noon UTC of today, so the test and the code read the same day and month
+// however long the test takes (a run across midnight saw two). Today's date, so SQLite's date('now') in the stand-in D1
+// still agrees on the day.
+export function stopClock(t) {
+  const d = new Date();
+  const now = Date.UTC(d.getUTCFullYear(), d.getUTCMonth(), d.getUTCDate(), 12);
+  t.mock.timers.enable({ apis: ["Date"], now });
+  return now;
+}
+
 const READ = /^\s*(?:SELECT|WITH|PRAGMA)\b/i;
 const ROWS = /^\s*(?:SELECT|WITH|PRAGMA)\b|\bRETURNING\b/i;
 

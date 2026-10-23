@@ -1,0 +1,75 @@
+{
+ "key": "quest:7735",
+ "type": "quest",
+ "name": "Pristine Yeti Hide",
+ "era": "classic",
+ "zone": "feralas",
+ "meta": {
+  "ids": [
+   7735
+  ],
+  "level": "48",
+  "start": "Pristine Yeti Hide",
+  "end": "Pratt McGrubben",
+  "wiki": null,
+  "previous": "",
+  "next": ""
+ },
+ "summary": "You have come into a yeti hide that is unusually thick and tough, tougher even than any you have seen from the yetis of Rage Scar. Pratt McGrubben at Feathermoon Stronghold is looking for yeti hides, and this one may interest him.",
+ "sections": [
+  {
+   "title": "A Hide Out of the Ordinary",
+   "body": "This hide is pristine, and clearly thicker and sturdier than the hides taken from the yetis of Rage Scar. Pratt McGrubben, at Feathermoon Stronghold in Feralas, wants to buy yeti hides, so this one is worth carrying to him.",
+   "spoiler": 0
+  },
+  {
+   "title": "Pratt's Reaction",
+   "body": "Pratt is amazed and wonders aloud if this is the greatest yeti hide there could be. Pratt will pay you for it, more than a single hide usually fetches, and thinks something special can be made from it.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who wants the Pristine Yeti Hide?",
+   "aliases": [
+    "who takes pristine yeti hide",
+    "where do i bring the yeti hide",
+    "pratt mcgrubben yeti hide"
+   ],
+   "answer": "Pratt McGrubben at Feathermoon Stronghold in Feralas, who is looking to buy yeti hides."
+  },
+  {
+   "q": "What makes this hide special?",
+   "aliases": [
+    "pristine yeti hide source",
+    "what makes the hide special",
+    "feralas yeti hide"
+   ],
+   "answer": "It is unusually thick and tough, beating even the hides that come from Rage Scar's yetis."
+  },
+  {
+   "q": "Where is Pratt McGrubben?",
+   "aliases": [
+    "where is pratt mcgrubben",
+    "where to bring pristine yeti hide"
+   ],
+   "answer": "At Feathermoon Stronghold in Feralas."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "feathermoon stronghold",
+  "feralas",
+  "pratt mcgrubben",
+  "pristine yeti hide",
+  "rage scar",
+  "yeti pelt"
+ ],
+ "related": [
+  "subzone:feathermoon-stronghold",
+  "zone:feralas"
+ ],
+ "attribution": [
+  "Classic quest text: Pristine Yeti Hide"
+ ]
+}

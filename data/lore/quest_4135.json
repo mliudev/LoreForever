@@ -1,0 +1,102 @@
+{
+ "key": "quest:4135",
+ "type": "quest",
+ "name": "The Writhing Deep",
+ "era": "classic",
+ "zone": "feralas",
+ "meta": {
+  "ids": [
+   4135
+  ],
+  "level": "46",
+  "faction": "Alliance",
+  "start": "Large Leather Backpacks",
+  "end": "Zukk'ash Pod",
+  "previous": "The Woodpaw Gnolls",
+  "next": "Freed from the Hive",
+  "wiki": "The Writhing Deep (quest)",
+  "chain": [],
+  "prev_q": [
+   "The Woodpaw Gnolls"
+  ],
+  "next_q": [
+   "Freed from the Hive"
+  ],
+  "category": "Feralas",
+  "chain_tpl": [
+   "The Missing Courier"
+  ]
+ },
+ "summary": "Among the backpacks lies a hurried note signed by Raschal of Feathermoon. He writes of bug-like creatures he came across, and of his decision to look into them himself. Your search for him now leads there.",
+ "sections": [
+  {
+   "title": "The Note in the Packs",
+   "body": "The backpacks hold a parcel meant for Thalanaar, and a note scribbled in a hurry to no one in particular. Its author, Raschal of Feathermoon, describes insidious bug-like creatures he discovered in the Writhing Deep, south of the gnoll camps. He felt he had to see them with his own eyes, for they seemed a grave danger to all of Feralas. The note shows where he went.",
+   "spoiler": 0
+  },
+  {
+   "title": "What Waits Below",
+   "body": "In the Writhing Deep you come upon a large pod of an alien kind. Its surface looks mucous, with hardened growths jutting from it here and there. It is tall and broad enough to hold a person, and through its skin you can make out the faint shape of a humanoid, which you take to be what it holds.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Raschal?",
+   "aliases": [
+    "raschal lore",
+    "who is raschal",
+    "raschal feathermoon"
+   ],
+   "answer": "Raschal of Feathermoon wrote the note found in the backpacks. He went to look into bug-like creatures he had discovered, and your search for him continues."
+  },
+  {
+   "q": "Where is the Writhing Deep located?",
+   "aliases": [
+    "writhing deep location",
+    "where is writhing deep",
+    "how to find writhing deep"
+   ],
+   "answer": "Raschal's note puts the Writhing Deep south of the Woodpaw gnoll camps."
+  },
+  {
+   "q": "Why did Raschal go to the Writhing Deep?",
+   "aliases": [
+    "why raschal went to the hive",
+    "raschal motives",
+    "why the writhing deep"
+   ],
+   "answer": "His note says he found insidious bug-like creatures there and felt the need to investigate personally, since they looked like a grave danger to Feralas as a whole."
+  },
+  {
+   "q": "What comes before this search?",
+   "aliases": [
+    "writhing deep prerequisite",
+    "what quest comes first"
+   ],
+   "answer": "It follows The Woodpaw Gnolls, the step before it."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "feathermoon",
+  "feralas",
+  "pod",
+  "raschal",
+  "thalanaar",
+  "woodpaw",
+  "writhing deep",
+  "zukk'ash"
+ ],
+ "related": [
+  "quest:4131",
+  "quest:4265",
+  "subzone:writhing-deep",
+  "zone:feralas",
+  "subzone:thalanaar",
+  "topic:gnoll"
+ ],
+ "attribution": [
+  "The Writhing Deep (quest)"
+ ]
+}

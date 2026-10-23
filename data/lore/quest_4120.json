@@ -1,0 +1,91 @@
+{
+ "key": "quest:4120",
+ "type": "quest",
+ "name": "The Strength of Corruption",
+ "era": "classic",
+ "zone": "feralas",
+ "meta": {
+  "ids": [
+   4120
+  ],
+  "level": "52",
+  "faction": "Horde",
+  "start": "Talo Thornhoof",
+  "end": "Talo Thornhoof",
+  "previous": "",
+  "next": "",
+  "wiki": "The Strength of Corruption",
+  "chain": [],
+  "category": "Feralas"
+ },
+ "summary": "Talo Thornhoof, a hunter at Camp Mojache in Feralas, believes knowing an enemy well can turn a battle. Talo sends you to Felwood, north of Ashenvale, to face the fel-tainted bears and wolves and learn whether they have truly grown stronger.",
+ "sections": [
+  {
+   "title": "Know Your Enemy",
+   "body": "Talo Thornhoof is a hunter who strives to copy the strengths seen in opponents, and believes simply knowing an enemy well can turn a battle your way. Felwood lies north of Ashenvale, where a substance called fel has tainted the creatures. Talo thinks the bears and wolves there, driven mad by it, have also grown even stronger. Angerclaw grizzlies and Felpaw ravagers are the ones to face, twelve of each. Fel-touched things give off a strange green glow, which Talo senses is evil yet very powerful.",
+   "spoiler": 0
+  },
+  {
+   "title": "What Talo Hears",
+   "body": "After your account of the beasts, Talo concludes they show a mindless ferocity, and warns you to stay alert and learn more of the corruption, since an enemy should always be known.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who sends you to Felwood?",
+   "aliases": [
+    "quest giver",
+    "who gives the strength of corruption",
+    "talo thornhoof location"
+   ],
+   "answer": "Talo Thornhoof, a hunter at Camp Mojache in Feralas."
+  },
+  {
+   "q": "Why does Talo Thornhoof want the beasts of Felwood faced?",
+   "aliases": [
+    "why kill the bears and wolves",
+    "purpose of the strength of corruption",
+    "talo thornhoof motive"
+   ],
+   "answer": "Talo believes that knowing an enemy well can turn a battle, and wants you to learn for yourself whether the fel-tainted creatures are truly as strong as believed."
+  },
+  {
+   "q": "Which creatures are targeted in Felwood?",
+   "aliases": [
+    "which beasts",
+    "targets in felwood",
+    "what monsters to fight"
+   ],
+   "answer": "Angerclaw grizzlies and Felpaw ravagers in Felwood, twelve of each."
+  },
+  {
+   "q": "What does Talo say about fel?",
+   "aliases": [
+    "what is the taint",
+    "green glow felwood",
+    "what is fel"
+   ],
+   "answer": "Everything touched by the fel gives off a strange green glow. Talo senses it is evil but also very powerful."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "angerclaw grizzly",
+  "camp mojache",
+  "fel corruption",
+  "felpaw ravager",
+  "felwood",
+  "feralas",
+  "talo thornhoof"
+ ],
+ "related": [
+  "subzone:camp-mojache",
+  "zone:feralas",
+  "zone:felwood",
+  "zone:ashenvale"
+ ],
+ "attribution": [
+  "The Strength of Corruption"
+ ]
+}

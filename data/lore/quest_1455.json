@@ -1,0 +1,93 @@
+{
+ "key": "quest:1455",
+ "type": "quest",
+ "name": "The Karnitol Shipwreck",
+ "era": "classic",
+ "zone": "desolace",
+ "meta": {
+  "ids": [
+   1455
+  ],
+  "level": "39",
+  "faction": "Alliance",
+  "start": "Karnitol's Chest",
+  "end": "Kreldig Ungor",
+  "previous": "The Karnitol Shipwreck",
+  "next": "The Karnitol Shipwreck (3)",
+  "wiki": "The Karnitol Shipwreck (2)",
+  "chain": [],
+  "prev_q": [
+   "The Karnitol Shipwreck"
+  ],
+  "next_q": [
+   "The Karnitol Shipwreck (3)"
+  ],
+  "category": "Desolace",
+  "chain_tpl": [
+   "The Karnitol Shipwreck/Chain"
+  ]
+ },
+ "summary": "The chest of the mage Karnitol has been pried open, and it is completely empty. Long, deep scratches on its sides and top suggest neither man nor giant was responsible, and you return to Kreldig Ungor at Nijel's Point.",
+ "sections": [
+  {
+   "title": "An Empty Chest",
+   "body": "You study what forced the chest open. Long, deep scratches run along its sides and top. They point to something that was neither man nor giant, and they do not look like the work of a dagger or sword. The chest is completely empty. With nothing else to be done, you close it and prepare to leave, knowing Kreldig Ungor will be disappointed.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is inside Karnitol's chest?",
+   "aliases": [
+    "what was in karnitol chest",
+    "is karnitol chest empty",
+    "chest contents"
+   ],
+   "answer": "Nothing. The chest is completely empty."
+  },
+  {
+   "q": "What made the marks on the chest?",
+   "aliases": [
+    "what opened the chest",
+    "who took the cargo",
+    "chest claw marks"
+   ],
+   "answer": "Long, deep scratches run along the sides and top. They suggest neither man nor giant was responsible, and they do not look like the work of a dagger or sword."
+  },
+  {
+   "q": "Who do you report to?",
+   "aliases": [
+    "who do i turn this in to",
+    "where is kreldig ungor",
+    "where to go next"
+   ],
+   "answer": "Kreldig Ungor, at Nijel's Point in Desolace."
+  },
+  {
+   "q": "What came before this?",
+   "aliases": [
+    "previous quest",
+    "karnitol shipwreck chain"
+   ],
+   "answer": "The search for Karnitol's chest, which Kreldig Ungor asked of you."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "desolace",
+  "karnitol",
+  "karnitol's chest",
+  "kreldig ungor",
+  "nijel's point",
+  "shipwreck"
+ ],
+ "related": [
+  "npc:kreldig-ungor",
+  "subzone:nijel-s-point",
+  "zone:desolace",
+  "quest:1454"
+ ],
+ "attribution": [
+  "The Karnitol Shipwreck (2)"
+ ]
+}

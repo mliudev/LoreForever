@@ -1,0 +1,96 @@
+{
+ "key": "quest:5561",
+ "type": "quest",
+ "name": "Kodo Roundup",
+ "era": "classic",
+ "zone": "desolace",
+ "meta": {
+  "ids": [
+   5561
+  ],
+  "level": "34",
+  "faction": null,
+  "start": "Smeed Scrabblescrew",
+  "end": "Smeed Scrabblescrew",
+  "previous": "",
+  "next": "",
+  "wiki": "Kodo Roundup",
+  "chain": [],
+  "category": "Desolace"
+ },
+ "summary": "At Scrabblescrew's Camp in Desolace, Smeed Scrabblescrew is expecting a caravan and wants five tamed kodos ready for it. You carry Smeed's kodo kombobulator out among the ancient, aged and dying kodos, and lead the ones it tames back to the camp.",
+ "sections": [
+  {
+   "title": "A Caravan on Its Way",
+   "body": "Bibbly believes no other goblin in Desolace knows how to turn a profit. Smeed Scrabblescrew disagrees: the one caravan willing to brave this land depends on Smeed, and Smeed has formed a partnership with Cork and Rigger. The caravan is due at the camp shortly.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Kodo Kombobulator",
+   "body": "Smeed built a device that can rejuvenate and bring under control aged and dying kodos. Aimed at an ancient, aged or dying kodo, it jolts the beast into a tamed kodo that follows you. You bring five of them back to Scrabblescrew's Camp, along with the device.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Smeed Scrabblescrew?",
+   "aliases": [
+    "who is smeed",
+    "smeed scrabblescrew lore",
+    "scrabblescrew"
+   ],
+   "answer": "Smeed Scrabblescrew is found at Scrabblescrew's Camp in Desolace. Smeed invented the kodo kombobulator and has a partnership with Cork and Rigger. Bibbly thinks no other goblin in Desolace knows how to make money, and Smeed does not agree."
+  },
+  {
+   "q": "Why does Smeed need tamed kodos?",
+   "aliases": [
+    "why tame kodos",
+    "kodo roundup purpose",
+    "why does smeed want kodos"
+   ],
+   "answer": "The caravan that relies on Smeed is due at the camp shortly, and Smeed is waiting on five newly tamed kodos."
+  },
+  {
+   "q": "What is the Kodo Kombobulator?",
+   "aliases": [
+    "what does kombobulator do",
+    "kodo kombobulator lore"
+   ],
+   "answer": "It is Smeed's invention, made to revive and bring under control kodos that are aged or dying. Used on one, it jolts the beast into a tamed kodo that follows you."
+  },
+  {
+   "q": "Which kodos can you use the kombobulator on?",
+   "aliases": [
+    "which kodos to tame",
+    "kodo roundup kodos"
+   ],
+   "answer": "Ancient, aged and dying kodos. Once one is tamed, it follows you back to Scrabblescrew's Camp."
+  },
+  {
+   "q": "Who is Bibbly?",
+   "aliases": [
+    "bibbly rival",
+    "who is bibbly"
+   ],
+   "answer": "Bibbly is a goblin in Desolace who thinks no other goblin there knows how to make money. Smeed Scrabblescrew has a different view."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "bibbly",
+  "cork",
+  "desolace",
+  "kodo",
+  "kodo kombobulator",
+  "rigger",
+  "scrabblescrew's camp",
+  "smeed scrabblescrew"
+ ],
+ "related": [
+  "zone:desolace",
+  "topic:goblin"
+ ],
+ "attribution": [
+  "Kodo Roundup"
+ ]
+}

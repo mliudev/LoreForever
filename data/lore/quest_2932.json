@@ -1,0 +1,87 @@
+{
+ "key": "quest:2932",
+ "type": "quest",
+ "name": "Grim Message",
+ "era": "classic",
+ "zone": "hinterlands",
+ "meta": {
+  "ids": [
+   2932
+  ],
+  "level": "42",
+  "faction": "Horde",
+  "start": "Nimboya",
+  "end": "Nimboya",
+  "previous": "",
+  "next": "",
+  "wiki": "Grim Message",
+  "chain": [],
+  "category": "Hinterlands"
+ },
+ "summary": "Nimboya wants the Witherbark trolls punished for betraying Thrall, though they were once allies of the Horde. Nimboya's pike is to carry Witherbark skulls and be planted in a Witherbark village in the Hinterlands.",
+ "sections": [
+  {
+   "title": "A Warning in Blood",
+   "body": "Once the Witherbark trolls stood with the Horde, until they betrayed Thrall. Nimboya hands you a pike and sends you a long way north to the Hinterlands, northeast of Tarren Mill, the village held by the Forsaken. Hunt Witherbark trolls there and collect their skulls, then plant the pike in the ground in Hiri'watha or Zun'watha, two of their smaller villages, so they learn what their deeds cost. Afterwards Nimboya waits in Stranglethorn.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Why does Nimboya want to punish the Witherbark trolls?",
+   "aliases": [
+    "why attack witherbark",
+    "witherbark betrayal",
+    "grim message reason"
+   ],
+   "answer": "Nimboya says they were allies of the Horde who turned on Thrall, and that such a betrayal cannot go unpunished."
+  },
+  {
+   "q": "Where does Nimboya send you to plant the pike?",
+   "aliases": [
+    "where to plant pike",
+    "nimboya pike location",
+    "grim message location"
+   ],
+   "answer": "Either Hiri'watha or Zun'watha, lesser Witherbark villages in the Hinterlands."
+  },
+  {
+   "q": "Where are the Hinterlands from Tarren Mill?",
+   "aliases": [
+    "hinterlands location",
+    "where is hinterlands"
+   ],
+   "answer": "They lie northeast of Tarren Mill, the village the Forsaken hold, and far to the north of Nimboya in Stranglethorn."
+  },
+  {
+   "q": "Who gives Grim Message?",
+   "aliases": [
+    "grim message questgiver",
+    "who is nimboya"
+   ],
+   "answer": "Nimboya, in Stranglethorn, hands over the pike and waits there for word."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "grim message",
+  "hinterlands",
+  "hiri'watha",
+  "nimboya",
+  "tarren mill",
+  "thrall",
+  "witherbark",
+  "zun'watha"
+ ],
+ "related": [
+  "npc:thrall",
+  "zone:hinterlands",
+  "topic:horde",
+  "topic:troll",
+  "subzone:tarren-mill",
+  "topic:forsaken"
+ ],
+ "attribution": [
+  "Wowpedia: Grim Message"
+ ]
+}

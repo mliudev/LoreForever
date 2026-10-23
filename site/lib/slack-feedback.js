@@ -22,6 +22,7 @@
 import { REASONS as CLIP_REASONS } from "../public/clip-report-code.js";
 import { REASONS as REPORT_REASONS } from "../public/report-code.js";
 import { accountNames, scrubNames } from "./answer-log.js";
+import { createMissing } from "./schema.js";
 
 export const BURST = 20;      // item posts a minute; past this they wait for the digest
 const KEEP_DAYS = 30;         // a key is kept this long, so an item edited later isn't posted again
@@ -36,7 +37,7 @@ const SETUP = [
 const ready = new WeakMap();
 async function setup(env) {
   if (ready.get(env.DB)) return;
-  await env.DB.batch(SETUP.map(sql => env.DB.prepare(sql)));
+  await createMissing(env, SETUP);
   ready.set(env.DB, true);
 }
 

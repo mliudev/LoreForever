@@ -1,0 +1,113 @@
+{
+ "key": "quest:1182",
+ "type": "quest",
+ "name": "Goblin Sponsorship",
+ "era": "classic",
+ "zone": "thousandneedles",
+ "meta": {
+  "ids": [
+   1182
+  ],
+  "level": "37",
+  "faction": "Neutral",
+  "start": "Baron Revilgaz",
+  "end": "Baron Revilgaz",
+  "previous": "Goblin Sponsorship (3)",
+  "next": "Goblin Sponsorship (5)",
+  "wiki": "Goblin Sponsorship (4)",
+  "chain": [],
+  "prev_q": [
+   "Goblin Sponsorship (3)"
+  ],
+  "next_q": [
+   "Goblin Sponsorship (5)"
+  ],
+  "category": "Thousand Needles",
+  "chain_tpl": [
+   "Goblin Sponsorship"
+  ]
+ },
+ "summary": "Baron Revilgaz tells you the Venture Company shredders at Lake Nazferiti in northern Stranglethorn have a new model fuel regulator that Pozzik could use. Foreman Cozzle has proven cleverer than the Baron expected, so Revilgaz sends you to find the blueprints.",
+ "sections": [
+  {
+   "title": "The Foreman's Blueprints",
+   "body": "Baron Revilgaz explains that the Venture Company's shredders at Lake Nazferiti, in northern Stranglethorn, carry a new model of fuel regulator. Pozzik could take advantage of it if he had the details, but Cozzle, the foreman there, is cleverer than Revilgaz gave him credit for. You might have better luck. Revilgaz knows the blueprints are kept in Cozzle's house, almost certainly under lock and key. The Venture Company is based around Lake Nazferiti, in the vale's north-eastern corner. The key is with Foreman Cozzle in the cabin atop the oil tower, and the box holding the blueprints is in the small house near the tower's base. Revilgaz admits the gnome team out there is pretty good, and says the team needs every advantage it can find.",
+   "spoiler": 0
+  },
+  {
+   "title": "A Copy for the Baron",
+   "body": "With the blueprints in hand, Revilgaz wants a copy for his own notes, and then sends you on to Pozzik, so Pozzik does not think one of his sponsors has abandoned him.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Why does Baron Revilgaz want fuel regulator blueprints?",
+   "aliases": [
+    "why steal blueprints",
+    "why fuel regulator",
+    "revilgaz motive"
+   ],
+   "answer": "The Venture Company's shredders at Lake Nazferiti have a new model fuel regulator, and Revilgaz thinks Pozzik could take advantage of it if he had the details."
+  },
+  {
+   "q": "Where are the blueprints kept?",
+   "aliases": [
+    "where are blueprints",
+    "fuel regulator blueprints location",
+    "cozzle house"
+   ],
+   "answer": "In a box inside a small house at the foot of the oil tower, at the Venture Company's base at Lake Nazferiti, in northern Stranglethorn."
+  },
+  {
+   "q": "Who holds the key?",
+   "aliases": [
+    "cozzle key",
+    "where is key",
+    "how to open chest"
+   ],
+   "answer": "Foreman Cozzle carries it, and works in the cabin atop the oil tower."
+  },
+  {
+   "q": "Where does this step fit in the chain?",
+   "aliases": [
+    "what comes before this",
+    "what quest is next",
+    "goblin sponsorship chain"
+   ],
+   "answer": "It follows Goblin Sponsorship (3), in which Wharfmaster Lozgil sent you to the Baron. The next step is Goblin Sponsorship (5)."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Rogue",
+   "text": "A Rogue can pick the lock on the box holding the blueprints without needing the foreman's key."
+  }
+ ],
+ "keywords": [
+  "baron revilgaz",
+  "blueprints",
+  "foreman cozzle",
+  "fuel regulator",
+  "goblin sponsorship",
+  "lake nazferiti",
+  "mirage raceway",
+  "pozzik",
+  "venture company"
+ ],
+ "related": [
+  "npc:baron-revilgaz",
+  "npc:pozzik",
+  "subzone:lake-nazferiti",
+  "topic:venture-company",
+  "subzone:booty-bay",
+  "subzone:mirage-raceway",
+  "zone:stranglethorn",
+  "zone:thousandneedles",
+  "quest:1181",
+  "quest:1183"
+ ],
+ "attribution": [
+  "Goblin Sponsorship (4)"
+ ]
+}

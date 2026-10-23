@@ -1,0 +1,79 @@
+{
+ "key": "quest:535",
+ "type": "quest",
+ "name": "Valik",
+ "era": "classic",
+ "zone": "alterac",
+ "meta": {
+  "ids": [
+   535
+  ],
+  "level": "34",
+  "faction": "Horde",
+  "start": "Henchman Valik",
+  "end": "Henchman Valik",
+  "previous": "",
+  "next": "",
+  "wiki": "Valik (quest)",
+  "chain": [],
+  "category": "Alterac Mountains"
+ },
+ "summary": "Henchman Valik lies injured and dying in a Syndicate camp, confronted by an enemy. Certain you will kill them anyway, Valik strikes a bargain: a mug of Southshore Stout in exchange for answers.",
+ "sections": [
+  {
+   "title": "A Dying Bargain",
+   "body": "Valik is injured and dying, and finds you standing before them as an enemy. Valik expects you to kill them regardless, but offers a bargain: carry a mug of Southshore Stout to the Syndicate camp, and Valik will answer your questions. Valik even wonders aloud whether your kind drinks at all.",
+   "spoiler": 0
+  },
+  {
+   "title": "Valik's Last Drink",
+   "body": "Valik declares the stout the sweetest thing ever tasted, given the death waiting. Valik hands over something of no use to the dead, then tells you to get on with it.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Valik?",
+   "aliases": [
+    "henchman valik",
+    "who is valik",
+    "valik alterac"
+   ],
+   "answer": "Henchman Valik is an injured and dying henchman of the Syndicate, found in the Syndicate camp."
+  },
+  {
+   "q": "What does Valik want?",
+   "aliases": [
+    "what does valik need",
+    "valik drink",
+    "valik stout"
+   ],
+   "answer": "A mug of Southshore Stout, brought to the Syndicate camp."
+  },
+  {
+   "q": "What does Valik promise in return for the stout?",
+   "aliases": [
+    "valik reward lore",
+    "what does valik tell you",
+    "valik trade"
+   ],
+   "answer": "Valik promises to share what you are after, though expecting to be killed afterward anyway."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "alterac mountains",
+  "henchman valik",
+  "southshore stout",
+  "syndicate",
+  "valik"
+ ],
+ "related": [
+  "subzone:southshore",
+  "topic:syndicate",
+  "zone:alterac"
+ ],
+ "attribution": [
+  "Valik (quest)"
+ ]
+}

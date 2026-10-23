@@ -1,0 +1,78 @@
+{
+ "key": "quest:1282",
+ "type": "quest",
+ "name": "They Call Him Smiling Jim",
+ "era": "classic",
+ "zone": "dustwallow",
+ "meta": {
+  "ids": [
+   1282
+  ],
+  "level": "35",
+  "start": "Guard Byron",
+  "end": "Captain Garran Vimes",
+  "wiki": null,
+  "previous": "",
+  "next": ""
+ },
+ "summary": "Guard Byron feels sorry for a man called Smiling Jim and hints that he was not always the way he is now. Byron would rather not talk about it, and sends you to Captain Garran Vimes in Theramore.",
+ "sections": [
+  {
+   "title": "A Sad Story",
+   "body": "Byron pities Jim and says it was not always like this for him: Jim once kept an inn in the marsh, and a wonderful one. Byron prefers not to go into it. Anyone who truly wants the story is told to take it up with Captain Garran Vimes in Theramore.",
+   "spoiler": 0
+  },
+  {
+   "title": "Vimes's Account",
+   "body": "Vimes names the man as James Hyal. Hyal set up an inn on the edge of the Barrens, meaning it as a pleasant stopover for travelers, and for a while it did well. Then Theramore lost its grip on the marsh roads, and the ogres moved in. Stubborn as he was, Hyal would not trade his dream for the safety of Theramore's walls, and fire consumed the Shady Rest Inn. Vimes says the investigation has had little luck so far, and suggests searching the rubble for anyone who wants to help.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Smiling Jim?",
+   "aliases": [
+    "who is jim",
+    "smiling jim identity",
+    "who is the smiling man"
+   ],
+   "answer": "Guard Byron feels sorry for him and says he was not always like this. Byron remembers that Jim once kept an inn in the marsh, and a wonderful one."
+  },
+  {
+   "q": "Why does Guard Byron send you to Captain Vimes?",
+   "aliases": [
+    "why talk to vimes",
+    "byron quest",
+    "guard byron reason"
+   ],
+   "answer": "Byron would rather not discuss Jim's past, and points you to Captain Garran Vimes instead."
+  },
+  {
+   "q": "Where do I find Captain Garran Vimes?",
+   "aliases": [
+    "who is captain vimes",
+    "captain vimes dustwallow"
+   ],
+   "answer": "Captain Garran Vimes is in Theramore."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "captain garran vimes",
+  "dustwallow marsh",
+  "guard byron",
+  "james hyal",
+  "shady rest inn",
+  "smiling jim",
+  "theramore"
+ ],
+ "related": [
+  "quest:1302",
+  "subzone:shady-rest-inn",
+  "zone:dustwallow",
+  "zone:barrens"
+ ],
+ "attribution": [
+  "Classic quest text: They Call Him Smiling Jim"
+ ]
+}

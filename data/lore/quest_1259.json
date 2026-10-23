@@ -1,0 +1,76 @@
+{
+ "key": "quest:1259",
+ "type": "quest",
+ "name": "Lieutenant Paval Reethe",
+ "era": "classic",
+ "zone": "dustwallow",
+ "meta": {
+  "ids": [
+   1259
+  ],
+  "level": "40",
+  "start": "Captain Garran Vimes",
+  "end": "Adjutant Tesoran",
+  "previous": "Lieutenant Paval Reethe",
+  "next": "Daelin's Men",
+  "next_q": [
+   "Daelin's Men"
+  ],
+  "wiki": null,
+  "prev_q": [
+   "Lieutenant Paval Reethe"
+  ]
+ },
+ "summary": "Captain Garran Vimes does not recognize the name Lieutenant Paval Reethe, and sends you to Adjutant Tesoran in Theramore, who looks after the records of the Theramore guard.",
+ "sections": [
+  {
+   "title": "Who Is Reethe?",
+   "body": "Captain Garran Vimes cannot place the name Lieutenant Paval Reethe. Adjutant Tesoran keeps the records of the Theramore guard, covering its people as well as its equipment, and Vimes expects a look through those books to show who Reethe is.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who sends you to find out about Reethe?",
+   "aliases": [
+    "who starts lieutenant paval reethe",
+    "reethe quest giver",
+    "who gives reethe quest"
+   ],
+   "answer": "Captain Garran Vimes, who does not recognize the name Lieutenant Paval Reethe."
+  },
+  {
+   "q": "Who keeps the Theramore guard's records?",
+   "aliases": [
+    "where is adjutant tesoran",
+    "theramore records keeper",
+    "who has the guard books"
+   ],
+   "answer": "Adjutant Tesoran in Theramore keeps them, covering the guard's people and its equipment."
+  },
+  {
+   "q": "What can Adjutant Tesoran tell you?",
+   "aliases": [
+    "what does tesoran know",
+    "tesoran books"
+   ],
+   "answer": "Vimes expects Tesoran's books to show who Reethe is."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "adjutant tesoran",
+  "captain garran vimes",
+  "dustwallow marsh",
+  "paval reethe",
+  "theramore"
+ ],
+ "related": [
+  "quest:1252",
+  "quest:1285",
+  "zone:dustwallow"
+ ],
+ "attribution": [
+  "Classic quest text: Lieutenant Paval Reethe"
+ ]
+}

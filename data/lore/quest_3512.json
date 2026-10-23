@@ -1,0 +1,99 @@
+{
+ "key": "quest:3512",
+ "type": "quest",
+ "name": "In Eranikus' Own Words",
+ "era": "classic",
+ "zone": "swampofsorrows",
+ "meta": {
+  "ids": [
+   3512
+  ],
+  "level": "55",
+  "faction": null,
+  "start": "Itharius",
+  "end": "Umbranse the Spiritspeaker",
+  "previous": "The Essence of Eranikus (2)",
+  "next": "",
+  "wiki": "In Eranikus' Own Words",
+  "chain": [
+   "The Essence of Eranikus",
+   "The Essence of Eranikus (2)",
+   "In Eranikus' Own Words"
+  ],
+  "prev_q": [
+   "The Essence of Eranikus (2)"
+  ],
+  "category": "Swamp of Sorrows"
+ },
+ "summary": "Itharius wants to find a way of speaking with Eranikus through the gem. Eranikus lies somewhere between sleep and death, caught in a weave of nightmares, and the essence you gave is badly tainted, yet a chance remains. Itharius sends you far off, to eastern Winterspring.",
+ "sections": [
+  {
+   "title": "A Voice Across the Nightmare",
+   "body": "Itharius explains that Eranikus lies between sleep and death, twisted within a weave of nightmares. The essence you gave is badly tainted, yet there is a chance of reaching him. To open a conversation through the gem, Itharius sends you to eastern Winterspring, a land of ice, to seek one of their mortal allies.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Spiritspeaker",
+   "body": "The ally is Umbranse the Spiritspeaker, a human who acts as a medium for the dead. Eranikus is not truly dead, but Itharius believes Umbranse may help all the same.",
+   "spoiler": 0
+  },
+  {
+   "title": "Umbranse's Condition",
+   "body": "Umbranse says Itharius was wise to send you, and that Eranikus will soon offer counsel in his own words. For now Umbranse cannot help directly. Umbranse will lend skill at death-speaking, but first needs the help of someone not held back by the frailties of age, since the most potent augury device in Umbranse's keeping has been taken against Umbranse's will, and without it Eranikus cannot be helped.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who sends you on this journey?",
+   "aliases": [
+    "who gives in eranikus own words",
+    "eranikus quest giver"
+   ],
+   "answer": "Itharius in the Swamp of Sorrows, after taking the tainted essence of Eranikus from you."
+  },
+  {
+   "q": "Who is Umbranse the Spiritspeaker?",
+   "aliases": [
+    "who is umbranse",
+    "umbranse spiritspeaker lore"
+   ],
+   "answer": "A human who acts as a medium for the dead, and one of Itharius' mortal allies. He is found in eastern Winterspring."
+  },
+  {
+   "q": "Is Eranikus considered dead?",
+   "aliases": [
+    "is eranikus dead",
+    "eranikus state of being"
+   ],
+   "answer": "Not truly dead. Eranikus lies somewhere between sleep and death, caught in a weave of nightmares."
+  },
+  {
+   "q": "Where does this step fit in the storyline?",
+   "aliases": [
+    "eranikus quest chain order",
+    "what came before in eranikus own words"
+   ],
+   "answer": "It follows the second step of The Essence of Eranikus, in which you gave Itharius the gem holding what remained of Eranikus' free will."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "eranikus",
+  "itharius",
+  "nightmare",
+  "spiritspeaker",
+  "swamp of sorrows",
+  "umbranse",
+  "winterspring"
+ ],
+ "related": [
+  "quest:3374",
+  "zone:winterspring",
+  "zone:swampofsorrows",
+  "topic:human"
+ ],
+ "attribution": [
+  "In Eranikus' Own Words"
+ ]
+}

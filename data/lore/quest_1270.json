@@ -1,0 +1,86 @@
+{
+ "key": "quest:1270",
+ "type": "quest",
+ "name": "Stinky's Escape",
+ "era": "classic",
+ "zone": "dustwallow",
+ "meta": {
+  "ids": [
+   1270
+  ],
+  "level": "37",
+  "faction": "Horde",
+  "start": "\"Stinky\" Ignatz",
+  "end": "Mebok Mizzyrix",
+  "wiki": null,
+  "previous": "",
+  "next": ""
+ },
+ "summary": "\"Stinky\" Ignatz is hemmed in by swamp critters and has not found the bogbean he came for. Mebok Mizzyrix, a goblin of Ratchet, wants bogbean leaves to brew a potion, and Ignatz asks you to get him out of this and watch over him while he searches. Afterward, Mebok Mizzyrix is to be found in Ratchet.",
+ "sections": [
+  {
+   "title": "Surrounded in the Swamp",
+   "body": "Ignatz is relieved to meet someone who is not out to eat him. He says Mebok Mizzyrix, a goblin from Ratchet, needs bogbean leaves to brew some potion or other. Ignatz claims not to care why, since the money was good and he knows this swamp. He got surrounded before finding the plant, and asks you to help him out of the spot and guard him while he looks for it.",
+   "spoiler": 0
+  },
+  {
+   "title": "Word From Mebok",
+   "body": "Mebok says Ignatz came with the herbs and told how you got him out of trouble. A friend of Stinky's, Mebok declares, is a friend of Mebok's. Ignatz asked Mebok to hand you something if the two of you ever met, right before heading south to the marsh again.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is \"Stinky\" Ignatz?",
+   "aliases": [
+    "who is stinky",
+    "stinky ignatz",
+    "who is the escort guy"
+   ],
+   "answer": "\"Stinky\" Ignatz is looking for bogbean leaves in the swamp for Mebok Mizzyrix. He says he knows the place, yet he got surrounded by critters before finding the plant."
+  },
+  {
+   "q": "Why is Ignatz gathering bogbean leaves?",
+   "aliases": [
+    "why bogbean",
+    "what is bogbean for",
+    "mebok bogbean"
+   ],
+   "answer": "The goblin Mebok Mizzyrix, from Ratchet, needs them for a potion. Ignatz says he does not care why, since the money was good."
+  },
+  {
+   "q": "Who is Mebok Mizzyrix?",
+   "aliases": [
+    "mebok",
+    "who is mebok mizzyrix",
+    "goblin in ratchet"
+   ],
+   "answer": "Mebok Mizzyrix is a goblin from Ratchet who wants bogbean leaves to brew a potion."
+  },
+  {
+   "q": "Who should you speak to afterward?",
+   "aliases": [
+    "where does stinky go",
+    "where to turn in stinkys escape"
+   ],
+   "answer": "After seeing Ignatz through, find Mebok Mizzyrix in Ratchet."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "bogbean",
+  "dustwallow marsh",
+  "escort",
+  "mebok mizzyrix",
+  "ratchet",
+  "stinky ignatz"
+ ],
+ "related": [
+  "npc:mebok-mizzyrix",
+  "subzone:ratchet",
+  "zone:dustwallow"
+ ],
+ "attribution": [
+  "Classic quest text: Stinky's Escape"
+ ]
+}

@@ -1,0 +1,79 @@
+{
+ "key": "quest:1174",
+ "type": "quest",
+ "name": "Gnomes Win!",
+ "era": "classic",
+ "zone": "thousandneedles",
+ "meta": {
+  "ids": [
+   1174
+  ],
+  "level": "1",
+  "faction": "Neutral",
+  "start": "Automatic",
+  "end": "",
+  "previous": "",
+  "next": "",
+  "wiki": "Gnomes Win!",
+  "chain": [],
+  "category": "Thousand Needles"
+ },
+ "summary": "In Thousand Needles, a gnome race ticket pays off when the gnomes come out ahead. A prize box comes back to whoever held the winning stub.",
+ "sections": [
+  {
+   "title": "The Gnome Ticket",
+   "body": "The gnome race ticket is the stub that counts when the gnomes win. Hold on to it, and a gnome prize box is yours once the result is in. The goblin ticket has a result of its own, for the other side of the race.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is the Gnome Race Ticket?",
+   "aliases": [
+    "gnome ticket",
+    "what is gnome race ticket",
+    "race ticket purpose"
+   ],
+   "answer": "It is the ticket for the gnome side of the race in Thousand Needles. It matters when the gnomes win."
+  },
+  {
+   "q": "What do you get when the gnomes win?",
+   "aliases": [
+    "gnome prize box",
+    "gnomes win prize"
+   ],
+   "answer": "A gnome prize box comes to whoever holds the gnome race ticket when the gnomes come out ahead."
+  },
+  {
+   "q": "Who can take part in this wager?",
+   "aliases": [
+    "can horde bet",
+    "can alliance bet",
+    "neutral ticket"
+   ],
+   "answer": "It belongs to neither faction, so Alliance and Horde travelers are on the same footing."
+  },
+  {
+   "q": "What happens if the goblins win instead?",
+   "aliases": [
+    "goblins win",
+    "goblin race ticket"
+   ],
+   "answer": "Then the goblin ticket is the one that matters. Its result is called Goblins Win!, the counterpart to this one."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "gnome race ticket",
+  "gnome prize box",
+  "gnomes win",
+  "races",
+  "thousand needles"
+ ],
+ "related": [
+  "zone:thousandneedles"
+ ],
+ "attribution": [
+  "Wowpedia: Gnomes Win!"
+ ]
+}

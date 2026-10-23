@@ -1,0 +1,86 @@
+{
+ "key": "quest:4298",
+ "type": "quest",
+ "name": "Becoming a Parent",
+ "era": "classic",
+ "zone": "feralas",
+ "meta": {
+  "ids": [
+   4298
+  ],
+  "level": "48",
+  "faction": "Alliance",
+  "start": "Agnar Beastamer",
+  "end": "Agnar Beastamer",
+  "previous": "Food for Baby",
+  "next": "",
+  "wiki": "Becoming a Parent",
+  "chain": [],
+  "prev_q": [
+   "Food for Baby"
+  ],
+  "category": "Feralas",
+  "chain_tpl": [
+   "Freedom for All Creatures"
+  ]
+ },
+ "summary": "Agnar Beastamer in the Hinterlands has found the egg much further along than expected, and wants a word with you about it.",
+ "sections": [
+  {
+   "title": "Sooner Than Expected",
+   "body": "Agnar Beastamer was not prepared for how ready the egg turned out to be. Speak with Agnar in the Hinterlands, where you have been bringing food for the hatchling.",
+   "spoiler": 0
+  },
+  {
+   "title": "A Parent, of a Sort",
+   "body": "Agnar hands the egg over, so that it will bond to you and look to you as its parent. Agnar congratulates you on becoming a parent, of a sort.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who has news about the egg?",
+   "aliases": [
+    "who starts becoming a parent",
+    "becoming a parent quest giver",
+    "agnar beastamer quest"
+   ],
+   "answer": "Agnar Beastamer, who has been looking after the egg in the Hinterlands."
+  },
+  {
+   "q": "Where do I find Agnar Beastamer?",
+   "aliases": [
+    "becoming a parent location",
+    "where is agnar beastamer"
+   ],
+   "answer": "Agnar is in the Hinterlands."
+  },
+  {
+   "q": "What came before this step?",
+   "aliases": [
+    "becoming a parent prerequisite",
+    "previous quest becoming a parent"
+   ],
+   "answer": "It follows Food for Baby, in which you gathered meat for the hatchling."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "agnar beastamer",
+  "becoming a parent",
+  "egg",
+  "food for baby",
+  "freedom for all creatures",
+  "hinterlands",
+  "pet"
+ ],
+ "related": [
+  "quest:4297",
+  "quest:2969",
+  "zone:hinterlands",
+  "zone:feralas"
+ ],
+ "attribution": [
+  "Becoming a Parent"
+ ]
+}

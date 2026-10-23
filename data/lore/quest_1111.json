@@ -1,0 +1,101 @@
+{
+ "key": "quest:1111",
+ "type": "quest",
+ "name": "Wharfmaster Dizzywig",
+ "era": "classic",
+ "zone": "thousandneedles",
+ "meta": {
+  "ids": [
+   1111
+  ],
+  "level": "36",
+  "faction": null,
+  "start": "Kravel Koalbeard",
+  "end": "Wharfmaster Dizzywig",
+  "previous": "",
+  "next": "Parts for Kravel",
+  "wiki": "Wharfmaster Dizzywig (quest)",
+  "chain": [
+   "Kravel Koalbeard",
+   "Mirage Raceway",
+   "Thousand Needles"
+  ],
+  "next_q": [
+   "Parts for Kravel"
+  ],
+  "category": "Thousand Needles",
+  "chain_tpl": [
+   "Errands for Kravel"
+  ]
+ },
+ "summary": "Kravel Koalbeard, a dwarf at the Mirage Raceway, makes it his business to get people what they need. The gnomes there are waiting on parts that reached Ratchet a week ago, and Kravel cannot go himself. He sends you to Ratchet with his parts order for Wharfmaster Dizzywig.",
+ "sections": [
+  {
+   "title": "Legwork for Kravel",
+   "body": "Kravel Koalbeard sees to it that people get the things they need. The gnomes of the Mirage Raceway are waiting on a batch of parts that reached Ratchet a week ago, and Kravel cannot make the journey himself. He asks you to do the legwork, and promises more jobs with serious profit potential if you do.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Docks of Ratchet",
+   "body": "Ratchet lies in the Barrens. Wharfmaster Dizzywig, a goblin, is the one to see, and Kravel says Dizzywig will probably be at the docks. You carry Kravel's Parts Order there.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who sends you to Wharfmaster Dizzywig?",
+   "aliases": [
+    "who gives wharfmaster dizzywig",
+    "kravel koalbeard quest"
+   ],
+   "answer": "Kravel Koalbeard, a dwarf at the Mirage Raceway in Thousand Needles, gives you his parts order and sends you to Ratchet."
+  },
+  {
+   "q": "Where can Wharfmaster Dizzywig be found?",
+   "aliases": [
+    "dizzywig location",
+    "where is dizzywig",
+    "where to find dizzywig"
+   ],
+   "answer": "Wharfmaster Dizzywig is a goblin, and Kravel expects to find Dizzywig at the docks of Ratchet in the Barrens."
+  },
+  {
+   "q": "What is the purpose of Kravel's order?",
+   "aliases": [
+    "what are the parts for",
+    "why go to ratchet"
+   ],
+   "answer": "The gnomes of the Mirage Raceway are waiting on parts that reached Ratchet a week ago. Kravel cannot go himself, so he asks you to carry his order to the docks there."
+  },
+  {
+   "q": "What comes after Wharfmaster Dizzywig?",
+   "aliases": [
+    "next quest after dizzywig",
+    "what comes next"
+   ],
+   "answer": "The next step in the chain is Parts for Kravel."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "kravel koalbeard",
+  "mirage raceway",
+  "parts order",
+  "ratchet",
+  "thousand needles",
+  "wharfmaster dizzywig"
+ ],
+ "related": [
+  "npc:kravel-koalbeard",
+  "quest:1112",
+  "subzone:ratchet",
+  "subzone:mirage-raceway",
+  "zone:thousandneedles",
+  "zone:barrens",
+  "topic:goblin",
+  "topic:dwarf"
+ ],
+ "attribution": [
+  "Wharfmaster Dizzywig (quest)"
+ ]
+}

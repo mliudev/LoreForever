@@ -1,0 +1,106 @@
+{
+ "key": "quest:656",
+ "type": "quest",
+ "name": "Summoning the Princess",
+ "era": "classic",
+ "zone": "arathi",
+ "meta": {
+  "ids": [
+   656
+  ],
+  "level": "50",
+  "faction": null,
+  "start": "Theldurin the Lost",
+  "end": "Shards of Myzrael",
+  "previous": "",
+  "next": "",
+  "wiki": "Summoning the Princess",
+  "chain": [],
+  "qtype": "Group",
+  "category": "Arathi Highlands",
+  "chain_tpl": [
+   "The Princess Trapped Classic"
+  ]
+ },
+ "summary": "Theldurin the Lost says Myzrael must be beaten while she is still growing, before her strength is enough to challenge those who hold her captive. At the Shards of Myzrael you call her forth, defeat her, and bind her Eldritch Shackles to the Shards.",
+ "sections": [
+  {
+   "title": "Why She Must Be Stopped",
+   "body": "Theldurin wants Myzrael stopped before her power swells enough to set her against her captors. Some claim she can be controlled; Theldurin asks why, then, the giants bothered to chain her at all.",
+   "spoiler": 0
+  },
+  {
+   "title": "At the Shards",
+   "body": "You take the Scroll of Myzrael to the Shards, the place where you first talked with her, and call her up. After you defeat her, her Eldritch Shackles are yours to bind to the Shards, and she is trapped once more.",
+   "spoiler": 0
+  },
+  {
+   "title": "When the Shackles Are Placed",
+   "body": "As the shackles settle around the Shards, a wail rises from far below, followed by a roar. The warmth and sense of safety the Shards once gave is gone. Now they pulse with open menace, as though the thing beneath them bears the surface ill will.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who sends you to fight Myzrael?",
+   "aliases": [
+    "quest giver",
+    "who gives summoning the princess",
+    "theldurin quest"
+   ],
+   "answer": "Theldurin the Lost, who warns that Myzrael must be beaten before her strength grows enough to challenge her captors."
+  },
+  {
+   "q": "Where does the summoning take place?",
+   "aliases": [
+    "where to summon myzrael",
+    "shards of myzrael location",
+    "summoning spot"
+   ],
+   "answer": "At the Shards of Myzrael, the place where you first talked with her."
+  },
+  {
+   "q": "Why does Theldurin want Myzrael defeated?",
+   "aliases": [
+    "why kill myzrael",
+    "theldurin motivation",
+    "why summon her"
+   ],
+   "answer": "Theldurin fears she will grow strong enough to challenge her captors. Theldurin also points out that if she could truly be controlled, the giants would not have chained her."
+  },
+  {
+   "q": "How is Myzrael summoned?",
+   "aliases": [
+    "how to summon her",
+    "scroll of myzrael use",
+    "summoning process"
+   ],
+   "answer": "With the Scroll of Myzrael, used at the Shards of Myzrael."
+  },
+  {
+   "q": "What do you do with the Eldritch Shackles?",
+   "aliases": [
+    "what item do i need",
+    "eldritch shackles",
+    "shackles of myzrael"
+   ],
+   "answer": "Defeat Myzrael, take her shackles, and fasten them to the Shards. Then she is trapped again."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "arathi highlands",
+  "eldritch shackles",
+  "myzrael",
+  "scroll of myzrael",
+  "shards of myzrael",
+  "theldurin the lost"
+ ],
+ "related": [
+  "npc:theldurin-the-lost",
+  "zone:arathi"
+ ],
+ "attribution": [
+  "Summoning the Princess"
+ ]
+}

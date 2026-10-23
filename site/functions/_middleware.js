@@ -16,6 +16,7 @@
 
 import { migratedAdminLocation } from '../lib/admin-location.js';
 import { analyticsPage, withAnalytics } from '../lib/analytics.js';
+import { tooOld } from '../lib/client-version.js';
 
 const OLD_HOSTS = ["loreforever.mliu.io", "lore-forever.pages.dev"];
 const STAY = ["/api/billing/webhook", "/api/profile/voice/hook"];
@@ -43,10 +44,16 @@ export async function onRequest({ request, env, next }) {
     Location: adminLocation, 'Cache-Control': 'private, no-store',
     'Referrer-Policy': 'no-referrer', 'X-Frame-Options': 'DENY',
   } });
-  // A response's headers can be read-only (a redirect, a file from ASSETS), so set them on a copy.
+  // A response's headers can be read-only (a redirect, a file from ASSETS), so set them on a copy. Server-Timing says
+  // how long the page took here before its first byte (DevTools > Network > Timing; the launch load test reads it).
+  const started = Date.now();
   const res = await next();
   const out = new Response(res.body, res);
+  if (!out.headers.has("Server-Timing")) out.headers.set("Server-Timing", `fn;dur=${Date.now() - started}`);
   for (const [name, value] of Object.entries(SITE_HEADERS)) if (!out.headers.has(name)) out.headers.set(name, value);
+  // An app below its minimum (lib/client-version.js) hears it on every reply too: X-LF-Update: the version it needs.
+  const old = request.headers.has("X-LF-Client") && tooOld(request.headers.get("X-LF-Client"), env);
+  if (old) out.headers.set("X-LF-Update", old.min);
   const analytics = analyticsPage(request, env, out);
   return analytics ? withAnalytics(out, analytics) : out;
 }

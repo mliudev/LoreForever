@@ -1,0 +1,93 @@
+{
+ "key": "quest:1452",
+ "type": "quest",
+ "name": "Rhapsody's Kalimdor Kocktail",
+ "era": "classic",
+ "zone": "hinterlands",
+ "meta": {
+  "ids": [
+   1452
+  ],
+  "level": "43",
+  "faction": "Alliance",
+  "start": "Rhapsody Shindigger",
+  "end": "Rhapsody Shindigger",
+  "previous": "Rhapsody Shindigger (quest)",
+  "next": "Rhapsody's Tale",
+  "wiki": "Rhapsody's Kalimdor Kocktail",
+  "chain": [],
+  "prev_q": [
+   "Rhapsody Shindigger (quest)"
+  ],
+  "next_q": [
+   "Rhapsody's Tale"
+  ],
+  "category": "Hinterlands",
+  "chain_tpl": [
+   "Into The Temple of Atal'Hakkar"
+  ]
+ },
+ "summary": "Rhapsody Shindigger, found in the Hinterlands, will talk about what happened down in the swamp only if given something stiff to drink. A Kalimdor Kocktail needs Roc gizzards from Tanaris and Groddoc and Ironfur livers from Feralas.",
+ "sections": [
+  {
+   "title": "A Stiff Drink",
+   "body": "Rhapsody greets Brohann's messenger with a hiccup. The two of them had quite an adventure, and the tale of what happened down in the swamp, which was not a pretty scene, will only come out with something stiff to drink. Rhapsody has a recipe in mind, the Kalimdor Kocktail, and promises to tell everything once it is brewed.",
+   "spoiler": 0
+  },
+  {
+   "title": "Ingredients from Kalimdor",
+   "body": "The kocktail needs three Roc gizzards from Tanaris, three Groddoc livers from Feralas and three Ironfur livers, also from Feralas. Even Rhapsody's finest malt is not strong enough to face the memory of that fateful flight over the swamp.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What does Rhapsody want for the Kalimdor Kocktail?",
+   "aliases": [
+    "why kocktail",
+    "why roc gizzards",
+    "why livers"
+   ],
+   "answer": "Three Roc gizzards, three Groddoc livers and three Ironfur livers. Rhapsody wants a stiff drink before talking about what happened in the swamp."
+  },
+  {
+   "q": "Where do the ingredients come from?",
+   "aliases": [
+    "where to find gizzards",
+    "cocktail ingredients location",
+    "where are groddocs"
+   ],
+   "answer": "The Roc gizzards come from Tanaris. The Groddoc and Ironfur livers come from Feralas."
+  },
+  {
+   "q": "Who sent you to Rhapsody Shindigger?",
+   "aliases": [
+    "who sent me to rhapsody",
+    "previous quest",
+    "brohan"
+   ],
+   "answer": "Brohann, whom Rhapsody calls a crazy fool, sent you. Before that Gryphon Master Talonaxe told you where Rhapsody could be found."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "brohann",
+  "feralas",
+  "groddoc liver",
+  "ironfur liver",
+  "kalimdor kocktail",
+  "rhapsody shindigger",
+  "roc gizzard",
+  "tanaris"
+ ],
+ "related": [
+  "quest:1451",
+  "quest:1469",
+  "zone:hinterlands",
+  "zone:feralas",
+  "zone:tanaris"
+ ],
+ "attribution": [
+  "Rhapsody's Kalimdor Kocktail"
+ ]
+}

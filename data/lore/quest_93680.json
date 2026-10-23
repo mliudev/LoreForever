@@ -1,0 +1,90 @@
+{
+ "key": "quest:93680",
+ "type": "quest",
+ "name": "Key to the City",
+ "era": "forever",
+ "zone": "alterac",
+ "meta": {
+  "ids": [
+   93680
+  ],
+  "level": "33",
+  "faction": "Horde",
+  "start": "Magus Wordeen Voidglare",
+  "end": "",
+  "previous": "",
+  "next": "Dalaran Patrols",
+  "wiki": "Key to the City (Forever)",
+  "chain": [],
+  "next_q": [
+   "Dalaran Patrols"
+  ],
+  "category": "Alterac Mountains",
+  "chain_tpl": [
+   "City of Dalaran quests"
+  ]
+ },
+ "summary": "Magus Wordeen Voidglare in Tarren Mill wants to know more about the Kirin Tor, whose city Archimonde destroyed and who have now rebuilt Dalaran on the Dark Lady's very doorstep. You are to search the Kirin Tor camps for something that can get the Horde into the city unnoticed.",
+ "sections": [
+  {
+   "title": "The Rebuilt City",
+   "body": "The Alliance once had an army of mages, the Kirin Tor, but the demonic Burning Legion proved the stronger. In a single stroke the arch demon Archimonde levelled their city, and the survivors were left as dispossessed vagabonds. Now they have rebuilt Dalaran, on the Dark Lady's very doorstep. Magus Wordeen Voidglare in Tarren Mill wants to know more, and sends you to search their camps for something, such as an ancient tome or a secret relic, that can get the Horde into the city unnoticed. What you bring back is a grimy Dalaran sewer key.",
+   "spoiler": 0
+  },
+  {
+   "title": "Wordeen's Answer",
+   "body": "On seeing a sewer key, Wordeen says that thankfully someone else will be the one using it. There is work to do before it is safe to use.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who gives the request for Key to the City?",
+   "aliases": [
+    "who gives key to the city",
+    "key to the city questgiver",
+    "where do i start key to the city"
+   ],
+   "answer": "Magus Wordeen Voidglare, in Tarren Mill."
+  },
+  {
+   "q": "Why is the Horde interested in Dalaran?",
+   "aliases": [
+    "why dalaran",
+    "why watch dalaran",
+    "what are the mages doing"
+   ],
+   "answer": "The Kirin Tor, whose city Archimonde destroyed, have rebuilt Dalaran on the Dark Lady's very doorstep. Wordeen wants to know more and needs a way in unnoticed."
+  },
+  {
+   "q": "What item are you sent to find?",
+   "aliases": [
+    "what do i get for wordeen",
+    "what is the key",
+    "key to the city item"
+   ],
+   "answer": "A Dalaran sewer key, a grimy key, to be found in the Kirin Tor camps."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "archimonde",
+  "burning legion",
+  "dalaran",
+  "grimy key",
+  "kirin tor",
+  "sewer key",
+  "tarren mill",
+  "wordeen voidglare"
+ ],
+ "related": [
+  "subzone:tarren-mill",
+  "subzone:dalaran",
+  "quest:545",
+  "zone:alterac",
+  "topic:burning-legion"
+ ],
+ "attribution": [
+  "Key to the City (Forever)"
+ ]
+}

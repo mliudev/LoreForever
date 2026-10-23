@@ -86,7 +86,7 @@ export function voiceChoices(v, packs = []) {
   for (const p of Array.isArray(v.packs) ? v.packs : []) {
     if (!validId(p?.id) || !released(p) || !safeDownload(p.download)) continue;
     if (v.included && !p.language && p.included !== false) continue;
-    const questDialogue = /_Quests(?:_|$)|_QuestGivers$/.test(p.addon || "");
+    const questDialogue = /(?<!_Answers)_Quests[23]?(?:_|$)|_QuestGivers[23]?$/.test(p.addon || "");
     add(p.language || baseLanguage, { id: p.id, name: p.name, href: p.download.startsWith("/") ? p.download : `/download/voice/${p.id}`, item: p, pack: p.id }, p.included === false || questDialogue);
   }
   return [...groups.values()].map(group => {
@@ -135,9 +135,9 @@ function choiceRow(v, group, likes, languageAnchor = "") {
     ? `${count(edition.entries).toLocaleString("en-US")} contributed entries; ${group.clips.toLocaleString("en-US")} recordings. Only this edition's contributed text is shown. Text without a matching recording remains readable.`
     : `${group.clips ? group.clips.toLocaleString("en-US") + " available recordings." : "Recording count unavailable."} Other entries remain readable as text.`;
   const requirements = edition ? `<p>Requires the matching Lore Forever core${versionTag(edition.coreVersion) ? ` (${escape(edition.coreVersion)})` : ""} with contributor edition support.${formatSize(edition.installedSize) ? ` Installed size: ${formatSize(edition.installedSize)}.` : ""} Includes both text and narration in one manual ZIP.</p>` : "";
-  const questDialogue = group.extra && /_Quests(?:_|$)/.test(group.files[0].item.addon || "");
+  const questDialogue = group.extra && /(?<!_Answers)_Quests[23]?(?:_|$)/.test(group.files[0].item.addon || "");
   // Character voices aren't this narrator's voice, so they don't link to the narrator's page.
-  const characterVoices = group.extra && /_QuestGivers$/.test(group.files[0].item.addon || "");
+  const characterVoices = group.extra && /_QuestGivers[23]?$/.test(group.files[0].item.addon || "");
   const name = questDialogue
     ? `Quest dialogue (${narrator})` : group.extra ? group.files[0].name : narrator;
   const assets = group.downloads.map(f => assetRef(f.item.download) || assetRef(f.href));

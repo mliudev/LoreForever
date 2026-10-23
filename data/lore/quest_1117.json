@@ -1,0 +1,117 @@
+{
+ "key": "quest:1117",
+ "type": "quest",
+ "name": "Rumors for Kravel",
+ "era": "classic",
+ "zone": "thousandneedles",
+ "meta": {
+  "ids": [
+   1117
+  ],
+  "level": "36",
+  "faction": null,
+  "start": "Krazek",
+  "end": "Kravel Koalbeard",
+  "previous": "Dream Dust in the Swamp",
+  "next": "Back to Booty Bay",
+  "wiki": "Rumors for Kravel",
+  "chain": [
+   "Kravel Koalbeard",
+   "Mirage Raceway",
+   "Thousand Needles"
+  ],
+  "prev_q": [
+   "Dream Dust in the Swamp"
+  ],
+  "next_q": [
+   "Back to Booty Bay"
+  ],
+  "category": "Thousand Needles",
+  "chain_tpl": [
+   "Errands for Kravel"
+  ]
+ },
+ "summary": "Krazek has found what you came for. After calling in favors, doing plenty of deducing and giving up a rare bottle of elven wine, Krazek wrote a letter about Nazz Steamboil. It is too dangerous for Krazek to use, so you carry it to Kravel Koalbeard, out on the Shimmering Flats, and you are asked not to say where it came from.",
+ "sections": [
+  {
+   "title": "A Letter From Krazek",
+   "body": "Krazek tells you what the search cost: some favors were used up, a rare bottle of elven wine was parted with, and a good deal of deducing was done. The result is a letter holding some very interesting bits about Nazz Steamboil. Krazek finds it too dangerous to use, and leaves it to you to do with as you will, as long as nobody learns where it came from. It goes back to Kravel Koalbeard, out on the Shimmering Flats.",
+   "spoiler": 0
+  },
+  {
+   "title": "Kravel's Verdict",
+   "body": "Kravel finds the letter very interesting. He muses that perhaps he should bow to the goblin pilot next time they meet, and expects Nazz to part with a small fortune so the secret stays buried.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Where does this begin?",
+   "aliases": [
+    "who gives rumors for kravel",
+    "rumors for kravel starter",
+    "where do i get the rumors"
+   ],
+   "answer": "Krazek gives you the letter in Booty Bay, after you bring the dream dust."
+  },
+  {
+   "q": "To whom should the letter be brought?",
+   "aliases": [
+    "where to turn in rumors for kravel",
+    "who gets the goblin rumors",
+    "where is kravel koalbeard"
+   ],
+   "answer": "To Kravel Koalbeard, at the Mirage Raceway out on the Shimmering Flats of Thousand Needles."
+  },
+  {
+   "q": "Who is the subject of Krazek's findings?",
+   "aliases": [
+    "who is nazz steamboil",
+    "what is the rumor about",
+    "who are the rumors on"
+   ],
+   "answer": "Nazz Steamboil, the goblin racer pilot. Krazek wrote down some very interesting bits about Nazz in the letter."
+  },
+  {
+   "q": "How did Krazek uncover the information?",
+   "aliases": [
+    "how did krazek get the info",
+    "krazek favors"
+   ],
+   "answer": "Krazek used up some favors, did some heavy deducing, and parted with a rare bottle of elven wine."
+  },
+  {
+   "q": "What comes next?",
+   "aliases": [
+    "next quest after rumors for kravel",
+    "rumors for kravel follow up"
+   ],
+   "answer": "The next step in the chain is Back to Booty Bay."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "booty bay",
+  "goblin rumors",
+  "kravel koalbeard",
+  "krazek",
+  "mirage raceway",
+  "nazz steamboil",
+  "rumors for kravel",
+  "shimmering flats",
+  "thousand needles"
+ ],
+ "related": [
+  "npc:kravel-koalbeard",
+  "subzone:mirage-raceway",
+  "subzone:shimmering-flats",
+  "subzone:booty-bay",
+  "zone:thousandneedles",
+  "quest:1116",
+  "quest:1118",
+  "topic:goblin"
+ ],
+ "attribution": [
+  "Rumors for Kravel"
+ ]
+}

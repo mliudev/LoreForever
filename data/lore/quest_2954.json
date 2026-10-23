@@ -1,0 +1,90 @@
+{
+ "key": "quest:2954",
+ "type": "quest",
+ "name": "The Stone Watcher",
+ "era": "classic",
+ "zone": "tanaris",
+ "meta": {
+  "ids": [
+   2954
+  ],
+  "level": "50",
+  "faction": null,
+  "start": "Uldum Pedestal",
+  "end": "Uldum Pedestal",
+  "previous": "",
+  "next": "",
+  "wiki": "The Stone Watcher",
+  "chain": [
+   "The Platinum Discs (neutral)",
+   "The Platinum Discs (Alliance)",
+   "The Platinum Discs (Horde) (1)",
+   "The Platinum Discs (Alliance 2)",
+   "The Platinum Discs (Horde 2)",
+   "Portents of Uldum",
+   "Seeing What Happens",
+   "The Stone Watcher",
+   "Return to Ironforge",
+   "Return to Thunder Bluff (2)",
+   "A Future Task"
+  ],
+  "category": "Tanaris"
+ },
+ "summary": "You carried the platinum discs out to the Tanaris desert, and the Stone Watcher of Norgannon has appeared at the Uldum Pedestal. It guards entry to the Uldum compound and admits only those whose disc set includes the Plates of Uldum. You are to learn its story before going on.",
+ "sections": [
+  {
+   "title": "A Guardian at the Pedestal",
+   "body": "The Watcher's arrival is just the reaction that was hoped for when you were sent out to the desert of Tanaris carrying the platinum discs. It names itself a guardian of entry, and it will not let you into the Uldum compound unless the Plates of Uldum are already integrated with your disc set. Before going further you are to find out the story behind the Stone Watcher, and then use the Uldum Pedestal.",
+   "spoiler": 0
+  },
+  {
+   "title": "What the Watcher Explains",
+   "body": "The Stone Watcher is there to control who may enter the Uldum complex on behalf of the Creators, and lets in only those who show the proper sequencing discs. The Plates of Uldum are discs made by the Creators that store data on their activities at Uldum. They are almost the same size as your own discs, but their markings concern Uldum rather than Uldaman. Uldum is a research facility, where the Creators work to enhance Azeroth's biosphere, and details of their work are for those who hold the Plates. In the end the Watcher promises that your discs will be returned once you access the pedestal, and that you may enter the complex once you have the Plates in your set.",
+   "spoiler": 1
+  },
+  {
+   "title": "More From the Watcher",
+   "body": "The Stone Watcher adds that the Creators control the distribution of these discs for all the complexes of this world, and that Azeroth has been rescheduled for a visitation. The Creators use visitation to reestablish control over seeded worlds whenever forces from outside or within upset the balance of those worlds' matrix dynamics, and it is not to be taken lightly.",
+   "spoiler": 2
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is the Stone Watcher of Norgannon?",
+   "aliases": [
+    "what is the stone watcher",
+    "who is the watcher at uldum",
+    "stone watcher identity"
+   ],
+   "answer": "A guardian of entry standing at the Uldum Pedestal out in the desert of Tanaris, which decides who may enter the Uldum compound."
+  },
+  {
+   "q": "Why does the Stone Watcher deny entry?",
+   "aliases": [
+    "why can't i enter uldum",
+    "plates of uldum missing",
+    "uldum entry denied"
+   ],
+   "answer": "Entry is allowed only if the Plates of Uldum are already integrated with your disc set, and yours do not yet have them."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "creators",
+  "plates of uldum",
+  "platinum discs",
+  "stone watcher of norgannon",
+  "tanaris",
+  "uldaman",
+  "uldum",
+  "uldum pedestal"
+ ],
+ "related": [
+  "subzone:uldum",
+  "zone:tanaris",
+  "subzone:uldaman"
+ ],
+ "attribution": [
+  "The Stone Watcher"
+ ]
+}

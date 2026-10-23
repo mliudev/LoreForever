@@ -1,0 +1,98 @@
+{
+ "key": "quest:793",
+ "type": "quest",
+ "name": "Broken Alliances",
+ "era": "classic",
+ "zone": "badlands",
+ "meta": {
+  "ids": [
+   793
+  ],
+  "level": "50",
+  "faction": "Horde",
+  "start": "Gorn",
+  "end": "Gorn",
+  "previous": "Broken Alliances (1)",
+  "next": "",
+  "wiki": "Broken Alliances (2)",
+  "chain": [
+   "Broken Alliances (1)",
+   "Broken Alliances (2)"
+  ],
+  "prev_q": [
+   "Broken Alliances (1)"
+  ],
+  "category": "Badlands"
+ },
+ "summary": "Gorn sends you to Lethlor Ravine in the far eastern Badlands, where the black drakes Blacklash and Hematus lie bound by the Seal of the Earth. This follows the first Broken Alliances.",
+ "sections": [
+  {
+   "title": "Three Runestones",
+   "body": "Three runestones keep the Seal of the Earth closed. Each rests in a pillar of Lethlor Ravine: Diamond, Opal and Amethyst. The Sign of the Earth, which Gorn gives you, draws the stones out and opens the seal. Countless drakes make their home in the ravine, and Blacklash and Hematus are formidable. Gorn wants both dead, and their bindings brought back.",
+   "spoiler": 0
+  },
+  {
+   "title": "What Gorn Makes of It",
+   "body": "Gorn says the black dragonflight still stands allied with the renegade Blackrock orcs, and that dragons and orcs alike must be reined in or cast out. Once Blacklash and Hematus are dead, the Horde can look westward toward Blackrock Spire.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who gives this quest?",
+   "aliases": [
+    "broken alliances quest giver",
+    "gorn location",
+    "who gives broken alliances"
+   ],
+   "answer": "Gorn gives it, as the next step after the first Broken Alliances."
+  },
+  {
+   "q": "Where is Lethlor Ravine located?",
+   "aliases": [
+    "lethlor ravine location",
+    "how to get to lethlor ravine",
+    "where is lethlor ravine"
+   ],
+   "answer": "Travel to the far eastern end of the Badlands. Countless drakes make their home in the ravine."
+  },
+  {
+   "q": "How do you free Blacklash and Hematus?",
+   "aliases": [
+    "how to summon blacklash",
+    "seal of the earth",
+    "pillars of diamond opal amethyst"
+   ],
+   "answer": "The Sign of the Earth draws a runestone out of each of the three pillars. Set into the Seal of the Earth, those stones free both drakes."
+  },
+  {
+   "q": "What must be brought back to Gorn?",
+   "aliases": [
+    "broken alliances turn in items",
+    "what does gorn want back",
+    "bindings of blacklash"
+   ],
+   "answer": "The bindings of Blacklash, the chains of Hematus and the Sign of the Earth, once both drakes are dead."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "black dragonflight",
+  "blacklash",
+  "blackrock orcs",
+  "gorn",
+  "hematus",
+  "lethlor ravine",
+  "seal of the earth",
+  "sign of the earth"
+ ],
+ "related": [
+  "quest:782",
+  "subzone:lethlor-ravine",
+  "topic:black-dragonflight",
+  "zone:badlands"
+ ],
+ "attribution": [
+  "Broken Alliances (2)"
+ ]
+}

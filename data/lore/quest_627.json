@@ -1,0 +1,106 @@
+{
+ "key": "quest:627",
+ "type": "quest",
+ "name": "Favor for Krazek",
+ "era": "classic",
+ "zone": "stranglethorn",
+ "meta": {
+  "ids": [
+   627
+  ],
+  "level": "37",
+  "faction": "Alliance",
+  "start": "Krazek",
+  "end": "Krazek",
+  "previous": "",
+  "next": "",
+  "wiki": "Favor for Krazek",
+  "chain": [
+   "Krazek's Cookery",
+   "Favor for Krazek",
+   "Return to Corporal Kaleb"
+  ],
+  "category": "Stranglethorn Vale"
+ },
+ "summary": "While repairing a crock pot brought down to Booty Bay, the goblin Krazek demands a personal favor in return. He wants rare lesser bloodstone ore retrieved from a distant cave in the northern hills before he will hand back the repaired cookware.",
+ "sections": [
+  {
+   "title": "A Northern Bargain",
+   "body": "After accepting the broken cookware in Booty Bay, Krazek pauses his tinkering to ask for a trade. Rather than repairing the pot for free, he directs you far northward into the Arathi Highlands. Within a cave in Drywhisker Gorge lies lesser bloodstone ore, a low-grade yet prized mineral sought after by those who understand its properties.",
+   "spoiler": 0
+  },
+  {
+   "title": "Ore from the Gorge",
+   "body": "Krazek promises to work on fixing the pot while you make the long journey north. He expects four loads of the bloodstone brought back to the port, offering payment in exchange for the favor if you return with enough samples. He also makes it clear that if you lack the knowledge to extract the ore yourself, you will need to rely on someone who does.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Krazek and what does he want?",
+   "aliases": [
+    "who is krazek",
+    "krazek request"
+   ],
+   "answer": "Krazek is a goblin operating in Booty Bay. While repairing a broken crock pot delivered to him, he asks for four loads of rare bloodstone ore to be hauled back from the north."
+  },
+  {
+   "q": "Where is the bloodstone ore located?",
+   "aliases": [
+    "where is bloodstone ore",
+    "bloodstone location",
+    "drywhisker gorge location"
+   ],
+   "answer": "The lesser bloodstone ore is found inside a mountain cave located in Drywhisker Gorge, situated far to the north within the Arathi Highlands."
+  },
+  {
+   "q": "Why does Krazek want low-grade ore?",
+   "aliases": [
+    "why lesser bloodstone",
+    "bloodstone value"
+   ],
+   "answer": "Although the deposits in the cave are not of the highest quality, Krazek notes that even low-grade bloodstone holds substantial value to anyone possessing the craft and knowledge to utilize it."
+  },
+  {
+   "q": "What happens before this task?",
+   "aliases": [
+    "previous quest",
+    "what came before"
+   ],
+   "answer": "Before Krazek makes this demand, you are sent to Booty Bay to deliver the damaged vessel in Krazek's Cookery."
+  },
+  {
+   "q": "What happens after gathering the bloodstone?",
+   "aliases": [
+    "next quest",
+    "what comes next"
+   ],
+   "answer": "Once Krazek receives the four loads of ore and provides your compensation, the journey continues with Return to Corporal Kaleb."
+  }
+ ],
+ "angles": [
+  {
+   "target": "profession:Mining",
+   "text": "Krazek directly points out that harvesting the ore requires mining expertise, warning that anyone lacking the skill will need to find someone capable of extracting the veins."
+  }
+ ],
+ "keywords": [
+  "arathi highlands",
+  "bloodstone",
+  "booty bay",
+  "drywhisker gorge",
+  "favor for krazek",
+  "krazek",
+  "lesser bloodstone ore",
+  "stranglethorn vale"
+ ],
+ "related": [
+  "subzone:booty-bay",
+  "zone:stranglethorn",
+  "zone:arathi",
+  "subzone:drywhisker-gorge"
+ ],
+ "attribution": [
+  "Favor for Krazek"
+ ]
+}

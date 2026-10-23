@@ -1,0 +1,79 @@
+{
+ "key": "quest:1287",
+ "type": "quest",
+ "name": "The Deserters",
+ "era": "classic",
+ "zone": "dustwallow",
+ "meta": {
+  "ids": [
+   1287
+  ],
+  "level": "38",
+  "start": "Balos Jacken",
+  "end": "Captain Garran Vimes",
+  "previous": "The Deserters",
+  "wiki": null,
+  "next": ""
+ },
+ "summary": "Asked about Reethe, Balos Jacken, leader of the Lost Point deserters, calls him a coward and says the deserters drove him from their camp. Jacken then asks you to forget you ever ran into them. Captain Garran Vimes in Theramore is the one to tell about Reethe.",
+ "sections": [
+  {
+   "title": "Thrown Out",
+   "body": "Jacken says the deserters drove Reethe out for repeatedly plundering the ogres' stores at Brackenwall Village. By Jacken's account the deserters are too few to stand against those ogres, and Reethe crossed the line once too often, so the band left him to manage alone. In return for the answer, Jacken asks that you forget the meeting.",
+   "spoiler": 0
+  },
+  {
+   "title": "Back in Theramore",
+   "body": "Vimes says Lieutenant Caldwell will be sent against the Lost Point deserters, and will be told to find Reethe as well. Vimes judges the marsh neither large nor trackless enough to keep Caldwell from finding Reethe.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Why was Reethe thrown out of the deserter camp?",
+   "aliases": [
+    "why did deserters exile reethe",
+    "reethe brackenwall village",
+    "why did balos kick out reethe"
+   ],
+   "answer": "Jacken says Reethe kept plundering the ogres' stores at Brackenwall Village. The deserters are too few to stand against them, so they left Reethe to manage alone."
+  },
+  {
+   "q": "Who is Balos Jacken?",
+   "aliases": [
+    "who is balos jacken",
+    "balos jacken lore",
+    "balos jacken dustwallow"
+   ],
+   "answer": "Jacken leads the Lost Point deserters. Asked about Reethe, he calls him a coward."
+  },
+  {
+   "q": "Who wants to hear about Reethe?",
+   "aliases": [
+    "where to turn in the deserters",
+    "who wants reethe information"
+   ],
+   "answer": "Captain Garran Vimes in Theramore, though Jacken himself hopes you will forget you ever met the deserters."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "balos jacken",
+  "brackenwall village",
+  "caldwell",
+  "deserters",
+  "garran vimes",
+  "lost point",
+  "reethe",
+  "theramore"
+ ],
+ "related": [
+  "quest:1286",
+  "subzone:lost-point",
+  "subzone:brackenwall-village",
+  "zone:dustwallow"
+ ],
+ "attribution": [
+  "Classic quest text: The Deserters"
+ ]
+}

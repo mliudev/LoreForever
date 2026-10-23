@@ -32,6 +32,7 @@ import { isReportRead } from "./report-read.js";
 
 import { ACTIVE, PLANS, planOfPrice, stripe } from "./billing.js";
 import { forwardFeedback } from "./slack-feedback.js";
+import { createMissing } from "./schema.js";
 
 export const CANCEL_EVENTS = ["customer.subscription.updated", "customer.subscription.deleted"];
 export const KINDS = ["scheduled", "now", "ended", "undone", "replaced"];
@@ -60,7 +61,7 @@ const SETUP = [
 const ready = new WeakMap();
 export function setupCancellations(env) {
   if (isReportRead(env)) return;
-  if (!ready.has(env.DB)) ready.set(env.DB, env.DB.batch(SETUP.map(s => env.DB.prepare(s)))
+  if (!ready.has(env.DB)) ready.set(env.DB, createMissing(env, SETUP)
     .catch(e => { ready.delete(env.DB); throw e; }));
   return ready.get(env.DB);
 }

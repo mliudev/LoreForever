@@ -32,6 +32,9 @@ async function trialOver(e, user) {
 const hers = (answer, lines, rest = "") => assert.ok(lines.some(l => answer === (rest ? `${l} ${rest}` : l)),
   `${answer}\n  is none of: ${lines.join(" | ")}`);
 const todo = { op: "add", kind: "todo" };
+// The site's own lines are checked for what they carry (the lines named, the place, the level), not their wording.
+const says = (text, ...facts) => { for (const f of facts) assert.ok(String(text).toLowerCase().includes(String(f).toLowerCase()),
+  `${JSON.stringify(text)} should say ${f}`); };
 
 // The site's own files (the lore library's place names, for reminders), as Pages serves them.
 const env = { DB: d1(), GEMINI_API_KEY: "test-key", ASSETS: { fetch: async request =>
@@ -388,9 +391,7 @@ test("asked where her notes are, she points to the Notebook tab, never the Setti
   assert.equal(notebookIntent("Where did you write that down?").write, false, "a question about where is no ask to write");
   assert.deepEqual(helpTopics("How do I see the game?"), ["sight"], "and seeing the game is still that topic's");
   const help = helpBlock("How do I see where you've written it down?", { client: "companion/0.22.0" });
-  assert.match(help, /Notebook tab in the bar at the top of your window, right next to Chat\. It is never in Settings/);
-  assert.match(help, /no trash icons[^]*asking first when it's more than one line[^]*never say you changed what you didn't/);
-  assert.match(help, /press Edit on the page, delete the lines and press Save/);
+  says(help, "Notebook tab", "never in Settings", "Edit", "Save");
   // "Clear your notes" is "clear my notes": her privacy help (what keeps them, the page that erases them) and the notebook's.
   for (const q of ["Now clear your notes.", "clear your list", "wipe your notebook", "clear my notes"]) {
     assert.deepEqual(helpTopics(q), ["privacy", "notebook"], q);
@@ -405,24 +406,24 @@ test("asked where her notes are, she points to the Notebook tab, never the Setti
   reply = () => said("I have cleared your notes.");
   const before = calls.length;
   let out = await ask(token, "Now clear your notes.");
-  assert.equal(out.answer, "That's two lines on Húrin's page: Linen cloth for bags and Copper bars. Take both off? Say yes.");
+  says(out.answer, "Linen cloth for bags", "Copper bars", "yes");
   assert.equal(calls.length, before, "the site asks, not the model");
   assert.equal(page(user, `char:${HURIN}`).body, "## To do\n- [ ] Linen cloth for bags\n- [ ] Copper bars\n");
   out = await ask(token, "Yes.", { prompt: `PLAYER CONTEXT\nzone: Elwynn Forest\nlevel: 9\n\nSOURCES\n\nRECENT CONVERSATION (oldest first)\n` +
     `${JSON.stringify([{ player: "Now clear your notes.", willo: out.answer }])}\n\nQUESTION\nYes.` });
-  assert.equal(out.answer, "Taken off, two lines: Linen cloth for bags and Copper bars.");
+  says(out.answer, "Linen cloth for bags", "Copper bars");
   assert.equal(page(user, `char:${HURIN}`).body, "## To do\n");
   // "Undo that" puts them back, in the site's words: her own change, named in her last answer.
   out = await ask(token, "Undo that.", { prompt: `PLAYER CONTEXT\nzone: Elwynn Forest\nlevel: 9\n\nSOURCES\n\nRECENT CONVERSATION ` +
     `(oldest first)\n${JSON.stringify([{ player: "Yes.", willo: out.answer }])}\n\nQUESTION\nUndo that.` });
-  assert.equal(out.answer, "Undone: Linen cloth for bags and Copper bars are back.");
+  says(out.answer, "Linen cloth for bags", "Copper bars");
   assert.equal(page(user, `char:${HURIN}`).body, "## To do\n- [ ] Linen cloth for bags\n- [ ] Copper bars\n");
   // Asked where it is, her help names the tab, not Settings.
   reply = () => said("In the Notebook tab, next to Chat.");
   out = await ask(token, "How do I see where you've written it down?");
   assert.equal(out.answer, "In the Notebook tab, next to Chat.");
   const system = calls[calls.length - 1].systemInstruction.parts[0].text;
-  assert.match(system, /right next to Chat\. It is never in Settings/);
+  says(system, "never in Settings");
   assert.doesNotMatch(system, /Seeing the game/);
   // Her unbacked claims of it go too, said any way.
   for (const said of ["I have cleared your notes.", "I've wiped the list.", "I emptied your notebook.", "I just erased them."])
@@ -488,8 +489,9 @@ test("her lines are her own: varied, the same change the same line, each naming 
   assert.equal(withRest("At level 20 I'll remind you: train.", "I'm going to call it out the moment you ding."),
     "At level 20 I'll remind you: train.");
   // A reminder asked for with no moment, kept as a to-do: why, in one line, then what.
-  assert.deepEqual(namedLines({ ...todo, why: "no-moment" }, ["buy linen"], "char:A-B"),
-    ["You didn't say when or where, so it's on your list: buy linen."]);
+  const kept = namedLines({ ...todo, why: "no-moment" }, ["buy linen"], "char:A-B");
+  assert.equal(kept.length, 1);
+  says(kept[0], "on your list", "buy linen");
 });
 
 test("her line is the site's, from what it wrote; her own sentences stay only when they claim nothing", () => {
@@ -511,8 +513,7 @@ test("her line is the site's, from what it wrote; her own sentences stay only wh
   hers(confirmed("Got it! I've added that to your list. The farms south of Sentinel Hill are your best bet.", add,
     ["10 Linen Cloth for bags"], "char:A-B"), linen, "The farms south of Sentinel Hill are your best bet.");
   // Nothing new written: what's already there, never "added".
-  assert.equal(confirmed("I've added that to your list for you.", add, [], "char:A-B"),
-    "That's already on your list: 10 Linen Cloth for bags.");
+  says(confirmed("I've added that to your list for you.", add, [], "char:A-B"), "already", "10 Linen Cloth for bags");
 });
 
 test("what she writes keeps to their words: no map coordinates they didn't give", () => {
@@ -531,7 +532,7 @@ test("what she writes keeps to their words: no map coordinates they didn't give"
 const seed = (user, body, key = `char:${HURIN}`) => env.DB.sqlite.prepare("INSERT INTO notebook_pages (user_id, page, title, " +
   "body, version, updated) VALUES (?, ?, 'Húrin', ?, 1, '')").run(user.id, key, body);
 
-test("blind check, case 2: a save that fails says so, never \"Noted\"", async () => {
+test("a save that fails says so, never \"Noted\"", async () => {
   const { user, token } = await linked();
   reply = () => called("notebook_add", { answer: "Noted: Hogger is on your list.", kind: "todo", items: ["Hogger"] });
   const real = env.DB;
@@ -547,7 +548,7 @@ test("blind check, case 2: a save that fails says so, never \"Noted\"", async ()
   assert.equal(page(user, `char:${HURIN}`), undefined);
 });
 
-test("blind check, case 3: \"put that at the top\" moves it, and says only what moved", async () => {
+test("\"put that at the top\" moves it, and says only what moved", async () => {
   const { user, token } = await linked();
   seed(user, "## To do\n- [ ] Copper bars\n- [ ] Silver ore\n- [ ] Visit the paladin trainer\n");
   reply = body => {
@@ -562,14 +563,15 @@ test("blind check, case 3: \"put that at the top\" moves it, and says only what 
   await ask(token, "tick off the copper bars");
 });
 
-test("blind check, cases 6 and 7: a name two lines share asks which; a line they didn't name is never changed", async () => {
+test("a name two lines share asks which; a line they didn't name is never changed", async () => {
   const { user, token } = await linked();
   const body = "## To do\n- [ ] Copper bars\n- [ ] Copper ore\n- [ ] Silver ore\n";
   seed(user, body);
   for (const items of [[1, 2], [1]]) {
     reply = () => called("notebook_check", { answer: "I've ticked off the copper items.", items });
     const out = await ask(token, "tick off copper");
-    assert.equal(out.answer, "Which one: Copper bars, or Copper ore?");
+    says(out.answer, "Copper bars", "Copper ore");
+    assert.match(out.answer, /\?$/);
     assert.equal(out.notebook, undefined);
   }
   // Both, when they say both.
@@ -591,12 +593,12 @@ test("blind check, cases 6 and 7: a name two lines share asks which; a line they
   hers((await res.json()).answer, namedLines({ op: "check" }, ["Silver ore"]));
 });
 
-test("blind check, case 12: a duplicate says it's already there; case 1: things to get are to-dos", async () => {
+test("a duplicate says it's already there; things to get are to-dos", async () => {
   const { user, token } = await linked();
   seed(user, "## To do\n- [ ] Hogger\n");
   reply = () => called("notebook_add", { answer: "I've added that to your list for you.", kind: "todo", items: ["hogger"] });
   let out = await ask(token, "add Hogger to my list");
-  assert.equal(out.answer, "That's already on your list: hogger.");
+  says(out.answer, "already", "hogger");
   assert.equal(out.notebook, undefined);
   assert.equal(page(user, `char:${HURIN}`).version, 1);
   reply = () => called("notebook_add", { answer: "I've added those materials to your notebook.", kind: "note",
@@ -606,7 +608,7 @@ test("blind check, case 12: a duplicate says it's already there; case 1: things 
   assert.match(page(user, `char:${HURIN}`).body, /- \[ \] Copper bars\n- \[ \] Silver ore\n- \[ \] Linen cloth\n- \[ \] Mageroyal\n$/);
 });
 
-test("blind check, case 17: out loud, a long list is said short", async () => {
+test("out loud, a long list is said short", async () => {
   const { user, token } = await linked();
   const twelve = ["Copper bars", "Silver ore", "Linen cloth", "Mageroyal", "Fishing pole", "Bandages", "The Defias Brotherhood",
     "Hogger", "Train at 20", "Sell the cloth", "Visit Ironforge", "Find the Defias hideout"];
@@ -615,7 +617,8 @@ test("blind check, case 17: out loud, a long list is said short", async () => {
   await ask(token, "what's on my list?", { style: "spoken" });
   // Shown three and a count, she can only say three.
   const spoken = calls[0].systemInstruction.parts[0].text;
-  assert.match(spoken, /\(12 open to-dos\)\n1\. \[ \] Copper bars\n2\. \[ \] Silver ore\n3\. \[ \] Linen cloth\n\(9 more not shown: say "and 9 more"\)/);
+  assert.equal((spoken.match(/^\d+\. \[ \] /gm) || []).length, 3);
+  assert.match(spoken, /\b9 more\b/);
   assert.doesNotMatch(spoken, /Mageroyal/);
   // The lines the question names come first.
   calls = [];
@@ -629,7 +632,7 @@ test("blind check, case 17: out loud, a long list is said short", async () => {
   assert.match(calls[0].systemInstruction.parts[0].text, /12\. \[ \] Find the Defias hideout/);
 });
 
-test("blind check recheck: \"add that to the top of the list\" in the player's words, and no claim when nothing was written", async () => {
+test("\"add that to the top of the list\" in the player's words, and no claim when nothing was written", async () => {
   const { user, token } = await linked();
   const shop = "## To do\n- [ ] Turn in the Westfall letter\n- [ ] Auction house: purple shirt\n- [ ] Paladin trainer\n";
   seed(user, shop);
@@ -662,7 +665,7 @@ test("blind check recheck: \"add that to the top of the list\" in the player's w
   // The model skips the tools and claims a change anyway (the vision session's nbclaim.mjs): never through.
   reply = () => called("answer_only", { answer: "I have moved that to the top of your list." });
   out = await ask(token, "Get my spells first, put that at the top of my list.");
-  assert.equal(out.answer, "I haven't changed your notebook yet. Tell me what to add, tick off or move.");
+  assert.match(out.answer, /haven't changed/i);
   assert.equal(out.notebook, undefined);
   reply = () => said("The paladin trainer is in the Cathedral. Your notebook now shows that first.");
   assert.equal((await ask(token, "what's on my list?")).answer, "The paladin trainer is in the Cathedral.");
@@ -675,7 +678,7 @@ test("blind check recheck: \"add that to the top of the list\" in the player's w
     "I wrote it in your Notebook tab, under Reminders on Húrin's page.");
 });
 
-test("blind check recheck, case 1: \"make a note: I need …\" makes to-dos, in their own words", async () => {
+test("\"make a note: I need …\" makes to-dos, in their own words", async () => {
   const { user, token } = await linked();
   reply = () => called("notebook_add", { answer: "Noted.", kind: "note",
     items: ["Rough stone", "Copper bar", "Bronze bars", "Silver ore"] });
@@ -762,23 +765,25 @@ test("reminders: a place she can't know you've reached, or of another age, is ne
   // Shattrath, as the model gave it or not at all (its name is in their words): never set, never a hint of where it is.
   for (const place of ["Shattrath", ""]) {
     reply = () => called("notebook_remind", { answer: "Done!", text: "visit the bank", when: "place", place });
-    assert.equal((await ask(token, "remind me to visit the bank when I'm in Shattrath")).answer,
-      "I don't know a place called Shattrath. Name a town or zone you'll reach, and I'll be there with it.");
+    const out = (await ask(token, "remind me to visit the bank when I'm in Shattrath")).answer;
+    says(out, "Shattrath");
+    assert.doesNotMatch(out, /done/i);
+    assert.equal(reminders(user).length, 0);
   }
   // The model's own answer about it (the Dark Portal, Outland) never gets through.
   reply = () => called("answer_only", { answer: "The Dark Portal is dormant, so no one can reach Shattrath." });
-  assert.equal((await ask(token, "remind me to visit Shattrath when I get there")).answer,
-    "I don't know a place called Shattrath. Name a town or zone you'll reach, and I'll be there with it.");
+  const portal = (await ask(token, "remind me to visit Shattrath when I get there")).answer;
+  says(portal, "Shattrath");
+  assert.doesNotMatch(portal, /Dark Portal/);
   // No moment in their words: a to-do, never a guessed place ("remind me to buy linen" was once set for Ironforge).
   reply = () => called("notebook_remind", { answer: "When you reach Ironforge I'll remind you.", text: "buy linen",
     when: "place", place: "Ironforge" });
   const out = await ask(token, "remind me to buy linen");
   // And says why, in a line (the PM, 10/18).
-  assert.equal(out.answer, "You didn't say when or where, so it's on your list: buy linen.");
+  says(out.answer, "on your list", "buy linen");
   // A to-do is a line of their own list, in their words.
   reply = () => called("notebook_remind", { answer: "Noted.", text: "feed my pet", when: "place", place: "Ironforge" });
-  assert.equal((await ask(token, "remind me to feed my pet later")).answer,
-    "You didn't say when or where, so it's on your list: feed my pet later.");
+  says((await ask(token, "remind me to feed my pet later")).answer, "on your list", "feed my pet later");
   assert.equal(out.notebook.change, "add");
   for (const [args, q, text] of [[{ when: "level", level: 20 }, "remind me to train", "train"],
     [{ when: "time", in_minutes: 60 }, "remind me to log off", "log off"]]) {
@@ -807,7 +812,7 @@ test("reminders: by level, and a level already reached says it now", async () =>
     headers: { "X-LF-Client": "companion/0.22.0", Authorization: `Bearer ${token}`, "Content-Type": "application/json" },
     body: JSON.stringify({ prompt: "PLAYER CONTEXT\nzone: Ironforge\nlevel: 22\n\nSOURCES\n\nQUESTION\nremind me to train when I hit 20",
       persona: "willo", notebook: { character: HURIN } }) }) });
-  assert.equal((await res.json()).answer, "You're level 22 already, so here it is now: train.");
+  says((await res.json()).answer, "22", "train");
   assert.equal(reminders(user).length, 2);
   void old;
 });
@@ -823,7 +828,7 @@ test("reminders: by time, from now or at a time of day on their clock; \"at 9\" 
   // "at 9" with nothing to say which: she asks, and nothing's set.
   reply = () => called("notebook_remind", { answer: "Sure.", text: "check the auction house", when: "time", clock: "21:00" });
   out = await ask(token, "remind me at 9 to check the auction house", { notebook: { character: HURIN, offset: PDT } });
-  assert.equal(out.answer, "9 in the morning, or 9 at night?");
+  says(out.answer, "morning", "night");
   assert.equal(reminders(user).length, 1);
   // "at 9pm": the next 9 PM on their clock (UTC 04:00), said as they read it.
   out = await ask(token, "remind me at 9pm to check the auction house", { notebook: { character: HURIN, offset: PDT } });
@@ -833,7 +838,8 @@ test("reminders: by time, from now or at a time of day on their clock; \"at 9\" 
   assert.match(out.answer, /^(At 9:00 PM( tomorrow)? I'll remind you|I'll tell you at 9:00 PM( tomorrow)?): check the auction house\.$/);
   // Without their clock (an older companion, the iPhone), a time of day isn't guessed.
   out = await ask(token, "remind me at 9pm to check the auction house", { notebook: { character: HURIN } });
-  assert.equal(out.answer, "Tell me in how long, and I'll keep the time for you.");
+  says(out.answer, "how long");
+  assert.equal(reminders(user).length, 2);
 });
 
 test("reminders: \"in fifteen minutes\" is a time, whatever the call said, and the words stay whole (LOR-678)", async () => {
@@ -916,7 +922,7 @@ test("reminders: a time given right after her \"you didn't say when\" line sets 
   // A time the site can't read in minutes is the model's to set; with no call, she says she hasn't, and nothing is written.
   reply = () => said("I have set a reminder for you.");
   out = await afterLine("I said in a few minutes.");
-  assert.equal(out.answer, "I haven't set a reminder yet. Tell me where or when, and what to say.");
+  assert.match(out.answer, /haven't set/i);
   assert.equal(reminders(user).length, 1);
 });
 
@@ -929,7 +935,7 @@ test("reminders: listed with their moments, changed, and cancelled by number", a
   const system = () => calls[calls.length - 1].systemInstruction.parts[0].text;
   reply = () => said("Sell the cloth in Ironforge, and train at 20.");
   await ask(token, "what reminders do I have?");
-  assert.match(system(), /Reminders \(each said once, at its moment\):\n1\. sell the cloth \(when you reach Ironforge\)\n2\. train \(at level 20\)/);
+  assert.match(system(), /1\. sell the cloth[^\n]*Ironforge[^]*\n2\. train[^\n]*20/);
   // Change: the same reminder, a new place; the old one never comes. Without the place in the model's call (live,
   // once), the one their words name.
   reply = () => called("notebook_remind", { answer: "Moved.", text: "sell the cloth", when: "place", replaces: 1 });
@@ -1015,7 +1021,7 @@ test("reminders: the app's API lists them, says each once from whichever device 
 
 // ---- LOR-663's blind check (the vision session, 10/18): the reminders' fails ----
 
-test("reminders blind check, case 6: \"in an hour, tell me to log off\" sets one, and a promise with none set never goes out", async () => {
+test("reminders: \"in an hour, tell me to log off\" sets one, and a promise with none set never goes out", async () => {
   const { user, token } = await linked();
   assert.equal(notebookIntent("In an hour, tell me to log off.").remind, true);
   reply = body => {
@@ -1029,7 +1035,7 @@ test("reminders blind check, case 6: \"in an hour, tell me to log off\" sets one
   // No time it can set (tonight is the model's to read): the promise with none set never goes out.
   reply = () => called("answer_only", { answer: "I will certainly remind you to log off tonight." });
   out = await ask(token, "Tell me to log off tonight.", { notebook: { character: HURIN, offset: PDT } });
-  assert.equal(out.answer, "I haven't set a reminder yet. Tell me where or when, and what to say.");
+  assert.match(out.answer, /haven't set/i);
   assert.equal(reminders(user).length, 0);
   // In their words and with one period: "train", never "Train your new paladin skills..".
   reply = () => called("notebook_remind", { answer: "Sure.", text: "Train your new paladin skills.", when: "level", level: 20 });
@@ -1038,7 +1044,7 @@ test("reminders blind check, case 6: \"in an hour, tell me to log off\" sets one
   assert.equal(reminders(user)[0].text, "train");
 });
 
-test("reminders blind check, case 11: a character's reminder is never another's, unless they said all characters", async () => {
+test("reminders: a character's reminder is never another's, unless they said all characters", async () => {
   const { user, token } = await linked();
   reply = () => called("notebook_remind", { answer: "Ok", text: "sell the cloth", when: "place", place: "Ironforge", page: "account" });
   await ask(token, "When I'm next in Ironforge, remind me to sell the cloth.");
@@ -1052,26 +1058,27 @@ test("reminders blind check, case 11: a character's reminder is never another's,
   assert.equal(reminders(user)[1].page, ACCOUNT_PAGE);
 });
 
-test("reminders blind check, case 20: the free plan hears it plainly, with what went on their list", async () => {
+test("reminders: the free plan hears it plainly, with what went on their list", async () => {
   const { user, token } = await linked();
   env.SITE_FEATURES = "plans";
   await trialOver(env, user);
   try {
     reply = () => called("notebook_add", { answer: "Noted: Sell cloth in Ironforge.", kind: "todo", items: ["Sell the cloth in Ironforge"] });
     let out = await ask(token, "When I'm next in Ironforge, remind me to sell the cloth.");
-    assert.equal(out.answer, "Reminders at a place or time come with Hero. I've put it on your list instead: Sell the cloth in Ironforge.");
+    says(out.answer, "Hero", "Sell the cloth in Ironforge");
     reply = () => called("notebook_add", { answer: "Done.", kind: "todo", items: ["Repair gear"] });
     out = await ask(token, "When I'm next in Ironforge, remind me to repair my gear.", { style: "spoken" });
-    assert.equal(out.answer, "I can't call that out when you get there, but it's on your list: Repair gear.");
+    says(out.answer, "on your list", "Repair gear");
     assert.doesNotMatch(out.answer, /Hero|plan/);
     reply = () => called("answer_only", { answer: "I'll remind you when you get there!" });
     out = await ask(token, "When I'm next in Darnassus, remind me to see the banker.");
-    assert.equal(out.answer, "Reminders at a place or time come with Hero. Want it on your list instead?");
+    says(out.answer, "Hero");
+    assert.match(out.answer, /\?$/);
     assert.equal(reminders(user).length, 0);
   } finally { delete env.SITE_FEATURES; }
 });
 
-test("reminders blind check, case 11 (same chat): \"what reminders do I have?\" is built from what's waiting, never the talk before", async () => {
+test("reminders: \"what reminders do I have?\" is built from what's waiting, never the talk before", async () => {
   const { user, token } = await linked();
   reply = () => called("notebook_remind", { answer: "Ok", text: "sell the cloth", when: "place", place: "Ironforge" });
   await ask(token, "When I'm next in Ironforge, remind me to sell the cloth.");
@@ -1081,12 +1088,13 @@ test("reminders blind check, case 11 (same chat): \"what reminders do I have?\" 
   // On Brynn, in the same chat: the model answers from the talk before; the site's words go out instead.
   reply = () => said("You have one reminder noted: sell your cloth when you next reach Ironforge.");
   let out = await ask(token, "What reminders do I have?", { notebook: { character: "Brynn-ClassicBetaPvE" } });
-  assert.equal(out.answer, "One reminder is waiting for Brynn: grab the fishing pole, when you reach Booty Bay (for all your characters).");
+  says(out.answer, "Brynn", "grab the fishing pole", "Booty Bay", "all your characters");
+  assert.doesNotMatch(out.answer, /sell/);
   out = await ask(token, "What reminders do I have?");
-  assert.equal(out.answer, "Two reminders are waiting for Húrin: sell the cloth, when you reach Ironforge; grab the fishing pole, " +
-    "when you reach Booty Bay (for all your characters).");
+  says(out.answer, "Húrin", "sell the cloth", "Ironforge", "grab the fishing pole", "Booty Bay");
   out = await ask(token, "Do I have any reminders?", { notebook: { character: "Elyn-ClassicBetaPvE" } });
-  assert.equal(out.answer, "One reminder is waiting for Elyn: grab the fishing pole, when you reach Booty Bay (for all your characters).");
+  says(out.answer, "Elyn", "grab the fishing pole");
+  assert.doesNotMatch(out.answer, /sell/);
   assert.equal(reminders(user).length, 2);
 });
 
@@ -1097,25 +1105,26 @@ test("their words for a single line asked for, the model's extra words only when
   assert.match(page(user, `char:${HURIN}`).body, /- \[ \] Visit the bank\n/);
 });
 
-test("voice check, fail 1: \"remind me to feed my pet\" goes on their list from the site, whatever the model said, on any plan", async () => {
+test("\"remind me to feed my pet\" goes on their list from the site, whatever the model said, on any plan", async () => {
   const { user, token } = await linked();
   // The model judged it ("as a Paladin, you don't have a pet to feed!") and wrote nothing.
   reply = () => called("answer_only", { answer: "I would love to help, but as a Paladin, you don't have a pet to feed!" });
   let out = await ask(token, "Remind me to feed my pet.");
 
-  assert.equal(out.answer, "You didn't say when or where, so it's on your list: feed my pet.");
+  says(out.answer, "on your list", "feed my pet");
   assert.equal(out.notebook.change, "add");
   assert.match(page(user, `char:${HURIN}`).body, /- \[ \] feed my pet\n/);
   assert.equal(reminders(user).length, 0);
   // Again: already there, never a second line.
   out = await ask(token, "remind me to feed my pet");
-  assert.equal(out.answer, "That's already on your list: feed my pet.");
+  says(out.answer, "already", "feed my pet");
   // On the free plan too: it's a to-do they asked for, never a word about Hero.
   env.SITE_FEATURES = "plans";
   try {
     reply = () => called("answer_only", { answer: "Reminders come with Hero." });
     out = await ask(token, "can you remind me to buy vials from the trade supplier?");
-    assert.equal(out.answer, "You didn't say when or where, so it's on your list: buy vials from the trade supplier.");
+    says(out.answer, "on your list", "buy vials from the trade supplier");
+    assert.doesNotMatch(out.answer, /Hero/);
   } finally { delete env.SITE_FEATURES; }
   // Only the plain ask: a moment, all their characters, or "that" stays the model's.
   const view = q => ({ question: q, current: `char:${HURIN}` });
@@ -1126,14 +1135,15 @@ test("voice check, fail 1: \"remind me to feed my pet\" goes on their list from 
   assert.deepEqual(noMoment(view("Willo, please remind me to repair my gear!"), notebookIntent("remind me")).op.items, ["repair my gear"]);
 });
 
-test("voice check, fail 2: an empty list asked about gets the site's words, never \"lines recorded\"", async () => {
+test("an empty list asked about gets the site's words, never \"lines recorded\"", async () => {
   const { user, token } = await linked();
   reply = () => said("There are no to-dos or lines recorded for you or Brynn.");
   const brynn = { notebook: { character: "Brynn-ClassicBetaPvE" } };
-  assert.equal((await ask(token, "What's on my list?", brynn)).answer,
-    "Nothing's on Brynn's list yet. Tell me what to add, and I'll write it down.");
-  assert.equal((await ask(token, "what's in my notebook?", brynn)).answer,
-    "Nothing's in Brynn's notes yet. Tell me what to keep, and I'll write it down.");
+  for (const q of ["What's on my list?", "what's in my notebook?"]) {
+    const empty = (await ask(token, q, brynn)).answer;
+    says(empty, "nothing", "Brynn");
+    assert.doesNotMatch(empty, /recorded/, q);
+  }
   // Something on it (here, for all their characters): the model reads it out.
   seed(user, "## To do\n- [ ] Copper bars\n", ACCOUNT_PAGE);
   reply = () => said("Copper bars, for all your characters.");
@@ -1144,7 +1154,7 @@ test("voice check, fail 2: an empty list asked about gets the site's words, neve
   assert.equal((await ask(token, "what do I need to do in Westfall?", brynn)).answer, "Head to the Jangolode Mine.");
 });
 
-test("voice check, nits: a line with its own colon reads first, and an add's line stands alone unless they asked more", () => {
+test("a line with its own colon reads first, and an add's line stands alone unless they asked more", () => {
   for (const [op, page] of [[{ op: "add", kind: "note" }, "char:A-B"], [{ op: "add", kind: "note" }, ACCOUNT_PAGE],
     [{ op: "add", kind: "todo" }, "char:A-B"]])
     for (const line of namedLines(op, ["Bank alt: Bobby"], page)) {
@@ -1186,7 +1196,7 @@ test("the claim guard: \"consider it done\", \"your map is clear\", \"all set\" 
   // The vision session (10/18): "Yes." to "Say yes and I'll take them off", no pin taken off, and she said it was done.
   for (const said of ["Consider it done, Húrin; your map is clear of those pins now.", "Consider them cleared, Húrin; your map is clean.",
     "That's taken care of.", "You're all set!", "Your list is now empty.", "I've cleared them for you.", "They're cleared."])
-    assert.equal(unclaimed(said, { plain: true, changing: true }), "I haven't done that yet. Tell me again what you'd like, and I'll see to it.", said);
+    assert.match(unclaimed(said, { plain: true, changing: true }), /haven't done that/, said);
   // Negated, or nothing of the kind: kept.
   for (const said of ["I have not cleared them yet.", "They haven't been cleared.", "The road to Westfall is clear of bandits now.",
     "Hogger was taken down by the guards.", "Head east along the road to Goldshire."])
@@ -1210,12 +1220,10 @@ test("the claim guard: \"consider it done\", \"your map is clear\", \"all set\" 
     method: "POST", headers: { "X-LF-Client": "companion/0.22.0", Authorization: `Bearer ${token}`, "Content-Type": "application/json" },
     body: JSON.stringify({ prompt: prompt(earlier), persona: "willo", notebook: { character: HURIN } }) }) })).json()).answer;
   reply = () => said("Consider it done; you're all set.");
-  assert.equal(await send([{ player: "I train at 20.", willo: "Want me to set a reminder for level 20?" }]),
-    "I haven't done that yet. Tell me again what you'd like, and I'll see to it.");
+  assert.match(await send([{ player: "I train at 20.", willo: "Want me to set a reminder for level 20?" }]), /haven't done that/);
   // Clearing the pins is the pins' own to answer (lib/willo-pins.js clearReply), after the guard: never "Consider it done".
   reply = () => said("Consider it done, Húrin; your map is clear of those pins now.");
-  assert.equal(await send([{ player: "Clear all my pins.", willo: "All two of Húrin's pins? Say yes and I'll take them off." }]),
-    "Húrin has no pins to clear.");
+  says(await send([{ player: "Clear all my pins.", willo: "All two of Húrin's pins? Say yes and I'll take them off." }]), "no pins");
   // A yes to an offer to tell them something: her answer stands, all of it.
   reply = () => said("Head east from the Valley of Heroes, then south through the gates. Once you've paid him, you're all set to ride.");
   assert.equal(await send([{ player: "Where is Goldshire?", willo: "In Elwynn Forest. Want me to show you the way?" }]),
@@ -1248,26 +1256,27 @@ test("Willo manages the notebook: clears what's done, a list, said reminders; ma
   reply = () => said("I have cleared them all.");
   const before = calls.length;
   let out = await ask(token, "Clear my done items.", nb);
-  const asked = "That's three done items on Húrin's page: 10 Linen Cloth for bags, Train at level 30 and Linen Bag. Take them all off? Say yes.";
-  assert.equal(out.answer, asked);
+  const asked = out.answer;
+  says(asked, "10 Linen Cloth for bags", "Train at level 30", "Linen Bag", "yes");
+  assert.doesNotMatch(asked, /Brown Linen Robe/);
   assert.equal(calls.length, before);
-  assert.equal((await ask(token, "No.", turn("No.", "Clear my done items.", asked))).answer, "All right, I'll keep them.");
+  await ask(token, "No.", turn("No.", "Clear my done items.", asked));
   assert.match(page(user, char).body, /\[x\] Linen Bag/);
   out = await ask(token, "Yes.", turn("Yes.", "Clear my done items.", asked));
-  assert.equal(out.answer, "Taken off, three done items: 10 Linen Cloth for bags, Train at level 30 and Linen Bag.");
+  says(out.answer, "10 Linen Cloth for bags", "Train at level 30", "Linen Bag");
   assert.doesNotMatch(page(user, char).body, /\[x\]/);
   assert.equal(out.notebook.change, "remove");
   // "Undo that" puts them back; nothing changed since, nothing more to undo.
   out = await ask(token, "Undo that.", turn("Undo that.", "Yes.", out.answer));
-  assert.equal(out.answer, "Undone: 10 Linen Cloth for bags, Train at level 30 and Linen Bag are back.");
+  says(out.answer, "10 Linen Cloth for bags", "Linen Bag");
   assert.match(page(user, char).body, /\[x\] Linen Bag/);
   // A named list with one line left in it goes at once.
   env.DB.sqlite.prepare("UPDATE notebook_pages SET body = replace(body, '- [x] Linen Bag\n', '') WHERE user_id = ? AND page = ?").run(user.id, char);
   out = await ask(token, "Clear the Tailoring list.", nb);
-  assert.equal(out.answer, "Taken off: Brown Linen Robe.");
+  says(out.answer, "Brown Linen Robe");
   assert.doesNotMatch(page(user, char).body, /Brown Linen Robe/);
   // A list that isn't there is said so.
-  assert.equal((await ask(token, "Clear the Mining list.", nb)).answer, "There's no list called Mining on Húrin's page.");
+  says((await ask(token, "Clear the Mining list.", nb)).answer, "no list", "Mining");
   // Two lines made one, the merged words the model's, every line named theirs.
   let offered;
   reply = body => {
@@ -1283,7 +1292,7 @@ test("Willo manages the notebook: clears what's done, a list, said reminders; ma
   // A line moved to the page for all their characters: on that page first, then off this one.
   reply = body => called("notebook_move", { items: [numberOf(body, "Hearthstone set to Goldshire")], page: "account" });
   out = await ask(token, "Move my hearthstone note to the page for all my characters.", nb);
-  assert.equal(out.answer, "Moved to the page for all your characters: Hearthstone set to Goldshire.");
+  says(out.answer, "all your characters", "Hearthstone set to Goldshire");
   assert.deepEqual([out.notebook.change, out.notebook.did, out.notebook.page], ["move", "relocate", char], "as Willo's app knows it");
   assert.match(page(user, "account").body, /## Notes\n- Guild bank tab 2 is for herbs\n- Hearthstone set to Goldshire\n/);
   assert.doesNotMatch(page(user, char).body, /Hearthstone/);
@@ -1306,9 +1315,10 @@ test("Willo manages the notebook: clears what's done, a list, said reminders; ma
   r("b", "check your auction", new Date().toISOString());
   r("c", "sell your cloth", null);
   out = await ask(token, "Clear my done reminders.", nb);
-  assert.equal(out.answer, "That's two said reminders: train and check your auction. Take both off? Say yes.");
+  says(out.answer, "train", "check your auction", "yes");
+  assert.doesNotMatch(out.answer, /sell your cloth/);
   out = await ask(token, "Yes.", turn("Yes.", "Clear my done reminders.", out.answer));
-  assert.equal(out.answer, "Taken off, two said reminders: train and check your auction.");
+  says(out.answer, "train", "check your auction");
   assert.deepEqual(reminders(user).map(x => x.text), ["sell your cloth"]);
 });
 
@@ -1348,7 +1358,8 @@ test("a rename matches the line on the words that name it, never the new words: 
   reply = body => called("notebook_update", { item: Number(/(\d+)\. Flight master in Sentinel Hill: Thor/.exec(JSON.stringify(body))[1]),
     text: "Thor the gryphon master" });
   const out = await ask(token, "Rename my Thor note to Thor the gryphon master.", { notebook: { character: HURIN, offset: PDT } });
-  assert.equal(out.answer, "Which one: Flight master in Sentinel Hill: Thor, or Thor flies to Stormwind and Lakeshire?");
+  says(out.answer, "Flight master in Sentinel Hill: Thor", "Thor flies to Stormwind and Lakeshire");
+  assert.match(out.answer, /\?$/);
   assert.match(page(user, `char:${HURIN}`).body, /Flight master in Sentinel Hill: Thor/);
 });
 

@@ -1,0 +1,86 @@
+{
+ "key": "quest:3367",
+ "type": "quest",
+ "name": "Suntara Stones",
+ "era": "classic",
+ "zone": "searinggorge",
+ "meta": {
+  "ids": [
+   3367
+  ],
+  "level": "46",
+  "faction": "Alliance",
+  "start": "Dorius Stonetender",
+  "end": ":Singed Letter",
+  "previous": "",
+  "next": "Suntara Stones (2)",
+  "wiki": "Suntara Stones",
+  "chain": [],
+  "next_q": [
+   "Suntara Stones (2)"
+  ],
+  "category": "Searing Gorge",
+  "chain_tpl": [
+   "Suntara Stones"
+  ]
+ },
+ "summary": "Dorius Stonetender is badly hurt in Searing Gorge, light-headed, with the world spinning and bleeding inside. He says he must get back to Ironforge and begs for your help to get him there.",
+ "sections": [
+  {
+   "title": "A Plea for Help",
+   "body": "Dorius groans that he is badly injured. He feels light-headed, the world is spinning, and he is bleeding internally. His one wish is to get back to Ironforge, and he asks you to help him make the journey.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Road to the Pass",
+   "body": "The road ends just short of Stonewrought Pass. There Dorius is shot and dies, and a letter he was carrying falls to the ground, singed.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Dorius Stonetender?",
+   "aliases": [
+    "who is dorius",
+    "dorius stonetender",
+    "injured dwarf searing gorge"
+   ],
+   "answer": "Dorius Stonetender is badly injured in Searing Gorge and needs help getting back to Ironforge."
+  },
+  {
+   "q": "Where is Dorius trying to go?",
+   "aliases": [
+    "dorius destination",
+    "where does dorius go",
+    "dorius escort location"
+   ],
+   "answer": "He wants to get back to Ironforge."
+  },
+  {
+   "q": "What condition is Dorius in?",
+   "aliases": [
+    "dorius condition",
+    "is dorius hurt",
+    "why does dorius need help"
+   ],
+   "answer": "He is badly injured, light-headed, and bleeding internally, with the world spinning around him."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "dorius stonetender",
+  "ironforge",
+  "searing gorge",
+  "singed letter",
+  "stonewrought pass",
+  "suntara stones"
+ ],
+ "related": [
+  "zone:searinggorge",
+  "subzone:stonewrought-pass",
+  "zone:ironforge"
+ ],
+ "attribution": [
+  "Suntara Stones"
+ ]
+}

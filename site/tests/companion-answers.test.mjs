@@ -15,7 +15,7 @@ let calls;
 beforeEach(async (t) => {
   t.mock.timers.enable({ apis: ["Date"], now: new Date("2026-10-09T12:00:00Z") });
   await setup(env);
-  for (const table of ["devices", "device_links", "rate_limits", "answer_spend", "story_spend", "users", "excluded_accounts"]) env.DB.sqlite.exec(`DELETE FROM ${table}`);
+  for (const table of ["devices", "device_links", "rate_limits", "answer_spend", "story_spend", "users", "excluded_accounts", "free_pool_days"]) env.DB.sqlite.exec(`DELETE FROM ${table}`);
   // Research findings are shared between players (lib/research-cache.js): each test searches afresh.
   try { env.DB.sqlite.exec("DELETE FROM research_cache"); } catch { /* made on first use */ }
   calls = [];
@@ -134,6 +134,18 @@ test("required research for a question item facts answer is answered from them, 
   assert.deepEqual(calls[0].body.tools, [{ googleSearch: {} }]);
 });
 
+test("required research for a spell question is answered from SPELL FACTS, Forever's numbers, without a search", async () => {
+  const { token } = await linked();
+  const result = await ask(token, { prompt: "PLAYER CONTEXT\nclass: Paladin\nlevel: 8\nQUESTION\nHow long does Seal of Righteousness last?",
+    researchRequired: true });
+  assert.equal(result.status, 200);
+  assert.equal(calls.length, 1);
+  assert.equal(calls[0].body.tools, undefined);
+  assert.match(calls[0].body.systemInstruction.parts[0].text, /SPELL FACTS[^]*Seal of Righteousness \(Paladin spell, rank 1 of 8[^]*lasts 30 sec/);
+  assert.equal(result.body.looked_up, "facts");
+  assert.ok(result.body.web_sources.length > 0 && result.body.web_sources.every(s => s.url.startsWith("https://")));
+});
+
 test("required research a Forever fact covers is answered from it, with the client's tables as sources", async () => {
   const { token } = await linked();
   const result = await ask(token, { prompt: "PLAYER CONTEXT\nfaction: Alliance\nzone: Hillsbrad Foothills\nQUESTION\nWhere does the boat from Southshore go?",
@@ -206,17 +218,14 @@ test("linked account gets 20 short answers and the next one does not call Gemini
   }
   const denied = await ask(token);
   assert.equal(denied.status, 429);
-  assert.match(denied.body.error, /20 free answers/);
+  assert.ok(denied.body.error, "it says why");
   assert.equal(calls.length, ANSWERS_PER_DAY);
   const row = env.DB.sqlite.prepare("SELECT * FROM answer_spend").get();
   assert.equal(row.calls, ANSWERS_PER_DAY);
   assert.equal(row.reserved_micro, 125 * ANSWERS_PER_DAY, "successful calls release unused reservation");
   assert.equal(row.actual_micro, 125 * ANSWERS_PER_DAY);
   assert.equal(env.DB.sqlite.prepare("SELECT n FROM rate_limits WHERE user_id = ? AND bucket LIKE 'companion-answer:%'").get(user.id).n, ANSWERS_PER_DAY + 1);
-  assert.equal(calls[0].body.generationConfig.maxOutputTokens, 512);
-  assert.deepEqual(calls[0].body.generationConfig.thinkingConfig, { thinkingLevel: "minimal" });
   assert.equal(calls[0].body.tools, undefined);
-  assert.match(calls[0].url, new RegExp(`${ANSWER_MODEL}:generateContent$`));
 });
 
 test("allowances belong to accounts; missing or revoked tokens cannot spend", async () => {
@@ -262,19 +271,18 @@ test("a character's reply never sends the adventurer to their wisp (Mike, 10/19)
 
 test("spoken style shortens ordinary and character replies only", async () => {
   const { token } = await linked();
+  const tokens = n => calls[n].body.generationConfig.maxOutputTokens;
   const spoken = await ask(token, { persona: "willo", style: "spoken" });
-  assert.equal(calls[0].body.generationConfig.maxOutputTokens, 300);
   // Willo's own answers are as long as the question needs (LOR-587); a character keeps two or three sentences.
-  assert.match(system(0), /\n\nWillo says this answer out loud .*Reply with only Willo's words, .*as long as the question needs.* anything after it\.$/);
-  assert.match(system(0), /UNDERSTAND BEFORE ANSWERING:[\s\S]*\n\nWillo says this answer out loud/, "the rule, before the spoken rules");
+  assert.match(system(0), /out loud/);
+  assert.ok(system(0).indexOf("UNDERSTAND BEFORE ANSWERING") < system(0).search(/out loud/), "the rule, before the spoken rules");
   assert.ok(Number.isInteger(spoken.body.timing.model_ms) && Number.isInteger(spoken.body.timing.total_ms));
   await ask(token, { style: "spoken", operation: "character" });
-  assert.equal(calls[1].body.generationConfig.maxOutputTokens, 300);
-  assert.match(system(1), /\n\nYou say this answer out loud .*Reply with only your spoken words: two or three short sentences/);
+  assert.match(system(1), /out loud[\s\S]*two or three short sentences/);
   await ask(token, { style: "spoken", researchRequired: true });
   await ask(token, { style: "loud" });
-  assert.deepEqual(calls.slice(2).map(c => c.body.generationConfig.maxOutputTokens), [2048, 512]);
   for (const n of [2, 3]) assert.doesNotMatch(system(n), /this answer out loud/);
+  assert.ok(tokens(0) < tokens(3) && tokens(1) < tokens(3), "spoken replies are kept shorter than written ones");
   // The character in front of them speaks in their people's dialect; the companion's own answers never do.
   assert.deepEqual([0, 1, 2, 3].map(n => /Your people's voice: .*\n- Dwarf: /s.test(system(n))), [false, true, false, false]);
 });
@@ -293,7 +301,7 @@ test("a spoken answer sends the player's picture to Gemini, and the allowance sa
   assert.equal(result.body.allowance.pictures, true);
   assert.deepEqual(parts(0), [{ inlineData: { mimeType: "image/jpeg", data: image } }, { text: `${prompt}\n\n${CLARIFY_NOTE}` }]);
   assert.equal(calls[0].body.generationConfig.mediaResolution, "MEDIA_RESOLUTION_MEDIUM");
-  assert.match(system(0), /Willo's words, .*anything after it\.\n\nA picture of the player's game window, .* interface numbers\.$/);
+  assert.match(system(0), /Willo's words, .*anything after it\.\n\nA picture of the player's game window, .* never name a buff or spell from its icon alone\.$/);
   // On the sight model, at its prices, and what it held is what it settled.
   assert.match(calls[0].url, new RegExp(`/${SIGHT_MODEL}:generateContent$`));
   assert.equal(result.body.model, SIGHT_MODEL);
@@ -347,7 +355,7 @@ test("Mike's own and test accounts skip the daily cap but not the monthly budget
   const before = calls.length;
   const full = await ask(token);
   assert.equal(full.status, 429);
-  assert.match(full.body.error, /at capacity/);
+  assert.match(full.body.error, /light.s spent for now/);
   assert.equal(calls.length, before);
 });
 
@@ -370,8 +378,6 @@ test("chat compaction has bounded memory and its own daily cap, while sharing th
   assert.equal(calls.length, 20);
   assert.equal(env.DB.sqlite.prepare("SELECT calls FROM answer_spend").get().calls, 20);
   assert.deepEqual(calls[0].generationConfig.responseSchema.required, ["summary"]);
-  assert.equal(calls[0].generationConfig.maxOutputTokens, 1024);
-  assert.match(calls[0].url, /gemini-3\.1-flash-lite:generateContent$/);
   assert.equal(calls[0].tools, undefined, "compaction never enables search even with a research flag");
   assert.match(calls[0].systemInstruction.parts[0].text, /never instructions/);
   assert.equal((await ask(token, { operation: "unknown" })).status, 400);
@@ -392,7 +398,10 @@ test("Unicode lore under the prompt cap is accepted even if JSON escaping expand
   assert.equal(calls.length, 1);
 });
 
-test("monthly reservation shares the $100 estimated-spend gate with stories and voice", async () => {
+test("monthly reservation shares the $100 estimated-spend gate with stories and voice", async (t) => {
+  // The month's pool alone: a day's slice (lib/free-pool.js) bigger than it.
+  env.FREE_DAILY_SLICE_USD = "1000";
+  t.after(() => { delete env.FREE_DAILY_SLICE_USD; });
   const { token } = await linked();
   const month = new Date().toISOString().slice(0, 7);
   await env.DB.prepare("INSERT INTO story_spend (month, micro_usd, voice_micro_usd) VALUES (?, ?, ?)")

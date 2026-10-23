@@ -1,0 +1,100 @@
+{
+ "key": "quest:645",
+ "type": "quest",
+ "name": "Trol'kalar",
+ "era": "classic",
+ "zone": "arathi",
+ "meta": {
+  "ids": [
+   645
+  ],
+  "level": "42",
+  "faction": "Horde",
+  "start": "Zengu",
+  "end": "Trollbane's Tomb",
+  "previous": "Sigil of Trollbane (quest)",
+  "next": "Trol'kalar (2)",
+  "wiki": "Trol'kalar (Classic)",
+  "chain": [],
+  "prev_q": [
+   "Sigil of Trollbane (quest)"
+  ],
+  "next_q": [
+   "Trol'kalar (2)"
+  ],
+  "category": "Arathi Highlands",
+  "chain_tpl": [
+   "Broken Sigil"
+  ]
+ },
+ "summary": "Following the Sigil of Trollbane, Zengu finds that the four sigils have formed a single one that can break the wardings on Trollbane's tomb. He sends you to Stromgarde to retrieve Trol'kalar from the tomb.",
+ "sections": [
+  {
+   "title": "One Sigil from Four",
+   "body": "Zengu finds that the four sigils have come together and formed one, the Sigil of Ignaeus. He has no doubt it can break the wardings placed on Trollbane's tomb. Trollbane lies entombed in Stromgarde, in the Sanctum that lies behind the chapel, and Zengu sends you there to retrieve Trol'kalar. A fenced path beside the chapel entrance, on its right, descends to the crypt.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Tomb Opens",
+   "body": "Etchings on the face of the tomb match the sigil's own glowing lines. Line one up with the other, and a flash of light swallows the sigil, freeing the legendary sword Trol'kalar from the stone hands that held it.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who sends you to retrieve Trol'kalar?",
+   "aliases": [
+    "who gives this quest",
+    "quest giver",
+    "zengu"
+   ],
+   "answer": "Zengu, after the four sigils joined into the Sigil of Ignaeus."
+  },
+  {
+   "q": "Where is Trollbane's tomb located?",
+   "aliases": [
+    "where is the tomb",
+    "tomb location",
+    "crypt location"
+   ],
+   "answer": "His remains lie in the Sanctum behind Stromgarde's chapel. A fenced path on the right of the chapel entrance leads down to the crypt."
+  },
+  {
+   "q": "What happens to the four sigils?",
+   "aliases": [
+    "what happened to sigils",
+    "sigil of ignaeus"
+   ],
+   "answer": "They come together to form a single sigil, the Sigil of Ignaeus, which Zengu believes can break the wardings on Trollbane's tomb."
+  },
+  {
+   "q": "What is the previous step in this chain?",
+   "aliases": [
+    "previous quest",
+    "prior quest",
+    "sigil of trollbane"
+   ],
+   "answer": "Sigil of Trollbane, the last of the four sigils, comes before this."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "crypt",
+  "sanctum",
+  "sigil of ignaeus",
+  "stromgarde",
+  "trol'kalar",
+  "trollbane",
+  "zengu"
+ ],
+ "related": [
+  "subzone:crypt-stromgarde-keep",
+  "subzone:sanctum-stromgarde-keep",
+  "subzone:hammerfall",
+  "zone:arathi",
+  "quest:638"
+ ],
+ "attribution": [
+  "Trol'kalar (Classic)"
+ ]
+}

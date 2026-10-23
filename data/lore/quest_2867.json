@@ -1,0 +1,90 @@
+{
+ "key": "quest:2867",
+ "type": "quest",
+ "name": "Return to Feathermoon Stronghold",
+ "era": "classic",
+ "zone": "feralas",
+ "meta": {
+  "ids": [
+   2867
+  ],
+  "level": "43",
+  "faction": "Alliance",
+  "start": "Solarsal Gazebo",
+  "end": "Shandris Feathermoon",
+  "previous": "The Ruins of Solarsal",
+  "next": "Against the Hatecrest",
+  "wiki": "Return to Feathermoon Stronghold",
+  "chain": [
+   "The Ruins of Solarsal",
+   "Return to Feathermoon Stronghold"
+  ],
+  "prev_q": [
+   "The Ruins of Solarsal"
+  ],
+  "category": "Feralas",
+  "next_q": [
+   "Against the Hatecrest"
+  ]
+ },
+ "summary": "Your search turned up a strange gazebo at the center of the Ruins of Solarsal. Now it is time to head back to Feathermoon Stronghold and tell General Shandris Feathermoon about it.",
+ "sections": [
+  {
+   "title": "Carrying the Report Home",
+   "body": "General Shandris Feathermoon waits at Feathermoon Stronghold to hear about the strange gazebo you discovered in the heart of the ruins. Make your way back to the stronghold with your findings.",
+   "spoiler": 0
+  },
+  {
+   "title": "On Your Return",
+   "body": "Shandris calls your report on the gazebo disturbing. Even if the naga never meant to attack, that they stay on is a bad sign for the push into Feralas. The stronghold is in dire need of more help against the Hatecrest naga, and Shandris offers you more to do, if you are willing.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who do I report to after the ruins?",
+   "aliases": [
+    "who do i turn this in to",
+    "who wants the report",
+    "where to turn in return to feathermoon stronghold"
+   ],
+   "answer": "General Shandris Feathermoon, at Feathermoon Stronghold."
+  },
+  {
+   "q": "What should I report?",
+   "aliases": [
+    "what do i tell shandris",
+    "what was found at solarsal"
+   ],
+   "answer": "That strange gazebo, standing at the center of the Ruins of Solarsal."
+  },
+  {
+   "q": "What comes before this?",
+   "aliases": [
+    "previous quest",
+    "what leads here"
+   ],
+   "answer": "It follows The Ruins of Solarsal, where Shandris sent you to explore the ruins and look into the naga there."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "feathermoon stronghold",
+  "feralas",
+  "hatecrest",
+  "naga",
+  "ruins of solarsal",
+  "shandris feathermoon",
+  "solarsal gazebo"
+ ],
+ "related": [
+  "quest:2866",
+  "npc:shandris-feathermoon",
+  "subzone:feathermoon-stronghold",
+  "zone:feralas",
+  "topic:naga"
+ ],
+ "attribution": [
+  "Return to Feathermoon Stronghold"
+ ]
+}

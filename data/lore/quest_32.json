@@ -1,0 +1,99 @@
+{
+ "key": "quest:32",
+ "type": "quest",
+ "name": "Rise of the Silithid",
+ "era": "classic",
+ "zone": "tanaris",
+ "meta": {
+  "ids": [
+   32
+  ],
+  "level": "48",
+  "faction": "Horde",
+  "start": "Senior Surveyor Fizzledowser",
+  "end": "Zilzibin Drumlore",
+  "previous": "Insect Part Analysis (2)",
+  "next": "",
+  "wiki": "Rise of the Silithid (Horde)",
+  "chain": [],
+  "prev_q": [
+   "Insect Part Analysis (2)"
+  ],
+  "category": "Tanaris",
+  "chain_tpl": [
+   "Rise of the Silithid"
+  ]
+ },
+ "summary": "Senior Surveyor Fizzledowser hands you the report on the insect threat and urges you to take it to Orgrimmar, to a troll scholar named Zilzibin Drumlore.",
+ "sections": [
+  {
+   "title": "Someone Who Knows",
+   "body": "Fizzledowser wants the report in the hands of someone who has working knowledge of such matters. Zilzibin Drumlore is a troll scholar who has spent a lot of time studying the life forms unique to Azeroth's ecology, and is a historian besides. Fizzledowser hopes Zilzibin can work out what the danger really is and how it might be halted, and says all the help available will be needed. Zilzibin lives in a house on the Drag's second tier, in Orgrimmar.",
+   "spoiler": 0
+  },
+  {
+   "title": "Zilzibin's Answer",
+   "body": "Zilzibin has dealt with these creatures before and thinks Fizzledowser chose well in sending the report, and you. They will devour the Tanaris desert rapidly and number among the greatest menaces anyone will face. They are the silithid, the tools of one of the gravest threats to both Horde and Alliance. Zilzibin laments that no one was wise enough to see it sooner.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Zilzibin Drumlore?",
+   "aliases": [
+    "who is drumlore",
+    "zilzibin drumlore lore",
+    "troll scholar in orgrimmar"
+   ],
+   "answer": "A troll scholar and historian who has spent a lot of time studying the life forms unique to the ecology of Azeroth."
+  },
+  {
+   "q": "Who sends you to Zilzibin?",
+   "aliases": [
+    "rise of the silithid start",
+    "who gives rise of the silithid"
+   ],
+   "answer": "Senior Surveyor Fizzledowser, who gives you the report and asks you to carry it to Orgrimmar."
+  },
+  {
+   "q": "Where is Zilzibin Drumlore located in Orgrimmar?",
+   "aliases": [
+    "where is zilzibin",
+    "where is drumlore house"
+   ],
+   "answer": "In a house on the Drag, up on its second tier, in Orgrimmar."
+  },
+  {
+   "q": "What comes directly before this step?",
+   "aliases": [
+    "previous quest rise of the silithid",
+    "what led to rise of the silithid"
+   ],
+   "answer": "It follows Insect Part Analysis."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "drag",
+  "drumlore",
+  "fizzledowser",
+  "insects",
+  "orgrimmar",
+  "silithid",
+  "tanaris",
+  "zilzibin"
+ ],
+ "related": [
+  "npc:senior-surveyor-fizzledowser",
+  "quest:113",
+  "zone:tanaris",
+  "zone:orgrimmar",
+  "subzone:drag",
+  "topic:troll",
+  "topic:horde",
+  "topic:alliance"
+ ],
+ "attribution": [
+  "Rise of the Silithid (Horde)"
+ ]
+}

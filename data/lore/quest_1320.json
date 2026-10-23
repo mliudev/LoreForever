@@ -1,0 +1,77 @@
+{
+ "key": "quest:1320",
+ "type": "quest",
+ "name": "The Black Shield",
+ "era": "classic",
+ "zone": "dustwallow",
+ "meta": {
+  "ids": [
+   1320
+  ],
+  "level": "35",
+  "faction": "Alliance",
+  "start": "Caz Twosprocket",
+  "end": "Captain Garran Vimes",
+  "previous": "The Black Shield",
+  "next": "",
+  "wiki": "The Black Shield (Alliance 3)",
+  "chain": [
+   "The Shady Rest Inn quest chain"
+  ],
+  "category": "Dustwallow Marsh",
+  "chain_tpl": [
+   "They Call Him Smiling Jim"
+  ]
+ },
+ "summary": "Caz Twosprocket looks over the black shield for the Shady Rest Inn mystery and almost misses one last detail. Caz sends you to Captain Garran Vimes in Theramore with what was found.",
+ "sections": [
+  {
+   "title": "A Strap Burned Away",
+   "body": "Looking over the black shield, Caz Twosprocket almost misses one last detail: the leather strap on its back has burned away, but the strap seems to have been made to fit a large person. Caz guesses a tauren. That is all Caz can tell, and you are sent to Captain Garran Vimes in Theramore with the word, and with Caz's apology for not being more help.",
+   "spoiler": 0
+  },
+  {
+   "title": "What Vimes Makes of It",
+   "body": "Vimes finds this little to go on, but says it will be kept in mind. The hope is that other pieces of the mystery fall into place and show more clearly what happened.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "What does Caz Twosprocket find out about the shield?",
+   "aliases": [
+    "caz findings",
+    "shield clues",
+    "black shield clue"
+   ],
+   "answer": "The leather strap on its back has burned away, but it seems to have been made to fit a large person. Caz guesses a tauren."
+  },
+  {
+   "q": "Who should hear what Caz found?",
+   "aliases": [
+    "who do i tell about the shield",
+    "turn in black shield",
+    "where to report shield"
+   ],
+   "answer": "Captain Garran Vimes in Theramore."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "black shield",
+  "caz twosprocket",
+  "dustwallow marsh",
+  "garran vimes",
+  "shady rest inn",
+  "tauren",
+  "theramore"
+ ],
+ "related": [
+  "subzone:shady-rest-inn",
+  "topic:tauren",
+  "zone:dustwallow"
+ ],
+ "attribution": [
+  "The Black Shield (Alliance 3)"
+ ]
+}

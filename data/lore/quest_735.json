@@ -1,0 +1,105 @@
+{
+ "key": "quest:735",
+ "type": "quest",
+ "name": "The Star, the Hand and the Heart",
+ "era": "classic",
+ "zone": "badlands",
+ "meta": {
+  "ids": [
+   735
+  ],
+  "level": "44",
+  "faction": "Alliance",
+  "start": "Gerrig Bonegrip",
+  "end": "Gerrig Bonegrip",
+  "previous": "To Ironforge for Yagyin's Digest",
+  "next": "Forbidden Knowledge (Classic)",
+  "wiki": "The Star, the Hand and the Heart (Alliance)",
+  "chain": [],
+  "prev_q": [
+   "To Ironforge for Yagyin's Digest"
+  ],
+  "next_q": [
+   "Forbidden Knowledge (Classic)"
+  ],
+  "qtype": "Elite",
+  "category": "Badlands",
+  "chain_tpl": [
+   "Solution to Doom"
+  ]
+ },
+ "summary": "Gerrig Bonegrip in Ironforge has a spare copy of Yagyin's Digest and will part with it for three items of power. Gerrig will not speak their names aloud, and writes them down in a note instead.",
+ "sections": [
+  {
+   "title": "An Exchange Behind Closed Lips",
+   "body": "Gerrig hears you ask for Yagyin's Digest and wonders whether you are starting a new chapter of their order somewhere, then decides it is not Gerrig's place to ask. Gerrig has an extra copy and believes those of the order must aid each other. In return, three items of power must be brought. Their names stay unspoken, since someone may be listening, and Gerrig writes them down.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Three Items",
+   "body": "The note names the Star of Xil'yeh, the Hand of Dagun and the Legacy Heart. They are what Gerrig wants before handing over the digest.",
+   "spoiler": 0
+  },
+  {
+   "title": "Gerrig's Verdict",
+   "body": "Once the relics are in hand, Gerrig calls you resourceful and believes that, should founding a new chapter of the order truly be your charge, you will run it well.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who asks for the three items?",
+   "aliases": [
+    "quest giver",
+    "who starts the star the hand and the heart",
+    "gerrig bonegrip quest"
+   ],
+   "answer": "Gerrig Bonegrip in Ironforge, who has an extra copy of Yagyin's Digest to give in return."
+  },
+  {
+   "q": "What three items does Gerrig Bonegrip want?",
+   "aliases": [
+    "required items",
+    "what relics does he need",
+    "bonegrips note items"
+   ],
+   "answer": "Gerrig Bonegrip's note asks for three things: the Star of Xil'yeh, the Hand of Dagun and the Legacy Heart."
+  },
+  {
+   "q": "Why does Gerrig write the items down instead of saying them?",
+   "aliases": [
+    "why write them down",
+    "why the secret note",
+    "bonegrip whispers"
+   ],
+   "answer": "Gerrig will not speak their names because someone may be listening."
+  },
+  {
+   "q": "What came before this in the chain?",
+   "aliases": [
+    "prerequisite quest",
+    "previous quest"
+   ],
+   "answer": "It follows To Ironforge for Yagyin's Digest, where Theldurin the Lost sent you to Gerrig."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "bonegrip's note",
+  "gerrig bonegrip",
+  "hand of dagun",
+  "ironforge",
+  "legacy heart",
+  "star of xil'yeh",
+  "yagyin's digest"
+ ],
+ "related": [
+  "npc:gerrig-bonegrip",
+  "quest:727",
+  "zone:ironforge",
+  "zone:badlands"
+ ],
+ "attribution": [
+  "The Star, the Hand and the Heart (Alliance)"
+ ]
+}

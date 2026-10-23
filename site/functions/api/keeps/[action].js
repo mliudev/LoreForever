@@ -27,6 +27,7 @@ import {
   keepsView, keepsExport, editItem, eraseItem, eraseSection, eraseEverything, setKeepAnswers, changesFor, markCleared,
   KeepsError, TEXT_MAX,
 } from "../../../lib/willo-keeps.js";
+import { isCompanion } from "../../../lib/client-version.js";
 
 const COMPANION = /^companion\/[\w.+-]{1,32}$/;
 const MAX_BODY_BYTES = 4 * TEXT_MAX + 1024;
@@ -88,7 +89,7 @@ async function readJson(request) {
 
 // The account behind the request: Willo's app by its token, or our page by its session.
 async function who(env, request) {
-  if (COMPANION.test(request.headers.get("X-LF-Client") || "") && !request.headers.get("Origin")) {
+  if (isCompanion(request.headers.get("X-LF-Client"), { loose: true }) && !request.headers.get("Origin")) {
     const app = await currentDevice(env, request);
     return app ? { user: app.user, app } : null;
   }

@@ -1,0 +1,82 @@
+{
+ "key": "quest:349",
+ "type": "quest",
+ "name": "Stranglethorn Fever",
+ "era": "classic",
+ "zone": "stranglethorn",
+ "meta": {
+  "ids": [
+   349
+  ],
+  "level": "35",
+  "faction": "Neutral",
+  "start": "Witch Doctor Unbagwa",
+  "end": "Witch Doctor Unbagwa",
+  "previous": "Stranglethorn Fever",
+  "next": "",
+  "wiki": "Stranglethorn Fever (Classic)",
+  "chain": [],
+  "category": "Stranglethorn Vale"
+ },
+ "summary": "Deep within Stranglethorn Vale, Witch Doctor Unbagwa claims to know how to draw out the beast known as Mokk the Savage. Before communion with the spirits can begin, the witch doctor requires ten Gorilla Fangs as an offering. Once the ritual commences, defending the troll from agitated jungle beasts is necessary to lure the creature forth.",
+ "sections": [
+  {
+   "title": "A Ritual for the Savage",
+   "body": "Witch Doctor Unbagwa possesses the ritual knowledge needed to summon Mokk the Savage out of the surrounding jungle. To begin the incantation, the witch doctor demands ten Gorilla Fangs. Communing with the spirits carries a heavy risk, as the ritual chant draws the attention of other gorilla beasts in the vicinity, demanding protection while the magic does its work.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Witch Doctor Unbagwa?",
+   "aliases": [
+    "unbagwa",
+    "who is unbagwa",
+    "witch doctor unbagwa"
+   ],
+   "answer": "Witch Doctor Unbagwa is a troll practitioner in Stranglethorn Vale who claims to speak with the spirits to lure the great ape Mokk the Savage."
+  },
+  {
+   "q": "What does Witch Doctor Unbagwa require to start?",
+   "aliases": [
+    "gorilla fang quest",
+    "what item for unbagwa",
+    "unbagwa requirements"
+   ],
+   "answer": "The witch doctor requires ten Gorilla Fangs before agreeing to speak with the spirits."
+  },
+  {
+   "q": "Why must the witch doctor be defended?",
+   "aliases": [
+    "why defend unbagwa",
+    "defend witch doctor unbagwa",
+    "gorilla beasts ritual"
+   ],
+   "answer": "Speaking with the spirits draws in the other gorilla beasts around him. Unbagwa cannot finish the communion to summon Mokk if overrun by these beasts."
+  },
+  {
+   "q": "Who is Mokk the Savage?",
+   "aliases": [
+    "mokk",
+    "who is mokk",
+    "mokk the savage"
+   ],
+   "answer": "Mokk the Savage is a formidable gorilla beast prowling Stranglethorn Vale that Witch Doctor Unbagwa knows how to summon."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "gorilla fang",
+  "mokk the savage",
+  "stranglethorn fever",
+  "stranglethorn vale",
+  "unbagwa",
+  "witch doctor"
+ ],
+ "related": [
+  "zone:stranglethorn"
+ ],
+ "attribution": [
+  "Stranglethorn Fever (Classic)"
+ ]
+}

@@ -1,0 +1,92 @@
+{
+ "key": "quest:5943",
+ "type": "quest",
+ "name": "Gizelton Caravan",
+ "era": "classic",
+ "zone": "desolace",
+ "meta": {
+  "ids": [
+   5943
+  ],
+  "level": "38",
+  "faction": "Neutral",
+  "start": "Rigger Gizelton",
+  "end": "Smeed Scrabblescrew",
+  "previous": "",
+  "next": "",
+  "wiki": "Gizelton Caravan (quest)",
+  "chain": [],
+  "category": "Desolace"
+ },
+ "summary": "Rigger Gizelton and Cork launched their caravan to get rich, and found the trade more dangerous than they expected. Mannoroc Coven lies ahead, and Rigger wants a capable adventurer to guard the caravan past it.",
+ "sections": [
+  {
+   "title": "Past Mannoroc Coven",
+   "body": "Rigger Gizelton and Cork set up the caravan to make a fortune, and had no idea how risky turning a profit could be. Mannoroc Coven lies ahead. The demons usually leave the caravan alone, but this time the kodos are spooked. Rigger offers payment if you protect the caravan past the coven. Once it is safely through, your pay waits with Smeed, a business associate of theirs, at Scrabblescrew's Camp.",
+   "spoiler": 0
+  },
+  {
+   "title": "Smeed's Misgivings",
+   "body": "At Scrabblescrew's Camp, Smeed wipes his brow and says he would be ruined if the caravan ever vanished, so he is glad to hear it is not lost. He is not sure it makes sense to pay so much to protect a caravan whose owners earn only one gold piece a week. Still, as long as Cork and Rigger keep paying for his kodos, he does not care how they run their business.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Rigger Gizelton?",
+   "aliases": [
+    "who is rigger",
+    "gizelton background",
+    "rigger gizelton"
+   ],
+   "answer": "A caravan owner who started the Gizelton Caravan with Cork, hoping to make a fortune."
+  },
+  {
+   "q": "Why does the caravan need protection past Mannoroc Coven?",
+   "aliases": [
+    "why escort caravan",
+    "mannoroc coven danger",
+    "why protect caravan"
+   ],
+   "answer": "Rigger says the demons there usually ignore the caravan, but this time something has the kodos spooked."
+  },
+  {
+   "q": "Who pays you for protecting the caravan?",
+   "aliases": [
+    "who pays me",
+    "where to turn in gizelton caravan",
+    "smeed reward"
+   ],
+   "answer": "Smeed, the Gizeltons' business associate at Scrabblescrew's Camp, once the caravan is safely past the coven."
+  },
+  {
+   "q": "Who is Cork?",
+   "aliases": [
+    "cork gizelton",
+    "who is cork"
+   ],
+   "answer": "Rigger Gizelton's partner in the caravan."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "caravan",
+  "cork",
+  "coven",
+  "desolace",
+  "gizelton",
+  "kodo",
+  "mannoroc",
+  "rigger",
+  "scrabblescrew",
+  "smeed"
+ ],
+ "related": [
+  "subzone:mannoroc-coven",
+  "quest:5821",
+  "zone:desolace"
+ ],
+ "attribution": [
+  "Gizelton Caravan (quest)"
+ ]
+}

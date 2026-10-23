@@ -1,0 +1,103 @@
+{
+ "key": "quest:639",
+ "type": "quest",
+ "name": "Sigil of Strom",
+ "era": "classic",
+ "zone": "arathi",
+ "meta": {
+  "ids": [
+   639
+  ],
+  "level": "37",
+  "faction": "Horde",
+  "start": "Zengu",
+  "end": "Zengu",
+  "previous": "Trollbane (quest)",
+  "next": "The Broken Sigil",
+  "wiki": "Sigil of Strom (Classic)",
+  "chain": [],
+  "prev_q": [
+   "Trollbane (quest)"
+  ],
+  "next_q": [
+   "The Broken Sigil"
+  ],
+  "category": "Arathi Highlands",
+  "chain_tpl": [
+   "Broken Sigil"
+  ]
+ },
+ "summary": "Zengu in Hammerfall wants the sigils that guard Trol'kalar, the sword of Lord Ignaeus Trollbane. The first, the Sigil of Strom, was taken by the Syndicate, and a Syndicate agent in Stromgarde is likely to hold it.",
+ "sections": [
+  {
+   "title": "The Legacy of Trollbane",
+   "body": "In ancient times the trolls fought the Arathorian Empire, and their ablest foe was Lord Ignaeus of Strom, called Trollbane. He went into battle wielding Trol'kalar, a name that means troll slayer in the trolls' old tongue. Now Trollbane's sons are weakened and their stronghold lies in ruins.",
+   "spoiler": 0
+  },
+  {
+   "title": "The First Sigil",
+   "body": "Several sigils protect the sword, and the survivors of Stromgarde each took a share of them. Zengu says they must all be retrieved. The Syndicate seized the first, and Zengu reckons one of their agents in Stromgarde has it. Bring it back to him at Hammerfall.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Zengu?",
+   "aliases": [
+    "who gives sigil of strom",
+    "zengu hammerfall"
+   ],
+   "answer": "Zengu is at Hammerfall, in Arathi. He is gathering the sigils that protect Trol'kalar, the sword of Lord Ignaeus Trollbane."
+  },
+  {
+   "q": "What is Trol'kalar?",
+   "aliases": [
+    "what is trolkalar",
+    "trol'kalar meaning",
+    "trollbane sword"
+   ],
+   "answer": "Trol'kalar means troll slayer in the trolls' ancient tongue. Lord Ignaeus of Strom, called Trollbane, rode into battle with it against the trolls."
+  },
+  {
+   "q": "Why is the Sigil of Strom needed?",
+   "aliases": [
+    "why get the sigil",
+    "purpose of sigil of strom"
+   ],
+   "answer": "The sword is guarded by several sigils, which the survivors of Stromgarde split up between them. Zengu wants them all, and the Sigil of Strom is the first."
+  },
+  {
+   "q": "Who holds the Sigil of Strom?",
+   "aliases": [
+    "who has the sigil of strom",
+    "where is the sigil of strom",
+    "syndicate sigil"
+   ],
+   "answer": "The Syndicate took it. It is most likely carried by one of their agents in Stromgarde."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "arathi highlands",
+  "hammerfall",
+  "ignaeus",
+  "sigil of strom",
+  "stromgarde",
+  "syndicate",
+  "trol'kalar",
+  "trollbane",
+  "zengu"
+ ],
+ "related": [
+  "quest:638",
+  "quest:640",
+  "quest:645",
+  "subzone:hammerfall",
+  "zone:arathi",
+  "topic:syndicate",
+  "topic:troll"
+ ],
+ "attribution": [
+  "Sigil of Strom (Classic)"
+ ]
+}
