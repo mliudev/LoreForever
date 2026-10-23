@@ -1,0 +1,96 @@
+{
+ "key": "quest:3372",
+ "type": "quest",
+ "name": "Release Them",
+ "era": "classic",
+ "zone": "searinggorge",
+ "meta": {
+  "ids": [
+   3372
+  ],
+  "level": "46",
+  "faction": "Alliance",
+  "start": "Dying Archaeologist",
+  "end": "Altar of Suntara",
+  "previous": "",
+  "next": "Rise, Obsidion!",
+  "wiki": "Release Them",
+  "chain": [],
+  "next_q": [
+   "Rise, Obsidion!"
+  ],
+  "category": "Searing Gorge",
+  "chain_tpl": [
+   "Suntara Stones"
+  ]
+ },
+ "summary": "A dying archaeologist in Searing Gorge urges you to release those whom the power of the Suntara still drives to keep at their labor, though their bodies have given out. Everything hinges on the altar of Suntara, and a relic guarded by Twilight's Hammer must be placed upon it.",
+ "sections": [
+  {
+   "title": "A Dying Plea",
+   "body": "Before collapsing, the archaeologist begs you to release them. Their bodies have given out, yet the Suntara's power drives them on to keep at their labor. The key, says the archaeologist, is the altar of Suntara.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Altar of Suntara",
+   "body": "Go northwest, to the hills above the cave. Idolaters of the Twilight's Hammer guard a relic there, called the Mysterious Artifact. Take it from them and bring it to the Slag Pit, to set upon the altar of Suntara.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who asks for help with Release Them?",
+   "aliases": [
+    "quest giver",
+    "who gives release them",
+    "dying archaeologist"
+   ],
+   "answer": "A dying archaeologist in Searing Gorge, who collapses after the plea."
+  },
+  {
+   "q": "Where is the mysterious artifact located?",
+   "aliases": [
+    "mysterious artifact location",
+    "where is the relic",
+    "twilight's hammer idolaters"
+   ],
+   "answer": "Twilight's Hammer Idolaters guard it in the northwest quadrant of Searing Gorge, in the hills above the cave."
+  },
+  {
+   "q": "Where must the artifact be delivered?",
+   "aliases": [
+    "altar of suntara location",
+    "where is the altar",
+    "where do i take the artifact"
+   ],
+   "answer": "It is carried to the Slag Pit and set on the altar of Suntara."
+  },
+  {
+   "q": "Why are the victims unable to rest?",
+   "aliases": [
+    "why release them",
+    "what is happening to them",
+    "suntara power"
+   ],
+   "answer": "The archaeologist says the Suntara's power drives them to keep at their labor, though their bodies have given out."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "altar of suntara",
+  "dying archaeologist",
+  "mysterious artifact",
+  "release them",
+  "searing gorge",
+  "slag pit",
+  "twilight's hammer"
+ ],
+ "related": [
+  "subzone:slag-pit",
+  "topic:twilight-s-hammer",
+  "zone:searinggorge"
+ ],
+ "attribution": [
+  "Release Them"
+ ]
+}

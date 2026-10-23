@@ -1,0 +1,91 @@
+{
+ "key": "quest:5821",
+ "type": "quest",
+ "name": "Bodyguard for Hire",
+ "era": "classic",
+ "zone": "desolace",
+ "meta": {
+  "ids": [
+   5821
+  ],
+  "level": "35",
+  "faction": "Neutral",
+  "start": "Cork Gizelton",
+  "end": "Smeed Scrabblescrew",
+  "previous": "",
+  "next": "",
+  "wiki": "Bodyguard for Hire",
+  "chain": [],
+  "category": "Desolace"
+ },
+ "summary": "Cork Gizelton and Rigger would normally lead their kodo past the Kolkar centaur village, yet they stop whenever the centaur war drums are heard. Cork asks you to protect the caravan past the Kolkar village, and payment is waiting with Smeed Scrabblescrew, a bit down the road.",
+ "sections": [
+  {
+   "title": "War Drums",
+   "body": "Cork Gizelton and Rigger would normally take their kodo straight past the Kolkar centaur. Now and then the centaur war drums are heard, and the caravan stops, because dead traders make no profit. Cork asks you to guard the caravan past the Kolkar village, a short distance, and keep it in one piece. The caravan waits north of the Kolkar Village and southeast of Thunder Axe Fortress.",
+   "spoiler": 0
+  },
+  {
+   "title": "Smeed Scrabblescrew",
+   "body": "Payment waits with Smeed Scrabblescrew at Scrabblescrew's Camp, a bit down the road. Smeed does a little business with the Gizelton caravan.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Cork Gizelton?",
+   "aliases": [
+    "cork gizelton",
+    "who gives bodyguard for hire",
+    "who starts this"
+   ],
+   "answer": "Cork Gizelton leads a kodo caravan through Desolace together with Rigger. The two of them stop whenever the centaur war drums sound."
+  },
+  {
+   "q": "Why does the caravan need protection?",
+   "aliases": [
+    "why need bodyguard",
+    "why caravan stopped",
+    "why are they waiting"
+   ],
+   "answer": "Cork and Rigger stop whenever the centaur war drums sound, because dead traders make no profit."
+  },
+  {
+   "q": "Where does this escort start?",
+   "aliases": [
+    "bodyguard for hire location",
+    "where does caravan start",
+    "escort start point"
+   ],
+   "answer": "North of the Kolkar Village, and southeast of Thunder Axe Fortress."
+  },
+  {
+   "q": "Where is the payment waiting?",
+   "aliases": [
+    "who gives the reward",
+    "where do i turn in",
+    "who is smeed"
+   ],
+   "answer": "With Smeed Scrabblescrew at Scrabblescrew's Camp, a bit down the road. Smeed does a little business with Cork."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "bodyguard",
+  "centaur",
+  "cork gizelton",
+  "desolace",
+  "gizelton caravan",
+  "kolkar",
+  "rigger",
+  "smeed scrabblescrew"
+ ],
+ "related": [
+  "zone:desolace",
+  "topic:centaur",
+  "subzone:thunder-axe-fortress"
+ ],
+ "attribution": [
+  "Bodyguard for Hire"
+ ]
+}

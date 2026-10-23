@@ -1,0 +1,103 @@
+{
+ "key": "quest:1181",
+ "type": "quest",
+ "name": "Goblin Sponsorship",
+ "era": "classic",
+ "zone": "thousandneedles",
+ "meta": {
+  "ids": [
+   1181
+  ],
+  "level": "37",
+  "faction": null,
+  "start": "Wharfmaster Lozgil",
+  "end": "Baron Revilgaz",
+  "previous": "Goblin Sponsorship (2)",
+  "next": "Goblin Sponsorship (4)",
+  "wiki": "Goblin Sponsorship (3)",
+  "chain": [],
+  "prev_q": [
+   "Goblin Sponsorship (2)"
+  ],
+  "next_q": [
+   "Goblin Sponsorship (4)"
+  ],
+  "category": "Thousand Needles",
+  "chain_tpl": [
+   "Goblin Sponsorship"
+  ]
+ },
+ "summary": "Wharfmaster Lozgil cannot help any further with the missing fuel regulator, and suggests you ask Baron Revilgaz himself. You will find the Baron at the tavern across the harbor in Booty Bay, on the top floor.",
+ "sections": [
+  {
+   "title": "Asking the Baron",
+   "body": "Wharfmaster Lozgil tells you he cannot be of much more help in tracing the missing shipment bound for Ratchet. If you want to follow it up, he suggests you go to the Baron himself, since if anyone knows Revilgaz's business, it is Revilgaz. He waits in the tavern across the harbor, on the top floor.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Baron's Answer",
+   "body": "Baron Revilgaz knows what you are talking about but cannot help. Some of his men were sent to find the fuel regulator's blueprints, and they returned empty-handed.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Where can I find Baron Revilgaz?",
+   "aliases": [
+    "baron revilgaz location",
+    "where is revilgaz",
+    "find revilgaz booty bay"
+   ],
+   "answer": "At the tavern across the harbor in Booty Bay, on the top floor."
+  },
+  {
+   "q": "Why does Wharfmaster Lozgil send you to Revilgaz?",
+   "aliases": [
+    "why talk to revilgaz",
+    "lozgil sends to baron",
+    "why see baron revilgaz"
+   ],
+   "answer": "Lozgil cannot be of much more help, and says that if anyone knows Revilgaz's business, it is Revilgaz himself."
+  },
+  {
+   "q": "What shipment is being tracked down?",
+   "aliases": [
+    "what shipment is missing",
+    "what are we looking for",
+    "missing ratchet cargo"
+   ],
+   "answer": "A new fuel regulator that was supposed to reach Ratchet, for the goblin racers of the Mirage Raceway."
+  },
+  {
+   "q": "Where does this step fit in the chain?",
+   "aliases": [
+    "what came before goblin sponsorship 3",
+    "chain progress goblin sponsorship"
+   ],
+   "answer": "It follows Goblin Sponsorship (2), your talk with Wharfmaster Lozgil, and the next step is Goblin Sponsorship (4)."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "baron revilgaz",
+  "booty bay",
+  "fuel regulator",
+  "goblin sponsorship",
+  "mirage raceway",
+  "ratchet",
+  "wharfmaster lozgil"
+ ],
+ "related": [
+  "npc:baron-revilgaz",
+  "subzone:booty-bay",
+  "subzone:mirage-raceway",
+  "subzone:ratchet",
+  "zone:thousandneedles",
+  "topic:goblin",
+  "quest:1180",
+  "quest:1182"
+ ],
+ "attribution": [
+  "Goblin Sponsorship (3)"
+ ]
+}

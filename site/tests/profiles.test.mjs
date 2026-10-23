@@ -18,7 +18,7 @@ const ORIGIN = "https://preview.example";
 const env = { DB: d1() };
 beforeEach(async () => {
   await setup(env);
-  for (const table of ["profiles", "sessions", "users", "rate_limits", "story_spend"]) env.DB.sqlite.exec(`DELETE FROM ${table}`);
+  for (const table of ["profiles", "sessions", "users", "rate_limits", "story_spend", "free_pool_days"]) env.DB.sqlite.exec(`DELETE FROM ${table}`);
   delete env.GEMINI_API_KEY;
 });
 
@@ -291,7 +291,11 @@ test("with GEMINI_API_KEY the story is written; every try counts against 3 a day
   }
 });
 
-test("the monthly budget: at STORY_BUDGET_USD (default $100) no story is written, for anyone", async () => {
+test("the monthly budget: at STORY_BUDGET_USD ($100 here) no story is written, for anyone", async (t) => {
+  // The month's pool alone: a day's slice (lib/free-pool.js) bigger than it.
+  env.FREE_DAILY_SLICE_USD = "1000";
+  env.STORY_BUDGET_USD = "100";
+  t.after(() => { delete env.FREE_DAILY_SLICE_USD; });
   env.GEMINI_API_KEY = "test-key";
   const a = await signIn("aelric"), b = await signIn("brakka");
   try {

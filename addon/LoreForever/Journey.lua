@@ -104,6 +104,7 @@ local function later(delay, fn) C_Timer.After(delay, function() pcall(fn) end) e
 
 local char           -- this character's record in LoreForeverDB.journey.chars
 local loginAt        -- time() of this load's login event (none while Remember my journey is off)
+local placeless      -- this load's login event while the game didn't know the zone yet (a real login, LOR-770)
 local needCompleted  -- the server's completed-quest list was empty at login: tries left to fetch it again
 local resetRoute     -- forget where the player was (Recording, below)
 local startTrail     -- start the map trail's timer (The map trail, below)
@@ -112,9 +113,19 @@ local onlineFrom     -- time() the online count was last brought up to date (The
 local titles = {}    -- questID -> title, for quests that have left the log
 local turnedIn = {}  -- questID -> GetTime() it was turned in, this session: QUEST_REMOVED without one is abandoned
 
+-- The realm as GetNormalizedRealmName has it ("ClassicBetaPvE"), even when only GetRealmName answers ("Classic Beta PvE":
+-- early in a login, or on some clients): spaces and hyphens out. A key made from the other spelling split a character's
+-- heard narrations in two, so a story heard on 10/11 played again on 10/21 (Mike's 0.25.0 questing video).
+function Journey.Realm()
+  local realm = try(GetNormalizedRealmName)
+  if type(realm) == "string" and realm ~= "" then return realm end
+  realm = try(GetRealmName)
+  return type(realm) == "string" and realm ~= "" and (realm:gsub("[%s%-]", "")) or "?"
+end
+
 function Journey.CharKey()
   local name = try(UnitName, "player") or "?"
-  local realm = try(GetNormalizedRealmName) or try(GetRealmName) or "?"
+  local realm = Journey.Realm()
   return name .. "-" .. realm, name, realm
 end
 
@@ -585,7 +596,10 @@ function Journey.Init()
     open()
     rememberTitles()
     local z, s = here()
-    add("login", { z = z, s = s })
+    local login = add("login", { z = z, s = s })
+    -- A real login runs before the game knows the zone (a /reload knows it). Without one, Willo kept the place from
+    -- before the login until the next save; onPlace gives it the first place it knows.
+    placeless = login and not usable(z) and login or nil
     loginAt = time()
     onlineFrom = loginAt
     pcall(countDay)
@@ -2385,6 +2399,7 @@ local function onPlace()
   if flying then return land() end   -- landed without PLAYER_CONTROL_GAINED
   local z, s, p = here()
   if not usable(z) then return end
+  if placeless then placeless.z, placeless.s, placeless = z, s, nil end
   local key = z .. "|" .. (s or "")
   if key == route.place then return end
   local map = worldMap()

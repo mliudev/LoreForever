@@ -1,0 +1,104 @@
+{
+ "key": "quest:1122",
+ "type": "quest",
+ "name": "Report Back to Fizzlebub",
+ "era": "classic",
+ "zone": "thousandneedles",
+ "meta": {
+  "ids": [
+   1122
+  ],
+  "level": "44",
+  "faction": null,
+  "start": "Kravel Koalbeard",
+  "end": "Crank Fizzlebub",
+  "previous": "Get the Gnomes Drunk, Get the Goblins Drunk",
+  "next": "",
+  "wiki": "Report Back to Fizzlebub",
+  "chain": [
+   "Kravel Koalbeard",
+   "Mirage Raceway",
+   "Thousand Needles",
+   "Errands for Kravel quest chain"
+  ],
+  "prev_q": [
+   "Get the Gnomes Drunk",
+   "Get the Goblins Drunk"
+  ],
+  "category": "Thousand Needles",
+  "chain_tpl": [
+   "Errands for Kravel"
+  ]
+ },
+ "summary": "Kravel Koalbeard says the Fool's Stout worked great. He has put money on the next race, hoping the crew you made drunk wrecked their own car. You carry a note about the successful test to Crank Fizzlebub in Booty Bay. This follows the pit crew you chose to make drunk.",
+ "sections": [
+  {
+   "title": "A Note for Crank",
+   "body": "Kravel Koalbeard says the Fool's Stout worked great. He has put money on the next race, hoping the pit crew you made drunk wrecked their own car. One more job remains: take a note about the successful test to Crank Fizzlebub in Booty Bay, who will want to hear of it. Kravel also hopes more of the stout can be had for future races.",
+   "spoiler": 0
+  },
+  {
+   "title": "Crank's Answer",
+   "body": "Crank Fizzlebub reads the note, calls the test a success, and is glad of the news. Should you ever want more of the stout, Crank says to ask, and you will be set to collecting more of Zanzil's Mixture.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who starts this?",
+   "aliases": [
+    "quest giver",
+    "who gives report back to fizzlebub"
+   ],
+   "answer": "Kravel Koalbeard, the dwarf at the Mirage Raceway on the Shimmering Flats in Thousand Needles, hands you the note."
+  },
+  {
+   "q": "Where is Crank Fizzlebub located?",
+   "aliases": [
+    "fizzlebub location",
+    "where is crank fizzlebub",
+    "turn in location"
+   ],
+   "answer": "In Booty Bay."
+  },
+  {
+   "q": "What comes before this?",
+   "aliases": [
+    "prerequisites",
+    "previous quest"
+   ],
+   "answer": "It follows Get the Gnomes Drunk or, if you chose the other crew, Get the Goblins Drunk."
+  },
+  {
+   "q": "What does Kravel Koalbeard want Fizzlebub to know?",
+   "aliases": [
+    "what is the report",
+    "report contents"
+   ],
+   "answer": "That the test was a success."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "booty bay",
+  "crank fizzlebub",
+  "fool's stout",
+  "kravel koalbeard",
+  "mirage raceway",
+  "shimmering flats",
+  "thousand needles"
+ ],
+ "related": [
+  "npc:kravel-koalbeard",
+  "subzone:mirage-raceway",
+  "subzone:booty-bay",
+  "quest:1120",
+  "quest:1121",
+  "quest:1127",
+  "subzone:shimmering-flats",
+  "zone:thousandneedles"
+ ],
+ "attribution": [
+  "Report Back to Fizzlebub"
+ ]
+}

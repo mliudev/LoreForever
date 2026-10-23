@@ -1,0 +1,81 @@
+{
+ "key": "quest:2862",
+ "type": "quest",
+ "name": "War on the Woodpaw",
+ "era": "classic",
+ "zone": "feralas",
+ "meta": {
+  "ids": [
+   2862
+  ],
+  "level": "42",
+  "start": "Hadoken Swiftstrider",
+  "end": "Hadoken Swiftstrider",
+  "next": "Alpha Strike (Classic)",
+  "next_q": [
+   "Alpha Strike (Classic)"
+  ],
+  "wiki": null,
+  "previous": ""
+ },
+ "summary": "At Camp Mojache, Hadoken Swiftstrider calls the gnolls a lasting danger to the camp itself, with attacks growing more fevered of late. Hadoken asks you for ten Woodpaw Gnoll Manes to thin their numbers.",
+ "sections": [
+  {
+   "title": "A Threat to the Camp",
+   "body": "To Hadoken, it makes no difference whether the gnolls belong in Feralas. If the camp does not harden its resolve, he warns, it will be pushed out of the whole region. With the attacks on the camp growing more fevered, he wants their numbers thinned and offers generous pay for ten Woodpaw gnoll manes.",
+   "spoiler": 0
+  },
+  {
+   "title": "Hadoken's Response",
+   "body": "Hadoken calls the manes a good start. He has put the same ask to others; many have fought the gnolls before, and past efforts held them back. Lately the gnolls have pushed north into the area the camp holds sway over far more often, and their attacks have turned savage, almost desperate. Hadoken says he has a plan that might settle the matter.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who offers this bounty in Feralas?",
+   "aliases": [
+    "who gives war on the woodpaw",
+    "where to turn in war on the woodpaw",
+    "quest giver war on the woodpaw"
+   ],
+   "answer": "Hadoken Swiftstrider at Camp Mojache."
+  },
+  {
+   "q": "Why is Camp Mojache targeting the Woodpaw gnolls?",
+   "aliases": [
+    "why fight woodpaw",
+    "woodpaw problem",
+    "why are gnolls attacking"
+   ],
+   "answer": "Hadoken regards them as a constant danger to the camp, with attacks growing more fevered, and fears the camp will be driven out of the whole region unless it stands firm."
+  },
+  {
+   "q": "What proof does Hadoken Swiftstrider require?",
+   "aliases": [
+    "what items needed war on the woodpaw",
+    "woodpaw quest items",
+    "what do i bring hadoken"
+   ],
+   "answer": "Ten Woodpaw Gnoll Manes."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "alpha strike",
+  "camp mojache",
+  "feralas",
+  "gnolls",
+  "hadoken swiftstrider",
+  "manes",
+  "woodpaw"
+ ],
+ "related": [
+  "subzone:camp-mojache",
+  "zone:feralas",
+  "topic:gnoll"
+ ],
+ "attribution": [
+  "Classic quest text: War on the Woodpaw"
+ ]
+}

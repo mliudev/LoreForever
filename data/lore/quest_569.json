@@ -1,0 +1,99 @@
+{
+ "key": "quest:569",
+ "type": "quest",
+ "name": "The Defense of Grom'gol",
+ "era": "classic",
+ "zone": "stranglethorn",
+ "meta": {
+  "ids": [
+   569
+  ],
+  "level": "37",
+  "faction": "Horde",
+  "start": "Commander Aggro'gosh",
+  "end": "Commander Aggro'gosh",
+  "previous": "The Defense of Grom'gol",
+  "next": "",
+  "wiki": "The Defense of Grom'gol (2)",
+  "chain": [
+   "The Defense of Grom'gol",
+   "The Defense of Grom'gol (2)"
+  ],
+  "prev_q": [
+   "The Defense of Grom'gol"
+  ],
+  "category": "Stranglethorn Vale"
+ },
+ "summary": "Commander Aggro'gosh seeks to safeguard Grom'gol's supply lines through Stranglethorn Vale. After the earlier hunt thinning the raptors outside the camp, a band of ogres encamped at the nearby Mizjah Ruins continues to harass supply caravans heading toward Stonard.",
+ "sections": [
+  {
+   "title": "Securing the Caravans",
+   "body": "The Horde's presence in northern Stranglethorn Vale is centered on supplying Stonard, an outpost of vital strategic interest. While Commander Aggro'gosh did not arrive with the intention of fighting every native group, a band of local Mosh'Ogg ogres has claimed the Mizjah Ruins southeast of the camp. Warnings have failed to stop their continuous raids against Horde supply shipments, prompting the commander to order a strike against the ogre brutes and witch doctors holding the ruins.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Where are the ogres based?",
+   "aliases": [
+    "ogre location",
+    "where is mizjah ruins",
+    "ogre camp"
+   ],
+   "answer": "The ogres occupy the Mizjah Ruins, which lie to the southeast of Grom'gol Base Camp in northern Stranglethorn Vale."
+  },
+  {
+   "q": "Why is Grom'gol targeting these ogres?",
+   "aliases": [
+    "why kill the ogres",
+    "defense of gromgol reason",
+    "why fight moshogg"
+   ],
+   "answer": "Grom'gol's main purpose is to route supplies to Stonard. The ogres at the Mizjah Ruins have repeatedly ambushed these caravans despite receiving formal warnings to back off."
+  },
+  {
+   "q": "Who orders this strike?",
+   "aliases": [
+    "quest giver",
+    "who gives the quest",
+    "who is aggrogosh"
+   ],
+   "answer": "Commander Aggro'gosh, the military leader stationed at Grom'gol Base Camp, directs the effort to suppress the ogre threat."
+  },
+  {
+   "q": "What comes before this request?",
+   "aliases": [
+    "prerequisite",
+    "previous quest",
+    "chain start"
+   ],
+   "answer": "This follows the earlier hunt in which Aggro'gosh had the raptors outside Grom'gol thinned out."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Horde",
+   "text": "Caravans traveling between Grom'gol and Stonard are vital to sustaining the Horde's presence in the southern Eastern Kingdoms."
+  }
+ ],
+ "keywords": [
+  "aggro'gosh",
+  "grom'gol",
+  "mizjah ruins",
+  "mosh'ogg",
+  "ogre brutes",
+  "stonard",
+  "stranglethorn vale",
+  "witch doctors"
+ ],
+ "related": [
+  "quest:568",
+  "subzone:grom-gol-base-camp",
+  "subzone:mizjah-ruins",
+  "subzone:stonard",
+  "zone:stranglethorn"
+ ],
+ "attribution": [
+  "The Defense of Grom'gol (2)"
+ ]
+}

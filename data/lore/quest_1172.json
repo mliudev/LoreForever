@@ -1,0 +1,106 @@
+{
+ "key": "quest:1172",
+ "type": "quest",
+ "name": "The Brood of Onyxia",
+ "era": "classic",
+ "zone": "dustwallow",
+ "meta": {
+  "ids": [
+   1172
+  ],
+  "level": "45",
+  "faction": "Horde",
+  "start": "Draz'Zilb",
+  "end": "Draz'Zilb",
+  "previous": "The Brood of Onyxia (2)",
+  "next": "Challenge Overlord Mok'Morokk",
+  "wiki": "The Brood of Onyxia (3)",
+  "chain": [
+   "Identifying the Brood",
+   "The Brood of Onyxia",
+   "The Brood of Onyxia (2)",
+   "The Brood of Onyxia (3)"
+  ],
+  "prev_q": [
+   "The Brood of Onyxia (2)"
+  ],
+  "category": "Dustwallow Marsh",
+  "next_q": [
+   "Challenge Overlord Mok'Morokk"
+  ]
+ },
+ "summary": "Draz'Zilb in Brackenwall Village does not want a single more whelp of Onyxia to hatch. You are sent to find and destroy the black dragon's eggs near the Wyrmbog, down in the marsh's south.",
+ "sections": [
+  {
+   "title": "The Eggs in the Wyrmbog",
+   "body": "Onyxia's brood has been scattered through the Dragonmurk. Draz'Zilb urges haste: the Wyrmbog lies in the south of the marsh, and Draz'Zilb is sure the dragon has made her lair there, with her eggs riddled around it. As long as the land around Stonemaul Village is a nesting place for dragons, the ogres will never take it back, so you are sent to track the eggs down and destroy them.",
+   "spoiler": 0
+  },
+  {
+   "title": "One Last Service",
+   "body": "With the eggs destroyed, Draz'Zilb says it will be some time before Onyxia can lay more, and thanks you on behalf of the Stonemaul Clan. Then Draz'Zilb asks for one more service. Draz'Zilb judges Mok'Morokk unfit to lead, and Tharg, who would make an excellent leader, is held back by injuries and age. You are asked to drive Mok'Morokk out by force, so that a new leader can bring the clan back to its proper home in the south.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who gives this quest?",
+   "aliases": [
+    "who gives the brood of onyxia",
+    "quest giver brood of onyxia",
+    "drazzilb quest"
+   ],
+   "answer": "Draz'Zilb, in Brackenwall Village, sends you out against Onyxia's eggs."
+  },
+  {
+   "q": "Why must the dragon eggs be destroyed?",
+   "aliases": [
+    "why destroy onyxia eggs",
+    "why smash eggs",
+    "stonemaul village dragon eggs"
+   ],
+   "answer": "Draz'Zilb wants no more of Onyxia's whelps to hatch. While the land around Stonemaul Village is a nesting place for dragons, the ogres will never take it back."
+  },
+  {
+   "q": "Where are the eggs located?",
+   "aliases": [
+    "where are onyxia eggs",
+    "egg of onyxia location",
+    "where is wyrmbog"
+   ],
+   "answer": "Around the Wyrmbog, in the south of the marsh. Draz'Zilb is sure Onyxia has made her lair there."
+  },
+  {
+   "q": "Where does this step fit in the broader chain?",
+   "aliases": [
+    "brood of onyxia chain",
+    "previous quest brood of onyxia",
+    "what comes before brood of onyxia 3"
+   ],
+   "answer": "It comes after Mok'Morokk refused to act on the news of the brood, when you carried his answer back to Draz'Zilb."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "brackenwall",
+  "brood of onyxia",
+  "dragonmurk",
+  "draz'zilb",
+  "mok'morokk",
+  "onyxia",
+  "stonemaul",
+  "wyrmbog"
+ ],
+ "related": [
+  "quest:1170",
+  "quest:1171",
+  "npc:onyxia",
+  "subzone:wyrmbog",
+  "subzone:dragonmurk",
+  "subzone:brackenwall-village",
+  "zone:dustwallow"
+ ],
+ "attribution": [
+  "The Brood of Onyxia (3)"
+ ]
+}

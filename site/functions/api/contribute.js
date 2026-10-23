@@ -17,11 +17,12 @@ import { perHour } from "../../lib/ratelimit.js";
 import { LIMITS, RATE, setup, cleanLine, cleanNick, loadKnown, ingest, uploaderOf, ipHashOf, expireHashes, nowSec }
   from "../../lib/contribute.js";
 import { currentDevice } from "../../lib/devices.js";
+import { isCompanion } from "../../lib/client-version.js";
 
 export async function onRequestPost({ request, env, waitUntil }) {
   if (!env.DB) return fail(503, "Sharing text isn't switched on yet.");
   const client = request.headers.get("X-LF-Client") || "";
-  const companion = /^companion\/[\w.-]{1,24}$/.test(client) && !request.headers.get("Origin");
+  const companion = isCompanion(client) && !request.headers.get("Origin");
   if (!companion && !sameOrigin(request)) return fail(403, "Please use the page on loreforeverwow.com.");
   if (Number(request.headers.get("Content-Length") || 0) > LIMITS.body) {
     return fail(413, "That's too much at once. Share it in smaller parts.");

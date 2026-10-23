@@ -1,0 +1,95 @@
+{
+ "key": "quest:92432",
+ "type": "quest",
+ "name": "An Alarming Request",
+ "era": "forever",
+ "zone": "alterac",
+ "meta": {
+  "ids": [
+   92432
+  ],
+  "level": "33",
+  "faction": "Alliance",
+  "start": "Emissary Jacques",
+  "end": "Image of Archmage Modera",
+  "previous": "",
+  "next": "",
+  "wiki": "An Alarming Request",
+  "chain": [],
+  "category": "Alterac Mountains",
+  "chain_tpl": [
+   "City of Dalaran quests"
+  ]
+ },
+ "summary": "Emissary Jacques in Southshore brings bad news out of Dalaran: the city's ley lines have been thrown off, and its constructs have turned erratic and destructive. Archmage Modera sent Jacques to find outside aid, and you are told to seek her image near Dalaran, beside Lordamere Lake.",
+ "sections": [
+  {
+   "title": "Trouble in Dalaran",
+   "body": "Emissary Jacques says Dalaran's ley lines have been disrupted, and the city's constructs now behave erratically and destructively. The cause is not yet known. The high council has ordered the matter kept private so as not to bring shame to the order, but Jacques says the charade cannot go on forever, for the city is being overrun. Archmage Modera sent Jacques to seek outside aid, and you are to find her image near Dalaran, beside Lordamere Lake.",
+   "spoiler": 0
+  },
+  {
+   "title": "Modera's Welcome",
+   "body": "At her image, Modera notes that Jacques was successful in finding aid. Though it is not strictly permitted, she says pride should not turn allies away in the city's desperate hour. She warns that things are anything but under control, whatever the guards would have you believe.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Emissary Jacques?",
+   "aliases": [
+    "emissary jacques",
+    "who is jacques",
+    "who gives an alarming request"
+   ],
+   "answer": "Jacques is an emissary of Dalaran in Southshore, sent by Archmage Modera to seek outside aid."
+  },
+  {
+   "q": "What is happening in Dalaran?",
+   "aliases": [
+    "what is wrong in dalaran",
+    "dalaran problem",
+    "why are constructs attacking dalaran"
+   ],
+   "answer": "The city's ley lines have been disrupted, and its constructs now behave erratically and destructively. The cause is not yet known, and the city is being overrun."
+  },
+  {
+   "q": "Why is the matter being kept private?",
+   "aliases": [
+    "why secrecy dalaran",
+    "why hide the constructs",
+    "dalaran high council secret"
+   ],
+   "answer": "The high council ordered the trouble kept private so as not to bring shame to the order."
+  },
+  {
+   "q": "Where is the Image of Archmage Modera located?",
+   "aliases": [
+    "where to find modera",
+    "modera location",
+    "image of archmage modera"
+   ],
+   "answer": "Near Dalaran, beside Lordamere Lake."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "alterac",
+  "constructs",
+  "dalaran",
+  "jacques",
+  "ley lines",
+  "lordamere",
+  "modera",
+  "southshore"
+ ],
+ "related": [
+  "subzone:dalaran",
+  "subzone:southshore",
+  "subzone:lordamere-lake",
+  "zone:alterac"
+ ],
+ "attribution": [
+  "An Alarming Request"
+ ]
+}

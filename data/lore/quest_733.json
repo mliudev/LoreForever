@@ -1,0 +1,95 @@
+{
+ "key": "quest:733",
+ "type": "quest",
+ "name": "Scrounging",
+ "era": "classic",
+ "zone": "badlands",
+ "meta": {
+  "ids": [
+   733
+  ],
+  "level": "40",
+  "faction": "Alliance",
+  "start": "Sigrun Ironhew",
+  "end": "Sigrun Ironhew",
+  "previous": "Mirages",
+  "next": "",
+  "wiki": "Scrounging",
+  "chain": [
+   "Mirages",
+   "Scrounging"
+  ],
+  "prev_q": [
+   "Mirages"
+  ],
+  "category": "Badlands"
+ },
+ "summary": "Sigrun Ironhew needs materials to build defenses and other necessities for the camp, and has noticed the ogres nearby carry plenty of scrap metal. Sigrun wants seven pieces of it.",
+ "sections": [
+  {
+   "title": "A Camp Short of Materials",
+   "body": "Sigrun finds it hard going without materials for defenses and other necessities, and the Prospector has been worrying about the state of the little camp. Sigrun wants to get to work soon, and needs scrap metal to do it.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Ogres' Scrap",
+   "body": "The ogres in the area seem well supplied with scrap metal, which makes Sigrun think the talk of siege engines in the Badlands may have had something to it. Their main camp is Dustbelch Grotto, a long trek west of Sigrun's camp.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is asking for the scrap metal?",
+   "aliases": [
+    "quest giver",
+    "who gives scrounging",
+    "sigrun"
+   ],
+   "answer": "Sigrun Ironhew, who wants it to build defenses and other necessities for the camp."
+  },
+  {
+   "q": "Why does the camp need scrap metal?",
+   "aliases": [
+    "why need scrap metal",
+    "purpose of scrap metal",
+    "defenses"
+   ],
+   "answer": "Sigrun lacks the materials to build defenses and other necessities, and the Prospector has been worrying about the state of the camp."
+  },
+  {
+   "q": "Where can the scrap metal be found?",
+   "aliases": [
+    "scrap metal location",
+    "where to get scrap metal",
+    "ogre camp"
+   ],
+   "answer": "The ogres in the area carry it. Their main camp is Dustbelch Grotto, a long trek west of Sigrun's camp."
+  },
+  {
+   "q": "What comes before this?",
+   "aliases": [
+    "previous quest",
+    "scrounging prerequisite"
+   ],
+   "answer": "It follows Mirages."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "badlands",
+  "dustbelch grotto",
+  "explorers' league",
+  "ironforge",
+  "ogres",
+  "scrap metal",
+  "scrounging",
+  "sigrun ironhew"
+ ],
+ "related": [
+  "quest:718",
+  "zone:badlands"
+ ],
+ "attribution": [
+  "Scrounging"
+ ]
+}

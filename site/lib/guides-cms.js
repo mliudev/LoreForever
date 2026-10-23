@@ -8,6 +8,7 @@
 
 import { currentUser } from "./accounts.js";
 import { editorRows, fileIndex, loadFileArticle, problems, rowArticle } from "./guides.js";
+import { createMissing } from "./schema.js";
 
 const SETUP = [
   `CREATE TABLE IF NOT EXISTS guides (
@@ -21,7 +22,7 @@ const SETUP = [
 ];
 const ready = new WeakMap();
 function setupGuides(env) {
-  if (!ready.has(env.DB)) ready.set(env.DB, env.DB.batch(SETUP.map(s => env.DB.prepare(s)))
+  if (!ready.has(env.DB)) ready.set(env.DB, createMissing(env, SETUP)
     .catch(e => { ready.delete(env.DB); throw e; }));
   return ready.get(env.DB);
 }

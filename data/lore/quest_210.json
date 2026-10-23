@@ -1,0 +1,87 @@
+{
+ "key": "quest:210",
+ "type": "quest",
+ "name": "Krazek's Cookery",
+ "era": "classic",
+ "zone": "stranglethorn",
+ "meta": {
+  "ids": [
+   210
+  ],
+  "level": "37",
+  "start": "Corporal Kaleb",
+  "end": "Krazek",
+  "next": "Favor for Krazek",
+  "next_q": [
+   "Favor for Krazek"
+  ],
+  "wiki": null,
+  "previous": ""
+ },
+ "summary": "Corporal Kaleb's mechanical cooking pot, bought off a goblin trader in Booty Bay, was a marvel until it broke. Kaleb asks you to take it back to the goblin Krazek for mending.",
+ "sections": [
+  {
+   "title": "A Broken Pot",
+   "body": "Corporal Kaleb does most of the cooking for the camp. It used to be heavy work until Kaleb bought a mechanical pot off a goblin trader in Booty Bay, and the pot spared Kaleb hour after hour. Then it broke. Krazek's Crock Pot must go back to the goblin Krazek to be fixed, and Kaleb hopes you will carry it there.",
+   "spoiler": 0
+  },
+  {
+   "title": "Krazek Takes a Look",
+   "body": "Krazek calls the pot ingenious work, though prone to popping a spring or slipping a gear from time to time. Looking it over, Krazek finds the steam charger rusted out, the knuckle-gasket cracked and the fobulator missing teeth. Krazek can mend it, but a price comes with it, as it always does.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who sends you to Krazek?",
+   "aliases": [
+    "who gives krazek's cookery",
+    "who starts krazek cookery",
+    "corporal kaleb quest"
+   ],
+   "answer": "Corporal Kaleb, on whom the camp's cooking mostly falls, sends you. The mechanical pot Kaleb bought has broken down."
+  },
+  {
+   "q": "Where can Krazek be found?",
+   "aliases": [
+    "where is krazek",
+    "krazek location",
+    "krazek booty bay"
+   ],
+   "answer": "Krazek is the goblin trader of Booty Bay who sold the pot to Kaleb."
+  },
+  {
+   "q": "What does Corporal Kaleb want carried to Krazek?",
+   "aliases": [
+    "what is krazek's crock pot",
+    "what do i bring krazek"
+   ],
+   "answer": "A mechanical cooking pot named Krazek's Crock Pot, which broke after sparing Kaleb a great deal of work."
+  },
+  {
+   "q": "Why did Kaleb buy a cooking pot from Krazek?",
+   "aliases": [
+    "why mechanical cooking pot",
+    "kaleb cooking pot"
+   ],
+   "answer": "Kaleb handles most of the camp's cooking, and the pot spared Kaleb a great many hours until it broke."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "booty bay",
+  "corporal kaleb",
+  "crock pot",
+  "krazek",
+  "stranglethorn vale"
+ ],
+ "related": [
+  "quest:627",
+  "subzone:booty-bay",
+  "zone:stranglethorn",
+  "topic:goblin"
+ ],
+ "attribution": [
+  "Classic quest text: Krazek's Cookery"
+ ]
+}

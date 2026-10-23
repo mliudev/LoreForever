@@ -172,8 +172,12 @@ function clipSection(clip, live, names, heading) {
 
 function sourceItem(s) {
   if (s.kind === "wiki") {
-    return `<li><span class="src src-wiki">Wiki</span> Adapted from the Warcraft Wiki article
-        <a href="${escape(s.url)}">${escape(s.title)}</a> (<a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a>)</li>`;
+    // An article from Wowpedia (lore.wowpedia) names itself and its own license; the default is Warcraft Wiki, CC BY-SA 4.0.
+    const site = s.site === "Wowpedia" ? "Wowpedia" : "Warcraft Wiki";
+    const [lic, licUrl] = site === "Wowpedia" ? ["CC BY-SA 3.0", "https://creativecommons.org/licenses/by-sa/3.0/"]
+      : ["CC BY-SA 4.0", "https://creativecommons.org/licenses/by-sa/4.0/"];
+    return `<li><span class="src src-wiki">Wiki</span> Adapted from the ${site} article
+        <a href="${escape(s.url)}">${escape(s.title)}</a> (<a href="${licUrl}">${lic}</a>)</li>`;
   }
   if (s.kind === "forever") return `<li><span class="src src-forever">Forever</span> ${escape(s.title)}</li>`;
   if (s.kind === "community") return `<li><span class="src src-community">Community</span> ${escape(s.title)}</li>`;
@@ -412,13 +416,15 @@ export function entryPage(entry, { live = new Set(), names = {}, env, packs = []
     </section>` : "";
   // Look it up (LOR-263): its Wowhead page and its wiki article (the first one it was adapted from, else a search).
   const wowhead = wowheadUrl(entry.wowhead);
-  const wiki = (entry.sources || []).find(s => s.kind === "wiki" && /^https:\/\/warcraft\.wiki\.gg\//.test(s.url || ""))?.url
-    || wikiSearch(entry.name);
+  const wikiSources = (entry.sources || []).filter(s => s.kind === "wiki");
+  const wikiGg = wikiSources.find(s => /^https:\/\/warcraft\.wiki\.gg\//.test(s.url || ""))?.url;
+  const wowpedia = wikiGg ? null : wikiSources.find(s => /^https:\/\/wowpedia\.fandom\.com\//.test(s.url || ""))?.url;
+  const wiki = wikiGg || wowpedia || wikiSearch(entry.name);
   const lookup = `<section class="lp-out" aria-labelledby="out-title">
       <h2 id="out-title">Look it up</h2>
       <ul class="lp-links">
         ${wowhead ? `<li><a href="${escape(wowhead)}" rel="noopener">${escape(entry.name)} on Wowhead</a> <span class="lp-count">WoW Forever database</span></li>` : ""}
-        <li><a href="${escape(wiki)}" rel="noopener">${escape(entry.name)} on the Warcraft Wiki</a></li>
+        <li><a href="${escape(wiki)}" rel="noopener">${escape(entry.name)} on ${wowpedia ? "Wowpedia" : "the Warcraft Wiki"}</a></li>
       </ul>
     </section>`;
   const body = `  <article class="lp" data-key="${escape(entry.key)}">

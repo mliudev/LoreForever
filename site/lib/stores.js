@@ -33,6 +33,7 @@ import { isReportRead } from "./report-read.js";
 // day's release) better than the packs.
 
 import { utcDay } from "./activity.js";
+import { createMissing } from "./schema.js";
 
 export const CF_CORE = 1715510;
 // The narration and language projects in release/curseforge.json that have an id, plus the retired ones it no longer
@@ -68,7 +69,7 @@ const ready = new WeakMap();
 export async function setupStores(env) {
   if (isReportRead(env)) return;
   if (ready.get(env.DB)) return;
-  await env.DB.batch(SETUP.map(s => env.DB.prepare(s)));
+  await createMissing(env, SETUP);
   const { results } = await env.DB.prepare("PRAGMA table_info(store_counts)").all();
   const columns = new Set(results.map(r => r.name));
   for (const [column, type] of [["first", "INTEGER"], ["first_taken", "TEXT"]]) {

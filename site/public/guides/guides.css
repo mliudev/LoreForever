@@ -1,16 +1,48 @@
 /* Guides and lore articles (lib/guides.js, LOR-414). The article itself uses the lore pages' styles (/lore/lore.css);
-   this adds what Markdown articles have that lore pages don't: lists, quotes, code and the article list. */
-.gd-text h2 { scroll-margin-top: 80px; }
-.gd-text h3 { margin-top: 18px; }
-.gd-text ul, .gd-text ol { margin: 0 0 14px; padding-left: 22px; line-height: 1.7; }
-.gd-text li { margin: 0 0 6px; }
-.gd-text blockquote { margin: 0 0 14px; padding: 6px 14px; border-left: 3px solid var(--gold); color: var(--muted, inherit); }
+   this adds what Markdown articles have that lore pages don't: lists, quotes, code, figures, the contents list, the
+   FAQ and Sources blocks, and the article list. Reading comfort first: a calm measure, clear sections, short blocks. */
+.gd-text { font-size: 1.04rem; line-height: 1.75; }
+.gd-text > p:first-child { font-size: 1.14rem; line-height: 1.7; }
+.gd-text p { margin: 0 0 16px; }
+.gd-text h2 { scroll-margin-top: 80px; margin: 44px 0 14px; padding-top: 24px; border-top: 1px solid var(--line); }
+.gd-text h3 { margin: 24px 0 8px; }
+.gd-text ul, .gd-text ol { margin: 0 0 18px; padding-left: 24px; line-height: 1.7; }
+.gd-text li { margin: 0 0 8px; padding-left: 4px; }
+.gd-text li::marker { color: var(--gold-soft); }
+.gd-text strong { color: var(--text); }
+/* The quick answer (a "> " quote): the part to read if you read nothing else. */
+.gd-text blockquote { margin: 22px 0; padding: 14px 18px; background: rgba(216, 178, 90, 0.07); border: 1px solid var(--line);
+  border-left: 4px solid var(--gold); border-radius: 8px; color: var(--text); }
 .gd-text blockquote p { margin: 0; }
+.gd-text blockquote strong { color: var(--gold); }
 .gd-text code { padding: 1px 5px; border-radius: 4px; background: rgba(255, 255, 255, 0.07); font-size: 0.92em; }
 .gd-text img { max-width: 100%; height: auto; border-radius: 6px; }
-.gd-fig { margin: 18px 0 22px; }
-.gd-fig img { display: block; margin: 0 auto; }
-.gd-fig figcaption { margin-top: 6px; color: var(--muted, inherit); font-size: 0.92rem; text-align: center; }
+/* Pictures and diagrams */
+.gd-fig { margin: 26px 0 30px; padding: 10px; background: rgba(8, 10, 22, 0.6); border: 1px solid var(--panel-line); border-radius: 12px; }
+.gd-fig a { display: block; }
+.gd-fig img { display: block; margin: 0 auto; border-radius: 8px; }
+.gd-fig figcaption { margin-top: 10px; color: var(--muted, inherit); font-size: 0.92rem; text-align: center; }
+/* "On this page" */
+.gd-toc { margin: 24px 0 8px; padding: 14px 20px 8px; background: rgba(255, 255, 255, 0.03); border: 1px solid var(--line); border-radius: 8px; }
+.gd-toc p { margin: 0 0 6px; color: var(--gold-soft); font-family: var(--heading); font-size: 0.85rem; letter-spacing: 0.08em; text-transform: uppercase; }
+.gd-toc ol { margin: 0; padding-left: 22px; columns: 2 260px; column-gap: 28px; font-size: 0.96rem; line-height: 1.5; }
+.gd-toc li { margin: 0 0 8px; break-inside: avoid; }
+.gd-toc a { text-decoration: none; }
+.gd-toc a:hover, .gd-toc a:focus-visible { text-decoration: underline; }
+/* Frequently asked questions: each question stands out from its answer */
+.gd-faq h3 { margin: 22px 0 6px; padding-left: 14px; border-left: 3px solid var(--gold-soft); font-size: 1.08rem; }
+.gd-faq h3 + p { padding-left: 17px; }
+/* Sources: quieter than the article */
+.gd-sources { font-size: 0.94rem; line-height: 1.6; color: var(--muted, inherit); }
+.gd-sources ul { margin-bottom: 0; }
+.gd-sources a { color: var(--link); }
+.gd-sources p em { color: var(--muted, inherit); }
+@media (max-width: 560px) {
+  .gd-text { font-size: 1rem; }
+  .gd-text h2 { margin-top: 34px; padding-top: 20px; }
+  .gd-fig { padding: 6px; margin-left: -6px; margin-right: -6px; }
+  .gd-toc ol { columns: 1; }
+}
 .gd-list { list-style: none; margin: 18px 0 0; padding: 0; }
 .gd-list li { margin: 0 0 18px; }
 .gd-list a { display: inline-flex; gap: 8px; align-items: baseline; text-decoration: none; }

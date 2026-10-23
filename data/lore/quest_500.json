@@ -1,0 +1,83 @@
+{
+ "key": "quest:500",
+ "type": "quest",
+ "name": "Crushridge Bounty",
+ "era": "classic",
+ "zone": "alterac",
+ "meta": {
+  "ids": [
+   500
+  ],
+  "level": "36",
+  "faction": "Alliance",
+  "start": "Marshal Redpath",
+  "end": "Marshal Redpath",
+  "previous": "",
+  "next": "Crushridge Warmongers",
+  "wiki": "Crushridge Bounty",
+  "chain": [
+   "Crushridge Bounty",
+   "Crushridge Warmongers"
+  ],
+  "next_q": [
+   "Crushridge Warmongers"
+  ],
+  "category": "Hillsbrad Foothills"
+ },
+ "summary": "Marshal Redpath in Southshore warns that Crushridge ogres have settled by the ruins of Alterac and claimed them. A bounty is offered to anyone who will go north into the Alterac Mountains and hunt them.",
+ "sections": [
+  {
+   "title": "Ogres at the Door",
+   "body": "Redpath's scouts report that the Crushridge ogres have dug a mound in the Alterac Mountains, close to the ruined city, and have taken over its ruins as well. Redpath will not let them grow cozy: ogres who feel safe will move down into the foothills, right to Southshore's door. So Redpath sends you north to hunt the ogres and bring back the Dirty Knucklebones they carry, for a bounty.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Why does Marshal Redpath want the Crushridge ogres hunted?",
+   "aliases": [
+    "why kill crushridge ogres",
+    "redpath motive",
+    "ogre bounty reason"
+   ],
+   "answer": "Redpath fears the ogres will feel safe in their mound and the ruins of Alterac, and then move down into the foothills, which would put them at Southshore's door."
+  },
+  {
+   "q": "Where are the Crushridge ogres?",
+   "aliases": [
+    "ogre location",
+    "crushridge ogres where",
+    "where to find knucklebones"
+   ],
+   "answer": "North, in the Alterac Mountains, where they have built a mound close to the ruined city of Alterac. Redpath's scouts say they hold the ruins too."
+  },
+  {
+   "q": "What does Marshal Redpath want brought back?",
+   "aliases": [
+    "what do i bring redpath",
+    "ogre proof",
+    "dirty knucklebones"
+   ],
+   "answer": "Nine Dirty Knucklebones, which the Crushridge ogres carry, to be brought to Redpath in Southshore."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "alterac",
+  "bounty",
+  "crushridge",
+  "knucklebones",
+  "ogres",
+  "redpath",
+  "southshore"
+ ],
+ "related": [
+  "quest:504",
+  "subzone:southshore",
+  "zone:alterac",
+  "topic:alterac-kingdom"
+ ],
+ "attribution": [
+  "Crushridge Bounty"
+ ]
+}

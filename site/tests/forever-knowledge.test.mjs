@@ -12,6 +12,9 @@ import { promptParts, travelQuestion, travelKinds, inWorld, SEED_FACTS, asksTheW
 import { DATA_VERSION } from "../lib/knowledge-version.js";
 import { feedbackKind } from "../lib/answer-feedback.js";
 import { d1 } from "./helpers.mjs";
+// The facts are checked for the names and numbers they carry, not the sentence around them.
+const says = (text, ...facts) => { for (const f of facts) assert.ok(String(text).toLowerCase().includes(String(f).toLowerCase()),
+  `${JSON.stringify(text)} should say ${f}`); };
 
 const env = { DB: d1(), GEMINI_API_KEY: "test-key", ADMIN_KEY: "admin-test" };
 const originalFetch = globalThis.fetch;
@@ -168,7 +171,12 @@ test("feedbackKind tells corrections and frustration after an answer from ordina
   for (const said of ["I'm pretty sure that's Dalaran.", "No, this boat goes to Southshore.", "You're wrong about that.",
     "Make a note that your information is outdated.", "Actually it's rebuilt now.",
     "The disarming tool I have is actually an off-hand weapon that can disarm on a chance.",
-    "But I can choose Undead Paladin in WoW Forever."]) assert.equal(feedbackKind(said, answered), "correction", said);
+    "But I can choose Undead Paladin in WoW Forever.",
+    // Said again, or what their game shows (the insistence research, 10/22).
+    "I'm telling you, tauren can be paladins.", "However, my self buff only says it lasts for thirty seconds.",
+    "It really doesn't, I just judged and my seal is still up.", "There really aren't any, I looked everywhere.",
+    "It's floating over Northrend, I'm sure of it.", "No, in Forever judgement doesn't use up the seal anymore."])
+    assert.equal(feedbackKind(said, answered), "correction", said);
   for (const said of ["That's useless.", "You're not listening to me", "What are you talking about?"])
     assert.equal(feedbackKind(said, answered), "frustration", said);
   // Ordinary questions, including the review's misfires (10/12).
@@ -216,7 +224,7 @@ test("a flagged answer reaches /admin, and making it a fact puts it in later ans
     text: "The Riverglades flight master stands at Fairbreeze.", zone: "Riverglades", feedback_id: row.id }), env })).json();
   assert.equal(added.ok, true);
   await ask(token, "PLAYER CONTEXT\nzone: Riverglades\n\nQUESTION\nWhere's the flight master?");
-  assert.match(systems.at(-1), /Riverglades flight master: The Riverglades flight master stands at Fairbreeze/);
+  says(systems.at(-1), "Riverglades flight master", "Fairbreeze");
   const after = await (await adminGet({ request: admin("GET"), env })).json();
   assert.equal(after.feedback.rows.find(r => r.id === row.id).status, "fact");
   assert.equal(after.facts.find(f => f.id === added.id).origin, "mike");
@@ -262,7 +270,7 @@ test("a yes to her own offer asks the offer, and the riding trainers are the pla
   const yes = await knowledgeFor(env, { ...base, question: "Yes.", previous: offer, previousQuestion: "When can I get a mount?" });
   assert.match(yes.block, /Randal Hunter \(\d+, \d+\)/);
   const asked = await knowledgeFor(env, { ...base, question: "Where can I learn riding?", previous: "", previousQuestion: "" });
-  assert.match(asked.block, /Humans learn from Randal Hunter at Eastvale Logging Camp/);
+  says(asked.block, "Randal Hunter", "Eastvale Logging Camp");
   assert.doesNotMatch(asked.block, /Ultham Ironhorn|Kildar|Velma Warnam/);
 });
 
@@ -311,6 +319,43 @@ test("she's told she doesn't know where they are only when it matters and nothin
     "a general fact doesn't say where they are");
 });
 
+test("a quest question from a plan that reads quest pages aloud offers Live game info once, with the line that says why", async () => {
+  // Mike, 2026-10-21: quest pages with no recording are read aloud in the giver's voice on Champion and up, which the add-on
+  // only names while Live game info is on (lib/companion-voice.js speakQuestPage).
+  env.SITE_FEATURES = "plans";
+  try {
+    const player = async plan => {
+      const token = await linked();
+      if (plan) {
+        const user = env.DB.sqlite.prepare("SELECT id FROM users ORDER BY rowid DESC LIMIT 1").get();
+        env.DB.sqlite.prepare("INSERT INTO entitlements (user_id, subscription_id, plan, status, current_period_end, updated) " +
+          "VALUES (?, ?, ?, 'active', ?, ?)").run(user.id, `sub-${user.id}`, plan, new Date(Date.now() + 20 * 86400e3).toISOString(),
+          new Date().toISOString());
+      }
+      return token;
+    };
+    const asked = (token, live, q = "How do I finish the quest Wanted: Hogger?") => ask(token,
+      `WILLO STATE\nlive: ${live}\n\nPLAYER CONTEXT\n(none)\n\nSOURCES\n\nQUESTION\n${q}`, { style: "spoken" });
+    const champion = await player("champion");
+    const first = await asked(champion, "off");
+    assert.equal(first.action?.id, "live_game_info", "the button of Live game info's consent card");
+    assert.match(first.answer, /Want quests without a recording read aloud\? Turn on Live game info\.$/);
+    assert.doesNotMatch(first.answer, /where you are and who you target/, "its own line, not the plain offer's");
+    const again = await asked(champion, "off", "What is the best reward for this quest?");
+    assert.equal(again.action, undefined, "once ever");
+    assert.doesNotMatch(again.answer, /Live game info/);
+    // (The plain offer for a question about where they are has its own count: this one is a quest's.)
+    assert.equal((await asked(champion, "off", "Where's the flightmaster?")).action?.id, "live_game_info");
+    // On already, no quest in the question, or a plan without quest pages (Hero): nothing, or the plain offer.
+    const other = await player("champion");
+    assert.equal((await asked(other, "on")).action, undefined);
+    assert.equal((await asked(other, "off", "Who was Arthas?")).action, undefined);
+    const hero = await player("hero");
+    assert.equal((await asked(hero, "off")).answer.includes("read aloud"), false);
+    assert.equal((await asked(hero, "off", "Where's the flightmaster?")).action?.id, "live_game_info", "Hero keeps the plain offer");
+  } finally { delete env.SITE_FEATURES; }
+});
+
 test("Live game info is offered once, under an answer that needed where they are, with its consent button (10/19)", async () => {
   const token = await linked();
   const asked = (live, q = "Where's the flightmaster?") => ask(token, `WILLO STATE\nlive: ${live}\n\nPLAYER CONTEXT\n(none)\n\n` +
@@ -318,7 +363,8 @@ test("Live game info is offered once, under an answer that needed where they are
   const first = await asked("off");
   assert.match(systems.at(-1), /WHERE THEY ARE/, "and she's told she doesn't know where they are");
   assert.equal(first.action?.id, "live_game_info", "its consent button, the same explained yes as its card");
-  assert.match(first.answer, /Live game info on.*Want to see how it works\?$/);
+  says(first.answer, "Live game info");
+  assert.match(first.answer, /\?$/, "she offers, and asks");
   const again = await asked("off", "Where is the closest graveyard?");
   assert.equal(again.action, undefined, "never again for this account");
   assert.doesNotMatch(again.answer, /Live game info/);

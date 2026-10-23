@@ -11,13 +11,13 @@
  "summary": "The Defias Traitor is a captured outlaw held at the base of the Sentinel Hill watchtower in Westfall. Caught red-handed by the People's Militia, he traded the secret location of the Brotherhood's headquarters to save his own neck.",
  "sections": [
   {
-   "title": "A Bargain for Survival",
-   "body": "Not every member of the Defias Brotherhood possesses fanatical loyalty to Edwin VanCleef's cause. When this petty thief was caught attempting to rob Farmer Saldean of his wagon, Gryan Stoutmantle's militia had him dead to rights. Facing the gallows, the thief chose self-preservation over brotherhood, offering up the exact whereabouts of their hidden base of operations in exchange for his life.",
-   "spoiler": 0
-  },
-  {
    "title": "Leading the Way to Moonbrook",
    "body": "Guarded beneath the watchtower at Sentinel Hill, the turncoat's task is simple yet dangerous: guide Alliance champions straight through hostile territory to the hidden entrance beneath the ruined town of Moonbrook. Though hated by his former comrades and despised by his captors, his betrayal provides the People's Militia with the breakthrough they need to strike at the Brotherhood's heart.",
+   "spoiler": 1
+  },
+  {
+   "title": "A Bargain for Survival",
+   "body": "Not every member of the Defias Brotherhood possesses fanatical loyalty to Edwin VanCleef's cause. When this petty thief was caught attempting to rob Farmer Saldean of his wagon, Gryan Stoutmantle's militia had him dead to rights. Facing the gallows, the thief chose self-preservation over brotherhood, offering up the exact whereabouts of their hidden base of operations in exchange for his life.",
    "spoiler": 1
   }
  ],

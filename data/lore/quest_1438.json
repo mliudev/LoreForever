@@ -1,0 +1,108 @@
+{
+ "key": "quest:1438",
+ "type": "quest",
+ "name": "Vahlarriel's Search",
+ "era": "classic",
+ "zone": "desolace",
+ "meta": {
+  "ids": [
+   1438
+  ],
+  "level": "33",
+  "faction": "Alliance",
+  "start": "Vahlarriel Demonslayer",
+  "end": "Dalinda Malem",
+  "previous": "Vahlarriel's Search (2)",
+  "next": "Search for Tyranis",
+  "wiki": "Vahlarriel's Search (3)",
+  "chain": [
+   "Vahlarriel's Search",
+   "Vahlarriel's Search (2)",
+   "Vahlarriel's Search (3)",
+   "Search for Tyranis",
+   "Return to Vahlarriel"
+  ],
+  "prev_q": [
+   "Vahlarriel's Search (2)"
+  ],
+  "next_q": [
+   "Search for Tyranis"
+  ],
+  "category": "Desolace"
+ },
+ "summary": "After the second part of Vahlarriel's Search, Vahlarriel Demonslayer sends you to look for Dalinda and Tyranis Malem, beginning at the fortress. Word of it goes to Vahlarriel's superiors in Darnassus, who worry about Tyranis's motives and want Dalinda brought home safe above all.",
+ "sections": [
+  {
+   "title": "A Search at the Fortress",
+   "body": "Vahlarriel Demonslayer wants you to look for both Dalinda and Tyranis, beginning at the fortress, and return with what you learn. Vahlarriel will contact superiors in Darnassus right away. A private word follows: they worry about why Tyranis came to Desolace, and they care most that Dalinda gets home safe. As for Tyranis, they want him gauged first, before any homecoming.",
+   "spoiler": 0
+  },
+  {
+   "title": "A Captive's Account",
+   "body": "Dalinda, found in the large building facing the entrance, says the Burning Blade seized her and Tyranis and carried them here, and she believes she is to be sacrificed to their demon masters. She says the trip was a mistake from the start. Tyranis had grown hungry for arcane lore, against his people's wishes, and set out despite warnings of demons here. She dreads what has become of him.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Where is Dalinda Malem?",
+   "aliases": [
+    "dalinda malem location",
+    "where to find dalinda",
+    "find dalinda desolace"
+   ],
+   "answer": "In the Thunder Axe Fortress area of Desolace, in the large building that faces the entrance."
+  },
+  {
+   "q": "Who sends you to look for Dalinda and Tyranis?",
+   "aliases": [
+    "who gives vahlarriel's search",
+    "quest giver vahlarriel",
+    "vahlarriel demonslayer quest"
+   ],
+   "answer": "Vahlarriel Demonslayer asks you to find both if you can, beginning at the fortress, while Vahlarriel informs superiors in Darnassus."
+  },
+  {
+   "q": "Why does Darnassus care more about Dalinda than Tyranis?",
+   "aliases": [
+    "why is tyranis suspected",
+    "tyranis motives",
+    "why prioritize dalinda"
+   ],
+   "answer": "Vahlarriel's superiors doubt Tyranis's reasons for coming to Desolace, and they value Dalinda's safe return above all."
+  },
+  {
+   "q": "What came before this part of the search?",
+   "aliases": [
+    "previous quest",
+    "prerequisite vahlarriel",
+    "vahlarriel search chain"
+   ],
+   "answer": "It follows the second part of Vahlarriel's Search."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "burning blade",
+  "dalinda",
+  "darnassus",
+  "demonslayer",
+  "desolace",
+  "malem",
+  "thunder axe fortress",
+  "tyranis",
+  "vahlarriel"
+ ],
+ "related": [
+  "subzone:thunder-axe-fortress",
+  "zone:desolace",
+  "zone:darnassus",
+  "quest:1439",
+  "quest:1440",
+  "quest:1437",
+  "topic:elune"
+ ],
+ "attribution": [
+  "Vahlarriel's Search (3)"
+ ]
+}

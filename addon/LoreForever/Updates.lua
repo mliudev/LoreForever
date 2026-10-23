@@ -9,7 +9,9 @@
 -- build is OLD_DAYS old with nothing newer known, the chat says so once, with how to update, and then nothing for
 -- QUIET_DAYS. The minimap button's tooltip says it while a newer version is known, and /lore version tells it any time.
 -- Options > "Tell me when a new version is out" turns the chat line and the tooltip line off.
--- State: LoreForeverDB.update = { told = time() of the last chat line }.
+-- Too old to work (LoreForeverJourneyData.addonMin, the oldest add-on the site still works with, from Willo): the chat
+-- says so at every login, at most once a day, whatever that option says, and the tooltip and /lore version say it too.
+-- State: LoreForeverDB.update = { told = time() of the last chat line, toldOld = of the last too-old line }.
 -- pipeline/tests/updates_sim.py checks all of this.
 
 local _, ns = ...
@@ -66,7 +68,16 @@ local function willo()
   local d = _G.LoreForeverJourneyData
   if type(d) ~= "table" then return nil end
   return { version = type(d.willo) == "string" and d.willo or nil, latest = type(d.latest) == "string" and d.latest or nil,
-           keeps = d.keepsAddon == true }
+           keeps = d.keepsAddon == true, min = type(d.addonMin) == "string" and d.addonMin or nil }
+end
+
+-- The oldest add-on that still works, when this one is older (Willo says so): that version, or nil. A build without a
+-- release number ("0.25.0-qa3") never is.
+function U.TooOld()
+  local ours, w = mine(), willo()
+  local min = w and parse(w.min)
+  if not (ours and min) or ahead(min, ours) == 0 then return nil end
+  return w.min
 end
 function U.WilloVersion()
   local w = willo()
@@ -87,6 +98,7 @@ end
 
 -- Whether it's time for the chat line, and which: "newer" (a version is known) or "old" (this build is OLD_DAYS old).
 local function due()
+  if U.TooOld() and time() - (tonumber(state().toldOld) or 0) >= DAY then return "required" end
   if not (S().updateNotice and mine()) then return nil end
   local told = tonumber(state().told)
   if told and time() - told < QUIET_DAYS * DAY then return nil end
@@ -125,6 +137,12 @@ function U.MaybeTell()
     return false
   end
   waiting = false
+  if kind == "required" then
+    state().toldOld = time()
+    say(string.format(L["this version (%s) is too old to keep working. Please update it to %s or newer. %s"],
+      ns.Log.Version(), U.TooOld(), how()))
+    return true
+  end
   state().told = time()
   local newest = U.Newer()
   if kind == "newer" then
@@ -138,6 +156,8 @@ end
 
 -- The minimap button's tooltip line while a newer version is known, or nil.
 function U.TooltipLine()
+  local min = U.TooOld()
+  if min then return string.format(L["Too old to keep working: please update to %s or newer."], min) end
   if not S().updateNotice then return nil end
   local newest = U.Newer()
   return newest and string.format(L["A new version is out: %s (you have %s)."], newest, ns.Log.Version()) or nil
@@ -159,8 +179,10 @@ function U.Describe(sayFn)
   sayFn(day and string.format(L["this is version %s, released %s."], v, day) or string.format(L["this is version %s."], v))
   local w = U.WilloVersion()
   if w then sayFn(string.format(L["%s, the companion app: version %s."], ns.COMPANION_NAME, w)) end
-  local newest = U.Newer()
-  if newest then
+  local newest, min = U.Newer(), U.TooOld()
+  if min then
+    sayFn(string.format(L["Too old to keep working: please update to %s or newer."], min) .. " " .. how())
+  elseif newest then
     sayFn(string.format(L["A new version is out: %s. %s"], newest, how()))
   elseif U.WilloVersion() then
     sayFn(string.format(L["It's the newest version %s knows of."], ns.COMPANION_NAME))

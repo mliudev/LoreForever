@@ -1,0 +1,103 @@
+{
+ "key": "quest:1194",
+ "type": "quest",
+ "name": "Rizzle's Schematics",
+ "era": "classic",
+ "zone": "thousandneedles",
+ "meta": {
+  "ids": [
+   1194
+  ],
+  "level": "41",
+  "faction": null,
+  "start": "Rizzle's Unguarded Plans",
+  "end": "Pozzik",
+  "previous": "Keeping Pace",
+  "next": "Indurium Ore (quest)",
+  "wiki": "Rizzle's Schematics",
+  "chain": [
+   "Keeping Pace",
+   "Rizzle's Schematics",
+   "Indurium Ore (quest)"
+  ],
+  "prev_q": [
+   "Keeping Pace"
+  ],
+  "next_q": [
+   "Indurium Ore (quest)"
+  ],
+  "category": "Thousand Needles"
+ },
+ "summary": "Rizzle's unguarded plans describe the refining of indurium ore. The scrawls point to the dwarves' dig at Uldaman, in the Badlands, as where the ore comes from, and many of the other notes are about heat resistance. A lump of raw ore sits on the plans as a paperweight, and you carry that sample to Pozzik on the Shimmering Flats. This follows Keeping Pace.",
+ "sections": [
+  {
+   "title": "Notes on Indurium",
+   "body": "Rizzle's schematics describe the refining of indurium ore. Rizzle's scrawls point to the dwarves' dig at Uldaman, in the Badlands, as where the ore comes from. Many of the other notes are about how well it resists heat. A lump of raw indurium ore holds the plans down as a paperweight, and that sample is what you take to Pozzik.",
+   "spoiler": 0
+  },
+  {
+   "title": "Pozzik's Verdict",
+   "body": "Pozzik finds indurium interesting. If it resists heat to the degree you say, that could account for how much the gnomes have improved of late. The sample will be invaluable for tests, though Pozzik will need more for it to be of any real use.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Where does Rizzle get his indurium ore?",
+   "aliases": [
+    "where is indurium from",
+    "source of indurium ore",
+    "rizzle indurium location"
+   ],
+   "answer": "Rizzle's scrawls point to the dwarves' dig at Uldaman, in the Badlands."
+  },
+  {
+   "q": "What do Rizzle's notes say about indurium?",
+   "aliases": [
+    "what does indurium do",
+    "why indurium",
+    "indurium properties"
+   ],
+   "answer": "Rizzle's notes describe the refining of the ore, and many of the other notes are about its resistance to heat."
+  },
+  {
+   "q": "Who receives the indurium sample?",
+   "aliases": [
+    "who do i turn this in to",
+    "who wants the indurium sample",
+    "pozzik turn in"
+   ],
+   "answer": "You bring the sample to Pozzik on the Shimmering Flats."
+  },
+  {
+   "q": "Where did this sample come from?",
+   "aliases": [
+    "where was the sample found",
+    "rizzle paperweight"
+   ],
+   "answer": "A lump of raw indurium ore was holding Rizzle's plans down as a paperweight."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "badlands",
+  "indurium",
+  "pozzik",
+  "rizzle",
+  "schematics",
+  "shimmering flats",
+  "uldaman"
+ ],
+ "related": [
+  "npc:pozzik",
+  "quest:1190",
+  "quest:1192",
+  "subzone:shimmering-flats",
+  "subzone:uldaman",
+  "zone:badlands",
+  "zone:thousandneedles"
+ ],
+ "attribution": [
+  "Rizzle's Schematics"
+ ]
+}

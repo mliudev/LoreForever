@@ -1,0 +1,89 @@
+{
+ "key": "quest:1366",
+ "type": "quest",
+ "name": "Centaur Bounty",
+ "era": "classic",
+ "zone": "desolace",
+ "meta": {
+  "ids": [
+   1366
+  ],
+  "level": "31",
+  "faction": "Horde",
+  "start": "Felgur Twocuts",
+  "end": "Felgur Twocuts",
+  "previous": "Khan Dez'hepah (quest)",
+  "next": "",
+  "wiki": "Centaur Bounty (Horde)",
+  "chain": [],
+  "category": "Desolace",
+  "prev_q": [
+   "Khan Dez'hepah (quest)"
+  ]
+ },
+ "summary": "After Khan Dez'hepah, Felgur Twocuts says the scared centaur clans must now be bled. Hunt centaur of any clan across Desolace and bring Felgur fifteen of their ears.",
+ "sections": [
+  {
+   "title": "Time to Bleed Them",
+   "body": "Felgur Twocuts says that now the centaur clans have been scared, it is time to bleed them. Whenever you travel Desolace, hunt centaur. Felgur does not care which clan you hunt, only that you gather ears, fifteen of them. Thinning their numbers will weaken their resolve and put an end to any thoughts of expansion.",
+   "spoiler": 0
+  },
+  {
+   "title": "Felgur's Verdict",
+   "body": "When you return, Felgur says the centaur must by now know your name, and respect and fear it. They know the banner you ride under as well: the Horde's.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who orders this bounty on the centaur?",
+   "aliases": [
+    "who gives centaur bounty",
+    "centaur bounty questgiver"
+   ],
+   "answer": "Felgur Twocuts, in Desolace. Fifteen centaur ears are to be brought back to Felgur."
+  },
+  {
+   "q": "Which centaur clans need to be hunted?",
+   "aliases": [
+    "which centaur do i kill",
+    "what clan for centaur bounty"
+   ],
+   "answer": "Any of them. Felgur does not care which clan you hunt, only that you gather ears."
+  },
+  {
+   "q": "Why does Felgur want so many centaur ears?",
+   "aliases": [
+    "why kill centaur desolace",
+    "reason for centaur bounty"
+   ],
+   "answer": "To weaken the centaur numbers. Fewer centaur means weaker resolve, and it stamps out any thoughts of expansion."
+  },
+  {
+   "q": "What came before this bounty?",
+   "aliases": [
+    "centaur bounty prereq",
+    "previous quest centaur bounty"
+   ],
+   "answer": "It follows Khan Dez'hepah. Felgur says the centaur clans have been scared, and now it is time to bleed them."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "centaur",
+  "centaur bounty",
+  "centaur ears",
+  "desolace",
+  "felgur twocuts",
+  "khan dez'hepah"
+ ],
+ "related": [
+  "npc:felgur-twocuts",
+  "zone:desolace",
+  "topic:centaur",
+  "topic:horde"
+ ],
+ "attribution": [
+  "Centaur Bounty (Horde)"
+ ]
+}

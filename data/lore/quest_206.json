@@ -1,0 +1,92 @@
+{
+ "key": "quest:206",
+ "type": "quest",
+ "name": "Mai'Zoth",
+ "era": "classic",
+ "zone": "stranglethorn",
+ "meta": {
+  "ids": [
+   206
+  ],
+  "level": "46",
+  "faction": "Alliance",
+  "start": "Brother Nimetz",
+  "end": "Brother Nimetz",
+  "previous": "",
+  "next": "",
+  "wiki": "Mai'Zoth (quest)",
+  "chain": [],
+  "category": "Stranglethorn Vale"
+ },
+ "summary": "Brother Nimetz believes Colonel Kurzen was driven to evil by a hidden power that still lives. An ogre mage known as Mai'Zoth lurks within the eastern mountains, wielding an artifact reputed to twist and control minds. Destroying him and recovering this relic is meant to ensure no other commander suffers the same corruption.",
+ "sections": [
+  {
+   "title": "The Source of Corruption",
+   "body": "Though Kurzen has fallen, Brother Nimetz insists the primary catalyst behind the rebellion remains intact. His research points to Mai'Zoth, an ogre mage dwelling inside an ogre mound deep within the eastern heights of Stranglethorn Vale. Nimetz is certain that Mai'Zoth employed mind-altering sorcery to warp Kurzen's thoughts, warning that leaving the ogre alive invites another commander to succumb to the very same sinister influence.",
+   "spoiler": 0
+  },
+  {
+   "title": "Securing the Relic",
+   "body": "To permanently eliminate the threat, you are asked to strike down Mai'Zoth, take the Mind's Eye from him, and bring that corrupting artifact back to the Rebel Camp.",
+   "spoiler": 0
+  },
+  {
+   "title": "After the Delivery",
+   "body": "Nimetz gives the one who brings the Mind's Eye his blessing, and means to study the artifact to learn whether its power might serve good. If it cannot, he says it must be destroyed.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Mai'Zoth?",
+   "aliases": [
+    "who is maizoth",
+    "maizoth lore",
+    "ogre mage maizoth"
+   ],
+   "answer": "Mai'Zoth is an ogre mage who resides in an ogre mound in the eastern mountains of Stranglethorn Vale. Brother Nimetz holds him responsible for mentally corrupting Colonel Kurzen through sinister enchantments."
+  },
+  {
+   "q": "What is the Mind's Eye?",
+   "aliases": [
+    "minds eye lore",
+    "what is the artifact",
+    "mind's eye"
+   ],
+   "answer": "The Mind's Eye is an artifact held by Mai'Zoth, reputed to possess mind-controlling magic that the ogre mage uses to corrupt and influence others."
+  },
+  {
+   "q": "Why does Brother Nimetz want Mai'Zoth slain?",
+   "aliases": [
+    "nimetz motive",
+    "why kill maizoth",
+    "reason for hunting maizoth"
+   ],
+   "answer": "Brother Nimetz fears that as long as Mai'Zoth lives, his corruption could turn someone else into another Kurzen."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Alliance",
+   "text": "Brother Nimetz operates out of the Rebel Camp in northern Stranglethorn Vale, seeking Alliance champions to put an end to the hidden evil that corrupted Kurzen."
+  }
+ ],
+ "keywords": [
+  "brother nimetz",
+  "kurzen",
+  "mai'zoth",
+  "maizoth",
+  "mind's eye",
+  "ogre mound",
+  "rebel camp",
+  "stranglethorn"
+ ],
+ "related": [
+  "subzone:rebel-camp",
+  "quest:591",
+  "zone:stranglethorn"
+ ],
+ "attribution": [
+  "Mai'Zoth (quest)"
+ ]
+}

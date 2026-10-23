@@ -1,0 +1,102 @@
+{
+ "key": "quest:648",
+ "type": "quest",
+ "name": "Rescue OOX-17/TN!",
+ "era": "classic",
+ "zone": "tanaris",
+ "meta": {
+  "ids": [
+   648
+  ],
+  "level": "48",
+  "faction": "Neutral",
+  "start": "Homing Robot OOX-17/TN",
+  "end": "Oglethorpe Obnoticus",
+  "previous": "Find OOX-17/TN!",
+  "next": "",
+  "wiki": "Rescue OOX-17/TN!",
+  "chain": [],
+  "prev_q": [
+   "Find OOX-17/TN!"
+  ],
+  "category": "Tanaris",
+  "chain_tpl": [
+   "Oglethorpe's Homing Robots"
+  ]
+ },
+ "summary": "The damaged homing robot OOX-17/TN speaks with Oglethorpe's voice. It needs an open, safe place for a lengthy take-off, and you are asked to see it safely to Steamwheedle Port, and then to find Oglethorpe Obnoticus in Booty Bay.",
+ "sections": [
+  {
+   "title": "An Escort to the Port",
+   "body": "Oglethorpe's voice crackles from the robot once more. The robot has built-in cloaking, but Oglethorpe needs time to make it operational again, so it must reach an open, safe place where its lengthy take-off procedure can begin. Steamwheedle Port is the spot Oglethorpe has in mind, and the trip gives the time needed to get things working. Your part is to escort the robot there safely.",
+   "spoiler": 0
+  },
+  {
+   "title": "Report in Booty Bay",
+   "body": "Once the robot is safely at the port, you are asked to look for Oglethorpe Obnoticus, a master inventor, in Booty Bay.",
+   "spoiler": 0
+  },
+  {
+   "title": "A Grateful Inventor",
+   "body": "Oglethorpe greets you as the one who saved OOX-17/TN. The homing robot series still needs more development, but getting this one back has saved countless hours of rebuilding and a great many gold pieces in rebinding costs. Oglethorpe says both the robots and the inventor are in your debt.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Where does the robot need to be escorted?",
+   "aliases": [
+    "where does oox-17 go",
+    "oox-17 escort path",
+    "robot destination"
+   ],
+   "answer": "To Steamwheedle Port, where it can safely begin its take-off."
+  },
+  {
+   "q": "Who is speaking through the robot?",
+   "aliases": [
+    "who made oox-17",
+    "oox-17 creator",
+    "who is speaking through the robot"
+   ],
+   "answer": "Oglethorpe Obnoticus, a gnome and master inventor, whose homing robot this is. You find the inventor in Booty Bay."
+  },
+  {
+   "q": "Why does the robot need to be moved?",
+   "aliases": [
+    "why move oox-17",
+    "why steamwheedle port"
+   ],
+   "answer": "It needs an open, safe place to begin a lengthy take-off. Its built-in cloaking also needs time to be made operational again."
+  },
+  {
+   "q": "Where do you report after the escort?",
+   "aliases": [
+    "where is oglethorpe obnoticus",
+    "who do i turn this in to",
+    "oox-17 turn in location"
+   ],
+   "answer": "Oglethorpe Obnoticus waits in Booty Bay."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "booty bay",
+  "homing robot",
+  "mechanical chicken",
+  "oglethorpe obnoticus",
+  "oox-17/tn",
+  "steamwheedle port",
+  "tanaris"
+ ],
+ "related": [
+  "quest:351",
+  "zone:tanaris",
+  "subzone:booty-bay",
+  "subzone:steamwheedle-port",
+  "topic:gnome"
+ ],
+ "attribution": [
+  "Rescue OOX-17/TN!"
+ ]
+}

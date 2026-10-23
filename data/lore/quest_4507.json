@@ -1,0 +1,109 @@
+{
+ "key": "quest:4507",
+ "type": "quest",
+ "name": "Pawn Captures Queen",
+ "era": "classic",
+ "zone": "tanaris",
+ "meta": {
+  "ids": [
+   4507
+  ],
+  "level": "54",
+  "faction": null,
+  "start": "Alchemist Pestlezugg",
+  "end": "Alchemist Pestlezugg",
+  "previous": "Bungle in the Jungle",
+  "next": "Calm Before the Storm (Alliance), Calm Before the Storm (Horde)",
+  "wiki": "Pawn Captures Queen",
+  "chain": [],
+  "prev_q": [
+   "Bungle in the Jungle"
+  ],
+  "next_q": [
+   "Calm Before the Storm (Alliance)",
+   "Calm Before the Storm (Horde)"
+  ],
+  "qtype": "Group",
+  "category": "Tanaris",
+  "chain_tpl": [
+   "Rise of the Silithid"
+  ]
+ },
+ "summary": "After Bungle in the Jungle, Alchemist Pestlezugg hands you the lure and sends you into the silithid hive in Un'Goro Crater. The lure is meant to rouse the Gorishi Hive Queen, whose brain Pestlezugg wants brought back to Gadgetzan for study.",
+ "sections": [
+  {
+   "title": "The Lure and the Crystal",
+   "body": "Pestlezugg gives you the lure. The hive network is thought to hold a crystal that the silithid use as a hive-wide attunement device, and the hatcheries are the best place to look. Apply the lure to that crystal and the queen should come out, though several guards will probably be with her.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Queen's Brain",
+   "body": "Pestlezugg wants the queen's brain taken and carried to Gadgetzan. Pestlezugg admits it sounds icky, yet says the brain is badly needed for study.",
+   "spoiler": 0
+  },
+  {
+   "title": "After the Queen Falls",
+   "body": "Pestlezugg suspects the silithid may be controlled by a malign intelligence, and shudders to think what could command something so insidious. When the brain arrives, Pestlezugg calls it quite a victory, yet doubts it was the full extent of the silithid presence, saying it is too clean a resolution.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Where is the Gorishi Hive Queen?",
+   "aliases": [
+    "gorishi queen location",
+    "where is the silithid queen",
+    "where to find gorishi queen"
+   ],
+   "answer": "She is summoned inside the silithid hive in Un'Goro Crater, using the lure on a crystal Pestlezugg expects to find in the hatcheries."
+  },
+  {
+   "q": "What is the crystal in the hive for?",
+   "aliases": [
+    "hive crystal",
+    "queen lure crystal",
+    "using queen lure"
+   ],
+   "answer": "Pestlezugg thinks the silithid use a crystal in the hive network as a hive-wide attunement device. The lure is meant for that crystal, and the hatcheries are the place to try."
+  },
+  {
+   "q": "Why does Pestlezugg want the queen's brain?",
+   "aliases": [
+    "why gorishi brain",
+    "gorishi queen brain purpose",
+    "pestlezugg research"
+   ],
+   "answer": "Pestlezugg says it must be studied, and wants it brought to Gadgetzan."
+  },
+  {
+   "q": "What comes before this?",
+   "aliases": [
+    "pawn captures queen prerequisites",
+    "what quest comes before pawn captures queen",
+    "previous quest"
+   ],
+   "answer": "Bungle in the Jungle, in which Pestlezugg asked for a scent gland and Un'Goro soil to brew the lure."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "brain",
+  "gadgetzan",
+  "gorishi",
+  "lure",
+  "pestlezugg",
+  "queen",
+  "silithid",
+  "tanaris",
+  "un'goro"
+ ],
+ "related": [
+  "quest:4496",
+  "subzone:gadgetzan",
+  "zone:ungoro",
+  "zone:tanaris"
+ ],
+ "attribution": [
+  "Pawn Captures Queen"
+ ]
+}

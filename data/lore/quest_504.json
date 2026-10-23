@@ -1,0 +1,95 @@
+{
+ "key": "quest:504",
+ "type": "quest",
+ "name": "Crushridge Warmongers",
+ "era": "classic",
+ "zone": "alterac",
+ "meta": {
+  "ids": [
+   504
+  ],
+  "level": "40",
+  "faction": "Alliance",
+  "start": "Marshal Redpath",
+  "end": "Marshal Redpath",
+  "previous": "Crushridge Bounty",
+  "next": "",
+  "wiki": "Crushridge Warmongers",
+  "chain": [
+   "Crushridge Bounty",
+   "Crushridge Warmongers"
+  ],
+  "prev_q": [
+   "Crushridge Bounty"
+  ],
+  "qtype": "Group",
+  "category": "Alterac Mountains"
+ },
+ "summary": "Marshal Redpath of Southshore wants the Crushridge ogres hit harder than before. You are sent into the Ruins of Alterac to find the Crushridge Warmongers, so the brutes will stay away from the Alliance.",
+ "sections": [
+  {
+   "title": "A Harder Lesson",
+   "body": "After Crushridge Bounty, Marshal Redpath wants the ogres to feel it in earnest. Redpath sends you into the Ruins of Alterac to seek out the Crushridge Warmongers and cut down plenty of them. Redpath holds that nothing else will teach the brutes to stay clear of Alliance territory.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who sends you after the Crushridge Warmongers?",
+   "aliases": [
+    "who gives crushridge warmongers",
+    "questgiver crushridge warmongers",
+    "marshal redpath quest"
+   ],
+   "answer": "Marshal Redpath in Southshore."
+  },
+  {
+   "q": "Where are the Crushridge Warmongers?",
+   "aliases": [
+    "where are crushridge warmongers",
+    "warmonger location",
+    "crushridge warmongers spot"
+   ],
+   "answer": "In the Ruins of Alterac, up in the mountains."
+  },
+  {
+   "q": "Why does Marshal Redpath want the Warmongers cut down?",
+   "aliases": [
+    "why kill warmongers",
+    "purpose of crushridge warmongers",
+    "redpath reason ogres"
+   ],
+   "answer": "Redpath believes nothing else will teach the Crushridge ogres to stay away from Alliance lands."
+  },
+  {
+   "q": "What comes before this quest?",
+   "aliases": [
+    "prerequisite for crushridge warmongers",
+    "previous quest warmongers",
+    "chain before crushridge warmongers"
+   ],
+   "answer": "It follows Crushridge Bounty, Redpath's first call to hunt the Crushridge ogres."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "alterac",
+  "crushridge",
+  "ogres",
+  "redpath",
+  "ruins",
+  "southshore",
+  "warmongers"
+ ],
+ "related": [
+  "quest:500",
+  "subzone:ruins-of-alterac",
+  "subzone:southshore",
+  "zone:alterac",
+  "topic:alterac-kingdom",
+  "topic:alliance"
+ ],
+ "attribution": [
+  "Crushridge Warmongers"
+ ]
+}

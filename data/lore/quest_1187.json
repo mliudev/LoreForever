@@ -1,0 +1,106 @@
+{
+ "key": "quest:1187",
+ "type": "quest",
+ "name": "Razzeric's Tweaking",
+ "era": "classic",
+ "zone": "thousandneedles",
+ "meta": {
+  "ids": [
+   1187
+  ],
+  "level": "41",
+  "start": "Razzeric",
+  "end": "Razzeric",
+  "previous": "The Eighteenth Pilot",
+  "next": "Safety First (Thousand Needles)",
+  "prev_q": [
+   "The Eighteenth Pilot"
+  ],
+  "wiki": null,
+  "next_q": [
+   "Safety First (Thousand Needles)"
+  ]
+ },
+ "summary": "On the Shimmering Flats, Razzeric adds personal modifications to racers once Pozzik has finished with them. A seaforium booster ordered from Shreev in Gadgetzan was on a zeppelin that Razzeric hears crashed in Dustwallow Marsh, and Razzeric wants it brought back.",
+ "sections": [
+  {
+   "title": "More Juice",
+   "body": "Razzeric grants that Pozzik is a great mechanic, but thinks Pozzik too wary of loading on firepower and hanging on for the ride. Once Pozzik is done with a racer, Razzeric spends time making personal changes: loosening the controls, removing frame sections and piling on power. A seaforium booster was ordered from Shreev at the Gizmorium in Gadgetzan, but the zeppelin carrying it crashed in Dustwallow Marsh, by Razzeric's account. The booster is needed back on the Shimmering Flats, since showing up at the track without that extra kick would be a travesty.",
+   "spoiler": 0
+  },
+  {
+   "title": "Strapped to the Racer",
+   "body": "Razzeric raves over the booster: a full fifteen pounds of seaforium. Strapped to the side of a racer, it should carry Razzeric through the circuit at such speed that the gnomes are beaten twice over.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Razzeric?",
+   "aliases": [
+    "razzeric",
+    "who gives razzerics tweaking",
+    "razzeric shimmering flats"
+   ],
+   "answer": "Razzeric is a racer on the Shimmering Flats who makes personal changes to racers after Pozzik finishes with them."
+  },
+  {
+   "q": "Where did the booster come from?",
+   "aliases": [
+    "where did booster come from",
+    "who made seaforium booster",
+    "gadgetzan gizmorium"
+   ],
+   "answer": "Razzeric ordered it from Shreev at Gadgetzan's Gizmorium."
+  },
+  {
+   "q": "Where is the seaforium booster now?",
+   "aliases": [
+    "where is seaforium booster",
+    "booster location",
+    "downed zeppelin location"
+   ],
+   "answer": "Razzeric says the zeppelin carrying it crashed in Dustwallow Marsh."
+  },
+  {
+   "q": "Why does Razzeric want the booster?",
+   "aliases": [
+    "why does he want seaforium",
+    "why seaforium booster"
+   ],
+   "answer": "Razzeric wants more power than Pozzik is willing to load on, and thinks facing the track without that extra kick would be a travesty."
+  },
+  {
+   "q": "What came before this step?",
+   "aliases": [
+    "previous quest",
+    "prerequisite",
+    "what leads to razzerics tweaking"
+   ],
+   "answer": "The Eighteenth Pilot came first."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "dustwallow marsh",
+  "gadgetzan",
+  "gizmorium",
+  "pozzik",
+  "razzeric",
+  "seaforium booster",
+  "shimmering flats",
+  "shreev",
+  "thousand needles"
+ ],
+ "related": [
+  "npc:pozzik",
+  "quest:1186",
+  "subzone:shimmering-flats",
+  "subzone:gadgetzan",
+  "zone:dustwallow",
+  "zone:thousandneedles"
+ ],
+ "attribution": [
+  "Classic quest text: Razzeric's Tweaking"
+ ]
+}

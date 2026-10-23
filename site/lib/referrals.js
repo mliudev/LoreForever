@@ -62,6 +62,7 @@ import { actionIsUncertain } from "./dashboard-action.js";
 
 import { PLANS, PAID, setupBilling, starterClaim, planIdNow, billedPlan, promoClaimed, stripe, giveFreeMonth } from "./billing.js";
 import { COMPANION_NAME } from "./brand.js";
+import { createMissing, addMissing } from "./schema.js";
 
 // ---- The rules (Patrick's example; the numbers are Mike's to change, here) ----
 
@@ -173,9 +174,9 @@ export function setupReferrals(env) {
   if (isReportRead(env)) return;
   if (!ready.has(env.DB)) ready.set(env.DB, (async () => {
     await setupBilling(env);
-    await env.DB.batch(SETUP.map(s => env.DB.prepare(s)));
-    await Promise.all(MIGRATE.map(sql => env.DB.prepare(sql).run().catch(() => {})));
-    await Promise.all(INDEXES.map(sql => env.DB.prepare(sql).run().catch(() => {})));
+    await createMissing(env, SETUP);
+    await addMissing(env, MIGRATE);
+    await addMissing(env, INDEXES);
     const fresh = await env.DB.prepare("INSERT OR IGNORE INTO referral_settings (key, value, updated) VALUES ('schema', ?, ?)")
       .bind(SCHEMA, iso()).run();
     if (fresh.meta.changes) {
@@ -553,7 +554,9 @@ export function shareWords(s, planId, billed = null, now = new Date()) {
   const perCalendar = r.monthsPerMonth === 1 ? "one a month" : `up to ${r.monthsPerMonth} a month`;
   const about = `A friend counts once they ${counts}. Every ${r.monthAt} friends: ${month}, ${perCalendar}. ` +
     `Your ${bonusFriends} friend and so on: ${plural(bonusAnswersFor(planId), "bonus answer")}. ` +
-    `Up to ${r.perMonth} friends count each month. The reward is yours: friends earn their own by inviting theirs.`;
+    "The reward is yours: friends earn their own by inviting theirs.";
+  // (perMonth stays a quiet guard on how many friends count in a month; the card only says the free month's 2: Mike,
+  // 10/21, the architect's review: "max 10" read as the goal.)
   const next = new Date(Date.UTC(now.getUTCFullYear(), now.getUTCMonth() + 1, 1));
   const from = longDay(next.toISOString());
   const tally = s.month.counted >= r.perMonth

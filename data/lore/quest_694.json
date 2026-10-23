@@ -1,0 +1,95 @@
+{
+ "key": "quest:694",
+ "type": "quest",
+ "name": "Trelane's Defenses",
+ "era": "classic",
+ "zone": "arathi",
+ "meta": {
+  "ids": [
+   694
+  ],
+  "level": "39",
+  "faction": "Alliance",
+  "start": "Skuerto",
+  "end": "Apprentice Kryten",
+  "previous": "Wand over Fist (Classic)",
+  "next": "An Apprentice's Enchantment",
+  "wiki": "Trelane's Defenses (Classic)",
+  "chain": [],
+  "prev_q": [
+   "Wand over Fist (Classic)"
+  ],
+  "next_q": [
+   "An Apprentice's Enchantment"
+  ],
+  "qtype": "Elite",
+  "category": "Arathi Highlands",
+  "chain_tpl": [
+   "Malin's Request"
+  ]
+ },
+ "summary": "With the wand in hand, Skuerto turns to the ogres that surround the Tower of Arathor. To bring the tower's defenses to life, he needs an azure agate from the Boulderfist shaman, to be taken to Apprentice Kryten at Refuge Pointe.",
+ "sections": [
+  {
+   "title": "The Tower's Defenses",
+   "body": "Ogres surround the Tower of Arathor in Stromgarde. Skuerto says the tower's defenses must be activated if you are to stand a chance against them and still reach the items alive.",
+   "spoiler": 0
+  },
+  {
+   "title": "A Gem for a Key",
+   "body": "Certain gems from the tower have caught the fancy of the Boulderfist shaman, who carried them off, though Skuerto says they will not keep them for long. Bring one azure agate to Apprentice Kryten at Refuge Pointe, who knows the spell to enchant it so that it works as a key.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Why is an azure agate needed?",
+   "aliases": [
+    "why azure agate",
+    "trelane defenses purpose",
+    "why get the gem"
+   ],
+   "answer": "Skuerto wants the tower's defenses activated so you can face the ogres around the Tower of Arathor and still reach the items alive. Enchanted, the gem will work as a key."
+  },
+  {
+   "q": "Where did the azure agates come from?",
+   "aliases": [
+    "who took the agates",
+    "where are the gems from",
+    "agate origin"
+   ],
+   "answer": "The Boulderfist shaman carried them off from the Tower of Arathor and have grown fond of them."
+  },
+  {
+   "q": "Who can enchant the gem?",
+   "aliases": [
+    "who enchants the agate",
+    "kryten role",
+    "who turns it into a key"
+   ],
+   "answer": "Apprentice Kryten at Refuge Pointe knows the spell to enchant the gem so that it works as a key."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "apprentice kryten",
+  "azure agate",
+  "boulderfist shaman",
+  "refuge pointe",
+  "skuerto",
+  "stromgarde",
+  "tower of arathor",
+  "trelane's defenses"
+ ],
+ "related": [
+  "npc:skuerto",
+  "quest:695",
+  "subzone:tower-of-arathor",
+  "subzone:refuge-pointe",
+  "zone:arathi",
+  "topic:shaman"
+ ],
+ "attribution": [
+  "Trelane's Defenses (Classic)"
+ ]
+}

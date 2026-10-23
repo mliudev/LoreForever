@@ -1,0 +1,101 @@
+{
+ "key": "quest:205",
+ "type": "quest",
+ "name": "Troll Witchery",
+ "era": "classic",
+ "zone": "stranglethorn",
+ "meta": {
+  "ids": [
+   205
+  ],
+  "level": "40",
+  "faction": "Alliance",
+  "start": "Brother Nimetz",
+  "end": "",
+  "previous": "Kurzen's Mystery",
+  "next": "",
+  "wiki": "Troll Witchery",
+  "chain": [
+   "Kurzen's Mystery",
+   "Troll Witchery"
+  ],
+  "prev_q": [
+   "Kurzen's Mystery"
+  ],
+  "category": "Stranglethorn Vale"
+ },
+ "summary": "Brother Nimetz seeks insight into the corruption of Colonel Kurzen by examining dark troll enchantments. Following Kurzen's Mystery, he asks you to venture south into Skullsplitter territory and secure fetishes from their spellcasters.",
+ "sections": [
+  {
+   "title": "Unraveling the Corruption",
+   "body": "While reviewing the legends recovered from the jungle, Brother Nimetz turns his attention to the second troll tribe lingering further south. He suspects that dark troll sorcery may be responsible for Colonel Kurzen's descent into evil. To verify his theory, he asks you to venture into Skullsplitter lands and pry fetishes directly from their Witch Doctors and Mystics so he can study their magic at the Rebel Camp.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who gives the quest Troll Witchery?",
+   "aliases": [
+    "troll witchery quest giver",
+    "who starts troll witchery",
+    "where to get troll witchery"
+   ],
+   "answer": "Brother Nimetz gives it at the Rebel Camp in northern Stranglethorn Vale."
+  },
+  {
+   "q": "Why does Brother Nimetz want Skullsplitter fetishes?",
+   "aliases": [
+    "why brother nimetz needs fetishes",
+    "purpose of troll witchery",
+    "kurzen corruption fetishes"
+   ],
+   "answer": "Brother Nimetz intends to study the dark magical implements to see if troll witchcraft explains Colonel Kurzen's fall into evil."
+  },
+  {
+   "q": "Which enemies carry the fetishes?",
+   "aliases": [
+    "who drops skullsplitter fetishes",
+    "which trolls have fetishes",
+    "troll witchery fetish source"
+   ],
+   "answer": "The fetishes are carried by Skullsplitter Witch Doctors and Skullsplitter Mystics within Skullsplitter territory."
+  },
+  {
+   "q": "What quest precedes Troll Witchery?",
+   "aliases": [
+    "troll witchery chain",
+    "what comes before troll witchery",
+    "prerequisite for troll witchery"
+   ],
+   "answer": "This assignment follows Kurzen's Mystery, continuing Brother Nimetz's investigation into the colonel's madness."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Alliance",
+   "text": "Brother Nimetz operates out of the Rebel Camp, enlisting Alliance travelers to uncover what corrupted Colonel Kurzen."
+  }
+ ],
+ "keywords": [
+  "brother nimetz",
+  "colonel kurzen",
+  "mystic",
+  "rebel camp",
+  "skullsplitter",
+  "stranglethorn vale",
+  "troll witchery",
+  "witch doctor"
+ ],
+ "related": [
+  "subzone:rebel-camp",
+  "npc:colonel-kurzen",
+  "topic:troll",
+  "zone:stranglethorn",
+  "subzone:balia-mah-ruins",
+  "subzone:ruins-of-zul-mamwe",
+  "topic:alliance"
+ ],
+ "attribution": [
+  "Troll Witchery"
+ ]
+}

@@ -1,0 +1,90 @@
+{
+ "key": "quest:3442",
+ "type": "quest",
+ "name": "The Flawless Flame",
+ "era": "classic",
+ "zone": "searinggorge",
+ "meta": {
+  "ids": [
+   3442
+  ],
+  "level": "48",
+  "faction": null,
+  "start": "Kalaran Windblade",
+  "end": "Kalaran Windblade",
+  "previous": "Divine Retribution",
+  "next": "Forging the Shaft",
+  "wiki": "The Flawless Flame",
+  "chain": [],
+  "prev_q": [
+   "Divine Retribution"
+  ],
+  "next_q": [
+   "Forging the Shaft"
+  ],
+  "category": "Searing Gorge",
+  "chain_tpl": [
+   "Torch of Retribution"
+  ]
+ },
+ "summary": "Kalaran Windblade says you made the right choice, and that the blow must fall where it does most harm: the four sentry towers. With all four aflame, an offensive can begin before anyone has time to react. To set them alight, Kalaran needs to craft the torch of flawless flame.",
+ "sections": [
+  {
+   "title": "Preparing the Torch",
+   "body": "After Divine Retribution, Kalaran tells you the plan: burn the four sentry towers, so that an offensive can begin before anyone has time to react. Setting them ablaze takes the proper tool, and the tool takes materials. Kalaran will craft the torch of flawless flame if you bring four hearts of flame and four globes of golem oil, and points you first to the golems and elementals of these lands.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is the purpose of collecting these materials?",
+   "aliases": [
+    "why collect flame and oil",
+    "purpose of flawless flame",
+    "torch of flawless flame reason"
+   ],
+   "answer": "Kalaran Windblade needs four hearts of flame and four globes of golem oil to make the torch that will set the four sentry towers ablaze."
+  },
+  {
+   "q": "Where do you find the required components?",
+   "aliases": [
+    "where to find golem oil",
+    "where to find heart of flame",
+    "flawless flame materials location"
+   ],
+   "answer": "Kalaran points you to the golems and elementals of Searing Gorge."
+  },
+  {
+   "q": "What comes before this step?",
+   "aliases": [
+    "flawless flame prerequisite",
+    "previous quest flawless flame"
+   ],
+   "answer": "It follows Divine Retribution, in which you heard Kalaran Windblade's tale."
+  },
+  {
+   "q": "Why burn the sentry towers?",
+   "aliases": [
+    "why sentry towers",
+    "sentry tower plan"
+   ],
+   "answer": "Kalaran says that is where the most damage can be done, and with the four towers aflame an offensive can begin before anyone has time to react."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "golem oil",
+  "heart of flame",
+  "kalaran windblade",
+  "searing gorge",
+  "sentry towers",
+  "torch of flawless flame"
+ ],
+ "related": [
+  "quest:3441",
+  "zone:searinggorge"
+ ],
+ "attribution": [
+  "The Flawless Flame"
+ ]
+}

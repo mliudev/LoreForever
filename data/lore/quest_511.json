@@ -1,0 +1,80 @@
+{
+ "key": "quest:511",
+ "type": "quest",
+ "name": "Encrypted Letter",
+ "era": "classic",
+ "zone": "alterac",
+ "meta": {
+  "ids": [
+   511
+  ],
+  "level": "34",
+  "faction": "Alliance",
+  "start": "Syndicate Documents",
+  "end": "Loremaster Dibbs",
+  "previous": "",
+  "next": "Letter to Stormpike",
+  "wiki": "Encrypted Letter (Hillsbrad Foothills)",
+  "chain": [
+   "Encrypted Letter (Hillsbrad Foothills)",
+   "Letter to Stormpike",
+   "Further Mysteries",
+   "Dark Council"
+  ],
+  "next_q": [
+   "Letter to Stormpike"
+  ],
+  "category": "Hillsbrad Foothills"
+ },
+ "summary": "Among the Syndicate documents, one of the letters on a table is encrypted and inscrutable. Loremaster Dibbs in Southshore is the one to show it to.",
+ "sections": [
+  {
+   "title": "A Letter No One Can Read",
+   "body": "Among the Syndicate documents lies a table of letters, and one of them is encrypted and inscrutable. Loremaster Dibbs in Southshore is the one to show it to.",
+   "spoiler": 0
+  },
+  {
+   "title": "What Dibbs Makes of It",
+   "body": "Dibbs takes a closer look and admits never having seen this form of encryption before. Dibbs confesses that such learning is by no means complete.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Where does the letter come from?",
+   "aliases": [
+    "letter origin",
+    "where find letter",
+    "encrypted letter start"
+   ],
+   "answer": "It is one of the letters on a table among the Syndicate documents, and this one is encrypted."
+  },
+  {
+   "q": "Who is the letter taken to?",
+   "aliases": [
+    "who reads letter",
+    "who can decipher it",
+    "dibbs letter"
+   ],
+   "answer": "Loremaster Dibbs in Southshore."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "alterac",
+  "encrypted letter",
+  "hillsbrad foothills",
+  "loremaster dibbs",
+  "southshore",
+  "syndicate documents"
+ ],
+ "related": [
+  "quest:514",
+  "subzone:southshore",
+  "zone:hillsbrad",
+  "zone:alterac"
+ ],
+ "attribution": [
+  "Encrypted Letter (Hillsbrad Foothills)"
+ ]
+}

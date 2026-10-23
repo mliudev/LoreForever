@@ -1,0 +1,109 @@
+{
+ "key": "quest:1202",
+ "type": "quest",
+ "name": "The Theramore Docks",
+ "era": "classic",
+ "zone": "dustwallow",
+ "meta": {
+  "ids": [
+   1202
+  ],
+  "level": "35",
+  "faction": "Horde",
+  "start": "Nazeer Bloodpike",
+  "end": "Nazeer Bloodpike",
+  "previous": "Theramore Spies",
+  "next": "",
+  "wiki": "The Theramore Docks",
+  "chain": [
+   "Theramore Spies",
+   "The Theramore Docks"
+  ],
+  "prev_q": [
+   "Theramore Spies"
+  ],
+  "category": "Dustwallow Marsh"
+ },
+ "summary": "Two spies were sent to steal papers from a ship at Theramore, but were found out and had to cast the papers into the sea. Now Nazeer Bloodpike charges you with finding them.",
+ "sections": [
+  {
+   "title": "Papers in the Water",
+   "body": "After you dealt with the Theramore spies, Nazeer Bloodpike has another matter for you. Two spies were sent to take papers from a ship by the Theramore docks. They got them, were discovered, and had to throw their haul into the sea. One of them got away but could not retrieve it, and came back to report the failure.",
+   "spoiler": 0
+  },
+  {
+   "title": "Beneath the Docks",
+   "body": "The papers lie inside a footlocker, somewhere under the water by the Theramore docks. You are sent to find the Captain's Documents and bring them to Nazeer Bloodpike in Brackenwall Village. Nazeer says they matter greatly to the Alliance's stability, and so to the Horde's security.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who sends you to Theramore Isle?",
+   "aliases": [
+    "who gives the quest",
+    "where does this quest start",
+    "quest giver"
+   ],
+   "answer": "Nazeer Bloodpike, in Brackenwall Village."
+  },
+  {
+   "q": "What are you looking for beneath the docks?",
+   "aliases": [
+    "what do i need to find",
+    "what item is in the water",
+    "docks objective"
+   ],
+   "answer": "A footlocker in the waters beneath the Theramore docks, holding the Captain's Documents."
+  },
+  {
+   "q": "Why were the documents thrown into the water?",
+   "aliases": [
+    "why are the papers in the ocean",
+    "how did the footlocker get there",
+    "why did the spies drop it"
+   ],
+   "answer": "Two spies stole the papers from a ship at the docks, but they were discovered and had to cast them into the sea. One escaped without them."
+  },
+  {
+   "q": "Why does the Horde want these documents?",
+   "aliases": [
+    "why are the papers important",
+    "what is in the documents",
+    "why does bloodpike want them"
+   ],
+   "answer": "Nazeer Bloodpike says they matter greatly to the Alliance's stability, and so to the security of the Horde."
+  },
+  {
+   "q": "What comes before this in the storyline?",
+   "aliases": [
+    "prerequisite quest",
+    "previous quest",
+    "what leads to this"
+   ],
+   "answer": "It follows Theramore Spies, in which you hunted the infiltrators east of Brackenwall Village."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "brackenwall village",
+  "captain's documents",
+  "docks",
+  "dustwallow marsh",
+  "footlocker",
+  "nazeer bloodpike",
+  "spies",
+  "theramore"
+ ],
+ "related": [
+  "quest:1201",
+  "subzone:brackenwall-village",
+  "subzone:theramore-isle",
+  "zone:dustwallow",
+  "topic:horde",
+  "topic:alliance"
+ ],
+ "attribution": [
+  "The Theramore Docks"
+ ]
+}

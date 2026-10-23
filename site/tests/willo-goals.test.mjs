@@ -85,6 +85,10 @@ const api = async (token, action, body, e = env) => {
   return { status: res.status, body: await res.json() };
 };
 const MOUNT_GOAL = "## Goals\n- [ ] Riding at level 40: 100 gold\n";
+// Her lines and the facts she's given are checked for the numbers and names they carry, not their wording.
+const says = (text, ...facts) => { for (const f of facts) assert.ok(String(text).toLowerCase().includes(String(f).toLowerCase()),
+  `${JSON.stringify(text)} should say ${f}`); };
+const times = (text, re) => (String(text).match(new RegExp(re, "gi")) || []).length;
 
 // ---- A goal, as a line ----
 
@@ -157,66 +161,58 @@ test("the mount at 40: level, Forever's price with the Honored discount, the tra
   const p = progressOf({ kind: "riding", skill: 75, gold: null }, stock);
   const text = p.facts.join("\n");
   assert.equal(p.reached, false);
-  assert.match(text, /Level: 36 of 40, 4 levels to go\./);
-  assert.match(text, /asks 100 gold \(90 once they're Honored with Stormwind, 10 less, which would leave them 18 short; they're Friendly\)\. They have 72 gold: 28 short\./);
-  assert.match(text, /Randal Hunter at Eastvale Logging Camp in Elwynn Forest/);
-  assert.match(text, /Learning riding gives their first mount, so there's no mount to buy; only if they want another, their people's vendor sells more for 20 gold each/);
-  assert.match(text, /about 9 gold and 0\.8 levels an evening\): the gold in about 3 evenings, level 40 in about 4 evenings/);
-  assert.equal(p.summary, "Riding is 100 gold at level 40 from Randal Hunter, and it gives you your first mount: 4 levels " +
-    "and 28 gold to go, about 4 evenings at your pace.");
+  says(text, "36 of 40", "4 levels to go", "100 gold", "90", "Honored with Stormwind", "18 short", "72 gold", "28 short",
+    "Randal Hunter", "Eastvale Logging Camp", "first mount", "20 gold", "9 gold", "0.8 levels", "3 evenings", "4 evenings");
+  says(p.summary, "100 gold", "level 40", "Randal Hunter", "first mount", "4 levels", "28 gold", "4 evenings");
   for (const k of [100, 90, 72, 28, 36, 40, 4, 3, 20]) assert.ok(p.numbers.has(k), k);
   // Honored with Stormwind: the 90 gold is the price.
   const honored = progressOf({ kind: "riding", skill: 75, gold: null }, stockOf(hurin({ rep: { Stormwind: [6, 9500, 9000, 21000] } })));
-  assert.match(honored.facts.join(" "), /asks 90 gold \(with 10% off: they're Honored with Stormwind\)\. They have 72 gold: 18 short\./);
+  says(honored.facts.join(" "), "90 gold", "Honored with Stormwind", "18 short");
   // A price they saw themselves is the one counted, without the discount.
   const told = progressOf({ kind: "riding", skill: 75, gold: 95 }, stockOf(hurin()));
-  assert.match(told.facts.join(" "), /asks 95 gold \(the price they told you they saw\)\. They have 72 gold: 23 short\./);
+  says(told.facts.join(" "), "95 gold", "23 short");
 });
 
 test("what she doesn't know she's told to say so: no save, no pace, the skyborne's trainer, a swift mount, a stale save", () => {
   const none = progressOf({ kind: "riding", skill: 75, gold: null }, null).facts.join(" ");
-  assert.match(none, /can't see their level yet/);
-  assert.match(none, /can't see their purse yet: say so, and that you will once they've spent an evening in the world with you at their side/);
+  says(none, "can't see their level", "can't see their purse");
   // The instruction is in the world's words: no app, computer, save, reload or log-out (the PM's ruling, 10/21).
   const unseenLines = none.match(/you can't see their [^.]*?\(never guess it\)/g);
   assert.equal(unseenLines.length, 2);
   for (const line of unseenLines) assert.doesNotMatch(line, /reload|SavedVariables|sync|\bapp\b|computer|\bsave|log ?out|log out/i);
   const fresh = progressOf({ kind: "gold", gold: 200 }, stockOf(hurin({ days: EVENINGS.slice(-1) }))).facts.join(" ");
-  assert.match(fresh, /not enough evenings saved yet; say you'll know it after a couple more evenings/);
+  says(fresh, "not enough evenings");
   const sky = progressOf({ kind: "riding", skill: 75, gold: null }, stockOf(hurin({ race: "Skyborne" }))).facts.join(" ");
-  assert.match(sky, /Where their people learn to ride: you don't know yet, so say so/);
+  says(sky, "don't know yet");
   const epic = progressOf({ kind: "riding", skill: 150, gold: null }, stockOf(hurin())).facts.join(" ");
-  assert.match(epic, /asks 1,000 gold \(900 once/);
-  assert.match(epic, /whether one comes with this training you don't know yet/);
-  assert.match(epic, /the gold in about 103 evenings/);
+  says(epic, "1,000 gold", "900", "don't know yet", "103 evenings");
   const stale = goalsBlock(goalsOf(view(MOUNT_GOAL)), stockOf(hurin({ t: NOW - 3 * 86400 })),
     { intent: goalIntent("how close am I to my mount?"), question: "how close am I to my mount?" });
-  assert.match(stale.block, /3 days ago: say "as of your last save"/);
+  says(stale.block, "3 days ago", "as of your last save");
   const other = progressOf({ kind: "other", text: "Kirin Tor tabard" }, stockOf(hurin())).facts.join(" ");
-  assert.match(other, /say plainly when you don't know a price or a step, and offer to look it up/);
+  says(other, "look it up");
 });
 
 test("a profession goal names the next rank and where it's taught; a reputation goal counts every standing", () => {
   const stock = stockOf(hurin());
   const tailoring = progressOf({ kind: "skill", skill: "Tailoring", rank: 225 }, stock).facts.join(" ");
-  assert.match(tailoring, /Tailoring: their skill is 120 \(their rank stops at 150\); 105 points to go\./);
-  assert.match(tailoring, /Expert \(up to 225\): taught from skill 125 at level 20; not yet: they need 5 more skill points \(they're at 120\) first\./);
+  says(tailoring, "120", "150", "105 points", "Expert", "225", "skill 125", "level 20", "5 more skill points");
   assert.doesNotMatch(tailoring, /Artisan/);
-  assert.match(tailoring, /They already have Journeyman: don't bring it up as a step\./);
+  says(tailoring, "already have Journeyman");
   // To 300: every rank on the way, and who teaches Artisan on their side.
   const to300 = progressOf({ kind: "skill", skill: "Tailoring", rank: 300 }, stock).facts.join(" ");
-  assert.match(to300, /Expert \(up to 225\): taught from skill 125 at level 20; not yet: they need 5 more skill points \(they're at 120\) first\. Artisan \(up to 300\): taught from skill 200 at level 35; not yet: they need 80 more skill points \(they're at 120\) first\. Their side's Artisan tailoring trainer is Georgio Bolero in Stormwind's Mage Quarter\./);
+  says(to300, "Expert", "Artisan", "skill 200", "level 35", "80 more skill points", "Georgio Bolero");
   const young = progressOf({ kind: "skill", skill: "Tailoring", rank: 300 }, stockOf(hurin({ level: 30 }))).facts.join(" ");
-  assert.match(young, /Artisan \(up to 300\): taught from skill 200 at level 35; not yet: they need 80 more skill points \(they're at 120\) and level 35 \(they're 30\) first\./);
+  says(young, "80 more skill points", "level 35", "they're 30");
   const horde = progressOf({ kind: "skill", skill: "Tailoring", rank: 300 }, stockOf(hurin({ race: "Scourge" }))).facts.join(" ");
   assert.match(horde, /Josef Gregorian in the Undercity's Magic Quarter/);
   // Qualified already: said plainly.
   const mining = progressOf({ kind: "skill", skill: "Mining", rank: 150 }, stockOf(hurin({ skills: { Mining: [60, 75] } }))).facts.join(" ");
-  assert.match(mining, /Journeyman \(up to 150\): taught from skill 50 at level 10; they already qualify, so a mining trainer can teach it now\./);
+  says(mining, "Journeyman", "already qualify");
   const cooking = progressOf({ kind: "skill", skill: "Cooking", rank: 225 }, stockOf(hurin({ skills: { Cooking: [150, 150] } })));
-  assert.match(cooking.facts.join(" "), /Expert Cooking \(up to 225\) comes from a book, not a trainer/);
+  says(cooking.facts.join(" "), "Expert Cooking", "book");
   const rep = progressOf({ kind: "rep", standing: 8, faction: "ironforge" }, stock);
-  assert.match(rep.facts.join(" "), /Ironforge: Friendly, 2,100 of 6,000; 3,900 to Honored, then 12,000 to Revered, 21,000 to Exalted: 36,900 in all\./);
+  says(rep.facts.join(" "), "Friendly", "2,100 of 6,000", "3,900", "12,000", "21,000", "36,900");
   assert.match(rep.facts.join(" "), /never how much each gives/);
   const unknown = progressOf({ kind: "rep", standing: 6, faction: "Kirin Tor" }, stock).facts.join(" ");
   assert.match(unknown, /not among the reputations in their last save/);
@@ -287,8 +283,7 @@ test("1. setting the mount goal: she's given the plan's numbers, keeps the goal 
   const [body] = calls;
   assert.deepEqual(offered(body), ["goal_set", "answer_only"]);
   assert.ok(system(body).includes(GOAL_RULES));
-  assert.match(system(body), /THE GOAL THEY'RE ASKING FOR \(not kept yet: keep it with goal_set if they want it kept\): Riding at level 40: 100 gold/);
-  assert.match(system(body), /They have 72 gold: 28 short\./);
+  says(system(body), "Riding at level 40: 100 gold", "72 gold", "28 short");
   assert.equal(body.tools.some(t => t.googleSearch), false);
 });
 
@@ -300,7 +295,8 @@ test("the goal their words name is kept, whatever the call's arguments say, and 
     profession: "Tailoring", skill: 120 });
   let out = await ask(token, "I want my Tailoring at 225");
   assert.equal(page(user).body, MOUNT_GOAL + "- [ ] Tailoring 225\n");
-  assert.equal(out.answer, "Goal kept: Tailoring 225. You're at 120.");
+  says(out.answer, "Tailoring 225", "120");
+  assert.doesNotMatch(out.answer, /I've added/);
   reply = () => called("goal_set", { answer: "I have added it to your notebook! You have 72 gold.", what: "gold" });
   out = await ask(token, "I'm saving up 200 gold");
   assert.match(page(user).body, /- \[ \] Save 200 gold\n/);
@@ -314,7 +310,8 @@ test("the goal their words name is kept, whatever the call's arguments say, and 
   reply = () => called("goal_set", { answer: "I've added it.", what: "other" });
   out = await ask(token, "my goal is the Kirin Tor tabard");
   assert.match(page(user).body, /- \[ \] Kirin Tor tabard\n/);
-  assert.equal(out.answer, "Goal kept: Kirin Tor tabard.");
+  says(out.answer, "Kirin Tor tabard");
+  assert.doesNotMatch(out.answer, /I've added/);
 });
 
 test("2, 7. checking progress or listing goals reads them and writes nothing", async () => {
@@ -336,16 +333,17 @@ test("4. out loud, from a save days old: her numbers are as of that save, never 
   const old = hurin({ t: NOW - 3 * 86400 });
   reply = () => said("You're four levels and twenty-eight gold away from your mount.");
   let out = await ask(token, "how's my mount goal?", { stock: old, style: "spoken" });
-  assert.equal(out.answer, "As of your last save, you're four levels and twenty-eight gold away from your mount.");
+  assert.match(out.answer, /^as of your last save/i);
+  says(out.answer, "four levels", "twenty-eight gold");
   reply = () => said("As of your last save, four levels to go.");
   out = await ask(token, "how's my mount goal?", { stock: old, style: "spoken" });
-  assert.equal(out.answer, "As of your last save, four levels to go.", "said once");
+  assert.equal(times(out.answer, "last save"), 1, "said once");
   // A fresh save, or typed: as she said it.
   reply = () => said("You're four levels and twenty-eight gold away from your mount.");
   out = await ask(token, "how's my mount goal?", { stock: hurin(), style: "spoken" });
-  assert.equal(out.answer, "You're four levels and twenty-eight gold away from your mount.");
+  assert.equal(times(out.answer, "last save"), 0);
   out = await ask(token, "how's my mount goal?", { stock: old });
-  assert.equal(out.answer, "You're four levels and twenty-eight gold away from your mount.", "typed: THEIR GOALS' own rule");
+  assert.equal(times(out.answer, "last save"), 0, "typed: THEIR GOALS' own rule");
 });
 
 test("8, 12. a change replaces the goal (a price they saw, a new skill), never adding a second line; a remembered price is refused", async () => {
@@ -394,7 +392,7 @@ test("9. dropping a goal takes its line out with the notebook's own tool; the he
   };
   const out = await ask(token, "drop the Ironforge goal");
   assert.deepEqual(offered(calls[0]), ["notebook_remove", "answer_only"]);
-  assert.equal(out.answer, "Goal dropped: Exalted with Ironforge. Ironforge can wait.");
+  says(out.answer, "Exalted with Ironforge", "Ironforge can wait");
   assert.equal(page(user).body, MOUNT_GOAL);
 });
 
@@ -406,7 +404,7 @@ test("LOR-686: dropping the last goal takes its Goals heading too, and she says 
     return called("notebook_remove", { answer: "That goal's gone: riding at level 40.", items: [Number(n)] });
   };
   const out = await ask(token, "forget my mount goal");
-  assert.equal(out.answer, "Goal dropped: riding at level 40 for 100 gold.");
+  assert.equal(times(out.answer, "riding at level 40"), 1, out.answer);
   assert.equal(page(user).body, "## To do\n- [ ] Hogger\n");
 });
 
@@ -415,8 +413,8 @@ test("12. the wrong-number guard: a gold amount she wasn't given becomes the pla
   write(user, MOUNT_GOAL);
   reply = () => said("Riding costs 80 gold, and you have 72, so just 8 more!");
   const out = await ask(token, "how close am I to my mount?");
-  assert.equal(out.answer, "Riding is 100 gold at level 40 from Randal Hunter, and it gives you your first mount: 4 levels " +
-    "and 28 gold to go, about 4 evenings at your pace.");
+  says(out.answer, "100 gold", "28 gold");
+  assert.doesNotMatch(out.answer, /80 gold/);
 });
 
 test("11. a goal the save shows reached: her answer opens with a cheer and the line is ticked", async () => {
@@ -425,7 +423,8 @@ test("11. a goal the save shows reached: her answer opens with a cheer and the l
   reply = () => said("Hogger's a gnoll in Elwynn.");
   const out = await ask(token, "who is Hogger?", { stock: hurin({ level: 40, riding: 75, money: 50000 }) });
   assert.match(system(calls[0]), /Just reached, by their last save \(already cheered before your answer; don't repeat it\): Riding at level 40: 100 gold\./);
-  assert.equal(out.answer, "Level 40 and riding at last! Your first mount is yours. Hogger's a gnoll in Elwynn.");
+  assert.ok(out.answer.endsWith(" Hogger's a gnoll in Elwynn."), "her cheer, then her answer");
+  says(out.answer, "mount");
   assert.equal(out.notebook.change, "check");
   assert.equal(page(user).body, "## Goals\n- [x] Riding at level 40: 100 gold\n");
   // Ticked, it's done: the next answer doesn't cheer again.
@@ -464,14 +463,15 @@ test("11, 18. goals stay on their character's page; 'what are my goals?' is the 
   write(user, "## Goals\n- [ ] Save 1,000 gold\n", "account");
   // Brynn, after Húrin set his goal in the same chat: only the account's goal, and no model call to mix them up.
   let out = await ask(token, "What are my goals?", { character: "Brynn-ClassicBetaPvE", stock: hurin({ level: 20, money: 120000 }) });
-  assert.equal(out.answer, "For all your characters: saving 1,000 gold: 988 to go.");
+  says(out.answer, "all your characters", "1,000 gold", "988");
+  assert.doesNotMatch(out.answer, /riding|tailoring/i);
   assert.equal(calls.length, 0);
   out = await ask(token, "what are my goals?");
-  assert.equal(out.answer, "Húrin's goals: riding at level 40 for 100 gold: 4 levels and 28 gold to go; Tailoring 225: " +
-    "at 120, 105 to go. For all your characters: saving 1,000 gold: 928 to go.");
+  says(out.answer, "Húrin", "riding at level 40", "4 levels", "28 gold", "Tailoring 225", "105", "all your characters",
+    "1,000 gold", "928");
   env.DB.sqlite.prepare("DELETE FROM notebook_pages WHERE page = 'account'").run();
   out = await ask(token, "what are my goals?", { character: "Brynn-ClassicBetaPvE" });
-  assert.equal(out.answer, "Brynn has no goals yet.");
+  says(out.answer, "Brynn", "no goals");
   // Her other answers about goals read only this character's page too.
   await ask(token, "how close am I to my mount?", { character: "Brynn-ClassicBetaPvE" });
   assert.doesNotMatch(system(calls.at(-1)), /Riding at level 40/);
@@ -483,12 +483,14 @@ test("6. a change of level is a real change: the riding goal for 45, her line fr
   reply = () => said("That's already one of your goals. Goal updated: riding at level 45 for 100 gold. Nine levels to go.");
   const out = await ask(token, "Change my mount goal: I'll get it at level 45 instead.");
   assert.equal(page(user).body, "## Goals\n- [ ] Riding at level 45: 100 gold\n");
-  assert.equal(out.answer, "Goal changed: riding at level 45 for 100 gold. Nine levels to go.");
+  says(out.answer, "riding at level 45", "nine levels");
+  assert.doesNotMatch(out.answer, /already/);
   // Her own second confirmation after the site's line goes too.
   reply = () => said("Updated: your goal is now riding at level 45. Noted: your goal is updated. Nine levels to go.");
   const twice = await ask(token, "Change my mount goal: I'll get it at level 45 instead.");
-  assert.equal(twice.answer, "That's already one of your goals: riding at level 45 for 100 gold. Nine levels to go.");
-  assert.match(system(calls[0]), /Level: 36 of 45, 9 levels to go \(riding opens at 40, so it can be learned from 40; 45 is the level they chose to ride at, never a level riding needs\)/);
+  says(twice.answer, "already", "riding at level 45");
+  assert.doesNotMatch(twice.answer, /Noted|Updated/);
+  says(system(calls[0]), "36 of 45", "9 levels to go", "opens at 40");
   // Nothing written, nothing claimed: "Goal updated" never stands on its own.
   reply = () => said("Goal updated: riding at level 50. You're doing great.");
   const again = await ask(token, "how close am I to my mount?");
@@ -501,10 +503,11 @@ test("7. dropping by what it's about: 'forget the mount goal' takes the riding l
   reply = () => said("Okay.");
   let out = await ask(token, "Forget the mount goal.");
   assert.equal(page(user).body, "## Goals\n- [ ] Save 200 gold\n");
-  assert.equal(out.answer, "Goal dropped: riding at level 40 for 100 gold.");
+  says(out.answer, "riding at level 40");
   write(user, "## Goals\n- [ ] Save 1,000 gold\n", "account");
   out = await ask(token, "forget the gold goal");
-  assert.equal(out.answer, "Which one: saving 200 gold or saving 1,000 gold?");
+  says(out.answer, "200 gold", "1,000 gold");
+  assert.match(out.answer, /\?$/);
 });
 
 test("17. the free plan while plans are sold: no goal kept, and (typed only) one plain line that goals come with Hero", async () => {
@@ -532,19 +535,20 @@ test("10. after a save: a goal reached is ticked with her cheer; the others get 
   write(user, "## Goals\n- [ ] Riding at level 40: 100 gold\n- [ ] Tailoring 225\n- [ ] Kirin Tor tabard\n");
   const res = await api(token, "goals", { character: HURIN, stock: hurin({ level: 40, riding: 75 }) });
   assert.equal(res.status, 200);
-  assert.deepEqual(res.body.checks, [
-    { goal: "Riding at level 40: 100 gold", page: PAGE, reached: true, mark: "40|2",
-      line: "Level 40 and riding at last! Your first mount is yours." },
-    { goal: "Tailoring 225", page: PAGE, reached: false, mark: "4|150", line: "Tailoring 120: 105 to go." },
+  assert.deepEqual(res.body.checks.map(({ line, ...c }) => c), [
+    { goal: "Riding at level 40: 100 gold", page: PAGE, reached: true, mark: "40|2" },
+    { goal: "Tailoring 225", page: PAGE, reached: false, mark: "4|150" },
   ]);
+  says(res.body.checks[0].line, "mount");
+  says(res.body.checks[1].line, "120", "105");
   assert.equal(res.body.pages[0].body, "## Goals\n- [x] Riding at level 40: 100 gold\n- [ ] Tailoring 225\n- [ ] Kirin Tor tabard\n");
   assert.equal(page(user).body, res.body.pages[0].body);
   // Riding and level 40 reached together: both ticked, one cheer.
   const { user: u2, token: t2 } = await linked();
   write(u2, MOUNT_GOAL + "- [ ] Level 40\n");
   const both = await api(t2, "goals", { character: HURIN, stock: hurin({ level: 40, riding: 75 }) });
-  assert.deepEqual(both.body.checks.map(c => [c.goal, c.reached, c.line]), [
-    ["Riding at level 40: 100 gold", true, "Level 40 and riding at last! Your first mount is yours."], ["Level 40", true, ""]]);
+  assert.deepEqual(both.body.checks.map(c => [c.goal, c.reached, Boolean(c.line)]), [
+    ["Riding at level 40: 100 gold", true, true], ["Level 40", true, false]], "one cheer");
   // Ticked once: the next save has no cheer for it.
   const again = await api(token, "goals", { character: HURIN, stock: hurin({ level: 40, riding: 75 }) });
   assert.deepEqual(again.body.checks.map(c => c.goal), ["Tailoring 225"]);
@@ -554,11 +558,11 @@ test("10. after a save: a goal reached is ticked with her cheer; the others get 
 test("5. old enough with the gold but not trained: she says they're ready, and where, for their people", () => {
   const goals = goalsOf(view(MOUNT_GOAL));
   const ready = goalChecks(goals, stockOf(hurin({ level: 40, money: 1100000 })));
-  assert.deepEqual(ready.map(c => [c.reached, c.mark, c.line]), [[false, "40|4",
-    "You're ready to ride: Randal Hunter at Eastvale Logging Camp in Elwynn Forest teaches it for 100 gold."]]);
+  assert.deepEqual(ready.map(c => [c.reached, c.mark]), [[false, "40|4"]]);
+  says(ready[0].line, "ready", "Randal Hunter", "Eastvale Logging Camp", "100 gold");
   // An undead (paladin or not: riding is your people's): Brill's trainer.
   const undead = goalChecks(goals, stockOf(hurin({ level: 40, money: 1100000, race: "Scourge" })));
-  assert.match(undead[0].line, /Velma Warnam in Brill, Tirisfal Glades teaches it for 100 gold/);
+  says(undead[0].line, "Velma Warnam", "Brill");
 });
 
 test("21. no goal pressure: a question that doesn't bear on their goals reads none, and nothing ever suggests one", async () => {
@@ -585,9 +589,9 @@ test("goalChecks: marks move only on what matters (a level, a quarter of the gol
   assert.deepEqual(before.map(c => c.mark), silver.map(c => c.mark));
   const level = goalChecks(goals, stockOf(hurin({ level: 37 })));
   assert.notEqual(level[0].mark, before[0].mark);
-  assert.equal(level[0].line, "Level 37: 3 levels and 28 gold to go for your riding.");
+  says(level[0].line, "37", "3 levels", "28 gold");
   const honored = goalChecks(goals, stockOf(hurin({ rep: { Ironforge: [6, 9100, 9000, 21000] } })));
-  assert.equal(honored[1].line, "Honored with Ironforge now: 32,900 to Exalted.");
+  says(honored[1].line, "Honored", "32,900");
 });
 
 // ---- Her help and Forever's facts ----

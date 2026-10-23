@@ -1,0 +1,112 @@
+{
+ "key": "quest:1380",
+ "type": "quest",
+ "name": "Khan Hratha",
+ "era": "classic",
+ "zone": "desolace",
+ "meta": {
+  "ids": [
+   1380
+  ],
+  "level": "42",
+  "faction": null,
+  "start": "Uthek the Wise",
+  "end": "Uthek the Wise",
+  "previous": "Khan Jehn (quest)",
+  "next": "",
+  "wiki": "Khan Hratha (Gelkis)",
+  "chain": [],
+  "prev_q": [
+   "Khan Jehn (quest)"
+  ],
+  "category": "Desolace",
+  "chain_tpl": [
+   "Gelkis Alliance quest chain"
+  ]
+ },
+ "summary": "Uthek the Wise recalls how you helped the Gelkis against the Magram, and now asks you to strike at the Maraudine by slaying their clan's leader, Khan Hratha. Hratha holds a piece of a key, and Uthek wants it brought to him.",
+ "sections": [
+  {
+   "title": "Challenging the Maraudine",
+   "body": "Uthek the Wise says the Gelkis now need help against the Maraudine. The Maraudine War Horn stands on a tall bluff in the Valley of Spears, and sounding it is how Khan Hratha is called out. Yet the horn is useless without a warhorn mouthpiece, which is rare and carried only by trusted Maraudine centaur. When the horn sounds, more centaur arrive, and Hratha comes last.",
+   "spoiler": 0
+  },
+  {
+   "title": "A Piece of a Key",
+   "body": "Khan Hratha holds a piece of a key, and Uthek wants it brought to Gelkis Village.",
+   "spoiler": 0
+  },
+  {
+   "title": "On Your Return",
+   "body": "On your return, Uthek exults that Hratha is dead and the Maraudine are doomed. He vows that the Gelkis will remember you once they rule this land, and that the earth's spirits will sing your name forever.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who sends you to fight Khan Hratha?",
+   "aliases": [
+    "who gives khan hratha",
+    "khan hratha quest giver",
+    "where to get khan hratha"
+   ],
+   "answer": "Uthek the Wise, at Gelkis Village in Desolace, asks it of those who have helped the Gelkis."
+  },
+  {
+   "q": "How is Khan Hratha brought out to fight?",
+   "aliases": [
+    "khan hratha location",
+    "where is khan hratha",
+    "find khan hratha"
+   ],
+   "answer": "Uthek points you to the Maraudine War Horn in the Valley of Spears, which has to be sounded. Centaur answer it, and Hratha follows."
+  },
+  {
+   "q": "How do you blow the Maraudine War Horn?",
+   "aliases": [
+    "warhorn mouthpiece",
+    "how to use maraudine war horn",
+    "blow maraudine war horn"
+   ],
+   "answer": "The horn is useless without a warhorn mouthpiece, and only trusted Maraudine centaur carry those, rarely."
+  },
+  {
+   "q": "What comes before this?",
+   "aliases": [
+    "khan hratha prerequisites",
+    "what quest before khan hratha",
+    "khan hratha chain"
+   ],
+   "answer": "It follows Khan Jehn. Uthek reminds you that you helped the Gelkis against the Magram."
+  },
+  {
+   "q": "What does Khan Hratha hold?",
+   "aliases": [
+    "khan hratha item",
+    "maraudine key fragment",
+    "what does hratha drop"
+   ],
+   "answer": "Khan Hratha holds a piece of a key, which Uthek asks you to bring to him in Gelkis Village."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "centaur",
+  "desolace",
+  "gelkis village",
+  "khan hratha",
+  "maraudine",
+  "maraudine war horn",
+  "uthek the wise",
+  "valley of spears"
+ ],
+ "related": [
+  "subzone:gelkis-village",
+  "subzone:valley-of-spears",
+  "topic:centaur",
+  "zone:desolace"
+ ],
+ "attribution": [
+  "Khan Hratha (Gelkis)"
+ ]
+}

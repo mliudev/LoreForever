@@ -1,0 +1,101 @@
+{
+ "key": "quest:202",
+ "type": "quest",
+ "name": "Colonel Kurzen",
+ "era": "classic",
+ "zone": "stranglethorn",
+ "meta": {
+  "ids": [
+   202
+  ],
+  "level": "40",
+  "faction": "Alliance",
+  "start": "Lieutenant Doren",
+  "end": "Lieutenant Doren",
+  "previous": "Special Forces",
+  "next": "",
+  "wiki": "Colonel Kurzen (quest)",
+  "chain": [],
+  "prev_q": [
+   "Special Forces"
+  ],
+  "category": "Stranglethorn Vale",
+  "chain_tpl": [
+   "Special Forces/Quest_chain"
+  ]
+ },
+ "summary": "Lieutenant Doren calls upon you to deliver the final strike against Colonel Kurzen and his inner guard. You are sent into the Stockpile to eliminate the rogue commander and his remaining leaders to secure the Rebel Camp's survival.",
+ "sections": [
+  {
+   "title": "The Heart of the Stockpile",
+   "body": "Lieutenant Doren and his band of defectors have reached the climax of their struggle against their former commander. Following the suppression of Kurzen's elite specialists, Doren recognizes that the rebel forces will never truly be safe while Kurzen retains control of his jungle redoubt. He directs you into the Stockpile cave, where Kurzen directs his forces alongside his subchiefs and elites.",
+   "spoiler": 0
+  },
+  {
+   "title": "Striking the Serpent's Head",
+   "body": "To permanently end the threat, Doren asks for conclusive proof of Kurzen's downfall by demanding the rogue colonel's head, along with the defeat of his elites and subchiefs. Entering the cave to face Kurzen's leadership offers the rebels their sole prospect of breathing easier amid the perils of northern Stranglethorn.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who assigns this task?",
+   "aliases": [
+    "who gives the quest",
+    "quest giver",
+    "where to pick up colonel kurzen"
+   ],
+   "answer": "Lieutenant Doren sends you after Kurzen from the Rebel Camp situated in northern Stranglethorn Vale, immediately following the completion of Special Forces."
+  },
+  {
+   "q": "Where is Colonel Kurzen located?",
+   "aliases": [
+    "where is kurzen",
+    "kurzen location",
+    "how to find colonel kurzen"
+   ],
+   "answer": "Kurzen directs his troops from deep within the cave system known as the Stockpile, located inside the Kurzen compound in northern Stranglethorn Vale."
+  },
+  {
+   "q": "What proof does Lieutenant Doren require?",
+   "aliases": [
+    "what proof is needed",
+    "kurzen proof",
+    "turn in item"
+   ],
+   "answer": "Lieutenant Doren asks you to bring back Kurzen's head to definitively prove the rogue commander has fallen, alongside defeating his elites and subchiefs."
+  },
+  {
+   "q": "What came before this confrontation?",
+   "aliases": [
+    "prerequisite quest",
+    "what is previous quest",
+    "chain before kurzen"
+   ],
+   "answer": "This confrontation immediately follows Special Forces, where you weakened Kurzen's specialized battlefield operatives before targeting his core command structure."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Alliance",
+   "text": "Eliminating Kurzen breaks the grip of a rogue Stormwind officer over the northern reaches of Stranglethorn Vale."
+  }
+ ],
+ "keywords": [
+  "colonel kurzen",
+  "kurzen",
+  "lieutenant doren",
+  "rebel camp",
+  "stockpile",
+  "stranglethorn vale"
+ ],
+ "related": [
+  "quest:574",
+  "subzone:rebel-camp",
+  "npc:doren",
+  "zone:stranglethorn"
+ ],
+ "attribution": [
+  "Colonel Kurzen (quest)"
+ ]
+}

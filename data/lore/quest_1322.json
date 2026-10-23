@@ -1,0 +1,83 @@
+{
+ "key": "quest:1322",
+ "type": "quest",
+ "name": "The Black Shield",
+ "era": "classic",
+ "zone": "dustwallow",
+ "meta": {
+  "ids": [
+   1322
+  ],
+  "level": "37",
+  "start": "Do'gol",
+  "end": "Do'gol",
+  "previous": "The Black Shield",
+  "next": "The Black Shield",
+  "wiki": null
+ },
+ "summary": "At Brackenwall Village, Do'gol has noticed lettering along the shield's edge, but burned residue hides it. Clearing it needs acid, and Do'gol asks you for six venom sacs from the Darkfang spiders of the marsh.",
+ "sections": [
+  {
+   "title": "Cleaning the Rim",
+   "body": "Do'gol can see lettering around the shield's rim, though the burnt-on grime makes it hard to read. Acid would clear it, and the marsh's Darkfang spiders carry venom that works well. Do'gol wants six of their acidic venom sacs to clean the shield up.",
+   "spoiler": 0
+  },
+  {
+   "title": "Once the Sacs Arrive",
+   "body": "Do'gol takes a dislike to spiders too large to sit on and squash, then thanks you for the sacs. Do'gol rips them open and pours them onto the shield.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who asks for the spider venom?",
+   "aliases": [
+    "who gives the black shield",
+    "dogol quest",
+    "who starts the black shield"
+   ],
+   "answer": "Do'gol, in Brackenwall Village."
+  },
+  {
+   "q": "Why does Do'gol need venom sacs?",
+   "aliases": [
+    "why spider acid",
+    "purpose of acidic venom sacs",
+    "why clean the shield"
+   ],
+   "answer": "Do'gol wants acid to clear the burned residue hiding the writing on the shield's rim, and Darkfang spider venom will do."
+  },
+  {
+   "q": "Where do the acidic venom sacs come from?",
+   "aliases": [
+    "which spiders have sacs",
+    "darkfang spider location",
+    "where to get acidic venom"
+   ],
+   "answer": "From the Darkfang spiders that live in the marsh near Brackenwall Village."
+  },
+  {
+   "q": "How many sacs does Do'gol want?",
+   "aliases": [
+    "how many venom sacs"
+   ],
+   "answer": "Six Acidic Venom Sacs."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "acidic venom sacs",
+  "brackenwall village",
+  "darkfang",
+  "do'gol",
+  "dustwallow marsh",
+  "the black shield"
+ ],
+ "related": [
+  "subzone:brackenwall-village",
+  "zone:dustwallow"
+ ],
+ "attribution": [
+  "Classic quest text: The Black Shield"
+ ]
+}

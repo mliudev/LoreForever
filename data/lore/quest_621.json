@@ -1,0 +1,103 @@
+{
+ "key": "quest:621",
+ "type": "quest",
+ "name": "Zanzil's Secret",
+ "era": "classic",
+ "zone": "stranglethorn",
+ "meta": {
+  "ids": [
+   621
+  ],
+  "level": "44",
+  "faction": "Neutral",
+  "start": "Crank Fizzlebub",
+  "end": "Crank Fizzlebub",
+  "previous": "",
+  "next": "Zanzil's Mixture and a Fool's Stout",
+  "wiki": "Zanzil's Secret (Classic)",
+  "chain": [
+   "Kravel Koalbeard",
+   "Mirage Raceway"
+  ],
+  "category": "Stranglethorn Vale",
+  "chain_tpl": [
+   "C",
+   "Errands for Kravel"
+  ]
+ },
+ "summary": "In Booty Bay, the goblin Crank Fizzlebub has set his sights on the potent concoction brewed by the exiled troll Zanzil. Zanzil uses this botanical blend to dominate the minds and empower the bodies of his followers among the nearby jungle ruins. Believing such a substance holds immense value for anyone seeking to control others, Fizzlebub wants samples retrieved for his own uses.",
+ "sections": [
+  {
+   "title": "Mind-Bending Draughts",
+   "body": "Northeast of Booty Bay, the outcast troll known as Zanzil has made a haven in the ruins of Jubuwal and Aboraz. Cast out by his former tribal leaders because they feared his mastery over the minds of others, Zanzil commands a band of followers entirely through concoctions derived from jungle vegetation. These mixtures deaden their will while enhancing their physical might, turning them into docile yet sturdy thralls.",
+   "spoiler": 0
+  },
+  {
+   "title": "A Lucrative Mixture",
+   "body": "Crank Fizzlebub sees clear opportunity in the exile's craft. Anyone desiring dominance over others would pay handsomely for such an elixir, prompting the goblin to seek a supply directly from the ruins. Delivering enough samples secures not only standard coin but a quiet bonus, provided the carrier keeps quiet about the transaction.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Zanzil the Outcast?",
+   "aliases": [
+    "who is zanzil",
+    "zanzil lore",
+    "why was zanzil exiled"
+   ],
+   "answer": "Zanzil is a troll exile who dwells in the ruins northeast of Booty Bay. His own leaders banished him because they feared his hold over other people's minds."
+  },
+  {
+   "q": "What does Zanzil's mixture actually do?",
+   "aliases": [
+    "what is zanzils mixture",
+    "effects of zanzils mixture",
+    "zanzil potion effects"
+   ],
+   "answer": "Brewed from native jungle plants, the concoction breaks and suppresses the free will of whoever drinks it while unnaturally bolstering their physical strength."
+  },
+  {
+   "q": "Where does Zanzil reside?",
+   "aliases": [
+    "zanzil location",
+    "where is zanzil",
+    "where are the ruins"
+   ],
+   "answer": "Zanzil and his followers dwell in the ruins of Jubuwal and Aboraz, situated northeast of Booty Bay in Stranglethorn Vale."
+  },
+  {
+   "q": "Why does Crank Fizzlebub want the mixture?",
+   "aliases": [
+    "why does crank want the mixture",
+    "what will crank do with zanzils mixture"
+   ],
+   "answer": "Crank Fizzlebub believes the mixture would fetch a high price among those who want to control others, and he intends to find a use for it."
+  },
+  {
+   "q": "Why did Crank pay extra upon delivery?",
+   "aliases": [
+    "crank fizzlebub extra pay",
+    "discretion pay crank"
+   ],
+   "answer": "Crank provides a bonus sum explicitly to buy discretion, ensuring that the acquisition of the mind-controlling brew remains a private business affair."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "aboraz",
+  "booty bay",
+  "fizzlebub",
+  "jubuwal",
+  "mixture",
+  "stranglethorn",
+  "zanzil"
+ ],
+ "related": [
+  "subzone:booty-bay",
+  "zone:stranglethorn"
+ ],
+ "attribution": [
+  "Zanzil's Secret (Classic)"
+ ]
+}

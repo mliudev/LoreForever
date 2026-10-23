@@ -1,0 +1,104 @@
+{
+ "key": "quest:693",
+ "type": "quest",
+ "name": "Wand over Fist",
+ "era": "classic",
+ "zone": "arathi",
+ "meta": {
+  "ids": [
+   693
+  ],
+  "level": "39",
+  "faction": "Alliance",
+  "start": "Skuerto",
+  "end": "Skuerto",
+  "previous": "Worth Its Weight in Gold (Classic)",
+  "next": "Trelane's Defenses (Classic)",
+  "wiki": "Wand over Fist (Classic)",
+  "chain": [],
+  "prev_q": [
+   "Worth Its Weight in Gold (Classic)"
+  ],
+  "next_q": [
+   "Trelane's Defenses (Classic)"
+  ],
+  "category": "Arathi Highlands",
+  "chain_tpl": [
+   "Malin's Request"
+  ]
+ },
+ "summary": "Skuerto at Refuge Pointe has worked out where the first of Trelane's items ended up. Kor'gresh has Trelane's Wand of Invocation in Boulderfist Hall, and Skuerto wants it brought back.",
+ "sections": [
+  {
+   "title": "The Ogre and the Wand",
+   "body": "After your work for Apprentice Kryten, Skuerto has found where Trelane's first item went. Kor'gresh holds it in Boulderfist Hall, and has been throwing blasts of ice at his own kin to keep them in line. Skuerto reckons the ogre must be close to figuring out all of the wand's powers. Boulderfist Hall lies south of Refuge Pointe and then east of Thandol Span.",
+   "spoiler": 0
+  },
+  {
+   "title": "Skuerto's List",
+   "body": "On your return, Skuerto counts the wand as one item down and three more to go, according to his list. The other three are all in Stromgarde.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who gives the quest Wand over Fist?",
+   "aliases": [
+    "wand over fist questgiver",
+    "who starts wand over fist",
+    "where to get wand over fist"
+   ],
+   "answer": "Skuerto, at Refuge Pointe in the Arathi Highlands."
+  },
+  {
+   "q": "Where is Kor'gresh located?",
+   "aliases": [
+    "where is korgresh",
+    "korgresh location",
+    "find korgresh"
+   ],
+   "answer": "Kor'gresh is in Boulderfist Hall, which lies south of Refuge Pointe and then east of Thandol Span."
+  },
+  {
+   "q": "What item needs to be recovered?",
+   "aliases": [
+    "what item is kor'gresh holding",
+    "what wand",
+    "trelane wand"
+   ],
+   "answer": "Trelane's Wand of Invocation, the first of Trelane's items. Kor'gresh has been throwing blasts of ice at his kin with it."
+  },
+  {
+   "q": "What prerequisites are needed for this quest?",
+   "aliases": [
+    "wand over fist pre reqs",
+    "prerequisites for wand over fist",
+    "previous quest to wand over fist"
+   ],
+   "answer": "It follows Worth Its Weight in Gold, the work you did for Apprentice Kryten."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "arathi highlands",
+  "boulderfist hall",
+  "korgresh",
+  "refuge pointe",
+  "skuerto",
+  "stromgarde",
+  "thandol span",
+  "trelane",
+  "wand of invocation",
+  "wand over fist"
+ ],
+ "related": [
+  "npc:skuerto",
+  "subzone:boulderfist-hall",
+  "subzone:refuge-pointe",
+  "subzone:thandol-span",
+  "zone:arathi"
+ ],
+ "attribution": [
+  "Wand over Fist (Classic)"
+ ]
+}

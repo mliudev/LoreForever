@@ -1,0 +1,98 @@
+{
+ "key": "quest:198",
+ "type": "quest",
+ "name": "Supplies to Private Thorsen",
+ "era": "classic",
+ "zone": "stranglethorn",
+ "meta": {
+  "ids": [
+   198
+  ],
+  "level": "32",
+  "faction": "Alliance",
+  "start": "Krazek",
+  "end": "Private Thorsen",
+  "previous": "",
+  "next": "",
+  "wiki": "Supplies to Private Thorsen",
+  "chain": [],
+  "category": "Stranglethorn Vale"
+ },
+ "summary": "Krazek in Booty Bay hires a courier to haul miscellaneous goblin supplies north to Lieutenant Doren's camp. Local troll aggression has halted routine shipments, requiring an outside hand to ensure the goods reach Private Thorsen near the northern border.",
+ "sections": [
+  {
+   "title": "A Route Disrupted",
+   "body": "Lieutenant Doren and his outfit stationed near the border between Stranglethorn Vale and Duskwood rely on regular shipments arranged through Krazek. Persistent attacks from local trolls have made standard delivery hazardous, prompting the goblin merchant to contract an independent courier. The package must travel all the way up the jungle road, with Private Thorsen designated to receive it either in their camp northwest of the road or along his patrol route to the south.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Shipment's True Contents",
+   "body": "Although listed only as miscellaneous goblin supplies, the shipment contains land mines. Private Thorsen reveals that these explosives are meant to help defend their post against Colonel Kurzen and his men.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is sending these supplies?",
+   "aliases": [
+    "who gives supplies to thorsen",
+    "krazek delivery",
+    "who starts supplies to private thorsen"
+   ],
+   "answer": "Krazek, a goblin merchant conducting business in Booty Bay, arranges the shipment and provides the supplies."
+  },
+  {
+   "q": "Why have the supplies been delayed?",
+   "aliases": [
+    "why delayed",
+    "troll attacks delivery",
+    "why wasn't it delivered"
+   ],
+   "answer": "Aggression from local trolls in Stranglethorn Vale disrupted standard delivery operations, leaving Lieutenant Doren's men waiting on their scheduled goods."
+  },
+  {
+   "q": "Where can Private Thorsen be found?",
+   "aliases": [
+    "where is thorsen",
+    "thorsen location",
+    "find private thorsen"
+   ],
+   "answer": "He can be found at Lieutenant Doren's camp, located northwest of the main road near the entrance to Stranglethorn from Duskwood, or patrolling the path immediately south of the encampment."
+  },
+  {
+   "q": "What happens if the supplies are lost?",
+   "aliases": [
+    "what if i lose supplies",
+    "krazek restitution",
+    "failing krazek"
+   ],
+   "answer": "Krazek warns that anyone who fails to deliver the shipment will be held financially accountable and owe him restitution."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Alliance",
+   "text": "Lieutenant Doren's soldiers guard the northern entrance into Stranglethorn Vale from Duskwood, relying on supplies from the goblins to hold their position."
+  }
+ ],
+ "keywords": [
+  "booty bay",
+  "duskwood",
+  "goblin supplies",
+  "krazek",
+  "kurzen",
+  "lieutenant doren",
+  "private thorsen",
+  "stranglethorn vale"
+ ],
+ "related": [
+  "npc:doren",
+  "topic:goblin",
+  "zone:stranglethorn",
+  "zone:duskwood",
+  "topic:troll"
+ ],
+ "attribution": [
+  "Supplies to Private Thorsen"
+ ]
+}

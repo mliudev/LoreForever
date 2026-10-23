@@ -34,9 +34,10 @@ import { featureOn } from "./features.js";
 import { escape } from "./voices.js";
 import { sha256 } from "./accounts.js";
 import { sniff } from "./studio.js";
-import { storySpend, budgetMicro } from "./profiles.js";
-import { answerBudgetUsed, reserveOtherPaid } from "./companion-answers.js";
+import { poolRoom } from "./profiles.js";
+import { reserveOtherPaid } from "./companion-answers.js";
 import { respell, loadRespell } from "./respell.js";
+import { createMissing } from "./schema.js";
 
 // Known narrator ids, retained for stored recordings and embedding uploads. Profiles use one narrator for now;
 // a later setting can select a narrator without changing how the recordings are stored.
@@ -86,7 +87,7 @@ const MIGRATE = ["ALTER TABLE story_spend ADD COLUMN voice_micro_usd INTEGER NOT
 let ready = false;
 export async function setupStoryVoice(env) {
   if (ready) return;
-  await env.DB.batch(SETUP.map(s => env.DB.prepare(s)));
+  await createMissing(env, SETUP);
   for (const sql of MIGRATE) {
     try { await env.DB.prepare(sql).run(); } catch (e) {}   // fails once the column exists
   }
@@ -231,12 +232,8 @@ async function embedding(env, voice) {
   return "data:application/octet-stream;base64," + base64(await new Response(obj.body).arrayBuffer());
 }
 
-// Whether this month's budget has room (lib/profiles.js: the stories and their recordings together).
-async function budgetLeft(env) {
-  const s = await storySpend(env);
-  return (s.micro_usd || 0) + (s.voice_micro_usd || 0) + (s.reserved_micro || 0) +
-    await answerBudgetUsed(env) < budgetMicro(env);
-}
+// Whether the free pool has room (lib/profiles.js poolRoom: the stories and their recordings are in it).
+const budgetLeft = env => poolRoom(env);
 
 // Sends one part to fal's queue. Returns its request id; throws when fal says no.
 async function send(env, origin, { story, voice, part, text, lang, voiceData }) {

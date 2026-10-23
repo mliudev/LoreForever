@@ -11,7 +11,7 @@ export const READ_QUERIES = Object.freeze({
   "translation-summary": {}, "translation-review": { status: ["new", "accepted", "rejected", "pulled", "all"],
     locale: "locale", user: "id", q: "search", offset: "integer", limit: "pageLimit" },
   "clip-export": { status: ["open", "all", "done", "kept", "rejected"], since: "integer" }, downloads: {},
-  "north-star": {},
+  "north-star": {}, pool: {},
 });
 
 export class ContractError extends Error {

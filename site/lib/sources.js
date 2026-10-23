@@ -1,4 +1,5 @@
 import { isReportRead } from "./report-read.js";
+import { createMissing } from "./schema.js";
 // Where visitors come from (Mike and Patrick, 10/19: "trace analytics from articles"): for every article that sends
 // people here (press and news posts, creator write-ups, our own guide and lore pages), the whole path, visits ->
 // add-on downloads -> sign-ups -> Willo -> paid plans. First-party and without Google Analytics or a consent banner
@@ -51,7 +52,7 @@ const SETUP = [
 const ready = new WeakMap();
 export function setupSources(env) {
   if (isReportRead(env)) return;
-  if (!ready.has(env.DB)) ready.set(env.DB, env.DB.batch(SETUP.map(s => env.DB.prepare(s)))
+  if (!ready.has(env.DB)) ready.set(env.DB, createMissing(env, SETUP)
     .catch(e => { ready.delete(env.DB); throw e; }));
   return ready.get(env.DB);
 }

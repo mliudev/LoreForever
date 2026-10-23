@@ -1,0 +1,92 @@
+{
+ "key": "quest:2606",
+ "type": "quest",
+ "name": "In Good Taste",
+ "era": "classic",
+ "zone": "tanaris",
+ "meta": {
+  "ids": [
+   2606
+  ],
+  "level": "49",
+  "faction": null,
+  "start": "Marin Noggenfogger",
+  "end": "Sprinkle",
+  "previous": "The Thirsty Goblin",
+  "next": "Sprinkle's Secret Ingredient",
+  "wiki": "In Good Taste",
+  "chain": [
+   "The Thirsty Goblin",
+   "In Good Taste",
+   "Sprinkle's Secret Ingredient",
+   "Delivery for Marin",
+   "Noggenfogger Elixir (quest)"
+  ],
+  "prev_q": [
+   "The Thirsty Goblin"
+  ],
+  "next_q": [
+   "Sprinkle's Secret Ingredient"
+  ],
+  "repeatable": "Yes",
+  "category": "Tanaris"
+ },
+ "summary": "Marin Noggenfogger finds the thistleshrub dew terrible to taste, yet decides not to give up on it. You are sent to Sprinkle, a friend of Marin's in Gadgetzan, with the dew in hand.",
+ "sections": [
+  {
+   "title": "A Cook for a Bad Brew",
+   "body": "Marin tastes the dew and finds it awful, yet decides not to give up on the idea after all. Instead you are handed the dew and sent to Sprinkle, a friend in Gadgetzan whom Marin calls an excellent chef. You are to tell her what is going on and that the drink needs to go down more easily. Marin also wants it to have some kick.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Where does this step fit in the chain?",
+   "aliases": [
+    "what quest is before this",
+    "what is next in the chain",
+    "quest progression"
+   ],
+   "answer": "It follows The Thirsty Goblin, and Sprinkle's Secret Ingredient comes after it."
+  },
+  {
+   "q": "Why does Marin Noggenfogger want the dew taken to Sprinkle?",
+   "aliases": [
+    "why sprinkle",
+    "what does marin want with sprinkle",
+    "who is sprinkle"
+   ],
+   "answer": "Marin found the dew awful to drink. Marin calls Sprinkle an excellent chef and hopes she can make it go down easier, with some kick to it."
+  },
+  {
+   "q": "Where can Sprinkle be found?",
+   "aliases": [
+    "sprinkle location",
+    "where is sprinkle",
+    "find sprinkle"
+   ],
+   "answer": "Sprinkle is in Gadgetzan, the same town as Marin Noggenfogger."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "gadgetzan",
+  "in good taste",
+  "marin noggenfogger",
+  "sprinkle",
+  "tanaris",
+  "thistleshrub dew"
+ ],
+ "related": [
+  "quest:2605",
+  "quest:2641",
+  "quest:2661",
+  "quest:2662",
+  "subzone:gadgetzan",
+  "zone:tanaris",
+  "topic:goblin"
+ ],
+ "attribution": [
+  "In Good Taste"
+ ]
+}

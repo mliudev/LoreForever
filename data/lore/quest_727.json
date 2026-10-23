@@ -1,0 +1,105 @@
+{
+ "key": "quest:727",
+ "type": "quest",
+ "name": "To Ironforge for Yagyin's Digest",
+ "era": "classic",
+ "zone": "badlands",
+ "meta": {
+  "ids": [
+   727
+  ],
+  "level": "40",
+  "faction": "Alliance",
+  "start": "Theldurin the Lost",
+  "end": "Gerrig Bonegrip",
+  "previous": "Solution to Doom",
+  "next": "The Star, the Hand and the Heart (Alliance)",
+  "wiki": "To Ironforge for Yagyin's Digest",
+  "chain": [],
+  "prev_q": [
+   "Solution to Doom"
+  ],
+  "next_q": [
+   "The Star, the Hand and the Heart (Alliance)"
+  ],
+  "category": "Badlands",
+  "chain_tpl": [
+   "Solution to Doom"
+  ]
+ },
+ "summary": "Theldurin the Lost sends you to Ironforge with a sigil. In a shop in the Forlorn Cavern, Gerrig Bonegrip is to take you for one of the people Theldurin fled, and you are to ask Gerrig for Yagyin's Digest.",
+ "sections": [
+  {
+   "title": "A Book Written Long Ago",
+   "body": "The Tablet tells Theldurin much, but not nearly enough. Yagyin wrote a digest in ages past, and the people Theldurin fled keep copies in many places, with their most learned studying it. Theldurin believes it holds vast knowledge that can offer protection, and wants it brought back.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Shop in the Forlorn Cavern",
+   "body": "Gerrig Bonegrip keeps a shop in the Forlorn Cavern of Ironforge. Theldurin gives you the Sigil of the Hammer to show Gerrig, so that you will be taken for one of them, and you are to ask for Yagyin's Digest.",
+   "spoiler": 0
+  },
+  {
+   "title": "Gerrig's Greeting",
+   "body": "Gerrig warns you to watch what you touch in the shop, for knowledge can be deadly. When the sigil is shown, Gerrig greets you as brother or sister and offers praise to the dwellers beneath.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Why does Theldurin want Yagyin's Digest?",
+   "aliases": [
+    "why need yagyins digest",
+    "what is yagyins digest",
+    "yagyin digest purpose"
+   ],
+   "answer": "The Tablet tells Theldurin much but not enough. The digest, written by Yagyin in ages past, holds vast knowledge that can offer protection, and Theldurin wants it brought back."
+  },
+  {
+   "q": "Where is Gerrig Bonegrip?",
+   "aliases": [
+    "where is gerrig bonegrip",
+    "gerrig bonegrip location",
+    "who is gerrig"
+   ],
+   "answer": "Gerrig Bonegrip is found at a shop in Ironforge's Forlorn Cavern."
+  },
+  {
+   "q": "What is the Sigil of the Hammer used for?",
+   "aliases": [
+    "what does the sigil do",
+    "sigil of the hammer use",
+    "why use the sigil"
+   ],
+   "answer": "Theldurin gives it to you to show Gerrig Bonegrip, so that Gerrig will think you one of the people Theldurin fled."
+  },
+  {
+   "q": "Where does this fit in the chain?",
+   "aliases": [
+    "what comes before to ironforge for yagyins digest",
+    "chain order yagyin"
+   ],
+   "answer": "It comes after Solution to Doom, with Theldurin the Lost, and carries on in the next step of the chain."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "badlands",
+  "forlorn cavern",
+  "gerrig bonegrip",
+  "ironforge",
+  "sigil of the hammer",
+  "theldurin the lost",
+  "yagyin's digest"
+ ],
+ "related": [
+  "npc:theldurin-the-lost",
+  "npc:gerrig-bonegrip",
+  "subzone:forlorn-cavern",
+  "zone:ironforge",
+  "zone:badlands"
+ ],
+ "attribution": [
+  "To Ironforge for Yagyin's Digest"
+ ]
+}

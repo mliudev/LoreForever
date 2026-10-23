@@ -1,0 +1,76 @@
+{
+ "key": "quest:1253",
+ "type": "quest",
+ "name": "The Black Shield",
+ "era": "classic",
+ "zone": "dustwallow",
+ "meta": {
+  "ids": [
+   1253
+  ],
+  "level": "35",
+  "faction": "Alliance",
+  "start": "Black Shield",
+  "end": "Captain Garran Vimes",
+  "previous": "",
+  "next": "The Black Shield",
+  "wiki": "The Black Shield (Alliance)",
+  "chain": [
+   "The Shady Rest Inn quest chain"
+  ],
+  "category": "Dustwallow Marsh",
+  "chain_tpl": [
+   "They Call Him Smiling Jim"
+  ]
+ },
+ "summary": "An iron shield, blackened by fire, is fixed to the crumbling chimney of the burned Shady Rest Inn. Captain Garran Vimes in Theramore is waiting on evidence from the inn's site.",
+ "sections": [
+  {
+   "title": "A Shield on the Chimney",
+   "body": "The Shady Rest Inn burned, and one of the few parts left standing is a crumbling chimney. A fire-blackened iron shield is fixed to its brick, and it can be removed. Captain Garran Vimes in Theramore wants evidence from the inn's site.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Captain's Verdict",
+   "body": "Vimes says he is no expert on how arms and armor are made, only on how they are used. To the captain, the shield looks as ordinary as any, apart from the damage left by the fire.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Where is the black shield located?",
+   "aliases": [
+    "where is the shield",
+    "black shield location",
+    "find black shield"
+   ],
+   "answer": "Fixed to the brick of the crumbling chimney, among the few parts of the burned Shady Rest Inn still standing."
+  },
+  {
+   "q": "Who wants evidence from the Shady Rest Inn?",
+   "aliases": [
+    "who wants the shield",
+    "shady rest investigator",
+    "who is garran vimes"
+   ],
+   "answer": "Captain Garran Vimes in Theramore, who is waiting for proof from the ruins of the inn."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "black shield",
+  "chimney",
+  "dustwallow marsh",
+  "garran vimes",
+  "iron shield",
+  "shady rest inn",
+  "theramore"
+ ],
+ "related": [
+  "subzone:shady-rest-inn",
+  "zone:dustwallow"
+ ],
+ "attribution": [
+  "The Black Shield (Alliance)"
+ ]
+}

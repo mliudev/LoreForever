@@ -1,0 +1,78 @@
+{
+ "key": "quest:1238",
+ "type": "quest",
+ "name": "The Lost Report",
+ "era": "classic",
+ "zone": "dustwallow",
+ "meta": {
+  "ids": [
+   1238
+  ],
+  "level": "35",
+  "faction": "Horde",
+  "start": "Loose Dirt",
+  "end": "Nazeer Bloodpike",
+  "wiki": null,
+  "previous": "",
+  "next": "The Severed Head"
+ },
+ "summary": "Sifting through loose dirt in Dustwallow Marsh, you find an orc's severed hand clutching a tube carved from bone, with a dirt-stained parchment inside. It is a report written by an orc who watched Theramore as a spy for weeks, and it is meant for Nazeer Bloodpike, the orcs' spymaster at Brackenwall Village.",
+ "sections": [
+  {
+   "title": "A Hand in the Dirt",
+   "body": "In the loose dirt lies an orc's severed hand, gripping a tube carved from bone. The parchment inside is a report from an orc who watched Theramore as a spy for weeks. After scanning it, you see that it should go to Nazeer Bloodpike, the orcs' spymaster at Brackenwall Village.",
+   "spoiler": 0
+  },
+  {
+   "title": "Word from the Spymaster",
+   "body": "Nazeer Bloodpike says the author was Marg Nighteye, an agent stationed outside Theramore to keep watch on the city. This is Marg's latest report and perhaps the last: from what you tell, Bloodpike fears Marg met an end in the swamp.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Where is the report found?",
+   "aliases": [
+    "where is the report",
+    "lost report location",
+    "how to start the lost report"
+   ],
+   "answer": "It lies in loose dirt in Dustwallow Marsh, in the grip of a severed orc hand."
+  },
+  {
+   "q": "What is the report about?",
+   "aliases": [
+    "what is in the report",
+    "what does the spy report say",
+    "parchment contents"
+   ],
+   "answer": "An orc wrote it after weeks of spying on Theramore."
+  },
+  {
+   "q": "Who gets the report?",
+   "aliases": [
+    "who do i turn the report in to",
+    "lost report turn in",
+    "where to bring spy report"
+   ],
+   "answer": "The orcs' spymaster, Nazeer Bloodpike, at Brackenwall Village."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "brackenwall village",
+  "dustwallow marsh",
+  "loose dirt",
+  "nazeer bloodpike",
+  "spy report",
+  "the lost report",
+  "theramore"
+ ],
+ "related": [
+  "subzone:brackenwall-village",
+  "zone:dustwallow"
+ ],
+ "attribution": [
+  "Classic quest text: The Lost Report"
+ ]
+}

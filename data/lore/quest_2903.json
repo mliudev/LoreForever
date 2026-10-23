@@ -1,0 +1,85 @@
+{
+ "key": "quest:2903",
+ "type": "quest",
+ "name": "The Battle Plans",
+ "era": "classic",
+ "zone": "feralas",
+ "meta": {
+  "ids": [
+   2903
+  ],
+  "level": "43",
+  "start": "Woodpaw Battle Map",
+  "end": "Hadoken Swiftstrider",
+  "previous": "Woodpaw Investigation",
+  "prev_q": [
+   "Woodpaw Investigation"
+  ],
+  "wiki": null,
+  "next": "Stinglasher (Classic), Zukk'ash Infestation (Classic)",
+  "next_q": [
+   "Stinglasher (Classic)",
+   "Zukk'ash Infestation (Classic)"
+  ]
+ },
+ "summary": "You have the gnolls' battle plans. What is left is to carry them back to Hadoken Swiftstrider at Camp Mojache, where he or someone there may puzzle out what the gnolls are after.",
+ "sections": [
+  {
+   "title": "Back to Camp Mojache",
+   "body": "After Woodpaw Investigation, you hold the Woodpaw battle plans, and the only step left is returning them to Hadoken Swiftstrider at the camp. Hadoken is looking for solid evidence of the gnolls' intentions.",
+   "spoiler": 0
+  },
+  {
+   "title": "Hadoken's Reading",
+   "body": "Hadoken says this is just what they needed. Most of the scrawl is beyond him, but he has seen enough battle plans to read the situation: the gnolls fight on two fronts. The camp is one, yet the bulk of their strength is turned on an enemy to the south. He senses something bigger behind it all, and thinks it is time to learn who that second enemy is.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Where do these battle plans need to go?",
+   "aliases": [
+    "who gets the plans",
+    "where to turn in the battle plans",
+    "the battle plans turn in"
+   ],
+   "answer": "To Hadoken Swiftstrider at Camp Mojache."
+  },
+  {
+   "q": "What came before this step?",
+   "aliases": [
+    "previous quest",
+    "what leads to battle plans",
+    "battle plans prerequisite"
+   ],
+   "answer": "Woodpaw Investigation, the search for the gnolls' plans."
+  },
+  {
+   "q": "Where did the battle plans come from?",
+   "aliases": [
+    "who made the map",
+    "which gnolls made the plans",
+    "woodpaw plans origin"
+   ],
+   "answer": "They are the gnolls' own plans, turned up in the gnoll camps south of Camp Mojache during Woodpaw Investigation."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "battle plans",
+  "camp mojache",
+  "feralas",
+  "gnolls",
+  "hadoken swiftstrider",
+  "woodpaw"
+ ],
+ "related": [
+  "quest:2902",
+  "subzone:camp-mojache",
+  "zone:feralas",
+  "topic:gnoll"
+ ],
+ "attribution": [
+  "Classic quest text: The Battle Plans"
+ ]
+}

@@ -1,0 +1,110 @@
+{
+ "key": "quest:992",
+ "type": "quest",
+ "name": "Gadgetzan Water Survey",
+ "era": "classic",
+ "zone": "tanaris",
+ "meta": {
+  "ids": [
+   992
+  ],
+  "level": "46",
+  "faction": null,
+  "start": "Senior Surveyor Fizzledowser",
+  "end": "Senior Surveyor Fizzledowser",
+  "previous": "",
+  "next": "Noxious Lair Investigation",
+  "wiki": "Gadgetzan Water Survey",
+  "chain": [],
+  "next_q": [
+   "Noxious Lair Investigation"
+  ],
+  "category": "Tanaris",
+  "chain_tpl": [
+   "Rise of the Silithid"
+  ]
+ },
+ "summary": "Senior Surveyor Fizzledowser in Gadgetzan is hiring a temporary junior-grade surveyor for the Gadgetzan Water Company. With the nomads seizing the company's wells, you are handed a dowsing widget to tap a sample from the pool near Sandsorrow Watch.",
+ "sections": [
+  {
+   "title": "A Company in Need of Water",
+   "body": "The nomads have seized all the wells of the Gadgetzan Water Company, so the company must find more free sources of water. Senior Surveyor Fizzledowser believes the desert holds some, though only for those clever enough to survey first, and wants a temporary junior-grade surveyor to help.",
+   "spoiler": 0
+  },
+  {
+   "title": "Sampling at Sandsorrow Watch",
+   "body": "You are given an untapped dowsing widget and sent to the pool near Sandsorrow Watch. The pool lies due west of Gadgetzan and south of Zul'Farrak, within view of the trolls nearby. The aim is to tap a sample of its water with the widget and bring the tapped widget back to Fizzledowser.",
+   "spoiler": 0
+  },
+  {
+   "title": "Back With Fizzledowser",
+   "body": "When you return, Fizzledowser hears that you were ambushed by some bad mojo creepy-crawly, and admits that reports have been coming in of crazy bug-creatures sucking up the desert's water. Fizzledowser took them for nonsense at first, most likely more trouble from the nomads, but now the truth is known.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who offers the survey work in Gadgetzan?",
+   "aliases": [
+    "who gives gadgetzan water survey",
+    "gadgetzan water survey quest giver",
+    "who is fizzledowser"
+   ],
+   "answer": "Senior Surveyor Fizzledowser, who is hiring a temporary junior-grade surveyor for the Gadgetzan Water Company."
+  },
+  {
+   "q": "Why is the Gadgetzan Water Company searching for new pools?",
+   "aliases": [
+    "why survey water",
+    "why need water gadgetzan"
+   ],
+   "answer": "The nomads have seized all the company's wells, so it needs other free sources of water."
+  },
+  {
+   "q": "Where is the pool to be sampled located?",
+   "aliases": [
+    "where is the pool",
+    "sandsorrow watch pool location",
+    "where to use dowsing widget"
+   ],
+   "answer": "By the pool near Sandsorrow Watch, which lies due west of Gadgetzan and south of Zul'Farrak, within view of the trolls nearby."
+  },
+  {
+   "q": "What tool is provided for gathering the sample?",
+   "aliases": [
+    "dowsing widget",
+    "what item is used"
+   ],
+   "answer": "A dowsing widget, which you use at the pool to tap a sample of the water."
+  },
+  {
+   "q": "What follows this step?",
+   "aliases": [
+    "what quest comes next",
+    "gadgetzan water survey chain"
+   ],
+   "answer": "This opens the chain that continues with the Noxious Lair Investigation."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "dowsing widget",
+  "fizzledowser",
+  "gadgetzan",
+  "gadgetzan water company",
+  "sandsorrow watch",
+  "tanaris"
+ ],
+ "related": [
+  "npc:senior-surveyor-fizzledowser",
+  "subzone:gadgetzan",
+  "subzone:sandsorrow-watch",
+  "quest:82",
+  "subzone:zul-farrak",
+  "zone:tanaris",
+  "topic:troll"
+ ],
+ "attribution": [
+  "Gadgetzan Water Survey"
+ ]
+}

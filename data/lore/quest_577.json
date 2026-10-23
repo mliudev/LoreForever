@@ -1,0 +1,95 @@
+{
+ "key": "quest:577",
+ "type": "quest",
+ "name": "Some Assembly Required",
+ "era": "classic",
+ "zone": "stranglethorn",
+ "meta": {
+  "ids": [
+   577
+  ],
+  "level": "36",
+  "start": "Drizzlik",
+  "end": "Drizzlik",
+  "previous": "Supply and Demand",
+  "next": "Excelsior",
+  "prev_q": [
+   "Supply and Demand"
+  ],
+  "next_q": [
+   "Excelsior"
+  ],
+  "wiki": null
+ },
+ "summary": "In Booty Bay, Drizzlik reports that the boots are taking shape, but the skins you supplied will not cover the inner layers. Drizzlik proposes filling them out with cheaper, thicker hides from crocolisks near Lake Nazferiti.",
+ "sections": [
+  {
+   "title": "Filling the Boots",
+   "body": "Drizzlik has settled the rough form of the boots and says they are coming along nicely, yet the skins from Supply and Demand do not go far enough for the insides. Nobody will ever see those layers, so Drizzlik will make do with thicker, cheaper hides from the crocolisks near Lake Nazferiti.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Sales Pitch",
+   "body": "Drizzlik's sales pitch promises the finest workmanship and boots of pure, top-grade saltwater crocolisk hide. Drizzlik likens the boots to sausages: they look great, they taste great, and they are said to hold only the finest ingredients. It is safer, and more enjoyable, to trust the maker and not look too closely at what is really inside.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is asking for these skins?",
+   "aliases": [
+    "quest giver",
+    "who gives some assembly required",
+    "drizzlik location"
+   ],
+   "answer": "Drizzlik in Booty Bay, who is working on the Excelsior boots and needs more skins after those delivered in Supply and Demand."
+  },
+  {
+   "q": "What skins does Drizzlik need?",
+   "aliases": [
+    "what hides do i need",
+    "crocolisk skin type",
+    "which crocs"
+   ],
+   "answer": "Five snapjaw crocolisk skins."
+  },
+  {
+   "q": "Where are the required crocolisks found?",
+   "aliases": [
+    "lake nazferiti location",
+    "where are snapjaws",
+    "where to find crocs"
+   ],
+   "answer": "Drizzlik sends you to the crocolisks around Lake Nazferiti."
+  },
+  {
+   "q": "Why does Drizzlik want cheaper skins?",
+   "aliases": [
+    "why cheaper skins",
+    "why snapjaw hides",
+    "boot padding"
+   ],
+   "answer": "The insides of the boots stay hidden from every eye, so Drizzlik is happy to fill them out with thicker, cheaper skins."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "boots",
+  "booty bay",
+  "crocolisk",
+  "drizzlik",
+  "lake nazferiti",
+  "snapjaw",
+  "stranglethorn vale"
+ ],
+ "related": [
+  "quest:575",
+  "quest:628",
+  "subzone:booty-bay",
+  "subzone:lake-nazferiti",
+  "zone:stranglethorn"
+ ],
+ "attribution": [
+  "Classic quest text: Some Assembly Required"
+ ]
+}

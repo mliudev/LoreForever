@@ -1,0 +1,109 @@
+{
+ "key": "quest:602",
+ "type": "quest",
+ "name": "Magical Analysis",
+ "era": "classic",
+ "zone": "stranglethorn",
+ "meta": {
+  "ids": [
+   602
+  ],
+  "level": "37",
+  "faction": "Alliance",
+  "start": "Baron Revilgaz",
+  "end": "Archmage Ansirem Runeweaver",
+  "previous": "Water Elementals (Classic)",
+  "next": "Ansirem's Key",
+  "wiki": "Magical Analysis",
+  "chain": [],
+  "prev_q": [
+   "Water Elementals (Classic)"
+  ],
+  "next_q": [
+   "Ansirem's Key"
+  ],
+  "category": "Stranglethorn Vale",
+  "chain_tpl": [
+   "Stone of the Tides"
+  ]
+ },
+ "summary": "Baron Revilgaz directs you northward from Booty Bay to consult the Kirin Tor in Dalaran. Taking a bag of water elemental bracers, you seek out Archmage Ansirem Runeweaver to decipher the arcane curse tied to the Stone of the Tides.",
+ "sections": [
+  {
+   "title": "A Plea to Dalaran",
+   "body": "Following your hunt for the water elemental bracers, Baron Revilgaz hands over a bundle of their bracers. The goblin leader knows that unraveling the curse behind the Stone of the Tides requires deeper magical expertise than Booty Bay can provide. He directs you north toward the ruins of Dalaran, where the wizards remain deeply engaged in rebuilding their broken kingdom. Convinced that arcane scholars cannot ignore an intriguing puzzle, Revilgaz recommends seeking Archmage Ansirem Runeweaver directly, having had dealings with the knowledgeable wizard in the past.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Archmage's Lore",
+   "body": "Reaching Ansirem Runeweaver amid Dalaran's ongoing efforts, the busy archmage pauses upon hearing of the relic. Years ago, Runeweaver authored an entire scholarly treatise on the ancient legends of the Gurubashi Empire, giving him rare insight into the relic's past. Examining the bracers, he spots trace magical residue suitable for scrutiny, setting aside his work to uncover what the enchantment holds.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who sends you to Dalaran for this study?",
+   "aliases": [
+    "who gives magical analysis",
+    "magical analysis quest giver",
+    "who starts magical analysis"
+   ],
+   "answer": "Baron Revilgaz in Booty Bay gives you the bag of elemental bracers and instructs you to consult the wizards of Dalaran."
+  },
+  {
+   "q": "Why does Baron Revilgaz pick Archmage Ansirem Runeweaver?",
+   "aliases": [
+    "why ansirem",
+    "revilgaz ansirem connection",
+    "why ansirem runeweaver"
+   ],
+   "answer": "Revilgaz has dealt with Runeweaver before and knows the archmage's knowledge is vast; he also trusts that mages cannot resist a magical puzzle."
+  },
+  {
+   "q": "What came before this journey to Dalaran?",
+   "aliases": [
+    "previous quest",
+    "prereq magical analysis",
+    "what quest leads here"
+   ],
+   "answer": "This assignment directly follows Water Elementals, where you gathered water elemental bracers for Baron Revilgaz."
+  },
+  {
+   "q": "What comes next after reaching the archmage?",
+   "aliases": [
+    "next quest",
+    "what follows magical analysis",
+    "after delivering bracers"
+   ],
+   "answer": "Handing the bracers over leads on to Ansirem's Key."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Mage",
+   "text": "Delivering arcane artifacts to an archmage of the Kirin Tor suits mages, since Baron Revilgaz himself says mages can't resist a magical puzzle."
+  }
+ ],
+ "keywords": [
+  "ansirem runeweaver",
+  "baron revilgaz",
+  "booty bay",
+  "dalaran",
+  "gurubashi empire",
+  "magical analysis",
+  "stone of the tides",
+  "water elemental bracers"
+ ],
+ "related": [
+  "npc:baron-revilgaz",
+  "npc:archmage-ansirem-runeweaver",
+  "quest:603",
+  "subzone:dalaran",
+  "zone:stranglethorn",
+  "quest:578",
+  "topic:mage"
+ ],
+ "attribution": [
+  "Magical Analysis"
+ ]
+}

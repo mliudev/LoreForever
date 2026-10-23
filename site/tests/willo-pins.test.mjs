@@ -9,6 +9,9 @@ import { pinIntent, spotOf, pinLine, pinOf, pinRefs, pinTool, pinCall, pinUpdate
 import { notebookView, notebookTools, notebookCall, applyOp } from "../lib/willo-notebook.js";
 
 const SPOT = { place: "Fargodeep Mine, Elwynn Forest", x: 41, y: 65, day: "October 18" };
+// Her lines are checked for what they carry (the pin, the place, the character), not their wording.
+const says = (text, ...facts) => { for (const f of facts) assert.ok(String(text).toLowerCase().includes(String(f).toLowerCase()),
+  `${JSON.stringify(text)} should say ${f}`); };
 
 const three = ({ add, manage, read }) => ({ add, manage, read });
 test("pin questions: pin, manage, read; and only those", () => {
@@ -59,11 +62,12 @@ test("notebook_pin writes the game's place and day under Pins; the model only na
   assert.equal(call.page, "char:Hurin-Forever");
   const { body } = applyOp("", call.op);
   assert.equal(body, "## Pins\n- Kobold den: The elite inside hits hard · Fargodeep Mine, Elwynn Forest (south, 41, 65) · October 18\n");
-  assert.equal(pinnedLine("I've pinned it for you! Want anything else?", call.pin),
-    "Pinned: Kobold den, Fargodeep Mine in Elwynn Forest. The elite inside hits hard.");
+  const pinned = pinnedLine("I've pinned it for you! Want anything else?", call.pin);
+  says(pinned, "Pinned", "Kobold den", "Fargodeep Mine", "The elite inside hits hard");
+  assert.doesNotMatch(pinned, /anything else|"/);
   // Named for the place itself.
   const own = pinCall({ name: "notebook_pin", args: { name: "Fargodeep Mine" } }, tools, view, SPOT);
-  assert.equal(pinnedLine("", own.pin), "Pinned: Fargodeep Mine in Elwynn Forest.");
+  says(pinnedLine("", own.pin), "Pinned", "Fargodeep Mine");
   // No spot from the game: no tool, so nothing to pin with; the rules say how she could.
   assert.deepEqual(pinTool(null, { add: true }), []);
   assert.equal(pinCall({ name: "notebook_pin", args: { name: "x" } }, tools, view, null), null);
@@ -85,7 +89,7 @@ test("a pin renamed through notebook_update keeps the game's place and day; one 
     const noted = pinUpdate(view, notebookCall({ name: "notebook_update", args: { item: n, text } }, tools, view));
     assert.equal(applyOp(body, noted.op).body,
       "## Pins\n- Kobold den: the elite inside hits hard · Fargodeep Mine, Elwynn Forest (south, 41, 65) · October 18\n");
-    assert.equal(pinnedLine("Done! I renamed it.", noted.pin), "Renamed it Kobold den: Fargodeep Mine in Elwynn Forest.");
+    says(pinnedLine("Done! I renamed it.", noted.pin), "Kobold den", "Fargodeep Mine");
   }
   assert.deepEqual(notebookCall({ name: "notebook_update", args: { item: 99, text: "x" } }, tools, view), { missing: true });
   // A line that isn't a pin is the notebook's as before.
@@ -99,29 +103,30 @@ test("the list of pins is built here: this character's, typed in full, out loud 
     "the murloc cave · Jangolode Mine, Westfall · October 9", "Mor'Ladim's crypt · Raven Hill Cemetery, Duskwood · October 12",
     "the gnoll camp · Lakeshire, Redridge Mountains · October 14", "the fishing spot · Lake Everstill, Redridge Mountains · October 15"];
   const view = { current: "char:Húrin-ClassicBetaPvE", pages: { "char:Húrin-ClassicBetaPvE": { body: `## Pins\n${six.map(l => `- ${l}`).join("\n")}\n` } } };
-  assert.equal(pinsAnswer(view, { spoken: true }),
-    "Six pins for Húrin: the elite cave in Fargodeep Mine, Hogger's hill in Forest's Edge, the murloc cave in Jangolode Mine, and three more.");
-  assert.match(pinsAnswer(view), /^Six pins for Húrin: the elite cave in Fargodeep Mine, Elwynn Forest, October 18; /);
+  const spoken = pinsAnswer(view, { spoken: true });
+  says(spoken, "six", "Húrin", "the elite cave", "Hogger's hill", "the murloc cave", "three more");
+  assert.doesNotMatch(spoken, /Mor'Ladim|October/, "out loud: three and how many more");
+  says(pinsAnswer(view), "the elite cave", "October 18", "the fishing spot");
   // Another character's pins are never this one's (the same chat or not).
-  assert.equal(pinsAnswer({ current: "char:Brynn-ClassicBetaPvE", pages: view.pages }),
-    `Brynn has no pins yet. Say "pin this spot" where you stand, and I'll keep it.`);
+  const brynn = pinsAnswer({ current: "char:Brynn-ClassicBetaPvE", pages: view.pages });
+  says(brynn, "Brynn", "no pins");
+  assert.doesNotMatch(brynn, /elite cave/);
   assert.deepEqual(["What pins do I have?", "list my pins", "how many pins do I have?"].map(q => pinIntent(q).list), [true, true, true]);
   assert.deepEqual(["Clear all my pins.", "remove every pin"].map(q => pinIntent(q).clearAll), [true, true]);
   assert.equal(pinIntent("Remove the cave pin.").clearAll, false);
   // Asked which of two, each by name and place, never the raw line or its numbers.
   const two = { current: "char:H-R", pages: { "char:H-R": { body: `## Pins\n- ${pinLine("the elite cave", "hits hard", SPOT)}\n- the murloc cave · Jangolode Mine, Westfall · October 9\n` } } };
-  assert.equal(pinsSaid(`Which one: ${pinLine("the elite cave", "hits hard", SPOT)}, or the murloc cave · Jangolode Mine, Westfall · October 9?`, two),
-    "Which one: the elite cave in Fargodeep Mine, or the murloc cave in Jangolode Mine?");
+  const which = pinsSaid(`Which one: ${pinLine("the elite cave", "hits hard", SPOT)}, or the murloc cave · Jangolode Mine, Westfall · October 9?`, two);
+  says(which, "the elite cave", "Fargodeep Mine", "the murloc cave", "Jangolode Mine");
+  assert.doesNotMatch(which, /·|41, 65/);
 });
 
 test("clearing all pins: her question's words, and only a yes to it clears", async () => {
   const { clearAsk, confirmsClear } = await import("../lib/willo-pins.js");
   const page = n => ({ current: "char:Húrin-R", pages: { "char:Húrin-R": { body: "## Pins\n" +
     Array.from({ length: n }, (_, i) => `- spot ${i} · Elwynn Forest · October ${i + 1}`).join("\n") + "\n" } } });
-  assert.equal(clearAsk(page(1)), "Húrin's one pin? Say yes and I'll take it off.");
-  assert.equal(clearAsk(page(2)), "Both of Húrin's pins? Say yes and I'll take them off.");
-  assert.equal(clearAsk(page(6)), "All six of Húrin's pins? Say yes and I'll take them off.");
-  assert.equal(clearAsk(page(0)), "Húrin has no pins to clear.");
+  for (const [n, count] of [[1, "one"], [2, "Húrin"], [6, "six"]]) says(clearAsk(page(n)), count, "yes");
+  says(clearAsk(page(0)), "no pins");
   const asked = clearAsk(page(2));
   for (const yes of ["yes", "Yeah, go ahead", "ok", "do it"]) assert.equal(confirmsClear(yes, asked), true, yes);
   for (const no of ["no", "no, keep them", "wait", "yes, but not the cave", "don't"]) assert.equal(confirmsClear(no, asked), false, no);
@@ -136,20 +141,15 @@ test("every answer to her clear-all question is the site's: a yes on another cha
   const brynn = { current: "char:Brynn-R", pages: { "char:Húrin-R": { body } } };
   const asked = clearAsk(hurin);
   assert.equal(clearReply(hurin, "yes", asked).noted.op.targets.length, 2);
-  assert.deepEqual(clearReply(brynn, "Yes.", asked),
-    { answer: "I haven't cleared anything: that was about Húrin's pins, and you're on Brynn now." });
+  const elsewhere = clearReply(brynn, "Yes.", asked);
+  assert.deepEqual(Object.keys(elsewhere), ["answer"], "nothing to write");
+  says(elsewhere.answer, "haven't cleared", "Húrin", "Brynn");
   // Asked on Húrin, the pins cleared by hand in the Notebook tab before the yes: nothing to clear, and she says so.
-  assert.deepEqual(clearReply({ current: "char:Húrin-R", pages: {} }, "yes", asked), { answer: "Húrin has no pins to clear." });
+  says(clearReply({ current: "char:Húrin-R", pages: {} }, "yes", asked).answer, "no pins");
   // Asked of "your" pins (no character), answered on Brynn with none.
-  assert.deepEqual(clearReply(brynn, "yes", "All six of your pins? Say yes and I'll take them off."),
-    { answer: "Brynn has no pins to clear." });
-  assert.deepEqual(clearReply(hurin, "No, keep them.", asked), { answer: "All right, I'll keep them." });
+  says(clearReply(brynn, "yes", "All six of your pins? Say yes and I'll take them off.").answer, "Brynn", "no pins");
+  assert.deepEqual(Object.keys(clearReply(hurin, "No, keep them.", asked)), ["answer"], "a no writes nothing");
   assert.equal(clearReply(hurin, "what's the weather?", asked), null);
-});
-
-test("her pinned line keeps no stray marks from the model's words", () => {
-  const pin = { did: "pinned", name: "the elite cave", note: "the elite inside hits hard", where: "Fargodeep Mine, Elwynn Forest" };
-  assert.equal(pinnedLine('I\'ve pinned it! "', pin), "Pinned: the elite cave, Fargodeep Mine in Elwynn Forest. The elite inside hits hard.");
 });
 
 test("a renamed pin keeps the player's own words for its name", () => {

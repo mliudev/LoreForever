@@ -9,6 +9,7 @@
 
 import { words } from "./forever-knowledge.js";
 import { namedCorrection } from "./answer-feedback.js";
+import { createMissing } from "./schema.js";
 
 export const CACHE_DAYS = 14;
 // The most an EARLIER RESEARCH block adds to a system prompt (companion-answers.js counts it in its bound).
@@ -21,7 +22,7 @@ const SETUP = [
 const ready = new WeakMap();
 async function setupCache(env) {
   if (ready.get(env.DB)) return;
-  await env.DB.batch(SETUP.map(sql => env.DB.prepare(sql)));
+  await createMissing(env, SETUP);
   ready.set(env.DB, true);
 }
 

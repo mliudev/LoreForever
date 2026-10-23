@@ -1,0 +1,106 @@
+{
+ "key": "quest:1398",
+ "type": "quest",
+ "name": "Driftwood",
+ "era": "classic",
+ "zone": "swampofsorrows",
+ "meta": {
+  "ids": [
+   1398
+  ],
+  "level": "42",
+  "faction": "Alliance",
+  "start": "Watcher Biggs",
+  "end": "Watcher Biggs",
+  "previous": "The Lost Caravan",
+  "next": "Deliver the Shipment",
+  "wiki": "Driftwood (quest)",
+  "chain": [],
+  "prev_q": [
+   "The Lost Caravan"
+  ],
+  "next_q": [
+   "Deliver the Shipment"
+  ],
+  "category": "Swamp of Sorrows",
+  "chain_tpl": [
+   "Help Watcher Biggs"
+  ]
+ },
+ "summary": "After The Lost Caravan, Watcher Biggs still has a wagon to mend before reaching Nethergarde. Biggs needs strong, dry wood, and sends you east to the coast to search for driftwood dried by the sun.",
+ "sections": [
+  {
+   "title": "Wood for the Wagon",
+   "body": "Watcher Biggs says you are owed great thanks, and asks for your help once more. If Biggs is ever to reach Nethergarde, the wagon must be fixed, and that takes strong, dry wood. Wood from the swamp's trees is spongy and tangled, and will not do.",
+   "spoiler": 0
+  },
+  {
+   "title": "Driftwood from the Coast",
+   "body": "Biggs sends you east to the coast, to search for driftwood that the sun has dried. Eight pieces are to be brought back to Biggs in the Swamp of Sorrows.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Why does Watcher Biggs need wood?",
+   "aliases": [
+    "driftwood reason",
+    "why does biggs need driftwood",
+    "why driftwood"
+   ],
+   "answer": "The wagon must be fixed if Biggs is ever to reach Nethergarde, and wood from the swamp's trees is too spongy and tangled."
+  },
+  {
+   "q": "Where does Watcher Biggs send you for the wood?",
+   "aliases": [
+    "driftwood location",
+    "where to find driftwood",
+    "where is the wood"
+   ],
+   "answer": "East to the coast, to search for driftwood that the sun has dried."
+  },
+  {
+   "q": "What came before this?",
+   "aliases": [
+    "driftwood previous quest",
+    "what leads to driftwood",
+    "what quest comes before driftwood"
+   ],
+   "answer": "The Lost Caravan comes first, and Biggs then asks for more help."
+  },
+  {
+   "q": "How much driftwood is needed?",
+   "aliases": [
+    "driftwood count",
+    "how many driftwood"
+   ],
+   "answer": "Eight pieces of sundried driftwood."
+  },
+  {
+   "q": "What comes after gathering the driftwood?",
+   "aliases": [
+    "driftwood follow up",
+    "what is after driftwood",
+    "driftwood next quest"
+   ],
+   "answer": "Deliver the Shipment follows."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "driftwood",
+  "nethergarde",
+  "sundried driftwood",
+  "swamp of sorrows",
+  "wagon",
+  "watcher biggs"
+ ],
+ "related": [
+  "quest:1421",
+  "quest:1425",
+  "zone:swampofsorrows"
+ ],
+ "attribution": [
+  "Driftwood (quest)"
+ ]
+}

@@ -1,0 +1,82 @@
+{
+ "key": "quest:7861",
+ "type": "quest",
+ "name": "Wanted: Vile Priestess Hexx and Her Minions",
+ "era": "classic",
+ "zone": "hinterlands",
+ "meta": {
+  "ids": [
+   7861
+  ],
+  "level": "51",
+  "faction": "Horde",
+  "start": "Call to Arms!",
+  "end": "Primal Torntusk",
+  "previous": "",
+  "next": "",
+  "wiki": "Wanted: Vile Priestess Hexx and Her Minions",
+  "chain": [],
+  "category": "Hinterlands"
+ },
+ "summary": "Primal Torntusk has ordered Vile Priestess Hexx and her minions brought to justice, and a grand prize awaits anyone who slays the priestess and her elite Aman'zasi guard. You will find them atop Jintha'alor in the Hinterlands.",
+ "sections": [
+  {
+   "title": "A Strike at Jintha'alor",
+   "body": "Primal Torntusk has ordered that Vile Priestess Hexx and her minions be brought to justice. The targets are the priestess herself and the Aman'zasi guards, her elite. Atop Jintha'alor, in the Hinterlands, is where they are found. Once they are slain, you report back to Torntusk at Revantusk Village.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who posted the bounty for Vile Priestess Hexx?",
+   "aliases": [
+    "who wants hexx dead",
+    "who gave this bounty",
+    "priestess hexx quest giver"
+   ],
+   "answer": "The call to arms was issued by order of Primal Torntusk, and a grand prize is offered to whoever slays the priestess and her guard."
+  },
+  {
+   "q": "Where can Vile Priestess Hexx and her guards be found?",
+   "aliases": [
+    "where is hexx",
+    "vile priestess hexx location",
+    "amanzasi guards location"
+   ],
+   "answer": "They are found atop Jintha'alor in the Hinterlands."
+  },
+  {
+   "q": "Who must be slain to fulfill the bounty?",
+   "aliases": [
+    "hexx bounty objectives",
+    "who to kill for hexx"
+   ],
+   "answer": "The priestess Hexx herself, along with her Aman'zasi elite guard of the Vilebranch."
+  },
+  {
+   "q": "Where is the bounty turned in?",
+   "aliases": [
+    "where to turn in hexx bounty",
+    "primal torntusk location"
+   ],
+   "answer": "Report to Primal Torntusk at Revantusk Village once the priestess and her guard are slain."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "aman'zasi",
+  "hexx",
+  "hinterlands",
+  "jintha'alor",
+  "primal torntusk",
+  "revantusk village",
+  "vile priestess hexx",
+  "vilebranch"
+ ],
+ "related": [
+  "zone:hinterlands"
+ ],
+ "attribution": [
+  "Wowpedia: Wanted: Vile Priestess Hexx and Her Minions"
+ ]
+}

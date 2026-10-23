@@ -1,0 +1,88 @@
+{
+ "key": "quest:1420",
+ "type": "quest",
+ "name": "Report to Helgrum",
+ "era": "classic",
+ "zone": "badlands",
+ "meta": {
+  "ids": [
+   1420
+  ],
+  "level": "40",
+  "faction": "Horde",
+  "start": "Neeka Bloodscar",
+  "end": "Helgrum the Swift",
+  "previous": "Neeka Bloodscar (Classic)",
+  "next": "",
+  "wiki": "Report to Helgrum",
+  "chain": [
+   "Neeka Bloodscar (Classic)",
+   "Report to Helgrum"
+  ],
+  "prev_q": [
+   "Neeka Bloodscar (Classic)"
+  ],
+  "category": "Badlands"
+ },
+ "summary": "Neeka Bloodscar has written a fresh report for Helgrum the Swift in Stonard, and asks you to carry it there. This follows your visit to Neeka at Kargath.",
+ "sections": [
+  {
+   "title": "A Report for Stonard",
+   "body": "Neeka Bloodscar has written a new report for Helgrum in Stonard and hands it to you. Neeka adds that anyone who calls themselves an outrunner must not lose the way, or fall to an enemy.",
+   "spoiler": 0
+  },
+  {
+   "title": "Helgrum Reads the Report",
+   "body": "Reading Neeka's report, Helgrum sees that the Alliance has troubles of its own. Helgrum also thinks the Horde and the Alliance may turn out to share some enemies.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who sends you with the report?",
+   "aliases": [
+    "who gives report to helgrum",
+    "quest giver report to helgrum",
+    "who starts this quest"
+   ],
+   "answer": "Neeka Bloodscar, who has written a fresh report for Helgrum."
+  },
+  {
+   "q": "Where does the report need to be delivered?",
+   "aliases": [
+    "where to turn in report to helgrum",
+    "helgrum location",
+    "where is helgrum"
+   ],
+   "answer": "To Helgrum the Swift in Stonard."
+  },
+  {
+   "q": "What comes before this?",
+   "aliases": [
+    "previous quest",
+    "prerequisite for report to helgrum",
+    "what quest comes first"
+   ],
+   "answer": "It follows the earlier step in which Helgrum sent you to speak with Neeka Bloodscar at Kargath."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "badlands",
+  "helgrum the swift",
+  "horde intelligence",
+  "neeka bloodscar",
+  "outrunner",
+  "report",
+  "stonard"
+ ],
+ "related": [
+  "quest:1418",
+  "subzone:stonard",
+  "zone:badlands",
+  "topic:alliance"
+ ],
+ "attribution": [
+  "Report to Helgrum"
+ ]
+}

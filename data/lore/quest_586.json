@@ -1,0 +1,127 @@
+{
+ "key": "quest:586",
+ "type": "quest",
+ "name": "Speaking with Gan'zulah",
+ "era": "classic",
+ "zone": "stranglethorn",
+ "meta": {
+  "ids": [
+   586
+  ],
+  "level": "46",
+  "faction": "Horde",
+  "start": "Bubbling Cauldron",
+  "end": "Bubbling Cauldron",
+  "previous": "Bloodscalp Clan Heads",
+  "next": "The Fate of Yenniku",
+  "wiki": "Speaking with Gan'zulah",
+  "chain": [],
+  "prev_q": [
+   "Bloodscalp Clan Heads"
+  ],
+  "next_q": [
+   "The Fate of Yenniku"
+  ],
+  "category": "Stranglethorn Vale",
+  "chain_tpl": [
+   "Fate of Yenniku"
+  ]
+ },
+ "summary": "Even after losing his head to the boiling brew at Grom'gol Base Camp, the Bloodscalp chieftain Gan'zulah seethes with fury. To appease his lingering rage, the severed spirit demands the death of his bitter Skullsplitter rivals and the ruin of their ruler, Ana'thek the Cruel.",
+ "sections": [
+  {
+   "title": "A Chieftain's Vengeance",
+   "body": "Following the collection of the Bloodscalp Clan Heads, Gan'zulah's severed head continues to curse anyone standing over the bubbling pot. Consumed by hatred for both his captors and his ancestral enemies, the dead chieftain offers an avenue to quiet his boiling temper: an assault into the eastern stronghold of the Skullsplitter tribe. He demands a slaughter of their hunters, headhunters, and berserkers, daring travelers to perish against their ferocious warband.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Broken Armor",
+   "body": "Gan'zulah expects the assault to end in disaster, fully anticipating that Chief Ana'thek the Cruel will tear apart any intruder who dares challenge him. He demands nothing less than the shattered armor stripped from the Skullsplitter ruler himself as proof of triumph. Only bearing this trophy back to the cauldron in Grom'gol Base Camp can satisfy the dead chieftain's spite.",
+   "spoiler": 0
+  },
+  {
+   "title": "An Uneasy Peace",
+   "body": "Presenting the shattered armor of Ana'thek silences Gan'zulah's insults. Faced with the reality of his rival's downfall, the chieftain's vengeful wrath finally relents. Though he acknowledges the strength required to defeat Ana'thek, he promises that this victory only delays their reckoning, swearing to clash again in the Nether.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Where does Gan'zulah want you to go?",
+   "aliases": [
+    "where are the skullsplitters",
+    "where to go speaking with ganzulah",
+    "skullsplitter location"
+   ],
+   "answer": "Gan'zulah directs you eastward into the heart of Skullsplitter territory, toward the settlement where their fighters gather under the command of Ana'thek the Cruel."
+  },
+  {
+   "q": "Who is Ana'thek the Cruel?",
+   "aliases": [
+    "who is anatek",
+    "who is the skullsplitter chief",
+    "anatek the cruel lore"
+   ],
+   "answer": "Ana'thek the Cruel is the chieftain of the Skullsplitter trolls, a hated rival of Gan'zulah and the Bloodscalp tribe."
+  },
+  {
+   "q": "Why is Gan'zulah able to talk?",
+   "aliases": [
+    "how is ganzulah talking",
+    "why is the head talking",
+    "ganzulah cauldron"
+   ],
+   "answer": "Gan'zulah's severed head sits immersed within the enchanted cauldron at Grom'gol Base Camp, allowing his spirit to voice his lingering curses and demands from beyond death."
+  },
+  {
+   "q": "What trophy does Gan'zulah demand?",
+   "aliases": [
+    "what item does ganzulah need",
+    "broken armor of anatek",
+    "ganzulah turn in item"
+   ],
+   "answer": "He demands the broken armor stripped from Chief Ana'thek the Cruel, and the slaying of the Skullsplitter hunters, headhunters, and berserkers."
+  },
+  {
+   "q": "What comes next after helping Gan'zulah?",
+   "aliases": [
+    "what follows speaking with ganzulah",
+    "next quest after ganzulah",
+    "speaking with ganzulah follow up"
+   ],
+   "answer": "Once the tribal chieftains are dealt with, the search continues with The Fate of Yenniku to uncover what became of the young Darkspear troll."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Horde",
+   "text": "Gan'zulah's head sits in the cauldron at Grom'gol Base Camp, and he sends Horde champions against his Skullsplitter enemies."
+  },
+  {
+   "target": "race:Troll",
+   "text": "For Darkspear trolls, watching ancient rivals like the Bloodscalp and Skullsplitter chieftains turn their undying hatred against each other is a grim reminder of the jungle's brutal feuds."
+  }
+ ],
+ "keywords": [
+  "ana'thek",
+  "berserker",
+  "bloodscalp",
+  "cauldron",
+  "gan'zulah",
+  "grom'gol",
+  "headhunter",
+  "skullsplitter",
+  "stranglethorn"
+ ],
+ "related": [
+  "quest:584",
+  "quest:585",
+  "quest:588",
+  "subzone:grom-gol-base-camp",
+  "subzone:ruins-of-zul-mamwe",
+  "zone:stranglethorn"
+ ],
+ "attribution": [
+  "Speaking with Gan'zulah"
+ ]
+}

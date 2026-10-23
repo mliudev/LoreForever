@@ -1,0 +1,83 @@
+{
+ "key": "quest:669",
+ "type": "quest",
+ "name": "Sunken Treasure",
+ "era": "classic",
+ "zone": "arathi",
+ "meta": {
+  "ids": [
+   669
+  ],
+  "level": "40",
+  "faction": null,
+  "start": "Shakes O'Breen",
+  "end": "Fleet Master Seahorn",
+  "previous": "Sunken Treasure (3)",
+  "next": "Sunken Treasure (5)",
+  "wiki": "Sunken Treasure (4)",
+  "chain": [],
+  "prev_q": [
+   "Sunken Treasure (3)"
+  ],
+  "next_q": [
+   "Sunken Treasure (5)"
+  ],
+  "category": "Arathi Highlands",
+  "chain_tpl": [
+   "Sunken Treasure"
+  ]
+ },
+ "summary": "After the previous step in the Sunken Treasure chain, Shakes O'Breen is stuck where he is and needs word taken to Fleet Master Seahorn at Booty Bay. He asks you to carry a sample gem as proof of the find.",
+ "sections": [
+  {
+   "title": "Word for Booty Bay",
+   "body": "Shakes O'Breen wants Fleet Master Seahorn to hear of the find right away, yet he cannot easily get away. The tide is too low, and the creatures they disturbed are watching every move. He asks you to help the Blackwater Raiders by telling Seahorn in Booty Bay that the treasure is found and more is being brought up. A sample elven gem goes with you as proof.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Why can't Shakes O'Breen deliver the gem himself?",
+   "aliases": [
+    "why cant shakes leave",
+    "why is shakes stuck",
+    "why does shakes need a courier"
+   ],
+   "answer": "The tide is too low for them to get away, and the creatures they disturbed are keeping a close eye on their movements."
+  },
+  {
+   "q": "Who is Fleet Master Seahorn?",
+   "aliases": [
+    "who is seahorn",
+    "where is fleet master seahorn"
+   ],
+   "answer": "He is the Fleet Master in Booty Bay, whom O'Breen wants to hear of the find at once."
+  },
+  {
+   "q": "What proof is being carried to Booty Bay?",
+   "aliases": [
+    "what is the proof",
+    "what gem is delivered"
+   ],
+   "answer": "A sample elven gem, which shows that the treasure was found and that more is being extracted."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "arathi highlands",
+  "blackwater raiders",
+  "booty bay",
+  "fleet master seahorn",
+  "sample elven gem",
+  "shakes o'breen",
+  "sunken treasure"
+ ],
+ "related": [
+  "npc:fleet-master-seahorn",
+  "subzone:booty-bay",
+  "zone:arathi"
+ ],
+ "attribution": [
+  "Sunken Treasure (4)"
+ ]
+}

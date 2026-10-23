@@ -1,0 +1,103 @@
+{
+ "key": "quest:1440",
+ "type": "quest",
+ "name": "Return to Vahlarriel",
+ "era": "classic",
+ "zone": "desolace",
+ "meta": {
+  "ids": [
+   1440
+  ],
+  "level": "33",
+  "faction": "Alliance",
+  "start": "Dalinda Malem",
+  "end": "Vahlarriel Demonslayer",
+  "previous": "Search for Tyranis",
+  "next": "",
+  "wiki": "Return to Vahlarriel",
+  "chain": [
+   "Vahlarriel's Search",
+   "Vahlarriel's Search (2)",
+   "Vahlarriel's Search (3)",
+   "Search for Tyranis",
+   "Return to Vahlarriel"
+  ],
+  "prev_q": [
+   "Search for Tyranis"
+  ],
+  "category": "Desolace"
+ },
+ "summary": "Dalinda Malem is ready to leave Thunder Axe Fortress. She thanks you for what you have done for her and her family, and says the time is yours to choose. You escort her out, then find Vahlarriel Demonslayer.",
+ "sections": [
+  {
+   "title": "Leaving the Fortress",
+   "body": "Dalinda asks whether the time has come, and offers thanks for all you have done for her and her family, in case things do not go as hoped. If you are ready, nothing else keeps her here, and she will go when you judge the moment right. You escort her out of Thunder Axe Fortress and then find Vahlarriel Demonslayer in Desolace.",
+   "spoiler": 0
+  },
+  {
+   "title": "Word from Vahlarriel",
+   "body": "Vahlarriel thanks you. Dalinda reached Nijel's Point in far better shape than Vahlarriel could have asked for, and that she arrived on her own strength was a good sign. It pains Vahlarriel that neither sibling returned, but the embarrassment of Tyranis's choices is hers to endure once she is back in Darnassus.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who asks you to escort her?",
+   "aliases": [
+    "who gives return to vahlarriel",
+    "quest giver return to vahlarriel",
+    "who is dalinda malem"
+   ],
+   "answer": "Dalinda Malem, who is ready to leave Thunder Axe Fortress when you judge the moment right."
+  },
+  {
+   "q": "Where does this begin?",
+   "aliases": [
+    "dalinda malem location",
+    "where is dalinda malem",
+    "where does return to vahlarriel start"
+   ],
+   "answer": "At Thunder Axe Fortress in Desolace, where Dalinda is."
+  },
+  {
+   "q": "Who do you go to after Dalinda is out?",
+   "aliases": [
+    "where to turn in return to vahlarriel",
+    "who finishes return to vahlarriel",
+    "return to vahlarriel end"
+   ],
+   "answer": "Vahlarriel Demonslayer, in Desolace."
+  },
+  {
+   "q": "What came before this step?",
+   "aliases": [
+    "prereq return to vahlarriel",
+    "return to vahlarriel previous",
+    "what quest comes before return to vahlarriel"
+   ],
+   "answer": "It follows Search for Tyranis, part of the longer Vahlarriel's Search."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "dalinda malem",
+  "darnassus",
+  "desolace",
+  "escort",
+  "nijel's point",
+  "thunder axe fortress",
+  "tyranis",
+  "vahlarriel"
+ ],
+ "related": [
+  "quest:1439",
+  "quest:1437",
+  "subzone:thunder-axe-fortress",
+  "subzone:nijel-s-point",
+  "zone:desolace",
+  "zone:darnassus"
+ ],
+ "attribution": [
+  "Return to Vahlarriel"
+ ]
+}

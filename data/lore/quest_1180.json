@@ -1,0 +1,106 @@
+{
+ "key": "quest:1180",
+ "type": "quest",
+ "name": "Goblin Sponsorship",
+ "era": "classic",
+ "zone": "thousandneedles",
+ "meta": {
+  "ids": [
+   1180
+  ],
+  "level": "37",
+  "faction": null,
+  "start": "Gazlowe",
+  "end": "Wharfmaster Lozgil",
+  "previous": "Goblin Sponsorship",
+  "next": "Goblin Sponsorship (3)",
+  "wiki": "Goblin Sponsorship (2)",
+  "chain": [],
+  "prev_q": [
+   "Goblin Sponsorship"
+  ],
+  "next_q": [
+   "Goblin Sponsorship (3)"
+  ],
+  "category": "Thousand Needles",
+  "chain_tpl": [
+   "Goblin Sponsorship"
+  ]
+ },
+ "summary": "Gazlowe is back to the matter you came about: the fuel regulator promised to Pozzik has not reached Ratchet. Revilgaz in Booty Bay said he would have it shipped over, but it may have slipped through the cracks. Gazlowe sends you to Wharfmaster Lozgil there, who can check the cargo records.",
+ "sections": [
+  {
+   "title": "A Part That Never Came",
+   "body": "Gazlowe admits he promised Pozzik a new fuel regulator and still has not received it. Revilgaz of Booty Bay said he would have it shipped over, but it may have slipped through the cracks. If so, there is not much to be done, but you can at least learn whether it left Booty Bay. Wharfmaster Lozgil, at the far northwestern end of the Booty Bay docks, can look through the cargo records.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Wharfmaster's Records",
+   "body": "Lozgil checks the logbooks for shipments to Ratchet. The most recent was boots from Drizzlik, and otherwise there have been only building supplies and tools. There were no race parts.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "What part is missing?",
+   "aliases": [
+    "pozzik part",
+    "why fuel regulator",
+    "pozzik shipment"
+   ],
+   "answer": "Gazlowe promised Pozzik a new fuel regulator, but Gazlowe has not received it yet."
+  },
+  {
+   "q": "Who said they would send the regulator to Ratchet?",
+   "aliases": [
+    "who sends the part",
+    "revilgaz part",
+    "who has the fuel regulator"
+   ],
+   "answer": "Revilgaz in Booty Bay said he would have it shipped over to Gazlowe in Ratchet."
+  },
+  {
+   "q": "Who keeps the shipping records in Booty Bay?",
+   "aliases": [
+    "booty bay cargo master",
+    "who is wharfmaster lozgil",
+    "where is lozgil"
+   ],
+   "answer": "Wharfmaster Lozgil, who can look through the cargo records. He is at the far northwestern end of the Booty Bay docks."
+  },
+  {
+   "q": "Where does this step fit in the chain?",
+   "aliases": [
+    "goblin sponsorship chain",
+    "quest progression",
+    "what comes before this"
+   ],
+   "answer": "It follows the first Goblin Sponsorship, in which Pozzik sent you to Gazlowe, and the next step is Goblin Sponsorship (3)."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "booty bay",
+  "fuel regulator",
+  "gazlowe",
+  "goblin sponsorship",
+  "mirage raceway",
+  "pozzik",
+  "ratchet",
+  "revilgaz",
+  "wharfmaster lozgil"
+ ],
+ "related": [
+  "quest:1178",
+  "quest:1181",
+  "subzone:mirage-raceway",
+  "npc:pozzik",
+  "subzone:ratchet",
+  "subzone:booty-bay",
+  "topic:goblin",
+  "zone:thousandneedles"
+ ],
+ "attribution": [
+  "Goblin Sponsorship (2)"
+ ]
+}

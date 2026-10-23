@@ -1,0 +1,104 @@
+{
+ "key": "quest:200",
+ "type": "quest",
+ "name": "Bookie Herod",
+ "era": "classic",
+ "zone": "stranglethorn",
+ "meta": {
+  "ids": [
+   200
+  ],
+  "level": "35",
+  "faction": "Alliance",
+  "start": "Lieutenant Doren",
+  "end": "Bookie Herod's Records",
+  "previous": "Jungle Secrets",
+  "next": "The Hidden Key",
+  "wiki": "Bookie Herod (quest)",
+  "chain": [],
+  "prev_q": [
+   "Jungle Secrets"
+  ],
+  "next_q": [
+   "The Hidden Key"
+  ],
+  "category": "Stranglethorn Vale",
+  "chain_tpl": [
+   "Jungle Secrets"
+  ]
+ },
+ "summary": "Lieutenant Doren fears a spy among his own men after Kurzen discovered Thorsen's secret. To uncover how the secret slipped out, an investigator must infiltrate Kurzen's Compound and recover the records kept by Kurzen's logistics officer.",
+ "sections": [
+  {
+   "title": "A Leak in the Ranks",
+   "body": "Following the discovery of Thorsen's secret, Lieutenant Doren suspects that a traitor operates within their midst. The intelligence leak threatens their operations, and finding the traitor has become an urgent concern. Thorsen maintained a line of communication directly into Kurzen's Compound through Bookie Herod, the colonel's logistics officer. Because Herod knows how Kurzen's Compound is run from day to day, Doren believes the officer's written records hold the truth about how the operation was exposed.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Logistics Office",
+   "body": "Reaching Bookie Herod's paperwork requires venturing into Kurzen's Compound. During Doren's time serving under Kurzen, Herod kept his office on the top floor of the compound's lone two-story house. There, among supply requisitions and missives from Colonel Kurzen himself, lie the documents that could trace how the secret was betrayed.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Bookie Herod?",
+   "aliases": [
+    "herod role",
+    "who is the bookie",
+    "bookie herod lore"
+   ],
+   "answer": "Bookie Herod serves as the logistics officer for Colonel Kurzen's men. He oversees supplies and camp operations at Kurzen's Compound, and he previously served as an inside contact for Thorsen."
+  },
+  {
+   "q": "Why does Lieutenant Doren want Herod's records?",
+   "aliases": [
+    "why get herod records",
+    "doren spy",
+    "how was thorsen caught"
+   ],
+   "answer": "Lieutenant Doren believes a spy has betrayed their camp because Colonel Kurzen learned of Thorsen's secret. Doren hopes Herod's logistics logs and correspondence will explain how that information was leaked."
+  },
+  {
+   "q": "Where are Bookie Herod's records located?",
+   "aliases": [
+    "where are the records",
+    "herod office location",
+    "two story house kurzen"
+   ],
+   "answer": "Herod's office sits on the top floor of the only two-story house inside Kurzen's Compound, where Doren believes his records are probably still kept."
+  },
+  {
+   "q": "What comes before this investigation?",
+   "aliases": [
+    "prior quest",
+    "bookie herod prerequisite"
+   ],
+   "answer": "This investigation directly follows Jungle Secrets, where Lieutenant Doren concludes that someone must have betrayed Thorsen's secret to Kurzen's men."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Alliance",
+   "text": "Lieutenant Doren and his men once stood with Colonel Kurzen before breaking away, and now hunt for a spy in their own ranks."
+  }
+ ],
+ "keywords": [
+  "bookie herod",
+  "colonel kurzen",
+  "kurzen's compound",
+  "lieutenant doren",
+  "stranglethorn vale",
+  "thorsen"
+ ],
+ "related": [
+  "quest:215",
+  "quest:328",
+  "subzone:kurzen-s-compound",
+  "npc:colonel-kurzen",
+  "zone:stranglethorn"
+ ],
+ "attribution": [
+  "Bookie Herod (quest)"
+ ]
+}

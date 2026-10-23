@@ -43,6 +43,7 @@ import { MEMORIES as MEMORIES_KEEPER } from "./willo-memories.js";
 import { NOTEBOOK_KEEPERS } from "./keeps-notebook.js";
 import { STOCK_KEEPER } from "./willo-stock.js";
 import { COMPANION_NAME as NAME } from "./brand.js";
+import { createMissing } from "./schema.js";
 
 export const TEXT_MAX = 2000;
 export const CHATS = "chats";   // the stamp that clears the app's chats
@@ -69,7 +70,7 @@ export class KeepsError extends Error {
 const ready = new WeakMap();
 export async function setupKeeps(env) {
   if (ready.get(env.DB)) return;
-  await env.DB.batch(KEEPS_SETUP.map(sql => env.DB.prepare(sql)));
+  await createMissing(env, KEEPS_SETUP);
   ready.set(env.DB, true);
 }
 

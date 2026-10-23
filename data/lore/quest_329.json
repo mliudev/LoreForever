@@ -1,0 +1,108 @@
+{
+ "key": "quest:329",
+ "type": "quest",
+ "name": "The Spy Revealed!",
+ "era": "classic",
+ "zone": "stranglethorn",
+ "meta": {
+  "ids": [
+   329
+  ],
+  "level": "37",
+  "faction": "Alliance",
+  "start": "Bookie Herod's Strongbox",
+  "end": "Lieutenant Doren",
+  "previous": "The Hidden Key",
+  "next": "Patrol Schedules",
+  "wiki": "The Spy Revealed!",
+  "chain": [],
+  "prev_q": [
+   "The Hidden Key"
+  ],
+  "next_q": [
+   "Patrol Schedules"
+  ],
+  "category": "Stranglethorn Vale",
+  "chain_tpl": [
+   "Jungle Secrets"
+  ]
+ },
+ "summary": "Inside Bookie Herod's strongbox lies a damp piece of parchment detailing the daily routines of Private Thorsen. Bearing only the initial M, this correspondence suggests an informant has embedded themselves among the rebels in northern Stranglethorn Vale. The muddy note is meant for Lieutenant Doren.",
+ "sections": [
+  {
+   "title": "A Traitor in the Ranks",
+   "body": "Opening the strongbox reveals not just valuables, but an itinerary tracking Private Thorsen. The barely legible writing recounts his patrol routes, his companions, and his daily activities around the Rebel Camp, marked only with the signature -M. Such detailed observations could only come from someone living alongside Thorsen, pointing to a traitor within the rebel camp.",
+   "spoiler": 0
+  },
+  {
+   "title": "Reporting to Doren",
+   "body": "Carrying the damp parchment back to the Rebel Camp brings the truth to Lieutenant Doren. Armed with the initialed note, the commander gains the evidence required to search for the infiltrator working within their own perimeter.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is written on the muddy note?",
+   "aliases": [
+    "muddy note text",
+    "what does the note say",
+    "spy note details"
+   ],
+   "answer": "The note contains an itinerary of Private Thorsen's daily routines. It outlines where he patrols, the people he speaks to, and how he occupies his hours within the camp, closed out by the single letter -M."
+  },
+  {
+   "q": "Where did this note come from?",
+   "aliases": [
+    "where do i find the muddy note",
+    "spy revealed start",
+    "how to start the spy revealed"
+   ],
+   "answer": "The note is discovered inside Bookie Herod's strongbox after unlocking it, sitting among the chest's other contents."
+  },
+  {
+   "q": "Who receives the note?",
+   "aliases": [
+    "who do i turn the muddy note to",
+    "where to take the note",
+    "lieutenant doren turn in"
+   ],
+   "answer": "The note must be delivered to Lieutenant Doren at the Rebel Camp in northern Stranglethorn Vale."
+  },
+  {
+   "q": "What comes next after reporting the note?",
+   "aliases": [
+    "what quest is next",
+    "next step after the spy revealed",
+    "after the spy revealed"
+   ],
+   "answer": "Following this report, Lieutenant Doren's investigation continues with Patrol Schedules."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Alliance",
+   "text": "Unmasking an informant in Stranglethorn Vale protects the precarious foothold the Alliance rebels maintain against local threats."
+  }
+ ],
+ "keywords": [
+  "doren",
+  "herod",
+  "muddy note",
+  "rebel camp",
+  "spy",
+  "stranglethorn",
+  "strongbox",
+  "thorsen",
+  "traitor"
+ ],
+ "related": [
+  "npc:doren",
+  "subzone:rebel-camp",
+  "quest:328",
+  "quest:330",
+  "zone:stranglethorn"
+ ],
+ "attribution": [
+  "The Spy Revealed!"
+ ]
+}

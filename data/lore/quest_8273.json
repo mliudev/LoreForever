@@ -1,0 +1,78 @@
+{
+ "key": "quest:8273",
+ "type": "quest",
+ "name": "Oran's Gratitude",
+ "era": "classic",
+ "zone": "hinterlands",
+ "meta": {
+  "ids": [
+   8273
+  ],
+  "level": "47",
+  "faction": "Horde",
+  "start": "Oran Snakewrithe",
+  "end": "Oran Snakewrithe",
+  "previous": "Rin'ji's Secret (quest)",
+  "next": "",
+  "wiki": "Oran's Gratitude",
+  "chain": [
+   "Rin'ji is Trapped!",
+   "Rin'ji's Secret (quest)",
+   "Oran's Gratitude"
+  ],
+  "prev_q": [
+   "Rin'ji's Secret (quest)"
+  ],
+  "category": "Hinterlands"
+ },
+ "summary": "After Rin'ji's Secret, the chain that began with Rin'ji is Trapped! comes to its close with Oran Snakewrithe, to whom you bring a tablet.",
+ "sections": [
+  {
+   "title": "A Tablet for Oran",
+   "body": "Rin'ji is Trapped! began this chain, and Rin'ji's Secret was the step just before this one. Oran Snakewrithe is the one who receives the tablet you carry.",
+   "spoiler": 0
+  },
+  {
+   "title": "Oran's Answer",
+   "body": "Oran asks where the tablet turned up, and you tell of a small island, deserted, at the Overlook Cliffs. Oran finds this very interesting, puts the tablet carefully away, and says the Dark Lady will be very pleased with the discovery.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Oran Snakewrithe?",
+   "aliases": [
+    "oran",
+    "who is oran",
+    "oran snakewrithe lore"
+   ],
+   "answer": "Oran Snakewrithe is the one who closes the chain that began with Rin'ji is Trapped! and went on through Rin'ji's Secret."
+  },
+  {
+   "q": "What comes before this in the chain?",
+   "aliases": [
+    "previous quest",
+    "prereq for oran's gratitude",
+    "how to start oran's gratitude"
+   ],
+   "answer": "Before it comes Rin'ji's Secret, and before that Rin'ji is Trapped!."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "dark lady",
+  "hinterlands",
+  "oran snakewrithe",
+  "overlook cliffs",
+  "rin'ji",
+  "tablet"
+ ],
+ "related": [
+  "quest:2782",
+  "quest:2742",
+  "zone:hinterlands"
+ ],
+ "attribution": [
+  "Oran's Gratitude"
+ ]
+}

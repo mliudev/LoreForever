@@ -1,0 +1,88 @@
+{
+ "key": "quest:4124",
+ "type": "quest",
+ "name": "The Missing Courier",
+ "era": "classic",
+ "zone": "feralas",
+ "meta": {
+  "ids": [
+   4124
+  ],
+  "level": "43",
+  "faction": "Alliance",
+  "start": "Latronicus Moonspear",
+  "end": "Ginro Hearthkindle",
+  "previous": "",
+  "next": "The Missing Courier (2)",
+  "wiki": "The Missing Courier",
+  "chain": [],
+  "next_q": [
+   "The Missing Courier (2)"
+  ],
+  "category": "Feralas",
+  "chain_tpl": [
+   "The Missing Courier"
+  ]
+ },
+ "summary": "Latronicus Moonspear in Feathermoon Stronghold says a courier and the parcels he carried went missing about a week ago. The stronghold's own searches found nothing, so the courier is declared missing in action, and you are sent to Ginro Hearthkindle, who is seeking help.",
+ "sections": [
+  {
+   "title": "A Courier Gone Missing",
+   "body": "Latronicus Moonspear has reached an impasse. A courier has been missing for about a week along with the parcels he was carrying, and the stronghold's own searches have been fruitless, so Latronicus has declared him missing in action. An associate, Ginro Hearthkindle, is looking for help with the matter and should be in Feathermoon Stronghold, perhaps in his quarters. Latronicus asks that you speak with Ginro, if you have time and means to spare.",
+   "spoiler": 0
+  },
+  {
+   "title": "Ginro's Weary Search",
+   "body": "Ginro knows that Latronicus, whom Ginro calls Latro, sent you. Ginro thinks it a lost cause, yet takes whatever help is offered, and longs to put the matter to rest. Each day Ginro heads out into Feralas to look for signs of Raschal, and each night comes back with only gnoll teeth and disappointment.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who has gone missing?",
+   "aliases": [
+    "who is the courier",
+    "who went missing",
+    "missing courier name"
+   ],
+   "answer": "A courier who vanished about a week ago along with the parcels he carried. The stronghold's searches found nothing, and he has been declared missing in action."
+  },
+  {
+   "q": "Where can Ginro Hearthkindle be found?",
+   "aliases": [
+    "ginro hearthkindle location",
+    "where is ginro",
+    "find ginro"
+   ],
+   "answer": "In Feathermoon Stronghold, perhaps in his quarters."
+  },
+  {
+   "q": "Who starts the search for the courier?",
+   "aliases": [
+    "who gives the missing courier",
+    "latronicus moonspear quest",
+    "who starts missing courier"
+   ],
+   "answer": "Latronicus Moonspear, in Feathermoon Stronghold, sends you to Ginro Hearthkindle to help."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "courier",
+  "feathermoon stronghold",
+  "feralas",
+  "ginro hearthkindle",
+  "gnolls",
+  "latronicus moonspear",
+  "parcels",
+  "raschal"
+ ],
+ "related": [
+  "subzone:feathermoon-stronghold",
+  "zone:feralas",
+  "topic:gnoll"
+ ],
+ "attribution": [
+  "The Missing Courier"
+ ]
+}

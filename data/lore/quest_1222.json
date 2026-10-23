@@ -1,0 +1,94 @@
+{
+ "key": "quest:1222",
+ "type": "quest",
+ "name": "Stinky's Escape",
+ "era": "classic",
+ "zone": "dustwallow",
+ "meta": {
+  "ids": [
+   1222
+  ],
+  "level": "37",
+  "faction": "Alliance",
+  "start": "\"Stinky\" Ignatz",
+  "end": "Morgan Stern",
+  "next": "Feast at the Blue Recluse",
+  "next_q": [
+   "Feast at the Blue Recluse"
+  ],
+  "wiki": null,
+  "previous": ""
+ },
+ "summary": "\"Stinky\" Ignatz is out in the swamp, where Morgan Stern, a cook in Theramore, sent him to gather bogbean leaves. Critters have surrounded him, and he asks you to help him out and watch his back while he looks for a bogbean plant. Afterward, Morgan Stern in Theramore is the one to see.",
+ "sections": [
+  {
+   "title": "Surrounded",
+   "body": "Ignatz is relieved to meet someone who does not see him as a meal. He says Morgan Stern, a cook, is working on a new recipe and sent him out to collect bogbean leaves, which Ignatz guesses Stern finds tasty. While looking for a plant, Ignatz was surrounded, and he asks you to help him out and guard his back as he searches.",
+   "spoiler": 0
+  },
+  {
+   "title": "A Cook Waiting",
+   "body": "Morgan Stern in Theramore is anxious: Ignatz set off for the swamp a while ago and is still not back.",
+   "spoiler": 0
+  },
+  {
+   "title": "Thanks from the Cook",
+   "body": "Stern says Ignatz came by with the bogbean leaves and told of how you got him through his trouble. As thanks, Stern will ask an uncle to give you a feast when you next visit the Blue Recluse in Stormwind.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is \"Stinky\" Ignatz?",
+   "aliases": [
+    "stinky ignatz",
+    "who is stinky",
+    "ignatz dustwallow"
+   ],
+   "answer": "\"Stinky\" Ignatz was sent into the swamp by the cook Morgan Stern to gather bogbean leaves."
+  },
+  {
+   "q": "Why is Ignatz in trouble?",
+   "aliases": [
+    "why is stinky trapped",
+    "ignatz stranded",
+    "why is stinky in dustwallow"
+   ],
+   "answer": "While he looked for a bogbean plant, the critters around him closed in and surrounded him."
+  },
+  {
+   "q": "What are bogbean leaves for?",
+   "aliases": [
+    "bogbean leaves",
+    "what are bogbeans",
+    "bogbean plant"
+   ],
+   "answer": "Morgan Stern is working on a new recipe and sent Ignatz for the leaves. Ignatz guesses Stern finds them tasty."
+  },
+  {
+   "q": "Who is Morgan Stern?",
+   "aliases": [
+    "morgan stern theramore",
+    "who is morgan stern",
+    "cook morgan stern"
+   ],
+   "answer": "Morgan Stern is a cook in Theramore who is working on a new recipe."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "blue recluse",
+  "bogbean",
+  "dustwallow marsh",
+  "morgan stern",
+  "stinky ignatz",
+  "theramore"
+ ],
+ "related": [
+  "zone:dustwallow",
+  "quest:1271"
+ ],
+ "attribution": [
+  "Classic quest text: Stinky's Escape"
+ ]
+}

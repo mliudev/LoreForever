@@ -1,0 +1,105 @@
+{
+ "key": "quest:3124",
+ "type": "quest",
+ "name": "Hippogryph Muisek",
+ "era": "classic",
+ "zone": "feralas",
+ "meta": {
+  "ids": [
+   3124
+  ],
+  "level": "47",
+  "faction": "Horde",
+  "start": "Witch Doctor Uzer'i",
+  "end": "Witch Doctor Uzer'i",
+  "previous": "Testing the Vessel (Classic)",
+  "next": "",
+  "wiki": "Hippogryph Muisek (Classic)",
+  "chain": [],
+  "prev_q": [
+   "Testing the Vessel (Classic)"
+  ],
+  "category": "Feralas",
+  "chain_tpl": [
+   "Muiseks in Feralas"
+  ]
+ },
+ "summary": "After your trials with the muisek vessel, Witch Doctor Uzer'i asks you to deal with a different creature. Frayfeather hippogryphs in the High Wilderness are to be slain and shrunk into the vessel at once, so that their muisek is kept.",
+ "sections": [
+  {
+   "title": "Loyal Companions",
+   "body": "Witch Doctor Uzer'i has judged you trustworthy and gifted with the vessel, and now wants the spirit of a different creature. Hippogryphs are old companions of the night elves, and their spirits are loyal and steadfast. Ten Frayfeather hippogryphs of any kind are to be killed, each shrunk and captured quickly with the vessel so that its muisek is preserved. Uzer'i places them in the High Wilderness, southward from the camp.",
+   "spoiler": 0
+  },
+  {
+   "title": "Uzer'i's Warning",
+   "body": "Uzer'i says that if the muisek of a slain animal is allowed to escape, it could take the shape of a still greater creature, and then no peace would be had from its revenge. Uzer'i calls the job dangerous and says you have again done it well.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who sends you to capture hippogryphs?",
+   "aliases": [
+    "hippogryph muisek quest giver",
+    "who gives hippogryph muisek",
+    "where to get hippogryph muisek"
+   ],
+   "answer": "Witch Doctor Uzer'i. You come to this step after Testing the Vessel."
+  },
+  {
+   "q": "Where are the Frayfeather hippogryphs found?",
+   "aliases": [
+    "where are frayfeather hippogryphs",
+    "hippogryph location feralas",
+    "where to find hippogryphs in feralas"
+   ],
+   "answer": "They are in the High Wilderness, which Uzer'i places to the south of the camp."
+  },
+  {
+   "q": "Why does Witch Doctor Uzer'i want hippogryph spirits?",
+   "aliases": [
+    "why hippogryphs",
+    "why capture hippogryph muisek",
+    "uzeri hippogryph reasoning"
+   ],
+   "answer": "Uzer'i speaks of hippogryphs as old companions of the night elves, with loyal and steadfast spirits. The aim is for their muisek to be preserved."
+  },
+  {
+   "q": "How is the muisek captured?",
+   "aliases": [
+    "how to use muisek vessel",
+    "how to get hippogryph muisek",
+    "capturing frayfeather muisek"
+   ],
+   "answer": "Kill a Frayfeather hippogryph, then quickly shrink and capture it with the muisek vessel. Ten are wanted, of any type."
+  },
+  {
+   "q": "What step comes before this in the chain?",
+   "aliases": [
+    "hippogryph muisek prerequisite",
+    "previous quest hippogryph muisek",
+    "prereq for hippogryph muisek"
+   ],
+   "answer": "Testing the Vessel, where you proved yourself trustworthy and able to use the muisek vessel."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "feralas",
+  "frayfeather",
+  "high wilderness",
+  "hippogryph muisek",
+  "muisek vessel",
+  "witch doctor uzer'i"
+ ],
+ "related": [
+  "npc:witch-doctor-uzer-i",
+  "subzone:high-wilderness",
+  "zone:feralas",
+  "quest:3123"
+ ],
+ "attribution": [
+  "Hippogryph Muisek (Classic)"
+ ]
+}

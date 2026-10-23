@@ -1,0 +1,82 @@
+{
+ "key": "quest:668",
+ "type": "quest",
+ "name": "Sunken Treasure",
+ "era": "classic",
+ "zone": "arathi",
+ "meta": {
+  "ids": [
+   668
+  ],
+  "level": "40",
+  "faction": null,
+  "start": "Doctor Draxlegauge",
+  "end": "Shakes O'Breen",
+  "previous": "Sunken Treasure (2)",
+  "next": "Sunken Treasure (4)",
+  "wiki": "Sunken Treasure (3)",
+  "chain": [],
+  "prev_q": [
+   "Sunken Treasure (2)"
+  ],
+  "next_q": [
+   "Sunken Treasure (4)"
+  ],
+  "category": "Arathi Highlands",
+  "chain_tpl": [
+   "Sunken Treasure"
+  ]
+ },
+ "summary": "Doctor Draxlegauge hands you the elven gems and sends you to carry them to Captain O'Breen. After a few weeks among pirates, he and the professor know that holding on to their treasure is unhealthy.",
+ "sections": [
+  {
+   "title": "Treasure for the Captain",
+   "body": "Doctor Draxlegauge does not want Captain O'Breen kept waiting, since the captain will want to see the elven gems for himself. After weeks among these pirates, the doctor and the professor have learned that being caught holding on to pirate treasure is bad for their health. He hands you the gems to carry to O'Breen, who waits at the bridge.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who sends you to Captain O'Breen?",
+   "aliases": [
+    "who gives sunken treasure 3",
+    "draxlegauge quest"
+   ],
+   "answer": "Doctor Draxlegauge gives you the elven gems and asks you to take them to Captain O'Breen."
+  },
+  {
+   "q": "Why is Doctor Draxlegauge so eager to give up the gems?",
+   "aliases": [
+    "why hand over elven gems",
+    "why give gems to pirate"
+   ],
+   "answer": "After a few weeks among these pirates, he and the professor have decided that being caught hanging on to the pirates' treasure would be bad for their health."
+  },
+  {
+   "q": "Where does this fall in the chain?",
+   "aliases": [
+    "sunken treasure chain position",
+    "what comes before sunken treasure 3"
+   ],
+   "answer": "It follows the second part of Sunken Treasure, and a fourth part comes after it."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "arathi highlands",
+  "captain o'breen",
+  "doctor draxlegauge",
+  "elven gems",
+  "pirates",
+  "shakes o'breen",
+  "sunken treasure"
+ ],
+ "related": [
+  "zone:arathi",
+  "topic:pirate",
+  "topic:gnome"
+ ],
+ "attribution": [
+  "Sunken Treasure (3)"
+ ]
+}

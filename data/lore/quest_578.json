@@ -1,0 +1,121 @@
+{
+ "key": "quest:578",
+ "type": "quest",
+ "name": "The Stone of the Tides",
+ "era": "classic",
+ "zone": "stranglethorn",
+ "meta": {
+  "ids": [
+   578
+  ],
+  "level": "37",
+  "faction": "Alliance",
+  "start": "Baron Revilgaz",
+  "end": "Baron Revilgaz",
+  "previous": "The Haunted Isle",
+  "next": "Water Elementals (Classic)",
+  "wiki": "The Stone of the Tides (quest)",
+  "chain": [],
+  "prev_q": [
+   "The Haunted Isle"
+  ],
+  "next_q": [
+   "Water Elementals (Classic)"
+  ],
+  "category": "Stranglethorn Vale",
+  "chain_tpl": [
+   "Stone of the Tides"
+  ]
+ },
+ "summary": "Following rumours of a haunted isle off the jungle coast, Baron Revilgaz suspects an ancient troll relic has resurfaced. He directs explorers to scout the mysterious landmass and delivers a pass to research the artifact within the archives of Stormwind.",
+ "sections": [
+  {
+   "title": "A Magnate's Ambition",
+   "body": "Having learned of strange apparitions and water elementals haunting an offshore island in Stranglethorn Vale, Baron Revilgaz sees an opportunity. Suspecting that the goblin mage Gazban may have uncovered the fabled Stone of the Tides, the ruler of Booty Bay sends you to locate the island and confirm whether the rumors are true. To satisfy any curiosity about the relic, he provides a library scrip redeemable among the scholars in Stormwind.",
+   "spoiler": 0
+  },
+  {
+   "title": "An Ancient Ward",
+   "body": "Confirming the unnatural presence on the isle confirms the baron's highest hopes: the legendary artifact is real. Yet claiming it will not be simple. The Stone of the Tides carries a potent magical curse that Revilgaz recognizes he cannot break alone, requiring the expertise of an experienced wizard before any recovery can begin.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who asks you to locate the haunted island?",
+   "aliases": [
+    "who gives the quest",
+    "quest giver stone of the tides",
+    "who sends you"
+   ],
+   "answer": "Baron Revilgaz, leader of Booty Bay, sends you after hearing tales of strange activity off the coast."
+  },
+  {
+   "q": "Where is the haunted island located?",
+   "aliases": [
+    "where is the island",
+    "island location",
+    "find haunted island"
+   ],
+   "answer": "The island lies off the coast of Stranglethorn Vale, an island out at sea that you will have to find yourself."
+  },
+  {
+   "q": "What is the Stone of the Tides?",
+   "aliases": [
+    "what is the stone",
+    "stone of tides lore",
+    "what is stone of the tides"
+   ],
+   "answer": "It is a legendary troll artifact that Revilgaz hopes to add to his collection, a legend he first came across in an old book."
+  },
+  {
+   "q": "Why does Baron Revilgaz want the artifact?",
+   "aliases": [
+    "why does revilgaz want it",
+    "revilgaz motives"
+   ],
+   "answer": "The baron seeks to claim the powerful troll relic to add it to his extensive collection of ancient artifacts and relics."
+  },
+  {
+   "q": "What is the Library Scrip used for?",
+   "aliases": [
+    "what is library scrip",
+    "stormwind library scrip",
+    "where do i take the scrip"
+   ],
+   "answer": "The scrip can be brought to Donyal Tovald at the Stormwind Library to obtain a copy of the book in which the baron first read of the legend."
+  },
+  {
+   "q": "What was the previous step in this chain?",
+   "aliases": [
+    "what quest comes before",
+    "prerequisite quest"
+   ],
+   "answer": "This investigation directly follows The Haunted Isle, which first brought word of the unusual sightings to the baron."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "baron revilgaz",
+  "booty bay",
+  "donyal tovald",
+  "gazban",
+  "gurubashi",
+  "stone of the tides",
+  "stormwind library",
+  "stranglethorn vale"
+ ],
+ "related": [
+  "quest:616",
+  "quest:601",
+  "npc:baron-revilgaz",
+  "quest:579",
+  "npc:donyal-tovald",
+  "subzone:booty-bay",
+  "subzone:grom-gol-base-camp",
+  "zone:stranglethorn"
+ ],
+ "attribution": [
+  "The Stone of the Tides (quest)"
+ ]
+}

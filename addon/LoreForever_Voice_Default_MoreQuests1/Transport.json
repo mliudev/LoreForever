@@ -1,0 +1,72 @@
+{
+  "clips": {
+    "quest:1099": {
+      "1": [
+        {
+          "duration": 22.04734693877551,
+          "file": "Audio/Transport/full_quest_1099-b72035ece03a3225c74b/1-0000.mp3",
+          "sha256": "765e3d81888aab1841f8550206c07e33aef87614063861b13533d54a25cc9984",
+          "start": 0
+        }
+      ],
+      "config": {
+        "bitrate": "48k",
+        "mode": "whole-recording-v1",
+        "rates": [
+          "1"
+        ]
+      },
+      "fullHash": "1dc458",
+      "generation": "b344a5288046fb031170",
+      "hash": "1dc458",
+      "source": {
+        "duration": 22.047347,
+        "file": null,
+        "sha256": "b72035ece03a3225c74b589caff000c9483d52f21aa6e8d4e7ead7a190e05bdd"
+      },
+      "text": "Goblins Win!. In Thousand Needles, a goblin race ticket pays off when the goblins come out ahead. A prize box comes back to whoever held the winning stub. The goblin race ticket is the stub that counts when the goblins win. Hold on to it, and a goblin prize box is yours once the result is in. The gnome ticket has a result of its own, for the other side of the race."
+    },
+    "quest:1174": {
+      "1": [
+        {
+          "duration": 20.349387755102043,
+          "file": "Audio/Transport/full_quest_1174-f595cc2b4b48a56bb1c1/1-0000.mp3",
+          "sha256": "eaa9e546982d4cb7e80b9a49587ba26110dbb5f60a57183e01b54052d52a2395",
+          "start": 0
+        }
+      ],
+      "config": {
+        "bitrate": "48k",
+        "mode": "whole-recording-v1",
+        "rates": [
+          "1"
+        ]
+      },
+      "fullHash": "93feba",
+      "generation": "79b6416156d29bf1e375",
+      "hash": "93feba",
+      "source": {
+        "duration": 20.349388,
+        "file": null,
+        "sha256": "f595cc2b4b48a56bb1c12a9e431b0ab832724bd711f252f90120e5266b8d3432"
+      },
+      "text": "Gnomes Win!. In Thousand Needles, a gnome race ticket pays off when the gnomes come out ahead. A prize box comes back to whoever held the winning stub. The gnome race ticket is the stub that counts when the gnomes win. Hold on to it, and a gnome prize box is yours once the result is in. The goblin ticket has a result of its own, for the other side of the race."
+    }
+  },
+  "cuts": {
+    "765e3d81888aab1841f8550206c07e33aef87614063861b13533d54a25cc9984": [
+      200,
+      345,
+      499
+    ],
+    "eaa9e546982d4cb7e80b9a49587ba26110dbb5f60a57183e01b54052d52a2395": [
+      183,
+      322,
+      462,
+      625
+    ]
+  },
+  "pack": "LoreForever_Voice_Default_MoreQuests1",
+  "retired": [],
+  "version": 1
+}

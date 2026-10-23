@@ -305,7 +305,7 @@ test("legacy cards remain readable, new card sends are rejected, and unread text
   assert.equal(mine[0].seen, true);
 });
 
-test("while plans are sold, the free plan sends 10 messages a day; the 11th waits for tomorrow", async () => {
+test("while plans are sold, the free plan sends its day's messages; the next waits for tomorrow", async () => {
   const sam = await player("samfree"), ana = await player("anafree");
   const { bId: anaId } = await befriend(sam, ana);
   env.SITE_FEATURES = "plans";
@@ -313,7 +313,7 @@ test("while plans are sold, the free plan sends 10 messages a day; the 11th wait
     for (let i = 0; i < FREE_MESSAGES_PER_DAY; i++) assert.equal((await sam.call("send", { to: anaId, text: `hi ${i}` })).status, 200);
     const over = await sam.call("send", { to: anaId, text: "one more" });
     assert.equal(over.status, 429);
-    assert.match(over.body.error, /today's 10 messages on the free plan/);
+    assert.match(over.body.error, new RegExp(`\\b${FREE_MESSAGES_PER_DAY}\\b`), "says how many");
   } finally { delete env.SITE_FEATURES; }
   // Plans off (the site before plans): no free cap.
   assert.equal((await sam.call("send", { to: anaId, text: "plans off" })).status, 200);

@@ -1,0 +1,72 @@
+{
+ "key": "quest:7815",
+ "type": "quest",
+ "name": "Snapjaws, Mon!",
+ "era": "classic",
+ "zone": "hinterlands",
+ "meta": {
+  "ids": [
+   7815
+  ],
+  "level": "50",
+  "start": "Katoom the Angler",
+  "end": "Katoom the Angler",
+  "wiki": null,
+  "previous": "",
+  "next": ""
+ },
+ "summary": "In the Hinterlands, Katoom the Angler of Revantusk Village can barely keep a line in the water because saltwater snapjaws keep wrecking it and stealing his bait. He wants fifteen of the turtles dead.",
+ "sections": [
+  {
+   "title": "Trouble on the Line",
+   "body": "Katoom urges you not to be taken in by the snapjaws' large eyes and calls the turtles a menace. By his account, he cannot fish for even five minutes before one of them tears his line and makes off with his bait. He asks you, as a favor to himself and to his neighbours in the village, to wipe out the whole lot; the count is fifteen.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who asks you to hunt the turtles?",
+   "aliases": [
+    "who gives snapjaws mon",
+    "snapjaws mon quest giver",
+    "katoom the angler"
+   ],
+   "answer": "Katoom the Angler, a fisher of Revantusk in the Hinterlands."
+  },
+  {
+   "q": "Why does Katoom want the saltwater snapjaws killed?",
+   "aliases": [
+    "why kill snapjaws",
+    "turtle nuisance",
+    "why kill turtles revantusk"
+   ],
+   "answer": "Katoom says they break his fishing line and steal his bait, so he cannot fish for even five minutes in peace."
+  },
+  {
+   "q": "How many snapjaws need to be slain?",
+   "aliases": [
+    "how many turtles",
+    "snapjaw count",
+    "snapjaws mon count"
+   ],
+   "answer": "Fifteen saltwater snapjaw turtles."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "angler",
+  "bait",
+  "fishing",
+  "hinterlands",
+  "katoom",
+  "revantusk",
+  "snapjaws",
+  "turtles"
+ ],
+ "related": [
+  "zone:hinterlands"
+ ],
+ "attribution": [
+  "Classic quest text: Snapjaws, Mon!"
+ ]
+}

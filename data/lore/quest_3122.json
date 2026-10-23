@@ -1,0 +1,85 @@
+{
+ "key": "quest:3122",
+ "type": "quest",
+ "name": "Return to Witch Doctor Uzer'i",
+ "era": "classic",
+ "zone": "feralas",
+ "meta": {
+  "ids": [
+   3122
+  ],
+  "level": "45",
+  "faction": "Horde",
+  "start": "Neeru Fireblade",
+  "end": "Witch Doctor Uzer'i",
+  "previous": "A Strange Request (Feralas)",
+  "next": "Natural Materials, Testing the Vessel (Classic)",
+  "wiki": "Return to Witch Doctor Uzer'i",
+  "chain": [],
+  "prev_q": [
+   "A Strange Request (Feralas)"
+  ],
+  "category": "Feralas",
+  "chain_tpl": [
+   "Muiseks in Feralas"
+  ],
+  "next_q": [
+   "Natural Materials",
+   "Testing the Vessel (Classic)"
+  ]
+ },
+ "summary": "With the shrunken head delivered in A Strange Request, Neeru Fireblade hands you the herbs and asks you to carry them to Witch Doctor Uzer'i in Feralas, along with word that Neeru is satisfied with the head.",
+ "sections": [
+  {
+   "title": "The Herbs Go Back",
+   "body": "After A Strange Request, Neeru Fireblade gives you a pouch of herbs for Witch Doctor Uzer'i. You are also asked to tell Uzer'i that Neeru is satisfied with the shrunken head. The pouch is bound for Uzer'i in Feralas.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Ritual Begins",
+   "body": "Uzer'i says the herbs are just what is needed to prepare the muisek vessel, and hopes his latest incantations prove as powerful as he had hoped. He asks you to wait a moment while he performs the ritual and applies the herbs.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who gives the herbs to Witch Doctor Uzer'i?",
+   "aliases": [
+    "where does this quest start",
+    "who gave the herbs"
+   ],
+   "answer": "Neeru Fireblade, the one you brought the shrunken head to."
+  },
+  {
+   "q": "Where do the herbs go?",
+   "aliases": [
+    "what herbs are these",
+    "where do i take the herb pouch"
+   ],
+   "answer": "To Witch Doctor Uzer'i in Feralas."
+  },
+  {
+   "q": "Was Neeru pleased with the shrunken head?",
+   "aliases": [
+    "did neeru like the head",
+    "neeru shrunken head trade"
+   ],
+   "answer": "Yes. Neeru is satisfied with the head and asks you to say so to Uzer'i."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "feralas",
+  "herb pouch",
+  "muisek vessel",
+  "shrunken head",
+  "witch doctor uzer'i"
+ ],
+ "related": [
+  "npc:witch-doctor-uzer-i",
+  "zone:feralas"
+ ],
+ "attribution": [
+  "Return to Witch Doctor Uzer'i"
+ ]
+}

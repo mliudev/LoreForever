@@ -1,0 +1,92 @@
+{
+ "key": "quest:3062",
+ "type": "quest",
+ "name": "Dark Heart",
+ "era": "classic",
+ "zone": "feralas",
+ "meta": {
+  "ids": [
+   3062
+  ],
+  "level": "50",
+  "start": "Talo Thornhoof",
+  "end": "Talo Thornhoof",
+  "wiki": null,
+  "previous": "",
+  "next": ""
+ },
+ "summary": "Talo Thornhoof at Camp Mojache wants the dark heart of Edana Hatetalon, who is queen of the harpies of Northspring, living in ruins to the west. Talo calls her pure evil.",
+ "sections": [
+  {
+   "title": "The Harpy Queen",
+   "body": "Edana Hatetalon is the harpies' queen, ruling the Northspring brood in ruins lying west. Talo calls her pure evil, with no feeling in her except hatred for everyone, and has heard her heart is made of crystal. Talo wants you to face her and bring back her dark heart, because the hatred she spreads must be stopped.",
+   "spoiler": 0
+  },
+  {
+   "title": "A Summons",
+   "body": "Talo has heard of a horn the harpies carry. Sounded near the Hatetalon stones, up in the ruins' northern part, it is said to draw the queen out. Talo relishes the thought that her kin will not be the ones to answer, but her death.",
+   "spoiler": 0
+  },
+  {
+   "title": "On Your Return",
+   "body": "Talo is certain now that Edana is gone for good, and says the heart will be kept in memory of what you did.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Edana Hatetalon?",
+   "aliases": [
+    "edana hatetalon",
+    "harpy queen feralas",
+    "who is the harpy queen"
+   ],
+   "answer": "She rules the Northspring harpies in the western ruins. Talo calls her pure evil and says she feels only hatred, and has heard her heart is crystal."
+  },
+  {
+   "q": "How can Edana Hatetalon be summoned?",
+   "aliases": [
+    "how to summon edana",
+    "blow horn feralas",
+    "hatetalon stones"
+   ],
+   "answer": "Talo has heard that harpies carry a horn, and that sounding it near the Hatetalon stones at the northern end of the ruins will call the queen."
+  },
+  {
+   "q": "Who gives the hunt for Edana Hatetalon?",
+   "aliases": [
+    "who gives dark heart",
+    "talo thornhoof",
+    "where to get dark heart"
+   ],
+   "answer": "Talo Thornhoof, at Camp Mojache."
+  },
+  {
+   "q": "Why does Talo Thornhoof want Edana's heart?",
+   "aliases": [
+    "why dark heart",
+    "talo thornhoof motive"
+   ],
+   "answer": "Talo wants an end to the hatred Edana spreads over the land, and asks for her dark heart."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "camp mojache",
+  "dark heart",
+  "edana hatetalon",
+  "feralas",
+  "harpy",
+  "hatetalon stones",
+  "northspring",
+  "talo thornhoof"
+ ],
+ "related": [
+  "subzone:camp-mojache",
+  "zone:feralas",
+  "topic:harpy"
+ ],
+ "attribution": [
+  "Classic quest text: Dark Heart"
+ ]
+}

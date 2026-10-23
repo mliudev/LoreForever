@@ -10,17 +10,17 @@
    "quest:277"
   ]
  },
- "summary": "Crude Flint pieces are rough fire-starting stones carried by the Mosshide gnolls throughout the Wetlands. The gnolls use them to kindle blazes from freshly hewn marsh timber, an act that deeply enrages the local protector, Rethiel the Greenwarden.",
+ "summary": "Crude Flint pieces are rough fire-starting stones carried by the Mosshide gnolls throughout the Wetlands. The gnolls use them to kindle blazes from freshly hewn marsh timber, an act that deeply enrages the local protector known only as the Greenwarden.",
  "sections": [
   {
    "title": "Kindling in the Mire",
    "body": "While crude and unworked, these simple striking flints provide the Mosshide gnolls with their primary means of generating heat and cooking meat amidst the damp bogs of the Wetlands. Unfortunately for the marsh's ecosystem, the Mosshides fell living timber to feed their hearths and bonfires. This reckless harvesting and combustion of living boughs caught the ire of Rethiel the Greenwarden, who perceives each spark struck as an assault against the natural balance.",
-   "spoiler": 0
+   "spoiler": 1
   },
   {
    "title": "The Greenwarden's Retribution",
    "body": "Determined to stop the slaughter of the marsh's trees, Rethiel tasks passing adventurers with systematically stripping the Mosshide pack of their firestones. Rather than repurposing the scavenged flint, the guardian plans to smash every retrieved piece to dust and cast the fragments into the sea, ensuring the gnolls can no longer burn the Wetlands' living wood.",
-   "spoiler": 0
+   "spoiler": 1
   }
  ],
  "faq": [

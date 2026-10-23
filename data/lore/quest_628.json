@@ -1,0 +1,99 @@
+{
+ "key": "quest:628",
+ "type": "quest",
+ "name": "Excelsior",
+ "era": "classic",
+ "zone": "stranglethorn",
+ "meta": {
+  "ids": [
+   628
+  ],
+  "level": "38",
+  "start": "Drizzlik",
+  "end": "Drizzlik",
+  "previous": "Some Assembly Required",
+  "prev_q": [
+   "Some Assembly Required"
+  ],
+  "wiki": null,
+  "next": ""
+ },
+ "summary": "In Booty Bay, Drizzlik has finished the inner part of the Excelsior boots and now needs the skin of an elder saltwater crocolisk for the outside.",
+ "sections": [
+  {
+   "title": "The Outer Layer",
+   "body": "With the inside done, only the outer layer remains, and for it Drizzlik uses nothing but the finest elder crocolisk skins, which are tougher and make a better surface for the designs and accents of the Excelsior line. The only skin that fits Drizzlik's plan is that of an elder saltwater crocolisk, and finding one is hard, for such elders come out only to guard other saltwater crocolisks. Drizzlik has also read somewhere that the numbers of saltwater crocolisks are dwindling, which would hurt business.",
+   "spoiler": 0
+  },
+  {
+   "title": "Drizzlik's Thanks",
+   "body": "Drizzlik is pleased: the order can be filled and shipped to Director Riddlevox aboard the next boat bound for Undermine, and early at that. Drizzlik also made extras and gives you a pair for your trouble, insisting no boot is as fine as the Excelsior line.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Drizzlik?",
+   "aliases": [
+    "drizzlik",
+    "booty bay bootmaker",
+    "drizzlik npc"
+   ],
+   "answer": "Drizzlik is the maker of the Excelsior line of boots, working in Booty Bay."
+  },
+  {
+   "q": "Why does Drizzlik need an elder saltwater crocolisk skin?",
+   "aliases": [
+    "why croc skin",
+    "excelsior boot materials",
+    "elder crocolisk skin use"
+   ],
+   "answer": "Drizzlik says elder skins are tougher and give a better surface for the Excelsior designs and accents, and that only the skin of an elder saltwater crocolisk fits the plan."
+  },
+  {
+   "q": "Why are elder saltwater crocolisks hard to find?",
+   "aliases": [
+    "where are elder crocs",
+    "find elder saltwater crocolisk",
+    "how to summon elder croc"
+   ],
+   "answer": "Drizzlik says elders come out only to defend other saltwater crocolisks."
+  },
+  {
+   "q": "What came before this request?",
+   "aliases": [
+    "previous quest",
+    "excelsior prerequisite",
+    "some assembly required link"
+   ],
+   "answer": "Some Assembly Required came first."
+  },
+  {
+   "q": "What concern does Drizzlik have about saltwater crocolisks?",
+   "aliases": [
+    "are crocs dying out",
+    "saltwater croc population",
+    "crocolisk extinction"
+   ],
+   "answer": "Drizzlik has read that saltwater crocolisks are dwindling in number, which would be bad for business."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "booty bay",
+  "crocolisk",
+  "drizzlik",
+  "elder crocolisk",
+  "excelsior",
+  "saltwater crocolisk",
+  "stranglethorn"
+ ],
+ "related": [
+  "quest:577",
+  "subzone:booty-bay",
+  "zone:stranglethorn"
+ ],
+ "attribution": [
+  "Classic quest text: Excelsior"
+ ]
+}

@@ -1,0 +1,92 @@
+{
+ "key": "quest:1375",
+ "type": "quest",
+ "name": "Khan Shaka",
+ "era": "classic",
+ "zone": "desolace",
+ "meta": {
+  "ids": [
+   1375
+  ],
+  "level": "37",
+  "faction": null,
+  "start": "Warug",
+  "end": "Warug",
+  "previous": "Gizmo for Warug",
+  "next": "Khan Hratha (Magram)",
+  "wiki": "Khan Shaka (quest)",
+  "chain": [],
+  "prev_q": [
+   "Gizmo for Warug"
+  ],
+  "next_q": [
+   "Khan Hratha (Magram)"
+  ],
+  "category": "Desolace",
+  "chain_tpl": [
+   "Magram Alliance"
+  ]
+ },
+ "summary": "Warug of the Magram, pleased with your help after Gizmo for Warug, now wants the head of Khan Shaka, the Khan of the Gelkis. He means to stare at it and laugh at his enemy.",
+ "sections": [
+  {
+   "title": "A Rival Khan",
+   "body": "In Magram Village, Warug tells you that you have helped the Magram and he likes you. Now he wants you to kill Khan Shaka, the Khan of the Gelkis, and bring him the head. He says he wants to stare at it and laugh at him. He expects you to stay on good terms with the Magram.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Khan Shaka?",
+   "aliases": [
+    "khan shaka lore",
+    "who is shaka",
+    "shaka centaur"
+   ],
+   "answer": "The Khan of the Gelkis centaur clan in Desolace, whose head Warug of the Magram wants."
+  },
+  {
+   "q": "Why does Warug want Khan Shaka dead?",
+   "aliases": [
+    "why kill shaka",
+    "warug shaka grudge"
+   ],
+   "answer": "He wants Shaka's head so he can stare at it and laugh at him."
+  },
+  {
+   "q": "Where is Warug?",
+   "aliases": [
+    "khan shaka location",
+    "where is warug"
+   ],
+   "answer": "In Magram Village in Desolace."
+  },
+  {
+   "q": "What led up to this?",
+   "aliases": [
+    "khan shaka prerequisites",
+    "previous quest shaka"
+   ],
+   "answer": "Gizmo for Warug, after which Warug says he likes you for helping the Magram."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "centaur",
+  "desolace",
+  "gelkis",
+  "head of khan shaka",
+  "khan shaka",
+  "magram",
+  "warug"
+ ],
+ "related": [
+  "zone:desolace",
+  "subzone:magram-village",
+  "topic:centaur",
+  "quest:1371"
+ ],
+ "attribution": [
+  "Khan Shaka (quest)"
+ ]
+}

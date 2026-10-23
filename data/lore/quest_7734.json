@@ -1,0 +1,92 @@
+{
+ "key": "quest:7734",
+ "type": "quest",
+ "name": "Improved Quality",
+ "era": "classic",
+ "zone": "feralas",
+ "meta": {
+  "ids": [
+   7734
+  ],
+  "level": "48",
+  "faction": "Horde",
+  "start": "Jangdor Swiftstrider",
+  "end": "Jangdor Swiftstrider",
+  "previous": "The Mark of Quality (Classic Horde)",
+  "next": "",
+  "wiki": "Improved Quality (Classic Horde)",
+  "chain": [],
+  "prev_q": [
+   "The Mark of Quality (Classic Horde)"
+  ],
+  "category": "Feralas"
+ },
+ "summary": "Jangdor Swiftstrider has heard of hides better still than the last. Up in the north of Feralas, inside Rage Scar Hold, roams another throng of yetis, tougher than those you faced before. Ten of their hides are wanted at Camp Mojache.",
+ "sections": [
+  {
+   "title": "A Tougher Throng of Yetis",
+   "body": "After The Mark of Quality, Jangdor Swiftstrider has found a lead on a still finer supply of hides. Up in the north of Feralas, inside Rage Scar Hold, another throng of yetis lives, tougher than the ones you faced earlier. Jangdor Swiftstrider will pay handsomely for ten of their hides, brought back to Camp Mojache to settle the matter. If they match the quality of the Feral Scar hides, they could prove as resilient as thorium.",
+   "spoiler": 0
+  },
+  {
+   "title": "Jangdor's Thanks",
+   "body": "The hides are even better than hoped. Jangdor Swiftstrider can already tell they will turn much harder once properly cured, and hands you one of the latest creations as thanks.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who asks for the Rage Scar yeti hides?",
+   "aliases": [
+    "who gives improved quality",
+    "improved quality questgiver",
+    "jangdor swiftstrider"
+   ],
+   "answer": "Jangdor Swiftstrider, at Camp Mojache in Feralas."
+  },
+  {
+   "q": "Where do the Rage Scar yetis live?",
+   "aliases": [
+    "rage scar yeti location",
+    "where is rage scar hold",
+    "where to get rage scar hides"
+   ],
+   "answer": "Inside Rage Scar Hold, in the north of Feralas."
+  },
+  {
+   "q": "How many hides are wanted?",
+   "aliases": [
+    "how many yeti hides",
+    "improved quality items needed"
+   ],
+   "answer": "Jangdor Swiftstrider wants ten Rage Scar yeti hides."
+  },
+  {
+   "q": "What came before this?",
+   "aliases": [
+    "prerequisite quest",
+    "what quest leads to improved quality",
+    "previous quest"
+   ],
+   "answer": "It follows The Mark of Quality, when you dealt with the first throng of yetis."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "camp mojache",
+  "feralas",
+  "improved quality",
+  "jangdor swiftstrider",
+  "rage scar hold",
+  "rage scar yeti",
+  "yeti hides"
+ ],
+ "related": [
+  "subzone:camp-mojache",
+  "subzone:rage-scar-hold",
+  "zone:feralas"
+ ],
+ "attribution": [
+  "Improved Quality (Classic Horde)"
+ ]
+}

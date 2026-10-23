@@ -12,7 +12,7 @@ import { onRequest as profileApi } from "../functions/api/profile/[action].js";
 import { findOrCreateUser, startSession, setup, deleteUser, sha256 } from "../lib/accounts.js";
 import { parseRecord } from "../lib/journey.js";
 import { storyParts, storyKey, hookToken, embeddingKey, referenceKey, transcriptKey, takeKey, NARRATORS, DEFAULT_NARRATOR, PAUSED_LANGUAGES, setupStoryVoice, CHUNK, MAX_TRIES, MICRO_USD_PER_CHAR, MICRO_USD_PER_BYTE, FISH_MODEL, mp3Seconds } from "../lib/storyvoice.js";
-import { d1, r2, assets } from "./helpers.mjs";
+import { d1, r2, assets, stopClock } from "./helpers.mjs";
 import { RECORD } from "./fixtures/journey/record.mjs";
 
 const ORIGIN = "https://preview.example";
@@ -262,7 +262,8 @@ test("a new story replaces the old one's recordings", async () => {
   assert.ok(![...env.STUDIO.objects.keys()].some(k => k.includes(`/${old}/`)));
 });
 
-test("nothing is recorded with the feature off, without the key, for a template story, or past the budget", async () => {
+test("nothing is recorded with the feature off, without the key, for a template story, or past the budget", async t => {
+  stopClock(t);                                   // the month the test and the budget read
   await makeProfile("aelric");
   env.SITE_FEATURES = "-storyvoice";
   let page = await view("aelric");

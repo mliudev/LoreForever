@@ -1,0 +1,99 @@
+{
+ "key": "quest:738",
+ "type": "quest",
+ "name": "Find Agmond",
+ "era": "classic",
+ "zone": "badlands",
+ "meta": {
+  "ids": [
+   738
+  ],
+  "level": "38",
+  "faction": "Alliance",
+  "start": "Prospector Ironband",
+  "end": "Battered Dwarven Skeleton",
+  "previous": "Ironband Wants You!",
+  "next": "Murdaloc (quest)",
+  "wiki": "Find Agmond",
+  "chain": [
+   "Ironband Wants You!",
+   "Find Agmond",
+   "Murdaloc (quest)",
+   "Agmond's Fate"
+  ],
+  "prev_q": [
+   "Ironband Wants You!"
+  ],
+  "next_q": [
+   "Murdaloc (quest)"
+  ],
+  "category": "Badlands"
+ },
+ "summary": "Prospector Ironband has not heard from Prospector Agmond in weeks. Agmond was in charge of the excavation sites in the Badlands, and Ironband wants Agmond found so the report can be collected.",
+ "sections": [
+  {
+   "title": "A Silent Prospector",
+   "body": "Agmond ran the excavations in the Badlands, to the southwest. Ironband says \"ran\" on purpose, for there has been no word from Agmond in weeks. Ironband wants Agmond found, and the report with him. Agmond was last heard of at the farthest-south dig of the Badlands, a small outfit beyond Angor Fortress, and that is where the search should begin.",
+   "spoiler": 0
+  },
+  {
+   "title": "Where the Trail Ends",
+   "body": "At the end of the search you find a skeleton, which must be what is left of Agmond. The body is broken and battered, and the bones have been picked clean.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Prospector Agmond?",
+   "aliases": [
+    "who is agmond",
+    "who agmond",
+    "agmond lore"
+   ],
+   "answer": "Agmond ran the excavations in the Badlands, southwest of Prospector Ironband."
+  },
+  {
+   "q": "Why is Prospector Ironband looking for Agmond?",
+   "aliases": [
+    "why find agmond",
+    "ironband looking for agmond"
+   ],
+   "answer": "Ironband has not heard from Agmond in weeks and wants to get Agmond's report."
+  },
+  {
+   "q": "Where was Prospector Agmond last known to be?",
+   "aliases": [
+    "agmond location",
+    "where is agmond dig site",
+    "where was agmond"
+   ],
+   "answer": "At the farthest-south dig of the Badlands, a small outfit beyond Angor Fortress."
+  },
+  {
+   "q": "What comes before this in the chain?",
+   "aliases": [
+    "previous quest",
+    "prereq for find agmond"
+   ],
+   "answer": "It follows Ironband Wants You!"
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "agmond",
+  "angor fortress",
+  "badlands",
+  "dwarven skeleton",
+  "ironforge",
+  "prospector ironband"
+ ],
+ "related": [
+  "npc:prospector-ironband",
+  "quest:739",
+  "zone:badlands",
+  "zone:ironforge"
+ ],
+ "attribution": [
+  "Find Agmond"
+ ]
+}

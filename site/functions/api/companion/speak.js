@@ -12,6 +12,14 @@
 //        narrator at the top of the player's list)} -> 200 audio/mpeg: the add-on's short answer read in that narrator's
 //        voice, Hero and up (lib/companion-voice.js speakReading); X-LF-Voice "studio:chronicler". Else {ok: false,
 //        speak: "local", reason}: "plan" (402: Free sees it as text), "narrator" (400), "spent", "busy", "unavailable".
+//   POST /api/companion/speak {reading: true, quest: "quest:<id>#detail" | "#progress" | "#complete", narrator} -> 200
+//        audio/mpeg: a quest page of the add-on's that has no recording, read aloud (lib/companion-voice.js
+//        speakQuestPage): in the quest giver's people and gender where the site knows them, else the narrator's voice
+//        (X-LF-Voice "studio:dwarf-male" or "studio:chronicler"). It carries no text, and any a client sends is
+//        ignored: the site has the words (lib/quest-pages.js), and sends back what it read, percent-encoded, in
+//        X-LF-Text, for the companion's captions. Champion and up, and the first-run trial's character tries; else
+//        {ok: false, speak: "local", reason} as readings: "plan", "narrator", "spent", "busy", "unavailable" (also a
+//        page the site doesn't have).
 //   The text is the words as the player reads them; the providers are sent it with the pronunciation lexicon's names
 //   respelled so they say them right ("Doon Mor-uh" for Dun Morogh, lib/respell.js).
 //   Anything else says the companion should say it in Willo's own voice on the PC: {ok: false, speak: "local", reason}
@@ -26,12 +34,14 @@
 //        the piece is counted: the request's waitUntil).
 
 import { setup, fail, noStore } from "../../../lib/accounts.js";
+import { planSoon } from "../../../lib/plan-cache.js";
 import { currentDevice } from "../../../lib/devices.js";
 import { perMinute } from "../../../lib/ratelimit.js";
-import { planFor, plansOn } from "../../../lib/billing.js";
+import { plansOn } from "../../../lib/billing.js";
 import { recordVoice, savePick, savedPick } from "../../../lib/plan-usage.js";
-import { speakPiece, speakReading, hostedSpellings, forgetReply, SPEAK_MAX_CHARS, MAX_PIECE, isVoiceKey, REPLY_ID, UNHEARD_SETTLE_MS }
+import { speakPiece, speakReading, speakQuestPage, hostedSpellings, forgetReply, SPEAK_MAX_CHARS, MAX_PIECE, isVoiceKey, REPLY_ID, UNHEARD_SETTLE_MS }
   from "../../../lib/companion-voice.js";
+import { isCompanion } from "../../../lib/client-version.js";
 
 const CLIENT = /^companion\/[\w.-]{1,24}$/;
 const MAX_BODY_BYTES = 8 * 1024;
@@ -41,7 +51,7 @@ const local = (status, reason) => Response.json({ ok: false, speak: "local", rea
 export async function onRequest({ request, env, waitUntil }) {
   if (!env.DB) return fail(503, "Accounts aren't set up yet.");
   await setup(env);
-  if (!CLIENT.test(request.headers.get("X-LF-Client") || "") || request.headers.get("Origin"))
+  if (!isCompanion(request.headers.get("X-LF-Client")) || request.headers.get("Origin"))
     return fail(403, "This is for the Lore Forever companion app.");
   if (request.method !== "POST") return fail(405, "Use POST.");
   // With plans off, Willo talks on the PC, as before plans.
@@ -65,10 +75,12 @@ export async function onRequest({ request, env, waitUntil }) {
   }
   // The add-on's answers read aloud: on the PC, before the minute's count or the plan are even looked at.
   if (body?.line === true && body?.reading === true) return local(402, "reading");
-  const text = typeof body?.text === "string" ? body.text.trim() : "";
-  if (!text || text.length > SPEAK_MAX_CHARS) return fail(400, `Send 1 to ${SPEAK_MAX_CHARS} letters to say.`);
-  const reading = body?.reading === true && body?.line !== true && typeof body?.narrator === "string";
-  if (!reading && !isVoiceKey(body.voice)) return fail(400, "Unknown voice.");
+  // A quest page of the add-on's, read aloud: asked by its key alone, whatever text came with it.
+  const quest = body?.reading === true && body?.line !== true && typeof body?.quest === "string";
+  const text = !quest && typeof body?.text === "string" ? body.text.trim() : "";
+  if (!quest && (!text || text.length > SPEAK_MAX_CHARS)) return fail(400, `Send 1 to ${SPEAK_MAX_CHARS} letters to say.`);
+  const reading = !quest && body?.reading === true && body?.line !== true && typeof body?.narrator === "string";
+  if (!reading && !quest && !isVoiceKey(body.voice)) return fail(400, "Unknown voice.");
   if (body.reply !== undefined && (typeof body.reply !== "string" || !REPLY_ID.test(body.reply)))
     return fail(400, "Unknown reply.");
   // piece (optional): its number in the reply, 0 first, so a piece asked for again counts once (LOR-673).
@@ -79,17 +91,27 @@ export async function onRequest({ request, env, waitUntil }) {
   // names respelled for the providers come with them (static files, read once per isolate); the text the companion shows
   // is never respelled, only what a provider is sent.
   const [allowed, plan, spellings] = await Promise.all([perMinute(env, app.user.id, "companion-speak", PIECES_PER_MINUTE, now),
-    planFor(env, app.user.id, now), hostedSpellings(env, new URL(request.url).origin)]);
+    planSoon(env, app.user.id, now), hostedSpellings(env, new URL(request.url).origin)]);
   if (!allowed) return local(429, "busy");
   // pick (optional): the player's Willo voice ("moonwell"); said only on a plan with a choice, else and when unknown
   // in Sprite (lib/companion-voice.js willoPick).
   // Sent, it's remembered for the account (lib/plan-usage.js savePick, after the audio); not sent (the iPhone, which
   // has no picker), the one its PC last sent.
   const sent = typeof body.pick === "string" ? body.pick : undefined;
-  const pick = sent ?? (await savedPick(env, app.user.id) || undefined);
-  if (sent && !reading) {
+  const pick = sent ?? (quest ? undefined : await savedPick(env, app.user.id) || undefined);
+  if (sent && !reading && !quest) {
     const kept = savePick(env, app.user.id, sent, now);
     if (typeof waitUntil === "function") waitUntil(kept); else await kept;
+  }
+  if (quest) {
+    const read = await speakQuestPage(env, app.user.id, plan, { quest: body.quest, narrator: body.narrator,
+      origin: new URL(request.url).origin, spellings }, now, typeof waitUntil === "function" ? waitUntil : null);
+    const noted = recordVoice(env, app.user.id, plan, { kind: "reading", said: read.audio ? read.voice
+      : `pc:${read.local}`, first: true, chars: read.text?.length || 0 }, now);
+    if (typeof waitUntil === "function") waitUntil(noted); else await noted;
+    if (!read.audio) return local(read.status, read.local);
+    return new Response(read.audio, { headers: { ...noStore, "Content-Type": "audio/mpeg", "X-LF-Voice": read.voice,
+      "X-LF-Text": encodeURIComponent(read.text) } });
   }
   if (reading) {
     const read = await speakReading(env, app.user.id, plan, { text, narrator: body.narrator, spellings }, now,

@@ -1,0 +1,91 @@
+{
+ "key": "quest:1171",
+ "type": "quest",
+ "name": "The Brood of Onyxia",
+ "era": "classic",
+ "zone": "dustwallow",
+ "meta": {
+  "ids": [
+   1171
+  ],
+  "level": "43",
+  "faction": "Horde",
+  "start": "Overlord Mok'Morokk",
+  "end": "Draz'Zilb",
+  "previous": "The Brood of Onyxia",
+  "next": "The Brood of Onyxia (3)",
+  "wiki": "The Brood of Onyxia (2)",
+  "chain": [
+   "Identifying the Brood",
+   "The Brood of Onyxia",
+   "The Brood of Onyxia (2)",
+   "The Brood of Onyxia (3)"
+  ],
+  "prev_q": [
+   "The Brood of Onyxia"
+  ],
+  "next_q": [
+   "The Brood of Onyxia (3)"
+  ],
+  "category": "Dustwallow Marsh"
+ },
+ "summary": "Overlord Mok'Morokk has no wish to hear about dragons. He says there are no black dragons here and sends you back to Draz'Zilb in Brackenwall Village with the news that the ogres are staying.",
+ "sections": [
+  {
+   "title": "Leave Me Alone",
+   "body": "After Draz'Zilb sent word of the brood of Onyxia, Overlord Mok'Morokk wants only to be left alone. Mok'Morokk says the ogres stay where they are, that there is no black dragon here, and tells you to go and say so to Draz'Zilb in Brackenwall Village.",
+   "spoiler": 0
+  },
+  {
+   "title": "What Draz'Zilb Says",
+   "body": "Draz'Zilb takes the answer badly and calls the Overlord a lazy coward. Mok'Morokk showed strength while Rexxar was their leader, says Draz'Zilb, but after Rexxar departed, the temptations of power took hold. Mok'Morokk now demands service from the ogres rather than leading them, and Draz'Zilb says something must be done.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Why does Overlord Mok'Morokk refuse to act?",
+   "aliases": [
+    "why mok'morokk not help",
+    "mok'morokk reaction",
+    "why no black dragons"
+   ],
+   "answer": "Mok'Morokk says there are no black dragons here and wants to be left alone. You are told to carry word to Draz'Zilb that the ogres stay."
+  },
+  {
+   "q": "What comes before this in the storyline?",
+   "aliases": [
+    "what comes before this quest",
+    "quest chain order"
+   ],
+   "answer": "This follows The Brood of Onyxia, in which Draz'Zilb sent you to bring word of the brood to Mok'Morokk."
+  },
+  {
+   "q": "Where does this take place?",
+   "aliases": [
+    "where is this quest",
+    "location"
+   ],
+   "answer": "Both Mok'Morokk and Draz'Zilb are in Brackenwall Village."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "brackenwall village",
+  "brood of onyxia",
+  "draz'zilb",
+  "dustwallow marsh",
+  "mok'morokk",
+  "rexxar"
+ ],
+ "related": [
+  "npc:overlord-mok-morokk",
+  "quest:1170",
+  "subzone:brackenwall-village",
+  "zone:dustwallow",
+  "npc:onyxia"
+ ],
+ "attribution": [
+  "The Brood of Onyxia (2)"
+ ]
+}

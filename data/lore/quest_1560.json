@@ -1,0 +1,96 @@
+{
+ "key": "quest:1560",
+ "type": "quest",
+ "name": "Tooga's Quest",
+ "era": "classic",
+ "zone": "tanaris",
+ "meta": {
+  "ids": [
+   1560
+  ],
+  "level": "50",
+  "faction": null,
+  "start": "Tooga",
+  "end": "Torta",
+  "previous": "",
+  "next": "",
+  "wiki": "Tooga's Quest",
+  "chain": [],
+  "qtype": "Timed Escort",
+  "category": "Tanaris"
+ },
+ "summary": "Tooga, a lost turtle, was sent out to fetch dinner by his wife Torta and took a wrong turn somewhere. Tooga asks you to lead him back to Torta, who waits just south of Steamwheedle Port.",
+ "sections": [
+  {
+   "title": "A Lost Wanderer",
+   "body": "Tooga wanders near a crashed goblin zeppelin close to Thistleshrub Valley. Torta sent Tooga out to fetch dinner, and a wrong turn somewhere has left the turtle hopelessly lost. Tooga asks you to lead the way back.",
+   "spoiler": 0
+  },
+  {
+   "title": "Across the Zone",
+   "body": "Torta waits just south of Steamwheedle Port, in the opposite corner of Tanaris, so the walk takes you across almost the whole width of the zone.",
+   "spoiler": 0
+  },
+  {
+   "title": "A Wife's Welcome",
+   "body": "Torta is not surprised that Tooga could not find the way home alone, and tells Tooga to get into the ocean and bring back some food.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Tooga?",
+   "aliases": [
+    "who is tooga",
+    "tooga turtle",
+    "who is the turtle in tanaris"
+   ],
+   "answer": "A lost turtle in Tanaris who needs help finding the way back to his wife."
+  },
+  {
+   "q": "Who is Torta?",
+   "aliases": [
+    "who is torta",
+    "where is torta",
+    "torta location"
+   ],
+   "answer": "Tooga's wife, who waits just south of Steamwheedle Port."
+  },
+  {
+   "q": "Why is Tooga lost in the desert?",
+   "aliases": [
+    "why is tooga lost",
+    "what happened to tooga",
+    "tooga backstory"
+   ],
+   "answer": "Torta sent Tooga to fetch dinner, and a wrong turn left him lost."
+  },
+  {
+   "q": "Where is Tooga originally found?",
+   "aliases": [
+    "tooga start location",
+    "where does toogas quest start",
+    "find tooga"
+   ],
+   "answer": "Near a crashed goblin zeppelin by Thistleshrub Valley in Tanaris."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "steamwheedle port",
+  "tanaris",
+  "thistleshrub valley",
+  "tooga",
+  "torta",
+  "turtle"
+ ],
+ "related": [
+  "zone:tanaris",
+  "subzone:thistleshrub-valley",
+  "subzone:steamwheedle-port",
+  "topic:goblin"
+ ],
+ "attribution": [
+  "Tooga's Quest"
+ ]
+}

@@ -36,7 +36,7 @@ export function normalizeVoice(v) {
   let s = String(v ?? "").trim();
   if (SITE_VOICES[s]) return SITE_VOICES[s];
   if (!s.startsWith(PREFIX)) s = PREFIX + s;
-  s = s.replace(/^(LoreForever_Voice_(?:Default|Female|Original))(?:_(?:Alliance|Horde|Quests|Answers_[A-Z][a-z]+\d?))+(_[a-z]{2}[A-Z]{2})?$/, "$1$2");
+  s = s.replace(/^(LoreForever_Voice_(?:Default|Female|Original))(?:_(?:Alliance|Horde|Quests[23]?|Answers_[A-Z][a-z]+\d?))+(_[a-z]{2}[A-Z]{2})?$/, "$1$2");
   return VOICE.test(s) ? s : null;
 }
 

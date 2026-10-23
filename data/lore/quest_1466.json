@@ -1,0 +1,102 @@
+{
+ "key": "quest:1466",
+ "type": "quest",
+ "name": "Reagents for Reclaimers Inc.",
+ "era": "classic",
+ "zone": "desolace",
+ "meta": {
+  "ids": [
+   1466
+  ],
+  "level": "40",
+  "faction": "Alliance",
+  "start": "Kreldig Ungor",
+  "end": "Kreldig Ungor",
+  "previous": "Reagents for Reclaimers Inc. (2)",
+  "next": "Reagents for Reclaimers Inc. (4)",
+  "wiki": "Reagents for Reclaimers Inc. (3)",
+  "chain": [],
+  "prev_q": [
+   "Reagents for Reclaimers Inc. (2)"
+  ],
+  "next_q": [
+   "Reagents for Reclaimers Inc. (4)"
+  ],
+  "category": "Desolace",
+  "chain_tpl": [
+   "Reagents for Reclaimers Inc."
+  ]
+ },
+ "summary": "Kreldig Ungor has the last of the items Leftwitch wants, and he admits it is not pretty and will take longer than the others. All of it comes from demons: brains, wings and vials of blood.",
+ "sections": [
+  {
+   "title": "The Last of the List",
+   "body": "Kreldig warns that the final set is a grim business, slower to gather than any before it. Leftwitch wants three kinds of parts, ten of each. The brains come from felhounds: mana eaters, mage hunters or ley hunters. The wings come from the nether maidens, sisters or sorceresses. The blood comes from doomwarder captains or lords. Kreldig says he would understand if you passed on this one.",
+   "spoiler": 0
+  },
+  {
+   "title": "Demons in Desolace",
+   "body": "Kreldig had not even realized these demons were in Desolace. From his reading, Desolace belonged mostly to the centaur once the night elves departed years ago, and he wonders how and why the demons settled here. They dwell near Mannoroc Coven, in Desolace's south, beyond the Kodo Graveyard.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is asking for these demon parts?",
+   "aliases": [
+    "who gave this quest",
+    "who wants the demon parts",
+    "who is kreldig ungor"
+   ],
+   "answer": "Kreldig Ungor passes along Leftwitch's list, and these demon parts are the last items on it."
+  },
+  {
+   "q": "What creatures hold the required items?",
+   "aliases": [
+    "what drops felhound brains",
+    "where to get nether wings",
+    "which doomwarders have blood"
+   ],
+   "answer": "Felhound brains come from mana eaters, mage hunters and ley hunters. Wings come from the nether maidens, sisters and sorceresses. Blood comes from doomwarder captains and lords."
+  },
+  {
+   "q": "Where can these demons be found?",
+   "aliases": [
+    "demon location",
+    "where is mannoroc coven",
+    "where do the demons roam"
+   ],
+   "answer": "They gather near Mannoroc Coven, at the southern end of Desolace, beyond the Kodo Graveyard."
+  },
+  {
+   "q": "Why does Kreldig find the demons surprising?",
+   "aliases": [
+    "why are demons in desolace",
+    "centaur lore desolace"
+   ],
+   "answer": "He had read that the centaur held Desolace once the night elves left years ago, so the demons' presence puzzles him."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "desolace",
+  "doomwarder blood",
+  "felhound brain",
+  "kreldig ungor",
+  "leftwitch",
+  "mannoroc coven",
+  "nether wing",
+  "reclaimers inc"
+ ],
+ "related": [
+  "npc:kreldig-ungor",
+  "zone:desolace",
+  "subzone:mannoroc-coven",
+  "subzone:kodo-graveyard",
+  "zone:ironforge",
+  "topic:centaur"
+ ],
+ "attribution": [
+  "Reagents for Reclaimers Inc. (3)"
+ ]
+}

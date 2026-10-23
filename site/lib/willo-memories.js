@@ -19,6 +19,7 @@ import { MEMORIES_PROMPT_BYTES } from "./companion-answers.js";
 import { clean, check, SAVES_PER_DAY } from "./willo-custom.js";
 import { perDay } from "./ratelimit.js";
 import { memoryPreFilter, MEMORY_REASONS } from "./willo-memory-rules.js";
+import { createMissing } from "./schema.js";
 
 export const MEMORY_MAX = 160;        // characters of one memory
 // How many an account may keep: assumed until the pricing decision, Mike, Friday 10/24. The first-run trial gets the
@@ -52,7 +53,7 @@ const SETUP = [
 const ready = new WeakSet();
 export async function setupWilloMemories(env) {
   if (ready.has(env.DB)) return;
-  await env.DB.batch(SETUP.map(s => env.DB.prepare(s)));
+  await createMissing(env, SETUP);
   ready.add(env.DB);
 }
 

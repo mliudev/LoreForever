@@ -599,6 +599,7 @@ events:SetScript("OnEvent", function(_, event, arg1, ...)
   if event == "ADDON_LOADED" and arg1 == addonName then
     ns.Log.Init()
     ns.Errors.Init()   -- the Lua errors kept while the add-on loaded go into LoreForeverDB.errors (Errors.lua)
+    LoreForeverDB.addonVersion = ns.Log.Version()   -- which add-on wrote this saved data, for Willo to read
   elseif event == "ADDON_ACTION_FORBIDDEN" or event == "ADDON_ACTION_BLOCKED" then
     ns.Errors.OnBlocked(event, arg1, ...)
   elseif event == "PLAYER_LOGIN" then

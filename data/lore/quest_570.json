@@ -1,0 +1,103 @@
+{
+ "key": "quest:570",
+ "type": "quest",
+ "name": "Mok'thardin's Enchantment",
+ "era": "classic",
+ "zone": "stranglethorn",
+ "meta": {
+  "ids": [
+   570
+  ],
+  "level": "38",
+  "faction": "Horde",
+  "start": "Far Seer Mok'thardin",
+  "end": "Far Seer Mok'thardin",
+  "previous": "",
+  "next": "Mok'thardin's Enchantment (3)",
+  "wiki": "Mok'thardin's Enchantment",
+  "chain": [],
+  "next_q": [
+   "Mok'thardin's Enchantment (3)"
+  ],
+  "category": "Stranglethorn Vale",
+  "chain_tpl": [
+   "Mok'thardin's Enchantment"
+  ]
+ },
+ "summary": "Far Seer Mok'thardin seeks to harness the natural magic of Stranglethorn Vale for the benefit of the Horde. Building upon his previous rituals at Grom'gol Base Camp, he asks for sharp claws and a pristine feline fang to weave a powerful enchantment.",
+ "sections": [
+  {
+   "title": "Harnessing the Jungle",
+   "body": "Within Grom'gol Base Camp, Far Seer Mok'thardin works to understand and bend the feral power of the wild to strengthen the Horde. Having seen success in his initial rites, he promises to craft a specialized enchanted relic for those willing to brave the dense underbrush and stalk the deadly predators prowling the surrounding territory.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Stalkers of Mizjah",
+   "body": "The ritual demands eight claws taken from shadowmaw panthers and a pristine fang from a tigress. Mok'thardin notes that while these fierce felines wander across Stranglethorn Vale, a gathering of them prowls south-eastward, just past the river running by the Mizjah Ruins.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is requesting these beast parts?",
+   "aliases": [
+    "who gives mok'thardin's enchantment",
+    "quest giver mok'thardin",
+    "who is mok'thardin"
+   ],
+   "answer": "Far Seer Mok'thardin, an orc shaman stationed at Grom'gol Base Camp in Stranglethorn Vale, asks for the ingredients to conduct his rituals."
+  },
+  {
+   "q": "Where can the panthers and tigresses be found?",
+   "aliases": [
+    "shadowmaw claws location",
+    "pristine tigress fang location",
+    "where to hunt beasts"
+   ],
+   "answer": "The beasts roam broadly throughout the dense jungle, but Mok'thardin directs hunters just across the river to the southeast of the Mizjah Ruins."
+  },
+  {
+   "q": "Why does Far Seer Mok'thardin need these items?",
+   "aliases": [
+    "why collect claws and fangs",
+    "mok'thardin ritual purpose",
+    "why shadowmaw claws"
+   ],
+   "answer": "Mok'thardin is working to harness the innate magic of the jungle to cast powerful enchantments and craft a special item for champions of the Horde."
+  },
+  {
+   "q": "What comes next in Mok'thardin's ritual work?",
+   "aliases": [
+    "what is after mok'thardin's enchantment 2",
+    "next quest after shadowmaw claws",
+    "mok'thardin continuation"
+   ],
+   "answer": "After presenting the claws and fang to Mok'thardin, the far seer continues his ritual crafting in the next stage of the enchantment series."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Horde",
+   "text": "Far Seer Mok'thardin conducts his rituals to harness the jungle's magic for the Horde."
+  }
+ ],
+ "keywords": [
+  "enchantment",
+  "far seer",
+  "grom'gol",
+  "mizjah",
+  "mok'thardin",
+  "shadowmaw",
+  "stranglethorn",
+  "tigress"
+ ],
+ "related": [
+  "subzone:grom-gol-base-camp",
+  "subzone:mizjah-ruins",
+  "zone:stranglethorn",
+  "topic:horde"
+ ],
+ "attribution": [
+  "Mok'thardin's Enchantment"
+ ]
+}

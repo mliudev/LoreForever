@@ -1,0 +1,103 @@
+{
+ "key": "quest:1183",
+ "type": "quest",
+ "name": "Goblin Sponsorship",
+ "era": "classic",
+ "zone": "thousandneedles",
+ "meta": {
+  "ids": [
+   1183
+  ],
+  "level": "37",
+  "faction": "Neutral",
+  "start": "Baron Revilgaz",
+  "end": "Pozzik",
+  "previous": "Goblin Sponsorship (4)",
+  "next": "The Eighteenth Pilot",
+  "wiki": "Goblin Sponsorship (5)",
+  "chain": [],
+  "prev_q": [
+   "Goblin Sponsorship (4)"
+  ],
+  "next_q": [
+   "The Eighteenth Pilot"
+  ],
+  "category": "Thousand Needles",
+  "chain_tpl": [
+   "Goblin Sponsorship"
+  ]
+ },
+ "summary": "Baron Revilgaz has the Fuel Regulator Blueprints ready and sends them to Pozzik on the Shimmering Flats. He gives his regards and adds that Pozzik should not hesitate to ask if he ever needs anything.",
+ "sections": [
+  {
+   "title": "Regards for Pozzik",
+   "body": "Baron Revilgaz says you are all set. You carry the blueprints to Pozzik, out on the Shimmering Flats, with the Baron's regards and a message: if Pozzik ever needs anything, he should not hesitate to ask. Revilgaz says he will be waiting for news that Pozzik breaks the track record.",
+   "spoiler": 0
+  },
+  {
+   "title": "Improving the Design",
+   "body": "Pozzik had hoped the regulator would already be assembled. Still, he sees a chance to improve the design from the ground up. He plans to sketch improved schematics, build the part and have it installed soon.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who sends you with the blueprints?",
+   "aliases": [
+    "who gives goblin sponsorship 5",
+    "quest giver",
+    "revilgaz quest"
+   ],
+   "answer": "Baron Revilgaz sends you from Booty Bay, with his regards for Pozzik."
+  },
+  {
+   "q": "Who receives the fuel regulator blueprints?",
+   "aliases": [
+    "where do i take the blueprints",
+    "who gets the schematics",
+    "pozzik location"
+   ],
+   "answer": "Pozzik, on the Shimmering Flats."
+  },
+  {
+   "q": "What does Baron Revilgaz hope to hear?",
+   "aliases": [
+    "revilgaz motivation",
+    "baron revilgaz sponsor"
+   ],
+   "answer": "He says he will be waiting for news that Pozzik breaks the track record."
+  },
+  {
+   "q": "What comes before this delivery?",
+   "aliases": [
+    "previous quest",
+    "what led to this",
+    "goblin sponsorship chain"
+   ],
+   "answer": "It follows Goblin Sponsorship (4), in which you fetched the blueprints for Revilgaz. The next step is The Eighteenth Pilot."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "baron revilgaz",
+  "fuel regulator blueprints",
+  "goblin sponsorship",
+  "mirage raceway",
+  "pozzik",
+  "shimmering flats",
+  "thousand needles"
+ ],
+ "related": [
+  "npc:pozzik",
+  "npc:baron-revilgaz",
+  "subzone:mirage-raceway",
+  "subzone:shimmering-flats",
+  "quest:1182",
+  "quest:1186",
+  "zone:thousandneedles",
+  "topic:goblin"
+ ],
+ "attribution": [
+  "Goblin Sponsorship (5)"
+ ]
+}

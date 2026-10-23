@@ -1,0 +1,88 @@
+{
+ "key": "quest:777",
+ "type": "quest",
+ "name": "This Is Going to Be Hard",
+ "era": "classic",
+ "zone": "badlands",
+ "meta": {
+  "ids": [
+   777
+  ],
+  "level": "42",
+  "faction": "Neutral",
+  "start": "Lucien Tosselwrench",
+  "end": "Lotwil Veriatus",
+  "previous": "This Is Going to Be Hard",
+  "next": "This Is Going to Be Hard (3)",
+  "wiki": "This Is Going to Be Hard (2)",
+  "chain": [],
+  "prev_q": [
+   "This Is Going to Be Hard"
+  ],
+  "next_q": [
+   "This Is Going to Be Hard (3)"
+  ],
+  "category": "Badlands",
+  "chain_tpl": [
+   "Study of the Elements: Rock"
+  ]
+ },
+ "summary": "Lucien Tosselwrench hands you cog #5 for Lotwil Veriatus, and heads for cover, inviting you to come along.",
+ "sections": [
+  {
+   "title": "Behind Cover",
+   "body": "Lucien hands over the cog and says to take it to Lotwil Veriatus. Lucien will be waiting behind cover, and you are welcome to join. When you reach Lotwil, who is still bent over the shackles, a hand is held out and fingers waggle impatiently for the cog.",
+   "spoiler": 0
+  },
+  {
+   "title": "Making History",
+   "body": "Lotwil takes the cog and says it is perfect, telling you to stand back while preparations are made to make more history. Lotwil carries on working feverishly.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who hands over the cog for Lotwil?",
+   "aliases": [
+    "who gives the cog",
+    "where do i get cog 5",
+    "lucien cog"
+   ],
+   "answer": "Lucien Tosselwrench gives you cog #5 to carry to Lotwil Veriatus."
+  },
+  {
+   "q": "Where does Lucien go?",
+   "aliases": [
+    "why is lucien hiding",
+    "lucien cover"
+   ],
+   "answer": "Lucien goes behind cover and says you are welcome to join."
+  },
+  {
+   "q": "What is Lotwil doing when you bring the cog?",
+   "aliases": [
+    "what is lotwil doing",
+    "lotwil shackles",
+    "lotwil progress"
+   ],
+   "answer": "Lotwil is working on a set of shackles and, without looking up, impatiently holds out a hand for the cog."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "badlands",
+  "cog 5",
+  "lotwil veriatus",
+  "lucien tosselwrench",
+  "shackles",
+  "this is going to be hard"
+ ],
+ "related": [
+  "quest:734",
+  "npc:lotwil-veriatus",
+  "zone:badlands"
+ ],
+ "attribution": [
+  "This Is Going to Be Hard (2)"
+ ]
+}

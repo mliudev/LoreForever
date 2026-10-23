@@ -1,0 +1,91 @@
+{
+ "key": "quest:778",
+ "type": "quest",
+ "name": "This Is Going to Be Hard",
+ "era": "classic",
+ "zone": "badlands",
+ "meta": {
+  "ids": [
+   778
+  ],
+  "level": "45",
+  "faction": null,
+  "start": "Lotwil Veriatus",
+  "end": "Lotwil Veriatus",
+  "previous": "This Is Going to Be Hard (2)",
+  "next": "",
+  "wiki": "This Is Going to Be Hard (3)",
+  "chain": [],
+  "prev_q": [
+   "This Is Going to Be Hard (2)"
+  ],
+  "category": "Badlands",
+  "chain_tpl": [
+   "Study of the Elements: Rock"
+  ]
+ },
+ "summary": "Lotwil Veriatus declares the shackles finished and calls on Lucien, Servo and you to bear witness as a powerful elemental is summoned.",
+ "sections": [
+  {
+   "title": "A Groundbreaking Day",
+   "body": "Lotwil cries out that the shackles are done and the time has come, calling Lucien and Servo to bear witness along with you. Lotwil presents the shackles as alchemy, engineering and the arcane in perfect combination, and means to summon a powerful elemental on what is declared a groundbreaking day for everyone there.",
+   "spoiler": 0
+  },
+  {
+   "title": "After the Summoning",
+   "body": "The outcome is not what Lotwil expected, and Lotwil asks you to fetch the Shackles of Elemental Binding back after the Fam'retor Guardian is defeated. Afterwards, Lotwil is unsure what went wrong, but is glad that the magics were at hand to return the creature to the plane it came from.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Lotwil Veriatus?",
+   "aliases": [
+    "who is lotwil",
+    "lotwil veriatus"
+   ],
+   "answer": "Lotwil Veriatus is the maker of the Shackles of Elemental Binding, in which alchemy, engineering and the arcane are combined. Lucien and Servo are there with Lotwil in the Badlands."
+  },
+  {
+   "q": "What are the Shackles of Elemental Binding?",
+   "aliases": [
+    "what are the shackles",
+    "shackles of elemental binding"
+   ],
+   "answer": "They are the shackles Lotwil has just finished, a combination of alchemy, engineering and the arcane, for use on a powerful elemental that Lotwil means to summon."
+  },
+  {
+   "q": "Who does Lotwil call to bear witness?",
+   "aliases": [
+    "who is lucien",
+    "who is servo"
+   ],
+   "answer": "Lotwil calls on Lucien and Servo to bear witness to the summoning, together with you."
+  },
+  {
+   "q": "What comes before this step?",
+   "aliases": [
+    "previous quest",
+    "what led to this"
+   ],
+   "answer": "It follows the step in which you brought cog #5 to Lotwil."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "badlands",
+  "elemental",
+  "fam'retor guardian",
+  "lotwil veriatus",
+  "lucien",
+  "servo",
+  "shackles of elemental binding"
+ ],
+ "related": [
+  "npc:lotwil-veriatus",
+  "zone:badlands"
+ ],
+ "attribution": [
+  "This Is Going to Be Hard (3)"
+ ]
+}

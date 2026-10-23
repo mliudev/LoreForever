@@ -1,0 +1,111 @@
+{
+ "key": "quest:2969",
+ "type": "quest",
+ "name": "Freedom for All Creatures",
+ "era": "classic",
+ "zone": "feralas",
+ "meta": {
+  "ids": [
+   2969
+  ],
+  "level": "47",
+  "faction": "Alliance",
+  "start": "Kindal Moonweaver",
+  "end": "Kindal Moonweaver",
+  "previous": "",
+  "next": "Doling Justice",
+  "wiki": "Freedom for All Creatures",
+  "chain": [],
+  "next_q": [
+   "Doling Justice"
+  ],
+  "category": "Feralas",
+  "chain_tpl": [
+   "Freedom for All Creatures"
+  ]
+ },
+ "summary": "The Grimtotem clan is capturing faerie dragons, and Kindal Moonweaver and Jer'kai do not know what for. Kindal asks you to bring strong friends, open the pen in the Grimtotem camp with a key and see the sprite darters out alive. Kindal comes with you; Jer'kai stays behind.",
+ "sections": [
+  {
+   "title": "Dragons in the Pen",
+   "body": "Kindal Moonweaver calls the Grimtotem clan filthy for taking faerie dragons, and says that neither Kindal nor Jer'kai can guess their plans, only that they are up to no good. The two are not strong enough to fight their way into the camp, so Kindal turns to you. The Bamboo Cage Key opens the pen, and Kindal wants the sprite darters to escape with their lives. Strong friends at your side are welcome.",
+   "spoiler": 0
+  },
+  {
+   "title": "Kindal's Lookout",
+   "body": "Kindal is found on the ledge behind the Grimtotem Compound, above the water, reached by a path up the cliff face. Kindal fights beside you through the camp, while Jer'kai stays behind.",
+   "spoiler": 0
+  },
+  {
+   "title": "Afterward",
+   "body": "Once the darters are free, Kindal gives thanks to Elune. The danger has not ended: freed dragons will not necessarily stay free, so Kindal and Jer'kai mean to take the fight to the Grimtotem. Kindal sends you to speak with Jer'kai.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is capturing the faerie dragons?",
+   "aliases": [
+    "who captured the faerie dragons",
+    "who has the sprite darters",
+    "grimtotem cages"
+   ],
+   "answer": "The Grimtotem clan, according to Kindal Moonweaver. What they want with the dragons, Kindal and Jer'kai cannot say."
+  },
+  {
+   "q": "Where is Kindal Moonweaver?",
+   "aliases": [
+    "where is kindal",
+    "kindal moonweaver location",
+    "how to get to kindal moonweaver"
+   ],
+   "answer": "On a ledge behind the Grimtotem Compound, above the water. A path behind a tree climbs the cliff face, reached by going left of the compound."
+  },
+  {
+   "q": "Does Jer'kai come along?",
+   "aliases": [
+    "does jerkai help",
+    "jerkai involvement"
+   ],
+   "answer": "No. Jer'kai stays behind, while Kindal goes with you."
+  },
+  {
+   "q": "What do I need to free the sprite darters?",
+   "aliases": [
+    "bamboo cage key",
+    "how to free sprite darters"
+   ],
+   "answer": "The Bamboo Cage Key, which Kindal gives you, opens the pen in the Grimtotem camp. Kindal wants you to bring strong friends."
+  },
+  {
+   "q": "What follows this quest?",
+   "aliases": [
+    "next quest freedom for all creatures",
+    "what next after saving sprite darters"
+   ],
+   "answer": "Doling Justice is the next step of the chain."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "bamboo cage",
+  "elune",
+  "faerie dragon",
+  "feralas",
+  "grimtotem compound",
+  "jer'kai",
+  "kindal moonweaver",
+  "sprite darter"
+ ],
+ "related": [
+  "npc:kindal-moonweaver",
+  "npc:sprite-darter",
+  "subzone:grimtotem-compound",
+  "quest:2970",
+  "zone:feralas",
+  "topic:elune"
+ ],
+ "attribution": [
+  "Freedom for All Creatures"
+ ]
+}

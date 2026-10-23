@@ -1,0 +1,99 @@
+{
+ "key": "quest:711",
+ "type": "quest",
+ "name": "Study of the Elements: Rock",
+ "era": "classic",
+ "zone": "badlands",
+ "meta": {
+  "ids": [
+   711
+  ],
+  "level": "39",
+  "faction": "Neutral",
+  "start": "Lotwil Veriatus",
+  "end": "Lotwil Veriatus",
+  "previous": "Study of the Elements: Rock",
+  "next": "Study of the Elements: Rock (3)",
+  "wiki": "Study of the Elements: Rock (2)",
+  "chain": [],
+  "prev_q": [
+   "Study of the Elements: Rock"
+  ],
+  "next_q": [
+   "Study of the Elements: Rock (3)"
+  ],
+  "category": "Badlands",
+  "chain_tpl": [
+   "Study of the Elements: Rock"
+  ]
+ },
+ "summary": "Lotwil Veriatus praises you as abler than all of Lotwil's apprentices combined, and wants the next step of the tests. This time the need is three large stone slabs, pieces best found on rock elementals.",
+ "sections": [
+  {
+   "title": "Bigger Pieces",
+   "body": "The next parts of Lotwil Veriatus's work need more strength. Rock elementals have larger, sturdier bodies, so they are likelier to carry pieces big enough for the tests. Lotwil points you further west, or southeast along the edges of the mountains, and has you gather three large stone slabs. Lotwil needs a while to test the smaller pieces you brought before.",
+   "spoiler": 0
+  },
+  {
+   "title": "Lotwil's Hopes",
+   "body": "Lotwil's spells acted on the smaller pieces just as predicted. If the next experiment goes as well as foreseen, the elementals under Lotwil's control would put anything summoned before to shame.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who sends you after the large slabs?",
+   "aliases": [
+    "who gives this quest",
+    "lotwil quest",
+    "study of the elements giver"
+   ],
+   "answer": "Lotwil Veriatus, who is working in the Badlands."
+  },
+  {
+   "q": "What came before this request?",
+   "aliases": [
+    "previous quest",
+    "prior step",
+    "what did i do before"
+   ],
+   "answer": "The earlier Study of the Elements: Rock, in which you brought Lotwil small stone shards."
+  },
+  {
+   "q": "Where does Lotwil say to find the rock elementals?",
+   "aliases": [
+    "where are the elementals",
+    "elemental locations",
+    "where to find slabs"
+   ],
+   "answer": "Further west of Lotwil, or southeast along the edges of the mountains."
+  },
+  {
+   "q": "Why does Lotwil need larger stone slabs?",
+   "aliases": [
+    "why large slabs",
+    "purpose of slabs",
+    "lotwil research goal"
+   ],
+   "answer": "Lotwil needs larger pieces for the next tests. Rock elementals have bigger, stronger bodies, so their pieces are large enough."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "badlands",
+  "large stone slabs",
+  "lotwil veriatus",
+  "rock elementals",
+  "stone slabs",
+  "study of the elements: rock"
+ ],
+ "related": [
+  "npc:lotwil-veriatus",
+  "quest:710",
+  "zone:badlands",
+  "subzone:mirage-flats"
+ ],
+ "attribution": [
+  "Study of the Elements: Rock (2)"
+ ]
+}

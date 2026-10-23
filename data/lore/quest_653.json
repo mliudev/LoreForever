@@ -1,0 +1,98 @@
+{
+ "key": "quest:653",
+ "type": "quest",
+ "name": "Myzrael's Allies",
+ "era": "classic",
+ "zone": "arathi",
+ "meta": {
+  "ids": [
+   653
+  ],
+  "level": "40",
+  "faction": "Alliance",
+  "start": "Keystone",
+  "end": "Gerrig Bonegrip",
+  "previous": "Breaking the Keystone",
+  "next": "Theldurin the Lost (quest)",
+  "wiki": "Myzrael's Allies (Alliance)",
+  "chain": [],
+  "next_q": [
+   "Theldurin the Lost (quest)"
+  ],
+  "category": "Arathi Highlands",
+  "chain_tpl": [
+   "The Princess Trapped Classic"
+  ],
+  "prev_q": [
+   "Breaking the Keystone"
+  ]
+ },
+ "summary": "Myzrael cries out that she is free, and that she will gather her strength in hiding from her captors. She calls you a noble ally and sends you to Gerrig Bonegrip in a shop of Ironforge's Forlorn Cavern, who knows how she can be summoned.",
+ "sections": [
+  {
+   "title": "Free to Gather Strength",
+   "body": "Myzrael is free, and means to gather strength hidden from her captors, since if they met her now they would surely overpower her and lock her away again. In time she means to face the giants, and she swears they will rue having held her. She calls you a noble ally and says she will need your help again, to summon her to the surface when she is ready.",
+   "spoiler": 0
+  },
+  {
+   "title": "Word for Gerrig Bonegrip",
+   "body": "Myzrael tells you to speak with Gerrig Bonegrip, whose shop is in Ironforge, in the Forlorn Cavern. He knows how she can be summoned.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Where can Gerrig Bonegrip be found?",
+   "aliases": [
+    "gerrig bonegrip location",
+    "where is gerrig bonegrip",
+    "find gerrig bonegrip"
+   ],
+   "answer": "Gerrig Bonegrip keeps a shop in the Forlorn Cavern of Ironforge."
+  },
+  {
+   "q": "Why is Myzrael remaining in hiding?",
+   "aliases": [
+    "why is myzrael hiding",
+    "where is myzrael going"
+   ],
+   "answer": "She needs to gather her strength first. If her captors faced her now, they would surely overpower her and imprison her again."
+  },
+  {
+   "q": "Who are the captors Myzrael speaks of?",
+   "aliases": [
+    "myzrael captors",
+    "who imprisoned myzrael",
+    "myzrael giants"
+   ],
+   "answer": "The giants, who had wardship of her. She says that in time she will confront them and they will regret it."
+  },
+  {
+   "q": "Why does Myzrael send you to Ironforge?",
+   "aliases": [
+    "why go to ironforge",
+    "purpose of visiting gerrig"
+   ],
+   "answer": "Gerrig Bonegrip knows how she can be summoned, and she says she will need you to summon her to the surface when she is ready."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "arathi highlands",
+  "forlorn cavern",
+  "gerrig bonegrip",
+  "giants",
+  "ironforge",
+  "keystone",
+  "myzrael"
+ ],
+ "related": [
+  "npc:gerrig-bonegrip",
+  "subzone:forlorn-cavern",
+  "zone:ironforge",
+  "zone:arathi"
+ ],
+ "attribution": [
+  "Myzrael's Allies (Alliance)"
+ ]
+}

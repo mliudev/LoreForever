@@ -1,0 +1,124 @@
+{
+ "key": "quest:1488",
+ "type": "quest",
+ "name": "The Corrupter",
+ "era": "classic",
+ "zone": "desolace",
+ "meta": {
+  "ids": [
+   1488
+  ],
+  "level": "40",
+  "faction": "Horde",
+  "start": "Takata Steelblade",
+  "end": "Takata Steelblade",
+  "previous": "The Corrupter (4)",
+  "next": "",
+  "wiki": "The Corrupter (5)",
+  "chain": [],
+  "prev_q": [
+   "The Corrupter (4)"
+  ],
+  "qtype": "Group",
+  "category": "Desolace",
+  "chain_tpl": [
+   "The Corrupter/Chain"
+  ]
+ },
+ "summary": "Takata Steelblade knows nothing of Lord Azrethoc, yet sides with Maurin that the demon lord must be stopped, all the more if Azrethoc is trying to win influence over the Burning Blade. Takata trusts you to gather a party against Azrethoc and his warlock servant, Jugkar Grim'rod.",
+ "sections": [
+  {
+   "title": "A Party to the South",
+   "body": "Takata has never heard of Lord Azrethoc, yet agrees with Maurin that the demon lord must be stopped, above all if Azrethoc is reaching out to sway the Burning Blade. You have already shown you want to aid the Warchief, so Takata trusts you to gather a party and slay Azrethoc and his warlock servant, Jugkar Grim'rod. Takata tells you to head directly south, to Mannoroc Coven, where both are found.",
+   "spoiler": 0
+  },
+  {
+   "title": "Takata's Worry",
+   "body": "Takata calls the demons in Desolace a greater threat than ever before. Each newly arrived foul creature makes the prospect of ever returning to the Warchief seem dimmer, and Takata sometimes wishes the centaur were the only enemy.",
+   "spoiler": 0
+  },
+  {
+   "title": "Takata's Verdict",
+   "body": "Once the threat is ended, Takata calls it a mighty victory for all, and says the outlook here is less bleak than once feared. Takata speaks of the demons being slain, of the Burning Blade failing in their efforts, and of a place to call home that is safe again.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is sending adventurers against Lord Azrethoc?",
+   "aliases": [
+    "who gives the corrupter",
+    "quest giver the corrupter",
+    "takata steelblade quest"
+   ],
+   "answer": "Takata Steelblade, who sides with Maurin and trusts you to bring a party against the demon lord."
+  },
+  {
+   "q": "Who must be defeated?",
+   "aliases": [
+    "who do i kill",
+    "corrupter targets",
+    "azrethoc and jugkar"
+   ],
+   "answer": "Lord Azrethoc, a demon lord, and Jugkar Grim'rod, the warlock who serves him."
+  },
+  {
+   "q": "Where are the targets located?",
+   "aliases": [
+    "where is azrethoc",
+    "jugkar grimrod location",
+    "where to go the corrupter"
+   ],
+   "answer": "Takata says to head directly south. Both are near Mannoroc Coven, which lies in southern Desolace."
+  },
+  {
+   "q": "Why does Lord Azrethoc pose such a danger?",
+   "aliases": [
+    "why kill azrethoc",
+    "what is azrethoc doing",
+    "burning blade connection"
+   ],
+   "answer": "Takata has never heard of Azrethoc, but the demon lord must be stopped, all the more if Azrethoc is reaching out to sway the Burning Blade."
+  },
+  {
+   "q": "What comes before this in the chain?",
+   "aliases": [
+    "prerequisite quest",
+    "previous quest the corrupter",
+    "corrupter chain"
+   ],
+   "answer": "This step follows the fourth part of The Corrupter chain."
+  },
+  {
+   "q": "What does Takata fear about the demons in Desolace?",
+   "aliases": [
+    "takata lore",
+    "why is takata here",
+    "takata steelblade role"
+   ],
+   "answer": "Takata calls them a greater threat than ever. Each newly arrived foul creature makes the prospect of returning to the Warchief seem dimmer, and Takata wishes the centaur were the only enemy."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "burning blade",
+  "demon",
+  "desolace",
+  "jugkar grim'rod",
+  "lord azrethoc",
+  "maurin",
+  "takata steelblade",
+  "warlock"
+ ],
+ "related": [
+  "npc:takata-steelblade",
+  "zone:desolace",
+  "topic:horde",
+  "topic:warlock",
+  "topic:centaur",
+  "subzone:mannoroc-coven"
+ ],
+ "attribution": [
+  "The Corrupter (5)"
+ ]
+}

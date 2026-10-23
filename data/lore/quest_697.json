@@ -1,0 +1,99 @@
+{
+ "key": "quest:697",
+ "type": "quest",
+ "name": "Malin's Request",
+ "era": "classic",
+ "zone": "arathi",
+ "meta": {
+  "ids": [
+   697
+  ],
+  "level": "39",
+  "faction": "Alliance",
+  "start": "Skuerto",
+  "end": "Archmage Malin",
+  "previous": "Attack on the Tower (Classic)",
+  "next": "",
+  "wiki": "Malin's Request (2)",
+  "chain": [],
+  "prev_q": [
+   "Attack on the Tower (Classic)"
+  ],
+  "category": "Arathi Highlands",
+  "chain_tpl": [
+   "Malin's Request"
+  ]
+ },
+ "summary": "Skuerto gives you a sealed letter for Archmage Malin, who is found in Stormwind's Mage Quarter. It tells Malin that Kryten and Skuerto will be home soon, and Skuerto is certain Malin will repay you well for helping them in Arathi.",
+ "sections": [
+  {
+   "title": "A Letter for the Archmage",
+   "body": "After the work in Arathi, Skuerto hands you a letter to take back to Stormwind. Its message for Archmage Malin in the Mage Quarter is that Kryten and Skuerto will be home soon. Skuerto has no doubt that Malin will repay you well for helping them, and sends you off with a wish for a safe journey.",
+   "spoiler": 0
+  },
+  {
+   "title": "Malin Reads the Letter",
+   "body": "When Malin opens the letter, his eyes grow wide. He is delighted, and says Trelane will be so pleased. He supposes Kryten and Skuerto share his excitement now that they are heading home to Stormwind.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who sends you with the letter?",
+   "aliases": [
+    "who gives the letter",
+    "who starts malins request",
+    "malins request starter"
+   ],
+   "answer": "Skuerto does. The letter tells Malin that he and Kryten will be home soon."
+  },
+  {
+   "q": "Where is Archmage Malin located?",
+   "aliases": [
+    "where is archmage malin",
+    "archmage malin location",
+    "where do i turn this in"
+   ],
+   "answer": "Archmage Malin is in the Mage Quarter of Stormwind."
+  },
+  {
+   "q": "Who is Kryten?",
+   "aliases": [
+    "who is kryten",
+    "kryten arathi"
+   ],
+   "answer": "Kryten is Skuerto's companion in the Arathi Highlands. Skuerto says the two of them will be home soon."
+  },
+  {
+   "q": "What comes before this step?",
+   "aliases": [
+    "previous quest",
+    "prereq",
+    "what leads to this"
+   ],
+   "answer": "It follows Attack on the Tower, the work Skuerto asked of you at the tower in Arathi."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "arathi highlands",
+  "archmage malin",
+  "kryten",
+  "mage quarter",
+  "malin's request",
+  "sealed letter",
+  "skuerto",
+  "stormwind"
+ ],
+ "related": [
+  "npc:archmage-malin",
+  "npc:skuerto",
+  "subzone:mage-quarter",
+  "zone:arathi",
+  "topic:stormwind-kingdom",
+  "topic:mage"
+ ],
+ "attribution": [
+  "Malin's Request (2)"
+ ]
+}

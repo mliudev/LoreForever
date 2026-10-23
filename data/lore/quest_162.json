@@ -1,0 +1,101 @@
+{
+ "key": "quest:162",
+ "type": "quest",
+ "name": "Rise of the Silithid",
+ "era": "classic",
+ "zone": "tanaris",
+ "meta": {
+  "ids": [
+   162
+  ],
+  "level": "49",
+  "faction": "Alliance",
+  "start": "Senior Surveyor Fizzledowser",
+  "end": "Gracina Spiritmight",
+  "previous": "Insect Part Analysis (2)",
+  "next": "",
+  "wiki": "Rise of the Silithid (Alliance)",
+  "chain": [],
+  "prev_q": [
+   "Insect Part Analysis (2)"
+  ],
+  "category": "Tanaris",
+  "chain_tpl": [
+   "Rise of the Silithid"
+  ]
+ },
+ "summary": "Senior Surveyor Fizzledowser urges you to carry the report on the insect threat to Gracina Spiritmight, a night elf scholar and historian in Darnassus.",
+ "sections": [
+  {
+   "title": "A Scholar in Darnassus",
+   "body": "Fizzledowser wants the report to reach someone with working knowledge of such matters. Gracina Spiritmight is a night elf scholar who has spent a lot of time studying the life forms unique to Azeroth's ecology, and she is a historian too. Fizzledowser hopes she can help work out what the danger really is and, above all, how it might be halted. By Fizzledowser's last word, she was living in the Temple of the Moon in Darnassus.",
+   "spoiler": 0
+  },
+  {
+   "title": "Gracina's Answer",
+   "body": "Gracina says the night elves know of the terror described in the report, and thinks Fizzledowser chose well in sending it, and you. These creatures will devour the Tanaris desert rapidly and number among the greatest menaces anyone will face. They are the silithid, the tools of one of the gravest threats to both Horde and Alliance. Gracina laments that no one was wise enough to see it sooner.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Gracina Spiritmight?",
+   "aliases": [
+    "gracina spiritmight lore",
+    "who is gracina",
+    "temple of the moon scholar"
+   ],
+   "answer": "A night elf scholar and historian who has spent a great deal of time studying life forms unique to the ecology of Azeroth."
+  },
+  {
+   "q": "Who sends you to Gracina?",
+   "aliases": [
+    "where did the report come from",
+    "insect analysis report origin"
+   ],
+   "answer": "Senior Surveyor Fizzledowser gives you the Insect Analysis Report and asks you to take it to her."
+  },
+  {
+   "q": "Where can Gracina Spiritmight be found?",
+   "aliases": [
+    "where is gracina",
+    "gracina spiritmight location",
+    "find gracina spiritmight"
+   ],
+   "answer": "In the Temple of the Moon in Darnassus, by Fizzledowser's last word."
+  },
+  {
+   "q": "What came before this journey to Darnassus?",
+   "aliases": [
+    "previous quest",
+    "what led to rise of the silithid",
+    "prior quest to gracina"
+   ],
+   "answer": "It follows Insect Part Analysis."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "darnassus",
+  "fizzledowser",
+  "gracina",
+  "insect analysis",
+  "silithid",
+  "spiritmight",
+  "tanaris",
+  "temple of the moon"
+ ],
+ "related": [
+  "npc:senior-surveyor-fizzledowser",
+  "zone:tanaris",
+  "zone:darnassus",
+  "subzone:temple-of-the-moon",
+  "topic:night-elf",
+  "topic:alliance",
+  "topic:horde",
+  "quest:113"
+ ],
+ "attribution": [
+  "Rise of the Silithid (Alliance)"
+ ]
+}

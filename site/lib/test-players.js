@@ -16,7 +16,8 @@
 // local copy of the site), and no live Stripe (Production has STRIPE_LIVE = "1"). Anywhere else the routes answer 404
 // (functions/api/test/[action].js) and the pages' panel (public/js/test-players.js) never shows.
 
-import { findOrCreateUser } from "./accounts.js";
+import { findOrCreateUser, recordTerms } from "./accounts.js";
+import { issueToken } from "./devices.js";
 import { person, setSharing, savePresence, readPresence, answerRequest } from "./friends.js";
 import { dayOn } from "./willo-pins.js";
 
@@ -134,4 +135,41 @@ export async function acceptAsTestPlayer(env, key, now = Date.now()) {
     "WHERE e.user_id = ? AND e.state = 'asking'").bind(me.id).all();
   for (const r of results) await answerRequest(env, me.id, r.pid, true, now);
   return results.length;
+}
+
+// ---- Load tests (develop only) ----
+// Made-up players for load-testing the answer path before launch (the Software Architect's 10/21 review, item 2):
+// load-001 to load-300, each with a Willo app token, so the test spreads over many accounts the way launch players
+// would, and a stand-in for the model. An answer from one of them that carries "X-Load-Test: stub" gets STUB_ANSWER
+// after STUB_MS instead of a Gemini call: the test measures the site and D1, not Gemini, and costs nothing. Everything
+// else on the answer path runs as for any player. Never on the live site (testPlayersOn).
+
+export const LOAD_MAX = 300;
+export const STUB_MS = 1200;
+const LOAD_EMAIL = /^load-\d{3}@example\.test$/;
+export const STUB_ANSWER = "Hogger is a gnoll chieftain who leads the Riverpaw pack in Elwynn Forest's southern hills.";
+
+// count load players (created the first time), each with a new app token: [{email, token}].
+export async function loadPlayers(env, count) {
+  const out = [];
+  for (let i = 1; i <= Math.min(LOAD_MAX, Math.max(1, Number(count) || 1)); i++) {
+    const n = String(i).padStart(3, "0");
+    const email = `load-${n}@example.test`;
+    const user = await findOrCreateUser(env, { email, googleSub: `test-player:load-${n}`, name: `Load ${n}` });
+    await recordTerms(env, user.id);
+    out.push({ email, token: (await issueToken(env, user.id, "Load test")).token });
+  }
+  return out;
+}
+
+// Does this answer get the stand-in model? Only a load player's, asked with the header, on develop.
+export const stubbed = (env, request, user) => testPlayersOn(env, request)
+  && request.headers.get("X-Load-Test") === "stub" && LOAD_EMAIL.test(String(user?.email || ""));
+
+// writeAnswer's stand-in: what it returns for a plain answer, after about as long as a real one takes.
+export async function stubAnswer(env, prompt, now, research, operation, { onSay = null } = {}) {
+  await new Promise(resolve => setTimeout(resolve, STUB_MS));
+  onSay?.(STUB_ANSWER);
+  return { answer: STUB_ANSWER, sources: [], web_sources: [], model: "stub", usage: null, model_ms: STUB_MS, counted: 0,
+    web_search: { status: "not_needed", queries: [], suggestions_html: "" } };
 }

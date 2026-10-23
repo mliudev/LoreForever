@@ -48,8 +48,9 @@ import { plansOn, poolWindow, setupBilling, holdUserSpend, holdStatements, relea
 import { reserveFreeVoice, reserveFreeVoiceStatements, reservedFreeVoice, settleFreeVoice } from "./companion-answers.js";
 import { characterVoices, CHARACTER_KEY, CHARACTER_VOICES, voiceLabel, hasAzeroth } from "./character-voices.js";
 import { tasteFor, tasteState, tasteDayMicro, takeVoice, giveVoice, holdDay, holdDayStatements, heldDay, settleDay,
-  countDay, TASTE_PERIOD, TASTE_REPLY_MICRO, TASTE_ANSWERS, trialOf, trialRow, tryOnce, untry, withTrial
+  countDay, TASTE_PERIOD, TASTE_REPLY_MICRO, TASTE_ANSWERS, trialOf, trialRow, tryOnce, untry, withTrial, trialFor
 } from "./best-first.js";
+import { questPage, cutAtSentence } from "./quest-pages.js";
 import { respell, loadRespell } from "./respell.js";
 import { savedPick } from "./plan-usage.js";
 
@@ -73,8 +74,8 @@ export const hostedSpellings = (env, origin) => loadRespell(env, origin, HOSTED_
 // names it respells for the voice can make that a little longer). A voice steps down once the month's room can't hold
 // a whole reply of this in it.
 export const SPEAK_MAX_CHARS = 600;
-// A plan that hears her whole answer spoken (lib/billing.js PLAN_VOICE whole, Legend's): its replies' pieces together,
-// at most; the written answer is under 140 words. Each piece is still at most SPEAK_MAX_CHARS, and each holds its
+// A plan that hears her whole answer spoken (lib/billing.js PLAN_VOICE whole: every plan's since 10/21): its replies'
+// pieces together, at most; the written answer is under 140 words. Each piece is still at most SPEAK_MAX_CHARS, and each holds its
 // cost against the month first, so the total cap steps the voice down as before.
 export const WHOLE_MAX_CHARS = 1500;
 export const replyMax = plan => plan?.voice?.whole ? WHOLE_MAX_CHARS : SPEAK_MAX_CHARS;
@@ -126,7 +127,7 @@ async function claimAndHold(env, userId, reply, provider, { micro, now, opts = n
   const also = { sql: "EXISTS (SELECT 1 FROM voice_replies WHERE user_id = ? AND reply = ? AND provider = ?)",
                  binds: [userId, reply, provider] };
   if (taste) {        // a reply of best first's: the shared free budget and the taste's day, both (holdTaste's)
-    const results = await env.DB.batch([claim, ...reserveFreeVoiceStatements(env, micro, now, also),
+    const results = await env.DB.batch([claim, ...reserveFreeVoiceStatements(env, micro, now, also, false),
       ...holdDayStatements(env, micro, now, also)]);
     if (!results[0].results?.[0]) return null;
     const [shared, day] = [reservedFreeVoice(results.slice(1, 3)), heldDay(results.slice(3), micro, now)];
@@ -325,19 +326,25 @@ export async function voiceAllowance(env, userId, plan, now = new Date(), taste 
   const heard = withTrial(plan, taste?.trial);
   // pick: the Willo voice this plan hears, from the one the account last picked on its PC (lib/plan-usage.js
   // savedPick), so the iPhone can show it.
-  const [own, saved] = await Promise.all([planVoice(env, userId, heard, now), savedPick(env, userId)]);
+  const [own, saved] = await Promise.all([planVoice(env, userId, heard, now, taste?.trial), savedPick(env, userId)]);
   const pick = willoPick(heard, saved);
   return taste?.on && readyFor(env, "willo").includes("inworld") ? { ...own, tier: "hosted", now: "finest", pick }
     : { ...own, pick };
 }
-async function planVoice(env, userId, plan, now) {
+async function planVoice(env, userId, plan, now, trial = null) {
   const pv = plan.voice, choice = Boolean(pv.choice);
   // azeroth: the Voices of Azeroth are in her picker (Legend's, and the first-run trial's); whole: her whole answer is
-  // spoken, not only its short spoken part (Legend's); readings: the add-on's short answers in the narrator's voice
-  // (speakReading, Hero and up). The companion shows and asks by them.
-  const more = { azeroth: Boolean(pv.azeroth), whole: Boolean(pv.whole), readings: readsAloud(plan) };
+  // spoken, not only its short spoken part (every plan's since 10/21); readings: the add-on's short answers in the
+  // narrator's voice (speakReading, Hero and up); npcReadings: the add-on's quest pages with no recording in the giver's
+  // voice (speakQuestPage, Champion and up, and the first-run trial's character tries). The companion shows and asks
+  // by them.
+  const more = { azeroth: Boolean(pv.azeroth), whole: Boolean(pv.whole), readings: readsAloud(plan),
+                 npcReadings: readsQuests(plan, trial) };
   const pc = { tier: "local", top: "everyday", now: "everyday", choice, ...more };
   if (plan.id === "free") {
+    // The free pool's soft step (lib/billing.js planFor's brake, lib/free-pool.js): her answers are text, said in her
+    // own voice on the PC; the starter's hosted ones wait for the next day's slice.
+    if (plan.brake) return { ...pc, starterLeft: 0 };
     if (pv.always) return readyFor(env, "willo").includes("deepinfra")
       ? { tier: "hosted", top: "studio", now: "studio", choice, ...more, starterLeft: 0 } : { ...pc, starterLeft: 0 };
     if (!pv.starter) return { ...pc, starterLeft: 0 };
@@ -658,10 +665,11 @@ export async function forgetReply(env, userId, reply, now = new Date(), { settle
   return true;
 }
 
-// The taste's voice (lib/best-first.js) is paid like the free plan's starter, from the shared monthly budget
-// (reserveFreeVoice), and held on the taste's daily cap too: {day} when both hold `micro`, else null (neither kept).
+// The taste's voice (lib/best-first.js) is recorded like the free plan's starter (reserveFreeVoice), but held on the
+// taste's daily cap, not the free pool (lib/free-pool.js leaves it out): {day} when both hold `micro`, else null
+// (neither kept).
 async function holdTaste(env, micro, now) {
-  const [shared, day] = await Promise.all([reserveFreeVoice(env, micro, now), holdDay(env, micro, now)]);
+  const [shared, day] = await Promise.all([reserveFreeVoice(env, micro, now, false), holdDay(env, micro, now)]);
   if (shared && day) return { day };
   await Promise.all([shared ? settleFreeVoice(env, micro, false, now) : null, day ? settleDay(env, day, 0, {}, now) : null]);
   return null;
@@ -691,8 +699,12 @@ async function speakTaste(env, userId, plan, { text, voice, reply, pick, piece, 
   const ownFish = Boolean(character && env[FISH.key] && env.STUDIO);
   const castable = Boolean(character && (ownInworld || ownFish));
   const ready = readyFor(env, "willo");
-  if ((!castable && !ready.includes("inworld")) || tasteDone.has(userId)) return null;
-  const said = tasteSaid.get(userId);
+  // A reply's later pieces always look (Mike's 0.25.0 QA, 10/21): the reply may be the taste's last finest one, begun
+  // before tasteSaid knew it was all said, and its rest belongs with it, in its voice; the plan's own path would find
+  // it under TASTE_PERIOD and call it too long.
+  const rest = Number.isInteger(piece) && piece > 0;
+  if ((!castable && !ready.includes("inworld")) || (tasteDone.has(userId) && !rest)) return null;
+  const said = rest ? undefined : tasteSaid.get(userId);
   if (said && !castable) {
     if (now.getTime() < said) {
       seen.trial = { on: true };
@@ -736,7 +748,8 @@ async function speakTaste(env, userId, plan, { text, voice, reply, pick, piece, 
     }
   }
   const chars = text.length;
-  const { taken, again, bit } = await countPiece(env, userId, reply, TASTE_PERIOD, chars, piece, "chars");
+  const { taken, again, bit } = await countPiece(env, userId, reply, TASTE_PERIOD, chars, piece, "chars",
+    replyMax(plan));
   if (!taken) return { local: "long", status: 413 };
   const first = !again && taken.chars === chars;
   const wholeMs = piece > 0 || (piece === undefined && taken.chars > chars) ? LATER_PIECE_MS : PROVIDER_MS;
@@ -800,15 +813,17 @@ async function speakTaste(env, userId, plan, { text, voice, reply, pick, piece, 
 // cloned from the pack narrators' own references (experiments/voices/narrators/m-chronicler-1.wav and
 // f-campfire-2.wav, the first 10 s; ~/lab/voice-pricing-picks/narrator-readings); the Pages variable NARRATOR_VOICES
 // (JSON, {"chronicler": "<id>"}) replaces an id. A reading isn't an answer: nothing is counted, and its cost (about
-// $0.0002 for a typical one) goes on the player's month within its total cap (holdUserSpend), never the shared free
-// budget. Without room, or without the voice here, the companion shows the answer as text: {local: "spent" |
+// $0.0002 for a typical one) goes on the player's month within its total cap (holdUserSpend); in the free plan's
+// first-run trial, on the shared free budget (reserveFreeVoice). Without room, or without the voice here, the companion shows the answer as text: {local: "spent" |
 // "unavailable" | "plan" | "narrator"}.
 export const NARRATOR_STUDIO = { chronicler: "wb5jgo95yl22fg3etv8g", female: "sk0s2twuhv4p8tyal7up" };
 export const NARRATORS = Object.keys(NARRATOR_STUDIO);
 // A reading isn't waited on as a reply's first word is: a 400-letter answer took the studio voice 2 to 5 s (10/21).
 export const READING_MS = 8000;
 const PLAN_ORDER = Object.keys(PLANS);
-export const readsAloud = plan => Boolean(plan?.voice) && PLAN_ORDER.indexOf(plan.id) >= PLAN_ORDER.indexOf(READINGS_FROM);
+// The first-run trial reads them too (lib/best-first.js withTrial: voice.readings).
+export const readsAloud = plan => Boolean(plan?.voice) && (plan.voice.readings === true
+  || PLAN_ORDER.indexOf(plan.id) >= PLAN_ORDER.indexOf(READINGS_FROM));
 export function narratorIds(env) {
   let extra = {};
   try { extra = env?.NARRATOR_VOICES ? JSON.parse(env.NARRATOR_VOICES) : {}; }
@@ -817,23 +832,88 @@ export function narratorIds(env) {
     ? extra[n] : NARRATOR_STUDIO[n]]));
 }
 export async function speakReading(env, userId, plan, { text, narrator, spellings = {} }, now = new Date(), later = null) {
-  if (!plansOn(env) || !readsAloud(plan)) return { local: "plan", status: 402 };
+  if (!plansOn(env)) return { local: "plan", status: 402 };
+  if (!readsAloud(plan) && tasteFor(env, plan)) plan = withTrial(plan, await trialFor(env, userId, plan, now));
+  if (!readsAloud(plan)) return { local: "plan", status: 402 };
   if (!NARRATORS.includes(narrator)) return { local: "narrator", status: 400 };
   const id = narratorIds(env)[narrator];
   if (!id || !env.DEEPINFRA_API_KEY) return { local: "unavailable", status: 503 };
   await setupBilling(env);
-  const micro = text.length * rate("deepinfra");
-  const hold = await holdUserSpend(env, userId, micro, now, { cap: plan.totalCapMicro, total: true,
-    need: SPEAK_MAX_CHARS * rate("deepinfra"), launch: Boolean(plan.launch) });
+  const micro = text.length * rate("deepinfra"), free = plan.id === "free";
+  const hold = free ? await reserveFreeVoice(env, micro, now)
+    : await holdUserSpend(env, userId, micro, now, { cap: plan.totalCapMicro, total: true,
+      need: SPEAK_MAX_CHARS * rate("deepinfra"), launch: Boolean(plan.launch) });
   if (!hold) return { local: "spent", status: 402 };
   try {
     const audio = await deepinfra(env, respell(text, spellings), id, null, null, READING_MS);
     if (!audio.length || audio.length > MAX_AUDIO_BYTES) throw new Error(`deepinfra sent ${audio.length} bytes of audio`);
-    await afterAudio(addVoiceSpend(env, userId, micro, now, hold, null, Boolean(plan.launch)), later, "deepinfra");
+    await afterAudio(free ? settleFreeVoice(env, micro, true, now)
+      : addVoiceSpend(env, userId, micro, now, hold, null, Boolean(plan.launch)), later, "deepinfra");
     return { audio, provider: "deepinfra", voice: `studio:${narrator}` };
   } catch (e) {
-    await releaseUserSpend(env, hold);
+    await (free ? settleFreeVoice(env, micro, false, now) : releaseUserSpend(env, hold));
     console.warn(`companion voice: a reading: deepinfra: ${e?.message || e}`);
+    return { local: "unavailable", status: 503 };
+  }
+}
+
+// The add-on's quest pages that have no recording, read aloud (Mike, 2026-10-21: "for Willo read quest audio … when no
+// recording exists. It shouldn't be her own voice. It should be the race and gender of the quest giver, or if it's not a
+// quest giver and it's a book, then it should be a narrator. This should be for the tiers that have access to the quest
+// giver voices for Willo."). The add-on names the page it shows in the sky (companion/lore_companion/readaloud.py), so
+// this is asked with a key and the player's narrator and nothing else: POST /api/companion/speak {reading: true, quest:
+// "quest:176#detail", narrator}. The words are the site's own (lib/quest-pages.js, the same neutral script the quest
+// givers' recordings read), never the app's, and come back in the reply (text) for the companion's captions.
+// The giver's voice is the studio engine's clone of the same reference the recorded quest-giver packs use (AZEROTH_STUDIO,
+// hostedVoices) for a giver of a people and gender we have a voice for, else (a book, an object, a beast, a giver
+// nothing says the gender of) the player's narrator, as speakReading's. Only the studio engine, DeepInfra Chatterbox
+// Turbo at $1 a million letters: a page is about 260 letters on average, $0.00026. A script past SPEAK_MAX_CHARS is
+// cut at the end of a sentence (cutAtSentence); none is today (the longest is 526), so it isn't said in pieces.
+// Allowed where characters speak in their own voices (lib/billing.js PLAN_VOICE characters, Champion and up), and in
+// the first-run trial's character tries (lib/best-first.js TRIAL.cast, one for each page, given back if nothing could
+// say it). Not an answer: nothing is counted among the replies. Its cost goes on the player's month inside the total
+// cap (holdUserSpend), as a reading's, or, in the trial, on the shared free budget and the taste's day (holdTaste), as
+// a character's reply in the trial. Without a plan for it, room or the voice: {local: "plan" | "spent" | "unavailable" |
+// "narrator"} and the companion keeps quiet; the quest window is its own text.
+export const readsQuests = (plan, trial = null) => Boolean(plan?.voice?.characters)
+  || Boolean(trial?.on && trial.claim && trial.left?.cast > 0);
+export async function speakQuestPage(env, userId, plan, { quest, narrator, origin, spellings = {} }, now = new Date(), later = null) {
+  if (!plansOn(env) || !plan?.voice) return { local: "plan", status: 402 };
+  if (!NARRATORS.includes(narrator)) return { local: "narrator", status: 400 };
+  const viaPlan = Boolean(plan.voice.characters);
+  let trial = null;
+  if (!viaPlan) {
+    trial = await trialFor(env, userId, plan, now);
+    if (!trial?.on || !trial.claim || !(trial.left.cast > 0)) return { local: "plan", status: 402 };
+  }
+  const page = await questPage(env, origin, quest);
+  if (!page) return { local: "unavailable", status: 404 };
+  const giver = page.voice && hostedVoices(env)[page.voice]?.deepinfra ? page.voice : null;
+  const id = giver ? hostedVoices(env)[giver].deepinfra : narratorIds(env)[narrator];
+  if (!id || !env.DEEPINFRA_API_KEY) return { local: "unavailable", status: 503 };
+  const text = cutAtSentence(page.script, SPEAK_MAX_CHARS);
+  const micro = text.length * rate("deepinfra");
+  await setupBilling(env);
+  let hold;
+  if (viaPlan) {
+    hold = await holdUserSpend(env, userId, micro, now, { cap: plan.totalCapMicro, total: true,
+      need: SPEAK_MAX_CHARS * rate("deepinfra"), launch: Boolean(plan.launch) });
+  } else {
+    if (!await tryOnce(env, trial.claim, "cast", now)) return { local: "plan", status: 402 };
+    hold = await holdTaste(env, micro, now);
+    if (!hold) await untry(env, userId, "cast");
+  }
+  if (!hold) return { local: "spent", status: 402 };
+  try {
+    const audio = await deepinfra(env, respell(text, spellings), id, null, null, READING_MS);
+    if (!audio.length || audio.length > MAX_AUDIO_BYTES) throw new Error(`deepinfra sent ${audio.length} bytes of audio`);
+    await afterAudio(viaPlan ? addVoiceSpend(env, userId, micro, now, hold, null, Boolean(plan.launch))
+      : settleTaste(env, hold, micro, true, {}, now), later, "deepinfra");
+    return { audio, provider: "deepinfra", voice: `studio:${giver || narrator}`, text };
+  } catch (e) {
+    await Promise.all([viaPlan ? releaseUserSpend(env, hold) : settleTaste(env, hold, micro, false, {}, now),
+      viaPlan ? null : untry(env, userId, "cast")]);
+    console.warn(`companion voice: a quest page: deepinfra: ${e?.message || e}`);
     return { local: "unavailable", status: 503 };
   }
 }

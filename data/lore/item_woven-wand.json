@@ -13,13 +13,13 @@
  "summary": "The Woven Wand is a unique enchanted relic crafted long ago by three Dalaran apprentice magi as a pledge of brotherhood. Following the fall of Lordaeron and bitter betrayals among its creators, the wand was hidden away in Fenris Keep before resurfacing in the hands of the Forsaken.",
  "sections": [
   {
-   "title": "A Sundered Bond",
-   "body": "In the days when Dalaran still trained the young magi of the north, three aspiring wizards\u2014Bethor Iceshard, Gunther Arcanus, and Thule Ravenclaw\u2014intertwined their individual apprentice wands into a single talisman. This Woven Wand served as both a conduit of combined magical power and a symbol of their enduring friendship. That fellowship shattered irrevocably when the Scourge swept through Lordaeron. Thule Ravenclaw chose to swear fealty to the Lich King, turning to foul necromancy. Meanwhile, the Plague of Undeath claimed both Bethor and Gunther, eventually cutting their ties to Dalaran entirely.",
-   "spoiler": 0
-  },
-  {
    "title": "The Hidden Alcove",
    "body": "Though Thule came to detest the sentimentality of the wand after turning to darkness, he could never bring himself to destroy it or surrender it to his former peers. Instead, he carried the artifact into Silverpine Forest and concealed it deep within an alcove in Fenris Keep. Years later, with Thule's lair breached and his servant Alaric directing Horde agents to the hiding place, the relic was retrieved intact. Never having had its dormant enchantments invoked by the necromancer, the wand was finally delivered to Bethor Iceshard within the Magic Quarter of the Undercity.",
+   "spoiler": 1
+  },
+  {
+   "title": "A Sundered Bond",
+   "body": "In the days when Dalaran still trained the young magi of the north, three aspiring wizards\u2014Bethor Iceshard, Gunther Arcanus, and Thule Ravenclaw\u2014intertwined their individual apprentice wands into a single talisman. This Woven Wand served as both a conduit of combined magical power and a symbol of their enduring friendship. That fellowship shattered irrevocably when the Scourge swept through Lordaeron. Thule Ravenclaw chose to swear fealty to the Lich King, turning to foul necromancy. Meanwhile, the Plague of Undeath claimed both Bethor and Gunther, eventually cutting their ties to Dalaran entirely.",
    "spoiler": 1
   }
  ],

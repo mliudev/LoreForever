@@ -1,0 +1,90 @@
+{
+ "key": "quest:1239",
+ "type": "quest",
+ "name": "The Severed Head",
+ "era": "classic",
+ "zone": "dustwallow",
+ "meta": {
+  "ids": [
+   1239
+  ],
+  "level": "35",
+  "faction": "Horde",
+  "start": "Loose Dirt",
+  "end": "Nazeer Bloodpike",
+  "previous": "The Lost Report",
+  "next": "The Troll Witchdoctor",
+  "wiki": "The Severed Head",
+  "chain": [],
+  "next_q": [
+   "The Troll Witchdoctor"
+  ],
+  "category": "Dustwallow Marsh",
+  "chain_tpl": [
+   "Service to the Horde"
+  ],
+  "prev_q": [
+   "The Lost Report"
+  ]
+ },
+ "summary": "Vigorous digging turns up the head of a male orc, ragged where it was cut from the neck. Nazeer Bloodpike in Brackenwall Village is the one to bring it to.",
+ "sections": [
+  {
+   "title": "A Grim Find",
+   "body": "Digging hard in the loose dirt brings up an orc's head, a male's, ragged where it was cut from the neck. The lips are drawn in a snarl and the dark eyes glare defiantly. Nazeer Bloodpike in Brackenwall Village is the one to bring it to.",
+   "spoiler": 0
+  },
+  {
+   "title": "Nazeer Looks Closer",
+   "body": "Nazeer Bloodpike knows the head at once as Marg Nighteye's, and had feared Marg was dead. Studying the ragged wound on the neck, Nazeer wonders whether a weapon made the cut or some beast killed the agent. It is a mystery to be solved, and Nazeer wants to know whether the Alliance was behind Marg's death.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Where do you bring the severed head?",
+   "aliases": [
+    "where to turn in severed head",
+    "severed head turn in",
+    "who takes the head"
+   ],
+   "answer": "To Nazeer Bloodpike in Brackenwall Village."
+  },
+  {
+   "q": "What does the head look like?",
+   "aliases": [
+    "what is in the loose dirt",
+    "defiant orc head",
+    "severed head description"
+   ],
+   "answer": "An orc's, a male's, ragged where it was cut from the neck, with a snarl on the lips and dark eyes that glare defiantly."
+  },
+  {
+   "q": "What comes after the severed head?",
+   "aliases": [
+    "next quest after severed head",
+    "severed head followup"
+   ],
+   "answer": "The next step is The Troll Witchdoctor."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "brackenwall village",
+  "defiant orc head",
+  "dustwallow marsh",
+  "loose dirt",
+  "marg nighteye",
+  "nazeer bloodpike",
+  "severed head"
+ ],
+ "related": [
+  "subzone:brackenwall-village",
+  "zone:dustwallow",
+  "quest:1240",
+  "topic:alliance"
+ ],
+ "attribution": [
+  "The Severed Head"
+ ]
+}

@@ -1,0 +1,69 @@
+{
+ "key": "quest:1099",
+ "type": "quest",
+ "name": "Goblins Win!",
+ "era": "classic",
+ "zone": "thousandneedles",
+ "meta": {
+  "ids": [
+   1099
+  ],
+  "level": "1",
+  "faction": "Neutral",
+  "start": "Automatic",
+  "end": "",
+  "previous": "",
+  "next": "",
+  "wiki": "Goblins Win!",
+  "chain": [],
+  "category": "Thousand Needles"
+ },
+ "summary": "In Thousand Needles, a goblin race ticket pays off when the goblins come out ahead. A prize box comes back to whoever held the winning stub.",
+ "sections": [
+  {
+   "title": "The Goblin Ticket",
+   "body": "The goblin race ticket is the stub that counts when the goblins win. Hold on to it, and a goblin prize box is yours once the result is in. The gnome ticket has a result of its own, for the other side of the race.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is the Goblin Race Ticket?",
+   "aliases": [
+    "race ticket",
+    "what is goblin race ticket"
+   ],
+   "answer": "It is the ticket for the goblin side of the race in Thousand Needles. It matters when the goblins win."
+  },
+  {
+   "q": "What do you get when the goblins win?",
+   "aliases": [
+    "goblin prize box",
+    "goblins win prize"
+   ],
+   "answer": "A goblin prize box comes to whoever holds the goblin race ticket when the goblins come out ahead."
+  },
+  {
+   "q": "What happens if the gnomes win instead?",
+   "aliases": [
+    "gnomes win",
+    "gnome race ticket"
+   ],
+   "answer": "Then the gnome ticket is the one that matters. Its result is called Gnomes Win!, the counterpart to this one."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "goblin",
+  "goblin prize box",
+  "race ticket",
+  "thousand needles"
+ ],
+ "related": [
+  "topic:goblin",
+  "zone:thousandneedles"
+ ],
+ "attribution": [
+  "Wowpedia: Goblins Win!"
+ ]
+}

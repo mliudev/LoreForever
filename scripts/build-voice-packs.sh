@@ -10,8 +10,11 @@
 #   LoreForever_Voice_<Default|Female>_Quests.zip         optional English quest dialogue, downloaded deliberately
 #   LoreForever_Voice_<Default|Female>_MorePlaces.zip / _MorePeople.zip  more subzone and people stories (complete
 #                                                         stories only), once registered
-#   LoreForever_Voice_<Default|Female>_MoreItems.zip / _MoreQuests1.zip / _MoreQuests2.zip  item stories and quest
+#   LoreForever_Voice_<Default|Female>_MoreItems.zip / _MoreQuests1.zip / _MoreQuests2.zip / _MoreQuests3.zip  item stories and quest
 #                                                         stories (levels 1-19, 20+), the same way
+#   LoreForever_Voice_<Default|Female>_Quests2.zip / _Quests3.zip  the rest of the game's quest dialogue (levels up to
+#                                                         50, 51-60: the quests without a lore entry), once recorded
+#   LoreForever_Voice_QuestGivers2.zip / QuestGivers3.zip  the same for quest levels 31-50 and 51-60, once recorded
 #   LoreForever_Voice_QuestGivers.zip                     quest givers' voices: quest dialogue in each quest giver's
 #                                                         race and gender (its own CurseForge project: under 480 MB)
 #   LoreForever_Voice_<Default|Female>_<locale>.zip       either narrator in deDE, esES, frFR, ptBR or itIT (LOR-177), one
@@ -95,27 +98,43 @@ DOWNLOADS = {
     "LoreForever_Voice_Female_Alliance": (["LoreForever_Voice_Female_Alliance"], "Female narrator: Alliance lands {v}"),
     "LoreForever_Voice_Female_Horde": (["LoreForever_Voice_Female_Horde"], "Female narrator: Horde lands {v}"),
     "LoreForever_Voice_Female_Quests": (["LoreForever_Voice_Female_Quests"], "Female narrator: quest dialogue {v}"),
+    # The rest of the game's quest dialogue (voicepack.QUEST_MORE_PACKS): levels up to 50, and 51-60.
+    "LoreForever_Voice_Default_Quests2": (["LoreForever_Voice_Default_Quests2"],
+                                          "Male narrator: more quest dialogue, levels 1-50 {v}"),
+    "LoreForever_Voice_Default_Quests3": (["LoreForever_Voice_Default_Quests3"],
+                                          "Male narrator: more quest dialogue, levels 51-60 {v}"),
+    "LoreForever_Voice_Female_Quests2": (["LoreForever_Voice_Female_Quests2"],
+                                         "Female narrator: more quest dialogue, levels 1-50 {v}"),
+    "LoreForever_Voice_Female_Quests3": (["LoreForever_Voice_Female_Quests3"],
+                                         "Female narrator: more quest dialogue, levels 51-60 {v}"),
     "LoreForever_Voice_Female-complete": (["LoreForever_Voice_Female", "LoreForever_Voice_Female_Alliance",
                                            "LoreForever_Voice_Female_Horde"],
                                           "Female narrator: stories and lands {v}"),
     "LoreForever_Voice_QuestGivers": (["LoreForever_Voice_QuestGivers"], "Quest givers' voices {v}"),
+    # The quest givers' voices for levels 31-50 and 51-60 (voicepack.QUEST_GIVER_PARTS), once recorded.
+    "LoreForever_Voice_QuestGivers2": (["LoreForever_Voice_QuestGivers2"], "Quest givers' voices, levels 31-50 {v}"),
+    "LoreForever_Voice_QuestGivers3": (["LoreForever_Voice_QuestGivers3"], "Quest givers' voices, levels 51-60 {v}"),
     # More places and people (complete stories only, voicepack.MORE_PACKS): one zip each, never in the main zip. Skipped
     # until register_full_stories.py makes the folder.
     "LoreForever_Voice_Default_MorePlaces": (["LoreForever_Voice_Default_MorePlaces"], "Male narrator: more places {v}"),
     "LoreForever_Voice_Default_MorePeople": (["LoreForever_Voice_Default_MorePeople"], "Male narrator: more people {v}"),
     "LoreForever_Voice_Female_MorePlaces": (["LoreForever_Voice_Female_MorePlaces"], "Female narrator: more places {v}"),
     "LoreForever_Voice_Female_MorePeople": (["LoreForever_Voice_Female_MorePeople"], "Female narrator: more people {v}"),
-    # Item stories and quest stories (levels 1-19, levels 20+), the same way.
+    # Item stories and quest stories (levels 1-19, 20-39, 40+), the same way.
     "LoreForever_Voice_Default_MoreItems": (["LoreForever_Voice_Default_MoreItems"], "Male narrator: item stories {v}"),
     "LoreForever_Voice_Default_MoreQuests1": (["LoreForever_Voice_Default_MoreQuests1"],
                                               "Male narrator: quest stories, levels 1-19 {v}"),
     "LoreForever_Voice_Default_MoreQuests2": (["LoreForever_Voice_Default_MoreQuests2"],
-                                              "Male narrator: quest stories, levels 20+ {v}"),
+                                              "Male narrator: quest stories, levels 20-39 {v}"),
+    "LoreForever_Voice_Default_MoreQuests3": (["LoreForever_Voice_Default_MoreQuests3"],
+                                              "Male narrator: quest stories, levels 40+ {v}"),
     "LoreForever_Voice_Female_MoreItems": (["LoreForever_Voice_Female_MoreItems"], "Female narrator: item stories {v}"),
     "LoreForever_Voice_Female_MoreQuests1": (["LoreForever_Voice_Female_MoreQuests1"],
                                              "Female narrator: quest stories, levels 1-19 {v}"),
     "LoreForever_Voice_Female_MoreQuests2": (["LoreForever_Voice_Female_MoreQuests2"],
-                                             "Female narrator: quest stories, levels 20+ {v}"),
+                                             "Female narrator: quest stories, levels 20-39 {v}"),
+    "LoreForever_Voice_Female_MoreQuests3": (["LoreForever_Voice_Female_MoreQuests3"],
+                                             "Female narrator: quest stories, levels 40+ {v}"),
     # The original male narrator (voicepack.OWN_PACKS), a voice of his own since the Chronicler took over the main
     # download's stories: his stories and lands in one zip, as the female narrator's, and his more places and people.
     "LoreForever_Voice_Original": (["LoreForever_Voice_Original"], "Original male narrator: core {v}"),
@@ -212,7 +231,8 @@ DOWNLOADS = {name: entry for name, entry in DOWNLOADS.items()
 FULL_BUNDLES = {name: entry for name, entry in FULL_BUNDLES.items() if name in DOWNLOADS}
 # zips a CurseForge project of their own takes as they are (the quest givers' voices, and each narrator and its quest
 # dialogue in each language pack's language: release/curseforge.json), and the answers packs, sized for one
-CURSEFORGE_OWN = {"LoreForever_Voice_QuestGivers", "LoreForever_Voice_Default_Quests", "LoreForever_Voice_Female_Quests",
+CURSEFORGE_OWN = {"LoreForever_Voice_QuestGivers", "LoreForever_Voice_QuestGivers2", "LoreForever_Voice_QuestGivers3",
+                  "LoreForever_Voice_Default_Quests", "LoreForever_Voice_Female_Quests",
                   "LoreForever_Voice_Original-complete", "LoreForever_Voice_Original_Quests"} | {
     n for n in DOWNLOADS if re.fullmatch(
     r"LoreForever_Voice_(Default|Female|Original)((_Quests|_MorePeople)?_[a-z]{2}[A-Z]{2}|_More(Places|People|Items|Quests[12]))", n)}

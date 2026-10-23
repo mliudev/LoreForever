@@ -1,0 +1,99 @@
+{
+ "key": "quest:613",
+ "type": "quest",
+ "name": "Cracking Maury's Foot",
+ "era": "classic",
+ "zone": "stranglethorn",
+ "meta": {
+  "ids": [
+   613
+  ],
+  "level": "44",
+  "faction": null,
+  "start": "\"Sea Wolf\" MacKinley",
+  "end": "\"Sea Wolf\" MacKinley",
+  "previous": "Voodoo Dues",
+  "next": "",
+  "wiki": "Cracking Maury's Foot",
+  "chain": [
+   "Scaring Shaky",
+   "Return to MacKinley",
+   "Voodoo Dues",
+   "Cracking Maury's Foot"
+  ],
+  "prev_q": [
+   "Voodoo Dues"
+  ],
+  "category": "Stranglethorn Vale"
+ },
+ "summary": "\"Sea Wolf\" MacKinley has retrieved the foot of his late debtor Maury, only to find that what he is owed is locked inside it. To claim what is owed, he directs travelers to the Mosh'Ogg ogre mound in Stranglethorn Vale to search for the missing key.",
+ "sections": [
+  {
+   "title": "A Locked Prize",
+   "body": "Following the retrieval of Maury's foot in Voodoo Dues, \"Sea Wolf\" MacKinley faces an unexpected complication in Booty Bay. The late debtor put a lock on his foot, and the valuables he owes are sealed inside.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Ogres' Mound",
+   "body": "Maury liked to gamble with the ogres of the Mosh'Ogg mound, off to the northeast. MacKinley remembers Maury saying the ogres drove him away once he had won too much, so he suspects they now hold the key and sends travelers to look for it.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Why does \"Sea Wolf\" MacKinley need Maury's key?",
+   "aliases": [
+    "why need key",
+    "what is the key for",
+    "maury key purpose"
+   ],
+   "answer": "Maury sealed what he owed inside his own foot and put a lock on it. MacKinley cannot access the debt owed to him without the key to unlock it."
+  },
+  {
+   "q": "Where is Maury's key thought to be?",
+   "aliases": [
+    "where is key",
+    "key location",
+    "where to find maury key"
+   ],
+   "answer": "MacKinley suspects the key may be held by the Mosh'Ogg ogres at their mound located to the northeast of Booty Bay."
+  },
+  {
+   "q": "Why would the Mosh'Ogg ogres have the key?",
+   "aliases": [
+    "why ogres have key",
+    "maury ogres connection",
+    "did maury know the ogres"
+   ],
+   "answer": "Maury often gambled with the Mosh'Ogg ogres, and MacKinley recalls the ogres driving him off after a big win. That is why he guesses they may be holding the key."
+  },
+  {
+   "q": "What comes before this in MacKinley's business?",
+   "aliases": [
+    "previous quest",
+    "chain order",
+    "what comes first"
+   ],
+   "answer": "This follows the collection in Voodoo Dues, which came after Scaring Shaky and Return to MacKinley in the debt-settling efforts around Booty Bay."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "booty bay",
+  "key",
+  "mackinley",
+  "maury",
+  "mosh'ogg",
+  "ogres",
+  "sea wolf",
+  "stranglethorn"
+ ],
+ "related": [
+  "subzone:booty-bay",
+  "quest:609",
+  "zone:stranglethorn"
+ ],
+ "attribution": [
+  "Cracking Maury's Foot"
+ ]
+}

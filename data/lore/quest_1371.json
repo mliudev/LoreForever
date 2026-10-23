@@ -1,0 +1,91 @@
+{
+ "key": "quest:1371",
+ "type": "quest",
+ "name": "Gizmo for Warug",
+ "era": "classic",
+ "zone": "desolace",
+ "meta": {
+  "ids": [
+   1371
+  ],
+  "level": "35",
+  "faction": null,
+  "start": "Warug",
+  "end": "Warug",
+  "previous": "Broken Tears (quest)",
+  "next": "Khan Shaka (quest)",
+  "wiki": "Gizmo for Warug",
+  "chain": [],
+  "prev_q": [
+   "Broken Tears (quest)"
+  ],
+  "next_q": [
+   "Khan Shaka (quest)"
+  ],
+  "category": "Desolace",
+  "chain_tpl": [
+   "Magram Alliance"
+  ]
+ },
+ "summary": "Warug, in the Magram Village, remembers a gnome who once came to Desolace with a cart of strange things. He kept a wooden human from that cart until he broke it, and now he wants a new one: an advanced target dummy.",
+ "sections": [
+  {
+   "title": "The Gnome's Cart",
+   "body": "A little gnome once came to Desolace, long ago, with horses and a cart. The cart held curious things: some burned in different colors, others moved though they were not alive. Warug killed the gnome, but first the gnome made him laugh. Warug kept his favorite thing from the cart, a human made of wood that waved at him until he hit it and broke it. Now he wants a new one, an advanced target dummy, and expects it from anyone who is no enemy of the Magram.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Warug?",
+   "aliases": [
+    "warug",
+    "who gives gizmo for warug"
+   ],
+   "answer": "Warug is a Magram centaur, found in Magram Village. He expects those he deals with to stay in the Magram's good standing."
+  },
+  {
+   "q": "What does Warug want?",
+   "aliases": [
+    "what item does warug need",
+    "warug gizmo item"
+   ],
+   "answer": "An advanced target dummy, to replace the wooden human from the gnome's cart that he broke."
+  },
+  {
+   "q": "Why does Warug want a target dummy?",
+   "aliases": [
+    "why does warug want a dummy",
+    "warug dummy reason"
+   ],
+   "answer": "Long ago he killed a gnome who came to Desolace with a cart of strange, funny things. The gnome made him laugh, and Warug's favorite was a wooden figure of a human that waved at him until he hit it and broke it. He wants a new one."
+  },
+  {
+   "q": "What comes before this in the Magram story?",
+   "aliases": [
+    "gizmo for warug chain",
+    "what comes before gizmo for warug"
+   ],
+   "answer": "It follows Broken Tears, earlier in your dealings with the Magram."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "centaur",
+  "desolace",
+  "gnome",
+  "magram",
+  "target dummy",
+  "warug"
+ ],
+ "related": [
+  "subzone:magram-village",
+  "zone:desolace",
+  "topic:centaur",
+  "topic:gnome",
+  "topic:human"
+ ],
+ "attribution": [
+  "Gizmo for Warug"
+ ]
+}

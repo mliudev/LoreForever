@@ -1,0 +1,100 @@
+{
+ "key": "quest:8553",
+ "type": "quest",
+ "name": "The Captain's Cutlass",
+ "era": "classic",
+ "zone": "stranglethorn",
+ "meta": {
+  "ids": [
+   8553
+  ],
+  "level": "42",
+  "faction": "Both",
+  "start": "Captain Hecklebury Smotts",
+  "end": "Sprogger",
+  "previous": "The Monogrammed Sash",
+  "next": "Facing Negolash",
+  "wiki": "The Captain's Cutlass",
+  "chain": [
+   "The Monogrammed Sash",
+   "The Captain's Cutlass",
+   "Facing Negolash"
+  ],
+  "prev_q": [
+   "The Monogrammed Sash"
+  ],
+  "next_q": [
+   "Facing Negolash"
+  ],
+  "category": "Stranglethorn Vale"
+ },
+ "summary": "Captain Hecklebury Smotts bought a second vessel named Smotts' Revenge to hunt down the sea giants who took his first ship, only to suffer another defeat. The giants smashed the vessel and killed the crew, and one of them, Negolash, stole the captain's cutlass. Smotts directs you to consult his former ship cook, Sprogger, to track down the behemoth.",
+ "sections": [
+  {
+   "title": "A Second Calamity",
+   "body": "Following the loss of his initial ship, Captain Hecklebury Smotts procured a second craft called Smotts' Revenge, gathering a fresh crew and provisions to take vengeance on the sea giants. The venture ended in disaster when the giants shattered the ship and slew the crew, leaving Smotts adrift once more in a lifeboat. During the onslaught, the giant Negolash took the captain's cutlass.",
+   "spoiler": 0
+  },
+  {
+   "title": "Consulting the Cook",
+   "body": "Determined to retrieve his stolen blade, Smotts relies on his cook. Sprogger, who served aboard Smotts' Revenge, lived through the attack and can help find Negolash.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What ship did Captain Hecklebury Smotts lose in this attack?",
+   "aliases": [
+    "what was the second ship called",
+    "smotts second ship",
+    "what ship was smashed"
+   ],
+   "answer": "Smotts purchased and outfitted a ship called Smotts' Revenge to hunt the giants that destroyed his first vessel, but the giants destroyed it as well."
+  },
+  {
+   "q": "Who stole the captain's cutlass?",
+   "aliases": [
+    "who has the cutlass",
+    "which giant took the cutlass",
+    "who took smotts cutlass"
+   ],
+   "answer": "Negolash, one of the sea giants that smashed Smotts' Revenge and killed the crew, took the weapon."
+  },
+  {
+   "q": "Who is Sprogger?",
+   "aliases": [
+    "who is sprogger",
+    "sprogger role",
+    "who was the cook"
+   ],
+   "answer": "Sprogger worked as the cook aboard Smotts' Revenge and survived the attack that destroyed the vessel. Captain Smotts directs travelers to him for help finding Negolash."
+  },
+  {
+   "q": "Where does this step fit into the hunt for the sea giants?",
+   "aliases": [
+    "what quest comes before this",
+    "what is the next quest",
+    "cutlass quest chain"
+   ],
+   "answer": "This step follows The Monogrammed Sash and leads directly to Facing Negolash."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "cutlass",
+  "hecklebury smotts",
+  "negolash",
+  "sea giants",
+  "smotts revenge",
+  "sprogger",
+  "stranglethorn"
+ ],
+ "related": [
+  "quest:8552",
+  "quest:618",
+  "zone:stranglethorn"
+ ],
+ "attribution": [
+  "The Captain's Cutlass"
+ ]
+}

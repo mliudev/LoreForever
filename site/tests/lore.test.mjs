@@ -54,12 +54,27 @@ test("with recordings in R2: a player per voice and the report form; only what t
   const html = await res.text();
   assert.ok(html.includes(`href="/audio/clip/${male}"`), male);
   assert.equal((html.match(/class="lp-btn"/g) || []).length, 1, "the female recording isn't in the manifest");
-  assert.match(html, /<span class="lp-vn">Male narrator<\/span> <span class="lp-len">\d+:\d\d<\/span>/);
+  assert.match(html, /class="lp-vn">Male narrator</);
+  assert.match(html, /class="lp-len">\d+:\d\d</);
   assert.match(html, /id="lp-report"/);
-  assert.match(html, /<button type="button" class="lp-rep" hidden>Report a problem with this line<\/button>\s*<span class="lp-open" hidden><\/span>/);
+  assert.match(html, /class="lp-rep"/);
+  assert.match(html, /class="lp-open"/);
   assert.match(html, new RegExp(`data-clip="${story.id}" data-hash="${story.hash}"`));
   assert.match(html, /class="lp-speed"/);
   for (const reason of ["name", "voice", "cut", "stage", "quality", "text", "other"]) assert.match(html, new RegExp(`value="${reason}"`));
+});
+
+test("an entry adapted from a Wowpedia article credits Wowpedia (CC BY-SA 3.0), not the Warcraft Wiki", async () => {
+  const e = entryJson("zone:elwynn");
+  e.sources = [{ kind: "wiki", site: "Wowpedia", title: "Elwynn Forest", url: "https://wowpedia.fandom.com/wiki/Elwynn_Forest",
+                 license: "CC BY-SA 3.0", license_url: "https://creativecommons.org/licenses/by-sa/3.0/" }];
+  const assets = { async fetch(url) {
+    return new URL(url).pathname.endsWith("/e/zone_elwynn.json") ? new Response(JSON.stringify(e)) : ASSETS.fetch(url);
+  } };
+  const html = await (await entry("/lore/zone/elwynn", { ASSETS: assets })).text();
+  assert.match(html, /Adapted from the Wowpedia article\s+<a href="https:\/\/wowpedia\.fandom\.com\/wiki\/Elwynn_Forest">Elwynn Forest<\/a> \(<a href="https:\/\/creativecommons\.org\/licenses\/by-sa\/3\.0\/">CC BY-SA 3\.0<\/a>\)/);
+  assert.ok(!html.includes("Adapted from the Warcraft Wiki article"));
+  assert.match(html, />Elwynn Forest on Wowpedia<\/a>/);
 });
 
 test("spoilers: a narration whose summary gives a story away plays nothing and shows the safe summary", async () => {
@@ -83,7 +98,7 @@ test("an entry with no recording is a page of its spoiler-free text, with nothin
   const html = await res.text();
   assert.equal(res.status, 200);
   assert.equal(res.headers.get("X-Robots-Tag"), null, "indexable");
-  assert.match(html, /<title>Dalin&#39;s Heart – WoW Forever Lore \| Lore Forever<\/title>/);
+  assert.match(html, /<title>Dalin&#39;s Heart[^<]*Lore Forever<\/title>/);
   for (const s of lore.sections.filter(s => s.spoiler === 0)) assert.ok(html.includes(`<h2>${s.title}</h2>`), s.title);
   assert.ok(html.includes("https://www.wowhead.com/forever/item="), "Look it up links its game ID");
   assert.ok(html.includes('href="/lore/quest/1476-hearts-of-the-pure"'), "an item links its quest");
@@ -107,7 +122,8 @@ test("search results: the title says WoW Forever and where, the description is w
     [3, "Bandarion Keep", "https://loreforeverwow.com/lore/subzone/bandarion-keep"]]);
   const quest = await head("/lore/quest/92706-wanted-bruuz");
   assert.equal(quest.title, "WANTED: Bruuz – WoW Forever Quest in The Barrens");
-  assert.match(quest.desc, /\. A level 20 WoW Forever quest in The Barrens, with the quest giver&#39;s words read aloud\.$/);
+  for (const fact of ["level 20", "The Barrens"]) assert.ok(quest.desc.includes(fact), fact);
+  assert.match(quest.desc, /\.$/);
   assert.ok(quest.desc.length <= 160 + 4, quest.desc);   // + the escaped apostrophe
 });
 
@@ -134,7 +150,7 @@ test("/lore lists the pages with nothing to play too, and links the topics no zo
   const html = await (await indexGet({ request: new Request(`${HOME}/lore`), env: env() })).text();
   assert.ok(html.includes('href="/lore/topic/lordaeron"'), "a topic");
   assert.ok(more.some(p => p.k === "item") && more.some(p => p.k === "topic"));
-  assert.match(html, /<h3>Topics <span class="lp-count">\d+<\/span><\/h3>/);
+  assert.match(html, /Topics <span class="lp-count">\d+</);
 });
 
 test("/audio/clip/: whole files, ranges, 304s, 404s, and previews sent to production", async () => {

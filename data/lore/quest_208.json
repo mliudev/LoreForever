@@ -1,0 +1,114 @@
+{
+ "key": "quest:208",
+ "type": "quest",
+ "name": "Big Game Hunter",
+ "era": "classic",
+ "zone": "stranglethorn",
+ "meta": {
+  "ids": [
+   208
+  ],
+  "level": "43",
+  "faction": "Neutral",
+  "start": "Hemet Nesingwary",
+  "end": "Hemet Nesingwary",
+  "previous": "Panther Mastery (4), Raptor Mastery (4), Tiger Mastery (4)",
+  "next": "",
+  "wiki": "Big Game Hunter (Classic)",
+  "chain": [],
+  "prev_q": [
+   "Panther Mastery (4)",
+   "Raptor Mastery (4)",
+   "Tiger Mastery (4)"
+  ],
+  "category": "Stranglethorn Vale",
+  "chain_tpl": [
+   "Big Game Hunter (Classic)"
+  ]
+ },
+ "summary": "Having proven skill across Stranglethorn Vale by hunting the region's deadliest predators, Hemet Nesingwary offers a final supreme challenge. The famed marksman asks for the head of King Bangalash, a great white tiger and the very reason Hemet is in the jungle at all.",
+ "sections": [
+  {
+   "title": "The Master's Quarry",
+   "body": "After completing the trials set by the expedition's huntsmen\u2014slaying Sin'Dall, Bhag'thera, and Tethis\u2014Hemet Nesingwary acknowledges your martial skill. According to the veteran marksman, who compares your prowess to the finest displays seen from Lordaeron's battlefields to the jungle depths, only one hunt remains to prove your abilities unmatched: felling King Bangalash, the grand white tiger that serves as the expedition leader's true target.",
+   "spoiler": 0
+  },
+  {
+   "title": "A Storied Beast",
+   "body": "Hemet reveals that King Bangalash is the reason he is in Stranglethorn Vale. The great beast has repeatedly driven the expedition leader himself back to camp in defeat. Presenting the beast's head would prove your hunting skill second to none.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who gives this hunt?",
+   "aliases": [
+    "quest giver",
+    "who starts big game hunter",
+    "hemet nesingwary quest"
+   ],
+   "answer": "Hemet Nesingwary himself gives this hunt at his expedition encampment in northern Stranglethorn Vale after you finish all prior hunting masteries."
+  },
+  {
+   "q": "What prerequisite hunts must be finished first?",
+   "aliases": [
+    "prerequisites",
+    "what quests come before big game hunter",
+    "bangalash requirements"
+   ],
+   "answer": "You must complete the entire hunting series for the camp: slaying Sin'Dall in Tiger Mastery, Bhag'thera in Panther Mastery, and Tethis in Raptor Mastery."
+  },
+  {
+   "q": "Why does Hemet Nesingwary want King Bangalash?",
+   "aliases": [
+    "why king bangalash",
+    "why hunt bangalash",
+    "bangalash lore"
+   ],
+   "answer": "King Bangalash is the entire reason Hemet traveled to Stranglethorn Vale. The great white tiger has eluded him repeatedly, driving the veteran marksman back to camp on multiple occasions."
+  },
+  {
+   "q": "What proof does Hemet require?",
+   "aliases": [
+    "what item do i need",
+    "bangalash objective",
+    "proof of kill"
+   ],
+   "answer": "Hemet requires the head of King Bangalash to verify that the great white tiger has truly been felled."
+  },
+  {
+   "q": "Where does Hemet say he has seen combat before?",
+   "aliases": [
+    "hemet war history",
+    "hemet past",
+    "lordaeron hunter"
+   ],
+   "answer": "Hemet does not tell of his own fights; he only compares your skill with weapons to what he has seen on the battlefields of Lordaeron and deep in the jungle, and says he has rarely seen better."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Hunter",
+   "text": "Hemet Nesingwary considers taking down King Bangalash the ultimate proof of tracking and hunting mastery."
+  }
+ ],
+ "keywords": [
+  "bangalash",
+  "bhag'thera",
+  "big game hunter",
+  "hemet nesingwary",
+  "sin'dall",
+  "stranglethorn vale",
+  "tethis",
+  "white tiger"
+ ],
+ "related": [
+  "quest:5762",
+  "zone:stranglethorn",
+  "topic:lordaeron",
+  "topic:hunter"
+ ],
+ "attribution": [
+  "Big Game Hunter (Classic)"
+ ]
+}

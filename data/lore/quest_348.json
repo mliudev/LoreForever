@@ -1,0 +1,97 @@
+{
+ "key": "quest:348",
+ "type": "quest",
+ "name": "Stranglethorn Fever",
+ "era": "classic",
+ "zone": "stranglethorn",
+ "meta": {
+  "ids": [
+   348
+  ],
+  "level": "45",
+  "faction": "Neutral",
+  "start": "Fin Fizracket",
+  "end": "Fin Fizracket",
+  "previous": "",
+  "next": "Stranglethorn Fever (Classic)",
+  "wiki": "Stranglethorn Fever",
+  "chain": [],
+  "category": "Cape of Stranglethorn",
+  "chain_tpl": [
+   "Scaring Shaky"
+  ],
+  "next_q": [
+   "Stranglethorn Fever (Classic)"
+  ]
+ },
+ "summary": "In Booty Bay, Fin Fizracket lies sick with Stranglethorn Fever, a deadly virus. He says the only cure is the heart of Mokk the Savage, an elusive white beast, and that he is dying.",
+ "sections": [
+  {
+   "title": "A Desperate Cure",
+   "body": "Fin Fizracket is stammering and fading, sure that he has caught Stranglethorn Fever. He says the only cure is to eat the heart of Mokk the Savage, an elusive white beast. Witch Doctor Unbagwa is the only one who can summon the creature, and Fin sends you to find Unbagwa in a hidden cave on the southern cape, the Spirit Den.",
+   "spoiler": 0
+  },
+  {
+   "title": "Back at Fin's Side",
+   "body": "Once the heart of Mokk is in Fin's hands, his strength begins to return. He wakes confused about where he is, and when he learns it is Booty Bay, he talks of a strange dream. Some of the weakness still lingers.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "What illness is Fin Fizracket suffering from?",
+   "aliases": [
+    "what disease does fin have",
+    "stranglethorn fever illness",
+    "fin fizracket sick"
+   ],
+   "answer": "Fin says he has Stranglethorn Fever, a deadly virus. It leaves him cold and delirious, and he believes he is dying."
+  },
+  {
+   "q": "What is required to cure the fever?",
+   "aliases": [
+    "how to cure stranglethorn fever",
+    "cure for fin fizracket",
+    "mokk heart cure"
+   ],
+   "answer": "Fin says the only cure is to eat the heart of Mokk the Savage, an elusive white beast."
+  },
+  {
+   "q": "Who is Witch Doctor Unbagwa?",
+   "aliases": [
+    "where is unbagwa",
+    "who can summon mokk",
+    "witch doctor unbagwa role"
+   ],
+   "answer": "Fin says Witch Doctor Unbagwa is the only one who can summon Mokk the Savage. He is found in a hidden cave on the southern cape, the Spirit Den in Stranglethorn Vale."
+  },
+  {
+   "q": "Where can Fin Fizracket be found?",
+   "aliases": [
+    "fin fizracket location",
+    "where is fin fizracket",
+    "booty bay fever guy"
+   ],
+   "answer": "Fin Fizracket is in Booty Bay."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "booty bay",
+  "fin fizracket",
+  "heart of mokk",
+  "mokk the savage",
+  "stranglethorn fever",
+  "stranglethorn vale",
+  "witch doctor unbagwa"
+ ],
+ "related": [
+  "quest:349",
+  "subzone:booty-bay",
+  "subzone:cape-of-stranglethorn",
+  "zone:stranglethorn"
+ ],
+ "attribution": [
+  "Wowpedia: Stranglethorn Fever"
+ ]
+}

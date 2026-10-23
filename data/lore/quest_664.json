@@ -1,0 +1,87 @@
+{
+ "key": "quest:664",
+ "type": "quest",
+ "name": "Drowned Sorrows",
+ "era": "classic",
+ "zone": "arathi",
+ "meta": {
+  "ids": [
+   664
+  ],
+  "level": "40",
+  "faction": null,
+  "start": "Captain Steelgut",
+  "end": "Captain Steelgut",
+  "previous": "",
+  "next": "",
+  "wiki": "Drowned Sorrows (Classic)",
+  "chain": [],
+  "category": "Arathi Highlands"
+ },
+ "summary": "Captain Steelgut sits mourning at Faldir's Cove after losing the beloved Maiden's Folly. Steelgut asks you to go after the Daggerspine naga who slaughtered the survivors of the wreck.",
+ "sections": [
+  {
+   "title": "A Captain by the Fire",
+   "body": "Captain Steelgut sits by the fire at Faldir's Cove, wishing for a watery grave instead. The crew fought hard to save the beautiful Maiden's Folly, but the sea sank it, with water rushing in all at once. O'Breen reached shore safely, yet naga killed the survivors. Steelgut wants Daggerspine raiders and sorceresses dead.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Captain Steelgut?",
+   "aliases": [
+    "captain steelgut",
+    "steelgut",
+    "who is the quest giver"
+   ],
+   "answer": "The captain of the Maiden's Folly, now sitting by a fire at Faldir's Cove after the ship was lost."
+  },
+  {
+   "q": "What happened to the Maiden's Folly?",
+   "aliases": [
+    "maidens folly",
+    "what happened to the ship",
+    "why did steelgut crash"
+   ],
+   "answer": "Steelgut says the sea sank the ship: one second it was afloat and the next water was rushing in, though the crew tried hard to save it."
+  },
+  {
+   "q": "Why does Captain Steelgut want the naga killed?",
+   "aliases": [
+    "why kill naga",
+    "steelgut revenge",
+    "daggerspine reason"
+   ],
+   "answer": "Naga killed the survivors of the wreck. Steelgut calls them scum and wants them dead."
+  },
+  {
+   "q": "Which naga does Steelgut want dead?",
+   "aliases": [
+    "which naga to kill",
+    "target naga",
+    "daggerspine targets"
+   ],
+   "answer": "Ten Daggerspine raiders and three Daggerspine sorceresses."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "arathi",
+  "daggerspine",
+  "faldir's cove",
+  "maiden's folly",
+  "naga",
+  "o'breen",
+  "raider",
+  "sorceress",
+  "steelgut"
+ ],
+ "related": [
+  "subzone:faldir-s-cove",
+  "topic:naga",
+  "zone:arathi"
+ ],
+ "attribution": [
+  "Drowned Sorrows (Classic)"
+ ]
+}

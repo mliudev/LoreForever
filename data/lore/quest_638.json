@@ -1,0 +1,110 @@
+{
+ "key": "quest:638",
+ "type": "quest",
+ "name": "Trollbane",
+ "era": "classic",
+ "zone": "stranglethorn",
+ "meta": {
+  "ids": [
+   638
+  ],
+  "level": "37",
+  "faction": "Horde",
+  "start": "Nimboya",
+  "end": "Zengu",
+  "previous": "",
+  "next": "Sigil of Strom (Classic)",
+  "wiki": "Trollbane (quest)",
+  "chain": [],
+  "next_q": [
+   "Sigil of Strom (Classic)"
+  ],
+  "category": "Stranglethorn Vale",
+  "chain_tpl": [
+   "Broken Sigil"
+  ]
+ },
+ "summary": "Vol'jin has ordered the Darkspear trolls to recover the ancient sword Trol'kalar from the ruined human kingdom of Stromgarde. With King Thoras Trollbane fallen, the blade is meant to serve the Horde in future conflicts against the trolls of Zul'Gurub.",
+ "sections": [
+  {
+   "title": "A King Fallen, A Blade Coveted",
+   "body": "Following the death of King Thoras Trollbane and the collapse of Stromgarde into ruin, Chieftain Vol'jin has ordered that every effort be made to spirit Trol'kalar away. This storied blade has long rested in human hands, but the Darkspear tribe hopes to claim it for the battles looming against the jungle trolls dwelling within Zul'Gurub.",
+   "spoiler": 0
+  },
+  {
+   "title": "Journey to Hammerfall",
+   "body": "To carry out Vol'jin's directive, a seasoned hunter named Zengu was sent to the Horde outpost of Hammerfall, situated in the northeastern reaches of the Arathi Highlands. Nimboya directs travelers from Stranglethorn Vale to seek out Zengu and assist in securing the legendary weapon.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Why does Vol'jin want the sword Trol'kalar?",
+   "aliases": [
+    "why trolkalar",
+    "why trollbane sword",
+    "purpose of trolkalar"
+   ],
+   "answer": "Vol'jin intends to use Trol'kalar in the coming battles against the hostile jungle trolls in Zul'Gurub."
+  },
+  {
+   "q": "Who is Zengu?",
+   "aliases": [
+    "who is zengu",
+    "zengu role",
+    "hunter zengu"
+   ],
+   "answer": "Zengu is an experienced hunter dispatched by the Darkspear to Hammerfall in the Arathi Highlands to oversee the recovery of Trol'kalar."
+  },
+  {
+   "q": "Where does this journey send you?",
+   "aliases": [
+    "where to go",
+    "quest destination",
+    "where is zengu"
+   ],
+   "answer": "The journey leads north out of Stranglethorn Vale to Hammerfall, an outpost in the northeastern Arathi Highlands."
+  },
+  {
+   "q": "What happened to Stromgarde?",
+   "aliases": [
+    "stromgarde status",
+    "what happened to thoras trollbane"
+   ],
+   "answer": "Stromgarde lies in ruins following the demise of its ruler, King Thoras Trollbane."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Troll",
+   "text": "Vol'jin specifically seeks Trol'kalar to arm the Darkspear against their ancient kin in Zul'Gurub."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "The Horde's hunter Zengu waits at Hammerfall to see the legendary sword taken from the humans."
+  }
+ ],
+ "keywords": [
+  "hammerfall",
+  "nimboya",
+  "stromgarde",
+  "trol'kalar",
+  "trollbane",
+  "vol'jin",
+  "zengu",
+  "zul'gurub"
+ ],
+ "related": [
+  "npc:vol-jin",
+  "subzone:hammerfall",
+  "zone:arathi",
+  "subzone:zul-gurub",
+  "zone:stranglethorn",
+  "topic:troll",
+  "topic:human",
+  "topic:hunter"
+ ],
+ "attribution": [
+  "Trollbane (quest)"
+ ]
+}

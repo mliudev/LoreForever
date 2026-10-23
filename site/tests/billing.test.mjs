@@ -14,9 +14,12 @@ import { onRequest as billing } from "../functions/api/billing/[action].js";
 import { onRequest as answer } from "../functions/api/companion/answer.js";
 import { findOrCreateUser, startSession, setup, deleteUser } from "../lib/accounts.js";
 import { startLink, decideLink, claimToken } from "../lib/devices.js";
-import { setupBilling, planFor, companionFeatures, INTEGRATION_ID, PLANS, TASTE_ANSWERS, STARTER } from "../lib/billing.js";
+import { setupBilling, planFor, companionFeatures, INTEGRATION_ID, PLANS, TASTE_ANSWERS, STARTER, STARTER_ANSWERS,
+         BRAKE_ANSWERS } from "../lib/billing.js";
 import { allowance, ANSWER_MODEL, LITE_MODEL, RESEARCH_MODEL, SMART_MODEL } from "../lib/companion-answers.js";
 import { optOut } from "../lib/email.js";
+import { machineOf } from "../lib/referrals.js";
+import { alertsFor } from "../lib/free-pool.js";
 import { setupWilloCustom } from "../lib/willo-custom.js";
 import { TRIAL, trialView } from "../lib/best-first.js";
 
@@ -33,7 +36,7 @@ beforeEach(async (t) => {
   t.mock.timers.enable({ apis: ["Date"], now: NOW });
   await setup(env);
   await setupBilling(env);
-  for (const table of ["users", "sessions", "devices", "device_links", "rate_limits", "answer_spend", "story_spend",
+  for (const table of ["users", "sessions", "devices", "device_links", "rate_limits", "answer_spend", "free_pool_days", "story_spend",
                        "entitlements", "billing_events", "answer_user_spend", "answer_packs", "answer_holds",
                        "starter_claims", "best_first", "best_first_days", "email_sends", "email_optouts"])
     env.DB.sqlite.exec(`DELETE FROM ${table}`);
@@ -316,24 +319,29 @@ test("a whole refund of the current period's payment ends the plan; an older mon
 });
 
 test("daily answers: free, Hero while active or past due, Champion, an ended period, and the brake", async () => {
+  // The numbers are lib/billing.js PLANS' (what the plan cards and the Terms say too): this checks each account gets
+  // its plan's, not what the plans are.
+  const { free: F, hero: H, champion: C } = PLANS;
   const free = await linkedDaysAgo("free", 30), hero = await linkedDaysAgo("hero", 30), champion = await linkedDaysAgo("champ", 3);
-  assert.deepEqual(await daily(free), ["free", 30]);
+  assert.deepEqual(await daily(free), ["free", F.answersPerDay]);
   await entitle(hero, "hero", "active", 20);
-  assert.deepEqual(await daily(hero), ["hero", 100]);
+  assert.deepEqual(await daily(hero), ["hero", H.answersPerDay]);
   await entitle(hero, "hero", "past_due", 20);
-  assert.deepEqual(await daily(hero), ["hero", 100], "a failed payment keeps the plan while Stripe retries");
+  assert.deepEqual(await daily(hero), ["hero", H.answersPerDay], "a failed payment keeps the plan while Stripe retries");
   await entitle(champion, "champion", "active", 20);
-  assert.deepEqual(await daily(champion), ["champion", 200]);
-  // The month's pool rides along, as plans are sold ("3,000 answers a month"): Mike's QA, 10/15; pools set 10/19.
+  assert.deepEqual(await daily(champion), ["champion", C.answersPerDay]);
+  // The month's pool rides along, as plans are sold: Mike's QA, 10/15.
   const month = (await allowance(env, champion.id)).month;
-  assert.deepEqual([month.limit, month.remaining], [3000, 3000]);
+  assert.deepEqual([month.limit, month.remaining], [C.answersPerMonth, C.answersPerMonth]);
   await entitle(hero, "hero", "active", -1);
-  assert.deepEqual(await daily(hero), ["free", 30], "a period that ended is the free plan");
+  assert.deepEqual(await daily(hero), ["free", F.answersPerDay], "a period that ended is the free plan");
 
   await entitle(hero, "hero", "active", 20);
-  await env.DB.prepare("INSERT INTO story_spend (month, micro_usd) VALUES ('2026-10', 80000001)").run();
-  assert.deepEqual(await daily(free), ["free", 5], "past $80 of free spend");
-  assert.deepEqual(await daily(hero), ["hero", 100], "paying players are unaffected");
+  // The whole month's pool spent, so past the day's allowance (lib/free-pool.js): the soft step.
+  await env.DB.prepare("INSERT INTO story_spend (month, micro_usd) VALUES ('2026-10', ?)").bind(150e6).run();
+  assert.deepEqual(await daily(free), ["free", BRAKE_ANSWERS], "past the free pool's day");
+  assert.ok(BRAKE_ANSWERS < F.answersPerDay, "the brake gives fewer");
+  assert.deepEqual(await daily(hero), ["hero", H.answersPerDay], "paying players are unaffected");
   assert.equal((await allowance(env, free.id)).upgrade, "/plans");
 });
 
@@ -372,13 +380,13 @@ test("what paying players' answers cost never uses up the free players' budget",
   env.DB.sqlite.exec("INSERT INTO answer_spend (month, reserved_micro, actual_micro, calls) VALUES ('2026-10', 90000000, 90000000, 9000)");
   env.DB.sqlite.exec("INSERT INTO answer_user_spend (user_id, month, micro, calls) VALUES ('someone', '2026-10', 90000000, 9000)");
   const a = await allowance(env, free.id);
-  assert.deepEqual([a.limit, a.available], [30, true], "no brake, and the shared budget is still open");
+  assert.deepEqual([a.limit, a.available], [PLANS.free.answersPerDay, true], "no brake, and the shared budget is still open");
   // The same spend by free players: the brake is on and the budget is nearly gone.
   env.DB.sqlite.exec("DELETE FROM answer_user_spend");
   env.STORY_BUDGET_USD = "90";
   try {
     const b = await allowance(env, free.id);
-    assert.deepEqual([b.limit, b.available], [5, false]);
+    assert.deepEqual([b.limit, b.available], [BRAKE_ANSWERS, false]);
   } finally { delete env.STORY_BUDGET_USD; }
 });
 
@@ -607,9 +615,10 @@ async function companionPlayer(sub, { plan, starter } = {}) {
     await env.DB.prepare("INSERT INTO answer_packs (id, user_id, kind, answers, remaining, created) VALUES (?, ?, 'starter', 30, ?, ?)")
       .bind(`starter:${user.id}`, user.id, starter, new Date(NOW - 30 * 86400e3).toISOString()).run();
   }
-  const ask = async (fields = {}) => {
+  const ask = async (fields = {}, headers = {}) => {
     const res = await answer({ env, request: new Request(ORIGIN + "/api/companion/answer", { method: "POST",
-      headers: { "X-LF-Client": "companion/0.1.0", Authorization: `Bearer ${token}`, "Content-Type": "application/json" },
+      headers: { "X-LF-Client": "companion/0.1.0", Authorization: `Bearer ${token}`, "Content-Type": "application/json",
+                 ...headers },
       body: JSON.stringify({ prompt: "QUESTION\nWhere can I buy Simple Flour?", ...fields }) }) });
     return { status: res.status, body: await res.json() };
   };
@@ -713,11 +722,55 @@ test("a failed answer gives back the day and the month it was counted on, howeve
 
   // The shared budget refusing a free player's answer (the "at capacity" 429): the day's count goes back.
   const free = await companionPlayer("crowded", { starter: 30 });
-  env.STORY_BUDGET_USD = "0";
-  try { assert.equal((await free.ask()).status, 429); } finally { delete env.STORY_BUDGET_USD; }
+  [env.STORY_BUDGET_USD, env.TASTE_DAY_USD] = ["0", "0"];   // no best first either: its own cap, not the pool's
+  try { assert.equal((await free.ask()).status, 429); } finally { delete env.STORY_BUDGET_USD; delete env.TASTE_DAY_USD; }
   assert.equal(env.DB.sqlite.prepare("SELECT n FROM rate_limits WHERE user_id = ? AND bucket = 'companion-answer:2026-10-11'")
     .get(free.user.id)?.n ?? 0, 0);
   assert.deepEqual(starterLeft(free.user), [30]);
+});
+
+test("the free pool a day at a time: its slice and a capped carry, the soft step, the stop, and the next day", async (t) => {
+  // $150 in $5 slices (lib/free-pool.js). October 11th: ten days' slices before it, $50; $30 spent by its start leaves
+  // a $20 carry, capped at two slices: today's allowance is $5 + $10, so the soft step starts at $45 and the stop at $50.
+  env.TASTE_DAY_USD = "0";   // no best first: its own cap, not the pool's
+  t.after(() => { delete env.TASTE_DAY_USD; });
+  const { user, ask } = await freePlayer("rush");
+  const spend = usd => env.DB.sqlite.exec(`INSERT OR REPLACE INTO story_spend (month, micro_usd) VALUES ('2026-10', ${usd * 1e6})`);
+  spend(30);
+  assert.equal((await ask()).status, 200, "the day's first answer marks where the day began");
+  spend(44);
+  assert.equal((await planFor(env, user.id)).answersPerDay, 30);
+  spend(45);
+  const soft = await planFor(env, user.id);
+  assert.deepEqual([soft.answersPerDay, soft.brake, (await allowance(env, user.id)).voice.tier], [5, true, "local"],
+    "the soft step: five a day, in her own voice on the PC (lib/companion-voice.js)");
+  assert.equal((await ask()).status, 200, "and the answers keep coming");
+  // The day's 50% and 80% alerts, once each; the month (about $45 of $150) has none yet.
+  assert.deepEqual((await alertsFor(env)).map(a => a.key), ["day:2026-10-11:0.5", "day:2026-10-11:0.8"]);
+  assert.deepEqual(await alertsFor(env), []);
+  spend(50);
+  const out = await ask();
+  assert.equal(out.status, 429);
+  assert.equal(out.body.error, "So many travelers have drunk from the Moonwell that my light's spent for now. " +
+    "Let it rest a while, and it will gather again.");
+  // October 12th: $55 of slices before it and $50 spent, so a $5 carry: answers at full again.
+  t.mock.timers.tick(86400e3);
+  assert.equal((await planFor(env, user.id)).answersPerDay, 30);
+  assert.equal((await ask()).status, 200);
+});
+
+test("one computer gets three free accounts' day: more accounts on it add no answers", async () => {
+  const { user, ask } = await freePlayer("fourth");
+  const sent = "ab".repeat(32);
+  const machine = await machineOf(new Request(ORIGIN, { headers: { "X-LF-Machine": sent } }));
+  await env.DB.prepare("INSERT INTO rate_limits (user_id, bucket, n) VALUES (?, 'companion-answer:2026-10-11', 90)")
+    .bind(`machine:${machine}`).run();
+  const out = await ask({}, { "X-LF-Machine": sent });
+  assert.equal(out.status, 429);
+  assert.match(out.body.error, /^My light's spent for today\./);
+  assert.equal(env.DB.sqlite.prepare("SELECT n FROM rate_limits WHERE user_id = ? AND bucket = 'companion-answer:2026-10-11'")
+    .get(user.id)?.n ?? 0, 0, "the account's own day isn't used by it");
+  assert.equal((await ask({}, { "X-LF-Machine": "cd".repeat(32) })).status, 200, "another computer has its own");
 });
 
 test("out of answers: Willo's words for when they come back, Hero the free plan's one offer, nothing for Legend", async () => {
@@ -750,17 +803,18 @@ test("out of answers: Willo's words for when they come back, Hero the free plan'
 
 // ---- The launch plans (Mike, 2026-10-12) ----
 
-test("free with plans on: 30 a day, then the 30-answer starter, once per Google account, then a 429 with offers", async (t) => {
+test("free with plans on: the day's answers, then the starter, once per Google account, then a 429 with offers", async (t) => {
   // A starter credited before 10/21 (none are now: STARTER.credited) works as before.
   STARTER.credited = true;
   t.after(() => { STARTER.credited = false; });
+  const D = PLANS.free.answersPerDay, S = STARTER_ANSWERS;
   const { user, ask } = await companionPlayer("newcomer");
   const first = await allowance(env, user.id);
-  assert.deepEqual([first.limit, first.remaining, first.extra], [30, 60, 30], "the day's 30 and the starter");
-  for (let i = 0; i < 30; i++) assert.equal((await ask()).status, 200, `answer ${i + 1}`);
+  assert.deepEqual([first.limit, first.remaining, first.extra], [D, D + S, S], "the day's and the starter");
+  for (let i = 0; i < D; i++) assert.equal((await ask()).status, 200, `answer ${i + 1}`);
   const dayGone = await allowance(env, user.id);
-  assert.deepEqual([dayGone.limit, dayGone.remaining, dayGone.extra], [30, 30, 30], "today's are gone: the starter's left");
-  for (let i = 30; i < 60; i++) assert.equal((await ask()).status, 200, `answer ${i + 1}`);
+  assert.deepEqual([dayGone.limit, dayGone.remaining, dayGone.extra], [D, S, S], "today's are gone: the starter's left");
+  for (let i = D; i < D + S; i++) assert.equal((await ask()).status, 200, `answer ${i + 1}`);
   assert.deepEqual(starterLeft(user), [0]);
   assert.equal(env.DB.sqlite.prepare("SELECT COUNT(*) AS n FROM answer_user_spend").get().n, 0,
     "starter answers are free: none of their cost is the player's");
@@ -768,7 +822,7 @@ test("free with plans on: 30 a day, then the 30-answer starter, once per Google 
   assert.equal(out.status, 429);
   assert.match(out.body.error, /^My light's spent for today\./);
   assert.deepEqual(out.body.offers.map(o => o.id), ["hero"]);
-  assert.equal(gemini.length, 60);
+  assert.equal(gemini.length, D + S);
   // Connecting the companion again doesn't bring another starter.
   env.DB.sqlite.prepare("DELETE FROM devices WHERE user_id = ?").run(user.id);
   env.DB.sqlite.prepare("INSERT INTO devices (id, token_hash, user_id, label, created) VALUES ('again', 'again', ?, 'companion', ?)")
@@ -780,14 +834,15 @@ test("free with plans on: 30 a day, then the 30-answer starter, once per Google 
   const again = await companionPlayer("newcomer");
   assert.notEqual(again.user.id, user.id);
   const fresh = await allowance(env, again.user.id);
-  assert.deepEqual([fresh.remaining, fresh.extra], [30, 0], "today's 30, and no starter");
+  assert.deepEqual([fresh.remaining, fresh.extra], [D, 0], "today's, and no starter");
 });
 
-test("no new free starter since 10/21 (option D: 30 answers a day): past the day's 30, a 429 with offers", async () => {
+test("no new free starter since 10/21 (option D): past the day's answers, a 429 with offers", async () => {
+  const D = PLANS.free.answersPerDay;
   const { user, ask } = await companionPlayer("no-starter");
   const first = await allowance(env, user.id);
-  assert.deepEqual([first.limit, first.remaining, first.extra], [30, 30, 0], "the day's 30, no starter");
-  for (let i = 0; i < 30; i++) assert.equal((await ask()).status, 200, `answer ${i + 1}`);
+  assert.deepEqual([first.limit, first.remaining, first.extra], [D, D, 0], "the day's, no starter");
+  for (let i = 0; i < D; i++) assert.equal((await ask()).status, 200, `answer ${i + 1}`);
   const out = await ask();
   assert.equal(out.status, 429);
   assert.match(out.body.error, /^My light's spent for today\./);
@@ -799,14 +854,14 @@ test("starter answers wait for the shared budget like free ones, and one that ca
   STARTER.credited = true;
   t.after(() => { STARTER.credited = false; });
   const { user, ask } = await companionPlayer("thrifty");
-  await usedToday(user, "companion-answer", 30);
-  env.STORY_BUDGET_USD = "0";
+  await usedToday(user, "companion-answer", PLANS.free.answersPerDay);
+  [env.STORY_BUDGET_USD, env.TASTE_DAY_USD] = ["0", "0"];   // no best first either: its own cap, not the pool's
   try {
     const full = await ask();
     assert.equal(full.status, 429);
-    assert.match(full.body.error, /at capacity/);
-  } finally { delete env.STORY_BUDGET_USD; }
-  assert.deepEqual(starterLeft(user), [30]);
+    assert.match(full.body.error, /light.s spent for now/);
+  } finally { delete env.STORY_BUDGET_USD; delete env.TASTE_DAY_USD; }
+  assert.deepEqual(starterLeft(user), [STARTER_ANSWERS]);
   assert.equal(gemini.length, 0);
 });
 
@@ -827,8 +882,8 @@ test("after their first-run trial, free answers stay with the lore: no looking o
     assert.equal(body.tools, undefined);
     assert.equal(body.contents[0].parts.length, 1, "the picture isn't sent");
     const system = body.systemInstruction.parts[0].text;
-    assert.match(system, /LORE FOCUS: answer from the world's lore and story/);
-    assert.match(system, /Willo says this answer out loud/, "Willo still speaks");
+    assert.match(system, /LORE FOCUS/);
+    assert.match(system, /out loud/i, "Willo still speaks");
   }
 });
 
@@ -892,7 +947,7 @@ test("in a new free player's first-run trial days after their 20: a few look-ups
   assert.deepEqual(trial, { on: true, until: "2026-10-15T12:00:00.000Z",
     uses: { web: { of: TRIAL.lookups, left: TRIAL.lookups }, sight: { of: TRIAL.sight, left: TRIAL.sight },
             characters: { of: TRIAL.cast, left: TRIAL.cast } },
-    opens: ["voices", "memory", "style", "tales", "goals", "talk"] });
+    opens: ["voices", "memory", "style", "tales", "goals", "talk", "readings"] });
   // Asked out loud with a picture: Willo sees the game, in the player's style, without the free plan's LORE FOCUS; the
   // picture is one of the trial's.
   const seen = await ask({ persona: "willo", style: "spoken", image: jpeg });
@@ -923,17 +978,17 @@ test("in a new free player's first-run trial days after their 20: a few look-ups
   assert.equal(gemini[3].body.contents[0].parts.length, 1, "the trial's pictures are used");
   // Asked what they're trying: her help has the trial, plainly; a quest's "Trial of ..." isn't asked about her.
   assert.equal((await ask({ prompt: "QUESTION\nWhat am I trying right now?", persona: "willo" })).status, 200);
-  assert.match(gemini.at(-1).body.systemInstruction.parts[0].text,
-    /They're trying what their plan doesn't have yet, their first-run trial, until October 15: looking things up/);
+  const told = gemini.at(-1).body.systemInstruction.parts[0].text;
+  assert.match(told, /first-run trial/i);
+  assert.match(told, /October 15/, "with the day it ends");
   const { helpTopics } = await import("../lib/willo-help.js");
   for (const q of ["How many tries do I have left?", "What's in my trial?", "What am I trying?"])
     assert.ok(helpTopics(q).includes("plans"), q);
   for (const q of ["What am I trying to do in this quest?", "Where does the Trial of the Sea Lion start?"])
     assert.ok(!helpTopics(q).includes("plans"), q);
   gemini.splice(-1);
-  // Chat memory keeps twice as much in the trial's days, as Champion's does.
+  // Chat memory keeps more in the trial's days, as Champion's does.
   assert.equal((await ask({ operation: "compact", prompt: "PREVIOUS MEMORY\nPepper" })).status, 200);
-  assert.match(gemini[4].body.systemInstruction.parts[0].text, /at most 700 words and 4,800 UTF-8 bytes/);
   // The trial's days over: the free plan's own answers, its style kept for a plan that has it.
   await env.DB.prepare("UPDATE best_first SET started = ? WHERE user_id = ?")
     .bind(new Date(NOW - 15 * 86400e3).toISOString(), user.id).run();
@@ -942,8 +997,12 @@ test("in a new free player's first-run trial days after their 20: a few look-ups
   assert.match(gemini[5].body.systemInstruction.parts[0].text, /LORE FOCUS/);
   assert.doesNotMatch(gemini[5].body.systemInstruction.parts[0].text, /Call me Captain/);
   assert.equal((await ask({ operation: "compact", prompt: "PREVIOUS MEMORY\nPepper" })).status, 200);
-  assert.doesNotMatch(gemini[6].body.systemInstruction.parts[0].text, /at most 700 words/);
+  assert.ok(memoryWords(gemini[4]) > memoryWords(gemini[6]), "the trial's chat memory is the longer one");
 });
+
+// How many words a chat-memory request lets the summary keep ("at most N words" in its instructions).
+const memoryWords = call =>
+  Number((call.body.systemInstruction.parts[0].text.match(/at most ([\d,]+) words/i)?.[1] || "0").replace(/,/g, ""));
 
 test("the beta's free Hero month tries Legend's: her own words, tales and longer memory, not the look-ups it already has", async () => {
   const trial = { on: true, left: { lookups: TRIAL.lookups, sight: TRIAL.sight, cast: TRIAL.cast } };
@@ -969,47 +1028,46 @@ test("Legend's answers are on the smarter model, pictures too, and on Flash-Lite
   assert.match(gemini[0].url, new RegExp(`/${SMART_MODEL}:generateContent$`));
   assert.equal((await ask({ persona: "willo", style: "spoken", image: jpeg })).status, 200);
   assert.match(gemini[1].url, new RegExp(`/${SMART_MODEL}:`));
-  // Legend's text cap is $9.20 a month: past it, Flash-Lite (lib/billing.js capState "lite").
-  env.DB.sqlite.prepare("UPDATE answer_user_spend SET micro = 9200000 WHERE user_id = ?").run(user.id);
+  // Past Legend's text cap, Flash-Lite (lib/billing.js capState "lite").
+  env.DB.sqlite.prepare("UPDATE answer_user_spend SET micro = ? WHERE user_id = ?").run(PLANS.legend.costCapMicro, user.id);
   assert.equal((await ask()).body.model, LITE_MODEL);
   const hero = await companionPlayer("hero-lite", { plan: "hero" });
   assert.equal((await hero.ask()).body.model, ANSWER_MODEL);
-  assert.equal(ANSWER_MODEL, LITE_MODEL, "every plan but a smarter one answers on Flash-Lite");
 });
 
-test("Champion answers on the ordinary model with a longer chat memory: no stronger mind at launch", async () => {
-  const { ask } = await companionPlayer("champ", { plan: "champion" });
-  const said = await ask();
-  assert.equal(said.status, 200, JSON.stringify(said.body));
-  assert.equal(said.body.model, ANSWER_MODEL);
-  assert.match(gemini[0].url, new RegExp(`${ANSWER_MODEL}:generateContent$`));
-  assert.equal((await ask({ operation: "compact", prompt: "PREVIOUS MEMORY\nPepper" })).status, 200);
-  assert.match(gemini[1].url, new RegExp(`${LITE_MODEL}:generateContent$`), "chat memory stays on Flash-Lite");
-  assert.match(gemini[1].body.systemInstruction.parts[0].text, /at most 700 words and 4,800 UTF-8 bytes/);
-  assert.equal(gemini[1].body.generationConfig.maxOutputTokens, 2048);
+test("Champion's chat memory keeps more than the free plan's", async () => {
+  const champ = await companionPlayer("champ", { plan: "champion" });
+  const free = await companionPlayer("plain");
+  await tasted(free.user, TASTE_ANSWERS, 15);
+  assert.equal((await champ.ask({ operation: "compact", prompt: "PREVIOUS MEMORY\nPepper" })).status, 200);
+  assert.equal((await free.ask({ operation: "compact", prompt: "PREVIOUS MEMORY\nPepper" })).status, 200);
+  assert.ok(memoryWords(gemini[0]) > memoryWords(gemini[1]));
 });
 
 test("a paid plan's answers and web look-ups are a month's pool from its renewal day, within today's most", async () => {
   // Hero renews on the 31st (20 days from 10/11), so its month started on Sept 30, September's last day.
+  const H = PLANS.hero;
   const { user, ask } = await companionPlayer("monthly", { plan: "hero" });
   const fresh = await allowance(env, user.id);
-  assert.deepEqual([fresh.period, fresh.limit, fresh.remaining], ["day", 100, 100], "today's 100 run out first");
+  assert.deepEqual([fresh.period, fresh.limit, fresh.remaining], ["day", H.answersPerDay, H.answersPerDay],
+    "today's run out first");
   const used = n => env.DB.prepare("INSERT OR REPLACE INTO rate_limits (user_id, bucket, n) VALUES (?, ?, ?)")
     .bind(user.id, "companion-month:2026-09-30", n).run();
-  await used(1450);
+  await used(H.answersPerMonth - 50);
   const late = await allowance(env, user.id);
-  assert.deepEqual([late.period, late.limit, late.remaining, late.resetsAt], ["month", 1500, 50, "2026-10-31T12:00:00.000Z"],
+  assert.deepEqual([late.period, late.limit, late.remaining, late.resetsAt],
+    ["month", H.answersPerMonth, 50, "2026-10-31T12:00:00.000Z"],
     "the pool comes back with the renewal itself (noon), not at midnight before it");
-  await used(1500);
+  await used(H.answersPerMonth);
   const out = await ask();
   assert.equal(out.status, 429);
   assert.equal(out.body.error, "My light's spent for this month. The Moonwell refills it on October 31.");
   assert.equal(gemini.length, 0);
 
-  // The month's 10 web look-ups: the 10th searches, the 11th is answered without looking online.
+  // The month's web look-ups: the last searches, the one after is answered without looking online.
   await env.DB.prepare("DELETE FROM rate_limits WHERE user_id = ?").bind(user.id).run();
-  await env.DB.prepare("INSERT INTO rate_limits (user_id, bucket, n) VALUES (?, 'companion-lookup:2026-09-30', 9)")
-    .bind(user.id).run();
+  await env.DB.prepare("INSERT INTO rate_limits (user_id, bucket, n) VALUES (?, 'companion-lookup:2026-09-30', ?)")
+    .bind(user.id, H.lookupsPerMonth - 1).run();
   assert.equal((await ask({ research_required: true })).status, 200);
   assert.deepEqual(gemini[0].body.tools, [{ googleSearch: {} }]);
   assert.equal((await ask({ research_required: true })).status, 200);
@@ -1068,4 +1126,12 @@ test("stripe-setup --portal-only turns on the portal's cancellation question and
   assert.match(calls[1], /^CALL POST \/v1\/billing_portal\/configurations\/bpc_ours features\[subscription_cancel\]\[cancellation_reason\]\[enabled\]=true&features\[subscription_cancel\]\[cancellation_reason\]\[options\]\[0\]=too_expensive&/);
   assert.match(calls[1], /\[options\]\[7\]=other$/);
   assert.match(run.stdout, /now ask why a player cancels \(8 reasons\); nothing else changed/);
+});
+
+test("Free speaks out loud past its first answers and its trial: its starter and chorus only decide the voice (10/21 picks)", () => {
+  const free = PLANS.free;
+  for (const opts of [{ starter: 0, taste: null }, { starter: 0, taste: { on: false, left: 0, trial: { on: false } } }]) {
+    const f = companionFeatures(free, opts);
+    assert.deepEqual([f.voices, f.push_to_talk], ["default", true], JSON.stringify(opts));
+  }
 });

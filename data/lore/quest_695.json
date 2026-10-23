@@ -1,0 +1,82 @@
+{
+ "key": "quest:695",
+ "type": "quest",
+ "name": "An Apprentice's Enchantment",
+ "era": "classic",
+ "zone": "arathi",
+ "meta": {
+  "ids": [
+   695
+  ],
+  "level": "39",
+  "faction": "Alliance",
+  "start": "Apprentice Kryten",
+  "end": "Skuerto",
+  "previous": "Trelane's Defenses (Classic)",
+  "next": "Attack on the Tower (Classic)",
+  "wiki": "An Apprentice's Enchantment",
+  "chain": [],
+  "prev_q": [
+   "Trelane's Defenses (Classic)"
+  ],
+  "next_q": [
+   "Attack on the Tower (Classic)"
+  ],
+  "category": "Arathi Highlands",
+  "chain_tpl": [
+   "Malin's Request"
+  ]
+ },
+ "summary": "Apprentice Kryten has enchanted the agate you brought him from the Boulderfist shaman. Touched to a pedestal at the foot of the tower, it will wake the tower's defenses. Before you leave, he sends you to Skuerto for the rest.",
+ "sections": [
+  {
+   "title": "A Key for the Tower",
+   "body": "Kryten hands you the enchanted gem. He explains that touching it to a pedestal at the foot of the tower will wake the tower's defenses, and that you should use it when you are ready to go in after the rest of Trelane's items. He will await your return at the camp. First, speak to Skuerto, who will fill in whatever else you need to know.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is the purpose of the enchanted agate?",
+   "aliases": [
+    "why do i need the agate",
+    "enchanted agate use",
+    "what does the gem do"
+   ],
+   "answer": "Touched to a pedestal at the foot of the tower, it wakes the tower's defenses. You use it when you are ready to go in after the rest of Trelane's items."
+  },
+  {
+   "q": "Who do you need to talk to before leaving camp?",
+   "aliases": [
+    "who do i talk to",
+    "where to go next",
+    "who is skuerto"
+   ],
+   "answer": "Skuerto. Kryten tells you to speak to him before you leave, as he will fill in whatever else you need to know."
+  },
+  {
+   "q": "Where will Kryten be?",
+   "aliases": [
+    "where is kryten",
+    "kryten waiting"
+   ],
+   "answer": "He will be awaiting your return at the camp."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "apprentice kryten",
+  "arathi highlands",
+  "enchanted agate",
+  "skuerto",
+  "tower",
+  "trelane"
+ ],
+ "related": [
+  "npc:skuerto",
+  "zone:arathi"
+ ],
+ "attribution": [
+  "An Apprentice's Enchantment"
+ ]
+}

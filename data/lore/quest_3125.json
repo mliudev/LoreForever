@@ -1,0 +1,106 @@
+{
+ "key": "quest:3125",
+ "type": "quest",
+ "name": "Faerie Dragon Muisek",
+ "era": "classic",
+ "zone": "feralas",
+ "meta": {
+  "ids": [
+   3125
+  ],
+  "level": "45",
+  "start": "Witch Doctor Uzer'i",
+  "end": "Witch Doctor Uzer'i",
+  "previous": "Hippogryph Muisek (Classic)",
+  "next": "Treant Muisek",
+  "prev_q": [
+   "Hippogryph Muisek (Classic)"
+  ],
+  "next_q": [
+   "Treant Muisek"
+  ],
+  "wiki": null
+ },
+ "summary": "After the hippogryph spirits, Witch Doctor Uzer'i wants the spirit of a faerie dragon next. You are sent west to hunt sprite darters and sprite dragons and capture what makes them strong.",
+ "sections": [
+  {
+   "title": "Fragile Looks, Strong Spirit",
+   "body": "Uzer'i points out that faerie dragons seem delicate, yet their spirit is the real prize. They have been allies to the night elves, and Uzer'i wants the Horde to share in that strength. Uzer'i gives you a Muisek Vessel and sends you west to slay eight sprite darters or sprite dragons, then shrink and capture each fallen faerie dragon with it.",
+   "spoiler": 0
+  },
+  {
+   "title": "Back at Uzer'i's Side",
+   "body": "When you return with the captured spirits, Uzer'i thanks you and says the faerie dragons' spiritual power is now there for the Horde to draw on. Uzer'i also hopes you will agree to one more job.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Why does Witch Doctor Uzer'i want faerie dragon spirits?",
+   "aliases": [
+    "why faerie dragons",
+    "faerie dragon muisek purpose",
+    "why kill sprite darters"
+   ],
+   "answer": "Uzer'i says faerie dragons look fragile but hold a powerful spirit, and that they have been allies to the night elves. Uzer'i wants the Horde to benefit from that strength as well."
+  },
+  {
+   "q": "Where can the faerie dragons be found?",
+   "aliases": [
+    "where are sprite darters",
+    "sprite darter location",
+    "faerie dragon location feralas"
+   ],
+   "answer": "Uzer'i says they lie west of where Uzer'i stands."
+  },
+  {
+   "q": "What creatures provide this muisek?",
+   "aliases": [
+    "which mobs for muisek",
+    "what do i kill for faerie dragon muisek",
+    "faerie dragon muisek targets"
+   ],
+   "answer": "Sprite darters and sprite dragons. Eight of them need to be killed and captured."
+  },
+  {
+   "q": "What must be done to the fallen creatures?",
+   "aliases": [
+    "how to get faerie dragon muisek",
+    "how does muisek vessel work",
+    "capturing muisek"
+   ],
+   "answer": "The Muisek Vessel is used on each fallen faerie dragon to shrink it and capture its muisek."
+  },
+  {
+   "q": "Where does this step fit among Uzer'i's requests?",
+   "aliases": [
+    "what quest comes before this",
+    "muisek chain order",
+    "what is next after faerie dragon muisek"
+   ],
+   "answer": "It comes after Hippogryph Muisek, and Treant Muisek is the step that follows it."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "faerie dragon muisek",
+  "feralas",
+  "hippogryph muisek",
+  "horde",
+  "muisek vessel",
+  "sprite darter",
+  "sprite dragon",
+  "treant muisek",
+  "witch doctor uzer'i"
+ ],
+ "related": [
+  "npc:witch-doctor-uzer-i",
+  "quest:3126",
+  "npc:sprite-darter",
+  "topic:horde",
+  "zone:feralas"
+ ],
+ "attribution": [
+  "Classic quest text: Faerie Dragon Muisek"
+ ]
+}

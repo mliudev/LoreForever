@@ -1,0 +1,118 @@
+{
+ "key": "quest:2993",
+ "type": "quest",
+ "name": "Return to the Hinterlands",
+ "era": "classic",
+ "zone": "hinterlands",
+ "meta": {
+  "ids": [
+   2993
+  ],
+  "level": "47",
+  "faction": "Alliance",
+  "start": "Thadius Grimshade",
+  "end": "Gryphon Master Talonaxe",
+  "previous": "The Divination",
+  "next": "Saving Sharpbeak",
+  "wiki": "Return to the Hinterlands",
+  "chain": [
+   "Witherbark Cages",
+   "The Altar of Zul (quest)",
+   "Thadius Grimshade (quest)",
+   "Nekrum's Medallion (quest)",
+   "The Divination",
+   "Return to the Hinterlands",
+   "Saving Sharpbeak"
+  ],
+  "prev_q": [
+   "The Divination"
+  ],
+  "next_q": [
+   "Saving Sharpbeak"
+  ],
+  "category": "Hinterlands"
+ },
+ "summary": "Thadius Grimshade tells you where Sharpbeak is kept: in a cage on a high cliff, atop Jintha'Alor in the Hinterlands. Vile Priestess Hexx, high priestess of the Vilebranch trolls, has the key. You are to carry the news to Gryphon Master Talonaxe.",
+ "sections": [
+  {
+   "title": "Where Sharpbeak Is Held",
+   "body": "Having done his part, Thadius wishes you fortune and tells you what he learned. Sharpbeak sits caged on a high cliff, atop Jintha'Alor in the Hinterlands. Vile Priestess Hexx, high priestess of the Vilebranch trolls, possesses the key to that cage. Take word of this to Gryphon Master Talonaxe.",
+   "spoiler": 0
+  },
+  {
+   "title": "Talonaxe's Answer",
+   "body": "Talonaxe asks what Thadius said. Told that the Vilebranch trolls have Sharpbeak, Talonaxe finds it unbearable and declares that a force must be organized to get the gryphon back.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who reveals the location of Sharpbeak?",
+   "aliases": [
+    "who tells you where sharpbeak is",
+    "sharpbeak location source",
+    "who finds sharpbeak"
+   ],
+   "answer": "Thadius Grimshade, who performed the ritual of divination and then told you where Sharpbeak is held."
+  },
+  {
+   "q": "Where is Sharpbeak being held?",
+   "aliases": [
+    "where is sharpbeak",
+    "sharpbeak cage location",
+    "sharpbeak cliff"
+   ],
+   "answer": "Sharpbeak is caged on a high cliff, atop Jintha'Alor in the Hinterlands."
+  },
+  {
+   "q": "Who holds the key to Sharpbeak's cage?",
+   "aliases": [
+    "sharpbeak key",
+    "who has cage key",
+    "vile priestess hexx key"
+   ],
+   "answer": "Vile Priestess Hexx, high priestess of the Vilebranch trolls, holds the key."
+  },
+  {
+   "q": "Where do you deliver this news?",
+   "aliases": [
+    "who do i return to",
+    "where to turn in return to the hinterlands",
+    "gryphon master talonaxe location"
+   ],
+   "answer": "Take it to Gryphon Master Talonaxe in the Hinterlands."
+  },
+  {
+   "q": "What came before this journey?",
+   "aliases": [
+    "previous quest",
+    "what led to return to the hinterlands",
+    "preceding step"
+   ],
+   "answer": "Thadius Grimshade had just performed the ritual of divination to find Sharpbeak."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "gryphon master talonaxe",
+  "hinterlands",
+  "jintha'alor",
+  "sharpbeak",
+  "thadius grimshade",
+  "vile priestess hexx",
+  "vilebranch"
+ ],
+ "related": [
+  "quest:2992",
+  "quest:2994",
+  "npc:thadius-grimshade",
+  "quest:1450",
+  "zone:hinterlands",
+  "topic:troll",
+  "quest:2989",
+  "quest:2988"
+ ],
+ "attribution": [
+  "Return to the Hinterlands"
+ ]
+}

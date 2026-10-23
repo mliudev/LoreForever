@@ -1,0 +1,94 @@
+{
+ "key": "quest:625",
+ "type": "quest",
+ "name": "Cortello's Riddle",
+ "era": "classic",
+ "zone": "stranglethorn",
+ "meta": {
+  "ids": [
+   625
+  ],
+  "level": "43",
+  "faction": "Neutral",
+  "start": "A Soggy Scroll",
+  "end": "Musty Scroll",
+  "previous": "Cortello's Riddle (quest)",
+  "next": "Cortello's Riddle (3)",
+  "wiki": "Cortello's Riddle (2)",
+  "chain": [],
+  "prev_q": [
+   "Cortello's Riddle (quest)"
+  ],
+  "next_q": [
+   "Cortello's Riddle (3)"
+  ],
+  "category": "Stranglethorn Vale",
+  "chain_tpl": [
+   "Cortello's Riddle"
+  ]
+ },
+ "summary": "Following the trail begun with a waterlogged parchment found in the Swamp of Sorrows, a second cryptic verse urges travelers to a far-off land in Kalimdor. Deciphering the lines points treasure hunters toward a cave in the southwest of Dustwallow Marsh.",
+ "sections": [
+  {
+   "title": "A Verse Pointing Across the Sea",
+   "body": "The second verse left by Cortello directs searchers toward the far-off land of Kalimdor. The rhyme describes a perilous and gloomy territory situated east of the Barrens: the sodden, treacherous wetlands of Dustwallow Marsh.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Southwest Cavern",
+   "body": "According to the riddle, a clue waits to be found in a cave in the southwest of the marsh.",
+   "spoiler": 0
+  },
+  {
+   "title": "Where the Verse Leads",
+   "body": "The cave in the southwest of the marsh is Bloodfen Burrow, where a musty scroll waits to be found.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Where does this riddle send travelers?",
+   "aliases": [
+    "where to go cortellos riddle",
+    "cortello part 2 location",
+    "where is the second riddle clue"
+   ],
+   "answer": "The verse sends searchers to Kalimdor, specifically to Dustwallow Marsh, which lies east of the Barrens."
+  },
+  {
+   "q": "Where in Dustwallow Marsh is the clue hidden?",
+   "aliases": [
+    "where is the cave in dustwallow",
+    "dustwallow riddle cave",
+    "bloodfen burrow riddle"
+   ],
+   "answer": "The verse places the clue in a cave in the southwest of the marsh."
+  },
+  {
+   "q": "What item initiates this step of the trail?",
+   "aliases": [
+    "how does this quest start",
+    "what starts cortellos riddle 2"
+   ],
+   "answer": "This step begins with a soggy scroll found at the end of the first riddle's trail, in the Swamp of Sorrows."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "bloodfen burrow",
+  "cortello",
+  "cortello's riddle",
+  "dustwallow marsh",
+  "musty scroll",
+  "soggy scroll",
+  "stranglethorn vale"
+ ],
+ "related": [
+  "zone:dustwallow",
+  "subzone:bloodfen-burrow",
+  "zone:stranglethorn"
+ ],
+ "attribution": [
+  "Cortello's Riddle (2)"
+ ]
+}

@@ -1,0 +1,83 @@
+{
+ "key": "quest:1203",
+ "type": "quest",
+ "name": "Jarl Needs a Blade",
+ "era": "classic",
+ "zone": "dustwallow",
+ "meta": {
+  "ids": [
+   1203
+  ],
+  "level": "35",
+  "faction": null,
+  "start": "\"Swamp Eye\" Jarl",
+  "end": "\"Swamp Eye\" Jarl",
+  "previous": "",
+  "next": "",
+  "wiki": "Jarl Needs a Blade (Classic)",
+  "chain": [],
+  "category": "Dustwallow Marsh",
+  "chain_tpl": [
+   "Marsh Frog Legs"
+  ]
+ },
+ "summary": "\"Swamp Eye\" Jarl, in Dustwallow Marsh, has cutting to do and will not say what. Jarl wants a certain blade, a moonsteel broadsword, and does not want you to dawdle.",
+ "sections": [
+  {
+   "title": "A Certain Blade",
+   "body": "\"Swamp Eye\" Jarl has cutting to do, and cannot say what is to be cut. Jarl needs a particular blade, which some call a moonsteel broadsword and Jarl calls a swing blade. You might find one in town, or a blacksmith might make one special. Jarl warns you not to sleep on it, since what is to be cut will not keep forever.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is asking for the blade?",
+   "aliases": [
+    "who gives jarl needs a blade",
+    "who is jarl",
+    "swamp eye jarl"
+   ],
+   "answer": "\"Swamp Eye\" Jarl, who is found in Dustwallow Marsh."
+  },
+  {
+   "q": "What weapon does Jarl require?",
+   "aliases": [
+    "what sword does jarl want",
+    "jarl weapon",
+    "which blade does jarl need"
+   ],
+   "answer": "A moonsteel broadsword, which Jarl calls a swing blade."
+  },
+  {
+   "q": "Why does Jarl need a blade so urgently?",
+   "aliases": [
+    "why does jarl need a blade",
+    "what is jarl cutting",
+    "jarl purpose"
+   ],
+   "answer": "Jarl has cutting to do, cannot say what is to be cut, and warns that it will not keep forever."
+  },
+  {
+   "q": "Where does Jarl suggest finding the sword?",
+   "aliases": [
+    "how to get moonsteel broadsword for jarl",
+    "where to find blade for jarl"
+   ],
+   "answer": "Jarl says you might find one in town, or talk to a blacksmith who can make it special."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "dustwallow marsh",
+  "jarl",
+  "moonsteel broadsword",
+  "swamp eye jarl",
+  "swing blade"
+ ],
+ "related": [
+  "zone:dustwallow"
+ ],
+ "attribution": [
+  "Jarl Needs a Blade (Classic)"
+ ]
+}

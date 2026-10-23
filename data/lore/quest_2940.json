@@ -1,0 +1,90 @@
+{
+ "key": "quest:2940",
+ "type": "quest",
+ "name": "Feralas: A History",
+ "era": "classic",
+ "zone": "feralas",
+ "meta": {
+  "ids": [
+   2940
+  ],
+  "level": "47",
+  "faction": "Alliance",
+  "start": "Feralas: A History",
+  "end": "Daryn Lightwind",
+  "previous": "In Search of Knowledge",
+  "next": "The Borrower",
+  "wiki": "Feralas: A History (quest)",
+  "chain": [],
+  "prev_q": [
+   "In Search of Knowledge"
+  ],
+  "next_q": [
+   "The Borrower"
+  ],
+  "category": "Feralas",
+  "chain_tpl": [
+   "In Search of Knowledge"
+  ]
+ },
+ "summary": "You find a book that looks as if nobody has opened it in ages, and it may be exactly what Troyas needs. It belongs to Daryn Lightwind, so you need to ask whether you may borrow it.",
+ "sections": [
+  {
+   "title": "A Neglected Book",
+   "body": "The book's covers are badly worn and its pages have yellowed. After looking it over, you suspect it may be what Troyas is searching for. You pick it up, then think better of borrowing it without asking. It is Daryn Lightwind's, so she should be asked first.",
+   "spoiler": 0
+  },
+  {
+   "title": "Daryn's Answer",
+   "body": "Daryn Lightwind takes a moment to think it over. She will let you borrow Feralas: A History, though only after you have done a favor for her.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is the book Feralas: A History?",
+   "aliases": [
+    "what is the book",
+    "feralas a history book",
+    "troyas book"
+   ],
+   "answer": "A book with worn covers and yellowed pages, which looks as if it has not been opened for ages. It may be exactly what Troyas is searching for."
+  },
+  {
+   "q": "Who owns the book?",
+   "aliases": [
+    "who owns feralas a history",
+    "who has the book",
+    "who is daryn lightwind"
+   ],
+   "answer": "Daryn Lightwind. You should ask her before borrowing it."
+  },
+  {
+   "q": "What comes before this?",
+   "aliases": [
+    "previous quest",
+    "what was the last quest",
+    "chain before this"
+   ],
+   "answer": "It follows In Search of Knowledge, in which Troyas Moonbreeze sent you to talk to Daryn Lightwind about his stave."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "book",
+  "daryn lightwind",
+  "feralas",
+  "history",
+  "in search of knowledge",
+  "lore",
+  "troyas"
+ ],
+ "related": [
+  "quest:2939",
+  "quest:2941",
+  "zone:feralas"
+ ],
+ "attribution": [
+  "Feralas: A History (quest)"
+ ]
+}

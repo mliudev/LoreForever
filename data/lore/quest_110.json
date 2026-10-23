@@ -1,0 +1,97 @@
+{
+ "key": "quest:110",
+ "type": "quest",
+ "name": "Insect Part Analysis",
+ "era": "classic",
+ "zone": "tanaris",
+ "meta": {
+  "ids": [
+   110
+  ],
+  "level": "48",
+  "faction": null,
+  "start": "Senior Surveyor Fizzledowser",
+  "end": "Alchemist Pestlezugg",
+  "previous": "The Scrimshank Redemption",
+  "next": "Insect Part Analysis (2)",
+  "wiki": "Insect Part Analysis",
+  "chain": [],
+  "prev_q": [
+   "The Scrimshank Redemption"
+  ],
+  "next_q": [
+   "Insect Part Analysis (2)"
+  ],
+  "category": "Tanaris",
+  "chain_tpl": [
+   "Rise of the Silithid"
+  ]
+ },
+ "summary": "With Scrimshank lost, Senior Surveyor Fizzledowser sets about going over the surveying gear and putting Scrimshank's personal effects in order, and asks you to call on Alchemist Pestlezugg in Gadgetzan about the insect parts.",
+ "sections": [
+  {
+   "title": "A Check-In at Gadgetzan",
+   "body": "Fizzledowser means to spend some time with Scrimshank's surveying gear and personal effects, and has a sneaking feeling that these bugs will claim more losses. You are asked to call on Alchemist Pestlezugg in Gadgetzan and learn whether the insect parts the surveyors sent have been processed yet. If they are ready, Fizzledowser wants them brought back.",
+   "spoiler": 0
+  },
+  {
+   "title": "What Pestlezugg Found",
+   "body": "Pestlezugg has the results, and they are unsettling. The first suspicion, that an outside force is controlling the bugs, is believed to be correct. That means a very powerful unknown force, and a malignant one. The bugs have been changed into pure ravagers, and Pestlezugg has never seen anything quite like it.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who sends you to consult Alchemist Pestlezugg?",
+   "aliases": [
+    "quest giver",
+    "who starts insect part analysis",
+    "fizzledowser location"
+   ],
+   "answer": "Senior Surveyor Fizzledowser, who is going over Scrimshank's gear and putting Scrimshank's belongings in order."
+  },
+  {
+   "q": "Where is Alchemist Pestlezugg located?",
+   "aliases": [
+    "where is pestlezugg",
+    "pestlezugg location",
+    "pestlezugg town"
+   ],
+   "answer": "In Gadgetzan, where you are to check in about the insect parts."
+  },
+  {
+   "q": "What came directly before this step?",
+   "aliases": [
+    "prerequisite quest",
+    "what quest comes first",
+    "previous step"
+   ],
+   "answer": "It follows The Scrimshank Redemption."
+  },
+  {
+   "q": "What are you sent to find out?",
+   "aliases": [
+    "what does pestlezugg have"
+   ],
+   "answer": "Whether Pestlezugg has finished going through the insect parts the surveyors sent. If they are ready, they are to be brought to Fizzledowser."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "fizzledowser",
+  "gadgetzan",
+  "insect part analysis",
+  "pestlezugg",
+  "scrimshank",
+  "tanaris"
+ ],
+ "related": [
+  "quest:10",
+  "quest:113",
+  "subzone:gadgetzan",
+  "zone:tanaris"
+ ],
+ "attribution": [
+  "Insect Part Analysis"
+ ]
+}

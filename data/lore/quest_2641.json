@@ -1,0 +1,107 @@
+{
+ "key": "quest:2641",
+ "type": "quest",
+ "name": "Sprinkle's Secret Ingredient",
+ "era": "classic",
+ "zone": "tanaris",
+ "meta": {
+  "ids": [
+   2641
+  ],
+  "level": "49",
+  "faction": null,
+  "start": "Sprinkle",
+  "end": "Sprinkle",
+  "previous": "In Good Taste",
+  "next": "Delivery for Marin",
+  "wiki": "Sprinkle's Secret Ingredient",
+  "chain": [
+   "The Thirsty Goblin",
+   "In Good Taste",
+   "Sprinkle's Secret Ingredient",
+   "Delivery for Marin",
+   "Noggenfogger Elixir (quest)"
+  ],
+  "prev_q": [
+   "In Good Taste"
+  ],
+  "next_q": [
+   "Delivery for Marin"
+  ],
+  "category": "Tanaris"
+ },
+ "summary": "After Marin Noggenfogger's brew turns out foul, Sprinkle in Gadgetzan offers to make it edible with her secret ingredient, a mushroom called the Violet Tragan. It grows underwater in a small lake in the Hinterlands.",
+ "sections": [
+  {
+   "title": "A Cook's Secret",
+   "body": "Sprinkle tells of her childhood, when her sister did all the cooking and the results were hard to stomach. Then she found a mushroom, the Violet Tragan, her \"secret\" ingredient, and it made every dish taste wonderful. She will use it to help turn Marin's horrid brew into something drinkable.",
+   "spoiler": 0
+  },
+  {
+   "title": "Under the Water",
+   "body": "The mushroom is found in the Hinterlands, in a small lake there. Valorwind Lake lies just south of the road that crosses the zone. The Violet Tragan grows only underwater, so you will have to dive beneath the surface to gather it before returning to Sprinkle in Gadgetzan.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Sprinkle?",
+   "aliases": [
+    "who is sprinkle",
+    "sprinkle gadgetzan",
+    "sprinkles secret ingredient quest giver"
+   ],
+   "answer": "Sprinkle is a cook in Gadgetzan and a friend of Marin Noggenfogger, who sent you to her with a bad-tasting brew."
+  },
+  {
+   "q": "What is the Violet Tragan?",
+   "aliases": [
+    "violet tragan",
+    "what is violet tragan",
+    "secret ingredient mushroom"
+   ],
+   "answer": "It is a mushroom Sprinkle found as a child and calls her secret ingredient. She says it makes anything taste great."
+  },
+  {
+   "q": "Where can the Violet Tragan be found?",
+   "aliases": [
+    "where is violet tragan",
+    "where to find secret ingredient",
+    "violet tragan location"
+   ],
+   "answer": "Only underwater, in a small lake in the Hinterlands. Valorwind Lake lies just south of the road across the zone."
+  },
+  {
+   "q": "How does this connect to Marin Noggenfogger?",
+   "aliases": [
+    "why does sprinkle need this",
+    "marin noggenfogger connection",
+    "noggenfogger questline"
+   ],
+   "answer": "Marin's brew tasted terrible, so Sprinkle wants the Violet Tragan to turn it into something edible."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "gadgetzan",
+  "hinterlands",
+  "mushroom",
+  "noggenfogger",
+  "sprinkle",
+  "tanaris",
+  "violet tragan"
+ ],
+ "related": [
+  "quest:2606",
+  "quest:2661",
+  "quest:2605",
+  "quest:2662",
+  "subzone:gadgetzan",
+  "zone:tanaris",
+  "zone:hinterlands",
+  "topic:goblin"
+ ],
+ "attribution": [
+  "Sprinkle's Secret Ingredient"
+ ]
+}

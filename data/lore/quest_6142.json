@@ -1,0 +1,87 @@
+{
+ "key": "quest:6142",
+ "type": "quest",
+ "name": "Clam Bait",
+ "era": "classic",
+ "zone": "desolace",
+ "meta": {
+  "ids": [
+   6142
+  ],
+  "level": "35",
+  "faction": "Horde",
+  "start": "Mai'Lahii",
+  "end": "Mai'Lahii",
+  "previous": "",
+  "next": "",
+  "wiki": "Clam Bait",
+  "chain": [],
+  "category": "Desolace"
+ },
+ "summary": "Mai'Lahii at Shadowprey Village has fished all his life and says the best bait is soft-shelled clam meat, which no fish can resist. He wants ten pieces, to be found around a wrecked ship up the coast to the north.",
+ "sections": [
+  {
+   "title": "The Best Bait",
+   "body": "Mai'Lahii has fished all his life, and he swears by soft-shelled clam meat as bait, since the fish cannot resist it. To the north, off the coast, lies a wrecked ship, and soft-shelled clams are scattered throughout that area. He asks for ten pieces of the meat.",
+   "spoiler": 0
+  },
+  {
+   "title": "What Mai'Lahii Says",
+   "body": "Mai'Lahii says the witch doctor gave him exactly this advice for his headache: go fish, and he will feel better. He feels better already.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Mai'Lahii?",
+   "aliases": [
+    "mailahii",
+    "who asks for clam bait",
+    "fisherman in shadowprey"
+   ],
+   "answer": "Mai'Lahii is a fisherman in Shadowprey Village on the Desolace coast. He has fished all his life."
+  },
+  {
+   "q": "Where can the soft-shelled clams be found?",
+   "aliases": [
+    "clam bait location",
+    "where is the shipwreck",
+    "soft-shelled clam meat location"
+   ],
+   "answer": "North of Shadowprey Village, around the wreck of a ship lying off the coast, where soft-shelled clams are scattered."
+  },
+  {
+   "q": "Why does Mai'Lahii want clam meat?",
+   "aliases": [
+    "why clam bait",
+    "why clam meat"
+   ],
+   "answer": "He says soft-shelled clam meat is the best bait there is, and the fish cannot resist it."
+  },
+  {
+   "q": "How much clam meat does Mai'Lahii want?",
+   "aliases": [
+    "how many clams",
+    "clam meat amount"
+   ],
+   "answer": "Ten pieces of the clam meat."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "clam bait",
+  "desolace",
+  "fishing bait",
+  "mai'lahii",
+  "shadowprey village",
+  "shipwreck",
+  "soft-shelled clam"
+ ],
+ "related": [
+  "subzone:shadowprey-village",
+  "zone:desolace"
+ ],
+ "attribution": [
+  "Clam Bait"
+ ]
+}

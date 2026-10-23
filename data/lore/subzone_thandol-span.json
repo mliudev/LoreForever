@@ -10,14 +10,14 @@
  "summary": "The Thandol Span is a pair of colossal dwarven stone bridges connecting the Wetlands of Khaz Modan with the Arathi Highlands of southern Lordaeron. Long celebrated as a marvel of engineering and the vital artery between the northern and southern kingdoms, it is currently in a state of disaster following a sabotage attack by Dark Iron infiltrators.",
  "sections": [
   {
-   "title": "A Lifeline Severed",
-   "body": "Constructed following the War of the Three Hammers to bridge Ironforge with the Wildhammer clan of the Aerie Peak, the Thandol Span stands among the grandest stonecraft feats of dwarven history. Capable of supporting entire marching armies, it served as the critical land corridor between Lordaeron and Khaz Modan throughout the Second War, notably carrying Sir Anduin Lothar's counter-offensive southward. Today, the crossing is grievously wounded. Dark Iron saboteurs led by Balgaras the Foul and Kam Deepfury mounted a devastating assault from nearby Dun Modr, shattering one span entirely with explosives and threatening to sever overland travel between the allied realms completely.",
-   "spoiler": 0
-  },
-  {
    "title": "The Fight for the Crossing",
    "body": "The surviving bridge remains contested and heavily guarded. Mountaineers from Ironforge fight desperately to preserve the remaining roadway and repel Dark Iron sappers, suffering painful losses in the process. The loss of the bridge would leave northern trade and military movements almost entirely reliant on maritime routes, cutting off Alliance forces stationed across the Arathi Highlands from immediate reinforcement.",
    "spoiler": 0
+  },
+  {
+   "title": "A Lifeline Severed",
+   "body": "Constructed following the War of the Three Hammers to bridge Ironforge with the Wildhammer clan of the Aerie Peak, the Thandol Span stands among the grandest stonecraft feats of dwarven history. Capable of supporting entire marching armies, it served as the critical land corridor between Lordaeron and Khaz Modan throughout the Second War, notably carrying Sir Anduin Lothar's counter-offensive southward. Today, the crossing is grievously wounded. Dark Iron saboteurs led by Balgaras the Foul and Kam Deepfury mounted a devastating assault from nearby Dun Modr, shattering one span entirely with explosives and threatening to sever overland travel between the allied realms completely.",
+   "spoiler": 1
   }
  ],
  "faq": [

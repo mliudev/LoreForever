@@ -1,0 +1,100 @@
+{
+ "key": "quest:328",
+ "type": "quest",
+ "name": "The Hidden Key",
+ "era": "classic",
+ "zone": "stranglethorn",
+ "meta": {
+  "ids": [
+   328
+  ],
+  "level": "37",
+  "faction": "Alliance",
+  "start": "Bookie Herod's Records",
+  "end": "Bookie Herod's Strongbox",
+  "previous": "Bookie Herod (quest)",
+  "next": "The Spy Revealed!",
+  "wiki": "The Hidden Key",
+  "chain": [],
+  "prev_q": [
+   "Bookie Herod (quest)"
+  ],
+  "next_q": [
+   "The Spy Revealed!"
+  ],
+  "category": "Stranglethorn Vale",
+  "chain_tpl": [
+   "Jungle Secrets"
+  ]
+ },
+ "summary": "Tucked away in the binding of Bookie Herod's ledgers is a small brass key alongside notes referencing a secure strongbox. Locating this container deep within the cavern complex behind Kurzen's Compound may reveal how Private Thorsen was betrayed.",
+ "sections": [
+  {
+   "title": "A Secret in the Bindings",
+   "body": "Searching through Bookie Herod's ledgers yields no direct mention of Private Thorsen, but it reveals something else: a small brass key concealed inside a book's binding. Scraps among the paperwork make passing mention of a secure strongbox tucked away inside the Stockpile, the cavern complex at the rear of Kurzen's Compound. Opening that container might reveal how Thorsen's cover was blown.",
+   "spoiler": 0
+  },
+  {
+   "title": "Deep into the Stockpile",
+   "body": "Reaching the strongbox requires delving into the cave system behind the compound. Heavy, bronze-bound, and sturdily constructed, the chest sits among stacked crates in the cave.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Where did this brass key come from?",
+   "aliases": [
+    "where was the key",
+    "how did i get the key",
+    "small brass key source"
+   ],
+   "answer": "The small brass key was hidden inside the binding of one of Bookie Herod's ledger books, uncovered while examining his paperwork."
+  },
+  {
+   "q": "Where is Bookie Herod's strongbox located?",
+   "aliases": [
+    "strongbox location",
+    "where is the strongbox",
+    "where is the chest"
+   ],
+   "answer": "The strongbox sits inside the Stockpile, which is the cave complex found at the very back of Kurzen's Compound."
+  },
+  {
+   "q": "Why search for Herod's strongbox?",
+   "aliases": [
+    "why find the strongbox",
+    "what is in the box",
+    "purpose of the strongbox"
+   ],
+   "answer": "Herod's loose papers fail to explain how Private Thorsen's presence was compromised, but they mention a secure strongbox that might hold the answer."
+  },
+  {
+   "q": "What came before this step?",
+   "aliases": [
+    "previous quest",
+    "what quest comes first"
+   ],
+   "answer": "This follows the investigation into Bookie Herod, where his ledger records were first sought out and searched."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "bookie herod",
+  "brass key",
+  "kurzen's compound",
+  "private thorsen",
+  "stockpile",
+  "stranglethorn vale",
+  "strongbox"
+ ],
+ "related": [
+  "quest:200",
+  "quest:329",
+  "subzone:kurzen-s-compound",
+  "npc:colonel-kurzen",
+  "zone:stranglethorn"
+ ],
+ "attribution": [
+  "The Hidden Key"
+ ]
+}

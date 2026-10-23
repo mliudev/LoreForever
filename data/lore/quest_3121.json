@@ -1,0 +1,105 @@
+{
+ "key": "quest:3121",
+ "type": "quest",
+ "name": "A Strange Request",
+ "era": "classic",
+ "zone": "feralas",
+ "meta": {
+  "ids": [
+   3121
+  ],
+  "level": "45",
+  "faction": "Horde",
+  "start": "Witch Doctor Uzer'i",
+  "end": "Neeru Fireblade",
+  "previous": "",
+  "next": "Return to Witch Doctor Uzer'i",
+  "wiki": "A Strange Request (Feralas)",
+  "chain": [],
+  "next_q": [
+   "Return to Witch Doctor Uzer'i"
+  ],
+  "category": "Feralas",
+  "chain_tpl": [
+   "Muiseks in Feralas"
+  ]
+ },
+ "summary": "Witch Doctor Uzer'i needs a concoction that Neeru Fireblade in Orgrimmar has mixed up. Uzer'i hands you a shrunken head, promised to Neeru in exchange for the herbs, and sends you to the Cleft of Shadow in Orgrimmar to deliver it.",
+ "sections": [
+  {
+   "title": "A Promised Payment",
+   "body": "Witch Doctor Uzer'i says Neeru Fireblade in Orgrimmar has what is needed to get started in Feralas: a concoction for something Uzer'i will not yet explain. Uzer'i gives you a shrunken head, promised to Neeru in return for the herbs. It is the head of some poor dwarf Uzer'i came across in the forest. Neeru can be found in the Cleft of Shadow.",
+   "spoiler": 0
+  },
+  {
+   "title": "Neeru's Herbs",
+   "body": "Neeru Fireblade has been waiting for Uzer'i to make this delivery, and hands over the herb mixture prepared for Uzer'i's experiments.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who gives A Strange Request?",
+   "aliases": [
+    "who gives a strange request",
+    "who starts this",
+    "strange request quest giver"
+   ],
+   "answer": "Witch Doctor Uzer'i, who has you take a shrunken head to Orgrimmar."
+  },
+  {
+   "q": "Where is Neeru Fireblade?",
+   "aliases": [
+    "where is neeru fireblade",
+    "where do i go",
+    "shrunken head delivery location"
+   ],
+   "answer": "In the Cleft of Shadow, in Orgrimmar."
+  },
+  {
+   "q": "Whose head is the shrunken head?",
+   "aliases": [
+    "whose head is this",
+    "shrunken head identity",
+    "who was the dwarf"
+   ],
+   "answer": "Uzer'i calls it the head of some poor dwarf, come across in the forest."
+  },
+  {
+   "q": "Why does Uzer'i send a shrunken head to Neeru?",
+   "aliases": [
+    "why does neeru want the head",
+    "neeru fireblade trade"
+   ],
+   "answer": "Uzer'i promised it to Neeru in exchange for the herbs, and needs the concoction Neeru has mixed up."
+  },
+  {
+   "q": "What follows A Strange Request?",
+   "aliases": [
+    "what is next",
+    "next quest after strange request"
+   ],
+   "answer": "The chain goes on with Return to Witch Doctor Uzer'i."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "a strange request",
+  "cleft of shadow",
+  "feralas",
+  "neeru fireblade",
+  "orgrimmar",
+  "shrunken head",
+  "witch doctor uzer'i"
+ ],
+ "related": [
+  "quest:3122",
+  "npc:witch-doctor-uzer-i",
+  "subzone:cleft-of-shadow",
+  "zone:feralas",
+  "zone:orgrimmar"
+ ],
+ "attribution": [
+  "A Strange Request (Feralas)"
+ ]
+}

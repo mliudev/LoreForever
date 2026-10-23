@@ -1,0 +1,97 @@
+{
+ "key": "quest:8584",
+ "type": "quest",
+ "name": "Never Ask Me About My Business",
+ "era": "classic",
+ "zone": "tanaris",
+ "meta": {
+  "ids": [
+   8584
+  ],
+  "level": "60",
+  "faction": null,
+  "start": "Narain Soothfancy",
+  "end": "Dirge Quikcleave",
+  "previous": "Translating the Ledger",
+  "next": "",
+  "wiki": "Never Ask Me About My Business",
+  "chain": [],
+  "prev_q": [
+   "Translating the Ledger"
+  ],
+  "category": "Tanaris",
+  "chain_tpl": [
+   "Azuregos's Magical Ledger"
+  ]
+ },
+ "summary": "Narain Soothfancy has a plan he refuses to explain, and it calls for a chicken of five hundred pounds. You head for Gadgetzan to speak with Dirge Quikcleave, who can get you started on finding a fitting bird.",
+ "sections": [
+  {
+   "title": "Planning and Fetching",
+   "body": "Narain Soothfancy wants no more questions about his business, which deals in things you could never hope to grasp. The planning is his and the fetching is yours. As he said before, the plan needs a chicken of five hundred pounds, and Dirge Quikcleave in the Gadgetzan inn can point you toward one.",
+   "spoiler": 0
+  },
+  {
+   "title": "Dirge's Answer",
+   "body": "Dirge Quikcleave scratches his head. A chicken of that weight is no longer to be found, he says, though he once knew of one, the Black Chicken of Death, and nobody who saw that bird lived to tell of it. Then he says he has an idea that could be good for you both.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Why does Narain Soothfancy need a five-hundred-pound chicken?",
+   "aliases": [
+    "why 500 pound chicken",
+    "narain chicken business",
+    "why does narain want a chicken"
+   ],
+   "answer": "Narain will not say. His business involves things you could not understand, such as a psychotronic muzzledorf, and he leaves the planning to himself and the fetching to you."
+  },
+  {
+   "q": "Who do you need to talk to in Gadgetzan?",
+   "aliases": [
+    "where to go",
+    "who to see in gadgetzan",
+    "where is dirge quikcleave"
+   ],
+   "answer": "Narain sends you to Dirge Quikcleave, found in the Gadgetzan inn, who will start you on finding a suitable chicken."
+  },
+  {
+   "q": "What comes before this quest?",
+   "aliases": [
+    "prerequisite quest",
+    "what quest comes first",
+    "prior step"
+   ],
+   "answer": "Translating the Ledger comes first. Narain Soothfancy raises the matter of the chicken after that."
+  },
+  {
+   "q": "Where is Narain Soothfancy located?",
+   "aliases": [
+    "where is narain",
+    "narain location",
+    "narain soothfancy tanaris location"
+   ],
+   "answer": "Narain Soothfancy is in Tanaris."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "500 pound chicken",
+  "black chicken of death",
+  "dirge quikcleave",
+  "gadgetzan",
+  "narain soothfancy",
+  "tanaris"
+ ],
+ "related": [
+  "npc:narain-soothfancy",
+  "npc:dirge-quikcleave",
+  "quest:8576",
+  "subzone:gadgetzan",
+  "zone:tanaris"
+ ],
+ "attribution": [
+  "Never Ask Me About My Business"
+ ]
+}

@@ -193,22 +193,30 @@ function Context.Journey()
   else
     local chars = type(db.journey) == "table" and db.journey.chars
     local name = try(UnitName, "player")
-    local realm = try(GetNormalizedRealmName) or try(GetRealmName) or "?"
+    local realm = try(GetNormalizedRealmName) or (tostring(try(GetRealmName) or "?"):gsub("[%s%-]", ""))
     c = type(chars) == "table" and type(name) == "string" and chars[name .. "-" .. realm]
   end
   return type(c) == "table" and c or nil
 end
 
 local doneCache = {}
--- The character's completed quest IDs as a set ({[questID] = true}), or nil. Rebuilt only when the list changes.
+-- The character's completed quest IDs as a set ({[questID] = true}), or nil, plus ["boss:<name>"] = true for each boss
+-- they've killed (the journey's seen.boss), which opens story beats too (Engine:BeatOpen). Rebuilt only when either
+-- list changes.
 function Context.Done()
   local c = Context.Journey()
   local list = c and c.completed
   if type(list) ~= "table" then return nil end
-  if doneCache.list ~= list or doneCache.n ~= #list then
+  local bosses = type(c.seen) == "table" and type(c.seen.boss) == "table" and c.seen.boss or {}
+  local nb = 0
+  for _ in pairs(bosses) do nb = nb + 1 end
+  if doneCache.list ~= list or doneCache.n ~= #list or doneCache.bosses ~= bosses or doneCache.nb ~= nb then
     local set = {}
     for _, id in ipairs(list) do set[id] = true end
-    doneCache.list, doneCache.n, doneCache.set = list, #list, set
+    for name in pairs(bosses) do
+      if type(name) == "string" then set["boss:" .. name] = true end
+    end
+    doneCache.list, doneCache.n, doneCache.bosses, doneCache.nb, doneCache.set = list, #list, bosses, nb, set
   end
   return doneCache.set
 end

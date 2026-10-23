@@ -1,0 +1,111 @@
+{
+ "key": "quest:1424",
+ "type": "quest",
+ "name": "Pool of Tears",
+ "era": "classic",
+ "zone": "swampofsorrows",
+ "meta": {
+  "ids": [
+   1424
+  ],
+  "level": "43",
+  "faction": "Horde",
+  "start": "Fel'zerul",
+  "end": "Fel'zerul",
+  "previous": "",
+  "next": "The Atal'ai Exile",
+  "wiki": "Pool of Tears (Horde)",
+  "chain": [],
+  "next_q": [
+   "The Atal'ai Exile"
+  ],
+  "category": "Swamp of Sorrows",
+  "chain_tpl": [
+   "Pool of Tears"
+  ]
+ },
+ "summary": "In Stonard, Fel'zerul asks you to search around the Pool of Tears for Atal'ai artifacts. The Warchief sent Fel'zerul's people to look into strange events at the Temple of Atal'Hakkar, and they arrived to find it sunk.",
+ "sections": [
+  {
+   "title": "The Sunken Temple",
+   "body": "The Atal'ai trolls are dark casters, a tribe notorious for forbidden magic. When Fel'zerul's party reached the Temple of Atal'Hakkar, they were astonished to find it sunk. Green dragons now watch over the place and call themselves protectors of Azeroth.",
+   "spoiler": 0
+  },
+  {
+   "title": "Pieces of a Puzzle",
+   "body": "Fel'zerul wants to learn what happened, and asks you to range around the Pool of Tears gathering Atal'ai artifacts, from which the puzzle can begin to fit together. Nobody knows what dark rites were practised in the temple, only that great magical forces were used. Fel'zerul hopes the Atal'ai's spells may prove useful to the Horde, and wants to understand what the trolls hoped to achieve and what went so horribly wrong.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Fel'zerul?",
+   "aliases": [
+    "fel'zerul",
+    "felzerul",
+    "who gives pool of tears"
+   ],
+   "answer": "Fel'zerul is in Stonard, one of those the Warchief sent to investigate odd goings-on at the Temple of Atal'Hakkar."
+  },
+  {
+   "q": "Why is the Horde interested in the Atal'ai trolls?",
+   "aliases": [
+    "why horde wants atal'ai",
+    "atal'ai magic horde"
+   ],
+   "answer": "Fel'zerul points out that great magical forces were used there, and thinks the Atal'ai's spells may prove useful to the Horde."
+  },
+  {
+   "q": "Where are the Atal'ai artifacts located?",
+   "aliases": [
+    "atal'ai artifact location",
+    "where to find artifacts",
+    "pool of tears artifacts"
+   ],
+   "answer": "They lie on the bed of the Pool of Tears, near the temple."
+  },
+  {
+   "q": "Who guards the sunken temple now?",
+   "aliases": [
+    "why are green dragons here",
+    "green dragons temple of atal'hakkar",
+    "green dragons swamp of sorrows"
+   ],
+   "answer": "Green dragons watch over the place and call themselves protectors of Azeroth."
+  },
+  {
+   "q": "What comes next after the artifacts are delivered?",
+   "aliases": [
+    "next quest after pool of tears",
+    "pool of tears follow up",
+    "what after pool of tears"
+   ],
+   "answer": "The Atal'ai Exile follows."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "artifacts",
+  "atal'ai",
+  "fel'zerul",
+  "green dragons",
+  "pool of tears",
+  "stonard",
+  "swamp of sorrows",
+  "temple of atal'hakkar",
+  "warchief"
+ ],
+ "related": [
+  "subzone:pool-of-tears",
+  "subzone:temple-of-atal-hakkar",
+  "subzone:stonard",
+  "npc:fel-zerul",
+  "quest:1429",
+  "zone:swampofsorrows",
+  "topic:horde",
+  "topic:troll"
+ ],
+ "attribution": [
+  "Pool of Tears (Horde)"
+ ]
+}

@@ -1,0 +1,81 @@
+{
+ "key": "quest:505",
+ "type": "quest",
+ "name": "Syndicate Assassins",
+ "era": "classic",
+ "zone": "alterac",
+ "meta": {
+  "ids": [
+   505
+  ],
+  "level": "33",
+  "faction": "Alliance",
+  "start": "Magistrate Henry Maleb",
+  "end": "Magistrate Henry Maleb",
+  "previous": "",
+  "next": "",
+  "wiki": "Syndicate Assassins",
+  "chain": [],
+  "category": "Hillsbrad Foothills"
+ },
+ "summary": "Magistrate Henry Maleb, newly assigned to Southshore after the previous magistrate was assassinated, believes the Syndicate hired the killers. The trail led to a Syndicate camp north of Tarren Mill, and Maleb wants the members there slain.",
+ "sections": [
+  {
+   "title": "A Magistrate Murdered",
+   "body": "Magistrate Henry Maleb is the new magistrate of Southshore, assigned after the previous magistrate was assassinated. The assassins were never found, yet Maleb is almost certain the Syndicate hired them. The Syndicate is a gang of thieves, run by villainous nobles from Alterac, a kingdom that has since fallen. Maleb's last clues pointed to a Syndicate camp north of Tarren Mill, which the Horde occupies, and Maleb asks you to slay the Syndicate members found there.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Why does Magistrate Henry Maleb want the Syndicate slain?",
+   "aliases": [
+    "why kill syndicate",
+    "syndicate motive",
+    "who killed the magistrate"
+   ],
+   "answer": "The previous magistrate of Southshore was assassinated, and Maleb is almost certain the Syndicate hired the killers, who were never found."
+  },
+  {
+   "q": "Who leads the Syndicate?",
+   "aliases": [
+    "who runs the syndicate",
+    "syndicate leaders",
+    "syndicate alterac"
+   ],
+   "answer": "Wicked nobles of the fallen kingdom of Alterac lead it, and its members are thieves."
+  },
+  {
+   "q": "Where is the Syndicate camp?",
+   "aliases": [
+    "where are the syndicate footpads",
+    "syndicate camp location",
+    "where to find syndicate thieves"
+   ],
+   "answer": "North of Tarren Mill, which the Horde has occupied. Maleb's last clues led there."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "alterac",
+  "footpad",
+  "henry maleb",
+  "magistrate",
+  "southshore",
+  "syndicate",
+  "tarren mill",
+  "thief"
+ ],
+ "related": [
+  "npc:magistrate-henry-maleb",
+  "subzone:southshore",
+  "topic:syndicate",
+  "topic:alterac-kingdom",
+  "zone:alterac",
+  "subzone:tarren-mill"
+ ],
+ "attribution": [
+  "Syndicate Assassins",
+  "In-game quest text: Syndicate Assassins"
+ ]
+}

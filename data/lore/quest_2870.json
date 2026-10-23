@@ -1,0 +1,111 @@
+{
+ "key": "quest:2870",
+ "type": "quest",
+ "name": "Against Lord Shalzaru",
+ "era": "classic",
+ "zone": "feralas",
+ "meta": {
+  "ids": [
+   2870
+  ],
+  "level": "45",
+  "faction": "Alliance",
+  "start": "Latronicus Moonspear",
+  "end": "Latronicus Moonspear",
+  "previous": "Against the Hatecrest (2)",
+  "next": "Delivering the Relic",
+  "wiki": "Against Lord Shalzaru",
+  "chain": [
+   "Against the Hatecrest",
+   "Against the Hatecrest (2)",
+   "Against Lord Shalzaru",
+   "Delivering the Relic"
+  ],
+  "prev_q": [
+   "Against the Hatecrest (2)"
+  ],
+  "next_q": [
+   "Delivering the Relic"
+  ],
+  "category": "Feralas"
+ },
+ "summary": "Latronicus Moonspear at Feathermoon Stronghold tells you that scouts have identified one of the crueler naga royals, Lord Shalzaru. He asks you to put a stop to Shalzaru and bring back the relic the naga lord uncovered.",
+ "sections": [
+  {
+   "title": "The Naga Chain of Command",
+   "body": "New scouting reports have given Latronicus Moonspear a good picture of how the naga are led. Royals sit among their ranks, and it is they who give the orders. One of the crueler of them is Lord Shalzaru.",
+   "spoiler": 0
+  },
+  {
+   "title": "An Odd Relic",
+   "body": "Scouts report that Shalzaru himself uncovered an odd relic while the naga were digging, in a cave on the Isle of Dread, over the water and south of the main ruins. Latronicus wants an end put to the dig by putting an end to Shalzaru, and wants the Mysterious Relic brought to him at Feathermoon Stronghold so it can be studied.",
+   "spoiler": 0
+  },
+  {
+   "title": "When It Is Done",
+   "body": "Latronicus believes that Shalzaru's fall will leave the naga in disarray for a while, perhaps for good, and that the threat is now more under control than it has ever been. He then has one more thing to ask of you.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Lord Shalzaru?",
+   "aliases": [
+    "shalzaru",
+    "who is shalzaru",
+    "lord shalzaru lore"
+   ],
+   "answer": "One of the crueler naga royals, identified by scouts. Royals sit among the naga ranks and give the orders."
+  },
+  {
+   "q": "Where is Lord Shalzaru located?",
+   "aliases": [
+    "where is shalzaru",
+    "shalzaru cave location",
+    "find shalzaru"
+   ],
+   "answer": "Scouts place the dig in a cave on the Isle of Dread, over the water and south of the main ruins."
+  },
+  {
+   "q": "What is the relic?",
+   "aliases": [
+    "mysterious relic feralas",
+    "what is the relic",
+    "shalzaru relic"
+   ],
+   "answer": "An odd relic that Shalzaru himself uncovered while the naga were digging. Latronicus wants it brought to him so it can be studied."
+  },
+  {
+   "q": "Where do I deliver the relic?",
+   "aliases": [
+    "who gets the relic",
+    "turn in shalzaru"
+   ],
+   "answer": "To Latronicus Moonspear in Feathermoon Stronghold."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "feathermoon stronghold",
+  "feralas",
+  "hatecrest",
+  "isle of dread",
+  "latronicus moonspear",
+  "lord shalzaru",
+  "mysterious relic",
+  "naga",
+  "shalzaru"
+ ],
+ "related": [
+  "npc:lord-shalzaru",
+  "subzone:isle-of-dread",
+  "subzone:feathermoon-stronghold",
+  "quest:2871",
+  "quest:2869",
+  "topic:naga",
+  "zone:feralas"
+ ],
+ "attribution": [
+  "Against Lord Shalzaru"
+ ]
+}

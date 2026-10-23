@@ -111,6 +111,12 @@ export function loadPlansUsage(key, $ = id => document.getElementById(id)) {
     $("pu-voices").replaceChildren(...res.voices.map(v => row(planName(v.plan), KIND[v.kind] || v.kind, voiceName(v.said),
       v.players, v.replies.toLocaleString())));
     if (!res.voices.length) $("pu-voices").replaceChildren(empty(5, "No spoken replies recorded in these days yet."));
+    // The hosted voice's cost per player, the last 7 days as a 30-day month (lib/plan-usage.js voiceCost).
+    const dollars = micro => `$${(micro / 1e6).toFixed(2)}`;
+    const voiceCost = res.voiceCost || [];
+    $("pu-voice-cost").replaceChildren(...voiceCost.map(c => row(planName(c.plan), c.players, dollars(c.micro),
+      dollars(c.perPlayerMonth))));
+    if (!voiceCost.length) $("pu-voice-cost").replaceChildren(empty(4, "No hosted voice in the last 7 days."));
     $("pu-picks").replaceChildren(...res.picks.map(p => row(planName(p.plan), p.pick[0].toUpperCase() + p.pick.slice(1),
       p.players, p.replies.toLocaleString())));
     if (!res.picks.length) $("pu-picks").replaceChildren(empty(4, "No Willo voice picked in these days yet."));

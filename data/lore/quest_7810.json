@@ -1,0 +1,78 @@
+{
+ "key": "quest:7810",
+ "type": "quest",
+ "name": "Arena Master",
+ "era": "classic",
+ "zone": "stranglethorn",
+ "meta": {
+  "ids": [
+   7810
+  ],
+  "level": "55",
+  "faction": null,
+  "start": "Arena Master",
+  "end": "Short John Mithril",
+  "previous": "",
+  "next": "",
+  "wiki": "Arena Master (quest)",
+  "chain": [],
+  "category": "Cape of Stranglethorn"
+ },
+ "summary": "Is there more to mastering the arena than this? Short John Mithril, the Pirate behind the Gurubashi event, may have the answer, and you will find him in the Stranglethorn Arena.",
+ "sections": [
+  {
+   "title": "Seeking the Pirate",
+   "body": "Whatever you have gained at Gurubashi, it seems that mastering the arena asks for more. Short John Mithril, the Pirate who organizes the contests there, may know what. Look for him inside the Stranglethorn Arena.",
+   "spoiler": 0
+  },
+  {
+   "title": "Short John's Word",
+   "body": "Short John Mithril tells you that a single trinket is too little to make you master of the arena. Now, he says, comes the true proving of your steel.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who do I need to speak with?",
+   "aliases": [
+    "who do i talk to",
+    "arena master turn in",
+    "where to go"
+   ],
+   "answer": "Short John Mithril, the Pirate behind the Gurubashi event."
+  },
+  {
+   "q": "Where is Short John Mithril?",
+   "aliases": [
+    "gurubashi location",
+    "where is stranglethorn arena",
+    "arena location"
+   ],
+   "answer": "In the Stranglethorn Arena, at Gurubashi in Stranglethorn Vale."
+  },
+  {
+   "q": "What is hinted about being master of the arena?",
+   "aliases": [
+    "how to be arena master",
+    "am i arena master yet"
+   ],
+   "answer": "Only that mastering the arena seems to ask for more than you have done so far, and that the Pirate behind the Gurubashi event may know."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "arena master",
+  "gurubashi",
+  "pirate",
+  "short john mithril",
+  "stranglethorn arena",
+  "stranglethorn vale"
+ ],
+ "related": [
+  "zone:stranglethorn",
+  "topic:pirate"
+ ],
+ "attribution": [
+  "Wowpedia: Arena Master (quest)"
+ ]
+}

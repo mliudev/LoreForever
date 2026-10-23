@@ -1,0 +1,89 @@
+{
+ "key": "quest:7829",
+ "type": "quest",
+ "name": "Hunt the Savages",
+ "era": "classic",
+ "zone": "hinterlands",
+ "meta": {
+  "ids": [
+   7829
+  ],
+  "level": "48",
+  "start": "Huntsman Markhor",
+  "end": "Huntsman Markhor",
+  "wiki": null,
+  "previous": "",
+  "next": ""
+ },
+ "summary": "Huntsman Markhor, of the village of Revantusk in the Hinterlands, calls the savage owlbeasts some of the region's most ornery creatures and asks you to kill twenty of them.",
+ "sections": [
+  {
+   "title": "Claws and Beaks",
+   "body": "Markhor describes the savage owlbeasts as among the more ornery creatures of the Hinterlands, and says the claws and beaks of the beasts have cost Revantusk many good warriors. Markhor wants every one you see killed, until you can bear no more bloodshed, and then the contribution you made will be weighed and judged. Twenty must fall.",
+   "spoiler": 0
+  },
+  {
+   "title": "Clearing the Mind",
+   "body": "Markhor's counsel for the hunt is to clear the mind of unclean thoughts and join with the wild. The owlbeasts are out in the Hinterlands wilds.",
+   "spoiler": 0
+  },
+  {
+   "title": "Markhor's Judgment",
+   "body": "After the hunt, Markhor names you a worthy friend to the Revantusk.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who offers this hunt?",
+   "aliases": [
+    "who gives hunt the savages",
+    "hunt the savages quest giver",
+    "huntsman markhor quest"
+   ],
+   "answer": "Huntsman Markhor, of the village of Revantusk in the Hinterlands."
+  },
+  {
+   "q": "Why does Markhor want the savage owlbeasts killed?",
+   "aliases": [
+    "why kill savage owlbeasts",
+    "reason for hunting owlbeasts",
+    "why hunt the savages"
+   ],
+   "answer": "Markhor calls them ornery and says they have claimed many good Revantusk warriors with their claws and beaks."
+  },
+  {
+   "q": "Where can the savage owlbeasts be found?",
+   "aliases": [
+    "savage owlbeast location",
+    "where are savage owlbeasts",
+    "owlbeasts in hinterlands"
+   ],
+   "answer": "Markhor says they dwell in the Hinterlands wilds."
+  },
+  {
+   "q": "How many savage owlbeasts must be slain?",
+   "aliases": [
+    "how many owlbeasts to kill",
+    "hunt the savages requirement"
+   ],
+   "answer": "Twenty savage owlbeasts."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "hinterlands",
+  "hunt the savages",
+  "huntsman markhor",
+  "owlbeasts",
+  "revantusk",
+  "revantusk village",
+  "savage owlbeast"
+ ],
+ "related": [
+  "zone:hinterlands"
+ ],
+ "attribution": [
+  "Classic quest text: Hunt the Savages"
+ ]
+}

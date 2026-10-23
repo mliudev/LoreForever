@@ -1,0 +1,104 @@
+{
+ "key": "quest:657",
+ "type": "quest",
+ "name": "Hints of a New Plague?",
+ "era": "classic",
+ "zone": "hillsbrad",
+ "meta": {
+  "ids": [
+   657
+  ],
+  "level": "36",
+  "faction": "Alliance",
+  "start": "Quae",
+  "end": "Kinelory",
+  "previous": "Hints of a New Plague? (2)",
+  "next": "Hints of a New Plague? (4)",
+  "wiki": "Hints of a New Plague? (3)",
+  "chain": [],
+  "prev_q": [
+   "Hints of a New Plague? (2)"
+  ],
+  "next_q": [
+   "Hints of a New Plague? (4)"
+  ],
+  "category": "Hillsbrad Foothills",
+  "chain_tpl": [
+   "Hints of a New Plague?"
+  ]
+ },
+ "summary": "Quae has gone through the folder and learned that Apothecary Jorell is running deadly experiments at Go'Shek Farm. Quae is in poor shape after clashing with orcs and cannot help Kinelory, who will need your protection when she heads for the farm to steal any of Jorell's research not yet sent to Tarren Mill.",
+ "sections": [
+  {
+   "title": "Jorell's Experiments",
+   "body": "Quae reads through the folder and finds that Apothecary Jorell is running deadly experiments at Go'Shek Farm. How that touches Hillsbrad is unclear to Quae, yet Phin would not want it to go on. Some of Jorell's research has already been sent to Tarren Mill.",
+   "spoiler": 0
+  },
+  {
+   "title": "Kinelory's Protector",
+   "body": "While you were away, Quae clashed with some orcs and is in no shape to help Kinelory. Kinelory means to go down to the farm and steal the research Jorell has not yet sent to Tarren Mill, and she will need protection. You are to speak to Kinelory.",
+   "spoiler": 0
+  },
+  {
+   "title": "Kinelory's Resolve",
+   "body": "Kinelory says that if it brings Phin peace, she will destroy every one of the Forsaken personally. Phin has done so much for Kinelory and the others since the plague, and they never thought they would find friends or family again. Kinelory asks you to say when you are prepared, and the two of you will get started right away.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Why can't Quae accompany Kinelory?",
+   "aliases": [
+    "why is quae staying",
+    "why won't quae help",
+    "why escort kinelory alone"
+   ],
+   "answer": "Quae clashed with some orcs while you were away and is in no shape to help Kinelory."
+  },
+  {
+   "q": "What was discovered in the folder?",
+   "aliases": [
+    "what was in the folder",
+    "jorell experiments",
+    "what is jorell doing"
+   ],
+   "answer": "That Apothecary Jorell has been working on deadly experiments at Go'Shek Farm."
+  },
+  {
+   "q": "Why are Quae and Kinelory investigating this?",
+   "aliases": [
+    "who is phin",
+    "why do they care about the plague",
+    "why help phin"
+   ],
+   "answer": "They are companions of Phin, who leads a band of adventurers looking into odd happenings. Phin would not like it if Jorell's experiments were allowed to continue."
+  },
+  {
+   "q": "Where is the research being sent?",
+   "aliases": [
+    "where are the notes going",
+    "tarren mill research"
+   ],
+   "answer": "Some of it has already been sent to Tarren Mill. Kinelory plans to steal what Jorell has not yet sent."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "apothecary jorell",
+  "forsaken",
+  "go'shek farm",
+  "kinelory",
+  "phin",
+  "plague",
+  "quae",
+  "tarren mill"
+ ],
+ "related": [
+  "subzone:tarren-mill",
+  "topic:forsaken",
+  "zone:hillsbrad"
+ ],
+ "attribution": [
+  "Hints of a New Plague? (3)"
+ ]
+}

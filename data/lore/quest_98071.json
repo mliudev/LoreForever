@@ -1,0 +1,83 @@
+{
+ "key": "quest:98071",
+ "type": "quest",
+ "name": "Brewer's Trade",
+ "era": "forever",
+ "zone": "hillsbrad",
+ "meta": {
+  "ids": [
+   98071
+  ],
+  "wiki": null,
+  "harvested": true,
+  "previous": "",
+  "next": ""
+ },
+ "summary": "A trade has been worked out with the Dun Garok brew-kin, who miss the Fallrook family's vineyards as much as anyone. A case of Fallrook Varietal travels to their fort in the southeast of Hillsbrad Foothills, and a sack of their Homebrew Hops comes back.",
+ "sections": [
+  {
+   "title": "A Taste of the Past",
+   "body": "Most of the best bottled years of Fallrook wine are long since drunk, but cases of the Fallrook Varietal still sit in the cellars. The Dun Garok brew-kin miss the vineyards of the Fallrook family too, and a trade has been worked out with them.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Exchange at Dun Garok",
+   "body": "The case goes southeast to Dun Garok, to be left with the brew-kin beside the fireplace where they gather, down at the base of their fort. In return, you carry a sack of their Homebrew Hops back.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is being traded in this exchange?",
+   "aliases": [
+    "what am i delivering",
+    "brewer's trade items",
+    "fallrook wine"
+   ],
+   "answer": "A case of Fallrook Varietal wine, from the cellars, goes to the Dun Garok brew-kin in return for a sack of their Homebrew Hops."
+  },
+  {
+   "q": "Where in Dun Garok does the wine need to go?",
+   "aliases": [
+    "where is the fireplace",
+    "dun garok delivery location",
+    "where to leave wine"
+   ],
+   "answer": "You leave it with the brew-kin beside the fireplace where they gather, down at the base of their fort."
+  },
+  {
+   "q": "Where is Dun Garok located?",
+   "aliases": [
+    "dun garok location",
+    "where is dun garok"
+   ],
+   "answer": "Dun Garok lies in the southeast of Hillsbrad Foothills."
+  },
+  {
+   "q": "Who were the Fallrooks?",
+   "aliases": [
+    "fallrook family",
+    "fallrook vineyards"
+   ],
+   "answer": "The Fallrooks were a family whose vineyards are missed. Most of their best bottled years have long since been drunk, though cases of the wine remain in the cellars."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "brew-kin",
+  "dun garok",
+  "fallrook",
+  "fallrook varietal",
+  "hillsbrad",
+  "homebrew hops",
+  "hops",
+  "wine"
+ ],
+ "related": [
+  "subzone:dun-garok",
+  "zone:hillsbrad"
+ ],
+ "attribution": [
+  "In-game quest text: Brewer's Trade"
+ ]
+}

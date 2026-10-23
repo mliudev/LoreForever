@@ -1,4 +1,5 @@
 import { isReportRead } from "./report-read.js";
+import { createMissing } from "./schema.js";
 // Voice work status for /admin/voices.html (Mike 10/16: "an up to date matrix of voice work at all times").
 // The PC posts one JSON snapshot every 10 minutes (POST /api/admin/voice-status, from the Voice Coordinator's
 // status/post.sh); the page shows the latest. Format 1 is described by status/collect.py in lore-voice-renders:
@@ -23,7 +24,7 @@ const ready = new WeakMap();
 async function setup(env) {
   if (isReportRead(env)) return;
   if (ready.get(env.DB)) return;
-  await env.DB.batch(SETUP.map(s => env.DB.prepare(s)));
+  await createMissing(env, SETUP);
   ready.set(env.DB, true);
 }
 

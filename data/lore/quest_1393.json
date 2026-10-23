@@ -1,0 +1,80 @@
+{
+ "key": "quest:1393",
+ "type": "quest",
+ "name": "Galen's Escape",
+ "era": "classic",
+ "zone": "swampofsorrows",
+ "meta": {
+  "ids": [
+   1393
+  ],
+  "level": "38",
+  "faction": null,
+  "start": "Galen Goodward",
+  "end": "Galen's Strongbox",
+  "previous": "",
+  "next": "",
+  "wiki": "Galen's Escape",
+  "chain": [],
+  "category": "Swamp of Sorrows"
+ },
+ "summary": "Galen Goodward is in the Fallow Sanctuary, begging for rescue from the creatures there, and promises a great treasure to anyone who gets him out. It waits in a locked strongbox at his camp north of Stonard.",
+ "sections": [
+  {
+   "title": "A Plea for Rescue",
+   "body": "Galen Goodward cries out that the creatures around him are going to eat him. Anyone who helps him out of danger is promised a great treasure. It sits at his camp, out in the swamp north of Stonard, locked in a strongbox that opens only through a trick known to Galen alone. If you help him escape, he will teach it to you.",
+   "spoiler": 0
+  },
+  {
+   "title": "At the Strongbox",
+   "body": "At the camp you find the strongbox's keyhole filled with black resin, so it cannot be opened that way. But Galen told you of a latch hidden on the bottom of the box. A quick search finds it, and flipping it opens the strongbox.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Galen Goodward?",
+   "aliases": [
+    "who is galen",
+    "galen goodward lore",
+    "galens escape guy"
+   ],
+   "answer": "Someone held in the Fallow Sanctuary who fears the creatures there will eat them, and who offers a great treasure to anyone who helps them escape."
+  },
+  {
+   "q": "Where is Galen's camp located?",
+   "aliases": [
+    "where is galens camp",
+    "galens strongbox location",
+    "where is the strongbox"
+   ],
+   "answer": "In the swamp north of Stonard, in the Swamp of Sorrows."
+  },
+  {
+   "q": "Why can't the strongbox be opened in the usual way?",
+   "aliases": [
+    "how to open strongbox",
+    "galen chest key"
+   ],
+   "answer": "Galen's treasure is locked in a strongbox that opens only through a trick that Galen alone knows, which Galen will teach to whoever helps him escape."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "black resin",
+  "fallow sanctuary",
+  "galen goodward",
+  "galen's escape",
+  "stonard",
+  "strongbox",
+  "swamp of sorrows"
+ ],
+ "related": [
+  "subzone:fallow-sanctuary",
+  "zone:swampofsorrows",
+  "subzone:stonard"
+ ],
+ "attribution": [
+  "Galen's Escape"
+ ]
+}

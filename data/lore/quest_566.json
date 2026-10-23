@@ -1,0 +1,96 @@
+{
+ "key": "quest:566",
+ "type": "quest",
+ "name": "WANTED: Baron Vardus",
+ "era": "classic",
+ "zone": "hillsbrad",
+ "meta": {
+  "ids": [
+   566
+  ],
+  "level": "40",
+  "faction": "Horde",
+  "start": "WANTED",
+  "end": "High Executor Darthalia",
+  "previous": "",
+  "next": "",
+  "wiki": "WANTED: Baron Vardus",
+  "chain": [
+   "WANTED: Syndicate Personnel",
+   "WANTED: Baron Vardus"
+  ],
+  "category": "Hillsbrad Foothills"
+ },
+ "summary": "A notice carrying High Executor Darthalia's order names Baron Vardus, a human and a high-ranking member of the Syndicate, wanted dead for crimes against the Forsaken. Proof of his death is to be brought to Darthalia in Tarren Mill.",
+ "sections": [
+  {
+   "title": "A Price on the Baron",
+   "body": "Darthalia has put a price on Baron Vardus, a human charged with crimes against the Forsaken and counted among the Syndicate's high-ranking members. Last word placed him in the Uplands of the Alterac Mountains, to the north of Tarren Mill. The order is plain: he is to die, and whoever brings Darthalia proof of his death will be paid for it.",
+   "spoiler": 0
+  },
+  {
+   "title": "Where He Might Be",
+   "body": "Vardus could be at any one of the Syndicate camps across the Uplands. He may also be hiding in the cellar of the inn at Strahnbrad.",
+   "spoiler": 0
+  },
+  {
+   "title": "Darthalia's Verdict",
+   "body": "With the Baron dead, Darthalia declares the Syndicate's leaders are fewer, and expects their anger and resistance to be short-lived.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Baron Vardus?",
+   "aliases": [
+    "baron vardus",
+    "who is vardus",
+    "who is the baron"
+   ],
+   "answer": "A human and a high-ranking member of the Syndicate, wanted for crimes against the Forsaken."
+  },
+  {
+   "q": "Where can Baron Vardus be found?",
+   "aliases": [
+    "baron vardus location",
+    "where is vardus",
+    "find baron vardus"
+   ],
+   "answer": "He was last seen north of Tarren Mill, up in the Uplands that belong to the Alterac Mountains. He may be at one of the Syndicate camps there, or hiding in the cellar of the Strahnbrad inn."
+  },
+  {
+   "q": "Who offers the bounty on Baron Vardus?",
+   "aliases": [
+    "who posted the bounty",
+    "who wants vardus dead",
+    "darthalia bounty"
+   ],
+   "answer": "High Executor Darthalia, in Tarren Mill, where the proof of his death is to be delivered."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "alterac mountains",
+  "baron vardus",
+  "darthalia",
+  "high executor darthalia",
+  "hillsbrad foothills",
+  "strahnbrad",
+  "syndicate",
+  "tarren mill",
+  "uplands",
+  "vardus"
+ ],
+ "related": [
+  "npc:high-executor-darthalia",
+  "subzone:tarren-mill",
+  "subzone:uplands",
+  "subzone:strahnbrad",
+  "zone:alterac",
+  "topic:syndicate",
+  "topic:forsaken"
+ ],
+ "attribution": [
+  "WANTED: Baron Vardus"
+ ]
+}

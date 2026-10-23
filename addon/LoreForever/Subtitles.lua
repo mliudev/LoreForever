@@ -16,8 +16,9 @@
 -- story or the panel opening hide it; the next story replaces it.
 --
 -- Timing: a recording with pieces (Voice.transport) says exactly where it is, and a complete story knows its length
--- (Voice.lastClip.duration). Other recordings carry no length, so it comes from the words: characters a second for that
--- voice, measured on its complete stories (their text and length are in its Transport.lua) and learned from every
+-- (Voice.lastClip.duration), and a pack of ours says how long each of its other recordings plays (P.len in its
+-- Clips.lua, from the MP3 itself; Voice.lastClip.length). A recording with no length (an older or community pack)
+-- is timed from the words: characters a second for that voice, measured on its complete stories (their text and length are in its Transport.lua) and learned from every
 -- recording heard to its end (LoreForeverDB.subtitleRates). Within a story each word gets a share of the time by its
 -- length, with a little more after a comma or a full stop.
 
@@ -619,6 +620,8 @@ function Sub.Begin(target, clip)
     story.transport, story.duration = true, V.transport.row.duration
   elseif clip and tonumber(clip.duration) and clip.duration > 0 then
     story.duration = clip.duration
+  elseif clip and tonumber(clip.length) and clip.length > 0 then
+    story.duration = clip.length   -- the pack's own count of the recording's length (P.len): the band ends with the voice
   else
     story.estimated = true
     story.duration = math.max(1.5, chars(text) / Sub.Speed(story.pack))

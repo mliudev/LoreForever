@@ -1,0 +1,96 @@
+{
+ "key": "quest:554",
+ "type": "quest",
+ "name": "Stormpike's Deciphering",
+ "era": "classic",
+ "zone": "alterac",
+ "meta": {
+  "ids": [
+   554
+  ],
+  "level": "40",
+  "faction": "Alliance",
+  "start": "Loremaster Dibbs",
+  "end": "Prospector Stormpike",
+  "previous": "The Ensorcelled Parchment",
+  "next": "",
+  "wiki": "Stormpike's Deciphering",
+  "chain": [
+   "The Ensorcelled Parchment",
+   "Stormpike's Deciphering"
+  ],
+  "prev_q": [
+   "The Ensorcelled Parchment"
+  ],
+  "category": "Hillsbrad Foothills"
+ },
+ "summary": "Loremaster Dibbs sends you to Ironforge with the ensorcelled parchment, hoping Prospector Stormpike, a master of decryption and deciphering, can make sense of it.",
+ "sections": [
+  {
+   "title": "A Master of Decryption",
+   "body": "After The Ensorcelled Parchment, Dibbs tells you to take it to Prospector Stormpike, who is at his studies in Ironforge's Prospector headquarters. Dibbs says to mention that he sent you, since he has been sending Stormpike quite a lot of business lately.",
+   "spoiler": 0
+  },
+  {
+   "title": "A Matter of Time",
+   "body": "Stormpike finds the parchment covered in a very intricate, finely woven spell. He says he can untangle it, but it will take time, and time is valuable to him, so he offers to buy it from you. Once you agree, he says he believes no scholar but himself has the skill to translate it, and promises to send for you if its contents prove interesting.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who sends you to Prospector Stormpike?",
+   "aliases": [
+    "who gives the quest",
+    "quest giver",
+    "loremaster dibbs quest"
+   ],
+   "answer": "Loremaster Dibbs, who calls Stormpike a master of decryption and deciphering."
+  },
+  {
+   "q": "Where can Prospector Stormpike be found?",
+   "aliases": [
+    "stormpike location",
+    "where is stormpike",
+    "prospector headquarters"
+   ],
+   "answer": "He is at his studies in Ironforge's Prospector headquarters."
+  },
+  {
+   "q": "Why is the parchment difficult to read?",
+   "aliases": [
+    "why ensorcelled parchment",
+    "parchment spell",
+    "why decipher"
+   ],
+   "answer": "A spell lies on it and keeps the writing from being deciphered, and only the name Nagaz can be read at the top."
+  },
+  {
+   "q": "What comes before this step?",
+   "aliases": [
+    "previous quest",
+    "chain start",
+    "prerequisite"
+   ],
+   "answer": "It follows The Ensorcelled Parchment, which brought the enchanted parchment to Dibbs."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "deciphering",
+  "dibbs",
+  "ensorcelled parchment",
+  "ironforge",
+  "prospector headquarters",
+  "stormpike"
+ ],
+ "related": [
+  "npc:prospector-stormpike",
+  "quest:551",
+  "zone:ironforge",
+  "zone:alterac"
+ ],
+ "attribution": [
+  "Stormpike's Deciphering"
+ ]
+}

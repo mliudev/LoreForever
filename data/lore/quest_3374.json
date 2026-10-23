@@ -1,0 +1,95 @@
+{
+ "key": "quest:3374",
+ "type": "quest",
+ "name": "The Essence of Eranikus",
+ "era": "classic",
+ "zone": "swampofsorrows",
+ "meta": {
+  "ids": [
+   3374
+  ],
+  "level": "55",
+  "faction": null,
+  "start": "Oathstone of Ysera's Dragonflight",
+  "end": "Itharius",
+  "previous": "",
+  "next": "In Eranikus' Own Words",
+  "wiki": "The Essence of Eranikus (2)",
+  "chain": [
+   "The Essence of Eranikus",
+   "The Essence of Eranikus (2)",
+   "In Eranikus' Own Words"
+  ],
+  "category": "Swamp of Sorrows",
+  "next_q": [
+   "In Eranikus' Own Words"
+  ]
+ },
+ "summary": "You engage the Oathstone of Ysera's Dragonflight, and Itharius speaks straight into your mind. Taking up the charge means helping Ysera's Dragonflight redeem the corrupted soul of Eranikus, and the first sacrifice is to give Itharius the gem that chains the part of Eranikus' mind that is still free. Itharius waits in the Swamp of Sorrows.",
+ "sections": [
+  {
+   "title": "A Voice Through the Stone",
+   "body": "Through the Oathstone, Itharius tells you that accepting this charge means aiding Ysera's Dragonflight to redeem the corrupted soul of Eranikus. Itharius expects many sacrifices from the two of you, and the first is to hand over the gem that has bound whatever free-willed part of Eranikus' mind remains. The Oathstone and the Chained Essence of Eranikus must go to Itharius in the Swamp of Sorrows, and there you choose whether to aid the dragonflight.",
+   "spoiler": 0
+  },
+  {
+   "title": "A Choice Made",
+   "body": "Itharius greets you at yet another crossroads and asks what choice you make. Once it is made, Itharius says your choices so far have been the correct ones, and that your actions from here on will decide whether that continues.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Itharius?",
+   "aliases": [
+    "who is itharius",
+    "itharius role",
+    "who sends the message"
+   ],
+   "answer": "Itharius speaks into your mind through the Oathstone for Ysera's Dragonflight, and waits in the Swamp of Sorrows, seeking to redeem the corrupted soul of Eranikus."
+  },
+  {
+   "q": "What is the Chained Essence of Eranikus?",
+   "aliases": [
+    "chained essence of eranikus",
+    "what is the chained gem",
+    "eranikus essence"
+   ],
+   "answer": "It is the gem that chains the part of Eranikus' mind that is still free. Itharius asks you to give it up as the first sacrifice."
+  },
+  {
+   "q": "What came before this quest?",
+   "aliases": [
+    "prerequisite quest",
+    "previous step"
+   ],
+   "answer": "It follows the first step of The Essence of Eranikus, under the same name."
+  },
+  {
+   "q": "Where do you take the Oathstone and the essence?",
+   "aliases": [
+    "where to bring oathstone",
+    "where is itharius",
+    "hand in location"
+   ],
+   "answer": "To Itharius, in the Swamp of Sorrows, where you choose whether to aid the dragonflight."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "chained essence",
+  "eranikus",
+  "green dragonflight",
+  "itharius",
+  "oathstone",
+  "swamp of sorrows",
+  "ysera"
+ ],
+ "related": [
+  "quest:3512",
+  "zone:swampofsorrows"
+ ],
+ "attribution": [
+  "The Essence of Eranikus (2)"
+ ]
+}

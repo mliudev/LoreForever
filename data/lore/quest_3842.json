@@ -1,0 +1,101 @@
+{
+ "key": "quest:3842",
+ "type": "quest",
+ "name": "A Short Incubation",
+ "era": "classic",
+ "zone": "feralas",
+ "meta": {
+  "ids": [
+   3842
+  ],
+  "level": "47",
+  "faction": "Alliance",
+  "start": "Quentin",
+  "end": "Quentin",
+  "previous": "An Orphan Looking For a Home",
+  "next": "The Newest Member of the Family",
+  "wiki": "A Short Incubation",
+  "chain": [],
+  "prev_q": [
+   "An Orphan Looking For a Home"
+  ],
+  "next_q": [
+   "The Newest Member of the Family"
+  ],
+  "category": "Feralas",
+  "chain_tpl": [
+   "Freedom for All Creatures"
+  ]
+ },
+ "summary": "Quentin, waiting in Thousand Needles, hears that the Moonweavers gave you the sprite darter egg. The egg looks almost ready to hatch, so Quentin wants to be sure it is healthy and undamaged, and asks you for two elixirs of fortitude.",
+ "sections": [
+  {
+   "title": "Protecting the Egg",
+   "body": "Quentin finds it intriguing that the Moonweavers looked after the egg and thinks both are quite capable. Since the egg was a gift to you, it is yours to be responsible for as long as you wish. It appears almost ready to hatch, but it should first be checked for health and damage. A small spell to protect it will do the job, and Quentin has every component on hand except two elixirs of fortitude. Quentin admits to growing tempted by the races while waiting, and will return the egg for you to keep once its health is known.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is asking for the elixirs?",
+   "aliases": [
+    "who gives this quest",
+    "quest giver",
+    "quentin location"
+   ],
+   "answer": "Quentin, who is in Thousand Needles by the Mirage Raceway, asks for two elixirs of fortitude."
+  },
+  {
+   "q": "What happened right before this?",
+   "aliases": [
+    "previous quest",
+    "where did the egg come from",
+    "pre-req"
+   ],
+   "answer": "You brought the egg to Quentin in An Orphan Looking For a Home. It was a gift from the Moonweavers."
+  },
+  {
+   "q": "What is needed to finish the spell?",
+   "aliases": [
+    "what do i need to bring",
+    "required items",
+    "elixirs needed"
+   ],
+   "answer": "Two elixirs of fortitude. Quentin already has the other components with him."
+  },
+  {
+   "q": "Why does Quentin want the elixirs?",
+   "aliases": [
+    "why elixir of fortitude",
+    "purpose of the potions"
+   ],
+   "answer": "The egg is almost ready to hatch, and Quentin wants it to be healthy and undamaged. The elixirs go into a small spell to protect it."
+  }
+ ],
+ "angles": [
+  {
+   "target": "profession:Alchemy",
+   "text": "An alchemist can brew the elixirs of fortitude Quentin asks for."
+  }
+ ],
+ "keywords": [
+  "elixir of fortitude",
+  "feralas",
+  "mirage raceway",
+  "moonweavers",
+  "quentin",
+  "sprite darter egg",
+  "thousand needles"
+ ],
+ "related": [
+  "quest:3841",
+  "quest:3843",
+  "npc:sprite-darter",
+  "subzone:mirage-raceway",
+  "zone:thousandneedles",
+  "zone:feralas"
+ ],
+ "attribution": [
+  "A Short Incubation"
+ ]
+}

@@ -1,0 +1,97 @@
+{
+ "key": "quest:7726",
+ "type": "quest",
+ "name": "Refuel for the Zapping",
+ "era": "classic",
+ "zone": "feralas",
+ "meta": {
+  "ids": [
+   7726
+  ],
+  "level": "55",
+  "faction": null,
+  "start": "Zorbin Fandazzle",
+  "end": "Zorbin Fandazzle",
+  "previous": "Fuel for the Zapping",
+  "next": "",
+  "wiki": "Refuel for the Zapping",
+  "chain": [
+   "Fuel for the Zapping"
+  ],
+  "prev_q": [
+   "Fuel for the Zapping"
+  ],
+  "repeatable": "Yes",
+  "category": "Feralas"
+ },
+ "summary": "Zorbin Fandazzle needs more water elemental cores. Setting up shop on the Forgotten Coast is a struggle, so the pay will be smaller, but Zorbin promises to tell everyone in earshot of your help and says there are friends in the Cartel.",
+ "sections": [
+  {
+   "title": "More of the Same",
+   "body": "Zorbin Fandazzle jokes about the heroic deed of collecting goo from inside elemental beings, wondering whether you will want more of the same. Melodrama aside, Zorbin does need more water elemental cores. Establishing the shop here is a desperate business, so there is little to give in return, but Zorbin promises to tell everyone in earshot how you helped, and says to trust this because Zorbin knows people in the Cartel. Six cores are wanted, taken from Sea Elementals and Sea Sprays on the Forgotten Coast, and brought to Zorbin near the dock.",
+   "spoiler": 0
+  },
+  {
+   "title": "Zorbin's Thanks",
+   "body": "Zorbin is pleased and admits the coin may not be the most you will ever receive for such work. The Steamwheedle Cartel comrades of Zorbin will be told of your efforts, and if you want more to do, Zorbin has an ongoing need for further cores and similar things.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is requesting the water elemental cores?",
+   "aliases": [
+    "who gives this quest",
+    "who is zorbin fandazzle",
+    "where is zorbin"
+   ],
+   "answer": "Zorbin Fandazzle, found by the dock on the Forgotten Coast of Feralas."
+  },
+  {
+   "q": "Where do the water elemental cores come from?",
+   "aliases": [
+    "where do cores drop",
+    "water elemental core location",
+    "which enemies drop cores"
+   ],
+   "answer": "They are taken from Sea Elementals and Sea Sprays on the Forgotten Coast of Feralas."
+  },
+  {
+   "q": "Why does Zorbin Fandazzle need more cores?",
+   "aliases": [
+    "why does zorbin want cores",
+    "zorbin fandazzle motive",
+    "what are the cores for"
+   ],
+   "answer": "Zorbin says only that more water elemental cores are needed, while struggling to get a shop established on the coast."
+  },
+  {
+   "q": "What came before this?",
+   "aliases": [
+    "previous quest",
+    "prerequisite quest",
+    "what quest comes first"
+   ],
+   "answer": "It follows Fuel for the Zapping, when you first gathered elemental cores for Zorbin."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "feralas",
+  "forgotten coast",
+  "sea elemental",
+  "sea spray",
+  "steamwheedle cartel",
+  "water elemental core",
+  "zorbin fandazzle"
+ ],
+ "related": [
+  "quest:7721",
+  "subzone:forgotten-coast",
+  "zone:feralas",
+  "topic:steamwheedle-cartel"
+ ],
+ "attribution": [
+  "Refuel for the Zapping"
+ ]
+}

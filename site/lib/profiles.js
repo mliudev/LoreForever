@@ -27,7 +27,8 @@ import { roadChart, chapterMap } from "./roadchart.js";
 import { chapters, chaptersSection, iconSprite, OPEN } from "./chapters.js";
 import { pictureLink, pictureViewer, morePictures, pictureUrl } from "./pictures.js";
 import { cardKey, cardUrl } from "./sharecard.js";
-import { answerBudgetUsed, reserveOtherPaid } from "./companion-answers.js";
+import { reserveOtherPaid } from "./companion-answers.js";
+import { FREE_POOL_USD, poolNow } from "./free-pool.js";
 
 export const STORIES_PER_DAY = 3;
 export const STORY_MODEL = "gemini-3.1-flash-lite";
@@ -311,13 +312,16 @@ export function splitParagraphs(text) {
 // 2026-10-03): text input, and output including thinking. A model missing here is never called, since its cost
 // couldn't be counted.
 export const STORY_PRICES = { "gemini-3.1-flash-lite": { input: 0.25, output: 1.5 } };
-export const STORY_BUDGET_USD = 100;   // a month, all accounts together; the STORY_BUDGET_USD variable overrides it
+// A month, all accounts together; the STORY_BUDGET_USD variable overrides it (lib/free-pool.js poolMicro).
+export const STORY_BUDGET_USD = FREE_POOL_USD;
 
 const month = (now = new Date()) => now.toISOString().slice(0, 7);
 const storyModel = env => env.STORY_MODEL || STORY_MODEL;
-export const budgetMicro = env => {
-  const usd = Number(env.STORY_BUDGET_USD ?? STORY_BUDGET_USD);
-  return Math.round((Number.isFinite(usd) && usd >= 0 ? usd : STORY_BUDGET_USD) * 1e6);
+// Whether the free pool has room for a story or its voice now: under the day's allowance (lib/free-pool.js; on its
+// soft step stories wait, so free answers keep coming).
+export const poolRoom = async (env, now = new Date()) => {
+  const state = await poolNow(env, now);
+  return state.used < state.soft;
 };
 
 // What one reply cost, in millionths of a dollar (rounded up), from its usageMetadata.
@@ -340,13 +344,11 @@ export async function storySpend(env, now = new Date()) {
   return row || { month: month(now), micro_usd: 0, calls: 0, stories: 0 };
 }
 
-// Whether a story may be written now: a priced model, and this month's spend under the budget. The spend includes
-// the stories' recordings (lib/storyvoice.js, voice_micro_usd: a column that exists once that feature has run).
+// Whether a story may be written now: a priced model, and room in the free pool (poolRoom), whose spend includes the
+// stories and their recordings (lib/storyvoice.js).
 export async function storyBudgetLeft(env, now = new Date()) {
   if (!STORY_PRICES[storyModel(env)]) return false;
-  const s = await storySpend(env, now);
-  return s.micro_usd + (s.voice_micro_usd || 0) + (s.reserved_micro || 0) +
-    await answerBudgetUsed(env, now) < budgetMicro(env);
+  return poolRoom(env, now);
 }
 
 async function addSpend(env, micro, kept, reservation, now, known = true) {

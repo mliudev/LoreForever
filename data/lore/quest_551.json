@@ -1,0 +1,78 @@
+{
+ "key": "quest:551",
+ "type": "quest",
+ "name": "The Ensorcelled Parchment",
+ "era": "classic",
+ "zone": "alterac",
+ "meta": {
+  "ids": [
+   551
+  ],
+  "level": "40",
+  "faction": "Alliance",
+  "start": "Ensorcelled Parchment",
+  "end": "Loremaster Dibbs",
+  "previous": "",
+  "next": "Stormpike's Deciphering",
+  "wiki": "The Ensorcelled Parchment",
+  "chain": [
+   "The Ensorcelled Parchment",
+   "Stormpike's Deciphering"
+  ],
+  "next_q": [
+   "Stormpike's Deciphering"
+  ],
+  "category": "Hillsbrad Foothills"
+ },
+ "summary": "A spell on a parchment makes its writing unreadable, apart from one word at the top: Nagaz. You are to take it to Loremaster Dibbs in Southshore.",
+ "sections": [
+  {
+   "title": "A Spell-Veiled Parchment",
+   "body": "A spell lies on the parchment and keeps its writing from being deciphered. Only a single word at the top can be made out, the name Nagaz. You are to take it to Loremaster Dibbs in Southshore.",
+   "spoiler": 0
+  },
+  {
+   "title": "What Dibbs Makes of It",
+   "body": "Dibbs asks whether this is yet more encrypted notes. Dibbs wishes every odd scrap of writing drifting out of Alterac could be decoded, but admits to lacking the knowledge.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is written on the parchment?",
+   "aliases": [
+    "what does the ensorcelled parchment say",
+    "parchment text",
+    "ensorcelled parchment words"
+   ],
+   "answer": "A spell keeps the writing from being read, save for a single word at the top: Nagaz."
+  },
+  {
+   "q": "Who should see the parchment?",
+   "aliases": [
+    "loremaster dibbs",
+    "who is dibbs",
+    "southshore loremaster"
+   ],
+   "answer": "Loremaster Dibbs in Southshore, who takes in scraps of lore gathered from the mountains."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "alterac",
+  "dibbs",
+  "ensorcelled",
+  "nagaz",
+  "parchment",
+  "southshore"
+ ],
+ "related": [
+  "quest:554",
+  "subzone:southshore",
+  "zone:alterac",
+  "topic:alterac-kingdom"
+ ],
+ "attribution": [
+  "The Ensorcelled Parchment"
+ ]
+}

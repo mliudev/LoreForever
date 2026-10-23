@@ -1,0 +1,100 @@
+{
+ "key": "quest:3063",
+ "type": "quest",
+ "name": "Vengeance on the Northspring",
+ "era": "classic",
+ "zone": "feralas",
+ "meta": {
+  "ids": [
+   3063
+  ],
+  "level": "50",
+  "start": "Talo Thornhoof",
+  "end": "Talo Thornhoof",
+  "wiki": null,
+  "previous": "",
+  "next": ""
+ },
+ "summary": "Talo Thornhoof was once a seasoned hunter who feared no creature, until harpies ambushed Talo in the forest. The hate has boiled inside ever since, and Talo asks you to take revenge on the Northspring harpies, found to the west.",
+ "sections": [
+  {
+   "title": "An Old Hunter's Grudge",
+   "body": "Talo remembers being a seasoned hunter who feared nothing that lived. Then came a day in the forest, honing a weapon once a hard fight was over, when harpies surrounded Talo. Talo barely dragged to safety, still hears their cries echoing, and was never the same afterward. All this time later the hate still boils, and Talo wants revenge.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Northspring Harpies",
+   "body": "The Northspring harpies live to the west. Talo wants four each of the Northspring Harpies, Roguefeathers, Windcallers and Slayers dead. Their wings are black as night, Talo warns, and they can slip out of sight into the darkness.",
+   "spoiler": 0
+  },
+  {
+   "title": "After the Hunt",
+   "body": "Talo, speaking as an old tauren, thanks you and says you have put a troubled mind at peace.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Talo Thornhoof?",
+   "aliases": [
+    "talo thornhoof lore",
+    "who gives vengeance on the northspring",
+    "talo feralas"
+   ],
+   "answer": "A seasoned hunter in days past, who feared no creature until harpies ambushed Talo in the forest. Talo was never the same afterward."
+  },
+  {
+   "q": "Where are the Northspring harpies located?",
+   "aliases": [
+    "northspring harpies location",
+    "where are northspring harpies",
+    "harpy location feralas"
+   ],
+   "answer": "To the west of Talo Thornhoof."
+  },
+  {
+   "q": "Why does Talo want revenge against the harpies?",
+   "aliases": [
+    "why kill northspring harpies",
+    "talo thornhoof backstory",
+    "why talo hates harpies"
+   ],
+   "answer": "Harpies ambushed Talo in the forest, surrounding Talo while honing a weapon after a fight, and Talo barely got away. Talo was never the same, and the hate still boils inside."
+  },
+  {
+   "q": "Which harpies does Talo want killed?",
+   "aliases": [
+    "vengeance on the northspring targets",
+    "which harpies to kill",
+    "northspring harpy types"
+   ],
+   "answer": "Four each of the Northspring Harpies, Northspring Roguefeathers, Northspring Windcallers and Northspring Slayers."
+  },
+  {
+   "q": "What do the Northspring harpies look like?",
+   "aliases": [
+    "harpy appearance",
+    "northspring harpy wings"
+   ],
+   "answer": "Talo says their wings are black as night, and warns that they can vanish into the darkness."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "feralas",
+  "harpies",
+  "northspring",
+  "revenge",
+  "roguefeather",
+  "slayer",
+  "talo thornhoof",
+  "windcaller"
+ ],
+ "related": [
+  "zone:feralas",
+  "topic:harpy"
+ ],
+ "attribution": [
+  "Classic quest text: Vengeance on the Northspring"
+ ]
+}

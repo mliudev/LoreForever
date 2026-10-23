@@ -15,9 +15,10 @@ import { startLink, decideLink, claimToken } from "../lib/devices.js";
 import { setupBilling, planFor, poolWindow, userSpend, capState, PLANS, PLAN_VOICE, LEGEND_BEST_PER_MONTH,
   RICHER_MODEL, STARTER_ANSWERS } from "../lib/billing.js";
 import { allowance, answerBudgetUsed } from "../lib/companion-answers.js";
+import { cutAtSentence } from "../lib/quest-pages.js";
 import { willoPick, hostedSpellings, AZEROTH_STUDIO, AZEROTH_PICKS, WILLO_PICKS, picksFor, NARRATOR_STUDIO, readsAloud,
-  replyMax, WHOLE_MAX_CHARS, SPEAK_MAX_CHARS } from "../lib/companion-voice.js";
-import { TRIAL, TASTE_ANSWERS } from "../lib/best-first.js";
+  replyMax, WHOLE_MAX_CHARS, SPEAK_MAX_CHARS, readsQuests } from "../lib/companion-voice.js";
+import { TRIAL, TASTE_ANSWERS, TRIAL_DAYS } from "../lib/best-first.js";
 import { CHARACTER_VOICES } from "../lib/character-voices.js";
 
 import { d1, assets } from "./helpers.mjs";
@@ -26,8 +27,20 @@ const ORIGIN = "https://preview.example";
 const NOW = Date.parse("2026-10-11T12:00:00Z");
 // The names respelled for the voices, as the site ships them (pipeline/lore/site_lore.py hosted_respellings).
 const HOSTED = JSON.parse(readFileSync(new URL("../public/lore/data/respell-hosted.json", import.meta.url), "utf8"));
+// A few quest pages as the site ships them (pipeline/lore/site_lore.py quest_pages: quest-pages/<id // 100>.json). 1001 is
+// a dwarf man's, with a night elf woman taking it in; 1002 a note nobody speaks; 1003 a giver whose people we have no
+// voice for; 1101 a page past SPEAK_MAX_CHARS.
+const LONG = Array.from({ length: 12 }, (_, i) => `Sentence number ${i + 1} of a very long page, said at some length.`).join(" ");
+const QUEST_PAGES = {
+  "/lore/data/quest-pages/10.json": {
+    "1001": { d: ["Bring me three boar tusks, friend. They're troubling the farm.", "dwarf-male"],
+              p: ["Have you the tusks?", "dwarf-male"], c: ["The farm is safe, thanks to you.", "nightelf-female"] },
+    "1002": { d: ["A weathered note: the vault lies under the old mill.", null] },
+    "1003": { d: ["Mind the pit, friend.", "draenei-male"] } },
+  "/lore/data/quest-pages/11.json": { "1101": { d: [LONG, "orc-male"] } },
+};
 const env = { DB: d1(), GEMINI_API_KEY: "test-key", SITE_FEATURES: "plans", DEEPINFRA_API_KEY: "di-test",
-              INWORLD_API_KEY: "iw-test", ASSETS: assets({ "/lore/data/respell-hosted.json": HOSTED }),
+              INWORLD_API_KEY: "iw-test", ASSETS: assets({ "/lore/data/respell-hosted.json": HOSTED, ...QUEST_PAGES }),
               HOSTED_VOICES: JSON.stringify({ willo: { deepinfra: "willo-studio", inworld: "willo-finest" } }) };
 const originalFetch = globalThis.fetch;
 // Two made-up MP3 halves: Inworld streams them as two chunks, DeepInfra sends them whole.
@@ -38,7 +51,7 @@ beforeEach(async (t) => {
   t.mock.timers.enable({ apis: ["Date"], now: NOW });
   await setup(env);
   await setupBilling(env);
-  for (const table of ["users", "sessions", "devices", "device_links", "rate_limits", "answer_spend", "story_spend",
+  for (const table of ["users", "sessions", "devices", "device_links", "rate_limits", "answer_spend", "free_pool_days", "story_spend",
                        "entitlements", "answer_user_spend", "answer_packs", "answer_holds", "starter_claims", "voice_replies",
                        "best_first", "best_first_days"])
     env.DB.sqlite.exec(`DELETE FROM ${table}`);
@@ -75,6 +88,7 @@ async function companionPlayer(sub, plan) {
       body: JSON.stringify({ voice: "willo", ...body }) }) });
     const type = res.headers.get("Content-Type") || "";
     return { status: res.status, type, voice: res.headers.get("X-LF-Voice"),
+             ...(res.headers.has("X-LF-Text") ? { text: decodeURIComponent(res.headers.get("X-LF-Text")) } : {}),
              body: type.startsWith("audio/") ? Buffer.from(await res.arrayBuffer()) : res.status === 204 ? null : await res.json() };
   };
   const voice = async () => (await allowance(env, user.id)).voice;
@@ -94,6 +108,14 @@ async function companionPlayer(sub, plan) {
     "(claim, user_id, used, voices, started) VALUES (?, ?, ?, ?, ?)").run(`taste:test-${user.id}`, user.id, used, voices,
     daysAgo === null ? null : new Date(NOW - daysAgo * 86400e3).toISOString());
   return { user, speak, voice, saidBest, spent, tasted };
+}
+
+// Every plan hears her whole answer since 10/21 (PLAN_VOICE whole, replies to WHOLE_MAX_CHARS); a test of the
+// SPEAK_MAX_CHARS cap a reply had before turns it off for its plans, put back when it ends.
+function shortReplies(t, ...ids) {
+  const was = ids.map(id => PLAN_VOICE[id].whole);
+  for (const id of ids) PLAN_VOICE[id].whole = false;
+  t.after(() => ids.forEach((id, i) => { PLAN_VOICE[id].whole = was[i]; }));
 }
 
 // A Champion whose plan month's finest replies are all said: its Willo voice is the studio one until the renewal.
@@ -118,16 +140,19 @@ test("who says each plan's answers: Free's studio voice, Hero's finest, Champion
   const champion = await companionPlayer("champ", "champion"), legend = await companionPlayer("legend", "legend");
   // azeroth, whole, readings (the voices and plans picks, 10/21): the Voices of Azeroth in her picker and her whole
   // answer spoken are Legend's (and the trial tries Legend's voices); the narrator reads short answers from Hero up.
-  const plain = { azeroth: false, whole: false, readings: false, pick: "sprite" };
+  // npcReadings: quest pages with no recording in the giver's voice (speakQuestPage): Champion and up, and the trial.
+  const plain = { azeroth: false, whole: true, readings: false, npcReadings: false, pick: "sprite" };
   const studio = { tier: "hosted", top: "studio", now: "studio", choice: false, ...plain };
   const finest = { tier: "hosted", top: "finest", now: "finest", ...plain, readings: true };
-  assert.deepEqual(await free.voice(), { ...studio, now: "finest", choice: true, azeroth: true, starterLeft: 0 },
+  assert.deepEqual(await free.voice(), { ...studio, now: "finest", choice: true, azeroth: true, readings: true,
+    starterLeft: 0 },
     "its first answers at Willo's best (below), her voice picked from all of hers in its first-run trial's days");
   free.tasted(TASTE_ANSWERS, 0, 15);
   assert.deepEqual(await free.voice(), { ...studio, starterLeft: 0 }, "the studio voice always: no starter to count down");
   assert.deepEqual(await hero.voice(), { ...finest, choice: false, bestLeft: 1500 });
-  assert.deepEqual(await champion.voice(), { ...finest, choice: true, bestLeft: 3000 });
-  assert.deepEqual(await legend.voice(), { ...finest, choice: true, azeroth: true, whole: true, bestLeft: LEGEND_BEST_PER_MONTH });
+  assert.deepEqual(await champion.voice(), { ...finest, choice: true, npcReadings: true, bestLeft: 3000 });
+  assert.deepEqual(await legend.voice(), { ...finest, choice: true, azeroth: true, whole: true, npcReadings: true,
+                                           bestLeft: LEGEND_BEST_PER_MONTH });
   assert.equal(LEGEND_BEST_PER_MONTH, 6000);
   // The free plan asks out loud, and those questions are answered aloud (below) in the studio voice, at any time of
   // the month; typed questions get text (Mike, 2026-10-14; always, Mike, 2026-10-19).
@@ -245,7 +270,8 @@ test("Voices of Azeroth (LOR-609): Legend may pick a people's voice as Willo's, 
   } finally { delete env.CHARACTER_VOICES; }
 });
 
-test("Champion past its month's finest replies: every reply in Chatterbox, counted once across its pieces, its cost apart from the text cap", async () => {
+test("Champion past its month's finest replies: every reply in Chatterbox, counted once across its pieces, its cost apart from the text cap", async (t) => {
+  shortReplies(t, "champion");
   const { user, speak } = await tiredChampion("champ");
   const earlier = "SELECT COUNT(*) AS n FROM voice_replies WHERE reply NOT LIKE 'earlier-%'";
   const pieces = ["Thrall leads the Horde,", "from his seat in Orgrimmar, beyond the gates of Durotar."];
@@ -299,7 +325,7 @@ test("Legend: Inworld's richer voice for the 6,000 replies of its plan month, th
   assert.equal((await speak({ text: "The rest of it.", reply: "reply-best" })).status, 200);
   assert.equal(calls[1].provider, "inworld", "a reply keeps its voice");
   assert.deepEqual(await voice(), { tier: "hosted", top: "finest", now: "studio", back: "2026-10-31T12:00:00.000Z",
-                                    choice: true, azeroth: true, whole: true, readings: true, pick: "sprite", bestLeft: 0 },
+                                    choice: true, azeroth: true, whole: true, readings: true, npcReadings: true, pick: "sprite", bestLeft: 0 },
                    "the studio voice until the plan month renews");
   assert.equal((await speak({ text: "Then the studio voice.", reply: "reply-next" })).status, 200);
   assert.equal(calls[2].provider, "deepinfra");
@@ -341,22 +367,30 @@ test("a reply stays in the voice that said its first piece, when room runs short
   // on the PC), and nothing of the reply is ever in two hosted voices.
   env.DB.sqlite.exec("DELETE FROM answer_user_spend");
   calls = [];
-  let open, waiting = 0;
+  let open, arrived = () => {}, waiting = 0;
   const gate = new Promise(resolve => { open = resolve; });
   const mocked = globalThis.fetch;
   globalThis.fetch = async (url, options) => {
     if (new URL(url).hostname !== "api.inworld.ai") return mocked(url, options);
     waiting++;
+    arrived();
     await gate;
     if (JSON.parse(options.body).text !== "Lok'tar.") return mocked(url, options);
     calls.push({ provider: "inworld" });
     return new Response("overloaded", { status: 503 });
   };
-  const until = async ok => { for (let i = 0; i < 500 && !ok(); i++) await new Promise(setImmediate); assert.ok(ok()); };
-  const first = speak({ text: "Lok'tar.", reply: "reply-both" });
-  await until(() => waiting === 1);
-  const second = speak({ text: "Victory or death.", reply: "reply-both" });
-  await until(() => waiting === 2);
+  // Each piece is waited for until it reaches Inworld (not for a number of event-loop turns: the way there is async
+  // work of its own, which a busy runner can take longer over), or fails the test if it answers without asking.
+  const send = async body => {
+    const there = new Promise(resolve => { arrived = resolve; });
+    const piece = speak(body);
+    await Promise.race([there, piece.then(r => assert.fail(`answered ${r.status} without asking Inworld`))]);
+    return { piece };        // (wrapped: an async function returning the promise itself would wait for its answer)
+  };
+  const { piece: first } = await send({ text: "Lok'tar.", reply: "reply-both" });
+  assert.equal(waiting, 1);
+  const { piece: second } = await send({ text: "Victory or death.", reply: "reply-both" });
+  assert.equal(waiting, 2);
   open();
   const [a, b] = await Promise.all([first, second]);
   assert.deepEqual([a.status, b.status], [503, 200]);
@@ -399,33 +433,6 @@ test("the free plan's replies are all in the studio voice, counted by the calend
   t.mock.timers.setTime(Date.parse("2026-11-02T12:00:00Z"));
   assert.equal((await speak({ text: "A new month.", reply: "free-reply-nov" })).status, 200);
   assert.deepEqual(rows().map(r => [r.reply, r.period]), [["free-reply-nov", "2026-11-01"]]);
-});
-
-test("a free plan with a spoken starter (no plan has one now): its first replies in the studio voice, paid by the shared free budget; then text", async (t) => {
-  freeStarter(t);
-  const { user, speak, voice, tasted } = await companionPlayer("newcomer");
-  tasted(TASTE_ANSWERS, 0, 15);
-  for (const text of ["Welcome, traveler.", "The rest of it."])
-    assert.equal((await speak({ text, reply: "starter-01" })).status, 200);
-  assert.deepEqual(calls.map(c => [c.provider, c.body.voice_id]), [["deepinfra", "willo-studio"], ["deepinfra", "willo-studio"]]);
-  const said = "Welcome, traveler.The rest of it.".length;
-  assert.equal(await answerBudgetUsed(env), said, "the free budget pays for it");
-  assert.equal(await userSpend(env, user.id, new Date(), { total: true }), 0);
-  assert.equal((await voice()).starterLeft, STARTER_ANSWERS - 1, "two pieces, one reply");
-  // A reply nothing could say isn't one of them, and its cost goes back.
-  failing.add("deepinfra");
-  assert.equal((await speak({ text: "Nobody hears this.", reply: "starter-lost" })).status, 503);
-  failing.clear();
-  assert.deepEqual([(await voice()).starterLeft, await answerBudgetUsed(env)], [STARTER_ANSWERS - 1, said]);
-  // The last one, then text: nothing more is said, here or on the PC.
-  const add = env.DB.sqlite.prepare("INSERT INTO voice_replies (user_id, reply, period, pieces, heard, created) " +
-    "VALUES (?, ?, 'starter', 1, 1, ?)");
-  for (let i = 2; i < STARTER_ANSWERS; i++) add.run(user.id, `starter-${i}`, new Date(NOW).toISOString());
-  assert.equal((await speak({ text: "The last one.", reply: "starter-30" })).status, 200);
-  const after = await allowance(env, user.id);
-  assert.deepEqual([after.voice.starterLeft, after.voice.tier, after.features.voices], [0, "local", "none"]);
-  const more = await speak({ text: "One more?", reply: "starter-31" });
-  assert.deepEqual([more.status, more.body.reason], [402, "spent"]);
 });
 
 test("the voice steps down, finest to studio to the PC, before a month would cost more than the plan brings", async () => {
@@ -490,20 +497,6 @@ test("Willo's tips in the voice its replies get, costing what a reply would but 
   assert.deepEqual([out.status, out.body.reason, calls.length], [402, "spent", 2]);
 });
 
-test("a free plan with a spoken starter (no plan has one now): Willo's tips are studio on the free budget, never one of its replies, and text after it", async (t) => {
-  freeStarter(t);
-  const tip = "Westfall was farmland once, before the Defias came.";
-  const free = await companionPlayer("newcomer");
-  free.tasted();
-  assert.equal((await free.speak({ text: tip, line: true })).voice, "studio:sprite");
-  assert.deepEqual([(await free.voice()).starterLeft, await answerBudgetUsed(env)], [STARTER_ANSWERS, tip.length]);
-  const add = env.DB.sqlite.prepare("INSERT INTO voice_replies (user_id, reply, period, pieces, heard, created) " +
-    "VALUES (?, ?, 'starter', 1, 1, ?)");
-  for (let i = 0; i < STARTER_ANSWERS; i++) add.run(free.user.id, `starter-${i}`, new Date(NOW).toISOString());
-  const after = await free.speak({ text: tip, line: true });
-  assert.deepEqual([after.status, after.body.reason, calls.length], [402, "spent", 1]);
-});
-
 test("a free player's first answers asked out loud are said in Willo's finest voice, on the taste's day cap", async () => {
   const { user, speak, voice, tasted } = await companionPlayer("newcomer");
   const day = () => env.DB.sqlite.prepare("SELECT replies, lines, capped, unreachable, spent_micro FROM best_first_days").get();
@@ -517,7 +510,7 @@ test("a free player's first answers asked out loud are said in Willo's finest vo
   }
   const letters = "Welcome, traveler.The rest of it.".length;
   assert.deepEqual(calls.map(c => [c.provider, c.body.voiceId]), [["inworld", "willo-finest"], ["inworld", "willo-finest"]]);
-  assert.deepEqual([owed(), await answerBudgetUsed(env)], [0, 15 * letters]);
+  assert.deepEqual([owed(), await answerBudgetUsed(env)], [0, 0], "on the taste's own cap, never the free pool");
   assert.deepEqual(env.DB.sqlite.prepare("SELECT DISTINCT period FROM voice_replies").all().map(r => r.period), ["taste"]);
   assert.deepEqual([day().replies, day().spent_micro], [1, 15 * letters]);
   // A reply no taste answer earned: the plan's own (the free plan's studio voice).
@@ -593,7 +586,8 @@ test("a new player's first-run trial: her voice from all of hers, and characters
     [200, "deepinfra", "willo-studio", null]);
 });
 
-test("a piece asked for again counts its letters once, and a later piece's voice gets the time the companion waits", async () => {
+test("a piece asked for again counts its letters once, and a later piece's voice gets the time the companion waits", async (t) => {
+  shortReplies(t, "hero");
   // LOR-673: the companion gave up on a slow later piece and asked again; the site had counted its letters when it
   // started, so the second ask counted them twice and a reply past about 300 letters was refused as too long (413),
   // the rest of it in captions. Each piece is numbered now, and counted once.
@@ -722,7 +716,12 @@ test("short answers in the narrator's voice (the 10/21 picks): Hero and up, the 
   assert.equal(env.DB.sqlite.prepare("SELECT COUNT(*) AS n FROM voice_replies").get().n, 0);
   assert.equal(env.DB.sqlite.prepare("SELECT voice_micro FROM answer_user_spend WHERE user_id = ?").get(hero.user.id)
     .voice_micro, text.length);
-  // Free sees short answers as text; a narrator that isn't ours (a community narrator is never copied) is no reading.
+  // The free plan's first-run trial hears them too (the PM, 10/21: "try everything" means everything), on the shared
+  // free budget, not the player's month; after its days, Free sees short answers as text.
+  assert.equal((await free.speak({ text, reading: true, narrator: "chronicler" })).voice, "studio:chronicler");
+  assert.equal(env.DB.sqlite.prepare("SELECT COUNT(*) AS n FROM answer_user_spend WHERE user_id = ?").get(free.user.id).n, 0);
+  free.tasted(TASTE_ANSWERS, 0, 15);
+  // A narrator that isn't ours (a community narrator is never copied) is no reading.
   const before = calls.length;
   assert.deepEqual((await free.speak({ text, reading: true, narrator: "chronicler" })).body,
     { ok: false, speak: "local", reason: "plan" });
@@ -748,7 +747,160 @@ test("short answers in the narrator's voice (the 10/21 picks): Hero and up, the 
   assert.equal(readsAloud({ ...PLANS.hero, voice: PLAN_VOICE.hero }), true);
 });
 
-test("Legend hears her whole answer spoken: its replies may run to WHOLE_MAX_CHARS, Champion's stop at SPEAK_MAX_CHARS", async () => {
+test("quest pages with no recording: the giver's people and gender in the studio voice, a narrator for a book (Champion and up)", async () => {
+  const champion = await companionPlayer("champ-quest", "champion"), legend = await companionPlayer("legend-quest", "legend");
+  const read = (who, quest, narrator = "chronicler", more = {}) => who.speak({ reading: true, quest, narrator, ...more });
+  // A dwarf man gives the quest: the studio clone of his reference (the one the recorded packs use), and the words the
+  // site has, sent back for the captions.
+  const given = await read(champion, "quest:1001#detail");
+  assert.deepEqual([given.status, given.voice, given.body], [200, "studio:dwarf-male", MP3]);
+  assert.equal(given.text, "Bring me three boar tusks, friend. They're troubling the farm.");
+  assert.deepEqual([calls.at(-1).provider, calls.at(-1).body.voice_id, calls.at(-1).body.text], ["deepinfra",
+    AZEROTH_STUDIO["dwarf-male"], given.text]);
+  // The progress is his too; the completion is a night elf woman's, whatever narrator the player has.
+  assert.equal((await read(champion, "quest:1001#progress", "female")).voice, "studio:dwarf-male");
+  const done = await read(legend, "quest:1001#complete", "female");
+  assert.deepEqual([done.voice, calls.at(-1).body.voice_id], ["studio:nightelf-female", AZEROTH_STUDIO["nightelf-female"]]);
+  // A note nobody speaks is the narrator at the top of the player's list; a giver of a people we have no voice for too.
+  assert.deepEqual([(await read(champion, "quest:1002#detail")).voice, calls.at(-1).body.voice_id],
+    ["studio:chronicler", NARRATOR_STUDIO.chronicler]);
+  assert.deepEqual([(await read(legend, "quest:1002#detail", "female")).voice, calls.at(-1).body.voice_id],
+    ["studio:female", NARRATOR_STUDIO.female]);
+  assert.deepEqual([(await read(legend, "quest:1003#detail", "female")).voice, calls.at(-1).body.voice_id],
+    ["studio:female", NARRATOR_STUDIO.female]);
+  assert.equal(calls.every(c => c.provider === "deepinfra"), true, "the studio engine only");
+  // Not an answer: no reply counted. Its cost, the studio engine's $1 a million letters, is on the player's month.
+  assert.equal(env.DB.sqlite.prepare("SELECT COUNT(*) AS n FROM voice_replies").get().n, 0);
+  assert.equal(env.DB.sqlite.prepare("SELECT voice_micro FROM answer_user_spend WHERE user_id = ?").get(champion.user.id).voice_micro,
+    "Bring me three boar tusks, friend. They're troubling the farm.".length + "Have you the tusks?".length
+      + "A weathered note: the vault lies under the old mill.".length);
+  assert.equal(env.DB.sqlite.prepare("SELECT COUNT(*) AS n FROM answer_holds").get().n, 0);
+  // Counted in the plan's usage as readings, by who said them.
+  assert.deepEqual(env.DB.sqlite.prepare("SELECT said, replies FROM voice_days WHERE kind = 'reading' AND user_id = ? ORDER BY said")
+    .all(champion.user.id).map(r => [r.said, r.replies]), [["studio:chronicler", 1], ["studio:dwarf-male", 2]]);
+  // The Pages variables change a voice without a code change: HOSTED_VOICES for a slot, NARRATOR_VOICES for a narrator.
+  env.HOSTED_VOICES = JSON.stringify({ "dwarf-male": { deepinfra: "new-dwarf" }, willo: { deepinfra: "willo-studio", inworld: "willo-finest" } });
+  try {
+    await read(champion, "quest:1001#detail");
+    assert.equal(calls.at(-1).body.voice_id, "new-dwarf");
+  } finally { env.HOSTED_VOICES = JSON.stringify({ willo: { deepinfra: "willo-studio", inworld: "willo-finest" } }); }
+});
+
+test("quest pages: Hero and Free get the plan's text, a narrator that isn't ours or an unknown page get none, the studio voice down is text", async () => {
+  const hero = await companionPlayer("hero-quest", "hero"), free = await companionPlayer("free-quest");
+  const champion = await companionPlayer("champ-quest2", "champion");
+  const read = (who, quest, narrator = "chronicler") => who.speak({ reading: true, quest, narrator });
+  // Characters' own voices are Champion's: Hero reads short answers aloud but not quest pages, Free neither.
+  assert.deepEqual((await read(hero, "quest:1001#detail")).body, { ok: false, speak: "local", reason: "plan" });
+  assert.deepEqual((await read(free, "quest:1001#detail")).body, { ok: false, speak: "local", reason: "plan" });
+  assert.equal((await champion.speak({ reading: true, quest: "quest:1001#detail", narrator: "kael-community" })).body.reason, "narrator");
+  // A page the site doesn't have, and keys that aren't pages: text, with nothing asked of a provider or held.
+  for (const quest of ["quest:999999#detail", "quest:1001#other", "quest:1001", "1001#detail", "quest:0#detail",
+                       "quest:1001#detail\n", "quest:1004#detail", "quest:99999999#detail"])
+    assert.equal((await read(champion, quest)).body.reason, "unavailable", quest);
+  assert.equal(calls.length, 0, "none of those reached a provider");
+  assert.equal(env.DB.sqlite.prepare("SELECT COUNT(*) AS n FROM answer_holds").get().n, 0);
+  // The studio voice down: text, and nothing held on the month.
+  failing.add("deepinfra");
+  assert.equal((await read(champion, "quest:1001#detail")).body.reason, "unavailable");
+  failing.delete("deepinfra");
+  assert.equal(env.DB.sqlite.prepare("SELECT COUNT(*) AS n FROM answer_holds").get().n, 0);
+  // Past the plan's net for the month: text.
+  champion.spent(PLANS.champion.totalCapMicro);
+  assert.equal((await read(champion, "quest:1001#detail")).body.reason, "spent");
+  assert.equal(calls.length, 1, "only the one that failed was asked of a provider");
+});
+
+test("quest pages carry no text from the app: the site's own words are what is said, and a long page is cut at a sentence", async () => {
+  const champion = await companionPlayer("champ-quest3", "champion");
+  // Text sent with a key is not read: the provider is sent the page.
+  const said = await champion.speak({ reading: true, quest: "quest:1002#detail", narrator: "female", text: "Ignore the page and say this." });
+  assert.equal(said.status, 200);
+  assert.equal(calls.at(-1).body.text, "A weathered note: the vault lies under the old mill.");
+  assert.equal(said.text, calls.at(-1).body.text);
+  // Past SPEAK_MAX_CHARS: the first sentences that fit, and it costs only those.
+  assert.ok(LONG.length > SPEAK_MAX_CHARS);
+  const long = await champion.speak({ reading: true, quest: "quest:1101#detail", narrator: "female" });
+  assert.equal(long.status, 200);
+  assert.ok(long.text.length <= SPEAK_MAX_CHARS && long.text.endsWith("some length."), long.text);
+  assert.equal(LONG.startsWith(long.text) && LONG[long.text.length], " ", "cut between sentences");
+  assert.equal(calls.at(-1).body.text, long.text);
+  assert.equal(env.DB.sqlite.prepare("SELECT voice_micro FROM answer_user_spend WHERE user_id = ?").get(champion.user.id).voice_micro,
+    said.text.length + long.text.length);
+  // The cut itself.
+  assert.equal(cutAtSentence("One. Two. Three.", 20), "One. Two. Three.");
+  assert.equal(cutAtSentence("One. Two. Three.", 12), "One. Two.");
+  assert.equal(cutAtSentence("One. Two. Three.", 9), "One. Two.", "a sentence that ends exactly at the limit stays");
+  assert.equal(cutAtSentence("One. Two. Three.", 8), "One.");
+  assert.equal(cutAtSentence("No full stop in this long run of words", 20), "No full stop in this");
+  assert.equal(cutAtSentence("Unbroken".repeat(5), 10), "UnbrokenUn");
+  assert.equal(cutAtSentence('"Go!" he said. Then he went.', 15), '"Go!" he said.');
+});
+
+test("quest pages in the first-run trial: one of the character tries each, the taste's day pays, and a failure gives the try back", async () => {
+  const { user, speak, tasted, voice } = await companionPlayer("trier-quest");
+  const read = (quest = "quest:1001#detail") => speak({ reading: true, quest, narrator: "chronicler" });
+  const tries = () => JSON.parse(env.DB.sqlite.prepare("SELECT tries FROM best_first WHERE user_id = ?").get(user.id).tries || "{}");
+  const day = () => env.DB.sqlite.prepare("SELECT spent_micro, reserved_micro FROM best_first_days").get();
+  // Before the trial's first live answer: nothing to try with (and the companion isn't told it can).
+  assert.deepEqual((await read()).body, { ok: false, speak: "local", reason: "plan" });
+  assert.equal((await voice()).npcReadings, false);
+  tasted(TASTE_ANSWERS, 0, 1);
+  assert.equal((await voice()).npcReadings, true);
+  const first = await read();
+  assert.deepEqual([first.status, first.voice, calls.at(-1).body.voice_id], [200, "studio:dwarf-male", AZEROTH_STUDIO["dwarf-male"]]);
+  assert.deepEqual(tries(), { cast: 1 });
+  // On the taste's day, never the free pool (lib/free-pool.js) or a player's month.
+  const letters = first.text.length;
+  assert.deepEqual([await answerBudgetUsed(env), day().spent_micro, day().reserved_micro], [0, letters, letters]);
+  assert.equal(env.DB.sqlite.prepare("SELECT COUNT(*) AS n FROM answer_user_spend").get().n, 0);
+  assert.equal(env.DB.sqlite.prepare("SELECT COUNT(*) AS n FROM voice_replies").get().n, 0);
+  // The same page again is another try; a page the site doesn't have takes none.
+  assert.equal((await read()).status, 200);
+  assert.equal((await read("quest:999999#detail")).body.reason, "unavailable");
+  assert.deepEqual(tries(), { cast: 2 });
+  // Nothing could say it: the try goes back, and so does what was held.
+  failing.add("deepinfra");
+  assert.equal((await read()).body.reason, "unavailable");
+  failing.delete("deepinfra");
+  assert.deepEqual([tries(), day().reserved_micro], [{ cast: 2 }, 2 * letters]);
+  // The day's cap reached: text, and the try goes back.
+  env.TASTE_DAY_USD = "0";
+  try {
+    assert.equal((await read()).body.reason, "spent");
+    assert.deepEqual(tries(), { cast: 2 });
+  } finally { delete env.TASTE_DAY_USD; }
+  // All the tries used (they are the characters' replies' too): text, and the companion is no longer told.
+  env.DB.sqlite.prepare("UPDATE best_first SET tries = ? WHERE user_id = ?").run(JSON.stringify({ cast: TRIAL.cast }), user.id);
+  assert.equal((await read()).body.reason, "plan");
+  assert.equal((await voice()).npcReadings, false);
+  // One left: the last, then none.
+  env.DB.sqlite.prepare("UPDATE best_first SET tries = ? WHERE user_id = ?").run(JSON.stringify({ cast: TRIAL.cast - 1 }), user.id);
+  assert.equal((await read()).status, 200);
+  assert.equal((await read()).body.reason, "plan");
+  // The trial's days over: text.
+  env.DB.sqlite.prepare("UPDATE best_first SET tries = '{}' WHERE user_id = ?").run(user.id);
+  tasted(TASTE_ANSWERS, 0, TRIAL_DAYS + 1);
+  assert.equal((await read()).body.reason, "plan");
+  assert.equal((await voice()).npcReadings, false);
+});
+
+test("quest pages: the allowance says who may ask (Champion and up, the trial), and Hero's free beta month tries them too", async () => {
+  const hero = await companionPlayer("hero-flag", "hero"), champion = await companionPlayer("champ-flag", "champion");
+  const legend = await companionPlayer("legend-flag", "legend"), free = await companionPlayer("free-flag");
+  assert.deepEqual([hero, champion, legend, free].length, 4);
+  assert.deepEqual(await Promise.all([hero, champion, legend, free].map(async p => (await p.voice()).npcReadings)),
+    [false, true, true, false]);
+  assert.equal(readsQuests({ voice: PLAN_VOICE.champion }), true);
+  assert.equal(readsQuests({ voice: PLAN_VOICE.hero }), false);
+  assert.equal(readsQuests({ voice: PLAN_VOICE.hero }, { claim: "c", on: true, left: { cast: 3 } }), true);
+  assert.equal(readsQuests({ voice: PLAN_VOICE.hero }, { claim: "c", on: true, left: { cast: 0 } }), false);
+  assert.equal(readsQuests({ voice: PLAN_VOICE.hero }, { claim: null, on: true, left: { cast: 20 } }), false,
+    "a trial that hasn't started (no live answer yet) has no tries to take");
+});
+
+test("every plan hears her whole answer spoken (10/21): replies run to WHOLE_MAX_CHARS; without it, SPEAK_MAX_CHARS", async (t) => {
+  shortReplies(t, "champion");
   const legend = await companionPlayer("legend-whole", "legend"), champion = await companionPlayer("champ-whole", "champion");
   const piece = "Thrall chose Durotar for its red earth, which reminded the orcs of Draenor, and named it for his father. "
     .repeat(3).slice(0, 300);
@@ -761,6 +913,7 @@ test("Legend hears her whole answer spoken: its replies may run to WHOLE_MAX_CHA
   assert.equal((await champion.speak({ text: piece, reply: "reply-short", piece: 2 })).status, 413, "past 600 letters");
   assert.equal(replyMax({ voice: PLAN_VOICE.legend }), WHOLE_MAX_CHARS);
   assert.equal(replyMax({ voice: PLAN_VOICE.champion }), SPEAK_MAX_CHARS);
+  for (const id of ["free", "hero", "legend"]) assert.equal(replyMax({ voice: PLAN_VOICE[id] }), WHOLE_MAX_CHARS, id);
 });
 
 test("the voice an account last picked on its PC is remembered: a phone's speak without a pick hears it, within its plan", async () => {
@@ -776,4 +929,22 @@ test("the voice an account last picked on its PC is remembered: a phone's speak 
   assert.equal((await champ.voice()).pick, "sprite");
   await champ.speak({ text: "Hello.", reply: "reply-pc-03", pick: "moonwell" });
   assert.equal((await champ.voice()).pick, "moonwell");
+});
+
+test("the last finest reply of a new player's first answers is said whole: its later pieces stay with it, never 'long'", async () => {
+  // Mike's 0.25.0 QA (10/21): with his first answers' finest replies just used, the rest of a reply went to captions
+  // ("long") and the next replies to the PC's voice. Once the taste was all said (tasteSaid), this isolate sent a reply's
+  // later pieces down the plan's own path, which found the reply under the taste's period and called it too long.
+  const { speak, tasted } = await companionPlayer("last-finest");
+  tasted(TASTE_ANSWERS, 1, 1);
+  const p = n => "Sten Stoutarm has a courier task for you, Coldridge Valley Mail Delivery, out by the road. ".slice(0, n);
+  const said = [];
+  for (const [i, t] of [[0, p(60)], [1, p(90)], [2, p(90)]])
+    said.push(await speak({ text: t, reply: "last-0001", piece: i }));
+  assert.deepEqual(said.map(r => [r.status, r.body?.reason]), [[200, undefined], [200, undefined], [200, undefined]]);
+  assert.deepEqual(calls.slice(-3).map(c => c.provider), ["inworld", "inworld", "inworld"], "one voice, the finest");
+  // The next reply: the plan's own (Free's studio voice), whole.
+  for (const [i, t] of [[0, p(60)], [1, p(90)]])
+    assert.equal((await speak({ text: t, reply: "next-0001", piece: i })).status, 200);
+  assert.deepEqual(calls.slice(-2).map(c => c.provider), ["deepinfra", "deepinfra"]);
 });

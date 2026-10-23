@@ -16,6 +16,8 @@
 // (experiments/compare/inworld_clones.json) and prints the wrangler commands that put each WAV in R2. The Pages
 // variable CHARACTER_VOICES (JSON in the same shape) adds or replaces entries without a code change. The reference
 // audio is read from R2 by the site alone and never sent to a player.
+import { readClient, atLeast } from "./client-version.js";
+
 export const CHARACTER_VOICES = {
   "dwarf-female": {
     "r2": "character-voices/dwarf-female.wav",
@@ -202,8 +204,8 @@ export function voicePhrase(slot) {
 // set_voice offer) waits for one; an older companion only knows her first five.
 export const AZEROTH_FROM = [0, 20, 1];
 export function hasAzeroth(client) {
-  const v = (/^companion\/(\d+)\.(\d+)\.(\d+)/.exec(String(client || "")) || []).slice(1).map(Number);
-  return v.length === 3 && (v[0] - AZEROTH_FROM[0] || v[1] - AZEROTH_FROM[1] || v[2] - AZEROTH_FROM[2]) >= 0;
+  const c = readClient(client, { loose: true });
+  return c.platform === "willo" && atLeast(c.version, AZEROTH_FROM);
 }
 
 // A provenance that names a source we have the rights to: our own design, a consented actor, or an open license.

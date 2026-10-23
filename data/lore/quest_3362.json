@@ -1,0 +1,91 @@
+{
+ "key": "quest:3362",
+ "type": "quest",
+ "name": "Thistleshrub Valley",
+ "era": "classic",
+ "zone": "tanaris",
+ "meta": {
+  "ids": [
+   3362
+  ],
+  "level": "50",
+  "faction": "Neutral",
+  "start": "Tran'rek",
+  "end": "Tran'rek",
+  "previous": "",
+  "next": "",
+  "wiki": "Thistleshrub Valley (quest)",
+  "chain": [],
+  "category": "Tanaris"
+ },
+ "summary": "Tran'rek in Gadgetzan wants to get into Thistleshrub Valley, but the strange beasts there keep them away. Clear some of the thistleshrubs out, and Tran'rek might think about going back.",
+ "sections": [
+  {
+   "title": "A Dangerous Valley",
+   "body": "Thistleshrub Valley lies south-west of Gadgetzan, and Tran'rek calls it a mighty dangerous place. They do not trust the strange beasts there, gnarled thistleshrubs and thistleshrub rootshapers, and with so many around they will not go back.",
+   "spoiler": 0
+  },
+  {
+   "title": "Thinning the Thistleshrubs",
+   "body": "Tran'rek wants eight gnarled thistleshrubs and eight thistleshrub rootshapers cleared out. There is one condition: Tran'rek wants a closer look at the cactus in the valley, so some of it must be left in one piece.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who asks for help with Thistleshrub Valley?",
+   "aliases": [
+    "quest giver",
+    "tran'rek location",
+    "who offers thistleshrub valley"
+   ],
+   "answer": "Tran'rek, who is in Gadgetzan."
+  },
+  {
+   "q": "Where is Thistleshrub Valley?",
+   "aliases": [
+    "thistleshrub valley location",
+    "where is valley",
+    "find valley tanaris"
+   ],
+   "answer": "It lies south-west of Gadgetzan."
+  },
+  {
+   "q": "Which creatures need clearing out?",
+   "aliases": [
+    "targets",
+    "what to kill",
+    "which thistleshrubs"
+   ],
+   "answer": "Eight gnarled thistleshrubs and eight thistleshrub rootshapers."
+  },
+  {
+   "q": "Why does Tran'rek want some of the cactus left in one piece?",
+   "aliases": [
+    "tranrek motive",
+    "why go to valley",
+    "cacti interest"
+   ],
+   "answer": "Tran'rek wants to take a closer look at the cactus in the valley, so some of it should be left in one piece."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "cactus",
+  "gadgetzan",
+  "gnarled thistleshrub",
+  "rootshaper",
+  "tanaris",
+  "thistleshrub",
+  "tran'rek",
+  "thistleshrub valley"
+ ],
+ "related": [
+  "subzone:thistleshrub-valley",
+  "subzone:gadgetzan",
+  "zone:tanaris"
+ ],
+ "attribution": [
+  "Thistleshrub Valley (quest)"
+ ]
+}

@@ -63,8 +63,8 @@ async function plans({ request, env }) {
   const offers = await launchOffers(env, user?.id || null);
   if (user) Object.assign(offers, await creatorOffers(env, user.id, offers));
   const beta = launchWeek(env);
-  // The Voices of Azeroth, the narrator's readings and Legend's whole answer in the plans' words once the released
-  // companion has them (lib/features.js azeroth, readings, whole).
+  // The Voices of Azeroth and the narrator's readings in the plans' words once the released companion has them
+  // (lib/features.js azeroth, readings).
   const flags = cardFlags(env), features = planFeatures(flags);
   return ok({
     on: true, current,

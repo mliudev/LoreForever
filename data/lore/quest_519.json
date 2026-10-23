@@ -1,0 +1,92 @@
+{
+ "key": "quest:519",
+ "type": "quest",
+ "name": "The Crown of Will",
+ "era": "classic",
+ "zone": "hillsbrad",
+ "meta": {
+  "ids": [
+   519
+  ],
+  "level": "41",
+  "faction": "Horde",
+  "start": "Melisara",
+  "end": "Melisara",
+  "previous": "The Crown of Will (2)",
+  "next": "The Crown of Will (4)",
+  "wiki": "The Crown of Will (3)",
+  "chain": [],
+  "prev_q": [
+   "The Crown of Will (2)"
+  ],
+  "next_q": [
+   "The Crown of Will (4)"
+  ],
+  "category": "Hillsbrad Foothills",
+  "chain_tpl": [
+   "Crown of Will"
+  ]
+ },
+ "summary": "With the ogres' defenses weakened, Melisara in Tarren Mill wants the heads of Mug'Thol's three lieutenants, Targ, Muckrake and Glommus, before Mug'Thol himself is dealt with.",
+ "sections": [
+  {
+   "title": "Sniping at the Leadership",
+   "body": "Mug'Thol's lieutenants are Targ, Muckrake and Glommus, all loyal to him, though Melisara wonders what could make an ogre loyal. You are to kill all three and bring their heads back to Tarren Mill. After that, only Mug'Thol's own head remains to be taken, crown and all.",
+   "spoiler": 0
+  },
+  {
+   "title": "What Becomes of the Heads",
+   "body": "Melisara remarks on how foul the ogres smell. Once Mug'Thol's head arrives too, all four will be set on pikes over Alterac, as a reminder to anyone who crosses the Dark Lady.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who gives this part of The Crown of Will?",
+   "aliases": [
+    "who starts the crown of will",
+    "melisara location",
+    "where to turn in the crown of will"
+   ],
+   "answer": "Melisara, in Tarren Mill, gives it to you and is also the one you bring the heads to."
+  },
+  {
+   "q": "Who are Targ, Muckrake, and Glommus?",
+   "aliases": [
+    "mugthol lieutenants",
+    "who are the ogre lieutenants",
+    "targ muckrake glommus"
+   ],
+   "answer": "They are Mug'Thol's lieutenants, loyal to him. Melisara wants their heads."
+  },
+  {
+   "q": "What came before this part?",
+   "aliases": [
+    "crown of will chain",
+    "what quest comes before this",
+    "previous crown of will"
+   ],
+   "answer": "The second part of The Crown of Will, in which the ogres' numbers were thinned."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "alterac",
+  "crown of will",
+  "glommus",
+  "hillsbrad",
+  "melisara",
+  "muckrake",
+  "mug'thol",
+  "targ",
+  "tarren mill"
+ ],
+ "related": [
+  "subzone:tarren-mill",
+  "zone:hillsbrad",
+  "topic:alterac-kingdom"
+ ],
+ "attribution": [
+  "The Crown of Will (3)"
+ ]
+}

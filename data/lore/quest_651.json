@@ -1,0 +1,103 @@
+{
+ "key": "quest:651",
+ "type": "quest",
+ "name": "Stones of Binding",
+ "era": "classic",
+ "zone": "arathi",
+ "meta": {
+  "ids": [
+   651
+  ],
+  "level": "38",
+  "start": "Iridescent Shards",
+  "end": "Stone of Inner Binding",
+  "previous": "The Princess Trapped",
+  "next": "Breaking the Keystone",
+  "prev_q": [
+   "The Princess Trapped"
+  ],
+  "next_q": [
+   "Breaking the Keystone"
+  ],
+  "wiki": null
+ },
+ "summary": "After The Princess Trapped, a voice from the iridescent shards tells of four Stones of Binding spread across Arathi that hold it down under the ground. The strongest, the Stone of Inner Binding, can be unlocked only with keys taken from the other three.",
+ "sections": [
+  {
+   "title": "Four Stones",
+   "body": "The voice tells of four Stones of Binding spread across Arathi, holding it down under the ground. To loosen them, the strongest must be unlocked first: the Stone of Inner Binding, which needs keys gathered from the other three, the Stones of West, East and Outer Binding. The keys are the Burning Key, the Cresting Key and the Thundering Key. Guardians watch over the stones, but someone clever or lucky may find a way to banish them. Once gathered, the keys are carried to the Stone of Inner Binding.",
+   "spoiler": 0
+  },
+  {
+   "title": "At the Inner Stone",
+   "body": "The stone carries the voice of Myzrael: the Stones of Binding are open, the shackles are loosening and freedom draws closer. Myzrael hails you as a noble rescuer.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Where does this step come from?",
+   "aliases": [
+    "stones of binding quest giver",
+    "who gives stones of binding",
+    "where to start stones of binding"
+   ],
+   "answer": "It comes from the iridescent shards, after The Princess Trapped."
+  },
+  {
+   "q": "What are the four Stones of Binding?",
+   "aliases": [
+    "which stones of binding",
+    "arathi binding stones",
+    "four stones"
+   ],
+   "answer": "The Stone of West Binding, the Stone of East Binding, the Stone of Outer Binding and the Stone of Inner Binding, the strongest."
+  },
+  {
+   "q": "Which keys are needed to unlock the inner stone?",
+   "aliases": [
+    "binding keys",
+    "what keys are needed",
+    "keys for stone of inner binding"
+   ],
+   "answer": "The Burning Key, the Cresting Key and the Thundering Key, gathered from the Stones of West, East and Outer Binding."
+  },
+  {
+   "q": "Who guards the binding stones?",
+   "aliases": [
+    "stone guardians",
+    "who guards the stones",
+    "binding stone protectors"
+   ],
+   "answer": "Guardians watch over the stones, though a clever or lucky adventurer may find a way to banish them."
+  },
+  {
+   "q": "Where must the keys be delivered?",
+   "aliases": [
+    "where do i take the keys",
+    "turn in stones of binding",
+    "stone of inner binding location"
+   ],
+   "answer": "To the Stone of Inner Binding, the mightiest of them, which has to be unlocked before the others will open."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "arathi highlands",
+  "burning key",
+  "cresting key",
+  "iridescent shards",
+  "myzrael",
+  "stone of inner binding",
+  "stones of binding",
+  "thundering key"
+ ],
+ "related": [
+  "quest:642",
+  "quest:652",
+  "zone:arathi"
+ ],
+ "attribution": [
+  "Classic quest text: Stones of Binding"
+ ]
+}

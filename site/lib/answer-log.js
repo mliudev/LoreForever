@@ -39,6 +39,7 @@ const diagnostics = () => import("./diagnostic-screenshots.js");
 // return anything older. "Delete my account" removes the account's rows (forgetAnswerLog).
 
 import { ANSWER_ID, SIGNALS, topicOf } from "./answer-signals.js";
+import { createMissing } from "./schema.js";
 
 export const KEEP_DAYS = 14;
 
@@ -64,7 +65,7 @@ const hex = buf => [...new Uint8Array(buf)].map(b => b.toString(16).padStart(2, 
 export async function setupAnswerLog(env) {
   if (isReportRead(env)) return;
   if (ready.get(env.DB)) return;
-  await env.DB.batch(SETUP.map(sql => env.DB.prepare(sql)));
+  await createMissing(env, SETUP);
   const have = new Set((await env.DB.prepare("PRAGMA table_info(answer_log)").all()).results.map(c => c.name));
   for (const column of ADDED) {
     if (have.has(column.split(" ")[0])) continue;

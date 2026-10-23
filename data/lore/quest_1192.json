@@ -1,0 +1,95 @@
+{
+ "key": "quest:1192",
+ "type": "quest",
+ "name": "Indurium Ore",
+ "era": "classic",
+ "zone": "thousandneedles",
+ "meta": {
+  "ids": [
+   1192
+  ],
+  "level": "42",
+  "faction": null,
+  "start": "Pozzik",
+  "end": "Pozzik",
+  "previous": "Rizzle's Schematics",
+  "next": "",
+  "wiki": "Indurium Ore (quest)",
+  "chain": [
+   "Keeping Pace",
+   "Rizzle's Schematics",
+   "Indurium Ore (quest)"
+  ],
+  "prev_q": [
+   "Rizzle's Schematics"
+  ],
+  "repeatable": "Yes",
+  "category": "Thousand Needles"
+ },
+ "summary": "Pozzik plans to work indurium into several parts of the racers, which calls for a great deal of raw ore. The ore is to be had at the Uldaman dig in the Badlands, across the sea in Khaz Modan. The gnomes are already getting hold of their own, and Pozzik wants to keep up with them.",
+ "sections": [
+  {
+   "title": "Ore from Uldaman",
+   "body": "Pozzik asks for four pieces of raw indurium ore. It can be had at the Uldaman dig in the Badlands, across the sea in Khaz Modan. The gnomes are already getting hold of their own, so Pozzik wants a supply too. This follows Rizzle's Schematics.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Why does Pozzik want indurium ore?",
+   "aliases": [
+    "what is the indurium for",
+    "why indurium ore",
+    "pozzik indurium purpose"
+   ],
+   "answer": "He wants to work indurium into several parts of the racers, and that takes a great deal of raw ore."
+  },
+  {
+   "q": "Where is the indurium ore found?",
+   "aliases": [
+    "where to find indurium ore",
+    "indurium location",
+    "where do i get indurium ore"
+   ],
+   "answer": "At the Uldaman dig in the Badlands, across the sea in Khaz Modan."
+  },
+  {
+   "q": "Why does it matter to get the ore?",
+   "aliases": [
+    "why hurry indurium",
+    "gnome rival indurium"
+   ],
+   "answer": "The gnomes are already getting hold of their own indurium, and Pozzik wants to keep up with them."
+  },
+  {
+   "q": "What came before this?",
+   "aliases": [
+    "prerequisite for indurium ore",
+    "indurium chain previous quest"
+   ],
+   "answer": "It follows Rizzle's Schematics, which itself follows Keeping Pace."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "badlands",
+  "indurium",
+  "indurium ore",
+  "pozzik",
+  "racers",
+  "thousand needles",
+  "uldaman"
+ ],
+ "related": [
+  "npc:pozzik",
+  "quest:1194",
+  "quest:1190",
+  "subzone:uldaman",
+  "zone:badlands",
+  "zone:thousandneedles",
+  "topic:gnome"
+ ],
+ "attribution": [
+  "Indurium Ore (quest)"
+ ]
+}

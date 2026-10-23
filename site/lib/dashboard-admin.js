@@ -17,11 +17,14 @@ import * as translations from "../functions/api/translations/[action].js";
 import * as clips from "../functions/api/clip-report/[action].js";
 import * as downloads from "../functions/api/downloads.js";
 import { northStarReport } from "./north-star.js";
+import { poolReport } from "./free-pool.js";
 
 const HANDLERS = { main, costs, creators, curseforge, "plans-usage": plans, retention, sources,
   "voice-status": voices, willo, downloads,
   // A report of its own, with no old /admin route behind it.
-  "north-star": { onRequestGet: async ({ env }) => Response.json(await northStarReport(env)) } };
+  "north-star": { onRequestGet: async ({ env }) => Response.json(await northStarReport(env)) },
+  // The free pool alone (the same pool block /api/admin carries), small enough for the dashboard to read every few minutes.
+  pool: { onRequestGet: async ({ env }) => Response.json({ ok: true, pool: await poolReport(env) }) } };
 const SUBROUTES = { "translation-summary": [translations, "summary"], "translation-review": [translations, "review"],
   "translation-decide": [translations, "decide"], "clip-export": [clips, "export"],
   "clip-resolve": [clips, "resolve"], "clip-reject": [clips, "reject"] };

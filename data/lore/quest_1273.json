@@ -1,0 +1,78 @@
+{
+ "key": "quest:1273",
+ "type": "quest",
+ "name": "Questioning Reethe",
+ "era": "classic",
+ "zone": "dustwallow",
+ "meta": {
+  "ids": [
+   1273
+  ],
+  "level": "37",
+  "start": "Ogron",
+  "end": "Krog",
+  "previous": "Lieutenant Paval Reethe",
+  "wiki": null,
+  "next": ""
+ },
+ "summary": "Ogron, whom Krog sent to track the human Reethe, has found him at last after a long search and says he hid well for a human. Ogron worries that so much time in the swamp may have driven Reethe mad, and asks you to come along to get answers from him. Afterward the way leads back to Krog at Brackenwall Village.",
+ "sections": [
+  {
+   "title": "Ogron's Search",
+   "body": "After a long search, Ogron found Reethe, who by Ogron's reckoning hid well for a human. Ogron fears that so many days in the swamp may have left Reethe crazy, and wants you alongside to get answers from him. Afterward, Krog at Brackenwall Village awaits your return.",
+   "spoiler": 0
+  },
+  {
+   "title": "Back With Krog",
+   "body": "Krog is pleased that Reethe is gone from the swamp, and scorns humans as built too frail to recover from even a small arrow wound. Krog concludes that this strand of the mystery led nowhere and that the search must look elsewhere.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who found Reethe?",
+   "aliases": [
+    "who gives questioning reethe",
+    "questioning reethe quest giver",
+    "ogron reethe"
+   ],
+   "answer": "Ogron found Reethe after a long search, and wants you along to get answers from him."
+  },
+  {
+   "q": "Why does Ogron want company?",
+   "aliases": [
+    "why help ogron",
+    "is reethe crazy",
+    "why confront reethe"
+   ],
+   "answer": "Ogron worries that Reethe may have gone mad after so long in the swamp."
+  },
+  {
+   "q": "Who do you report to afterward?",
+   "aliases": [
+    "where to turn in questioning reethe",
+    "who do i talk to after reethe",
+    "reethe turn in"
+   ],
+   "answer": "Krog, at Brackenwall Village."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "brackenwall",
+  "dustwallow",
+  "interrogation",
+  "krog",
+  "marsh",
+  "ogron",
+  "reethe"
+ ],
+ "related": [
+  "quest:1269",
+  "subzone:brackenwall-village",
+  "zone:dustwallow"
+ ],
+ "attribution": [
+  "Classic quest text: Questioning Reethe"
+ ]
+}

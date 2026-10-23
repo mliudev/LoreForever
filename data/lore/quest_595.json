@@ -1,0 +1,98 @@
+{
+ "key": "quest:595",
+ "type": "quest",
+ "name": "The Bloodsail Buccaneers",
+ "era": "classic",
+ "zone": "stranglethorn",
+ "meta": {
+  "ids": [
+   595
+  ],
+  "level": "41",
+  "faction": null,
+  "start": "First Mate Crazz",
+  "end": "Bloodsail Correspondence",
+  "previous": "",
+  "next": "Keep An Eye Out, The Bloodsail Buccaneers (2), Up to Snuff",
+  "wiki": "The Bloodsail Buccaneers (Classic)",
+  "chain": [],
+  "next_q": [
+   "Keep An Eye Out",
+   "The Bloodsail Buccaneers (2)",
+   "Up to Snuff"
+  ],
+  "category": "Stranglethorn Vale",
+  "chain_tpl": [
+   "Bloodsail Buccaneers"
+  ]
+ },
+ "summary": "First Mate Crazz of the Blackwater Raiders needs an adventurer to investigate rumors of rival pirates. With his crew busy drinking and chasing company in Booty Bay, he asks you to scout a nearby cove along the Savage Coast for signs of the Bloodsail Buccaneers.",
+ "sections": [
+  {
+   "title": "A Scout along the Savage Coast",
+   "body": "The Blackwater Raiders have newly docked in Booty Bay, only to hear word that their rivals, the Bloodsail Buccaneers, have been sighted across southern Stranglethorn Vale. With the rest of the crew distracted by grog and shoreline pursuits, First Mate Crazz turns to an outsider for help. He asks you to head north along the Savage Coast and scout a cove to see what the Bloodsail Buccaneers are up to.",
+   "spoiler": 0
+  },
+  {
+   "title": "Signs in the Cove",
+   "body": "Searching the cove, you find a barrel with some coins and a map covered in hastily scribbled notes lying on top of it.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is First Mate Crazz?",
+   "aliases": [
+    "first mate crazz",
+    "who gives the quest",
+    "who is crazz"
+   ],
+   "answer": "First Mate Crazz is an officer among the Blackwater Raiders stationed in Booty Bay. Faced with rumors of rival pirates and an unmotivated crew, he hires passing adventurers to scout the coast."
+  },
+  {
+   "q": "Why does First Mate Crazz need an outsider?",
+   "aliases": [
+    "why hire an adventurer",
+    "why cant his crew do it",
+    "why help crazz"
+   ],
+   "answer": "The Blackwater crew just reached port and have only just docked and are far too busy carousing ashore to scout anything themselves."
+  },
+  {
+   "q": "Where does Crazz send you to investigate?",
+   "aliases": [
+    "where do i go",
+    "where is the cove",
+    "where are the bloodsail"
+   ],
+   "answer": "He directs you to scout the cove located immediately north of Booty Bay along the stretch known as the Savage Coast."
+  },
+  {
+   "q": "What rivalry is troubling the Blackwater Raiders?",
+   "aliases": [
+    "who are the rivals",
+    "why do they hate bloodsail",
+    "bloodsail rivalry"
+   ],
+   "answer": "The Blackwater Raiders are locked in a bitter feud with the Bloodsail Buccaneers, who have recently been spotted spreading throughout southern Stranglethorn Vale."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "blackwater raiders",
+  "bloodsail buccaneers",
+  "booty bay",
+  "correspondence",
+  "first mate crazz",
+  "savage coast",
+  "stranglethorn vale"
+ ],
+ "related": [
+  "subzone:booty-bay",
+  "subzone:savage-coast",
+  "zone:stranglethorn"
+ ],
+ "attribution": [
+  "The Bloodsail Buccaneers (Classic)"
+ ]
+}

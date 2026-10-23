@@ -1,0 +1,105 @@
+{
+ "key": "quest:706",
+ "type": "quest",
+ "name": "Fiery Blaze Enchantments",
+ "era": "classic",
+ "zone": "badlands",
+ "meta": {
+  "ids": [
+   706
+  ],
+  "level": "45",
+  "faction": "Alliance",
+  "start": "Sigrun Ironhew",
+  "end": "Sigrun Ironhew",
+  "previous": "",
+  "next": "",
+  "wiki": "Fiery Blaze Enchantments",
+  "chain": [],
+  "category": "Badlands"
+ },
+ "summary": "Sigrun Ironhew, waiting in the Badlands for word from Ironforge, knows a technique for imbuing weapons with fire. It needs blood from the still-beating heart of a rare black drake whelp, and the whelps of Lethlor Ravine are where to find one.",
+ "sections": [
+  {
+   "title": "An Apprentice's Craft",
+   "body": "Sigrun Ironhew learned a special way of imbuing weapons with fiery enchantments as an apprentice to Feranor Steeltoe, last heard of among a hunting party's smiths in Lordaeron. Sigrun is waiting for word from Ironforge and has little else to do.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Whelps of Lethlor Ravine",
+   "body": "Sigrun will share few details of the process, only that it calls for blood from the still-beating heart of a rare black drake whelp. Take a heart from the whelps of that ravine to Sigrun and the skill will be shown to you. The Scalding Whelps and Scorched Guardians there are where the hearts come from.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who taught Sigrun Ironhew this enchantment technique?",
+   "aliases": [
+    "sigrun teacher",
+    "who trained sigrun",
+    "feranor steeltoe"
+   ],
+   "answer": "Sigrun learned it as an apprentice to Feranor Steeltoe, last heard of in Lordaeron, with a hunting party's smithy."
+  },
+  {
+   "q": "What component is needed to place fire upon a blade?",
+   "aliases": [
+    "what does sigrun need",
+    "black drake heart requirement",
+    "fiery blaze materials"
+   ],
+   "answer": "Blood drawn from the heart of a rare black drake whelp, one that still beats."
+  },
+  {
+   "q": "Where are the black drake whelps found?",
+   "aliases": [
+    "where to find black drakes",
+    "lethlor ravine whelps",
+    "black drake heart location"
+   ],
+   "answer": "In Lethlor Ravine, in the eastern Badlands."
+  },
+  {
+   "q": "Why is Sigrun Ironhew lingering in the Badlands?",
+   "aliases": [
+    "why is sigrun in badlands",
+    "sigrun ironhew purpose"
+   ],
+   "answer": "Word from Ironforge is what Sigrun is waiting on, and nothing else is keeping Sigrun busy in the meantime."
+  },
+  {
+   "q": "Which creatures yield the needed heart?",
+   "aliases": [
+    "what drops black drakes heart",
+    "which whelps have hearts"
+   ],
+   "answer": "The Scalding Whelps and Scorched Guardians of Lethlor Ravine."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Alliance",
+   "text": "Sigrun Ironhew looks to Ironforge for word, and this work is meant for the Alliance."
+  }
+ ],
+ "keywords": [
+  "badlands",
+  "black drake heart",
+  "feranor steeltoe",
+  "fiery blaze",
+  "ironforge",
+  "lethlor ravine",
+  "scalding whelp",
+  "scorched guardian",
+  "sigrun ironhew"
+ ],
+ "related": [
+  "subzone:lethlor-ravine",
+  "zone:badlands",
+  "zone:ironforge",
+  "topic:lordaeron"
+ ],
+ "attribution": [
+  "Fiery Blaze Enchantments"
+ ]
+}

@@ -25,6 +25,7 @@
 
 import { isReportRead, refuseReportEffect } from "./report-read.js";
 import { markActionUncertain, actionIsUncertain, isDashboardAction } from "./dashboard-action.js";
+import { createMissing } from "./schema.js";
 
 export const DOMAIN = "loreforeverwow.com";
 export const FROM = `Mike from Lore Forever <hello@${DOMAIN}>`;
@@ -49,7 +50,7 @@ const ready = new WeakSet();
 async function setupEmail(env) {
   if (isReportRead(env)) return;
   if (ready.has(env.DB)) return;
-  await env.DB.batch(EMAIL_SETUP.map(s => env.DB.prepare(s)));
+  await createMissing(env, EMAIL_SETUP);
   ready.add(env.DB);
 }
 

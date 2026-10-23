@@ -1,0 +1,82 @@
+{
+ "key": "quest:342",
+ "type": "quest",
+ "name": "Chapter IV",
+ "era": "classic",
+ "zone": "stranglethorn",
+ "meta": {
+  "ids": [
+   342
+  ],
+  "level": "40",
+  "faction": null,
+  "start": "Barnil Stonepot",
+  "end": "Barnil Stonepot",
+  "previous": "The Green Hills of Stranglethorn (Classic)",
+  "next": "",
+  "wiki": "Chapter IV",
+  "chain": [],
+  "prev_q": [
+   "The Green Hills of Stranglethorn (Classic)"
+  ],
+  "category": "Stranglethorn Vale",
+  "chain_tpl": [
+   "The Green Hills of Stranglethorn (Classic)"
+  ]
+ },
+ "summary": "Barnil Stonepot is trying to reconstruct the thrilling finale of Hemet Nesingwary's famous manuscript. Recovering the final three sheets will restore the climactic conclusion to the wild hunting tale.",
+ "sections": [
+  {
+   "title": "The Grand Finale",
+   "body": "Barnil Stonepot considers this section the big finale of the entire hunting volume. To assemble the fourth chapter, he needs someone to track down and return pages twenty-five, twenty-six, and twenty-seven. Once these three lost sheets are gathered from across the jungle, the manuscript's exciting conclusion can finally be reassembled.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who wants Chapter IV restored?",
+   "aliases": [
+    "who gives chapter iv",
+    "chapter iv quest giver",
+    "who needs chapter 4"
+   ],
+   "answer": "Barnil Stonepot asks for help collecting the scattered sheets so he can piece together the ending of Hemet Nesingwary's hunting book."
+  },
+  {
+   "q": "Which pages are required to finish Chapter IV?",
+   "aliases": [
+    "chapter 4 pages",
+    "which pages for chapter iv",
+    "what pages do i need"
+   ],
+   "answer": "You need pages twenty-five, twenty-six, and twenty-seven of The Green Hills of Stranglethorn to complete the fourth chapter."
+  },
+  {
+   "q": "What comes before this request?",
+   "aliases": [
+    "chapter iv prerequisites",
+    "chapter 4 previous quest"
+   ],
+   "answer": "This request follows Barnil Stonepot's initial call to gather the scattered leaves of The Green Hills of Stranglethorn."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "barnil stonepot",
+  "chapter 4",
+  "chapter iv",
+  "green hills of stranglethorn",
+  "hemet nesingwary",
+  "page 25",
+  "page 26",
+  "page 27",
+  "stranglethorn vale"
+ ],
+ "related": [
+  "quest:338",
+  "zone:stranglethorn"
+ ],
+ "attribution": [
+  "Chapter IV"
+ ]
+}

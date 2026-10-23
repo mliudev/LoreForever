@@ -134,15 +134,17 @@ export async function untry(env, userId, what) {
 // The account's row as trialOf reads it, for a caller that batches it with its own (lib/companion-voice.js speakTaste).
 export const trialRow = (env, userId) => env.DB.prepare(`SELECT ${ROW} FROM best_first WHERE user_id = ?`).bind(userId);
 // A plan as the trial has it, for what's open all the window: Willo's voice picked from all of hers (PLAN_VOICE choice,
-// lib/companion-voice.js willoPick).
-export const withTrial = (plan, trial) => trial?.on && plan?.voice && !(plan.voice.choice && plan.voice.azeroth)
-  ? { ...plan, voice: { ...plan.voice, choice: true, azeroth: true } } : plan;
+// lib/companion-voice.js willoPick), and the narrator reading the add-on's short answers (readings: the PM, 10/21: "try
+// everything" means everything; lib/companion-voice.js speakReading, on the shared free budget).
+export const withTrial = (plan, trial) => trial?.on && plan?.voice
+  && !(plan.voice.choice && plan.voice.azeroth && plan.voice.readings)
+  ? { ...plan, voice: { ...plan.voice, choice: true, azeroth: true, readings: true } } : plan;
 // What the companion is told of the trial, with the allowance (lib/companion-answers.js): {on, until (ISO, or none
 // before the first answer), uses: {web, sight, characters: {of, left}}, opens: [...]}, only what the plan doesn't have
 // itself (the beta's free Hero month already looks online, sees the game, keeps goals and picks a preset style).
 // opens: "voices" (her voice picked from all of hers), "memory" (longer chat memory), "style" (her style in their own
 // words; presets too on the free plan), "tales", "goals" (goals and reminders), "talk" (asking out loud, her voices on
-// the PC).
+// the PC), "readings" (the narrator reads the add-on's short answers).
 export function trialView(plan, trial) {
   if (!trial) return null;
   const free = plan.id === "free";
@@ -150,7 +152,7 @@ export function trialView(plan, trial) {
   return { on: trial.on, ...(trial.until ? { until: trial.until } : {}),
     uses: { ...(free ? { web: use(TRIAL.lookups, trial.left.lookups), sight: use(TRIAL.sight, trial.left.sight) } : {}),
             characters: use(TRIAL.cast, trial.left.cast) },
-    opens: ["voices", "memory", "style", "tales", ...(free ? ["goals", "talk"] : [])] };
+    opens: ["voices", "memory", "style", "tales", ...(free ? ["goals", "talk", "readings"] : [])] };
 }
 
 // The account's taste now, for the allowance: {of, left (answers), voices (finest replies earned, not yet said),

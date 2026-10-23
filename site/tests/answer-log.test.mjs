@@ -15,7 +15,7 @@ const originalFetch = globalThis.fetch;
 
 beforeEach(async () => {
   await setup(env);
-  for (const table of ["devices", "device_links", "rate_limits", "answer_spend", "users"]) env.DB.sqlite.exec(`DELETE FROM ${table}`);
+  for (const table of ["devices", "device_links", "rate_limits", "answer_spend", "free_pool_days", "users"]) env.DB.sqlite.exec(`DELETE FROM ${table}`);
   await setupAnswerLog(env);
   env.DB.sqlite.exec("DELETE FROM answer_log");
   globalThis.fetch = async () => Response.json({ candidates: [{ content: { parts: [{ text: "Well met, Húrin! Sentinel Hill is east." }] } }],

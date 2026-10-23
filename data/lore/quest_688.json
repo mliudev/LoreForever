@@ -1,0 +1,97 @@
+{
+ "key": "quest:688",
+ "type": "quest",
+ "name": "Myzrael's Allies",
+ "era": "classic",
+ "zone": "arathi",
+ "meta": {
+  "ids": [
+   688
+  ],
+  "level": "40",
+  "faction": "Horde",
+  "start": "Keystone",
+  "end": "Zaruk",
+  "previous": "Breaking the Keystone",
+  "next": "Theldurin the Lost (quest)",
+  "wiki": "Myzrael's Allies (Horde)",
+  "chain": [],
+  "next_q": [
+   "Theldurin the Lost (quest)"
+  ],
+  "category": "Arathi Highlands",
+  "chain_tpl": [
+   "The Princess Trapped Classic"
+  ],
+  "prev_q": [
+   "Breaking the Keystone"
+  ]
+ },
+ "summary": "Myzrael speaks through the keystone, declaring herself free but in hiding from her captors, and tells you to speak with Zaruk in Hammerfall, who knows how she can be summoned.",
+ "sections": [
+  {
+   "title": "Free but Hidden",
+   "body": "Myzrael cries out that she is free. For now she must gather her strength out of sight of her captors, because if they faced her today they would overpower and imprison her again. In time, she vows, she will confront the giants who held her, and they will regret keeping her.",
+   "spoiler": 0
+  },
+  {
+   "title": "Zaruk of Hammerfall",
+   "body": "Myzrael calls you a noble ally and says she will want your aid again in time. When she is ready, she will have you summon her to the surface. For now she sends you to Zaruk in Hammerfall, who knows how it can be done.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who sends you to Zaruk?",
+   "aliases": [
+    "who gives myzraels allies",
+    "quest giver myzraels allies",
+    "who speaks through the keystone"
+   ],
+   "answer": "Myzrael herself, speaking through the keystone, tells you to see Zaruk in Hammerfall."
+  },
+  {
+   "q": "Why is Myzrael hiding?",
+   "aliases": [
+    "why doesnt myzrael fight",
+    "why is myzrael weak",
+    "why does myzrael hide"
+   ],
+   "answer": "She says her captors would overpower and imprison her again if they faced her now, so she hides while she gathers strength."
+  },
+  {
+   "q": "Where can Zaruk be found?",
+   "aliases": [
+    "zaruk location",
+    "where is zaruk",
+    "find zaruk"
+   ],
+   "answer": "In Hammerfall."
+  },
+  {
+   "q": "What role does Zaruk play for Myzrael?",
+   "aliases": [
+    "why talk to zaruk",
+    "what does zaruk know",
+    "zaruk purpose"
+   ],
+   "answer": "Myzrael says he knows how she can be summoned."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "arathi highlands",
+  "giants",
+  "hammerfall",
+  "keystone",
+  "myzrael",
+  "zaruk"
+ ],
+ "related": [
+  "subzone:hammerfall",
+  "zone:arathi"
+ ],
+ "attribution": [
+  "Myzrael's Allies (Horde)"
+ ]
+}

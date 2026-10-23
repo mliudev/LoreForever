@@ -1,0 +1,102 @@
+{
+ "key": "quest:718",
+ "type": "quest",
+ "name": "Mirages",
+ "era": "classic",
+ "zone": "badlands",
+ "meta": {
+  "ids": [
+   718
+  ],
+  "level": "38",
+  "faction": "Alliance",
+  "start": "Sigrun Ironhew",
+  "end": "Sigrun Ironhew",
+  "previous": "",
+  "next": "Scrounging, Tremors of the Earth",
+  "wiki": "Mirages",
+  "chain": [
+   "Mirages",
+   "Scrounging"
+  ],
+  "next_q": [
+   "Scrounging",
+   "Tremors of the Earth"
+  ],
+  "category": "Badlands"
+ },
+ "summary": "Hurrying away from the Uldaman excavation site, Sigrun Ironhew's party left wagons and crates behind. Ogres from Camp Kosh took the cart holding all their weapons, and since then the party has had no food.",
+ "sections": [
+  {
+   "title": "Hungry in the Badlands",
+   "body": "In their rush to leave the Uldaman excavation site, Sigrun Ironhew and company left many wagons and supply crates behind. Ogres from Camp Kosh have been picking over the leftovers like vultures. They took the cart holding all the party's weapons, and since then the party has had no food. Sigrun admits it is embarrassing and asks you to retrieve the supply crate.",
+   "spoiler": 0
+  },
+  {
+   "title": "On Your Return",
+   "body": "When you come back, Sigrun confesses to having swallowed a mouthful of sand while you were away. Sigrun quickly moves on, saying the party will go out and find food tonight and eat like kings.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Sigrun Ironhew?",
+   "aliases": [
+    "sigrun ironhew",
+    "who gives mirages",
+    "who is sigrun"
+   ],
+   "answer": "Sigrun Ironhew belongs to a party that left the Uldaman excavation site in a hurry and is now without food in the Badlands."
+  },
+  {
+   "q": "Why is Sigrun's party starving?",
+   "aliases": [
+    "why are they hungry",
+    "why no food",
+    "sigrun food problem"
+   ],
+   "answer": "Ogres took the cart that carried all their weapons and such, and since then they have been unable to get any food."
+  },
+  {
+   "q": "Who took the abandoned supplies?",
+   "aliases": [
+    "who stole the crate",
+    "camp kosh ogres",
+    "who took weapons"
+   ],
+   "answer": "The local ogres from Camp Kosh, who have been all over the equipment left behind."
+  },
+  {
+   "q": "What is Sigrun hoping to get back?",
+   "aliases": [
+    "supply crate",
+    "what to retrieve for sigrun"
+   ],
+   "answer": "The supply crate, left behind in the rush to leave the excavation site."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Alliance",
+   "text": "Sigrun Ironhew is looking for Alliance help."
+  }
+ ],
+ "keywords": [
+  "badlands",
+  "camp kosh",
+  "excavation",
+  "mirages",
+  "ogres",
+  "sigrun ironhew",
+  "supply crate",
+  "uldaman"
+ ],
+ "related": [
+  "zone:badlands",
+  "subzone:camp-kosh",
+  "subzone:uldaman"
+ ],
+ "attribution": [
+  "Mirages"
+ ]
+}

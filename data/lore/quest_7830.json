@@ -1,0 +1,90 @@
+{
+ "key": "quest:7830",
+ "type": "quest",
+ "name": "Avenging the Fallen",
+ "era": "classic",
+ "zone": "hinterlands",
+ "meta": {
+  "ids": [
+   7830
+  ],
+  "level": "48",
+  "faction": "Horde",
+  "start": "Huntsman Markhor",
+  "end": "Huntsman Markhor",
+  "previous": "",
+  "next": "",
+  "wiki": "Avenging the Fallen",
+  "chain": [],
+  "category": "Hinterlands"
+ },
+ "summary": "Huntsman Markhor of Revantusk Village says the Wildhammer train gryphons to slay trolls, and he wants the elder gryphons of the region, the Skylords, wiped out. You are to slay a Razorbeak Skylord and bring its plume back to him.",
+ "sections": [
+  {
+   "title": "Slaying the Skylords",
+   "body": "Markhor, a huntsman of Revantusk Village in the Hinterlands, is bitter that the Wildhammer train gryphons to slay trolls. Justice will come for them, he promises, but first he wants you to turn on the elder gryphons of the region, the Skylords. Slay one and return with its plume. The Razorbeak Skylord is a rare breed that tends to keep to the wilds of the Hinterlands, and Markhor blames it for breeding murderous young.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Plume Examined",
+   "body": "Markhor looks over the plume and wonders aloud how many hunters the beast devoured before it met justice at your hands.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who offers this hunt?",
+   "aliases": [
+    "quest giver",
+    "who gives avenging the fallen",
+    "markhor location"
+   ],
+   "answer": "Huntsman Markhor offers it at Revantusk Village in the Hinterlands."
+  },
+  {
+   "q": "Why does Huntsman Markhor want a Skylord slain?",
+   "aliases": [
+    "why kill razorbeak skylord",
+    "why kill skylord",
+    "why hunt gryphons"
+   ],
+   "answer": "Markhor says the Wildhammer train gryphons to slay trolls, and he wants the elder gryphons of the region, the Skylords, eradicated. He says the Razorbeak Skylord is a rare breed that breeds murderous young."
+  },
+  {
+   "q": "Where can a Razorbeak Skylord be found?",
+   "aliases": [
+    "skylord location",
+    "where is razorbeak skylord",
+    "skylord plume location"
+   ],
+   "answer": "Markhor says this rare breed keeps to the wilds of the Hinterlands."
+  },
+  {
+   "q": "What must be brought back to Markhor?",
+   "aliases": [
+    "what item do i need",
+    "avenging the fallen objective",
+    "skylord drop"
+   ],
+   "answer": "Slay a Razorbeak Skylord and return to Markhor with its plume."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "avenging the fallen",
+  "gryphon",
+  "hinterlands",
+  "huntsman markhor",
+  "razorbeak skylord",
+  "revantusk village",
+  "skylord plume",
+  "wildhammer"
+ ],
+ "related": [
+  "zone:hinterlands",
+  "topic:troll"
+ ],
+ "attribution": [
+  "Wowpedia: Avenging the Fallen"
+ ]
+}

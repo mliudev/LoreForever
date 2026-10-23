@@ -1,0 +1,89 @@
+{
+ "key": "quest:8598",
+ "type": "quest",
+ "name": "rAnS0m",
+ "era": "classic",
+ "zone": "tanaris",
+ "meta": {
+  "ids": [
+   8598
+  ],
+  "level": "60",
+  "faction": null,
+  "start": "Freshly Dug Dirt",
+  "end": "Narain Soothfancy",
+  "previous": "Draconic for Dummies (quest)",
+  "next": "Decoy!",
+  "wiki": "RAnS0m",
+  "chain": [],
+  "prev_q": [
+   "Draconic for Dummies (quest)"
+  ],
+  "next_q": [
+   "Decoy!"
+  ],
+  "category": "Tanaris",
+  "chain_tpl": [
+   "Azuregos's Magical Ledger"
+  ]
+ },
+ "summary": "At the freshly dug dirt where Narain Soothfancy's book should lie, a ransom note has been left in its place. You carry the letter back to Narain Soothfancy in Tanaris. This follows Draconic for Dummies.",
+ "sections": [
+  {
+   "title": "A Note Made of Scraps",
+   "body": "The note is made up of many different typefaces glued onto parchment. It tells Narain, calling him a gnome, that his precious book is in the writers' hands and that he will see it again only by doing exactly as told. Detailed instructions fill three pages, closing with a demand to bring the money and come alone. You take the letter to Narain Soothfancy in Tanaris.",
+   "spoiler": 0
+  },
+  {
+   "title": "Narain's Answer",
+   "body": "Narain Soothfancy asks what the matter is, then reads the letter and his face glows bright red. He is outraged that anyone would snatch his book, and vows to show the culprits what it means to cross a psychic gnome.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is the ransom note demanding?",
+   "aliases": [
+    "what does the note say",
+    "ransom letter text",
+    "who took the book"
+   ],
+   "answer": "The writers claim to have Narain's book, and he will see it again only if he does exactly as they ask. The instructions run three pages and end with a demand for money and for him to come alone. The note does not say who wrote it."
+  },
+  {
+   "q": "Where does this step lead next?",
+   "aliases": [
+    "what comes after ransom",
+    "ransom follow up",
+    "next quest after ransom"
+   ],
+   "answer": "Once the letter is with Narain Soothfancy in Tanaris, the chain carries on with Decoy!"
+  },
+  {
+   "q": "What came before finding the ransom note?",
+   "aliases": [
+    "previous quest",
+    "prereq for ransom"
+   ],
+   "answer": "Draconic for Dummies comes before it, the search for Narain's buried book that ends at the freshly dug dirt."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "draconic for dummies",
+  "freshly dug dirt",
+  "narain soothfancy",
+  "ransom",
+  "ransom letter",
+  "tanaris"
+ ],
+ "related": [
+  "npc:narain-soothfancy",
+  "quest:8606",
+  "zone:tanaris",
+  "topic:gnome"
+ ],
+ "attribution": [
+  "RAnS0m"
+ ]
+}

@@ -1,0 +1,80 @@
+{
+ "key": "quest:1191",
+ "type": "quest",
+ "name": "Zamek's Distraction",
+ "era": "classic",
+ "zone": "thousandneedles",
+ "meta": {
+  "ids": [
+   1191
+  ],
+  "level": "41",
+  "faction": "Neutral",
+  "start": "Zamek",
+  "end": "Zamek",
+  "previous": "",
+  "next": "",
+  "wiki": "Zamek's Distraction",
+  "chain": [],
+  "category": "Thousand Needles"
+ },
+ "summary": "Zamek can create the diversion that Keeping Pace calls for. It comes while you are in the middle of that step, and Keeping Pace cannot be finished without it.",
+ "sections": [
+  {
+   "title": "A Timely Diversion",
+   "body": "While you are working through Keeping Pace, Zamek can create a diversion. When it happens, Rizzle leaves his hut, and the Indurium plans are left behind.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who gives Zamek's Distraction?",
+   "aliases": [
+    "who starts zameks distraction",
+    "zamek quest giver",
+    "where do i get zameks distraction"
+   ],
+   "answer": "Zamek, in Thousand Needles."
+  },
+  {
+   "q": "How does this relate to Keeping Pace?",
+   "aliases": [
+    "is this needed for keeping pace",
+    "keeping pace zamek",
+    "connection to keeping pace"
+   ],
+   "answer": "It comes while you are in the middle of Keeping Pace, and that step cannot be finished without it."
+  },
+  {
+   "q": "What does the diversion do?",
+   "aliases": [
+    "what happens when zamek distracts",
+    "rizzle leaves hut"
+   ],
+   "answer": "Rizzle leaves his hut, and his plans are left behind."
+  },
+  {
+   "q": "Can both Alliance and Horde adventurers work with Zamek?",
+   "aliases": [
+    "is zamek neutral",
+    "alliance or horde zamek",
+    "who can do zameks distraction"
+   ],
+   "answer": "Yes. It is neutral, open to either faction."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "distraction",
+  "keeping pace",
+  "thousand needles",
+  "zamek"
+ ],
+ "related": [
+  "quest:1190",
+  "zone:thousandneedles"
+ ],
+ "attribution": [
+  "Zamek's Distraction"
+ ]
+}

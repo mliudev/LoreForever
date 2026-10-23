@@ -1,0 +1,20 @@
+Willo downloads: copies of open models, and who made them
+=========================================================
+
+The files in this folder are the one-time downloads Willo makes on your PC (its voice, its ears and its search of the
+lore). They are byte-for-byte the files their makers publish, unchanged; they are kept here so a first run does not
+depend on another site being up. Each file's address is its SHA-256, and Willo checks it before using the file.
+Thank you to everyone who made and shared them.
+
+Kokoro-82M, by hexgrad, in the ONNX files of kokoro-onnx's "model-files-v1.1" release
+  (kokoro-v1.0.fp16.onnx, voices-v1.0.bin). Apache License 2.0. https://huggingface.co/hexgrad/Kokoro-82M
+  kokoro-onnx, by thewh1teagle: MIT License. https://github.com/thewh1teagle/kokoro-onnx
+
+Parakeet TDT 0.6B v3, by NVIDIA, as converted to ONNX and quantized to int8 by the sherpa-onnx project
+  (sherpa-onnx-nemo-parakeet-tdt-0.6b-v3-int8.tar.bz2). Creative Commons Attribution 4.0 International (CC BY 4.0).
+  https://huggingface.co/nvidia/parakeet-tdt-0.6b-v3  https://creativecommons.org/licenses/by/4.0/
+  No other changes. NVIDIA doesn't endorse Lore Forever.
+
+bge-small-en-v1.5, by BAAI (Beijing Academy of Artificial Intelligence), in Xenova's int8 ONNX export
+  (onnx/model_quantized.onnx, vocab.txt). MIT License. https://huggingface.co/BAAI/bge-small-en-v1.5
+  https://huggingface.co/Xenova/bge-small-en-v1.5

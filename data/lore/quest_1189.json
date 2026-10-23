@@ -1,0 +1,96 @@
+{
+ "key": "quest:1189",
+ "type": "quest",
+ "name": "Safety First",
+ "era": "classic",
+ "zone": "thousandneedles",
+ "meta": {
+  "ids": [
+   1189
+  ],
+  "level": "41",
+  "faction": null,
+  "start": "Shreev",
+  "end": "Razzeric",
+  "previous": "Safety First (Thousand Needles)",
+  "next": "",
+  "wiki": "Safety First (2)",
+  "chain": [],
+  "prev_q": [
+   "Safety First (Thousand Needles)"
+  ],
+  "category": "Thousand Needles",
+  "chain_tpl": [
+   "Goblin Sponsorship"
+  ]
+ },
+ "summary": "Shreev has done what Razzeric wanted with the seaforium booster, and you carry the modified booster back to Razzeric on the Shimmering Flats. Shreev's warning with it: be careful when setting it off, because one slip and Razzeric ends up a scorch mark on the track. This follows the first Safety First.",
+ "sections": [
+  {
+   "title": "A Warning from Shreev",
+   "body": "Shreev hands over the modified booster, done as Razzeric asked. Shreev's warning with it: Razzeric needs to be careful when he sets it off. A single slip and he will not be racing ahead; he will be a scorch mark on the track. Shreev adds that it would be a shame, wondering whether the nineteenth driver would have been any good.",
+   "spoiler": 0
+  },
+  {
+   "title": "Sand Under the Seat",
+   "body": "Back on the Shimmering Flats, Razzeric is grumbling about Pozzik, who loaded a bucket of sand onto the racer. How, Razzeric asks, is he meant to reach top speed with sand beneath the seat?",
+   "spoiler": 0
+  },
+  {
+   "title": "The Booster Returned",
+   "body": "Razzeric is pleased with the modified booster. He wishes he could watch the gnomes' faces when he sets it off, though he expects to be far too busy setting a new course record.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who sends the modified booster back to the flats?",
+   "aliases": [
+    "who gives safety first 2",
+    "shreev quest giver",
+    "who modifies the booster"
+   ],
+   "answer": "Shreev finishes the work on the seaforium booster in Gadgetzan and gives it to you to carry back to Razzeric on the Shimmering Flats."
+  },
+  {
+   "q": "What does Shreev warn about?",
+   "aliases": [
+    "is the booster dangerous",
+    "shreev warning",
+    "booster risk"
+   ],
+   "answer": "Shreev says Razzeric should be careful when setting the booster off. A single slip and he will not race ahead; he will be a scorch mark on the track."
+  },
+  {
+   "q": "Why is Razzeric upset about his vehicle?",
+   "aliases": [
+    "why is razzeric mad",
+    "pozzik bucket of sand",
+    "razzeric complaint"
+   ],
+   "answer": "Pozzik loaded a bucket of sand onto the racer, and Razzeric asks how he can reach top speed with sand beneath the seat."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "gadgetzan",
+  "pozzik",
+  "razzeric",
+  "safety first",
+  "seaforium booster",
+  "shimmering flats",
+  "shreev",
+  "thousand needles"
+ ],
+ "related": [
+  "quest:1188",
+  "subzone:shimmering-flats",
+  "subzone:gadgetzan",
+  "zone:thousandneedles",
+  "npc:pozzik",
+  "topic:gnome"
+ ],
+ "attribution": [
+  "Safety First (2)"
+ ]
+}

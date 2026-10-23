@@ -1,0 +1,96 @@
+{
+ "key": "quest:485",
+ "type": "quest",
+ "name": "Find OOX-09/HL!",
+ "era": "classic",
+ "zone": "hinterlands",
+ "meta": {
+  "ids": [
+   485
+  ],
+  "level": "48",
+  "faction": "Neutral",
+  "start": "OOX-09/HL Distress Beacon",
+  "end": "Homing Robot OOX-09/HL",
+  "previous": "",
+  "next": "Rescue OOX-09/HL!",
+  "wiki": "Find OOX-09/HL!",
+  "chain": [],
+  "next_q": [
+   "Rescue OOX-09/HL!"
+  ],
+  "category": "Hinterlands",
+  "chain_tpl": [
+   "Oglethorpe's Homing Robots"
+  ]
+ },
+ "summary": "An egg-shaped metal device in the Hinterlands springs open at the turn of a knob, and a gnome named Oglethorpe Obnoticus speaks from inside it. A homing robot of Oglethorpe's has crashed near Skulk Rock, and the beacon is to be carried to it.",
+ "sections": [
+  {
+   "title": "A Crackling Call",
+   "body": "Fiddle with a knob on the strange metal egg and it opens into a gnomish contraption. A crackling voice gives the name Oglethorpe Obnoticus and says the homing robot has crashed. The coordinates have been worked out: the robot came down where the river begins, close to Skulk Rock. The beacon is to be taken to it.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Wreckage at the River",
+   "body": "At the river's head lies the wreckage of something that looks like a robotic chicken. The voice from the egg confirms that it is the homing robot. A jump start comes first, since only then can it return to Booty Bay for mending, and the beacon is to be placed inside it.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is speaking through the distress beacon?",
+   "aliases": [
+    "who made the beacon",
+    "who is oglethorpe",
+    "who is speaking"
+   ],
+   "answer": "The voice is a gnome calling themselves Oglethorpe Obnoticus, whose homing robot has crashed in the Hinterlands."
+  },
+  {
+   "q": "Where did the robot crash?",
+   "aliases": [
+    "where is the robot",
+    "oox 09 hl location",
+    "where to find robot"
+   ],
+   "answer": "Oglethorpe's computed coordinates put it where the river begins, near Skulk Rock in the Hinterlands."
+  },
+  {
+   "q": "What does the homing robot look like?",
+   "aliases": [
+    "what is the robot",
+    "chicken robot",
+    "what does oox look like"
+   ],
+   "answer": "The wreck looks like a robotic chicken."
+  },
+  {
+   "q": "What is the beacon for?",
+   "aliases": [
+    "how to activate robot",
+    "what to do with the beacon",
+    "how to complete find oox-09/hl"
+   ],
+   "answer": "Without a jump start the robot cannot make its way back to Booty Bay for repairs, and the beacon goes inside it to give that."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "booty bay",
+  "distress beacon",
+  "hinterlands",
+  "homing robot",
+  "oglethorpe obnoticus",
+  "oox-09/hl",
+  "skulk rock"
+ ],
+ "related": [
+  "quest:836",
+  "subzone:booty-bay",
+  "zone:hinterlands"
+ ],
+ "attribution": [
+  "Wowpedia: Find OOX-09/HL!"
+ ]
+}

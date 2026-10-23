@@ -1,0 +1,100 @@
+{
+ "key": "quest:702",
+ "type": "quest",
+ "name": "Guile of the Raptor",
+ "era": "classic",
+ "zone": "arathi",
+ "meta": {
+  "ids": [
+   702
+  ],
+  "level": "37",
+  "faction": "Horde",
+  "start": "Tor'gan",
+  "end": "Gor'mul",
+  "previous": "Guile of the Raptor",
+  "next": "Guile of the Raptor (3)",
+  "wiki": "Guile of the Raptor (2)",
+  "chain": [],
+  "next_q": [
+   "Guile of the Raptor (3)"
+  ],
+  "category": "Arathi Highlands",
+  "chain_tpl": [
+   "Raising Spirits"
+  ],
+  "prev_q": [
+   "Guile of the Raptor"
+  ]
+ },
+ "summary": "After the earlier Guile of the Raptor, Tor'gan hands you an orb and sends you to Gor'mul at Hammerfall. Its energy carries the essence of the raptor, meant to stir Gor'mul's spirit and give him new purpose.",
+ "sections": [
+  {
+   "title": "Tor'gan's Orb",
+   "body": "Tor'gan gives you an orb whose energy is meant to fill Gor'mul with the raptor's essence. He hopes it will rouse the warrior's spirit and set him on a fresh course in life. Once Gor'mul is himself again, Tor'gan means to explain the current state of the Horde to him and gain a great warrior's help in the unceasing battles.",
+   "spoiler": 0
+  },
+  {
+   "title": "Gor'mul's Bitterness",
+   "body": "Gor'mul greets your return with sourness, saying he wants nothing more than more of Tor'gan's pity and mocking you with talk of brightly colored string.",
+   "spoiler": 0
+  },
+  {
+   "title": "A Strange Power",
+   "body": "Still, the orb is something more interesting than what Gor'mul expected, and he remarks on the strange power it gives off.",
+   "spoiler": 1
+  },
+  {
+   "title": "The Raptor Within",
+   "body": "As Gor'mul takes the orb, his blood stirs and the raptor's guile slips through him. He wonders aloud whether this is the shamanism Tor'gan spoke of, and then declares himself renewed, his strength returning.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Gor'mul?",
+   "aliases": [
+    "who is gormul",
+    "gormul lore",
+    "what is wrong with gormul"
+   ],
+   "answer": "Gor'mul is a despondent warrior at Hammerfall. Tor'gan wants to lift his spirits and set him on a new course, so that the Horde can have a great warrior's help."
+  },
+  {
+   "q": "What is the purpose of Tor'gan's Orb?",
+   "aliases": [
+    "what does the orb do",
+    "torgan orb purpose",
+    "guile orb"
+   ],
+   "answer": "Its energy is meant to fill Gor'mul with the raptor's essence, rousing his spirit and giving him fresh purpose."
+  },
+  {
+   "q": "What came before this step?",
+   "aliases": [
+    "previous quest",
+    "prereq"
+   ],
+   "answer": "An earlier Guile of the Raptor comes first, and this step builds on it."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "arathi highlands",
+  "gor'mul",
+  "hammerfall",
+  "raptor essence",
+  "tor'gan",
+  "torgan's orb"
+ ],
+ "related": [
+  "subzone:hammerfall",
+  "quest:701",
+  "zone:arathi",
+  "topic:horde",
+  "topic:warrior"
+ ],
+ "attribution": [
+  "Guile of the Raptor (2)"
+ ]
+}

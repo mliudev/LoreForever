@@ -1,0 +1,106 @@
+{
+ "key": "quest:1112",
+ "type": "quest",
+ "name": "Parts for Kravel",
+ "era": "classic",
+ "zone": "thousandneedles",
+ "meta": {
+  "ids": [
+   1112
+  ],
+  "level": "36",
+  "faction": null,
+  "start": "Wharfmaster Dizzywig",
+  "end": "Kravel Koalbeard",
+  "previous": "Wharfmaster Dizzywig (quest)",
+  "next": "Delivery to the Gnomes",
+  "wiki": "Parts for Kravel",
+  "chain": [
+   "Kravel Koalbeard",
+   "Mirage Raceway",
+   "Thousand Needles"
+  ],
+  "prev_q": [
+   "Wharfmaster Dizzywig (quest)"
+  ],
+  "next_q": [
+   "Delivery to the Gnomes"
+  ],
+  "category": "Thousand Needles",
+  "chain_tpl": [
+   "Errands for Kravel"
+  ]
+ },
+ "summary": "Having brought Kravel Koalbeard's parts order to Wharfmaster Dizzywig, you now carry Kravel's package back to him at the Mirage Raceway on the Shimmering Flats. Dizzywig sends a message along with it: if Kravel wants more special orders, he will have to pay his tab.",
+ "sections": [
+  {
+   "title": "A Package and a Tab",
+   "body": "Wharfmaster Dizzywig gives you a package meant for Kravel Koalbeard, who waits at the Mirage Raceway in the Shimmering Flats of Thousand Needles. Dizzywig asks you to pass on a warning with it: if Kravel hopes for more special orders, he must first pay what he owes.",
+   "spoiler": 0
+  },
+  {
+   "title": "Kravel's Welcome",
+   "body": "Kravel is glad the package has come, and says it still has to reach the gnomes. First, though, he sets the crate down, takes out one small item and slips it into his pocket.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who gives you the package for Kravel?",
+   "aliases": [
+    "who starts parts for kravel",
+    "where do the parts come from",
+    "parts for kravel quest giver"
+   ],
+   "answer": "Wharfmaster Dizzywig in Ratchet gives you the package and asks you to carry it back to Kravel Koalbeard."
+  },
+  {
+   "q": "Where does Kravel Koalbeard await the delivery?",
+   "aliases": [
+    "kravel koalbeard location",
+    "where is kravel",
+    "where to turn in parts for kravel"
+   ],
+   "answer": "Kravel is at the Mirage Raceway on the Shimmering Flats in Thousand Needles."
+  },
+  {
+   "q": "What message does Dizzywig want delivered alongside the parts?",
+   "aliases": [
+    "what does dizzywig say",
+    "dizzywig message to kravel",
+    "kravel tab"
+   ],
+   "answer": "Dizzywig tells you to say that if Kravel wants more special orders, he will have to pay his tab."
+  },
+  {
+   "q": "What came before this delivery?",
+   "aliases": [
+    "parts for kravel prerequisite",
+    "previous quest parts for kravel"
+   ],
+   "answer": "This follows the step in which you carried Kravel's parts order to Wharfmaster Dizzywig in Ratchet."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "kravel koalbeard",
+  "mirage raceway",
+  "parts for kravel",
+  "shimmering flats",
+  "thousand needles",
+  "wharfmaster dizzywig"
+ ],
+ "related": [
+  "quest:1111",
+  "quest:1114",
+  "npc:kravel-koalbeard",
+  "subzone:shimmering-flats",
+  "subzone:mirage-raceway",
+  "zone:thousandneedles",
+  "topic:dwarf",
+  "topic:gnome"
+ ],
+ "attribution": [
+  "Parts for Kravel"
+ ]
+}

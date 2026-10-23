@@ -3,9 +3,14 @@
 
 import { loadIndex, loadArticle, articlePage, missingPage, htmlHeaders, privateHeaders, guideResponse,
   unavailableResponse } from "../../lib/guides.js";
+import { edgeCached } from "../../lib/edge-cache.js";
 import { editorFor } from "../../lib/guides-cms.js";
 
-export async function onRequestGet({ request, env, params }) {
+// A published article is kept at the edge for a minute (lib/edge-cache.js); a draft (private) never is, and the
+// editor's save forgets this data center's copy.
+export const onRequestGet = context => edgeCached(context, () => render(context), { ttl: 60 });
+
+async function render({ request, env, params }) {
   return guideResponse(async () => {
     const article = await loadArticle(env, request, params.slug);
     const missing = () => new Response(missingPage(), { status: 404, headers: { ...htmlHeaders(), ...privateHeaders } });

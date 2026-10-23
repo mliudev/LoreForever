@@ -1,0 +1,95 @@
+{
+ "key": "quest:1467",
+ "type": "quest",
+ "name": "Reagents for Reclaimers Inc.",
+ "era": "classic",
+ "zone": "desolace",
+ "meta": {
+  "ids": [
+   1467
+  ],
+  "level": "40",
+  "faction": "Alliance",
+  "start": "Kreldig Ungor",
+  "end": "Roetten Stonehammer",
+  "previous": "Reagents for Reclaimers Inc. (3)",
+  "next": "",
+  "wiki": "Reagents for Reclaimers Inc. (4)",
+  "chain": [],
+  "prev_q": [
+   "Reagents for Reclaimers Inc. (3)"
+  ],
+  "category": "Desolace",
+  "chain_tpl": [
+   "Reagents for Reclaimers Inc."
+  ]
+ },
+ "summary": "Kreldig Ungor gives you Leftwitch's package and sends you back to Ironforge. Roetten Stonehammer is the one to see about your pay, and Kreldig promises a kind word about you once back home.",
+ "sections": [
+  {
+   "title": "Payment in Ironforge",
+   "body": "Kreldig says your pay waits in Ironforge with Roetten Stonehammer himself. Roetten will be glad to be rid of Leftwitch's package, and handing it over should be enough to get what you are owed. Kreldig expects to be in Desolace only a little longer, and still means to speak well of you once home.",
+   "spoiler": 0
+  },
+  {
+   "title": "Roetten's Thanks",
+   "body": "Roetten Stonehammer welcomes Leftwitch's package from Desolace and thanks you for the work and how quickly it was done. Your payment is ready, and Roetten remarks that a hard week's work is always well paid by Reclaimers Inc.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who sends you back to Ironforge?",
+   "aliases": [
+    "quest giver",
+    "who gives the quest",
+    "who starts this"
+   ],
+   "answer": "Kreldig Ungor sends you back to Ironforge with Leftwitch's package after the reagents are gathered."
+  },
+  {
+   "q": "Where does Leftwitch's package need to go?",
+   "aliases": [
+    "where do i take the package",
+    "package destination",
+    "who gets the package"
+   ],
+   "answer": "It goes to Roetten Stonehammer in Ironforge."
+  },
+  {
+   "q": "Why do you carry the package to Roetten?",
+   "aliases": [
+    "why carry package",
+    "why visit roetten"
+   ],
+   "answer": "Kreldig says your pay comes from Roetten himself, so the package goes to him in Ironforge."
+  },
+  {
+   "q": "Is Kreldig Ungor remaining in Desolace?",
+   "aliases": [
+    "does kreldig leave desolace",
+    "where is kreldig going"
+   ],
+   "answer": "Not for much longer, according to Kreldig, who still means to speak well of you once back home."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "desolace",
+  "ironforge",
+  "kreldig ungor",
+  "leftwitch's package",
+  "reagents for reclaimers inc",
+  "roetten stonehammer"
+ ],
+ "related": [
+  "npc:roetten-stonehammer",
+  "npc:kreldig-ungor",
+  "zone:ironforge",
+  "zone:desolace",
+  "quest:1466"
+ ],
+ "attribution": [
+  "Reagents for Reclaimers Inc. (4)"
+ ]
+}

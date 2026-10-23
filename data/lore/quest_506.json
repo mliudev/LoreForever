@@ -1,0 +1,121 @@
+{
+ "key": "quest:506",
+ "type": "quest",
+ "name": "Blackmoore's Legacy",
+ "era": "classic",
+ "zone": "hillsbrad",
+ "meta": {
+  "ids": [
+   506
+  ],
+  "level": "36",
+  "faction": "Horde",
+  "start": "Gol'dir",
+  "end": "Krusk",
+  "previous": "Gol'dir (quest)",
+  "next": "Lord Aliden Perenolde (quest)",
+  "wiki": "Blackmoore's Legacy",
+  "chain": [
+   "The Rescue",
+   "Infiltration (Classic)",
+   "Gol'dir (quest)",
+   "Blackmoore's Legacy",
+   "Lord Aliden Perenolde (quest)",
+   "Taretha's Gift"
+  ],
+  "prev_q": [
+   "Gol'dir (quest)"
+  ],
+  "next_q": [
+   "Lord Aliden Perenolde (quest)"
+  ],
+  "category": "Hillsbrad Foothills"
+ },
+ "summary": "Gol'dir, freed from the Syndicate, has information for Krusk in Tarren Mill. The Syndicate's leader, Aliden Perenolde, visited Gol'dir and spoke of making slaves of the orcs who stand against him, and brought a girl named Elysa who wore the pendant the Warchief desires.",
+ "sections": [
+  {
+   "title": "A Visit to the Prisoner",
+   "body": "A day or two ago, the head of the Syndicate paid Gol'dir a visit. His name was Aliden Perenolde, and he styled himself lord of the land. He confided that he meant to enslave the orcs who resisted him, just as his father and the despised Blackmoore, his mentor, once planned. Gol'dir sends you to bring this to Krusk in Tarren Mill, and will make his own way after settling his business where he is.",
+   "spoiler": 0
+  },
+  {
+   "title": "Elysa's Pendant",
+   "body": "More important, Perenolde brought his mistress, a slight girl named Elysa. Around her neck hung the pendant the Warchief desires.",
+   "spoiler": 0
+  },
+  {
+   "title": "Krusk's Answer",
+   "body": "Krusk is angry at the nerve of the overbearing humans and vows that the orcs will never submit. Krusk declares that standing against them is now a goal alongside recovering the trinket the Warchief desires, and that by achieving one they will also achieve the other.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who gives this quest?",
+   "aliases": [
+    "who gives blackmoore's legacy",
+    "quest giver",
+    "goldir"
+   ],
+   "answer": "The orc Gol'dir, once you have freed him from the Syndicate."
+  },
+  {
+   "q": "Who should receive the news?",
+   "aliases": [
+    "where do i go",
+    "who to talk to",
+    "turn in location"
+   ],
+   "answer": "Krusk, in Tarren Mill."
+  },
+  {
+   "q": "What did Aliden Perenolde reveal to Gol'dir?",
+   "aliases": [
+    "perenolde plan",
+    "syndicate plans",
+    "what did perenolde say"
+   ],
+   "answer": "Perenolde, head of the Syndicate, confided that he meant to enslave the orcs who resisted him, following the plans of his father and of his mentor, the despised Blackmoore."
+  },
+  {
+   "q": "What else did Gol'dir notice during the visit?",
+   "aliases": [
+    "elysa necklace",
+    "warchief pendant",
+    "mistress"
+   ],
+   "answer": "Perenolde brought his mistress, a girl named Elysa, who wore around her neck the pendant the Warchief desires."
+  },
+  {
+   "q": "What came before this quest?",
+   "aliases": [
+    "previous quest",
+    "what came before"
+   ],
+   "answer": "Gol'dir, in which you freed Gol'dir from the Syndicate."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "aliden",
+  "blackmoore",
+  "elysa",
+  "goldir",
+  "krusk",
+  "legacy",
+  "pendant",
+  "perenolde",
+  "syndicate",
+  "tarren mill"
+ ],
+ "related": [
+  "npc:krusk",
+  "quest:503",
+  "quest:507",
+  "subzone:tarren-mill",
+  "topic:syndicate"
+ ],
+ "attribution": [
+  "Blackmoore's Legacy"
+ ]
+}

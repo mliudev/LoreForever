@@ -65,8 +65,12 @@ const ago = seconds => seconds < 2 * 3600 ? "an hour or so ago" : seconds < 36 *
 
 // The character as the add-on last saved it (Journey.lua char.stock and char.days; Willo's app sends them with each
 // answer as `stock`), checked: {t, level, xp, xpMax, money (copper), riding (skill: 0, 75, 150), race, skills: {name:
-// [rank, max]}, rep: {name: [standing 1-8, value, min, max]}, days: [{d, m0, m, l0, l, on}]}, or null. days: one per day
-// played, oldest first: money and level (with the bar's fraction) at its first and last look, and seconds online.
+// [rank, max]}, rep: {name: [standing 1-8, value, min, max]}, days: [{d, m0, m, l0, l, on}], beats?: [beat id]}, or null.
+// days: one per day played, oldest first: money and level (with the bar's fraction) at its first and last look, and
+// seconds online. beats: the story beats the character has opened (story as you play, docs/story-beats.md; the PC's
+// profile.opened_beats), for the hidden passages Willo on the phone may use (api/companion/passages.js); goals ignore them.
+const BEAT_ID = /^[a-z0-9][a-z0-9._-]{0,63}$/i;   // data/beats.json ids: "defias.masons", "s96.3"
+const BEATS_MAX = 1500;
 export function stockOf(raw) {
   if (!raw || typeof raw !== "object" || Array.isArray(raw)) return null;
   const n = (v, lo, hi) => typeof v === "number" && Number.isFinite(v) && v >= lo && v <= hi ? v : null;
@@ -92,6 +96,10 @@ export function stockOf(raw) {
     if (!d || typeof d !== "object") continue;
     const day = { d: word(d.d, 10), m0: n(d.m0, 0, 1e11), m: n(d.m, 0, 1e11), l0: n(d.l0, 1, 81), l: n(d.l, 1, 81), on: n(d.on, 0, 86400 * 2) };
     if (day.d && day.on !== null) stock.days.push(day);
+  }
+  if (Array.isArray(raw.beats)) {
+    const beats = [...new Set(raw.beats.slice(0, BEATS_MAX).filter(b => typeof b === "string" && BEAT_ID.test(b)))].sort();
+    if (beats.length) stock.beats = beats;
   }
   const known = stock.level !== null || stock.money !== null || stock.skills || stock.rep;
   return known ? stock : null;

@@ -1,0 +1,110 @@
+{
+ "key": "quest:1052",
+ "type": "quest",
+ "name": "Down the Scarlet Path",
+ "era": "classic",
+ "zone": "desolace",
+ "meta": {
+  "ids": [
+   1052
+  ],
+  "level": "40",
+  "faction": "Alliance",
+  "start": "Brother Anton",
+  "end": "Raleigh the Devout",
+  "previous": "Down the Scarlet Path",
+  "next": "In the Name of the Light",
+  "wiki": "Down the Scarlet Path (2)",
+  "chain": [
+   "Brother Anton (quest)",
+   "Down the Scarlet Path",
+   "Down the Scarlet Path (2)",
+   "In the Name of the Light"
+  ],
+  "prev_q": [
+   "Down the Scarlet Path"
+  ],
+  "next_q": [
+   "In the Name of the Light"
+  ],
+  "category": "Desolace"
+ },
+ "summary": "Brother Anton says your deeds against the undead in Desolace are only a start, because the plague's real danger is in Lordaeron. He gives you a letter of commendation bearing his seal for Raleigh the Devout in Southshore.",
+ "sections": [
+  {
+   "title": "Strongholds of the Crusade",
+   "body": "Anton speaks proudly of the Scarlet Crusade's bastions of cleansing in Lordaeron. The Crusade claims strongholds all the way between Hearthglen and Tirisfal Glades. Anton says your work against the undead in Desolace has proven you, yet the plague's real danger is in Lordaeron.",
+   "spoiler": 0
+  },
+  {
+   "title": "A Letter for Southshore",
+   "body": "Anton sends you to Southshore, a town in the Eastern Kingdoms, to look for a crusader called Raleigh the Devout. The letter carries Anton's seal, and Anton says it will win you an escort from Raleigh to a place of honor within the Scarlet Monastery.",
+   "spoiler": 0
+  },
+  {
+   "title": "Raleigh's Reaction",
+   "body": "Raleigh breaks the seal and reads the letter. To hear that Anton still spreads word of the Scarlet Crusade troubles Raleigh, who tells you something here is beyond what you understand.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who sends you on this journey?",
+   "aliases": [
+    "who gives down the scarlet path",
+    "quest giver down the scarlet path"
+   ],
+   "answer": "Brother Anton gives you a sealed letter of commendation to carry to Raleigh the Devout."
+  },
+  {
+   "q": "Where are you being sent?",
+   "aliases": [
+    "where to go",
+    "where is raleigh",
+    "down the scarlet path location"
+   ],
+   "answer": "You go to Southshore, in the Eastern Kingdoms, to find the crusader Raleigh the Devout."
+  },
+  {
+   "q": "What does Brother Anton say the letter will do?",
+   "aliases": [
+    "what does the letter do",
+    "letter of commendation purpose"
+   ],
+   "answer": "Anton says that once Raleigh sees his sealed letter, Raleigh will take you to a place of honor within the Scarlet Monastery."
+  },
+  {
+   "q": "What territory does the Scarlet Crusade claim in Lordaeron?",
+   "aliases": [
+    "scarlet crusade lands",
+    "where are scarlet crusade strongholds"
+   ],
+   "answer": "Brother Anton says the Scarlet Crusade holds strongholds stretching between Hearthglen and Tirisfal Glades, and he takes pride in those bastions of cleansing."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "brother anton",
+  "down the scarlet path",
+  "hearthglen",
+  "letter of commendation",
+  "lordaeron",
+  "raleigh the devout",
+  "scarlet monastery",
+  "southshore",
+  "tirisfal glades"
+ ],
+ "related": [
+  "quest:261",
+  "quest:6141",
+  "topic:scarlet-crusade",
+  "subzone:southshore",
+  "zone:scarlet",
+  "topic:lordaeron",
+  "subzone:hearthglen",
+  "zone:tirisfal"
+ ],
+ "attribution": [
+  "Down the Scarlet Path (2)"
+ ]
+}

@@ -1,0 +1,91 @@
+{
+ "key": "quest:339",
+ "type": "quest",
+ "name": "Chapter I",
+ "era": "classic",
+ "zone": "stranglethorn",
+ "meta": {
+  "ids": [
+   339
+  ],
+  "level": "40",
+  "faction": null,
+  "start": "Barnil Stonepot",
+  "end": "Barnil Stonepot",
+  "previous": "The Green Hills of Stranglethorn (Classic)",
+  "next": "",
+  "wiki": "Chapter I",
+  "chain": [],
+  "prev_q": [
+   "The Green Hills of Stranglethorn (Classic)"
+  ],
+  "category": "Stranglethorn Vale",
+  "chain_tpl": [
+   "The Green Hills of Stranglethorn (Classic)"
+  ]
+ },
+ "summary": "Barnil Stonepot is trying to restore the opening portion of Hemet Nesingwary's scattered hunting manuscript, The Green Hills of Stranglethorn. He needs four missing leaves gathered from across the jungle to bind the introductory section back together.",
+ "sections": [
+  {
+   "title": "The Missing Introduction",
+   "body": "Following your talk regarding The Green Hills of Stranglethorn, Barnil Stonepot sets his sights on restoring the book's opening passage. According to the dwarf, this first part sets the stage for the wider story and describes Nesingwary's hunting party, counting Barnil himself among the companions. Unfortunately, the manuscript's leaves remain lost in the wild, leaving pages one, four, six, and eight absent from the collection.",
+   "spoiler": 0
+  },
+  {
+   "title": "Binding the First Section",
+   "body": "Once you bring back the four missing sheets, Barnil is able to piece the first segment of the master huntsman's text back into a single, cohesive part of the book.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is asking for these pages?",
+   "aliases": [
+    "who gives chapter 1",
+    "barnil stonepot",
+    "quest giver"
+   ],
+   "answer": "Barnil Stonepot, a companion of Hemet Nesingwary stationed at their camp in Stranglethorn Vale, needs the pages to assemble the scattered hunting memoirs."
+  },
+  {
+   "q": "Which pages are needed for this part of the manuscript?",
+   "aliases": [
+    "what pages are needed",
+    "missing pages",
+    "which pages"
+   ],
+   "answer": "Barnil needs pages one, four, six, and eight to successfully reassemble the opening section of the work."
+  },
+  {
+   "q": "What is described in this part of the manuscript?",
+   "aliases": [
+    "what is chapter 1 about",
+    "manuscript contents"
+   ],
+   "answer": "According to Barnil Stonepot, it sets the background for the story and introduces Nesingwary's hunting companions, including Barnil himself."
+  },
+  {
+   "q": "What led up to this step?",
+   "aliases": [
+    "prerequisite",
+    "previous quest"
+   ],
+   "answer": "This follows the broader effort to recover The Green Hills of Stranglethorn, where Barnil first informs you of the missing pages."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "barnil stonepot",
+  "chapter i",
+  "green hills of stranglethorn",
+  "hemet nesingwary",
+  "stranglethorn vale"
+ ],
+ "related": [
+  "quest:338",
+  "zone:stranglethorn"
+ ],
+ "attribution": [
+  "Chapter I"
+ ]
+}

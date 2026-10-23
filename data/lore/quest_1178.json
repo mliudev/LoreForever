@@ -1,0 +1,103 @@
+{
+ "key": "quest:1178",
+ "type": "quest",
+ "name": "Goblin Sponsorship",
+ "era": "classic",
+ "zone": "thousandneedles",
+ "meta": {
+  "ids": [
+   1178
+  ],
+  "level": "37",
+  "faction": null,
+  "start": "Pozzik",
+  "end": "Gazlowe",
+  "previous": "Load Lightening",
+  "next": "Goblin Sponsorship (2)",
+  "wiki": "Goblin Sponsorship",
+  "chain": [],
+  "prev_q": [
+   "Load Lightening"
+  ],
+  "next_q": [
+   "Goblin Sponsorship (2)"
+  ],
+  "category": "Thousand Needles",
+  "chain_tpl": [
+   "Goblin Sponsorship"
+  ]
+ },
+ "summary": "Pozzik of the goblin racing team is waiting on a prototype fuel regulator that Gazlowe promised a few weeks ago, and it has not come. Gazlowe is usually very prompt, so Pozzik asks you to go to Ratchet and ask what happened, since the gnomes are gaining on the team.",
+ "sections": [
+  {
+   "title": "A Promised Part",
+   "body": "Pozzik calls the racing team the pride of goblins, and says many people help it in one way or another. Gazlowe hunts down parts from all over the world for the team, and once even came to work on one of their rigs. A few weeks ago Gazlowe said a new prototype fuel regulator would be sent, but nothing has arrived, which is unlike him. With the gnomes gaining, Pozzik asks you to go to Ratchet and ask Gazlowe about it.",
+   "spoiler": 0
+  },
+  {
+   "title": "Words About Pozzik",
+   "body": "When Gazlowe hears that Pozzik sent you, he remarks that Pozzik was counted among Undermine's most respected tinkerers before retiring to work on the racers. Pozzik's first act on joining the team was to design the two engine model racers. Gazlowe allows that business may suffer without Pozzik working with the Tinkers' Union, but says nothing beats the races.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Why does Pozzik need you to go to Ratchet?",
+   "aliases": [
+    "why ratchet",
+    "pozzik errand",
+    "goblin sponsorship objective"
+   ],
+   "answer": "Gazlowe said weeks ago that he would send a prototype fuel regulator, yet none has come. Pozzik asks you to go to Ratchet and ask him about it."
+  },
+  {
+   "q": "What does Gazlowe do for the racing team?",
+   "aliases": [
+    "gazlowe involvement",
+    "gazlowe raceway sponsor",
+    "is gazlowe a sponsor"
+   ],
+   "answer": "He hunts down parts from all over the world for the team, and once even came to work on one of their rigs."
+  },
+  {
+   "q": "What comes before this?",
+   "aliases": [
+    "goblin sponsorship prequest",
+    "what quest comes before goblin sponsorship"
+   ],
+   "answer": "It follows Load Lightening, also given by Pozzik."
+  },
+  {
+   "q": "Why is the goblin team in a hurry?",
+   "aliases": [
+    "why rush fuel regulator",
+    "goblin vs gnome race"
+   ],
+   "answer": "Pozzik says the gnomes are gaining on them."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "fuel regulator",
+  "gazlowe",
+  "mirage raceway",
+  "pozzik",
+  "ratchet",
+  "shimmering flats",
+  "tinkers union",
+  "undermine"
+ ],
+ "related": [
+  "npc:pozzik",
+  "npc:gazlowe",
+  "quest:1176",
+  "quest:1180",
+  "subzone:ratchet",
+  "zone:thousandneedles",
+  "topic:goblin",
+  "topic:gnome"
+ ],
+ "attribution": [
+  "Goblin Sponsorship"
+ ]
+}

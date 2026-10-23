@@ -4,6 +4,7 @@ import { COMPANION_NAME as WILLO } from "./brand.js";
 import { FACTS_MAX_BYTES } from "./forever-knowledge.js";
 import { QUEST_FACTS_MAX_BYTES } from "./forever-quest-facts.js";
 import { ITEM_FACTS_MAX_BYTES } from "./forever-item-facts.js";
+import { SPELL_FACTS_MAX_BYTES } from "./forever-spell-facts.js";
 import { PLACE_FACTS_MAX_BYTES } from "./forever-place-facts.js";
 import { FINDING_MAX_BYTES, ofThisEra } from "./research-cache.js";
 import { HELP_MAX_BYTES } from "./willo-help.js";
@@ -13,6 +14,7 @@ import { GOAL_RULES, GOALS_MAX_BYTES, isGoalTool } from "./willo-goals.js";
 import { OFF_ANSWERS, planFor, planAbove, plansOn, packsFor, companionFeatures, capState, poolWindow }
   from "./billing.js";
 import { voiceAllowance } from "./companion-voice.js";
+import { poolNow, fits, dayStatement } from "./free-pool.js";
 import { tasteState, trialView } from "./best-first.js";
 
 // The free answers a day while plans are switched off (lib/billing.js OFF_ANSWERS). A player's own limit comes from
@@ -183,7 +185,7 @@ export const LORE_FOCUS = "LORE FOCUS: answer from the world's lore and story an
 // reads as a riddle.
 export const TRAIL_COLD = "NO FRESH SEARCH: answer from the world's lore, the supplied context and any earlier research. If the question truly needs fresh outside information you don't have here, say so in one warm line (about the world, in its spirit: \"the trail goes cold here\"; about the player's own world, plainly: you can't check today's weather, news, prices or newest models right now, so never make them up), then share what you do know, for real-world things lasting advice, never an older product as the newest. Never mention limits, allowances, searches or the web.";
 // A spoken question may come with a picture of the game window (imageOf); appended after the spoken text.
-const PICTURE_SYSTEM = "A picture of the player's game window, taken the moment they asked, comes with this question. Use it when the question is about what they see or what is in front of them, such as the character they are making or a creature nearby. Talk about the world and characters in it; never read out other players' names, chat, or interface numbers.";
+const PICTURE_SYSTEM = "A picture of the player's game window, taken the moment they asked, comes with this question. Use it when the question is about what they see, such as the character they are making or a creature nearby. Talk about the world and characters in it; never read out other players' names, chat, or interface numbers, and never name a buff or spell from its icon alone.";
 
 // Resolve intent in the existing answer call, after sources and style/tool rules. A relevant retrieved record
 // cannot supply words the player never said. Keep specific mishearings in evals, not in production routing.
@@ -225,10 +227,10 @@ const PROMPTS = Object.fromEntries(Object.entries(PERSONAS).map(([id, persona]) 
 // sentences replaced (not added to, the prompt stays the size it was), and a short rule for what she can say of where
 // they are. Words that are missing from a prompt fail the load, so a rewrite of one can't silently drop the other.
 export const AWAY_RULE = {
-  // A place is given (PLAYER CONTEXT's zone or saved place): where they last rested, in the past tense, and the way from it.
-  last: "AWAY: the player is not in the world now. The place given is where they last rested: say it in the past tense (\"when you rested last you were in…\") and give directions from it (\"from Darkshire, where you rested last…\"), never \"here\", \"right there\" or who is near. Never name saves, files or the game's tools.",
+  // A place is given (PLAYER CONTEXT's "rested last in:" line, awayContext): the past tense of it, and the way from it.
+  last: "AWAY: zone and sub are where they last rested. Say it in the past tense (\"when you rested last, folk were about…\"), advise and direct from that zone (\"from Darkshire, where you rested last…\"), never \"here\", \"now\" or \"right there\", nor name or guess who is near. Never say log off, saves or tools.",
   // None (the iPhone knows no place): she can't see where they are, and asks.
-  none: "AWAY: the player is not in the world now and nothing says where they are: never guess a place or who is near; say you can't see where they are, and ask, from inside the world. Never name saves, files or the game's tools.",
+  none: "AWAY: the player is not in the world now and nothing says where they are: never guess a place or who is near; say you can't see where they are and ask where they last rested. Never say log off, saves or tools.",
 };
 const AWAY_SWAPS = [["they are in the game and can see what you can't", "they know their world and can see what you can't"],
   [" this answer out loud over the game, with captions.", " this answer out loud."]];
@@ -249,9 +251,13 @@ export const seesPicture = (operation, researchRequired, style, image) =>
   operation === "answer" && !researchRequired && Boolean(styleOf(style)) && Boolean(imageOf(image));
 
 // The player is disputing the last answer or losing patience (lib/answer-feedback.js feedbackKind), said once more
-// right before they're answered: Flash-Lite otherwise defends what it said (LOR-446).
+// right before they're answered: Flash-Lite otherwise defends what it said (LOR-446). A correction (Mike, 10/22: "If the
+// user states something twice, she should try to understand it a little better… and be a bit more communicative"): what
+// their game shows wins on how a spell or rule works, since Forever changes them; their word alone doesn't, and she asks
+// what the tooltip says; never the same claim a third time; story, places and era hold. Scripted pushbacks, 3.6 Flash
+// (functions/api/companion/answer.js smartFor): handled well 33% -> 75%, giving way to a wrong player 3 -> 0 in 18.
 const DISPUTE_SYSTEM = {
-  correction: "This message disputes your last answer or tells you how it is in WoW Forever. First compare what the player says with FOREVER FACTS and SOURCES. If one of them says otherwise, your answer states what it says, kindly, and allows that things may have changed; do not agree with the player. If they back the player, or nothing supplied covers it, follow the rules for corrections above: thank them and say you'll pass it on to be checked. Never argue, and never say you'll remember it.",
+  correction: "This message disputes your last answer or tells you how it is in WoW Forever. Check again against FOREVER FACTS, SOURCES and the picture, and say in a line what you're going on. If those back the player, or the player says what their game shows (a tooltip, buff or character sheet) about a spell or game rule, that wins: correct yourself plainly, thank them and say you'll pass it on to be checked. Otherwise their word is not proof: never say they're right or that it must have changed; say what your notes say and ask what their tooltip shows. If they repeat it, don't repeat your claim: say your notes differ and their tooltip has the final word. On story, places and era, keep to the record, kindly. Never argue, and never say you'll remember it.",
   frustration: "The player is frustrated with your answers. Own the mistake in a few words, without defending yourself, and give the most useful answer you can.",
 };
 export const DISPUTE_KINDS = Object.keys(DISPUTE_SYSTEM);
@@ -311,11 +317,11 @@ const SEARCH_RESERVATION_MICRO = SEARCH_QUERY_RESERVATION * ANSWER_GROUNDING_MIC
 export const LOOKUP_QUERY_RESERVATION = 6;
 const LOOKUP_SEARCH_MICRO = LOOKUP_QUERY_RESERVATION * ANSWER_GROUNDING_MICRO;
 export const LOOKUP_RESERVATION_MICRO = LOOKUP_SEARCH_MICRO + Math.ceil(2048 * 0.25 + LOOKUP_OUTPUT_TOKENS * 1.50);
-// What an answer's knowledge may add to its system prompt: QUEST AND NPC FACTS, ITEM FACTS, TOWN AND ROAD FACTS,
+// What an answer's knowledge may add to its system prompt: QUEST AND NPC FACTS, ITEM FACTS, SPELL FACTS, TOWN AND ROAD FACTS,
 // FOREVER FACTS, an EARLIER RESEARCH finding, what she reads of the player's notebook (lib/willo-notebook.js
 // notebookView) and THEIR GOALS (lib/willo-goals.js goalsBlock), a blank line between each.
-export const KNOWLEDGE_MAX_BYTES = QUEST_FACTS_MAX_BYTES + ITEM_FACTS_MAX_BYTES + PLACE_FACTS_MAX_BYTES + FACTS_MAX_BYTES +
-  FINDING_MAX_BYTES + NOTEBOOK_MAX_BYTES + GOALS_MAX_BYTES + 12;
+export const KNOWLEDGE_MAX_BYTES = QUEST_FACTS_MAX_BYTES + ITEM_FACTS_MAX_BYTES + SPELL_FACTS_MAX_BYTES + PLACE_FACTS_MAX_BYTES +
+  FACTS_MAX_BYTES + FINDING_MAX_BYTES + NOTEBOOK_MAX_BYTES + GOALS_MAX_BYTES + 14;
 // The most the actions offered with an answer (lib/willo-tools.js actionsFor) may add as declarations, as JSON;
 // writeAnswer drops a bigger offer. Gemini's answer argument on each, and ANSWER_ONLY (geminiActions), add up to 1 KB.
 export const ACTIONS_MAX_BYTES = 3000;
@@ -380,38 +386,22 @@ export function knowledgeWithin(text, max = KNOWLEDGE_MAX_BYTES) {
   return out;
 }
 
-export function paidBudgetMicro(env) {
-  const usd = Number(env.STORY_BUDGET_USD ?? 100);
-  return Math.round((Number.isFinite(usd) && usd >= 0 ? usd : 100) * 1e6);
-}
+// The free players' monthly pool (lib/free-pool.js), which every gate below holds to, a day at a time.
+export { poolMicro as paidBudgetMicro } from "./free-pool.js";
+// What the free pool has used this month (lib/free-pool.js freeSpend).
+export const answerBudgetUsed = async (env, now = new Date()) => (await poolNow(env, now)).used;
 
-// The live answers that count against the shared monthly budget: all of them, less what paying players' answers and
-// hosted voice cost (answer_user_spend, lib/billing.js), since their plans and packs pay for those. A paid-for answer
-// still in flight counts for those few seconds. Bind the month twice.
-const FREE_ANSWER_SPEND = "COALESCE((SELECT reserved_micro FROM answer_spend WHERE month = ?), 0) - " +
-  "COALESCE((SELECT SUM(micro) FROM answer_user_spend WHERE month = ?), 0)";
-
-export async function answerBudgetUsed(env, now = new Date()) {
-  const row = await env.DB.prepare(`SELECT ${FREE_ANSWER_SPEND} AS micro`).bind(month(now), month(now)).first();
-  return Math.max(0, row?.micro || 0);
-}
-
-async function otherPaidSpend(env, now = new Date()) {
-  const row = await env.DB.prepare("SELECT micro_usd, voice_micro_usd, reserved_micro FROM story_spend WHERE month = ?")
-    .bind(month(now)).first();
-  return (row?.micro_usd || 0) + (row?.voice_micro_usd || 0) + (row?.reserved_micro || 0);
-}
-
-// Profile stories and their voice use the same atomic budget gate as answers. In-flight requests hold a
-// conservative cost estimate; a successful response reconciles it to the service's measured spend.
+// Profile stories and their voice use the same atomic gate as answers, up to the day's allowance only: on the pool's
+// soft step they wait, so free answers keep coming. In-flight requests hold a conservative cost estimate; a successful
+// response reconciles it to the service's measured spend.
 export async function reserveOtherPaid(env, micro, now = new Date()) {
   if (!Number.isSafeInteger(micro) || micro < 0) return false;
-  await env.DB.prepare("INSERT OR IGNORE INTO story_spend (month) VALUES (?)").bind(month(now)).run();
-  const row = await env.DB.prepare(
-    "UPDATE story_spend SET reserved_micro = reserved_micro + ? WHERE month = ? AND " +
-    `micro_usd + voice_micro_usd + reserved_micro + ? + ${FREE_ANSWER_SPEND} <= ? RETURNING reserved_micro`
-  ).bind(micro, month(now), micro, month(now), month(now), paidBudgetMicro(env)).first();
-  return Boolean(row);
+  const room = fits(env, now, micro, "soft");
+  const [, , held] = await env.DB.batch([
+    env.DB.prepare("INSERT OR IGNORE INTO story_spend (month) VALUES (?)").bind(month(now)), dayStatement(env, now),
+    env.DB.prepare(`UPDATE story_spend SET reserved_micro = reserved_micro + ? WHERE month = ? AND ${room.sql} ` +
+      "RETURNING reserved_micro").bind(micro, month(now), ...room.binds)]);
+  return Boolean(held.results?.length);
 }
 
 // Mike's own and test accounts (lib/activity.js syncExclusions: reason "admin" or "config") have no daily answer cap;
@@ -453,7 +443,7 @@ export async function allowance(env, userId, now = new Date(), exempt = null, pl
       .bind(userId, `companion-answer:${day(now)}`, monthBucket).all(),
     plansOn(env) && !exempt && capState(env, userId, plan, now).then(state => state === "capped"),
     packsFor(env, userId, now),
-    subscriber ? [0, 0] : Promise.all([answerBudgetUsed(env, now), otherPaidSpend(env, now)]),
+    subscriber ? null : poolNow(env, now),
     tasteState(env, userId, plan, now)]);
   const counted = bucket => results.find(r => r.bucket === bucket)?.n || 0;
   const dayLeft = Math.max(0, plan.answersPerDay - counted(`companion-answer:${day(now)}`));
@@ -472,8 +462,8 @@ export async function allowance(env, userId, now = new Date(), exempt = null, pl
     ...(exempt ? { unlimited: true } : {}),
     resetsAt: period === "month" ? (capped ? nextMonth : pool.resetsAt)
       : new Date(Date.parse(day(now) + "T00:00:00Z") + 86400e3).toISOString(),
-    // A paying player's answers are covered by their plan, not the shared monthly budget.
-    available: Boolean(env.GEMINI_API_KEY) && (subscriber || paid[0] + paid[1] + ANSWER_RESERVATION_MICRO <= paidBudgetMicro(env)),
+    // A paying player's answers are covered by their plan, not the shared free pool (lib/free-pool.js): today's stop.
+    available: Boolean(env.GEMINI_API_KEY) && (subscriber || paid.used + ANSWER_RESERVATION_MICRO <= paid.hard),
     // plan.renews: when a paid plan renews, or ends (cancelAtPeriodEnd), for the app's account line (Willo's settings).
     pictures: true, plan: { id: plan.id, name: plan.name, ...(plan.renews ? { renews: plan.renews } : {}),
       ...(plan.cancelAtPeriodEnd ? { cancelAtPeriodEnd: true } : {}) },
@@ -492,48 +482,52 @@ export async function allowance(env, userId, now = new Date(), exempt = null, pl
       : {}) };
 }
 
-// Atomic admission: concurrent requests cannot reserve past the monthly estimated-spend limit. Provider
-// queries can exceed the estimate; uncertain charges remain reserved and measured excess is counted in full.
-// Profile stories and voice share this gate. A paid-for answer (paid: a paying player's) skips the gate, since the
-// plan pays for it, but its reservation is still recorded so /admin sees the whole month's spend;
-// what it cost is taken back out of the gate's count (FREE_ANSWER_SPEND), so it never uses up free players' budget.
+// Atomic admission: concurrent requests cannot reserve past the free pool's stop for today (lib/free-pool.js limit).
+// Provider queries can exceed the estimate; uncertain charges remain reserved and measured excess is counted in full.
+// Profile stories and voice share this gate. A paid-for answer (paid: a paying player's, or one of Willo's best first,
+// which its own daily cap holds, lib/best-first.js) skips the gate, but its reservation is still recorded so /admin
+// sees the whole month's spend; what it cost is taken back out of the pool's count (lib/free-pool.js freeSpend), so it
+// never uses up free players' pool.
 // strong, longMemory, picture (seesPicture) and lite: as writeAnswer will be asked, so the reservation fits the call.
 export async function reserveAnswer(env, now = new Date(), researchRequired = false, operation = "answer", lookup = false,
   { paid = false, strong = false, longMemory = false, picture = false, lite = false,
   smarter = false } = {}) {
   const reserved = answerReservation(researchRequired, operation, { lookup, strong, longMemory, picture, lite,
     smarter });
-  // One round trip for both, in order (LOR-654): the month's row, then the reservation while it fits.
-  const [, held] = await env.DB.batch([
+  // One round trip for all, in order (LOR-654): the month's row, the pool's day, then the reservation while it fits.
+  const room = fits(env, now, reserved);
+  const [, , held] = await env.DB.batch([
     env.DB.prepare("INSERT OR IGNORE INTO answer_spend (month, reserved_micro, actual_micro, calls) VALUES (?, 0, 0, 0)")
       .bind(month(now)),
+    dayStatement(env, now),
     env.DB.prepare(
       "UPDATE answer_spend SET reserved_micro = reserved_micro + ?, calls = calls + 1 WHERE month = ? AND (? = 1 OR " +
-      `${FREE_ANSWER_SPEND} + ? + COALESCE((SELECT micro_usd + voice_micro_usd + reserved_micro FROM story_spend WHERE month = ?), 0) <= ?) ` +
-      "RETURNING reserved_micro"
-    ).bind(reserved, month(now), paid ? 1 : 0, month(now), month(now), reserved, month(now), paidBudgetMicro(env)),
+      `${room.sql}) RETURNING reserved_micro`
+    ).bind(reserved, month(now), paid ? 1 : 0, ...room.binds),
   ]);
   return Boolean(held.results?.length);
 }
 
-// A piece of the free plan's spoken starter (lib/companion-voice.js speakPiece), which the shared monthly budget pays
-// for: `micro` held on the month's answer_spend in one statement, as reserveAnswer does, only while it fits. Not an
-// answer, so no call is counted. settleFreeVoice then keeps it as spent (said) or gives it back.
-export async function reserveFreeVoice(env, micro, now = new Date()) {
-  return reservedFreeVoice(await env.DB.batch(reserveFreeVoiceStatements(env, micro, now)));
+// A piece of the free plan's spoken starter (lib/companion-voice.js speakPiece), which the shared free pool pays for:
+// `micro` held on the month's answer_spend in one statement, as reserveAnswer does, only while it fits under the day's
+// allowance (lib/free-pool.js: on the soft step free answers are text, and Willo speaks them in her own voice on the
+// PC). Not an answer, so no call is counted. settleFreeVoice then keeps it as spent (said) or gives it back.
+export async function reserveFreeVoice(env, micro, now = new Date(), pooled = true) {
+  return reservedFreeVoice(await env.DB.batch(reserveFreeVoiceStatements(env, micro, now, null, pooled)));
 }
 // reserveFreeVoice's statements (one batch: the month's row, then the reservation), for a caller that batches them with
 // its own (lib/companion-voice.js: a hosted piece's claim on its reply); also: {sql, binds}, one more condition on it.
-// reservedFreeVoice reads the batch's results: whether it was reserved.
-export function reserveFreeVoiceStatements(env, micro, now = new Date(), also = null) {
+// pooled: false for a piece of Willo's best first, which its own daily cap holds (lib/best-first.js holdDay) and the
+// pool leaves out. reservedFreeVoice reads the batch's results: whether it was reserved.
+export function reserveFreeVoiceStatements(env, micro, now = new Date(), also = null, pooled = true) {
+  const room = pooled ? fits(env, now, micro, "soft") : { sql: "1", binds: [] };
   return [
     env.DB.prepare("INSERT OR IGNORE INTO answer_spend (month, reserved_micro, actual_micro, calls) VALUES (?, 0, 0, 0)")
       .bind(month(now)),
     env.DB.prepare(
-      "UPDATE answer_spend SET reserved_micro = reserved_micro + ? WHERE month = ? AND " +
-      `${FREE_ANSWER_SPEND} + ? + COALESCE((SELECT micro_usd + voice_micro_usd + reserved_micro FROM story_spend WHERE month = ?), 0) <= ? ` +
+      `UPDATE answer_spend SET reserved_micro = reserved_micro + ? WHERE month = ? AND ${room.sql} ` +
       (also ? `AND ${also.sql} ` : "") + "RETURNING reserved_micro"
-    ).bind(micro, month(now), month(now), month(now), micro, month(now), paidBudgetMicro(env), ...(also ? also.binds : [])),
+    ).bind(micro, month(now), ...room.binds, ...(also ? also.binds : [])),
   ];
 }
 export const reservedFreeVoice = results => Boolean(results.at(-1)?.results?.[0]);
@@ -624,13 +618,14 @@ function numberWords(n) {
 }
 export const spokenNumbers = text => String(text || "")
   .replace(/(?<![\d.,])\d{1,4}(?![\d]|[.,]\d)/g, d => numberWords(Number(d)));
-// Her line about the rest, one of REST_LINES by the words before it (a hash), in place of the one the model wrote.
+// A line about the rest the model wrote on the end of her words ("I've written the rest out for you") is dropped: she
+// says her whole answer now, so there's no rest to point to (Mike, 2026-10-21: "this 'detail is written out for you'
+// thing is pretty bad"). Before, one of REST_LINES took its place.
 const REST_AT = /\s*(?:I have|I've) (?:written|jotted|put) (?:the rest|the details|it all|everything else)(?: out| down)?(?: for you)?(?: in my window)?\.\s*$/i;
 function restOf(say) {
   const at = REST_AT.exec(say);
   if (!at) return say;
-  const before = say.slice(0, at.index);
-  return `${before} ${REST_LINES[hashOf(before) % REST_LINES.length]}`.trim();
+  return say.slice(0, at.index).trim() || say;
 }
 // At most `max` letters, ending on a whole sentence (a word and "..." when no sentence ends in its first part), as the
 // companion cuts what it says (talk/talker.py speakable).

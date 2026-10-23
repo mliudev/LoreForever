@@ -1,0 +1,91 @@
+{
+ "key": "quest:617",
+ "type": "quest",
+ "name": "Akiris by the Bundle",
+ "era": "classic",
+ "zone": "stranglethorn",
+ "meta": {
+  "ids": [
+   617
+  ],
+  "level": "43",
+  "faction": null,
+  "start": "Privateer Bloads",
+  "end": "Privateer Bloads",
+  "previous": "",
+  "next": "Akiris by the Bundle (2)",
+  "wiki": "Akiris by the Bundle (Classic)",
+  "chain": [
+   "Akiris by the Bundle (Classic)",
+   "Akiris by the Bundle (2)"
+  ],
+  "next_q": [
+   "Akiris by the Bundle (2)"
+  ],
+  "category": "Stranglethorn Vale"
+ },
+ "summary": "Privateer Bloads in Booty Bay is looking to acquire bundles of valuable akiris reeds for an associate named Groy. The plants have to be taken from the naga, who were last spotted on the northern beach.",
+ "sections": [
+  {
+   "title": "A Profitable Ocean Plant",
+   "body": "Privateer Bloads offers work in Booty Bay for anyone willing to tackle a seaside venture. An associate named Groy pays handsomely for bundles of akiris reed, a reed that grows by the sea and that the naga call by that name. Bloads does not know why Groy wants them, only that ten stalks are needed and that the naga were last spotted on the northern beach.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Privateer Bloads?",
+   "aliases": [
+    "bloads",
+    "who gives akiris by the bundle",
+    "who is bloads"
+   ],
+   "answer": "Privateer Bloads is a privateer in Booty Bay who has work for those who ask."
+  },
+  {
+   "q": "What is an akiris reed?",
+   "aliases": [
+    "akiris reed",
+    "what are akiris reeds",
+    "what is akiris used for"
+   ],
+   "answer": "Akiris reed is what the naga call a valuable ocean reed. While its exact purpose remains unknown to Privateer Bloads, collectors pay well for bundles of the stalks."
+  },
+  {
+   "q": "Where can the naga holding the reeds be found?",
+   "aliases": [
+    "where are the naga",
+    "where to get akiris reed",
+    "akiris reed location"
+   ],
+   "answer": "The naga possessing the stalks prowl the coastline north of Booty Bay along the beaches of Stranglethorn Vale."
+  },
+  {
+   "q": "Who buys the reeds from Privateer Bloads?",
+   "aliases": [
+    "who is groy",
+    "who wants akiris reed",
+    "bloads buyer"
+   ],
+   "answer": "Bloads secures the bundles on behalf of an associate named Groy, who earns a substantial profit selling the harvested ocean reeds."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "akiris reed",
+  "booty bay",
+  "groy",
+  "naga",
+  "privateer bloads",
+  "reeds",
+  "stranglethorn vale"
+ ],
+ "related": [
+  "subzone:booty-bay",
+  "topic:naga",
+  "zone:stranglethorn"
+ ],
+ "attribution": [
+  "Akiris by the Bundle (Classic)"
+ ]
+}

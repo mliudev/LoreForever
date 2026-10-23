@@ -8,7 +8,7 @@ import { onRequestGet as download } from "../functions/download/[file].js";
 import { setup, findOrCreateUser, startSession, currentUser, deleteUser, sha256 } from "../lib/accounts.js";
 import { activityReport, utcDay } from "../lib/activity.js";
 import { onRequestGet as adminGet, onRequestPost as adminPost } from "../functions/api/admin.js";
-import { d1 } from "./helpers.mjs";
+import { d1, stopClock } from "./helpers.mjs";
 
 const ORIGIN = "https://loreforeverwow.com";
 const rows = (db, sql, ...args) => db.sqlite.prepare(sql).all(...args).map(r => ({ ...r }));
@@ -43,7 +43,8 @@ test("a signed-in download also counts for the account, and that count never hol
   assert.equal(env.DB.sqlite.prepare("SELECT SUM(n) AS n FROM downloads").get().n, 6);
 });
 
-test("sign-in days: noted once a day, filled in for an older database, gone with the account, never in sign-in's way", async () => {
+test("sign-in days: noted once a day, filled in for an older database, gone with the account, never in sign-in's way", async t => {
+  stopClock(t);
   // A database from before LOR-304: users without last_seen, an account made 3 days ago and signed in again yesterday.
   const env = { DB: d1() };
   env.DB.sqlite.exec(`CREATE TABLE users (id TEXT PRIMARY KEY, email TEXT UNIQUE, google_sub TEXT UNIQUE, display_name TEXT,

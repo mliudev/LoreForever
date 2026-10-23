@@ -36,6 +36,7 @@ import {
   ASKS_PER_DAY, MESSAGES_PER_MINUTE, MESSAGES_PER_DAY, FREE_MESSAGES_PER_DAY, REPORTS_PER_DAY, PRESENCE_PER_HOUR,
 } from "../../../lib/friends.js";
 import { waitForFriends } from "../../../lib/friend-wait.js";
+import { isCompanion } from "../../../lib/client-version.js";
 
 const COMPANION = /^companion\/[\w.-]{1,24}$/;
 const MAX_BODY_BYTES = 8 * 1024;
@@ -157,7 +158,7 @@ async function readJson(request) {
 
 // The account behind the request: the companion's token, or a page's session.
 async function who(env, request) {
-  if (COMPANION.test(request.headers.get("X-LF-Client") || "") && !request.headers.get("Origin")) {
+  if (isCompanion(request.headers.get("X-LF-Client")) && !request.headers.get("Origin")) {
     return (await currentDevice(env, request))?.user || null;
   }
   if (request.method === "POST" && !sameOrigin(request)) return null;

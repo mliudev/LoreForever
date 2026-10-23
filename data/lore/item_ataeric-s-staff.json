@@ -13,14 +13,14 @@
  "summary": "Ataeric's Staff is a powerful magical conduit wielded by Archmage Ataeric, a senior Dalaran wizard in Silverpine Forest. It serves as both a focus for manipulating local ley lines and physical proof of the archmage's defeat for the Forsaken at the Sepulcher.",
  "sections": [
   {
-   "title": "A Conduit of Ley Magic",
-   "body": "Carried by Archmage Ataeric, this staff was used to direct and harness ley energies in southern Silverpine Forest. Under Dalaran's direction, Ataeric attempted to reactivate an ancient ley energy node near the borders of the magocracy's territory. The staff acted as a vital tool for weaving these immense ambient currents, rendering the archmage a formidable threat to nearby Forsaken settlements.",
-   "spoiler": 0
-  },
-  {
    "title": "Trophy of the Sepulcher",
    "body": "Alarmed by Dalaran's magical expansion, Shadow Priest Allister ordered Ataeric's assassination and demanded the recovery of the staff. With Ataeric slain and his staff recovered, the concentrated ley energies collapsed back into dormancy. Bringing the staff to the Sepulcher marked a decisive victory against Dalaran's ambitions, though the Forsaken remain watchful of the latent power remaining in the earth.",
    "spoiler": 0
+  },
+  {
+   "title": "A Conduit of Ley Magic",
+   "body": "Carried by Archmage Ataeric, this staff was used to direct and harness ley energies in southern Silverpine Forest. Under Dalaran's direction, Ataeric attempted to reactivate an ancient ley energy node near the borders of the magocracy's territory. The staff acted as a vital tool for weaving these immense ambient currents, rendering the archmage a formidable threat to nearby Forsaken settlements.",
+   "spoiler": 1
   }
  ],
  "faq": [

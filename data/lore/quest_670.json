@@ -1,0 +1,89 @@
+{
+ "key": "quest:670",
+ "type": "quest",
+ "name": "Sunken Treasure",
+ "era": "classic",
+ "zone": "arathi",
+ "meta": {
+  "ids": [
+   670
+  ],
+  "level": "40",
+  "faction": null,
+  "start": "Fleet Master Seahorn",
+  "end": "Shakes O'Breen",
+  "previous": "Sunken Treasure (4)",
+  "next": "",
+  "wiki": "Sunken Treasure (5)",
+  "chain": [],
+  "prev_q": [
+   "Sunken Treasure (4)"
+  ],
+  "category": "Arathi Highlands",
+  "chain_tpl": [
+   "Sunken Treasure"
+  ]
+ },
+ "summary": "Fleet Master Seahorn, whose ships cannot sail from Booty Bay until they restock, asks you to carry a secret letter to Shakes O'Breen, busy off the Arathi coast.",
+ "sections": [
+  {
+   "title": "A Letter for O'Breen",
+   "body": "Fleet Master Seahorn sizes you up as the adventurous sort. His ships cannot leave Booty Bay until they have restocked, and he says heavy things are brewing both here and abroad. He needs top secret correspondence carried to Shakes O'Breen off the Arathi coast, and he asks whether he can trust you to deliver the message safely and in confidence.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who sends you to deliver this letter?",
+   "aliases": [
+    "who gives sunken treasure 5",
+    "who starts this quest",
+    "seahorns letter questgiver"
+   ],
+   "answer": "Fleet Master Seahorn in Booty Bay gives you a sealed letter for Shakes O'Breen."
+  },
+  {
+   "q": "Why doesn't Fleet Master Seahorn deliver the letter himself?",
+   "aliases": [
+    "why can't seahorn leave booty bay",
+    "why is fleet master seahorn stuck"
+   ],
+   "answer": "His ships cannot sail from Booty Bay until they have restocked."
+  },
+  {
+   "q": "Where is Shakes O'Breen located?",
+   "aliases": [
+    "where to find shakes obreen",
+    "shakes obreen location",
+    "where is shakes"
+   ],
+   "answer": "Off the coast of the Arathi Highlands, where Seahorn says he is busy."
+  },
+  {
+   "q": "What came before this delivery?",
+   "aliases": [
+    "sunken treasure chain",
+    "what quest comes before sunken treasure 5"
+   ],
+   "answer": "It follows the fourth part of Sunken Treasure."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "arathi highlands",
+  "blackwater raiders",
+  "booty bay",
+  "fleet master seahorn",
+  "seahorn's sealed letter",
+  "shakes o'breen",
+  "sunken treasure"
+ ],
+ "related": [
+  "npc:fleet-master-seahorn",
+  "subzone:booty-bay",
+  "zone:arathi"
+ ],
+ "attribution": [
+  "Sunken Treasure (5)"
+ ]
+}

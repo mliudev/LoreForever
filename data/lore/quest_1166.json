@@ -1,0 +1,100 @@
+{
+ "key": "quest:1166",
+ "type": "quest",
+ "name": "Overlord Mok'Morokk's Concern",
+ "era": "classic",
+ "zone": "dustwallow",
+ "meta": {
+  "ids": [
+   1166
+  ],
+  "level": "43",
+  "start": "Overlord Mok'Morokk",
+  "end": "Overlord Mok'Morokk",
+  "wiki": null,
+  "previous": "",
+  "next": ""
+ },
+ "summary": "Overlord Mok'Morokk of the Stonemaul clan is in Brackenwall Village and wants his grog, snuff and strongbox back. He left them behind in a hurry at the clan's old home, and he sends you south to find them.",
+ "sections": [
+  {
+   "title": "The Overlord's Story",
+   "body": "Mok'Morokk says Rexxar made him the mighty leader of the Stonemaul clan, and that he keeps his people safe. By his account, big dragons came to the old home and brought fire, so he found the clan a new home here in Dustwallow.",
+   "spoiler": 0
+  },
+  {
+   "title": "Things Left Behind",
+   "body": "He left the old home so fast that he forgot his belongings: his grog, his snuff and his strongbox. He points you south, to the Den of Flame and the Stonemaul Ruins, and is sure they are there. He says he is too busy leading the ogres to go himself.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Overlord Mok'Morokk?",
+   "aliases": [
+    "mok'morokk",
+    "ogre leader",
+    "who is the overlord"
+   ],
+   "answer": "Overlord Mok'Morokk leads the Stonemaul clan from Brackenwall Village. By his own telling, Rexxar made him the clan's mighty leader."
+  },
+  {
+   "q": "What happened to the Stonemaul clan's old home?",
+   "aliases": [
+    "why did ogres leave",
+    "stonemaul destroyed",
+    "dragons attack ogres"
+   ],
+   "answer": "Mok'Morokk says big dragons came and brought fire to the old home, so he found the clan a new home at Brackenwall Village."
+  },
+  {
+   "q": "What does Mok'Morokk want back?",
+   "aliases": [
+    "mok'morokk items",
+    "what things does he want",
+    "grog snuff strongbox"
+   ],
+   "answer": "He wants his grog, his snuff and his strongbox, which he forgot when he left the old home in a hurry."
+  },
+  {
+   "q": "Where are Mok'Morokk's belongings?",
+   "aliases": [
+    "where are the items",
+    "item locations",
+    "find grog and snuff"
+   ],
+   "answer": "He sends you south and is sure the belongings are in the Den of Flame and the Stonemaul Ruins."
+  },
+  {
+   "q": "Why doesn't Mok'Morokk fetch his things himself?",
+   "aliases": [
+    "why doesn't mok'morokk go",
+    "why send me"
+   ],
+   "answer": "He says he is too busy leading the ogres to go and get them."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "brackenwall",
+  "den of flame",
+  "dustwallow",
+  "grog",
+  "mok'morokk",
+  "rexxar",
+  "snuff",
+  "stonemaul",
+  "strongbox"
+ ],
+ "related": [
+  "npc:overlord-mok-morokk",
+  "subzone:brackenwall-village",
+  "subzone:stonemaul-ruins",
+  "subzone:den-of-flame",
+  "zone:dustwallow"
+ ],
+ "attribution": [
+  "Overlord Mok'Morokk's Concern",
+  "Classic quest text: Overlord Mok'Morokk's Concern"
+ ]
+}

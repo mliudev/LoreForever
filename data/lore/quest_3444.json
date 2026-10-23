@@ -1,0 +1,94 @@
+{
+ "key": "quest:3444",
+ "type": "quest",
+ "name": "The Stone Circle",
+ "era": "classic",
+ "zone": "tanaris",
+ "meta": {
+  "ids": [
+   3444
+  ],
+  "level": "51",
+  "faction": null,
+  "start": "Marvon Rivetseeker",
+  "end": "Marvon Rivetseeker",
+  "previous": "",
+  "next": "",
+  "wiki": "The Stone Circle",
+  "chain": [],
+  "category": "Tanaris",
+  "chain_tpl": [
+   "Secret of the Circle"
+  ]
+ },
+ "summary": "Marvon Rivetseeker once went into the Sunken Temple and only just got out. A round stone with a serpent symbol, now sitting in Marvon's workshop in Ratchet, might let Marvon tell you more, and you are asked to fetch it.",
+ "sections": [
+  {
+   "title": "Marvon's Memory",
+   "body": "Marvon Rivetseeker speaks of the evil in the Sunken Temple that seeps into everyone who walks its chambers. Escape was a struggle through the ooze now spread across the floors, and what remains is a memory of a big round room crowded with statues of serpents.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Stone in Ratchet",
+   "body": "Marvon has since come across a round stone that seems to bear the same serpent symbol. Marvon had it crated and sent on to the workshop in Ratchet. Fetch it and Marvon may have more to share.",
+   "spoiler": 0
+  },
+  {
+   "title": "When the Stone Returns",
+   "body": "Seeing the stone, Marvon confirms it is the right one and says it is all coming back.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Marvon Rivetseeker?",
+   "aliases": [
+    "marvon rivetseeker",
+    "who gives the stone circle quest",
+    "questgiver tanaris"
+   ],
+   "answer": "Marvon Rivetseeker is the one who sends you for the stone. Marvon once entered the Sunken Temple and barely got out."
+  },
+  {
+   "q": "Where is the stone circle?",
+   "aliases": [
+    "where is the stone circle",
+    "stone circle workshop",
+    "stone circle location"
+   ],
+   "answer": "It was crated and sent on to Marvon's workshop in Ratchet."
+  },
+  {
+   "q": "Why does Marvon want the stone circle?",
+   "aliases": [
+    "why find the stone circle",
+    "stone circle purpose"
+   ],
+   "answer": "The stone carries a serpent symbol like the statues Marvon recalls from a round room in the Sunken Temple. With it in hand, Marvon may be able to say more."
+  },
+  {
+   "q": "What happened to Marvon in the Sunken Temple?",
+   "aliases": [
+    "marvon sunken temple",
+    "marvon backstory"
+   ],
+   "answer": "Marvon barely found the way out, wading through the ooze spread across the floors. All Marvon can recall is stumbling through a large round room filled with serpent statues."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "marvon rivetseeker",
+  "ratchet",
+  "serpent statue",
+  "sunken temple",
+  "tanaris",
+  "stone circle"
+ ],
+ "related": [
+  "zone:tanaris",
+  "subzone:ratchet"
+ ],
+ "attribution": [
+  "The Stone Circle"
+ ]
+}

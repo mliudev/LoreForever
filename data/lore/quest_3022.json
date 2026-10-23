@@ -1,0 +1,79 @@
+{
+ "key": "quest:3022",
+ "type": "quest",
+ "name": "Handle With Care",
+ "era": "classic",
+ "zone": "tanaris",
+ "meta": {
+  "ids": [
+   3022
+  ],
+  "level": "47",
+  "faction": "Alliance",
+  "start": "Curgle Cranklehop",
+  "end": "Erelas Ambersky",
+  "previous": "",
+  "next": "",
+  "wiki": "Handle With Care (Tanaris)",
+  "chain": [],
+  "category": "Tanaris"
+ },
+ "summary": "Curgle Cranklehop gives you a crate of eggs and asks you to carry it to the druid Erelas Ambersky, who can be found in Rut'theran, a small village in Teldrassil.",
+ "sections": [
+  {
+   "title": "A Crate of Eggs",
+   "body": "Curgle Cranklehop gives you a carefully packed crate of eggs. They are hippogryph eggs, and they are bound for a druid named Erelas Ambersky.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Druid of Rut'theran",
+   "body": "Erelas Ambersky is a druid who cares for these eggs. He helps them hatch and then trains the young hippogryphs. Rut'theran Village is a small village in Teldrassil, to the south.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is inside the crate from Curgle Cranklehop?",
+   "aliases": [
+    "what is in the crate",
+    "carefully packed crate contents",
+    "what am i carrying"
+   ],
+   "answer": "The carefully packed crate holds hippogryph eggs."
+  },
+  {
+   "q": "Where does the crate need to go?",
+   "aliases": [
+    "where do i take the crate",
+    "erelas ambersky location",
+    "where is rut'theran village"
+   ],
+   "answer": "The crate goes to the druid Erelas Ambersky, in the small village of Rut'theran in Teldrassil."
+  },
+  {
+   "q": "Who is Erelas Ambersky?",
+   "aliases": [
+    "who is erelas",
+    "ambersky lore",
+    "who receives the eggs"
+   ],
+   "answer": "Erelas Ambersky is a druid in Rut'theran Village. He looks after hippogryph eggs and trains the young hippogryphs once they hatch."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "curgle cranklehop",
+  "erelas ambersky",
+  "hippogryph eggs",
+  "rut'theran village",
+  "tanaris",
+  "teldrassil"
+ ],
+ "related": [
+  "subzone:rut-theran-village",
+  "zone:tanaris"
+ ],
+ "attribution": [
+  "Handle With Care (Tanaris)"
+ ]
+}

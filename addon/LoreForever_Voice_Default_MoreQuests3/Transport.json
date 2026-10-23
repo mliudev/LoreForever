@@ -1,0 +1,3126 @@
+{
+  "clips": {
+    "quest:1052": {
+      "1": [
+        {
+          "duration": 41.142857142857146,
+          "file": "Audio/Transport/full_quest_1052-8c7523ce3231e306e2c1/1-0000.mp3",
+          "sha256": "9ee9a68dfaa994470dcda91a851bacb1c369d68c7df6491005658d9cbb19fcd6",
+          "start": 0
+        }
+      ],
+      "config": {
+        "bitrate": "48k",
+        "mode": "whole-recording-v1",
+        "rates": [
+          "1"
+        ]
+      },
+      "fullHash": "4d7c0d",
+      "generation": "f0df9115eef95ec903b1",
+      "hash": "4d7c0d",
+      "source": {
+        "duration": 41.142857,
+        "file": null,
+        "sha256": "8c7523ce3231e306e2c11873b17b0fac3bffd2e556026d87e0b0fea0335aff36"
+      },
+      "text": "Down the Scarlet Path. Brother Anton says your deeds against the undead in Desolace are only a start, because the plague's real danger is in Lordaeron. He gives you a letter of commendation bearing his seal for Raleigh the Devout in Southshore. Anton speaks proudly of the Scarlet Crusade's bastions of cleansing in Lordaeron. The Crusade claims strongholds all the way between Hearthglen and Tirisfal Glades. Anton says your work against the undead in Desolace has proven you, yet the plague's real danger is in Lordaeron. Anton sends you to Southshore, a town in the Eastern Kingdoms, to look for a crusader called Raleigh the Devout. The letter carries Anton's seal, and Anton says it will win you an escort from Raleigh to a place of honor within the Scarlet Monastery."
+    },
+    "quest:1118": {
+      "1": [
+        {
+          "duration": 42.08326530612245,
+          "file": "Audio/Transport/full_quest_1118-99b8e0bf632aeb5793c8/1-0000.mp3",
+          "sha256": "920815624ec86c7dc020c99a1b165dbd282deaac0bc2976e947898873c4349b8",
+          "start": 0
+        }
+      ],
+      "config": {
+        "bitrate": "48k",
+        "mode": "whole-recording-v1",
+        "rates": [
+          "1"
+        ]
+      },
+      "fullHash": "4b7561",
+      "generation": "3ef2e3cd7470317c013c",
+      "hash": "4b7561",
+      "source": {
+        "duration": 42.109388,
+        "file": null,
+        "sha256": "99b8e0bf632aeb5793c8922d37b5ac32f4d3601acdcd60e9ad6af27390a6a203"
+      },
+      "text": "Back to Booty Bay. Kravel Koalbeard trusts you to get a job done and to keep quiet about it. He has a new scheme, risky but with the promise of a bundle for you both. You carry his letter to Crank Fizzlebub in Booty Bay. This follows Rumors for Kravel. Kravel Koalbeard, the dwarf at the Mirage Raceway, calls you someone he can trust, both to finish a job and to hold your tongue about it. His new scheme carries risk, yet if it pays off the two of you stand to make a bundle. He apologizes for sending you back to Booty Bay, where his last job took you, and asks you to find Crank Fizzlebub there and hand over a letter. If Crank needs help, Kravel wants you to do your best, and says it will be worth the effort."
+    },
+    "quest:1119": {
+      "1": [
+        {
+          "duration": 40.6465306122449,
+          "file": "Audio/Transport/full_quest_1119-1d617f03fef198b4c140/1-0000.mp3",
+          "sha256": "b2c15ca4871e883e53f2fd7181a7fdfdb6b9ca91da5821493d615f194ef78ede",
+          "start": 0
+        }
+      ],
+      "config": {
+        "bitrate": "48k",
+        "mode": "whole-recording-v1",
+        "rates": [
+          "1"
+        ]
+      },
+      "fullHash": "752ad1",
+      "generation": "3feb0947171f524c1336",
+      "hash": "752ad1",
+      "source": {
+        "duration": 40.646531,
+        "file": null,
+        "sha256": "1d617f03fef198b4c14020c9f5c26554a91ec0f89a8da9918245af42b68d3f07"
+      },
+      "text": "Zanzil's Mixture and a Fool's Stout. Crank Fizzlebub has found that Zanzil's Mixture blended into stout makes a strong drink, called Fool's Stout. He thinks it will be just what Kravel needs. You carry it to Kravel Koalbeard at the Mirage Raceway on the Shimmering Flats, and quickly, because it will not stay fresh. Crank Fizzlebub has found that Zanzil's Mixture, blended into stout, gives a strong drink, the Fool's Stout. Crank thinks it will be just what Kravel needs, and wants to hear how it works. You carry it back to Kravel Koalbeard at the Mirage Raceway on the Shimmering Flats. Crank warns you against holding on to the stout for long. The mixture has an odd effect on the stout's yeast, pushing it into high gear, so the drink will not keep fresh forever."
+    },
+    "quest:1120": {
+      "1": [
+        {
+          "duration": 30.328163265306124,
+          "file": "Audio/Transport/full_quest_1120-5f6e6d4810fa2c958cec/1-0000.mp3",
+          "sha256": "0c4c254ba951055e6e9babf60a707260206a0b2438647bb22fcf20bf20c9daa2",
+          "start": 0
+        }
+      ],
+      "config": {
+        "bitrate": "48k",
+        "mode": "whole-recording-v1",
+        "rates": [
+          "1"
+        ]
+      },
+      "fullHash": "585815",
+      "generation": "c0e50f28408042158715",
+      "hash": "585815",
+      "source": {
+        "duration": 30.328163,
+        "file": null,
+        "sha256": "5f6e6d4810fa2c958cec6b5baea922aea291f1760db851ebf83cc0506421a2b8"
+      },
+      "text": "Get the Gnomes Drunk. Kravel Koalbeard wants the Fool's Stout tested on a pit crew at the Mirage Raceway. If you choose the gnomes, you take the stout to the Gnome Pit Boss. The stout will go bad eventually, so Kravel says not to wait too long. Kravel Koalbeard needs the Fool's Stout tried out on one of the pit crews. You may try it on the gnomes: he hands you the stout and sends you with it to the Gnome Pit Boss, who is nearby at the Mirage Raceway. Choosing the gnomes tips the races toward the goblins. Kravel warns you not to dawdle, because the stout will go bad eventually."
+    },
+    "quest:1121": {
+      "1": [
+        {
+          "duration": 33.54122448979592,
+          "file": "Audio/Transport/full_quest_1121-7230aa44e9f744428e63/1-0000.mp3",
+          "sha256": "b0ca1ccf8bd96b2d2fdd142c86df3be3b6401f99c479bf6e6f7770323db0e3f2",
+          "start": 0
+        }
+      ],
+      "config": {
+        "bitrate": "48k",
+        "mode": "whole-recording-v1",
+        "rates": [
+          "1"
+        ]
+      },
+      "fullHash": "133cc4",
+      "generation": "16955ac9819ce4034530",
+      "hash": "133cc4",
+      "source": {
+        "duration": 33.541224,
+        "file": null,
+        "sha256": "7230aa44e9f744428e63cdc56542ef6ecbad3a3e6bed655fa52dc2ede3852ee3"
+      },
+      "text": "Get the Goblins Drunk. Kravel Koalbeard wants the Fool's Stout tested on a pit crew at the Mirage Raceway. If you choose the goblins, you take the stout to the Goblin Pit Boss. The stout will go bad eventually, so Kravel says not to wait too long. Kravel Koalbeard needs the Fool's Stout tried out on one of the pit crews. You may try it on the goblins: he hands you the stout and sends you with it to the Goblin Pit Boss, who is nearby at the Mirage Raceway. Choosing the goblins tips the races toward the gnomes. Kravel warns you not to dawdle, because the stout will go bad eventually."
+    },
+    "quest:1122": {
+      "1": [
+        {
+          "duration": 33.85469387755102,
+          "file": "Audio/Transport/full_quest_1122-2f4399637b8d2ec647aa/1-0000.mp3",
+          "sha256": "dd0f9d77bb01721402675e65a0e093715615ec3a4f05ce61672793eb7df38225",
+          "start": 0
+        }
+      ],
+      "config": {
+        "bitrate": "48k",
+        "mode": "whole-recording-v1",
+        "rates": [
+          "1"
+        ]
+      },
+      "fullHash": "4ef7c2",
+      "generation": "d7b73ed2a1e3efae7e56",
+      "hash": "4ef7c2",
+      "source": {
+        "duration": 33.854694,
+        "file": null,
+        "sha256": "2f4399637b8d2ec647aa00f24941eb92e9e6ace09ad214eda529237f11d44766"
+      },
+      "text": "Report Back to Fizzlebub. Kravel Koalbeard says the Fool's Stout worked great. He has put money on the next race, hoping the crew you made drunk wrecked their own car. You carry a note about the successful test to Crank Fizzlebub in Booty Bay. This follows the pit crew you chose to make drunk. Kravel Koalbeard says the Fool's Stout worked great. He has put money on the next race, hoping the pit crew you made drunk wrecked their own car. One more job remains: take a note about the successful test to Crank Fizzlebub in Booty Bay, who will want to hear of it. Kravel also hopes more of the stout can be had for future races."
+    },
+    "quest:1127": {
+      "1": [
+        {
+          "duration": 33.12326530612245,
+          "file": "Audio/Transport/full_quest_1127-d49e91a4e5ec78511715/1-0000.mp3",
+          "sha256": "5cd2bc87a2f8ce4a44a4ce175dbe89f1d1eb86ebf12596e5bc2b4d35424d3340",
+          "start": 0
+        }
+      ],
+      "config": {
+        "bitrate": "48k",
+        "mode": "whole-recording-v1",
+        "rates": [
+          "1"
+        ]
+      },
+      "fullHash": "f740cf",
+      "generation": "c056b5e1dcdd14911679",
+      "hash": "f740cf",
+      "source": {
+        "duration": 33.149388,
+        "file": null,
+        "sha256": "d49e91a4e5ec785117151f3a4d6bc6eae9de316feba16d8cfd0e0c3b4c221369"
+      },
+      "text": "Fool's Stout. Crank Fizzlebub in Booty Bay brews batches of Fool's Stout for travelers looking to return to the Shimmering Flats raceway. To concoct another serving, he requires twelve flasks of Zanzil's mixture. For travelers whose initial supply of Fool's Stout has expired before reaching the gnomes at the raceway, Crank Fizzlebub offers to brew a replacement. The goblin Crank Fizzlebub in Booty Bay requires twelve flasks of Zanzil's mixture to prepare the potent beverage once more, compensating anyone willing to fetch the ingredients while offering a little extra to keep the transaction discreet."
+    },
+    "quest:1188": {
+      "1": [
+        {
+          "duration": 32.10448979591837,
+          "file": "Audio/Transport/full_quest_1188-2f466f69af57e98d5a67/1-0000.mp3",
+          "sha256": "11ac047544003fed9ea53839ec13476aace9eed4981eb1e96511f9ff2f363e4e",
+          "start": 0
+        }
+      ],
+      "config": {
+        "bitrate": "48k",
+        "mode": "whole-recording-v1",
+        "rates": [
+          "1"
+        ]
+      },
+      "fullHash": "2804bd",
+      "generation": "455be370c04ad3aff044",
+      "hash": "2804bd",
+      "source": {
+        "duration": 32.10449,
+        "file": null,
+        "sha256": "2f466f69af57e98d5a67a1d87bf4a53ba4cc4b6523d49148283c0044e76562b5"
+      },
+      "text": "Safety First. Razzeric has found that Shreev left the safety on the seaforium booster. It caps the power Razzeric gets out of the booster, and Razzeric had asked for it to be taken off. You are sent to Shreev in Gadgetzan, in Tanaris. Razzeric looks over the seaforium booster and finds the safety still on. It caps the power the booster can give, and Razzeric had told Shreev it should be off. Razzeric gives you the booster and sends you south of the Shimmering Flats into the Tanaris desert, to the Gadgetzan Gizmorium, to have Shreev remove the safety."
+    },
+    "quest:1189": {
+      "1": [
+        {
+          "duration": 46.654693877551026,
+          "file": "Audio/Transport/full_quest_1189-528fc3c65776f0d0b339/1-0000.mp3",
+          "sha256": "8324b6ada56b53f6a093af874216016273a6c55c4c03baad03d68d0c1bedf3d9",
+          "start": 0
+        }
+      ],
+      "config": {
+        "bitrate": "48k",
+        "mode": "whole-recording-v1",
+        "rates": [
+          "1"
+        ]
+      },
+      "fullHash": "e9cf2e",
+      "generation": "5632971ceed4d0f790a2",
+      "hash": "e9cf2e",
+      "source": {
+        "duration": 46.654694,
+        "file": null,
+        "sha256": "528fc3c65776f0d0b3392490c71fe20de6b7b8cb1d6347ee058846b1619db1c9"
+      },
+      "text": "Safety First. Shreev has done what Razzeric wanted with the seaforium booster, and you carry the modified booster back to Razzeric on the Shimmering Flats. Shreev's warning with it: be careful when setting it off, because one slip and Razzeric ends up a scorch mark on the track. This follows the first Safety First. Shreev hands over the modified booster, done as Razzeric asked. Shreev's warning with it: Razzeric needs to be careful when he sets it off. A single slip and he will not be racing ahead; he will be a scorch mark on the track. Shreev adds that it would be a shame, wondering whether the nineteenth driver would have been any good. Back on the Shimmering Flats, Razzeric is grumbling about Pozzik, who loaded a bucket of sand onto the racer. How, Razzeric asks, is he meant to reach top speed with sand beneath the seat?"
+    },
+    "quest:1190": {
+      "1": [
+        {
+          "duration": 44.40816326530612,
+          "file": "Audio/Transport/full_quest_1190-5538a219635a1445d0c2/1-0000.mp3",
+          "sha256": "dc74c7893426313d689fb76550290c527f71ba4f21ad76fc3b81c969641aa742",
+          "start": 0
+        }
+      ],
+      "config": {
+        "bitrate": "48k",
+        "mode": "whole-recording-v1",
+        "rates": [
+          "1"
+        ]
+      },
+      "fullHash": "e3f32b",
+      "generation": "e0365bcf5ed62c7ea59c",
+      "hash": "e3f32b",
+      "source": {
+        "duration": 44.408163,
+        "file": null,
+        "sha256": "5538a219635a1445d0c26b5bcf6945448a04e6c86fc9df46941e3b9d2a1d51b3"
+      },
+      "text": "Keeping Pace. Pozzik is sure the Brassbolts brothers have found a new building material. Their cars run faster than before, yet their designs and the rest of the data from their runs are unchanged. Rizzle Brassbolts has stayed fixed on the plans for this discovery almost constantly, and Zamek can create a diversion so you can steal them. This follows News for Fizzle. Pozzik can find only one explanation for how fast the Brassbolts brothers' cars have become: a new building material. Their designs and everything gathered from their runs look the same as before. What is known is that Rizzle Brassbolts has stayed fixed on the plans for this discovery almost constantly. Zamek can create a diversion, and while it lasts you steal Rizzle's plans. They are wanted by Pozzik, on the Shimmering Flats."
+    },
+    "quest:1191": {
+      "1": [
+        {
+          "duration": 18.102857142857143,
+          "file": "Audio/Transport/full_quest_1191-482ddf9c37db79f9de5c/1-0000.mp3",
+          "sha256": "798aecc1a77e3aa8d2ed29b040d854c25afd82e2738a8c8e64b070282dc4c401",
+          "start": 0
+        }
+      ],
+      "config": {
+        "bitrate": "48k",
+        "mode": "whole-recording-v1",
+        "rates": [
+          "1"
+        ]
+      },
+      "fullHash": "23bd8e",
+      "generation": "fb27f52f573332b40c75",
+      "hash": "23bd8e",
+      "source": {
+        "duration": 18.12898,
+        "file": null,
+        "sha256": "482ddf9c37db79f9de5cef9dab53946ce9c3be94f933b86134fae2835273816a"
+      },
+      "text": "Zamek's Distraction. Zamek can create the diversion that Keeping Pace calls for. It comes while you are in the middle of that step, and Keeping Pace cannot be finished without it. While you are working through Keeping Pace, Zamek can create a diversion. When it happens, Rizzle leaves his hut, and the Indurium plans are left behind."
+    },
+    "quest:1192": {
+      "1": [
+        {
+          "duration": 32.73142857142857,
+          "file": "Audio/Transport/full_quest_1192-0f7a83c585aa42ac6184/1-0000.mp3",
+          "sha256": "fcead2d6e99237b21a185048d41489c4f5682ce974f5789e7ab970ba481cb429",
+          "start": 0
+        }
+      ],
+      "config": {
+        "bitrate": "48k",
+        "mode": "whole-recording-v1",
+        "rates": [
+          "1"
+        ]
+      },
+      "fullHash": "9c9f50",
+      "generation": "01698a9b4c6f0153fbb2",
+      "hash": "9c9f50",
+      "source": {
+        "duration": 32.731429,
+        "file": null,
+        "sha256": "0f7a83c585aa42ac61840a48bf8c6c8faaf6cbeab7a7859b60b360d4204a99d0"
+      },
+      "text": "Indurium Ore. Pozzik plans to work indurium into several parts of the racers, which calls for a great deal of raw ore. The ore is to be had at the Uldaman dig in the Badlands, across the sea in Khaz Modan. The gnomes are already getting hold of their own, and Pozzik wants to keep up with them. Pozzik asks for four pieces of raw indurium ore. It can be had at the Uldaman dig in the Badlands, across the sea in Khaz Modan. The gnomes are already getting hold of their own, so Pozzik wants a supply too. This follows Rizzle's Schematics."
+    },
+    "quest:1194": {
+      "1": [
+        {
+          "duration": 42.57959183673469,
+          "file": "Audio/Transport/full_quest_1194-7dcd950081e4c3120414/1-0000.mp3",
+          "sha256": "d59a9a6926a4b20e35907739f6fd0b63973342715056f38bb6c9153f893e3443",
+          "start": 0
+        }
+      ],
+      "config": {
+        "bitrate": "48k",
+        "mode": "whole-recording-v1",
+        "rates": [
+          "1"
+        ]
+      },
+      "fullHash": "63cb39",
+      "generation": "2aeef706c6367c821fa0",
+      "hash": "63cb39",
+      "source": {
+        "duration": 42.579592,
+        "file": null,
+        "sha256": "7dcd950081e4c31204140bfe79e6963f079db79f2ca9b2e2f31733cd6c4a3ca7"
+      },
+      "text": "Rizzle's Schematics. Rizzle's unguarded plans describe the refining of indurium ore. The scrawls point to the dwarves' dig at Uldaman, in the Badlands, as where the ore comes from, and many of the other notes are about heat resistance. A lump of raw ore sits on the plans as a paperweight, and you carry that sample to Pozzik on the Shimmering Flats. This follows Keeping Pace. Rizzle's schematics describe the refining of indurium ore. Rizzle's scrawls point to the dwarves' dig at Uldaman, in the Badlands, as where the ore comes from. Many of the other notes are about how well it resists heat. A lump of raw indurium ore holds the plans down as a paperweight, and that sample is what you take to Pozzik."
+    },
+    "quest:1380": {
+      "1": [
+        {
+          "duration": 39.94122448979592,
+          "file": "Audio/Transport/full_quest_1380-9c19b9adb6de18ab3ff0/1-0000.mp3",
+          "sha256": "40b376e040290bd23f600469a8ff7b97fe236e1831b189ee2936f9275c3fb8e9",
+          "start": 0
+        }
+      ],
+      "config": {
+        "bitrate": "48k",
+        "mode": "whole-recording-v1",
+        "rates": [
+          "1"
+        ]
+      },
+      "fullHash": "af3474",
+      "generation": "8035193cc6c09f9a5a12",
+      "hash": "af3474",
+      "source": {
+        "duration": 39.941224,
+        "file": null,
+        "sha256": "9c19b9adb6de18ab3ff09d1812426d27e9190afb2cf16a9d89fc1f1cb6e327cb"
+      },
+      "text": "Khan Hratha. Uthek the Wise recalls how you helped the Gelkis against the Magram, and now asks you to strike at the Maraudine by slaying their clan's leader, Khan Hratha. Hratha holds a piece of a key, and Uthek wants it brought to him. Uthek the Wise says the Gelkis now need help against the Maraudine. The Maraudine War Horn stands on a tall bluff in the Valley of Spears, and sounding it is how Khan Hratha is called out. Yet the horn is useless without a warhorn mouthpiece, which is rare and carried only by trusted Maraudine centaur. When the horn sounds, more centaur arrive, and Hratha comes last. Khan Hratha holds a piece of a key, and Uthek wants it brought to Gelkis Village."
+    },
+    "quest:1381": {
+      "1": [
+        {
+          "duration": 35.291428571428575,
+          "file": "Audio/Transport/full_quest_1381-91dafc706f8fd6fb187f/1-0000.mp3",
+          "sha256": "9d4e7a69aad53de983744b6b90491f015ac0aac1accdc83e34b1e4df573f2dc9",
+          "start": 0
+        }
+      ],
+      "config": {
+        "bitrate": "48k",
+        "mode": "whole-recording-v1",
+        "rates": [
+          "1"
+        ]
+      },
+      "fullHash": "b2fe0d",
+      "generation": "427884efc68e54c83883",
+      "hash": "b2fe0d",
+      "source": {
+        "duration": 35.291429,
+        "file": null,
+        "sha256": "91dafc706f8fd6fb187fa4f1e365c638d379cdaa1fa6f674ec7e993772558647"
+      },
+      "text": "Khan Hratha. Warug announces the death of the Gelkis Khan and says the Maraudine are next. Warug sends you after their Khan, Hratha, and wants the piece of a key that Hratha carries. Warug wants the Maraudine Khan, Hratha, dead. A horn on a bluff in the Valley of Spears calls him out, but it will not sound without a mouthpiece, and a mouthpiece is found by killing Maraudine centaur. After the blast, Maraudine centaur gather at the tower, and Hratha shows himself in the end. Hratha holds part of a key, and Warug wants it brought to Warug in Magram Village. Warug expects you to prove yourself an ally of the Magram."
+    },
+    "quest:1466": {
+      "1": [
+        {
+          "duration": 52.74122448979592,
+          "file": "Audio/Transport/full_quest_1466-0fad90a2ca02fd0520ba/1-0000.mp3",
+          "sha256": "9f975d60667805b8ae9ed970e490a02dad6f32e3c6e0ee0b92614049785e4858",
+          "start": 0
+        }
+      ],
+      "config": {
+        "bitrate": "48k",
+        "mode": "whole-recording-v1",
+        "rates": [
+          "1"
+        ]
+      },
+      "fullHash": "af1bad",
+      "generation": "c76e9018a39910ad22c6",
+      "hash": "af1bad",
+      "source": {
+        "duration": 52.741224,
+        "file": null,
+        "sha256": "0fad90a2ca02fd0520bab2a3443fbd2e7839784e10295be2fe49c9a128c01049"
+      },
+      "text": "Reagents for Reclaimers Inc.. Kreldig Ungor has the last of the items Leftwitch wants, and he admits it is not pretty and will take longer than the others. All of it comes from demons: brains, wings and vials of blood. Kreldig warns that the final set is a grim business, slower to gather than any before it. Leftwitch wants three kinds of parts, ten of each. The brains come from felhounds: mana eaters, mage hunters or ley hunters. The wings come from the nether maidens, sisters or sorceresses. The blood comes from doomwarder captains or lords. Kreldig says he would understand if you passed on this one. Kreldig had not even realized these demons were in Desolace. From his reading, Desolace belonged mostly to the centaur once the night elves departed years ago, and he wonders how and why the demons settled here. They dwell near Mannoroc Coven, in Desolace's south, beyond the Kodo Graveyard."
+    },
+    "quest:1467": {
+      "1": [
+        {
+          "duration": 27.794285714285714,
+          "file": "Audio/Transport/full_quest_1467-0e16b5276ef556acaa8f/1-0000.mp3",
+          "sha256": "6ee8480ad6b37129742004fa07aca4da89546ccb143161bc863b5e1954f56aa1",
+          "start": 0
+        }
+      ],
+      "config": {
+        "bitrate": "48k",
+        "mode": "whole-recording-v1",
+        "rates": [
+          "1"
+        ]
+      },
+      "fullHash": "fc6d26",
+      "generation": "57d3cef81637a9cd42cf",
+      "hash": "fc6d26",
+      "source": {
+        "duration": 27.794286,
+        "file": null,
+        "sha256": "0e16b5276ef556acaa8feb0e5ca93f9f8f9cc54ae7692ee2efc033f8e026658c"
+      },
+      "text": "Reagents for Reclaimers Inc.. Kreldig Ungor gives you Leftwitch's package and sends you back to Ironforge. Roetten Stonehammer is the one to see about your pay, and Kreldig promises a kind word about you once back home. Kreldig says your pay waits in Ironforge with Roetten Stonehammer himself. Roetten will be glad to be rid of Leftwitch's package, and handing it over should be enough to get what you are owed. Kreldig expects to be in Desolace only a little longer, and still means to speak well of you once home."
+    },
+    "quest:1488": {
+      "1": [
+        {
+          "duration": 54.7265306122449,
+          "file": "Audio/Transport/full_quest_1488-da511bffb5acc77f64b0/1-0000.mp3",
+          "sha256": "68e2a3bb38d109240b2c663a8fe1910fa584ad6533c4477d23c6b75c61efa192",
+          "start": 0
+        }
+      ],
+      "config": {
+        "bitrate": "48k",
+        "mode": "whole-recording-v1",
+        "rates": [
+          "1"
+        ]
+      },
+      "fullHash": "8fb465",
+      "generation": "c0c87b74274f01550a5a",
+      "hash": "8fb465",
+      "source": {
+        "duration": 54.726531,
+        "file": null,
+        "sha256": "da511bffb5acc77f64b010d7de9024a92faf2b23b6b95a6c19ebbc7d1d6edc7b"
+      },
+      "text": "The Corrupter. Takata Steelblade knows nothing of Lord Azrethoc, yet sides with Maurin that the demon lord must be stopped, all the more if Azrethoc is trying to win influence over the Burning Blade. Takata trusts you to gather a party against Azrethoc and his warlock servant, Jugkar Grim'rod. Takata has never heard of Lord Azrethoc, yet agrees with Maurin that the demon lord must be stopped, above all if Azrethoc is reaching out to sway the Burning Blade. You have already shown you want to aid the Warchief, so Takata trusts you to gather a party and slay Azrethoc and his warlock servant, Jugkar Grim'rod. Takata tells you to head directly south, to Mannoroc Coven, where both are found. Takata calls the demons in Desolace a greater threat than ever before. Each newly arrived foul creature makes the prospect of ever returning to the Warchief seem dimmer, and Takata sometimes wishes the centaur were the only enemy."
+    },
+    "quest:193": {
+      "1": [
+        {
+          "duration": 45.60979591836735,
+          "file": "Audio/Transport/full_quest_193-46ceb6002449208e31d5/1-0000.mp3",
+          "sha256": "46810394b4747e2f058511fddde2e993c193b77dca026686c64c5d94f6540f83",
+          "start": 0
+        }
+      ],
+      "config": {
+        "bitrate": "48k",
+        "mode": "whole-recording-v1",
+        "rates": [
+          "1"
+        ]
+      },
+      "fullHash": "8682e1",
+      "generation": "5f6bc73e20bf7cd1f132",
+      "hash": "8682e1",
+      "source": {
+        "duration": 45.609796,
+        "file": null,
+        "sha256": "46ceb6002449208e31d5af277143ba5e4fc3a504cde3834570e45d0990dadb14"
+      },
+      "text": "Panther Mastery. Sir S. J. Erlgadin has set the final trial of his panther hunt before you in northern Stranglethorn Vale. Having proven your skill against the region's panthers, you are challenged to seek out Bhag'thera, an elusive predator that has so far eluded the expedition's party. Bringing back the beast's fang will establish your standing as a true master of the hunt. At Nesingwary's Expedition, Sir S. J. Erlgadin considers your trials nearly complete. One final quarry remains to prove your worth against the jungle's predators: a panther named Bhag'thera. The beast has so far eluded the expedition's own party as it prowls the wilds of Stranglethorn Vale. Erlgadin calls on you to track down this great stalker and claim the Fang of Bhag'thera as proof of your skill."
+    },
+    "quest:196": {
+      "1": [
+        {
+          "duration": 32.57469387755102,
+          "file": "Audio/Transport/full_quest_196-3e691d61d803474e5b8b/1-0000.mp3",
+          "sha256": "f81104d62b6eb0b01cce6ac07f349944c59c14ee88da8fb80c8cf28458c1c842",
+          "start": 0
+        }
+      ],
+      "config": {
+        "bitrate": "48k",
+        "mode": "whole-recording-v1",
+        "rates": [
+          "1"
+        ]
+      },
+      "fullHash": "50936f",
+      "generation": "a452cc9d20aca6a01722",
+      "hash": "50936f",
+      "source": {
+        "duration": 32.574694,
+        "file": null,
+        "sha256": "3e691d61d803474e5b8b002d897348e5648f4468c415718ed4416056e440d0b9"
+      },
+      "text": "Raptor Mastery. Hemet Nesingwary raises the stakes of his hunting expedition by sending you after a elusive breed known as Jungle Stalkers. Tracking down ten of these cunning raptors will prove your mettle as a true stalker of wild beasts in Stranglethorn Vale. Having tested your aim against lesser raptors, Hemet Nesingwary presents a more demanding quarry. Jungle Stalkers are notably cagey and far more difficult to track and slay than the breeds hunted previously. Hemet expects you to venture out into the jungle, fell ten of these wary predators, and return to camp to earn a lead on his finest hunt yet."
+    },
+    "quest:197": {
+      "1": [
+        {
+          "duration": 52.40163265306123,
+          "file": "Audio/Transport/full_quest_197-6c9e29c0a879f53d279d/1-0000.mp3",
+          "sha256": "60ebaf1559ba618e81249707d05473969d87055c5c7d870c8c7f2c6b5bd2aaea",
+          "start": 0
+        }
+      ],
+      "config": {
+        "bitrate": "48k",
+        "mode": "whole-recording-v1",
+        "rates": [
+          "1"
+        ]
+      },
+      "fullHash": "935841",
+      "generation": "64c18844717c07bed2b1",
+      "hash": "935841",
+      "source": {
+        "duration": 52.401633,
+        "file": null,
+        "sha256": "6c9e29c0a879f53d279d190cb984c104d67192da85427cf0841823e97ad5afe7"
+      },
+      "text": "Raptor Mastery. Deep in Stranglethorn Vale, Hemet Nesingwary challenges seasoned trackers to bring down an elusive predator that has escaped even him. Having proven your mettle against lesser beasts, you are tasked with tracking the cunning raptor known as Tethis and securing its talon. Following your earlier trials in the jungle, Hemet Nesingwary reveals the existence of a particularly vicious raptor named Tethis. While lesser hunters have chased prey across the foliage, Tethis has evaded capture entirely, defying even the expedition leader himself. Ajeck Rouack bestowed the beast with its moniker, marking it as the ultimate prize among Stranglethorn's scaled horrors. To stand recognized as a premier big game hunter, you are directed to prowl the grounds north of the Gurubashi Arena where Tethis is known to roam. Bringing back a talon from the slain terror will earn you the title of master raptor slayer, a feat no other big game hunter has accomplished."
+    },
+    "quest:202": {
+      "1": [
+        {
+          "duration": 52.480000000000004,
+          "file": "Audio/Transport/full_quest_202-986fbc04cc3a5e867dab/1-0000.mp3",
+          "sha256": "3e35858d446870d6ce590391d4c1c1bc203ae95986d4d26029c79c250cf2d004",
+          "start": 0
+        }
+      ],
+      "config": {
+        "bitrate": "48k",
+        "mode": "whole-recording-v1",
+        "rates": [
+          "1"
+        ]
+      },
+      "fullHash": "4237be",
+      "generation": "6f49e5b91897ea18d1e3",
+      "hash": "4237be",
+      "source": {
+        "duration": 52.48,
+        "file": null,
+        "sha256": "986fbc04cc3a5e867dabc6286c784977144b8a4d657ac5145061d71ea5ce2f5c"
+      },
+      "text": "Colonel Kurzen. Lieutenant Doren calls upon you to deliver the final strike against Colonel Kurzen and his inner guard. You are sent into the Stockpile to eliminate the rogue commander and his remaining leaders to secure the Rebel Camp's survival. Lieutenant Doren and his band of defectors have reached the climax of their struggle against their former commander. Following the suppression of Kurzen's elite specialists, Doren recognizes that the rebel forces will never truly be safe while Kurzen retains control of his jungle redoubt. He directs you into the Stockpile cave, where Kurzen directs his forces alongside his subchiefs and elites. To permanently end the threat, Doren asks for conclusive proof of Kurzen's downfall by demanding the rogue colonel's head, along with the defeat of his elites and subchiefs. Entering the cave to face Kurzen's leadership offers the rebels their sole prospect of breathing easier amid the perils of northern Stranglethorn."
+    },
+    "quest:205": {
+      "1": [
+        {
+          "duration": 36.02285714285714,
+          "file": "Audio/Transport/full_quest_205-b26cea969cc038f9add6/1-0000.mp3",
+          "sha256": "59488afefeb3ca20b1fcd245140bc7f123aea3481436f5e32922fe1f7a8a13a0",
+          "start": 0
+        }
+      ],
+      "config": {
+        "bitrate": "48k",
+        "mode": "whole-recording-v1",
+        "rates": [
+          "1"
+        ]
+      },
+      "fullHash": "39c373",
+      "generation": "6273022ada925f03460d",
+      "hash": "39c373",
+      "source": {
+        "duration": 36.022857,
+        "file": null,
+        "sha256": "b26cea969cc038f9add6adfc707ffc6ea6b3bf7a6b343f69bde5e24a291a3882"
+      },
+      "text": "Troll Witchery. Brother Nimetz seeks insight into the corruption of Colonel Kurzen by examining dark troll enchantments. Following Kurzen's Mystery, he asks you to venture south into Skullsplitter territory and secure fetishes from their spellcasters. While reviewing the legends recovered from the jungle, Brother Nimetz turns his attention to the second troll tribe lingering further south. He suspects that dark troll sorcery may be responsible for Colonel Kurzen's descent into evil. To verify his theory, he asks you to venture into Skullsplitter lands and pry fetishes directly from their Witch Doctors and Mystics so he can study their magic at the Rebel Camp."
+    },
+    "quest:206": {
+      "1": [
+        {
+          "duration": 54.56979591836735,
+          "file": "Audio/Transport/full_quest_206-5dfe426a3ad2862306be/1-0000.mp3",
+          "sha256": "7dcf5ad909de49b1003ff07e11a978830bfaffb58c13b47774c804c1a0aa19ab",
+          "start": 0
+        }
+      ],
+      "config": {
+        "bitrate": "48k",
+        "mode": "whole-recording-v1",
+        "rates": [
+          "1"
+        ]
+      },
+      "fullHash": "fc95d6",
+      "generation": "b94aef64d6b44b7db20a",
+      "hash": "fc95d6",
+      "source": {
+        "duration": 54.569796,
+        "file": null,
+        "sha256": "5dfe426a3ad2862306be9bd64c499c81aae7ece35ad80821872827a1d507daf3"
+      },
+      "text": "Mai'Zoth. Brother Nimetz believes Colonel Kurzen was driven to evil by a hidden power that still lives. An ogre mage known as Mai'Zoth lurks within the eastern mountains, wielding an artifact reputed to twist and control minds. Destroying him and recovering this relic is meant to ensure no other commander suffers the same corruption. Though Kurzen has fallen, Brother Nimetz insists the primary catalyst behind the rebellion remains intact. His research points to Mai'Zoth, an ogre mage dwelling inside an ogre mound deep within the eastern heights of Stranglethorn Vale. Nimetz is certain that Mai'Zoth employed mind-altering sorcery to warp Kurzen's thoughts, warning that leaving the ogre alive invites another commander to succumb to the very same sinister influence. To permanently eliminate the threat, you are asked to strike down Mai'Zoth, take the Mind's Eye from him, and bring that corrupting artifact back to the Rebel Camp."
+    },
+    "quest:208": {
+      "1": [
+        {
+          "duration": 54.88326530612245,
+          "file": "Audio/Transport/full_quest_208-cfcbc0d62c30c92aa81c/1-0000.mp3",
+          "sha256": "305b3ef9580b3e291f021a117d96219497e28069143e0c9592ceff754e2a6405",
+          "start": 0
+        }
+      ],
+      "config": {
+        "bitrate": "48k",
+        "mode": "whole-recording-v1",
+        "rates": [
+          "1"
+        ]
+      },
+      "fullHash": "f51de1",
+      "generation": "c3032d4fb32595f5334d",
+      "hash": "f51de1",
+      "source": {
+        "duration": 54.883265,
+        "file": null,
+        "sha256": "cfcbc0d62c30c92aa81c4b257ed876a53844992b4c5e9b7aa0bce6ae594388db"
+      },
+      "text": "Big Game Hunter. Having proven skill across Stranglethorn Vale by hunting the region's deadliest predators, Hemet Nesingwary offers a final supreme challenge. The famed marksman asks for the head of King Bangalash, a great white tiger and the very reason Hemet is in the jungle at all. After completing the trials set by the expedition's huntsmen—slaying Sin'Dall, Bhag'thera, and Tethis—Hemet Nesingwary acknowledges your martial skill. According to the veteran marksman, who compares your prowess to the finest displays seen from Lordaeron's battlefields to the jungle depths, only one hunt remains to prove your abilities unmatched: felling King Bangalash, the grand white tiger that serves as the expedition leader's true target. Hemet reveals that King Bangalash is the reason he is in Stranglethorn Vale. The great beast has repeatedly driven the expedition leader himself back to camp in defeat. Presenting the beast's head would prove your hunting skill second to none."
+    },
+    "quest:209": {
+      "1": [
+        {
+          "duration": 43.04979591836735,
+          "file": "Audio/Transport/full_quest_209-6c8bf8e4cf62cce0546a/1-0000.mp3",
+          "sha256": "51af795ec29ecb56a7f9a24cdee55d4b0b782553db13ba409b2ab1243274c89f",
+          "start": 0
+        }
+      ],
+      "config": {
+        "bitrate": "48k",
+        "mode": "whole-recording-v1",
+        "rates": [
+          "1"
+        ]
+      },
+      "fullHash": "41bec1",
+      "generation": "8a2d5d775d03a365982f",
+      "hash": "41bec1",
+      "source": {
+        "duration": 43.049796,
+        "file": null,
+        "sha256": "6c8bf8e4cf62cce0546ad1fc41315983ff6e3658e66b1a94abaa05b3602f3498"
+      },
+      "text": "Skullsplitter Tusks. Kebok in Booty Bay needs materials to meet export demands for tiger fangs destined for the South Seas. Because hunting genuine jungle predators proves too costly, he has devised an undetectable forging process using tusks harvested from the Skullsplitter trolls. Supplying tiger fangs to distant island buyers across the South Seas has grown too expensive and difficult through ordinary hunting. Rather than abandon the trade, Kebok devised an undetectable forging method that turns mundane horn-like objects into convincing replicas. The closest physical match for these fangs comes directly from the jaws of the local Skullsplitter trolls, leading Kebok to hire adventurers willing to strip eighteen tusks from the jungle tribe to fill his upcoming export shipment."
+    },
+    "quest:338": {
+      "1": [
+        {
+          "duration": 61.10040816326531,
+          "file": "Audio/Transport/full_quest_338-246a5ef67e9390324b35/1-0000.mp3",
+          "sha256": "2cf3126e3de0ff234242c911e4132d65a5d135227e65cb1f9925b5568ee78e02",
+          "start": 0
+        }
+      ],
+      "config": {
+        "bitrate": "48k",
+        "mode": "whole-recording-v1",
+        "rates": [
+          "1"
+        ]
+      },
+      "fullHash": "03faa7",
+      "generation": "e09770f9a2577d3cfa1e",
+      "hash": "03faa7",
+      "source": {
+        "duration": 61.100408,
+        "file": null,
+        "sha256": "246a5ef67e9390324b35738ef11771a7f5c3dd13d39b943f4764f5abd4f7e82d"
+      },
+      "text": "The Green Hills of Stranglethorn. Barnil Stonepot was trusted to proofread the manuscript for Hemet Nesingwary's novel, but a fierce gust of wind scattered the loose pages across the jungle. To spare him his master's anger, you are asked to scour the wilds, assemble the missing pages into four complete chapters, and return the finished work. Following your arrival in the expedition camp after Welcome to the Jungle, Barnil Stonepot finds himself facing a disaster. While reviewing the draft of Hemet Nesingwary's novel, The Green Hills of Stranglethorn, a sudden gale caught the loose leaves and flung them into the wild. Though he managed to recover a fair portion of the work, many sheets remain lost in the brush. To keep his master from discovering the mishap, he needs every misplaced page tracked down and compiled into Chapter I, Chapter II, Chapter III, and Chapter IV. Bringing back the four completed sections spares Barnil from an unpleasant confrontation with Nesingwary. With the chapters gathered safely in hand, he hopes the restored work will soon find its way into libraries across the world."
+    },
+    "quest:339": {
+      "1": [
+        {
+          "duration": 46.968163265306124,
+          "file": "Audio/Transport/full_quest_339-6128ae864e36dde6f8e7/1-0000.mp3",
+          "sha256": "12725a187f5aa4d94d6ac1b57cf667fd207560594c1b39df59f9c81f3fe99ca9",
+          "start": 0
+        }
+      ],
+      "config": {
+        "bitrate": "48k",
+        "mode": "whole-recording-v1",
+        "rates": [
+          "1"
+        ]
+      },
+      "fullHash": "ed8638",
+      "generation": "308623c461af3e1ca1c4",
+      "hash": "ed8638",
+      "source": {
+        "duration": 46.968163,
+        "file": null,
+        "sha256": "6128ae864e36dde6f8e764b3db5f81a29d0dcf6b86a612880c8d98b6a83f5109"
+      },
+      "text": "Chapter I. Barnil Stonepot is trying to restore the opening portion of Hemet Nesingwary's scattered hunting manuscript, The Green Hills of Stranglethorn. He needs four missing leaves gathered from across the jungle to bind the introductory section back together. Following your talk regarding The Green Hills of Stranglethorn, Barnil Stonepot sets his sights on restoring the book's opening passage. According to the dwarf, this first part sets the stage for the wider story and describes Nesingwary's hunting party, counting Barnil himself among the companions. Unfortunately, the manuscript's leaves remain lost in the wild, leaving pages one, four, six, and eight absent from the collection. Once you bring back the four missing sheets, Barnil is able to piece the first segment of the master huntsman's text back into a single, cohesive part of the book."
+    },
+    "quest:340": {
+      "1": [
+        {
+          "duration": 41.456326530612245,
+          "file": "Audio/Transport/full_quest_340-a525c1cf67e416ead92c/1-0000.mp3",
+          "sha256": "7655b00cd67c9ed240292502993ca329d7d3e8fff170de22bfe4ef0901563b01",
+          "start": 0
+        }
+      ],
+      "config": {
+        "bitrate": "48k",
+        "mode": "whole-recording-v1",
+        "rates": [
+          "1"
+        ]
+      },
+      "fullHash": "09e6d3",
+      "generation": "23fcba53a3b81e384fed",
+      "hash": "09e6d3",
+      "source": {
+        "duration": 41.456327,
+        "file": null,
+        "sha256": "a525c1cf67e416ead92ccc8ae49fd6854d104164c6a4a2e4a2aafd4a777de994"
+      },
+      "text": "Chapter II. Barnil Stonepot needs assistance gathering missing leaves from the second section of Hemet Nesingwary's scattered hunting manuscript. Having gathered most of the parchment himself, he relies on travelers across Stranglethorn Vale to recover the remaining scattered accounts of panther and tiger hunts. Following the dispersal of Hemet Nesingwary's manuscript across Stranglethorn Vale, Barnil Stonepot managed to reclaim many leaves on his own. The second chapter focuses entirely on thrilling accounts of tracking panthers and tigers through the wilderness. Four specific pages—numbers 10, 11, 14, and 16—remain lost to the wind and the jungle's inhabitants, leaving this section of the expedition's chronicle unfinished."
+    },
+    "quest:341": {
+      "1": [
+        {
+          "duration": 43.78122448979592,
+          "file": "Audio/Transport/full_quest_341-34b9ff9cfad5a306d01b/1-0000.mp3",
+          "sha256": "5cc3c0644e1d897bea8c737b8019bf5cc0cf48e511a7dce8b9bf54b378a84f28",
+          "start": 0
+        }
+      ],
+      "config": {
+        "bitrate": "48k",
+        "mode": "whole-recording-v1",
+        "rates": [
+          "1"
+        ]
+      },
+      "fullHash": "145bc2",
+      "generation": "afd0d02ff18e22c66361",
+      "hash": "145bc2",
+      "source": {
+        "duration": 43.781224,
+        "file": null,
+        "sha256": "34b9ff9cfad5a306d01b385b3cff961b964a2ac99eba1f37895f88327e00904a"
+      },
+      "text": "Chapter III. Barnil Stonepot is trying to reconstruct the third chapter of Hemet Nesingwary's hunting manuscript in Stranglethorn Vale. The section recounts the first kill made with a dwarven rifle by Sir Erlgadin and Lady Rouack, but four specific leaves were blown across the jungle. Barnil Stonepot considers this portion of The Green Hills of Stranglethorn his personal favorite. The text recounts the early exploits of Sir Erlgadin and Lady Rouack, detailing their very first kill using a dwarven rifle. The chapter ends on a sharp cliffhanger. To piece the narrative together again, Barnil requires pages 18, 20, 21, and 24. These missing fragments were scattered into the wild, carried off across Stranglethorn Vale like the rest of the manuscript."
+    },
+    "quest:342": {
+      "1": [
+        {
+          "duration": 29.466122448979593,
+          "file": "Audio/Transport/full_quest_342-e2e9a8e84c2e8012ec95/1-0000.mp3",
+          "sha256": "6a890b90f77fd9aa5b19f4a02265fca953c74d318bc5676f465e48ccc7282473",
+          "start": 0
+        }
+      ],
+      "config": {
+        "bitrate": "48k",
+        "mode": "whole-recording-v1",
+        "rates": [
+          "1"
+        ]
+      },
+      "fullHash": "e5c778",
+      "generation": "8381b19fa11d581ab47a",
+      "hash": "e5c778",
+      "source": {
+        "duration": 29.466122,
+        "file": null,
+        "sha256": "e2e9a8e84c2e8012ec956696323e01897c6c0302a23dad8b69b6e19b85133062"
+      },
+      "text": "Chapter IV. Barnil Stonepot is trying to reconstruct the thrilling finale of Hemet Nesingwary's famous manuscript. Recovering the final three sheets will restore the climactic conclusion to the wild hunting tale. Barnil Stonepot considers this section the big finale of the entire hunting volume. To assemble the fourth chapter, he needs someone to track down and return pages twenty-five, twenty-six, and twenty-seven. Once these three lost sheets are gathered from across the jungle, the manuscript's exciting conclusion can finally be reassembled."
+    },
+    "quest:348": {
+      "1": [
+        {
+          "duration": 30.720000000000002,
+          "file": "Audio/Transport/full_quest_348-a08e4c04e2762fb51ba4/1-0000.mp3",
+          "sha256": "5370b8124185fecb22c1bc3505c39f648feeec59616a386a5e4883508cc75e40",
+          "start": 0
+        }
+      ],
+      "config": {
+        "bitrate": "48k",
+        "mode": "whole-recording-v1",
+        "rates": [
+          "1"
+        ]
+      },
+      "fullHash": "35540c",
+      "generation": "519c118c2cec17d26e9d",
+      "hash": "35540c",
+      "source": {
+        "duration": 30.746122,
+        "file": null,
+        "sha256": "a08e4c04e2762fb51ba4dc8de6cb7b3ad718e1b4250de415d3b7aa0606e6409b"
+      },
+      "text": "Stranglethorn Fever. In Booty Bay, Fin Fizracket lies sick with Stranglethorn Fever, a deadly virus. He says the only cure is the heart of Mokk the Savage, an elusive white beast, and that he is dying. Fin Fizracket is stammering and fading, sure that he has caught Stranglethorn Fever. He says the only cure is to eat the heart of Mokk the Savage, an elusive white beast. Witch Doctor Unbagwa is the only one who can summon the creature, and Fin sends you to find Unbagwa in a hidden cave on the southern cape, the Spirit Den."
+    },
+    "quest:3625": {
+      "1": [
+        {
+          "duration": 39.78448979591837,
+          "file": "Audio/Transport/full_quest_3625-331de34767db941481ab/1-0000.mp3",
+          "sha256": "d3a0b117d149d22c6cc358a51ede0a18874ace1828755710911ac695759e4218",
+          "start": 0
+        }
+      ],
+      "config": {
+        "bitrate": "48k",
+        "mode": "whole-recording-v1",
+        "rates": [
+          "1"
+        ]
+      },
+      "fullHash": "56ab55",
+      "generation": "535b614d718778851255",
+      "hash": "56ab55",
+      "source": {
+        "duration": 39.78449,
+        "file": null,
+        "sha256": "331de34767db941481abe360fbe40e155e45db9ff25424f848af5a4cde4ce21a"
+      },
+      "text": "Enchanted Azsharite Fel Weaponry. In Stranglethorn Vale, the master smith Galvan the Ancient works to fashion specialized armament capable of striking down powerful demons. This forging provides an enchanted weapon imbued with the Felcurse, designed specifically to weaken Razelikh the Defiler and his servitors. Galvan the Ancient requires patience while he works his craft just south of the path leading into Zul'Gurub. Rushing the forging risks creating a flawed blade, staff, or dagger. Once completed, the chosen weapon carries the power of the Felcurse, which can be unleashed periodically to weaken Razelikh the Defiler and his demonic underlings. The duration of this debilitating curse can vary."
+    },
+    "quest:3626": {
+      "1": [
+        {
+          "duration": 27.611428571428572,
+          "file": "Audio/Transport/full_quest_3626-29ff8402d665be1a0959/1-0000.mp3",
+          "sha256": "bed7b2be265dbbd9e4b2330fd734ae3057df0fc49db66f68e5bdd5a4539f5dae",
+          "start": 0
+        }
+      ],
+      "config": {
+        "bitrate": "48k",
+        "mode": "whole-recording-v1",
+        "rates": [
+          "1"
+        ]
+      },
+      "fullHash": "2fee61",
+      "generation": "c58da30c3150a57bc19b",
+      "hash": "2fee61",
+      "source": {
+        "duration": 27.611429,
+        "file": null,
+        "sha256": "29ff8402d665be1a0959d3a68f9adcf845f7ec1a34de4b00ebdc59dcae46990d"
+      },
+      "text": "Return to the Blasted Lands. With newly forged weapons in hand, you are directed back from Stranglethorn Vale to the Blasted Lands. The spirit of the Fallen Hero of the Horde awaits your return to set you against the demon Razelikh. Following the completion of your enchanted armaments, Galvan the Ancient proclaims that the hour of redemption is at hand. You carry the newly crafted weapons back to the Blasted Lands, seeking out the Fallen Hero of the Horde. The ghostly warrior asks whether you are prepared to face Razelikh and his minions."
+    },
+    "quest:507": {
+      "1": [
+        {
+          "duration": 32.3395918367347,
+          "file": "Audio/Transport/full_quest_507-cdf759f8b0991353d436/1-0000.mp3",
+          "sha256": "9d0e605423d6c83359cdf8c463a714b67719c73382fca41f37a986a4840a89f0",
+          "start": 0
+        }
+      ],
+      "config": {
+        "bitrate": "48k",
+        "mode": "whole-recording-v1",
+        "rates": [
+          "1"
+        ]
+      },
+      "fullHash": "71aed0",
+      "generation": "cd22f2292d2f7e42d9da",
+      "hash": "71aed0",
+      "source": {
+        "duration": 32.339592,
+        "file": null,
+        "sha256": "cdf759f8b0991353d436ba1ea1f4e1d603d6a4d5b4b27df25b6ac1e0b1569404"
+      },
+      "text": "Lord Aliden Perenolde. Krusk wants Lord Aliden Perenolde, leader of the Syndicate, dead and the Warchief's pendant recovered. His manor stands north, on the shores of Lordamere Lake, and his mistress Elysa is the one to ask about the pendant. After Blackmoore's Legacy, Krusk says Perenolde has to die, and the world be rid of his foulness. The manor sits a way to the north, on the shores of Lordamere Lake, at Dandred's Fold. When the deed is done, you are to put your questions about Taretha's pendant, which the Warchief desires, to his mistress Elysa."
+    },
+    "quest:508": {
+      "1": [
+        {
+          "duration": 27.219591836734693,
+          "file": "Audio/Transport/full_quest_508-f78111c05136245516e5/1-0000.mp3",
+          "sha256": "b1054d8fa9ee7143423178b69ad33e54aec5a2f1c4fa74e5451ee0607b726f37",
+          "start": 0
+        }
+      ],
+      "config": {
+        "bitrate": "48k",
+        "mode": "whole-recording-v1",
+        "rates": [
+          "1"
+        ]
+      },
+      "fullHash": "2c3776",
+      "generation": "edfa0ac456ffccfc1454",
+      "hash": "2c3776",
+      "source": {
+        "duration": 27.245714,
+        "file": null,
+        "sha256": "f78111c05136245516e5e21968cfc00accf9e1d41f9cafbd7a26dfd141d438c0"
+      },
+      "text": "Taretha's Gift. After the step with Lord Aliden Perenolde, Elysa gives up Taretha's pendant and asks only to be left in peace. You carry it back to Krusk in Tarren Mill. Elysa has no wish to hold on to any memory of Lord Aliden Perenolde. You may take the pendant, Elysa says, and begs only that you then go in peace. It once belonged to Taretha Foxton, a childhood friend of Thrall's. You are to bring it to Krusk in Tarren Mill, so that it returns to the orcs."
+    },
+    "quest:519": {
+      "1": [
+        {
+          "duration": 26.984489795918368,
+          "file": "Audio/Transport/full_quest_519-405829f17df3b88422ca/1-0000.mp3",
+          "sha256": "2e5c6babd821b069f27276c583328309ddd7fd20fd000deb5595dba6a697519f",
+          "start": 0
+        }
+      ],
+      "config": {
+        "bitrate": "48k",
+        "mode": "whole-recording-v1",
+        "rates": [
+          "1"
+        ]
+      },
+      "fullHash": "15a559",
+      "generation": "40bd2c11af7974bbab8a",
+      "hash": "15a559",
+      "source": {
+        "duration": 27.010612,
+        "file": null,
+        "sha256": "405829f17df3b88422cadd8834ec8ddb4a6c348e0e8bb05f24e8eb447b0d784d"
+      },
+      "text": "The Crown of Will. With the ogres' defenses weakened, Melisara in Tarren Mill wants the heads of Mug'Thol's three lieutenants, Targ, Muckrake and Glommus, before Mug'Thol himself is dealt with. Mug'Thol's lieutenants are Targ, Muckrake and Glommus, all loyal to him, though Melisara wonders what could make an ogre loyal. You are to kill all three and bring their heads back to Tarren Mill. After that, only Mug'Thol's own head remains to be taken, crown and all."
+    },
+    "quest:520": {
+      "1": [
+        {
+          "duration": 24.99918367346939,
+          "file": "Audio/Transport/full_quest_520-0c652f7610d328567567/1-0000.mp3",
+          "sha256": "e8be1d9864905a1870e992427f6ffc88126555d674242d5924306084fccf1efc",
+          "start": 0
+        }
+      ],
+      "config": {
+        "bitrate": "48k",
+        "mode": "whole-recording-v1",
+        "rates": [
+          "1"
+        ]
+      },
+      "fullHash": "7c85cc",
+      "generation": "fa0c96c443ba537785f6",
+      "hash": "7c85cc",
+      "source": {
+        "duration": 24.999184,
+        "file": null,
+        "sha256": "0c652f7610d328567567f985a04228e2c7d2cab4f7820618aeeeb3c2a92c499f"
+      },
+      "text": "The Crown of Will. With Mug'Thol's lieutenants dead, Melisara in Tarren Mill sends you after Mug'Thol himself. You are to bring back his head and the Crown of Will, and the Crushridge resistance will be over. Only Mug'Thol is left now. Melisara expects him to be reluctant to give up the Crown of Will, and thinks he is probably expecting you, given what befell his lieutenants. Find him, kill him, and carry his head and the Crown back to Tarren Mill."
+    },
+    "quest:521": {
+      "1": [
+        {
+          "duration": 23.797551020408164,
+          "file": "Audio/Transport/full_quest_521-84c204133c01358c3965/1-0000.mp3",
+          "sha256": "20225c43a794146dc17fbc34fdf5ccfc368701a219ef15eee271b670a62e0eb2",
+          "start": 0
+        }
+      ],
+      "config": {
+        "bitrate": "48k",
+        "mode": "whole-recording-v1",
+        "rates": [
+          "1"
+        ]
+      },
+      "fullHash": "5f7402",
+      "generation": "e9a12f9f5a082465a3b2",
+      "hash": "5f7402",
+      "source": {
+        "duration": 23.797551,
+        "file": null,
+        "sha256": "84c204133c01358c39652a8b561a8a453d15de5c53f07f27677279a0a7277f12"
+      },
+      "text": "The Crown of Will. Only one thing remains. The Crown is to go to Sharlindra in the Undercity, who will make sure it reaches Lady Sylvanas. Melisara says all that remains is to take the Crown to Sharlindra in the Undercity, and she will pass it on to Lady Sylvanas. Melisara also warns you against thinking of using it for your own purposes. Mug'Thol's fate, Melisara says, is illustration enough."
+    },
+    "quest:566": {
+      "1": [
+        {
+          "duration": 41.142857142857146,
+          "file": "Audio/Transport/full_quest_566-b2f03103467a15bce2f8/1-0000.mp3",
+          "sha256": "93a3f57e294df8e7dfc0dbb9bc32ce353afb39c2076377c8c7392a6114b24481",
+          "start": 0
+        }
+      ],
+      "config": {
+        "bitrate": "48k",
+        "mode": "whole-recording-v1",
+        "rates": [
+          "1"
+        ]
+      },
+      "fullHash": "6f9a2c",
+      "generation": "353d0b4a70152d48dfed",
+      "hash": "6f9a2c",
+      "source": {
+        "duration": 41.142857,
+        "file": null,
+        "sha256": "b2f03103467a15bce2f88703f8c3442ccc8f8751636ccf4602288fc070fc91a3"
+      },
+      "text": "WANTED: Baron Vardus. A notice carrying High Executor Darthalia's order names Baron Vardus, a human and a high-ranking member of the Syndicate, wanted dead for crimes against the Forsaken. Proof of his death is to be brought to Darthalia in Tarren Mill. Darthalia has put a price on Baron Vardus, a human charged with crimes against the Forsaken and counted among the Syndicate's high-ranking members. Last word placed him in the Uplands of the Alterac Mountains, to the north of Tarren Mill. The order is plain: he is to die, and whoever brings Darthalia proof of his death will be paid for it. Vardus could be at any one of the Syndicate camps across the Uplands. He may also be hiding in the cellar of the inn at Strahnbrad."
+    },
+    "quest:571": {
+      "1": [
+        {
+          "duration": 47.542857142857144,
+          "file": "Audio/Transport/full_quest_571-a3932b7012db7f125353/1-0000.mp3",
+          "sha256": "4ace8f29808d2750e8ca1e7a7fcd5b44f4a53edabcbf61091480608be2d0bfd9",
+          "start": 0
+        }
+      ],
+      "config": {
+        "bitrate": "48k",
+        "mode": "whole-recording-v1",
+        "rates": [
+          "1"
+        ]
+      },
+      "fullHash": "b31492",
+      "generation": "8dbd87347c3e42c9c7ac",
+      "hash": "b31492",
+      "source": {
+        "duration": 47.542857,
+        "file": null,
+        "sha256": "a3932b7012db7f125353927bf0eadb7dba73ef224bfb119d6a29752367800a62"
+      },
+      "text": "Mok'thardin's Enchantment. Far Seer Mok'thardin in Grom'gol Base Camp needs a sturdy magical binding to hold together the Stranglethorn trophies collected so far. To bind the feathers, claws, and fang securely, he requires an aged sinew harvested from the elder primates roaming southern Stranglethorn Vale. Having gathered feathers, claws, and a pristine fang, Far Seer Mok'thardin reaches the next stage of his ritual. To fasten these potent relics together, he requires a magical tether of exceptional toughness. Only the aged sinew of an Elder Mistvale Gorilla will suffice to endure the magic he intends to weave. The beasts carrying the necessary sinew forage in the jungles east of Booty Bay. Mok'thardin warns that only a flawless sinew will do, meaning hunters may need to track and fell several of the elder gorillas before securing a specimen fit for the enchantment."
+    },
+    "quest:572": {
+      "1": [
+        {
+          "duration": 32.6530612244898,
+          "file": "Audio/Transport/full_quest_572-30f1b1b2d5d4b58f5c5f/1-0000.mp3",
+          "sha256": "da30009362ddbca14524d47cf7b46eb379174892f9a387201e5ab43d052dabe2",
+          "start": 0
+        }
+      ],
+      "config": {
+        "bitrate": "48k",
+        "mode": "whole-recording-v1",
+        "rates": [
+          "1"
+        ]
+      },
+      "fullHash": "1109ce",
+      "generation": "3bcfe6b46afd748aeddc",
+      "hash": "1109ce",
+      "source": {
+        "duration": 32.653061,
+        "file": null,
+        "sha256": "30f1b1b2d5d4b58f5c5fd9f4ab0c90b26cc0b2f20c7c1f91fd06931d41c750ad"
+      },
+      "text": "Mok'thardin's Enchantment. Far Seer Mok'thardin continues assembling the components for a potent shamanistic item to aid the Horde. After working with feline trophies, he turns his attention toward the feathers worn by the raptors of Stranglethorn Vale. Following the recovery of materials from the jungle's feline predators, Far Seer Mok'thardin reveals that more components are needed before his shamanistic ritual can begin. To forge a tool fit to assist the Warchief, he requires feathers worn by Jungle Stalkers. These raptors inhabit the dense jungle south of Grom'gol Base Camp, not far from the great arena."
+    },
+    "quest:573": {
+      "1": [
+        {
+          "duration": 51.8530612244898,
+          "file": "Audio/Transport/full_quest_573-100fb83ca2d6cd3f615c/1-0000.mp3",
+          "sha256": "b522e4c251c8a11c96b6d2763d5a83faa9687b927989ff73e667c925eee26261",
+          "start": 0
+        }
+      ],
+      "config": {
+        "bitrate": "48k",
+        "mode": "whole-recording-v1",
+        "rates": [
+          "1"
+        ]
+      },
+      "fullHash": "7e9041",
+      "generation": "b7452a869b206a3a763c",
+      "hash": "7e9041",
+      "source": {
+        "duration": 51.853061,
+        "file": null,
+        "sha256": "100fb83ca2d6cd3f615cc07bdadd3d79c629df8ed195e55686938bc98eafeba1"
+      },
+      "text": "Mok'thardin's Enchantment. Far Seer Mok'thardin requires one final sacred component to complete the enchantment of a ceremonial choker at Grom'gol Base Camp. He directs you to an elevated Holy Spring along the southern bluffs near the western sea, which has drawn the attention of a hostile naga expedition. Following the earlier stages of Mok'thardin's enchantment, the far seer seeks water from a Holy Spring situated high above the bluffs in the southern reaches of Stranglethorn Vale, near the western coast. The site is a point of contention among scholars of the mystic and divine, with every race across Azeroth claiming the holy waters were sanctified specifically for their own people. A party of naga explorers has moved up to the spring and must be dealt with as well. Mok'thardin requires ten of these serpent intruders slain alongside a draught of the spring water to finish preparing the ceremonial choker in the name of the Warchief."
+    },
+    "quest:580": {
+      "1": [
+        {
+          "duration": 59.58530612244898,
+          "file": "Audio/Transport/full_quest_580-4946f31d61052559b074/1-0000.mp3",
+          "sha256": "7827152d6e25d75fae43d9264bd69884b7cab8fa47fcd999391f0f7c35c7ef6e",
+          "start": 0
+        }
+      ],
+      "config": {
+        "bitrate": "48k",
+        "mode": "whole-recording-v1",
+        "rates": [
+          "1"
+        ]
+      },
+      "fullHash": "2d8a92",
+      "generation": "6c7496a1320b968a9c1b",
+      "hash": "2d8a92",
+      "source": {
+        "duration": 59.611429,
+        "file": null,
+        "sha256": "4946f31d61052559b07496813da91b1325745bc55f433b63d6616827efa710bb"
+      },
+      "text": "Whiskey Slim's Lost Grog. In the pirate haven of Booty Bay, Whiskey Slim finds himself in dire trouble with his captain. During a violent storm off the coast of the Hinterlands, Slim tapped into a seized crate of Pupellyverbos Port, only to lose the bottles to the churning sea. To escape a brutal flogging, he needs an adventurer to retrieve his misplaced grog. Whiskey Slim's crew was battling severe weather off the Overlook Cliffs, with the shore of the Hinterlands looming nearby, when the sailor sought a dose of liquid courage. His ship had seized a crate of Pupellyverbos Port from a privateer vessel sailing toward Stormwind. Facing waves that threatened to swallow their ship whole, Slim broke into the captain's crate, but a sudden surge swept the bottles right over the side. Back in Booty Bay, the clock is ticking down as the ship prepares to weigh anchor. Slim dreads facing the cat-o'-nine-tails once his commanding officer realizes the confiscated port is missing. He seeks someone willing to bring back twelve bottles before his theft comes to light."
+    },
+    "quest:584": {
+      "1": [
+        {
+          "duration": 50.49469387755102,
+          "file": "Audio/Transport/full_quest_584-6786645eda0ab1960193/1-0000.mp3",
+          "sha256": "e27bd3581f2060f0d539a218a632dbe90ec24ce84e9768bf065d6472ad5ece57",
+          "start": 0
+        }
+      ],
+      "config": {
+        "bitrate": "48k",
+        "mode": "whole-recording-v1",
+        "rates": [
+          "1"
+        ]
+      },
+      "fullHash": "1b9dd2",
+      "generation": "37057f8e9c074daf1268",
+      "hash": "1b9dd2",
+      "source": {
+        "duration": 50.494694,
+        "file": null,
+        "sha256": "6786645eda0ab1960193b0680b1c772e789e23334ee9d23367bfd83c53f6a77b"
+      },
+      "text": "Bloodscalp Clan Heads. Following the sorting of trophies gathered in the jungle, Nimboya confirms that the missing young troll Yenniku was not among them. To discover the truth of Yenniku's fate, the Darkspear seek to compel answers from the leaders of the rival Bloodscalp tribe. After the earlier hunt proved Yenniku was not among the fallen Bloodscalp trophies, Nimboya looks to higher leadership for answers. The Bloodscalp chief, Gan'zulah, and his witch doctor, Nezzliok the Dire, are enemies of the Darkspear tribe and would never talk willingly. Nimboya means to force the truth from their dead lips, bringing their heads to the cauldron at Grom'gol Base Camp to make them talk. Both Bloodscalp leaders dwell deep within the ruins of Zul'Kunda in northwestern Stranglethorn Vale. Claiming their heads and casting them into the boiling brew is how Nimboya means to make them talk about Yenniku."
+    },
+    "quest:585": {
+      "1": [
+        {
+          "duration": 50.80816326530613,
+          "file": "Audio/Transport/full_quest_585-fd745fc49cfe65eef733/1-0000.mp3",
+          "sha256": "0ca872f82b98797a420e5edd7ff689b57075dfcd38dae0a57c0e522b9a514de6",
+          "start": 0
+        }
+      ],
+      "config": {
+        "bitrate": "48k",
+        "mode": "whole-recording-v1",
+        "rates": [
+          "1"
+        ]
+      },
+      "fullHash": "9875f0",
+      "generation": "5e861a08c0f4f419d2c0",
+      "hash": "9875f0",
+      "source": {
+        "duration": 50.808163,
+        "file": null,
+        "sha256": "fd745fc49cfe65eef7330f20bb47a4c809b80157d2ad96a3fb592b8cd44216f2"
+      },
+      "text": "Speaking with Nezzliok. After defeating the Bloodscalp witch doctor, his severed head speaks from the bubbling cauldron at Grom'gol Base Camp. He claims to know where the lost Darkspear child was taken, but he refuses to give up the secret without a grim tribute. Though bound within the bubbling cauldron following the hunt for Bloodscalp Clan Heads, Nezzliok is far from cooperative. He admits knowing where Yenniku was taken, yet he demands appeasement before parting with the information. He commands that three trophy skulls be taken from the rival Skullsplitter tribe and brought to his resting place, ensuring his departed spirit will command thralls in the Nether. Nezzliok demands one skull taken directly from the Skullsplitter trophy pile at Balia'mah, a second from Ziata'jai, and a third from Zul'Mamwe. Only when all three offerings rest alongside his own head will the dead witch doctor consider his spirit satisfied."
+    },
+    "quest:586": {
+      "1": [
+        {
+          "duration": 64.3134693877551,
+          "file": "Audio/Transport/full_quest_586-81d42055bfb94ce671a5/1-0000.mp3",
+          "sha256": "f7fb999bc3ddd0f434a1cab940af57d5bf6def7faeb44b48b4d76284ed2e7a19",
+          "start": 0
+        }
+      ],
+      "config": {
+        "bitrate": "48k",
+        "mode": "whole-recording-v1",
+        "rates": [
+          "1"
+        ]
+      },
+      "fullHash": "cb0c9d",
+      "generation": "362a9d98fc58f952fdc2",
+      "hash": "cb0c9d",
+      "source": {
+        "duration": 64.313469,
+        "file": null,
+        "sha256": "81d42055bfb94ce671a583b5db956c1e866f3eacd0367ee90f7cf26f55a41fbd"
+      },
+      "text": "Speaking with Gan'zulah. Even after losing his head to the boiling brew at Grom'gol Base Camp, the Bloodscalp chieftain Gan'zulah seethes with fury. To appease his lingering rage, the severed spirit demands the death of his bitter Skullsplitter rivals and the ruin of their ruler, Ana'thek the Cruel. Following the collection of the Bloodscalp Clan Heads, Gan'zulah's severed head continues to curse anyone standing over the bubbling pot. Consumed by hatred for both his captors and his ancestral enemies, the dead chieftain offers an avenue to quiet his boiling temper: an assault into the eastern stronghold of the Skullsplitter tribe. He demands a slaughter of their hunters, headhunters, and berserkers, daring travelers to perish against their ferocious warband. Gan'zulah expects the assault to end in disaster, fully anticipating that Chief Ana'thek the Cruel will tear apart any intruder who dares challenge him. He demands nothing less than the shattered armor stripped from the Skullsplitter ruler himself as proof of triumph. Only bearing this trophy back to the cauldron in Grom'gol Base Camp can satisfy the dead chieftain's spite."
+    },
+    "quest:588": {
+      "1": [
+        {
+          "duration": 24.03265306122449,
+          "file": "Audio/Transport/full_quest_588-ee0f3cffd449d4c1216b/1-0000.mp3",
+          "sha256": "07cb1f8026f52b1c512ffb49396c4326adca96ab0b4a2bd9d05ba3c067af3b90",
+          "start": 0
+        }
+      ],
+      "config": {
+        "bitrate": "48k",
+        "mode": "whole-recording-v1",
+        "rates": [
+          "1"
+        ]
+      },
+      "fullHash": "f2d57f",
+      "generation": "b43de8327e63adad7c11",
+      "hash": "f2d57f",
+      "source": {
+        "duration": 24.032653,
+        "file": null,
+        "sha256": "ee0f3cffd449d4c1216b7d78547b782520ef4eeac124881cfa4dbdb9abb6658f"
+      },
+      "text": "The Fate of Yenniku. At Grom'gol Base Camp, the head of Nezzliok speaks from the bubbling cauldron, ready to tell what became of the young Darkspear troll Yenniku. Kin'weelay stands beside the pot, waiting to hear the spirit's words. Having placated the spirits of Gan'zulah and Nezzliok, you listen as the head within the bubbling cauldron finally imparts its secret. Kin'weelay stands right beside the cauldron, waiting to hear it."
+    },
+    "quest:589": {
+      "1": [
+        {
+          "duration": 65.04489795918367,
+          "file": "Audio/Transport/full_quest_589-0f5e6951fb400b0974ba/1-0000.mp3",
+          "sha256": "53c436586b0413c8b62f26f594ed3be8a60efa9fd4df537d8a102ca8d6f53375",
+          "start": 0
+        }
+      ],
+      "config": {
+        "bitrate": "48k",
+        "mode": "whole-recording-v1",
+        "rates": [
+          "1"
+        ]
+      },
+      "fullHash": "3534ba",
+      "generation": "cfe8990cfcbf06d1c26c",
+      "hash": "3534ba",
+      "source": {
+        "duration": 65.044898,
+        "file": null,
+        "sha256": "0f5e6951fb400b0974babd5931fcf6dbd9dfe0c6f5e1a3421307d5b10894b473"
+      },
+      "text": "The Singing Crystals. Kin'weelay seeks a way to rescue young Yenniku from the darkness that has claimed him. Following the revelation of Yenniku's plight, the witch doctor plans to locate a legendary jewel known as the Mind's Eye, sending you to gather resonance shards needed to master its power. After learning the grim fate that befell Yenniku, the medicine man Kin'weelay turns to ancient jungle lore for an answer. Tales speak of the Mind's Eye, a gem hidden within the depths of Stranglethorn that possesses immense magical strength. Kin'weelay believes this stone could hold the secret to freeing the young troll's spirit. While he communally seeks the guidance of the jungle spirits to pinpoint its location, he needs rare catalysts to safely command the jewel's potent sorcery. Kin'weelay directs you southeast toward Crystalvein Mine, where ironjaw basilisks dwell beneath the earth. From these creatures, you are to recover three pulsing blue shards. Kin'weelay intends to channel the inherent magic of these singing stones in a concluding ritual, bending the raw might of the Mind's Eye to his command once the gem is recovered."
+    },
+    "quest:591": {
+      "1": [
+        {
+          "duration": 58.462040816326535,
+          "file": "Audio/Transport/full_quest_591-74c4702dad6e3aa8d993/1-0000.mp3",
+          "sha256": "3cf57aaf5c364f869730bb23d5c4ec787c08cd89d4bca4691ae639d5ad53f219",
+          "start": 0
+        }
+      ],
+      "config": {
+        "bitrate": "48k",
+        "mode": "whole-recording-v1",
+        "rates": [
+          "1"
+        ]
+      },
+      "fullHash": "1c016e",
+      "generation": "0502a1955c7546f1e990",
+      "hash": "1c016e",
+      "source": {
+        "duration": 58.462041,
+        "file": null,
+        "sha256": "74c4702dad6e3aa8d993e46d1bb6cdf2d5740929ecaaed2bb6b0cbf93b06957b"
+      },
+      "text": "The Mind's Eye. Kin'weelay at Grom'gol Base Camp seeks a powerful gem known as the Mind's Eye, an artifact essential for rescuing young Yenniku. The stone rests in the hands of the formidable ogre spellcaster Mai'Zoth, who dwells deep within the Mosh'Ogg Ogre Mound. Following the recovery of the singing crystals, Kin'weelay turns his attention toward securing the Mind's Eye. This potent artifact is the solitary instrument capable of aiding the rescue of Yenniku, the son of the Darkspear chieftain. However, the stone is currently held by Mai'Zoth, a ruthless ogre mage whose presence Kin'weelay remembers from the tribe's earlier days in the jungle. Mai'Zoth resides deep inside the Mosh'Ogg Ogre Mound to the east of Grom'gol. His magical prowess was formidable even before acquiring the Mind's Eye, and the stone has only amplified his strength. Confronting him amidst the ogre stronghold is fraught with peril, but wresting the artifact from his grasp remains the sole hope of freeing the young troll."
+    },
+    "quest:592": {
+      "1": [
+        {
+          "duration": 55.19673469387755,
+          "file": "Audio/Transport/full_quest_592-d04077712e90472763d1/1-0000.mp3",
+          "sha256": "c9748c5b8c7d647275b6466ceb2bf759765dc5870bb6db0282f9765d23774a5a",
+          "start": 0
+        }
+      ],
+      "config": {
+        "bitrate": "48k",
+        "mode": "whole-recording-v1",
+        "rates": [
+          "1"
+        ]
+      },
+      "fullHash": "c79d90",
+      "generation": "062bc9d9036aee367e68",
+      "hash": "c79d90",
+      "source": {
+        "duration": 55.196735,
+        "file": null,
+        "sha256": "d04077712e90472763d181ca0efca02d06f5661ce6c9f414fab8d0c5b7188266"
+      },
+      "text": "Saving Yenniku. After obtaining the Mind's Eye, Kin'weelay crafts it into a specialized soul gem to rescue the young troll Yenniku from Zanzil the Outcast. The enchanted vessel is designed to stun Yenniku and capture his spirit, allowing him to be freed and carried back to Nimboya. Following the recovery of the Mind's Eye, Kin'weelay reshapes the potent relic into a magical soul gem. Its dual enchantment allows an adventurer to first stun Yenniku and then place the stone upon his head to capture his wayward spirit within. Once the boy's essence is contained inside the gem, it can safely be returned to his kin at Grom'gol Base Camp. Yenniku resides alongside Zanzil the Outcast within the Ruins of Aboraz, situated along the Crystal Shore on the southern reaches of the Cape of Stranglethorn. Reaching the fallen youth requires venturing into Zanzil's territory, using the crafted vessel to break the witch doctor's hold over him, and carrying the filled gem back to Nimboya."
+    },
+    "quest:593": {
+      "1": [
+        {
+          "duration": 27.062857142857144,
+          "file": "Audio/Transport/full_quest_593-70cf37136d8beff2bc5f/1-0000.mp3",
+          "sha256": "cd0d5d95186ec544263ca0056176f6b84caec60ee1c1393f9a431e8e2192c48b",
+          "start": 0
+        }
+      ],
+      "config": {
+        "bitrate": "48k",
+        "mode": "whole-recording-v1",
+        "rates": [
+          "1"
+        ]
+      },
+      "fullHash": "bc49c6",
+      "generation": "981df03d7578c6535ba3",
+      "hash": "bc49c6",
+      "source": {
+        "duration": 27.08898,
+        "file": null,
+        "sha256": "70cf37136d8beff2bc5f25f2e8db08f600d5f93cf8562a0a85825d97471ab6c3"
+      },
+      "text": "Filling the Soul Gem. Deep in the jungle of Stranglethorn Vale, an attempt is made to preserve the young troll Yenniku. With the youth caught in a trance, a prepared soul gem is brought forth to capture his spirit. Following the effort to save Yenniku, you stand face to face with the young troll in Stranglethorn Vale. His mind is lost, caught entirely in another place while he remains motionless before you. The only path forward involves the enchanted gem prepared specifically to hold his essence."
+    },
+    "quest:594": {
+      "1": [
+        {
+          "duration": 34.42938775510204,
+          "file": "Audio/Transport/full_quest_594-54dfd1aa81cac9917558/1-0000.mp3",
+          "sha256": "49e5baeb37c9969050c514767e81028cd4d7f4120e5847c9b9b8303d10c757df",
+          "start": 0
+        }
+      ],
+      "config": {
+        "bitrate": "48k",
+        "mode": "whole-recording-v1",
+        "rates": [
+          "1"
+        ]
+      },
+      "fullHash": "ebd2a4",
+      "generation": "29a68f3828cc9813bde9",
+      "hash": "ebd2a4",
+      "source": {
+        "duration": 34.429388,
+        "file": null,
+        "sha256": "54dfd1aa81cac99175589c04ccfc9b966817970e98ad3ab14f18a1d116311c70"
+      },
+      "text": "Message in a Bottle. A washed-up bottle found along the shores of Stranglethorn Vale holds an urgent plea for rescue. Its author claims to be held prisoner by a great beast on an isolated island in the South Seas. Inside a glass container half-buried in the sand lies a neatly penned note asking for immediate assistance. The captive reports being trapped on a foreign island beneath thick jungle canopies, held by a great Skymane. Glimpses through the trees offer only faint landmarks: the coast of Wild Shore lies visible to the northwest, while large sailing vessels drift to the southwest."
+    },
+    "quest:595": {
+      "1": [
+        {
+          "duration": 38.32163265306123,
+          "file": "Audio/Transport/full_quest_595-1eb915b4a0e87e65db9c/1-0000.mp3",
+          "sha256": "3449f253eaa054893dac28f1cc20b9a4a611418fd4218d4338ef1646bae89788",
+          "start": 0
+        }
+      ],
+      "config": {
+        "bitrate": "48k",
+        "mode": "whole-recording-v1",
+        "rates": [
+          "1"
+        ]
+      },
+      "fullHash": "3b4503",
+      "generation": "ed67d1e97ae245c6709b",
+      "hash": "3b4503",
+      "source": {
+        "duration": 38.347755,
+        "file": null,
+        "sha256": "1eb915b4a0e87e65db9c4dce3947f1a9295ccd74bd0658660a4d6bcd709c151a"
+      },
+      "text": "The Bloodsail Buccaneers. First Mate Crazz of the Blackwater Raiders needs an adventurer to investigate rumors of rival pirates. With his crew busy drinking and chasing company in Booty Bay, he asks you to scout a nearby cove along the Savage Coast for signs of the Bloodsail Buccaneers. The Blackwater Raiders have newly docked in Booty Bay, only to hear word that their rivals, the Bloodsail Buccaneers, have been sighted across southern Stranglethorn Vale. With the rest of the crew distracted by grog and shoreline pursuits, First Mate Crazz turns to an outsider for help. He asks you to head north along the Savage Coast and scout a cove to see what the Bloodsail Buccaneers are up to."
+    },
+    "quest:597": {
+      "1": [
+        {
+          "duration": 44.64326530612245,
+          "file": "Audio/Transport/full_quest_597-c7333c3b8a6a05088ad8/1-0000.mp3",
+          "sha256": "e822ac53dd755ad6ba4dfebc0f4084122b0ebc08559bbffd43da2bf7962cd520",
+          "start": 0
+        }
+      ],
+      "config": {
+        "bitrate": "48k",
+        "mode": "whole-recording-v1",
+        "rates": [
+          "1"
+        ]
+      },
+      "fullHash": "57decd",
+      "generation": "061e0c5e5f7124b22f7c",
+      "hash": "57decd",
+      "source": {
+        "duration": 44.669388,
+        "file": null,
+        "sha256": "c7333c3b8a6a05088ad85b90da5868ff30355dc16566f733425e0c2a26127015"
+      },
+      "text": "The Bloodsail Buccaneers. Recovered correspondence from the Bloodsail Buccaneers carries a map of Booty Bay and written orders to secure a quiet camp at the marked spot and wait for a signal from their southern command post before attacking. Following your earlier investigation into the Bloodsail Buccaneers, an intercepted map and written orders uncover the pirates' immediate plans. A red X on a map of Booty Bay marks the exact spot where the pirates are to make camp. The orders command the crew to hold their ground quietly, eliminate anyone who approaches, and await an attack signal sent from the southern command post. Carrying these written findings back to Booty Bay brings the intelligence directly to First Mate Crazz, who originally sent you out to scout. The pirates are plainly waiting on a signal before they attack."
+    },
+    "quest:598": {
+      "1": [
+        {
+          "duration": 60.31673469387756,
+          "file": "Audio/Transport/full_quest_598-a850c917cb98c9b85fe5/1-0000.mp3",
+          "sha256": "d69e1712539bb825c9cff39c412d27305c2fc8fcaa78a8ae29509fd4130b1402",
+          "start": 0
+        }
+      ],
+      "config": {
+        "bitrate": "48k",
+        "mode": "whole-recording-v1",
+        "rates": [
+          "1"
+        ]
+      },
+      "fullHash": "7298ac",
+      "generation": "4e83abbaabfac11134e0",
+      "hash": "7298ac",
+      "source": {
+        "duration": 60.316735,
+        "file": null,
+        "sha256": "a850c917cb98c9b85fe5641b7712d6677e2d5b17b03a257b22c1cd2a650db695"
+      },
+      "text": "Split Bone Necklace. Kin'weelay at Grom'gol Base Camp calls upon Horde allies to hunt the Skullsplitter tribe living to the southeast. Although the Darkspears left Stranglethorn Vale behind, their ancient conflict with these jungle rivals remains unresolved. Returning with twenty-five split bone trophies aids the Darkspears in their war and earns their friendship. Following the collection of Bloodscalp trophies, Kin'weelay turns his attention toward another longstanding enemy. The Skullsplitter tribe dwells to the southeast of Grom'gol Base Camp, where they have clashed with the Darkspears across many years. Even though the Darkspears no longer reside within the jungles of Stranglethorn Vale, they remain bound to this enduring war. To earn the friendship and respect of the Darkspear tribe, an adventurer must march into Skullsplitter territory and claim twenty-five of their distinctive split bone necklaces. Kin'weelay takes pride in seeing these hostile trolls cut down like young saplings by a basilisk, counting every retrieved trophy as a victory for his people."
+    },
+    "quest:599": {
+      "1": [
+        {
+          "duration": 29.70122448979592,
+          "file": "Audio/Transport/full_quest_599-f347b222237bdd10ed00/1-0000.mp3",
+          "sha256": "df000147364430b1fb59b56e94b6b65cf984b0c095bf219b81122b74a841b3fc",
+          "start": 0
+        }
+      ],
+      "config": {
+        "bitrate": "48k",
+        "mode": "whole-recording-v1",
+        "rates": [
+          "1"
+        ]
+      },
+      "fullHash": "08bd1b",
+      "generation": "6e372fb9e1badc379926",
+      "hash": "08bd1b",
+      "source": {
+        "duration": 29.701224,
+        "file": null,
+        "sha256": "f347b222237bdd10ed00c5aeb5e259fa389d5caf91bc8b5e5f4c178eca697c90"
+      },
+      "text": "The Bloodsail Buccaneers. First Mate Crazz has learned that the Bloodsail Buccaneers intend to launch an assault against Booty Bay. The scale of the threat demands the attention of the Blackwater Raiders' commander, Fleet Master Seahorn, who needs to hear the warning immediately. Upon discovering that the Bloodsail Buccaneers scheme to strike Booty Bay directly, First Mate Crazz decides it is bigger than he thought. He directs you to seek out Fleet Master Seahorn, who is somewhere in the port town, and inform him of the brewing assault before the rival pirates can make their move."
+    },
+    "quest:600": {
+      "1": [
+        {
+          "duration": 43.62448979591837,
+          "file": "Audio/Transport/full_quest_600-cafcc10dd140d8106c44/1-0000.mp3",
+          "sha256": "ab5f2715a2111206bb86598adf402bbf0b492a9331c1a57d678be4954d0fc4ba",
+          "start": 0
+        }
+      ],
+      "config": {
+        "bitrate": "48k",
+        "mode": "whole-recording-v1",
+        "rates": [
+          "1"
+        ]
+      },
+      "fullHash": "73d40f",
+      "generation": "871767f82b06e4eccc8e",
+      "hash": "73d40f",
+      "source": {
+        "duration": 43.62449,
+        "file": null,
+        "sha256": "cafcc10dd140d8106c449f3e4f19df91247f64781315853e31f7b0a10ac2cd39"
+      },
+      "text": "Venture Company Mining. In Booty Bay, the goblin Crank Fizzlebub wants someone to strike at the Venture Company's operations in northern Stranglethorn Vale. Their dig site near Crystalvein Mine continues to produce valuable Singing Blue Crystals from the nearby hills, and Crank asks for ten of those stones brought back to him. Following your earlier collection of Singing Blue Shards, Crank Fizzlebub points toward a larger rival. The Venture Company runs operations across the jungle, cutting into the profits of independent goblins. Though the many basilisks keep the miners from setting foot inside Crystalvein Mine itself, the workers continue digging into the surrounding hillsides to extract Singing Blue Crystals. Crank asks you to take the crystals from these miners and bring them to Booty Bay as proof of their setback."
+    },
+    "quest:604": {
+      "1": [
+        {
+          "duration": 34.32489795918367,
+          "file": "Audio/Transport/full_quest_604-15549ce6d92b3ea35c46/1-0000.mp3",
+          "sha256": "61e1a3aa388406ea45028e717e05eb7c12de82816bc0e1669736fd2cbf3824aa",
+          "start": 0
+        }
+      ],
+      "config": {
+        "bitrate": "48k",
+        "mode": "whole-recording-v1",
+        "rates": [
+          "1"
+        ]
+      },
+      "fullHash": "b5040b",
+      "generation": "4c073979e1f22588cad6",
+      "hash": "b5040b",
+      "source": {
+        "duration": 34.35102,
+        "file": null,
+        "sha256": "15549ce6d92b3ea35c469ea602672663e64c4ad09ba57941f13c688395cd18b7"
+      },
+      "text": "The Bloodsail Buccaneers. Fleet Master Seahorn trusts a loyal ally of the Blackwater Raiders with striking the Bloodsail Buccaneers' so-called southern command post on the Wild Shore. Recovering their charts and written orders will show exactly what those pirates are up to. Following earlier efforts for Crazz, Fleet Master Seahorn takes notice of your loyalty to the Blackwater Raiders. The Bloodsail Buccaneers have set up what they call a southern command post on the Wild Shore. Seahorn directs you to raid this encampment, cut down their swashbucklers, and seize their naval charts and written orders so the fleet can learn their intentions."
+    },
+    "quest:608": {
+      "1": [
+        {
+          "duration": 43.70285714285714,
+          "file": "Audio/Transport/full_quest_608-257bb29bd7fd3ad62cb6/1-0000.mp3",
+          "sha256": "6c719dbb46d284acd79505a967cd7e7b557fc68708c617be82a34087a171f97f",
+          "start": 0
+        }
+      ],
+      "config": {
+        "bitrate": "48k",
+        "mode": "whole-recording-v1",
+        "rates": [
+          "1"
+        ]
+      },
+      "fullHash": "a719d4",
+      "generation": "7aa6c79873ab2bff5740",
+      "hash": "a719d4",
+      "source": {
+        "duration": 43.702857,
+        "file": null,
+        "sha256": "257bb29bd7fd3ad62cb60c77e19caa71c708d644ac04b374435b40edc89206b7"
+      },
+      "text": "The Bloodsail Buccaneers. With the Bloodsail Buccaneers preparing an attack, Fleet Master Seahorn decides against deploying his entire fleet for a counterstrike. Instead, he directs an adventuring crew to slip into the landing site and eliminate the buccaneers' top leadership before their attack can begin. Having learned the buccaneers' invasion plans, Fleet Master Seahorn refuses to wait for the enemy to muster an assault. Mocking Fleet Master Firallon's nautical skill, Seahorn aims to neutralize the threat swiftly by taking out its commanders. Rather than risking a full naval engagement, he sends a strike party directly to Firallon's landing camp to cut down Firallon alongside Captain Stillwater and Captain Keelhaul, ensuring the buccaneer force crumbles without leadership."
+    },
+    "quest:609": {
+      "1": [
+        {
+          "duration": 63.63428571428572,
+          "file": "Audio/Transport/full_quest_609-baf27bcebcef0e0fe7d9/1-0000.mp3",
+          "sha256": "7744347bbf08df4dffb43586b9ce54d30fa34f233abe187a7dca21628aad2dec",
+          "start": 0
+        }
+      ],
+      "config": {
+        "bitrate": "48k",
+        "mode": "whole-recording-v1",
+        "rates": [
+          "1"
+        ]
+      },
+      "fullHash": "49a622",
+      "generation": "cb1239aa2003f09be032",
+      "hash": "49a622",
+      "source": {
+        "duration": 63.634286,
+        "file": null,
+        "sha256": "baf27bcebcef0e0fe7d96240d66ef2d788fab037b313777192714fec3e2c1579"
+      },
+      "text": "Voodoo Dues. \"Sea Wolf\" MacKinley in Booty Bay needs to balance his books by collecting outstanding debts from three old associates. Though rumors claim the men were cursed and bewitched into wandering ancient jungle ruins, MacKinley expects their prized possessions retrieved regardless of their grim fate. Following your earlier collection efforts for \"Sea Wolf\" MacKinley, the pirate still holds an active ledger of unsettled debts. Three particular debtors—Maury \"Club Foot\" Wilkins, Jon-Jon the Crow, and Chucky \"Ten Thumbs\"—have let their accounts sit delinquent for months. MacKinley initially assumed the trio merely skipped out of Booty Bay to avoid paying, but he later heard they met a stranger and darker fate deep in the jungle. Whispers say the three debtors were bewitched and cursed, leaving them to wander the ancient stonework northeast of Booty Bay at the Ruins of Aboraz and the Ruins of Jubuwal. Unconcerned with their misfortune, MacKinley directs you to venture into the ruins, track down each man, and seize their notable valuables: Jon-Jon's Golden Spyglass, Chucky's Huge Ring, and Maury's Clubbed Foot."
+    },
+    "quest:611": {
+      "1": [
+        {
+          "duration": 37.773061224489794,
+          "file": "Audio/Transport/full_quest_611-5cd04b31063a9831e305/1-0000.mp3",
+          "sha256": "454b820e2f7494f8e07b4a56d43462705833ee01c8de8026a37b8d88c1cee908",
+          "start": 0
+        }
+      ],
+      "config": {
+        "bitrate": "48k",
+        "mode": "whole-recording-v1",
+        "rates": [
+          "1"
+        ]
+      },
+      "fullHash": "eee77c",
+      "generation": "d77858b24e7c79c9c756",
+      "hash": "eee77c",
+      "source": {
+        "duration": 37.773061,
+        "file": null,
+        "sha256": "5cd04b31063a9831e30519ee3e625a68d9ece941c84a1372705f4175956e73aa"
+      },
+      "text": "The Curse of the Tides. With her knife recovered from Pretty Boy Duncan, Catelyn the Blade loans the troll artifact so it can be used against a sunken altar off the coast. Baron Revilgaz in Booty Bay wants the Stone of the Tides for his collection of ancient troll artifacts. Catelyn the Blade lends her recovered troll dagger to break an altar submerged deep beneath the waves. Though no expert on troll ruins like her father, she has heard of a sunken troll city, and she points toward it, out near the reef northwest of Grom'gol Base Camp. Within the underwater ruins of the Vile Reef, the Altar of the Tides rests, surrounded by a distinct blue glow amid sea life and murlocs."
+    },
+    "quest:613": {
+      "1": [
+        {
+          "duration": 39.3665306122449,
+          "file": "Audio/Transport/full_quest_613-4139ac56af4b2582deca/1-0000.mp3",
+          "sha256": "a580ff966f15e8d38ee261f4af6c6cab4f09a63d41464446b52a3fb3d60146a4",
+          "start": 0
+        }
+      ],
+      "config": {
+        "bitrate": "48k",
+        "mode": "whole-recording-v1",
+        "rates": [
+          "1"
+        ]
+      },
+      "fullHash": "6f2945",
+      "generation": "c5d15a8e7f656468f0b8",
+      "hash": "6f2945",
+      "source": {
+        "duration": 39.366531,
+        "file": null,
+        "sha256": "4139ac56af4b2582decab0331a36489a09119bf7df52f6fe66623ec729aae3c5"
+      },
+      "text": "Cracking Maury's Foot. \"Sea Wolf\" MacKinley has retrieved the foot of his late debtor Maury, only to find that what he is owed is locked inside it. To claim what is owed, he directs travelers to the Mosh'Ogg ogre mound in Stranglethorn Vale to search for the missing key. Following the retrieval of Maury's foot in Voodoo Dues, \"Sea Wolf\" MacKinley faces an unexpected complication in Booty Bay. The late debtor put a lock on his foot, and the valuables he owes are sealed inside. Maury liked to gamble with the ogres of the Mosh'Ogg mound, off to the northeast. MacKinley remembers Maury saying the ogres drove him away once he had won too much, so he suspects they now hold the key and sends travelers to look for it."
+    },
+    "quest:617": {
+      "1": [
+        {
+          "duration": 32.496326530612244,
+          "file": "Audio/Transport/full_quest_617-b14b0bcd5dc825880cca/1-0000.mp3",
+          "sha256": "5ac789af556b0639c728af931abeedc930b1b6ac5b229530629e34ec6f9a97b9",
+          "start": 0
+        }
+      ],
+      "config": {
+        "bitrate": "48k",
+        "mode": "whole-recording-v1",
+        "rates": [
+          "1"
+        ]
+      },
+      "fullHash": "a0416a",
+      "generation": "717c8eafaa238b632dfc",
+      "hash": "a0416a",
+      "source": {
+        "duration": 32.496327,
+        "file": null,
+        "sha256": "b14b0bcd5dc825880cca95395708b67484de7609f8b3ed8a2036ed973c4f8e12"
+      },
+      "text": "Akiris by the Bundle. Privateer Bloads in Booty Bay is looking to acquire bundles of valuable akiris reeds for an associate named Groy. The plants have to be taken from the naga, who were last spotted on the northern beach. Privateer Bloads offers work in Booty Bay for anyone willing to tackle a seaside venture. An associate named Groy pays handsomely for bundles of akiris reed, a reed that grows by the sea and that the naga call by that name. Bloads does not know why Groy wants them, only that ten stalks are needed and that the naga were last spotted on the northern beach."
+    },
+    "quest:618": {
+      "1": [
+        {
+          "duration": 55.27510204081633,
+          "file": "Audio/Transport/full_quest_618-c1d27ca83664db2d8447/1-0000.mp3",
+          "sha256": "cfbbc2428e66cf5f2954b33507be10a25f011b25ccce984bfaa54917bff94167",
+          "start": 0
+        }
+      ],
+      "config": {
+        "bitrate": "48k",
+        "mode": "whole-recording-v1",
+        "rates": [
+          "1"
+        ]
+      },
+      "fullHash": "ba7a2b",
+      "generation": "65cb9ea091575e6199a9",
+      "hash": "ba7a2b",
+      "source": {
+        "duration": 55.301224,
+        "file": null,
+        "sha256": "c1d27ca83664db2d8447efddea3078c098fb4687ba5d6aa39a932104cdf658ab"
+      },
+      "text": "Facing Negolash. Following the trail of Captain Hecklebury Smotts' lost weapon, Sprogger reveals a plan to bait the giant Negolash using the creature's favorite delicacies. By staging a banquet in a wrecked lifeboat on the coast of Stranglethorn Vale, adventurers can confront the brute and reclaim the captain's stolen cutlass. When giants smashed Captain Smotts' vessel, one brute named Negolash headed straight for the galley. Unlike his brethren, he wasn't hungry for the crew. Sprogger saw that Negolash wanted wine and Barbecued Buzzard Wings, Sprogger's own specialty, whose recipe he had to travel to the Badlands to get. To lure the giant, Sprogger devises an irresistible feast. Adventurers must haul ten helpings of the wings alongside five bottles of wine into the captain's ruined lifeboat down the southeastern shoreline. Drawn by the smell of the banquet, Negolash can be cornered, slain, and stripped of the captain's prize blade."
+    },
+    "quest:619": {
+      "1": [
+        {
+          "duration": 30.484897959183673,
+          "file": "Audio/Transport/full_quest_619-a0f5d08006c3f3a663a2/1-0000.mp3",
+          "sha256": "57ec870e9928e5fe4899a7bbde1357c5d6fa5aafdd6a0f0bd1dc1fd5f7e02ddb",
+          "start": 0
+        }
+      ],
+      "config": {
+        "bitrate": "48k",
+        "mode": "whole-recording-v1",
+        "rates": [
+          "1"
+        ]
+      },
+      "fullHash": "3dbfab",
+      "generation": "56dc64e5742d467a55b5",
+      "hash": "3dbfab",
+      "source": {
+        "duration": 30.51102,
+        "file": null,
+        "sha256": "a0f5d08006c3f3a663a23ab7cbf96724230181057a26edb316a382ef33db0e94"
+      },
+      "text": "Enticing Negolash. Along the shores of Stranglethorn Vale rests an abandoned lifeboat marked with the faded words Smotts' Revenge. Piling barbecued buzzard wings and junglevine wine upon the wrecked craft serves to lure out the giant Negolash. The wreckage of a small boat lies neglected, carrying only weathered lettering that names it Smotts' Revenge. To catch the attention of Negolash during the hunt against him, the boat must be turned into bait, heaped with ten barbecued buzzard wings and five bottles of junglevine wine."
+    },
+    "quest:621": {
+      "1": [
+        {
+          "duration": 66.95183673469388,
+          "file": "Audio/Transport/full_quest_621-7c7fd6a1a7ed5e24ad3a/1-0000.mp3",
+          "sha256": "46730c94ad0e255472156bae338e378f4306d64345c019b011f62ce438380467",
+          "start": 0
+        }
+      ],
+      "config": {
+        "bitrate": "48k",
+        "mode": "whole-recording-v1",
+        "rates": [
+          "1"
+        ]
+      },
+      "fullHash": "21d5f0",
+      "generation": "1c31957bb16a6893c7e4",
+      "hash": "21d5f0",
+      "source": {
+        "duration": 66.951837,
+        "file": null,
+        "sha256": "7c7fd6a1a7ed5e24ad3ad2d9ff5d0cef89eef42177a26e539d52af0382df44e5"
+      },
+      "text": "Zanzil's Secret. In Booty Bay, the goblin Crank Fizzlebub has set his sights on the potent concoction brewed by the exiled troll Zanzil. Zanzil uses this botanical blend to dominate the minds and empower the bodies of his followers among the nearby jungle ruins. Believing such a substance holds immense value for anyone seeking to control others, Fizzlebub wants samples retrieved for his own uses. Northeast of Booty Bay, the outcast troll known as Zanzil has made a haven in the ruins of Jubuwal and Aboraz. Cast out by his former tribal leaders because they feared his mastery over the minds of others, Zanzil commands a band of followers entirely through concoctions derived from jungle vegetation. These mixtures deaden their will while enhancing their physical might, turning them into docile yet sturdy thralls. Crank Fizzlebub sees clear opportunity in the exile's craft. Anyone desiring dominance over others would pay handsomely for such an elixir, prompting the goblin to seek a supply directly from the ruins. Delivering enough samples secures not only standard coin but a quiet bonus, provided the carrier keeps quiet about the transaction."
+    },
+    "quest:623": {
+      "1": [
+        {
+          "duration": 35.91836734693878,
+          "file": "Audio/Transport/full_quest_623-30e45e54b852a6acd6d4/1-0000.mp3",
+          "sha256": "ee01a11e731bdcec4ce87073f0277ca818ab1841fabbcb46b1ee5d39df97cecb",
+          "start": 0
+        }
+      ],
+      "config": {
+        "bitrate": "48k",
+        "mode": "whole-recording-v1",
+        "rates": [
+          "1"
+        ]
+      },
+      "fullHash": "4e1bfd",
+      "generation": "30c3b93c771f18c7efc7",
+      "hash": "4e1bfd",
+      "source": {
+        "duration": 35.94449,
+        "file": null,
+        "sha256": "30e45e54b852a6acd6d485323a808ecd5bb50669203361b1fa746594622a51ee"
+      },
+      "text": "Akiris by the Bundle. Privateer Bloads in Stranglethorn Vale needs a fresh bundle of akiris reeds transported across the sea to Dustwallow Marsh. A contact named Privateer Groy has a client in Theramore Isle who wants more right away, and Bloads himself will not be heading there for a week. Word has arrived from across the sea while you were away. Privateer Groy in Theramore Isle sent word to Privateer Bloads expressing satisfaction with the prior shipment of akiris reeds, noting that an interested client demands more immediately. With Bloads not scheduled to sail for Dustwallow Marsh for another week, he entrusts you with the packaged parcel of reeds to deliver by hand."
+    },
+    "quest:624": {
+      "1": [
+        {
+          "duration": 31.294693877551023,
+          "file": "Audio/Transport/full_quest_624-6d2aac032ebe90691430/1-0000.mp3",
+          "sha256": "b837526fdb7d88b272425ad2802cf6632caa80f23e2304d8987e747d5b11ca9a",
+          "start": 0
+        }
+      ],
+      "config": {
+        "bitrate": "48k",
+        "mode": "whole-recording-v1",
+        "rates": [
+          "1"
+        ]
+      },
+      "fullHash": "ee2df2",
+      "generation": "7225a56007a0e66837ef",
+      "hash": "ee2df2",
+      "source": {
+        "duration": 31.294694,
+        "file": null,
+        "sha256": "6d2aac032ebe9069143021c8b16728bb62c105c4604c8bb2f782a5fabd5cfd9f"
+      },
+      "text": "Cortello's Riddle. A hidden parchment found aboard the Bloodsail Buccaneer vessels along the Wild Shore presents Cortello's cryptic verse. Deciphering the poem points travelers toward a clue waiting beneath an ornate bridge. Scattered notes aboard the Bloodsail fleet anchored off the southern coast of Stranglethorn Vale carry a rhyme. Cortello's verse describes a finely worked, much-used bridge that lies east of Deadwind and south of Redridge. Anyone seeking to unravel the mystery must follow these poetic directions out of the jungle and into the marshes to find what waits underneath."
+    },
+    "quest:625": {
+      "1": [
+        {
+          "duration": 32.888163265306126,
+          "file": "Audio/Transport/full_quest_625-1eda3180f0a395b75782/1-0000.mp3",
+          "sha256": "aee00797a8de7f72492a06bf8c1e6d94ab619d2eca7b80b822339858611c4c14",
+          "start": 0
+        }
+      ],
+      "config": {
+        "bitrate": "48k",
+        "mode": "whole-recording-v1",
+        "rates": [
+          "1"
+        ]
+      },
+      "fullHash": "332091",
+      "generation": "ecac82483e71197c7965",
+      "hash": "332091",
+      "source": {
+        "duration": 32.888163,
+        "file": null,
+        "sha256": "1eda3180f0a395b75782691a1e07d7ec381aaf0b5f373868b9565dc20b240bd1"
+      },
+      "text": "Cortello's Riddle. Following the trail begun with a waterlogged parchment found in the Swamp of Sorrows, a second cryptic verse urges travelers to a far-off land in Kalimdor. Deciphering the lines points treasure hunters toward a cave in the southwest of Dustwallow Marsh. The second verse left by Cortello directs searchers toward the far-off land of Kalimdor. The rhyme describes a perilous and gloomy territory situated east of the Barrens: the sodden, treacherous wetlands of Dustwallow Marsh. According to the riddle, a clue waits to be found in a cave in the southwest of the marsh."
+    },
+    "quest:626": {
+      "1": [
+        {
+          "duration": 40.568163265306126,
+          "file": "Audio/Transport/full_quest_626-39b0134b45080624846e/1-0000.mp3",
+          "sha256": "27cd58e562eaa8fd7f747a043fd932ab95a6a90c3f53d13c66cbf24ec5e888d2",
+          "start": 0
+        }
+      ],
+      "config": {
+        "bitrate": "48k",
+        "mode": "whole-recording-v1",
+        "rates": [
+          "1"
+        ]
+      },
+      "fullHash": "f8025b",
+      "generation": "bfe81c4c93e843911204",
+      "hash": "f8025b",
+      "source": {
+        "duration": 40.568163,
+        "file": null,
+        "sha256": "39b0134b45080624846e37512e6e6046d4c5105ed5378dcb4f0a4687d9b898fd"
+      },
+      "text": "Cortello's Riddle. A cryptic musty scroll provides the final set of verse left behind by Cortello. The rhyming instructions direct treasure hunters far north to the troubled continent of Lordaeron, where the trail reaches its conclusion along the coastal waterfalls of the Hinterlands. Following the earlier scrolls, this weathered text points away from the southern tropics toward the embattled lands of Lordaeron. The riddle bids searchers to seek out the great turmoil in the north, promising that the long chase ends by braving that unrest and pursuing the coastline. The verse specifies that the final hoard lies along the shore of the Hinterlands. At the base of the great falls, the treasure lies underwater."
+    },
+    "quest:630": {
+      "1": [
+        {
+          "duration": 45.68816326530612,
+          "file": "Audio/Transport/full_quest_630-4638fc89465759467f5c/1-0000.mp3",
+          "sha256": "8411bfeb89efdc78092517e881b3f3388cc8f88f54e3c0acd8d310569009778c",
+          "start": 0
+        }
+      ],
+      "config": {
+        "bitrate": "48k",
+        "mode": "whole-recording-v1",
+        "rates": [
+          "1"
+        ]
+      },
+      "fullHash": "579580",
+      "generation": "9aa845cba006b8b7e4d7",
+      "hash": "579580",
+      "source": {
+        "duration": 45.688163,
+        "file": null,
+        "sha256": "4638fc89465759467f5c652578fc39813d6210a5292ff584b0585a8c26111c0f"
+      },
+      "text": "Message in a Bottle. Having answered an ocean-borne plea, you find Princess Poobah chained as a captive on an isolated island off the Stranglethorn coast. The monstrous ape King Mukla commands the local beasts and keeps her bound, requiring his defeat to secure the key to her shackle. Following the message in the bottle brings you directly to Princess Poobah, who is held against her will by a heavy chain. The great Skymane gorilla known as King Mukla commands the creatures roaming the island and oversees her imprisonment. Poobah places her faith in you to face this formidable ape and retrieve the key needed to sever her bonds. Poobah notes that her captor can often be heard prowling around the southeastern side of the island. Confronting King Mukla is no small feat, but taking him down is the only way to claim the shackle key and secure Poobah's release."
+    },
+    "quest:640": {
+      "1": [
+        {
+          "duration": 42.57959183673469,
+          "file": "Audio/Transport/full_quest_640-8ff6d6e24dda62f54b2e/1-0000.mp3",
+          "sha256": "d5012543bdeb6d9239800ce2016028407e3576258353e927e2f90bad9e7dd740",
+          "start": 0
+        }
+      ],
+      "config": {
+        "bitrate": "48k",
+        "mode": "whole-recording-v1",
+        "rates": [
+          "1"
+        ]
+      },
+      "fullHash": "322ebc",
+      "generation": "4789368f7ca0871243e2",
+      "hash": "322ebc",
+      "source": {
+        "duration": 42.579592,
+        "file": null,
+        "sha256": "8ff6d6e24dda62f54b2e247f9bcb4b415c8ad09de8d31499e97b47439421a6bd"
+      },
+      "text": "The Broken Sigil. After you took the first sigil from the Syndicate, Zengu sends you after the remaining two, which the dug-in Stromgarde militia guards. Galen, son of Thoras Trollbane, broke the Sigil of Thoradin into pieces, and you are to carry them to the troll shaman Tor'gan in Hammerfall. Three sigils guard the tomb of Thoras Trollbane, and you have already recovered the first from the Syndicate. The other two are harder to get, since the firmly entrenched Stromgarde militia holds them. Thoras' son, Galen, divided the Sigil of Thoradin into eleven pieces and dispersed them among the Stromgarde defenders. Zengu tells you to retrieve the pieces from the defenders in Stromgarde and take them to Tor'gan, the troll shaman at Hammerfall, who can bind them into the whole sigil."
+    },
+    "quest:641": {
+      "1": [
+        {
+          "duration": 21.394285714285715,
+          "file": "Audio/Transport/full_quest_641-1af4ab8135db2bf39f70/1-0000.mp3",
+          "sha256": "c89cfdcec1c86a3e76990c635e6b5450d15d2142bb52789c47eb293fecbcf5d1",
+          "start": 0
+        }
+      ],
+      "config": {
+        "bitrate": "48k",
+        "mode": "whole-recording-v1",
+        "rates": [
+          "1"
+        ]
+      },
+      "fullHash": "fc914d",
+      "generation": "d22c3a41f91568552f60",
+      "hash": "fc914d",
+      "source": {
+        "duration": 21.394286,
+        "file": null,
+        "sha256": "1af4ab8135db2bf39f70eeeb3e1af9515ad4c0de8901f74660890e70886dde37"
+      },
+      "text": "Sigil of Thoradin. Tor'gan's reconstruction of the broken sigil worked flawlessly. The restored Sigil of Thoradin can now open the seal on Trollbane's tomb, and he tells you to return it to Zengu in Hammerfall. Tor'gan says the reconstruction worked flawlessly, and the Sigil of Thoradin is now able to open the seal on Trollbane's tomb. Take it back to Zengu in Hammerfall, who no doubt has more for you to do."
+    },
+    "quest:643": {
+      "1": [
+        {
+          "duration": 33.85469387755102,
+          "file": "Audio/Transport/full_quest_643-ee6a7b4711500822a46e/1-0000.mp3",
+          "sha256": "a624a298c2e062c1b5295a421224679c64bf83274da1fa363dcabd104d77c025",
+          "start": 0
+        }
+      ],
+      "config": {
+        "bitrate": "48k",
+        "mode": "whole-recording-v1",
+        "rates": [
+          "1"
+        ]
+      },
+      "fullHash": "587912",
+      "generation": "fbcf5210ec2d6689c8b5",
+      "hash": "587912",
+      "source": {
+        "duration": 33.854694,
+        "file": null,
+        "sha256": "ee6a7b4711500822a46e12caa7a53b5675218ee1b2536999a4589a7773d1f901"
+      },
+      "text": "Sigil of Arathor. Following the Sigil of Thoradin, Zengu tells you the human prince entrusted another sigil to Lieutenant Valorcall, who commands the cavalry. Find him, and bring the sigil back to Zengu in Hammerfall. Zengu scoffs that the humans can scarcely call Stromgarde their own, never mind the whole of the Arathi Highlands, yet their prince keeps the last of his horsemen riding about the countryside. Zengu cannot understand why. More important is that one of the sigils rests with Lieutenant Valorcall, who leads those riders. Zengu wants him found and the sigil brought back to Hammerfall."
+    },
+    "quest:644": {
+      "1": [
+        {
+          "duration": 34.40326530612245,
+          "file": "Audio/Transport/full_quest_644-c2262b3b089fc5c0e715/1-0000.mp3",
+          "sha256": "6fb6e964a76b98f4d4804355dd3c2164239944775bb1b2e4d8acfa543b3a275b",
+          "start": 0
+        }
+      ],
+      "config": {
+        "bitrate": "48k",
+        "mode": "whole-recording-v1",
+        "rates": [
+          "1"
+        ]
+      },
+      "fullHash": "eb1c0e",
+      "generation": "f71f47f99eaf16e668a9",
+      "hash": "eb1c0e",
+      "source": {
+        "duration": 34.429388,
+        "file": null,
+        "sha256": "c2262b3b089fc5c0e71533bb635391080e00b42273160be8d957667cbaea91e1"
+      },
+      "text": "Sigil of Trollbane. Following the Sigil of Arathor, Zengu sends you to slay Prince Galen Trollbane and take the last sigil, the one that unlocks his father Thoras Trollbane's tomb. The prince keeps it on his own person, far inside Stromgarde. The last sigil that can open the tomb of Thoras Trollbane is kept by Thoras's son, Prince Galen, in person. He is to be found far inside Stromgarde, in a chapel within the districts the militia holds. Zengu warns that Galen is well guarded and a fine fighter, so this could prove very hard. You are to kill him and carry the sigil to Zengu in Hammerfall."
+    },
+    "quest:645": {
+      "1": [
+        {
+          "duration": 33.201632653061225,
+          "file": "Audio/Transport/full_quest_645-a7d8d5b63acc114763e1/1-0000.mp3",
+          "sha256": "30218f33016cba1ed931b8b925265be23b6a63f5bd5e84bec293b5af66237b88",
+          "start": 0
+        }
+      ],
+      "config": {
+        "bitrate": "48k",
+        "mode": "whole-recording-v1",
+        "rates": [
+          "1"
+        ]
+      },
+      "fullHash": "fc8b0f",
+      "generation": "6a2cbd5e3fc13c21abbb",
+      "hash": "fc8b0f",
+      "source": {
+        "duration": 33.227755,
+        "file": null,
+        "sha256": "a7d8d5b63acc114763e1f3d10d946dc2adb49eaa5c74ca4dca5f499294f5756e"
+      },
+      "text": "Trol'kalar. Following the Sigil of Trollbane, Zengu finds that the four sigils have formed a single one that can break the wardings on Trollbane's tomb. He sends you to Stromgarde to retrieve Trol'kalar from the tomb. Zengu finds that the four sigils have come together and formed one, the Sigil of Ignaeus. He has no doubt it can break the wardings placed on Trollbane's tomb. Trollbane lies entombed in Stromgarde, in the Sanctum that lies behind the chapel, and Zengu sends you there to retrieve Trol'kalar. A fenced path beside the chapel entrance, on its right, descends to the crypt."
+    },
+    "quest:646": {
+      "1": [
+        {
+          "duration": 20.74122448979592,
+          "file": "Audio/Transport/full_quest_646-42c47448e7da56858ba9/1-0000.mp3",
+          "sha256": "24a8d3905258bf048ca1f48fcb0baec913e52ab471f377f25a83f1492789dd34",
+          "start": 0
+        }
+      ],
+      "config": {
+        "bitrate": "48k",
+        "mode": "whole-recording-v1",
+        "rates": [
+          "1"
+        ]
+      },
+      "fullHash": "886eb7",
+      "generation": "50cb47348a053ceb06b6",
+      "hash": "886eb7",
+      "source": {
+        "duration": 20.767347,
+        "file": null,
+        "sha256": "42c47448e7da56858ba9ccdc4229c5b7efa1fcc773fc5a7c5c0da41cd04c9300"
+      },
+      "text": "Trol'kalar. The long Trol'kalar chain reaches its last step. The light slowly fades, and Trol'kalar, held in a stone sheath, is released. Carry it to Zengu in Hammerfall. At Trollbane's Tomb the light slowly fades, and Trol'kalar, kept in a stone sheath, is released. You take the sheathed sword to Zengu in Hammerfall, in the Arathi Highlands."
+    },
+    "quest:653": {
+      "1": [
+        {
+          "duration": 42.00489795918367,
+          "file": "Audio/Transport/full_quest_653-f9ed09feb22dc1a4d3ba/1-0000.mp3",
+          "sha256": "c954ceff2018844484d1b38bddafa13428ee8c46ceb8d8ce53558680a22d306d",
+          "start": 0
+        }
+      ],
+      "config": {
+        "bitrate": "48k",
+        "mode": "whole-recording-v1",
+        "rates": [
+          "1"
+        ]
+      },
+      "fullHash": "f6504f",
+      "generation": "e6a28123548336876eee",
+      "hash": "f6504f",
+      "source": {
+        "duration": 42.03102,
+        "file": null,
+        "sha256": "f9ed09feb22dc1a4d3ba9de43468e4c06c05183c7b43cfa9050204e564e20439"
+      },
+      "text": "Myzrael's Allies. Myzrael cries out that she is free, and that she will gather her strength in hiding from her captors. She calls you a noble ally and sends you to Gerrig Bonegrip in a shop of Ironforge's Forlorn Cavern, who knows how she can be summoned. Myzrael is free, and means to gather strength hidden from her captors, since if they met her now they would surely overpower her and lock her away again. In time she means to face the giants, and she swears they will rue having held her. She calls you a noble ally and says she will need your help again, to summon her to the surface when she is ready. Myzrael tells you to speak with Gerrig Bonegrip, whose shop is in Ironforge, in the Forlorn Cavern. He knows how she can be summoned."
+    },
+    "quest:656": {
+      "1": [
+        {
+          "duration": 38.66122448979592,
+          "file": "Audio/Transport/full_quest_656-fcc815e55c742148a047/1-0000.mp3",
+          "sha256": "89ca2b8fd539b18072dafce2f0de9bdb177df3a19d3269b9e69a7ca2c9a60e87",
+          "start": 0
+        }
+      ],
+      "config": {
+        "bitrate": "48k",
+        "mode": "whole-recording-v1",
+        "rates": [
+          "1"
+        ]
+      },
+      "fullHash": "baae97",
+      "generation": "25f39904d112eff82642",
+      "hash": "baae97",
+      "source": {
+        "duration": 38.661224,
+        "file": null,
+        "sha256": "fcc815e55c742148a047294492340d4e9d86be4a005736169b1300dbcc34e0ce"
+      },
+      "text": "Summoning the Princess. Theldurin the Lost says Myzrael must be beaten while she is still growing, before her strength is enough to challenge those who hold her captive. At the Shards of Myzrael you call her forth, defeat her, and bind her Eldritch Shackles to the Shards. Theldurin wants Myzrael stopped before her power swells enough to set her against her captors. Some claim she can be controlled; Theldurin asks why, then, the giants bothered to chain her at all. You take the Scroll of Myzrael to the Shards, the place where you first talked with her, and call her up. After you defeat her, her Eldritch Shackles are yours to bind to the Shards, and she is trapped once more."
+    },
+    "quest:6568": {
+      "1": [
+        {
+          "duration": 41.691428571428574,
+          "file": "Audio/Transport/full_quest_6568-e066c3e32c3baadb2629/1-0000.mp3",
+          "sha256": "5edb41e2126d01ca1d41e9404bb9dd9ca1f7b0731b990c3818179c88035c5320",
+          "start": 0
+        }
+      ],
+      "config": {
+        "bitrate": "48k",
+        "mode": "whole-recording-v1",
+        "rates": [
+          "1"
+        ]
+      },
+      "fullHash": "28dc1a",
+      "generation": "10ae32988f9fae6451f7",
+      "hash": "28dc1a",
+      "source": {
+        "duration": 41.691429,
+        "file": null,
+        "sha256": "e066c3e32c3baadb26297966e2f863a9e855ff1ae1705d6289673053044dabf2"
+      },
+      "text": "The Testament of Rexxar. Rexxar says that slipping past the Black Flight's defenses calls for an illusion. He knows a master illusionist, Myranda the Hag, who lives in the Western Plaguelands, and sends you to her with a message. Rexxar asks what you know of illusions, since an illusion is how you will get around the Black Flight's defenses. He names someone who may assist you in such deception: Myranda the Hag, a master illusionist driven out by the Lordaeron alliance, living in the Western Plaguelands. Rexxar says she has lent his kind a hand before, whenever she found a cause worthy. You carry his message to her. Myranda remarks that a member of the Horde is a rare sight in these parts of Lordaeron, and she asks what you have brought her."
+    },
+    "quest:662": {
+      "1": [
+        {
+          "duration": 37.694693877551025,
+          "file": "Audio/Transport/full_quest_662-8fbf4ad5601a6a8d8b82/1-0000.mp3",
+          "sha256": "97b3964a0fefbd8ff368d4ab226e0018e3e7660b82c14f770b06691c186e773d",
+          "start": 0
+        }
+      ],
+      "config": {
+        "bitrate": "48k",
+        "mode": "whole-recording-v1",
+        "rates": [
+          "1"
+        ]
+      },
+      "fullHash": "6b5f7a",
+      "generation": "c832c0c9bdb77873d92a",
+      "hash": "6b5f7a",
+      "source": {
+        "duration": 37.694694,
+        "file": null,
+        "sha256": "8fbf4ad5601a6a8d8b829a8e88a2e18b46b7dfec42e9cf67ea0b840471d1b295"
+      },
+      "text": "Deep Sea Salvage. Following Land Ho!, First Mate Nilzlix asks you to bring back the charts and logs of two sunken ships before anyone leaves the cove. O'Breen led three ships into the cove, certain the treasure lay here. The Harbinger docked safely. Then, as the Maiden's Folly with the Spirit of Silverpine came in, the tides began to lower, and both ships ran aground on a temple-like structure in the reef and sank fast. Nilzlix wants the logs and the charts of both wrecked ships recovered, since that information must not be left behind for prying eyes. If it reached enemy hands, he says, Fleet Master Seahorn would force the crew down the plank."
+    },
+    "quest:664": {
+      "1": [
+        {
+          "duration": 31.216326530612246,
+          "file": "Audio/Transport/full_quest_664-d87e8d0da09f9d86e195/1-0000.mp3",
+          "sha256": "a6c28296ee0aa6b1a1873cc27badb03e0f37eb2dc080b44816296952e4dae2f3",
+          "start": 0
+        }
+      ],
+      "config": {
+        "bitrate": "48k",
+        "mode": "whole-recording-v1",
+        "rates": [
+          "1"
+        ]
+      },
+      "fullHash": "f7173c",
+      "generation": "78feb008031eae32e609",
+      "hash": "f7173c",
+      "source": {
+        "duration": 31.216327,
+        "file": null,
+        "sha256": "d87e8d0da09f9d86e195de965723ae2964f91888e91ec0b60336b9d4c45b6c87"
+      },
+      "text": "Drowned Sorrows. Captain Steelgut sits mourning at Faldir's Cove after losing the beloved Maiden's Folly. Steelgut asks you to go after the Daggerspine naga who slaughtered the survivors of the wreck. Captain Steelgut sits by the fire at Faldir's Cove, wishing for a watery grave instead. The crew fought hard to save the beautiful Maiden's Folly, but the sea sank it, with water rushing in all at once. O'Breen reached shore safely, yet naga killed the survivors. Steelgut wants Daggerspine raiders and sorceresses dead."
+    },
+    "quest:665": {
+      "1": [
+        {
+          "duration": 38.269387755102045,
+          "file": "Audio/Transport/full_quest_665-2bb236b4083b69a0631b/1-0000.mp3",
+          "sha256": "1e74085da8e2fc05bcbd005ed2d75e9a4add7ba90640a67d888230adc0294865",
+          "start": 0
+        }
+      ],
+      "config": {
+        "bitrate": "48k",
+        "mode": "whole-recording-v1",
+        "rates": [
+          "1"
+        ]
+      },
+      "fullHash": "5ad589",
+      "generation": "35e5f87e97f817508667",
+      "hash": "5ad589",
+      "source": {
+        "duration": 38.269388,
+        "file": null,
+        "sha256": "2bb236b4083b69a0631bccf74ed24c9e7b383d3bdf032a263fdcd7ce8c0f7c0b"
+      },
+      "text": "Sunken Treasure. Now that they are full-fledged Blackwater Raiders, Professor Phizzlethorpe and Doctor Draxlegauge are to help Mr. O'Breen find the lost elven treasure. To search the dark sea for the gems, the professor needs your protection while he charges a pair of goggles at an enchanted stone in a cave. The gems are next to impossible to find in the dark sea without help, so Doctor Draxlegauge has built goggles for the search. They need charging with power from the enchanted stone, in a cave a short way uphill. The cave is cursed, though: those who draw near are ambushed. Professor Phizzlethorpe asks you to defend him while he draws the stone's energy into the goggles."
+    },
+    "quest:666": {
+      "1": [
+        {
+          "duration": 41.84816326530613,
+          "file": "Audio/Transport/full_quest_666-1d73278c59b04f9ffa5b/1-0000.mp3",
+          "sha256": "f317a18ab10c7a822ed2553ca1af36292d0c6b7ec68f1f54bdfd492bfdf9601f",
+          "start": 0
+        }
+      ],
+      "config": {
+        "bitrate": "48k",
+        "mode": "whole-recording-v1",
+        "rates": [
+          "1"
+        ]
+      },
+      "fullHash": "4ac8bf",
+      "generation": "adedf754447a766c7ef5",
+      "hash": "4ac8bf",
+      "source": {
+        "duration": 41.848163,
+        "file": null,
+        "sha256": "1d73278c59b04f9ffa5b74259e828bff0a15b31dccda32cb403bf2839edb5b53"
+      },
+      "text": "Sunken Treasure. After the first part of Sunken Treasure, Doctor Draxlegauge lends you his Goggles of Gem Hunting and asks you to collect ten elven gems from the sea floor for Captain O'Breen, then bring the goggles back. Down on the sea floor, the gems have lain so many years that they have hardened into thick stone. The power built into the goggles lets you find them regardless, and Doctor Draxlegauge is proud of the gnomish ingenuity behind them. He lends you the goggles so you can gather the lost gems for Captain O'Breen. He would swim down himself, he says, but there is scientific work waiting for him on safe, dry land. He wants the goggles returned afterwards, sure that Captain O'Breen will put them to plenty of use."
+    },
+    "quest:667": {
+      "1": [
+        {
+          "duration": 37.459591836734695,
+          "file": "Audio/Transport/full_quest_667-0a0977bd41da43c4c6de/1-0000.mp3",
+          "sha256": "461507461b42434a655462e7d94b15d1bc268fb21454944159d87d5810a3d694",
+          "start": 0
+        }
+      ],
+      "config": {
+        "bitrate": "48k",
+        "mode": "whole-recording-v1",
+        "rates": [
+          "1"
+        ]
+      },
+      "fullHash": "9e7784",
+      "generation": "4ee579346dd5049ea827",
+      "hash": "9e7784",
+      "source": {
+        "duration": 37.459592,
+        "file": null,
+        "sha256": "0a0977bd41da43c4c6deca9770a7f57ee537487d9e66d7c506184a547f3a6719"
+      },
+      "text": "Death From Below. In the Arathi Highlands, Shakes O'Breen expects the Daggerspine naga to attack from the sea, and the crew cannot sail home to Booty Bay without O'Breen's knowledge of the waters. You stay aboard beside O'Breen, man the cannon and drive the naga back. After Sunken Treasure, Shakes O'Breen sees the Daggerspines gathering to attack. Naga have a name for ruthlessness and will keep coming until O'Breen is dead. O'Breen does not value their own life above those of the crew, but asks you to defend them, since the crew cannot reach Booty Bay without that knowledge of the seas. You wait aboard with O'Breen for the naga to come from the water."
+    },
+    "quest:668": {
+      "1": [
+        {
+          "duration": 28.813061224489797,
+          "file": "Audio/Transport/full_quest_668-a951b5814a8e69699c41/1-0000.mp3",
+          "sha256": "93a0a21bb06d3b4a5fc14e8d78ef38a9e3db7aa2679cda97ad6abfdda391aff1",
+          "start": 0
+        }
+      ],
+      "config": {
+        "bitrate": "48k",
+        "mode": "whole-recording-v1",
+        "rates": [
+          "1"
+        ]
+      },
+      "fullHash": "abc83a",
+      "generation": "c1d2f83c68e14eea98d6",
+      "hash": "abc83a",
+      "source": {
+        "duration": 28.813061,
+        "file": null,
+        "sha256": "a951b5814a8e69699c41a1b84e45b93bcfc2defcfa95d30821d676ef2980f712"
+      },
+      "text": "Sunken Treasure. Doctor Draxlegauge hands you the elven gems and sends you to carry them to Captain O'Breen. After a few weeks among pirates, he and the professor know that holding on to their treasure is unhealthy. Doctor Draxlegauge does not want Captain O'Breen kept waiting, since the captain will want to see the elven gems for himself. After weeks among these pirates, the doctor and the professor have learned that being caught holding on to pirate treasure is bad for their health. He hands you the gems to carry to O'Breen, who waits at the bridge."
+    },
+    "quest:669": {
+      "1": [
+        {
+          "duration": 32.57469387755102,
+          "file": "Audio/Transport/full_quest_669-c0e329edfb836fe865e4/1-0000.mp3",
+          "sha256": "5fa1f6942bdc8b55ada872c0e1d3c165b5b7f1fa008553fceeef34c04f5a3d6a",
+          "start": 0
+        }
+      ],
+      "config": {
+        "bitrate": "48k",
+        "mode": "whole-recording-v1",
+        "rates": [
+          "1"
+        ]
+      },
+      "fullHash": "3abf9b",
+      "generation": "6877f4c8e989df03d370",
+      "hash": "3abf9b",
+      "source": {
+        "duration": 32.574694,
+        "file": null,
+        "sha256": "c0e329edfb836fe865e4302b2fcbfbf5c56752700ac76bd2f1400792244b8977"
+      },
+      "text": "Sunken Treasure. After the previous step in the Sunken Treasure chain, Shakes O'Breen is stuck where he is and needs word taken to Fleet Master Seahorn at Booty Bay. He asks you to carry a sample gem as proof of the find. Shakes O'Breen wants Fleet Master Seahorn to hear of the find right away, yet he cannot easily get away. The tide is too low, and the creatures they disturbed are watching every move. He asks you to help the Blackwater Raiders by telling Seahorn in Booty Bay that the treasure is found and more is being brought up. A sample elven gem goes with you as proof."
+    },
+    "quest:670": {
+      "1": [
+        {
+          "duration": 28.26448979591837,
+          "file": "Audio/Transport/full_quest_670-b43896d4429dbe2ad4ab/1-0000.mp3",
+          "sha256": "3e2437ec70479be89a19241594c343d84d2a089ef795800d8c314a8fc57aa922",
+          "start": 0
+        }
+      ],
+      "config": {
+        "bitrate": "48k",
+        "mode": "whole-recording-v1",
+        "rates": [
+          "1"
+        ]
+      },
+      "fullHash": "bd8cc6",
+      "generation": "69a14e1fabbc1a65c7ab",
+      "hash": "bd8cc6",
+      "source": {
+        "duration": 28.26449,
+        "file": null,
+        "sha256": "b43896d4429dbe2ad4abd5eea075099265b930492a217eeb2137cb3e35a86fc3"
+      },
+      "text": "Sunken Treasure. Fleet Master Seahorn, whose ships cannot sail from Booty Bay until they restock, asks you to carry a secret letter to Shakes O'Breen, busy off the Arathi coast. Fleet Master Seahorn sizes you up as the adventurous sort. His ships cannot leave Booty Bay until they have restocked, and he says heavy things are brewing both here and abroad. He needs top secret correspondence carried to Shakes O'Breen off the Arathi coast, and he asks whether he can trust you to deliver the message safely and in confidence."
+    },
+    "quest:673": {
+      "1": [
+        {
+          "duration": 39.3665306122449,
+          "file": "Audio/Transport/full_quest_673-694daf7a1ad503f0948b/1-0000.mp3",
+          "sha256": "7d91f19c1c83cc811f66b0c5fb81435fb5baa1a6c8dfa41479e3271cf15fb98e",
+          "start": 0
+        }
+      ],
+      "config": {
+        "bitrate": "48k",
+        "mode": "whole-recording-v1",
+        "rates": [
+          "1"
+        ]
+      },
+      "fullHash": "f86326",
+      "generation": "612be3e76b3253d76b8a",
+      "hash": "f86326",
+      "source": {
+        "duration": 39.366531,
+        "file": null,
+        "sha256": "694daf7a1ad503f0948b7f5e712b02855d28e996ca748b09492210d015829073"
+      },
+      "text": "Foul Magics. Tor'gan in Hammerfall is sure that a powerful warlock lives within the walls of Stromgarde and uses an arcane relic to summon demons in large numbers. Following the first part of Foul Magics, he sends you to kill the warlock and bring back the relic. Tor'gan is certain that a warlock lives within Stromgarde's walls. Now and then the warlock uses an arcane relic to call up terrible demons in great numbers. The burning in Tor'gan's blood grows by the day. He wants the warlock found and killed, and whatever magical object is on the body brought to him, so that he can destroy it and keep its power from tainting the land. The warlock is Marez Cowl, and the object is a Befouled Bloodstone Orb."
+    },
+    "quest:679": {
+      "1": [
+        {
+          "duration": 29.204897959183675,
+          "file": "Audio/Transport/full_quest_679-a99fb1ef00a3bfdd41f3/1-0000.mp3",
+          "sha256": "c2019be982fb363fbe06fe55834bc81b007b1ed984d58cd0311a37260bc96358",
+          "start": 0
+        }
+      ],
+      "config": {
+        "bitrate": "48k",
+        "mode": "whole-recording-v1",
+        "rates": [
+          "1"
+        ]
+      },
+      "fullHash": "193e8a",
+      "generation": "0118d67bd347eb6cea82",
+      "hash": "193e8a",
+      "source": {
+        "duration": 29.23102,
+        "file": null,
+        "sha256": "a99fb1ef00a3bfdd41f35460e80c48cf9267c3b17f90f2f73784c72998cb99fc"
+      },
+      "text": "Call to Arms. Following the previous Call to Arms, Drum Fel at Hammerfall declares that it is time to strike the head from the beast. He sends you after the Boulderfist lords and shaman who lair in the ruins of Stromgarde. Drum Fel says you have proven able enough to help deliver one last great blow. Those leading the attacks have made their lair in the ruins of Stromgarde, which he calls a symbol of human frailty. Hunt down the Boulderfist lords and the shaman who serve them, for they would try to drive the Horde out of these lands."
+    },
+    "quest:680": {
+      "1": [
+        {
+          "duration": 41.76979591836735,
+          "file": "Audio/Transport/full_quest_680-199bcbe4e693403c0821/1-0000.mp3",
+          "sha256": "484879e7699c207865247cda0884a331ea4e17d58693ba5eb0e8168686e117b9",
+          "start": 0
+        }
+      ],
+      "config": {
+        "bitrate": "48k",
+        "mode": "whole-recording-v1",
+        "rates": [
+          "1"
+        ]
+      },
+      "fullHash": "d542d7",
+      "generation": "8ce2188b956d61f1cb3d",
+      "hash": "d542d7",
+      "source": {
+        "duration": 41.769796,
+        "file": null,
+        "sha256": "199bcbe4e693403c0821a15413d2fc72282a15b45c46c9868f1ccea804fe07ed"
+      },
+      "text": "The Real Threat. Following Call to Arms, Korin Fel tells you that her husband is unaware of why Hammerfall is under attack, and asks you to slay the ogre Or'Kalar and bring her his head. Korin Fel says you serve her husband well, yet he has no idea why Hammerfall is being attacked. The cause is Or'Kalar, Mug'thol's pawn in Stromgarde, who hates her husband for defeating him years ago and wants him dead. Her auguries tell her the ogre has set a trap for him. Korin has hidden the signs of the ogre's presence from her husband, who she believes would rush off foolishly if he knew where Or'Kalar is. She asks for your help instead. You will find Or'Kalar near the Tower of Arathor, and she expects his death to end the attacks on Hammerfall."
+    },
+    "quest:687": {
+      "1": [
+        {
+          "duration": 33.201632653061225,
+          "file": "Audio/Transport/full_quest_687-af071eeaffc23d7f80cd/1-0000.mp3",
+          "sha256": "fc4124e1c9220e371b245b973c2d73816a8a5dcfc6380639f34c99007c2be9f7",
+          "start": 0
+        }
+      ],
+      "config": {
+        "bitrate": "48k",
+        "mode": "whole-recording-v1",
+        "rates": [
+          "1"
+        ]
+      },
+      "fullHash": "03d787",
+      "generation": "41d07de04b0e343e1eaa",
+      "hash": "03d787",
+      "source": {
+        "duration": 33.227755,
+        "file": null,
+        "sha256": "af071eeaffc23d7f80cd6fc8b0f3ac3822a2b0305677fa796ed9941715e04e35"
+      },
+      "text": "Theldurin the Lost. A member of the Twilight's Hammer asks you to find Theldurin the Lost, who was once of their order, lost his mind, and fled with the scroll of Myzrael. Rumor places him in the Badlands. Theldurin once belonged to the Twilight's Hammer, until his mind slipped and he turned his back on the order's teachings. As he fled, he took the scroll of Myzrael with him. Those he left behind could not catch him. The order has heard that Theldurin hides in the Badlands, raving and mad. The scroll is needed for the Lady's return, and to get it you must first find the man who took it."
+    },
+    "quest:688": {
+      "1": [
+        {
+          "duration": 38.0865306122449,
+          "file": "Audio/Transport/full_quest_688-321117d4dfb22a86ae68/1-0000.mp3",
+          "sha256": "9cde9361da4c0852a9a8f6b3012aedeb18c528b85ea0157604a67f78b2e31276",
+          "start": 0
+        }
+      ],
+      "config": {
+        "bitrate": "48k",
+        "mode": "whole-recording-v1",
+        "rates": [
+          "1"
+        ]
+      },
+      "fullHash": "49b880",
+      "generation": "d88553c783cfe6d5c783",
+      "hash": "49b880",
+      "source": {
+        "duration": 38.086531,
+        "file": null,
+        "sha256": "321117d4dfb22a86ae687f90160d5d4d360158cdb5d718e7cff3bda067f71e1a"
+      },
+      "text": "Myzrael's Allies. Myzrael speaks through the keystone, declaring herself free but in hiding from her captors, and tells you to speak with Zaruk in Hammerfall, who knows how she can be summoned. Myzrael cries out that she is free. For now she must gather her strength out of sight of her captors, because if they faced her today they would overpower and imprison her again. In time, she vows, she will confront the giants who held her, and they will regret keeping her. Myzrael calls you a noble ally and says she will want your aid again in time. When she is ready, she will have you summon her to the surface. For now she sends you to Zaruk in Hammerfall, who knows how it can be done."
+    },
+    "quest:7810": {
+      "1": [
+        {
+          "duration": 24.659591836734695,
+          "file": "Audio/Transport/full_quest_7810-1dd6fde878ec03d2b95d/1-0000.mp3",
+          "sha256": "2c38ab135715a8fca5274bfd84e5bc1686577832c46e3c2bd1f40fc28dd51d43",
+          "start": 0
+        }
+      ],
+      "config": {
+        "bitrate": "48k",
+        "mode": "whole-recording-v1",
+        "rates": [
+          "1"
+        ]
+      },
+      "fullHash": "32019a",
+      "generation": "fc83ead66105db5d6456",
+      "hash": "32019a",
+      "source": {
+        "duration": 24.685714,
+        "file": null,
+        "sha256": "1dd6fde878ec03d2b95db4357b7aadf336697960480049982105a2d981bb80ad"
+      },
+      "text": "Arena Master. Is there more to mastering the arena than this? Short John Mithril, the Pirate behind the Gurubashi event, may have the answer, and you will find him in the Stranglethorn Arena. Whatever you have gained at Gurubashi, it seems that mastering the arena asks for more. Short John Mithril, the Pirate who organizes the contests there, may know what. Look for him inside the Stranglethorn Arena."
+    },
+    "quest:8552": {
+      "1": [
+        {
+          "duration": 16.666122448979593,
+          "file": "Audio/Transport/full_quest_8552-b72da4c6cbb0cd6890e0/1-0000.mp3",
+          "sha256": "c8de35e99df814cfd39cfd666af8a8ee1f8f43fd5fdc92e6da884eeae1e62ce8",
+          "start": 0
+        }
+      ],
+      "config": {
+        "bitrate": "48k",
+        "mode": "whole-recording-v1",
+        "rates": [
+          "1"
+        ]
+      },
+      "fullHash": "260dc9",
+      "generation": "29b65d8b153c45792470",
+      "hash": "260dc9",
+      "source": {
+        "duration": 16.666122,
+        "file": null,
+        "sha256": "b72da4c6cbb0cd6890e0e013b26c7bb248e3e668a4a40dbda2d4f8f29e9531c0"
+      },
+      "text": "The Monogrammed Sash. A fine sash bearing embroidered initials hints at a rightful owner somewhere in Stranglethorn Vale. Finding the seafarer who lost it leads on to The Captain's Cutlass. This fine sash bears the letters 'HS' embroidered along its hem. Whoever lost it can only be traced by those two letters."
+    },
+    "quest:8553": {
+      "1": [
+        {
+          "duration": 51.670204081632654,
+          "file": "Audio/Transport/full_quest_8553-7f25128403f3adb1e57a/1-0000.mp3",
+          "sha256": "6c389fc16089ed82d28ae5fcd8a8496535d56ad9a324663e5fd4c322974cf97f",
+          "start": 0
+        }
+      ],
+      "config": {
+        "bitrate": "48k",
+        "mode": "whole-recording-v1",
+        "rates": [
+          "1"
+        ]
+      },
+      "fullHash": "d7a6b0",
+      "generation": "188a5bbb497449679791",
+      "hash": "d7a6b0",
+      "source": {
+        "duration": 51.670204,
+        "file": null,
+        "sha256": "7f25128403f3adb1e57a697120fb965c3e92066b45bba604e92e5acc6cd7c222"
+      },
+      "text": "The Captain's Cutlass. Captain Hecklebury Smotts bought a second vessel named Smotts' Revenge to hunt down the sea giants who took his first ship, only to suffer another defeat. The giants smashed the vessel and killed the crew, and one of them, Negolash, stole the captain's cutlass. Smotts directs you to consult his former ship cook, Sprogger, to track down the behemoth. Following the loss of his initial ship, Captain Hecklebury Smotts procured a second craft called Smotts' Revenge, gathering a fresh crew and provisions to take vengeance on the sea giants. The venture ended in disaster when the giants shattered the ship and slew the crew, leaving Smotts adrift once more in a lifeboat. During the onslaught, the giant Negolash took the captain's cutlass. Determined to retrieve his stolen blade, Smotts relies on his cook. Sprogger, who served aboard Smotts' Revenge, lived through the attack and can help find Negolash."
+    }
+  },
+  "cuts": {
+    "07cb1f8026f52b1c512ffb49396c4326adca96ab0b4a2bd9d05ba3c067af3b90": [
+      324,
+      485
+    ],
+    "0c4c254ba951055e6e9babf60a707260206a0b2438647bb22fcf20bf20c9daa2": [
+      312,
+      480,
+      904
+    ],
+    "0ca872f82b98797a420e5edd7ff689b57075dfcd38dae0a57c0e522b9a514de6": [
+      274,
+      530,
+      796,
+      1018,
+      1255,
+      1402,
+      1712
+    ],
+    "11ac047544003fed9ea53839ec13476aace9eed4981eb1e96511f9ff2f363e4e": [
+      169,
+      378,
+      676,
+      869,
+      1069
+    ],
+    "12725a187f5aa4d94d6ac1b57cf667fd207560594c1b39df59f9c81f3fe99ca9": [
+      788,
+      1177,
+      1478
+    ],
+    "1e74085da8e2fc05bcbd005ed2d75e9a4add7ba90640a67d888230adc0294865": [
+      361,
+      651,
+      918,
+      1127,
+      1288
+    ],
+    "20225c43a794146dc17fbc34fdf5ccfc368701a219ef15eee271b670a62e0eb2": [
+      301,
+      602
+    ],
+    "24a8d3905258bf048ca1f48fcb0baec913e52ab471f377f25a83f1492789dd34": [
+      320
+    ],
+    "27cd58e562eaa8fd7f747a043fd932ab95a6a90c3f53d13c66cbf24ec5e888d2": [
+      205,
+      603,
+      880,
+      1223
+    ],
+    "2c38ab135715a8fca5274bfd84e5bc1686577832c46e3c2bd1f40fc28dd51d43": [
+      141,
+      441,
+      650
+    ],
+    "2cf3126e3de0ff234242c911e4132d65a5d135227e65cb1f9925b5568ee78e02": [
+      400,
+      594,
+      941,
+      1269,
+      1472,
+      1861,
+      2087
+    ],
+    "2e5c6babd821b069f27276c583328309ddd7fd20fd000deb5595dba6a697519f": [
+      260,
+      431,
+      731,
+      876
+    ],
+    "30218f33016cba1ed931b8b925265be23b6a63f5bd5e84bec293b5af66237b88": [
+      305,
+      453,
+      669,
+      809,
+      1080
+    ],
+    "305b3ef9580b3e291f021a117d96219497e28069143e0c9592ceff754e2a6405": [
+      316,
+      600,
+      966,
+      1771
+    ],
+    "3449f253eaa054893dac28f1cc20b9a4a611418fd4218d4338ef1646bae89788": [
+      229,
+      591,
+      952,
+      1215
+    ],
+    "3cf57aaf5c364f869730bb23d5c4ec787c08cd89d4bca4691ae639d5ad53f219": [
+      193,
+      599,
+      838,
+      1108,
+      1476,
+      1665,
+      1932
+    ],
+    "3e2437ec70479be89a19241594c343d84d2a089ef795800d8c314a8fc57aa922": [
+      370,
+      737
+    ],
+    "3e35858d446870d6ce590391d4c1c1bc203ae95986d4d26029c79c250cf2d004": [
+      217,
+      487,
+      707,
+      1089,
+      1316,
+      1709
+    ],
+    "40b376e040290bd23f600469a8ff7b97fe236e1831b189ee2936f9275c3fb8e9": [
+      345,
+      501,
+      896,
+      1170,
+      1350
+    ],
+    "454b820e2f7494f8e07b4a56d43462705833ee01c8de8026a37b8d88c1cee908": [
+      325,
+      560,
+      757,
+      1003,
+      1139
+    ],
+    "461507461b42434a655462e7d94b15d1bc268fb21454944159d87d5810a3d694": [
+      408,
+      584,
+      784,
+      963
+    ],
+    "46730c94ad0e255472156bae338e378f4306d64345c019b011f62ce438380467": [
+      317,
+      625,
+      948,
+      1213,
+      1400,
+      1611,
+      1753,
+      2010
+    ],
+    "46810394b4747e2f058511fddde2e993c193b77dca026686c64c5d94f6540f83": [
+      350,
+      790,
+      1180,
+      1508
+    ],
+    "484879e7699c207865247cda0884a331ea4e17d58693ba5eb0e8168686e117b9": [
+      381,
+      606,
+      880,
+      1284
+    ],
+    "49e5baeb37c9969050c514767e81028cd4d7f4120e5847c9b9b8303d10c757df": [
+      230,
+      443,
+      707,
+      953
+    ],
+    "4ace8f29808d2750e8ca1e7a7fcd5b44f4a53edabcbf61091480608be2d0bfd9": [
+      1271,
+      1462
+    ],
+    "51af795ec29ecb56a7f9a24cdee55d4b0b782553db13ba409b2ab1243274c89f": [
+      837,
+      1172
+    ],
+    "5370b8124185fecb22c1bc3505c39f648feeec59616a386a5e4883508cc75e40": [
+      464,
+      843
+    ],
+    "53c436586b0413c8b62f26f594ed3be8a60efa9fd4df537d8a102ca8d6f53375": [
+      197,
+      636,
+      919,
+      1204,
+      1382,
+      1727,
+      1967,
+      2141
+    ],
+    "57ec870e9928e5fe4899a7bbde1357c5d6fa5aafdd6a0f0bd1dc1fd5f7e02ddb": [
+      258,
+      532,
+      768
+    ],
+    "59488afefeb3ca20b1fcd245140bc7f123aea3481436f5e32922fe1f7a8a13a0": [
+      235,
+      511,
+      786,
+      995
+    ],
+    "5ac789af556b0639c728af931abeedc930b1b6ac5b229530629e34ec6f9a97b9": [
+      269,
+      449,
+      659
+    ],
+    "5cc3c0644e1d897bea8c737b8019bf5cc0cf48e511a7dce8b9bf54b378a84f28": [
+      262,
+      590,
+      782,
+      1043,
+      1428
+    ],
+    "5cd2bc87a2f8ce4a44a4ce175dbe89f1d1eb86ebf12596e5bc2b4d35424d3340": [
+      767
+    ],
+    "5edb41e2126d01ca1d41e9404bb9dd9ca1f7b0731b990c3818179c88035c5320": [
+      202,
+      478,
+      732,
+      1081,
+      1271
+    ],
+    "5fa1f6942bdc8b55ada872c0e1d3c165b5b7f1fa008553fceeef34c04f5a3d6a": [
+      319,
+      687,
+      848
+    ],
+    "60ebaf1559ba618e81249707d05473969d87055c5c7d870c8c7f2c6b5bd2aaea": [
+      291,
+      556,
+      835,
+      1163,
+      1722
+    ],
+    "61e1a3aa388406ea45028e717e05eb7c12de82816bc0e1669736fd2cbf3824aa": [
+      338,
+      526,
+      775,
+      959
+    ],
+    "68e2a3bb38d109240b2c663a8fe1910fa584ad6533c4477d23c6b75c61efa192": [
+      413,
+      622,
+      977,
+      1561,
+      1751
+    ],
+    "6a890b90f77fd9aa5b19f4a02265fca953c74d318bc5676f465e48ccc7282473": [
+      229,
+      609,
+      855
+    ],
+    "6c389fc16089ed82d28ae5fcd8a8496535d56ad9a324663e5fd4c322974cf97f": [
+      250,
+      549,
+      734,
+      1147,
+      1441,
+      1585,
+      1757
+    ],
+    "6c719dbb46d284acd79505a967cd7e7b557fc68708c617be82a34087a171f97f": [
+      296,
+      621,
+      874,
+      1169
+    ],
+    "6ee8480ad6b37129742004fa07aca4da89546ccb143161bc863b5e1954f56aa1": [
+      179,
+      442,
+      627,
+      852
+    ],
+    "6fb6e964a76b98f4d4804355dd3c2164239944775bb1b2e4d8acfa543b3a275b": [
+      379,
+      753,
+      955
+    ],
+    "7655b00cd67c9ed240292502993ca329d7d3e8fff170de22bfe4ef0901563b01": [
+      291,
+      652,
+      964,
+      1201
+    ],
+    "7744347bbf08df4dffb43586b9ce54d30fa34f233abe187a7dca21628aad2dec": [
+      258,
+      432,
+      612,
+      750,
+      885,
+      1225,
+      1562,
+      1945,
+      2237
+    ],
+    "7827152d6e25d75fae43d9264bd69884b7cab8fa47fcd999391f0f7c35c7ef6e": [
+      250,
+      621,
+      816,
+      1175,
+      1583
+    ],
+    "798aecc1a77e3aa8d2ed29b040d854c25afd82e2738a8c8e64b070282dc4c401": [
+      153,
+      350,
+      530
+    ],
+    "7d91f19c1c83cc811f66b0c5fb81435fb5baa1a6c8dfa41479e3271cf15fb98e": [
+      317,
+      528,
+      680,
+      877,
+      1344
+    ],
+    "7dcf5ad909de49b1003ff07e11a978830bfaffb58c13b47774c804c1a0aa19ab": [
+      236,
+      752,
+      1002,
+      1314,
+      1515,
+      1749
+    ],
+    "8324b6ada56b53f6a093af874216016273a6c55c4c03baad03d68d0c1bedf3d9": [
+      286,
+      543,
+      773,
+      933,
+      1123,
+      1337,
+      1595
+    ],
+    "8411bfeb89efdc78092517e881b3f3388cc8f88f54e3c0acd8d310569009778c": [
+      307,
+      603,
+      851,
+      1088,
+      1316
+    ],
+    "89ca2b8fd539b18072dafce2f0de9bdb177df3a19d3269b9e69a7ca2c9a60e87": [
+      311,
+      741,
+      987,
+      1231
+    ],
+    "920815624ec86c7dc020c99a1b165dbd282deaac0bc2976e947898873c4349b8": [
+      187,
+      363,
+      568,
+      766,
+      1066,
+      1411
+    ],
+    "93a0a21bb06d3b4a5fc14e8d78ef38a9e3db7aa2679cda97ad6abfdda391aff1": [
+      420,
+      950
+    ],
+    "93a3f57e294df8e7dfc0dbb9bc32ce353afb39c2076377c8c7392a6114b24481": [
+      398,
+      545,
+      875,
+      1073,
+      1319
+    ],
+    "97b3964a0fefbd8ff368d4ab226e0018e3e7660b82c14f770b06691c186e773d": [
+      335,
+      498,
+      955,
+      1250
+    ],
+    "9cde9361da4c0852a9a8f6b3012aedeb18c528b85ea0157604a67f78b2e31276": [
+      748,
+      958,
+      1145,
+      1299
+    ],
+    "9d0e605423d6c83359cdf8c463a714b67719c73382fca41f37a986a4840a89f0": [
+      253,
+      514,
+      736,
+      935
+    ],
+    "9d4e7a69aad53de983744b6b90491f015ac0aac1accdc83e34b1e4df573f2dc9": [
+      377,
+      826,
+      1024
+    ],
+    "9ee9a68dfaa994470dcda91a851bacb1c369d68c7df6491005658d9cbb19fcd6": [
+      285,
+      467,
+      649,
+      822,
+      964
+    ],
+    "9f975d60667805b8ae9ed970e490a02dad6f32e3c6e0ee0b92614049785e4858": [
+      282,
+      780,
+      1102,
+      1348,
+      1817
+    ],
+    "a580ff966f15e8d38ee261f4af6c6cab4f09a63d41464446b52a3fb3d60146a4": [
+      267,
+      526,
+      810,
+      1001,
+      1185
+    ],
+    "a624a298c2e062c1b5295a421224679c64bf83274da1fa363dcabd104d77c025": [
+      460,
+      850
+    ],
+    "a6c28296ee0aa6b1a1873cc27badb03e0f37eb2dc080b44816296952e4dae2f3": [
+      206,
+      403,
+      634,
+      890
+    ],
+    "ab5f2715a2111206bb86598adf402bbf0b492a9331c1a57d678be4954d0fc4ba": [
+      291,
+      653,
+      868
+    ],
+    "aee00797a8de7f72492a06bf8c1e6d94ab619d2eca7b80b822339858611c4c14": [
+      368,
+      573,
+      776,
+      1067
+    ],
+    "b0ca1ccf8bd96b2d2fdd142c86df3be3b6401f99c479bf6e6f7770323db0e3f2": [
+      197,
+      346,
+      529,
+      686,
+      990
+    ],
+    "b1054d8fa9ee7143423178b69ad33e54aec5a2f1c4fa74e5451ee0607b726f37": [
+      284,
+      885
+    ],
+    "b2c15ca4871e883e53f2fd7181a7fdfdb6b9ca91da5821493d615f194ef78ede": [
+      192,
+      358,
+      609,
+      823,
+      985,
+      1182
+    ],
+    "b522e4c251c8a11c96b6d2763d5a83faa9687b927989ff73e667c925eee26261": [
+      326,
+      644,
+      1077,
+      1460,
+      1644
+    ],
+    "b837526fdb7d88b272425ad2802cf6632caa80f23e2304d8987e747d5b11ca9a": [
+      265,
+      457,
+      685,
+      901
+    ],
+    "bed7b2be265dbbd9e4b2330fd734ae3057df0fc49db66f68e5bdd5a4539f5dae": [
+      224,
+      448,
+      893
+    ],
+    "c2019be982fb363fbe06fe55834bc81b007b1ed984d58cd0311a37260bc96358": [
+      268,
+      460,
+      641,
+      878
+    ],
+    "c89cfdcec1c86a3e76990c635e6b5450d15d2142bb52789c47eb293fecbcf5d1": [
+      148,
+      429
+    ],
+    "c8de35e99df814cfd39cfd666af8a8ee1f8f43fd5fdc92e6da884eeae1e62ce8": [
+      369
+    ],
+    "c954ceff2018844484d1b38bddafa13428ee8c46ceb8d8ce53558680a22d306d": [
+      216,
+      527,
+      875,
+      1061,
+      1212
+    ],
+    "c9748c5b8c7d647275b6466ceb2bf759765dc5870bb6db0282f9765d23774a5a": [
+      330,
+      820,
+      1136,
+      1411,
+      1752
+    ],
+    "cd0d5d95186ec544263ca0056176f6b84caec60ee1c1393f9a431e8e2192c48b": [
+      431,
+      650,
+      846
+    ],
+    "cfbbc2428e66cf5f2954b33507be10a25f011b25ccce984bfaa54917bff94167": [
+      681,
+      918,
+      1401,
+      1884
+    ],
+    "d3a0b117d149d22c6cc358a51ede0a18874ace1828755710911ac695759e4218": [
+      324,
+      623,
+      1029
+    ],
+    "d5012543bdeb6d9239800ce2016028407e3576258353e927e2f90bad9e7dd740": [
+      286,
+      811,
+      1004,
+      1302
+    ],
+    "d59a9a6926a4b20e35907739f6fd0b63973342715056f38bb6c9153f893e3443": [
+      171,
+      527,
+      784,
+      994,
+      1261
+    ],
+    "d69e1712539bb825c9cff39c412d27305c2fc8fcaa78a8ae29509fd4130b1402": [
+      253,
+      535,
+      775,
+      1012,
+      1179,
+      1471,
+      1678,
+      1935
+    ],
+    "da30009362ddbca14524d47cf7b46eb379174892f9a387201e5ab43d052dabe2": [
+      248,
+      832,
+      1027
+    ],
+    "dc74c7893426313d689fb76550290c527f71ba4f21ad76fc3b81c969641aa742": [
+      164,
+      389,
+      690,
+      1011,
+      1161,
+      1391
+    ],
+    "dd0f9d77bb01721402675e65a0e093715615ec3a4f05ce61672793eb7df38225": [
+      855
+    ],
+    "df000147364430b1fb59b56e94b6b65cf984b0c095bf219b81122b74a841b3fc": [
+      222,
+      517,
+      794
+    ],
+    "e27bd3581f2060f0d539a218a632dbe90ec24ce84e9768bf065d6472ad5ece57": [
+      286,
+      550,
+      833,
+      1199,
+      1488,
+      1719
+    ],
+    "e822ac53dd755ad6ba4dfebc0f4084122b0ebc08559bbffd43da2bf7962cd520": [
+      448,
+      756,
+      950,
+      1301
+    ],
+    "e8be1d9864905a1870e992427f6ffc88126555d674242d5924306084fccf1efc": [
+      483,
+      780
+    ],
+    "ee01a11e731bdcec4ce87073f0277ca818ab1841fabbcb46b1ee5d39df97cecb": [
+      580,
+      1093
+    ],
+    "f317a18ab10c7a822ed2553ca1af36292d0c6b7ec68f1f54bdfd492bfdf9601f": [
+      687,
+      1147,
+      1403
+    ],
+    "f7fb999bc3ddd0f434a1cab940af57d5bf6def7faeb44b48b4d76284ed2e7a19": [
+      310,
+      587,
+      936,
+      1384,
+      1669,
+      1998,
+      2227
+    ],
+    "f81104d62b6eb0b01cce6ac07f349944c59c14ee88da8fb80c8cf28458c1c842": [
+      501,
+      725,
+      953
+    ],
+    "fc4124e1c9220e371b245b973c2d73816a8a5dcfc6380639f34c99007c2be9f7": [
+      350,
+      674,
+      814
+    ],
+    "fcead2d6e99237b21a185048d41489c4f5682ce974f5789e7ab970ba481cb429": [
+      264,
+      403,
+      672,
+      986
+    ]
+  },
+  "pack": "LoreForever_Voice_Default_MoreQuests3",
+  "retired": [],
+  "version": 1
+}

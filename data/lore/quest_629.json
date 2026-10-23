@@ -1,0 +1,125 @@
+{
+ "key": "quest:629",
+ "type": "quest",
+ "name": "The Vile Reef",
+ "era": "classic",
+ "zone": "stranglethorn",
+ "meta": {
+  "ids": [
+   629
+  ],
+  "level": "37",
+  "faction": "Horde",
+  "start": "Kin'weelay",
+  "end": "Kin'weelay",
+  "previous": "",
+  "next": "",
+  "wiki": "The Vile Reef (quest)",
+  "chain": [],
+  "category": "Stranglethorn Vale"
+ },
+ "summary": "Kin'weelay at Grom'gol Base Camp seeks a piece of an ancient stone tablet resting deep beneath the Savage Coast. The sunken city, known as the Vile Reef, is infested with aggressive murlocs and holds the legendary history of Gri'lek, which the Darkspear tribe wishes to preserve in Orgrimmar.",
+ "sections": [
+  {
+   "title": "Sunken Legends",
+   "body": "Northwest of Grom'gol Base Camp, an ancient troll city slipped beneath the waters along the Savage Coast when a violent earthquake shattered the land long ago. Now referred to as the Vile Reef, its flooded ruins crawl with hostile murlocs that assault anyone venturing near. Resting on the sea floor among the ruins is a massive stone tablet carved with the story of Gri'lek, a legendary troll hero whose memory remains sacred to the Darkspear.",
+   "spoiler": 0
+  },
+  {
+   "title": "A Keepsake for Orgrimmar",
+   "body": "Because the full monument is far too massive to carry away from the depths, Kin'weelay asks you to break off a shard from the stone. He intends to carry this fragment back to Orgrimmar, enshrining it in a sacred place so the Darkspear will never forget the strength and honor of Gri'lek.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Where is the Vile Reef located?",
+   "aliases": [
+    "vile reef location",
+    "where is vile reef",
+    "how to find vile reef"
+   ],
+   "answer": "The Vile Reef lies underwater along the Savage Coast, northwest of Grom'gol Base Camp in Stranglethorn Vale."
+  },
+  {
+   "q": "Why does Kin'weelay want the tablet shard?",
+   "aliases": [
+    "why get tablet shard",
+    "tablet shard purpose",
+    "why griklek tablet"
+   ],
+   "answer": "The tablet preserves the sacred story of the troll hero Gri'lek. Kin'weelay plans to bring the shard back to Orgrimmar and place it in a sacred site so the Darkspear tribe can honor their heritage in their new home."
+  },
+  {
+   "q": "What happened to the ancient city at the Vile Reef?",
+   "aliases": [
+    "what happened to vile reef",
+    "how did vile reef sink",
+    "sunken troll city history"
+   ],
+   "answer": "Long ago, a tremendous earthquake shook the Savage Coast and caused the entire troll city to sink beneath the ocean waves."
+  },
+  {
+   "q": "What creatures inhabit the Vile Reef now?",
+   "aliases": [
+    "monsters in vile reef",
+    "vile reef enemies",
+    "who lives in vile reef"
+   ],
+   "answer": "Hostile murlocs have made their home among the submerged ruins and attack anyone who approaches the sunken city."
+  },
+  {
+   "q": "Who is Gri'lek?",
+   "aliases": [
+    "who is griklek",
+    "grilek lore",
+    "hero griklek"
+   ],
+   "answer": "Gri'lek is a legendary troll hero whose history was carved upon the sunken tablet beneath the Savage Coast and is held sacred by the Darkspear."
+  },
+  {
+   "q": "Why take only a shard instead of the whole tablet?",
+   "aliases": [
+    "why only a shard",
+    "can we take whole tablet",
+    "bring whole tablet"
+   ],
+   "answer": "The carved monument on the ocean floor is far too immense to haul up from the ruins, so retrieving a single broken piece is the only practical way to bring the legend back to Orgrimmar."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Troll",
+   "text": "For the Darkspear, retrieving this fragment keeps their ancient traditions and reverence for the great hero Gri'lek alive in their new home in Orgrimmar."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "Helping Kin'weelay recover this relic for Orgrimmar strengthens the bond of trust between the Horde and the Darkspear tribe."
+  }
+ ],
+ "keywords": [
+  "darkspear",
+  "gri'lek",
+  "grom'gol base camp",
+  "kin'weelay",
+  "murloc",
+  "savage coast",
+  "stranglethorn",
+  "tablet shard",
+  "vile reef"
+ ],
+ "related": [
+  "npc:kin-weelay",
+  "subzone:vile-reef",
+  "subzone:grom-gol-base-camp",
+  "subzone:savage-coast",
+  "zone:stranglethorn",
+  "topic:darkspear-tribe",
+  "zone:orgrimmar",
+  "topic:murloc"
+ ],
+ "attribution": [
+  "The Vile Reef (quest)",
+  "In-game quest text: The Vile Reef"
+ ]
+}

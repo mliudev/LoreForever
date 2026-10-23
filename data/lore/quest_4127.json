@@ -1,0 +1,99 @@
+{
+ "key": "quest:4127",
+ "type": "quest",
+ "name": "Boat Wreckage",
+ "era": "classic",
+ "zone": "feralas",
+ "meta": {
+  "ids": [
+   4127
+  ],
+  "level": "44",
+  "faction": "Alliance",
+  "start": "Wrecked Row Boat",
+  "end": "Ginro Hearthkindle",
+  "previous": "The Missing Courier (2)",
+  "next": "The Knife Revealed",
+  "wiki": "Boat Wreckage",
+  "chain": [],
+  "prev_q": [
+   "The Missing Courier (2)"
+  ],
+  "next_q": [
+   "The Knife Revealed"
+  ],
+  "category": "Feralas",
+  "chain_tpl": [
+   "The Missing Courier"
+  ]
+ },
+ "summary": "Beside a wrecked row boat in the water you find a well-cared-for knife in the mud. Ginro Hearthkindle in Feathermoon Stronghold wants any clue you find brought back, and a feeling creeps over you that something else shares the water.",
+ "sections": [
+  {
+   "title": "A Knife in the Mud",
+   "body": "Feeling along the mud near the wrecked boat, your fingertips brush the grip of a knife that looks well cared for. Whoever was on the boat may have lost it, and the large chunk missing from the boat might have a part in the loss. You take the knife, recalling that Ginro Hearthkindle in Feathermoon Stronghold asked you to bring any clue you found back to him, yet the feeling creeps over you that something else shares the water.",
+   "spoiler": 0
+  },
+  {
+   "title": "A Question for You",
+   "body": "Ginro believes the knife is Raschal's and asks whether you really found it on the bottom with his boat. The knife alone may not be enough to connect the boat to Raschal's disappearance, but there is an unconventional option for learning more, and Ginro asks whether you have ever heard of psychometry.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Where is the knife discovered?",
+   "aliases": [
+    "knife location",
+    "where is discarded knife",
+    "where do i find the knife"
+   ],
+   "answer": "In the mud beside the wrecked row boat in the water off the coast."
+  },
+  {
+   "q": "Who wants the clue brought back?",
+   "aliases": [
+    "who sent me to boat",
+    "who wants the knife",
+    "boat wreckage turn in"
+   ],
+   "answer": "Ginro Hearthkindle in Feathermoon Stronghold, who wanted you to return with any clue you found."
+  },
+  {
+   "q": "What sort of knife is it?",
+   "aliases": [
+    "who owns the knife",
+    "whose blade is it"
+   ],
+   "answer": "A well-cared-for one, in the mud by the wrecked boat. Whoever was on the boat may have lost it."
+  },
+  {
+   "q": "What comes directly before investigating the wreckage?",
+   "aliases": [
+    "previous quest",
+    "what led to boat wreckage"
+   ],
+   "answer": "It follows the second part of The Missing Courier, in which you were asked to find the courier's boat."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "boat wreckage",
+  "discarded knife",
+  "feathermoon stronghold",
+  "feralas",
+  "ginro hearthkindle",
+  "missing courier",
+  "raschal",
+  "row boat"
+ ],
+ "related": [
+  "quest:4125",
+  "quest:4129",
+  "subzone:feathermoon-stronghold",
+  "zone:feralas"
+ ],
+ "attribution": [
+  "Boat Wreckage"
+ ]
+}

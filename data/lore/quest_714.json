@@ -1,0 +1,104 @@
+{
+ "key": "quest:714",
+ "type": "quest",
+ "name": "Gyro... What?",
+ "era": "classic",
+ "zone": "badlands",
+ "meta": {
+  "ids": [
+   714
+  ],
+  "level": "37",
+  "faction": null,
+  "start": "Lotwil Veriatus",
+  "end": "Lotwil Veriatus",
+  "previous": "Coolant Heads Prevail",
+  "next": "Liquid Stone, This Is Going to Be Hard",
+  "wiki": "Gyro... What?",
+  "chain": [
+   "Coolant Heads Prevail",
+   "Gyro... What?",
+   "Liquid Stone"
+  ],
+  "prev_q": [
+   "Coolant Heads Prevail"
+  ],
+  "next_q": [
+   "Liquid Stone",
+   "This Is Going to Be Hard"
+  ],
+  "category": "Badlands"
+ },
+ "summary": "Having brought Lotwil Veriatus the Frost Oil from Coolant Heads Prevail, you find Lotwil still absorbed in a contraption in the Badlands. One small but crucial part is missing: a gyrochronatom.",
+ "sections": [
+  {
+   "title": "A Crucial Part",
+   "body": "Lotwil Veriatus, distracted by the work, says you have done the job well beyond all standards and tells you to come and apply for work if you ever meet in Kharanos. Then comes a hurried scramble to catch hold of something, and the real request: a gyrochronatom. It is a small part, Lotwil admits, but a crucial one. Bring one and the project should be ready to complete.",
+   "spoiler": 0
+  },
+  {
+   "title": "Handing It Over",
+   "body": "When you hand the gyrochronatom over, Lotwil seizes it with a shout and says the work is nearly done, truly, and that this project is the top priority at the moment. The promise to finish soon keeps wobbling, from a few minutes to maybe a lot longer.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is asking for the gyrochronatom?",
+   "aliases": [
+    "who gives gyro what",
+    "gyro what quest giver",
+    "lotwil veriatus badlands"
+   ],
+   "answer": "Lotwil Veriatus, who is working on a contraption in the Badlands."
+  },
+  {
+   "q": "What does Lotwil Veriatus need the gyrochronatom for?",
+   "aliases": [
+    "why gyrochronatom",
+    "what is lotwil building"
+   ],
+   "answer": "It is a small but rather crucial part, and with it Lotwil should be ready to complete the project."
+  },
+  {
+   "q": "What is the offer about Kharanos?",
+   "aliases": [
+    "lotwil kharanos",
+    "kharanos job offer"
+   ],
+   "answer": "Distracted by the work, Lotwil says that if you ever meet in Kharanos, you are free to come and apply for work."
+  },
+  {
+   "q": "Where can a gyrochronatom be found?",
+   "aliases": [
+    "how to get gyrochronatom",
+    "gyrochronatom source",
+    "where buy gyrochronatom"
+   ],
+   "answer": "Engineers make them, and they can also be bought from engineering suppliers."
+  }
+ ],
+ "angles": [
+  {
+   "target": "profession:Engineering",
+   "text": "Engineers can make a gyrochronatom themselves."
+  }
+ ],
+ "keywords": [
+  "badlands",
+  "contraption",
+  "coolant heads prevail",
+  "gyrochronatom",
+  "kharanos",
+  "lotwil veriatus"
+ ],
+ "related": [
+  "npc:lotwil-veriatus",
+  "quest:713",
+  "zone:badlands",
+  "subzone:kharanos"
+ ],
+ "attribution": [
+  "Gyro... What?"
+ ]
+}

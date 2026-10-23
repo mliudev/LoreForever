@@ -1,0 +1,88 @@
+{
+ "key": "quest:331",
+ "type": "quest",
+ "name": "Report to Doren",
+ "era": "classic",
+ "zone": "stranglethorn",
+ "meta": {
+  "ids": [
+   331
+  ],
+  "level": "37",
+  "faction": "Alliance",
+  "start": "Corporal Sethman",
+  "end": "Lieutenant Doren",
+  "previous": "Patrol Schedules",
+  "next": "",
+  "wiki": "Report to Doren",
+  "chain": [],
+  "prev_q": [
+   "Patrol Schedules"
+  ],
+  "category": "Stranglethorn Vale",
+  "chain_tpl": [
+   "Jungle Secrets"
+  ]
+ },
+ "summary": "After obtaining the patrol information, Corporal Sethman directs you back to Lieutenant Doren. Delivering these findings brings crucial military intelligence directly to the rebels' commander in northern Stranglethorn Vale.",
+ "sections": [
+  {
+   "title": "Delivering the Intelligence",
+   "body": "Corporal Sethman reminds you that Lieutenant Doren wants a direct report on the patrol information. You must bring what you learned back to Doren.",
+   "spoiler": 0
+  },
+  {
+   "title": "A Traitor Revealed",
+   "body": "Presenting the patrol information reveals that Merle was the one who betrayed the camp. Lieutenant Doren mourns the loss of a soldier he once considered brave and loyal, yet feels immense relief at rooting out the traitor before Colonel Kurzen could take advantage.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who sends you to Lieutenant Doren?",
+   "aliases": [
+    "who starts report to doren",
+    "who sends me to doren",
+    "report to doren giver"
+   ],
+   "answer": "Corporal Sethman sends you to report to Lieutenant Doren once you have gone over the patrol schedules with him."
+  },
+  {
+   "q": "What came before this report?",
+   "aliases": [
+    "previous quest",
+    "what is before report to doren",
+    "patrol schedules"
+   ],
+   "answer": "This follows Patrol Schedules, where Corporal Sethman goes through the patrol schedules for you."
+  },
+  {
+   "q": "Where is this report delivered?",
+   "aliases": [
+    "where is lieutenant doren",
+    "doren location",
+    "where do i go"
+   ],
+   "answer": "You deliver the report directly to Lieutenant Doren at the Rebel Camp in northern Stranglethorn Vale."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "doren",
+  "kurzen",
+  "merle",
+  "patrol schedules",
+  "sethman",
+  "stranglethorn",
+  "traitor"
+ ],
+ "related": [
+  "npc:doren",
+  "quest:330",
+  "npc:colonel-kurzen",
+  "zone:stranglethorn"
+ ],
+ "attribution": [
+  "Report to Doren"
+ ]
+}

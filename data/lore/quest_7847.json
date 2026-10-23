@@ -1,0 +1,93 @@
+{
+ "key": "quest:7847",
+ "type": "quest",
+ "name": "Return to Primal Torntusk",
+ "era": "classic",
+ "zone": "hinterlands",
+ "meta": {
+  "ids": [
+   7847
+  ],
+  "level": "51",
+  "faction": "Horde",
+  "start": "Elder Torntusk",
+  "end": "Primal Torntusk",
+  "previous": "Recover the Key!",
+  "next": "",
+  "wiki": "Return to Primal Torntusk",
+  "chain": [
+   "Kidnapped Elder Torntusk!",
+   "Recover the Key!",
+   "Return to Primal Torntusk"
+  ],
+  "prev_q": [
+   "Recover the Key!"
+  ],
+  "category": "Hinterlands"
+ },
+ "summary": "Elder Torntusk asks you to return to his mate, Primal Torntusk, at Revantusk Village and tell her that he is coming home.",
+ "sections": [
+  {
+   "title": "News for His Mate",
+   "body": "Elder Torntusk is free of his bindings, and he asks you to return to Revantusk Village. There you are to tell his mate, Primal Torntusk, that he is coming home.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Village Is Grateful",
+   "body": "Primal Torntusk says you have served the Revantusk greatly, and that the village owes you a deep debt of thanks.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who sends you on this journey?",
+   "aliases": [
+    "who starts return to primal torntusk",
+    "elder torntusk quest giver"
+   ],
+   "answer": "Elder Torntusk asks you to carry the news of his rescue to his mate."
+  },
+  {
+   "q": "Where is Primal Torntusk located?",
+   "aliases": [
+    "where is primal torntusk",
+    "primal torntusk location",
+    "where to turn in return to primal torntusk"
+   ],
+   "answer": "Primal Torntusk is at Revantusk Village in the Hinterlands."
+  },
+  {
+   "q": "What am I supposed to tell Primal Torntusk?",
+   "aliases": [
+    "what to tell primal torntusk",
+    "torntusk message"
+   ],
+   "answer": "That Elder Torntusk is coming home."
+  },
+  {
+   "q": "What came before this journey?",
+   "aliases": [
+    "previous quest",
+    "primal torntusk quest chain"
+   ],
+   "answer": "It follows Recover the Key!, after the earlier effort that began in Kidnapped Elder Torntusk!"
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "elder torntusk",
+  "hinterlands",
+  "jintha'alor",
+  "primal torntusk",
+  "revantusk",
+  "revantusk village"
+ ],
+ "related": [
+  "quest:7846",
+  "quest:7845",
+  "zone:hinterlands"
+ ],
+ "attribution": [
+  "Wowpedia: Return to Primal Torntusk"
+ ]
+}

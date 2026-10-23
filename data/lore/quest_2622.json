@@ -1,0 +1,91 @@
+{
+ "key": "quest:2622",
+ "type": "quest",
+ "name": "The Missing Orders",
+ "era": "classic",
+ "zone": "swampofsorrows",
+ "meta": {
+  "ids": [
+   2622
+  ],
+  "level": "50",
+  "faction": "Horde",
+  "start": "Dispatch Commander Ruag",
+  "end": "Bengor",
+  "previous": "",
+  "next": "The Swamp Talker",
+  "wiki": "The Missing Orders",
+  "chain": [],
+  "next_q": [
+   "The Swamp Talker"
+  ],
+  "category": "Swamp of Sorrows",
+  "chain_tpl": [
+   "You Are Rakh'likh, Demon"
+  ]
+ },
+ "summary": "Dispatch Commander Ruag bristles when asked about the missing orders, insisting they were relayed. Ruag says the soldiers carrying them were ambushed by murlocs and only one lived, and sends you to speak with Bengor.",
+ "sections": [
+  {
+   "title": "Ruag's Account",
+   "body": "Ruag takes offence at the question and insists the orders were relayed. The soldiers sent with them were, Ruag says, ambushed and brutally beaten by murlocs, and only one lived, if that can be called living. The survivor can barely speak, cannot walk and is fed through a tube. To learn what became of the orders, Ruag says, speak with Bengor, who is around here somewhere, and adds a warning to mind what you poke your nose into, lest it get bitten off.",
+   "spoiler": 0
+  },
+  {
+   "title": "Bengor's Halting Words",
+   "body": "When you find Bengor, only broken scraps of speech come out, and among them you catch the words swamp talker.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who sent the orders that went missing?",
+   "aliases": [
+    "who gave missing orders",
+    "who lost the orders"
+   ],
+   "answer": "Dispatch Commander Ruag says the orders were relayed with the soldiers sent out, and grows defensive when asked what became of them."
+  },
+  {
+   "q": "What happened to the soldiers carrying the orders?",
+   "aliases": [
+    "what happened to couriers",
+    "how were the orders lost"
+   ],
+   "answer": "According to Dispatch Commander Ruag, murlocs ambushed and brutally beat them, and only one lived."
+  },
+  {
+   "q": "Who is Bengor?",
+   "aliases": [
+    "who is the survivor",
+    "bengor lore"
+   ],
+   "answer": "Bengor is the one survivor of the ambush. He can barely speak, cannot walk and is fed through a tube."
+  },
+  {
+   "q": "Where can Bengor be found?",
+   "aliases": [
+    "bengor location",
+    "where is bengor"
+   ],
+   "answer": "Dispatch Commander Ruag says only that Bengor is around here somewhere."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "ambush",
+  "bengor",
+  "dispatch commander ruag",
+  "missing orders",
+  "murloc",
+  "swamp of sorrows"
+ ],
+ "related": [
+  "quest:2623",
+  "zone:swampofsorrows",
+  "topic:murloc"
+ ],
+ "attribution": [
+  "The Missing Orders"
+ ]
+}

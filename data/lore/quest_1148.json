@@ -1,0 +1,95 @@
+{
+ "key": "quest:1148",
+ "type": "quest",
+ "name": "Parts of the Swarm",
+ "era": "classic",
+ "zone": "thousandneedles",
+ "meta": {
+  "ids": [
+   1148
+  ],
+  "level": "35",
+  "faction": "Horde",
+  "start": "Cracked Silithid Carapace",
+  "end": "Korran",
+  "next": "Parts of the Swarm (2)",
+  "wiki": null,
+  "previous": ""
+ },
+ "summary": "Turning a cracked silithid carapace over in Thousand Needles, you find its plating interwoven so tightly that it is remarkably strong, and the creature seems powerful and highly developed. Korran at the Crossroads would probably like to study more of them.",
+ "sections": [
+  {
+   "title": "A Curious Carapace",
+   "body": "Closer inspection shows the chitin woven so tightly that it is unlike anything you have seen. The rest of the body tells the same tale of great strength and advanced development. It occurs to you that Korran, at the Crossroads, would relish examining more of these creatures to learn their nature and their origins. The specimens wanted are one silithid heart, five silithid talons and three intact silithid carapaces.",
+   "spoiler": 0
+  },
+  {
+   "title": "Specimens for Korran",
+   "body": "Korran is pleased, remarking that these specimens, along with the eggs found in the Field of Giants, make a good start toward understanding what manner of creatures the insects are and what they seek.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who wants these silithid parts?",
+   "aliases": [
+    "who is korran",
+    "turn in parts of the swarm",
+    "who studies the silithid"
+   ],
+   "answer": "Korran at the Crossroads, who would like to study more of these creatures."
+  },
+  {
+   "q": "Where does this begin?",
+   "aliases": [
+    "how to start parts of the swarm",
+    "cracked silithid carapace start",
+    "where to find the carapace"
+   ],
+   "answer": "It begins when you inspect a cracked silithid carapace in Thousand Needles."
+  },
+  {
+   "q": "What specimens does Korran want?",
+   "aliases": [
+    "what items needed",
+    "silithid parts list",
+    "what do i gather"
+   ],
+   "answer": "One silithid heart, five silithid talons and three intact silithid carapaces."
+  },
+  {
+   "q": "Why would Korran want to study silithid?",
+   "aliases": [
+    "why study silithid",
+    "what korran learns"
+   ],
+   "answer": "Studying more of them might show the creatures' nature and origin."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Horde",
+   "text": "This is a Horde matter: the specimens are Korran's to receive, at the Crossroads."
+  }
+ ],
+ "keywords": [
+  "carapace",
+  "crossroads",
+  "field of giants",
+  "heart",
+  "korran",
+  "silithid",
+  "talons",
+  "thousand needles"
+ ],
+ "related": [
+  "npc:korran",
+  "subzone:crossroads",
+  "subzone:field-of-giants",
+  "zone:thousandneedles",
+  "topic:horde"
+ ],
+ "attribution": [
+  "Classic quest text: Parts of the Swarm"
+ ]
+}

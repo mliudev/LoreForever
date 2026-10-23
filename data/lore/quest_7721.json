@@ -1,0 +1,87 @@
+{
+ "key": "quest:7721",
+ "type": "quest",
+ "name": "Fuel for the Zapping",
+ "era": "classic",
+ "zone": "feralas",
+ "meta": {
+  "ids": [
+   7721
+  ],
+  "level": "48",
+  "faction": null,
+  "start": "Zorbin Fandazzle",
+  "end": "Zorbin Fandazzle",
+  "previous": "",
+  "next": "Refuel for the Zapping",
+  "wiki": "Fuel for the Zapping",
+  "chain": [
+   "Fuel for the Zapping",
+   "Refuel for the Zapping"
+  ],
+  "category": "Feralas",
+  "next_q": [
+   "Refuel for the Zapping"
+  ]
+ },
+ "summary": "On the Forgotten Coast of Feralas, Zorbin Fandazzle has opened an engineering shop against better judgment, and the local elementals are a pest. They are also an ideal supply of raw power for refining the Ultra-Shrinker, and the water elemental cores are what Zorbin wants.",
+ "sections": [
+  {
+   "title": "Power from the Surf",
+   "body": "Zorbin Fandazzle curses the unchecked powers of elementalism, and calls the elementals of the coast pests. Yet Zorbin also reckons them an ideal supply of raw power when refining the Ultra-Shrinker. Zorbin wants you to give the Sea Elementals and Sea Sprays of the coast what for, keep their water elemental cores, and bring them to Zorbin by the dock.",
+   "spoiler": 0
+  },
+  {
+   "title": "Zorbin's Thanks",
+   "body": "Zorbin is delighted: the cores will keep the work going for some time, and there are now fewer elementals along the coast. Zorbin adds that setting up the shop in what may be the worst place imaginable had been a reason to cry at night. Zorbin shows gratitude with payment, though it strains Zorbin's finances.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is asking for the elemental cores?",
+   "aliases": [
+    "who gives fuel for the zapping",
+    "zorbin fandazzle quest giver",
+    "who starts fuel for the zapping"
+   ],
+   "answer": "Zorbin Fandazzle, who keeps an engineering shop on the Forgotten Coast of Feralas, near the dock there."
+  },
+  {
+   "q": "Why does Zorbin Fandazzle need water elemental cores?",
+   "aliases": [
+    "why water elemental cores",
+    "what are cores used for",
+    "ultra-shrinker fuel"
+   ],
+   "answer": "Zorbin considers the local elementals an ideal supply of raw power for refining the Ultra-Shrinker, and it is the water elemental cores that Zorbin wants."
+  },
+  {
+   "q": "Where are the elemental cores gathered?",
+   "aliases": [
+    "where to find cores",
+    "sea elemental location",
+    "where are sea sprays"
+   ],
+   "answer": "Zorbin wants them taken from the Sea Elementals and the Sea Sprays that roam the Forgotten Coast of Feralas."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "feralas",
+  "forgotten coast",
+  "sea elemental",
+  "sea spray",
+  "ultra-shrinker",
+  "water elemental core",
+  "zorbin fandazzle"
+ ],
+ "related": [
+  "zone:feralas",
+  "subzone:forgotten-coast",
+  "quest:7726"
+ ],
+ "attribution": [
+  "Fuel for the Zapping"
+ ]
+}

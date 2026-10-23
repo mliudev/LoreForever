@@ -1,0 +1,95 @@
+{
+ "key": "quest:3181",
+ "type": "quest",
+ "name": "The Horn of the Beast",
+ "era": "classic",
+ "zone": "searinggorge",
+ "meta": {
+  "ids": [
+   3181
+  ],
+  "level": "43",
+  "faction": "Alliance",
+  "start": "Margol's Gigantic Horn",
+  "end": "Mountaineer Pebblebitty",
+  "previous": "",
+  "next": "",
+  "wiki": "The Horn of the Beast",
+  "chain": [],
+  "category": "Searing Gorge",
+  "chain_tpl": [
+   "Key to Searing Gorge"
+  ]
+ },
+ "summary": "A gigantic horn that came from Margol the Rager in Searing Gorge is scratched and cracked, with a broken axe head lodged in its rough surface. The axe head is etched as the property of Mountaineer Pebblebitty, and it shatters into a million pieces when you try to dislodge it. The horn is to be taken to Pebblebitty.",
+ "sections": [
+  {
+   "title": "A Shattered Clue",
+   "body": "The horn from Margol the Rager is covered in scratches and cracks. Lodged in it is an unusual metal object, a broken axe head etched to show that it belonged to Mountaineer Pebblebitty. When you try to work it free, it shatters into a million pieces.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Gate",
+   "body": "This horn starts the chain that opens Stonewrought Pass, which runs between Loch Modan and Searing Gorge. It is to be taken to Mountaineer Pebblebitty, who is not willing to open the gate.",
+   "spoiler": 0
+  },
+  {
+   "title": "At the Gate",
+   "body": "Pebblebitty calls the horn an obvious fake. Having come face to face with Margol, Pebblebitty says her horn is far bigger, eight times the size of yours at the very least, and that yours probably came off a stormsnout in the Barrens.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Where does this horn come from?",
+   "aliases": [
+    "where do i find the horn",
+    "margol the rager location",
+    "who drops the horn"
+   ],
+   "answer": "It comes from Margol the Rager in Searing Gorge."
+  },
+  {
+   "q": "Who is Mountaineer Pebblebitty?",
+   "aliases": [
+    "pebblebitty",
+    "who is pebblebitty",
+    "mountaineer pebblebitty"
+   ],
+   "answer": "Pebblebitty is the mountaineer to whom the horn is to be taken, and the one who is not willing to open the gate."
+  },
+  {
+   "q": "What happens to the axe head in the horn?",
+   "aliases": [
+    "why was pebblebitty axe in the horn",
+    "axe head inscription"
+   ],
+   "answer": "It is etched as the property of Mountaineer Pebblebitty, and it shatters into a million pieces when you try to dislodge it."
+  },
+  {
+   "q": "What does the horn lead to?",
+   "aliases": [
+    "stonewrought pass",
+    "what is the key to searing gorge"
+   ],
+   "answer": "It begins the chain that opens the way through Stonewrought Pass, linking Loch Modan and Searing Gorge."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "gigantic horn",
+  "loch modan",
+  "margol the rager",
+  "pebblebitty",
+  "searing gorge",
+  "stonewrought pass"
+ ],
+ "related": [
+  "subzone:stonewrought-pass",
+  "zone:searinggorge",
+  "zone:lochmodan"
+ ],
+ "attribution": [
+  "The Horn of the Beast"
+ ]
+}

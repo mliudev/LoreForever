@@ -1,0 +1,105 @@
+{
+ "key": "quest:3441",
+ "type": "quest",
+ "name": "Divine Retribution",
+ "era": "classic",
+ "zone": "searinggorge",
+ "meta": {
+  "ids": [
+   3441
+  ],
+  "level": "48",
+  "faction": null,
+  "start": "Kalaran Windblade",
+  "end": "Kalaran Windblade",
+  "previous": "",
+  "next": "The Flawless Flame",
+  "wiki": "Divine Retribution",
+  "chain": [],
+  "next_q": [
+   "The Flawless Flame"
+  ],
+  "category": "Searing Gorge",
+  "chain_tpl": [
+   "Torch of Retribution"
+  ]
+ },
+ "summary": "Kalaran Windblade asks you to hear his tale in Searing Gorge. His father is dead at the hands of what lurks in the cauldron, and the Stormwind magistrate would not listen. Kalaran seeks vengeance and wants an adventurer to act for him.",
+ "sections": [
+  {
+   "title": "A Father Slain",
+   "body": "Kalaran says the filth in the cauldron killed his father. He pleaded with the Stormwind magistrate for help, but the pleas fell on deaf ears. Stormwind, he says, would rather not admit this part of the world exists, let alone send soldiers to see justice done here.",
+   "spoiler": 0
+  },
+  {
+   "title": "A Call for Vengeance",
+   "body": "Kalaran wants vengeance, plain and simple. He stands alone apart from a lumbering oaf of a squire, and the Dark Iron dwarves, along with Ragnaros's beasts, would crush him by himself. He trusts that a brave adventurer could handle the denizens of the cauldron, and he promises riches and wealth beyond all dreams to whoever helps.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Kalaran Windblade?",
+   "aliases": [
+    "who is kalaran",
+    "kalaran story",
+    "kalaran lore"
+   ],
+   "answer": "Kalaran Windblade is a man in Searing Gorge whose father was slain, and who seeks vengeance. He has a squire with him."
+  },
+  {
+   "q": "Why is Kalaran seeking retribution?",
+   "aliases": [
+    "why divine retribution",
+    "kalaran revenge",
+    "what happened to kalaran father"
+   ],
+   "answer": "Kalaran blames the filth living in the cauldron for his father's death, and he wants vengeance."
+  },
+  {
+   "q": "Why didn't Stormwind help Kalaran?",
+   "aliases": [
+    "stormwind refusal",
+    "why wont stormwind help",
+    "stormwind magistrate"
+   ],
+   "answer": "Kalaran says the Stormwind magistrate ignored his pleas. By his account Stormwind does not wish to admit this part of the world exists, much less send soldiers to see justice done."
+  },
+  {
+   "q": "What threats does Kalaran mention?",
+   "aliases": [
+    "who is in the cauldron",
+    "cauldron enemies",
+    "kalaran enemies"
+   ],
+   "answer": "He names the Dark Iron dwarves and Ragnaros's beasts, and says either would overwhelm him alone."
+  },
+  {
+   "q": "What does Kalaran promise in exchange for help?",
+   "aliases": [
+    "kalaran offer",
+    "what does kalaran offer"
+   ],
+   "answer": "He promises riches and wealth beyond anyone's wildest dreams to a brave adventurer who helps him."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "cauldron",
+  "dark iron",
+  "kalaran windblade",
+  "ragnaros",
+  "retribution",
+  "stormwind",
+  "vengeance",
+  "windblade"
+ ],
+ "related": [
+  "subzone:cauldron",
+  "topic:stormwind-kingdom",
+  "zone:searinggorge"
+ ],
+ "attribution": [
+  "Divine Retribution"
+ ]
+}

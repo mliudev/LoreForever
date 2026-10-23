@@ -36,10 +36,11 @@ import { historyEnabled } from "../../../lib/history.js";
 import { welcomeOnce } from "../../../lib/billing.js";
 import { noteConnect, machineOf, setupReferrals } from "../../../lib/referrals.js";
 import { noteWillo } from "../../../lib/sources.js";
+import { isCompanion } from "../../../lib/client-version.js";
 
 const ok = (body = {}, status = 200) => Response.json({ ok: true, ...body }, { status, headers: noStore });
 const COMPANION = /^companion\/[\w.-]{1,24}$/;
-const fromCompanion = request => COMPANION.test(request.headers.get("X-LF-Client") || "") && !request.headers.get("Origin");
+const fromCompanion = request => isCompanion(request.headers.get("X-LF-Client")) && !request.headers.get("Origin");
 const ipKey = async (env, request) =>
   "ip:" + await senderHash(env, request.headers.get("CF-Connecting-IP") || "", new Date().toISOString().slice(0, 10));
 const tooMany = (retryAfter = 3600) => Response.json({ ok: false, error: "Too many tries. Please wait a while.", retryAfter },

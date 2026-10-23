@@ -16,7 +16,7 @@ const originalFetch = globalThis.fetch;
 let calls, stream, release;
 
 const SAID = "Thrall leads the Horde from Orgrimmar. I've written the rest out for you.";
-// What she says of it: her line about the rest is one of REST_LINES, the same for the same words.
+// What she says of it: her words without the model's line about the rest (she says her whole answer, 10/21).
 const SAYS = splitLayers(`${SAID}\n~~~\nmore`).say;
 const WRITTEN = "Thrall leads the Horde from Orgrimmar, in Durotar.\n1. Take the zeppelin from Tirisfal Glades.\n" +
   "2. Walk west through the gates to the Valley of Wisdom.";
@@ -25,7 +25,7 @@ const part = text => ({ candidates: [{ content: { parts: [{ text }] } }] });
 
 beforeEach(async () => {
   await setup(env);
-  for (const table of ["devices", "device_links", "rate_limits", "answer_spend", "users"]) env.DB.sqlite.exec(`DELETE FROM ${table}`);
+  for (const table of ["devices", "device_links", "rate_limits", "answer_spend", "free_pool_days", "users"]) env.DB.sqlite.exec(`DELETE FROM ${table}`);
   calls = [];
   // The rest of the stream waits for release(), so a test can see her words arrive before it.
   let open;
@@ -130,10 +130,9 @@ test("a reply with no mark is said from its start, cut at a sentence, and writte
   assert.equal(res.headers.get("Content-Type")?.startsWith("application/json"), true, "nothing to say early");
   const body = await res.json();
   assert.equal(body.answer, long);
-  const rest = REST_LINES.find(l => body.say.endsWith(` ${l}`));
-  const words = body.say.slice(0, body.say.length - rest.length - 1);
-  assert.ok(body.say.length <= SAY_MAX_CHARS && words.endsWith(".") && long.startsWith(words), body.say);
-  assert.equal(body.rest, undefined, "her line about the rest is on her words when they go with the answer");
+  assert.ok(body.say.length <= SAY_MAX_CHARS && body.say.endsWith(".") && long.startsWith(body.say), body.say);
+  assert.ok(!REST_LINES.some(l => body.say.includes(l)), "no line about the rest: she says her whole answer (10/21)");
+  assert.equal(body.rest, undefined);
 });
 
 test("her spoken words get the answer's own last checks", async () => {
@@ -149,11 +148,9 @@ test("her spoken words get the answer's own last checks", async () => {
 
 test("the two layers split on the mark; her words are cut at a sentence within SAY_MAX_CHARS", () => {
   assert.deepEqual(splitLayers(`${SAID}\n~~~\n${WRITTEN}`), { say: SAYS, text: WRITTEN });
-  assert.ok(SAYS.startsWith("Thrall leads the Horde from Orgrimmar. ") && REST_LINES.some(l => SAYS.endsWith(l)));
-  // The blind check (10/18): 58 of 65 said the same line. Different words get different lines.
-  const lines = new Set(["Go east.", "Go west.", "Ask the guard.", "Take the boat.", "See the smith.", "Fly north."]
-    .map(w => splitLayers(`${w} I have written the rest out for you.\n~~~\nmore`).say.slice(w.length + 1)));
-  assert.ok(lines.size >= 3 && [...lines].every(l => REST_LINES.includes(l)), [...lines].join(" | "));
+  assert.equal(SAYS, "Thrall leads the Horde from Orgrimmar.", "the model's line about the rest is dropped (10/21)");
+  for (const w of ["Go east.", "Ask the guard.", "Fly north."])
+    assert.equal(splitLayers(`${w} I have written the rest out for you.\n~~~\nmore`).say, w);
   assert.deepEqual(splitLayers(WRITTEN), { text: WRITTEN, say: "Thrall leads the Horde from Orgrimmar, in Durotar. Take " +
     "the zeppelin from Tirisfal Glades. Walk west through the gates to the Valley of Wisdom." }, "no mark: its start, unlisted");
   assert.deepEqual(splitLayers(`Go [east](https://example.com).\n ~~~ \nSee https://example.com now.`),
@@ -172,7 +169,7 @@ test("the two layers split on the mark; her words are cut at a sentence within S
   assert.deepEqual(splitLayers("Go to level 18.\n~~~\nLevel 18, at 34, 51."), { say: "Go to level eighteen.", text: "Level 18, at 34, 51." });
 });
 
-test("when the written answer says more than her early words, the answer carries her line about it to say after", async () => {
+test("when the written answer says more than her early words, no line about it: the app says the rest itself (10/21)", async () => {
   const token = await linked();
   stream[0] = part("Thrall leads the Horde from Orgrimmar.\n");
   const res = await ask(token, { layers: 2 });
@@ -180,7 +177,7 @@ test("when the written answer says more than her early words, the answer carries
   assert.deepEqual(await read.next(), { say: "Thrall leads the Horde from Orgrimmar." }, "her words, as written");
   release();
   const answer = await read.next();
-  assert.ok(REST_LINES.includes(answer.rest), answer.rest);
+  assert.equal(answer.rest, undefined);
   assert.equal(answer.say, "Thrall leads the Horde from Orgrimmar.");
 });
 

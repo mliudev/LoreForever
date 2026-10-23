@@ -31,7 +31,7 @@ beforeEach(async () => {
   await setup(env);
   await setupAnswerLog(env);
   await setupFeedback(env);
-  for (const t of ["users", "sessions", "devices", "device_links", "rate_limits", "answer_spend", "answer_log",
+  for (const t of ["users", "sessions", "devices", "device_links", "rate_limits", "answer_spend", "free_pool_days", "answer_log",
                    "answer_feedback"]) env.DB.sqlite.exec(`DELETE FROM ${t}`);
   reply = "Sentinel Hill is east of the farms.";
   globalThis.fetch = async () => Response.json({ candidates: [{ content: { parts: [{ text: reply }] } }],

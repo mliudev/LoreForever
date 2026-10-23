@@ -1,0 +1,94 @@
+{
+ "key": "quest:540",
+ "type": "quest",
+ "name": "Preserving Knowledge",
+ "era": "forever",
+ "zone": "hillsbrad",
+ "meta": {
+  "ids": [
+   540
+  ],
+  "wiki": null,
+  "harvested": true,
+  "prev_q": [
+   "Southshore (quest)"
+  ],
+  "previous": "Southshore (quest)",
+  "next_q": [
+   "Return to Milton"
+  ],
+  "next": "Return to Milton"
+ },
+ "summary": "Loremaster Dibbs in Southshore sends you into the Ruins of Alterac, where ogres have settled among the precious books left behind. Tomes the ogres looted must be recovered, and one above all: a worn leather book holding The Arm of Gri'lek, a work of ancient troll lore.",
+ "sections": [
+  {
+   "title": "Books in Ogre Hands",
+   "body": "Ogres have made their home in the ruins of Alterac, and Dibbs dreads what they might be doing to the books still there. You are to go in, hunt for the tomes the ogres have looted, and recover whatever you can. Dibbs would search the ruins too, but fears old bones would not survive the climb into the mountains.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Arm of Gri'lek",
+   "body": "Among all the tomes, Dibbs most wants one book: the worn leather volume containing The Arm of Gri'lek. Dibbs is bent on learning the ancient troll lore inside, and the Ruins of Alterac were the last known home of an intact copy.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who offers this quest and where are they?",
+   "aliases": [
+    "who gives preserving knowledge",
+    "where is loremaster dibbs",
+    "preserving knowledge quest giver"
+   ],
+   "answer": "Loremaster Dibbs, in Southshore."
+  },
+  {
+   "q": "What specific book is Loremaster Dibbs searching for?",
+   "aliases": [
+    "which book does dibbs want",
+    "what tome do i need",
+    "arm of gri'lek book"
+   ],
+   "answer": "The worn leather volume with The Arm of Gri'lek in it, a work of ancient troll lore."
+  },
+  {
+   "q": "Where are the books located?",
+   "aliases": [
+    "where to find the tomes",
+    "where are the ruins",
+    "where is the arm of gri'lek"
+   ],
+   "answer": "In the Ruins of Alterac, where ogres now live and have looted the tomes. It was the last known place an intact copy of The Arm of Gri'lek was held."
+  },
+  {
+   "q": "Why does Dibbs want books from Alterac?",
+   "aliases": [
+    "why preserve knowledge",
+    "why alterac books",
+    "what does dibbs want with books"
+   ],
+   "answer": "Dibbs shudders at what the ogres may be doing with the precious books still in the ruins, and wants whatever can be recovered. The Arm of Gri'lek is wanted most, for the ancient troll lore Dibbs must learn."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "arm of gri'lek",
+  "hillsbrad foothills",
+  "loremaster dibbs",
+  "ogres",
+  "preserving knowledge",
+  "ruins of alterac",
+  "southshore",
+  "troll lore"
+ ],
+ "related": [
+  "subzone:southshore",
+  "subzone:ruins-of-alterac",
+  "topic:alterac-kingdom",
+  "topic:troll",
+  "zone:hillsbrad"
+ ],
+ "attribution": [
+  "In-game quest text: Preserving Knowledge"
+ ]
+}

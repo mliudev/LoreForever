@@ -1,0 +1,97 @@
+{
+ "key": "quest:2994",
+ "type": "quest",
+ "name": "Saving Sharpbeak",
+ "era": "classic",
+ "zone": "hinterlands",
+ "meta": {
+  "ids": [
+   2994
+  ],
+  "level": "51",
+  "faction": "Alliance",
+  "start": "Gryphon Master Talonaxe",
+  "end": "Gryphon Master Talonaxe",
+  "previous": "Return to the Hinterlands",
+  "next": "",
+  "wiki": "Saving Sharpbeak",
+  "chain": [
+   "Witherbark Cages",
+   "The Altar of Zul (quest)",
+   "Thadius Grimshade (quest)",
+   "Nekrum's Medallion (quest)",
+   "The Divination",
+   "Return to the Hinterlands",
+   "Saving Sharpbeak"
+  ],
+  "prev_q": [
+   "Return to the Hinterlands"
+  ],
+  "repeatable": "No",
+  "category": "Hinterlands"
+ },
+ "summary": "Gryphon Master Talonaxe sends you to the summit of Jintha'Alor, which stands in the heart of Vilebranch territory. Vile Priestess Hexx has the key to Sharpbeak's cage, and you are to take it from her and free the gryphon.",
+ "sections": [
+  {
+   "title": "Up Jintha'Alor",
+   "body": "Following Thadius Grimshade's divination and your report to Talonaxe, the way to rescue Sharpbeak is clear. Jintha'Alor stands in the heart of Vilebranch territory, and you are to fight your way to its summit. Vile Priestess Hexx holds the key to Sharpbeak's cage. Take it from her, then find the cage and save the gryphon.",
+   "spoiler": 0
+  },
+  {
+   "title": "Talonaxe's Thanks",
+   "body": "Swiftwind and Keenclaw have already brought their child home and cannot stop fussing over him. The sight leaves Talonaxe misty-eyed. Talonaxe says the debt cannot be repaid, and that Aerie Peak's gryphons and riders will long sing your name.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who sends you to rescue Sharpbeak?",
+   "aliases": [
+    "who gives saving sharpbeak",
+    "sharpbeak questgiver",
+    "where do i start saving sharpbeak"
+   ],
+   "answer": "Gryphon Master Talonaxe asks you to rescue Sharpbeak, after the divination revealed where the gryphon is held."
+  },
+  {
+   "q": "Where is Sharpbeak being held?",
+   "aliases": [
+    "where is sharpbeak",
+    "sharpbeak location",
+    "where is sharpbeak cage"
+   ],
+   "answer": "Sharpbeak is caged at the summit of Jintha'Alor, a place within Vilebranch territory in the Hinterlands."
+  },
+  {
+   "q": "Who holds the key to Sharpbeak's cage?",
+   "aliases": [
+    "who drops sharpbeak key",
+    "where is hexx key",
+    "vile priestess hexx key"
+   ],
+   "answer": "Vile Priestess Hexx has the key needed to open Sharpbeak's cage."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "aerie peak",
+  "gryphon master talonaxe",
+  "hinterlands",
+  "jintha'alor",
+  "saving sharpbeak",
+  "sharpbeak",
+  "vile priestess hexx",
+  "vilebranch"
+ ],
+ "related": [
+  "quest:2993",
+  "quest:2992",
+  "zone:hinterlands",
+  "npc:thadius-grimshade",
+  "quest:2989",
+  "quest:2988"
+ ],
+ "attribution": [
+  "Wowpedia: Saving Sharpbeak"
+ ]
+}

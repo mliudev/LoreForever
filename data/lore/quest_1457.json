@@ -1,0 +1,97 @@
+{
+ "key": "quest:1457",
+ "type": "quest",
+ "name": "The Karnitol Shipwreck",
+ "era": "classic",
+ "zone": "desolace",
+ "meta": {
+  "ids": [
+   1457
+  ],
+  "level": "39",
+  "faction": "Alliance",
+  "start": "Kreldig Ungor",
+  "end": "Roetten Stonehammer",
+  "previous": "The Karnitol Shipwreck (3)",
+  "next": "",
+  "wiki": "The Karnitol Shipwreck (4)",
+  "chain": [
+   "The Karnitol Shipwreck (4)"
+  ],
+  "prev_q": [
+   "The Karnitol Shipwreck (3)"
+  ],
+  "category": "Desolace",
+  "chain_tpl": [
+   "The Karnitol Shipwreck/Chain"
+  ]
+ },
+ "summary": "Kreldig Ungor sends you to Ironforge with Karnitol's satchel, to put it in the hands of Roetten Stonehammer, who will pay you for the work.",
+ "sections": [
+  {
+   "title": "Back to Ironforge",
+   "body": "Kreldig Ungor tells you to carry Karnitol's things back to Roetten Stonehammer in Ironforge, who will pay you for the work. With a laugh, Kreldig adds that Roetten may be so pleased that you get asked to join the Reclaimers full time. The way back should be made carefully and without dawdling, since Karnitol has little patience, though he is a generous man.",
+   "spoiler": 0
+  },
+  {
+   "title": "In Ironforge",
+   "body": "Roetten Stonehammer greets the Karnitol business in Desolace with approval. The chest itself was wrecked, but everything that was in it is here, and Roetten leaves it to Karnitol to judge that. The Reclaimers are relied on to find what was lost, not to see that it returns looking fine and in good shape. Then Roetten sets about getting you paid.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who do I deliver Karnitol's satchel to?",
+   "aliases": [
+    "where do i take the satchel",
+    "turn in karnitol shipwreck",
+    "who gets karnitol's satchel"
+   ],
+   "answer": "Roetten Stonehammer, in Ironforge."
+  },
+  {
+   "q": "Who sends me back to Ironforge?",
+   "aliases": [
+    "who gives the quest",
+    "quest giver karnitol shipwreck part 4"
+   ],
+   "answer": "Kreldig Ungor, who has praise for the job you did."
+  },
+  {
+   "q": "Why is it important to deliver the satchel quickly?",
+   "aliases": [
+    "why rush to ironforge",
+    "is karnitol patient"
+   ],
+   "answer": "Kreldig says Karnitol has little patience, though he is very generous."
+  },
+  {
+   "q": "Who is Roetten Stonehammer?",
+   "aliases": [
+    "roetten stonehammer lore",
+    "who is roetten"
+   ],
+   "answer": "The Reclaimers' man in Ironforge. Business is booming for him, and he leaves smaller matters to his underlings."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "desolace",
+  "ironforge",
+  "karnitol",
+  "karnitol's satchel",
+  "kreldig ungor",
+  "reclaimers",
+  "roetten stonehammer"
+ ],
+ "related": [
+  "npc:roetten-stonehammer",
+  "npc:kreldig-ungor",
+  "zone:ironforge",
+  "zone:desolace",
+  "quest:1456"
+ ],
+ "attribution": [
+  "The Karnitol Shipwreck (4)"
+ ]
+}

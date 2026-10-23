@@ -1,0 +1,95 @@
+{
+ "key": "quest:6132",
+ "type": "quest",
+ "name": "Get Me Out of Here!",
+ "era": "classic",
+ "zone": "desolace",
+ "meta": {
+  "ids": [
+   6132
+  ],
+  "level": "39",
+  "faction": null,
+  "start": "Melizza Brimbuzzle",
+  "end": "Hornizz Brimbuzzle",
+  "previous": "",
+  "next": "",
+  "wiki": "Get Me Out of Here!",
+  "chain": [],
+  "category": "Desolace"
+ },
+ "summary": "Melizza Brimbuzzle traveled into the Valley of Spears hoping to do business with the Maraudines, but they would not talk, and she fears they mean to eat her. She asks you to get her out of there; her brother Hornizz will pay you handsomely.",
+ "sections": [
+  {
+   "title": "Trouble in the Valley",
+   "body": "Melizza walked into the Valley of Spears to speak with the Maraudines, thinking she could strike a deal. They would not talk, and she suspects they would rather eat her. She says she overheard centaurs only minutes ago discussing wood for their cookpot, and she wants out quickly.",
+   "spoiler": 0
+  },
+  {
+   "title": "Her Brother's Camp",
+   "body": "Hornizz Brimbuzzle waits at the family camp, east of here and beside the kodo graveyard. Melizza promises that her brother will pay you well for bringing her out of the valley.",
+   "spoiler": 0
+  },
+  {
+   "title": "Back at the Camp",
+   "body": "Hornizz says Melizza told him you were coming, and thanks you for getting her out of her jam. He guesses she has already found herself a new one. Melizza dashes ahead, calls the Maraudines too hard to work with, and says she is off to the Gelkis, who are more reasonable.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Why is Melizza Brimbuzzle in trouble?",
+   "aliases": [
+    "why is melizza captured",
+    "melizza brimbuzzle story",
+    "what happened to melizza"
+   ],
+   "answer": "Melizza walked into the Valley of Spears hoping to do business with the Maraudines. They would not talk, and she thinks they want to eat her."
+  },
+  {
+   "q": "Who are the Maraudines?",
+   "aliases": [
+    "maraudine centaur",
+    "who are maraudines",
+    "maraudine clan"
+   ],
+   "answer": "The Maraudines are centaurs of Desolace. The Valley of Spears is where Melizza went to try to do business with them."
+  },
+  {
+   "q": "Where is Hornizz Brimbuzzle located?",
+   "aliases": [
+    "hornizz location",
+    "where is hornizz",
+    "hornizz brimbuzzle camp"
+   ],
+   "answer": "Hornizz Brimbuzzle waits at the Brimbuzzles' camp in Desolace, next to the Kodo Graveyard, eastward."
+  },
+  {
+   "q": "Why does Melizza say her brother will pay you?",
+   "aliases": [
+    "melizza reward",
+    "what does hornizz pay"
+   ],
+   "answer": "She promises that her brother Hornizz will pay you handsomely if you see her out of the valley."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "centaur",
+  "desolace",
+  "hornizz brimbuzzle",
+  "kodo graveyard",
+  "maraudine",
+  "melizza brimbuzzle",
+  "valley of spears"
+ ],
+ "related": [
+  "subzone:valley-of-spears",
+  "subzone:kodo-graveyard",
+  "topic:centaur",
+  "zone:desolace"
+ ],
+ "attribution": [
+  "Get Me Out of Here!"
+ ]
+}

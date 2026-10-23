@@ -1,0 +1,108 @@
+{
+ "key": "quest:3126",
+ "type": "quest",
+ "name": "Treant Muisek",
+ "era": "classic",
+ "zone": "feralas",
+ "meta": {
+  "ids": [
+   3126
+  ],
+  "level": "50",
+  "start": "Witch Doctor Uzer'i",
+  "end": "Witch Doctor Uzer'i",
+  "previous": "Faerie Dragon Muisek",
+  "next": "Mountain Giant Muisek",
+  "prev_q": [
+   "Faerie Dragon Muisek"
+  ],
+  "next_q": [
+   "Mountain Giant Muisek"
+  ],
+  "wiki": null
+ },
+ "summary": "Witch Doctor Uzer'i's next target is the wandering forest walkers, treants that slowly roam the forest. After the faerie dragons, you are sent to find three of them.",
+ "sections": [
+  {
+   "title": "Slow Protectors",
+   "body": "Uzer'i says the night elves have recruited treants as allies in their fight against the Horde. They move slowly, but Uzer'i calls their role as protectors undeniable, and plans to turn that power to the Horde's own benefit.",
+   "spoiler": 0
+  },
+  {
+   "title": "Three Forest Walkers",
+   "body": "Uzer'i wants three wandering forest walkers found and killed, then each fallen treant shrunk and captured with the Muisek Vessel.",
+   "spoiler": 0
+  },
+  {
+   "title": "Uzer'i's Verdict",
+   "body": "On your return Uzer'i thanks you and remarks that the collection of muisek is nearly complete.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who sends adventurers after the treants?",
+   "aliases": [
+    "who gives treant muisek",
+    "treant muisek quest giver",
+    "uzeri treant quest"
+   ],
+   "answer": "Witch Doctor Uzer'i, who asks for this right after the faerie dragons."
+  },
+  {
+   "q": "Why does Witch Doctor Uzer'i want treant muisek?",
+   "aliases": [
+    "why kill forest walkers",
+    "why treant muisek",
+    "uzeri treant motive"
+   ],
+   "answer": "Uzer'i says the night elves have recruited treants as allies in their fight against the Horde, and wants to use their protective power for the Horde's own benefit."
+  },
+  {
+   "q": "What creatures must be found for Treant Muisek?",
+   "aliases": [
+    "which treants to kill",
+    "wandering forest walkers",
+    "treant muisek targets"
+   ],
+   "answer": "Wandering forest walkers, which roam the forest. Three of them are needed."
+  },
+  {
+   "q": "How are the treants captured?",
+   "aliases": [
+    "how to use muisek vessel",
+    "capturing forest walkers",
+    "shrink treants"
+   ],
+   "answer": "After a wandering forest walker falls, the Muisek Vessel is used to shrink it and capture it."
+  },
+  {
+   "q": "Where does Treant Muisek fit among Uzer'i's requests?",
+   "aliases": [
+    "treant muisek chain",
+    "what comes after faerie dragon muisek",
+    "next quest after treant muisek"
+   ],
+   "answer": "It follows Faerie Dragon Muisek, and Mountain Giant Muisek comes after it."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "feralas",
+  "muisek vessel",
+  "treant muisek",
+  "treants",
+  "uzer'i",
+  "wandering forest walker"
+ ],
+ "related": [
+  "npc:witch-doctor-uzer-i",
+  "quest:3125",
+  "quest:3127",
+  "zone:feralas",
+  "topic:horde"
+ ],
+ "attribution": [
+  "Classic quest text: Treant Muisek"
+ ]
+}

@@ -1,0 +1,92 @@
+{
+ "key": "quest:739",
+ "type": "quest",
+ "name": "Murdaloc",
+ "era": "classic",
+ "zone": "badlands",
+ "meta": {
+  "ids": [
+   739
+  ],
+  "level": "42",
+  "faction": "Alliance",
+  "start": "Battered Dwarven Skeleton",
+  "end": "Prospector Ironband",
+  "previous": "Find Agmond",
+  "next": "Agmond's Fate",
+  "wiki": "Murdaloc (quest)",
+  "chain": [
+   "Ironband Wants You!",
+   "Find Agmond",
+   "Murdaloc (quest)",
+   "Agmond's Fate"
+  ],
+  "prev_q": [
+   "Find Agmond"
+  ],
+  "next_q": [
+   "Agmond's Fate"
+  ],
+  "category": "Badlands"
+ },
+ "summary": "Agmond's battered remains lie in the Badlands, and a name is scrawled in the sandstone beside the dead hand: Murdaloc. Agmond's killer is to be put down, with word carried back to Prospector Ironband in Loch Modan.",
+ "sections": [
+  {
+   "title": "A Name in the Sandstone",
+   "body": "Agmond's trail comes in from the west, and the blood smeared over stone and sand tells how far the dwarf crawled before dying here. Beside the lifeless hand, scratched into the Badlands sandstone, is a single word: Murdaloc. Agmond's killer is to be slain, along with a number of Stonevault Bonesnappers, and the news taken to Prospector Ironband in Loch Modan.",
+   "spoiler": 0
+  },
+  {
+   "title": "Ironband's Reply",
+   "body": "Ironband takes the news soberly, remembering Agmond as strong of arm, fierce with a hammer and thick of skull. Ironband says Agmond was killed by cursed troggs, and is sure Agmond took a good number of them down along the way.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who was Agmond?",
+   "aliases": [
+    "who is agmond",
+    "agmond lore"
+   ],
+   "answer": "Agmond was a dwarf in charge of the excavation sites in the Badlands for Prospector Ironband. Your search for Agmond ended at a skeleton."
+  },
+  {
+   "q": "Who is Murdaloc?",
+   "aliases": [
+    "what is murdaloc",
+    "murdaloc lore"
+   ],
+   "answer": "Murdaloc is the name scrawled in the sandstone beside Agmond's dead hand. You are to slay Agmond's killer, Murdaloc."
+  },
+  {
+   "q": "Where does the report need to go?",
+   "aliases": [
+    "who do i tell about murdaloc",
+    "where is ironband"
+   ],
+   "answer": "To Prospector Ironband in Loch Modan."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "agmond",
+  "badlands",
+  "loch modan",
+  "murdaloc",
+  "prospector ironband",
+  "stonevault bonesnapper",
+  "trogg"
+ ],
+ "related": [
+  "quest:738",
+  "npc:prospector-ironband",
+  "zone:badlands",
+  "zone:lochmodan",
+  "topic:trogg",
+  "topic:dwarf"
+ ],
+ "attribution": [
+  "Murdaloc (quest)"
+ ]
+}

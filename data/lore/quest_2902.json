@@ -1,0 +1,90 @@
+{
+ "key": "quest:2902",
+ "type": "quest",
+ "name": "Woodpaw Investigation",
+ "era": "classic",
+ "zone": "feralas",
+ "meta": {
+  "ids": [
+   2902
+  ],
+  "level": "43",
+  "start": "Hadoken Swiftstrider",
+  "end": "Woodpaw Battle Map",
+  "previous": "Alpha Strike (Classic)",
+  "next": "The Battle Plans",
+  "prev_q": [
+   "Alpha Strike (Classic)"
+  ],
+  "next_q": [
+   "The Battle Plans"
+  ],
+  "wiki": null
+ },
+ "summary": "Hadoken Swiftstrider is sure the Woodpaw gnolls follow some written strategy. He sends you to search the gnoll camps south of Camp Mojache for anything resembling battle plans.",
+ "sections": [
+  {
+   "title": "A Search for Plans",
+   "body": "This comes after Alpha Strike. Hadoken has little respect for gnoll brains, yet he is sure they keep some record of their strategy, as their recent assaults are too well coordinated to be improvised. If he could see those plans, he would better understand what stirred them up. He sends you back to the Woodpaw to find whatever looks like battle plans and bring it to him.",
+   "spoiler": 0
+  },
+  {
+   "title": "What the Map Shows",
+   "body": "The map is indeed what Hadoken wanted. Arrows cross it that might show troop movements, but most run south, away from Camp Mojache in the north. Elsewhere on the map is a drawing of what you take to be a big insect, with tick marks beneath it, maybe a count of the gnolls' losses to unknown bugs.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who sends you to investigate the Woodpaw gnolls?",
+   "aliases": [
+    "who gives woodpaw investigation",
+    "quest giver woodpaw investigation"
+   ],
+   "answer": "Hadoken Swiftstrider at Camp Mojache."
+  },
+  {
+   "q": "Why does Hadoken believe the gnolls have battle plans?",
+   "aliases": [
+    "why do gnolls have plans",
+    "woodpaw strategy"
+   ],
+   "answer": "Their assaults have been too well coordinated to be improvised, so Hadoken expects a written strategy that would show what has them so stirred up."
+  },
+  {
+   "q": "Where are the battle plans located?",
+   "aliases": [
+    "where are woodpaw plans",
+    "where to find woodpaw battle map"
+   ],
+   "answer": "In the gnoll camps south of Camp Mojache."
+  },
+  {
+   "q": "What came before Woodpaw Investigation?",
+   "aliases": [
+    "previous quest woodpaw investigation",
+    "woodpaw chain prerequisite"
+   ],
+   "answer": "Alpha Strike is the step that comes right before this search."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "battle map",
+  "battle plans",
+  "camp mojache",
+  "feralas",
+  "gnolls",
+  "hadoken swiftstrider",
+  "woodpaw"
+ ],
+ "related": [
+  "subzone:camp-mojache",
+  "quest:2903",
+  "topic:gnoll",
+  "zone:feralas"
+ ],
+ "attribution": [
+  "Classic quest text: Woodpaw Investigation"
+ ]
+}

@@ -1,0 +1,89 @@
+{
+ "key": "quest:1469",
+ "type": "quest",
+ "name": "Rhapsody's Tale",
+ "era": "classic",
+ "zone": "hinterlands",
+ "meta": {
+  "ids": [
+   1469
+  ],
+  "level": "43",
+  "faction": "Alliance",
+  "start": "Rhapsody Shindigger",
+  "end": "Brohann Caskbelly",
+  "previous": "Rhapsody's Kalimdor Kocktail",
+  "next": "",
+  "wiki": "Rhapsody's Tale",
+  "chain": [],
+  "prev_q": [
+   "Rhapsody's Kalimdor Kocktail"
+  ],
+  "category": "Hinterlands",
+  "chain_tpl": [
+   "Into The Temple of Atal'Hakkar"
+  ]
+ },
+ "summary": "After Rhapsody Shindigger gets his Kalimdor Kocktail, he finally tells his tale of the flight with Brohann Caskbelly. He hands over an Atal'ai Tablet Fragment and asks that it be taken to Brohann in Stormwind.",
+ "sections": [
+  {
+   "title": "A Fragment for Brohann",
+   "body": "With the kocktail in him, Rhapsody Shindigger finally talks. Before the flight he drank a whole keg of stout, and Brohann followed him through the sky. What he kept from it is a troll souvenir, an Atal'ai Tablet Fragment, and he wants it taken to Brohann Caskbelly in Stormwind.",
+   "spoiler": 0
+  },
+  {
+   "title": "Where the Flight Ended",
+   "body": "Rhapsody saw no temple from the air. Then, a little too tipsy, he fell off his mount and plunged into the water. He was sucked down and found himself among creepy trolls, and swam out fast, carrying off a souvenir. So Brohann's temple is down there after all.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who receives the Atal'ai Tablet Fragment?",
+   "aliases": [
+    "who do i give the fragment to",
+    "brohann location",
+    "where does tablet go"
+   ],
+   "answer": "Rhapsody asks that it be brought to Brohann Caskbelly in Stormwind."
+  },
+  {
+   "q": "What does Rhapsody remember of the flight with Brohann?",
+   "aliases": [
+    "why did rhapsody fly",
+    "brohann and rhapsody"
+   ],
+   "answer": "Rhapsody drank a whole keg of stout before the flight, then zipped around the sky with Brohann following behind."
+  },
+  {
+   "q": "What came before this step?",
+   "aliases": [
+    "previous quest",
+    "prereq rhapsody's tale"
+   ],
+   "answer": "Rhapsody's Kalimdor Kocktail came first. Rhapsody would not tell the tale until that drink had been made."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "atal'ai",
+  "brohann",
+  "caskbelly",
+  "fragment",
+  "hinterlands",
+  "rhapsody",
+  "shindigger",
+  "stormwind",
+  "tablet"
+ ],
+ "related": [
+  "quest:1452",
+  "quest:1451",
+  "topic:stormwind-kingdom",
+  "topic:troll",
+  "zone:hinterlands"
+ ],
+ "attribution": [
+  "Wowpedia: Rhapsody's Tale"
+ ]
+}

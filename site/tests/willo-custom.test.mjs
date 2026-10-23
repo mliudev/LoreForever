@@ -28,7 +28,7 @@ beforeEach(async (t) => {
   await setup(env);
   await setupBilling(env);
   await setupWilloCustom(env);
-  for (const table of ["users", "sessions", "devices", "device_links", "rate_limits", "answer_spend", "story_spend",
+  for (const table of ["users", "sessions", "devices", "device_links", "rate_limits", "answer_spend", "free_pool_days", "story_spend",
                        "entitlements", "answer_user_spend", "answer_packs", "custom_prompts", "best_first"])
     env.DB.sqlite.exec(`DELETE FROM ${table}`);
   checks = [];

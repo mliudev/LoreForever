@@ -30,6 +30,7 @@ import { setupCancellations, CANCELLATIONS_USER_DATA } from "./cancellations.js"
 import { EMAIL_SETUP, EMAIL_USER_DATA } from "./email.js";
 import { NOTEBOOK_SETUP, NOTEBOOK_USER_DATA } from "./willo-notebook.js";
 import { STOCK_SETUP, STOCK_USER_DATA } from "./willo-stock.js";
+import { createMissing } from "./schema.js";
 
 const SETUP = [
   ...HISTORY_BASE_SETUP,
@@ -109,11 +110,19 @@ const SETUP = [
   `CREATE TABLE IF NOT EXISTS answer_spend (month TEXT PRIMARY KEY, reserved_micro INTEGER NOT NULL DEFAULT 0,
     actual_micro INTEGER NOT NULL DEFAULT 0, calls INTEGER NOT NULL DEFAULT 0)`,
   // What paying players' live answers and hosted voice cost each month (lib/billing.js): the shared budget leaves
-  // it out (lib/companion-answers.js FREE_ANSWER_SPEND), so it's made here with answer_spend, which every budget check
-  // reads.
+  // it out (lib/free-pool.js freeSpend), so it's made here with answer_spend, which every budget check reads.
   `CREATE TABLE IF NOT EXISTS answer_user_spend (
     user_id TEXT NOT NULL, month TEXT NOT NULL, micro INTEGER NOT NULL DEFAULT 0, calls INTEGER NOT NULL DEFAULT 0,
     topup_micro INTEGER NOT NULL DEFAULT 0, PRIMARY KEY (user_id, month))`,
+  // The free pool (lib/free-pool.js) reads these too: Willo's best first's days (also lib/billing.js SETUP, which made
+  // them first), left out of it; the month's free spend as each day began; the pool's alerts already raised.
+  `CREATE TABLE IF NOT EXISTS best_first_days (day TEXT PRIMARY KEY, reserved_micro INTEGER NOT NULL DEFAULT 0,
+    spent_micro INTEGER NOT NULL DEFAULT 0, answers INTEGER NOT NULL DEFAULT 0, replies INTEGER NOT NULL DEFAULT 0,
+    lines INTEGER NOT NULL DEFAULT 0, starts INTEGER NOT NULL DEFAULT 0, capped INTEGER NOT NULL DEFAULT 0,
+    unreachable INTEGER NOT NULL DEFAULT 0)`,
+  "CREATE TABLE IF NOT EXISTS free_pool_days (day TEXT PRIMARY KEY, start_micro INTEGER NOT NULL)",
+  `CREATE TABLE IF NOT EXISTS pool_alerts (key TEXT PRIMARY KEY, kind TEXT NOT NULL, share REAL NOT NULL,
+    used_micro INTEGER NOT NULL, of_micro INTEGER NOT NULL, created TEXT NOT NULL)`,
   // A player's profile (lib/profiles.js): the page /u/<handle>, built from their pasted journey record (data: what
   // lib/journey.js read from it, never the text itself). public: 0 until they make it public. story_source: written
   // or template; story_count: stories written for this account so far (today's tries are in rate_limits). story_at:
@@ -294,7 +303,7 @@ export async function setup(env) {
 export async function setupHistory(env) {
   if (isReportRead(env)) return;
   await setup(env);
-  await env.DB.batch(HISTORY_SETUP.map(s => env.DB.prepare(s)));
+  await createMissing(env, HISTORY_SETUP);
   ready.set(env.DB, { history: true });
 }
 

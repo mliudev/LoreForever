@@ -1,3 +1,4 @@
+import { createMissing } from "./schema.js";
 // Lore Forever's own Lua errors and blocked actions, sent by the companion app only after the player said yes to
 // "Send Lore Forever's error reports" (off until then). The add-on already keeps them in LoreForeverDB.errors
 // (addon/LoreForever/Errors.lua: its own errors only, the same message counted up, at most 20, the top of the stack),
@@ -33,7 +34,7 @@ const SETUP = [
 const ready = new WeakMap();
 export async function setup(env) {
   if (ready.get(env.DB)) return;
-  await env.DB.batch(SETUP.map(sql => env.DB.prepare(sql)));
+  await createMissing(env, SETUP);
   ready.set(env.DB, true);
 }
 

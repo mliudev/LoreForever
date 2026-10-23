@@ -1,0 +1,101 @@
+{
+ "key": "quest:2943",
+ "type": "quest",
+ "name": "Return to Troyas",
+ "era": "classic",
+ "zone": "feralas",
+ "meta": {
+  "ids": [
+   2943
+  ],
+  "level": "48",
+  "faction": "Alliance",
+  "start": "Daryn Lightwind",
+  "end": "Troyas Moonbreeze",
+  "previous": "The Super Snapper FX",
+  "next": "The Stave of Equinex",
+  "wiki": "Return to Troyas",
+  "chain": [],
+  "prev_q": [
+   "The Super Snapper FX"
+  ],
+  "next_q": [
+   "The Stave of Equinex"
+  ],
+  "category": "Teldrassil",
+  "chain_tpl": [
+   "In Search of Knowledge"
+  ]
+ },
+ "summary": "Daryn Lightwind hands over her book, Feralas: A History, and asks you to take care of it. It goes to Troyas Moonbreeze at Feathermoon Stronghold, who is surely eager for your return.",
+ "sections": [
+  {
+   "title": "A Borrowed Book",
+   "body": "With the Super Snapper FX behind you, Daryn Lightwind gives you her book and asks that you look after it. She urges you to hurry along, sure that Troyas is eager for your return. The book is bound for Troyas Moonbreeze at Feathermoon Stronghold.",
+   "spoiler": 0
+  },
+  {
+   "title": "Troyas Reads",
+   "body": "Troyas is glad you brought the book. He looks it over, skims its pages, and exclaims that he thinks he has found it.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "What am I delivering?",
+   "aliases": [
+    "what book is this",
+    "what do i bring troyas",
+    "feralas a history book"
+   ],
+   "answer": "Daryn Lightwind's book, Feralas: A History."
+  },
+  {
+   "q": "Where is Troyas Moonbreeze?",
+   "aliases": [
+    "troyas location",
+    "where is troyas moonbreeze",
+    "where do i go"
+   ],
+   "answer": "At Feathermoon Stronghold."
+  },
+  {
+   "q": "Who gives you the book?",
+   "aliases": [
+    "who gives the quest",
+    "quest giver",
+    "daryn lightwind"
+   ],
+   "answer": "Daryn Lightwind, who asks you to take care of it."
+  },
+  {
+   "q": "What came before this?",
+   "aliases": [
+    "previous quest",
+    "what did i just do",
+    "chain before this"
+   ],
+   "answer": "It follows The Super Snapper FX."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "darnassus",
+  "daryn lightwind",
+  "feathermoon stronghold",
+  "feralas",
+  "feralas: a history",
+  "troyas moonbreeze"
+ ],
+ "related": [
+  "quest:2944",
+  "quest:2879",
+  "quest:2940",
+  "subzone:feathermoon-stronghold",
+  "zone:darnassus",
+  "zone:feralas"
+ ],
+ "attribution": [
+  "Return to Troyas"
+ ]
+}

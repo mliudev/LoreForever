@@ -1,0 +1,91 @@
+{
+ "key": "quest:340",
+ "type": "quest",
+ "name": "Chapter II",
+ "era": "classic",
+ "zone": "stranglethorn",
+ "meta": {
+  "ids": [
+   340
+  ],
+  "level": "40",
+  "faction": null,
+  "start": "Barnil Stonepot",
+  "end": "Barnil Stonepot",
+  "previous": "The Green Hills of Stranglethorn (Classic)",
+  "next": "",
+  "wiki": "Chapter II",
+  "chain": [],
+  "prev_q": [
+   "The Green Hills of Stranglethorn (Classic)"
+  ],
+  "category": "Stranglethorn Vale",
+  "chain_tpl": [
+   "The Green Hills of Stranglethorn (Classic)"
+  ]
+ },
+ "summary": "Barnil Stonepot needs assistance gathering missing leaves from the second section of Hemet Nesingwary's scattered hunting manuscript. Having gathered most of the parchment himself, he relies on travelers across Stranglethorn Vale to recover the remaining scattered accounts of panther and tiger hunts.",
+ "sections": [
+  {
+   "title": "Hunts of the Jungle Cats",
+   "body": "Following the dispersal of Hemet Nesingwary's manuscript across Stranglethorn Vale, Barnil Stonepot managed to reclaim many leaves on his own. The second chapter focuses entirely on thrilling accounts of tracking panthers and tigers through the wilderness. Four specific pages\u2014numbers 10, 11, 14, and 16\u2014remain lost to the wind and the jungle's inhabitants, leaving this section of the expedition's chronicle unfinished.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is asking for these manuscript pages?",
+   "aliases": [
+    "who gives chapter 2",
+    "quest giver chapter ii",
+    "barnil stonepot"
+   ],
+   "answer": "Barnil Stonepot, who is assisting the Nesingwary expedition in Stranglethorn Vale, asks for help gathering the missing leaves."
+  },
+  {
+   "q": "Which pages are needed for the second chapter?",
+   "aliases": [
+    "what pages are needed",
+    "pages for chapter 2",
+    "chapter ii pages"
+   ],
+   "answer": "Barnil needs pages 10, 11, 14, and 16 to finish assembling the second chapter."
+  },
+  {
+   "q": "What stories are recorded in the second chapter?",
+   "aliases": [
+    "what is chapter 2 about",
+    "chapter ii lore",
+    "green hills chapter 2 content"
+   ],
+   "answer": "The second chapter documents tales of stalking and hunting the panthers and tigers that prowl Stranglethorn Vale."
+  },
+  {
+   "q": "What comes before this request?",
+   "aliases": [
+    "prior quest",
+    "prerequisite chapter 2",
+    "green hills chain"
+   ],
+   "answer": "This request follows Barnil's initial call for aid regarding the lost manuscript, known as The Green Hills of Stranglethorn."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "barnil stonepot",
+  "chapter ii",
+  "green hills of stranglethorn",
+  "nesingwary",
+  "pages",
+  "panther",
+  "stranglethorn vale",
+  "tiger"
+ ],
+ "related": [
+  "quest:338",
+  "zone:stranglethorn"
+ ],
+ "attribution": [
+  "Chapter II"
+ ]
+}

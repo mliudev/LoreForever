@@ -1,0 +1,99 @@
+{
+ "key": "quest:7732",
+ "type": "quest",
+ "name": "Zukk'ash Report",
+ "era": "classic",
+ "zone": "feralas",
+ "meta": {
+  "ids": [
+   7732
+  ],
+  "level": "48",
+  "faction": "Horde",
+  "start": "Hadoken Swiftstrider",
+  "end": "Zilzibin Drumlore",
+  "previous": "Stinglasher (Classic), Zukk'ash Infestation (Classic)",
+  "next": "",
+  "wiki": "Zukk'ash Report",
+  "chain": [],
+  "category": "Feralas",
+  "chain_tpl": [
+   "War on the Woodpaw"
+  ],
+  "prev_q": [
+   "Stinglasher (Classic)",
+   "Zukk'ash Infestation (Classic)"
+  ]
+ },
+ "summary": "Hadoken Swiftstrider says you have done doubly well against the Zukk'ash insects menacing Camp Mojache, but the danger is far from over. One last favor for the Horde: carry a document recording everything learned about the Zukk'ash to Orgrimmar, to Zilzibin Drumlore.",
+ "sections": [
+  {
+   "title": "A Document for the Drag",
+   "body": "Hadoken Swiftstrider holds a document that sets down all the camp has learned about the Zukk'ash insects. The danger they pose is far from over, and Hadoken asks you to take it to Orgrimmar. There, in the Drag, lives Zilzibin Drumlore, an expert on alien creatures such as these, and Hadoken hopes the lore gathered so far will be put to some use.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Expert's Verdict",
+   "body": "Zilzibin has been expecting the report. He calls the creatures you faced an ancient threat that the Horde keeps choosing to ignore, and says Hadoken was wise to send both the report and you. The Zukk'ash are nothing but creatures called the silithid. Some think them a mindless nuisance, but Zilzibin assures you they are a much worse threat than any the Alliance could muster.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who sends the report to Orgrimmar?",
+   "aliases": [
+    "who gives zukkash report",
+    "who starts zukkash report",
+    "quest giver"
+   ],
+   "answer": "Hadoken Swiftstrider at Camp Mojache in Feralas hands you the document."
+  },
+  {
+   "q": "To whom is the report delivered?",
+   "aliases": [
+    "where does the report go",
+    "who gets zukkash report",
+    "drumlore location"
+   ],
+   "answer": "To Zilzibin Drumlore, who resides in the Drag of Orgrimmar."
+  },
+  {
+   "q": "Why is the document taken to Orgrimmar?",
+   "aliases": [
+    "why send to orgrimmar",
+    "purpose of report"
+   ],
+   "answer": "Zilzibin Drumlore is an expert on alien creatures like the Zukk'ash, and Hadoken hopes the lore the camp has gathered will be put to some use."
+  },
+  {
+   "q": "What came before this delivery?",
+   "aliases": [
+    "previous quests",
+    "prerequisites"
+   ],
+   "answer": "It follows your efforts against the Zukk'ash insects, in Zukk'ash Infestation and Stinglasher."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "camp mojache",
+  "drag",
+  "feralas",
+  "hadoken swiftstrider",
+  "orgrimmar",
+  "silithid",
+  "zilzibin drumlore",
+  "zukk'ash report"
+ ],
+ "related": [
+  "subzone:camp-mojache",
+  "zone:feralas",
+  "zone:orgrimmar",
+  "subzone:drag",
+  "topic:horde",
+  "topic:alliance"
+ ],
+ "attribution": [
+  "Zukk'ash Report"
+ ]
+}

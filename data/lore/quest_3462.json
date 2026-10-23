@@ -1,0 +1,82 @@
+{
+ "key": "quest:3462",
+ "type": "quest",
+ "name": "Squire Maltrake",
+ "era": "classic",
+ "zone": "searinggorge",
+ "meta": {
+  "ids": [
+   3462
+  ],
+  "level": "50",
+  "faction": null,
+  "start": "Kalaran Windblade",
+  "end": "Squire Maltrake",
+  "previous": "The Torch of Retribution (2)",
+  "next": "Set Them Ablaze! (Classic)",
+  "wiki": "Squire Maltrake (quest)",
+  "chain": [],
+  "next_q": [
+   "Set Them Ablaze! (Classic)"
+  ],
+  "category": "Searing Gorge",
+  "chain_tpl": [
+   "Torch of Retribution"
+  ],
+  "prev_q": [
+   "The Torch of Retribution (2)"
+  ]
+ },
+ "summary": "After The Torch of Retribution, Kalaran Windblade sends you on to Squire Maltrake, an envoy of theirs. Maltrake will tell you how the torch is to be used.",
+ "sections": [
+  {
+   "title": "A Word with the Envoy",
+   "body": "Kalaran Windblade points you toward Squire Maltrake, an envoy. Maltrake is the one who will explain how the Torch of Retribution is to be used.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who sends you to Squire Maltrake?",
+   "aliases": [
+    "who gives squire maltrake",
+    "squire maltrake questgiver",
+    "who starts squire maltrake"
+   ],
+   "answer": "Kalaran Windblade, who calls Maltrake an envoy and tells you to go and hear their instructions."
+  },
+  {
+   "q": "What is Squire Maltrake's role?",
+   "aliases": [
+    "what does squire maltrake do",
+    "who is maltrake",
+    "why talk to maltrake"
+   ],
+   "answer": "Maltrake is the envoy Kalaran Windblade names, and will instruct you on how the Torch of Retribution is to be used."
+  },
+  {
+   "q": "What comes before speaking to Squire Maltrake?",
+   "aliases": [
+    "prerequisite squire maltrake",
+    "what quest comes before squire maltrake",
+    "previous quest maltrake"
+   ],
+   "answer": "The Torch of Retribution, the step before it in the same chain."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "envoy",
+  "kalaran windblade",
+  "searing gorge",
+  "squire maltrake",
+  "torch of retribution"
+ ],
+ "related": [
+  "quest:3454",
+  "zone:searinggorge"
+ ],
+ "attribution": [
+  "Squire Maltrake (quest)"
+ ]
+}

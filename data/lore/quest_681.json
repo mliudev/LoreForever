@@ -1,0 +1,93 @@
+{
+ "key": "quest:681",
+ "type": "quest",
+ "name": "Northfold Manor",
+ "era": "classic",
+ "zone": "arathi",
+ "meta": {
+  "ids": [
+   681
+  ],
+  "level": "31",
+  "faction": "Alliance",
+  "start": "Captain Nials",
+  "end": "Captain Nials",
+  "previous": "",
+  "next": "",
+  "wiki": "Northfold Manor (Classic)",
+  "chain": [],
+  "category": "Arathi Highlands"
+ },
+ "summary": "Captain Nials, at Refuge Pointe, asks for help against the Syndicate holding Northfold Manor. Their hold on the land between the defenders of Stromgarde and Southshore makes it hard for supplies to arrive.",
+ "sections": [
+  {
+   "title": "A Struggling Defense",
+   "body": "Stromgarde has been carved up between the ogres, the Syndicate and the Alliance, and every faction fights the others to a bloody stalemate. The Alliance's forces dwindle while their enemies grow. The defenders need help from Southshore, but supplies are slow to arrive.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Syndicate at the Manor",
+   "body": "The Syndicate holds the ground between the defenders and Southshore. Captain Nials wants you to go to their base at Northfold Manor and cut down their highwaymen and mercenaries, in the hope that the pressure on the supply trains eases and more get through.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Why does Captain Nials want the Syndicate attacked at Northfold Manor?",
+   "aliases": [
+    "why attack northfold manor",
+    "nials objective",
+    "purpose of northfold manor quest"
+   ],
+   "answer": "Southshore is where help must come from, but the Syndicate sits on the land between there and the defenders. Nials hopes that slaying them at their base will ease the pressure on the supply trains."
+  },
+  {
+   "q": "What is the current situation in Stromgarde?",
+   "aliases": [
+    "stromgarde war status",
+    "who controls stromgarde",
+    "state of stromgarde"
+   ],
+   "answer": "The ogres, the Syndicate and the Alliance have divided the once great city between them, and each faction battles the others to a bloody stalemate. The Alliance's forces dwindle while its enemies grow."
+  },
+  {
+   "q": "Where are the Alliance supplies coming from?",
+   "aliases": [
+    "who supplies refuge pointe",
+    "southshore supplies",
+    "where do shipments originate"
+   ],
+   "answer": "The defenders look to the town of Southshore for help, but the Syndicate's hold on the land between makes the supplies difficult to receive."
+  },
+  {
+   "q": "Which enemies need to be eliminated at the manor?",
+   "aliases": [
+    "who to kill at northfold",
+    "northfold targets",
+    "syndicate enemies list"
+   ],
+   "answer": "Ten Syndicate Highwaymen and six Syndicate Mercenaries, found at Northfold Manor."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "captain nials",
+  "highwayman",
+  "mercenary",
+  "northfold manor",
+  "refuge pointe",
+  "southshore",
+  "stromgarde",
+  "syndicate"
+ ],
+ "related": [
+  "subzone:refuge-pointe",
+  "subzone:northfold-manor",
+  "topic:syndicate",
+  "subzone:southshore",
+  "zone:arathi"
+ ],
+ "attribution": [
+  "Northfold Manor (Classic)"
+ ]
+}

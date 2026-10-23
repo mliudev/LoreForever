@@ -1,0 +1,83 @@
+{
+ "key": "quest:1323",
+ "type": "quest",
+ "name": "The Black Shield",
+ "era": "classic",
+ "zone": "dustwallow",
+ "meta": {
+  "ids": [
+   1323
+  ],
+  "level": "37",
+  "start": "Do'gol",
+  "end": "Krog",
+  "previous": "The Black Shield",
+  "wiki": null,
+  "next": "The Black Shield"
+ },
+ "summary": "Do'gol has rubbed the shield clear enough to see what appears to spell Mosarn, a name that means nothing to Do'gol. Krog in Brackenwall Village knows many people, so Do'gol sends you to ask there.",
+ "sections": [
+  {
+   "title": "A Name on the Rim",
+   "body": "Do'gol poured on a bit too much acid, but a little rubbing brings out writing that is still hard to read and seems to say Mosarn. The name means nothing to Do'gol. Krog in Brackenwall Village knows many people, so Do'gol sends you to talk with Krog.",
+   "spoiler": 0
+  },
+  {
+   "title": "Krog's Answer",
+   "body": "Krog finds the name Mosarn familiar but cannot place it, and hopes it will come back later. Krog adds that it probably does not matter, since shields turn up from all sorts of places and carry no meaning.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Do'gol?",
+   "aliases": [
+    "dogol",
+    "who gives the black shield"
+   ],
+   "answer": "The one in Brackenwall Village who has been cleaning the shield with acid to read its writing."
+  },
+  {
+   "q": "What name is on the shield?",
+   "aliases": [
+    "what name is on the shield",
+    "who is mosarn",
+    "shield inscription name"
+   ],
+   "answer": "Do'gol thinks the writing spells Mosarn, though it is hard to read, and has never heard of anyone by that name."
+  },
+  {
+   "q": "Why talk to Krog about the shield?",
+   "aliases": [
+    "why talk to krog",
+    "who is krog"
+   ],
+   "answer": "Do'gol does not know who Mosarn is, but says Krog knows many people."
+  },
+  {
+   "q": "Where is Krog located?",
+   "aliases": [
+    "krog location",
+    "where do i find krog"
+   ],
+   "answer": "Krog is in Brackenwall Village."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "acid",
+  "black shield",
+  "brackenwall village",
+  "do'gol",
+  "dustwallow marsh",
+  "krog",
+  "mosarn"
+ ],
+ "related": [
+  "subzone:brackenwall-village",
+  "zone:dustwallow"
+ ],
+ "attribution": [
+  "Classic quest text: The Black Shield"
+ ]
+}

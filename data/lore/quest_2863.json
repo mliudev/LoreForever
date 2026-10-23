@@ -1,0 +1,90 @@
+{
+ "key": "quest:2863",
+ "type": "quest",
+ "name": "Alpha Strike",
+ "era": "classic",
+ "zone": "feralas",
+ "meta": {
+  "ids": [
+   2863
+  ],
+  "level": "43",
+  "faction": "Horde",
+  "start": "Hadoken Swiftstrider",
+  "end": "Hadoken Swiftstrider",
+  "previous": "",
+  "next": "",
+  "wiki": "Alpha Strike (Classic)",
+  "chain": [],
+  "category": "Feralas",
+  "chain_tpl": [
+   "War on the Woodpaw"
+  ]
+ },
+ "summary": "Hadoken Swiftstrider has a plan to break the impasse with the Woodpaw gnolls: strike down several of their leaders, who call themselves Alphas, in quick succession. Hadoken wants you to be the one to carry it out.",
+ "sections": [
+  {
+   "title": "Five Alphas in an Hour",
+   "body": "Hadoken reasons that if the gnoll leaders, who call themselves Alphas, fall one after another, their ranks will be thrown into chaos. It might also send the message that the Horde can and will destroy them. You are to carry out Hadoken's will: five Alphas down inside a single hour, or the stalemate stays.",
+   "spoiler": 0
+  },
+  {
+   "title": "Afterwards",
+   "body": "Thinned ranks and slain leaders, Hadoken expects, will make the gnolls hesitate before storming the camp. Yet the trouble is not over. Hadoken wants to learn what has driven the gnolls into such a frenzy, and to do so ahead of their regrouping.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who gives this quest?",
+   "aliases": [
+    "who gives alpha strike",
+    "hadoken swiftstrider",
+    "quest giver"
+   ],
+   "answer": "Hadoken Swiftstrider, who is dealing with the stalemate against the Woodpaw gnolls for the Horde."
+  },
+  {
+   "q": "Why the one-hour limit?",
+   "aliases": [
+    "why one hour",
+    "why rapid succession",
+    "alpha strike timer"
+   ],
+   "answer": "The plan only works if the Alphas fall in swift succession, since that is what should throw the gnoll ranks into chaos. Five must fall within an hour."
+  },
+  {
+   "q": "What are the Alphas?",
+   "aliases": [
+    "woodpaw alphas",
+    "gnoll alphas",
+    "who are the targets"
+   ],
+   "answer": "They are leaders among the Woodpaw gnolls, who call themselves Alphas."
+  },
+  {
+   "q": "How many Alphas must I kill?",
+   "aliases": [
+    "how many alphas",
+    "alpha count"
+   ],
+   "answer": "Five, all within one hour, before returning to Hadoken Swiftstrider."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "alpha strike",
+  "feralas",
+  "gnolls",
+  "hadoken swiftstrider",
+  "woodpaw",
+  "woodpaw alpha"
+ ],
+ "related": [
+  "zone:feralas",
+  "topic:gnoll"
+ ],
+ "attribution": [
+  "Alpha Strike (Classic)"
+ ]
+}

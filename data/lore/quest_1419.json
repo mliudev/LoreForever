@@ -1,0 +1,81 @@
+{
+ "key": "quest:1419",
+ "type": "quest",
+ "name": "Coyote Thieves",
+ "era": "classic",
+ "zone": "badlands",
+ "meta": {
+  "ids": [
+   1419
+  ],
+  "level": "40",
+  "faction": "Horde",
+  "start": "Neeka Bloodscar",
+  "end": "Neeka Bloodscar",
+  "previous": "",
+  "next": "",
+  "wiki": "Coyote Thieves",
+  "chain": [],
+  "category": "Badlands"
+ },
+ "summary": "In the outpost of Kargath, Neeka Bloodscar wants you to hunt the crag coyotes of the Badlands, tough beasts that have dared to sneak into Kargath and steal its food. Thirty jawbones are what Neeka asks for.",
+ "sections": [
+  {
+   "title": "Thieves of Kargath",
+   "body": "Neeka Bloodscar asks whether you have spent many days in the Badlands, felt its heat and met the beasts of its dusty plains. Crag coyotes are a tough breed, and they have crept into Kargath to steal from the outpost's food. Neeka wants them hunted and their jawbones brought back. Bring enough, and Neeka may believe you know the Badlands.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Why does Neeka Bloodscar want coyote jawbones?",
+   "aliases": [
+    "why coyote jawbones",
+    "neeka bloodscar motivation",
+    "why collect jawbones"
+   ],
+   "answer": "Crag coyotes have sneaked into Kargath and stolen from its food supplies. Neeka wants them hunted, and wants jawbones as proof that you know the Badlands."
+  },
+  {
+   "q": "Where are the coyotes causing trouble?",
+   "aliases": [
+    "coyote location",
+    "where to find crag coyotes",
+    "where are the coyotes"
+   ],
+   "answer": "Crag coyotes wander the dusty plains of the Badlands, and they have crept into the outpost of Kargath to steal food."
+  },
+  {
+   "q": "How many jawbones does Neeka Bloodscar want?",
+   "aliases": [
+    "how many jawbones",
+    "coyote jawbone count"
+   ],
+   "answer": "Thirty coyote jawbones, brought to Neeka Bloodscar in Kargath."
+  },
+  {
+   "q": "Who is Neeka Bloodscar?",
+   "aliases": [
+    "who is neeka",
+    "neeka bloodscar"
+   ],
+   "answer": "Neeka Bloodscar is at the outpost of Kargath in the Badlands, where Neeka gives out this hunt."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "badlands",
+  "coyote thieves",
+  "crag coyote",
+  "jawbones",
+  "kargath",
+  "neeka bloodscar"
+ ],
+ "related": [
+  "subzone:kargath",
+  "zone:badlands"
+ ],
+ "attribution": [
+  "Coyote Thieves"
+ ]
+}

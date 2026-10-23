@@ -1,0 +1,93 @@
+{
+ "key": "quest:2978",
+ "type": "quest",
+ "name": "The Gordunni Scroll",
+ "era": "classic",
+ "zone": "feralas",
+ "meta": {
+  "ids": [
+   2978
+  ],
+  "level": "43",
+  "faction": "Horde",
+  "start": "Gordunni Scroll",
+  "end": "Rok Orhan",
+  "previous": "",
+  "next": "Dark Ceremony",
+  "wiki": "The Gordunni Scroll",
+  "chain": [
+   "The Gordunni Scroll",
+   "Dark Ceremony",
+   "The Gordunni Orb (Classic)"
+  ],
+  "next_q": [
+   "Dark Ceremony"
+  ],
+  "category": "Feralas"
+ },
+ "summary": "A soiled scroll lies in the Gordunni Outpost, and picking it up shows what seems to be a meeting or ceremony. Rok Orhan at Camp Mojache would be interested in it, and in what it might mean for the Gordunni.",
+ "sections": [
+  {
+   "title": "The Soiled Scroll",
+   "body": "Taking up the soiled scroll, you see that it appears to depict a gathering or ceremony of some kind. Rok Orhan in Camp Mojache, you judge, would want to see it, and to learn what it might mean for the Gordunni.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What does the Gordunni Scroll show?",
+   "aliases": [
+    "what does the scroll show",
+    "gordunni scroll contents",
+    "scroll drawing"
+   ],
+   "answer": "It seems to show some sort of meeting or ceremony."
+  },
+  {
+   "q": "Who wants the Gordunni Scroll?",
+   "aliases": [
+    "who wants the scroll",
+    "where do i take the scroll",
+    "turn in gordunni scroll"
+   ],
+   "answer": "Rok Orhan, in Camp Mojache."
+  },
+  {
+   "q": "Where is the Gordunni Scroll found?",
+   "aliases": [
+    "where is the gordunni scroll",
+    "gordunni scroll location"
+   ],
+   "answer": "In the Gordunni Outpost, where you can pick it up."
+  },
+  {
+   "q": "What follows the Gordunni Scroll?",
+   "aliases": [
+    "what is the next quest",
+    "after the gordunni scroll",
+    "gordunni scroll chain"
+   ],
+   "answer": "The chain goes on with Dark Ceremony."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "camp mojache",
+  "ceremony",
+  "feralas",
+  "gordunni outpost",
+  "gordunni scroll",
+  "ogres",
+  "rok orhan"
+ ],
+ "related": [
+  "quest:2979",
+  "subzone:camp-mojache",
+  "subzone:gordunni-outpost",
+  "zone:feralas",
+  "quest:3002"
+ ],
+ "attribution": [
+  "The Gordunni Scroll"
+ ]
+}

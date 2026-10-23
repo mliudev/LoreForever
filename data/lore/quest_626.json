@@ -1,0 +1,86 @@
+{
+ "key": "quest:626",
+ "type": "quest",
+ "name": "Cortello's Riddle",
+ "era": "classic",
+ "zone": "stranglethorn",
+ "meta": {
+  "ids": [
+   626
+  ],
+  "level": "51",
+  "faction": "Neutral",
+  "start": "Musty Scroll",
+  "end": "Cortello's Treasure",
+  "previous": "Cortello's Riddle (2)",
+  "next": "",
+  "wiki": "Cortello's Riddle (3)",
+  "chain": [],
+  "prev_q": [
+   "Cortello's Riddle (2)"
+  ],
+  "category": "Stranglethorn Vale",
+  "chain_tpl": [
+   "Cortello's Riddle"
+  ]
+ },
+ "summary": "A cryptic musty scroll provides the final set of verse left behind by Cortello. The rhyming instructions direct treasure hunters far north to the troubled continent of Lordaeron, where the trail reaches its conclusion along the coastal waterfalls of the Hinterlands.",
+ "sections": [
+  {
+   "title": "The Final Clue",
+   "body": "Following the earlier scrolls, this weathered text points away from the southern tropics toward the embattled lands of Lordaeron. The riddle bids searchers to seek out the great turmoil in the north, promising that the long chase ends by braving that unrest and pursuing the coastline.",
+   "spoiler": 0
+  },
+  {
+   "title": "Beneath the Cascade",
+   "body": "The verse specifies that the final hoard lies along the shore of the Hinterlands. At the base of the great falls, the treasure lies underwater.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Where does this riddle lead?",
+   "aliases": [
+    "where is cortellos riddle final",
+    "where do i go for cortello riddle 3",
+    "cortello hinterlands location"
+   ],
+   "answer": "The verse leads to the coast of the Hinterlands in Lordaeron, directing seekers to look underwater at the base of the great waterfall cascading from the cliffs."
+  },
+  {
+   "q": "What starts this part of the search?",
+   "aliases": [
+    "how to start cortellos riddle part 3",
+    "where do i get the scroll"
+   ],
+   "answer": "This final riddle is read from a musty scroll uncovered during the earlier steps of Cortello's treasure hunt."
+  },
+  {
+   "q": "Who wrote these verses?",
+   "aliases": [
+    "who is cortello",
+    "who made cortellos riddle"
+   ],
+   "answer": "The riddles and hidden scrolls were left behind by a figure named Cortello, leading searchers to his hidden treasure."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "cortello",
+  "cortello's riddle",
+  "hinterlands",
+  "lordaeron",
+  "musty scroll",
+  "overlook cliffs",
+  "treasure",
+  "waterfall"
+ ],
+ "related": [
+  "zone:hinterlands",
+  "topic:lordaeron",
+  "zone:stranglethorn"
+ ],
+ "attribution": [
+  "Cortello's Riddle (3)"
+ ]
+}

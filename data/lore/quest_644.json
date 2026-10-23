@@ -1,0 +1,100 @@
+{
+ "key": "quest:644",
+ "type": "quest",
+ "name": "Sigil of Trollbane",
+ "era": "classic",
+ "zone": "arathi",
+ "meta": {
+  "ids": [
+   644
+  ],
+  "level": "42",
+  "faction": "Horde",
+  "start": "Zengu",
+  "end": "Zengu",
+  "previous": "Sigil of Arathor (Classic)",
+  "next": "Trol'kalar (Classic)",
+  "wiki": "Sigil of Trollbane (quest)",
+  "chain": [],
+  "prev_q": [
+   "Sigil of Arathor (Classic)"
+  ],
+  "next_q": [
+   "Trol'kalar (Classic)"
+  ],
+  "category": "Arathi Highlands",
+  "chain_tpl": [
+   "Broken Sigil"
+  ]
+ },
+ "summary": "Following the Sigil of Arathor, Zengu sends you to slay Prince Galen Trollbane and take the last sigil, the one that unlocks his father Thoras Trollbane's tomb. The prince keeps it on his own person, far inside Stromgarde.",
+ "sections": [
+  {
+   "title": "The Last Sigil",
+   "body": "The last sigil that can open the tomb of Thoras Trollbane is kept by Thoras's son, Prince Galen, in person. He is to be found far inside Stromgarde, in a chapel within the districts the militia holds. Zengu warns that Galen is well guarded and a fine fighter, so this could prove very hard. You are to kill him and carry the sigil to Zengu in Hammerfall.",
+   "spoiler": 0
+  },
+  {
+   "title": "Zengu's Verdict",
+   "body": "Zengu asks whether the line of Ignaeus Trollbane is broken. Once it is, he declares that Trollbane blood will no longer haunt his people, and that every sigil needed to claim Trol'kalar is now in their hands. Before long, he vows, they will strike at the trolls of Zul'Gurub, whom he hates.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who sends you to retrieve the Sigil of Trollbane?",
+   "aliases": [
+    "sigil of trollbane questgiver",
+    "who gives sigil of trollbane",
+    "where do i start sigil of trollbane"
+   ],
+   "answer": "Zengu, at Hammerfall, is the one who sends you."
+  },
+  {
+   "q": "Where is Prince Galen Trollbane located?",
+   "aliases": [
+    "prince galen trollbane location",
+    "where is galen trollbane",
+    "galen trollbane stromgarde"
+   ],
+   "answer": "In a chapel far inside Stromgarde, in the part held by the militia."
+  },
+  {
+   "q": "Why is the Sigil of Trollbane needed?",
+   "aliases": [
+    "purpose of sigil of trollbane",
+    "why get sigil of trollbane"
+   ],
+   "answer": "It is the last sigil Zengu needs to open Thoras Trollbane's tomb, and Thoras's son keeps it himself."
+  },
+  {
+   "q": "What comes after obtaining the Sigil of Trollbane?",
+   "aliases": [
+    "next quest after sigil of trollbane",
+    "what follows sigil of trollbane"
+   ],
+   "answer": "The chain continues with Trol'kalar."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "galen trollbane",
+  "hammerfall",
+  "sigil of arathor",
+  "stromgarde",
+  "trol'kalar",
+  "zengu",
+  "zul'gurub"
+ ],
+ "related": [
+  "quest:645",
+  "subzone:hammerfall",
+  "zone:arathi",
+  "quest:638",
+  "subzone:zul-gurub",
+  "topic:troll"
+ ],
+ "attribution": [
+  "Sigil of Trollbane (quest)"
+ ]
+}

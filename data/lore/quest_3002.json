@@ -1,0 +1,97 @@
+{
+ "key": "quest:3002",
+ "type": "quest",
+ "name": "The Gordunni Orb",
+ "era": "classic",
+ "zone": "feralas",
+ "meta": {
+  "ids": [
+   3002
+  ],
+  "level": "47",
+  "faction": "Horde",
+  "start": "Rok Orhan",
+  "end": "Uthel'nay",
+  "previous": "Dark Ceremony",
+  "next": "",
+  "wiki": "The Gordunni Orb (Classic)",
+  "chain": [
+   "The Gordunni Scroll",
+   "Dark Ceremony",
+   "The Gordunni Orb (Classic)"
+  ],
+  "prev_q": [
+   "Dark Ceremony"
+  ],
+  "category": "Feralas"
+ },
+ "summary": "Rok Orhan knows the enemy well, but is a warrior and cannot say what the Gordunni orb is capable of. Rok knows of a mage in Orgrimmar who can tell more. The orb is yours to carry to Uthel'nay, at Orgrimmar's Darkbriar Lodge. This follows Dark Ceremony.",
+ "sections": [
+  {
+   "title": "Beyond a Warrior's Knowledge",
+   "body": "After Dark Ceremony, Rok Orhan holds the orb, but admits to being a warrior who cannot begin to say what it can do. Rok knows a mage in Orgrimmar who will be able to say more, and sends you off with the orb to find Uthel'nay at the Darkbriar Lodge.",
+   "spoiler": 0
+  },
+  {
+   "title": "Uthel'nay's Verdict",
+   "body": "Uthel'nay finds the orb fascinating. It is very powerful, Uthel'nay says, but also very dangerous.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who sends you to Uthel'nay?",
+   "aliases": [
+    "gordunni orb chain",
+    "dark ceremony followup",
+    "prerequisites for the gordunni orb"
+   ],
+   "answer": "Rok Orhan, once you have the orb that Dark Ceremony sent you for."
+  },
+  {
+   "q": "Why does Rok Orhan not examine the orb?",
+   "aliases": [
+    "why send orb to orgrimmar",
+    "why rok orhan gives orb away",
+    "why uthel'nay"
+   ],
+   "answer": "Rok Orhan is a warrior and cannot begin to say what the orb can do, but knows a mage in Orgrimmar who can tell more."
+  },
+  {
+   "q": "Where is Uthel'nay?",
+   "aliases": [
+    "uthel'nay location",
+    "where is uthelnay",
+    "darkbriar lodge location"
+   ],
+   "answer": "In the Darkbriar Lodge in Orgrimmar."
+  },
+  {
+   "q": "What comes before The Gordunni Orb?",
+   "aliases": [
+    "gordunni orb prerequisite",
+    "gordunni orb previous quest"
+   ],
+   "answer": "Dark Ceremony, in which Rok Orhan sent you to take an orb from a Gordunni mage-lord."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "darkbriar lodge",
+  "feralas",
+  "gordunni",
+  "gordunni orb",
+  "orgrimmar",
+  "rok orhan",
+  "uthel'nay"
+ ],
+ "related": [
+  "quest:2979",
+  "quest:2978",
+  "zone:feralas",
+  "zone:orgrimmar"
+ ],
+ "attribution": [
+  "The Gordunni Orb (Classic)"
+ ]
+}

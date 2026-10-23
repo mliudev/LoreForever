@@ -1,0 +1,96 @@
+{
+ "key": "quest:2871",
+ "type": "quest",
+ "name": "Delivering the Relic",
+ "era": "classic",
+ "zone": "feralas",
+ "meta": {
+  "ids": [
+   2871
+  ],
+  "level": "45",
+  "faction": "Alliance",
+  "start": "Latronicus Moonspear",
+  "end": "Vestia Moonspear",
+  "previous": "Against Lord Shalzaru",
+  "next": "",
+  "wiki": "Delivering the Relic",
+  "chain": [
+   "Against the Hatecrest",
+   "Against the Hatecrest (2)",
+   "Against Lord Shalzaru",
+   "Delivering the Relic"
+  ],
+  "prev_q": [
+   "Against Lord Shalzaru"
+  ],
+  "category": "Feralas"
+ },
+ "summary": "Latronicus Moonspear asks you to carry the Mysterious Relic to his wife, Vestia Moonspear, at Feathermoon Stronghold. He cannot make heads or tails of the device and hopes she can tell what it is.",
+ "sections": [
+  {
+   "title": "A Scholar's Eye",
+   "body": "Latronicus Moonspear could not make sense of the device even with a wager riding on it. His wife Vestia, he says, is a fine priestess for their community and one of the most learned scholars to be found anywhere. If anyone can work out what the relic is, she can, and they need to know. She is only a short walk away and no doubt busy studying.",
+   "spoiler": 0
+  },
+  {
+   "title": "Vestia's First Look",
+   "body": "Vestia knows of you as the one who has aided General Feathermoon and Latro against the naga. With the relic in her hands, she judges at first glance that it does not seem native to the ruins it came from, nor is it of naga design, being something far more alien. Researching it will take time, and once she is done she may call on your talents if you are around.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Vestia Moonspear?",
+   "aliases": [
+    "vestia moonspear",
+    "who is vestia",
+    "latro wife"
+   ],
+   "answer": "Latronicus Moonspear's wife. Latronicus calls her a fine priestess for their community and as learned a scholar as any. She is at Feathermoon Stronghold."
+  },
+  {
+   "q": "Where does the Mysterious Relic come from?",
+   "aliases": [
+    "where did the relic come from",
+    "relic origin",
+    "mysterious relic source"
+   ],
+   "answer": "It is the relic Lord Shalzaru uncovered when the naga were digging in a cave on the Isle of Dread."
+  },
+  {
+   "q": "What does Latronicus Moonspear know about the relic?",
+   "aliases": [
+    "what does latronicus know",
+    "latro device"
+   ],
+   "answer": "Little. He says he could not make heads or tails of the device, which is why he wants his wife to look at it."
+  },
+  {
+   "q": "Where do I take the relic?",
+   "aliases": [
+    "who gets the relic",
+    "delivering the relic destination"
+   ],
+   "answer": "To Vestia Moonspear in Feathermoon Stronghold. Latronicus says she is just around the bend."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "delivering the relic",
+  "feathermoon stronghold",
+  "feralas",
+  "latronicus moonspear",
+  "mysterious relic",
+  "vestia moonspear"
+ ],
+ "related": [
+  "quest:2870",
+  "npc:lord-shalzaru",
+  "topic:naga",
+  "zone:feralas"
+ ],
+ "attribution": [
+  "Delivering the Relic"
+ ]
+}

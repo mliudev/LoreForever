@@ -1,0 +1,86 @@
+{
+ "key": "quest:92459",
+ "type": "quest",
+ "name": "Friend of the Kirin Tor",
+ "era": "forever",
+ "zone": "alterac",
+ "meta": {
+  "ids": [
+   92459
+  ],
+  "level": "33",
+  "faction": "Alliance",
+  "start": "Image of Archmage Modera",
+  "end": "Archmage Celindra",
+  "previous": "",
+  "next": "",
+  "wiki": "Friend of the Kirin Tor",
+  "chain": [],
+  "category": "Alterac Mountains",
+  "chain_tpl": [
+   "City of Dalaran quests"
+  ]
+ },
+ "summary": "Archmage Modera's image admits that the council will dislike hearing of the subterfuge, yet cannot argue with results: Dalaran is calming, and the wards may come down. She gives you an arcane mote to take to Archmage Celindra, in the Violet Citadel.",
+ "sections": [
+  {
+   "title": "The Good Word",
+   "body": "The Image of Archmage Modera admits that the council will dislike hearing of the subterfuge, yet cannot argue with results. The city is calming, and the wards may now be lowered. She thinks you should be the one to carry the good word, and gives you an arcane mote to take to Archmage Celindra, in Dalaran's Violet Citadel.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who sends you to Archmage Celindra?",
+   "aliases": [
+    "who gives friend of the kirin tor",
+    "friend of the kirin tor quest giver",
+    "modera quest"
+   ],
+   "answer": "The Image of Archmage Modera, who has you deliver the good word about Dalaran."
+  },
+  {
+   "q": "Where is Archmage Celindra?",
+   "aliases": [
+    "where to turn in friend of the kirin tor",
+    "who is celindra",
+    "archmage celindra location"
+   ],
+   "answer": "In the Violet Citadel, in the City of Dalaran."
+  },
+  {
+   "q": "What item do you carry to the Violet Citadel?",
+   "aliases": [
+    "friend of the kirin tor item",
+    "what is the arcane mote"
+   ],
+   "answer": "An arcane mote, which Modera gives you to take to Archmage Celindra."
+  },
+  {
+   "q": "What is the good word?",
+   "aliases": [
+    "what news does modera send",
+    "why lower the wards"
+   ],
+   "answer": "That Dalaran is calming down and its wards are free to be lowered."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "alterac",
+  "arcane mote",
+  "celindra",
+  "dalaran",
+  "kirin tor",
+  "modera",
+  "violet citadel",
+  "wards"
+ ],
+ "related": [
+  "subzone:dalaran",
+  "zone:alterac"
+ ],
+ "attribution": [
+  "Friend of the Kirin Tor"
+ ]
+}

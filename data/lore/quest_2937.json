@@ -1,0 +1,84 @@
+{
+ "key": "quest:2937",
+ "type": "quest",
+ "name": "Summoning Shadra",
+ "era": "classic",
+ "zone": "hinterlands",
+ "meta": {
+  "ids": [
+   2937
+  ],
+  "level": "55",
+  "faction": "Horde",
+  "start": "Master Gadrin",
+  "end": "Apothecary Lydon",
+  "previous": "",
+  "next": "Venom to the Undercity",
+  "wiki": "Summoning Shadra (Classic)",
+  "chain": [],
+  "next_q": [
+   "Venom to the Undercity"
+  ],
+  "qtype": "Elite",
+  "category": "Hinterlands",
+  "chain_tpl": [
+   "Venom to the Undercity"
+  ]
+ },
+ "summary": "Master Gadrin gives you a parchment to read at the altar of Shadra'Alor, deep in the Witherbark realm of the Hinterlands, to summon Shadra the spider god. Her venom is then to be carried to Apothecary Lydon in Tarren Mill.",
+ "sections": [
+  {
+   "title": "Call of the Spider God",
+   "body": "Gadrin's parchment is meant to be read at Shadra'Alor's altar, deep within the Witherbark realm of the Hinterlands. Doing so calls up Shadra the spider god. She must be defeated there, and her venom taken to Apothecary Lydon in Tarren Mill.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who provides the parchment to summon Shadra?",
+   "aliases": [
+    "who gives summoning shadra",
+    "summoning shadra questgiver"
+   ],
+   "answer": "Master Gadrin gives you the parchment."
+  },
+  {
+   "q": "Where is Shadra summoned?",
+   "aliases": [
+    "where to summon shadra",
+    "altar of shadra'alor location",
+    "shadra location"
+   ],
+   "answer": "In the Hinterlands, at Shadra'Alor's altar, well inside the Witherbark realm."
+  },
+  {
+   "q": "Who receives the venom once Shadra is defeated?",
+   "aliases": [
+    "who do i turn the venom into",
+    "summoning shadra turn in",
+    "apothecary lydon location"
+   ],
+   "answer": "Apothecary Lydon, in Tarren Mill."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "apothecary lydon",
+  "hinterlands",
+  "master gadrin",
+  "shadra",
+  "shadra'alor",
+  "spider god",
+  "tarren mill",
+  "witherbark"
+ ],
+ "related": [
+  "quest:2938",
+  "npc:master-gadrin",
+  "zone:hinterlands",
+  "subzone:tarren-mill"
+ ],
+ "attribution": [
+  "Summoning Shadra (Classic)"
+ ]
+}

@@ -1,0 +1,102 @@
+{
+ "key": "quest:603",
+ "type": "quest",
+ "name": "Ansirem's Key",
+ "era": "classic",
+ "zone": "stranglethorn",
+ "meta": {
+  "ids": [
+   603
+  ],
+  "level": "37",
+  "faction": "Alliance",
+  "start": "Archmage Ansirem Runeweaver",
+  "end": "Catelyn the Blade",
+  "previous": "Magical Analysis",
+  "next": "\"Pretty Boy\" Duncan (quest)",
+  "wiki": "Ansirem's Key",
+  "chain": [],
+  "prev_q": [
+   "Magical Analysis"
+  ],
+  "next_q": [
+   "\"Pretty Boy\" Duncan (quest)"
+  ],
+  "category": "Stranglethorn Vale",
+  "chain_tpl": [
+   "Stone of the Tides"
+  ]
+ },
+ "summary": "Following his magical examination, Archmage Ansirem Runeweaver points toward an ancient troll dagger capable of disrupting the focal altar empowering the Stone of the Tides. He passed it long ago to his daughter Catelyn, a headstrong girl who left home for the pirates of Booty Bay.",
+ "sections": [
+  {
+   "title": "A Wayward Daughter",
+   "body": "Ansirem Runeweaver determines that an altar or focal point amplifies the power of the Stone of the Tides. Overpowering that magic calls for another troll relic: an ancient dagger he found while researching in Stranglethorn. He passed it long ago to his daughter Catelyn, a headstrong girl who left home for the pirates of Booty Bay.",
+   "spoiler": 0
+  },
+  {
+   "title": "A Fighter Disarmed",
+   "body": "Reaching Booty Bay reveals that the dagger is no longer at Catelyn's hip. Once celebrated as the settlement's sharpest knife fighter, she suffered defeat in a duel against one of the Bloodsail Buccaneers. Her victor claimed the troll blade as a trophy, leaving her disarmed, humiliated, and bitterly mocked by her fellow cutthroats.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Why does Archmage Ansirem need the troll dagger?",
+   "aliases": [
+    "why need dagger",
+    "ansirem key purpose",
+    "what is the dagger for"
+   ],
+   "answer": "The mage holding the Stone of the Tides is channeling its magic through an altar. Ansirem means to disrupt that empowerment by overpowering it, and he knows of an ancient troll dagger that could do it."
+  },
+  {
+   "q": "Who is Catelyn?",
+   "aliases": [
+    "who is catelyn",
+    "ansirem daughter",
+    "catelyn the blade"
+   ],
+   "answer": "Catelyn is the headstrong daughter of Archmage Ansirem Runeweaver. She left her father behind to run off to Booty Bay and take up life as a pirate."
+  },
+  {
+   "q": "Where did Ansirem find the dagger originally?",
+   "aliases": [
+    "dagger origin",
+    "where did ansirem find dagger"
+   ],
+   "answer": "Ansirem uncovered the relic while conducting research in the jungles of Stranglethorn Vale before giving it to his daughter."
+  },
+  {
+   "q": "Where can Catelyn be found?",
+   "aliases": [
+    "where is catelyn",
+    "catelyn location"
+   ],
+   "answer": "She resides down in the pirate haven of Booty Bay at the southern tip of Stranglethorn Vale."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "ansirem",
+  "booty bay",
+  "catelyn",
+  "dagger",
+  "runeweaver",
+  "stone of the tides",
+  "troll relic"
+ ],
+ "related": [
+  "npc:archmage-ansirem-runeweaver",
+  "quest:602",
+  "quest:578",
+  "subzone:booty-bay",
+  "zone:stranglethorn",
+  "topic:pirate",
+  "topic:troll",
+  "quest:595"
+ ],
+ "attribution": [
+  "Ansirem's Key"
+ ]
+}

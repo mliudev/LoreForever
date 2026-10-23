@@ -1,0 +1,95 @@
+{
+ "key": "quest:4281",
+ "type": "quest",
+ "name": "Thalanaar Delivery",
+ "era": "classic",
+ "zone": "feralas",
+ "meta": {
+  "ids": [
+   4281
+  ],
+  "level": "44",
+  "faction": "Alliance",
+  "start": "Undelivered Parcel",
+  "end": "Falfindel Waywarder",
+  "previous": "",
+  "next": "",
+  "wiki": "Thalanaar Delivery",
+  "chain": [],
+  "category": "Feralas",
+  "chain_tpl": [
+   "The Missing Courier"
+  ]
+ },
+ "summary": "You picked up a parcel of goods in the Woodpaw gnoll camps, though it was meant for Thalanaar, a small way-station in the southeast of Feralas. Whatever became of the courier, the delivery remains unfinished, and a hand-written name on the packaging, Falfindel Waywarder, may point to the one it was meant for.",
+ "sections": [
+  {
+   "title": "A Parcel Gone Astray",
+   "body": "The goods were supposed to reach Thalanaar, a small way-station in southeastern Feralas, but you found them in the Woodpaw gnoll camps instead. Closer inspection shows a name written by hand on the outside: Falfindel Waywarder. It is a fair guess that this is who the parcel was meant for, and Thalanaar is where to look.",
+   "spoiler": 0
+  },
+  {
+   "title": "Word at the Way-station",
+   "body": "Falfindel praises Elune: the shipment from Feathermoon Stronghold has at last arrived. Seeing you with it, Falfindel fears some ill fate has befallen Raschal, the usual courier. The Woodpaw have lately grown highly agitated over something to their south, and Falfindel suspects Raschal fell to the wilds there. You are told to be careful.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Falfindel Waywarder?",
+   "aliases": [
+    "falfindel",
+    "who is falfindel",
+    "falfindel waywarder thalanaar"
+   ],
+   "answer": "Falfindel Waywarder is the name written by hand on the parcel's packaging, and the one you are to find in Thalanaar."
+  },
+  {
+   "q": "Where is Thalanaar?",
+   "aliases": [
+    "thalanaar location",
+    "where is thalanaar"
+   ],
+   "answer": "Thalanaar is a small way-station in southeastern Feralas, where the parcel was supposed to be delivered."
+  },
+  {
+   "q": "Where was the parcel found?",
+   "aliases": [
+    "where did the parcel come from",
+    "package origin",
+    "undelivered parcel origin"
+   ],
+   "answer": "You found it in the Woodpaw gnoll camps."
+  },
+  {
+   "q": "What happened to the courier?",
+   "aliases": [
+    "who was the courier",
+    "missing courier name",
+    "who carried the parcel"
+   ],
+   "answer": "The courier's fate is unknown. Still, the delivery remains unfinished, so the parcel needs to be brought to Thalanaar."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "falfindel waywarder",
+  "feathermoon stronghold",
+  "feralas",
+  "raschal",
+  "thalanaar",
+  "undelivered parcel",
+  "woodpaw"
+ ],
+ "related": [
+  "subzone:thalanaar",
+  "npc:falfindel-waywarder",
+  "subzone:feathermoon-stronghold",
+  "zone:feralas",
+  "topic:gnoll",
+  "quest:4124"
+ ],
+ "attribution": [
+  "Thalanaar Delivery"
+ ]
+}

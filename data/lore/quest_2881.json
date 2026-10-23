@@ -1,0 +1,89 @@
+{
+ "key": "quest:2881",
+ "type": "quest",
+ "name": "Troll Necklace Bounty",
+ "era": "classic",
+ "zone": "hinterlands",
+ "meta": {
+  "ids": [
+   2881
+  ],
+  "level": "45",
+  "start": "Fraggar Thundermantle",
+  "end": "Fraggar Thundermantle",
+  "previous": "Troll Necklace Bounty",
+  "prev_q": [
+   "Troll Necklace Bounty"
+  ],
+  "wiki": null,
+  "next": ""
+ },
+ "summary": "Fraggar Thundermantle, a Wildhammer, has already taken troll tribal necklaces from you once under this bounty. The offer stands for more, as long as you bring them five at a time.",
+ "sections": [
+  {
+   "title": "A Standing Offer",
+   "body": "Fraggar reminds you the first handing-over is behind you, yet more troll tribal necklaces are still welcome whenever you find them and choose to hand them over. Fraggar says those who fight for the Wildhammers will find the Wildhammers ready to fight for them in return. Fraggar counts a batch only when it holds five necklaces.",
+   "spoiler": 0
+  },
+  {
+   "title": "Fraggar's Approval",
+   "body": "On delivery, Fraggar is plainly pleased, taking the necklaces as proof that you will get your hands dirty. Fraggar says that willingness is prized among the Wildhammers.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who wants the troll tribal necklaces?",
+   "aliases": [
+    "who gives this bounty",
+    "fraggar thundermantle role",
+    "who takes the necklaces"
+   ],
+   "answer": "Fraggar Thundermantle, who speaks as one of the Wildhammers."
+  },
+  {
+   "q": "How many troll tribal necklaces are needed?",
+   "aliases": [
+    "necklace count",
+    "how many necklaces",
+    "bounty requirement"
+   ],
+   "answer": "Five at a time. Fraggar says five are needed for them to count."
+  },
+  {
+   "q": "Why does Fraggar Thundermantle collect these necklaces?",
+   "aliases": [
+    "why troll necklaces",
+    "wildhammer motive",
+    "purpose of bounty"
+   ],
+   "answer": "Fraggar treats them as a sign of willingness to fight for the Wildhammers, and says those who do will find the Wildhammers willing to fight for them."
+  },
+  {
+   "q": "What came before this bounty?",
+   "aliases": [
+    "prerequisite quest",
+    "previous step",
+    "prior bounty"
+   ],
+   "answer": "The first Troll Necklace Bounty, which you already completed for Fraggar Thundermantle."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "fraggar thundermantle",
+  "hinterlands",
+  "tribal necklace",
+  "troll necklace bounty",
+  "trolls",
+  "wildhammer"
+ ],
+ "related": [
+  "quest:2880",
+  "zone:hinterlands",
+  "topic:troll"
+ ],
+ "attribution": [
+  "Classic quest text: Troll Necklace Bounty"
+ ]
+}

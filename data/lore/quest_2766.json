@@ -1,0 +1,97 @@
+{
+ "key": "quest:2766",
+ "type": "quest",
+ "name": "Find OOX-22/FE!",
+ "era": "classic",
+ "zone": "feralas",
+ "meta": {
+  "ids": [
+   2766
+  ],
+  "level": "45",
+  "faction": "Neutral",
+  "start": "OOX-22/FE Distress Beacon",
+  "end": "Feral Scar Vale",
+  "previous": "",
+  "next": "Rescue OOX-22/FE!",
+  "wiki": "Find OOX-22/FE!",
+  "chain": [],
+  "next_q": [
+   "Rescue OOX-22/FE!"
+  ],
+  "category": "Feralas",
+  "chain_tpl": [
+   "Oglethorpe's Homing Robots"
+  ]
+ },
+ "summary": "You come across a strange egg-shaped device of metal. A voice inside it introduces itself as Oglethorpe Obnoticus, whose homing robot has crashed. You are asked to bring the beacon to the machine, which lies in a cave close to Feral Scar Vale.",
+ "sections": [
+  {
+   "title": "A Voice in the Egg",
+   "body": "Fiddling with a knob springs the metal egg open into a gnomish robotic contraption, and a crackling voice speaks from within. Oglethorpe Obnoticus says the homing robot has crashed, and promises payment if you recover it. The beacon is to be taken to the robot, and Oglethorpe has computed where it lies: a cave near Feral Scar Vale.",
+   "spoiler": 0
+  },
+  {
+   "title": "What the Cave Holds",
+   "body": "In the cave you find wreckage that looks like a robotic chicken. Oglethorpe's voice confirms it is his homing robot, and says it must be jump-started before flying to Booty Bay for repairs. Placing the beacon inside brings the robot whirring to life, and Oglethorpe's voice then comes from the robot itself.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is speaking through the distress beacon?",
+   "aliases": [
+    "who made the beacon",
+    "who is talking",
+    "oglethorpe who"
+   ],
+   "answer": "Oglethorpe Obnoticus. His homing robot has crashed, and he asks you to bring the beacon to it."
+  },
+  {
+   "q": "Where does the beacon point you to go?",
+   "aliases": [
+    "where is the robot",
+    "homing robot location",
+    "where to take beacon"
+   ],
+   "answer": "Oglethorpe has computed the robot's coordinates, and it lies in a cave by Feral Scar Vale in Feralas."
+  },
+  {
+   "q": "What is the beacon?",
+   "aliases": [
+    "what is the egg",
+    "what is oox-22/fe",
+    "distress beacon"
+   ],
+   "answer": "A strange egg-shaped device of metal. When you fiddle with a knob it opens into a gnomish robotic contraption, and a voice speaks from inside."
+  },
+  {
+   "q": "What comes after this step?",
+   "aliases": [
+    "next quest",
+    "what follows find oox-22/fe",
+    "after the cave"
+   ],
+   "answer": "Rescue OOX-22/FE! follows."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "distress beacon",
+  "feral scar vale",
+  "feralas",
+  "homing robot",
+  "mechanical chicken",
+  "oglethorpe obnoticus",
+  "oox-22/fe"
+ ],
+ "related": [
+  "quest:2767",
+  "subzone:feral-scar-vale",
+  "zone:feralas",
+  "subzone:booty-bay"
+ ],
+ "attribution": [
+  "Find OOX-22/FE!"
+ ]
+}

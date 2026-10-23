@@ -10,6 +10,8 @@
 
 const CLIENT = { title: "WoW Forever's own client data, build 1.60.1.70338 (Lore Forever)", url: "" };
 const QUESTS = { title: "WoW Forever's own quest text (Lore Forever library)", url: "https://loreforeverwow.com/lore" };
+// Seen in the game itself: Mike's paladin's buff tooltips, 10/21 (his questing stream, 19:52).
+const IN_GAME = { title: "WoW Forever in game: a paladin's buff tooltips (seen 2026-10-21)", url: "" };
 const blizzard = (title, url) => ({ title: `Blizzard: ${title}`, url });
 const PRIEST_WARRIOR = blizzard("WoW Forever Class Deep Dives: Priest & Warrior",
   "https://news.blizzard.com/en-us/article/24301514/world-of-warcraft-forever-class-deep-dives-priest-and-warrior");
@@ -170,6 +172,10 @@ export const GAME_FACTS = [
     text: "WoW Forever paladins learn Holy Strike at level 6, Seal of Fury (for tanking) at 10, and Consecration and " +
       "Blessing of Kings at 20 from the trainer; Judgement no longer uses up the Seal. Talents: Holy Shock (21) and " +
       "Light's Vigil (31) in Holy, Templar's Bulwark (21) in Protection, Twist of Light (31) in Retribution." },
+  { id: "seals-paladin", title: "How long paladin seals last in WoW Forever", source: IN_GAME,
+    text: "In WoW Forever a paladin's Seal of Righteousness lasts 30 seconds; its buff on the paladin shows the time "
+      + "left. Judgement no longer uses up the Seal, so it can be judged again while the Seal lasts. Blessings, such "
+      + "as Blessing of Might, are separate buffs with their own, much longer timers." },
   { id: "abilities-hunter", title: "Hunter abilities and talents in WoW Forever", source: HUNTER_DRUID,
     text: "WoW Forever hunters learn Aimed Shot at level 20 from the trainer and can lay traps in combat; pets scale " +
       "with the hunter, and foxes are a new pet family. Talents include Summon Hawk (Beast Mastery, 16), Lone Wolf, " +

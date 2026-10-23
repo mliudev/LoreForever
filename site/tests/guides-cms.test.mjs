@@ -214,6 +214,6 @@ test("pictures: an editor uploads one, it's served back, and Markdown pictures c
   assert.deepEqual(new Uint8Array(await res.arrayBuffer()), png);
 
   const { html } = renderMarkdown(`![A wisp](${url} "Willo at dusk")\n\nText ![x](javascript:alert(1)) and ![y](//evil.example/a.png).`);
-  assert.match(html, new RegExp(`<figure class="gd-fig"><img src="${url}" alt="A wisp" loading="lazy" title="Willo at dusk"><figcaption>Willo at dusk</figcaption></figure>`));
+  assert.match(html, new RegExp(`<figure class="gd-fig">(?:<a [^>]*>)?<img src="${url}" alt="A wisp" loading="lazy" title="Willo at dusk">(?:</a>)?<figcaption>Willo at dusk</figcaption></figure>`));
   assert.doesNotMatch(html, /javascript:|evil\.example/);
 });

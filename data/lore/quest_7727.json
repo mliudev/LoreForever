@@ -1,0 +1,91 @@
+{
+ "key": "quest:7727",
+ "type": "quest",
+ "name": "Incendosaurs? Whateverosaur is More Like It",
+ "era": "classic",
+ "zone": "searinggorge",
+ "meta": {
+  "ids": [
+   7727
+  ],
+  "level": "49",
+  "faction": "Neutral",
+  "start": "Hansel Heavyhands",
+  "end": "Hansel Heavyhands",
+  "previous": "",
+  "next": "",
+  "wiki": "Incendosaurs? Whateverosaur is More Like It",
+  "chain": [],
+  "category": "Searing Gorge"
+ },
+ "summary": "Hansel Heavyhands says his bunions have bunions, and he cannot do any killing with his feet in such disarray. Scrange and Burninate told him to clear out the incendosaurs of the Slag Pit, so he sends you instead to slay twenty.",
+ "sections": [
+  {
+   "title": "Bunions upon Bunions",
+   "body": "Hansel Heavyhands is in no state to fight. Scrange and Burninate told him to kill the incendosaurs so that expeditionary teams can go down into the lava pools of the Slag Pit and explore. Hansel passes the work on to you.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Lava Pools",
+   "body": "The incendosaurs occupy the lava pools down in the Slag Pit, within the Cauldron. Hansel wants twenty slain, and does not want to see you back until you have done it.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Hansel Heavyhands?",
+   "aliases": [
+    "hansel heavyhands",
+    "who is the quest giver",
+    "who gives this quest"
+   ],
+   "answer": "He is the one who gives you this job in the Searing Gorge. Scrange and Burninate told him to deal with the incendosaurs, but he cannot with his bunions."
+  },
+  {
+   "q": "Why do the incendosaurs need to be cleared out?",
+   "aliases": [
+    "why kill incendosaurs",
+    "incendosaur purpose",
+    "why clear the slag pit"
+   ],
+   "answer": "Scrange and Burninate want expeditionary teams to explore the lava pools of the Slag Pit. Incendosaurs there are said to be causing all kinds of problems."
+  },
+  {
+   "q": "Where are the incendosaurs found?",
+   "aliases": [
+    "incendosaur location",
+    "where is the slag pit",
+    "where are the lava pools"
+   ],
+   "answer": "Down in the lava pools of the Slag Pit, within the Cauldron."
+  },
+  {
+   "q": "Why won't Hansel hunt them himself?",
+   "aliases": [
+    "why won't hansel fight",
+    "hansel's feet",
+    "hansel bunions"
+   ],
+   "answer": "His bunions have bunions, he says, and his feet are in too much disarray for any killing."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "burninate",
+  "cauldron",
+  "hansel heavyhands",
+  "incendosaur",
+  "scrange",
+  "searing gorge",
+  "slag pit"
+ ],
+ "related": [
+  "npc:hansel-heavyhands",
+  "subzone:slag-pit",
+  "subzone:cauldron",
+  "zone:searinggorge"
+ ],
+ "attribution": [
+  "Incendosaurs? Whateverosaur is More Like It"
+ ]
+}

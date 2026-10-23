@@ -5,11 +5,14 @@
 //   POST /api/test/friends  {offset?}   -> the signed-in account befriends Mira and Doran: {added: [{name, handle}]}
 // offset: the page's minutes from UTC (-new Date().getTimezoneOffset()), for the day on Mira's pins.
 //   POST /api/test/accept   {who}       -> that test player accepts the friend requests waiting for them: {accepted}
+//   POST /api/test/load-players {count} -> load-001 to load-<count> (at most 300), each with a new Willo app token, for
+//                                          load-testing the answer path: {players: [{email, token}]}
 // POSTs need our Origin; 30 a minute from one address.
 
 import { setup, currentUser, startSession, recordTerms, fail, noStore, sameOrigin } from "../../../lib/accounts.js";
 import { perMinute, slowDown } from "../../../lib/ratelimit.js";
-import { testPlayersOn, testPlayer, befriendTestPlayers, acceptAsTestPlayer, offsetOf, TEST_PLAYERS } from "../../../lib/test-players.js";
+import { testPlayersOn, testPlayer, befriendTestPlayers, acceptAsTestPlayer, offsetOf, loadPlayers, TEST_PLAYERS }
+  from "../../../lib/test-players.js";
 
 const ok = (body = {}, headers = {}) => Response.json({ ok: true, ...body }, { headers: { ...noStore, ...headers } });
 
@@ -19,7 +22,7 @@ export async function onRequest({ request, env, params }) {
   await setup(env);
   if (action === "status" && request.method === "GET")
     return ok({ on: true, players: Object.entries(TEST_PLAYERS).map(([key, p]) => ({ key, name: p.name })) });
-  if (!["sign-in", "friends", "accept"].includes(action)) return fail(404, "Not found.");
+  if (!["sign-in", "friends", "accept", "load-players"].includes(action)) return fail(404, "Not found.");
   if (request.method !== "POST") return fail(405, "Use POST.");
   if (!sameOrigin(request)) return fail(403, "Please use the page on this site.");
   if (!(await perMinute(env, "ip:" + (request.headers.get("CF-Connecting-IP") || "local"), "test-players", 30))) return slowDown();
@@ -33,6 +36,7 @@ export async function onRequest({ request, env, params }) {
     const user = await env.DB.prepare("SELECT id, email, display_name FROM users WHERE id = ?").bind(player.id).first();
     return ok({ user: { ...user, handle: player.handle } }, { "Set-Cookie": await startSession(env, request, player.id) });
   }
+  if (action === "load-players") return ok({ players: await loadPlayers(env, input?.count) });
   if (action === "accept") {
     if (!Object.hasOwn(TEST_PLAYERS, who)) return fail(400, "That isn't one of the test players.");
     return ok({ accepted: await acceptAsTestPlayer(env, who) });

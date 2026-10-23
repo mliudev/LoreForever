@@ -1,0 +1,92 @@
+{
+ "key": "quest:3626",
+ "type": "quest",
+ "name": "Return to the Blasted Lands",
+ "era": "classic",
+ "zone": "stranglethorn",
+ "meta": {
+  "ids": [
+   3626
+  ],
+  "level": "58",
+  "faction": null,
+  "start": "Galvan the Ancient",
+  "end": "Fallen Hero of the Horde",
+  "previous": "Enchanted Azsharite Fel Weaponry",
+  "next": "",
+  "wiki": "Return to the Blasted Lands",
+  "chain": [],
+  "prev_q": [
+   "Enchanted Azsharite Fel Weaponry"
+  ],
+  "category": "Stranglethorn Vale",
+  "chain_tpl": [
+   "You Are Rakh'likh, Demon"
+  ]
+ },
+ "summary": "With newly forged weapons in hand, you are directed back from Stranglethorn Vale to the Blasted Lands. The spirit of the Fallen Hero of the Horde awaits your return to set you against the demon Razelikh.",
+ "sections": [
+  {
+   "title": "A Call to Redemption",
+   "body": "Following the completion of your enchanted armaments, Galvan the Ancient proclaims that the hour of redemption is at hand. You carry the newly crafted weapons back to the Blasted Lands, seeking out the Fallen Hero of the Horde. The ghostly warrior asks whether you are prepared to face Razelikh and his minions.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who sends you back to the Blasted Lands?",
+   "aliases": [
+    "who gives this quest",
+    "quest giver",
+    "galvan the ancient"
+   ],
+   "answer": "Galvan the Ancient directs you to take your newly fashioned weaponry and return to the Blasted Lands."
+  },
+  {
+   "q": "Whom are you sent to meet in the Blasted Lands?",
+   "aliases": [
+    "who do i turn this in to",
+    "where to turn in",
+    "fallen hero"
+   ],
+   "answer": "You are sent to speak once again with the Fallen Hero of the Horde, who awaits your arrival to reveal your final confrontation."
+  },
+  {
+   "q": "What comes before this step?",
+   "aliases": [
+    "previous quest",
+    "prerequisite"
+   ],
+   "answer": "This step follows Enchanted Azsharite Fel Weaponry, in which your specialized weapons were completed."
+  },
+  {
+   "q": "Who is the enemy awaiting you in the Blasted Lands?",
+   "aliases": [
+    "who are we fighting",
+    "razelikh",
+    "final boss"
+   ],
+   "answer": "Upon your return, the Fallen Hero of the Horde asks if you are prepared to face Razelikh and his minions."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "blasted lands",
+  "fallen hero of the horde",
+  "fel weaponry",
+  "galvan the ancient",
+  "razelikh",
+  "redemption",
+  "stranglethorn vale"
+ ],
+ "related": [
+  "quest:3625",
+  "npc:fallen-hero-of-the-horde",
+  "zone:blastedlands",
+  "zone:stranglethorn",
+  "topic:horde"
+ ],
+ "attribution": [
+  "Return to the Blasted Lands"
+ ]
+}

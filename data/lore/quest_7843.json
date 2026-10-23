@@ -1,0 +1,100 @@
+{
+ "key": "quest:7843",
+ "type": "quest",
+ "name": "The Final Message to the Wildhammer",
+ "era": "classic",
+ "zone": "hinterlands",
+ "meta": {
+  "ids": [
+   7843
+  ],
+  "level": "50",
+  "faction": "Horde",
+  "start": "Otho Moji'ko",
+  "end": "Otho Moji'ko",
+  "previous": "Another Message to the Wildhammer",
+  "next": "",
+  "wiki": "The Final Message to the Wildhammer",
+  "chain": [
+   "Message to the Wildhammer",
+   "Another Message to the Wildhammer",
+   "The Final Message to the Wildhammer"
+  ],
+  "prev_q": [
+   "Another Message to the Wildhammer"
+  ],
+  "qtype": "PvP",
+  "category": "Hinterlands"
+ },
+ "summary": "Otho Moji'ko gives you a spear soaked in blood and bound with gryphon feathers. You are to take it to Aerie Peak, in the west of the Hinterlands, and drive it into the earth beside the well at the heart of the town.",
+ "sections": [
+  {
+   "title": "A Spear for Aerie Peak",
+   "body": "Following Another Message to the Wildhammer, Otho Moji'ko gives you the final message: a spear soaked in blood and bound with gryphon feathers. Carry it to Aerie Peak and plant it, dead center of town beside the well, to show the dwarves that trolls mean business. Otho hopes you come back alive, and warns of furious Wildhammer dwarves and rowdy Alliance folk.",
+   "spoiler": 0
+  },
+  {
+   "title": "Otho's Hope",
+   "body": "Otho wishes to have seen the faces of the dwarves, and wonders aloud whether they are packing their bags and leaving town. Otho promises you the big mojo for the deed.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who sends you to plant the spear?",
+   "aliases": [
+    "quest giver",
+    "who gives the quest",
+    "otho mojiko"
+   ],
+   "answer": "Otho Moji'ko, who stands in Revantusk Village."
+  },
+  {
+   "q": "Where must the spear be planted?",
+   "aliases": [
+    "spear location",
+    "where do i place the spear",
+    "aerie peak well"
+   ],
+   "answer": "Beside the well at the heart of Aerie Peak, in the west of the Hinterlands."
+  },
+  {
+   "q": "What is the final message made of?",
+   "aliases": [
+    "what is the spear",
+    "gryphon feathers spear",
+    "the final message item"
+   ],
+   "answer": "A spear soaked in blood and bound with gryphon feathers."
+  },
+  {
+   "q": "What came before this in the chain?",
+   "aliases": [
+    "previous quest",
+    "prerequisites",
+    "wildhammer message chain"
+   ],
+   "answer": "It follows Another Message to the Wildhammer, in which Otho called for gryphon feathers to make this final message."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "aerie peak",
+  "gryphon feathers",
+  "hinterlands",
+  "otho moji'ko",
+  "revantusk village",
+  "spear",
+  "wildhammer"
+ ],
+ "related": [
+  "quest:7842",
+  "quest:7841",
+  "zone:hinterlands",
+  "topic:troll",
+  "topic:alliance"
+ ],
+ "attribution": [
+  "Wowpedia: The Final Message to the Wildhammer"
+ ]
+}

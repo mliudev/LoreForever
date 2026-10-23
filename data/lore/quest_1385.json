@@ -1,0 +1,89 @@
+{
+ "key": "quest:1385",
+ "type": "quest",
+ "name": "Brutal Politics",
+ "era": "classic",
+ "zone": "desolace",
+ "meta": {
+  "ids": [
+   1385
+  ],
+  "level": "35",
+  "faction": "Alliance",
+  "start": "Captain Pentigast",
+  "end": "Warug",
+  "previous": "",
+  "next": "Assault on the Kolkar",
+  "wiki": "Brutal Politics",
+  "chain": [],
+  "next_q": [
+   "Assault on the Kolkar"
+  ],
+  "category": "Desolace",
+  "chain_tpl": [
+   "Magram Alliance"
+  ]
+ },
+ "summary": "Captain Pentigast believes whichever centaur clan wins the wars of Desolace will spill out and threaten the Alliance strongholds. To learn how to beat them, Pentigast wants an alliance with one clan: fight the Gelkis, win over the Magram, and speak with Warug.",
+ "sections": [
+  {
+   "title": "A Land at War",
+   "body": "War rages across Desolace, centaur against centaur, and the Alliance believes the winner will spill out against its strongholds. That cannot be allowed. To learn how to beat the centaurs, Captain Pentigast says, the Alliance needs one of the clans as a friend.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Magram",
+   "body": "The Magram fight the Gelkis, so striking at the Gelkis might make the Magram weigh an alliance. Earn their favor, then go to Warug in the Magram village, in Desolace's southeast. Warug warns that to be a friend of the Magram, you must kill Gelkis.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Why does the Alliance want an alliance with a centaur clan?",
+   "aliases": [
+    "why ally with magram",
+    "pentigast plan",
+    "centaur alliance reason"
+   ],
+   "answer": "Captain Pentigast believes the victor of the centaur wars will spill out and threaten Alliance strongholds. To learn how to beat them, the Alliance needs one of the clans as a friend."
+  },
+  {
+   "q": "How do you earn the favor of the Magram?",
+   "aliases": [
+    "how to get magram rep",
+    "magram friendly",
+    "killing gelkis"
+   ],
+   "answer": "The Magram are at war with the Gelkis, and fighting the Gelkis may lead them to consider an alliance. Warug says that to be the Magram's friend, you must kill Gelkis."
+  },
+  {
+   "q": "Where is Warug?",
+   "aliases": [
+    "warug location",
+    "where is warug",
+    "magram contact"
+   ],
+   "answer": "In the Magram village, in Desolace's southeast."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "brutal politics",
+  "centaur",
+  "desolace",
+  "gelkis",
+  "magram",
+  "pentigast",
+  "warug"
+ ],
+ "related": [
+  "quest:1386",
+  "subzone:magram-village",
+  "topic:centaur",
+  "zone:desolace",
+  "topic:alliance"
+ ],
+ "attribution": [
+  "Brutal Politics"
+ ]
+}

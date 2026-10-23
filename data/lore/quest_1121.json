@@ -1,0 +1,121 @@
+{
+ "key": "quest:1121",
+ "type": "quest",
+ "name": "Get the Goblins Drunk",
+ "era": "classic",
+ "zone": "thousandneedles",
+ "meta": {
+  "ids": [
+   1121
+  ],
+  "level": "44",
+  "faction": null,
+  "start": "Kravel Koalbeard",
+  "end": "Goblin Pit Boss",
+  "previous": "Zanzil's Mixture and a Fool's Stout",
+  "next": "Report Back to Fizzlebub",
+  "wiki": "Get the Goblins Drunk",
+  "chain": [
+   "Kravel Koalbeard",
+   "Mirage Raceway",
+   "Thousand Needles"
+  ],
+  "prev_q": [
+   "Zanzil's Mixture and a Fool's Stout"
+  ],
+  "next_q": [
+   "Report Back to Fizzlebub"
+  ],
+  "category": "Thousand Needles",
+  "chain_tpl": [
+   "Errands for Kravel"
+  ]
+ },
+ "summary": "Kravel Koalbeard wants the Fool's Stout tested on a pit crew at the Mirage Raceway. If you choose the goblins, you take the stout to the Goblin Pit Boss. The stout will go bad eventually, so Kravel says not to wait too long.",
+ "sections": [
+  {
+   "title": "A Test on the Pit Crews",
+   "body": "Kravel Koalbeard needs the Fool's Stout tried out on one of the pit crews. You may try it on the goblins: he hands you the stout and sends you with it to the Goblin Pit Boss, who is nearby at the Mirage Raceway. Choosing the goblins tips the races toward the gnomes. Kravel warns you not to dawdle, because the stout will go bad eventually.",
+   "spoiler": 0
+  },
+  {
+   "title": "A Little Won't Hurt",
+   "body": "The Goblin Pit Boss sees booze on offer and does not mind having a little.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who offers this?",
+   "aliases": [
+    "quest giver",
+    "who gives get the goblins drunk",
+    "kravel koalbeard"
+   ],
+   "answer": "Kravel Koalbeard, the dwarf at the Mirage Raceway in Thousand Needles."
+  },
+  {
+   "q": "Where must the stout be taken?",
+   "aliases": [
+    "where to bring stout",
+    "goblin pit boss location"
+   ],
+   "answer": "To the Goblin Pit Boss, who is nearby at the Mirage Raceway."
+  },
+  {
+   "q": "What happens if you wait too long?",
+   "aliases": [
+    "does the stout spoil",
+    "fool's stout duration",
+    "stout goes bad"
+   ],
+   "answer": "The stout will go bad eventually, so Kravel tells you not to wait too long."
+  },
+  {
+   "q": "What is the alternative to this?",
+   "aliases": [
+    "get the gnomes drunk choice",
+    "gnomes or goblins raceway"
+   ],
+   "answer": "Kravel lets you pick which pit crew to try the stout on. The other choice is Get the Gnomes Drunk, with the gnome crew."
+  },
+  {
+   "q": "What comes before this?",
+   "aliases": [
+    "previous quest",
+    "prereq for get the goblins drunk"
+   ],
+   "answer": "It follows Zanzil's Mixture and a Fool's Stout."
+  },
+  {
+   "q": "What comes after the stout is delivered?",
+   "aliases": [
+    "next quest",
+    "what comes after get the goblins drunk"
+   ],
+   "answer": "The chain continues with Report Back to Fizzlebub."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "fools stout",
+  "gnome",
+  "goblin",
+  "goblin pit boss",
+  "kravel koalbeard",
+  "mirage raceway",
+  "thousand needles"
+ ],
+ "related": [
+  "npc:kravel-koalbeard",
+  "subzone:mirage-raceway",
+  "zone:thousandneedles",
+  "quest:1119",
+  "quest:1120",
+  "quest:1122",
+  "topic:goblin"
+ ],
+ "attribution": [
+  "Get the Goblins Drunk"
+ ]
+}

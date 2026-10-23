@@ -1,0 +1,88 @@
+{
+ "key": "quest:3445",
+ "type": "quest",
+ "name": "The Sunken Temple",
+ "era": "classic",
+ "zone": "feralas",
+ "meta": {
+  "ids": [
+   3445
+  ],
+  "level": "51",
+  "faction": "Alliance",
+  "start": "Angelas Moonbreeze",
+  "end": "Marvon Rivetseeker",
+  "previous": "",
+  "next": "The Stone Circle",
+  "wiki": "The Sunken Temple (Alliance)",
+  "chain": [],
+  "next_q": [
+   "The Stone Circle"
+  ],
+  "category": "Feralas",
+  "chain_tpl": [
+   "Secret of the Circle"
+  ]
+ },
+ "summary": "Angelas Moonbreeze tells of the Sunken Temple, a place buried far underground, put there by powers greater than any Angelas has seen. To learn more, you are pointed to a goblin named Marvon Rivetseeker, last known to be in Tanaris.",
+ "sections": [
+  {
+   "title": "A Place Banished Below",
+   "body": "Angelas Moonbreeze speaks of a place sunk deep below the earth's surface, put there by forces mightier than any Angelas has seen: the Sunken Temple. For more, look for the goblin Marvon Rivetseeker, who, like Angelas and Troyas, has made a study of ancient sites across the world. Marvon left home in Ratchet to look into the troll ruins of Tanaris, and word of him has been missing for some time.",
+   "spoiler": 0
+  },
+  {
+   "title": "What Marvon Says",
+   "body": "When you find Marvon Rivetseeker, he says he has seen the Sunken Temple with his own eyes and asks whether you would like to hear more. He takes you for the adventurous type and says he knows things that may intrigue you.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who starts the search for the Sunken Temple?",
+   "aliases": [
+    "sunken temple quest giver",
+    "who gives the sunken temple",
+    "angelas moonbreeze"
+   ],
+   "answer": "Angelas Moonbreeze, who speaks of a place sunk deep below the earth, the Sunken Temple, put there by forces mightier than any Angelas has seen."
+  },
+  {
+   "q": "Who is Marvon Rivetseeker?",
+   "aliases": [
+    "marvon rivetseeker",
+    "where is marvon rivetseeker",
+    "who is marvon"
+   ],
+   "answer": "A goblin who, like Angelas and Troyas, has made a study of ancient sites across the world."
+  },
+  {
+   "q": "Where did Marvon Rivetseeker go?",
+   "aliases": [
+    "marvon location",
+    "where to find marvon",
+    "marvon tanaris"
+   ],
+   "answer": "Last word has him leaving Ratchet, his home, for Tanaris and its troll ruins. Nobody has heard from him in some time."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "angelas moonbreeze",
+  "feralas",
+  "marvon rivetseeker",
+  "ratchet",
+  "sunken temple",
+  "tanaris",
+  "troll ruins"
+ ],
+ "related": [
+  "quest:3444",
+  "zone:feralas",
+  "zone:tanaris",
+  "subzone:ratchet"
+ ],
+ "attribution": [
+  "The Sunken Temple (Alliance)"
+ ]
+}

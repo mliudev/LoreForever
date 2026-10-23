@@ -1,0 +1,90 @@
+{
+ "key": "quest:665",
+ "type": "quest",
+ "name": "Sunken Treasure",
+ "era": "classic",
+ "zone": "arathi",
+ "meta": {
+  "ids": [
+   665
+  ],
+  "level": "40",
+  "faction": null,
+  "start": "Professor Phizzlethorpe",
+  "end": "Doctor Draxlegauge",
+  "previous": "",
+  "next": "Sunken Treasure (2)",
+  "wiki": "Sunken Treasure (1)",
+  "chain": [],
+  "next_q": [
+   "Sunken Treasure (2)"
+  ],
+  "category": "Arathi Highlands",
+  "chain_tpl": [
+   "Sunken Treasure"
+  ]
+ },
+ "summary": "Now that they are full-fledged Blackwater Raiders, Professor Phizzlethorpe and Doctor Draxlegauge are to help Mr. O'Breen find the lost elven treasure. To search the dark sea for the gems, the professor needs your protection while he charges a pair of goggles at an enchanted stone in a cave.",
+ "sections": [
+  {
+   "title": "Charging the Goggles",
+   "body": "The gems are next to impossible to find in the dark sea without help, so Doctor Draxlegauge has built goggles for the search. They need charging with power from the enchanted stone, in a cave a short way uphill. The cave is cursed, though: those who draw near are ambushed. Professor Phizzlethorpe asks you to defend him while he draws the stone's energy into the goggles.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is asking for help?",
+   "aliases": [
+    "who gives this quest",
+    "phizzlethorpe",
+    "quest giver"
+   ],
+   "answer": "Professor Phizzlethorpe asks you to defend him as he goes to the cave and back, charging the doctor's goggles at the enchanted stone."
+  },
+  {
+   "q": "Why do the goggles need to be charged?",
+   "aliases": [
+    "why charge goggles",
+    "goggles purpose",
+    "what are the goggles for"
+   ],
+   "answer": "Doctor Draxlegauge built them to help find the lost gems in the dark sea. To work, they must first be charged with the stone's power."
+  },
+  {
+   "q": "Why does the professor need an escort?",
+   "aliases": [
+    "why protect phizzlethorpe",
+    "what is in the cave"
+   ],
+   "answer": "The cave is cursed, and when they get close they are ambushed. He needs you to defend him while he channels the stone's energy."
+  },
+  {
+   "q": "Who are the professor and the doctor working for?",
+   "aliases": [
+    "who are they helping",
+    "mr obreen",
+    "blackwater raiders"
+   ],
+   "answer": "The professor says they are now full-fledged Blackwater Raiders, so helping Mr. O'Breen find the lost elven treasure falls to them."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "arathi highlands",
+  "blackwater raiders",
+  "draxlegauge",
+  "enchanted stone",
+  "goggles",
+  "o'breen",
+  "phizzlethorpe",
+  "sunken treasure"
+ ],
+ "related": [
+  "zone:arathi",
+  "topic:gnome"
+ ],
+ "attribution": [
+  "Sunken Treasure (1)"
+ ]
+}

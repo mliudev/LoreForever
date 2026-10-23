@@ -35,6 +35,7 @@ import { isReportRead } from "./report-read.js";
 import { forwardFeedback } from "./slack-feedback.js";
 import { playerKey, accountNames, scrubNames, setupAnswerLog, keepingOff, KEEP_DAYS as LOG_DAYS } from "./answer-log.js";
 import { ANSWER_ID, SIGNALS, topicOf } from "./answer-signals.js";
+import { createMissing } from "./schema.js";
 
 const SETUP = [
   `CREATE TABLE IF NOT EXISTS answer_feedback (
@@ -82,6 +83,15 @@ const DISAGREES = new RegExp([
   // "The disarming tool I have is actually an off-hand weapon" (LOR-593, Mike's stream 10/15).
   String.raw`\b(?:is|are|was|were|it's|that's) actually\b`,
   String.raw`\b(?:can|is|are|has|have|goes|does|do)\b.*\bin (?:wow )?forever\b`,
+  // Saying it again, or what their game shows (the insistence research, 10/22: "I'm telling you, tauren can be
+  // paladins", "my self buff only says thirty seconds", "It really doesn't, I just judged and my seal is still up",
+  // "There really aren't any", "it's floating over Northrend, I'm sure of it" all went unnoticed).
+  String.raw`\b(?:i(?:'m| am) telling you|trust me|i swear)\b`,
+  String.raw`\bmy (?:[a-z-]+ )?(?:tooltip|buffs?|buff bar|screen|character (?:sheet|screen|pane)|spell ?book|game)\b[^.!?]{0,40}\b(?:says|shows|said|showed|reads)\b`,
+  String.raw`\bi(?:'m| am) (?:pretty |quite |fairly |very |absolutely )?(?:sure|certain|positive)(?: of it| about (?:it|that))?\W*$`,
+  String.raw`\bi(?:'m| am) (?:pretty |quite |fairly |very |absolutely )?(?:sure|certain|positive),? (?:that )?(?:the |a |an )?[\w'-]+ (?:can|is|are|was|were|does|do|has|have|lasts?|gives?)\b`,
+  String.raw`^\W*(?:no,?\s*)?(?:it|that|there|they|this|he|she)\s+(?:really|definitely|honestly|certainly)\s+(?:does|is|are|was|were|can|has|have)(?:n't|not)?\b`,
+  String.raw`\b(?:doesn't|don't|isn't|aren't|can't|won't|no longer)\b.*\b(?:anymore|any more|in (?:wow )?forever)\b`,
 ].join("|"), "i");
 // A "no" only disputes when it goes on to say how it is: "No, this boat goes to Southshore", "Nope, Thrall is
 // warchief". A bare "no", a "no" answering something the companion asked, or a polite one ("nope, not yet, thank
@@ -143,7 +153,7 @@ export async function setupFeedback(env) {
   if (isReportRead(env)) return;
   if (ready.get(env.DB)) return;
   // The answer log's too: its salt keys these rows, and the queue reads its rows.
-  await Promise.all([env.DB.batch(SETUP.map(sql => env.DB.prepare(sql))), setupAnswerLog(env)]);
+  await Promise.all([createMissing(env, SETUP), setupAnswerLog(env)]);
   const have = new Set((await env.DB.prepare("PRAGMA table_info(answer_feedback)").all()).results.map(c => c.name));
   for (const column of ADDED) {
     if (have.has(column.split(" ")[0])) continue;

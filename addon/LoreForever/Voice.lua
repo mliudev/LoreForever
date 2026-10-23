@@ -36,6 +36,9 @@ end
 -- recorded from and always play with them (Voice.ScopedClip). Packs are partial: most cover only some clips.
 local DEFAULT_PACK = "LoreForever_Voice_Default"
 local QUEST_GIVERS = "LoreForever_Voice_QuestGivers"   -- the quest givers' voices (LOR-225, see giverClip)
+-- The rest of them, for the quests of levels 31-50 and 51-60 (one pack would be too big for CurseForge): the same voices,
+-- a clip is in exactly one of the three. Only the first has a pack in another language.
+local QUEST_GIVER_PACKS = { QUEST_GIVERS, QUEST_GIVERS .. "2", QUEST_GIVERS .. "3" }
 -- Where players get voice packs (the site's Downloads page). Players type it, so keep it short.
 Voice.DOWNLOADS = "loreforeverwow.com/downloads"
 local AUTO = "auto"
@@ -536,7 +539,7 @@ end
 
 -- The clip a voice should keep together with this one (voiceGroup): its story's main clip ("story": the entry, for
 -- its #faq clips), its zone's story ("zone": a zone's places and people follow it), or none ("line").
-local function storyOf(id) return id:match("^(.-)#faq%d+$") or id end
+local function storyOf(id) return id:match("^(.-)#faq%d+$") or id:match("^(.-)#section%d+$") or id end
 local function anchorOf(id, mode)
   if mode == "story" then return storyOf(id) end
   if mode == "zone" then
@@ -756,7 +759,8 @@ function Voice.Refresh()
   local questRanked, questHash = {}, (ns.DB and ns.DB.questClip) or {}
   for _, name in ipairs(questChain) do
     local seen = {}
-    for _, pack in ipairs(questFits(name) and packsOf[name] or {}) do
+    -- (Every ticked narrator's quest pages, when the speaker's gender picks among them: Voice.QuestClip.)
+    for _, pack in ipairs((s.voiceMatchGender ~= false or questFits(name)) and packsOf[name] or {}) do
       local data = ns.Packs.data[pack]
       local own = data and type(data.questVoice) == "table" and data.questVoice or nil
       for id, h in pairs(data and data.clips or {}) do
@@ -769,7 +773,7 @@ function Voice.Refresh()
       end
     end
   end
-  Voice.questRanked = questRanked
+  Voice.questRanked, Voice.questFits = questRanked, questFits
   -- The answers packs (LOR-227: LoreForever_Voice_<voice>_Answers_<Part>) are retired (Mike's voices and plans picks,
   -- 10/21): an installed one plays nothing, so every short answer goes to Willo (Companion.CanRead), who reads it in the
   -- narrator's own voice from Hero up, or it shows as text. Community narrators' answers come through their own packs
@@ -801,7 +805,7 @@ end
 local function extendsVoice(rec, voices)
   if rec.extends then return true end
   local key = Voice.KeyOf(rec.name)
-  if key == QUEST_GIVERS then return true end
+  for _, name in ipairs(QUEST_GIVER_PACKS) do if key == name then return true end end
   for _, o in ipairs(voices) do
     local okey = Voice.KeyOf(o.name)
     if okey ~= key and key:sub(1, #okey + 1) == okey .. "_" then return true end
@@ -1379,11 +1383,23 @@ end
 local function heardStore()
   if type(LoreForeverDB) ~= "table" then return nil end
   if type(LoreForeverDB.heard) ~= "table" then LoreForeverDB.heard = {} end
+  local all = LoreForeverDB.heard
   local who = (ns.Journey and ns.Journey.CharKey and ns.Journey.CharKey()) or "?"
-  local t = LoreForeverDB.heard[who]
+  local t = all[who]
   if type(t) ~= "table" then
     t = {}
-    LoreForeverDB.heard[who] = t
+    all[who] = t
+  end
+  -- What was kept under the realm's other spelling ("Name-Classic Beta PvE") is this character's too: it joins, once
+  -- (Journey.Realm: before 0.25.1 that key split what a character had heard, so heard stories played again).
+  local name, realm = who:match("^(.-)%-(.*)$")
+  local ok, spaced = pcall(function() return GetRealmName and GetRealmName() end)
+  local other = name and ok and type(spaced) == "string" and spaced ~= realm and (name .. "-" .. spaced)
+  if other and type(all[other]) == "table" then
+    for id, at in pairs(all[other]) do
+      if t[id] == nil or (type(at) == "number" and type(t[id]) == "number" and at > 0 and at < t[id]) then t[id] = at end
+    end
+    all[other] = nil
   end
   return t
 end
@@ -1616,6 +1632,14 @@ local function beginTransport(row, options)
 end
 
 
+-- How long the pack's recording of `key` plays, in seconds, or nil when the pack doesn't say (an older pack, a story in
+-- pieces, a community voice). Packs write it at build time from the MP3 itself (Clips.lua, P.len).
+function Voice.PackLength(data, key)
+  local tenths = data and type(data.len) == "table" and tonumber(data.len[key])
+  if tenths and tenths > 0 then return tenths / 10 end
+  return nil
+end
+
 -- Play an entry's recorded narration: the chosen voice's file, or the next voice's if the game can't play it (e.g.
 -- the file is missing from the pack). Returns true if it started. Narrations are marked heard; quest dialogue isn't.
 -- An arrival story waiting for its turn that plays some other way (you play it, or your playlist does) stops waiting.
@@ -1674,6 +1698,8 @@ function Voice.Play(key, options)
           hash = whole and whole.fullHash or (transport and (transport.row.fullHash or transport.row.hash) or (data and data.clips and data.clips[key])),
           text = whole and whole.text or (transport and transport.row.text or nil),
           duration = whole and whole.duration or nil,
+          -- (a plain recording: its length from the pack that played it, P.len in tenths of a second, for Subtitles)
+          length = not (whole or transport) and Voice.PackLength(data, key) or nil,
           started = now() }   -- (how long it has played, for Willo: Strip.Narration)
         -- A community recording plays with its own words: its text and title are what the read-along shows.
         local scoped, scopedText, scopedTitle = Voice.ScopedClip(key, pack)
@@ -2041,6 +2067,28 @@ function Voice.OnArrive()
   end)
 end
 
+-- Story as you play: a passage a quest just opened, about where you are, plays once by itself (Storyline.OnBeats), as
+-- the story it belongs to. Only when an arrival story could start now (not in a fight, a talk, a flight, or over
+-- something playing); otherwise the chat line's link is there for later. Returns true if it started.
+function Voice.PlayPassage(key, idx)
+  local pid = key .. "#section" .. idx
+  local e = ns.DB.entries[key]
+  local sec = e and e.sec and e.sec[idx]
+  if not sec then return false end
+  return Voice.PlayNow({ id = key, key = pid, label = e.n, text = sec.b, story = key })
+end
+
+-- Play `target` now as something that starts by itself (a passage, a storyline's recap), if an arrival story could:
+-- not in a fight, a talk, a flight or over something playing. Returns true if it started.
+function Voice.PlayNow(target)
+  local UI = ns.UI
+  if arrivalsOff() or not Voice.HasAudio(target.key) or not Voice.CanPlay(target.key) then return false end
+  if fighting() or talking() or Voice.GameTalking() or onTaxi() or busy() or willoAnswering() then return false end
+  target.byItself = true
+  UI.ListenTo(target)
+  return UI.speaking and UI.playingKey == target.key
+end
+
 -- You stopped talking to someone, or a fight ended: the waiting arrival story's turn (if you're still there). It
 -- settles first, so walking from one quest giver to the next doesn't start it.
 function Voice.OnTalkOver()
@@ -2236,21 +2284,27 @@ local function voiced(data, race)
   return set[race] == true
 end
 
+-- The first of the quest givers' packs (levels 1-30, 31-50, 51-60) that has a current recording of the clip.
 local function giverClip(id, want, window)
-  local pack = want and Voice.InLanguage(QUEST_GIVERS)
-  local data = pack and ensure(pack)
-  local own = data and type(data.questVoice) == "table" and data.questVoice or nil
-  local hash = ns.DB and ns.DB.questClip and ns.DB.questClip[id]
-  local current = data and data.clips[id] ~= nil and (own ~= nil or data.clips[id] == hash)
-  local speaker = current and type(data.speaker) == "table" and data.speaker[id]
-  local race, gender = tostring(speaker or ""):match("^(%a+)%-(%a+)$")
-  if not gender or gender ~= want then return nil end
-  if window then
-    local seen = npcRace()
-    local expect = type(data.model) == "table" and type(data.model[id]) == "string" and data.model[id] or race
-    if seen and seen ~= expect and voiced(data, seen) then return nil end
+  for _, base in ipairs(QUEST_GIVER_PACKS) do
+    local pack = want and Voice.InLanguage(base)
+    local data = pack and ensure(pack)
+    local own = data and type(data.questVoice) == "table" and data.questVoice or nil
+    local hash = ns.DB and ns.DB.questClip and ns.DB.questClip[id]
+    local current = data and data.clips[id] ~= nil and (own ~= nil or data.clips[id] == hash)
+    local speaker = current and type(data.speaker) == "table" and data.speaker[id]
+    local race, gender = tostring(speaker or ""):match("^(%a+)%-(%a+)$")
+    if gender and gender == want then
+      local fits = true
+      if window then
+        local seen = npcRace()
+        local expect = type(data.model) == "table" and type(data.model[id]) == "string" and data.model[id] or race
+        if seen and seen ~= expect and voiced(data, seen) then fits = false end
+      end
+      if fits then return Voice.ClipPath(pack, id, data.ext), own or ns.DB.questVoice, pack end
+    end
   end
-  return Voice.ClipPath(pack, id, data.ext), own or ns.DB.questVoice, pack
+  return nil
 end
 
 -- The recorded quest dialogue for the open quest window, if a voice has one and its text is exactly what's on screen
@@ -2322,10 +2376,9 @@ function Voice.QuestSpeaker(qid, rec)
   return any and "giver" or "narrator"
 end
 
--- The narrator who reads a quest: the first in list order with the most of its pages. With a man's and a woman's
--- narrator allowed to fill in for each other (voiceFillGender), one of the quest giver's gender goes first, as the
--- data has it (0.7.0, Mike: Madame Eva spoke in his voice), still for the whole quest.
-local function questNarrator(qid, rec)
+-- The narrator who reads a quest: one of the speaker's gender (want) when one is ticked, else of the top narrator's
+-- family; of those, the first in list order with the most of its pages.
+local function questNarrator(qid, rec, want, fits)
   local count, order = {}, {}
   for _, id in pairs(questPages(qid, rec)) do
     for _, v in ipairs(Voice.questRanked[id] or {}) do
@@ -2333,14 +2386,12 @@ local function questNarrator(qid, rec)
       count[v[1]] = count[v[1]] + 1
     end
   end
-  local want
-  if S().voiceFillGender and type(rec[5]) == "string" then
-    for i = 1, #rec[5] do want = want or GENDER_CODE[rec[5]:sub(i, i)] end
-  end
+  local allowed = {}
+  for _, v in ipairs(fits) do allowed[v[1]] = true end
   local function score(name) return (want and Voice.Gender(name) == want and 1000 or 0) + count[name] end
   local best
   for _, name in ipairs(order) do   -- (questRanked keeps list order)
-    if not best or score(name) > score(best) then best = name end
+    if allowed[name] and (not best or score(name) > score(best)) then best = name end
   end
   return best
 end
@@ -2357,8 +2408,11 @@ function Voice.QuestClip(qid, kind, text, unchecked, peek)
   if not rec then return nil end
   local window = text == nil and not unchecked   -- the quest window's own page, read from the window below
   local speaker = Voice.QuestSpeaker(qid, rec)
+  -- Who speaks the page, a man or a woman: it picks the quest givers' recording, or, when the narrator reads the
+  -- quest, a ticked narrator of that gender (Mike's 0.25.0 questing video: Faruza, with no giver recording, was read
+  -- by the male narrator at the top of his list though he had the female one ticked).
   local want
-  if speaker == "giver" then
+  if S().voiceMatchGender ~= false then
     -- "npc" is whoever's window is open, so only the window's own page asks it (a story's Listen may be another quest),
     -- and only when it's an NPC: on a quest a party member shares, "npc" is that player (the audit, 10/20).
     -- Giver.Sex leaves out a gender the game hides (LOR-572): the data's decides then.
@@ -2400,10 +2454,14 @@ function Voice.QuestClip(qid, kind, text, unchecked, peek)
     local row = english and v[4] and type(v[3]) == "table" and v[3][qid]
     return type(row) == "table" and type(row[part]) == "string" and row[part] ~= "" and reads(english)
   end
+  -- A narrator of the top narrator's family reads, or one of the speaker's gender (a woman's lines in a woman's voice
+  -- when hers is ticked); the other family otherwise only fills in when the player allows it (Voice.questFits).
+  local family = Voice.questFits or function() return true end
   local fits, crossed = {}, {}
   for _, v in ipairs(list) do
-    if reads(v[3]) then fits[#fits + 1] = v
-    elseif across(v) then fits[#fits + 1], crossed[v] = v, true end
+    local allowed = family(v[1]) or (want and Voice.Gender(v[1]) == want)
+    if allowed and reads(v[3]) then fits[#fits + 1] = v
+    elseif allowed and across(v) then fits[#fits + 1], crossed[v] = v, true end
   end
   -- The quest givers' role and the narrator's never fill for each other page by page: a giver quest plays the
   -- giver's recording alone; a page whose giver doesn't fit the NPC in front of you goes to the narrator, and so
@@ -2416,7 +2474,7 @@ function Voice.QuestClip(qid, kind, text, unchecked, peek)
   if not fits[1] and not giver then return nil end
   if peek then return id end
   local order = fits
-  local reader = not giver and #fits > 1 and questNarrator(qid, rec)
+  local reader = not giver and #fits > 1 and questNarrator(qid, rec, want, fits)
   if reader and fits[1][1] ~= reader then
     order = {}
     for _, v in ipairs(fits) do if v[1] == reader then order[#order + 1] = v end end
@@ -2437,6 +2495,23 @@ function Voice.QuestClip(qid, kind, text, unchecked, peek)
     Voice.questTitles[id] = type(named) == "string" and named ~= "" and named or nil
   end
   return id
+end
+
+-- Whether the quest window's page is one the add-on's data has, word for word (ns.DB.questVoice's fingerprints of the
+-- text on screen), with no recording a voice could play for it: what Willo may read (Companion.ReadQuestPage).
+function Voice.QuestPageKnown(qid, kind)
+  local part = QUEST_PART[kind]
+  local rec = part and ns.DB and ns.DB.questVoice and ns.DB.questVoice[qid]
+  local fps = type(rec) == "table" and rec[part]
+  if type(fps) ~= "string" or fps == "" then return false end
+  local f = _G[QUEST_TEXT[kind]]
+  local ok, words = false, nil
+  if f then ok, words = pcall(f) end
+  if not (ok and type(words) == "string" and words:find("%S")) then return false end
+  for _, fp in ipairs(Voice.QuestFingerprints(words)) do
+    if (" " .. fps .. " "):find(" " .. fp .. " ", 1, true) then return true end
+  end
+  return false
 end
 
 -- The page on screen as something to play ({id, key, label, text, story}): the quest giver's own words when a voice
@@ -2511,14 +2586,23 @@ function Voice.OnQuestFrame(kind, recorded)
   local ours, arrival = UI.speaking and isQuestText(UI.playingId), arrivalPlaying()
   if UI.IsBusy() and not (ours or arrival) then return end   -- never over something you started
   if UI.playingId == id then return end
-  if willoAnswering() then return end   -- it waits: its turn comes when Willo is done (willoDone)
-  local target = not Voice.openPages[id] and not Voice.GameTalking() and questTarget(qid, kind, recorded) or nil
+  local fresh = not Voice.openPages[id] and not Voice.GameTalking()
+  local target = fresh and questTarget(qid, kind, recorded) or nil
+  -- A recording waits while Willo talks: its turn comes when she's done (willoDone). A page for her to read doesn't:
+  -- the newest page is the one she reads, after her own answer (#1535).
+  if target and willoAnswering() then return end
   if not target then
     -- Another page of this window has no recording: this window's page stops all the same. One still playing from a
     -- window you've closed plays on.
     if ours and not Voice.questLeftover then UI.StopAll() end
+    -- A page no recording has, whose words are the add-on's own: Willo reads it in the quest giver's voice (#1535).
+    if fresh and ns.Companion and Voice.QuestPageKnown(qid, kind) then
+      Voice.openPages[id] = true
+      ns.Companion.ReadQuestPage(qid, kind, questPage(kind))
+    end
     return
   end
+  if ns.Companion then ns.Companion.ClearQuestPage() end
   -- The place's story gives way to the quest giver, and waits to play again once you're done talking (once, and only
   -- while it's still in step: the rules above AUTO_SETTLE).
   if arrival then yieldArrival(arrival) end
@@ -2637,6 +2721,7 @@ end
 -- player's X still stop it. The next time the window opens its pages play again (Voice.openPages).
 function Voice.OnQuestClosed()
   closePages(QUEST_PREFIX)
+  if ns.Companion then ns.Companion.ClearQuestPage() end
   Voice.questKind, Voice.questRecorded = nil, nil
   local UI = ns.UI
   if UI and UI.speaking and isQuestText(UI.playingId) then Voice.questLeftover = true end
