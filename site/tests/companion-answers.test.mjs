@@ -68,10 +68,10 @@ async function linked(sub = "aelric") {
 
 // A question no fact covers (era-vanessa names VanCleef since LOR-639; a real NPC has NPC facts), so research isn't
 // answered from facts.
-async function ask(token, { prompt = "PLAYER CONTEXT\nWestfall\nQUESTION\nWho is Zarnok Brightwhistle?", method = "POST", headers = {}, researchRequired, operation, persona, style, image } = {}) {
+async function ask(token, { prompt = "PLAYER CONTEXT\nWestfall\nQUESTION\nWho is Zarnok Brightwhistle?", method = "POST", headers = {}, researchRequired, operation, persona, style, image, closeup, closeup_of, look } = {}) {
   const request = new Request("https://example.test/api/companion/answer", { method,
     headers: { "X-LF-Client": "companion/0.1.0", "Authorization": `Bearer ${token || ""}`,
-      "Content-Type": "application/json", ...headers }, body: method === "GET" ? undefined : JSON.stringify({ prompt, research_required: researchRequired, operation, persona, style, image }) });
+      "Content-Type": "application/json", ...headers }, body: method === "GET" ? undefined : JSON.stringify({ prompt, research_required: researchRequired, operation, persona, style, image, closeup, closeup_of, look }) });
   const res = await onRequest({ request, env });
   return { status: res.status, body: await res.json() };
 }
@@ -307,6 +307,35 @@ test("a spoken answer sends the player's picture to Gemini, and the allowance sa
   assert.equal(result.body.model, SIGHT_MODEL);
   const spend = env.DB.sqlite.prepare("SELECT reserved_micro, actual_micro FROM answer_spend").get();
   assert.deepEqual([spend.actual_micro, spend.reserved_micro], [125, 125], "200 tokens in at $0.25/M, 50 out at $1.50/M");
+});
+
+test("the minimap's close-up goes to Gemini right after the picture, and only with one (LOR-802)", async () => {
+  const { token } = await linked();
+  assert.equal((await ask(token, { method: "GET" })).body.allowance.closeups, true);
+  const image = jpeg(149_997), closeup = jpeg(149_000), prompt = "QUESTION\nWhere am I right now?";
+  const result = await ask(token, { prompt, persona: "willo", style: "spoken", image, closeup });
+  assert.equal(result.status, 200, "a picture and its close-up both fit");
+  const [picture, close, note, asked] = parts(0);
+  assert.deepEqual([picture.inlineData.data, close.inlineData.data], [image, closeup]);
+  assert.match(note.text, /close-up/i);
+  assert.match(asked.text, /Where am I right now\?/);
+  await ask(token, { prompt, persona: "willo", style: "spoken", closeup });
+  assert.equal(parts(1).length, 1, "a close-up alone is never sent");
+  assert.doesNotMatch(note.text, /target/i);
+  await ask(token, { prompt: "QUESTION\nWho is this?", persona: "willo", style: "spoken", image, closeup, closeup_of: "target" });
+  assert.match(parts(2)[2].text, /target frame/i, "a close-up of the target frame is called one");
+});
+
+test("a typed question's picture goes to Gemini when the app looked at the screen for it (LOR-802)", async () => {
+  // Her screen look-up: the app's code takes the game's picture for a typed question that needs it ("where am I?").
+  const { token } = await linked();
+  const image = jpeg(3000), prompt = "QUESTION\nWhere am I?";
+  assert.equal((await ask(token, { prompt, persona: "willo", image, look: "screen" })).status, 200);
+  assert.deepEqual(parts(0)[0], { inlineData: { mimeType: "image/jpeg", data: image } });
+  assert.match(system(0), PICTURE);
+  assert.match(calls[0].url, new RegExp(`/${SIGHT_MODEL}:generateContent$`));
+  await ask(token, { prompt, persona: "willo", image, look: "anything" });
+  assert.equal(parts(1).length, 1, "without the look-up, a typed picture is ignored as before");
 });
 
 test("pictures outside spoken answers, or malformed ones, are ignored and the question is still answered", async () => {

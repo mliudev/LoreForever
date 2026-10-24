@@ -328,7 +328,7 @@ export function packsForEntry(key, entries, data, shown) {
 
 // The language a pack's recordings speak, in English, for /lore's "plays in French in the add-on".
 const LANGUAGE = { deDE: "German", frFR: "French", esES: "Spanish", esMX: "Spanish", ptBR: "Brazilian Portuguese",
-  itIT: "Italian", ruRU: "Russian", ukUA: "Ukrainian" };
+  itIT: "Italian", ruRU: "Russian", ukUA: "Ukrainian", zhCN: "Simplified Chinese" };
 
 // What /lore plays when a pack is picked (site_packs.py writes it): an English narrator's pack plays its narrator's
 // recordings in the list where it has them ({voice}); where it has none (another language, the "more" packs, the

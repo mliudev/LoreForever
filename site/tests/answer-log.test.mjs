@@ -92,3 +92,18 @@ test("rows kept before the wider scrub are scrubbed again, by the account the si
   assert.equal(rows()[0].answer, "{player}, Brill je na východ.");
   assert.deepEqual((await rescrubAnswerLog(env)).changed, [], "nothing left to change");
 });
+
+test("an answer that says she can't see where they are is marked, so her screen look-up grows from real misses", async () => {
+  // LOR-802 (the PM, 10/23): the app takes the screen for questions it recognizes; the ones it passed over, where she
+  // then said she couldn't see or tell, are marked "unseen" among the kept answer's look-ups.
+  const { token } = await linked();
+  globalThis.fetch = async () => Response.json({ candidates: [{ content: { parts: [{ text: "I can't see where you are from here. Where are you?" }] } }],
+    usageMetadata: { promptTokenCount: 200, candidatesTokenCount: 40 } });
+  assert.equal((await ask(token, { keep: true, prompt: "PLAYER CONTEXT\nrace: Human\n\nQUESTION\nIs this the right way to go?" })).status, 200);
+  globalThis.fetch = async () => Response.json({ candidates: [{ content: { parts: [{ text: "Sentinel Hill is east." }] } }],
+    usageMetadata: { promptTokenCount: 200, candidatesTokenCount: 40 } });
+  assert.equal((await ask(token, { keep: true })).status, 200);
+  const [missed, fine] = rows();
+  assert.match(missed.lookups || "", /\bunseen\b/);
+  assert.doesNotMatch(fine.lookups || "", /\bunseen\b/);
+});

@@ -88,26 +88,36 @@ export function loadRetention(key, $ = id => document.getElementById(id)) {
   // The note box for one cancellation: the template, then Send asks once more before it goes.
   const sayNote = (msg, good) => { $("ret-note-status").hidden = !msg; $("ret-note-status").textContent = msg || "";
     $("ret-note-status").classList.toggle("fb-good", Boolean(good)); };
+  // Who it's from (lib/winback.js SENDERS, Mike's first): picking one fills the box with that one's note.
+  const sender = () => last.templates.find(t => t.as === $("ret-note-as").value) || last.templates[0];
+  const fill = () => {
+    const t = sender();
+    $("ret-note-subject").value = t.subject;
+    $("ret-note-text").value = t.text;
+    $("ret-note-from").textContent = t.address;
+  };
   function openNote(c) {
     writing = c;
     $("ret-note-title").textContent = `Write to the player who cancelled ${PLAN[c.plan] || "a plan"} on ${c.at.slice(0, 10)}`;
-    $("ret-note-subject").value = last.template.subject;
-    $("ret-note-text").value = last.template.text;
+    $("ret-note-as").replaceChildren(...last.templates.map(t => el("option", { value: t.as, text: `${t.label} (${t.address})` })));
+    fill();
     sayNote("");
     $("ret-note-form").hidden = false;
     $("ret-note-form").scrollIntoView({ block: "nearest" });
   }
   async function sendNote(e) {
     e.preventDefault();
-    if (!writing || !confirm("Send this note now? It goes once, from patrick@loreforeverwow.com.")) return;
+    const from = sender();
+    if (!writing || !confirm(`Send this note now? It goes once, from ${from.address}.`)) return;
     try {
       const r = await fetch("/api/admin/retention", { method: "POST", cache: "no-store",
         headers: { Authorization: "Bearer " + key(), "Content-Type": "application/json" },
-        body: JSON.stringify({ action: "write", id: writing.id, subject: $("ret-note-subject").value, text: $("ret-note-text").value }) });
+        body: JSON.stringify({ action: "write", id: writing.id, as: from.as, subject: $("ret-note-subject").value,
+          text: $("ret-note-text").value }) });
       const res = await r.json().catch(() => ({}));
       if (!r.ok || !res.ok) throw new Error(res.error || `Request failed (${r.status})`);
       const said = SENT[res.status] || res.status;
-      sayNote(res.status === "sent" ? "Sent. Replies go to patrick@loreforeverwow.com." : `${said[0].toUpperCase()}${said.slice(1)}.`,
+      sayNote(res.status === "sent" ? `Sent. Replies go to ${from.address}.` : `${said[0].toUpperCase()}${said.slice(1)}.`,
         res.status === "sent");
       writing = null;
       await render();
@@ -115,6 +125,7 @@ export function loadRetention(key, $ = id => document.getElementById(id)) {
   }
   if (!$("ret-paid").dataset.wired) {
     $("ret-note-form").addEventListener("submit", sendNote);
+    $("ret-note-as").addEventListener("change", fill);
     $("ret-note-cancel").addEventListener("click", () => { writing = null; $("ret-note-form").hidden = true; });
     $("ret-paid").dataset.wired = "1";
     $("ret-paid").addEventListener("change", render);

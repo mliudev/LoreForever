@@ -126,13 +126,14 @@
         <table><thead><tr><th>Day</th><th>What</th><th>Plan</th><th>Kept</th><th>Paid</th><th>Runs to</th><th>Reason</th>
           <th>What they wrote</th><th>Ask why</th></tr></thead><tbody id="ret-log"></tbody></table>
       </div>
-      <!-- A note to one player who cancelled (lib/winback.js): sent by the site from patrick@, so their address never
-           shows here. -->
+      <!-- A note to one player who cancelled (lib/winback.js): sent by the site from Mike (hello@) or Patrick, so their
+           address never shows here. -->
       <form id="ret-note-form" class="ad-panel" hidden style="margin-top:10px">
         <h3 id="ret-note-title" style="margin-top:0">Write to the player</h3>
-        <p class="ad-count">Sent once, from patrick@loreforeverwow.com, and replies come back to that address. The site
-          looks up their email and sends it, so you never see it. {name} becomes their first name. An unsubscribe
-          line is added at the end.</p>
+        <p class="ad-count">Sent once, from <span id="ret-note-from">hello@loreforeverwow.com</span>, and replies come
+          back to that address. The site looks up their email and sends it, so you never see it. {name} becomes their
+          first name. An unsubscribe line is added at the end.</p>
+        <label style="display:block">From <select id="ret-note-as"></select></label>
         <label style="display:block">Subject <input id="ret-note-subject" maxlength="120" required style="width:100%"></label>
         <label style="display:block;margin-top:8px">Message <textarea id="ret-note-text" rows="10" maxlength="3000" required
           style="width:100%"></textarea></label>
@@ -720,6 +721,6 @@
 
 <!-- The page's script is a file: /admin's Content-Security-Policy (public/_headers) runs no inline script.
      Bump ?v= when admin-page.js changes, since browsers keep .js for 4 hours on loreforeverwow.com. -->
-<script type="module" src="/admin-page.js?v=20261021y"></script>
+<script type="module" src="/admin-page.js?v=20261022q"></script>
 </body>
 </html>

@@ -67,6 +67,19 @@ test("a published article: its page, FAQ structured data, call to action, the li
     /<loc>https:\/\/loreforeverwow.com\/guides\/who-was-edwin-vancleef<\/loc><lastmod>2026-10-12<\/lastmod>/);
 });
 
+test("a shared guide shows the picture its writer chose, even when it also has a generated card", async () => {
+  const meta = (html, name) => html.match(new RegExp(`<meta (?:property|name)="${name}" content="([^"]*)"`))?.[1];
+  const ld = html => [...html.matchAll(/<script type="application\/ld\+json">(.*?)<\/script>/g)].map(m => JSON.parse(m[1]))
+    .find(d => d["@type"] === "Article");
+  const slug = "wow-forever-beginners-guide"; // has a card in public/img/cards
+  const page = async body => (await get(articleGet, `/guides/${slug}`, { [slug]: body }, { slug })).text();
+  const own = await page(SAMPLE + "\n![Goldshire at dusk](/guides/img/goldshire.jpg)\n");
+  assert.equal(meta(own, "og:image"), `${HOME}/guides/img/goldshire.jpg`);
+  assert.equal(ld(own).image, `${HOME}/guides/img/goldshire.jpg`);
+  const bare = await page(SAMPLE);
+  assert.equal(meta(bare, "og:image"), `${HOME}/img/cards/guide-${slug}.jpg`, "no picture of its own: its card");
+});
+
 test("a file draft is private and kept out of search, the list and the sitemap", async () => {
   const dir = { "who-was-edwin-vancleef": SAMPLE.replace("kind: lore\n", "kind: lore\ndraft: true\n") };
   const res = await get(articleGet, "/guides/who-was-edwin-vancleef", dir, { slug: "who-was-edwin-vancleef" });

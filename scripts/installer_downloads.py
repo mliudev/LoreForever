@@ -202,7 +202,7 @@ def build(transport, packs, output, version, base, source_commit, candidate_zip)
         folders += [row['addon'] for source in sources for row in result['packs'].get(source, {}).get('shards', [])]
         for folder in folders:
             check = '' if selection == 'base' else "; Check: VoiceChosen('%s')" % selection
-            uninstall.append('Type: filesandordirs; Name: "{app}\\_classic_beta_\\Interface\\AddOns\\' + folder + '"' + check)
+            uninstall.append('Type: filesandordirs; Name: "{app}\\{code:GameFlavor}\\Interface\\AddOns\\' + folder + '"' + check)
     (output / 'installer-downloads-uninstall.iss').write_text('\n'.join(uninstall) + '\n')
     return result
 

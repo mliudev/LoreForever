@@ -64,7 +64,8 @@ end
 -- before this has neither; play and done still count everything, as before.
 -- LOR-435: the companion also sends these with its daily check-in, with no account (companion/lore_companion/usage.py,
 -- site/lib/featureuse.js KEYS; keep the names in step), unless the player turns off "Share anonymous usage counts":
---   tab = { here, narrations, journey, history, queue }   panel pages opened by hand (narrations: the Library)
+--   tab = { here, narrations, journey, history, queue }   panel pages opened by hand (narrations: the Found tab,
+--                                                       once the Library)
 --   asked = { typed, slash, hover, quest, next, ... }      questions, by how they were asked (the report code's VIA)
 --   pl = { add, quest, here, play, next, prev, jump }      playlist use
 --   map, mapclick                                          Bigger map opened, a moment opened from a map's marker

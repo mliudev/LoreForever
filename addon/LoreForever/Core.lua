@@ -76,7 +76,7 @@ local function playlistPlayPause()
   if UI.IsBusy() then return UI.StopAll() end
   if UI.ResumeStopped() then return end
   if not UI.PlaylistToggle() and UI.QueueHere() == 0 then
-    say(L["nothing here is narrated, and your playlist is empty. Press + on any narration in the Library to add it."])
+    say(L["nothing here is narrated, and your playlist is empty. Shift-click any page in Found to add it."])
   end
 end
 
@@ -86,7 +86,7 @@ end
 
 function LoreForever_PlaylistNext()
   if ns.UI.frame and not ns.UI.PlaylistNext() then
-    say(L["your playlist is empty. Press + on any narration in the Library to add it."])
+    say(L["your playlist is empty. Shift-click any page in Found to add it."])
   end
 end
 
@@ -229,10 +229,15 @@ local function arrive()
   ns.Voice.OnZone(zk)   -- its places and people are in a lands pack you don't have: say so, once
   ns.Voice.OnArrive()   -- play its narration, the first time you're here
   if not e or nudged[zone] then return end
-  nudged[zone] = true
   local z = ns.DB.zones[zk]
   local inInstance = IsInInstance and IsInInstance()
-  local listen = ns.Voice.HasAudio("zone:" .. zk) and (" " .. ns.Hooks.Link(L["Listen"], "listen", "zone:" .. zk)) or ""
+  -- Its story about to play by itself says so in a line of its own ("now playing", with Stop): one line, not two
+  -- within seconds (LOR-789). A dungeon's primer still shows.
+  local coming = ns.Voice.ArrivalComing("zone:" .. zk)
+  if coming and not (z and z.t == "dungeon" and inInstance) then return end
+  nudged[zone] = true
+  local listen = not coming and ns.Voice.HasAudio("zone:" .. zk)
+    and (" " .. ns.Hooks.Link(L["Listen"], "listen", "zone:" .. zk)) or ""
   if z and z.t == "dungeon" and inInstance then
     if S().dungeonPrimer then
       say(string.format(L["Entering %s. %s"], z.n, ns.Hooks.Link(L["Dungeon primer"], "primer", zk)) .. listen)
@@ -257,7 +262,7 @@ local function loginTip()
       or L["Tip: hover over an NPC and press your Lore Forever key (/lore key) to read their story."],
     L["Tip: entering a dungeon links its primer: who you'll face and why it matters. /lore primer brings it back."],
     L["Tip: the lore lines on NPC and item tooltips can be turned off in /lore options."],
-    L["Tip: press + on any narration in the Library to build a playlist; the player at the bottom left plays it."],
+    L["Tip: Found holds every page of your chronicle; Shift-click its pages to build a playlist."],
     L["Tip: /lore journey shows your road so far: the places you've seen, the people you've met and the quests you've done."],
   }
   local i = (tonumber(S().tipNext) or 1)
@@ -616,6 +621,8 @@ events:SetScript("OnEvent", function(_, event, arg1, ...)
     -- The journey's errors are reported, never fatal to the rest.
     local ok, err = pcall(ns.Journey.Init)
     if not ok and geterrorhandler then geterrorhandler()(err) end
+    ok, err = pcall(ns.Collection.Init)   -- the pages this character has found (Collection.lua)
+    if not ok and geterrorhandler then geterrorhandler()(err) end
     ns.Voice.Init()
     ns.WhatsNew.Init()   -- the first login of a new version: what's new in it (WhatsNew.lua)
     ns.Strip.SyncWillo()   -- Willo's newer Live game info choice beats an older one made here (Strip.lua, LOR-676)
@@ -804,7 +811,7 @@ SlashCmdList.LOREFOREVER = function(msg)
     if ns.Companion.Installed() then
       say(string.format(L["/lore key willo - the key you hold to talk to %s"], ns.COMPANION_NAME))
     end
-    say(L["/lore library - every recorded narration, grouped (your starting area first)"])
+    say(L["/lore found - your chronicle: every page you've found, by chapter (/lore library opens it too)"])
     say(L["/lore journey - what your character has done so far; /lore sync - save it now (reloads)"])
     say(L["/lore picture - take a journey picture"])
     say(L["/lore quests - every quest you've completed, by zone; click one to read its quest text again"])
@@ -833,9 +840,12 @@ SlashCmdList.LOREFOREVER = function(msg)
     say(string.format(L["Questions, requests and bug reports: %s"], DISCORD_URL))
   elseif cmd == "key" or cmd == "key narrate" or cmd == "key willo" then
     ns.Hooks.KeyPrompt(cmd:match("^key (%a+)$") or "toggle"):Show()
-  elseif cmd == "narrations" or cmd == "library" then
+  elseif cmd == "found" or cmd == "narrations" or cmd == "library" then
     if not ns.UI.frame:IsShown() then ns.UI.frame:Show() end
-    ns.UI.ShowTab("narrations")
+    ns.UI.ShowTab("found")
+    local total, k = ns.Collection.Counts()
+    say(string.format(L["Your chronicle: %d pages found (%d places, %d people, %d items, %d quests, %d of Azeroth)."],
+      total, k.places, k.people, k.items, k.quests, k.topics))
   elseif cmd == "journey" then
     if not ns.UI.frame:IsShown() then ns.UI.frame:Show() end
     ns.Journey.Show()
@@ -850,10 +860,12 @@ SlashCmdList.LOREFOREVER = function(msg)
   elseif cmd == "willo" and ns.Companion.OFFER_WILLO then
     ns.Companion.ShowGetWillo()
   elseif cmd == "ask" or cmd:match("^ask%s") then
-    -- Live answers once the companion app is installed; until then it's an ordinary question.
+    -- Willo's once she's installed, the way the panel asks her (UI.AskWillo: through the sky, or the Ctrl+C box with
+    -- Live game info off); until then it's an ordinary question.
     local question = msg:match("^%S+%s*(.-)$")
     if ns.Companion.Installed() then
-      ns.Companion.Ask(question)
+      if question == "" then return ns.Companion.Ask(question) end   -- says how to use it
+      ns.UI.AskWillo(question)
     else
       if not ns.UI.frame:IsShown() then ns.UI.frame:Show() end
       if question ~= "" then ns.UI.Ask(question, "slash") end

@@ -8,6 +8,7 @@
 // account, and the voice drops off the site if the account is deleted.
 
 import { senderHash } from "./form.js";
+import { imageTags, twitterText, LORE_CARD } from "./social.js";
 
 // Reads voices.json from the deployed static files, so a voice added there needs no code change.
 export async function loadVoices(env, request) {
@@ -304,7 +305,7 @@ ${lead ? `    <div class="h-foot-lead">${lead}</div>\n` : ""}    <div class="h-f
 // bw: "The book and the wisp" (2026-10-15; style.css and pages.css), on by default: the night sky behind the page's
 // top, its column, and the column footer (siteFoot, with foot as its lead line and source tagging its sign-up). The
 // player profiles (lib/profiles.js) add public/profile.css for their own pieces.
-export function page({ title, fullTitle, description, path, crumb, body, image, crumbs, foot, scripts, robots, head, viewer,
+export function page({ title, fullTitle, description, path, crumb, body, image, imageAlt, crumbs, foot, scripts, robots, head, viewer,
   bw = true, source }) {
   const url = "https://loreforeverwow.com" + path;
   const trail = crumbs ?? `<a href="/downloads">Downloads</a> &rsaquo; ${escape(crumb)}`;
@@ -322,8 +323,8 @@ ${robots ? `<meta name="robots" content="${escape(robots)}">\n` : ""}<link rel="
 <meta property="og:title" content="${escape(title)}">
 <meta property="og:description" content="${escape(description)}">
 <meta property="og:url" content="${url}">
-<meta property="og:image" content="${escape(image || "https://loreforeverwow.com/img/social-card.png")}">
-<meta name="twitter:card" content="summary_large_image">
+${imageTags({ image: image || LORE_CARD.src, alt: image ? imageAlt : LORE_CARD.alt, home: "https://loreforeverwow.com" })}
+${twitterText({ title, description })}
 <link rel="icon" href="/img/logo.svg" type="image/svg+xml">
 <link rel="icon" href="/img/logo.png" type="image/png" sizes="512x512">
 <link rel="apple-touch-icon" href="/img/logo.png">

@@ -1,12 +1,12 @@
 // Account-linked companion answers. The site owns the key and pays for a small daily allowance; a player's plan
-// (lib/billing.js) gives more. Answers can't be bought: once a plan's are gone (and a free player's starter), Willo
+// (lib/billing.js) gives more. Answers can't be bought: once a plan's are gone (and any friends gave), Willo
 // answers from the add-on's lore library until they come back.
 import { setup, fail, noStore } from "../../../lib/accounts.js";
 import { currentDevice } from "../../../lib/devices.js";
 import { perDay, perPeriod, unDay, unPeriod } from "../../../lib/ratelimit.js";
 import { markAsked } from "../../../lib/activity.js";
 import { allowance, reserveAnswer, answerReservation, seesPicture, writeAnswer, SAY_MAX_CHARS, lookUp, uncapped,
-  personaOf, styleOf, COMPACTIONS_PER_DAY, ANSWER_PROMPT_BYTES, ANSWER_IMAGE_CHARS, LORE_FOCUS, TRAIL_COLD, CUSTOM_PROMPT_BYTES,
+  personaOf, styleOf, lookOf, COMPACTIONS_PER_DAY, ANSWER_PROMPT_BYTES, ANSWER_IMAGE_CHARS, LORE_FOCUS, TRAIL_COLD, CUSTOM_PROMPT_BYTES,
   VERIFICATION_FAILED } from "../../../lib/companion-answers.js";
 import { promptParts, withoutLive, knowledgeFor, asksTheWay, wayQuestion, withQuestion, factSources, offerTaken, meant, otherVersions }
   from "../../../lib/forever-knowledge.js";
@@ -22,7 +22,7 @@ import { keptSummary } from "../../../lib/keeps-notebook.js";
 import { lookupsFor, actionsFor, actionOf, keepsOffer, offerInstead, offerLine, freeKey, SAYS_DONE, QUEST_READING_OFFER }
   from "../../../lib/willo-tools.js";
 import { picksFor, pickNamed, readsQuests } from "../../../lib/companion-voice.js";
-import { plansOn, holdUserSpend, releaseUserSpend, addUserSpend, useStarter, useShare, returnStarter, offersFor,
+import { plansOn, holdUserSpend, releaseUserSpend, addUserSpend, useShare, returnStarter, offersFor,
   poolWindow, capState, companionFeatures, PLANS, setupBilling, MACHINE_ACCOUNTS } from "../../../lib/billing.js";
 import { planSoon } from "../../../lib/plan-cache.js";
 import { promptRow, blocksOf, allowedFor, NPC_KEY } from "../../../lib/willo-custom.js";
@@ -66,6 +66,10 @@ const SOUND_NOTE = "PRONUNCIATION: the player is telling you how a name sounds, 
 // their gear and guessed wrong). Only for a question that depends on it, with no zone, target or picture, and
 // none of the site's own look-ups (a place, quest or item it found) answering it ("I'm in their nazis, where's a
 // griffin?" names its place).
+// Her answer says she can't see or tell where they are or who they target (LOR-802): with no picture sent, the answer
+// log marks it "unseen" among its look-ups, so the app's screen look-up (which questions take the screen) grows from
+// real misses.
+export const UNSEEN = /\b(?:can(?:no|['’])?t|unable to|couldn['’]?t) (?:quite )?(?:see|tell|make out)\b|\bdon['’]?t know where you are\b|\bno target can be seen\b|\bmists are thick\b|\bwhere are you\b/i;
 const NO_PLACE = "WHERE THEY ARE: no game info and no picture came with this question, so you don't know where " +
   "they are, who or what is in front of them, or what they carry. Never name a place, a creature or their gear as " +
   "theirs: ask in one short line (which zone or town, who it is), and give what holds wherever they are.";
@@ -87,13 +91,20 @@ const placeOf = (parts, away) => away ? [parts.sub, parts.zone].filter(Boolean).
 const NOT_IN_FACTS = /\b(?:rewards?|xp|experience|prices?|costs?|worth|auction(?!(?: ?house|eers?)\b)|how much)\b/i;
 const MAX_BODY_BYTES = 64 * 1024; // JSON escaping can expand a valid 16 KB Unicode prompt.
 // A spoken question may also carry a picture (base64, a byte per character); the rest of the body keeps MAX_BODY_BYTES.
-const MAX_PICTURE_BODY_BYTES = MAX_BODY_BYTES + ANSWER_IMAGE_CHARS;
+const MAX_PICTURE_BODY_BYTES = MAX_BODY_BYTES + 2 * ANSWER_IMAGE_CHARS;   // the picture and its close-up (LOR-802)
 // offers: the plan the player could move up to for more answers (lib/billing.js offersFor), only when there's one.
 const tooMany = (error, retryAfter, allowance, offers = []) => Response.json({ ok: false, error, retryAfter, allowance,
   ...(offers.length ? { offers } : {}) }, { status: 429, headers: { ...noStore, "Retry-After": String(retryAfter) } });
 const untilReset = (left, now) => Math.ceil((Date.parse(left.resetsAt) - now.getTime()) / 1000);
 const untilTomorrow = now => Math.ceil((Date.parse(now.toISOString().slice(0, 10) + "T00:00:00Z") + 86400e3 - now.getTime()) / 1000);
 const dateOf = iso => new Date(iso).toLocaleDateString("en-US", { month: "long", day: "numeric", timeZone: "UTC" });
+// When her light comes back, in the world's words, from the seconds until it does (LOR-773): never "tomorrow", which
+// the day's turn at midnight UTC (5 pm in California, LOR-742) made wrong for the American evening.
+const refillWhen = seconds => {
+  const h = Math.max(0, seconds) / 3600;
+  return h >= 36 ? `in about ${Math.round(h / 24)} days` : h < 1 ? "in under an hour" : h < 1.5 ? "in about an hour"
+    : `in about ${Math.round(h)} hours`;
+};
 // A failed answer, always as JSON (LOR-580): `reason` (what failed, "Gemini HTTP 503", a D1 error) goes in the
 // companion's log, which asks once more; the player only ever sees Willo's own line for it.
 // answerId: the failed answer's id (lib/answer-signals.js), so the app's next question can say it failed.
@@ -104,7 +115,7 @@ const CROWDED = "So many travelers have drunk from the Moonwell that my light's 
 const failed = (e, answerId = null) => Response.json({ ok: false, error: "Couldn't get a live answer just now. Try again in a moment.",
   reason: String(e?.message || e).slice(0, 160), ...(answerId ? { answer_id: answerId } : {}) }, { status: 502, headers: noStore });
 
-// The plan's answers are gone, today's or the month's (the allowance's period), and a free player's starter too: the
+// The plan's answers are gone, today's or the month's (the allowance's period), and any friends gave too: the
 // 429, with the plan above theirs for the companion's own buttons (Free's is Hero; Legend's is nothing). Its words
 // become the start of the add-on's lore-library answer (companion/lore_companion/answer.py offline_answer, which goes
 // on "Until then, here's what the lore library says."), so they're Willo's, in the world, and only say when live
@@ -117,10 +128,11 @@ async function outOfAnswers(env, userId, plan, now, exempt, capped = false) {
   if (plansOn(env)) await recordLimit(env, userId, plan,
     capped ? "cost_cap" : left.period === "month" ? "month" : plan.brake ? "brake" : "day", now);
   const offers = capped ? [] : offersFor(env, plan);
-  const words = !plansOn(env) ? `You've used today's ${plan.answersPerDay} free answers. They come back tomorrow.`
+  const back = refillWhen(untilReset(left, now));
+  const words = !plansOn(env) ? `You've used your ${plan.answersPerDay} free answers. They come back ${back}.`
     : capped || left.period === "month"
       ? `My light's spent for this month. The Moonwell refills it on ${dateOf(left.resetsAt)}.`
-    : "My light's spent for today. The Moonwell refills it tomorrow.";
+    : `My light's spent for now. The Moonwell refills it ${back}.`;
   return tooMany(words, untilReset(left, now), left, offers);
 }
 
@@ -178,7 +190,7 @@ async function answerQuestion(context, hold) {
   try { input = await request.text(); } catch { return fail(400, "Couldn't read that question."); }
   const bytes = new TextEncoder().encode(input).length;
   if (bytes > MAX_PICTURE_BODY_BYTES) return tooBig();
-  let prompt, operation, researchRequired, persona, style, image, autoResearch, npc, dataVersion, keep, names, current,
+  let prompt, operation, researchRequired, persona, style, image, closeup, closeupOf, screenLook, autoResearch, npc, dataVersion, keep, names, current,
     offset, stock, layers, last, awayAsked;
   try {
     const body = JSON.parse(input);
@@ -193,6 +205,14 @@ async function answerQuestion(context, hold) {
     // Optional: a picture of the game window with a spoken question. writeAnswer uses it only when it's a valid JPEG
     // with a spoken, unresearched answer; otherwise the question is answered as text. Never logged or stored.
     image = body.image;
+    // Optional (LOR-802): with it, a close-up of that picture's top-right corner (the minimap and the place name by it),
+    // cut from the full-size frame; used only with the picture, the same way. Never logged or stored.
+    closeup = body.closeup;
+    // closeup_of "target": that close-up is of the target frame, for a question about their target.
+    closeupOf = body.closeup_of === "target" ? "target" : null;
+    // Optional (LOR-802): look "screen" when the app took that picture for a typed question that needs the screen ("where
+    // am I?", "who's this?"): her screen look-up, chosen by the app's code. Anything else, and a typed picture is ignored.
+    screenLook = lookOf(body.look);
     // Optional (LOR-447): the lore key of the character a "character" answer speaks for, for the player's own tale of
     // them. Anything else is ignored.
     npc = typeof body.npc === "string" && NPC_KEY.test(body.npc) ? body.npc : null;
@@ -226,7 +246,8 @@ async function answerQuestion(context, hold) {
     // the signals it gives that answer. Read only while keep is on.
     last = keep ? lastOf(body.last) : null;
   } catch { return fail(400, "Couldn't read that question."); }
-  if (bytes - (typeof image === "string" ? image.length : 0) > MAX_BODY_BYTES) return tooBig();
+  if (bytes - (typeof image === "string" ? image.length : 0) - (typeof closeup === "string" ? closeup.length : 0)
+    > MAX_BODY_BYTES) return tooBig();
   // "character" (LOR-394) is an ordinary answer in the targeted character's voice: same daily answers and budget.
   if (!["answer", "compact", "character"].includes(operation)) return fail(400, "Unknown chat operation.");
   if (typeof prompt !== "string" || !prompt.trim() || new TextEncoder().encode(prompt).length > ANSWER_PROMPT_BYTES)
@@ -355,11 +376,11 @@ async function answerQuestion(context, hold) {
     const asked = markAsked(env, app.user.id, now.getTime());
     if (context.waitUntil) context.waitUntil(asked); else await asked;
   }
-  // pack: the free plan's starter, when this answer comes out of it (the day's plan answers are gone).
+  // pack: answers friends gave (Share Willo), when this answer comes out of them (the day's plan answers are gone).
   let pack = null;
   // took: what this answer counted on the plan, each marked as its count goes in: the day, and a paid plan's month
-  // (pool). An answer that fails gives back what it took, with its starter (giveBack): it's for answers, not attempts.
-  // Before, only the starter went back, so a failed answer cost the player one of the day's, and the companion's own
+  // (pool). An answer that fails gives back what it took, with its pack (giveBack): it's for answers, not attempts.
+  // Before, only the pack went back, so a failed answer cost the player one of the day's, and the companion's own
   // second ask (LOR-580) another (LOR-673); a count that went in before an error goes back too.
   let took = null;
   // Past the plan's text cap, her answer on Flash-Lite (lib/billing.js capState "lite").
@@ -367,23 +388,23 @@ async function answerQuestion(context, hold) {
   // Her answers on the smarter model: a plan that has it (lib/billing.js PLANS smarter: Legend), while plans are on.
   const smarter = plansOn(env) && Boolean(plan.smarter);
   const giveBack = async () => {
-    const [plan, starter] = [took, pack];
+    const [plan, given] = [took, pack];
     took = pack = null;
     await Promise.all([plan?.day && unDay(env, app.user.id, "companion-answer", now),
       plan?.month && unPeriod(env, app.user.id, "companion-month", plan.pool.key),
-      plan?.machine && unDay(env, `machine:${plan.machine}`, "companion-answer", now), starter && returnStarter(env, starter.id)]);
+      plan?.machine && unDay(env, `machine:${plan.machine}`, "companion-answer", now), given && returnStarter(env, given.id)]);
   };
   hold.giveBack = giveBack;
   if (compact) {
     // Compaction has its own abuse limit and uses the shared paid budget. It never spends a player's daily answer or
-    // a starter answer.
+    // one friends gave.
     if (!(await perDay(env, app.user.id, "companion-compact", COMPACTIONS_PER_DAY, now))) {
       const left = await allowance(env, app.user.id, now, exempt, plan);
-      return tooMany("Chat memory has done all it can for today. Your messages are saved; try again tomorrow.", untilTomorrow(now), left);
+      return tooMany(`Chat memory has done all it can for now. Your messages are saved; try again ${refillWhen(untilTomorrow(now))}.`, untilTomorrow(now), left);
     }
   } else if (!exempt) {
     // The plan's answers first: today's, and a paid plan's month's (from its renewal day, lib/billing.js poolWindow).
-    // Once they're gone, while plans are on, the free plan's starter; then the add-on's lore library (the 429).
+    // Once they're gone, answers friends gave; then the add-on's lore library (the 429).
     // A paying player whose answers this month cost half their plan's net (lib/billing.js capState "lite") gets them on
     // Flash-Lite, not looking online; once answers and hosted voice have cost the whole net ("capped"), none of the
     // plan's are left until the next month: the lore library answers.
@@ -417,11 +438,10 @@ async function answerQuestion(context, hold) {
         pool && (over || !today) && unPeriod(env, app.user.id, "companion-month", pool.key),
         machine && computer && unDay(env, `machine:${machine}`, "companion-answer", now)]);
     }
-    // A starter answer is taken in one statement, so a question asked at the same moment can't spend the same answer;
-    // then answers friends gave by sharing Willo (lib/billing.js useShare, any plan; a paying player's only while their
+    // Then answers friends gave by sharing Willo (lib/billing.js useShare, any plan; a paying player's only while their
     // month is under its text cap, and paid for like the plan's); one that finds the last one gone is out of answers.
-    if (!planned && !(plansOn(env) && !subscriber && (pack = await useStarter(env, app.user.id)))
-        && !(!capped && (pack = await useShare(env, app.user.id)))) {
+    // The free plan's old starter isn't used (lib/billing.js; Mike, 10/22): nothing past the free plan's day.
+    if (!planned && !(!capped && (pack = await useShare(env, app.user.id)))) {
       const taken = tasting && await tasting.catch(() => null);
       if (taken?.taste) await returnTaste(env, taken.taste);
       return outOfAnswers(env, app.user.id, plan, now, exempt, capped);
@@ -630,8 +650,8 @@ async function answerQuestion(context, hold) {
   const cached = Boolean(finding);
   let research = researchRequired && !help && !finding && !fromFacts;
   let quick = searchable && !researchRequired && !finding;
-  // A plan's answer is paid for, so it skips the shared monthly budget, and its cost is counted as theirs. A starter
-  // answer is free: it waits for the shared budget like the day's free answers.
+  // A plan's answer is paid for, so it skips the shared monthly budget, and its cost is counted as theirs. A free
+  // player's answer from friends, and one of Willo's best first, wait for the shared budget like the day's free answers.
   const paid = subscriber;
   // Past the plan's monthly cost cap, the answer goes back to the ordinary model and doesn't look online, until the
   // month ends. Nobody is cut off by it; a longer chat memory stays, since it's cheap. An answer that would look online
@@ -677,7 +697,7 @@ async function answerQuestion(context, hold) {
   const tasteFree = (Boolean(taste) || trying) && !subscriber;
   if (tasteFree && (research || quick)) {
     tasteHold = await holdDay(env, answerReservation(research, operation,
-      { lookup: quick, picture: seesPicture(operation, research, style, image), lite, smarter: smartFor() }), now);
+      { lookup: quick, picture: seesPicture(operation, research, style, image, screenLook), lite, smarter: smartFor() }), now);
     if (!tasteHold) {
       [research, quick, trailCold] = [false, false, true];
       if (!exempt) await giveTasteLookup(env, trial);
@@ -708,12 +728,13 @@ async function answerQuestion(context, hold) {
   // Pins (LOR-664): how she pins, renames and takes one out, and that the place and day are the game's.
   if (pinning.read && view) custom = { ...custom, system: withBlock(custom.system,
     pinRules(spot, { spoken: Boolean(style), adding: pinning.add })) };
-  // One of Willo's best first is held on its own daily cap (lib/best-first.js), never on the free pool, as a paid one.
+  // One of Willo's best first is on the free pool too (lib/free-pool.js; Mike, 10/22), and its daily cap on top
+  // (lib/best-first.js): it waits for the pool's stop as the day's free answers do.
   const reserved = await reserveAnswer(env, now, research, operation, quick,
-    { paid: paid || Boolean(taste), strong, longMemory, picture: seesPicture(operation, research, style, image), lite,
+    { paid, strong, longMemory, picture: seesPicture(operation, research, style, image, screenLook), lite,
       smarter: smartFor() });
   if (!reserved) {
-    // What it took (the plan's day and month, or a starter answer) goes back for a question that never reached the
+    // What it took (the plan's day and month, or an answer from friends) goes back for a question that never reached the
     // model, and a best-first one. The free pool's stop for today (lib/free-pool.js), past its soft step, is reached:
     // in her words, in the world, it comes back with the next day's slice (the companion says these as they are, since
     // they speak of her light, and the add-on's lore library answers meanwhile, as for any 429 an older Willo knows).
@@ -776,7 +797,7 @@ async function answerQuestion(context, hold) {
       plan: planLabel(plan), ...entry }, { names, now });
     if (context.waitUntil) {
       context.waitUntil(kept);
-      if (entry.outcome === "answered" && entry.model !== "site" && seesPicture(operation, research, style, image)) {
+      if (entry.outcome === "answered" && entry.model !== "site" && seesPicture(operation, research, style, image, screenLook)) {
         context.waitUntil(kept.then(async saved => {
           const consent = await imageConsent;
           if (saved && consent) await registerScreenshot(env, app.user.id, answerId, image, { consent });
@@ -856,7 +877,7 @@ async function answerQuestion(context, hold) {
       answer: siteSays, sources: [], web_sources: [], web_search: { status: "not_needed", queries: [], suggestions_html: "" },
       model: "site", usage: null, model_ms: 0, counted: 0 }))
       : await (stubbed(env, request, app.user) ? stubAnswer : writeAnswer)(env, prompt, now, research, operation,
-        { persona, style, image, facts: knowledgeText, help, dispute, custom: custom.system, memories: remembering ? await remembering : "", strong, longMemory, actions,
+        { persona, style, image, closeup, closeupOf, look: screenLook, facts: knowledgeText, help, dispute, custom: custom.system, memories: remembering ? await remembering : "", strong, longMemory, actions,
           later, layered, onSay, lite, smarter: smartFor(),
           away: away && (parts.zone || parts.sub || parts.savedPlace ? "last" : "none") })
         .finally(() => loggedFirst);
@@ -1076,13 +1097,16 @@ async function answerQuestion(context, hold) {
         question: parts.question, names: [parts.zone, parts.sub, parts.target], savedPlace: parts.savedPlace, lastPlace: placeOf(parts, away),
         character: operation === "character" });
     // Two layers: the written answer adds only names and numbers what she was given holds (groundedWritten). No line
-    // about the rest any more (restLine; Mike, 2026-10-21: "it should always just read everything from now on"): the
+    // about the rest any more (Mike, 2026-10-21: "it should always just read everything from now on"): the
     // app says her first words, then the rest of the written answer (lib/billing.js PLAN_VOICE whole).
     if (result.say && ownWords && result.answer && result.answer !== VERIFICATION_FAILED)
       result.answer = groundedWritten(result.answer, result.say, supplied);
     if (!action && (questOffer || liveOffer) && result.answer && result.answer !== VERIFICATION_FAILED && await (questOffer || liveOffer)) {
       action = { id: "live_game_info", args: {}, label: "Turn on Live game info…" };
-      result.answer = `${result.answer} ${questOffer ? QUEST_READING_OFFER : offerLine(action)}`;
+      // Its line goes on the written answer, and also on its own (offer_line): the app shows it under her words with
+      // its button, and leaves it out of what she reads aloud (LOR-777: the offer was read out with the answer).
+      result.offer_line = questOffer ? QUEST_READING_OFFER : offerLine(action);
+      result.answer = `${result.answer} ${result.offer_line}`;
     }
     if (finding) {
       result.web_sources = finding.sources;
@@ -1132,7 +1156,8 @@ async function answerQuestion(context, hold) {
       : /^(?:notebook_|goal_)/.test(call?.name || "") ? call.name : "notebook_add") : goalsReply ? "goal_checkins" : undefined),
       model: result.model,
       model_ms, looked_up: lookedUp,
-      lookups: used, facts: facts.map(f => f.title), outcome: result.answer === VERIFICATION_FAILED ? "unverified" : "answered" });
+      lookups: [...used, ...(!image && operation === "answer" && UNSEEN.test(result.answer || "") ? ["unseen"] : [])],
+      facts: facts.map(f => f.title), outcome: result.answer === VERIFICATION_FAILED ? "unverified" : "answered" });
     // A real answer activates the friend a share link brought (lib/referrals.js activateReferral: their inviter moves on)
     // and notes Willo's computer; after the reply is on its way, never holding it up. Most accounts skip it unread.
     if (!compact && result.answer !== VERIFICATION_FAILED) await afterwards(machineOf(request).then(machine =>
@@ -1151,7 +1176,7 @@ async function answerQuestion(context, hold) {
       ...(dispute ? { feedback: dispute } : {}), ...(custom.tale ? { tale: true } : {}) }, { headers: noStore });
   } catch (e) {
     await settle(e?.counted);
-    // A failed answer gives back what it took (the plan's day and month, or its starter answer): it's for answers, not
+    // A failed answer gives back what it took (the plan's day and month, or its answer from friends): it's for answers, not
     // attempts. A best-first one too.
     await giveBack();
     await Promise.all([taste && returnTaste(env, taste), tasted(lookCost, e?.counted || 0, false),

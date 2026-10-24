@@ -47,8 +47,8 @@ import { plansOn, poolWindow, setupBilling, holdUserSpend, holdStatements, relea
   VOICE_PACK, LEGEND_BEST_MODEL, CHARACTER_MODEL, READINGS_FROM, PLANS } from "./billing.js";
 import { reserveFreeVoice, reserveFreeVoiceStatements, reservedFreeVoice, settleFreeVoice } from "./companion-answers.js";
 import { characterVoices, CHARACTER_KEY, CHARACTER_VOICES, voiceLabel, hasAzeroth } from "./character-voices.js";
-import { tasteFor, tasteState, tasteDayMicro, takeVoice, giveVoice, holdDay, holdDayStatements, heldDay, settleDay,
-  countDay, TASTE_PERIOD, TASTE_REPLY_MICRO, TASTE_ANSWERS, trialOf, trialRow, tryOnce, untry, withTrial, trialFor
+import { tasteFor, tasteState, tasteRoom, roomIn, takeVoice, giveVoice, holdDay, holdDayStatements, heldDay, settleDay,
+  countDay, TASTE_PERIOD, TASTE_ANSWERS, trialOf, trialRow, tryOnce, untry, withTrial, trialFor
 } from "./best-first.js";
 import { questPage, cutAtSentence } from "./quest-pages.js";
 import { respell, loadRespell } from "./respell.js";
@@ -127,7 +127,7 @@ async function claimAndHold(env, userId, reply, provider, { micro, now, opts = n
   const also = { sql: "EXISTS (SELECT 1 FROM voice_replies WHERE user_id = ? AND reply = ? AND provider = ?)",
                  binds: [userId, reply, provider] };
   if (taste) {        // a reply of best first's: the shared free budget and the taste's day, both (holdTaste's)
-    const results = await env.DB.batch([claim, ...reserveFreeVoiceStatements(env, micro, now, also, false),
+    const results = await env.DB.batch([claim, ...reserveFreeVoiceStatements(env, micro, now, also),
       ...holdDayStatements(env, micro, now, also)]);
     if (!results[0].results?.[0]) return null;
     const [shared, day] = [reservedFreeVoice(results.slice(1, 3)), heldDay(results.slice(3), micro, now)];
@@ -665,11 +665,11 @@ export async function forgetReply(env, userId, reply, now = new Date(), { settle
   return true;
 }
 
-// The taste's voice (lib/best-first.js) is recorded like the free plan's starter (reserveFreeVoice), but held on the
-// taste's daily cap, not the free pool (lib/free-pool.js leaves it out): {day} when both hold `micro`, else null
-// (neither kept).
+// The taste's voice (lib/best-first.js) is held on the free pool like the free plan's studio voice (reserveFreeVoice,
+// up to the day's allowance: on the soft step it rests) and on the taste's daily cap too: {day} when both hold
+// `micro`, else null (neither kept).
 async function holdTaste(env, micro, now) {
-  const [shared, day] = await Promise.all([reserveFreeVoice(env, micro, now, false), holdDay(env, micro, now)]);
+  const [shared, day] = await Promise.all([reserveFreeVoice(env, micro, now), holdDay(env, micro, now)]);
   if (shared && day) return { day };
   await Promise.all([shared ? settleFreeVoice(env, micro, false, now) : null, day ? settleDay(env, day, 0, {}, now) : null]);
   return null;
@@ -717,7 +717,7 @@ async function speakTaste(env, userId, plan, { text, voice, reply, pick, piece, 
   const [mine, owed, day] = await env.DB.batch([
     env.DB.prepare("SELECT period, best, npc FROM voice_replies WHERE user_id = ? AND reply = ?").bind(userId, reply),
     trialRow(env, userId),
-    env.DB.prepare("SELECT reserved_micro FROM best_first_days WHERE day = ?").bind(now.toISOString().slice(0, 10)),
+    tasteRoom(env, now),
   ]);
   const given = mine.results?.[0], period = given?.period, taste = owed.results?.[0];
   const trial = seen.trial = trialOf(env, plan, taste, now);
@@ -732,7 +732,7 @@ async function speakTaste(env, userId, plan, { text, voice, reply, pick, piece, 
     }
     const owes = taste?.voices > 0, castOk = castable && Boolean(taste) && trial.left.cast > 0;
     if (!owes && !castOk) return null;
-    if ((day.results?.[0]?.reserved_micro || 0) + TASTE_REPLY_MICRO > tasteDayMicro(env)) {
+    if (!roomIn(day)) {
       await countDay(env, now, "capped");
       return null;
     }

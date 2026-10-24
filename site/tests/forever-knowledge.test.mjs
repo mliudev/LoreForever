@@ -340,6 +340,8 @@ test("a quest question from a plan that reads quest pages aloud offers Live game
     const first = await asked(champion, "off");
     assert.equal(first.action?.id, "live_game_info", "the button of Live game info's consent card");
     assert.match(first.answer, /Want quests without a recording read aloud\? Turn on Live game info\.$/);
+    // Its line apart too (LOR-777), so the app shows it with its button and leaves it out of what she says aloud.
+    assert.ok(first.offer_line && first.answer.endsWith(first.offer_line), first.offer_line);
     assert.doesNotMatch(first.answer, /where you are and who you target/, "its own line, not the plain offer's");
     const again = await asked(champion, "off", "What is the best reward for this quest?");
     assert.equal(again.action, undefined, "once ever");

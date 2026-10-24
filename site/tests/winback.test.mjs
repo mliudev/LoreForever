@@ -1,6 +1,7 @@
-// A note from Patrick to a player who cancelled (lib/winback.js, POST /api/admin/retention "write"): sent by the site
-// from patrick@loreforeverwow.com with replies to him, once per cancelled plan, never to an address that unsubscribed, a
-// comped or team account, or a player who took the cancellation back, and the address never comes back to /admin.
+// A note to a player who cancelled (lib/winback.js, POST /api/admin/retention "write"): sent by the site from Mike
+// (hello@loreforeverwow.com) by default, or Patrick when picked, with replies to the sender, once per cancelled plan
+// (and only a real send uses that up), never to an address that unsubscribed, a comped or team account, or a player
+// who took the cancellation back, and the address never comes back to /admin.
 // Cloudflare's email API is mocked through fetch; D1 is node:sqlite (helpers.mjs).
 // Run: node --test 'site/tests/*.test.mjs'
 
@@ -11,7 +12,7 @@ import { onRequestGet as getRetention, onRequestPost as postRetention } from "..
 import { setup, findOrCreateUser, deleteUser } from "../lib/accounts.js";
 import { setupBilling } from "../lib/billing.js";
 import { optOut, sendEmail } from "../lib/email.js";
-import { setupWinback, noteEmail, TEMPLATE } from "../lib/winback.js";
+import { setupWinback, noteEmail, TEMPLATE, SENDERS, SENDER } from "../lib/winback.js";
 
 import { d1 } from "./helpers.mjs";
 
@@ -59,7 +60,10 @@ const write = (id, body = {}, headers = key) => postRetention({ env, request: ne
 const report = async () => (await (await getRetention({ env, request: new Request("https://x.example/api/admin/retention",
   { headers: key }) })).json());
 
-test("a note goes once, from Patrick with replies to him, and /admin never sees the address", async () => {
+// An address as the email API is sent it: {address, name} from "Name <address>".
+const fromOf = s => ({ address: s.match(/<(.+)>/)[1], name: s.replace(/\s*<.+>$/, "") });
+
+test("a note goes once, from Mike by default with replies to him, and /admin never sees the address", async () => {
   await cancelled("varian");
   let r = await report();
   assert.deepEqual(r.cancellations.map(c => [c.id, c.note, c.written]), [["evt_varian_scheduled", "yes", null]]);
@@ -71,11 +75,12 @@ test("a note goes once, from Patrick with replies to him, and /admin never sees 
   assert.deepEqual(body, { ok: true, status: "sent" }, "nothing about who comes back");
   assert.equal(sent.length, 1);
   const [mail] = sent;
+  const mike = SENDERS[SENDER];
   assert.deepEqual([mail.from, mail.reply_to, mail.to, mail.subject],
-    [{ address: "patrick@loreforeverwow.com", name: "Patrick from Lore Forever" }, "patrick@loreforeverwow.com",
-     ["varian@example.com"], "Quick question about your Willo plan"]);
-  assert.match(mail.text, /^Hey Varian,\n\nI'm Patrick/);
-  assert.match(mail.text, /--\nYou're getting this because you cancelled a Willo plan on loreforeverwow\.com\. Reply to reach Patrick\. Don't want email from us\? https:\/\/loreforeverwow\.com\/unsubscribe\n$/);
+    [fromOf(mike.from), mike.replyTo, ["varian@example.com"], TEMPLATE.subject]);
+  assert.ok(mail.text.startsWith(TEMPLATE.text.replace("{name}", "Varian")), "the note, with their first name");
+  assert.match(mail.text, new RegExp(`Reply to reach ${mike.label}\\.`, "i"));
+  assert.match(mail.text, /https:\/\/loreforeverwow\.com\/unsubscribe\n$/);
   assert.equal(mail.headers["List-Unsubscribe"], "<https://loreforeverwow.com/unsubscribe>");
   // Logged with what it said, never the address.
   const note = env.DB.sqlite.prepare("SELECT * FROM winback_notes").get();
@@ -86,6 +91,43 @@ test("a note goes once, from Patrick with replies to him, and /admin never sees 
   // A second note about the same cancellation, or its end, is refused.
   const again = await write("evt_varian_scheduled");
   assert.deepEqual([again.status, (await again.json()).error], [400, "That player already got a note about this cancellation."]);
+  assert.equal(sent.length, 1);
+  // Patrick's, when the box picks him: from him, replies to him.
+  await cancelled("jaina");
+  const patrick = SENDERS.patrick;
+  assert.equal((await write("evt_jaina_scheduled", { as: "patrick", ...patrick.template })).status, 200);
+  assert.deepEqual([sent[1].from, sent[1].reply_to], [fromOf(patrick.from), patrick.replyTo]);
+  assert.match(sent[1].text, new RegExp(`Reply to reach ${patrick.label}\\.`, "i"));
+});
+
+test("a plan cancelled before the log began can get its one note too", async () => {
+  // plan_log has the cancellation (10/18), plan_cancellations doesn't: the log only began on 10/19.
+  const user = await findOrCreateUser(env, { email: "rhonin@example.com", googleSub: "rhonin", name: "Rhonin Dalaran" });
+  env.DB.sqlite.prepare("INSERT INTO plan_log (subscription_id, user_id, plan, status, started, canceled, discounts, comp, updated) " +
+    "VALUES ('sub_rhonin', ?, 'hero', 'trialing', ?, ?, '[]', '', ?)").run(user.id, iso(NOW - 5 * 864e5), iso(NOW - 2 * 864e5), iso(NOW));
+  const r = await report();
+  assert.equal(r.cancellations.length, 1, "listed with the rest");
+  assert.equal(JSON.stringify(r).includes("sub_rhonin"), false, "never its subscription id");
+  const [row] = r.cancellations;
+  assert.deepEqual([row.kind, row.note], ["scheduled", "yes"]);
+  assert.equal((await (await write(row.id)).json()).status, "sent");
+  assert.deepEqual(sent.map(m => m.to), [["rhonin@example.com"]]);
+  const again = await write(row.id);
+  assert.equal(again.status, 400, "one note per subscription, as for any other");
+  assert.equal((await report()).cancellations.find(c => c.id === row.id).note, "written");
+  assert.equal(sent.length, 1);
+});
+
+test("a site that can't send (develop, a preview build) never uses up the player's one note", async () => {
+  await cancelled("rexxar");
+  const service = env.CLOUDFLARE_EMAIL_TOKEN;
+  delete env.CLOUDFLARE_EMAIL_TOKEN;
+  try {
+    const off = await write("evt_rexxar_scheduled");
+    assert.deepEqual(await off.json(), { ok: true, status: "off" });
+  } finally { env.CLOUDFLARE_EMAIL_TOKEN = service; }
+  assert.equal((await report()).cancellations[0].note, "yes", "still there to write");
+  assert.equal((await (await write("evt_rexxar_scheduled")).json()).status, "sent");
   assert.equal(sent.length, 1);
 });
 
@@ -125,8 +167,9 @@ test("a failed send can be tried again; an empty note is refused; the text is pl
   assert.equal((await ok.json()).status, "sent");
   assert.equal(sent[0].subject, "Hi there");
   assert.match(sent[0].text, /^Hey Thrall, why\?/);
-  // No first name: "Hey," with no gap.
-  assert.match(noteEmail({ subject: "s", text: TEMPLATE.text, name: "" }).text, /^Hey,\n/);
+  // No first name: "Hi," or "Hey," with no gap.
+  assert.match(noteEmail({ subject: "s", text: SENDERS.mike.template.text, name: "" }).text, /^Hi,\n/);
+  assert.match(noteEmail({ subject: "s", text: SENDERS.patrick.template.text, name: "" }).text, /^Hey,\n/);
 });
 
 test("a message's own sender is used only when it's one of our addresses (the domain's DMARC rejects any other)", async () => {

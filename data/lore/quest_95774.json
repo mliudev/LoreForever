@@ -1,0 +1,82 @@
+{
+ "key": "quest:95774",
+ "type": "quest",
+ "name": "Her Name Is Olgra",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   95774
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "angles": [],
+ "faq": [
+  {
+   "aliases": [
+    "who is olgra",
+    "mankrik wife",
+    "who died"
+   ],
+   "answer": "Olgra fell in battle against the quilboar. While the healer who aided Mankrik managed to save him, she could not be rescued, and Mankrik intends to honor her memory forever.",
+   "q": "Who is Olgra?"
+  },
+  {
+   "aliases": [
+    "what are olgras adornments",
+    "olgra jewels",
+    "what are the adornments made of"
+   ],
+   "answer": "Her adornments are cherished pieces of crafted jewelry made from polished bone, which she wore before she was slain.",
+   "q": "What are Olgra's adornments?"
+  },
+  {
+   "aliases": [
+    "why kill razormane raiders",
+    "who stole olgras adornments",
+    "where are the adornments"
+   ],
+   "answer": "The ornaments were taken from Olgra's fallen form, prompting Mankrik to send you against the Razormane raiders near the place where she died to recover them.",
+   "q": "Why are the Razormane raiders being hunted?"
+  },
+  {
+   "aliases": [
+    "mankrik memorial",
+    "what will mankrik do with the adornments",
+    "why does mankrik want the adornments"
+   ],
+   "answer": "Mankrik plans to place the recovered bone jewelry alongside a monument he is constructing in Olgra's honour so that her memory never fades.",
+   "q": "What will Mankrik do with the recovered adornments?"
+  }
+ ],
+ "keywords": [
+  "adornments",
+  "mankrik",
+  "memorial",
+  "olgra",
+  "polished bone",
+  "quilboar",
+  "razormane raiders"
+ ],
+ "related": [
+  "npc:mankrik",
+  "topic:quilboar"
+ ],
+ "sections": [
+  {
+   "body": "Though a healer managed to save Mankrik, Olgra succumbed to her wounds on the battlefield. Determined that her name and sacrifice will never be forgotten, the grieving warrior prepares to construct a lasting tribute to honor her memory.",
+   "spoiler": 0,
+   "title": "Honoring the Fallen"
+  },
+  {
+   "body": "Olgra wore cherished ornaments of polished bone, but they were missing from her resting place. Mankrik seeks to recover these personal treasures from the nearby Razormane raiders so they can rest beside the monument he is raising for her.",
+   "spoiler": 0,
+   "title": "Lost Keepsakes"
+  }
+ ],
+ "summary": "After learning of Olgra's death in battle, Mankrik resolves to honor her with a lasting memorial. He asks you to recover her missing bone adornments from the nearby Razormane raiders so they may rest beside her monument.",
+ "attribution": [
+  "In-game quest text: Her Name Is Olgra"
+ ]
+}

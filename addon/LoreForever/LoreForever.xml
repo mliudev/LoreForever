@@ -19,7 +19,9 @@
   <Script file="HistoryArchive.lua"/>
   <Script file="Log.lua"/>
   <Script file="Journey.lua"/>
+  <Script file="Collection.lua"/>
   <Script file="Stock.lua"/>
+  <Script file="Screen.lua"/>
   <Script file="Battle.lua"/>
   <Script file="Capture.lua"/>
   <Script file="JourneyMap.lua"/>
@@ -34,6 +36,8 @@
   <Script file="Notes.lua"/>
   <Script file="WhatsNew.lua"/>
   <Script file="Updates.lua"/>
+  <Script file="Page.lua"/>
+  <Script file="Book.lua"/>
   <Script file="UI.lua"/>
   <Script file="ClipReport.lua"/>
   <Script file="Subtitles.lua"/>

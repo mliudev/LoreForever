@@ -12,7 +12,14 @@
 <meta property="og:title" content="Willo's plans - Lore Forever">
 <meta property="og:description" content="Lore Forever is free. A plan gives Willo, the companion, more answers, a richer voice and more she can do.">
 <meta property="og:url" content="https://loreforeverwow.com/plans">
-<meta property="og:image" content="https://loreforeverwow.com/img/willo-window.jpg">
+<meta property="og:image" content="https://loreforeverwow.com/img/cards/willo-plans.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Willo's plans: free to start, and Hero, Champion and Legend">
+<meta name="twitter:title" content="Willo's plans - Lore Forever">
+<meta name="twitter:description" content="Lore Forever is free. A plan gives Willo, the companion, more answers, a richer voice and more she can do.">
+<meta name="twitter:image" content="https://loreforeverwow.com/img/cards/willo-plans.jpg">
+<meta name="twitter:image:alt" content="Willo's plans: free to start, and Hero, Champion and Legend">
 <meta name="twitter:card" content="summary_large_image">
 <link rel="icon" href="/img/logo.svg" type="image/svg+xml">
 <link rel="icon" href="/img/logo.png" type="image/png" sizes="512x512">
@@ -72,12 +79,16 @@
         <p class="herald-says">We're connected, friend! Chat with me free, or pick a plan: ask me out loud and I'll answer you
           aloud for hours of play.</p>
       </div>
-      <p class="h-lede" id="pl-pitch">Lore Forever is free and stays free: the add-on, every narration pack and every
+      <!-- door:lore --><p class="h-lede" id="pl-pitch">Lore Forever is free and stays free: the add-on, every narration pack and every
         language, and Willo, the companion, to chat with you about the world: 30 answers a day, out loud when you ask
         out loud, and your first days with everything she can do. With a plan she does more: her finest voice on every
         answer, she checks the web and sees your game, and keeps your goals; on Champion you pick her voice and
         characters answer in their own; Legend adds her smarter mind, her richer voice and the Voices of Azeroth, and gets
-        new features first. Typed questions get text answers.</p>
+        new features first. Typed questions get text answers.</p><!-- /door:lore -->
+      <!-- door-willo:<p class="h-lede" id="pl-pitch">Willo is free to start: 30 answers a day, out loud when you ask out loud,
+        and your first days with everything she can do. A plan gives her more: her finest voice on every answer, an eye on
+        your game and your goals, characters who answer in their own voices, and on Legend her smarter mind and the
+        Voices of Azeroth. Typed questions get text answers.</p>:door-willo -->
       <noscript><p class="fb-status">This page needs JavaScript.</p></noscript>
       <p class="fb-status fb-good pl-thanks" id="pl-thanks" role="status" hidden>Thanks! Your plan is on its way; it can
         take a few seconds.</p>
@@ -266,11 +277,9 @@
       return `You're on ${c.name}: ${c.answersPerMonth.toLocaleString("en-US")} live answers a month, up to ${c.answersPerDay} a day.${ends}${late}`;
     }
     const everyday = plans.plans.find(p => p.id === "free").answersPerDay;
-    // The starter's answers left (lib/billing.js creditStarter), once a companion is connected.
-    const starter = plans.starter ? ` You also have ${plans.starter} starter answer${plans.starter === 1 ? "" : "s"} left.` : "";
     return `You're on ${c.name}, the free plan. ` + (
       c.brake ? `Free answers are busy this month, so you get ${c.answersPerDay} a day until it ends (usually ${everyday}).`
-      : `You get ${c.answersPerDay} live answers a day.`) + starter;
+      : `You get ${c.answersPerDay} live answers a day.`);
   }
 
   function planCard(p, c) {

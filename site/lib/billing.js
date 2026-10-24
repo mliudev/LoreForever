@@ -40,10 +40,9 @@ import { markActionUncertain } from "./dashboard-action.js";
 // be bought (Mike, 2026-10-13: the 300-answer top-up went): once a plan's answers are gone, Willo answers from the
 // add-on's lore library until they come back, and the next plan up is the only offer (offersFor).
 //
-// The starter: the free plan's one-time STARTER_ANSWERS answers, kept in answer_packs (kind 'starter') and used after
-// the day's free answers (useStarter), but free: they wait for the shared monthly budget like any free answer, can't
-// be bought, and a refund never touches them. Once per Google account, even after "Delete my account"
-// (creditStarter).
+// The starter (the free plan's one-time STARTER_ANSWERS answers, answer_packs kind 'starter') is over: none were credited
+// after 10/21, and since 10/22 (Mike: end it) the ones credited before aren't used either, so no one has answers past
+// the free plan's day. Its rows stay, unused, and starter_claims still keys a Google account (starterClaim).
 //
 // The "plans" site feature (lib/features.js) switches all of it: while it's off (the default), nothing is for sale,
 // stored subscriptions are ignored and every account gets OFF_ANSWERS a day, with research and pictures, as before
@@ -154,12 +153,10 @@ export const PLANS = {
 };
 export const PAID = Object.keys(PLANS).filter(id => id !== "free");
 
-// The free plan's one-time starter: answers for each account, used after the day's free answers (creditStarter).
+// The free plan's old spoken starter's replies (lib/companion-voice.js, before PLAN_VOICE.free.always). The starter's
+// answers are over (above): since option D (10/21) the free plan is 30 answers a day, and after them she says once
+// that she's resting her voice and writes (the first-run trial is the newcomer's taste now).
 export const STARTER_ANSWERS = 30;
-// No new starters since option D (the voices and plans picks, 10/21): the free plan is 30 answers a day, and after
-// them she says once that she's resting her voice and writes (the first-run trial is the newcomer's taste now). A
-// starter already credited is still used. Tests turn crediting back on to check the mechanism (STARTER.credited).
-export const STARTER = { credited: false };
 // Willo's best first: an account's first live answers at her best (lib/best-first.js, which uses it; kept here so the
 // plan cards can say it without the two modules loading each other first).
 export const TASTE_ANSWERS = 50;
@@ -827,30 +824,6 @@ function paidNow(row, now = new Date()) {
 }
 
 
-// The free plan's starter: STARTER_ANSWERS answers, credited once per account, the first time its plan is looked at
-// while a companion is connected (the companion's allowance check, usually). Keyed by the account, so two checks at
-// once, or a companion connected again, never credit it twice; the row stays at 0 once it's used up. And once per
-// Google account (security review L3): its claim (starterClaim) is kept after "Delete my account", so deleting the
-// account and signing in again doesn't bring another. The pack and the claim go in one batch.
-// credited: whether the account's starter was there when planFor read it, ahead (true or false; null: look again).
-const hasStarter = (env, userId) =>
-  env.DB.prepare("SELECT 1 AS y FROM answer_packs WHERE id = ?").bind(`starter:${userId}`).first().then(Boolean);
-async function creditStarter(env, userId, now, credited = null) {
-  if (!STARTER.credited) return;
-  const id = `starter:${userId}`;
-  if (credited ?? await hasStarter(env, userId)) return;
-  const claim = await starterClaim(env, userId);
-  await env.DB.batch([
-    env.DB.prepare(
-      "INSERT OR IGNORE INTO answer_packs (id, user_id, kind, answers, remaining, created) " +
-      "SELECT ?, ?, 'starter', ?, ?, ? WHERE EXISTS (SELECT 1 FROM devices WHERE user_id = ?) " +
-      "AND NOT EXISTS (SELECT 1 FROM starter_claims WHERE sub_hash = ?)"
-    ).bind(id, userId, STARTER_ANSWERS, STARTER_ANSWERS, iso(now.getTime()), userId, claim),
-    ...(claim ? [env.DB.prepare("INSERT OR IGNORE INTO starter_claims (sub_hash, created) " +
-      "SELECT ?, ? WHERE EXISTS (SELECT 1 FROM answer_packs WHERE id = ?)").bind(claim, iso(now.getTime()), id)] : []),
-  ]);
-}
-
 // The account's Google ID (users.google_sub) as a salted SHA-256, for starter_claims: it can be matched against a
 // Google account signing in, but doesn't hold the ID itself. null for an account without one. Share Willo
 // (lib/referrals.js) keys a friend by it too, so a Google account counts as a friend once, ever.
@@ -887,7 +860,7 @@ export async function starterClaim(env, userId) {
 // cap), totalCapMicro (a paid plan's), voice (PLAN_VOICE's: who says its replies, choice, best), status, renews,
 // cancelAtPeriodEnd, portal}. renews: when the paid period ends (it renews then unless cancelAtPeriodEnd). portal:
 // they have a subscription to manage on the billing portal, even an ended one. On the free plan, answersPerDay is the
-// brake's when it applies (with brake: true), and the account gets its starter (creditStarter). During its free Hero
+// brake's when it applies (with brake: true). During its free Hero
 // month (the beta promo, freeHeroMonth) a free account has Hero's plan instead, with launch: true, since and until
 // (the month's start and end, ISO) and ends (its end as players read it, "November 20"). A "Keep Hero" bought during
 // the beta starts its months at the launch (renews). changesTo: {id, name, at}, a downgrade waiting for the renewal
@@ -902,8 +875,7 @@ export async function planFor(env, userId, now = new Date()) {
              cancelAtPeriodEnd: false, portal: false };
   }
   await setupBilling(env);
-  // What a free account's plan needs is read while its entitlement is (only reads: the starter is credited after),
-  // one round trip to D1 instead of three for the free plan and its beta Hero month (LOR-654).
+  // What a free account's plan needs is read while its entitlement is, one round trip to D1 instead of three for the free plan and its beta Hero month (LOR-654).
   const at = launchNow(env, now), week = launchWindow(env);
   const promo = Boolean(week) && at.getTime() < week.end;
   const quiet = p => p.catch(() => null);   // a paying plan doesn't need them; a free one reads them again on a failure
@@ -911,7 +883,7 @@ export async function planFor(env, userId, now = new Date()) {
     promo ? quiet((async () => {
       const claim = await claimOf(env, userId, "free");
       return { claim, row: await promoRow(env, claim) };
-    })()) : null, quiet(hasStarter(env, userId))]);
+    })()) : null]);
   // A plan month given for bringing friends (giveFreeMonth), read alongside too: a failed read is no month.
   const granted = grantNow(env, userId, now).catch(() => null);
   const row = await entitlement(env, userId);
@@ -928,12 +900,12 @@ export async function planFor(env, userId, now = new Date()) {
   }
   // The beta's free Hero month: looked for while one can still be running (until the launch). A read that failed ahead
   // is read again here, so its error is this one's, as before.
-  const [poolAhead, launchAhead, promoAhead, credited] = await ahead;
+  const [poolAhead, launchAhead, promoAhead] = await ahead;
   const pool = poolAhead ?? await poolNow(env, now);
   const launchSpent = !promo ? null : launchAhead ?? await launchSpend(env, week);
-  // Hero's plan, on us, for the account's month, until the promo's brake; looked for while the starter is credited.
-  const [, freeMonth] = await Promise.all([creditStarter(env, userId, now, credited),
-    launchSpent !== null && launchSpent < LAUNCH_WEEK_BRAKE_MICRO ? freeHeroMonth(env, userId, at, week, promoAhead) : null]);
+  // Hero's plan, on us, for the account's month, until the promo's brake.
+  const freeMonth = launchSpent !== null && launchSpent < LAUNCH_WEEK_BRAKE_MICRO
+    ? await freeHeroMonth(env, userId, at, week, promoAhead) : null;
   if (freeMonth) {
     const hero = PLANS.hero;
     return { id: hero.id, name: hero.name, answersPerDay: hero.answersPerDay, answersPerMonth: hero.answersPerMonth,
@@ -1197,21 +1169,20 @@ export async function capState(env, userId, plan, now = new Date()) {
   return (row?.total || 0) >= plan.totalCapMicro ? "capped" : (row?.text || 0) >= plan.costCapMicro ? "lite" : "under";
 }
 
-// ---- The starter and the finest-voice packs ----
+// ---- Answers from friends and the finest-voice packs ----
 
-// The account's starter answers left, its answers from friends left (Share Willo, kind 'share': lib/referrals.js), and
-// its finest-voice packs (VOICE_PACK): their replies left and how many it bought this month (a refunded one isn't
-// counted): {starter, share, voice: {remaining, boughtThisMonth}}.
+// The account's answers from friends left (Share Willo, kind 'share': lib/referrals.js), and its finest-voice packs
+// (VOICE_PACK): their replies left and how many it bought this month (a refunded one isn't counted):
+// {share, voice: {remaining, boughtThisMonth}}.
 export async function packsFor(env, userId, now = new Date()) {
   await setupBilling(env);
   const row = await env.DB.prepare(
-    "SELECT COALESCE(SUM(CASE WHEN status = 'active' AND kind = 'starter' THEN remaining ELSE 0 END), 0) AS starter, " +
-    "COALESCE(SUM(CASE WHEN status = 'active' AND kind = 'share' THEN remaining ELSE 0 END), 0) AS share, " +
+    "SELECT COALESCE(SUM(CASE WHEN status = 'active' AND kind = 'share' THEN remaining ELSE 0 END), 0) AS share, " +
     "COALESCE(SUM(CASE WHEN status = 'active' AND kind = 'voice' THEN remaining ELSE 0 END), 0) AS voice, " +
     "COALESCE(SUM(kind = 'voice' AND status != 'refunded' AND substr(created, 1, 7) = ?), 0) AS voice_bought " +
     "FROM answer_packs WHERE user_id = ?"
   ).bind(month(now), userId).first();
-  return { starter: row?.starter || 0, share: row?.share || 0,
+  return { share: row?.share || 0,
            voice: { remaining: row?.voice || 0, boughtThisMonth: row?.voice_bought || 0 } };
 }
 
@@ -1236,18 +1207,8 @@ export async function voicePackFor(env, userId, plan, now = new Date()) {
            buy: `Buy ${VOICE_PACK.replies} more replies` };
 }
 
-// Takes one of the free plan's starter answers, in one statement, so two questions at once can't spend the same
-// answer. The pack ({id, kind}), or null once none are left.
-export async function useStarter(env, userId) {
-  await setupBilling(env);
-  return env.DB.prepare(
-    "UPDATE answer_packs SET remaining = remaining - 1 WHERE id = ? AND user_id = ? AND kind = 'starter' AND " +
-    "status = 'active' AND remaining > 0 RETURNING id, kind"
-  ).bind(`starter:${userId}`, userId).first();
-}
-
 // Takes one of the account's answers from friends (Share Willo, lib/referrals.js), the oldest pack first, in one
-// statement like useStarter: used once the plan's answers (and a free player's starter) are gone, on any plan. A
+// statement, so two questions at once can't spend the same answer: used once the plan's answers are gone, on any plan. A
 // paying player's is a paid-for answer, so their plan's cost caps still hold it. The pack ({id, kind}), or null.
 export async function useShare(env, userId) {
   await setupBilling(env);
@@ -1257,7 +1218,7 @@ export async function useShare(env, userId) {
   ).bind(userId).first();
 }
 
-// Gives back a starter answer (or an answer from friends) whose live answer failed, or never reached the model
+// Gives back an answer from friends whose live answer failed, or never reached the model
 // (functions/api/companion/answer.js): it's for answers, not attempts.
 export async function returnStarter(env, packId) {
   await env.DB.prepare("UPDATE answer_packs SET remaining = remaining + 1 WHERE id = ? AND status = 'active' AND remaining < answers")
@@ -2077,16 +2038,20 @@ async function freeHeroMonths(env, now, covered) {
 //             half price still renews at the full price) and netUsd (after the fees) count the active ones; a paying
 //             plan moved to the launch (payDay) is a Stripe trial until then, and counted here
 //   trialing  the beta's Keep Hero trial, nothing charged yet
+//   cancelling  cancelled by the player (cancel_at_period_end): on the plan until its period ends, never charged
+//             again, so neither paying nor MRR (Stripe's MRR leaves them out too; audit 10/23)
 //   comped    free on purpose (plan_log comp: COMP_COUPONS), never revenue
 //   owner     the admin's or a test account's (lib/activity.js excluded_accounts), never revenue
 // each {hero, champion, legend}, with `unchecked`: paying plans whose coupons plan_log hasn't read yet (checkPlanLog).
+// renewing {count, usd}: the plans that will be charged at their next renewal, paying and trialing together, usd their
+// full monthly price (the beta's anchored plans and trials all first charge at the launch).
 // days: the last `days` UTC days, oldest first: {day, started, cancelled, claims: {free, hero, half}, packs}, where
 // started and cancelled are plans (comped and owner ones left out) by when they started and when the player cancelled,
 // claims the beta promo's offers taken (promo_claims: free, the card-less free Hero month; hero, a Keep Hero trial;
 // half, a 50% first month) and packs finest-voice packs sold (not refunded, owner accounts left out).
 // claims and packs: the same since the start, packs with usd at VOICE_PACK's price.
 // onPlan (Mike, 2026-10-17: count everyone above Adventurer, not only the paying): every account on a plan now, each
-// counted once, whatever got it there: {total, paid (= paying), trial (Keep Hero), freeMonth (the beta's free Hero
+// counted once, whatever got it there: {total, paid (= paying), trial (Keep Hero), cancelling, freeMonth (the beta's free Hero
 // month, running now), comped (comped and owner plans, and an owner account's free Hero month), byPlan: {hero,
 // champion, legend}, freeUnread}. The free Hero month isn't a subscription but a promo_claims row, which
 // freeHeroMonths reads; one whose account is on a plan some other way (its Keep Hero trial, say) is left out.
@@ -2098,7 +2063,7 @@ export async function subscriptionReport(env, now = new Date(), days = 30) {
   const all = async (sql, ...args) => (await env.DB.prepare(sql).bind(...args).all()).results;
   const counted = `COALESCE(comp, '') = '' AND NOT ${owner("COALESCE(user_id, '')")}`;
   const [plans, started, cancelled, claims, packs] = await Promise.all([
-    all("SELECT e.user_id, e.plan, e.status, e.current_period_end, e.gap_from, p.comp, " +
+    all("SELECT e.user_id, e.plan, e.status, e.current_period_end, e.gap_from, e.cancel_at_period_end, p.comp, " +
         "p.subscription_id IS NOT NULL AND p.comp IS NOT NULL AS checked, " +
         `${owner("e.user_id")} AS owner FROM entitlements e LEFT JOIN plan_log p ON p.subscription_id = e.subscription_id ` +
         "WHERE e.subscription_id IS NOT NULL"),
@@ -2110,17 +2075,18 @@ export async function subscriptionReport(env, now = new Date(), days = 30) {
         `WHERE kind = 'voice' AND NOT ${owner("user_id")} GROUP BY day, status`),
   ]);
   const byPlan = () => Object.fromEntries(PAID.map(id => [id, 0]));
-  const out = { paying: 0, byPlan: byPlan(), trialing: byPlan(), comped: byPlan(), owner: byPlan(), pastDue: 0,
-                unchecked: 0, monthlyUsd: 0, netUsd: 0 };
-  let cents = 0, net = 0;
+  const out = { paying: 0, byPlan: byPlan(), trialing: byPlan(), cancelling: byPlan(), comped: byPlan(), owner: byPlan(),
+                pastDue: 0, unchecked: 0, monthlyUsd: 0, netUsd: 0, renewing: { count: 0, usd: 0 } };
+  let cents = 0, net = 0, renewCents = 0;
   const covered = new Set();   // the accounts on a paid plan now, of any kind
   for (const r of plans) {
     if (!paidNow(r, now)) continue;
     covered.add(r.user_id);
     // A paying plan moved to the launch (payDay) is a Stripe trial until then, and still a paying one.
-    const kind = r.comp ? "comped" : r.owner ? "owner" : r.status === "trialing" && r.gap_from !== "active" ? "trialing"
-      : "byPlan";
+    const kind = r.comp ? "comped" : r.owner ? "owner" : r.cancel_at_period_end ? "cancelling"
+      : r.status === "trialing" && r.gap_from !== "active" ? "trialing" : "byPlan";
     out[kind][r.plan]++;
+    if (kind === "byPlan" || kind === "trialing") { out.renewing.count++; renewCents += PLANS[r.plan].monthly; }
     if (kind !== "byPlan") continue;
     out.paying++;
     if (!r.checked) out.unchecked++;
@@ -2129,14 +2095,17 @@ export async function subscriptionReport(env, now = new Date(), days = 30) {
   }
   out.monthlyUsd = cents / 100;
   out.netUsd = net / 100;
+  out.renewing.usd = renewCents / 100;
   const free = await freeHeroMonths(env, now, covered).catch(e => {
     console.warn(`billing: free Hero months: ${e?.message || e}`);
     return null;
   });
   const sum = counts => Object.values(counts).reduce((a, n) => a + n, 0);
-  const onPlan = Object.fromEntries(PAID.map(id => [id, out.byPlan[id] + out.trialing[id] + out.comped[id] + out.owner[id]]));
+  const onPlan = Object.fromEntries(PAID.map(id =>
+    [id, out.byPlan[id] + out.trialing[id] + out.cancelling[id] + out.comped[id] + out.owner[id]]));
   onPlan.hero += (free?.players || 0) + (free?.owner || 0);
-  out.onPlan = { total: sum(onPlan), paid: out.paying, trial: sum(out.trialing), freeMonth: free?.players || 0,
+  out.onPlan = { total: sum(onPlan), paid: out.paying, trial: sum(out.trialing), cancelling: sum(out.cancelling),
+                 freeMonth: free?.players || 0,
                  comped: sum(out.comped) + sum(out.owner) + (free?.owner || 0), byPlan: onPlan, freeUnread: !free };
   const on = (rows, day) => rows.filter(r => r.day === day).reduce((a, r) => a + r.n, 0);
   const kinds = day => Object.fromEntries(["free", "hero", "half"].map(k =>
@@ -2183,7 +2152,7 @@ export async function billingReport(env, now = new Date()) {
   }
   const apart = kind => Object.values(subscriptions[kind]).reduce((a, n) => a + n, 0);
   return { on: billingOn(env), paying: subscriptions.paying, comped: apart("comped"), owner: apart("owner"),
-           trialing: apart("trialing"), onPlan: subscriptions.onPlan, counts: Object.values(counts), monthlyUsd: subscriptions.monthlyUsd,
+           trialing: apart("trialing"), cancelling: apart("cancelling"), onPlan: subscriptions.onPlan, counts: Object.values(counts), monthlyUsd: subscriptions.monthlyUsd,
            spend: { usd: (spend?.micro || 0) / 1e6, players: spend?.players || 0, calls: spend?.calls || 0 },
            voicePacks: { sold: packs?.sold || 0, unused: packs?.unused || 0, usd: (spend?.topup_micro || 0) / 1e6 },
            subscriptions, sources };

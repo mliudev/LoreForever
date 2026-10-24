@@ -1,6 +1,6 @@
 {
-  "english": "2026-10-20 21:55 UTC",
-  "updated": "2026-10-21",
+  "english": "2026-10-22 22:29 UTC",
+  "updated": "2026-10-23",
   "languages": [
     {
       "locale": "deDE",
@@ -10,21 +10,21 @@
       "coverage": {
         "percent": 99.7,
         "strings": [
-          126354,
-          126672
+          137493,
+          137902
         ],
         "ui": [
-          843,
-          843
+          857,
+          861
         ],
         "entries": [
-          4352,
-          4352
+          4945,
+          4950
         ]
       },
       "kit": "/translate/kits/deDE.zip",
-      "kitSize": 14032544,
-      "kitSha256": "099428aeccb5b17fd270ca18059e026f45b01619564ec58ced411ef72aba7a7a",
+      "kitSize": 14868784,
+      "kitSha256": "4fbcf11910732f0e4df443dda433c5b60c107636b5d9b1f48e99253297eaa7b1",
       "hasText": true
     },
     {
@@ -35,21 +35,21 @@
       "coverage": {
         "percent": 99.6,
         "strings": [
-          126257,
-          126672
+          137367,
+          137902
         ],
         "ui": [
-          843,
-          843
+          857,
+          861
         ],
         "entries": [
-          4350,
-          4352
+          4943,
+          4950
         ]
       },
       "kit": "/translate/kits/frFR.zip",
-      "kitSize": 13646067,
-      "kitSha256": "dd4d230ce0b5d8e48aa638ce94e05362d0391e35de7ac26cf26792a6df5a66fa",
+      "kitSize": 14465275,
+      "kitSha256": "6ea4a70bd4ae39ccac8f41a7bd8feb9255f38c590bdbd4f7a3b5dbe1ac58abf8",
       "hasText": true
     },
     {
@@ -58,23 +58,23 @@
       "englishName": "Spanish (Spain)",
       "reviewed": false,
       "coverage": {
-        "percent": 92.2,
+        "percent": 92.4,
         "strings": [
-          116620,
-          126672
+          127559,
+          137902
         ],
         "ui": [
-          843,
-          843
+          857,
+          861
         ],
         "entries": [
-          4285,
-          4352
+          4877,
+          4950
         ]
       },
       "kit": "/translate/kits/esES.zip",
-      "kitSize": 13009033,
-      "kitSha256": "e900529e5c9f13d57f8e83e6fed5632d31615fc8ee4fa710c3de2f9dfaebf1fd",
+      "kitSize": 13803528,
+      "kitSha256": "8f393752e1567fb83e42d62f867ea5067ac745505f5e49258f5d0c05b96f9fb1",
       "hasText": true
     },
     {
@@ -86,20 +86,20 @@
         "percent": 0.0,
         "strings": [
           32,
-          126672
+          137902
         ],
         "ui": [
           32,
-          843
+          861
         ],
         "entries": [
           0,
-          4352
+          4950
         ]
       },
       "kit": "/translate/kits/esMX.zip",
-      "kitSize": 6542632,
-      "kitSha256": "d9f8c2c6b8583f2278dbdda2851adc0e906996380a4b1e1c71626d5f706b4961",
+      "kitSize": 6939871,
+      "kitSha256": "88c2bf85a3960ca88b3e36a62acc95829f1b71c121551469523ca7edefd5bce5",
       "hasText": true
     },
     {
@@ -108,23 +108,23 @@
       "englishName": "Portuguese (Brazil)",
       "reviewed": false,
       "coverage": {
-        "percent": 99.8,
+        "percent": 99.4,
         "strings": [
-          126461,
-          126672
+          137166,
+          137902
         ],
         "ui": [
-          843,
-          843
+          857,
+          861
         ],
         "entries": [
-          4351,
-          4352
+          4944,
+          4950
         ]
       },
       "kit": "/translate/kits/ptBR.zip",
-      "kitSize": 13350235,
-      "kitSha256": "c2986406486bd5b5f0f225769cdcf296d81e9c1730625e437cf3ea174285f64b",
+      "kitSize": 14119432,
+      "kitSha256": "02656ab1f9015f3846aff28fe5baec44440b88631fa93f6f9188105054e7e7fb",
       "hasText": true
     },
     {
@@ -133,23 +133,23 @@
       "englishName": "Italian",
       "reviewed": false,
       "coverage": {
-        "percent": 15.0,
+        "percent": 13.8,
         "strings": [
-          18422,
-          126672
+          18043,
+          137902
         ],
         "ui": [
-          724,
-          843
+          716,
+          861
         ],
         "entries": [
-          627,
-          4352
+          625,
+          4950
         ]
       },
       "kit": "/translate/kits/itIT.zip",
-      "kitSize": 7564375,
-      "kitSha256": "4b10ef8a58a80905a262c89abcfebfec7abb84fc8a74f230256c02906bcd25d3",
+      "kitSize": 7940011,
+      "kitSha256": "b50b0e48fa3e585b09f8ca6c6eeaa218a23d9ccf0f2ea60662cbc84690fd8511",
       "hasText": true
     },
     {
@@ -158,23 +158,23 @@
       "englishName": "Russian",
       "reviewed": false,
       "coverage": {
-        "percent": 47.6,
+        "percent": 44.4,
         "strings": [
-          61938,
-          126672
+          61420,
+          137902
         ],
         "ui": [
-          659,
-          843
+          651,
+          861
         ],
         "entries": [
-          2682,
-          4352
+          2659,
+          4950
         ]
       },
       "kit": "/translate/kits/ruRU.zip",
-      "kitSize": 11317312,
-      "kitSha256": "f02c35de283e3a8c83e916ee083f30a68d6a4b6a7ac22648db2c03f06dd86ace",
+      "kitSize": 11704046,
+      "kitSha256": "3d5a2b85f22a8466ef1c6c0be37bb6719a65d6881c99890d743c15369ee65d84",
       "hasText": true
     },
     {
@@ -183,23 +183,23 @@
       "englishName": "Ukrainian",
       "reviewed": false,
       "coverage": {
-        "percent": 50.3,
+        "percent": 47.0,
         "strings": [
-          65295,
-          126672
+          64747,
+          137902
         ],
         "ui": [
-          699,
-          843
+          691,
+          861
         ],
         "entries": [
-          2803,
-          4352
+          2779,
+          4950
         ]
       },
       "kit": "/translate/kits/ukUA.zip",
-      "kitSize": 11289798,
-      "kitSha256": "c9ea2c9d7897fa841291547940ffeafdf930eef2318972d67aa9f8aa16ce65b8",
+      "kitSize": 11676305,
+      "kitSha256": "9885f440c470f6b6d2b59082f8e1b0c590fc309675f1ee47f6860f683ae587de",
       "hasText": true
     },
     {
@@ -211,20 +211,20 @@
         "percent": 0.0,
         "strings": [
           0,
-          126672
+          137902
         ],
         "ui": [
           0,
-          843
+          861
         ],
         "entries": [
           0,
-          4352
+          4950
         ]
       },
       "kit": "/translate/kits/new.zip",
-      "kitSize": 6542037,
-      "kitSha256": "714a4e1dd6158c27de8f2a636e989fda065626b2cdbf50974482e588ccbb38e3",
+      "kitSize": 6939278,
+      "kitSha256": "9bfde2b82d65e494143830425f4397d8f9cfe18ed241dcb610aa2a36e3fa4469",
       "hasText": false
     },
     {
@@ -236,21 +236,21 @@
         "percent": 0.0,
         "strings": [
           0,
-          126672
+          137902
         ],
         "ui": [
           0,
-          843
+          861
         ],
         "entries": [
           0,
-          4352
+          4950
         ]
       },
       "kit": "/translate/kits/new.zip",
       "note": "The game's font lacks a few Polish letters (ą ć ę ń ś ź ż). We'll fix that before the pack ships, so write them as usual.",
-      "kitSize": 6542037,
-      "kitSha256": "714a4e1dd6158c27de8f2a636e989fda065626b2cdbf50974482e588ccbb38e3",
+      "kitSize": 6939278,
+      "kitSha256": "9bfde2b82d65e494143830425f4397d8f9cfe18ed241dcb610aa2a36e3fa4469",
       "hasText": false
     },
     {
@@ -262,20 +262,20 @@
         "percent": 0.0,
         "strings": [
           0,
-          126672
+          137902
         ],
         "ui": [
           0,
-          843
+          861
         ],
         "entries": [
           0,
-          4352
+          4950
         ]
       },
       "kit": "/translate/kits/new.zip",
-      "kitSize": 6542037,
-      "kitSha256": "714a4e1dd6158c27de8f2a636e989fda065626b2cdbf50974482e588ccbb38e3",
+      "kitSize": 6939278,
+      "kitSha256": "9bfde2b82d65e494143830425f4397d8f9cfe18ed241dcb610aa2a36e3fa4469",
       "hasText": false
     },
     {
@@ -287,20 +287,20 @@
         "percent": 0.0,
         "strings": [
           0,
-          126672
+          137902
         ],
         "ui": [
           0,
-          843
+          861
         ],
         "entries": [
           0,
-          4352
+          4950
         ]
       },
       "kit": "/translate/kits/new.zip",
-      "kitSize": 6542037,
-      "kitSha256": "714a4e1dd6158c27de8f2a636e989fda065626b2cdbf50974482e588ccbb38e3",
+      "kitSize": 6939278,
+      "kitSha256": "9bfde2b82d65e494143830425f4397d8f9cfe18ed241dcb610aa2a36e3fa4469",
       "hasText": false
     },
     {
@@ -312,21 +312,21 @@
         "percent": 0.0,
         "strings": [
           0,
-          126672
+          137902
         ],
         "ui": [
           0,
-          843
+          861
         ],
         "entries": [
           0,
-          4352
+          4950
         ]
       },
       "kit": "/translate/kits/new.zip",
       "note": "The game's font lacks a few Turkish letters (İ Ğ Ş ğ ş). We'll fix that before the pack ships, so write them as usual.",
-      "kitSize": 6542037,
-      "kitSha256": "714a4e1dd6158c27de8f2a636e989fda065626b2cdbf50974482e588ccbb38e3",
+      "kitSize": 6939278,
+      "kitSha256": "9bfde2b82d65e494143830425f4397d8f9cfe18ed241dcb610aa2a36e3fa4469",
       "hasText": false
     },
     {
@@ -338,20 +338,20 @@
         "percent": 0.0,
         "strings": [
           0,
-          126672
+          137902
         ],
         "ui": [
           0,
-          843
+          861
         ],
         "entries": [
           0,
-          4352
+          4950
         ]
       },
       "kit": "/translate/kits/new.zip",
-      "kitSize": 6542037,
-      "kitSha256": "714a4e1dd6158c27de8f2a636e989fda065626b2cdbf50974482e588ccbb38e3",
+      "kitSize": 6939278,
+      "kitSha256": "9bfde2b82d65e494143830425f4397d8f9cfe18ed241dcb610aa2a36e3fa4469",
       "hasText": false
     },
     {
@@ -363,20 +363,20 @@
         "percent": 0.0,
         "strings": [
           0,
-          126672
+          137902
         ],
         "ui": [
           0,
-          843
+          861
         ],
         "entries": [
           0,
-          4352
+          4950
         ]
       },
       "kit": "/translate/kits/new.zip",
-      "kitSize": 6542037,
-      "kitSha256": "714a4e1dd6158c27de8f2a636e989fda065626b2cdbf50974482e588ccbb38e3",
+      "kitSize": 6939278,
+      "kitSha256": "9bfde2b82d65e494143830425f4397d8f9cfe18ed241dcb610aa2a36e3fa4469",
       "hasText": false
     },
     {
@@ -388,20 +388,20 @@
         "percent": 0.0,
         "strings": [
           0,
-          126672
+          137902
         ],
         "ui": [
           0,
-          843
+          861
         ],
         "entries": [
           0,
-          4352
+          4950
         ]
       },
       "kit": "/translate/kits/new.zip",
-      "kitSize": 6542037,
-      "kitSha256": "714a4e1dd6158c27de8f2a636e989fda065626b2cdbf50974482e588ccbb38e3",
+      "kitSize": 6939278,
+      "kitSha256": "9bfde2b82d65e494143830425f4397d8f9cfe18ed241dcb610aa2a36e3fa4469",
       "hasText": false
     },
     {
@@ -413,20 +413,20 @@
         "percent": 0.0,
         "strings": [
           0,
-          126672
+          137902
         ],
         "ui": [
           0,
-          843
+          861
         ],
         "entries": [
           0,
-          4352
+          4950
         ]
       },
       "kit": "/translate/kits/new.zip",
-      "kitSize": 6542037,
-      "kitSha256": "714a4e1dd6158c27de8f2a636e989fda065626b2cdbf50974482e588ccbb38e3",
+      "kitSize": 6939278,
+      "kitSha256": "9bfde2b82d65e494143830425f4397d8f9cfe18ed241dcb610aa2a36e3fa4469",
       "hasText": false
     },
     {
@@ -438,22 +438,22 @@
         "percent": 0.0,
         "strings": [
           0,
-          126672
+          137902
         ],
         "ui": [
           0,
-          843
+          861
         ],
         "entries": [
           0,
-          4352
+          4950
         ]
       },
       "kit": "/translate/kits/new.zip",
       "dir": "rtl",
       "note": "Arabic can't show in the game yet: the game's fonts have no Arabic letters and don't write right to left. Your translation is kept for the day it can.",
-      "kitSize": 6542037,
-      "kitSha256": "714a4e1dd6158c27de8f2a636e989fda065626b2cdbf50974482e588ccbb38e3",
+      "kitSize": 6939278,
+      "kitSha256": "9bfde2b82d65e494143830425f4397d8f9cfe18ed241dcb610aa2a36e3fa4469",
       "hasText": false
     }
   ]

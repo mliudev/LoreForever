@@ -13,7 +13,10 @@ order. The stamp writes them into the version's section and deletes the fragment
   changelog.py site INDEX_HTML      write the website's copies from CHANGELOG.md: the landing page's version, its
                                     "New in" strip (and a changelog block, if the page has one), the What's new page
                                     (whats-new.html next to it) and the newest version in header.js (the What's new dot)
-  changelog.py addon NOTES_LUA      write the newest version's notes for the add-on's What's new card (Notes.lua)
+  changelog.py addon NOTES_LUA      write the newest version's notes for the add-on's What's new card (Notes.lua),
+                                    without the changes about plans, prices or Willo accounts (NOT_FOR_ADDON)
+  changelog.py lint VERSION         check VERSION's notes (as `notes` finds them) read like changelog.d/README.md asks;
+                                    exit 1 with what to fix. The notes pass runs it; release.sh only warns
 
 Standard library only: the public repo's release workflow runs it too.
 """
@@ -36,6 +39,15 @@ DATED = re.compile(r"^## (\d+\.\d+\.\d+) \((\d{4})-(\d{2})-(\d{2})\)", re.M)
 MONTHS = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October",
           "November", "December"]
 HIGHLIGHTS = 3   # how many changes the strip and the What's new page lead with
+# The add-on never talks about plans (LOR-790): its card leaves out a change that names a plan, a price or a Willo
+# account; the website, GitHub and CurseForge keep it. The plan names are the site's (site/lib/billing.js PLANS; the
+# public repo this also runs in has no site, so they're here, and test_changelog checks they still match).
+PLAN_NAMES = ("Adventurer", "Hero", "Champion", "Legend")
+NOT_FOR_ADDON = (re.compile(r"\b(?:" + "|".join(PLAN_NAMES) + r")\b"),
+                 re.compile(r"\$\d|\bprices?\b|\bsubscri|\bplans?\b|\bper month\b|\bfree (?:answers|months?|trial)\b"
+                            r"|\bbonus answers\b|\b(?:your|an?|Willo's) accounts?\b|\bsign(?:ed|s)? in\b|\binvit(?:e|es|ed)\b|\breferr", re.I))
+MAX_ITEMS, MAX_CHARS = 8, 220   # a few lines, one per theme, none technical (Mike, 2026-10-22). 0.26.0's notes were
+                                # fine but for the 290-character line naming a setting
 
 
 def sections(text: str) -> list[tuple[str, str]]:
@@ -218,6 +230,26 @@ def whats_new_block(released: list[tuple[str, str]]) -> list[str]:
     return out
 
 
+def lint(version: str) -> list[str]:
+    """What breaks changelog.d/README.md's rules in VERSION's notes: too many lines, a long one, a quoted settings
+    name, a theme twice. A short plain line (\"Corrected lore in 22 entries.\") is fine. Empty when they read fine."""
+    items, problems, leads = _bullets(notes(version)), [], set()
+    if len(items) > MAX_ITEMS:
+        problems.append(f"{len(items)} lines; keep at most {MAX_ITEMS}, one per theme (merge or drop the rest)")
+    for item in items:
+        lead, _ = _lead(item)
+        plain = _plain(item)
+        short = plain[:60]
+        if len(plain) > MAX_CHARS:
+            problems.append(f"{len(plain)} characters; keep it under {MAX_CHARS}: {short}")
+        if re.search(r"[\"“”]", plain):
+            problems.append(f"a quoted name (settings names are internals): {short}")
+        if lead and lead.lower() in leads:
+            problems.append(f"the same lead-in twice; one line per theme: {lead}")
+        leads.add(lead.lower())
+    return problems
+
+
 def _lua(text: str) -> str:
     """A Lua string literal (double-quoted, escaped)."""
     return '"' + text.replace("\\", "\\\\").replace('"', '\\"').replace("\n", "\\n") + '"'
@@ -245,6 +277,8 @@ def addon(notes_lua: Path) -> None:
            "-- from CHANGELOG.md at each release: edit that, not this.", "", "local _, ns = ...", "ns.Notes = {",
            f"  version = {_lua(version)},"] + ([f"  released = {_lua(day)},"] if day else []) + ["  items = {"]
     for item in _bullets(body):
+        if any(r.search(item) for r in NOT_FOR_ADDON):
+            continue
         m = re.match(r"\*\*(.+?)\*\*\s*(.*)$", item)
         raw, rest = (m.group(1), m.group(2)) if m else ("", item)
         lead = raw.rstrip(":,;. ")
@@ -254,7 +288,7 @@ def addon(notes_lua: Path) -> None:
 
 
 def main(argv: list[str]) -> int:
-    if len(argv) != 2 or argv[0] not in ("notes", "stamp", "site", "addon"):
+    if len(argv) != 2 or argv[0] not in ("notes", "stamp", "site", "addon", "lint"):
         print(__doc__, file=sys.stderr)
         return 2
     cmd, arg = argv
@@ -269,6 +303,11 @@ def main(argv: list[str]) -> int:
         stamp(arg)
     elif cmd == "addon":
         addon(Path(arg))
+    elif cmd == "lint":
+        problems = lint(arg)
+        for problem in problems:
+            print(f"changelog: {problem}", file=sys.stderr)
+        return 1 if problems else 0
     else:
         site(Path(arg))
     return 0

@@ -186,7 +186,7 @@ end
 
 local function onItemTooltip(tooltip)
   -- Only the main and chat-link tooltips, not the side-by-side comparison ones.
-  if not S().itemTooltips or (tooltip ~= GameTooltip and tooltip ~= _G.ItemRefTooltip) then return end
+  if tooltip ~= GameTooltip and tooltip ~= _G.ItemRefTooltip then return end
   local name, id
   if _G.TooltipUtil and TooltipUtil.GetDisplayedItem then
     local ok, n, _, i = pcall(TooltipUtil.GetDisplayedItem, tooltip)
@@ -199,6 +199,9 @@ local function onItemTooltip(tooltip)
     end
   end
   if not ns.Context.Usable(name) then return end
+  -- An item with a story is found by hovering it, whatever the tooltip shows (Collection.lua).
+  if ns.Collection then pcall(ns.Collection.OnItemTooltip, name) end
+  if not S().itemTooltips then return end
   local lines = Hooks.ItemLines(name, id)
   for _, l in ipairs(lines) do tooltip:AddLine(l.text, l.r, l.g, l.b, true) end
   -- An item with a story of its own: the keys that open it and read it aloud, as for a person (only when asked).

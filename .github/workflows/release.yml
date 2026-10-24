@@ -305,7 +305,7 @@ jobs:
             param($selection, $wow, $root)
             $ErrorActionPreference = 'Stop'   # in its own runspace too: whatever goes wrong is this check's result
             try {
-              New-Item -ItemType Directory "$wow\_classic_beta_" | Out-Null
+              New-Item -ItemType Directory "$wow\_forever_" | Out-Null
               $voices = if ($selection -eq 'base') { 'none' } else { $selection }
               $installed = Start-Process "$root\dist\LoreForever-Setup.exe" -WindowStyle Hidden -PassThru -Wait -ArgumentList '/QA','/VERYSILENT','/SUPPRESSMSGBOXES',"/DIR=$wow","/VOICES=$voices",'/VOICEURL=http://127.0.0.1:47864/'
               $report, $verified = '', $null
@@ -497,7 +497,7 @@ jobs:
           $required = '${{ vars.SIGNING_PROFILE }}' -ne ''
           $signature = [ordered]@{ required = $required; status = 'not_required'; thumbprint = '' }
           $scratch = "$env:RUNNER_TEMP\willo-qa"
-          New-Item -ItemType Directory "$scratch\app", "$scratch\wow\_classic_beta_" -Force | Out-Null
+          New-Item -ItemType Directory "$scratch\app", "$scratch\wow\_forever_" -Force | Out-Null
           $installed = Start-Process dist\Willo-Setup.exe -Wait -PassThru -ArgumentList '/QA', '/VERYSILENT', '/SUPPRESSMSGBOXES',
             "/DIR=$scratch\app", "/GAMEDIR=$scratch\wow", "/LOG=$env:RUNNER_TEMP\willo-qa.log"
           $app = "$scratch\app\LoreForeverCompanion.exe"

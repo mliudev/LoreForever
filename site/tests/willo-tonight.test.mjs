@@ -350,7 +350,7 @@ test("one batch of reads builds the whole card from the database", async () => {
   await seedPage(me.user, PAGE, NOTEBOOK);
   await befriend(me, other);
   const counted = counting(env.DB);
-  const c = await tonightFor({ DB: counted }, me.user.id, { character: CHAR, stock, now: new Date() });
+  const c = await tonightFor({ DB: counted }, me.user.id, { character: CHAR, stock, now: NOW });
   assert.equal(counted.seen.batches, 1);
   assert.equal(counted.seen.single, 0, "no read outside the batch");
   assert.equal(counted.seen.statements, 3);
@@ -378,7 +378,8 @@ async function call({ token, method = "POST", body, headers = {}, query = "" }) 
   return { status: res.status, body: await res.json(), headers: res.headers };
 }
 
-test("the endpoint: signed out is turned away; a connected Willo gets the card, no-store, from a POST or a GET", async () => {
+test("the endpoint: signed out is turned away; a connected Willo gets the card, no-store, from a POST or a GET", async (t) => {
+  t.mock.timers.enable({ apis: ["Date"], now: NOW });   // the endpoint reads the clock; its picks change in the gap
   assert.equal((await call({ body: {} })).status, 401);
   const me = await player("tester");
   await seedProfile(me.user, "Tester", "ClassicBetaPvE", 22);

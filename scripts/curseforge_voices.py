@@ -25,7 +25,9 @@ with the newest release, never from a rebuild of an older tag.
 Once a project is live (approved by CurseForge), the add-on's own file leaves its folders out and lists it as a
 required or optional dependency. The app installs required dependencies with the add-on. Quest dialogue is always
 optional and excluded from the add-on's file, even before its project is live. Other bundled narration stays until
-its project is live, unless that would put the file over the limit.
+its project is live, unless that would put the file over the limit; a required one (the default voice) also waits
+until voices.json records a file for it, so the app always has something to install in its place. A project with
+"min_days" uploads a change at most that often (its first upload never waits), so its players re-download it less.
 
   curseforge_voices.py core ZIP OUTDIR        the add-on's file: OUTDIR/<ZIP's name> without the folders that go to
                                               CurseForge on their own, OUTDIR/relations.json for its upload's
@@ -54,6 +56,7 @@ import subprocess
 import sys
 import tempfile
 import zipfile
+from datetime import datetime, timedelta, timezone
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -62,6 +65,9 @@ CORE_TOC = ROOT / "addon" / "LoreForever" / "LoreForever.toc"
 API = "https://wow.curseforge.com/api"
 CORE_ID, CORE_SLUG = 1715510, "lore-forever"
 MAIN_ZIP = "LoreForever.zip"   # the release's main download, the add-on's own file's source
+# The default voice the main download bundles: a project of its own must be required, or the add-on's file would drop
+# it without the CurseForge app installing it, and players would lose their narrator.
+DEFAULT_VOICE = {"LoreForever_Voice_Default", "LoreForever_Voice_Default_Alliance", "LoreForever_Voice_Default_Horde"}
 CAP = 480 * 1024 * 1024      # under CurseForge's upload limit (about 500 MB; 0.6.0's 388 MB went through)
 WEB_CAP = 2 * 1000 ** 3      # what the website takes by hand (2 GB), for core_upload "manual"
 PACKAGE_WITH = ["LoreForever_Voice_Female-complete.zip"]   # merged into the main zip for that one package
@@ -142,6 +148,9 @@ def load_config(path: Path | None = None) -> list[dict]:
                 raise Failure(f"{path.name}: {name}: translations must be a separate optional project")
         if any(quest_dialogue(f) for f in folders) and p["core"] != "optional":
             raise Failure(f"{path.name}: {name}: quest dialogue must be optional for the core")
+        if any(f in DEFAULT_VOICE for f in folders) and p["core"] != "required":
+            raise Failure(f"{path.name}: {name}: the default voice must be required, so the CurseForge app installs "
+                          "it with the add-on")
         if not (isinstance(p.get("requires"), list) and all(r in keys and r != p["key"] for r in p["requires"])):
             raise Failure(f"{path.name}: {name}'s 'requires' names other projects' keys")
         pid, slug = p.get("id"), p.get("slug")
@@ -155,6 +164,8 @@ def load_config(path: Path | None = None) -> list[dict]:
             raise Failure(f"{path.name}: {name}'s 'live' is true or false")
         if p["live"] and not (pid and slug):
             raise Failure(f"{path.name}: {name} is live, so it needs its id and slug")
+        if not (type(p.setdefault("min_days", 0)) is int and p["min_days"] >= 0):
+            raise Failure(f"{path.name}: {name}'s 'min_days' is a number of days")
         if type(p.setdefault("paused", False)) is not bool:
             raise Failure(f"{path.name}: {name}'s 'paused' is true or false")
         if p["paused"] and p["live"]:
@@ -366,7 +377,9 @@ def relations(project: dict, projects: list[dict]) -> dict:
     """The add-on, the projects it requires and the ones it suggests (CurseForge's optional dependencies: listed, not
     installed with it), each only once it's live (a file can only name an approved project)."""
     by_key = {p["key"]: p for p in projects}
-    rel = [{"slug": CORE_SLUG, "type": "requiredDependency"}]
+    # A project the add-on requires names it back as optional: two files requiring each other is a loop the app needn't
+    # resolve, and the add-on's file already brings this one.
+    rel = [{"slug": CORE_SLUG, "type": "optionalDependency" if project["core"] == "required" else "requiredDependency"}]
     for kind, keys in (("requiredDependency", project["requires"]), ("optionalDependency", project.get("suggests", []))):
         rel += [{"slug": by_key[k]["slug"], "type": kind} for k in keys if by_key[k]["live"]]
     return {"projects": rel}
@@ -456,15 +469,28 @@ def prepare(projects: list[dict], source_dir: Path, work: Path, version: str) ->
     return steps
 
 
-def plan(steps: list[dict], state: dict) -> list[dict]:
-    """Marks each prepared file upload, or unchanged (with its last upload) when its narration is what was sent."""
+def held_until(project: dict, last: dict | None) -> datetime | None:
+    """When a changed project may upload again, for one with min_days whose last upload was sooner than that; None
+    when it may upload now. A first upload (no last one, or one recorded before uploads had dates) never waits."""
+    if not project.get("min_days") or not last or not last.get("at"):
+        return None
+    return datetime.fromisoformat(last["at"]) + timedelta(days=project["min_days"])
+
+
+def plan(steps: list[dict], state: dict, now: datetime | None = None) -> list[dict]:
+    """Marks each prepared file upload, or unchanged (with its last upload) when its narration is what was sent, or
+    held when it changed but its min_days since the last upload haven't passed."""
+    now = now or datetime.now(timezone.utc)
     for s in steps:
         if "zip" not in s:
             s["action"] = "absent" if "absent" in s else "missing"
             continue
         s["fingerprint"], s["last"] = fingerprint(s["zip"]), state.get(str(s["project"]["id"]))
         same = bool(s["last"]) and s["last"].get("fingerprint") == s["fingerprint"]
-        s["action"] = "unchanged" if same else "upload"
+        until = None if same else held_until(s["project"], s["last"])
+        s["action"] = "unchanged" if same else "held" if until and now < until else "upload"
+        if s["action"] == "held":
+            s["until"] = until
     return steps
 
 
@@ -561,6 +587,28 @@ def summary(line: str) -> None:
 
 # --- commands ------------------------------------------------------------------------------------------------------
 
+def with_files(projects: list[dict], state: dict | None = None) -> list[dict]:
+    """The projects, a required one counting as live only once it has a file on CurseForge (voices.json): the add-on's
+    file keeps its folders until the app has something to install in their place."""
+    required = [p for p in projects if p["live"] and p["core"] == "required"]
+    if not required:
+        return projects
+    if state is None:
+        try:
+            state = load_state()
+        except Failure as e:
+            print(f"::warning::{e}; the add-on's file keeps the required narration bundled")
+            state = {}
+    out = []
+    for p in projects:
+        if p in required and not (type(state.get(str(p["id"]), {}).get("file")) is int):
+            print(f"::warning::{p['key']} is live but has no file on CurseForge yet, so the add-on's file keeps "
+                  f"{', '.join(p['folders'])}")
+            p = {**p, "live": False}
+        out.append(p)
+    return out
+
+
 def cmd_core(args) -> int:
     outdir = Path(args.outdir)
     if core_upload() == "manual":
@@ -571,7 +619,7 @@ def cmd_core(args) -> int:
               "(curseforge_voices.py package): upload by hand on the website (release/curseforge.json, "
               "core_upload: manual)")
         return 0
-    out, rel, notes = core(Path(args.zip), outdir, load_config())
+    out, rel, notes = core(Path(args.zip), outdir, with_files(load_config()))
     (outdir / "relations.json").write_text(json.dumps(rel) + "\n", encoding="utf-8")
     (outdir / "notes.md").write_text(notes, encoding="utf-8")
     print(f"CurseForge's copy: {out} ({out.stat().st_size // MB} MB), "
@@ -659,6 +707,9 @@ def send(steps: list[dict], projects: list[dict], state: dict, version: str, tok
         elif s["action"] == "unchanged":
             summary(f"{p['key']}: unchanged since {s['last'].get('version')} (CurseForge file "
                     f"{s['last'].get('file')}), not uploaded")
+        elif s["action"] == "held":
+            summary(f"{p['key']}: changed, but it uploads at most every {p['min_days']} days (last: "
+                    f"{s['last'].get('version')}); it goes up with the first release from {s['until']:%Y-%m-%d %H:%M} UTC")
     todo = [s for s in steps if s["action"] == "upload"]
     if not todo:
         return 1 if failed else 0
@@ -682,7 +733,8 @@ def send(steps: list[dict], projects: list[dict], state: dict, version: str, tok
                 failed += 1
                 continue
             state[str(p["id"])] = {"key": p["key"], "version": version, "file": file_id,
-                                   "fingerprint": s["fingerprint"], "counts": {f: n for f, _, n in parts}}
+                                   "fingerprint": s["fingerprint"], "counts": {f: n for f, _, n in parts},
+                                   "at": datetime.now(timezone.utc).isoformat(timespec="seconds")}
             save_state(state, state_file)   # record each success before attempting the next project
             where = f"https://www.curseforge.com/wow/addons/{p['slug']}" if p.get("slug") else f"project {p['id']}"
             summary(f"{p['key']}: uploaded {meta['displayName']} to {where} as CurseForge file {file_id}; it goes "

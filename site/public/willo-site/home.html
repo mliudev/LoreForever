@@ -1,0 +1,397 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<!-- Willo's landing page: "/" on her own domain (lib/doors.js willoHome). It's the swappable part of her site: this
+     file and tokens.css are her look (door.css carries the tokens to the shared pages), and a new design replaces
+     these. The game it talks about comes from games.json, the plans and prices from /api/billing/plans
+     (lib/billing.js), and the download from /download/willo. Links to Lore Forever's pages (the add-on, /downloads)
+     are pointed at loreforeverwow.com by lib/doors.js. -->
+<title>Willo - A Companion You Talk To While You Play</title>
+<meta name="description" content="Willo is a little wisp who rides along while you play. Ask her anything out loud and hear the answer. Target a character and they answer as themselves.">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Willo">
+<meta property="og:title" content="Willo - A Companion You Talk To While You Play">
+<meta property="og:description" content="Ask out loud, and the world answers. A little wisp who rides along in WoW Forever, knows where you are and answers in her own voice. Free to start on Windows.">
+<link rel="canonical" href="https://loreforeverwow.com/">
+<meta property="og:url" content="https://loreforeverwow.com/">
+<!-- The card, its size and words, X's tags and her icons are set for every page of her door in lib/social.js. -->
+<link rel="icon" href="/img/wispr.svg" type="image/svg+xml">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Organization",
+      "@id": "https://willocompanion.com/#willo-org",
+      "name": "Willo",
+      "url": "https://willocompanion.com/",
+      "logo": "https://willocompanion.com/img/willo-icon-512.png"
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://willocompanion.com/#website",
+      "name": "Willo",
+      "url": "https://willocompanion.com/",
+      "publisher": { "@id": "https://willocompanion.com/#willo-org" }
+    },
+    {
+      "@type": "SoftwareApplication",
+      "@id": "https://willocompanion.com/#app",
+      "name": "Willo",
+      "description": "A little wisp who rides along while you play World of Warcraft. Ask her anything out loud and hear the answer in her own voice.",
+      "applicationCategory": "GameApplication",
+      "operatingSystem": "Windows 10, Windows 11",
+      "url": "https://willocompanion.com/",
+      "image": "https://willocompanion.com/img/cards/willo.jpg",
+      "publisher": { "@id": "https://willocompanion.com/#willo-org" },
+      "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD", "description": "Free to start" }
+    }
+  ]
+}
+</script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Alegreya+Sans:wght@400;500;700&family=Marcellus&display=swap">
+<link rel="stylesheet" href="/willo-site/tokens.css?v=20261024g">
+<style>
+*, *::before, *::after { box-sizing: border-box; }
+body { margin: 0; background: var(--w-night); color: var(--w-text); font: 18px/1.6 var(--w-body); }
+a { color: var(--w-glow); text-underline-offset: 3px; }
+.wrap { max-width: 1120px; margin: 0 auto; padding-left: max(20px, env(safe-area-inset-left, 0px)); padding-right: max(20px, env(safe-area-inset-right, 0px)); }
+.vh { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
+
+/* A dark bar on top, then the hero in pale daylight with mist rising under it, sinking into the deep teal below. */
+.head { background: var(--w-bar); border-bottom: 1px solid var(--w-rim); }
+.sky { position: relative; isolation: isolate; background: var(--w-sky); }
+.sky::after { content: ""; position: absolute; left: 0; right: 0; bottom: -1px; z-index: -1; height: 360px; pointer-events: none;
+  background: var(--w-mist) center bottom / cover no-repeat; }
+
+/* Header: the same three links, Sign in and Get Willo as on her other pages (lib/doors.js willoNav, door.css). */
+.top { display: flex; align-items: center; gap: 28px; min-height: 72px; }
+.brand { display: flex; align-items: center; gap: 10px; color: #fff; text-decoration: none; font: 400 1.6rem/1 var(--w-display); letter-spacing: .04em; }
+.brand img { filter: drop-shadow(0 0 10px var(--w-glow)); }
+.links { display: flex; gap: 6px; flex: 1; }
+.links a, .signin { color: #e8f0fa; text-decoration: none; font: 400 1rem/1 var(--w-display); letter-spacing: .03em; padding: 11px 12px; border-radius: var(--w-r-sm); }
+.links a:hover, .signin:hover { color: #fff; background: #ffffff1a; }
+.end { display: flex; align-items: center; gap: 8px; margin-left: auto; }
+
+/* Buttons: carved gold, and a quiet one. */
+.cta { display: inline-flex; align-items: center; justify-content: center; gap: 10px; min-height: 52px; padding: 0 26px; border-radius: var(--w-r-sm);
+  font: 400 1.08rem/1 var(--w-display); letter-spacing: .03em; color: var(--w-cta-ink); text-decoration: none; background: var(--w-cta);
+  box-shadow: var(--w-cta-glow); text-shadow: 0 1px 0 #fff6; transition: transform .15s ease, filter .2s ease; }
+.cta:hover { transform: translateY(-1px); filter: brightness(1.07); }
+.cta.sm { min-height: 40px; padding: 0 18px; font-size: 1rem; }
+.cta svg { width: 18px; height: 18px; fill: currentColor; }
+.ghost { display: inline-flex; align-items: center; min-height: 52px; padding: 0 24px; border-radius: var(--w-r-sm); border: 1px solid #ffffff8c;
+  font: 400 1.08rem/1 var(--w-display); letter-spacing: .03em; color: #fff; text-decoration: none; background: #0b1d2a33; }
+.ghost:hover { background: #0b1d2a66; }
+.sky .ghost { color: var(--w-sky-ink); border-color: #12304a66; background: #ffffff59; }
+.sky .ghost:hover { background: #ffffff99; }
+.sec .ghost { border-color: var(--w-rim-strong); background: none; }
+.sec .ghost:hover { background: var(--w-wash); }
+
+/* Hero: the line, the buttons, and the clip with Willo riding at its corner. */
+.hero { display: grid; grid-template-columns: minmax(0, 1.15fr) minmax(0, 1fr); gap: 48px; align-items: center; padding-block: 56px 240px; }
+.game { display: inline-flex; align-items: center; gap: 8px; margin: 0; font: 500 .9rem/1 var(--w-body); color: var(--w-sky-ink-2);
+  border: 1px solid #12304a33; padding: 8px 14px; border-radius: 999px; background: #ffffff59; }
+.game b { color: var(--w-sky-ink); font-weight: 700; }
+.dot { width: 8px; height: 8px; border-radius: 50%; background: #1f9a74; box-shadow: 0 0 8px #1f9a74; }
+h1 { font: 400 clamp(2.4rem, 4.4vw, 3.6rem)/1.08 var(--w-display); letter-spacing: .005em; margin: 22px 0 20px; color: var(--w-sky-ink); text-wrap: balance; }
+h1 span { color: var(--w-sky-accent); }
+.sub { color: var(--w-sky-ink-2); max-width: 44ch; font-size: 1.18rem; margin: 0; }
+.ctas { display: flex; flex-wrap: wrap; gap: 12px; margin-top: 30px; }
+.count { margin: 12px 0 0; font-size: 1rem; color: var(--w-sky-ink-2); }
+.count strong { color: var(--w-sky-ink); font-weight: 700; }
+.fine { margin: 14px 0 0; font-size: .95rem; color: var(--w-sky-ink-2); }
+.count + .fine { margin-top: 4px; }
+.fine a { color: var(--w-sky-ink); }
+.stage { position: relative; z-index: 1; margin: 0; }
+.frame { position: relative; border-radius: var(--w-r); overflow: hidden; border: 1px solid #c99a55; background: #05070f;
+  box-shadow: 0 0 0 5px #ffffffb3, 0 0 0 6px #c99a5599, 0 40px 80px -36px #12304acc; }
+.frame video { display: block; width: 100%; height: auto; aspect-ratio: 16 / 9; }
+.play { position: absolute; inset: 0; display: grid; place-items: center; width: 100%; border: 0; padding: 0; cursor: pointer;
+  background: linear-gradient(180deg, transparent 40%, #05070f66); }
+.play span { display: grid; place-items: center; width: 68px; height: 68px; border-radius: 50%; background: var(--w-cta); box-shadow: var(--w-cta-glow); }
+.play svg { width: 24px; height: 24px; margin-left: 4px; fill: var(--w-cta-ink); }
+.play[hidden] { display: none; }
+.stage figcaption { display: inline-block; margin: 20px 0 0 4px; padding: 6px 14px; border-radius: 999px; background: #0b1d2acc; font-size: .98rem;
+  color: var(--w-text-2); line-height: 2; }
+.stage figcaption kbd { margin: 0 2px; font: 600 .8rem/1 var(--w-body); color: var(--w-text); border: 1px solid var(--w-rim-strong); border-bottom-width: 2px;
+  border-radius: 6px; padding: 4px 8px; background: #ffffff0d; }
+.wisp { position: absolute; top: -46px; left: -42px; width: 112px; height: 112px; pointer-events: none;
+  filter: drop-shadow(0 0 14px #2fb7d0) drop-shadow(0 0 40px #4f9fe0aa); animation: float 6s ease-in-out infinite; }
+@keyframes float { 0%, 100% { transform: translate(0, 0); } 50% { transform: translate(4px, -10px); } }
+
+/* Sections, each opened by a wind-swirl rule. */
+.sec { position: relative; padding-block: 72px 64px; }
+.sec::before, .last::before { content: ""; position: absolute; top: 0; left: 50%; width: min(560px, 82%); height: 24px; transform: translate(-50%, -50%);
+  background: var(--w-gold); opacity: .8;
+  -webkit-mask: var(--w-swirl) center / 48px 24px no-repeat, linear-gradient(90deg, transparent, #000) left center / calc(50% - 34px) 1px no-repeat,
+    linear-gradient(90deg, #000, transparent) right center / calc(50% - 34px) 1px no-repeat;
+  mask: var(--w-swirl) center / 48px 24px no-repeat, linear-gradient(90deg, transparent, #000) left center / calc(50% - 34px) 1px no-repeat,
+    linear-gradient(90deg, #000, transparent) right center / calc(50% - 34px) 1px no-repeat; }
+.sky + .sec::before { display: none; }
+.eyebrow { margin: 0 0 12px; font: 700 .8rem/1 var(--w-body); letter-spacing: .2em; text-transform: uppercase; color: var(--w-gold); }
+h2 { margin: 0 0 30px; font: 400 clamp(1.9rem, 3.4vw, 2.6rem)/1.15 var(--w-display); letter-spacing: .005em; color: var(--w-text); text-wrap: balance; }
+.feats { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 18px; margin: 0; padding: 0; list-style: none; }
+.feats li { padding: 26px; border: 1px solid var(--w-rim); border-radius: var(--w-r); background: linear-gradient(180deg, #163a4b, #0f2836);
+  box-shadow: inset 0 1px 0 #f4ecdc14; }
+.feats svg { width: 56px; height: 56px; padding: 14px; border-radius: 50%; background: radial-gradient(circle at 50% 35%, #1d5160, #0d2531);
+  border: 1px solid var(--w-rim-strong); box-shadow: 0 0 0 4px #0b1d2a, 0 0 0 5px #e2b77a33;
+  stroke: var(--w-gold); fill: none; stroke-width: 1.7; stroke-linecap: round; stroke-linejoin: round; }
+.feats h3 { margin: 18px 0 6px; font: 400 1.3rem/1.25 var(--w-display); letter-spacing: .01em; color: #fff; }
+.feats p { margin: 0; color: var(--w-text-2); font-size: 1.02rem; }
+.steps { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 18px; margin: 0; padding: 0; list-style: none; counter-reset: s; }
+.steps li { counter-increment: s; display: grid; grid-template-columns: 48px minmax(0, 1fr); gap: 4px 16px; align-items: start; }
+.steps li::before { content: counter(s); grid-row: span 2; display: grid; place-items: center; width: 48px; height: 48px; border-radius: 50%;
+  border: 1px solid var(--w-rim-strong); background: radial-gradient(circle at 50% 35%, #1d5160, #0d2531); color: var(--w-gold);
+  font: 400 1.35rem/1 var(--w-display); box-shadow: 0 0 0 4px #0b1d2a, 0 0 0 5px #e2b77a33; }
+.steps b { font: 400 1.25rem/1.3 var(--w-display); color: #fff; padding-top: 9px; }
+.steps span { color: var(--w-text-2); font-size: 1.02rem; }
+
+/* Plans: a card per plan with today's price, from /api/billing/plans */
+.plans { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 14px; margin: 0; padding: 0; list-style: none; }
+.plans li { display: grid; align-content: start; gap: 6px; padding: 22px; border: 1px solid var(--w-rim); border-radius: var(--w-r);
+  background: linear-gradient(180deg, #163a4b, #0f2836); box-shadow: inset 0 1px 0 #f4ecdc14; }
+.plans .name { font: 400 1.3rem/1.2 var(--w-display); letter-spacing: .02em; color: var(--w-gold); }
+.plans .price { display: flex; align-items: baseline; flex-wrap: wrap; gap: 4px 8px; margin: 2px 0 0; font: 400 2rem/1.1 var(--w-display);
+  color: #fff; font-variant-numeric: tabular-nums; }
+.plans .price small { font: 500 .95rem var(--w-body); color: var(--w-muted); }
+.plans .price s { font: 500 1rem var(--w-body); color: var(--w-muted); }
+.plans .note { margin: 0; font-size: .88rem; color: var(--w-muted); }
+.plans .what { margin: 10px 0 0; padding-top: 12px; border-top: 1px solid var(--w-line); color: var(--w-text-2); font-size: 1rem; line-height: 1.45; }
+.plans .tag { justify-self: start; margin: 0 0 4px; padding: 4px 10px; border-radius: 999px; font: 700 .7rem/1.2 var(--w-body); letter-spacing: .1em;
+  text-transform: uppercase; color: var(--w-glow); border: 1px solid #7fe0dc55; background: #7fe0dc12; }
+.plans-end { display: flex; flex-wrap: wrap; align-items: center; gap: 12px 20px; margin-top: 24px; color: var(--w-muted); font-size: 1rem; }
+
+/* Closing call: her lantern-light under the clouds. */
+.last { position: relative; display: grid; justify-items: center; gap: 18px; padding-block: 88px; text-align: center;
+  background: radial-gradient(560px 280px at 50% 34%, #7fe0dc1f, transparent 70%); }
+.last img { width: 88px; height: 88px; filter: drop-shadow(0 0 22px #bff6f2) drop-shadow(0 0 50px #7fe0dccc); animation: float 6s ease-in-out infinite; }
+.last h2 { margin: 0; font-size: clamp(2.2rem, 4vw, 3rem); }
+.last p { margin: 0; color: var(--w-text-2); max-width: 46ch; }
+
+/* Footer: the same columns as her other pages (lib/doors.js willoFoot). */
+footer { border-top: 1px solid var(--w-rim); background: #08161f; padding-block: 52px 40px; font-size: .98rem; }
+.foot { display: grid; grid-template-columns: 1.4fr repeat(4, minmax(0, 1fr)); gap: 28px; }
+.foot .sign { display: grid; gap: 10px; align-content: start; color: var(--w-text-2); }
+.foot .sign p { margin: 0; }
+.foot .brand { font-size: 1.4rem; text-shadow: none; }
+.foot h2 { margin: 0 0 12px; font: 700 .74rem/1.2 var(--w-body); letter-spacing: .16em; text-transform: uppercase; color: var(--w-gold); }
+.foot ul { margin: 0; padding: 0; list-style: none; display: grid; gap: 8px; }
+.foot ul a { color: var(--w-text-2); text-decoration: none; }
+.foot ul a:hover { color: #fff; }
+:focus-visible { outline: 2px solid var(--w-glow); outline-offset: 3px; border-radius: 6px; }
+
+@media (max-width: 960px) {
+  .hero { grid-template-columns: minmax(0, 1fr); gap: 64px; padding-block: 40px 230px; }
+  .stage { max-width: 680px; margin-inline: 22px 0; }
+  .plans { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .foot { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .foot .sign { grid-column: 1 / -1; }
+}
+@media (max-width: 760px) {
+  .feats, .steps { grid-template-columns: minmax(0, 1fr); }
+  .sec { padding-block: 56px 48px; }
+}
+@media (max-width: 640px) {
+  body { font-size: 17px; }
+  .top { gap: 12px; min-height: 60px; }
+  .links { display: none; }
+  .brand { font-size: 1.4rem; }
+  .signin { padding: 10px 8px; }
+  .hero { padding-block: 28px 160px; gap: 52px; }
+  .sky::after { height: 220px; background-image: var(--w-mist-sm); }
+  .ctas a { flex: 1 1 100%; }
+  .stage { margin-inline: 14px 0; }
+  .wisp { width: 84px; height: 84px; top: -34px; left: -30px; }
+  .plans { grid-template-columns: minmax(0, 1fr); }
+  .last { padding-block: 64px; }
+}
+@media (prefers-reduced-motion: reduce) { .wisp, .last img { animation: none; } .cta { transition: none; } }
+</style>
+</head>
+<body>
+<header class="head"><div class="wrap top">
+  <a class="brand" href="/"><img src="/img/wispr.svg" alt="" width="30" height="30">Willo</a>
+  <nav class="links" aria-label="Willo">
+    <a href="/willo">Meet her</a><a href="/plans">Plans</a><a href="/faq">Help</a>
+  </nav>
+  <div class="end">
+    <a class="signin" href="/account">Sign in</a>
+    <a class="cta sm" href="/download/willo?src=willo-home-nav">Get Willo</a>
+  </div>
+</div></header>
+
+<main>
+  <div class="sky"><section class="wrap hero" aria-labelledby="w-title">
+    <div>
+      <p class="game" id="w-game"><span class="dot" aria-hidden="true"></span>Now in <b>World of Warcraft</b>&nbsp;&middot; WoW Forever</p>
+      <h1 id="w-title">Ask out loud.<br><span>The world answers.</span></h1>
+      <p class="sub">Willo is a little wisp who rides along while you play. She knows where you are, what you're chasing
+        and who you're talking to, and she answers in her own voice.</p>
+      <div class="ctas">
+        <a class="cta" href="/download/willo?src=willo-home"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 5.5 10 4.5v7H3zM11 4.3 21 3v8.5H11zM3 12.5h7v7l-7-1zM11 12.5h10V21l-10-1.4z"/></svg>Download for Windows</a>
+        <a class="ghost" href="/willo">See what she does</a>
+      </div>
+      <p class="count" data-willo-downloads hidden></p>
+      <p class="fine">Free to start &middot; Windows 10 and 11 &middot; works with the free <a href="/downloads">Lore Forever</a> add-on</p>
+    </div>
+    <figure class="stage">
+      <div class="frame">
+        <video id="w-clip" muted loop playsinline preload="none" poster="/video/willo/willo-ask-out-loud.webp"
+          data-src="/video/willo/willo-ask-out-loud-loop.mp4" width="960" height="540"
+          aria-label="Asking Willo out loud in game what lies across Baradin Bay"></video>
+        <button class="play" id="w-play" type="button" hidden aria-label="Play the clip"><span><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 4.5v15l12-7.5z"/></svg></span></button>
+      </div>
+      <img class="wisp" src="/img/wispr.svg" alt="" width="112" height="112">
+      <figcaption>Hold your <kbd>talk key</kbd>, ask, and hear the answer.</figcaption>
+    </figure>
+  </section></div>
+
+  <section class="sec" aria-labelledby="w-does">
+    <div class="wrap">
+      <p class="eyebrow">What she does</p>
+      <h2 id="w-does">A friend at your shoulder, all adventure long</h2>
+      <ul class="feats">
+        <li><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="9" y="3" width="6" height="11" rx="3"/><path d="M5 11a7 7 0 0 0 14 0M12 18v3"/></svg>
+          <h3>Ask anything, out loud</h3><p>Quests, lore, where to go next, even your graphics settings. She answers while you keep playing.</p></li>
+        <li><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="9" cy="8" r="4"/><path d="M2 21c0-3.9 3.1-7 7-7s7 3.1 7 7M16 4.5c1.7.6 3 2.2 3 4.1s-1.3 3.5-3 4.1M19 14.6c1.8 1 3 3 3 5.4"/></svg>
+          <h3>Characters answer</h3><p>Target an innkeeper or a king, ask, and they reply as themselves.</p></li>
+        <li><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 3h11l3 3v15H5z"/><path d="M9 9h6M9 13h6M9 17h3"/></svg>
+          <h3>She remembers</h3><p>Notes, goals, reminders and your journey, kept between sessions and yours to change.</p></li>
+      </ul>
+    </div>
+  </section>
+
+  <section class="sec" aria-labelledby="w-start">
+    <div class="wrap">
+      <p class="eyebrow">Get started</p>
+      <h2 id="w-start">Playing together in three steps</h2>
+      <ol class="steps">
+        <li><b>Get the free add-on</b><span><a href="/downloads">Lore Forever</a> lets her see your quests, places and people.</span></li>
+        <li><b>Download Willo</b><span>For Windows 10 and 11. Sign in once and she's yours.</span></li>
+        <li><b>Hold your talk key and ask</b><span>She answers out loud, right there in your adventure.</span></li>
+      </ol>
+    </div>
+  </section>
+
+  <section class="sec" id="games" aria-labelledby="w-games" hidden>
+    <div class="wrap">
+      <p class="eyebrow">Where she plays</p>
+      <h2 id="w-games">Her worlds</h2>
+      <ul class="plans" id="w-game-list"></ul>
+    </div>
+  </section>
+
+  <section class="sec" id="plans" aria-labelledby="w-plans" hidden>
+    <div class="wrap">
+      <p class="eyebrow">Plans</p>
+      <h2 id="w-plans">Free to start. More of her when you want it.</h2>
+      <ul class="plans" id="w-plan-list"></ul>
+      <div class="plans-end"><a class="ghost" href="/plans">Compare every plan</a><span id="w-plan-fine"></span></div>
+    </div>
+  </section>
+
+  <section class="last" aria-labelledby="w-last">
+    <img src="/img/wispr.svg" alt="" width="88" height="88">
+    <h2 id="w-last">Bring her along.</h2>
+    <p>She's free to start, and the add-on she plays with is free forever.</p>
+    <a class="cta" href="/download/willo?src=willo-home-end">Download for Windows</a>
+  </section>
+</main>
+
+<footer>
+  <div class="wrap foot">
+    <div class="sign">
+      <a class="brand" href="/"><img src="/img/wispr.svg" alt="" width="30" height="30">Willo</a>
+      <p>A companion for the games you love. Now in World of Warcraft, with the free <a href="/downloads">Lore Forever</a> add-on.</p>
+    </div>
+    <nav aria-label="Willo"><h2>Willo</h2><ul><li><a href="/willo">Meet Willo</a></li><li><a href="/plans">Plans</a></li><li><a href="/download/willo?src=willo-foot">Download for Windows</a></li><li><a href="/willo/style">Her ways</a></li></ul></nav>
+    <nav aria-label="Your account"><h2>You</h2><ul><li><a href="/account">Your account</a></li><li><a href="/willo/keeps">What Willo keeps</a></li><li><a href="/creators">Creator program</a></li></ul></nav>
+    <nav aria-label="About"><h2>About</h2><ul><li><a href="/faq">Help</a></li><li><a href="/feedback">Send feedback</a></li><li><a href="/privacy">Privacy</a></li><li><a href="/terms">Terms</a></li><li><a href="/refunds">Refunds</a></li></ul></nav>
+    <nav aria-label="Lore Forever"><h2>Lore Forever</h2><ul><li><a href="/downloads">Get the free add-on</a></li><li><a href="/lore">Read the lore</a></li></ul></nav>
+  </div>
+</footer>
+
+<script>
+// The clip plays by itself on a wide screen with data to spare; on a phone or with Save-Data on it waits for a tap.
+(() => {
+  const v = document.getElementById("w-clip"), play = document.getElementById("w-play");
+  const start = () => { play.hidden = true; if (!v.src) v.src = v.dataset.src; v.play().catch(() => {}); };
+  const roomy = matchMedia("(min-width: 961px)").matches && !(navigator.connection && navigator.connection.saveData);
+  if (roomy && !matchMedia("(prefers-reduced-motion: reduce)").matches) start();
+  else { play.hidden = false; play.addEventListener("click", start, { once: true }); }
+})();
+// The games she's in (games.json) and her plans with today's prices (/api/billing/plans). Text only, never HTML.
+(async () => {
+  const el = (tag, text, cls) => Object.assign(document.createElement(tag), { textContent: text, className: cls || "" });
+  const games = await fetch("/willo-site/games.json").then(r => r.ok ? r.json() : null).catch(() => null);
+  if (games?.games?.length) {
+    const live = games.games.find(g => g.status === "live");
+    if (live) {
+      document.getElementById("w-game").replaceChildren(el("span", "", "dot"), "Now in ", el("b", live.name),
+        live.edition ? " · " + live.edition : "");
+    }
+    if (games.games.length > 1) {    // one world is the line above; a list once there are more
+      document.getElementById("w-game-list").replaceChildren(...games.games.map(g => {
+        const li = el("li");
+        li.append(el("span", g.name, "name"), el("p", [g.edition, g.status === "live" ? "Live now" : "Soon"].filter(Boolean).join(" · "), "note"));
+        return li;
+      }));
+      document.getElementById("games").hidden = false;
+    }
+  }
+  const res = await fetch("/api/billing/plans").then(r => r.ok ? r.json() : null).catch(() => null);
+  if (!res?.ok || !res.on || !(res.plans || []).length) return;
+  const usd = cents => "$" + (cents / 100).toFixed(2);
+  // A plan's one line: the first thing it lists, up to its first clause.
+  const gist = p => String((p.features || [])[0] || "").split(/:|\.\s|, and /)[0];
+  document.getElementById("w-plan-list").replaceChildren(...res.plans.map(p => {
+    const li = el("li");
+    if (p.promo?.label) li.append(el("span", p.promo.label, "tag"));
+    li.append(el("span", p.name, "name"));
+    const price = el("p", "", "price");
+    const now = p.promo ? p.promo.price : p.monthly;
+    price.append(now > 0 ? usd(now) : "Free");
+    if (now > 0) price.append(el("small", "a month"));
+    if (p.promo && p.monthly > now) price.append(el("s", usd(p.monthly)));
+    li.append(price);
+    if (p.promo?.note) li.append(el("p", p.promo.note, "note"));
+    li.append(el("p", gist(p) + (p.answersPerDay ? `. ${p.answersPerDay} answers a day.` : "."), "what"));
+    return li;
+  }));
+  document.getElementById("w-plan-fine").textContent = "Monthly, cancel any time.";
+  document.getElementById("plans").hidden = false;
+})();
+</script>
+<script>
+// Signed in or not, like the header on her other pages (header.js, which this page's own header doesn't use): the last
+// answer it remembered (lf-auth) right away, then GET /api/auth/me's. Signed in, Sign in becomes the account's name.
+(() => {
+  const link = document.querySelector(".signin");
+  const show = s => {
+    const on = !!(s && s.in);
+    link.textContent = on ? String(s.name || "Your account") : "Sign in";
+    link.setAttribute("aria-label", on ? "Your account" : "Sign in");
+  };
+  try {
+    const s = JSON.parse(localStorage.getItem("lf-auth"));
+    if (s && s.in && !(s.until && !(Date.parse(s.until) > Date.now()))) show(s);
+  } catch (e) { /* nothing remembered */ }
+  fetch("/api/auth/me", { cache: "no-store" }).then(r => r.json()).then(me => {
+    if (!me || !me.ok) return;
+    const u = me.user;
+    const s = u ? { in: true, name: u.display_name || (u.email || "").split("@")[0] || "Your account", until: u.session_expires }
+      : { in: false, signIn: Boolean(me.signIn && me.signIn.google) };
+    try { localStorage.setItem("lf-auth", JSON.stringify(s)); } catch (e) { /* private mode */ }
+    show(s);
+  }).catch(() => {});
+})();
+</script>
+<script src="/js/willo-count.js?v=20261023a" defer></script>
+<script src="/header.js" defer></script>
+</body>
+</html>

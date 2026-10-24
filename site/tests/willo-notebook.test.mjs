@@ -1395,3 +1395,29 @@ test("\"remember to … in five minutes / when I reach / at\" sets a reminder li
   await ask(token, "Remember to buy linen.", nb);
   assert.equal(reminders(user).length, 0);
 });
+
+test("reminders: a said one snoozed waits again an hour on, and a said one can be removed (Mike, 10/22)", async () => {
+  // "I don't see a way to remove reminders after you set them": every one of his had been said, and a said reminder
+  // stayed listed a week with nothing to take it off. Her bubble's Snooze brings one back; Remove takes any off.
+  const { token } = await linked();
+  reply = () => called("notebook_remind", { answer: "Ok", text: "sell the cloth", when: "place", place: "Ironforge" });
+  await ask(token, "remind me to sell the cloth when I reach Ironforge");
+  const { id } = (await api(token, "reminders")).body.reminders[0];
+  await api(token, "fire", { id });
+  const before = Date.now();
+  const back = (await api(token, "snooze", { id })).body.reminders.find(r => r.id === id);
+  assert.ok(back && !back.fired && back.kind === "time", JSON.stringify(back));
+  const at = Date.parse(back.at);
+  assert.ok(at - before >= 59 * 60e3 && at - before <= 61 * 60e3, back.at);
+  await api(token, "fire", { id });
+  assert.deepEqual((await api(token, "cancel", { id })).body.reminders, [], "said, and removed");
+  assert.equal((await api(token, "snooze", { id })).status, 404, "gone: nothing to snooze");
+});
+
+test("a reminder keeps the thing to do, never how it was asked: \"Remind me Willow to…\" (Mike, 10/22)", async () => {
+  // Spoken, "Remind me, Willow, to go to Stormwind in ten minutes" was saved as "R Willow, to go to Stormwind".
+  const { user, token } = await linked();
+  reply = () => called("notebook_remind", { answer: "Ok", text: "R Willow, to go to Stormwind", when: "time", minutes: 10 });
+  await ask(token, "Remind me Willow to go to Stormwind in ten minutes");
+  assert.deepEqual(reminders(user).map(r => r.text), ["go to Stormwind"]);
+});

@@ -14,12 +14,11 @@ import { onRequest as billing } from "../functions/api/billing/[action].js";
 import { onRequest as answer } from "../functions/api/companion/answer.js";
 import { findOrCreateUser, startSession, setup, deleteUser } from "../lib/accounts.js";
 import { startLink, decideLink, claimToken } from "../lib/devices.js";
-import { setupBilling, planFor, companionFeatures, INTEGRATION_ID, PLANS, TASTE_ANSWERS, STARTER, STARTER_ANSWERS,
-         BRAKE_ANSWERS } from "../lib/billing.js";
+import { setupBilling, planFor, companionFeatures, INTEGRATION_ID, PLANS, TASTE_ANSWERS, BRAKE_ANSWERS } from "../lib/billing.js";
 import { allowance, ANSWER_MODEL, LITE_MODEL, RESEARCH_MODEL, SMART_MODEL } from "../lib/companion-answers.js";
 import { optOut } from "../lib/email.js";
 import { machineOf } from "../lib/referrals.js";
-import { alertsFor } from "../lib/free-pool.js";
+import { alertsFor, poolNow } from "../lib/free-pool.js";
 import { setupWilloCustom } from "../lib/willo-custom.js";
 import { TRIAL, trialView } from "../lib/best-first.js";
 
@@ -597,15 +596,15 @@ const packSession = (id, user, paymentStatus = "paid") => (checkoutSessions[id] 
 const stripeEvent = (id, type, object) => ({ id, type, data: { object } });
 const packs = user => env.DB.sqlite.prepare("SELECT id, answers, remaining, spent_micro, status FROM answer_packs " +
   "WHERE user_id = ? AND kind = 'voice' ORDER BY created, id").all(user.id).map(p => ({ ...p }));
-const starterLeft = user => env.DB.sqlite.prepare("SELECT remaining FROM answer_packs WHERE user_id = ? AND kind = 'starter'")
-  .all(user.id).map(p => p.remaining);
+const packLeft = (user, kind) => env.DB.sqlite.prepare("SELECT remaining FROM answer_packs WHERE user_id = ? AND kind = ?")
+  .all(user.id, kind).map(p => p.remaining);
 const usedToday = (user, bucket, n) => env.DB.prepare("INSERT OR REPLACE INTO rate_limits (user_id, bucket, n) VALUES (?, ?, ?)")
   .bind(user.id, `${bucket}:2026-10-11`, n).run();
 
 // A player on `plan` (none: the free plan) with a connected companion, and their questions: fields go into the body
-// with the prompt. starter: the free starter's answers left, already credited; without it, the account gets its
-// starter the first time it's looked at, as a new player does.
-async function companionPlayer(sub, { plan, starter } = {}) {
+// with the prompt. starter: a free starter credited before 10/21, with these answers left (none are used since 10/22);
+// share: answers friends gave (Share Willo) left.
+async function companionPlayer(sub, { plan, starter, share } = {}) {
   const user = await player(sub);
   const link = await startLink(env);
   assert.equal(await decideLink(env, link.user_code, user, true), true);
@@ -614,6 +613,10 @@ async function companionPlayer(sub, { plan, starter } = {}) {
   if (starter !== undefined) {
     await env.DB.prepare("INSERT INTO answer_packs (id, user_id, kind, answers, remaining, created) VALUES (?, ?, 'starter', 30, ?, ?)")
       .bind(`starter:${user.id}`, user.id, starter, new Date(NOW - 30 * 86400e3).toISOString()).run();
+  }
+  if (share !== undefined) {
+    await env.DB.prepare("INSERT INTO answer_packs (id, user_id, kind, answers, remaining, created) VALUES (?, ?, 'share', ?, ?, ?)")
+      .bind(`share:${user.id}`, user.id, share, share, new Date(NOW - 86400e3).toISOString()).run();
   }
   const ask = async (fields = {}, headers = {}) => {
     const res = await answer({ env, request: new Request(ORIGIN + "/api/companion/answer", { method: "POST",
@@ -624,8 +627,8 @@ async function companionPlayer(sub, { plan, starter } = {}) {
   };
   return { user, ask };
 }
-// A free player whose starter is used up.
-const freePlayer = sub => companionPlayer(sub, { starter: 0 });
+// A free player.
+const freePlayer = sub => companionPlayer(sub);
 
 test("a paid finest-voice pack is credited once, whatever events arrive; a refund or a dispute takes it back", async () => {
   const user = await player("buyer");
@@ -673,13 +676,13 @@ test("a paid finest-voice pack is credited once, whatever events arrive; a refun
   assert.equal(env.DB.sqlite.prepare("SELECT COUNT(*) AS n FROM answer_packs").get().n, 0, "Delete my account removes them");
 });
 
-test("a failed answer gives its starter answer back", async () => {
-  const { user, ask } = await companionPlayer("budget", { starter: 30 });
-  await usedToday(user, "companion-answer", 30);
+test("a failed answer gives its answer from friends back", async () => {
+  const { user, ask } = await companionPlayer("budget", { share: 10 });
+  await usedToday(user, "companion-answer", PLANS.free.answersPerDay);
   const working = globalThis.fetch;
   globalThis.fetch = async () => Response.json({ error: { message: "overloaded" } }, { status: 503 });
   try { assert.equal((await ask()).status, 502); } finally { globalThis.fetch = working; }
-  assert.deepEqual(starterLeft(user), [30], "the player gets answers, not attempts");
+  assert.deepEqual(packLeft(user, "share"), [10], "the player gets answers, not attempts");
 });
 
 // D1 failing for one statement: `sql` (a pattern) with any bound value starting `arg`, from the moment it's asked.
@@ -721,18 +724,17 @@ test("a failed answer gives back the day and the month it was counted on, howeve
   assert.equal(gemini.length, 1, "the hold failed before anything was asked of the model");
 
   // The shared budget refusing a free player's answer (the "at capacity" 429): the day's count goes back.
-  const free = await companionPlayer("crowded", { starter: 30 });
-  [env.STORY_BUDGET_USD, env.TASTE_DAY_USD] = ["0", "0"];   // no best first either: its own cap, not the pool's
-  try { assert.equal((await free.ask()).status, 429); } finally { delete env.STORY_BUDGET_USD; delete env.TASTE_DAY_USD; }
+  const free = await companionPlayer("crowded");
+  env.STORY_BUDGET_USD = "0";   // best first too: it's inside the pool
+  try { assert.equal((await free.ask()).status, 429); } finally { delete env.STORY_BUDGET_USD; }
   assert.equal(env.DB.sqlite.prepare("SELECT n FROM rate_limits WHERE user_id = ? AND bucket = 'companion-answer:2026-10-11'")
     .get(free.user.id)?.n ?? 0, 0);
-  assert.deepEqual(starterLeft(free.user), [30]);
 });
 
 test("the free pool a day at a time: its slice and a capped carry, the soft step, the stop, and the next day", async (t) => {
   // $150 in $5 slices (lib/free-pool.js). October 11th: ten days' slices before it, $50; $30 spent by its start leaves
   // a $20 carry, capped at two slices: today's allowance is $5 + $10, so the soft step starts at $45 and the stop at $50.
-  env.TASTE_DAY_USD = "0";   // no best first: its own cap, not the pool's
+  env.TASTE_DAY_USD = "0";   // no best first, so only the stories below move the pool
   t.after(() => { delete env.TASTE_DAY_USD; });
   const { user, ask } = await freePlayer("rush");
   const spend = usd => env.DB.sqlite.exec(`INSERT OR REPLACE INTO story_spend (month, micro_usd) VALUES ('2026-10', ${usd * 1e6})`);
@@ -767,10 +769,23 @@ test("one computer gets three free accounts' day: more accounts on it add no ans
     .bind(`machine:${machine}`).run();
   const out = await ask({}, { "X-LF-Machine": sent });
   assert.equal(out.status, 429);
-  assert.match(out.body.error, /^My light's spent for today\./);
+  assert.match(out.body.error, /^My light's spent for now\./);
   assert.equal(env.DB.sqlite.prepare("SELECT n FROM rate_limits WHERE user_id = ? AND bucket = 'companion-answer:2026-10-11'")
     .get(user.id)?.n ?? 0, 0, "the account's own day isn't used by it");
   assert.equal((await ask({}, { "X-LF-Machine": "cd".repeat(32) })).status, 200, "another computer has its own");
+});
+
+test("out of answers just before 5 pm in California: back within the hour, never \"tomorrow\" (LOR-773)", async (t) => {
+  // The day turns at midnight UTC (LOR-742), 5 pm Pacific: "tomorrow" said at 4:59 pm was wrong for a minute's wait.
+  const { user, ask } = await freePlayer("evening");
+  t.mock.timers.setTime(Date.parse("2026-10-11T23:59:00Z"));          // 4:59 pm PDT
+  await usedToday(user, "companion-answer", 30);
+  const out = await ask();
+  assert.equal(out.status, 429);
+  assert.match(out.body.error, /refills it in under an hour\.$/);
+  assert.doesNotMatch(out.body.error, /tomorrow/i);
+  t.mock.timers.setTime(Date.parse("2026-10-12T00:01:00Z"));          // 5:01 pm PDT: a new day's answers
+  assert.equal((await ask()).status, 200);
 });
 
 test("out of answers: Willo's words for when they come back, Hero the free plan's one offer, nothing for Legend", async () => {
@@ -778,7 +793,8 @@ test("out of answers: Willo's words for when they come back, Hero the free plan'
   await usedToday(user, "companion-answer", 30);
   const out = await ask();
   assert.equal(out.status, 429);
-  assert.equal(out.body.error, "My light's spent for today. The Moonwell refills it tomorrow.",
+  // NOW is 12:00 UTC: the day turns at midnight UTC (LOR-742), twelve hours on.
+  assert.equal(out.body.error, "My light's spent for now. The Moonwell refills it in about 12 hours.",
     "only when they come back: the companion starts its lore-library answer with these words");
   assert.deepEqual(out.body.offers, [{ id: "hero", text: "Get Hero: 1,500 answers a month", url: "/plans" }]);
 
@@ -789,7 +805,7 @@ test("out of answers: Willo's words for when they come back, Hero the free plan'
     const off = await ask();
     assert.equal(off.status, 429);
     assert.equal(off.body.offers, undefined);
-    assert.equal(off.body.error, "You've used today's 20 free answers. They come back tomorrow.", "as before plans");
+    assert.equal(off.body.error, "You've used your 20 free answers. They come back in about 12 hours.", "as before plans");
   } finally { env.SITE_FEATURES = "plans"; }
 
   // Legend at its day's most: nothing above it to offer, and no way to the plans page for more light.
@@ -803,38 +819,18 @@ test("out of answers: Willo's words for when they come back, Hero the free plan'
 
 // ---- The launch plans (Mike, 2026-10-12) ----
 
-test("free with plans on: the day's answers, then the starter, once per Google account, then a 429 with offers", async (t) => {
-  // A starter credited before 10/21 (none are now: STARTER.credited) works as before.
-  STARTER.credited = true;
-  t.after(() => { STARTER.credited = false; });
-  const D = PLANS.free.answersPerDay, S = STARTER_ANSWERS;
-  const { user, ask } = await companionPlayer("newcomer");
+test("the old free starter is over (Mike, 10/22): one credited before adds nothing past the day's answers", async () => {
+  const D = PLANS.free.answersPerDay;
+  const { user, ask } = await companionPlayer("old-starter", { starter: 30 });
   const first = await allowance(env, user.id);
-  assert.deepEqual([first.limit, first.remaining, first.extra], [D, D + S, S], "the day's and the starter");
-  for (let i = 0; i < D; i++) assert.equal((await ask()).status, 200, `answer ${i + 1}`);
-  const dayGone = await allowance(env, user.id);
-  assert.deepEqual([dayGone.limit, dayGone.remaining, dayGone.extra], [D, S, S], "today's are gone: the starter's left");
-  for (let i = D; i < D + S; i++) assert.equal((await ask()).status, 200, `answer ${i + 1}`);
-  assert.deepEqual(starterLeft(user), [0]);
-  assert.equal(env.DB.sqlite.prepare("SELECT COUNT(*) AS n FROM answer_user_spend").get().n, 0,
-    "starter answers are free: none of their cost is the player's");
+  assert.deepEqual([first.limit, first.remaining, first.extra], [D, D, 0], "the day's, and no extra");
+  await usedToday(user, "companion-answer", D);
   const out = await ask();
   assert.equal(out.status, 429);
-  assert.match(out.body.error, /^My light's spent for today\./);
-  assert.deepEqual(out.body.offers.map(o => o.id), ["hero"]);
-  assert.equal(gemini.length, D + S);
-  // Connecting the companion again doesn't bring another starter.
-  env.DB.sqlite.prepare("DELETE FROM devices WHERE user_id = ?").run(user.id);
-  env.DB.sqlite.prepare("INSERT INTO devices (id, token_hash, user_id, label, created) VALUES ('again', 'again', ?, 'companion', ?)")
-    .run(user.id, new Date(NOW).toISOString());
-  assert.equal((await allowance(env, user.id)).remaining, 0);
-  assert.deepEqual(starterLeft(user), [0]);
-  // Nor does deleting the account and signing in again with the same Google account.
-  await deleteUser(env, user);
-  const again = await companionPlayer("newcomer");
-  assert.notEqual(again.user.id, user.id);
-  const fresh = await allowance(env, again.user.id);
-  assert.deepEqual([fresh.remaining, fresh.extra], [D, 0], "today's, and no starter");
+  assert.match(out.body.error, /^My light's spent for now\./);
+  assert.deepEqual([out.body.allowance.remaining, out.body.allowance.extra], [0, 0]);
+  assert.deepEqual(packLeft(user, "starter"), [30], "its row stays, unused");
+  assert.equal(gemini.length, 0);
 });
 
 test("no new free starter since 10/21 (option D): past the day's answers, a 429 with offers", async () => {
@@ -845,24 +841,8 @@ test("no new free starter since 10/21 (option D): past the day's answers, a 429 
   for (let i = 0; i < D; i++) assert.equal((await ask()).status, 200, `answer ${i + 1}`);
   const out = await ask();
   assert.equal(out.status, 429);
-  assert.match(out.body.error, /^My light's spent for today\./);
+  assert.match(out.body.error, /^My light's spent for now\./);
   assert.equal(env.DB.sqlite.prepare("SELECT COUNT(*) AS n FROM answer_packs WHERE kind = 'starter'").get().n, 0);
-});
-
-test("starter answers wait for the shared budget like free ones, and one that can't be answered goes back", async (t) => {
-  // A starter credited before 10/21 (none are now: STARTER.credited) works as before.
-  STARTER.credited = true;
-  t.after(() => { STARTER.credited = false; });
-  const { user, ask } = await companionPlayer("thrifty");
-  await usedToday(user, "companion-answer", PLANS.free.answersPerDay);
-  [env.STORY_BUDGET_USD, env.TASTE_DAY_USD] = ["0", "0"];   // no best first either: its own cap, not the pool's
-  try {
-    const full = await ask();
-    assert.equal(full.status, 429);
-    assert.match(full.body.error, /light.s spent for now/);
-  } finally { delete env.STORY_BUDGET_USD; delete env.TASTE_DAY_USD; }
-  assert.deepEqual(starterLeft(user), [STARTER_ANSWERS]);
-  assert.equal(gemini.length, 0);
 });
 
 // A stand-in JPEG: the site checks only its FF D8 FF start.
@@ -885,6 +865,30 @@ test("after their first-run trial, free answers stay with the lore: no looking o
     assert.match(system, /LORE FOCUS/);
     assert.match(system, /out loud/i, "Willo still speaks");
   }
+});
+
+test("Willo's best first is inside the free pool: its spend counts, and on the pool's soft step it rests", async (t) => {
+  // Mike, 10/22: the taste's spend counts against STORY_BUDGET_USD, a day at a time (FREE_DAILY_SLICE_USD), with its own
+  // daily cap (TASTE_DAY_USD) on top.
+  [env.STORY_BUDGET_USD, env.FREE_DAILY_SLICE_USD, env.TASTE_DAY_USD] = ["150", "5", "5"];
+  t.after(() => { delete env.STORY_BUDGET_USD; delete env.FREE_DAILY_SLICE_USD; delete env.TASTE_DAY_USD; });
+  const { user, ask } = await companionPlayer("taster");
+  const used = () => env.DB.sqlite.prepare("SELECT used FROM best_first WHERE user_id = ?").get(user.id)?.used ?? 0;
+  assert.equal((await ask({ persona: "willo", style: "spoken", research_required: true })).status, 200);
+  assert.equal(used(), 1, "a taste answer");
+  const spent = env.DB.sqlite.prepare("SELECT reserved_micro FROM answer_spend").get().reserved_micro;
+  const taste = env.DB.sqlite.prepare("SELECT spent_micro FROM best_first_days").get().spent_micro;
+  assert.ok(taste > 0, "the taste's day has what it cost");
+  const state = await poolNow(env);
+  assert.equal(state.used, spent, "nobody here pays, so the pool has all of it, the taste's too");
+  // The pool's day allowance used (stories, here): the taste rests until there's room, and the answer is the plan's own.
+  env.DB.sqlite.exec(`INSERT OR REPLACE INTO story_spend (month, micro_usd) VALUES ('2026-10', ${state.soft - state.used})`);
+  assert.deepEqual((await allowance(env, user.id)).taste, { of: TASTE_ANSWERS, left: TASTE_ANSWERS - 1, on: false, why: "resting" });
+  assert.equal((await ask({ persona: "willo", style: "spoken" })).status, 200);
+  assert.equal(used(), 1, "not taken on the soft step, kept for later");
+  // The next UTC day's slice: room again.
+  t.mock.timers.tick(86400e3);
+  assert.equal((await allowance(env, user.id)).taste.on, true);
 });
 
 test("a new free player's first answers are at Willo's best, counted only when answered; the day's cap turns them away", async () => {

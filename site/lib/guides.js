@@ -8,6 +8,7 @@
 
 import { page, escape, FRESH } from "./voices.js";
 import bundledFiles from "./guide-files.js";
+import { guideCard } from "./social.js";
 
 export const HOME = "https://loreforeverwow.com";
 // The call to action under every article. The add-on today; point it at Willo here when that's the better first step.
@@ -287,6 +288,19 @@ const socialImage = body => {
   return url.startsWith("/") ? HOME + url : url || undefined;
 };
 
+// What a shared guide shows: the first picture its writer put in it, else its card (scripts/social-cards.py), else
+// Lore Forever's card. The writer's own picture always wins: never let a generated card replace it.
+function guideImage(slug, title, body) {
+  const own = socialImage(body);
+  if (own) return { image: own };
+  const card = guideCard(slug, title);
+  return card ? { image: card.src, imageAlt: card.alt } : {};
+}
+const articleImage = (slug, title, body) => {
+  const { image } = guideImage(slug, title, body);
+  return image && (image.startsWith("/") ? HOME + image : image);
+};
+
 // /guides/<slug>: one article, with Article (and, when it has a FAQ, FAQPage) structured data.
 export function articlePage({ slug, meta, body }, index = []) {
   const { bodyHtml, data } = articleParts({ slug, meta, body }, index);
@@ -294,7 +308,7 @@ export function articlePage({ slug, meta, body }, index = []) {
   return page({
     title: meta.title, description: meta.description || meta.title, path, body: `${bodyHtml}\n  ${data.join("\n  ")}`,
     crumbs: `<a href="/guides">Guides</a> &rsaquo; ${escape(meta.title)}`, foot, scripts: "",
-    robots: meta.draft ? "noindex" : undefined, head: HEAD, image: socialImage(body),
+    robots: meta.draft ? "noindex" : undefined, head: HEAD, ...guideImage(slug, meta.title, body),
   });
 }
 
@@ -314,8 +328,10 @@ function articleParts({ slug, meta, body }, index) {
     "@context": "https://schema.org", "@type": "Article", headline: meta.title, description: meta.description,
     datePublished: meta.date, ...(meta.updated ? { dateModified: meta.updated } : {}),
     author: { "@type": meta.author ? "Person" : "Organization", name: meta.author || "Lore Forever" },
-    publisher: { "@type": "Organization", name: "Lore Forever", url: HOME },
+    publisher: { "@type": "Organization", name: "Lore Forever", url: HOME,
+      logo: { "@type": "ImageObject", url: `${HOME}/img/logo.png` } },
     mainEntityOfPage: HOME + path,
+    ...(articleImage(slug, meta.title, body) ? { image: articleImage(slug, meta.title, body) } : {}),
   })];
   if (faq.length) {
     data.push(jsonLd({

@@ -63,27 +63,12 @@ const COMPACTION_OUTPUT_TOKENS = 1024;
 export const SPOKEN_OUTPUT_TOKENS = 300;
 // Speak short, show full (LOR-673, the PM's design, 10/18): a spoken answer an app asks for in two layers (layers: 2)
 // is written as her spoken words, at most SAY_MAX_CHARS letters ending on a sentence, then LAYER_MARK on a line of its
-// own, then the written answer with every detail, for her window and the chat over the game. The spoken words are
-// written first, so they come back as fast as a spoken answer alone did (writeAnswer's onSay, from a streamed call).
+// own, then the rest of her answer with every detail; the written answer is the two together (splitLayers), and she
+// says all of it (LOR-771). The spoken words are written first, so they come back as fast as a spoken answer alone
+// did (writeAnswer's onSay, from a streamed call).
 // Room for both: a typed answer's.
 export const SAY_MAX_CHARS = 420;
 export const LAYER_MARK = "~~~";
-// Her line when the written answer says more than her spoken words (restLine): one of REST_LINES, the same for the same
-// words. The site decides it from the finished answer, since the model writes her words before it knows what the
-// written answer will add (asked to, it wrote the line in 14 of 49 such answers, 10/18), and varies it (the blind
-// check: 58 of 65 lines the model wrote were the same one).
-export const REST_LINE = "I've written the rest out for you.";
-export const REST_LINES = [REST_LINE, "The rest is written down for you.", "I've jotted the rest down for you.",
-  "The details are written out for you.", "I've written the details down for you."];
-const hashOf = text => { let h = 0; for (const c of text) h = (h * 31 + c.charCodeAt(0)) >>> 0; return h; };
-// Her line about the rest for these spoken words and this written answer, or "" when it says nothing more: when it has
-// more than her words leave to say (REST_MORE letters) and her words don't end with such a line already.
-const REST_MORE = 80;
-export function restLine(say, text) {
-  const said = String(say || ""), written = String(text || "").replace(/\s+/g, " ").trim();
-  if (!said || REST_AT.test(said) || REST_LINES.some(l => said.endsWith(l))) return "";
-  return written.length > said.length + REST_MORE ? REST_LINES[hashOf(said) % REST_LINES.length] : "";
-}
 // Room for the thinking a disputed answer does (generate), on top of its usual output.
 export const DISPUTE_THINKING_TOKENS = 2048;
 // A quick look online (lookUp): how long it may take before the answer is written without it (measured 10/12: median
@@ -185,20 +170,32 @@ export const LORE_FOCUS = "LORE FOCUS: answer from the world's lore and story an
 // reads as a riddle.
 export const TRAIL_COLD = "NO FRESH SEARCH: answer from the world's lore, the supplied context and any earlier research. If the question truly needs fresh outside information you don't have here, say so in one warm line (about the world, in its spirit: \"the trail goes cold here\"; about the player's own world, plainly: you can't check today's weather, news, prices or newest models right now, so never make them up), then share what you do know, for real-world things lasting advice, never an older product as the newest. Never mention limits, allowances, searches or the web.";
 // A spoken question may come with a picture of the game window (imageOf); appended after the spoken text.
+// The picture's top-right corner, cut from the full-size frame and enlarged (LOR-802): the place name by the minimap is
+// too small to read at 1024 px. Flash-Lite on 206 of Mike's stream frames with Live game info off: right zone 82 -> 98%,
+// wrong 16 -> 2.4%, +0.08 s to her first word, +$0.15 per 1,000 answers.
+const CLOSEUP_NOTE = "The second picture is a close-up of the first one's top-right corner: the minimap and the place name by it, enlarged so it can be read.";
+// Or, for a question about their target, the target frame where the add-on saved it (closeup_of "target"): the lab, 36
+// of Mike's stream frames with a target, the right name 25 -> 35.
+const TARGET_NOTE = "The second picture is a close-up of the first one's target frame: the portrait, name, level and health of whoever they target, enlarged so it can be read.";
 const PICTURE_SYSTEM = "A picture of the player's game window, taken the moment they asked, comes with this question. Use it when the question is about what they see, such as the character they are making or a creature nearby. Talk about the world and characters in it; never read out other players' names, chat, or interface numbers, and never name a buff or spell from its icon alone.";
 
 // Resolve intent in the existing answer call, after sources and style/tool rules. A relevant retrieved record
-// cannot supply words the player never said. Keep specific mishearings in evals, not in production routing.
-const CLARIFICATION_RULE = `UNDERSTAND BEFORE ANSWERING: Only the player's words, the recent conversation, or their current context or picture tell you what an unnamed "it", "this" or "the other one" means; SOURCES and FACTS never do.
+// cannot supply words the player never said. Keep specific mishearings in evals, not in production routing. Where they
+// are or what they see comes from their context and picture before any question back, and chatter that asks nothing
+// gets a short reaction (LOR-799, the live check 10/23: "Can you tell where I am now?" with a picture got "which
+// district of Orgrimmar are you in?", and "Let's go vote. Hurry up." got "I am not sure what you mean by voting").
+const CLARIFICATION_RULE = `UNDERSTAND BEFORE ANSWERING: Only the player's words, the recent conversation, or their current context or picture tell you what an unnamed "it", "this" or "the other one" means, and where they are or what they see; SOURCES and FACTS never do.
 If that leaves the subject unclear, or an essential word seems misheard, reply with only ONE short question about it ("Did you mean a wand?"); with tools, use answer_only, and with two parts, put the same question in both.
-When the question is clear, even with fillers or informal words, answer it at your usual length and depth. Not knowing the answer is not an unclear question.`;
-export const CLARIFY_NOTE = "(Before answering: if a word you need doesn't fit what they'd ask, like a likely mishearing, or nothing they said names the \"it\", \"thing\" or \"stuff\" they mean, reply with only one short question about it. Otherwise answer as fully as usual.)";
+A clear question, even with fillers or informal words, gets your usual length and depth; not knowing the answer is not an unclear question. Chatter that asks nothing ("Yeah.", "Let's go!") gets a short reaction in character, never a question back.`;
+export const CLARIFY_NOTE = "(Before answering: if a word you need seems misheard, or nothing they said, their context or the picture names the \"it\", \"thing\" or \"stuff\" they mean, ask one short question about it. If they ask nothing, just react. Otherwise answer as fully as usual.)";
 
 // Who the companion is. A request may ask for persona "willo" (LOR-438, LOR-428: the companion's blue wisp, named in
 // lib/brand.js); anything else, or nothing (companions from before the rename), gets Sam with the prompts as before.
 // Two layers (SAY_MAX_CHARS): the spoken rules above for her spoken words, then the written answer. Made from
 // spokenDepth's own words, so the spoken rules stay one text; the check below fails the load if they stop matching.
-const layersRules = name => `The spoken words are at most ${SAY_MAX_CHARS} letters, end on a whole sentence and answer by themselves, with the name, place, number or pick they asked for. Then a line with only ${LAYER_MARK}. Then ${name}'s written answer for her window, under 140 words: the spoken answer with the steps, places, people and numbers that PLAYER CONTEXT, SOURCES, the FACTS blocks, EARLIER RESEARCH or search results give for it, and nothing they don't; a detail none of them gives is left out, or said as something you're not sure of. It never contradicts the spoken words. It may use digits and a short list of steps, with no headings or links. With nothing more to add, it repeats the spoken words.`;
+// After the mark, only what follows her spoken words (LOR-771): her window shows her words and then that, and she reads
+// it once from the top. A retelling of her words there had her say other lines before the bubble's, then its own.
+const layersRules = name => `The spoken words are at most ${SAY_MAX_CHARS} letters, end on a whole sentence and answer by themselves, with the name, place, number or pick they asked for. Then a line with only ${LAYER_MARK}. Then the rest of ${name}'s written answer for her window, which follows straight on from her spoken words and is read aloud after them: only the steps, places, people and numbers for it that PLAYER CONTEXT, SOURCES, the FACTS blocks, EARLIER RESEARCH or search results give and the spoken words left out. A detail none of them gives is left out, never guessed. Never say again what the spoken words said, in any words, never contradict them, and never pad: no sentence that explains, sums up, advises or describes without adding one of those facts. Spoken words and rest together are under 140 words. The rest may use digits and a short list of steps, with no headings or links. With nothing more to add, nothing after the line.`;
 function spokenLayers(speaker, name, manner) {
   const spoken = spokenDepth(speaker, `${name}'s words`, manner);
   const from = ` Reply with only ${name}'s words, as natural speech,`;
@@ -246,9 +243,12 @@ export const styleOf = value => value === "spoken" ? "spoken" : null;
 import { ANSWER_IMAGE_CHARS, imageOf } from "./answer-image.js";
 export { ANSWER_IMAGE_CHARS, imageOf };
 // Whether her answer goes with the picture (writeAnswer), and so on SIGHT_MODEL: a spoken, unresearched answer with a
-// good one. The answer's reservation (reserveAnswer) asks the same, so what it holds is what writeAnswer settles.
-export const seesPicture = (operation, researchRequired, style, image) =>
-  operation === "answer" && !researchRequired && Boolean(styleOf(style)) && Boolean(imageOf(image));
+// good one, or a typed one the app looked at the screen for (look "screen": her screen look-up, LOR-802, chosen by the
+// app's code for a question that needs it, never by the model). The answer's reservation (reserveAnswer) asks the
+// same, so what it holds is what writeAnswer settles.
+export const lookOf = value => value === "screen" ? "screen" : null;
+export const seesPicture = (operation, researchRequired, style, image, look = null) =>
+  operation === "answer" && !researchRequired && Boolean(styleOf(style) || lookOf(look)) && Boolean(imageOf(image));
 
 // The player is disputing the last answer or losing patience (lib/answer-feedback.js feedbackKind), said once more
 // right before they're answered: Flash-Lite otherwise defends what it said (LOR-446). A correction (Mike, 10/22: "If the
@@ -297,7 +297,7 @@ function systemPrompt(operation, grounded, persona, style, { picture = false, fa
   // research answer without search evidence. A question about Willo herself that a companion researched keeps her help.
   if (grounded) return lead + prompts.required + helped + awayRule + (DISPUTE_SYSTEM[dispute] ? `\n\n${DISPUTE_SYSTEM[dispute]}` : "") + clarify + own;
   const base = lead + (character ? prompts.character : prompts.context) + extra + clarify + own;
-  if (!styleOf(style)) return base + acts;
+  if (!styleOf(style)) return base + (picture && !character ? `\n\n${PICTURE_SYSTEM}` : "") + acts;
   const spoken = `${base}\n\n${character ? prompts.spokenCharacter : layered ? prompts.spokenLayers : prompts.spokenAnswer}`;
   return (picture && !character ? `${spoken}\n\n${PICTURE_SYSTEM}` : spoken) + acts;
 }
@@ -421,23 +421,23 @@ export async function uncapped(env, userId) {
 // limit and resetsAt that one's. A paying player whose answers and hosted voice this calendar month have cost their
 // plan's whole net (lib/billing.js totalCapMicro, capState) has no plan answers left until the next month starts (period "month",
 // resetsAt then): as when the month's pool is used, their answers come from the add-on's lore library, and nothing
-// says why. exempt: uncapped(env, userId) and plan, when the caller already has them. remaining counts a free player's
-// starter answers too, so the companion keeps asking once the day's are gone; extra: how many of them aren't the plan's
-// (the starter and friends' Share Willo answers), which her light shows apart. upgrade: where the site shows the plans
+// says why. exempt: uncapped(env, userId) and plan, when the caller already has them. remaining counts answers friends
+// gave (Share Willo) too, so the companion keeps asking once the day's are gone; extra: how many of them aren't the
+// plan's, which her light shows apart. The free plan's old starter isn't among them (lib/billing.js, Mike, 10/22). upgrade: where the site shows the plans
 // (/plans), while a plan above this one is for sale (lib/billing.js planAbove; none for Legend). features: what the
 // companion may do on this plan (lib/billing.js COMPANION_FEATURES), while plans are on.
 // voice: which of Willo's voices says the next spoken reply, and when a lower one comes back up
 // (lib/companion-voice.js voiceAllowance), while plans are on. pictures: this site takes a spoken question's picture
-// (imageOf); the companion sends one only after it sees this, so an older site never gets the bigger body.
+// (imageOf); the companion sends one only after it sees this, so an older site never gets the bigger body. closeups:
+// and a close-up of its top-right corner with it (writeAnswer closeup, LOR-802).
 export async function allowance(env, userId, now = new Date(), exempt = null, plan = null) {
   exempt ??= await uncapped(env, userId);
   plan ??= await planFor(env, userId, now);
   const subscriber = plan.id !== "free";
   const pool = plansOn(env) && plan.answersPerMonth ? poolWindow(plan, now) : null;
   const monthBucket = `companion-month:${pool?.key || "-"}`;
-  // The starter is the free plan's alone (functions/api/companion/answer.js); answers from friends (Share Willo) are
-  // any plan's, a paying player's while their month is under its total cap. All read at once: one round trip to D1,
-  // not four, before a live answer's reply can go (LOR-654).
+  // Answers from friends (Share Willo) are any plan's, a paying player's while their month is under its total cap. All
+  // read at once: one round trip to D1, not four, before a live answer's reply can go (LOR-654).
   const [{ results }, capped, packs, paid, taste] = await Promise.all([
     exempt ? { results: [] } : env.DB.prepare("SELECT bucket, n FROM rate_limits WHERE user_id = ? AND bucket IN (?, ?)")
       .bind(userId, `companion-answer:${day(now)}`, monthBucket).all(),
@@ -450,22 +450,21 @@ export async function allowance(env, userId, now = new Date(), exempt = null, pl
   const monthLeft = capped ? 0 : pool ? Math.max(0, plan.answersPerMonth - counted(monthBucket)) : Infinity;
   const period = monthLeft <= dayLeft ? "month" : "day";
   const planLeft = Math.min(dayLeft, monthLeft);
-  const starter = plansOn(env) && !subscriber ? packs.starter : 0;
   const shared = capped ? 0 : packs.share;
   const voice = await voiceAllowance(env, userId, plan, now, taste);
   const nextMonth = new Date(Date.UTC(now.getUTCFullYear(), now.getUTCMonth() + 1, 1)).toISOString();
   return { limit: period === "month" ? plan.answersPerMonth : plan.answersPerDay, period,
-    remaining: planLeft + starter + shared,
+    remaining: planLeft + shared,
     // Not "50 of 20 answers left today" but "20 of 20 answers left today, plus 30 extra" (companion mana.py). Older
     // companions ignore it.
-    extra: starter + shared,
+    extra: shared,
     ...(exempt ? { unlimited: true } : {}),
     resetsAt: period === "month" ? (capped ? nextMonth : pool.resetsAt)
       : new Date(Date.parse(day(now) + "T00:00:00Z") + 86400e3).toISOString(),
     // A paying player's answers are covered by their plan, not the shared free pool (lib/free-pool.js): today's stop.
     available: Boolean(env.GEMINI_API_KEY) && (subscriber || paid.used + ANSWER_RESERVATION_MICRO <= paid.hard),
     // plan.renews: when a paid plan renews, or ends (cancelAtPeriodEnd), for the app's account line (Willo's settings).
-    pictures: true, plan: { id: plan.id, name: plan.name, ...(plan.renews ? { renews: plan.renews } : {}),
+    pictures: true, closeups: true, plan: { id: plan.id, name: plan.name, ...(plan.renews ? { renews: plan.renews } : {}),
       ...(plan.cancelAtPeriodEnd ? { cancelAtPeriodEnd: true } : {}) },
     ...(plansOn(env) ? { features: companionFeatures(plan, { starter: voice?.starterLeft ?? 0, taste }),
                          ...(voice ? { voice } : {}) } : {}),
@@ -484,10 +483,10 @@ export async function allowance(env, userId, now = new Date(), exempt = null, pl
 
 // Atomic admission: concurrent requests cannot reserve past the free pool's stop for today (lib/free-pool.js limit).
 // Provider queries can exceed the estimate; uncertain charges remain reserved and measured excess is counted in full.
-// Profile stories and voice share this gate. A paid-for answer (paid: a paying player's, or one of Willo's best first,
-// which its own daily cap holds, lib/best-first.js) skips the gate, but its reservation is still recorded so /admin
-// sees the whole month's spend; what it cost is taken back out of the pool's count (lib/free-pool.js freeSpend), so it
-// never uses up free players' pool.
+// Profile stories and voice share this gate, and so does Willo's best first (lib/best-first.js). A paid-for answer
+// (paid: a paying player's) skips the gate, but its reservation is still recorded so /admin sees the whole month's
+// spend; what it cost is taken back out of the pool's count (lib/free-pool.js freeSpend), so it never uses up free
+// players' pool.
 // strong, longMemory, picture (seesPicture) and lite: as writeAnswer will be asked, so the reservation fits the call.
 export async function reserveAnswer(env, now = new Date(), researchRequired = false, operation = "answer", lookup = false,
   { paid = false, strong = false, longMemory = false, picture = false, lite = false,
@@ -508,19 +507,18 @@ export async function reserveAnswer(env, now = new Date(), researchRequired = fa
   return Boolean(held.results?.length);
 }
 
-// A piece of the free plan's spoken starter (lib/companion-voice.js speakPiece), which the shared free pool pays for:
+// A piece the shared free pool pays for (lib/companion-voice.js: the free plan's studio voice, Willo's best first):
 // `micro` held on the month's answer_spend in one statement, as reserveAnswer does, only while it fits under the day's
 // allowance (lib/free-pool.js: on the soft step free answers are text, and Willo speaks them in her own voice on the
 // PC). Not an answer, so no call is counted. settleFreeVoice then keeps it as spent (said) or gives it back.
-export async function reserveFreeVoice(env, micro, now = new Date(), pooled = true) {
-  return reservedFreeVoice(await env.DB.batch(reserveFreeVoiceStatements(env, micro, now, null, pooled)));
+export async function reserveFreeVoice(env, micro, now = new Date()) {
+  return reservedFreeVoice(await env.DB.batch(reserveFreeVoiceStatements(env, micro, now)));
 }
 // reserveFreeVoice's statements (one batch: the month's row, then the reservation), for a caller that batches them with
 // its own (lib/companion-voice.js: a hosted piece's claim on its reply); also: {sql, binds}, one more condition on it.
-// pooled: false for a piece of Willo's best first, which its own daily cap holds (lib/best-first.js holdDay) and the
-// pool leaves out. reservedFreeVoice reads the batch's results: whether it was reserved.
-export function reserveFreeVoiceStatements(env, micro, now = new Date(), also = null, pooled = true) {
-  const room = pooled ? fits(env, now, micro, "soft") : { sql: "1", binds: [] };
+// reservedFreeVoice reads the batch's results: whether it was reserved.
+export function reserveFreeVoiceStatements(env, micro, now = new Date(), also = null) {
+  const room = fits(env, now, micro, "soft");
   return [
     env.DB.prepare("INSERT OR IGNORE INTO answer_spend (month, reserved_micro, actual_micro, calls) VALUES (?, 0, 0, 0)")
       .bind(month(now)),
@@ -591,8 +589,10 @@ const geminiActions = offer => ({
 // strong: an answer or character reply on the stronger model, with minimal thinking (a Champion's); longMemory: chat
 // memory keeps twice as much. actions: provider-neutral declarations ({name, description, parameters}: JSON Schema,
 // lib/willo-tools.js actionsFor), given to Gemini as functionDeclarations; the answer's call comes back as `call`.
-// Her spoken words and the written answer from a two-layer reply (SAY_MAX_CHARS, LAYER_MARK): {say, text}. Without the
-// mark (the model wrote one answer), the written answer is all of it and she says its start, cut at a sentence.
+// Her spoken words and the written answer from a two-layer reply (SAY_MAX_CHARS, LAYER_MARK): {say, text}. The written
+// answer is her words, then what the model wrote after the mark (layersRules), so it begins with exactly what she
+// says; a sentence at the top of that rest which only retells her words is dropped (restated). Without the mark (the
+// model wrote one answer), the written answer is all of it and she says its start, cut at a sentence.
 // The mark on a line of its own, or glued to her last sentence (3.6 Flash, 1 in 96 of the vision check, 10/19:
 // "...Trade District.~~~That is Hurin...").
 const LAYER_LINE = /[ \t]*~{3,}[ \t]*/;
@@ -603,7 +603,33 @@ export function splitLayers(content) {
   const said = plainText(at ? content.slice(0, at.index) : content);
   // With no mark her words are the written answer's start, its list markers ("1.", "-") not said.
   const spoken = at && said ? said : (text || said).replace(/^[ \t]*(?:\d+[.)]|[-*\u2022])[ \t]+/gm, "");
-  return { say: restOf(sayOf(spokenNumbers(spoken))), text: text || said };
+  const say = restOf(sayOf(spokenNumbers(spoken)));
+  if (!at || !said) return { say, text: text || said };
+  const rest = unrestated(text, say);
+  return { say, text: !rest ? say : `${say}${LIST_START.test(rest) ? "\n" : " "}${rest}` };
+}
+// A sentence that retells her spoken words (most of its words are hers, or it carries most of the names hers gave),
+// as the companion counts one already said (talk/talker.py unsaid): dropped from the top of the rest, never a list item
+// or a line of a few words (its numbers: "Level 18, at 34, 51.").
+const LIST_START = /^[ \t]*(?:\d+[.)]|[-*\u2022])[ \t]+/;
+const COMMON = new Set(("you are the and for with from that this they them your his her its was were has have not but " +
+  "can will into out all who what where when there here just also then than she him our any").split(" "));
+const wordsOf = text => String(text || "").toLowerCase().match(/[\p{L}\p{N}']{3,}/gu) || [];
+function restated(sentence, say) {
+  const mine = new Set(wordsOf(say)), named = [...mine].filter(w => !COMMON.has(w));
+  const words = wordsOf(sentence), set = new Set(words);
+  const covered = named.filter(w => set.has(w)).length;
+  return (words.length >= 3 && words.filter(w => mine.has(w)).length / words.length >= 0.6)
+    || (covered >= 3 && covered / named.length >= 0.5);
+}
+function unrestated(rest, say) {
+  let out = rest.trim();
+  while (out && !LIST_START.test(out)) {
+    const first = /^[^\n]*?[.!?\u2026](?=\s|$)/.exec(out);
+    if (!first || !restated(first[0], say)) break;
+    out = out.slice(first[0].length).trim();
+  }
+  return out;
 }
 // Her spoken words never have digits (the spoken rules), though the written answer may and they sometimes slipped
 // over (the blind check: "level 18", "34, 51"): whole numbers up to 9999 said as words. Decimals stay as they are.
@@ -620,7 +646,7 @@ export const spokenNumbers = text => String(text || "")
   .replace(/(?<![\d.,])\d{1,4}(?![\d]|[.,]\d)/g, d => numberWords(Number(d)));
 // A line about the rest the model wrote on the end of her words ("I've written the rest out for you") is dropped: she
 // says her whole answer now, so there's no rest to point to (Mike, 2026-10-21: "this 'detail is written out for you'
-// thing is pretty bad"). Before, one of REST_LINES took its place.
+// thing is pretty bad").
 const REST_AT = /\s*(?:I have|I've) (?:written|jotted|put) (?:the rest|the details|it all|everything else)(?: out| down)?(?: for you)?(?: in my window)?\.\s*$/i;
 function restOf(say) {
   const at = REST_AT.exec(say);
@@ -667,7 +693,7 @@ async function streamed(res, onSay) {
   return { candidates: [{ content: { parts: [{ text }] }, ...(finishReason ? { finishReason } : {}) }], usageMetadata, modelVersion };
 }
 
-async function generate(env, prompt, grounded, operation, persona, style, { picture = null, facts = "", help = "",
+async function generate(env, prompt, grounded, operation, persona, style, { picture = null, closeup = null, closeupOf = null, facts = "", help = "",
   dispute = null, custom = "", memories = "", strong = false, longMemory = false, actions = null, now = new Date(),
   layered = false, onSay = null, lite = false, smarter = false, away = false } = {}) {
   const compact = operation === "compact", character = operation === "character";
@@ -694,7 +720,8 @@ async function generate(env, prompt, grounded, operation, persona, style, { pict
     ? "streamGenerateContent?alt=sse" : "generateContent"}`, {
     method: "POST", headers: { "Content-Type": "application/json", "x-goog-api-key": env.GEMINI_API_KEY },
     body: JSON.stringify({ systemInstruction: { parts: [{ text: system }] },
-      contents: [{ role: "user", parts: picture ? [{ inlineData: { mimeType: "image/jpeg", data: picture } }, { text: asked }]
+      contents: [{ role: "user", parts: picture ? [{ inlineData: { mimeType: "image/jpeg", data: picture } },
+        ...(closeup ? [{ inlineData: { mimeType: "image/jpeg", data: closeup } }, { text: closeupOf === "target" ? TARGET_NOTE : CLOSEUP_NOTE }] : []), { text: asked }]
         : [{ text: asked }] }],
       ...(grounded ? { tools: [{ googleSearch: {} }] } : offer ? geminiActions(offer) : {}),
       generationConfig: { temperature: compact ? 0.2 : character ? 0.7 : 0.4, candidateCount: 1,
@@ -874,8 +901,8 @@ export async function lookUp(env, parts, now = new Date(), { real = false, later
 // reckoning (micro-dollars), for a paid-for answer's cost caps; on a thrown error it's on the error. later: keeps the
 // budget's write going while the answer goes out (reconcileAnswer).
 export async function writeAnswer(env, prompt, now = new Date(), researchRequired = false, operation = "answer",
-  { persona = "sam", style = null, image = null, facts = "", help = "", dispute = null, custom = "", memories = "",
-    strong = false, longMemory = false, actions = null, later = null, layered = false, onSay = null, lite = false,
+  { persona = "sam", style = null, image = null, closeup = null, closeupOf = null, look = null, facts = "", help = "", dispute = null, custom = "",
+    memories = "", strong = false, longMemory = false, actions = null, later = null, layered = false, onSay = null, lite = false,
     smarter = false, away = false } = {}) {
   if (typeof prompt !== "string" || !prompt.trim() || new TextEncoder().encode(prompt).length > ANSWER_PROMPT_BYTES)
     throw new Error("Invalid answer prompt");
@@ -890,7 +917,8 @@ export async function writeAnswer(env, prompt, now = new Date(), researchRequire
   const grounded = operation === "answer" && researchRequired;
   strong =Boolean(strong) && !compact && !grounded;
   longMemory = Boolean(longMemory) && compact;
-  const picture = seesPicture(operation, researchRequired, style, image) ? imageOf(image) : null;
+  const picture = seesPicture(operation, researchRequired, style, image, look) ? imageOf(image) : null;
+  const close = picture ? imageOf(closeup) : null;    // its top-right corner, enlarged (CLOSEUP_NOTE)
   const reserved = answerReservation(researchRequired, operation, { strong, longMemory, picture: Boolean(picture),
     lite: Boolean(lite), smarter: Boolean(smarter) });
   let response;
@@ -903,7 +931,7 @@ export async function writeAnswer(env, prompt, now = new Date(), researchRequire
   let said = false;
   const sayOnce = typeof onSay === "function" ? say => { if (!said) { said = true; onSay(say); } } : null;
   const ask = (withPicture, actions = offer) => generate(env, prompt, grounded, operation, persona, style,
-    { picture: withPicture, facts, help: compact ? "" : help, dispute, custom: compact ? "" : custom, memories, strong, longMemory,
+    { picture: withPicture, closeup: withPicture ? close : null, closeupOf, facts, help: compact ? "" : help, dispute, custom: compact ? "" : custom, memories, strong, longMemory,
       lite, smarter, actions, now, layered, onSay: sayOnce, away: away ? (away === "none" ? "none" : "last") : false });
   let offerCost = 0;
   try {

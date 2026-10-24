@@ -680,7 +680,7 @@ function testPackHtml(v) {
     <p class="st-dl"><a class="btn-download" href="/api/studio/pack?voice=${encodeURIComponent(v.id)}">Download my test pack</a>
       <span>${lines_(n)} · .${plan.ext}</span></p>
     <ol>
-      <li>Unzip it into <code>World of Warcraft\\_classic_beta_\\Interface\\AddOns</code>, so you have
+      <li>Unzip it into <code>World of Warcraft\\_forever_\\Interface\\AddOns</code>, so you have
         <code>AddOns\\${esc(packFolder(v.id))}</code>.</li>
       <li>Type <code>/reload</code> in game. After more uploads, download again, unzip over the old folder and <code>/reload</code>.</li>
       <li>Choose <b>${esc(v.name)} (test pack)</b> under Options › AddOns › Lore Forever › Narration voice.</li>

@@ -133,7 +133,6 @@ Voice.active, Voice.chain, Voice.stats, Voice.total, Voice.provided, Voice.serve
 Voice.questPaths, Voice.questServed = {}, {}   -- quest dialogue picked for an open quest window (Voice.QuestClip)
 Voice.questWords = {}   -- what it reads, when that isn't the window's text (a recording in another language, Voice.QuestClip)
 Voice.questTitles = {}  -- and the quest's title in that language, for the subtitles and the player
-Voice.answerPaths, Voice.answerServed = {}, {}   -- the retired answers packs' (LOR-227): always empty now (Refresh)
 
 -- Put a voice first in the list and tick it, along with the default voice (what choosing a voice always meant: that
 -- voice, then the default for the rest). "none" unticks every voice.
@@ -438,7 +437,8 @@ function Voice.Count(name)
 end
 
 -- LOR-350: every installed pack, separately from narrator priority. Reading voice tables only registers metadata;
--- language tables are never loaded or applied here. Counts describe recording IDs, not verified audio files.
+-- language tables are never loaded or applied here. Counts describe recording IDs, not verified audio files. Not the
+-- retired answers packs (below, Voice.Refresh): they play nothing, so they'd only be a puzzle on the list (LOR-787).
 function Voice.InstalledPacks()
   local out, s = {}, prefs()
   for _, rec in ipairs(ns.Packs.registry) do
@@ -532,7 +532,7 @@ function Voice.InstalledPacks()
       for _ in each(data.ui) do it.strings = it.strings + 1 end
       for _ in each(data.strings) do it.strings = it.strings + 1 end
     end
-    out[#out + 1] = it
+    if not rec.name:find("_Answers_", 1, true) then out[#out + 1] = it end
   end
   return out
 end
@@ -640,7 +640,7 @@ function Voice.Refresh()
       end
     end
     Voice.active, Voice.servedBy, Voice.provided, Voice.total = active, served, provided, total
-    Voice.questRanked, Voice.questPaths, Voice.questServed, Voice.answerPaths, Voice.answerServed = {}, {}, {}, {}, {}
+    Voice.questRanked, Voice.questPaths, Voice.questServed = {}, {}, {}
     Voice.chain, Voice.stats, Voice.ready, Voice.deferred = valid and { edition.voiceName } or {}, {}, true, nil
     return
   end
@@ -775,11 +775,8 @@ function Voice.Refresh()
   end
   Voice.questRanked, Voice.questFits = questRanked, questFits
   -- The answers packs (LOR-227: LoreForever_Voice_<voice>_Answers_<Part>) are retired (Mike's voices and plans picks,
-  -- 10/21): an installed one plays nothing, so every short answer goes to Willo (Companion.CanRead), who reads it in the
-  -- narrator's own voice from Hero up, or it shows as text. Community narrators' answers come through their own packs
+  -- 10/21): an installed one plays nothing, so a short answer with no other recording shows as text. Community narrators' answers come through their own packs
   -- (Voice.ScopedClip, Voice.active) and still play.
-  local answerPaths, answerServed = {}, {}
-  Voice.answerPaths, Voice.answerServed = answerPaths, answerServed
   Voice.active, Voice.chain, Voice.stats, Voice.total, Voice.ready = active, chain, stats, total, true
   Voice.provided, Voice.servedBy = provided, servedBy
 end
@@ -788,8 +785,8 @@ end
 function Voice.Resolve(id)
   if not ns.Lang.ValidateEdition() then return nil end
   if not Voice.ready then Voice.Refresh() end
-  local paths = Voice.active[id] or Voice.questPaths[id] or Voice.answerPaths[id]
-  return Voice.servedBy[id] or Voice.questServed[id] or Voice.answerServed[id], paths and paths[1]
+  local paths = Voice.active[id] or Voice.questPaths[id]
+  return Voice.servedBy[id] or Voice.questServed[id], paths and paths[1]
 end
 
 -- Voices installed since the last login go to the bottom of the narrator list, ticked, with a line in chat that says
@@ -1031,6 +1028,17 @@ function Voice.NoticeOutdated()
     count, table.concat(titles, ", "), Voice.DOWNLOADS))
 end
 
+-- Say once per add-on version when the default voice would play but isn't installed. On CurseForge the male narrator
+-- is a project of his own that the app installs with the add-on (release/curseforge.json); should that ever fail,
+-- stories would turn to text without a word, and the lands hint (Voice.OnZone) needs a voice to speak of.
+local function noticeDefaultMissing()
+  if not sameLanguage(readingLocale(), "enUS") or Voice.Current() ~= AUTO or ns.Packs.Get(DEFAULT_PACK) then return end
+  local core = versionOf("LoreForever")
+  if S().defaultMissingNoted == core then return end
+  S().defaultMissingNoted = core
+  say(L["The narrator's voice is missing, so his tales stay written for now. Add Lore Forever - Male Narrator in the CurseForge app, then type /reload."])
+end
+
 -- At login: find the installed packs and load the chosen voice.
 function Voice.Init()
   if not next(ns.Packs.registry) then ns.Packs.Scan() end
@@ -1042,6 +1050,7 @@ function Voice.Init()
     noticeMissing()
     noticeLanguage()
   end
+  noticeDefaultMissing()
   noticeUnused()
   if C_Timer and C_Timer.After then C_Timer.After(10, function() pcall(Voice.NoticeOutdated) end) end
   Voice.CheckSpoken()
@@ -1058,13 +1067,12 @@ function Voice.OnCombatEnded()
   if ns.UI and ns.UI.OnVoiceChanged then ns.UI.OnVoiceChanged() end
 end
 
--- A recorded narration exists for this entry with the current voice (or quest dialogue Voice.QuestClip picked, or a
--- question and answer from an answers pack).
+-- A recorded narration exists for this entry with the current voice (or quest dialogue Voice.QuestClip picked).
 function Voice.HasAudio(key)
   if not ns.Lang.ValidateEdition() then return false end
   if isQuestClip(key) and not Voice.QuestDialogue() then return false end
   if not Voice.ready then Voice.Refresh() end
-  return key ~= nil and (Voice.active[key] or Voice.questPaths[key] or Voice.answerPaths[key]) ~= nil
+  return key ~= nil and (Voice.active[key] or Voice.questPaths[key]) ~= nil
 end
 
 -- Recheck permission at every real audio start, including queues and restored playback targets.
@@ -1518,7 +1526,7 @@ end
 
 function Voice.TransportFor(key, pack)
   if not Voice.HasAudio(key) then return nil end
-  for _, path in ipairs(Voice.active[key] or Voice.questPaths[key] or Voice.answerPaths[key] or {}) do
+  for _, path in ipairs(Voice.active[key] or Voice.questPaths[key] or {}) do
     local source = Voice.PackOf(path)
     local row = (not pack or source == pack) and Voice.Transport(key, source)
     if row then return row end
@@ -1648,7 +1656,7 @@ end
 
 function Voice.Play(key, options)
   if not Voice.CanPlay(key) then return false end
-  local paths = Voice.HasAudio(key) and (Voice.active[key] or Voice.questPaths[key] or Voice.answerPaths[key])
+  local paths = Voice.HasAudio(key) and (Voice.active[key] or Voice.questPaths[key])
   if not paths or not _G.PlaySoundFile then return false end
   Voice.Stop()
   local continuing = options and type(options.pack) == "string" and finite(options.offset)
@@ -1690,7 +1698,7 @@ function Voice.Play(key, options)
       end
       if started then
         if not Voice.transport then Voice.handle = handle end
-        if Voice.active[key] or Voice.answerPaths[key] then Voice.MarkHeard(key) end
+        if Voice.active[key] then Voice.MarkHeard(key) end
         if Voice.autoWaiting and Voice.autoWaiting.key == key then Voice.autoWaiting = nil end
         local transport = Voice.transport
         Voice.lastClip = { id = key, pack = pack,
@@ -2015,6 +2023,12 @@ local function arrivalsOff()
   return S().autoZone == false or Voice.OnDemand() or Voice.Current() == "none" or not (ns.UI and ns.UI.frame)
 end
 
+-- Whether `key`'s story is the one arriving here will play by itself (its "now playing" line says so: the arrival's
+-- own hint leaves out its Listen, LOR-789).
+function Voice.ArrivalComing(key)
+  return not arrivalsOff() and not onTaxi() and arrivalKey() == key
+end
+
 -- The waiting arrival story's turn (the rules above): it starts if nothing stands in its way, keeps waiting if
 -- something does, and is dropped once it's out of step. Returns true if it started.
 function Voice.ArrivalTurn()
@@ -2078,6 +2092,13 @@ function Voice.PlayPassage(key, idx)
   return Voice.PlayNow({ id = key, key = pid, label = e.n, text = sec.b, story = key })
 end
 
+-- A passage that waits for the recap `after` (its key) just started: it plays once that ends by itself, after the
+-- usual gap and under the same rules (Voice.OnNarrationEnded). Returns true: it's waiting.
+function Voice.PlayPassageAfter(after, key, idx)
+  Voice.passageWaiting = { after = after, key = key, idx = idx }
+  return true
+end
+
 -- Play `target` now as something that starts by itself (a passage, a storyline's recap), if an arrival story could:
 -- not in a fight, a talk, a flight or over something playing. Returns true if it started.
 function Voice.PlayNow(target)
@@ -2086,7 +2107,9 @@ function Voice.PlayNow(target)
   if fighting() or talking() or Voice.GameTalking() or onTaxi() or busy() or willoAnswering() then return false end
   target.byItself = true
   UI.ListenTo(target)
-  return UI.speaking and UI.playingKey == target.key
+  local started = UI.speaking and UI.playingKey == target.key
+  if started then markAuto() end   -- started by itself: a dungeon fight stops it, as an arrival story (LOR-784)
+  return started
 end
 
 -- You stopped talking to someone, or a fight ended: the waiting arrival story's turn (if you're still there). It
@@ -2105,8 +2128,14 @@ end
 
 -- What played ended by itself (UI's watchPlayback): the waiting arrival story's turn, after the playlist's gap. The
 -- playlist going on to its next story keeps it waiting.
-function Voice.OnNarrationEnded()
+function Voice.OnNarrationEnded(ended)
   Voice.questLeftover = nil
+  local p = Voice.passageWaiting
+  Voice.passageWaiting = nil
+  if p and ended and ended.key == p.after and not Voice.questWaiting then
+    C_Timer.After(TURN_GAP, function() Voice.PlayPassage(p.key, p.idx) end)
+    return
+  end
   local w = Voice.questWaiting
   if w then   -- a quest giver's page waited for the one that ended: its turn, ahead of an arrival story
     Voice.questWaiting = nil
@@ -2665,8 +2694,7 @@ function Voice.OnWilloAsked(down)
   if C_Timer and C_Timer.After then C_Timer.After((down and WILLO_KEY_MAX or WILLO_HOLD) + 0.1, willoDone) end
 end
 
--- Willo reads one of the add-on's short answers aloud (Companion.ShowAnswer, LOR-547): what started by itself makes
--- way, as for the talk key, and nothing starts by itself for `seconds`, the reading's length as the add-on reckons it
+-- Willo reads a quest page with no recording aloud (Companion.ReadQuestPage): what started by itself makes way, as for the talk key, and nothing starts by itself for `seconds`, the reading's length as the add-on reckons it
 -- (a longer hold already running stays). What you start yourself always plays, and Willo doesn't read over it.
 function Voice.OnWilloReads(seconds)
   local untilT = now() + seconds

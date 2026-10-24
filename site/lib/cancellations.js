@@ -66,6 +66,26 @@ export function setupCancellations(env) {
   return ready.get(env.DB);
 }
 
+// Every cancellation as a table, for a FROM: plan_cancellations' rows, and one for each plan that was cancelled before
+// this log began (10/19), so Mike can write to everyone who cancelled (the PM, 10/22), made from plan_log as it reads
+// now, never stored: id "before_log_<plan_log row>" (no subscription id: /admin never sees one; only letters, digits
+// and _, as the dashboard's actions take an id, lib/dashboard-admin-contract.js), kind scheduled (still running to its
+// end) or now (it ended), at when it was cancelled or ended, counted only when it's no comped plan or team account
+// (lib/retention.js leaves those out too). Its reason, what the player wrote and when it runs to were never logged.
+export const BEFORE_LOG = "before_log_";
+export const ALL_CANCELLATIONS = "(SELECT id, subscription_id, user_id, plan, kind, at, ends, days, paid_cents, reason, " +
+  "feedback, comment, counted, created FROM plan_cancellations UNION ALL " +
+  `SELECT '${BEFORE_LOG}' || p.rowid, p.subscription_id, p.user_id, p.plan, ` +
+  "CASE WHEN p.ended IS NULL AND p.status NOT IN ('canceled', 'unpaid') THEN 'scheduled' ELSE 'now' END, " +
+  "COALESCE(p.canceled, p.ended, p.updated), NULL, " +
+  "CAST(MAX(0, julianday(COALESCE(p.canceled, p.ended, p.updated)) - julianday(p.started)) AS INTEGER), " +
+  "(SELECT SUM(cents) FROM plan_payments m WHERE m.subscription_id = p.subscription_id), NULL, NULL, NULL, 1, p.updated " +
+  "FROM plan_log p WHERE p.started IS NOT NULL AND COALESCE(p.comp, '') = '' " +
+  "AND p.status NOT IN ('incomplete', 'incomplete_expired') " +
+  "AND (p.canceled IS NOT NULL OR p.ended IS NOT NULL OR p.status IN ('canceled', 'unpaid')) " +
+  "AND COALESCE(p.user_id, '') NOT IN (SELECT user_id FROM excluded_accounts WHERE reason != 'counted') " +
+  "AND NOT EXISTS (SELECT 1 FROM plan_cancellations c WHERE c.subscription_id = p.subscription_id))";
+
 // "Delete my account" (lib/accounts.js USER_DATA): the record of a cancellation stays, without the account.
 export const CANCELLATIONS_USER_DATA = [["UPDATE plan_cancellations SET user_id = NULL WHERE user_id = ?", u => u.id]];
 

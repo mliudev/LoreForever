@@ -1,5 +1,6 @@
 // Public names, query fields and the controls actually present in the product admin UI.
 // This is deliberately not a generic proxy for every operation the old admin key permits.
+import { SENDERS } from "./winback.js";
 export const READ_QUERIES = Object.freeze({
   main: {}, costs: {}, creators: {}, curseforge: {}, "plans-usage": { days: ["14", "30"] },
   retention: { paid: ["0", "1"] },
@@ -70,7 +71,7 @@ const ACTIONS = {
   creators: { save: ["code name", "contact account discount share_pct months gift promo_id channel"],
     approve: ["id code"], decline: ["id"], retire: ["code"], restore: ["code"],
     pay: ["code method expected_cents", "note"], "stripe-payouts": ["on"] },
-  retention: { preview: ["id subject text"], write: ["id subject text reviewed"] },
+  retention: { preview: ["id subject text", "as"], write: ["id subject text reviewed", "as"] },
   sources: { link: ["slug label target"], retire: ["slug"], restore: ["slug"] },
   willo: { "feedback-status": ["id status", "note"], "friend-report-done": ["id"],
     "fact-add": ["title text", "zone source_title source_url feedback_id feedback_ids origin"],
@@ -114,6 +115,7 @@ export function validateAction(name, body) {
   one("pick", ["use", "skip", "reset"]); one("resolution", ["fixed", "kept"]);
   one("method", ["manual", "stripe"]); one("origin", ["mike", "research", "players"]);
   one("how", ["fact", "lore", "prompt", "code", "voice"]);
+  if (name === "retention") one("as", Object.keys(SENDERS));
   if (name === "main") one("status", action === "voice-status" ? ["new", "done", "rejected"] : ["new", "done"]);
   if (name === "willo") one("status", ["new", "checked", "dismissed"]);
   if (name === "clip-resolve") one("status", ["open", "done", "kept"]);

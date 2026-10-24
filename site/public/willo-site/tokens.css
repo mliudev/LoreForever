@@ -1,0 +1,48 @@
+/* Willo's look, in one place: the design tokens her landing page (willo-site/home.html) is built from, and that
+   door.css points the shared pages (/plans, /account...) at on her domain. A new design (Patrick's) replaces this file
+   and home.html, and door.css follows. No game is named here: the game a page talks about comes from
+   willo-site/games.json.
+   The look is Skyborne: pale daylight and rising mist at the top, and below the mist deep teal with sandstone text,
+   copper wind-swirls and gold carved buttons. */
+:root {
+  --w-night: #0b1d2a;          /* page ground: below the clouds */
+  --w-night-2: #0e2332;
+  --w-glass: #12303f;          /* solid panels: menus */
+  --w-glass-2: #163848;
+  --w-panel: #11303fcc;        /* cards */
+  --w-rim: #e2b77a33;          /* panel edges: copper */
+  --w-rim-strong: #e2b77a80;
+  --w-line: #9fd6d826;         /* rules and table lines */
+  --w-line-soft: #9fd6d814;
+  --w-text: #f4ecdc;           /* sandstone */
+  --w-text-2: #cfdad6;
+  --w-muted: #9db4b6;
+  --w-glow: #7fe0dc;           /* her light, the lanterns' turquoise */
+  --w-glow-hi: #dffbf8;
+  --w-wash: #7fe0dc14;
+  --w-live: #8fe3b4;           /* "live now", ticks */
+  --w-gold: #ecc07a;           /* copper-gold: ornaments, prices */
+  --w-copper: #c98a4f;
+  --w-cta: linear-gradient(180deg, #fbe6b4, #e6b263 55%, #c98a3f);
+  --w-cta-ink: #2a1605;
+  --w-cta-glow: inset 0 1px 0 #fff8, inset 0 -2px 0 #8a561f66, 0 0 0 1px #7a4a1a, 0 12px 30px -12px #f0b86aaa;
+  --w-headline: linear-gradient(180deg, #fff7e2, #f3cf8c 85%);
+  /* The hero: pale daylight sky, sun high on the right, mist rising from below (mist.webp, made by
+     scripts/willo-site-mist.py), with navy type on it. The bar above it is dark. */
+  --w-sky: radial-gradient(40% 50% at 84% 8%, #ffffff8c, transparent 70%),
+           linear-gradient(180deg, #7fb0dc 0%, #a6c9e7 38%, #cfe1f1 70%, #e9f1f8 100%);
+  --w-mist: url(/willo-site/mist.webp?v=1);
+  --w-mist-sm: url(/willo-site/mist-sm.webp?v=1);
+  --w-sky-ink: #12304a;
+  --w-sky-ink-2: #2b4a62;
+  --w-sky-accent: #1d6f78;     /* Skyborne teal */
+  --w-bar: #0e2438;
+  /* A plain blue sky that fades to night, for pages whose text runs from the top down (/account, /faq). */
+  --w-sky-dusk: linear-gradient(180deg, #16416f, #1d5793 55%, #2f6aa6);
+  --w-swirl: url(/willo-site/swirl.svg);
+  --w-display: "Marcellus", "Palatino Linotype", Georgia, serif;
+  --w-body: "Alegreya Sans", "Segoe UI", system-ui, sans-serif;
+  --w-r: 10px;
+  --w-r-sm: 8px;
+  color-scheme: dark;          /* one sky for every browser theme */
+}

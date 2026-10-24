@@ -1,0 +1,132 @@
+/* Willo's door on the pages she shares with Lore Forever (/plans, /account, /willo, /faq...): lib/doors.js links this
+   after each page's own CSS, on her domain only. It points the shared look (style.css: the header's --gold and the
+   --h-* of "The book and the wisp") at her tokens (tokens.css), so a new design that replaces tokens.css restyles
+   these pages too. Everything is scoped to html[data-door="willo"]; Lore Forever's door never loads this file. */
+html[data-door="willo"] {
+  --bg: var(--w-night); --text: var(--w-text); --muted: var(--w-muted); --gold: #fff; --gold-soft: var(--w-gold);
+  --link: var(--w-glow); --parchment: var(--w-text); --line: var(--w-rim); --panel-line: var(--w-rim-strong);
+  --heading: var(--w-display);
+  background: var(--w-night);
+}
+html[data-door="willo"] .bw, html[data-door="willo"] .bw .tone-b, html[data-door="willo"] .bw .tone-w {
+  --h-night: var(--w-night); --h-night-2: var(--w-night-2); --h-panel: var(--w-glass); --h-panel-2: var(--w-glass-2);
+  --h-line: var(--w-line); --h-line-soft: var(--w-line-soft);
+  --h-text: var(--w-text); --h-text-2: var(--w-text-2); --h-muted: var(--w-muted);
+  --h-gold: var(--w-gold); --h-gold-hi: #fff; --h-gold-wash: var(--w-wash);
+  --h-wisp: var(--w-glow); --h-wisp-hi: var(--w-glow-hi); --h-wisp-wash: var(--w-wash);
+  --h-fresh: var(--w-live);
+  --h-display: var(--w-display); --h-body: var(--w-body);
+  --h-r: var(--w-r); --h-r-sm: var(--w-r-sm);
+  --h-acc: var(--w-gold); --h-acc-hi: #fff; --h-acc-wash: var(--w-wash); --h-acc-rim: var(--w-rim-strong);
+  --h-acc-line: var(--w-rim); --h-acc-edge: var(--w-rim-strong); --h-acc-panel: var(--w-panel); --h-link: var(--w-glow);
+  --h-acc-text: var(--w-headline);
+  --h-fill: var(--w-cta); --h-fill-ink: var(--w-cta-ink); --h-fill-rim: #7a4a1a; --h-fill-glow: var(--w-cta-glow);
+}
+
+/* A hero section (/plans, /willo): pale daylight with mist rising under it into the deep teal, navy type on it, as on her
+   home (style.css .h-sky is the night sky with stars). */
+html[data-door="willo"] :is(.h-sky, .h-sky-w)::after { background: var(--w-sky); }
+html[data-door="willo"] .h-sky::before { inset: auto 0 -1px; height: 320px; animation: none;
+  background: var(--w-mist) center bottom / cover no-repeat; }
+html[data-door="willo"] .pl-hero, html[data-door="willo"] .bw main > .h-hero.h-sky { padding-bottom: 220px; }
+html[data-door="willo"] .bw main .h-sky .h-head h1 { background: none; -webkit-text-fill-color: var(--w-sky-ink); color: var(--w-sky-ink); }
+html[data-door="willo"] .bw .h-sky :is(p, li, .h-lede, .h-meta) { color: var(--w-sky-ink-2); }
+html[data-door="willo"] .bw .h-sky .h-meta strong { color: var(--w-sky-ink); font-weight: 700; }
+html[data-door="willo"] .bw .h-sky .h-eyebrow { color: var(--w-sky-accent); }
+html[data-door="willo"] .bw main .h-sky a:not(.h-btn) { color: var(--w-sky-ink); }
+/* A page whose column starts in the sky (/account, /faq): a plain blue sky fading to night, no mist under the text. */
+html[data-door="willo"] .bw-sky::before { display: none; }
+html[data-door="willo"] .bw-sky::after { background: var(--w-sky-dusk); }
+
+/* Headings in her carved face. */
+html[data-door="willo"] :where(.bw main) :is(h1, h2, h3) { font-family: var(--w-display); font-weight: 400; letter-spacing: 0.01em; }
+html[data-door="willo"] main h1 { font-family: var(--w-display); font-weight: 400; color: #fff; text-shadow: none; }
+html[data-door="willo"] .h-eyebrow { color: var(--w-gold); letter-spacing: 0.2em; }
+
+/* The header: a dark bar, her brand, three links, Sign in as text and Get Willo as the one button (lib/doors.js willoNav). */
+html[data-door="willo"] .top { background: var(--w-bar); border-bottom-color: var(--w-rim); }
+html[data-door="willo"] .nav { min-height: 72px; }
+html[data-door="willo"] .brand { color: #fff; font: 400 1.6rem/1 var(--w-display); letter-spacing: 0.04em; margin-right: 14px; }
+html[data-door="willo"] .brand img { filter: drop-shadow(0 0 10px var(--w-glow)); }
+html[data-door="willo"] .nl { color: #e8f0fa; font: 400 1rem/1 var(--w-display); letter-spacing: 0.03em; border-radius: var(--w-r-sm); }
+html[data-door="willo"] .nl:hover, html[data-door="willo"] .nl[aria-expanded="true"] { color: #fff; background: #ffffff1a; }
+html[data-door="willo"] .nl[aria-current="page"], html[data-door="willo"] .nl.nl-on { color: #fff; box-shadow: inset 0 -2px 0 var(--w-gold); background: none; }
+html[data-door="willo"] .btn-in { order: 1; border-color: transparent; background: none; color: #e8f0fa; font: 400 1rem/1 var(--w-display);
+  letter-spacing: 0.03em; }
+html[data-door="willo"] .btn-in:hover { background: none; color: #fff; }
+html[data-door="willo"] .w-get { order: 2; display: inline-flex; align-items: center; min-height: 40px; padding: 0 18px; border-radius: var(--w-r-sm);
+  background: var(--w-cta); color: var(--w-cta-ink); font: 400 1rem/1 var(--w-display); letter-spacing: 0.03em; text-decoration: none;
+  white-space: nowrap; box-shadow: var(--w-cta-glow); text-shadow: 0 1px 0 #fff6; }
+html[data-door="willo"] .w-get:hover { filter: brightness(1.07); }
+html[data-door="willo"] .head-chip { order: 1; border-color: #ffffff40; }
+html[data-door="willo"] .mini-avatar { background: var(--w-cta); color: var(--w-cta-ink); font-family: var(--w-display); }
+html[data-door="willo"] .head-menu { background: var(--w-glass); border-color: var(--w-rim); border-radius: var(--w-r-sm); }
+html[data-door="willo"] .head-menu a:first-child { color: var(--w-text); }
+html[data-door="willo"] .head-menu a:hover, html[data-door="willo"] .head-menu button:hover { color: #fff; }
+html[data-door="willo"] :is(.nl, .brand, .btn-in, .w-get):focus-visible { outline: 2px solid var(--w-glow-hi); outline-offset: 2px; }
+/* Three links fit beside the brand on every width: no second row. */
+@media (max-width: 1100px) {
+  html[data-door="willo"] .nav { flex-wrap: nowrap; min-height: 64px; }
+  html[data-door="willo"] .brand { min-height: 0; }
+  html[data-door="willo"] .nav-links { order: 0; flex: 0 1 auto; margin: 0; }
+}
+@media (max-width: 640px) {
+  html[data-door="willo"] .nav-links { display: none; }
+  html[data-door="willo"] .nav { min-height: 60px; }
+  html[data-door="willo"] .brand { font-size: 1.4rem; }
+  html[data-door="willo"] .btn-in { padding: 0 8px; font-size: 0.95rem; min-height: 40px; }
+  html[data-door="willo"] .w-get { min-height: 38px; padding: 0 15px; font-size: 0.95rem; }
+  html[data-door="willo"] .pl-hero, html[data-door="willo"] .bw main > .h-hero.h-sky { padding-bottom: 160px; }
+  html[data-door="willo"] .h-sky::before { height: 200px; background-image: var(--w-mist-sm); }
+}
+
+/* Buttons: carved gold. */
+html[data-door="willo"] :is(.h-btn, .bw main .btn-download, .bw main .btn-small) { border-radius: var(--w-r-sm); font-family: var(--w-display);
+  font-weight: 400; letter-spacing: 0.03em; }
+html[data-door="willo"] .bw main a.h-willo-btn, html[data-door="willo"] .h-willo-btn { color: var(--w-cta-ink); background: var(--w-cta);
+  border-color: #7a4a1a; box-shadow: var(--w-cta-glow); text-shadow: 0 1px 0 #fff6; }
+
+/* Cards: deep teal stone with a copper edge. */
+html[data-door="willo"] .h-card, html[data-door="willo"] .bw .pl-card, html[data-door="willo"] .bw .pl-now,
+html[data-door="willo"] .bw .wl-compare-box, html[data-door="willo"] .fb-done.ac-card { border-color: var(--w-rim);
+  background: linear-gradient(180deg, #163a4bf2, #0f2836f2); box-shadow: inset 0 1px 0 #f4ecdc14; border-radius: var(--w-r); }
+html[data-door="willo"] .bw .pl-card h3 { color: var(--w-gold); font-size: 1.4rem; letter-spacing: 0.02em; }
+html[data-door="willo"] .bw .pl-tag { color: var(--w-glow); border-color: #7fe0dc55; background: #7fe0dc12; letter-spacing: 0.1em; }
+html[data-door="willo"] .bw .pl-card li::before { color: var(--w-gold); }
+html[data-door="willo"] .bw .wl-compare thead th { color: var(--w-gold); font-family: var(--w-display); font-weight: 400; }
+html[data-door="willo"] .bw #pl-launch { border-color: var(--w-rim-strong); background: linear-gradient(90deg, #ecc07a1f, #7fe0dc14 70%); }
+html[data-door="willo"] .bw #pl-launch p { color: var(--w-text); }
+
+/* /account signed out on her side: Google's button and what the account is for. The add-on's journey steps and its
+   example profile are Lore Forever's, so they stay there. */
+html[data-door="willo"] .ac-out:not([hidden]) { display: block; max-width: 560px; }
+html[data-door="willo"] .ac-sample, html[data-door="willo"] .ac-steps li:not(.ac-now) { display: none; }
+html[data-door="willo"] .ac-steps li { padding-left: 0; }
+html[data-door="willo"] .ac-steps li::before { display: none; }
+html[data-door="willo"] .ac-out h2 { color: #fff; }
+html[data-door="willo"] .ac-steps strong { display: none; }
+html[data-door="willo"] .ac-steps span { color: var(--w-text-2); font-size: 1rem; }
+
+/* Willo herself beside the title of /plans and /account on wide screens, as on her home page. */
+@media (min-width: 900px) {
+  html[data-door="willo"] .pl-hero .h-wrap, html[data-door="willo"] .ac-out { position: relative; }
+  html[data-door="willo"] .pl-hero .h-wrap::after, html[data-door="willo"] .ac-out::after { content: ""; position: absolute; top: 24px; right: 40px;
+    width: 150px; height: 150px; background: url(/img/wispr.svg) center / contain no-repeat; pointer-events: none;
+    filter: drop-shadow(0 0 22px #bff6f2) drop-shadow(0 0 50px #7fe0dccc); animation: w-float 6s ease-in-out infinite; }
+  html[data-door="willo"] .ac-out::after { top: 30px; right: auto; left: calc(100% + 150px); width: 190px; height: 190px; }
+}
+@keyframes w-float { 0%, 100% { transform: translate(0, 0); } 50% { transform: translate(4px, -10px); } }
+@media (prefers-reduced-motion: reduce) { html[data-door="willo"] :is(.pl-hero .h-wrap, .ac-out)::after { animation: none; } }
+
+/* The plan table on a phone: the feature names stay put while the plans slide under them. */
+@media (max-width: 640px) {
+  html[data-door="willo"] .bw .wl-compare th:first-child { position: sticky; left: 0; z-index: 1; background: #12303f; min-width: 132px; }
+  html[data-door="willo"] .bw .wl-compare-box { padding-inline: 0 0; }
+  html[data-door="willo"] .bw .wl-compare-box h3 { padding-inline: 16px; }
+}
+
+/* Footer */
+html[data-door="willo"] .h-foot { background: #08161f; border-top-color: var(--w-rim); }
+html[data-door="willo"] .h-sign .h-brand { color: #fff; font: 400 1.4rem/1 var(--w-display); letter-spacing: 0.04em; }
+html[data-door="willo"] .h-sign .h-brand img { filter: drop-shadow(0 0 8px var(--w-glow)); }
+html[data-door="willo"] .h-foot h2 { font-family: var(--w-body); font-weight: 700; letter-spacing: 0.16em; color: var(--w-gold); }

@@ -17,9 +17,9 @@ import { isReportRead } from "./report-read.js";
 // weeks begin on Monday, UTC, as the funnel's do.
 
 import { setupBilling, checkPlanLog, PAID, PLANS } from "./billing.js";
-import { setupCancellations, paidSoFar, whyOf, keptFor, FEEDBACK } from "./cancellations.js";
+import { setupCancellations, paidSoFar, whyOf, keptFor, FEEDBACK, ALL_CANCELLATIONS } from "./cancellations.js";
 import { weekOf } from "./activity.js";
-import { noteStates, TEMPLATE } from "./winback.js";
+import { noteStates, templates, TEMPLATE } from "./winback.js";
 
 const DAY_MS = 86400e3, WEEK_MS = 7 * DAY_MS;
 export const MAX_WEEKS = 12;    // columns: after 1 to 12 weeks at most
@@ -90,8 +90,9 @@ export function summaryLine(subscribers) {
 }
 
 // The report. paidOnly: only plans that have paid something. now: for tests. Each cancellation also says whether
-// Patrick can write to that player (note: lib/winback.js noteStates) and the note written (written: {status, at}), and
-// template is what the box starts with.
+// we can write to that player (note: lib/winback.js noteStates) and the note written (written: {status, at}), and
+// templates who it can be from and what the box starts with for each (Mike's first, the default); template is the
+// default's, for a page that doesn't offer the choice.
 export async function retentionReport(env, { paidOnly = false, now = Date.now() } = {}) {
   await setupBilling(env);
   await setupCancellations(env);
@@ -116,10 +117,11 @@ export async function retentionReport(env, { paidOnly = false, now = Date.now() 
         "AND p.status NOT IN ('incomplete', 'incomplete_expired') ORDER BY p.started"),
     all(`SELECT SUM(COALESCE(p.comp, '') != '') AS comped, SUM(COALESCE(p.comp, '') = '' AND ${team}) AS team ` +
         "FROM plan_log p WHERE p.started IS NOT NULL"),
-    all("SELECT id, subscription_id, kind, at, plan, days, paid_cents, ends, reason, feedback, comment FROM plan_cancellations " +
+    // The log, with the plans cancelled before it began (lib/cancellations.js ALL_CANCELLATIONS), so each can get a note.
+    all(`SELECT id, subscription_id, kind, at, plan, days, paid_cents, ends, reason, feedback, comment FROM ${ALL_CANCELLATIONS} ` +
         "WHERE counted = 1 AND kind != 'replaced' ORDER BY at DESC LIMIT 200"),
   ]);
-  // Whether Patrick can write to each (lib/winback.js), and the notes written.
+  // Whether we can write to each (lib/winback.js), and the notes written.
   const { states, notes } = await noteStates(env, log.map(c => c.id));
   const everyone = rows.filter(r => PAID.includes(r.plan)).map(r => subscriberOf(r, now));
   const subscribers = paidOnly ? everyone.filter(s => s.paid > 0) : everyone;
@@ -137,6 +139,6 @@ export async function retentionReport(env, { paidOnly = false, now = Date.now() 
       days: c.days, kept: keptFor(c.days), paid: c.paid_cents, ends: c.ends, reason: c.kind === "undone" ? "" : whyOf(c),
       feedback: FEEDBACK[c.feedback] ? c.feedback : null, comment: c.comment || "",
       note: states[c.id] || "not this one", written: notes[c.subscription_id] || null })),
-    template: TEMPLATE,
+    templates: templates(), template: TEMPLATE,
   };
 }

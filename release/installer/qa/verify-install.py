@@ -13,7 +13,9 @@ def sha(path):
 
 def verify(candidate, directory, manifest_path, selection):
     data = json.loads(manifest_path.read_text(encoding='utf-8-sig'))
-    addons = directory / '_classic_beta_' / 'Interface' / 'AddOns'
+    # WoW Forever's launch client, else the beta's: the folder Setup installs into.
+    flavor = next((f for f in ('_forever_', '_classic_beta_') if (directory / f).is_dir()), '_forever_')
+    addons = directory / flavor / 'Interface' / 'AddOns'
     wanted = list(data['selections']['base'])
     if selection != 'base':
         wanted += data['selections'][selection]

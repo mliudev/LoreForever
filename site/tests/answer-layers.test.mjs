@@ -7,7 +7,7 @@ import assert from "node:assert/strict";
 import { onRequest } from "../functions/api/companion/answer.js";
 import { findOrCreateUser, setup } from "../lib/accounts.js";
 import { startLink, decideLink, claimToken } from "../lib/devices.js";
-import { SAY_MAX_CHARS, REST_LINES, splitLayers, sayOf, spokenNumbers } from "../lib/companion-answers.js";
+import { SAY_MAX_CHARS, splitLayers, sayOf, spokenNumbers } from "../lib/companion-answers.js";
 import { groundedWritten, inWorld } from "../lib/willo-guards.js";
 import { d1 } from "./helpers.mjs";
 
@@ -18,8 +18,11 @@ let calls, stream, release;
 const SAID = "Thrall leads the Horde from Orgrimmar. I've written the rest out for you.";
 // What she says of it: her words without the model's line about the rest (she says her whole answer, 10/21).
 const SAYS = splitLayers(`${SAID}\n~~~\nmore`).say;
-const WRITTEN = "Thrall leads the Horde from Orgrimmar, in Durotar.\n1. Take the zeppelin from Tirisfal Glades.\n" +
+// What the model writes after the mark: the rest of her written answer, after her words (LOR-771).
+const WRITTEN = "Orgrimmar stands in Durotar.\n1. Take the zeppelin from Tirisfal Glades.\n" +
   "2. Walk west through the gates to the Valley of Wisdom.";
+// Her written answer: her words, then the rest, so she reads it once from the top.
+const ANSWER = `${SAYS} ${WRITTEN}`;
 const sse = chunk => `data: ${JSON.stringify(chunk)}\r\n\r\n`;
 const part = text => ({ candidates: [{ content: { parts: [{ text }] } }] });
 
@@ -96,7 +99,7 @@ test("her spoken words go out first, before the written answer is done, and the 
   release();
   const answer = await read.next();
   assert.equal(answer.ok, true);
-  assert.equal(answer.answer, WRITTEN, "the written answer in full, without her spoken words or the mark");
+  assert.equal(answer.answer, ANSWER, "the written answer in full: her words, then the rest, without the mark");
   assert.equal(answer.say, SAYS);
   assert.equal(await read.next(), null);
   assert.match(calls[0].url, /:streamGenerateContent\?alt=sse$/);
@@ -131,7 +134,8 @@ test("a reply with no mark is said from its start, cut at a sentence, and writte
   const body = await res.json();
   assert.equal(body.answer, long);
   assert.ok(body.say.length <= SAY_MAX_CHARS && body.say.endsWith(".") && long.startsWith(body.say), body.say);
-  assert.ok(!REST_LINES.some(l => body.say.includes(l)), "no line about the rest: she says her whole answer (10/21)");
+  assert.doesNotMatch(body.say, /written (?:the rest|the details|it all)|rest is written/i,
+    "no line about the rest: she says her whole answer (10/21)");
   assert.equal(body.rest, undefined);
 });
 
@@ -147,17 +151,17 @@ test("her spoken words get the answer's own last checks", async () => {
 });
 
 test("the two layers split on the mark; her words are cut at a sentence within SAY_MAX_CHARS", () => {
-  assert.deepEqual(splitLayers(`${SAID}\n~~~\n${WRITTEN}`), { say: SAYS, text: WRITTEN });
+  assert.deepEqual(splitLayers(`${SAID}\n~~~\n${WRITTEN}`), { say: SAYS, text: ANSWER });
   assert.equal(SAYS, "Thrall leads the Horde from Orgrimmar.", "the model's line about the rest is dropped (10/21)");
   for (const w of ["Go east.", "Ask the guard.", "Fly north."])
     assert.equal(splitLayers(`${w} I have written the rest out for you.\n~~~\nmore`).say, w);
-  assert.deepEqual(splitLayers(WRITTEN), { text: WRITTEN, say: "Thrall leads the Horde from Orgrimmar, in Durotar. Take " +
+  assert.deepEqual(splitLayers(WRITTEN), { text: WRITTEN, say: "Orgrimmar stands in Durotar. Take " +
     "the zeppelin from Tirisfal Glades. Walk west through the gates to the Valley of Wisdom." }, "no mark: its start, unlisted");
   assert.deepEqual(splitLayers(`Go [east](https://example.com).\n ~~~ \nSee https://example.com now.`),
-    { say: "Go east.", text: "See  now." });
+    { say: "Go east.", text: "Go east. See  now." });
   // Glued to her last sentence (3.6 Flash, the vision check 10/19): she never says the mark or what comes after it.
   assert.deepEqual(splitLayers("You're in the Trade District.~~~That is Hurin, by the bank."),
-    { say: "You're in the Trade District.", text: "That is Hurin, by the bank." });
+    { say: "You're in the Trade District.", text: "You're in the Trade District. That is Hurin, by the bank." });
   const words = "Thrall leads the Horde. ".repeat(30);
   const cut = sayOf(words);
   assert.ok(cut.length <= SAY_MAX_CHARS && cut.endsWith("Horde."));
@@ -166,7 +170,7 @@ test("the two layers split on the mark; her words are cut at a sentence within S
   assert.equal(spokenNumbers("Shadowfang Keep, from level 18. Head to 34, 51 on your map."),
     "Shadowfang Keep, from level eighteen. Head to thirty-four, fifty-one on your map.");
   assert.equal(spokenNumbers("Skill 120, patch 1.12"), "Skill one hundred twenty, patch 1.12");
-  assert.deepEqual(splitLayers("Go to level 18.\n~~~\nLevel 18, at 34, 51."), { say: "Go to level eighteen.", text: "Level 18, at 34, 51." });
+  assert.deepEqual(splitLayers("Go to level 18.\n~~~\nLevel 18, at 34, 51."), { say: "Go to level eighteen.", text: "Go to level eighteen. Level 18, at 34, 51." });
 });
 
 test("when the written answer says more than her early words, no line about it: the app says the rest itself (10/21)", async () => {

@@ -273,7 +273,7 @@ function donationHtml(d) {
         voice; anything it doesn't have plays in the default voice.</p>
       <p class="st-dl"><a class="btn-download" href="${API}pack?id=${encodeURIComponent(d.id)}">Download my test pack</a>
         <span>${d.pack?.lines ? `${d.pack.lines} narrations · ` : ""}${d.pack?.bytes ? `${Math.max(1, Math.round(d.pack.bytes / 1048576))} MB` : ""}</span></p>
-      <ol><li>Unzip it into <code>World of Warcraft\\_classic_beta_\\Interface\\AddOns</code>.</li>
+      <ol><li>Unzip it into <code>World of Warcraft\\_forever_\\Interface\\AddOns</code>.</li>
         <li>Type <code>/reload</code> in game.</li>
         <li>Choose <b>${esc(d.pack?.title || "your voice")}</b> under Options › AddOns › Lore Forever › Narration voice.</li></ol>
       <p>Tell us what you think on <a href="/discord?src=voices">Discord</a>. Don't like it? Withdraw it below.</p>`,

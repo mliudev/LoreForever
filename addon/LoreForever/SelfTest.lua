@@ -443,6 +443,7 @@ check("panel", {
     local UI = ns.UI
     if not UI.frame:IsShown() then UI.frame:Show() end
     UI.ShowTab("here")
+    ns.Page.Hide()   -- a story's page over the conversation (it comes back at the end)
   end,
   function(c)
     local UI, f = ns.UI, ns.UI.frame
@@ -454,7 +455,7 @@ check("panel", {
     c.box = rect(f)
     expect("panel opens on screen", not why, why or (c.box and ("at " .. fmt(c.box)) or "shown"))
     local parts = {
-      { "Here tab", UI.tabs[1], true }, { "Library tab", UI.tabs[2], true }, { "New chat", UI.newButton, true },
+      { "Here tab", UI.tabs[1], true }, { "Found tab", UI.tabs[2], true }, { "New chat", UI.newButton, true },
       { "History", UI.historyButton, true }, { "Journey", UI.journeyButton, true }, { "where you are", UI.contextLine, true },
       { "conversation", UI.scroll }, { "message box", UI.input }, { "player", UI.dock },
       { "player's Play", UI.dock and UI.dock.play }, { "player's Queue", UI.dock and UI.dock.queue, true },
@@ -462,29 +463,33 @@ check("panel", {
     if ns.Companion.OfferWillo() then parts[#parts + 1] = { "Willo's icon", UI.willoIcon } end   -- LOR-601
     widgets("panel: header, tabs, conversation, message box, player", parts, c.box)
     local extra = {}
-    if UI.tab ~= "here" or UI.narrView:IsShown() then extra[1] = "the Library shows instead" end
+    if UI.tab ~= "here" or UI.foundView:IsShown() then extra[1] = "Found shows instead" end
     widgets("Here tab", { { "list", UI.hereView }, { "heading", UI.hereHeader, true },
       { "Your quests", UI.questHeader, true } }, c.box, extra)
   end,
 })
 
-check("Library tab", {
+check("Found tab", {
   function(c)
     if not ns.UI.frame:IsShown() then ns.UI.frame:Show() end
-    ns.UI.ShowTab("narrations")
+    ns.UI.ShowTab("found")
   end,
   function(c)
-    local UI = ns.UI
-    local first
-    for _, r in ipairs(UI.narrRows or {}) do
+    local UI, B = ns.UI, ns.Book
+    local first, tile
+    for _, r in ipairs(B.sideRows or {}) do
       if r:IsShown() then first = r break end
     end
+    for _, t in ipairs(B.tiles or {}) do
+      if t:IsShown() then tile = t break end
+    end
     local extra = {}
-    if UI.tab ~= "narrations" or UI.hereView:IsShown() then extra[#extra + 1] = "the Here list shows instead" end
-    if not first and next(ns.Voice.Clips()) then extra[#extra + 1] = "no rows, though narrations are installed" end
-    local items = { { "list", UI.narrView }, { "search box", UI.narrSearch } }
-    items[#items + 1] = first and { "first row", first, true, true } or { "note", UI.narrEmpty, true }
-    widgets("Library tab", items, c.box, extra)
+    if UI.tab ~= "found" or UI.hereView:IsShown() then extra[#extra + 1] = "the Here list shows instead" end
+    if not first and ns.Collection.Counts() > 0 then extra[#extra + 1] = "no chapters, though pages are found" end
+    local items = { { "list", UI.foundView }, { "search box", B.search }, { "pages", B.frame } }
+    if first then items[#items + 1] = { "first chapter", first, true, true } end
+    items[#items + 1] = tile and { "first page", tile, false, true } or { "note", B.empty, true }
+    widgets("Found tab", items, c.box, extra)
     UI.ShowTab("here")
   end,
 })
@@ -920,7 +925,7 @@ local function pauseResume(name, story, what)
         for key, r in pairs(type(data) == "table" and type(data.transport) == "table" and data.transport or {}) do
           -- The pack that plays it: with a mix of builds installed, another voice's pack may come first.
           local pack = type(r) == "table" and r.chain == true and (r.fullHash ~= nil) == story and V.HasAudio(key)
-            and V.CanPlay(key) and V.PackOf((V.active[key] or V.answerPaths[key] or {})[1])
+            and V.CanPlay(key) and V.PackOf((V.active[key] or {})[1])
           local row = pack and V.Transport(key, pack, story)
           local first = row and row.chain and row.rates[1][1]
           if first and (not best or first.duration < best.first.duration) then
@@ -1076,6 +1081,7 @@ local function snapshot()
     recapped = ch and ch.recapped,
     shown = UI.frame:IsShown(), tab = UI.tab, queue = UI.plView:IsShown(), history = UI.historyFrame:IsShown(),
     journey = J.IsShown(), msgs = list(UI.msgs), blocks = list(UI.blocks), welcomeFor = UI.welcomeFor,
+    page = ns.Page.IsShown() and ns.Page.key or nil, pageStack = list(ns.Page.stack or {}),
     nav = { keys = list(UI.nav.keys), pos = UI.nav.pos }, lastKey = UI.engine.lastKey, race = UI.engine.race,
     pl = { items = list(UI.pl.items), pos = UI.pl.pos, state = UI.pl.state },
     miniClosed = UI.miniClosed, progress = copy(UI.progress), playback = copy(LoreForeverDB.playback),
@@ -1122,6 +1128,12 @@ local function putBack()
     if not UI.frame:IsShown() then UI.frame:Show() end
     UI.ShowQueue(st.queue)
     if st.journey then J.Show() else J.Hide() end
+    if st.page then
+      ns.Page.Show(st.page)
+      ns.Page.stack = list(st.pageStack)
+    else
+      ns.Page.Hide()
+    end
     if st.history and not UI.historyFrame:IsShown() then
       UI.RefreshHistory()
       UI.historyFrame:Show()

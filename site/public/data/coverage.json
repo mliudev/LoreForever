@@ -1,9 +1,9 @@
 {
- "generated": "2026-10-22",
+ "generated": "2026-10-23",
  "forever_only": {
-  "quests_known": 547,
-  "quests_with_text": 505,
-  "narrated": 400,
+  "quests_known": 498,
+  "quests_with_text": 460,
+  "narrated": 363,
   "npcs_known": 225,
   "npcs_with_text": 68
  },
@@ -11,9 +11,9 @@
   {
    "zone": "Other",
    "key": "general",
-   "quests": 430,
-   "with_text": 388,
-   "narrated": 290
+   "quests": 385,
+   "with_text": 347,
+   "narrated": 257
   },
   {
    "zone": "Zephras Isle",
@@ -25,9 +25,9 @@
   {
    "zone": "Tirisfal Glades",
    "key": "tirisfal",
-   "quests": 15,
-   "with_text": 15,
-   "narrated": 15
+   "quests": 14,
+   "with_text": 14,
+   "narrated": 14
   },
   {
    "zone": "Wetlands",
@@ -74,9 +74,9 @@
   {
    "zone": "Redridge Mountains",
    "key": "redridge",
-   "quests": 5,
-   "with_text": 5,
-   "narrated": 5
+   "quests": 4,
+   "with_text": 4,
+   "narrated": 4
   },
   {
    "zone": "Durotar",
@@ -135,22 +135,8 @@
    "narrated": 1
   },
   {
-   "zone": "Ironforge",
-   "key": "ironforge",
-   "quests": 1,
-   "with_text": 1,
-   "narrated": 1
-  },
-  {
    "zone": "Mulgore",
    "key": "mulgore",
-   "quests": 1,
-   "with_text": 1,
-   "narrated": 1
-  },
-  {
-   "zone": "Orgrimmar",
-   "key": "orgrimmar",
    "quests": 1,
    "with_text": 1,
    "narrated": 1
@@ -203,20 +189,6 @@
    "kind": "quest",
    "id": 97951,
    "name": null,
-   "zone": "Other",
-   "level": null
-  },
-  {
-   "kind": "quest",
-   "id": 99191,
-   "name": "A Donation of Wool",
-   "zone": "Other",
-   "level": null
-  },
-  {
-   "kind": "quest",
-   "id": 99196,
-   "name": "A Donation of Wool",
    "zone": "Other",
    "level": null
   },
@@ -362,13 +334,6 @@
   },
   {
    "kind": "quest",
-   "id": 94472,
-   "name": "Earth Sapta",
-   "zone": "Other",
-   "level": null
-  },
-  {
-   "kind": "quest",
    "id": 97286,
    "name": "Forscherzugang",
    "zone": "Other",
@@ -455,13 +420,6 @@
    "kind": "quest",
    "id": 99080,
    "name": "Vertreibt sie",
-   "zone": "Other",
-   "level": null
-  },
-  {
-   "kind": "quest",
-   "id": 94616,
-   "name": "Water Sapta",
    "zone": "Other",
    "level": null
   },

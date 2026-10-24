@@ -11,6 +11,8 @@
 //                                                 fired?}; LOR-663)
 //   POST /api/notebook/fire   {id}             Willo said it: -> {fired}, true only for the first device to say so
 //   POST /api/notebook/cancel {id}             a reminder gone -> {reminders}
+//   POST /api/notebook/snooze {id}             said, and wanted again: back as a reminder an hour from now, at a time
+//                                                 (her bubble's "Snooze 1 hour") -> {reminders}
 //   POST /api/notebook/erase                   every page and every reminder ("What Willo keeps", LOR-666) -> {}
 //   POST /api/notebook/goals  {character, stock}  after a save in the game: how their goals stand (lib/willo-goals.js
 //                                                 goalChecks, LOR-665) -> {checks: [{goal, page, reached, mark, line}],
@@ -24,7 +26,7 @@
 import { setup, currentUser, fail, noStore, sameOrigin } from "../../../lib/accounts.js";
 import { currentDevice } from "../../../lib/devices.js";
 import { perMinute, slowDown } from "../../../lib/ratelimit.js";
-import { pageOf, allPages, savePage, undoPage, deletePage, allReminders, fireReminder, cancelReminder, eraseNotebook,
+import { pageOf, allPages, savePage, undoPage, deletePage, allReminders, fireReminder, cancelReminder, snoozeReminder, eraseNotebook,
   readNotebook, notebookView, plannedChange, NotebookError, PAGE_BYTES } from "../../../lib/willo-notebook.js";
 import { stockOf, goalsOf, goalChecks } from "../../../lib/willo-goals.js";
 import { planFor, plansOn } from "../../../lib/billing.js";
@@ -108,6 +110,11 @@ const POSTS = {
   cancel: async ({ env }, input, user) => {
     if (!REMINDER_ID.test(input.id || "")) return fail(400, "Couldn't tell which reminder that is.");
     await cancelReminder(env, user.id, input.id);
+    return ok({ reminders: await allReminders(env, user.id) });
+  },
+  snooze: async ({ env }, input, user) => {
+    if (!REMINDER_ID.test(input.id || "")) return fail(400, "Couldn't tell which reminder that is.");
+    if (!(await snoozeReminder(env, user.id, input.id))) return fail(404, "That reminder isn't there any more.");
     return ok({ reminders: await allReminders(env, user.id) });
   },
   erase: async ({ env }, input, user) => {
