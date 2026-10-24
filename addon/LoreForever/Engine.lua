@@ -150,18 +150,55 @@ local function stem(w)
   return w
 end
 
-local function tokenize(text, keepStop, noBigrams)
-  local out, raw = {}, {}
-  text = unpunct(Engine.lower(text)):gsub("'s%f[%A]", ""):gsub("'", ""):gsub("[^%w%s\128-\255]", " ")
-  for w in text:gmatch("[%w\128-\255]+") do
-    raw[#raw + 1] = w
-    if keepStop or not STOP[w] then
-      out[#out + 1] = stem(w)
+-- Chinese: full-width forms become their ASCII letters and punctuation, the rest of that block and CJK punctuation
+-- (，。、《》 and the ideographic space) a space.
+local function cjkSpace(s)
+  if not s:find("[\227\239]") then return s end
+  return (s:gsub("\239\188([\129-\191])", function(c) return string.char(c:byte() - 96) end)   -- U+FF01-FF3F
+    :gsub("\239\189([\128-\158])", function(c) return string.char(c:byte() - 32) end)           -- U+FF40-FF5E
+    :gsub("\239[\188-\191][\128-\191]", " "):gsub("\227\128[\128-\191]", " "))
+end
+
+-- Chinese has no spaces between words, so a run of Han characters (U+3400-U+9FFF) is its overlapping pairs:
+-- "暴风城的历史" is 暴风 风城 城的 的历 历史, and a name inside a sentence matches the name asked for. A lone character
+-- stays itself. Calls add(word, isHan) for each word of w, with anything around the Han run as it is.
+local function hanWords(w, add)
+  local run, other = {}, {}
+  local function flush()
+    if #other > 0 then add(table.concat(other)); other = {} end
+    if #run == 1 then add(run[1], true) end
+    for i = 1, #run - 1 do add(run[i] .. run[i + 1], true) end
+    run = {}
+  end
+  for c in w:gmatch("[\1-\127\192-\255][\128-\191]*") do
+    local b, b2 = c:byte(1, 2)
+    if #c == 3 and ((b >= 228 and b <= 233) or (b == 227 and b2 >= 144)) then
+      if #other > 0 then flush() end
+      run[#run + 1] = c
+    else
+      if #run > 0 then flush() end
+      other[#other + 1] = c
     end
   end
-  -- Joined bigrams catch "van cleef" -> "vancleef", "sentinel hill" -> "sentinelhill".
+  flush()
+end
+
+local function tokenize(text, keepStop, noBigrams)
+  local out, raw, han = {}, {}, {}
+  local function add(w, isHan)
+    raw[#raw + 1] = w
+    han[#raw] = isHan
+    if keepStop or not STOP[w] then
+      out[#out + 1] = isHan and w or stem(w)
+    end
+  end
+  text = unpunct(Engine.lower(cjkSpace(text or ""))):gsub("'s%f[%A]", ""):gsub("'", ""):gsub("[^%w%s\128-\255]", " ")
+  for w in text:gmatch("[%w\128-\255]+") do
+    if w:find("[\227-\233]") then hanWords(w, add) else add(w) end
+  end
+  -- Joined bigrams catch "van cleef" -> "vancleef", "sentinel hill" -> "sentinelhill". Han pairs are bigrams already.
   for i = 1, noBigrams and 0 or #raw - 1 do
-    if not STOP[raw[i]] and not STOP[raw[i + 1]] then
+    if not (han[i] or han[i + 1]) and not STOP[raw[i]] and not STOP[raw[i + 1]] then
       out[#out + 1] = raw[i] .. raw[i + 1]
     end
   end

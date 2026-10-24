@@ -5,7 +5,7 @@
 --   - a card at the top of the conversation the first time the panel opens: the headline changes, everything else
 --     one click away, and a close button;
 --   - a green "New" on each option the notes name ("Options > ..."), until Options has been opened once, and on the
---     Journey button, the Library tab or History when the headline changes mention them, until that page has been
+--     Journey button, the Found tab or History when the headline changes mention them, until that page has been
 --     opened once;
 --   - a line in the minimap button's tooltip, until the card has been seen.
 -- A fresh install starts with all of it seen: everything is new to a new player, and the welcome card covers that.
@@ -21,7 +21,7 @@ local GOLD = T.code.gold
 
 local HIGHLIGHTS = 3   -- the headline changes: the first ones with a lead-in, as on the website
 -- The pages a "New" can sit on, and the word in the headline changes that puts it there (the notes are English).
-local PAGES = { journey = "Journey", narrations = "Library", history = "History" }
+local PAGES = { journey = "Journey", found = "Found", history = "History" }
 local NEW_COLOR = { 0.12, 1, 0, 1 }   -- the game's uncommon green, as the site's "New" tags
 
 local function S() return LoreForeverDB.settings end
@@ -45,7 +45,7 @@ end
 
 function WN.Version() return ns.Notes and ns.Notes.version end
 
--- Whether `what` ("line", "card", "options", "journey", "narrations", "history") still has news to show.
+-- Whether `what` ("line", "card", "options", "journey", "found", "history") still has news to show.
 function WN.Pending(what)
   local n = news()
   return n ~= nil and not n[what]

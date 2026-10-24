@@ -33,6 +33,14 @@ P.transport["npc:arcanist-doan"] = {
     {file = "Audio/Transport/full_npc_arcanist-doan-9e2566fd991ff3ffda2d/1-0000.mp3", duration = 102.896327, start = 0},
   },
 }
+P.transport["npc:baron-aquanis"] = {
+  hash = "c0bb06",
+  fullHash = "c0bb06",
+  text = "Baron Aquanis. Baron Aquanis is a powerful water elemental of the flooded Moonshrine Ruins in Blackfathom Deeps, where the Twilight's Hammer has made its lair. He rises from the deep water when someone disturbs the ruins' Fathom Stone. The shamans of the Earthen Ring have long thought him a corrupted elemental power, and they suspect the cult is behind it. Submerged beneath the flooded halls of the Moonshrine Ruins, the Fathom Stone lies right under the noses of the Twilight's Hammer cultists who now occupy the ruins. Inside it is a fathom core, a device that, properly read, tells the history of all elemental activity around it. Je'neu Sancrea of the Earthen Ring sends Horde adventurers to recover the core, and disturbing the stone draws Baron Aquanis up from the depths.",
+  ["1"] = {
+    {file = "Audio/Transport/full_npc_baron-aquanis-e4df1cf37ff19ce7d69d/1-0000.mp3", duration = 46.4979592, start = 0},
+  },
+}
 P.transport["npc:baron-silverlaine"] = {
   hash = "8c96b4",
   fullHash = "ff6fac",
@@ -87,6 +95,14 @@ P.transport["npc:captain-greenskin"] = {
   text = "Captain Greenskin. Captain Greenskin is an elite goblin pirate overseeing the construction and crew of Edwin VanCleef's massive ironclad juggernaut. Hidden deep in the subterranean cove of the Deadmines, he commands the pirate forces hired by the Defias Brotherhood. His goal is to bring the warship to readiness to sail against Stormwind. Pacing the main deck of the gigantic juggernaut under construction in the Deadmines cove, Captain Greenskin represents the naval backbone of the Defias conspiracy. A seasoned goblin mariner, Greenskin was brought into Edwin VanCleef's inner circle to turn an underground cavern into a drydock for an engine of war. Greenskin does not command an ordinary crew of stonemasons or bandits. Under his direct watch serve seasoned cutthroats, including his fearsome tauren first mate Mr. Smite and the murloc ship's cook, Cookie. Together, they hold the ship's gangplanks and upper deck, standing between intruders and VanCleef's private cabin atop the bridge.",
   ["1"] = {
     {file = "Audio/Transport/full_npc_captain-greenskin-1857560726d17bb01055/1-0000.mp3", duration = 62.4587755, start = 0},
+  },
+}
+P.transport["npc:charlga-razorflank"] = {
+  hash = "050560",
+  fullHash = "050560",
+  text = "Charlga Razorflank. Charlga Razorflank, widely known as the Crone of the Kraul, is the fierce and cunning geomancer chieftain presiding over Razorfen Kraul. Under her leadership, the Razorfen quilboar drove the tauren out of the southern Barrens through ruthless expansion. Within the tangled, massive brambles of Razorfen Kraul rules Charlga Razorflank. Revered by her people as a master geomancer whose experimental magic remains unmatched among quilboar, Charlga organized her fractious kin into a unified, lethal threat. She harnessed the primal earth and giant thorns sprouting from the demigod Agamaggan's remains, reshaping the labyrinthine Kraul into an impenetrable fortress.",
+  ["1"] = {
+    {file = "Audio/Transport/full_npc_charlga-razorflank-81ae4ae0ba303c31b1d7/1-0000.mp3", duration = 42.4228571, start = 0},
   },
 }
 P.transport["npc:commander-springvale"] = {
@@ -161,6 +177,14 @@ P.transport["npc:ghamoo-ra-classic"] = {
     {file = "Audio/Transport/full_npc_ghamoo-ra-classic-a1df3459268d71fe1c8f/1-0000.mp3", duration = 47.124898, start = 0},
   },
 }
+P.transport["npc:gilnid"] = {
+  hash = "eee2b5",
+  fullHash = "eee2b5",
+  text = "Gilnid. Gilnid, known as the Smelter, is the goblin master engineer running the forges in the depths of the Deadmines. He oversees the smelting of raw ore into refined metal and munitions for Edwin VanCleef's hidden ironclad juggernaut. Without his fiery operations, the Defias Brotherhood would lack the heavy cannons needed to assault Stormwind. Deep within the Deadmines, the Defias Brotherhood relies on industrial expertise to forge weapons of war. Gilnid serves as VanCleef's head smelter, commanding a small army of goblin laborers, tinkers, and smiths in the central foundry. Towering over most of his kin, he drives his crew relentlessly through smoke and slag, barking orders and refusing breaks to ensure raw iron ore is processed into heavy plating and lethal ordnance.",
+  ["1"] = {
+    {file = "Audio/Transport/full_npc_gilnid-712d9de839cae157303c/1-0000.mp3", duration = 49.6065306, start = 0},
+  },
+}
 P.transport["npc:hamhock"] = {
   hash = "3cd297",
   fullHash = "58f630",
@@ -191,6 +215,22 @@ P.transport["npc:houndmaster-loksey"] = {
   text = "Houndmaster Loksey. Houndmaster Loksey is the officer charged with breeding and training the fearsome war dogs of the Scarlet Crusade. Stationed in the Scarlet Monastery's Library wing, he directs packs of hounds to hunt down undead, intruders, and perceived heretics. His merciless discipline has made the Monastery's beasts infamous throughout Tirisfal Glades. Within the heavily fortified walls of the Scarlet Monastery, Houndmaster Loksey commands the training of vicious tracking and attack dogs. The Scarlet Crusade relies on these trained hounds to sniff out plague-tainted corpses, uncover hidden infiltrators, and run down any survivors fleeing the zealots' wrath. Loksey holds absolute authority over the hounds guarding the Library wing, ensuring his charges are primed to tear intruders apart limb by limb. Loksey is not the only beast handler in his family serving the cause. His brother, Huntsman Leopold, serves as the Scarlet Crusade's envoy to the Argent Dawn at Light's Hope Chapel. Leopold holds a low opinion of his brother, privately asserting that Loksey can barely manage his own hounds, let alone represent the order in high-stakes diplomacy. Despite Leopold's scorn, Loksey remains a key officer within the Monastery's inner hierarchy.",
   ["1"] = {
     {file = "Audio/Transport/full_npc_houndmaster-loksey-b1e27b10ec50d06fbb4f/1-0000.mp3", duration = 75.7028571, start = 0},
+  },
+}
+P.transport["npc:interrogator-vishas"] = {
+  hash = "32eb7e",
+  fullHash = "32eb7e",
+  text = "Interrogator Vishas. Interrogator James Vishas is the Scarlet Crusade's master of torment, stationed deep within the Scarlet Monastery's Graveyard wing. Infamous for his shrill voice and sheer cruelty, he takes twisted pleasure in breaking captives and testing the limits of mortal flesh. Few who enter his torture chambers ever leave with their minds or bodies intact. Within the dark crypts and burial grounds of the Scarlet Monastery, Interrogator Vishas tends to the Crusade's captive enemies. While the zealots outside march in gleaming armor under banners of purity, Vishas represents the grim reality behind their crusade: unbridled sadism cloaked in religious righteous fury. He approaches interrogation not merely as an intelligence duty, but as a prized craft, reveling in the agony of Forsaken captives, captured Scourge, and any living travelers unlucky enough to be branded heretics.",
+  ["1"] = {
+    {file = "Audio/Transport/full_npc_interrogator-vishas-62b6f2f202d368ab846b/1-0000.mp3", duration = 53.6032653, start = 0},
+  },
+}
+P.transport["npc:jergosh-the-invoker"] = {
+  hash = "973644",
+  fullHash = "973644",
+  text = "Jergosh the Invoker. Jergosh the Invoker is a treacherous orc warlock hiding deep within Ragefire Chasm beneath Orgrimmar. As a high-ranking leader among the Searing Blade cultists, he practices demonic arts directly under the Warchief's nose and plots against the Horde. While Thrall works tirelessly to lead the orcs along a path of honor and shamanism, Jergosh rejected these ideals in favor of raw demonic power. Concealing himself within the subterranean labyrinth of Ragefire Chasm beneath Orgrimmar, he gathered followers into the Searing Blade, an insidious sect aligned with the remnants of the Shadow Council. Operating in the shadows directly below the Horde capital, Jergosh works to undo everything the new Horde stands for.",
+  ["1"] = {
+    {file = "Audio/Transport/full_npc_jergosh-the-invoker-255b337bcd1b53efbe5e/1-0000.mp3", duration = 44.7216327, start = 0},
   },
 }
 P.transport["npc:kam-deepfury"] = {
@@ -313,6 +353,14 @@ P.transport["npc:rhahk-zor"] = {
     {file = "Audio/Transport/full_npc_rhahk-zor-080c94c578d153002817/1-0000.mp3", duration = 64.0522449, start = 0},
   },
 }
+P.transport["npc:scarlet-commander-mograine"] = {
+  hash = "53fc83",
+  fullHash = "53fc83",
+  text = "Scarlet Commander Mograine. Scarlet Commander Mograine serves as the military leader garrisoned inside the Cathedral of the Scarlet Monastery. A zealous paladin of the Scarlet Crusade, he defends the chapel alongside High Inquisitor Whitemane. Both the Horde and Alliance target him to disrupt the zealots threatening Tirisfal Glades and the surrounding lands. Stationed within the grand Crusader's Chapel at the heart of the Scarlet Monastery, Scarlet Commander Mograine commands the standing garrison of the Scarlet Crusade. He wields the holy power of a paladin with ferocious dedication, relying on retribution, divine shields, and stunning blows to shatter any whom the Crusade deems corrupted or unclean.",
+  ["1"] = {
+    {file = "Audio/Transport/full_npc_scarlet-commander-mograine-1d252fc6ea328c45ac22/1-0000.mp3", duration = 42.004898, start = 0},
+  },
+}
 P.transport["npc:sneed"] = {
   hash = "c4901b",
   fullHash = "ec56b9",
@@ -327,6 +375,14 @@ P.transport["npc:sneed-s-shredder"] = {
   text = "Sneed's Shredder. Sneed's Shredder is an imposing mechanised lumber harvester stationed deep within the Deadmines. Piloted by the goblin taskmaster Sneed, this deadly machine acts as both heavy industrial machinery for Edwin VanCleef's shipwrights and a terrifying perimeter defender. Within the goblin-dominated foundry of the Deadmines, mechanical shredders serve a dual purpose: processing vast amounts of timber and lumber required for Edwin VanCleef's hidden juggernaut, and serving as armored shock engines against intruders. Sneed, the overseer of the lumber works, operates this modified mechanical beast directly, turning an oversized buzzsaw into an instrument of defense. Defeating the machine does not end the threat. Sneed perches inside an open cockpit above the spinning blades, relying on heavy iron plating and terrifying clatter to scatter his foes. Even when the machinery breaks down and the shredder collapses in a shower of sparks, Sneed leaps from the smoking wreckage to fight to the bitter end.",
   ["1"] = {
     {file = "Audio/Transport/full_npc_sneed-s-shredder-2f9055236af70c65440b/1-0000.mp3", duration = 59.4285714, start = 0},
+  },
+}
+P.transport["npc:taragaman-the-hungerer"] = {
+  hash = "f52118",
+  fullHash = "f52118",
+  text = "Taragaman the Hungerer. Taragaman the Hungerer is a hulking felguard lurking within the molten caverns of Ragefire Chasm beneath Orgrimmar. While widely feared as the demonic master behind the Searing Blade cult, his presence in the fiery depths serves a darker, more deceptive purpose. The Horde seeks his destruction to eliminate the demonic taint poisoning the city's underbelly. Prowling amidst the magma pools of Ragefire Chasm, Taragaman the Hungerer represents an immediate and terrifying threat to the safety of Orgrimmar. For many scouts and young warriors sent into the dark chasm, the demonic felguard appears to be the central ringleader of the Searing Blade cultists, wielding infernal strength to bend the weak-willed and corrupt the subterranean passages beneath Thrall's fortress.",
+  ["1"] = {
+    {file = "Audio/Transport/full_npc_taragaman-the-hungerer-1bdf126b24213045cf1e/1-0000.mp3", duration = 49.2930612, start = 0},
   },
 }
 P.transport["npc:targorr-the-dread"] = {
@@ -407,6 +463,14 @@ P.transport["subzone:shadowglen"] = {
   text = "Shadowglen. Shadowglen is a secluded, twilit vale nestled within the northeastern boughs of Teldrassil. Dominated by the great barrow-tree Aldrassil, it serves as the safe haven where young night elves take their first steps into service before journeying out into the wider world. Tucked away in the northeastern canopy of Teldrassil, Shadowglen is ringed by high ridges that shelter it from the rest of the world. Bathed in eternal dusk, the vale centers on Aldrassil, a massive barrow-tree whose hollowed trunk houses elders, priestesses, and mentors for young night elves beginning their training. The only route out of the valley leads south through a narrow mountain pass toward Starbreeze Village and Dolanaar, making Shadowglen one of the most naturally fortified and peaceful sanctuaries on the World Tree. Despite its tranquil seclusion, Shadowglen is not entirely free from danger. In the extreme northwest lies Shadowthread Cave, a dark cavern infested with venomous spiders that constantly threaten the tranquil glade. Even on the pristine branches of Teldrassil, vigilance is required, and fledgling defenders are tasked with driving back the encroaching vermin and untamed wildlife before venturing into the broader expanse of the boughs beyond.",
   ["1"] = {
     {file = "Audio/Transport/full_subzone_shadowglen-4daccec87a4519df36ae/1-0000.mp3", duration = 74.8930612, start = 0},
+  },
+}
+P.transport["subzone:valley-of-trials"] = {
+  hash = "5fcb12",
+  fullHash = "5fcb12",
+  text = "Valley of Trials. Tucked away behind the rugged red cliffs of southern Durotar, the Valley of Trials serves as the testing ground for new recruits of the Horde. Young orcs and their Darkspear troll allies come here to prove their strength and earn their place among the warriors of Kalimdor. Those who survive the valley's harsh wildlife and hidden threats depart ready to defend their fledgling nation. The Valley of Trials is designed to weed out the weak before they ever set foot in the broader reaches of Durotar. Overseen by chieftains and trainers stationed in the carved cliffside shelter known as The Den, young fighters are thrust into the sun-scorched gulch to hunt scorpids, culled aggressive boars, and enforce discipline among lazy peons harvesting scarce timber. The trial is uncompromising: those who prove their mettle earn the right to venture forth as true soldiers of the Horde, while those who fail are left to bleach beneath the desert sun.",
+  ["1"] = {
+    {file = "Audio/Transport/full_subzone_valley-of-trials-216a0f64d6a053f9b152/1-0000.mp3", duration = 53.6032653, start = 0},
   },
 }
 P.transport["topic:alliance-of-lordaeron"] = {
@@ -1289,6 +1353,14 @@ P.transport["zone:ragefire"] = {
     {file = "Audio/Transport/full_zone_ragefire-f874a99eb80ef447388e/1-0000.mp3", duration = 76.3820408, start = 0},
   },
 }
+P.transport["zone:razorfenkraul"] = {
+  hash = "4bf929",
+  fullHash = "4bf929",
+  text = "Razorfen Kraul. Tucked away in the far south of the Barrens, Razorfen Kraul is the ancestral heartland of Kalimdor's quilboar. These ferocious tribes revere the dense labyrinth of giant brambles as the sacred resting place of their progenitor, the fallen demigod Agamaggan. Today, the Kraul has grown aggressively hostile under the tyranny of the quilboar matriarch Charlga Razorflank, whose dark dealings threaten the entire region. Ten thousand years ago during the apocalyptic War of the Ancients, the colossal wild god Agamaggan threw himself into the fight against the Burning Legion. The great boar was eventually slain in battle, yet his sacrifice preserved life on Azeroth. Legends tell that wherever his blood seeped into the earth, massive thorn-covered vines erupted, forming thick, defensive labyrinths across the southern plains. The quilboar, venerating Agamaggan as their divine ancestor, claimed these colossal thickets as their holy lands, establishing the greatest of them as the Razorfen.",
+  ["1"] = {
+    {file = "Audio/Transport/full_zone_razorfenkraul-e49a8150ca1d703ddd3d/1-0000.mp3", duration = 62.8767347, start = 0},
+  },
+}
 P.transport["zone:redridge"] = {
   hash = "1add3c",
   fullHash = "221caf",
@@ -1359,6 +1431,14 @@ P.transport["zone:silverpine"] = {
   text = "Silverpine Forest. Silverpine Forest is an eerie, mist-laden woodland stretching along Lordaeron's western coast between Tirisfal Glades and the sealed Greymane Wall. Haunted by the lingering scars of the Scourge plague, it serves as the contested southern frontier of the Forsaken. Travelers here face feral worgen roaming the shadows, diseased gnolls, and hostile human enclaves. Once celebrated as a lush wonder of Lordaeron through which noble travelers journeyed to Capital City, Silverpine Forest has withered under the touch of the Third War. Ghostly fogs weave between dying, silver-barked pines, and ruined farmsteads sit abandoned to the wilderness. To the north lies Tirisfal Glades, while the eastern shore borders Lordamere Lake. To the south stands the imposing and shut Greymane Wall, sealing off the isolationist kingdom of Gilneas from the surrounding chaos. The Forsaken maintain their central outpost at the Sepulcher, striving to secure the woods from enemies on all sides. Silverpine's most infamous peril is the worgen curse. High above the southwest woods sits Shadowfang Keep, the former seat of Baron Silverlaine, now dominated by the mad Dalaran archmage Arugal. Seeking to repel the Scourge during the Third War, Arugal summoned extra-dimensional wolf-beasts. The creatures turned on their summoners, spreading a lycanthropic curse across the southern woods. In Pyrewood Village, ordinary-looking human villagers go about their chores by daylight, but transform into savage worgen beneath the night sky.",
   ["1"] = {
     {file = "Audio/Transport/full_zone_silverpine-731f726f7d40268cb85c/1-0000.mp3", duration = 92.6563265, start = 0},
+  },
+}
+P.transport["zone:stockade"] = {
+  hash = "98d55a",
+  fullHash = "98d55a",
+  text = "The Stockade. The Stockade is Stormwind's high-security prison complex, tucked beneath the city's canal district near the Mage Quarter. Built to hold the kingdom's most dangerous cutthroats, political insurgents, and captured enemies of state, the facility has recently collapsed into violent anarchy. Warden Thelwater has been forced back to the threshold, desperately recruiting capable adventurers to crush the riot from within before it spills out into the capital. Beneath the tranquil canals of Stormwind, the Stockade has become a war zone. When the regular army marched out to fight on distant fronts, the understaffed prison leaned on inexperienced youth—including fourteen-year-old recruits—to maintain order. It did not hold. The inmates launched a bloody, coordinated rebellion, tearing their wool blankets into gang scarves and cutting down the remaining guards. Warden Thelwater barely maintained control of the entryway, leaving the cells, hallways, and holding blocks in the ruthless hands of the convicts.",
+  ["1"] = {
+    {file = "Audio/Transport/full_zone_stockade-5d8885f25655a0c04496/1-0000.mp3", duration = 60.2383673, start = 0},
   },
 }
 P.transport["zone:stonetalon"] = {

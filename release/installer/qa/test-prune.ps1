@@ -9,7 +9,8 @@ $qaProof=Get-Content -LiteralPath (Join-Path $BuildDirectory 'qa-build.json') -R
 if((Get-FileHash -LiteralPath $qaProof.setup -Algorithm SHA256).Hash.ToLower() -ne $qaProof.setup_sha256){throw 'Setup differs from its proof'}
 $qaManifest=Join-Path $qaProof.download_directory 'transport-downloads.json'
 if((Get-FileHash -LiteralPath $qaManifest -Algorithm SHA256).Hash.ToLower() -ne $qaProof.download_manifest_sha256){throw 'Download manifest differs from its build proof'}
-$qaAddons=Join-Path $WowDirectory '_classic_beta_\Interface\AddOns'
+$qaFlavor=@('_forever_','_classic_beta_') | Where-Object { Test-Path -LiteralPath (Join-Path $WowDirectory $_) } | Select-Object -First 1
+$qaAddons=Join-Path $WowDirectory "$qaFlavor\Interface\AddOns"
 $qaOld=Join-Path $qaAddons 'LoreForever_Voice_Female_Transport_999_0000000000'
 $qaUnknown=Join-Path $qaAddons 'LoreForever_Voice_Female_Transport_999_1111111111'
 $qaUnselected=Join-Path $qaAddons 'LoreForever_Voice_Default_deDE_Transport_999_0000000000'

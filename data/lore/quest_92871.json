@@ -1,0 +1,85 @@
+{
+ "key": "quest:92871",
+ "type": "quest",
+ "name": "In Service of Zephras",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   92871
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "angles": [],
+ "faq": [
+  {
+   "aliases": [
+    "who is valennia stormfist",
+    "valennia stormfist"
+   ],
+   "answer": "Valennia Stormfist leads the peacekeepers responsible for protecting Zephras. She coordinates the defense of the island, including Valanaar's campaign against the hostile cult known as the Al'Aketh.",
+   "q": "Who is Valennia Stormfist?"
+  },
+  {
+   "aliases": [
+    "what are the windshapers",
+    "windshapers lore"
+   ],
+   "answer": "The Windshapers are an allied group on Zephras who assist Valennia Stormfist and her peacekeepers. They offer their complete backing to Valanaar's forces in combating the rising threat of the Al'Aketh.",
+   "q": "Who are the Windshapers?"
+  },
+  {
+   "aliases": [
+    "who are alaketh",
+    "what is alaketh",
+    "al aketh cult"
+   ],
+   "answer": "The Al'Aketh are a cult operating across the island of Zephras. Reports indicate they are conducting larger-scale movements and preparing for imminent conflict.",
+   "q": "What are the Al'Aketh?"
+  },
+  {
+   "aliases": [
+    "what is zephras",
+    "zephras island"
+   ],
+   "answer": "Zephras is an island defended by Valennia Stormfist and her peacekeepers, where the Windshapers provide aid against threatening cult activity from the Al'Aketh.",
+   "q": "What is Zephras?"
+  },
+  {
+   "aliases": [
+    "what is valanaar",
+    "who is valanaar"
+   ],
+   "answer": "Valanaar represents the organized defense or leadership working alongside Valennia Stormfist against the Al'Aketh on Zephras, supported by the Windshapers.",
+   "q": "What is Valanaar?"
+  }
+ ],
+ "keywords": [
+  "al'aketh",
+  "in service of zephras",
+  "valanaar",
+  "valennia stormfist",
+  "windshapers",
+  "zephras"
+ ],
+ "related": [
+  "quest:92595"
+ ],
+ "sections": [
+  {
+   "body": "Tensions are escalating across the island of Zephras as reports indicate widespread cult activity. The peacekeepers under Valennia Stormfist have long stood guard over these lands, but the Al'Aketh appear to be organizing for a larger conflict. To ensure the island remains protected, the Windshapers have pledged to stand firmly alongside Valanaar's forces should active hostilities erupt.",
+   "spoiler": 0,
+   "title": "Rumors on the Island"
+  },
+  {
+   "body": "You are dispatched to meet with Valennia Stormfist and confirm that the Windshapers stand fully prepared to aid her peacekeepers. Upon hearing of this allied readiness, Valennia welcomes the swift commitment and prepares to discuss the worsening situation regarding the cult.",
+   "spoiler": 0,
+   "title": "Pledging Support"
+  }
+ ],
+ "summary": "Word spreads across Zephras that the Al'Aketh cult is mobilizing for a significant conflict. To bolster the island's defenses, an emissary is sent to reassure Valennia Stormfist that the Windshapers stand ready to support her peacekeepers.",
+ "attribution": [
+  "In-game quest text: In Service of Zephras"
+ ]
+}

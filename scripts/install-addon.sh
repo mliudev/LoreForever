@@ -1,19 +1,51 @@
 #!/usr/bin/env bash
 # Copy the add-on, its default voice pack and any language packs built next to it (addon/LoreForever_Lang_*) into
-# the WoW Forever beta's AddOns folder (a copy, since Windows can't follow WSL symlinks).
+# WoW Forever's AddOns folder (_forever_, else the beta's _classic_beta_; a copy, since Windows can't follow WSL symlinks).
+# FLAVOR=_retail_ (or _classic_era_, ...) installs into another client instead, as a stand-in for UI work while there's
+# no Forever world: the installed copies then carry that client's Interface number (set_interface below).
 set -euo pipefail
 ADDONS_SRC="$(cd "$(dirname "$0")/.." && pwd)/addon"
 FOLDERS=(LoreForever LoreForever_Voice_Default)
 for d in "$ADDONS_SRC"/LoreForever_Lang_*; do [ -d "$d" ] && FOLDERS+=("$(basename "$d")"); done
-# WOW_DIR wins; otherwise take the first drive that has the Forever beta installed.
+# WOW_DIR wins; otherwise take the first drive that has the flavor (default WoW Forever: _forever_, else the beta's
+# _classic_beta_) installed.
 WOW="${WOW_DIR:-}"
 if [ -z "$WOW" ]; then
   for drive in e d c f; do
-    candidate="/mnt/$drive/BattleNet/World of Warcraft/_classic_beta_"
-    if [ -d "$candidate" ]; then WOW="$candidate"; break; fi
+    for flavor in ${FLAVOR:-_forever_ _classic_beta_}; do
+      candidate="/mnt/$drive/BattleNet/World of Warcraft/$flavor"
+      if [ -d "$candidate" ]; then WOW="$candidate"; break 2; fi
+    done
   done
 fi
-[ -n "$WOW" ] || { echo "WoW Forever beta folder not found; set WOW_DIR" >&2; exit 1; }
+[ -n "$WOW" ] || { echo "WoW ${FLAVOR:-Forever} folder not found; set WOW_DIR" >&2; exit 1; }
+
+# The "## Interface:" number the client in $1 (a flavor folder) loads, from World of Warcraft\.build.info's row for
+# its product (.flavor.info): version a.b.c is a*10000 + b*100 + c (1.60.1 -> 16001, 12.1.5 -> 120105). Empty for the
+# Forever clients (wow_classic_beta, wowf), whose number the .toc files already carry, or when it can't tell.
+client_interface() {
+  local product version
+  product="$(tail -n 1 "$1/.flavor.info" 2>/dev/null | tr -d '\r' || true)"
+  case "$product" in wow_classic_beta|wowf|"") return 0 ;; esac
+  version="$(awk -F'|' -v p="$product" '{ sub(/\r$/, "") } NR == 1 { for (i = 1; i <= NF; i++) { split($i, h, "!"); col[h[1]] = i }; next }
+    $col["Product"] == p { print $col["Version"] }' "$1/../.build.info" 2>/dev/null | tr -d '\r' | head -n 1 || true)"
+  [[ "$version" =~ ^([0-9]+)\.([0-9]+)\.([0-9]+) ]] || return 0
+  echo $(( BASH_REMATCH[1] * 10000 + BASH_REMATCH[2] * 100 + BASH_REMATCH[3] ))
+}
+
+# Another client than Forever's: the installed .toc files say its number, so it loads them (Retail ignores "Load out
+# of date AddOns" for a number this old). Only the installed copies change; the repo's, which players get, stay
+# Forever's. Willo's own add-on (LoreForever_Willo) copies the number from LoreForever.toc. INTERFACE=<n> overrides.
+set_interface() {
+  local n="${INTERFACE:-$(client_interface "$WOW")}" toc
+  [ -n "$n" ] || return 0
+  for name in "${FOLDERS[@]}"; do
+    toc="$WOW/Interface/AddOns/$name/$name.toc"
+    [ -f "$toc" ] && [ ! -L "$WOW/Interface/AddOns/$name" ] || continue
+    sed -i "s/^## Interface:.*/## Interface: $n/" "$toc"
+  done
+  echo "Interface set to $n for this client (a stand-in for Forever; the repo's .toc files are unchanged)"
+}
 # Packs in the asset store (LOR-440): their recordings fetched into the gitignored Audio/ first.
 STORE="$ADDONS_SRC/../scripts/audio_store.py"
 [ ! -f "$STORE" ] || python3 "$STORE" hydrate --quiet $(printf -- '--pack %s ' "${FOLDERS[@]}")
@@ -58,4 +90,5 @@ done
 # would delete from the checkout.) A /reload then picks everything up, new add-on folders too (client 1.60.1.70205).
 [ -d "$ADDONS_SRC/LoreForever/Audio" ] || [ -L "$WOW/Interface/AddOns/LoreForever" ] \
   || rm -rf "$WOW/Interface/AddOns/LoreForever/Audio" 2>/dev/null || true
+set_interface
 ls -la "$WOW/Interface/AddOns/LoreForever"

@@ -3,18 +3,15 @@
 
 local _, ns = ...
 ns.Notes = {
-  version = "0.26.0",
-  released = "2026-10-22",
+  version = "0.27.0",
+  released = "2026-10-23",
   items = {
-    { "One Willo everywhere", "a new glass panel over the game, her window, the chat by the wisp and the talk key always show the same chat, draft and answer, and with WoW closed her wisp waits by the clock.", "One Willo everywhere:" },
-    { "Willo says her whole answer", "once, in one bubble, and a play button on every answer says it again. With quest dialogue on, she also reads quest pages nobody recorded.", "Willo says her whole answer:" },
-    { "Free answers last through busy days", "when Willo's light runs low she keeps answering in her own voice, a few a day, before resting.", "Free answers last through busy days:" },
-    { "Story as you play, without spoilers", "stories hold back what your quests haven't shown you yet, chat points you to the next part as you uncover it, and short recaps retell a storyline at its turning points.", "Story as you play, without spoilers:" },
-    { "More quests tell their lore, out loud", "Stranglethorn Vale, Desolace, Arathi Highlands, Thousand Needles and Hillsbrad Foothills, in both narrators' voices, and the silent first-hour quests speak again.", "More quests tell their lore, out loud:" },
-    { "More French narration", "the female narrator covers more places, people and lore.", "More French narration:" },
-    { "Update reminders", "Willo and Lore Forever say plainly when a version is too old to keep working, and where to get the new one.", "Update reminders:" },
-    { "Willo rests by your clock when the game is closed", "with \"Willo outside the game\" on, her wisp floats down to a quiet spot above the clock. Click her to open her panel, right-click to hide her until the game starts. Off until you turn it on, and she stays out of the way of full-screen apps.", "Willo rests by your clock when the game is closed:" },
-    { "", "Corrected lore in 22 entries.", "" },
-    { "Willo beside you in game", "click her wisp to open her chat, notes and friends right over the game, no alt-tab.", "Willo beside you in game:" },
+    { "Your own chronicle", "every place, person, item and quest with a story is kept as you find it, in a new Found tab, and each story opens on a page of its own. Nothing you haven't reached is spoiled.", "Your own chronicle:" },
+    { "Ready for launch day", "the installer and Willo find WoW Forever's launch client, so the add-on is ready on November 4.", "Ready for launch day:" },
+    { "A calmer Willo", "she says each answer once, stays quiet while you talk to her, and tells you once when her answers run out for the day.", "A calmer Willo:" },
+    { "Reminders you can remove", "see them all in Notes, remove any, or snooze one for an hour.", "Reminders you can remove:" },
+    { "The whole story with Willo too", "if you've chosen to hear everything in the add-on, Willo tells it all as well.", "The whole story with Willo too:" },
+    { "More story, fewer spoiler warnings", "long storylines end with a recap, more answers open once your quests reach them, and corrected lore.", "More story, fewer spoiler warnings:" },
+    { "More quests voiced", "thousands more quest lines are read aloud in both narrators' voices, and the female narrator tells more stories.", "More quests voiced:" },
   },
 }

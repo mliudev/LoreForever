@@ -1,7 +1,7 @@
 ; Lore Forever Windows installer (Inno Setup 6).
-; Installs the add-on into <WoW>\_classic_beta_\Interface\AddOns\LoreForever and the packs from the release zip next
-; to it: the English default narration voice (LoreForever_Voice_Default), its Alliance and Horde lands and quest
-; packs. Other languages come with their optional voice downloads. Existing translations are left in place.
+; Installs the add-on into <WoW>\_forever_\Interface\AddOns\LoreForever (WoW Forever's launch client; the beta's
+; _classic_beta_ when there's no _forever_) and the packs from the release zip next to it: the English default
+; narration voice (LoreForever_Voice_Default), its Alliance and Horde lands and quest packs. Other languages come with their optional voice downloads. Existing translations are left in place.
 ; The WoW folder is found from Battle.net's
 ; uninstall entry, and the player can change it on the folder page. Running a newer installer updates in place.
 ;
@@ -36,13 +36,13 @@
 ; The voice zips of this very version, so a voice always matches the add-on it's installed with.
 #define VoiceBase "https://github.com/mliudev/LoreForever/releases/download/v" + AppVersion + "/"
 
-#define AddOnDir "{app}\_classic_beta_\Interface\AddOns\LoreForever"
-#define VoiceDir "{app}\_classic_beta_\Interface\AddOns\LoreForever_Voice_Default"
-#define AllianceDir "{app}\_classic_beta_\Interface\AddOns\LoreForever_Voice_Default_Alliance"
-#define HordeDir "{app}\_classic_beta_\Interface\AddOns\LoreForever_Voice_Default_Horde"
-#define FemaleDir "{app}\_classic_beta_\Interface\AddOns\LoreForever_Voice_Female"
-#define FemaleAllianceDir "{app}\_classic_beta_\Interface\AddOns\LoreForever_Voice_Female_Alliance"
-#define FemaleHordeDir "{app}\_classic_beta_\Interface\AddOns\LoreForever_Voice_Female_Horde"
+#define AddOnDir "{app}\{code:GameFlavor}\Interface\AddOns\LoreForever"
+#define VoiceDir "{app}\{code:GameFlavor}\Interface\AddOns\LoreForever_Voice_Default"
+#define AllianceDir "{app}\{code:GameFlavor}\Interface\AddOns\LoreForever_Voice_Default_Alliance"
+#define HordeDir "{app}\{code:GameFlavor}\Interface\AddOns\LoreForever_Voice_Default_Horde"
+#define FemaleDir "{app}\{code:GameFlavor}\Interface\AddOns\LoreForever_Voice_Female"
+#define FemaleAllianceDir "{app}\{code:GameFlavor}\Interface\AddOns\LoreForever_Voice_Female_Alliance"
+#define FemaleHordeDir "{app}\{code:GameFlavor}\Interface\AddOns\LoreForever_Voice_Female_Horde"
 
 [Setup]
 AppId={{6B7E3F52-4C1D-4E8A-9A57-1F0D2C8B5E31}
@@ -91,8 +91,8 @@ Name: "en"; MessagesFile: "compiler:Default.isl"
 
 [Messages]
 WelcomeLabel2=This puts the Lore Forever add-on into your World of Warcraft: Forever install.%n%nIf WoW is running, close it first, or type /reload in game afterwards.
-SelectDirLabel3=Setup found this World of Warcraft folder. It should contain the _classic_beta_ folder (WoW Forever).
-SelectDirBrowseLabel=If that's not your WoW folder, click Browse and pick the one that holds _classic_beta_.
+SelectDirLabel3=Setup found this World of Warcraft folder. It should contain the _forever_ folder (WoW Forever).
+SelectDirBrowseLabel=If that's not your WoW folder, click Browse and pick the one that holds _forever_.
 FinishedLabel=Lore Forever is installed.%n%nStart WoW Forever, pick a key when it asks, or type /lore in chat. If it doesn't show up, click AddOns on the character screen and tick "Load out of date AddOns".%n%nIf World of Warcraft is open, type /reload in the game's chat to load the update.
 
 [InstallDelete]
@@ -126,28 +126,28 @@ Type: filesandordirs; Name: "{#HordeDir}"
 Type: filesandordirs; Name: "{#FemaleDir}"; Check: VoiceChosen('female')
 Type: filesandordirs; Name: "{#FemaleAllianceDir}"; Check: VoiceChosen('female')
 Type: filesandordirs; Name: "{#FemaleHordeDir}"; Check: VoiceChosen('female')
-Type: filesandordirs; Name: "{app}\_classic_beta_\Interface\AddOns\LoreForever_Voice_Female_MorePlaces"; Check: VoiceChosen('female')
-Type: filesandordirs; Name: "{app}\_classic_beta_\Interface\AddOns\LoreForever_Voice_Female_MorePeople"; Check: VoiceChosen('female')
-Type: filesandordirs; Name: "{app}\_classic_beta_\Interface\AddOns\LoreForever_Voice_Female_MoreItems"; Check: VoiceChosen('female')
-Type: filesandordirs; Name: "{app}\_classic_beta_\Interface\AddOns\LoreForever_Voice_Female_MoreQuests1"; Check: VoiceChosen('female')
-Type: filesandordirs; Name: "{app}\_classic_beta_\Interface\AddOns\LoreForever_Voice_Female_MoreQuests2"; Check: VoiceChosen('female')
-Type: filesandordirs; Name: "{app}\_classic_beta_\Interface\AddOns\LoreForever_Voice_Female_MoreQuests3"; Check: VoiceChosen('female')
+Type: filesandordirs; Name: "{app}\{code:GameFlavor}\Interface\AddOns\LoreForever_Voice_Female_MorePlaces"; Check: VoiceChosen('female')
+Type: filesandordirs; Name: "{app}\{code:GameFlavor}\Interface\AddOns\LoreForever_Voice_Female_MorePeople"; Check: VoiceChosen('female')
+Type: filesandordirs; Name: "{app}\{code:GameFlavor}\Interface\AddOns\LoreForever_Voice_Female_MoreItems"; Check: VoiceChosen('female')
+Type: filesandordirs; Name: "{app}\{code:GameFlavor}\Interface\AddOns\LoreForever_Voice_Female_MoreQuests1"; Check: VoiceChosen('female')
+Type: filesandordirs; Name: "{app}\{code:GameFlavor}\Interface\AddOns\LoreForever_Voice_Female_MoreQuests2"; Check: VoiceChosen('female')
+Type: filesandordirs; Name: "{app}\{code:GameFlavor}\Interface\AddOns\LoreForever_Voice_Female_MoreQuests3"; Check: VoiceChosen('female')
 
-Type: filesandordirs; Name: "{app}\_classic_beta_\Interface\AddOns\LoreForever_Voice_Default_Quests"; Check: VoiceChosen('quests')
-Type: filesandordirs; Name: "{app}\_classic_beta_\Interface\AddOns\LoreForever_Voice_Default_Quests2"; Check: VoiceChosen('quests')
-Type: filesandordirs; Name: "{app}\_classic_beta_\Interface\AddOns\LoreForever_Voice_Default_Quests3"; Check: VoiceChosen('quests')
-Type: filesandordirs; Name: "{app}\_classic_beta_\Interface\AddOns\LoreForever_Voice_Default_MorePlaces"; Check: VoiceChosen('quests')
-Type: filesandordirs; Name: "{app}\_classic_beta_\Interface\AddOns\LoreForever_Voice_Default_MorePeople"; Check: VoiceChosen('quests')
-Type: filesandordirs; Name: "{app}\_classic_beta_\Interface\AddOns\LoreForever_Voice_Default_MoreItems"; Check: VoiceChosen('quests')
-Type: filesandordirs; Name: "{app}\_classic_beta_\Interface\AddOns\LoreForever_Voice_Default_MoreQuests1"; Check: VoiceChosen('quests')
-Type: filesandordirs; Name: "{app}\_classic_beta_\Interface\AddOns\LoreForever_Voice_Default_MoreQuests2"; Check: VoiceChosen('quests')
-Type: filesandordirs; Name: "{app}\_classic_beta_\Interface\AddOns\LoreForever_Voice_Default_MoreQuests3"; Check: VoiceChosen('quests')
+Type: filesandordirs; Name: "{app}\{code:GameFlavor}\Interface\AddOns\LoreForever_Voice_Default_Quests"; Check: VoiceChosen('quests')
+Type: filesandordirs; Name: "{app}\{code:GameFlavor}\Interface\AddOns\LoreForever_Voice_Default_Quests2"; Check: VoiceChosen('quests')
+Type: filesandordirs; Name: "{app}\{code:GameFlavor}\Interface\AddOns\LoreForever_Voice_Default_Quests3"; Check: VoiceChosen('quests')
+Type: filesandordirs; Name: "{app}\{code:GameFlavor}\Interface\AddOns\LoreForever_Voice_Default_MorePlaces"; Check: VoiceChosen('quests')
+Type: filesandordirs; Name: "{app}\{code:GameFlavor}\Interface\AddOns\LoreForever_Voice_Default_MorePeople"; Check: VoiceChosen('quests')
+Type: filesandordirs; Name: "{app}\{code:GameFlavor}\Interface\AddOns\LoreForever_Voice_Default_MoreItems"; Check: VoiceChosen('quests')
+Type: filesandordirs; Name: "{app}\{code:GameFlavor}\Interface\AddOns\LoreForever_Voice_Default_MoreQuests1"; Check: VoiceChosen('quests')
+Type: filesandordirs; Name: "{app}\{code:GameFlavor}\Interface\AddOns\LoreForever_Voice_Default_MoreQuests2"; Check: VoiceChosen('quests')
+Type: filesandordirs; Name: "{app}\{code:GameFlavor}\Interface\AddOns\LoreForever_Voice_Default_MoreQuests3"; Check: VoiceChosen('quests')
 
-Type: filesandordirs; Name: "{app}\_classic_beta_\Interface\AddOns\LoreForever_Voice_Original"; Check: VoiceChosen('original')
-Type: filesandordirs; Name: "{app}\_classic_beta_\Interface\AddOns\LoreForever_Voice_Original_Alliance"; Check: VoiceChosen('original')
-Type: filesandordirs; Name: "{app}\_classic_beta_\Interface\AddOns\LoreForever_Voice_Original_Horde"; Check: VoiceChosen('original')
-Type: filesandordirs; Name: "{app}\_classic_beta_\Interface\AddOns\LoreForever_Voice_Original_MorePlaces"; Check: VoiceChosen('original')
-Type: filesandordirs; Name: "{app}\_classic_beta_\Interface\AddOns\LoreForever_Voice_Original_MorePeople"; Check: VoiceChosen('original')
+Type: filesandordirs; Name: "{app}\{code:GameFlavor}\Interface\AddOns\LoreForever_Voice_Original"; Check: VoiceChosen('original')
+Type: filesandordirs; Name: "{app}\{code:GameFlavor}\Interface\AddOns\LoreForever_Voice_Original_Alliance"; Check: VoiceChosen('original')
+Type: filesandordirs; Name: "{app}\{code:GameFlavor}\Interface\AddOns\LoreForever_Voice_Original_Horde"; Check: VoiceChosen('original')
+Type: filesandordirs; Name: "{app}\{code:GameFlavor}\Interface\AddOns\LoreForever_Voice_Original_MorePlaces"; Check: VoiceChosen('original')
+Type: filesandordirs; Name: "{app}\{code:GameFlavor}\Interface\AddOns\LoreForever_Voice_Original_MorePeople"; Check: VoiceChosen('original')
 
 #ifdef DownloadUninstallIss
   #include DownloadUninstallIss
@@ -217,9 +217,27 @@ begin
   if not Result then
     SuppressibleMsgBox('/QA needs an explicit /DIR pointing to a scratch WoW folder.', mbError, MB_OK, IDOK);
 end;
+// The game's folder in the WoW folder Root: WoW Forever's launch client (_forever_), else the beta's (_classic_beta_);
+// '' when neither is there.
+function FlavorIn(Root: String): String;
+begin
+  Result := '';
+  if DirExists(AddBackslash(Root) + '_forever_') then Result := '_forever_'
+  else if DirExists(AddBackslash(Root) + '_classic_beta_') then Result := '_classic_beta_';
+end;
+
+// {code:GameFlavor}: the game's folder in the WoW folder being installed into (the folder page checked it's there).
+function GameFlavor(Param: String): String;
+begin
+  Result := FlavorIn(ExpandConstant('{app}'));
+  if Result = '' then Result := '_forever_';
+end;
+
 function AddOnsDir(): String;
 begin
-  Result := AddBackslash(WizardDirValue()) + '_classic_beta_\Interface\AddOns';
+  Result := FlavorIn(WizardDirValue());
+  if Result = '' then Result := '_forever_';
+  Result := AddBackslash(WizardDirValue()) + Result + '\Interface\AddOns';
 end;
 
 // Voice I's folders as a list (the caller frees it).
@@ -685,24 +703,24 @@ var
   I: Integer;
 begin
   Result := '';
-  if RegQueryStringValue(HKLM32, 'SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\World of Warcraft', 'InstallLocation', Path) and DirExists(AddBackslash(Path) + '_classic_beta_') then begin
+  if RegQueryStringValue(HKLM32, 'SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\World of Warcraft', 'InstallLocation', Path) and (FlavorIn(Path) <> '') then begin
     Result := Path; Exit;
   end;
-  if RegQueryStringValue(HKLM64, 'SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\World of Warcraft', 'InstallLocation', Path) and DirExists(AddBackslash(Path) + '_classic_beta_') then begin
+  if RegQueryStringValue(HKLM64, 'SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\World of Warcraft', 'InstallLocation', Path) and (FlavorIn(Path) <> '') then begin
     Result := Path; Exit;
   end;
   Drives := 'CDEFGH';
   for I := 1 to Length(Drives) do begin
     Path := Drives[I] + ':\Program Files (x86)\World of Warcraft';
-    if DirExists(Path + '\_classic_beta_') then begin Result := Path; Exit; end;
+    if FlavorIn(Path) <> '' then begin Result := Path; Exit; end;
     Path := Drives[I] + ':\World of Warcraft';
-    if DirExists(Path + '\_classic_beta_') then begin Result := Path; Exit; end;
+    if FlavorIn(Path) <> '' then begin Result := Path; Exit; end;
     Path := Drives[I] + ':\Games\World of Warcraft';
-    if DirExists(Path + '\_classic_beta_') then begin Result := Path; Exit; end;
+    if FlavorIn(Path) <> '' then begin Result := Path; Exit; end;
     Path := Drives[I] + ':\Battle.net\World of Warcraft';
-    if DirExists(Path + '\_classic_beta_') then begin Result := Path; Exit; end;
+    if FlavorIn(Path) <> '' then begin Result := Path; Exit; end;
     Path := Drives[I] + ':\BattleNet\World of Warcraft';
-    if DirExists(Path + '\_classic_beta_') then begin Result := Path; Exit; end;
+    if FlavorIn(Path) <> '' then begin Result := Path; Exit; end;
   end;
 end;
 
@@ -727,14 +745,15 @@ begin
     if IsQA() then
       Dir := ExpandConstant('{param:DIR|}')
     else begin
-      // Accept the _classic_beta_ folder itself, or its AddOns folder, by walking up to the WoW root.
+      // Accept the game's folder itself (_forever_), or its AddOns folder, by walking up to the WoW root.
       if CompareText(ExtractFileName(Dir), 'AddOns') = 0 then Dir := ExtractFileDir(ExtractFileDir(ExtractFileDir(Dir)));
-      if CompareText(ExtractFileName(Dir), '_classic_beta_') = 0 then Dir := ExtractFileDir(Dir);
+      if (CompareText(ExtractFileName(Dir), '_forever_') = 0) or (CompareText(ExtractFileName(Dir), '_classic_beta_') = 0) then
+        Dir := ExtractFileDir(Dir);
     end;
-    if not DirExists(AddBackslash(Dir) + '_classic_beta_') then begin
+    if FlavorIn(Dir) = '' then begin
       // SuppressibleMsgBox: a silent install (/SUPPRESSMSGBOXES) with a wrong /DIR fails instead of hanging on the box.
-      SuppressibleMsgBox('There''s no _classic_beta_ folder in' + #13#10 + Dir + #13#10#13#10 +
-             'Pick your World of Warcraft folder: the one that holds _classic_beta_ (WoW Forever).', mbError, MB_OK, IDOK);
+      SuppressibleMsgBox('There''s no _forever_ folder in' + #13#10 + Dir + #13#10#13#10 +
+             'Pick your World of Warcraft folder: the one that holds _forever_ (WoW Forever).', mbError, MB_OK, IDOK);
       Result := False;
     end else
       WizardForm.DirEdit.Text := Dir;

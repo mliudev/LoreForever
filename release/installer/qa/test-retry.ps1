@@ -9,7 +9,8 @@ $qaProof=Get-Content -LiteralPath (Join-Path $BuildDirectory 'qa-build.json') -R
 if((Get-FileHash -LiteralPath $qaProof.setup -Algorithm SHA256).Hash.ToLower() -ne $qaProof.setup_sha256){throw 'Setup differs from its proof'}
 $qaManifest=Join-Path $qaProof.download_directory 'transport-downloads.json'
 if((Get-FileHash -LiteralPath $qaManifest -Algorithm SHA256).Hash.ToLower() -ne $qaProof.download_manifest_sha256){throw 'Download manifest differs from its build proof'}
-$qaAddons=Join-Path $WowDirectory '_classic_beta_\Interface\AddOns'
+$qaFlavor=@('_forever_','_classic_beta_') | Where-Object { Test-Path -LiteralPath (Join-Path $WowDirectory $_) } | Select-Object -First 1
+$qaAddons=Join-Path $WowDirectory "$qaFlavor\Interface\AddOns"
 function SnapshotFemale {
   @(foreach($qaFolder in @('LoreForever_Voice_Female','LoreForever_Voice_Female_Alliance','LoreForever_Voice_Female_Horde')){
     Get-ChildItem -LiteralPath (Join-Path $qaAddons $qaFolder) -Recurse -File | Sort-Object FullName | ForEach-Object {$_.FullName+':'+(Get-FileHash -LiteralPath $_.FullName -Algorithm SHA256).Hash}

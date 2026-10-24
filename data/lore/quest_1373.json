@@ -52,7 +52,7 @@
     "red crystal",
     "what is draenethyst"
    ],
-   "answer": "A red crystal that Uthek calls new to our earth. He says it comes from a land of flying mountains where demons rule."
+   "answer": "A red crystal that Uthek calls new to our earth. Uthek says it comes from a land of flying mountains where demons rule."
   },
   {
    "q": "Who is Ongeku?",
@@ -96,10 +96,7 @@
   "quest:1370",
   "zone:desolace",
   "zone:swampofsorrows",
-  "topic:centaur",
-  "subzone:stonard",
-  "subzone:nethergarde-keep",
-  "subzone:darkshire"
+  "topic:centaur"
  ],
  "attribution": [
   "Ongeku (quest)"

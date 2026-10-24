@@ -24,7 +24,7 @@
 --   14     target: its reaction to you (UnitReaction, 1 hated to 8 exalted; 0 unknown) in bits 0-3, its
 --          classification in bits 4-6 (CLASSES; 7 any other), bit 7 another player
 --   15     flags (FLAG): in combat, dead or a ghost, resting, on a flight, in a raid, target dead, has a target,
---          busy (a Lore Forever narration playing or its panel open)
+--          busy (a Lore Forever narration playing, or its playlist between two)
 --   16-18  tracked quest ID: the first one watched, 0 none
 --   19     group size (GetNumGroupMembers): 0 solo
 --   20     near: the highest level among hostile nameplates in the last NEAR seconds, 0 none, 255 "??"
@@ -239,13 +239,13 @@ local function nearLevel()
   return out
 end
 
--- A Lore Forever narration playing, or its panel open.
+-- A Lore Forever narration playing, or its playlist between two. Not the panel being open: reading it isn't a turn
+-- Willo has to wait for (LOR-788).
 local function busy()
   local UI = ns.UI
   if not UI then return false end
   local ok, playing = pcall(UI.IsBusy)
-  if ok and playing then return true end
-  return UI.frame and yes(try(UI.frame.IsShown, UI.frame)) or false
+  return ok and playing and true or false
 end
 
 -- What a narration is doing (bytes 36-40): the flags byte with the time's high bits, the time's low byte and the

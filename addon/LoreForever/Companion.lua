@@ -126,12 +126,12 @@ function Companion.SuggestWillo()
   return true
 end
 
--- Willo reads the short answers (LOR-547, LOR-559). The narrators record the big lore; an answer with no recording of
--- its own is Willo's to read aloud, on this PC, from the same words. The add-on only draws: the sky's outer ring
--- (Strip.SetRing, LOR-557) names the answer on screen, a page of 5 bytes: kind 1 in bits 7-6 of the first, with a
--- counter in bits 5-0 that goes up each time it's opened or Listen is pressed, then the CRC-32 of its id ("key#faqN",
--- Lang.FaqID), big-endian. Willo is English only, so another language or a contributor's edition stays text.
-local readCounter, readPage = 0, nil
+-- The add-on does not ask Willo to read its short answers (LOR-547 asked her to; dropped by Mike, 2026-10-23, release
+-- QA: "I don't think Willo should read answers out loud automatically. Usually, the expectation is you click Listen,
+-- and then that reads it." and then "hide listen", "drop it actually"): an answer with no recording stays text, with no
+-- Listen button, and nothing names it in the sky's outer ring. What still goes round the ring: a question to Willo
+-- (Companion.SendQuestion) and a quest page with no recording (Companion.ReadQuestPage). Willo is English only, so
+-- another language or a contributor's edition stays text.
 local sending = nil      -- the question going round to Willo now (Companion.SendQuestion), its token
 
 local function english()
@@ -140,44 +140,20 @@ local function english()
 end
 Companion.English = english
 
--- Willo can read the add-on's answers now: she's installed, Live game info is on (so the sky shows), the sky has its
--- outer ring, and the add-on reads in English.
+-- Willo can be sent things through the sky now (a question, a quest page): she's installed, Live game info is on (so
+-- the sky shows), the sky has its outer ring, and the add-on reads in English.
 function Companion.ReadsAnswers()
   local Strip = ns.Strip
   return Companion.Installed() and Strip ~= nil and Strip.SetRing ~= nil and Strip.On() and english()
 end
 
--- An answer Willo would read: a FAQ answer (target from UI.FaqTarget) with no recording of its own (that plays, as
--- before), while she can.
-function Companion.CanRead(target)
-  local key = target and target.key
-  return type(key) == "string" and key:find("#faq%d+$") ~= nil and not ns.Voice.HasAudio(key)
-    and Companion.ReadsAnswers()
-end
-
-local function ask(target)
-  readCounter = (readCounter + 1) % 64
-  local crc = ns.Strip.CRC32(target.key)
-  readPage = { 0x40 + readCounter, math.floor(crc / 0x1000000) % 256, math.floor(crc / 0x10000) % 256,
-    math.floor(crc / 0x100) % 256, crc % 256 }
-  ns.Strip.SetRing(readPage)
-  -- What starts by itself makes way and waits while she reads, about 14 letters a second (Voice.OnWilloReads).
-  ns.Voice.OnWilloReads(math.min(45, #(target.text or "") / 14 + 2))
-end
-
--- An answer just shown (UI.Ask, UI.ShowFaq): Willo reads it, unless it has a recording or the player only wants what
--- they press Play on ("Narration: only when I press Play": then Listen asks her).
-function Companion.ShowAnswer(target)
-  Companion.ClearRead()
-  if Companion.CanRead(target) and not ns.Voice.OnDemand() then ask(target) end
-end
-
--- Listen on an answer Willo reads: a story the player started pauses, and she reads it (again). False when she can't.
-function Companion.ListenRead(target)
-  if not Companion.CanRead(target) then return false end
-  if ns.UI and ns.UI.speaking then ns.UI.StopAll() end
-  ask(target)
-  return true
+-- Whether Willo says she reads this kind ("quests"; "answers" too, which she still writes but the add-on no longer
+-- asks for) for this player (LoreForeverJourneyData.reads, which she writes, LOR-785): when she won't, asking her would
+-- only hold the add-on's own narration for a reading that never comes. An older Willo doesn't say, and is asked as
+-- before.
+local function willoReads(kind)
+  local reads = type(LoreForeverJourneyData) == "table" and LoreForeverJourneyData.reads
+  return type(reads) ~= "table" or reads[kind] == true
 end
 
 -- Quest pages with no recording (Mike, 10/21: "for Willo read quest audio ... when no recording exists ... the race
@@ -201,41 +177,28 @@ end
 -- The quest window shows a page no recording plays: Willo reads it, when she can (installed, Live game info on, the
 -- add-on in English). Returns true if the page was named.
 function Companion.ReadQuestPage(qid, kind, text)
-  if not Companion.ReadsAnswers() then return false end
+  if not (Companion.ReadsAnswers() and willoReads("quests")) then return false end
   questCounter = (questCounter + 1) % 256
   local p = Companion.QuestPage(qid, kind, questCounter)
   if not p then return false end
   questPage = p
-  if not (readPage or sending) then ns.Strip.SetRing(p) end
-  -- What starts by itself makes way while she reads, as for an answer (Voice.OnWilloReads).
+  if not sending then ns.Strip.SetRing(p) end
+  -- What starts by itself makes way while she reads (Voice.OnWilloReads), about 14 letters a second.
   ns.Voice.OnWilloReads(math.min(45, #(text or "") / 14 + 2))
   return true
 end
 
 -- The quest window closed, or shows a page that plays its own recording: nothing named for it.
 function Companion.ClearQuestPage()
-  if questPage and not (readPage or sending) and ns.Strip and ns.Strip.SetRing then ns.Strip.SetRing(nil) end
+  if questPage and not sending and ns.Strip and ns.Strip.SetRing then ns.Strip.SetRing(nil) end
   questPage = nil
 end
 
--- Nothing for her to read: another question, an entry's overview, the panel cleared. A question still going round
--- to her stops too (the newest wins). A quest page still on screen keeps its name in the ring.
+-- Nothing for her to read: another question or answer shown, an entry's overview, the panel cleared. A question
+-- still going round to her stops too (the newest wins). A quest page still on screen keeps its name in the ring.
 function Companion.ClearRead()
-  if (readPage or sending) and ns.Strip and ns.Strip.SetRing then ns.Strip.SetRing(questPage) end
-  readPage, sending = nil, nil
-end
-
--- With Willo installed and Live game info off (not unticked by the player), the add-on says once, ever, that she'd
--- read the answers with it on. True when it should say so now.
-function Companion.ReadHintOnce()
-  local s = LoreForeverDB and LoreForeverDB.settings
-  if not (s and Companion.Installed() and english()) or s.willoReadHint or not (ns.Strip and ns.Strip.SetRing)
-    or ns.Strip.On()
-    or (s.liveStripChosen and not s.liveStrip) then
-    return false
-  end
-  s.willoReadHint = true
-  return true
+  if sending and ns.Strip and ns.Strip.SetRing then ns.Strip.SetRing(questPage) end
+  sending = nil
 end
 
 -- "Ask Willo" in one click (LOR-560, Mike's pick 4C): the question goes to Willo through the same outer ring, a few
@@ -454,34 +417,4 @@ function Companion.Ask(question)
   box.eb:SetText(box.payload)
   box.eb:SetFocus()
   box.eb:HighlightText()
-end
-
--- Put back the draft before another key or a focus change can use the temporary envelope.
-function Companion.RestoreQuestion(eb)
-  local draft = eb.companionDraft
-  if not draft then return end
-  eb.companionDraft = nil
-  eb:SetText(draft.text)
-  eb:SetMaxLetters(240)
-  eb:SetCursorPosition(draft.cursor or #draft.text)
-  eb:HighlightText(0, 0)
-end
-
--- Ctrl+C in our question field sends the same LFQ1 envelope as the dedicated copy box. Keep focus on this
--- edit box for the client's native copy, then put its draft back. Other edit boxes keep ordinary clipboard behavior.
-function Companion.CopyQuestion(eb, key)
-  local copying = key == "C" and IsControlKeyDown() and Companion.Installed()
-  if not copying then return Companion.RestoreQuestion(eb) end
-  if eb.companionDraft then return eb:HighlightText() end
-  local text = eb:GetText()
-  if not text or not text:match("%S") then return end
-  local draft = { text = text, cursor = eb:GetCursorPosition() }
-  eb.companionDraft = draft
-  ns.Log.Use("live")
-  eb:SetMaxLetters(0)   -- the context envelope is longer than a question
-  eb:SetText(Companion.Payload(text))
-  eb:HighlightText()
-  C_Timer.After(0.15, function()
-    if eb.companionDraft == draft then Companion.RestoreQuestion(eb) end
-  end)
 end
