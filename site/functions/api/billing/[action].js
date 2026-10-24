@@ -72,7 +72,6 @@ async function plans({ request, env }) {
       answersPerDay: p.answersPerDay, answersPerMonth: p.answersPerMonth, sellable: sellable.includes(p.id),
       features: features[p.id], ...(offers[p.id] && sellable.includes(p.id) ? { promo: offers[p.id] } : {}) })),
     compare: planCompare(ALLOWED, flags),
-    ...(packs ? { starter: packs.starter } : {}),
     voicePack: VOICE_PACK_SOLD && pack && { price: VOICE_PACK.price, replies: VOICE_PACK.replies, monthMax: VOICE_PACK.monthMax, ...pack,
       ...(packs ? { boughtThisMonth: packs.voice.boughtThisMonth, open: current.id !== "free" && !current.launch } : {}) },
     voiceNote: VOICE_NOTE,

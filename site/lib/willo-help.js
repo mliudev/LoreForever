@@ -97,7 +97,9 @@ const TOPICS = [
       `on their PC for that line` + (azeroth ? ` (Michael for a man's voice of Azeroth)` : ``) + `. Questions typed ` +
       `get written answers; questions asked out loud are answered aloud.` },
   { id: "live", own: /\blive game info\b|\bminimap\b.*\b(?:stars?|mist|rings?|sky)\b|\b(?:stars?|mist|rings?|sky)\b.*\bminimap\b/i,
-    words: /\bsky\b|\bwhere i am\b|\bwhere i'm\b|\btarget(?:ing|ed)?\b|\btracked quest\b|\bquest i'm tracking\b/i,
+    // "Where I am" only when they ask why or how she can't tell (LOR-799: "Can you tell where I am now?" with a picture
+    // got this card, and Legend answered with the settings instead of the place in the picture).
+    words: /\bsky\b|\b(?:can't|cannot|can not|don't|do not|unable to|how (?:do|can|does|would)|why)\b[^.?!]*\bwhere (?:i am|i'm)\b|\btarget(?:ing|ed)?\b|\btracked quest\b|\bquest i'm tracking\b/i,
     text: () => `Live game info: in your window, Settings › ${NAME} › Live game info › "Read live game info from the ` +
       `game window" (off at first), then /reload in the game. If the stars still don't show, check that "Live game ` +
       `info for ${NAME}" is ticked in Lore Forever's Options (/lore live toggles it). Two switches, yours and the ` +
@@ -107,7 +109,8 @@ const TOPICS = [
       `don't show, tick "Live game info for ${NAME}" in Lore Forever's Options (/lore live). Then you know where they are, who they target, their tracked quest ` +
       `and more, without a /reload each time. It shows as rings of stars in a blue mist over the minimap, while the ` +
       `Lore Forever window is open or the talk key is held. No memory reading, no key presses, nothing sent online. ` +
-      `With it off you go by their last save and what they tell you, and ask where they are rather than guess. The ` +
+      `With it off you go by a picture of the game when one comes with the question, else their last save and what ` +
+      `they tell you, and ask where they are rather than guess. The ` +
       `sky hides when the game is minimized, in exclusive fullscreen, on a loading screen or with the interface ` +
       `hidden (Alt+Z).` },
   { id: "sight", own: /\bsee(?:ing)? the game\b|\bscreenshots?\b|\bpictures? of (?:my|the) (?:game|screen)\b|\bsee (?:my|the) (?:screen|window)\b/i,
@@ -116,16 +119,17 @@ const TOPICS = [
     words: /\b(?:can't|cannot|can not|don't|do not|unable to|how (?:do|can)|why (?:can't|don't|do|won't))\b[^.?!]*\b(?:see|look|watch|know)\b|\b(?:can|could) you (?:see|watch|look at) (?:my|the|what)\b|\bare you able to see\b/i,
     unless: FIND_NOTES,
     text: () => `Seeing the game: in your window, Settings › ${NAME} › Seeing the game › "Let ${NAME} see the game when you ` +
-      `ask out loud" (on Hero and up). Then one picture of the game window goes with each question asked out loud, ` +
-      `taken when the talk key comes up, only if the game is in front and not minimized; it's never kept on Lore ` +
-      `Forever's servers, and a copy stays in their chat on their PC. Typed questions never send one. In exclusive ` +
+      `ask" (on Hero and up). Then one picture of the game window goes with each question asked out loud (taken when ` +
+      `the talk key comes up, only if the game is in front), and with a typed one that needs it: where they are, who ` +
+      `or what is in front of them, what they looted, what's next. Never while the game is minimized; it's never kept ` +
+      `on Lore Forever's servers, and a copy stays in their chat on their PC. Other typed questions never send one. In exclusive ` +
       `fullscreen you see only black: switch WoW to windowed or borderless fullscreen. When you can't ` +
       `tell who they're targeting: if PLAYER CONTEXT says it's live from the game, Live game info works and nothing is ` +
       `targeted (or the target isn't one you know); otherwise you don't know which of these is why, so offer the likely ` +
       `ones, never one as certain: Live game info is ` +
       `off (in your window or unticked in the add-on), the game needs a /reload, the sky over the minimap isn't ` +
-      `showing, the game is minimized, behind another window or in exclusive fullscreen, seeing the game is off for a ` +
-      `spoken question, or nothing is targeted. Meanwhile they can tell you who it is; never guess.` },
+      `showing, the game is minimized, behind another window or in exclusive fullscreen, seeing the game is off, ` +
+      `or nothing is targeted. Meanwhile they can tell you who it is; never guess.` },
   { id: "plans", own: /\b(?:hero|champion|legend|adventurer)\b(?!\s+of\b)[^.?!]*\b(?:plan|tier|adds?|gets?|includes?|costs?|price|worth|gives?|offers?|differen\w*|upgrade|subscri\w*)\b|\b(?:what|which)\b[^.?!]*\b(?:do i get|comes? with|in|with|on)\b[^.?!]*\b(?:hero|champion|legend)\b(?!\s+of\b)[^.?!]*\?|\b(?:subscription|subscribe|billing|refund|paid plan|free plan|your plans?|willo plans?|my plan|upgrade (?:my|to)|cancel my)\b|\banswers? (?:left|a day|per day|a month)\b|\bout of answers\b|\bvoice pack\b|\bwhat am i trying\b(?! to\b)|\b(?:how many )?tries\b[^.?!]*\bleft\b|\b(?:my|this|the|free|first-run) trial\b(?! of\b)/i,
     words: /\bplans?\b|\bpay\b|\bcost\b|\bprice\b|\bfree\b/i,
     text: plansText },
@@ -171,7 +175,7 @@ const TOPICS = [
       `or restores them, and Delete in a chat's header removes one. With "Help improve ${NAME}'s answers" on (Settings › ` +
       `App & answers, on unless they untick it, or on the What ${NAME} keeps page), the site keeps their questions and ` +
       `your answers 14 days, without their name, so mistakes get fixed; unticked, nothing new is kept. When they let ` +
-      `you see the game, the picture for a spoken question stays on their computer with that chat; the site doesn't ` +
+      `you see the game, the picture of the game stays on their computer with that chat; the site doesn't ` +
       `keep it. Their voice becomes text on their computer. For a question about their computer, you're told its ` +
       `graphics card, processor and memory, nothing else. Feedback they send (Wrong answer, corrections) is kept 90 ` +
       `days without their name. Their account, and everything with it, can be deleted on their account page on the site.` },
@@ -194,8 +198,10 @@ const TOPICS = [
       `hide you). This hides the wisp (the blue dot) and its text/captions together; there is no separate text-only ` +
       `or captions switch. Live game info controls what you know from the game and does not hide this overlay. ` +
       `To keep asking and listening by voice with the overlay hidden, leave "Talk with ${NAME}" on and use the talk ` +
-      `key: spoken questions still get voice answers. The overlay's other controls are Chirp when she speaks, ` +
-      `How often (every 2, 5 or 10 minutes) and Size, and the Show her and Put ` +
+      `key: spoken questions still get voice answers. Your own little remarks (the short lines you say ` +
+      `unasked) are Settings › ${NAME} › "Her own little remarks": Often, Sometimes, Rarely or Off; Off means you say ` +
+      `only what they ask, and you never speak up while they talk with you. The overlay's other controls are Chirp ` +
+      `when she speaks and Size, and the Show her and Put ` +
       `her back buttons. You show only while the game is in front; they can drag you anywhere. Left-click opens your chat over the game, ` +
       `right-click your full window. The answer window over the game moves by its header and closes with its ✕; it ` +
       `needs the game in windowed or borderless fullscreen.` },
@@ -248,8 +254,10 @@ const TOPICS = [
       `Where it is: the Notebook tab in the bar at the top of your window, right next to Chat. It is never in Settings, ` +
       `and Settings has no Notes, so never send them there for it (if the tab isn't there yet, it comes with the next ` +
       `update). On it they read each page, tick the box beside a to-do, press Edit to change a page by hand (then Save ` +
-      `or Cancel), press Undo for the last change, and Download notebook; their reminders show under Reminders, each ` +
-      `with an × to cancel it. To remove lines, they ask you ("take the linen off my list") or press Edit on the page, ` +
+      `or Cancel), press Undo for the last change, and Download notebook. Every reminder, waiting or said, for every ` +
+      `character, is in one list under Reminders at the top of the Notebook tab, each with a Remove button; the tray and ` +
+      `your right-click menu by the clock have Reminders too, and "cancel my reminder about …" takes one off. When you ` +
+      `say one over the game, its Snooze 1 hour brings it back. To remove lines, they ask you ("take the linen off my list") or press Edit on the page, ` +
       `delete the lines and press Save. There are no trash icons or delete buttons on single lines. Asked, you also clear ` +
       `what's done, a list, their notes or a page (asking first when it's more than one line), make lines one, move them to ` +
       `the other page and undo your last change ("undo that"); never say you changed what you didn't, or point at buttons ` +

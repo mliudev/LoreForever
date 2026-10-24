@@ -109,7 +109,7 @@ export async function onRequest(context) {
   await setup(env);
   if (request.method === "GET") return action === "me" ? me(context) : fail(404, "Not found.");
   if (request.method !== "POST") return fail(405, "Use POST.");
-  if (!sameOrigin(request)) return fail(403, "Please use the form on loreforeverwow.com.");
+  if (!sameOrigin(request)) return fail(403, "Please use the form on this site.");
   let input;
   try {
     input = await request.json();

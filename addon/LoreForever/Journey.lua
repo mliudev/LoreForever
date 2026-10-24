@@ -3453,6 +3453,7 @@ local handlers = {
   PLAYER_LOGOUT = function()
     noteGuild(char)
     if ns.Stock then pcall(ns.Stock.Take, char, true) end   -- what Willo's goals count, as the game saves (Stock.lua)
+    if ns.Screen then pcall(ns.Screen.Take, char) end   -- where the frames sit, what the bars hold (Screen.lua, LOR-802)
     add("logout")
     countOnline()
     pcall(countStory)

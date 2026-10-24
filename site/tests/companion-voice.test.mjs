@@ -510,7 +510,7 @@ test("a free player's first answers asked out loud are said in Willo's finest vo
   }
   const letters = "Welcome, traveler.The rest of it.".length;
   assert.deepEqual(calls.map(c => [c.provider, c.body.voiceId]), [["inworld", "willo-finest"], ["inworld", "willo-finest"]]);
-  assert.deepEqual([owed(), await answerBudgetUsed(env)], [0, 0], "on the taste's own cap, never the free pool");
+  assert.deepEqual([owed(), await answerBudgetUsed(env)], [0, day().spent_micro], "on the taste's own cap, inside the free pool");
   assert.deepEqual(env.DB.sqlite.prepare("SELECT DISTINCT period FROM voice_replies").all().map(r => r.period), ["taste"]);
   assert.deepEqual([day().replies, day().spent_micro], [1, 15 * letters]);
   // A reply no taste answer earned: the plan's own (the free plan's studio voice).
@@ -850,9 +850,9 @@ test("quest pages in the first-run trial: one of the character tries each, the t
   const first = await read();
   assert.deepEqual([first.status, first.voice, calls.at(-1).body.voice_id], [200, "studio:dwarf-male", AZEROTH_STUDIO["dwarf-male"]]);
   assert.deepEqual(tries(), { cast: 1 });
-  // On the taste's day, never the free pool (lib/free-pool.js) or a player's month.
+  // On the taste's day, inside the free pool (lib/free-pool.js), never a player's month.
   const letters = first.text.length;
-  assert.deepEqual([await answerBudgetUsed(env), day().spent_micro, day().reserved_micro], [0, letters, letters]);
+  assert.deepEqual([await answerBudgetUsed(env), day().spent_micro, day().reserved_micro], [letters, letters, letters]);
   assert.equal(env.DB.sqlite.prepare("SELECT COUNT(*) AS n FROM answer_user_spend").get().n, 0);
   assert.equal(env.DB.sqlite.prepare("SELECT COUNT(*) AS n FROM voice_replies").get().n, 0);
   // The same page again is another try; a page the site doesn't have takes none.

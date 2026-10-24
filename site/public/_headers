@@ -32,6 +32,10 @@
   Content-Disposition: attachment; filename="lore-forever-clips.csv"
   Cache-Control: no-cache
 
+# Willo's landing template (lib/doors.js willoHome serves it as "/" on her domain, without this header).
+/willo-site/*
+  X-Robots-Tag: noindex
+
 /account
   X-Robots-Tag: noindex, nofollow
   Cache-Control: no-store

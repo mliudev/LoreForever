@@ -870,7 +870,7 @@ const DAYPART = /\b(?:am|pm|a\.m|p\.m|morning|afternoon|evening|night|tonight|no
 const IF_MOMENT = String.raw`(?<!\b(?:check|see|ask|find\s+out|know|look))\s+if\b`;
 // "check up on my auction" keeps "on my auction": only "on all my characters" (and its like) ends the words, as "for all my
 // characters" does. Their moment ("in fifteen minutes") is IN_TIME, from the shared HOW_MANY.
-const ASKED_TEXT = new RegExp(String.raw`\b(?:(?:remind|tell|ping|warn|nudge)\s+me\s+(?:to|that|about)|(?:remember|don'?t\s+(?:let\s+me\s+)?forget)\s+to)\s+(.+?)(?=\s+(?:when|once|as\s+soon\s+as|at\s+(?:\d|noon|midnight)|${IN_TIME}|in\s+the\b|tonight|tomorrow|before|after|on\s+(?:all|every|each)\b|on\s+my\s+(?:other\s+)?(?:characters?|toons?|alts?|chars?)\b|for\s+(?:all|every))\b|${IF_MOMENT}|[,.?!]|$)`, "i");
+const ASKED_TEXT = new RegExp(String.raw`\b(?:(?:remind|tell|ping|warn|nudge)\s+me[,\s]+(?:(?:willo|willow|sam)[,\s]+)?(?:to|that|about)|(?:remember|don'?t\s+(?:let\s+me\s+)?forget)\s+to)\s+(.+?)(?=\s+(?:when|once|as\s+soon\s+as|at\s+(?:\d|noon|midnight)|${IN_TIME}|in\s+the\b|tonight|tomorrow|before|after|on\s+(?:all|every|each)\b|on\s+my\s+(?:other\s+)?(?:characters?|toons?|alts?|chars?)\b|for\s+(?:all|every))\b|${IF_MOMENT}|[,.?!]|$)`, "i");
 const ASKED_AFTER = /\b(?:hit|reach|get\s+to|am\s+in|'m\s+in|arrive\s+(?:in|at))\s+[^,.?!]*?\bto\s+([^,.?!]+?)\s*[.?!]?$/i;
 // "remember to visit the bank sometime", "don't let me forget to repair": the thing, in their words.
 const ASKED_TODO = new RegExp(String.raw`\b(?:remember|don'?t\s+(?:let\s+me\s+)?forget|remind\s+me)\s+to\s+(.+?)(?=\s+(?:sometime|someday|later|soon|when|once|as\s+soon\s+as|at\s+(?:\d|noon|midnight)|${IN_TIME}|in\s+the\b|tonight|tomorrow|before|after|next|for\s+(?:all|every))\b|${IF_MOMENT}|[,.?!]|$)`, "i");
@@ -972,8 +972,16 @@ export const toYou = text => String(text).replace(/\b(?:i am|i['’](?:m|ve|ll|d
   return at === 0 && /^[A-Z]/.test(w) && !/^i\b/i.test(w) ? said[0].toUpperCase() + said.slice(1) : said;
 });
 
+// The thing to remind them of, never how they asked: a spoken "Remind me, Willow, to go to Stormwind" was kept as "R Willow,
+// to go to Stormwind" (Mike, 10/22). A leading "remind me", its misheard "R", her name and "to" go.
+const ASKED_LEAD = /^\s*(?:(?:hey|ok|okay|please|r|remind(?:\s+me)?|tell\s+me|willo|willow|sam)\b[\s,!:]*)+(?:to|that|about)\s+/i;
+const taskOf = text => {
+  const t = String(text || "");
+  return /\b(?:remind|willo|willow|sam|r)\b/i.test(t.split(/\s+/).slice(0, 3).join(" ")) ? t.replace(ASKED_LEAD, "") : t;
+};
+
 function remindCall(args, view) {
-  const text = askedText(view.question) || cleanItem(args.text, REMIND_CHARS);
+  const text = askedText(view.question) || cleanItem(taskOf(args.text), REMIND_CHARS);
   if (!text) return null;
   // "In fifteen minutes" is a time, whatever else the call says (the stream, 10/18: "check up on my auction in fifteen
   // minutes" got a place or a level no one named, and so "You didn't say when or where"). Not when they name an event too
@@ -1314,6 +1322,16 @@ export async function allReminders(env, userId, now = new Date()) {
 export async function fireReminder(env, userId, id, now = new Date()) {
   const res = await env.DB.prepare("UPDATE notebook_reminders SET fired = ? WHERE id = ? AND user_id = ? AND fired IS NULL")
     .bind(now.toISOString(), String(id), userId).run();
+  return res.meta.changes > 0;
+}
+
+// Snoozed (her bubble's "Snooze 1 hour"): the reminder waits again, as one at a time SNOOZE_MINUTES on, wherever it was
+// set to come (a place or a level too: it's already been said there). False when it's gone.
+export const SNOOZE_MINUTES = 60;
+export async function snoozeReminder(env, userId, id, now = new Date()) {
+  const at = new Date(now.getTime() + SNOOZE_MINUTES * 60e3).toISOString();
+  const res = await env.DB.prepare("UPDATE notebook_reminders SET kind = 'time', at = ?, place = NULL, level = NULL, " +
+    "fired = NULL WHERE id = ? AND user_id = ?").bind(at, String(id), userId).run();
   return res.meta.changes > 0;
 }
 

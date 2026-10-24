@@ -234,7 +234,7 @@ test("a question about what she keeps is the privacy topic, never a new chat or 
   assert.match(text, /Help improve Willo's answers/);
   assert.match(text, /never say nothing leaves their computer/i);
   assert.doesNotMatch(text, /never uploaded/, "nothing she could turn into \"not uploaded\"");
-  assert.match(text, /picture for a spoken question stays on their computer/);
+  assert.match(text, /picture of the game stays on their computer/);
   assert.doesNotMatch(text, /Pictures of the game aren't kept/);
   assert.match(helpBlock("Do you keep my chats?", { keeping: true }), /on for them right now, so this question is kept too/);
   assert.match(helpBlock("Do you keep my chats?", { keeping: false }), /off for them right now, so nothing they ask is kept/);

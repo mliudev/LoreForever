@@ -204,3 +204,17 @@
   .h-tiles, .h-tracks, .h-plans, .h-faq { grid-template-columns: minmax(0, 1fr); }
   .h-chapter { padding-block: 56px; }
 }
+
+/* Lore Forever after the split (lib/doors.js, html[data-door=lore]): the add-on's door alone, and the small "Meet
+   Willo" card where Willo's chapter was, with no prices. */
+html[data-door="lore"] .h-doors { grid-template-columns: minmax(0, 720px); justify-content: center; }
+.h-meet { padding: 8px 0 40px; }
+.h-meet-in { display: flex; gap: 18px; align-items: flex-start; border: 1px solid #93b6ff33; border-radius: 16px; padding: 22px 24px;
+  background: linear-gradient(160deg, #141b33, var(--h-panel)); max-width: 760px; }
+.h-meet-in h2 { margin: 0 0 6px; font-size: 1.35rem; color: var(--h-wisp-hi); }
+.h-meet-in p { margin: 0 0 14px; color: var(--h-text-2); }
+.h-meet-in .h-wisp { flex: none; filter: drop-shadow(0 0 12px #8fd3ff88); }
+.h-meet-go { display: flex; flex-wrap: wrap; gap: 10px; margin: 0 0 8px !important; }
+.h-meet-in .h-meet-fine { margin: 0; font-size: .9rem; }
+.h-meetline { margin: 14px 0 0; color: var(--h-text-2); }
+.h-meetline a { color: var(--h-wisp-hi); font-weight: 600; }

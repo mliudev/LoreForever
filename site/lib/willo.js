@@ -61,7 +61,7 @@ export function willoGet(sizes, preview = null) {
   }
   return `<p><a class="h-btn h-willo-btn dl-link" id="willo-download" href="/download/willo?src=willo"
       aria-label="Download Willo for Windows">${WILLO_BUTTON}</a></p>
-      <ul class="h-meta"><li>Willo-Setup.exe</li>${size(o.bytes) ? `<li>${size(o.bytes)}</li>` : ""}<li>Windows 10 or 11</li><li>${o.version}</li></ul>
+      <ul class="h-meta"><li data-willo-downloads hidden></li><li>Willo-Setup.exe</li>${size(o.bytes) ? `<li>${size(o.bytes)}</li>` : ""}<li>Windows 10 or 11</li><li>${o.version}</li></ul>
       <div class="wl-phone"><p>On your phone? Willo runs on your Windows PC.</p>
         <button type="button" class="h-btn h-ghost h-sm" data-keep="https://loreforeverwow.com/willo">Copy the link for your PC</button></div>
       <p class="wl-note">Willo walks beside the free <a href="/downloads#addon">Lore Forever add-on</a>: get that first.</p>`;

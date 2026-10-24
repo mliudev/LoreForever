@@ -1,0 +1,71 @@
+{
+ "key": "quest:98372",
+ "type": "quest",
+ "name": "An Unfortunate End",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   98372
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "angles": [],
+ "faq": [
+  {
+   "aliases": [
+    "who is the dead body",
+    "who died here",
+    "who is the dead night watchman"
+   ],
+   "answer": "The fallen body belongs to a member of the Night Watch, the town guard tasked with patrolling the dark roads and borders of Duskwood. He met a violent demise alone in the shadows.",
+   "q": "Whose body is this?"
+  },
+  {
+   "aliases": [
+    "what killed the night watchman",
+    "how did the watchman die",
+    "what attacked him"
+   ],
+   "answer": "He was mauled by a large beast, leaving his corpse marked by profound gashes and savage cuts. The creature responsible overtook him before he could defend himself or light his way.",
+   "q": "What killed the watchman?"
+  },
+  {
+   "aliases": [
+    "what is the torch for",
+    "what do i do with the torch",
+    "torch uses duskwood"
+   ],
+   "answer": "The unlit torch taken from the guard's grip can illuminate the surrounding gloom, helping wanderers expose things veiled by the heavy darkness of Duskwood and lands beyond.",
+   "q": "Why is the torch important?"
+  }
+ ],
+ "keywords": [
+  "an unfortunate end",
+  "beast",
+  "duskwood",
+  "mauled",
+  "night watchman",
+  "torch"
+ ],
+ "related": [
+  "zone:duskwood"
+ ],
+ "sections": [
+  {
+   "body": "A fallen member of the Night Watch lies quiet upon the dark soil of Duskwood, his body marked by severe gashes and cuts from a savage encounter. The ferocious wounds suggest that a massive beast ambushed the patrolman before he had any chance to escape.",
+   "spoiler": 0,
+   "title": "A Grim Discovery"
+  },
+  {
+   "body": "Clutched within the fallen guard's rigid fingers rests an unlit torch. Taking the brand from his grasp provides a valuable tool against the encroaching shadows, capable of exposing things that remain concealed within the deep gloom of Duskwood and other darkened paths.",
+   "spoiler": 0,
+   "title": "Light in the Darkness"
+  }
+ ],
+ "summary": "A fallen Night Watchman lies in the gloom of Duskwood, brutally mauled by an unknown predator. Recovering the unlit brand from his cold fingers offers a way to penetrate the surrounding darkness and reveal whatever stays hidden within the shadows.",
+ "attribution": [
+  "In-game quest text: An Unfortunate End"
+ ]
+}

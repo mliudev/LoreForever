@@ -138,6 +138,16 @@
         data-tab="apps" hidden>Willo</a><a href="#contribute" id="tab-contribute"
         data-tab="contribute">My contributions</a><a href="#account" id="tab-account" data-tab="account">Account</a>
     </nav>
+    <!-- Two front doors (lib/doors.js): each domain shows its own tabs (the script below reads <html data-door>), and a
+         line says where the rest lives. /go/... keeps the browser signed in on the other domain. -->
+    <!-- door-split:
+    <p class="ac-lead ac-door">Your Willo plan, invites and connected apps are on Willo's site.
+      <a href="/go/willo?next=%2Faccount%3Fsrc%3Dlore-account%23apps">Open your Willo account</a></p>
+    :door-split -->
+    <!-- door-willo:
+    <p class="ac-lead ac-door">Your profile, voices and translations are on Lore Forever's site.
+      <a href="/go/lore?next=/account%23profile">Open them there</a></p>
+    :door-willo -->
 
     <div class="ac-panel" id="profile">
       <!-- Your profile (LOR-181): paste the journey record from the add-on, get /u/<handle>. One paste, one click; it
@@ -339,6 +349,9 @@
   // Plans moved to their own page (LOR-252); the companion and Stripe sent players to /account#plans before.
   if (location.hash === "#plans") { location.replace("/plans" + location.search); return; }
   const $ = id => document.getElementById(id);
+  // Which front door this is (lib/doors.js): "willo" on Willo's domain, "lore" on Lore Forever once split, else none.
+  // Willo's shows her tab and plan; Lore Forever's, the profile and contributions.
+  const door = document.documentElement.dataset.door;
   const params = new URLSearchParams(location.search);
   // Our own pages only; a query string may follow (/feedback?kind=bug), since it can't change the host.
   const safeNext = p => /^\/[a-z0-9-]+(\/[a-z0-9-]*)*(\?[^#\s]*)?$/.test(p || "") ? p : null;
@@ -425,11 +438,14 @@
     $("ac-signed").hidden = !me.user;
     $("ac-main").classList.toggle("ac-wide", !me.user);   // signed out: the steps and the example side by side
     // Signed out, the page is about making your profile; signed in, it's your account.
-    $("ac-title").textContent = me.user ? "Your account" : "Make your profile";
+    $("ac-title").textContent = me.user ? "Your account" : door === "willo" ? "Sign in to Willo" : "Make your profile";
     $("ac-pitch").hidden = Boolean(me.user);
-    $("ac-pitch").textContent = "A page about your character, from the journal Lore Forever keeps while you play. " +
-      "The add-on and its downloads never need an account.";
+    $("ac-pitch").textContent = door === "willo"
+      ? "Your plan, your invites and the apps you've connected to Willo. One sign-in for Willo and Lore Forever."
+      : "A page about your character, from the journal Lore Forever keeps while you play. " +
+        "The add-on and its downloads never need an account.";
     if (!me.user) {
+      if (door === "willo") $("ac-out-title").textContent = "Welcome, adventurer";
       const clientId = me.signIn.google;
       $("ac-google").hidden = !clientId;
       if (clientId) googleButton(clientId);
@@ -447,7 +463,7 @@
     $("ac-novoices").hidden = me.voices.length > 0;
     $("ac-voice-list").replaceChildren(...me.voices.map(voiceRow));
     features = me.features || {};
-    $("tab-apps").hidden = !features.companion;   // until the list of apps says otherwise (showApps)
+    $("tab-apps").hidden = door === "lore" || (door !== "willo" && !features.companion);   // until the list of apps says otherwise (showApps)
     reveal(hashId(), true);
     // Again once the sections have filled in, which moves what a link points to further down.
     Promise.all([loadTranslations(), loadProfile(), loadApps(), loadPlan(), loadShare(), loadMine()]).then(() => reveal(hashId(), true));
@@ -631,7 +647,7 @@
     let res;
     try { res = await (await fetch("/api/billing/plans", { cache: "no-store" })).json(); } catch (e) { res = null; }
     const c = res?.ok && res.on ? res.current : null;
-    $("ac-plan").hidden = !c;
+    $("ac-plan").hidden = !c || door === "lore";
     if (c && location.hash === "#billing") $("ac-plan").scrollIntoView();   // Willo's Billing button (the app)
     if (!c) return;
     $("ac-plan-beta").hidden = !res.launch;
@@ -703,11 +719,12 @@
   // opens Profile.
   const nav = $("ac-tabs");
   const tabs = [...nav.querySelectorAll("a[data-tab]")];
+  if (door === "willo") { $("tab-profile").hidden = $("tab-contribute").hidden = true; $("tab-apps").hidden = false; }
   const ALIASES = { links: "ac-profile", voices: "ac-voices", translations: "ac-translations", delete: "ac-delete" };
   let current = "profile";
   const hashId = () => decodeURIComponent(location.hash.slice(1));
   function tab(name, focus = false) {
-    if (!tabs.some(a => a.dataset.tab === name && !a.hidden)) name = "profile";
+    if (!tabs.some(a => a.dataset.tab === name && !a.hidden)) name = door === "willo" ? "apps" : "profile";
     current = name;
     for (const a of tabs) {
       const on = a.dataset.tab === name;
@@ -784,7 +801,7 @@
 
   function showApps(devices) {
     const was = $("tab-apps").hidden;
-    $("tab-apps").hidden = !devices.length && !features.companion;
+    $("tab-apps").hidden = door === "lore" || (door !== "willo" && !devices.length && !features.companion);
     if (was !== $("tab-apps").hidden) reveal(hashId(), true);   // a link to #apps
     $("ac-noapps").hidden = devices.length > 0;
     $("ac-app-list").replaceChildren(...devices.map(appRow));

@@ -1057,7 +1057,8 @@ plan, when it renews, changes or ends, "Switch to <plan>" links that open the co
 - **Willo analytics** (LOR-524, `lib/willo-stats.js`; /admin > Growth > Willo, and the Overview tile): downloads
   (`/download/willo`, D1 `downloads`), daily and weekly players (accounts that asked Willo at least once that UTC day /
   in the 7 days ending it: `answer_days`, counts only, kept 90 days), installs running her (the daily check-in), and
-  plans by `subscriptionReport` (paying by plan, MRR at full price, trials, comped, beta offers, voice packs, new and
+  plans by `subscriptionReport` (paying by plan, MRR at full price, trials, cancelled plans that end at renewal and are
+  never paying or MRR, renewing (paying and trials together, at full price), comped, beta offers, voice packs, new and
   cancelled per day). The "Daily Analytics" routine's Slack post in #analytics reads `/api/admin`'s `willo.summary`
   (the last whole UTC day) and `willo.subscriptions`.
 - Tests: `site/tests/billing.test.mjs` (Stripe and Gemini mocked) and `site/tests/companion-voice.test.mjs` (the voice

@@ -10,6 +10,7 @@ import { perMinute } from "../../lib/ratelimit.js";
 import { senderHash } from "../../lib/form.js";
 import { BOT } from "../../lib/usage.js";
 import { visitSource, firstTouch, firstTouchCookie, countEvent } from "../../lib/sources.js";
+import { doorOf } from "../../lib/doors.js";
 
 const done = (cookie = null) => new Response(null, { status: 204,
   headers: { "Cache-Control": "no-store", ...(cookie ? { "Set-Cookie": cookie } : {}) } });
@@ -20,7 +21,9 @@ export async function onRequestPost({ request, env, waitUntil }) {
   try { input = JSON.parse((await request.text()).slice(0, 2000)); } catch (e) { return done(); }
   if (!input || typeof input !== "object") return done();
   const host = new URL(request.url).hostname;
-  const visit = visitSource({ asked: input.src, ref: input.ref, landing: input.landing }, host);
+  // A visit landing on Willo's own domain is kept as "willo:<path>" (lib/sources.js landingOf), apart from Lore Forever's.
+  const willo = doorOf(request, env)?.door === "willo" ? "willo:" : "";
+  const visit = visitSource({ asked: input.src, ref: input.ref, landing: willo + String(input.landing || "/") }, host);
   if (!visit) return done();
   const day = new Date().toISOString().slice(0, 10);
   const key = "ip:" + await senderHash(env, request.headers.get("CF-Connecting-IP") || "", day);

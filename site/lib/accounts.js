@@ -149,6 +149,10 @@ const SETUP = [
   // SHA-256 of its secret, for two minutes.
   `CREATE TABLE IF NOT EXISTS web_logins (
     token_hash TEXT PRIMARY KEY, user_id TEXT NOT NULL, device_id TEXT NOT NULL, created TEXT NOT NULL, expires TEXT NOT NULL)`,
+  // A sign-in carried from one front door's domain to the other (lib/doors.js): a one-time code's SHA-256, for a
+  // minute, tied to the session (its token's SHA-256) that asked.
+  `CREATE TABLE IF NOT EXISTS door_carries (
+    token_hash TEXT PRIMARY KEY, user_id TEXT NOT NULL, session_hash TEXT NOT NULL, created TEXT NOT NULL, expires TEXT NOT NULL)`,
   // What writing profile stories cost, per calendar month (UTC, "2026-10"): micro_usd in millionths of a dollar,
   // calls made and stories kept. Site-wide, not per account. lib/profiles.js stops writing at the monthly budget.
   `CREATE TABLE IF NOT EXISTS story_spend (
@@ -449,6 +453,7 @@ const USER_DATA = [
   ["DELETE FROM excluded_accounts WHERE user_id = ?", u => u.id],
   ["DELETE FROM device_links WHERE user_id = ?", u => u.id],
   ["DELETE FROM web_logins WHERE user_id = ?", u => u.id],
+  ["DELETE FROM door_carries WHERE user_id = ?", u => u.id],
   ["DELETE FROM clip_reports WHERE user_id = ?", u => u.id],
   // Their plan (lib/billing.js, cancelled at Stripe first, below), their finest-voice packs and starter with any left,
   // what their live answers cost, and this month's spoken replies. Stripe keeps its own record of the payments.

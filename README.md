@@ -20,7 +20,7 @@ male and female narration in German and Portuguese (Brasil). See all the packs o
 
 **Installer (Windows):** download
 [LoreForever-Setup.exe](https://github.com/mliudev/LoreForever/releases/latest/download/LoreForever-Setup.exe)
-and run it. It finds your World of Warcraft folder and puts the add-on in `_classic_beta_\Interface\AddOns`. No
+and run it. It finds your World of Warcraft folder and puts the add-on in `_forever_\Interface\AddOns`. No
 admin rights needed. To update, run the newest installer. The installer is code-signed (publisher: Mei Liu). If
 Windows still shows "Windows protected your PC", click **More info**, then **Run anyway**.
 
@@ -32,13 +32,13 @@ irm https://loreforeverwow.com/install.ps1 | iex
 ```
 
 It finds your World of Warcraft folder, downloads the latest release from this repo and puts it in
-`_classic_beta_\Interface\AddOns`. Run it again any time to update. The script is
+`_forever_\Interface\AddOns`. Run it again any time to update. The script is
 [site/public/install.ps1](site/public/install.ps1) if you'd like to read it first.
 
 **By hand:**
 
 1. Download [LoreForever.zip](https://github.com/mliudev/LoreForever/releases/latest/download/LoreForever.zip).
-2. Open your WoW folder, then `_classic_beta_\Interface\AddOns` (create `Interface\AddOns` if it isn't there).
+2. Open your WoW folder, then `_forever_\Interface\AddOns` (create `Interface\AddOns` if it isn't there).
 3. Unzip all its folders there, with `LoreForever` and the `LoreForever_Voice_*` folders side by side. For example,
    `...\AddOns\LoreForever\LoreForever.toc` and `...\AddOns\LoreForever_Voice_Default\LoreForever_Voice_Default.toc`.
    Watch out for a doubled folder like `AddOns\LoreForever\LoreForever\`: that won't load.

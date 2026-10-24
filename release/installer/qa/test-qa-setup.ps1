@@ -17,7 +17,7 @@ function NormalSnapshot {
   $qaSnapshot.autostart=(Get-ItemProperty -LiteralPath 'HKCU:\Software\Microsoft\Windows\CurrentVersion\Run' -ErrorAction SilentlyContinue).LoreForeverCompanion
   $qaSnapshot.uninstall_registry=Test-Path -LiteralPath 'HKCU:\Software\Microsoft\Windows\CurrentVersion\Uninstall\{6B7E3F52-4C1D-4E8A-9A57-1F0D2C8B5E31}_is1'
   $qaSnapshot.shortcut=Test-Path -LiteralPath (Join-Path $env:APPDATA 'Microsoft\Windows\Start Menu\Programs\Lore Forever Companion.lnk')
-  $qaSnapshot.processes=@(Get-Process -Name WowB,LoreForeverCompanion -ErrorAction SilentlyContinue | Sort-Object Id | ForEach-Object { "$($_.Name):$($_.Id):$($_.StartTime.Ticks)" })
+  $qaSnapshot.processes=@(Get-Process -Name Wow,WowB,LoreForeverCompanion -ErrorAction SilentlyContinue | Sort-Object Id | ForEach-Object { "$($_.Name):$($_.Id):$($_.StartTime.Ticks)" })
   $qaSnapshot.normal_files=@(
     foreach($qaLocation in @((Join-Path $env:LOCALAPPDATA 'LoreForever'),(Join-Path $env:LOCALAPPDATA 'Programs\Lore Forever Companion'),(Join-Path $env:APPDATA 'LoreForever'))){
       if(Test-Path -LiteralPath $qaLocation){Get-ChildItem -LiteralPath $qaLocation -Recurse -File | Sort-Object FullName | ForEach-Object { "$($_.FullName):$($_.Length):$($_.LastWriteTimeUtc.Ticks)" }}
@@ -25,8 +25,10 @@ function NormalSnapshot {
   )
   $qaSnapshot.game_history=@()
   if($qaSnapshot.game_hint){
-    $qaHistory=Join-Path $qaSnapshot.game_hint '_classic_beta_\WTF'
-    if(Test-Path -LiteralPath $qaHistory){$qaSnapshot.game_history=@(Get-ChildItem -LiteralPath $qaHistory -Recurse -File | Sort-Object FullName | ForEach-Object { "$($_.FullName):$($_.Length):$($_.LastWriteTimeUtc.Ticks)" })}
+    foreach($qaFlavor in @('_forever_','_classic_beta_')){
+      $qaHistory=Join-Path $qaSnapshot.game_hint "$qaFlavor\WTF"
+      if(Test-Path -LiteralPath $qaHistory){$qaSnapshot.game_history+=@(Get-ChildItem -LiteralPath $qaHistory -Recurse -File | Sort-Object FullName | ForEach-Object { "$($_.FullName):$($_.Length):$($_.LastWriteTimeUtc.Ticks)" })}
+    }
   }
   $qaSnapshot | ConvertTo-Json -Depth 6 -Compress
 }
@@ -56,7 +58,7 @@ foreach($qaCase in @(@{id='INSTALL1';selection='base';voices='none'},@{id='INSTA
     $qaSelectedManifest=Get-Content -LiteralPath $qaManifest -Raw | ConvertFrom-Json
     if($qaCase.selection -ne 'base' -and @($qaSelectedManifest.selections.($qaCase.selection)).Count -eq 0){$qaResult.reason='Selected future packs are not yet available';continue}
     $qaWow=Join-Path $qaTests $qaCase.id
-    New-Item -ItemType Directory -Path (Join-Path $qaWow '_classic_beta_') | Out-Null
+    New-Item -ItemType Directory -Path (Join-Path $qaWow '_forever_') | Out-Null
     $qaResult.directory=$qaWow
     $qaInstall=RunSetup ($qaCase.id+'-fresh') @(('/DIR="'+$qaWow+'"'),'/COMPONENTS=addon',('/VOICES='+$qaCase.voices),('/VOICEURL='+$VoiceBase))
     $qaResult.steps+=@($qaInstall)

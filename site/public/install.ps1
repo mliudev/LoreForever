@@ -1,7 +1,8 @@
 # Lore Forever installer for Windows.
 # Run in PowerShell:   irm https://loreforeverwow.com/install.ps1 | iex
 # Finds your World of Warcraft folder, downloads the latest Lore Forever release from GitHub and puts it in
-# _classic_beta_\Interface\AddOns (the WoW Forever beta). Run it again any time to update.
+# _forever_\Interface\AddOns (WoW Forever; the beta's _classic_beta_ when there's no _forever_). Run it again any
+# time to update.
 # Source: https://github.com/mliudev/LoreForever
 
 # Everything runs in its own scope so nothing leaks into the PowerShell window it was pasted into.
@@ -12,7 +13,7 @@
 
     $ZipUrl = 'https://github.com/mliudev/LoreForever/releases/latest/download/LoreForever.zip'
     $SumsUrl = $ZipUrl -replace '[^/]+$', 'SHA256SUMS.txt'   # the release's checksums, published next to the zip
-    $Flavor = '_classic_beta_'
+    $Flavors = '_forever_', '_classic_beta_'   # WoW Forever's game folder, then the beta's
 
     # The zip's SHA-256 from the release's SHA256SUMS.txt (sha256sum's format), or $null when the release has none.
     function Get-ZipSha256 {
@@ -21,6 +22,12 @@
         foreach ($line in ($sums -split "`n")) {
             if ($line -match '^([0-9a-fA-F]{64}) [ *]LoreForever\.zip\s*$') { return $Matches[1] }
         }
+        return $null
+    }
+
+    # The game's folder in a World of Warcraft folder (_forever_), or $null when it has none.
+    function Get-Flavor($root) {
+        foreach ($f in $Flavors) { if (Test-Path (Join-Path $root $f)) { return $f } }
         return $null
     }
 
@@ -33,7 +40,7 @@
         foreach ($k in $keys) {
             foreach ($e in (Get-ItemProperty $k -ErrorAction SilentlyContinue)) {
                 if ($e.DisplayName -eq 'World of Warcraft' -and $e.InstallLocation -and
-                    (Test-Path (Join-Path $e.InstallLocation $Flavor))) { return $e.InstallLocation }
+                    (Get-Flavor $e.InstallLocation)) { return $e.InstallLocation }
             }
         }
         # Otherwise try the usual places on every drive.
@@ -43,7 +50,7 @@
         foreach ($d in (Get-PSDrive -PSProvider FileSystem)) {
             foreach ($r in $rel) {
                 $p = Join-Path $d.Root $r
-                if (Test-Path (Join-Path $p $Flavor)) { return $p }
+                if (Get-Flavor $p) { return $p }
             }
         }
         return $null
@@ -52,9 +59,9 @@
     Write-Host ''
     Write-Host 'Lore Forever installer' -ForegroundColor Yellow
     $wow = Find-WoW
-    while (-not $wow -or -not (Test-Path (Join-Path $wow $Flavor))) {
-        if ($wow) { Write-Host "No $Flavor folder in $wow (is WoW Forever installed there?)" -ForegroundColor Red }
-        else { Write-Host "Couldn't find World of Warcraft with the Forever beta ($Flavor) installed." -ForegroundColor Red }
+    while (-not $wow -or -not ($Flavor = Get-Flavor $wow)) {
+        if ($wow) { Write-Host "No _forever_ folder in $wow (is WoW Forever installed there?)" -ForegroundColor Red }
+        else { Write-Host "Couldn't find World of Warcraft with WoW Forever (_forever_) installed." -ForegroundColor Red }
         $wow = (Read-Host 'Paste your World of Warcraft folder (for example C:\Program Files (x86)\World of Warcraft), or press Enter to quit').Trim('" ')
         if (-not $wow) { return }
     }

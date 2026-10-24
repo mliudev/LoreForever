@@ -21,10 +21,12 @@
 // few tips) cost about $0.12, the most one could about $0.45; the first-run trial's 50 are costed below. All of it is paid
 // from the shared monthly budget (lib/companion-answers.js, $100 for every free answer and voice), and a day's taste
 // may cost at most TASTE_DAY_USD ($5 since option D, Mike, 2026-10-19, so a busy launch day doesn't run new players'
-// first answers out of her best; real spend was about $0.20 a day in October; $150 a month at the very most), so a spike
-// can't spend the month in a day. Past it, the day's answers and replies take the plan's own path, uncounted (so
-// nobody loses theirs), with the chorus resting in Willo's window until the next UTC day. The Pages variable
-// TASTE_DAY_USD changes the cap without a code change.
+// first answers out of her best; real spend was about $0.20 a day in October), so a spike can't spend the month in a
+// day. Since 10/22 (Mike: "agree with both") it's inside the free players' $150 pool too (lib/free-pool.js), so all free
+// spend together never passes it: while the pool is on its soft step (its day's allowance used), the taste rests as it
+// does past its own cap. Past either, the day's answers and replies take the plan's own path, uncounted (so nobody
+// loses theirs), with the chorus resting in Willo's window until there's room again. The Pages variable TASTE_DAY_USD
+// changes the cap without a code change.
 //
 // Tables (lib/billing.js SETUP): best_first, one row per Google account (claim: "taste:" and its one-way code, or
 // "taste:user:<id>" without one): user_id (NULL once the account is deleted, so the count stays with the claim), used
@@ -58,6 +60,7 @@
 
 import { plansOn, setupBilling, claimOf, PAID, TASTE_ANSWERS, TRIAL_DAYS } from "./billing.js";
 import { counted } from "./activity.js";
+import { fits } from "./free-pool.js";
 
 export { TASTE_ANSWERS, TRIAL_DAYS };
 // The trial's uses where a use costs something (sized from the pricing review's measured costs, 10/19): look-ups
@@ -77,6 +80,20 @@ export function tasteDayMicro(env) {
   const usd = Number(env?.TASTE_DAY_USD ?? TASTE_DAY_USD);
   return Math.round((Number.isFinite(usd) && usd >= 0 ? usd : TASTE_DAY_USD) * 1e6);
 }
+
+// Whether the taste has room now, as SQL with its binds: its day under its own cap (TASTE_DAY_USD) by a whole reply,
+// and the free pool under the day's allowance (lib/free-pool.js; on its soft step the taste rests). tasteRoom selects
+// it as `room` for a batch, and roomIn reads that.
+function room(env, now) {
+  const pool = fits(env, now, TASTE_REPLY_MICRO, "soft");
+  return { sql: `(COALESCE((SELECT reserved_micro FROM best_first_days WHERE day = ?), 0) + ? <= ? AND ${pool.sql})`,
+           binds: [dayOf(now), TASTE_REPLY_MICRO, tasteDayMicro(env), ...pool.binds] };
+}
+export const tasteRoom = (env, now) => {
+  const r = room(env, now);
+  return env.DB.prepare(`SELECT ${r.sql} AS room`).bind(...r.binds);
+};
+export const roomIn = result => Boolean(result?.results?.[0]?.room);
 
 // Whether this plan gets the taste at all: the free plan and the beta's free Hero month, while plans are on.
 export const tasteFor = (env, plan) => plansOn(env) && Boolean(plan) && (plan.id === "free" || Boolean(plan.launch));
@@ -157,13 +174,13 @@ export function trialView(plan, trial) {
 
 // The account's taste now, for the allowance: {of, left (answers), voices (finest replies earned, not yet said),
 // on, why ("used": all of them answered and said; "ended": the trial's days are over; "resting": the day's cap is reached),
-// trial (trialOf)}; null for a plan without one.
+// trial (trialOf)}; null for a plan without one. Resting: the day's cap, or the free pool's soft step (tasteRoom).
 export async function tasteState(env, userId, plan, now = new Date()) {
   if (!tasteFor(env, plan)) return null;
   await setupBilling(env);
   const [mine, day] = await env.DB.batch([
     env.DB.prepare(`SELECT ${ROW} FROM best_first WHERE user_id = ?`).bind(userId),
-    env.DB.prepare("SELECT reserved_micro FROM best_first_days WHERE day = ?").bind(dayOf(now)),
+    tasteRoom(env, now),
   ]);
   // No row yet: a new account, or its Google account's from before "Delete my account", which becomes this one's.
   const row = mine.results?.[0] ?? await env.DB.prepare("UPDATE best_first SET user_id = ? WHERE claim = ? AND " +
@@ -171,14 +188,15 @@ export async function tasteState(env, userId, plan, now = new Date()) {
   const trial = trialOf(env, plan, row, now);
   const left = trial.on ? Math.max(0, TASTE_ANSWERS - (row?.used || 0)) : 0;
   const voices = trial.on ? Math.max(0, row?.voices || 0) : 0;
-  const resting = (day.results?.[0]?.reserved_micro || 0) + TASTE_REPLY_MICRO > tasteDayMicro(env);
+  const resting = !roomIn(day);
   const why = !trial.on ? "ended" : !left && !voices ? "used" : resting ? "resting" : null;
   return { of: TASTE_ANSWERS, left, voices, on: !why, ...(why ? { why } : {}), trial };
 }
 
 // Takes one of the account's taste answers for a live answer about to be written, in one statement, so two questions
 // at once can't both take the last; spoken: asked out loud, so it earns a reply in the finest voice. {claim, used,
-// spoken}, or null: not this plan's, all of them used, the trial's days over, or the day's cap reached (counted as capped).
+// spoken}, or null: not this plan's, all of them used, the trial's days over, or no room (tasteRoom: the day's cap or the
+// free pool's soft step; counted as capped).
 // takeFirst also says the trial (trialOf, after this answer's take), read in the same round trip, and starts the
 // trial's days on the account's first live answer even when the taste can't take it. An account's first take makes its
 // row, or finds its Google account's from before "Delete my account".
@@ -189,14 +207,13 @@ export async function takeFirst(env, userId, plan, now = new Date(), { spoken = 
   if (!tasteFor(env, plan)) return { taste: null, trial: null };
   await setupBilling(env);
   const at = iso(now.getTime());
+  const r = room(env, now);
   const taking = () => env.DB.prepare(
     "UPDATE best_first SET used = used + 1, voices = voices + ?, started = COALESCE(started, ?), " +
     "finished = CASE WHEN used + 1 >= ? THEN ? ELSE finished END WHERE user_id = ? AND used < ? AND " +
-    "(started IS NULL OR started > ?) AND " +
-    "COALESCE((SELECT reserved_micro FROM best_first_days WHERE day = ?), 0) < ? RETURNING claim, used"
-  ).bind(spoken ? 1 : 0, at, TASTE_ANSWERS, at, userId, TASTE_ANSWERS, windowFrom(env, now), dayOf(now),
-         tasteDayMicro(env));
-  // The take, the trial's days started when the take couldn't (the day's cap), and the account's row as it stands
+    `(started IS NULL OR started > ?) AND ${r.sql} RETURNING claim, used`
+  ).bind(spoken ? 1 : 0, at, TASTE_ANSWERS, at, userId, TASTE_ANSWERS, windowFrom(env, now), ...r.binds);
+  // The take, the trial's days started when the take couldn't (no room), and the account's row as it stands
   // after both, in one round trip: most accounts that aren't paying have used their 20, and each of their answers
   // waited for both one after the other (LOR-654).
   const after = () => [taking(),

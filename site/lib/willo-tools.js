@@ -24,7 +24,7 @@ export const LOOKUPS = {
   web: { side: "site", what: "a quick look online for the player's own world (lib/companion-answers.js lookUp)" },
   help: { side: "site", what: "Willo's own help (lib/willo-help.js)" },
   answers_left: { side: "site", what: "their plan and the answers it has left (lib/companion-answers.js allowance)" },
-  sight: { side: "willo", what: "a picture of the game with a question asked out loud (talk/sight.py); logged, not asked for" },
+  sight: { side: "willo", what: "a picture of the game with a question asked out loud, or a typed one that needs it (talk/sight.py); logged, not asked for" },
 };
 
 // The site's look-ups for one of Willo's own answers. A question about her gets her help, her state and, about
@@ -79,7 +79,7 @@ export const ACTIONS = {
   live_game_info: { side: "willo", confirm: "consent", undo: true, topics: ["live"],
     what: "Live game info, turned on by the player's click under its explanation (Settings › Live game info's words)" },
   see_the_game: { side: "willo", confirm: "consent", undo: true, topics: ["sight"],
-    what: "seeing the game when asked out loud (Hero and up), turned on by the player's click under its explanation" },
+    what: "seeing the game when they ask (Hero and up), turned on by the player's click under its explanation" },
 };
 // The Settings cards open_settings opens, by the help topic that asks for it, with its button's words. from: only for a
 // companion that has it (companion/lore_companion/actions.py SECTIONS), by its X-LF-Client: 0.21.0 has her color's card
@@ -175,7 +175,7 @@ export function actionsFor(topics, { voices = [], current = "", key = "", liveOf
     description: "Live game info is off in your window: with it on you'd know where they are and who they target. " +
       "This shows them how it works, and they turn it on themselves." });
   if (see) out.push({ name: "see_the_game",
-    description: "Seeing the game is off in your window: with it on you'd see their screen when they ask out loud. " +
+    description: "Seeing the game is off in your window: with it on you'd see their game when they ask. " +
       "This shows them how it works, and they turn it on themselves." });
   if (has("set_voice") && picks.length && wantsVoice(asked, picks)) out.push({ name: "set_voice",
     description: "Switch your voice to another of the voices their plan has" + (picks.some(v => voiceLabel(v))
@@ -272,6 +272,6 @@ export function offerLine(action) {
     new_chat: "Want a fresh chat? This one stays in your list.",
     set_talk_key: `${TALK_KEYS[action.args.key] || "Another key"} is free. Want me to use it?`,
     live_game_info: "With Live game info on, I'd know where you are and who you target. Want to see how it works?",
-    see_the_game: "If you let me see the game, I can look when you ask out loud. Want to see how it works?",
+    see_the_game: "If you let me see the game, I can look when you ask. Want to see how it works?",
   }[action.id] || "";
 }

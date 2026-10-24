@@ -42,6 +42,6 @@ export async function onRequestPost({ request, env }) {
   try { body = await request.json(); } catch { return json({ ok: false, error: "Expected JSON." }, 400); }
   if (body?.action !== "write") return json({ ok: false, error: "Unknown action." }, 400);
   await setup(env);
-  const out = await writeNote(env, { id: body.id, subject: body.subject, text: body.text });
+  const out = await writeNote(env, { id: body.id, subject: body.subject, text: body.text, as: body.as });
   return out.error ? json({ ok: false, error: out.error }, 400) : json({ ok: true, status: out.status });
 }

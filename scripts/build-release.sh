@@ -65,7 +65,7 @@ PACKS = ["LoreForever_Voice_Default", "LoreForever_Voice_Default_Alliance", "Lor
 # complete stories from before the Chronicler took over the default packs (Mike, 10/17: "the old male narrator a
 # separate pack").
 RELEASE_PACKS = ["LoreForever_Lang_deDE", "LoreForever_Lang_esES", "LoreForever_Lang_frFR", "LoreForever_Lang_ptBR",
-                 "LoreForever_Lang_ruRU", "LoreForever_Lang_ukUA", "LoreForever_Lang_itIT",
+                 "LoreForever_Lang_ruRU", "LoreForever_Lang_ukUA", "LoreForever_Lang_itIT", "LoreForever_Lang_zhCN",
                  "LoreForever_Voice_Default_ukUA",
                  "LoreForever_Edition_Densuad_esES_Text", "LoreForever_Edition_Densuad_esES_Audio",
                  "LoreForever_Voice_Default_Quests", "LoreForever_Voice_Female",

@@ -8,6 +8,7 @@
 
 import { page, escape, FRESH } from "./voices.js";
 import { featureOn } from "./features.js";
+import { zoneCard, LORE_INDEX_CARD } from "./social.js";
 
 // The flag: the "lore" site feature (lib/features.js), off until the recordings are in R2 and Mike says go. While
 // it's off every lore page is served, but with noindex (meta tag and X-Robots-Tag), the sitemap lists none of them
@@ -340,6 +341,18 @@ export function searchDescription(entry) {
   return fit(summary, DESC_MAX) || cut(summary, DESC_MAX);
 }
 
+// The page as an article for search (schema.org Article): its title, description and card, published by Lore Forever.
+export function articleLd(entry, headline, description, card) {
+  const ld = {
+    "@context": "https://schema.org", "@type": "Article", headline, description,
+    image: `https://${HOME}${card.src}`, mainEntityOfPage: `https://${HOME}${entry.path}`,
+    author: { "@type": "Organization", name: "Lore Forever", url: `https://${HOME}/` },
+    publisher: { "@type": "Organization", name: "Lore Forever", url: `https://${HOME}/`,
+      logo: { "@type": "ImageObject", url: `https://${HOME}/img/logo.png` } },
+  };
+  return `<script type="application/ld+json">${JSON.stringify(ld).replace(/</g, "\\u003c")}</script>`;
+}
+
 // Breadcrumbs for search results (schema.org BreadcrumbList), the same trail as the page's own: Lore › zone › entry.
 export function breadcrumbLd(entry) {
   const trail = [["Lore", "/lore"]];
@@ -446,10 +459,13 @@ export function entryPage(entry, { live = new Set(), names = {}, env, packs = []
   if (zone && zone.path && zone.path !== entry.path) crumbs.push(`<a href="${escape(zone.path)}">${escape(zone.name)}</a>`);
   crumbs.push(escape(displayName(entry)));
   const { short, full } = searchTitle(entry);
+  // Shared, it shows the land it's in or about on our own map (lib/social.js), else the lore card.
+  const card = zoneCard(entry.zone?.name, displayName(entry)) || LORE_INDEX_CARD;
+  const description = searchDescription(entry);
   return page({
-    title: short, fullTitle: full, description: searchDescription(entry), path: entry.path, body,
+    title: short, fullTitle: full, description, path: entry.path, body, image: card.src, imageAlt: card.alt,
     crumbs: crumbs.join(" &rsaquo; "), foot, scripts: SCRIPTS, robots: noindex(env, entry),
-    head: `${HEAD}\n${breadcrumbLd(entry)}`,
+    head: `${HEAD}\n${breadcrumbLd(entry)}\n${articleLd(entry, short, description, card)}`,
   });
 }
 
@@ -537,6 +553,7 @@ export function indexPage(index, { more, env, packs = [] } = {}) {
     description: "Read and listen to the stories of WoW Forever's zones, places, characters, items, dungeon bosses and " +
       "quest givers, as Lore Forever tells them in game. Search, filter by zone and play.",
     path: "/lore", body, crumbs: "", foot, scripts: SCRIPTS, robots: noindex(env), head: HEAD,
+    image: LORE_INDEX_CARD.src, imageAlt: LORE_INDEX_CARD.alt,
   });
 }
 

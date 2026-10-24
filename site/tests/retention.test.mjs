@@ -86,8 +86,12 @@ test("Patrick's line, the weeks table and the cancellation reasons", async () =>
   assert.deepEqual([f.reason, f.comment, f.state], ["too expensive", "Too pricey for me right now", "cancelled"]);
   assert.equal(r.subscribers.find(s => s.notCharged).state, "ended");
   assert.equal(JSON.stringify(r).match(/u_sub|sub_[a-h]/), null, "never who: no account or subscription ids");
-  assert.deepEqual(r.cancellations.map(c => [c.kind, c.kept, c.reason, c.comment]),
+  // Every cancelled plan is in the log, those cancelled before it began too (without a reason: none was logged).
+  assert.equal(r.cancellations.length, r.totals.cancelled);
+  assert.deepEqual(r.cancellations.filter(c => c.comment).map(c => [c.kind, c.kept, c.reason, c.comment]),
     [["scheduled", "3 days", "too expensive", "Too pricey for me right now"]]);
+  assert.deepEqual(r.cancellations.filter(c => !c.comment).map(c => c.kind).sort(), ["now", "scheduled"],
+    "the trial that ended, and the plan still running to its end");
 });
 
 test("comped plans and team accounts are left out; only-paid leaves out what first pays on November 4", async () => {

@@ -23,11 +23,11 @@
    "Taretha's Gift"
   ]
  },
- "summary": "The Rescue is an early Horde quest initiated by Krusk in Tarren Mill, tasking heroes with infiltrating Durnholde Keep to liberate captured orc scouts. Thrall's handpicked scouts were ambushed while seeking a relic of the Warchief's past, leaving them captive to the ruthless human criminals of the Syndicate.",
+ "summary": "The Rescue is an early Horde quest initiated by Krusk in Tarren Mill, tasking heroes with infiltrating Durnholde Keep to liberate captured orc scouts. Thrall's scouts were ambushed after being sent to retrieve an object from Durnholde, leaving them captive to the ruthless human criminals of the Syndicate.",
  "sections": [
   {
    "title": "A Scout Mission Gone Wrong",
-   "body": "Warchief Thrall sent a select detachment of orc warriors to the Hillsbrad Foothills with orders to quietly investigate the rising Syndicate threat and recover an item tied closely to Durnholde Keep's history. Under the leadership of Gol'dir, the scouting party approached the fortress ruins. However, the Syndicate's sheer numbers overwhelmed them in an ambush. While the warrior Krusk managed to break free and limp back across the river to Tarren Mill, his companions Drull, Tog'thar, and Gol'dir were taken alive into human chains.",
+   "body": "Warchief Thrall sent a select detachment of orc warriors to the Hillsbrad Foothills with orders to quietly investigate the rising Syndicate threat and retrieve an object from Durnholde Keep. Under the leadership of Gol'dir, the scouting party approached the fortress ruins. However, the Syndicate's sheer numbers overwhelmed them in an ambush. While the warrior Krusk managed to break free and limp back across the river to Tarren Mill, his companions Drull, Tog'thar, and Gol'dir were taken alive into human chains.",
    "spoiler": 0
   },
   {
@@ -44,7 +44,7 @@
     "why durnholde",
     "krusk mission"
    ],
-   "answer": "Warchief Thrall dispatched Gol'dir and his scout cadre to investigate the Syndicate bandits and to secure an item from Durnholde's past that holds great personal significance to the Warchief."
+   "answer": "Warchief Thrall dispatched Gol'dir and his scout cadre to investigate the Syndicate bandits and to retrieve an object from Durnholde."
   },
   {
    "q": "Who are the captives being rescued?",
@@ -80,7 +80,7 @@
     "after the rescue",
     "rescue chain"
    ],
-   "answer": "Freeing the scouts leads directly into a mission to track down and infiltrate the Syndicate to rescue Gol'dir, eventually uncovering Lord Aliden Perenolde's schemes and a token belonging to Taretha Foxton."
+   "answer": "Freeing the scouts leads directly into a mission to track down and infiltrate the Syndicate to rescue Gol'dir, and eventually deeper into the Syndicate's affairs."
   },
   {
    "q": "Why does Durnholde Keep hold special meaning to the Horde?",

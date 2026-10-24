@@ -19,7 +19,8 @@ import { setupReports } from "../lib/reports.js";
 import { setupPlanUsage } from "../lib/plan-usage.js";
 import { setupFeatureUsage, featureReport } from "../lib/featureuse.js";
 import { saveCheckin } from "../lib/checkins.js";
-import { setupWinback } from "../lib/winback.js";
+import { setupWinback, SENDERS, SENDER } from "../lib/winback.js";
+import { retentionReport } from "../lib/retention.js";
 import { EMAIL_SETUP } from "../lib/email.js";
 import { sendEmail, sendOnce } from "../lib/email.js";
 import { stripe } from "../lib/billing.js";
@@ -324,6 +325,16 @@ test("payout transfers only the reviewed claimed amount, while legacy payout cal
   } finally { globalThis.fetch = original; }
 });
 
+test("a plan cancelled before the cancellation log began can be previewed from the dashboard", async () => {
+  const env = await fixture();
+  env.DB.sqlite.exec("DELETE FROM plan_cancellations");   // cancelled before the log (lib/cancellations.js ALL_CANCELLATIONS)
+  const [row] = (await retentionReport(env)).cancellations;
+  assert.equal(row.note, "yes");
+  const preview = await post(env, "retention", { action: "preview", id: row.id, subject: "S", text: "Hi {name}" }, "preview-before-log");
+  assert.equal(preview.status, 200, await preview.clone().text());
+  assert.equal((await preview.json()).draft.to, "test@example.com");
+});
+
 test("retention preview writes nothing, and send refuses an unreviewed or changed recipient/message", async () => {
   const env = await fixture(); let sent = 0;
   env.EMAIL = { async send() { sent++; return { messageId: "test" }; } };
@@ -331,8 +342,12 @@ test("retention preview writes nothing, and send refuses an unreviewed or change
   const body = await reviewedNote(env);
   assert.equal(env.DB.sqlite.prepare("SELECT total_changes() AS n").get().n, before);
   assert.equal(body.reviewed.to, "test@example.com");
-  assert.equal(body.reviewed.from, "Patrick from Lore Forever <patrick@loreforeverwow.com>");
+  assert.equal(body.reviewed.from, SENDERS[SENDER].from);
   assert.match(body.reviewed.text, /^Hey Test,\nExact note/);
+  // Patrick's, when the box picks him.
+  const patrick = await post(env, "retention", { action: "preview", id: "evt_test", as: "patrick", subject: "S", text: "T" },
+    "preview-patrick");
+  assert.equal((await patrick.json()).draft.from, SENDERS.patrick.from);
   assert.match(body.reviewed.text, /https:\/\/loreforeverwow.com\/unsubscribe/);
   const { reviewed, ...without } = body;
   assert.equal((await post(env, "retention", without)).status, 400);

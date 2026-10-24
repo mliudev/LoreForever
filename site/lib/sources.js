@@ -83,10 +83,12 @@ export function sourceOfReferrer(ref, ownHost = "") {
   return SOURCE.test(out) ? out : "";
 }
 
-// A landing page as it's kept: its path only, no query, cut to LANDING_MAX; "/" for anything else.
+// A landing page as it's kept: its path only, no query, cut to LANDING_MAX; "/" for anything else. A page on Willo's
+// own domain keeps "willo:" in front ("willo:/plans"; functions/api/visit.js), since both domains have a "/" and a /plans.
 export function landingOf(path) {
-  const p = String(path || "/").split(/[?#]/)[0].replace(/[^\x21-\x7e]/g, "").slice(0, LANDING_MAX);
-  return p.startsWith("/") ? p.replace(/(.)\/+$/, "$1") : "/";
+  const [, site = "", rest] = /^(willo:)?([\s\S]*)$/.exec(String(path || "/"));
+  const p = rest.split(/[?#]/)[0].replace(/[^\x21-\x7e]/g, "").slice(0, LANDING_MAX);
+  return site + (p.startsWith("/") ? p.replace(/(.)\/+$/, "$1") : "/");
 }
 
 // The browser's first source, from its lf_src cookie: {src, landing}, or null.

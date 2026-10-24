@@ -7,6 +7,21 @@ wrap long bullets with an indented continuation line.
 
 ## Unreleased
 
+## 0.27.0 (2026-10-23)
+
+- **Your own chronicle:** every place, person, item and quest with a story is kept as you find it, in a new Found tab,
+  and each story opens on a page of its own. Nothing you haven't reached is spoiled.
+- **Ready for launch day:** the installer and Willo find WoW Forever's launch client, so the add-on is ready on
+  November 4.
+- **A calmer Willo:** she says each answer once, stays quiet while you talk to her, and tells you once when her answers
+  run out for the day.
+- **Reminders you can remove:** see them all in Notes, remove any, or snooze one for an hour.
+- **The whole story with Willo too:** if you've chosen to hear everything in the add-on, Willo tells it all as well.
+- **More story, fewer spoiler warnings:** long storylines end with a recap, more answers open once your quests reach
+  them, and corrected lore.
+- **More quests voiced:** thousands more quest lines are read aloud in both narrators' voices, and the female
+  narrator tells more stories.
+
 ## 0.26.0 (2026-10-22)
 
 - **One Willo everywhere:** a new glass panel over the game, her window, the chat by the wisp and the talk key always

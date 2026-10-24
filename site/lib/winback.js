@@ -1,33 +1,56 @@
 import { isReportRead } from "./report-read.js";
 // A note to a player who cancelled their Willo plan, asking why (Patrick, 2026-10-19: "send an email to the one who
 // cancelled to ask them about that was the issue and how we could improve"; Mike's go the same day). Written on /admin's
-// Growth > Retention, one player at a time, and sent by the site (lib/email.js, Cloudflare Email Sending) from
-// patrick@loreforeverwow.com with replies to that address, which Email Routing forwards to Patrick. Whoever writes it
-// never sees the player's address: the site looks it up and sends. Plain text, with the same unsubscribe line as every
+// Growth > Retention, one player at a time, and sent by the site (lib/email.js, Cloudflare Email Sending) from Mike by
+// default (Mike, 10/22: "It should be from my loreforever email": hello@loreforeverwow.com, which Email Routing forwards
+// to him), or from Patrick (patrick@), with replies to the sender's own address (SENDERS). Whoever writes it never sees
+// the player's address: the site looks it up and sends. Plain text, with the same unsubscribe line as every
 // email from us, and never to an address that unsubscribed (lib/email.js sendOnce).
 //
 // One note per cancelled subscription, ever (sendOnce's id winback:<subscription id>), never to a comped or team
-// account (lib/cancellations.js counted), and not once the player has taken the cancellation back.
+// account (lib/cancellations.js counted), and not once the player has taken the cancellation back. Only a real send
+// uses it up: a preview (previewNote, the dashboard's draft for approval) never claims it, and neither does a site with
+// no email service (develop, a preview build), which answers "off" and leaves the note to write again.
 //
 // winback_notes (subscription_id): what was written and when, the cancellation it answered, and what became of it
 // (sendOnce's status: sent, off, opted_out, no_address; a failed send leaves no row, so it can be tried again). Never the
 // address. Kept after "Delete my account": it has nothing about who.
 
-import { sendOnce, optedOut, UNSUBSCRIBE_URL } from "./email.js";
-import { setupCancellations } from "./cancellations.js";
+import { sendOnce, optedOut, emailService, UNSUBSCRIBE_URL } from "./email.js";
+import { setupCancellations, ALL_CANCELLATIONS } from "./cancellations.js";
 import { createMissing } from "./schema.js";
 
-export const FROM_PATRICK = "Patrick from Lore Forever <patrick@loreforeverwow.com>";
-export const REPLY_PATRICK = "patrick@loreforeverwow.com";
+// Who a note is from (the box's choice, `as`): its From, where replies go, the footer's name, and the note the box
+// starts with ({name} is the player's first name, from Google, or nothing). Mike's is the default (SENDER).
+export const SENDERS = {
+  mike: { label: "Mike", from: "Mike from Lore Forever <hello@loreforeverwow.com>", replyTo: "hello@loreforeverwow.com",
+    template: {
+      subject: "How was Willo for you?",
+      text: "Hi {name},\n\nMike here from Lore Forever and Willo. First off, thank you so much for giving Willo a try!\n\n" +
+        "I noticed that you recently canceled your subscription, and I wanted to reach out directly to see how your " +
+        "experience was. I am actively working to improve the product, and candid feedback from users like you makes a " +
+        "huge difference.\n\nIf there was a specific feature missing, something that didn't work as expected, or " +
+        "anything we could have done better, I would love to hear your thoughts.\n\nNo pressure at all to reply, but if " +
+        "you have a minute to share, just hit reply and let me know.\n\nThanks again for your support,\nMike\n" +
+        "Lore Forever & Willo",
+    } },
+  patrick: { label: "Patrick", from: "Patrick from Lore Forever <patrick@loreforeverwow.com>",
+    replyTo: "patrick@loreforeverwow.com",
+    template: {
+      subject: "Quick question about your Willo plan",
+      text: "Hey {name},\n\nI'm Patrick, I work on Lore Forever with Mike. I saw you cancelled your Willo plan, and I'd " +
+        "really like to know why. Was something missing, something off, or just not worth it for you?\n\nEven one line " +
+        "helps us make Willo better. Just hit reply, it comes straight to me.\n\nThanks for giving it a go,\nPatrick",
+    } },
+};
+export const SENDER = "mike";
+export const TEMPLATE = SENDERS[SENDER].template;
+const senderOf = as => SENDERS[Object.hasOwn(SENDERS, String(as)) ? as : SENDER];
+// What /admin's box offers: [{as, label, address, subject, text}], the default first.
+export const templates = () => Object.entries(SENDERS).map(([as, s]) => ({ as, label: s.label, address: s.replyTo,
+  ...s.template }));
 export const SUBJECT_MAX = 120;
 export const TEXT_MAX = 3000;
-// What the box starts with; {name} is the player's first name (from Google), or nothing.
-export const TEMPLATE = {
-  subject: "Quick question about your Willo plan",
-  text: "Hey {name},\n\nI'm Patrick, I work on Lore Forever with Mike. I saw you cancelled your Willo plan, and I'd " +
-    "really like to know why. Was something missing, something off, or just not worth it for you?\n\nEven one line " +
-    "helps us make Willo better. Just hit reply, it comes straight to me.\n\nThanks for giving it a go,\nPatrick",
-};
 const WRITABLE = ["scheduled", "now"];
 
 const SETUP = [
@@ -49,14 +72,15 @@ const plain = (s, max) => String(s ?? "").replace(/\r\n?/g, "\n").replace(/[\u00
   .trim().slice(0, max);
 const firstName = name => String(name || "").trim().split(/\s+/)[0]?.replace(/[^\p{L}\p{M}'’-]/gu, "").slice(0, 40) || "";
 
-// The email: Patrick's words with {name} filled in, and the footer.
-export function noteEmail({ subject, text, name = "" }) {
-  const body = text.replace(/\{name\}/g, firstName(name)).replace(/^Hey ,/, "Hey,");
+// The email: the writer's words with {name} filled in, and the footer, from `as` (SENDERS; Mike's by default).
+export function noteEmail({ subject, text, name = "", as = SENDER }) {
+  const sender = senderOf(as);
+  const body = text.replace(/\{name\}/g, firstName(name)).replace(/^(Hey|Hi) ,/, "$1,");
   return {
     subject,
     text: `${body}\n\n--\nYou're getting this because you cancelled a Willo plan on loreforeverwow.com. Reply to reach ` +
-      `Patrick. Don't want email from us? ${UNSUBSCRIBE_URL}\n`,
-    from: FROM_PATRICK, replyTo: REPLY_PATRICK,
+      `${sender.label}. Don't want email from us? ${UNSUBSCRIBE_URL}\n`,
+    from: sender.from, replyTo: sender.replyTo,
   };
 }
 
@@ -71,7 +95,7 @@ export async function noteStates(env, ids) {
     "SELECT c.id, c.subscription_id, c.kind, c.counted, u.email, w.status AS note, w.created AS noted, " +
     "(SELECT kind FROM plan_cancellations l WHERE l.subscription_id = c.subscription_id AND l.kind != 'replaced' " +
     "ORDER BY l.at DESC, l.created DESC LIMIT 1) AS latest " +
-    `FROM plan_cancellations c LEFT JOIN users u ON u.id = c.user_id LEFT JOIN winback_notes w ON w.subscription_id = c.subscription_id WHERE c.id IN (${marks})`
+    `FROM ${ALL_CANCELLATIONS} c LEFT JOIN users u ON u.id = c.user_id LEFT JOIN winback_notes w ON w.subscription_id = c.subscription_id WHERE c.id IN (${marks})`
   ).bind(...ids).all();
   const states = {}, notes = {};
   for (const r of results) {
@@ -82,9 +106,10 @@ export async function noteStates(env, ids) {
   return { states, notes };
 }
 
-// Sends the note for cancellation `id` (plan_cancellations.id): {status} (sent, off: no email service set up, opted_out,
-// no_address, seen: one was sent already, failed), or {error} for a note that can't go.
-async function prepareNote(env, { id, subject, text }) {
+// Sends the note for cancellation `id` (plan_cancellations.id, or a plan cancelled before the log began: lib/cancellations.js
+// ALL_CANCELLATIONS) from `as` (SENDERS): {status} (sent, off: no email service
+// set up, opted_out, no_address, seen: one was sent already, failed), or {error} for a note that can't go.
+async function prepareNote(env, { id, subject, text, as }) {
   await setupWinback(env);
   subject = plain(subject, SUBJECT_MAX).replace(/\n/g, " ");
   text = plain(text, TEXT_MAX);
@@ -97,9 +122,9 @@ async function prepareNote(env, { id, subject, text }) {
     "no account": "Their account is gone, so there's no one to write to.", "opted out": "They unsubscribed from our email." };
   if (!state) return { error: "No such cancellation." };
   if (state !== "yes") return { error: why[state] };
-  const row = await env.DB.prepare("SELECT c.subscription_id, c.user_id, u.email, u.display_name FROM plan_cancellations c " +
+  const row = await env.DB.prepare(`SELECT c.subscription_id, c.user_id, u.email, u.display_name FROM ${ALL_CANCELLATIONS} c ` +
     "JOIN users u ON u.id = c.user_id WHERE c.id = ?").bind(id).first();
-  const message = { to: row.email, ...noteEmail({ subject, text, name: row.display_name }) };
+  const message = { to: row.email, ...noteEmail({ subject, text, name: row.display_name, as }) };
   return { row, subject, text, message };
 }
 
@@ -122,6 +147,8 @@ export async function writeNote(env, input, { reviewed } = {}) {
     if (Object.keys(draft).some(key => reviewed[key] !== draft[key]))
       return { error: "The recipient or message changed. Preview and approve the current draft before sending.", status: 409 };
   }
+  // Nothing here can send it (develop, a preview build): said so, and the player's one note is still there to write.
+  if (!emailService(env)) return { status: "off" };
   const status = await sendOnce(env, { id: `winback:${row.subscription_id}`, kind: "winback", userId: row.user_id, message });
   if (status === "failed") return { error: "The email service didn't take it. Try again in a minute." };
   if (status !== "seen") {

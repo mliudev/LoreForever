@@ -193,7 +193,7 @@ local function settings()
 end
 
 -- Search -----------------------------------------------------------------------------------------------------------
--- One search box for every long list (the Library, your quests, the queue, History, the journey page). Matching folds
+-- One search box for every long list (Found, your quests, the queue, History, the journey page). Matching folds
 -- case and accents (é = e, ß = ss) and ignores apostrophes and hyphens, so "kelthuzad" finds Kel'Thuzad; every word
 -- typed has to appear in the row's text (its name, zone or quest title; with a language pack, the English name too).
 local FOLD = { ["\195\159"] = "ss" }
@@ -309,7 +309,7 @@ function UI.SearchBox(parent, width, onChange, scroll)
     if box.text ~= "" then apply() end
   end
   function box:Active() return box.text ~= "" end
-  -- Library links set a search without pretending the edit came from the keyboard.
+  -- Links into Found set a search without pretending the edit came from the keyboard.
   function box:SetText(text)
     token = token + 1
     eb:SetText(text or "")
@@ -410,7 +410,8 @@ function UI.RestoreWindow()
 end
 
 -- Shared with the journey page (Journey.lua), so its rows and headers look like the rest of the panel.
-UI.TextButton, UI.Header, UI.SIDE_W, UI.CHAT_X = TextButton, Header, SIDE_W, CHAT_X
+UI.TextButton, UI.Header, UI.SIDE_W, UI.CHAT_X, UI.DOCK_H = TextButton, Header, SIDE_W, CHAT_X, DOCK_H
+UI.QueueButton, UI.SetQueueButton = QueueButton, SetQueueButton
 
 -- The playlist (see "Playlist" below): items {id, key, idx, label}, pos = the current item, and state:
 --   "playing"  the clip playing is items[pos] (or it's in the short gap before the next one)
@@ -530,11 +531,11 @@ function UI.Create(engine)
   divider:SetPoint("BOTTOMLEFT", SIDE_W, 8)
   divider:SetWidth(1)
 
-  -- Sidebar tabs: "Here" (this place and your quests) and "Library" (every recorded story, grouped; the view is
-  -- still called "narrations"). Each fits its label. The playlist is the player's (bottom left), not a tab.
+  -- Sidebar tabs: "Here" (this place and your quests) and "Found" (your chronicle's pages by chapter, Book.lua; it
+  -- took the Library's place). Each fits its label. The playlist is the player's (bottom left), not a tab.
   UI.tabs = {}
   local tabX = 8
-  for _, spec in ipairs({ { "here", L["Here"] }, { "narrations", L["Library"] } }) do
+  for _, spec in ipairs({ { "here", L["Here"] }, { "found", L["Found"] } }) do
     local tab = TextButton(f, 60, 22, T.font.heading, T.color.tab)
     tab:SetPoint("TOPLEFT", tabX, -64)
     tab.text:SetPoint("TOPLEFT", 2, -2)
@@ -553,24 +554,29 @@ function UI.Create(engine)
     T.Fill(on, "fill")
     tab.on = on
     tab.view = spec[1]
-    tab:SetScript("OnClick", function(self) ns.Log.Use("tab", self.view); UI.ShowTab(self.view) end)
+    -- Found counts as "narrations", the Library's name, which Willo forwards and the site reads.
+    tab:SetScript("OnClick", function(self)
+      ns.Log.Use("tab", self.view == "found" and "narrations" or self.view)
+      UI.ShowTab(self.view)
+    end)
     UI.tabs[#UI.tabs + 1] = tab
   end
-  -- After an update, a green "New" over Journey and History and a dot on the Library tab when the headline changes
+  -- After an update, a green "New" over Journey and History and a dot on the Found tab when the headline changes
   -- mention them, each until that page has been opened (WhatsNew.lua; UI.UpdateNewMarks shows them).
   UI.newMarks = {
     journey = ns.WhatsNew.Tag(f, UI.journeyButton, "BOTTOMRIGHT", "TOPRIGHT", -2, 2),
     history = ns.WhatsNew.Tag(f, UI.historyButton, "BOTTOMRIGHT", "TOPRIGHT", -2, 2),
-    narrations = ns.WhatsNew.Dot(UI.tabs[2]),
+    found = ns.WhatsNew.Dot(UI.tabs[2]),
   }
+  ns.Book.CreateBadge(UI.tabs[2])   -- how many pages are new
   local hereView = CreateFrame("Frame", nil, f)
   hereView:SetAllPoints(f)
   UI.hereView = hereView
-  local narrView = CreateFrame("Frame", nil, f)
-  narrView:SetAllPoints(f)
-  narrView:Hide()
-  UI.narrView = narrView
-  UI.CreateNarrations(narrView)
+  local foundView = CreateFrame("Frame", nil, f)
+  foundView:SetAllPoints(f)
+  foundView:Hide()
+  UI.foundView = foundView
+  ns.Book.CreateSide(foundView)
   -- The queue: opens from the player, over the sidebar, so the conversation stays readable while you reorder.
   local plView = CreateFrame("Frame", nil, f)
   plView:SetAllPoints(f)
@@ -744,6 +750,8 @@ function UI.Create(engine)
     page:HookScript("OnShow", UI.SyncPageButtons)
     page:HookScript("OnHide", UI.SyncPageButtons)
   end
+  UI.storyPage = ns.Page.Create(f)   -- a story's own page, over the chat (Page.lua)
+  UI.foundPage = ns.Book.Create(f)   -- the Found bookmark's pages, under a story's page (Book.lua)
 
   -- "Added to your playlist: ..." for a few seconds over the bottom of the conversation.
   local toast = CreateFrame("Frame", nil, f)
@@ -775,7 +783,7 @@ function UI.Create(engine)
     b:SetPoint("BOTTOMLEFT", CHAT_X, 108 - i * 22)
     b:SetPoint("BOTTOMRIGHT", f, "BOTTOMRIGHT", -36, 108 - i * 22)
     b:SetScript("OnClick", function(self)
-      if self.live then UI.AskWillo(self.live, self.copy)
+      if self.live then UI.AskWillo(self.live)
       elseif self.everything then UI.TellEverything()
       elseif self.section then UI.ShowSection(self.key, self.idx)
       elseif self.key and self.idx then UI.ShowFaq(self.key, self.idx, self.via or "next")
@@ -794,9 +802,6 @@ function UI.Create(engine)
   eb:SetHeight(24)
   eb:SetAutoFocus(false)
   eb:SetMaxLetters(240)
-  eb:SetScript("OnKeyDown", function(self, key) ns.Companion.CopyQuestion(self, key) end)
-  eb:SetScript("OnKeyUp", function(self, key) if key == "C" then ns.Companion.RestoreQuestion(self) end end)
-  eb:SetScript("OnMouseDown", function(self) ns.Companion.RestoreQuestion(self) end)
   eb:SetScript("OnEnterPressed", function(self)
     local c = UI.completion
     local pick = c and c:IsShown() and UI.completionSel and c.rows[UI.completionSel]
@@ -838,7 +843,6 @@ function UI.Create(engine)
   end)
   eb:SetScript("OnTabPressed", function() UI.MoveCompletion(1) end)
   eb:SetScript("OnEditFocusLost", function(self)
-    ns.Companion.RestoreQuestion(self)
     updateHint(self)
     C_Timer.After(0.2, UI.HideCompletion)
   end)
@@ -940,8 +944,8 @@ end
 
 function UI.BrowseNarrations(subject)
   UI.HideCompletion()
-  UI.ShowTab("narrations")
-  if UI.narrSearch then UI.narrSearch:SetText(subject or "") end
+  UI.ShowTab("found")
+  if ns.Book.search then ns.Book.search:SetText(subject or "") end
 end
 
 -- Recording availability and permission are rechecked before exposing an audio action.
@@ -1203,7 +1207,7 @@ local function watchPlayback(estimate)
       UI.speaking, UI.playingId = false, nil
       UI.UpdateListen()
       UI.OnClipEnded()
-      ns.Voice.OnNarrationEnded()
+      ns.Voice.OnNarrationEnded(target)
     else
       if ns.Voice.transport then UI.UpdateNowPlaying() end
       C_Timer.After(ns.Voice.transport and 0.25 or 1, check)
@@ -1602,7 +1606,7 @@ function UI.UpdateListen()
   if UI.speaking and UI.playingKey and not ns.Voice.CanPlay(UI.playingKey) then return UI.StopAll() end
   UI.UpdateNowPlaying()
   if UI.completion and UI.completion:IsShown() then UI.LayoutCompletion() end
-  if UI.tab == "narrations" and UI.narrRows then UI.RefreshNarrations() end
+  ns.Book.Changed()   -- heard: not new any more
   -- The Here tab's playlist buttons follow the playlist (+, then -, or a stop square while it plays).
   for _, b in ipairs(UI.bossButtons or {}) do
     if b:IsShown() and b.add:IsShown() then SetQueueButton(b.add, b.key) end
@@ -1627,8 +1631,8 @@ function UI.UpdateListen()
       b.listen:SetText(playing and L["Stop"] or L["Listen"])
       local lw = b.listen.GetTextWidth and tonumber(b.listen:GetTextWidth())
       b.listen:SetWidth(math.max(84, (lw or 64) + 20))   -- a translation can run wider than the English
-      -- An answer with no recording: Listen asks Willo to read it, while she can (LOR-547).
-      b.listen:SetShown(recorded or ns.Companion.CanRead(t))
+      -- An answer with no recording stays text: no Listen, and Willo isn't asked to read it (Mike, 10/23: "hide listen").
+      b.listen:SetShown(recorded)
       -- "Add to playlist" beside Listen on recorded stories and answers.
       local qk, qi = UI.QueueRef(t)
       local can = recorded and qk and UI.CanQueue(qk, qi)
@@ -1834,20 +1838,11 @@ local function bubbleAt(i)
     listen:SetSize(84, 18)
     listen:SetPoint("BOTTOMRIGHT", -6, 6)
     listen:SetText(L["Listen"])
-    -- An answer with no recording that Willo reads (LOR-547): Listen asks her to read it again.
-    listen:SetScript("OnClick", function(self)
-      if ns.Companion.ListenRead(self.target) then return end
-      UI.ListenTo(self.target)
-    end)
+    listen:SetScript("OnClick", function(self) UI.ListenTo(self.target) end)
     listen:SetScript("OnEnter", function(self)
       GameTooltip:SetOwner(self, "ANCHOR_TOP")
-      if self.target and not ns.Voice.HasAudio(self.target.key) then
-        GameTooltip:AddLine(string.format(L["Read by %s"], ns.COMPANION_NAME))
-        T.Tip(string.format(L["%s reads this answer aloud on this PC."], ns.COMPANION_NAME), "tipText", true)
-      else
-        GameTooltip:AddLine(L["Narrated"])
-        T.Tip(L["A recorded narration of this answer."], "tipText", true)
-      end
+      GameTooltip:AddLine(L["Narrated"])
+      T.Tip(L["A recorded narration of this answer."], "tipText", true)
       GameTooltip:Show()
     end)
     listen:SetScript("OnLeave", function() GameTooltip:Hide() end)
@@ -1855,7 +1850,7 @@ local function bubbleAt(i)
     queue:SetSize(110, 18)
     queue:SetPoint("RIGHT", listen, "LEFT", -4, 0)
     queue:SetText(L["Add to playlist"])
-    -- Works like the + in the Library: Add to playlist, then Remove from playlist (Stop while it plays).
+    -- Works like the + in Found: Add to playlist, then Remove from playlist (Stop while it plays).
     queue:SetScript("OnClick", function()
       local t = listen.target
       if t then UI.DoQueueAction(UI.QueueRef(t)) end
@@ -2187,7 +2182,7 @@ function UI.SetNext(items, label)
   for i, b in ipairs(UI.nextButtons) do
     local it = items[i]
     if it then
-      b.key, b.idx, b.via, b.section, b.live, b.copy = it.key, it.idx, it.via, it.section, it.live, it.copy
+      b.key, b.idx, b.via, b.section, b.live = it.key, it.idx, it.via, it.section, it.live
       b.everything = it.everything
       local who = it.name and (GREY .. "  (" .. esc(it.name) .. ")|r") or ""
       b.text:SetText(WHITE .. esc(it.label or it.q) .. "|r" .. who)
@@ -2589,55 +2584,7 @@ function UI.QueueBosses(bosses)
   return n
 end
 
--- Library (the "narrations" view) ----------------------------------------------------------------------------------
--- Every recorded story in one place, grouped so your own starting area is at the top.
-
--- Each people's starting zone, first area, and capital.
-local RACE_HOME = {
-  Human = { "subzone:northshire-abbey", "zone:elwynn", "zone:stormwind" },
-  Dwarf = { "subzone:coldridge-valley", "zone:dunmorogh", "zone:ironforge" },
-  Gnome = { "subzone:coldridge-valley", "zone:dunmorogh", "zone:ironforge" },
-  NightElf = { "subzone:shadowglen", "zone:teldrassil", "zone:darnassus" },
-  Orc = { "subzone:valley-of-trials", "zone:durotar", "zone:orgrimmar" },
-  Troll = { "subzone:valley-of-trials", "subzone:sen-jin-village", "zone:durotar", "zone:orgrimmar" },
-  Tauren = { "subzone:camp-narache", "zone:mulgore", "zone:thunderbluff" },
-  Undead = { "subzone:deathknell", "zone:tirisfal", "zone:undercity" },
-  Scourge = { "subzone:deathknell", "zone:tirisfal", "zone:undercity" },
-  Skyborne = { "zone:zephras", "topic:skyborne" },
-}
-local STARTING = { "zone:elwynn", "subzone:northshire-abbey", "zone:dunmorogh", "subzone:coldridge-valley",
-  "zone:teldrassil", "subzone:shadowglen", "zone:durotar", "subzone:valley-of-trials", "subzone:sen-jin-village",
-  "zone:mulgore", "subzone:camp-narache", "zone:tirisfal", "subzone:deathknell", "zone:zephras", "topic:skyborne" }
-local ROW_H = 22
-
-function UI.CreateNarrations(view)
-  local sf = CreateFrame("ScrollFrame", "LoreForeverNarrScroll", view, "UIPanelScrollFrameTemplate")
-  sf:SetPoint("TOPLEFT", 10, -120)
-  sf:SetPoint("BOTTOMRIGHT", view, "BOTTOMLEFT", SIDE_W - 26, DOCK_H + 30)
-  local content = CreateFrame("Frame", nil, sf)
-  content:SetSize(SIDE_W - 40, 100)
-  sf:SetScrollChild(content)
-  UI.narrContent, UI.narrRows, UI.narrOpen, UI.narrZone = content, {}, {}, {}
-  -- Search the Library: names, zones (and their bosses and narrated questions). Matching zones open while you search.
-  local search = UI.SearchBox(view, SIDE_W - 22, function()
-    UI.narrSearchClosed = {}
-    UI.RefreshNarrations()
-  end, sf)
-  search:SetPoint("TOPLEFT", 12, -92)
-  UI.narrSearch, UI.narrSearchClosed = search, {}
-  local note = Muted(view:CreateFontString(nil, "OVERLAY", T.font.small))
-  note:SetPoint("BOTTOMLEFT", 16, DOCK_H + 8)
-  note:SetWidth(SIDE_W - 20)
-  note:SetJustifyH("LEFT")   -- two lines in some languages, growing upwards under the list
-  note:SetText(L["Click to listen. Green + adds to your playlist."])
-  local empty = Muted(content:CreateFontString(nil, "OVERLAY", T.font.body))
-  empty:SetPoint("TOPLEFT", 4, -8)
-  empty:SetWidth(SIDE_W - 50)
-  empty:SetJustifyH("LEFT")
-  empty:Hide()
-  UI.narrEmpty = empty
-end
-
+-- Narrations ---------------------------------------------------------------------------------------------------------
 -- The narration voice changed (Options or /lore voice): relabel Listen buttons and the lists that depend on it.
 -- Chat already posted keeps its "(narrated)" tags; new answers follow the new voice.
 function UI.OnVoiceChanged()
@@ -2651,165 +2598,6 @@ function UI.OnVoiceChanged()
   UI.Refresh()
 end
 
--- The list, by zone, so hundreds of places and people stay easy to browse. Items:
---   { section = "Capitals" }                                              a heading over zone groups
---   { zone = zk, label = "Elwynn Forest", count = 31, open = true, tag = "you are here", keys = {...} }   a zone to
---                                                                                  open or close, its stories to queue
---   { key = "zone:elwynn", label = "Elwynn Forest", faqs = 2, bosses = 3, depth = 1 }       a story in it
--- Where you are and your own starting zone come first and start open; every other zone starts closed. Within a
--- zone: its own story first, then its places, its people, its quests' stories and its items', by name. Clicking a
--- zone header flips it (UI.narrZone remembers that for the session).
-local KIND_ORDER = { zone = 0, city = 0, dungeon = 0, subzone = 1, npc = 2, topic = 3, quest = 4, item = 5 }
-local SEARCH_CAP = 120   -- stories a Library search lists at most (each is a row of frames)
-
-local function minLevel(z)
-  return tonumber(tostring(z and z.lv or ""):match("^(%d+)")) or 99
-end
-
-function UI.LibraryClips()
-  local audio = ns.Voice.Clips()
-  if not (ns.lang and ns.lang.edition) then return audio end
-  local visible = {}
-  for key, e in pairs(UI.engine.db.entries) do
-    visible[key] = true
-    for i in ipairs(e.faq or {}) do visible[faqID(key, i)] = true end
-  end
-  return visible
-end
-
-function UI.NarrationItems(ctx)
-  local db, audio, out = UI.engine.db, UI.LibraryClips(), {}
-  local zones, toggles = db.zones or {}, UI.narrZone or {}
-  local faqs, bosses, isBoss = {}, {}, {}
-  for k in pairs(audio) do
-    local base = k:match("^(.-)#faq%d+$")
-    local fi = tonumber(k:match("#faq(%d+)$"))
-    local ent = base and db.entries[base]
-    local f = ent and ent.faq and ent.faq[faqIndex(base, fi)]
-    if base and f and not f.sp then faqs[base] = (faqs[base] or 0) + 1 end
-    -- Recorded bosses go under their dungeon's story (its count button), not in the zone's list.
-    local at = not k:find("#") and db.entries[k] and UI.BossOf(k)
-    if at then
-      bosses["zone:" .. at.zk] = (bosses["zone:" .. at.zk] or 0) + 1
-      isBoss[k] = true
-    end
-  end
-  local byZone, loose = {}, {}
-  for k in pairs(audio) do
-    local e = not k:find("#") and not isBoss[k] and db.entries[k]
-    if e and e.z and zones[e.z] then
-      byZone[e.z] = byZone[e.z] or {}
-      table.insert(byZone[e.z], k)
-    elseif e then
-      loose[#loose + 1] = k
-    end
-  end
-  local function order(a, b)
-    local ea, eb = db.entries[a], db.entries[b]
-    local ra, rb = KIND_ORDER[ea.t] or 3, KIND_ORDER[eb.t] or 3
-    if ra ~= rb then return ra < rb end
-    return ea.n < eb.n
-  end
-  local function zoneName(zk) return zones[zk] and zones[zk].n or zk end
-  local here = ctx.zone and UI.engine:ZoneKey(ctx.zone)
-  local home
-  for _, k in ipairs(RACE_HOME[ctx.race or ""] or {}) do
-    local e = db.entries[k]
-    if e and e.z and byZone[e.z] then home = e.z break end
-  end
-  local done = {}
-  -- While searching (UI.narrSearch): a story stays when it, its zone, or one of its narrated bosses or questions
-  -- matches; zones with nothing left drop out, and the rest open (clicking one closes it for this search). At most
-  -- SEARCH_CAP stories show, then a line says how many more there are.
-  local words = UI.narrSearch and UI.narrSearch.words or {}
-  local searching, closed = #words > 0, UI.narrSearchClosed or {}
-  local shown, extra = 0, 0
-  local function childHit(k)
-    local z = bosses[k] and zones[k:match("^zone:(.+)$") or ""]
-    for _, bk in ipairs(z and z.b or {}) do
-      local be = isBoss[bk] and db.entries[bk]
-      if be and UI.SearchMatch(words, be.n, be.en) then return true end
-    end
-    for i, f in ipairs(db.entries[k].faq or {}) do
-      if not f.sp and audio[faqID(k, i)] and UI.SearchMatch(words, f.q) then return true end
-    end
-  end
-  local function zoneGroup(zk, list, label, tag)
-    if done[zk] or not list or #list == 0 then return end
-    done[zk] = true
-    table.sort(list, order)
-    local open, count, hits = toggles[zk], #list + (bosses["zone:" .. zk] or 0), {}
-    if searching then
-      local zoneHit = UI.SearchMatch(words, label, zones[zk] and zones[zk].en)
-      for _, k in ipairs(list) do
-        local e = db.entries[k]
-        if zoneHit or UI.SearchMatch(words, e.n, e.en) then hits[#hits + 1] = { k = k }
-        elseif childHit(k) then hits[#hits + 1] = { k = k, kids = true } end
-      end
-      if #hits == 0 then return end
-      open, count = not closed[zk], #hits
-    else
-      if open == nil then open = (zk == here or zk == home) end
-      for _, k in ipairs(list) do hits[#hits + 1] = { k = k } end
-    end
-    local keys = {}   -- what its + queues (UI.QueueGroup): the stories it lists, open or closed
-    for i, h in ipairs(hits) do keys[i] = h.k end
-    out[#out + 1] = { zone = zk, label = label, count = count, open = open, tag = tag, keys = keys }
-    if not open then return end
-    for _, h in ipairs(hits) do
-      if searching and shown >= SEARCH_CAP then
-        extra = extra + 1
-      else
-        shown = shown + 1
-        out[#out + 1] = { key = h.k, label = db.entries[h.k].n, faqs = faqs[h.k], bosses = bosses[h.k], depth = 1,
-          searchKids = h.kids }
-      end
-    end
-  end
-  if here then zoneGroup(here, byZone[here], zoneName(here), L["you are here"]) end
-  if home then zoneGroup(home, byZone[home], zoneName(home), L["your starting zone"]) end
-  -- A heading over its zone groups, left out when none of them shows (nothing recorded, or nothing matches).
-  local function section(title, zks)
-    local at = #out + 1
-    out[at] = { section = title }
-    for _, zk in ipairs(zks) do
-      if byZone[zk] and not done[zk] then zoneGroup(zk, byZone[zk], zoneName(zk)) end
-    end
-    if #out == at then out[at] = nil end
-  end
-  local starting, seen = {}, {}
-  for _, k in ipairs(STARTING) do
-    local e = db.entries[k]
-    if e and e.z and not seen[e.z] then seen[e.z] = true starting[#starting + 1] = e.z end
-  end
-  section(L["Starting zones"], starting)
-  local caps, roads, dungeons = {}, {}, {}
-  for zk in pairs(byZone) do
-    local t = zones[zk].t
-    local list = (t == "city" and caps) or (t == "dungeon" and dungeons) or roads
-    list[#list + 1] = zk
-  end
-  local byLevel = function(a, b)
-    local la, lb = minLevel(zones[a]), minLevel(zones[b])
-    if la ~= lb then return la < lb end
-    return zoneName(a) < zoneName(b)
-  end
-  table.sort(caps, function(a, b) return zoneName(a) < zoneName(b) end)
-  table.sort(roads, byLevel)
-  table.sort(dungeons, byLevel)
-  section(L["Capitals"], caps)
-  section(L["The road ahead"], roads)
-  section(L["Dungeons"], dungeons)
-  if #loose > 0 then
-    out[#out + 1] = { section = L["More stories"] }
-    local at = #out
-    zoneGroup("*more", loose, L["Other stories"])
-    if #out == at then out[at] = nil end
-  end
-  if extra > 0 then out[#out + 1] = { note = string.format(L["%d more. Keep typing to narrow it down."], extra) } end
-  return out
-end
-
 -- Play one recorded FAQ answer and show the question and answer in the chat (pressing it again stops it).
 function UI.PlayFaq(key, idx)
   if UI.SpoilerGate(key, "faq", idx) then return end
@@ -2819,216 +2607,27 @@ function UI.PlayFaq(key, idx)
   UI.ListenTo(target)
 end
 
--- Rows: section headings, zone headers (click to open or close), stories (click to play; the count button expands a
--- dungeon's bosses and a story's narrated questions), and the bosses and questions themselves.
-local function narrationRows()
-  local audio, rows = UI.LibraryClips(), {}
-  for _, it in ipairs(UI.NarrationItems(UI.ctx or ns.Context.Snapshot())) do
-    rows[#rows + 1] = it
-    it.more = it.key and ((it.faqs or 0) + (it.bosses or 0)) or 0
-    if it.more == 0 then it.more = nil end
-    -- Its bosses and questions: when opened, or (searching) the ones that matched when the story itself didn't.
-    local words = it.searchKids and UI.narrSearch.words
-    local shut = UI.narrSearchClosed and UI.narrSearchClosed["kids:" .. (it.key or "")]
-    it.kidsOpen = it.more and (UI.narrOpen[it.key] or (it.searchKids and not shut)) and true or nil
-    if it.kidsOpen then
-      if UI.narrOpen[it.key] then words = nil end
-      local e = UI.engine.db.entries[it.key]
-      local z = it.bosses and UI.engine.db.zones[it.key:match("^zone:(.+)$") or ""]
-      local depth = (it.depth or 0) + 1
-      for i, bk in ipairs(z and z.b or {}) do
-        local be = audio[bk] and UI.engine.db.entries[bk]
-        if be and UI.SearchMatch(words, be.n, be.en) then
-          local name = bossName(be)
-          rows[#rows + 1] = { key = bk, label = i .. ". " .. name, name = name, child = true, depth = depth }
-        end
-      end
-      for i, f in ipairs(e.faq or {}) do
-        if audio[faqID(it.key, i)] and not f.sp and UI.SearchMatch(words, f.q) then
-          rows[#rows + 1] = { key = it.key, idx = i, label = f.q, child = true, depth = depth }
-        end
-      end
-    end
-  end
-  return rows
-end
-
-local STORY_ICON = "Interface\\Buttons\\UI-SpellbookIcon-NextPage-Up"
-local HEARD_TICK = "  |TInterface\\Buttons\\UI-CheckBox-Check:14:14|t"
-
-function UI.RefreshNarrations()
-  local items = narrationRows()
-  local content, y = UI.narrContent, 0
-  for i, it in ipairs(items) do
-    local row = UI.narrRows[i]
-    if not row then
-      row = TextButton(content, SIDE_W - 40, ROW_H, T.font.small)
-      if row.text.SetWordWrap then row.text:SetWordWrap(false) end
-      local icon = row:CreateTexture(nil, "ARTWORK")
-      icon:SetSize(16, 16)
-      icon:SetTexture(STORY_ICON)
-      row.icon = icon
-      row:SetScript("OnEnter", function(self)
-        if self.zone then
-          GameTooltip:SetOwner(self, "ANCHOR_RIGHT")
-          GameTooltip:AddLine(self.open and L["Hide this zone's narrations"] or L["Show this zone's narrations"])
-          GameTooltip:Show()
-          return
-        end
-        if not self.full then return end
-        GameTooltip:SetOwner(self, "ANCHOR_RIGHT")
-        T.Tip(self.full, "tipText", true)
-        if self.heard then T.Tip(L["You've heard this."], "tipGood") end
-        T.Tip(self.idx and L["Click to hear the answer"] or L["Click to hear the story"], "tipDim")
-        GameTooltip:Show()
-      end)
-      row:SetScript("OnLeave", function() GameTooltip:Hide() end)
-      row:SetScript("OnClick", function(self)
-        if self.zone then
-          if UI.narrSearch and UI.narrSearch:Active() then UI.narrSearchClosed[self.zone] = self.open or nil
-          else UI.narrZone[self.zone] = not self.open end
-          UI.RefreshNarrations()
-        elseif self.idx then UI.PlayFaq(self.key, self.idx)
-        elseif self.key then UI.PlayEntry(self.key, string.format(L["Tell me the story of %s"], self.name)) end
-      end)
-      -- "N" and an arrow: opens or closes the story's N narrated questions. (Not "+N": the green + adds to the playlist.)
-      local more = TextButton(row, 44, ROW_H - 2, T.font.label, T.color.chip)
-      more:SetPoint("RIGHT", -2, 0)
-      more.text:SetJustifyH("CENTER")
-      more.text:SetPoint("BOTTOMRIGHT", -16, 2)
-      local arrow = more:CreateTexture(nil, "ARTWORK")
-      arrow:SetSize(20, 20)
-      arrow:SetPoint("RIGHT", -3, 0)
-      more.arrow = arrow
-      more:SetScript("OnClick", function(self)
-        if self.open then
-          UI.narrOpen[self.key] = nil
-          if UI.narrSearchClosed then UI.narrSearchClosed["kids:" .. self.key] = true end   -- a search had opened it
-        else
-          UI.narrOpen[self.key] = true
-        end
-        UI.RefreshNarrations()
-      end)
-      more:SetScript("OnEnter", function(self)
-        GameTooltip:SetOwner(self, "ANCHOR_RIGHT")
-        local open = self.open
-        if self.bosses then
-          GameTooltip:AddLine(open and L["Hide its bosses and narrated questions"] or L["Show its bosses and narrated questions"])
-        else
-          GameTooltip:AddLine(open and L["Hide narrated questions"] or L["Show narrated questions"])
-        end
-        T.Tip(L["Each has its own + to add it to your playlist."], "tipText", true)
-        GameTooltip:Show()
-      end)
-      more:SetScript("OnLeave", function() GameTooltip:Hide() end)
-      row.more = more
-      row.add = QueueButton(row, ROW_H - 4)
-      -- A zone's own green + (UI.QueueGroup): all of its stories into the playlist.
-      local all = TextButton(row, 20, ROW_H - 4, T.font.body, T.color.add)
-      all.text:SetJustifyH("CENTER")
-      all.text:SetText("+")
-      all:SetPoint("RIGHT", -2, 0)
-      all:SetScript("OnClick", function(self) UI.QueueGroup(self.keys, self.label) end)
-      all:SetScript("OnEnter", function(self)
-        GameTooltip:SetOwner(self, "ANCHOR_RIGHT")
-        GameTooltip:AddLine(L["Add all to your playlist"])
-        T.Tip(L["Adds every story listed here to your playlist, in this order. Spoilers stay out."], "tipText", true)
-        GameTooltip:Show()
-      end)
-      all:SetScript("OnLeave", function() GameTooltip:Hide() end)
-      all:Hide()
-      row.all = all
-      UI.narrRows[i] = row
-    end
-    row:ClearAllPoints()
-    row:SetPoint("TOPLEFT", 0, -y)
-    row.key, row.idx, row.name, row.zone, row.open = it.key, it.idx, it.name or it.label, it.zone, it.open
-    row.full = it.key and (it.name or it.label) or nil
-    row:EnableMouse(not (it.section or it.note))
-    row.more.key, row.more.bosses, row.more.open = it.key, it.bosses, it.kidsOpen
-    row.more:Hide()
-    row.add:Hide()
-    row.all:Hide()
-    if it.section or it.note then
-      row.icon:Hide()
-      row.text:SetPoint("TOPLEFT", 4, -2)
-      row.text:SetPoint("BOTTOMRIGHT", -4, 2)
-      row.text:SetText(it.note and (GREY .. esc(it.note) .. "|r") or (GOLD .. esc(it.section) .. "|r"))
-      y = y + ROW_H + (i > 1 and 4 or 0)
-    elseif it.zone then
-      -- A zone: + or - like the quest log's headers, its name, how many stories it holds, and why it's open.
-      row.icon:ClearAllPoints()
-      row.icon:SetPoint("LEFT", 2, 0)
-      row.icon:SetSize(14, 14)
-      row.icon:SetTexture(it.open and "Interface\\Buttons\\UI-MinusButton-Up" or "Interface\\Buttons\\UI-PlusButton-Up")
-      row.icon:Show()
-      row.text:SetPoint("TOPLEFT", 20, -2)
-      row.text:SetPoint("BOTTOMRIGHT", -28, 2)
-      row.text:SetText(T.code.zone .. esc(it.label) .. "|r" .. GREY .. "  " .. it.count
-        .. (it.tag and ("  " .. esc(it.tag)) or "") .. "|r")
-      row.all.keys, row.all.label = it.keys, it.label
-      row.all:Show()
-      y = y + ROW_H
-    else
-      local id = it.idx and (faqID(it.key, it.idx)) or it.key
-      local playing = UI.speaking and UI.playingId == id
-      local indent = (it.depth or 0) * 14
-      row.icon:ClearAllPoints()
-      row.icon:SetPoint("LEFT", 2 + indent, 0)
-      row.icon:SetSize(it.child and 12 or 16, it.child and 12 or 16)
-      row.icon:SetTexture(STORY_ICON)
-      row.icon:Show()
-      local canQueue = SetQueueButton(row.add, it.key, it.idx)
-      row.text:SetPoint("TOPLEFT", 22 + indent, -2)
-      row.text:SetPoint("BOTTOMRIGHT", (it.more and -50 or -4) - (canQueue and 24 or 0), 2)
-      -- Heard ones (Voice.Heard) are a shade dimmer with a tick, so what's new stands out.
-      local heard = not playing and ns.Voice.Heard(id)
-      row.heard = heard
-      local color = playing and GREEN or ((it.child or heard) and T.code.heard or WHITE)
-      row.text:SetText(color .. esc(it.label) .. "|r" .. (playing and (GREY .. "  " .. L["playing"] .. "|r")
-        or (heard and HEARD_TICK) or ""))
-      if it.more then
-        row.more.text:SetText(tostring(it.more))
-        row.more.arrow:SetTexture(it.kidsOpen and "Interface\\Buttons\\UI-ScrollBar-ScrollUpButton-Up"
-          or "Interface\\Buttons\\UI-ScrollBar-ScrollDownButton-Up")
-        row.more:Show()
-      end
-      if canQueue then
-        row.add:ClearAllPoints()
-        if it.more then row.add:SetPoint("RIGHT", row.more, "LEFT", -4, 0) else row.add:SetPoint("RIGHT", -2, 0) end
-      end
-      y = y + ROW_H
-    end
-    row:Show()
-  end
-  for i = #items + 1, #UI.narrRows do UI.narrRows[i]:Hide() end
-  if UI.narrEmpty then
-    local search = UI.narrSearch
-    UI.narrEmpty:SetText(search and search:Active() and UI.NoMatchText(search)
-      or L["No recorded narrations with this voice. Pick a voice in Options (/lore options)."])
-    UI.narrEmpty:SetShown(#items == 0)
-  end
-  content:SetHeight(math.max(y, 10))
-end
-
--- The sidebar's view: "here" or "narrations" (the Library tab). Older callers: "playlist" opens the queue above the
--- player, "journey" the journey page over the chat.
+-- The sidebar's view: "here" or "found" (the Found bookmark, Book.lua; "narrations" and "library", its old names,
+-- open it too). Older callers: "playlist" opens the queue above the player, "journey" the journey page over the chat.
 function UI.ShowTab(view)
   if view == "journey" then return ns.Journey.Toggle() end
   if view == "playlist" then return UI.ShowQueue(true) end
+  if view == "narrations" or view == "library" then view = "found" end
   UI.ShowQueue(false)
   UI.tab = view
   UI.hereView:SetShown(view == "here")
-  UI.narrView:SetShown(view == "narrations")
+  UI.foundView:SetShown(view == "found")
   for _, t in ipairs(UI.tabs) do T.SetTabSelected(t, t.view == view) end
-  if view == "narrations" then
-    UI.RefreshNarrations()
-    if UI.frame:IsShown() then UI.SeenPage("narrations") end
+  if view == "found" then
+    ns.Book.Show()
+    if UI.frame:IsShown() then UI.SeenPage("found") end
+  else
+    ns.Book.HidePage()
   end
 end
 
 -- Playlist ---------------------------------------------------------------------------------------------------------
--- A queue of recorded narrations you build with + (Library) or "Add to playlist" (chat). It plays them in
+-- A queue of recorded narrations you build with + (Found, Here) or "Add to playlist" (chat). It plays them in
 -- order with a short gap between. Stop anywhere pauses it at the current item; playing something by hand pauses it;
 -- flight narration waits for it. State is in UI.pl (top of the file).
 -- A quest is one item (UI.QueueQuest; on Mike's stream, 2026-10-04, only place stories would go in): its quest giver's
@@ -3334,10 +2933,11 @@ function UI.QueueHere()
   return n
 end
 
--- A Library zone's green + (LOR-582, Mike on stream: "I kinda wanna have an ability to queue all of these"): the
--- stories it lists join the playlist in that order, a dungeon's bosses right after its own story (as QueueHere does).
--- Spoilers and what's queued already stay out; the first one starts if nothing plays. Returns how many joined.
-function UI.QueueGroup(keys, label)
+-- A chapter's green + in Found (LOR-582, Mike on stream: "I kinda wanna have an ability to queue all of these"): the
+-- stories join the playlist in that order, a dungeon's bosses right after its own story (as QueueHere does) unless
+-- `exact` (Found lists only the bosses you've met). Spoilers and what's queued already stay out; the first one starts
+-- if nothing plays. Returns how many joined.
+function UI.QueueGroup(keys, label, exact)
   local zones, n = UI.engine.db.zones, 0
   local function add(k)
     if UI.CanQueue(k) and not UI.PlaylistIndex(k) and UI.PlaylistAdd(k, nil, true) then n = n + 1 end
@@ -3345,7 +2945,7 @@ function UI.QueueGroup(keys, label)
   for _, k in ipairs(keys or {}) do
     add(k)
     local z = zones[k:match("^zone:(.+)$") or ""]
-    for _, bk in ipairs(z and z.t == "dungeon" and z.b or {}) do add(bk) end
+    for _, bk in ipairs(not exact and z and z.t == "dungeon" and z.b or {}) do add(bk) end
   end
   if n > 0 then
     ns.Log.Use("pl", "add")
@@ -3355,7 +2955,7 @@ function UI.QueueGroup(keys, label)
   else
     note(L["Everything here is already in your playlist."])
   end
-  if UI.tab == "narrations" then UI.RefreshNarrations() end
+  if UI.tab == "found" then ns.Book.Changed() end
   return n
 end
 
@@ -3562,17 +3162,17 @@ function UI.CreatePlaylist(view)
   e2:SetText(L["Press + on any narration to add it here, or Shift-click it. They play in order, one after another."])
   local go = PanelButton(empty)
   go:SetHeight(22)
-  go:SetText(L["Open the Library"])
+  go:SetText(L["Open Found"])
   local gw = go.GetTextWidth and tonumber(go:GetTextWidth())
   go:SetWidth(math.max(150, math.min(SIDE_W - 30, (gw or 120) + 24)))
   go:SetPoint("TOP", e2, "BOTTOM", 0, -14)
-  go:SetScript("OnClick", function() UI.ShowTab("narrations") end)
+  go:SetScript("OnClick", function() UI.ShowTab("found") end)
 
   local note = Muted(view:CreateFontString(nil, "OVERLAY", T.font.small))
   note:SetPoint("BOTTOMLEFT", 16, DOCK_H + 8)
   note:SetWidth(SIDE_W - 20)
   note:SetJustifyH("LEFT")   -- two lines in some languages, growing upwards
-  note:SetText(L["Add more with + in the Library."])
+  note:SetText(L["Add more with + on the pages in Found."])
 
   -- Over "Up next" once the queue is long (UI.RefreshPlaylist): filters Up next and Earlier by title.
   local search = UI.SearchBox(view, SIDE_W - 24, function() UI.RefreshPlaylist() end, sf)
@@ -3790,7 +3390,7 @@ function UI.PlayerPlay()
       UI.ListenTo(zt)
     end
   else
-    showToast(GREY .. L["Nothing here is narrated yet. Press + on any story in the Library to add it to your playlist."] .. "|r")
+    showToast(GREY .. L["Nothing here is narrated yet. Shift-click any page in Found to add it to your playlist."] .. "|r")
   end
 end
 
@@ -4560,6 +4160,8 @@ function UI.Clear()
   UI.historyId = nil
   if UI.historyFrame then UI.historyFrame:Hide() end
   if UI.journeyPage then UI.journeyPage:Hide() end
+  if UI.storyPage then UI.storyPage:Hide() end
+  if ns.Book then ns.Book.HidePage() end   -- a new chat shows the chat (Found's sidebar stays)
   UI.msgs, UI.blocks = {}, {}
   UI.UpdateListen()
   for _, b in ipairs(UI.bubbles) do b.frame:Hide() end
@@ -4806,32 +4408,21 @@ local function willoLine()
       ns.COMPANION_NAME) .. "|h|r"
 end
 
--- A short answer just shown (LOR-547): Willo reads it when she can (Companion.ShowAnswer). One with no recording, in
--- English, once a play session without Willo gets the line that she'd read it (Companion.SuggestWillo, the same once
--- as the line under a question with no answer); with Willo but Live game info off, a line once, ever.
+-- A short answer just shown: the add-on doesn't ask Willo to read it (LOR-547 did; Mike, 10/23: "drop it actually"), so
+-- it only takes the last reading she was asked for out of the sky's ring (Companion.ClearRead).
 function UI.AfterAnswer(target)
-  local C = ns.Companion
-  C.ShowAnswer(target)
-  if not (target and ns.Strip and ns.Strip.SetRing and C.English()) or ns.Voice.HasAudio(target.key) then return end
-  if not C.Installed() and C.SuggestWillo() then
-    local line = L["Want answers read aloud? %s, Lore Forever's free companion app, reads them to you and answers anything else you ask."]
-    UI.AddMessage("note", UI.LINK_COLOUR .. "|H" .. WILLO_LINK .. "|h" .. string.format(line, ns.COMPANION_NAME)
-      .. "|h|r")
-  elseif C.ReadHintOnce() then
-    UI.AddMessage("note", GREY .. string.format(L["%s can read answers aloud when Live game info is on (Options)."],
-      ns.COMPANION_NAME) .. "|r")
-  end
+  ns.Companion.ClearRead()
 end
 
--- "Ask Willo" on a question the add-on couldn't answer (LOR-560): one click sends it to her through the sky, and the
--- book says so, with a way to copy it instead in case she isn't running; copy, or when she can't hear it that way (Live
--- game info off, another language), the Ctrl+C box as before.
-function UI.AskWillo(question, copy)
+-- "Ask Willo" on a question the add-on couldn't answer (LOR-560), and /lore ask: it goes to her through the sky, and
+-- the book says so (in chat, with the panel closed); when she can't hear it that way (Live game info off, another
+-- language), the Ctrl+C box as before.
+function UI.AskWillo(question)
   local C = ns.Companion
-  if copy or not C.SendQuestion(question) then return C.Ask(question) end
-  UI.AddMessage("note", GREY .. string.format(L["Asked %s."], ns.COMPANION_NAME) .. "|r")
-  UI.SetNext({ { live = question, copy = true,
-    label = string.format(L["No answer? Copy it for %s (Ctrl+C)"], ns.COMPANION_NAME) } })
+  if not C.SendQuestion(question) then return C.Ask(question) end
+  local note = string.format(L["Asked %s."], ns.COMPANION_NAME)
+  UI.AddMessage("note", GREY .. note .. "|r")
+  if not (UI.frame and UI.frame:IsShown()) then DEFAULT_CHAT_FRAME:AddMessage(T.CHAT_PREFIX .. note) end
 end
 
 -- Willo's icon shows while the add-on may suggest her (Companion.OfferWillo: not once she's installed, nor with
@@ -5085,6 +4676,8 @@ function UI.ShowEntry(key, via, asked)
   UI.lastLog = ns.Log.Question("[open] " .. e.n, UI.ctx or ns.Context.Snapshot(), { { key = key, kind = "summary", title = e.n } }, via)
   UI.AddMessage("lore", text, target, nil, nil, UI.lastLog, key, linked, true)
   UI.SetNext(followUps(key, nil))
+  -- Opened by a way in (a tooltip key, the quest's Lore button, a name): its page goes on top (Page.lua).
+  if ns.Page.VIA[via] then ns.Page.Show(key, via) end
 end
 
 -- Dungeon primer: what the place is, why you're here (your quests for it), and who you'll meet, in order.

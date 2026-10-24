@@ -20,20 +20,21 @@ test("paying plans and the monthly revenue leave out comped plans and the admin'
   await setup(env);
   await setupBilling(env);
   const subs = {}, calls = [];
-  const add = async (name, plan, { status = "active", coupon = null } = {}) => {
+  const add = async (name, plan, { status = "active", coupon = null, cancelling = false } = {}) => {
     const user = await findOrCreateUser(env, { email: `${name}@example.com`, googleSub: name, name });
     subs[`sub_${name}`] = { id: `sub_${name}`, status, start_date: NOW / 1000 - 3600,
       items: { data: [{ price: { lookup_key: `${plan}_monthly` } }] },
       discounts: coupon ? [{ id: `di_${name}`, object: "discount", source: { type: "coupon", coupon } }] : [] };
-    env.DB.sqlite.prepare("INSERT INTO entitlements (user_id, subscription_id, plan, status, current_period_end, updated) " +
-      "VALUES (?, ?, ?, ?, ?, ?)").run(user.id, `sub_${name}`, plan, status, new Date(NOW + 30 * 864e5).toISOString(),
-      new Date(NOW).toISOString());
+    env.DB.sqlite.prepare("INSERT INTO entitlements (user_id, subscription_id, plan, status, current_period_end, " +
+      "cancel_at_period_end, updated) VALUES (?, ?, ?, ?, ?, ?, ?)").run(user.id, `sub_${name}`, plan, status,
+      new Date(NOW + 30 * 864e5).toISOString(), cancelling ? 1 : 0, new Date(NOW).toISOString());
     return user;
   };
   await add("half", "legend", { coupon: "lore_forever_launch_legend" });   // the beta's 50% first month: paying
   await add("owner", "legend", { coupon: "owner-legend-free" });           // Mike's own Legend
   const admin = await add("admin", "legend");                              // the account /admin is opened from
   await add("trial", "hero", { status: "trialing" });                     // Keep Hero, nothing charged yet
+  await add("leaving", "hero", { cancelling: true });                     // cancelled: on Hero until it ends, never charged
   env.DB.sqlite.prepare("INSERT INTO excluded_accounts VALUES (?, 'admin', ?)").run(admin.id, new Date(NOW).toISOString());
   globalThis.fetch = async (url) => {
     const id = new URL(url).pathname.split("/").pop();
@@ -45,10 +46,12 @@ test("paying plans and the monthly revenue leave out comped plans and the admin'
   assert.deepEqual([report.paying, report.monthlyUsd, report.comped, report.owner, report.trialing], [1, 19.99, 1, 1, 1]);
   const s = report.subscriptions;
   assert.deepEqual([s.byPlan.legend, s.comped.legend, s.owner.legend, s.trialing.hero, s.unchecked], [1, 1, 1, 1, 0]);
-  assert.equal(s.days.at(-1).started, 2, "the paying plan and the trial started today; the comped and admin's don't count");
-  assert.equal(calls.length, 4, "each subscription's coupons read once");
+  assert.deepEqual([s.cancelling.hero, s.byPlan.hero, s.onPlan.cancelling], [1, 0, 1], "a cancelled plan isn't paying");
+  assert.deepEqual(s.renewing, { count: 2, usd: 24.98 }, "renewing: the paying plan and the trial, at full price");
+  assert.equal(s.days.at(-1).started, 3, "the paying, trial and cancelled plans started today; comped and admin's don't");
+  assert.equal(calls.length, 5, "each subscription's coupons read once");
   await billingReport(env, new Date(NOW));
-  assert.equal(calls.length, 4, "and not again while nothing changed");
+  assert.equal(calls.length, 5, "and not again while nothing changed");
 });
 
 test("on a plan: everyone above Adventurer once (paid, Keep Hero trial, the beta's free Hero month, comped or owner)", async () => {
@@ -80,7 +83,7 @@ test("on a plan: everyone above Adventurer once (paid, Keep Hero trial, the beta
   env.DB.sqlite.prepare("INSERT INTO promo_claims (claim, subscription_id, created) VALUES ('hero:x', 'sub_x', ?)").run(at);
 
   const on = async () => (await billingReport(env, new Date(NOW))).onPlan;
-  assert.deepEqual(await on(), { total: 7, paid: 2, trial: 1, freeMonth: 2, comped: 2, freeUnread: false,
+  assert.deepEqual(await on(), { total: 7, paid: 2, trial: 1, cancelling: 0, freeMonth: 2, comped: 2, freeUnread: false,
                                  byPlan: { hero: 5, champion: 1, legend: 1 } },
     "paid and late, 1 trial, 2 free Hero months, the comped Legend and the test account's free month");
 

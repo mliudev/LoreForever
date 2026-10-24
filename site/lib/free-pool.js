@@ -12,9 +12,10 @@
 // answers. What went past the day's allowance comes out of the next days' carry.
 //
 // What counts: the month's answer_spend (every live answer's reservation and measured cost), less paying players' and the
-// beta's free Hero month's (answer_user_spend, lib/billing.js addUserSpend) and Willo's best first and its trial's
-// extras (best_first_days, held on their own daily cap in lib/best-first.js), plus profile stories and their voice
-// (story_spend). free_pool_days keeps the month's free spend as each day began (start_micro), written by the day's first
+// beta's free Hero month's (answer_user_spend, lib/billing.js addUserSpend), plus profile stories and their voice
+// (story_spend). Willo's best first and its trial's extras are in it too (Mike, 10/22: inside the $150, so free spend
+// never passes the pool), with their own daily cap on top (TASTE_DAY_USD, lib/best-first.js), and they rest on the
+// soft step as the free plan's hosted voice does. free_pool_days keeps the month's free spend as each day began (start_micro), written by the day's first
 // reservation, and pool_alerts the alerts already raised (alertsFor).
 // Kept outside functions/ so Pages doesn't route it.
 
@@ -40,10 +41,9 @@ export function freeSpend(now) {
   const m = month(now);
   return {
     sql: "(COALESCE((SELECT reserved_micro FROM answer_spend WHERE month = ?), 0) - " +
-      "COALESCE((SELECT SUM(micro) FROM answer_user_spend WHERE month = ?), 0) - " +
-      "COALESCE((SELECT SUM(reserved_micro) FROM best_first_days WHERE day LIKE ?), 0) + " +
+      "COALESCE((SELECT SUM(micro) FROM answer_user_spend WHERE month = ?), 0) + " +
       "COALESCE((SELECT micro_usd + voice_micro_usd + reserved_micro FROM story_spend WHERE month = ?), 0))",
-    binds: [m, m, `${m}-%`, m],
+    binds: [m, m, m],
   };
 }
 
@@ -126,19 +126,22 @@ export function checkAlerts(env, now = new Date()) {
 
 // The pool for /admin: dollars used of the month's pool, today's allowance (soft) and stop (hard), whether the soft step
 // is on, the month's average a day, the UTC day the pool would be gone at that average (null: it lasts the month), and
-// the month's alerts raised.
+// the month's alerts raised; tasteUsd: how much of the month's used is Willo's best first (lib/best-first.js).
 export async function poolReport(env, now = new Date()) {
   const state = await poolNow(env, now);
   const start = Date.UTC(now.getUTCFullYear(), now.getUTCMonth(), 1);
   const end = Date.UTC(now.getUTCFullYear(), now.getUTCMonth() + 1, 1);
   const perDay = state.used / Math.max((now.getTime() - start) / 86400e3, 1 / 24);
   const out = perDay > 0 ? start + (state.pool / perDay) * 86400e3 : Infinity;
-  const { results } = await env.DB.prepare("SELECT key, kind, share, used_micro, of_micro, created FROM pool_alerts " +
-    "WHERE key LIKE ? OR key LIKE ? ORDER BY created").bind(`day:${month(now)}-%`, `month:${month(now)}:%`).all();
+  const [{ results }, taste] = await Promise.all([
+    env.DB.prepare("SELECT key, kind, share, used_micro, of_micro, created FROM pool_alerts " +
+      "WHERE key LIKE ? OR key LIKE ? ORDER BY created").bind(`day:${month(now)}-%`, `month:${month(now)}:%`).all(),
+    env.DB.prepare("SELECT COALESCE(SUM(reserved_micro), 0) AS micro FROM best_first_days WHERE day LIKE ?")
+      .bind(`${month(now)}-%`).first()]);
   const usd = micro => Math.round(micro) / 1e6;
   return { poolUsd: usd(state.pool), sliceUsd: usd(state.slice), usedUsd: usd(state.used), todayUsd: usd(state.used - state.start),
            softUsd: usd(state.soft - state.start), hardUsd: usd(state.hard - state.start), soft: softStep(state),
-           perDayUsd: usd(perDay), runsOut: out < end ? new Date(out).toISOString().slice(0, 10) : null,
+           tasteUsd: usd(taste?.micro || 0), perDayUsd: usd(perDay), runsOut: out < end ? new Date(out).toISOString().slice(0, 10) : null,
            alerts: results.map(r => ({ key: r.key, kind: r.kind, share: r.share, usedUsd: usd(r.used_micro),
                                        ofUsd: usd(r.of_micro), at: r.created })) };
 }

@@ -10,6 +10,9 @@
 // address when the job started (lib/storyvoice.js). Scripts and routines call /api/* on loreforeverwow.com with an
 // Authorization header, which HTTP clients drop on a redirect to another host, so they must never use an old address.
 // Preview deployments (<hash>.lore-forever.pages.dev, develop.lore-forever.pages.dev) are left alone.
+// Willo's own domain (WILLO_DOMAIN) is a second front door to the same site: lib/doors.js says which pages belong to
+// which door, sends a page asked for through the wrong one across, and shows each door's pages with its own nav,
+// footer and content (WILLO_SPLIT=on is the switch for loreforeverwow.com's side).
 // It also adds the site-wide headers from public/_headers to every response that passes through without them, since
 // Pages doesn't apply _headers to responses from Functions (the profile pages, /downloads, /translate, the API). A file
 // served through here keeps its own (/admin's stricter Content-Security-Policy).
@@ -17,6 +20,7 @@
 import { migratedAdminLocation } from '../lib/admin-location.js';
 import { analyticsPage, withAnalytics } from '../lib/analytics.js';
 import { tooOld } from '../lib/client-version.js';
+import { changes, doorOf, doorRedirect, doorResponse, doorRobots, doorSitemap, willoHome, willoHost } from '../lib/doors.js';
 
 const OLD_HOSTS = ["loreforever.mliu.io", "lore-forever.pages.dev"];
 const STAY = ["/api/billing/webhook", "/api/profile/voice/hook"];
@@ -39,6 +43,18 @@ export async function onRequest({ request, env, next }) {
     url.port = "";
     return Response.redirect(url.toString(), request.method === "GET" || request.method === "HEAD" ? 301 : 308);
   }
+  // Willo's own domain (lib/doors.js): www. goes to the bare domain, like loreforeverwow.com's.
+  const willo = willoHost(env);
+  if (willo && host === "www." + willo && !STAY.includes(url.pathname)) {
+    url.hostname = willo;
+    url.protocol = "https:";
+    url.port = "";
+    return Response.redirect(url.toString(), request.method === "GET" || request.method === "HEAD" ? 301 : 308);
+  }
+  // The two front doors: a page asked for through the other side's door goes there (302: the split can be undone).
+  const door = doorOf(request, env);
+  const moved = doorRedirect(request, env, door);
+  if (moved) return moved;
   const adminLocation = migratedAdminLocation(request, env);
   if (adminLocation) return new Response(null, { status: 302, headers: {
     Location: adminLocation, 'Cache-Control': 'private, no-store',
@@ -47,7 +63,13 @@ export async function onRequest({ request, env, next }) {
   // A response's headers can be read-only (a redirect, a file from ASSETS), so set them on a copy. Server-Timing says
   // how long the page took here before its first byte (DevTools > Network > Timing; the launch load test reads it).
   const started = Date.now();
-  const res = await next();
+  const willoRoot = door?.door === "willo" && url.pathname === "/" && (request.method === "GET" || request.method === "HEAD");
+  let res = willoRoot ? await willoHome(request, env) : await next();
+  if (changes(door)) {
+    if (url.pathname === "/sitemap.xml") res = await doorSitemap(res, door, env);
+    else if (url.pathname === "/robots.txt") res = doorRobots(res, door, env);
+    else res = await doorResponse(res, door, env);
+  }
   const out = new Response(res.body, res);
   if (!out.headers.has("Server-Timing")) out.headers.set("Server-Timing", `fn;dur=${Date.now() - started}`);
   for (const [name, value] of Object.entries(SITE_HEADERS)) if (!out.headers.has(name)) out.headers.set(name, value);

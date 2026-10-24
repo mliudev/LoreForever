@@ -19,8 +19,8 @@ T.code = {
   link = "|cff88ccff",    -- clickable names in answers (≈ 9:1 on an answer card); its own role so it can be retuned
   white = "|cffffffff",
   green = "|cff7fdf7f",   -- playing, queued
-  zone = "|cffe6cc80",    -- a zone's name in the Library
-  heard = "|cffd8d8d8",   -- a story you've heard, or a question under one, in the Library
+  zone = "|cffe6cc80",    -- a zone's name (a chapter in Found)
+  heard = "|cffd8d8d8",   -- a story you've heard
   faint = "|cff888888",   -- notes after a choice, a choice you can't pick (Options)
   warn = "|cffff7070",    -- why something can't be used
   stale = "|cffffb347",   -- outdated recordings
@@ -363,8 +363,9 @@ function T.CoverChat(page)
   page:HookScript("OnHide", function()
     local UI = ns.UI
     if not (UI and UI.scroll) then return end
-    local h, j = UI.historyFrame, UI.journeyPage
-    if (h and h ~= page and h:IsShown()) or (j and j ~= page and j:IsShown()) then return end
+    for _, other in ipairs({ UI.historyFrame, UI.journeyPage, UI.storyPage, UI.foundPage }) do
+      if other ~= page and other:IsShown() then return end
+    end
     UI.scroll:Show()
   end)
 end

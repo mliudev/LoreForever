@@ -10,7 +10,7 @@ Options.DEFAULTS = {
   unitTooltips = true,     -- one-line lore on NPC and mob tooltips
   itemTooltips = true,     -- quest notes on item tooltips
   storylines = true,       -- say a quest is part of a storyline, under its title and on its entry (Storyline.lua)
-  storylineChat = true,    -- turning in a storyline quest names who gives the next one (Storyline.OnTurnIn)
+  storylineChat = true,    -- turning in a storyline quest names who gives the next one (Storyline.NextPart)
   recaps = true,           -- a storyline's recap at its turning points (Storyline.OnRecap; lore.recaps)
   floatPlayer = true,      -- the narration player floats on screen while the panel is closed (UI.UpdateNowPlaying)
   -- The words of the narration playing, on screen in step with the voice while the panel is closed (Subtitles.lua,
@@ -399,7 +399,7 @@ function Options.VoiceSection(c, anchor)
   end)
   local willoHead = heading(c, L["Willo's voice"], genderNote, 16)
   willoHead:SetPoint("TOPLEFT", genderNote, "BOTTOMLEFT", -26, -16)
-  local willoNote = note(c, L["Willo always speaks in her own voice, picked in Willo. The narrators and quest givers never stand in for her, and she never stands in for them."], willoHead, 6)
+  local willoNote = note(c, L["Willo speaks in her own voice, picked in Willo. She can also read quest pages no one recorded, in a voice of the quest giver's; Willo's settings say when."], willoHead, 6)
   -- "New" after an update, when this version's notes name one of the two (WhatsNew.lua; section.ShowNew).
   local raceNew = ns.WhatsNew.Tag(c, raceText, "LEFT", "RIGHT", 8, 0)
   local genderNew = ns.WhatsNew.Tag(c, genderText, "LEFT", "RIGHT", 8, 0)
@@ -620,8 +620,8 @@ local function rows()
     { "unitTooltips", L["Lore on NPC tooltips"], L["Add a one-line story to the tooltip of NPCs and mobs."] },
     { "itemTooltips", L["Notes on item tooltips"], L["Say when an item is wanted for a quest or starts one."] },
     { "storylines", L["Show storylines on quests"], L["When a quest is part of a storyline, say so under its title and at the top of its story."] },
-    { "storylineChat", L["Storyline hints in chat"], L["When you turn in a quest that's part of a storyline, say in chat who to see next."] },
-    { "recaps", L["Storyline recaps"], L["At a storyline's turning points (before you head in for its last fight, and when it ends), the narrator retells what you've done so far. Never during a fight."] },
+    { "storylineChat", L["Storyline hints in chat"], L["When you turn in a quest that's part of a storyline, say in chat who to see next, with links to its recap and to what's new in the story."] },
+    { "recaps", L["Storyline recaps"], L["At a storyline's turning points (before you head in for its last fight, halfway through a long one, and when it ends), the narrator retells what you've done so far. Never during a fight."] },
     { "minimap", L["Minimap button"], L["Also show a book button on the minimap."] },
     { "questButton", L["Lore button on the quest window"], L["A Lore button on the quest giver's window opens the quest's story. It keeps clear of other add-ons' buttons; Shift-drag it to put it somewhere else. Untick to hide it: the story is still in the Lore Forever panel."] },
     { "floatPlayer", L["Floating player"], L["While the panel is closed, show the narration player on screen when something plays or waits in your playlist. Drag it to move it."] },
@@ -632,9 +632,9 @@ local function rows()
     { "showSpoilers", L["Tell me everything"], L["Story passages and answers that give away what's ahead wait until your quests reach them. Tick this to see and hear the whole story now."] },
     { "onDemand", L["Narration: only when I press Play"], L["Nothing plays by itself: not as you arrive, on flights, at quest givers or in books. Play buttons, the Narrate key and your playlist still work."] },
     { "narrateFlights", L["Narrate flights"], L["Read the story of each zone aloud while on a flight path."] },
-    { "autoZone", L["Play narrations as you arrive"], L["When you reach a zone or place with a recorded narration, play it. Never during combat or a flight, and never over something already playing."] },
+    { "autoZone", L["Play narrations as you arrive"], L["When you reach a zone or place with a recorded narration, play it. Storyline recaps and the story passages your quests open play by themselves under this too. Never during combat or a flight, and never over something already playing."] },
     { "questDialogue", L["Speak quest dialogue"], L["Off by default. Turn on to hear quest pages automatically or use Play beside the quest window. Leave off when another add-on reads quests. Lore Forever's own stories and answers still play."] },
-    { "skipHeard", L["Skip what you've heard"], L["Don't play a narration by itself again once this character has heard it. You can still play it any time; the Library ticks the ones you've heard."] },
+    { "skipHeard", L["Skip what you've heard"], L["Don't play a narration by itself again once this character has heard it. You can still play it any time; Found ticks the ones you've heard."] },
     { "packHints", L["Narration pack hints"], L["When you enter a zone whose places and people are narrated in a voice pack you don't have, say so once."] },
     { "journey", L["Remember my journey"], L["Keep track of the places you discover, the people you meet, the foes you defeat and the quests you finish, for your journey page. It stays on your PC."] },
     { "capture", L["Keep the quest text you see"], L["Keep the quest, gossip and book text Forever shows you, so you can share what Lore Forever doesn't have yet at loreforeverwow.com/contribute. It stays on your PC unless you share it."] },
