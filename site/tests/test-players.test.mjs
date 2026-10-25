@@ -6,6 +6,7 @@ import { test, beforeEach } from "node:test";
 import assert from "node:assert/strict";
 import { onRequest as testApi } from "../functions/api/test/[action].js";
 import { onRequest as friendsApi } from "../functions/api/friends/[action].js";
+import { onRequestGet as profileGet } from "../functions/u/[handle].js";
 import { findOrCreateUser, startSession, setup } from "../lib/accounts.js";
 import { pinsOf } from "../lib/willo-pins.js";
 import { testPlayersOn, seedTestPlayers, stubbed } from "../lib/test-players.js";
@@ -27,6 +28,15 @@ const call = async (origin, action, { body, cookie, method = body === undefined 
 const friends = async cookie => (await (await friendsApi({ env, params: { action: "list" },
   request: new Request(`${DEVELOP}/api/friends/list`, { headers: { Cookie: cookie } }) })).json());
 const count = sql => env.DB.sqlite.prepare(sql).get().n;
+
+test("each test player's public profile page shows their road (develop's walkthrough, 10/24)", async () => {
+  await seedTestPlayers(env, Date.parse("2026-10-24T20:00:00Z"));
+  for (const [handle, place] of [["mira", "Sentinel Hill"], ["doran", "Darkshire"], ["brann", "Lakeshire"]]) {
+    const res = await profileGet({ request: new Request(`${DEVELOP}/u/${handle}`), env, params: { handle } });
+    assert.equal(res.status, 200, handle);
+    assert.ok((await res.text()).includes(place), `${handle}'s page names ${place}`);
+  }
+});
 
 test("never on the live site: the host, the flag and live Stripe each refuse, and nothing is made", async () => {
   for (const origin of ["https://loreforeverwow.com", "https://www.loreforeverwow.com", "https://lore-forever.pages.dev",

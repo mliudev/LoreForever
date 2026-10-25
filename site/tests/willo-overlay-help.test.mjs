@@ -17,6 +17,19 @@ test("text beside Willo's blue dot gets the overlay control, even with voice or 
   }
 });
 
+test("the dots over the minimap get the live game info card with the switch that hides them", () => {
+  // The answer log, 10/21: without the card she made up a "Show world markers" setting.
+  for (const question of [
+    "I don't understand why I'm seeing all these dots. Can you see my mini map?",
+    "How do I get rid of the sparkles around my minimap?",
+    "Are you able to move your sky?",
+  ]) {
+    assert.ok(helpTopics(question).includes("live"), question);
+    const help = helpBlock(question, { client: "companion/0.23.0" }).toLowerCase();
+    for (const words of ["show it all the time", "/lore sky"]) assert.ok(help.includes(words), `${question}: ${words}`);
+  }
+});
+
 test("a blue dot in the game world is not Willo overlay help", () => {
   for (const question of [
     "What is the blue dot on my map?",

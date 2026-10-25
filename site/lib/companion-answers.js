@@ -16,6 +16,7 @@ import { OFF_ANSWERS, planFor, planAbove, plansOn, packsFor, companionFeatures, 
 import { voiceAllowance } from "./companion-voice.js";
 import { poolNow, fits, dayStatement } from "./free-pool.js";
 import { tasteState, trialView } from "./best-first.js";
+import { answerHost, viaTogether, breakerOpen, noteTogether, TOGETHER_PRICES } from "./together.js";
 
 // The free answers a day while plans are switched off (lib/billing.js OFF_ANSWERS). A player's own limit comes from
 // their plan (lib/billing.js planFor).
@@ -28,21 +29,22 @@ export const ANSWERS_PER_DAY = OFF_ANSWERS;
 // Then (Mike, 10/19: "yes to both", the smarter model is Legend's only, from now): SMART_MODEL for a plan with
 // `smarter` (lib/billing.js PLANS: Legend) while plans are on, its pictures too; every other plan's on ANSWER_MODEL
 // and SIGHT_MODEL, Flash-Lite. Rolling one back or out is a line here or in PLANS.
+// Since 10/24 her answers are on DeepSeek on every plan (lib/together.js), and these are only its fallback. Mike, 10/24:
+// "instead of having multiple models to juggle we reduce them": nothing is on 3.6 Flash any more, so SMART_MODEL is a
+// slot for the smart model a plan may get for hard questions (the Argon study), Flash-Lite until then.
 export const ANSWER_MODEL = "gemini-3.1-flash-lite";
 export const SIGHT_MODEL = "gemini-3.1-flash-lite";
-export const SMART_MODEL = "gemini-3.6-flash";
+export const SMART_MODEL = ANSWER_MODEL;
 export const LITE_MODEL = "gemini-3.1-flash-lite";
 export const RESEARCH_MODEL = "gemini-3.8-flash";
 // The Flash models, at Flash's prices (primaryPrices); every other model here is at Flash-Lite's.
 const FLASH_MODELS = new Set(["gemini-3.6-flash", "gemini-3.8-flash"]);
-// The model a call goes to (generate): required research, and a Champion's stronger answers and character replies
-// (strong, lib/billing.js PLANS stronger), on RESEARCH_MODEL; her own answers on SMART_MODEL for a smarter plan
+// The model a call goes to (generate): required research on RESEARCH_MODEL; her own answers on SMART_MODEL for a smarter plan
 // (smarter), else ANSWER_MODEL, or SIGHT_MODEL when she sees a picture of the game (seesPicture); character replies,
 // chat memory and quick look-ups on LITE_MODEL, and so are her answers to a paying player whose month has passed its
 // text cap (lite: lib/billing.js capState "lite").
-export const modelFor = (operation, { grounded = false, strong = false, picture = false, lite = false,
-  smarter = false } = {}) =>
-  grounded || (strong && operation !== "compact") ? RESEARCH_MODEL
+export const modelFor = (operation, { grounded = false, picture = false, lite = false, smarter = false } = {}) =>
+  grounded ? RESEARCH_MODEL
   : operation !== "answer" || lite ? LITE_MODEL : smarter ? SMART_MODEL : picture ? SIGHT_MODEL : ANSWER_MODEL;
 export const COMPACTIONS_PER_DAY = 20;
 export const ANSWER_PROMPT_BYTES = 16_000;
@@ -71,6 +73,41 @@ export const SAY_MAX_CHARS = 420;
 export const LAYER_MARK = "~~~";
 // Room for the thinking a disputed answer does (generate), on top of its usual output.
 export const DISPUTE_THINKING_TOKENS = 2048;
+// Her smarter mind (Mike, 10/24: "read the deepseek analysis, go with deepseek thinking"; the study, ~/lab/willo-smart-
+// routing): a hard question (MULL_KINDS) is thought through on DeepSeek with its reasoning on. Of 42 hard questions
+// asked with our own facts, three blind judges found the right pick in 76% (today's answers 45%) and a wrong one in 7%
+// (33%), its first sentence in 2.0 s, about $0.003 more each. She tells it apart herself: MULL_RULE, at the end of her
+// prompt, has her reply to one with only MULL_MARK and a short line that she'll mull it over, known from her first
+// words (61 hard and 354 everyday questions: 54 of the hard sent on, 4 everyday, everyday answers as good as before).
+// The line is said at once (holdingLine), and the thought-through answer carries straight on from it (mullSystem), in
+// the same bubble and voice. A plan with `smarter` (Legend), or a few a month (lib/billing.js thinkingPerMonth: Hero's
+// taste), while WILLO_SMART_ROUTE isn't "off" (smartRoute).
+export const MULL_MARK = "[[MULL]]";
+const MULL_AT = /^\s*\[\[MULL\]\]/;
+const MULL_KINDS = "comparing two or more items, weapons or pieces of gear for this player; a rotation or the order to use abilities in; where talent points go or which spec to play; which stats matter most for them; a choice between options with several things to weigh (\"should I... or...?\"); or working out numbers";
+const MULL_NOT = "A quick fact about one item, spell, talent, quest, place or person (what it does, where it drops, when it's learned, who gives it), lore, directions, chatter and anything else";
+export const MULL_RULE = `HARD QUESTIONS: when a good answer needs careful reasoning (${MULL_KINDS}), don't answer it yet. Reply with only ${MULL_MARK} and then one short, warm line in your own voice that you'll mull it over for a moment: under twelve words, about their question, with no tech words, and never "search", "check", "look up" or "think harder". ${MULL_NOT} you answer as usual.`;
+// The thought-through answer: her own prompt with room for 200 words, and this, carrying on from the line she said.
+const MULL_THINK = hold => `THINK IT THROUGH: this question needs careful reasoning: a comparison, a rotation, talents, stat priorities, a choice between options, or some arithmetic. Work it out before you write. Use the numbers in ITEM FACTS, SPELL FACTS and FOREVER FACTS first, and compare like with like for this player's class, level and role. Give the clear pick or plan first, then the one or two reasons that decide it, with the numbers that matter. Where those facts don't cover something, reason from how classes, gear and combat work in this world, and say in a few words what the answer depends on. Never invent an item's or spell's numbers. You have already said to the player: "${hold}" Carry straight on from it with the answer: don't greet, don't repeat it, and don't say that you thought it over.`;
+const mullSystem = (system, hold) => `${system.replaceAll("under 140 words", "under 200 words")}\n\n${MULL_THINK(hold)}`;
+// Its room: 200 words, and its thinking (the study: 6,000 tokens kept every answer whole). It has MULL_MS for all of it,
+// so a plain answer after it (writeAnswer) still comes inside the companion's 20 s wait.
+export const MULL_ROOM_TOKENS = 256, MULL_THINKING_TOKENS = 6000, MULL_MS = 10_000;
+// Her line, as she wrote it when its first line is at most HOLD_WORDS words with no digits and nothing of how she works
+// (the study kept 57 of 58 of DeepSeek's lines, 44 of 50 of Flash-Lite's), else one of these.
+const HOLD_WORDS = 14;
+const HOLD_BANNED = /\b(?:search\w*|check\w*|look(?:s|ing)?(?: it)? up|think(?:ing)? harder|models?|ai|database\w*|process\w*|comput\w*|quer\w*|research\w*|verif\w*|confirm\w*)\b/i;
+export const HOLD_LINES = ["Ooh, good one. Let me weigh it up a moment.", "Hmm, give me a heartbeat to weigh those properly.",
+  "Let me turn that over in my light a moment.", "Now that deserves proper thought. One moment.",
+  "Two fine choices! Let me weigh them for you."];
+export function holdingLine(text, pick = Math.random) {
+  const first = String(text || "").replace(MULL_AT, "").split(/~{3,}/)[0].trim().split("\n")[0].trim();
+  const words = first.split(/\s+/).filter(Boolean).length;
+  return first && words <= HOLD_WORDS && !/\d|\[\[|\]\]/.test(first) && !HOLD_BANNED.test(first) ? first
+    : HOLD_LINES[Math.floor(pick() * HOLD_LINES.length) % HOLD_LINES.length];
+}
+// The one switch: WILLO_SMART_ROUTE "off" (or 0, false, no) and every question is answered as before.
+export const smartRoute = env => !/^(?:off|0|false|no)$/i.test(String(env?.WILLO_SMART_ROUTE ?? "").trim());
 // A quick look online (lookUp): how long it may take before the answer is written without it (measured 10/12: median
 // 2.4 s), and how long its finding may be.
 export const LOOKUP_MS = 7000;
@@ -250,6 +287,26 @@ export const lookOf = value => value === "screen" ? "screen" : null;
 export const seesPicture = (operation, researchRequired, style, image, look = null) =>
   operation === "answer" && !researchRequired && Boolean(styleOf(style) || lookOf(look)) && Boolean(imageOf(image));
 
+// A picture only when the spoken question points at something (the picture study, 10/24): 17% of spoken picture
+// questions need the screen, and nearly all of those say this, that, here, my, see, he or she. One with none of these
+// goes as text to the answer host: 90 blind against Flash-Lite's 81 with the picture, first words 0.35 s against 0.9 s,
+// with 8 of 99 screen questions slipping through. Whole words between letters, not \b, so tämä and ça match.
+// WILLO_PICTURE_RULE "always" keeps every picture (the rollback).
+export const POINTING_WORDS = ["this", "that", "these", "those", "here", "there", "it", "its", "my", "me", "mine", "i",
+  "im", "see", "seeing", "look\\p{L}*", "screen", "in front", "behind", "over", "right now", "they", "he", "she", "him", "her",
+  "them", "guy", "thing", "one", "which", "happen\\p{L}*",
+  // The same in the languages players speak to her in (the shipped packs, and Finnish): this, that, here, my, see, look.
+  "hier", "da", "das", "dies\\p{L}*", "mein\\p{L}*", "sehe", "siehst", "sieht", "sehen", "sieh\\p{L}*", "schau\\p{L}*",
+  "ici", "là", "ça", "ce", "cet", "cette", "mon", "ma", "mes", "voi\\p{L}*", "regard\\p{L}*",
+  "aquí", "ahí", "esto", "eso", "este", "esta", "ese", "esa", "mi", "mis", "veo", "ves", "ver", "mira\\p{L}*",
+  "qui", "qua", "questo", "questa", "quello", "quella", "mio", "mia", "vedi", "vedo", "guarda\\p{L}*",
+  "aqui", "aí", "isto", "isso", "esse", "essa", "meu", "minha", "olha\\p{L}*",
+  "tämä", "tuo", "tässä", "täällä", "tuossa", "minun", "näe\\p{L}*", "katso\\p{L}*",
+  "это", "этот", "эта", "вот", "тут", "здесь", "мой", "моя", "мои", "вижу", "смотри\\p{L}*",
+  "це", "цей", "ця", "ось", "мій", "бачу", "дивись"];
+const POINTING = new RegExp(`(?<!\\p{L})(?:${POINTING_WORDS.join("|")})(?!\\p{L})`, "iu");
+export const keepsPicture = (env, question) => env?.WILLO_PICTURE_RULE === "always" || POINTING.test(String(question || ""));
+
 // The player is disputing the last answer or losing patience (lib/answer-feedback.js feedbackKind), said once more
 // right before they're answered: Flash-Lite otherwise defends what it said (LOR-446). A correction (Mike, 10/22: "If the
 // user states something twice, she should try to understand it a little better… and be a bit more communicative"): what
@@ -334,12 +391,14 @@ const LONGEST_DISPUTE = DISPUTE_KINDS.reduce((a, b) => (DISPUTE_SYSTEM[a].length
 const LONGEST_CUSTOM = "x".repeat(CUSTOM_PROMPT_BYTES);
 const LONGEST_MEMORIES = "x".repeat(MEMORIES_PROMPT_BYTES);
 const LONGEST_HELP = "x".repeat(HELP_MAX_BYTES);
+// MULL_RULE, or the thought-through answer's longer rule with her line (holdingLine: at most HOLD_WORDS words).
+const MULL_BOUND = 2 + Math.max(...[MULL_RULE, MULL_THINK("x".repeat(40 * HOLD_WORDS))].map(t => new TextEncoder().encode(t).length));
 const INPUT_BOUND = ANSWER_PROMPT_BYTES + Math.max(...["answer", "character", "compact"].flatMap(operation =>
   [false, true].flatMap(grounded => Object.keys(PERSONAS).flatMap(persona => [null, "spoken"].flatMap(style =>
     [false, true].map(picture => new TextEncoder().encode(systemPrompt(operation, grounded, persona, style, { picture,
       facts: LONGEST_FACTS, help: LONGEST_HELP, dispute: LONGEST_DISPUTE, custom: LONGEST_CUSTOM, memories: LONGEST_MEMORIES,
       longMemory: true, offered: true, noting: true, goaling: true, away: true })).length))))))
-  + ACTIONS_BOUND + 2048;
+  + ACTIONS_BOUND + MULL_BOUND + 2048;
 // A call's bounded input and `output` tokens at its model's rates: a Flash model's announced higher 2027 ones in advance
 // of that transition. A picture's ~530 input tokens fit inside: bytes over-count text tokens about 4x, and
 // reconcileAnswer settles on usage.
@@ -349,23 +408,24 @@ const bounded = (model, output) => FLASH_MODELS.has(model) ? Math.ceil(INPUT_BOU
 export const ANSWER_RESERVATION_MICRO = bounded(ANSWER_MODEL, ANSWER_OUTPUT_TOKENS);
 export const SIGHT_RESERVATION_MICRO = bounded(SIGHT_MODEL, ANSWER_OUTPUT_TOKENS);
 export const LITE_RESERVATION_MICRO = bounded(LITE_MODEL, ANSWER_OUTPUT_TOKENS);
+// A hard question thought through (MULL_RULE), on top of her answer: its room and thinking, on DeepSeek, whose output
+// Flash-Lite's rates bound (and bytes over-count its input).
+export const MULL_RESERVATION_MICRO = bounded(LITE_MODEL, ANSWER_OUTPUT_TOKENS + MULL_ROOM_TOKENS + MULL_THINKING_TOKENS);
 export const COMPACTION_RESERVATION_MICRO = bounded(LITE_MODEL, COMPACTION_OUTPUT_TOKENS);
 // A longer chat memory (longMemory) has twice the room to write it.
 export const LONG_COMPACTION_RESERVATION_MICRO = bounded(LITE_MODEL, 2 * COMPACTION_OUTPUT_TOKENS);
 export const RESEARCH_RESERVATION_MICRO = bounded(RESEARCH_MODEL, RESEARCH_OUTPUT_TOKENS) + SEARCH_RESERVATION_MICRO;
-// A Champion's answer or character reply on 3.8 Flash (strong), without searches.
-export const STRONG_RESERVATION_MICRO = bounded(RESEARCH_MODEL, ANSWER_OUTPUT_TOKENS);
-// lookup: the answer looks online first (lookUp), which settles its own part. strong and longMemory: a Champion's
-// stronger mind and longer memory (lib/billing.js PLANS stronger), for answers and character replies, and for chat
+// lookup: the answer looks online first (lookUp), which settles its own part. longMemory: a Champion's longer chat
 // memory. picture: she sees one (seesPicture); lite: past the text cap, on Flash-Lite (modelFor). Exported for a
-// paid-for answer's hold on its cost cap (functions/api/companion/answer.js), which matches it.
+// paid-for answer's hold on its cost cap (functions/api/companion/answer.js), which matches it. mull: a hard question
+// may be thought through (MULL_RULE), so it holds room for that too.
 export const answerReservation = (researchRequired, operation,
-  { lookup = false, strong = false, longMemory = false, picture = false, lite = false,
-  smarter = false } = {}) =>
+  { lookup = false, longMemory = false, picture = false, lite = false, smarter = false, mull = false } = {}) =>
   operation === "compact" ? (longMemory ? LONG_COMPACTION_RESERVATION_MICRO : COMPACTION_RESERVATION_MICRO)
   : researchRequired && operation === "answer" ? RESEARCH_RESERVATION_MICRO
-  : bounded(modelFor(operation, { strong, picture, lite, smarter }), ANSWER_OUTPUT_TOKENS)
-    + (lookup && operation === "answer" ? LOOKUP_RESERVATION_MICRO : 0);
+  : bounded(modelFor(operation, { picture, lite, smarter }), ANSWER_OUTPUT_TOKENS)
+    + (lookup && operation === "answer" ? LOOKUP_RESERVATION_MICRO : 0)
+    + (mull && operation === "answer" ? MULL_RESERVATION_MICRO : 0);
 const month = (now = new Date()) => now.toISOString().slice(0, 7);
 const day = (now = new Date()) => now.toISOString().slice(0, 10);
 // The knowledge an answer gets, within KNOWLEDGE_MAX_BYTES: each block keeps its own bound, so only a bug in one goes
@@ -487,12 +547,10 @@ export async function allowance(env, userId, now = new Date(), exempt = null, pl
 // (paid: a paying player's) skips the gate, but its reservation is still recorded so /admin sees the whole month's
 // spend; what it cost is taken back out of the pool's count (lib/free-pool.js freeSpend), so it never uses up free
 // players' pool.
-// strong, longMemory, picture (seesPicture) and lite: as writeAnswer will be asked, so the reservation fits the call.
+// longMemory, picture (seesPicture) and lite: as writeAnswer will be asked, so the reservation fits the call.
 export async function reserveAnswer(env, now = new Date(), researchRequired = false, operation = "answer", lookup = false,
-  { paid = false, strong = false, longMemory = false, picture = false, lite = false,
-  smarter = false } = {}) {
-  const reserved = answerReservation(researchRequired, operation, { lookup, strong, longMemory, picture, lite,
-    smarter });
+  { paid = false, longMemory = false, picture = false, lite = false, smarter = false, mull = false } = {}) {
+  const reserved = answerReservation(researchRequired, operation, { lookup, longMemory, picture, lite, smarter, mull });
   // One round trip for all, in order (LOR-654): the month's row, the pool's day, then the reservation while it fits.
   const room = fits(env, now, reserved);
   const [, , held] = await env.DB.batch([
@@ -585,9 +643,9 @@ const geminiActions = offer => ({
   toolConfig: { functionCallingConfig: { mode: "ANY" } },
 });
 
-// picture: imageOf's base64, only for a spoken, unresearched answer (writeAnswer). It goes to Gemini and nowhere else.
-// strong: an answer or character reply on the stronger model, with minimal thinking (a Champion's); longMemory: chat
-// memory keeps twice as much. actions: provider-neutral declarations ({name, description, parameters}: JSON Schema,
+// picture: imageOf's base64, only for a spoken, unresearched answer (writeAnswer). It goes to Gemini, or to
+// Together for her own answers when WILLO_ANSWER_HOST is set (lib/together.js), and nowhere else.
+// longMemory: chat memory keeps twice as much. actions: provider-neutral declarations ({name, description, parameters}: JSON Schema,
 // lib/willo-tools.js actionsFor), given to Gemini as functionDeclarations; the answer's call comes back as `call`.
 // Her spoken words and the written answer from a two-layer reply (SAY_MAX_CHARS, LAYER_MARK): {say, text}. The written
 // answer is her words, then what the model wrote after the mark (layersRules), so it begins with exactly what she
@@ -665,8 +723,10 @@ export function sayOf(text, max = SAY_MAX_CHARS) {
 }
 
 // A streamed answer (streamGenerateContent, server-sent events) read as it comes, so her spoken words go out
-// (onSay) the moment the mark after them arrives: a result shaped like generateContent's, for what follows.
-async function streamed(res, onSay) {
+// (onSay) the moment the mark after them arrives: a result shaped like generateContent's, for what follows. marked: she
+// was given MULL_RULE, so a reply that starts with MULL_MARK says nothing here (writeAnswer says her line), and the
+// mark is never said. Her spoken words come after her first words, so this holds them no longer than they took.
+async function streamed(res, onSay, marked = false) {
   const reader = res.body.getReader(), decoder = new TextDecoder();
   let rest = "", text = "", finishReason, usageMetadata, modelVersion, said = false;
   const take = line => {
@@ -680,7 +740,9 @@ async function streamed(res, onSay) {
     modelVersion = chunk?.modelVersion || modelVersion;
     if (!said && LAYER_LINE.test(text)) {
       said = true;
-      try { onSay(splitLayers(text).say); } catch (e) { console.warn(`companion answer: onSay: ${e?.message || e}`); }
+      if (marked && MULL_AT.test(text)) return;
+      try { onSay(splitLayers(marked ? text.replaceAll(MULL_MARK, "") : text).say); }
+      catch (e) { console.warn(`companion answer: onSay: ${e?.message || e}`); }
     }
   };
   for (let done = false; !done;) {
@@ -694,19 +756,25 @@ async function streamed(res, onSay) {
 }
 
 async function generate(env, prompt, grounded, operation, persona, style, { picture = null, closeup = null, closeupOf = null, facts = "", help = "",
-  dispute = null, custom = "", memories = "", strong = false, longMemory = false, actions = null, now = new Date(),
-  layered = false, onSay = null, lite = false, smarter = false, away = false } = {}) {
+  dispute = null, custom = "", memories = "", longMemory = false, actions = null, now = new Date(),
+  layered = false, onSay = null, lite = false, smarter = false, away = false, mull = false, mulling = null } = {}) {
   const compact = operation === "compact", character = operation === "character";
   const spoken = !compact && !grounded && styleOf(style);
   // Two layers: her answers only, spoken (SAY_MAX_CHARS); streamed when the caller takes her words early and there's no
   // offer to call (a call's answer comes whole).
   layered = Boolean(layered) && spoken && !character;
   const thinks = !compact && !grounded && !character && Boolean(DISPUTE_SYSTEM[dispute]);
-  const stronger = strong && !compact && !grounded;
-  const model = modelFor(operation, { grounded, strong: stronger, picture: Boolean(picture), lite,
-    smarter });
+  let model = modelFor(operation, { grounded, picture: Boolean(picture), lite, smarter });
   const memoryBytes = longMemory ? 2 * MEMORY_BYTES : MEMORY_BYTES;
   const offer = !grounded && !compact && Array.isArray(actions) && actions.length ? actions : null;
+  // Hard questions (MULL_RULE): mull offers her the rule, and mulling ({hold}: the line she said) thinks one through,
+  // on Together with its reasoning on. Only her own answers, never a disputed (it thinks already), researched, offered
+  // or past-the-text-cap one, and only while Together, which thinks them through, is up: the Gemini fallback never gets
+  // the rule (the Software Architect, 10/24). A picture's answer is on Gemini, so it gets the rule there.
+  const smartHost = (mull || mulling) && operation === "answer" && !grounded && !thinks && !offer && !lite
+    ? answerHost(env) : null;
+  const marks = Boolean(mull && smartHost) && !breakerOpen();
+  if (mulling && !smartHost) throw new Error("Thinking it through: no Together");
   // The notebook's tools are done when called, the app's actions only offered: each with its own rule.
   const system = systemPrompt(operation, grounded, persona, style, { picture: Boolean(picture), facts, help, dispute,
     custom, memories: compact ? "" : memories, longMemory, offered: Boolean(offer?.some(a => !isNotebookTool(a.name) && !isGoalTool(a.name))),
@@ -716,29 +784,61 @@ async function generate(env, prompt, grounded, operation, persona, style, { pict
   // Her own answers carry the clarification reminder right after the question, where a note weighs most (LOR-719: in
   // the system rules alone, 3.6 Flash turned "when can I get a want" into a wand 3 of 3 and answered).
   const asked = operation === "answer" && !grounded ? `${prompt}\n\n${CLARIFY_NOTE}` : prompt;
-  const res = await fetch(`https://generativelanguage.googleapis.com/v1beta/models/${model}:${stream
+  // Flash-Lite caches a prompt over ~4K tokens by its opening on its own, and a cached answer stalls far more often
+  // (LOR-761, gold 10/23: p95 2.7 s cached vs 1.65 s fresh at the same size). A request's own tag first: never cached.
+  const fresh = model.includes("flash-lite") ? `(${crypto.randomUUID().slice(0, 8)})\n` : "";
+  // What Together is asked with (the rule, or thinking it through), and Gemini: the rule only for a picture, which
+  // Gemini answers first, never as Together's fallback.
+  const asks = marks ? `${system}\n\n${MULL_RULE}` : mulling ? mullSystem(system, mulling.hold) : system;
+  const geminiSystem = marks && picture ? asks : system;
+  const request = { systemInstruction: { parts: [{ text: asks }] },
+    contents: [{ role: "user", parts: picture ? [{ inlineData: { mimeType: "image/jpeg", data: picture } },
+      ...(closeup ? [{ inlineData: { mimeType: "image/jpeg", data: closeup } }, { text: closeupOf === "target" ? TARGET_NOTE : CLOSEUP_NOTE }] : []), { text: asked }]
+      : [{ text: asked }] }],
+    ...(grounded ? { tools: [{ googleSearch: {} }] } : offer ? geminiActions(offer) : {}),
+    generationConfig: { temperature: compact ? 0.2 : character ? 0.7 : 0.4, candidateCount: 1,
+      ...(compact ? { responseMimeType: "application/json", responseSchema: MEMORY_SCHEMA } : {}),
+      // Measured 10/11 on Flash-Lite with a 1024 px screenshot: about 530 more input tokens, +0.05 s.
+      ...(picture ? { mediaResolution: "MEDIA_RESOLUTION_MEDIUM" } : {}),
+      // A disputed answer thinks a little first (LOR-446): without it Flash-Lite agreed with players who were wrong.
+      // Thinking counts as output, so it gets DISPUTE_THINKING_TOKENS more room.
+      maxOutputTokens: (compact ? COMPACTION_OUTPUT_TOKENS * (longMemory ? 2 : 1) : grounded ? RESEARCH_OUTPUT_TOKENS
+        : spoken && !layered ? SPOKEN_OUTPUT_TOKENS : ANSWER_OUTPUT_TOKENS) + (thinks ? DISPUTE_THINKING_TOKENS : 0)
+        + (mulling ? MULL_ROOM_TOKENS + MULL_THINKING_TOKENS : 0),
+      // 3.8 Flash refuses "minimal" (HTTP 400, checked 10/16), so the stronger model thinks "low" too.
+      thinkingConfig: { thinkingLevel: grounded || thinks ? "low" : "minimal" } } };
+  // A disputed answer thinks first, so it gets a little longer, still inside the companion's 20 s wait.
+  const signal = AbortSignal.timeout(grounded ? 35000 : compact ? 15000 : thinks ? 12000 : mulling ? MULL_MS : 8000);
+  // Her own answers (not research), a disputed one with its reasoning on (Mike, 10/24: one model for what she says), on
+  // Together when it's set (lib/together.js); on Gemini when Together fails before her first words (or first thought),
+  // or while its breaker is open. An answer with a picture stays on Gemini: with the site's prompt and a screenshot,
+  // Together's first words took over FIRST_WORD_MS in 3 of 4 (10/24), so each fell back and they opened the breaker.
+  // Thinking it through (mulling) is Together's, a picture's too, and never falls back here: writeAnswer answers as usual.
+  const host = mulling ? smartHost : operation === "answer" && !grounded && !picture ? answerHost(env) : null;
+  const skipped = Boolean(host) && breakerOpen();
+  if (mulling && skipped) throw new Error("Thinking it through: Together's breaker is open");
+  let res = null, fellBack = false, slow = false;
+  if (host && !skipped) {
+    try {
+      res = await viaTogether(env, request, host, { stream, signal, think: thinks || Boolean(mulling) });
+      model = `together:${host}`;
+    } catch (e) {
+      fellBack = true;
+      slow = Boolean(e?.slow);
+      // Not counted on the breaker: a long think running out of time isn't Together failing her first words.
+      if (mulling) throw e;
+      console.warn(`companion answer: Together, so Gemini: ${e?.message || e}`);
+    }
+    noteTogether(fellBack, { slow });
+  }
+  res ??= await fetch(`https://generativelanguage.googleapis.com/v1beta/models/${model}:${stream
     ? "streamGenerateContent?alt=sse" : "generateContent"}`, {
     method: "POST", headers: { "Content-Type": "application/json", "x-goog-api-key": env.GEMINI_API_KEY },
-    body: JSON.stringify({ systemInstruction: { parts: [{ text: system }] },
-      contents: [{ role: "user", parts: picture ? [{ inlineData: { mimeType: "image/jpeg", data: picture } },
-        ...(closeup ? [{ inlineData: { mimeType: "image/jpeg", data: closeup } }, { text: closeupOf === "target" ? TARGET_NOTE : CLOSEUP_NOTE }] : []), { text: asked }]
-        : [{ text: asked }] }],
-      ...(grounded ? { tools: [{ googleSearch: {} }] } : offer ? geminiActions(offer) : {}),
-      generationConfig: { temperature: compact ? 0.2 : character ? 0.7 : 0.4, candidateCount: 1,
-        ...(compact ? { responseMimeType: "application/json", responseSchema: MEMORY_SCHEMA } : {}),
-        // Measured 10/11 on Flash-Lite with a 1024 px screenshot: about 530 more input tokens, +0.05 s.
-        ...(picture ? { mediaResolution: "MEDIA_RESOLUTION_MEDIUM" } : {}),
-        // A disputed answer thinks a little first (LOR-446): without it Flash-Lite agreed with players who were wrong.
-        // Thinking counts as output, so it gets DISPUTE_THINKING_TOKENS more room.
-        maxOutputTokens: (compact ? COMPACTION_OUTPUT_TOKENS * (longMemory ? 2 : 1) : grounded ? RESEARCH_OUTPUT_TOKENS
-          : spoken && !layered ? SPOKEN_OUTPUT_TOKENS : ANSWER_OUTPUT_TOKENS) + (thinks ? DISPUTE_THINKING_TOKENS : 0),
-        // 3.8 Flash refuses "minimal" (HTTP 400, checked 10/16), so the stronger model thinks "low" too.
-        thinkingConfig: { thinkingLevel: grounded || thinks || stronger ? "low" : "minimal" } } }),
-    // The stronger model gets a little longer, still inside the companion's 20 s wait with a quick look online first.
-    signal: AbortSignal.timeout(grounded ? 35000 : compact ? 15000 : stronger ? 12000 : 8000),
-  });
+    body: JSON.stringify({ ...request, systemInstruction: { parts: [{ text: fresh + geminiSystem }] } }), signal });
   if (!res.ok) throw Object.assign(new Error(`Gemini HTTP ${res.status}`), { status: res.status });
-  const result = stream ? await streamed(res, onSay) : await res.json();
+  // The rule went with the call that answered (Together's, or Gemini's for a picture).
+  const ruled = marks && (model.startsWith("together:") || Boolean(picture));
+  const result = stream ? await streamed(res, onSay, ruled) : await res.json();
   const candidate = result?.candidates?.[0];
   if (candidate?.finishReason && candidate.finishReason !== "STOP")
     throw Object.assign(new Error(`Gemini ${candidate.finishReason}`), { result, model });
@@ -765,11 +865,17 @@ async function generate(env, prompt, grounded, operation, persona, style, { pict
   const { answer: inCall, ...args } = called?.args && typeof called.args === "object" ? called.args : {};
   const call = called && called.name !== ANSWER_ONLY ? { name: called.name, args } : null;
   // Citation links come exclusively from groundingMetadata, never model-written Markdown or URLs.
-  const written = typeof inCall === "string" && inCall.trim() ? inCall : content;
+  const reply = typeof inCall === "string" && inCall.trim() ? inCall : content;
+  // Her reply to a hard question: only the mark and her line (MULL_RULE), which writeAnswer says and thinks on from. A
+  // mark anywhere else is never shown.
+  if (ruled && MULL_AT.test(reply)) return { result, candidate, mulled: holdingLine(reply), model,
+    ...(fellBack ? { fellBack } : {}), ...(skipped ? { skipped } : {}) };
+  const written = reply.replaceAll(MULL_MARK, "");
   const layers = layered ? splitLayers(written) : null;
   const answer = layers ? layers.text : plainText(written);
   if (!answer && !call) throw Object.assign(new Error("Empty answer"), { result, model });
-  return { result, candidate, answer, model, call, ...(layers?.say ? { say: layers.say } : {}) };
+  return { result, candidate, answer, model, call, ...(layers?.say ? { say: layers.say } : {}), ...(fellBack ? { fellBack } : {}),
+    ...(skipped ? { skipped } : {}) };
 }
 
 // floor: what an uncertain search counts at least, the search part of its reservation.
@@ -803,7 +909,8 @@ function primaryPrices(now) {
     ? { input: 0.75, output: 3.75 } : { input: 1.50, output: 7.50 };
 }
 
-// model: the one the call ran on, at its prices: a Flash model's (FLASH_MODELS, primaryPrices), else Flash-Lite's.
+// model: the one the call ran on, at its prices: a Flash model's (FLASH_MODELS, primaryPrices), Together's
+// ("together:<id>", lib/together.js), else Flash-Lite's.
 function measuredUsage(result, model, now) {
   const usage = result?.usageMetadata || {};
   const validCount = count => Number.isSafeInteger(count) && count >= 0;
@@ -812,7 +919,9 @@ function measuredUsage(result, model, now) {
   const input = usage.promptTokenCount;
   const output = usage.candidatesTokenCount + (usage.thoughtsTokenCount || 0);
   if (!validCount(output)) return null;
-  const prices = FLASH_MODELS.has(model) ? primaryPrices(now) : { input: 0.25, output: 1.50 };
+  const prices = FLASH_MODELS.has(model) ? primaryPrices(now)
+    : model?.startsWith("together:") ? TOGETHER_PRICES[model.slice(9)] || { input: 0.30, output: 1.20 }
+    : { input: 0.25, output: 1.50 };
   return { input, output, cost: Math.ceil(input * prices.input + output * prices.output) };
 }
 
@@ -894,16 +1003,15 @@ export async function lookUp(env, parts, now = new Date(), { real = false, later
 // customization (lib/willo-custom.js promptBlocks) or the free plan's LORE_FOCUS, at most CUSTOM_PROMPT_BYTES, added
 // after the system instruction's rules, never to chat memory. actions: what the answer may offer to do (lib/willo-
 // tools.js actionsFor), at most ACTIONS_MAX_BYTES; its pick comes back as `call` ({name, args}, unchecked: the caller
-// checks it with actionOf), and the answer may then be "". strong: an answer or character reply on the stronger
-// model (RESEARCH_MODEL, minimal thinking); longMemory: chat memory keeps twice as much (both a Champion's, lib/billing.js
-// PLANS stronger, and reserved the same way by reserveAnswer). lite: her answer on Flash-Lite, past the plan's text cap
+// checks it with actionOf), and the answer may then be "". longMemory: chat memory keeps twice as much (a Champion's,
+// reserved the same way by reserveAnswer). lite: her answer on Flash-Lite, past the plan's text cap
 // (lib/billing.js capState). model_ms: time spent waiting on Gemini. counted: what the call cost by the budget's
 // reckoning (micro-dollars), for a paid-for answer's cost caps; on a thrown error it's on the error. later: keeps the
 // budget's write going while the answer goes out (reconcileAnswer).
 export async function writeAnswer(env, prompt, now = new Date(), researchRequired = false, operation = "answer",
   { persona = "sam", style = null, image = null, closeup = null, closeupOf = null, look = null, facts = "", help = "", dispute = null, custom = "",
-    memories = "", strong = false, longMemory = false, actions = null, later = null, layered = false, onSay = null, lite = false,
-    smarter = false, away = false } = {}) {
+    memories = "", longMemory = false, actions = null, later = null, layered = false, onSay = null, lite = false,
+    smarter = false, away = false, mull = false, onMull = null } = {}) {
   if (typeof prompt !== "string" || !prompt.trim() || new TextEncoder().encode(prompt).length > ANSWER_PROMPT_BYTES)
     throw new Error("Invalid answer prompt");
   if (typeof custom !== "string" || new TextEncoder().encode(custom).length > CUSTOM_PROMPT_BYTES)
@@ -911,16 +1019,15 @@ export async function writeAnswer(env, prompt, now = new Date(), researchRequire
   memories = typeof memories === "string" && new TextEncoder().encode(memories).length <= MEMORIES_PROMPT_BYTES
     && operation === "answer" ? memories : "";
   help = typeof help === "string" && new TextEncoder().encode(help).length <= HELP_MAX_BYTES ? help : "";
-  // "character": the targeted character answers in person, on the ordinary answer model (or the stronger one, strong),
-  // never with web search.
+  // "character": the targeted character answers in person, on the ordinary answer model, never with web search.
   const compact = operation === "compact";
   const grounded = operation === "answer" && researchRequired;
-  strong =Boolean(strong) && !compact && !grounded;
   longMemory = Boolean(longMemory) && compact;
   const picture = seesPicture(operation, researchRequired, style, image, look) ? imageOf(image) : null;
   const close = picture ? imageOf(closeup) : null;    // its top-right corner, enlarged (CLOSEUP_NOTE)
-  const reserved = answerReservation(researchRequired, operation, { strong, longMemory, picture: Boolean(picture),
-    lite: Boolean(lite), smarter: Boolean(smarter) });
+  mull = Boolean(mull) && operation === "answer" && !grounded;
+  const reserved = answerReservation(researchRequired, operation, { longMemory, picture: Boolean(picture),
+    lite: Boolean(lite), smarter: Boolean(smarter), mull });
   let response;
   const started = Date.now();
   facts = typeof facts === "string" ? knowledgeWithin(facts) : "";
@@ -930,10 +1037,15 @@ export async function writeAnswer(env, prompt, now = new Date(), researchRequire
   // written. A picture asked again without one (below) says them once.
   let said = false;
   const sayOnce = typeof onSay === "function" ? say => { if (!said) { said = true; onSay(say); } } : null;
-  const ask = (withPicture, actions = offer) => generate(env, prompt, grounded, operation, persona, style,
-    { picture: withPicture, closeup: withPicture ? close : null, closeupOf, facts, help: compact ? "" : help, dispute, custom: compact ? "" : custom, memories, strong, longMemory,
-      lite, smarter, actions, now, layered, onSay: sayOnce, away: away ? (away === "none" ? "none" : "last") : false });
+  const ask = (withPicture, actions = offer, { marking = mull, mulling = null } = {}) => generate(env, prompt, grounded, operation, persona, style,
+    { picture: withPicture, closeup: withPicture ? close : null, closeupOf, facts, help: compact ? "" : help, dispute, custom: compact ? "" : custom, memories, longMemory,
+      lite, smarter, actions, now, layered, onSay: mulling ? null : sayOnce, away: away ? (away === "none" ? "none" : "last") : false,
+      mull: marking, mulling });
   let offerCost = 0;
+  // A hard question (MULL_RULE): her first reply, only her line (first), and how it was answered (route, for the answer
+  // log): "mulled" thought through; "mull-fallback" thinking failed or ran out of time, so answered as usual after her
+  // line; "mull-spent" the plan's few a month were used (onMull), so answered as usual, without a line.
+  let first = null, route = null, mullCost = 0;
   try {
     // A picture Gemini refuses (HTTP 400, nothing to settle) never costs the question: it's asked again without one.
     response = await ask(picture).catch(error => picture && error?.status === 400 ? ask(null) : Promise.reject(error))
@@ -943,6 +1055,23 @@ export async function writeAnswer(env, prompt, now = new Date(), researchRequire
         offerCost = (await reconcileAnswer(env, error.result, grounded, 0, now, { model: error.model })).counted;
         return ask(picture, null);
       });
+    if (response.mulled) {
+      first = response;
+      if (onMull && !(await Promise.resolve().then(onMull).catch(() => false))) {
+        route = "mull-spent";
+        response = await ask(picture, offer, { marking: false });
+      } else {
+        // Her line goes out at once (a two-layer answer's spoken words), while she thinks it through.
+        sayOnce?.(first.mulled);
+        route = "mulled";
+        response = await ask(picture, null, { marking: false, mulling: { hold: first.mulled } }).catch(async error => {
+          console.warn(`companion answer: thinking it through, so as usual: ${error?.message || error}`);
+          route = "mull-fallback";
+          if (error?.result) mullCost = (await reconcileAnswer(env, error.result, grounded, 0, now, { model: error.model })).counted;
+          return ask(picture, offer, { marking: false });
+        });
+      }
+    }
   } catch (error) {
     // Failed calls keep their reservation; returned usage still counts known charges and research excess.
     const counted = error.result
@@ -954,9 +1083,19 @@ export async function writeAnswer(env, prompt, now = new Date(), researchRequire
       model: RESEARCH_MODEL, usage: null, model_ms: Date.now() - started, counted };
   }
   const model_ms = Date.now() - started;
-  const { measured, counted: answered } = await reconcileAnswer(env, response.result, grounded, reserved, now,
-    { model: response.model, later });
-  const counted = answered + offerCost;
+  // A hard question's two calls each settle their own part of the reservation: her line its answer's, the answer after
+  // it MULL_RESERVATION_MICRO.
+  const { measured, counted: answered } = await reconcileAnswer(env, response.result, grounded,
+    first ? MULL_RESERVATION_MICRO : reserved, now, { model: response.model, later });
+  const lined = first ? (await reconcileAnswer(env, first.result, grounded, reserved - MULL_RESERVATION_MICRO, now,
+    { model: first.model, later })).counted : 0;
+  const counted = answered + offerCost + lined + mullCost;
+  // Her line, then the answer that carries on from it: what she says first is where the written answer starts.
+  const hold = first && route !== "mull-spent" ? first.mulled : null;
+  if (hold) {
+    response.answer = `${hold} ${response.answer}`;
+    if (response.say) response.say = hold;
+  }
   const usage = measured ? { in: measured.input, out: measured.output } : null;
   if (compact) return { summary: response.summary, model: response.model, usage, model_ms, counted };
   const metadata = grounded ? searchMetadata(response.candidate)
@@ -968,5 +1107,7 @@ export async function writeAnswer(env, prompt, now = new Date(), researchRequire
   if (grounded && !verified) metadata.web_search.status = "failed";
   return { answer: grounded && !verified ? VERIFICATION_FAILED : response.answer,
     sources: [], web_sources: metadata.web_sources, web_search: metadata.web_search, model: response.model, usage, model_ms,
-    counted, ...(response.call ? { call: response.call } : {}), ...(response.say && !grounded ? { say: response.say } : {}) };
+    counted, ...(response.call ? { call: response.call } : {}), ...(response.say && !grounded ? { say: response.say } : {}),
+    ...(response.fellBack ? { fellBack: true } : {}), ...(response.skipped ? { skipped: true } : {}),
+    ...(route ? { route } : {}) };
 }

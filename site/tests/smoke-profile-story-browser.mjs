@@ -1,4 +1,4 @@
-// Local synthetic QA of a profile told in chapters (Mike, 10/11) through the real profile handler: the two tabs, the
+// Local synthetic QA of a profile told in chapters (Mike, 10/11) through the real profile handler: the bookmarks, the
 // road chart beside the chapters following the one being read, a land leading to its chapter on the same page, old
 // links (#m-<n>, #timeline, #map) still landing, a phone's one column, and the page without JavaScript. No network
 // writes. Saves screenshots.
@@ -90,15 +90,16 @@ async function desktop(page) {
   await page.locator('.pf-ch').first().waitFor();
   await page.screenshot({ path: `${out}/desktop-top.png` });
   assert.equal(await noSideways(page), true, 'no sideways scroll');
-  // Two tabs, switched in place.
-  assert.equal(await page.locator('.pf-tabs').isVisible(), true);
-  assert.equal(await page.locator('#numbers').isVisible(), false);
-  await page.locator('.pf-tabs a[data-tab=numbers]').click();
-  assert.equal(await page.locator('#numbers').isVisible(), true);
-  assert.equal(await page.locator('#journey').isVisible(), false);
+  // One long page: the bookmarks scroll to their sheets, and the one being read is marked.
+  assert.equal(await page.locator('.pf-marks').isVisible(), true);
+  await page.locator('.pf-marks a[href="#numbers"]').click();
+  await page.waitForTimeout(900);
   assert.equal(await page.evaluate(() => location.hash), '#numbers');
+  assert.ok(await page.locator('#numbers').evaluate(e => { const r = e.getBoundingClientRect(); return r.top < innerHeight && r.bottom > 0; }), 'the numbers are in view');
+  assert.equal(await page.locator('.pf-marks a[aria-current="true"]').getAttribute('href'), '#numbers');
   await page.screenshot({ path: `${out}/desktop-numbers.png` });
-  await page.locator('.pf-tabs a[data-tab=journey]').click();
+  await page.locator('.pf-marks a[href="#journey"]').click();
+  await page.waitForTimeout(900);
   assert.equal(await page.locator('#journey').isVisible(), true);
 
   // The chart stays beside the reading, level with the middle of the window, and follows the chapter there.
@@ -143,7 +144,6 @@ async function desktop(page) {
   assert.equal(await page.locator('#chapters').isVisible(), true);
   await page.goto(`${page$}#numbers`);
   assert.equal(await page.locator('#numbers').isVisible(), true);
-  assert.equal(await page.locator('#journey').isVisible(), false);
 }
 
 async function phone(page) {
@@ -151,7 +151,7 @@ async function phone(page) {
   await page.goto(page$);
   await page.locator('.pf-ch').first().waitFor();
   assert.equal(await noSideways(page), true, 'no sideways scroll on a phone');
-  // One column: the story, the chart (not sticky), then the chapters, each with its own small chart.
+  // One column: the story on the bookplate, then the chart (not sticky), then the chapters, each with its own small chart.
   const y = sel => page.locator(sel).first().evaluate(e => e.getBoundingClientRect().top + scrollY);
   assert.ok(await y('.pf-story') < await y('#road-chart') && await y('#road-chart') < await y('.pf-ch'), 'story, chart, chapters');
   assert.notEqual(await page.locator('.pf-atlas-stick').evaluate(e => getComputedStyle(e).position), 'sticky');
@@ -159,7 +159,7 @@ async function phone(page) {
   await page.screenshot({ path: `${out}/phone-top.png`, fullPage: false });
   await page.locator('.pf-ch').first().scrollIntoViewIfNeeded();
   await page.screenshot({ path: `${out}/phone-chapter.png` });
-  await page.locator('.pf-tabs a[data-tab=numbers]').click();
+  await page.locator('.pf-marks a[href="#numbers"]').click();
   assert.equal(await noSideways(page), true);
   await page.screenshot({ path: `${out}/phone-numbers.png` });
 }
@@ -167,15 +167,15 @@ async function phone(page) {
 try {
   await desktop(await (await browser.newContext({ viewport: { width: 1440, height: 900 } })).newPage());
   await phone(await (await browser.newContext({ viewport: { width: 360, height: 760 }, hasTouch: true, isMobile: true })).newPage());
-  // Without JavaScript both tabs are there, one after the other, and a land is a plain link to its chapter.
+  // Without JavaScript the sheets are there one after the other, the bookmarks plain links, and a land a plain link to its chapter.
   const plain = await (await browser.newContext({ javaScriptEnabled: false })).newPage();
   await plain.goto(page$);
   assert.equal(await plain.locator('#journey').isVisible(), true);
   assert.equal(await plain.locator('#numbers').isVisible(), true);
-  assert.equal(await plain.locator('.pf-tabs').isVisible(), false);
+  assert.equal(await plain.locator('.pf-marks').isVisible(), true);
   assert.match(await plain.locator('a.pf-ch-stop').first().getAttribute('href'), /^#ch-\d+$/);
   assert.deepEqual(errors, []);
-  console.log('PASS tabs, the chart following the chapter in view and staying beside it, wheel scrolls the page, a land to its chapter, '
+  console.log('PASS bookmarks, the chart following the chapter in view and staying beside it, wheel scrolls the page, a land to its chapter, '
     + 'old #m-/#timeline/#numbers links, phone one column with small charts, no JavaScript; screenshots: ' + out);
 } finally {
   await browser.close();

@@ -181,7 +181,8 @@ export const COLLECTING_SINCE = "2026-10-19";
 // #1339 (10/19, Mike: the smarter model is Legend's only) only a plan with `smarter` (lib/billing.js PLANS) is on 3.6
 // Flash, so only its answers can step down: every other plan's are on Flash-Lite anyway. The models are
 // lib/companion-answers.js SMART_MODEL and LITE_MODEL (modelFor), named here rather than imported, so this bookkeeping
-// (lib/accounts.js imports it) doesn't pull in the answer path.
+// (lib/accounts.js imports it) doesn't pull in the answer path. Since 10/24 (20:45 UTC) every plan's answers are on
+// DeepSeek (model "together:..."), and nothing is on 3.6 Flash: its count only covers the days before.
 export const STEP_DOWN_SINCE = "2026-10-19T22:20:00.000Z";
 const SMART_MODEL = "gemini-3.6-flash", LITE_MODEL = "gemini-3.1-flash-lite";
 // A plan label (planLabel) whose plan has the smarter model: Legend, its Stripe trial, its free month for friends.

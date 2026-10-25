@@ -18,6 +18,7 @@
   const light = i => {
     document.querySelector(".pf-story-text")?.classList.toggle("pf-playing", i >= 0);
     paras.forEach((p, j) => p.classList.toggle("pf-reading", j === i));
+    paras[i]?.closest("details")?.setAttribute("open", "");   // reading on past the opening opens the rest
   };
 
   function build() {

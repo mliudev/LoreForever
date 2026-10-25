@@ -100,7 +100,10 @@ export async function saveUsage(env, userId, usage, now = Date.now()) {
 // Share pressed or a profile link copied (POST /api/count/share, from public/js/profile.js and /account).
 // Profile updates (LOR-304, functions/api/profile/[action].js): profile.paste, a pasted journey record that made or
 // changed a profile; profile.sync, the companion's update that did.
-export const SITE_COUNTS = ["profile.view", "profile.outside", "profile.share", "profile.paste", "profile.sync"];
+// The lore pages (LOR-809; nothing recorded plays before): lore.play, a recording started on a lore page or /lore;
+// lore.whole, "Play the whole page" pressed; lore.onward, "Next plays on" went on to the next page.
+export const SITE_COUNTS = ["profile.view", "profile.outside", "profile.share", "profile.paste", "profile.sync",
+  "lore.play", "lore.whole", "lore.onward"];
 const SITE_SETUP = `CREATE TABLE IF NOT EXISTS site_counts (
   day TEXT NOT NULL, metric TEXT NOT NULL, n INTEGER NOT NULL, PRIMARY KEY (day, metric))`;
 // Link previews and crawlers fetch pages too; they aren't people (functions/download/[file].js skips them as well).

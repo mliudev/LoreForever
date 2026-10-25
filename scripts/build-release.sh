@@ -17,6 +17,8 @@
 # Usage: scripts/build-release.sh
 set -euo pipefail
 ROOT="$(cd "$(dirname "$0")/.." && pwd)"
+# A sparse worktree without the language folders would do English only: stop, with the line that adds them.
+[ ! -f "$ROOT/scripts/need_langs.py" ] || python3 "$ROOT/scripts/need_langs.py" "${0##*/}" || exit 1   # (a fixture copy of this script has no checkout)
 # A sparse worktree (scripts/new-worktree.sh) has no voice audio or translated lore, and the main checkout no voice
 # audio: refuse rather than build without them.
 { [ "$(git -C "$ROOT" config --get lore.sparse 2>/dev/null)" != true ] \

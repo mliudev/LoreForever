@@ -8,9 +8,8 @@
 import { publicVoices, likeCounts } from "../../lib/voices.js";
 import { loadPacks } from "../../lib/translations.js";
 import { voicesSection, includedLine, communitySection } from "../../lib/downloads.js";
-import { loadPacks as loadPackFacts, loadSizes, comesSection, extrasSection } from "../../lib/packs.js";
+import { loadPacks as loadPackFacts, loadSizes, comesSection, extrasSection, languageSection } from "../../lib/packs.js";
 import { liveKeys } from "../../lib/lore.js";
-import { willoSection, willoPreview } from "../../lib/willo.js";
 
 // Arriving from /voices (functions/voices/index.js), the address voice actors were sent to record: the recorder first.
 const RECORDING = `<p class="dl-record"><b>Recording for Lore Forever?</b> <a class="h-btn h-sm" href="/voices/lend">` +
@@ -23,7 +22,6 @@ export async function onRequestGet({ request, env }) {
   if (!html.includes("<!-- dl-voices -->")) return new Response(html, page);
   const [voices, likes, packs, facts, sizes, live] = await Promise.all([publicVoices(env, request), likeCounts(env),
     loadPacks(env, request), loadPackFacts(env, request), loadSizes(env, request), liveKeys(env, request)]);
-  const willoTest = await willoPreview(env, request);
   const headers = new Headers(page.headers);
   headers.set("Cache-Control", "no-cache");
   headers.delete("Content-Length");
@@ -34,10 +32,10 @@ export async function onRequestGet({ request, env }) {
   const extras = extrasSection(facts, ctx) || `<p class="dl-intro"><a href="#all-files">See every file, by language and voice</a>.</p>`;
   const out = html
     .replace("<!-- dl-comes -->", () => comes)
+    .replace("<!-- dl-language -->", () => languageSection(facts, ctx))
     .replace("<!-- dl-packs -->", () => extras)
-    .replace(/<!-- dl-willo:[^>]*-->/, () => willoSection(sizes, willoTest))
     .replace(/<!-- dl-community:[^>]*-->/, () => communitySection(voices, likes))
     .replace("<!-- dl-voices -->", () => voicesSection(voices, likes, packs))
-    .replace('<div class="h-head dl-head">', h => new URL(request.url).searchParams.get("from") === "voices" ? RECORDING + h : h);
+    .replace("<!-- dl-record -->", () => new URL(request.url).searchParams.get("from") === "voices" ? RECORDING : "");
   return new Response(out, { status: page.status, headers });
 }

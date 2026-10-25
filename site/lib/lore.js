@@ -9,6 +9,7 @@
 import { page, escape, FRESH } from "./voices.js";
 import { featureOn } from "./features.js";
 import { zoneCard, LORE_INDEX_CARD } from "./social.js";
+import { tr, levelsIn } from "./lore-strings.js";
 
 // The flag: the "lore" site feature (lib/features.js), off until the recordings are in R2 and Mike says go. While
 // it's off every lore page is served, but with noindex (meta tag and X-Robots-Tag), the sitemap lists none of them
@@ -35,6 +36,44 @@ const WOWHEAD_REF = /^(quest|npc|item|zone|faction|spell|object)=\d{1,9}$/;
 export const wowheadUrl = ref => (WOWHEAD_REF.test(String(ref || "")) ? WOWHEAD + ref : null);
 export const wikiSearch = name => (String(name || "").trim() ? WIKI_SEARCH + encodeURIComponent(String(name).trim()) : null);
 const LIVE_TTL = 60 * 1000;
+
+// The pages in other languages (LOR-809, pipeline/lore/site_i18n.py): /de/lore/zone/westfall reads
+// lore-i18n/de/zone/westfall.json from R2, rendered by the same entryPage in its language. lore-i18n/index.json names the
+// languages and, for each English page, the ones it has (bit i of its mask: langs[i]). functions/api/admin/lore-i18n.js fills
+// them; functions/[lang]/lore/ serves them.
+export const I18N_PREFIX = "lore-i18n/";
+export const I18N_KEY = /^(?:index\.json|[a-z]{2}(?:-[a-z]{2})?\/[a-z]+\/[a-z0-9-]+\.json)$/;
+const I18N_TTL = 5 * 60 * 1000;
+const i18nCache = new WeakMap();
+
+// lore-i18n/index.json with its etag ({format, langs, pages, etag}), looked up at most every 5 minutes per isolate; null
+// when R2 has none (before the first upload, or locally).
+export async function loadI18nIndex(env) {
+  if (!env?.STUDIO) return null;
+  const hit = i18nCache.get(env.STUDIO);
+  if (hit && Date.now() - hit.at < I18N_TTL) return hit.v;
+  let v = null;
+  try {
+    const obj = await env.STUDIO.get(I18N_PREFIX + "index.json");
+    if (obj) v = { ...(await new Response(obj.body).json()), etag: obj.httpEtag || obj.etag || "" };
+  } catch (e) { v = null; }
+  i18nCache.set(env.STUDIO, { at: Date.now(), v });
+  return v;
+}
+
+// The languages an English page also reads in, in the switch's order: [{seg, hreflang, name, path}].
+export function translationsOf(index, enPath) {
+  const mask = Number(index?.pages?.[enPath]) || 0;
+  return (index?.langs || []).filter((l, bit) => mask & (1 << bit)).map(l => ({ ...l, path: `/${l.seg}${enPath}` }));
+}
+
+// One translated page (site_i18n.py's shape: e/*.json's, plus lang and en), or null.
+export async function loadTranslated(env, seg, enPath) {
+  try {
+    const obj = await env.STUDIO.get(`${I18N_PREFIX}${seg}/${enPath.replace(/^\/lore\//, "")}.json`);
+    return obj ? await new Response(obj.body).json() : null;
+  } catch (e) { return null; }
+}
 
 export const KIND_GROUPS = { zone: "Zones", dungeon: "Dungeons", subzone: "Places", npc: "Characters", boss: "Bosses",
   quest: "Quests", item: "Items", topic: "Topics" };
@@ -88,7 +127,7 @@ export function stem(cid) {
 
 export const audioKey = (voice, cid, ref) => `${voice}/${stem(cid)}-${ref.sha}.${ref.ext || "mp3"}`;
 
-// The recordings R2 holds, as a Set of audio keys: narration/manifest.json, written by POST /api/narration/manifest
+// The recordings R2 holds, as a Set of audio keys: narration/manifest.json, written by POST /api/admin/narration/manifest
 // after an upload. Empty without the STUDIO binding or a manifest, so pages show no players. A preview's own bucket
 // (Preview's) has no recordings: it asks loreforeverwow.com, whose audio its /audio/clip/ redirects to. Cached a
 // minute per isolate.
@@ -191,11 +230,11 @@ const linkList = links => `<ul class="lp-links">
         ${links.map(l => `<li><a href="${escape(l.p)}">${escape(l.n)}</a></li>`).join("\n        ")}
       </ul>`;
 
-function grouped(links) {
+function grouped(links, lang = "en") {
   const out = [];
   for (const [kind, label] of Object.entries(KIND_GROUPS)) {
     const some = links.filter(l => l.k === kind);
-    if (some.length) out.push(`<h3>${label} <span class="lp-count">${some.length}</span></h3>\n      ${linkList(some)}`);
+    if (some.length) out.push(`<h3>${tr(lang, label)} <span class="lp-count">${some.length}</span></h3>\n      ${linkList(some)}`);
   }
   return out.join("\n      ");
 }
@@ -220,11 +259,10 @@ export const reportDialog = () => `<dialog class="lp-dlg" id="lp-report" aria-la
   </form>
 </dialog>`;
 
-const cta = `<aside class="lp-cta">
-    <h2>Hear it as you play</h2>
-    <p>Lore Forever tells you the story of each zone, place, character and quest as you reach it in WoW Forever, read
-      aloud, and answers what you wonder about along the way.</p>
-    <p><a class="btn-download" href="${DOWNLOAD}">Get Lore Forever</a></p>
+const cta = (lang = "en") => `<aside class="lp-cta">
+    <h2>${tr(lang, "Hear it as you play")}</h2>
+    <p>${tr(lang, "cta")}</p>
+    <p><a class="btn-download" href="${DOWNLOAD}">${tr(lang, "Get Lore Forever")}</a></p>
   </aside>`;
 
 const foot = `<p>Lore text is adapted from the <a href="https://warcraft.wiki.gg">Warcraft Wiki</a> under
@@ -234,12 +272,15 @@ const foot = `<p>Lore text is adapted from the <a href="https://warcraft.wiki.gg
 // A thin page (site_lore.py THIN_CHARS: a line or two, nothing to play) is served but kept out of search: noindex in the
 // header and the page, and out of the sitemap. Its links are still followed.
 const noindex = (env, entry) => (isPublic(env) && !entry?.thin ? undefined : "noindex");
-export const htmlHeaders = (env, entry) => ({
+export const htmlHeaders = (env, entry, hreflang) => ({
   "Content-Type": "text/html; charset=utf-8", "Cache-Control": "no-cache",
   ...(noindex(env, entry) ? { "X-Robots-Tag": "noindex" } : {}),
+  ...(hreflang ? { "Content-Language": hreflang } : {}),
 });
 
-const HEAD = `<link rel="stylesheet" href="/lore/lore.css?${FRESH}">`;
+// The book's reading face (Alegreya, as the profile pages load it) and its styles.
+const HEAD = `<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Alegreya:ital,wght@0,400;0,600;1,400&display=swap">
+<link rel="stylesheet" href="/lore/lore.css?${FRESH}">`;
 const SCRIPTS = `<script src="/lore/lore.js?${FRESH}" defer></script>`;
 
 // ---- What a search result shows (LOR-22) ----
@@ -260,10 +301,10 @@ const zoneOf = entry => (entry.zone?.name && entry.zone.path !== entry.path && e
   ? entry.zone.name : "");
 
 // The <title>, and the same without the brand (og:title).
-export function searchTitle(entry) {
+export function searchTitle(entry, lang = "en") {
   const name = displayName(entry);
   const zone = zoneOf(entry);
-  const short = entry.kind === "quest" ? `${name} – WoW Forever Quest${zone ? ` in ${zone}` : ""}`
+  const short = lang !== "en" ? `${name}${zone ? `, ${zone}` : ""} – WoW Forever` : entry.kind === "quest" ? `${name} – WoW Forever Quest${zone ? ` in ${zone}` : ""}`
     : entry.kind === "subzone" && zone ? `${name}, ${zone} – WoW Forever Lore`
       : `${name} – WoW Forever Lore`;
   return { short, full: short.length + BRAND.length <= TITLE_MAX ? short + BRAND : short };
@@ -308,7 +349,11 @@ function cut(text, max) {
 // The meta description: the entry's summary (or, for a quest we have no summary of, the quest giver's first words) in
 // whole sentences, then what the page has (a quest's level and zone, "read aloud" when it's recorded) when that fits
 // too. A first sentence too long for the space is cut at a word.
-export function searchDescription(entry) {
+export function searchDescription(entry, lang = "en") {
+  if (lang !== "en") {
+    const t = entry.intro?.[0] || entry.sections?.[0]?.p?.[0] || "";
+    return t ? fit(t, DESC_MAX) || cut(t, DESC_MAX) : `${displayName(entry)} – WoW Forever`;
+  }
   const clips = entry.clips || [];
   const recorded = clips.some(c => Object.keys(c.voices || {}).length);
   const summary = entry.intro?.[0] || clips.find(c => c.part === "narration")?.paras?.[0]
@@ -342,9 +387,9 @@ export function searchDescription(entry) {
 }
 
 // The page as an article for search (schema.org Article): its title, description and card, published by Lore Forever.
-export function articleLd(entry, headline, description, card) {
+export function articleLd(entry, headline, description, card, inLanguage = "en") {
   const ld = {
-    "@context": "https://schema.org", "@type": "Article", headline, description,
+    "@context": "https://schema.org", "@type": "Article", headline, description, inLanguage,
     image: `https://${HOME}${card.src}`, mainEntityOfPage: `https://${HOME}${entry.path}`,
     author: { "@type": "Organization", name: "Lore Forever", url: `https://${HOME}/` },
     publisher: { "@type": "Organization", name: "Lore Forever", url: `https://${HOME}/`,
@@ -380,14 +425,166 @@ function packsSection(packs) {
     </section>`;
 }
 
-// /lore/<type>/<id>: one entry. live: the recordings R2 has (liveKeys); names: voiceNames; packs: the downloads with
-// its recording (packsSection).
-export function entryPage(entry, { live = new Set(), names = {}, env, packs = [] } = {}) {
+// The page that plays after this one when "Next plays on" is ticked: the next page in /lore's browsing order (zone,
+// kind, name: index.json) that has a recording, or null at the end. index: loadIndex's.
+export function nextPlayable(index, path) {
+  const pages = index?.pages || [];
+  const at = pages.findIndex(p => p.p === path);
+  if (at < 0) return null;
+  for (const p of pages.slice(at + 1)) {
+    if ((p.c || []).some(c => (c[2] || []).some(Boolean))) return { p: p.p, n: p.n };
+  }
+  return null;
+}
+
+// "Listen": how many of the page's clips play here and how long they run, in the first voice each has; voice: the name of
+// the first clip's.
+function wholePage(entry, live, names = {}) {
+  let n = 0, sec = 0, voice = "";
+  for (const c of entry.clips || []) {
+    const hit = Object.entries(c.voices || {}).find(([vid, r]) => live.has(audioKey(vid, c.id, r)));
+    if (hit) { n++; sec += Number(hit[1].sec) || 0; if (!voice) voice = names[hit[0]] || hit[0]; }
+  }
+  return { n, sec, voice };
+}
+
+// ---- The open book (Mike picked "Lore 2", 2026-10-24: the reader and the playlist) ----
+// /lore and every /lore/<type>/<id> are one open book on the leather: the left page reads the entry (or, on /lore, says what
+// the book is), the right page finds and plays (a now-playing box, Up next, search, zone, kind, sort, language, Play all and
+// the rows), and a foot player is pinned under both. The left page is the server's, so every address keeps its own title,
+// description and text for search; public/lore/lore.js builds the right page from index.json and, on a click, fetches the
+// next address's page and puts its left page in (history.pushState), so a click and a full load show the same thing.
+
+// One sprite for the book's icons (a row's kind, a chip, the download arrow); the script draws the list with the same ids.
+const ICON_PATHS = {
+  zone: '<path d="M3 6l6-3 6 3 6-3v15l-6 3-6-3-6 3zm6-.8v12.6l6 3V8.2z" fill-rule="evenodd"/>',
+  place: '<path d="M5 21V4h1.6v1.2l10.6 3.1-10.6 3.4V21z"/><path d="M3 21h8v1.4H3z"/>',
+  person: '<circle cx="12" cy="8" r="4.2"/><path d="M4 21c.6-4.6 3.8-7 8-7s7.4 2.4 8 7z"/>',
+  boss: '<path d="M12 2c4.4 0 8 3.3 8 7.6 0 2.6-1.3 4.6-3 5.8V19h-3v-2h-1v2h-2v-2h-1v2H7v-3.6c-1.7-1.2-3-3.2-3-5.8C4 5.3 7.6 2 12 2zm-3.5 7a1.8 1.8 0 100 3.6 1.8 1.8 0 000-3.6zm7 0a1.8 1.8 0 100 3.6 1.8 1.8 0 000-3.6z"/>',
+  item: '<path d="M9 3h6l-1 3h-4z"/><path d="M8 7h8c3 3 4 6 4 9 0 3-3 5-8 5s-8-2-8-5c0-3 1-6 4-9z"/>',
+  quest: '<path d="M6 3h11a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H7a3 3 0 0 1-3-3V5a2 2 0 0 1 2-2zm2 4v1.6h8V7zm0 4v1.6h8V11zm0 4v1.6h5V15z"/>',
+  book: '<path d="M4 4h7a2 2 0 0 1 2 2v14a2 2 0 0 0-2-2H4zm16 0h-5a2 2 0 0 0-2 2v14a2 2 0 0 1 2-2h5z"/>',
+  dl: '<path d="M11 3h2v9.2l3.3-3.3 1.4 1.4L12 16l-5.7-5.7 1.4-1.4 3.3 3.3z"/><path d="M4 18h16v3H4z"/>',
+  prev: '<path d="M6 5h2.2v14H6zM19 5.5v13L9.5 12z"/>',
+  next: '<path d="M15.8 5H18v14h-2.2zM5 5.5v13L14.5 12z"/>',
+};
+export const KIND_ICON = { zone: "zone", dungeon: "zone", subzone: "place", npc: "person", boss: "boss", quest: "quest", item: "item", topic: "book" };
+const sprite = `<svg class="li-sprite" width="0" height="0" aria-hidden="true" focusable="false">${Object.entries(ICON_PATHS)
+  .map(([k, p]) => `<symbol id="li-${k}" viewBox="0 0 24 24">${p}</symbol>`).join("")}</svg>`;
+const icon = name => `<svg class="li" aria-hidden="true" focusable="false"><use href="#li-${name}"></use></svg>`;
+
+const bookTitle = ({ where, who = "", count = "" }) => `<span class="bk-icon">${icon("book")}</span>
+      <span class="bk-where" data-where>${escape(where)}</span><span class="bk-who" data-who>${escape(who)}</span><span class="bk-count" data-count>${escape(count)}</span>`;
+
+// The right page: what the script fills in (public/lore/lore.js). packs: the downloads to filter by (LOR-437; lib/packs.js
+// packOptions, [{value: pack folder, name, href, voice | lang, sample}]): lore.js reads /data/pack-entries.json when one is
+// picked, plays the pack's narrator in the list (voice), or else says what it plays in the add-on and offers its sample
+// (.lx-packnote). langs: the languages the pages come in, [{seg, name}] (English is always first).
+const packOption = p => {
+  const data = { href: p.href, voice: p.voice, lang: p.lang, sample: p.sample?.audio, "sample-title": p.sample?.title,
+    "sample-lang": p.sample?.lang, "sample-key": p.sample?.key };
+  const attrs = Object.entries(data).filter(([, v]) => v).map(([k, v]) => ` data-${k}="${escape(v)}"`).join("");
+  return `<option value="${escape(p.value)}"${attrs}>${escape(p.name)}</option>`;
+};
+
+const shelfHtml = ({ packs = [], langs = [], lang = "en" }) => `<div class="pg-in lx" id="lore-shelf">
+        <div class="nowbox">
+          <button type="button" class="pp" aria-label="Play" disabled>&#9654;</button>
+          <div class="nb-text"><b class="nb-title">Nothing playing</b><small class="nb-sub">Press &#9654; on a row, or Play all</small>
+            <label class="lx-auto"><input type="checkbox"> Next plays on</label></div>
+        </div>
+        <p class="upnext" hidden>Up next: <b></b></p>
+        <p class="lx-langnote" hidden></p>
+        <p class="lx-soon" hidden>Listening here is on its way. Every line below already plays in game:
+          <a href="${DOWNLOAD}">get Lore Forever</a>.</p>
+        <form class="lx-bar" role="search" hidden>
+          <div class="rowx">
+            <label class="lx-search"><span class="visually-hidden">Search</span>
+              <input type="search" name="q" placeholder="Search a place, person, quest or item" autocomplete="off"></label>
+            ${langs.length > 1 ? `<label class="lx-sel lx-lang"><span class="visually-hidden">Language</span><select name="l">
+              ${langs.map(l => `<option value="${escape(l.seg)}"${l.seg === lang ? " selected" : ""} lang="${escape(l.hreflang || l.seg)}">${escape(l.name)}</option>`).join("\n              ")}
+            </select></label>` : ""}
+          </div>
+          <div class="rowx">
+            <label class="lx-sel"><span class="visually-hidden">Zone</span><select name="z"><option value="">Every zone</option></select></label>
+            <label class="lx-sel"><span class="visually-hidden">Kind</span><select name="k"><option value="">Every kind</option></select></label>
+            <label class="lx-sel"><span class="visually-hidden">Sort</span><select name="s"><option value="zone">By zone</option>
+              <option value="az">A to Z</option><option value="rec">Recorded first</option></select></label>
+            ${packs.length ? `<label class="lx-sel lx-pack"><span class="visually-hidden">Download</span><select name="p"><option value="">Any download</option>
+              ${packs.map(packOption).join("\n              ")}
+            </select></label>` : ""}
+          </div>
+          <div class="rowx">
+            <button type="button" class="lx-all chip">&#9654; Play all</button>
+            <label class="lx-check"><input type="checkbox" name="playable"> Playable here</label>
+            <label class="lx-check lx-mine" hidden><input type="checkbox" name="mine"> In my book</label>
+            <span class="lx-count" aria-live="polite"></span>
+          </div>
+        </form>
+        <p class="lx-packnote" hidden></p>
+        <div class="lx-list"></div>
+        <p class="lx-morep"><button type="button" class="lx-more btn-small" hidden>Show more</button></p>
+        <p class="lx-keys" hidden><kbd>j</kbd>/<kbd>k</kbd> move &middot; <kbd>space</kbd> play or pause &middot; <kbd>enter</kbd> open
+          &middot; <kbd>/</kbd> search &middot; <kbd>s</kbd> speed &middot; <kbd>v</kbd> narrator</p>
+        <noscript><p class="lx-nojs">Search and the playlist need JavaScript. Every page is also reachable from
+          <a href="/lore">the lore index</a> by zone.</p></noscript>
+      </div>`;
+
+// The foot player, pinned under both pages: play and pause, next, how far along, and Download.
+const footHtml = () => `<div class="bk-foot" role="group" aria-label="Player">
+      <div class="bk-ctl">
+        <button type="button" class="fbtn bk-prev" aria-label="Previous">${icon("prev")}</button>
+        <button type="button" class="fbtn play-main bk-pp" aria-label="Play" disabled>&#9654;</button>
+        <button type="button" class="fbtn bk-next" aria-label="Next">${icon("next")}</button>
+      </div>
+      <div class="bk-now"><a class="bk-nt">Nothing playing</a><span class="bk-ns"></span>
+        <input class="bk-seek" type="range" min="0" max="1000" value="0" aria-label="Position"></div>
+      <span class="bk-time">0:00</span>
+      <div class="bk-more">
+        <button type="button" class="bk-voice" aria-label="Switch narrator" hidden></button>
+        <button type="button" class="bk-rate" aria-label="Playback speed">1&times;</button>
+        <button type="button" class="lp-rep bk-report" hidden>Report</button><span class="lp-open bk-open" hidden></span>
+      </div>
+      <a class="bk-dl" href="${DOWNLOAD}">${icon("dl")}<span>Download</span></a>
+    </div>`;
+
+// The book around a left page. left: the page's HTML (an <article class="lp">); the rest is the same on every address.
+function bookHtml({ left, where, who, count = "", lang = "en", packs = [], langs = [] }) {
+  return `${sprite}
+  <div class="bk" data-book data-lang="${escape(lang)}">
+    <div class="bk-plate">The Lore</div>
+    <div class="bk-title">${bookTitle({ where, who, count })}</div>
+    <div class="bk-body">
+      <div class="pg l ch-sheet" id="lore-page" tabindex="-1">
+${left}
+      </div>
+      <div class="pg r ch-sheet">
+      ${shelfHtml({ packs, langs, lang })}
+      </div>
+    </div>
+    ${footHtml()}
+  </div>
+  ${reportDialog()}`;
+}
+
+// The languages the select offers, English first: the site's i18n index (loadI18nIndex's langs), or just English.
+const langChoices = langs => [{ seg: "en", hreflang: "en", name: "English" }, ...(langs || [])];
+
+// /lore/<type>/<id>: one entry, on the left page of the book (LOR-809). live: the recordings R2 has (liveKeys); names:
+// voiceNames; packs: the downloads with its recording (packsSection); next: nextPlayable. lang: "en", or a translated
+// page's segment ("de"; the entry is then loadTranslated's); langs: the other languages this page reads in
+// (translationsOf), for the language row and hreflang; allLangs: every language the site has pages in (the select);
+// shelfPacks: the downloads /lore's filter offers (lib/packs.js packOptions).
+export function entryPage(entry, { live = new Set(), names = {}, env, packs = [], next = null, lang = "en", langs = [],
+  allLangs = [], shelfPacks = [] } = {}) {
   const zone = entry.zone;
+  const enPath = lang === "en" ? entry.path : entry.en;
+  const hreflang = lang === "en" ? "en" : langs.find(l => l.seg === lang)?.hreflang || lang;
+  const langName = lang === "en" ? "English" : langs.find(l => l.seg === lang)?.name || lang;
   const where = [
-    `<span class="tag lp-tag">${escape(entry.label)}</span>`,
+    `<span class="tag lp-tag">${escape(tr(lang, entry.label))}</span>`,
     zone && zone.path !== entry.path ? (zone.path ? `<a href="${escape(zone.path)}">${escape(zone.name)}</a>` : escape(zone.name)) : "",
-    escape(entry.levels || ""),
+    escape(levelsIn(lang, entry.levels)),
   ].filter(Boolean).join(" &middot; ");
   const clipsHtml = [];
   const faqs = (entry.clips || []).filter(c => c.part === "faq");
@@ -410,22 +607,37 @@ export function entryPage(entry, { live = new Set(), names = {}, env, packs = []
       <button type="button" data-rate="1" aria-pressed="true">1&times;</button><button type="button" data-rate="1.25"
         aria-pressed="false">1.25&times;</button><button type="button" data-rate="1.5" aria-pressed="false">1.5&times;</button>
     </div>` : "";
+  // Listen, for everyone (no sign-in): the whole page in a row, in the narrator the listener picked. The button works only
+  // with JavaScript (lore.js shows it); each clip's own play links work without. A page with nothing to play says so, and
+  // a page in another language has no recording in that language (only the English page's narrators exist).
+  const whole = wholePage(entry, live, names);
+  const listen = playable ? `<div class="lp-listen">
+      <p class="lp-whole" hidden><button type="button" class="lp-all"><span class="lp-ic" aria-hidden="true">&#9654;</span>
+        <span class="lp-al">Listen</span><span class="lp-nv">${whole.voice ? ` &middot; ${escape(whole.voice)}` : ""}</span></button>
+        <span class="lp-count">${whole.n === 1 ? "" : `${whole.n} recordings &middot; `}${fmtTime(whole.sec)}</span></p>
+      ${speed}
+    </div>`
+    : lang !== "en" ? `<p class="lp-ingame lp-norec">No ${escape(langName)} recording yet. <a href="${escape(enPath)}">The English page</a> has the narrators.</p>`
+      : (entry.clips || []).length ? "" : `<p class="lp-ingame lp-norec">No recording yet: read it here, and hear it in game once it's recorded.</p>`;
   const sources = (entry.sources || []).length
     ? `<section class="lp-src" aria-labelledby="src-title">
-      <h2 id="src-title">Sources</h2>
+      <h2 id="src-title">${tr(lang, "Sources")}</h2>
       <ul>
         ${entry.sources.map(sourceItem).join("\n        ")}
       </ul>
     </section>` : "";
-  const children = (entry.children || []).length
-    ? `<section class="lp-in" aria-labelledby="in-title">
-      <h2 id="in-title">In ${escape(entry.name)}</h2>
-      ${grouped(entry.children)}
-    </section>` : "";
+  const childCount = (entry.children || []).length;
+  const children = childCount
+    ? `<details class="lp-in"${childCount <= 12 ? " open" : ""}>
+      <summary class="lp-h2">${tr(lang, "In {n}", escape(entry.name))} <span class="lp-count">${childCount}</span></summary>
+      ${grouped(entry.children, lang)}
+    </details>` : "";
   const related = (entry.related || []).length
     ? `<section class="lp-rel" aria-labelledby="rel-title">
-      <h2 id="rel-title">Related</h2>
-      ${linkList(entry.related)}
+      <h2 id="rel-title">${tr(lang, "On the same road")}</h2>
+      <div class="lp-chips">
+        ${entry.related.map(l => `<a class="lp-chip" href="${escape(l.p)}">${icon(KIND_ICON[l.k] || "book")}<span>${escape(l.n)}</span></a>`).join("\n        ")}
+      </div>
     </section>` : "";
   // Look it up (LOR-263): its Wowhead page and its wiki article (the first one it was adapted from, else a search).
   const wowhead = wowheadUrl(entry.wowhead);
@@ -434,54 +646,58 @@ export function entryPage(entry, { live = new Set(), names = {}, env, packs = []
   const wowpedia = wikiGg ? null : wikiSources.find(s => /^https:\/\/wowpedia\.fandom\.com\//.test(s.url || ""))?.url;
   const wiki = wikiGg || wowpedia || wikiSearch(entry.name);
   const lookup = `<section class="lp-out" aria-labelledby="out-title">
-      <h2 id="out-title">Look it up</h2>
+      <h2 id="out-title">${tr(lang, "Look it up")}</h2>
       <ul class="lp-links">
-        ${wowhead ? `<li><a href="${escape(wowhead)}" rel="noopener">${escape(entry.name)} on Wowhead</a> <span class="lp-count">WoW Forever database</span></li>` : ""}
-        <li><a href="${escape(wiki)}" rel="noopener">${escape(entry.name)} on ${wowpedia ? "Wowpedia" : "the Warcraft Wiki"}</a></li>
+        ${wowhead ? `<li><a href="${escape(wowhead)}" rel="noopener">${escape(entry.name)} ${tr(lang, "on Wowhead")}</a> <span class="lp-count">${tr(lang, "WoW Forever database")}</span></li>` : ""}
+        <li><a href="${escape(wiki)}" rel="noopener">${escape(entry.name)} ${wowpedia ? "on Wowpedia" : tr(lang, "on the Warcraft Wiki")}</a></li>
       </ul>
     </section>`;
-  const body = `  <article class="lp" data-key="${escape(entry.key)}">
+  // Read in: English and each language this page has, the one shown marked (LOR-809). A translated page has no "Your
+  // page" line: the profile's moments name the English pages.
+  const langRow = langs.length ? `<p class="lp-langs"><span>${tr(lang, "Read in")}</span>
+      ${[{ seg: "en", hreflang: "en", name: "English", path: enPath }, ...langs].map(l => l.seg === lang
+        ? `<b aria-current="page" lang="${escape(l.hreflang)}">${escape(l.name)}</b>`
+        : `<a href="${escape(l.path)}" hreflang="${escape(l.hreflang)}" lang="${escape(l.hreflang)}">${escape(l.name)}</a>`).join(" ")}</p>` : "";
+  const alternates = langs.length ? [{ hreflang: "en", path: enPath }, ...langs, { hreflang: "x-default", path: enPath }]
+    .map(l => `<link rel="alternate" hreflang="${escape(l.hreflang)}" href="https://${HOME}${escape(l.path)}">`).join("\n") : "";
+  // The left page: where it is, its name, Listen, the text, what's on the same road, then its sources, what's in it, the
+  // downloads that have its recording, the links out and the download box.
+  const left = `        <article class="lp" data-key="${escape(entry.key)}" data-path="${escape(entry.path)}" data-en="${escape(enPath)}" data-lang="${escape(lang)}"${next ? ` data-next="${escape(next.p)}" data-next-name="${escape(next.n)}"` : ""}>
+    <span class="ent-ico">${icon(KIND_ICON[entry.kind] || "book")}</span>
     <p class="lp-where">${where}</p>
     <h1>${escape(displayName(entry))}</h1>
+    ${lang === "en" ? `<p class="lp-mine" hidden></p>` : ""}
+    ${langRow}
+    ${listen}
     ${intro}
-    ${speed}
     ${sections}
     ${clipsHtml.join("\n    ")}
-    ${packsSection(packs)}
-    ${sources}
-    ${lookup}
-    ${children}
     ${related}
-  </article>
-  ${cta}
-  ${playable ? reportDialog() : ""}`;
+    ${sources}
+    ${children}
+    ${packsSection(packs)}
+    ${lookup}
+    ${cta(lang)}
+  </article>`;
+  const body = bookHtml({ left, where: displayName(entry), who: zoneOf(entry), lang, packs: shelfPacks, langs: langChoices(allLangs) });
   const crumbs = [`<a href="/lore">Lore</a>`];
   if (zone && zone.path && zone.path !== entry.path) crumbs.push(`<a href="${escape(zone.path)}">${escape(zone.name)}</a>`);
   crumbs.push(escape(displayName(entry)));
-  const { short, full } = searchTitle(entry);
+  const { short, full } = searchTitle(entry, lang);
   // Shared, it shows the land it's in or about on our own map (lib/social.js), else the lore card.
   const card = zoneCard(entry.zone?.name, displayName(entry)) || LORE_INDEX_CARD;
-  const description = searchDescription(entry);
+  const description = searchDescription(entry, lang);
   return page({
     title: short, fullTitle: full, description, path: entry.path, body, image: card.src, imageAlt: card.alt,
-    crumbs: crumbs.join(" &rsaquo; "), foot, scripts: SCRIPTS, robots: noindex(env, entry),
-    head: `${HEAD}\n${breadcrumbLd(entry)}\n${articleLd(entry, short, description, card)}`,
+    crumbs: crumbs.join(" &rsaquo; "), foot, scripts: SCRIPTS, robots: noindex(env, entry), lang: hreflang,
+    head: `${HEAD}\n${alternates ? alternates + "\n" : ""}${breadcrumbLd(entry)}\n${articleLd(entry, short, description, card, hreflang)}`,
   });
 }
 
-// /lore: the list. Filters, search and the player come from public/lore/lore.js reading index.json; without
-// JavaScript the zones below still lead to every page. packs: the downloads to filter by (LOR-437; lib/packs.js
-// packOptions, [{value: pack folder, name, href, voice | lang, sample}]): lore.js reads /data/pack-entries.json when
-// one is picked, plays the pack's narrator in the list (voice), or else says what it plays in the add-on and offers
-// its sample (.lx-packnote).
-const packOption = p => {
-  const data = { href: p.href, voice: p.voice, lang: p.lang, sample: p.sample?.audio, "sample-title": p.sample?.title,
-    "sample-lang": p.sample?.lang, "sample-key": p.sample?.key };
-  const attrs = Object.entries(data).filter(([, v]) => v).map(([k, v]) => ` data-${k}="${escape(v)}"`).join("");
-  return `<option value="${escape(p.value)}"${attrs}>${escape(p.name)}</option>`;
-};
-
-export function indexPage(index, { more, env, packs = [] } = {}) {
+// /lore: the book with no entry open. The left page says what it is and lists every zone (so every page is linked from
+// here without JavaScript); the right page is the playlist (public/lore/lore.js reads index.json, more.json and the
+// recordings R2 has). packs: shelfHtml's; allLangs: the languages the select offers.
+export function indexPage(index, { more, env, packs = [], allLangs = [] } = {}) {
   const pages = allPages(index, more);
   const clipCount = (index?.pages || []).reduce((n, p) => n + p.c.length, 0);
   const byZone = {};
@@ -499,55 +715,25 @@ export function indexPage(index, { more, env, packs = [] } = {}) {
   const zonePages = new Set(zones.filter(z => z.p).map(z => z.key));
   const others = pages.filter(p => !zonePages.has(p.z)).map(p => ({ p: p.p, n: p.n, k: p.k }))
     .sort((a, b) => a.n.localeCompare(b.n));
-  const body = `  <section class="lx" aria-labelledby="lx-title">
+  const narrators = (index?.voices || []).length;
+  const left = `        <article class="lp lp-front" data-key="" data-path="/lore" data-en="/lore" data-lang="en" aria-labelledby="lx-title">
+    <span class="ent-ico">${icon("book")}</span>
     <h1 id="lx-title">Hear the lore</h1>
     <p class="pitch">Every story Lore Forever tells: zones and capitals, the places and people in them, dungeon bosses,
-      items and what quest givers say. Play the ones read aloud here, then hear them in game as you get there.</p>
+      items and what quest givers say. Read one here, play the ones read aloud, then hear them in game as you get there.</p>
     <p class="lx-stats">${clipCount.toLocaleString("en-US")} narrations &middot; ${pages.length.toLocaleString("en-US")} pages &middot;
-      ${(index?.voices || []).length} narrators</p>
-    <p class="lx-soon" hidden>Listening here is on its way. Every line below already plays in game:
-      <a href="${DOWNLOAD}">get Lore Forever</a>.</p>
-    <form class="lx-bar" role="search" hidden>
-      <label class="lx-search"><span class="visually-hidden">Search</span>
-        <input type="search" name="q" placeholder="Search a zone, place, character, quest or item" autocomplete="off"></label>
-      <label class="lx-zone"><span class="visually-hidden">Zone</span><select name="z"><option value="">All zones</option></select></label>
-      ${packs.length ? `<label class="lx-zone lx-pack"><span class="visually-hidden">Download</span><select name="p"><option value="">Any download</option>
-        ${packs.map(packOption).join("\n        ")}
-      </select></label>` : ""}
-      <div class="lx-chips" role="group" aria-label="Kind"></div>
-      <div class="lx-chips lx-voices" role="group" aria-label="Voice"></div>
-      <label class="lx-check"><input type="checkbox" name="playable"> Playable here</label>
-    </form>
-    <p class="lx-packnote" hidden></p>
-    <p class="lx-count" aria-live="polite"></p>
-    <div class="lx-list" role="list"></div>
-    <p><button type="button" class="lx-more btn-small" hidden>Show more</button></p>
-    <p class="lx-keys" hidden><kbd>j</kbd>/<kbd>k</kbd> move &middot; <kbd>space</kbd> play or pause &middot; <kbd>enter</kbd> open
-      &middot; <kbd>/</kbd> search &middot; <kbd>s</kbd> speed &middot; <kbd>v</kbd> voice</p>
-  </section>
-  <section class="lx-zones" aria-labelledby="zones-title">
-    <h2 id="zones-title">Browse by zone</h2>
-    ${zoneGroups}
-  </section>
-  ${others.length ? `<section class="lx-zones" aria-labelledby="more-title">
-    <h2 id="more-title">Topics and more</h2>
-    ${grouped(others)}
-  </section>` : ""}
-  ${cta}
-  <div class="lx-player" hidden>
-    <button type="button" class="lx-pp" aria-label="Play">&#9654;</button>
-    <div class="lx-now"><a class="lx-title" href="#"></a><span class="lx-sub"></span>
-      <input class="lx-seek" type="range" min="0" max="1000" value="0" aria-label="Position"></div>
-    <span class="lx-time">0:00</span>
-    <div class="lx-pctl">
-      <button type="button" class="lx-prev" aria-label="Previous">&#9198;</button><button type="button" class="lx-next" aria-label="Next">&#9197;</button>
-      <button type="button" class="lx-voice" aria-label="Switch voice"></button>
-      <button type="button" class="lx-rate" aria-label="Playback speed">1&times;</button>
-      <label class="lx-auto"><input type="checkbox"> Next plays on</label>
-      <button type="button" class="lp-rep lx-report" hidden>Report</button><span class="lp-open lx-open" hidden></span>
-    </div>
-  </div>
-  ${reportDialog()}`;
+      ${narrators} narrators</p>
+    <p class="lp-how">Pick a row on the right page to read it on this one. Press its &#9654; to hear it, or Play all to hear what
+      the list shows, one after another.</p>
+    <details class="lx-browse"><summary>Browse by zone</summary>
+      ${zoneGroups}
+      ${others.length ? `<h2 id="more-title">Topics and more</h2>
+      ${grouped(others)}` : ""}
+    </details>
+    ${cta()}
+  </article>`;
+  const body = bookHtml({ left, where: "The Lore", who: "every zone, place, person, quest and item",
+    count: `${pages.length.toLocaleString("en-US")} pages`, packs, langs: langChoices(allLangs) });
   return page({
     title: "WoW Forever Lore: every zone, place and quest", fullTitle: "WoW Forever Lore: every zone, place and quest | Lore Forever",
     description: "Read and listen to the stories of WoW Forever's zones, places, characters, items, dungeon bosses and " +
@@ -562,17 +748,23 @@ export function missingLorePage(env) {
     title: "No lore page here",
     description: "This lore page doesn't exist (yet).",
     path: "/lore", crumbs: `<a href="/lore">Lore</a>`,
-    body: `  <h1>No lore page here</h1>
+    body: `  <div class="ch-sheet lx-sheet">
+  <h1>No lore page here</h1>
   <p class="pitch">We don't have a page at this address. It may have moved when its story was rewritten.</p>
-  <p class="vp-actions"><a class="btn-small" href="/lore">All the lore</a> <a class="btn-small" href="/">What's Lore Forever?</a></p>`,
+  <p class="vp-actions"><a class="btn-small" href="/lore">All the lore</a> <a class="btn-small" href="/">What's Lore Forever?</a></p>
+  </div>`,
     robots: "noindex", foot, scripts: "", head: HEAD,
   });
 }
 
 // /lore/sitemap.xml: /lore and every page that isn't thin (x), once the pages are public; an empty (valid) sitemap
-// until then.
-export function sitemap(index, env, more) {
-  const urls = isPublic(env) ? ["/lore", ...allPages(index, more).filter(p => !p.x).map(p => p.p)] : [];
+// until then. With seg, /<seg>/lore/sitemap.xml: that language's pages (i18n: loadI18nIndex's; site_i18n.py leaves
+// thin pages out).
+export function sitemap(index, env, more, seg = null, i18n = null) {
+  const bit = seg ? (i18n?.langs || []).findIndex(l => l.seg === seg) : -1;
+  const urls = !isPublic(env) ? [] : seg
+    ? (bit < 0 ? [] : Object.entries(i18n.pages || {}).filter(([, m]) => Number(m) & (1 << bit)).map(([p]) => `/${seg}${p}`))
+    : ["/lore", ...allPages(index, more).filter(p => !p.x).map(p => p.p)];
   return `<?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 ${urls.map(u => `  <url><loc>https://${HOME}${escape(u)}</loc></url>`).join("\n")}

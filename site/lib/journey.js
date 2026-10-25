@@ -46,6 +46,7 @@ const LOCALES = {
       "Journey stats": "stats", "Yards walked, by land": "walk", "Foes slain, by kind": "kinds",
       "Slain by": "killers", "Most loyal patrons": "patrons", "Inns you've called home": "inns",
       "Flights, by destination": "destinations", "Minutes spent, by land": "time",
+      "Your chronicle": "chronicle",
     },
     causes: { "drowned": "drown", "lost in deep water": "fatigue" },
   },
@@ -345,6 +346,7 @@ export function parseRecord(input, now = new Date()) {
     profs: [], rep: [], deaths: [], books: [], shots: 0, fought: [], grouped: 0, timeline: [],
     battles: [],   // each battle's battleground and how it ended (LOR-430): { zone, out? }
     stats: null,   // the journey in numbers (statsOf), when the record has them (add-ons from LOR-246 on)
+    chronicle: null,   // the chronicle's pages by zone (v2): { pages, heard, zones: [{ zone, found, total, heard }] }
   };
   if (!data.name) throw new RecordError("not-a-record");
 
@@ -387,6 +389,10 @@ export function parseRecord(input, now = new Date()) {
       if (line.startsWith("-")) stat(line, data, T, statAt++);
       continue;
     }
+    if (section === "chronicle") {
+      chronicleLine(line, data);
+      continue;
+    }
     if (Object.hasOwn(STAT_LISTS, section)) {
       const s = data.stats ||= statsOf();
       const item = STAT_LISTS[section] || ((name, n) => ({ name, n: num(n) }));
@@ -411,6 +417,20 @@ export function parseRecord(input, now = new Date()) {
   data.totals ||= { quests: data.quests.length, places: data.places.length, people: data.people.length,
                     foes: data.fought.length, bosses: data.bosses.length };
   return data;
+}
+
+// One "- Westfall: 41/98, 12 heard" line of the chronicle (the add-on's v2 Found pages): the zone, the pages found of
+// how many, and how many heard (the words after the last number are the record's language's).
+const CHRONICLE_CAP = 40;
+function chronicleLine(line, data) {
+  const m = /^-\s*(.+?):\s*(\d+)\s*\/\s*(\d+)\D+(\d+)/u.exec(line);
+  if (!m) return;
+  const c = data.chronicle ||= { pages: 0, heard: 0, zones: [] };
+  const found = num(m[2]), total = Math.max(num(m[3]), found), heard = Math.min(num(m[4]), found);
+  if (c.zones.length >= CHRONICLE_CAP || !tidy(m[1])) return;
+  c.zones.push({ zone: tidy(m[1]), found, total, heard });
+  c.pages += found;
+  c.heard += heard;
 }
 
 // The journey in numbers (LOR-246), as a profile keeps them: yards walked, foes slain (and of them elites and rares),

@@ -7,7 +7,7 @@ import { perDay, perPeriod, unDay, unPeriod } from "../../../lib/ratelimit.js";
 import { markAsked } from "../../../lib/activity.js";
 import { allowance, reserveAnswer, answerReservation, seesPicture, writeAnswer, SAY_MAX_CHARS, lookUp, uncapped,
   personaOf, styleOf, lookOf, COMPACTIONS_PER_DAY, ANSWER_PROMPT_BYTES, ANSWER_IMAGE_CHARS, LORE_FOCUS, TRAIL_COLD, CUSTOM_PROMPT_BYTES,
-  VERIFICATION_FAILED } from "../../../lib/companion-answers.js";
+  VERIFICATION_FAILED, smartRoute, keepsPicture } from "../../../lib/companion-answers.js";
 import { promptParts, withoutLive, knowledgeFor, asksTheWay, wayQuestion, withQuestion, factSources, offerTaken, meant, otherVersions }
   from "../../../lib/forever-knowledge.js";
 import { feedbackKind, logFeedback, IMPLICIT_KINDS } from "../../../lib/answer-feedback.js";
@@ -387,6 +387,18 @@ async function answerQuestion(context, hold) {
   let lite = false;
   // Her answers on the smarter model: a plan that has it (lib/billing.js PLANS smarter: Legend), while plans are on.
   const smarter = plansOn(env) && Boolean(plan.smarter);
+  // Her smarter mind (lib/companion-answers.js MULL_RULE): her hard questions thought through, every one on a plan with
+  // `smarter`, a few a plan month on one with thinkingPerMonth (Hero's taste), while WILLO_SMART_ROUTE isn't off. The
+  // taste's count is read now, alongside the rest, so a month whose few are used never gets the rule; one more is
+  // taken only when a question turns out hard (takeThought).
+  const thinking = plansOn(env) && smartRoute(env) && operation === "answer" && (smarter || plan.thinkingPerMonth > 0);
+  const thoughtKey = thinking && !smarter ? `companion-thinking:${poolWindow(plan, now).key}` : null;
+  const thoughtsLeft = thoughtKey ? env.DB.prepare("SELECT n FROM rate_limits WHERE user_id = ? AND bucket = ?")
+    .bind(app.user.id, thoughtKey).first().then(row => (row?.n || 0) < plan.thinkingPerMonth).catch(() => false)
+    : Promise.resolve(thinking);
+  const takeThought = thoughtKey ? () => perPeriod(env, app.user.id, "companion-thinking", poolWindow(plan, now).key,
+    plan.thinkingPerMonth) : null;
+  let mull = false;
   const giveBack = async () => {
     const [plan, given] = [took, pack];
     took = pack = null;
@@ -452,10 +464,10 @@ async function answerQuestion(context, hold) {
   // How a name sounds is never a dispute (LOR-653: "It's actually pronounced Dun Moreau" looked online and argued it).
   const sounds = operation === "answer" && SOUNDS.test(parts.question);
   const dispute = operation === "answer" && !sounds ? feedbackKind(parts.question, parts.previous) : null;
-  // A disputed answer on the smarter model, any plan (the insistence research, 10/22: told they were wrong when they
-  // weren't, Flash-Lite still gave way 11 to 16 times in 18 however the rule was worded, 3.6 Flash none; about 1 in 100
-  // questions is a dispute). Not past the plan's text cap.
-  const smartFor = () => smarter || (dispute === "correction" && !lite);
+  // Her answers on the smarter model's slot for a plan that has it (lib/companion-answers.js SMART_MODEL). A disputed
+  // answer, any plan, thinks first on DeepSeek since 10/24 (generate), not on a smarter Gemini (the insistence research,
+  // 10/22: Flash-Lite gave way to a wrong player 11 to 16 times in 18, 3.6 Flash none).
+  const smartFor = () => smarter;
   // This answer's id (the app keeps it on the turn: a report or the next question names it), and what this question
   // says about the answer before it (lib/answer-signals.js): word rules and the app's facts, no model call. While keep
   // is on they tag that answer's row in the answer log, and a strong one goes in the review queue; after the reply is
@@ -489,9 +501,14 @@ async function answerQuestion(context, hold) {
   if (freePath) [researchRequired, autoResearch, image] = [false, false, null];
   // The trial's pictures (lib/best-first.js TRIAL.sight), counted once the answer used one: none once they're gone.
   if (plansOn(env) && !subscriber && !(trying && trial.left.sight > 0)) image = null;
+  // A spoken question that points at nothing on screen goes without its picture, as text, so her answer host writes it
+  // (lib/companion-answers.js keepsPicture; the Software Architect, 10/24). Never a screen look the app asked for, a
+  // question about their target (its close-up came) or a dispute. Before the reservation, which follows the picture.
+  const unpointed = Boolean(image) && operation === "answer" && Boolean(styleOf(style)) && !screenLook &&
+    closeupOf !== "target" && !dispute && !keepsPicture(env, parts.question);
+  if (unpointed) [image, closeup] = [null, null];
   // What the plan has, with the trial's days: its reminders and seeing the game (lib/billing.js companionFeatures).
   const features = companionFeatures(plan, { taste: { on: Boolean(taste), left: taste ? 1 : 0, trial } });
-  const stronger = Boolean(PLANS[plan.id]?.stronger);
   // The site's look-ups for this question (lib/willo-tools.js lookupsFor, LOR-546). A question about Willo herself:
   // her own help, what her app says of itself right now and, about plans, the answers left, never a look online.
   const lookups = compact ? [] : lookupsFor(parts.question, { previous: parts.previousQuestion, answered: parts.previous, persona, operation,
@@ -499,7 +516,7 @@ async function answerQuestion(context, hold) {
   const usage = lookups.includes("answers_left") ? await allowance(env, app.user.id, now, exempt, plan) : null;
   const helpAsked = compact ? "" : helpQuestion(parts.question, parts.previousQuestion, parts.previous);   // a follow-up reads with what it follows
   let help = lookups.includes("help") ? helpBlock(helpAsked, { plans: plansOn(env), plan: plan.name,
-    client: request.headers.get("X-LF-Client"), state, usage, keeping: keep }) : "";
+    client: request.headers.get("X-LF-Client"), state, usage, keeping: keep, spoken: style === "spoken" }) : "";
   // What she reads of their notebook (all of it when asked about it or to write in it, else the lines that share a word
   // with the question), and its tools when asked to write: in place of the app's actions, which a note never needs.
   // Reminders (LOR-663) on Hero and up, while the site sells plans (lib/billing.js companionFeatures).
@@ -635,7 +652,6 @@ async function answerQuestion(context, hold) {
   // A question about Willo herself never looks online, typed (research_required) or spoken: her help answers it.
   const wantsResearch = operation === "answer" && !help &&
     (researchRequired || ((autoResearch || real || talentResearch) && lookOnline));
-  let strong = stronger && !compact;
   const longMemory = (Boolean(PLANS[plan.id]?.longMemory) || trying) && compact;
   // Looking it up (LOR-446). What another player's search found for the same question here answers without searching
   // again, for required research too. research "auto" (the companion asks for it with spoken questions) looks online
@@ -655,18 +671,18 @@ async function answerQuestion(context, hold) {
   const paid = subscriber;
   // Past the plan's monthly cost cap, the answer goes back to the ordinary model and doesn't look online, until the
   // month ends. Nobody is cut off by it; a longer chat memory stays, since it's cheap. An answer that would look online
-  // or use the stronger model first holds what reserveAnswer reserves for it against that cap, in one statement
+  // first holds what reserveAnswer reserves for it against that cap, in one statement
   // (lib/billing.js holdUserSpend), so questions asked at the same moment can't all get in under the cap; settle swaps
   // the hold for what the answer cost.
   let held = null;   // {id, micro}
-  const upgrade = () => paid && (research || quick || strong)
-    ? answerReservation(research, operation, { lookup: quick, strong, longMemory }) : 0;
+  const upgrade = () => paid && (research || quick)
+    ? answerReservation(research, operation, { lookup: quick, longMemory }) : 0;
   const holdCap = async () => {
     const micro = upgrade();
     if (!micro) return;
     const id = await holdUserSpend(env, app.user.id, micro, now, { cap: plan.costCapMicro, launch: Boolean(plan.launch) });
     if (id) held = { id, micro };
-    else research = quick = strong = false;
+    else research = quick = false;
   };
   // Gives back what's held, all of it, or down to `keep` for an answer that needs less.
   const release = hold.release = async (keep = 0) => {
@@ -730,9 +746,11 @@ async function answerQuestion(context, hold) {
     pinRules(spot, { spoken: Boolean(style), adding: pinning.add })) };
   // One of Willo's best first is on the free pool too (lib/free-pool.js; Mike, 10/22), and its daily cap on top
   // (lib/best-first.js): it waits for the pool's stop as the day's free answers do.
+  // Not past the text cap (lite), nor for required research (it searches instead).
+  mull = !lite && !research && await thoughtsLeft;
   const reserved = await reserveAnswer(env, now, research, operation, quick,
-    { paid, strong, longMemory, picture: seesPicture(operation, research, style, image, screenLook), lite,
-      smarter: smartFor() });
+    { paid, longMemory, picture: seesPicture(operation, research, style, image, screenLook), lite,
+      smarter: smartFor(), mull });
   if (!reserved) {
     // What it took (the plan's day and month, or an answer from friends) goes back for a question that never reached the
     // model, and a best-first one. The free pool's stop for today (lib/free-pool.js), past its soft step, is reached:
@@ -789,10 +807,15 @@ async function answerQuestion(context, hold) {
   // Snapshot consent before starting the model request; a later opt-in is never retroactive.
   const imageConsent = keep && image && storageReady(env)
     ? diagnosticConsent(env, app.user.id).catch(() => null) : Promise.resolve(null);
+  // When her first words went out ahead of the rest (two layers), for first_ms; else they came with the whole answer.
+  let firstWordAt = null;
   const keepAnswer = async entry => {
     if (!keep || compact) return;
+    // colo: the Cloudflare data centre that served it ("LHR"), so first words can be read by region (the Architect,
+    // 10/24: Willo's answers on Together are judged by EU and AU first words against Flash-Lite's).
     const kept = logAnswer(env, app.user.id, { operation, npc, spoken: Boolean(style), zone: parts.zone,
       sub: parts.sub, question: parts.question, feedback: dispute, ref: answerId, total_ms: Date.now() - started,
+      first_ms: (firstWordAt ?? Date.now()) - started, colo: request.cf?.colo,
       ctx: { race: parts.race, class: parts.class, level: parts.level, faction: parts.faction, target: parts.target },
       plan: planLabel(plan), ...entry }, { names, now });
     if (context.waitUntil) {
@@ -871,14 +894,19 @@ async function answerQuestion(context, hold) {
       && !(view && (view.block || asksReminders(parts.question, intent) || saidYes(parts.question, parts.previous)));
     let said = null;
     // Spoken words that claim a note or pin written, with nothing to write it with, never go out early (NOTE_CLAIM).
-    const onSay = early ? say => { if (NOTE_CLAIM.test(say)) return; said = guarded(say); hold.say?.(said); } : null;
+    const onSay = early ? say => {
+      if (NOTE_CLAIM.test(say)) return;
+      said = guarded(say);
+      hold.say?.(said);
+      firstWordAt ??= Date.now();
+    } : null;
     const siteSays = listing || (managed ? managed.answer || " " : "");
-    const { model_ms, counted, call, say: modelSay, ...result } = siteSays ? await Promise.resolve(loggedFirst).then(() => ({
+    const { model_ms, counted, call, say: modelSay, route, ...result } = siteSays ? await Promise.resolve(loggedFirst).then(() => ({
       answer: siteSays, sources: [], web_sources: [], web_search: { status: "not_needed", queries: [], suggestions_html: "" },
       model: "site", usage: null, model_ms: 0, counted: 0 }))
       : await (stubbed(env, request, app.user) ? stubAnswer : writeAnswer)(env, prompt, now, research, operation,
-        { persona, style, image, closeup, closeupOf, look: screenLook, facts: knowledgeText, help, dispute, custom: custom.system, memories: remembering ? await remembering : "", strong, longMemory, actions,
-          later, layered, onSay, lite, smarter: smartFor(),
+        { persona, style, image, closeup, closeupOf, look: screenLook, facts: knowledgeText, help, dispute, custom: custom.system, memories: remembering ? await remembering : "", longMemory, actions,
+          later, layered, onSay, lite, smarter: smartFor(), mull, onMull: takeThought,
           away: away && (parts.zone || parts.sub || parts.savedPlace ? "last" : "none") })
         .finally(() => loggedFirst);
     const fromModel = result.answer;
@@ -1099,8 +1127,10 @@ async function answerQuestion(context, hold) {
     // Two layers: the written answer adds only names and numbers what she was given holds (groundedWritten). No line
     // about the rest any more (Mike, 2026-10-21: "it should always just read everything from now on"): the
     // app says her first words, then the rest of the written answer (lib/billing.js PLAN_VOICE whole).
+    // A hard question thought through (route "mulled") keeps the numbers it worked out, its names still checked (the
+    // Software Architect, 10/24: watch the first week's answer_feedback on mulled rows).
     if (result.say && ownWords && result.answer && result.answer !== VERIFICATION_FAILED)
-      result.answer = groundedWritten(result.answer, result.say, supplied);
+      result.answer = groundedWritten(result.answer, result.say, supplied, { numbers: route !== "mulled" });
     if (!action && (questOffer || liveOffer) && result.answer && result.answer !== VERIFICATION_FAILED && await (questOffer || liveOffer)) {
       action = { id: "live_game_info", args: {}, label: "Turn on Live game info…" };
       // Its line goes on the written answer, and also on its own (offer_line): the app shows it under her words with
@@ -1140,7 +1170,7 @@ async function answerQuestion(context, hold) {
     // kept, changed, dropped or ticked is one too (lib/willo-goals.js). goals: {checkins: false | true} when the player
     // turned her goal check-ins off or on, for Willo's app to keep.
     const used = [...(facts.length ? ["forever_facts"] : []), ...(cached || research || looked ? ["web"] : []),
-      ...(view?.block ? ["notebook"] : []), ...(goalText ? ["goals"] : []), ...(image ? ["sight"] : []),
+      ...(view?.block ? ["notebook"] : []), ...(goalText ? ["goals"] : []), ...(image ? ["sight"] : []), ...(unpointed ? ["unpointed"] : []),
       ...(help ? ["help", ...(state ? ["state"] : []), ...(usage ? ["answers_left"] : [])] : [])];
     // "empty": it looked and found nothing; "off": the companion asked and the rule would look, but the plan (the free
     // plan never looks online), its month's look-ups or the day's budget said no. The nightly check tells those apart
@@ -1156,7 +1186,12 @@ async function answerQuestion(context, hold) {
       : /^(?:notebook_|goal_)/.test(call?.name || "") ? call.name : "notebook_add") : goalsReply ? "goal_checkins" : undefined),
       model: result.model,
       model_ms, looked_up: lookedUp,
-      lookups: [...used, ...(!image && operation === "answer" && UNSEEN.test(result.answer || "") ? ["unseen"] : [])],
+      // "together-fallback": Together failed before her first words and Gemini answered; "together-breaker": Together's
+      // breaker was open, so Gemini answered without trying it (lib/together.js). A hard question's route
+      // (lib/companion-answers.js writeAnswer): "mulled", "mull-fallback" or "mull-spent".
+      lookups: [...used, ...(!image && operation === "answer" && UNSEEN.test(result.answer || "") ? ["unseen"] : []),
+        ...(result.fellBack ? ["together-fallback"] : []), ...(result.skipped ? ["together-breaker"] : []),
+        ...(route ? [route] : [])],
       facts: facts.map(f => f.title), outcome: result.answer === VERIFICATION_FAILED ? "unverified" : "answered" });
     // A real answer activates the friend a share link brought (lib/referrals.js activateReferral: their inviter moves on)
     // and notes Willo's computer; after the reply is on its way, never holding it up. Most accounts skip it unread.

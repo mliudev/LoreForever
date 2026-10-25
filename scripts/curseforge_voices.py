@@ -768,4 +768,10 @@ def main(argv: list[str] | None = None) -> int:
 
 
 if __name__ == "__main__":
+    try:
+        import need_langs   # absent when this file runs alone, as in the public repo's CI
+    except ImportError:
+        pass
+    else:
+        need_langs.require("curseforge_voices.py")
     sys.exit(main())

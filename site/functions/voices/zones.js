@@ -64,11 +64,11 @@ export async function onRequestGet({ request, env }) {
     .zp-lines { color: var(--muted); font-size: 0.85rem; text-align: right; }
     .zp-list li > span:last-child { grid-column: 1 / -1; font-size: 0.9rem; }
     .zp-open { color: var(--muted); }
-    .zp-done { color: #6fcf6f; }
-    .zp-going { color: #f0a33a; }
+    .zp-done { color: #0d5206; }
+    .zp-going { color: #6e3500; }
     .zp-sum { color: var(--muted); }
   </style>`;
-  return new Response(page({
+  return new Response(page({ leaf: true,
     title: "Zones and their narrators",
     description: "Which Lore Forever zones are narrated, and by whom.",
     path: "/voices/zones",

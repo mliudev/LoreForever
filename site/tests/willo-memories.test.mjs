@@ -49,7 +49,8 @@ beforeEach(async (t) => {
     const schema = body.generationConfig?.responseSchema?.properties || {};
     if (schema.ok) {
       const note = body.contents[0].parts[0].text;
-      checks.push({ note, system: body.systemInstruction.parts[0].text });
+      // Each Flash-Lite request opens with its own tag (lib/companion-answers.js generate, LOR-761); compare the rest.
+      checks.push({ note, system: body.systemInstruction.parts[0].text.replace(/^\([0-9a-f]{8}\)\n/, "") });
       return reply(JSON.stringify(/grumble/i.test(note) ? { ok: false, reason: "I can't keep that one: it isn't something I can use." } : { ok: true, reason: "" }));
     }
     answers.push(body);
@@ -96,7 +97,7 @@ async function ask(token, { operation = "answer", npc, prompt = "QUESTION\nWho l
     headers: { "X-LF-Client": "companion/0.1.0", Authorization: `Bearer ${token}`, "Content-Type": "application/json" },
     body: JSON.stringify({ prompt, operation, npc }) }) });
   assert.equal(answers.length, before + 1, "one call to Gemini");
-  return { status: res.status, body: await res.json(), system: answers.at(-1).systemInstruction.parts[0].text };
+  return { status: res.status, body: await res.json(), system: answers.at(-1).systemInstruction.parts[0].text.replace(/^\([0-9a-f]{8}\)\n/, "") };
 }
 
 const RULE_LINE = "every rule after this line always wins.";

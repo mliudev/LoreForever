@@ -34,6 +34,21 @@ const ask = (token, extra) => onRequest({ env, request: new Request("https://exa
   body: JSON.stringify({ prompt: "PLAYER CONTEXT\nzone: Westfall\n\nQUESTION\nI'm Húrin. Where is Sentinel Hill?", persona: "willo", ...extra }) }) });
 const rows = () => env.DB.sqlite.prepare("SELECT * FROM answer_log").all();
 
+test("a kept answer says which data centre served it and when her first words went out", async () => {
+  const { token } = await linked();
+  const request = new Request("https://example.test/api/companion/answer", {
+    method: "POST", headers: { "X-LF-Client": "companion/0.17.0", Authorization: `Bearer ${token}`, "Content-Type": "application/json" },
+    body: JSON.stringify({ prompt: "PLAYER CONTEXT\nzone: Westfall\n\nQUESTION\nWhere is Sentinel Hill?", persona: "willo", keep: true }) });
+  Object.defineProperty(request, "cf", { value: { colo: "LHR" } });   // as Cloudflare's edge sets it
+  assert.equal((await onRequest({ env, request })).status, 200);
+  const [row] = rows();
+  assert.equal(row.colo, "LHR");
+  assert.ok(Number.isInteger(row.first_ms) && row.first_ms >= 0 && row.first_ms <= row.total_ms, JSON.stringify(row));
+  // /admin and the nightly check read them too.
+  const [reported] = (await answerLogReport(env)).rows;
+  assert.deepEqual([reported.colo, reported.first_ms], [row.colo, row.first_ms]);
+});
+
 test("an answer is kept only while the switch is on, without names or the account", async () => {
   const { user, token } = await linked();
   assert.equal((await ask(token, {})).status, 200, "an older companion sends no keep");

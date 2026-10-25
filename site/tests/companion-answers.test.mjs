@@ -241,7 +241,8 @@ test("allowances belong to accounts; missing or revoked tokens cannot spend", as
 
 const SAM_INTRO = "You are Sam the Squire, Lore Forever's herald, personal agent and squire.";
 const WILLO_INTRO = "You are Willo, Lore Forever's companion: a small, warm, curious blue wisp of light who rides along beside the player, kind and loyal. You are always this wisp: you go wherever the player goes, with no post, duty, rank or home of your own to keep, and in play-acting you answer warmly and briefly as yourself.";
-const system = n => calls[n].body.systemInstruction.parts[0].text;
+// Each Flash-Lite request opens with its own tag (lib/companion-answers.js generate, LOR-761); compare the rest.
+const system = n => calls[n].body.systemInstruction.parts[0].text.replace(/^\([0-9a-f]{8}\)\n/, "");
 
 test("persona willo swaps only the companion's introduction; anything else keeps Sam", async () => {
   const { token } = await linked();
@@ -357,7 +358,7 @@ test("pictures outside spoken answers, or malformed ones, are ignored and the qu
     if (parts(calls.length - 1).length > 1) return new Response("Unable to process input image.", { status: 400 });
     return Response.json({ candidates: [{ content: { parts: [{ text: "A kobold." }] } }] });
   };
-  const result = await ask(token, { style: "spoken", image });
+  const result = await ask(token, { prompt: "PLAYER CONTEXT\nWestfall\nQUESTION\nWho is this?", style: "spoken", image });
   assert.deepEqual([result.status, result.body.answer, calls.length], [200, "A kobold.", 2]);
   assert.doesNotMatch(system(1), PICTURE);
   // Asked again as text, it's an ordinary answer on the ordinary model.
@@ -667,7 +668,7 @@ test("truncated or empty research answers preserve known query excess without in
 });
 
 
-test("published January pricing changes Flash spend (research, a smarter plan's answers) while Flash-Lite rates stay fixed", async () => {
+test("published January pricing changes Flash spend (research) while Flash-Lite rates stay fixed, a smarter plan's answers too", async () => {
   for (const [stamp, researchCost] of [["2026-12-31T23:59:59.999Z", 14338], ["2027-01-01T00:00:00Z", 14675]]) {
     const now = new Date(stamp), month = stamp.slice(0, 7);
     globalThis.fetch = async () => Response.json({ candidates: [{ content: { parts: [{ text: "A result." }] },
@@ -683,18 +684,16 @@ test("published January pricing changes Flash spend (research, a smarter plan's 
     const ordinary = env.DB.sqlite.prepare("SELECT actual_micro, reserved_micro FROM answer_spend WHERE month = ?").get(month);
     assert.equal(ordinary.actual_micro - research.actual_micro, 125);
     assert.equal(ordinary.reserved_micro - research.reserved_micro, 125, "ordinary replies release their own unused estimate");
-    // A smarter plan's answer (Legend's, on 3.6 Flash) is at research's token rates without the query, and so is its
-    // answer to a picture; nothing of their holds is left over.
+    // A smarter plan's answer (Legend's) is on Flash-Lite's slot since 10/24 (Mike: fewer models; nothing on 3.6 Flash),
+    // and so is its answer to a picture; nothing of their holds is left over.
     assert.equal(await reserveAnswer(env, now, false, "answer", false, { smarter: true }), true);
     await writeAnswer(env, "Who is VanCleef?", now, false, "answer", { smarter: true });
     const smart = env.DB.sqlite.prepare("SELECT actual_micro, reserved_micro FROM answer_spend WHERE month = ?").get(month);
-    assert.deepEqual([smart.actual_micro - ordinary.actual_micro, smart.reserved_micro - ordinary.reserved_micro],
-      [researchCost - 14000, researchCost - 14000]);
+    assert.deepEqual([smart.actual_micro - ordinary.actual_micro, smart.reserved_micro - ordinary.reserved_micro], [125, 125]);
     assert.equal(await reserveAnswer(env, now, false, "answer", false, { picture: true, smarter: true }), true);
     await writeAnswer(env, "What is this?", now, false, "answer", { style: "spoken", image: jpeg(3000), smarter: true });
     const seen = env.DB.sqlite.prepare("SELECT actual_micro, reserved_micro FROM answer_spend WHERE month = ?").get(month);
-    assert.deepEqual([seen.actual_micro - smart.actual_micro, seen.reserved_micro - smart.reserved_micro],
-      [researchCost - 14000, researchCost - 14000]);
+    assert.deepEqual([seen.actual_micro - smart.actual_micro, seen.reserved_micro - smart.reserved_micro], [125, 125]);
     assert.equal(await reserveAnswer(env, now, false, "character"), true);
     await writeAnswer(env, "Who are you?", now, false, "character", { smarter: true });
     const character = env.DB.sqlite.prepare("SELECT actual_micro FROM answer_spend WHERE month = ?").get(month);

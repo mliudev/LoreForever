@@ -142,8 +142,7 @@ export function onThisDay(d, now = new Date()) {
   return null;
 }
 
-// The section: the profile's "By the numbers" tab (lib/profiles.js, Mike 10/11: the numbers get their own tab, so the
-// journey's chapters can grow). now: the page's time, for "on this day". lead: tiles to show first (the record's
+// The section: the profile's "By the numbers" sheet (lib/profiles.js; its own sheet, so the journey's chapters can grow). now: the page's time, for "on this day". lead: tiles to show first (the record's
 // totals), more: lists to show after these (the record's collections). "" when there's nothing at all to count.
 export function numbersSection(d, now = new Date(), { lead = "", more = "" } = {}) {
   const s = d?.stats;

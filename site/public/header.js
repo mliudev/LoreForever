@@ -1,13 +1,14 @@
-// Site header, on every public page (LOR-222): the brand, then Download, Lore, What's new and Community, and on the
-// right Make your profile next to Sign in or the account chip. Each page's <header class="top"> carries the links
-// itself (SITE_NAV in lib/voices.js; keep the copies in step), so they work without
-// JavaScript. This script:
+// Site header, on every public page (LOR-222; the Chronicle bar, 2026-10-25): the brand, then Lore, Guides, What's new
+// and Community; on the right a small Willo link (her own site), the Download button and Sign in (or, signed in, your
+// page). Each page's <header class="top"> carries the links itself (SITE_NAV in lib/voices.js; keep the copies in
+// step), so they work without JavaScript. This script:
 //   - marks the link for the part of the site you're on;
-//   - turns Community into a menu: the Discord, the three kinds of feedback (the kinds feedback.html accepts in
-//     ?kind=), the FAQ, then Record your voice, Translate and Contributors;
-//   - asks GET /api/auth/me (functions/api/auth/[action].js) whether you're signed in. Signed in, Make your profile
-//     becomes Your profile (/u/me, your page or else making one) and the account chip appears (Your profile, Your
-//     account, Sign out); signed out, a Sign in link to /account. The same answer says which site features are on
+//   - turns Community into a menu: the Discord, Translate, Lend your voice, Contributors, the FAQ and Feedback (and, with
+//     "contribute" on, Share Forever text);
+//   - on a phone (720px and under) swaps the links for a menu button that opens one sheet with all of them;
+//   - asks GET /api/auth/me (functions/api/auth/[action].js) whether you're signed in. Signed in, the Sign in link
+//     gives way to your avatar and Your page (/u/me), with a small menu beside it (Your page, Account, Sign out);
+//     signed out, Sign in goes to /account. The same answer says which site features are on
 //     (lib/features.js), which the header follows: the Lore link, and Share Forever text in Community. The answer
 //     takes a moment, so the header shows the last one it got (lf-auth and lf-features in localStorage) right away,
 //     and the answer corrects it (see "Site features" and "Signed in or not");
@@ -16,7 +17,7 @@
 // "Looked at" is lf-seen in localStorage: the newest version you've seen the news of, set when you open What's new,
 // follow the strip or close it. A first visit gets no dot (everything is new); the strip shows until it's closed.
 (() => {
-  const LATEST = "0.27.0";   // changelog: the newest version in CHANGELOG.md (scripts/changelog.py site keeps it)
+  const LATEST = "0.28.0";   // changelog: the newest version in CHANGELOG.md (scripts/changelog.py site keeps it)
   const header = document.querySelector("header.top");
   const box = header && header.querySelector(".head-actions");
   if (!box) return;
@@ -69,7 +70,7 @@
   }
 
   // Wires `button` to show and hide `menu` (a disclosure: a button with aria-expanded and a list of links).
-  function dropdown(button, menu, id) {
+  function dropdown(button, menu, id, alwaysFocus) {
     menu.id = id;
     menu.hidden = true;
     button.type = "button";
@@ -77,7 +78,7 @@
     button.setAttribute("aria-controls", id);
     button.addEventListener("click", e => {
       if (current && current.menu === menu) close(false);
-      else open(button, menu, e.detail === 0);   // detail 0: pressed with Enter or Space, so move focus into the menu
+      else open(button, menu, alwaysFocus || e.detail === 0);   // detail 0: pressed with Enter or Space, so move focus into the menu
     });
     button.addEventListener("keydown", e => {
       if (e.key === "ArrowDown") { e.preventDefault(); open(button, menu, true); }
@@ -108,17 +109,13 @@
 
   // Community: the link (to /feedback) becomes the menu's button.
   const COMMUNITY = [
-    ["/discord?src=nav", "Join the Discord", "Chat with other players; news lands there first"],
-    ["/feedback", "Send feedback", "What you like and what's off"],
-    ["/feedback?kind=idea", "Request a feature", "A zone or something new for the panel"],
-    ["/feedback?kind=bug", "Report a bug", "Something broke or won't load"],
-    ["/faq", "FAQ", "What players ask most, answered"],
-  ];
-  const HELP = [
-    ["/voices/studio", "Record your voice", "Narrate a few lines, hear yourself in game"],
+    ["/discord?src=nav", "Discord", "Chat with other players; news lands there first"],
     ["/translate", "Translate", "Lore Forever in your language"],
+    ["/voices/lend", "Lend your voice", "Give the game's people a voice"],
     ["/contributors", "Contributors", "Everyone who narrates, translates and sends in text"],
+    ["/faq", "FAQ", "Answers to what players ask most"],
   ];
+  const FEEDBACK = ["/feedback", "Feedback", "What you like and what's off"];
   // Share Forever text (/contribute, LOR-235) joins the menu once the "contribute" feature is on (lib/features.js;
   // see "Site features"), i.e. once the add-on release with its Contribute button is out.
   const CONTRIBUTE = ["/contribute", "Share Forever text", "The quests and gossip you've seen in game"];
@@ -133,9 +130,8 @@
     if (here === "nav-community") button.classList.add("nl-on");
     const menu = document.createElement("div");
     menu.className = "head-menu";
-    menu.innerHTML = COMMUNITY.map(item).join("") +
-      '<p class="menu-note" hidden>Feedback asks you to sign in with Google first.</p><hr>' +
-      '<p class="menu-head">Help out</p>' + HELP.map(item).join("");
+    menu.innerHTML = COMMUNITY.map(item).join("") + "<hr>" + item(FEEDBACK) +
+      '<p class="menu-note" hidden>Feedback asks you to sign in with Google first.</p>';
     feedbackNote = menu.querySelector(".menu-note");
     communityMenu = menu;
     const wrap = document.createElement("div");
@@ -197,8 +193,8 @@
   function features(f) {
     document.documentElement.classList.toggle("hd-nolore", !f.lore);
     if (f.contribute && !contributeItem && communityMenu) {
-      communityMenu.insertAdjacentHTML("beforeend", item(CONTRIBUTE));
-      contributeItem = communityMenu.lastElementChild;
+      communityMenu.querySelector("hr").insertAdjacentHTML("beforebegin", item(CONTRIBUTE));
+      contributeItem = communityMenu.querySelector("hr").previousElementSibling;
     } else if (!f.contribute && contributeItem) {
       contributeItem.remove();
       contributeItem = null;
@@ -210,17 +206,18 @@
   } catch (e) { /* nothing remembered: the markup as it is (Lore shown, nothing added) */ }
 
   // ---- Signed in or not ----
-  // The right of the header: signed in, Your profile and the account chip ({in: true, name, until: when that sign-in
-  // ends}); signed out, Make your profile and, where sign-in is on, Sign in ({in: false, signIn}). GET /api/auth/me
+  // The right of the header: signed in, your avatar with Your page and a small menu ({in: true, name, until: when
+  // that sign-in ends}); signed out, the Sign in link ({in: false, signIn}). GET /api/auth/me
   // says which, but only after a moment, so the last answer is kept in localStorage (lf-auth: only that, never the
   // email) and shown at once on the next page, and the answer corrects it if it changed. A page a Function made for
   // someone it knows is signed in (/u/<handle>) says so itself: data-auth, data-name and data-until on .head-actions
-  // (lib/voices.js siteNav). Until one of them is there the spot stays blank but keeps its place: the nav's inline
-  // script set hd-wait on <html> (style.css), and show(), or an answer that never comes, takes it off.
+  // (lib/voices.js siteNav). Until one of them is there the Sign in spot stays blank but keeps its place: the nav's
+  // inline script set hd-wait on <html> (style.css), and show(), or an answer that never comes, takes it off.
+  // The Sign in link (#nav-profile) is in the page's markup; where it isn't (Willo's door has her own header), one is
+  // made.
   const AUTH = "lf-auth";
   const profile = document.getElementById("nav-profile");
-  const profileText = profile && profile.querySelector(".hd-wide");
-  let chip = null, chipMenu = null, signIn = null;   // what show() put in the header
+  let chip = null, chipMore = null, chipMenu = null, signIn = null;   // what show() put in the header
 
   const known = () => document.documentElement.classList.remove("hd-wait");
   const chipName = user => user.display_name || (user.email || "").split("@")[0] || "Your account";
@@ -236,62 +233,71 @@
   }
   const remember = s => (s ? store.set(AUTH, JSON.stringify(s)) : store.drop(AUTH));
 
-  // Signed in: the account chip and its menu, made once.
+  // Signed in: your page (the avatar and Your page, a link) with a small menu beside it, made once.
+  async function signOutNow(button) {
+    button.disabled = true;
+    try {
+      const r = await fetch("/api/auth/logout",
+        { method: "POST", headers: { "Content-Type": "application/json" }, body: "{}" });
+      remember(r.ok ? { in: false, signIn: true } : null);
+    } catch (e) { remember(null); /* reloading shows whether it worked */ }
+    location.reload();
+  }
+
+  // Willo's door (willocompanion.com) keeps its own header: there the chip stays one button with the name.
+  const willoDoor = document.documentElement.dataset.door === "willo";
   function accountChip() {
-    chip = document.createElement("button");
-    chip.className = "head-chip";
-    chip.innerHTML = '<span class="mini-avatar" aria-hidden="true"></span><span class="chip-name"></span>' + caret;
     chipMenu = document.createElement("div");
     chipMenu.className = "head-menu head-menu-account";
-    chipMenu.innerHTML = '<p class="menu-who">Signed in as <strong></strong></p><a href="/u/me">Your profile</a>' +
-      '<a href="/account">Your account</a><hr><button type="button">Sign out</button>';
+    chip = document.createElement("button");
+    chip.className = "head-chip";
+    chip.innerHTML = '<span class="mini-avatar" aria-hidden="true"></span><span class="chip-name">' +
+      (willoDoor ? "" : "Your page") + "</span>" + caret;
+    chipMore = chip;
+    chipMenu.innerHTML = willoDoor
+      ? '<p class="menu-who">Signed in as <strong></strong></p><a href="/u/me">Your profile</a><a href="/account">Your account</a><hr><button type="button">Sign out</button>'
+      : '<a href="/u/me">Your page</a><a href="/account">Account</a><hr><button type="button">Sign out</button>';
     const signOut = chipMenu.querySelector("button");
-    signOut.addEventListener("click", async () => {
-      signOut.disabled = true;
-      try {
-        const r = await fetch("/api/auth/logout",
-          { method: "POST", headers: { "Content-Type": "application/json" }, body: "{}" });
-        remember(r.ok ? { in: false, signIn: true } : null);
-      } catch (e) { remember(null); /* reloading shows whether it worked */ }
-      location.reload();
-    });
+    signOut.addEventListener("click", () => signOutNow(signOut));
     box.append(chip, chipMenu);
-    dropdown(chip, chipMenu, "hd-account-menu");
+    dropdown(chipMore, chipMenu, "hd-account-menu");
   }
 
   // Puts state s in the header and shows it. email: the account's, for "Signed in as" (until GET /api/auth/me brings
   // it, the chip's name).
   function show(s, email) {
-    if (profile) {
-      profile.href = s.in ? "/u/me" : "/account#profile";
-      if (profileText) profileText.textContent = s.in ? "Your profile" : "Make your profile";
-    }
     if (feedbackNote) feedbackNote.hidden = s.in || !s.signIn;
+    if (profile) profile.hidden = s.in;   // the page's own Sign in link is the signed-out spot
     if (s.in) {
       if (signIn) { signIn.remove(); signIn = null; }
       if (!chip) accountChip();
-      chip.setAttribute("aria-label", "Account: " + s.name);
+      if (willoDoor) {
+        chip.setAttribute("aria-label", "Account: " + s.name);
+        chip.querySelector(".chip-name").textContent = s.name;
+      }
       chip.querySelector(".mini-avatar").textContent = s.name.charAt(0).toUpperCase();
-      chip.querySelector(".chip-name").textContent = s.name;
-      chipMenu.querySelector("strong").textContent = email || s.name;
+      if (chipMenu.querySelector("strong")) chipMenu.querySelector("strong").textContent = email || s.name;
+      if (!willoDoor) chip.setAttribute("aria-label", "Your page, account menu");
     } else {
       if (chip) {
         if (current && current.menu === chipMenu) close(false);
         chip.remove();
         chipMenu.remove();
-        chip = chipMenu = null;
+        chip = chipMore = chipMenu = null;
       }
-      // Signed out: a Sign in link to /account, where signing in leads to making your profile (LOR-181). Not on
-      // /account itself, which is the sign-in page.
-      if (s.signIn && path !== "/account") {
-        if (!signIn) {
-          signIn = document.createElement("a");
-          signIn.className = "btn-in";
-          signIn.href = "/account";
-          signIn.textContent = "Sign in";
-          box.append(signIn);
-        }
-      } else if (signIn) { signIn.remove(); signIn = null; }
+      // Signed out, with no Sign in link in the markup (Willo's door): one to /account, where signing in leads to
+      // making your profile (LOR-181). Not on /account itself, which is the sign-in page.
+      if (!profile) {
+        if (s.signIn && path !== "/account") {
+          if (!signIn) {
+            signIn = document.createElement("a");
+            signIn.className = "btn-in";
+            signIn.href = "/account";
+            signIn.textContent = "Sign in";
+            box.append(signIn);
+          }
+        } else if (signIn) { signIn.remove(); signIn = null; }
+      }
     }
     known();
   }
@@ -322,6 +328,45 @@
     if (e.detail && e.detail.ok) answered(e.detail);
     else remember(null);
   });
+
+  // ---- A phone: a menu button and one sheet with every link ----
+  // At 720px and under (style.css) the links give way to this button; its sheet is made from the header's own links
+  // and what's true now (signed in or not, which features are on) each time it opens. Esc, a click elsewhere or
+  // tabbing out closes it, as with the other menus; opening it moves focus to its first link.
+  if (!willoDoor && document.getElementById("nav-guides")) {
+    const nav = header.querySelector(".nav");
+    const burger = document.createElement("button");
+    burger.className = "nav-burger";
+    burger.setAttribute("aria-label", "Menu");
+    burger.innerHTML = '&#9776;';
+    const sheet = document.createElement("div");
+    sheet.className = "head-menu nav-sheet";
+    const link = a => `<a href="${a.getAttribute("href")}">${a.textContent.trim().replace(/\s+/g, " ")}</a>`;
+    function fill() {
+      const main = [...header.querySelectorAll(".nav-links > a.nl")].filter(a =>
+        !(a.id === "nav-lore" && document.documentElement.classList.contains("hd-nolore")));
+      const willo = document.getElementById("nav-willo");
+      const sub = ([href, title]) => `<a class="sub" href="${href}">${title}</a>`;
+      sheet.innerHTML = main.map(link).join("") + '<a href="/feedback">Community</a>' +
+        COMMUNITY.concat(contributeItem ? [CONTRIBUTE] : [], [FEEDBACK]).map(sub).join("") +
+        (chip ? '<a class="sis2" href="/u/me">Your page</a><a class="sub" href="/account">Account</a><button type="button" class="sub">Sign out</button>'
+          : `<a class="sis2" href="${profile ? profile.getAttribute("href") : "/account"}">Sign in</a>`) +
+        (willo ? `<a class="last" href="${willo.getAttribute("href")}">Willo &#8599; <span class="note">sister site</span></a>` : "");
+      const out = sheet.querySelector("button");
+      if (out) out.addEventListener("click", () => signOutNow(out));
+    }
+    fill();
+    const prep = () => { if (sheet.hidden) fill(); };
+    burger.addEventListener("click", prep);
+    burger.addEventListener("keydown", e => { if (e.key === "ArrowDown") prep(); });
+    nav.append(sheet);
+    box.append(burger);
+    dropdown(burger, sheet, "hd-nav-sheet", true);
+    header.classList.add("nav-js");
+    window.matchMedia("(min-width: 721px)").addEventListener("change", e => {
+      if (e.matches && current && current.menu === sheet) close(false);
+    });
+  }
 
   fetch("/api/auth/me", { cache: "no-store" })
     .then(r => r.json())

@@ -38,6 +38,8 @@ const HUMAN_RACIALS = { title: "Warcraft Tavern: human racial abilities in WoW F
 const KIRIN_TOR = { title: "Icy Veins: Horde players aren't welcome in Dalaran in WoW Forever",
   url: "https://www.icy-veins.com/wow-forever/news/wow-forever-confirms-horde-players-arent-welcome-in-dalaran/" };
 const wiki = page => ({ title: `Warcraft Wiki: ${page} (Forever)`, url: `https://warcraft.wiki.gg/wiki/${page.replace(/ /g, "_")}` });
+// The original game's rules as its server code keeps them (patch 1.12), for how the game works (LOR-756).
+const SERVER_RULES = { title: "The original game's rules (VMaNGOS server code, patch 1.12)", url: "https://github.com/vmangos/core" };
 const changes = (page, path) => ({ title: `ForeverChanges: ${page}`, url: `https://foreverchanges.pro${path}` });
 const FAVOR = changes("Merchant's Favor", "/merchants-favor");
 const VMANGOS = { title: "The original game's world database (VMaNGOS, patch 1.12)", url: "https://github.com/vmangos/core" };
@@ -417,4 +419,66 @@ export const GAME_FACTS = [
     text: "In WoW Forever the librarians of Stormwind and the Undercity reward adventurers who bring them different " +
       "rare books found across Azeroth: ten books earn a necklace, twenty a ring, and twenty-five, from level 30, a " +
       "bow, shield or off-hand that needs level 40. Any class can take part." },
+  // How the game works (LOR-756: stat and combat formulas were 15% of the mechanics questions players asked, game
+  // systems 5%, and none were in our data). Each from the original game's server rules (VMaNGOS, patch 1.12: its
+  // StatSystem, SpellCaster, Unit, Player and Pet code), checked against ForeverChanges' patch notes for what Forever
+  // changed; the armor formula also matches Forever's own character-sheet tooltip (Mike's, 10/20: 2,374 armor at level
+  // 30 reduces physical damage by 44.59%).
+  { id: "mech-attack-power", title: "Strength, Agility and attack power", source: SERVER_RULES,
+    text: "Melee attack power: warriors and paladins get 3 per level plus 2 per Strength, less 20; shamans 2 per " +
+      "level plus 2 per Strength, less 20; rogues and hunters 2 per level plus 1 per Strength and 1 per Agility, " +
+      "less 20; druids 2 per Strength, less 20 (Cat Form adds 1 per Agility); mages, priests and warlocks 1 per " +
+      "Strength, less 10. So for a warrior 5 Strength is the same as 10 attack power. Ranged: hunters 2 per level " +
+      "plus 2 per Agility, less 10; warriors and rogues 1 per level plus 1 per Agility, less 10." },
+  { id: "mech-attack-power-damage", title: "What attack power does to damage", source: SERVER_RULES,
+    text: "Every 14 attack power adds 1 damage per second to your weapon: each swing gains attack power ÷ 14 × the " +
+      "weapon's speed in seconds, so slow weapons gain more per hit. Instant attacks like Mortal Strike use a fixed " +
+      "speed instead: 3.3 for two-handers, 2.4 for one-handers, 1.7 for daggers, 2.8 for ranged weapons." },
+  { id: "mech-stamina-intellect", title: "Stamina, health, Intellect and mana", source: SERVER_RULES,
+    text: "Stamina gives health: the first 20 points of your Stamina give 1 health each, every point after that 10. " +
+      "Intellect gives mana the same way: 1 each for the first 20 points, then 15 per point. Each point of Agility " +
+      "also gives 2 armor, and Strength adds shield block value (Strength ÷ 20, less 1)." },
+  { id: "mech-armor", title: "Armor and damage reduction", source: SERVER_RULES,
+    text: "Armor reduces physical damage by armor ÷ (armor + 85 × the attacker's level + 400), at most 75%. It's the " +
+      "attacker's level that counts: 2,374 armor stops 44.6% against a level 30 foe, 42.6% against level 33 (a " +
+      "1,000 hit lands for 574) and 30% against level 60. At level 33, 102 more armor on 2,374 is about 1% less " +
+      "damage. Spells and other magic ignore armor." },
+  { id: "mech-hit-miss", title: "Hit, miss and dual wielding", source: SERVER_RULES,
+    text: "A melee swing misses 5% of the time against a foe whose defense matches your weapon skill; each point of " +
+      "skill you're short adds 0.1%, or 0.2% per point once you're more than 10 short (15 short is 8%). Dual " +
+      "wielding adds 19% miss to auto-attacks (24% at equal skill), not to special attacks. Hit from gear and " +
+      "talents takes off miss chance directly, but against a monster more than 10 points above your skill the " +
+      "first 1% of it doesn't count (15 short: 9% hit to stop missing with special attacks)." },
+  { id: "mech-weapon-skill", title: "Weapon skill", source: SERVER_RULES,
+    text: "Each weapon type has its own skill, up to 5 × your level (300 at 60). A new weapon type starts low, so you " +
+      "miss, get dodged and glance much more until it rises. It rises by fighting monsters with that weapon (hits " +
+      "and misses both count, players don't): quickly while it's low, slowly near your cap. Each point short of a " +
+      "monster's defense also cuts your critical strike chance by 0.2%." },
+  { id: "mech-glancing-crushing", title: "Glancing and crushing blows", source: SERVER_RULES,
+    text: "Your auto-attacks against monsters can glance: 10% of swings plus 2% per point of their defense above your " +
+      "weapon skill (up to 40%). A glancing blow does 91-99% damage at equal skill, but 55-75% at 15 points short. " +
+      "Monsters 3 or more levels above you (15 points over your defense) can crush you for 150% damage. Ranged " +
+      "attacks never glance or crush." },
+  { id: "mech-spirit", title: "Spirit and regeneration", source: SERVER_RULES,
+    text: "Spirit restores mana and health every 2 seconds. Mana: mages and priests Spirit ÷ 4 + 12.5; druids, " +
+      "hunters, paladins and warlocks Spirit ÷ 5 + 15; shamans Spirit ÷ 5 + 17. Right after you spend mana, Spirit " +
+      "mana stops unless a talent or gear lets it go on. Health from Spirit only comes out of combat, and 50% faster " +
+      "while sitting." },
+  { id: "mech-rested", title: "Rested experience", source: SERVER_RULES,
+    text: "You build rested experience while resting in an inn or a capital city, and more slowly while logged out " +
+      "elsewhere: 8 hours of rest adds 5% of a level, up to 150% of a level. Each monster you kill then gives double " +
+      "experience until the rested pool runs out. Quests and exploring never use it." },
+  { id: "mech-death", title: "Dying and corpse runs", source: SERVER_RULES,
+    text: "When you die, every item you wear loses 10% durability (not when another player killed you, or in a " +
+      "battleground). Release your spirit to go to the nearest graveyard as a ghost, then run back and stand near " +
+      "your body to come back with half your health and mana. The wait to return is 30 seconds, longer if you die " +
+      "again soon. If you don't release, it happens after 6 minutes. Dying in a dungeon? Re-enter it as a ghost." },
+  { id: "mech-pet-loyalty", title: "Hunter pet loyalty and happiness", source: SERVER_RULES,
+    text: "A hunter's pet has six loyalty levels, from Rebellious up to Best Friend. Keep it happy (fed) and it gains " +
+      "loyalty, and kills add more; each new loyalty level brings training points. A happy pet does 25% more damage " +
+      "and an unhappy one 25% less. An unhappy Rebellious pet runs away for good." },
+  { id: "mech-pet-leveling", title: "Leveling a hunter pet", source: changes("Patch notes", "/patch-notes"),
+    text: "A pet earns experience only from kills that give you experience, compared with its own level, so monsters " +
+      "a few levels above the pet level it fastest. It can never pass your level. In WoW Forever Tame Beast no " +
+      "longer works on beasts above your own level, and pets use your higher critical strike chance." },
 ];

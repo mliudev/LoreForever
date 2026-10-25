@@ -5,7 +5,7 @@
 import { page, FRESH } from "../../lib/voices.js";
 import { HEAD, htmlHeaders } from "../../lib/guides.js";
 
-const BODY = `  <section class="gde" id="gde">
+const BODY = `  <section class="gde ch-sheet" id="gde">
     <h1>Guides editor</h1>
     <p class="gde-msg" id="gde-msg" role="status">Loading&hellip;</p>
 

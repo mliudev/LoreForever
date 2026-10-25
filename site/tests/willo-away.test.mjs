@@ -20,7 +20,8 @@ beforeEach(async () => {
   systems = [];
   globalThis.fetch = async (url, options) => {
     const body = JSON.parse(options.body);
-    systems.push(body.systemInstruction.parts[0].text);
+    // Each Flash-Lite request opens with its own tag (lib/companion-answers.js generate, LOR-761); compare the rest.
+    systems.push(body.systemInstruction.parts[0].text.replace(/^\([0-9a-f]{8}\)\n/, ""));
     const text = body.generationConfig.responseMimeType ? JSON.stringify({ summary: "A summary." }) : "Say it.\n~~~\nWritten out.";
     return Response.json({ candidates: [{ content: { parts: [{ text }] } }],
       usageMetadata: { promptTokenCount: 200, candidatesTokenCount: 40, thoughtsTokenCount: 10 } });
@@ -123,7 +124,7 @@ async function askWith(token, { client = "companion/0.1.0", ...fields } = {}) {
   systems = [];
   globalThis.fetch = async (url, options) => {
     const body = JSON.parse(options.body);
-    systems.push(body.systemInstruction.parts[0].text);
+    systems.push(body.systemInstruction.parts[0].text.replace(/^\([0-9a-f]{8}\)\n/, ""));
     sentBodies.push(body);
     const text = "Thrall leads the Horde from Orgrimmar.\n~~~\nThrall leads the Horde from Orgrimmar, in Durotar.";
     if (String(url).includes(":streamGenerateContent")) {

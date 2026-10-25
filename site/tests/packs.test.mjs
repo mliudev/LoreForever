@@ -72,8 +72,15 @@ test("/downloads: a pack that isn't out yet stays off the page; a missing packs.
 
 test("a lore page links the downloads that have its recording, to rows /downloads has", async () => {
   const env = { ASSETS: assets(), STUDIO: await bucketWith([]) };
-  const page = await (await entryGet({ request: new Request(HOME + "/lore/subzone/goldshire"), env,
-    params: { type: "subzone", id: "goldshire" }, next: async () => new Response("static") })).text();
+  // A place both narrators have recorded in the Alliance packs, from the data: rewording a page retires its recordings
+  // until it is re-recorded, so no named page is certain to have them.
+  const inPacks = JSON.parse(readFileSync(join(PUBLIC, "data/pack-entries.json"), "utf8"));
+  const alliance = ["LoreForever_Voice_Default_Alliance", "LoreForever_Voice_Female_Alliance"].map(p => inPacks.packs.indexOf(p));
+  const key = Object.keys(inPacks.entries).sort().find(k => k.startsWith("subzone:") && alliance.every(i => inPacks.entries[k].includes(i)));
+  assert.ok(key, "some place has a recording in both Alliance packs");
+  const id = key.slice("subzone:".length);
+  const page = await (await entryGet({ request: new Request(HOME + "/lore/subzone/" + id), env,
+    params: { type: "subzone", id }, next: async () => new Response("static") })).text();
   const links = [...page.matchAll(/href="\/downloads#([^"]+)"/g)].map(m => m[1]);
   assert.ok(links.includes("pack-voice-default-alliance") && links.includes("pack-voice-female-alliance"), links.join());
   assert.match(page, /Hear it in game/);

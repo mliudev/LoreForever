@@ -3,7 +3,9 @@
 (() => {
   "use strict";
   const config = document.getElementById("lf-analytics");
-  if (!config || window.lfAnalyticsStarted || location.origin !== "https://loreforeverwow.com") return;
+  // Lore Forever's domain and Willo's (lib/doors.js WILLO_DOMAIN; lib/analytics.js picks the pages on each).
+  const willo = location.origin === "https://willocompanion.com";
+  if (!config || window.lfAnalyticsStarted || (location.origin !== "https://loreforeverwow.com" && !willo)) return;
   const { id, path, title, kind } = config.dataset;
   if (!/^G-[A-Z0-9]{4,20}$/.test(id || "") || path !== location.pathname) return;
   window.lfAnalyticsStarted = true;
@@ -43,7 +45,7 @@
           const prefix = "/" + pieces.slice(0, i).join("/");
           paths.add(prefix); paths.add(prefix + "/");
         }
-        for (const p of paths) for (const domain of ["", "; Domain=loreforeverwow.com", "; Domain=.loreforeverwow.com"]) {
+        for (const p of paths) for (const domain of ["", "; Domain=" + location.hostname, "; Domain=." + location.hostname]) {
           document.cookie = `${name}=; Max-Age=0; Path=${p}${domain}; SameSite=Lax; Secure`;
         }
       }
@@ -64,7 +66,7 @@
   ].find(([, host]) => host.test(referrerHost));
   const campaignSource = searchEngine ? searchEngine[0] : referrerHost || "(direct)";
   const campaignMedium = searchEngine ? "organic" : referrerHost ? "referral" : "(none)";
-  const page = { page_location: "https://loreforeverwow.com" + path, page_referrer: referrer, page_title: title };
+  const page = { page_location: location.origin + path, page_referrer: referrer, page_title: title };
   function gtag() { window.lfAnalyticsData.push(arguments); }
   const send = (name, params = {}) => {
     if (active && !navigated && location.pathname === path) gtag("event", name, { ...page, ...params, send_to: id });
@@ -114,7 +116,8 @@
   const panel = document.createElement("section");
   panel.className = "lf-analytics-panel";
   panel.setAttribute("aria-label", "Optional analytics");
-  panel.innerHTML = '<h2>Help improve Lore Forever?</h2><p>Allow Google Analytics to count public page visits, article reads and download or Discord clicks? Google receives your connection information and uses analytics cookies. Nothing loads until you allow it. No account details, searches or messages are sent.</p><p><a href="/privacy#optional-analytics">Read about analytics</a></p><div class="lf-analytics-actions"><button type="button" data-choice="granted">Allow analytics</button><button type="button" data-choice="denied">Decline analytics</button></div><p class="lf-analytics-status" role="status"></p>';
+  panel.innerHTML = (willo ? '<h2>Help improve Willo?</h2><p>Allow Google Analytics to count public page visits and download clicks? Google' :
+    '<h2>Help improve Lore Forever?</h2><p>Allow Google Analytics to count public page visits, article reads and download or Discord clicks? Google') + ' receives your connection information and uses analytics cookies. Nothing loads until you allow it. No account details, searches or messages are sent.</p><p><a href="/privacy#optional-analytics">Read about analytics</a></p><div class="lf-analytics-actions"><button type="button" data-choice="granted">Allow analytics</button><button type="button" data-choice="denied">Decline analytics</button></div><p class="lf-analytics-status" role="status"></p>';
   const manage = document.createElement("button");
   manage.type = "button";
   manage.className = "lf-analytics-manage";

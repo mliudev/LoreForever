@@ -1,0 +1,189 @@
+/* The community pages in the book (2026-10-24, "The Chronicle" across the site): translate and its dashboard, contribute,
+   the clip report, the voice pages (a voice's profile, the zones, the narrator form, guide, terms and release), the
+   contributors list, the voice studio and the recorder. Each page's column is one page of the book (class "ch-leaf",
+   chronicle.css and the frame in pages.css), and style.css turns the old colour names to ink on parchment. This sheet is
+   the rest: the older rules in style.css and the studio that wrote their own dark colours (black glass for buttons and
+   fields, the game's bright green and red for states), written again here in the book's tokens (--pg-*). Load it after
+   pages.css. Everything is behind :where(html:not([data-door="willo"])) so Willo's door keeps its own look. */
+
+:where(html:not([data-door="willo"])) {
+  /* Pills and small buttons: filter chips, likes, the languages' thumbs-up, the dashboard's counts. */
+  .bw .bw-in :is(.tl-like button, .td-filters button, .vl-filters button, .vc-like button, .td-cats button, .vr-play) {
+    background: var(--pg-paper); border: 1px solid var(--pg-edge); color: var(--pg-ink); }
+  .bw .bw-in :is(.tl-like button, .td-filters button, .vl-filters button, .vc-like button, .td-cats button, .vr-play):hover {
+    border-color: var(--pg-title); background: var(--pg-fill-hover); }
+  .bw .bw-in :is(.tl-like button, .td-filters button, .vl-filters button, .vc-like button):focus-visible,
+  .bw .bw-in :is(.td-cats button, .vr-play):focus-visible { outline: 2px solid var(--pg-title); outline-offset: 2px; }
+  .bw .bw-in :is(.tl-like button, .td-filters button, .vl-filters button, .vc-like button)[aria-pressed="true"] {
+    background: var(--pg-title); border-color: var(--pg-title); color: var(--pg-on); }
+  .bw .bw-in .td-cats button[aria-pressed="true"] { border-color: var(--pg-title); box-shadow: inset 0 0 0 1px var(--pg-title); }
+  .bw .bw-in .td-cats button strong { color: var(--pg-title); }
+  .bw .bw-in .td-cats button span { color: var(--pg-ink); }
+  .bw .bw-in .vr-play[disabled] { opacity: 0.45; }
+
+  /* Meters and drop zones. */
+  .bw .bw-in .tl-meter { background: #7366524d; border-color: var(--pg-edge); }
+  .bw .bw-in .tl-meter span { background: var(--pg-title); }
+  .bw .bw-in .cb-drop { background: color-mix(in srgb, var(--pg-paper) 55%, transparent); border: 2px dashed var(--pg-edge); color: var(--pg-ink); }
+  .bw .bw-in .cb-drop:hover, .bw .bw-in .cb-drop.cb-over, .bw .bw-in .cb-drop:focus-within { border-color: var(--pg-title); background: var(--pg-paper); }
+  .bw .bw-in .cb-drop strong { color: var(--pg-title); }
+  .bw .bw-in .cb-path { background: var(--pg-code); color: var(--pg-ink); }
+
+  /* States: the game's bright green and red were for the dark; on parchment they are the book's. */
+  .bw .bw-in :is(.td-note.td-ok, .td-lgtm, .ac-st-shipped, .ac-st-in, .ac-st-accepted, .ac-st-done, .dl-check) { color: var(--a-new); }
+  .bw .bw-in :is(.cr-verified, .cr-accepted, .cr-shipped) .cr-status { color: var(--a-new); border-color: color-mix(in srgb, var(--a-new) 55%, transparent); }
+  .bw .bw-in :is(.td-note.td-no, .ac-st-unused, .ac-st-rejected) { color: var(--a-bad); }
+  .bw .bw-in .td-note.td-draft { color: var(--a-q3); }
+  .bw .bw-in .td-note.td-new { color: var(--pg-title); }
+  .bw .bw-in .td-key { color: var(--pg-muted); }
+  .bw .bw-in .td-label { color: var(--pg-note); }
+
+  /* Forever text progress: "captured" is the book's gold seal and "narrated" its wax one (chronicle.css .ch-seal). */
+  .bw .bw-in .pg-hero { box-shadow: 0 6px 18px -12px #000; }
+  .bw .bw-in :is(.pg-key-text, .pg-text) { background: var(--pg-rim); }
+  .bw .bw-in :is(.pg-key-voice, .pg-voice) { background: var(--pg-wax); }
+  .bw .bw-in .pg-bar { background: #7366524d; border-color: var(--pg-edge); }
+  .bw .bw-in .pg-wzone li { border-top-color: var(--pg-line); }
+  .bw .bw-in .pg-wzone summary::before { color: var(--pg-title); }
+  .bw .bw-in .pg-lvl { border-color: var(--pg-edge); color: var(--pg-note); }
+  .bw .bw-in .cb-paste { opacity: 1; }   /* a faded card is under 4.5:1 */
+
+  /* A visible keyboard focus on every control of a page of the book (the sheet's own rule is chronicle.css .ch-sheet). */
+  .bw .bw-in.ch-leaf :where(a, button, summary, [tabindex], input, select, textarea):focus-visible { outline: 2px solid var(--pg-title); outline-offset: 2px; }
+}
+
+/* The account's ribbons wrapper takes no box of its own on Willo's door (her tabs stay where they were). */
+.ac-ribbons { display: contents; }
+
+/* ---- The Chronicle's layouts (2026-10-24, the approved whole-site design, "part Y"): the pieces the account, sign in,
+   community, tools and contributors pages share. The names are the design's: a ribbon (.ly-ribbon, a bookmark hanging
+   over the top of a sheet), the two-page sheet (.ly-two), tiles (.ly-tiles .ly-tile), a badge (.ly-badge), the Willo slip
+   (.ly-slip) and a numbered step (.ly-step). The colours are the book's tokens, so light and dark follow themselves. ---- */
+:where(html:not([data-door="willo"])) {
+  /* Ribbons: the sheet's siblings as bookmarks above its top edge. They hang from the sheet (absolute, so a page that
+     redraws its body keeps them) and scroll sideways inside their own strip on a narrow phone, never the page. */
+  .ly-ribbons, .ac-ribbons { position: absolute; left: 14px; right: 14px; bottom: 100%; z-index: 3; display: flex; gap: 4px; margin: 0 0 5px; padding: 0;
+    overflow-x: auto; scrollbar-width: none; list-style: none; }
+  .ly-ribbons::-webkit-scrollbar, .ac-ribbons::-webkit-scrollbar { display: none; }
+  .ac-ribbons > nav { display: flex; gap: 4px; flex: none; }
+  .bw .bw-in.ly-tabbed { margin-top: 62px; }
+  .ly-ribbon, .ac-tabs a, .ac-ribbon-out {
+    flex: none; display: inline-block; margin: 0; padding: 7px 15px 12px; background: var(--pg-chip); color: var(--pg-ink); text-decoration: none;
+    border: 0; border-radius: 3px 3px 0 0; font: 600 0.92rem/1.2 var(--h-body, sans-serif); white-space: nowrap; letter-spacing: 0;
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 50% 82%, 0 100%); }
+  @media (max-width: 480px) {
+    /* A phone fits three bookmarks and the edge of the fourth, which shows the strip slides. */
+    .ly-ribbon, .ac-tabs a, .ac-ribbon-out { padding: 7px 11px 12px; font-size: 0.86rem; }
+  }
+  .ly-ribbon:hover, .ac-tabs a:hover, .ac-ribbon-out:hover { background: color-mix(in srgb, var(--pg-chip) 70%, var(--pg-rim)); color: var(--pg-ink); }
+  .ly-ribbon[aria-current="page"], .ac-tabs a[aria-selected="true"] { background: var(--pg-btn); color: var(--pg-btn-ink); border: 0; }
+  .ly-ribbon:focus-visible, .ac-tabs a:focus-visible, .ac-ribbon-out:focus-visible { outline: 2px solid var(--pg-title); outline-offset: -4px; clip-path: none; border-radius: 3px; }
+  .ly-ribbon[aria-current="page"]:focus-visible, .ac-tabs a[aria-selected="true"]:focus-visible { outline-color: var(--pg-btn-ink); }
+  /* Willo's ribbon is hers: the blue of her slip, in either theme. */
+  .ac-ribbon-out, .ly-ribbon.ly-willo { background: #bcd7ea; color: #12304a; }
+  .ac-ribbon-out:hover, .ly-ribbon.ly-willo:hover { background: #cfe4f3; color: #12304a; }
+  .ac-ribbon-out:focus-visible, .ly-ribbon.ly-willo:focus-visible { outline-color: #12304a; }
+
+  /* Two pages side by side on one sheet, the right one under a rule on a phone. */
+  .ly-two { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); gap: 0; }
+  .ly-two > * { min-width: 0; display: grid; gap: 10px; align-content: start; padding: 4px 22px 4px 0; }
+  .ly-two > * + * { padding: 4px 0 4px 22px; border-left: 1px solid color-mix(in srgb, var(--pg-rim) 55%, transparent); }
+  @media (max-width: 720px) {
+    .ly-two { grid-template-columns: minmax(0, 1fr); gap: 18px; }
+    .ly-two > *, .ly-two > * + * { padding: 0; border: 0; }
+    .ly-two > * + * { padding-top: 16px; border-top: 1px solid color-mix(in srgb, var(--pg-rim) 55%, transparent); }
+  }
+
+  /* A badge: how someone helped, or what state a page is in. */
+  .ly-badge, .ac-badge { display: inline-block; padding: 1px 9px; border: 1px solid var(--pg-rim); border-radius: 999px; color: var(--pg-note);
+    font: 600 0.78rem/1.5 var(--h-body, sans-serif); }
+  .ly-badge.ly-on { background: var(--pg-chip); color: var(--pg-ink); }
+
+  /* Tiles for the things to do: a title, a line, and one button. The whole tile is the button's link. */
+  .ly-tiles { display: grid; grid-template-columns: repeat(auto-fill, minmax(min(100%, 200px), 1fr)); gap: 10px; margin: 6px 0 10px; padding: 0; list-style: none; }
+  .ly-tile { position: relative; display: grid; gap: 4px; align-content: start; min-height: 96px; padding: 12px 14px; border: 1px solid var(--pg-edge);
+    border-radius: 3px; background: var(--pg-tile); color: var(--pg-ink); }
+  .ly-tile h3, .ly-tile b, .bw .bw-in .ly-tile h3 { margin: 0; font: 600 1.02rem/1.25 var(--h-display, serif); letter-spacing: 0; text-transform: none; color: var(--pg-title); }
+  .ly-tile p { margin: 0; color: var(--pg-note); font-size: 0.92rem; line-height: 1.4; }
+  .ly-tile a.ly-go { margin-top: 6px; justify-self: start; }
+  .ly-tile a.ly-go::after { content: ""; position: absolute; inset: 0; }
+  .ly-tile:hover { border-color: var(--pg-title); }
+  .ly-tile:has(a:focus-visible) { outline: 2px solid var(--pg-title); outline-offset: 2px; }
+  .ly-tile a:focus-visible { outline: 0; }
+  .ly-tile.ly-blank { border-style: dashed; background: var(--a-blank); }
+
+  /* Willo's slip: her pale blue on either theme (the sister site's own colours). */
+  .ly-slip, .ac-slip { display: flex; gap: 10px; align-items: center; padding: 9px 12px; border: 1px solid #7fa6c4; border-radius: 4px;
+    background: linear-gradient(100deg, #d9e8f3, #eef4f9); color: #12304a; }
+  .ly-slip p, .ac-slip p { margin: 0; color: #12304a; font-size: 0.92rem; line-height: 1.35; }
+  .ly-slip p + p, .ac-slip p + p { color: #2b4a62; font-size: 0.86rem; }
+  .ly-slip-ico, .ac-slip-ico { flex: none; display: grid; place-items: center; width: 30px; height: 30px; border-radius: 4px; background: #0e2438; color: #ecc07a;
+    font: 700 1rem/1 var(--h-display, serif); }
+
+  /* A numbered step. */
+  .ly-step { display: grid; grid-template-columns: 26px minmax(0, 1fr); gap: 10px; align-items: start; }
+  .ly-step > .n { display: grid; place-items: center; width: 24px; height: 24px; border-radius: 50%; background: var(--pg-btn); color: var(--pg-btn-ink);
+    font: 700 0.8rem/1 var(--h-body, sans-serif); }
+}
+
+/* Filter chips and the contributors' tiles. */
+:where(html:not([data-door="willo"])) {
+  .ly-chips { display: flex; flex-wrap: wrap; align-items: center; gap: 6px; margin: 0 0 6px; }
+  .bw .bw-in a.ly-chip, .bw .bw-in button.ly-chip { display: inline-block; padding: 3px 11px; border: 0; border-radius: 3px; background: var(--pg-chip); color: var(--pg-ink);
+    font: 0.9rem/1.4 var(--h-body, sans-serif); text-decoration: none; cursor: pointer; }
+  .bw .bw-in a.ly-chip:hover, .bw .bw-in button.ly-chip:hover { background: color-mix(in srgb, var(--pg-chip) 70%, var(--pg-rim)); color: var(--pg-ink); }
+  .bw .bw-in :is(a, button).ly-chip[aria-current="true"], .bw .bw-in button.ly-chip[aria-pressed="true"] { background: var(--pg-btn); color: var(--pg-btn-ink); }
+  .ly-people { margin-top: 10px; }
+  .ly-person { align-content: start; gap: 3px; }
+  .ly-person .ct-name { font: 600 1.08rem/1.25 var(--h-display, serif); color: var(--pg-title); overflow-wrap: anywhere; }
+  .ly-person .ct-what, .ly-person .ct-n { color: var(--pg-note); font-size: 0.9rem; }
+  .ly-person .vcon-voices { margin: 4px 0 0; padding-left: 18px; font-size: 0.95rem; }
+  .ly-person .vpr-links, .ly-person .ct-links { margin: 0; font-size: 0.9rem; }
+  .ly-badges { display: flex; flex-wrap: wrap; gap: 5px; margin: 2px 0; }
+  .ly-person a { position: relative; z-index: 1; }
+}
+
+/* ---- The tools (the narrator studio and the translate editor): a wide sheet, the two tools as ribbons, the lines as a table
+   (English, your words, its state) on a desktop and one card per line on a phone. ---- */
+:where(html:not([data-door="willo"])) {
+  .bw .bw-in.ly-wide { max-width: 1180px; }
+  .bw .bw-in.td-page.ly-wide, .bw .bw-in.st-page.ly-wide { padding-inline: 36px; }
+
+  /* The translate editor. */
+  .td-th { display: none; }
+  .bw .bw-in .td-entry { margin: 0 0 18px; padding: 4px 0 0; border: 0; border-radius: 0; background: none; box-shadow: none; }
+  .bw .bw-in .td-entry > h3 { margin: 8px 0 2px; padding-bottom: 4px; border-bottom: 1px solid var(--pg-rim); color: var(--pg-title); }
+  .td-row { border-top-color: color-mix(in srgb, var(--pg-edge) 35%, transparent); }
+  .td-label { color: var(--pg-note); }
+  .td-tr textarea { background: var(--pg-paper); color: var(--pg-ink); border-color: var(--pg-edge); }
+  .td-tr textarea:focus-visible { outline: 2px solid var(--pg-title); outline-offset: 1px; }
+  .td-note { color: var(--pg-note); }
+  .td-note.td-new { color: var(--pg-title); }
+  @media (min-width: 761px) {
+    .td-th:has(+ #td-list .td-row) { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1fr) 170px; gap: 6px 18px; padding: 8px 0 6px;
+      border-bottom: 1px solid var(--pg-rim); color: var(--pg-note); font: 700 0.74rem/1.2 var(--h-body, sans-serif); letter-spacing: 0.08em; text-transform: uppercase; }
+    .td-row { grid-template-columns: minmax(0, 1fr) minmax(0, 1fr) 170px; }
+    .td-en { grid-column: 1; grid-row: 1 / span 2; }
+    .td-tr { display: contents; }
+    .td-tr > textarea { grid-column: 2; grid-row: 1; }
+    .td-tr > details { grid-column: 2; grid-row: 2; }
+    .td-tr > .td-under { grid-column: 3; grid-row: 1 / span 2; flex-direction: column; flex-wrap: nowrap; justify-content: flex-start; align-items: flex-start; gap: 6px; }
+    .td-under .td-note { margin: 0; }
+  }
+  /* A phone gets a card for each line: its English, your box, its state. */
+  @media (max-width: 760px) {
+    .bw .bw-in.td-page.ly-wide, .bw .bw-in.st-page.ly-wide { padding-inline: 16px; }
+    .td-row { gap: 8px; margin: 0 0 10px; padding: 10px 12px; border: 1px solid var(--pg-edge); border-radius: 3px; background: var(--pg-tile); }
+  }
+
+  /* The narrator studio: each story a row of the table, not a card of its own. */
+  .bw .bw-in .st-story { margin: 0; border-width: 0 0 1px; border-radius: 0; background: none; }
+  .bw .bw-in .st-story.mine { border-color: var(--pg-title); }
+  .bw .bw-in .st-story h3 { padding: 8px 4px 4px; background: none; }
+  .bw .bw-in .st-row { padding: 8px 4px; border-top-color: color-mix(in srgb, var(--pg-edge) 30%, transparent); }
+  .bw .bw-in .st-row.child { padding-left: 24px; }
+  @media (max-width: 560px) {
+    .bw .bw-in .st-story { margin: 0 0 10px; border: 1px solid var(--pg-edge); border-radius: 3px; background: var(--st-panel); }
+    .bw .bw-in .st-story h3 { padding: 8px 12px; background: color-mix(in srgb, var(--pg-edge) 15%, transparent); }
+  }
+}

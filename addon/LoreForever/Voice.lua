@@ -1028,17 +1028,6 @@ function Voice.NoticeOutdated()
     count, table.concat(titles, ", "), Voice.DOWNLOADS))
 end
 
--- Say once per add-on version when the default voice would play but isn't installed. On CurseForge the male narrator
--- is a project of his own that the app installs with the add-on (release/curseforge.json); should that ever fail,
--- stories would turn to text without a word, and the lands hint (Voice.OnZone) needs a voice to speak of.
-local function noticeDefaultMissing()
-  if not sameLanguage(readingLocale(), "enUS") or Voice.Current() ~= AUTO or ns.Packs.Get(DEFAULT_PACK) then return end
-  local core = versionOf("LoreForever")
-  if S().defaultMissingNoted == core then return end
-  S().defaultMissingNoted = core
-  say(L["The narrator's voice is missing, so his tales stay written for now. Add Lore Forever - Male Narrator in the CurseForge app, then type /reload."])
-end
-
 -- At login: find the installed packs and load the chosen voice.
 function Voice.Init()
   if not next(ns.Packs.registry) then ns.Packs.Scan() end
@@ -1050,7 +1039,6 @@ function Voice.Init()
     noticeMissing()
     noticeLanguage()
   end
-  noticeDefaultMissing()
   noticeUnused()
   if C_Timer and C_Timer.After then C_Timer.After(10, function() pcall(Voice.NoticeOutdated) end) end
   Voice.CheckSpoken()
@@ -1067,10 +1055,15 @@ function Voice.OnCombatEnded()
   if ns.UI and ns.UI.OnVoiceChanged then ns.UI.OnVoiceChanged() end
 end
 
+-- Quest pages the player asked for on purpose, with Listen on a quest's Chronicle page (UI.QuestPageClip marks the clips
+-- of a playlist item that was asked for): they play whatever "Speak quest dialogue" says, which decides only what plays
+-- by itself. This session only.
+Voice.askedClips = {}
+
 -- A recorded narration exists for this entry with the current voice (or quest dialogue Voice.QuestClip picked).
 function Voice.HasAudio(key)
   if not ns.Lang.ValidateEdition() then return false end
-  if isQuestClip(key) and not Voice.QuestDialogue() then return false end
+  if isQuestClip(key) and not Voice.QuestDialogue() and not Voice.askedClips[key] then return false end
   if not Voice.ready then Voice.Refresh() end
   return key ~= nil and (Voice.active[key] or Voice.questPaths[key]) ~= nil
 end

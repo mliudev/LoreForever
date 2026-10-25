@@ -58,7 +58,7 @@ export const KEYS = {
   },
   byKind: {
     play: NARRATION, done: NARRATION, autoplay: NARRATION, autodone: NARRATION, userplay: NARRATION, userdone: NARRATION,
-    tab: ["here", "narrations", "journey", "history", "queue"],
+    tab: ["here", "narrations", "journey", "history", "queue", "storylines"],
     asked: ["typed", "slash", "hover", "quest", "next", "complete", "primer", "link", "other"],
     pl: ["add", "quest", "here", "play", "next", "prev", "jump", "clear"],
     lv: ["0", "10", "20", "30", "40", "50", "60"],
@@ -102,6 +102,7 @@ export const FEATURES = [
   ["live", "Live answers asked from the game", ["live"]],
   ["panel", "Lore panel", ["panel"]],
   ["library", "Library tab", ["tab.narrations"]],
+  ["storylines", "Storylines tab", ["tab.storylines"]],
   ["history", "History", ["tab.history"]],
   ["journey", "Journey", ["journey", "tab.journey"]],
   ["map", "Bigger map", ["map"]],

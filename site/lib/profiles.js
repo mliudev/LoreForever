@@ -489,14 +489,40 @@ export const sameCharacter = (a, b) => a?.name === b?.name && a?.realm === b?.re
 
 // ---- The page ----
 
-// The book-and-wisp frame (lib/voices.js page()), with public/profile.css fitting the profile's own pieces into it and
-// Alegreya, the serif of the site's Alegreya Sans, for the story.
+// The book-and-wisp frame (lib/voices.js page()), with public/chronicle.css (the add-on's parchment page, shared with the
+// lore pages and the home page) and public/profile.css fitting the profile's own pieces onto it, and Alegreya, the serif
+// of the site's Alegreya Sans, for the story.
 const PROFILE_CSS = `<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Alegreya:ital,wght@0,400;1,400&display=swap">
+<link rel="stylesheet" href="/chronicle.css?${FRESH}">
 <link rel="stylesheet" href="/profile.css?${FRESH}">`;
+// The page inside the home page's frame (profilePage preview): the page alone, without the site's header and footer,
+// and its links open in the home page's place.
+const PREVIEW_HEAD = `<base target="_top">
+<style>header.top, .h-foot { display: none; } .bw main.bw-page { min-height: 0; }</style>`;
 const host =u => new URL(u).hostname.replace(/^www\./, "");
 // data-para: the paragraph's place, for the Listen box's read-along (lib/storyvoice.js storyParts counts the same way).
 const paragraphs = text => String(text || "").split(/\n\s*\n/).map(p => p.trim()).filter(Boolean)
   .map((p, i) => `<p data-para="${i}">${escape(p)}</p>`).join("\n      ");
+// The story on the bookplate, under the name and Share (Mike, 10/24: the blurb and its Listen together in the title
+// card): its title, Listen, the opening paragraph and a "Read on" that opens the rest in place, and Willo's signature.
+// #story stays its address (the bookmarks, old links).
+function storyBlock(p, { name, locale, listen, herald }) {
+  const html = paragraphs(p.story);
+  if (!html) return "";
+  const cut = html.indexOf("\n");
+  const [first, rest] = cut < 0 ? [html, ""] : [html.slice(0, cut), html.slice(cut).trim()];
+  return `<div class="pf-story" id="story" role="region" aria-labelledby="story-title">
+      <h2 id="story-title">${escape(name)}'s story</h2>
+      ${listen}
+      <div class="pf-story-text" lang="${locale === "en" || p.story_source !== "written" ? "en" : escape(locale)}">
+        ${first}${rest ? `
+        <details class="pf-story-more"><summary>Read on</summary>
+        ${rest}
+        </details>` : ""}
+      </div>${herald ? `
+      <p class="pf-signed"><img src="/img/wispr-head.svg" alt="" width="48" height="48"><span>Written by ${COMPANION_NAME}</span></p>` : ""}
+    </div>`;
+}
 const firstSentence = text => {
   const s = String(text || "").replace(/\s+/g, " ").trim();
   const m = /^.{20,200}?[.!?](?=\s|$)/.exec(s);
@@ -504,19 +530,22 @@ const firstSentence = text => {
 };
 const QUALITY_CLASS = ["q0", "q1", "q2", "q3", "q4", "q5"];
 
-function tiles(d) {
+// The counts under the name, "at a glance": [label, number, "+" when a cut record only keeps the newest].
+function figures(d) {
   const { dungeons } = road(d);
   const t = d.totals;
   // The totals line counts everything; dungeons and deaths come from the lists, which a cut record keeps only the
   // newest of: "3+". The journey stats count every death (LOR-246).
   const more = d.cut ? "+" : "";
   return [
-    ["Quests done", t.quests], ["Places", t.places], ["People met", t.people], ["Foes", t.foes],
-    ["Bosses", t.bosses], ["Dungeons", dungeons.length, more],
-    d.stats ? ["Deaths", d.stats.deaths] : ["Deaths", d.deaths.length, more],
-  ].filter(([, n]) => n !== null && n !== undefined)
-    .map(([label, n, plus = ""]) => `<li><strong>${count(n)}${plus}</strong><span>${label}</span></li>`).join("");
+    ["quests done", t.quests], ["places", t.places], ["people met", t.people], ["foes", t.foes],
+    ["bosses", t.bosses], [dungeons.length === 1 ? "dungeon" : "dungeons", dungeons.length, more],
+    d.stats ? [d.stats.deaths === 1 ? "death" : "deaths", d.stats.deaths] : ["deaths", d.deaths.length, more],
+    d.chronicle ? ["chronicle pages", d.chronicle.pages] : null,
+  ].filter(Boolean).filter(([, n]) => n !== null && n !== undefined);
 }
+const glanceList = d => `<ul class="pf-glance" aria-label="${escape(d.name)} at a glance">${figures(d)
+  .map(([label, n, plus = ""]) => `<li><strong>${count(n)}${plus}</strong> ${label}</li>`).join("")}</ul>`;
 
 // One list in the numbers tab, or nothing when it's empty.
 function card(title, items, more = 0) {
@@ -555,6 +584,33 @@ function cards(d, lore) {
   return out.filter(Boolean).join("\n      ");
 }
 
+// The chronicle: the pages the character has found in the add-on's book (its Found tab), zone by zone, as counts. The
+// record keeps counts only (lib/journey.js chronicleLine), so the names of the pages stay in game: nothing here can
+// spoil one. "" for a record without a chronicle (an add-on before v2). lore: lib/trails.js lookups while the lore
+// pages are on, so a zone's name links to its lore page.
+function chronicleSection(d, lore) {
+  const zones = (d.chronicle?.zones || []).filter(z => z?.zone);
+  if (!zones.length) return "";
+  const rows = zones.map(z => {
+    const found = Math.max(0, Number(z.found) || 0), total = Math.max(found, Number(z.total) || 0);
+    const pct = total ? Math.min(100, Math.round(found / total * 100)) : 0;
+    return `<li class="pf-cz${total && found >= total ? " pf-cz-full" : ""}">
+        <span class="pf-cz-name">${loreLink(z.zone, lore?.zone(z.zone))}</span>
+        <span class="pf-cz-n">${count(found)} of ${count(total)} pages${z.heard ? `<span class="pf-cz-heard">, ${count(z.heard)} heard</span>` : ""}</span>
+        <span class="ch-meter" role="img" aria-label="${pct}% of its pages found"><i style="width:${pct}%"></i></span>
+      </li>`;
+  }).join("\n      ");
+  const c = d.chronicle;
+  return `<section class="ch-sheet pf-sheet pf-chronicle" id="chronicle" aria-labelledby="chronicle-title">
+    <div class="pf-sheet-head"><h2 id="chronicle-title">${escape(d.name)}'s Chronicle</h2>
+      <span class="pf-sheet-sub">${counted(c.pages, "page")} found${c.heard ? ` &middot; ${count(c.heard)} heard` : ""}</span></div>
+    <p class="pf-sheet-note">Every place, person, item and quest they find in game gets a page in their book. The pages they haven't found stay blank, so nothing is spoiled.</p>
+    <ul class="pf-cz-list">
+      ${rows}
+    </ul>
+  </section>`;
+}
+
 // The profile's own address with `params` ("as=visitor", "pictures=1"; empty ones left out).
 const selfPath = (handle, ...params) => {
   const q = params.filter(Boolean).join("&");
@@ -562,7 +618,11 @@ const selfPath = (handle, ...params) => {
 };
 
 // Share (LOR-150): the share sheet, or the link copied (public/js/profile.js and share.js).
-const shareButton = name => `<button class="btn-small" type="button" data-share data-share-text="${escape(`${name}'s journey in WoW Forever`)}">Share</button>`;
+const shareButton = (name, label = "Share") => `<button class="btn-small" type="button" data-share data-share-text="${escape(`${name}'s journey in WoW Forever`)}">${label}</button>`;
+
+// The owner's two extras on the bookplate (the design's Share my page, Edit, Public): where to change what it shows, and whether
+// anyone can see it. Both stay out of the page everyone else gets.
+const plateExtras = p => `<a class="btn-small btn-small-alt" href="/account#profile">Edit</a><span class="pf-state" data-public="${p.public ? 1 : 0}">${p.public ? "Public" : "Private"}</span>`;
 
 // The bar only the owner sees, over the page everyone sees (Mike 10/11: the same page, plus this): whether others
 // can, View as a visitor (LOR-302), the switch, and Update it (public/js/profile.js). Share is in the head, for
@@ -602,7 +662,7 @@ export function visitorBar(p, query = "") {
 // go, and the two ways in.
 function makeYourOwn() {
   const tiles = ["Quests done", "Places", "Bosses", "Deaths"].map(t => `<li><strong>?</strong><span>${t}</span></li>`).join("");
-  return `<section class="pf-cta pf-mine" aria-labelledby="cta-title">
+  return `<section class="ch-sheet pf-sheet pf-cta pf-mine" aria-labelledby="cta-title">
     <div class="pf-ghost" aria-hidden="true">
       <div class="ss-head"><span class="vpr-avatar vpr-initial ss-avatar">?</span>
         <div><p class="ss-name">Your character</p><p class="ss-sub">Level ?? &middot; your race and class</p></div></div>
@@ -646,11 +706,12 @@ function badgeLine(badges) {
 
 const counted = (n, one, many = one + "s") => (n ? `${count(n)} ${n === 1 ? one : many}` : "");
 
-// /u/<handle>, built around the story of the journey (Mike, 10/11): the head (who, where they were last seen, Listen,
-// Share), then two tabs. The journey: the story, then its chapters (lib/chapters.js), each with its highlights, its
-// pictures and every moment folded inside, beside the road chart, which follows the chapter being read
-// (public/js/journey.js); on a phone the chart comes after the story and each chapter has its own small one. By the
-// numbers: the counts, the lines told for fun and the lists. Nothing on the page takes the reader to another page of
+// /u/<handle>, a bookplate and the sheets of the add-on's book, on one long page (the site revamp "The Chronicle", Mike
+// approved 2026-10-24; public/chronicle.css): the bookplate (who, where they were last seen, Listen, Share, the counts
+// at a glance), bookmarks to the sheets, their Chronicle (the pages found per zone, when the add-on sent it), the Road,
+// their story and the numbers. The Road is the journey kept whole (Mike, 10/11): the chapters (lib/chapters.js), each
+// with its highlights, its pictures and every moment folded inside, beside the road chart, which follows the chapter
+// being read (public/js/journey.js); on a phone each chapter has its own small chart. Nothing on the page takes the reader to another page of
 // ours except a name's lore page; links out (Wowhead) are marked and open a new tab. The owner sees the same page with
 // their bar on top and Remove in the picture viewer.
 //
@@ -662,12 +723,14 @@ const counted = (n, one, many = one + "s") => (n ? `${count(n)} ${n === 1 ? one 
 // keep ("pictures=1"). viewer: whoever is signed in, for the header (lib/voices.js siteNav); still the owner when
 // viewing as a visitor. herald: Willo, the Lore Forever companion (LOR-266, LOR-428), signs the story (the "companion"
 // feature).
-// listen: the Listen box (lib/storyvoice.js listenBox, LOR-316), or "". historyLinks, historyJourney: saved history
+// listen: the Listen box (lib/storyvoice.js listenBox, LOR-316), or "": with the story it plays, on the bookplate
+// (storyBlock). historyLinks, historyJourney: saved history
 // (lib/history.js), its links and the archived moments to tell instead. share: the owner's Share Willo card
-// (lib/referrals.js shareCard), where visitors get "This could be your page", or "".
+// (lib/referrals.js shareCard), where visitors get "This could be your page", or "". preview: the page as the home
+// page frames it (/u/<handle>?preview=1): a visitor's, without the site's header, footer or "This could be your page".
 export function profilePage(p, { links = [], owner = false, badges = [], names = linker(null), lore = false,
                                  pictures = null, asVisitor = false, query = "", viewer = null, herald = false,
-                                 listen = "", historyLinks = "", historyJourney = null, share = "" } = {}) {
+                                 listen = "", historyLinks = "", historyJourney = null, share = "", preview = false } = {}) {
   const d = p.data;
   const L = lore ? names : null;
   // The moments: the companion's journey when it has sent one (LOR-248), else the record's.
@@ -693,42 +756,43 @@ export function profilePage(p, { links = [], owner = false, badges = [], names =
   const last = [...list].reverse().find(m => m.e?.zone && !m.e.battleground && !battleground(m.e.zone));
   const seen = last ? `<p class="pf-seen">Last seen in ${escape(last.e.zone)}${dayText(last.day) ? ` &middot; ${escape(dayText(last.day))}` : ""}</p>` : "";
   const lands = new Set(chs.flatMap(c => c.lands.map(l => l.key)));
-  const glance = [counted(chs.length, "chapter"), counted(new Set(list.map(m => m.day).filter(Boolean)).size, "day on the road", "days on the road"),
-    counted(lands.size, "land"), counted(d.totals?.quests, "quest"), counted(d.totals?.bosses, "boss", "bosses")].filter(Boolean);
+  const roadCounts = [counted(chs.length, "chapter"), counted(new Set(list.map(m => m.day).filter(Boolean)).size, "day on the road", "days on the road"),
+    counted(lands.size, "land")].filter(Boolean);
   const bar = owner ? ownerBar(p, query) : asVisitor ? visitorBar(p, query) : "";
-  const numbers = numbersSection(d, new Date(), { lead: tiles(d), more: cards(d, L) });
-  const tabs = numbers ? `<nav class="pf-tabs" aria-label="${escape(d.name)}'s profile" hidden>
-    <a href="#journey" id="tab-journey" data-tab="journey">The journey</a><a href="#numbers" id="tab-numbers" data-tab="numbers">By the numbers</a>
-  </nav>` : "";
+  const numbers = numbersSection(d, new Date(), { more: cards(d, L) });
+  const chronicle = chronicleSection(d, L);
+  // The Road is the journey kept whole: the chart and the chapters. A record with none of it has no such sheet.
+  const hasRoad = Boolean(told || chart || behind || historyLinks || more);
+  // The bookmarks (the add-on's own): one long page, each jumping to its sheet; public/js/journey.js marks the one being read.
+  const marks = [chronicle && ["chronicle", "Chronicle"], hasRoad && ["journey", "The Road"], numbers && ["numbers", "Numbers"]].filter(Boolean);
+  const ribbons = marks.length > 1 ? `<nav class="ch-marks pf-marks" aria-label="${escape(d.name)}'s profile">${marks.map(([id, label]) => `<a href="#${id}">${label}</a>`).join("")}</nav>` : "";
   const body = `  ${bar}${iconSprite()}
-  <div class="vpr-head pf-head">
-    <span class="vpr-avatar vpr-initial pf-${escape(d.factionKey || "none")}" aria-hidden="true">${escape(Array.from(d.name)[0] || "?")}</span>
-    <div class="pf-head-main">
-      <h1>${escape(d.name)}</h1>
-      <p class="zone-where">${facts}</p>
-      ${p.spec ? `<p class="pf-spec">Favorite spec: <strong>${escape(p.spec)}</strong></p>` : ""}
-      ${seen}
-      ${badgeLine(badges)}
-      ${linkLine}
+  <section class="ch-sheet pf-sheet pf-plate" aria-label="${escape(d.name)}">
+    <div class="vpr-head pf-head">
+      <span class="vpr-avatar vpr-initial pf-${escape(d.factionKey || "none")}" aria-hidden="true">${escape(Array.from(d.name)[0] || "?")}</span>
+      <div class="pf-head-main">
+        <h1>${escape(d.name)}</h1>
+        <p class="zone-where">${facts}</p>
+        ${p.spec ? `<p class="pf-spec">Favorite spec: <strong>${escape(p.spec)}</strong></p>` : ""}
+        ${seen}
+        ${badgeLine(badges)}
+        ${linkLine}
+      </div>
+      <div class="pf-head-acts" data-bar data-public="${p.public ? 1 : 0}">
+        ${shareButton(d.name, owner ? "Share my page" : "Share")}${owner ? plateExtras(p) : ""}
+        <p class="fb-status" role="status" hidden></p>
+      </div>
+      ${glanceList(d)}
     </div>
-    <div class="pf-head-acts" data-bar data-public="${p.public ? 1 : 0}">
-      ${listen}${shareButton(d.name)}
-      <p class="fb-status" role="status" hidden></p>
-    </div>
-    ${glance.length ? `<p class="pf-glance">${glance.join(" &middot; ")}</p>` : ""}
-  </div>
-  ${tabs}
-  <div class="pf-panel" id="journey">
+    ${storyBlock(p, { name: d.name, locale: d.locale, listen, herald })}
+  </section>
+  ${ribbons}
+  ${chronicle}
+  ${hasRoad ? `<section class="ch-sheet pf-sheet pf-road" id="journey" aria-labelledby="road-title">
+    <div class="pf-sheet-head"><h2 id="road-title">The Road</h2>${roadCounts.length ? `<span class="pf-sheet-sub">${roadCounts.join(" &middot; ")}</span>` : ""}</div>
     ${behind}
     <div class="pf-atlas${chart ? "" : " pf-atlas-solo"}">
       <div class="pf-atlas-main">
-        <section class="vp-section pf-story" aria-labelledby="story-title">
-          <h2 id="story-title">${escape(d.name)}'s story</h2>
-          <div class="pf-story-text" lang="${d.locale === "en" || p.story_source !== "written" ? "en" : escape(d.locale)}">
-            ${paragraphs(p.story)}
-          </div>${herald ? `
-          <p class="pf-signed"><img src="/img/wispr-head.svg" alt="" width="48" height="48"><span>Written by ${COMPANION_NAME}</span></p>` : ""}
-        </section>
         ${told}
         ${historyLinks}
         ${more}
@@ -738,9 +802,9 @@ export function profilePage(p, { links = [], owner = false, badges = [], names =
         ${chart}
       </div></aside>` : ""}
     </div>
-  </div>
-  ${numbers}
-  ${owner ? share : makeYourOwn()}
+  </section>` : ""}
+  ${numbers ? `<div class="ch-sheet pf-sheet pf-numsheet">${numbers}</div>` : ""}
+  ${owner ? share : preview ? "" : makeYourOwn()}
   <p class="vp-note">${d.since ? `Journey recorded since ${escape(d.since)}. ` : ""}${updated ? `Updated ${escape(updated)}.` : ""}</p>
   ${pictures?.length ? pictureViewer({ owner }) : ""}`;
   // The share card (lib/sharecard.js): the owner's page draws it again when the public profile has changed since.
@@ -754,7 +818,7 @@ export function profilePage(p, { links = [], owner = false, badges = [], names =
     // A link to the profile shows its share card, or before it has one, its newest picture (or the site's card).
     image: cardUrl(p) || (pictures?.length ? "https://loreforeverwow.com" + pictureUrl(pictures[0]) : undefined),
     robots: "noindex",
-    head: PROFILE_CSS,
+    head: PROFILE_CSS + (preview ? "\n" + PREVIEW_HEAD : ""),
     source: "profile",
     foot: `<p>Played WoW Forever with Lore Forever? <a href="/account#profile">Make your own profile</a>.</p>`,
     // The page's own scripts carry FRESH, so a browser that kept an older copy fetches the one this page needs.

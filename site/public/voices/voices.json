@@ -44,7 +44,7 @@
           "addon": "LoreForever_Voice_QuestGivers",
           "status": "live",
           "included": false,
-          "clips": 3500,
+          "clips": 3768,
           "coverage": "Reads selected quest dialogue for male human, dwarf, Forsaken and orc quest givers. Turn on Speak quest dialogue and Match the quest giver's voice in Options. Other lines use your narrator's recording where available, or stay as text. These are quest lines, separate from Lore Forever's stories.",
           "download": "https://github.com/mliudev/LoreForever/releases/latest/download/LoreForever_Voice_QuestGivers.zip"
         },
@@ -55,7 +55,7 @@
           "addon": "LoreForever_Voice_QuestGivers2",
           "status": "soon",
           "included": false,
-          "clips": 0,
+          "clips": 1985,
           "coverage": "Reads quest dialogue for quest givers of quests of levels 31-50, in a voice of their race and gender. Turn on Speak quest dialogue and Match the quest giver's voice in Options. Other lines use your narrator's recording where available, or stay as text.",
           "download": "https://github.com/mliudev/LoreForever/releases/latest/download/LoreForever_Voice_QuestGivers2.zip"
         },
@@ -66,7 +66,7 @@
           "addon": "LoreForever_Voice_QuestGivers3",
           "status": "soon",
           "included": false,
-          "clips": 0,
+          "clips": 3861,
           "coverage": "Reads quest dialogue for quest givers of quests of levels 51-60, in a voice of their race and gender. Turn on Speak quest dialogue and Match the quest giver's voice in Options. Other lines use your narrator's recording where available, or stay as text.",
           "download": "https://github.com/mliudev/LoreForever/releases/latest/download/LoreForever_Voice_QuestGivers3.zip"
         },
@@ -76,7 +76,7 @@
           "addon": "LoreForever_Voice_Default_Quests",
           "status": "live",
           "included": false,
-          "clips": 4831,
+          "clips": 4841,
           "coverage": "recorded quest dialogue in his voice; turn on Speak quest dialogue in Options to hear it",
           "curseforge": "https://www.curseforge.com/wow/addons/lore-forever-quest-dialogue-male-narrator",
           "download": "https://github.com/mliudev/LoreForever/releases/latest/download/LoreForever_Voice_Default_Quests.zip"
@@ -87,7 +87,7 @@
           "addon": "LoreForever_Voice_Default_Quests2",
           "status": "soon",
           "included": false,
-          "clips": 2019,
+          "clips": 2523,
           "coverage": "recorded quest dialogue in his voice for the rest of the game's quests, levels 1-50; turn on Speak quest dialogue in Options to hear it",
           "download": "https://github.com/mliudev/LoreForever/releases/latest/download/LoreForever_Voice_Default_Quests2.zip"
         },
@@ -97,7 +97,7 @@
           "addon": "LoreForever_Voice_Default_Quests3",
           "status": "soon",
           "included": false,
-          "clips": 2194,
+          "clips": 4605,
           "coverage": "recorded quest dialogue in his voice for the rest of the game's quests, levels 51-60; turn on Speak quest dialogue in Options to hear it",
           "download": "https://github.com/mliudev/LoreForever/releases/latest/download/LoreForever_Voice_Default_Quests3.zip"
         },
@@ -137,7 +137,7 @@
           "addon": "LoreForever_Voice_Default_MoreQuests1",
           "status": "soon",
           "included": false,
-          "clips": 2,
+          "clips": 522,
           "coverage": "the story behind hundreds of quests from level 1 to 19, in his voice",
           "download": "https://github.com/mliudev/LoreForever/releases/latest/download/LoreForever_Voice_Default_MoreQuests1.zip"
         },
@@ -147,7 +147,7 @@
           "addon": "LoreForever_Voice_Default_MoreQuests2",
           "status": "live",
           "included": false,
-          "clips": 253,
+          "clips": 929,
           "coverage": "the story behind hundreds of quests from level 20 to 39, in his voice",
           "download": "https://github.com/mliudev/LoreForever/releases/latest/download/LoreForever_Voice_Default_MoreQuests2.zip"
         },
@@ -262,7 +262,7 @@
           "language": "Deutsch",
           "addon": "LoreForever_Voice_Default_Quests_deDE",
           "status": "soon",
-          "clips": 0,
+          "clips": 3527,
           "coverage": "what quest givers say, in German",
           "download": "https://github.com/mliudev/LoreForever/releases/latest/download/LoreForever_Voice_Default_Quests_deDE.zip"
         },
@@ -272,7 +272,7 @@
           "language": "Português (Brasil)",
           "addon": "LoreForever_Voice_Default_Quests_ptBR",
           "status": "soon",
-          "clips": 0,
+          "clips": 227,
           "coverage": "what quest givers say, in Brazilian Portuguese",
           "download": "https://github.com/mliudev/LoreForever/releases/latest/download/LoreForever_Voice_Default_Quests_ptBR.zip"
         },
@@ -292,7 +292,7 @@
           "language": "Español",
           "addon": "LoreForever_Voice_Default_Quests_esES",
           "status": "soon",
-          "clips": 0,
+          "clips": 3533,
           "coverage": "what quest givers say, in Spanish",
           "download": "https://github.com/mliudev/LoreForever/releases/latest/download/LoreForever_Voice_Default_Quests_esES.zip"
         }
@@ -365,7 +365,7 @@
           "name": "Quest dialogue (optional)",
           "addon": "LoreForever_Voice_Female_Quests",
           "included": false,
-          "clips": 4830,
+          "clips": 4840,
           "coverage": "recorded quest dialogue in her voice; turn on Speak quest dialogue in Options to hear it",
           "download": "https://github.com/mliudev/LoreForever/releases/latest/download/LoreForever_Voice_Female_Quests.zip"
         },
@@ -375,7 +375,7 @@
           "addon": "LoreForever_Voice_Female_Quests2",
           "status": "soon",
           "included": false,
-          "clips": 2018,
+          "clips": 2525,
           "coverage": "recorded quest dialogue in her voice for the rest of the game's quests, levels 1-50; turn on Speak quest dialogue in Options to hear it",
           "download": "https://github.com/mliudev/LoreForever/releases/latest/download/LoreForever_Voice_Female_Quests2.zip"
         },
@@ -385,7 +385,7 @@
           "addon": "LoreForever_Voice_Female_Quests3",
           "status": "soon",
           "included": false,
-          "clips": 2195,
+          "clips": 4605,
           "coverage": "recorded quest dialogue in her voice for the rest of the game's quests, levels 51-60; turn on Speak quest dialogue in Options to hear it",
           "download": "https://github.com/mliudev/LoreForever/releases/latest/download/LoreForever_Voice_Female_Quests3.zip"
         },
@@ -425,7 +425,7 @@
           "addon": "LoreForever_Voice_Female_MoreQuests1",
           "status": "soon",
           "included": false,
-          "clips": 2,
+          "clips": 38,
           "coverage": "the story behind hundreds of quests from level 1 to 19, in her voice",
           "download": "https://github.com/mliudev/LoreForever/releases/latest/download/LoreForever_Voice_Female_MoreQuests1.zip"
         },
@@ -435,7 +435,7 @@
           "addon": "LoreForever_Voice_Female_MoreQuests2",
           "status": "soon",
           "included": false,
-          "clips": 138,
+          "clips": 931,
           "coverage": "the story behind hundreds of quests from level 20 to 39, in her voice",
           "download": "https://github.com/mliudev/LoreForever/releases/latest/download/LoreForever_Voice_Female_MoreQuests2.zip"
         },
@@ -564,7 +564,7 @@
           "language": "Deutsch",
           "addon": "LoreForever_Voice_Female_Quests_deDE",
           "status": "soon",
-          "clips": 0,
+          "clips": 3528,
           "coverage": "what quest givers say, in German",
           "download": "https://github.com/mliudev/LoreForever/releases/latest/download/LoreForever_Voice_Female_Quests_deDE.zip"
         },
@@ -574,7 +574,7 @@
           "language": "Português (Brasil)",
           "addon": "LoreForever_Voice_Female_Quests_ptBR",
           "status": "soon",
-          "clips": 0,
+          "clips": 227,
           "coverage": "what quest givers say, in Brazilian Portuguese",
           "download": "https://github.com/mliudev/LoreForever/releases/latest/download/LoreForever_Voice_Female_Quests_ptBR.zip"
         },
@@ -594,7 +594,7 @@
           "language": "Español",
           "addon": "LoreForever_Voice_Female_Quests_esES",
           "status": "soon",
-          "clips": 0,
+          "clips": 3531,
           "coverage": "what quest givers say, in Spanish",
           "download": "https://github.com/mliudev/LoreForever/releases/latest/download/LoreForever_Voice_Female_Quests_esES.zip"
         }
@@ -709,16 +709,16 @@
       "language": "Español",
       "addon": "LoreForever_Edition_Densuad_esES_Audio",
       "clips": 804,
-      "download": "https://github.com/mliudev/LoreForever/releases/download/v0.27.0/LoreForever_Edition_Densuad_esES.zip",
+      "download": "https://github.com/mliudev/LoreForever/releases/download/v0.28.0/LoreForever_Edition_Densuad_esES.zip",
       "bio": "Spanish text and narration contributed by Densuad. This edition uses its own wording and recordings together. It contains contributed overviews and answers; these are not complete story recordings.",
       "coverage": "699 contributed entries, 109 answer texts and 804 recordings, each played with Densuad’s own text. Text without a matching recording remains readable.",
       "edition": {
         "id": "densuad-esES",
         "locale": "esES",
-        "version": "135fa8fc2c7eba9a93cf4ccb16d1ad59767323b3c4eb6a0751022b2aac261135",
+        "version": "ae74c607d3c639a0f7511f4bbf28f77e4934c454ffe4e8da3c3751ec7706fe04",
         "entries": 699,
         "answers": 109,
-        "coreVersion": "0.27.0",
+        "coreVersion": "0.28.0",
         "api": 1,
         "installedSize": 704920095,
         "textAddon": "LoreForever_Edition_Densuad_esES_Text",

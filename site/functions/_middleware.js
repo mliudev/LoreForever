@@ -29,6 +29,7 @@ const STAY = ["/api/billing/webhook", "/api/profile/voice/hook"];
 // attribute (script-src-attr), which is how text put into a page with innerHTML would run; no plugins or <base>.
 const SITE_CSP ="script-src 'self' 'unsafe-inline' https://accounts.google.com https://challenges.cloudflare.com " +
   "https://static.cloudflareinsights.com; script-src-attr 'none'; object-src 'none'; base-uri 'self'; frame-ancestors 'none'";
+const FRAMED_CSP = SITE_CSP.replace("frame-ancestors 'none'", "frame-ancestors 'self'");
 const SITE_HEADERS = { "X-Frame-Options": "DENY", "Referrer-Policy": "strict-origin-when-cross-origin",
                        "Content-Security-Policy": SITE_CSP };
 
@@ -72,7 +73,12 @@ export async function onRequest({ request, env, next }) {
   }
   const out = new Response(res.body, res);
   if (!out.headers.has("Server-Timing")) out.headers.set("Server-Timing", `fn;dur=${Date.now() - started}`);
-  for (const [name, value] of Object.entries(SITE_HEADERS)) if (!out.headers.has(name)) out.headers.set(name, value);
+  // A page this site frames itself (the home page's preview of a profile) says so with X-Frame-Options: SAMEORIGIN,
+  // and its policy then lets this site, and only this site, frame it.
+  const framed = out.headers.get("X-Frame-Options") === "SAMEORIGIN";
+  for (const [name, value] of Object.entries(SITE_HEADERS)) {
+    if (!out.headers.has(name)) out.headers.set(name, framed && name === "Content-Security-Policy" ? FRAMED_CSP : value);
+  }
   // An app below its minimum (lib/client-version.js) hears it on every reply too: X-LF-Update: the version it needs.
   const old = request.headers.has("X-LF-Client") && tooOld(request.headers.get("X-LF-Client"), env);
   if (old) out.headers.set("X-LF-Update", old.min);

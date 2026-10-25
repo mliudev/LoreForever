@@ -1,0 +1,182 @@
+/* The add-on's book on the website (LOR-809, site revamp "The Chronicle", Mike approved 2026-10-24): the parchment page
+   of the game's own Book (addon Page.lua's colours) on the book's ground. The lore pages (lore.css .lp-book) were
+   first; the home page's open spread and the player profile's sheets use these same pieces, so the three stay in step
+   as the add-on changes. Only the pieces are here (the sheet, its type, chips, buttons, seals, tiles, the bookmarks);
+   each page's own layout is in its own sheet (home.css, profile.css). The site has one look: cream ground with
+   parchment pages in light, dark leather with dark pages in dark (prefers-color-scheme), the black bar on top. */
+
+/* The colours are tokens on :root in style.css (--a-*, the add-on's own; --pg-* the same under the older names: parchment,
+   ink, title red, note, rim gold, wax, tile, line, paper; --pg-muted for small text; --pg-hover; --pg-on for text on a
+   title-coloured fill; --pg-btn and --pg-btn-ink for a button's fill), and style.css turns the old --h-* and plain
+   names to ink inside .ch-sheet, .ch-leaf and .ch-paper, so a page's older rules draw on parchment with no rewriting.
+   Shared pieces here: .ch-sheet (a page; .ch-leaf is the same on a page's whole column, pages.css), .ch-paper (the colours
+   only), .ch-kicker, .ch-note, .ch-read, .ch-btn .ch-primary .ch-ghost .ch-small, .ch-chip, .ch-seal, .ch-tiles .ch-tile,
+   .ch-card (a panel on a sheet), .ch-meter, .ch-marks (bookmarks), and the paper's own elements (fields, folds, tables). */
+.ch-sheet, .ch-leaf {
+  position: relative; background: var(--pg-sheet); color: var(--pg-ink);
+  border: 1px solid var(--pg-rim); border-radius: var(--parch-round); box-shadow: inset 0 0 0 3px var(--pg-rim-soft), inset 0 0 44px var(--a-shade, transparent),
+    0 8px 24px -14px var(--pg-shadow);
+  font-family: var(--h-body, "Alegreya Sans", "Segoe UI", system-ui, sans-serif);
+}
+.ch-sheet :where(h1, h2, h3) { font-family: var(--h-display, "Cinzel", Georgia, serif); color: var(--pg-title); background: none;
+  -webkit-text-fill-color: currentColor; text-shadow: none; text-wrap: balance; }
+
+/* Type. */
+.ch-kicker { margin: 0; font: 700 0.78rem/1.3 var(--h-body, sans-serif); letter-spacing: 0.1em; text-transform: uppercase; color: var(--pg-note); }
+.ch-note { color: var(--pg-note); }
+.ch-read { font-family: "Alegreya", Georgia, "Times New Roman", serif; font-size: 1.15rem; line-height: 1.6; color: var(--pg-ink); }
+.ch-sheet a { color: var(--pg-title); }
+.ch-sheet a:hover { color: var(--pg-hover); }
+.ch-sheet :focus-visible { outline: 2px solid var(--pg-title); outline-offset: 2px; border-radius: 3px; }
+
+/* Buttons: the book's seal (red; gold in the dark), or an outline. */
+.ch-btn {
+  display: inline-flex; align-items: center; justify-content: center; min-height: 44px; padding: 0 20px; border-radius: 5px;
+  font: 700 1rem/1 var(--h-body, sans-serif); text-decoration: none; cursor: pointer; border: 1px solid transparent;
+}
+.ch-sheet a.ch-primary, .ch-primary { background: var(--pg-btn); color: var(--pg-btn-ink); }
+.ch-sheet a.ch-primary:hover, .ch-primary:hover { background: var(--pg-btn-hover); color: var(--pg-btn-ink); }
+.ch-sheet a.ch-ghost, .ch-ghost { border-color: var(--pg-edge); color: var(--pg-ink); background: transparent; }
+.ch-sheet a.ch-ghost:hover, .ch-ghost:hover { background: var(--pg-wash); color: var(--pg-ink); border-color: var(--pg-title); }
+.ch-small { min-height: 36px; padding: 0 14px; font-size: 0.92rem; }
+
+/* Chips and the seals. */
+.ch-chip { display: inline-block; padding: 2px 10px; border-radius: 3px; background: var(--pg-chip); color: var(--pg-ink); font-size: 0.86rem; }
+.ch-chip.on { background: var(--pg-btn); color: var(--pg-btn-ink); }
+.ch-seal { display: inline-block; width: 14px; height: 14px; border-radius: 50%; vertical-align: -2px; flex: none; }
+.ch-seal.found { background: var(--pg-rim); }
+.ch-seal.heard { background: var(--pg-wax); }
+.ch-seal.off { opacity: 0.28; }
+
+/* A page of Found: its tiles, a blank one where nothing has been found yet. */
+.ch-tiles { display: grid; grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); gap: 8px; margin: 0; padding: 0; list-style: none; }
+.ch-tile { position: relative; display: grid; gap: 1px; align-content: start; min-height: 52px; padding: 7px 10px; border: 1px solid var(--pg-edge);
+  border-radius: 3px; background: var(--pg-tile); color: var(--pg-ink); }
+.ch-tile b { font-weight: 600; font-size: 0.98rem; line-height: 1.25; padding-right: 22px; overflow-wrap: anywhere; }
+.ch-tile small { color: var(--pg-note); font-size: 0.82rem; line-height: 1.3; }
+.ch-tile a { color: inherit; text-decoration: none; }
+.ch-tile a::after { content: ""; position: absolute; inset: 0; }   /* the whole tile is the link */
+.ch-tile a:hover { text-decoration: underline; }
+.ch-tile.blank { background: var(--a-blank); color: var(--pg-muted); border-style: dashed; }
+.ch-tile.blank small { color: var(--pg-muted); }
+.ch-tile .tick, .ch-tile .new { position: absolute; top: 6px; right: 8px; font-weight: 700; font-size: 0.8rem; }
+.ch-tile .tick { color: var(--pg-note); }
+.ch-tile .new { color: var(--pg-new); }
+
+/* A strip of figures (the profile's "at a glance"), and a quiet meter. */
+.ch-meter { height: 4px; border-radius: 2px; overflow: hidden; background: color-mix(in srgb, var(--pg-edge) 30%, transparent); }
+.ch-meter i { display: block; height: 100%; background: var(--pg-rim); }
+
+/* The bookmarks (the profile's Chronicle, The Road, Story, Numbers): a ribbon each, the current one in red. */
+.ch-marks { display: flex; gap: 4px; flex-wrap: wrap; position: sticky; top: 0; z-index: 5; margin: 0 0 14px; padding: 8px 0 0; background: var(--g-leather, var(--a-ground)); }
+.ch-marks a {
+  padding: 8px 16px 12px; background: var(--pg-chip); color: var(--pg-ink); text-decoration: none; border-radius: 3px 3px 0 0;
+  font: 600 0.95rem/1.2 var(--h-body, sans-serif); clip-path: polygon(0 0, 100% 0, 100% 100%, 50% 82%, 0 100%);
+}
+.ch-marks a:hover { background: color-mix(in srgb, var(--pg-chip) 70%, var(--pg-rim)); }
+.ch-marks a[aria-current="true"] { background: var(--pg-btn); color: var(--pg-btn-ink); }
+.ch-marks a:focus-visible { outline: 2px solid var(--pg-btn-ink); outline-offset: -4px; clip-path: none; }
+
+/* A panel on a sheet (the old .box, .zone, .fb-form... are this too, pages.css): a tile of darker parchment. */
+.ch-card { min-width: 0; padding: 16px 18px; border: 1px solid var(--pg-edge); border-radius: 4px; background: var(--pg-tile); color: var(--pg-ink); }
+.ch-card :where(h2, h3) { margin-top: 0; }
+
+/* The paper's own elements: fields, folds, tables, code and tags inside a sheet (or .ch-paper, .ch-leaf, or a card). They sit
+   in :where() so a page's own rules win. Check boxes and the like keep the browser's, in the book's red. */
+:is(.ch-sheet, .ch-paper, .ch-leaf, .ch-card) {
+  :where(input:not([type="checkbox"], [type="radio"], [type="range"], [type="file"], [type="color"], [type="submit"], [type="button"], [type="hidden"]), textarea, select) {
+    border: 1px solid var(--pg-edge); border-radius: 3px; background: var(--pg-paper); color: var(--pg-ink); font-family: inherit; }
+  :where(input, textarea)::placeholder { color: var(--pg-muted); opacity: 1; }
+  :where(input, textarea, select):focus-visible { outline: 2px solid var(--pg-title); outline-offset: 1px; }
+  :where(input[type="checkbox"], input[type="radio"], input[type="range"], progress) { accent-color: var(--pg-btn); }
+  :where(summary) { color: var(--pg-title); cursor: pointer; }
+  :where(summary:hover) { color: var(--pg-hover); }
+  code, kbd { background: var(--pg-code); color: var(--pg-ink); }
+  :where(td, th) { border-color: var(--pg-line); }
+  :where(th) { color: var(--pg-note); }
+  :where(hr) { border: 0; border-top: 1px solid var(--pg-line); }
+  :where(.tag) { border: 1px solid var(--pg-rim); border-radius: 3px; background: none; color: var(--pg-note); }
+  :where(.tag-new) { color: var(--pg-new); border-color: color-mix(in srgb, var(--pg-new) 55%, transparent); }
+  :where(a) { text-underline-offset: 3px; }
+}
+
+/* ==== Site layouts (2026-10-25, the approved whole-site design, lab/lore-site-v3: .sheet .spread .wrapA .slip .fold ...) ====
+   Additive pieces the page layouts share (Home, Downloads, /lore, What's new, the reading pages, the 404): a stack of
+   sheets on the ground (.ch-stack, narrower with .narrow or .read), an open spread (.ch-spread of two .ch-page), the one
+   Meet Willo slip (.ch-willo: Willo's daylight in both light and dark, her own look), the wax play seal (.ch-waxseal),
+   a fold (details.ch-fold) and a row of a list (.ch-lrow). The older home.css has the same spread rules; they agree. */
+:where(html:not([data-door="willo"])) {
+  .ch-stack { width: calc(100% - 32px); max-width: 1100px; margin: 18px auto 64px; display: grid; gap: 14px; align-content: start; }
+  .ch-stack.narrow { max-width: 860px; }
+  .ch-stack.read { max-width: 760px; }
+  .ch-stack > * { min-width: 0; }
+  .ch-stack.ch-top { margin-block: 12px 0; } /* the Meet Willo slip, alone above a page's top */
+  .ch-spread { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); }
+  .ch-page { display: grid; gap: 12px; align-content: start; padding: 28px 32px 30px; min-width: 0; }
+  .ch-page + .ch-page { border-left: 1px solid color-mix(in srgb, var(--pg-rim) 55%, transparent); }
+  .ch-big { margin: 0; font: 700 clamp(1.4rem, 2.4vw, 1.9rem)/1.15 var(--h-display, "Cinzel", Georgia, serif); color: var(--pg-title); text-wrap: balance; }
+  .ch-acts { display: flex; flex-wrap: wrap; gap: 10px; align-items: center; }
+  .ch-fine { margin: 0; color: var(--pg-note); font-size: 0.92rem; }
+  .ch-sheet .ch-kicker { margin: 0; }
+
+  /* The one Meet Willo slip: her daylight in both themes, so its colours are fixed (4.5:1 and up on its own pale blue). */
+  .ch-willo { display: flex; flex-wrap: wrap; gap: 8px 12px; align-items: center; padding: 9px 14px; border: 1px solid #7fa6c4; border-radius: 4px;
+    background: #e4eef6 linear-gradient(100deg, #d9e8f3, #eef4f9); color: #12304a; box-shadow: 0 6px 18px -10px var(--pg-shadow); font-family: var(--ch-body, sans-serif); }
+  .ch-willo .ico { flex: none; display: grid; place-items: center; width: 30px; height: 30px; border-radius: 4px; background: #0e2438; color: #ecc07a;
+    font: 700 15px/1 "Marcellus", "Palatino Linotype", Georgia, serif; }
+  .ch-willo .txt { flex: 1 1 220px; min-width: 0; display: grid; gap: 1px; }
+  .ch-willo p { margin: 0; color: #2b4a62; font-size: 0.92rem; line-height: 1.35; }
+  .ch-willo p b { color: #12304a; font-size: 1rem; }
+  .ch-willo .go { display: flex; flex-wrap: wrap; gap: 6px 14px; align-items: center; margin-left: auto; }
+  .ch-willo a { color: #12304a; font-weight: 700; font-size: 0.92rem; text-underline-offset: 3px; }
+  .ch-willo a:hover { color: #000; }
+  .ch-willo a.ghost { padding: 6px 12px; border: 1px solid #12304a88; border-radius: 5px; text-decoration: none; background: #ffffff66; white-space: nowrap; }
+  .ch-willo a.ghost:hover { background: #fff; }
+  .ch-willo a:focus-visible { outline: 2px solid #12304a; outline-offset: 2px; }
+
+  /* The wax play seal. A button or a link is the seal (or has one in it); the play glyph is its text. */
+  .ch-waxseal { flex: none; display: inline-grid; place-items: center; width: 30px; height: 30px; padding: 0; border: 0; border-radius: 50%;
+    background: var(--a-wax); color: var(--a-wax-ink); font-size: 11px; line-height: 1; cursor: pointer; text-decoration: none;
+    box-shadow: inset 0 0 0 3px color-mix(in srgb, #000 18%, transparent); }
+  button.ch-waxseal:hover, a.ch-waxseal:hover { filter: brightness(1.12); }
+  .ch-waxseal:focus-visible { outline: 2px solid var(--pg-title); outline-offset: 2px; }
+
+  /* A fold: a line that opens. */
+  details.ch-fold { border: 1px solid var(--pg-edge); border-radius: 3px; background: color-mix(in srgb, var(--pg-tile) 40%, transparent); }
+  details.ch-fold > summary { display: flex; gap: 8px; align-items: center; padding: 8px 12px; list-style: none; cursor: pointer; font: 600 0.98rem/1.35 var(--ch-body, sans-serif); color: var(--pg-ink); }
+  details.ch-fold > summary::-webkit-details-marker { display: none; }
+  details.ch-fold > summary::after { content: "\25B8"; margin-left: auto; color: var(--pg-note); }
+  details.ch-fold[open] > summary::after { content: "\25BE"; }
+  details.ch-fold > summary:hover { color: var(--pg-title); }
+  details.ch-fold > summary > :is(h2, h3) { margin: 0; font: inherit; color: inherit; }
+  details.ch-fold > :not(summary) { margin-inline: 14px; }
+  details.ch-fold[open] { padding-bottom: 12px; }
+
+  /* A row of a list: a seal, a name with a line under it, a figure. */
+  .ch-lrow { display: grid; grid-template-columns: 34px minmax(0, 1fr) auto; gap: 12px; align-items: center; padding: 8px 4px; border-bottom: 1px solid color-mix(in srgb, var(--pg-edge) 35%, transparent); }
+  .ch-lrow.now { background: color-mix(in srgb, var(--a-chip-on) 12%, transparent); }
+}
+@media (max-width: 900px) {
+  :where(html:not([data-door="willo"])) {
+    .ch-spread { grid-template-columns: minmax(0, 1fr); }
+    .ch-page { padding: 22px 20px; }
+    .ch-page + .ch-page { border-left: 0; border-top: 1px solid color-mix(in srgb, var(--pg-rim) 55%, transparent); }
+  }
+}
+@media (max-width: 640px) {
+  :where(html:not([data-door="willo"])) {
+    .ch-stack { width: calc(100% - 20px); margin: 10px auto 40px; gap: 10px; }
+    .ch-page { padding: 18px 14px; }
+    .ch-willo .go { margin-left: 0; }
+  }
+}
+
+/* The 404: "This page isn't in the book" (public/404.html): one narrow sheet, a search and the places most people want. */
+:where(html:not([data-door="willo"])) {
+  .ch-e404 { display: grid; gap: 14px; justify-items: center; text-align: center; padding: 44px 28px 48px; }
+  .ch-e404 h1 { margin: 0; font-size: clamp(1.8rem, 4vw, 2.6rem); line-height: 1.12; }
+  .ch-e404 .ch-read { margin: 0; max-width: 46ch; }
+  .e404-search { display: flex; flex-wrap: wrap; gap: 8px; justify-content: center; width: min(520px, 100%); }
+  .e404-search input { flex: 1 1 260px; min-height: 44px; padding: 8px 12px; font: 1rem var(--ch-body, sans-serif); }
+  .e404-links { justify-content: center; }
+}

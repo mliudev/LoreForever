@@ -3,15 +3,15 @@
 
 local _, ns = ...
 ns.Notes = {
-  version = "0.27.0",
-  released = "2026-10-23",
+  version = "0.28.0",
+  released = "2026-10-25",
   items = {
-    { "Your own chronicle", "every place, person, item and quest with a story is kept as you find it, in a new Found tab, and each story opens on a page of its own. Nothing you haven't reached is spoiled.", "Your own chronicle:" },
-    { "Ready for launch day", "the installer and Willo find WoW Forever's launch client, so the add-on is ready on November 4.", "Ready for launch day:" },
-    { "A calmer Willo", "she says each answer once, stays quiet while you talk to her, and tells you once when her answers run out for the day.", "A calmer Willo:" },
-    { "Reminders you can remove", "see them all in Notes, remove any, or snooze one for an hour.", "Reminders you can remove:" },
-    { "The whole story with Willo too", "if you've chosen to hear everything in the add-on, Willo tells it all as well.", "The whole story with Willo too:" },
-    { "More story, fewer spoiler warnings", "long storylines end with a recap, more answers open once your quests reach them, and corrected lore.", "More story, fewer spoiler warnings:" },
-    { "More quests voiced", "thousands more quest lines are read aloud in both narrators' voices, and the female narrator tells more stories.", "More quests voiced:" },
+    { "Your Chronicle is an open book", "a parchment book with Here, Found, Road and Storylines as ribbons, and a note with Listen whenever you find a new person, place or item.", "Your Chronicle is an open book:" },
+    { "Found in picture cards", "each zone's people, places, items and quests as cards, people shown in full, and Play these or Play what's new to hear them in a row.", "Found in picture cards:" },
+    { "Quest pages", "a finished quest opens its page with the text you read and a Listen for what its quest giver said.", "Quest pages:" },
+    { "The Road and Storylines", "your journey zone by zone, each with a chapter page, its map and two seals; click a screenshot to see it large, or a page to open it.", "The Road and Storylines:" },
+    { "Questions on pages", "what you ask about a person, place, item or quest is written on its page, with the recorded questions to play there.", "Questions on pages:" },
+    { "More to hear", "more quest givers in their own people's voices, more quests and quest stories read aloud, and German, Spanish and Portuguese quest dialogue downloads.", "More to hear:" },
+    { "The website reads like the book", "lore pages on loreforeverwow.com in your language, and your profile shows your Chronicle zone by zone.", "The website reads like the book:" },
   },
 }

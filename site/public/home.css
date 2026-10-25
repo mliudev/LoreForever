@@ -1,30 +1,211 @@
-/* The home page (index.html, body.home): "The book and the wisp", direction B of the 2026-10-15 revamp, which Mike
-   picked from the mockups. Patrick's two products (LOR-466): the add-on is the book, in candle gold; Willo is the
-   wisp, in night blue. Two doors under the title (Willo's wider and first, as he asked), then a chapter for each.
-   The look it shares with /willo, /plans and /downloads (colours, buttons, pills, cards, the night sky, the players
-   and the footer) is in style.css, for body class "bw"; what's here is this page's own layout, scoped to body.home
-   and named h-*. */
+/* The home page (index.html, body.home). The page is a cover and a book (Mike approved it 2026-10-24: "Perfect ship it"):
+   on the left the cover, the add-on's name, its one line, Download and Made by Mike; beside it Húrin's Chronicle, a real
+   player's profile as an open book you can turn and listen to (public/js/home-book.js, from /api/home-book); under them
+   the page every character gets (the profile feature). On a phone the cover comes first and the book's ribbons lie along
+   its top. Until the Willo site split (lib/doors.js) Willo's door and her chapter follow, in night blue.
+   The cover and the book keep their own colours in both themes (parchment pages in a dark frame, on the site's leather);
+   everything else is the site's look. The look it shares with /willo, /plans and /downloads (colours, buttons, pills,
+   the players and the footer) is in style.css, for body class "bw"; what's here is this page's own layout, scoped to
+   body.home and named h-* (Willo's) or hb-* (the cover and the book). */
 .home main, .home .h-foot { font: 400 18px/1.6 var(--h-body); color: var(--h-text); }
 .home main a, .home .h-foot a { color: var(--h-gold-hi); text-underline-offset: 3px; text-decoration-thickness: 1px; }
-.home main a:hover, .home .h-foot a:hover { color: #fff; }
+.home main a:hover, .home .h-foot a:hover { color: var(--h-link-hover, #fff); }
 .home main :focus-visible, .home .h-foot :focus-visible { outline: 2px solid var(--h-gold-hi); outline-offset: 3px; border-radius: 4px; }
 .home main h1, .home main h2, .home main h3 { margin: 0; text-wrap: balance; font-weight: 600; border: 0; padding: 0; text-shadow: none; }
 .home main h1, .home main h2 { font-family: var(--h-display); letter-spacing: 0.01em; line-height: 1.12; }
 .home main h3 { font: 700 1.12rem/1.3 var(--h-body); color: var(--h-text); }
 .home main p { margin: 0; }
 .home main img, .home main video { max-width: 100%; display: block; }
-/* Hero: the title, then the two doors. */
-.h-title { display: grid; gap: 10px; margin-bottom: 30px; }
-.home main .h-title h1 { font-size: clamp(2.6rem, 5.6vw, 4.4rem); color: var(--h-gold-hi);
-  background: linear-gradient(180deg, #fbe7b4, #d9a34a 80%); -webkit-background-clip: text; background-clip: text; -webkit-text-fill-color: transparent; }
-.h-tag { font: 600 clamp(1.15rem, 2.2vw, 1.6rem)/1.35 var(--h-display); letter-spacing: 0.01em; }
-.h-tag .b { color: var(--h-gold-hi); } .h-tag .w { color: var(--h-wisp-hi); }
-/* Phones only: a way to Willo under the tagline, above her clip (index.html; shown in the 760px rules below). */
+
+/* ===== The cover and the book ===== */
+.hb { padding-top: 18px; }
+.h-wrap.hb-wrap { max-width: 1280px; display: grid; gap: 22px; }
+.hb-stage { display: grid; grid-template-columns: 286px minmax(0, 1fr); gap: 18px; align-items: stretch; min-width: 0; }
+.hb-bookcol { min-width: 0; display: grid; align-content: start; }
+
+/* The cover: dark tooled leather with a gold line inside the edge, in both themes. */
+.hb-cover { position: relative; min-width: 0; display: grid; gap: 12px; align-content: start; padding: 24px 22px; border-radius: 6px;
+  background: #3a2414; border: 1px solid #000; color: #e8dcc0;
+  box-shadow: inset 0 0 0 2px #5a3a1e, inset 0 0 40px #0008, 0 10px 24px -14px #000; }
+.hb-cover::after { content: ""; position: absolute; inset: 10px; border: 1px solid #d9ad5c66; border-radius: 3px; pointer-events: none; }
+.home main .hb-cover h1 { font: 700 1.85rem/1.1 var(--h-display); letter-spacing: 0.01em; color: #f0c96b; }
+.hb-lede { font: 600 1.1rem/1.35 var(--h-display); color: #e3c58a; text-wrap: balance; }
+.hb-pitch { color: #e8dcc0; font-size: 0.98rem; line-height: 1.5; }
+.hb-getit { display: grid; gap: 8px; justify-items: start; }
+.home main a.hb-btn, .hb-btn { display: inline-flex; align-items: center; justify-content: center; gap: 8px; min-height: 44px; padding: 10px 18px; border: 0; border-radius: 3px;
+  background: #b8402c; color: #fff3d6; font: 800 1.05rem/1.2 var(--h-body); text-decoration: none; cursor: pointer; box-shadow: inset 0 0 0 1px #ffd1007a; }
+.home main a.hb-btn:hover { background: #cf4f39; color: #fff3d6; }
+.hb-btn svg { width: 17px; height: 17px; flex: none; }
+.home main .hb-cover a.hb-btn:focus-visible { outline-color: #ffd100; }
+.hb-meta { display: flex; flex-wrap: wrap; gap: 2px 12px; margin: 0; padding: 0; list-style: none; color: #c9b48a; font-size: 0.88rem; line-height: 1.4; }
+.hb-meta strong { font-weight: 700; color: #e8dcc0; }
+.hb-meta li + li::before { content: "\00B7"; margin-right: 12px; color: #8f7a52; }
+.hb-meta li:last-child::before { content: none; }
+.home main .hb-cover .hb-meta a { color: #f0c96b; }
+.hb-author { display: grid; gap: 8px; margin-top: 6px; padding-top: 14px; border-top: 1px solid #d9ad5c40; }
+.hb-who-row { display: flex; gap: 10px; align-items: center; }
+.hb-av { flex: none; width: 40px; height: 40px; border-radius: 50%; display: grid; place-items: center; background: #1a120b; border: 1px solid #d9ad5c;
+  color: #f0c96b; font: 700 1.1rem/1 var(--h-display); }
+.home main .hb-author h2 { font: 700 1.05rem/1.2 var(--h-display); color: #f0c96b; }
+.hb-role { display: block; color: #c9b48a; font-size: 0.84rem; }
+.hb-bio { font: italic 0.98rem/1.45 "Alegreya", Georgia, serif; color: #e8dcc0; }
+.hb-links { display: flex; flex-wrap: wrap; gap: 6px; margin: 0; padding: 0; list-style: none; }
+.home main .hb-cover .hb-links a { display: inline-block; padding: 4px 10px; border: 1px solid #d9ad5c88; border-radius: 3px; color: #f0c96b; font: 700 0.86rem/1.4 var(--h-body); text-decoration: none; }
+.home main .hb-cover .hb-links a:hover { background: #d9ad5c22; color: #ffe29a; }
+
+/* The book: a dark frame with two parchment pages, ribbons on its right edge, a player along the bottom. */
+.hb-book { position: relative; min-width: 0; padding-top: 12px; }
+.hb-fallback { display: grid; gap: 8px; padding: 22px 24px; border: 2px solid #000; border-radius: var(--parch-round); background: var(--parch-bg); color: var(--parch-ink); box-shadow: inset 0 0 0 1px #6a5228; }
+.home main .hb-fallback h2 { font: 700 1.3rem/1.2 var(--h-display); color: var(--parch-title); }
+.home main .hb-fallback a { color: var(--parch-title); }
+.hb-bk { position: relative; display: grid; grid-template-rows: auto 1fr auto; background: #15110c; border: 2px solid #000; border-radius: 6px; color: var(--parch-ink);
+  box-shadow: inset 0 0 0 1px #6a5228, 0 14px 30px -16px #000; }
+.hb-plate { position: absolute; top: -12px; left: 50%; transform: translateX(-50%); z-index: 2; padding: 3px 16px; border: 1px solid #8a6a2c; border-radius: 3px;
+  background: linear-gradient(#2a2015, #120d08); color: #ffd100; font: 700 0.84rem/1.4 var(--h-display); white-space: nowrap; }
+.hb-title { display: flex; align-items: center; gap: 12px; min-width: 0; padding: 18px 16px 8px; }
+.hb-icon { flex: none; width: 30px; height: 30px; display: grid; place-items: center; border: 1px solid #000; border-radius: 4px; color: #f0c96b;
+  background: linear-gradient(135deg, #8a5a2a, #3a2414); }
+.hb-icon svg { width: 18px; height: 18px; }
+.hb-where { min-width: 0; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; color: #ffd100; font: 700 1.1rem/1.3 var(--h-display); }
+.hb-who { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; color: #c9c0ad; font: 600 0.98rem/1.3 var(--h-display); }
+.hb-sample { margin-left: auto; padding: 2px 8px; border: 1px solid #3a2e1f; border-radius: 999px; color: #a09075; font-size: 0.76rem; white-space: nowrap; }
+.hb-body { position: relative; display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); margin: 0 40px 0 10px; min-height: 0; }
+.hb-pg { position: relative; min-width: 0; height: clamp(470px, 72vh, 580px); overflow: auto; padding: 16px 20px 18px; color: var(--parch-ink); font: 400 1rem/1.5 var(--h-body);
+  background: var(--parch-bg); }
+.hb-pg { scrollbar-color: #9b7b45 #d8c08a88; scrollbar-width: thin; }
+.hb-pg.l { box-shadow: var(--parch-spine-l); border-right: 1px solid var(--parch-fold); border-radius: var(--parch-round) 0 0 var(--parch-round); }
+.hb-pg.r { box-shadow: var(--parch-spine-r); border-radius: 0 var(--parch-round) var(--parch-round) 0; }
+.hb-pg:focus-visible { outline: 2px solid var(--parch-title); outline-offset: -4px; }
+.hb-pg :focus-visible, .hb-foot :focus-visible { outline: 2px solid var(--parch-title); outline-offset: 2px; border-radius: 2px; }
+.hb-foot :focus-visible, .hb-ribbons :focus-visible { outline-color: #ffd100; }
+.home main .hb-pg h3 { margin: 0 0 8px; padding-bottom: 4px; border-bottom: 1px solid #b99a5e; color: var(--parch-title); font: 700 1.02rem/1.3 var(--h-display); }
+.home main .hb-pg h4 { margin: 0; color: var(--parch-title); font: 700 1.5rem/1.15 var(--h-display); }
+.hb-pg h4:focus { outline: 0; }
+.home main .hb-pg a { color: var(--parch-title); }
+.hb-crumb { color: var(--parch-note); font-size: 0.86rem; }
+.hb-sub { color: var(--parch-note); font-size: 0.9rem; margin-bottom: 8px; }
+.hb-sum { margin: 4px 0 6px; font: 1.05rem/1.5 "Alegreya", Georgia, serif; color: var(--parch-ink); }
+.hb-row { display: flex; align-items: center; gap: 8px; width: 100%; padding: 5px 6px; border: 0; border-radius: 2px; background: none; color: var(--parch-ink); cursor: pointer;
+  font: 400 0.95rem/1.3 var(--h-body); text-align: left; }
+.hb-row:hover, .hb-row.on { background: #9b7b4547; }
+.hb-num { flex: none; width: 26px; height: 26px; display: grid; place-items: center; border-radius: 50%; background: #7a2414; color: #fff3d6; font: 700 0.78rem/1 var(--h-body); }
+.hb-d { margin-left: auto; color: var(--parch-note); font-size: 0.8rem; white-space: nowrap; }
+.hb-th { flex: none; width: 54px; height: 34px; object-fit: cover; border: 1px solid #8a6a3a; border-radius: 2px; }
+.hb-listen { display: inline-flex; align-items: center; gap: 8px; margin: 6px 0 10px; padding: 5px 12px 5px 8px; border: 1px solid #3a0d06; border-radius: 2px; background: #7a2414; color: #fff3d6;
+  font: 700 0.92rem/1.3 var(--h-body); cursor: pointer; }
+.hb-listen:hover { background: #8f2a18; }
+.hb-listen .ic { color: #ffd100; min-width: 1em; text-align: center; }
+.hb-listen small { color: #f0c9b0; font-size: 0.84rem; font-weight: 500; }
+.hb-listen.on { background: #9e291a; box-shadow: 0 0 0 2px #ffd10066; }
+.hb-story { display: grid; gap: 8px; color: var(--parch-ink); font: 1rem/1.5 "Alegreya", Georgia, serif; }
+.hb-story p:first-child::first-letter { float: left; padding: 6px 6px 0 0; color: var(--parch-title); font: 700 3.1rem/0.8 var(--h-display); }
+.hb-plate-head { display: flex; gap: 14px; align-items: center; margin-bottom: 10px; }
+.hb-crest { flex: none; width: 64px; height: 64px; display: grid; place-items: center; border: 2px solid #5a8fe6; border-radius: 50%; color: var(--parch-title);
+  background: radial-gradient(circle at 50% 40%, #f3e6c4, #d2b678); font: 700 1.8rem/1 var(--h-display); }
+.hb-stats { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 6px; margin: 8px 0 12px; text-align: center; }
+.hb-stats span { padding: 4px 2px; border: 1px solid #b99a5e; border-radius: 2px; background: #d8c08a88; color: var(--parch-note); font-size: 0.78rem; line-height: 1.3; }
+.hb-stats b { display: block; color: var(--parch-title); font: 700 1.05rem/1.3 var(--h-display); }
+.hb-route { margin: 2px 0 8px; color: var(--parch-note); font-size: 0.84rem; }
+.hb-facts { display: grid; gap: 4px; margin: 8px 0; padding: 0; list-style: none; font-size: 0.92rem; }
+.hb-facts li::before { content: "\25C6"; margin-right: 8px; color: #9e291a; font-size: 0.6rem; vertical-align: 2px; }
+.hb-pic { margin: 8px 0 4px; }
+.hb-pic img { width: 100%; height: auto; border: 4px solid #f3e6c4; box-shadow: 0 2px 6px #0006; transform: rotate(-0.6deg); }
+.hb-pic figcaption { margin-top: 6px; color: var(--parch-note); font: italic 0.86rem/1.4 "Alegreya", Georgia, serif; }
+.hb-gallery { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 10px; }
+.hb-gallery button { padding: 0; border: 0; background: none; color: var(--parch-note); cursor: pointer; font: 0.82rem/1.3 var(--h-body); text-align: left; }
+.hb-gallery img { width: 100%; aspect-ratio: 16 / 10; object-fit: cover; border: 3px solid #f3e6c4; box-shadow: 0 2px 5px #0006; }
+.hb-gallery button[aria-current="true"] img { border-color: #e7b43a; }
+.hb-kind { margin: 8px 0 6px; color: var(--parch-note); font: 600 0.9rem/1.3 var(--h-body); }
+.hb-cards { display: grid; grid-template-columns: repeat(auto-fill, minmax(66px, 1fr)); gap: 8px; }
+.hb-card { position: relative; min-width: 0; display: grid; justify-items: center; gap: 3px; padding: 6px 2px 4px; border: 1px solid #8a6a3a; border-radius: 2px;
+  background: #f3e6c4; color: var(--parch-title); font: 600 0.7rem/1.15 var(--h-body); text-align: center; text-decoration: none; }
+.home main .hb-pg a.hb-card { text-decoration: none; }
+.home main .hb-pg a.hb-card:hover { background: #fff4d6; outline: 1px solid #7a2414; }
+.hb-card svg { width: 26px; height: 26px; }
+.hb-card span { display: -webkit-box; max-width: 100%; overflow: hidden; color: var(--parch-ink); -webkit-line-clamp: 2; -webkit-box-orient: vertical; }
+.hb-chip { display: inline-flex; align-items: center; gap: 5px; margin-top: 4px; padding: 3px 9px; border: 1px solid #a8864a; border-radius: 2px; background: #d2b678; color: var(--parch-ink);
+  font: 0.86rem/1.4 var(--h-body); cursor: pointer; text-decoration: none; }
+.home main .hb-pg a.hb-chip { color: var(--parch-ink); text-decoration: none; }
+.hb-chip svg { width: 14px; height: 14px; }
+.hb-back { float: right; padding: 4px 12px; border: 1px solid #000; border-radius: 2px; background: #231b12; color: #ffd100; font: 700 0.82rem/1.4 var(--h-body); cursor: pointer; }
+.hb-ribbons { position: absolute; top: 8px; right: -36px; z-index: 3; display: grid; gap: 6px; }
+.hb-rib { width: 30px; padding: 10px 0; border: 1px solid #000; border-left: 0; border-radius: 0 3px 3px 0; background: #7a2414; color: #f0e2bf; cursor: pointer;
+  font: 700 0.8rem/1 var(--h-body); letter-spacing: 0.04em; writing-mode: vertical-rl; text-orientation: mixed; white-space: nowrap; max-height: 9.5em; overflow: hidden; text-overflow: ellipsis; }
+.hb-rib:hover { background: #8f2a18; }
+.hb-rib.on { width: 35px; background: #e3b55c; color: var(--parch-ink); }   /* the open one, a little longer (the add-on's) */
+.hb-foot { display: flex; flex-wrap: wrap; align-items: center; gap: 12px; margin-top: 8px; padding: 8px 14px 10px; border-top: 1px solid #3a2e1f; }
+.hb-fbtn { width: 30px; height: 30px; display: grid; place-items: center; border: 1px solid #000; border-radius: 50%; background: #2a2219; color: #c9c0ad; cursor: pointer; font-size: 0.7rem; }
+.hb-fbtn:hover { background: #3a2f22; }
+.hb-fbtn.hb-play-main { width: 38px; height: 38px; background: #e7b43a; color: #1d1306; font-size: 0.9rem; }
+.hb-now { flex: 1 1 200px; min-width: 0; display: grid; gap: 4px; }
+.hb-now span { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; color: #c9c0ad; font: 600 0.92rem/1.3 var(--h-display); }
+.hb-bar { height: 4px; overflow: hidden; border-radius: 2px; background: #3a3128; }
+.hb-bar i { display: block; width: 0; height: 100%; background: #e7b43a; }
+
+/* The add-on's own pieces in the book: the Here list and its conversation in ink, the Chronicle's tiles (a pin for a
+   place, a figure for someone, a coin for a quest) and Found's chapters with how much of each is found. */
+.hb-list { display: grid; gap: 2px; }
+.hb-row svg { flex: none; width: 16px; height: 16px; color: #7a2414; }
+.hb-row.gold { color: var(--parch-title); font-weight: 700; }
+.hb-here-h:focus, .hb-pg h3:focus { outline: 0; }
+.hb-note { margin-top: 12px; color: var(--parch-note); font: italic 0.9rem/1.45 "Alegreya", Georgia, serif; }
+.hb-stats.sm { grid-template-columns: repeat(4, minmax(0, 1fr)); margin: 2px 0 14px; }
+.hb-stats.sm b { font-size: 0.98rem; }
+.hb-asked { width: fit-content; max-width: 88%; margin: 8px 0 12px auto; padding: 8px 12px; border: 1px solid #a8864a; border-radius: 10px 10px 2px 10px;
+  background: var(--parch-paper); color: var(--parch-ink); font: 600 0.98rem/1.4 var(--h-body); }
+.hb-asked span { display: block; color: var(--parch-note); font: 700 0.72rem/1.3 var(--h-body); letter-spacing: 0.08em; text-transform: uppercase; }
+.hb-answer { margin: 0 0 8px; color: var(--parch-ink); font: 1.06rem/1.55 "Alegreya", Georgia, serif; }
+.home main .hb-pg .hb-answer a { color: var(--parch-link); text-underline-offset: 2px; }
+.hb-tiles { display: grid; grid-template-columns: repeat(auto-fill, minmax(78px, 1fr)); gap: 10px 6px; }
+.hb-tile { min-width: 0; display: grid; justify-items: center; gap: 4px; padding: 2px; color: var(--parch-ink); font: 600 0.74rem/1.2 var(--h-body); text-align: center; }
+.home main .hb-pg a.hb-tile { color: var(--parch-ink); text-decoration: none; }
+.home main .hb-pg a.hb-tile:hover span { text-decoration: underline; }
+.hb-tile > span { display: -webkit-box; max-width: 100%; overflow: hidden; -webkit-line-clamp: 2; -webkit-box-orient: vertical; }
+.hb-tok { width: 44px; height: 44px; display: grid; place-items: center; border: 2px solid var(--parch-note); border-radius: 50%;
+  background: radial-gradient(circle at 50% 35%, #f6ebd0, #d8bf86); box-shadow: 0 2px 4px #0005; }
+.hb-tok svg { width: 24px; height: 24px; }
+.hb-tok.places { color: #8f2a18; }
+.hb-tok.people { color: #1f3a70; }
+.hb-tok.quests { border-color: #7a5410; background: radial-gradient(circle at 40% 35%, #ffe7a0, #d9a43c 60%, #a8741c); color: #6b4300; }
+.hb-tok.items { color: #2f5a1e; }
+.hb-tile.dim { opacity: 0.7; }
+.hb-tile.dim .hb-tok { border-style: dashed; background: #d6c39555; box-shadow: none; color: #8a6a3a; }
+.hb-ch { position: relative; padding-bottom: 9px; }
+.hb-prog { position: absolute; right: 6px; bottom: 3px; left: 6px; height: 3px; border-radius: 2px; background: #b99a5e55; }
+.hb-prog b { display: block; height: 100%; border-radius: 2px; background: #7a2414; }
+
+/* The profile feature, under them: Húrin's own page, live, in a frame (index.html: /u/hurin?preview=1). On a phone it's
+   cropped and fades out, and a tap opens his page (the 760px rules below). */
+.hb-feature { display: grid; gap: 18px; padding: 24px; border: 1px solid #000; border-radius: var(--parch-round);
+  background: var(--parch-bg); color: var(--parch-ink); box-shadow: inset 0 0 0 1px #b99a5e, 0 10px 22px -14px #000; }
+.hb-feature-text { display: flex; flex-wrap: wrap; align-items: flex-end; justify-content: space-between; gap: 4px 24px; }
+.hb-feature-text > div { flex: 1 1 420px; max-width: 72ch; }
+.hb-kick { margin: 0 0 4px; color: var(--parch-note); font: 700 0.76rem/1.3 var(--h-body); letter-spacing: 0.1em; text-transform: uppercase; }
+.home main .hb-feature h2 { font: 700 1.55rem/1.2 var(--h-display); color: var(--parch-title); }
+.home main .hb-feature p { color: var(--parch-note); margin-top: 8px; }
+.hb-acts { display: flex; flex-wrap: wrap; gap: 10px; margin-top: 14px; }
+.home main .hb-feature a.hb-ghost { display: inline-flex; align-items: center; min-height: 44px; padding: 8px 14px; border: 1px solid #6b4a1e; border-radius: 3px; background: #f3e6c4;
+  color: var(--parch-note); font: 700 0.95rem/1.2 var(--h-body); text-decoration: none; }
+.home main .hb-feature a.hb-ghost:hover { background: #fff4d6; color: var(--parch-ink); }
+.home main .hb-feature :focus-visible { outline-color: var(--parch-title); }
+.hb-window { margin: 0; overflow: hidden; border: 2px solid #000; border-radius: 8px; background: #15110c; box-shadow: inset 0 0 0 1px #6a5228, 0 14px 30px -16px #000c; }
+.hb-window-bar { display: flex; align-items: center; gap: 6px; padding: 8px 12px; border-bottom: 1px solid #3a2e1f; }
+.hb-window-bar i { width: 10px; height: 10px; border-radius: 50%; background: #5a4a36; }
+.hb-window-bar span { min-width: 0; margin-left: 10px; padding: 3px 12px; overflow: hidden; border-radius: 999px; background: #241c14; color: #c9c0ad;
+  font: 600 0.84rem/1.3 var(--h-body); text-overflow: ellipsis; white-space: nowrap; }
+.hb-window-view { position: relative; height: clamp(560px, 78vh, 760px); }
+.hb-window-view iframe { display: block; width: 100%; height: 100%; border: 0; background: #15110c; }
+.hb-window-open { display: none; }
+
+/* Phones only (the 760px rules below): a way to Willo on the first screen, above the cover (index.html). */
 .h-quick { display: none; }
-.h-doors { position: relative; display: grid; grid-template-columns: minmax(0, 1.4fr) minmax(0, 1fr); gap: 22px; align-items: stretch; }
+
+/* Willo's door, until the split: her clip beside her words. */
+.h-doors { margin-top: 0; }
+.h-door.w { grid-template-columns: minmax(0, 1.25fr) minmax(0, 1fr); grid-template-rows: auto; align-items: center; }
+.h-door.w .h-clip { padding-bottom: 16px; }
 .h-door { display: grid; grid-template-rows: auto 1fr; border-radius: 18px; overflow: hidden; border: 1px solid var(--h-line); background: var(--h-panel); min-width: 0; }
 .h-door.w { border-color: #93b6ff4d; background: linear-gradient(180deg, #121a3a, #10142a 40%, var(--h-panel)); box-shadow: 0 40px 90px -50px #3150d8, inset 0 1px 0 #93b6ff26; }
-.h-door.b { border-color: #e3b55c4d; background: linear-gradient(180deg, #221a10, #17140f 45%, var(--h-panel)); box-shadow: 0 40px 90px -50px #8a5e18, inset 0 1px 0 #e3b55c26; }
 .h-clip { display: grid; gap: 10px; padding: 14px 14px 0; min-width: 0; }
 .h-stage { position: relative; aspect-ratio: 16 / 9; max-width: 100%; border-radius: 12px; overflow: hidden; background: #05060a; border: 1px solid #93b6ff33; }
 .h-stage video, .h-stage img { width: 100%; height: 100%; object-fit: cover; }
@@ -39,7 +220,7 @@
 .h-door-body { display: grid; gap: 14px; align-content: start; padding: 22px 24px 26px; }
 .h-door-head { display: flex; align-items: center; gap: 14px; }
 .home main .h-door-head h2 { font-size: 1.7rem; }
-.home main .h-door.w h2 { color: var(--h-wisp-hi); } .home main .h-door.b h2 { color: var(--h-gold-hi); }
+.home main .h-door.w h2 { color: var(--h-wisp-hi); }
 .h-door-head .h-pill { margin-top: 2px; }
 .h-pitch { color: var(--h-text-2); }
 .h-small { font-size: 0.92rem; color: var(--h-muted); }
@@ -49,55 +230,15 @@
 @media (hover: none) and (pointer: coarse) { .h-phone { display: block; } }
 .h-wisp { width: 64px; height: 64px; flex: none; animation: h-float 5s ease-in-out infinite; filter: drop-shadow(0 0 14px #6f8fff88); }
 @keyframes h-float { 0%, 100% { transform: translateY(0); } 50% { transform: translateY(-5px); } }
-.h-book { width: 56px; height: 56px; flex: none; filter: drop-shadow(0 0 12px #e3b55c55); }
-/* The book's "now reading" plate: its stories are sound, so its door leads with a narration. */
-.h-reading { margin: 14px 14px 0; border-radius: 12px; border: 1px solid #e3b55c33; aspect-ratio: 16 / 9; max-width: 100%;
-  display: grid; align-content: center; justify-items: center; gap: 12px; padding: 18px; text-align: center;
-  background: radial-gradient(70% 90% at 50% 0%, #e3b55c22, transparent 70%), linear-gradient(180deg, #1d160c, #120f0a); }
-.h-reading b { font: 600 clamp(1.3rem, 2.4vw, 1.7rem)/1.2 var(--h-display); color: var(--h-gold-hi); }
-.h-reading .h-row { display: flex; align-items: center; gap: 14px; }
-.h-wave { display: flex; align-items: center; gap: 3px; height: 34px; }
-.h-wave i { width: 3px; border-radius: 2px; background: linear-gradient(180deg, var(--h-gold-hi), var(--h-gold-deep)); transition: opacity .3s; }
-.h-wave.on i { animation: h-bob 1.1s ease-in-out infinite alternate; }
-.h-wave.on i:nth-child(3n) { animation-delay: -.4s; } .h-wave.on i:nth-child(3n+1) { animation-delay: -.8s; }
-@keyframes h-bob { from { transform: scaleY(.55); } to { transform: scaleY(1); } }
-.h-seam { position: absolute; left: calc(58.33% + 2px); top: 46%; transform: translate(-50%, -50%); z-index: 2; width: 46px; height: 46px; border-radius: 50%;
-  display: grid; place-items: center; background: var(--h-night); border: 1px solid var(--h-line); color: var(--h-text); font: 700 1.4rem/1 var(--h-body);
-  box-shadow: 0 0 0 6px #0a0c13aa; }
-.h-pair { margin-top: 18px; color: var(--h-text-2); font-size: 1rem; }
+.h-pair { color: var(--h-text-2); font-size: 1rem; }
 .h-pair b { color: var(--h-text); }
 
-/* The narrations: a track each (style.css .h-track), with its read-along text. */
-.h-tracks { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 14px; }
-.h-track details { grid-column: 1 / -1; margin-top: 8px; color: var(--h-text-2); font-size: 0.92rem; }
-.h-track summary { cursor: pointer; color: var(--h-muted); }
-.h-track details p { margin-top: 6px; }
-
-/* Under the hero: Mike's card, the community's voices and CurseForge. */
-.h-trust { padding-block: 28px 64px; }
-.h-trust .h-wrap { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); gap: 36px; align-items: center; padding-top: 32px; border-top: 1px solid var(--h-line-soft); }
-.h-author { display: grid; grid-template-columns: 64px minmax(0, 1fr); gap: 4px 16px; align-items: start; }
-.h-avatar { grid-row: span 3; width: 64px; height: 64px; border-radius: 50%; display: grid; place-items: center;
-  background: radial-gradient(circle at 35% 30%, #f6dc9b, #b98329 70%); color: #2a1a05; font: 700 1.6rem/1 var(--h-display); box-shadow: 0 0 0 3px #0a0c13, 0 0 0 4px #e3b55c66; }
-.home main .h-author h2 { font: 600 1.15rem/1.2 var(--h-display); color: var(--h-gold-hi); }
-.h-role { color: var(--h-muted); font-size: 0.92rem; }
-.h-bio { grid-column: 2; color: var(--h-text-2); font-size: 1rem; margin-top: 6px; }
-.h-links { grid-column: 2; display: flex; flex-wrap: wrap; gap: 8px; margin: 10px 0 0; padding: 0; list-style: none; }
-.home main .h-trust h2.h-vt { font: 600 1.1rem/1.2 var(--h-display); color: var(--h-gold-hi); margin-bottom: 12px; }
-.h-voices { display: flex; flex-wrap: wrap; gap: 10px; margin: 0; padding: 0; list-style: none; }
-.h-voices[hidden] { display: none; }
-.home main .h-voices a { display: grid; gap: 1px; padding: 10px 14px; border: 1px solid var(--h-line); border-radius: var(--h-r-sm); background: var(--h-panel); text-decoration: none; }
-.h-voices strong { color: var(--h-text); font-size: 1rem; }
-.h-voices span { color: var(--h-muted); font-size: 0.86rem; }
-.h-trust .h-small { margin-top: 10px; }
-
-/* Chapters: the wisp's and the book's. */
+/* Willo's chapter, until the Willo site split (lib/doors.js takes it off Lore Forever): the wisp, in night blue. */
 .h-chapter { padding-block: 88px; }
 .h-chapter.w { background: radial-gradient(900px 500px at 85% 0%, #2a3a8a40, transparent 70%), #0b0e1c; border-block: 1px solid #93b6ff1f; }
-.h-chapter.b { background: radial-gradient(900px 500px at 10% 0%, #6b4a1a33, transparent 70%), #0d0b08; }
 .h-ch-head { display: grid; gap: 12px; max-width: 720px; margin-bottom: 36px; }
 .home main .h-ch-head h2 { font-size: clamp(1.9rem, 3.4vw, 2.8rem); }
-.home main .h-chapter.w .h-ch-head h2 { color: var(--h-wisp-hi); } .home main .h-chapter.b .h-ch-head h2 { color: var(--h-gold-hi); }
+.home main .h-chapter.w .h-ch-head h2 { color: var(--h-wisp-hi); }
 .h-tiles { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 14px; }
 .h-tile { display: grid; gap: 10px; align-content: start; padding: 22px; border-radius: var(--h-r); border: 1px solid #93b6ff2a; background: #0f1530; }
 .h-tile svg { width: 30px; height: 30px; fill: none; stroke: var(--h-wisp); stroke-width: 1.6; stroke-linecap: round; stroke-linejoin: round; }
@@ -118,103 +259,73 @@
 .h-beta { margin-top: 14px; color: var(--h-text-2); }
 .h-beta b { color: var(--h-wisp-hi); }
 
-.h-split { display: grid; grid-template-columns: minmax(0, 0.9fr) minmax(0, 1.1fr); gap: 40px; align-items: center; margin-top: 56px; }
-.h-split > div { display: grid; gap: 18px; }
-.home main .h-split h3 { font: 600 1.4rem/1.2 var(--h-display); color: var(--h-text); }
-.h-split p.h-t { color: var(--h-text-2); }
-.h-scroll { padding: 20px 22px; border-radius: var(--h-r-sm); background: linear-gradient(180deg, #f0e2bf, #dcc79a); color: #2a1d0b; box-shadow: 0 18px 40px -18px #000; }
-.h-scroll .h-q { font: 700 1rem/1.3 var(--h-display); color: #5a3a0c; margin-bottom: 8px; }
-.home main .h-scroll p:not(.h-q) { font-family: Georgia, "Times New Roman", serif; font-size: 1.02rem; line-height: 1.55; color: #2a1d0b; }
-.h-shot { margin: 0; }
-.h-shot a { display: block; border-radius: var(--h-r); overflow: hidden; border: 1px solid #e3b55c33; box-shadow: 0 24px 60px -30px #000; }
-.h-shot img { width: 100%; height: auto; }
-.h-shot figcaption { margin-top: 8px; color: var(--h-muted); font-size: 0.9rem; }
-.h-steps { margin: 0; padding: 0; list-style: none; display: grid; gap: 8px; counter-reset: h-step; }
-.h-steps li { display: flex; gap: 12px; align-items: baseline; color: var(--h-text-2); counter-increment: h-step; }
-.h-steps li::before { content: counter(h-step); flex: none; width: 24px; height: 24px; border-radius: 50%; display: grid; place-items: center;
-  background: var(--h-gold-wash); border: 1px solid #e3b55c66; color: var(--h-gold-hi); font: 700 0.8rem/1 var(--h-body); transform: translateY(2px); }
-.h-steps strong { color: var(--h-text); }
-.h-go { display: flex; flex-wrap: wrap; gap: 10px 16px; align-items: center; }
-
-.h-zones { display: grid; grid-template-columns: repeat(5, minmax(0, 1fr)); gap: 12px; }
-.home main a.h-zone { display: grid; align-content: start; gap: 6px; padding: 18px; border: 1px solid #e3b55c26; border-radius: var(--h-r); background: #15120c; color: inherit; text-decoration: none; transition: border-color .2s; }
-.home main a.h-zone:hover { border-color: #e3b55c88; color: inherit; }
-.home main .h-zone h3 { font: 600 1.05rem/1.25 var(--h-display); color: var(--h-gold-hi); }
-.h-zone .h-where { color: var(--h-muted); font-size: 0.9rem; }
-.h-zone q { display: block; color: var(--h-text-2); font-size: 0.95rem; font-style: italic; }
-.h-zone .h-go-to { margin-top: 4px; color: var(--h-gold); font-weight: 700; font-size: 0.9rem; }
-.home main a.h-zone.next { border-style: dashed; background: transparent; }
-.h-langs { margin-top: 40px; display: flex; flex-wrap: wrap; gap: 10px; align-items: center; color: var(--h-text-2); }
-
-/* About, install and the FAQ. */
-.h-about { padding-block: 72px 24px; }
-.h-about .h-wrap { display: grid; grid-template-columns: minmax(0, 1.2fr) minmax(0, 1fr); gap: 40px; align-items: start; }
-.home main .h-about h2 { font-size: clamp(1.5rem, 2.6vw, 2rem); color: var(--h-gold-hi); margin-bottom: 14px; }
-.h-about p + p { margin-top: 12px; }
-.h-about p { color: var(--h-text-2); }
-.h-more { display: grid; gap: 10px; }
-.h-more details { border: 1px solid var(--h-line); border-radius: var(--h-r-sm); background: var(--h-panel); padding: 14px 18px; scroll-margin-top: 16px; }
-.h-more summary { cursor: pointer; font-weight: 700; color: var(--h-text); }
-.h-more details[open] summary { margin-bottom: 10px; }
-.h-more ol, .h-more ul { margin: 0; padding-left: 20px; color: var(--h-text-2); font-size: 0.98rem; }
-.h-more li + li { margin-top: 6px; }
-.h-more p { color: var(--h-text-2); font-size: 0.98rem; margin-top: 8px; }
-.h-more code { background: #00000066; padding: 1px 5px; border-radius: 3px; font-size: 0.9em; word-break: break-word; }
-.h-cmds { overflow-x: auto; }
-.h-cmds table { width: 100%; border-collapse: collapse; font-size: 0.95rem; }
-.h-cmds td { padding: 6px 8px 6px 0; border-top: 1px solid var(--h-line-soft); color: var(--h-text-2); vertical-align: top; }
-.h-cmds td:first-child { white-space: nowrap; padding-right: 14px; }
-.h-faq-sec { padding-block: 56px 80px; }
-.home main .h-faq-sec h2 { font-size: clamp(1.7rem, 3vw, 2.3rem); margin-bottom: 20px; color: var(--h-gold-hi); }
-.h-faq { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 0 40px; }
-.h-faq details { border-top: 1px solid var(--h-line); padding: 16px 0; }
-.h-faq summary { cursor: pointer; list-style: none; font-weight: 700; color: var(--h-text); font-size: 1.05rem; display: flex; justify-content: space-between; gap: 12px; }
-.h-faq summary::-webkit-details-marker { display: none; }
-.h-faq summary::after { content: "+"; color: var(--h-gold); font-weight: 700; }
-.h-faq details[open] summary::after { content: "\2212"; }
-.h-faq details p { margin-top: 8px; color: var(--h-text-2); }
-.h-faq-more { margin-top: 18px; color: var(--h-text-2); }
-
 @media (prefers-reduced-motion: reduce) {
   .h-wisp, .h-wave.on i { animation: none; }
 }
-@media (max-width: 1020px) {
-  .h-doors { grid-template-columns: minmax(0, 1fr); gap: 34px; }
-  .h-seam { position: relative; left: auto; top: auto; transform: none; margin: -28px auto; }
+
+/* A tablet (up to 1060px): the cover lies across the top (its words, then Made by Mike), the book under it, full width. */
+@media (max-width: 1060px) {
+  .hb-stage { grid-template-columns: minmax(0, 1fr); }
+  .hb-cover { grid-template-columns: minmax(0, 1.2fr) minmax(0, 1fr); gap: 12px 28px; align-items: start; }
+  .hb-cover > .hb-main { display: grid; gap: 12px; align-content: start; }
+  .hb-author { margin-top: 0; padding-top: 0; border-top: 0; }
+  .h-door.w { grid-template-columns: minmax(0, 1fr); grid-template-rows: auto 1fr; align-items: stretch; }
   .h-tiles { grid-template-columns: repeat(2, minmax(0, 1fr)); }
-  .h-split, .h-trust .h-wrap, .h-about .h-wrap { grid-template-columns: minmax(0, 1fr); }
-  .h-zones { grid-template-columns: repeat(2, minmax(0, 1fr)); }
-  .h-zones .next { grid-column: 1 / -1; }
   .h-plans { grid-template-columns: repeat(2, minmax(0, 1fr)); }
 }
+
+/* A phone (760px and under): the cover first with Download right there, then the book, its ribbons along the top as tabs
+   and its two pages one over the other, its player stuck to the bottom of the screen while you read, then the feature. */
 @media (max-width: 760px) {
   .home main, .home .h-foot { font-size: 17px; }
-  .h-title { margin-bottom: 20px; }
-  .h-quick { display: flex; flex-wrap: wrap; align-items: center; gap: 8px 14px; margin-top: 6px; }
+  .h-quick { display: flex; flex-wrap: wrap; align-items: center; gap: 8px 14px; margin: 0; }
   .h-quick .h-btn { min-height: 46px; padding: 0 16px; gap: 8px; }
   .h-quick .h-btn img { width: 22px; height: 22px; }
   .h-quick-addon { font-size: 0.95rem; font-weight: 500; }
+  .hb { padding-top: 12px; }
+  .h-wrap.hb-wrap { gap: 16px; }
+  .hb-cover { display: grid; grid-template-columns: minmax(0, 1fr); padding: 18px 16px; gap: 8px; }
+  .home main .hb-cover h1 { font-size: 1.45rem; }
+  .hb-pitch { display: none; }
+  .hb-body { grid-template-columns: minmax(0, 1fr); margin: 0 6px; }
+  .hb-pg { height: auto; min-height: 0; padding: 14px 16px 16px; overflow: visible; }
+  .hb-pg.l { border-right: 0; border-bottom: 1px solid var(--parch-fold); box-shadow: none; border-radius: var(--parch-round) var(--parch-round) 0 0; }
+  .hb-pg.r { box-shadow: none; border-radius: 0 0 var(--parch-round) var(--parch-round); }
+  .hb-ribbons { position: static; display: flex; gap: 4px; margin: 0 6px 6px; order: -1; }
+  .hb-rib { width: auto; padding: 8px 12px; border-left: 1px solid #000; border-radius: 0 0 3px 3px; writing-mode: horizontal-tb; max-height: none; }
+  .hb-title { padding: 16px 10px 6px; gap: 8px; }
+  .hb-who, .hb-sample { display: none; }
+  .hb-where { font-size: 0.98rem; }
+  .hb-foot { position: sticky; bottom: 0; z-index: 4; background: #15110c; border-radius: 0 0 6px 6px; padding-bottom: max(10px, env(safe-area-inset-bottom, 0px)); }
+  .hb-now { flex-basis: 110px; }
+  .hb-feature { gap: 14px; padding: 16px; }
+  .hb-window-view { height: 520px; }
+  .hb-window-view iframe { pointer-events: none; }
+  .hb-window-open { position: absolute; inset: 0; display: flex; align-items: flex-end; justify-content: center; padding-bottom: 18px;
+    background: linear-gradient(#15110c00 50%, #15110cf2 92%); text-decoration: none; }
+  .home main .hb-window-open span { padding: 10px 18px; border: 1px solid #000; border-radius: 3px; background: #e7b43a; color: #1d1306;
+    font: 700 0.95rem/1.2 var(--h-body); }
+  .hb-stats.sm { grid-template-columns: repeat(2, minmax(0, 1fr)); }
   .h-doors { margin-inline: -16px; }
   .h-door { border-radius: 0; border-inline: 0; }
   .h-clip { padding: 0; }
   .h-stage { border-radius: 0; border: 0; }
   .h-picks { padding-inline: 16px; }
-  .h-reading { margin: 0; border-radius: 0; border: 0; }
   .h-door-body { padding: 18px 16px 22px; }
-  .h-tiles, .h-tracks, .h-plans, .h-faq { grid-template-columns: minmax(0, 1fr); }
+  .h-tiles, .h-plans { grid-template-columns: minmax(0, 1fr); }
   .h-chapter { padding-block: 56px; }
 }
 
-/* Lore Forever after the split (lib/doors.js, html[data-door=lore]): the add-on's door alone, and the small "Meet
-   Willo" card where Willo's chapter was, with no prices. */
-html[data-door="lore"] .h-doors { grid-template-columns: minmax(0, 720px); justify-content: center; }
-.h-meet { padding: 8px 0 40px; }
-.h-meet-in { display: flex; gap: 18px; align-items: flex-start; border: 1px solid #93b6ff33; border-radius: 16px; padding: 22px 24px;
-  background: linear-gradient(160deg, #141b33, var(--h-panel)); max-width: 760px; }
-.h-meet-in h2 { margin: 0 0 6px; font-size: 1.35rem; color: var(--h-wisp-hi); }
-.h-meet-in p { margin: 0 0 14px; color: var(--h-text-2); }
-.h-meet-in .h-wisp { flex: none; filter: drop-shadow(0 0 12px #8fd3ff88); }
-.h-meet-go { display: flex; flex-wrap: wrap; gap: 10px; margin: 0 0 8px !important; }
-.h-meet-in .h-meet-fine { margin: 0; font-size: .9rem; }
-.h-meetline { margin: 14px 0 0; color: var(--h-text-2); }
-.h-meetline a { color: var(--h-wisp-hi); font-weight: 600; }
+/* The footer has a fifth column here (Help: FAQ and Send feedback); phones keep style.css's two. */
+@media (min-width: 761px) {
+  .home .h-foot-grid { grid-template-columns: repeat(5, minmax(0, 1fr)); }
+}
+
+/* The footer is the black bar here too: its text and links are the bar's ink (the home page's own link colour above is for
+   the page's own links on the ground). */
+:where(html:not([data-door="willo"])) .home .h-foot { color: var(--ch-bar-ink); }
+:where(html:not([data-door="willo"])) .home .h-foot a { color: var(--ch-bar-ink); }
+:where(html:not([data-door="willo"])) .home .h-foot a:hover { color: var(--ch-bar-gold); }
+:where(html:not([data-door="willo"])) .home .h-foot :focus-visible { outline-color: var(--ch-bar-gold); }
+:where(html:not([data-door="willo"])) .home main .ch-willo a { color: #12304a; }
+:where(html:not([data-door="willo"])) .home main .ch-willo a:hover { color: #000; }

@@ -273,9 +273,11 @@ export const SEED_FACTS = [
   // glitch", where nothing she was given said otherwise.
   { id: "death-spirit-healer", title: "When you die", source: RES_SICKNESS,
     text: "When you die, you release your spirit and walk as a ghost from the nearest graveyard. Run back to your body " +
-      "to come back to life where you fell, or let the Spirit Healer at the graveyard raise you there: from level 11 " +
-      "that costs a quarter of your gear's durability and leaves you with Resurrection Sickness, all your attributes " +
-      "and damage down by three quarters for up to ten minutes. Death isn't permanent, except on Hardcore." },
+      "to come back to life where you fell, with half your health and mana and no sickness. Or let the Spirit Healer " +
+      "at the graveyard raise you there: that costs a quarter of your gear's durability, and from level 11 leaves you " +
+      "with Resurrection Sickness, all your attributes and damage down by three quarters for a minute per level above " +
+      "10, ten minutes from level 20. " +
+      "Death isn't permanent, except on Hardcore." },
   // Its words are the lava's, not the city's: with "Ironforge" in it, it came to every question asked there.
   { id: "ironforge-lava", title: "Lava and magma falls of the dwarven capital", source: IRONFORGE,
     text: "The lava pouring from above in the dwarven capital is the earth's own magma: it runs in falls through the " +

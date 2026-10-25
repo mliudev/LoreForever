@@ -27,8 +27,9 @@
 // page shows each side its own tabs).
 //
 // Rehearsing on the develop site (lib/test-players.js TEST_HOSTS), which has one address: ?door=willo or ?door=lore
-// picks the door and ?split=on or ?split=off the switch, kept in a cookie for that browser only. Links between the two
-// doors then stay on the same address and flip the cookie instead.
+// picks the door and ?split=on or ?split=off the switch, kept in a cookie for that browser only. The switch is on by
+// default there, as on production (the add-on's door alone, Willo's pages sent to her door); ?split=off shows the
+// page as it was before the split. Links between the two doors then stay on the same address and flip the cookie instead.
 
 import { TEST_HOSTS } from "./test-players.js";
 import { currentUser, cookieValue, sha256, setup } from "./accounts.js";
@@ -45,7 +46,7 @@ export const splitOn = env => String(env?.WILLO_SPLIT || "").trim().toLowerCase(
 
 const WILLO_PAGES = [/^\/willo(\/.*)?$/, /^\/plans\/?$/, /^\/link(\/web)?\/?$/, /^\/w\/[^/]+$/, /^\/creators\/?$/,
                      /^\/refunds\/?$/];
-const LORE_PAGES = [/^\/downloads\/?$/, /^\/voices(\/.*)?$/, /^\/translate(\/.*)?$/, /^\/lore(\/.*)?$/,
+const LORE_PAGES = [/^\/downloads\/?$/, /^\/voices(\/.*)?$/, /^\/translate(\/.*)?$/, /^\/lore(\/.*)?$/, /^\/[a-z]{2}(-[a-z]{2})?\/lore(\/.*)?$/,
                     /^\/guides(\/.*)?$/, /^\/contribute(\/.*)?$/, /^\/contributors\/?$/, /^\/clip-report\/?$/,
                     /^\/discord\/?$/, /^\/a\/[^/]+$/];
 const isFile = path => /\.[a-z0-9]{1,5}$/i.test(path);
@@ -70,7 +71,7 @@ export function doorOf(request, env) {
   if (host === loreHost(env)) return { door: "lore", split: splitOn(env), test: false, ...page };
   if (!TEST_HOSTS.has(host)) return null;
   return { door: cookieValue(request, "lf_door") === "willo" ? "willo" : "lore",
-           split: cookieValue(request, "lf_split") === "on", test: true, ...page };
+           split: cookieValue(request, "lf_split") !== "off", test: true, ...page };   // split by default, like production
 }
 
 // Whether pages through this door get changed at all: always on Willo's domain, on Lore Forever's only once split.
@@ -128,8 +129,8 @@ const WILLO_BRAND = '<a class="brand" href="/"><img src="/img/wispr.svg" alt="" 
 
 // Her look on the shared pages (public/willo-site/door.css over her tokens), in her display face. Bump with either file.
 const WILLO_LOOK = `<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Marcellus&display=swap">
-<link rel="stylesheet" href="/willo-site/tokens.css?v=20261024g">
-<link rel="stylesheet" href="/willo-site/door.css?v=20261024h">
+<link rel="stylesheet" href="/willo-site/tokens.css?v=20261026a">
+<link rel="stylesheet" href="/willo-site/door.css?v=20261026a">
 </head>`;
 
 // The same three links as her home page; Get Willo is the header's one button (header.js adds Sign in beside it).
@@ -165,9 +166,10 @@ export function doorPage(html, ctx, env) {
   let out = html.replace(/<html\b/i, `<html data-door="${ctx.door}"`).replace(block(other), "");
   if (ctx.door === "lore") {
     out = out.replace(/<!-- door-split:|:door-split -->/g, "")
-      // The footer's Willo column shrinks to one link to her site; Creator program and Refunds go with her.
+      // The footer's Sister site column shrinks to one link to her site; Creator program and Refunds go with her.
       .replace(/<nav aria-label="Willo">[\s\S]*?<\/nav>/g,
-        `<nav aria-label="Willo"><h2>Willo</h2><ul><li><a href="${crossUrl(ctx, "willo", "/?src=lore-foot", env)}">Meet Willo</a></li></ul></nav>`)
+        (() => { const to = crossUrl(ctx, "willo", "/?src=lore-foot", env);
+          return `<nav aria-label="Willo"><h2>Sister site</h2><ul><li><a href="${to}">Willo<span class="nl-out" aria-hidden="true">&#8599;</span></a></li><li><a class="dim" href="${to}">${willoHost(env) || "willocompanion.com"}</a></li><li class="h-foot-tag">Talk to the world while you play.</li></ul></nav>`; })())
       // The header's Willo link goes straight to her home, not /willo (one hop less), tagged so her site counts it.
       .replace(/(<a class="nl nl-willo" id="nav-willo" href=")\/willo"/g, `$1${crossUrl(ctx, "willo", "/?src=lore-nav", env)}"`)
       .replace(/<li><a href="\/(creators|refunds)">[^<]*<\/a><\/li>/g, "");
