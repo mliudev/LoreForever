@@ -190,11 +190,35 @@ function WN.Tag(parent, anchor, point, relPoint, x, y)
   return t
 end
 
--- A green dot at a tab's top right corner (a tab's label fills it, so a word wouldn't fit); hidden until shown.
+-- A green dot at a tab's top right corner (a tab's label fills it, so a word wouldn't fit); hidden until shown. On a
+-- ribbon (the book's bookmarks: red, or gold while open) it stands on the ribbon's top right corner as a round disc with a
+-- pale ring, so it reads on both; it's round where the count beside it is a pill.
 function WN.Dot(tab)
+  if tab.countBg then
+    local d = CreateFrame("Frame", nil, tab)
+    d:SetSize(12, 12)
+    d:SetPoint("CENTER", tab, "TOPRIGHT", 0, 0)
+    d:SetFrameLevel((tab:GetFrameLevel() or 1) + 2)
+    local disc = T.HasTexture(T.DISC)
+    local function layer(inset, role, sub)
+      local t = d:CreateTexture(nil, "OVERLAY", nil, sub)
+      t:SetPoint("TOPLEFT", inset, -inset)
+      t:SetPoint("BOTTOMRIGHT", -inset, inset)
+      if disc then
+        t:SetTexture(T.DISC)
+        t:SetVertexColor(T.rgba(T.color[role]))
+      else
+        T.Fill(t, role)
+      end
+    end
+    layer(0, "dotRim", 0)
+    layer(2, "dotGreen", 1)
+    d:Hide()
+    return d
+  end
   local d = tab:CreateTexture(nil, "OVERLAY")
   d:SetTexture("Interface\\Buttons\\WHITE8X8")
-  d:SetVertexColor(NEW_COLOR[1], NEW_COLOR[2], NEW_COLOR[3], NEW_COLOR[4])
+  d:SetVertexColor(T.rgba(T.color.inkGreen))   -- the tabs are parchment: the ink's green, not the game's bright one
   d:SetSize(6, 6)
   d:SetPoint("TOPRIGHT", -3, -3)
   d:Hide()

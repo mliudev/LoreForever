@@ -5,6 +5,9 @@
 # no Forever world: the installed copies then carry that client's Interface number (set_interface below).
 set -euo pipefail
 ADDONS_SRC="$(cd "$(dirname "$0")/.." && pwd)/addon"
+# A sparse worktree without the language folders would install English only. Add them here (one line says so) rather than
+# stop; if that fails or they're still missing, it stops with the line that adds them.
+[ ! -f "$ADDONS_SRC/../scripts/need_langs.py" ] || python3 "$ADDONS_SRC/../scripts/need_langs.py" --add "${0##*/}" || exit 1   # (a fixture copy of this script has no checkout)
 FOLDERS=(LoreForever LoreForever_Voice_Default)
 for d in "$ADDONS_SRC"/LoreForever_Lang_*; do [ -d "$d" ] && FOLDERS+=("$(basename "$d")"); done
 # WOW_DIR wins; otherwise take the first drive that has the flavor (default WoW Forever: _forever_, else the beta's

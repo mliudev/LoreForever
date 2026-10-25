@@ -433,6 +433,11 @@ local function buttonTooltip(self, anchor)
   if ns.WhatsNew.Pending("card") then
     T.Tip(string.format(L["New in %s: open Lore Forever to see what's new."], ns.WhatsNew.Version()), "tipGood")
   end
+  local pages = ns.newPages or 0
+  if pages > 0 then
+    T.Tip(string.format(pages == 1 and L["%d new page in your chronicle: open Found to read it."]
+      or L["%d new pages in your chronicle: open Found to read them."], pages), "tipGood", true)
+  end
   local newer = ns.Updates.TooltipLine()
   if newer then T.Tip(newer, "gold") end
   if busy then
@@ -481,7 +486,23 @@ local function addPlayingIndicator(b)
     end
   end
   b.glow, b.pulse = glow, pulse
+  -- New pages in your chronicle: the ring glows a steady green under the playing pulse (ns.SetButtonNew).
+  local fresh = b:CreateTexture(nil, "OVERLAY")
+  fresh:SetTexture("Interface\\Minimap\\MiniMap-TrackingBorder")
+  if fresh.SetDesaturated then fresh:SetDesaturated(true) end
+  fresh:SetVertexColor(T.rgba(T.color.tipGood))
+  fresh:SetSize(53, 53)
+  fresh:SetPoint("TOPLEFT")
+  fresh:Hide()
+  b.fresh = fresh
   b:SetScript("OnClick", function(_, button) buttonClick(button) end)
+end
+
+-- How many pages are new (Book.UpdateBadge): the minimap book glows while any are.
+function ns.SetButtonNew(n)
+  ns.newPages = n
+  local b = _G.LoreForeverMinimapButton
+  if b and b.fresh then b.fresh:SetShown((n or 0) > 0) end
 end
 
 -- Called whenever playback or the playlist changes (UI.UpdateNowPlaying), whatever caused it. An open tooltip is
@@ -597,6 +618,7 @@ function ns.MinimapButton()
   b:SetScript("OnEnter", function(self) buttonTooltip(self, "ANCHOR_LEFT") end)
   b:SetScript("OnLeave", function() GameTooltip:Hide() end)
   ns.SetButtonsPlaying(ns.UI.IsBusy())
+  ns.SetButtonNew(ns.newPages)
 end
 
 events:SetScript("OnEvent", function(_, event, arg1, ...)
@@ -623,6 +645,7 @@ events:SetScript("OnEvent", function(_, event, arg1, ...)
     if not ok and geterrorhandler then geterrorhandler()(err) end
     ok, err = pcall(ns.Collection.Init)   -- the pages this character has found (Collection.lua)
     if not ok and geterrorhandler then geterrorhandler()(err) end
+    ns.Slip.Init()   -- the note when you find a new page (Slip.lua)
     ns.Voice.Init()
     ns.WhatsNew.Init()   -- the first login of a new version: what's new in it (WhatsNew.lua)
     ns.Strip.SyncWillo()   -- Willo's newer Live game info choice beats an older one made here (Strip.lua, LOR-676)

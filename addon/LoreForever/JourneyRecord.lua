@@ -292,6 +292,18 @@ function JR.Text(char, limit)
   local fought = {}
   for i = 1, math.min(MOST_FOUGHT, #foes) do fought[i] = string.format("%s: %d", foes[i].name, foes[i].n) end
 
+  -- Your chronicle (v2): the pages found in each zone, of how many, and how many heard (Collection.Summary; a record
+  -- made outside the game reads the copy the journey keeps from the last logout).
+  local chron = {}
+  local C, J2 = ns.Collection, ns.Journey
+  local sum = (C and C.Summary and J2 and J2.Char and J2.Char() == char and C.Summary()) or char.chronicle
+  for _, z in ipairs(type(sum) == "table" and type(sum.zones) == "table" and sum.zones or {}) do
+    local name, f, t, h = tostring(z):match("^(.-);(%d+);(%d+);(%d+)$")
+    if name and name ~= "" then
+      chron[#chron + 1] = string.format("- %s: %d/%d, %s", name, f, t, string.format(L["%d heard"], h))
+    end
+  end
+
   local TITLES = titles(whole)
   local stats, lists = numbers(char)
   local function render(keep, cut)
@@ -300,6 +312,7 @@ function JR.Text(char, limit)
     -- The journey in numbers first (LOR-246). A site from before them skips these lines.
     if #stats > 0 then out[#out + 1] = "\n" .. L["Journey stats"] .. "\n" .. table.concat(stats, "\n") end
     for _, l in ipairs(lists) do out[#out + 1] = "\n" .. l[1] .. "\n" .. l[2] end
+    if #chron > 0 then out[#out + 1] = "\n" .. L["Your chronicle"] .. "\n" .. table.concat(chron, "\n") end
     for _, sec in ipairs(SECTIONS) do
       local lines = {}
       for _, en in ipairs(keep) do if en.sec == sec then lines[#lines + 1] = en.line end end
@@ -442,7 +455,7 @@ function JR.WebLine(view)
   icon:SetPoint("LEFT", 4, 0)
   local tex = "Interface\\Icons\\INV_Misc_Note_01"
   if T.HasTexture(tex) then icon:SetTexture(tex) else icon:Hide() end
-  local text = b:CreateFontString(nil, "OVERLAY", "GameFontHighlightSmall")
+  local text = T.Ink(b:CreateFontString(nil, "OVERLAY", "GameFontHighlightSmall"), "ink")   -- on the journey page's parchment
   text:SetPoint("LEFT", icon, "RIGHT", 6, 0)
   text:SetPoint("RIGHT", -2, 0)
   text:SetJustifyH("LEFT")
@@ -460,28 +473,47 @@ function JR.WebLine(view)
   function b:Update(shown)
     local again = LoreForeverDB and LoreForeverDB.settings and LoreForeverDB.settings.recordCopied
       and type(_G.LoreForeverJourneyData) ~= "table"
-    text:SetText(again and (T.code.gold .. L["Played some more?"] .. "|r " .. L["Paste a newer record at loreforeverwow.com/account to update your page."])
-      or (T.code.gold .. L["Your page on loreforeverwow.com:"] .. "|r " .. L["your stats, the road you took and your story"]))
+    text:SetText(again and (T.code.inkAccent .. L["Played some more?"] .. "|r " .. L["Paste a newer record at loreforeverwow.com/account to update your page."])
+      or (T.code.inkAccent .. L["Your page on loreforeverwow.com:"] .. "|r " .. L["your stats, the road you took and your story"]))
     self:SetShown(shown ~= false)
   end
   b:Update()
   return b
 end
 
--- Called by Journey.CreateView: the button, as wide as Update my journey and just above it. It's the page's main
--- action, so it wears the primary look.
-function JR.Attach(view, sync, width)
-  local b = ns.Theme.SkinButton(CreateFrame("Button", "LoreForeverJourneyRecord", view, "UIPanelButtonTemplate"), "primary")
-  b:SetSize(width, 24)
-  b:SetPoint("BOTTOMLEFT", sync, "TOPLEFT", 0, 4)
+-- Called by Journey.CreateView: the way in for a player without Willo's profile link: a small link-style button left of
+-- Update my journey, so the page's one real button is the save. It stays for everyone: the add-on can tell that Willo is
+-- installed (her add-on's data) but not that she is connected to the player's profile, and a player whose Willo isn't
+-- connected has no other way to build the page (Mike, 2026-10-24). Its tooltip says what it does and when it isn't needed.
+function JR.Attach(view, sync)
+  local T = ns.Theme
+  local b = CreateFrame("Button", "LoreForeverJourneyRecord", view, "UIPanelButtonTemplate")
+  for _, k in ipairs({ "Left", "Middle", "Right" }) do   -- the template's button art, as T.SkinButton hides it
+    local t = rawget(b, k)
+    if type(t) == "table" and t.SetAlpha then t:SetAlpha(0) end
+  end
+  b:SetHeight(22)
+  b:SetPoint("RIGHT", sync, "LEFT", -6, 0)
   b:SetText(L["Copy my journey record"])
-  local tw = ns.Theme and ns.Theme.TextWidth and ns.Theme.TextWidth(b:GetFontString())
-  if tw then b:SetWidth(math.max(width, tw + 24)) end   -- "Copier le journal de mon périple" runs past 170
+  local fs = b:GetFontString()
+  if fs then T.Ink(fs, "inkAccent") end
+  local tw = T.TextWidth and T.TextWidth(fs)
+  b:SetWidth((tw or 150) + 12)
+  local line = b:CreateTexture(nil, "ARTWORK")   -- the underline that makes it read as a link
+  line:SetHeight(1)
+  line:SetPoint("BOTTOMLEFT", 6, 3)
+  line:SetPoint("BOTTOMRIGHT", -6, 3)
+  T.Fill(line, "inkAccent")
+  b.underline = line
+  local hl = b:CreateTexture(nil, "HIGHLIGHT")
+  hl:SetAllPoints()
+  T.Fill(hl, "inkHover")
+  if b.SetHighlightTexture then b:SetHighlightTexture(hl) end
   b:SetScript("OnClick", function() JR.Copy() end)
   b:SetScript("OnEnter", function(self)
-    GameTooltip:SetOwner(self, "ANCHOR_RIGHT")
+    GameTooltip:SetOwner(self, "ANCHOR_TOP")
     GameTooltip:AddLine(L["Copy my journey record"])
-    ns.Theme.Tip(L["You can copy and paste your journey record."], "tipText", true)
+    T.Tip(L["No Willo app? Copy your journey here and paste it into your Lore Forever account to build your page. With Willo connected, your page updates by itself."], "tipText", true)
     GameTooltip:Show()
   end)
   b:SetScript("OnLeave", function() GameTooltip:Hide() end)

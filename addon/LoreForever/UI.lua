@@ -10,6 +10,8 @@ local function faqIndex(key, original) return ns.Lang.FaqIndex(key, original) en
 local T = ns.Theme   -- colours, fonts, borders and the themed button (Theme.lua)
 
 local GOLD, GREY, BLUE, WHITE, GREEN = T.code.gold, T.code.grey, T.code.blue, T.code.white, T.code.green
+-- The sidebar's inks: its pages are parchment now, so names are written in ink, not light on dark.
+local INK, INK_ACCENT, INK_FADED, INK_GREEN = T.code.ink, T.code.inkAccent, T.code.inkFaded, T.code.inkGreen
 -- Score thresholds. Real lore questions score 15+ with the tuned engine (tests/retrieval_check.py); these only catch
 -- matches on a stray common word. Gameplay questions can't be told apart by score (they name real NPCs and quests),
 -- so they're caught by wording instead (GAMEPLAY below).
@@ -17,14 +19,21 @@ local MIN_SCORE = 2.0          -- at or above: confident enough to answer
 local GUESS_SCORE = 0.8        -- between this and MIN_SCORE: offer "did you mean" instead of guessing
 local MAX_MESSAGES = 30        -- bubbles kept in the conversation
 local W, H, SIDE_W = 820, 560, 250
-local MIN_W = 600                           -- narrowest the panel can be dragged (the conversation gets ~300)
+local MIN_W = 800                           -- narrowest the panel can be dragged: wide enough for both pages in full (the Road's map beside its counts)
 local CHAT_X = SIDE_W + 14                  -- left edge of the conversation
-local CHAT_W = W - CHAT_X - 40              -- conversation width (the scroll bar takes the rest)
+local BOOK_R = 36                           -- the book's right edge, from the window's: the ribbons stand in the room it leaves
+local SHIFT_R = BOOK_R - 12                 -- how far that pulls in what used to reach the window's right edge
+local CHAT_W = W - CHAT_X - 40 - SHIFT_R    -- conversation width (the scroll bar takes the rest)
 local PAD = 8                               -- bubble padding
-local PLAYER_H = 72                         -- the narration player at the bottom of the sidebar
-local DOCK_H = PLAYER_H + 8                 -- what the sidebar keeps free for it (its bottom inset included)
+local PLAYER_H = 72                         -- the floating player (a box of its own, two rows)
+local DOCK_PLAYER_H = 40                    -- the docked player: one row across the foot of the book
+local DOCK_H = DOCK_PLAYER_H + 8            -- what the book keeps free for it (its bottom inset included)
+local FOOT = DOCK_H - 8                     -- how far the foot raises everything that sat on the window's bottom edge
+local BOOK_TOP = 60                         -- the book's top edge, under the title bar
+
 local HERE_ROW, HERE_STEP = 22, 24          -- the Here list's one-line rows, and row to row (a dungeon's 9 bosses fit)
 local HERE_INDENT = 26                      -- where Here names start: after the play arrow's slot
+local HERE_TOP = 70                         -- the Here heading's top, from the window's top (the page starts at 60)
 local N_NEXT, N_COMPLETE = 3, 6
 
 -- Words that mark a mechanics question ("how many runs for the hammer?"). The answer is still the entry's lore,
@@ -50,7 +59,8 @@ local function esc(s)
 end
 
 -- A flat text button (the default UIPanelButtonTemplate can't wrap long text). `fill` gives it a pill background.
-local function TextButton(parent, width, height, fontObject, fill)
+-- `ink`: on parchment, its text in ink and its highlight in ink red.
+local function TextButton(parent, width, height, fontObject, fill, ink)
   local b = CreateFrame("Button", nil, parent)
   b:SetSize(width, height)
   if fill then
@@ -61,13 +71,14 @@ local function TextButton(parent, width, height, fontObject, fill)
   end
   local hl = b:CreateTexture(nil, "HIGHLIGHT")
   hl:SetAllPoints()
-  T.Fill(hl, "hover")
+  T.Fill(hl, ink and "inkHover" or "hover")
   local fs = b:CreateFontString(nil, "OVERLAY", fontObject or T.font.small)
   fs:SetPoint("TOPLEFT", 6, -2)
   fs:SetPoint("BOTTOMRIGHT", -6, 2)
   fs:SetJustifyH("LEFT")
   fs:SetJustifyV("MIDDLE")
   if fs.SetWordWrap then fs:SetWordWrap(true) end
+  if ink then T.PaperText(fs, "ink") end
   b.text = fs
   return b
 end
@@ -164,12 +175,14 @@ local function bossName(e)
   return (e.n:gsub("%s*%b()$", ""))
 end
 
--- A section header: gold, with a thin gold rule under it so sections read as sections.
-local function Header(parent, text)
+-- A section header: gold, with a thin gold rule under it so sections read as sections. `ink`: on parchment, in ink red
+-- with an ink rule.
+local function Header(parent, text, ink)
   local fs = parent:CreateFontString(nil, "OVERLAY", T.font.heading)
   fs:SetText(text)
   fs:SetJustifyH("LEFT")
-  local rule = T.Area(parent, "rule", "ARTWORK")
+  if ink then T.Ink(fs, "inkAccent") end
+  local rule = T.Area(parent, ink and "inkRule" or "rule", "ARTWORK")
   rule:SetHeight(1)
   rule:SetPoint("TOPLEFT", fs, "BOTTOMLEFT", 0, -3)
   rule:SetWidth(SIDE_W - 28)
@@ -182,6 +195,8 @@ local Area = T.Area
 -- Secondary text (notes, hints, empty states): light grey. The game's "disabled" grey is too dim to read on the dark
 -- panel at small sizes, so keep that for the message box placeholder.
 local Muted = T.Muted
+-- The same on the sidebar's parchment: ink, not light grey.
+local function Faint(fs) return T.Ink(fs, "inkNote") end
 
 -- A push button in the panel's style (UIPanelButtonTemplate behaviour, gold-rimmed dark art).
 local function PanelButton(parent, kind)
@@ -247,25 +262,31 @@ end
 -- runs a moment after you stop typing, and at once when it's cleared. Escape clears it first; empty, Escape closes the
 -- panel, like the message box. Enter leaves the box. It never takes focus on its own, so the panel key and the message
 -- box work as before. With `scroll` (the list's scroll frame), a new search starts at the top of the list and clearing
--- it goes back to where you were.
-function UI.SearchBox(parent, width, onChange, scroll)
-  local box = T.Backdrop(CreateFrame("Frame", nil, parent, T.BACKDROP_TEMPLATE), "popup")
+-- it goes back to where you were. `ink`: on parchment, a paper field in ink.
+function UI.SearchBox(parent, width, onChange, scroll, ink)
+  local box = T.Backdrop(CreateFrame("Frame", nil, parent, T.BACKDROP_TEMPLATE), ink and "paper" or "popup")
   box:SetSize(width, 22)
   box.words, box.text = {}, ""
+  if ink then
+    local field = T.Area(box, "tileFill", "BACKGROUND")
+    field:SetPoint("TOPLEFT", 3, -3)
+    field:SetPoint("BOTTOMRIGHT", -3, 3)
+  end
   local eb = CreateFrame("EditBox", nil, box)
   eb:SetPoint("TOPLEFT", 7, -2)
   eb:SetPoint("BOTTOMRIGHT", -22, 2)
   eb:SetFontObject(T.font.small)
+  if ink then eb:SetTextColor(T.rgba(T.color.ink)) end
   eb:SetAutoFocus(false)
   eb:SetMaxLetters(40)
   box.edit = eb
-  local hint = Muted(box:CreateFontString(nil, "OVERLAY", T.font.small))
+  local hint = (ink and function(fs) return T.Ink(fs, "inkHint") end or Muted)(box:CreateFontString(nil, "OVERLAY", T.font.small))
   hint:SetPoint("LEFT", 8, 0)
   hint:SetPoint("RIGHT", -24, 0)
   hint:SetJustifyH("LEFT")
   if hint.SetWordWrap then hint:SetWordWrap(false) end
   hint:SetText(L["Search..."])
-  local x = TextButton(box, 20, 20, T.font.body)
+  local x = TextButton(box, 20, 20, T.font.body, nil, ink)
   x:SetPoint("RIGHT", -1, 0)
   x:SetHitRectInsets(-2, -1, -1, -1)
   x.text:ClearAllPoints()
@@ -411,6 +432,7 @@ end
 
 -- Shared with the journey page (Journey.lua), so its rows and headers look like the rest of the panel.
 UI.TextButton, UI.Header, UI.SIDE_W, UI.CHAT_X, UI.DOCK_H = TextButton, Header, SIDE_W, CHAT_X, DOCK_H
+UI.BOOK_TOP, UI.BOOK_R, UI.MIN_W = BOOK_TOP, BOOK_R, MIN_W
 UI.QueueButton, UI.SetQueueButton = QueueButton, SetQueueButton
 
 -- The playlist (see "Playlist" below): items {id, key, idx, label}, pos = the current item, and state:
@@ -425,8 +447,8 @@ function UI.Create(engine)
   UI.engine = engine
   UI.msgs, UI.blocks, UI.bubbles = {}, {}, {}
 
-  -- The game's gold dialog frame with a title banner (Theme.Window).
-  local f = T.Window("LoreForeverFrame", UIParent, "Lore Forever")
+  -- The game's gold dialog frame with a title banner (Theme.Window): the window is the open book, "Your Chronicle".
+  local f = T.Window("LoreForeverFrame", UIParent, L["Your Chronicle"])
   UI.frame = f
   f:SetSize(W, H)
   f:SetPoint("CENTER")
@@ -463,6 +485,7 @@ function UI.Create(engine)
   end
   -- Re-flow after the drag settles rather than on every size tick.
   f:SetScript("OnSizeChanged", function()
+    UI.FitRibbons()   -- (every page hangs from the window's edges, so it follows the drag by itself)
     UI.layoutToken = (UI.layoutToken or 0) + 1
     local token = UI.layoutToken
     C_Timer.After(0.1, function() if token == UI.layoutToken then UI.Layout() end end)
@@ -505,93 +528,132 @@ function UI.Create(engine)
   UI.optionsButton = gear
   UI.newButton = headerButton(L["New chat"], function() UI.Clear() end, gear)
   UI.historyButton = headerButton(L["History"], function() UI.ToggleHistory() end, UI.newButton)
-  -- Journey opens a page over the conversation, like History.
+  -- Journey opens a page over the conversation, like History. Since slice 5 the Road bookmark opens it, and this
+  -- button stays hidden (made, for what anchors to it).
   UI.journeyButton = headerButton(L["Journey"], function()
     if not ns.Journey.IsShown() then ns.Log.Use("tab", "journey") end   -- usage counts (LOR-435)
     ns.Journey.Toggle()
   end, UI.historyButton)
+  UI.journeyButton:Hide()
 
+  -- The title bar reads "Your Chronicle" (the banner) and where you stand: a small book, then the place and who you are.
+  local bookIcon = f:CreateTexture(nil, "ARTWORK")
+  bookIcon:SetTexture(T.KindIcon("storyline"))
+  bookIcon:SetTexCoord(0.08, 0.92, 0.08, 0.92)
+  bookIcon:SetSize(22, 22)
+  bookIcon:SetPoint("TOPLEFT", 16, -33)
+  UI.bookIcon = bookIcon
   UI.contextLine = f:CreateFontString(nil, "OVERLAY", T.font.place)
-  UI.contextLine:SetPoint("TOPLEFT", 16, -34)
-  UI.contextLine:SetPoint("RIGHT", UI.journeyButton, "LEFT", -10, 0)
+  UI.contextLine:SetPoint("TOPLEFT", 44, -34)
+  UI.contextLine:SetPoint("RIGHT", UI.historyButton, "LEFT", -10, 0)
   UI.contextLine:SetJustifyH("LEFT")
   if UI.contextLine.SetWordWrap then UI.contextLine:SetWordWrap(false) end
   -- Willo's icon (LOR-601, Mike's pick: the title bar, in a gold ring), left of Journey for players without her
   -- (Companion.CreateIcon); the place name ends before it while it shows (UI.UpdateWilloIcon).
   UI.willoIcon = ns.Companion.CreateIcon(f, 24)
-  UI.willoIcon:SetPoint("RIGHT", UI.journeyButton, "LEFT", -10, 0)
+  UI.willoIcon:SetPoint("RIGHT", UI.historyButton, "LEFT", -10, 0)
   UI.UpdateWilloIcon()
 
-  -- Sidebar: its own tinted column with a divider, so it reads as navigation rather than conversation.
-  local side = Area(f, "side")
-  side:SetPoint("TOPLEFT", 8, -60)
-  side:SetPoint("BOTTOMRIGHT", f, "BOTTOMLEFT", SIDE_W, 8)
-  local divider = T.Area(f, "divider", "ARTWORK")
-  divider:SetPoint("TOPLEFT", SIDE_W, -60)
-  divider:SetPoint("BOTTOMLEFT", SIDE_W, 8)
-  divider:SetWidth(1)
+  -- The book. Its left page is the sidebar: a parchment page of its own, with the fold's shadow along the edge where it
+  -- meets the right page, and everything the sidebar holds hangs from this frame.
+  local book = CreateFrame("Frame", nil, f)
+  book:SetPoint("TOPLEFT", 8, -BOOK_TOP)
+  book:SetPoint("BOTTOMRIGHT", f, "BOTTOMLEFT", CHAT_X - 4, DOCK_H)
+  T.Parchment(book, "left")
+  UI.sidePage = book
+  -- The right page, under the conversation (Here's welcome, the questions and answers): parchment like every other
+  -- page, with the conversation written on it in ink.
+  local chatPage = CreateFrame("Frame", nil, f)
+  chatPage:SetPoint("TOPLEFT", f, "TOPLEFT", CHAT_X - 4, -BOOK_TOP)
+  chatPage:SetPoint("BOTTOMRIGHT", f, "BOTTOMRIGHT", -BOOK_R, DOCK_H)
+  T.Parchment(chatPage, "right")
+  UI.chatPage = chatPage
+  -- What the window itself draws on that page (the suggestions' label, the message box's band) goes on a frame over
+  -- it: a frame covers its parent's own text and textures.
+  local chatDecor = CreateFrame("Frame", nil, f)
+  chatDecor:SetAllPoints(f)
+  UI.chatDecor = chatDecor
 
-  -- Sidebar tabs: "Here" (this place and your quests) and "Found" (your chronicle's pages by chapter, Book.lua; it
-  -- took the Library's place). Each fits its label. The playlist is the player's (bottom left), not a tab.
+  -- The bookmarks: ribbons down the right edge of the book, on the window's ground beside it. "Here" (this place and
+  -- your quests), "Found" (your chronicle's pages by chapter, Book.lua; it took the Library's place), "Road" (the journey
+  -- page, zones as chapters, Road.lua) and "Storylines" (the storylines you're on). The open one is gold and a little
+  -- longer; Found carries how many pages are new. The playlist is the player's (the foot of the book), not a bookmark.
   UI.tabs = {}
-  local tabX = 8
-  for _, spec in ipairs({ { "here", L["Here"] }, { "found", L["Found"] } }) do
-    local tab = TextButton(f, 60, 22, T.font.heading, T.color.tab)
-    tab:SetPoint("TOPLEFT", tabX, -64)
-    tab.text:SetPoint("TOPLEFT", 2, -2)
-    tab.text:SetPoint("BOTTOMRIGHT", -2, 2)
-    tab.text:SetJustifyH("CENTER")
-    if tab.text.SetWordWrap then tab.text:SetWordWrap(false) end
-    tab.text:SetText(spec[2])
-    local tw = T.TextWidth(tab.text)   -- the whole label: "Bibliothèque" measured in the 60-wide tab came back cut
-    tab:SetWidth(math.max(60, math.min(116, (tw or 44) + 20)))
-    tabX = tabX + (tonumber(tab:GetWidth()) or 60) + 4
-    T.TabDecor(tab)
-    local on = tab:CreateTexture(nil, "ARTWORK")
-    on:SetPoint("BOTTOMLEFT")
-    on:SetPoint("BOTTOMRIGHT")
-    on:SetHeight(2)
-    T.Fill(on, "fill")
-    tab.on = on
+  local specs = { { "here", L["Here"] }, { "found", L["Found"] }, { "road", L["Road"] }, { "story", L["Storylines"] } }
+  for i, spec in ipairs(specs) do
+    local tab = T.Ribbon(f, spec[2])
+    tab:SetFrameLevel((f:GetFrameLevel() or 1) + 26)
+    -- The open one is a lighter gold with a dark label (cream on the kit's gold read at 3:1).
+    local setOn = tab.SetOn
+    function tab:SetOn(on)
+      setOn(self, on)
+      T.StyleOpenRibbon(self, self.on)
+    end
+    if i == 1 then tab:SetPoint("TOPLEFT", f, "TOPRIGHT", -BOOK_R, -(BOOK_TOP + 10))
+    else tab:SetPoint("TOPLEFT", UI.tabs[i - 1], "BOTTOMLEFT", 0, -6) end
     tab.view = spec[1]
-    -- Found counts as "narrations", the Library's name, which Willo forwards and the site reads.
+    -- Found counts as "narrations", the Library's name, and the Road as "journey": the names Willo forwards and the
+    -- site reads.
     tab:SetScript("OnClick", function(self)
-      ns.Log.Use("tab", self.view == "found" and "narrations" or self.view)
+      local v = self.view
+      ns.Log.Use("tab", (v == "found" and "narrations") or (v == "road" and "journey") or (v == "story" and "storylines") or v)
       UI.ShowTab(self.view)
     end)
-    UI.tabs[#UI.tabs + 1] = tab
+    UI.tabs[i] = tab
   end
-  -- After an update, a green "New" over Journey and History and a dot on the Found tab when the headline changes
-  -- mention them, each until that page has been opened (WhatsNew.lua; UI.UpdateNewMarks shows them).
+  -- After an update, a green "New" over History and a green dot on the Journey (Road) and Found ribbons when the headline
+  -- changes mention them, each until that page has been opened (WhatsNew.lua; UI.UpdateNewMarks shows them).
   UI.newMarks = {
-    journey = ns.WhatsNew.Tag(f, UI.journeyButton, "BOTTOMRIGHT", "TOPRIGHT", -2, 2),
+    journey = ns.WhatsNew.Dot(UI.tabs[3]),
     history = ns.WhatsNew.Tag(f, UI.historyButton, "BOTTOMRIGHT", "TOPRIGHT", -2, 2),
     found = ns.WhatsNew.Dot(UI.tabs[2]),
   }
-  ns.Book.CreateBadge(UI.tabs[2])   -- how many pages are new
-  local hereView = CreateFrame("Frame", nil, f)
+  -- How many pages are new: Book.UpdateBadge writes it to the Found ribbon's count.
+  local foundRibbon = UI.tabs[2]
+  ns.Book.badge = {
+    bg = { SetShown = function() end, SetWidth = function() end },
+    SetText = function(_, text)
+      foundRibbon:SetCount(tonumber(text) or ((text or "") ~= "" and 100) or 0)
+      UI.FitRibbons()
+    end,
+    SetShown = function(_, on) if not on then foundRibbon:SetCount(0); UI.FitRibbons() end end,
+  }
+  ns.Book.UpdateBadge()
+  local hereView = CreateFrame("Frame", nil, book)
   hereView:SetAllPoints(f)
   UI.hereView = hereView
-  local foundView = CreateFrame("Frame", nil, f)
+  local foundView = CreateFrame("Frame", nil, book)
   foundView:SetAllPoints(f)
   foundView:Hide()
   UI.foundView = foundView
   ns.Book.CreateSide(foundView)
-  -- The queue: opens from the player, over the sidebar, so the conversation stays readable while you reorder.
+  local roadView = CreateFrame("Frame", nil, book)
+  roadView:SetAllPoints(f)
+  roadView:Hide()
+  UI.roadView = roadView
+  ns.Road.CreateSide(roadView)
+  local storyView = CreateFrame("Frame", nil, book)
+  storyView:SetAllPoints(f)
+  storyView:Hide()
+  UI.storyView = storyView
+  ns.Road.CreateStorySide(storyView)
+  -- The queue: opens from the player, over the left page, so the conversation stays readable while you reorder.
   local plView = CreateFrame("Frame", nil, f)
   plView:SetAllPoints(f)
-  plView:SetFrameLevel((f:GetFrameLevel() or 1) + 15)
+  plView:SetFrameLevel((f:GetFrameLevel() or 1) + 16)   -- over the left page's own frames
   plView:Hide()
   UI.plView = plView
   UI.CreatePlaylist(plView)
   UI.dock = UI.CreatePlayer(f, false)
   UI.journeyPage = ns.Journey.CreatePage(f)   -- what this character has done, over the chat (Journey.lua)
+  -- The journey page is the Road's: opened any way (the welcome back, /lore journey), the Road bookmark shows.
+  UI.journeyPage:HookScript("OnShow", function() if UI.tab ~= "road" then UI.ShowTab("road", true) end end)
 
   -- The Here list, as in the mockups Mike picked (navigation option A, Gilded Night look): one-line rows, the play
   -- arrow on the left of anything narrated, a + on the right of anything that can be queued, then your quests.
   -- Names line up after the play arrow's slot whether or not a row has one.
   local function hereRow()
-    local b = TextButton(hereView, SIDE_W - 16, HERE_ROW, nil, T.color.row)
+    local b = TextButton(hereView, SIDE_W - 16, HERE_ROW, nil, T.color.inkRow, true)
     if b.text.SetWordWrap then b.text:SetWordWrap(false) end
     b.text:SetPoint("TOPLEFT", HERE_INDENT, -2)
     b.play = PlayButton(b)
@@ -600,18 +662,34 @@ function UI.Create(engine)
     b.add = QueueButton(b, HERE_ROW - 4)
     b.add:SetPoint("RIGHT", -2, 0)
     -- Your target (or the boss you're on): a gold wash and bar, so it's clear why it leads the list.
-    b.mark = T.TargetMark(b)
+    b.mark = T.TargetMark(b, true)
     b:SetScript("OnLeave", function() GameTooltip:Hide() end)
     return b
   end
-  UI.hereHeader = Header(hereView, L["Here"])
-  UI.hereHeader:SetPoint("TOPLEFT", 16, -94)
+  -- The heading names where you stand; clicking it opens that place's page (Here as a page, slice 5).
+  local hereOpen = CreateFrame("Button", nil, hereView)
+  hereOpen:SetPoint("TOPLEFT", 14, -HERE_TOP)
+  hereOpen:SetSize(SIDE_W - 16, 18)
+  UI.hereHeader = Header(hereOpen, L["Here"], true)
+  UI.hereHeader:SetPoint("TOPLEFT", 2, -2)
   UI.hereHeader:SetWidth(SIDE_W - 20)
   if UI.hereHeader.SetWordWrap then UI.hereHeader:SetWordWrap(false) end
+  hereOpen:SetScript("OnClick", function()
+    local key = ns.Road.HereKey()
+    if key then ns.Page.Show(key, "here") end
+  end)
+  hereOpen:SetScript("OnEnter", function(self)
+    if not ns.Road.HereKey() then return end
+    GameTooltip:SetOwner(self, "ANCHOR_RIGHT")
+    T.Tip(L["Open this place's page"], "tipDim", true)
+    GameTooltip:Show()
+  end)
+  hereOpen:SetScript("OnLeave", function() GameTooltip:Hide() end)
+  UI.hereOpen = hereOpen
   UI.suggestions = {}
   for i = 1, 5 do
     local b = hereRow()
-    b:SetPoint("TOPLEFT", 12, -112 - (i - 1) * HERE_STEP)
+    b:SetPoint("TOPLEFT", 12, -(HERE_TOP + 20) - (i - 1) * HERE_STEP)
     b:SetScript("OnClick", function(self)
       if self.primer then UI.ShowPrimer(self.primer, "here")
       elseif self.key and self.idx then UI.ShowFaq(self.key, self.idx, "here")
@@ -634,7 +712,7 @@ function UI.Create(engine)
   end
 
   -- Inside a dungeon: its bosses in encounter order, each opening its story, with play, + and "Add all".
-  UI.bossHeader = Header(hereView, L["Bosses, in order"])
+  UI.bossHeader = Header(hereView, L["Bosses, in order"], true)
   local queueAll = TextButton(hereView, 70, 16, T.font.small, T.color.add)
   queueAll.text:SetJustifyH("CENTER")
   queueAll.text:SetPoint("TOPLEFT", 2, -1)
@@ -668,28 +746,28 @@ function UI.Create(engine)
     UI.bossButtons[i] = b
   end
 
-  local questHeader = Header(hereView, L["Your quests"])
-  questHeader:SetPoint("TOPLEFT", 16, -112 - 5 * HERE_STEP - 10)
+  local questHeader = Header(hereView, L["Your quests"], true)
+  questHeader:SetPoint("TOPLEFT", 16, -(HERE_TOP + 20) - 5 * HERE_STEP - 10)
   UI.questHeader = questHeader
   -- How many quests are in your log, small at the header's right.
-  local questCount = Muted(hereView:CreateFontString(nil, "OVERLAY", T.font.small))
+  local questCount = Faint(hereView:CreateFontString(nil, "OVERLAY", T.font.small))
   questCount:SetPoint("BOTTOMRIGHT", questHeader.rule, "TOPRIGHT", 0, 3)
   questCount:SetJustifyH("RIGHT")
   UI.questCount = questCount
   -- With an empty quest log, say what will show here instead of a bare header.
-  local noQuests = Muted(hereView:CreateFontString(nil, "OVERLAY", T.font.small))
+  local noQuests = Faint(hereView:CreateFontString(nil, "OVERLAY", T.font.small))
   noQuests:SetWidth(SIDE_W - 32)
   noQuests:SetJustifyH("LEFT")
   noQuests:SetText(L["No quests in your log. Pick one up and the story behind it shows here."])
   noQuests:Hide()
   UI.noQuests = noQuests
   -- Under the header when your log holds more quests than fit (UI.Refresh): by title, zone or the story's name.
-  UI.questSearch = UI.SearchBox(hereView, SIDE_W - 22, function() UI.Refresh() end)
+  UI.questSearch = UI.SearchBox(hereView, SIDE_W - 22, function() UI.Refresh() end, nil, true)
   UI.questSearch:Hide()
   UI.questButtons = {}
   for i = 1, 10 do
     local b = hereRow()
-    b:SetPoint("TOPLEFT", 12, -112 - 5 * HERE_STEP - 28 - (i - 1) * HERE_STEP)
+    b:SetPoint("TOPLEFT", 12, -(HERE_TOP + 20) - 5 * HERE_STEP - 28 - (i - 1) * HERE_STEP)
     b:SetScript("OnClick", function(self)
       -- Shift-click: the quest's narration joins the playlist (UI.QueueQuest).
       local name = self.shown or (self.quest and self.quest.title)
@@ -717,7 +795,7 @@ function UI.Create(engine)
   end
 
   -- Where the lore comes from (its licence asks for the credit), just above the player.
-  local hint = Muted(hereView:CreateFontString(nil, "OVERLAY", T.font.small))
+  local hint = Faint(hereView:CreateFontString(nil, "OVERLAY", T.font.small))
   -- It wraps rather than cut off (it runs long in every language); anchored at the bottom, a second line grows up
   -- into the room the Here list leaves free (UI.Refresh stops the list 44px above the player).
   hint:SetPoint("BOTTOMLEFT", 16, DOCK_H + 6)
@@ -738,7 +816,7 @@ function UI.Create(engine)
     end)
   end
   sf:SetPoint("TOPLEFT", CHAT_X, -64)
-  sf:SetPoint("BOTTOMRIGHT", -34, 128)
+  sf:SetPoint("BOTTOMRIGHT", -34 - SHIFT_R, 128 + FOOT)
   local content = CreateFrame("Frame", nil, sf)
   content:SetSize(CHAT_W, 100)
   sf:SetScrollChild(content)
@@ -774,14 +852,14 @@ function UI.Create(engine)
   UI.toast = toast
 
   -- Suggested replies under the conversation
-  UI.nextLabel = f:CreateFontString(nil, "OVERLAY", T.font.label)
-  UI.nextLabel:SetPoint("BOTTOMLEFT", CHAT_X + 2, 110)
+  UI.nextLabel = T.PaperText(UI.chatDecor:CreateFontString(nil, "OVERLAY", T.font.label), "inkAccent")
+  UI.nextLabel:SetPoint("BOTTOMLEFT", CHAT_X + 2, 110 + FOOT)
   UI.nextLabel:SetText(L["Suggested:"])
   UI.nextButtons = {}
   for i = 1, N_NEXT do
-    local b = TextButton(f, CHAT_W, 20, T.font.small, T.color.chip)
-    b:SetPoint("BOTTOMLEFT", CHAT_X, 108 - i * 22)
-    b:SetPoint("BOTTOMRIGHT", f, "BOTTOMRIGHT", -36, 108 - i * 22)
+    local b = TextButton(f, CHAT_W, 20, T.font.small, T.color.inkRow, true)
+    b:SetPoint("BOTTOMLEFT", CHAT_X, 108 - i * 22 + FOOT)
+    b:SetPoint("BOTTOMRIGHT", f, "BOTTOMRIGHT", -36 - SHIFT_R, 108 - i * 22 + FOOT)
     b:SetScript("OnClick", function(self)
       if self.live then UI.AskWillo(self.live)
       elseif self.everything then UI.TellEverything()
@@ -793,12 +871,13 @@ function UI.Create(engine)
   end
 
   -- Message box
-  local bar = Area(f, "bar")
-  bar:SetPoint("BOTTOMLEFT", CHAT_X - 4, 10)
-  bar:SetPoint("TOPRIGHT", f, "BOTTOMRIGHT", -12, 44)
+  local bar = Area(UI.chatDecor, "inkRow")
+  bar:SetPoint("BOTTOMLEFT", CHAT_X - 4, 10 + FOOT)
+  bar:SetPoint("TOPRIGHT", f, "BOTTOMRIGHT", -BOOK_R, 44 + FOOT)
+  UI.msgBar = bar
   local eb = CreateFrame("EditBox", "LoreForeverInput", f, "InputBoxTemplate")
-  eb:SetPoint("BOTTOMLEFT", CHAT_X + 8, 16)
-  eb:SetPoint("BOTTOMRIGHT", f, "BOTTOMRIGHT", -96, 16)
+  eb:SetPoint("BOTTOMLEFT", CHAT_X + 8, 16 + FOOT)
+  eb:SetPoint("BOTTOMRIGHT", f, "BOTTOMRIGHT", -96 - SHIFT_R, 16 + FOOT)
   eb:SetHeight(24)
   eb:SetAutoFocus(false)
   eb:SetMaxLetters(240)
@@ -849,7 +928,8 @@ function UI.Create(engine)
   UI.input = eb
   local send = PanelButton(f)
   send:SetSize(56, 24)
-  send:SetPoint("BOTTOMRIGHT", f, "BOTTOMRIGHT", -30, 16)
+  send:SetPoint("BOTTOMRIGHT", f, "BOTTOMRIGHT", -30 - SHIFT_R, 16 + FOOT)
+  UI.sendButton = send
   send:SetText(L["Send"])
   send:SetScript("OnClick", function() eb:GetScript("OnEnterPressed")(eb) end)
   UI.CreateCompletion(f, eb)
@@ -869,10 +949,41 @@ function UI.Create(engine)
     if ns.Strip then ns.Strip.Update() end
   end)
   UI.mini = UI.CreatePlayer(UIParent, true)
+  UI.CreateBook()
   UI.ShowTab("here")
   UI.SetNext({})
   UI.UpdateNewMarks()
   return f
+end
+
+-- The book's pages ----------------------------------------------------------------------------------------------------
+-- One layout at every size: the left page (what you choose from) beside the right one (what you chose), which takes
+-- what the window adds. The window can't be made narrower than MIN_W, so there's no thin, one-page shape. The right
+-- pages are other modules' (Page.lua, Book.lua, Journey.lua) and keep their names; each hangs from the window's edges,
+-- so a resize needs nothing re-placed.
+
+function UI.CreateBook()
+  local f, book = UI.frame, UI.sidePage
+  -- The left page's title: which bookmark is open (Here has its own heading).
+  UI.pageTitle = Header(book, "", true)
+  UI.pageTitle:SetPoint("TOPLEFT", book, "TOPLEFT", 10, -8)
+  UI.FitRibbons()
+end
+
+-- The ribbons run down the book's edge from the top: when a language's labels are long enough that the four don't fit
+-- the book's height with their usual gap, the gap closes up (to 1px) rather than a ribbon running off the foot.
+function UI.FitRibbons()
+  local f, tabs = UI.frame, UI.tabs
+  if not (f and tabs and #tabs > 1) then return end
+  local fh = tonumber(f:GetHeight()) or H
+  local room = fh - (BOOK_TOP + 10) - DOCK_H - 4
+  local sum = 0
+  for _, t in ipairs(tabs) do sum = sum + (tonumber(t:GetHeight()) or 0) end
+  local gap = math.max(1, math.min(6, math.floor((room - sum) / (#tabs - 1))))
+  for i = 2, #tabs do
+    tabs[i]:ClearAllPoints()
+    tabs[i]:SetPoint("TOPLEFT", tabs[i - 1], "BOTTOMLEFT", 0, -gap)
+  end
 end
 
 -- The "New" marks: shown while the page they sit on has news it hasn't been opened for (WhatsNew.PageIsNew).
@@ -894,7 +1005,7 @@ function UI.CreateCompletion(parent, eb)
   local bg = T.Area(c, "popup")
   bg:SetPoint("TOPLEFT", 2, -2)
   bg:SetPoint("BOTTOMRIGHT", -2, 2)
-  c:SetPoint("BOTTOMLEFT", parent, "BOTTOMLEFT", CHAT_X, 48)
+  c:SetPoint("BOTTOMLEFT", parent, "BOTTOMLEFT", CHAT_X, 48 + FOOT)
   c:SetSize(CHAT_W, N_COMPLETE * 20 + 10)
   c:SetFrameStrata("DIALOG")
   c.rows = {}
@@ -957,8 +1068,10 @@ end
 function UI.LayoutCompletion()
   local c = UI.completion
   if not c then return end
-  local width = math.max(240, (tonumber(UI.frame:GetWidth()) or W) - CHAT_X - 40)
+  local width = math.max(240, (tonumber(UI.frame:GetWidth()) or W) - CHAT_X - 40 - SHIFT_R)
   c:SetWidth(width)
+  c:ClearAllPoints()
+  c:SetPoint("BOTTOMLEFT", UI.frame, "BOTTOMLEFT", CHAT_X, 48 + FOOT)
   local y, seen, stories, clipped = 6, {}, false, false
   local maxHeight = (tonumber(UI.frame:GetHeight()) or H) - 84
   for _, head in pairs(c.headers) do head:Hide() end
@@ -1773,6 +1886,17 @@ local function RateButtons(parent)
     local b = CreateFrame("Button", nil, parent)
     b:SetSize(18, 18)
     b:SetHitRectInsets(-3, -3, -4, -4)   -- a 24px target around the 18px button (the two sit 6px apart)
+    -- A dark disc under the mark, so it reads on parchment.
+    local back = b:CreateTexture(nil, "BACKGROUND")
+    back:SetSize(21, 21)
+    back:SetPoint("CENTER")
+    back:SetColorTexture(0.14, 0.10, 0.05, 0.9)
+    local round = b.CreateMaskTexture and back.AddMaskTexture and b:CreateMaskTexture()
+    if round then
+      round:SetTexture(T.DISC, "CLAMPTOBLACKADDITIVE", "CLAMPTOBLACKADDITIVE")
+      round:SetAllPoints(back)
+      back:AddMaskTexture(round)
+    end
     Mark(b, kind, 16)
     b:SetScript("OnClick", onClick)
     b:SetScript("OnEnter", function(self)
@@ -1820,17 +1944,17 @@ local function bubbleAt(i)
     bg:SetAllPoints()
     local edge = T.Outline(f, "bubbleEdge")   -- answers only (Render)
     -- An answer's first line (its gold title) in the heading face, above the text (Render, splitHead).
-    local head = f:CreateFontString(nil, "OVERLAY", T.font.answerTitle)
+    local head = T.PaperText(f:CreateFontString(nil, "OVERLAY", T.font.answerTitle), "inkAccent")
     head:SetJustifyH("LEFT")
     head:SetJustifyV("TOP")
     head:Hide()
     -- "In this answer: [name] [name]": the names the answer links, again in one line under it (chipText).
-    local chips = f:CreateFontString(nil, "OVERLAY", T.font.small)
+    local chips = T.PaperText(f:CreateFontString(nil, "OVERLAY", T.font.small), "inkNote")
     chips:SetJustifyH("LEFT")
     chips:SetJustifyV("TOP")
     if chips.SetSpacing then chips:SetSpacing(3) end
     chips:Hide()
-    local fs = f:CreateFontString(nil, "OVERLAY", T.font.body)
+    local fs = T.PaperText(f:CreateFontString(nil, "OVERLAY", T.font.body), "ink")
     fs:SetJustifyH("LEFT")
     fs:SetJustifyV("TOP")
     if fs.SetSpacing then fs:SetSpacing(2) end
@@ -1894,7 +2018,7 @@ end
 
 -- A clickable boss row inside a bubble (the primer's "Who you'll face"): opens that boss's story, with play and +.
 local function bossRow(parent)
-  local r = TextButton(parent, 100, 20)
+  local r = TextButton(parent, 100, 20, nil, nil, true)
   r.text:ClearAllPoints()
   r.text:SetPoint("TOPLEFT", 6, -3)
   r:SetScript("OnClick", function(self) UI.ShowEntry(self.key, "primer", self.asked) end)
@@ -1939,7 +2063,7 @@ end
 -- Conversation width for the current window size.
 local function chatW()
   local w = UI.frame and UI.frame.GetWidth and tonumber(UI.frame:GetWidth())
-  return (w and w > 0) and (w - CHAT_X - 40) or CHAT_W
+  return (w and w > 0) and (w - CHAT_X - 40 - SHIFT_R) or CHAT_W
 end
 
 -- Re-fit everything that depends on the window width, then re-flow the bubbles.
@@ -1950,6 +2074,7 @@ function UI.Layout()
   for _, b in ipairs(UI.historyFrame and UI.historyFrame.rows or {}) do b:SetWidth(w) end
   if UI.msgs then UI.Render(true) end
   if UI.msgs and #UI.msgs > 0 then UI.Refresh() end   -- a taller panel fits more of the Here list
+  UI.ShowAskRow()
 end
 
 -- An answer whose first line is its gold title ("Who is Thrall?  -  Thrall"): that line, and the text under it.
@@ -2000,7 +2125,7 @@ function UI.Render(keepScroll)
       f:SetPoint("TOPLEFT", UI.content, "TOPLEFT", 2, -y)
       T.Fill(b.bg, "none")
     end
-    -- A faint gold edge sets answers off from the dark page; your questions and notes don't need one.
+    -- A faint edge sets answers off from the page; your questions and notes don't need one.
     b.edge:SetShown(m.role == "lore" or m.role == "hero")
     local top = PAD
     local story = m.role == "lore" and m.target and m.target.story == m.target.key
@@ -2201,19 +2326,19 @@ function UI.PlaceNext()
   if not (label and sf and content and UI.frame) then return end
   local gap = math.floor(math.max(0, (tonumber(sf:GetHeight()) or 0) - (tonumber(content:GetHeight()) or 0)))
   label:ClearAllPoints()
-  label:SetPoint("BOTTOMLEFT", CHAT_X + 2, 110 + gap)
+  label:SetPoint("BOTTOMLEFT", CHAT_X + 2, 110 + FOOT + gap)
   -- The invitation over the welcome's questions is a long sentence, longer still in some languages: where it doesn't
   -- fit the column (a narrow panel), the short heading stands in rather than running off the panel (ptBR, 10/18).
   if UI.nextFull then
     label:SetText(UI.nextFull)
-    local w, room = T.TextWidth(label), (tonumber(UI.frame:GetWidth()) or W) - CHAT_X - 40
+    local w, room = T.TextWidth(label), (tonumber(UI.frame:GetWidth()) or W) - CHAT_X - 40 - SHIFT_R
     if w and w > room then label:SetText(L["Suggested:"]) end
   end
   local level = (tonumber(content:GetFrameLevel()) or 0) + 2   -- over the chat's empty space they now sit in
   for i, b in ipairs(UI.nextButtons) do
     b:ClearAllPoints()
-    b:SetPoint("BOTTOMLEFT", CHAT_X, 108 - i * 22 + gap)
-    b:SetPoint("BOTTOMRIGHT", UI.frame, "BOTTOMRIGHT", -36, 108 - i * 22 + gap)
+    b:SetPoint("BOTTOMLEFT", UI.frame, "BOTTOMLEFT", CHAT_X, 108 - i * 22 + FOOT + gap)
+    b:SetPoint("BOTTOMRIGHT", UI.frame, "BOTTOMRIGHT", -36 - SHIFT_R, 108 - i * 22 + FOOT + gap)
     b:SetFrameLevel(level)
   end
 end
@@ -2248,13 +2373,13 @@ function UI.Refresh()
   -- above the colour hint and the player at the bottom (the panel can be resized taller for more).
   local fh = tonumber(UI.frame:GetHeight()) or H
   local bottom = -(fh - 44 - DOCK_H)
-  local y = -112
+  local y = -(HERE_TOP + 20)
   for i, b in ipairs(UI.suggestions) do
     local s = here[i]
     if s then
       b.key, b.idx, b.primer, b.label, b.target = s.key, s.idx, s.primer, s.label, s.target
       b.full = s.name or s.label
-      b.text:SetText((s.gold and GOLD or WHITE) .. esc(b.full) .. "|r")
+      b.text:SetText((s.gold and INK_ACCENT or INK) .. esc(b.full) .. "|r")
       -- Play on the left of anything narrated (stories and recorded answers), + on the right of what can be queued.
       local story = s.key or (s.primer and "zone:" .. s.primer)
       local clip = s.idx and (faqID(s.key, s.idx)) or story
@@ -2287,7 +2412,7 @@ function UI.Refresh()
       local name = bossName(e)
       b.key, b.name, b.hook = bk, name, e.h or e.s
       b.asked = string.format(L["Who is %s?"], name)
-      b.text:SetText(GREY .. i .. ".|r " .. (bk == targetKey and GOLD or WHITE) .. esc(name) .. "|r")
+      b.text:SetText(INK_FADED .. i .. ".|r " .. (bk == targetKey and INK_ACCENT or INK) .. esc(name) .. "|r")
       b.play.key, b.play.idx, b.play.label = bk, nil, b.asked
       b.play:SetShown(ns.Voice.HasAudio(bk) and true or false)
       local queue = SetQueueButton(b.add, bk)
@@ -2359,7 +2484,7 @@ function UI.Refresh()
     n = n + 1
     b.key, b.quest, b.shown = key, q, questShown(q, key)
     -- Quests without written lore still open: the game's own quest text plus the area's story.
-    b.text:SetText((key and GOLD or GREY) .. esc(b.shown) .. "|r")
+    b.text:SetText((key and INK_ACCENT or INK_FADED) .. esc(b.shown) .. "|r")
     b.play.key, b.play.idx, b.play.label = key, nil, b.shown
     b.play:SetShown(key and ns.Voice.HasAudio(key) and true or false)
     local queue = key and SetQueueButton(b.add, key)
@@ -2425,6 +2550,7 @@ local RACE_START = { Human = "zone:elwynn", Dwarf = "zone:dunmorogh", Gnome = "z
 -- the add-on does best (voiced lore and answering questions) instead of an empty chat.
 -- Back for another session, the card is what you did last time instead (Journey.Recap), once per session.
 function UI.ShowWelcome(ctx, placeName, here)
+  UI.welcoming = true
   -- After an update, the first time the panel opens: the What's new card, above the welcome (WhatsNew.lua).
   if ns.WhatsNew.Pending("card") then ns.WhatsNew.AddCard() end
   local recap = ns.Journey.Recap()
@@ -2460,6 +2586,7 @@ function UI.ShowWelcome(ctx, placeName, here)
   for _, m in ipairs(UI.msgs) do
     if m.role ~= "lore" then m.welcome = true end
   end
+  UI.welcoming = nil
 end
 
 -- The "Here" list: your target, the subzone and zone stories (or the dungeon primer), then their top questions.
@@ -2607,23 +2734,71 @@ function UI.PlayFaq(key, idx)
   UI.ListenTo(target)
 end
 
--- The sidebar's view: "here" or "found" (the Found bookmark, Book.lua; "narrations" and "library", its old names,
--- open it too). Older callers: "playlist" opens the queue above the player, "journey" the journey page over the chat.
-function UI.ShowTab(view)
-  if view == "journey" then return ns.Journey.Toggle() end
+-- The sidebar's view, the book's bookmark: "here", "found" (Book.lua; "narrations" and "library", its old names, open
+-- it too), "road" (the journey page with its zone chapters, Road.lua; "journey" is its old name) or "story" (the
+-- storylines you're on). Older callers: "playlist" opens the queue above the player. `quiet`: the journey page opened
+-- by itself (it's shown already).
+function UI.ShowTab(view, quiet)
   if view == "playlist" then return UI.ShowQueue(true) end
   if view == "narrations" or view == "library" then view = "found" end
+  if view == "journey" then view = "road" end
   UI.ShowQueue(false)
+  local was = UI.tab
+  -- A page open on Found or Storylines is remembered when you leave, so coming back to that bookmark finds it where
+  -- you left it. The other bookmarks (Here, Road) close it: the ribbon you pick is what you see.
+  local P = ns.Page
+  if not quiet and (was == "found" or was == "story") and was ~= view and P.IsShown() then
+    UI.pageResume = UI.pageResume or {}
+    UI.pageResume[was] = P.Snapshot()
+  end
   UI.tab = view
   UI.hereView:SetShown(view == "here")
   UI.foundView:SetShown(view == "found")
-  for _, t in ipairs(UI.tabs) do T.SetTabSelected(t, t.view == view) end
+  UI.roadView:SetShown(view == "road")
+  UI.storyView:SetShown(view == "story")
+  local label
+  for _, t in ipairs(UI.tabs) do
+    t:SetOn(t.view == view)
+    if t.view == view then label = t.label end
+  end
+  if UI.pageTitle then
+    UI.pageTitle:SetText(label or "")
+    UI.pageTitle:SetShown(view ~= "here" and true or false)
+    UI.pageTitle.rule:SetShown(view ~= "here")
+  end
   if view == "found" then
     ns.Book.Show()
     if UI.frame:IsShown() then UI.SeenPage("found") end
+  elseif view == "story" then
+    ns.Road.ShowStories()
   else
     ns.Book.HidePage()
   end
+  if view == "road" then
+    if quiet then ns.Road.RefreshSide() else ns.Road.ShowRoad() end
+  elseif was == "road" and ns.Journey.IsShown() then
+    ns.Journey.Hide()
+  end
+  -- Here and Road show their own pages, not the one that was open.
+  if not quiet and (view == "here" or view == "road") then P.Hide() end
+  -- Back on a bookmark that was left with a page open: that page, not the list (Page.Restore turns to it).
+  local resume = UI.pageResume and UI.pageResume[view]
+  if UI.pageResume then UI.pageResume[view] = nil end
+  if not quiet and resume and was ~= view and (view == "found" or view == "story") then P.Restore(resume) end
+end
+
+-- A page of the Chronicle opened from another bookmark (a click on the Road): Found lights and the page opens on it.
+-- `backTo` is the bookmark its Back arrow returns to once no page is behind it (Page.Back), so a click on the Road is
+-- one step out and one step back. False when there's no such page.
+function UI.OpenChronicle(key, backTo)
+  local entry = key and UI.engine and UI.engine.db.entries[key]
+  if not (UI.frame and entry) then return false end
+  if not UI.frame:IsShown() then UI.frame:Show() end
+  if UI.pageResume then UI.pageResume.found = nil end   -- (the page you chose, not the one you left on Found)
+  UI.ShowTab("found")
+  ns.Page.Show(key, "found")
+  ns.Page.backTo = backTo
+  return true
 end
 
 -- Playlist ---------------------------------------------------------------------------------------------------------
@@ -2674,7 +2849,7 @@ local function itemTarget(it)
     return it.idx and UI.FaqTarget(it.key, it.idx) or UI.EntryTarget(it.key)
   end
   for p = it.page or 1, #it.pages do
-    local clip = UI.QuestPageClip(it.quest, it.pages[p])
+    local clip = UI.QuestPageClip(it.quest, it.pages[p], nil, it.asked)
     if clip then
       it.page = p
       local e = it.key and UI.engine.db.entries[it.key]
@@ -2688,7 +2863,7 @@ end
 local function playable(it)
   if not it.pages then return ns.Voice.HasAudio(it.id) end
   for _, kind in ipairs(it.pages) do
-    if UI.QuestPageClip(it.quest, kind, true) then return true end
+    if UI.QuestPageClip(it.quest, kind, true, it.asked) then return true end
   end
   return false
 end
@@ -2708,7 +2883,7 @@ local function goTo(i, replacing)
     UI.progress[it.id] = nil
     if it.pages then
       for _, kind in ipairs(it.pages) do
-        local clip = UI.QuestPageClip(it.quest, kind)
+        local clip = UI.QuestPageClip(it.quest, kind, nil, it.asked)
         if clip then UI.progress[clip] = nil end
       end
     end
@@ -2795,18 +2970,19 @@ end
 
 -- The playlist item for quest qid, or nil when nothing of it is recorded: its quest giver's pages (UI.QuestPages) when
 -- a voice has them, else its story when that's narrated. key: its lore entry (by default the quest's); title: its name
--- as the game shows it.
-local function questItem(qid, title, key)
+-- as the game shows it. asked: the player pressed Listen for its quest giver's words (UI.PlayQuestDialogue): only those.
+local function questItem(qid, title, key, asked)
   local db = UI.engine.db
   key = key or db.index.quest[qid]
   if not (key and db.entries[key]) then key = nil end
   local it = { id = key or ("quest:" .. qid), key = key, quest = qid, label = title or questName(qid, key) }
-  local pages = UI.QuestPages(qid)
+  local pages = UI.QuestPages(qid, false, asked)
   if #pages > 0 then
     it.pages = pages
+    it.asked = asked or nil
     return it
   end
-  if key and ns.Voice.HasAudio(key) then return it end
+  if not asked and key and ns.Voice.HasAudio(key) then return it end
 end
 
 -- A new item for a story (idx nil) or narrated answer, or nil when it can't be queued (a quest's story is its quest).
@@ -2888,6 +3064,43 @@ function UI.CanQueueQuest(qid)
   return key ~= nil and ns.Voice.HasAudio(key) or false
 end
 
+-- Whether a voice recorded what quest qid's giver said, so its Chronicle page has a Listen for it (and so
+-- UI.PlayQuestDialogue plays): whatever Speak quest dialogue says. Never on a contributor's edition (no quest dialogue).
+function UI.HasQuestDialogue(qid)
+  qid = tonumber(qid)
+  return qid ~= nil and UI.engine ~= nil and #UI.QuestPages(qid, true, true) > 0
+end
+
+-- Listen on a quest's Chronicle page, for what its quest giver said: the recorded offer, then what they said when you
+-- handed it in once you have, as one playlist item that plays now, after the item you were on. Pressed on purpose, so it
+-- plays with Speak quest dialogue off (that setting is for what plays by itself): UI.QuestPageClip, asked. Pressing it
+-- while it plays stops it. Returns true when it plays or stopped; false when nothing of it is recorded.
+function UI.PlayQuestDialogue(qid)
+  qid = tonumber(qid)
+  if not (qid and UI.engine) then return false end
+  local pl = UI.pl
+  local key = UI.engine.db.index.quest[qid]
+  local id = key or ("quest:" .. qid)
+  local cur = pl.items[pl.pos]
+  if UI.speaking and UI.playingId == id and cur and cur.id == id and cur.pages and cur.asked then
+    UI.StopAll()
+    return true
+  end
+  local it = questItem(qid, nil, key, true)
+  if not (it and it.pages) then return false end
+  local at = UI.PlaylistIndex(id)
+  if at then
+    pl.items[at] = it   -- (its pages as they stand now)
+  else
+    at = math.min(pl.pos, #pl.items) + 1
+    table.insert(pl.items, at, it)
+  end
+  UI.miniClosed = nil
+  goTo(at, true)
+  playCurrent(true)
+  return pl.state == "playing"
+end
+
 -- Flight narration: a zone's recorded story joins the playlist instead of cutting into what's playing, so zones
 -- crossed quickly play one after another. If the playlist was stopped partway, the zone story goes in at that
 -- place and plays now (you turned flight narration on), and your list carries on after it.
@@ -2955,7 +3168,7 @@ function UI.QueueGroup(keys, label, exact)
   else
     note(L["Everything here is already in your playlist."])
   end
-  if UI.tab == "found" then ns.Book.Changed() end
+  if ns.Book.OnTab() then ns.Book.Changed() end
   return n
 end
 
@@ -3083,27 +3296,26 @@ local PL_ROW = 24
 local QUEUE_SEARCH_FROM = 6   -- the queue gets a search box once it holds more than this
 
 function UI.CreatePlaylist(view)
-  -- An opaque sheet over the sidebar that takes the clicks, so the list underneath can't be pressed through it.
-  local sheet = T.Area(view, "sheet")
+  -- An opaque parchment sheet over the sidebar that takes the clicks, so the list underneath can't be pressed
+  -- through it.
+  local sheet = CreateFrame("Frame", nil, view)
   sheet:SetPoint("TOPLEFT", 8, -60)
   sheet:SetPoint("BOTTOMRIGHT", view, "BOTTOMLEFT", SIDE_W, DOCK_H)
-  local edge = T.Area(view, "rim", "ARTWORK")
-  edge:SetPoint("TOPLEFT", sheet, "TOPLEFT")
-  edge:SetPoint("TOPRIGHT", sheet, "TOPRIGHT")
-  edge:SetHeight(1)
-  local back = CreateFrame("Frame", nil, view)
-  back:SetAllPoints(sheet)
-  back:SetFrameLevel(view:GetFrameLevel() or 1)
-  back:EnableMouse(true)
+  sheet:SetFrameLevel(view:GetFrameLevel() or 1)
+  sheet:EnableMouse(true)
+  T.Parchment(sheet, "left")
+  -- What's written on it goes on a frame over it (a frame's own text and lines draw under its child frames).
+  local page = CreateFrame("Frame", nil, view)
+  page:SetAllPoints(view)
   local close = CreateFrame("Button", nil, view, "UIPanelCloseButton")
   close:SetPoint("TOPRIGHT", view, "TOPLEFT", SIDE_W + 2, -58)
   close:SetScript("OnClick", function() UI.ShowQueue(false) end)
 
-  local head = Header(view, L["Now playing"])
+  local head = Header(page, L["Now playing"], true)
   head:SetPoint("TOPLEFT", 16, -72)
-  local count = Muted(view:CreateFontString(nil, "OVERLAY", T.font.small))
+  local count = Faint(page:CreateFontString(nil, "OVERLAY", T.font.small))
   count:SetPoint("LEFT", head, "RIGHT", 6, 0)
-  local now = TextButton(view, SIDE_W - 20, 26, T.font.body, T.color.now)
+  local now = TextButton(view, SIDE_W - 20, 26, T.font.body, T.color.inkNow, true)
   now:SetPoint("TOPLEFT", 10, -92)
   now.text:SetPoint("TOPLEFT", 26, -2)
   if now.text.SetWordWrap then now.text:SetWordWrap(false) end
@@ -3125,7 +3337,7 @@ function UI.CreatePlaylist(view)
   end)
   now:SetScript("OnLeave", function() GameTooltip:Hide() end)
 
-  local upHead = Header(view, L["Up next"])
+  local upHead = Header(page, L["Up next"], true)
   upHead:SetPoint("TOPLEFT", 16, -130)
   local clear = PanelButton(view)
   clear:SetHeight(20)
@@ -3152,10 +3364,10 @@ function UI.CreatePlaylist(view)
   local empty = CreateFrame("Frame", nil, view)
   empty:SetPoint("TOPLEFT", 16, -76)
   empty:SetPoint("BOTTOMRIGHT", view, "BOTTOMLEFT", SIDE_W - 8, DOCK_H + 20)
-  local e1 = empty:CreateFontString(nil, "OVERLAY", T.font.heading)
+  local e1 = T.Ink(empty:CreateFontString(nil, "OVERLAY", T.font.heading), "inkAccent")
   e1:SetPoint("TOP", 0, -20)
   e1:SetText(L["Your playlist is empty."])
-  local e2 = Muted(empty:CreateFontString(nil, "OVERLAY", T.font.small))
+  local e2 = Faint(empty:CreateFontString(nil, "OVERLAY", T.font.small))
   e2:SetPoint("TOP", e1, "BOTTOM", 0, -10)
   e2:SetWidth(SIDE_W - 40)
   e2:SetJustifyH("CENTER")
@@ -3168,14 +3380,14 @@ function UI.CreatePlaylist(view)
   go:SetPoint("TOP", e2, "BOTTOM", 0, -14)
   go:SetScript("OnClick", function() UI.ShowTab("found") end)
 
-  local note = Muted(view:CreateFontString(nil, "OVERLAY", T.font.small))
+  local note = Faint(page:CreateFontString(nil, "OVERLAY", T.font.small))
   note:SetPoint("BOTTOMLEFT", 16, DOCK_H + 8)
   note:SetWidth(SIDE_W - 20)
   note:SetJustifyH("LEFT")   -- two lines in some languages, growing upwards
   note:SetText(L["Add more with + on the pages in Found."])
 
   -- Over "Up next" once the queue is long (UI.RefreshPlaylist): filters Up next and Earlier by title.
-  local search = UI.SearchBox(view, SIDE_W - 24, function() UI.RefreshPlaylist() end, sf)
+  local search = UI.SearchBox(view, SIDE_W - 24, function() UI.RefreshPlaylist() end, sf, true)
   search:SetPoint("TOPLEFT", 12, -124)
   search:Hide()
 
@@ -3187,9 +3399,9 @@ local function playlistRow(i)
   local P = UI.plUI
   local row = P.rows[i]
   if row then return row end
-  row = TextButton(P.content, SIDE_W - 40, PL_ROW, T.font.small)
+  row = TextButton(P.content, SIDE_W - 40, PL_ROW, T.font.small, nil, true)
   if row.text.SetWordWrap then row.text:SetWordWrap(false) end
-  row.num = Muted(row:CreateFontString(nil, "OVERLAY", T.font.small))
+  row.num = Faint(row:CreateFontString(nil, "OVERLAY", T.font.small))
   row.num:SetPoint("LEFT", 2, 0)
   row.num:SetWidth(16)
   row.num:SetJustifyH("RIGHT")
@@ -3260,13 +3472,13 @@ function UI.RefreshPlaylist()
     P.head:SetText(UI.speaking and L["Now playing"] or L["Paused"])
     P.count:SetText("")
     P.now.full = solo.label
-    P.now.text:SetText((UI.speaking and GREEN or WHITE) .. esc(solo.label) .. "|r")
+    P.now.text:SetText((UI.speaking and INK_GREEN or INK) .. esc(solo.label) .. "|r")
   else
     local ours = pl.state == "playing" or pl.state == "waiting"
     P.head:SetText(pl.state == "playing" and L["Now playing"] or (pl.state == "waiting" and L["Plays next"] or L["Paused"]))
     P.count:SetText(string.format(L["%d of %d"], pl.pos, n))
     P.now.full = cur.label
-    P.now.text:SetText((ours and GREEN or WHITE) .. esc(cur.label) .. "|r")
+    P.now.text:SetText((ours and INK_GREEN or INK) .. esc(cur.label) .. "|r")
   end
 
   -- Up next (numbered, with reorder and remove), then the earlier ones, played or skipped (greyed; click to hear one).
@@ -3308,11 +3520,11 @@ function UI.RefreshPlaylist()
     row.text:SetPoint("TOPLEFT", item and 22 or 4, -2)
     row.text:SetPoint("BOTTOMRIGHT", upcoming and -70 or -4, 2)
     if s.header then
-      row.text:SetText(GOLD .. esc(s.header) .. "|r")
+      row.text:SetText(INK_ACCENT .. esc(s.header) .. "|r")
     elseif s.note then
-      row.text:SetText(GREY .. esc(s.note) .. "|r")
+      row.text:SetText(INK_FADED .. esc(s.note) .. "|r")
     else
-      row.text:SetText((s.done and GREY or WHITE) .. esc(item.label) .. "|r")
+      row.text:SetText((s.done and INK_FADED or INK) .. esc(item.label) .. "|r")
     end
     row:Show()
     y = y + PL_ROW + (s.header and 4 or 0)
@@ -3595,9 +3807,46 @@ function UI.KeepPlayerClear()
   p:SetPoint("TOPLEFT", qf, "TOPRIGHT", 4 - ir, -it)
 end
 
+-- The docked player is one row across the foot of the book (the floating one keeps its box of two rows): Prev, Play and
+-- Next (and the 10-second jumps, when the recording has them), then what plays with its line under it and "2 of 4"
+-- beside it, the report quill and the Playlist button. Placed again when the jumps appear or go.
+local DOCK_LEFT, DOCK_LEFT_JUMPS = 96, 172   -- where the controls end (without and with the jumps)
+
+local function dockLayout(p, jumps)
+  p.dockJumps = jumps and true or false
+  p.prev:ClearAllPoints()
+  p.prev:SetPoint("LEFT", p, "LEFT", 8, 0)
+  p.play:ClearAllPoints()
+  p.play:SetPoint("LEFT", p.prev, "RIGHT", 4, 0)
+  p.next:ClearAllPoints()
+  p.next:SetPoint("LEFT", p.play, "RIGHT", 4, 0)
+  p.back:ClearAllPoints()
+  p.back:SetPoint("LEFT", p.next, "RIGHT", 6, 0)
+  p.forward:ClearAllPoints()
+  p.forward:SetPoint("LEFT", p.back, "RIGHT", 2, 0)
+  local mid = p.mid
+  mid:ClearAllPoints()
+  mid:SetPoint("TOPLEFT", p, "TOPLEFT", (jumps and DOCK_LEFT_JUMPS or DOCK_LEFT) + 10, -4)
+  mid:SetPoint("BOTTOMRIGHT", p.queue, "BOTTOMLEFT", -36, -5)   -- room for the report quill
+  p.state:ClearAllPoints()
+  p.state:SetPoint("TOPRIGHT", mid, "TOPRIGHT", 0, -3)
+  p.title:ClearAllPoints()
+  p.title:SetHeight(20)
+  p.title:SetPoint("TOPLEFT", mid, "TOPLEFT", 0, 0)
+  p.title:SetPoint("RIGHT", p.state, "LEFT", -6, 0)
+  p.track:ClearAllPoints()
+  p.track:SetPoint("TOPLEFT", mid, "TOPLEFT", 0, -26)
+  p.track:SetPoint("TOPRIGHT", mid, "TOPRIGHT", 0, -26)
+  p.progress:ClearAllPoints()
+  p.progress:SetPoint("TOPLEFT", p.track, "TOPLEFT", 0, 3)
+  p.progress:SetPoint("TOPRIGHT", p.track, "TOPRIGHT", 0, 3)
+  p.report:ClearAllPoints()
+  p.report:SetPoint("RIGHT", p.queue, "LEFT", -10, 0)
+end
+
 function UI.CreatePlayer(parent, floating)
   local p = CreateFrame("Frame", floating and "LoreForeverMiniPlayer" or nil, parent, T.BACKDROP_TEMPLATE)
-  p:SetSize(SIDE_W - 8, PLAYER_H)
+  p:SetSize(SIDE_W - 8, floating and PLAYER_H or DOCK_PLAYER_H)
   p.floating = floating
   local bg = T.Area(p, "dock")
   bg:SetAllPoints()
@@ -3628,9 +3877,11 @@ function UI.CreatePlayer(parent, floating)
     p:Hide()
   else
     p:SetPoint("BOTTOMLEFT", parent, "BOTTOMLEFT", 8, 8)
+    p:SetPoint("BOTTOMRIGHT", parent, "BOTTOMRIGHT", -8, 8)
     p:SetFrameLevel((parent:GetFrameLevel() or 1) + 12)
   end
   p:EnableMouse(true)
+  if not floating then p:SetHitRectInsets(0, 30, 0, 0) end   -- the window's resize corner is there
   p:SetScript("OnMouseUp", function(self, button) if button == "RightButton" then playerMenu(self) end end)
 
   -- Floating: an X in the top right corner stops what plays and puts the player away (UI.ClosePlayer; Mike,
@@ -3661,7 +3912,8 @@ function UI.CreatePlayer(parent, floating)
     end
   end, L["Your playlist"])
   p.queue.tip2 = L["What's playing and what's next: reorder, remove or clear. Add with + or Shift-click."]
-  p.queue:SetPoint("TOPRIGHT", floating and -32 or -6, -6)   -- 6 px clear of the X
+  if floating then p.queue:SetPoint("TOPRIGHT", -32, -6)   -- 6 px clear of the X
+  else p.queue:SetPoint("RIGHT", p, "RIGHT", -30, 0) end     -- clear of the window's resize corner
   -- A small list sign before "Playlist": three gold lines.
   p.queue.lines = {}
   for i = 1, 3 do
@@ -3708,6 +3960,7 @@ function UI.CreatePlayer(parent, floating)
   track:SetPoint("TOPLEFT", 9, -32)
   track:SetPoint("TOPRIGHT", -9, -32)
   track:SetHeight(5)
+  p.track = track
   local trackRim = CreateFrame("Frame", nil, p)
   trackRim:SetAllPoints(track)
   T.Outline(trackRim, "rule")
@@ -3792,6 +4045,10 @@ function UI.CreatePlayer(parent, floating)
   p.state:SetPoint("RIGHT", report, "LEFT", -4, 0)
   p.state:SetJustifyH("RIGHT")
   if p.state.SetWordWrap then p.state:SetWordWrap(false) end
+  if not floating then
+    p.mid = CreateFrame("Frame", nil, p)   -- the room between the controls and the Playlist button
+    dockLayout(p, false)
+  end
 
   -- A brief gold flash when something is added to the playlist.
   local flash = T.Area(p, "flash", "OVERLAY")
@@ -3837,6 +4094,7 @@ local function updatePlayer(p)
   end
   -- The title in its own font; in the small one when it doesn't fit ("Aucune lecture en cours" beside "File
   -- d'attente"), on two lines if it still doesn't. Only a title too long even for that is cut.
+  if not p.floating and p.dockJumps ~= (transport ~= nil) then dockLayout(p, transport ~= nil) end
   local tfs = p.title.text
   tfs:SetFontObject(T.font.control)
   tfs:SetText(title)
@@ -3868,6 +4126,7 @@ local function updatePlayer(p)
   if p.next.SetEnabled then p.next:SetEnabled(list) end
   p.report:SetShown(settings().reportCross ~= false and UI.ReportableClip() ~= nil)
   local w = (tonumber(p:GetWidth()) or SIDE_W - 8) - 18
+  if p.mid then w = (tonumber(p.mid:GetWidth()) or 0) > 2 and tonumber(p.mid:GetWidth()) - 2 or w - 270 end
   p.fill:SetShown(transport ~= nil or (list and not oneOff))
   if transport then p.fill:SetWidth(math.max(1, w * transport.offset / transport.duration))
   elseif list then p.fill:SetWidth(math.max(1, w * pl.pos / n)) end
@@ -4022,8 +4281,8 @@ end
 
 function UI.CreateHistory(f)
   local h = CreateFrame("Frame", nil, f)
-  h:SetPoint("TOPLEFT", CHAT_X - 4, -60)
-  h:SetPoint("BOTTOMRIGHT", -12, 8)   -- down over the suggestions and message box, so none of the chat shows
+  h:SetPoint("TOPLEFT", CHAT_X - 4, -BOOK_TOP)
+  h:SetPoint("BOTTOMRIGHT", -BOOK_R, DOCK_H)   -- down over the suggestions and message box, so none of the chat shows
   h:SetFrameLevel((f:GetFrameLevel() or 1) + 20)
   h:EnableMouse(true)
   local bg = T.Area(h, "overlay")
@@ -4537,12 +4796,18 @@ function UI.ShowSection(key, idx)
   UI.SetNext(followUps(key, nil))
 end
 
-function UI.Ask(question, via)
+-- `about`: the entry the question is asked on (a page's ask line): "who is this?", "why does he want it?" mean it.
+function UI.Ask(question, via, about)
   if not ns.Lang.ValidateEdition() then return end
   ns.Log.Use("ask")
   ns.Log.Asked(via)
   local ctx = UI.ctx or ns.Context.Snapshot()
   ctx.done = ns.Context.Done()   -- a quest turned in since the last snapshot counts right away
+  if about then
+    local c = {}
+    for k, v in pairs(ctx) do c[k] = v end
+    c.about, ctx = about, c
+  end
   UI.turn = (UI.turn or 0) + 1
   -- Chat that isn't a question ("thanks", "that's not the right answer") never pulls a random answer.
   local chat = ns.Engine.Chatter(question)
@@ -4590,6 +4855,7 @@ function UI.Ask(question, via)
     local tag = (target and ns.Voice.HasAudio(target.key)) and narratedTag() or nil
     local text, linked = loreText(heading, top.text, top.angle, tag, top.key)
     UI.AddMessage("lore", note .. text, target, nil, nil, log, top.key, linked)
+    ns.Margin.Note(top.key, question, top.text)   -- written on its page too (Page.lua's Questions)
     if target then UI.AfterAnswer(target) end
     local items = followUps(top.key, top.kind == "faq" and top.idx or nil)
     -- A confident match can still be the wrong one (Stormwind's canals answered with the Undercity's): with the
@@ -4636,6 +4902,7 @@ function UI.ShowFaq(key, idx, via)
   local target = UI.FaqTarget(key, idx)
   -- A question picked (suggested, in the sidebar, typed ahead or linked), not an answer shown for what plays
   if via ~= "reveal" and via ~= "listen" and via ~= "player" then ns.Log.Use("faq"); ns.Log.Asked(via) end
+  if via ~= "listen" and via ~= "player" and not f.answerOnly then ns.Margin.Note(key, f.q, f.a) end
   UI.lastLog = ns.Log.Question(f.q, UI.ctx or ns.Context.Snapshot(), { { key = key, kind = "faq", idx = idx, title = f.q } }, via)
   local heading = f.answerOnly and (e.n .. ns.Lang.Dotted(" · ") .. f.q) or e.n
   local text, linked = loreText(heading, f.a, nil, ns.Voice.HasAudio(target.key) and narratedTag() or nil, key)
@@ -4779,20 +5046,25 @@ end
 -- in; Voice.QuestClip), checked against the quest window when it shows that page, else (the offer) against the quest
 -- log; a quest in neither plays the recording as it is. nil if no voice recorded it, or the words differ (a quest
 -- Forever rewrote is read aloud instead, as in the quest window). peek: whether one would play, at a quick look that
--- checks no words (tooltips and the +, UI.CanQueueQuest).
-function UI.QuestPageClip(qid, kind, peek)
+-- checks no words (tooltips and the +, UI.CanQueueQuest). asked: the player pressed Listen for it (a quest's Chronicle
+-- page, UI.PlayQuestDialogue), so it plays with Speak quest dialogue off too: that setting is for what plays by itself.
+function UI.QuestPageClip(qid, kind, peek, asked)
   local V = ns.Voice
-  if not qid or not V.QuestDialogue() or V.Current() == "none" then return nil end
-  if peek then return V.QuestClip(qid, kind, nil, true, true) end
+  if not qid or not (asked or V.QuestDialogue()) or V.Current() == "none" then return nil end
+  local function got(clip)
+    if clip and asked then V.askedClips[clip] = true end
+    return clip
+  end
+  if peek then return got(V.QuestClip(qid, kind, nil, true, true)) end
   local QF = _G.QuestFrame
   if QF and QF:IsShown() and V.questKind == kind and GetQuestID and GetQuestID() == qid then
-    return V.QuestClip(qid, kind)
+    return got(V.QuestClip(qid, kind))
   end
   if kind == "detail" then
     local desc, _, sure = logText(qid)
-    if sure and type(desc) == "string" and desc:find("%S") then return V.QuestClip(qid, kind, desc) end
+    if sure and type(desc) == "string" and desc:find("%S") then return got(V.QuestClip(qid, kind, desc)) end
   end
-  return V.QuestClip(qid, kind, nil, true)
+  return got(V.QuestClip(qid, kind, nil, true))
 end
 
 -- The words behind a queued quest page: the open page, checked quest-log offer, or captured page.
@@ -4829,11 +5101,11 @@ end
 
 -- The quest giver's pages of quest qid the playlist plays, in order (UI.QueueQuest): the offer, then what they said
 -- when you handed it in, once you have (before, it would give the end away; their "have you done it yet?" never).
--- Only the pages a voice recorded (UI.QuestPageClip; peek as there).
-function UI.QuestPages(qid, peek)
+-- Only the pages a voice recorded (UI.QuestPageClip; peek and asked as there).
+function UI.QuestPages(qid, peek, asked)
   local out = {}
   for _, kind in ipairs({ "detail", "complete" }) do
-    if (kind == "detail" or handedIn(qid)) and UI.QuestPageClip(qid, kind, peek) then out[#out + 1] = kind end
+    if (kind == "detail" or handedIn(qid)) and UI.QuestPageClip(qid, kind, peek, asked) then out[#out + 1] = kind end
   end
   return out
 end
@@ -5118,13 +5390,40 @@ end
 -- Where the conversation starts: `top` (default -64, under the header); Back and Forward, when shown, take a row
 -- just above the conversation.
 local NAV_H = 24
+-- The panel's ask row: the message box, its field and Send. A story's page has its own ask line, so while one is open
+-- (UI.pageOpen, set and cleared by Page.lua) the row stays hidden, whatever re-flows the chat: PlaceChat and Layout call
+-- this last.
+function UI.ShowAskRow()
+  local on = not UI.pageOpen
+  for _, w in ipairs({ UI.msgBar, UI.input, UI.sendButton }) do
+    if w then w:SetShown(on) end
+  end
+end
+
 function UI.PlaceChat(top)
   if not UI.scroll then return end
   UI.chatTop = top or UI.chatTop or -64
   local nav = UI.navBar and UI.navBar:IsShown()
   UI.scroll:ClearAllPoints()
   UI.scroll:SetPoint("TOPLEFT", UI.frame, "TOPLEFT", CHAT_X, UI.chatTop - (nav and NAV_H or 0))
-  UI.scroll:SetPoint("BOTTOMRIGHT", UI.frame, "BOTTOMRIGHT", -34, 128)
+  UI.scroll:SetPoint("BOTTOMRIGHT", UI.frame, "BOTTOMRIGHT", -34 - SHIFT_R, 128 + FOOT)
+  -- The message box starts where the conversation does.
+  local f = UI.frame
+  if UI.msgBar then
+    UI.msgBar:ClearAllPoints()
+    UI.msgBar:SetPoint("BOTTOMLEFT", f, "BOTTOMLEFT", CHAT_X - 4, 10 + FOOT)
+    UI.msgBar:SetPoint("TOPRIGHT", f, "BOTTOMRIGHT", -BOOK_R, 44 + FOOT)
+  end
+  if UI.input then
+    UI.input:ClearAllPoints()
+    UI.input:SetPoint("BOTTOMLEFT", f, "BOTTOMLEFT", CHAT_X + 8, 16 + FOOT)
+    UI.input:SetPoint("BOTTOMRIGHT", f, "BOTTOMRIGHT", -96 - SHIFT_R, 16 + FOOT)
+  end
+  if UI.sendButton then
+    UI.sendButton:ClearAllPoints()
+    UI.sendButton:SetPoint("BOTTOMRIGHT", f, "BOTTOMRIGHT", -30 - SHIFT_R, 16 + FOOT)
+  end
+  UI.ShowAskRow()
   UI.PlaceNext()
 end
 
@@ -5158,7 +5457,7 @@ local function createNav()
   bar.back:SetPoint("LEFT", 0, 0)
   bar.fwd = button(L["Forward"] .. " >", 1)
   bar.fwd:SetPoint("LEFT", bar.back, "RIGHT", 4, 0)
-  bar.hint = Muted(bar:CreateFontString(nil, "OVERLAY", T.font.small))
+  bar.hint = T.PaperText(bar:CreateFontString(nil, "OVERLAY", T.font.small), "inkNote")
   bar.hint:SetPoint("LEFT", bar.fwd, "RIGHT", 8, 0)
   bar.hint:SetPoint("RIGHT", 0, 0)
   bar.hint:SetJustifyH("LEFT")

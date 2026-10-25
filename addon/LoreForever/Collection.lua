@@ -4,14 +4,18 @@
 --
 -- LoreForeverDB.collection = { v = 1, chars = { ["Name-Realm"] = {
 --   filled = FILL,                                     the fill-in from what was already saved has run (Fill, below)
---   found = { [entry key] = "t;how;lv;place" },   one short string per page, the first time it was found:
+--   found = { [entry key] = "t;how;lv;place;quest" },   one short string per page, the first time it was found:
 --     t      time() it was found (0: before the add-on knew, e.g. a quest done before install)
 --     how    enter (a place), meet (targeted or talked to), quest (taken), done (finished before), loot (in your
 --            bags), hover (an item's tooltip), past (from the journey or heard stories, at the fill-in)
 --     lv     your level then ("" when unknown)
 --     place  the subzone (else the zone) you stood in ("" when unknown)
---   new = { [entry key] = 1 } } } }                 found as you play and not opened or heard since (the green "New"
+--     quest  the quest you were on there, as its title (optional: left off, with its ";", when there was none, and
+--            on everything found before it was recorded, so a record without it reads the same as ever)
+--   new = { [entry key] = 1 },                     found as you play and not opened or heard since (the green "New"
 --                                                    in Found); what the fill-in finds is your past, not new
+--   q = { [item key] = quality } } } }              an item page's rarity (0 poor .. 5 legendary), as the game showed
+--                                                    it when you found it (slice 6: Found colours its name)
 --
 -- What counts as finding, by kind (the design's table): entering a zone, city, dungeon or place; targeting or talking
 -- to a person (a boss too: you target it to fight it); taking a quest; an item in your bags (looted, a reward, bought)
@@ -62,18 +66,21 @@ function Collection.Store()
   return r
 end
 
-local function pack(t, how, lv, place)
-  return table.concat({ tostring(math.floor(tonumber(t) or 0)), how or "", lv and tostring(lv) or "",
+local function pack(t, how, lv, place, quest)
+  local s = table.concat({ tostring(math.floor(tonumber(t) or 0)), how or "", lv and tostring(lv) or "",
     ((place or ""):gsub(";", ",")) }, ";")
+  if type(quest) == "string" and quest ~= "" then s = s .. ";" .. (quest:gsub(";", ",")) end
+  return s
 end
 
--- The page's record, or nil: { t, how, lv, place }.
+-- The page's record, or nil: { t, how, lv, place, quest }. quest is nil for a page found before it was recorded.
 function Collection.Found(key)
   local r = Collection.Store()
   local s = r and key and r.found[key]
   if type(s) ~= "string" then return nil end
-  local t, how, lv, place = s:match("^(%d*);([^;]*);([^;]*);(.*)$")
-  return { t = tonumber(t) or 0, how = how, lv = tonumber(lv), place = place ~= "" and place or nil }
+  local t, how, lv, place, quest = s:match("^(%d*);([^;]*);([^;]*);([^;]*);?(.*)$")
+  return { t = tonumber(t) or 0, how = how, lv = tonumber(lv), place = place ~= "" and place or nil,
+    quest = quest ~= "" and quest or nil }
 end
 
 function Collection.IsFound(key)
@@ -86,9 +93,31 @@ local function here()
   return p.subzone or p.zone, p
 end
 
--- Records `key` as found, the first time only. t, lv and place default to now, your level and where you stand
--- (the fill-in passes what it knows). Returns true when the page is new.
-function Collection.Find(key, how, t, lv, place)
+-- The quest you're on where you stand, for the moment a page is found ("while on ..."): one in your log under this
+-- zone's or subzone's heading, as its title; one you haven't finished before one you have, then the lowest id so it's
+-- always the same. nil when there's none, and when the page is a quest you're taking right now (that is its moment).
+local function questHere(how)
+  local active = ns.Hooks and ns.Hooks.activeQuests
+  if how == "quest" or type(active) ~= "table" then return nil end
+  local p = ns.Context.Place()
+  local best
+  for id, q in pairs(active) do
+    if type(q) == "table" and usable(q.title) and q.header and (q.header == p.zone or q.header == p.subzone) then
+      if not best or (best.q.complete and not q.complete) or (not best.q.complete == not q.complete and id < best.id) then
+        best = { id = id, q = q }
+      end
+    end
+  end
+  if not best then return nil end
+  local k = ns.DB.index.quest and ns.DB.index.quest[best.id]
+  local e = k and entries()[k]
+  return (e and e.n) or best.q.title
+end
+
+-- Records `key` as found, the first time only. t, lv and place default to now, your level and where you stand, and
+-- quest to the quest you're on there (the fill-in passes what it knows, and no quest: it can't know). Returns true
+-- when the page is new.
+function Collection.Find(key, how, t, lv, place, quest)
   local r = Collection.Store()
   if not (r and type(key) == "string" and entries()[key]) then return false end
   local live = t == nil
@@ -101,9 +130,12 @@ function Collection.Find(key, how, t, lv, place)
   end
   if live then
     t, lv, place = time(), try(UnitLevel, "player"), (here())
+    quest = questHere(how)
   end
-  r.found[key] = pack(t, how, lv, place)
-  if live then
+  r.found[key] = pack(t, how, lv, place, quest)
+  -- New (and the new-page moment) only once the fill-in has run: before it, a page found at login may be one from
+  -- before this version that the fill-in hasn't reached yet.
+  if live and r.filled == FILL then
     r.new[key] = 1
     local rec = Collection.Found(key)
     for _, fn in ipairs(listeners) do pcall(fn, key, rec) end
@@ -194,7 +226,15 @@ local function bagItemKeys()
       else link = try(GetContainerItemLink, bag, slot) end
       local name = type(link) == "string" and (link:match("%[(.-)%]") or link) or nil
       local key = Collection.ItemKey(name)
-      if key then out[#out + 1] = key end
+      if key then
+        out[#out + 1] = key
+        local q = type(info) == "table" and info.quality or nil
+        if q == nil and type(GetContainerItemInfo) == "function" then
+          local ok, _, _, _, quality = pcall(GetContainerItemInfo, bag, slot)
+          q = ok and quality or nil
+        end
+        Collection.NoteQuality(key, q)
+      end
     end
   end
   return out
@@ -220,10 +260,60 @@ local function onBags()
   end)
 end
 
--- An item under the mouse (Hooks.lua's tooltip calls it, whatever "Notes on item tooltips" says).
-function Collection.OnItemTooltip(name) Collection.Find(Collection.ItemKey(name), "hover") end
+-- An item under the mouse (Hooks.lua's tooltip calls it, whatever "Notes on item tooltips" says), with its item ID
+-- when the tooltip gives one (for its rarity).
+function Collection.OnItemTooltip(name, id)
+  local key = Collection.ItemKey(name)
+  Collection.Find(key, "hover")
+  if key and id then Collection.NoteQuality(key, select(3, try(GetItemInfo, id))) end
+end
+
+-- An item page's rarity, as the game shows it: kept the first time it's known, never fetched from anywhere else.
+function Collection.NoteQuality(key, q)
+  q = tonumber(q)
+  local r = key and q and q >= 0 and q <= 7 and Collection.Store()
+  if not r then return end
+  if type(r.q) ~= "table" then r.q = {} end
+  if r.q[key] == nil then r.q[key] = q end
+end
+
+function Collection.Quality(key)
+  local r = Collection.Store()
+  return r and type(r.q) == "table" and r.q[key] or nil
+end
+
+local MAX_ZONES = 40   -- zones the journey record lists
+
+-- The chronicle in a few lines for the journey record (JourneyRecord.lua, then the profile site): each zone you've
+-- found pages in as "name;found;total;heard", the most found first. Kept in the journey's record at logout (and
+-- /reload), so the record the companion makes outside the game has it too.
+function Collection.Summary()
+  local Book = ns.Book
+  if not (Book and Book.Index and Collection.Store()) then return nil end
+  local rows = {}
+  for ck in pairs(Book.Index().chapters) do
+    if ck:sub(1, 1) ~= "*" then
+      local n = Book.Count(ck)
+      if n.found > 0 then rows[#rows + 1] = { name = Book.ChapterName(ck), n = n } end
+    end
+  end
+  table.sort(rows, function(a, b)
+    if a.n.found ~= b.n.found then return a.n.found > b.n.found end
+    return a.name < b.name
+  end)
+  local zones = {}
+  for i = 1, math.min(MAX_ZONES, #rows) do
+    local r = rows[i]
+    zones[i] = string.format("%s;%d;%d;%d", (r.name:gsub(";", ",")), r.n.found, r.n.total, r.n.heard)
+  end
+  return { v = 1, zones = zones }
+end
 
 local handlers = {
+  PLAYER_LOGOUT = function()
+    local c = ns.Journey and ns.Journey.Char()
+    if c then c.chronicle = Collection.Summary() end
+  end,
   ZONE_CHANGED = onPlace, ZONE_CHANGED_INDOORS = onPlace, ZONE_CHANGED_NEW_AREA = onPlace,
   PLAYER_ENTERING_WORLD = function() later(1, onPlace) end,
   PLAYER_CONTROL_GAINED = onPlace,   -- landing from a flight
@@ -261,6 +351,7 @@ local function fillList()
           add(questKey(e.id), "past", e.t, e.lv, place)
         elseif e.k == "loot" or e.k == "book" then
           add(Collection.ItemKey(e.n), "past", e.t, e.lv, place)
+          if e.ql then Collection.NoteQuality(Collection.ItemKey(e.n), e.ql) end
         end
       end
     end

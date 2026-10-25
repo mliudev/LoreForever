@@ -456,7 +456,8 @@ check("panel", {
     expect("panel opens on screen", not why, why or (c.box and ("at " .. fmt(c.box)) or "shown"))
     local parts = {
       { "Here tab", UI.tabs[1], true }, { "Found tab", UI.tabs[2], true }, { "New chat", UI.newButton, true },
-      { "History", UI.historyButton, true }, { "Journey", UI.journeyButton, true }, { "where you are", UI.contextLine, true },
+      { "Road tab", UI.tabs[3], true }, { "Storylines tab", UI.tabs[4], true },
+      { "History", UI.historyButton, true }, { "where you are", UI.contextLine, true },
       { "conversation", UI.scroll }, { "message box", UI.input }, { "player", UI.dock },
       { "player's Play", UI.dock and UI.dock.play }, { "player's Queue", UI.dock and UI.dock.queue, true },
     }
