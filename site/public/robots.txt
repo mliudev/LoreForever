@@ -7,5 +7,15 @@ Sitemap: https://loreforeverwow.com/sitemap.xml
 # The lore pages' sitemap (site/LORE_PAGES.md). Empty until they're switched on.
 Sitemap: https://loreforeverwow.com/lore/sitemap.xml
 
+# The lore pages in other languages (LOR-809): each language's own, empty until the pages are switched on.
+Sitemap: https://loreforeverwow.com/de/lore/sitemap.xml
+Sitemap: https://loreforeverwow.com/es/lore/sitemap.xml
+Sitemap: https://loreforeverwow.com/fr/lore/sitemap.xml
+Sitemap: https://loreforeverwow.com/it/lore/sitemap.xml
+Sitemap: https://loreforeverwow.com/pt-br/lore/sitemap.xml
+Sitemap: https://loreforeverwow.com/ru/lore/sitemap.xml
+Sitemap: https://loreforeverwow.com/uk/lore/sitemap.xml
+Sitemap: https://loreforeverwow.com/zh/lore/sitemap.xml
+
 # Guides and lore articles (site/GUIDES.md). Empty until the first one is published.
 Sitemap: https://loreforeverwow.com/guides/sitemap.xml

@@ -1040,6 +1040,7 @@ function Map.Create(parent, opts)
   f.hud = hud
   -- The caption along the bottom: the place and the moment, and the arrows that step through your moments.
   local strip = T.Area(hud, "toast", "ARTWORK")
+  f.captionBar = strip   -- (a page that wants a map without the caption hides it by name: Road.lua)
   strip:SetPoint("BOTTOMLEFT")
   strip:SetPoint("BOTTOMRIGHT")
   strip:SetHeight(20)

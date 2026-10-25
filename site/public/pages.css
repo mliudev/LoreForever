@@ -1,11 +1,13 @@
 /* The book and the wisp on the rest of the site (2026-10-15): the FAQ, What's new, the lore pages, feedback,
    contributors, the narrator and translation pages, the account and the fine print. The shared look is style.css's (body
    class "bw"; "bw wisp" for Willo's /link); this sheet fits the older page pieces into it. A page's <main> is
-   "bw-page": the night sky (.h-sky) behind its top, then the page's column (.h-wrap.bw-in, still carrying the old page
+   "bw-page": (the night sky, .h-sky, behind its top, is Willo's; Lore Forever's pages have none), then the page's column (.h-wrap.bw-in, still carrying the old page
    class, fb-page, vp-doc and so on, for its width). Inside, the old colour names (--gold, --panel, --heading...) are
    the new ones, so the older rules in style.css, lore.css and studio.css draw in the book's colours, and the rules
    below give the shared pieces the new shapes: titles, cards, form fields, folds and tags. lib/voices.js page() builds
-   the same frame for the pages a Function writes (bw: true). */
+   the same frame for the pages a Function writes (bw: true). Every page that loads this sheet gets chronicle.css (the
+   book's sheet, buttons, tiles and the paper's elements) with it; bump its ?v= with the file. */
+@import url("/chronicle.css?v=20261026a");
 
 .bw main.bw-page { position: relative; isolation: isolate; max-width: none; min-height: 420px; margin: 0; padding: 0; }
 .bw-page ~ .h-foot { position: relative; }   /* over the sky's fade, under a short page */
@@ -54,10 +56,10 @@
 .bw .bw-in .fb-stars:hover label:hover ~ label { color: var(--h-acc-hi); text-shadow: 0 0 10px var(--h-acc-edge); }
 .bw .bw-in .fb-stars:hover input ~ label { color: #454b61; text-shadow: none; }
 .bw .bw-in .fb-actions .btn-download { padding: 0 32px; }
-.bw .bw-in .fb-status { color: #ff8f7f; }
+.bw .bw-in .fb-status { color: var(--h-bad, #ff8f7f); }
 .bw .bw-in .fb-status.fb-good { color: var(--h-fresh); }
 .bw .bw-in summary { color: var(--h-link); }
-.bw .bw-in summary:hover { color: #fff; }
+.bw .bw-in summary:hover { color: var(--h-summary-hover, #fff); }
 .bw .bw-in :is(.cb-text, .cr-text, .fb-report, .td-report, .zone-q) { border-left-color: var(--h-acc-rim); background: var(--h-acc-wash); }
 
 /* Tags and small labels: pills. */
@@ -106,3 +108,108 @@
 
 .h-foot-lead p { margin: 0 0 6px; }
 .h-foot-lead p:last-child { margin: 0; }
+
+/* The Chronicle frame (2026-10-24; style.css has the paper and the shell, chronicle.css the sheet pieces). The pages
+   that are a column of reading or a form (feedback, account, FAQ, What's new, the fine print...) are one page of the
+   book on the ground: the column is the sheet, its title in Cinzel on parchment, the cards in it tiles, the buttons
+   wax-red. A page whose column is something else (the lore pages, a profile, a list of voices) keeps the ground, and
+   its own sheets and cards are parchment. Opt in with class "ch-leaf" on the .bw-in column. The Willo door keeps its own look. */
+:where(html:not([data-door="willo"])) {
+  .bw .bw-in:is(.fb-page, .vp-doc, .faq-page, .wn-page, .ln-page), .bw .bw-in.ch-leaf {
+    position: relative; width: calc(100% - 32px); margin-block: 28px 64px; padding: 40px 44px 48px;
+    background: var(--pg-sheet); color: var(--pg-ink);
+    border: 1px solid var(--pg-rim); border-radius: 4px; box-shadow: inset 0 0 0 3px var(--pg-rim-soft), 0 8px 24px -14px var(--pg-shadow);
+    font-family: var(--h-body);
+  }
+  .bw .bw-in:is(.fb-page, .vp-doc, .faq-page, .wn-page, .ln-page, .ch-leaf) :is(h1, h2, h3) { text-shadow: none; }
+  .bw .bw-in:is(.fb-page, .vp-doc, .faq-page, .wn-page, .ln-page, .ch-leaf) h1 { font-size: clamp(2rem, 4.4vw, 2.9rem); }
+  .bw .bw-in:is(.fb-page, .vp-doc, .faq-page, .wn-page, .ln-page, .ch-leaf) h3 { color: var(--pg-ink); }
+  .bw .bw-in:is(.fb-page, .vp-doc, .faq-page, .wn-page, .ln-page, .ch-leaf) .pitch { color: var(--pg-note); text-shadow: none; }
+  /* Cards: squarer, on a sheet a tile. */
+  .bw .bw-in :is(.box, .fb-form, .fb-done, .zone, .audio-sample, .wn-card, .lp-clip, .lp-cta, .sample-sheet, .td-card, .st-card) {
+    border-color: var(--pg-edge); border-radius: 4px; background: var(--pg-tile); box-shadow: none; color: var(--pg-ink); }
+  .bw .bw-in :is(.zone, .box, .audio-sample) { box-shadow: 0 6px 18px -12px var(--pg-shadow); }
+  .bw .bw-in:is(.fb-page, .vp-doc, .faq-page, .wn-page, .ln-page, .ch-leaf) :is(code, kbd),
+  .bw .bw-in :is(.box, .fb-form, .fb-done, .zone, .audio-sample, .wn-card, .sample-sheet, .td-card, .st-card) :is(code, kbd) {
+    background: var(--pg-code); color: var(--pg-ink); }
+  .bw .bw-in .tag { border: 1px solid var(--pg-rim); border-radius: 3px; background: none; color: var(--pg-note); }
+  .bw .bw-in .tag-new { color: var(--pg-new); border-color: color-mix(in srgb, var(--pg-new) 55%, transparent); background: none; }
+  .bw .bw-in :is(.cb-text, .cr-text, .fb-report, .td-report, .zone-q) { border-left-color: var(--pg-rim); background: var(--pg-wash); }
+  .bw .bw-in .fb-stars label { color: var(--pg-faded); }
+  .bw .bw-in .fb-stars:hover input ~ label { color: var(--pg-faded); }
+  .bw .bw-in .fb-kinds label:has(:checked) { border-color: var(--pg-title); background: var(--pg-title); color: var(--pg-on); }
+  .bw .bw-in :is(.fb-form legend, .fb-field > span) { color: var(--pg-note); }
+  .bw .bw-in .fb-optional { color: var(--pg-muted); }
+  .bw .faq-toc, .bw .bw-in .faq-toc { border-color: var(--pg-edge); border-radius: 4px; background: var(--pg-tile); }
+  .bw .faq-toc a { color: var(--pg-ink); }
+  .bw .faq-toc a:hover { color: var(--pg-title); }
+  .bw .wn-card h3 { color: var(--pg-title); }
+}
+@media (max-width: 760px) {
+  :where(html:not([data-door="willo"])) .bw .bw-in:is(.fb-page, .vp-doc, .faq-page, .wn-page, .ln-page, .ch-leaf) {
+    width: calc(100% - 20px); margin-block: 14px 40px; padding: 24px 16px 32px; }
+}
+
+/* ==== Site layouts (2026-10-25, the approved design lab/lore-site-v3): What's new, FAQ, privacy and terms ====
+   What's new reads like chapters: each version a row with its number and date on the left and its changes as small cards
+   on the right, newest first; the latest is open and the older ones are folded rows (version, date, count, an arrow).
+   The FAQ, privacy and terms are one reading sheet each, a comfortable column; the FAQ's questions are folds. */
+:where(html:not([data-door="willo"])) {
+  .bw .bw-in.wn-page { max-width: 860px; }
+  .bw .bw-in:is(.faq-page, .vp-doc) { max-width: 760px; }
+
+  .bw .wn-ver { display: grid; grid-template-columns: 150px minmax(0, 1fr); gap: 4px 20px; padding: 16px 0; border-bottom: 0; border-top: 1px solid color-mix(in srgb, var(--pg-edge) 40%, transparent); }
+  .bw .wn-ver:first-of-type { border-top: 0; }
+  .bw .wn-head { grid-column: 1; grid-row: 1 / span 2; display: grid; gap: 2px; align-content: start; }
+  .bw .wn-head h2 { margin: 0; font: 700 1.7rem/1.1 var(--h-display); color: var(--pg-title); }
+  .bw .wn-date { color: var(--pg-note); font-size: 0.9rem; }
+  .bw .wn-hl { grid-column: 2; display: grid; grid-template-columns: minmax(0, 1fr); gap: 8px; }
+  .bw .wn-card { padding: 8px 12px; border-radius: 3px; background: none; border-color: color-mix(in srgb, var(--pg-edge) 55%, transparent); }
+  .bw .wn-card h3 { margin: 0; font: 500 1rem/1.3 var(--h-display); color: var(--pg-title); }
+  .bw .wn-card p { margin: 2px 0 0; color: var(--pg-note); font-size: 0.95rem; }
+  .bw .wn-ver > details.wn-all { grid-column: 2; }
+  .bw .wn-ver > .wn-head ~ details.wn-all { margin-top: 8px; padding: 0; border: 1px solid var(--pg-edge); border-radius: 3px; background: color-mix(in srgb, var(--pg-tile) 40%, transparent); }
+  .bw .wn-ver > .wn-head ~ details.wn-all > summary { padding: 8px 12px; list-style: none; cursor: pointer; font: 600 0.98rem var(--h-body); color: var(--pg-ink); }
+  .bw .wn-ver > .wn-head ~ details.wn-all > summary::-webkit-details-marker { display: none; }
+  .bw .wn-ver > .wn-head ~ details.wn-all > summary::after { content: "\25B8"; float: right; color: var(--pg-note); }
+  .bw .wn-ver > .wn-head ~ details.wn-all[open] > summary::after { content: "\25BE"; }
+  .bw .wn-ver > .wn-head ~ details.wn-all > ul { margin: 0; padding: 0 16px 12px 32px; }
+  /* Older versions: one folded row each. */
+  .bw .wn-ver:not(:has(.wn-head)) { display: block; padding: 0; }
+  .bw .wn-ver:not(:has(.wn-head)) > details.wn-all { grid-column: auto; }
+  .bw .wn-ver:not(:has(.wn-head)) > details > summary { display: grid; grid-template-columns: 150px minmax(0, 1fr) auto 14px; gap: 4px 20px; align-items: center; padding: 14px 0;
+    list-style: none; cursor: pointer; font: inherit; color: var(--pg-ink); }
+  .bw .wn-ver:not(:has(.wn-head)) > details > summary::-webkit-details-marker { display: none; }
+  .bw .wn-ver:not(:has(.wn-head)) > details > summary::after { content: "\25B8"; color: var(--pg-note); }
+  .bw .wn-ver:not(:has(.wn-head)) > details[open] > summary::after { content: "\25BE"; }
+  .bw .wn-ver:not(:has(.wn-head)) > details > summary h2 { margin: 0; font: 700 1.2rem/1.2 var(--h-display); color: var(--pg-title); }
+  .bw .wn-ver:not(:has(.wn-head)) > details > summary .wn-n { color: var(--pg-note); text-decoration: none; font-size: 0.9rem; }
+  .bw .wn-ver:not(:has(.wn-head)) > details > summary .wn-n::after { content: none; }
+  .bw .wn-ver:not(:has(.wn-head)) > details > summary:hover h2 { color: var(--pg-hover); }
+  .bw .wn-ver:not(:has(.wn-head)) > details > ul { margin: 0 0 14px 170px; padding-left: 18px; }
+}
+@media (max-width: 640px) {
+  :where(html:not([data-door="willo"])) {
+    .bw .wn-ver { grid-template-columns: minmax(0, 1fr); }
+    .bw .wn-head { grid-row: auto; }
+    .bw .wn-hl, .bw .wn-ver > details.wn-all { grid-column: 1; }
+    .bw .wn-ver:not(:has(.wn-head)) > details > summary { grid-template-columns: minmax(0, 1fr) auto 14px; }
+    .bw .wn-ver:not(:has(.wn-head)) > details > summary .wn-date { grid-column: 1; grid-row: 2; }
+    .bw .wn-ver:not(:has(.wn-head)) > details > ul { margin-left: 0; }
+  }
+}
+:where(html:not([data-door="willo"])) {
+  /* The FAQ: each question a fold on the reading sheet. */
+  .bw .faq-q.ch-fold { padding: 0; border: 0; border-bottom: 1px solid color-mix(in srgb, var(--pg-edge) 35%, transparent); border-radius: 0; background: none; }
+  .bw .faq-q.ch-fold > summary { padding: 11px 4px; }
+  .bw .faq-q.ch-fold > summary h2 { margin: 0; font: 500 1.08rem/1.35 var(--h-display); color: var(--pg-title); }
+  .bw .faq-q.ch-fold > summary:hover h2 { color: var(--pg-hover); }
+  .bw .faq-q.ch-fold > :not(summary) { margin: 0 4px 12px; }
+  .bw .faq-q.ch-fold[open] { padding-bottom: 4px; }
+  .bw .faq-q p { font-family: var(--ch-read); font-size: 1.05rem; line-height: 1.6; }
+  .bw .faq-q p + p { margin-top: 10px; }
+  .bw .faq-page .pitch { font-size: 1.05rem; }
+  /* Privacy and terms: a reading sheet with its sections as headings. */
+  .bw .vp-doc :is(p, li) { font-family: var(--ch-read); font-size: 1.05rem; line-height: 1.6; color: var(--pg-ink); }
+  .bw .vp-doc h2 { color: var(--pg-title); }
+}

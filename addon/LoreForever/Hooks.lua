@@ -172,15 +172,30 @@ local function bindHint(tooltip)
   if line then tooltip:AddLine(line, 0.5, 0.5, 0.5) end
 end
 
+-- Where its page stands in your chronicle (Collection.lua), under its lore line: a new page, one you've heard, or one
+-- you have. A page needs no key: with none bound, the line says where to find it.
+local function chronicleLine(tooltip, key)
+  local C = ns.Collection
+  if not (C and key and C.IsFound(key)) then return end
+  local text, r, g, b = L["In your chronicle"], 0.62, 0.62, 0.62
+  if C.IsNew(key) then text, r, g, b = L["New page in your chronicle"], 0.5, 0.87, 0.5
+  elseif ns.Voice.Heard(key) then text = text .. ns.Lang.Dotted(" · ") .. L["heard"] end
+  local bound = GetBindingKey and (GetBindingKey("LOREFOREVER_TOGGLE") or GetBindingKey("LOREFOREVER_NARRATE"))
+  if not bound then text = string.format(L["%s: open it from Found"], text) end
+  tooltip:AddLine(text, r, g, b, true)
+end
+Hooks.ChronicleLine = chronicleLine
+
 local function onUnitTooltip(tooltip)
   if tooltip ~= GameTooltip or not S().unitTooltips then return end
   local ok, _, unit = pcall(tooltip.GetUnit, tooltip)
   if not ok or not unit then return end
   local name = ns.Context.NPCName(unit)
-  local line = Hooks.UnitLine(name)
+  local line, key = Hooks.UnitLine(name)
   if not line then return end
   tooltip:AddLine(line, 0.85, 0.85, 0.85, true)
   bindHint(tooltip)
+  chronicleLine(tooltip, key)
   tooltip:Show()
 end
 
@@ -200,12 +215,16 @@ local function onItemTooltip(tooltip)
   end
   if not ns.Context.Usable(name) then return end
   -- An item with a story is found by hovering it, whatever the tooltip shows (Collection.lua).
-  if ns.Collection then pcall(ns.Collection.OnItemTooltip, name) end
+  if ns.Collection then pcall(ns.Collection.OnItemTooltip, name, id) end
   if not S().itemTooltips then return end
   local lines = Hooks.ItemLines(name, id)
   for _, l in ipairs(lines) do tooltip:AddLine(l.text, l.r, l.g, l.b, true) end
   -- An item with a story of its own: the keys that open it and read it aloud, as for a person (only when asked).
-  if Hooks.ItemKey(name) then bindHint(tooltip) end
+  local key = Hooks.ItemKey(name)
+  if key then
+    bindHint(tooltip)
+    chronicleLine(tooltip, key)
+  end
   if #lines > 0 then tooltip:Show() end
 end
 

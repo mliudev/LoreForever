@@ -14,9 +14,11 @@ import { audioKey, MANIFEST_KEY } from "../lib/lore.js";
 import { onRequestGet as entryGet } from "../functions/lore/[type]/[id].js";
 import { onRequestGet as indexGet } from "../functions/lore/index.js";
 import { onRequestGet as sitemapGet } from "../functions/lore/sitemap.xml.js";
+import { onRequestGet as langEntryGet } from "../functions/[lang]/lore/[type]/[id].js";
 
 import { onRequest as audioGet, parseRange } from "../functions/audio/clip/[voice]/[file].js";
-import { onRequest as narration } from "../functions/api/narration/[action].js";
+import { onRequest as narrationPublic } from "../functions/api/narration/[action].js";
+import { onRequest as narrationAdmin } from "../functions/api/admin/narration/[action].js";
 
 const PUBLIC = join(SITE, "public");
 const HOME = "https://loreforeverwow.com";
@@ -30,6 +32,19 @@ const ASSETS = { async fetch(url) {
 } };
 const entryJson = key => JSON.parse(readFileSync(join(PUBLIC, "lore/data/e", key.replace(":", "_") + ".json"), "utf8"));
 const env = (extra = {}) => ({ ASSETS, ...extra });
+
+// A zone page the male narrator has recorded, from the data: rewording a page retires its recordings until it is
+// re-recorded, so no named page is certain to have them.
+function recordedZone() {
+  const index = JSON.parse(readFileSync(join(PUBLIC, "lore/data/index.json"), "utf8"));
+  for (const p of index.pages.filter(p => p.k === "zone")) {
+    const key = "zone:" + p.p.split("/").pop();
+    const e = entryJson(key);
+    const story = e.clips.find(c => c.part === "narration");
+    if (story?.voices?.["male-narrator"]) return { key, path: p.p, entry: e, story };
+  }
+  assert.fail("no zone page has a male narrator recording");
+}
 
 async function entry(path, e = env()) {
   const url = new URL(path, HOME);
@@ -46,11 +61,10 @@ async function bucketWith(keys) {
 }
 
 test("with recordings in R2: a player per voice and the report form; only what the manifest lists plays", async () => {
-  const e = entryJson("zone:elwynn");
-  const story = e.clips.find(c => c.part === "narration");
+  const { path, story } = recordedZone();
   const male = audioKey("male-narrator", story.id, story.voices["male-narrator"]);
   const STUDIO = await bucketWith([male]);
-  const res = await entry("/lore/zone/elwynn", env({ STUDIO }));
+  const res = await entry(path, env({ STUDIO }));
   const html = await res.text();
   assert.ok(html.includes(`href="/audio/clip/${male}"`), male);
   assert.equal((html.match(/class="lp-btn"/g) || []).length, 1, "the female recording isn't in the manifest");
@@ -62,6 +76,21 @@ test("with recordings in R2: a player per voice and the report form; only what t
   assert.match(html, new RegExp(`data-clip="${story.id}" data-hash="${story.hash}"`));
   assert.match(html, /class="lp-speed"/);
   for (const reason of ["name", "voice", "cut", "stage", "quality", "text", "other"]) assert.match(html, new RegExp(`value="${reason}"`));
+});
+
+test("Next plays on goes to a later page in /lore's order that has a recording; the last page has nowhere to go", async () => {
+  const index = JSON.parse(readFileSync(join(PUBLIC, "lore/data/index.json"), "utf8"));
+  const order = index.pages.map(p => p.p);
+  const recorded = p => (p.c || []).some(c => (c[2] || []).some(Boolean));
+  const first = recordedZone().path;
+  const html = await (await entry(first)).text();
+  const next = /data-next="([^"]+)"/.exec(html)?.[1];
+  assert.ok(next, first + " has a page to go on to");
+  assert.ok(order.indexOf(next) > order.indexOf(first), next);
+  assert.ok(recorded(index.pages.find(p => p.p === next)), `${next} has a recording`);
+  assert.equal((await entry(next)).status, 200);
+  const last = order[order.length - 1];
+  assert.doesNotMatch(await (await entry(last)).text(), /data-next=/, last);
 });
 
 test("an entry adapted from a Wowpedia article credits Wowpedia (CC BY-SA 3.0), not the Warcraft Wiki", async () => {
@@ -102,7 +131,8 @@ test("an entry with no recording is a page of its spoiler-free text, with nothin
   for (const s of lore.sections.filter(s => s.spoiler === 0)) assert.ok(html.includes(`<h2>${s.title}</h2>`), s.title);
   assert.ok(html.includes("https://www.wowhead.com/forever/item="), "Look it up links its game ID");
   assert.ok(html.includes('href="/lore/quest/1476-hearts-of-the-pure"'), "an item links its quest");
-  assert.ok(!html.includes("lp-clip") && !html.includes("lp-btn") && !html.includes('id="lp-report"'), "no Listen box");
+  // (The report form is in every page: the foot player can report whatever the playlist is playing.)
+  assert.ok(!html.includes("lp-clip") && !html.includes("lp-btn") && !html.includes("lp-listen"), "no Listen box");
   // (pipeline/tests/test_site_lore.py checks that no spoiler section of any entry reaches a page.)
 });
 
@@ -151,6 +181,9 @@ test("/lore lists the pages with nothing to play too, and links the topics no zo
   assert.ok(html.includes('href="/lore/topic/lordaeron"'), "a topic");
   assert.ok(more.some(p => p.k === "item") && more.some(p => p.k === "topic"));
   assert.match(html, /Topics <span class="lp-count">\d+</);
+  // It ends on the download link, written out (it once printed the template's own source).
+  assert.match(html, /<a class="btn-download" href="[^"]+">Get Lore Forever<\/a>/i);
+  assert.ok(!html.includes("${"), "template code on the page");
 });
 
 test("/audio/clip/: whole files, ranges, 304s, 404s, and previews sent to production", async () => {
@@ -203,13 +236,19 @@ test("/audio/clip/: whole files, ranges, 304s, 404s, and previews sent to produc
   assert.equal(parseRange(null), null);
 });
 
-test("the narration API: admin uploads (checked), the manifest, and the public list", async () => {
+test("the narration API: admin uploads (checked, under /api/admin/), the manifest, and the public list", async () => {
   const STUDIO = r2();
-  const e = { STUDIO, ADMIN_KEY: "k" };
-  const call = (action, { method = "GET", query = "", body, auth = "k", host = HOME } = {}) => narration({
-    request: new Request(`${host}/api/narration/${action}${query}`, {
-      method, body, headers: auth ? { Authorization: `Bearer ${auth}` } : {} }),
-    env: e, params: { action } });
+  const e = { STUDIO, ADMIN_KEY: "k", FEEDBACK_KEY: "f",   // Access set up, as in production (the script gate itself: access-service.test.mjs)
+    ACCESS_ISSUER: "https://lore-test.cloudflareaccess.com", ACCESS_AUD: "aud", ACCESS_SCRIPT_TOKENS: "script.access" };
+  // Uploads and the bucket listing live under /api/admin/ (where Cloudflare Access is); the public list stays at /api/narration/.
+  const call = (action, { method = "GET", query = "", body, auth = "k", host = HOME } = {}) => {
+    const handler = action === "live" ? narrationPublic : narrationAdmin;
+    const path = action === "live" ? "/api/narration" : "/api/admin/narration";
+    return handler({
+      request: new Request(`${host}${path}/${action}${query}`, {
+        method, body, headers: auth ? { Authorization: `Bearer ${auth}` } : {} }),
+      env: e, params: { action } });
+  };
   const mp3 = new TextEncoder().encode("ID3\u0004\u0000 a narration");
   const sha = createHash("sha256").update(mp3).digest("hex");
   const key = `male-narrator/zone_elwynn-${sha.slice(0, 10)}.mp3`;
@@ -217,6 +256,7 @@ test("the narration API: admin uploads (checked), the manifest, and the public l
 
   assert.equal((await call("audio", { auth: "" })).status, 401);
   assert.equal((await call("audio", { auth: "wrong" })).status, 401);
+  assert.equal((await call("audio", { auth: "f" })).status, 401, "the routines' FEEDBACK_KEY can't write recordings");
   assert.equal((await call("nothing")).status, 404);
   assert.equal((await call("audio", { method: "PUT", query: q("bad key", sha), body: mp3 })).status, 400);
   assert.equal((await call("audio", { method: "PUT", query: q(`male-narrator/zone_elwynn-${"0".repeat(10)}.mp3`, sha), body: mp3 })).status, 400,
@@ -242,4 +282,57 @@ test("the narration API: admin uploads (checked), the manifest, and the public l
   res = await call("live", { auth: "" });
   assert.deepEqual(await res.json(), { keys: [key] });
   assert.match(res.headers.get("Cache-Control"), /max-age=300/);
+
+  // The old upload address is gone for good (it sat outside Access): 410 even with the right key, and it names the new one.
+  for (const [action, method] of [["audio", "GET"], ["audio", "PUT"], ["manifest", "POST"]]) {
+    res = await narrationPublic({ request: new Request(`${HOME}/api/narration/${action}`, { method, body: method === "GET" ? undefined : "{}",
+      headers: { Authorization: "Bearer k" } }), env: e, params: { action } });
+    assert.equal(res.status, 410, `${method} /api/narration/${action}`);
+    assert.match((await res.json()).error, new RegExp(`/api/admin/narration/${action}`));
+  }
+});
+
+// The pages in other languages (LOR-809): R2's lore-i18n/ objects (pipeline/lore/site_i18n.py), in the shape of the
+// English page plus its language, served at /<lang>/lore/..., and named by the English page's language switch.
+test("a translated page reads in its language with the English page and its other languages as alternates; a language it lacks goes to English", async () => {
+  const en = entryJson("zone:elwynn");
+  const STUDIO = r2();
+  const put = (key, obj) => STUDIO.put("lore-i18n/" + key, new TextEncoder().encode(JSON.stringify(obj)));
+  await put("index.json", { format: 1, langs: [{ seg: "de", hreflang: "de", name: "Deutsch" },
+    { seg: "fr", hreflang: "fr", name: "Français" }, { seg: "zh", hreflang: "zh-Hans", name: "简体中文" }],
+  pages: { [en.path]: 0b101 } });
+  await put("de/zone/elwynn.json", { ...en, lang: "de", en: en.path, path: "/de" + en.path, name: "Wald von Elwynn",
+    intro: ["Der Wald von Elwynn ist ein friedlicher Wald."], sections: [], clips: [] });
+  const e = env({ STUDIO });
+  const lang = (seg, path) => langEntryGet({ request: new Request(HOME + path), env: e,
+    params: { lang: seg, type: "zone", id: "elwynn" }, next: async () => new Response("static") });
+
+  const res = await lang("de", "/de" + en.path);
+  assert.equal(res.status, 200);
+  const html = await res.text();
+  assert.match(html, /<html lang="de">/);
+  assert.match(html, /<h1>Wald von Elwynn<\/h1>/);
+  assert.match(html, new RegExp(`rel="canonical" href="${HOME}/de${en.path}"`));
+  for (const [hl, path] of [["en", en.path], ["de", "/de" + en.path], ["zh-Hans", "/zh" + en.path], ["x-default", en.path]]) {
+    assert.match(html, new RegExp(`rel="alternate" hreflang="${hl}" href="${HOME}${path}"`), hl);
+  }
+  assert.doesNotMatch(html, /hreflang="fr"/, "French isn't one of this page's languages");
+  assert.doesNotMatch(html, /class="lp-mine"/, "the profile line names English pages only");
+  // No English narrator under German text: the page says there's no recording in German, and plays nothing.
+  assert.match(html, /No Deutsch recording yet/i);
+  assert.doesNotMatch(html, /class="lp-btn"|class="lp-all"/);
+
+  // French: not in this page's mask. Chinese: in the mask, but R2 has no object (an upload under way). Both go to English.
+  for (const seg of ["fr", "zh"]) {
+    const away = await lang(seg, `/${seg}${en.path}`);
+    assert.equal(away.status, 302, seg);
+    assert.equal(new URL(away.headers.get("Location")).pathname, en.path, seg);
+  }
+  // Not a language at all: the 404 page.
+  assert.equal((await lang("xx", "/xx" + en.path)).status, 404);
+
+  // The English page links to the languages it reads in.
+  const english = await (await entry(en.path, e)).text();
+  assert.match(english, new RegExp(`<a href="/de${en.path}" hreflang="de"`));
+  assert.match(english, new RegExp(`rel="alternate" hreflang="zh-Hans" href="${HOME}/zh${en.path}"`));
 });

@@ -7,6 +7,17 @@ wrap long bullets with an indented continuation line.
 
 ## Unreleased
 
+## 0.28.0 (2026-10-25)
+
+- **Your Chronicle is an open book:** a parchment book with Here, Found, Road and Storylines as ribbons, and a note with Listen whenever you find a new person, place or item.
+- **Found in picture cards:** each zone's people, places, items and quests as cards, people shown in full, and Play these or Play what's new to hear them in a row.
+- **Quest pages:** a finished quest opens its page with the text you read and a Listen for what its quest giver said.
+- **The Road and Storylines:** your journey zone by zone, each with a chapter page, its map and two seals; click a screenshot to see it large, or a page to open it.
+- **Questions on pages:** what you ask about a person, place, item or quest is written on its page, with the recorded questions to play there.
+- **More to hear:** more quest givers in their own people's voices, more quests and quest stories read aloud, and German, Spanish and Portuguese quest dialogue downloads.
+- **The website reads like the book:** lore pages on loreforeverwow.com in your language, and your profile shows your Chronicle zone by zone.
+- **Willo:** on Legend she thinks hard questions through (gear, rotations, talents), and her wisp stays smooth while she talks.
+
 ## 0.27.0 (2026-10-23)
 
 - **Your own chronicle:** every place, person, item and quest with a story is kept as you find it, in a new Found tab,

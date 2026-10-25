@@ -32,6 +32,16 @@ test("only explicit successful public production pages get configuration", () =>
   assert.equal(analyticsPage(new Request(HOME, { method: "HEAD" }), ENV, html()), null);
 });
 
+test("Willo's domain counts her public pages and never her account or editing pages", () => {
+  const env = { ...ENV, WILLO_DOMAIN: "willocompanion.com" };
+  const willo = path => analyticsPage(new Request("https://willocompanion.com" + path), env, html());
+  for (const path of ["/", "/plans", "/willo", "/faq"]) assert.equal(willo(path)?.id, ENV.GA4_MEASUREMENT_ID, path);
+  for (const path of ["/account", "/willo/keeps", "/willo/style", "/creators", "/link", "/w/code", "/guides/x"]) {
+    assert.equal(willo(path), null, path);
+  }
+  assert.equal(analyticsPage(new Request("https://willocompanion.com/plans"), ENV, html()), null, "only once her domain is set");
+});
+
 test("real guide responses deny drafts and missing slugs while published metadata stays bounded", async () => {
   for (const draft of [false, true]) {
     const env = { ...ENV, GUIDE_FILES: { "known-article":
@@ -52,8 +62,8 @@ test("real guide responses deny drafts and missing slugs while published metadat
 
 test("injection uses no-store and origin-only referrers without broadening the site-wide policy", async () => {
   const markup = analyticsMarkup(page("/"));
-  assert.match(markup, /href="\/analytics\.css\?v=20261021-footer"/);
-  assert.match(markup, /src="\/analytics\.js\?v=20261021-footer"/);
+  assert.match(markup, /href="\/analytics\.css\?v=20261023-willo"/);
+  assert.match(markup, /src="\/analytics\.js\?v=20261023-willo"/);
   const headers = readFileSync(new URL("../public/_headers", import.meta.url), "utf8");
   for (const asset of ["analytics.js", "analytics.css"]) {
     assert.ok(headers.includes(`/${asset}\n  Cache-Control: no-cache`), `${asset} must revalidate`);

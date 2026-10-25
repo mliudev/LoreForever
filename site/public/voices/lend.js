@@ -314,6 +314,16 @@ function introHtml() {
       <li><b>We check it</b> right away and tell you if the room is too noisy or the sound too quiet.</li>
       <li><b>Agree and send.</b> We make your voice on our own computer and put a test pack on this page for you to
         hear in game. Withdraw any time.</li></ol>
+    <ul class="ly-tiles">
+      <li class="ly-tile"><h3>Open the narrator dashboard</h3><p>Pick a line, record it, hear it back.</p>
+        <a class="btn-small btn-small-alt ly-go" href="/voices/studio">Open</a></li>
+      <li class="ly-tile"><h3>How it works</h3><p>What we ask for, and what happens to a recording.</p>
+        <a class="btn-small btn-small-alt ly-go" href="/voices/guide">Read</a></li>
+      <li class="ly-tile"><h3>Everyone who has lent a voice</h3><p>Meet the narrators.</p>
+        <a class="btn-small btn-small-alt ly-go" href="/contributors#narrators">Meet them</a></li>
+      <li class="ly-tile ly-blank"><h3>Join the Discord</h3><p>Ask questions, share takes.</p>
+        <a class="btn-small btn-small-alt ly-go" href="/discord?src=lend">Join</a></li>
+    </ul>
     ${st.donation ? `<p class="st-note warn">This replaces the recording you sent before. <button class="st-b ghost" type="button" id="ln-back">Keep the old one</button></p>` : ""}`;
 }
 

@@ -15,11 +15,13 @@
   <Script file="Engine.lua"/>
   <Script file="Context.lua"/>
   <Script file="ModelRaces.lua"/>
+  <Script file="Looks.lua"/>
   <Script file="Giver.lua"/>
   <Script file="HistoryArchive.lua"/>
   <Script file="Log.lua"/>
   <Script file="Journey.lua"/>
   <Script file="Collection.lua"/>
+  <Script file="Margin.lua"/>
   <Script file="Stock.lua"/>
   <Script file="Screen.lua"/>
   <Script file="Battle.lua"/>
@@ -38,6 +40,8 @@
   <Script file="Updates.lua"/>
   <Script file="Page.lua"/>
   <Script file="Book.lua"/>
+  <Script file="Road.lua"/>
+  <Script file="Slip.lua"/>
   <Script file="UI.lua"/>
   <Script file="ClipReport.lua"/>
   <Script file="Subtitles.lua"/>

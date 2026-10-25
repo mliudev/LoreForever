@@ -302,7 +302,9 @@ export function guardAnswer(answer, { supplied = "", own = true, researched = fa
 // is left out, so the written answer adds the steps, places and numbers she was handed and never fills a gap from
 // memory (the accuracy re-score, 10/18: the longer written answer raised wrong claims 7.6 -> 11.4%; the prompt's
 // rule alone left item drops, quest steps and a graveyard in Ironforge in it). Words that start a sentence, and a few
-// everyday capitalised ones, aren't names. With nothing left beyond her words, it's her words.
+// everyday capitalised ones, aren't names. With nothing left beyond her words, it's her words. numbers false: only the
+// names are checked, for an answer thought through (lib/companion-answers.js MULL_RULE), whose numbers are worked out
+// from the facts she was given ("15.5 damage per second") and are what made it right (the Software Architect, 10/24).
 const NOT_NAMES = new Set(["I", "I'm", "I've", "I'll", "I'd", "You", "You're", "You'll", "Your", "The", "A", "An", "If",
   "When", "Then", "Once", "After", "Before", "Head", "Go", "Look", "Find", "Ask", "Take", "Bring", "Talk", "Speak",
   "Remember", "Keep", "Note", "Also", "And", "But", "Or", "So", "From", "To", "At", "In", "On", "For", "With", "This",
@@ -311,14 +313,14 @@ const NOT_NAMES = new Set(["I", "I'm", "I've", "I'll", "I'd", "You", "You're", "
 const nameWords = sentence => sentence.split(/\s+/).slice(1).map(w => w.replace(/^[^\p{L}\p{N}]+|[^\p{L}\p{N}]+$/gu, ""))
   .filter(w => /^\p{Lu}/u.test(w) && !NOT_NAMES.has(w));
 const LIST_MARK = /^(\s*)(\d+[.)]|[-*•])(\s+)/;
-export function groundedWritten(text, say, supplied) {
+export function groundedWritten(text, say, supplied, { numbers: checkNumbers = true } = {}) {
   if (typeof text !== "string" || !text.trim()) return text;
   const known = `${supplied || ""}\n${say || ""}`.toLowerCase();
   const said = String(say || "").toLowerCase().replace(/[^\p{L}\p{N}]+/gu, " ");
   const backed = sentence => {
     const flat = sentence.toLowerCase().replace(/[^\p{L}\p{N}]+/gu, " ").trim();
     if (!flat || said.includes(flat)) return true;
-    const numbers = sentence.match(/\d+(?:\.\d+)?/g) || [];
+    const numbers = checkNumbers ? sentence.match(/\d+(?:\.\d+)?/g) || [] : [];
     return [...nameWords(sentence), ...numbers].every(t => known.includes(t.toLowerCase()));
   };
   // A list that loses any of its items: the written answer is her spoken words. What's left of it read as the whole

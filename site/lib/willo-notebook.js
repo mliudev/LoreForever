@@ -803,15 +803,20 @@ export async function knownPlaces(env) {
       if (zone && !places.has(placeKey(zone))) places.set(placeKey(zone), zone);
     }
   } catch (e) { console.warn(`notebook places: towns: ${e?.message || e}`); }
-  try {
-    // A missing asset comes back as the home page with a 200 (memory: pages-assets-missing-is-200): JSON or nothing.
-    const res = env.ASSETS ? await env.ASSETS.fetch(new Request("https://assets.local/lore/data/index.json")) : null;
-    const index = res?.ok ? await res.json() : null;
-    for (const p of Array.isArray(index?.pages) ? index.pages : []) {
-      if (["zone", "subzone", "dungeon"].includes(p?.k) && typeof p.n === "string" && !places.has(placeKey(p.n)))
-        places.set(placeKey(p.n), p.n);
-    }
-  } catch (e) { console.warn(`notebook places: lore: ${e?.message || e}`); }
+  // The library's pages with a recording (index.json) and those without one yet (more.json, the same shape): a place
+  // whose recording is missing or stale is still a place (restyle batch 1 dropped 64 from index.json, Trade District
+  // among them).
+  for (const file of ["index.json", "more.json"]) {
+    try {
+      // A missing asset comes back as the home page with a 200 (memory: pages-assets-missing-is-200): JSON or nothing.
+      const res = env.ASSETS ? await env.ASSETS.fetch(new Request(`https://assets.local/lore/data/${file}`)) : null;
+      const index = res?.ok ? await res.json() : null;
+      for (const p of Array.isArray(index?.pages) ? index.pages : []) {
+        if (["zone", "subzone", "dungeon"].includes(p?.k) && typeof p.n === "string" && !places.has(placeKey(p.n)))
+          places.set(placeKey(p.n), p.n);
+      }
+    } catch (e) { console.warn(`notebook places: lore ${file}: ${e?.message || e}`); }
+  }
   placesCache.set(key, places);
   return places;
 }

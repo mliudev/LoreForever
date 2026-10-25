@@ -11,22 +11,17 @@ import { sameOrigin } from "../../lib/accounts.js";
 import { perDayFromIp } from "../../lib/ratelimit.js";
 import { SETUP, PER_DAY, listEmail } from "../../lib/subscribers.js";
 import { optOut } from "../../lib/email.js";
+import { page as sitePage } from "../../lib/voices.js";
 
 const DONE = "Done. That address won't get any more emails from us.";
 const NO_STORE = { "Cache-Control": "no-store" };
 
 // Without JavaScript the form posts here directly, so the answer comes back as a page of its own.
 function page(status, text) {
-  const html = `<!doctype html>
-<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="robots" content="noindex"><title>Unsubscribe - Lore Forever</title>
-<link rel="icon" href="/img/logo.svg" type="image/svg+xml"><link rel="stylesheet" href="/style.css"></head>
-<body><header class="top"><div class="wrap"><span class="crumb"><a href="/">Lore Forever</a> &rsaquo;
-Unsubscribe</span></div></header>
-<main class="wrap fb-page"><h1>Unsubscribe</h1>
+  const html = sitePage({ title: "Unsubscribe", description: "Unsubscribe from Lore Forever emails.", path: "/unsubscribe", robots: "noindex", foot: "", source: "unsubscribe", crumbs: "Unsubscribe",
+    body: `<h1>Unsubscribe</h1>
 <div class="fb-done"><p>${text}</p>
-<p><a href="${status === 200 ? "/" : "/unsubscribe"}">${status === 200 ? "Back to Lore Forever" : "Try again"}</a></p></div>
-</main></body></html>`;
+<p><a href="${status === 200 ? "/" : "/unsubscribe"}">${status === 200 ? "Back to Lore Forever" : "Try again"}</a></p></div>` });
   return new Response(html, { status, headers: { "Content-Type": "text/html; charset=utf-8", ...NO_STORE } });
 }
 

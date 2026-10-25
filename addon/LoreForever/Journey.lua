@@ -987,6 +987,10 @@ do
   local COLOR = { quest = { 1, 0.82, 0 }, fight = { 0.92, 0.42, 0.32 }, mile = { 0.62, 0.83, 1 },
     other = { 0.8, 0.8, 0.8 } }
   COLOR.done = COLOR.quest
+  -- The same four as ink, for the page's dots and titles on parchment (each 4.5:1 or better on it).
+  local INK_COLOR = { quest = { 0.45, 0.29, 0.02 }, fight = { 0.58, 0.14, 0.08 }, mile = { 0.12, 0.30, 0.52 },
+    other = { 0.26, 0.15, 0.05 } }
+  INK_COLOR.done = INK_COLOR.quest
   -- done: the quest history (LOR-40), every quest this character completed, by zone (no map).
   local FILTERS = { "all", "quest", "done", "fight", "mile" }
   local MAP_FILTERS = { "all", "quest", "fight", "mile" }   -- the large map's (Completed has no map)
@@ -1159,8 +1163,8 @@ do
   -- Every quest this character completed, newest first, by zone, from what's already kept: the record's turn-ins (when,
   -- where, at what level), the server's completed list (quests done before the record, or whose turn-in was trimmed),
   -- the quest text Capture.lua keeps (LoreForeverDB.quests, shared by the account's characters) and the lore entry.
-  -- Nothing new is saved for it. Clicking a quest shows its text again in the chat, then its lore entry (UI.ShowEntry:
-  -- the usual spoiler rules); Shift-click adds its narration to the playlist (UI.QueueQuest).
+  -- Nothing new is saved for it. Clicking a quest opens its page in Found (Page.lua: its story, and "What you read",
+  -- the text kept here, Journey.KeptText); Shift-click adds its narration to the playlist (UI.QueueQuest).
 
   local HISTORY = 300                 -- quests listed on Completed; the rest are counted (searching finds them all)
   local QUEST_PARTS = { "text", "objectives", "progress", "completion" }   -- LoreForeverDB.quests[id] fields, in order
@@ -1169,14 +1173,30 @@ do
       or (p == "progress" and L["Progress"]) or L["Completion"]
   end
 
-  -- The kept quest text record for a quest, when it has any text to read.
-  local function keptText(id)
+  -- The game's quest templates name you $N, your class $C and your race $R (Capture.Placeholders; 0.7.0 wrote <name>):
+  -- shown here as this character's. Only ever on screen.
+  local function personal(text)
+    local me = ns.Context.Character()
+    local fill = { N = me.name, C = me.className, R = me.raceName }
+    return (text:gsub("<name>", "$N"):gsub("%$([NnCcRr])", function(c)
+      local v = fill[c:upper()]
+      return usable(v) and v or nil
+    end))
+  end
+
+  -- What the player read of quest id, as the game showed it and Capture.lua kept it: { { part, label, text }, ... } in
+  -- reading order (Description, Objectives, Progress, Completion), with the character's name, class and race put back;
+  -- nil when none of it was kept (a quest done before the add-on, or with Keep the quest text you see off). The one
+  -- reader of kept text, for the Road's "quest text" rows (Journey.History) and the quest's page (Page.lua).
+  function Journey.KeptText(id)
     local quests = type(LoreForeverDB) == "table" and type(LoreForeverDB.quests) == "table" and LoreForeverDB.quests
     local rec = quests and quests[id]
     if type(rec) ~= "table" then return nil end
+    local out = {}
     for _, p in ipairs(QUEST_PARTS) do
-      if usable(rec[p]) then return rec end
+      if usable(rec[p]) then out[#out + 1] = { part = p, label = partLabel(p), text = personal(rec[p]) } end
     end
+    return out[1] and out or nil
   end
 
   -- Title, zone, lore key and kept text for q ({ id, and from a turn-in: t, z, s, lv, pt, title }).
@@ -1187,7 +1207,7 @@ do
     local quests = type(LoreForeverDB) == "table" and type(LoreForeverDB.quests) == "table" and LoreForeverDB.quests or {}
     local rec = type(quests[q.id]) == "table" and quests[q.id] or nil
     local zone = entry and entry.z and db.entries["zone:" .. entry.z]
-    q.key, q.text = key, keptText(q.id)
+    q.key, q.text = key, Journey.KeptText(q.id)
     q.title = q.title or (rec and usable(rec.title) and rec.title) or (entry and entry.n) or questTitle(q.id)
     q.z = (usable(q.z) and q.z) or (zone and zone.n) or (rec and usable(rec.zone) and rec.zone) or nil
     return q
@@ -1249,19 +1269,9 @@ do
     return items
   end
 
-  -- The game's quest templates name you $N, your class $C and your race $R (Capture.Placeholders; 0.7.0 wrote <name>):
-  -- shown here as this character's. Only ever on screen.
-  local function personal(text)
-    local me = ns.Context.Character()
-    local fill = { N = me.name, C = me.className, R = me.raceName }
-    return (text:gsub("<name>", "$N"):gsub("%$([NnCcRr])", function(c)
-      local v = fill[c:upper()]
-      return usable(v) and v or nil
-    end))
-  end
-
-  -- Show a completed quest in the chat: when you did it, its quest text as you read it (when it was kept), then its lore
-  -- entry. Quests done before the add-on (or with Keep the quest text you see off) say so, and show the lore alone.
+  -- Open a completed quest: its page in Found (the story, what you read of it and, when a voice recorded it, what its
+  -- quest giver said). Only a quest Lore Forever has no story for has no page to open: what you read of it, and what is
+  -- missing, are written in the chat then, with the Here bookmark lit (the chat is Here's).
   function Journey.OpenQuest(id)
     local UI = ns.UI
     if not (UI and UI.frame and type(id) == "number") then return end
@@ -1271,6 +1281,10 @@ do
     end
     q = q or questInfo({ id = id, earlier = true })
     if not UI.frame:IsShown() then UI.frame:Show() end
+    Journey.HideBigMap()
+    if q.key and UI.OpenChronicle(q.key, "road") then return q end
+    Journey.Hide()
+    UI.ShowTab("here")
     local when
     if q.t then
       local with = type(q.pt) == "table" and #q.pt > 0 and string.format(L["with %s"], table.concat(q.pt, ", ")) or nil
@@ -1280,20 +1294,14 @@ do
       when = L["Completed before Lore Forever began your journey record."]
     end
     local parts = { GOLD .. esc(q.title or string.format(L["Quest %d"], id)) .. "|r", GREY .. esc(when) .. "|r" }
-    local any = false
-    for _, p in ipairs(QUEST_PARTS) do
-      local text = q.text and q.text[p]
-      if usable(text) then
-        any = true
-        parts[#parts + 1] = "\n" .. GOLD .. partLabel(p) .. "|r\n" .. WHITE .. esc(personal(text)) .. "|r"
-      end
+    for _, part in ipairs(q.text or {}) do
+      parts[#parts + 1] = "\n" .. GOLD .. part.label .. "|r\n" .. WHITE .. esc(part.text) .. "|r"
     end
-    if not any then
+    if not q.text then
       parts[#parts + 1] = "\n" .. GREY .. L["Its quest text wasn't kept. Lore Forever keeps the text of the quests you read while it's installed (Options: Keep the quest text you see)."] .. "|r"
-      if not q.key then parts[#parts + 1] = GREY .. L["Lore Forever has no story for this quest yet."] .. "|r" end
     end
-    UI.AddMessage("lore", table.concat(parts, "\n"), nil, nil, nil, nil, q.key)
-    if q.key and UI.ShowEntry then UI.ShowEntry(q.key, "journey") end
+    parts[#parts + 1] = GREY .. L["Lore Forever has no story for this quest yet."] .. "|r"
+    UI.AddMessage("lore", table.concat(parts, "\n"), nil, nil, nil, nil, nil)
     return q
   end
 
@@ -1307,17 +1315,16 @@ do
     h = (h and h > 0) and h or (((fh and fh > 0) and fh or 560) - 108)
     return w, h
   end
+  Journey.PageSize = pageSize   -- for a Road chapter's page (Road.lua), which sits over this one
 
   -- The page, over the chat where History opens (UI.Create makes it with the panel).
   function Journey.CreatePage(f)
     local p = CreateFrame("Frame", "LoreForeverJourneyPage", f)
     p:SetPoint("TOPLEFT", ns.UI.CHAT_X - 4, -60)
-    p:SetPoint("BOTTOMRIGHT", -12, 8)   -- down over the suggestions and message box, so none of the chat shows
+    p:SetPoint("BOTTOMRIGHT", -ns.UI.BOOK_R, ns.UI.DOCK_H)   -- down over the suggestions and message box, so none of the chat shows
     p:SetFrameLevel((f:GetFrameLevel() or 1) + 20)
     p:EnableMouse(true)
-    local bg = p:CreateTexture(nil, "BACKGROUND")
-    bg:SetAllPoints()
-    ns.Theme.Fill(bg, "overlay")
+    ns.Theme.Parchment(p, "right")   -- the page is ink on parchment, like the Road's chapters (and opaque: no chat shows)
     ns.Theme.CoverChat(p)
     -- The large map and the picture viewer go with the page (and the panel).
     p:HookScript("OnHide", function() Journey.HideBigMap(); Journey.HidePicture() end)
@@ -1329,17 +1336,20 @@ do
   end
 
   -- The filter chips from x, y, each as wide as its label, with its colour's dot (All has none).
-  local function chipRow(parent, x, y, filters)
+  local function chipRow(parent, x, y, filters, ink)
     local chips = {}
     for _, key in ipairs(filters) do
-      local b = ns.UI.TextButton(parent, 40, 22, T.font.label, T.color.tab)
+      local b = ink and ns.UI.TextButton(parent, 40, 22, T.font.label, nil, true)
+        or ns.UI.TextButton(parent, 40, 22, T.font.label, T.color.tab)
+      if ink then T.TabDecor(b, true) end
       b.text:SetJustifyH("CENTER")
       b.text:SetText(filterLabel(key))
       local w = math.max(40, math.floor((T.TextWidth(b.text) or 40) + 18))
+      local palette = ink and INK_COLOR or COLOR
       if COLOR[key] then
         local dot = b:CreateTexture(nil, "OVERLAY")
         dot:SetTexture(T.HasTexture(T.DISC) and T.DISC or "Interface\\Buttons\\WHITE8X8")
-        dot:SetVertexColor(COLOR[key][1], COLOR[key][2], COLOR[key][3], 1)
+        dot:SetVertexColor(palette[key][1], palette[key][2], palette[key][3], 1)
         dot:SetSize(7, 7)
         dot:SetPoint("LEFT", 8, 0)
         b.text:ClearAllPoints()
@@ -1377,8 +1387,9 @@ do
 
   function Journey.CreateView(view)
     local UI = ns.UI
-    local head = UI.Header(view, L["Your journey"])
+    local head = UI.Header(view, L["Your journey"], true)
     head:SetPoint("TOPLEFT", 10, -8)
+    Journey.head = head
     local close = ns.Theme.Button(view)
     close:SetHeight(22)
     close:SetPoint("TOPRIGHT", -8, -6)
@@ -1390,7 +1401,7 @@ do
     local search = UI.SearchBox(view, 170, function()
       if Journey.scroll and Journey.scroll.SetVerticalScroll then Journey.scroll:SetVerticalScroll(0) end
       Journey.Refresh()
-    end)
+    end, nil, true)
     search:SetHeight(20)
     search:SetPoint("RIGHT", close, "LEFT", -8, 0)
     Journey.search = search
@@ -1421,7 +1432,7 @@ do
     mapButton:Hide()
     Journey.mapButton = mapButton
 
-    local who = ns.Theme.Muted(view:CreateFontString(nil, "OVERLAY", "GameFontHighlightSmall"))
+    local who = T.Ink(view:CreateFontString(nil, "OVERLAY", "GameFontHighlightSmall"), "inkNote")
     who:SetPoint("TOPLEFT", head, "BOTTOMLEFT", 0, -4)
     who:SetPoint("RIGHT", view, "RIGHT", -10, 0)
     who:SetJustifyH("LEFT")
@@ -1432,7 +1443,7 @@ do
     numbers:SetPoint("TOPLEFT", who, "BOTTOMLEFT", 0, -2)
     numbers:SetPoint("RIGHT", view, "RIGHT", -10, 0)
     numbers:SetHeight(20)
-    local stats = numbers:CreateFontString(nil, "OVERLAY", "GameFontHighlightSmall")
+    local stats = T.Ink(numbers:CreateFontString(nil, "OVERLAY", "GameFontHighlightSmall"), "ink")
     stats:SetPoint("TOPLEFT", 0, -4)
     stats:SetPoint("RIGHT")
     stats:SetJustifyH("LEFT")
@@ -1446,9 +1457,9 @@ do
     Journey.numbersHit = numbers
 
     -- The filters: chips, each with its colour's dot (All has none).
-    Journey.chips = chipRow(view, 10, -66, FILTERS)
+    Journey.chips = chipRow(view, 10, -66, FILTERS, true)
 
-    -- The footer: when it was saved, then Copy my journey record (JourneyRecord.lua) and Update my journey, each as
+    -- The footer: when it was saved, then Copy my journey record (JourneyRecord.lua, a link) and Update my journey, each as
     -- wide as its label, clear of the panel's resize grip (it sits over this corner and takes clicks 28 in from it).
     local sync = ns.Theme.SkinButton(CreateFrame("Button", "LoreForeverJourneySync", view, "UIPanelButtonTemplate"))
     sync:SetSize(150, 22)
@@ -1458,20 +1469,17 @@ do
     if sw then sync:SetWidth(math.max(150, sw + 24)) end
     sync:SetScript("OnClick", function() Journey.AskSync() end)
     sync:SetScript("OnEnter", function(self)
-      GameTooltip:SetOwner(self, "ANCHOR_RIGHT")
+      GameTooltip:SetOwner(self, "ANCHOR_TOP")
       GameTooltip:AddLine(L["Update my journey"])
-      T.Tip(L["Saves your journey now. The game only saves add-on data when you log out or reload."], "tipText", true)
+      T.Tip(L["Saves your journey right now. The game only saves it when you log out. This reloads your interface for a few seconds."], "tipText", true)
       GameTooltip:Show()
     end)
     sync:SetScript("OnLeave", function() GameTooltip:Hide() end)
     Journey.syncButton = sync
     if ns.JourneyRecord then
-      local copy = ns.JourneyRecord.Attach(view, sync, 170)
-      copy:SetHeight(22)
-      copy:ClearAllPoints()
-      copy:SetPoint("RIGHT", sync, "LEFT", -6, 0)
+      Journey.copyButton = ns.JourneyRecord.Attach(view, sync)
     end
-    local note = ns.Theme.Muted(view:CreateFontString(nil, "OVERLAY", "GameFontHighlightSmall"))
+    local note = T.Ink(view:CreateFontString(nil, "OVERLAY", "GameFontHighlightSmall"), "inkNote")
     note:SetPoint("BOTTOMLEFT", 10, 36)
     note:SetPoint("RIGHT", view, "RIGHT", -10, 0)
     note:SetJustifyH("LEFT")
@@ -1505,7 +1513,7 @@ do
       Journey.card = Journey.CreateCard(view, Journey.map)
     end
 
-    local empty = ns.Theme.Muted(view:CreateFontString(nil, "OVERLAY", "GameFontHighlightSmall"))
+    local empty = T.Ink(view:CreateFontString(nil, "OVERLAY", "GameFontHighlightSmall"), "inkNote")
     empty:SetPoint("TOPLEFT", 10, -(LIST_TOP + 6))
     empty:SetPoint("RIGHT", view, "RIGHT", -10, 0)
     empty:SetJustifyH("LEFT")
@@ -1529,6 +1537,32 @@ do
 
   function Journey.IsShown()
     return Journey.page and Journey.page:IsShown() and true or false
+  end
+
+  -- A chapter page over the timeline (Road.lua): everything else on the journey page (its header, list, map, card and
+  -- footer) steps aside, so none of its buttons sit under the chapter. What was showing comes back when the timeline
+  -- does (Refresh), which then settles each part as it always did.
+  function Journey.HideTimeline()
+    if Journey.timelineHidden or not Journey.page then return end
+    local parts = { Journey.head, Journey.head and Journey.head.rule, Journey.closeButton, Journey.search,
+      Journey.mapButton, Journey.whoLine, Journey.numbersHit, Journey.syncButton, Journey.copyButton, Journey.note,
+      Journey.archiveNote, Journey.webLine, Journey.scroll, Journey.map, Journey.card, Journey.empty }
+    for _, chip in ipairs(Journey.chips or {}) do parts[#parts + 1] = chip end
+    local hidden = {}
+    for _, o in pairs(parts) do
+      if o.IsShown and o:IsShown() then
+        hidden[#hidden + 1] = o
+        o:Hide()
+      end
+    end
+    Journey.timelineHidden = hidden
+    Journey.HideBigMap()
+  end
+
+  function Journey.ShowTimeline()
+    local hidden = Journey.timelineHidden
+    Journey.timelineHidden = nil
+    for _, o in ipairs(hidden or {}) do o:Show() end
   end
 
   function Journey.Toggle()
@@ -1633,9 +1667,20 @@ do
     return tonumber(m.quest)
   end
 
-  -- What a moment or row opens: its own entry, else the place it happened. Shift-click queues its narration instead, or
-  -- says why it can't (never opens it): a quest's is its quest giver's words (UI.QueueQuest), not the place's story.
+  -- What a click on a moment (a row, a marker on the map) does: a screenshot opens large, in its own window over the
+  -- Road (Journey.ShowPicture); anything else opens what it's about (Journey.OpenEntry). Shift-click queues its
+  -- narration instead, or says why it can't (never opens it).
   function Journey.OpenMoment(m, shift)
+    if not m then return end
+    local moment = type(m.moment) == "table" and m.moment or m   -- (a row holds its moment)
+    if not shift and Journey.Picture(moment.ev) and Journey.ShowPicture(moment) then return end
+    return Journey.OpenEntry(m, shift)
+  end
+
+  -- The Chronicle page of a moment's own entry, else of the place it happened, with Found lit (and Back returning to the
+  -- Road). Shift-click queues its narration instead, or says why it can't: a quest's is its quest giver's words
+  -- (UI.QueueQuest), not the place's story.
+  function Journey.OpenEntry(m, shift)
     if not m then return end
     local UI, key = ns.UI, m.key or m.place
     if shift then
@@ -1646,8 +1691,7 @@ do
     end
     if not key then return end
     Journey.HideBigMap()
-    Journey.Hide()
-    UI.Open(key, nil, "journey")
+    UI.OpenChronicle(key, "road")
   end
 
   -- The map trail's points, every session's, oldest first: { m, x, y, t }.
@@ -1662,6 +1706,36 @@ do
       end
     end
     table.sort(out, function(a, b) return a.t < b.t end)
+    return out
+  end
+
+  -- Where you were in one zone, for the Road's chapter page (Road.lua): { zone = the zone's name as the game spells it,
+  -- t0, t1 = when you first and last had a moment there, spots = { [place key] = Map.Place(...) } }. A place's spot is
+  -- where its first moment was recorded (a moment in it with a spot on the zone's map); places with none aren't in it.
+  local CHAPTER_PLACES = { zone = true, city = true, dungeon = true, subzone = true }
+  function Journey.ChapterMap(ck)
+    local out = { spots = {} }
+    local eng, Map = ns.UI and ns.UI.engine, ns.JourneyMap
+    if not (char and type(char.events) == "table" and eng and ck) then return out end
+    local db, mine = ns.DB and ns.DB.entries or {}, {}
+    for _, e in ipairs(char.events) do
+      local z = type(e) == "table" and type(e.z) == "string" and e.k ~= "logout" and e.k ~= "sync" and e.z
+      if z then
+        if mine[z] == nil then mine[z] = (try(eng.ZoneKey, eng, z) == ck) end
+        if mine[z] then
+          local t = tonumber(e.t)
+          if t then out.t0, out.t1 = math.min(out.t0 or t, t), math.max(out.t1 or t, t) end
+          out.zone = out.zone or z
+          local key = Map and e.s and e.s ~= z and placeNamed(e.s, z)
+          local entry = key and db[key]
+          if entry and CHAPTER_PLACES[entry.t] and entry.z == ck and not out.spots[key] then
+            local m, x, y = Journey.Spot(e)
+            local sp = m and Map.Place(m, x, y)
+            if sp and sp.zone and sp.zx then out.spots[key] = sp end
+          end
+        end
+      end
+    end
     return out
   end
 
@@ -1715,7 +1789,12 @@ do
   end
 
   -- What a click opens, by name, and how. qid: the quest it's about (Journey.QuestOf), which Shift-click queues.
-  local function linkLines(key, qid)
+  local function linkLines(key, qid, moment)
+    -- A screenshot's click shows the screenshot (Journey.OpenMoment).
+    if moment and Journey.Picture(moment.ev) then
+      T.Tip(L["Click to see it larger."], "tipDim", true)
+      return
+    end
     local entry = key and ns.DB and ns.DB.entries[key]
     if entry then GameTooltip:AddLine(T.code.link .. esc(entry.n) .. "|r") end
     if not (entry or qid) then return end
@@ -1731,7 +1810,7 @@ do
     GameTooltip:SetOwner(owner, "ANCHOR_RIGHT")
     if #list == 1 then
       momentLines(list[1], true)
-      linkLines(list[1].key or list[1].place, Journey.QuestOf(list[1]))
+      linkLines(list[1].key or list[1].place, Journey.QuestOf(list[1]), list[1])
     else
       T.Tip(string.format(L["%d moments here"], #list), "gold")
       for i = 1, math.min(6, #list) do
@@ -1741,7 +1820,7 @@ do
       end
       if #list > 6 then T.Tip(string.format(L["%d more"], #list - 6), "tipDim") end
       if canZoom then T.Tip(L["Click to zoom in"], "tipDim")
-      else linkLines(list[1].key or list[1].place, Journey.QuestOf(list[1])) end
+      else linkLines(list[1].key or list[1].place, Journey.QuestOf(list[1]), list[1]) end
     end
     GameTooltip:Show()
   end
@@ -1751,7 +1830,7 @@ do
     if not (r.moment or r.quest or (key and ns.DB.entries[key])) then return end
     GameTooltip:SetOwner(r, "ANCHOR_LEFT")
     if r.moment then momentLines(r.moment, true) else GameTooltip:AddLine(esc(r.title or "")) end
-    linkLines(key, Journey.QuestOf(r))
+    linkLines(key, Journey.QuestOf(r), r.moment)
     GameTooltip:Show()
   end
 
@@ -1774,7 +1853,7 @@ do
       fs:SetJustifyH("LEFT")
       if fs.SetWordWrap then fs:SetWordWrap(false) end
       c.lines[#c.lines + 1] = fs
-      return muted and T.Muted(fs) or fs
+      return T.Ink(fs, muted and "inkNote" or "ink")
     end
     c.title = text("GameFontHighlight", 0)
     c.sub = text("GameFontHighlightSmall", -17, true)
@@ -1810,7 +1889,7 @@ do
     thumb:SetScript("OnLeave", function() GameTooltip:Hide() end)
     thumb:Hide()
     c.thumb = thumb
-    local link = ns.UI.TextButton(c, 100, 22, T.font.body, T.color.chip)
+    local link = ns.UI.TextButton(c, 100, 22, T.font.body, T.color.chipFill, true)
     link.text:ClearAllPoints()
     link.text:SetPoint("LEFT", 8, 0)
     link.text:SetPoint("RIGHT", -20, 0)
@@ -1819,8 +1898,8 @@ do
     arrow:SetTexture(T.ARROW)
     arrow:SetSize(10, 10)
     arrow:SetPoint("RIGHT", -7, 0)
-    arrow:SetVertexColor(T.rgba(T.color.gold))
-    link:SetScript("OnClick", function(self) Journey.OpenMoment(self.moment, IsShiftKeyDown and IsShiftKeyDown()) end)
+    arrow:SetVertexColor(T.rgba(T.color.inkAccent))
+    link:SetScript("OnClick", function(self) Journey.OpenEntry(self.moment, IsShiftKeyDown and IsShiftKeyDown()) end)
     link:SetScript("OnEnter", function(self)
       GameTooltip:SetOwner(self, "ANCHOR_RIGHT")
       linkLines(self.key, Journey.QuestOf(self.moment))
@@ -1837,7 +1916,7 @@ do
     if not (c and c:IsShown()) then return end
     local m = Journey.focus
     local e = m and type(m.ev) == "table" and m.ev or {}
-    local col = m and m.color or COLOR.other
+    local col = m and INK_COLOR[m.kind] or INK_COLOR.other
     c.title:SetText(m and esc(m.title) or "")
     c.title:SetTextColor(col[1], col[2], col[3], 1)
     c.sub:SetText(m and esc(m.sub or "") or "")
@@ -1870,7 +1949,7 @@ do
     c.link:SetPoint("TOPLEFT", rel and c.rel or c.when, "BOTTOMLEFT", -2, -6)
     c.link:SetShown(entry ~= nil)
     if entry then
-      c.link.text:SetText(T.code.link .. esc(entry.n) .. "|r")
+      c.link.text:SetText(T.code.inkAccent .. esc(entry.n) .. "|r")
       local w = math.floor((T.TextWidth(c.link.text) or 80) + 30)
       c.link:SetWidth(math.max(60, room and math.min(w, room - picW) or w))
       c.link.moment, c.link.key = m, key
@@ -2026,9 +2105,9 @@ do
     function Journey.ShowPicture(m)
       local e = type(m) == "table" and (type(m.ev) == "table" and m.ev or m) or nil
       local p = Journey.Picture(e)
-      if not p then return end
+      if not p then return false end
       local win = viewer()
-      if not Journey.SetPicture(win.pic, p) then win:Hide(); return end
+      if not Journey.SetPicture(win.pic, p) then win:Hide(); return false end
       local sw, sh = tonumber(UIParent:GetWidth()) or 1024, tonumber(UIParent:GetHeight()) or 768
       local s = math.max(0.25, math.min(2, (sw - 120) / p.w, (sh - 240) / p.h))
       local w, h = math.floor(p.w * s), math.floor(p.h * s)
@@ -2049,6 +2128,7 @@ do
       win:SetPoint("CENTER")
       win.picture = p
       win:Show()
+      return true
     end
 
     function Journey.HidePicture()
@@ -2062,10 +2142,10 @@ do
     local r = Journey.rows[i]
     if r then return r end
     local UI = ns.UI
-    r = UI.TextButton(Journey.content, 200, ROW_H - 2, "GameFontHighlight", ns.Theme.color.row)
+    r = UI.TextButton(Journey.content, 200, ROW_H - 2, "GameFontHighlight", T.color.inkRow, true)
     r.text:SetJustifyH("LEFT")
     if r.text.SetWordWrap then r.text:SetWordWrap(false) end
-    r.sub = ns.Theme.Muted(r:CreateFontString(nil, "OVERLAY", "GameFontHighlightSmall"))
+    r.sub = T.Ink(r:CreateFontString(nil, "OVERLAY", "GameFontHighlightSmall"), "inkNote")
     r.sub:SetJustifyH("LEFT")
     if r.sub.SetWordWrap then r.sub:SetWordWrap(false) end
     r.dot = r:CreateTexture(nil, "OVERLAY")
@@ -2073,12 +2153,12 @@ do
     r.dot:SetSize(7, 7)
     r.dot:SetPoint("TOPLEFT", 5, -7)
     -- The row the map shows: a gold wash and bar. A row that opens something ends in a small gold arrow.
-    r.mark = T.TargetMark(r)
+    r.mark = T.TargetMark(r, true)
     r.link = r:CreateTexture(nil, "OVERLAY")
     r.link:SetTexture(T.ARROW)
     r.link:SetSize(10, 10)
     r.link:SetPoint("RIGHT", -6, 0)
-    r.link:SetVertexColor(T.rgba(T.color.gold))
+    r.link:SetVertexColor(T.rgba(T.color.inkAccent))
     -- Keep the screenshot beside its own moment even when the map/card is hidden on a narrow panel.
     local thumb = CreateFrame("Button", nil, r)
     thumb.tex = thumb:CreateTexture(nil, "ARTWORK")
@@ -2101,8 +2181,6 @@ do
     r:SetScript("OnClick", function(self)
       local shift = IsShiftKeyDown and IsShiftKeyDown()
       if self.quest and not shift then   -- Completed: the quest's text again, then its lore (LOR-40)
-        Journey.HideBigMap()
-        Journey.Hide()
         return Journey.OpenQuest(self.quest)
       end
       Journey.OpenMoment(self, shift)
@@ -2146,7 +2224,7 @@ do
     T.ShowMark(r.mark, false)
     if it.head then
       r:SetHeight(HEAD_H - 2)
-      r.text:SetText((it.quiet and ns.Theme.code.grey or GOLD) .. esc(it.head) .. "|r")
+      r.text:SetText((it.quiet and T.code.inkFaded or T.code.inkAccent) .. esc(it.head) .. "|r")
       r.sub:SetText("")
       if r.bg then r.bg:Hide() end
       r.dot:Hide()
@@ -2157,7 +2235,7 @@ do
     r.text:SetText(esc(it.title))
     r.sub:SetText(esc(it.sub))
     if r.bg then r.bg:Show() end
-    local c = it.kind and COLOR[it.kind]
+    local c = it.kind and INK_COLOR[it.kind]
     if c then r.dot:SetVertexColor(c[1], c[2], c[3], 1) end
     r.dot:SetShown(c and true or false)
     r:EnableMouse((opens or it.moment) and true or false)
@@ -2166,6 +2244,9 @@ do
 
   function Journey.Refresh()
     if not Journey.content then return end
+    -- A zone's chapter page (Road.lua) covers the timeline and its map: it refreshes itself, and they wait.
+    if ns.Road and ns.Road.ChapterOpen() then return ns.Road.RefreshChapter() end
+    Journey.ShowTimeline()
     local s = Journey.Stats()
     local function n(count, one, many) return string.format(count == 1 and one or many, count or 0) end
     local parts = { n(s.quests, L["%d quest done"], L["%d quests done"]), n(s.places, L["%d place"], L["%d places"]),
@@ -2208,8 +2289,20 @@ do
 
     local search = Journey.search
     local searching = search and search:Active()
-    local items = Journey.List(filter, searching and function(title, sub, zone)
-      return ns.UI.SearchMatch(search.words, title, sub, zone)
+    -- The Road's chapter (Road.lua): only that zone's moments, under its name.
+    local only, zoneKeys = Journey.zoneOnly, {}
+    local function inZone(zone)
+      if not zone then return false end
+      if zoneKeys[zone] == nil then zoneKeys[zone] = ns.UI.engine and ns.UI.engine:ZoneKey(zone) or false end
+      return zoneKeys[zone] == only
+    end
+    if Journey.head then
+      Journey.head:SetText(only and Journey.zoneTitle and (L["Your journey"] .. ns.Lang.Dotted(" · ") .. Journey.zoneTitle)
+        or L["Your journey"])
+    end
+    local items = Journey.List(filter, (searching or only) and function(title, sub, zone)
+      if only and not inZone(zone) then return false end
+      return not searching or ns.UI.SearchMatch(search.words, title, sub, zone)
     end or nil)
     local moments, y = {}, 0
     for i, it in ipairs(items) do

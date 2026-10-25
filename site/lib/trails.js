@@ -46,6 +46,7 @@ export const landOf = zone => IN_LAND.get(norm(zone)) ?? zone;
 // few, so it can only ever land on an earlier chapter, never one the player hasn't done.
 export function linker(data) {
   const zones = new Map(), places = new Map(), people = new Map(), quests = new Map(), byId = new Map();
+  const size = new Map();   // storyline -> its quests with a lore page
   const ok = a => Array.isArray(a) ? a : [];
   for (const [name, zone, p] of ok(data?.places)) {
     if (!zone) zones.set(norm(name), p);
@@ -59,6 +60,7 @@ export function linker(data) {
     quests.get(k).push(q);
     const id = /^\/lore\/quest\/(\d+)-/.exec(String(p))?.[1];
     if (id) byId.set(Number(id), q);
+    if (sl) size.set(sl, (size.get(sl) || 0) + 1);
   }
   const lines = ok(data?.storylines);
   const refs = {};   // kind -> Map(name -> game ID), for links out to Wowhead (LOR-263)
@@ -83,7 +85,8 @@ export function linker(data) {
     },
     // A quest by its ID (the companion's journey has them), or null when it has no lore page.
     questById: id => byId.get(id) ?? null,
-    storyline: n => (lines[n - 1] ? { name: lines[n - 1][0], zone: lines[n - 1][1] } : null),
+    // A storyline by its number: its name, zone and how many of its quests have a page.
+    storyline: n => (lines[n - 1] ? { name: lines[n - 1][0], zone: lines[n - 1][1], pages: size.get(n) || 0 } : null),
   };
 }
 

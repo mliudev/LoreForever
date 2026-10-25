@@ -38,7 +38,6 @@ export async function willoPreview(env, request) {
 }
 
 const size = bytes => Number.isSafeInteger(bytes) && bytes > 0 ? `${Math.round(bytes / 1e6)} MB` : "";
-const mb = bytes => size(bytes) ? ` · ${size(bytes)}` : "";
 // Willo's button (style.css .h-willo-btn, "The book and the wisp"): her blue, with the wisp beside the words.
 const WILLO_BUTTON = `<img src="/img/wispr.svg" alt="" width="26" height="26">Download Willo for Windows`;
 
@@ -65,24 +64,4 @@ export function willoGet(sizes, preview = null) {
       <div class="wl-phone"><p>On your phone? Willo runs on your Windows PC.</p>
         <button type="button" class="h-btn h-ghost h-sm" data-keep="https://loreforeverwow.com/willo">Copy the link for your PC</button></div>
       <p class="wl-note">Willo walks beside the free <a href="/downloads#addon">Lore Forever add-on</a>: get that first.</p>`;
-}
-
-// Step 2 on /downloads (beside step 1, the add-on): Willo's own download once there's one to get, else word that
-// she's coming. Never one installer for both.
-export function willoSection(sizes, preview = null) {
-  const o = offer(sizes, preview);
-  const get = o
-    ? `<div class="dl-cta"><a class="h-btn h-willo-btn dl-link" href="/download/willo?src=downloads" aria-label="Download Willo for Windows">${WILLO_BUTTON}</a></div>
-      <p class="dl-cta-note">Willo-Setup.exe${mb(o.bytes)} · Windows 10 or 11 · ${o.version}</p>`
-    : `<p>Willo is almost here. Get the add-on now, and Willo joins you soon.</p>`;
-  // tone-w: Willo's blue inside the book's gold page (style.css).
-  return `<section class="dl-step dl-step-willo tone-w" id="willo" aria-labelledby="willo-title">
-      <div class="dl-step-head"><img class="dl-step-ico" src="/img/wispr.svg" alt="" width="52" height="52">
-        <div><p class="dl-step-kicker">Step 2 &middot; free to start</p>
-        <h2 id="willo-title">Willo, the companion app</h2></div></div>
-      <p>Ask anything out loud and hear the answer. Needs the add-on in your game. Sign in with your Lore Forever account
-        when Willo asks.</p>
-      ${get}
-      <p><a href="/willo">What Willo does</a></p>
-    </section>`;
 }

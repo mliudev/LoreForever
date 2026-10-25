@@ -19,7 +19,7 @@
 
 import { setup } from "./accounts.js";
 import { ACCEPTED, ACCEPT_AFTER, contributors } from "./contribute.js";
-import { escape, page, linkList, contributorAnchor, publicVoices, loadVoices } from "./voices.js";
+import { escape, page, linkList, contributorAnchor, publicVoices, loadVoices, communityRibbons } from "./voices.js";
 import { CREDITED_EDIT, creditedTranslators } from "./translations.js";
 
 const seconds = ms => Math.floor(ms / 1000);
@@ -185,55 +185,65 @@ const linkLine = links => links.length
   : "";
 const voiceTag = v => v.included ? '<span class="tag">Default</span>' : v.status === "soon" ? '<span class="tag tag-soon">Coming soon</span>' : "";
 
+// One tile per person: their name, a badge for how they helped (the design's .ly-badge), and what they did. The same
+// elements the list always had (.ct-name, .ct-what, .ct-n), so a name is still escaped and alphabetical in the order it comes.
 function narratorCards(groups) {
-  return groups.map(g => `<article class="zone vc" id="${contributorAnchor(g.name)}">
-      <div class="zone-body">
-        <h3>${escape(g.name)}</h3>
-        ${g.links.length ? `<p class="vpr-links">${linkLine(g.links)}</p>` : ""}
+  return groups.map(g => `<li class="ly-tile ly-person" id="${contributorAnchor(g.name)}">
+        <strong class="ct-name">${escape(g.name)}</strong>
+        <span class="ly-badges"><span class="ly-badge">${g.voices.some(v => v.donated) ? "Lent a voice" : "Narrator"}</span></span>
+        ${g.links.length ? `<span class="vpr-links">${linkLine(g.links)}</span>` : ""}
         <ul class="vcon-voices">
           ${g.voices.map(v => `<li><a href="/voices/${escape(v.id)}">${escape(v.name)}</a> ${voiceTag(v)}${v.clips && v.status !== "soon" ? ` <span class="ct-n">${plural(v.clips, "narration")}</span>` : ""}</li>`).join("\n          ")}
         </ul>
-      </div>
-    </article>`).join("\n      ");
+      </li>`).join("\n      ");
 }
 
-function personRow(p, what) {
-  return `<li><strong class="ct-name">${escape(p.name)}</strong> <span class="ct-what">${what}</span>${p.links.length ? " " + linkLine(p.links) : ""}</li>`;
+function personRow(p, what, badge) {
+  return `<li class="ly-tile ly-person"><strong class="ct-name">${escape(p.name)}</strong> <span class="ct-what">${what}</span>
+        <span class="ly-badges"><span class="ly-badge">${badge}</span></span>${p.links.length ? " " + linkLine(p.links) : ""}</li>`;
 }
+
+// The tile left open for whoever is reading: dashed, with the way in.
+const youTile = (what, href, label) => `<li class="ly-tile ly-blank"><b>You?</b><p>${what}</p><a class="btn-small btn-small-alt ly-go" href="${href}">${label}</a></li>`;
 
 // /contributors. languages: {locale: English name} for the translators' languages. contribute: the text intake is
 // open to players (lib/features.js), so the text finders section shows even while it's empty and invites them in.
+// The page is the community sheet (the design's tiles): ribbons for its siblings, then a tile per person under the way
+// they helped, each with a badge, and a dashed tile for whoever is reading.
 export function contributorsPage({ narrators, translators, finders: found }, { languages = {}, contribute = false } = {}) {
   const sections = [];
   const jump = [];
   if (narrators.length) {
-    jump.push('<a href="#narrators">Narrators</a>');
+    jump.push('<a class="ly-chip" href="#narrators">Narrators</a>');
     sections.push(`<section class="vp-section" id="narrators" aria-labelledby="narrators-title">
     <h2 id="narrators-title">Narrators</h2>
     <p class="vp-note">The voices that read Lore Forever's stories aloud. Each links to its profile, samples and download.</p>
-    <div class="zone-grid vc-grid">
+    <ul class="ly-tiles ly-people">
       ${narratorCards(narrators)}
-    </div>
+      ${youTile("Record a few minutes and be a narrator.", "/voices/lend", "Lend your voice")}
+    </ul>
   </section>`);
   }
-  jump.push('<a href="#translators">Translators</a>');
+  jump.push('<a class="ly-chip" href="#translators">Translators</a>');
   sections.push(`<section class="vp-section" id="translators" aria-labelledby="translators-title">
     <h2 id="translators-title">Translators</h2>
     <p class="vp-note">Lore Forever in their language. Strings they translated that are in the language packs or waiting for the next one.</p>
     ${translators.length
-      ? `<ul class="ct-list">
-      ${translators.map(p => personRow(p, p.languages.map(l => `${escape(languages[l.locale] || l.locale)}, ${plural(l.strings, "string")}`).join(" &middot; "))).join("\n      ")}
+      ? `<ul class="ly-tiles ly-people">
+      ${translators.map(p => personRow(p, p.languages.map(l => `${escape(languages[l.locale] || l.locale)}, ${plural(l.strings, "string")}`).join(" &middot; "), "Translator")).join("\n      ")}
+      ${youTile("Pick a language and fix a line.", "/translate", "Translate")}
     </ul>`
       : `<p>Nobody's name here yet. <a href="/translate">Translate Lore Forever</a> and yours can be the first.</p>`}
   </section>`);
   if (found.length || contribute) {
-    jump.push('<a href="#finders">Text finders</a>');
+    jump.push('<a class="ly-chip" href="#finders">Text finders</a>');
     sections.push(`<section class="vp-section" id="finders" aria-labelledby="finders-title">
     <h2 id="finders-title">Text finders</h2>
     <p class="vp-note">Players who captured Forever's own quests and dialogue in game and sent them in. Counted once a line is accepted.</p>
     ${found.length
-      ? `<ul class="ct-list">
-      ${found.map(p => personRow(p, plural(p.lines, "line"))).join("\n      ")}
+      ? `<ul class="ly-tiles ly-people">
+      ${found.map(p => personRow(p, plural(p.lines, "line"), "Text finder")).join("\n      ")}
+      ${contribute ? youTile("Send the text of a Forever quest.", "/contribute", "Send text") : ""}
     </ul>`
       : `<p>Nobody's name here yet. <a href="/contribute">Send the text of a Forever quest</a> and yours can be the first.</p>`}
   </section>`);
@@ -246,12 +256,12 @@ export function contributorsPage({ narrators, translators, finders: found }, { l
   const body = `  <h1>Contributors</h1>
   <p class="pitch">Lore Forever is better for everyone who pitches in. Thank you to the narrators, translators and players
     who send in Forever's text.</p>
-  ${jump.length > 1 ? `<p class="ct-jump">${jump.join(" &middot; ")}</p>` : ""}
+  ${jump.length > 1 ? `<p class="ct-jump ly-chips">${jump.join(" ")}</p>` : ""}
   ${sections.join("\n  ")}
   <p class="vp-note">Names are in alphabetical order, counting accepted work only. Want to be on this page? You can
     ${join.length > 2 ? `${join.slice(0, -1).join(", ")} or ${join[join.length - 1]}` : join.join(" or ")}. Everyone chooses from
     their <a href="/account">account</a> whether their name and links show here.</p>`;
-  return page({
+  return page({ leaf: true, ribbons: communityRibbons("/contributors"),
     title: "Contributors",
     description: "The narrators, translators and players who help make Lore Forever.",
     path: "/contributors",

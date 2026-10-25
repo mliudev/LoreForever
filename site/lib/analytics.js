@@ -1,5 +1,8 @@
 // Optional GA4 is attached only after the public page handler succeeds. No browser-supplied
 // path, query, title, account data or campaign value becomes analytics configuration.
+// Willo's own domain (lib/doors.js WILLO_DOMAIN) uses the same GA4 property; reports split the two by hostname.
+import { willoHost } from "./doors.js";
+
 export const ANALYTICS_ORIGIN = "https://loreforeverwow.com";
 const PAGES = new Map([
   ["/", "Home"], ["/downloads", "Downloads"], ["/voices", "Voices"],
@@ -8,16 +11,24 @@ const PAGES = new Map([
   ["/plans", "Plans"], ["/contributors", "Contributors"],
   ["/guides", "Guides"], ["/lore", "Lore"],
 ]);
+// Her public pages only: /account, /willo/keeps, /willo/style, /creators, /link and /w/<code> are account or editing
+// pages, outside analytics on both doors (privacy.html#optional-analytics).
+const WILLO_PAGES = new Map([
+  ["/", "Home"], ["/willo", "Meet Willo"], ["/plans", "Plans"], ["/faq", "Help"],
+  ["/privacy", "Privacy"], ["/terms", "Terms"], ["/refunds", "Refunds"],
+]);
 
 export function analyticsPage(request, env, response) {
   const url = new URL(request.url);
   const id = String(env.GA4_MEASUREMENT_ID || "").trim();
-  if (url.origin !== ANALYTICS_ORIGIN || request.method !== "GET" ||
+  const willo = willoHost(env) && url.origin === "https://" + willoHost(env);
+  if ((url.origin !== ANALYTICS_ORIGIN && !willo) || request.method !== "GET" ||
       String(env.CANONICAL_HOST || "").trim().toLowerCase() !== "loreforeverwow.com" ||
       !/^G-[A-Z0-9]{4,20}$/.test(id) || response.status !== 200 ||
       !/^text\/html\b/i.test(response.headers.get("Content-Type") || "") ||
       /noindex|none/i.test(response.headers.get("X-Robots-Tag") || "")) return null;
   const path = url.pathname;
+  if (willo) return WILLO_PAGES.has(path) ? { id, path, title: WILLO_PAGES.get(path), kind: "page" } : null;
   let title = PAGES.get(path), kind = "page";
   // These handlers return 404 for unknown entries and noindex for drafts/hidden lore.
   // The editor, data files, profiles and all other routes are outside this allowlist.
@@ -35,9 +46,8 @@ export function analyticsPage(request, env, response) {
 export function analyticsMarkup(page) {
   // Each value is constrained above; escape title as well because What's new has an apostrophe.
   const attr = s => s.replace(/&/g, "&amp;").replace(/"/g, "&quot;").replace(/</g, "&lt;");
-  // Escape the old unversioned four-hour browser cache after the footer repair.
-  // These assets also revalidate on later loads via public/_headers.
-  const version = "20261021-footer";
+  // Bump with analytics.js or analytics.css. These assets also revalidate on later loads via public/_headers.
+  const version = "20261023-willo";
   return `<link rel="stylesheet" href="/analytics.css?v=${version}">` +
     `<script id="lf-analytics" src="/analytics.js?v=${version}" defer data-id="${page.id}" data-path="${page.path}"` +
     ` data-title="${attr(page.title)}" data-kind="${page.kind}"></script>`;

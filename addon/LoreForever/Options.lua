@@ -20,6 +20,7 @@ Options.DEFAULTS = {
   reportCross = true,      -- a cross on the narration player that reports the recording (ClipReport.lua, LOR-232);
                            -- the player's right-click menu offers it either way (turned on once for older installs:
                            -- Log.Init's featuresOn)
+  pageSlip = true,         -- a note at the top of the screen when you find a new page (Slip.lua)
   minimap = true,          -- minimap button (turned on once for installs from before it was the default: Log.Init)
   -- The Lore button on the quest giver's window (Hooks.lua). Shift-drag moves it; where to is questButtonPos, which
   -- Options › Reset quest button forgets (Hooks.ResetQuestButton).
@@ -622,7 +623,8 @@ local function rows()
     { "storylines", L["Show storylines on quests"], L["When a quest is part of a storyline, say so under its title and at the top of its story."] },
     { "storylineChat", L["Storyline hints in chat"], L["When you turn in a quest that's part of a storyline, say in chat who to see next, with links to its recap and to what's new in the story."] },
     { "recaps", L["Storyline recaps"], L["At a storyline's turning points (before you head in for its last fight, halfway through a long one, and when it ends), the narrator retells what you've done so far. Never during a fight."] },
-    { "minimap", L["Minimap button"], L["Also show a book button on the minimap."] },
+    { "minimap", L["Minimap button"], L["Also show a book button on the minimap. It glows green while you have new pages."] },
+    { "pageSlip", L["New page notes"], L["When you find a new page of your chronicle, a short note names it at the top of the screen for a few seconds, never in combat. Click it to open the page."] },
     { "questButton", L["Lore button on the quest window"], L["A Lore button on the quest giver's window opens the quest's story. It keeps clear of other add-ons' buttons; Shift-drag it to put it somewhere else. Untick to hide it: the story is still in the Lore Forever panel."] },
     { "floatPlayer", L["Floating player"], L["While the panel is closed, show the narration player on screen when something plays or waits in your playlist. Drag it to move it."] },
     { "subtitles", L["Subtitles"], L["While a narration plays and the panel is closed, show its words at the bottom of the screen, in step with the voice. Shift-drag them to move them; Reset windows puts them back."] },

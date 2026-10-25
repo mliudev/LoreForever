@@ -49,7 +49,7 @@
     const share = e.target.closest("[data-share]");
     const set = e.target.closest("[data-set-public]");
     const keep = e.target.closest("a[data-keep-view]");
-    if (keep && /^#(journey|numbers)$/.test(location.hash)) keep.hash = location.hash;   // the same tab on the other side
+    if (keep && /^#(chronicle|journey|story|numbers)$/.test(location.hash)) keep.hash = location.hash;   // the same sheet on the other side
     if (share) {
       if (share.closest("[data-public='0']")) {
         say(share, "Only you can see this page, so a link would show others \"No profile here\". Make it public first, then share it.");

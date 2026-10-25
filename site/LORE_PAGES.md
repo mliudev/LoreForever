@@ -1,15 +1,56 @@
 # Lore pages: /lore and one page per entry (LOR-233)
 
-Every lore entry Lore Forever ships, on the site: **`/lore`** lists them all with filters (zone, kind, voice),
-search, keyboard keys and a player bar, and **`/lore/<type>/<id>`** is one crawlable page per entry. An entry with a
-narration has its script, a player per voice (1×/1.25×/1.5×, read-along) and "Report a problem with this line"; one
-without has its spoiler-free text under its section headings and no Listen box. Both have their sources, related
-pages, links out and a "Get Lore Forever" button. It's LOR-20 (lore entry pages: the narrated ones since 2026-10-04,
+Every lore entry Lore Forever ships, on the site, as one open book (below): **`/lore`** is the book with no entry open
+and **`/lore/<type>/<id>`** is one crawlable page per entry, open at that entry. An entry with a narration has its
+script, a player per voice (1×/1.25×/1.5×, read-along) and "Report a problem with this line"; one without has its
+spoiler-free text under its section headings and no Listen box. Both have their sources, "On the same road", links out
+and a "Get Lore Forever" box. It's LOR-20 (lore entry pages: the narrated ones since 2026-10-04,
 every entry the add-on ships since 2026-10-11) and the base of LOR-22 (SEO); the add-on's "Read more on the site"
 (LOR-23) can link every entry it ships.
 
+**The v2 page (LOR-809, Mike approved 2026-10-24):** an entry is a parchment page of the add-on's book (`.lp-book`
+in `lore.css`; guides share the plain `.lp` styles), with the pages on the same road (the Related list), Hear it in
+game, Look it up and the download button beside it, or under it on a phone. Listen is for everyone, no sign-in: "Play
+the whole page" plays its recordings in a row, a bar stays at the bottom while it plays, and "Next plays on" (shared
+with `/lore`'s) opens the next page in `/lore`'s order that has a recording (`nextPlayable`) with `?play=1`, which goes
+on playing there in the same voice (or waits on the bar's Play if the browser won't start sound by itself). Plays are
+counted as plain daily numbers in `site_counts` (`lore.play`, `lore.whole`, `lore.onward`; `POST /api/count/<what>`),
+since nothing recorded them before.
+
 **It's on (Mike, 2026-10-04):** the recordings are in R2 and the `lore` feature is on, so the pages are indexable, in
 the sitemap and linked from the header and from player profiles. How it was turned on, for reference (below).
+
+## The book (Mike's pick "Lore 2", 2026-10-24)
+
+Both kinds of address are the same open book on the site's leather: two parchment pages in a dark frame, and a foot
+player pinned under them (`lib/lore.js` `bookHtml`; styles `.bk` in `public/lore/lore.css`; `public/lore/lore.js`).
+
+- **Left page** (`#lore-page`, the server's): the entry (its kind and zone, Listen with its narrator, the text, a player
+  per recording, "On the same road" as chips, then sources, what's in it, "Hear it in game", Look it up and the download
+  box). On `/lore` it says what the book is and lists every zone under "Browse by zone", so every page is linked from
+  there without JavaScript. Every address keeps its own title, description, breadcrumbs, structured data and text.
+- **Right page** (built by `lore.js`): a now-playing box, Up next, and the tools: search, language, zone, kind, sort (by zone,
+  A to Z, recorded first), the download filter (LOR-437), "Playable here", "In my book" and **Play all**, which queues
+  what the list shows; then one row per page grouped by zone, each with its play button (it plays the page's first
+  recording in the narrator picked: the foot's narrator button, or `v`). The list is index.json + more.json (7,000 rows,
+  100 at a time) with R2's recordings manifest. Searching also matches the questions a page answers.
+- **Foot player**: play and pause, previous, next, how far along, the narrator, the speed, Report for what is playing, and
+  Download. A row plays on to the next row with "Next plays on" ticked (remembered), or always after Play all; the page's
+  own "Listen" plays its recordings in a row and then goes on the same way.
+- **One address, one page**: a click on a row, a chip or any lore link fetches that address's page and puts its left page,
+  title, description and trail in (`history.pushState`; back and forward work), so the click and a full load of the same
+  address show the same thing. Anything unexpected is a normal page load. The player keeps playing across the swap.
+- **Language**: the switch in the tools changes the page being read to the translated page when one exists (`/de/lore/...`);
+  a page with none shows English with "Not in <language> yet". Only native recordings play for another language: in one,
+  the rows have no play button, Play all is off and the page says there is no recording in that language yet (never the
+  English narrator under translated text; the translated pages have no recordings of their own today).
+- **Signed in**: with a profile, `GET /api/profile/found` lists the lore pages the journey names; those rows get a tick and the
+  rest dim, "In my book" filters to them, and the left page's "Is this page in your book?" line is the one from
+  `/api/profile/page`. Signed out, or without a profile, nothing changes.
+- **Phones**: the entry on top and the playlist under it; the foot stays pinned. The book keeps parchment pages in both
+  themes (the page colours are set on `.bk`, not by the site's theme), like the add-on.
+- Remembered in the browser: `lf-lore-voice`, `lf-lore-rate`, `lf-lore-auto`, `lf-lore-lang` (what the list opens next:
+  an address's own language wins).
 
 ## Turning it on
 
@@ -153,12 +194,16 @@ gets a new address; an old deployment keeps playing what it named. Range request
 
 - **Upload** (`scripts/upload-narration-r2.sh` = `uv run python -m lore.site_lore upload`): checks the checkout's
   packs give exactly the recordings `index.json` names, refuses LFS pointers, asks the site what it has
-  (`GET /api/narration/audio`), PUTs the rest (`PUT /api/narration/audio?key=&sha256=`: MP3 or Ogg Vorbis only, at
-  most 25 MB, R2 checks the SHA-256), then `POST /api/narration/manifest` lists the bucket into
+  (`GET /api/admin/narration/audio`), PUTs the rest (`PUT /api/admin/narration/audio?key=&sha256=`: MP3 or Ogg Vorbis
+  only, at most 25 MB, R2 checks the SHA-256), then `POST /api/admin/narration/manifest` lists the bucket into
   `narration/manifest.json`. Pages play only what that manifest lists (`GET /api/narration/live`, public, cached
-  5 minutes), so a page never shows a button that 404s. All of it uses the admin key (`ADMIN_KEY`, else
-  `FEEDBACK_KEY`, from `.env`), like the translator kits: no wrangler login, so a routine can run it. Nothing deletes
-  old recordings (cheap to keep; remove them by hand if ever needed).
+  5 minutes), so a page never shows a button that 404s. The upload routes sit under `/api/admin/` so Cloudflare Access
+  covers them (LOR-493): the call sends the service token (`CF_ACCESS_CLIENT_ID`, `CF_ACCESS_CLIENT_SECRET`, from
+  `.env`) and `ADMIN_KEY` as the Bearer key. The routes accept a verified Access service token or `ADMIN_KEY`, never
+  `FEEDBACK_KEY` (site/README.md, "Routes that verify the token themselves"). No wrangler
+  login, so a routine can run it. The old `/api/narration/audio` and `/manifest` answer 410 Gone and name the new
+  address; until the new route is deployed (it answers 404) the script falls back to the old one and says so. Nothing
+  deletes old recordings (cheap to keep; remove them by hand if ever needed).
 - **Previews** have none in their own bucket: they ask production's manifest and their `/audio/clip/` redirects
   (302) to production's.
 - **Why not a copy under `site/public`:** Pages serves from git and can't use LFS, so ~1 GB of audio (still ~300 MB
@@ -189,6 +234,30 @@ them after the lore pages' recordings (`site_packs upload`, which fetches a reco
 has only its pointer), and a page shows a ▶ only for what R2's manifest lists. Each example is a recording that reads
 today's text, never a spoiler; the preferences are `EXAMPLES` in site_packs.py.
 
+## Other languages (LOR-809)
+
+`/de/lore/zone/elwynn`: a lore page in one of the add-on's languages (de, es, fr, it, pt-br, ru, uk, zh), at the English
+address with the language in front, so the language switch only swaps the first segment. A page is translated when its
+translation (`data/i18n/<locale>/lore/`) is current, the same `src_hash` check the language packs use, and has the summary
+and every spoiler-free section; thin pages aren't translated. It's text only: no recordings (English audio under German
+text is the wrong accent).
+
+- **Built and kept in R2, not Pages or git:** about 36,000 pages, more than Pages' 20,000-file cap. `pipeline/lore/
+  site_i18n.py` builds them from main in the English page's shape (`e/*.json`) plus `lang` and `en`, and uploads what
+  changed to the STUDIO bucket under `lore-i18n/<seg>/<type>/<id>.json` through `functions/api/admin/lore-i18n.js` (ADMIN_KEY only, behind Cloudflare Access; scripts send the service token):
+  the pages first, then `lore-i18n/index.json` (the languages, and each English page's languages as a bitmask), then
+  deletes what's gone, so the index never names a page R2 lacks. `scripts/site-lore-i18n.sh` runs build, upload and
+  check from origin/main in its own sparse checkout; release.sh and post-release.sh start it in the background after
+  each site-live push (log: `~/.cache/lore-forever/site-lore-i18n.log`). There's no Pages build step to hang it on.
+- **Served by** `functions/[lang]/lore/[type]/[id].js` with the same `entryPage` as English: only the loader differs.
+  `lang` gives the page's labels (`lib/lore-strings.js`), `<html lang>`, its canonical and the hreflang alternates (only
+  the languages that page has, plus English and x-default). Edge-cached like English, keyed on the index's etag too.
+- **A missing or stale translation** is a 302 to the English page; a segment that isn't a language is the 404 page.
+- **The switch:** "Read in" chips under the title on every page that has another language. Translated pages have no
+  "Your page" line (the profile's moments name English pages).
+- **Search:** each language's sitemap, `/<seg>/lore/sitemap.xml`, named in `public/robots.txt`, empty while the lore
+  feature is off.
+
 ## Reports
 
 "Report a problem with this line" posts to `POST /api/clip-report` (LOR-232, `site/CLIP_REPORT_API.md` from its
@@ -197,7 +266,7 @@ PR): `{clip: "<clip id>@<text hash>", voice: "<voices.json id, e.g. male-narrato
 source: "site", website: ""}` (`website` is the honeypot; the server folds `male-narrator` into
 `LoreForever_Voice_Default`, so a report from the site and one from the add-on add up). Next to the button, the
 clip's open-report count from `GET /api/clip-report/counts?clips=<ids>` (public; the reports' text stays private),
-and in `/lore`'s player bar the playing clip's. The buttons and counts show only where that endpoint answers with its
+and in the foot player the playing clip's. The buttons and counts show only where that endpoint answers with its
 JSON: until it's deployed, Pages answers with its home page (there's no 404.html) and they stay hidden, so this works
 whichever PR lands first. Reports are about a recording, so a clip without a player has no button.
 
@@ -211,11 +280,11 @@ whichever PR lands first. Reports are about a recording, so a clip without a pla
 | `lib/lore.js` | data loading, the manifest, page templates, sitemap |
 | `functions/lore/index.js`, `functions/lore/[type]/[id].js`, `functions/lore/sitemap.xml.js` | the pages |
 | `functions/audio/clip/[voice]/[file].js` | the recordings |
-| `functions/api/narration/[action].js` | `live`, `audio`, `manifest` |
-| `public/lore/lore.js`, `public/lore/lore.css` | player, read-along, keys, filters, report form |
+| `functions/api/narration/[action].js` | `live` (public); `audio`, `manifest` answer 410 |
+| `functions/api/admin/narration/[action].js` | `audio`, `manifest` (upload; Access + `ADMIN_KEY`) |
+| `public/lore/lore.js`, `public/lore/lore.css` | the book: playlist, foot player, page swaps, read-along, keys, filters, report form |
 | `public/robots.txt` | names `/lore/sitemap.xml` |
 | `tests/lore.test.mjs`, `pipeline/tests/test_site_lore.py` | tests |
 
-Keys on `/lore`: `j`/`k` move, space plays or pauses, enter opens the page, `/` searches, `s` changes the speed, `v`
-the voice. On a page: space, `j`/`k` (next or previous narration), `s`. Speed, voice and "Next plays on" are
-remembered in the browser.
+Keys (anywhere in the book): `j`/`k` move through the list, space plays or pauses, enter opens the selected page, `/`
+searches, `s` changes the speed, `v` the narrator. Speed, narrator and "Next plays on" are remembered in the browser.

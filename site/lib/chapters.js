@@ -221,9 +221,9 @@ const icon = k => `<svg class="pf-ic" viewBox="0 0 16 16" aria-hidden="true"><us
 const KIND_ICON = { places: "place", people: "people", bosses: "boss", kills: "foe", quests: "quest", taken: "taken", loot: "find",
   deaths: "death", levels: "level", pictures: "picture", books: "book", rep: "rep", mounts: "mount", battles: "battle" };
 
-// A moment in the chapter's fold: what happened, the place within the land, and one link: its lore page while the
-// lore pages are on, else its Wowhead page (LOR-263; never the wiki's search, which is a guess).
-function momentRow(m, lore) {
+// What a moment says, [verb, thing, its lore page or null]: "Reached ", "Goldshire", "/lore/subzone/goldshire".
+// lore: lib/trails.js lookups, or null for no pages. Also the lore pages' "Your page" line (functions/api/profile).
+export function momentWhat(m, lore) {
   const e = m.e;
   const what = {
     places: () => [`${e.dungeon || e.battleground ? "Entered" : "Reached"} `, e.sub || e.zone, lore && (e.sub ? lore.place(e.sub, e.zone) : lore.zone(e.zone))],
@@ -235,7 +235,31 @@ function momentRow(m, lore) {
     mounts: () => ["New mount: ", e.name], rep: () => ["", `${e.standing} with ${e.faction}`], books: () => ["Read ", e.title],
     pictures: () => ["Took a journey picture", ""], deaths: () => (e.by ? ["Slain by ", e.by, lore?.person(e.by)] : ["Died", ""]),
   }[m.k];
-  const [verb, thing, page] = what ? what() : ["", ""];
+  return what ? what() : ["", ""];
+}
+
+// A lore page's "Your page" line (LOR-809): the first moment of the journey (lib/trails.js moments, in time order) that
+// names the page at `path`, with the level the player was then: {verb: "Reached", thing: "Westfall", day: "Oct 2,
+// 2026" or "", level: 12 or null}. null when no moment names it. A place within a land reaches the land's page too:
+// Sentinel Hill, Westfall is "Reached Westfall".
+export function yourPage(list, lore, path) {
+  let level = null;
+  for (const m of list) {
+    if (m.k === "levels" && Number.isInteger(m.e.level)) level = m.e.level;
+    const [verb, thing, page] = momentWhat(m, lore);
+    if (page && page === path) return { verb: verb.trim(), thing, day: dayText(m.day), level };
+    if (m.k === "places" && m.e.sub && lore?.zone(m.e.zone) === path) {
+      return { verb: verb.trim(), thing: m.e.zone, day: dayText(m.day), level };
+    }
+  }
+  return null;
+}
+
+// A moment in the chapter's fold: what happened, the place within the land, and one link: its lore page while the
+// lore pages are on, else its Wowhead page (LOR-263; never the wiki's search, which is a guess).
+function momentRow(m, lore) {
+  const e = m.e;
+  const [verb, thing, page] = momentWhat(m, lore);
   const out = !page && m.out?.site === "Wowhead" ? m.out.url : null;
   const named = !thing ? "" : page && lore ? `<a href="${escape(page)}">${escape(thing)}</a>`
     : out ? `<a class="pf-out" href="${escape(out)}" target="_blank" rel="noopener" aria-label="${escape(`${thing} on Wowhead`)}">${escape(thing)}</a>`

@@ -11,7 +11,7 @@
 import { authorized } from "../../lib/auth.js";
 import { clean, ticked, EMAIL, senderHash } from "../../lib/form.js";
 import { currentUser, claimVoice } from "../../lib/accounts.js";
-import { loadVoices } from "../../lib/voices.js";
+import { loadVoices, page } from "../../lib/voices.js";
 import { forwardFeedback } from "../../lib/slack-feedback.js";
 import { RELEASE_VERSION, PER_DAY, setupSubmissions, sentToday, insertSubmission, notify } from "../../lib/submissions.js";
 
@@ -33,18 +33,13 @@ const escape = s => s.replace(/[&<>"']/g, c => ({ "&": "&amp;", "<": "&lt;", ">"
 
 // Without JavaScript the form posts here directly, so an error comes back as a page of its own.
 function errorPage(status, error) {
-  const html = `<!doctype html>
-<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="robots" content="noindex"><title>Not sent yet - Lore Forever</title>
-<link rel="icon" href="/img/logo.svg" type="image/svg+xml"><link rel="stylesheet" href="/style.css"></head>
-<body><header class="top"><div class="wrap"><span class="crumb"><a href="/">Lore Forever</a> &rsaquo;
-<a href="/voices/studio">Record your voice</a> &rsaquo; Send your recordings</span></div></header>
-<main class="wrap fb-page"><h1>Not sent yet</h1>
+  const html = page({ title: "Not sent yet", description: "Your recordings were not sent.", path: "/voices/studio", robots: "noindex", foot: "", source: "error-page",
+    crumbs: `<a href="/voices/studio">Record your voice</a> &rsaquo; Send your recordings`,
+    body: `<h1>Not sent yet</h1>
 <div class="fb-done"><p>${escape(error)}</p>
 ${status === 401
   ? `<p><a href="/account?next=/voices/submit">Sign in or create your Lore Forever account</a>, then send the form again.</p>`
-  : `<p>Use your browser's Back button to fix it: what you typed is still there. Or <a href="/voices/submit">start over</a>.</p>`}</div>
-</main></body></html>`;
+  : `<p>Use your browser's Back button to fix it: what you typed is still there. Or <a href="/voices/submit">start over</a>.</p>`}</div>` });
   return new Response(html, { status, headers: { "Content-Type": "text/html; charset=utf-8", "Cache-Control": "no-store" } });
 }
 

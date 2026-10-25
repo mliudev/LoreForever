@@ -369,18 +369,23 @@ to `/account#profile` when there's none yet).
   until then `/u/<handle>` is a 404 for everyone else. Pages are `noindex`. The page shows the character, never the
   account's name (often a real name from Google), plus the links from the account's "Your name and links". Delete my
   profile removes it; Delete my account removes it too (`profiles` is in `SETUP` and `USER_DATA`).
-- **The page** (`functions/u/[handle].js`, templates in `lib/profiles.js`), built around telling the journey (Mike,
-  10/11: it had become a wall of separate features, and timeline clicks jumped to a map view): the character's head
-  (level, race, class, faction, realm, favorite spec, where they were last seen, Listen and Share, and a line of
-  counts), then two tabs, **The journey** and **By the numbers** (`#journey`, `#numbers`; switched in place by
-  `public/js/journey.js`, both shown one after the other without it), then a "Make your own" box (Download for
-  Windows, Make your profile) for visitors. OG and Twitter tags for link previews.
-  - *The journey:* the story, then the journey in chapters (below), beside the road chart. On a wide screen the chart
-    stays in view next to the reading and follows the chapter being read; narrower, it comes after the story and each
-    chapter has its own small chart. Nothing on it switches to another view or page: a land or a chapter number on the
-    chart scrolls to its chapter, and the only links out are names (their lore page while the `lore` feature is on,
-    else their Wowhead page, marked ↗ and in a new tab) inside a chapter's folded moments.
-  - *By the numbers:* the record's totals and the journey stats' tiles, the lines told for fun, and every list: where
+- **The page** (`functions/u/[handle].js`, templates in `lib/profiles.js`), the add-on's book on the site (the revamp
+  "The Chronicle", Mike approved 2026-10-24; `public/chronicle.css` has the parchment sheet, shared with the lore pages
+  and the home page, and `public/profile.css` fits the profile's own pieces onto it): one long page of sheets. The
+  bookplate (character, level, race, class, faction, realm, favorite spec, where they were last seen, Listen and Share, and
+  the counts at a glance), bookmarks to the sheets (`#chronicle`, `#journey`, `#story`, `#numbers`: plain links, with
+  `public/js/journey.js` marking the one being read and keeping them under the visitor-view bar), then a "Make your own"
+  box (Download for Windows, Make your profile) for visitors. OG and Twitter tags for link previews.
+  - *The Chronicle:* the pages they have found in the add-on's Found tab, a row per zone with its count and a meter,
+    from the record's "Your chronicle" lines (`lib/journey.js` chronicleLine). The record carries counts only, never the
+    names of pages, so nothing here can spoil one; a record without it (an add-on before v2) has no such sheet and no
+    bookmark to it.
+  - *The Road:* the journey in chapters (below), beside the road chart. On a wide screen the chart stays in view next
+    to the reading and follows the chapter being read; narrower, each chapter has its own small chart. Nothing on it
+    switches to another view or page: a land or a chapter number on the chart scrolls to its chapter, and the only links
+    out are names (their lore page while the `lore` feature is on, else their Wowhead page, marked ↗ and in a new tab)
+    inside a chapter's folded moments.
+  - *Their story*, then *By the numbers:* the journey stats' tiles, the lines told for fun, and every list: where
     the steps and the time went, foes by kind, patrons, bosses, dungeons, notable kills, most fought, best finds,
     mounts, professions, reputation and books.
 - **Share and View as a visitor (LOR-150, LOR-302):** every profile has a **Share** button in its head
@@ -1795,8 +1800,19 @@ version) count nowhere and are named on their own.
 
   | Where | Names | Used by |
   | --- | --- | --- |
-  | The PC's repo `.env` (or the environment) | `CF_ACCESS_CLIENT_ID`, `CF_ACCESS_CLIENT_SECRET` | `pipeline/lore` (`miss_loop`, `contrib`, `kit`, `clipreports`, `voicepack`; helper `lore/cf_access.py`), `scripts/pay-day.mjs`, `scripts/feedback-setup.mjs` (helper `scripts/cf-access.mjs`), `scripts/upload-willo-preview.sh` |
+  | The PC's repo `.env` (or the environment) | `CF_ACCESS_CLIENT_ID`, `CF_ACCESS_CLIENT_SECRET` | `pipeline/lore` (`miss_loop`, `contrib`, `kit`, `clipreports`, `voicepack`; helper `lore/cf_access.py`), `scripts/pay-day.mjs`, `scripts/feedback-setup.mjs` (helper `scripts/cf-access.mjs`), `scripts/upload-willo-preview.sh`, `scripts/upload-narration-r2.sh` (`site_lore`, `site_packs`: `/api/admin/narration/`, `ADMIN_KEY` only) |
   | The dashboard Worker's secrets | `CF_ACCESS_CLIENT_ID`, `CF_ACCESS_CLIENT_SECRET` | `dashboard/src/product.mjs`, the server-side call to the product site (browsers never get them) |
+
+  **Routes that verify the token themselves** (`/api/admin/narration/`, the upload API): the site does not trust that a
+  request came through Access. It checks the signed `Cf-Access-Jwt-Assertion` header (`accessService` in `lib/auth.js`,
+  jose, keys from `<ACCESS_ISSUER>/cdn-cgi/access/certs`) and accepts only a service identity (no email, empty `sub`)
+  whose `common_name` is in `ACCESS_SCRIPT_TOKENS`. Three plain Pages variables (not secrets): `ACCESS_ISSUER`
+  (`https://<team>.cloudflareaccess.com`), `ACCESS_AUD` (the Access application's audience tag) and
+  `ACCESS_SCRIPT_TOKENS` (comma list of service-token client IDs, e.g. the `lore-admin-automation` one). With any of
+  them missing the token path answers 503, never open; `ADMIN_KEY` (Mike's browser, `wrangler pages dev`) still works,
+  `FEEDBACK_KEY` never does.
+  jose is vendored (`lib/vendor/jose.js`): the Pages project has no build command, so it never runs `npm install`, and
+  an npm dependency would compile but fail at runtime. Never add one without giving Pages a build command first.
 
   The admin pages in the browser (`public/admin*.js`) send no token: a signed-in admin's browser carries the Access
   session cookie on same-origin requests by itself (their `fetch` calls use the default credentials), so the app that

@@ -19,10 +19,13 @@ test("every language on /translate has a kit to start from, and none is listed t
 });
 
 test("a language nobody has started says so, with its progress, and links to the dashboard", () => {
-  const html = languageCard(byLocale.nlNL, 3, [], null);
+  // Dutch is no longer unstarted once translators land edits, so build the unstarted state from its real totals.
+  const [, strings] = byLocale.nlNL.coverage.strings, [, ui] = byLocale.nlNL.coverage.ui, [, total] = byLocale.nlNL.coverage.entries;
+  const unstarted = { ...byLocale.nlNL, coverage: { percent: 0, strings: [0, strings], ui: [0, ui], entries: [0, total] } };
+  const html = languageCard(unstarted, 3, [], null);
   assert.match(html, /new language/i);
   // The total follows the English catalog, so read it from the data rather than pinning a count that grows.
-  assert.ok(html.includes(byLocale.nlNL.coverage.entries[1].toLocaleString("en-US")), html);
+  assert.ok(html.includes(total.toLocaleString("en-US")), html);
   assert.match(html, /aria-valuenow="0"/);
   assert.match(html, /href="\/translate\/dashboard\?lang=nlNL"/);
   assert.ok(html.includes(byLocale.nlNL.name), "the language's own name");

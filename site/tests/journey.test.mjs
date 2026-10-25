@@ -94,14 +94,27 @@ test("journey stats: the add-on's own records read the same in every language", 
     [0, 106, 3, 0, null, []]);
 });
 
+// The chronicle (v2): the pages found in each zone, as the add-on's record prints them (make_fixtures.py CHRONICLE).
+const CHRONICLE = { pages: 85, heard: 29, zones: [{ zone: "Teldrassil", found: 48, total: 120, heard: 20 },
+  { zone: "Darkshore", found: 31, total: 140, heard: 9 }, { zone: "Ashenvale", found: 6, total: 180, heard: 0 }] };
+
+test("the chronicle: the add-on's own records read its pages by zone in every language", { skip: !hasFixtures }, () => {
+  for (const file of ["en.txt", "en-cut.txt", "de.txt", "fr.txt", "es.txt", "pt.txt"]) {
+    assert.deepEqual(parseRecord(fixture(file)).chronicle, CHRONICLE, file);
+  }
+  assert.equal(parseRecord(fixture("en-midlife.txt")).chronicle, null, "a record without one has none");
+});
+
 test("journey stats: a record from an add-on before them still reads in full, with none", { skip: !existsSync(FIXTURES + "en-0.8.txt") }, () => {
   const old = parseRecord(fixture("en-0.8.txt"));
   assert.equal(old.stats, null);
   if (!hasFixtures) return;
   const now = parseRecord(fixture("en.txt"));
-  const { stats, ...rest } = now;
+  const { stats, chronicle, ...rest } = now;   // (and the chronicle, v2)
   const deaths = rest.deaths.map(({ cause, ...d }) => d);   // LOR-262 says how one happened
-  assert.deepEqual({ ...rest, deaths, stats: null }, old, "everything else is the same as before");
+  const { chronicle: none, ...before } = old;
+  assert.equal(none, null);
+  assert.deepEqual({ ...rest, deaths, stats: null }, before, "everything else is the same as before");
   assert.deepEqual(now.deaths.map(d => d.cause ?? null), [null, "drown", null]);
   assert.equal(parseRecord(RECORD).stats, null);
 });

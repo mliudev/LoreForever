@@ -136,16 +136,20 @@ export const READINGS_FROM = "hero";
 // pass. At about $0.0012 an answer on Flash-Lite and $0.05 a look-up, a maxed Hero or Champion month stays under its
 // text cap; Legend's answers on 3.6 Flash (smarter: about $0.0035 each, twice that from 2027) reach it after about
 // 2,050 answers (1,040 from 2027) of its 4,000; players ask about 11 a day they play.
-// longMemory: chat memory keeps twice as much. smarter: her answers, pictures too, on the smarter model
-// (lib/companion-answers.js SMART_MODEL, Gemini 3.6 Flash; Mike, 10/19: "yes to both": Legend's only). stronger:
-// answers and character replies on the stronger model (RESEARCH_MODEL); no plan has it: 3.8 Flash costs what 3.6 Flash
-// does but is over a second slower to her first word (the model bake-off, 10/19).
+// longMemory: chat memory keeps twice as much. smarter: her answers, pictures too, on the smarter model's slot
+// (lib/companion-answers.js SMART_MODEL; Mike, 10/19: "yes to both": Legend's only). Since 10/24 every plan's answers
+// are on DeepSeek and the slot is Flash-Lite, as everyone's fallback. smarter is also her smarter mind (Mike, 10/24: "go
+// with deepseek thinking"): every hard question (gear, rotations, talents, a choice to weigh) thought through first
+// (lib/companion-answers.js MULL_RULE), about $0.003 more each. thinkingPerMonth: a taste of it on a plan without it,
+// that many hard questions a plan month, a quiet guard like
+// lookupsPerMonth; 0 or none for no taste. Hero's is 0 until Mike picks it (the PM's pick was 5, about 1 cent a Hero
+// player; the Architect, 10/24: a pricing call of Mike's): turning it on is this one number.
 const caps = net => ({ net, costCapMicro: Math.floor(net / 2) * 10_000, totalCapMicro: net * 10_000 });
 export const PLANS = {
   free: { id: "free", name: "Adventurer", monthly: 0, answersPerDay: 30, answersPerMonth: POOL.free,
           lookupsPerMonth: 0, costCapMicro: 0 },
   hero: { id: "hero", name: "Hero", monthly: 499, answersPerDay: 100, answersPerMonth: POOL.hero,
-          lookupsPerMonth: 10, ...caps(437) },
+          lookupsPerMonth: 10, thinkingPerMonth: 0, ...caps(437) },
   champion: { id: "champion", name: "Champion", monthly: 999, answersPerDay: 200, answersPerMonth: POOL.champion,
               lookupsPerMonth: 20, longMemory: true, ...caps(905) },
   legend: { id: "legend", name: "Legend", monthly: 1999, answersPerDay: 300, answersPerMonth: POOL.legend,
@@ -237,7 +241,7 @@ const FIRST = {
   hero: readings => readings ? `${NAME}'s finest voice on every answer, and ${READS}`
     : `${NAME}'s finest voice on every answer you ask out loud`,
   champion: `Characters answer in their own voices, up to 8 hours a day`,
-  legend: `${NAME}'s richer voice and smarter mind`,
+  legend: `${NAME}'s richer voice, and a smarter mind for hard questions like gear, rotations and talents`,
 };
 const NEW_FIRST = "New features first";
 // azeroth: the Voices of Azeroth are in the picker (the site feature "azeroth", or the asking companion has them);
@@ -407,7 +411,8 @@ export function planCompare(allowed = {}, { azeroth = false, readings = false } 
     row("Checks the web when the lore runs out", id => yes(features(id).research)),
     row(`${NAME}'s style`, style),
     row("Longer memory", id => yes(Boolean(PLANS[id].longMemory))),
-    row(`${NAME}'s smarter mind`, id => yes(Boolean(PLANS[id].smarter))),
+    // Hero's taste is a quiet few (PLANS thinkingPerMonth), so its row shows only Legend's.
+    row(`${NAME}'s smarter mind for hard questions`, id => yes(Boolean(PLANS[id].smarter))),
     row("Rewrite NPCs as your own tale", id => yes((allowed[id] || []).includes("tales"))),
     row("New features first", id => yes(id === "legend")),
   ];
@@ -867,6 +872,7 @@ export async function starterClaim(env, userId) {
 // (changePlan). paidBefore: a paying plan whose next charge was moved to the launch (payDay), so a Stripe trial
 // ("trialing") until renews, though it's paid for.
 const voiceOf = id => ({ voice: { ...PLAN_VOICE[id] } });
+const thinkingOf = p => p.thinkingPerMonth ? { thinkingPerMonth: p.thinkingPerMonth } : {};
 export async function planFor(env, userId, now = new Date()) {
   // Plans switched off: everyone has the free plan with the answers from before plans, whatever is stored, and Willo
   // talks in its own voice on the PC as before.
@@ -896,7 +902,8 @@ export async function planFor(env, userId, now = new Date()) {
              lookupsPerMonth: plan.lookupsPerMonth, costCapMicro: plan.costCapMicro, totalCapMicro: plan.totalCapMicro,
              ...voiceOf(plan.id), status: row.status, renews: row.current_period_end,
              cancelAtPeriodEnd: Boolean(row.cancel_at_period_end), ...next, portal,
-             ...(row.gap_from === "active" ? { paidBefore: true } : {}), ...(plan.smarter ? { smarter: true } : {}) };
+             ...(row.gap_from === "active" ? { paidBefore: true } : {}), ...(plan.smarter ? { smarter: true } : {}),
+             ...thinkingOf(plan) };
   }
   // The beta's free Hero month: looked for while one can still be running (until the launch). A read that failed ahead
   // is read again here, so its error is this one's, as before.
@@ -910,7 +917,7 @@ export async function planFor(env, userId, now = new Date()) {
     const hero = PLANS.hero;
     return { id: hero.id, name: hero.name, answersPerDay: hero.answersPerDay, answersPerMonth: hero.answersPerMonth,
              lookupsPerMonth: hero.lookupsPerMonth, costCapMicro: hero.costCapMicro, totalCapMicro: hero.totalCapMicro,
-             ...voiceOf(hero.id), launch: true, since: iso(freeMonth.start), until: iso(freeMonth.end),
+             ...voiceOf(hero.id), ...thinkingOf(hero), launch: true, since: iso(freeMonth.start), until: iso(freeMonth.end),
              ends: pacificDay(freeMonth.end), status: null, renews: null, cancelAtPeriodEnd: false, portal };
   }
   // A free month for the friends they brought: that plan, on us like the beta's month (launch), with reward: true.
@@ -921,7 +928,7 @@ export async function planFor(env, userId, now = new Date()) {
              lookupsPerMonth: p.lookupsPerMonth, costCapMicro: p.costCapMicro, totalCapMicro: p.totalCapMicro,
              ...voiceOf(p.id), launch: true, reward: true, since: grant.starts, until: grant.ends,
              ends: pacificDay(Date.parse(grant.ends)), status: null, renews: null, cancelAtPeriodEnd: false, portal,
-             ...(p.smarter ? { smarter: true } : {}) };
+             ...(p.smarter ? { smarter: true } : {}), ...thinkingOf(p) };
   }
   const brake = softStep(pool);
   const free = PLANS.free;

@@ -138,6 +138,14 @@ test("the develop site rehearses either door with ?door= and ?split=", async () 
   assert.equal(lore.res.headers.get("Location"), "https://develop.lore-forever.pages.dev/downloads?door=lore");
 });
 
+test("the develop site shows the split by default, like production; ?split=off is the page before it", async () => {
+  const dev = "https://develop.lore-forever.pages.dev/";
+  const split = await (await get(dev)).text();
+  assert.match(split, /href="\/go\/willo\?next=/, "the Meet Willo link, as on production");
+  assert.doesNotMatch(split, /\$\d+\.\d\d/, "no prices");
+  assert.match(await (await get(dev, { cookie: "lf_split=off" })).text(), /\$4\.99/);
+});
+
 test("each door lists only its own pages for search engines", async () => {
   env.WILLO_SPLIT = "on";
   const lore = await (await get(`https://${LORE}/sitemap.xml`)).text();

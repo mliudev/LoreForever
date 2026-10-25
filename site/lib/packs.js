@@ -269,7 +269,13 @@ export function extrasSection(data, { voices = [], langs = [], sizes = null, liv
       </details>
     </article>`;
   });
-  return tiles.join("\n") + languagesTile(data, shown, langs, sizes, live, ids);
+  return tiles.join("\n");
+}
+
+// /downloads: "Your language", on the add-on's page of the spread (the pick of a language and its packs).
+export function languageSection(data, { voices = [], langs = [], sizes = null, live = new Set() } = {}) {
+  if (!data?.groups || !data.packs) return "";
+  return languagesTile(data, visiblePacks(data, voices, langs), langs, sizes, live, { n: 2000 });
 }
 
 // "Your language": every pack in a language other than English, a panel per language (text first, then narrators,

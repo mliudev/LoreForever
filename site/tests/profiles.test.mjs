@@ -2,6 +2,7 @@
 // D1 is node:sqlite (helpers.mjs); Gemini is a stub on globalThis.fetch. Run: node --test site/tests/
 import { test, beforeEach } from "node:test";
 import assert from "node:assert/strict";
+import { readFileSync } from "node:fs";
 import { onRequest as profileApi } from "../functions/api/profile/[action].js";
 import { onRequestGet as profileGet } from "../functions/u/[handle].js";
 
@@ -135,6 +136,29 @@ test("a public profile: everything on the page, the account's links but never it
   // Private again: gone for visitors.
   await api("settings", { cookie: me.cookie, body: { public: false } });
   assert.equal((await view("aelric")).status, 404);
+});
+
+test("every bookmark on a profile leads to a sheet that is there, and the Chronicle shows only when the add-on sent one", async () => {
+  const me = await signIn("aelric");
+  const bookmarks = html => {
+    const nav = /<nav class="ch-marks[^>]*>([\s\S]*?)<\/nav>/.exec(html)?.[1] || "";
+    return [...nav.matchAll(/href="#([\w-]+)"/g)].map(m => m[1]);
+  };
+  // A record from before the add-on's Found tab has no chronicle, and so no bookmark that would lead nowhere.
+  await api("import", { cookie: me.cookie, body: { record: RECORD } });
+  await api("settings", { cookie: me.cookie, body: { public: true } });
+  const plain = (await view("aelric")).html;
+  assert.ok(!plain.includes('id="chronicle"'));
+  assert.ok(bookmarks(plain).length > 1 && !bookmarks(plain).includes("chronicle"));
+  for (const id of bookmarks(plain)) assert.ok(plain.includes(`id="${id}"`), `no sheet for #${id}`);
+  // One from the add-on with its Found tab: the zones' counts, and a bookmark to them.
+  const record = readFileSync(new URL("./fixtures/journey/en.txt", import.meta.url), "utf8");
+  await api("import", { cookie: me.cookie, body: { record } });
+  const full = (await view("aelric")).html;
+  assert.ok(bookmarks(full).includes("chronicle"));
+  for (const id of bookmarks(full)) assert.ok(full.includes(`id="${id}"`), `no sheet for #${id}`);
+  const chronicle = full.slice(full.indexOf('id="chronicle"'));
+  assert.match(chronicle.slice(0, chronicle.indexOf("</section>")), /Teldrassil[\s\S]*48 of 120 pages/);
 });
 
 test("signed in, a profile page's header shows you so from the start, and the page is private to you", async () => {
@@ -397,6 +421,45 @@ test("bad pastes and bad requests get plain answers", async () => {
   assert.equal((await api("me", { method: "GET" })).status, 401);
   assert.equal((await api("me", { cookie: me.cookie, method: "GET" })).body.profile, null);
   assert.equal((await view("<script>")).status, 404);
+});
+
+test("a lore page's Your page line names when your journey first reached it, and only yours (LOR-809)", async () => {
+  const links = JSON.parse(readFileSync(new URL("../public/lore/data/links.json", import.meta.url), "utf8"));
+  const withLinks = { ...env, ASSETS: assets({ "/lore/data/links.json": links }) };
+  const page = async (path, cookie) => {
+    const headers = new Headers(cookie ? { Cookie: cookie } : {});
+    const res = await profileApi({ request: new Request(`${ORIGIN}/api/profile/page?p=${encodeURIComponent(path)}`, { headers }),
+      env: withLinks, params: { action: "page" } });
+    return { status: res.status, body: await res.json() };
+  };
+  const me = await signIn("aelric");
+  assert.equal((await page("/lore/subzone/shadowglen")).status, 401);
+  assert.equal((await page("/lore/subzone/shadowglen", me.cookie)).body.profile, false);
+  await api("import", { cookie: me.cookie, body: { record: RECORD } });
+  const found = (await page("/lore/subzone/shadowglen", me.cookie)).body;
+  assert.equal(found.name, "Aelric");
+  assert.equal(found.page.thing, "Shadowglen");
+  assert.match(found.page.verb, /reached/i);
+  assert.match(found.page.day, /Oct 1\b/);
+  const land = (await page("/lore/zone/teldrassil", me.cookie)).body.page;
+  assert.equal(land?.thing, "Teldrassil", "reaching Shadowglen reaches Teldrassil's page too");
+  assert.match(land.day, /Oct 1\b/);
+  assert.equal((await page("/lore/zone/westfall", me.cookie)).body.page, null, "never been to Westfall");
+  assert.equal((await page("https://evil.example/", me.cookie)).status, 400);
+  // The same moments all at once, for the playlist on /lore: yours only, and the land with the place.
+  const all = async cookie => {
+    const res = await profileApi({ request: new Request(`${ORIGIN}/api/profile/found`, { headers: new Headers(cookie ? { Cookie: cookie } : {}) }),
+      env: withLinks, params: { action: "found" } });
+    return { status: res.status, body: await res.json() };
+  };
+  assert.equal((await all()).status, 401);
+  const list = (await all(me.cookie)).body;
+  assert.equal(list.name, "Aelric");
+  for (const p of ["/lore/subzone/shadowglen", "/lore/zone/teldrassil"]) assert.ok(list.pages.includes(p), p);
+  assert.ok(!list.pages.includes("/lore/zone/westfall"), "never been to Westfall");
+  const other = await signIn("brakka");
+  assert.equal((await all(other.cookie)).body.profile, false, "another account sees nothing of Aelric's");
+  assert.equal((await page("/lore/subzone/shadowglen", other.cookie)).body.profile, false, "another account sees nothing of Aelric's");
 });
 
 test("a land on the chart leads to the chapter it was first reached in, on the same page (Mike 10/11)", async () => {

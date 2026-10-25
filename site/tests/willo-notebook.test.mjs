@@ -752,6 +752,23 @@ test("reminders: set by place, kept on this character's page, said once in her l
   } finally { delete env.SITE_FEATURES; }
 });
 
+test("a place the library has no recording of yet (more.json only) can be named in a reminder", async () => {
+  const pages = file => JSON.parse(readFileSync(new URL(`../public/lore/data/${file}`, import.meta.url))).pages;
+  const recorded = new Set(pages("index.json").map(p => placeKey(p.n)));
+  const place = pages("more.json").find(p => ["zone", "subzone", "dungeon"].includes(p.k) && !recorded.has(placeKey(p.n))
+    && /^[\p{L} ']+$/u.test(p.n))?.n;
+  assert.ok(place, "more.json has a place index.json doesn't");
+  const { user, token } = await linked();
+  await hero(user);
+  env.SITE_FEATURES = "plans";
+  try {
+    reply = () => called("notebook_remind", { answer: "Noted.", text: "buy a bag", when: "place", place });
+    const out = await ask(token, `remind me to buy a bag in ${place}`, { notebook: { character: HURIN } });
+    assert.doesNotMatch(out.answer, /don't know a place/i);
+    assert.equal(reminders(user)[0].place, place);
+  } finally { delete env.SITE_FEATURES; }
+});
+
 test("a reminder's words are said to them: my, me and I become your, you", () => {
   for (const [said, heard] of [["sell my cloth", "sell your cloth"], ["My pet needs food", "Your pet needs food"],
     ["check if I have enough gold", "check if you have enough gold"], ["I'm due at the bank", "you're due at the bank"], ["I need to log off", "you need to log off"],

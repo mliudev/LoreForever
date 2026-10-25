@@ -54,7 +54,8 @@ const SETUP = [
   "CREATE TABLE IF NOT EXISTS answer_log_salt (id INTEGER PRIMARY KEY CHECK (id = 1), salt TEXT NOT NULL)",
 ];
 // Columns added since the table was first made (10/18, the feedback loop): added once, where missing.
-const ADDED = ["ref TEXT", "signals TEXT", "topic TEXT", "ctx TEXT", "say TEXT", "plan TEXT"];
+// colo and first_ms (10/24): the Cloudflare data centre that served it, and when her first words went out (ms).
+const ADDED = ["ref TEXT", "signals TEXT", "topic TEXT", "ctx TEXT", "say TEXT", "plan TEXT", "colo TEXT", "first_ms INTEGER"];
 const AFTER_ADDED = ["CREATE INDEX IF NOT EXISTS answer_log_ref ON answer_log (ref)"];
 export const OUTCOMES = ["answered", "unverified", "failed"];
 
@@ -200,8 +201,8 @@ export async function logAnswer(env, userId, entry = {}, { names = [], now = new
     const list = v => (Array.isArray(v) && v.length ? v : null);
     await env.DB.batch([
       env.DB.prepare("INSERT INTO answer_log (created, player, operation, npc, spoken, zone, sub, question, answer, " +
-        "action, model, model_ms, total_ms, looked_up, lookups, facts, feedback, outcome, error, ref, topic, ctx, say, plan) " +
-        "VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)").bind(now.toISOString(),
+        "action, model, model_ms, total_ms, looked_up, lookups, facts, feedback, outcome, error, ref, topic, ctx, say, plan, " +
+        "colo, first_ms) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)").bind(now.toISOString(),
         key, entry.operation === "character" ? "character" : "answer", clip(entry.npc, 80),
         entry.spoken ? 1 : 0, clip(entry.zone, 80), clip(entry.sub, 80), question,
         clip(scrubNames(entry.answer, names), 2000), clip(entry.action, 40), clip(entry.model, 60),
@@ -211,7 +212,8 @@ export async function logAnswer(env, userId, entry = {}, { names = [], now = new
         clip(entry.feedback, 16),
         entry.outcome, clip(entry.error, 200), ANSWER_ID.test(entry.ref || "") ? entry.ref : null,
         topicOf(entry.question, { operation: entry.operation, lookups: entry.lookups, action: entry.action }),
-        ctxOf(entry.ctx, names), clip(scrubNames(entry.say, names), 1000), clip(entry.plan, 24)),
+        ctxOf(entry.ctx, names), clip(scrubNames(entry.say, names), 1000), clip(entry.plan, 24),
+        /^[A-Z]{3}$/.test(entry.colo || "") ? entry.colo : null, whole(entry.first_ms)),
       env.DB.prepare("DELETE FROM answer_log WHERE created < ?").bind(cutoff(now)),
     ]);
     return true;
@@ -300,8 +302,8 @@ export async function answerLogReport(env, { since = null, after = 0, limit = 20
       "FROM answer_log WHERE created >= ?").bind(from).first(),
     group("outcome"), group("operation"), group("looked_up"), group("model"), group("plan"),
     env.DB.prepare("SELECT id, created, player, operation, npc, spoken, zone, sub, question, answer, action, model, " +
-      "model_ms, total_ms, looked_up, lookups, facts, feedback, outcome, error, ref, signals, topic, ctx, say, plan FROM answer_log " +
-      "WHERE created >= ? AND id > ? ORDER BY id LIMIT ?").bind(from, start, n + 1).all(),
+      "model_ms, total_ms, looked_up, lookups, facts, feedback, outcome, error, ref, signals, topic, ctx, say, plan, colo, " +
+      "first_ms FROM answer_log WHERE created >= ? AND id > ? ORDER BY id LIMIT ?").bind(from, start, n + 1).all(),
   ]);
   const page = rows.results.slice(0, n);
   return { keep_days: KEEP_DAYS, since: from, total: totals?.total || 0, players: totals?.players || 0, outcomes,

@@ -1,42 +1,56 @@
 /* The guides editor (/guides/edit, editor.js). Wider than the site's reading column: the form and the preview side by
-   side on a desktop, stacked on a phone. */
-.gde { width: min(1400px, calc(100vw - 32px)); position: relative; left: 50%; transform: translateX(-50%); }
+   side on a desktop, stacked on a phone. A page of the book (2026-10-24, chronicle.css's .ch-sheet: the old colour names
+   below are ink on parchment inside it); the fields are slips of lighter paper, the buttons the book's wax and outline. */
+.gde { width: min(1400px, calc(100vw - 32px)); position: relative; left: 50%; transform: translateX(-50%); margin-block: 28px 64px; padding: 32px 36px 40px; }
 .gde h1 { margin-bottom: 8px; }
 .gde-msg { margin: 0 0 16px; }
-.gde-msg.gde-error, .gde-state { color: var(--gold-soft); }
-.gde-muted, .gde-hint, .gde-count { color: var(--muted); font-size: 0.92rem; }
+.gde-msg.gde-error { color: #8f1d10; font-weight: 600; }
+.gde-state { color: var(--pg-note); }
+.gde-muted, .gde-hint, .gde-count { color: var(--pg-muted); font-size: 0.92rem; }
 .gde-top { display: flex; flex-wrap: wrap; gap: 10px 16px; align-items: center; }
-.gde-btn { display: inline-block; padding: 7px 14px; border: 1px solid var(--panel-line); border-radius: 6px; background: rgba(255, 255, 255, 0.06);
-  color: var(--text); font: inherit; text-decoration: none; cursor: pointer; }
-.gde-btn:hover { border-color: var(--gold-soft); color: var(--text); }
-.gde-primary { border-color: var(--gold-soft); background: rgba(255, 209, 0, 0.14); color: var(--gold); }
-.gde-danger { border-color: #8a3b30; color: #f0a596; }
+.gde-btn { display: inline-flex; align-items: center; min-height: 36px; padding: 0 14px; border: 1px solid var(--pg-edge); border-radius: 4px; background: transparent;
+  color: var(--pg-ink); font: 700 0.95rem/1 var(--h-body, sans-serif); text-decoration: none; cursor: pointer; }
+.gde-btn:hover { border-color: var(--pg-title); background: #cc9e3333; color: var(--pg-ink); }
+.gde-btn:focus-visible { outline: 2px solid var(--pg-title); outline-offset: 2px; }
+.gde-btn:disabled { opacity: 0.6; cursor: wait; }
+.gde .gde-primary, .gde .gde-primary:hover { border-color: #3d0f07; background: var(--pg-title); color: var(--pg-on); }
+.gde .gde-primary:hover { background: var(--pg-hover); }
+.gde-danger { border-color: #8f1d10; color: #8f1d10; }
+.gde-danger:hover { border-color: #8f1d10; background: #8f1d101a; color: #8f1d10; }
 .gde-link { padding: 0; border: 0; background: none; color: var(--link); font: inherit; text-decoration: underline; cursor: pointer; }
 .gde-table { width: 100%; border-collapse: collapse; margin-top: 12px; }
-.gde-table th, .gde-table td { padding: 8px 10px; border-bottom: 1px solid var(--line); text-align: left; vertical-align: top; }
-.gde-table th { color: var(--muted); font-weight: 500; }
-.gde-pill { padding: 2px 8px; border-radius: 10px; font-size: 0.85rem; }
-.gde-pill.draft { background: rgba(255, 255, 255, 0.08); color: var(--muted); }
-.gde-pill.live { background: rgba(255, 209, 0, 0.15); color: var(--gold); }
+.gde-table th, .gde-table td { padding: 8px 10px; border-bottom: 1px solid var(--pg-line); text-align: left; vertical-align: top; }
+.gde-table th { color: var(--pg-note); font-weight: 700; font-size: 0.82rem; letter-spacing: 0.08em; text-transform: uppercase; }
+.gde-pill { padding: 2px 9px; border-radius: 3px; font-size: 0.85rem; }
+.gde-pill.draft { background: var(--pg-chip); color: var(--pg-ink); }
+.gde-pill.live { background: var(--pg-title); color: var(--pg-on); }
 .gde-bar { position: sticky; top: 0; z-index: 2; display: flex; flex-wrap: wrap; gap: 10px 14px; align-items: center; padding: 10px 0;
-  background: var(--bg); border-bottom: 1px solid var(--line); }
+  background: var(--pg); border-bottom: 1px solid var(--pg-line); }
 .gde-cols { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); gap: 28px; margin-top: 16px; }
 @media (max-width: 960px) { .gde-cols { grid-template-columns: minmax(0, 1fr); } }
-.gde-edit label { display: block; margin: 0 0 12px; color: var(--muted); font-size: 0.92rem; }
-.gde input, .gde select, .gde textarea { box-sizing: border-box; width: 100%; margin-top: 4px; padding: 7px 9px; border: 1px solid var(--panel-line);
-  border-radius: 6px; background: rgba(0, 0, 0, 0.35); color: var(--text); font: inherit; font-size: 1rem; }
+.gde-edit label { display: block; margin: 0 0 12px; color: var(--pg-note); font-size: 0.92rem; font-weight: 600; }
+.gde input, .gde select, .gde textarea { box-sizing: border-box; width: 100%; margin-top: 4px; padding: 7px 9px; border: 1px solid var(--pg-edge);
+  border-radius: 3px; background: var(--pg-paper); color: var(--pg-ink); font: inherit; font-weight: 400; font-size: 1rem; }
 .gde-status select { width: auto; }
-.gde-slug { display: flex; align-items: baseline; gap: 2px; color: var(--muted); }
+.gde-slug { display: flex; align-items: baseline; gap: 2px; color: var(--pg-muted); font-weight: 400; }
 .gde-slug input { flex: 1; min-width: 0; }
-.gde-slug input[readonly] { border-color: transparent; background: none; color: var(--text); }
+.gde-slug input[readonly] { border-color: transparent; background: none; color: var(--pg-ink); }
 .gde-row { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 12px; }
 .gde-tools { display: flex; flex-wrap: wrap; gap: 6px; margin: 4px 0 6px; }
-.gde-tools button { padding: 4px 10px; border: 1px solid var(--panel-line); border-radius: 5px; background: rgba(255, 255, 255, 0.05);
-  color: var(--text); font: inherit; font-size: 0.92rem; cursor: pointer; }
-.gde-tools button:hover { border-color: var(--gold-soft); }
+.gde-tools button { min-height: 32px; padding: 3px 11px; border: 1px solid var(--pg-edge); border-radius: 3px; background: var(--pg-paper);
+  color: var(--pg-ink); font: 600 0.92rem var(--h-body, sans-serif); cursor: pointer; }
+.gde-tools button:hover { border-color: var(--pg-title); background: #fff3d6; }
+.gde-tools button:focus-visible { outline: 2px solid var(--pg-title); outline-offset: 1px; }
 .gde-body { min-height: 75vh; font-family: ui-monospace, SFMono-Regular, Consolas, monospace !important; font-size: 0.95rem !important; line-height: 1.55; }
-.gde-revs { margin: 12px 0; color: var(--muted); }
+.gde-revs { margin: 12px 0; color: var(--pg-muted); }
 .gde-revs li { margin: 4px 0; }
-.gde-preview { min-width: 0; padding: 0 18px 18px; border: 1px solid var(--line); border-radius: 8px; }
-.gde-preview h1 { font-size: 1.9rem; }
-.gde-label { margin: 10px 0 0; color: var(--muted); font-size: 0.85rem; text-transform: uppercase; letter-spacing: 0.06em; }
+.gde-preview { min-width: 0; padding: 0 22px 22px; border: 1px solid var(--pg-edge); border-radius: 4px; background: var(--pg-paper); }
+.bw .bw-in .gde .gde-preview h1 { font-size: 1.8rem; }
+.gde-preview .gd-text, .gde-preview .lp-text { font-family: var(--ch-read, Georgia, serif); font-size: 1.1rem; line-height: 1.7; }
+.gde-preview .lp-cta { margin-inline: 0; }
+.gde-label { margin: 10px 0 0; color: var(--pg-note); font-size: 0.82rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.1em; }
+@media (max-width: 760px) {
+  .gde { width: calc(100vw - 20px); margin-block: 14px 40px; padding: 20px 14px 28px; }
+  .gde-row { grid-template-columns: minmax(0, 1fr); }
+  .gde-preview { padding: 0 14px 16px; }
+}

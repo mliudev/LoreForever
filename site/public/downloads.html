@@ -26,9 +26,10 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Alegreya+Sans:wght@400;500;700&family=Cinzel:wght@600;700&display=swap">
-<link rel="stylesheet" href="style.css?v=20261018r">
-<link rel="stylesheet" href="/downloads.css?v=20261020a">
-<script src="/header.js" defer></script>
+<link rel="stylesheet" href="style.css?v=20261026a">
+<link rel="stylesheet" href="/chronicle.css?v=20261026a">
+<link rel="stylesheet" href="/downloads.css?v=20261026a">
+<script src="/header.js?v=20261026a" defer></script>
 <!-- Structured data: the add-on this page downloads, the same @id as the home page's (index.html). -->
 <script type="application/ld+json">
 {
@@ -55,108 +56,119 @@
 <header class="top">
   <nav class="wrap nav" aria-label="Lore Forever">
     <script>(c => { c.add("hd-wait"); try { if (JSON.parse(localStorage.getItem("lf-features")).lore === false) c.add("hd-nolore"); } catch (e) {} })(document.documentElement.classList)</script>
-    <a class="brand" href="/"><img src="/img/logo.svg" alt="" width="30" height="30"><span>Lore Forever</span></a>
+    <a class="brand" href="/"><i class="mk" aria-hidden="true">&#9670;</i> <span>Lore Forever</span></a>
     <div class="nav-links">
-      <a class="nl nl-willo" id="nav-willo" href="/willo">Willo</a>
-      <a class="nl" id="nav-download" href="/downloads">Download</a>
       <a class="nl" id="nav-lore" href="/lore">Lore</a>
       <a class="nl" id="nav-guides" href="/guides">Guides</a>
       <a class="nl" id="nav-new" href="/whats-new">What's new</a>
       <a class="nl" id="nav-community" href="/feedback">Community</a>
     </div>
-    <div class="head-actions"><a class="nl nl-pf" id="nav-profile" href="/account#profile"><svg class="nl-icon" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="8" r="4"/><path d="M4 21c0-4.4 3.6-8 8-8s8 3.6 8 8"/></svg><span class="hd-wide">Make your profile</span><span class="hd-narrow">Profile</span></a></div>
+    <div class="head-actions"><a class="nl nl-willo" id="nav-willo" href="/willo">Willo<span class="nl-out" aria-hidden="true">&#8599;</span></a><a class="nl nl-dl" id="nav-download" href="/downloads">Download</a><a class="nl btn-in" id="nav-profile" href="/account#profile">Sign in</a></div>
   </nav>
 </header>
 
-<!-- Downloads (LOR-437): one primary action, then the extras as tiles. Top: Download for Windows (Setup), CurseForge,
-     the ZIP as a small link, and "Comes with it" (dl-comes). Then "Add more" (dl-packs): a tile per extra pack with
-     lines to hear and a "Get it" fold, and "Your language" with every pack in one language. Both come from
-     public/data/packs.json through lib/packs.js; /js/packs.js plays the examples and runs the language picker.
-     Folded at the bottom: install help and every file by language and voice (dl-voices, lib/downloads.js, with
-     filters, samples, likes and one-ZIP bundles from voices-page.js). Preserve #addon, #installer, #zip, #willo, #community,
-     #curseforge, #voices (the extras), #packs, #languages, #install, #record, each voice row's anchor, and the lore
-     pages' #pack-<folder> and #packs-<tile>. In the book's gold of "The book and the wisp" (2026-10-15; style.css for
-     body class "bw", downloads.css), with Willo's step in her blue. -->
+<!-- Downloads (LOR-437; the two-page spread, 2026-10-25): one open book. The left page is the add-on: its two ways to
+     get it (Setup, CurseForge, the ZIP as a small link), "Comes with it" (dl-comes), your language (dl-language) and
+     install help folded. The right page is the voices to add: a tile per extra pack with a wax play seal and a "Get it"
+     fold (dl-packs, lib/packs.js, from public/data/packs.json), the community's narrators (dl-community), and two folds:
+     how to install an extra pack and every file by language and voice (dl-voices, lib/downloads.js, with filters, samples,
+     likes and one-ZIP bundles from voices-page.js). /js/packs.js plays the examples and runs the language picker.
+     Willo's download is not here; one Meet Willo slip under the book goes to her own site. Preserve #addon, #installer,
+     #zip, #community, #curseforge, #voices (the extras), #packs, #languages, #install, #record, each voice row's anchor,
+     and the lore pages' #pack-<folder> and #packs-<tile>. -->
 <main class="dl-page">
-  <section class="h-hero h-sky dl-top" aria-labelledby="addon-title">
-    <div class="h-wrap">
-      <div class="h-head dl-head">
-        <p class="h-eyebrow b">Free for WoW Forever</p>
-        <h1 class="dl-title" id="addon-title">Downloads</h1>
+  <!-- The one Meet Willo slip (the Willo site split: she has her own site; no download or prices here), first thing
+       under the nav (Mike, 10/24). -->
+  <!-- door-split:<div class="ch-stack ch-top"><aside class="ch-willo" aria-label="Willo"><span class="ico" aria-hidden="true">W</span><div class="txt"><p><b>Meet Willo</b></p><p>Talk to the world while you play. Her own site, her own look.</p></div>
+    <span class="go"><a class="ghost" href="/go/willo?next=%2F%3Fsrc%3Dlore-downloads">willocompanion.com<span aria-hidden="true"> &#8599;</span></a></span></aside></div>:door-split -->
+  <div class="ch-stack">
+    <!-- dl-record -->
+    <h1 class="sr-only" id="addon-title">Downloads</h1>
+    <div class="ch-sheet ch-spread dl-spread">
+      <div class="ch-page dl-left" id="addon" aria-labelledby="addon-h">
+        <p class="ch-kicker">Step 1 &middot; free forever</p>
+        <h2 class="ch-big" id="addon-h">Lore Forever add-on</h2>
+        <p class="ch-read">Every zone tells its story as you arrive. Free, no account. Windows and Mac.</p>
+        <p class="ch-acts">
+          <a class="ch-btn ch-primary dl-link" id="installer" href="/download/installer" aria-label="Download the Windows installer">Download for Windows</a>
+          <a class="ch-btn ch-ghost dl-link" id="curseforge" href="https://www.curseforge.com/wow/addons/lore-forever"
+            aria-label="Install Lore Forever with CurseForge">Get on CurseForge</a>
+        </p>
+        <p class="ch-fine dl-cta-note">Setup <span class="dl-size" data-asset="latest:LoreForever-Setup.exe">Size unavailable</span>
+          &middot; <span data-latest-version>Version unavailable</span>
+          &middot; <a class="dl-link" id="zip" href="/download/zip" aria-label="Download the Lore Forever ZIP">Manual ZIP</a>
+          <span class="dl-size" data-asset="latest:LoreForever.zip">Size unavailable</span>
+          &middot; On a Mac? Use CurseForge or the ZIP.
+          &middot; Updating the ZIP? Delete the old Lore Forever folders first.</p>
+        <!-- dl-comes -->
+        <!-- dl-language -->
+        <details class="ch-fold dl-fold" id="install-addon">
+          <summary>Install, step by step</summary>
+          <ol class="dl-addon-steps">
+            <li><strong>Windows installer:</strong> run <code>LoreForever-Setup.exe</code>. It's signed (the publisher shows as Mei Liu),
+              finds your World of Warcraft folder and installs into <code>_forever_\Interface\AddOns</code>. No admin rights needed.</li>
+            <li><strong>Zip:</strong> unzip <a class="dl-link" href="/download/zip">LoreForever.zip</a> into
+              <code>World of Warcraft\_forever_\Interface\AddOns</code> so you have <code>AddOns\LoreForever\LoreForever.toc</code>.
+              A doubled folder like <code>AddOns\LoreForever\LoreForever\</code> won't load.</li>
+            <li><strong>CurseForge app:</strong> open World of Warcraft, pick your Forever install (update the app or add
+              your <code>_forever_</code> folder if it isn't listed), search for <strong>Lore Forever</strong> and click Install.</li>
+            <li>Start WoW, or type <code>/reload</code> if it's already running. Not showing up? On the character screen,
+              click <strong>AddOns</strong> and tick <strong>Load out of date AddOns</strong>.</li>
+          </ol>
+        </details>
       </div>
-      <!-- Two choices, never one installer for both (Mike, 2026-10-14): step 1 the add-on, step 2 Willo (dl-willo). -->
-      <div class="dl-steps">
-        <section class="dl-step" id="addon" aria-labelledby="addon-h">
-          <div class="dl-step-head"><img class="dl-step-ico" src="/img/logo.svg" alt="" width="52" height="52">
-            <div><p class="dl-step-kicker">Step 1 &middot; free forever</p>
-            <h2 id="addon-h">Lore Forever add-on</h2></div></div>
-          <p>Every zone tells its story as you arrive. Free, no account. Windows and Mac.</p>
-          <div class="dl-cta">
-            <a class="h-btn h-book-btn dl-link" id="installer" href="/download/installer" aria-label="Download the Windows installer">Download for Windows</a>
-            <a class="h-btn h-ghost dl-link" id="curseforge" href="https://www.curseforge.com/wow/addons/lore-forever"
-              aria-label="Install Lore Forever with CurseForge">Get on CurseForge</a>
-          </div>
-          <p class="dl-cta-note">Setup <span class="dl-size" data-asset="latest:LoreForever-Setup.exe">Size unavailable</span>
-            · <span data-latest-version>Version unavailable</span>
-            · <a class="dl-link" id="zip" href="/download/zip" aria-label="Download the Lore Forever ZIP">Manual ZIP</a>
-            <span class="dl-size" data-asset="latest:LoreForever.zip">Size unavailable</span>
-            · On a Mac? Use CurseForge or the ZIP.
-            · Updating the ZIP? Delete the old Lore Forever folders first.</p>
-        </section>
-        <!-- dl-willo: step 2, Willo, the companion app (lib/willo.js willoSection) -->
+
+      <div class="ch-page dl-right" id="voices" aria-labelledby="voices-title">
+        <span id="packs"></span>
+        <p class="ch-kicker">Step 2 &middot; optional</p>
+        <h2 class="ch-big" id="voices-title">Add more, if you like</h2>
+        <p class="ch-note">Free and optional. Press &#9654; to hear one.</p>
+        <div class="pk-tiles">
+        <!-- dl-packs -->
+        <!-- dl-community: the community's own narrators (lib/downloads.js communitySection) -->
+        <article class="dl-card pk-tile blank" id="lend-your-own">
+          <div class="pk-head"><div><h3>Lend your own</h3><p>Record a voice for everyone.</p></div></div>
+          <p class="pk-lend"><a class="ch-btn ch-ghost ch-small" href="/voices/lend">Lend your voice</a></p>
+        </article>
+        </div>
+
+        <details class="ch-fold dl-fold dl-howto" id="install">
+          <summary>How to install an extra pack</summary>
+          <ol class="steps dl-steps">
+            <li><strong>Unzip it into your AddOns folder</strong>,
+              <code>World of Warcraft\_forever_\Interface\AddOns</code> (on a Mac,
+              <code>/Applications/World of Warcraft/_forever_/Interface/AddOns</code>), so it sits next to the
+              <code>LoreForever</code> folder, not inside it.</li>
+            <li><strong>Type <code>/reload</code> in game</strong>, or start the game if it's closed.</li>
+            <li><strong>Pick the voice</strong> under Options &rsaquo; AddOns &rsaquo; Lore Forever &rsaquo; Narration
+              voices, or type <code>/lore voice</code>. Alliance and Horde lands play by themselves.</li>
+          </ol>
+          <p class="dl-intro">CurseForge and Setup do all of this for you. Updating by hand? Delete the old
+            <code>LoreForever</code> folders first (<code>LoreForever</code> and each <code>LoreForever_Voice_&hellip;</code>),
+            then unzip the new ones: unzipped over them, the old recordings stay and take up hundreds of megabytes for
+            nothing. Not showing up? Watch for a doubled folder like
+            <code>AddOns\LoreForever_Voice_Female\LoreForever_Voice_Female\</code>, and on the character screen tick
+            AddOns &rsaquo; <strong>Load out of date AddOns</strong>. A voice that hasn't recorded a story hands it to the
+            next voice in your order. Still stuck? <a href="/discord?src=voices">Ask on Discord</a>.</p>
+        </details>
+
+        <details class="ch-fold dl-fold dl-howto dl-every" id="all-files">
+          <summary>Every file, by language and voice</summary>
+          <fieldset class="dl-filters" id="recording-filters" hidden>
+            <legend>Find recordings</legend>
+            <label for="recording-language">Language<select id="recording-language"><option value="">All languages</option></select></label>
+            <label for="recording-voice">Voice<select id="recording-voice"><option value="">All voices</option></select></label>
+            <p id="recording-results" role="status" aria-live="polite"></p>
+          </fieldset>
+          <p class="dl-intro" id="recording-empty" hidden>No recordings match these filters. Choose all voices or all languages to see more.</p>
+          <div class="dl-table-wrap"><table class="dl-table"><caption class="sr-only">Available language and narrator choices</caption><thead><tr><th scope="col">Language</th><th scope="col">Voice</th><th scope="col">Recordings</th><th scope="col">Download size</th><th scope="col"><span class="sr-only">Install</span></th></tr></thead><tbody>
+          <!-- dl-voices -->
+          </tbody></table></div>
+          <p class="dl-intro">Install as many voices as you like and put them in your order. Sizes are the compressed
+            download, not disk space.</p>
+        </details>
       </div>
     </div>
-  </section>
-
-  <div class="h-wrap dl-body">
-    <!-- dl-comes -->
-
-    <!-- dl-community: the community's own narrators (lib/downloads.js communitySection) -->
-
-    <section class="dl-section" id="voices" aria-labelledby="voices-title">
-      <span id="packs"></span>
-      <h2 id="voices-title">Add more, if you like</h2>
-      <p class="dl-intro">Free and optional. Press &#9654; to hear one.</p>
-      <div class="pk-tiles">
-      <!-- dl-packs -->
-      </div>
-    </section>
-
-    <details class="dl-section dl-howto" id="install">
-      <summary><h2>How to install an extra pack</h2></summary>
-      <ol class="steps dl-steps">
-        <li><strong>Unzip it into your AddOns folder</strong>,
-          <code>World of Warcraft\_forever_\Interface\AddOns</code> (on a Mac,
-          <code>/Applications/World of Warcraft/_forever_/Interface/AddOns</code>), so it sits next to the
-          <code>LoreForever</code> folder, not inside it.</li>
-        <li><strong>Type <code>/reload</code> in game</strong>, or start the game if it's closed.</li>
-        <li><strong>Pick the voice</strong> under Options &rsaquo; AddOns &rsaquo; Lore Forever &rsaquo; Narration
-          voices, or type <code>/lore voice</code>. Alliance and Horde lands play by themselves.</li>
-      </ol>
-      <p class="dl-intro">CurseForge and Setup do all of this for you. Updating by hand? Delete the old
-        <code>LoreForever</code> folders first (<code>LoreForever</code> and each <code>LoreForever_Voice_…</code>),
-        then unzip the new ones: unzipped over them, the old recordings stay and take up hundreds of megabytes for
-        nothing. Not showing up? Watch for a doubled folder like
-        <code>AddOns\LoreForever_Voice_Female\LoreForever_Voice_Female\</code>, and on the character screen tick
-        AddOns &rsaquo; <strong>Load out of date AddOns</strong>. A voice that hasn't recorded a story hands it to the
-        next voice in your order. Still stuck? <a href="/discord?src=voices">Ask on Discord</a>.</p>
-    </details>
-
-    <details class="dl-section dl-howto dl-every" id="all-files">
-      <summary><h2>Every file, by language and voice</h2></summary>
-      <fieldset class="dl-filters" id="recording-filters" hidden>
-        <legend>Find recordings</legend>
-        <label for="recording-language">Language<select id="recording-language"><option value="">All languages</option></select></label>
-        <label for="recording-voice">Voice<select id="recording-voice"><option value="">All voices</option></select></label>
-        <p id="recording-results" role="status" aria-live="polite"></p>
-      </fieldset>
-      <p class="dl-intro" id="recording-empty" hidden>No recordings match these filters. Choose all voices or all languages to see more.</p>
-      <div class="dl-table-wrap"><table class="dl-table"><caption class="sr-only">Available language and narrator choices</caption><thead><tr><th scope="col">Language</th><th scope="col">Voice</th><th scope="col">Recordings</th><th scope="col">Download size</th><th scope="col"><span class="sr-only">Install</span></th></tr></thead><tbody>
-      <!-- dl-voices -->
-      </tbody></table></div>
-      <p class="dl-intro">Install as many voices as you like and put them in your order. Sizes are the compressed
-        download, not disk space.</p>
-    </details>
   </div>
 </main>
 
@@ -169,23 +181,23 @@
       &middot; <a href="/voices/guide">How it works</a> &middot; <a href="/contributors#narrators">Everyone who has lent a
       voice</a></p>
     <div class="h-foot-grid">
-      <div class="h-sign">
-        <span class="h-brand"><img src="/img/logo.svg" alt="" width="30" height="30">Lore Forever</span>
-        <p>One email when a new version is out, and your address is used for nothing else
-          (<a href="/privacy">privacy</a>). <a href="/unsubscribe">Unsubscribe anytime</a>.</p>
-        <form class="h-sub-form" id="signup" data-source="downloads-page">
-          <label for="signup-email" class="h-vh">Email address</label>
-          <input type="email" name="email" id="signup-email" required placeholder="you@example.com" autocomplete="email">
-          <input type="text" name="website" class="h-vh" tabindex="-1" autocomplete="off" aria-hidden="true">
-          <button type="submit" class="h-btn h-ghost h-sm">Notify me</button>
-          <p class="signup-note" id="signup-note" hidden>Thanks, you're on the list.</p>
-        </form>
-      </div>
-      <nav aria-label="The add-on"><h2>The add-on</h2><ul><li><a href="/downloads">Download</a></li><li><a href="/downloads#voices">Narrator voices</a></li><li><a href="/downloads#languages">Languages</a></li><li><a href="/lore">Lore library</a></li><li><a href="/guides">Guides</a></li><li><a href="/whats-new">What's new</a></li></ul></nav>
-      <nav aria-label="Willo"><h2>Willo</h2><ul><li><a href="/willo">Meet Willo</a></li><li><a href="/plans">Plans</a></li><li><a href="/willo/style">Willo's style</a></li><li><a href="/faq">FAQ</a></li></ul></nav>
-      <nav aria-label="Community"><h2>Community</h2><ul><li><a href="/discord?src=site">Discord</a></li><li><a href="https://www.twitch.tv/jiuthaimike">Twitch</a></li><li><a href="/voices/lend">Lend your voice</a></li><li><a href="/translate">Help translate</a></li><li><a href="/contributors">Contributors</a></li><li><a href="/creators">Creator program</a></li></ul></nav>
-      <nav aria-label="About"><h2>About</h2><ul><li><a href="/feedback">Send feedback</a></li><li><a href="/privacy">Privacy</a></li><li><a href="/terms">Terms</a></li><li><a href="/refunds">Refunds</a></li><li><a href="https://github.com/mliudev/LoreForever">Source on GitHub</a></li></ul></nav>
+      <nav aria-label="The add-on"><h2>The add-on</h2><ul><li><a href="/downloads">Download</a></li><li><a href="/whats-new">What's new</a></li><li><a href="/downloads#languages">Languages</a></li><li><a href="/guides">Guides</a></li><li><a href="/downloads#voices">Narrator voices</a></li><li><a href="/lore">Lore library</a></li></ul></nav>
+      <nav aria-label="Community"><h2>Community</h2><ul><li><a href="/discord?src=site">Discord</a></li><li><a href="/translate">Translate</a></li><li><a href="/voices/lend">Lend your voice</a></li><li><a href="/contributors">Contributors</a></li><li><a href="https://www.twitch.tv/jiuthaimike">Twitch</a></li><li><a href="/creators">Creator program</a></li></ul></nav>
+      <nav aria-label="Willo"><h2>Sister site</h2><ul><li><a href="/willo">Willo<span class="nl-out" aria-hidden="true">&#8599;</span></a></li><li><a class="dim" href="/willo">willocompanion.com</a></li><li class="h-foot-tag">Talk to the world while you play.</li><li><a href="/plans">Plans</a></li><li><a href="/willo/style">Willo's style</a></li></ul></nav>
+      <nav aria-label="About"><h2>Fine print</h2><ul><li><a href="/privacy">Privacy</a></li><li><a href="/terms">Terms</a></li><li><a href="/feedback">Feedback</a></li><li><a href="/refunds">Refunds</a></li><li><a href="/faq">FAQ</a></li><li><a href="https://github.com/mliudev/LoreForever">Source on GitHub</a></li></ul></nav>
     </div>
+    <div class="h-foot-base">
+      <form class="h-sub-form" id="signup" data-source="downloads-page">
+        <label for="signup-email" class="h-vh">Email address</label>
+        <input type="email" name="email" id="signup-email" required placeholder="you@example.com" autocomplete="email">
+        <input type="text" name="website" class="h-vh" tabindex="-1" autocomplete="off" aria-hidden="true">
+        <button type="submit" class="h-btn h-sm">Tell me when there's news</button>
+        <p class="signup-note" id="signup-note" hidden>Thanks, you're on the list.</p>
+      </form>
+      <span class="h-by">by <b>Mike</b></span>
+    </div>
+    <p class="h-foot-small">One email when a new version is out, and your address is used for nothing else
+      (<a href="/privacy">privacy</a>). <a href="/unsubscribe">Unsubscribe anytime</a>.</p>
     <div class="h-legal">
       <p>Lore text is adapted from the <a href="https://warcraft.wiki.gg">Warcraft Wiki</a> under
         <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a>. Voice packs are shared under

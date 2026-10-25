@@ -20,8 +20,9 @@ export const CTA = {
   href: "/downloads?src=guides",
 };
 export const KINDS = { lore: "Lore", tutorial: "Guide" };
+const KIND_CHIPS = { lore: "Lore", tutorial: "Guides" };
 const SLUG = /^[a-z0-9]+(?:-[a-z0-9]+)*$/;
-export const HEAD = `<link rel="stylesheet" href="/lore/lore.css">\n<link rel="stylesheet" href="/guides/guides.css?${FRESH}">`;
+export const HEAD = `<link rel="stylesheet" href="/lore/lore.css">\n<link rel="stylesheet" href="/community.css?v=20261026a">\n<link rel="stylesheet" href="/guides/guides.css?${FRESH}">`;
 
 // ---- The article file ----
 
@@ -303,10 +304,11 @@ const articleImage = (slug, title, body) => {
 
 // /guides/<slug>: one article, with Article (and, when it has a FAQ, FAQPage) structured data.
 export function articlePage({ slug, meta, body }, index = []) {
-  const { bodyHtml, data } = articleParts({ slug, meta, body }, index);
+  const { pageHtml, data } = articleParts({ slug, meta, body }, index);
   const path = `/guides/${slug}`;
   return page({
-    title: meta.title, description: meta.description || meta.title, path, body: `${bodyHtml}\n  ${data.join("\n  ")}`,
+    title: meta.title, description: meta.description || meta.title, path,
+    body: `${pageHtml}\n  ${data.join("\n  ")}`,
     crumbs: `<a href="/guides">Guides</a> &rsaquo; ${escape(meta.title)}`, foot, scripts: "",
     robots: meta.draft ? "noindex" : undefined, head: HEAD, ...guideImage(slug, meta.title, body),
   });
@@ -339,43 +341,76 @@ function articleParts({ slug, meta, body }, index) {
       mainEntity: faq.map(x => ({ "@type": "Question", name: x.q, acceptedAnswer: { "@type": "Answer", text: x.a } })),
     }));
   }
+  const head = `<p class="lp-where"><span class="tag lp-tag">${escape(kind)}</span>${when ? ` &middot; <time datetime="${escape(meta.date)}">${escape(when)}</time>` : ""}${meta.author ? ` &middot; ${escape(meta.author)}` : ""}</p>
+    <h1>${escape(meta.title)}</h1>`;
   const bodyHtml = `  <article class="lp gd" data-slug="${escape(slug)}">
-    <p class="lp-where"><span class="tag lp-tag">${escape(kind)}</span>${when ? ` &middot; <time datetime="${escape(meta.date)}">${escape(when)}</time>` : ""}${meta.author ? ` &middot; ${escape(meta.author)}` : ""}</p>
-    <h1>${escape(meta.title)}</h1>
+    ${head}
     <div class="lp-text gd-text">
       ${html}
     </div>
     ${related}
   </article>
   ${ctaHtml}`;
-  return { bodyHtml, data };
+  // The page (the design's guide): a reading sheet with the contents slip beside it (above it on a phone) and the other guides
+  // under that. The contents list is the one renderMarkdown makes, lifted out of the text.
+  const toc = html.match(/<nav class="gd-toc"[\s\S]*?<\/nav>/)?.[0] || "";
+  const slip = toc.replace('<nav class="gd-toc"', '<nav class="gd-toc ch-sheet gd-slip"').replace("<p>On this page</p>", "<p>In this guide</p>");
+  const moreSlip = related.replace('<section class="lp-rel"', '<section class="ch-sheet gd-slip gd-more lp-rel"');
+  const pageHtml = `  <div class="gd-wrap">
+  <div class="gd-read">
+  ${slip}
+  <article class="ch-sheet lp gd gd-sheet gd-article" data-slug="${escape(slug)}">
+    ${head}
+    <div class="lp-text gd-text">
+      ${toc ? html.replace(toc, "") : html}
+    </div>
+    ${ctaHtml}
+  </article>
+  ${moreSlip}
+  </div>
+  </div>`;
+  return { bodyHtml, pageHtml, data };
 }
 
-// /guides: the published articles, newest first. noindex while there are none.
+// /guides: the published articles, newest first. noindex while there are none. The list is the design's sheet: a search box, chips
+// for the kinds there are (public/js/guides-list.js filters; without it everything shows), and a tile for each guide.
 export function indexPage(index) {
   const list = published(index);
+  const kinds = [...new Set(list.map(a => a.kind).filter(k => KINDS[k]))];
   const items = list.length
-    ? `<ul class="gd-list">
-      ${list.map(a => `<li><a href="/guides/${escape(a.slug)}"><span class="tag lp-tag">${escape(KINDS[a.kind] || "Guide")}</span>
+    ? `<ul class="gd-list ly-tiles ly-wide">
+      ${list.map(a => `<li class="ly-tile" data-kind="${escape(a.kind || "")}" data-find="${escape(`${a.title} ${a.description}`.toLowerCase())}"><a href="/guides/${escape(a.slug)}"><span class="tag lp-tag">${escape(KINDS[a.kind] || "Guide")}</span>
         <strong>${escape(a.title)}</strong></a><p>${escape(a.description)}</p></li>`).join("\n      ")}
-    </ul>`
+      <li class="ly-tile ly-blank"><strong>Have a guide in mind?</strong><p>Tell us what you'd like to read, or what you could write.</p>
+        <a class="btn-small btn-small-alt ly-go" href="/discord?src=guides">Say so on Discord</a></li>
+    </ul>
+    <p class="vp-note" id="gd-none" hidden>No guide matches that. Try fewer words.</p>`
     : `<p>The first guides are on their way.</p>`;
-  const body = `  <section class="lp gd">
+  const find = list.length ? `
+    <p class="gd-find" data-gd-js hidden><label class="visually-hidden" for="gd-q">Search the guides</label>
+      <input id="gd-q" type="search" placeholder="Search the guides" autocomplete="off" spellcheck="false"></p>${kinds.length > 1 ? `
+    <p class="gd-chips ly-chips" data-gd-js role="group" aria-label="Kind" hidden>
+      <button type="button" class="ly-chip" data-kind="" aria-pressed="true">All</button>${kinds.map(k => `
+      <button type="button" class="ly-chip" data-kind="${escape(k)}" aria-pressed="false">${escape(KIND_CHIPS[k] || KINDS[k])}</button>`).join("")}</p>` : ""}` : "";
+  const body = `  <div class="ch-sheet gd-sheet gd-index">
+  <section class="lp gd">
     <h1>Guides and lore</h1>
-    <p class="lp-intro">Stories, places and people of WoW Forever, and how to get the most out of Lore Forever.</p>
+    <p class="lp-intro">Stories, places and people of WoW Forever, and how to get the most out of Lore Forever.</p>${find}
     ${items}
   </section>
-  ${ctaHtml}`;
+  ${ctaHtml}
+  </div>`;
   return page({
     title: "Guides and lore", description: "Stories, places and people of WoW Forever, and guides to Lore Forever.",
-    path: "/guides", body, crumbs: "", foot, scripts: "", robots: list.length ? undefined : "noindex", head: HEAD,
+    path: "/guides", body, crumbs: "", foot, robots: list.length ? undefined : "noindex", head: HEAD,
+    scripts: list.length ? '<script src="/js/guides-list.js" defer></script>' : "",
   });
 }
 
 export function missingPage() {
   return page({
     title: "Guide not found", description: "This guide isn't here.", path: "/guides",
-    body: `  <section class="lp gd"><h1>Guide not found</h1><p><a href="/guides">See every guide</a>.</p></section>`,
+    body: `  <div class="ch-sheet gd-sheet"><section class="lp gd"><h1>Guide not found</h1><p><a href="/guides">See every guide</a>.</p></section></div>`,
     crumbs: `<a href="/guides">Guides</a>`, foot, scripts: "", robots: "noindex", head: HEAD,
   });
 }

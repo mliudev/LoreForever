@@ -1,5 +1,11 @@
 // Player profiles (lib/profiles.js, LOR-181), used by /account and the owner's bar on /u/<handle>:
 //   GET  /api/profile/me        {profile}: yours (null when you have none yet), or 401 when signed out
+//   GET  /api/profile/page?p=/lore/zone/westfall   a lore page's "Your page" line (LOR-809): {profile: false} without a
+//                               profile, else {name, page: {verb, thing, day, level} or null} (lib/chapters.js
+//                               yourPage: the first moment of your journey that names it); 401 when signed out
+//   GET  /api/profile/found       the lore pages your journey names, as paths ({profile: false} without a profile, else
+//                               {name, pages: ["/lore/zone/westfall", ...]}; 401 when signed out): /lore's playlist ticks
+//                               those rows and dims the rest. The same moments as /api/profile/page, all at once.
 //   POST /api/profile/import    {record}: a pasted journey record -> creates or updates your profile, writes its story.
 //                               Another character's record replaces the profile, private again at a new address
 //                               ({switched: {from, to}} says so).
@@ -39,6 +45,8 @@ import { forgetStoryVoice } from "../../../lib/storyvoice.js";
 import { historyRequest, forgetHistoryStatements } from "../../../lib/history.js";
 import { readUsage, saveUsage, countSite } from "../../../lib/usage.js";
 import { readStock, saveStock } from "../../../lib/willo-stock.js";
+import { loadLinks, moments } from "../../../lib/trails.js";
+import { yourPage, momentWhat } from "../../../lib/chapters.js";
 
 const ok = (body = {}) => Response.json({ ok: true, ...body }, { headers: noStore });
 // Profile updates per day for /admin (LOR-304): a plain number per way in, nothing about who. Never holds a save up.
@@ -70,6 +78,30 @@ function summary(p) {
 
 async function me({ env }, user) {
   return ok({ profile: summary(await profileOf(env, user.id)) });
+}
+
+async function lorePage({ env, request }, user) {
+  const path = new URL(request.url).searchParams.get("p") || "";
+  if (!/^\/lore\/[a-z]+\/[a-z0-9-]{1,120}$/.test(path)) return fail(400, "Which lore page?");
+  const p = await profileOf(env, user.id);
+  if (!p) return ok({ profile: false });
+  const names = await loadLinks(env, request);
+  return ok({ name: p.data.name, page: yourPage(moments(p.data, names, p.journey), names, path) });
+}
+
+async function loreFound({ env, request }, user) {
+  const p = await profileOf(env, user.id);
+  if (!p) return ok({ profile: false });
+  const names = await loadLinks(env, request);
+  const pages = new Set();
+  for (const m of moments(p.data, names, p.journey)) {
+    const page = momentWhat(m, names)[2];
+    if (typeof page === "string" && page.startsWith("/lore/")) pages.add(page);
+    // A place within a land reaches the land's page too (yourPage).
+    const land = m.k === "places" && m.e.sub ? names.zone(m.e.zone) : null;
+    if (land) pages.add(land);
+  }
+  return ok({ name: p.data.name, pages: [...pages] });
 }
 
 function readRecord(input) {
@@ -337,9 +369,10 @@ export async function onRequest(context) {
   if (action === "history") return historyRequest(context);
   await setupProfiles(env);
   if (request.method === "GET") {
-    if (action !== "me") return fail(404, "Not found.");
+    if (action !== "me" && action !== "page" && action !== "found") return fail(404, "Not found.");
     const user = await currentUser(env, request);
-    return user ? me(context, user) : fail(401, "You're signed out. Please sign in again.");
+    if (!user) return fail(401, "You're signed out. Please sign in again.");
+    return action === "page" ? lorePage(context, user) : action === "found" ? loreFound(context, user) : me(context, user);
   }
   if (request.method !== "POST") return fail(405, "Use POST.");
   if (action === "sync") {

@@ -3,9 +3,11 @@
 // spelling of the same entry (/lore/quest/176, an old title, capitals) gets a 301 to it, so the add-on can link
 // /lore/quest/<id> (LOR-23). Unknown entries get a 404 page. /lore/data/* is static (excluded in _routes.json).
 
-import { keyOf, loadEntry, liveKeys, voiceNames, entryPage, missingLorePage, htmlHeaders } from "../../../lib/lore.js";
+import { keyOf, loadEntry, loadIndex, nextPlayable, liveKeys, voiceNames, entryPage, missingLorePage, htmlHeaders,
+  loadI18nIndex, translationsOf }
+  from "../../../lib/lore.js";
 import { loadVoices } from "../../../lib/voices.js";
-import { loadPacks, loadPackEntries, visiblePacks, packsForEntry } from "../../../lib/packs.js";
+import { loadPacks, loadPackEntries, visiblePacks, packsForEntry, packOptions } from "../../../lib/packs.js";
 import { edgeCached } from "../../../lib/edge-cache.js";
 
 // Kept at the edge for 10 minutes, under a new key once the lore data changes (lib/edge-cache.js): the page is the
@@ -22,11 +24,17 @@ async function render({ request, env, params }) {
   if (!entry) return new Response(missingLorePage(env), { status: 404, headers: htmlHeaders(env) });
   const url = new URL(request.url);
   if (url.pathname !== entry.path) return Response.redirect(new URL(entry.path + url.search, url).toString(), 301);
-  const [live, voices, packData, packEntries] = await Promise.all([liveKeys(env, request), loadVoices(env, request),
-    loadPacks(env, request), loadPackEntries(env, request)]);
+  const [live, voices, packData, packEntries, index, i18n] = await Promise.all([liveKeys(env, request), loadVoices(env, request),
+    loadPacks(env, request), loadPackEntries(env, request), loadIndex(env, request), loadI18nIndex(env)]);
   // Which downloads have this page's recording (LOR-437): the packs that are out, linked to /downloads.
   const packs = packsForEntry(key, packEntries, packData, visiblePacks(packData, voices));
-  return new Response(entryPage(entry, { live, names: voiceNames(voices), env, packs }), { headers: htmlHeaders(env, entry) });
+  const next = nextPlayable(index, entry.path);
+  // The languages it also reads in (LOR-809), for its language switch and hreflang.
+  const langs = translationsOf(i18n, entry.path);
+  // The book's right page filters by download too (/lore's playlist), and offers every language the site has pages in.
+  const shelfPacks = packOptions(packEntries, packData, visiblePacks(packData, voices));
+  return new Response(entryPage(entry, { live, names: voiceNames(voices), env, packs, next, langs, allLangs: i18n?.langs || [], shelfPacks }),
+    { headers: htmlHeaders(env, entry) });
 }
 
 export async function onRequestHead(context) {

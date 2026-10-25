@@ -247,7 +247,7 @@ test("the beta's checkout: the plan's months start at the launch; Hero free and 
     ["Checks the web when the lore runs out", "— | ✓ | ✓ | ✓"],
     ["Willo's style", "— | Presets | Presets or your own words | Presets or your own words"],
     ["Longer memory", "— | — | ✓ | ✓"],
-    ["Willo's smarter mind", "— | — | — | ✓"],
+    ["Willo's smarter mind for hard questions", "— | — | — | ✓"],
     ["Rewrite NPCs as your own tale", "— | — | — | ✓"],
     ["New features first", "— | — | — | ✓"],
   ]);

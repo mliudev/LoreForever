@@ -11,19 +11,19 @@
 .gd-text li::marker { color: var(--gold-soft); }
 .gd-text strong { color: var(--text); }
 /* The quick answer (a "> " quote): the part to read if you read nothing else. */
-.gd-text blockquote { margin: 22px 0; padding: 14px 18px; background: rgba(216, 178, 90, 0.07); border: 1px solid var(--line);
-  border-left: 4px solid var(--gold); border-radius: 8px; color: var(--text); }
+.gd-text blockquote { margin: 22px 0; padding: 14px 18px; background: #cc9e331f; border: 1px solid var(--line);
+  border-left: 4px solid var(--pg-rim, var(--gold)); border-radius: 4px; color: var(--text); }
 .gd-text blockquote p { margin: 0; }
 .gd-text blockquote strong { color: var(--gold); }
-.gd-text code { padding: 1px 5px; border-radius: 4px; background: rgba(255, 255, 255, 0.07); font-size: 0.92em; }
+.gd-text code { padding: 1px 5px; border-radius: 4px; background: #2e1c0a1a; font-size: 0.92em; }
 .gd-text img { max-width: 100%; height: auto; border-radius: 6px; }
 /* Pictures and diagrams */
-.gd-fig { margin: 26px 0 30px; padding: 10px; background: rgba(8, 10, 22, 0.6); border: 1px solid var(--panel-line); border-radius: 12px; }
+.gd-fig { margin: 26px 0 30px; padding: 10px; background: #ccb58559; border: 1px solid var(--panel-line); border-radius: 4px; }
 .gd-fig a { display: block; }
-.gd-fig img { display: block; margin: 0 auto; border-radius: 8px; }
+.gd-fig img { display: block; margin: 0 auto; border-radius: 3px; }
 .gd-fig figcaption { margin-top: 10px; color: var(--muted, inherit); font-size: 0.92rem; text-align: center; }
 /* "On this page" */
-.gd-toc { margin: 24px 0 8px; padding: 14px 20px 8px; background: rgba(255, 255, 255, 0.03); border: 1px solid var(--line); border-radius: 8px; }
+.gd-toc { margin: 24px 0 8px; padding: 14px 20px 8px; background: var(--pg-tile, #ccb585); border: 1px solid var(--pg-edge, var(--line)); border-radius: 4px; }
 .gd-toc p { margin: 0 0 6px; color: var(--gold-soft); font-family: var(--heading); font-size: 0.85rem; letter-spacing: 0.08em; text-transform: uppercase; }
 .gd-toc ol { margin: 0; padding-left: 22px; columns: 2 260px; column-gap: 28px; font-size: 0.96rem; line-height: 1.5; }
 .gd-toc li { margin: 0 0 8px; break-inside: avoid; }
@@ -48,3 +48,80 @@
 .gd-list a { display: inline-flex; gap: 8px; align-items: baseline; text-decoration: none; }
 .gd-list strong { color: var(--gold); font-family: var(--heading); font-size: 1.1rem; }
 .gd-list p { margin: 4px 0 0; line-height: 1.6; }
+
+/* The Chronicle (2026-10-24): a guide, or the list of them, is one page of the book on the night sky (chronicle.css's
+   .ch-sheet turns the old colour names to ink on parchment). The reading column sits in the middle of the page. */
+.gd-sheet { margin: 28px 0 64px; padding: 40px 44px 44px; }
+.gd-sheet > .lp, .gd-sheet > .lp-cta { margin-inline: auto; }
+.gd-sheet .lp-where { color: var(--pg-note, var(--muted)); }
+.gd-sheet .lp-tag { color: var(--pg-note, var(--gold-soft)); border-color: var(--pg-rim, #d8b25a88); }
+.gd-sheet .lp-intro { font: 1.12rem/1.6 var(--ch-read, Georgia, serif); color: var(--pg-note, var(--muted)); margin: 0 0 8px; }
+.gd-sheet .gd-text, .gd-sheet .lp-text { font-family: var(--ch-read, Georgia, "Times New Roman", serif); font-size: 1.14rem; line-height: 1.7; }
+.gd-sheet .gd-text > p:first-child { font-size: 1.22rem; }
+.gd-sheet .gd-text h2 { border-top-color: var(--pg-line, var(--line)); }
+.gd-sheet .gd-toc, .gd-sheet .gd-toc a, .gd-sheet .gd-text li { font-family: var(--h-body, "Alegreya Sans", system-ui, sans-serif); }
+.gd-sheet .gd-toc { font-size: 1rem; }
+.gd-sheet .gd-fig figcaption, .gd-sheet .gd-sources, .gd-sheet .gd-sources p em { color: var(--pg-note, var(--muted)); }
+.gd-sheet .lp-rel { margin-top: 36px; padding-top: 4px; border-top: 1px solid var(--pg-line, var(--line)); }
+.gd-sheet .lp-rel .lp-links { flex-direction: column; gap: 6px; }
+.gd-sheet .lp-cta { max-width: 760px; margin-top: 36px; margin-bottom: 0; padding: 18px 22px; }
+.gd-sheet .lp-cta p:last-child { margin-bottom: 0; }
+/* The list: each guide a tile, the whole tile its link. */
+.gd-index .gd-list { display: grid; gap: 10px; margin-top: 22px; }
+.gd-index .gd-list li { position: relative; margin: 0; padding: 14px 18px 14px; border: 1px solid var(--pg-edge, var(--line)); border-radius: 4px;
+  background: var(--pg-tile, #ccb585); }
+.gd-index .gd-list li:hover { border-color: var(--pg-title, var(--gold)); }
+.gd-index .gd-list li:has(a:focus-visible) { outline: 2px solid var(--pg-title, var(--gold)); outline-offset: 2px; }
+.gd-index .gd-list a::after { content: ""; position: absolute; inset: 0; }
+.gd-index .gd-list a:focus-visible { outline: 0; }
+.gd-index .gd-list strong { font-size: 1.15rem; line-height: 1.3; }
+.gd-index .gd-list p { color: var(--pg-ink, var(--text)); font-size: 1rem; }
+.gd-index .lp-cta { max-width: none; margin-top: 28px; }
+@media (max-width: 760px) {
+  .gd-sheet { margin: 14px 0 40px; padding: 24px 16px 28px; }
+  .gd-sheet .gd-text, .gd-sheet .lp-text { font-size: 1.08rem; }
+  .gd-sheet .gd-text > p:first-child { font-size: 1.14rem; }
+  .gd-index .gd-list li { padding: 12px 14px; }
+}
+
+/* ---- The guides in the approved layouts (2026-10-24, part Y). The list: a search box, chips, and a tile for each guide (the
+   tile is the link). A guide: a reading sheet with its contents slip beside it (above it on a phone) and the other guides
+   under the slip. The pieces (.ly-tiles .ly-tile .ly-chip) are community.css's, linked by lib/guides.js HEAD. ---- */
+:where(html:not([data-door="willo"])) {
+  .bw .bw-in.vp-page:has(.gd-index) { max-width: 972px; }
+  .bw .bw-in.vp-page:has(.gd-read) { max-width: 1120px; }
+  .gd-index .gd-find { margin: 10px 0 8px; }
+  .gd-index .gd-find input { width: 100%; max-width: 520px; padding: 9px 12px; font-size: 1rem; }
+  .gd-index .gd-chips { margin: 0 0 6px; }
+  .gd-index .gd-list.ly-tiles { grid-template-columns: repeat(auto-fill, minmax(min(100%, 250px), 1fr)); gap: 10px; margin-top: 16px; }
+  .gd-index .gd-list li[hidden] { display: none; }
+  .gd-index .gd-list li.ly-tile { padding: 12px 14px; min-height: 96px; align-content: start; }
+  .gd-index .gd-list li.ly-tile.ly-blank { border-style: dashed; background: var(--a-blank); }
+  .gd-index .gd-list li.ly-blank a.ly-go::after { content: ""; position: absolute; inset: 0; }
+  .gd-index .gd-list li.ly-blank a.ly-go { margin-top: 6px; justify-self: start; }
+  .gd-index .gd-list a.ly-go { display: inline-flex; }
+  .gd-index .gd-list a:not(.ly-go)::after { content: ""; position: absolute; inset: 0; }
+  .gd-index .gd-list .tag { display: inline-block; margin-bottom: 3px; }
+
+  /* A guide. */
+  .gd-wrap { container-type: inline-size; margin: 28px 0 64px; }
+  .gd-read { display: grid; grid-template-columns: minmax(0, 1fr); gap: 14px; align-items: start; }
+  .gd-read > .gd-article.gd-sheet { margin: 0; max-width: none; }
+  .gd-slip { padding: 14px 16px; font-size: 0.95rem; }
+  .gd-slip.gd-toc { margin: 0; }
+  .gd-slip.gd-toc p, .gd-more h2 { margin: 0 0 6px; color: var(--pg-title); font: 600 1.05rem/1.3 var(--h-display, serif); letter-spacing: 0; text-transform: none; }
+  .gd-slip.gd-toc ol { columns: 1; padding-left: 20px; font-size: 0.95rem; }
+  .gd-slip.gd-toc li { margin: 0 0 6px; }
+  .gd-more .lp-links { display: grid; gap: 6px; margin: 0; padding: 0; list-style: none; font-size: 0.95rem; }
+  .gd-more { margin: 0; border-top: 0; }
+  @container (min-width: 760px) {
+    .gd-read { grid-template-columns: minmax(0, 1fr) 260px; grid-template-areas: "text toc" "text more"; }
+    .gd-read > .gd-article { grid-area: text; }
+    .gd-read > .gd-toc { grid-area: toc; }
+    .gd-read > .gd-more { grid-area: more; }
+  }
+  @media (max-width: 760px) {
+    .gd-wrap { margin: 14px 0 40px; }
+    .gd-read > .gd-article.gd-sheet { padding: 22px 16px 26px; }
+  }
+}

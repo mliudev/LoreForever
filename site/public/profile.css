@@ -2,11 +2,11 @@
    story-first layout (10/11) and style.css's .pf-* rules; lib/voices.js page() gives it the shared frame (the night
    sky, the column, the footer), pages.css turns the old colour names into the book's, and this sheet gives the
    profile's own pieces the new shapes and type: the head, the owner's and visitor's bars, Listen, the story in
-   Alegreya, the chapters, the road chart, the numbers and "This could be your page". Willo's signature is in the
-   wisp's blue: she wrote the story. */
+   Alegreya, the chapters, the road chart, the numbers and "This could be your page". Since 2026-10-24 the page is the
+   add-on's book (the last section here, and chronicle.css): sheets of parchment on the night. */
 
 /* The column: as wide as the chart needs beside the reading (style.css gave main this before). */
-@media (min-width: 1000px) { .bw .bw-in.vp-page:has(.pf-atlas) { max-width: 1392px; } }
+@media (min-width: 1000px) { .bw .bw-in.vp-page:has(.pf-atlas) { max-width: 1240px; } }
 
 /* The bars: the owner's (dashed, theirs alone) and the visitor view's, which stays in view. */
 .bw .bw-in .pf-owner { margin: 0 0 28px; padding: 14px 18px; border: 1px dashed var(--h-acc-rim); border-radius: var(--h-r);
@@ -45,13 +45,6 @@
 .bw .pf-listen-ic { width: 30px; height: 30px; background: var(--h-fill); color: var(--h-fill-ink); font-size: 0.72rem; }
 .bw .pf-listen-len { color: var(--h-muted); font-weight: 500; }
 .bw .pf-listen-wait { color: var(--h-text-2); }
-
-/* The tabs. */
-.bw .pf-tabs { gap: 4px; margin-top: 4px; border-bottom-color: var(--h-line); }
-.bw .pf-tabs a { padding: 12px 16px 11px; color: var(--h-text-2); font: 600 1rem var(--h-display); letter-spacing: 0.04em; }
-.bw .pf-tabs a:hover { color: var(--h-text); }
-.bw .pf-tabs a[aria-selected="true"] { color: var(--h-acc-hi); border-bottom-color: var(--h-acc); }
-.bw .pf-tabs a:focus-visible { outline-color: var(--h-acc-hi); }
 
 /* The story: the book's own page, in Alegreya, with a gold initial. */
 .bw .pf-story { padding-top: 28px; }
@@ -162,3 +155,159 @@
   .bw .pf-story-text p { font-size: 1.12rem; }
   .bw .bw-in .pf-mine { padding: 20px; }
 }
+
+/* ---- The Chronicle (site revamp, Mike approved 2026-10-24): the profile as sheets of the add-on's book ----
+   chronicle.css has the parchment sheet, and style.css gives a .ch-sheet the page's colour names (the old --gold, --text, --muted
+   and the --h-* ones every rule above and in style.css reads) in the book's ink, so the chapters, the numbers, Listen and
+   the buttons draw on parchment without a second set of rules. Only what is dark by its own colours is set again below
+   (the road chart, the item and icon colours). */
+.bw .pf-sheet { margin: 0 0 16px; padding: 22px 28px; max-width: none; }
+.bw .pf-sheet :is(a:hover, summary:hover) { color: var(--pg-hover); }
+.bw .bw-in .pf-sheet summary { color: var(--pg-title); }
+.bw .pf-sheet .pf-all > summary { background: var(--pg-paper); }
+.bw .pf-sheet .pf-all > summary:hover { border-color: var(--pg-title); }
+.bw .pf-sheet .btn-small-alt:hover { border-color: var(--pg-title); }
+.bw .pf-sheet .pf-visit li { color: var(--pg-ink); }
+.bw .pf-sheet .pf-visit li .pf-ic { color: var(--pg-faded); }
+/* The icons by kind, in inks that read on parchment. */
+.bw .pf-sheet .pf-h-level .pf-ic, .bw .pf-sheet .pf-mk-levels .pf-ic { color: var(--a-gold-ink) !important; }
+.bw .pf-sheet .pf-h-dungeon .pf-ic, .bw .pf-sheet .pf-mk-bosses .pf-ic { color: var(--a-q4) !important; }
+.bw .pf-sheet .pf-h-land .pf-ic, .bw .pf-sheet .pf-h-mount .pf-ic, .bw .pf-sheet .pf-h-book .pf-ic { color: var(--pg-note) !important; }
+.bw .pf-sheet .pf-h-quest .pf-ic, .bw .pf-sheet .pf-mk-quests .pf-ic { color: var(--pg-title) !important; }
+.bw .pf-sheet .pf-h-foe .pf-ic, .bw .pf-sheet .pf-mk-kills .pf-ic { color: var(--a-q5) !important; }
+.bw .pf-sheet .pf-h-death .pf-ic, .bw .pf-sheet .pf-mk-deaths .pf-ic { color: var(--pg-wax) !important; }
+.bw .pf-sheet .pf-h-find .pf-ic, .bw .pf-sheet .pf-mk-loot .pf-ic { color: var(--a-q3) !important; }
+.bw .pf-sheet .pf-h-rep .pf-ic { color: var(--a-q2) !important; }
+/* Item colours, as on the lore pages' parchment. */
+.bw .pf-sheet :is(.q2, .q3, .q4) { font-weight: 600; }
+.bw .pf-sheet .q1 { color: var(--pg-ink); } .bw .pf-sheet .q2 { color: var(--a-q2); } .bw .pf-sheet .q3 { color: var(--a-q3); }
+.bw .pf-sheet .q4 { color: var(--a-q4); } .bw .pf-sheet .q5 { color: var(--a-q5); }
+
+/* The sheets' heads: a title with what is on the sheet, at its right. */
+.pf-sheet-head { display: flex; flex-wrap: wrap; align-items: baseline; gap: 2px 16px; margin: 0 0 10px; }
+.bw .bw-in .pf-sheet > h2 { margin: 0 0 10px; font-size: 1.55rem; }
+.bw .bw-in .pf-sheet-head h2 { margin: 0; font-size: 1.55rem; }
+.pf-sheet-sub { margin-left: auto; color: var(--pg-note); font-size: 0.95rem; font-variant-numeric: tabular-nums; }
+.pf-sheet-note { margin: 0 0 14px; color: var(--pg-note); }
+
+/* The bookplate: the initial in its crest, the name, the facts, the counts across the foot. */
+.bw .pf-plate { padding: 22px 28px 20px; }
+.bw .pf-plate .pf-head { margin: 0; align-items: center; }
+.bw .pf-plate .pf-head .vpr-avatar { width: 76px; height: 76px; font-size: 2.1rem; background: radial-gradient(circle at 50% 40%, var(--pg-chip), var(--pg-tile));
+  box-shadow: none; color: var(--pg-title); }
+.bw .pf-plate .pf-head .pf-none { border-color: var(--pg-rim); }
+.bw .bw-in .pf-plate .pf-head h1 { margin: 0 0 4px; font-size: clamp(1.9rem, 4vw, 2.6rem); line-height: 1.1; }
+.bw .pf-plate .pf-badge { border-color: var(--pg-rim); background: transparent; color: var(--pg-note); font-size: 0.72rem; }
+.bw .pf-plate .pf-badge:hover, .bw .pf-plate .pf-badge:focus-visible { border-color: var(--pg-title); color: var(--pg-title); }
+.bw .pf-plate .vpr-links a { color: var(--pg-title); }
+.bw .pf-glance { display: flex; flex-wrap: wrap; gap: 4px 18px; flex-basis: 100%; margin: 14px 0 0; padding: 12px 0 0; list-style: none;
+  border-top: 1px solid color-mix(in srgb, var(--pg-rim) 50%, transparent); color: var(--pg-note); font-size: 0.97rem; }
+.bw .pf-glance strong { color: var(--pg-ink); font-weight: 700; font-variant-numeric: tabular-nums; }
+/* The story on the bookplate, under the name and Share: its Listen, the opening, "Read on" for the rest. */
+.bw .pf-plate .pf-story { margin-top: 16px; padding-top: 16px; border-top: 1px solid color-mix(in srgb, var(--pg-rim) 50%, transparent); }
+.bw .pf-plate .pf-story-text p { font-size: 1.12rem; }
+.bw .pf-story-more > summary { display: inline-block; cursor: pointer; color: var(--pg-title); font-weight: 700; list-style: none; margin-bottom: 12px; }
+.bw .pf-story-more > summary::-webkit-details-marker { display: none; }
+.bw .pf-story-more > summary::after { content: " \203A"; }
+.bw .pf-story-more[open] > summary { display: none; }
+.bw .pf-listen-play { background: var(--pg-paper); }
+.bw .pf-listen-play:hover, .bw .pf-listen-play:focus-visible { background: var(--pg-fill-hover); border-color: var(--pg-title); }
+.bw .pf-listen-ic { background: var(--pg-btn); color: var(--pg-btn-ink); }
+.bw .pf-listen-len { color: var(--pg-note); }
+
+/* The bookmarks stay at the top while a sheet is read (under the visitor-view bar when it is there). */
+.bw .pf-marks { top: 0; }
+.bw main:has(.pf-visitor) .pf-marks { top: var(--pf-bar, 104px); }   /* --pf-bar: the bar's height (public/js/journey.js) */
+.bw .pf-sheet[id], .bw .pf-numsheet .pf-nums, .bw .pf-ch { scroll-margin-top: 64px; }
+.bw main:has(.pf-visitor) .pf-sheet[id], .bw main:has(.pf-visitor) .pf-numsheet .pf-nums, .bw main:has(.pf-visitor) .pf-ch {
+  scroll-margin-top: calc(var(--pf-bar, 104px) + 64px); }
+
+/* The Chronicle: a row per zone, its pages found as a meter. */
+.pf-cz-list { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 0 36px; margin: 0; padding: 0; list-style: none; }
+.pf-cz { display: grid; grid-template-columns: minmax(0, 1fr) auto; gap: 5px 14px; align-items: baseline; padding: 9px 2px 11px; border-bottom: 1px solid color-mix(in srgb, var(--pg-edge) 33%, transparent); }
+.pf-cz-name { font: 600 1.08rem/1.3 var(--h-display); color: var(--pg-ink); overflow-wrap: anywhere; }
+.bw .pf-cz-name a { color: var(--pg-title); text-decoration: none; }
+.bw .pf-cz-name a:hover { text-decoration: underline; }
+.pf-cz-n { color: var(--pg-note); font-size: 0.92rem; font-variant-numeric: tabular-nums; text-align: right; }
+.pf-cz-heard { color: var(--pg-note); }
+.pf-cz .ch-meter { grid-column: 1 / -1; }
+.pf-cz-full .ch-meter i { background: var(--pg-wax); }
+
+/* The Road: the chart and the chapters on the sheet. */
+.bw .pf-road .pf-ch:first-child { border-top: 0; padding-top: 6px; }
+.bw .pf-road .pf-atlas-map { padding-top: 0; }
+.bw .pf-chart-svg { border-color: var(--pg-edge); border-radius: 3px;
+  background: radial-gradient(ellipse at 30% 40%, var(--a-sea-glow) 0, transparent 60%), radial-gradient(ellipse at 75% 50%, var(--a-sea-glow) 0, transparent 60%), var(--a-sea); }
+.bw .pf-sheet .pf-ch-shallows { stroke: color-mix(in srgb, var(--pg-edge) 12%, transparent); }
+.bw .pf-sheet .pf-ch-coast { fill: var(--a-land); stroke: color-mix(in srgb, var(--pg-edge) 65%, transparent); }
+.bw .pf-sheet .pf-ch-sky { fill: color-mix(in srgb, var(--pg-edge) 6%, transparent); stroke: color-mix(in srgb, var(--pg-edge) 60%, transparent); }
+.bw .pf-sheet .pf-ch-sea { fill: color-mix(in srgb, var(--pg-note) 85%, transparent); }   /* the lands' names are text: 4.5:1 on the sea */
+.bw .pf-sheet .pf-ch-dot { fill: color-mix(in srgb, var(--pg-note) 20%, transparent); }
+.bw .pf-sheet .pf-ch-road { stroke: color-mix(in srgb, var(--pg-wax) 80%, transparent); }
+.bw .pf-sheet .pf-ch-travel { stroke: color-mix(in srgb, var(--pg-note) 60%, transparent); }
+.bw .pf-sheet .pf-ch-latest { stroke: var(--pg-title); }
+.bw .pf-sheet .pf-ch-stop circle { fill: var(--pg-wax); stroke: var(--pg-paper); }
+.bw .pf-sheet .pf-ch-c circle { fill: var(--pg-ink); }
+.bw .pf-sheet .pf-ch-d circle { fill: var(--a-q4); }
+.bw .pf-sheet .pf-ch-stop text { fill: var(--pg-ink); stroke: var(--a-land); }
+.bw .pf-sheet .pf-ch-stop:hover circle, .bw .pf-sheet .pf-ch-stop:focus-visible circle, .bw .pf-sheet .pf-ch-now circle,
+.bw .pf-sheet .pf-ch-on circle { fill: var(--pg-title); }
+.bw .pf-sheet .pf-ch-stop:hover text, .bw .pf-sheet .pf-ch-stop:focus-visible text, .bw .pf-sheet .pf-ch-on text { fill: var(--pg-title); }
+.bw .pf-sheet .pf-ch-road.pf-ch-on { stroke: var(--pg-title); }
+.bw .pf-sheet .pf-ch-pin rect { fill: var(--a-btn); stroke: var(--pg-paper); }
+.bw .pf-sheet .pf-ch-pin text { fill: var(--a-btn-ink); }
+.bw .pf-sheet .pf-mini .pf-ch-ctx { stroke: color-mix(in srgb, var(--pg-edge) 30%, transparent); }
+.bw .pf-sheet .pf-mini .pf-ch-been { fill: color-mix(in srgb, var(--pg-edge) 24%, transparent); }
+.bw .pf-chart-tools button { background: color-mix(in srgb, var(--pg-paper) 90%, transparent); border-color: var(--pg-edge); color: var(--pg-ink); }
+.bw .pf-chart-tools button:hover, .bw .pf-chart-tools button:focus-visible { border-color: var(--pg-title); color: var(--pg-title); }
+.bw .pf-sheet .pf-picture { border-color: var(--pg-edge); }
+.bw .pf-sheet .pf-picture:hover { border-color: var(--pg-title); }
+.bw .pf-sheet .pf-behind { background: var(--pg-wash); border-color: var(--pg-rim); }
+.bw .pf-sheet .pf-history a { color: var(--pg-title); }
+
+/* Their story. */
+.bw .pf-sheet.pf-story { padding-top: 22px; }
+.bw .pf-story .pf-story-text { max-width: 70ch; }
+.bw .pf-sheet .pf-signed { color: var(--pg-note); }
+.bw .pf-sheet .pf-signed img { border-color: var(--pg-rim); background: var(--pg-chip); box-shadow: none; }
+
+/* The numbers: figures in tiles, each list in its own box like the add-on's. */
+.bw .pf-numsheet .pf-nums.pf-panel { padding-top: 0; margin: 0; }
+.bw .pf-numsheet .pf-stats li { border-color: color-mix(in srgb, var(--pg-edge) 50%, transparent); background: color-mix(in srgb, var(--pg-tile) 25%, transparent); }
+.bw .pf-numsheet .pf-nums-lists { gap: 12px; }
+.bw .pf-numsheet .pf-nums-lists > div { padding: 10px 14px; border: 1px solid color-mix(in srgb, var(--pg-edge) 50%, transparent); border-radius: 3px; background: color-mix(in srgb, var(--pg-tile) 15%, transparent); }
+.bw .pf-numsheet .btn-small-alt { color: var(--pg-ink); }
+
+/* "This could be your page": a sheet to fill in. */
+.bw .bw-in .pf-sheet.pf-mine { margin: 0 0 16px; padding: 24px 28px; border: 1px solid var(--pg-rim); border-radius: 4px;
+  background: var(--pg-sheet); }
+.bw .pf-sheet .pf-ghost .ss-avatar { border-color: var(--pg-line); background: transparent; color: color-mix(in srgb, var(--pg-note) 60%, transparent); }
+.bw .pf-sheet .pf-ghost .ss-name { color: color-mix(in srgb, var(--pg-note) 60%, transparent); }
+.bw .pf-sheet .pf-ghost .ss-sub { color: var(--pg-note); }
+.bw .pf-sheet .pf-ghost .ss-stats li { border-color: color-mix(in srgb, var(--pg-edge) 40%, transparent); background: color-mix(in srgb, var(--pg-tile) 25%, transparent); }
+.bw .pf-sheet .pf-ghost .ss-stats strong { color: color-mix(in srgb, var(--pg-note) 40%, transparent); }
+.bw .bw-in .pf-sheet.pf-mine .pf-what { color: var(--pg-note); }
+
+@media (min-width: 1000px) {
+  .bw .pf-atlas-stick { top: max(72px, calc(50vh - var(--pf-half, 260px))); }
+  .bw main:has(.pf-visitor) .pf-atlas-stick { top: max(calc(var(--pf-bar, 104px) + 72px), calc(50vh - var(--pf-half, 260px))); }
+}
+@media (max-width: 760px) {
+  .pf-cz-list { grid-template-columns: minmax(0, 1fr); }
+}
+@media (max-width: 620px) {
+  .bw .pf-sheet, .bw .pf-plate, .bw .bw-in .pf-sheet.pf-mine { padding: 16px 14px; }
+  .bw .pf-plate .pf-head .vpr-avatar { width: 56px; height: 56px; font-size: 1.6rem; }
+  .pf-sheet-sub { margin-left: 0; flex-basis: 100%; }
+  .ch-marks { flex-wrap: nowrap; gap: 3px; }
+  .ch-marks a { padding: 7px 10px 11px; font-size: 0.88rem; white-space: nowrap; }
+}
+
+/* The bookplate's owner extras (lib/profiles.js plateExtras): Edit, and whether the page is public. */
+.bw .pf-plate .pf-state { display: inline-block; padding: 1px 10px; border: 1px solid var(--pg-rim); border-radius: 999px; color: var(--pg-note);
+  font: 600 0.82rem/1.7 var(--h-body); white-space: nowrap; }
+.bw .pf-plate .pf-head-acts { align-items: center; flex-wrap: wrap; }
+/* The closing line (Journey recorded since…, Updated…) sits below the last sheet, straight on the leather, where the
+   grain made it hard to read: it gets a strip of the page under it. */
+.bw .pf-sheet ~ .vp-note { width: fit-content; max-width: 100%; margin: 4px auto 0; padding: 4px 12px; border-radius: 3px;
+  background: var(--pg-sheet); color: var(--pg-note); }

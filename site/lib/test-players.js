@@ -20,6 +20,7 @@ import { findOrCreateUser, recordTerms } from "./accounts.js";
 import { issueToken } from "./devices.js";
 import { person, setSharing, savePresence, readPresence, answerRequest } from "./friends.js";
 import { dayOn } from "./willo-pins.js";
+import { parseRecord } from "./journey.js";
 
 export const TEST_HOSTS = new Set(["develop.lore-forever.pages.dev", "preview.lore-forever.pages.dev", "localhost", "127.0.0.1"]);
 
@@ -47,6 +48,90 @@ export const TEST_PLAYERS = {
     profile: { name: "Brann", realm: "Forever", level: 31, race: "Gnome", className: "Mage" } },
 };
 export const TEST_FRIENDS = ["mira", "doran"];
+
+// Their journeys, as the add-on's journey record (JourneyRecord.lua) writes them, so their profile pages have a road
+// and the lore pages a "Your page" line to show. The profile page needs a whole record: a bare name and level has none
+// of its lists.
+const RECORDS = {
+  mira: `Journey record: Mira - Forever
+Level 14 Human Warrior, Alliance
+Recorded since Oct 18, 2026.
+3 quests done · 5 places · 3 people met · 0 foes · 0 bosses
+
+New places, in order
+- Oct 18 18:00  Northshire Valley, Elwynn Forest
+- Oct 19 19:10  Goldshire, Elwynn Forest
+- Oct 21 20:00  Sentinel Hill, Westfall
+- Oct 22 21:30  Moonbrook, Westfall
+- Oct 23 19:45  Gold Coast Quarry, Westfall
+
+Quests done
+- Oct 19 18:40  A Threat Within · Northshire Valley, Elwynn Forest
+- Oct 21 20:30  Westfall Stew · Sentinel Hill, Westfall
+- Oct 23 21:00  The Defias Brotherhood · Sentinel Hill, Westfall
+
+People met
+- Oct 18 18:05  Marshal McBride · Northshire Valley, Elwynn Forest
+- Oct 21 20:05  Gryan Stoutmantle · Sentinel Hill, Westfall
+- Oct 21 20:20  Salma Saldean · Saldean's Farm, Westfall
+
+Level-ups
+- Oct 19 19:00  Reached level 8 · Elwynn Forest
+- Oct 23 21:10  Reached level 14 · Westfall
+`,
+  doran: `Journey record: Doran - Forever
+Level 23 Dwarf Paladin, Alliance
+Recorded since Oct 12, 2026.
+2 quests done · 6 places · 2 people met · 0 foes · 0 bosses
+
+New places, in order
+- Oct 12 17:00  Coldridge Valley, Dun Morogh
+- Oct 13 18:30  Kharanos, Dun Morogh
+- Oct 15 20:00  Thelsamar, Loch Modan
+- Oct 18 19:00  Menethil Harbor, Wetlands
+- Oct 22 20:15  Darkshire, Duskwood
+- Oct 23 21:40  Raven Hill, Duskwood
+
+Quests done
+- Oct 15 20:40  Stonegear's Search · Thelsamar, Loch Modan
+- Oct 22 21:00  The Night Watch · Darkshire, Duskwood
+
+People met
+- Oct 12 17:05  Sten Stoutarm · Coldridge Valley, Dun Morogh
+- Oct 22 20:20  Commander Althea Ebonlocke · Darkshire, Duskwood
+
+Level-ups
+- Oct 15 21:00  Reached level 14 · Loch Modan
+- Oct 22 21:30  Reached level 23 · Duskwood
+`,
+  brann: `Journey record: Brann - Forever
+Level 31 Gnome Mage, Alliance
+Recorded since Oct 5, 2026.
+1 quests done · 5 places · 1 people met · 0 foes · 0 bosses
+
+New places, in order
+- Oct 05 16:00  Coldridge Valley, Dun Morogh
+- Oct 07 18:00  Ironforge
+- Oct 12 19:30  Lakeshire, Redridge Mountains
+- Oct 18 20:00  Darkshire, Duskwood
+- Oct 22 21:00  Booty Bay, Stranglethorn Vale
+
+Quests done
+- Oct 12 20:00  Redridge Goulash · Lakeshire, Redridge Mountains
+
+People met
+- Oct 07 18:10  King Magni Bronzebeard · Ironforge
+
+Level-ups
+- Oct 12 20:30  Reached level 20 · Redridge Mountains
+- Oct 22 21:20  Reached level 31 · Stranglethorn Vale
+`,
+};
+
+// A test player's profile data: their record read the way a pasted one is, or the bare facts if it doesn't read.
+function profileData(key, now) {
+  try { return parseRecord(RECORDS[key], new Date(now)); } catch (e) { return TEST_PLAYERS[key].profile; }
+}
 
 const iso = (now = Date.now()) => new Date(now).toISOString();
 // Minutes from UTC as the page sends them (-new Date().getTimezoneOffset()), or undefined.
@@ -81,7 +166,7 @@ export async function seedTestPlayers(env, now = Date.now(), { offset } = {}) {
     const handle = await handleFor(env, user.id, key);
     await env.DB.prepare("INSERT INTO profiles (user_id, handle, public, data, created, updated) VALUES (?, ?, 1, ?, ?, ?) " +
       "ON CONFLICT (user_id) DO UPDATE SET handle = excluded.handle, public = 1, data = excluded.data, updated = excluded.updated")
-      .bind(user.id, handle, JSON.stringify(p.profile), iso(now), iso(now)).run();
+      .bind(user.id, handle, JSON.stringify(profileData(key, now)), iso(now), iso(now)).run();
     const me = await person(env, user.id, now);
     if (p.presence) {
       await setSharing(env, user.id, true, now);

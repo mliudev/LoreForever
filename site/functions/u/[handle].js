@@ -15,8 +15,8 @@ import { escape } from "../../lib/voices.js";
 import { countSite, BOT } from "../../lib/usage.js";
 import { shareSummary, shareCard } from "../../lib/referrals.js";
 
-const html = (body, status, cache) => new Response(body, {
-  status, headers: { "Content-Type": "text/html; charset=utf-8", "Cache-Control": cache, "Vary": "Cookie" },
+const html = (body, status, cache, more = {}) => new Response(body, {
+  status, headers: { "Content-Type": "text/html; charset=utf-8", "Cache-Control": cache, "Vary": "Cookie", ...more },
 });
 
 export async function onRequestGet({ request, env, params, waitUntil }) {
@@ -29,12 +29,17 @@ export async function onRequestGet({ request, env, params, waitUntil }) {
     return Response.redirect(new URL(mine ? `/u/${mine.handle}` : "/account#profile", request.url).toString(), 302);
   }
   const p = /^[a-z0-9-]{1,40}$/.test(handle) ? await profileByHandle(env, handle) : null;
-  const owner = Boolean(p && viewer && viewer.id === p.user_id);
+  let owner = Boolean(p && viewer && viewer.id === p.user_id);
   if (!p || (!p.public && !owner)) return html(missingPage(handle, { viewer }), 404, "no-store");
   // View as a visitor (LOR-302): ?as=visitor shows the owner what everyone else gets, with a bar to go back; anyone
   // else is a visitor already. A private one is "No profile here" for visitors, so that's what the owner sees too.
   // The header still shows them signed in: they are.
   const url = new URL(request.url);
+  // The home page's frame (?preview=1, lib/profiles.js profilePage preview): a public page as any visitor sees it, not
+  // counted as a view, and framed only by this site (functions/_middleware.js).
+  const preview = url.searchParams.get("preview") === "1";
+  if (preview && !p.public) return html(missingPage(handle, { viewer }), 404, "no-store");
+  if (preview) owner = false;
   const asVisitor = owner && url.searchParams.get("as") === "visitor";
   const query = url.searchParams.get("pictures") === "1" ? "pictures=1" : "";
   if (asVisitor && !p.public) {
@@ -43,7 +48,7 @@ export async function onRequestGet({ request, env, params, waitUntil }) {
   // The share loop (LOR-151): someone else opened it, and whether a link from outside the site brought them. Only the
   // day's numbers (lib/usage.js countSite); not its owner, link previews, prefetches or paging through saved history.
   const prefetch = /prefetch|prerender/i.test(request.headers.get("Sec-Purpose") || request.headers.get("Purpose") || "");
-  if (!owner && !prefetch && !url.searchParams.has("history") && !BOT.test(request.headers.get("User-Agent") || "")) {
+  if (!owner && !preview && !prefetch && !url.searchParams.has("history") && !BOT.test(request.headers.get("User-Agent") || "")) {
     let outside = true;
     try { outside = new URL(request.headers.get("Referer")).origin !== url.origin; } catch (e) { /* none: typed or pasted */ }
     const counting = countSite(env, outside ? ["profile.view", "profile.outside"] : ["profile.view"]).catch(() => {});
@@ -58,7 +63,7 @@ export async function onRequestGet({ request, env, params, waitUntil }) {
   const pictures = book ? await listPictures(env, p.user_id) : null;
   // The story read aloud (lib/storyvoice.js, LOR-316) once the "storyvoice" feature is on: opening the page records a
   // new story in the background.
-  const voice = await storyVoice(env, p, { kick: true, origin: url.origin, waitUntil });
+  const voice = await storyVoice(env, p, { kick: !preview, origin: url.origin, waitUntil });
   const listen = listenBox(voice, { owner: owner && !asVisitor, name: p.data.name, handle: p.handle });
   let historyJourney = null, historyLinks = "";
   if (historyEnabled(env)) {
@@ -87,6 +92,6 @@ export async function onRequestGet({ request, env, params, waitUntil }) {
     }) : "";
   return html(profilePage(p, { links: publicLinks(user), owner: owner && !asVisitor, asVisitor, query, badges, names,
     lore: featureOn(env, "lore"), pictures, viewer, herald: featureOn(env, "companion"), listen, historyLinks, historyJourney,
-    share }), 200,
-    viewer ? "private, no-store" : "no-cache");
+    share, preview }), 200,
+    viewer ? "private, no-store" : "no-cache", preview ? { "X-Frame-Options": "SAMEORIGIN" } : {});
 }

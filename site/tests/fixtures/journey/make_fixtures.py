@@ -4,7 +4,7 @@ the add-on's own code (JourneyRecord.lua, JR.Text) under the Lua 5.1 WoW mock (p
   en.txt           Aelric - Forever, a level 24 Night Elf Druid recorded from level 1 (his whole life), with his journey
                    in numbers (LOR-246)
   en-tricky.txt    the same, plus an NPC and an item whose names have ', ", <, > and &
-  en-cut.txt       the same, cut to 3,000 bytes: the oldest entries go and a note says so
+  en-cut.txt       the same, cut to 3,200 bytes: the oldest entries go and a note says so
   en-midlife.txt   a record that began at level 12 ("from level 12", "Places recorded, in order"), kept before the
                    add-on had a tally: its numbers are only its kills and deaths
   en-0.8.txt       en.txt as the add-on made it before the journey in numbers (not made here: kept, so older add-ons'
@@ -194,6 +194,10 @@ TALLY = {
 }
 
 
+# His chronicle (the v2 Found pages) as the add-on keeps it in the journey at logout: zone;found;total;heard.
+CHRONICLE = ["Teldrassil;48;120;20", "Darkshore;31;140;9", "Ashenvale;6;180;0"]
+
+
 def record(events, kills, start=1, tally=None):
     """His record as Journey.lua keeps it (LoreForeverDB.journey.chars["Aelric-Forever"]), from these events on.
     start: his level when it began; from level 1 with no quest done before, it's his whole life (Journey.Whole).
@@ -212,6 +216,7 @@ def record(events, kills, start=1, tally=None):
            "completed": sorted(quests), "events": events, "seen": seen, "kills": {name: n for name, n, _ in kills}}
     if tally:
         out["tally"] = {k: dict(v) if isinstance(v, dict) else v for k, v in tally.items()}   # its own tables
+        out["chronicle"] = {"v": 1, "zones": list(CHRONICLE)}   # his chronicle at the last logout (Collection.Summary)
     return out
 
 
@@ -234,7 +239,7 @@ def main():
     files = texts(None, {
         "en": (whole, None),
         "en-tricky": (record(sorted(EVENTS + TRICKY, key=lambda e: e["t"]), KILLS, tally=TALLY), None),
-        "en-cut": (whole, 3000),
+        "en-cut": (whole, 3200),   # (3,000 before the chronicle took its lines)
         "en-midlife": (record([MIDLIFE] + [e for e in EVENTS if e["t"] > MIDLIFE["t"]],
                               [k for k in KILLS if k[2] >= 12], start=12), None),
     })

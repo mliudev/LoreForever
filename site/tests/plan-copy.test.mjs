@@ -58,7 +58,9 @@ test("the compare table, the Stripe blurbs, /willo's line and the thank-you coun
   assert.equal(planCompare({}, { azeroth: true }).some(r => /narrator/.test(r.label)), false);
   const b = blurbs(ON);
   assert.match(b.hero, /^Willo's finest voice on every answer, and your narrator reads the add-on's short answers: 1,500/);
-  assert.match(b.legend, /^Willo's richer voice and smarter mind: 6,000 Willo answers a month, the 22 Voices of Azeroth, new features first/);
+  // Legend's smarter mind is back on its card, blurb and row once it's real (Mike, 10/24: "go with deepseek thinking").
+  assert.match(b.legend, /^Willo's richer voice, and a smarter mind for hard questions[^:]*: 6,000 Willo answers a month, the 22 Voices of Azeroth, new features first/i);
+  assert.deepEqual(rows["Willo's smarter mind for hard questions"], { free: "—", hero: "—", champion: "—", legend: "✓" });
   assert.doesNotMatch(b.champion, /Azeroth/);
   for (const text of Object.values(b)) assert.ok(text.length <= 350, "Stripe shows it under the plan's name");
   assert.equal(plansLine({ SITE_FEATURES: "readings" }),

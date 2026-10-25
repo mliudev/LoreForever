@@ -96,7 +96,21 @@ const TOPICS = [
       `(Bella, Nicole, Sky, Emma, Michael, George) come with Champion. If a voice is slow, you fall back to the one ` +
       `on their PC for that line` + (azeroth ? ` (Michael for a man's voice of Azeroth)` : ``) + `. Questions typed ` +
       `get written answers; questions asked out loud are answered aloud.` },
-  { id: "live", own: /\blive game info\b|\bminimap\b.*\b(?:stars?|mist|rings?|sky)\b|\b(?:stars?|mist|rings?|sky)\b.*\bminimap\b/i,
+  // Quest givers speaking their own quest text, the add-on's (the answer log, 10/21: "I want Sten to say what Sten
+  // says" got "I cannot change how Sten speaks" and "you will need to read the quest log yourself").
+  { id: "questvoices", own: /\bquest (?:dialogue|givers?'? voices?)\b|\b(?:hear|have|make|get)\b[^.?!]{0,40}\b(?:tell|read|say|speak|voice)s?\b[^.?!]{0,30}\bquests?\b|\bquests?\b[^.?!]{0,40}\b(?:read (?:aloud|out)|voiced|out loud|aloud)\b|\b(?:his|the npc'?s?|the quest giver'?s?|their own) voices?\b|\b(?:he|she|they|npcs?|quest givers?)\s+(?:just\s+)?(?:tells?|reads?|says?|speaks?)\b[^.?!]{0,20}\bquests?\b/i,
+    text: () => `Quest givers speaking their quests: the Lore Forever add-on does that, not you. With a Quest ` +
+      `dialogue voice pack from the add-on's voices downloads (and the Quest givers' voices pack, so a dwarf sounds ` +
+      `like a dwarf) unzipped next to Lore Forever in the game's AddOns folder, they type /lore options in the game ` +
+      `and tick "Speak quest dialogue" (off by default); your own Settings can't open it for them. Then a quest's words play as its window opens, or with the ` +
+      `Play button beside the quest window. "Match the quest giver's voice" under Narration voices (on by default) ` +
+      `gives each giver a voice for their race and gender. Not every quest is recorded yet. Leave it off if another ` +
+      `add-on already voices quests. Talking with a character is different: the "Ask who you're targeting" key in ` +
+      `your Settings › ${NAME} › Talk with ${NAME} lets them answer a question in person, but never reads out their ` +
+      `quest.` },
+  // The dots over the minimap are her sky (the answer log, 10/21: "how do I disable the dots?" got a made-up "Show world
+  // markers" setting four times, and "mini map" is how speech writes it).
+  { id: "live", own: /\blive game info\b|\bmini[- ]?map\b.*\b(?:stars?|mist|rings?|sky|dots|sparkles)\b|\b(?:stars?|mist|rings?|sky|dots|sparkles)\b.*\bmini[- ]?map\b|\blore sky\b|\bshow it all the time\b/i,
     // "Where I am" only when they ask why or how she can't tell (LOR-799: "Can you tell where I am now?" with a picture
     // got this card, and Legend answered with the settings instead of the place in the picture).
     words: /\bsky\b|\b(?:can't|cannot|can not|don't|do not|unable to|how (?:do|can|does|would)|why)\b[^.?!]*\bwhere (?:i am|i'm)\b|\btarget(?:ing|ed)?\b|\btracked quest\b|\bquest i'm tracking\b/i,
@@ -108,7 +122,11 @@ const TOPICS = [
       `you still can't tell where they are, give the two steps in the game: type /reload, and if the stars still ` +
       `don't show, tick "Live game info for ${NAME}" in Lore Forever's Options (/lore live). Then you know where they are, who they target, their tracked quest ` +
       `and more, without a /reload each time. It shows as rings of stars in a blue mist over the minimap, while the ` +
-      `Lore Forever window is open or the talk key is held. No memory reading, no key presses, nothing sent online. ` +
+      `Lore Forever window is open or the talk key is held. Those stars are your sight of the game, the dots and sparkles players see there: ` +
+      `they stay up all the time only with "Live game info: show it all the time" ticked in Lore Forever's Options (or ` +
+      `after a yes to letting you see the game all the time); untick it to see them only while asking. /lore sky moves ` +
+      `the sky off the minimap (drag it), /lore sky reset puts it back. Name no other setting for them. ` +
+      `No memory reading, no key presses, nothing sent online. ` +
       `With it off you go by a picture of the game when one comes with the question, else their last save and what ` +
       `they tell you, and ask where they are rather than guess. The ` +
       `sky hides when the game is minimized, in exclusive fullscreen, on a loading screen or with the interface ` +
@@ -185,9 +203,10 @@ const TOPICS = [
       (card ? `the "${NAME} and the game" card at the top of Settings › ${NAME} checks the add-on is found, the game ` +
         `has the latest files, the talk key works in the game and Live game info is on in both, with a fix button on ` +
         `whichever is off; point them there first. ` : "") +
-      `No sound: check their speakers or headphones and ${NAME}'s voice setting; until sound works, your lines show ` +
-      `as text. "I can't hear you": a microphone plugged in and allowed in Windows Settings › Privacy & security › ` +
-      `Microphone, and Talk with ${NAME} ticked. The sky over the minimap missing: Live game info on in your window ` +
+      `No sound, or "I can't hear you": a typed question gets a written answer, and only one asked out loud (hold ` +
+      `the talk key) is answered aloud; otherwise check their speakers or headphones and ${NAME}'s voice setting; ` +
+      `until sound works, your lines show as text. "You can't hear me": a microphone plugged in and allowed in ` +
+      `Windows Settings › Privacy & security › Microphone, and Talk with ${NAME} ticked. The sky over the minimap missing: Live game info on in your window ` +
       `and ticked in the add-on, a /reload, the game in front, not in exclusive fullscreen, the interface showing. The ` +
       `add-on not found: Settings › Your game says what to do; install Lore Forever in that game folder, then /reload. ` +
       `After an add-on update with the game open, /reload. Run the game and ${NAME} the same way (both normally, not ` +
@@ -399,7 +418,12 @@ function trialLine(trial) {
     `${[...uses, ...opens].join("; ")}. After it, the Plans page says which plan keeps each; never press them to buy.\n`;
 }
 
-export function helpBlock(question, { plans = true, plan = "", client = "", state = "", usage = null, keeping = null } = {}) {
+// spoken: whether this question was asked out loud (the request's style), null unknown. Asked about her voice, a typed
+// question was answered "I am using my voice right now" and sent to the microphone (the answer log, 10/18-21): the
+// card's "typed questions get written answers" didn't say which this one was.
+const HEARING = ["voice", "talk", "problems"];
+export function helpBlock(question, { plans = true, plan = "", client = "", state = "", usage = null, keeping = null,
+  spoken = null } = {}) {
   const card = atLeast(versionOf(client), CARD_FROM), azeroth = hasAzeroth(client), color = hasColor(client);
   const target = /^key for the one you're targeting:/m.test(state);     // an app with that key (LOR-658)
   const topics = topicsOf(question, plans, client);
@@ -411,6 +435,10 @@ export function helpBlock(question, { plans = true, plan = "", client = "", stat
     `if it doesn't cover what they ask, say you're not sure and where in your Settings they might look.\n` +
     (plans && plan ? `- The player is on the ${String(plan).slice(0, 40)} plan.\n` : "") +
     (plans && topics.some(t => t.id === "plans") ? usageLine(usage) : "") +
+    (spoken !== null && topics.some(t => HEARING.includes(t.id)) ? (spoken
+      ? `- This question was asked out loud, so you answer it aloud.\n`
+      : `- This question was typed, so your answer shows only as writing and they won't hear it (never say you're ` +
+        `speaking now). You do have a voice: they hear it when they hold the talk key and ask out loud.\n`) : "") +
     (state ? `- RIGHT NOW in their ${NAME} (her own checks, as the question was asked; ok, warn, bad or off): ` +
       `answer from these first and name the real cause, not a list of maybes.\n  ` +
       `${state.slice(0, STATE_MAX_BYTES).split("\n").join("\n  ")}\n` : "") +

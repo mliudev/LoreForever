@@ -855,12 +855,15 @@ end
 function Engine:IntentTarget(intent, scope, ctx, raw, namedKey)
   local db, intents = self.db, INTENT_FAQ[intent]
   local keys, weight = self:ContextKeys(ctx)
+  -- Asked on a page (ctx.about): that entry, before the target or the place you stand in.
+  local about = ctx.about and db.entries[ctx.about] and ctx.about
+  local aboutType = about and db.entries[about].t
   if scope == "subject" or scope == "self" then
     local k
     if scope == "self" then
       k = SELF_TOPIC[intent](ctx)
     else
-      k = namedKey or (ctx.targetName and self:KeyForName(ctx.targetName))
+      k = namedKey or about or (ctx.targetName and self:KeyForName(ctx.targetName))
     end
     local e = k and db.entries[k]
     -- The subject's own answer, else its overview ("who leads them?" about a creature whose leader isn't known).
@@ -877,6 +880,10 @@ function Engine:IntentTarget(intent, scope, ctx, raw, namedKey)
     local named = namedKey and db.entries[namedKey]
     local ni = named and taggedFaq(named, intents, ctx.race, self:Opener(namedKey, ctx.done))
     if ni then return namedKey, ni end
+    if aboutType == "subzone" or aboutType == "zone" or aboutType == "city" or aboutType == "dungeon" then
+      local i = taggedFaq(db.entries[about], intents, ctx.race, self:Opener(about, ctx.done))
+      if i or intent == "place" or intent == "history" then return about, i or 0 end
+    end
     for _, k in ipairs(keys) do
       local t = db.entries[k].t
       if weight[k] >= 0.8 and (t == "subzone" or t == "zone" or t == "city" or t == "dungeon") then
@@ -899,6 +906,7 @@ function Engine:IntentTarget(intent, scope, ctx, raw, namedKey)
   for _, k in ipairs(keys) do
     if weight[k] == 1.0 then add(k, 1) end   -- in the quest log
   end
+  if about then add(about, 3) end   -- the quest whose page it's asked on
   local target = ctx.targetName and Engine.lower(ctx.targetName)
   local gives = {}
   for _, k in ipairs(target and self.giverQuests[target] or {}) do gives[k] = true add(k, 2) end
@@ -1279,9 +1287,11 @@ function Engine:Ask(question, ctx, limit)
   end
   local followKey
   if not intentKey and not aboutTarget and not namesAnything and (mentionsPronoun or #qtoks <= 2) then
-    -- "who is this guy?" with an NPC targeted means the target; otherwise continue the conversation.
+    -- "who is this guy?" asked on a page means its subject; with an NPC targeted, the target; otherwise continue the
+    -- conversation.
     local targetKey = ctx and ctx.targetName and self:KeyForName(ctx.targetName)
-    followKey = (mentionsPerson and targetKey) or self.lastKey or targetKey
+    local about = ctx and ctx.about and self.db.entries[ctx.about] and ctx.about
+    followKey = about or (mentionsPerson and targetKey) or self.lastKey or targetKey
   end
 
   local wh = raw[1]

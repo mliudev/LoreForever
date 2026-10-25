@@ -45,7 +45,7 @@ export function receiptPage(r) {
     page shows where each one is. Keep the link to come back.</p>
   ${r.lines.length ? `<ul class="cr-lines">\n${rows}\n  </ul>` : `<p>Nothing new in this upload: everything in it was already in Lore Forever. Thanks all the same!</p>`}
   <p><a class="btn-small" href="/contribute">Share more</a></p>`;
-  return page({
+  return page({ leaf: true,
     title: "Your shared text", description: "What became of the Forever text you shared with Lore Forever.",
     path: `/contribute/r/${b.upload_id}`, crumbs: '<a href="/contribute">Share Forever text</a> &rsaquo; Receipt',
     body, robots: "noindex", scripts: "",
@@ -55,7 +55,7 @@ export function receiptPage(r) {
 
 export async function onRequestGet({ env, params }) {
   const id = String(params.id || "").toLowerCase();
-  const missing = () => html(page({
+  const missing = () => html(page({ leaf: true,
     title: "No upload here", description: "No shared text with that link.", path: `/contribute/r/${escape(id)}`,
     crumbs: '<a href="/contribute">Share Forever text</a>', robots: "noindex", scripts: "",
     body: `  <h1>No upload here</h1>\n  <p>There's no shared text with that link. Check that it was copied whole.</p>`,

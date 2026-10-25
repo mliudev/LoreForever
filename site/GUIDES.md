@@ -38,7 +38,7 @@ which pages to inspect, and screenshots when useful. Keep article writing in the
 editor. The existing Guides navigation is already live; no further navigation work
 is needed for this issue.
 
-The **Site preview** check runs site tests and builds a Pages bundle on a disposable
+On a contributor's PR (anyone but the owner), the **Site preview** check runs site tests and builds a Pages bundle on a disposable
 GitHub-hosted runner with a read-only token, no stored checkout credentials, and no
 production secrets. Download its `site-preview-pr-<number>-<head SHA>` artifact. It
 contains `public/` (including the compiled Worker), `commit.txt` (the tested merge

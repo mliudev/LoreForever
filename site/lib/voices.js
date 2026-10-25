@@ -222,24 +222,24 @@ export function voiceFilters(voices) {
 
 // ---- Whole pages (profile, contributors; player profiles in lib/profiles.js) ----
 
-// The site header (LOR-222), the same on every page: keep the static pages' copies in step with it.
+// The site header (LOR-222; the Chronicle bar), the same on every page: keep the static pages' copies in step with it
+// (lib/doors.js rewrites the Willo link and, on her door, swaps .nav-links and .head-actions for hers: keep those two
+// blocks flat, the Willo link's class and id as they are, and nothing else in the nav that her door would inherit).
 // public/header.js brings it to life. The inline script runs
 // before any of it is drawn, so nothing in it changes afterwards: it puts hd-wait on <html> (with JavaScript on, the
-// profile link's spot keeps its place but stays blank until header.js knows whether you're signed in), and hd-nolore
+// Sign in link's spot keeps its place but stays blank until header.js knows whether you're signed in), and hd-nolore
 // when the site features header.js remembers (lf-features) say the Lore link is off (style.css). Lore is in the
 // markup while the "lore" feature is on (lib/features.js).
 export const SITE_NAV = `  <nav class="wrap nav" aria-label="Lore Forever">
     <script>(c => { c.add("hd-wait"); try { if (JSON.parse(localStorage.getItem("lf-features")).lore === false) c.add("hd-nolore"); } catch (e) {} })(document.documentElement.classList)</script>
-    <a class="brand" href="/"><img src="/img/logo.svg" alt="" width="30" height="30"><span>Lore Forever</span></a>
+    <a class="brand" href="/"><i class="mk" aria-hidden="true">&#9670;</i> <span>Lore Forever</span></a>
     <div class="nav-links">
-      <a class="nl nl-willo" id="nav-willo" href="/willo">Willo</a>
-      <a class="nl" id="nav-download" href="/downloads">Download</a>
       <a class="nl" id="nav-lore" href="/lore">Lore</a>
       <a class="nl" id="nav-guides" href="/guides">Guides</a>
       <a class="nl" id="nav-new" href="/whats-new">What's new</a>
       <a class="nl" id="nav-community" href="/feedback">Community</a>
     </div>
-    <div class="head-actions"><a class="nl nl-pf" id="nav-profile" href="/account#profile"><svg class="nl-icon" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="8" r="4"/><path d="M4 21c0-4.4 3.6-8 8-8s8 3.6 8 8"/></svg><span class="hd-wide">Make your profile</span><span class="hd-narrow">Profile</span></a></div>
+    <div class="head-actions"><a class="nl nl-willo" id="nav-willo" href="/willo">Willo<span class="nl-out" aria-hidden="true">&#8599;</span></a><a class="nl nl-dl" id="nav-download" href="/downloads">Download</a><a class="nl btn-in" id="nav-profile" href="/account#profile">Sign in</a></div>
   </nav>`;
 
 // The name on the header's account chip: the account's name, else the start of its email (public/header.js does the
@@ -259,44 +259,55 @@ export const siteNav = viewer => viewer
 // .css and .js files for 4 hours without asking (Cloudflare's Browser Cache TTL, which overrides any Cache-Control we
 // send for them), so without a new address a browser can pair a new page with the old styles and scripts (seen 10/11,
 // right after the profile was rebuilt).
-export const FRESH = "v=20261021r";
+export const FRESH = "v=20261026a";
 
 const FONTS = "https://fonts.googleapis.com/css2?family=Alegreya+Sans:wght@400;500;700&family=Cinzel:wght@600;700&display=swap";
 
 // The site's column footer (style.css .h-foot, as on the home page and the static pages): lead, the page's own line(s)
 // over it, if any; the optional email sign-up, which public/js/foot.js sends to /api/subscribe tagged with source (the
 // page it came from); then the site's parts in columns and the fine print.
-export function siteFoot({ lead = "", source = "site" } = {}) {
+export function siteFoot({ lead = "", source = "site", signup = true, legal } = {}) {
+  const fine = legal ?? `<p>Lore text is adapted from the <a href="https://warcraft.wiki.gg">Warcraft Wiki</a> under
+        <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a>.</p>
+      <p>Lore Forever is a fan-made add-on. World of Warcraft and Warcraft are trademarks of Blizzard Entertainment, Inc.
+        Not affiliated with or endorsed by Blizzard.</p>`;
   return `<footer class="h-foot">
   <div class="h-wrap">
 ${lead ? `    <div class="h-foot-lead">${lead}</div>\n` : ""}    <div class="h-foot-grid">
-      <div class="h-sign">
-        <span class="h-brand"><img src="/img/logo.svg" alt="" width="30" height="30">Lore Forever</span>
-        <p>One email when a new version is out, and your address is used for nothing else
-          (<a href="/privacy">privacy</a>). <a href="/unsubscribe">Unsubscribe anytime</a>.</p>
-        <form class="h-sub-form" id="signup" data-source="${escape(source)}">
-          <label for="signup-email" class="h-vh">Email address</label>
-          <input type="email" name="email" id="signup-email" required placeholder="you@example.com" autocomplete="email">
-          <input type="text" name="website" class="h-vh" tabindex="-1" autocomplete="off" aria-hidden="true">
-          <button type="submit" class="h-btn h-ghost h-sm">Notify me</button>
-          <p class="signup-note" id="signup-note" hidden>Thanks, you're on the list.</p>
-        </form>
-      </div>
-      <nav aria-label="The add-on"><h2>The add-on</h2><ul><li><a href="/downloads">Download</a></li><li><a href="/downloads#voices">Narrator voices</a></li><li><a href="/downloads#languages">Languages</a></li><li><a href="/lore">Lore library</a></li><li><a href="/guides">Guides</a></li><li><a href="/whats-new">What's new</a></li></ul></nav>
-      <nav aria-label="Willo"><h2>Willo</h2><ul><li><a href="/willo">Meet Willo</a></li><li><a href="/plans">Plans</a></li><li><a href="/willo/style">Willo's style</a></li><li><a href="/faq">FAQ</a></li></ul></nav>
-      <nav aria-label="Community"><h2>Community</h2><ul><li><a href="/discord?src=site">Discord</a></li><li><a href="https://www.twitch.tv/jiuthaimike">Twitch</a></li><li><a href="/voices/lend">Lend your voice</a></li><li><a href="/translate">Help translate</a></li><li><a href="/contributors">Contributors</a></li><li><a href="/creators">Creator program</a></li></ul></nav>
-      <nav aria-label="About"><h2>About</h2><ul><li><a href="/feedback">Send feedback</a></li><li><a href="/privacy">Privacy</a></li><li><a href="/terms">Terms</a></li><li><a href="/refunds">Refunds</a></li><li><a href="https://github.com/mliudev/LoreForever">Source on GitHub</a></li></ul></nav>
+      <nav aria-label="The add-on"><h2>The add-on</h2><ul><li><a href="/downloads">Download</a></li><li><a href="/whats-new">What's new</a></li><li><a href="/downloads#languages">Languages</a></li><li><a href="/guides">Guides</a></li><li><a href="/downloads#voices">Narrator voices</a></li><li><a href="/lore">Lore library</a></li></ul></nav>
+      <nav aria-label="Community"><h2>Community</h2><ul><li><a href="/discord?src=site">Discord</a></li><li><a href="/translate">Translate</a></li><li><a href="/voices/lend">Lend your voice</a></li><li><a href="/contributors">Contributors</a></li><li><a href="https://www.twitch.tv/jiuthaimike">Twitch</a></li><li><a href="/creators">Creator program</a></li></ul></nav>
+      <nav aria-label="Willo"><h2>Sister site</h2><ul><li><a href="/willo">Willo<span class="nl-out" aria-hidden="true">&#8599;</span></a></li><li><a class="dim" href="/willo">willocompanion.com</a></li><li class="h-foot-tag">Talk to the world while you play.</li><li><a href="/plans">Plans</a></li><li><a href="/willo/style">Willo's style</a></li></ul></nav>
+      <nav aria-label="About"><h2>Fine print</h2><ul><li><a href="/privacy">Privacy</a></li><li><a href="/terms">Terms</a></li><li><a href="/feedback">Feedback</a></li><li><a href="/refunds">Refunds</a></li><li><a href="/faq">FAQ</a></li><li><a href="https://github.com/mliudev/LoreForever">Source on GitHub</a></li></ul></nav>
     </div>
-    <div class="h-legal">
-      <p>Lore text is adapted from the <a href="https://warcraft.wiki.gg">Warcraft Wiki</a> under
-        <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a>.</p>
-      <p>Lore Forever is a fan-made add-on. World of Warcraft and Warcraft are trademarks of Blizzard Entertainment, Inc.
-        Not affiliated with or endorsed by Blizzard.</p>
+    <div class="h-foot-base">
+${signup ? `      <form class="h-sub-form" id="signup" data-source="${escape(source)}">
+        <label for="signup-email" class="h-vh">Email address</label>
+        <input type="email" name="email" id="signup-email" required placeholder="you@example.com" autocomplete="email">
+        <input type="text" name="website" class="h-vh" tabindex="-1" autocomplete="off" aria-hidden="true">
+        <button type="submit" class="h-btn h-sm">Tell me when there's news</button>
+        <p class="signup-note" id="signup-note" hidden>Thanks, you're on the list.</p>
+      </form>
+` : "      <span></span>\n"}      <span class="h-by">by <b>Mike</b></span>
+    </div>
+${signup ? `    <p class="h-foot-small">One email when a new version is out, and your address is used for nothing else
+      (<a href="/privacy">privacy</a>). <a href="/unsubscribe">Unsubscribe anytime</a>.</p>
+` : ""}    <div class="h-legal">
+      ${fine}
     </div>
   </div>
 </footer>
 <script src="/js/foot.js?v=20261015a" defer></script>`;
 }
+
+// The ribbons the community pages and the tools hang over their sheet (public/community.css .ly-ribbons; the design's
+// "ribbons"): the siblings, the one you are on marked. `current` is its path. Static pages carry their own copy of the same
+// markup (public/translate.html, feedback.html, voices/lend.html, voices/studio.html, translate/dashboard.html).
+const ribbonNav = (label, tabs, current) => `<nav class="ly-ribbons" aria-label="${label}">${tabs.map(([text, href]) =>
+  `<a class="ly-ribbon" href="${href}"${href === current ? ' aria-current="page"' : ""}>${text}</a>`).join("")}</nav>`;
+export const communityRibbons = current => ribbonNav("Community", [["Lend your voice", "/voices/lend"], ["Translate", "/translate"],
+  ["Contributors", "/contributors"], ["Feedback", "/feedback"]], current);
+export const toolsRibbons = current => ribbonNav("Tools", [["Narrator studio", "/voices/studio"],
+  ["Translate editor", "/translate/dashboard"]], current);
 
 // crumbs, foot and scripts replace the voice pages' breadcrumb (under the header; "" for none), footer line and player
 // script; robots adds a robots meta tag; head adds tags after the site stylesheet (a page's own stylesheet). viewer:
@@ -306,12 +317,12 @@ ${lead ? `    <div class="h-foot-lead">${lead}</div>\n` : ""}    <div class="h-f
 // top, its column, and the column footer (siteFoot, with foot as its lead line and source tagging its sign-up). The
 // player profiles (lib/profiles.js) add public/profile.css for their own pieces.
 export function page({ title, fullTitle, description, path, crumb, body, image, imageAlt, crumbs, foot, scripts, robots, head, viewer,
-  bw = true, source }) {
+  bw = true, source, leaf = false, ribbons = "", lang = "en" }) {
   const url = "https://loreforeverwow.com" + path;
   const trail = crumbs ?? `<a href="/downloads">Downloads</a> &rsaquo; ${escape(crumb)}`;
   const lead = foot ?? `<p>Want a page like this for your own voice? <a href="/voices/studio">Open the narrator dashboard</a>.</p>`;
   return `<!doctype html>
-<html lang="en">
+<html lang="${escape(lang)}">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -332,7 +343,7 @@ ${twitterText({ title, description })}
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="${bw ? FONTS : "https://fonts.googleapis.com/css2?family=Cinzel:wght@600;700&display=swap"}">
 <link rel="stylesheet" href="/style.css?${FRESH}">
-${bw ? `<link rel="stylesheet" href="/pages.css?${FRESH}">\n` : ""}${head ? head + "\n" : ""}<script src="/header.js" defer></script>
+${bw ? `<link rel="stylesheet" href="/pages.css?${FRESH}">\n` : ""}${bw && leaf ? `<link rel="stylesheet" href="/community.css?v=20261026a">\n` : ""}${head ? head + "\n" : ""}<script src="/header.js?v=20261026a" defer></script>
 </head>
 <body${bw ? ` class="bw${bw === "wisp" ? " wisp" : ""}"` : ""}>
 
@@ -343,8 +354,8 @@ ${siteNav(viewer)}${trail ? `
 ${bw ? `
 <main class="bw-page">
   <div class="h-sky${bw === "wisp" ? " h-sky-w" : ""} bw-sky" aria-hidden="true"></div>
-  <div class="h-wrap bw-in vp-page">
-${body}
+  <div class="h-wrap bw-in vp-page${leaf ? " ch-leaf" : ""}${ribbons ? " ly-tabbed" : ""}">
+${ribbons}${body}
   </div>
 </main>
 
@@ -410,7 +421,7 @@ export function profilePage(v, likes, { zones = [] } = {}) {
     description: `${v.name}, a narration voice for Lore Forever. ${v.tagline || ""}`.trim(),
     path: "/voices/" + v.id,
     crumb: v.name,
-    body,
+    body, leaf: true,
   });
 }
 

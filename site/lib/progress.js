@@ -161,7 +161,7 @@ export function progressPage(cov, { hidden = true } = {}) {
   </section>` : ""}
   <p class="vp-note">${cov?.generated ? `Updated nightly; last on ${shortDate(cov.generated)}. ` : "Updated nightly. "}Everyone who
     finds text is thanked on <a href="/contributors">Contributors</a>.</p>`;
-  return page({
+  return page({ leaf: true,
     title: "Forever text: progress",
     description: "How much of WoW Forever's new quests Lore Forever has captured and narrated so far, and what's still wanted.",
     path: "/contribute/progress",
