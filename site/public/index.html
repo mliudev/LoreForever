@@ -36,7 +36,7 @@
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Alegreya+Sans:wght@400;500;700;800&family=Alegreya:ital,wght@0,400;0,600;1,400&family=Cinzel:wght@600;700&display=swap">
 <link rel="stylesheet" href="style.css?v=20261026a">
 <link rel="stylesheet" href="/chronicle.css?v=20261026a">
-<link rel="stylesheet" href="/home.css?v=20261026a">
+<link rel="stylesheet" href="/home.css?v=20261026c">
 <script src="/header.js?v=20261026a" defer></script>
 <!-- Structured data (LOR-465; revamp 2026-10-15): the site (WebSite), its author (Person), the two products
      (SoftwareApplication: the add-on, and Willo, whose own page is /willo) and Willo's two clips (VideoObject). The
@@ -202,10 +202,10 @@
 </header>
 
 <!-- newbar:begin (written by scripts/changelog.py from CHANGELOG.md; edit that instead) -->
-<aside class="newbar" id="newbar" data-version="0.28.0" aria-label="New in 0.28.0" hidden>
+<aside class="newbar" id="newbar" data-version="0.29.0" aria-label="New in 0.29.0" hidden>
   <div class="wrap newbar-in">
-    <span class="tag tag-new">New in 0.28.0</span>
-    <a href="/whats-new#v0-28-0">Your Chronicle is an open book</a><span class="newbar-sep" aria-hidden="true">&middot;</span><a class="newbar-more" href="/whats-new#v0-28-0">Found in picture cards</a><span class="newbar-sep" aria-hidden="true">&middot;</span><a class="newbar-more" href="/whats-new#v0-28-0">Quest pages</a>
+    <span class="tag tag-new">New in 0.29.0</span>
+    <a href="/whats-new#v0-29-0">The Chronicle, reworked</a><span class="newbar-sep" aria-hidden="true">&middot;</span><a class="newbar-more" href="/whats-new#v0-29-0">Rewritten lore, read aloud</a><span class="newbar-sep" aria-hidden="true">&middot;</span><a class="newbar-more" href="/whats-new#v0-29-0">Sign in with your email</a>
     <a class="newbar-all" href="/whats-new">See what's new</a>
   </div>
   <button class="newbar-x" type="button" aria-label="Hide until the next version">&times;</button>
@@ -254,7 +254,7 @@
             quest and item you find into your own Chronicle. The one beside this is Húrin's.</p>
           <div class="hb-getit">
             <a class="hb-btn dl-link" id="download" href="/download/installer"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M11 3h2v9.2l3.3-3.3 1.4 1.4L12 16l-5.7-5.7 1.4-1.4 3.3 3.3z"/><path d="M4 18h16v3H4z"/></svg>Download for Windows</a>
-            <ul class="hb-meta"><li id="downloads"><strong>New release</strong></li><li>Version <strong>0.28.0</strong></li><li><a class="dl-link" href="/download/zip">Mac or by hand: the zip</a></li></ul>
+            <ul class="hb-meta"><li id="downloads"><strong>New release</strong></li><li>Version <strong>0.29.0</strong></li><li><a class="dl-link" href="/download/zip">Mac or by hand: the zip</a></li></ul>
           </div>
         </div>
         <div class="hb-author">
@@ -351,7 +351,7 @@
 </section>
 
 <!-- door:willo -->
-<!-- The wisp's chapter: what Willo does, her voice, and her plans. The plans' prices and the beta offer come from
+<!-- The wisp's chapter: what Willo does, her voice, and her plans. The plans' prices and the pre-order line come from
      /api/billing/plans (lib/billing.js) when it answers; the words here are what it says today, for a page without
      JavaScript. Pages the add-on links to stay price-free (LOR-491): that's /willo, not this one. -->
 <section class="h-chapter w h-sky" aria-labelledby="ch-wisp">
@@ -376,11 +376,11 @@
       <div class="h-sub"><h3>Free to start. A plan keeps her talking.</h3><a href="/plans">Compare every plan</a></div>
       <ul class="h-plans">
         <li class="h-plan" data-plan="free"><span class="h-pill w" hidden></span><h3>Adventurer</h3><p class="h-price">Free</p><p>Chat with Willo: 20 answers a day. Your first 30 questions out loud are answered aloud.</p></li>
-        <li class="h-plan" data-plan="hero"><span class="h-pill w">Beta: free</span><h3>Hero</h3><p class="h-price">$4.99 <small>a month</small></p><p>Ask out loud and she answers in her voice, up to 4 hours of play a day. She sees your game.</p></li>
-        <li class="h-plan" data-plan="champion"><span class="h-pill w">Beta: half price</span><h3>Champion</h3><p class="h-price">$9.99 <small>a month</small></p><p>Her studio voices, up to 8 hours a day. Characters in voices of their own. Longer memory.</p></li>
-        <li class="h-plan" data-plan="legend"><span class="h-pill w">Beta: half price</span><h3>Legend</h3><p class="h-price">$19.99 <small>a month</small></p><p>The most answers and Willo's finest voice. Everything in Champion.</p></li>
+        <li class="h-plan" data-plan="hero"><span class="h-pill w" hidden></span><h3>Hero</h3><p class="h-price">$4.99 <small>a month</small></p><p>Ask out loud and she answers in her voice, up to 4 hours of play a day. She sees your game.</p></li>
+        <li class="h-plan" data-plan="champion"><span class="h-pill w" hidden></span><h3>Champion</h3><p class="h-price">$9.99 <small>a month</small></p><p>Her studio voices, up to 8 hours a day. Characters in voices of their own. Longer memory.</p></li>
+        <li class="h-plan" data-plan="legend"><span class="h-pill w" hidden></span><h3>Legend</h3><p class="h-price">$19.99 <small>a month</small></p><p>The most answers and Willo's finest voice. Everything in Champion.</p></li>
       </ul>
-      <p class="h-beta"><span id="h-beta">Half price during the beta. Full price from launch, November 4.</span></p>
+      <p class="h-beta" hidden><span id="h-beta"></span></p>
     </div>
     <p class="h-beta">Willo needs the add-on, Windows 10 or 11, and a free Lore Forever sign-in.</p>
   </div>
@@ -397,7 +397,7 @@
       <nav aria-label="The add-on"><h2>The add-on</h2><ul><li><a href="/downloads">Download</a></li><li><a href="/whats-new">What's new</a></li><li><a href="/downloads#languages">Languages</a></li><li><a href="/guides">Guides</a></li><li><a href="/downloads#voices">Narrator voices</a></li><li><a href="/lore">Lore library</a></li></ul></nav>
       <nav aria-label="Community"><h2>Community</h2><ul><li><a href="/discord?src=site">Discord</a></li><li><a href="/translate">Translate</a></li><li><a href="/voices/lend">Lend your voice</a></li><li><a href="/contributors">Contributors</a></li><li><a href="https://www.twitch.tv/jiuthaimike">Twitch</a></li><li><a href="/creators">Creator program</a></li></ul></nav>
       <nav aria-label="Willo"><h2>Sister site</h2><ul><li><a href="/willo">Willo<span class="nl-out" aria-hidden="true">&#8599;</span></a></li><li><a class="dim" href="/willo">willocompanion.com</a></li><li class="h-foot-tag">Talk to the world while you play.</li><li><a href="/plans">Plans</a></li><li><a href="/willo/style">Willo's style</a></li></ul></nav>
-      <nav aria-label="Help"><h2>Help</h2><ul><li><a href="/faq">FAQ</a></li><li><a href="/feedback">Send feedback</a></li></ul></nav>
+      <nav aria-label="Help"><h2>Help</h2><ul><li><a href="/faq">FAQ</a></li><li><a href="/credits">Credits</a></li><li><a href="/feedback">Send feedback</a></li></ul></nav>
       <nav aria-label="About"><h2>Fine print</h2><ul><li><a href="/privacy">Privacy</a></li><li><a href="/terms">Terms</a></li><li><a href="/refunds">Refunds</a></li><li><a href="https://github.com/mliudev/LoreForever">Source on GitHub</a></li></ul></nav>
     </div>
     <div class="h-foot-base">
@@ -413,8 +413,6 @@
     <p class="h-foot-small">One email when a new version is out, and your address is used for nothing else
       (<a href="/privacy">privacy</a>). <a href="/unsubscribe">Unsubscribe anytime</a>.</p>
     <div class="h-legal">
-      <p>Lore text is adapted from the <a href="https://warcraft.wiki.gg">Warcraft Wiki</a> under
-        <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a>.</p>
       <p>Lore Forever is a fan-made add-on. World of Warcraft and Warcraft are trademarks of Blizzard Entertainment, Inc.
         Not affiliated with or endorsed by Blizzard.</p>
     </div>
@@ -424,7 +422,7 @@
 <!-- Húrin's book (it fills the cover's neighbour from /api/home-book), Willo's voices (one plays at a time; playing one
      stops Willo's clip from talking over it), the footer's sign-up, and on touch screens the button that sends Willo's
      link to the PC. -->
-<script src="/js/home-book.js?v=20261026a" defer></script>
+<script src="/js/home-book.js?v=20261026d" defer></script>
 <script src="/js/players.js?v=20261015a" defer></script>
 <script src="/js/keep-link.js?v=20261016u" defer></script>
 <script src="/js/foot.js?v=20261015a" defer></script>
@@ -521,7 +519,7 @@ document.addEventListener("visibilitychange", () => { if (!document.hidden) show
   }
 })();
 
-// Willo's plans, from /api/billing/plans (lib/billing.js): each card's price and beta offer, and the offer's line.
+// Willo's plans, from /api/billing/plans (lib/billing.js): each card's price and offer, and the pre-order line.
 // Without an answer the cards keep the words they were written with; with plans switched off they go.
 (async function showPlans() {
   if (!document.getElementById("h-plans-wrap")) return;   // no plans on Lore Forever after the split

@@ -8,11 +8,11 @@
   "wiki": "Brother Neals",
   "refs": 1
  },
- "summary": "Brother Neals is a monk residing in Northshire Abbey within Elwynn Forest. Responsible for managing the abbey's stores of food and drink, he spends much of his time overseeing shipments and sampling the vintage produced by the local vineyard.",
+ "summary": "At Northshire Abbey, Brother Neals keeps watch over the food and drink stores. He oversees shipments and samples wine from the local vineyard.",
  "sections": [
   {
    "title": "Keeper of the Cellar",
-   "body": "Tucked away in the upper belfry rooms of Northshire Abbey, Brother Neals looks after the monastery's culinary provisions and beverage stores. He takes a particular, enthusiastic interest in the Northshire vineyards, carefully tracking grape manifests and ensuring the quality of the abbey's renowned wine by tasting it with dedicated frequency. Despite the peaceful duties of inventory and cellar management, he keeps close tabs on the shipments arriving from the valley's surrounding fields.",
+   "body": "Brother Neals keeps Northshire Abbey supplied with food and drink from his rooms in the upper belfry. He follows the grape manifests from the Northshire vineyards and tastes the wine to check its quality. He also watches the shipments arriving from the fields around the valley.",
    "spoiler": 0
   }
  ],
@@ -24,7 +24,7 @@
     "neals",
     "who is neals"
    ],
-   "answer": "Brother Neals is a member of the brotherhood at Northshire Abbey who manages food, drink, and wine inventories for the clergy and recruits stationed in the valley."
+   "answer": "Brother Neals belongs to Northshire Abbey and manages its stores of food, drink, and wine for the clergy and recruits in the valley."
   },
   {
    "q": "Where can Brother Neals be found?",
@@ -33,7 +33,7 @@
     "brother neals location",
     "find neals"
    ],
-   "answer": "He stays in the uppermost room of Northshire Abbey. To reach him, head up the stone staircases inside the main hall until you reach the quiet chamber near the top of the tower."
+   "answer": "Brother Neals stays in the uppermost room of Northshire Abbey. Climb the stone staircases inside the main hall to reach the quiet chamber near the top of the tower."
   },
   {
    "q": "What is his role regarding the vineyard?",
@@ -42,13 +42,13 @@
     "neals wine",
     "what does neals do"
    ],
-   "answer": "He tracks the grape harvests and wine shipments coming in from the nearby Northshire Vineyard, though he is known to spend just as much time sampling the vintage as he does balancing the ledgers."
+   "answer": "Brother Neals tracks grape harvests and wine shipments from the nearby Northshire Vineyard. He spends time sampling the vintage as well as keeping the ledgers."
   }
  ],
  "angles": [
   {
    "target": "profession:Cooking",
-   "text": "Brother Neals manages the monastery's provisions and spirits, making him a kindred spirit to anyone interested in the culinary arts and brewing traditions of the kingdom."
+   "text": "As someone who manages the monastery's provisions and spirits, Brother Neals has a role tied to the culinary arts."
   }
  ],
  "keywords": [
@@ -68,5 +68,6 @@
  ],
  "attribution": [
   "Brother Neals"
- ]
+ ],
+ "style": 1
 }

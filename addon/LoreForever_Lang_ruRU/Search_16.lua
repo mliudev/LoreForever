@@ -2,8 +2,6 @@
 -- Sources: data/i18n/ruRU. Lore text adapted from warcraft.wiki.gg (CC BY-SA 4.0); the core add-on's src fields name the articles.
 local P = LoreForeverPacks.Begin("LoreForever_Lang_ruRU")
 local Po = P.search.post
-Po["деревопроба"] = "BaTB"
-Po["деревопроисхождение"] = "I7YC"
 Po["деревопротив"] = "KDVC"
 Po["деревосердцедрево"] = "AnYCEUkC"
 Po["деревотак"] = "DOyC"
@@ -12002,3 +12000,5 @@ Po["заданиенейтральное"] = "DZDC"
 Po["заданиенеобходимое"] = "GDNC"
 Po["заданиенеобходимые"] = "G+dC"
 Po["заданиенеобходимый"] = "EzWCEzYBE1kB"
+Po["заданиенеотправленное"] = "Bi3C"
+Po["заданиенепосредственно"] = "DUwCDjNCESTCFTXC"

@@ -21,16 +21,16 @@
    "Alther's Mill (quest)"
   ]
  },
- "summary": "This directive summons promising young rogues from Elwynn Forest directly into the heart of Stormwind's covert intelligence network. Directed by Keryn Sylvius in Goldshire, agents are ordered to report immediately to Renzik \"The Shiv\" in Old Town. Answering this summons brings an operative directly into service under Master Mathias Shaw.",
+ "summary": "In Goldshire, Keryn Sylvius sends promising young rogues toward Stormwind's hidden ranks. Recruits report to Renzik \"The Shiv\" in Old Town, where they enter Master Mathias Shaw's service.",
  "sections": [
   {
    "title": "A Summons to Old Town",
-   "body": "Operating out of the Lion's Pride Inn in Goldshire, rogue trainer Keryn Sylvius keeps tabs on local recruits. When a rogue shows enough cunning and competence against the gathering Defias threat, Sylvius passes along word from headquarters. The summons is brief and unceremonious: report to Renzik \"The Shiv\" without delay. Leaving the fields of Elwynn behind, the agent is directed straight into the covert heart of the capital.",
+   "body": "Keryn Sylvius watches local recruits from the Lion's Pride Inn in Goldshire. When a rogue proves cunning and capable against the growing Defias threat, Sylvius passes along a message from headquarters. The order is plain: report to Renzik \"The Shiv\" without delay. The recruit leaves Elwynn's fields for the covert heart of Stormwind.",
    "spoiler": 0
   },
   {
    "title": "Stormwind's Hidden Eyes",
-   "body": "Tucked away behind the facade of an unassuming barracks in Old Town sits the headquarters of SI:7, Stormwind's premier intelligence agency. Commanded by Master Mathias Shaw, SI:7 manages covert operations, reconnaissance, and assassination throughout the kingdom and beyond. Renzik \"The Shiv,\" Shaw's sharp-tongued second-in-command, personally vets promising field agents before dispatching them into high-stakes operations that the kingdom's formal military cannot touch.",
+   "body": "Behind an unassuming barracks in Old Town, SI:7 keeps its headquarters. Master Mathias Shaw commands the agency, whose work includes covert operations, reconnaissance, and assassination across the kingdom and beyond. Renzik \"The Shiv,\" Shaw's sharp-tongued second-in-command, assesses promising agents before sending them into dangerous work beyond the reach of the kingdom's formal military.",
    "spoiler": 0
   }
  ],
@@ -42,7 +42,7 @@
     "quest giver",
     "keryn sylvius"
    ],
-   "answer": "Keryn Sylvius, the rogue trainer at the Lion's Pride Inn in Goldshire, gives you the directive. Once you prove your competence in the field, Sylvius passes down orders instructing you to report to headquarters in Stormwind."
+   "answer": "Keryn Sylvius, the rogue trainer at the Lion's Pride Inn in Goldshire, sends you to report to SI:7. After you prove your skill in the field, Sylvius gives you orders to report to Stormwind headquarters."
   },
   {
    "q": "Who is Renzik \"The Shiv\"?",
@@ -51,7 +51,7 @@
     "who is renzik",
     "renzik"
    ],
-   "answer": "Renzik \"The Shiv\" is a goblin operative who serves as the second-in-command of SI:7, working directly under Master Mathias Shaw. He evaluates field agents and coordinates covert intelligence assignments from SI:7's headquarters in Old Town."
+   "answer": "Renzik \"The Shiv\" is a goblin operative and SI:7's second-in-command under Master Mathias Shaw. He evaluates field agents and coordinates covert intelligence assignments from the headquarters in Old Town."
   },
   {
    "q": "What is SI:7?",
@@ -60,7 +60,7 @@
     "what does si7 do",
     "stormwind intelligence"
    ],
-   "answer": "SI:7\u2014Stormwind Intelligence\u2014is the covert espionage, reconnaissance, and assassination branch of the Kingdom of Stormwind. Led by Mathias Shaw, its operatives gather intelligence on threats to the crown that conventional guards and soldiers cannot address."
+   "answer": "SI:7, or Stormwind Intelligence, handles covert espionage, reconnaissance, and assassination for the Kingdom of Stormwind. Led by Mathias Shaw, its operatives gather intelligence on threats the kingdom's guards and soldiers cannot address."
   },
   {
    "q": "Where is the SI:7 headquarters located?",
@@ -69,7 +69,7 @@
     "si7 location",
     "where is renzik"
    ],
-   "answer": "The SI:7 headquarters is located in the eastern portion of Old Town in Stormwind City. It operates out of a fortified guildhall and training barracks tucked away from the main streets."
+   "answer": "SI:7's headquarters is in eastern Old Town in Stormwind City. The agency operates from a fortified guildhall and training barracks set away from the main streets."
   },
   {
    "q": "What happens after reporting to Renzik?",
@@ -78,7 +78,7 @@
     "what comes after",
     "redridge rendezvous"
    ],
-   "answer": "Once you report to Renzik, he tests your readiness before assigning you a field mission beyond the city walls, dispatching you to meet an operative stationed in Redridge."
+   "answer": "After you report to Renzik, he tests your readiness, then sends you beyond the city walls to meet an operative stationed in Redridge."
   },
   {
    "q": "Why does Keryn Sylvius call me 'fish'?",
@@ -86,17 +86,17 @@
     "why called fish",
     "fish meaning"
    ],
-   "answer": "It is slang for an untested novice or new recruit. Operatives within the agency use colorful, abrasive nicknames to keep rookies grounded until they have proven themselves on real assignments."
+   "answer": "“Fish” is slang for an untested novice or new recruit. Agency operatives use colorful, abrasive nicknames to keep rookies grounded until they prove themselves on real assignments."
   }
  ],
  "angles": [
   {
    "target": "class:Rogue",
-   "text": "This summons marks your transition from a scoundrel working local jobs into a recognized operative for Stormwind's official intelligence branch."
+   "text": "As a rogue, this summons takes you from local work into service as an operative for Stormwind's official intelligence branch."
   },
   {
    "target": "faction:Alliance",
-   "text": "SI:7 serves as the covert shield of the Alliance, handling dangerous espionage operations that regular marshals and infantry cannot publicly undertake."
+   "text": "As an Alliance member, you can look to SI:7 for dangerous espionage beyond the reach of regular marshals and infantry."
   }
  ],
  "keywords": [
@@ -118,5 +118,6 @@
  ],
  "attribution": [
   "SI:7 (quest)"
- ]
+ ],
+ "style": 1
 }

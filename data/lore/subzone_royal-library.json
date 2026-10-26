@@ -7,11 +7,11 @@
  "meta": {
   "wiki": "Royal Library"
  },
- "summary": "Tucked deep within the stone wing of Stormwind Keep, the Royal Library preserves the collective memory, chronicle scrolls, and treatises of the kingdom. Under the watchful eye of Head Librarian Milton Sheaf, its shelves hold crucial records of ancient wars, lost legends, and the realms beyond the sea.",
+ "summary": "Scholars come to the Royal Library in Stormwind Keep for the kingdom’s records and histories. Head Librarian Milton Sheaf watches over its scrolls and treatises, from ancient wars to accounts of realms beyond the sea.",
  "sections": [
   {
    "title": "A Repository of the Realm",
-   "body": "While Stormwind Keep bristles with armored guards and courtly intrigue, its Royal Library offers an island of scholarly quiet. Overseen by Milton Sheaf, the hall serves as the premier archive of southern human history, preserving surviving texts from before the First War alongside recent military chronicles and recovered tomes. Alliance scholars, priests, and travelers are free to browse its open treatises, which cover everything from the formation of the original Alliance of Lordaeron to the recent emergence of Thrall's Horde in Kalimdor.",
+   "body": "The Royal Library offers quiet among Stormwind Keep’s guarded halls and courtly intrigues. Milton Sheaf oversees its shelves of southern human history, from surviving texts written before the First War to recent military chronicles and recovered tomes. Alliance scholars, priests, and travelers may browse its treatises. They cover the founding of the Alliance of Lordaeron and the recent arrival of Thrall’s Horde in Kalimdor.",
    "spoiler": 0
   }
  ],
@@ -23,7 +23,7 @@
     "stormwind library location",
     "how to find library"
    ],
-   "answer": "It is located inside Stormwind Keep, the royal fortress resting in the eastern sector of Stormwind City. Once through the keep's grand foyer, take the corridors leading into the scholar and archive wings."
+   "answer": "The Royal Library lies inside Stormwind Keep, in the eastern part of Stormwind City. From the keep’s grand foyer, follow the corridors to its scholar and archive wings."
   },
   {
    "q": "Who runs the library?",
@@ -32,7 +32,7 @@
     "head librarian",
     "milton sheaf"
    ],
-   "answer": "Milton Sheaf serves as the head librarian. He manages the archive's records and assists scholars and adventurers seeking missing volumes or specific kingdom treatises."
+   "answer": "Milton Sheaf is the head librarian. He manages the records and helps scholars and adventurers find missing volumes or treatises on the kingdom."
   },
   {
    "q": "What kinds of books can be read here?",
@@ -41,7 +41,7 @@
     "readable lore books",
     "what to read"
    ],
-   "answer": "Visitors can read historical works covering the Alliance of Lordaeron, the Guardians of Tirisfal, the aftermath of the Second War, and reports regarding the New Horde, alongside regional histories of Stormwind and Alterac."
+   "answer": "Visitors can read histories of the Alliance of Lordaeron, the Guardians of Tirisfal, and the aftermath of the Second War. The shelves also hold reports on the New Horde and regional histories of Stormwind and Alterac."
   },
   {
    "q": "Who may use the library?",
@@ -49,17 +49,17 @@
     "can i use the library",
     "who can read in the library"
    ],
-   "answer": "Adventurers from all races of the Alliance may come to the Royal Library to peruse its extensive collection of scrolls, tomes and texts on a wide range of subjects."
+   "answer": "Adventurers of every Alliance race may browse the Royal Library’s collection of scrolls, tomes, and texts on many subjects."
   }
  ],
  "angles": [
   {
    "target": "class:Mage",
-   "text": "For scholars of the arcane, the library offers rare primary sources on Tirisfal's past, ancient dragon hunts, and the legacy of the Last Guardian."
+   "text": "As a mage, you can find rare firsthand accounts of Tirisfal’s past, ancient dragon hunts, and the legacy of the Last Guardian."
   },
   {
    "target": "faction:Alliance",
-   "text": "The shelves preserve the foundational treaties and war chronicles that bind the human, dwarven, and elven peoples across generations of conflict."
+   "text": "As an Alliance member, you can read the treaties and war chronicles that bind human, dwarven, and elven peoples through generations of conflict."
   }
  ],
  "keywords": [
@@ -80,5 +80,6 @@
  ],
  "attribution": [
   "Royal Library"
- ]
+ ],
+ "style": 1
 }

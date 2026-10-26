@@ -17,16 +17,16 @@
   "wiki": "Milly's Harvest (quest)",
   "chain": []
  },
- "summary": "Milly's Harvest is a simple errand born from Northshire's growing bandit crisis. After Defias thugs force local farmer Milly Osworth to abandon her harvested grapes in the vineyards, an adventurer must brave the occupied fields to recover her livelihood before it is stolen or trampled.",
+ "summary": "Defias brigands have driven Milly Osworth from the Northshire vineyards. Her harvest lies scattered in buckets and crates among the occupied rows, where it may be stolen or crushed.",
  "sections": [
   {
    "title": "A Crop Left Behind",
-   "body": "While collecting grapes in the southeastern fields of Northshire Valley, Milly Osworth was forced to flee for her life as Defias brigands swarmed the vines. In her panic, she abandoned her gathered harvest packed in buckets and crates throughout the occupied rows. With the local garrison stretched thin, she fears that even if the guards eventually drive off the intruders, heavy boots and chaotic fighting will smash whatever fruit the bandits haven't already hauled away.",
+   "body": "Milly Osworth fled the southeastern fields of Northshire Valley when Defias brigands swarmed the vines. She left her gathered grapes behind in buckets and crates among the occupied rows. Northshire's garrison is stretched thin, and Milly fears that boots and fighting will crush any fruit the bandits leave behind.",
    "spoiler": 0
   },
   {
    "title": "Northshire Under Pressure",
-   "body": "The presence of bandits brazenly occupying working vineyards highlights just how brittle the safety of Northshire has become. While Stormwind's attention is focused elsewhere and the valley lacks adequate numbers of guards, ordinary citizens like Milly are left relying on visiting recruits and wanderers to defend their property and secure the food and wine that supply the abbey.",
+   "body": "Defias bandits now occupy working vineyards, a sign of how little safety Northshire can offer. Stormwind's attention is elsewhere, and the valley has too few guards. Farmers like Milly must depend on recruits and wanderers to protect their property and secure the food and wine that supply the abbey.",
    "spoiler": 0
   }
  ],
@@ -38,7 +38,7 @@
     "who is milly",
     "grape lady"
    ],
-   "answer": "Milly Osworth is a local farmer working the Northshire Vineyards. She tends and harvests the valley's grapes, which are vital for Northshire's winemaking, but she was driven from her fields by the arriving Defias Brotherhood."
+   "answer": "Milly Osworth farms the Northshire Vineyards. She tends and harvests the valley's grapes, but the arriving Defias Brotherhood drove her from her fields."
   },
   {
    "q": "Why can't the Northshire guards retrieve the harvest?",
@@ -47,7 +47,7 @@
     "northshire guards",
     "lazy guards"
    ],
-   "answer": "The guards in Northshire Valley are understaffed and occupied containing the widespread bandit threat and kobold infestations. Milly also worries that a clumsy military sweep would simply trample her delicate grapes into the mud."
+   "answer": "Northshire Valley's guards are too few and occupied with the widespread bandit threat and kobold infestations. Milly also fears that a military sweep could trample her grapes into the mud."
   },
   {
    "q": "What are the Defias doing in the vineyards?",
@@ -56,7 +56,7 @@
     "defias grapes",
     "defias northshire"
    ],
-   "answer": "The Defias Brotherhood has crept into Northshire Valley to disrupt regional production, harass the local population, and seize resources right under the nose of Stormwind's guards."
+   "answer": "The Defias Brotherhood has entered Northshire Valley to disrupt regional production, harass the local people, and seize resources under Stormwind's guards' noses."
   },
   {
    "q": "Where are the crates located?",
@@ -65,7 +65,7 @@
     "where to find grapes",
     "where is harvest"
    ],
-   "answer": "The harvest buckets and crates are scattered across the ground in the Northshire Vineyards, located just southeast of Northshire Abbey, amid the hostile Defias brigands patrolling the rows."
+   "answer": "The harvest buckets and crates are scattered across the ground in the Northshire Vineyards, just southeast of Northshire Abbey, among Defias brigands patrolling the rows."
   },
   {
    "q": "What happens after Milly gets her grapes back?",
@@ -74,7 +74,7 @@
     "after milly's harvest",
     "what next"
    ],
-   "answer": "Once the harvest is safe, Milly tasks adventurers with bringing her Grape Manifest to Brother Neals inside Northshire Abbey so the yield can be properly accounted for and processed into wine."
+   "answer": "After her harvest is safe, Milly asks you to bring her Grape Manifest to Brother Neals inside Northshire Abbey, so the yield can be accounted for and processed into wine."
   },
   {
    "q": "Why are grapes important to Northshire Abbey?",
@@ -82,17 +82,17 @@
     "northshire wine",
     "why grapes matter"
    ],
-   "answer": "Northshire Valley produces famous wine and supplies the clerical community at the abbey. Milly's crop sustains both local trade and the cellars maintained by the Brotherhood of Northshire."
+   "answer": "Northshire Valley produces famous wine and supplies the clerical community at the abbey. Milly's crop sustains local trade and the cellars maintained by the Brotherhood of Northshire."
   }
  ],
  "angles": [
   {
    "target": "faction:Alliance",
-   "text": "Recovering Milly's crop offers young Alliance recruits a stark first look at the Defias problem festering just miles from Stormwind City."
+   "text": "Recovering Milly's crop gives young Alliance recruits a first look at the Defias threat only miles from Stormwind City."
   },
   {
    "target": "race:Human",
-   "text": "For humans beginning their journey in Northshire, protecting smallholder farmers like Milly represents the core duty of defending Elwynn's working folk."
+   "text": "As a human beginning your journey in Northshire, protecting smallholder farmers like Milly is part of defending Elwynn's working folk."
   }
  ],
  "keywords": [
@@ -113,5 +113,6 @@
  ],
  "attribution": [
   "Milly's Harvest (quest)"
- ]
+ ],
+ "style": 1
 }

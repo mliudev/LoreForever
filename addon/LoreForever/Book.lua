@@ -4,8 +4,10 @@
 -- once it's earned; the page over the conversation shows a chapter's pages as picture cards, a row for each kind of
 -- page ("Places 14 of 21"). A card is the kind's icon: a green ring while the page is new, a green dot once heard, a
 -- wax drop when a passage on it is sealed; one not found yet is blank (a dashed edge), so nothing is spoiled. A name
--- shows in the tooltip (and the line at the foot) on hover. Search reads only found pages. Click opens a page,
--- Shift-click adds it to the playlist, right-click gives options.
+-- shows in the tooltip (and the line at the foot) on hover. Search reads only found pages, in every chapter.
+-- Everywhere, above the chapters, is every page you've found. Filters in labelled rows (Kind, Pages, Story, and Rarity
+-- for items) and a sort narrow what shows. Click opens a page, Shift-click adds it to the playlist, right-click gives
+-- options.
 -- The chapters are worked out the first time Found opens, not at login.
 
 local _, ns = ...
@@ -13,7 +15,8 @@ local Book = {}
 ns.Book = Book
 local L, T = ns.L, ns.Theme
 
-local AZEROTH, NEW, SEARCH = "*azeroth", "*new", "*search"
+local AZEROTH, NEW, SEARCH, ALL = "*azeroth", "*new", "*search", "*all"
+Book.ALL = ALL
 -- Chapters that aren't zones: a storyline's quests you've found (Road.lua), { [ck] = { name, keys } }. Only found
 -- pages are in them, and their counts never say how many the storyline has. NONE: an empty page (no storylines yet).
 Book.extra = {}
@@ -21,8 +24,32 @@ Book.NONE = "*none"
 local KIND = { zone = "places", city = "places", dungeon = "places", subzone = "places", npc = "people",
   item = "items", quest = "quests", topic = "topics" }
 local KIND_ORDER = { places = 1, people = 2, items = 3, quests = 4, topics = 5 }
-local KINDS = { "places", "people", "items", "quests" }
-local STATES = { "all", "new", "unheard", "heard" }
+-- The filter rows, each a group of chips with one picked: { group, { values } }. Kind's "all" is every kind
+-- (Book.kind nil); Lore is Of Azeroth's own pages. Rarity shows while Items is picked.
+local FILTERS = {
+  { "kind", { "all", "places", "people", "quests", "items", "topics" } },
+  { "pages", { "all", "found", "blank", "new" } },
+  { "story", { "any", "rec", "heard", "unheard" } },
+  { "rarity", { "any", "2", "3", "4" } },
+}
+local SORTS = { "found", "name", "rarity" }   -- (Rarity for items only, last)
+-- What a filter row and its chips say (read through L when shown: the language pack loads after this file).
+local function rowLabel(group)
+  return ({ kind = L["Kind"], pages = L["Pages"], story = L["Story"], rarity = L["Rarity"], sort = L["Sort"] })[group]
+end
+local function chipLabel(group, v)
+  if group == "kind" then
+    return ({ all = L["Everything"], places = L["Places"], people = L["People"], quests = L["Quests"], items = L["Items"],
+      topics = L["Lore"] })[v]
+  elseif group == "pages" then
+    return ({ all = L["All"], found = L["Found"], blank = L["Not yet"], new = L["New"] })[v]
+  elseif group == "story" then
+    return ({ any = L["Any"], rec = L["Can listen"], heard = L["Heard"], unheard = L["Not heard"] })[v]
+  elseif group == "rarity" then
+    return ({ any = L["Any"], ["2"] = L["Uncommon+"], ["3"] = L["Rare+"], ["4"] = L["Epic"] })[v]
+  end
+  return ({ rarity = L["Rarity"], name = L["Name"], found = L["Order found"] })[v]
+end
 local TILE_SIZE, GAP, PAD, ROW_H = 36, 6, 16, 32
 local HEAD_H, SECTION_GAP, EDGE = 18, 10, 3   -- a kind's heading, the space after its cards, room for a ring
 local SEARCH_CAP = 200   -- tiles a search shows at most
@@ -77,9 +104,6 @@ local function kindLabel(kind)
     topics = L["Of Azeroth"] })[kind] or ""
 end
 Book.KindLabel = kindLabel   -- the page kind's plural ("People"), for the new-page slip (Slip.lua)
-local function stateLabel(s)
-  return ({ all = L["All"], new = L["New"], unheard = L["Not heard"], heard = L["Heard"] })[s]
-end
 -- A page not found yet says only what kind of page it is, and how pages like it are found.
 local function blankLabel(kind)
   return ({ places = L["A place"], people = L["Someone"], items = L["An item"], quests = L["A quest"],
@@ -124,6 +148,7 @@ local function foundTime(s) return tonumber(type(s) == "string" and s:match("^(%
 local function heard(key) return ns.Voice.Heard(key) end
 
 function Book.ChapterName(ck)
+  if ck == ALL then return L["Everywhere"] end
   if ck == AZEROTH then return L["Of Azeroth"] end
   if ck == NEW then return L["New pages"] end
   if ck == SEARCH then return L["Search"] end
@@ -134,10 +159,21 @@ function Book.ChapterName(ck)
 end
 
 -- One chapter's counts: { found, total, heard, first, kinds = { places = { found, total }, ... } }.
+local function chapterKeys(ck)
+  if ck ~= ALL then
+    local c = Book.Index().chapters[ck]
+    return c and c.keys or {}
+  end
+  local keys = {}
+  for _, c in pairs(Book.Index().chapters) do
+    for _, k in ipairs(c.keys) do keys[#keys + 1] = k end
+  end
+  return keys
+end
+
 function Book.Count(ck)
-  local c = Book.Index().chapters[ck]
   local have, out = found(), { found = 0, total = 0, heard = 0, kinds = {} }
-  for _, k in ipairs(c and c.keys or {}) do
+  for _, k in ipairs(chapterKeys(ck)) do
     local kind = KIND[entries()[k].t]
     local kc = out.kinds[kind] or { found = 0, total = 0 }
     out.kinds[kind] = kc
@@ -194,8 +230,8 @@ local function hereChapter()
   return zk and Book.Index().chapters[zk] and zk or nil
 end
 
--- The sidebar's rows: { ck, label, count, here }. Where you are first, then New pages (when there are any), then the
--- chapters you've found pages in, in the order you reached them, and Of Azeroth last.
+-- The sidebar's rows: { ck, label, count, here }. Everywhere (every page you've found), where you are, then New pages
+-- (when there are any), then the chapters you've found pages in, in the order you reached them, and Of Azeroth last.
 function Book.Chapters()
   local out, here, list = {}, hereChapter(), {}
   for ck in pairs(Book.Index().chapters) do
@@ -208,7 +244,9 @@ function Book.Chapters()
     if a.count.first ~= b.count.first then return a.count.first < b.count.first end
     return a.label < b.label
   end)
-  if here then out[1] = { ck = here, label = Book.ChapterName(here), count = Book.Count(here), here = true } end
+  local every = Book.Count(ALL)
+  if every.found > 0 then out[1] = { ck = ALL, label = L["Everywhere"], count = every } end
+  if here then out[#out + 1] = { ck = here, label = Book.ChapterName(here), count = Book.Count(here), here = true } end
   local new = ns.Collection.NewCount()
   if new > 0 then out[#out + 1] = { ck = NEW, label = L["New pages"], new = new } end
   for _, row in ipairs(list) do out[#out + 1] = row end
@@ -217,8 +255,13 @@ function Book.Chapters()
   return out
 end
 
--- A chapter's tiles, as filtered and sorted: { key, kind, found = true/nil }.
-function Book.Tiles(ck, state, kindFilter, byName)
+-- A chapter's tiles, as filtered and sorted: { key, kind, found = true/nil }. `f` is the filters ({ kind, pages,
+-- story, rarity, sort }, Found's own when nil; an empty table is everything). Everywhere, New pages, a search and a
+-- storyline list only found pages: a blank page belongs to its zone's chapter.
+function Book.Tiles(ck, f)
+  f = f or Book.Filters()
+  local kindF, pages, storyF = f.kind, f.pages or "all", f.story or "any"
+  local rarity, sort = tonumber(f.rarity), f.sort or "found"
   local have, db, out = found(), entries(), {}
   local keys = {}
   if ck == NEW then
@@ -233,20 +276,29 @@ function Book.Tiles(ck, state, kindFilter, byName)
   elseif Book.extra[ck] then
     keys = Book.extra[ck].keys
   else
-    local c = Book.Index().chapters[ck]
-    keys = c and c.keys or {}
+    keys = chapterKeys(ck)
   end
+  local blanks = ck ~= ALL and ck ~= NEW and ck ~= SEARCH and not Book.extra[ck]
   for _, k in ipairs(keys) do
     local e, s = db[k], have[k]
     local kind = e and KIND[e.t]
-    local ok = kind and (not kindFilter or kindFilter == kind)
-    if ok and not s then ok = state == "all" end
-    if ok and s then
-      if state == "new" then ok = ns.Collection.IsNew(k)
-      elseif state == "unheard" then ok = not heard(k)
-      elseif state == "heard" then ok = heard(k) end
+    local ok = kind and (not kindF or kindF == kind)
+    if not blanks and (pages == "found" or pages == "blank") then pages = "all" end   -- (no chip for them here)
+    if ok and not s then
+      ok = blanks and (pages == "all" or pages == "blank") and storyF == "any" and not rarity
+    elseif ok then
+      if pages == "blank" then ok = false
+      elseif pages == "new" then ok = ns.Collection.IsNew(k) end
+      if ok and storyF == "rec" then ok = ns.UI.StoryAudio(k) and true or false
+      elseif ok and storyF == "heard" then ok = heard(k)
+      elseif ok and storyF == "unheard" then ok = not heard(k) end
+      if ok and rarity then ok = (ns.Collection.Quality(k) or 1) >= rarity end
     end
     if ok then out[#out + 1] = { key = k, kind = kind, found = s and true or nil, t = s and foundTime(s) or 0 } end
+  end
+  local q = {}
+  if sort == "rarity" then
+    for _, it in ipairs(out) do q[it.key] = it.found and ns.Collection.Quality(it.key) or 1 end
   end
   table.sort(out, function(a, b)
     if (a.found or false) ~= (b.found or false) then return a.found or false end
@@ -254,7 +306,8 @@ function Book.Tiles(ck, state, kindFilter, byName)
       if a.kind ~= b.kind then return KIND_ORDER[a.kind] < KIND_ORDER[b.kind] end
       return a.key < b.key
     end
-    if not byName and a.t ~= b.t then return a.t < b.t end
+    if sort == "rarity" and q[a.key] ~= q[b.key] then return q[a.key] > q[b.key] end
+    if sort ~= "name" and a.t ~= b.t then return a.t < b.t end
     local na, nb = db[a.key].n, db[b.key].n
     if na ~= nb then return na < nb end
     return a.key < b.key
@@ -265,10 +318,16 @@ function Book.Tiles(ck, state, kindFilter, byName)
   return out
 end
 
+-- Found's filters now, as Book.Tiles reads them.
+function Book.Filters()
+  return { kind = Book.kind, pages = Book.pages, story = Book.story, rarity = Book.kind == "items" and Book.rarity or nil,
+    sort = Book.sort }
+end
+
 -- What a chapter's green + adds: its found pages, places first, then people, items and quests, each in the order
 -- found (what can't be played or is queued already is skipped by UI.QueueGroup).
 function Book.QueueKeys(ck)
-  local tiles = Book.Tiles(ck, "all", nil, false)
+  local tiles = Book.Tiles(ck, {})
   local keys = {}
   for _, t in ipairs(tiles) do if t.found then keys[#keys + 1] = t end end
   table.sort(keys, function(a, b)
@@ -359,6 +418,10 @@ local function sideRow(i)
   row.gilt:SetPoint("BOTTOMRIGHT", -40, 3)
   row.wax = T.Seal(row, "wax", 12)
   row.wax:SetPoint("BOTTOMRIGHT", -26, 3)
+  row.newBg = T.Area(row, "newMark", "ARTWORK")
+  row.newBg:SetHeight(14)
+  row.newBg:SetPoint("CENTER", count, "CENTER", 0, 0)
+  row.newBg:Hide()
   local all = UI.TextButton(row, 20, ROW_H - 4, T.font.body, T.color.add)
   all.text:SetJustifyH("CENTER")
   all.text:SetText("+")
@@ -376,6 +439,8 @@ local function sideRow(i)
   row:SetScript("OnClick", function(self)
     if Book.search and Book.search:Active() then Book.search:Clear() end
     Book.chapter = self.ck
+    Book.backTo = nil
+    if Book.backButton then Book.backButton:Hide() end
     Book.Refresh()
     Book.ShowPage()
   end)
@@ -414,8 +479,11 @@ function Book.RefreshSide()
     if it.new then
       h = 22
       row.seals = nil
-      row.text:SetText(T.code.inkGreen .. esc(it.label) .. "|r")
-      row.count:SetText(T.code.inkGreen .. it.new .. "|r")
+      row.text:SetText(T.code.ink .. esc(it.label) .. "|r")
+      row.count:SetText(it.new)
+      row.count:SetTextColor(T.rgba(T.color.newMarkText))
+      row.newBg:SetWidth(math.max(16, math.ceil((T.TextWidth(row.count) or 8) + 10)))
+      row.newBg:Show()
       row.all:Hide()
       row.meter:Hide()
       row.gilt:Hide()
@@ -426,6 +494,8 @@ function Book.RefreshSide()
       row.seals = seals
       row.text:SetText(T.code.ink .. esc(it.label) .. "|r")
       row.count:SetText(n.found .. "/" .. n.total)
+      row.count:SetTextColor(T.rgba(NOTE))
+      row.newBg:Hide()
       row.all:Show()
       row.meter:Show()
       row.meter:SetProgress(n.found, n.total)
@@ -443,7 +513,7 @@ function Book.RefreshSide()
   Book.UpdateBadge()
 end
 
--- The count of new pages on the Found bookmark: a green pill on the tab's top right corner (its own fill, so it reads
+-- The count of new pages on the Found bookmark: a gilt pill on the tab's top right corner (its own fill, so it reads
 -- on the parchment and on the dark frame behind it).
 function Book.UpdateBadge()
   local badge = Book.badge
@@ -459,12 +529,12 @@ function Book.UpdateBadge()
 end
 
 function Book.CreateBadge(tab)
-  local bg = T.Area(tab, "ringGreen", "ARTWORK")
+  local bg = T.Area(tab, "newMark", "ARTWORK")
   bg:SetHeight(14)
   bg:SetPoint("TOPRIGHT", tab, "TOPRIGHT", 5, 8)
   bg:Hide()
   local fs = tab:CreateFontString(nil, "OVERLAY", T.font.label)
-  fs:SetTextColor(1, 1, 1, 1)
+  fs:SetTextColor(T.rgba(T.color.newMarkText))
   fs:SetPoint("CENTER", bg, "CENTER", 0, 0)
   fs:Hide()
   fs.bg = bg
@@ -507,19 +577,27 @@ function Book.Create(f)
   T.CoverChat(p)
   p:Hide()
   Book.frame = p
-  Book.state, Book.kind, Book.byName = "all", nil, false
+  Book.kind, Book.pages, Book.story, Book.rarity, Book.sort = nil, "all", "any", "any", "found"
 
-  local sort = T.Button(p)
-  sort:SetHeight(22)
-  sort:SetPoint("TOPRIGHT", -8, -8)
-  sort:SetScript("OnClick", function() Book.byName = not Book.byName; Book.RefreshPage() end)
-  sort:SetScript("OnEnter", function(self)
-    GameTooltip:SetOwner(self, "ANCHOR_BOTTOM")
-    GameTooltip:AddLine(Book.byName and L["Sort in the order you found them"] or L["Sort by name"])
-    GameTooltip:Show()
-  end)
-  sort:SetScript("OnLeave", function() GameTooltip:Hide() end)
-  Book.sortButton = sort
+  -- After a jump from another bookmark (a Road count, a page's storyline): a gold "‹ Back to ..." at the top right,
+  -- the sort to its left (Book.SetBackTo).
+  local back = T.Button(p, "", "primary")
+  back:SetHeight(22)
+  back:SetPoint("TOPRIGHT", -8, -8)
+  back:SetScript("OnClick", function() Book.GoBack() end)
+  back:Hide()
+  Book.backButton = back
+
+  -- Storylines: "Listen to the story so far" over the list of its quests you've taken (Book.RefreshStoryline).
+  Book.storyRows = {}
+
+  -- Sort: small chips at the title's right ("Sort  Name  Order found", Rarity first while Items is picked).
+  Book.sortChips = {}
+  for _, v in ipairs(SORTS) do
+    Book.sortChips[v] = chip(p, function() Book.sort = v; Book.RefreshPage() end)
+  end
+  Book.sortLabel = ink(p:CreateFontString(nil, "OVERLAY", "GameFontNormalSmall"), NOTE)
+  Book.sortLabel:SetPoint("TOPRIGHT", -8, -14)   -- (the title ends at it: placed before the first layout, and in Storylines)
 
   -- Play these: the found pages listed (as filtered) join the playlist and it plays from the first of them. Play
   -- what's new: the same for every New page. Shown when there's something to play, after the filters (made with
@@ -541,7 +619,7 @@ function Book.Create(f)
 
   local title = ink(p:CreateFontString(nil, "OVERLAY", "QuestTitleFont"), ACCENT)
   title:SetPoint("TOPLEFT", PAD, -12)
-  title:SetPoint("RIGHT", sort, "LEFT", -8, 0)
+  title:SetPoint("RIGHT", Book.sortLabel, "LEFT", -8, 0)
   if title.SetWordWrap then title:SetWordWrap(false) end
   Book.title = title
   local sub = ink(p:CreateFontString(nil, "OVERLAY", "GameFontNormalSmall"), NOTE)
@@ -549,24 +627,27 @@ function Book.Create(f)
   sub:SetPoint("RIGHT", p, "RIGHT", -PAD, 0)
   Book.sub = sub
 
-  -- Filters: one of All / New / Not heard / Heard, and one kind (click it again for every kind).
+  -- Filters: a labelled row for each, one chip picked in each row.
   local chips = CreateFrame("Frame", nil, p)
   chips:SetPoint("TOPLEFT", sub, "BOTTOMLEFT", 0, -8)
   chips:SetPoint("RIGHT", p, "RIGHT", -PAD, 0)
   chips:SetHeight(20)
-  Book.chips, Book.stateChips, Book.kindChips = chips, {}, {}
-  for _, s in ipairs(STATES) do
-    local b = chip(chips, function() Book.state = s; Book.RefreshPage() end)
-    Book.stateChips[s] = b
-  end
-  for _, k in ipairs(KINDS) do
-    local b = chip(chips, function() Book.kind = (Book.kind ~= k) and k or nil; Book.RefreshPage() end)
-    Book.kindChips[k] = b
+  Book.chips, Book.filterChips, Book.filterLabels = chips, {}, {}
+  for _, row in ipairs(FILTERS) do
+    local group = row[1]
+    Book.filterLabels[group] = ink(chips:CreateFontString(nil, "OVERLAY", "GameFontNormalSmall"), NOTE)
+    Book.filterChips[group] = {}
+    for _, v in ipairs(row[2]) do
+      Book.filterChips[group][v] = chip(chips, function() Book.SetFilter(group, v) end)
+    end
   end
   Book.playThese = playButton(L["Play these"], L["Adds the found pages listed here to your playlist and plays them."],
     function() return Book.ListedKeys(), Book.ChapterName(Book.chapter) end)
   Book.playNew = playButton(L["Play what's new"], L["Adds every new page to your playlist and plays them."],
     function() return ns.Collection.NewKeys(), L["New pages"] end)
+  Book.playStory = playButton(L["Listen to the story so far"],
+    L["Adds the quests of it you've taken to your playlist, in the order you took them, and plays them."],
+    function() return Book.StoryKeys(true), Book.ChapterName(Book.chapter) end)
 
   local sf = CreateFrame("ScrollFrame", nil, p, "UIPanelScrollFrameTemplate")
   sf:SetPoint("TOPLEFT", chips, "BOTTOMLEFT", 0, -8)
@@ -610,16 +691,16 @@ function Book.Create(f)
 end
 
 -- A page's options (right-click on a tile or the new-page slip): open it, listen, add to or take out of the playlist,
--- then `extra` ({ label, fn } rows). On UIParent in the dialog layer, so it works with the panel closed too.
+-- then `extra` ({ label, fn } rows), and ask about it in Here. On UIParent in the dialog layer, so it works with the panel closed too.
 function Book.PageMenu(anchor, key, via, extra)
   local UI = ns.UI
   local m = Book.menu
   if not m then
     m = T.Backdrop(CreateFrame("Frame", nil, UIParent, T.BACKDROP_TEMPLATE), "popup")
     m:SetFrameStrata("DIALOG")
-    m:SetSize(190, 4 * 22 + 12)
+    m:SetSize(190, 6 * 22 + 12)
     m.items = {}
-    for i = 1, 4 do
+    for i = 1, 6 do
       local b = UI.TextButton(m, 178, 22, T.font.small)
       b:SetPoint("TOPLEFT", 6, -6 - (i - 1) * 22)
       if b.text.SetWordWrap then b.text:SetWordWrap(false) end
@@ -642,6 +723,7 @@ function Book.PageMenu(anchor, key, via, extra)
       or L["Remove from playlist"], function() UI.DoQueueAction(key) end }
   end
   for _, it in ipairs(extra or {}) do list[#list + 1] = it end
+  list[#list + 1] = { L["Ask about it in Here"], function() UI.AskInHere(key) end }
   for i, b in ipairs(m.items) do
     local it = list[i]
     b:SetShown(it ~= nil)
@@ -687,6 +769,8 @@ local function makeTile(i)
   b.queued:SetSize(7, 7)
   b.queued:SetPoint("TOPLEFT", 3, -3)
   T.Fill(b.queued, "add")
+  b.rarityEdge = T.Outline(b, "inkRim", "OVERLAY", 3)
+  b.rarityEdge:SetShown(false)
   b:SetScript("OnClick", function(self, button)
     if not self.found then return end
     if button == "RightButton" then return Book.PageMenu(self, self.key, "found") end
@@ -726,14 +810,17 @@ local function setTile(b, it, done)
   b.key, b.kind, b.found = it.key, it.kind, it.found
   if it.found then
     b:SetState({ new = ns.Collection.IsNew(it.key), heard = heard(it.key), sealed = Book.Sealed(it.key, done) })
-    -- An item's rarity colours its edge (as well as its name, in the tooltip and at the foot).
+    -- An item's rarity colours its edge, 3px (as well as its name, in the tooltip and at the foot).
     local c = Book.RarityInk(it.key)
-    b.edge:SetColor(c and { c[1], c[2], c[3], 1 } or "inkRim")
+    b.edge:SetColor("inkRim")
+    if c then b.rarityEdge:SetColor({ c[1] * 0.85, c[2] * 0.85, c[3] * 0.85, 1 }) end
+    b.rarityEdge:SetShown(c ~= nil)
     local queued = ns.UI.PlaylistIndex(it.key) ~= nil
     b.queued:SetShown(queued)
     b.queuedRim:SetShown(queued)
   else
     b:SetState("blank")
+    b.rarityEdge:SetShown(false)
     b.queued:Hide()
     b.queuedRim:Hide()
   end
@@ -773,13 +860,266 @@ function Book.UpdateFigures()
   end
 end
 
+-- Pick `value` in a filter row. Rarity sorts and filters items only: leaving Items leaves them.
+function Book.SetFilter(group, value)
+  if group == "kind" then
+    Book.kind = value ~= "all" and value or nil
+    if Book.kind ~= "items" and Book.sort == "rarity" then Book.sort = "found" end
+  else
+    Book[group] = value
+  end
+  Book.RefreshPage()
+end
+
+-- The kinds of page a chapter has (its Kind row offers only those).
+local function kindsIn(ck)
+  local out = {}
+  for _, t in ipairs(Book.Tiles(ck, {})) do out[t.kind] = true end
+  return out
+end
+
+-- The filter rows and the sort, laid out for the chapter: a row's label, then its chips, flowing on when narrow.
+local function layoutFilters(ck)
+  local width = math.max(200, (Book.chips:GetWidth() or 300))
+  local plainList = ck == NEW or ck == SEARCH or ck == ALL or Book.extra[ck] or ck == Book.NONE
+  local storyline = Book.extra[ck] or ck == Book.NONE
+  local present = kindsIn(ck)
+  local labelW = 0
+  for _, row in ipairs(FILTERS) do
+    local fs = Book.filterLabels[row[1]]
+    fs:SetText(rowLabel(row[1]))
+    labelW = math.max(labelW, math.ceil(T.TextWidth(fs) or 40))
+  end
+  labelW = labelW + 10
+  local x, y = 0, 0
+  for _, row in ipairs(FILTERS) do
+    local group, fs = row[1], Book.filterLabels[row[1]]
+    local show = not (group == "kind" and storyline) and not (group == "rarity" and Book.kind ~= "items")
+    fs:SetShown(show)
+    local picked = group == "kind" and (Book.kind or "all") or Book[group]
+    if group == "pages" and plainList and (picked == "found" or picked == "blank") then picked = "all" end
+    for _, v in ipairs(row[2]) do
+      local b = Book.filterChips[group][v]
+      local on = show
+      if on and group == "kind" and v ~= "all" then on = present[v] or Book.kind == v end
+      if on and group == "pages" and (v == "blank" or v == "found") then on = not plainList end
+      b:SetShown(on and true or false)
+    end
+    if show then
+      if x > 0 or y < 0 then y = y - 24 end
+      x = 0
+      fs:ClearAllPoints()
+      fs:SetPoint("TOPLEFT", 0, y - 4)
+      x = labelW
+      for _, v in ipairs(row[2]) do
+        local b = Book.filterChips[group][v]
+        if b:IsShown() then
+          setChip(b, chipLabel(group, v), picked == v)
+          local w = b:GetWidth() or 40
+          if x > labelW and x + w > width then x, y = labelW, y - 24 end
+          b:ClearAllPoints()
+          b:SetPoint("TOPLEFT", x, y)
+          x = x + w + 4
+        end
+      end
+    end
+  end
+  -- Play these / Play what's new, on a line of their own under the filters.
+  local px, any = 0, false
+  for _, b in ipairs({ Book.playThese, Book.playNew }) do
+    if b:IsShown() then
+      if not any then y = y - 26; any = true end
+      b:ClearAllPoints()
+      b:SetPoint("TOPLEFT", px, y)
+      px = px + (b:GetWidth() or 80) + 6
+    end
+  end
+  Book.chips:SetHeight(22 - y)
+  -- The sort chips, left to right, ending at the page's top right corner (left of a Back there) with room for every
+  -- one of them, so Rarity appearing for items moves nothing; their label before them.
+  local right = -8
+  if Book.backButton:IsShown() then right = right - (Book.backButton:GetWidth() or 120) - 8 end
+  local total = 0
+  for _, v in ipairs(SORTS) do
+    setChip(Book.sortChips[v], chipLabel("sort", v), Book.sort == v)
+    total = total + (Book.sortChips[v]:GetWidth() or 40) + 4
+  end
+  local sx = right - total + 4
+  for _, v in ipairs(SORTS) do
+    local b = Book.sortChips[v]
+    local show = v ~= "rarity" or Book.kind == "items"
+    b:SetShown(show)
+    b:ClearAllPoints()
+    b:SetPoint("TOPLEFT", Book.frame, "TOPRIGHT", sx, -10)
+    sx = sx + (b:GetWidth() or 40) + 4
+  end
+  Book.sortLabel:SetText(rowLabel("sort"))
+  Book.sortLabel:ClearAllPoints()
+  Book.sortLabel:SetPoint("TOPRIGHT", Book.frame, "TOPRIGHT", right - total - 2, -14)
+end
+
+-- Where a jump from another bookmark goes back to: { tab, label, page = a page's Snapshot to open there } or nil.
+-- Cleared by any move to another bookmark or chapter (UI.ShowTab, a chapter's row).
+function Book.SetBackTo(to)
+  Book.backTo = to
+  local b = Book.backButton
+  if b then
+    b:SetShown(to ~= nil)
+    if to then
+      b:SetText("\226\128\185 " .. to.label)
+      b:SetWidth(math.max(70, math.floor((T.TextWidth(b:GetFontString()) or 100) + 24)))
+    end
+  end
+  Book.RefreshPage()
+end
+
+function Book.GoBack()
+  local to = Book.backTo
+  if not to then return end
+  Book.SetBackTo(nil)
+  if to.tab then ns.UI.ShowTab(to.tab) end
+  if to.page then ns.Page.Restore(to.page) end
+end
+
+-- A storyline's quests you've taken, in the order you took them (`playable`: only those that can play).
+function Book.StoryKeys(playable)
+  local x = Book.extra[Book.chapter]
+  local have, out = found(), {}
+  for _, k in ipairs(x and x.keys or {}) do
+    if not playable or ns.UI.CanQueue(k) then out[#out + 1] = k end
+  end
+  table.sort(out, function(a, b)
+    local ta, tb = foundTime(have[a]), foundTime(have[b])
+    if ta ~= tb then return ta < tb end
+    return a < b
+  end)
+  return out
+end
+
+-- Where a quest of the storyline stands for you: done, or in your quest log; nil for one taken and left (saying
+-- more would hint at how the story goes, Design Lead 10/25).
+local function questState(key, done, inLog)
+  local e = entries()[key]
+  local qid = e and e.m and tonumber(e.m.id)
+  if qid and done and done[qid] then return L["Done"] end
+  if qid and inLog[qid] then return L["In your quest log"] end
+  return nil
+end
+
+local function storyRow(i)
+  local UI = ns.UI
+  local r = Book.storyRows[i]
+  if r then return r end
+  r = UI.TextButton(Book.content, 300, 42, T.font.body, nil, true)
+  r:RegisterForClicks("LeftButtonUp", "RightButtonUp")
+  r.tile = T.Tile(r, "quest")
+  r.tile:SetSize(30, 30)
+  r.tile:SetPoint("LEFT", 4, 0)
+  r.tile:EnableMouse(false)
+  r.text:ClearAllPoints()
+  r.text:SetPoint("TOPLEFT", 44, -5)
+  r.text:SetPoint("RIGHT", -90, 0)
+  if r.text.SetWordWrap then r.text:SetWordWrap(false) end
+  r.sub = ink(r:CreateFontString(nil, "OVERLAY", "GameFontNormalSmall"), NOTE)
+  r.sub:SetPoint("TOPLEFT", 44, -23)
+  r.sub:SetPoint("RIGHT", -90, 0)
+  if r.sub.SetWordWrap then r.sub:SetWordWrap(false) end
+  r.listen = T.Button(r, L["Listen"])
+  r.listen:SetHeight(22)
+  r.listen:SetWidth(math.max(70, math.floor((T.TextWidth(r.listen:GetFontString()) or 50) + 24)))
+  r.listen:SetPoint("RIGHT", -4, 0)
+  r.listen:SetScript("OnClick", function(self)
+    if IsShiftKeyDown and IsShiftKeyDown() then return UI.DoQueueAction(self.key) end
+    UI.PlayEntry(self.key)
+  end)
+  -- Click opens its page (Back comes back to this list), Shift-click adds it to the playlist, right-click: options.
+  r:SetScript("OnClick", function(self, button)
+    if button == "RightButton" then return Book.PageMenu(self, self.key, "found") end
+    if IsShiftKeyDown and IsShiftKeyDown() then
+      if UI.CanQueue(self.key) then UI.DoQueueAction(self.key) end
+      return
+    end
+    ns.Page.Show(self.key, "found")
+    ns.Page.SetBackTo("storyline")
+  end)
+  r:SetScript("OnEnter", function(self)
+    GameTooltip:SetOwner(self, "ANCHOR_RIGHT")
+    GameTooltip:AddLine(esc(entries()[self.key].n))
+    T.Tip(L["Click: open its page. Shift-click: add to your playlist. Right-click: options."], "tipDim", true)
+    GameTooltip:Show()
+  end)
+  r:SetScript("OnLeave", function() GameTooltip:Hide() end)
+  Book.storyRows[i] = r
+  return r
+end
+
+-- A storyline on Found's page (the Storylines bookmark): its quests you've taken as a named list, in the order you
+-- took them, each with where it stands and a Listen; "Listen to the story so far" over it. It never says how many
+-- quests the storyline has or which step one is (Storyline.lua's rule).
+local function refreshStoryline(ck)
+  for _, b in ipairs(Book.tiles) do b:Hide() end
+  for _, h in ipairs(Book.heads) do h:Hide() end
+  for _, row in ipairs(FILTERS) do
+    Book.filterLabels[row[1]]:Hide()
+    for _, b in pairs(Book.filterChips[row[1]]) do b:Hide() end
+  end
+  for _, b in pairs(Book.sortChips) do b:Hide() end
+  Book.sortLabel:SetText("")
+  Book.playThese:Hide()
+  Book.playNew:Hide()
+  local keys = ck ~= Book.NONE and Book.StoryKeys() or {}
+  Book.listed = {}
+  for i, k in ipairs(keys) do Book.listed[i] = { key = k, kind = "quests", found = true } end
+  Book.sub:SetText(#keys > 0 and L["Quests you take from this story are written here, in order."] or "")
+  local playable = #Book.StoryKeys(true) > 0
+  Book.playStory:SetShown(playable)
+  if playable then
+    Book.playStory:ClearAllPoints()
+    Book.playStory:SetPoint("TOPLEFT", 0, 0)
+  end
+  Book.chips:SetHeight(playable and 24 or 1)
+  local cw = math.max(200, (Book.scroll:GetWidth() or 300) - 4)
+  Book.content:SetWidth(cw)
+  local done = try(ns.Context.Done)
+  local inLog = {}
+  for _, q in ipairs(try(ns.Context.Quests) or {}) do if q.id then inLog[q.id] = true end end
+  local y = 0
+  for i, k in ipairs(keys) do
+    local e = entries()[k]
+    local r = storyRow(i)
+    r.key, r.listen.key = k, k
+    r:SetWidth(cw)
+    r:ClearAllPoints()
+    r:SetPoint("TOPLEFT", 0, -y)
+    r.tile:SetKind("quest")
+    r.tile:SetState({ new = ns.Collection.IsNew(k), heard = heard(k) })
+    r.text:SetText(T.code.inkAccent .. esc(e.n) .. "|r")
+    local z = e.z and zones()[e.z]
+    local state = questState(k, done, inLog)
+    r.sub:SetText(table.concat({ z and esc(z.n) or nil, state }, ns.Lang.Dotted(" · ")))
+    r.listen:SetShown(ns.UI.StoryAudio(k) and true or false)
+    r:Show()
+    y = y + 46
+  end
+  for i = #keys + 1, #Book.storyRows do Book.storyRows[i]:Hide() end
+  Book.content:SetHeight(math.max(20, y))
+  Book.foot:SetText("")   -- (the line under the title says how the list reads)
+  local emptyText = ck == Book.NONE and L["No storylines yet. Take quests, and the storylines you're on are listed here."] or nil
+  Book.empty:SetWidth(cw)
+  Book.empty:SetText(emptyText or "")
+  Book.empty:SetShown(emptyText ~= nil)
+end
+
 function Book.RefreshPage()
   if not (Book.frame and Book.frame:IsShown()) then return end
   local ck = Book.chapter
-  Book.sortButton:SetText(Book.byName and L["By name"] or L["In order found"])
-  Book.sortButton:SetWidth(math.max(70, math.floor((T.TextWidth(Book.sortButton:GetFontString()) or 60) + 24)))
   Book.title:SetText(esc(Book.ChapterName(ck)))
-  local tiles = Book.Tiles(ck, Book.state, Book.kind, Book.byName)
+  local storyline = Book.extra[ck] or ck == Book.NONE
+  Book.playStory:SetShown(false)
+  if storyline then return refreshStoryline(ck) end
+  for _, r in ipairs(Book.storyRows) do r:Hide() end
+  footHint(nil)
+  local tiles = Book.Tiles(ck)
   Book.listed = tiles
   local playable = false
   for _, t in ipairs(tiles) do
@@ -799,35 +1139,7 @@ function Book.RefreshPage()
     Book.sub:SetText(string.format(L["%d of %d pages found"], counts.found, counts.total)
       .. (counts.heard > 0 and (ns.Lang.Dotted(" · ") .. string.format(L["%d heard"], counts.heard)) or ""))
   end
-  -- The chips, flowing onto a second line when the page is narrow.
-  local width = math.max(200, (Book.chips:GetWidth() or 300))
-  local x, y = 0, 0
-  local function place(b)
-    local w = b:GetWidth() or 40
-    if x > 0 and x + w > width then x, y = 0, y - 24 end
-    b:ClearAllPoints()
-    b:SetPoint("TOPLEFT", x, y)
-    x = x + w + 4
-  end
-  for _, s in ipairs(STATES) do
-    setChip(Book.stateChips[s], stateLabel(s), Book.state == s)
-    place(Book.stateChips[s])
-  end
-  x = x + 8
-  for _, k in ipairs(KINDS) do
-    local b = Book.kindChips[k]
-    local show = ck ~= AZEROTH and ck ~= Book.NONE and not Book.extra[ck]
-    b:SetShown(show)
-    if show then
-      setChip(b, kindLabel(k), Book.kind == k)
-      place(b)
-    end
-  end
-  x = x + 8
-  for _, b in ipairs({ Book.playThese, Book.playNew }) do
-    if b:IsShown() then place(b) end
-  end
-  Book.chips:SetHeight(22 - y)
+  layoutFilters(ck)
   -- The cards, a row for each kind of page and as many to a line as fit.
   local cw = math.max(TILE_SIZE + 2 * EDGE, (Book.scroll:GetWidth() or 300) - 4)
   local cols = math.max(1, math.floor((cw - 2 * EDGE + GAP) / (TILE_SIZE + GAP)))
@@ -890,11 +1202,16 @@ end
 
 -- The chapter Found opens on: the one picked last, else where you are, else the first one.
 local function defaultChapter()
-  if Book.chapter and (Book.chapter == NEW or Book.chapter == SEARCH or Book.Index().chapters[Book.chapter]) then
-    if Book.chapter ~= NEW or ns.Collection.NewCount() > 0 then return Book.chapter end
+  local ck = Book.chapter
+  if ck and (ck == NEW or ck == SEARCH or ck == ALL or Book.Index().chapters[ck]) then
+    if ck ~= NEW or ns.Collection.NewCount() > 0 then return ck end
   end
-  local rows = Book.Chapters()
-  return rows[1] and rows[1].ck or hereChapter() or AZEROTH
+  local here = hereChapter()
+  if here then return here end
+  for _, row in ipairs(Book.Chapters()) do
+    if row.ck ~= ALL then return row.ck end
+  end
+  return AZEROTH
 end
 
 function Book.ShowPage()

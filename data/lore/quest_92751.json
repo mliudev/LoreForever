@@ -17,16 +17,16 @@
   "wiki": "Detonation at a Distance (2)",
   "chain": []
  },
- "summary": "Detonation at a Distance is an Alliance assignment initiated by Jasper Fel within Stormwind's intelligence circle. Learning of dangerous operations beneath Moonbrook, the SI:7 contact provides a specialized remote detonator to safely handle demolitions without blowing up friendly operatives.",
+ "summary": "In Moonbrook, explosions beneath Westfall draw SI:7's attention. Jasper Fel, a Stormwind operative, sends a remote detonator kit to help handle the work from a safe distance.",
  "sections": [
   {
    "title": "Eyes in the Shadows",
-   "body": "Jasper Fel and the operatives of SI:7 monitor nearly everything unfolding across Stormwind's territories, especially chaotic borderlands like Westfall. When word reaches Fel of explosive operations in Moonbrook, he is already well aware of what is brewing in the abandoned mining tunnels beneath the countryside.",
+   "body": "Jasper Fel and SI:7 watch events across Stormwind's lands, including Westfall's troubled border. When word reaches him of explosive work in Moonbrook, Fel already knows what is happening in the abandoned mining tunnels beneath the countryside.",
    "spoiler": 0
   },
   {
    "title": "A Prototype Solution",
-   "body": "Setting off massive explosions in confined cavern systems carries obvious hazards. Fel provides a prototype Remote Detonator Kit developed by Alliance-aligned engineers, ensuring that any detonation beneath Westfall can be triggered safely from outside. He directs the courier to deliver the hardware to Sprite Jumpsprocket in the Dwarven District, while quietly reminding them not to mention SI:7's involvement to their elven associates.",
+   "body": "Explosions in tight caves put anyone nearby at risk. Jasper Fel provides a prototype Remote Detonator Kit made by Alliance-aligned engineers, so charges beneath Westfall can be set off from outside. He sends you with the kit to Sprite Jumpsprocket in Stormwind's Dwarven District and warns you not to mention SI:7 to your elven allies.",
    "spoiler": 1
   }
  ],
@@ -38,7 +38,7 @@
     "who gives detonation at a distance",
     "quest giver"
    ],
-   "answer": "Jasper Fel is an operative tied to Stormwind's intelligence service, SI:7. Working out of the shadows, he keeps tabs on covert threats across the kingdom and provides specialized tools to handle them."
+   "answer": "Jasper Fel is an operative with Stormwind's intelligence service, SI:7. He watches covert threats across the kingdom and supplies tools to deal with them."
   },
   {
    "q": "Why does SI:7 care about Moonbrook?",
@@ -47,7 +47,7 @@
     "defias connection",
     "westfall caves"
    ],
-   "answer": "Moonbrook has fallen into the grip of bandits and outlaws, serving as the surface entrance to the Deadmines. Any activities or demolition deep beneath Westfall immediately draw the attention of Stormwind's internal intelligence network."
+   "answer": "Bandits and outlaws hold Moonbrook, whose surface leads into the Deadmines. Demolition deep beneath Westfall has caught Stormwind's intelligence network's attention."
   },
   {
    "q": "Who is Sprite Jumpsprocket?",
@@ -56,7 +56,7 @@
     "who receives the detonator",
     "turn in npc"
    ],
-   "answer": "Sprite Jumpsprocket is a gnome engineer in the Dwarven District of Stormwind who is putting together the explosives for the demolition."
+   "answer": "Sprite Jumpsprocket is a gnome engineer in Stormwind's Dwarven District. She is preparing explosives for the demolition."
   },
   {
    "q": "Who is the 'elf friend' Jasper Fel mentions?",
@@ -65,7 +65,7 @@
     "dont tell elf",
     "jasper fel elf"
    ],
-   "answer": "Jasper Fel is referring to Alba Fairmoon, the elf investigating the poison in Westfall who sent you to find explosives. SI:7 prefers to operate with secrecy and plausible deniability, keeping outside allies in the dark regarding their direct support."
+   "answer": "Jasper Fel means Alba Fairmoon, the elf investigating Westfall's poison who sent you to find explosives. SI:7 keeps its direct support hidden from outside allies."
   },
   {
    "q": "What is the Remote Detonator Kit used for?",
@@ -74,7 +74,7 @@
     "detonator kit",
     "what does the kit do"
    ],
-   "answer": "It is an engineering prototype designed to trigger demolition charges from a safe distance, allowing operatives to collapse or clear underground passages without being trapped inside."
+   "answer": "The Remote Detonator Kit triggers demolition charges from a safe distance, letting operatives clear or collapse underground passages without being trapped inside."
   },
   {
    "q": "Where does this quest take you?",
@@ -83,25 +83,25 @@
     "quest route",
     "turn in location"
    ],
-   "answer": "The quest tasks you with carrying the detonator kit directly to Sprite Jumpsprocket in the Dwarven District of Stormwind City."
+   "answer": "You carry the detonator kit to Sprite Jumpsprocket in Stormwind City's Dwarven District."
   }
  ],
  "angles": [
   {
    "target": "class:Rogue",
-   "text": "Dealing directly with Jasper Fel highlights SI:7's extensive covert network, showing how the kingdom's spymasters monitor field operatives and quietly supply them with the right tools."
+   "text": "As a rogue, your meeting with Jasper Fel gives you a glimpse of SI:7's covert network, which watches field operatives and quietly supplies them with tools."
   },
   {
    "target": "race:Gnome",
-   "text": "The delivery to Sprite Jumpsprocket showcases gnome ingenuity at work in Stormwind, supplying the kingdom's spies with cutting-edge prototypes."
+   "text": "As a gnome, Sprite Jumpsprocket's work shows how gnome engineering supplies Stormwind's spies with prototypes."
   },
   {
    "target": "faction:Alliance",
-   "text": "The quest reflects Stormwind's struggle to reclaim Westfall, using covert engineering and intelligence rather than an open military deployment."
+   "text": "As an Alliance member, you see Stormwind trying to reclaim Westfall through covert engineering and intelligence rather than open military force."
   },
   {
    "target": "profession:Engineering",
-   "text": "Engineers will appreciate the prototype remote detonator, designed to replace risky manual fuses during complex cave demolitions."
+   "text": "As an engineer, you can appreciate a prototype detonator that sets off charges from afar, avoiding risky manual fuses in cave demolitions."
   }
  ],
  "keywords": [
@@ -125,5 +125,6 @@
  ],
  "attribution": [
   "Detonation at a Distance (2)"
- ]
+ ],
+ "style": 1
 }

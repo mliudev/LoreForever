@@ -42,11 +42,11 @@ P.transport["npc:alyissia"] = {
   },
 }
 P.transport["npc:amber-kearnen"] = {
-  hash = "17f2b1",
-  fullHash = "17f2b1",
-  text = "Amber Kearnen. Amber Kearnen is a sharp-eyed operative of SI:7 stationed deep in Westfall. From her concealed vantage point overlooking the plains, she monitors the illicit activities of the Defias Brotherhood on behalf of Master Mathias Shaw. An agent of SI:7, Amber Kearnen serves as one of Stormwind's field scouts. Rather than walking the halls of Stormwind Keep, she operates under the open skies of Westfall, watching over an abandoned watchtower commandeered by the Defias Brotherhood. Under the direct leadership of Master Mathias Shaw, Kearnen provides critical oversight and briefing for covert operatives sent to neutralize Defias threats and gather intelligence across the contested countryside.",
+  hash = "972163",
+  fullHash = "972163",
+  text = "Amber Kearnen. In Westfall, Amber Kearnen watches the Defias Brotherhood for SI:7. From a hidden vantage point, she tracks their unlawful activity for Master Mathias Shaw. Amber Kearnen scouts for SI:7 in Westfall, far from the halls of Stormwind Keep. She watches an abandoned tower the Defias Brotherhood has taken over. Master Mathias Shaw leads her work directly. Kearnen briefs covert operatives sent to stop Defias threats and gather intelligence across the contested countryside.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_amber-kearnen-ae49781cb2ab98eee5ab/1-0000.mp3", duration = 42.762449, start = 0},
+    {file = "Audio/Transport/full_npc_amber-kearnen-8d5d9e928895a0e38a53/1-0000.mp3", duration = 30.5893878, start = 0},
   },
 }
 P.transport["npc:andron-gant"] = {
@@ -98,11 +98,11 @@ P.transport["npc:archaeologist-hollee"] = {
   },
 }
 P.transport["npc:archbishop-benedictus"] = {
-  hash = "e9d6b3",
-  fullHash = "e9d6b3",
-  text = "Archbishop Benedictus. Archbishop Benedictus is the supreme spiritual leader of the Church of the Holy Light, presiding over the faithful from the Cathedral of Light in Stormwind City. Once the devoted student of Archbishop Alonsus Faol, he now guides the moral and religious heart of the Alliance during a time of immense uncertainty. Benedictus rose to leadership following the death of his revered mentor, Archbishop Alonsus Faol. Having witnessed the devastation of the First and Second Wars, Benedictus helped oversee the construction of the grand Cathedral of Light in Stormwind City, vowing to preserve the virtues of the faith. With the fall of Lordaeron and the rise of the Scourge during the Third War, the weight of the human kingdoms' spiritual guidance fell squarely on his shoulders. From his altar, he offers counsel to the royal court, trains newly initiated priests, and directs holy crusades against the undead and demonic forces threatening Azeroth. Regarded across the Alliance as a gentle, wise, and benevolent patriarch, Benedictus presents an unyielding beacon of hope to the public, rallying heroes to vanquish dark threats such as Amnennar the Coldbringer in Kalimdor and assisting in purifying cursed relics brought by faithful adventurers.",
+  hash = "d3d378",
+  fullHash = "d3d378",
+  text = "Archbishop Benedictus. In Stormwind City, Archbishop Benedictus leads the Church of the Holy Light from the Cathedral of Light. He guides the faithful and the Alliance through uncertain times. Archbishop Benedictus took the Church’s leadership after his mentor, Archbishop Alonsus Faol, died. He had seen the First and Second Wars devastate the kingdoms and helped oversee the building of the Cathedral of Light in Stormwind City. He vowed to uphold the virtues of the faith. After Lordaeron fell and the Scourge rose during the Third War, the human kingdoms looked to him for spiritual guidance. From the Cathedral, he counsels the royal court, trains newly initiated priests, and directs holy crusades against the undead and demonic forces threatening Azeroth. Across the Alliance, people regard Archbishop Benedictus as a gentle, wise, and benevolent patriarch. He offers the public hope and rallies heroes against dark threats, including Amnennar the Coldbringer in Kalimdor. He also helps purify cursed relics brought by faithful adventurers.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_archbishop-benedictus-ae346121c7dc5ff52c16/1-0000.mp3", duration = 74.2661224, start = 0},
+    {file = "Audio/Transport/full_npc_archbishop-benedictus-cb7bffca013d957fdf95/1-0000.mp3", duration = 63.1902041, start = 0},
   },
 }
 P.transport["npc:archmage-ansirem-runeweaver"] = {
@@ -114,11 +114,11 @@ P.transport["npc:archmage-ansirem-runeweaver"] = {
   },
 }
 P.transport["npc:archmage-malin"] = {
-  hash = "193896",
-  fullHash = "193896",
-  text = "Archmage Malin. Archmage Malin is a senior human wizard stationed just outside the Wizard's Sanctum in Stormwind City's Mage Quarter. A former pupil of Archmage Trelane, Malin coordinates arcane affairs and field operatives dispatched to recover magical artifacts and rare reagents across the Eastern Kingdoms. Standing sentinel beneath the towering spiral of the Wizard's Sanctum, Archmage Malin serves as a central point of contact for the arcane practitioners of Stormwind. He learned his craft under the tutelage of Archmage Trelane, a storied mage whose scattered legacy Malin now strives to protect. While younger acolytes study theory within the tower's swirling blue portals, Malin keeps his focus trained outward on matters across the realm that demand magical oversight. Much of Malin's attention is directed north to the perilous ruins of the Arathi Highlands. To recover Archmage Trelane's lost possessions and secure delicate spell components, Malin dispatched his trusted associates, Skuerto and Apprentice Kryten, into the field. Coordinating these distant operations from the capital, Malin relies on capable Alliance travelers to carry instructions, supplies, and intelligence to his agents operating in hostile territory.",
+  hash = "e4e1b5",
+  fullHash = "e4e1b5",
+  text = "Archmage Malin. Outside the Wizard's Sanctum in Stormwind City, Archmage Malin directs arcane affairs. A former pupil of Archmage Trelane, he coordinates field agents seeking magical artifacts and rare reagents across the Eastern Kingdoms. Archmage Malin is the central contact for Stormwind's arcane practitioners, stationed beneath the Wizard's Sanctum in the Mage Quarter. He learned magic under Archmage Trelane, and now works to protect the scattered legacy of his former master. While acolytes study inside the tower, Malin watches over matters across the realm that need magical oversight. Archmage Malin directs much of his attention north, to the perilous ruins of the Arathi Highlands. He sent his trusted associates, Skuerto and Apprentice Kryten, to recover Archmage Trelane's lost possessions and secure delicate spell components. From the capital, Malin coordinates their work and relies on capable Alliance travelers to carry instructions, supplies, and intelligence to his agents in hostile territory.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_archmage-malin-b95e7e6096192d4b7148/1-0000.mp3", duration = 72.1763265, start = 0},
+    {file = "Audio/Transport/full_npc_archmage-malin-6238f3c22e0196222aa7/1-0000.mp3", duration = 64, start = 0},
   },
 }
 P.transport["npc:archmage-xylem"] = {
@@ -138,11 +138,11 @@ P.transport["npc:argent-guard-manados"] = {
   },
 }
 P.transport["npc:argos-nightwhisper"] = {
-  hash = "48ebda",
-  fullHash = "48ebda",
-  text = "Argos Nightwhisper. Argos Nightwhisper is a night elf emissary found in the Park district of Stormwind City. He serves as an Alliance contact directing adventurers to Darkshore, where his brother Gershala studies the spreading corruption. Argos Nightwhisper resides among the growing night elf presence in Stormwind, often lingering in the lush, secluded Park district crafted to remind the kaldorei of their ancestral woodlands. Like many of his kin stationed in the human kingdom, Argos acts as a bridge between the newfound allies across the Great Sea. Deeply concerned by reports filtering across the ocean, he urges capable Alliance champions to make the long journey to Auberdine in Darkshore, where his brother Gershala needs help against the spreading corruption.",
+  hash = "11711a",
+  fullHash = "11711a",
+  text = "Argos Nightwhisper. In Stormwind's Park, Argos Nightwhisper guides Alliance travelers toward Darkshore. His brother Gershala studies the corruption spreading there. Argos Nightwhisper lives among the night elves gathering in Stormwind's Park. The district's quiet groves recall the kaldorei's ancestral woodlands. Like others of his kin stationed in the human kingdom, Argos connects the new allies across the Great Sea. Reports from across the ocean trouble him. He urges capable Alliance champions to travel to Auberdine in Darkshore, where his brother Gershala needs help against the spreading corruption.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_argos-nightwhisper-f6dfda5b342a740a545d/1-0000.mp3", duration = 44.6432653, start = 0},
+    {file = "Audio/Transport/full_npc_argos-nightwhisper-7a7daf4163b4613f156a/1-0000.mp3", duration = 36.9632653, start = 0},
   },
 }
 P.transport["npc:ashlan-stonesmirk"] = {
@@ -242,11 +242,11 @@ P.transport["npc:baron-revilgaz"] = {
   },
 }
 P.transport["npc:bartleby"] = {
-  hash = "dcdb3a",
-  fullHash = "dcdb3a",
-  text = "Bartleby. Bartleby is a bellicose drunkard loitering within the Pig and Whistle Tavern in Stormwind's Old Town. Known for his stubborn grip on his ale, he serves as an early martial test for aspiring warriors looking to prove their mettle in a good old-fashioned tavern brawl. Tucked away in the narrow, cobblestone alleys of Old Town, the Pig and Whistle Tavern draws a rougher, more weathered crowd than the pristine taprooms of the Cathedral Square. Bartleby is one of its most persistent fixtures. Clinging tightly to his favorite mug and fueled by cheap ale, he spends his days nursing grievances and picking fights with anyone unfortunate enough to disturb his drinking. While Bartleby looks like any other neighborhood drunk, Stormwind's warrior trainers see practical value in him. Harry Burlguard regularly directs fledgling fighters to track Bartleby down and relieve him of his mug. Taking the mug requires trading bare-knuckle blows with the intoxicated brawler, proving whether a novice warrior possesses the grit to handle an unruly opponent up close.",
+  hash = "103c00",
+  fullHash = "103c00",
+  text = "Bartleby. Bartleby drinks and picks fights at the Pig and Whistle Tavern in Stormwind's Old Town. His stubborn hold on his ale makes him a test for aspiring warriors who must face him in a tavern brawl. Bartleby spends his days at the Pig and Whistle Tavern in Stormwind's Old Town. The tavern draws a rougher crowd than the taprooms of Cathedral Square. He clings to his favorite mug, drinks cheap ale, nurses grievances, and picks fights with anyone who disturbs him. Stormwind's warrior trainers see a practical test in Bartleby. Harry Burlguard sends fledgling fighters to find him and take his mug. They must trade bare-knuckle blows with the intoxicated brawler, proving they have the grit to face an unruly opponent at close quarters.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_bartleby-ec12e31c3d46d8cabc7d/1-0000.mp3", duration = 60.3428571, start = 0},
+    {file = "Audio/Transport/full_npc_bartleby-9b3b2eb41ea4c2515072/1-0000.mp3", duration = 43.2065306, start = 0},
   },
 }
 P.transport["npc:bashana-runetotem"] = {
@@ -290,11 +290,11 @@ P.transport["npc:bink"] = {
   },
 }
 P.transport["npc:bishop-delavey"] = {
-  hash = "702d5a",
-  fullHash = "702d5a",
-  text = "Bishop DeLavey. Bishop DeLavey is a senior representative of the Church of the Holy Light stationed within the Petitioner's Chamber in Stormwind Keep. Acting on matters of state and faith, he quietly oversees sensitive court affairs that the Crown cannot publicly address. While Archbishop Benedictus tends to the Cathedral of Light, Bishop DeLavey resides among the nobility and petitioners of Stormwind Keep. He serves as an ecclesiastical liaison to the court, balancing spiritual counsel with the kingdom's political reality. His position allows him to hear whispered rumors and delicate palace grievances before they ever reach the ears of Highlord Bolvar Fordragon or the young King Anduin.",
+  hash = "fd3194",
+  fullHash = "fd3194",
+  text = "Bishop DeLavey. In Stormwind Keep, Bishop DeLavey hears the court's quiet concerns. He represents the Church of the Holy Light in the Petitioner's Chamber, where matters of faith and state meet. Bishop DeLavey advises Stormwind's court from within the keep. While Archbishop Benedictus tends to the Cathedral of Light, DeLavey lives among the nobility and petitioners. He brings spiritual counsel to the court while reckoning with the kingdom's politics. His place there lets him hear whispered rumors and delicate grievances before they reach Highlord Bolvar Fordragon or the young King Anduin.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_bishop-delavey-43e636a3a0faca333669/1-0000.mp3", duration = 42.2138776, start = 0},
+    {file = "Audio/Transport/full_npc_bishop-delavey-edeff443201a93fe266b/1-0000.mp3", duration = 36.1012245, start = 0},
   },
 }
 P.transport["npc:blanchy"] = {
@@ -346,11 +346,11 @@ P.transport["npc:braenna-flintcrag"] = {
   },
 }
 P.transport["npc:brainwashed-noble"] = {
-  hash = "d8eceb",
-  fullHash = "d8eceb",
-  text = "Brainwashed Noble. The Brainwashed Noble is an elusive, captive aristocrat found deep within the subterranean caverns outside the Deadmines in Westfall. Stripped of his autonomy through magical manipulation, he serves the Defias Brotherhood alongside undead minions rather than walking the grand halls of Stormwind. Wandering the murky, bone-littered passages leading into the Deadmines, the Brainwashed Noble presents a jarring contrast to the desperate bandits and rotting corpses that surround him. Clad in remnants of highborn finery, he was almost certainly a sitting member or scion of Stormwind's House of Nobles before falling into Edwin VanCleef's hands. Rather than ransom him for gold, the Defias have bent his mind with enchantments, turning a member of the ruling class into a spellcasting guard for their secret sanctuary. His tragic presence speaks volumes about the lengths the Brotherhood will go to inflict revenge upon the peers who refused to pay them.",
+  hash = "fccfc7",
+  fullHash = "fccfc7",
+  text = "Brainwashed Noble. Deep in the caverns outside the Deadmines, Brainwashed Noble remains captive under Defias control. Magical manipulation has stripped him of his will, and he serves the Brotherhood alongside undead minions instead of walking Stormwind's grand halls.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_brainwashed-noble-4994b788220020207059/1-0000.mp3", duration = 58.122449, start = 0},
+    {file = "Audio/Transport/full_npc_brainwashed-noble-3e7e6fb7e06573c5fe41/1-0000.mp3", duration = 14.6808163, start = 0},
   },
 }
 P.transport["npc:brandur-ironhammer"] = {
@@ -410,43 +410,43 @@ P.transport["npc:bromos-grummner"] = {
   },
 }
 P.transport["npc:brother-joshua"] = {
-  hash = "261ce5",
-  fullHash = "261ce5",
-  text = "Brother Joshua. Brother Joshua is a human priest of the Church of the Holy Light stationed within the grand Cathedral of Light in Stormwind. Dedicated to guiding the faithful, he trains novice priests in channeling the Holy Light to mend wounds and bolster their allies. His quiet service anchors the day-to-day spiritual instruction carried out in the heart of the kingdom. Within the serene halls of the Cathedral of Light, Brother Joshua stands near the main altar, ready to instruct newly called servants of the faith. As a priest trainer for the Church of the Holy Light, Joshua provides instruction on the foundational disciplines of healing, protective wards, and the spiritual focus required to commune with the Light. For young human priests starting their service to the Alliance, he represents one of their first guides into deeper communion with the divine.",
+  hash = "c14cff",
+  fullHash = "c14cff",
+  text = "Brother Joshua. In Stormwind, Brother Joshua guides those who come to the Cathedral of Light to learn the ways of the Holy Light. He trains novice priests to heal wounds and strengthen their allies. Brother Joshua waits near the main altar in Stormwind's Cathedral of Light, ready to teach new servants of the faith. A priest of the Church of the Holy Light, he instructs them in healing, protective wards, and the focus needed to commune with the Light. Young human priests beginning their service to the Alliance find one of their first guides in him.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_brother-joshua-1b6d1fc1033bd9c7d085/1-0000.mp3", duration = 47.6995918, start = 0},
+    {file = "Audio/Transport/full_npc_brother-joshua-b9523ce90d0497b10a21/1-0000.mp3", duration = 33.1232653, start = 0},
   },
 }
 P.transport["npc:brother-kristoff"] = {
-  hash = "a32a18",
-  fullHash = "a32a18",
-  text = "Brother Kristoff. Brother Kristoff is a human member of the Church of the Holy Light stationed in Stormwind's Cathedral Square. He can be found standing outdoors near the grand statue of Uther the Lightbringer. Preoccupied with theological study, he frequently seeks out practical literature to weave into sermons on spiritual strength. Brother Kristoff serves the Church of the Holy Light from the open courtyard of Cathedral Square, lingering in the shadow of the great monument to Uther the Lightbringer. Unlike some clerics who remain secluded within the marble cloisters of the Cathedral of Light, Kristoff works among the citizens and pilgrims passing through the plaza. In preparing his discourses—such as sermons on the Fortitude of the Spirit—he draws upon grounded, worldly analogies. He famously looks to technical treatises like 'The Stresses of Iron' to explain how the mortal soul endures pressure, comparing the inner resolve granted by the Holy Light to the tempered strength of worked metal.",
+  hash = "f60437",
+  fullHash = "f60437",
+  text = "Brother Kristoff. In Stormwind's Cathedral Square, Brother Kristoff preaches beneath Uther's statue. A human priest of the Church of the Holy Light, he stands outdoors near the great statue of Uther the Lightbringer and seeks practical books for sermons on spiritual strength. Brother Kristoff serves the Church of the Holy Light in Cathedral Square, beneath the statue of Uther the Lightbringer. He works among the citizens and pilgrims who pass through the plaza, rather than remaining within the Cathedral of Light. For sermons such as the Fortitude of the Spirit, he turns to worldly comparisons. In The Stresses of Iron, he finds a way to explain how the mortal soul endures pressure, comparing the Holy Light's gift of inner resolve to the tempered strength of worked metal.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_brother-kristoff-128b28ae8c4f69214a1a/1-0000.mp3", duration = 53.995102, start = 0},
+    {file = "Audio/Transport/full_npc_brother-kristoff-b8cb60293c9a608f97fd/1-0000.mp3", duration = 44.2514286, start = 0},
   },
 }
 P.transport["npc:brother-neals"] = {
-  hash = "59ac97",
-  fullHash = "59ac97",
-  text = "Brother Neals. Brother Neals is a monk residing in Northshire Abbey within Elwynn Forest. Responsible for managing the abbey's stores of food and drink, he spends much of his time overseeing shipments and sampling the vintage produced by the local vineyard. Tucked away in the upper belfry rooms of Northshire Abbey, Brother Neals looks after the monastery's culinary provisions and beverage stores. He takes a particular, enthusiastic interest in the Northshire vineyards, carefully tracking grape manifests and ensuring the quality of the abbey's renowned wine by tasting it with dedicated frequency. Despite the peaceful duties of inventory and cellar management, he keeps close tabs on the shipments arriving from the valley's surrounding fields.",
+  hash = "cf7e7c",
+  fullHash = "cf7e7c",
+  text = "Brother Neals. At Northshire Abbey, Brother Neals keeps watch over the food and drink stores. He oversees shipments and samples wine from the local vineyard. Brother Neals keeps Northshire Abbey supplied with food and drink from his rooms in the upper belfry. He follows the grape manifests from the Northshire vineyards and tastes the wine to check its quality. He also watches the shipments arriving from the fields around the valley.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_brother-neals-01783271461f7c00a35f/1-0000.mp3", duration = 41.9004082, start = 0},
+    {file = "Audio/Transport/full_npc_brother-neals-2465388bf2a07aa5c931/1-0000.mp3", duration = 25.6261224, start = 0},
   },
 }
 P.transport["npc:brother-sarno"] = {
-  hash = "4118b8",
-  fullHash = "4118b8",
-  text = "Brother Sarno. Brother Sarno is an affable human cleric stationed at the entrance of the Cathedral of Light in Stormwind City. Serving as the primary greeter for worshipers and visitors, he also helps direct brave Alliance travelers toward engineers in Ironforge who need aid in reclaiming Gnomeregan. Standing just inside the archways of Stormwind's magnificent Cathedral of Light, Brother Sarno is often the very first face pilgrims and travelers encounter. As a dedicated brother of the Church of the Holy Light, his role is simple yet vital: offering a kind greeting to anyone who enters the sacred hall seeking solace, prayer, or guidance. His warmth extends even to the most unexpected visitors, making him a reassuring presence amid the city's busy clerical life. Beyond his pastoral greetings, Brother Sarno maintains communication with allies across the Alliance. When Tinkmaster Overspark in Ironforge urgently needed assistance dealing with his rogue invention, Techbot, deep within the irradiated halls of Gnomeregan, Sarno took it upon himself to guide capable adventurers toward Dun Morogh. Though a humble brother of the cloth, he understands that supporting the displaced gnomes is an act of genuine fraternity.",
+  hash = "70a49e",
+  fullHash = "70a49e",
+  text = "Brother Sarno. At the Cathedral of Light in Stormwind City, Brother Sarno welcomes visitors and worshipers. The human cleric also directs Alliance travelers to Ironforge, where Tinkmaster Overspark needs help reclaiming Gnomeregan. Inside the Cathedral of Light in Stormwind, Brother Sarno greets pilgrims and travelers at the entrance. A brother of the Church of the Holy Light, he welcomes those who come seeking prayer, comfort, or guidance. His kind manner puts visitors at ease amid the cathedral’s daily life. Brother Sarno also helps the Alliance beyond the cathedral. When word reached him that Tinkmaster Overspark in Ironforge needed help with his rogue invention, Techbot, in Gnomeregan, Sarno directed capable travelers toward Dun Morogh. His help supports the gnomes displaced from their home.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_brother-sarno-63624e4d9e9fe53c515f/1-0000.mp3", duration = 74.1355102, start = 0},
+    {file = "Audio/Transport/full_npc_brother-sarno-e5c3c04d733c30954c20/1-0000.mp3", duration = 48.7183673, start = 0},
   },
 }
 P.transport["npc:brother-wilhelm"] = {
-  hash = "d6f3bb",
-  fullHash = "d6f3bb",
-  text = "Brother Wilhelm. Brother Wilhelm is a human paladin trainer stationed in Goldshire within Elwynn Forest. Tucked away behind the village blacksmith, he instructs young defenders of the Holy Light taking their first steps outside Northshire Abbey. While Northshire Valley provides initial shelter for fledgling champions of the Light, those stepping into the broader world of Elwynn Forest often seek out Brother Wilhelm. Stationed just behind the busy smithy in Goldshire, he trains newly minted paladins in their sacred duties, providing guidance and lessons as they transition from abbey novices to sworn protectors of the realm. Wilhelm plays a crucial role in directing aspiring paladins along their holy journey, helping them seek out the Tome of Divinity. Through this vital rite, initiates learn the weight of sacrifice and the power of divine redemption, testing their devotion so they may wield the Light to resurrect fallen comrades and uphold justice across the Kingdom of Stormwind.",
+  hash = "80562e",
+  fullHash = "80562e",
+  text = "Brother Wilhelm. Behind Goldshire's blacksmith, Brother Wilhelm trains young paladins in the Holy Light. He guides them as they leave Northshire Abbey and take their first steps into Elwynn Forest. Brother Wilhelm trains new paladins behind Goldshire's smithy. Northshire Valley shelters those who begin their path in the Light, but many seek his guidance when they enter the wider forest. He teaches them their sacred duties as they leave the abbey and take up the work of protecting the realm. Brother Wilhelm guides aspiring paladins toward the Tome of Divinity. Its rite teaches initiates the weight of sacrifice and the power of divine redemption. Through it, they test their devotion and learn to wield the Light to resurrect fallen comrades and uphold justice across the Kingdom of Stormwind.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_brother-wilhelm-3a86258f02ae50f434af/1-0000.mp3", duration = 59.2457143, start = 0},
+    {file = "Audio/Transport/full_npc_brother-wilhelm-0da5e0b7b10d430f0ea2/1-0000.mp3", duration = 47.7779592, start = 0},
   },
 }
 P.transport["npc:cain-firesong"] = {
@@ -466,11 +466,11 @@ P.transport["npc:calvin-montague"] = {
   },
 }
 P.transport["npc:captain-danuvin"] = {
-  hash = "7f346e",
-  fullHash = "7f346e",
-  text = "Captain Danuvin. Captain Danuvin is an officer stationed at Sentinel Hill in Westfall, serving as one of the leaders tasked with holding the frontier together. Working alongside the People's Militia, he directs volunteers and recruits to patrol the roads and push back against encroaching Gnolls and outlaws. His commands are vital to keeping the supply lines and farmlands from falling completely into hostile hands. Perched at the fortified tower of Sentinel Hill, Captain Danuvin coordinates ground patrols across Westfall. The region has spiraled into chaos with the withdrawal of regular Stormwind garrison troops, leaving local defenses severely depleted. Danuvin relies heavily on wandering adventurers, local farmhands, and volunteer fighters to maintain even a semblance of order across the grassy plains. Danuvin's immediate strategic concern is the security of the roadways and open lands around Sentinel Hill. With the Riverpaw Gnolls growing bolder and raiding close to central outposts, he organizes active patrols to cull their packs and secure the perimeter. His orders help prevent the encampment from being entirely surrounded by Westfall's opportunists and marauders.",
+  hash = "d67d45",
+  fullHash = "d67d45",
+  text = "Captain Danuvin. At Sentinel Hill, Captain Danuvin helps hold Westfall's frontier together. He works with the People's Militia, directing volunteers and recruits to patrol roads and drive back Gnolls and outlaws. His orders protect the supply lines and farmlands from hostile hands. Captain Danuvin coordinates patrols from Sentinel Hill's fortified tower. Stormwind's regular garrison has withdrawn, leaving Westfall's defenses badly weakened. He depends on travelers, farmhands, and volunteer fighters to keep some order across the plains. Captain Danuvin focuses on the roads and open lands around Sentinel Hill. Riverpaw Gnolls raid near the central outposts, so he sends patrols to thin their packs and secure the perimeter. His orders help keep marauders and opportunists from surrounding the camp.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_captain-danuvin-2350e76c8a2d35305b8c/1-0000.mp3", duration = 68.6759184, start = 0},
+    {file = "Audio/Transport/full_npc_captain-danuvin-89686cd5089d418bd100/1-0000.mp3", duration = 46.2628571, start = 0},
   },
 }
 P.transport["npc:captain-rugelfuss"] = {
@@ -514,11 +514,11 @@ P.transport["npc:captured-scarlet-zealot"] = {
   },
 }
 P.transport["npc:caretaker-folsom"] = {
-  hash = "6ae911",
-  fullHash = "6ae911",
-  text = "Caretaker Folsom. Caretaker Folsom is a somber human servant found along the Canals of Stormwind City near the Park. Once the trusted overseer of the noble Flintridge family's estate, he now handles the bitter remnants of their tragic downfall. Like his father before him, Folsom devoted his life to serving the Flintridge family as their estate caretaker. That quiet life of service came to a bloody end with the massacre of the Flintridge household. With the bloodline wiped out, the manor sat abandoned until its remaining funds completely dried up. Left alone to oversee the remnants of the household, Folsom bears the sorrowful duty of liquidating the family's surviving heirlooms and possessions at auction.",
+  hash = "ac2443",
+  fullHash = "ac2443",
+  text = "Caretaker Folsom. Along Stormwind’s Canals near the Park, Caretaker Folsom tends the remains of a noble household. He once oversaw the Flintridge estate; now he sells what survived its bloody end. Folsom followed his father into a life of service as caretaker of the Flintridge estate. That life ended with the massacre of the household. The manor stood abandoned, and its remaining funds eventually ran out. Left to watch over what remained, Folsom now sends the family's surviving heirlooms and possessions to auction.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_caretaker-folsom-a0538d04a6120ed6ca72/1-0000.mp3", duration = 41.5346939, start = 0},
+    {file = "Audio/Transport/full_npc_caretaker-folsom-0258b5336a8203f9509e/1-0000.mp3", duration = 32.8097959, start = 0},
   },
 }
 P.transport["npc:carolai-anise"] = {
@@ -626,11 +626,11 @@ P.transport["npc:councilman-millstipe"] = {
   },
 }
 P.transport["npc:count-remington-ridgewell"] = {
-  hash = "f96b98",
-  fullHash = "f96b98",
-  text = "Count Remington Ridgewell. Count Remington Ridgewell is a wealthy human aristocrat found in the Petitioner's Chamber within Stormwind Keep. As a member of the House of Nobles, he prides himself on curating the finest private collection of rare historical artifacts, heirlooms, and fine art in the kingdom. Remington Ridgewell represents the elite tastes of the House of Nobles, taking immense pride in his family's personal museum of jewelry and artifacts. Rather than concerning himself with military campaigns or local uprisings, the Count spends his considerable wealth acquiring relics from fallen civilizations and fallen houses across Azeroth. To expand his prestigious gallery, he finances daring adventurers and employs field agents such as Mayara Brightwing, dispatching them to retrieve priceless oddities from perilous ruins, from the mountain redoubts of Alterac to the volcanic wastes of the Burning Steppes.",
+  hash = "5fe8cd",
+  fullHash = "5fe8cd",
+  text = "Count Remington Ridgewell. In Stormwind Keep, Count Remington Ridgewell tends a collection fit for a noble’s pride. A wealthy human in the House of Nobles, he gathers rare artifacts, heirlooms, and fine art. Count Remington Ridgewell favors antiquities over military campaigns or local uprisings. His family’s personal museum holds jewelry and artifacts, and he spends his wealth gathering relics from fallen civilizations and houses across Azeroth. To fill his gallery, he finances adventurers and sends field agents such as Mayara Brightwing to retrieve rare objects from dangerous ruins, from Alterac’s mountain redoubts to the volcanic wastes of the Burning Steppes.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_count-remington-ridgewell-288d4bab89fb24ca16c3/1-0000.mp3", duration = 53.9428571, start = 0},
+    {file = "Audio/Transport/full_npc_count-remington-ridgewell-74be44b574806f41d448/1-0000.mp3", duration = 40.6465306, start = 0},
   },
 }
 P.transport["npc:crane-operator-bigglefuzz"] = {
@@ -698,11 +698,11 @@ P.transport["npc:daryl-the-youngling"] = {
   },
 }
 P.transport["npc:dashel-stonefist"] = {
-  hash = "c9a692",
-  fullHash = "c9a692",
-  text = "Dashel Stonefist. Dashel Stonefist is a notorious dwarven brawler found loitering among the shaded alleys of Old Town in Stormwind City. Nicknamed \"Fist\" for his quick temper and heavy hands, he is a familiar fixture of the city's rougher underbelly. Beneath his thuggish exterior, he maintains quietly dangerous connections that draw the eye of covert investigators. Tucked away in the narrow, cobblestone backstreets of Old Town, Dashel Stonefist looks like any other drunken, combative dwarf looking for an excuse to throw a punch. Locals and city guards know him simply as \"Fist,\" a moniker earned through countless street fights and scuffles outside tavern doors. Yet Dashel is far more than a simple tavern brawler; his presence in Old Town puts him right at the nexus of Stormwind's underworld, where smugglers, cutpurses, and political agitators exchange coin and rumors away from the prying eyes of Cathedral Square.",
+  hash = "874c9a",
+  fullHash = "874c9a",
+  text = "Dashel Stonefist. In Old Town, Dashel Stonefist is known for his quick temper and heavy hands. The dwarf called Fist keeps to Stormwind City's rougher alleys, where dangerous connections draw the attention of covert investigators. In Old Town, Dashel Stonefist is known as Fist for the street fights that have earned him the name. Locals and city guards see a drunken, combative dwarf ready to throw a punch outside a tavern. His place in the district puts him at the nexus of Stormwind's underworld, where smugglers, cutpurses, and political agitators trade coin and rumors beyond the eyes of Cathedral Square.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_dashel-stonefist-0ed9a38ce43f17b7475a/1-0000.mp3", duration = 54.3608163, start = 0},
+    {file = "Audio/Transport/full_npc_dashel-stonefist-457f796bca624bdfeb91/1-0000.mp3", duration = 34.0897959, start = 0},
   },
 }
 P.transport["npc:david-trias"] = {
@@ -834,11 +834,11 @@ P.transport["npc:deino"] = {
   },
 }
 P.transport["npc:demisette-cloyce"] = {
-  hash = "d21cf2",
-  fullHash = "d21cf2",
-  text = "Demisette Cloyce. Demisette Cloyce is a human warlock trainer sequestered in the subterranean crypts beneath the Slaughtered Lamb in Stormwind's Mage Quarter. Operating under cover of the city's underbelly, she instructs practitioners of the fel arts and directs promising acolytes toward deeper, more dangerous arcane mysteries. While Stormwind's authorities maintain an outward veneer of order and holy righteousness, practitioners of fel magic convene in the dank cellars beneath the Slaughtered Lamb in the Mage Quarter. Demisette Cloyce makes her residence down within these catacombs, tutoring warlocks willing to brave the forbidden arts. She holds little patience for the untrained or the uninitiated, advising her students that the dark energies corrupt only those lacking the discipline to master them. Demisette is far more than a simple spell tutor; she serves as an essential nexus for warlock operations across Azeroth. When an acolyte reaches sufficient mastery, she directs them far beyond the walls of Stormwind—connecting them to powerful summoners like Menara Voidrender in the Barrens to harness potent artifacts and bind formidable fel steeds.",
+  hash = "714b20",
+  fullHash = "714b20",
+  text = "Demisette Cloyce. In Stormwind's Mage Quarter, Demisette Cloyce teaches warlocks beneath the Slaughtered Lamb. She guides students in fel magic and sends those ready for more toward other summoners. Warlocks gather in the cellar beneath the Slaughtered Lamb in Stormwind's Mage Quarter, while the city's authorities uphold order and the Holy Light. Demisette Cloyce lives in the catacombs below, teaching those willing to study forbidden arts. She warns that dark energies corrupt only those without the discipline to master them. Demisette guides warlocks beyond Stormwind when they have gained enough mastery. She connects them with summoners such as Menara Voidrender in the Barrens, where they can seek potent artifacts and learn to bind formidable fel steeds.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_demisette-cloyce-3f9b55e895a3dbc929ae/1-0000.mp3", duration = 65.6195918, start = 0},
+    {file = "Audio/Transport/full_npc_demisette-cloyce-3b3528105fff7ea77526/1-0000.mp3", duration = 42.8930612, start = 0},
   },
 }
 P.transport["npc:deputy-feldon"] = {
@@ -850,11 +850,11 @@ P.transport["npc:deputy-feldon"] = {
   },
 }
 P.transport["npc:deputy-rainer"] = {
-  hash = "9075b0",
-  fullHash = "9075b0",
-  text = "Deputy Rainer. Deputy Rainer is a Stormwind Army officer stationed outside Westbrook Garrison along Elwynn Forest's western boundary. Tasked with holding the line against encroaching gnoll packs and bandits bleeding over from Westfall, he coordinates local defense efforts when official military reinforcements fail to arrive. Westbrook Garrison serves as Elwynn Forest's westernmost bulwark, positioned just along the boundary road leading into Westfall. As political paralysis in Stormwind City keeps the bulk of the army stationed abroad or tied up in bureaucracy, border posts like Westbrook are left severely understaffed. Deputy Rainer stands outside the tower to organize what little defense the garrison can muster. With local roads constantly threatened by aggressive Riverpaw gnolls and wandering thieves, Rainer is forced to rely on passing travelers and mercenary adventurers rather than official crown regiments to keep the forest trails secure. Beyond managing the immediate threat of the Riverpaw pack and cautioning travelers against the infamous gnoll chieftain Hogger, Rainer serves as a vital communications link to the troubled lands beyond the river. Knowing that the chaos plaguing Elwynn's borders originates in the lawless farmlands to the west, he directs capable volunteers across the threshold into Westfall, pointing them toward Gryan Stoutmantle and the struggling People's Militia.",
+  hash = "ef7d7a",
+  fullHash = "ef7d7a",
+  text = "Deputy Rainer. Outside Westbrook Garrison, Deputy Rainer holds Elwynn's western border. The Stormwind Army officer faces gnolls and bandits from Westfall, coordinating local defenses while reinforcements fail to arrive. At Westbrook Garrison, Elwynn Forest's westernmost post, the road crosses into Westfall. Political paralysis in Stormwind City leaves much of the army abroad or caught in bureaucracy, and border posts like this one lack troops. Deputy Rainer organizes the defense from outside the tower with the few forces at hand. Riverpaw gnolls and wandering thieves threaten the local roads, so he depends on passing travelers and mercenary adventurers to keep the forest trails secure. Deputy Rainer watches for the Riverpaw pack and warns travelers about Hogger, the infamous gnoll chieftain. He also carries word of the troubled lands beyond the river. The chaos at Elwynn's border begins in Westfall's lawless farmlands, so he sends capable volunteers across the border toward Gryan Stoutmantle and the struggling People's Militia.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_deputy-rainer-cd2d515c15d1f47cacd3/1-0000.mp3", duration = 80.3787755, start = 0},
+    {file = "Audio/Transport/full_npc_deputy-rainer-c0628c627a6b12937047/1-0000.mp3", duration = 65.3322449, start = 0},
   },
 }
 P.transport["npc:dirge-quikcleave"] = {
@@ -898,11 +898,11 @@ P.transport["npc:donova-snowden"] = {
   },
 }
 P.transport["npc:donyal-tovald"] = {
-  hash = "c0ffc7",
-  fullHash = "c0ffc7",
-  text = "Donyal Tovald. Donyal Tovald is a human steward serving in the Royal Library within Stormwind Keep. Under an initiative begun by the young King Anduin Wrynn, he oversees the care of the kingdom's books and works to distribute copies of historical texts to the broader public. Located in the quiet alcoves of the Royal Library wing within Stormwind Keep, Donyal Tovald tends to the kingdom's vast collection of historical accounts, scrolls, and scholarly volumes. While the library primarily serves the nobility and royal court, young King Anduin Wrynn has sponsored an initiative to make knowledge more accessible to ordinary citizens. Tovald handles the preservation and copying of these texts, helping ensure that the lessons and triumphs of the Alliance are not forgotten amidst the kingdom's turbulent political climate.",
+  hash = "cb3bac",
+  fullHash = "cb3bac",
+  text = "Donyal Tovald. In Stormwind Keep, Donyal Tovald tends the Royal Library’s historical works. Under an initiative sponsored by young King Anduin Wrynn, he preserves and copies books for wider public use. Donyal Tovald tends the Royal Library’s collection in Stormwind Keep. The library holds historical accounts, scrolls, and scholarly volumes, chiefly for the nobility and royal court. Young King Anduin Wrynn has sponsored an effort to make that knowledge more accessible to ordinary citizens. Tovald preserves and copies the texts, helping keep the Alliance’s lessons and triumphs recorded amid the kingdom’s political troubles.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_donyal-tovald-ac8358ba7aa4e037801f/1-0000.mp3", duration = 49.2930612, start = 0},
+    {file = "Audio/Transport/full_npc_donyal-tovald-dde814ac2c56e397c334/1-0000.mp3", duration = 40.2546939, start = 0},
   },
 }
 P.transport["npc:doomsayer-wiserunner"] = {
@@ -938,11 +938,11 @@ P.transport["npc:drum-fel"] = {
   },
 }
 P.transport["npc:drusilla-la-salle"] = {
-  hash = "a0e058",
-  fullHash = "a0e058",
-  text = "Drusilla La Salle. Drusilla La Salle is a human warlock trainer situated in the shadowed graveyard outside Northshire Abbey. Operating on the fringes of the Holy Order of Northshire, she mentors fledgling spellcasters in the dark arts of summoning and shadow. When forbidden knowledge slips beyond the abbey walls, she does not hesitate to use opportunism and dark magic to claim it. While paladins and priests practice beneath the stained glass of Northshire Abbey, Drusilla La Salle remains outdoors among the headstones of the graveyard. Practicing demonology and fel magic is deeply taboo within the kingdom of Stormwind, forcing warlocks to dwell on the periphery of polite society. Drusilla provides early instruction to novice warlocks who have received tainted correspondence, teaching them how to harness shadow power without drawing the immediate wrath of abbey authorities.",
+  hash = "86fda9",
+  fullHash = "86fda9",
+  text = "Drusilla La Salle. Outside Northshire Abbey, Drusilla La Salle teaches warlocks in the graveyard. The human trainer works beyond the Holy Order’s reach, guiding new spellcasters in shadow and summoning. When forbidden knowledge leaves the abbey, she moves to claim it. Drusilla La Salle teaches novice warlocks among the headstones outside Northshire Abbey. Paladins and priests practice beneath the abbey’s stained glass, while warlocks keep to society’s edges because demonology and fel magic are taboo in Stormwind. Recruits receive tainted correspondence before Drusilla shows them how to wield shadow power without drawing the abbey authorities’ immediate anger.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_drusilla-la-salle-38e7dc73c8b920a82c6f/1-0000.mp3", duration = 52.3493878, start = 0},
+    {file = "Audio/Transport/full_npc_drusilla-la-salle-d8d5ed62904dba6eb086/1-0000.mp3", duration = 39.3665306, start = 0},
   },
 }
 P.transport["npc:duke-hydraxis"] = {
@@ -1114,19 +1114,19 @@ P.transport["npc:fallen-hero-of-the-horde"] = {
   },
 }
 P.transport["npc:farmer-furlbrow"] = {
-  hash = "a54e93",
-  fullHash = "a54e93",
-  text = "Farmer Furlbrow. Farmer Theodore Furlbrow is an evicted Westfall pumpkin farmer stranded alongside his wife Verna on the road near the Jansen Stead. Driven from their home by the Defias Brotherhood, the couple is trying to repair their broken wagon and flee into Elwynn Forest. Theodore Furlbrow once cultivated a pumpkin patch in northern Westfall, but the rising criminal tide forced him and his wife, Verna, to abandon everything they owned. Gathering whatever they could salvage, they set out toward the safety of Elwynn Forest, urging neighbors like Farmer Saldean to follow suit. Disaster struck along the road near the Jansen Stead when their wagon broke down, leaving them stranded in plain sight of bandits and wild beasts. While Verna tends to their beloved horse Old Blanchy, Theodore watches the road with growing despair, desperate to recover cherished possessions—such as the pocket watch given to him by Verna's father on their wedding day—and hoping to warn Sentinel Hill about the bandits closing in.",
+  hash = "fb1950",
+  fullHash = "fb1950",
+  text = "Farmer Furlbrow. Near the Jansen Stead, Farmer Furlbrow and his wife are stranded beside their broken wagon. Driven from their northern Westfall farm by the Defias Brotherhood, they hope to reach Elwynn Forest. Theodore Furlbrow left his pumpkin patch in northern Westfall with his wife, Verna, as criminals drove them from their home. They salvaged what they could and set out for Elwynn Forest, urging neighbors such as Farmer Saldean to leave too. Near the Jansen Stead, their wagon broke down, leaving them exposed to bandits and wild beasts. Verna tends to their horse, Old Blanchy, while Theodore keeps watch over the road. He hopes to recover the pocket watch Verna's father gave him on their wedding day and warn Sentinel Hill about the approaching bandits.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_farmer-furlbrow-ee3dd7a3fc399540ff14/1-0000.mp3", duration = 58.9844898, start = 0},
+    {file = "Audio/Transport/full_npc_farmer-furlbrow-054c4b8e610c202ba594/1-0000.mp3", duration = 45.6097959, start = 0},
   },
 }
 P.transport["npc:farmer-saldean"] = {
-  hash = "788e33",
-  fullHash = "788e33",
-  text = "Farmer Saldean. Farmer Saldean is a resilient human homesteader residing at Saldean's Farm in central Westfall alongside his wife, Salma. Unlike many neighboring farmers who fled or gave up, Saldean stubbornly tends his troubled fields in the face of rogue harvest golems and mounting banditry. Farmer Saldean remembers better days in Westfall. Those prosperous years have crumbled into dust. Surrounded by overgrown fields, rampaging mechanical harvest watchers, and predatory bandits, Saldean refuses to yield his land. While other homesteaders abandoned their acres or turned to thievery, he and his wife Salma remain determined to harvest what little grain they can. Driven to practical desperation, he recruits wandering adventurers to destroy the rogue Harvest Watchers that have taken over his fields and his neighbors' so he can clear his soil for planting. Saldean's stubborn defense of his homestead makes him one of the few surviving anchors of civilian life between Sentinel Hill and the northern bridge. Despite his harsh circumstances, he maintains ties with the People's Militia, sending able-bodied travelers along to Gryan Stoutmantle once his own immediate troubles are settled. Saldean knows all too well that clearing out wild harvest reapers will only buy his farm temporary reprieve unless the broader lawlessness strangling the countryside is dealt with.",
+  hash = "77324a",
+  fullHash = "77324a",
+  text = "Farmer Saldean. At Saldean's Farm in central Westfall, Farmer Saldean keeps working the troubled fields beside his wife, Salma. While other farmers flee or give up, the veteran homesteader faces rogue harvest golems and growing banditry. Farmer Saldean remembers when Westfall prospered, before those years crumbled away. Overgrown fields, rampaging mechanical harvest watchers, and predatory bandits now surround his farm, but he refuses to yield his land. Other homesteaders have abandoned their acres or turned to thievery. Saldean and his wife, Salma, stay and work to harvest what little grain they can. He asks wandering adventurers to destroy the rogue Harvest Watchers that have taken over his fields and his neighbors' fields, so he can clear the soil for planting. Between Sentinel Hill and the northern bridge, Saldean's defense of his homestead helps keep civilian life going. He remains tied to the People's Militia despite the hard times, and sends able-bodied travelers to Gryan Stoutmantle once his immediate troubles are settled. Clearing the wild harvest reapers can only give his farm a temporary reprieve. The lawlessness strangling the countryside still has to be dealt with.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_farmer-saldean-ba1e9355221c7798a605/1-0000.mp3", duration = 80.5877551, start = 0},
+    {file = "Audio/Transport/full_npc_farmer-saldean-d60cf31b87d6acf07fef/1-0000.mp3", duration = 71.7583673, start = 0},
   },
 }
 P.transport["npc:feegly-the-exiled"] = {
@@ -1178,11 +1178,11 @@ P.transport["npc:field-marshal-snowfall"] = {
   },
 }
 P.transport["npc:field-marshal-stonebridge"] = {
-  hash = "75f749",
-  fullHash = "75f749",
-  text = "Field Marshal Stonebridge. Field Marshal Stonebridge is a high-ranking Alliance officer stationed near the entrance of Stormwind City. Posted beside the Gates of Stormwind in the Valley of Heroes, she oversees city defenses alongside General Marcus Jonathan and serves as an authority for major martial triumphs. Positioned just inside the towering entrance of the Valley of Heroes, Field Marshal Stonebridge stands watch beneath the eastern archway near the main gates. Her high rank within the Grand Alliance military places her among the highest echelons of Stormwind's strategic leadership, operating in close coordination with General Marcus Jonathan. From this prominent vantage, she observes the flow of defenders, travelers, and returning champions passing into the capital, standing ready to organize the garrison should threats breach the outer perimeter. Beyond her ceremonial and defensive duties at the city gate, Field Marshal Stonebridge receives critical reports and spoils from campaigns against the greatest adversaries threatening the kingdom. High-ranking commanders rely on officers like Stonebridge to verify crucial intelligence and celebrate monumental victories won in the field, including the defeat of warlords and monsters nesting within the crags of Blackrock Mountain.",
+  hash = "08d9d0",
+  fullHash = "08d9d0",
+  text = "Field Marshal Stonebridge. At Stormwind's gates, Field Marshal Stonebridge helps oversee the city's defenses with General Marcus Jonathan. She also receives reports and trophies from major victories. Field Marshal Stonebridge watches the eastern archway at the entrance to the Valley of Heroes, beside Stormwind's main gates. A senior officer in the Grand Alliance, she works closely with General Marcus Jonathan. From the gate, she watches defenders, travelers, and returning champions enter the capital, ready to organize the garrison if danger breaches the outer defenses. Field Marshal Stonebridge also receives reports and spoils from campaigns against great threats to the kingdom. Senior commanders rely on officers like her to confirm important intelligence and mark victories in the field, including the defeat of warlords and monsters in the crags of Blackrock Mountain.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_field-marshal-stonebridge-3555ad6a5aa2341d8bd3/1-0000.mp3", duration = 74.7102041, start = 0},
+    {file = "Audio/Transport/full_npc_field-marshal-stonebridge-a49f7ac200efeae099d4/1-0000.mp3", duration = 51.5918367, start = 0},
   },
 }
 P.transport["npc:fizzle-brassbolts"] = {
@@ -1226,11 +1226,11 @@ P.transport["npc:foreman-thazz-ril"] = {
   },
 }
 P.transport["npc:foreman-thistlenettle"] = {
-  hash = "837a8b",
-  fullHash = "837a8b",
-  text = "Foreman Thistlenettle. Foreman Thistlenettle was once a dwarven overseer representing both the Miners' League and the Explorers' League within the depths of Westfall. After a catastrophic cave-in trapped his crew in the subterranean tunnels of the Deadmines, he perished alongside his workers and rose again as an undead ghoul. He now wanders the dark, collapsed corridors, unrecognizable to all except by the guild badge he still carries. Before the Defias Brotherhood took total control of the Deadmines, legitimate mining expeditions delved deep into its rich veins. Foreman Thistlenettle oversaw one such venture on behalf of the Miners' League and Explorers' League. Deep in the tunnels beneath Moonbrook, disaster struck when a violent cave-in sealed his party off from the surface. The trapped miners died in the darkness, but their rest did not last; a sinister, necrotic taint raised Thistlenettle and his crew as ravenous ghouls to stalk the shadowed passages.",
+  hash = "a4919d",
+  fullHash = "a4919d",
+  text = "Foreman Thistlenettle. In the Deadmines, Foreman Thistlenettle once led a dwarven mining crew. He worked for both the Miners' League and the Explorers' League until a cave-in trapped his crew below Moonbrook. He died with them and rose again as a ghoul, still carrying his guild badge through the dark, collapsed tunnels.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_foreman-thistlenettle-46a4eb33951ca391aba2/1-0000.mp3", duration = 58.88, start = 0},
+    {file = "Audio/Transport/full_npc_foreman-thistlenettle-cd321060c3982d52d8a2/1-0000.mp3", duration = 17.5542857, start = 0},
   },
 }
 P.transport["npc:frahun-shadewhisper"] = {
@@ -1290,11 +1290,11 @@ P.transport["npc:gath-ilzogg"] = {
   },
 }
 P.transport["npc:gazin-tenorm"] = {
-  hash = "416e8a",
-  fullHash = "416e8a",
-  text = "Gazin Tenorm. Gazin Tenorm is a dwarf stationed near the altar in Stormwind's Cathedral of Light. Alongside his comrade Henze Faulk, he undertook a dangerous scouting mission to gather evidence of Defias Brotherhood activity for the king's advisors. While Gazin Tenorm spends his days within the tranquil halls of the Cathedral of Light, his mind remains out in the wilds of Elwynn Forest. Gazin and his close friend Henze Faulk set out into the woods on an urgent errand: gathering hard proof of the Defias Brotherhood's movements to present before the royal court. The expedition went awry when they were ambushed by Defias forces. Gazin barely escaped with his life back to the safety of Stormwind, but Henze was left behind in mortal danger, prompting Gazin to seek a stalwart hero of the Light to come to his companion's aid.",
+  hash = "b735c8",
+  fullHash = "b735c8",
+  text = "Gazin Tenorm. In Stormwind's Cathedral of Light, Gazin Tenorm keeps watch near the altar after a dangerous scouting mission in Elwynn Forest. Gazin Tenorm stays in the Cathedral of Light, though his thoughts remain in Elwynn Forest. He and his close friend Henze Faulk went into the woods to gather proof of the Defias Brotherhood's movements for the royal court. Defias forces ambushed them. Gazin escaped to Stormwind, but Henze was left in mortal danger. Now Gazin seeks a hero of the Light to help his companion.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_gazin-tenorm-81b4cca6c0ab6b996660/1-0000.mp3", duration = 49.684898, start = 0},
+    {file = "Audio/Transport/full_npc_gazin-tenorm-626c674895ed14b6f60a/1-0000.mp3", duration = 31.5297959, start = 0},
   },
 }
 P.transport["npc:gelkak-gyromast"] = {
@@ -1314,11 +1314,11 @@ P.transport["npc:general-marcus-jonathan"] = {
   },
 }
 P.transport["npc:gerard-tiller"] = {
-  hash = "909bad",
-  fullHash = "909bad",
-  text = "Gerard Tiller. Gerard Tiller is a thirsty human farmhand working outside the barn at the Maclure Vineyards in Elwynn Forest. Tending the vineyards under the warm sun, he is always eager to trade a crisp, shiny red apple to any traveler willing to spare a skin of refreshing spring water. Gerard Tiller spends his days toiling in the fields and tending the grounds outside the barn at the Maclure Vineyards. Located just south of Goldshire, the vineyard produces some of Elwynn's best-known grapes, but keeping the harvest running is hard labor. Tiller is constantly parched from his chores, making him quick to barter with passing adventurers. If someone offers him a fresh skin of cool spring water, he happily repays the courtesy with fresh, shiny red apples gathered straight from the local orchards.",
+  hash = "bab578",
+  fullHash = "bab578",
+  text = "Gerard Tiller. At the Maclure Vineyards, Gerard Tiller works under the warm sun and longs for spring water. He offers a shiny red apple to any traveler who brings him a skin of it. Gerard Tiller works the grounds outside the barn at the Maclure Vineyards, south of Goldshire. The vineyard is known for its grapes, and keeping the harvest going takes hard labor. The chores leave Gerard thirsty, so he welcomes travelers who bring him a skin of fresh spring water. In return, he gives them shiny red apples gathered from local orchards.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_gerard-tiller-9c7521750a9fd33c249d/1-0000.mp3", duration = 48.2742857, start = 0},
+    {file = "Audio/Transport/full_npc_gerard-tiller-b2c937c64ca9b8f10948/1-0000.mp3", duration = 33.1232653, start = 0},
   },
 }
 P.transport["npc:gerrig-bonegrip"] = {
@@ -1394,11 +1394,11 @@ P.transport["npc:gordon-wendham"] = {
   },
 }
 P.transport["npc:gramma-stonefield"] = {
-  hash = "961820",
-  fullHash = "961820",
-  text = "Gramma Stonefield. Gramma Stonefield, whose given name is Mildred, is the elderly matriarch of the Stonefield family residing at their farm in Elwynn Forest. Unlike her bickering kin, she has grown weary of the bitter, generations-long feud with the neighboring Maclures. Quietly working behind her family's back, she does everything she can to help her grandson Tommy Joe pursue his forbidden romance with Maybell Maclure. As the oldest living member of the Stonefield clan, Mildred Stonefield has witnessed decades of petty squabbling between her household and the Maclures across the road. Rather than stoking the bad blood, she views the enduring rivalry as senseless and destructive. When her grandson Tommy Joe Stonefield falls in love with Maybell Maclure, Gramma chooses compassion over clan loyalty. Relying on an old friendship with William Pestle in Goldshire, she quietly plots to help the star-crossed sweethearts meet in secret, subverting the stubborn hostility dividing the two farms.",
+  hash = "97f6f6",
+  fullHash = "97f6f6",
+  text = "Gramma Stonefield. At the Stonefield farm in Elwynn, Gramma Stonefield quietly works to ease a family feud. Gramma Stonefield has watched the Stonefields and the Maclures bicker for decades across the road. The oldest living member of the Stonefield clan, she sees their rivalry as senseless and harmful. When her grandson Tommy Joe Stonefield falls in love with Maybell Maclure, Gramma chooses compassion over clan loyalty. She turns to her old friend William Pestle in Goldshire and quietly plans ways for the sweethearts to meet in secret, despite the hostility between their farms.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_gramma-stonefield-060f23ea37f61e6a7d4c/1-0000.mp3", duration = 59.6114286, start = 0},
+    {file = "Audio/Transport/full_npc_gramma-stonefield-b657090387af89778788/1-0000.mp3", duration = 36.2579592, start = 0},
   },
 }
 P.transport["npc:grand-mason-marblesten"] = {
@@ -1450,11 +1450,11 @@ P.transport["npc:greta-mosshoof"] = {
   },
 }
 P.transport["npc:grimbooze-thunderbrew"] = {
-  hash = "abffd1",
-  fullHash = "abffd1",
-  text = "Grimbooze Thunderbrew. Grimbooze Thunderbrew is an eccentric dwarven brewer of the Thunderbrew clan, camped out in the Dagger Hills of Westfall. He spends his days concocting potent spirits and speaking almost entirely in verse. Hailing from the renowned Thunderbrew brewing family of Kharanos, Grimbooze left the snowy mountain peaks of Dun Morogh for the windswept hills of Westfall. Known for his jovial disposition and an unyielding passion for potent spirits, he has a peculiar habit of speaking strictly in rhymes, and he answers a traveler's questions only once they have completed a simple task for him. Travelers passing through the dangerous Dagger Hills can find him tending to his private casks, always eager to test a thirsty traveler's palate.",
+  hash = "5fb38b",
+  fullHash = "5fb38b",
+  text = "Grimbooze Thunderbrew. In Westfall's Dagger Hills, Grimbooze Thunderbrew brews potent spirits and speaks in verse. The eccentric dwarf belongs to the Thunderbrew clan. Grimbooze Thunderbrew camps in the Dagger Hills, where he tends his private casks. He comes from the Thunderbrew brewing family of Kharanos and left the snowy peaks of Dun Morogh for Westfall's windswept hills. Jovial and devoted to potent spirits, he speaks only in rhymes. A traveler must complete a simple task before he answers any questions, and he is always ready to test a thirsty palate.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_grimbooze-thunderbrew-5afb6326829cacf17142/1-0000.mp3", duration = 45.2963265, start = 0},
+    {file = "Audio/Transport/full_npc_grimbooze-thunderbrew-c01ebaec15a1e9937b2b/1-0000.mp3", duration = 33.6195918, start = 0},
   },
 }
 P.transport["npc:grish-longrunner"] = {
@@ -1594,11 +1594,11 @@ P.transport["npc:harken-windtotem"] = {
   },
 }
 P.transport["npc:harlan-bagley"] = {
-  hash = "16df61",
-  fullHash = "16df61",
-  text = "Harlan Bagley. Harlan Bagley is a human armorer and merchant operating out of the Lionheart Armory in Stormwind City's bustling Trade District. He tends his shop on the northern side of the district center, looking after arms and equipment for citizens and visiting adventurers alike. Situated along the northern side of the Trade District, the Lionheart Armory serves as a steady commercial fixture within the heart of Stormwind. From behind his counter, Harlan Bagley manages inventory and deals in defensive gear, relying on incoming trade and regional couriers to keep his shelves stocked while the capital contends with distant border conflicts and supply constraints.",
+  hash = "912e27",
+  fullHash = "912e27",
+  text = "Harlan Bagley. At the Lionheart Armory in Stormwind City, Harlan Bagley tends to the arms and equipment his customers need. He is a human merchant in the Trade District, serving citizens and visiting adventurers from his shop on the district's northern side. Harlan Bagley keeps the Lionheart Armory on the northern side of Stormwind's Trade District. He tends its stock and sells defensive gear from behind the counter. Trade and regional couriers bring supplies to the shop as the capital faces distant border conflicts and shortages.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_harlan-bagley-36d31ebb92898e6ea6cb/1-0000.mp3", duration = 37.642449, start = 0},
+    {file = "Audio/Transport/full_npc_harlan-bagley-11859d731a44cca77389/1-0000.mp3", duration = 29.675102, start = 0},
   },
 }
 P.transport["npc:harlo-barnaby"] = {
@@ -1618,11 +1618,11 @@ P.transport["npc:hegnar-rumbleshot"] = {
   },
 }
 P.transport["npc:henze-faulk"] = {
-  hash = "97f1c7",
-  fullHash = "97f1c7",
-  text = "Henze Faulk. Henze Faulk is a dwarven adventurer found lying near death on the stone circle outside Heroes' Vigil in Elwynn Forest. Struck down by the Defias Brotherhood while shielding his companion, he serves as a pivotal test for aspiring paladins learning to wield the gift of resurrection. Near the ancient stone ring east of Stormwind sits Heroes' Vigil, a place often haunted by Defias bandits prowling the Elwynn woods. Henze Faulk and his friend Gazin Tenorm were ambushed here by Defias marauders. Putting himself in harm's way to ensure Gazin's survival, Henze fell to the bandits' blades. While his companion survived to summon aid from the Cathedral of Light, Henze's body remains on the threshold of life and death, awaiting the divine intervention of a paladin carrying a Symbol of Life.",
+  hash = "9b2366",
+  fullHash = "9b2366",
+  text = "Henze Faulk. Near Heroes' Vigil in Elwynn Forest, Henze Faulk lies gravely wounded. He shielded his companion Gazin Tenorm from the Defias Brotherhood, and now awaits a paladin's aid. Henze Faulk lies near the stone ring east of Stormwind, at Heroes' Vigil. Defias marauders ambushed him and his friend Gazin Tenorm there. Henze took the attack so Gazin could survive, and fell to the bandits' blades. Gazin reached the Cathedral of Light to seek help. Henze remains between life and death, awaiting the aid of a paladin carrying a Symbol of Life.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_henze-faulk-28d640102b06d57d27c7/1-0000.mp3", duration = 49.2930612, start = 0},
+    {file = "Audio/Transport/full_npc_henze-faulk-3c4b367296e3c6d1d2a3/1-0000.mp3", duration = 35.2130612, start = 0},
   },
 }
 P.transport["npc:heralath-fallowbrook"] = {
@@ -1658,11 +1658,11 @@ P.transport["npc:highlord-demitrian"] = {
   },
 }
 P.transport["npc:hogger"] = {
-  hash = "16da6e",
-  fullHash = "16da6e",
-  text = "Hogger. Hogger is the vicious chieftain of the Riverpaw gnolls prowling southwestern Elwynn Forest. Towering over his kin and remarkably aggressive, he has become notorious for raiding local farms and butchering unsuspecting travelers. His violent rampages have earned him an official bounty from the Stormwind Marshals. Prowling atop Hogger Hill in southwestern Elwynn Forest, Hogger commands the local Riverpaw pack with unmatched savagery. In the years following the Third War, gnoll raids across local homesteads grew increasingly bold and coordinated. Behind this rise in violence lies an unsettling alliance: the Riverpaw have begun colluding with the Defias Brotherhood, trading raw ferocity for arms, tactical direction, and magical support. To safeguard Elwynn's borders and protect trade routes from further bloodshed, Marshal Dughan has posted a generous bounty on Hogger's head.",
+  hash = "a877bc",
+  fullHash = "a877bc",
+  text = "Hogger. In southwestern Elwynn Forest, Hogger leads the Riverpaw gnolls in raids on farms and travelers. His violent attacks have earned him a bounty from the Stormwind Marshals. Hogger commands the Riverpaw pack from Hogger Hill in southwestern Elwynn Forest. Since the Third War, the gnolls have grown bolder and more coordinated in their raids on nearby homesteads. The Riverpaw have joined forces with the Defias Brotherhood, exchanging their raw ferocity for arms, tactical direction, and magical support. To protect Elwynn's borders and trade routes from further bloodshed, Marshal Dughan has posted a bounty on Hogger's head.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_hogger-3a83f249a98891c8095a/1-0000.mp3", duration = 52.9763265, start = 0},
+    {file = "Audio/Transport/full_npc_hogger-6035a06da04a58d05da4/1-0000.mp3", duration = 38.3216327, start = 0},
   },
 }
 P.transport["npc:holt-thunderhorn"] = {
@@ -1698,19 +1698,19 @@ P.transport["npc:ilthalaine"] = {
   },
 }
 P.transport["npc:innkeeper-allison"] = {
-  hash = "0c6361",
-  fullHash = "0c6361",
-  text = "Innkeeper Allison. Innkeeper Allison manages the Gilded Rose, one of the busiest and most central inns in Stormwind City. Located in the heart of the Trade District right between the bank and auction house, she provides weary travelers and local merchants with hearthstone bindings, refreshing drinks, and shelter. Positioned squarely between the bustling trade auction house and the main city vaults, the Gilded Rose serves as an epicenter for adventurers arriving in Stormwind. Innkeeper Allison stands behind the main counter on the ground floor, keeping order amidst a constant flow of peddlers, mercenaries, and visiting diplomats. Beyond offering lodging and hearthstone services, she frequently participates in local holiday festivities and coordinates small errands for traveling heroes seeking rest within the capital.",
+  hash = "c4bce6",
+  fullHash = "c4bce6",
+  text = "Innkeeper Allison. In Stormwind's Trade District, Innkeeper Allison keeps the Gilded Rose ready for travelers and merchants. The busy inn stands between the bank and auction house, where she offers hearthstone bindings, drinks, and shelter. Innkeeper Allison welcomes travelers at the Gilded Rose in Stormwind. The inn stands between the Trade District auction house and the city's main vaults, and its ground floor sees a steady flow of peddlers, mercenaries, and visiting diplomats. She keeps order behind the main counter and offers lodging and hearthstone services. Allison also joins local holiday festivities and coordinates small errands for traveling heroes seeking rest in the capital.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_innkeeper-allison-726fe767a51eff6d538e/1-0000.mp3", duration = 46.2367347, start = 0},
+    {file = "Audio/Transport/full_npc_innkeeper-allison-7c17214c766b60d1646a/1-0000.mp3", duration = 42.7363265, start = 0},
   },
 }
 P.transport["npc:innkeeper-farley"] = {
-  hash = "29c37f",
-  fullHash = "29c37f",
-  text = "Innkeeper Farley. Innkeeper Farley manages the Lion's Pride Inn in Goldshire, providing food, lodging, and hearthstones to travelers passing through Elwynn Forest. Well-liked and observant, he often holds misplaced mail and listens to the troubles of adventurers on the road. Innkeeper Farley runs the Lion's Pride Inn with a welcoming hand and a sharp eye. Travelers bound for Stormwind, Westfall and Duskwood stop at his counter for a warm meal, a mug of ale and a bed, and Farley keeps order in one of the realm's busiest waystations, pouring ale and serving cheese to all who pass through Goldshire.",
+  hash = "8fd328",
+  fullHash = "8fd328",
+  text = "Innkeeper Farley. At the Lion's Pride Inn in Goldshire, Innkeeper Farley welcomes travelers with food, beds, and hearthstones. Well-liked and observant, he keeps misplaced mail and hears the troubles of those on the road. Travelers bound for Stormwind, Westfall, and Duskwood find Innkeeper Farley behind the Lion's Pride Inn counter in Goldshire. He offers meals, ale, cheese, and a bed, and sets hearthstones for those who need one. With a welcoming hand and a sharp eye, Farley serves all who pass through this busy waystation and keeps order at the inn.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_innkeeper-farley-0550e0b26eced19c1260/1-0000.mp3", duration = 38.9746939, start = 0},
+    {file = "Audio/Transport/full_npc_innkeeper-farley-b32a8994c1722036d924/1-0000.mp3", duration = 36.075102, start = 0},
   },
 }
 P.transport["npc:innkeeper-firebrew"] = {
@@ -1786,11 +1786,11 @@ P.transport["npc:jannok-breezesong"] = {
   },
 }
 P.transport["npc:jasper-fel"] = {
-  hash = "9cc9f3",
-  fullHash = "9cc9f3",
-  text = "Jasper Fel. Jasper Fel is a discreet supplier operating out of the SI:7 headquarters in Stormwind's Old Town. Providing daggers and assorted vials to operatives, he keeps a sharp eye on visitors and warns them to watch their tongues. His quiet trade supports the covert arm of the kingdom behind closed doors. Tucked away inside the barracks of SI:7 within Old Town, Jasper Fel caters to a very specific clientele. Rather than hawking standard arms to the city guard, he provides essential implements of tradecraft: simple daggers and the delicate vials required for brewing and applying poisons. Fel operates under the strict discipline of Mathias Shaw's intelligence division, curtly advising any who approach to mind their speech. In a stronghold dedicated to espionage and subtle lethality, casual chatter is an easy way to meet an early end.",
+  hash = "4f08c2",
+  fullHash = "4f08c2",
+  text = "Jasper Fel. In Stormwind's Old Town, Jasper Fel supplies daggers and vials from SI:7 headquarters. He keeps watch on visitors and warns them to mind their speech. Inside SI:7 headquarters in Old Town, Jasper Fel supplies the agents who work there. He offers simple daggers and empty vials for brewing and applying poisons. Jasper works under Mathias Shaw's intelligence division and warns visitors to mind their speech. In a place built for espionage, careless words can put people in danger.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_jasper-fel-397817c1a88c7874bbd4/1-0000.mp3", duration = 50.9387755, start = 0},
+    {file = "Audio/Transport/full_npc_jasper-fel-c50e7302463761d6da94/1-0000.mp3", duration = 30.5110204, start = 0},
   },
 }
 P.transport["npc:jen-shan"] = {
@@ -1802,11 +1802,11 @@ P.transport["npc:jen-shan"] = {
   },
 }
 P.transport["npc:jennea-cannon"] = {
-  hash = "790183",
-  fullHash = "790183",
-  text = "Jennea Cannon. Jennea Cannon is a respected human mage trainer residing within the Wizard's Sanctum in Stormwind's Mage Quarter. She oversees the education of novice sorcerers, guiding them through foundational studies and investigating disturbances in the flow of local arcane energies. Through her tasks, she tests whether apprentices have the discipline needed to control magic without being consumed by it. Positioned atop the spiral walkway of the Wizard's Sanctum, Jennea Cannon stands as one of the primary mentors for arcane practitioners entering Stormwind. Rather than merely drilling spells into pupils, she emphasizes caution and self-control. To non-mages passing through the tower, she offers a sharp warning: unchecked magic will burn the untrained, a truth novice spellcasters learn quickly under her tutelage. Jennea believes magical theory must be tested by real-world observation. She frequently dispatches promising apprentices outside the city walls, sending them to examine sites such as Mirror Lake in Elwynn Forest to understand how natural water sources interact with arcane resonance. As students advance, she tests their resolve by directing them to investigate disruptions at the Blue Recluse or gathering volatile reagents for crafting their first true wizard's implements. While Jennea handles early instruction and local affairs, she knows when an apprentice has outgrown her syllabus. Once an initiate demonstrates true potential, she directs them up the hierarchy of the Sanctum to High Sorcerer Andromath or even beyond the kingdom's borders to reclusive practitioners like Tabetha deep in the Dustwallow Marsh.",
+  hash = "8e5ccf",
+  fullHash = "8e5ccf",
+  text = "Jennea Cannon. In Stormwind, Jennea Cannon guides new mages through their first studies. From the Wizard's Sanctum in the Mage Quarter, she teaches caution and self-control, and investigates disturbances in local arcane energies. At the top of the Wizard's Sanctum's spiral walkway, Jennea Cannon guides those who come to Stormwind to study the arcane. She teaches more than spells, insisting that students learn caution and self-control. Even those who do not study magic hear her warning: without training, magic can burn its wielder. Jennea sends promising apprentices beyond the city walls to test what they have learned. At Mirror Lake in Elwynn Forest, they study how natural water sources meet arcane resonance. As they advance, she sends them to investigate disturbances at the Blue Recluse or gather volatile reagents for their first true wizard's implements. When an apprentice outgrows Jennea's lessons, she points the way to greater masters. Those who show true potential may continue up the Sanctum's hierarchy with High Sorcerer Andromath, or travel beyond the kingdom to practitioners such as Tabetha, deep in the Dustwallow Marsh.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_jennea-cannon-99372bf4fb1e54eb8884/1-0000.mp3", duration = 101.564082, start = 0},
+    {file = "Audio/Transport/full_npc_jennea-cannon-c423f16f021a5fea130d/1-0000.mp3", duration = 70.0865306, start = 0},
   },
 }
 P.transport["npc:jocaste"] = {
@@ -1834,11 +1834,11 @@ P.transport["npc:jorah-annison"] = {
   },
 }
 P.transport["npc:jorgen"] = {
-  hash = "6ce232",
-  fullHash = "6ce232",
-  text = "Jorgen. Jorgen is a discreet human informant residing in Stormwind City, tucked away by the water just inside the Valley of Heroes. Despite his modest and out-of-the-way perch, he is entangled in sensitive matters involving prominent figures in the capital, including Elling Trias and Bishop DeLavey. Positioned down near the water immediately to the right of Stormwind's monumental entryway, Jorgen maintains a low profile away from the bustling thoroughfares of the city. While the towering statues of heroes overlook the bridge above, Jorgen monitors comings and goings from the shadows below, serving as a quiet contact for those who need information kept off the record.",
+  hash = "4e7290",
+  fullHash = "4e7290",
+  text = "Jorgen. Jorgen keeps watch beside the water at Stormwind's Valley of Heroes entrance. His quiet perch draws people with matters they cannot discuss openly. Jorgen keeps to the water just right of Stormwind's great entrance. Above him, statues of heroes look over the bridge, while he watches those who come and go below. People seeking information they want kept off the record can find a quiet contact there.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_jorgen-ea9d3a3a3bbb83d4b8ea/1-0000.mp3", duration = 39.7844898, start = 0},
+    {file = "Audio/Transport/full_npc_jorgen-a4104bfebc698ac25d34/1-0000.mp3", duration = 25.077551, start = 0},
   },
 }
 P.transport["npc:josef-gregorian"] = {
@@ -1914,11 +1914,11 @@ P.transport["npc:karos-razok"] = {
   },
 }
 P.transport["npc:katie-hunter"] = {
-  hash = "610215",
-  fullHash = "610215",
-  text = "Katie Hunter. Katie Hunter is a horse breeder stationed at the stables in the Eastvale Logging Camp within eastern Elwynn Forest. She provides trained riding horses and steeds to citizens of Stormwind and trusted champions of the Alliance. Alongside Randal Hunter, she ensures travelers and soldiers have reliable mounts to navigate the kingdom's roads. Tucked away in the quiet, wooded clearings of the Eastvale Logging Camp, Katie Hunter manages the kingdom's primary horse stock for aspiring riders in Elwynn Forest. While the lumberjacks harvest timber for Stormwind's reconstruction, Katie tends to the stables, raising a variety of dependable breeds including pintos, mares, and swift steeds. Her stock represents the classic equestrian tradition of the kingdom, offering faithful companions capable of braving dangerous roads across southern Azeroth.",
+  hash = "24f2a6",
+  fullHash = "24f2a6",
+  text = "Katie Hunter. At the Eastvale Logging Camp stables, Katie Hunter tends horses for Stormwind and trusted Alliance champions. She works with Randal Hunter to keep travelers and soldiers mounted for the kingdom’s roads. Katie Hunter tends the horses at the Eastvale Logging Camp in eastern Elwynn Forest. While lumberjacks cut timber for Stormwind’s reconstruction, she raises dependable pintos, mares, and swift steeds for riders. Her horses carry people along the kingdom’s roads and the dangerous routes of southern Azeroth.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_katie-hunter-aef62c27481d77864ac4/1-0000.mp3", duration = 51.7746939, start = 0},
+    {file = "Audio/Transport/full_npc_katie-hunter-67110542fe5f98fe5a62/1-0000.mp3", duration = 32.3395918, start = 0},
   },
 }
 P.transport["npc:kaymard-copperpinch"] = {
@@ -1986,19 +1986,19 @@ P.transport["npc:kernobee"] = {
   },
 }
 P.transport["npc:keryn-sylvius"] = {
-  hash = "d5e536",
-  fullHash = "d5e536",
-  text = "Keryn Sylvius. Keryn Sylvius is a human rogue trainer stationed on the second floor of Goldshire's Lion's Pride Inn. Tucked away in the inn's reading room, she teaches fledgling scoundrels the basics of stealth and bladecraft while acting as a quiet conduit to Stormwind's intelligence service. While the ground floor of the Lion's Pride Inn bustles with boisterous travelers and weary town guards, Keryn Sylvius keeps to the quiet reading room upstairs. Outwardly unassuming, she observes the constant flow of road gossip and serves as the local mentor for rogues cutting their teeth in Elwynn Forest. When promising operatives outgrow local petty thievery and roadside skulduggery, Sylvius discretely sends them onward to Stormwind City to make contact with SI:7.",
+  hash = "656e67",
+  fullHash = "656e67",
+  text = "Keryn Sylvius. On the second floor of Goldshire’s Lion’s Pride Inn, Keryn Sylvius trains young rogues. In the reading room, she teaches stealth and bladecraft and quietly guides promising operatives toward Stormwind’s intelligence service. Keryn Sylvius keeps to the reading room above the Lion’s Pride Inn. Downstairs, travelers crowd the floor with town guards, while upstairs she watches the steady flow of road gossip. She mentors rogues learning their trade in Elwynn Forest. When promising operatives outgrow petty theft and roadside skulduggery, Sylvius discreetly sends them to Stormwind City to contact SI:7.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_keryn-sylvius-5ac9a5933caf75ab1027/1-0000.mp3", duration = 45.3746939, start = 0},
+    {file = "Audio/Transport/full_npc_keryn-sylvius-2ec5bb303a77aa3e1d83/1-0000.mp3", duration = 38.4783673, start = 0},
   },
 }
 P.transport["npc:khelden-bremen"] = {
-  hash = "9284be",
-  fullHash = "9284be",
-  text = "Khelden Bremen. Khelden Bremen is a human mage and instructor stationed on the upper floor of Northshire Abbey in Elwynn Forest. He oversees the earliest instruction of novice spellcasters who take up the arcane arts in service to Stormwind. Situated within the tranquil stone walls of Northshire Abbey, Khelden Bremen acts as the primary instructor for fledgling human mages. While the clergy and defenders handle martial and spiritual pursuits below, Bremen maintains a quiet study upstairs. Here, he introduces novices to the discipline, focus, and fundamental techniques required to weave raw magical energy safely before they venture out into Elwynn Forest and beyond to Stormwind's Mage Quarter.",
+  hash = "8856d2",
+  fullHash = "8856d2",
+  text = "Khelden Bremen. On the upper floor of Northshire Abbey, Khelden Bremen teaches human mages their first spells. He prepares novices to serve Stormwind through the arcane arts. Khelden Bremen teaches new human mages in a study on the upper floor of Northshire Abbey. While clergy and defenders pursue their work below, he shows novices how to focus and shape magical energy safely. His lessons prepare them for the road through Elwynn Forest and for further study in Stormwind's Mage Quarter.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_khelden-bremen-21552079a934e8ad679e/1-0000.mp3", duration = 39.4710204, start = 0},
+    {file = "Audio/Transport/full_npc_khelden-bremen-c05be3fd46276382c115/1-0000.mp3", duration = 28.917551, start = 0},
   },
 }
 P.transport["npc:kil-hala"] = {
@@ -2194,11 +2194,11 @@ P.transport["npc:lieutenant-nevell"] = {
   },
 }
 P.transport["npc:lieutenant-orrin"] = {
-  hash = "749ea2",
-  fullHash = "749ea2",
-  text = "Lieutenant Orrin. Lieutenant Orrin is an officer of the Argent Dawn stationed at the gates of Stormwind City. Positioned in the Valley of Heroes, he coordinates local defense against incursions by the Scourge and directs fresh recruits to investigate undead threats outside the capital's walls. While the Argent Dawn is primarily known for holding the front lines in the ruined north, their presence extends south to safeguard vital strongholds like Stormwind City. Lieutenant Orrin stands near the towering statues of the Valley of Heroes, watching the road for signs of corruption. When necromantic magic stirs outside the capital, he is tasked with sounding the alarm and rallying adventurers before foul forces can threaten the populace. Orrin acts as a primary liaison between the independent order and volunteers within the southern kingdom. When signs of the Scourge surface beyond the city gates, he marshals able-bodied scouts and sends them out to gather intelligence and secure hazardous artifacts, such as cracked necrotic crystals, to better understand and repel the undead threat.",
+  hash = "3b973b",
+  fullHash = "3b973b",
+  text = "Lieutenant Orrin. At Stormwind's gates, Lieutenant Orrin watches for Scourge incursions and calls for scouts. The Argent Dawn officer stands in the Valley of Heroes, where he directs recruits to investigate undead threats beyond the capital. Lieutenant Orrin watches the road from the Valley of Heroes. The Argent Dawn is known for holding the front lines in the ruined north, but it also guards strongholds farther south, including Stormwind City. When necromantic magic stirs beyond the capital, Orrin sounds the alarm and rallies adventurers before the undead can threaten the people within. Lieutenant Orrin connects the Argent Dawn with volunteers in the southern kingdom. When signs of the Scourge appear beyond Stormwind's gates, he sends scouts to gather intelligence and secure hazardous artifacts. Cracked necrotic crystals are among the objects they recover, helping the order understand and repel the undead threat.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_lieutenant-orrin-2b774ea537bd8d0f9f12/1-0000.mp3", duration = 64.9926531, start = 0},
+    {file = "Audio/Transport/full_npc_lieutenant-orrin-03793c7393f787e43f94/1-0000.mp3", duration = 54.0995918, start = 0},
   },
 }
 P.transport["npc:loganaar"] = {
@@ -2242,11 +2242,11 @@ P.transport["npc:lord-arkkoroc"] = {
   },
 }
 P.transport["npc:lord-baurles-k-wishock"] = {
-  hash = "588998",
-  fullHash = "588998",
-  text = "Lord Baurles K. Wishock. Lord Baurles K. Wishock is a nobleman residing in Stormwind Keep's Petitioner's Chamber. Known among barkeeps for his unpaid tabs and fondness for strong drink, he stumbled upon darker dealings than mere drunkenness in the city's underbelly. Holding court among the petitioners and dignitaries within Stormwind Keep, Lord Baurles K. Wishock is a member of the influential House of Nobles. Despite his elevated station, Wishock developed a habit of frequenting the dive bars of the Mage Quarter, especially the Slaughtered Lamb, leaving behind substantial unpaid bills. While drinking there, however, he caught wind of the warlock coven practicing dark arts in the cellars beneath the floorboards. Determined to shut the tavern down, Wishock began petitioning fellow nobles for a formal investigation—unaware that uncovering demonic cabals in Stormwind rarely goes unpunished.",
+  hash = "95e9b0",
+  fullHash = "95e9b0",
+  text = "Lord Baurles K. Wishock. In Stormwind Keep, Lord Baurles K. Wishock lives among the petitioners and dignitaries. Barkeeps know him for unpaid tabs and a taste for strong drink, but his nights in the city’s underbelly brought him near darker dealings. Lord Baurles K. Wishock moves among petitioners and dignitaries in Stormwind Keep, where he belongs to the influential House of Nobles. Though his station is high, he often drinks in the Mage Quarter’s dive bars, especially the Slaughtered Lamb, and leaves large bills unpaid. There, he hears of a warlock coven practicing dark arts in cellars beneath the floorboards. Wishock sets out to have the tavern closed and asks fellow nobles for a formal investigation. Uncovering demonic cabals in Stormwind rarely goes unpunished.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_lord-baurles-k-wishock-85615f50522cf6cff929/1-0000.mp3", duration = 55.2228571, start = 0},
+    {file = "Audio/Transport/full_npc_lord-baurles-k-wishock-b91eff872d7949e780d4/1-0000.mp3", duration = 47.0465306, start = 0},
   },
 }
 P.transport["npc:lord-grayson-shadowbreaker"] = {
@@ -2306,27 +2306,27 @@ P.transport["npc:lotwil-veriatus"] = {
   },
 }
 P.transport["npc:lucius"] = {
-  hash = "19e5a8",
-  fullHash = "19e5a8",
-  text = "Lucius. Lucius is a dwarf operative found near the docks of Lakeshire in the Redridge Mountains. Operating as an undercover field contact for Stormwind's SI:7 intelligence service, he assists operatives with specialized reconnaissance and trade skills. While Lucius presents himself casually on the Lakeshire waterfront, he is in fact a clandestine operative tied directly to Stormwind's intelligence apparatus, SI:7. From his post on the docks, he monitors trade, unusual traffic, and regional threats encroaching on Redridge. Operatives dispatched eastward from Stormwind are directed to him to coordinate covert tasks and hone practical fieldwork arts such as lockpicking, ensuring the Crown maintains hidden reach far beyond Elwynn Forest.",
+  hash = "2cdae8",
+  fullHash = "2cdae8",
+  text = "Lucius. At the Lakeshire docks, Lucius watches the Redridge waterfront. The dwarf works undercover for Stormwind’s SI:7, helping agents with reconnaissance and trade skills. Lucius watches the Lakeshire docks for SI:7, Stormwind’s intelligence service. He keeps an eye on trade, unusual traffic, and threats moving into the Redridge Mountains. Agents sent east from Stormwind come to him to coordinate covert work and practice field skills such as lockpicking. Through Lucius, Stormwind keeps a hidden reach beyond Elwynn Forest.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_lucius-f58930779e4c0a68c466/1-0000.mp3", duration = 45.0873469, start = 0},
+    {file = "Audio/Transport/full_npc_lucius-b00a682b2857d64eedb1/1-0000.mp3", duration = 35.2914286, start = 0},
   },
 }
 P.transport["npc:lyria-du-lac"] = {
-  hash = "ee7d67",
-  fullHash = "ee7d67",
-  text = "Lyria Du Lac. Lyria Du Lac is a human warrior trainer stationed in Goldshire within Elwynn Forest. Tucked away just behind the village smithy, she drills novice combatants and guides young warriors as they begin mastering their stances and arms. While Goldshire's Lion's Pride Inn bustles with travellers and its blacksmith hammers away at local trade goods, Lyria Du Lac keeps to the yard behind the forge. Experienced in martial discipline, she serves the Alliance by instructing fledgeling warriors fresh from Northshire Abbey. She evaluates their readiness and introduces them to specialized combat techniques, ensuring that those who take up shield and blade for Stormwind can hold their own against the encroaching threats of Elwynn Forest.",
+  hash = "48b103",
+  fullHash = "48b103",
+  text = "Lyria Du Lac. In Goldshire, Lyria Du Lac trains young warriors behind the village smithy. She teaches them to master their stances and arms. Lyria Du Lac trains young warriors in the yard behind Goldshire's forge. She teaches those fresh from Northshire Abbey, judges their readiness, and introduces specialized combat techniques. Warriors take up shield and blade for Stormwind, facing the threats of Elwynn Forest.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_lyria-du-lac-77345617987014cf0ca7/1-0000.mp3", duration = 44.0163265, start = 0},
+    {file = "Audio/Transport/full_npc_lyria-du-lac-d83e16ba652e3d04a6bd/1-0000.mp3", duration = 26.4359184, start = 0},
   },
 }
 P.transport["npc:ma-stonefield"] = {
-  hash = "233317",
-  fullHash = "233317",
-  text = "Ma Stonefield. Ma Stonefield is a human matriarch residing at the Stonefield Farm in western Elwynn Forest. Standing right outside the family homestead alongside Auntie Bernice, she deals with the daily hardships of rural farm life amidst neighboring rivalries and pest troubles. Standing beside her family cottage in southwestern Elwynn Forest, Ma Stonefield watches over the farmstead alongside \"Auntie\" Bernice Stonefield. Life between the neighboring Maclure homestead and the nearby pumpkin patches is rarely peaceful. Local wild boars continuously threaten the family crops, and none poses a greater nuisance than Princess, an enormous prize sow notorious for trampling fields and devouring hard-earned harvests.",
+  hash = "7e39fc",
+  fullHash = "7e39fc",
+  text = "Ma Stonefield. At Stonefield Farm in western Elwynn, Ma Stonefield tends to hardships close to home. Beside Auntie Bernice, she faces farm troubles, neighboring rivalries, and pests. Ma Stonefield watches over the farm beside her family cottage in southwestern Elwynn Forest, with Auntie Bernice Stonefield at her side. The neighboring Maclure homestead and nearby pumpkin patches bring little peace. Wild boars threaten the Stonefield crops, and Princess causes the greatest trouble. The enormous prize sow tramples fields and devours the harvest the family worked hard to grow.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_ma-stonefield-e4be7ea5cd90626d467c/1-0000.mp3", duration = 44.9828571, start = 0},
+    {file = "Audio/Transport/full_npc_ma-stonefield-299280a6b6cb85108b85/1-0000.mp3", duration = 37.6163265, start = 0},
   },
 }
 P.transport["npc:mad-magus-tirth"] = {
@@ -2378,19 +2378,19 @@ P.transport["npc:mai-ah"] = {
   },
 }
 P.transport["npc:major-mattingly"] = {
-  hash = "eceaf9",
-  fullHash = "eceaf9",
-  text = "Major Mattingly. Major Mattingly is a seasoned officer of the Stormwind Army stationed at the grand gates in the Valley of Heroes. Serving under General Marcus Jonathan, he assists in safeguarding the capital's main entrance and advising capable crafters on protecting heroes against draconic threats. Standing watch in the Valley of Heroes, Major Mattingly is one of the high-ranking officers directly responsible for Stormwind City's primary landward defense. A grizzled veteran soldier whose face bears the lines of hard-won experience, he serves under General Marcus Jonathan alongside the city's standing garrison. Beyond his daily duties overseeing gate patrols and incoming travelers, Mattingly possesses specialized tactical knowledge regarding the lethal nature of dragons. He is recognized by seasoned adventurers as a vital contact when learning to craft protective dragonscale gear necessary for braving the realm's deadliest lairs.",
+  hash = "f80c74",
+  fullHash = "f80c74",
+  text = "Major Mattingly. At Stormwind’s main gates, Major Mattingly helps guard the capital and advises crafters on protection from dragons. Major Mattingly is a high-ranking officer responsible for Stormwind City's landward defense. He stands watch in the Valley of Heroes under General Marcus Jonathan, alongside the city's garrison. His duties include overseeing gate patrols and travelers entering the city. Mattingly also knows the lethal nature of dragons and guides skilled crafters who seek to make protective dragonscale gear for facing dangerous lairs.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_major-mattingly-c8371002f2a631020900/1-0000.mp3", duration = 52.715102, start = 0},
+    {file = "Audio/Transport/full_npc_major-mattingly-0f25ef2645ccec30b2ff/1-0000.mp3", duration = 31.9477551, start = 0},
   },
 }
 P.transport["npc:major-samuelson"] = {
-  hash = "41b614",
-  fullHash = "41b614",
-  text = "Major Samuelson. Major Samuelson is a high-ranking officer in the Stormwind City Guard stationed within the throne room of Stormwind Keep. As an experienced military commander, he oversees vital personnel matters and previously mentored junior officers such as Lieutenant Farren Orinelle. Standing within Stormwind Keep before the royal court, Major Samuelson represents the leadership of the Stormwind City Guard. He oversees officer postings and administrative military orders across the realm. Notably, he mentored Lieutenant Farren Orinelle, an officer stationed far north at Southshore in the Hillsbrad Foothills. When junior commanders find themselves overwhelmed or seeking transfer from distant frontier garrisons, their requests and official reports travel directly across the kingdom to Major Samuelson's desk in the capital.",
+  hash = "77e3f1",
+  fullHash = "77e3f1",
+  text = "Major Samuelson. In Stormwind Keep, Major Samuelson commands the city guard and its personnel. The high-ranking veteran officer serves in the throne room and once mentored Lieutenant Farren Orinelle. Before Stormwind's royal court, Major Samuelson leads the Stormwind City Guard. He oversees officer postings and military orders across the realm. He mentored Lieutenant Farren Orinelle, who serves at Southshore in the Hillsbrad Foothills. When junior commanders struggle or seek transfer from distant frontier garrisons, their requests and official reports travel across the kingdom to Samuelson's desk in the capital.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_major-samuelson-fd35c47e8f5b14dd6f44/1-0000.mp3", duration = 48.1436735, start = 0},
+    {file = "Audio/Transport/full_npc_major-samuelson-97442a590398014acffa/1-0000.mp3", duration = 37.9297959, start = 0},
   },
 }
 P.transport["npc:mankrik"] = {
@@ -2426,11 +2426,11 @@ P.transport["npc:marek-ironheart"] = {
   },
 }
 P.transport["npc:marisa-du-paige"] = {
-  hash = "383ab6",
-  fullHash = "383ab6",
-  text = "Marisa du'Paige. Marisa du'Paige is a rare human rogue spellcaster found lurking within the sprawling cave network outside the entrance to the Deadmines in southwestern Westfall. Aligned with the outlaws operating beneath Moonbrook, she wields arcane magic alongside the laborers and highwaymen guarding the tunnels. Deep inside the winding caverns that lead toward the Deadmines beneath Moonbrook, most defenders are rough-hewn cutpurses, renegade miners, and thugs. Marisa du'Paige stands out among them as a skilled human mage. While most spellcasters of the kingdom train within the sanctioned halls of Stormwind's Mage Quarter or serve the Kirin Tor, du'Paige has cast her lot with the outlaws and brigands hiding in Westfall's subterranean depths.",
+  hash = "4b42b7",
+  fullHash = "4b42b7",
+  text = "Marisa du'Paige. In the caves outside the Deadmines, Marisa du'Paige fights beside Moonbrook's outlaws. Rare among their laborers and highwaymen, she uses arcane magic in the tunnels of southwestern Westfall. Deep in the caves leading toward the Deadmines beneath Moonbrook, cutpurses, renegade miners, and thugs guard the tunnels. Marisa du'Paige is a skilled human mage among them. Many spellcasters train in Stormwind's Mage Quarter or serve the Kirin Tor, but Marisa has joined the outlaws and brigands in Westfall's underground passages.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_marisa-du-paige-1128b8a6ca83e473c331/1-0000.mp3", duration = 45.1395918, start = 0},
+    {file = "Audio/Transport/full_npc_marisa-du-paige-afd3e6be96684be91d7b/1-0000.mp3", duration = 34.8995918, start = 0},
   },
 }
 P.transport["npc:marleth-barleybrew"] = {
@@ -2538,11 +2538,11 @@ P.transport["npc:maxan-anvol"] = {
   },
 }
 P.transport["npc:maybell-maclure"] = {
-  hash = "70a51a",
-  fullHash = "70a51a",
-  text = "Maybell Maclure. Maybell Maclure is a young woman living at the Maclure Vineyards in Elwynn Forest. Despite a bitter, long-standing feud between her family and the neighboring Stonefields, she has secretly fallen in love with Tommy Joe Stonefield. Life on the Maclure Vineyards is defined by endless labor and an enduring grudge against the neighboring Stonefield family. Caught in the middle is Maybell Maclure, who has fallen deeply in love with Tommy Joe Stonefield, the young heir to the rival farmstead. Kept apart by vigilant relatives and ancient family resentment, Maybell is desperate for any chance to communicate with Tommy Joe beyond the prying eyes of her kin.",
+  hash = "40cfcc",
+  fullHash = "40cfcc",
+  text = "Maybell Maclure. At the Maclure Vineyards in Elwynn Forest, Maybell Maclure loves a Stonefield in secret. Her family’s bitter feud with the neighboring Stonefields keeps her apart from Tommy Joe Stonefield. Maybell Maclure works the family vineyards under the shadow of a long feud with the Stonefields next door. She has fallen in love with Tommy Joe Stonefield, heir to the rival farm. Their relatives keep them apart, and Maybell searches for a way to speak with him beyond her family’s watchful eyes.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_maybell-maclure-6c153b586e7b71d9ccbc/1-0000.mp3", duration = 36.7281633, start = 0},
+    {file = "Audio/Transport/full_npc_maybell-maclure-e88577b5193e4a941e69/1-0000.mp3", duration = 29.8057143, start = 0},
   },
 }
 P.transport["npc:melithar-staghelm"] = {
@@ -2554,11 +2554,11 @@ P.transport["npc:melithar-staghelm"] = {
   },
 }
 P.transport["npc:merissa-stilwell"] = {
-  hash = "744f71",
-  fullHash = "744f71",
-  text = "Merissa Stilwell. Merissa Stilwell is a young human townsperson residing at Northshire Abbey within Elwynn Forest. Standing near the abbey, she offers a cheerful greeting and a helping hand to the newcomers training in Northshire Valley. Standing at Northshire Abbey, Merissa Stilwell greets the fresh recruits who arrive in Northshire Valley. For wandering novices, she offers simple hospitality and practical advice on resting up and getting oriented. Sharing a surname with notable craftsmen and homesteaders across the kingdom—such as the blacksmith Jordan Stilwell and the Westfall defender Daphne Stilwell—she remains a peaceful local face amidst the kingdom's rising tensions.",
+  hash = "eae90e",
+  fullHash = "eae90e",
+  text = "Merissa Stilwell. At Northshire Abbey, Merissa Stilwell welcomes newcomers to Northshire Valley. The young human townsperson offers a cheerful greeting and a helping hand to those training nearby. Merissa Stilwell greets fresh recruits arriving in Northshire Valley from her place at Northshire Abbey. She offers newcomers simple hospitality and practical advice on resting and finding their way. Her surname is shared by craftsmen and homesteaders across the kingdom, including the blacksmith Jordan Stilwell and the Westfall defender Daphne Stilwell. Merissa remains a peaceful local presence amid the kingdom's rising tensions.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_merissa-stilwell-43cdf680b0d877f138c9/1-0000.mp3", duration = 40.6204082, start = 0},
+    {file = "Audio/Transport/full_npc_merissa-stilwell-df93be2c20c7472ee48a/1-0000.mp3", duration = 38.2432653, start = 0},
   },
 }
 P.transport["npc:merrin-rockweaver"] = {
@@ -2586,11 +2586,11 @@ P.transport["npc:milli-featherwhistle"] = {
   },
 }
 P.transport["npc:milton-sheaf"] = {
-  hash = "2febcf",
-  fullHash = "2febcf",
-  text = "Milton Sheaf. Milton Sheaf is the head librarian of the Royal Library inside Stormwind Keep. Dedicated to preserving the kingdom's history, he oversees the realm's collection of ancient tomes and historical chronicles. He frequently enlists Alliance travelers to recover lost volumes, track down scattered records, and restore neglected manuscripts. Tucked away in the quiet halls of the Royal Library in Stormwind Keep, Milton Sheaf tends to the collective memory of the kingdom. While the court upstairs bustles with politics, squabbling nobles, and military concerns, Sheaf focuses on the preservation of the written word. He considers maintaining accurate histories of the Alliance and the Eastern Kingdoms a sacred duty, especially in an era fraught with war, loss, and instability. Preserving the library's collection requires constant effort. Books suffer wear and tear, and valuable records are often scattered across the realm in monastic archives, distant outposts, or forgotten ruins. Milton regularly dispatches adventurers across the land—from Northshire Abbey to the distant northern settlement of Southshore—to retrieve misplaced volumes, investigate ancient texts, and ensure rare manuscripts return safely to the keep's shelves.",
+  hash = "5e9f2a",
+  fullHash = "5e9f2a",
+  text = "Milton Sheaf. In Stormwind Keep, Milton Sheaf guards the kingdom's written history. He tends the Royal Library and calls on Alliance travelers to recover lost books and records. Milton Sheaf tends the Royal Library inside Stormwind Keep. While the court handles politics, noble disputes, and military concerns, he preserves the written record. He sees accurate histories of the Alliance and the Eastern Kingdoms as a duty, especially amid war, loss, and instability. Milton Sheaf sends travelers to recover books scattered across the realm. Volumes wear with use, while records lie in monastic archives, distant outposts, and forgotten ruins. He sends Alliance adventurers from Northshire Abbey to Southshore in the north to retrieve misplaced books, examine ancient texts, and return rare manuscripts safely to the keep.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_milton-sheaf-2b81645b314fe5edd047/1-0000.mp3", duration = 73.1428571, start = 0},
+    {file = "Audio/Transport/full_npc_milton-sheaf-9b52c664c7e691952cd4/1-0000.mp3", duration = 49.6065306, start = 0},
   },
 }
 P.transport["npc:minor-manifestation-of-earth"] = {
@@ -2658,19 +2658,19 @@ P.transport["npc:mor-rogal"] = {
   },
 }
 P.transport["npc:morgan-pestle"] = {
-  hash = "729ad0",
-  fullHash = "729ad0",
-  text = "Morgan Pestle. Morgan Pestle is a human alchemist and shopkeeper who runs Pestle's Apothecary in the Trade District of Stormwind City. Working closely with his brother William Pestle in Goldshire, he handles supplies and alchemical research for the capital. Operating out of Pestle's Apothecary along the busy thoroughfares of Stormwind's Trade District, Morgan Pestle provides alchemical goods, reagents, and practical remedies to city residents and passing travelers. While his brother William maintains a workshop at the Lion's Pride Inn in Goldshire, Morgan keeps the family trade rooted in the heart of the kingdom's capital, receiving shipments, such as his brother's candles, from the rural heartlands.",
+  hash = "05e280",
+  fullHash = "05e280",
+  text = "Morgan Pestle. In Stormwind, Morgan Pestle runs Pestle's Apothecary in the Trade District. He works with his brother William Pestle in Goldshire, handling supplies and alchemical research for the capital. Morgan Pestle sells alchemical goods, reagents, and practical remedies at Pestle's Apothecary in Stormwind's Trade District. His brother William keeps a workshop at the Lion's Pride Inn in Goldshire, while Morgan tends their family trade in the capital. He receives supplies from the rural heartlands, including candles sent by William.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_morgan-pestle-81c95c38c7b400d1d83b/1-0000.mp3", duration = 41.1428571, start = 0},
+    {file = "Audio/Transport/full_npc_morgan-pestle-f0893bb50b0cc5620037/1-0000.mp3", duration = 33.3844898, start = 0},
   },
 }
 P.transport["npc:morgan-the-collector"] = {
-  hash = "ab8716",
-  fullHash = "ab8716",
-  text = "Morgan the Collector. Morgan the Collector is a high-ranking Defias operative overseeing the Brotherhood's extortion and gathering activities across Elwynn Forest. Based in the overrun Brackwell Pumpkin Patch, he coordinates local thievery right under the nose of the Goldshire guard. Morgan earned his epithet by skimming gold from the mines of Elwynn Forest on behalf of the Defias Brotherhood. While common bandits harass wayfarers along the roads, Morgan directs organized shakedowns and collects stolen coin and supplies to funnel deeper into the Brotherhood's network. He has made his headquarters inside the farmhouse at the Brackwell Pumpkin Patch, surrounded by loyal enforcers including Surena Caledon and Erlan Drudgemoor.",
+  hash = "58fdaf",
+  fullHash = "58fdaf",
+  text = "Morgan the Collector. At the Brackwell Pumpkin Patch, Morgan the Collector directs Defias extortion and gathering across Elwynn Forest. A high-ranking operative, he coordinates local theft from the farmhouse while Goldshire's guard keeps watch nearby. Morgan the Collector skims gold from Elwynn Forest's mines for the Defias Brotherhood. While common bandits harass travelers on the roads, he directs organized shakedowns and gathers stolen coin and supplies for the Brotherhood's wider network. His headquarters is the farmhouse at the Brackwell Pumpkin Patch, where loyal enforcers including Surena Caledon and Erlan Drudgemoor surround him.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_morgan-the-collector-13bf9a6e76c8befd0f2e/1-0000.mp3", duration = 43.284898, start = 0},
+    {file = "Audio/Transport/full_npc_morgan-the-collector-3f301f98fa3afb260989/1-0000.mp3", duration = 37.8514286, start = 0},
   },
 }
 P.transport["npc:mountaineer-barleybrew"] = {
@@ -2738,11 +2738,11 @@ P.transport["npc:nalpak"] = {
   },
 }
 P.transport["npc:nara-meideros"] = {
-  hash = "e73217",
-  fullHash = "e73217",
-  text = "Nara Meideros. Nara Meideros is a night elf priestess stationed within the tranquil greenery of the Park in Stormwind City. Serving as a mentor to acolytes, she represents the teachings of Elune amidst the human capital. While most priestesses of Elune remain in Kalimdor under the boughs of Teldrassil, Nara Meideros resides far across the Great Sea in Stormwind City. Found within the Park—a haven nurtured by visiting night elf druids and priests—she guides young spiritual seekers in the ways of divine devotion. Alongside human practitioners of the Holy Light in Cathedral Square, Nara offers night elves visiting or living in the Eastern Kingdoms a familiar connection to the grace of the Moon Goddess.",
+  hash = "480d96",
+  fullHash = "480d96",
+  text = "Nara Meideros. In Stormwind's Park, Nara Meideros guides young seekers in Elune's teachings. As a night elf priestess in the human capital, she offers a familiar spiritual presence to her kin. Nara Meideros serves Elune far from Kalimdor, across the Great Sea in Stormwind City. In the Park, night elf druids and priests have tended a green refuge. Nara guides young seekers in devotion to the Moon Goddess. Human priests serve the Holy Light in nearby Cathedral Square, while Nara gives night elves visiting or living in the Eastern Kingdoms a connection to their own faith.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_nara-meideros-de18a90437e1f186efb2/1-0000.mp3", duration = 42.8669388, start = 0},
+    {file = "Audio/Transport/full_npc_nara-meideros-d8ee305f2f666a399603/1-0000.mp3", duration = 37.2244898, start = 0},
   },
 }
 P.transport["npc:narain-soothfancy"] = {
@@ -2786,11 +2786,11 @@ P.transport["npc:nida"] = {
   },
 }
 P.transport["npc:nikova-raskol"] = {
-  hash = "2d0862",
-  fullHash = "2d0862",
-  text = "Nikova Raskol. Nikova Raskol is an elderly human townsperson who walks the cobblestone streets of Old Town in Stormwind City. Grieving the murder of her grandson at the hands of the Defias Brotherhood, she seeks justice against the rioting criminals locked inside the Stockade. Nikova wanders Old Town carrying the weight of a recent and devastating personal tragedy. Her beloved grandson, Mac, was slain by brigands belonging to the Defias Brotherhood. While the kingdom grapples with treason on a political scale, Nikova represents the intimate human cost inflicted upon everyday citizens by the Brotherhood's lawless rampage. Though many of the criminals who wrecked havoc were captured and thrown into the Stockade, prison bars offer little solace now that a violent inmate rebellion has seized the facility. Frustrated by the guards' inability to restore order, Nikova appeals directly to brave adventurers heading into the prison, asking them to collect red Defias bandanas as proof that her grandson's killers have finally faced retribution.",
+  hash = "923234",
+  fullHash = "923234",
+  text = "Nikova Raskol. In Old Town, Nikova Raskol grieves for her murdered grandson. The elderly Stormwind townswoman seeks justice against the Defias Brotherhood rioters held in the Stockade. Nikova Raskol wanders Old Town, carrying the grief of a recent loss. Her beloved grandson, Mac, was slain by Defias Brotherhood brigands. While the kingdom faces treason on a grand scale, Nikova bears the private cost of the Brotherhood's lawless rampage. Many criminals who wrecked havoc were captured and locked in the Stockade, but a violent inmate rebellion has seized the prison. The guards have failed to restore order, and Nikova turns to adventurers heading inside. She asks them to bring back red Defias bandanas as proof that her grandson's killers have faced retribution.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_nikova-raskol-95633c35a3720f39d931/1-0000.mp3", duration = 61.5706122, start = 0},
+    {file = "Audio/Transport/full_npc_nikova-raskol-bfebdb40c4c8dcdeb29e/1-0000.mp3", duration = 46.2367347, start = 0},
   },
 }
 P.transport["npc:nissa-firestone"] = {
@@ -2850,11 +2850,11 @@ P.transport["npc:ogunaro-wolfrunner"] = {
   },
 }
 P.transport["npc:old-murk-eye"] = {
-  hash = "7bf378",
-  fullHash = "7bf378",
-  text = "Old Murk-Eye. Old Murk-Eye is an infamous, battle-hardened murloc prowling the southern coastline of Westfall. Revered among his kind and feared by coastal sailors, he serves as a lethal menace to anyone wandering near the Westfall Lighthouse. While murlocs are a common pest along the shores of Westfall, Old Murk-Eye stands apart from the lesser scavengers. Considerably tougher and far more aggressive than his kin, this grizzled beast prowls the surf surrounding the Westfall Lighthouse. His continued presence has caused enough grief to local mariners that the spectral Captain Grayson seeks his death, offering a bounty for the creature's pristine scales to break his grip on the shallows.",
+  hash = "5fc2af",
+  fullHash = "5fc2af",
+  text = "Old Murk-Eye. Near the Westfall Lighthouse, Old Murk-Eye prowls the southern coast. His kind revere him, and sailors fear the lethal menace he poses to anyone who wanders near the lighthouse. Old Murk-Eye prowls the surf around the Westfall Lighthouse, where he is far tougher and more aggressive than the murlocs common along Westfall’s shores. His attacks have brought enough grief to local mariners that the spectral Captain Grayson seeks his death. Grayson offers a bounty for Old Murk-Eye’s pristine scales, hoping to break his hold on the shallows.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_old-murk-eye-9c0575fb1b40aa0fafc8/1-0000.mp3", duration = 38.9746939, start = 0},
+    {file = "Audio/Transport/full_npc_old-murk-eye-a92f49c67e0b481a1105/1-0000.mp3", duration = 31.8432653, start = 0},
   },
 }
 P.transport["npc:orendil-broadleaf"] = {
@@ -2906,19 +2906,19 @@ P.transport["npc:orphan-matron-battlewail"] = {
   },
 }
 P.transport["npc:orphan-matron-nightingale"] = {
-  hash = "41d63a",
-  fullHash = "41d63a",
-  text = "Orphan Matron Nightingale. Orphan Matron Nightingale oversees the Stormwind Orphanage located in Cathedral Square. Alongside Matron Shellene, she cares for children who have lost their families to the relentless conflicts troubling the kingdom. She also enlists trusted Alliance adventurers to mentor and inspire her young wards during Children's Week. Standing watch just outside the orphanage south-east of the Cathedral of Light, Orphan Matron Nightingale tends to Stormwind's most vulnerable survivors. Recent wars, gnoll rampages, and the rise of the Defias Brotherhood have left many children without homes or parents. Nightingale and her fellow caretaker, Matron Shellene, provide these youngsters shelter, basic care, and guidance beneath the watchful eye of the Church of the Holy Light. Believing that hope is as vital as food and shelter, Matron Nightingale organizes Stormwind's Children's Week celebrations. During this time, she appeals directly to Alliance heroes to chaperone an orphan on travels across Azeroth. By pairing these children with celebrated champions, she hopes to instill confidence, grant them a broader view of the world outside the city walls, and remind them that they are never truly forgotten.",
+  hash = "78503a",
+  fullHash = "78503a",
+  text = "Orphan Matron Nightingale. In Cathedral Square, Orphan Matron Nightingale cares for Stormwind’s orphaned children. She and Matron Shellene give them shelter and guidance, and invite Alliance adventurers to spend Children's Week with them. Outside the orphanage, south-east of the Cathedral of Light, Orphan Matron Nightingale cares for Stormwind’s most vulnerable children. Recent wars, gnoll attacks, and the rise of the Defias Brotherhood have left many without homes or parents. Nightingale and Matron Shellene give them shelter, basic care, and guidance under the Church of the Holy Light’s watch. Matron Nightingale believes children need hope as well as food and shelter. Each Children's Week, she asks Alliance heroes to take an orphan on journeys across Azeroth. She hopes meeting celebrated champions will build their confidence, show them the wider world beyond the city walls, and remind them they are not forgotten.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_orphan-matron-nightingale-a8883359a92a86381dd0/1-0000.mp3", duration = 73.8481633, start = 0},
+    {file = "Audio/Transport/full_npc_orphan-matron-nightingale-7a29e6a32aabd95b295f/1-0000.mp3", duration = 57.9395918, start = 0},
   },
 }
 P.transport["npc:osric-strang"] = {
-  hash = "913de9",
-  fullHash = "913de9",
-  text = "Osric Strang. Osric Strang is a veteran armor merchant who operates Limited Immunity, a shop situated in Stormwind's Old Town. Specializing in heavy mail and plate, he supplies sturdy gear and shields to Alliance defenders and weary travelers passing through the capital. Tucked away in the weathered streets of Old Town, Osric Strang manages Limited Immunity, a shop catering to frontline fighters in need of heavy armor and shields. While his wares are suited for standard soldiers and traveling adventurers, he often assists incoming couriers who need a point of contact when arriving in the capital from nearby settlements like Westfall's Sentinel Hill.",
+  hash = "89f739",
+  fullHash = "89f739",
+  text = "Osric Strang. In Stormwind's Old Town, veteran armor merchant Osric Strang supplies weary travelers and Alliance defenders with sturdy gear. His shop, Limited Immunity, specializes in heavy mail and plate armor, along with shields. Osric Strang runs Limited Immunity, where fighters find heavy armor and shields. He also helps arriving couriers who need a point of contact in the capital, including those coming from nearby settlements such as Sentinel Hill in Westfall.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_osric-strang-efd6490ce1c0d9f2d061/1-0000.mp3", duration = 37.9559184, start = 0},
+    {file = "Audio/Transport/full_npc_osric-strang-f08bcfc0a92aa9450b5f/1-0000.mp3", duration = 25.8612245, start = 0},
   },
 }
 P.transport["npc:overlord-mok-morokk"] = {
@@ -3010,19 +3010,19 @@ P.transport["npc:priestess-a-moora"] = {
   },
 }
 P.transport["npc:priestess-anetta"] = {
-  hash = "3d201f",
-  fullHash = "3d201f",
-  text = "Priestess Anetta. Priestess Anetta is a human cleric of the Holy Light stationed inside Northshire Abbey. As a member of the Brotherhood of Northshire, she instructs newly arrived priests in their first sacred rites. Priestess Anetta can be found on the ground floor of Northshire Abbey within its quiet library wing. Amid the threat of Defias bandits and kobolds troubling the valley, she serves as a grounding presence for the Brotherhood of Northshire, reminding all who pass not to turn their backs on the Light, for it may be the one thing that saves them someday. Within the cloister, Anetta acts as the primary mentor for budding human priests. Novices who arrive with a hallowed letter of introduction seek her out to learn the fundamentals of faith: channeling holy words to mend flesh and unleashing smiting radiance to repel evil. Under her tutelage, young acolytes prepare to carry the Light beyond Northshire's secluded walls.",
+  hash = "36bb7c",
+  fullHash = "36bb7c",
+  text = "Priestess Anetta. Inside Northshire Abbey, Priestess Anetta teaches new priests their first rites of the Holy Light. She is a human cleric and a member of the Brotherhood of Northshire. On the ground floor of Northshire Abbey, Priestess Anetta keeps to the quiet library wing. Defias bandits and kobolds trouble the valley, and she reminds those who pass that the Light may be the one thing that saves them someday. New human priests come to Priestess Anetta in the cloister with a hallowed letter of introduction. She teaches them to channel holy words to mend flesh and call down smiting radiance against evil. Under her guidance, the young acolytes prepare to carry the Light beyond Northshire's secluded walls.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_priestess-anetta-3ff400d7d8786fa26944/1-0000.mp3", duration = 55.9542857, start = 0},
+    {file = "Audio/Transport/full_npc_priestess-anetta-1330cc57da9eddb33d30/1-0000.mp3", duration = 45.1395918, start = 0},
   },
 }
 P.transport["npc:priestess-josetta"] = {
-  hash = "975adf",
-  fullHash = "975adf",
-  text = "Priestess Josetta. Priestess Josetta is a human priest trainer stationed on the upper floor of the Lion's Pride Inn in Goldshire. Dedicated to guiding novices of the Holy Light beyond their initial trials in Northshire, she mentors young priests in faith, devotion, and practical ministry. While many who take holy vows spend their days within grand cathedrals or cloistered monasteries, Priestess Josetta ministers directly among the common folk of Elwynn Forest. From her modest quarters upstairs in the bustling Lion's Pride Inn, she attends to the spiritual health of travelers, guards, and local laborers alike, demonstrating that service to the Holy Light requires presence wherever hearts need solace. Josetta plays a vital role for budding priests who have completed their initial studies at Northshire Abbey. She instructs them in the practical realities of their calling, sending them into the surrounding countryside to aid wounded guards and comfort the afflicted. Through these tasks, she emphasizes that clerical duties are not merely about learning words of prayer, but actively channeling the Light to mend a broken world. Despite her steady devotion, Josetta carries a touch of wistfulness regarding her life's choices. In her youth, she lacked the courage to step onto the wider roads and explore Azeroth, choosing instead the safety of familiar ground. Though content in her sacred service in Goldshire, she often urges the young disciples who cross her threshold to be bolder than she was and take their faith to distant frontiers.",
+  hash = "94d5e3",
+  fullHash = "94d5e3",
+  text = "Priestess Josetta. In Goldshire, Priestess Josetta guides young priests beyond their first trials in Northshire. She teaches faith, devotion, and the work of serving others. Priestess Josetta tends to the people of Elwynn Forest from an upstairs room in the Lion's Pride Inn. Travelers, guards, and local workers come within her reach there. She offers spiritual care among ordinary folk, showing that service to the Holy Light can be given wherever people need comfort. Priestess Josetta guides young priests who have finished their first studies at Northshire Abbey. She sends them into the countryside to help wounded guards and comfort those who suffer. Their work teaches them that priesthood asks more than prayers learned by heart. They must put the Light to work and help mend a broken world. Priestess Josetta regrets that she did not travel farther when she was young. She chose familiar ground over the wider roads of Azeroth. Though she is content with her sacred service in Goldshire, she urges the young disciples who visit her to be bolder and carry their faith to distant frontiers.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_priestess-josetta-ec7c2e6edc6c5f3a7a0a/1-0000.mp3", duration = 90.5404082, start = 0},
+    {file = "Audio/Transport/full_npc_priestess-josetta-fd082e5692e737d29b2d/1-0000.mp3", duration = 65.515102, start = 0},
   },
 }
 P.transport["npc:prospector-ironband"] = {
@@ -3066,11 +3066,11 @@ P.transport["npc:prospector-whelgar"] = {
   },
 }
 P.transport["npc:quartermaster-lewis"] = {
-  hash = "a25f1c",
-  fullHash = "a25f1c",
-  text = "Quartermaster Lewis. Quartermaster Lewis is a human supply merchant stationed at Sentinel Hill in Westfall. Serving the local People's Militia, he provides rations, ammunition, and everyday provisions to travelers and defenders attempting to hold the frontier against the Defias Brotherhood. Perched inside Sentinel Tower, Quartermaster Lewis manages the meager logistical lifeline of the Westfall militia. With Stormwind's royal leadership offering little aid to the impoverished region, Sentinel Hill relies on local volunteers and whatever supplies they can gather. Lewis distributes standard field necessities, from dry rations and fresh water to arrows, shot, and throwing blades, ensuring the fighters standing watch have the bare essentials to survive Defias raids.",
+  hash = "44f6a6",
+  fullHash = "44f6a6",
+  text = "Quartermaster Lewis. At Sentinel Hill in Westfall, Quartermaster Lewis keeps supplies moving to the People's Militia. He serves local defenders and travelers holding the frontier against the Defias Brotherhood. Quartermaster Lewis keeps the militia's supplies in Sentinel Tower. Stormwind's royal leaders offer little aid to impoverished Westfall, so Sentinel Hill depends on local volunteers and whatever provisions they can gather. Lewis hands out field necessities, including dry rations, fresh water, arrows, shot, and throwing blades. The fighters standing watch need these basics to endure Defias raids.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_quartermaster-lewis-117ec49716c66815d142/1-0000.mp3", duration = 44.4865306, start = 0},
+    {file = "Audio/Transport/full_npc_quartermaster-lewis-ca4e0e23b67aab1b62fc/1-0000.mp3", duration = 37.0677551, start = 0},
   },
 }
 P.transport["npc:quinn-yorick"] = {
@@ -3106,11 +3106,11 @@ P.transport["npc:raleigh-andrean"] = {
   },
 }
 P.transport["npc:randis"] = {
-  hash = "485823",
-  fullHash = "485823",
-  text = "Randis. Randis is a spirited young human orphan under the care of Orphan Matron Nightingale at the orphanage in Cathedral Square. During Children's Week, he eagerly accompanies willing adventurers across the Alliance's territories to take in sights far beyond the city walls. Residing in the orphanage near Stormwind's Cathedral of Light, Randis is one of many children left without family in the wake of the realm's persistent conflicts. When the annual Children's Week arrives, Orphan Matron Nightingale entrusts sympathetic heroes with a whistle to take him under their wing. Full of youthful curiosity and nonstop questions, Randis dreams of adventuring, asks endless riddles, and boldly declares that when he grows up, he wants to be the king of Stormwind. For a boy who spends most of his days penned up in Cathedral Square, leaving the capital is a grand adventure. Though he is quick to note that places like Ironforge smell rather odd, his boundless wonder reflects the innocent future that heroes of the Alliance fight to protect.",
+  hash = "123d1e",
+  fullHash = "123d1e",
+  text = "Randis. In Cathedral Square, Randis waits for a chance to see the world beyond Stormwind. During Children's Week, he eagerly joins willing adventurers across Alliance lands. Randis lives in the orphanage near Stormwind's Cathedral of Light, one of many children left without family by the realm's conflicts. When Children's Week comes each year, Orphan Matron Nightingale gives sympathetic heroes a whistle and entrusts them with his care. Curious and full of questions, Randis dreams of adventure, asks riddles, and declares that he wants to be king of Stormwind when he grows up. For Randis, who spends most days in Cathedral Square, leaving the capital is a grand adventure. He remarks that places like Ironforge smell odd, and his wonder shows what Alliance heroes fight to protect.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_randis-d8d2cb242f32cb0ce01d/1-0000.mp3", duration = 60.682449, start = 0},
+    {file = "Audio/Transport/full_npc_randis-cd31b4a7e6b4efcdea7c/1-0000.mp3", duration = 50.964898, start = 0},
   },
 }
 P.transport["npc:ranger-glynda-nal-shea"] = {
@@ -3146,11 +3146,11 @@ P.transport["npc:red-jack-flint"] = {
   },
 }
 P.transport["npc:rema-schneider"] = {
-  hash = "cd73e7",
-  fullHash = "cd73e7",
-  text = "Rema Schneider. Rema Schneider is a human citizen who works out of the Canal Tailor and Fit Shop in Stormwind City. Situated along the quiet waterways between the major districts, she frequently assists local shopkeepers and artisans with trade deliveries. Tucked away in the Canal Tailor and Fit Shop, positioned just west of the stone bridge leading across to Cathedral Square, Rema Schneider manages the daily needs of urban trade. Like many skilled artisans and assistants across the city, her work keeps cloth and finished garments moving between local craftsmen, relying on helpful couriers to carry supplies between workshops.",
+  hash = "324f1f",
+  fullHash = "324f1f",
+  text = "Rema Schneider. In Stormwind City, Rema Schneider works from the Canal Tailor and Fit Shop. She is a human citizen who often helps local shopkeepers and artisans with trade deliveries. Rema Schneider manages daily trade from the Canal Tailor and Fit Shop. The shop stands just west of the stone bridge into Cathedral Square, along Stormwind's canals. Cloth and finished garments move between local craftsmen, and Rema relies on helpful couriers to carry supplies between workshops.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_rema-schneider-f1f184c6429babf8d865/1-0000.mp3", duration = 36.2579592, start = 0},
+    {file = "Audio/Transport/full_npc_rema-schneider-93e04495e71cb54ee7a8/1-0000.mp3", duration = 28.2644898, start = 0},
   },
 }
 P.transport["npc:remulos"] = {
@@ -3162,19 +3162,19 @@ P.transport["npc:remulos"] = {
   },
 }
 P.transport["npc:remy-two-times"] = {
-  hash = "1cce48",
-  fullHash = "1cce48",
-  text = "Remy \"Two Times\". Remy \"Two Times\" is a human merchant currently residing in the village of Goldshire. Originally hailing from the Redridge Mountains, he is easily recognized by his peculiar habit of repeating the ends of his sentences. He maintains business interests across Elwynn Forest, trading goods and paying adventurers for raw materials like gold dust. Operating out of Goldshire, Remy \"Two Times\" is an enterprising trader who made his way west from the rugged terrain of the Redridge Mountains. True to his moniker, Remy possesses a distinctive verbal tick: repeating the final words of his sentences, usually twice. Despite his comical speech pattern, he remains a savvy merchant looking to turn a profit amid the growing troubles in Elwynn Forest, readily striking deals with traveling adventurers. With kobolds overrunning the local gold mines and aggressive murlocs infesting the riverbanks, normal commerce in Elwynn has been heavily disrupted. Remy seizes opportunity where others see disaster, commissioning adventurers to bring him pouchfuls of gold dust gathered from the vermin infesting the mines, as well as keeping tabs on suspicious murloc movements near Crystal Lake.",
+  hash = "65c9dd",
+  fullHash = "65c9dd",
+  text = "Remy \"Two Times\". In Goldshire, Remy \"Two Times\" trades goods and pays for raw materials. He came from the Redridge Mountains and repeats the ends of his sentences. Remy \"Two Times\" trades from Goldshire, where he deals with travelers. He came west from the Redridge Mountains. When he speaks, he usually repeats the last words of each sentence twice. The odd habit gives him his nickname, but it does not keep him from seeking a profit in troubled Elwynn Forest. Kobolds overrun the local gold mines, and aggressive murlocs infest the riverbanks, disrupting trade in Elwynn. Remy turns to travelers for help. He pays for pouches of gold dust gathered from kobolds in the mines and keeps watch on suspicious murloc movements near Crystal Lake.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_remy-two-times-9d467954e6945c96e08d/1-0000.mp3", duration = 67.2653061, start = 0},
+    {file = "Audio/Transport/full_npc_remy-two-times-56d7b66a7d70cce60bc7/1-0000.mp3", duration = 43.52, start = 0},
   },
 }
 P.transport["npc:renato-gallina"] = {
-  hash = "253f70",
-  fullHash = "253f70",
-  text = "Renato Gallina. Renato Gallina is an energetic barker found promoting business in Stormwind City's bustling Trade District. A member of the Gallina winemaking family, his job is to drum up patrons and direct thirsty travelers to the family winery nestled along the city canals. Standing amidst the busy stalls of the Trade District, Renato Gallina spends his days calling out to passers-by, boldly proclaiming that his family sells the finest vintages in all of Stormwind. His family operates the Gallina Winery located nearby along the Canals, and Renato serves as their public promoter, handing out pamphlets that passers-by can bring to his sister Suzetta at the shop for a free bottle of wine.",
+  hash = "be3cfe",
+  fullHash = "be3cfe",
+  text = "Renato Gallina. In Stormwind's Trade District, Renato Gallina calls travelers toward his family's winery. Renato Gallina calls to passers-by among the Trade District stalls, proclaiming his family's vintages the finest in Stormwind. The Gallina family runs a winery along the Canals, and Renato promotes it with pamphlets. Travelers can bring one to his sister Suzetta at the shop for a free bottle of wine.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_renato-gallina-711d2ee3a691824786c9/1-0000.mp3", duration = 39.9673469, start = 0},
+    {file = "Audio/Transport/full_npc_renato-gallina-d34fa8429593d3dc3113/1-0000.mp3", duration = 23.6408163, start = 0},
   },
 }
 P.transport["npc:renee-lauer"] = {
@@ -3298,11 +3298,11 @@ P.transport["npc:sally-whitemane"] = {
   },
 }
 P.transport["npc:salma-saldean"] = {
-  hash = "843516",
-  fullHash = "843516",
-  text = "Salma Saldean. Salma Saldean is a hardy Westfall homesteader who tends Saldean's Farm alongside her husband, Farmer Saldean. In a region overrun by bandits and abandoned by Stormwind, she keeps her door open and provides warm meals to travelers in exchange for a little help around the homestead. While neighboring homesteads have been ransacked and burned by the Defias Brotherhood, the Saldeans manage to keep their hearth lit. Salma greets travelers with a warm demeanor and a hearty pot on the stove, always on the lookout for capable wanderers willing to assist around the farmstead. Survival in Westfall requires resourcefulness. Salma makes use of whatever the land provides to feed her family and visitors, teaching travelers how to prepare local specialties like Goretusk liver pie and her famous Westfall stew from wild boar, vultures, murlocs, and stray okra.",
+  hash = "928680",
+  fullHash = "928680",
+  text = "Salma Saldean. At Saldean's Farm, Salma Saldean keeps a welcome place for travelers. She and her husband, Farmer Saldean, tend the homestead in Westfall, where bandits threaten the farms and Stormwind has left the region. She offers meals in return for help around the farm. Salma Saldean welcomes travelers to a farm that has endured where neighboring homesteads have burned or fallen to the Defias Brotherhood. A hearty pot waits on the stove, and she looks for capable hands to help around the farmstead. Salma feeds her family and visitors with what Westfall provides. She teaches travelers to make Goretusk liver pie and Westfall stew with wild boar, vultures, murlocs, and stray okra.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_salma-saldean-bb31af711d311dace839/1-0000.mp3", duration = 51.3828571, start = 0},
+    {file = "Audio/Transport/full_npc_salma-saldean-64612cdc902203677528/1-0000.mp3", duration = 43.0497959, start = 0},
   },
 }
 P.transport["npc:sara-balloo"] = {
@@ -3314,11 +3314,11 @@ P.transport["npc:sara-balloo"] = {
   },
 }
 P.transport["npc:sara-timberlain"] = {
-  hash = "d4f463",
-  fullHash = "d4f463",
-  text = "Sara Timberlain. Sara Timberlain is a skilled tailor residing at the Eastvale Logging Camp in eastern Elwynn Forest. Known for her resourceful needlework with salvaged fabrics, she assists the war effort by stitching cloth and leather armaments for the Stormwind Army. Situated outside a small cottage on the western edge of the Eastvale Logging Camp, Sara Timberlain works tirelessly with needle and thread amidst the ambient noise of felling axes. Despite the remote nature of Eastvale and the looming threat of prowling wolves and murlocs, she provides hospitality and vital craftwork to travelers. Her talent for turning scraps of linen and salvaged bandanas into durable gear has earned her official recognition, securing commissions to supply protective cloth and leather armaments directly to Stormwind's military forces.",
+  hash = "3ad094",
+  fullHash = "3ad094",
+  text = "Sara Timberlain. At Eastvale Logging Camp, Sara Timberlain stitches gear for the Stormwind Army. She makes useful armaments from salvaged cloth and leather. Sara Timberlain works with needle and thread outside a small cottage on the western edge of Eastvale Logging Camp. Axes sound through the camp as workers fell trees. Though Eastvale lies far from settled lands, wolves and murlocs prowl nearby, and Sara still offers travelers hospitality. She turns scraps of linen and salvaged bandanas into sturdy gear. Her skill has earned official recognition and commissions to supply cloth and leather armaments to Stormwind's military forces.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_sara-timberlain-6824b72ff5e4ae441429/1-0000.mp3", duration = 46.0538776, start = 0},
+    {file = "Audio/Transport/full_npc_sara-timberlain-6954c5a035f61a4f10a0/1-0000.mp3", duration = 39.9412245, start = 0},
   },
 }
 P.transport["npc:scooty"] = {
@@ -3330,11 +3330,11 @@ P.transport["npc:scooty"] = {
   },
 }
 P.transport["npc:scout-riell"] = {
-  hash = "4180d1",
-  fullHash = "4180d1",
-  text = "Scout Riell. Scout Riell is a vigilant lookout stationed atop the watchtower at Sentinel Hill in Westfall. Serving the local People's Militia, she watches the surrounding plains for Defias activity and enlists adventurers to hunt down the masked outlaws. Perched high above Sentinel Hill, Scout Riell keeps watch over a region besieged by banditry and harvest golems. With Stormwind's royal army absent and the crown refusing aid, local defense falls entirely to the People's Militia. From her vantage point atop the stone tower, Riell tracks the brazen movements of the Defias Brotherhood and gathers proof of their crimes, calling on passing travelers to strip the bandits of their iconic red silk bandanas.",
+  hash = "f1ddab",
+  fullHash = "f1ddab",
+  text = "Scout Riell. At Sentinel Hill, Scout Riell watches Westfall from the watchtower roof. She serves the People's Militia, tracking the Defias Brotherhood and calling on travelers to bring back the outlaws' red silk bandanas. Scout Riell watches the plains from the stone tower at Sentinel Hill, where banditry and harvest golems threaten Westfall. Stormwind's royal army is absent, and the crown refuses aid, leaving the People's Militia to defend the region. From the tower roof, Riell tracks the Defias Brotherhood's movements and gathers proof of their crimes. She calls on passing travelers to take red silk bandanas from the bandits.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_scout-riell-4fc92f2d5b6e571a6df5/1-0000.mp3", duration = 42.5012245, start = 0},
+    {file = "Audio/Transport/full_npc_scout-riell-abed28d8661b1c715b60/1-0000.mp3", duration = 38.6612245, start = 0},
   },
 }
 P.transport["npc:scout-thaelrid"] = {
@@ -3602,19 +3602,19 @@ P.transport["npc:stitches"] = {
   },
 }
 P.transport["npc:supervisor-raelen"] = {
-  hash = "aafc4a",
-  fullHash = "aafc4a",
-  text = "Supervisor Raelen. Supervisor Raelen oversees timber operations at the Eastvale Logging Camp on the eastern edge of Elwynn Forest. She is responsible for managing the local laborers, maintaining daily logging quotas, and ensuring that harvested lumber safely makes its way into Stormwind's supply chains. Located in the heart of Eastvale Logging Camp near Marshal Patterson and the camp's wood wagons, Supervisor Raelen directs the labor force tasked with harvesting timber for the kingdom. Operating a lumber camp on the border of the Redridge Mountains carries significant logistical challenges, from coordinating weary woodcutters to dealing with wildlife and bandit interference that threatens production quotas. Despite the hazards of the surrounding woods, Raelen focuses squarely on getting timber gathered, processed, and bundled for transport.",
+  hash = "6f7206",
+  fullHash = "6f7206",
+  text = "Supervisor Raelen. At Eastvale Logging Camp, Supervisor Raelen keeps timber moving toward Stormwind. She manages the laborers, tracks daily quotas, and oversees the lumber supply. Supervisor Raelen directs the woodcutters at Eastvale Logging Camp, near Marshal Patterson and the camp’s wagons. The camp stands on the edge of eastern Elwynn, near the Redridge Mountains, where the work brings its share of trouble. Raelen coordinates the crews and keeps them focused on their quotas despite hazards in the surrounding woods. She sees that gathered timber is processed, bundled, and sent on toward Stormwind.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_supervisor-raelen-d03b1340d03d37222483/1-0000.mp3", duration = 48.0130612, start = 0},
+    {file = "Audio/Transport/full_npc_supervisor-raelen-ba8791621c0c51bc257f/1-0000.mp3", duration = 37.6163265, start = 0},
   },
 }
 P.transport["npc:suzetta-gallina"] = {
-  hash = "733604",
-  fullHash = "733604",
-  text = "Suzetta Gallina. Suzetta Gallina is a member of the Gallina family, purveyors of fine vintages in Stormwind City. She can be found inside the family's wine shop tucked along the Canals, helping manage the business and spread word of their stock to thirsty patrons across the city. Situated along the scenic waterways of Stormwind's Canal District, the Gallina Winery caters to citizens seeking quality vintages imported or crafted across the kingdom. Suzetta Gallina helps oversee daily life in the establishment, maintaining the family legacy of supplying taverns, nobles, and common folk with wine. While not a public figure of high politics, her presence represents the everyday commercial heartbeat that keeps the capital thriving amidst broader troubles.",
+  hash = "24d227",
+  fullHash = "24d227",
+  text = "Suzetta Gallina. At the Gallina Winery in Stormwind City, Suzetta Gallina tends the family wine business. Suzetta Gallina helps run the Gallina Winery along Stormwind's Canals. The shop offers wines imported from across the kingdom or crafted there. Her family supplies taverns, nobles, and common folk. Suzetta is no figure in high politics, but her work keeps the capital's trade moving through troubled times.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_suzetta-gallina-40bf17adf4dcaddf110b/1-0000.mp3", duration = 46.0277551, start = 0},
+    {file = "Audio/Transport/full_npc_suzetta-gallina-420f5837c7a02cec21c0/1-0000.mp3", duration = 26.4359184, start = 0},
   },
 }
 P.transport["npc:syral-bladeleaf"] = {
@@ -3794,11 +3794,11 @@ P.transport["npc:tharnariun-treetender"] = {
   },
 }
 P.transport["npc:the-defias-traitor"] = {
-  hash = "694be2",
-  fullHash = "694be2",
-  text = "The Defias Traitor. The Defias Traitor is a captured outlaw held at the base of the Sentinel Hill watchtower in Westfall. Caught red-handed by the People's Militia, he traded the secret location of the Brotherhood's headquarters to save his own neck. Not every member of the Defias Brotherhood possesses fanatical loyalty to Edwin VanCleef's cause. When this petty thief was caught attempting to rob Farmer Saldean of his wagon, Gryan Stoutmantle's militia had him dead to rights. Facing the gallows, the thief chose self-preservation over brotherhood, offering up the exact whereabouts of their hidden base of operations in exchange for his life.",
+  hash = "6dd107",
+  fullHash = "6dd107",
+  text = "The Defias Traitor. At Sentinel Hill, The Defias Traitor has given up the Brotherhood's hidden base to save his life. The captured outlaw is held beneath the watchtower after the People's Militia caught him stealing Farmer Saldean's wagon.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_the-defias-traitor-cf59671730e571d1e320/1-0000.mp3", duration = 36.8065306, start = 0},
+    {file = "Audio/Transport/full_npc_the-defias-traitor-c35012694e90bdd7be2e/1-0000.mp3", duration = 12.5910204, start = 0},
   },
 }
 P.transport["npc:theldurin-the-lost"] = {
@@ -3826,11 +3826,11 @@ P.transport["npc:therysil"] = {
   },
 }
 P.transport["npc:thor"] = {
-  hash = "0343cf",
-  fullHash = "0343cf",
-  text = "Thor. Thor is the gryphon flight master stationed at the gryphon roost at Sentinel Hill in Westfall. As the vital aerial link between the beleaguered People's Militia and the capital city of Stormwind, he oversees the dispatch of couriers, scouts, and urgent messages across kingdom skies. Stationed at Sentinel Hill's gryphon roost, Thor manages the flight roost that ties Westfall's frontier defenders to the heart of the kingdom. While the People's Militia struggles on the ground against roaming bandits, gnolls, and malfunctioning harvest golems, Thor ensures that crucial military dispatches and travelers can bypass the perilous roads altogether. Through his tamed gryphons, urgent requests for aid and reports from Gryan Stoutmantle reach the court in Stormwind far quicker than any ground messenger could manage.",
+  hash = "0e7c45",
+  fullHash = "0e7c45",
+  text = "Thor. At Sentinel Hill, Thor keeps Westfall linked to Stormwind by gryphon flight. His trained mounts carry travelers and urgent messages above the dangerous roads. Thor tends the gryphon roost at Sentinel Hill, linking Westfall's defenders with the rest of the kingdom. The People's Militia faces bandits, gnolls, and malfunctioning harvest golems on the ground. Thor's gryphons carry travelers and military dispatches above the perilous roads. Reports from Gryan Stoutmantle and urgent requests for aid can reach the court in Stormwind far faster than a ground messenger.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_thor-1f5d53832d04d38a522a/1-0000.mp3", duration = 46.4195918, start = 0},
+    {file = "Audio/Transport/full_npc_thor-5103ec920dafebc96cc5/1-0000.mp3", duration = 34.7167347, start = 0},
   },
 }
 P.transport["npc:thorgas-grimson"] = {
@@ -3874,11 +3874,11 @@ P.transport["npc:thunderaan"] = {
   },
 }
 P.transport["npc:tommy-joe-stonefield"] = {
-  hash = "87b670",
-  fullHash = "87b670",
-  text = "Tommy Joe Stonefield. Tommy Joe Stonefield is a young farmer caught in a bitter family rivalry in the heart of Elwynn Forest. Deeply in love with Maybell Maclure, he must rely on quiet riverbanks and secret messages to keep their romance hidden from their feuding kin. Standing by the riverbank just west of the Stonefield Farm, Tommy Joe Stonefield spends his days looking across the water toward the Maclure homestead. The Stonefields and Maclures have harbored bad blood for years, clashing over land, pride, and petty farmyard squabbles. Yet despite the hostility preached by his elders, Tommy Joe has fallen head over heels for Maybell Maclure. Unable to meet openly without sparking outrage from both households, he depends on trusted intermediaries and his sympathetic grandmother, Gramma Stonefield, to exchange secret notes and tokens of affection.",
+  hash = "78c54a",
+  fullHash = "78c54a",
+  text = "Tommy Joe Stonefield. At the river west of Stonefield Farm, Tommy Joe Stonefield longs for Maybell Maclure. Their families have feuded for years, so he relies on secret notes and quiet banks to keep their love hidden. Tommy Joe Stonefield waits by the river west of Stonefield Farm, looking toward the Maclure homestead across the water. The Stonefields and Maclures have clashed for years over land, pride, and farmyard squabbles. Their elders keep the feud alive, but Tommy Joe has fallen in love with Maybell Maclure. The two cannot meet openly without angering both households. Gramma Stonefield, Tommy Joe’s sympathetic grandmother, helps them exchange secret notes and tokens of affection.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_tommy-joe-stonefield-0a24c3c52e93d2abdd14/1-0000.mp3", duration = 49.2669388, start = 0},
+    {file = "Audio/Transport/full_npc_tommy-joe-stonefield-fe1f0454b3a78703ae19/1-0000.mp3", duration = 42.3444898, start = 0},
   },
 }
 P.transport["npc:tormus-deepforge"] = {
@@ -3914,11 +3914,11 @@ P.transport["npc:tsunaman"] = {
   },
 }
 P.transport["npc:tyrion"] = {
-  hash = "6eeb28",
-  fullHash = "6eeb28",
-  text = "Tyrion. Tyrion is a covert gnome operative stationed inside Stormwind Keep. Operating in the shadows alongside close associates like Elling Trias, he aids adventurers in unearthing sensitive intelligence and combating treacherous plots against the kingdom. Amid the grandeur of Stormwind Keep, Tyrion keeps a low profile. While noble courtiers and royal guards bustle through the halls, this clever gnome operates under the radar, watching palace movements and liaising with outside contacts who operate far from official oversight. Tyrion is a trusted confidant of Elling Trias, the renowned cheese merchant of the Trade District who operates a discreet information network. When sensitive matters arise that require bypassing the official bureaucracy of the House of Nobles, Trias directs reliable operatives straight to Tyrion inside the castle walls.",
+  hash = "731cab",
+  fullHash = "731cab",
+  text = "Tyrion. Inside Stormwind Keep, Tyrion watches the court and aids covert work. The gnome works with Elling Trias to gather intelligence and counter plots against the kingdom. Tyrion keeps to the halls of Stormwind Keep, watching the palace and staying in touch with contacts beyond official oversight. Elling Trias, a cheese merchant in the Trade District, trusts Tyrion with sensitive matters. Trias runs a discreet information network and sends reliable operatives to Tyrion when the House of Nobles' bureaucracy must be bypassed.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_tyrion-e89a4f3411f8d19228fa/1-0000.mp3", duration = 51.8269388, start = 0},
+    {file = "Audio/Transport/full_npc_tyrion-3b25119879f40c3d704d/1-0000.mp3", duration = 34.1681633, start = 0},
   },
 }
 P.transport["npc:ukor"] = {
@@ -4018,11 +4018,11 @@ P.transport["npc:ventaari-brightwish"] = {
   },
 }
 P.transport["npc:verna-furlbrow"] = {
-  hash = "edf2c7",
-  fullHash = "edf2c7",
-  text = "Verna Furlbrow. Verna Furlbrow is an evicted farmer currently stranded beside her broken-down wagon near the northern border of Westfall. After bandits seized her family's pumpkin patch, she and her husband attempted to flee toward Elwynn Forest, only to find themselves stuck on the dangerous open road. Verna and her husband once worked their own pumpkin farm in northern Westfall, but the rising tide of lawlessness sweeping the countryside drove them out. When outlaws overran their land, the couple piled what possessions they could onto their cart and hitched up their faithful horse, Old Blanchy, intending to escape to the safety of Elwynn Forest. Disastrously, their wagon broke down just down the road from the abandoned Jansen Stead. With no means to repair the axle or move forward, Verna has been left to endure the elements, bandit raids, and scavengers while relying on traveling adventurers to keep her household fed and guarded. Despite being reduced to squatting along the roadside, Verna maintains a welcoming and resourceful spirit. Known across the region as the creator of Westfall Stew, she regularly shares meals and warm fires with wandering transients and refugees who have suffered similar fates. She relies on passing wanderers to scour the fields for ingredients—such as boar snouts, murloc eyes, okra, and stringy vulture meat—to replenish her cooking pot, transforming whatever the harsh frontier yields into hearty sustenance for the destitute.",
+  hash = "79ff05",
+  fullHash = "79ff05",
+  text = "Verna Furlbrow. Verna Furlbrow waits beside her broken wagon near Westfall’s northern border. Bandits drove her from her family’s pumpkin patch, and the road to Elwynn Forest has left her stranded. Verna and her husband farmed pumpkins in northern Westfall until lawlessness drove them from their land. After outlaws took the farm, they loaded what they could onto their cart and set out for Elwynn Forest with their horse, Old Blanchy. Their wagon broke down just down the road from the abandoned Jansen Stead. Unable to repair the axle or continue, Verna now faces the elements, bandit raids, and scavengers. She depends on travelers to keep her household fed and guarded. Verna still welcomes those who have been driven to the roadside. Known for creating Westfall Stew, she shares meals and warm fires with wandering transients and refugees who have suffered similar fates. To fill her cooking pot, she needs ingredients gathered from the fields, including boar snouts, murloc eyes, okra, and stringy vulture meat. She makes hearty meals for the destitute from what the harsh frontier provides.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_verna-furlbrow-3b71298d9b765ab649f5/1-0000.mp3", duration = 86.2563265, start = 0},
+    {file = "Audio/Transport/full_npc_verna-furlbrow-3044e7b581b70e737a19/1-0000.mp3", duration = 65.5412245, start = 0},
   },
 }
 P.transport["npc:veron-amberstill"] = {
@@ -4114,11 +4114,11 @@ P.transport["npc:watch-captain-parker"] = {
   },
 }
 P.transport["npc:watcher-backus"] = {
-  hash = "fb9f5e",
-  fullHash = "fb9f5e",
-  text = "Watcher Backus. Watcher Backus is a member of the Night Watch tasked with patrolling the shadowy roads of Duskwood. Stationed along the thoroughfare between Darkshire and Manor Mistmantle, he keeps a weary eye out for lurking undead and strange travelers. His post also makes him a vital contact for those investigating suspicious movements tied to Stormwind's political intrigues. Like the rest of the Night Watch, Watcher Backus faces an uphill struggle against the cursed woodland. Duskwood receives little support from the Stormwind garrison, leaving local volunteers to guard the misty paths on their own. Backus walks a solitary beat along the road leading north out of Darkshire, passing near the eerie Manor Mistmantle while keeping beast and ghoul at bay.",
+  hash = "fcbc53",
+  fullHash = "fcbc53",
+  text = "Watcher Backus. Along Duskwood's road, Watcher Backus keeps watch for danger and suspicious traffic tied to Stormwind's political intrigues. He patrols between Darkshire and Manor Mistmantle, watching for undead and strange travelers. Watcher Backus walks a solitary beat north of Darkshire, passing near Manor Mistmantle. Like the rest of the Night Watch, he struggles against Duskwood's curse. Stormwind's garrison gives the region little support, so local volunteers guard its misty paths on their own. Backus keeps beast and ghoul at bay along the road.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_watcher-backus-81027e854e93f61d2762/1-0000.mp3", duration = 43.9379592, start = 0},
+    {file = "Audio/Transport/full_npc_watcher-backus-f9d3b89db18038d0b222/1-0000.mp3", duration = 35.1346939, start = 0},
   },
 }
 P.transport["npc:watcher-dodds"] = {
@@ -4138,19 +4138,19 @@ P.transport["npc:wilder-thistlenettle"] = {
   },
 }
 P.transport["npc:wiley-the-black"] = {
-  hash = "706682",
-  fullHash = "706682",
-  text = "Wiley the Black. Wiley the Black is an elusive rogue currently lying low at the Lakeshire Inn in Redridge. Though shady and reticent, he owes a life-debt to Gryan Stoutmantle and serves as a vital underworld contact regarding the Defias Brotherhood. Tucked away inside the Lakeshire Inn, Wiley the Black keeps a low profile away from the open turmoil of Westfall and the gnoll-infested borders of Redridge. Despite his roguish nature and questionable past, Wiley is bound by honor to Gryan Stoutmantle, commander of the People's Militia. Stoutmantle once saved Wiley's life—though Stoutmantle grumbles that he should have let the scoundrel rot when he had the chance. When the People's Militia desperately needs insight into the inner workings of the Defias conspiracy, Wiley is the informant they turn to, reluctantly parting with covert intelligence to clear his debt.",
+  hash = "1dfdaa",
+  fullHash = "1dfdaa",
+  text = "Wiley the Black. At the Lakeshire Inn, Wiley the Black keeps out of sight. He owes his life to Gryan Stoutmantle and shares what he knows of the Defias Brotherhood. Wiley the Black keeps to the Lakeshire Inn, away from Westfall's turmoil and Redridge's gnoll-infested borders. He owes his life to Gryan Stoutmantle, commander of the People's Militia, who once saved him. Stoutmantle grumbles that he should have let Wiley rot. When the militia needs insight into the Defias conspiracy, it turns to Wiley. He reluctantly shares covert intelligence to repay his debt.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_wiley-the-black-23604b2d612fdd88ab14/1-0000.mp3", duration = 51.6963265, start = 0},
+    {file = "Audio/Transport/full_npc_wiley-the-black-64170ce554d24cbeded7/1-0000.mp3", duration = 35.84, start = 0},
   },
 }
 P.transport["npc:willem"] = {
-  hash = "c641b8",
-  fullHash = "c641b8",
-  text = "Willem. Deputy Willem is a human soldier of the Stormwind Army stationed directly outside Northshire Abbey. Serving under Marshal McBride, he acts as the primary field liaison directing new recruits to handle local threats in Northshire Valley. His immediate focus is suppressing the growing encroachment of the Defias Brotherhood. Standing just steps from the gates of Northshire Abbey, Deputy Willem represents the frontline presence of the Stormwind Army in the valley. With the kingdom's military stretched thin across multiple territories, local security falls heavily on small detachments like McBride's garrison. Willem evaluates incoming volunteers, assigning them immediate tasks to assist local residents and safeguard the valley's perimeter. Willem's most pressing concern is the brazen activity of the Defias Brotherhood. Bandits sporting red bandanas have pushed directly into Northshire, stealing supplies, menacing local farmers like Milly Osworth, and establishing footholds around the surrounding vineyards and hills. Willem coordinates bounties on known cutthroats such as Garrick Padfoot to break their leadership before they can seize the abbey grounds.",
+  hash = "9de77a",
+  fullHash = "9de77a",
+  text = "Willem. Outside Northshire Abbey, Willem sends recruits to meet the valley's threats. He serves under Marshal McBride in the Stormwind Army, with the Defias Brotherhood pressing into Northshire. Deputy Willem watches the gates of Northshire Abbey, where the Stormwind Army keeps a foothold in the valley. The kingdom's soldiers are spread across many territories, leaving local defense to small groups like Marshal McBride's garrison. Willem meets incoming volunteers and sends them to aid residents and guard the valley's edges. The Defias Brotherhood is Willem's most pressing concern. Red-bandana bandits have entered Northshire, stolen supplies, threatened farmer Milly Osworth, and taken footholds among nearby vineyards and hills. Willem offers bounties on known cutthroats such as Garrick Padfoot, hoping to break their leadership before they can take the abbey grounds.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_willem-a77e5dc599a82b425b3c/1-0000.mp3", duration = 68.2057143, start = 0},
+    {file = "Audio/Transport/full_npc_willem-807de889bb1b7ee6d525/1-0000.mp3", duration = 50.6514286, start = 0},
   },
 }
 P.transport["npc:williden-marshal"] = {
@@ -4226,11 +4226,11 @@ P.transport["npc:wrenix-the-wretched"] = {
   },
 }
 P.transport["npc:wynne-larson"] = {
-  hash = "28c49e",
-  fullHash = "28c49e",
-  text = "Wynne Larson. Wynne Larson is a human clothier and robe merchant operating in Stormwind City's Mage Quarter. With the historic arcane textile centers of Dalaran and Quel'Thalas ruined in the Third War, she relies on local craftsmen to supply mages across the kingdom. She regularly directs adventuring spellcasters toward the rare materials required to craft powerful enchanted garments. Before the Third War, the finest woven fabrics and enchanted vestments came from the magical workshops of Dalaran and the high elven kingdom of Quel'Thalas. The destruction of both northern realms crippled traditional trade routes and devastated arcane textile production. Vendors like Wynne Larson in Stormwind's Mage Quarter have had to adapt, coordinating directly with local tailors and enchanters like Lucan Cordell to meet the city's growing demand for robes and spellwoven gear. Novice and journeyman mages seeking garments imbued with arcane potency often find their way to Wynne's shop. She knows precisely what materials are required to tailor vestments like Manaweave Robes or Astral Knot Garments, often sending practitioners of the arcane into dangerous territories to recover exotic reagents such as pristine spider silk. Her efforts ensure that Stormwind's practitioners remain properly outfitted despite northern shortages.",
+  hash = "dc89bb",
+  fullHash = "dc89bb",
+  text = "Wynne Larson. In Stormwind's Mage Quarter, Wynne Larson supplies mages across the kingdom with robes. Human clothier Wynne relies on local craftsmen since Dalaran and Quel'Thalas fell in the Third War, and points spellcasters toward rare materials for enchanted garments. Before the Third War, Dalaran and Quel'Thalas supplied the finest woven fabrics and enchanted vestments. Their destruction crippled the old trade routes and arcane textile production. In Stormwind's Mage Quarter, Wynne Larson now works with local tailors and enchanters such as Lucan Cordell. Together, they meet the city's growing demand for robes and spellwoven gear. Novice and journeyman mages seeking arcane garments come to Wynne's shop. She knows what materials are needed for vestments such as Manaweave Robes and Astral Knot Garments. To find those materials, she sends arcane practitioners into dangerous places to recover rare reagents like pristine spider silk. Her work helps keep Stormwind's mages outfitted despite shortages from the north.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_wynne-larson-55e50ac3412b50681576/1-0000.mp3", duration = 83.2783673, start = 0},
+    {file = "Audio/Transport/full_npc_wynne-larson-572ad009454d6a940892/1-0000.mp3", duration = 62.2497959, start = 0},
   },
 }
 P.transport["npc:xavathras"] = {
@@ -4258,11 +4258,11 @@ P.transport["npc:yvette-farthing"] = {
   },
 }
 P.transport["npc:zaldimar-wefhellt"] = {
-  hash = "560701",
-  fullHash = "560701",
-  text = "Zaldimar Wefhellt. Zaldimar Wefhellt is a human mage trainer stationed on the upper floor of the Lion's Pride Inn in Goldshire. He serves as an instructor for fledgling spellcasters passing through Elwynn Forest before sending them along to higher practitioners in Stormwind City. While Goldshire's Lion's Pride Inn is best known for weary travelers, rowdy adventurers, and local gossip, its upper rooms house instructors of various trades. Tucked into one of the second-floor chambers, Zaldimar Wefhellt instructs novice mages in the foundational arts of the arcane, fire, and frost. Once an apprentice outgrows his early tutelage, he directs them north to the Mage Quarter in Stormwind to study under Jennea Cannon.",
+  hash = "c073f3",
+  fullHash = "c073f3",
+  text = "Zaldimar Wefhellt. On Goldshire's upper floor, Zaldimar Wefhellt teaches young mages their first spells. When they outgrow his lessons, he sends them to Stormwind City for further training. Upstairs at the Lion's Pride Inn, Zaldimar Wefhellt teaches novice mages the first arts of arcane, fire, and frost. When an apprentice outgrows those lessons, he sends them north to the Mage Quarter in Stormwind, where Jennea Cannon can teach them more.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_zaldimar-wefhellt-0fb783089938be16c210/1-0000.mp3", duration = 42.8930612, start = 0},
+    {file = "Audio/Transport/full_npc_zaldimar-wefhellt-276a15b3d9c34a9be742/1-0000.mp3", duration = 26.6710204, start = 0},
   },
 }
 P.transport["npc:zamja"] = {
@@ -4290,11 +4290,11 @@ P.transport["npc:zankaja"] = {
   },
 }
 P.transport["npc:zardeth-of-the-black-claw"] = {
-  hash = "5a9225",
-  fullHash = "5a9225",
-  text = "Zardeth of the Black Claw. Zardeth of the Black Claw is a warlock dwelling in the dim subterranean chambers beneath the Slaughtered Lamb in Stormwind's Mage Quarter. Operating under the guise of an unassuming patron, he coordinates covert measures to protect the city's hidden warlock cabal from outside scrutiny. When inquisitive nobles begin looking too closely into their activities, Zardeth ensures those inquiries end permanently. While the Mage Quarter's towering spires study arcane discipline in the open, the underground tunnels beneath the Slaughtered Lamb house those who traffic in darker arts. Zardeth of the Black Claw operates from these crypts, functioning as a watchful guardian for the practitioners hiding right beneath the city guard's nose. Because the Alliance officially condemns fel magic, survival requires an ironclad secret and a willingness to eliminate any threat before royal investigators come knocking.",
+  hash = "5a11b2",
+  fullHash = "5a11b2",
+  text = "Zardeth of the Black Claw. In Stormwind's Mage Quarter, Zardeth of the Black Claw protects a hidden warlock cabal from scrutiny. He dwells in the chambers beneath the Slaughtered Lamb and poses as an ordinary patron. When curious nobles look too closely, he makes sure their inquiries end for good. Beneath the Slaughtered Lamb, tunnels shelter those who practice darker arts while the Mage Quarter's spires study arcane discipline in the open. Zardeth of the Black Claw works from these crypts, guarding warlocks who hide right beneath the city guard's nose. The Alliance condemns fel magic, so the cabal survives by keeping its presence secret and removing threats before royal investigators arrive.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_zardeth-of-the-black-claw-5a32cae16237a5b8f98f/1-0000.mp3", duration = 51.957551, start = 0},
+    {file = "Audio/Transport/full_npc_zardeth-of-the-black-claw-3405ed55c463490c4df0/1-0000.mp3", duration = 44.6693878, start = 0},
   },
 }
 P.transport["npc:zargh"] = {

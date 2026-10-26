@@ -17,21 +17,21 @@
   "wiki": "Gold Dust Exchange",
   "chain": []
  },
- "summary": "Gold Dust Exchange is an early bounty offered by Remy \"Two Times\" out of Goldshire. The nervous broker pays adventurers to pry raw gold dust away from the kobolds infesting the mines across Elwynn Forest. While it provides honest work for fledgling travelers, Remy's curious connections hint that there is more to his hustle than simple metalworking.",
+ "summary": "At Goldshire's crossroads, Gold Dust Exchange brings Remy \"Two Times\" coin for gold dust from kobolds in Elwynn's mines. Travelers gather the dust and trade it to the nervous broker for pay.",
  "sections": [
   {
    "title": "A Town of Pockets and Picks",
-   "body": "Goldshire sits at the crossroads of Elwynn Forest, where merchants, town guards, and weary travelers mingle. Among them is Remy \"Two Times,\" a shady fellow whose persistent habit of repeating his words masks a shrewd eye for profit. Rather than hiring costly mining teams to extract raw minerals, Remy capitalizes on the wandering adventurers filtering through the Lion's Pride Inn. His proposal is simple: recover the gold dust hoarded by the region's vermin and trade it directly for coin.",
+   "body": "Goldshire sits where Elwynn Forest's roads meet, and travelers, merchants, and guards pass through town. Remy \"Two Times\" is a shady broker with a habit of repeating his words and a sharp eye for profit. Instead of paying mining crews to dig for raw minerals, he turns to travelers passing through the Lion's Pride Inn. He offers coin for gold dust taken from the kobolds in the region.",
    "spoiler": 0
   },
   {
    "title": "The Kobold Plunder",
-   "body": "Kobolds have thoroughly overrun Elwynn's most valuable subterranean excavations, namely Fargodeep Mine to the south and Jasperlode Mine to the northeast. While chipping through the dark for their beloved candles and shiny baubles, these rat-like tunnelers accumulate residue and flecks of unrefined ore in their pouches. Driving them back serves the kingdom's interest, but collecting their dust turns pest extermination into a lucrative trade.",
+   "body": "Kobolds have overrun Fargodeep Mine south of Goldshire and Jasperlode Mine to the northeast. These rat-like tunnelers chip through the dark for candles and shiny baubles, gathering flecks of unrefined ore in their pouches. Pushing them back serves the kingdom, and gathering their dust turns the work into a trade for coin.",
    "spoiler": 0
   },
   {
    "title": "Shadows Behind the Counter",
-   "body": "While Remy claims to pay top coin for pure mercantile reasons, his rewards carry subtle warnings. Upon receiving his dust, he slips his helpers a small token representing his \"associates.\" In an Elwynn increasingly strangled by organized bandits, unpaid stonemasons, and clandestine networks operating in the shadows of Stormwind, Remy's quiet brokers may have plans for that gold that extend far beyond ordinary village commerce.",
+   "body": "Remy says he pays well for ordinary trade, but each payment carries a warning. When he receives the dust, he gives his helpers a small token for his \"associates.\" With bandits, unpaid stonemasons, and hidden networks active in the shadows of Stormwind, Remy's quiet brokers may have plans for the gold beyond village commerce.",
    "spoiler": 1
   }
  ],
@@ -43,7 +43,7 @@
     "who gives gold dust exchange",
     "remy in goldshire"
    ],
-   "answer": "Remy \"Two Times\" is an eccentric local broker stationed outside the Lion's Pride Inn in Goldshire. Known for repeating the ends of his sentences, he buys up precious materials from wandering adventurers and maintains ties with shadowy associates."
+   "answer": "Remy \"Two Times\" is a shady local broker outside the Lion's Pride Inn in Goldshire. He repeats the ends of his sentences, buys precious materials from travelers, and keeps ties with shadowy associates."
   },
   {
    "q": "Where do kobolds get gold dust?",
@@ -51,7 +51,7 @@
     "why do kobolds have gold dust",
     "where does gold dust come from"
    ],
-   "answer": "Kobolds spend their lives tunneling through Elwynn's mineral veins, such as those inside Fargodeep and Jasperlode. As they scratch and dig through rock in search of treasure and candle wax, raw gold flakes and dust accumulate in their pockets and pouches."
+   "answer": "Kobolds spend their lives tunneling through Elwynn's mineral veins, including those in Fargodeep and Jasperlode. As they dig through rock for treasure and candle wax, raw gold flakes and dust gather in their pockets and pouches."
   },
   {
    "q": "Where can I find the mines mentioned by Remy?",
@@ -59,7 +59,7 @@
     "where are the mines",
     "where to find kobolds elwynn"
    ],
-   "answer": "Kobolds carrying gold dust can be found primarily within and around the Fargodeep Mine, located south of Goldshire, and the Jasperlode Mine, situated to the northeast near the border toward the Eastvale Logging Camp."
+   "answer": "Kobolds carrying gold dust are found mainly within and around Fargodeep Mine, south of Goldshire, and Jasperlode Mine, northeast near the border toward the Eastvale Logging Camp."
   },
   {
    "q": "Why does Stormwind allow kobolds to control their mines?",
@@ -67,7 +67,7 @@
     "why aren't the mines guarded",
     "why did stormwind lose the mines"
    ],
-   "answer": "With King Varian Wrynn missing and the House of Nobles refusing to spare troops for the outskirts, the Stormwind City Guard is stretched terribly thin. Local garrisons cannot clear the mines, leaving them infested by kobolds while independent travelers do the fighting."
+   "answer": "With King Varian Wrynn missing and the House of Nobles refusing troops for the outskirts, the Stormwind City Guard is stretched thin. Local garrisons cannot clear the mines, leaving kobolds there while independent travelers fight them."
   },
   {
    "q": "Is gold dust used for blacksmithing or trade?",
@@ -75,21 +75,21 @@
     "what is gold dust used for",
     "can you smelt gold dust"
    ],
-   "answer": "In its raw form carried by kobolds, gold dust is too fine and impure for ordinary forge work. Instead, it is traded as a raw commodity to brokers like Remy, who consolidate and refine it through their own private channels."
+   "answer": "In the kobolds' raw gold dust, the particles are too fine and impure for ordinary forge work. Brokers like Remy take it as a raw commodity, consolidate it, then refine it through their own private channels."
   }
  ],
  "angles": [
   {
    "target": "profession:Mining",
-   "text": "Miners scouring Fargodeep and Jasperlode will find kobolds clinging directly to the richest copper veins, making clearing them out a necessity for harvesting ore."
+   "text": "Miners searching Fargodeep and Jasperlode find kobolds clinging to the richest copper veins, so clearing them out is necessary to harvest ore."
   },
   {
    "target": "class:Rogue",
-   "text": "Remy's hushed demeanor and token from unnamed 'associates' carries the unmistakable scent of underground syndicates operating beneath Goldshire's placid surface."
+   "text": "Remy's hushed manner and token from unnamed \"associates\" point to underground syndicates beneath Goldshire's placid surface."
   },
   {
    "target": "faction:Alliance",
-   "text": "The fact that Elwynn's vital gold and mineral deposits are held by feral kobolds rather than royal excavators illustrates how depleted the kingdom's military forces truly are."
+   "text": "Elwynn's vital gold and mineral deposits lie in the hands of feral kobolds rather than royal excavators, showing how depleted the kingdom's military forces are."
   }
  ],
  "keywords": [
@@ -113,5 +113,6 @@
  ],
  "attribution": [
   "Gold Dust Exchange"
- ]
+ ],
+ "style": 1
 }

@@ -17,16 +17,16 @@
   "wiki": "The Missing Diplomat (4)",
   "chain": []
  },
- "summary": "This errand within the investigation of Stormwind's vanished emissary sends you south into the gloomy realm of Duskwood. Acting on leads secured in the capital, master of cheese Elling Trias dispatches you to contact Watcher Backus near Darkshire to uncover traces of Defias activity.",
+ "summary": "Elling Trias sends you south to seek news of the missing diplomat. Leads in Stormwind point toward Duskwood and Watcher Backus, a contact near Darkshire who may know of Defias activity.",
  "sections": [
   {
    "title": "Footwork in the Gloom",
-   "body": "Following a frustrating exchange involving Jorgen, cheesemonger Elling Trias decides to leverage his broader network of informants. Rather than squander his own coin sending out professional agents, he directs you to undertake the legwork yourself. You are charged with carrying a sealed missive across the border into Duskwood, a shadowed land beleaguered by beasts, the undead, and worse.",
+   "body": "After a frustrating exchange with Jorgen, cheesemonger Elling Trias turns to his wider circle of informants. To save his own coin, he sends you to do the fieldwork instead of hiring agents. You carry a sealed missive across the border into Duskwood, where beasts and the undead make travel dangerous.",
    "spoiler": 0
   },
   {
    "title": "A Friendly Ear in the Night Watch",
-   "body": "Your target is Watcher Backus, a member of the Night Watch patrolling the northern approach to Darkshire. Despite the perils that make Duskwood treacherous for ordinary travelers, Trias relies on Backus as a dependable source of intelligence regarding illicit movements. Presenting the sealed dispatch opens the door to municipal guard records and local gossip concerning Defias Brotherhood operations in the south.",
+   "body": "Watcher Backus serves in the Night Watch and patrols the northern approach to Darkshire. Trias trusts him to report illicit movements through Duskwood, despite the dangers on its roads. Show Backus the sealed dispatch, and he can share guard records and local gossip about Defias Brotherhood operations in the south.",
    "spoiler": 0
   }
  ],
@@ -38,7 +38,7 @@
     "trias duskwood errand",
     "why darkshire"
    ],
-   "answer": "Elling Trias is pursuing every potential lead regarding the missing diplomat and suspicious Defias Brotherhood operations. To stretch his coin while mobilizing his contacts, he sends you to interview Watcher Backus in Duskwood for news on the ground."
+   "answer": "Elling Trias is following leads on the missing diplomat and suspected Defias Brotherhood activity. To use his contacts without spending coin on agents, he sends you to ask Watcher Backus what is happening in Duskwood."
   },
   {
    "q": "Where can I find Watcher Backus?",
@@ -47,7 +47,7 @@
     "where is backus",
     "find backus"
    ],
-   "answer": "Watcher Backus patrols the northern dirt road just outside Darkshire in Duskwood, guarding the thoroughfare leading toward Redridge and Elwynn Forest."
+   "answer": "Watcher Backus patrols the northern dirt road just outside Darkshire in Duskwood, along the road toward Redridge and Elwynn Forest."
   },
   {
    "q": "Who is Watcher Backus?",
@@ -55,7 +55,7 @@
     "backus lore",
     "who is backus"
    ],
-   "answer": "Watcher Backus is a soldier in Darkshire's civic militia, the Night Watch. He is also a personal associate of Elling Trias, willing to share observations on suspicious travelers and criminal movements in the region."
+   "answer": "Watcher Backus is a soldier in Darkshire's civic militia, the Night Watch. He knows Elling Trias personally and shares what he sees of suspicious travelers and criminal movements."
   },
   {
    "q": "What is in the sealed note given to Backus?",
@@ -64,7 +64,7 @@
     "what does the note say",
     "sealed note to watcher backus"
    ],
-   "answer": "The note contains confidential inquiries from Elling Trias requesting intelligence on any local sightings or movements of the Defias Brotherhood passing through Duskwood."
+   "answer": "Elling Trias's sealed note asks Watcher Backus for intelligence about local sightings or movements of the Defias Brotherhood through Duskwood."
   },
   {
    "q": "What does Duskwood have to do with the Defias Brotherhood?",
@@ -72,7 +72,7 @@
     "defias in duskwood",
     "are defias in duskwood"
    ],
-   "answer": "Although centered in Westfall and hiding out beneath the Deadmines, the Defias maintain cells, couriers, and hideouts stretching throughout the southern human provinces, including the shadowed fringes of Duskwood."
+   "answer": "The Defias Brotherhood is centered in Westfall and hides beneath the Deadmines. Its cells, couriers, and hideouts also reach through the southern human provinces, including Duskwood's shadowed fringes."
   },
   {
    "q": "Why does Trias complain about Jorgen?",
@@ -80,17 +80,17 @@
     "who is jorgen",
     "trias and jorgen"
    ],
-   "answer": "Jorgen previously stonewalled or drove a hard bargain during the investigation, irritating Trias enough that he curses Jorgen to the Twisting Nether before resorting to other field contacts."
+   "answer": "Jorgen stonewalled Trias or drove a hard bargain during the investigation. Trias was so irritated that he cursed Jorgen to the Twisting Nether before turning to other contacts in the field."
   }
  ],
  "angles": [
   {
    "target": "faction:Alliance",
-   "text": "The disappearance of the diplomat strikes at the heart of Stormwind's royal interests, forcing heroes to coordinate between royal spymasters, independent crooks, and regional militias."
+   "text": "As an Alliance hero, you help pursue a disappearance that concerns Stormwind's royal interests. The search brings together royal spymasters, independent crooks, and regional militias."
   },
   {
    "target": "class:Rogue",
-   "text": "Elling Trias demonstrates how veteran operatives run networks, leaning on independent foot soldiers to gather reconnaissance while keeping their own hands clean."
+   "text": "As a rogue, you see how Elling Trias works through a network. He relies on independent foot soldiers to gather information while keeping his own hands clean."
   }
  ],
  "keywords": [
@@ -113,5 +113,6 @@
  ],
  "attribution": [
   "The Missing Diplomat (4)"
- ]
+ ],
+ "style": 1
 }

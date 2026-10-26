@@ -10,16 +10,16 @@
    "quest:1689"
   ]
  },
- "summary": "The Bloodstone Choker is a dark magical talisman crafted from bloodstone, originally held by the warlock mentor Gakin the Darkbinder. Stolen by a treacherous apprentice who fled to the Defias Brotherhood, it serves as a powerful ritual focus capable of piercing the void to draw forth and bind a Voidwalker.",
+ "summary": "In Stormwind, the Bloodstone Choker binds a warlock’s ritual to the void. Gakin the Darkbinder once held the bloodstone talisman, until an apprentice stole it and fled to the Defias Brotherhood.",
  "sections": [
   {
    "title": "A Stolen Conduit",
-   "body": "Held in the hidden chambers beneath Stormwind's Slaughtered Lamb, the Bloodstone Choker was one of the prized ritual tools of Gakin the Darkbinder. Its peace was shattered when Surena Caledon, a fledgling warlock under Gakin's tutelage, betrayed her mentor and stole the amulet. Surena fled into the forests of Elwynn to ally herself with the outlaw Defias Brotherhood, taking the enchanted choker with her as both a badge of power and a bargaining chip. Reclaiming it requires hunting her down at the Brackwell Pumpkin Patch before the bandits can turn its dangerous energies to their own designs.",
+   "body": "The Bloodstone Choker once belonged to Gakin the Darkbinder, a warlock mentor in the chambers beneath Stormwind’s Slaughtered Lamb. His apprentice, Surena Caledon, betrayed him and stole the choker. She fled into Elwynn’s forests and joined the Defias Brotherhood, carrying the enchanted talisman with her. She is at the Brackwell Pumpkin Patch, where the choker must be reclaimed before the bandits can use its power.",
    "spoiler": 1
   },
   {
    "title": "Taming the Void",
-   "body": "Carved from bloodstone, the choker possesses the latent mystical authority required to bridge the mortal world and the twisting shadows of the Twisting Nether. Once returned to Gakin, it is immediately put to the test in the crypts beneath the tavern. A warlock must channel the choker's magic at the underground summoning circle to rip a hostile Voidwalker from the void. Only by subduing the furious entity in direct combat while wielding the talisman can a practitioner prove the willpower necessary to command such a guardian.",
+   "body": "Carved from bloodstone, the choker can bridge the mortal world and the twisting shadows of the Twisting Nether. Gakin puts it to use in the crypts beneath the tavern, channeling its magic at the summoning circle to draw a hostile Voidwalker from the void. A warlock must subdue the furious creature in direct combat while wielding the talisman to prove the will to command such a guardian.",
    "spoiler": 0
   }
  ],
@@ -31,7 +31,7 @@
     "what is the choker",
     "what does the choker do"
    ],
-   "answer": "It is an enchanted necklace made of bloodstone, used by warlocks as a ritual conduit. It possesses enough magical power to tear through reality and summon an unruly Voidwalker from the Nether."
+   "answer": "The Bloodstone Choker is an enchanted bloodstone necklace that warlocks use as a ritual conduit. Its magic can tear through reality and summon an unruly Voidwalker from the Nether."
   },
   {
    "q": "Who originally owned the choker?",
@@ -40,7 +40,7 @@
     "gakin choker",
     "where did the choker come from"
    ],
-   "answer": "It belongs to Gakin the Darkbinder, a master warlock who trains practitioners in the covert basement levels beneath The Slaughtered Lamb in Stormwind's Mage Quarter."
+   "answer": "Gakin the Darkbinder originally owned the choker. He trains warlocks in the covert basement beneath The Slaughtered Lamb in Stormwind’s Mage Quarter."
   },
   {
    "q": "Why was the choker stolen?",
@@ -49,7 +49,7 @@
     "why did surena steal it",
     "surena caledon choker"
    ],
-   "answer": "Surena Caledon, an apprentice under Gakin, turned her back on her studies and stole the choker before fleeing to join the Defias Brotherhood. She sought power and allied with the bandits hiding in Elwynn Forest."
+   "answer": "Surena Caledon stole the choker from her mentor, Gakin, then fled to join the Defias Brotherhood. She sought power among the bandits hiding in Elwynn Forest."
   },
   {
    "q": "How is the choker used in warlock training?",
@@ -58,17 +58,17 @@
     "voidwalker ritual choker",
     "the binding choker"
    ],
-   "answer": "After being recovered, the choker is activated over the summoning circle in the crypts beneath The Slaughtered Lamb. It draws out a Voidwalker that the aspiring warlock must defeat and subjugate to earn command over the demon."
+   "answer": "A warlock activates the recovered choker over the summoning circle in the crypts beneath The Slaughtered Lamb. It draws out a Voidwalker, which the aspiring warlock must defeat and subdue to command the demon."
   }
  ],
  "angles": [
   {
    "target": "class:Warlock",
-   "text": "For Alliance warlocks, recovering the Bloodstone Choker is a vital rite of passage that bridges basic spellcraft and the command of formidable demonic minions."
+   "text": "As an Alliance warlock, recovering the Bloodstone Choker marks a rite of passage from basic spellcraft to command of formidable demonic minions."
   },
   {
    "target": "faction:Alliance",
-   "text": "Surena Caledon's flight to the Defias Brotherhood demonstrates how ordinary outlaws in Elwynn actively seek dangerous occult relics to bolster their rebellion against Stormwind."
+   "text": "Surena Caledon’s flight to the Defias Brotherhood shows that outlaws in Elwynn seek dangerous occult relics to strengthen their rebellion against Stormwind."
   }
  ],
  "keywords": [
@@ -94,5 +94,6 @@
  "attribution": [
   "Bloodstone Choker",
   "The Binding (Voidwalker, Stormwind)"
- ]
+ ],
+ "style": 1
 }

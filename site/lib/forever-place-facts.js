@@ -24,7 +24,9 @@
 // from and the client tables of the flights and ships it takes.
 import { TOWNS, FLIGHTS } from "./forever-services.js";
 import { DUNGEONS, ZONE_SIDES } from "./dungeon-places.js";
+import { DUNGEON_CARDS } from "./forever-dungeons.js";
 import { ZONES } from "./forever-zones.js";
+import { QUESTS } from "./forever-quests.js";
 import { ridingPeople } from "./forever-game-facts.js";
 
 export const PLACE_FACTS_MAX_BYTES = 1400;
@@ -608,11 +610,84 @@ function zoneCard(zone, faction) {
   return out.join(" ");
 }
 
+// ---- a leveling plan ----
+// "Where should I level now?", "plan my 20 to 30", "what zone should I quest in at 25?" (LOR-834: leveling plans 63% in
+// the 10/25 scope, her facts held the answer 45% of the time): the zones for those levels that aren't the other side's,
+// each with its levels and its quest hubs for them (their side's or anyone's towns, by how many of its quests open
+// there at those levels), worked out here from the zone, town and quest tables, as her goals are; she words it.
+const PLAN_ASKED = /\b(?:where|what|which|best)\b.*\b(?:zones?|place|go)\b.*\b(?:level(?:l?ing)?|quest(?:ing)?|xp|grind(?:ing)?)\b|\b(?:where|what zone|which zone)\b.*\b(?:level(?:l?ing)?|quest(?:ing)?)\b|\bplan (?:my|out|the|a)\b|\b(?:leveling|levelling|questing) (?:route|plan|path)\b|\bwhere (?:should|do|can) i go next\b|\bfrom (\d{1,2}) to (\d{1,2})\b|\b(\d{1,2}) to (\d{1,2})\b/;
+const PLAN_ZONES = 3, PLAN_HUBS = 2, PLAN_QUESTS = 3;
+// A battleground's quests (its marks, its battles) level no one in the zone they start in.
+const BATTLEGROUND = /\b(?:Arathi Basin|Warsong|Alterac Valley|Mark of Honor|Battle for|Claiming Arathi|Fight for)\b/i;
+const QUEST_TOWN = / in ([^,(]+?), ([^(]+?) \(\d+, \d+\)/;
+function levelingPlan(parts, faction) {
+  const q = norm(parts.question);
+  const span = /\b(?:from )?(\d{1,2}) (?:to|through|till|until) (\d{1,2})\b/.exec(q);
+  const at = /\b(?:at|level|lvl|i m|im) (\d{1,2})\b/.exec(q);
+  const live = Number.parseInt(parts.level, 10) || 0;
+  const [from, to] = span ? [Number(span[1]), Number(span[2])] : at ? [Number(at[1]), Number(at[1]) + 5]
+    : live ? [live, live + 5] : [0, 0];
+  if (!from || to <= from || to > 60) return [];
+  const hubs = new Map();     // zone -> town -> [quest titles]
+  for (const [title, level, min, side, starts] of Object.values(QUESTS)) {
+    if ((side && faction && side !== faction) || !(level >= from && level <= to) || (min || 0) > to || BATTLEGROUND.test(title)) continue;
+    const m = QUEST_TOWN.exec(starts || "");
+    if (!m || !TOWNS[m[1]] || hostile(m[1], faction)) continue;
+    const zone = TOWNS[m[1]][0];
+    if (!hubs.has(zone)) hubs.set(zone, new Map());
+    const titles = hubs.get(zone).get(m[1]) || [];
+    if (!titles.includes(title)) hubs.get(zone).set(m[1], [...titles, title]);
+  }
+  // The zones with the most quests for those levels first; a span ("20 to 30") as a route, by where each zone starts.
+  const count = zone => [...(hubs.get(zone) || new Map()).values()].reduce((n, t) => n + t.length, 0);
+  // A zone for those levels, or one with quests for them past its listed range (the Wetlands, 20 to 25, has them to 30).
+  let zones = Object.entries(ZONES).filter(([zone, [lo, hi]]) => ((lo <= to && hi > from) || count(zone) >= 3) && !foe(zone, faction));
+  if (zones.some(([zone]) => count(zone))) zones = zones.filter(([zone]) => count(zone));
+  zones = zones.sort((a, b) => count(b[0]) - count(a[0])).slice(0, span ? PLAN_ZONES + 1 : PLAN_ZONES);
+  if (span) zones.sort((a, b) => a[1][0] - b[1][0] || a[1][1] - b[1][1]);
+  if (!zones.length) return [];
+  const lines = zones.map(([zone]) => {
+    const towns = [...(hubs.get(zone) || new Map())].sort((a, b) => b[1].length - a[1].length).slice(0, PLAN_HUBS);
+    return `${The(zone)} (${levelsOf(zone)})` + (towns.length ? `: quest hubs ${towns.map(([town, titles]) =>
+      `${town} (${titles.length > 1 ? `${titles.length} quests for those levels, such as ${list(titles.slice(0, PLAN_QUESTS))}`
+        : `1 quest for those levels: ${titles[0]}`})`)
+      .join("; ")}` : "");
+  });
+  return [{ title: `Leveling from ${from} to ${to}`, sources: SERVICE_SOURCES,
+    text: `Zones for levels ${from} to ${to}${faction ? ` that aren't the ${faction === "Alliance" ? "Horde" : "Alliance"}'s land` : ""}, ` +
+      `${span ? "in the order their levels start" : "the most quests for those levels first"}: ${lines.join(". ")}.` }];
+}
+
+// A dungeon's card (lib/forever-dungeons.js, LOR-834): "am I ready for the Deadmines?", "what level is Wailing Caverns?",
+// "who are the bosses in Ragefire?" had only the way in, and her answers guessed the rest (the 10/25 scope: dungeons
+// 67%). Its foes' levels and bosses are the original game's; the quests that send you in, for their side first.
+// What the card answers (its facts are the answer, and the look-up is skipped), and what it's background for.
+const DUNGEON_ASKED = /\b(?:ready|prepare[ds]?|prep|levels?|boss(?:es)?|last|final|group|party|players|people|quests?|solo)\b/;
+const DUNGEON_ABOUT = /\b(?:bring|run|loot|drops?|inside|how (?:hard|long|tough))\b/;
+const DUNGEON_SOURCES = [{ title: "VMaNGOS world database (the original game, patch 1.12)", where: "pipeline/lore/dungeon_cards.py" }];
+function dungeonCard(dungeon, faction) {
+  const [name, , , where] = dungeon, card = DUNGEON_CARDS[name];
+  const out = [`${name[0].toUpperCase()}${name.slice(1)} ${where}.`];
+  if (!card) return out.join(" ");
+  const [lo, hi] = card.foes;
+  out.push(`In the original game its elite foes were levels ${lo} to ${hi}, made for a group of five.`);
+  const bosses = card.bosses.map(([b, level]) => `${b} (${level})`);
+  const tops = card.bosses.filter(([, level]) => level === card.bosses[0][1]);
+  if (bosses.length) out.push(tops.length === 1 ? `Its bosses: ${list(bosses)}; ${card.bosses[0][0]} is the strongest.`
+    : `Its bosses: ${list(bosses)}.`);
+  const quests = card.quests.filter(([, , side]) => !faction || !side || side === faction)
+    .map(([, title, side, opens, starts]) => `${title} (${side ? `${side}, ` : ""}from level ${opens}, from ${starts})`);
+  if (quests.length) out.push(`Quests that send you in: ${quests.slice(0, 4).join("; ")}.`);
+  return out.join(" ");
+}
+
 function cardFacts(parts, target) {
   const faction = sideOf(parts.faction);
+  if (target.dungeon) return [{ title: `About ${target.dungeon[0]}`, text: dungeonCard(target.dungeon, faction),
+    sources: DUNGEON_SOURCES }];
   const town = target.town || (CAPITALS.has(target.zone) && !target.landmark ? target.zone : "");
   if (town && TOWNS[town]) return [{ title: `About ${town}`, text: townCard(town, faction), sources: SERVICE_SOURCES }];
-  if (target.landmark || target.dungeon || !places().zones.has(target.zone)) return [];
+  if (target.landmark || !places().zones.has(target.zone)) return [];
   const page = ZONES[target.zone]?.[2];
   return [{ title: `About ${the(target.zone)}`, text: zoneCard(target.zone, faction),
     sources: [...(page ? [wikiPage(page)] : []), ...SERVICE_SOURCES] }];
@@ -627,6 +702,14 @@ export function placeFacts(parts = {}, { character = false, npcZones = [] } = {}
   const origin = said.find(p => q.slice(Math.max(0, p.at - 5), p.at + 1) === " from ");
   const targets = said.filter(p => p !== origin);
   let facts = [];
+  // A leveling plan when no place is named: where to go for their levels.
+  if (!targets.length && !roles.length && !origin && PLAN_ASKED.test(q)) return levelingPlan(parts, sideOf(parts.faction))
+    .map(f => ({ ...f, asked: true }));
+  // Getting ready for a dungeon (its levels, bosses, group, quests): its card is the answer, with the way in when asked.
+  const answers = (DUNGEON_ASKED.test(q) || ABOUT.test(q)) && !DUNGEON_ABOUT.test(q);
+  const card = targets[0]?.dungeon && !roles.length && (answers || DUNGEON_ABOUT.test(q)) && !STORY.test(q)
+    ? cardFacts(parts, targets[0]) : [];
+  if (card.length && !TO_DUNGEON.test(q.slice(0, targets[0].at + 1))) return card.map(f => ({ ...f, asked: answers }));
   if (roles.length) facts = serviceFacts(parts, roles, targets[0] || null);
   else if (targets.length && (targets[0].dungeon ? TO_DUNGEON.test(q.slice(0, targets[0].at + 1))
     : WAY.test(q) || (WHERE.test(q) && !targets[0].town)))
@@ -640,7 +723,7 @@ export function placeFacts(parts = {}, { character = false, npcZones = [] } = {}
   const heard = [origin, ...targets].find(p => p?.said && !p.dungeon &&
     !norm(p.town || p.landmark || p.zone).includes(` ${p.said} `));
   const note = heard ? `"${heard.said}" is ${heard.town || heard.landmark || the(heard.zone)}. ` : "";
-  return facts.slice(0, 3).map((f, i) => ({ ...f, text: i ? f.text : note + f.text, asked: true }));
+  return [...card, ...facts].slice(0, 3).map((f, i) => ({ ...f, text: i ? f.text : note + f.text, asked: true }));
 }
 
 export function placeBlock(facts) {

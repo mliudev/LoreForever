@@ -109,3 +109,25 @@ test("a seller in a capital says the district the town data places them in", asy
     .map(f => f.text).join("\n");
   assert.match(text, /Maria Lumere in Mage Quarter, Stormwind City \(56, 86\)/);
 });
+
+test("LOR-834: gathering at a skill names the nodes that still give it, from the question's rank or their save's", async () => {
+  const { itemData } = await import("../lib/forever-items.js");
+  // Every herb node and the skill it opens at, as the item table says it's gathered.
+  const herbs = new Map();
+  for (const row of Object.values(itemData().items))
+    for (const found of row[6] || []) {
+      const m = /^gathered from (.+?) \((Herbalism) (\d+)\)/.exec(found);
+      if (m) herbs.set(m[1], Number(m[3]));
+    }
+  const fact = (question, skills) => itemFacts({ question, faction: "Horde", zone: "Tanaris", skills })
+    .find(f => f.title === "Profession: Herbalism")?.text || "";
+  const said = fact("Where should I level my herbalism? It's at 212.");
+  const gives = [...herbs].filter(([, at]) => at <= 212 && 212 < at + 25).map(([n]) => n);
+  assert.ok(gives.length && gives.some(n => said.includes(`${n} (orange`)), "an herb still orange at 212");
+  for (const [n, at] of herbs) if (at + 100 <= 212) assert.ok(!said.includes(`${n} (`), `${n} is gray at 212`);
+  // No rank in the question: the save's.
+  assert.equal(fact("Where should I go to level my herbalism now?", { Herbalism: [212, 225] }), said);
+  // "What ore should I be mining now?" is a mining question.
+  assert.ok(itemFacts({ question: "What ore should I be mining now?", skills: { Mining: [118, 150] } })
+    .some(f => f.title === "Profession: Mining" && /nodes that still give skill at 118/.test(f.text)));
+});

@@ -10,11 +10,11 @@
    "quest:138"
   ]
  },
- "summary": "A Clue to Sanders' Treasure is a weathered parchment left behind by the notorious pirate Captain Sanders. It serves as the second step in a treasure hunt scattered across the bluffs and coastlines of Westfall.",
+ "summary": "In Westfall, a weathered parchment carries the trail of notorious pirate Captain Sanders. It marks the second step in a treasure hunt across the bluffs and coastlines.",
  "sections": [
   {
    "title": "A Pirate's Riddle",
-   "body": "Discovered after following Captain Sanders' initial treasure map, this parchment provides directions further inland into Westfall. The scrawled note directs the finder due east from the coast, urging them to climb up the bluffs toward the main road. Sanders hid his next marker inside an old barrel resting near the crumbling stone ruins of an abandoned chimney, leading seekers deeper into the troubled farmlands.",
+   "body": "After you follow Captain Sanders' first treasure map, you find a parchment that points farther inland into Westfall. The scrawled note sends you east from the coast, up the bluffs toward the main road. Near crumbling stone ruins and an abandoned chimney, an old barrel marks the next place Sanders hid a clue, drawing seekers deeper into the troubled farmlands.",
    "spoiler": 0
   }
  ],
@@ -26,7 +26,7 @@
     "clue to sanders treasure",
     "what is a clue to sanders treasure"
    ],
-   "answer": "It is a handwritten note left behind by Captain Sanders, guiding anyone clever enough to follow his trail toward another hidden container in Westfall."
+   "answer": "Captain Sanders left a handwritten note to guide anyone clever enough to follow his trail toward another hidden container in Westfall."
   },
   {
    "q": "Where does this clue lead?",
@@ -35,7 +35,7 @@
     "clue destination",
     "chimney location"
    ],
-   "answer": "The clue directs seekers due east up the coastal bluffs toward the Westfall road, where an old barrel lies near a ruined chimney."
+   "answer": "The clue sends you east from the coast and up the bluffs toward the Westfall road. An old barrel lies near a ruined chimney."
   },
   {
    "q": "Who was Captain Sanders?",
@@ -44,7 +44,7 @@
     "sanders lore",
     "captain sanders"
    ],
-   "answer": "Captain Sanders was a pirate whose legacy survives through the treasure caches and riddles he hid across Westfall's shores and countryside."
+   "answer": "Captain Sanders was a pirate. His legacy survives in the treasure caches and riddles he hid across Westfall's shores and countryside."
   }
  ],
  "angles": [],
@@ -64,5 +64,6 @@
  "attribution": [
   "A Clue to Sanders' Treasure",
   "Captain Sanders' Hidden Treasure (Classic 2)"
- ]
+ ],
+ "style": 1
 }

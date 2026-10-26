@@ -13,6 +13,7 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Alegreya+Sans:wght@400;500;700&family=Cinzel:wght@600;700&display=swap">
 <link rel="stylesheet" href="/style.css?v=20261026a">
+<link rel="stylesheet" href="/email-signin.css?v=20261025a">
 <link rel="stylesheet" href="/pages.css?v=20261026a">
 <link rel="stylesheet" href="/community.css?v=20261026a">
 <link rel="stylesheet" href="/pages-b.css?v=20261026a">
@@ -58,10 +59,11 @@
     <h2 id="ac-out-title">Sign in to see your journey</h2>
     <div class="ac-out-cols">
     <ol class="ac-steps">
-      <li class="ac-now"><strong>Sign in with Google</strong>
+      <li class="ac-now"><strong>Sign in with Google or your email</strong>
         <span>The first time makes your account.</span>
         <div id="ac-google" class="ac-google"></div>
-        <p class="vp-note signin-terms">By signing in, you agree to the <a href="/terms">Terms</a> and <a href="/privacy">Privacy</a>.</p>
+        <div id="ac-email" class="es-signin" hidden></div>
+        <p class="vp-note signin-terms">By signing in, you agree to the <a href="/terms">Terms</a> and <a href="/privacy">Privacy Policy</a>.</p>
         <p class="vp-note" id="ac-none" hidden>Sign-in isn't switched on yet. Please check back soon, or
           <a href="/discord">ask on Discord</a>.</p></li>
       <li><strong>Copy your journey in game</strong>
@@ -74,7 +76,7 @@
     <aside class="ac-keep" aria-labelledby="ac-keep-title">
       <h3 id="ac-keep-title">What we keep</h3>
       <p>From Google: your account ID, email address and name, to create your account and reach you about what you
-        contribute. We don't sell any of it.</p>
+        contribute. If you sign in by email, we keep just your address. We don't sell any of it.</p>
       <p>What you type into your profile here, the languages you translate, your edits on the translation dashboard, and
         a sign-in cookie that keeps you signed in for 30 days.</p>
       <p>For your page: what your journey record says about your character (its name, realm, level, race and class, and
@@ -135,8 +137,8 @@
     <!-- Plans (LOR-252): a card leading to /plans. Free players see what a plan adds; subscribers, their plan and when
          it renews (or changes to a smaller one, or ends), "Switch to <plan>" for the other plans (each opens its
          confirm on /plans), and the way to Willo's style (/willo/style, LOR-447). Hidden while plans are off
-         (GET /api/billing/plans says on: false). During the beta, the server's line (launch: lib/billing.js
-         launchText): half price until the launch, full price from it. -->
+         (GET /api/billing/plans says on: false). Before WoW Forever's launch, the server's pre-order line (launch:
+         lib/billing.js preorderText): plans start now, first paid at the launch. -->
     <section class="ac-plan" id="ac-plan" aria-labelledby="ac-plan-title" hidden>
       <div>
         <h2 id="ac-plan-title"></h2>
@@ -356,7 +358,7 @@
       <nav aria-label="The add-on"><h2>The add-on</h2><ul><li><a href="/downloads">Download</a></li><li><a href="/whats-new">What's new</a></li><li><a href="/downloads#languages">Languages</a></li><li><a href="/guides">Guides</a></li><li><a href="/downloads#voices">Narrator voices</a></li><li><a href="/lore">Lore library</a></li></ul></nav>
       <nav aria-label="Community"><h2>Community</h2><ul><li><a href="/discord?src=site">Discord</a></li><li><a href="/translate">Translate</a></li><li><a href="/voices/lend">Lend your voice</a></li><li><a href="/contributors">Contributors</a></li><li><a href="https://www.twitch.tv/jiuthaimike">Twitch</a></li><li><a href="/creators">Creator program</a></li></ul></nav>
       <nav aria-label="Willo"><h2>Sister site</h2><ul><li><a href="/willo">Willo<span class="nl-out" aria-hidden="true">&#8599;</span></a></li><li><a class="dim" href="/willo">willocompanion.com</a></li><li class="h-foot-tag">Talk to the world while you play.</li><li><a href="/plans">Plans</a></li><li><a href="/willo/style">Willo's style</a></li></ul></nav>
-      <nav aria-label="About"><h2>Fine print</h2><ul><li><a href="/privacy">Privacy</a></li><li><a href="/terms">Terms</a></li><li><a href="/feedback">Feedback</a></li><li><a href="/refunds">Refunds</a></li><li><a href="/faq">FAQ</a></li><li><a href="https://github.com/mliudev/LoreForever">Source on GitHub</a></li></ul></nav>
+      <nav aria-label="About"><h2>Fine print</h2><ul><li><a href="/privacy">Privacy</a></li><li><a href="/terms">Terms</a></li><li><a href="/feedback">Feedback</a></li><li><a href="/refunds">Refunds</a></li><li><a href="/faq">FAQ</a></li><li><a href="/credits">Credits</a></li><li><a href="https://github.com/mliudev/LoreForever">Source on GitHub</a></li></ul></nav>
     </div>
     <div class="h-foot-base">
       <form class="h-sub-form" id="signup" data-source="account-page">
@@ -371,14 +373,13 @@
     <p class="h-foot-small">One email when a new version is out, and your address is used for nothing else
       (<a href="/privacy">privacy</a>). <a href="/unsubscribe">Unsubscribe anytime</a>.</p>
     <div class="h-legal">
-      <p>Lore text is adapted from the <a href="https://warcraft.wiki.gg">Warcraft Wiki</a> under
-        <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a>.</p>
       <p>Lore Forever is a fan-made add-on. World of Warcraft and Warcraft are trademarks of Blizzard Entertainment, Inc.
         Not affiliated with or endorsed by Blizzard.</p>
     </div>
   </div>
 </footer>
 
+<script src="/js/email-signin.js?v=20261025a"></script>
 <script>
 (() => {
   // Plans moved to their own page (LOR-252); the companion and Stripe sent players to /account#plans before.
@@ -426,7 +427,8 @@
           if (res.ok) signedIn(); else status(res.error);
         },
       });
-      google.accounts.id.renderButton($("ac-google"), { theme: "filled_black", size: "large", text: "continue_with", shape: "pill" });
+      google.accounts.id.renderButton($("ac-google"), { theme: "filled_black", size: "large", text: "continue_with", shape: "pill",
+        width: Math.min(380, $("ac-google").clientWidth || 380) });  // lines up with the email form (.es-signin)
     };
     document.head.appendChild(s);
   }
@@ -480,16 +482,19 @@
       : "A page about your character, from the journal Lore Forever keeps while you play. " +
         "The add-on and its downloads never need an account.";
     if (!me.user) {
-      if (door === "willo") $("ac-out-title").textContent = "Welcome, adventurer";
+      if (door === "willo") $("ac-out-title").textContent = "Wake Willo";
       const clientId = me.signIn.google;
       $("ac-google").hidden = !clientId;
       if (clientId) googleButton(clientId);
-      $("ac-none").hidden = Boolean(clientId);
+      if (me.signIn.email && window.LFEmailSignIn) LFEmailSignIn.mount($("ac-email"), { onSignedIn: signedIn });
+      $("ac-none").hidden = Boolean(clientId || me.signIn.email);
       return;
     }
     const u = me.user;
     $("ac-who").textContent = u.email || "your account";
-    $("ac-who-long").textContent = (u.google ? "You signed in with Google. " : "") +
+    // How this account can sign in: Google if it has it, and a code to its address whenever it has one (LOR-816).
+    const ways = [u.google && "Google", u.email && "a code emailed to " + u.email].filter(Boolean);
+    $("ac-who-long").textContent = (ways.length ? `You can sign in with ${ways.join(" or ")}. ` : "") +
       "You stay signed in on this browser for 30 days, or until you sign out.";
     const f = $("ac-profile");
     f.display_name.value = u.display_name || "";
@@ -706,16 +711,12 @@
       return;
     }
     if (c.launch) {
-      // The beta's free Hero month (lib/billing.js planFor launch): Hero on us until the launch (ends: that day). Keep
-      // Hero during the beta is free until the launch too (the Hero card's promo note: "until <day>, then $4.99 a
-      // month"); Champion and Legend are half price until then (launchEnds).
-      const keep = res.plans.find(p => p.id === "hero")?.promo;
-      $("ac-plan-title").textContent = `Beta: Hero is free until ${c.ends}`;
+      // A free Hero month from the beta (lib/billing.js planFor launch): Hero on us until the launch (ends: that day).
+      const hero = res.plans.find(p => p.id === "hero");
+      $("ac-plan-title").textContent = `Hero is free until ${c.ends}`;
       $("ac-plan-text").textContent = lead("hero") +
         `${(c.answersPerMonth || 0).toLocaleString("en-US")} Willo answers this month, up to ${c.answersPerDay} a day. ` +
-        (keep ? `Keep Hero with a card and nothing is charged ${keep.note}.` : "Keep Hero after it for $4.99 a month.") +
-        (res.launchEnds && res.plans.some(p => p.id !== "hero" && p.promo)
-          ? ` Champion and Legend are half price until ${res.launchEnds}.` : "");
+        `Keep Hero after it for $${((hero?.monthly || 499) / 100).toFixed(2)} a month.`;
       $("ac-plan-go").textContent = "See plans";
       return;
     }

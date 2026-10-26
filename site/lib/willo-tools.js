@@ -67,7 +67,7 @@ export const ACTIONS = {
   // Offered only by the fixed screenshot answer (lib/friend-send.js), never to the model. This prepares a preview;
   // the desktop asks for Send only after capture succeeds and the actual image is visible.
   capture_game_to_friend: { side: "willo", confirm: "preview", undo: false, topics: [],
-    what: "prepares a local game screenshot for a named friend; the player reviews it and chooses Send before upload" },
+    what: "prepares a local game screenshot for a named friend (or, with no one named, takes and holds it until a name); the player reviews it and chooses Send before upload" },
   send_feedback: { side: "willo", confirm: "send", topics: ["problems"],
     what: `fills in "Something's wrong" with a note; the player presses Send` },
   set_voice: { side: "willo", confirm: "yes", undo: true, topics: ["voice"],

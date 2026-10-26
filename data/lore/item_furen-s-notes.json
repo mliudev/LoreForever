@@ -12,16 +12,16 @@
    "quest:1704"
   ]
  },
- "summary": "Furen's Notes are written folios containing the metallurgical and armorsmithing insights discovered by Furen Longbeard in Stormwind. Penned after forging resilient protective gear for veteran warriors, they are dispatched across the Alliance to refine the techniques of fellow craftsmen.",
+ "summary": "Furen's Notes carry his discoveries in metallurgy and armorsmithing from Stormwind to Alliance craftsmen. After forging protective gear for veteran warriors, Furen Longbeard sends copies to help fellow smiths refine their work.",
  "sections": [
   {
    "title": "A Master's Discoveries",
-   "body": "When Furen Longbeard completes the rigorous forging of specialized warrior armaments in Stormwind's Dwarven District, he compiles the methods and breakthroughs he discovered along the way into written notes. Dwarven metallurgy is ever-evolving, and Furen makes multiple copies of these treatises so his peers can replicate and expand upon his findings. The documents capture practical advancements in tempering, reinforcing, and shaping armor against lethal combat blows.",
+   "body": "In Stormwind's Dwarven District, Furen Longbeard forges specialized armaments for warriors and records the methods and discoveries he makes along the way. Dwarven metalworking keeps changing, so he makes several copies for other smiths to use and build upon. His notes describe practical ways to temper, reinforce, and shape armor against deadly blows.",
    "spoiler": 0
   },
   {
    "title": "Dispatched Across the Alliance",
-   "body": "Furen distributes his notes to trusted contacts within the Alliance's crafting networks. While local masters like Grimand Elmore might scoff at being schooled by a peer they claim to have tutored, the value of the insights cannot be ignored. Copies are even carried overseas across the Great Sea to night elven craftsmen such as Mathiel on the Warrior's Terrace in Darnassus, bridging the gaps between distinct ancestral traditions through shared martial necessity.",
+   "body": "Furen sends copies to trusted contacts in the Alliance's crafting networks. Grimand Elmore may scoff at a fellow smith he claims to have taught, but the notes still hold useful insights. Copies cross the Great Sea to night elven craftsmen, including Mathiel on Darnassus's Warrior's Terrace. Shared needs in battle bring their different traditions into contact.",
    "spoiler": 0
   }
  ],
@@ -33,7 +33,7 @@
     "what is in furens notes",
     "furen notes content"
    ],
-   "answer": "The notes contain written descriptions of armorsmithing techniques and metallurgical discoveries that Furen Longbeard developed while fashioning customized armor for seasoned warriors."
+   "answer": "Furen's Notes contain descriptions of armorsmithing techniques and discoveries in metallurgy that Furen Longbeard developed while making custom armor for seasoned warriors."
   },
   {
    "q": "Who is Furen Longbeard?",
@@ -42,7 +42,7 @@
     "who is furen",
     "furen longbeard"
    ],
-   "answer": "Furen Longbeard is a master dwarven armorsmith stationed in the Dwarven District of Stormwind, known for guiding rising warriors and crafting specialized defensive wargear."
+   "answer": "Furen Longbeard is a master dwarven armorsmith in Stormwind's Dwarven District. He guides rising warriors and makes specialized defensive wargear."
   },
   {
    "q": "Why does Grimand Elmore get angry about the notes?",
@@ -51,7 +51,7 @@
     "grimand elmore reaction",
     "grimand proud"
    ],
-   "answer": "Grimand Elmore is a fiercely proud weapon and armor smith who claims he taught Furen everything the dwarf knows. While outraged at the insinuation that his former student can teach him something new, Grimand still admits the techniques described in the notes are worth trying."
+   "answer": "Grimand Elmore claims he taught Furen everything the dwarf knows, and resents the suggestion that his former student can teach him something new. Still, Grimand admits the notes describe techniques worth trying."
   },
   {
    "q": "Who receives copies of Furen's Notes?",
@@ -60,7 +60,7 @@
     "where do the notes go",
     "deliver furens notes"
    ],
-   "answer": "Furen sends copies of his writings to trusted colleagues throughout the Alliance, including the weapon smith Grimand Elmore in Stormwind, the night elven smith Mathiel in Darnassus, and the gnomish blacksmith Klockmort Spannerspan in Ironforge."
+   "answer": "Furen sends copies to trusted colleagues across the Alliance, including weapon smith Grimand Elmore in Stormwind, night elven smith Mathiel in Darnassus, and gnomish blacksmith Klockmort Spannerspan in Ironforge."
   },
   {
    "q": "How does Mathiel react to the notes?",
@@ -69,17 +69,17 @@
     "mathiel darnassus",
     "what does mathiel think"
    ],
-   "answer": "Unlike the gruff smiths of Stormwind, Mathiel\u2014a night elf blacksmith found on the Warrior's Terrace in Darnassus\u2014welcomes the dwarven insights with open enthusiasm, regarding Furen's findings as a grand discovery and an honor to integrate into his own work."
+   "answer": "Mathiel, a night elf blacksmith on Darnassus's Warrior's Terrace, welcomes Furen's findings with enthusiasm. He sees them as a grand discovery and an honor to bring into his own work."
   }
  ],
  "angles": [
   {
    "target": "class:Warrior",
-   "text": "These notes are drafted directly as a result of your class armor trials in Stormwind, serving as proof of the practical innovations born from your frontline combat needs."
+   "text": "As a warrior, your armor trials in Stormwind lead directly to these notes. They record practical ideas shaped by the needs of frontline combat."
   },
   {
    "target": "profession:Blacksmithing",
-   "text": "The folios represent the ongoing exchange of specialized armorcrafting knowledge between dwarven, elven, and gnomish artisans across the Alliance."
+   "text": "As a blacksmith, you see the exchange of specialized armorcrafting knowledge among dwarven, elven, and gnomish artisans across the Alliance."
   }
  ],
  "keywords": [
@@ -105,5 +105,6 @@
   "Furen's Notes",
   "Grimand Elmore (quest)",
   "Mathiel (quest)"
- ]
+ ],
+ "style": 1
 }

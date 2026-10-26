@@ -8,16 +8,16 @@
   "wiki": "Morgan the Collector",
   "refs": 0
  },
- "summary": "Morgan the Collector is a high-ranking Defias operative overseeing the Brotherhood's extortion and gathering activities across Elwynn Forest. Based in the overrun Brackwell Pumpkin Patch, he coordinates local thievery right under the nose of the Goldshire guard.",
+ "summary": "At the Brackwell Pumpkin Patch, Morgan the Collector directs Defias extortion and gathering across Elwynn Forest. A high-ranking operative, he coordinates local theft from the farmhouse while Goldshire's guard keeps watch nearby.",
  "sections": [
   {
    "title": "The Tithe of Elwynn",
-   "body": "Morgan earned his epithet by skimming gold from the mines of Elwynn Forest on behalf of the Defias Brotherhood. While common bandits harass wayfarers along the roads, Morgan directs organized shakedowns and collects stolen coin and supplies to funnel deeper into the Brotherhood's network. He has made his headquarters inside the farmhouse at the Brackwell Pumpkin Patch, surrounded by loyal enforcers including Surena Caledon and Erlan Drudgemoor.",
+   "body": "Morgan the Collector skims gold from Elwynn Forest's mines for the Defias Brotherhood. While common bandits harass travelers on the roads, he directs organized shakedowns and gathers stolen coin and supplies for the Brotherhood's wider network. His headquarters is the farmhouse at the Brackwell Pumpkin Patch, where loyal enforcers including Surena Caledon and Erlan Drudgemoor surround him.",
    "spoiler": 0
   },
   {
    "title": "A Signet of the Past",
-   "body": "Morgan's operations are not just simple street crimes; he carries a distinct signet ring that marks his authority. To investigators in Goldshire, this band offers hard evidence tying the masked thieves terrorizing the heartland back to the disgraced Stonemasons Guild that rebuilt Stormwind City after the Second War. Recovering his ring pierces the mystery behind who actually directs the bandits in the woods.",
+   "body": "Morgan carries a distinctive signet ring that marks his authority. Investigators in Goldshire see the ring as evidence connecting the masked thieves terrorizing the heartland to the disgraced Stonemasons Guild, which rebuilt Stormwind City after the Second War. Recovering the ring reveals who directs the bandits in the woods.",
    "spoiler": 1
   }
  ],
@@ -29,7 +29,7 @@
     "morgan lore",
     "collector in elwynn"
    ],
-   "answer": "He is an officer in the Defias Brotherhood responsible for collecting gold taken from Elwynn Forest's mines and coordinating bandit activity in the region."
+   "answer": "Morgan is a high-ranking officer in the Defias Brotherhood who collects gold taken from Elwynn Forest's mines and coordinates bandit activity in the region."
   },
   {
    "q": "Where is Morgan found?",
@@ -38,7 +38,7 @@
     "where is morgan the collector",
     "brackwell pumpkin patch house"
    ],
-   "answer": "He hoards his stolen goods inside the abandoned farmhouse at the Brackwell Pumpkin Patch, located in eastern Elwynn Forest."
+   "answer": "Morgan keeps his stolen goods in the farmhouse at the Brackwell Pumpkin Patch in eastern Elwynn Forest."
   },
   {
    "q": "Why is Stormwind hunting him?",
@@ -46,7 +46,7 @@
     "why kill morgan",
     "manhunt target"
    ],
-   "answer": "Marshal Dughan and local authorities want Morgan eliminated to sever Defias leadership in Elwynn and recover proof of who is organizing the rural uprisings."
+   "answer": "Marshal Dughan and local authorities want Morgan eliminated to sever Defias leadership in Elwynn and recover proof of who organizes the rural uprisings."
   },
   {
    "q": "What is special about the ring he carries?",
@@ -55,17 +55,17 @@
     "collector signet ring",
     "morgan ring lore"
    ],
-   "answer": "Morgan carries a signet ring that serves as evidence for the authorities investigating his activities in Elwynn Forest."
+   "answer": "Morgan carries a signet ring that gives authorities evidence as they investigate his activities in Elwynn Forest."
   }
  ],
  "angles": [
   {
    "target": "class:Rogue",
-   "text": "Morgan shows how organized criminal discipline turns disjointed thieves into a functional, underground syndicate capable of funding an insurgency."
+   "text": "As a Rogue, you can see how Morgan's discipline turns scattered thieves into an organized underground syndicate that funds an insurgency."
   },
   {
    "target": "race:Human",
-   "text": "Taking down Morgan strikes back against the traitors who have turned Stormwind's peaceful farms into fortified bandit dens."
+   "text": "As a Human, taking down Morgan strikes back at the traitors who have turned Stormwind's peaceful farms into fortified bandit dens."
   }
  ],
  "keywords": [
@@ -91,5 +91,6 @@
  ],
  "attribution": [
   "Morgan the Collector"
- ]
+ ],
+ "style": 1
 }

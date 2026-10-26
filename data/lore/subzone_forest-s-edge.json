@@ -7,16 +7,16 @@
  "meta": {
   "wiki": "Forest's Edge"
  },
- "summary": "Forest's Edge is a wooded wedge of land along the southwestern frontier of Elwynn Forest, flanked by rivers leading toward Westfall. Guarded to the north by Westbrook Garrison, this untamed area has become dangerously overrun by riverpaw gnolls under the command of the notorious Hogger.",
+ "summary": "Riverpaw gnolls under Hogger threaten travelers at Forest's Edge, along Elwynn's southwestern frontier.",
  "sections": [
   {
    "title": "A Contested Frontier",
-   "body": "Tucked southwest of Stormwind City between Mirror Lake Orchard and the rivers bordering Westfall, Forest's Edge forms a natural peninsula of woodland. Despite its proximity to Westbrook Garrison, the Stormwind army's thin ranks have left the area vulnerable to wild beasts and raiding parties. Wandering boars roam among the trees and along the riverbanks, but the true menace is the concentration of Riverpaw gnolls who have made these woods their staging ground.",
+   "body": "At Forest's Edge, woodland runs southwest from Stormwind City between Mirror Lake Orchard and the rivers that border Westfall. Westbrook Garrison lies nearby, but Stormwind's thin ranks leave the woods open to wild beasts and raiding parties. Boars roam among the trees and along the banks. Riverpaw gnolls gather here in force, using the woods as a staging ground.",
    "spoiler": 0
   },
   {
    "title": "Hogger's Stronghold",
-   "body": "The woods of Forest's Edge are the hunting grounds of Hogger, a massive and brutal gnoll chieftain. With a sizable bounty placed on his head by the Stormwind Army, Hogger directs his pack in harassing travelers and raiding nearby farms, turning what could be a peaceful timberland into a lethal proving ground for young Alliance adventurers.",
+   "body": "Hogger and his pack hunt through the woods of Forest's Edge. A massive, brutal gnoll chieftain, he leads raids on nearby farms and harasses travelers. The Stormwind Army has placed a bounty on his head. His pack makes the timberland dangerous for anyone who crosses it.",
    "spoiler": 0
   }
  ],
@@ -28,7 +28,7 @@
     "where is forests edge",
     "forest edge map"
    ],
-   "answer": "Forest's Edge is located in the southwestern corner of Elwynn Forest. It sits south of Westbrook Garrison, bordered by Mirror Lake Orchard and the waterways that lead into Westfall."
+   "answer": "Forest's Edge lies in southwestern Elwynn Forest, south of Westbrook Garrison. Mirror Lake Orchard and the waterways leading toward Westfall border the area."
   },
   {
    "q": "Why is this area so dangerous?",
@@ -37,7 +37,7 @@
     "what is at forest edge",
     "forests edge threats"
    ],
-   "answer": "A large and aggressive pack of Riverpaw gnolls has claimed the woods, threatening travel along the southwestern border. The biggest threat is their chieftain, Hogger, an exceptionally vicious gnoll who prowls these woods."
+   "answer": "Riverpaw gnolls have claimed the woods and threaten travel along Elwynn's southwestern border. Their chieftain, Hogger, is the fiercest threat, prowling the same woods."
   },
   {
    "q": "Who is Hogger?",
@@ -46,7 +46,7 @@
     "who is hogger",
     "hogger info"
    ],
-   "answer": "Hogger is a notorious, powerful gnoll leader responsible for violent attacks on Elwynn's borders. The Stormwind Army has posted a generous bounty for proof of his death, warning adventurers not to face him alone."
+   "answer": "Hogger is a powerful gnoll leader who directs violent attacks along Elwynn's borders. The Stormwind Army has offered a bounty for proof of his death and warns adventurers not to face him alone."
   },
   {
    "q": "Why hasn't Westbrook Garrison cleared the area?",
@@ -55,17 +55,17 @@
     "why stormwind guards not help",
     "westbrook guards"
    ],
-   "answer": "Stormwind's military is stretched remarkably thin across the kingdom. With unrest in Westfall and threats encroaching on all sides, the garrison lacks the manpower to clear the gnoll camps, leaving the task to volunteer adventurers."
+   "answer": "Stormwind's military is stretched thin across the kingdom. Unrest in Westfall and threats on all sides leave Westbrook Garrison without enough soldiers to clear the gnoll camps, so volunteers are left to confront them."
   }
  ],
  "angles": [
   {
    "target": "faction:Alliance",
-   "text": "For recruits stationed in Elwynn Forest, clearing Forest's Edge and defeating Hogger is one of the first major trials proving their combat readiness to the crown."
+   "text": "As an Alliance recruit in Elwynn Forest, clearing Forest's Edge and defeating Hogger is an early trial of your readiness to serve the crown."
   },
   {
    "target": "profession:Herbalism",
-   "text": "The quiet riverbanks and shaded groves of Forest's Edge yield common woodland herbs, though gathering them often requires dodging aggressive gnoll patrols."
+   "text": "Forest's Edge has common woodland herbs along its riverbanks and in its shaded groves. You may have to avoid aggressive gnoll patrols while gathering them."
   }
  ],
  "keywords": [
@@ -90,5 +90,6 @@
  ],
  "attribution": [
   "Forest's Edge"
- ]
+ ],
+ "style": 1
 }

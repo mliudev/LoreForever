@@ -10,16 +10,16 @@
    "quest:71"
   ]
  },
- "summary": "Rolf and Malakai's Medallions are the recovered service tokens of two Stormwind guards who vanished while patrolling eastern Elwynn Forest. Bearing the insignia of the realm, these items serve as tragic confirmation to Guard Thomas that his missing comrades were slain by local murlocs.",
+ "summary": "Rolf and Malakai's Medallions bear the realm's insignia, but their owners vanished on patrol in eastern Elwynn Forest. Guard Thomas seeks the tokens to learn what became of his men.",
  "sections": [
   {
    "title": "A Grim Confirmation",
-   "body": "When guards Rolf and Malakai went missing along the riverbanks of eastern Elwynn Forest, their station commander, Guard Thomas, feared the worst. The recovery of their personal guard medallions provides irrefutable proof of their demise at the hands of the encroaching murlocs. For the Stormwind garrison, these tokens are not mere trinkets; they represent fallen soldiers who held the line against growing wilderness threats when the kingdom's military was stretched desperately thin.",
+   "body": "Guard Thomas, station commander in eastern Elwynn, feared the worst when Rolf and Malakai vanished along the riverbanks. Their medallions confirm the guards died at the hands of encroaching murlocs. For the Stormwind garrison, these tokens mark the loss of soldiers who held the line against wilderness threats while the kingdom's military was stretched thin.",
    "spoiler": 0
   },
   {
    "title": "Tokens of Service",
-   "body": "Like many members of the Stormwind city watch and rural patrols, human guards carry identification medallions signifying their allegiance and authority under the crown. Returning these items to Guard Thomas allows him to officially account for his missing men, log their sacrifice in his field report, and sound the alarm about aggressive murloc tribes settling near the trade roads.",
+   "body": "Human guards on city watch and rural patrols carry identification medallions that show their allegiance and authority under the crown. Returning Rolf and Malakai's tokens to Guard Thomas lets him account for his missing men, record their sacrifice in his field report, and warn of aggressive murloc tribes settling near the trade roads.",
    "spoiler": 0
   }
  ],
@@ -31,7 +31,7 @@
     "rolfs medallion",
     "malakais medallion"
    ],
-   "answer": "They are the official service identification tokens carried by guards Rolf and Malakai, two Stormwind guardsmen posted in eastern Elwynn Forest who were ambushed and killed by murlocs."
+   "answer": "They are the service identification tokens carried by Rolf and Malakai, Stormwind guards ambushed and killed by murlocs while posted in eastern Elwynn Forest."
   },
   {
    "q": "Who do these medallions belong to?",
@@ -39,7 +39,7 @@
     "who were rolf and malakai",
     "whose medallions"
    ],
-   "answer": "They belonged to Guards Rolf and Malakai, fellow guardsmen stationed under Guard Thomas to watch over the river and roads between Goldshire and the Eastvale Logging Camp."
+   "answer": "They belonged to Guards Rolf and Malakai, stationed under Guard Thomas to watch the river and roads between Goldshire and the Eastvale Logging Camp."
   },
   {
    "q": "Who should I bring these medallions to?",
@@ -48,7 +48,7 @@
     "where do i turn these in",
     "medallion turn in"
    ],
-   "answer": "Deliver them to Guard Thomas, who stands vigil at the eastern bridge along the road connecting Goldshire to the Eastvale Logging Camp."
+   "answer": "Bring them to Guard Thomas, who keeps watch at the eastern bridge on the road between Goldshire and the Eastvale Logging Camp."
   },
   {
    "q": "Why are these medallions important to Guard Thomas?",
@@ -56,17 +56,17 @@
     "why does thomas want them",
     "guard thomas reaction"
    ],
-   "answer": "Guard Thomas sent both guards on patrol and feared they had met a foul end. Receiving their medallions confirms their deaths, allowing him to document their sacrifice and warn Stormwind of the rising murloc threat."
+   "answer": "Guard Thomas sent both guards on patrol and feared they had met a foul end. Their medallions confirm their deaths, letting him record their sacrifice and warn Stormwind of the rising murloc threat."
   }
  ],
  "angles": [
   {
    "target": "faction:Alliance",
-   "text": "The medallions are a sober reminder that even in the heart of the Alliance, local guardsmen face deadly peril guarding rural trade routes."
+   "text": "Even in the heart of the Alliance, local guardsmen face deadly peril while guarding rural trade routes."
   },
   {
    "target": "race:Human",
-   "text": "For humans of Elwynn, these tokens signify lost sons and defenders whose deaths highlight the kingdom's vulnerability while the military is occupied elsewhere."
+   "text": "For humans of Elwynn, these tokens mark the loss of sons and defenders. Their deaths show the kingdom's vulnerability while its military is occupied elsewhere."
   }
  ],
  "keywords": [
@@ -91,5 +91,6 @@
  "attribution": [
   "Rolf and Malakai's Medallions",
   "Report to Thomas"
- ]
+ ],
+ "style": 1
 }

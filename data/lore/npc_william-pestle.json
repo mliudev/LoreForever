@@ -8,21 +8,21 @@
   "wiki": "William Pestle",
   "refs": 4
  },
- "summary": "William Pestle is a human alchemist staying inside Goldshire's Lion's Pride Inn. Together with his brother Morgan, he helps run the apothecary shop in Stormwind's Trade District. He frequently employs traveling adventurers to gather odd reagents like kobold candles, murloc kelp, and herbal supplies.",
+ "summary": "At the Lion's Pride Inn in Goldshire, William Pestle gathers supplies for Stormwind's apothecary. He and his brother Morgan run the shop in the Trade District, and William hires travelers to find candles, kelp, and herbs.",
  "sections": [
   {
    "title": "Apothecary Abroad",
-   "body": "While his brother Morgan Pestle manages the counter at Pestle's Apothecary in the Trade District of Stormwind City, William operates out of the Lion's Pride Inn in Goldshire. Being stationed in Elwynn Forest allows him to work closely with local gatherers and secure raw materials that city shops constantly require. He maintains regular shipments back to the capital, ensuring Stormwind's citizens have steady access to restorative salves, draughts, and powders.",
+   "body": "William works from Goldshire's Lion's Pride Inn while his brother Morgan Pestle tends the counter at Pestle's Apothecary in Stormwind City's Trade District. From Elwynn Forest, William works with local gatherers to secure raw materials the city shops need. He sends regular shipments to the capital, where Stormwind's citizens rely on a steady supply of restorative salves, draughts, and powders.",
    "spoiler": 0
   },
   {
    "title": "Curious Reagents",
-   "body": "William's craft often demands unusual components that go beyond simple garden herbs. He frequently commissions newcomers to gather wax candles carried by Elwynn's infesting kobolds, as well as crystal kelp taken from the murlocs of Crystal Lake, just east of Goldshire. Although such concoctions seem bizarre to the uninitiated, William insists these strange ingredients possess potent alchemical virtues.",
+   "body": "William often needs more than common garden herbs for his craft. He hires newcomers to gather wax candles carried by Elwynn's kobolds and crystal kelp from the murlocs of Crystal Lake, just east of Goldshire. The ingredients may seem strange to those unfamiliar with alchemy, but William believes they have potent virtues in a mixture.",
    "spoiler": 0
   },
   {
    "title": "A Concoction for Young Love",
-   "body": "Beyond his standard trade, William is an old friend of Mildred Stonefield. When the young lovers Maybell Maclure and Tommy Joe Stonefield find themselves caught between their bitterly feuding farmstead families, William agrees to brew an Invisibility Liquor. Using the kelp gathered from local waters, his draft allows Maybell to slip away unnoticed and rendezvous with Tommy Joe.",
+   "body": "William is an old friend of Mildred Stonefield. When Maybell Maclure and Tommy Joe Stonefield are caught between their families' bitter feud, William agrees to brew an Invisibility Liquor. Made with kelp gathered from local waters, the brew lets Maybell slip away unseen to meet Tommy Joe.",
    "spoiler": 1
   }
  ],
@@ -34,7 +34,7 @@
     "goldshire alchemist",
     "who is pestle"
    ],
-   "answer": "William Pestle is an alchemist and apothecary living at the Lion's Pride Inn in Goldshire. Alongside his brother Morgan in Stormwind City, he gathers and prepares alchemical supplies for the kingdom."
+   "answer": "William Pestle is an alchemist who works from the Lion's Pride Inn in Goldshire. He and his brother Morgan gather and prepare supplies for the apothecary in Stormwind City."
   },
   {
    "q": "Where can William Pestle be found?",
@@ -43,7 +43,7 @@
     "where is william pestle",
     "william pestle goldshire"
    ],
-   "answer": "He is located inside the Lion's Pride Inn in Goldshire, situated in Elwynn Forest."
+   "answer": "William Pestle can be found inside the Lion's Pride Inn in Goldshire, in Elwynn Forest."
   },
   {
    "q": "What does William do with kobold candles?",
@@ -51,7 +51,7 @@
     "why does pestle want candles",
     "kobold candles use"
    ],
-   "answer": "William collects the wax candles carried by kobolds in Elwynn's mines, melting them down and refining the tallow for his alchemical mixtures and general apothecary inventory."
+   "answer": "William gathers wax candles carried by kobolds in Elwynn's mines, then melts them and refines the tallow for alchemical mixtures and the apothecary's stock."
   },
   {
    "q": "Why does William need Crystal Kelp?",
@@ -59,7 +59,7 @@
     "collecting kelp why",
     "murloc kelp use"
    ],
-   "answer": "William uses Crystal Kelp harvested from local Elwynn lakes to formulate an Invisibility Liquor, which helps Maybell Maclure sneak past her family to see Tommy Joe Stonefield."
+   "answer": "William uses Crystal Kelp from local Elwynn lakes to make an Invisibility Liquor. It helps Maybell Maclure slip past her family to meet Tommy Joe Stonefield."
   },
   {
    "q": "What is William Pestle's connection to Stormwind City?",
@@ -67,7 +67,7 @@
     "pestle stormwind",
     "william pestle apothecary shop"
    ],
-   "answer": "William and his brother Morgan run the apothecary in the Trade District of Stormwind City. William gathers ingredients in Goldshire and coordinates shipments back to the city shop."
+   "answer": "William and his brother Morgan run the apothecary in Stormwind City's Trade District. William gathers ingredients in Goldshire and sends shipments to the city shop."
   },
   {
    "q": "How is William involved with the Stonefields and Maclures?",
@@ -75,17 +75,17 @@
     "stonefield maclure pestle",
     "william pestle love quest"
    ],
-   "answer": "William is an old friend of Mildred Stonefield. He aids Tommy Joe Stonefield and Maybell Maclure by concocting a covert brew to help them bypass their families' bitter feud."
+   "answer": "William is an old friend of Mildred Stonefield. He brews a covert drink to help Tommy Joe Stonefield and Maybell Maclure get around their families' bitter feud."
   }
  ],
  "angles": [
   {
    "target": "profession:Herbalism",
-   "text": "For herbalists wandering through Goldshire, William Pestle represents the practical trade side of plant gathering, constantly turning wild growth and strange aquatic kelp into useful mixtures."
+   "text": "As an herbalist in Goldshire, you can see how plant gathering serves William's trade. He turns wild growth and strange aquatic kelp into useful mixtures."
   },
   {
    "target": "faction:Alliance",
-   "text": "William helps keep the Trade District in Stormwind supplied with vital medicines and sundries, relying on Alliance recruits passing through Goldshire to secure materials from the surrounding forest."
+   "text": "William helps supply Stormwind's Trade District with medicines and other goods. He depends on Alliance recruits passing through Goldshire to gather materials from the surrounding forest."
   }
  ],
  "keywords": [
@@ -112,5 +112,6 @@
  ],
  "attribution": [
   "William Pestle"
- ]
+ ],
+ "style": 1
 }

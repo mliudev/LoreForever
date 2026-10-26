@@ -11,11 +11,11 @@
    "quest:1844"
   ]
  },
- "summary": "A Galvanized Horn is a hardened biological growth harvested from the formidable chimaera matriarchs haunting the scorched crags of Kalimdor. Highly sought after by master armorers across both factions, this resilient specimen serves as a core material for specialized warrior armor.",
+ "summary": "In the Charred Vale, chimaera matriarchs bear horns that Stormwind and Thunder Bluff armorers seek. These hardened growths go into specialized armor for warriors.",
  "sections": [
   {
    "title": "Trophy of the Charred Vale",
-   "body": "Chimaeras are savage, twin-headed beasts known for their ferocity, but the elder matriarchs that prowl the Charred Vale in the Stonetalon Mountains bear horns forged unusually hard by ash, flame, and survival. While standard fledglings yield brittle, blackened horns, the matriarch's horn possesses a naturally tempered strength akin to treated metal. Both the dwarven armorer Furen Longbeard in Stormwind and Orm Stonehoof in Thunder Bluff covet the horn, requiring it as a test of martial valor and as a critical ingredient in crafting exceptional mail armor.",
+   "body": "Chimaera matriarchs prowl the Charred Vale in the Stonetalon Mountains. Their horns grow unusually hard through ash, flame, and survival. Lesser fledgling chimaeras yield brittle, blackened horns, but a matriarch's horn has strength like treated metal. Furen Longbeard in Stormwind and Orm Stonehoof in Thunder Bluff both seek one as a test of martial valor and a key ingredient for exceptional mail armor.",
    "spoiler": 0
   }
  ],
@@ -27,7 +27,7 @@
     "how to get galvanized horn",
     "galvanized horn drop"
    ],
-   "answer": "It is taken from chimaera matriarchs residing in the Charred Vale, located in the western reaches of the Stonetalon Mountains."
+   "answer": "A Galvanized Horn comes from a chimaera matriarch in the Charred Vale, in the western Stonetalon Mountains."
   },
   {
    "q": "Why do smiths want this specific horn?",
@@ -35,7 +35,7 @@
     "what is galvanized horn for",
     "galvanized horn use"
    ],
-   "answer": "Master armorers prize the horn for its natural density and heat-resistant properties, using it to reinforce specialized suits of mail and plate armor."
+   "answer": "Master armorers prize the horn's density and heat resistance. They use it to reinforce specialized suits of mail and plate armor."
   },
   {
    "q": "Who accepts the Galvanized Horn?",
@@ -43,7 +43,7 @@
     "who needs galvanized horn",
     "galvanized horn turn in"
    ],
-   "answer": "For Alliance warriors, Furen Longbeard in Stormwind demands the horn to forge fire-hardened armor. For Horde warriors, Orm Stonehoof in Thunder Bluff seeks it as proof of strength to fashion a warrior's helm."
+   "answer": "Furen Longbeard in Stormwind seeks the horn for fire-hardened armor for Alliance warriors. Orm Stonehoof in Thunder Bluff seeks it as proof of strength and to fashion a warrior's helm for Horde warriors."
   },
   {
    "q": "How does it differ from a regular Charred Horn?",
@@ -51,17 +51,17 @@
     "charred horn vs galvanized horn",
     "is it different from charred horn"
    ],
-   "answer": "Common charred horns are easily gathered from lesser, fledgling chimaeras. The galvanized horn comes exclusively from a mature matriarch, possessing a far denser, tempered structure suitable for masterwork smithing."
+   "answer": "Common Charred Horns come from lesser, fledgling chimaeras. A Galvanized Horn comes from a mature matriarch and has a denser, tempered structure suited to masterwork smithing."
   }
  ],
  "angles": [
   {
    "target": "class:Warrior",
-   "text": "Slaying a matriarch and securing her galvanized horn is a trial of endurance and power, proving a warrior's mettle to master armorers in Stormwind or Thunder Bluff."
+   "text": "As a warrior, slaying a matriarch and securing her Galvanized Horn tests your endurance and power. It proves your mettle to master armorers in Stormwind or Thunder Bluff."
   },
   {
    "target": "profession:Blacksmithing",
-   "text": "The horn demonstrates how organic materials hardened in extreme environments can match or exceed worked metals in custom armor reinforcement."
+   "text": "As a blacksmith, the horn shows how organic materials hardened in extreme conditions can match or exceed worked metals in custom armor reinforcement."
   }
  ],
  "keywords": [
@@ -87,5 +87,6 @@
   "Galvanized Horn",
   "Fire Hardened Mail",
   "Chimaeric Horn"
- ]
+ ],
+ "style": 1
 }

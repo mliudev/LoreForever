@@ -2,9 +2,6 @@
 -- Sources: data/i18n/ukUA. Lore text adapted from warcraft.wiki.gg (CC BY-SA 4.0); the core add-on's src fields name the articles.
 local P = LoreForeverPacks.Begin("LoreForever_Lang_ukUA")
 local Po = P.search.post
-Po["відступникирозвідник"] = "CukB"
-Po["відступникируїни"] = "I4JB"
-Po["відступникисамоцвіт"] = "A10C"
 Po["відступникисамса"] = "AojB"
 Po["відступникисаутшор"] = "BySB"
 Po["відступникисвята"] = "C3RB"
@@ -12002,3 +11999,6 @@ Po["деналанівсад"] = "Et5C"
 Po["денатаріон"] = "GWJB"
 Po["денатаріона"] = "GWBB"
 Po["дендрит"] = "AP6BAQBBAWNBAWRBAWUBAWWBAWZBAWcBAbKBAbMBA4jBB0BEB0CIB0DDB0EEB0FDB0GCB0HBB0IBB0JBB0KBB0LCDELBEzVBEzZCEzaDE1jBE1mDE1tBFJ2BFJ4CF/ABF/CDGVpCGVrHGVvFGV0BGV2HGWtBGWuCGWzCGW1BGW3BGW4CGW9CGW/BGdQBGdSCGdZBGdaBGdbCGdeDGdlBGd1BGd4DGd5DGd/BGeCDGeEBGeJBGeLFGeOBGeSBGeUCGeVBGeeBGesBGevCGe2BGfBDGfCBGfFBGfGBIn9BIn+BIoBDIoGBIpEBIpGBK94B"
+Po["дендрита"] = "AP9BAbQBA4sBB0ECB0FEB0GEB0HCB0MBDEJDDELBDETBEzXCEzaCE1lBE1mGFJ2CFJ7BF/IBGVrCGVuCGVvEGV/BGWaBGW3BGW4BGdeCGd4CGeBBGeCCGeJBGeLCIoBCIpFBIpMB"
+Po["дендритаводні"] = "EzaC"
+Po["дендритазнайти"] = "GVvC"

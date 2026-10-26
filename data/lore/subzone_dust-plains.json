@@ -7,11 +7,11 @@
  "meta": {
   "wiki": "Dust Plains"
  },
- "summary": "The Dust Plains form the dry, wind-scoured southern frontier of Westfall. Marked by arid ground and scarce scrub, the region is overrun by aggressive gnoll encampments and borders an old wizard's tower along its eastern rise.",
+ "summary": "Gnoll packs hold the Dust Plains, Westfall’s dry southern frontier. The plains stretch toward the coast and eastern hills, where Klaven’s Tower overlooks the wastes.",
  "sections": [
   {
    "title": "A Barren Frontier",
-   "body": "Stretching across southern Westfall, the Dust Plains mark the transition from troubled farmland to desolate wilderness. Unlike the plundered farmsteads to the north, this arid reach has long been surrendered to packs of feral gnolls who ambush travelers and challenge anyone venturing toward the coast or the nearby hills. On the eastern boundary sits Klaven's Tower, an old mage tower now held by the Defias rogue Klaven Mortwake, which offers no shelter from the beasts prowling the surrounding wastes.",
+   "body": "Across southern Westfall, the Dust Plains run from troubled farmland toward desolate wilderness. Feral gnolls have long claimed this arid ground, ambushing travelers and challenging anyone bound for the coast or nearby hills. Klaven’s Tower stands on the eastern boundary. The old mage tower is held by Klaven Mortwake, a Defias rogue, and offers no shelter from the gnolls prowling the surrounding wastes.",
    "spoiler": 0
   }
  ],
@@ -23,7 +23,7 @@
     "where is dust plains",
     "where dust plains"
    ],
-   "answer": "The Dust Plains occupy the southernmost portion of Westfall, lying south of the abandoned farmsteads and extending toward the cliffs and Klaven's Tower on the east."
+   "answer": "The Dust Plains lie in southern Westfall, south of the abandoned farmsteads and stretching toward the cliffs and Klaven’s Tower to the east."
   },
   {
    "q": "What threats can travelers find in the Dust Plains?",
@@ -32,7 +32,7 @@
     "dust plains enemies",
     "mobs in dust plains"
    ],
-   "answer": "The region is heavily populated by savage gnolls, who maintain crude camps throughout the dusty landscape and violently assault anyone who wanders near."
+   "answer": "Savage gnolls keep crude camps across the dusty plains and attack anyone who wanders near."
   },
   {
    "q": "What is the tower on the eastern edge of the plains?",
@@ -41,7 +41,7 @@
     "eastern tower westfall",
     "what is mortwake's tower"
    ],
-   "answer": "That is Klaven's Tower, an old mage tower that overlooks the eastern verge of the Dust Plains. It now serves as a Defias stronghold under the rogue Klaven Mortwake."
+   "answer": "Klaven’s Tower is an old mage tower overlooking the eastern edge of the Dust Plains. The Defias rogue Klaven Mortwake holds it as a stronghold."
   },
   {
    "q": "Does the People's Militia hold any control over the Dust Plains?",
@@ -49,13 +49,13 @@
     "militia dust plains",
     "is westfall guard here"
    ],
-   "answer": "No. The People's Militia is already stretched dangerously thin defending Sentinel Hill and the northern farms from the Defias Brotherhood, leaving the Dust Plains entirely in the hands of prowling gnolls."
+   "answer": "No. The People’s Militia is stretched thin defending Sentinel Hill and the northern farms from the Defias Brotherhood, leaving the Dust Plains to prowling gnolls."
   }
  ],
  "angles": [
   {
    "target": "faction:Alliance",
-   "text": "The Dust Plains represent another lawless fringe where Stormwind's neglect is starkly visible, forcing travelers and local defenders to fend off relentless gnoll packs without official reinforcement."
+   "text": "The Dust Plains are another lawless frontier where Stormwind’s neglect is plain. Travelers and local defenders must face relentless gnoll packs without official reinforcement."
   }
  ],
  "keywords": [
@@ -73,5 +73,6 @@
  ],
  "attribution": [
   "Dust Plains"
- ]
+ ],
+ "style": 1
 }

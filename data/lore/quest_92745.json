@@ -17,16 +17,16 @@
   "wiki": "The State of the Mines",
   "chain": []
  },
- "summary": "The State of the Mines is a task given by Alba Fairmoon to combat environmental contamination across Westfall. After well samples turn up toxic metals, Alba suspects the mines the Defias have seized and warns that the farmland could be ruined for decades. To stop this ecological disaster, adventurers are sent to disrupt Defias-led excavations at both Jangolode Mine and the Gold Coast Quarry.",
+ "summary": "Alba Fairmoon finds toxic metals in Westfall's wells and fears for its farmland. She suspects the mines seized by the Defias and warns the soil could fail for decades. You head to Jangolode Mine and Gold Coast Quarry to disrupt the mining.",
  "sections": [
   {
    "title": "Poisoning the Land",
-   "body": "Westfall was once the primary breadbasket of Stormwind, but recent water samples retrieved from local wells reveal dangerous levels of toxic metals. Alba Fairmoon's first suspicion falls on the mines the Defias Brotherhood has seized across the region. If this pollution continues unchecked, the surrounding earth will be rendered barren and unable to sustain crops for decades to come.",
+   "body": "Alba Fairmoon finds dangerous levels of toxic metals in Westfall's wells. Once Stormwind's main breadbasket, the region now faces a threat to its crops. Alba suspects the mines seized by the Defias Brotherhood are poisoning the water. If the contamination continues, the surrounding earth could lie barren for decades.",
    "spoiler": 0
   },
   {
    "title": "Forced and Enlisted Labor",
-   "body": "Rather than relying solely on their own highwaymen, the Defias use local creature populations as labor to strip Westfall of its natural wealth. Riverpaw gnolls are set to backbreaking work digging out stone and mineral veins at the Gold Coast Quarry, while kobold diggers are put to work tunneling into the depths of the Jangolode Mine. Cutting down their workforce strikes directly at their ability to process and distribute contaminated minerals.",
+   "body": "The Defias put local creatures to work alongside their highwaymen, stripping Westfall of its resources. Riverpaw gnolls dig for stone and minerals at Gold Coast Quarry, while kobold diggers tunnel through Jangolode Mine. Disrupting their labor weakens the Defias' ability to process and distribute contaminated minerals.",
    "spoiler": 0
   }
  ],
@@ -38,7 +38,7 @@
     "westfall mine pollution",
     "toxic runoff westfall"
    ],
-   "answer": "The well samples showed toxic metals in Westfall's groundwater, and Alba Fairmoon suspects the mines the Defias Brotherhood has seized and is stripping with creature labor. Disrupting their miners is her first move against the corruption."
+   "answer": "Alba Fairmoon suspects the mines seized by the Defias Brotherhood are contaminating Westfall's groundwater with toxic metals. She wants to disrupt their miners to stop the pollution."
   },
   {
    "q": "Who is behind the mining operations in Westfall?",
@@ -47,7 +47,7 @@
     "who controls westfall mines",
     "defias mining"
    ],
-   "answer": "The Defias Brotherhood controls the operations. They have seized former kingdom infrastructure and organized subservient creatures\u2014specifically Riverpaw gnolls and kobolds\u2014to handle the dangerous manual labor of extracting minerals."
+   "answer": "The Defias Brotherhood controls Westfall's mining operations. They have seized former kingdom infrastructure and set Riverpaw gnolls and kobolds to extract minerals."
   },
   {
    "q": "Where are the Riverpaw gnolls and kobolds working?",
@@ -56,7 +56,7 @@
     "gold coast quarry location",
     "jangolode mine location"
    ],
-   "answer": "Riverpaw gnolls operate as miners out in the Gold Coast Quarry along the western shores, while kobold diggers are stationed inside the Jangolode Mine to the north."
+   "answer": "Riverpaw gnolls work at Gold Coast Quarry along Westfall's western shores, while kobold diggers work inside Jangolode Mine to the north."
   },
   {
    "q": "Who is Alba Fairmoon?",
@@ -65,7 +65,7 @@
     "alba fairmoon lore",
     "quest giver"
    ],
-   "answer": "Alba Fairmoon is a concerned investigator and ally in Westfall who tests local water supplies and seeks to prevent the long-term devastation of the region's agricultural landscape."
+   "answer": "Alba Fairmoon investigates Westfall's water and seeks to protect the region's farmland from lasting damage."
   },
   {
    "q": "Why are gnolls and kobolds working for the Defias?",
@@ -73,7 +73,7 @@
     "why defias hire gnolls",
     "kobolds working for defias"
    ],
-   "answer": "The Defias use these creatures as labor to strip resources from the seized mines. Alba does not say how the workers were recruited."
+   "answer": "The Defias use gnolls and kobolds as labor in the seized mines. Alba does not say how the workers were recruited."
   },
   {
    "q": "Can the land in Westfall recover from this contamination?",
@@ -81,21 +81,21 @@
     "will westfall soil heal",
     "can crops grow again"
    ],
-   "answer": "According to Alba Fairmoon, the soil can recover only if the source of the toxicity is severed quickly. If the mining continues uninterrupted, the earth will remain infertile and blighted for decades."
+   "answer": "Alba Fairmoon says the soil can recover if the source of the toxicity is cut off quickly. If mining continues, the earth could remain infertile and blighted for decades."
   }
  ],
  "angles": [
   {
    "target": "profession:Mining",
-   "text": "Seeing the chaotic, unrefined operations at Jangolode and the Gold Coast Quarry makes it clear that the Defias value rapid extraction far more than safety or structural integrity."
+   "text": "At Jangolode Mine and Gold Coast Quarry, the Defias extract minerals with little regard for safety or the mines' structural integrity."
   },
   {
    "target": "class:Druid",
-   "text": "The seeping metallic poisons represent an urgent ecological threat to the plains and coastal ecosystems of Westfall, requiring immediate containment."
+   "text": "As a druid, you face an urgent threat from metallic poisons seeping into Westfall's plains and coastal ecosystems."
   },
   {
    "target": "faction:Alliance",
-   "text": "Westfall is vital to feeding the population of Stormwind; allowing the Defias to ruin its arable earth threatens the entire kingdom with long-term famine."
+   "text": "As an Alliance member, you know Westfall helps feed Stormwind. If the Defias ruin its farmland, the kingdom could face famine for years."
   }
  ],
  "keywords": [
@@ -117,5 +117,6 @@
  ],
  "attribution": [
   "The State of the Mines"
- ]
+ ],
+ "style": 1
 }

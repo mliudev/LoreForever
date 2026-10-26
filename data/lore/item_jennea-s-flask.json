@@ -10,16 +10,16 @@
    "quest:1861"
   ]
  },
- "summary": "Jennea's Flask is an empty vessel given to aspiring mages by the wizard Jennea Cannon in the Mage Quarter of Stormwind. It is used to collect a water sample from Mirror Lake to study disturbances in the local ley lines.",
+ "summary": "At the Wizard's Sanctum in Stormwind, Jennea Cannon sends apprentices to Mirror Lake for water. They bring the sample back for arcane analysis.",
  "sections": [
   {
    "title": "A Vessel for Arcane Research",
-   "body": "Following the cataclysmic magical struggles across Azeroth, the natural flow of arcane currents has torn loose from its ancient channels. In Stormwind, Jennea Cannon seeks to understand how deeply these mystical shifts have affected Elwynn Forest. She provides this simple glass flask to promising apprentices, sending them southwest of the capital's gates to draw fresh water from the base of the waterfall at Mirror Lake. Once filled, the container protects the delicate sample so it can be brought back to the Wizard's Sanctum intact for arcane analysis.",
+   "body": "After magical struggles across Azeroth, arcane currents have torn loose from their ancient channels. Jennea Cannon seeks to learn how these shifts have affected Elwynn Forest. She gives promising apprentices a glass flask and sends them southwest of Stormwind's gates to the base of Mirror Lake's waterfall. The flask protects the water sample on the journey back to the Wizard's Sanctum, where it can be examined for arcane disturbances.",
    "spoiler": 0
   },
   {
    "title": "Guarding the Waters",
-   "body": "The primary concern driving the use of the flask is public safety. If fluctuating ley lines begin to seep magical taint into Mirror Lake, the surrounding ecosystem and anyone drinking from its waters could suffer strange or harmful afflictions. Collecting a pristine sample in Jennea's flask allows the mages of Stormwind to detect invisible magical residue before tainted currents can spread undetected throughout the countryside.",
+   "body": "Jennea's flask lets Stormwind's mages check whether shifting ley lines have tainted Mirror Lake. If the water carries harmful magic, the surrounding life and anyone who drinks from it could suffer strange afflictions. A sample can reveal magical residue before tainted currents spread through the countryside.",
    "spoiler": 0
   }
  ],
@@ -31,7 +31,7 @@
     "what does the flask do",
     "use of flask"
    ],
-   "answer": "It is an empty container given to you to gather a water sample from the waterfall at Mirror Lake in Elwynn Forest."
+   "answer": "You use Jennea's Flask to gather water from the waterfall at Mirror Lake in Elwynn Forest."
   },
   {
    "q": "Who gives you this flask?",
@@ -39,7 +39,7 @@
     "who gives flask",
     "jennea flask source"
    ],
-   "answer": "It is provided by Jennea Cannon, a mage trainer stationed inside the Wizard's Sanctum in Stormwind City."
+   "answer": "Jennea Cannon, a mage trainer in Stormwind City's Wizard's Sanctum, gives you the flask."
   },
   {
    "q": "Why does Jennea want water from Mirror Lake?",
@@ -47,7 +47,7 @@
     "why mirror lake water",
     "why water sample"
    ],
-   "answer": "Recent mystical conflicts have disrupted the flow of magic across the world. Jennea fears these stray currents are seeping into Elwynn's natural waters, which could endanger anyone who drinks from the lake."
+   "answer": "Recent mystical conflicts have disrupted the flow of magic across the world. Jennea fears stray currents may be seeping into Elwynn's waters and endangering anyone who drinks from the lake."
   },
   {
    "q": "Where do you fill the flask?",
@@ -56,13 +56,13 @@
     "flask location",
     "lake location"
    ],
-   "answer": "You must carry the flask to the base of the waterfall spilling into Mirror Lake, located southwest of the main gates of Stormwind in Elwynn Forest."
+   "answer": "Fill the flask at the base of the waterfall that flows into Mirror Lake, southwest of Stormwind's main gates in Elwynn Forest."
   }
  ],
  "angles": [
   {
    "target": "class:Mage",
-   "text": "For novitiate mages, carrying this flask represents one of your first field tasks for the Wizard's Sanctum, proving you can handle delicate arcane research and monitor ley line stability."
+   "text": "As a mage, carrying this flask is one of your first field tasks for the Wizard's Sanctum. It tests your ability to handle delicate arcane research and watch for changes in ley lines."
   }
  ],
  "keywords": [
@@ -86,5 +86,6 @@
  "attribution": [
   "Jennea's Flask",
   "Mirror Lake (quest)"
- ]
+ ],
+ "style": 1
 }

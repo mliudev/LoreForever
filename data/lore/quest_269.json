@@ -17,16 +17,16 @@
   "wiki": "Seeking Wisdom",
   "chain": []
  },
- "summary": "Seeking Wisdom is an Alliance errand carrying Jitters' Completed Journal from the embattled camps of Duskwood into the safety of Stormwind City. Sven Yorgen sends adventurers to consult Bishop Farthing at the Cathedral of Light, hoping holy counsel will reveal how to destroy the shielded necromancer Morbent Fel.",
+ "summary": "In Stormwind, Sven Yorgen seeks holy counsel for Duskwood. He sends Jitters' Completed Journal to Bishop Farthing at the Cathedral of Light, hoping the bishop can reveal how to destroy Morbent Fel's shield.",
  "sections": [
   {
    "title": "A Plea from the Shadows",
-   "body": "Duskwood suffers under lingering curses, ravenous undead, and the growing indifference of Stormwind's royal court. Sven Yorgen, a broken-hearted survivor camping near the borders, knows ordinary strength cannot pierce the dark wards of the necromancer Morbent Fel. Armed with the assembled diary of the vagrant Jitters, Sven urges traveling heroes to petition the church rather than the crown, sending them north along the road to the Cathedral of Light.",
+   "body": "Duskwood suffers beneath lingering curses and ravenous undead, while Stormwind's royal court grows indifferent. Sven Yorgen, a broken-hearted survivor at a camp near the borders, knows ordinary strength cannot pierce Morbent Fel's dark wards. With Jitters' assembled journal, Sven asks you to seek the church's counsel. The road north leads to the Cathedral of Light.",
    "spoiler": 0
   },
   {
    "title": "Counsel in the Cathedral",
-   "body": "In the grand halls of Stormwind's Cathedral, Bishop Farthing represents one of the few authorities still willing to listen to Duskwood's cries for aid. Reviewing Jitters' harrowing account, the bishop confirms the dread power of Morbent Fel. The necromancer shields himself with vile sorcery that deflects standard blows, meaning unguided courage alone will only lead to slaughter. To vanquish the fiend, an enchanted holy instrument must be recovered.",
+   "body": "Bishop Farthing hears Duskwood's pleas at Stormwind's Cathedral. Jitters' account confirms Morbent Fel's dread power: vile sorcery shields the necromancer from ordinary blows. Courage alone cannot overcome those wards. To defeat him, an enchanted holy instrument must be found.",
    "spoiler": 1
   }
  ],
@@ -38,7 +38,7 @@
     "why not stormwind nobles",
     "stormwind ignored duskwood"
    ],
-   "answer": "Stormwind's nobility and army have largely abandoned Darkshire and the surrounding lands to fend for themselves amid political paralysis. Sven knows official channels will produce no soldiers, but he trusts Bishop Farthing as a compassionate, learned man of the Holy Light who understands foul magics."
+   "answer": "Sven trusts Bishop Farthing, a compassionate and learned man of the Holy Light who understands foul magic. Stormwind's nobility and army have largely left Darkshire and the surrounding lands to fend for themselves amid political paralysis, so Sven expects no soldiers from official channels."
   },
   {
    "q": "What is Jitters' journal and why does the Bishop need it?",
@@ -47,7 +47,7 @@
     "why jitters journal",
     "jitters completed journal"
    ],
-   "answer": "Jitters recorded the events surrounding the attack on Sven's farm. Sven sends the completed account to Bishop Farthing so the bishop can advise the adventurer preparing to face Morbent Fel."
+   "answer": "Jitters recorded what happened around the attack on Sven's farm. Sven sends the completed account to Bishop Farthing so he can advise the adventurer preparing to face Morbent Fel."
   },
   {
    "q": "Who is Morbent Fel?",
@@ -55,7 +55,7 @@
     "who is morbent fel",
     "morbent fel lore"
    ],
-   "answer": "Morbent Fel is a powerful necromancer who has been seen at the Forlorn Rowe in Duskwood. He commands hordes of skeletal minions and shields his physical form with potent warding enchantments, making him impervious to normal weapons."
+   "answer": "Morbent Fel is a powerful necromancer seen at the Forlorn Rowe in Duskwood. He commands hordes of skeletal minions and shields himself with potent wards that turn aside normal weapons."
   },
   {
    "q": "Where is Bishop Farthing located?",
@@ -64,7 +64,7 @@
     "farthing location",
     "bishop farthing map"
    ],
-   "answer": "Bishop Farthing resides inside the Cathedral of Light, the grand human cathedral dominating the Cathedral Square district within Stormwind City."
+   "answer": "Bishop Farthing resides in the Cathedral of Light, the grand human cathedral in Stormwind City's Cathedral Square district."
   },
   {
    "q": "What happens after Bishop Farthing reads the journal?",
@@ -73,7 +73,7 @@
     "seeking wisdom followup",
     "after seeking wisdom"
    ],
-   "answer": "Bishop Farthing explains that Morbent Fel cannot be harmed by conventional strikes. He points adventurers toward uncovering a sanctified relic capable of dispelling the necromancer's magical wards, leading into the search for the Doomed Fleet."
+   "answer": "Bishop Farthing explains that ordinary blows cannot harm Morbent Fel. He points you toward a sanctified relic that can dispel the necromancer's wards, beginning the search for the Doomed Fleet."
   },
   {
    "q": "Where does Sven Yorgen stay in Duskwood?",
@@ -82,21 +82,21 @@
     "sven yorgen location",
     "sven's camp"
    ],
-   "answer": "Sven Yorgen shelters in a small camp in northwestern Duskwood, tucked near the river border south of Elwynn Forest and west of the haunted Raven Hill Cemetery."
+   "answer": "Sven Yorgen shelters at a small camp in northwestern Duskwood, near the river border, south of Elwynn Forest and west of the haunted Raven Hill Cemetery."
   }
  ],
  "angles": [
   {
    "target": "class:Paladin",
-   "text": "Carrying pleas for holy intervention from the abandoned borderlands to the heart of the Cathedral of Light directly tests the Silver Hand's duty to protect the forgotten and purge necromancy."
+   "text": "As a paladin, carrying pleas for holy aid from the abandoned borderlands to the Cathedral of Light tests the Silver Hand's duty to protect the forgotten and purge necromancy."
   },
   {
    "target": "class:Priest",
-   "text": "Bishop Farthing offers clerical guidance on how dark wards corrupt the soul and body, showing that shadow sorcery cannot simply be fought with blade, but with focused sanctification."
+   "text": "As a priest, Bishop Farthing offers guidance on how dark wards corrupt body and soul. Shadow sorcery calls for focused sanctification as well as the blade."
   },
   {
    "target": "faction:Alliance",
-   "text": "The journey underscores the bitter political divide between the guarded marble halls of Stormwind City and the forsaken towns of Duskwood that receive no garrison support."
+   "text": "As an Alliance traveler, the journey reveals the divide between Stormwind City's guarded marble halls and Duskwood's forsaken towns, which receive no garrison support."
   }
  ],
  "keywords": [
@@ -122,5 +122,6 @@
  ],
  "attribution": [
   "Seeking Wisdom"
- ]
+ ],
+ "style": 1
 }

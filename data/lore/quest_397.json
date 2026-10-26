@@ -21,16 +21,16 @@
    "You Have Served Us Well"
   ]
  },
- "summary": "You Have Served Us Well marks the conclusion of the clandestine scheme to silence Lord Wishock in Stormwind City. Having successfully delivered a lethal, customized brew to the meddling nobleman, warlock practitioners report back to Zardeth of the Black Claw to secure their reward and guarantee the cabal's continued secrecy.",
+ "summary": "The warlocks of Stormwind have secured their refuge beneath the Slaughtered Lamb. Practitioners report to Zardeth of the Black Claw, whose cabal has kept the city guard and curious nobles at bay.",
  "sections": [
   {
    "title": "A Silence Bought in Shadows",
-   "body": "Beneath the surface of Stormwind, practitioners of the dark arts operate under precarious tolerance. When noble authorities such as Lord Wishock threaten to expose or disrupt their covert studies, the coven acts decisively. By orchestrating Wishock's demise through a tainted draught, the warlocks preserve their hidden redoubt beneath the Slaughtered Lamb.",
+   "body": "Stormwind's warlocks practice their dark arts beneath the Slaughtered Lamb, where the authorities have so far tolerated them. Lord Wishock threatens to expose or disrupt their hidden studies. The coven answers with a tainted draught that brings about his death, preserving its refuge beneath the inn.",
    "spoiler": 0
   },
   {
    "title": "The Master's Boon",
-   "body": "Upon receiving news that Wishock partook of his final drink, Zardeth of the Black Claw considers the immediate threat averted. As recompense for keeping the city guard and inquisitive peers at bay, Zardeth entrusts his sniveling servant, an imp named Zggi, with bestowing a dark token of gratitude upon the loyal practitioner.",
+   "body": "Zardeth of the Black Claw hears that Lord Wishock has taken his final drink and judges the danger past. To thank the loyal practitioner for keeping the city guard and curious peers at bay, Zardeth sends his sniveling imp servant, Zggi, to bestow a dark token of gratitude.",
    "spoiler": 1
   }
  ],
@@ -42,7 +42,7 @@
     "zardeth role",
     "black claw leader"
    ],
-   "answer": "Zardeth of the Black Claw is a prominent warlock operating secretly out of Stormwind City. He works to safeguard the city's hidden dark casters from discovery by local nobility, utilizing ruthless measures to eliminate any who pry too closely into their forbidden craft."
+   "answer": "Zardeth of the Black Claw is a prominent warlock who secretly operates in Stormwind City. He protects the city's hidden dark casters from discovery by local nobles, using ruthless measures against anyone who investigates their forbidden craft."
   },
   {
    "q": "What happened to Lord Wishock?",
@@ -51,7 +51,7 @@
     "what was the brew for",
     "lord wishock fate"
    ],
-   "answer": "Lord Wishock was fed a specially prepared toxic brew concocted by Stormwind's hidden warlocks. His elimination ensures that the noble house will no longer investigate or disturb the dark practitioners conducting rituals beneath the city streets."
+   "answer": "Lord Wishock was given a specially prepared toxic brew by Stormwind's hidden warlocks. With him dead, his noble house will no longer investigate or disturb the practitioners beneath the city streets."
   },
   {
    "q": "Who is Zggi?",
@@ -59,7 +59,7 @@
     "who is the imp zggi",
     "zggi servant"
    ],
-   "answer": "Zggi is an imp bound in service to Zardeth of the Black Claw. Grudging and covetous, Zggi longs to hoard the master's treasures for himself, but dreads the punishment that would follow any open defiance of Zardeth's commands."
+   "answer": "Zggi is an imp bound to serve Zardeth of the Black Claw. Grudging and covetous, Zggi wants to keep the master's treasures, but fears the punishment that would follow open defiance of Zardeth's orders."
   },
   {
    "q": "Why was Lord Wishock targeted by the warlocks?",
@@ -67,7 +67,7 @@
     "why kill wishock",
     "wishock threat"
    ],
-   "answer": "Wishock posed an active threat of disturbance and exposure to Stormwind's warlock coven. By ending his interference, the warlocks bought uninterrupted safety to pursue demonology and shadow magic unhindered by the nobility."
+   "answer": "The warlocks targeted Wishock because he threatened to disturb and expose Stormwind's coven. They killed him to protect their work in demonology and shadow magic from interference by the nobility."
   },
   {
    "q": "Where does this quest chain conclude?",
@@ -75,7 +75,7 @@
     "where do i turn in you have served us well",
     "zggi location"
    ],
-   "answer": "The quest concludes directly with the imp Zggi, situated near Zardeth of the Black Claw in the warlock sanctum beneath the Slaughtered Lamb in Stormwind's Mage Quarter."
+   "answer": "The chain ends with Zggi, near Zardeth of the Black Claw in the warlock sanctum beneath the Slaughtered Lamb in Stormwind's Mage Quarter."
   },
   {
    "q": "Why is this task restricted strictly to warlocks?",
@@ -83,17 +83,17 @@
     "is this warlock only",
     "why warlock quest"
    ],
-   "answer": "The operation involves delicate internal cabal politics and unlawful assassination. Entrusting such lethal subterfuge only to proven warlock disciples prevents betrayal and keeps the broader Alliance authorities ignorant of the act."
+   "answer": "The operation involves cabal politics and unlawful assassination. Only proven warlock disciples are trusted with this lethal subterfuge, keeping the broader Alliance authorities unaware."
   }
  ],
  "angles": [
   {
    "target": "class:Warlock",
-   "text": "This task demonstrates the ruthless pragmatism required to survive in Stormwind: shielding your coven by eliminating nosy nobles before they turn the city guard against you."
+   "text": "As a warlock, you learn the ruthless measures Stormwind's coven uses to survive, including killing nosy nobles before they turn the city guard against it."
   },
   {
    "target": "faction:Alliance",
-   "text": "Beneath the pristine spires and pious devotion of Stormwind lies a shadowy underbelly where forbidden warlocks secretly assassinate highborn meddlers to protect their presence."
+   "text": "As an Alliance member, you live beneath Stormwind's pristine spires and pious devotion, where hidden warlocks kill highborn meddlers to protect their presence."
   }
  ],
  "keywords": [
@@ -113,5 +113,6 @@
  ],
  "attribution": [
   "You Have Served Us Well"
- ]
+ ],
+ "style": 1
 }

@@ -10,16 +10,16 @@
    "quest:38"
   ]
  },
- "summary": "Okra is a cultivated vegetable that grows in the tilled plots of Westfall. Highly prized by local homesteaders, it serves as a crucial thickening agent in the region's hearty, improvisational stews.",
+ "summary": "In Westfall, Okra grows in the plots at Saldean's Farm. Homesteaders prize the crop, and it thickens the stews that feed them.",
  "sections": [
   {
    "title": "A Staple of Saldean's Farm",
-   "body": "While much of Westfall lies fallow under the threat of Defias outlaws and rogue harvest golem attacks, stubborn farmers like the Saldeans still manage to coax hearty vegetables out of the soil. Okra grows low and green in the tilled dirt around Saldean's Farm. Despite the harsh conditions of the countryside, the crop persists, providing local homesteaders with essential bulk and nourishment when outside trade and supplies from Stormwind run completely dry.",
+   "body": "Saldean's Farm still yields vegetables while much of Westfall lies fallow under threat from Defias outlaws and rogue harvest golem attacks. Okra grows in the tilled plots around the farm. The crop persists through the harsh conditions, nourishing local homesteaders when trade and supplies from Stormwind run dry.",
    "spoiler": 0
   },
   {
    "title": "Westfall Stew",
-   "body": "Okra is best known as the indispensable base for Salma Saldean's famous Westfall Stew. Combined with whatever meat can be hunted across the dusty plains\u2014such as vulture flesh, goretusk snouts, and coastal murloc eyes\u2014the sliced pods break down under heat to thicken thin broths into a filling, restorative meal. For the struggling settlers clinging to their homesteads, fresh pods of okra turn sparse, wild scavenging into a hot, hearty supper.",
+   "body": "Salma Saldean's famous Westfall Stew depends on okra. She combines sliced pods with whatever meat settlers can hunt across the dusty plains, including vulture flesh, goretusk snouts, and coastal murloc eyes. The pods break down in the heat, thickening thin broth into a filling, restorative meal. For settlers clinging to their homesteads, fresh okra turns sparse scavenging into a hot supper.",
    "spoiler": 0
   }
  ],
@@ -31,7 +31,7 @@
     "where to find okra",
     "where does okra grow"
    ],
-   "answer": "Okra grows in the tilled crop patches at Saldean's Farm, situated along the central road of Westfall. Travelers can find the distinctive green plants thriving in the furrows near Farmer Saldean's homestead."
+   "answer": "Okra grows in the tilled plots at Saldean's Farm along Westfall's central road. The green plants thrive in furrows near Farmer Saldean's homestead."
   },
   {
    "q": "What is okra used for?",
@@ -40,7 +40,7 @@
     "what is okra for",
     "why do i need okra"
    ],
-   "answer": "Okra is gathered for Salma Saldean at Saldean's Farm to cook her signature Westfall Stew. Its natural starch thickens the broth, blending harsh ingredients like vulture meat, boar snouts, and murloc eyes into a hearty meal."
+   "answer": "Salma Saldean gathers okra at Saldean's Farm for her signature Westfall Stew. Its natural starch thickens the broth, blending vulture meat, boar snouts, and murloc eyes into a hearty meal."
   },
   {
    "q": "Why is okra important to the Saldeans?",
@@ -48,17 +48,17 @@
     "saldean okra",
     "why okra matters"
    ],
-   "answer": "With trade lines disrupted and the kingdom providing little aid, homesteaders must rely entirely on what they can grow and hunt themselves. Okra is one of the few cultivated crops remaining at Saldean's Farm, keeping the family and passing travelers fed."
+   "answer": "With trade disrupted and little aid from the kingdom, homesteaders rely on what they can grow and hunt. Okra is one of the few cultivated crops remaining at Saldean's Farm, helping feed the family and passing travelers."
   }
  ],
  "angles": [
   {
    "target": "profession:Cooking",
-   "text": "Any wandering chef knows that a good stew needs more than raw meat; okra provides the necessary starch and body to turn tough wilderness forage into a proper hot meal."
+   "text": "A wandering cook knows a good stew needs more than raw meat. Okra gives tough wilderness forage the starch and body of a hot meal."
   },
   {
    "target": "faction:Alliance",
-   "text": "While the nobles of Stormwind dine on imported meats, frontier Alliance homesteaders survive by cultivating stubborn crops like okra amid the ruins of Westfall."
+   "text": "Stormwind nobles dine on imported meats, while frontier Alliance homesteaders cultivate stubborn crops like okra amid Westfall's ruins."
   }
  ],
  "keywords": [
@@ -80,5 +80,6 @@
  "attribution": [
   "Okra",
   "Westfall Stew (Classic 2)"
- ]
+ ],
+ "style": 1
 }

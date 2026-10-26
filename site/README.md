@@ -932,56 +932,44 @@ plan, when it renews, changes or ends, "Switch to <plan>" links that open the co
   earlier open plan checkout pages, so two tabs can't start two subscriptions. A finest-voice pack is credited from
   the checkout session as Stripe returns it, not from the event's copy; an event from the other mode (test on live,
   or the reverse) is ignored, and the webhook works whenever Stripe is set up, plans on or off.
-- **The beta promo** (LOR-500, Mike, 2026-10-14: "If you sign up during the beta, you get half off or free hero for a
-  month"; then 2026-10-17: "the promise for the plans is half off for the beta period only, then full price for when
-  the full game launches"): from the moment the Willo release publishes to WoW Forever's launch. The Pages variable
-  **`LAUNCH_WEEK_START`** (an ISO date-time with its zone, e.g. `2026-10-20T18:30:00Z`) is the start: the ship step
-  sets it in Production when it publishes the release. The end is **`BETA_END`** (the same kind of date-time), or
-  `BETA_END_DEFAULT` (`2026-11-04T15:00:00-08:00`, the launch: Blizzard) when that's unset or not one (`launchWindow`
-  in `lib/billing.js`). Without a `LAUNCH_WEEK_START` there's no promo at all: no banner, no prices, no free month.
-  The launch is every plan's pay day: from it, everyone pays full price.
-  - **Hero on us, no card:** a signed-in free account's free Hero month starts the first time its plan is looked at
-    during the beta (signing in on /account or /plans, or the companion's first check; `freeHeroMonth`) and runs to
-    the launch (or `BETA_HERO_DAYS`, 30, if that's sooner). Once per Google account, ever: its `free` claim in
-    `promo_claims` (by the same one-way Google code as the starter's, kept after Delete my account) holds its start.
-    It's Hero's plan (`planFor`, `launch: true`, with `since`, `until` and `ends`, its last day in Pacific time):
-    Hero's 900 answers (one pool; `poolWindow` anchors on `until`) and 100 a day, look-ups, sight, styles, all of
-    Willo's voices on the PC and push-to-talk, none of it counted toward the free plan's month. At the launch the
-    account is on the free plan again, by itself. Its cost goes in `answer_user_spend.launch_micro`: out of the shared
-    free budget like any paid-for answer, held by Hero's cost caps on its own, and never counted against a plan the
-    player buys later. Once the promo's total passes `LAUNCH_WEEK_BRAKE_MICRO` ($300, apart from the free
-    pool), free accounts get the free plan (Hero under way stops, none starts), silently.
-  - **Buying during the beta** (`createCheckout`): the plan's months start at the launch (Checkout's
-    `subscription_data.billing_cycle_anchor`), so its first full charge is then. Until then **Keep Hero** is free
-    (`proration_behavior: none`: nothing charged before the launch), and **Champion and Legend** are half price for
-    the days left (a prorated first invoice with `BETA_HALF`, a 50%-off-once coupon, on it; Stripe takes no amount_off
-    coupon there). Every account gets the beta's prices, not once only; `metadata.launch` (`hero` or `half`) still
-    records a `promo_claims` row for /admin. `BETA_HALF` is made by `scripts/stripe-setup.mjs`, or by the site the
-    first time it's needed (`betaCoupon`; `POST /api/admin {"action": "beta-coupon"}` checks it): if Stripe has none
-    and the site's key can't make it, Champion and Legend are free until the launch instead of full price. An
-    **upgrade** during the beta is half price for the days left (the coupon on the change's invoice), and one from a
-    plan that's free until the launch (a Stripe trial) keeps it free until then; a downgrade keeps a trial a trial.
+- **Pre-orders** (LOR-835, Mike, 2026-10-25: "It's no longer the beta period, so we should remove the beta deals
+  from the subscriptions"; "Remove the beta plan and update all the plans to be full price"; the timing is Patrick's
+  LOR-760). Every plan is full price. One bought before WoW Forever's launch (`launchAt` in `lib/billing.js`:
+  **`BETA_END`**, an ISO date-time with its zone, or `BETA_END_DEFAULT`, `2026-11-04T15:00:00-08:00`: Blizzard) is
+  a pre-order (`createCheckout`): Checkout's `subscription_data.billing_cycle_anchor` at the launch with
+  `proration_behavior: none`, so the plan is the player's at once, nothing is charged until the launch, and its first
+  charge is the whole month's price; `metadata.preorder` is "1". From the launch on, a plan starts when it's bought.
+  An **upgrade** before the launch costs nothing now either (`changePlan`: no proration; a Stripe trial stays one),
+  the new plan's price from the launch; a downgrade keeps a trial a trial. A creator's code (15% off once) still comes
+  off: its first real charge is the launch's, and the creator's share counts from that payment.
+  - **The copy:** /plans' banner, /account's plan card and the home pages show `preorderText` ("Start any plan today.
+    Nothing to pay until November 4, when the game opens.", GET /api/billing/plans `launch`, with `launchEnds` the
+    launch's day) until the launch, nothing from it. The cards show the full price; `plans[].promo` is only a
+    creator's first-month discount now. The Terms' "Plans bought before the launch" says the same. The same
+    response's `compare` (`planCompare`: [{label, values: {free, hero, champion, legend}}], strings with "✓" and "—")
+    is the plans side by side for /willo's table, made from `PLANS`, `PLAN_VOICE`, `COMPANION_FEATURES` and
+    `lib/willo-custom.js` `ALLOWED`.
+  - To try it on a preview (develop), set `PROMO_NOW` (an ISO date-time) as that deployment's clock; only a test-mode
+    Stripe key reads it, so Production never does.
+  - `site/tests/stripe-pay-day.mjs` checks the pre-order, its upgrade and a creator's 15% on it against Stripe test
+    mode on test clocks.
+- **The beta promo** (LOR-500, 2026-10-14 to 10-25) is over; what's left of it runs out by itself at the launch:
+  - **Free Hero months:** a signed-in free account's month started at its first look during the beta (its `free`
+    claim in `promo_claims`, by the starter's one-way Google code) and runs to the launch (or `BETA_HERO_DAYS`, 30;
+    `freeHeroMonth`, read only now: no new one starts). It's Hero's plan (`planFor`, `launch: true`, with `since`,
+    `until` and `ends`), its cost in `answer_user_spend.launch_micro`, apart from the free budget, under
+    `LAUNCH_WEEK_BRAKE_MICRO` ($300) for all of them. `LAUNCH_WEEK_START` (when the promo started) stays set in
+    Production so these finish; at the launch the accounts are on the free plan again.
+  - **Plans bought in the beta** already start their months at the launch: Keep Hero free until then (a Stripe trial),
+    Champion and Legend half price for the days before it (`BETA_HALF`, 50% off once, paid at checkout; the coupon is
+    no longer made, and an unused coupon in Stripe does nothing). `metadata.launch` (`hero` or `half`) recorded a
+    `promo_claims` row for /admin.
   - **The plans from before the anchor** (the 11 live on 2026-10-18) were moved to the launch by `payDay`
     (`POST /api/admin {"action": "pay-day"}`, `scripts/pay-day.mjs`; a dry run unless told otherwise, once per plan):
     a Stripe trial to the launch with no proration, and with `credit`, what each had paid for days after the launch
-    went back as a Stripe balance credit off that first charge (a 50% first month credits half; a cancelled plan is
-    never charged again). `site/tests/stripe-pay-day.mjs` checks all of it against Stripe test mode on test clocks. A
-    paying plan moved so is "trialing" in Stripe until the launch and still counted as paying on /admin
-    (`entitlements.gap_from`, `planFor` `paidBefore`). The +14-day play gap tried first (`PLAY_GAP_START`/`END`) is
-    gone; those Pages variables do nothing now.
-  - **The copy:** /plans' banner and /account's plan card show `launchText` ("Half price during the beta. Full price
-    from launch, November 4.") during the beta, and the cards cross out the usual price with a tag and their terms (GET
-    /api/billing/plans `plans[].promo`: {price, label, note}: 0, "Beta: free", "until November 4, then $4.99 a month";
-    499, "Beta: half price", "until November 4, then $9.99 a month"); `launchEnds` is the launch's day. A free Hero
-    month sees "Beta: you're on Hero, free until ..."; /account says "Beta: Hero is free until ...", a trial "It's free
-    until ...", and a paid plan moved to the launch "It renews on ...". The Terms' "Beta offer" says the same. The same
-    response's `compare` (`planCompare`: [{label, values: {free, hero, champion, legend}}], strings with "✓" and "—")
-    is the plans side by side for /willo's table, made from `PLANS`, `PLAN_VOICE`, `COMPANION_FEATURES` and
-    `lib/willo-custom.js` `ALLOWED`. A finest-voice pack is for a paid plan, so not for the free Hero month.
-  - To try it on a preview (develop), set `LAUNCH_WEEK_START` (and `BETA_END`, if you like) there and `PROMO_NOW` (an
-    ISO date-time) as that deployment's clock for the promo; only a test-mode Stripe key reads `PROMO_NOW`, so
-    Production never does.
-  - Stripe Dashboard: turn on the trial-ending reminder (Settings > Billing > Subscriptions and emails > "Send a
+    went back as a Stripe balance credit off that first charge. A paying plan moved so is "trialing" in Stripe until
+    the launch and still counted as paying on /admin (`entitlements.gap_from`, `planFor` `paidBefore`).
+  - Stripe Dashboard: the trial-ending reminder stays on (Settings > Billing > Subscriptions and emails > "Send a
     reminder email 7 days before a free trial ends"), so a trial (Keep Hero, or a plan moved to the launch) never
     renews by surprise.
 - **The welcome page** (Mike, 2026-10-13; `welcomeOnce` in `lib/billing.js`): the first time an account connects the
@@ -1049,8 +1037,8 @@ plan, when it renews, changes or ends, "Switch to <plan>" links that open the co
   mode (it says LIVE MODE first, refuses a test key, and writes the webhook's secret as `STRIPE_LIVE_WEBHOOK_SECRET`,
   so the test one stays). Then in Production: `STRIPE_SECRET_KEY` (the live key), the live webhook's secret as
   `STRIPE_WEBHOOK_SECRET` or `STRIPE_LIVE_WEBHOOK_SECRET` (`verifyWebhook` reads either), `STRIPE_LIVE=1`,
-  `STRIPE_MANAGED_PAYMENTS=1` once Managed Payments is on, and `SITE_FEATURES=plans`. The ship step sets
-  `LAUNCH_WEEK_START` in Production to the moment the Willo release publishes, which starts the beta promo (to `BETA_END`).
+  `STRIPE_MANAGED_PAYMENTS=1` once Managed Payments is on, and `SITE_FEATURES=plans`. `LAUNCH_WEEK_START`
+  in Production is when the beta promo started (2026-10); it stays so the free Hero months it began run to the launch.
 - **Off by default:** without `STRIPE_SECRET_KEY` the section stays hidden, the API answers 503 (`plans` says
   `{on: false}`), and live answers use the free plan's limits.
 - /admin's **Plans** tile: paying players, the monthly revenue estimate (before Stripe's fees), accounts by plan and status, what paying players' answers cost this month, finest-voice packs sold this
@@ -1101,8 +1089,8 @@ owed at least $10, paid by hand ("Mark paid") or, once Stripe Connect is set up 
 there, by a Stripe transfer to the Express account the creator set up from their dashboard. Their audience gets 15%
 off its first month (Mike and Patrick's deal, 10/19, LOR-691): the creator's Stripe promotion code (their code in
 capitals, first payment only, made when /admin saves the creator) comes off at checkout for someone their link
-brought, and anyone may type it there, which makes that subscriber the creator's too. Not with a beta offer (Checkout
-takes one discount). Creators saved before keep their own terms; /admin edits them. Gift answers only when /admin
+brought, and anyone may type it there, which makes that subscriber the creator's too. On a pre-order it comes off the
+launch's charge. Creators saved before keep their own terms; /admin edits them. Gift answers only when /admin
 gives that creator some.
 
 - Endpoints: `GET /api/share/mine`, `POST /api/share/new`, `GET /api/share/info?code=`

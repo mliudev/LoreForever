@@ -20,16 +20,16 @@
    "The Jasperlode Mine"
   ]
  },
- "summary": "Marshal Dughan of Goldshire tasks scouts with investigating reports that the Fargodeep Mine has been overrun by kobolds. Located south of town between the Stonefield and Maclure farms, the mine's fall signals a growing pest problem throughout Elwynn Forest.",
+ "summary": "Kobolds have overrun The Fargodeep Mine south of Goldshire, between the Stonefield and Maclure farms. The mine's fall points to a growing pest problem across Elwynn Forest.",
  "sections": [
   {
    "title": "Trouble South of Goldshire",
-   "body": "While Northshire Valley dealt with its own vermin, troubling reports reached Goldshire that kobolds had claimed another vital site. The Fargodeep Mine, nestled between the feuding Stonefield and Maclure homesteads south of town, was once a source of stone and ore for the realm. Now, shrill chattering and the flicker of tallow candles fill the damp tunnels, prompting Marshal Dughan to dispatch adventurers to scout the depths and confirm the worst.",
+   "body": "While Northshire Valley faces its own vermin, reports reach Goldshire that kobolds have claimed another vital site. Between the feuding Stonefield and Maclure homesteads south of town, the Fargodeep Mine once supplied stone and ore for the realm. Now shrill chattering and tallow candles fill its damp tunnels. Marshal Dughan sends you to scout the depths and learn how bad the trouble is.",
    "spoiler": 0
   },
   {
    "title": "A Strained Guard",
-   "body": "Confirming the infestation only deepens the headaches of the Stormwind Guard. With regular troops stretched thin defending against Defias bandits and gnoll incursions, the guard lacks the manpower to clear the mine outright. Dughan's grim reaction upon receiving confirmation highlights the creeping loss of control in the heartland, leading him to immediately worry about other mineral sites like the Jasperlode Mine to the northeast.",
+   "body": "The report of kobolds in the mine adds to the Stormwind Guard's strain. Its troops are already stretched thin defending against Defias bandits and gnoll incursions, leaving too few to clear the tunnels. When Dughan hears the report, he worries about other mineral sites, including the Jasperlode Mine to the northeast.",
    "spoiler": 0
   }
  ],
@@ -41,7 +41,7 @@
     "where is fargodeep mine",
     "fargodeep mine map"
    ],
-   "answer": "Fargodeep Mine sits almost due south of Goldshire in Elwynn Forest, tucked right between the Stonefield and Maclure homesteads."
+   "answer": "The Fargodeep Mine lies almost due south of Goldshire in Elwynn Forest, between the Stonefield and Maclure homesteads."
   },
   {
    "q": "Who sends you to scout the Fargodeep Mine?",
@@ -49,7 +49,7 @@
     "who gives fargodeep quest",
     "marshal dughan quest"
    ],
-   "answer": "Marshal Dughan, the commanding officer of the Stormwind Guard stationed in Goldshire, hands out the assignment to scout the tunnels."
+   "answer": "Marshal Dughan, the Stormwind Guard's commanding officer in Goldshire, sends you to scout the tunnels."
   },
   {
    "q": "What creatures have taken over the mine?",
@@ -57,7 +57,7 @@
     "who is in fargodeep",
     "what monsters in fargodeep"
    ],
-   "answer": "The mine has been completely overrun by kobolds, who have dug in, lit their candles, and displaced the human workers."
+   "answer": "Kobolds have overrun the mine, lit their candles, and driven out the human workers."
   },
   {
    "q": "Why does Marshal Dughan need adventurers to check the mine?",
@@ -65,7 +65,7 @@
     "why send scouts",
     "why doesn't the guard go"
    ],
-   "answer": "The Stormwind Guard is already stretched thin dealing with local banditry, orc remnants, and gnoll raids, leaving Dughan without the spare soldiers needed even to confirm routine scout reports."
+   "answer": "The Stormwind Guard is stretched thin by local banditry, orc remnants, and gnoll raids, leaving Dughan without spare soldiers even to confirm scout reports."
   },
   {
    "q": "What happens after scouting the Fargodeep Mine?",
@@ -73,7 +73,7 @@
     "next quest after fargodeep",
     "what comes next"
    ],
-   "answer": "Once you report the bad news to Marshal Dughan, he fears the problem is widespread and sends you northeast to investigate the Jasperlode Mine as well."
+   "answer": "After you report the trouble to Marshal Dughan, he fears it is widespread and sends you northeast to investigate the Jasperlode Mine."
   },
   {
    "q": "Why is the infestation of Fargodeep Mine significant?",
@@ -81,17 +81,17 @@
     "why does fargodeep matter",
     "lore of fargodeep mine"
    ],
-   "answer": "The fall of Fargodeep proves that the kobold infestation in Northshire was not an isolated event. It shows how rapidly wild threats are encroaching on settled farmland right outside Stormwind's gates."
+   "answer": "The fall of the Fargodeep Mine shows that the kobold infestation in Northshire was not isolated. Wild threats are pressing rapidly into settled farmland just outside Stormwind's gates."
   }
  ],
  "angles": [
   {
    "target": "profession:Mining",
-   "text": "The rich copper veins inside Fargodeep Mine are vital for early smiths, but working them requires cutting through territorial kobolds."
+   "text": "As a miner, you can find rich copper veins inside the Fargodeep Mine, but territorial kobolds stand in your way."
   },
   {
    "target": "faction:Alliance",
-   "text": "The overrun mine is another clear sign of Stormwind's failing authority in Elwynn, as the local guard struggles to protect essential infrastructure."
+   "text": "As an Alliance member, you see the overrun mine as another sign that Stormwind struggles to protect Elwynn's essential sites."
   }
  ],
  "keywords": [
@@ -115,5 +115,6 @@
  ],
  "attribution": [
   "The Fargodeep Mine"
- ]
+ ],
+ "style": 1
 }

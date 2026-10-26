@@ -2,8 +2,6 @@
 -- Sources: data/i18n/ruRU. Lore text adapted from warcraft.wiki.gg (CC BY-SA 4.0); the core add-on's src fields name the articles.
 local P = LoreForeverPacks.Begin("LoreForever_Lang_ruRU")
 local Po = P.search.post
-Po["ведающие"] = "GCZB"
-Po["ведающий"] = "CcvBFFgBFWRBGKuBGj6BGnEB"
 Po["ведающим"] = "DA2B"
 Po["ведающими"] = "Hm9B"
 Po["ведая"] = "I9ZB"
@@ -12002,3 +12000,5 @@ Po["гаваньвласть"] = "GdQB"
 Po["гаваньгород"] = "K93C"
 Po["гаваньгромовой"] = "EzVB"
 Po["гаванькенария"] = "Kg/C"
+Po["гаванькуда"] = "EzXB"
+Po["гаваньменетил"] = "Ik5BJqCB"

@@ -30,7 +30,7 @@ import { actionIsUncertain } from "./dashboard-action.js";
 // or /admin adds one; each gets a readable link (/w/ziqo) tied to their own account, which opens their dashboard on
 // /creators (creatorDashboard). They earn share_pct% (CREATOR_DEFAULTS: 60) of what each subscriber they brought pays
 // in their first paid month (months: 1), without tax (notePayment); later months are ours. A first month is the first
-// invoice for a whole month (a beta checkout's few half-price days before it count too, and so does an upgrade within
+// invoice for a whole month (a pre-order's is the launch's; a beta checkout's few half-price days before it count too, and so does an upgrade within
 // it). Each paid invoice is a row in creator_earnings, payable PAYOUTS.holdDays after it was paid; a refund or a
 // dispute of it takes it back (reverseCommission), from the next payout if it was paid out already. Once a month the
 // payout list (payoutList) has every creator owed at least PAYOUTS.minimumCents: /admin pays them by hand ("Mark paid")
@@ -665,8 +665,8 @@ export async function creatorFor(env, userId) {
 }
 
 // /plans' cards (functions/api/billing/[action].js): a creator's first-month discount on each paid plan that has no
-// beta offer for this player (offers: lib/billing.js launchOffers'), while the account hasn't had it. The same shape as
-// a beta offer: {price, label, note}. None unless /admin gave the creator a discount.
+// other offer for this player (offers), while the account hasn't had it: {price, label, note}. None unless /admin gave
+// the creator a discount.
 export async function creatorOffers(env, userId, offers = {}) {
   const creator = userId ? await creatorFor(env, userId) : null;
   if (!creator?.promoId || !(creator.discount > 0) || await promoClaimed(env, userId, "creator")) return {};

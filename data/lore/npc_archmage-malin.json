@@ -8,16 +8,16 @@
   "wiki": "Archmage Malin",
   "refs": 1
  },
- "summary": "Archmage Malin is a senior human wizard stationed just outside the Wizard's Sanctum in Stormwind City's Mage Quarter. A former pupil of Archmage Trelane, Malin coordinates arcane affairs and field operatives dispatched to recover magical artifacts and rare reagents across the Eastern Kingdoms.",
+ "summary": "Outside the Wizard's Sanctum in Stormwind City, Archmage Malin directs arcane affairs. A former pupil of Archmage Trelane, he coordinates field agents seeking magical artifacts and rare reagents across the Eastern Kingdoms.",
  "sections": [
   {
    "title": "Watcher of the Wizard's Sanctum",
-   "body": "Standing sentinel beneath the towering spiral of the Wizard's Sanctum, Archmage Malin serves as a central point of contact for the arcane practitioners of Stormwind. He learned his craft under the tutelage of Archmage Trelane, a storied mage whose scattered legacy Malin now strives to protect. While younger acolytes study theory within the tower's swirling blue portals, Malin keeps his focus trained outward on matters across the realm that demand magical oversight.",
+   "body": "Archmage Malin is the central contact for Stormwind's arcane practitioners, stationed beneath the Wizard's Sanctum in the Mage Quarter. He learned magic under Archmage Trelane, and now works to protect the scattered legacy of his former master. While acolytes study inside the tower, Malin watches over matters across the realm that need magical oversight.",
    "spoiler": 0
   },
   {
    "title": "Eyes in the Highlands",
-   "body": "Much of Malin's attention is directed north to the perilous ruins of the Arathi Highlands. To recover Archmage Trelane's lost possessions and secure delicate spell components, Malin dispatched his trusted associates, Skuerto and Apprentice Kryten, into the field. Coordinating these distant operations from the capital, Malin relies on capable Alliance travelers to carry instructions, supplies, and intelligence to his agents operating in hostile territory.",
+   "body": "Archmage Malin directs much of his attention north, to the perilous ruins of the Arathi Highlands. He sent his trusted associates, Skuerto and Apprentice Kryten, to recover Archmage Trelane's lost possessions and secure delicate spell components. From the capital, Malin coordinates their work and relies on capable Alliance travelers to carry instructions, supplies, and intelligence to his agents in hostile territory.",
    "spoiler": 0
   }
  ],
@@ -29,7 +29,7 @@
     "who is malin",
     "malin stormwind"
    ],
-   "answer": "Archmage Malin is a high-ranking human mage of Stormwind City. Positioned outside the entrance to the Wizard's Sanctum in the Mage Quarter, he oversees research initiatives, dispatches field apprentices, and helps maintain order among the capital's magical practitioners."
+   "answer": "Archmage Malin is a high-ranking human mage in Stormwind City. Outside the Wizard's Sanctum in the Mage Quarter, he oversees research, dispatches field apprentices, and helps maintain order among the capital's magical practitioners."
   },
   {
    "q": "What is Malin's connection to Archmage Trelane?",
@@ -38,7 +38,7 @@
     "who was malin master",
     "archmage trelane connection"
    ],
-   "answer": "Archmage Trelane was Malin's original master and mentor. Malin retains deep loyalty to Trelane, actively coordinating efforts to locate and recover his former master's personal belongings and magical relics scattered across the Arathi Highlands."
+   "answer": "Archmage Trelane was Archmage Malin's master and mentor. Malin remains deeply loyal to Trelane and coordinates efforts to find and recover his former master's belongings and magical relics in the Arathi Highlands."
   },
   {
    "q": "Why does Malin send adventurers to the Arathi Highlands?",
@@ -47,7 +47,7 @@
     "why arathi",
     "skuerto quest"
    ],
-   "answer": "Malin has two agents stationed in the Arathi Highlands: Skuerto and Apprentice Kryten. Because the journey is dangerous and communication difficult, Malin enlists traveling adventurers to reach his field operatives with vital requests, magical supplies, and instructions regarding the recovery of Trelane's artifacts."
+   "answer": "Archmage Malin sends travelers to reach his agents, Skuerto and Apprentice Kryten, in the Arathi Highlands. The journey is dangerous and communication is difficult, so he needs them to carry requests, magical supplies, and instructions for recovering Trelane's artifacts."
   },
   {
    "q": "Where can Archmage Malin be found?",
@@ -56,17 +56,17 @@
     "archmage malin location",
     "malin map"
    ],
-   "answer": "He stands outside the base of the Wizard's Sanctum tower, at the heart of the Mage Quarter in Stormwind City, overlooking the ramps that lead up into the sanctum's portal chamber."
+   "answer": "Archmage Malin stands outside the Wizard's Sanctum entrance at the tower's base, in Stormwind City's Mage Quarter. From there, he overlooks the ramps leading up to the sanctum's portal chamber."
   }
  ],
  "angles": [
   {
    "target": "class:Mage",
-   "text": "For Alliance mages visiting the Wizard's Sanctum, Malin represents the bridge between formal academy study in Stormwind and the hazardous realities of recovering lost relics in the wild."
+   "text": "As an Alliance mage visiting the Wizard's Sanctum, you see Malin connect formal study in Stormwind with the hazards of recovering lost relics in the wild."
   },
   {
    "target": "faction:Alliance",
-   "text": "Malin's operatives in Arathi work to secure powerful artifacts before they can fall into the hands of the Syndicate, the Boulderfist ogres, or the Horde."
+   "text": "As an Alliance traveler, you know Malin's operatives in Arathi seek powerful artifacts before they fall into the hands of the Syndicate, the Boulderfist ogres, or the Horde."
   }
  ],
  "keywords": [
@@ -92,5 +92,6 @@
  ],
  "attribution": [
   "Archmage Malin"
- ]
+ ],
+ "style": 1
 }

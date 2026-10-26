@@ -17,16 +17,16 @@
   "wiki": "The Missing Diplomat (3)",
   "chain": []
  },
- "summary": "This errand directs investigators from Jorgen in the Valley of Heroes to Elling Trias, the proprietor of Trias' Cheese in Stormwind's Trade District. Carrying a discreet sealed note, it bridges palace concerns about the missing diplomat into the quiet contacts kept behind the counter of a modest cheese shop.",
+ "summary": "Jorgen sends trusted operatives across Stormwind with a sealed note for Elling Trias. The delivery carries the search for the missing diplomat from the Valley of Heroes to Trias' Cheese in the Trade District.",
  "sections": [
   {
    "title": "A Discreet Delivery",
-   "body": "Following initial inquiries into the disappearance of an unnamed diplomat, Jorgen directs trusted operatives to keep their mouths firmly shut and carry a sealed note across the city. The destination is not an official barracks or a magistrate's office, but Trias' Cheese, nestled in the busy Trade District. The secretive nature of the handover hints at how delicate the matter has become, bypassing ordinary guard channels in favor of informal intelligence.",
+   "body": "After the first inquiries into the diplomat's disappearance, Jorgen asks trusted operatives to keep silent and carry a sealed note across the city. It is meant for Trias' Cheese in Stormwind's Trade District, not a barracks or magistrate's office. The handoff avoids ordinary guard channels as concern over the missing diplomat reaches beyond the palace.",
    "spoiler": 0
   },
   {
    "title": "Behind the Shopfront",
-   "body": "To the casual shopper browsing wheels of Darnassian bleu or sharp cheddar, Master Cheesemonger Elling Trias appears to be nothing more than a jovial, hardworking merchant. In reality, Trias shares some history with Jorgen and keeps contacts of his own well beyond the shop. Delivering Jorgen's note places the search for the missing diplomat quietly into his hands.",
+   "body": "Elling Trias is a jovial, hardworking cheesemonger and respected merchant at Trias' Cheese. His history with Jorgen and his own contacts reach beyond the shop. With Jorgen's note delivered, the search for the missing diplomat passes quietly into Trias' hands.",
    "spoiler": 1
   }
  ],
@@ -38,7 +38,7 @@
     "cheese vendor",
     "elling trias identity"
    ],
-   "answer": "On the surface, Elling Trias is a respected merchant running Trias' Cheese in the Trade District of Stormwind. Beneath his culinary trade, he shares some history with Jorgen and has contacts of his own that he can put to use in delicate matters."
+   "answer": "Elling Trias is a respected merchant who runs Trias' Cheese in Stormwind's Trade District. He shares some history with Jorgen and has contacts he can use in delicate matters."
   },
   {
    "q": "Why does Jorgen tell me to keep quiet?",
@@ -47,7 +47,7 @@
     "jorgens warning",
     "keep your yapper shut"
    ],
-   "answer": "The disappearance of the diplomat is a state secret that could incite panic or alert whoever orchestrated the abduction. Jorgen insists on utter discretion so as not to betray that an active investigation is underway."
+   "answer": "Jorgen demands silence because the diplomat's disappearance is a state secret. Word could stir panic or alert whoever orchestrated the abduction, betraying that an investigation is underway."
   },
   {
    "q": "Where can I find Trias' Cheese?",
@@ -56,7 +56,7 @@
     "cheese shop location",
     "where is elling trias"
    ],
-   "answer": "The shop is located in the Trade District of Stormwind City, tucked along the main avenues among the general merchants and craftsmen."
+   "answer": "Trias' Cheese is in Stormwind City's Trade District, along the main avenues among merchants and craftsmen."
   },
   {
    "q": "What is in the sealed note to Elling?",
@@ -65,7 +65,7 @@
     "what does note say",
     "sealed note to elling"
    ],
-   "answer": "The letter contains Jorgen's discreet briefing regarding the missing diplomat, calling upon Trias to utilize his specialized contacts and underground ears to locate tracks that conventional authorities cannot trace."
+   "answer": "Jorgen's sealed note briefs Elling Trias about the missing diplomat and calls on him to use his contacts and underground ears to find tracks conventional authorities cannot trace."
   },
   {
    "q": "Who is the missing diplomat mentioned in the quest?",
@@ -74,7 +74,7 @@
     "who is the diplomat",
     "missing person identity"
    ],
-   "answer": "The royal court keeps the exact identity guarded at this stage of the investigation, though the extreme secrecy and high-level concern point toward someone of immense political significance to the Kingdom of Stormwind."
+   "answer": "The royal court guards the diplomat's identity at this stage. The secrecy and concern point to someone of immense political significance to the Kingdom of Stormwind."
   },
   {
    "q": "Why would the investigation use a cheesemonger instead of the city guard?",
@@ -83,17 +83,17 @@
     "why trias not guards",
     "guards vs trias"
    ],
-   "answer": "The official city guard is bound by protocol, jurisdiction, and potential political entanglements. Elling Trias has access to street-level whispers and quiet contacts that formal soldiers simply cannot reach."
+   "answer": "The city guard is bound by protocol, jurisdiction, and political ties. Elling Trias can reach street whispers and quiet contacts beyond the soldiers' reach."
   }
  ],
  "angles": [
   {
    "target": "class:Rogue",
-   "text": "Rogues may suspect that Trias' Cheese is more than a dairy storefront; its owner keeps quiet contacts well beyond the Trade District."
+   "text": "As a rogue, you may suspect Trias' Cheese is more than a dairy storefront. Its owner keeps quiet contacts well beyond the Trade District."
   },
   {
    "target": "faction:Alliance",
-   "text": "The quiet pursuit of the missing envoy reveals subtle vulnerabilities in Stormwind's leadership."
+   "text": "As an Alliance member, you can see how the quiet pursuit of the missing envoy reveals subtle vulnerabilities in Stormwind's leadership."
   }
  ],
  "keywords": [
@@ -114,5 +114,6 @@
  ],
  "attribution": [
   "The Missing Diplomat (3)"
- ]
+ ],
+ "style": 1
 }

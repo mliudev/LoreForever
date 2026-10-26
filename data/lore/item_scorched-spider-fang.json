@@ -10,16 +10,16 @@
    "quest:1701"
   ]
  },
- "summary": "Scorched Spider Fangs are specialized crafting materials harvested from predatory arachnids lurking in the sodden caverns of the Wetlands. The dwarven armorer Furen Longbeard requires a substantial bulk of these heat-tempered fangs to forge resilient fire-hardened mail for seasoned warriors.",
+ "summary": "Across the Wetlands, Scorched Spider Fangs are taken from Cave Stalkers and Leech Stalkers. Furen Longbeard in Stormwind needs fifty to strengthen mail for Alliance warriors.",
  "sections": [
   {
    "title": "A Dwarven Smith's Formula",
-   "body": "Forging armor capable of turning blades and resisting violent trauma requires more than standard iron. In Stormwind's busy district, the skilled blacksmith Furen Longbeard uses obscure metallurgical techniques that blend beast parts with rare reagents. Furen demands fifty scorched fangs from the giant arachnids of the marshlands, utilizing their dense, venomous, and naturally toughened composition to reinforce mail links during the tempering process.",
+   "body": "In Stormwind, blacksmith Furen Longbeard uses unusual methods to strengthen mail. He calls for fifty scorched fangs from the giant spiders of the Wetlands. Their dense, venomous, toughened substance reinforces the mail links as he tempers them.",
    "spoiler": 0
   },
   {
    "title": "Stalkers of the Wetlands",
-   "body": "These fangs are harvested directly from the lethal arachnids inhabiting the sunken valleys and burrows of the Wetlands, notably Cave Stalkers and Leech Stalkers. Despite the damp, rotting environment of the marsh, these predators possess peculiarly hardened, scorched mandibles. Gathering them in the quantities Furen demands requires venturing into deep hollows and clearing out entire swarms of monstrous vermin.",
+   "body": "Cave Stalkers and Leech Stalkers bear the fangs Furen needs. They live in the Wetlands' sunken valleys and burrows, where damp and rot surround their hardened, scorched mandibles. Gathering fifty means venturing into deep hollows and facing the spiders in their swarms.",
    "spoiler": 0
   }
  ],
@@ -31,7 +31,7 @@
     "scorched spider fang purpose",
     "who needs scorched spider fangs"
    ],
-   "answer": "They are collected for Furen Longbeard, an armorer located in Stormwind. He requires fifty of them, alongside components from Stonetalon and Razorfen Kraul, to forge an exceptionally durable chest piece for Alliance warriors."
+   "answer": "Furen Longbeard in Stormwind needs fifty Scorched Spider Fangs to forge durable chest armor for Alliance warriors. The work also calls for components from Stonetalon and Razorfen Kraul."
   },
   {
    "q": "Where can I find Scorched Spider Fangs?",
@@ -40,7 +40,7 @@
     "which spiders drop scorched spider fang",
     "where to farm scorched spider fangs"
    ],
-   "answer": "They are taken from arachnids within the Wetlands, specifically Leech Stalkers and Cave Stalkers found lurking in the region's damp burrows, hillsides, and excavation caverns."
+   "answer": "Cave Stalkers and Leech Stalkers in the Wetlands carry Scorched Spider Fangs. Search their damp burrows, hillsides, and excavation caverns."
   },
   {
    "q": "Why does a blacksmith need so many spider fangs to make armor?",
@@ -48,7 +48,7 @@
     "why 50 fangs",
     "why does furen need spider fangs"
    ],
-   "answer": "Furen Longbeard employs unorthodox dwarven crafting methods. The mineral-dense, fire-resistant properties of these hardened fangs serve as an unconventional hardening agent, reinforcing links of mail when treated alongside phlogiston and beast horns."
+   "answer": "Furen Longbeard uses unusual dwarven methods to strengthen mail. He treats its links with hardened fangs, phlogiston, and beast horns."
   },
   {
    "q": "Can any adventurer collect and turn in these fangs?",
@@ -56,17 +56,17 @@
     "is scorched spider fang warrior only",
     "who can turn in scorched spider fangs"
    ],
-   "answer": "While anyone traveling through the Wetlands can slay the spiders and harvest their mandibles, Furen Longbeard only commissions the crafting project for aspiring warriors seeking to earn their fire-hardened mail."
+   "answer": "Anyone traveling through the Wetlands can kill the spiders and take their mandibles. Furen commissions the armor only for aspiring warriors seeking to earn fire-hardened mail."
   }
  ],
  "angles": [
   {
    "target": "class:Warrior",
-   "text": "Gathering fifty of these fangs is one of the arduous trials assigned by Furen Longbeard to test your endurance and provide the raw components for your signature mail armor."
+   "text": "As a warrior, you face Furen Longbeard's trial of gathering fifty fangs. The work tests your endurance and provides the raw parts for your mail armor."
   },
   {
    "target": "profession:Blacksmithing",
-   "text": "Furen's method of incorporating scorched chitin and fangs into mail links offers a glimpse into rare dwarven armoring traditions that look far beyond conventional smelting."
+   "text": "As a blacksmith, you can see how Furen uses scorched chitin and fangs in mail links, following rare dwarven armoring traditions beyond ordinary smelting."
   }
  ],
  "keywords": [
@@ -91,5 +91,6 @@
  "attribution": [
   "Scorched Spider Fang",
   "Fire Hardened Mail"
- ]
+ ],
+ "style": 1
 }

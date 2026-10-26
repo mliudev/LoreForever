@@ -74,6 +74,8 @@ const PROFESSIONS = [
 // About the profession itself: its ranks, its training or what to make at a skill.
 // Not where a trainer stands ("where's the mining trainer?"): that's an NPC's place, which these don't hold, so the
 // question keeps its look-up.
+const GATHER_CUE = /\b(?:what|which|where|best|should)\b.*\b(?:ores?|veins?|deposits?|herbs?|flowers?|nodes?|mine|mining|pick(?:ing)?|gather(?:ing)?)\b/i;
+const GATHERED = [[/\b(?:ores?|veins?|deposits?|mine|mining)\b/i, "Mining"], [/\b(?:herbs?|flowers?|herbalism)\b/i, "Herbalism"]];
 const PROFESSION_CUE = /\b(?:level(?:l?ing)?|skill(?:s|ing)? ?(?:up|ups|points?)?|ranks?|apprentice|journeyman|expert|artisan|higher|past|beyond|above|max(?:imum)?|cap|recipes?|cheapest|best way|what (?:should|can|do) i (?:make|craft))\b/i;
 
 // Within one letter for words of five letters, two for longer ones, first letters alike ("shoneys" for shonis).
@@ -446,10 +448,42 @@ export function skillNumber(question) {
 }
 
 // A profession's ranks, and the trainers' recipes that still teach at that skill (orange first).
-function professionText(profession, question, faction, here) {
+// Herbalism's and Mining's nodes, from where each herb and ore is gathered (an item's found: "gathered from Firebloom
+// (Herbalism 205) in Tanaris, ..."): {profession: [[node, skill it opens at, zones]]}, lowest first (LOR-834: "where
+// should I level my herbalism? It's at 212" was answered without the herbs for it, the 10/25 scope).
+let nodes;
+function gatheringNodes() {
+  if (nodes) return nodes;
+  nodes = {};
+  for (const row of Object.values(itemData().items))
+    for (const found of row[6] || []) {
+      const m = /^gathered from (.+?) \((Herbalism|Mining) (\d+)\) in (.+)$/.exec(found);
+      // An ooze-covered vein is the same ore's (it needs the same skill).
+      if (m && !/^Ooze Covered /.test(m[1]) && !(nodes[m[2]] ||= []).some(n => n[0] === m[1]))
+        nodes[m[2]].push([m[1], Number(m[3]), m[4]]);
+    }
+  for (const list of Object.values(nodes)) list.sort((a, b) => a[1] - b[1] || a[0].localeCompare(b[0]));
+  return nodes;
+}
+// A node is orange for 25 points past its skill, yellow to 50, green to 100, then gray.
+const GATHER_COLORS = [[25, "orange"], [50, "yellow"], [100, "green"]];
+function gatheringText(profession, skill) {
+  const list = gatheringNodes()[profession];
+  if (!list?.length) return "";
+  if (!skill) return `${profession} nodes by the skill they open at: ` + list.map(([n, s]) => `${n} ${s}`).join(", ");
+  const color = s => GATHER_COLORS.find(([d]) => skill < s + d)?.[1];
+  const fit = list.filter(([, s]) => s <= skill && color(s)).sort((a, b) => b[1] - a[1]).slice(0, 4);
+  const next = list.find(([, s]) => s > skill);
+  return `${profession} nodes that still give skill at ${skill} (orange always gives a point, yellow usually, green ` +
+    `sometimes, gray never): ` + fit.map(([n, s, zones]) => `${n} (${color(s)}, from ${s}; in ${zones})`).join("; ") +
+    (next ? `${fit.length ? "; " : ""}next to open: ${next[0]} at ${next[1]} (in ${next[2]})` : "");
+}
+
+// saved: their rank from the add-on's save, for a question that doesn't say one.
+function professionText(profession, question, faction, here, saved = 0) {
   const { professions } = indexes();
   const [ranks = [], recipes = []] = professions[profession] || [];
-  const skill = skillNumber(question);
+  const skill = skillNumber(question) || saved;
   const parts = [];
   const rankText = ([name, max, at, level, how]) => `${name} (up to ${max}${at ? `, from skill ${at}` : ""}` +
     `${level ? `, level ${level}` : ""}): ${howLearned(how, profession, faction, here)}`;
@@ -476,12 +510,14 @@ function professionText(profession, question, faction, here) {
         `sometimes; fewest materials first): ` + fit.slice(0, MAX_RECIPES).map(r => `${r[0]} (${["orange", "yellow", "green"][color(r)]}; ` +
         `learned at ${r[1] || r[2]}, ${colors(r[2], r[3])}; ${r[4]})`).join("; "));
   }
+  const gathering = gatheringText(profession, skill);
+  if (gathering) parts.push(gathering);
   return parts.length ? parts.join(". ") + "." : "";
 }
 
 // The items, recipes and professions this question is about, as facts (asked: they answer it, so no quick look-up).
 // A character's reply gets none: these speak of the game's records.
-export function itemFacts({ question = "", previousQuestion = "", previous = "", faction = "", zone = "", sub = "" } = {},
+export function itemFacts({ question = "", previousQuestion = "", previous = "", faction = "", zone = "", sub = "", skills = null } = {},
   { character = false } = {}) {
   if (character || !question) return [];
   faction = /^(alliance|horde)$/i.test(faction) ? faction[0].toUpperCase() + faction.slice(1).toLowerCase() : "";
@@ -496,8 +532,10 @@ export function itemFacts({ question = "", previousQuestion = "", previous = "",
     names = [...new Set([...names, ...named(previousQuestion, `${q} ${previousQuestion}`)])];
   if (!names.length && previous && BACK.test(q))
     names = named(String(previous).slice(0, 400), `${q} ${previous}`, { loose: false });
-  const profession = PROFESSIONS.find(([re]) => re.test(q))?.[1];
-  const asksProfession = profession && (PROFESSION_CUE.test(q) || skillNumber(q) > 0) && indexes().professions[profession];
+  // "What ore should I be mining now?", "which herbs should I pick?": gathering, by what's gathered, when no item is named.
+  const gathers = !names.length && GATHER_CUE.test(q);
+  const profession = PROFESSIONS.find(([re]) => re.test(q))?.[1] || (gathers ? GATHERED.find(([re]) => re.test(q))?.[1] : undefined);
+  const asksProfession = profession && (PROFESSION_CUE.test(q) || skillNumber(q) > 0 || gathers) && indexes().professions[profession];
   const focus = focusOf(q);
   const facts = [];
   // Gems as a group, when no stone is named.
@@ -513,7 +551,10 @@ export function itemFacts({ question = "", previousQuestion = "", previous = "",
       if (typeof h === "string" && items[h]) add(h);
   }
   if (asksProfession) {
-    const text = professionText(profession, q, faction, here);
+    // Their rank from the add-on's save (stock.skills, which Willo's app sends with the question), when the question
+    // doesn't say it.
+    const saved = Object.entries(skills || {}).find(([name]) => name.toLowerCase() === profession.toLowerCase())?.[1]?.[0] || 0;
+    const text = professionText(profession, q, faction, here, saved);
     if (text) facts.push({ title: `Profession: ${profession}`, text });
     // The rank they're after, when a book or manual teaches it, with who sells it: past 150 First Aid is Expert,
     // from Expert First Aid - Under Wraps.

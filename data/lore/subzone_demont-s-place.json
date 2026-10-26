@@ -7,16 +7,16 @@
  "meta": {
   "wiki": "Demont's Place"
  },
- "summary": "Demont's Place is a ruined homestead nestled in southwestern Westfall, just west of the forsaken town of Moonbrook. Once a working agricultural plot, the farm was driven to ruin alongside the rest of the region and claimed by the rogue agents of the Defias Brotherhood. Today, its weathered fences and empty fields stand as another casualty of the realm's fading prosperity.",
+ "summary": "Outlaws hold Demont's Place, a ruined farm west of Moonbrook in southwestern Westfall. The farm once fed the Kingdom of Stormwind, but economic collapse and the Defias Brotherhood drove its caretakers away. Its fields remain empty and its fences weathered.",
  "sections": [
   {
    "title": "A Ruined Homestead",
-   "body": "Situated within sight of Moonbrook, Demont's Place was once among the private family holdings feeding the Kingdom of Stormwind. Economic collapse and the sudden rise of outlaw brigands stripped the farm of its livelihood, forcing out its original caretakers. Much like its neighboring fields, the plot has degenerated into a rough hideout, overrun by outlaws using its weathered grounds as an extension of the Defias stronghold in Moonbrook.",
+   "body": "Demont's Place lies within sight of Moonbrook, among the family holdings that once fed the Kingdom of Stormwind. Economic collapse and outlaw brigands stripped the farm of its livelihood and drove out its caretakers. Like the neighboring fields, it has fallen into a rough hideout, where outlaws use its grounds as an extension of the Defias stronghold in Moonbrook.",
    "spoiler": 0
   },
   {
    "title": "The Grip of the Brotherhood",
-   "body": "Because of its close proximity to Moonbrook, Demont's Place serves the Defias Brotherhood as an operational outpost on the outskirts of their regional center. Thugs, cutpurses, and displaced laborers linger among the fences and shattered structures, ambushing travelers who wander off the southern roads. Until Moonbrook is reclaimed and the outlaws broken, the ground remains far too dangerous for peaceful farming to ever return.",
+   "body": "Demont's Place is an outpost for the Defias Brotherhood on the outskirts of Moonbrook. Thugs, cutpurses, and displaced laborers linger among its fences and shattered buildings, ambushing travelers who stray from the southern roads. Until Moonbrook is reclaimed and the outlaws are broken, the farm remains too dangerous for peaceful farming to return.",
    "spoiler": 0
   }
  ],
@@ -28,7 +28,7 @@
     "where is demonts place",
     "demonts place map"
    ],
-   "answer": "Demont's Place is situated in southwestern Westfall, immediately west of the abandoned town of Moonbrook."
+   "answer": "Demont's Place lies in southwestern Westfall, immediately west of the abandoned town of Moonbrook."
   },
   {
    "q": "Who owns Demont's Place?",
@@ -37,7 +37,7 @@
     "who is demont",
     "demont farm owner"
    ],
-   "answer": "The farm likely belonged to a settler named Demont before the peasant unrest and economic troubles swept the countryside. Any original inhabitants have long since fled or perished, leaving the ruined acreage to brigands."
+   "answer": "A settler named Demont likely owned the farm before peasant unrest and economic troubles swept the countryside. Its original inhabitants have long since fled or perished, and brigands now hold the ruined acreage."
   },
   {
    "q": "Who currently occupies the farm?",
@@ -46,7 +46,7 @@
     "what enemies are at demonts place",
     "demonts place mobs"
    ],
-   "answer": "The homestead is currently infested by members of the Defias Brotherhood, who use the decrepit grounds as a peripheral staging point outside their base of operations in Moonbrook."
+   "answer": "Members of the Defias Brotherhood occupy the homestead, using its ruined grounds as a staging point outside their base in Moonbrook."
   },
   {
    "q": "Can the farm be restored to production?",
@@ -54,17 +54,17 @@
     "can you fix demonts place",
     "is demonts place abandoned"
    ],
-   "answer": "Not under current conditions. With the Defias actively entrenched throughout southern Westfall and Stormwind unable to spare garrison troops, the homestead remains far too dangerous for ordinary tillers to rebuild."
+   "answer": "The farm cannot be restored under current conditions. The Defias hold southern Westfall, and Stormwind cannot spare garrison troops, leaving the homestead too dangerous for ordinary tillers to rebuild."
   }
  ],
  "angles": [
   {
    "target": "faction:Alliance",
-   "text": "For Alliance travelers, Demont's Place is a grim reminder of how far order has retreated from Westfall, with former farmland actively held by Defias outlaws right under the kingdom's nose."
+   "text": "For Alliance travelers, Demont's Place shows how far order has retreated from Westfall: Defias outlaws hold former farmland beneath the kingdom's nose."
   },
   {
    "target": "class:Rogue",
-   "text": "The sprawling ruined plots around Moonbrook, including Demont's Place, offer a stark look at the lawless network established by the Defias Brotherhood across the countryside."
+   "text": "As a Rogue, you can see in the ruined plots around Moonbrook, including Demont's Place, the lawless network the Defias Brotherhood has established across the countryside."
   }
  ],
  "keywords": [
@@ -82,5 +82,6 @@
  ],
  "attribution": [
   "Demont's Place"
- ]
+ ],
+ "style": 1
 }

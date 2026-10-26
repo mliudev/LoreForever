@@ -22,16 +22,16 @@
    "Bartleby's Mug (quest)"
   ]
  },
- "summary": "Bartleby's Mug is the concluding task in a young Stormwind warrior's initial test of grit. Having bested the belligerent brawler Bartleby in the Pig and Whistle Tavern, the adventurer claims his drinking mug as proof of victory for their trainer, Harry Burlguard.",
+ "summary": "In Stormwind, Bartleby's Mug marks a young warrior's trial of grit. After besting Bartleby in the Pig and Whistle Tavern, you claim his drinking mug for your trainer, Harry Burlguard.",
  "sections": [
   {
    "title": "Trophy of a Tavern Brawl",
-   "body": "Warrior trainers in Stormwind care little for dainty theory; they want to see raw determination and the ability to hold one's ground. Harry Burlguard tasks budding warriors with taking down Bartleby, a stubborn drunk at the bar of the Pig and Whistle in Old Town. Once subdued, Bartleby reluctantly surrenders his prized drinking mug\u2014only after taking one final swig to drain whatever dregs remained.",
+   "body": "Harry Burlguard tests young warriors with a brawl in Old Town. He asks you to take down Bartleby, a stubborn drunk at the bar of the Pig and Whistle Tavern. Once subdued, Bartleby reluctantly gives up his prized drinking mug, but first takes one final swig to drain the dregs.",
    "spoiler": 0
   },
   {
    "title": "A Step Toward Mastery",
-   "body": "Delivering the mug back to Harry Burlguard marks the completion of the novice trial. Recognizing the fighter's knack for persuasion through sheer force, Burlguard acknowledges the warrior's readiness for defensive mastery, directing them onward to further battlefield instruction and the seasoned veteran Marshal Haggard in Elwynn Forest.",
+   "body": "Returning the mug to Harry Burlguard completes your novice trial. Burlguard sees that you can persuade through sheer force and recognizes your readiness for defensive mastery. He points you onward to further battlefield instruction with Marshal Haggard, a seasoned veteran in Elwynn Forest.",
    "spoiler": 0
   }
  ],
@@ -43,7 +43,7 @@
     "burlguard mug purpose",
     "proof of beating bartleby"
    ],
-   "answer": "The mug serves as undeniable proof that the novice warrior actually fought and bested Bartleby. Bartleby is fiercely attached to his drink, so surrendering his personal mug proves he was soundly beaten into submission."
+   "answer": "Harry Burlguard wants Bartleby's mug as proof that you fought and bested him. Bartleby is fiercely attached to his drink, so giving up his personal mug shows he was soundly beaten into submission."
   },
   {
    "q": "Who is Bartleby?",
@@ -52,7 +52,7 @@
     "who is bartleby the drunk",
     "bartleby old town"
    ],
-   "answer": "Bartleby is an unruly tavern patron lingering at the bar of the Pig and Whistle in Stormwind's Old Town. Known for his drunkenness and foul temper, local warrior trainers use him as an informal rite of passage for up-and-coming fighters."
+   "answer": "Bartleby is an unruly patron at the bar of the Pig and Whistle in Stormwind's Old Town. Drunken and foul-tempered, he gives local warrior trainers an informal test for up-and-coming fighters."
   },
   {
    "q": "Where does this fight take place?",
@@ -61,7 +61,7 @@
     "bartleby location",
     "pig and whistle fight"
    ],
-   "answer": "The brawl occurs inside the Pig and Whistle Tavern, situated in Old Town in Stormwind City."
+   "answer": "The brawl takes place inside the Pig and Whistle Tavern in Stormwind's Old Town."
   },
   {
    "q": "What comes after returning the mug to Burlguard?",
@@ -70,7 +70,7 @@
     "quest after bartleby mug",
     "haggard quest"
    ],
-   "answer": "Once Burlguard inspects the mug and confirms your victory, he imparts advanced training in defensive combat stances before sending you outside the city gates to seek out Marshal Haggard in Elwynn Forest."
+   "answer": "After Burlguard inspects the mug and confirms your victory, he teaches you advanced defensive combat stances. He then sends you outside the city gates to seek Marshal Haggard in Elwynn Forest."
   },
   {
    "q": "Does Bartleby get hurt permanently in the brawl?",
@@ -79,7 +79,7 @@
     "did bartleby die",
     "bartleby survived"
    ],
-   "answer": "No. The brawl is merely a non-lethal tavern scuffle. Once beaten, Bartleby yields, finishes off his drink, hands over his mug, and remains in the tavern to nurse his bruises and pride."
+   "answer": "No. The brawl is non-lethal. Bartleby yields, finishes his drink, hands over his mug, and remains in the tavern with bruises and wounded pride."
   },
   {
    "q": "Can any Alliance class do this quest?",
@@ -88,17 +88,17 @@
     "who can do bartleby quest",
     "mug quest classes"
    ],
-   "answer": "This task is strictly reserved for Alliance warriors as part of their level 10 class training progression to master the art of combat stances and defensive maneuvers."
+   "answer": "Only Alliance warriors undertake this trial as part of their level ten class training in combat stances and defensive maneuvers."
   }
  ],
  "angles": [
   {
    "target": "class:Warrior",
-   "text": "Stormwind's trainers believe practical brawling teaches lessons no manual can match; taking Bartleby's mug proves your ability to stand toe-to-toe and overpower unruly foes."
+   "text": "As a warrior in Stormwind, you prove you can stand toe-to-toe with unruly foes by taking Bartleby's mug."
   },
   {
    "target": "faction:Alliance",
-   "text": "Keeping the peace in Old Town often means handling disorderly patrons, making Bartleby a familiar local headache for Stormwind's martial instructors."
+   "text": "As an Alliance member, you know disorderly patrons in Old Town are a familiar headache for Stormwind's martial instructors."
   }
  ],
  "keywords": [
@@ -118,5 +118,6 @@
  ],
  "attribution": [
   "Bartleby's Mug (quest)"
- ]
+ ],
+ "style": 1
 }

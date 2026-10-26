@@ -17,16 +17,16 @@
   "wiki": "Collecting Kelp",
   "chain": []
  },
- "summary": "Collecting Kelp is an errand undertaken for the apothecary William Pestle in Goldshire to aid two star-crossed young lovers. In order to brew an invisibility potion for Maybell Maclure, Pestle sends adventurers to wrest rare ocean flora from the murlocs nesting around Crystal Lake.",
+ "summary": "In Goldshire, Maybell Maclure seeks a way to visit Tommy Joe Stonefield unseen. William Pestle needs rare crystal kelp to brew an invisibility liquor for her.",
  "sections": [
   {
    "title": "A Remedy for Forbidden Love",
-   "body": "The bitter feud between the Stonefield and Maclure farming families leaves young Tommy Joe Stonefield and Maybell Maclure unable to meet in the open. Desperate to visit her beloved without sparking an armed brawl between their kin, Maybell seeks an unconventional solution: slipping unseen across the valley. William Pestle, the eccentric herbalist and apothecary operating out of the Lion's Pride Inn in Goldshire, concocts a plan to brew an invisibility liquor. However, crafting such an elusive draught demands rare reagents not readily found in the Lion's Pride cupboards.",
+   "body": "The feud between the Stonefield and Maclure families keeps Maybell Maclure and Tommy Joe Stonefield from meeting openly. Maybell wants to see her beloved without provoking an armed clash between their kin, so she seeks a way to cross the valley unseen. William Pestle, an herbalist and apothecary at the Lion's Pride Inn in Goldshire, plans to brew an invisibility liquor. The rare ingredients he needs are not in the inn's cupboards.",
    "spoiler": 0
   },
   {
    "title": "The Scavengers of Crystal Lake",
-   "body": "The essential catalyst for Pestle's brew is crystal kelp. While natural fronds typically thrive far out in saltwater oceans, the freshwater shores of Crystal Lake\u2014situated just east of Goldshire\u2014have become overrun by tribal murlocs. For reasons best known to their own peculiar instincts, these shore-dwelling scavengers have hauled stashes of marine crystal kelp inland to their crude camps. Recovering enough fronds requires cutting a path through vicious amphibian warrens, prying the plants from the creatures' clutches before returning to Goldshire to distill the liquor.",
+   "body": "Crystal kelp is the catalyst William Pestle needs for his brew. The fronds usually grow far out in saltwater oceans, but tribal murlocs have carried stashes inland to their crude camps along Crystal Lake, just east of Goldshire. Their peculiar instincts have led them to haul the marine plants to the freshwater shore. You need to recover enough fronds from the murlocs before returning to Goldshire with them.",
    "spoiler": 0
   }
  ],
@@ -38,7 +38,7 @@
     "what is kelp for",
     "william pestle ingredients"
    ],
-   "answer": "William Pestle requires crystal kelp as the primary reagent to brew an invisibility liquor. This draught is intended to let Maybell Maclure sneak off her family's vineyard undetected to see Tommy Joe Stonefield."
+   "answer": "William Pestle needs crystal kelp to brew an invisibility liquor for Maybell Maclure. The drink is meant to help her leave her family's vineyard unseen and visit Tommy Joe Stonefield."
   },
   {
    "q": "Why is ocean kelp found near freshwater Crystal Lake?",
@@ -47,7 +47,7 @@
     "kelp in fresh water",
     "murloc kelp lore"
    ],
-   "answer": "Crystal kelp naturally grows in the ocean, but the murloc tribes infesting Crystal Lake scavenge and transport the plant inland. They hoard the fronds in their lakeside camps, making them the only local source near Goldshire."
+   "answer": "Crystal kelp grows in the ocean, but tribal murlocs around Crystal Lake scavenge the fronds and carry them inland. They hoard the kelp in lakeside camps, making those camps the only local source near Goldshire."
   },
   {
    "q": "Who are Maybell Maclure and Tommy Joe Stonefield?",
@@ -56,7 +56,7 @@
     "who is tommy joe",
     "maclure stonefield feud"
    ],
-   "answer": "Maybell and Tommy Joe are young lovers hailing from rival farming families in southern Elwynn Forest. Because their families despise each other, the pair must resort to secrecy and alchemical tricks simply to speak together."
+   "answer": "Maybell Maclure and Tommy Joe Stonefield are young lovers from rival farming families in southern Elwynn Forest. Their families despise each other, so the pair must rely on secrecy and alchemical tricks to meet."
   },
   {
    "q": "Where is Crystal Lake located?",
@@ -65,7 +65,7 @@
     "crystal lake location",
     "find crystal lake"
    ],
-   "answer": "Crystal Lake lies directly east of the town of Goldshire in central Elwynn Forest. Its waters and perimeter are heavily infested with hostile murlocs."
+   "answer": "Crystal Lake lies just east of Goldshire in central Elwynn Forest. Hostile murlocs infest its waters and shores."
   },
   {
    "q": "What happens after collecting the kelp?",
@@ -73,7 +73,7 @@
     "next quest after kelp",
     "what does pestle make"
    ],
-   "answer": "Once you deliver four crystal kelp fronds, William Pestle distills them into an Invisibility Liquor. He then tasks you with bringing the concoction to Maybell Maclure so she can make her clandestine escape."
+   "answer": "After you deliver four crystal kelp fronds, William Pestle distills them into an Invisibility Liquor. He then asks you to bring it to Maybell Maclure so she can slip away unseen."
   },
   {
    "q": "Who is William Pestle?",
@@ -81,17 +81,17 @@
     "who is william pestle",
     "pestle goldshire"
    ],
-   "answer": "William Pestle is an apothecary and alchemical dabbler based inside the Lion's Pride Inn in Goldshire. He assists locals with folk remedies, strange potions, and confidential favors."
+   "answer": "William Pestle is an apothecary and alchemical dabbler at the Lion's Pride Inn in Goldshire. He helps locals with folk remedies, strange potions, and confidential favors."
   }
  ],
  "angles": [
   {
    "target": "profession:Herbalism",
-   "text": "For gatherers, crystal kelp is a curious anomaly: an ocean-dwelling herb harvested not from soil or seabed, but snatched directly from the scavenging pouches of freshwater murlocs."
+   "text": "For you as a gatherer, crystal kelp is an odd find: an ocean herb taken from the pouches of freshwater murlocs, not from soil or seabed."
   },
   {
    "target": "faction:Alliance",
-   "text": "Clearing the murloc camps around Crystal Lake for Pestle's odd errand also helps quiet an aggressive menace lurking uncomfortably close to Goldshire's eastern road."
+   "text": "For the Alliance, clearing the murloc camps around Crystal Lake for Pestle helps quiet the aggressive menace near Goldshire's eastern road."
   }
  ],
  "keywords": [
@@ -116,5 +116,6 @@
  ],
  "attribution": [
   "Collecting Kelp"
- ]
+ ],
+ "style": 1
 }

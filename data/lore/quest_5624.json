@@ -20,21 +20,21 @@
    "Garments of the Light (Elwynn Forest)"
   ]
  },
- "summary": "Garments of the Light is an early trial for novice priests in Goldshire, assigned by Priestess Josetta. Rather than an abstract test of faith, the church sends the acolyte east to Crystal Lake to mend and bolster the wounded Guard Roberts. Fulfilling this duty proves the student's mastery of healing and earns them their first official vestments recognized by the Church of the Holy Light.",
+ "summary": "At Goldshire, Garments of the Light mark a novice priest’s first trial under Priestess Josetta. She sends you east to Crystal Lake to tend the wounded Guard Roberts. The work tests your healing and earns you vestments recognized by the Church of the Holy Light.",
  "sections": [
   {
    "title": "A Practical Test of Faith",
-   "body": "Within the traditions of the Church of the Holy Light, novice disciples are rarely elevated purely on doctrine. Priestess Josetta, who instructs acolytes arriving in Goldshire from Northshire Abbey, tests an initiate's practical mastery over divine power before granting formal church recognition. When reports reach town that Guard Roberts lies wounded by the lake east of Goldshire, Josetta turns an everyday misfortune into a proving ground, dispatching the young priest to tend to him.",
+   "body": "Priestess Josetta teaches acolytes who come to Goldshire from Northshire Abbey. Before the Church of the Holy Light formally recognizes a novice, she tests their skill with divine power. When Guard Roberts is reported wounded by the lake east of Goldshire, Josetta sends you to care for him. His need gives you a chance to prove your healing in practice.",
    "spoiler": 0
   },
   {
    "title": "Sustaining the Realm",
-   "body": "The assignment requires more than simply closing flesh; the acolyte must mend the guard's wounds with restorative prayers and bolster his resilience with a blessing of fortitude. In these troubled times, with Stormwind's military stretched thin and local garrisons beleaguered by kobolds and bandits, Josetta stresses that the priesthood's duty extends directly into martial survival. Returning Guard Roberts to active duty serves the township immediately while demonstrating that the initiate can sustain defenders under fire.",
+   "body": "You need to do more than close Guard Roberts’s wounds. Mend him with restorative prayers, then strengthen him with a blessing of fortitude. Stormwind’s forces are stretched thin, and local garrisons face kobolds and bandits. Josetta teaches that priests help defenders endure danger. Healing Roberts will aid the township and show that you can support its guards.",
    "spoiler": 0
   },
   {
    "title": "Vestments of the Order",
-   "body": "Upon returning to the Lion's Pride Inn after treating the soldier, the young priest receives their first formal set of robes. These garments signify outward approval and fellowship from the priesthood in Stormwind. Though wearing them is not strictly mandatory for future training, the robes stand as a visible declaration that the church recognizes the wearer as an ordained servant of the Holy Light.",
+   "body": "After treating Guard Roberts, return to the Lion’s Pride Inn. There you receive your first formal robes, a sign of approval and fellowship from the priesthood in Stormwind. The robes are not required for further training, but they show that the Church recognizes you as a servant of the Holy Light.",
    "spoiler": 0
   }
  ],
@@ -46,7 +46,7 @@
     "where is guard roberts",
     "find guard roberts"
    ],
-   "answer": "Guard Roberts is stationed just east of Goldshire, near the shores of Crystal Lake. He can be found resting by the roadside and water's edge, recovering from wounds sustained while on watch."
+   "answer": "Guard Roberts is just east of Goldshire, near Crystal Lake. He rests by the roadside at the water’s edge while recovering from wounds suffered on watch."
   },
   {
    "q": "What spells are required to complete this quest?",
@@ -55,7 +55,7 @@
     "what spells do i cast on roberts",
     "how to heal guard roberts"
    ],
-   "answer": "You must tend to Guard Roberts using Lesser Heal (Rank 2) to restore his health, followed by casting Power Word: Fortitude to bolster his stamina, before returning to Priestess Josetta."
+   "answer": "Use Lesser Heal Rank 2 to restore Guard Roberts’s health, then cast Power Word: Fortitude to strengthen him. Return to Priestess Josetta afterward."
   },
   {
    "q": "Who is Priestess Josetta?",
@@ -64,7 +64,7 @@
     "priestess josetta goldshire",
     "who gives garments of the light"
    ],
-   "answer": "Priestess Josetta is a priest trainer for the Church of the Holy Light residing in Goldshire's Lion's Pride Inn. She mentors young acolytes who have left Northshire Abbey, guiding them in practical ministry and divine magic."
+   "answer": "Priestess Josetta trains priests for the Church of the Holy Light at the Lion’s Pride Inn in Goldshire. She guides young acolytes from Northshire Abbey in practical service and divine magic."
   },
   {
    "q": "Why does the Church give out robes for this task?",
@@ -73,7 +73,7 @@
     "priest robe reward lore",
     "church robes meaning"
    ],
-   "answer": "The robes are an outward sign that the Church of the Holy Light formally approves of the acolyte and supports their ministry. Completing this practical healing duty proves the initiate has the competence and discipline worthy of bearing the church's vestments."
+   "answer": "The robes show that the Church of the Holy Light approves of the acolyte and supports their ministry. Caring for Guard Roberts demonstrates the skill and discipline needed to wear the church’s vestments."
   },
   {
    "q": "Can other classes complete this quest?",
@@ -82,7 +82,7 @@
     "can paladins do garments of the light",
     "priest class quest"
    ],
-   "answer": "No. This quest is part of the introductory class questline specifically for Alliance priests who have mastered their fundamental healing and warding prayers."
+   "answer": "No. Only Alliance priests can complete this trial in their introductory training, after learning fundamental healing and warding prayers."
   },
   {
    "q": "What happens after completing Garments of the Light?",
@@ -90,21 +90,21 @@
     "next quest after garments of the light",
     "garments of the light followup"
    ],
-   "answer": "Garments of the Light concludes the early level 4 priest initiation line in Goldshire. While there is no immediate breadcrumb follow-up, Priestess Josetta and other trainers throughout the kingdom will offer advanced training and further trials as you grow in experience."
+   "answer": "After you complete the early priest training in Goldshire, there is no immediate follow-up. Priestess Josetta and other trainers throughout the kingdom offer further training and trials as you gain experience."
   }
  ],
  "angles": [
   {
    "target": "class:Priest",
-   "text": "This rite of passage bridges classroom theology in Northshire with active field service, reinforcing that a priest's highest calling is keeping frontline allies alive through direct healing and fortifying wards."
+   "text": "As a priest, you carry your learning from Northshire into service in the field. Healing and fortifying allies helps keep those on the front line alive."
   },
   {
    "target": "faction:Alliance",
-   "text": "With the Stormwind army strained and absent from local hamlets, the town guard relies heavily on the assistance of local church disciples to remain standing against encroaching threats."
+   "text": "As an Alliance member, you see how local church disciples help town guards hold their ground while Stormwind’s army is stretched thin and absent from hamlets."
   },
   {
    "target": "race:Human",
-   "text": "Human culture places great reverence on the Church of the Holy Light; earning ordained vestments from a township priestess marks an important civic and spiritual milestone in an acolyte's life."
+   "text": "As a human, you belong to a culture that honors the Church of the Holy Light. Earning vestments from a township priestess marks an important civic and spiritual milestone."
   }
  ],
  "keywords": [
@@ -127,5 +127,6 @@
  ],
  "attribution": [
   "Garments of the Light (Elwynn Forest)"
- ]
+ ],
+ "style": 1
 }

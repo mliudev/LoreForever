@@ -43,7 +43,9 @@ export function readStock(input, data = null, now = Date.now()) {
     if (data?.name && !same(character.split("-")[0], data.name)) return null;
     const stock = stockOf(input);
     if (!stock || stock.t === null || stock.t > now / 1000 + AHEAD_SECONDS) return null;
-    const json = JSON.stringify(stock);
+    let json = JSON.stringify(stock);
+    // Over the cap, the bags go first (LOR-834): the rest of the save still counts for her goals and her answers.
+    if (json.length > KEPT_MAX_CHARS && stock.bags) json = JSON.stringify({ ...stock, bags: undefined });
     return json.length > KEPT_MAX_CHARS ? null : { character, t: stock.t, json };
   } catch { return null; }
 }
@@ -75,13 +77,16 @@ export function savedStock(json) {
 const gold = copper => Math.floor(copper / 10000);
 const lineOf = s => [s.level != null ? `Level ${Math.floor(s.level)}` : "", s.money != null ? `${gold(s.money)} gold` : "",
   s.skills && Object.keys(s.skills).length ? `${Object.keys(s.skills).length} skills` : "",
-  s.rep && Object.keys(s.rep).length ? `${Object.keys(s.rep).length} reputations` : ""].filter(Boolean).join(", ");
+  s.rep && Object.keys(s.rep).length ? `${Object.keys(s.rep).length} reputations` : "",
+  s.gear ? `${Object.keys(s.gear).length} items worn` : "",
+  s.talents?.some(t => t.points) ? `${s.talents.reduce((sum, t) => sum + t.points, 0)} talent points` : "",
+  s.bags ? `${Object.keys(s.bags).length} different items in bags` : ""].filter(Boolean).join(", ");
 
 export const STOCK_KEEPER = {
   id: "saves",
   title: "Your last save",
-  about: `What your game last saved of each character: their level, gold, skills and reputations. ${NAME} works out ` +
-    `your goals from it when you ask her from your phone.`,
+  about: `What your game last saved of each character: their level, gold, skills, reputations, gear, talents and bags. ` +
+    `${NAME} uses it to work out your goals and to answer you when you ask her from your phone.`,
   empty: `Nothing kept. When you play with ${NAME} on your computer, the numbers your game saves are kept here for your goals.`,
   async list(env, userId) {
     const { results } = await env.DB.prepare(

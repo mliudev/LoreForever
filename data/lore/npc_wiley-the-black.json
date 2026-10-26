@@ -8,11 +8,11 @@
   "wiki": "Wiley the Black",
   "refs": 2
  },
- "summary": "Wiley the Black is an elusive rogue currently lying low at the Lakeshire Inn in Redridge. Though shady and reticent, he owes a life-debt to Gryan Stoutmantle and serves as a vital underworld contact regarding the Defias Brotherhood.",
+ "summary": "At the Lakeshire Inn, Wiley the Black keeps out of sight. He owes his life to Gryan Stoutmantle and shares what he knows of the Defias Brotherhood.",
  "sections": [
   {
    "title": "A Scoundrel's Debt",
-   "body": "Tucked away inside the Lakeshire Inn, Wiley the Black keeps a low profile away from the open turmoil of Westfall and the gnoll-infested borders of Redridge. Despite his roguish nature and questionable past, Wiley is bound by honor to Gryan Stoutmantle, commander of the People's Militia. Stoutmantle once saved Wiley's life\u2014though Stoutmantle grumbles that he should have let the scoundrel rot when he had the chance. When the People's Militia desperately needs insight into the inner workings of the Defias conspiracy, Wiley is the informant they turn to, reluctantly parting with covert intelligence to clear his debt.",
+   "body": "Wiley the Black keeps to the Lakeshire Inn, away from Westfall's turmoil and Redridge's gnoll-infested borders. He owes his life to Gryan Stoutmantle, commander of the People's Militia, who once saved him. Stoutmantle grumbles that he should have let Wiley rot. When the militia needs insight into the Defias conspiracy, it turns to Wiley. He reluctantly shares covert intelligence to repay his debt.",
    "spoiler": 0
   }
  ],
@@ -25,7 +25,7 @@
     "wiley redridge",
     "lakeshire inn wiley"
    ],
-   "answer": "Wiley the Black is located inside the Lakeshire Inn in the town of Lakeshire, nestled within the Redridge Mountains."
+   "answer": "Wiley the Black is inside the Lakeshire Inn in the town of Lakeshire, in the Redridge Mountains."
   },
   {
    "q": "Why is Wiley helping Gryan Stoutmantle?",
@@ -34,7 +34,7 @@
     "wiley gryan relationship",
     "wiley stoutmantle debt"
    ],
-   "answer": "Gryan Stoutmantle saved Wiley's life in the past. Even though Gryan views him as an infuriating scoundrel and Wiley is reluctant to stick his neck out, Wiley honors the debt by relaying vital information about the Defias Brotherhood."
+   "answer": "Gryan Stoutmantle once saved Wiley's life. Wiley repays that debt by sharing information about the Defias Brotherhood, though he is reluctant to stick his neck out."
   },
   {
    "q": "How does Wiley know about the Defias Brotherhood?",
@@ -43,7 +43,7 @@
     "how does wiley know defias",
     "wiley defias connection"
    ],
-   "answer": "Wiley possesses intimate knowledge of underworld movements and Defias operations. He reveals information about the Brotherhood to repay Gryan Stoutmantle, but his past membership is unconfirmed."
+   "answer": "Wiley knows the underworld and Defias operations well. He shares what he knows to repay Gryan Stoutmantle, but whether he once belonged to the Brotherhood is unconfirmed."
   },
   {
    "q": "What role does he play in the Defias investigation?",
@@ -52,17 +52,17 @@
     "what does wiley do",
     "defias brotherhood wiley"
    ],
-   "answer": "When the People's Militia captures mysterious clues pointing to a larger conspiracy, Stoutmantle sends adventurers to Lakeshire with a message for Wiley. Wiley examines the situation and provides a written note directing the militia toward the leaders orchestrating the rebellion."
+   "answer": "When the People's Militia captures clues to a larger conspiracy, Stoutmantle sends adventurers to Lakeshire with a message for Wiley. Wiley examines the situation and writes a note directing the militia toward the rebellion's leaders."
   }
  ],
  "angles": [
   {
    "target": "class:Rogue",
-   "text": "Wiley demonstrates the delicate craft of staying alive through tradecraft and intelligence. For rogues, he is a classic example of an operative who survives by knowing when to trade information and whom to repay."
+   "text": "As a rogue, Wiley shows how tradecraft and intelligence can keep someone alive. He knows when to trade information and whom to repay."
   },
   {
    "target": "faction:Alliance",
-   "text": "With Stormwind's army absent, the Alliance relies on unofficial assets like Wiley to piece together the rebellion festering in Westfall."
+   "text": "With Stormwind's army absent, the Alliance relies on unofficial contacts like Wiley to piece together the rebellion in Westfall."
   }
  ],
  "keywords": [
@@ -85,5 +85,6 @@
  ],
  "attribution": [
   "Wiley the Black"
- ]
+ ],
+ "style": 1
 }

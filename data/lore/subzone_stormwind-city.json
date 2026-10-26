@@ -7,16 +7,16 @@
  "meta": {
   "wiki": "Stormwind City"
  },
- "summary": "Stormwind City is the majestic capital of the Kingdom of Stormwind and the military and political heart of the Alliance. Rebuilt from ashes following its destruction in the First War, it stands as the greatest remaining bastion of human power in Azeroth following the fall of the northern kingdoms.",
+ "summary": "Stormwind City leads the Kingdom of Stormwind and the Alliance as their capital and seat of power. Rebuilt after the First War, it is the greatest remaining human stronghold in Azeroth since the northern kingdoms fell.",
  "sections": [
   {
    "title": "A Beacon Rebuilt",
-   "body": "Founded over a millennium ago by Arathi descendants migrating south, Stormwind flourished as a vibrant coastal capital ringed by stone ramparts and powered by swift rivermills. That grandeur ended in the First War when the Orcish Horde besieged the city, breached its defenses, and burned it to the ground, forcing Sir Anduin Lothar to lead surviving refugees across the Great Sea to Lordaeron. Following the victory of the Alliance in the Second War, the Stonemasons' Guild undertook the monumental task of rebuilding the capital into the gleaming fortress of white stone, canal networks, and towering spires that stands north of Elwynn Forest today.",
+   "body": "Stormwind City rose over a thousand years ago, founded by Arathi descendants who migrated south. The coastal capital flourished behind stone ramparts, with swift rivermills powering the city. In the First War, the Orcish Horde laid siege, broke through its defenses, and burned Stormwind to the ground. Sir Anduin Lothar led the surviving refugees across the Great Sea to Lordaeron. After the Alliance won the Second War, the Stonemasons' Guild rebuilt the capital with white stone, canals, and towering spires. The fortress now stands north of Elwynn Forest.",
    "spoiler": 0
   },
   {
    "title": "Heart of the Alliance",
-   "body": "With Lordaeron shattered by the Scourge and Dalaran heavily ruined during the Third War, Stormwind City serves as the primary refuge and stronghold for mankind. Its broad avenues and defensive walls are patrolled by the disciplined Stormwind City Guard, while the spires of the Cathedral of Light guide faith and devotion across the southern kingdoms. Yet beneath its orderly districts and ceremonial gates lies quiet political turmoil: King Varian Wrynn has mysteriously vanished, leaving his young son Anduin on the throne under the regency of Highlord Bolvar Fordragon and the whispered counsel of royal advisor Lady Katrana Prestor.",
+   "body": "Stormwind City has become mankind's chief refuge and stronghold after the Scourge shattered Lordaeron and the Third War left Dalaran heavily ruined. The disciplined Stormwind City Guard patrols its broad avenues and defensive walls. The Cathedral of Light's spires guide faith across the southern kingdoms. Beneath the orderly districts and ceremonial gates, political troubles linger. King Varian Wrynn has mysteriously vanished, and his young son Anduin sits on the throne under the regency of Highlord Bolvar Fordragon and the whispered counsel of royal advisor Lady Katrana Prestor.",
    "spoiler": 0
   }
  ],
@@ -28,7 +28,7 @@
     "rebuilding of stormwind",
     "why does stormwind look new"
    ],
-   "answer": "Stormwind was sacked and incinerated by the Orcish Horde during the First War. After the Grand Alliance of Lordaeron defeated the orcs in the Second War, human refugees reclaimed their ancestral kingdom. The royal court commissioned the Stonemasons' Guild to construct a new, even grander fortress city upon the original ruins."
+   "answer": "The Orcish Horde sacked and burned Stormwind during the First War. After the Grand Alliance of Lordaeron defeated the orcs in the Second War, human refugees reclaimed their ancestral kingdom. The royal court commissioned the Stonemasons' Guild to build a grander fortress city on the original ruins."
   },
   {
    "q": "Who rules Stormwind City right now?",
@@ -37,7 +37,7 @@
     "who runs stormwind",
     "current ruler of stormwind"
    ],
-   "answer": "Nominally, the boy-king Anduin Wrynn sits upon the throne following the sudden and unexplained disappearance of his father, King Varian Wrynn. Because of Anduin's youth, true governing authority rests with Highlord Bolvar Fordragon, who acts as Regent and Commander of the Kingdom's defenses."
+   "answer": "Boy-king Anduin Wrynn sits on the throne after his father, King Varian Wrynn, suddenly and without explanation disappeared. Because Anduin is young, Highlord Bolvar Fordragon governs as Regent and commands the Kingdom's defenses."
   },
   {
    "q": "Why is Stormwind the main human capital instead of Lordaeron?",
@@ -46,7 +46,7 @@
     "why not capital of lordaeron",
     "is stormwind the last city"
    ],
-   "answer": "During the Third War, the northern Kingdom of Lordaeron was utterly decimated from within by the undead plague and the Scourge. With Lordaeron destroyed and other northern human realms devastated, Stormwind remains the wealthiest, most intact, and most populous human kingdom left standing on Azeroth."
+   "answer": "During the Third War, the undead plague and the Scourge devastated Lordaeron from within. With Lordaeron destroyed and other northern human realms devastated, Stormwind is the wealthiest, most intact, and most populous human kingdom remaining on Azeroth."
   },
   {
    "q": "What military forces protect the city?",
@@ -55,17 +55,17 @@
     "stormwind army",
     "city guards"
    ],
-   "answer": "The peace within the wards and upon the battlement walls is enforced by the Stormwind City Guard. Broader territorial defense and royal protection are maintained by the Kingdom's knights, the garrisoned soldiers of Stormwind Keep, and paladins affiliated with the Church of the Light."
+   "answer": "The Stormwind City Guard enforces peace in the wards and along the battlement walls. The Kingdom's knights, soldiers garrisoned at Stormwind Keep, and paladins affiliated with the Church of the Light maintain broader territorial defense and royal protection."
   }
  ],
  "angles": [
   {
    "target": "race:Human",
-   "text": "For humans across Azeroth, the white walls of Stormwind represent endurance, survival, and the enduring glory of mankind after the total loss of the northern kingdoms."
+   "text": "For humans across Azeroth, Stormwind's white walls speak of endurance, survival, and mankind's glory after the northern kingdoms were lost."
   },
   {
    "target": "faction:Alliance",
-   "text": "Stormwind is the premier military, naval, and spiritual rallying point for the Alliance in the southern Eastern Kingdoms, welcoming dwarves, gnomes, and night elven envoys alike."
+   "text": "For the Alliance, Stormwind is the chief military, naval, and spiritual rallying point in the southern Eastern Kingdoms. It welcomes dwarves, gnomes, and night elven envoys alike."
   }
  ],
  "keywords": [
@@ -91,5 +91,6 @@
  ],
  "attribution": [
   "Stormwind City"
- ]
+ ],
+ "style": 1
 }

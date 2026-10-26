@@ -8,16 +8,16 @@
   "wiki": "Captain Danuvin",
   "refs": 5
  },
- "summary": "Captain Danuvin is an officer stationed at Sentinel Hill in Westfall, serving as one of the leaders tasked with holding the frontier together. Working alongside the People's Militia, he directs volunteers and recruits to patrol the roads and push back against encroaching Gnolls and outlaws. His commands are vital to keeping the supply lines and farmlands from falling completely into hostile hands.",
+ "summary": "At Sentinel Hill, Captain Danuvin helps hold Westfall's frontier together. He works with the People's Militia, directing volunteers and recruits to patrol roads and drive back Gnolls and outlaws. His orders protect the supply lines and farmlands from hostile hands.",
  "sections": [
   {
    "title": "Holding the Hill",
-   "body": "Perched at the fortified tower of Sentinel Hill, Captain Danuvin coordinates ground patrols across Westfall. The region has spiraled into chaos with the withdrawal of regular Stormwind garrison troops, leaving local defenses severely depleted. Danuvin relies heavily on wandering adventurers, local farmhands, and volunteer fighters to maintain even a semblance of order across the grassy plains.",
+   "body": "Captain Danuvin coordinates patrols from Sentinel Hill's fortified tower. Stormwind's regular garrison has withdrawn, leaving Westfall's defenses badly weakened. He depends on travelers, farmhands, and volunteer fighters to keep some order across the plains.",
    "spoiler": 0
   },
   {
    "title": "Patrolling the Frontier",
-   "body": "Danuvin's immediate strategic concern is the security of the roadways and open lands around Sentinel Hill. With the Riverpaw Gnolls growing bolder and raiding close to central outposts, he organizes active patrols to cull their packs and secure the perimeter. His orders help prevent the encampment from being entirely surrounded by Westfall's opportunists and marauders.",
+   "body": "Captain Danuvin focuses on the roads and open lands around Sentinel Hill. Riverpaw Gnolls raid near the central outposts, so he sends patrols to thin their packs and secure the perimeter. His orders help keep marauders and opportunists from surrounding the camp.",
    "spoiler": 0
   }
  ],
@@ -29,7 +29,7 @@
     "where is captain danuvin",
     "danuvin westfall"
    ],
-   "answer": "Captain Danuvin is stationed at Sentinel Hill, the primary Alliance outpost located in central Westfall. He is usually found standing near the hill's fortified tower overlooking the road."
+   "answer": "Captain Danuvin is at Sentinel Hill, the Alliance outpost in central Westfall. He is usually near the fortified tower overlooking the road."
   },
   {
    "q": "What faction does Captain Danuvin represent?",
@@ -37,7 +37,7 @@
     "danuvin faction",
     "who does danuvin serve"
    ],
-   "answer": "Danuvin serves the Alliance and works directly in support of the local defense forces in Westfall, collaborating closely with Gryan Stoutmantle and the People's Militia."
+   "answer": "Captain Danuvin serves the Alliance and supports Westfall's local defenders. He works closely with Gryan Stoutmantle and the People's Militia."
   },
   {
    "q": "What duties does he assign to adventurers?",
@@ -46,7 +46,7 @@
     "what does captain danuvin want",
     "patrolling westfall quest"
    ],
-   "answer": "Danuvin tasks recruits with securing the countryside, primarily through orders like patrolling the plains and driving back the aggressive Riverpaw Gnoll packs encroaching on Sentinel Hill."
+   "answer": "Captain Danuvin assigns recruits to patrol the plains and drive back Riverpaw Gnolls advancing on Sentinel Hill."
   },
   {
    "q": "Why is Danuvin relying on volunteers instead of the Stormwind Army?",
@@ -55,7 +55,7 @@
     "why militia",
     "stormwind garrison westfall"
    ],
-   "answer": "Stormwind has abandoned Westfall and committed no garrison troops to defend it. Danuvin and the rest of the leadership at Sentinel Hill have no choice but to rely on mercenaries and militia recruits."
+   "answer": "Stormwind has left Westfall without garrison troops. Captain Danuvin and the leaders at Sentinel Hill rely on mercenaries and militia recruits."
   },
   {
    "q": "Does Danuvin have connections outside of Westfall?",
@@ -63,7 +63,7 @@
     "danuvin redridge",
     "danuvin connections"
    ],
-   "answer": "Danuvin's ties are to Westfall itself. It is his homeland, and he has vowed not to turn his back on the citizens who chose to remain, so his duties keep him focused on the plains and roads around Sentinel Hill."
+   "answer": "Captain Danuvin's ties are to Westfall, his homeland. He has vowed to stand by the citizens who stayed, so he focuses on the plains and roads around Sentinel Hill."
   },
   {
    "q": "What is his role compared to Gryan Stoutmantle?",
@@ -71,21 +71,21 @@
     "stoutmantle vs danuvin",
     "is danuvin in charge"
    ],
-   "answer": "While Gryan Stoutmantle oversees the broad defense strategy and leadership of the People's Militia, Captain Danuvin acts as a field officer managing tactical concerns, road patrols, and the immediate gnoll threat around the base."
+   "answer": "Gryan Stoutmantle leads the People's Militia and directs Westfall's broad defense. Captain Danuvin handles field tactics, road patrols, and the Gnoll threat near the base."
   }
  ],
  "angles": [
   {
    "target": "faction:Alliance",
-   "text": "Captain Danuvin represents one of the few standing military figures striving to uphold order in Westfall despite the crown's neglect, offering Alliance recruits steady work defending the realm."
+   "text": "Captain Danuvin is one of the few military figures upholding order in Westfall despite the crown's neglect. Alliance recruits can help defend the realm."
   },
   {
    "target": "class:Warrior",
-   "text": "Danuvin respects martial discipline and direct frontline action, valuing warriors who are willing to charge into gnoll packs and clear the highway through brute strength."
+   "text": "As a warrior, you can put martial discipline and strength to work against Gnoll packs and help clear the highway."
   },
   {
    "target": "race:Human",
-   "text": "For humans of the kingdom, assisting Danuvin is a matter of homeland survival, ensuring the breadbasket of Stormwind is not permanently lost to raiders and beasts."
+   "text": "As a human, you can help Captain Danuvin defend your homeland and keep Stormwind's breadbasket from raiders and beasts."
   }
  ],
  "keywords": [
@@ -106,5 +106,6 @@
  ],
  "attribution": [
   "Captain Danuvin"
- ]
+ ],
+ "style": 1
 }

@@ -7,11 +7,11 @@
  "meta": {
   "wiki": "Champions' Hall"
  },
- "summary": "Tucked away in the southern reaches of Old Town, the Champions' Hall serves as the officer's barracks and supply armory for the Alliance's decorated veterans in Stormwind. Beyond its threshold, quartermasters dispense specialized weapons, plate, and regalia to proven warriors of the faction. Access is strictly guarded, reserved only for officers who have demonstrated valor on the field of war.",
+ "summary": "In Stormwind's Old Town, Champions' Hall is guarded and reserved for Alliance officers. Its quartermasters supply weapons, armor, and regalia to veterans who have proven themselves in battle.",
  "sections": [
   {
    "title": "The Alliance Officer's Barracks",
-   "body": "Hidden behind a guarded threshold in Old Town, the Champions' Hall is a restricted haven for the Alliance's most distinguished combatants. Military commanders gather here over tactical maps of Azeroth to confer on ongoing campaigns, flanked by armaments and the grand insignias of rank. Only soldiers who have climbed the Alliance hierarchy to achieve officer status\u2014specifically the rank of Knight or higher\u2014are permitted entry. Inside, military quartermasters supply battle-hardened soldiers with elite arms, armor, and mounts crafted specifically to turn the tide against the Horde in contested zones across the world.",
+   "body": "Champions' Hall stands behind a guarded entrance in Old Town, reserved for the Alliance's distinguished combatants. Military commanders gather around maps of Azeroth to discuss ongoing campaigns, among arms and the insignias of rank. Only Alliance soldiers who have earned the rank of Knight or higher may enter. Inside, quartermasters supply battle-hardened soldiers with elite weapons, armor, and mounts made to aid them against the Horde in contested lands.",
    "spoiler": 0
   }
  ],
@@ -23,7 +23,7 @@
     "pvp vendor stormwind location",
     "how to find champions hall"
    ],
-   "answer": "The Champions' Hall is located in the southern section of Old Town in Stormwind City, tucked away behind a guarded entrance."
+   "answer": "Champions' Hall lies in southern Old Town in Stormwind City, behind a guarded entrance."
   },
   {
    "q": "Who is allowed inside the Champions' Hall?",
@@ -32,7 +32,7 @@
     "champions hall requirements",
     "why cant i enter champions hall"
    ],
-   "answer": "Only Alliance veterans who have earned the military rank of Knight or higher on the field of battle are granted passage through the entrance portal. Unproven recruits and civilians are barred at the threshold."
+   "answer": "Alliance soldiers who have earned the rank of Knight or higher in battle may enter Champions' Hall. Recruits without that standing and civilians are turned away."
   },
   {
    "q": "What is inside the Champions' Hall?",
@@ -41,7 +41,7 @@
     "what vendors are in champions hall",
     "champions hall rewards"
    ],
-   "answer": "The hall contains quartermasters offering officer-tier weapons, armor, insignia, and specialized war mounts. Alliance tacticians and generals also congregate around war tables lined with regional maps of Azeroth."
+   "answer": "Quartermasters inside offer officer-tier weapons, armor, insignia, and specialized war mounts. Alliance tacticians and generals gather around tables covered with maps of Azeroth."
   },
   {
    "q": "What is the Horde equivalent of this building?",
@@ -50,17 +50,17 @@
     "orgrimmar pvp room",
     "horde pvp barracks"
    ],
-   "answer": "The Horde counterpart is the Hall of Legends, situated in Orgrimmar, which provides identical military supply services to decorated warriors of the Horde."
+   "answer": "The Horde counterpart is the Hall of Legends in Orgrimmar, where decorated Horde warriors receive the same military supplies."
   }
  ],
  "angles": [
   {
    "target": "faction:Alliance",
-   "text": "The hall stands as the premier symbol of Alliance military merit in Stormwind, honoring those who dedicate their lives to repelling Horde incursions."
+   "text": "For the Alliance, Champions' Hall honors those in Stormwind who devote their lives to repelling Horde incursions."
   },
   {
    "target": "class:Warrior",
-   "text": "For front-line combatants, the hall represents the ultimate military stockpile, offering heavy battle gear and armaments reserved only for proven battlefield leaders."
+   "text": "As a warrior on the front lines, you can look to Champions' Hall for heavy battle gear and arms reserved for proven battlefield leaders."
   }
  ],
  "keywords": [
@@ -83,5 +83,6 @@
  ],
  "attribution": [
   "Champions' Hall"
- ]
+ ],
+ "style": 1
 }

@@ -17,16 +17,16 @@
   "wiki": "Burning Blood (quest)",
   "chain": []
  },
- "summary": "Master smith Grimand Elmore in Stormwind tasks an adventurer with venturing into the shadowy forests of Duskwood to recover exotic forge reagents. Intrigued by innovative armorcrafting techniques pioneered by Furen Longbeard, Grimand requires burning blood and a blazing ember stone held by feral worgen to test the process himself.",
+ "summary": "In Stormwind, Grimand Elmore turns to Furen Longbeard’s smithing methods. He needs burning blood and a burning rock from Duskwood to test the armorcrafting technique himself.",
  "sections": [
   {
    "title": "A Reluctant Experiment",
-   "body": "Grimand Elmore, one of the Alliance's most accomplished armorers, rarely concedes that another craftsman might outshine his own methods. Yet, after hearing of Furen Longbeard's unconventional smithing discoveries, professional curiosity overtakes his stubborn pride. Grimand agrees to put Furen's methods to the test by hammering out a bespoke piece of armor. To quench and temper the metal to exact specifications, ordinary water or common coals will not suffice; he demands strange, volatile components found only in the darkened reaches of the south.",
+   "body": "Grimand Elmore is one of the Alliance’s accomplished armorers, and he rarely accepts that another smith might surpass his methods. Hearing of Furen Longbeard’s unusual smithing discoveries stirs his professional curiosity. Grimand agrees to test Furen’s methods by making a piece of armor. He needs strange, volatile components from the dark reaches of the south to quench and temper the metal to his exact requirements; ordinary water and common coals will not do.",
    "spoiler": 0
   },
   {
    "title": "The Horrors of Roland's Doom",
-   "body": "The quest directs brave smith-aspirants and warriors into Duskwood, specifically toward the forsaken mine of Roland's Doom. The cavern has been overrun by savage Nightbane worgen\u2014lupine beasts whose cursed veins pulse with unnatural, searing ichor. Grimand requires vials of this burning blood, alongside a rare flaming geological core known as a burning rock, held by the pack's ferocious leader, Gutspill. Slaying these beasts and securing their scorching remains allows Grimand to fire his forge with dark, fiery power.",
+   "body": "Grimand sends you to Duskwood, to the abandoned mine called Roland’s Doom. Savage Nightbane worgen have overrun its tunnels, their cursed veins pulsing with burning ichor. He needs vials of their burning blood and a rare, flaming core called a burning rock, carried by the pack’s leader, Gutspill. Bring these scorching materials back so Grimand can test Furen’s methods at the forge.",
    "spoiler": 0
   }
  ],
@@ -38,7 +38,7 @@
     "grimand elmore",
     "stormwind armorer"
    ],
-   "answer": "Grimand Elmore is a respected master armorer operating in the Dwarven District of Stormwind. He works alongside fellow craftsmen to equip the city's defenders and trains aspiring warriors in the durability and weight of proper battle plate."
+   "answer": "Grimand Elmore is a respected master armorer in Stormwind’s Dwarven District. He works with other craftsmen to equip the city’s defenders and trains aspiring warriors in the weight and strength of proper battle plate."
   },
   {
    "q": "Why does Grimand want burning blood and a burning rock?",
@@ -47,7 +47,7 @@
     "what is burning rock for",
     "quest purpose"
    ],
-   "answer": "Grimand wants to test an unconventional armorcrafting technique developed by Furen Longbeard. The burning blood and burning rock possess intense, supernatural heat necessary to temper and forge specialized armor plates."
+   "answer": "Grimand wants to test an armorcrafting technique developed by Furen Longbeard. The burning blood and burning rock provide the supernatural heat needed to forge and temper specialized armor plates."
   },
   {
    "q": "Where do I find the Nightbane worgen carrying these materials?",
@@ -56,7 +56,7 @@
     "roland's doom location",
     "where is burning blood"
    ],
-   "answer": "The materials are found in Duskwood at Roland's Doom, an abandoned mine in southeastern Duskwood, southwest of Darkshire. The mine tunnels are packed with hostile Nightbane worgen that carry the searing blood."
+   "answer": "You can find the materials in Duskwood at Roland’s Doom, an abandoned mine in southeastern Duskwood, southwest of Darkshire. Nightbane worgen fill its tunnels and carry the burning blood."
   },
   {
    "q": "Who holds the burning rock?",
@@ -65,7 +65,7 @@
     "gutspill",
     "gutspill location"
    ],
-   "answer": "The burning rock is carried by Gutspill, a powerful leader among the Nightbane worgen dwelling within the depths of Roland's Doom."
+   "answer": "Gutspill, a powerful leader among the Nightbane worgen, carries the burning rock deep within Roland’s Doom."
   },
   {
    "q": "What is the relationship between Grimand Elmore and Furen Longbeard?",
@@ -73,7 +73,7 @@
     "grimand and furen",
     "who is furen longbeard"
    ],
-   "answer": "Furen Longbeard is Grimand Elmore's former student. Grimand is usually skeptical of outside ideas, but Furen's latest innovations in armorcrafting proved compelling enough for Grimand to test them firsthand."
+   "answer": "Furen Longbeard is Grimand Elmore’s former student. Grimand is usually skeptical of outside ideas, but Furen’s latest armorcrafting methods have persuaded him to test them firsthand."
   },
   {
    "q": "What happens after returning the blood and rock?",
@@ -82,21 +82,21 @@
     "reward",
     "what does grimand make"
    ],
-   "answer": "After receiving the fiery reagents, Grimand immediately begins forging the armor to verify Furen's techniques, promising the finished crafted piece to the adventurer who gathered the materials."
+   "answer": "Grimand begins forging armor after receiving the fiery reagents, to test Furen’s methods. He promises the finished piece to the adventurer who gathered the materials."
   }
  ],
  "angles": [
   {
    "target": "class:Warrior",
-   "text": "For warriors traversing the kingdom, braving the cursed beasts of Duskwood for Grimand's experiment yields uniquely tempered armor tailored for the front lines."
+   "text": "As a warrior, you can brave Duskwood’s cursed beasts for Grimand’s experiment and earn uniquely tempered armor made for the front lines."
   },
   {
    "target": "profession:Blacksmithing",
-   "text": "Blacksmiths will appreciate the professional pride between Grimand and his former student Furen, highlighting the lengths master smiths will go to test rare metallurgy and quenching agents."
+   "text": "As a blacksmith, you can see Grimand test the methods of his former student, Furen, with rare metals and quenching agents."
   },
   {
    "target": "faction:Alliance",
-   "text": "Reclaiming reagents from Roland's Doom helps keep the encroaching worgen menace in Duskwood checked while supplying Stormwind's armories with potent new defensive techniques."
+   "text": "As an Alliance member, you can recover reagents from Roland’s Doom, helping check the worgen threat in Duskwood and supply Stormwind’s armories with new defensive methods."
   }
  ],
  "keywords": [
@@ -119,5 +119,6 @@
  ],
  "attribution": [
   "Burning Blood (quest)"
- ]
+ ],
+ "style": 1
 }

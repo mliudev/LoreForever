@@ -20,16 +20,16 @@
    "Snatch and Grab"
   ]
  },
- "summary": "Seek out SI: 7 is an introductory task handed to fledgling rogues in Elwynn Forest by Keryn Sylvius. Carrying a small package from Goldshire to Stormwind City, novice agents are introduced to Master Mathias Shaw, the leader of the crown's covert intelligence network.",
+ "summary": "In Goldshire, Keryn Sylvius sends new rogues toward SI: 7. A sealed package carried to Stormwind City brings them before Master Mathias Shaw, who leads the crown's covert intelligence network.",
  "sections": [
   {
    "title": "A Courier's Test",
-   "body": "In the Lion's Pride Inn at Goldshire, rogue trainer Keryn Sylvius wastes little time flattering newcomers. Believing fresh initiates look more like cheese delivery hands than capable covert operatives, Sylvius nonetheless passes along an errand: carry a sealed delivery into the capital. The task acts as both a reliable courier run and a quiet vetting process for scouts entering the broader service of the realm.",
+   "body": "At the Lion's Pride Inn in Goldshire, rogue trainer Keryn Sylvius wastes no time praising newcomers. She thinks fresh initiates look more like cheese delivery hands than covert agents, yet gives them a sealed delivery for the capital. The trip tests their reliability as couriers and quietly vets scouts for wider service to the realm.",
    "spoiler": 0
   },
   {
    "title": "Behind Closed Doors in Old Town",
-   "body": "The destination lies deep within Old Town, the bustling and worn quarter of Stormwind City. Tucked into the southeastern corner of the district stands the command center of SI:7\u2014Stormwind Intelligence, Section 7. Here, Master Mathias Shaw oversees the kingdom's covert operations. Receiving the package with his characteristic dry skepticism, Shaw evaluates whether the traveler possesses the grit needed for real espionage.",
+   "body": "SI: 7 works from the southeastern corner of Old Town in Stormwind City. The worn district holds the command center of Stormwind Intelligence, Section 7, where Master Mathias Shaw oversees the kingdom's covert operations. Shaw receives the package with dry skepticism and judges whether the traveler has the grit for real espionage.",
    "spoiler": 0
   }
  ],
@@ -41,7 +41,7 @@
     "what is si7",
     "si:7 lore"
    ],
-   "answer": "SI:7 stands for Stormwind Intelligence, Section 7. It is the clandestine intelligence and covert operations branch of the Kingdom of Stormwind, led by Master Mathias Shaw from their headquarters in Old Town."
+   "answer": "SI: 7 means Stormwind Intelligence, Section 7. Led by Master Mathias Shaw from its Old Town headquarters, it handles the Kingdom of Stormwind's secret intelligence and covert operations."
   },
   {
    "q": "Who is Keryn Sylvius?",
@@ -49,7 +49,7 @@
     "keryn sylvius",
     "goldshire rogue trainer"
    ],
-   "answer": "Keryn Sylvius is a rogue trainer stationed in Goldshire at the Lion's Pride Inn. Operating in liaison with SI:7, she evaluates local recruits and directs promising scouts toward Master Mathias Shaw in Stormwind City."
+   "answer": "Keryn Sylvius trains rogues at the Lion's Pride Inn in Goldshire. She works with SI: 7, evaluates local recruits, and directs promising scouts to Master Mathias Shaw in Stormwind City."
   },
   {
    "q": "Where is Mathias Shaw located in Stormwind?",
@@ -58,7 +58,7 @@
     "find mathias shaw",
     "mathias shaw location"
    ],
-   "answer": "Master Mathias Shaw can be found on the upper floor of the SI:7 headquarters, located in the southeastern corner of Old Town in Stormwind City, past the city's rogue trainers."
+   "answer": "Master Mathias Shaw is on the upper floor of SI: 7 headquarters, in the southeastern corner of Old Town in Stormwind City, past the city's rogue trainers."
   },
   {
    "q": "What happens after delivering the package to Shaw?",
@@ -66,7 +66,7 @@
     "next quest after seek out si 7",
     "what does shaw want"
    ],
-   "answer": "Once you report to Mathias Shaw, he immediately tests your practical rogue skills by sending you on a covert operation to Jerod's Landing to lift a shipping schedule from a Defias dockmaster."
+   "answer": "After you report to Mathias Shaw, he tests your rogue skills by sending you to Jerod's Landing to steal a shipping schedule from a Defias dockmaster."
   },
   {
    "q": "Why does Keryn mock the player before handing over the delivery?",
@@ -74,17 +74,17 @@
     "why does keryn insult me",
     "cheese delivery insult"
    ],
-   "answer": "SI:7 operatives pride themselves on high competence and sharp instincts. Sylvius treats green recruits harshly to gauge their temperament and ensure only those with thick skin and real resolve bother Master Shaw."
+   "answer": "SI: 7 operatives prize competence and sharp instincts. Keryn Sylvius treats new recruits harshly to judge their temperament and see whether they have the resolve to approach Master Shaw."
   }
  ],
  "angles": [
   {
    "target": "class:Rogue",
-   "text": "This mission marks a rogue's formal entry into the service of Stormwind's premier espionage agency, transitioning from petty back-alley tricks to royal reconnaissance."
+   "text": "As a rogue, you enter Stormwind's foremost espionage agency, moving from back-alley tricks to royal reconnaissance."
   },
   {
    "target": "faction:Alliance",
-   "text": "SI:7 serves as the crown's eyes and ears against internal and external threats, quietly protecting the realm while King Varian Wrynn remains missing."
+   "text": "As an Alliance member, you rely on SI: 7 to guard the realm against threats within and beyond its borders while King Varian Wrynn remains missing."
   }
  ],
  "keywords": [
@@ -108,5 +108,6 @@
  ],
  "attribution": [
   "Seek out SI: 7"
- ]
+ ],
+ "style": 1
 }

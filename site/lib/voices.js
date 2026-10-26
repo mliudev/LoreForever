@@ -267,9 +267,8 @@ const FONTS = "https://fonts.googleapis.com/css2?family=Alegreya+Sans:wght@400;5
 // over it, if any; the optional email sign-up, which public/js/foot.js sends to /api/subscribe tagged with source (the
 // page it came from); then the site's parts in columns and the fine print.
 export function siteFoot({ lead = "", source = "site", signup = true, legal } = {}) {
-  const fine = legal ?? `<p>Lore text is adapted from the <a href="https://warcraft.wiki.gg">Warcraft Wiki</a> under
-        <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a>.</p>
-      <p>Lore Forever is a fan-made add-on. World of Warcraft and Warcraft are trademarks of Blizzard Entertainment, Inc.
+  // (Where the lore comes from and its licences: /credits, in the Fine print column.)
+  const fine = legal ?? `<p>Lore Forever is a fan-made add-on. World of Warcraft and Warcraft are trademarks of Blizzard Entertainment, Inc.
         Not affiliated with or endorsed by Blizzard.</p>`;
   return `<footer class="h-foot">
   <div class="h-wrap">
@@ -277,7 +276,7 @@ ${lead ? `    <div class="h-foot-lead">${lead}</div>\n` : ""}    <div class="h-f
       <nav aria-label="The add-on"><h2>The add-on</h2><ul><li><a href="/downloads">Download</a></li><li><a href="/whats-new">What's new</a></li><li><a href="/downloads#languages">Languages</a></li><li><a href="/guides">Guides</a></li><li><a href="/downloads#voices">Narrator voices</a></li><li><a href="/lore">Lore library</a></li></ul></nav>
       <nav aria-label="Community"><h2>Community</h2><ul><li><a href="/discord?src=site">Discord</a></li><li><a href="/translate">Translate</a></li><li><a href="/voices/lend">Lend your voice</a></li><li><a href="/contributors">Contributors</a></li><li><a href="https://www.twitch.tv/jiuthaimike">Twitch</a></li><li><a href="/creators">Creator program</a></li></ul></nav>
       <nav aria-label="Willo"><h2>Sister site</h2><ul><li><a href="/willo">Willo<span class="nl-out" aria-hidden="true">&#8599;</span></a></li><li><a class="dim" href="/willo">willocompanion.com</a></li><li class="h-foot-tag">Talk to the world while you play.</li><li><a href="/plans">Plans</a></li><li><a href="/willo/style">Willo's style</a></li></ul></nav>
-      <nav aria-label="About"><h2>Fine print</h2><ul><li><a href="/privacy">Privacy</a></li><li><a href="/terms">Terms</a></li><li><a href="/feedback">Feedback</a></li><li><a href="/refunds">Refunds</a></li><li><a href="/faq">FAQ</a></li><li><a href="https://github.com/mliudev/LoreForever">Source on GitHub</a></li></ul></nav>
+      <nav aria-label="About"><h2>Fine print</h2><ul><li><a href="/privacy">Privacy</a></li><li><a href="/terms">Terms</a></li><li><a href="/feedback">Feedback</a></li><li><a href="/refunds">Refunds</a></li><li><a href="/faq">FAQ</a></li><li><a href="/credits">Credits</a></li><li><a href="https://github.com/mliudev/LoreForever">Source on GitHub</a></li></ul></nav>
     </div>
     <div class="h-foot-base">
 ${signup ? `      <form class="h-sub-form" id="signup" data-source="${escape(source)}">

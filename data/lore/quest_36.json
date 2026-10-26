@@ -20,16 +20,16 @@
    "Westfall Stew (Classic 2)"
   ]
  },
- "summary": "Westfall Stew begins as a neighborly exchange between fleeing homesteaders and the few farmers still holding ground. With her family forced to abandon their land due to rampant banditry, Verna Furlbrow passes her cherished local recipe to Salma Saldean before departing the region.",
+ "summary": "In Westfall, another family is leaving its farm as banditry drives homesteaders from their land. Before departing, Verna Furlbrow entrusts her cherished local recipe to Salma Saldean.",
  "sections": [
   {
    "title": "A Recipe Passed On",
-   "body": "The Furlbrows' departure highlights the worsening collapse across Westfall's countryside. Driven off their family acreage by Defias thieves and mechanical harvest reapers gone wild, Verna and Farmer Furlbrow are packing their wagon to seek refuge behind Stormwind's walls. Reluctant to let her home-cooked tradition vanish along with her farm, Verna entrusts her signature recipe for Westfall Stew to her neighbor, Salma Saldean.",
+   "body": "Defias thieves and wild mechanical harvest reapers have driven Verna and Farmer Furlbrow from their family acreage. They pack their wagon and prepare to seek refuge behind Stormwind's walls. Before leaving, Verna gives her neighbor Salma Saldean the recipe for Westfall Stew, hoping the farm's home-cooked tradition will live on.",
    "spoiler": 0
   },
   {
    "title": "Homestead Solidarity",
-   "body": "Salma Saldean still clings to her homestead just down the road, stubbornly holding out alongside her husband Farmer Saldean. Receiving Verna's recipe is a bittersweet moment: while it marks the loss of another neighbor to the growing unrest, it also preserves a staple of local farm life. With the instructions in hand, Salma sets out to gather the necessary rustic ingredients to feed those still struggling to survive on the frontier.",
+   "body": "Salma Saldean and her husband, Farmer Saldean, still hold their homestead just down the road. Verna's recipe marks the loss of another neighbor to the unrest, yet keeps a local farm tradition alive. Salma sets out to gather the ingredients needed to feed those still struggling on the frontier.",
    "spoiler": 0
   }
  ],
@@ -41,7 +41,7 @@
     "furlbrows leaving westfall",
     "why verna packing"
    ],
-   "answer": "Thieves and bandits have overrun their fields, turning their land far too dangerous to work. Verna and Farmer Furlbrow are repairing their wagon to flee to the safety of Stormwind City."
+   "answer": "Defias thieves and bandits have made the Furlbrows' fields too dangerous to work. Verna and Farmer Furlbrow are packing their wagon to flee to Stormwind City."
   },
   {
    "q": "Who is Salma Saldean?",
@@ -49,7 +49,7 @@
     "who is salma",
     "salma saldean lore"
    ],
-   "answer": "Salma Saldean is a Westfall homesteader living on Saldean's Farm, just past the fork in the road from the Furlbrow homestead. She and her family continue to work their land despite the surrounding lawlessness."
+   "answer": "Salma Saldean is a Westfall homesteader who lives with her family on Saldean's Farm, just past the fork in the road from the Furlbrow homestead. They keep working their land despite the lawlessness around them."
   },
   {
    "q": "What is Westfall Stew?",
@@ -57,7 +57,7 @@
     "what is westfall stew",
     "westfall stew recipe"
    ],
-   "answer": "It is a traditional, hearty regional dish concocted from native ingredients found across the Westfall plains, long shared among local farming households."
+   "answer": "Westfall Stew is a traditional regional dish made from ingredients found across the Westfall plains, shared among local farming households."
   },
   {
    "q": "Where are the Furlbrows planning to go?",
@@ -65,7 +65,7 @@
     "where furlbrows going",
     "furlbrow destination"
    ],
-   "answer": "They are heading north toward the safety of Stormwind City, where Verna's friends believe she will fit right in."
+   "answer": "The Furlbrows are heading north to Stormwind City for safety, where Verna's friends believe she will fit right in."
   },
   {
    "q": "Where is Saldean's Farm located?",
@@ -73,7 +73,7 @@
     "saldean farm location",
     "where is salma saldean"
    ],
-   "answer": "Saldean's Farm lies just beyond the fork in the main road, situated south of the Furlbrow pumpkin patch in Westfall."
+   "answer": "Saldean's Farm lies just beyond the fork in the main road, south of the Furlbrow pumpkin patch in Westfall."
   },
   {
    "q": "Does this quest reward the actual cooking recipe?",
@@ -81,17 +81,17 @@
     "recipe reward",
     "do i get westfall stew recipe"
    ],
-   "answer": "Delivering the written instructions to Salma Saldean is only the first step. To actually prepare the dish, Salma will ask for help sourcing the rustic ingredients needed for the pot."
+   "answer": "Delivering the written instructions to Salma is only the first step. To prepare the stew, she asks for help gathering the ingredients."
   }
  ],
  "angles": [
   {
    "target": "profession:Cooking",
-   "text": "The dish represents the quintessential frontier cooking of human homesteaders, turning scavenged prairie game and hardy root vegetables into sustenance."
+   "text": "Westfall Stew is frontier fare for human homesteaders, made from scavenged prairie game and hardy root vegetables."
   },
   {
    "target": "race:Human",
-   "text": "The delivery reflects the crumbling frontier of the kingdom of Stormwind, where ordinary rural citizens are steadily driven from their ancestral farms into urban exile."
+   "text": "As a human, you see the kingdom's rural citizens driven from their ancestral farms into urban exile as the Stormwind frontier crumbles."
   }
  ],
  "keywords": [
@@ -114,5 +114,6 @@
  ],
  "attribution": [
   "Westfall Stew (Classic)"
- ]
+ ],
+ "style": 1
 }

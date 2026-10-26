@@ -2,9 +2,6 @@
 -- Sources: data/i18n/ukUA. Lore text adapted from warcraft.wiki.gg (CC BY-SA 4.0); the core add-on's src fields name the articles.
 local P = LoreForeverPacks.Begin("LoreForever_Lang_ukUA")
 local Po = P.search.post
-Po["найкращою"] = "GBCBHszBJImBJcMBK0sB"
-Po["найкращої"] = "EsBB"
-Po["найкращу"] = "AjDBBu1BCMHBJqKB"
 Po["найкращі"] = "ACSBAIlBA6OBCWaBCw7BDMdBDVoBENTBEzIBFlHBF91BGHuBGHzBG1YBHSNBHTwBH44BJYNBJx8BJ8YBKt3BLE9B"
 Po["найкривавіших"] = "CrQBGskB"
 Po["найкрутішим"] = "GwHB"
@@ -12002,3 +11999,6 @@ Po["оргріммарблекрок"] = "B3tB"
 Po["оргріммарбоягуз"] = "BvIB"
 Po["оргріммарбудівельники"] = "JyiC"
 Po["оргріммарватажок"] = "ComB"
+Po["оргріммарвовк"] = "CqDB"
+Po["оргріммарводи"] = "EhhB"
+Po["оргріммарволодар"] = "HGPB"

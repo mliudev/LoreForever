@@ -31,6 +31,7 @@ import { EMAIL_SETUP, EMAIL_USER_DATA } from "./email.js";
 import { NOTEBOOK_SETUP, NOTEBOOK_USER_DATA } from "./willo-notebook.js";
 import { STOCK_SETUP, STOCK_USER_DATA } from "./willo-stock.js";
 import { createMissing } from "./schema.js";
+import { inboxOf, INBOX_SQL } from "./inbox.js";
 
 const SETUP = [
   ...HISTORY_BASE_SETUP,
@@ -244,6 +245,18 @@ export async function setup(env) {
           columns.add(column);
         }
       })(),
+      // users.email_key (LOR-816): the inbox an address reaches (lib/inbox.js INBOX_SQL), generated so every write fills
+      // it and indexed, so accountByEmail finds a Gmail variant's account without reading every Gmail row. Optional:
+      // accountByEmail reads the rows without it. table_xinfo, since table_info leaves generated columns out. A new
+      // database too: users was made just above.
+      (async () => {
+        const has = async () => (await env.DB.prepare("PRAGMA table_xinfo(users)").all()).results.some(c => c.name === "email_key");
+        if (!(await has())) {
+          try { await env.DB.prepare(`ALTER TABLE users ADD COLUMN email_key TEXT GENERATED ALWAYS AS (${INBOX_SQL}) VIRTUAL`).run(); }
+          catch (error) { if (!(await has())) return console.warn(`users.email_key: ${error?.message || error}`); }
+        }
+        await env.DB.prepare("CREATE INDEX IF NOT EXISTS users_email_key ON users (email_key)").run();
+      })().catch(error => console.warn(`users.email_key index: ${error?.message || error}`)),
       // clip_reports.fixed_in (LOR-621): the release that carried the new recording (POST /api/clip-report/shipped).
       existing.has("clip_reports") && (async () => {
         const has = async () => (await env.DB.prepare("PRAGMA table_info(clip_reports)").all()).results.some(c => c.name === "fixed_in");
@@ -377,7 +390,7 @@ export async function endSession(env, request) {
 
 // The Terms (public/terms.html) a sign-in agrees to: its "Updated" date. Change both together when the terms change, so
 // the next sign-in records the new version. Every sign-in page says "By signing in, you agree to the Terms and Privacy".
-export const TERMS_VERSION = "2026-10-21";
+export const TERMS_VERSION = "2026-10-25";
 
 // Records that this account agreed to TERMS_VERSION, once per version (the first sign-in that showed it). Never stops a
 // sign-in: a failure only leaves the record out.
@@ -390,11 +403,39 @@ export async function recordTerms(env, userId) {
   }
 }
 
-// Finds the user by Google account (or by verified email, for a user made some other way), or creates one.
+// One inbox, one account (lib/inbox.js: Gmail's dots and +tags).
+export { inboxOf };
+
+// The account with this email address (a verified one: Google's, Apple's or a sign-in code's), or null. The same
+// address first (the email column's index); for Gmail, then any account whose address is the same inbox, the oldest
+// first, so a player who signed up with Google as john.smith@gmail.com and types johnsmith@gmail.com still finds it.
+export async function accountByEmail(env, email) {
+  const address = String(email || "").trim().toLowerCase();
+  if (!address) return null;
+  const same = await env.DB.prepare("SELECT * FROM users WHERE email = ?").bind(address).first();
+  if (same) return same;
+  const inbox = inboxOf(address);
+  if (!inbox.endsWith("@gmail.com")) return null;
+  try {
+    return await env.DB.prepare("SELECT * FROM users WHERE email_key = ? ORDER BY created LIMIT 1").bind(inbox).first() ?? null;
+  } catch (error) {   // no users.email_key yet (setup couldn't add it): every Gmail row, as before
+    const { results } = await env.DB.prepare(
+      "SELECT * FROM users WHERE email LIKE '%@gmail.com' OR email LIKE '%@googlemail.com' ORDER BY created").all();
+    return results.find(u => inboxOf(u.email) === inbox) || null;
+  }
+}
+
+// Finds the user by Google account (or by verified email, for a user made some other way), or creates one. When a
+// Google account's address has changed since, the account takes the new one (if no other account has it), so signing
+// in by email with today's address finds it.
 export async function findOrCreateUser(env, { email, googleSub, name }) {
   await setup(env);
   let user = googleSub && await env.DB.prepare("SELECT * FROM users WHERE google_sub = ?").bind(googleSub).first();
-  if (!user && email) user = await env.DB.prepare("SELECT * FROM users WHERE email = ?").bind(email).first();
+  if (user && email && user.email !== email && !(await env.DB.prepare("SELECT 1 FROM users WHERE email = ?").bind(email).first())) {
+    await env.DB.prepare("UPDATE users SET email = ? WHERE id = ?").bind(email, user.id).run();
+    user = { ...user, email };
+  }
+  if (!user && email) user = await accountByEmail(env, email);
   if (user) {
     if (googleSub && !user.google_sub) {
       await env.DB.prepare("UPDATE users SET google_sub = ? WHERE id = ?").bind(googleSub, user.id).run();

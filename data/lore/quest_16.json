@@ -17,16 +17,16 @@
   "wiki": "Give Gerard a Drink",
   "chain": []
  },
- "summary": "Give Gerard a Drink is a straightforward favor for Gerard Tiller, a farmer toiling at the Maclure Vineyards in Elwynn Forest. Looking to quench his thirst under the sun, he trades basic produce in exchange for bottles of fresh spring water. It offers young adventurers an early lesson in barter and supporting local laborers.",
+ "summary": "At the Maclure Vineyards, Gerard Tiller works long days in the fields and needs fresh spring water. He trades apples for water brought by passing travelers.",
  "sections": [
   {
    "title": "Thirsty Work in the Vineyard Fields",
-   "body": "The farms of Elwynn Forest produce much of the grain, fruit, and vegetables consumed by Stormwind's townsfolk and garrisons. Tending the rows of crops under the open sky is grueling, hot work. Gerard Tiller spends long days out in the dirt at the Maclure Vineyards, keeping the pests away and managing the harvests. With little time to run back and forth to town wells, he relies on passing recruits to bring him clean spring water to keep going.",
+   "body": "Elwynn Forest's farms supply grain, fruit, and vegetables to Stormwind's townsfolk and garrisons. Tending crops under the open sky is hot, demanding work. Gerard Tiller spends long days in the dirt at the Maclure Vineyards, keeping pests away and managing the harvest. With little time to return to town wells, he relies on passing recruits to bring clean spring water so he can keep working.",
    "spoiler": 0
   },
   {
    "title": "The Economy of Barter",
-   "body": "Rather than dealing in coin, Gerard prefers a fair and simple exchange of provisions. Travelers carrying extra flasks of Refreshing Spring Water can trade them directly for fresh apples picked from the orchard. In a kingdom stretching its resources thin to maintain order and feed its army, direct bartering among smallholders and recruits remains a practical way of getting by in rural Elwynn.",
+   "body": "Gerard trades provisions instead of coin. Travelers with extra flasks of Refreshing Spring Water can exchange them for fresh apples from the orchard. The kingdom stretches its resources to maintain order and feed its army, so direct barter between smallholders and recruits remains a practical way to get by in rural Elwynn.",
    "spoiler": 0
   }
  ],
@@ -38,7 +38,7 @@
     "who is tiller",
     "gerard"
    ],
-   "answer": "Gerard Tiller is a humble farmer working the agricultural plots at the Maclure Vineyards in southern Elwynn Forest. He manages the fields and orchards that supply the local residents."
+   "answer": "Gerard Tiller is a farmer at the Maclure Vineyards in southern Elwynn Forest. He tends the fields and orchards that supply local residents."
   },
   {
    "q": "Why does Gerard need water?",
@@ -47,7 +47,7 @@
     "gerard thirsty",
     "why need drink"
    ],
-   "answer": "Laboring in the fields all day under the sun is exhausting work. Gerard relies on passing travelers to supply him with fresh spring water so he can stay hydrated without abandoning his chores."
+   "answer": "Working in the fields under the sun all day is exhausting. Gerard relies on passing travelers for fresh spring water so he can stay hydrated without leaving his chores."
   },
   {
    "q": "Where can Refreshing Spring Water be found?",
@@ -56,7 +56,7 @@
     "spring water source",
     "how to get water"
    ],
-   "answer": "Refreshing Spring Water is commonly sold by food and drink vendors or innkeepers throughout Elwynn Forest, including Brother Danil inside Northshire Abbey."
+   "answer": "Food and drink vendors and innkeepers throughout Elwynn Forest commonly sell Refreshing Spring Water. Brother Danil sells it inside Northshire Abbey."
   },
   {
    "q": "Is this trade repeatable?",
@@ -65,7 +65,7 @@
     "can i do this again",
     "turn in more water"
    ],
-   "answer": "Yes. Gerard is continually working the fields and remains eager to trade fresh orchard apples for additional bottles of water as long as you have them to spare."
+   "answer": "Yes. Gerard keeps working the fields and will trade fresh orchard apples for more bottles of water you can spare."
   },
   {
    "q": "What does Gerard offer in return for the drink?",
@@ -74,7 +74,7 @@
     "what do i get",
     "trade reward"
    ],
-   "answer": "In exchange for fresh water, Gerard trades a Shiny Red Apple."
+   "answer": "Gerard trades a Shiny Red Apple for fresh water."
   },
   {
    "q": "Where is Gerard located?",
@@ -83,17 +83,17 @@
     "where is gerard",
     "where is the farm"
    ],
-   "answer": "He can be found outside the barn at the Maclure Vineyards in southern Elwynn Forest."
+   "answer": "Gerard is outside the barn at the Maclure Vineyards in southern Elwynn Forest."
   }
  ],
  "angles": [
   {
    "target": "faction:Alliance",
-   "text": "Supporting Elwynn's farmers at places like the Maclure Vineyards keeps the forest's homesteads and garrisons fed during a turbulent period of kingdom defense."
+   "text": "Supporting Elwynn's farmers at places like the Maclure Vineyards helps feed the forest's homesteads and garrisons while the kingdom defends itself."
   },
   {
    "target": "race:Human",
-   "text": "For humans starting their journeys in Northshire, aiding neighbors like Gerard Tiller is an early example of the communal spirit that holds Elwynn together."
+   "text": "As a human starting in Northshire, helping neighbors like Gerard Tiller shows the communal spirit that holds Elwynn together."
   }
  ],
  "keywords": [
@@ -110,5 +110,6 @@
  ],
  "attribution": [
   "Give Gerard a Drink"
- ]
+ ],
+ "style": 1
 }

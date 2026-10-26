@@ -10,11 +10,11 @@
    "quest:46"
   ]
  },
- "summary": "Torn Murloc Fins serve as proof of work for the Stormwind Army's standing bounty on hostile amphibians in eastern Elwynn Forest. Harvested from foragers and lurkers along the riverbanks, they demonstrate that local waterways are being systematically cleared.",
+ "summary": "In eastern Elwynn, Torn Murloc Fins show the Stormwind Army's bounty is being answered. Taken from foragers and lurkers along the riverbanks, they show that local waterways are being systematically cleared.",
  "sections": [
   {
    "title": "A Bountied Threat",
-   "body": "As the murloc population along eastern Elwynn's streams and lakes surged, the Stormwind Army authorized a direct bounty to cull their numbers. Guard Thomas, stationed at the bridge spanning the eastern river, collects these severed fins to verify kills. With Stormwind's military stretched thin defending against internal unrest and regional threats, local authorities rely heavily on traveling adventurers to bring in physical proof of cleared encampments.",
+   "body": "Murlocs have grown numerous along eastern Elwynn's streams and lakes, and the Stormwind Army offers a bounty to reduce their numbers. Guard Thomas, who watches the bridge over the eastern river, collects the severed fins as proof of kills. Stormwind's soldiers are stretched thin by unrest at home and threats nearby, so local authorities depend on travelers to bring proof that murloc camps have been cleared.",
    "spoiler": 0
   }
  ],
@@ -26,7 +26,7 @@
     "fin turn in",
     "guard thomas fins"
    ],
-   "answer": "Guard Thomas collects them at the eastern bridge of Elwynn Forest on behalf of Marshal Dughan and the Stormwind Army."
+   "answer": "Guard Thomas collects Torn Murloc Fins at Elwynn Forest's eastern bridge for Marshal Dughan and the Stormwind Army."
   },
   {
    "q": "Where are the murlocs carrying these fins located?",
@@ -35,7 +35,7 @@
     "murloc fin locations",
     "fin drops"
    ],
-   "answer": "They are taken from murloc foragers and lurkers gathered around Stone Cairn Lake to the north and the southern stream fork near the eastern Elwynn border."
+   "answer": "The fins come from murloc foragers and lurkers around Stone Cairn Lake to the north and the southern stream fork near eastern Elwynn's border."
   },
   {
    "q": "Why does Stormwind require fins as proof?",
@@ -44,7 +44,7 @@
     "proof of kill murlocs",
     "bounty proof"
    ],
-   "answer": "Fins provide unmistakable, easily transported physical evidence of slain murlocs, ensuring bounty hunters are properly credited before receiving army pay."
+   "answer": "Fins are unmistakable and easy to carry, giving the Stormwind Army physical proof of slain murlocs before it pays the bounty hunters."
   },
   {
    "q": "Why is the Stormwind Army paying for dead murlocs?",
@@ -52,17 +52,17 @@
     "why murloc bounty",
     "murloc problem elwynn"
    ],
-   "answer": "Murloc villages have expanded rapidly along the waterways, threatening travelers, fishermen, and local infrastructure while the army's forces are occupied elsewhere."
+   "answer": "Murloc villages have spread quickly along the waterways, threatening travelers, fishermen, and local infrastructure while the Stormwind Army's forces are occupied elsewhere."
   }
  ],
  "angles": [
   {
    "target": "faction:Alliance",
-   "text": "Clearing the waterways of eastern Elwynn secures vital travel routes between Goldshire, Lakeshire, and Stormwind City."
+   "text": "For the Alliance, clearing eastern Elwynn's waterways protects vital routes between Goldshire, Lakeshire, and Stormwind City."
   },
   {
    "target": "race:Human",
-   "text": "Local human authorities are increasingly reliant on mercenaries to protect homesteads and riverbanks from aggressive murloc settlements."
+   "text": "As a human, you know local authorities rely more and more on mercenaries to protect homesteads and riverbanks from aggressive murloc settlements."
   }
  ],
  "keywords": [
@@ -88,5 +88,6 @@
  "attribution": [
   "Torn Murloc Fin",
   "Bounty on Murlocs"
- ]
+ ],
+ "style": 1
 }

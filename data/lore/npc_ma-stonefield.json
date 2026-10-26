@@ -8,11 +8,11 @@
   "wiki": "Ma Stonefield",
   "refs": 1
  },
- "summary": "Ma Stonefield is a human matriarch residing at the Stonefield Farm in western Elwynn Forest. Standing right outside the family homestead alongside Auntie Bernice, she deals with the daily hardships of rural farm life amidst neighboring rivalries and pest troubles.",
+ "summary": "At Stonefield Farm in western Elwynn, Ma Stonefield tends to hardships close to home. Beside Auntie Bernice, she faces farm troubles, neighboring rivalries, and pests.",
  "sections": [
   {
    "title": "Homestead Troubles",
-   "body": "Standing beside her family cottage in southwestern Elwynn Forest, Ma Stonefield watches over the farmstead alongside \"Auntie\" Bernice Stonefield. Life between the neighboring Maclure homestead and the nearby pumpkin patches is rarely peaceful. Local wild boars continuously threaten the family crops, and none poses a greater nuisance than Princess, an enormous prize sow notorious for trampling fields and devouring hard-earned harvests.",
+   "body": "Ma Stonefield watches over the farm beside her family cottage in southwestern Elwynn Forest, with Auntie Bernice Stonefield at her side. The neighboring Maclure homestead and nearby pumpkin patches bring little peace. Wild boars threaten the Stonefield crops, and Princess causes the greatest trouble. The enormous prize sow tramples fields and devours the harvest the family worked hard to grow.",
    "spoiler": 0
   }
  ],
@@ -24,7 +24,7 @@
     "ma stonefield",
     "stonefield mother"
    ],
-   "answer": "Ma Stonefield is one of the resident elders of the Stonefield family, living at their farmstead in southwestern Elwynn Forest alongside relatives like Auntie Bernice."
+   "answer": "Ma Stonefield is an elder of the Stonefield family, living at their farmstead in southwestern Elwynn Forest with relatives such as Auntie Bernice."
   },
   {
    "q": "Where can I find Ma Stonefield?",
@@ -33,7 +33,7 @@
     "where is ma stonefield",
     "stonefield farm loc"
    ],
-   "answer": "She can be found standing outdoors directly in front of the main house at the Stonefield Farm, located west of Goldshire in Elwynn Forest."
+   "answer": "Ma Stonefield stands outdoors in front of the main house at Stonefield Farm, west of Goldshire in Elwynn Forest."
   },
   {
    "q": "What problem does Ma Stonefield need solved?",
@@ -42,13 +42,13 @@
     "princess sow quest",
     "princess must die questgiver"
    ],
-   "answer": "Ma Stonefield seeks adventurers to put an end to Princess, a massive prize pig that repeatedly rampages through the surrounding fields and devours the local crops."
+   "answer": "Ma Stonefield wants help stopping Princess, a massive prize pig that repeatedly rampages through nearby fields and devours local crops."
   }
  ],
  "angles": [
   {
    "target": "faction:Alliance",
-   "text": "For Alliance adventurers exploring Elwynn Forest, aiding hardworking homesteaders like Ma Stonefield helps preserve Stormwind's agricultural backbone."
+   "text": "As an Alliance adventurer in Elwynn Forest, helping hardworking homesteaders like Ma Stonefield helps protect Stormwind's agricultural backbone."
   }
  ],
  "keywords": [
@@ -67,5 +67,6 @@
  ],
  "attribution": [
   "Ma Stonefield"
- ]
+ ],
+ "style": 1
 }

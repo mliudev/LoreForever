@@ -20,16 +20,16 @@
    "Stormpike's Order"
   ]
  },
- "summary": "Mountaineer Stormpike, stationed up in the snowy crags of Loch Modan, desires a shield crafted by the renowned armorsmith Furen Longbeard. Because Furen has set up shop far to the south in Stormwind City, the mountaineer enlists a traveling adventurer to deliver the commissioned order.",
+ "summary": "In Loch Modan, Mountaineer Stormpike is arranging a shield from Furen Longbeard. The armorsmith works far south in Stormwind City, so Stormpike asks a traveler to carry his order there.",
  "sections": [
   {
    "title": "A Shield Worth the Journey",
-   "body": "Even in remote outposts like Loch Modan, dwarf mountaineers hold strong opinions about craftsmanship. Mountaineer Stormpike insists that only one smith can forge his next shield: Furen Longbeard. Convinced that Longbeard's talent is second to none, Stormpike is willing to pay handsomely to get a commission into the master smith's hands, despite the immense distance between them.",
+   "body": "Mountaineer Stormpike wants a new shield, and he trusts only Furen Longbeard to forge it. The mountaineer is willing to pay well to place the commission in the smith’s hands, though Loch Modan and Stormwind City lie far apart.",
    "spoiler": 0
   },
   {
    "title": "From Ironforge to the Dwarven District",
-   "body": "What baffles Stormpike most is Furen's location. Rather than staying near the Great Forge of Ironforge alongside his kin, Longbeard makes his living far south in Stormwind City's Dwarven District. Stormpike surmises the humans must be paying him a king's ransom to lure such an artisan away from his ancestral home. When the missive finally reaches Furen over his anvil, the smith takes pride in hearing from the prestigious Stormpike clan and eagerly prepares to hammer out the shield.",
+   "body": "Stormpike wonders why Furen works so far from Ironforge and the Great Forge, where many dwarves make their home. He suspects Stormwind’s humans pay the smith a king’s ransom. When the order reaches Furen at his anvil, the armorsmith takes pride in hearing from the prestigious Stormpike clan and eagerly prepares to forge the shield.",
    "spoiler": 0
   }
  ],
@@ -41,7 +41,7 @@
     "who gives the quest",
     "quest giver"
    ],
-   "answer": "He is an Alliance sentry stationed in Loch Modan, part of the dwarven mountaineer force protecting the mountain passes and valleys. He belongs to the proud and influential Stormpike clan."
+   "answer": "Mountaineer Stormpike is an Alliance sentry stationed in Loch Modan. He belongs to the proud and influential Stormpike clan and serves among the dwarven mountaineers who protect the mountain passes and valleys."
   },
   {
    "q": "Who is Furen Longbeard?",
@@ -50,7 +50,7 @@
     "who is furen",
     "the armorsmith"
    ],
-   "answer": "Furen Longbeard is an accomplished dwarven armorsmith who resides in the Dwarven District of Stormwind City. His reputation for forging superior shields and armor extends all the way north to Khaz Modan."
+   "answer": "Furen Longbeard is an accomplished dwarven armorsmith who lives in Stormwind City's Dwarven District. His reputation for forging superior shields and armor reaches north to Khaz Modan."
   },
   {
    "q": "Why does Furen live in Stormwind instead of Ironforge?",
@@ -59,7 +59,7 @@
     "why dwarven district",
     "furen leaving ironforge"
    ],
-   "answer": "While traditionalists like Mountaineer Stormpike wonder why any master dwarf would abandon Ironforge, Furen plies his trade in Stormwind's Dwarven District to cater to human nobility, city guards, and traveling adventurers, likely earning a lucrative income in human coin."
+   "answer": "Furen Longbeard works in Stormwind's Dwarven District, where he caters to human nobility, city guards, and traveling adventurers. Mountaineer Stormpike wonders why a master dwarf would leave Ironforge, but Furen likely earns a lucrative income in human coin."
   },
   {
    "q": "What is the Deeprun Tram's role in delivering this order?",
@@ -68,7 +68,7 @@
     "how to get to stormwind",
     "deeprun tram"
    ],
-   "answer": "Travelers carrying Stormpike's missive generally journey west from Loch Modan to Ironforge, then take the subterranean Deeprun Tram directly into Stormwind City's Dwarven District where Furen's forge is located."
+   "answer": "Travelers carrying Stormpike's missive usually go west from Loch Modan to Ironforge, then ride the Deeprun Tram underground into Stormwind City's Dwarven District, where Furen's forge is located."
   },
   {
    "q": "What comes before this quest?",
@@ -77,7 +77,7 @@
     "previous quest",
     "mountaineer stormpike's task"
    ],
-   "answer": "Before entrusting you with this courier mission to Stormwind, Mountaineer Stormpike tests your mettle and reliability in Loch Modan with 'Mountaineer Stormpike's Task'."
+   "answer": "Before entrusting you with the delivery to Stormwind, Mountaineer Stormpike tests your mettle and reliability in Loch Modan with 'Mountaineer Stormpike's Task'."
   },
   {
    "q": "Does Furen Longbeard forge the shield immediately?",
@@ -86,21 +86,21 @@
     "followup quest",
     "furen reaction"
    ],
-   "answer": "Upon receiving the letter and recognizing the prestige of the Stormpike name, Furen happily accepts the commission and promises to begin hammering out the shield before the end of the day."
+   "answer": "When Furen Longbeard receives the letter and recognizes the prestige of the Stormpike name, he accepts the commission and promises to start hammering out the shield before the end of the day."
   }
  ],
  "angles": [
   {
    "target": "race:Dwarf",
-   "text": "For dwarves, this delivery highlights the reach of clan reputations like the Stormpikes, while playfully questioning why a master armorsmith would ever choose human stone over Ironforge."
+   "text": "As a dwarf, you see how far a clan's reputation can reach. Stormpike's order also raises the question of why a master armorsmith would choose human stone over Ironforge."
   },
   {
    "target": "profession:Blacksmithing",
-   "text": "Furen Longbeard is recognized even across kingdoms as an exceptional armorsmith, making this a noteworthy stop for aspiring smiths traveling through Stormwind."
+   "text": "As a blacksmith, you may take note of Furen Longbeard, an exceptional armorsmith recognized even across kingdoms, as you travel through Stormwind."
   },
   {
    "target": "faction:Alliance",
-   "text": "The delivery demonstrates the close trade and cultural ties connecting the dwarven holds of Khaz Modan to the human capital of Stormwind via the Deeprun Tram."
+   "text": "As an Alliance traveler, you can see the trade and cultural ties between the dwarven holds of Khaz Modan and Stormwind, joined by the Deeprun Tram."
   }
  ],
  "keywords": [
@@ -123,5 +123,6 @@
  ],
  "attribution": [
   "Stormpike's Order"
- ]
+ ],
+ "style": 1
 }

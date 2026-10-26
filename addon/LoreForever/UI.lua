@@ -666,7 +666,7 @@ function UI.Create(engine)
     b:SetScript("OnLeave", function() GameTooltip:Hide() end)
     return b
   end
-  -- The heading names where you stand; clicking it opens that place's page (Here as a page, slice 5).
+  -- The heading names where you stand; clicking it tells that place's story in the conversation.
   local hereOpen = CreateFrame("Button", nil, hereView)
   hereOpen:SetPoint("TOPLEFT", 14, -HERE_TOP)
   hereOpen:SetSize(SIDE_W - 16, 18)
@@ -676,12 +676,13 @@ function UI.Create(engine)
   if UI.hereHeader.SetWordWrap then UI.hereHeader:SetWordWrap(false) end
   hereOpen:SetScript("OnClick", function()
     local key = ns.Road.HereKey()
-    if key then ns.Page.Show(key, "here") end
+    local e = key and UI.engine.db.entries[key]
+    if e then UI.ShowEntry(key, "here", UI.TellMeAbout(e)) end
   end)
   hereOpen:SetScript("OnEnter", function(self)
     if not ns.Road.HereKey() then return end
     GameTooltip:SetOwner(self, "ANCHOR_RIGHT")
-    T.Tip(L["Open this place's page"], "tipDim", true)
+    T.Tip(L["Tell me about this place"], "tipDim", true)
     GameTooltip:Show()
   end)
   hereOpen:SetScript("OnLeave", function() GameTooltip:Hide() end)
@@ -1259,6 +1260,7 @@ function UI.SpoilerAllowed(key, kind, idx)
   for _, m in ipairs(UI.msgs or {}) do
     local shown = m.spoiler
     if shown and shown.key == key and shown.kind == kind and shown.idx == idx and shown.text == text then return true end
+    if shown and shown.key == key and shown.kind == kind and shown.list and shown.list[idx] == text then return true end
   end
   return false
 end
@@ -1805,7 +1807,7 @@ local function finishTyping()
   if ty.ticker then ty.ticker:Cancel() end
   ty.m.revealed = true
   ty.fs:SetText(ty.m.body or ty.m.text)
-  if ty.chips and ty.m.linked and settings().chatLinks ~= false then ty.chips:Show() end
+  if ty.chips and #UI.OffTextLinks(ty.m) > 0 then ty.chips:Show() end
 end
 UI.FinishTyping = finishTyping
 
@@ -1874,6 +1876,7 @@ local function SetRating(b, log)
   local show = log ~= nil
   b.up:SetShown(show)
   b.down:SetShown(show)
+  b.up.label:SetShown(show)
   b.up.log, b.down.log = log, log
   if not show then return end
   b.up.lit, b.down.lit = log.helpful == true, log.helpful == false
@@ -1924,7 +1927,13 @@ local function RateButtons(parent)
     UI.ShowReport(self.log)
     UI.SuggestWilloLine(self.log.q)   -- a wrong answer is when live answers help most (once a play session)
   end, L["Not right?"], L["Tell us what was wrong, and copy a short report to send us."])
-  up:SetPoint("BOTTOMLEFT", PAD - 2, 6)
+  -- What the two marks ask, in words beside them (Design Lead, 10/25: round icons alone read as decoration).
+  local label = T.PaperText(parent:CreateFontString(nil, "OVERLAY", T.font.small), "inkNote")
+  label:SetText(L["Right answer?"])
+  label:SetPoint("BOTTOMLEFT", PAD, 9)
+  label:Hide()
+  up.label = label
+  up:SetPoint("LEFT", label, "RIGHT", 6, 0)
   down:SetPoint("LEFT", up, "RIGHT", 6, 0)
   return up, down
 end
@@ -2155,12 +2164,14 @@ function UI.Render(keepScroll)
     else b.queue:SetPoint("RIGHT", b.listen, "LEFT", -4, 0) end
     fs:SetPoint("TOPLEFT", f, "TOPLEFT", PAD, -top)
     local h = (fs:GetStringHeight() or 14) + top + PAD
-    -- The names the answer links, once more under it ("In this answer: ..."), shown once it has typed in.
+    -- The names the answer links that its text doesn't show ("In this answer: ..."), shown once it has typed in. A
+    -- name linked in the text isn't repeated under it (Design Lead, 10/25).
     local chips = b.chips
     chips:ClearAllPoints()
-    if m.linked and settings().chatLinks ~= false then
+    local off = UI.OffTextLinks(m)
+    if #off > 0 then
       chips:SetWidth(w - 2 * PAD)
-      chips:SetText(UI.ChipText(m.linked))
+      chips:SetText(UI.ChipText(off))
       chips:SetPoint("TOPLEFT", f, "TOPLEFT", PAD, -(h - PAD + 6))
       h = h + (tonumber(chips:GetStringHeight()) or 12) + 6
       chips:SetShown(not (m.animate and not m.revealed))
@@ -2522,13 +2533,10 @@ function UI.Refresh()
   -- Autoplay can fill the closed panel before its first open. Pending update notes still belong above that story.
   if ns.WhatsNew.Pending("card") then ns.WhatsNew.AddCard(true) end
   UI.welcomeFor = UI.WelcomeOnly() and where or nil
+  -- Short enough to fit the box in every language: the zone's name, not an example question (Design Lead, 10/25).
   if UI.inputHint then
-    local first
-    for _, s in ipairs(here or {}) do
-      if s.idx then first = s.label break end
-    end
-    UI.inputHint:SetText(first and string.format(L["Ask anything, e.g. %s"], esc(first))
-      or L["Ask anything about the world"])
+    local zone = type(ctx.zone) == "string" and ctx.zone ~= "" and ctx.zone or nil
+    UI.inputHint:SetText(zone and string.format(L["Ask anything about %s"], esc(zone)) or L["Ask anything about the world"])
   end
 end
 
@@ -2740,6 +2748,7 @@ end
 -- by itself (it's shown already).
 function UI.ShowTab(view, quiet)
   if view == "playlist" then return UI.ShowQueue(true) end
+  if not quiet and ns.Book and ns.Book.backTo then ns.Book.SetBackTo(nil) end   -- (a jump's way back lasts until you move on)
   if view == "narrations" or view == "library" then view = "found" end
   if view == "journey" then view = "road" end
   UI.ShowQueue(false)
@@ -2756,6 +2765,15 @@ function UI.ShowTab(view, quiet)
   UI.foundView:SetShown(view == "found")
   UI.roadView:SetShown(view == "road")
   UI.storyView:SetShown(view == "story")
+  -- History and New chat are the conversation's, so only Here shows them; the place line and Willo's icon then end
+  -- before the gear instead.
+  local here = view == "here"
+  UI.historyButton:SetShown(here)
+  UI.newButton:SetShown(here)
+  if not here and UI.historyFrame then UI.historyFrame:Hide() end
+  UI.willoIcon:ClearAllPoints()
+  UI.willoIcon:SetPoint("RIGHT", here and UI.historyButton or UI.optionsButton, "LEFT", -10, 0)
+  UI.UpdateWilloIcon()
   local label
   for _, t in ipairs(UI.tabs) do
     t:SetOn(t.view == view)
@@ -2797,8 +2815,50 @@ function UI.OpenChronicle(key, backTo)
   if UI.pageResume then UI.pageResume.found = nil end   -- (the page you chose, not the one you left on Found)
   UI.ShowTab("found")
   ns.Page.Show(key, "found")
-  ns.Page.backTo = backTo
+  ns.Page.SetBackTo(backTo)
   return true
+end
+
+-- Found on chapter `ck` with `filters` ({ kind, pages, story }), from bookmark `from` ("road"): what a Road count opens,
+-- with a gold "‹ Back to the Road" at its top right.
+local FOUND_BACK = { road = "Back to the Road" }
+function UI.OpenFound(ck, filters, from)
+  local B = ns.Book
+  if not (UI.frame and B and B.frame) then return end
+  if not UI.frame:IsShown() then UI.frame:Show() end
+  if UI.pageResume then UI.pageResume.found = nil end   -- (the list you asked for, not the page you left on Found)
+  UI.ShowTab("found")
+  if B.search and B.search:Active() then B.search:Clear() end
+  filters = filters or {}
+  B.chapter = ck
+  B.kind, B.pages, B.story, B.rarity = filters.kind, filters.pages or "all", filters.story or "any", "any"
+  if B.sort == "rarity" and B.kind ~= "items" then B.sort = "found" end
+  B.RefreshSide()
+  B.SetBackTo(from and FOUND_BACK[from] and { tab = from, label = L[FOUND_BACK[from]] } or nil)
+end
+
+-- "Tell me about the Defias Brotherhood": what a click on a name writes in the conversation as your question. An
+-- English name its own story opens with "The" ("The Defias Brotherhood is ...") reads with "the" there (Design
+-- Lead, 10/25); in another language the name stays as it is.
+function UI.TellMeAbout(e)
+  local n = tostring(e and e.n or "")
+  local loc = ns.readingLocale
+  if (loc == nil or loc == "enUS" or loc == "enGB") and not n:lower():find("^the ") then
+    local story = tostring(e.s or ""):gsub("^%s+", "")
+    if story:sub(1, #n + 4):lower() == "the " .. n:lower() then n = "the " .. n end
+  end
+  return string.format(L["Tell me about %s"], n)
+end
+
+-- "Ask about it in Here" (Found's page and a card's options): Here, with the page's story told in the conversation,
+-- its questions under it, and the ask box about it. Asking is Here's job; Found's pages only show.
+function UI.AskInHere(key)
+  local e = key and UI.engine and UI.engine.db.entries[key]
+  if not (UI.frame and e) then return end
+  if not UI.frame:IsShown() then UI.frame:Show() end
+  UI.ShowTab("here")
+  UI.ShowEntry(key, "here", UI.TellMeAbout(e))
+  if UI.inputHint then UI.inputHint:SetText(string.format(L["Ask about %s"], esc(e.n))) end
 end
 
 -- Playlist ---------------------------------------------------------------------------------------------------------
@@ -4406,7 +4466,6 @@ function UI.RestoreHistory(i)
   end
   UI.historyFrame:Hide()
   UI.SetNext({})
-  UI.NavClear()
   UI.Render()
 end
 
@@ -4429,7 +4488,6 @@ function UI.Clear()
   UI.unanswered = nil
   UI.engine.asked = {}
   UI.SetNext({})
-  UI.NavClear()
   UI.Refresh()
 end
 
@@ -4636,6 +4694,17 @@ function UI.Linker(key)
   end, linked
 end
 
+-- The keys a message links that aren't linked in its own text (none, with links off).
+function UI.OffTextLinks(m)
+  local out = {}
+  if not (m and m.linked) or settings().chatLinks == false then return out end
+  local text = m.text or ""
+  for _, k in ipairs(m.linked) do
+    if not text:find("|H" .. LORE_LINK .. k .. "|h", 1, true) then out[#out + 1] = k end
+  end
+  return out
+end
+
 -- "In this answer: [Westfall]  [Defias Brotherhood] ...": the linked names under an answer, the first few.
 local CHIPS_MAX = 8
 function UI.ChipText(keys)
@@ -4651,7 +4720,7 @@ end
 -- "Show spoiler" on a hidden section of an entry's overview: a click shows that section (UI.ShowSection).
 local REVEAL_LINK = "addon:LoreForever:reveal:"
 local function revealLink(key, idx)
-  return UI.LINK_COLOUR .. "|H" .. REVEAL_LINK .. idx .. ":" .. key .. "|h[" .. L["Show spoiler"] .. "]|h|r"
+  return UI.LINK_COLOUR .. "|H" .. REVEAL_LINK .. idx .. ":" .. key .. "|h" .. L["Show"] .. "|h|r"
 end
 function UI.RevealLinkTarget(link)
   local idx, key = (type(link) == "string" and link or ""):match("^addon:LoreForever:reveal:(%d+):(.+)$")
@@ -4691,7 +4760,8 @@ function UI.UpdateWilloIcon()
   if not icon then return end
   local on = ns.Companion.OfferWillo() and true or false
   icon:SetShown(on)
-  UI.contextLine:SetPoint("RIGHT", on and icon or UI.journeyButton, "LEFT", -10, 0)
+  local edge = (UI.tab == nil or UI.tab == "here") and UI.historyButton or UI.optionsButton
+  UI.contextLine:SetPoint("RIGHT", on and icon or edge, "LEFT", -10, 0)
 end
 
 -- What Willo's icon talks about (Companion.IconLine): the story or answer on screen ({ name = }), the question the
@@ -4719,12 +4789,6 @@ end
 -- `key`: the entry it's about, for the "you" line under the heading; `subject`: the entry the text isn't to link to
 -- (defaults to key). Returns the text and the keys it links.
 local function narratedTag() return "  " .. GREY .. L["(narrated)"] .. "|r" end
--- A story a recording is planned for but this player can't play: it isn't recorded yet, or its voice pack isn't
--- installed (the add-on can't tell which), so the words say neither. Nothing when narration is off or none is planned.
-local function noRecordingTag(key)
-  if ns.Voice.HasAudio(key) or ns.Voice.Current() == "none" or not (ns.DB.clipHash or {})[key] then return "" end
-  return "  " .. GREY .. L["(no recording to play yet)"] .. "|r"
-end
 local function loreText(heading, text, angle, tag, key, subject)
   local link, linked = UI.Linker(subject or key)
   local out = heading and (GOLD .. esc(heading) .. "|r" .. (tag or "") .. "\n" .. youText(key)) or ""
@@ -4784,14 +4848,37 @@ function UI.TellEverything()
   UI.SetNext(followUps(UI.engine.lastKey, nil))
 end
 
+-- idx 0: every part of the story still held back (the one "Show" under a story in the conversation).
 function UI.ShowSection(key, idx)
   local e = UI.engine.db.entries[key]
-  local sec = e and e.sec and e.sec[idx]
-  if not sec then return end
-  local text, linked = loreText(e.n .. ": " .. sec.t, sec.b, nil, nil, nil, key)
+  local list = {}
+  if idx == 0 then
+    local done = ns.Context.Done()
+    for i, s in ipairs(e and e.sec or {}) do
+      if not UI.engine:Opens(key, s, done) then list[#list + 1] = i end
+    end
+  elseif e and e.sec and e.sec[idx] then
+    list[1] = idx
+  end
+  if #list == 0 then return end
+  local text, linked
+  if #list == 1 then
+    local sec = e.sec[list[1]]
+    text, linked = loreText(e.n .. ": " .. sec.t, sec.b, nil, nil, nil, key)
+  else
+    local link
+    link, linked = UI.Linker(key)
+    local parts = { GOLD .. esc(e.n) .. "|r" }
+    for _, i in ipairs(list) do
+      parts[#parts + 1] = GOLD .. esc(e.sec[i].t) .. "|r\n" .. WHITE .. link(esc(e.sec[i].b)) .. "|r"
+    end
+    text = table.concat(parts, "\n\n")
+  end
   UI.AddMessage("lore", text, nil, nil, nil, nil, key, linked)
   local m = UI.msgs[#UI.msgs]
-  if m then m.spoiler = { key = key, kind = "section", idx = idx, text = sec.b } end
+  local shown = {}
+  for _, i in ipairs(list) do shown[i] = e.sec[i].b end
+  if m then m.spoiler = { key = key, kind = "section", idx = list[1], text = e.sec[list[1]].b, list = shown } end
   UI.UpdateListen()
   UI.SetNext(followUps(key, nil))
 end
@@ -4846,7 +4933,7 @@ function UI.Ask(question, via, about)
     -- gated: SpoilerGate posted the warning and a Reveal chip (the revealed answer is logged and rated on its own)
     log.shown = "p"
   elseif top and top.score >= MIN_SCORE and not weak then
-    local heading = top.kind == "faq" and (top.title .. "  -  " .. top.name) or top.name
+    local heading = top.name
     local note = isGameplay(question) and (GREY
       .. string.format(L["I only know the story side, not mechanics or drops. Here's the lore of %s:"], esc(top.name)) .. "|r\n")
       or ""
@@ -4855,7 +4942,6 @@ function UI.Ask(question, via, about)
     local tag = (target and ns.Voice.HasAudio(target.key)) and narratedTag() or nil
     local text, linked = loreText(heading, top.text, top.angle, tag, top.key)
     UI.AddMessage("lore", note .. text, target, nil, nil, log, top.key, linked)
-    ns.Margin.Note(top.key, question, top.text)   -- written on its page too (Page.lua's Questions)
     if target then UI.AfterAnswer(target) end
     local items = followUps(top.key, top.kind == "faq" and top.idx or nil)
     -- A confident match can still be the wrong one (Stormwind's canals answered with the Undercity's): with the
@@ -4902,7 +4988,6 @@ function UI.ShowFaq(key, idx, via)
   local target = UI.FaqTarget(key, idx)
   -- A question picked (suggested, in the sidebar, typed ahead or linked), not an answer shown for what plays
   if via ~= "reveal" and via ~= "listen" and via ~= "player" then ns.Log.Use("faq"); ns.Log.Asked(via) end
-  if via ~= "listen" and via ~= "player" and not f.answerOnly then ns.Margin.Note(key, f.q, f.a) end
   UI.lastLog = ns.Log.Question(f.q, UI.ctx or ns.Context.Snapshot(), { { key = key, kind = "faq", idx = idx, title = f.q } }, via)
   local heading = f.answerOnly and (e.n .. ns.Lang.Dotted(" · ") .. f.q) or e.n
   local text, linked = loreText(heading, f.a, nil, ns.Voice.HasAudio(target.key) and narratedTag() or nil, key)
@@ -4914,37 +4999,57 @@ function UI.ShowFaq(key, idx, via)
   UI.SetNext(followUps(key, idx))
 end
 
+-- The ways in a player opens a story by (a click on Here, a lore link, the tooltip key, the quest window's Lore button,
+-- a name in chat, the target key, a suggestion, a name typed): its story card goes into the conversation, on Here, and
+-- nothing covers it (Mike's pick, 10/25: "Here A"). What the playlist or the player reads aloud ("player", "listen")
+-- stays where you are. A story's own page is Found's (Page.lua), one click away under the card.
+UI.HERE_VIA = { hover = true, questdialog = true, questlog = true, chatlink = true, link = true, here = true,
+  quest = true, typed = true, target = true, next = true }
+local FOUND_LINK = "addon:LoreForever:found:"
+
+-- The page Found has for an entry ("Its page in Found"), or nil for one it doesn't list.
+local function foundLink(key)
+  if not (ns.Book and ns.Book.ChapterOf(key)) then return nil end
+  return UI.LINK_COLOUR .. "|H" .. FOUND_LINK .. key .. "|h" .. L["Its page in Found"] .. " \226\128\186|h|r"
+end
+function UI.FoundLinkTarget(link)
+  return (type(link) == "string" and link or ""):match("^addon:LoreForever:found:(.+)$")
+end
+
 -- Entry overview: summary plus spoiler-free sections; its questions become the suggestions. `asked` is the
--- sidebar label that led here, shown as your side of the conversation.
+-- sidebar label that led here, shown as your side of the conversation. The parts still held back are one line with no
+-- titles (a title can spoil: Design Lead, 10/25), and one Show shows them all.
 function UI.ShowEntry(key, via, asked)
   if not ns.Lang.ValidateEdition() then return end
   local e = UI.engine.db.entries[key]
   if not e then return end
+  if UI.HERE_VIA[via] and UI.tab ~= "here" and UI.ShowTab then UI.ShowTab("here") end
   UI.engine.lastKey = key
   local link, linked = UI.Linker(key)
   local parts = { WHITE .. link(esc(e.s)) .. "|r" }
   local all, done = settings().showSpoilers, ns.Context.Done()
-  for i, sec in ipairs(e.sec or {}) do
+  local held = 0
+  for _, sec in ipairs(e.sec or {}) do
     if all or UI.engine:Opens(key, sec, done) then
       parts[#parts + 1] = GOLD .. esc(sec.t) .. "|r\n" .. WHITE .. link(esc(sec.b)) .. "|r"
     else
-      -- A hidden spoiler: its title, and a click to show it.
-      parts[#parts + 1] = GREY .. esc(sec.t) .. "  " .. L["(spoiler)"] .. "|r  " .. revealLink(key, i)
+      held = held + 1
     end
   end
+  if held > 0 then
+    parts[#parts + 1] = GREY .. string.format(held == 1 and L["%d more part, held back until you reach it"]
+      or L["%d more parts, held back until you reach them"], held) .. ns.Lang.Dotted(" · ") .. "|r" .. revealLink(key, 0)
+  end
+  parts[#parts + 1] = foundLink(key)
   if asked then UI.AddMessage("user", WHITE .. esc(asked) .. "|r") end
   local target = UI.EntryTarget(key)
-  -- A recorded story has a labeled Listen action instead; one without a recording says so by its heading.
-  local noRecording = noRecordingTag(key)
   -- A quest in a storyline: where it sits, first (Storyline.Line; nothing for other quests).
   local story = e.t == "quest" and e.m and e.m.id and ns.Storyline.Line(e.m.id)
   story = story and (GOLD .. esc(story) .. "|r\n") or ""
-  local text = GOLD .. esc(e.n) .. "|r" .. noRecording .. "\n" .. story .. youText(key) .. table.concat(parts, "\n\n")
+  local text = GOLD .. esc(e.n) .. "|r\n" .. story .. youText(key) .. table.concat(parts, "\n\n")
   UI.lastLog = ns.Log.Question("[open] " .. e.n, UI.ctx or ns.Context.Snapshot(), { { key = key, kind = "summary", title = e.n } }, via)
   UI.AddMessage("lore", text, target, nil, nil, UI.lastLog, key, linked, true)
   UI.SetNext(followUps(key, nil))
-  -- Opened by a way in (a tooltip key, the quest's Lore button, a name): its page goes on top (Page.lua).
-  if ns.Page.VIA[via] then ns.Page.Show(key, via) end
 end
 
 -- Dungeon primer: what the place is, why you're here (your quests for it), and who you'll meet, in order.
@@ -5303,7 +5408,14 @@ function UI.LoreLinkTooltip(owner, link)
   if rk then
     GameTooltip:SetOwner(owner, "ANCHOR_CURSOR")
     T.Tip(L["Show spoiler"], "gold")
-    T.Tip(L["Shows this part of the story, which may give away what happens."], "tipText", true)
+    T.Tip(ri == 0 and L["Shows the parts of the story held back, which may give away what happens."]
+      or L["Shows this part of the story, which may give away what happens."], "tipText", true)
+    return GameTooltip:Show()
+  end
+  if UI.FoundLinkTarget(link) then
+    GameTooltip:SetOwner(owner, "ANCHOR_CURSOR")
+    T.Tip(L["Its page in Found"], "gold")
+    T.Tip(L["Opens its page in your chronicle: when you found it, and the pages on the same road."], "tipText", true)
     return GameTooltip:Show()
   end
   local key = linkKey(link)
@@ -5332,6 +5444,11 @@ function UI.OnLoreLink(frame, link, button)
     GameTooltip:Hide()
     return UI.ShowSection(rk, ri)
   end
+  local fk = UI.FoundLinkTarget(link)
+  if fk then
+    GameTooltip:Hide()
+    return UI.OpenChronicle(fk, "here")   -- its Back comes back to the conversation, as it was
+  end
   local key = linkKey(link)
   if not (key and UI.engine.db.entries[key]) then return end
   GameTooltip:Hide()
@@ -5350,46 +5467,15 @@ function UI.QueueLink(key, idx, deferStart)
   if not UI.PlaylistAdd(key, idx, nil, deferStart) then note(string.format(L["%s isn't narrated yet."], esc(label))) end
 end
 
--- Back and Forward: the entries you opened through links in this chat, like a browser's history. They open that
--- entry again in the chat (it's a conversation, so it's posted anew). keys: entry keys, pos: the one you're on.
-local NAV_MAX = 30
-UI.nav = { keys = {}, pos = 0 }
-
-local function open(key, via)
-  local e = UI.engine.db.entries[key]
-  UI.ShowEntry(key, via, string.format(L["Tell me about %s"], e.n))
-end
-
+-- A lore link followed: its story card goes into the conversation as if you'd asked. There's no Back and Forward: the
+-- conversation is the history, and what came before is just above (Here A, 10/25). `from`: the message it was in.
 function UI.FollowLink(key, from)
-  local nav = UI.nav
-  for i = #nav.keys, nav.pos + 1, -1 do table.remove(nav.keys, i) end   -- a new link drops what Back left ahead
-  -- The answer the link was in is where Back goes first.
-  local start = from and from.subject
-  if start and nav.keys[#nav.keys] ~= start and UI.engine.db.entries[start] then nav.keys[#nav.keys + 1] = start end
-  open(key, "link")
-  nav.keys[#nav.keys + 1] = key
-  while #nav.keys > NAV_MAX do table.remove(nav.keys, 1) end
-  nav.pos = #nav.keys
-  UI.UpdateNav()
+  local e = UI.engine.db.entries[key]
+  if not e then return end
+  UI.ShowEntry(key, "link", UI.TellMeAbout(e))
 end
 
-function UI.NavGo(step)
-  local nav = UI.nav
-  local key = nav.keys[nav.pos + step]
-  if not key then return end
-  nav.pos = nav.pos + step
-  open(key, step < 0 and "back" or "forward")
-  UI.UpdateNav()
-end
-
-function UI.NavClear()
-  UI.nav = { keys = {}, pos = 0 }
-  UI.UpdateNav()
-end
-
--- Where the conversation starts: `top` (default -64, under the header); Back and Forward, when shown, take a row
--- just above the conversation.
-local NAV_H = 24
+-- Where the conversation starts: `top` (default -64, under the header).
 -- The panel's ask row: the message box, its field and Send. A story's page has its own ask line, so while one is open
 -- (UI.pageOpen, set and cleared by Page.lua) the row stays hidden, whatever re-flows the chat: PlaceChat and Layout call
 -- this last.
@@ -5403,9 +5489,8 @@ end
 function UI.PlaceChat(top)
   if not UI.scroll then return end
   UI.chatTop = top or UI.chatTop or -64
-  local nav = UI.navBar and UI.navBar:IsShown()
   UI.scroll:ClearAllPoints()
-  UI.scroll:SetPoint("TOPLEFT", UI.frame, "TOPLEFT", CHAT_X, UI.chatTop - (nav and NAV_H or 0))
+  UI.scroll:SetPoint("TOPLEFT", UI.frame, "TOPLEFT", CHAT_X, UI.chatTop)
   UI.scroll:SetPoint("BOTTOMRIGHT", UI.frame, "BOTTOMRIGHT", -34 - SHIFT_R, 128 + FOOT)
   -- The message box starts where the conversation does.
   local f = UI.frame
@@ -5425,60 +5510,4 @@ function UI.PlaceChat(top)
   end
   UI.ShowAskRow()
   UI.PlaceNext()
-end
-
--- A row above the conversation, made the first time it's needed: Back and Forward, each naming where it goes.
-local function createNav()
-  local f = UI.frame
-  local bar = CreateFrame("Frame", nil, f)
-  bar:SetPoint("BOTTOMLEFT", UI.scroll, "TOPLEFT", -2, 2)
-  bar:SetPoint("BOTTOMRIGHT", UI.scroll, "TOPRIGHT", 0, 2)
-  bar:SetHeight(NAV_H - 2)
-  local function button(label, step)
-    local b = PanelButton(bar)
-    b:SetSize(80, 20)
-    b:SetText(label)
-    b:SetScript("OnClick", function() UI.NavGo(step) end)
-    b:SetScript("OnEnter", function(self)
-      local key = UI.nav.keys[UI.nav.pos + step]
-      local e = key and UI.engine.db.entries[key]
-      if not e then return end
-      GameTooltip:SetOwner(self, "ANCHOR_BOTTOM")
-      GameTooltip:AddLine(string.format(step < 0 and L["Back to %s"] or L["Forward to %s"], e.n))
-      T.Tip(L["Opens that answer again in the chat."], "tipText", true)
-      GameTooltip:Show()
-    end)
-    b:SetScript("OnLeave", function() GameTooltip:Hide() end)
-    local w = b.GetTextWidth and tonumber(b:GetTextWidth())
-    b:SetWidth(math.max(80, (w or 60) + 24))
-    return b
-  end
-  bar.back = button("< " .. L["Back"], -1)
-  bar.back:SetPoint("LEFT", 0, 0)
-  bar.fwd = button(L["Forward"] .. " >", 1)
-  bar.fwd:SetPoint("LEFT", bar.back, "RIGHT", 4, 0)
-  bar.hint = T.PaperText(bar:CreateFontString(nil, "OVERLAY", T.font.small), "inkNote")
-  bar.hint:SetPoint("LEFT", bar.fwd, "RIGHT", 8, 0)
-  bar.hint:SetPoint("RIGHT", 0, 0)
-  bar.hint:SetJustifyH("LEFT")
-  if bar.hint.SetWordWrap then bar.hint:SetWordWrap(false) end
-  bar:Hide()
-  UI.navBar = bar
-  return bar
-end
-
--- Show Back / Forward once there's somewhere to go back to; the conversation starts below them while they're shown.
-function UI.UpdateNav()
-  if not (UI.frame and UI.scroll) then return end
-  local nav = UI.nav
-  local show = #nav.keys >= 2 and settings().chatLinks ~= false
-  local bar = UI.navBar or (show and createNav())
-  if not bar then return end
-  bar:SetShown(show)
-  UI.PlaceChat()
-  if not show then return end
-  bar.back:SetEnabled(nav.pos > 1)
-  bar.fwd:SetEnabled(nav.pos < #nav.keys)
-  local prev = nav.keys[nav.pos - 1] and UI.engine.db.entries[nav.keys[nav.pos - 1]]
-  bar.hint:SetText(prev and (GREY .. string.format(L["Back to %s"], esc(prev.n)) .. "|r") or "")
 end

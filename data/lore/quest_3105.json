@@ -17,16 +17,16 @@
   "wiki": "Tainted Letter (quest)",
   "chain": []
  },
- "summary": "The Tainted Letter is a discreet summons delivered to novice human warlocks training in Northshire Valley. Entrusted to Marshal McBride by the secretive trainer Drusilla La Salle, the missive calls initiates away from the prying eyes of the Abbey guards to begin their formal instruction in the fel arts.",
+ "summary": "At Northshire, Tainted Letter calls novice human warlocks away from the Abbey guards for instruction in the fel arts. Drusilla La Salle entrusts it to Marshal McBride, who delivers it to her recruits.",
  "sections": [
   {
    "title": "A Discreet Summons",
-   "body": "While priests and paladins study openly within the sanctified halls of Northshire Abbey, practitioners of darker magic must tread carefully. Upon proving their capability against the local kobold menace, novice warlocks receive a letter passed along by Marshal McBride. Bearing the insignia of Drusilla La Salle, the missive instructs the fledgling spellcaster to report directly to her secluded post outside the abbey's main walls before pursuing any other duties.",
+   "body": "Novice warlocks receive a letter from Marshal McBride after proving themselves against the kobold menace. While priests and paladins study openly in Northshire Abbey, warlocks must tread carefully. Drusilla La Salle's insignia marks the letter, which directs each fledgling spellcaster to her secluded post outside the abbey's main walls before taking on other duties.",
    "spoiler": 0
   },
   {
    "title": "Temptation and Ambition",
-   "body": "Meeting Drusilla reveals the precarious nature of walking the path of a warlock under the watchful eyes of Stormwind's guards, whom she dismisses as 'pathetic mundanes.' Drusilla offers a frank warning to her student: drawing power from the Twisting Nether and communing with demons carries an ever-present risk of corruption. While she counsels patience, prudence, and unwavering self-control to avoid falling prey to the dark energies they manipulate, she makes it clear that such caution should never extinguish one's burning ambition.",
+   "body": "Drusilla warns that warlocks walk a precarious path under the watchful eyes of Stormwind's guards, whom she calls 'pathetic mundanes.' Drawing power from the Twisting Nether and communing with demons always risk corruption. She counsels patience, prudence, and firm self-control when handling those dark energies, but says caution must not extinguish a warlock's ambition.",
    "spoiler": 0
   }
  ],
@@ -38,7 +38,7 @@
     "tainted letter author",
     "who gives the tainted letter"
    ],
-   "answer": "The letter is penned and sealed by Drusilla La Salle, the local warlock trainer residing just outside Northshire Abbey. She asks Marshal McBride to hand it to you as soon as you return from clearing the nearby kobold camps."
+   "answer": "Drusilla La Salle writes and seals the letter from her post just outside Northshire Abbey. She asks Marshal McBride to deliver it when you return from clearing the nearby kobold camps."
   },
   {
    "q": "Why does Marshal McBride deliver a warlock letter?",
@@ -47,7 +47,7 @@
     "does mcbride know what the letter is",
     "mcbride warlock letter"
    ],
-   "answer": "Marshal McBride acts merely as a courier in the valley, passing messages to promising recruits. While he knows the letter bears Drusilla's seal and insists it takes priority, his primary focus remains the defense and administration of Northshire rather than policing the specific magical practices of its defenders."
+   "answer": "Marshal McBride carries messages to promising recruits in the valley. He knows the letter bears Drusilla's seal and says it takes priority, while his main concern remains Northshire's defense and administration, not policing the defenders' magical practices."
   },
   {
    "q": "Where can I find Drusilla La Salle?",
@@ -56,7 +56,7 @@
     "where is drusilla la salle",
     "find drusilla"
    ],
-   "answer": "Drusilla La Salle stands outside the main entrance of Northshire Abbey, positioned near the outer walls and tents away from the clerics inside."
+   "answer": "Drusilla La Salle waits outside Northshire Abbey's main entrance, near the outer walls and tents, away from the clerics inside."
   },
   {
    "q": "Why are warlocks allowed in Northshire Abbey?",
@@ -65,7 +65,7 @@
     "is fel magic legal in northshire",
     "why allow warlocks"
    ],
-   "answer": "Warlocks in Alliance territory operate under heavy suspicion and keep a low profile. In Northshire, Drusilla keeps her training out of the sanctuary itself, loitering outdoors where she can tutor recruits while avoiding direct confrontation with the Holy Order of Northshire clerics and paladins."
+   "answer": "Warlocks in Alliance territory face heavy suspicion and keep a low profile. Drusilla trains recruits outdoors in Northshire, away from the sanctuary, to avoid direct confrontation with the Holy Order of Northshire clerics and paladins."
   },
   {
    "q": "What lesson does Drusilla teach upon receiving the letter?",
@@ -74,7 +74,7 @@
     "what does drusilla say",
     "lesson from tainted letter"
    ],
-   "answer": "Drusilla warns that drawing on the Twisting Nether invites corruption to any practitioner who lacks discipline. She advises strict self-control and prudence while emphasizing that fear of corruption should never crush a warlock's personal ambition."
+   "answer": "Drusilla warns that drawing on the Twisting Nether risks corruption for any practitioner without discipline. She urges self-control and prudence, while insisting fear of corruption must not crush a warlock's ambition."
   },
   {
    "q": "What comes after delivering the Tainted Letter?",
@@ -82,17 +82,17 @@
     "next quest after tainted letter",
     "tainted letter follow up"
    ],
-   "answer": "Speaking with Drusilla concludes the summons and makes her your trainer; she invites you to return as you grow more powerful to learn more of the warlock's ways."
+   "answer": "Speaking with Drusilla completes the summons and makes her your trainer. She invites you to return as you grow more powerful to learn more of the warlock's ways."
   }
  ],
  "angles": [
   {
    "target": "class:Warlock",
-   "text": "This quest represents the formal recruitment of human warlocks in Northshire, establishing the delicate balance between hiding from judgmental guards and mastering dangerous nether magic."
+   "text": "As a warlock, you receive formal instruction in Northshire while keeping out of the guards' judgment and learning to master dangerous nether magic."
   },
   {
    "target": "race:Human",
-   "text": "Human culture predominantly reveres the Holy Light and the disciplined arcane of the Kirin Tor, forcing human warlocks to practice their summoning on the quiet fringes of settlements like Northshire."
+   "text": "As a human, you live in a culture that reveres the Holy Light and the Kirin Tor's disciplined arcane. Warlocks practice their summoning quietly on the fringes of settlements like Northshire."
   }
  ],
  "keywords": [
@@ -114,5 +114,6 @@
  ],
  "attribution": [
   "Tainted Letter (quest)"
- ]
+ ],
+ "style": 1
 }

@@ -56,7 +56,8 @@ async function setupEmail(env) {
 
 const iso = () => new Date().toISOString();
 const ADDRESS = /^[^\s@<>]{1,64}@[^\s@<>.]+(\.[^\s@<>.]+)+$/;
-const cleanAddress = raw => {
+// An address as typed, trimmed and lowercased, or "" when it can't be one.
+export const cleanAddress = raw => {
   const email = String(raw ?? "").trim().toLowerCase();
   return email.length <= 254 && ADDRESS.test(email) ? email : "";
 };
@@ -136,7 +137,8 @@ export function senderOf(env) {
 // From and Reply-To (or the message's own, when they're @loreforeverwow.com addresses: a note from Patrick, lib/winback.js)
 // and a List-Unsubscribe header to /unsubscribe: {service, messageId}. Throws when no service is set up or
 // the send fails. key: an idempotency key, for services that take one. sendOnce is what features use; this is for
-// tests by hand (/api/admin "email-test").
+// tests by hand (/api/admin "email-test") and for sign-in codes (lib/email-signin.js), whose message says
+// transactional: true, so it goes out without the List-Unsubscribe header (a sign-in code isn't news).
 export async function sendEmail(env, message, key = null) {
   refuseReportEffect(env, "sending email");
   const service = emailService(env);
@@ -147,9 +149,10 @@ export async function sendEmail(env, message, key = null) {
   const ours = address => typeof address === "string" && parseFrom(address).email.toLowerCase().endsWith(`@${DOMAIN}`);
   let messageId;
   try {
-    messageId = await SERVICES[service](env, { ...message, to, from: ours(message.from) ? message.from : sender.from,
+    const { transactional, ...rest } = message;
+    messageId = await SERVICES[service](env, { ...rest, to, from: ours(message.from) ? message.from : sender.from,
       replyTo: ours(message.replyTo) ? cleanAddress(message.replyTo) : sender.replyTo,
-      headers: { "List-Unsubscribe": `<${UNSUBSCRIBE_URL}>`, ...message.headers } }, key);
+      headers: { ...(transactional ? {} : { "List-Unsubscribe": `<${UNSUBSCRIBE_URL}>` }), ...message.headers } }, key);
   } catch (error) { markActionUncertain(env); throw error; }
   return { service, messageId };
 }

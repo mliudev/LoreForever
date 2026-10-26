@@ -17,16 +17,16 @@
   "wiki": "Armed and Ready (Classic)",
   "chain": []
  },
- "summary": "Armed and Ready marks the culmination of forging a weapon specifically designed to strip away the unholy defenses of the necromancer Morbent Fel. Having secured Grimand Elmore's craft, the adventurer carries Morbent's Bane back across the river to the vengeful Sven Yorgen in Duskwood.",
+ "summary": "You carry Morbent's Bane back to Sven Yorgen, the weapon forged to strip away Morbent Fel's unholy defenses.",
  "sections": [
   {
    "title": "A Weapon Forged",
-   "body": "Morbent Fel's grasp on the Raven Hill cemetery seemed unbreakable. Conventional steel shattered or deflected harmlessly off the dark wards shrouding the necromancer. Overcoming such vile magic required a specialized artifact: Morbent's Bane. With the metal shaped by Grimand Elmore in the Dwarven District of Stormwind and properly consecrated with sacred power, the ward-breaking relic is finally complete and ready to sever Fel's connection to unlife.",
+   "body": "Morbent Fel's hold over Raven Hill cemetery resists ordinary steel. Blades shatter or glance off the dark wards around the necromancer. A weapon made to break those wards is now ready. Grimand Elmore shaped the metal in Stormwind's Dwarven District, and sacred power consecrated it. Morbent's Bane can now sever Fel's tie to unlife.",
    "spoiler": 0
   },
   {
    "title": "Return to the Hermit",
-   "body": "Carrying Morbent's Bane back into Duskwood brings hope to Sven Yorgen, who has watched his family and farm fall victim to the encroaching darkness. Stationed at his lonely camp near the western border of the woods, Sven immediately recognizes the fire in the traveler's eyes and the divine craftsmanship of the weapon. With the ward-breaking relic delivered, the stage is set for a direct strike against the master of Raven Hill.",
+   "body": "Sven Yorgen waits at his lonely camp near Duskwood's western border, after the encroaching darkness brought ruin to his family, farm, and companions. You bring him Morbent's Bane, forged to break Morbent Fel's wards. Sven recognizes the weapon's divine craftsmanship and the fire in your eyes. With the weapon in his hands, he can strike at the master of Raven Hill.",
    "spoiler": 1
   }
  ],
@@ -38,7 +38,7 @@
     "what is the weapon",
     "morbent bane sword"
    ],
-   "answer": "Morbent's Bane is a specially forged and consecrated weapon crafted to pierce the invulnerable magical wards surrounding the necromancer Morbent Fel in Raven Hill."
+   "answer": "Morbent's Bane is a weapon forged and consecrated to break the magical wards surrounding Morbent Fel at Raven Hill."
   },
   {
    "q": "Who crafted the weapon?",
@@ -46,7 +46,7 @@
     "who made morbents bane",
     "grimand elmore role"
    ],
-   "answer": "Grimand Elmore, a skilled blacksmith residing in the Dwarven District of Stormwind City, fashioned the ward-breaking weapon from the consecrated lightforge iron."
+   "answer": "Grimand Elmore, a blacksmith in Stormwind City's Dwarven District, fashioned the weapon from consecrated lightforge iron."
   },
   {
    "q": "Where do I deliver Morbent's Bane?",
@@ -55,7 +55,7 @@
     "sven yorgen location",
     "turn in location"
    ],
-   "answer": "You must deliver the weapon to Sven Yorgen, who is hiding at an encampment in western Duskwood, not far from the border with Westfall."
+   "answer": "You deliver Morbent's Bane to Sven Yorgen at his camp in western Duskwood, near the Westfall border."
   },
   {
    "q": "Why can't Sven Yorgen fight Morbent Fel himself?",
@@ -63,7 +63,7 @@
     "why doesnt sven fight",
     "sven yorgen backstory"
    ],
-   "answer": "Sven Yorgen was driven from his home and lost his family and companions to the dark forces infesting the woods. Isolated and hunted, he relies on capable champions of the Alliance to avenge the fallen."
+   "answer": "The dark forces in the woods drove Sven Yorgen from his home and cost him his family and companions. Isolated and hunted, he depends on Alliance champions to avenge them."
   },
   {
    "q": "What happens after completing Armed and Ready?",
@@ -71,7 +71,7 @@
     "what comes next",
     "next quest after armed and ready"
    ],
-   "answer": "Upon receiving the blessed weapon, Sven Yorgen tasks you with venturing directly into Raven Hill Cemetery to face Morbent Fel and strike him down."
+   "answer": "After Sven receives the blessed weapon, he sends you to Raven Hill Cemetery to face Morbent Fel and strike him down."
   },
   {
    "q": "What is the quickest route back to Sven's camp?",
@@ -79,21 +79,21 @@
     "fastest way to sven",
     "how to get to sven quickly"
    ],
-   "answer": "Traveling east from Sentinel Hill in Westfall across the river often provides a much shorter and safer journey to Sven's camp than trekking westward through the terrors of Darkshire."
+   "answer": "From Sentinel Hill in Westfall, travel east across the river to reach Sven's camp, a shorter and safer route than going west through Darkshire's dangers."
   }
  ],
  "angles": [
   {
    "target": "class:Paladin",
-   "text": "The combination of fine dwarven steel and holy consecration echoes the paladin tradition of infusing martial armaments with divine light to shatter undead wards."
+   "text": "As a paladin, you know how holy power joined with dwarven steel can break wards protecting the undead."
   },
   {
    "target": "profession:Blacksmithing",
-   "text": "Grimand Elmore's handiwork demonstrates how elite smithing can be combined with divine rites to craft specialized banes against supernatural threats."
+   "text": "As a blacksmith, you can see how Grimand Elmore joined fine smithing with sacred rites to make a weapon against supernatural threats."
   },
   {
    "target": "faction:Alliance",
-   "text": "Coordinating between artisans in Stormwind and front-line survivors in Duskwood highlights how the Alliance must draw upon its capital's expertise to purge creeping blights."
+   "text": "As an Alliance member, you see Stormwind artisans supply the expertise survivors in Duskwood need to confront the spreading blight."
   }
  ],
  "keywords": [
@@ -118,5 +118,6 @@
  ],
  "attribution": [
   "Armed and Ready (Classic)"
- ]
+ ],
+ "style": 1
 }

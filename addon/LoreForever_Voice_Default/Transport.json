@@ -1433,9 +1433,9 @@
     "subzone:northshire-abbey": {
       "1": [
         {
-          "duration": 88.9469387755102,
-          "file": "Audio/Transport/full_subzone_northshire-abbey-3e1995f399811c2d083d/1-0000.mp3",
-          "sha256": "a6f8fbf8998e28819f24974598b73510e0d1ff681f6df903f0bb30abd7c0bc13",
+          "duration": 77.97551020408163,
+          "file": "Audio/Transport/full_subzone_northshire-abbey-a8cce7104bb0105266a9/1-0000.mp3",
+          "sha256": "7d2e0b6a528575abc2e6ff4782501063d6970444839ccc5ddebd744a1473417f",
           "start": 0
         }
       ],
@@ -1446,15 +1446,15 @@
           "1"
         ]
       },
-      "fullHash": "a9b66a",
-      "generation": "5d830034ecc474c88ca7",
+      "fullHash": "ff69cb",
+      "generation": "f9f476a92759a29f3fcf",
       "hash": "8ed36b",
       "source": {
-        "duration": 88.946939,
+        "duration": 77.97551,
         "file": null,
-        "sha256": "3e1995f399811c2d083dfebe88be8c8e55df90ce7967a5445389606fa4226ff0"
+        "sha256": "a8cce7104bb0105266a902cf8ccd27fbb3b5923ecb01c42d7e9bc4683d33e001"
       },
-      "text": "Northshire Abbey. Northshire Abbey is a historic monastery nestled in Northshire Valley within the northern foothills of Elwynn Forest. Rebuilt after its destruction in the First War, it serves as the spiritual heart of the Brotherhood of Northshire and a premier training center for new defenders answering the kingdom of Stormwind's call. Centuries ago, clerics from Lordaeron traveled south into the kingdom of Stormwind to spread the worship of the Holy Light, establishing the Holy Order of Northshire Clerics and their abbey. The monastery quickly became an anchor of kingdom life, caring for the sick and even tending to the young Guardian Medivh during his years in a coma. During the First War, the abbey suffered repeated assaults by brigands and the Orcish Horde, culminating in its utter destruction. When the Alliance of Lordaeron liberated the region in the Second War, Archbishop Alonsus Faol helped rebuild the sanctuary, refounding its protectors as the Brotherhood of Northshire. Today, Northshire Abbey functions as the starting ground for volunteers, militia recruits, and novices seeking to defend a beleaguered Stormwind. Split into the Main Hall, Hall of Arms, and Library Wing, it houses instructors in the martial, arcane, and holy arts, while scouts and rogues train in the outer yards. Despite the watchful presence of the Knights of the Silver Hand, peace here remains precarious. Kobolds overrun nearby mines, aggressive wolves roam the orchards, and agents of the Defias Brotherhood stalk the valley roads, pilfering ancient scrolls and sacred librams from the abbey's storied archives."
+      "text": "Northshire Abbey. Northshire Abbey trains new defenders in Northshire Valley, among Elwynn Forest's northern foothills. Rebuilt after the First War, it is the spiritual heart of the Brotherhood of Northshire and a leading school for those answering Stormwind's call. Clerics from Lordaeron came south centuries ago to spread the Holy Light and founded the Holy Order of Northshire Clerics and their abbey. The monastery soon became part of kingdom life, caring for the sick and tending to the young Guardian Medivh during his years in a coma. In the First War, brigands and the Orcish Horde attacked it repeatedly, and the abbey was destroyed. After the Alliance of Lordaeron liberated the region in the Second War, Archbishop Alonsus Faol helped rebuild the sanctuary and refounded its protectors as the Brotherhood of Northshire. Northshire Abbey trains volunteers, militia recruits, and novices who hope to defend Stormwind. Its Main Hall, Hall of Arms, and Library Wing house instructors in martial, arcane, and holy arts, while scouts and rogues train in the outer yards. The Knights of the Silver Hand keep watch, but peace remains fragile. Kobolds overrun nearby mines, aggressive wolves prowl the orchards, and Defias Brotherhood agents stalk the valley roads. They steal ancient scrolls and sacred librams from the abbey's archives."
     },
     "subzone:sen-jin-village": {
       "1": [
@@ -3357,9 +3357,9 @@
     "topic:terenas-menethil-ii": {
       "1": [
         {
-          "duration": 82.75591836734694,
-          "file": "Audio/Transport/full_topic_terenas-menethil-ii-1f4d379922eb844dd4ad/1-0000.mp3",
-          "sha256": "a7e1467a40bcc4f3423e954a65b513d27b627ff15f9abf0787fd113e041ae83f",
+          "duration": 75.18040816326531,
+          "file": "Audio/Transport/full_topic_terenas-menethil-ii-6903e39434ad358971e6/1-0000.mp3",
+          "sha256": "af51f1d4643bfe29fc73819f44b344ba50f42cba5c373f3b305e3d0c9ae958c1",
           "start": 0
         }
       ],
@@ -3370,15 +3370,15 @@
           "1"
         ]
       },
-      "fullHash": "6c0d7c",
-      "generation": "a8502eb6eb00b61b7a62",
-      "hash": "6c0d7c",
+      "fullHash": "b1e474",
+      "generation": "6b87b07d693b2fca6602",
+      "hash": "b1e474",
       "source": {
-        "duration": 82.72975,
+        "duration": 75.206531,
         "file": null,
-        "sha256": "1f4d379922eb844dd4add4dff332e80e50a118e26cfbeb564621603f714f1426"
+        "sha256": "6903e39434ad358971e6b2ba9bd84024dc349c812e3859762722c4edefd8d4ce"
       },
-      "text": "Terenas Menethil II. King Terenas Menethil II was the venerable sovereign of Lordaeron who ruled for over five decades and forged the original Alliance of Lordaeron during the Second War. Renowned as a wise and diplomatic leader, he shielded humanity from the initial Horde invasion and sheltered the young Prince Varian Wrynn. His tragic murder by his corrupted son, Prince Arthas, directly triggered the collapse of Lordaeron to the Scourge. When refugees from Stormwind arrived in the north led by Sir Anduin Lothar, King Terenas Menethil II answered their call. Convening the monarchs of the fractured human kingdoms alongside envoys from Ironforge and Quel'Thalas, Terenas orchestrated the formation of the Alliance of Lordaeron. Rather than seizing military command for himself, he wisely nominated Lothar as supreme commander, uniting humanity's kingdoms for the first time in millennia to triumph over the Old Horde. In the wake of the Second War, Terenas insisted upon placing surviving orcs into internment camps rather than executing them, believing that peace could be preserved if their demonic fury dissipated. This humane but costly decision placed staggering taxes on Lordaeron's allies. Gilneas sealed itself behind the Greymane Wall, Stromgarde seceded over political disputes, and the high elves withdrew entirely, leaving Terenas to shoulder the burden with a fracturing coalition."
+      "text": "Terenas Menethil II. Across Lordaeron, Terenas Menethil II carries the weight of a kingdom through war and its aftermath. For more than five decades, he ruled as a wise and diplomatic king, forged the Alliance of Lordaeron during the Second War, and gave shelter to the young Prince Varian Wrynn. His murder by his corrupted son, Prince Arthas, began Lordaeron’s collapse to the Scourge. When refugees from Stormwind reached the north with Sir Anduin Lothar, King Terenas Menethil II answered their call. He gathered the monarchs of the divided human kingdoms, along with envoys from Ironforge and Quel'Thalas, and brought them together in the Alliance of Lordaeron. Terenas did not claim command of its armies. He chose Lothar as supreme commander, uniting humanity’s kingdoms for the first time in millennia. Together, they defeated the Old Horde. After the Second War, Terenas insisted that surviving orcs be held in internment camps rather than executed. He believed peace might hold once their demonic fury faded. The camps placed a heavy tax burden on Lordaeron’s allies. Gilneas shut itself behind the Greymane Wall, Stromgarde left the Alliance over political disputes, and the high elves withdrew entirely. Terenas was left to bear the cost as the coalition fractured."
     },
     "topic:third-war": {
       "1": [
@@ -3539,9 +3539,9 @@
     "topic:westfall-brigade": {
       "1": [
         {
-          "duration": 75.72897959183673,
-          "file": "Audio/Transport/full_topic_westfall-brigade-b70e398992391aa4126d/1-0000.mp3",
-          "sha256": "5ad4f6d5325c15da5203b37d24583b369928d44221f4be57e8b252010c30fe33",
+          "duration": 63.3469387755102,
+          "file": "Audio/Transport/full_topic_westfall-brigade-fab38a1a5de8366a74e3/1-0000.mp3",
+          "sha256": "3dfae3055378c03f39ff43a33db105f1cd3e9af99f6c7baf24d58c3e97201260",
           "start": 0
         }
       ],
@@ -3552,15 +3552,15 @@
           "1"
         ]
       },
-      "fullHash": "59d866",
-      "generation": "136ac70ae8e5425b7494",
-      "hash": "59d866",
+      "fullHash": "ecd942",
+      "generation": "ab0267e4ee0ce69b746b",
+      "hash": "ecd942",
       "source": {
-        "duration": 75.702813,
+        "duration": 63.346939,
         "file": null,
-        "sha256": "b70e398992391aa4126d131b8681d517667c4163e54b4a20fda3bd849007bfbf"
+        "sha256": "fab38a1a5de8366a74e320cb2a32ebd2f4c36123714efa90d06d74654b3a049e"
       },
-      "text": "People's Militia. The People's Militia is a grassroots defense force founded by Gryan Stoutmantle to protect Westfall's residents from the Defias Brotherhood. Operating out of Sentinel Hill, these volunteer defenders stand alone since Stormwind withdrew its troops from Westfall. They rely on local farmers and visiting adventurers to hold the line against rampant banditry. Westfall was once the breadbasket of the Kingdom of Stormwind, but Stormwind withdrew its troops and left the people defenseless. In the vacuum, the masked bandits of the Defias Brotherhood swept across the plains, seizing family homesteads, commandeering iron mines, and extorting local farmers. Facing lawlessness and seeing no sign of royal reinforcements, veteran warrior Gryan Stoutmantle rallied local citizens and retired soldiers to form the People's Militia. Based at Sentinel Tower atop Sentinel Hill, the Militia maintains a tenuous perimeter across the region's main thoroughfares. Lacking professional military gear and sustained supplies, their protectors patrol dusty roads while Stoutmantle directs volunteers to thin the swelling ranks of Defias highwaymen, thieves, and pillagers. When neighboring regions like Redridge plead for mutual aid, the Militia is forced to decline, as sparing even a handful of men would spell the total ruin of Westfall."
+      "text": "People's Militia. In Westfall, the People's Militia holds its ground against the Defias Brotherhood. Gryan Stoutmantle founded the volunteer force at Sentinel Hill after Stormwind withdrew its troops. With local farmers and visiting adventurers, they defend the region against banditry. Westfall once fed the Kingdom of Stormwind, but the kingdom withdrew its troops and left the people defenseless. The Defias Brotherhood spread across the plains, seizing family homesteads, taking over iron mines, and extorting local farmers. With no royal reinforcements in sight, veteran warrior Gryan Stoutmantle rallied citizens and retired soldiers to form the People's Militia. Sentinel Tower, atop Sentinel Hill, is the Militia's base. From there, its volunteers patrol the region's main roads with little military gear or steady supplies. Gryan Stoutmantle directs them against the growing ranks of Defias highwaymen, thieves, and pillagers. When Redridge asks for mutual aid, the Militia must refuse. Sending even a handful of men could leave Westfall lost."
     },
     "topic:worgen": {
       "1": [
@@ -4085,9 +4085,9 @@
     "zone:elwynn": {
       "1": [
         {
-          "duration": 77.42693877551021,
-          "file": "Audio/Transport/full_zone_elwynn-078af5deba81a22a5c7e/1-0000.mp3",
-          "sha256": "2169a23989978bb6704671a1fb399c16dab728b6135305c210090a7280d17e9d",
+          "duration": 57.99183673469388,
+          "file": "Audio/Transport/full_zone_elwynn-c47f9d98044b8a013cae/1-0000.mp3",
+          "sha256": "488ddd8a4244d4eeee80a214de2495a5397c32fb373184b999af2d0e6dcc7a0d",
           "start": 0
         }
       ],
@@ -4098,15 +4098,15 @@
           "1"
         ]
       },
-      "fullHash": "c62c3d",
-      "generation": "a32801c8e90d47c1ff6f",
+      "fullHash": "93c321",
+      "generation": "4ff085657a2be9fb770f",
       "hash": "9881e6",
       "source": {
-        "duration": 77.400813,
+        "duration": 57.991837,
         "file": null,
-        "sha256": "078af5deba81a22a5c7e57d81084ab96fb81e8dfba7c6dafe9c5abe5108f9f39"
+        "sha256": "c47f9d98044b8a013caecf1a2b33aeddcb9229087a8b85003b3cf71e9e346894"
       },
-      "text": "Elwynn Forest. Elwynn Forest is the verdant heartland of the Kingdom of Stormwind, providing the capital with essential timber, gold, fish, and crops. Sheltered beneath stately hardwoods, it serves as the proving ground for new human recruits stepping forth from Northshire Abbey. Yet beneath its idyllic pastoral canopy, the woods are sorely beleaguered by encroaching vermin, displaced wildlife, and widespread brigandage. Stretching south from the gates of Stormwind down to the Nazferiti River, Elwynn is a fertile region blessed with abundant rainfall and dense hardwood forests. Communities like Goldshire and the Eastvale Logging Camp provide crucial grain, livestock, lumber, and raw copper to sustain the grand capital. The region is also celebrated for breeding sturdy Evendale horses, favored by travelers and knights across the kingdom. Despite its outward serenity, the woods are on the brink of disorder. The Stormwind Army is stretched thin by distant obligations, leaving local marshals and deputies reliant on untested recruits. Kobolds have overrun the vital Fargodeep and Jasperlode mines, Riverpaw gnolls prowl the southwestern borders, and savage murlocs have claimed the shores of Stone Cairn Lake and Crystal Lake. In the wake of rising corruption across the river in Duskwood, wolves have fled north across the border."
+      "text": "Elwynn Forest. In Elwynn Forest, Stormwind draws timber, gold, fish, and crops from the land. Northshire Abbey sends human recruits into the woods, where vermin, displaced wildlife, and brigands threaten the peace. Elwynn Forest stretches south from Stormwind’s gates to the Nazferiti River. Rain feeds its fertile fields, while dense hardwood forests supply the capital. Goldshire and the Eastvale Logging Camp send grain, livestock, lumber, and raw copper to Stormwind. Elwynn also breeds sturdy Evendale horses, prized by travelers and knights across the kingdom. Trouble presses in from every side. The Stormwind Army is stretched thin by duties far away, leaving local marshals and deputies to depend on untested recruits. Kobolds have overrun the Fargodeep and Jasperlode mines. Riverpaw gnolls prowl the southwestern borders, while murlocs hold the shores of Stone Cairn Lake and Crystal Lake. Wolves fleeing corruption across the river in Duskwood have crossed into Elwynn."
     },
     "zone:felwood": {
       "1": [
@@ -4735,9 +4735,9 @@
     "zone:stormwind": {
       "1": [
         {
-          "duration": 125.91020408163266,
-          "file": "Audio/Transport/full_zone_stormwind-28d2abf834d4d93c1c23/1-0000.mp3",
-          "sha256": "22a49c919361f2a2563ada486fda72503feeb95c7664436befdebca4fe2d1bca",
+          "duration": 108.12081632653062,
+          "file": "Audio/Transport/full_zone_stormwind-23c76af6585d073cf0c2/1-0000.mp3",
+          "sha256": "02359c464f402813f8b0c64075dfeb8a58eb0056fe940eb35b29efa1418af325",
           "start": 0
         }
       ],
@@ -4748,15 +4748,15 @@
           "1"
         ]
       },
-      "fullHash": "216dfc",
-      "generation": "6cfc0006ccfa085ed8ab",
+      "fullHash": "e94558",
+      "generation": "c2c71bf8f3c2287c76ef",
       "hash": "2527da",
       "source": {
-        "duration": 125.884063,
+        "duration": 108.146939,
         "file": null,
-        "sha256": "28d2abf834d4d93c1c23e8b8961bfc3b462baed6c1ce6d10eaae5eabd503d0b4"
+        "sha256": "23c76af6585d073cf0c20d99c894f2e7f3f9d7071811d61e27f47a1cb2445bcc"
       },
-      "text": "Stormwind City. Stormwind City is the bustling capital of the Kingdom of Stormwind and the premier human bastion in the world following the fall of Lordaeron. Rebuilt from ashes by the Stonemasons Guild after its destruction in the First War, its magnificent white stone districts now house the heart of the Grand Alliance. Beneath its majestic canals and cathedrals, however, the city grapples with the sudden disappearance of King Varian Wrynn and brewing political intrigue. Founded over a millennium ago by the descendants of the Arathi, Stormwind stood for generations as a flourishing, self-sufficient realm. That golden era ended when the Orcish Horde poured through the Dark Portal, laying waste to the southern continent and razing the capital to the ground in the First War. Survivors led by Sir Anduin Lothar fled north across the Great Sea to Lordaeron. Following the Horde's defeat in the Second War, King Terenas Menethil II and the Alliance funded a complete reconstruction. The Stonemasons Guild painstakingly rebuilt the capital into New Stormwind—a gleaming citadel of polished white stone and canal-laced boroughs. Despite its outward majesty, the capital is locked in domestic turmoil. A dispute between the House of Nobles and the Stonemasons Guild over wages left the kingdom paralyzed by debt. The ensuing rioting drove the exiled artisans into criminality as the Defias Brotherhood. Now, King Varian Wrynn has mysteriously vanished en route to a diplomatic summit. To avert panic, the crown was placed upon his young son, ten-year-old Prince Anduin Wrynn, with Highlord Bolvar Fordragon ruling as Regent and military commander alongside royal advisor Lady Katrana Prestor. With Lordaeron overrun by the Scourge, Stormwind has inherited the mantle of humanity's greatest haven and the epicenter of the Alliance. It connects directly to the dwarven kingdom of Ironforge via High Tinker Mekkatorque's subterranean Deeprun Tram. Visitors crossing the Valley of Heroes are greeted by towering statues of the Sons of Lothar who vanished beyond the Dark Portal. From the spiritual beacon of the Cathedral of Light to the arcane studies within the Wizard's Sanctum, Stormwind stands as the supreme hub of trade, culture, and defense across the southern seas."
+      "text": "Stormwind City. In Stormwind City, the crown rests on a young prince while King Varian is missing. Rebuilt after the First War, the city is now the heart of the Grand Alliance, though debt and political turmoil trouble its white stone districts. Stormwind was founded over a thousand years ago by descendants of the Arathi. For generations, it was a flourishing, self-sufficient realm. The Orcish Horde crossed the Dark Portal and laid waste to the southern continent, razing the capital during the First War. Survivors followed Sir Anduin Lothar north across the Great Sea to Lordaeron. After the Horde fell in the Second War, King Terenas Menethil II and the Alliance paid to rebuild the city. The Stonemasons Guild raised New Stormwind from polished white stone, with canals running through its boroughs. Stormwind’s grand appearance hides a kingdom in debt and a court divided. The House of Nobles and the Stonemasons Guild fought over wages, and the dispute left the kingdom paralyzed by debt. The guild’s workers rioted and were driven from the city they had built. King Varian Wrynn has vanished on his way to a diplomatic summit. To keep panic at bay, the crown went to his ten-year-old son, Prince Anduin Wrynn. Highlord Bolvar Fordragon now rules as Regent and military commander, with royal advisor Lady Katrana Prestor at his side. With Lordaeron overrun by the Scourge, Stormwind has become humanity’s greatest haven and the Alliance’s center. High Tinker Mekkatorque’s underground Deeprun Tram links the city directly to Ironforge, the dwarven kingdom. Across the Valley of Heroes, towering statues honor the Sons of Lothar, who vanished beyond the Dark Portal. The Cathedral of Light draws the faithful, while the Wizard’s Sanctum houses arcane study. Trade, culture, and defense across the southern seas all meet in Stormwind."
     },
     "zone:stranglethorn": {
       "1": [
@@ -5047,9 +5047,9 @@
     "zone:westfall": {
       "1": [
         {
-          "duration": 102.45224489795919,
-          "file": "Audio/Transport/full_zone_westfall-568b9d4a3448aaca2d51/1-0000.mp3",
-          "sha256": "b63fb14d1f652280f44ea1dbf8c3f84904f2113cc2fd480bdd2889f250432b5a",
+          "duration": 79.83020408163266,
+          "file": "Audio/Transport/full_zone_westfall-464129db19a80ec35914/1-0000.mp3",
+          "sha256": "7a41a6da2c7077f08fe48965fe02ea5398c43a0b4d83a2dbc90705ee6e59c326",
           "start": 0
         }
       ],
@@ -5060,15 +5060,15 @@
           "1"
         ]
       },
-      "fullHash": "51e782",
-      "generation": "e6d0c679997b8542a853",
+      "fullHash": "8dd71d",
+      "generation": "0ad0caa546fe0a6c8bb7",
       "hash": "343283",
       "source": {
-        "duration": 102.426063,
+        "duration": 79.830204,
         "file": null,
-        "sha256": "568b9d4a3448aaca2d5102ed2b3cd1686f7a49b9dce290f7aeaf8207f39e8809"
+        "sha256": "464129db19a80ec359143bcd7e8e16ab6a9501c18d5488499be6497acfd4fa6b"
       },
-      "text": "Westfall. Once the fertile breadbasket of the Kingdom of Stormwind, Westfall has collapsed into a windswept, neglected territory overrun by outlaws. Deprived of official crown support and military garrisons, its surviving homesteaders cling to their farms while the Defias Brotherhood tightens its grip from the abandoned mining town of Moonbrook. For generations, Westfall fed the Kingdom of Stormwind. Its rolling pastures and wheat fields flourished until the aftermath of the Second War brought financial exhaustion and political neglect. When the kingdom poured its resources elsewhere and failed to maintain its garrisons, the territory grew fallow. Today, barren pastures, howling coastal gusts, rogue harvest golems, and raiding Riverpaw gnolls make daily survival a constant trial for the stubborn few who refuse to abandon their homesteads. Westfall's collapse accelerated when the Stonemasons Guild, denied payment for rebuilding Stormwind City, turned to open revolt. Outlawed and exiled under Edwin VanCleef, the stonemasons reconstituted themselves as the Defias Brotherhood. They claimed Westfall as their stronghold, burning stubborn farmers' fields, salting soil, and seizing abandoned mines. Operating out of the ghost town of Moonbrook, the Brotherhood now rules the majority of the countryside in all but name. With the House of Nobles ignoring Westfall's plight, local inhabitants took up their own defense. Based at the fortified post of Sentinel Hill, Gryan Stoutmantle organized the People's Militia—a volunteer force attempting to hold the line against gnolls and bandits. Lacking formal soldiers and supplies from Stormwind, the Militia relies on wandering adventurers to push back the Defias tide and protect the remaining farms."
+      "text": "Westfall. Westfall's farms lie exposed, and the Defias Brotherhood holds much of the countryside. Once Stormwind's breadbasket, the territory now struggles without crown support or military garrisons. Westfall once fed the Kingdom of Stormwind with its pastures and wheat fields. After the Second War, the kingdom's finances ran thin and its leaders neglected the territory. Stormwind sent resources elsewhere and let its garrisons go, leaving the land fallow. Now barren pastures, harsh coastal winds, rogue harvest golems, and Riverpaw gnolls make survival hard for the few homesteaders who remain. The Defias Brotherhood's arrival hastened Westfall's collapse. The bandits wear red masks and follow a leader whose name no one in the countryside knows. They made Westfall their stronghold, burning farmers' fields, salting the soil, and taking abandoned mines. From Moonbrook, a ghost town, the Brotherhood rules most of the countryside in all but name. The House of Nobles has ignored Westfall's plight, so local people have taken up their own defense. At Sentinel Hill, Gryan Stoutmantle formed the People's Militia, a volunteer force holding the line against gnolls and bandits. Stormwind sends no formal soldiers or supplies. The Militia depends on wandering adventurers to push back the Defias and protect the farms that remain."
     },
     "zone:wetlands": {
       "1": [
@@ -5159,6 +5159,23 @@
       1555,
       1833,
       2038
+    ],
+    "02359c464f402813f8b0c64075dfeb8a58eb0056fe940eb35b29efa1418af325": [
+      204,
+      503,
+      673,
+      1060,
+      1509,
+      1768,
+      2177,
+      2336,
+      2485,
+      2685,
+      2973,
+      3219,
+      3499,
+      3768,
+      3973
     ],
     "028e4eee5cb3eb18203827afa38801bd75c7c42c861fc07a9c57e06d68a8eb3f": [
       527,
@@ -5362,32 +5379,6 @@
       2241,
       2563,
       2900
-    ],
-    "2169a23989978bb6704671a1fb399c16dab728b6135305c210090a7280d17e9d": [
-      151,
-      579,
-      795,
-      1064,
-      1258,
-      1592,
-      1744,
-      2320,
-      2758
-    ],
-    "22a49c919361f2a2563ada486fda72503feeb95c7664436befdebca4fe2d1bca": [
-      285,
-      885,
-      1024,
-      1190,
-      1537,
-      1734,
-      2347,
-      2509,
-      2966,
-      3568,
-      3896,
-      4408,
-      4613
     ],
     "243f80b4e883acf7a79194b237b18e67de6a55a3572b6f054f703cfc91ea284f": [
       272,
@@ -5601,6 +5592,16 @@
       3216,
       3530
     ],
+    "3dfae3055378c03f39ff43a33db105f1cd3e9af99f6c7baf24d58c3e97201260": [
+      218,
+      450,
+      655,
+      897,
+      1513,
+      1666,
+      1897,
+      2137
+    ],
     "3eb9217524f3989092d3d9ce19481f94399079f72610015b27595e9020fcb3a6": [
       291,
       661,
@@ -5708,6 +5709,14 @@
       3469,
       3771,
       4081
+    ],
+    "488ddd8a4244d4eeee80a214de2495a5397c32fb373184b999af2d0e6dcc7a0d": [
+      206,
+      480,
+      651,
+      1055,
+      1799,
+      2062
     ],
     "48a72def1b44bcabf40625e562f9c529d243efebb6a28dc801b0fc654ec79f3a": [
       176,
@@ -5862,13 +5871,6 @@
       3435,
       3767,
       4055
-    ],
-    "5ad4f6d5325c15da5203b37d24583b369928d44221f4be57e8b252010c30fe33": [
-      323,
-      789,
-      1080,
-      1454,
-      2132
     ],
     "5b6529204a716ab9eaf32c29e573f69873f2fe2f8db8101da3406c10a3c99692": [
       452,
@@ -6077,6 +6079,19 @@
       2801,
       3443
     ],
+    "7a41a6da2c7077f08fe48965fe02ea5398c43a0b4d83a2dbc90705ee6e59c326": [
+      440,
+      809,
+      1013,
+      1360,
+      1512,
+      1970,
+      2156,
+      2411,
+      2572,
+      2725,
+      2863
+    ],
     "7b92d249d9486383871ab57bd81188db7affeb5e830604f370951a34aa799480": [
       325,
       682,
@@ -6104,6 +6119,15 @@
       518,
       981,
       1301
+    ],
+    "7d2e0b6a528575abc2e6ff4782501063d6970444839ccc5ddebd744a1473417f": [
+      555,
+      851,
+      1738,
+      1989,
+      2340,
+      2497,
+      2814
     ],
     "7e2ddee315edadf3ce6acc77f387061fc64732160ef1e9c56b21018769100794": [
       235,
@@ -6490,25 +6514,6 @@
       4269,
       4702
     ],
-    "a6f8fbf8998e28819f24974598b73510e0d1ff681f6df903f0bb30abd7c0bc13": [
-      245,
-      661,
-      1075,
-      1377,
-      1652,
-      1806,
-      2064,
-      2371,
-      2855
-    ],
-    "a7e1467a40bcc4f3423e954a65b513d27b627ff15f9abf0787fd113e041ae83f": [
-      441,
-      782,
-      1354,
-      1710,
-      2118,
-      2544
-    ],
     "a89fb4d704b2c782e4816d6ed0f281033ea7bf1e2574f0abfd272a8c012206b4": [
       262,
       673,
@@ -6555,6 +6560,14 @@
       3188,
       3446
     ],
+    "af51f1d4643bfe29fc73819f44b344ba50f42cba5c373f3b305e3d0c9ae958c1": [
+      253,
+      857,
+      1010,
+      1472,
+      1818,
+      2291
+    ],
     "af7fa75fa834d49b99f3a884ab6cae3717319a0c0a8ee4bfeec0aae785d4cbaa": [
       250,
       576,
@@ -6593,20 +6606,6 @@
       2653,
       3288,
       3530
-    ],
-    "b63fb14d1f652280f44ea1dbf8c3f84904f2113cc2fd480bdd2889f250432b5a": [
-      134,
-      347,
-      895,
-      1201,
-      1456,
-      1913,
-      2209,
-      2463,
-      2753,
-      2990,
-      3215,
-      3596
     ],
     "b6d844d7261c73449544b47898c4cabb2ceebf1b84c783f467d9f0bf50245581": [
       220,
@@ -7148,6 +7147,32 @@
   "pack": "LoreForever_Voice_Default",
   "rates": [
     "1"
+  ],
+  "retired": [
+    {
+      "file": "Audio/Transport/full_subzone_northshire-abbey-3e1995f399811c2d083d/1-0000.mp3",
+      "sha256": "a6f8fbf8998e28819f24974598b73510e0d1ff681f6df903f0bb30abd7c0bc13"
+    },
+    {
+      "file": "Audio/Transport/full_topic_terenas-menethil-ii-1f4d379922eb844dd4ad/1-0000.mp3",
+      "sha256": "a7e1467a40bcc4f3423e954a65b513d27b627ff15f9abf0787fd113e041ae83f"
+    },
+    {
+      "file": "Audio/Transport/full_topic_westfall-brigade-b70e398992391aa4126d/1-0000.mp3",
+      "sha256": "5ad4f6d5325c15da5203b37d24583b369928d44221f4be57e8b252010c30fe33"
+    },
+    {
+      "file": "Audio/Transport/full_zone_elwynn-078af5deba81a22a5c7e/1-0000.mp3",
+      "sha256": "2169a23989978bb6704671a1fb399c16dab728b6135305c210090a7280d17e9d"
+    },
+    {
+      "file": "Audio/Transport/full_zone_stormwind-28d2abf834d4d93c1c23/1-0000.mp3",
+      "sha256": "22a49c919361f2a2563ada486fda72503feeb95c7664436befdebca4fe2d1bca"
+    },
+    {
+      "file": "Audio/Transport/full_zone_westfall-568b9d4a3448aaca2d51/1-0000.mp3",
+      "sha256": "b63fb14d1f652280f44ea1dbf8c3f84904f2113cc2fd480bdd2889f250432b5a"
+    }
   ],
   "version": 1
 }

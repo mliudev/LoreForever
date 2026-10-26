@@ -8,11 +8,11 @@
   "wiki": "Gramma Stonefield",
   "refs": 1
  },
- "summary": "Gramma Stonefield, whose given name is Mildred, is the elderly matriarch of the Stonefield family residing at their farm in Elwynn Forest. Unlike her bickering kin, she has grown weary of the bitter, generations-long feud with the neighboring Maclures. Quietly working behind her family's back, she does everything she can to help her grandson Tommy Joe pursue his forbidden romance with Maybell Maclure.",
+ "summary": "At the Stonefield farm in Elwynn, Gramma Stonefield quietly works to ease a family feud.",
  "sections": [
   {
    "title": "A Secret Peacemaker",
-   "body": "As the oldest living member of the Stonefield clan, Mildred Stonefield has witnessed decades of petty squabbling between her household and the Maclures across the road. Rather than stoking the bad blood, she views the enduring rivalry as senseless and destructive. When her grandson Tommy Joe Stonefield falls in love with Maybell Maclure, Gramma chooses compassion over clan loyalty. Relying on an old friendship with William Pestle in Goldshire, she quietly plots to help the star-crossed sweethearts meet in secret, subverting the stubborn hostility dividing the two farms.",
+   "body": "Gramma Stonefield has watched the Stonefields and the Maclures bicker for decades across the road. The oldest living member of the Stonefield clan, she sees their rivalry as senseless and harmful. When her grandson Tommy Joe Stonefield falls in love with Maybell Maclure, Gramma chooses compassion over clan loyalty. She turns to her old friend William Pestle in Goldshire and quietly plans ways for the sweethearts to meet in secret, despite the hostility between their farms.",
    "spoiler": 0
   }
  ],
@@ -24,7 +24,7 @@
     "mildred stonefield",
     "stonefield grandma"
    ],
-   "answer": "Gramma Stonefield, named Mildred, is the elderly matriarch of the Stonefield family living on their farm in central Elwynn Forest. She is the grandmother of Tommy Joe Stonefield."
+   "answer": "Gramma Stonefield, whose given name is Mildred, is the elderly matriarch of the Stonefield family at their farm in Elwynn Forest. She is Tommy Joe Stonefield's grandmother."
   },
   {
    "q": "How does she feel about the feud with the Maclures?",
@@ -32,7 +32,7 @@
     "stonefield maclure feud",
     "does she hate maclures"
    ],
-   "answer": "Mildred has no interest in maintaining the feud. Unlike most members of both families, she views the grudge as foolish and harmful, preferring to see harmony between the households rather than endless bickering."
+   "answer": "Mildred wants no part in the feud with the Maclures. She sees the grudge as foolish and harmful, and would rather the households live in harmony than keep bickering."
   },
   {
    "q": "Why is she helping Tommy Joe and Maybell?",
@@ -41,7 +41,7 @@
     "gramma love potion",
     "help lovers"
    ],
-   "answer": "She loves her grandson Tommy Joe and wants him to be happy. Because she rejects the family feud, she actively aids his forbidden romance with Maybell Maclure by calling upon her old friend William Pestle to concoct a solution for the pair."
+   "answer": "Mildred loves her grandson Tommy Joe and wants him to be happy. She rejects the family feud and asks her old friend William Pestle to devise a solution for Tommy Joe's romance with Maybell Maclure."
   },
   {
    "q": "Who is William Pestle to her?",
@@ -49,13 +49,13 @@
     "william pestle connection",
     "william pestle gramma"
    ],
-   "answer": "William Pestle, the alchemist residing at the Lion's Pride Inn in Goldshire, is an old and trusted friend of Gramma Stonefield. She reaches out to him through trusted couriers to concoct subtle remedies and aids for Tommy Joe."
+   "answer": "William Pestle is an old, trusted friend of Gramma Stonefield. He lives at the Lion's Pride Inn in Goldshire, where he works as an alchemist, and she sends trusted couriers to ask him for remedies and other help for Tommy Joe."
   }
  ],
  "angles": [
   {
    "target": "faction:Alliance",
-   "text": "Gramma Stonefield is a gentle reminder that even within the heartland of the Alliance, local conflicts often require quiet diplomacy and simple empathy rather than steel."
+   "text": "As an Alliance traveler, Gramma Stonefield shows how local conflicts in the heartland can call for quiet diplomacy and empathy."
   }
  ],
  "keywords": [
@@ -78,5 +78,6 @@
  ],
  "attribution": [
   "Gramma Stonefield"
- ]
+ ],
+ "style": 1
 }

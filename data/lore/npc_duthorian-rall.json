@@ -8,21 +8,21 @@
   "wiki": "Duthorian Rall",
   "refs": 7
  },
- "summary": "Duthorian Rall is a respected human knight of the Silver Hand stationed within Stormwind's Cathedral of Light. Renowned as one of the most influential paladins in the Alliance, he oversees the training and spiritual trials of emerging holy warriors. He guides recruits through solemn vows of charity, valor, and devotion to defend Azeroth against the Scourge and lurking domestic threats.",
+ "summary": "In Stormwind's Cathedral of Light, Duthorian Rall guides new holy warriors through their trials. The respected human knight of the Silver Hand is one of the Alliance's most influential paladins, overseeing their training and spiritual tests. He teaches charity, valor, and devotion as they prepare to defend Azeroth from the Scourge and threats within the kingdom.",
  "sections": [
   {
    "title": "A Pillar of the Silver Hand",
-   "body": "Standing within the vaulted transept of the Cathedral of Light, Duthorian Rall represents the venerable traditions of the Knights of the Silver Hand. With the kingdom unsettled by internal strife and the missing King Varian Wrynn, Duthorian shoulders the vital duty of instilling righteous discipline in fresh initiates. Respected paladins in the field, including Brother Wilhelm in Goldshire and Brandur Ironhammer in Ironforge, direct promising recruits to his guidance to begin their sacred trials.",
+   "body": "In the Cathedral of Light, Duthorian Rall upholds the traditions of the Knights of the Silver Hand. The kingdom is unsettled by internal strife, and King Varian Wrynn is missing. Duthorian carries the duty of teaching discipline to new initiates. Respected paladins in the field send promising recruits to him: Brother Wilhelm in Goldshire and Brandur Ironhammer in Ironforge, so they can begin their sacred trials.",
    "spoiler": 0
   },
   {
    "title": "Trials of Compassion and Life",
-   "body": "Duthorian teaches that martial power without moral foundation is hollow. Through the Tome of Divinity, he tests a paladin's capacity for empathy, requiring acts of mercy and selfless service across Stormwind before entrusting them with deeper mysteries. His trials culminate in testing candidates with the Symbol of Life near Heroes' Vigil, sending them to aid wounded allies and teach them to channel the Light's miraculous power to restore fallen comrades from death.",
+   "body": "Duthorian teaches that martial power without a moral foundation is hollow. In the Tome of Divinity trials, he tests an initiate's empathy through acts of mercy and selfless service across Stormwind. Only after these tests does he entrust candidates with deeper mysteries. Near Heroes' Vigil, he tests them with the Symbol of Life, then sends them to aid wounded allies and learn to channel the Light's power to restore fallen comrades from death.",
    "spoiler": 0
   },
   {
    "title": "The Price of Valor",
-   "body": "Beyond spiritual contemplation, Duthorian demands resolute courage in the face of peril. In his tests of valor, he cautions aspirants that their vows may demand their lives. He tests this resolve by sending initiates into dangerous territory\u2014such as defending Daphne Stilwell against Defias renegades in Westfall\u2014before directing them on toward master smith Jordan Stilwell outside Ironforge and granting them holy steeds worthy of their station.",
+   "body": "Duthorian's trials of valor demand courage in the face of peril. He warns aspirants that their vows may cost them their lives. To test their resolve, he sends initiates into danger, including to defend Daphne Stilwell from Defias renegades in Westfall. He then directs them to master smith Jordan Stilwell outside Ironforge and grants them holy steeds worthy of their station.",
    "spoiler": 1
   }
  ],
@@ -34,7 +34,7 @@
     "who is duthorian",
     "cathedral paladin duthorian"
    ],
-   "answer": "Duthorian Rall is a prominent knight of the Silver Hand residing in the Cathedral of Light within Stormwind City. He serves as an instructor and spiritual mentor for new paladins, testing their devotion and courage on behalf of the Church of the Holy Light."
+   "answer": "Duthorian Rall is a prominent knight of the Silver Hand who resides in Stormwind City's Cathedral of Light. He instructs and guides new paladins, testing their devotion and courage in service to the Church of the Holy Light."
   },
   {
    "q": "Where can Duthorian Rall be found?",
@@ -43,7 +43,7 @@
     "duthorian rall location",
     "how to find duthorian"
    ],
-   "answer": "He can be found standing in the eastern wing of the Cathedral of Light, located at the heart of the Cathedral Square in Stormwind City."
+   "answer": "Duthorian Rall can be found in the eastern wing of the Cathedral of Light, at the heart of Stormwind City's Cathedral Square."
   },
   {
    "q": "What is his connection to the Tome of Divinity?",
@@ -52,7 +52,7 @@
     "redemption quest duthorian",
     "symbol of life quest"
    ],
-   "answer": "Duthorian provides paladins with the Book of Divinity and guides them through trials of humility, compassion, and rescue. Fulfilling his trials proves an initiate is worthy to wield the Light's power of resurrection."
+   "answer": "Duthorian gives paladins the Book of Divinity and guides them through trials of humility, compassion, and rescue. Completing the trials proves an initiate worthy to wield the Light's power to resurrect the dead."
   },
   {
    "q": "Why does Duthorian send paladins to Westfall?",
@@ -61,7 +61,7 @@
     "tome of valor westfall",
     "westfall paladin quest"
    ],
-   "answer": "During the trial for the Tome of Valor, Duthorian sends paladins to protect Daphne Stilwell from Defias bandits on her farm in Westfall, demonstrating their willingness to sacrifice themselves to defend the innocent."
+   "answer": "Duthorian sends paladins to protect Daphne Stilwell from Defias bandits on her farm in Westfall during the Tome of Valor trial. The danger tests their willingness to sacrifice themselves to defend the innocent."
   },
   {
    "q": "What rewards does Duthorian grant to paladins who pass his trials?",
@@ -69,7 +69,7 @@
     "duthorian quest rewards",
     "what do you get from duthorian"
    ],
-   "answer": "Successful paladins earn key holy capabilities through his guidance, including the sacred gift of resurrection, the ability to sense undead, protective armaments such as the Bastion of Stormwind, and eventually their summoned warhorse."
+   "answer": "Through Duthorian's guidance, successful paladins earn key holy capabilities, including the sacred gift of resurrection, the ability to sense undead, protective armaments such as the Bastion of Stormwind, and eventually a summoned warhorse."
   },
   {
    "q": "Who sends adventurers to Duthorian initially?",
@@ -77,21 +77,21 @@
     "who sends you to duthorian",
     "duthorian breadcrumb quest"
    ],
-   "answer": "Aspirants are typically directed to him by paladin trainers, including Brother Wilhelm in Goldshire and Brandur Ironhammer in Ironforge."
+   "answer": "Paladin trainers, including Brother Wilhelm in Goldshire and Brandur Ironhammer in Ironforge, typically direct aspirants to Duthorian."
   }
  ],
  "angles": [
   {
    "target": "class:Paladin",
-   "text": "Duthorian Rall is one of your primary spiritual mentors in Stormwind, testing your compassion and valor through foundational trials that unlock the power of resurrection, divine senses, and your warhorse."
+   "text": "As a paladin, you receive Duthorian Rall's guidance in Stormwind. His foundational trials test your compassion and valor, unlocking resurrection, divine senses, and your warhorse."
   },
   {
    "target": "faction:Alliance",
-   "text": "As an influential leader within the Silver Hand, Duthorian ensures that the Alliance's defenders remain morally upright and capable of defending the realm against bandits and undead alike."
+   "text": "As an Alliance defender, you rely on Duthorian, an influential Silver Hand leader, to keep the Alliance's defenders morally upright and able to defend the realm against bandits and undead."
   },
   {
    "target": "race:Human",
-   "text": "Anchored in Stormwind's Cathedral of Light, Duthorian represents the enduring devotion and chivalric discipline central to human faith and society."
+   "text": "As a human, you find Duthorian anchored in Stormwind's Cathedral of Light, where he represents the devotion and chivalric discipline central to human faith and society."
   }
  ],
  "keywords": [
@@ -118,5 +118,6 @@
  ],
  "attribution": [
   "Duthorian Rall"
- ]
+ ],
+ "style": 1
 }

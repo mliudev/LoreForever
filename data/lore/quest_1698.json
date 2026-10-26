@@ -17,16 +17,16 @@
   "wiki": "Yorus Barleybrew (quest)",
   "chain": []
  },
- "summary": "Yorus Barleybrew is an Alliance warrior summons directing seasoned fighters out of Stormwind toward the borderlands of Redridge. Issued by martial trainers across the Alliance capitals, it sends ambitious combatants to meet an eccentric dwarf laying down a deadly challenge at the Lakeshire Inn.",
+ "summary": "At the Lakeshire Inn, Yorus Barleybrew awaits Alliance warriors bold enough to answer his challenge. Trainers across Alliance capitals send seasoned fighters from Stormwind toward the Redridge borderlands to meet the eccentric dwarf and face his test of arms.",
  "sections": [
   {
    "title": "A Call to the Strong",
-   "body": "Warrior trainers across the Alliance capitals, including Kelv Sternhammer, Wu Shen, and Darnath Bladesinger, keep a close eye on fighters who have outgrown basic drills. When an apprentice proves their mettle around their twentieth season, these masters pass along word of a dwarf named Yorus Barleybrew. Rather than issuing a standard military directive, Barleybrew has put out an open wager and a test of arms to any Alliance warrior bold enough to answer.",
+   "body": "Across Alliance capitals, warrior trainers watch fighters who have outgrown their first drills. When an apprentice proves their mettle around their twentieth season, trainers such as Kelv Sternhammer, Wu Shen, and Darnath Bladesinger pass along word of Yorus Barleybrew. The dwarf offers no standard military order. Instead, he has issued an open wager and a test of arms to any Alliance warrior bold enough to answer.",
    "spoiler": 0
   },
   {
    "title": "Waiting in Lakeshire",
-   "body": "Barleybrew has stationed himself at the tavern in Lakeshire, right on the front lines of Redridge's struggle against encroaching gnolls and Blackrock orcs. Those who track him down find a boastful dwarf with a hearty drink in hand, ready to size up any challenger who claims to possess real fighting spirit. For warriors seeking to prove themselves beyond the safe cobbled streets of the capital, his trial marks an initiation into harsher frontier battles.",
+   "body": "Yorus Barleybrew waits at the tavern in Lakeshire, on the front lines of Redridge's struggle against encroaching gnolls and Blackrock orcs. Those who find him meet a boastful dwarf with a hearty drink in hand, ready to judge any challenger who claims true fighting spirit. For warriors seeking to prove themselves beyond the capital's safe cobbled streets, his trial opens onto the harsher battles of the frontier.",
    "spoiler": 0
   }
  ],
@@ -38,7 +38,7 @@
     "who is barleybrew",
     "dwarf in lakeshire inn"
    ],
-   "answer": "Yorus Barleybrew is a dwarf associated with the famous Barleybrew brewing clan who has issued an open martial challenge to Alliance warriors. Stationed in the Lakeshire Inn, he tests fighters who think they are ready for the brutal frontier of Redridge Mountains."
+   "answer": "Yorus Barleybrew is a dwarf of the famous Barleybrew brewing clan who has issued an open martial challenge to Alliance warriors. He waits at the Lakeshire Inn, where he tests fighters who believe they are ready for the brutal frontier of Redridge Mountains."
   },
   {
    "q": "Why do the trainers send warriors to Redridge?",
@@ -47,7 +47,7 @@
     "warrior trainer quest redridge",
     "why go to yorus"
    ],
-   "answer": "Once a warrior reaches sufficient skill in Stormwind, local weapon masters push them toward practical, high-stakes combat. Yorus Barleybrew offers a trial that forces trainees to venture beyond city walls and prove their endurance against real wilderness threats."
+   "answer": "When a warrior has gained sufficient skill in Stormwind, local weapon masters send them toward practical, high-stakes combat. Yorus Barleybrew's trial takes trainees beyond the city walls, where they prove their endurance against real wilderness threats."
   },
   {
    "q": "Where can I find Yorus Barleybrew?",
@@ -56,7 +56,7 @@
     "where is yorus",
     "find barleybrew"
    ],
-   "answer": "He can be found sitting inside the Lakeshire Inn, situated in the town of Lakeshire within the Redridge Mountains, just east of Elwynn Forest."
+   "answer": "Yorus Barleybrew waits inside the Lakeshire Inn, in the town of Lakeshire in the Redridge Mountains, just east of Elwynn Forest."
   },
   {
    "q": "What happens after speaking with Yorus?",
@@ -65,7 +65,7 @@
     "barleybrew trial",
     "next quest"
    ],
-   "answer": "Speaking with Yorus initiates his martial trial, challenging you to take on the Rethban Gauntlet, a perilous test against the vicious beasts and gnolls inhabiting the surrounding hills."
+   "answer": "Speaking with Yorus begins his martial trial: the Rethban Gauntlet, a perilous test against the vicious beasts and gnolls in the surrounding hills."
   },
   {
    "q": "Who offers the quest to find him?",
@@ -74,7 +74,7 @@
     "quest starter",
     "trainers for yorus"
    ],
-   "answer": "The quest is provided by various warrior trainers in the Alliance capitals, including Kelv Sternhammer, Wu Shen, and Darnath Bladesinger, once a warrior has proven basic competence."
+   "answer": "Warrior trainers in the Alliance capitals, including Kelv Sternhammer, Wu Shen, and Darnath Bladesinger, send warriors to find Yorus once they have proven basic competence."
   },
   {
    "q": "Is this trial open to classes other than warriors?",
@@ -83,17 +83,17 @@
     "is this warrior only",
     "class restrictions"
    ],
-   "answer": "No. The challenge is specifically tailored for warriors. Yorus Barleybrew issues his trial exclusively to martial combatants who rely purely on physical endurance and arms."
+   "answer": "No. Yorus Barleybrew offers this challenge only to warriors, martial combatants who rely on physical endurance and arms."
   }
  ],
  "angles": [
   {
    "target": "class:Warrior",
-   "text": "This quest marks an important rite of passage for Alliance warriors, moving them from introductory drills into dangerous trials out on the Redridge frontier."
+   "text": "As an Alliance warrior, you face a rite of passage from introductory drills to dangerous trials on the Redridge frontier."
   },
   {
    "target": "faction:Alliance",
-   "text": "Barleybrew's challenge brings capable martial recruits directly into Lakeshire, a vulnerable settlement currently beset by gnolls and Blackrock orcs."
+   "text": "As an Alliance recruit, you may be sent to Lakeshire, a vulnerable settlement beset by gnolls and Blackrock orcs."
   }
  ],
  "keywords": [
@@ -115,5 +115,6 @@
  ],
  "attribution": [
   "Yorus Barleybrew (quest)"
- ]
+ ],
+ "style": 1
 }

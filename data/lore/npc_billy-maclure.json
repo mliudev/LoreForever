@@ -8,16 +8,16 @@
   "wiki": "Billy Maclure",
   "refs": 4
  },
- "summary": "Billy Maclure is a mischievous young human boy living at the Maclure Vineyards in Elwynn Forest. Caught in the midst of a bitter feud between his family and the neighboring Stonefields, Billy's petty antics often cause trouble for both farms. His weakness for fresh pastries makes him easy to bribe when his shenanigans get out of hand.",
+ "summary": "At Maclure Vineyards, Billy Maclure's pranks stir trouble between two neighboring farms. The young human boy dodges chores and plays at the feud between his family and the Stonefields, but fresh pastries can win his cooperation.",
  "sections": [
   {
    "title": "A Boy at the Vineyards",
-   "body": "Billy Maclure can usually be found loitering outside the barn at the Maclure Vineyards, not far from the farmer Gerard Tiller. Growing up amidst the endless rows of grapevines, Billy spends much of his time dodging chores and running wild across the rural meadows of southern Elwynn Forest. Like the rest of his kin, he is keenly aware of the long-standing hostility between the Maclures and the Stonefields, though Billy treats the feud more like a game of pranks and petty theft than a serious conflict.",
+   "body": "Billy Maclure spends his days outside the barn at Maclure Vineyards, near farmer Gerard Tiller. He grows up among the grapevines in southern Elwynn Forest, often dodging chores and roaming the meadows. The Maclures and Stonefields have long been hostile toward each other. Billy treats their feud as a chance for pranks and petty theft.",
    "spoiler": 0
   },
   {
    "title": "The Stolen Necklace",
-   "body": "Billy's mischief crossed the line when he swiped a treasured heirloom necklace belonging to Auntie Bernice Stonefield. While dashing about near the perilous Fargodeep Mine, the frightened youngster lost his grip on the trinket. Before he could retrieve it, the necklace was snatched up by a particularly massive and vicious kobold named Goldtooth, who vanished back into the subterranean tunnels. Terrified of both the subterranean vermin and the wrath of the neighboring elders, Billy remains reluctant to confess until coaxed with a savory bribe\u2014specifically, a hot pork belly pie baked by Auntie Bernice herself.",
+   "body": "Billy Maclure stole Auntie Bernice Stonefield's treasured heirloom necklace. While running near Fargodeep Mine, he lost hold of it. Goldtooth, a massive and vicious kobold, snatched the necklace and vanished into the mine's tunnels. Billy fears the kobolds and the neighboring elders' anger, so he hesitates to confess. Auntie Bernice's hot pork belly pie can coax the truth from him.",
    "spoiler": 1
   }
  ],
@@ -29,7 +29,7 @@
     "billy maclure lore",
     "maclure kid"
    ],
-   "answer": "Billy Maclure is a young human child living at the Maclure Vineyards in Elwynn Forest. He spends his days dodging work around the farm, playing pranks, and aggravating the neighboring Stonefield family."
+   "answer": "Billy Maclure is a young human boy at Maclure Vineyards in Elwynn Forest. He dodges farm work, plays pranks, and aggravates the neighboring Stonefields."
   },
   {
    "q": "Where can Billy Maclure be found?",
@@ -38,7 +38,7 @@
     "where is billy",
     "find billy maclure"
    ],
-   "answer": "Billy is stationed just outside the main barn on the grounds of the Maclure Vineyards, located in southern Elwynn Forest to the east of the Stonefield Farm."
+   "answer": "Billy waits outside the main barn at Maclure Vineyards, in southern Elwynn Forest east of Stonefield Farm."
   },
   {
    "q": "What did Billy do to Auntie Bernice?",
@@ -47,7 +47,7 @@
     "what did billy steal",
     "stolen necklace elwynn"
    ],
-   "answer": "Billy snuck over to the Stonefield Farm and stole Auntie Bernice Stonefield's heirloom necklace as part of the ongoing feud between their families."
+   "answer": "Billy stole Auntie Bernice Stonefield's heirloom necklace during the feud between their families."
   },
   {
    "q": "What happened to the necklace Billy stole?",
@@ -56,7 +56,7 @@
     "lost necklace elwynn",
     "who has bernice necklace"
    ],
-   "answer": "While playing carelessly near the entrance of Fargodeep Mine, Billy dropped the necklace. It was swiftly picked up by Goldtooth, a notorious and formidable kobold who carried it deep into the mine."
+   "answer": "Billy lost the necklace near Fargodeep Mine. Goldtooth picked it up and carried it into the mine."
   },
   {
    "q": "How do you get Billy to confess what happened to the necklace?",
@@ -65,7 +65,7 @@
     "how to bribe billy",
     "bribing billy maclure"
    ],
-   "answer": "Billy refuses to tell the truth out of stubbornness and fear of punishment, but he cannot resist his appetite. Offering him one of Auntie Bernice's freshly baked pork belly pies is enough to loosen his tongue."
+   "answer": "Offer Billy a freshly baked pork belly pie from Auntie Bernice. His appetite can coax him to confess."
   },
   {
    "q": "Who is Goldtooth?",
@@ -74,21 +74,21 @@
     "goldtooth lore",
     "fargodeep kobold"
    ],
-   "answer": "Goldtooth is an exceptionally large and vicious kobold leader who nests inside Fargodeep Mine. He snatched Auntie Bernice's dropped necklace from near the mine's entrance and hoards it within the dark tunnels."
+   "answer": "Goldtooth is an exceptionally large and vicious kobold leader in Fargodeep Mine. He took Auntie Bernice's necklace near the mine entrance and keeps it in the tunnels."
   }
  ],
  "angles": [
   {
    "target": "race:Human",
-   "text": "Billy represents the grounded, everyday squabbles of the Elwynn countryside, showing that even with Stormwind's political turmoil, local farm feuds and childhood misbehavior carry on as usual."
+   "text": "As a human, Billy's troubles show the everyday quarrels of the Elwynn countryside. Farm feuds and childhood mischief continue amid Stormwind's political turmoil."
   },
   {
    "target": "faction:Alliance",
-   "text": "For Alliance adventurers newly arrived from Northshire, assisting with Billy's foolish pranks provides an introduction to the dangers lurking in Fargodeep Mine."
+   "text": "As an Alliance adventurer newly arrived from Northshire, helping with Billy's pranks introduces you to dangers in Fargodeep Mine."
   },
   {
    "target": "profession:Cooking",
-   "text": "Auntie Bernice's renowned pork belly pie demonstrates how simple frontier cooking can resolve tense local disputes and pry confessions from tight-lipped farm boys."
+   "text": "As a cook, you can see how Auntie Bernice's pork belly pie helps settle local disputes and coax confessions from tight-lipped farm boys."
   }
  ],
  "keywords": [
@@ -113,5 +113,6 @@
  ],
  "attribution": [
   "Billy Maclure"
- ]
+ ],
+ "style": 1
 }

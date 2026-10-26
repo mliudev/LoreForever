@@ -10,16 +10,16 @@
    "quest:144"
   ]
  },
- "summary": "Stoutmantle's Response to Solomon is a written dispatch carried from Sentinel Hill to Lakeshire. In it, Gryan Stoutmantle grimly informs Magistrate Solomon that the embattled People's Militia cannot spare a single soldier to defend Redridge Mountains.",
+ "summary": "Gryan Stoutmantle sends a hard answer from Sentinel Hill to Lakeshire. His dispatch tells Magistrate Solomon that the People's Militia cannot spare a single soldier for Redridge Mountains.",
  "sections": [
   {
    "title": "A Plea Denied",
-   "body": "Facing relentless pressure from Blackrock orcs and gnolls, Magistrate Solomon of Lakeshire reached out to Sentinel Hill hoping Westfall's local forces could send reinforcements. Gryan Stoutmantle's written reply brings bitter news. Mourning Lakeshire's losses, Stoutmantle explains that Westfall is plagued with its own war. The People's Militia was formed out of desperation precisely because the Crown withdrew its garrison, leaving farmers and volunteers to battle the Defias Brotherhood alone. Stoutmantle explains that his own forces are bleeding and stretched thin, unable to sacrifice men to bail out another abandoned frontier.",
+   "body": "Magistrate Solomon of Lakeshire asks Sentinel Hill for reinforcements as Blackrock orcs and gnolls press his town. Gryan Stoutmantle replies in writing with sorrow for Lakeshire's losses, but Westfall faces a war of its own. The People's Militia formed from desperation after the Crown withdrew its garrison. Farmers and volunteers now fight the Defias Brotherhood alone. Stoutmantle's forces are already bleeding and stretched thin, with no men to spare for another abandoned frontier.",
    "spoiler": 0
   },
   {
    "title": "The Kingdom's Neglect",
-   "body": "The correspondence highlights the shared tragedy of the southern human territories in 25 ADP. Both Redridge and Westfall find themselves entirely forsaken by the royal court in Stormwind City. While King Varian Wrynn remains missing and the kingdom's standing army is mysteriously withheld from provincial borders, outlying towns are left to form independent volunteer watches or perish. When Solomon receives the sealed reply, the realization sets in that neither town can save the other; the entire realm is fraying while the capital remains silent.",
+   "body": "Redridge and Westfall share a grim plight: both lie forsaken by the royal court in Stormwind City. King Varian Wrynn is missing, and the kingdom's standing army is mysteriously withheld from provincial borders. Outlying towns must form volunteer watches or perish. Solomon receives the sealed reply and sees that neither town can save the other. The realm frays while the capital remains silent.",
    "spoiler": 1
   }
  ],
@@ -31,7 +31,7 @@
     "stoutmantle letter contents",
     "response to solomon text"
    ],
-   "answer": "Gryan Stoutmantle explains that Westfall is engulfed in a brutal war against the Defias Brotherhood and has been abandoned by Stormwind's army just like Redridge. He expresses sorrow over fallen defenders but firmly declines Magistrate Solomon's request for military reinforcements."
+   "answer": "Gryan Stoutmantle writes that Westfall is fighting a brutal war against the Defias Brotherhood and has lost Stormwind's army, as Redridge has. He mourns the fallen defenders but declines Magistrate Solomon's request for reinforcements."
   },
   {
    "q": "Why did Solomon ask Westfall for help in the first place?",
@@ -40,7 +40,7 @@
     "solomon asking stoutmantle",
     "why did lakeshire ask for the militia"
    ],
-   "answer": "Lakeshire is under heavy assault by gnolls and Blackrock orcs, and his plea to General Marcus Jonathan in Stormwind has yet to bring any troops. Lacking official support, Magistrate Solomon reached out across Elwynn to the People's Militia, hoping fellow frontier defenders could spare troops."
+   "answer": "Lakeshire faces heavy assaults by gnolls and Blackrock orcs, and Magistrate Solomon's plea to General Marcus Jonathan in Stormwind has brought no troops. With no official aid, Solomon asks the People's Militia across Elwynn for help from fellow frontier defenders."
   },
   {
    "q": "Why can't the People's Militia spare any troops?",
@@ -49,7 +49,7 @@
     "can westfall help redridge",
     "why refuse solomon"
    ],
-   "answer": "The People's Militia is a volunteer army barely holding together Sentinel Hill and the surrounding plains against the Defias Brotherhood. With casualties mounting daily and no regular army support, sending fighters to Lakeshire would leave Westfall entirely undefended."
+   "answer": "The People's Militia is a volunteer army struggling to hold Sentinel Hill and the surrounding plains against the Defias Brotherhood. Casualties mount daily, and without regular army support, sending fighters to Lakeshire would leave Westfall undefended."
   },
   {
    "q": "Why isn't the Stormwind Army protecting these towns?",
@@ -58,17 +58,17 @@
     "why won't stormwind help",
     "stormwind desertion"
    ],
-   "answer": "Nobody in either town knows. Stoutmantle writes only that Stormwind withdrew its troops and left Westfall defenseless, and Magistrate Solomon is left wondering what action could be so important that it calls the Stormwind Army away from its people. Both rural regions are left to fend for themselves with local volunteers."
+   "answer": "No one in either town knows why the Stormwind Army is absent. Stoutmantle writes that Stormwind withdrew its troops and left Westfall defenseless, while Solomon wonders what could call the army away from its people. Both regions must rely on local volunteers."
   }
  ],
  "angles": [
   {
    "target": "faction:Alliance",
-   "text": "Carrying this letter exposes the political rot paralyzing the Alliance core: outlying settlements must plead with one another for aid while the capital withholds its forces."
+   "text": "For the Alliance, this letter shows outlying settlements pleading with one another for aid while the capital withholds its forces."
   },
   {
    "target": "race:Human",
-   "text": "For human defenders, the dispatch is a grim reminder that rural heartlands like Westfall and Redridge share the same desperate struggle for survival without Stormwind's royal guards."
+   "text": "As a human defender, you see Westfall and Redridge sharing a desperate struggle to survive without Stormwind's royal guards."
   }
  ],
  "keywords": [
@@ -96,5 +96,6 @@
  "attribution": [
   "Stoutmantle's Response to Solomon",
   "Messenger to Westfall (2)"
- ]
+ ],
+ "style": 1
 }

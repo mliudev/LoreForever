@@ -7,16 +7,16 @@
  "meta": {
   "wiki": "Eastvale Logging Camp"
  },
- "summary": "Eastvale Logging Camp is a vital lumber settlement tucked into the eastern woodlands of Elwynn Forest, near the border with the Redridge Mountains. The camp supplies vital timber to Stormwind and surrounding settlements, but its operations are constantly hampered by hungry predators prowling the surrounding forests.",
+ "summary": "At Eastvale Logging Camp, timber orders from Stormwind meet the dangers of Elwynn’s eastern woods. Wolves and bears drive lumberjacks from their work, while the camp keeps timber moving toward Stormwind and nearby settlements.",
  "sections": [
   {
    "title": "A Vital Operation Under Siege",
-   "body": "Orders for timber constantly stream into Eastvale Logging Camp from buyers across the Kingdom of Stormwind, but meeting these strict deadlines is a harrowing task. The dense wilderness surrounding the camp swarms with vicious wolves and prowling bears that routinely chase lumberjacks away from their worksites, leaving valuable cut timber abandoned in the woods. Under the direction of Supervisor Raelen, the camp frequently relies on wandering adventurers to cull the encroaching beasts and retrieve fallen wood before deliveries fall fatally behind schedule.",
+   "body": "Timber buyers across the Kingdom of Stormwind send orders to Eastvale Logging Camp, each with a strict deadline. Wolves and bears prowl the woods around the work sites, driving lumberjacks away and leaving cut timber behind. Supervisor Raelen directs the camp’s work, and travelers help drive off the beasts and recover the abandoned wood before deliveries fall behind schedule.",
    "spoiler": 0
   },
   {
    "title": "Life on the Eastern Frontier",
-   "body": "Despite its remote location, Eastvale is more than just a logging outpost. It features several residential dwellings and bustling horse stables where travelers can purchase fine mounts. On a nearby hill overlooking the worksite sits the quiet manor of retired Marshal Haggard, the former leader of the Stormwind Guard, who withdrew to this rustic outpost to live out his retirement away from capital politics.",
+   "body": "Eastvale Logging Camp has homes and horse stables where travelers can buy fine mounts. On a nearby hill above the work site, retired Marshal Haggard lives in a quiet manor. He once led the Stormwind Guard and left its service to retire far from the politics of the capital.",
    "spoiler": 0
   }
  ],
@@ -28,7 +28,7 @@
     "what is eastvale",
     "eastvale lumber role"
    ],
-   "answer": "Eastvale serves as the primary timber source in eastern Elwynn Forest for the Kingdom of Stormwind. Lumberjacks here work long hours under strict deadlines to fulfill heavy demands for wood from builders and nobles across the realm."
+   "answer": "Eastvale Logging Camp is the primary timber source in eastern Elwynn Forest for the Kingdom of Stormwind. Its lumberjacks work long hours to meet strict deadlines and supply builders and nobles across the realm."
   },
   {
    "q": "Why is the logging camp always hiring adventurers?",
@@ -37,7 +37,7 @@
     "why do loggers need help",
     "wolves at eastvale"
    ],
-   "answer": "Dense woods surround the camp, and aggressive wild bears and prowling wolves constantly menace the workers. The attacks often force the woodcutters to flee, leaving chopped timber behind and putting timber orders at serious risk of missing shipment deadlines."
+   "answer": "Wolves and bears menace the workers in the dense woods around Eastvale Logging Camp. Their attacks drive lumberjacks away from cut timber and put orders at risk of missing shipment deadlines."
   },
   {
    "q": "Who is Marshal Haggard?",
@@ -46,7 +46,7 @@
     "old man near eastvale",
     "marshal haggard elwynn"
    ],
-   "answer": "Marshal Haggard is the retired former leader of the Stormwind Guard. He stepped down from service a few years ago and now resides in a peaceful estate on the bluffs overlooking the Eastvale Logging Camp."
+   "answer": "Marshal Haggard is the retired former leader of the Stormwind Guard. He stepped down from service a few years ago and now lives in a peaceful estate on the bluffs above Eastvale Logging Camp."
   },
   {
    "q": "Can you buy mounts at Eastvale Logging Camp?",
@@ -55,17 +55,17 @@
     "eastvale horses",
     "buy mount elwynn"
    ],
-   "answer": "Yes. The logging camp features an active horse-breeding stable where Alliance adventurers can purchase riding horses and riding training."
+   "answer": "Yes. Eastvale Logging Camp’s horse stable sells riding horses and offers riding training."
   }
  ],
  "angles": [
   {
    "target": "race:Human",
-   "text": "For humans of Stormwind, Eastvale provides the essential timber that continues to rebuild and maintain the kingdom's settlements."
+   "text": "As a human of Stormwind, you rely on Eastvale’s timber to rebuild and maintain the kingdom’s settlements."
   },
   {
    "target": "faction:Alliance",
-   "text": "Eastvale Logging Camp is one of the premier locations in Elwynn Forest where Alliance members can purchase dependable Stormwind steeds."
+   "text": "At Eastvale Logging Camp, you can buy dependable Stormwind steeds."
   }
  ],
  "keywords": [
@@ -90,5 +90,6 @@
  ],
  "attribution": [
   "Eastvale Logging Camp"
- ]
+ ],
+ "style": 1
 }

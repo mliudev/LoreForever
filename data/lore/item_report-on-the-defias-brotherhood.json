@@ -10,16 +10,16 @@
    "quest:396"
   ]
  },
- "summary": "The Report on the Defias Brotherhood is an official document compiled by City Architect Baros Alexston, detailing the activities and threat posed by the elusive conspirators. Intended to inform the royal court, it is entrusted to an adventurer who has begun unraveling their mysterious plot for personal delivery to Stormwind Keep.",
+ "summary": "At Stormwind Keep, a report on the Defias Brotherhood carries the findings of a long investigation to the royal court. City Architect Baros Alexston entrusts it to the adventurer who uncovered the conspiracy.",
  "sections": [
   {
    "title": "A Dispatch for the Throne",
-   "body": "Following the long investigation into the unrest plaguing Westfall and the surrounding territories, City Architect Baros Alexston prepared this formal report to alert the leadership of Stormwind to the full scope of the Defias threat. Rather than sending a standard royal messenger, Alexston entrusted the document to the very hero who untangled the conspiracy. Delivered directly to Stormwind Keep, the report is meant to accompany a personal audience detailing the conspirators' schemes and the danger they pose to the kingdom.",
+   "body": "City Architect Baros Alexston prepared a report for Stormwind's leaders after a long investigation into unrest in Westfall and nearby lands. He entrusted the document to the adventurer who unraveled the conspiracy. The report is carried to Stormwind Keep, where it is meant to accompany a personal audience about the conspirators' schemes and the danger they pose to the kingdom.",
    "spoiler": 0
   },
   {
    "title": "Reception at the Keep",
-   "body": "Though directed to King Varian Wrynn, the courier arrives at the throne room only to find the monarch absent, away on a quiet diplomatic journey. In his place, the royal advisors and regency presiding over the boy-king Anduin receive the report. While royal commendations are offered for stopping VanCleef's machinations, the presence of court figures like Lady Katrana Prestor casts an uncertain shadow over how seriously the warnings in the document will truly be heeded.",
+   "body": "King Varian Wrynn is away on a diplomatic journey when the courier reaches the throne room. Royal advisors and the regency governing for the boy-king Anduin receive the report in his place. They commend the courier for stopping VanCleef's plans. Lady Katrana Prestor is among the court figures present as the warnings reach the regency.",
    "spoiler": 1
   }
  ],
@@ -31,7 +31,7 @@
     "defias report item",
     "baros alexston report"
    ],
-   "answer": "It is an official briefing written by Baros Alexston that compiles all the gathered intelligence concerning Edwin VanCleef, his subterranean army, and the broader Defias conspiracy against Stormwind."
+   "answer": "The Report on the Defias Brotherhood is an official briefing by Baros Alexston, gathering intelligence on Edwin VanCleef, his subterranean army, and the wider Defias conspiracy against Stormwind."
   },
   {
    "q": "Who wrote this report?",
@@ -39,7 +39,7 @@
     "who made the defias report",
     "report author"
    ],
-   "answer": "The document was prepared by Baros Alexston, the City Architect of Stormwind, who once worked alongside the stonemasons before they broke away to form the Defias Brotherhood."
+   "answer": "Baros Alexston, Stormwind's City Architect, prepared the report. He once worked alongside the stonemasons before they broke away to form the Defias Brotherhood."
   },
   {
    "q": "Why am I delivering this to Stormwind Keep?",
@@ -47,7 +47,7 @@
     "why do i deliver this",
     "audience with the king delivery"
    ],
-   "answer": "Baros Alexston believes the adventurer who uncovered the conspiracy deserves the honor of presenting the findings directly to the throne, securing royal recognition for safeguarding the realm."
+   "answer": "Baros Alexston believes the adventurer who uncovered the conspiracy deserves to present the findings to the throne and earn royal recognition for protecting the realm."
   },
   {
    "q": "Does King Varian read the report?",
@@ -55,17 +55,17 @@
     "does the king read it",
     "varian wrynn audience"
    ],
-   "answer": "No. When you arrive at Stormwind Keep, King Varian Wrynn is absent, reportedly away on a secret diplomatic voyage. His royal court and regency receive the document in his stead."
+   "answer": "No. King Varian Wrynn is away on a diplomatic voyage when you reach Stormwind Keep. His court and regency receive the report in his place."
   }
  ],
  "angles": [
   {
    "target": "faction:Alliance",
-   "text": "Delivering this dispatch marks the culmination of the long struggle to secure Westfall and alert Stormwind's leadership to the insurrection brewing at its borders."
+   "text": "Delivering the report brings the long struggle to secure Westfall and warn Stormwind's leaders of the insurrection at its borders to the royal court."
   },
   {
    "target": "race:Human",
-   "text": "For humans of the realm, carrying this report highlights the tragic, unresolved conflict between Stormwind's noble house and the stonemasons who rebuilt the city."
+   "text": "As a human of the realm, you carry a report that reflects the unresolved conflict between Stormwind's noble house and the stonemasons who rebuilt the city."
   }
  ],
  "keywords": [
@@ -90,5 +90,6 @@
  "attribution": [
   "Report on the Defias Brotherhood",
   "An Audience with the King"
- ]
+ ],
+ "style": 1
 }

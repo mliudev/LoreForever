@@ -20,6 +20,7 @@
 // off (goal_checkins). She only advises: nothing here, or in her app, does anything in the game.
 import { RIDING, RIDING_HONORED_OFF, ridingPeople, PROFESSION_RANKS, ARTISAN_TRAINERS } from "./forever-game-facts.js";
 import { ACCOUNT_PAGE, linesOf, headingKey, cleanItem, titleOf } from "./willo-notebook.js";
+import { itemNames } from "./forever-item-names.js";
 
 export const GOALS_HEADING = "Goals";
 // What THEIR GOALS may add to an answer's system prompt (lib/companion-answers.js KNOWLEDGE_MAX_BYTES counts it).
@@ -69,8 +70,12 @@ const ago = seconds => seconds < 2 * 3600 ? "an hour or so ago" : seconds < 36 *
 // days: one per day played, oldest first: money and level (with the bar's fraction) at its first and last look, and
 // seconds online. beats: the story beats the character has opened (story as you play, docs/story-beats.md; the PC's
 // profile.opened_beats), for the hidden passages Willo on the phone may use (api/companion/passages.js); goals ignore them.
+// gear: {slot 1-19: [item id, name, rune?]}, talents: [{name, points, ranks: {talent: rank}}], bags: {item id: [count,
+// name]} (Stock.lua, LOR-834), what they wore, spent and carried, for her context (withSave); goals ignore them too.
+// Kept in the shape they came in, so a kept save reads back the same (willo-stock.js savedStock).
 const BEAT_ID = /^[a-z0-9][a-z0-9._-]{0,63}$/i;   // data/beats.json ids: "defias.masons", "s96.3"
 const BEATS_MAX = 1500;
+const BAGS_MAX = 150;   // kinds of item (Stock.lua's own cap; five bags hold 80 slots at most)
 export function stockOf(raw) {
   if (!raw || typeof raw !== "object" || Array.isArray(raw)) return null;
   const n = (v, lo, hi) => typeof v === "number" && Number.isFinite(v) && v >= lo && v <= hi ? v : null;
@@ -101,8 +106,84 @@ export function stockOf(raw) {
     const beats = [...new Set(raw.beats.slice(0, BEATS_MAX).filter(b => typeof b === "string" && BEAT_ID.test(b)))].sort();
     if (beats.length) stock.beats = beats;
   }
+  // Slots and bag items come keyed by number, or as a list when the game's table had no gaps (how Lua tables read).
+  const keyed = v => Array.isArray(v) ? v.map((x, i) => [i + 1, x]) : v && typeof v === "object" ? Object.entries(v) : [];
+  const gear = keyed(raw.gear).slice(0, 19).map(([slot, v]) => Array.isArray(v) && [n(Number(slot), 1, 19), n(v[0], 1, 1e7),
+    word(v[1], 64) || "", word(v[2], 64)]).filter(g => g && g[0] && g[1]);
+  if (gear.length) stock.gear = Object.fromEntries(gear.map(([slot, id, name, rune]) => [slot, rune ? [id, name, rune] : [id, name]]));
+  const talents = keyed(raw.talents).slice(0, 3).map(([, t]) => t && typeof t === "object" && { name: word(t.name, 32),
+    points: n(t.points, 0, 100) ?? 0, ranks: Object.fromEntries(keyed(t.ranks).slice(0, 60)
+      .map(([name, r]) => [word(name, 64), n(r, 1, 5)]).filter(([name, r]) => name && r)) }).filter(t => t?.name);
+  if (talents.length) stock.talents = talents;
+  const bags = keyed(raw.bags).slice(0, BAGS_MAX).map(([id, v]) => Array.isArray(v) && [n(Number(id), 1, 1e7), n(v[0], 1, 1e5),
+    word(v[1], 64) || ""]).filter(b => b && b[0] && b[1]);
+  if (bags.length) stock.bags = Object.fromEntries(bags.map(([id, count, name]) => [id, [count, name]]));
   const known = stock.level !== null || stock.money !== null || stock.skills || stock.rep;
   return known ? stock : null;
+}
+
+// Their character as the add-on last saved it, lines in PLAYER CONTEXT (LOR-834), the PC, the Mac and the iPhone (the
+// saved copy) alike, each said as of that save:
+// - their professions, on every answer: the prompt reads them there (answer.py's "Use PLAYER CONTEXT ...
+//   professions"), but Willo's app never wrote them, so "how do I level my herbalism?" went without their rank (the
+//   10/25 scope: profession leveling 56%). A prompt that already says them keeps its own;
+// - their talent trees' points, on every answer, and the talents taken when the question is about talents or a build;
+// - what they wore, when the question is about gear, stats, their damage, tanking or healing, or being ready for a
+//   dungeon or raid;
+// - what's in their bags: the items the question names, or (asked about their bags) the first BAG_LINE kinds.
+const CONTEXT = /((?:^|\n)PLAYER CONTEXT\n)([\s\S]*?)(?=\n\n|$)/;
+const SLOTS = [null, "head", "neck", "shoulders", "shirt", "chest", "waist", "legs", "feet", "wrists", "hands", "finger",
+  "finger", "trinket", "trinket", "back", "main hand", "off hand", "ranged", "tabard"];
+const GEAR_ASKED = /\b(?:gear|equip\w*|wear\w*|upgrades?|armou?r|weapons?|swords?|axes?|maces?|daggers?|sta(?:ff|ves)|bows?|guns?|wands?|shields?|trinkets?|rings?|neck\w*|cloaks?|helms?|chest|legs|boots|gloves|bracers|belts?|stats?|strength|agility|stamina|intellect|spirit|dps|damage|tank\w*|heal\w*|ready|prepared?|prep|dungeons?|raids?|instances?|bis|enchant\w*|runes?)\b/i;
+const TALENTS_ASKED = /\b(?:talents?|spec\w*|builds?|respec\w*|points?|trees?|rotation)\b/i;
+const BAGS_ASKED = /\b(?:bags?|inventory|carry\w*|backpack)\b/i;
+// "What should I do next?", "plan my evening": where their talents count too.
+const PLAN_ASKED = /\b(?:what (?:should|can|do) i do|what next|next step|plan\w*|goals?|focus)\b/i;
+const BAG_LINE = 40;
+const wordsOf = text => new Set(String(text).toLowerCase().match(/[a-z']{4,}/g)?.map(w => w.replace(/(?:es|s)$/, "")) || []);
+export function withSave(prompt, stock, question = "", now = new Date()) {
+  const text = String(prompt || ""), context = CONTEXT.exec(text)?.[2];
+  if (!stock || context === undefined) return text;
+  const have = stock.skills && !/^(?:their )?professions\b/im.test(context) ? PROFESSIONS.map(p => [p,
+    Object.entries(stock.skills).find(([n]) => n.toLowerCase() === p.toLowerCase())?.[1]]).filter(([, v]) => v) : [];
+  const age = stock.t ? now.getTime() / 1000 - stock.t : null;
+  const when = `as of the game's last save` + (age !== null && age >= 0 ? ` (${ago(age)}, at login or a /reload)` : "");
+  const lines = [];
+  // Each with the rank its cap is (212 of 225, Expert) and whether it's at that cap, and the two main ones said as
+  // the most anyone can have (the K1 check, 10/25: "learn Tailoring" to one with Herbalism and Skinning, 2 of 2).
+  const main = have.filter(([p]) => !SECONDARY.has(p));
+  const said = ([p, [rank, max]]) => {
+    const named = RANKS.find(r => r.cap === max)?.name;
+    return `${p} ${rank} of ${max}` + (named ? ` (${named}${rank >= max ? ", at its cap" : ""})` : "");
+  };
+  if (have.length) lines.push(`their professions: ` + have.map(said).join(", ") + (main.length === 2 ? `; ${main
+    .map(([p]) => p).join(" and ")} are their two main professions, the most a character can have` : ""));
+  const asked = String(question || "");
+  if (stock.talents?.some(t => t.points) && [TALENTS_ASKED, GEAR_ASKED, PLAN_ASKED].some(re => re.test(asked))) {
+    lines.push(`their talent points: ${stock.talents.map(t => `${t.name} ${t.points}`).join(", ")}` +
+      (TALENTS_ASKED.test(asked) ? `; taken: ${stock.talents.filter(t => Object.keys(t.ranks).length).map(t => `${t.name}: ` +
+        Object.entries(t.ranks).map(([name, r]) => `${name} ${r}`).join(", ")).join("; ")}` : ""));
+  }
+  // Gear and bags by item ID in English: the save names them in the client's language (the Software Architect, 10/25:
+  // a German save's "Leinenstoff" is the Linen Cloth she's asked about).
+  const english = (id, saved) => itemNames()[id] || saved;
+  const worn = Object.entries(stock.gear || {}).map(([slot, [id, name, rune]]) => [slot, english(id, name), rune])
+    .filter(([, name]) => name);
+  if (worn.length && GEAR_ASKED.test(asked)) {
+    lines.push(`what they wore: ` + worn.map(([slot, name, rune]) => `${SLOTS[slot]} ${name}` +
+      (rune ? ` (rune: ${rune})` : "")).join("; "));
+  }
+  const carried = Object.entries(stock.bags || {}).map(([id, [count, name]]) => [count, english(id, name)])
+    .filter(([, name]) => name);
+  if (carried.length) {
+    const named = wordsOf(asked), all = BAGS_ASKED.test(asked);
+    const bags = all ? carried.slice(0, BAG_LINE) : carried.filter(([, name]) => [...wordsOf(name)].some(w => named.has(w)));
+    if (bags.length) lines.push(`in their bags: ${bags.map(([count, name]) => `${count} ${name}`).join(", ")}` +
+      (all && bags.length < carried.length ? ` and ${carried.length - bags.length} more kinds` : ""));
+  }
+  if (!lines.length) return text;
+  const saved = `their character ${when}:\n` + lines.join("\n");
+  return text.replace(CONTEXT, (_, head, old) => head + (old.trim() === "(none)" ? saved : `${old}\n${saved}`));
 }
 
 // Their level with the bar's fraction (36.6), from the save, or the live level when it's newer (Live game info).

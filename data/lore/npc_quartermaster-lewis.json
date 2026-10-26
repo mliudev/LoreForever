@@ -8,11 +8,11 @@
   "wiki": "Quartermaster Lewis",
   "refs": 2
  },
- "summary": "Quartermaster Lewis is a human supply merchant stationed at Sentinel Hill in Westfall. Serving the local People's Militia, he provides rations, ammunition, and everyday provisions to travelers and defenders attempting to hold the frontier against the Defias Brotherhood.",
+ "summary": "At Sentinel Hill in Westfall, Quartermaster Lewis keeps supplies moving to the People's Militia. He serves local defenders and travelers holding the frontier against the Defias Brotherhood.",
  "sections": [
   {
    "title": "Keeper of the Tower's Stores",
-   "body": "Perched inside Sentinel Tower, Quartermaster Lewis manages the meager logistical lifeline of the Westfall militia. With Stormwind's royal leadership offering little aid to the impoverished region, Sentinel Hill relies on local volunteers and whatever supplies they can gather. Lewis distributes standard field necessities, from dry rations and fresh water to arrows, shot, and throwing blades, ensuring the fighters standing watch have the bare essentials to survive Defias raids.",
+   "body": "Quartermaster Lewis keeps the militia's supplies in Sentinel Tower. Stormwind's royal leaders offer little aid to impoverished Westfall, so Sentinel Hill depends on local volunteers and whatever provisions they can gather. Lewis hands out field necessities, including dry rations, fresh water, arrows, shot, and throwing blades. The fighters standing watch need these basics to endure Defias raids.",
    "spoiler": 0
   }
  ],
@@ -24,7 +24,7 @@
     "who is lewis",
     "sentinel hill quartermaster"
    ],
-   "answer": "He is the quartermaster stationed at Sentinel Tower in Westfall. Lewis handles mundane supplies, rations, and armaments for the People's Militia and any adventurers assisting their defense."
+   "answer": "Quartermaster Lewis serves at Sentinel Tower in Westfall. He handles everyday supplies, rations, and weapons for the People's Militia and adventurers helping defend the region."
   },
   {
    "q": "What does Quartermaster Lewis sell?",
@@ -33,7 +33,7 @@
     "lewis inventory",
     "westfall vendor items"
    ],
-   "answer": "He functions as a general goods vendor, offering fundamental survival items such as bread, milk, water, bags, flint, and various forms of ranged ammunition like arrows, bullets, and throwing daggers."
+   "answer": "Quartermaster Lewis sells basic goods for survival, including bread, milk, water, bags, flint, arrows, bullets, and throwing daggers."
   },
   {
    "q": "What is his role in regional quests?",
@@ -42,7 +42,7 @@
     "a swift message",
     "return to lewis"
    ],
-   "answer": "With little aid coming from Stormwind directly, Lewis sends adventurers by way of Thor, the gryphon master, to deliver a note to Osric Strang, his armor supplier in Stormwind's Old Town, and to bring Osric's crate of armor back to Sentinel Hill."
+   "answer": "With little aid from Stormwind, Lewis sends adventurers through Thor, the gryphon master, to deliver a note to Osric Strang, his armor supplier in Stormwind's Old Town, and bring Osric's crate of armor back to Sentinel Hill."
   },
   {
    "q": "Is Lewis part of the Stormwind Army?",
@@ -51,17 +51,17 @@
     "stormwind guard lewis",
     "peoples militia lewis"
    ],
-   "answer": "Like most defenders in Sentinel Hill, Lewis serves the People's Militia rather than an official detachment sent by the Stormwind crown. The region has been left largely to defend itself against the Defias Brotherhood."
+   "answer": "Lewis serves the People's Militia, as do most defenders in Sentinel Hill, rather than an official force sent by the Stormwind crown. Westfall has been left largely to defend itself against the Defias Brotherhood."
   }
  ],
  "angles": [
   {
    "target": "faction:Alliance",
-   "text": "For Alliance recruits venturing into Westfall, Lewis provides a necessary resupply stop in a hostile territory where official crown resources are dangerously scarce."
+   "text": "As an Alliance recruit in Westfall, you can resupply with Lewis in hostile country where crown resources are scarce."
   },
   {
    "target": "class:Hunter",
-   "text": "Lewis is a vital field contact for marksmanship supplies in central Westfall, stocking both basic shot and arrows for ranged defenders."
+   "text": "As a Hunter, you can get field supplies from Lewis in central Westfall, including shot and arrows for ranged defense."
   }
  ],
  "keywords": [
@@ -82,5 +82,6 @@
  ],
  "attribution": [
   "Quartermaster Lewis"
- ]
+ ],
+ "style": 1
 }

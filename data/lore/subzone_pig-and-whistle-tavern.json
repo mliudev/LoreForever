@@ -7,11 +7,11 @@
  "meta": {
   "wiki": "Pig and Whistle Tavern"
  },
- "summary": "The Pig and Whistle Tavern is a bustling tavern nestled within Stormwind City's rugged Old Town district. It serves as a favored gathering spot for Alliance travelers, local laborers, and weathered veterans recalling the kingdom's past conflicts.",
+ "summary": "In Stormwind City's Old Town, the Pig and Whistle Tavern welcomes travelers and local laborers. Veterans gather there to remember the kingdom's past conflicts.",
  "sections": [
   {
    "title": "A Refuge in Old Town",
-   "body": "Situated amidst the gritty, winding alleys of Old Town, the Pig and Whistle Tavern offers warmth, ale, and lodging to those who walk the capital's rougher quarter. While the nobles of the city congregate in cathedral squares and marble plazas, this establishment caters to common citizens, working folk, and travelers fresh from the road. Inside, patrons can find merchants like the renowned recipe vendor Kendor Kabonka, alongside grizzled veterans who nurse their tankards while trading memories of the First and Second Wars.",
+   "body": "In Old Town's winding alleys, the Pig and Whistle Tavern offers warmth, ale, and lodging. Common citizens, working folk, and travelers fresh from the road gather there. Merchants such as recipe vendor Kendor Kabonka share the room with grizzled veterans, who trade memories of the First and Second Wars over their tankards.",
    "spoiler": 0
   }
  ],
@@ -23,7 +23,7 @@
     "pig and whistle location",
     "old town tavern"
    ],
-   "answer": "The Pig and Whistle Tavern stands in Old Town, the eastern district of Stormwind City known for its military barracks, rogue dens, and working-class quarters."
+   "answer": "The Pig and Whistle Tavern stands in Old Town, Stormwind City's eastern district, among military barracks, rogue dens, and working-class quarters."
   },
   {
    "q": "Who frequents the tavern?",
@@ -31,7 +31,7 @@
     "who is in pig and whistle",
     "pig and whistle patrons"
    ],
-   "answer": "The tavern is popular among travelers, guards off duty, and veteran soldiers swapping stories of the First and Second Wars, alongside notable merchants like the Master of Cooking recipes, Kendor Kabonka."
+   "answer": "Travelers, guards off duty, and veteran soldiers who swap stories of the First and Second Wars frequent the tavern. Merchant Kendor Kabonka, who sells cooking recipes, is there as well."
   },
   {
    "q": "What services does the tavern provide?",
@@ -39,17 +39,17 @@
     "is pig and whistle an inn",
     "pig and whistle services"
    ],
-   "answer": "The Pig and Whistle is a tavern where weary travelers can rest and purchase food, drink, and specialized culinary recipes."
+   "answer": "The Pig and Whistle Tavern offers weary travelers a place to rest and buy food, drink, and specialized cooking recipes."
   }
  ],
  "angles": [
   {
    "target": "profession:Cooking",
-   "text": "Culinary artisans often make a pilgrimage to the tavern to seek out Kendor Kabonka, who sells an unmatched collection of rare cooking recipes from across Azeroth."
+   "text": "Cooks come to the tavern to find Kendor Kabonka, who sells a collection of rare cooking recipes from across Azeroth."
   },
   {
    "target": "faction:Alliance",
-   "text": "For Alliance soldiers and travelers passing through the capital, the tavern offers a welcoming, unpretentious hearth and camaraderie with veterans of the realm's earlier wars."
+   "text": "For Alliance soldiers and travelers passing through the capital, the tavern offers a welcoming hearth and company with veterans of the realm's earlier wars."
   }
  ],
  "keywords": [
@@ -69,5 +69,6 @@
  ],
  "attribution": [
   "Pig and Whistle Tavern"
- ]
+ ],
+ "style": 1
 }

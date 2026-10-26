@@ -23,16 +23,16 @@
    "Incoming Gumdrop (Alliance)"
   ]
  },
- "summary": "During Hallow's End, a young orphan named Jesper lies sick in the Stormwind orphanage, wishing he could join in the holiday festivities. Too ill to go out, he asks Alliance adventurers to go trick-or-treating across the world on his behalf.",
+ "summary": "Jesper lies sick in Stormwind during Hallow's End, longing for the treats and fun beyond the orphanage. Too ill to go out, he asks Alliance adventurers to gather sweets for him.",
  "sections": [
   {
    "title": "A Sheltered Child",
-   "body": "Jesper lives in the orphanage in Stormwind's Cathedral Square, and this Hallow's End he has fallen sick. Denied the simple childhood joy of gathering sweets from across Azeroth, Jesper stays indoors, hoping passing adventurers might share in the holiday spirit and collect treats in his stead.",
+   "body": "Jesper stays in the orphanage in Stormwind's Cathedral Square, sick during Hallow's End. He cannot enjoy the childhood pleasure of gathering sweets across Azeroth, so he hopes passing adventurers will share the holiday spirit and collect treats for him.",
    "spoiler": 0
   },
   {
    "title": "Tricks for Treats Across the Alliance",
-   "body": "To gather the holiday spread Jesper dreams of, an adventurer must travel far beyond Elwynn Forest. The quest demands visiting the innkeepers of Stormwind, Ironforge, and Darnassus, as well as the gnome exile Talvash del Kissel. Each adult demands a performance before relinquishing their prize\u2014forcing travelers to cluck like chickens, dance, flex, or chug like a train in exchange for regional sweets like Stormwind Nougat and Gnomeregan Gumdrops.",
+   "body": "To bring Jesper the sweets he hopes for, you travel beyond Elwynn Forest. You visit the innkeepers of Stormwind, Ironforge, and Darnassus, along with the gnome exile Talvash del Kissel. Each asks you to perform before giving you a treat. You cluck like a chicken, dance, flex, or chug like a train, earning regional sweets such as Stormwind Nougat and Gnomeregan Gumdrops.",
    "spoiler": 0
   }
  ],
@@ -44,7 +44,7 @@
     "orphan jesper",
     "who is jesper"
    ],
-   "answer": "Jesper is a young orphan living in the Stormwind orphanage. During Hallow's End, he longs for holiday candy but is too sick to go out and gather it himself."
+   "answer": "Jesper is a young orphan in the Stormwind orphanage. During Hallow's End, he longs for holiday candy but is too sick to gather it himself."
   },
   {
    "q": "Why can't Jesper go trick-or-treating himself?",
@@ -53,7 +53,7 @@
     "is jesper sick",
     "jesper trick or treat"
    ],
-   "answer": "Jesper is sick, and his illness keeps him inside the orphanage while the rest of the city celebrates Hallow's End."
+   "answer": "Jesper is sick, so he must stay inside the orphanage while the rest of the city celebrates Hallow's End."
   },
   {
    "q": "Which treats does Jesper want?",
@@ -62,7 +62,7 @@
     "hallows end treats list",
     "jesper candy needed"
    ],
-   "answer": "He requests four distinct regional confections: Stormwind Nougat, Ironforge Mints, Darnassus Marzipan, and Gnomeregan Gumdrops."
+   "answer": "Jesper asks for four regional sweets: Stormwind Nougat, Ironforge Mints, Darnassus Marzipan, and Gnomeregan Gumdrops."
   },
   {
    "q": "Where do you obtain the Gnomeregan Gumdrop?",
@@ -71,7 +71,7 @@
     "who gives gumdrop",
     "talvash candy"
    ],
-   "answer": "Because Gnomeregan remains irradiated and overrun, the gumdrop is handed out by the gnome refugee Talvash del Kissel, who is currently staying in Ironforge's Mystic Ward."
+   "answer": "Talvash del Kissel gives out Gnomeregan Gumdrops while staying in Ironforge's Mystic Ward."
   },
   {
    "q": "What tricks do the innkeepers make you perform?",
@@ -80,7 +80,7 @@
     "innkeeper tricks",
     "trick for treats alliance"
    ],
-   "answer": "Innkeepers demand silly antics in exchange for sweets: flexing your muscles in Stormwind, dancing in Darnassus, clucking like a chicken in Ironforge, and making a train noise for Talvash."
+   "answer": "The innkeepers ask you to flex in Stormwind, dance in Darnassus, cluck like a chicken in Ironforge, and make a train noise for Talvash."
   },
   {
    "q": "What does Jesper give you in return for the candy?",
@@ -88,17 +88,17 @@
     "jesper reward",
     "treats for jesper completion"
    ],
-   "answer": "After receiving the assortment of four holiday candies, Jesper happily trades some pumpkin treats he has saved up for the traveler."
+   "answer": "After receiving all four holiday candies, Jesper gives the traveler some pumpkin treats he has saved."
   }
  ],
  "angles": [
   {
    "target": "faction:Alliance",
-   "text": "This holiday effort ties the distant capitals together, asking heroes to travel from the grand streets of Stormwind to the mountain halls of Ironforge and the boughs of Darnassus to bring joy to an orphaned child."
+   "text": "For the Alliance, this holiday brings distant capitals together. You travel from Stormwind's grand streets to Ironforge's mountain halls and Darnassus's boughs to bring joy to an orphaned child."
   },
   {
    "target": "race:Gnome",
-   "text": "With their home lost to troggs and radiation, gnomish participation in the holiday falls to Talvash del Kissel in Ironforge, who ensures Gnomeregan Gumdrops are still shared."
+   "text": "As a gnome, your home is lost to troggs and radiation. In Ironforge, Talvash del Kissel keeps Gnomeregan Gumdrops part of the holiday."
   }
  ],
  "keywords": [
@@ -125,5 +125,6 @@
  ],
  "attribution": [
   "Hallow's End Treats for Jesper!"
- ]
+ ],
+ "style": 1
 }

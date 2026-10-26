@@ -17,21 +17,21 @@
   "wiki": "The Defias Brotherhood (4)",
   "chain": []
  },
- "summary": "Deliver Mathias Shaw's confidential report from Stormwind to Gryan Stoutmantle at Sentinel Hill. Shaw has investigated the former Stonemasons Guild to help Stoutmantle uncover the origins of the Defias Brotherhood.",
+ "summary": "Mathias Shaw sends a confidential report from Stormwind to Gryan Stoutmantle at Sentinel Hill. Shaw has investigated the former Stonemasons Guild to help Stoutmantle uncover the origins of the Defias Brotherhood.",
  "sections": [
   {
    "title": "A Builder Turned Bandit",
-   "body": "For months, Gryan Stoutmantle and the People's Militia fought a seemingly faceless uprising of highwaymen, thieves, and cutthroats across Westfall. When Master Mathias Shaw of SI:7 examines Wiley's Note, he pieces together a shocking truth: the guild of architects and stonemasons who reconstructed the white ramparts of Stormwind never disbanded. Instead, their leader, Edwin VanCleef, took them underground.",
+   "body": "For months, Gryan Stoutmantle and the People's Militia have faced a seemingly faceless uprising across Westfall. Highwaymen, thieves, and cutthroats strike from the roads and countryside. Master Mathias Shaw of SI:7 studies Wiley's Note and pieces together the truth. The guild of architects and stonemasons who rebuilt Stormwind's white ramparts never disbanded. Their leader, Edwin VanCleef, took them underground.",
    "spoiler": 1
   },
   {
    "title": "Bitterness and Betrayal",
-   "body": "Following the devastation of the First War, Stormwind lay in ashes. VanCleef's Stonemasons' Guild undertook the monumental effort of restoring the kingdom's capital, transforming it into the jewel of humanity once again. Yet when the work concluded, a bitter dispute arose over compensation. Dissatisfied with their treatment by the crown and the House of Nobles, VanCleef and his artisans took up daggers and red bandanas, turning from civic craft to violent rebellion against the throne.",
+   "body": "After the First War left Stormwind in ashes, VanCleef's Stonemasons' Guild set to work restoring the kingdom's capital. Their labor raised Stormwind into a jewel of humanity once more. When the work ended, a bitter dispute over compensation broke out. VanCleef and his artisans were dissatisfied with their treatment by the crown and the House of Nobles. They took up daggers and red bandanas, abandoning civic craft for violent rebellion against the throne.",
    "spoiler": 1
   },
   {
    "title": "Stoutmantle's Disbelief",
-   "body": "When Shaw's report reaches Sentinel Hill, Gryan Stoutmantle finds the news difficult to stomach. Stoutmantle remembers VanCleef not as a cutthroat skulking in the shadows of the countryside, but as an industrious and gifted artisan whose work sheltered thousands of returning citizens. Faced with such an alarming accusation, the militia commander demands concrete evidence before fully accepting that Stormwind's chief architect is orchestrating Westfall's ruin.",
+   "body": "Shaw's report reaches Sentinel Hill, and Gryan Stoutmantle struggles to accept its contents. He remembers VanCleef as an industrious, gifted artisan, not a cutthroat hiding in the countryside's shadows. VanCleef's work sheltered thousands of returning citizens. The militia commander demands concrete evidence before fully accepting the alarming accusation that Stormwind's chief architect is orchestrating Westfall's ruin.",
    "spoiler": 1
   }
  ],
@@ -43,7 +43,7 @@
     "mathias shaw document",
     "the report to stoutmantle"
    ],
-   "answer": "It contains Mathias Shaw's findings on the former Stonemasons Guild and the Defias. Deliver the confidential report to Gryan Stoutmantle."
+   "answer": "Mathias Shaw's confidential report contains his findings on the former Stonemasons Guild and the Defias. You deliver it to Gryan Stoutmantle."
   },
   {
    "q": "Who is Edwin VanCleef?",
@@ -52,7 +52,7 @@
     "who is edwin vancleef",
     "edwin vancleef lore"
    ],
-   "answer": "Edwin VanCleef was the head of the Stonemasons Guild that rebuilt Stormwind. The report investigates the guild's later history."
+   "answer": "Edwin VanCleef led the Stonemasons Guild that rebuilt Stormwind. Shaw's report investigates the guild's later history."
   },
   {
    "q": "Why is Gryan Stoutmantle skeptical of the report?",
@@ -61,7 +61,7 @@
     "stoutmantle reaction",
     "why does gryan need proof"
    ],
-   "answer": "Stoutmantle finds Shaw's allegations difficult to believe and wants further evidence. The details are revealed when he reads the report."
+   "answer": "Gryan Stoutmantle finds Shaw's allegations difficult to stomach and demands concrete evidence before fully accepting them. The details emerge when he reads the report."
   },
   {
    "q": "Why did the Stonemasons turn against Stormwind?",
@@ -70,7 +70,7 @@
     "stonemason dispute",
     "vancleef motive"
    ],
-   "answer": "The Stonemasons rebuilt Stormwind but fell into a bitter dispute with the nobility over payment. Shaw's report investigates what followed."
+   "answer": "The Stonemasons rebuilt Stormwind, then fell into a bitter dispute over compensation. They were dissatisfied with their treatment by the crown and the House of Nobles."
   },
   {
    "q": "What role does SI:7 play in this quest?",
@@ -79,7 +79,7 @@
     "si7 involvement",
     "rogue guild stormwind"
    ],
-   "answer": "Shaw investigates possible ties between the former guild and the outlaws, sending his findings to Stoutmantle."
+   "answer": "Mathias Shaw of SI:7 investigates possible ties between the former guild and the outlaws, then sends his findings to Stoutmantle."
   },
   {
    "q": "Where does this investigation lead next?",
@@ -88,21 +88,21 @@
     "next quest defias",
     "after shaws report"
    ],
-   "answer": "Deliver the report, then help Stoutmantle pursue further evidence in the ongoing Defias investigation."
+   "answer": "You deliver the report, then help Stoutmantle pursue further evidence in the ongoing Defias investigation."
   }
  ],
  "angles": [
   {
    "target": "faction:Alliance",
-   "text": "The rebellion of the Stonemasons reveals deep fractures within the kingdom: the very workers who rebuilt Stormwind's stone ramparts now threaten to tear them down."
+   "text": "For the Alliance, the Stonemasons' rebellion exposes deep fractures within the kingdom. The workers who rebuilt Stormwind's stone ramparts now threaten to tear them down."
   },
   {
    "target": "class:Rogue",
-   "text": "Investigating Stormwind's former craftsmen shows how disputes within the kingdom can trouble its distant settlements."
+   "text": "As a rogue, you see how disputes among Stormwind's former craftsmen can trouble distant settlements."
   },
   {
    "target": "race:Human",
-   "text": "For humans of Stormwind, this revelation hits close to home. The walls of their homes and the Cathedral itself were built by the very men now pillaging the Westfall countryside."
+   "text": "As a human of Stormwind, this revelation reaches close to home. The walls of your homes and the Cathedral itself were built by the same men now pillaging the Westfall countryside."
   }
  ],
  "keywords": [
@@ -125,5 +125,6 @@
  ],
  "attribution": [
   "The Defias Brotherhood (4)"
- ]
+ ],
+ "style": 1
 }

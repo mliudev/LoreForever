@@ -8,11 +8,11 @@
   "wiki": "Major Mattingly",
   "refs": 1
  },
- "summary": "Major Mattingly is a seasoned officer of the Stormwind Army stationed at the grand gates in the Valley of Heroes. Serving under General Marcus Jonathan, he assists in safeguarding the capital's main entrance and advising capable crafters on protecting heroes against draconic threats.",
+ "summary": "At Stormwind’s main gates, Major Mattingly helps guard the capital and advises crafters on protection from dragons.",
  "sections": [
   {
    "title": "Sentinel of the Capital Gates",
-   "body": "Standing watch in the Valley of Heroes, Major Mattingly is one of the high-ranking officers directly responsible for Stormwind City's primary landward defense. A grizzled veteran soldier whose face bears the lines of hard-won experience, he serves under General Marcus Jonathan alongside the city's standing garrison. Beyond his daily duties overseeing gate patrols and incoming travelers, Mattingly possesses specialized tactical knowledge regarding the lethal nature of dragons. He is recognized by seasoned adventurers as a vital contact when learning to craft protective dragonscale gear necessary for braving the realm's deadliest lairs.",
+   "body": "Major Mattingly is a high-ranking officer responsible for Stormwind City's landward defense. He stands watch in the Valley of Heroes under General Marcus Jonathan, alongside the city's garrison. His duties include overseeing gate patrols and travelers entering the city. Mattingly also knows the lethal nature of dragons and guides skilled crafters who seek to make protective dragonscale gear for facing dangerous lairs.",
    "spoiler": 0
   }
  ],
@@ -24,7 +24,7 @@
     "where is major mattingly",
     "find major mattingly"
    ],
-   "answer": "Major Mattingly is stationed near the entrance of Stormwind City in the Valley of Heroes, standing watch alongside fellow garrison troops just inside the main gates."
+   "answer": "Major Mattingly keeps watch just inside Stormwind City's main gates, in the Valley of Heroes, alongside the garrison."
   },
   {
    "q": "What is Major Mattingly's rank and role in Stormwind?",
@@ -33,7 +33,7 @@
     "mattingly job",
     "what does mattingly do"
    ],
-   "answer": "He is an officer in the Stormwind Army serving under General Marcus Jonathan. He helps oversee the defense of the city's gates and provides military guidance to adventurers."
+   "answer": "Major Mattingly is a Stormwind Army officer under General Marcus Jonathan. He helps oversee the city's gate defenses and gives military guidance to adventurers."
   },
   {
    "q": "Why do leatherworkers seek out Major Mattingly?",
@@ -42,7 +42,7 @@
     "mattingly quest",
     "the journey has just begun mattingly"
    ],
-   "answer": "Mattingly possesses instructions on how to treat and craft scale cloaks from black dragonhide, guiding skilled crafters who wish to protect their allies from draconic flame."
+   "answer": "Leatherworkers seek Major Mattingly for instructions on treating black dragonhide and crafting scale cloaks that protect allies from dragonfire."
   },
   {
    "q": "Is Major Mattingly involved in any broader conflicts?",
@@ -50,17 +50,17 @@
     "mattingly background",
     "mattingly lore"
    ],
-   "answer": "He is a battle-hardened veteran of the Kingdom of Stormwind, dedicated to the defense of the realm while King Varian Wrynn remains missing and the kingdom contends with lingering threats."
+   "answer": "Major Mattingly is a battle-hardened veteran of the Kingdom of Stormwind. He devotes himself to defending the realm while King Varian Wrynn is missing and the kingdom faces lingering threats."
   }
  ],
  "angles": [
   {
    "target": "faction:Alliance",
-   "text": "For Alliance champions seeking to challenge great dragons like Onyxia, Major Mattingly provides the crucial guidance needed to craft defensive cloaks out of dragon scales."
+   "text": "For Alliance champions challenging great dragons like Onyxia, Major Mattingly offers guidance on crafting protective cloaks from dragon scales."
   },
   {
    "target": "class:Warrior",
-   "text": "As a disciplined veteran wielding his longsword at the city gates, Mattingly represents the steadfast resolve of the Stormwind Army's infantry officers."
+   "text": "As a disciplined veteran with a longsword at Stormwind's gates, Major Mattingly reflects the steadfast resolve of the Stormwind Army's infantry officers."
   }
  ],
  "keywords": [
@@ -81,5 +81,6 @@
  ],
  "attribution": [
   "Major Mattingly"
- ]
+ ],
+ "style": 1
 }

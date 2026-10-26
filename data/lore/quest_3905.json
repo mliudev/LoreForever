@@ -17,16 +17,16 @@
   "wiki": "Grape Manifest (quest)",
   "chain": []
  },
- "summary": "With Milly Osworth's harvest rescued from the Defias thieves, she writes up a manifest documenting the recovered grape yield. Delivering this ledger to Brother Neals in Northshire Abbey ensures the brotherhood can replenish its celebrated stores of wine. It marks a small but sweet victory for the besieged valley's livelihood.",
+ "summary": "Milly Osworth records her rescued grape harvest for Northshire Abbey. She writes a manifest of the yield recovered from Defias thieves, then sends it to Brother Neals so the brotherhood can replenish its wine stores.",
  "sections": [
   {
    "title": "The Valley's Vintage",
-   "body": "Northshire Valley is renowned across Elwynn for its fertile soil and quiet orchards, with vineyards tending crops essential both for local sustenance and sacramental trade. When thieves and bandits seized the eastern fields, they jeopardized more than simple fruit: they cut off the abbey's supply chain for wine and food. With the harvest dragged back from the occupied paddocks, the grape manifest formally accounts for every bushel reclaimed.",
+   "body": "Northshire Valley's soil and orchards have long supported local food and the abbey's wine. When thieves and bandits seized the eastern fields, they cut off the abbey's supply of grapes and food. With the harvest recovered from the occupied fields, Milly Osworth records the yield in a manifest.",
    "spoiler": 0
   },
   {
    "title": "A Tipple in the Belfry",
-   "body": "Brother Neals serves as Northshire Abbey's steward of food and drink, though he is best known for his fondness for sampling Northshire's vintages high up in the quiet of the bell tower. While the threat of brigands looms right outside the gates, the receipt of fresh grapes gives the brotherhood a reason to toast the Light and breathe a momentary sigh of relief.",
+   "body": "Brother Neals oversees food and drink at Northshire Abbey. He is known for sampling Northshire's vintages in the quiet of the bell tower. Brigands still threaten the gates, but fresh grapes give the brotherhood a moment to toast the Light and take heart.",
    "spoiler": 0
   }
  ],
@@ -38,7 +38,7 @@
     "what is manifest",
     "millys manifest"
    ],
-   "answer": "The Grape Manifest is an inventory ledger written by farmer Milly Osworth after her grape harvest is recovered from Defias thieves. It records the salvaged yield so the abbey's quartermaster can officially restock their cellars."
+   "answer": "Milly Osworth writes the Grape Manifest to record her harvest recovered from Defias thieves. The ledger lets the abbey's quartermaster restock its cellars."
   },
   {
    "q": "Who is Brother Neals?",
@@ -47,7 +47,7 @@
     "who is neals",
     "monk in bell tower"
    ],
-   "answer": "Brother Neals is a monk residing in Northshire Abbey responsible for overseeing food and beverage provisions. He spends much of his time testing vintages up in the abbey's bell tower."
+   "answer": "Brother Neals is a monk at Northshire Abbey who oversees its food and drink. He often samples the vintages in the bell tower."
   },
   {
    "q": "Where do I find Brother Neals?",
@@ -56,7 +56,7 @@
     "where is brother neals",
     "find brother neals"
    ],
-   "answer": "Brother Neals is located inside Northshire Abbey, resting up in the bell tower overlooking the grounds."
+   "answer": "Brother Neals is inside Northshire Abbey, in the bell tower overlooking the grounds."
   },
   {
    "q": "Why is Northshire's grape crop so important?",
@@ -65,7 +65,7 @@
     "northshire wine lore",
     "milly harvest significance"
    ],
-   "answer": "Northshire produces celebrated wine and fresh provisions that sustain the local Clerical and military presence. An interruption in the harvest threatens both daily stores and liturgical supplies across Elwynn."
+   "answer": "Northshire's grapes provide celebrated wine and fresh food for the local clergy and soldiers. A lost harvest threatens daily stores and the abbey's sacramental wine across Elwynn."
   },
   {
    "q": "Who was threatening Milly's harvest?",
@@ -74,7 +74,7 @@
     "grape thieves",
     "bandits in vineyards"
    ],
-   "answer": "Defias brigands occupied the eastern fields of Northshire Valley, driving out Milly Osworth and caching her boxed harvest throughout the vineyards until adventurers drove them back."
+   "answer": "Defias brigands occupied Northshire Valley's eastern fields, drove Milly Osworth out, and hid her boxed harvest throughout the vineyards. They were driven back by adventurers."
   },
   {
    "q": "What happens after giving Brother Neals the manifest?",
@@ -83,21 +83,21 @@
     "does neals make wine",
     "what follows grape manifest"
    ],
-   "answer": "Neals offers his blessings in the name of the Light, overjoyed that the abbey's cellars will remain stocked with fresh wine despite the bandit troubles across the valley."
+   "answer": "Brother Neals gives his blessings in the name of the Light. He is overjoyed that the abbey's cellars will have fresh wine despite the bandit troubles across the valley."
   }
  ],
  "angles": [
   {
    "target": "faction:Alliance",
-   "text": "Securing local food stores in Northshire helps maintain self-sufficiency for Stormwind's primary recruitment and recovery sanctuary."
+   "text": "Securing Northshire's food stores helps Stormwind's main place of recruitment and recovery remain self-sufficient."
   },
   {
    "target": "race:Human",
-   "text": "For young humans beginning their journey, helping Milly and Brother Neals protects one of the kingdom's cherished pastoral traditions."
+   "text": "As a human beginning your journey, helping Milly and Brother Neals protects one of the kingdom's cherished pastoral traditions."
   },
   {
    "target": "class:Priest",
-   "text": "Wine holds both hospitality and sacramental value in Northshire Abbey, linking practical agriculture to the brotherhood's rites."
+   "text": "As a priest, you know wine has a place in both hospitality and sacramental rites at Northshire Abbey, where farming sustains the brotherhood's worship."
   }
  ],
  "keywords": [
@@ -120,5 +120,6 @@
  ],
  "attribution": [
   "Grape Manifest (quest)"
- ]
+ ],
+ "style": 1
 }

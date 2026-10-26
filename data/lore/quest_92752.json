@@ -17,16 +17,16 @@
   "wiki": "Explosive Consultation (2)",
   "chain": []
  },
- "summary": "Explosive Consultation is a Westfall assignment involving gnome tinkerer Sprite Jumpsprocket and Alba Fairmoon. Having secured an extraordinarily volatile payload, Sprite entrusts a courier to return the primed charge safely without accidentally setting off the detonator.",
+ "summary": "In Westfall, Sprite Jumpsprocket sends a volatile charge to Alba Fairmoon. The primed explosives must reach her safely, with the detonator undisturbed.",
  "sections": [
   {
    "title": "A Volatile Delivery",
-   "body": "Gnomish engineering is rarely known for moderation, and Sprite Jumpsprocket's handiwork in Westfall holds true to the craft's reputation. After finalizing the concoction, Sprite provides a bundle of Extra-Destructive Explosives intended for Alba Fairmoon. Courier work in wartime Westfall is dangerous enough when evading Defias bandits and feral beasts, but carrying live, hair-trigger ordnance adds a distinctive level of hazard.",
+   "body": "Sprite Jumpsprocket has finished a bundle of Extra-Destructive Explosives for Alba Fairmoon. Carrying a live charge through wartime Westfall adds danger to a road already threatened by Defias bandits and feral beasts.",
    "spoiler": 0
   },
   {
    "title": "Handling with Care",
-   "body": "Sprite Jumpsprocket offers simple but vital counsel upon handing over the payload: mind the detonator. Meant to destroy the hidden industrial operation in the Deadmines that is poisoning Westfall's farmland, the volatile cargo must arrive intact before Alba Fairmoon can put it to use.",
+   "body": "Sprite Jumpsprocket warns you to mind the detonator. The cargo is meant to destroy the hidden industrial operation in the Deadmines, which is poisoning Westfall's farmland. Alba Fairmoon needs the explosives intact before she can use them.",
    "spoiler": 0
   }
  ],
@@ -38,7 +38,7 @@
     "quest giver explosive consultation",
     "sprite jumpsprocket quest"
    ],
-   "answer": "The quest is given by Sprite Jumpsprocket, a gnome tinkerer in the Dwarven District of Stormwind who supplies specialized explosives."
+   "answer": "Sprite Jumpsprocket, a gnome tinkerer in Stormwind's Dwarven District, gives you the explosives to carry."
   },
   {
    "q": "Who receives the explosives at the end of the quest?",
@@ -47,7 +47,7 @@
     "who turns in explosive consultation",
     "alba fairmoon explosive"
    ],
-   "answer": "The finished Extra-Destructive Explosives must be delivered directly to Alba Fairmoon in Westfall."
+   "answer": "Alba Fairmoon in Westfall receives the Extra-Destructive Explosives."
   },
   {
    "q": "What item are you tasked with transporting?",
@@ -56,7 +56,7 @@
     "explosive consultation item",
     "what bomb is this"
    ],
-   "answer": "Sprite entrusts you with a package of Extra-Destructive Explosives, complete with an active and delicate detonator."
+   "answer": "You carry a package of Extra-Destructive Explosives with a primed, delicate detonator."
   },
   {
    "q": "Why are explosives needed in Westfall?",
@@ -65,7 +65,7 @@
     "westfall explosives purpose",
     "why blow things up in westfall"
    ],
-   "answer": "Alba Fairmoon traced the toxins poisoning Westfall's farmland to a massive industrial operation hidden in the Deadmines. Whatever is down there will be difficult to destroy, so she sought an engineer who could supply explosives to put an end to it."
+   "answer": "Alba Fairmoon traced the toxins poisoning Westfall's farmland to a massive industrial operation hidden in the Deadmines. She sought an engineer to supply explosives capable of destroying it."
   },
   {
    "q": "Is this quest available to Horde adventurers?",
@@ -73,7 +73,7 @@
     "can horde do explosive consultation",
     "horde explosive consultation"
    ],
-   "answer": "No. Sprite Jumpsprocket and Alba Fairmoon operate in support of Alliance operations, making this task exclusive to Alliance players."
+   "answer": "No. Sprite Jumpsprocket and Alba Fairmoon support Alliance operations, so only Alliance adventurers can take this on."
   },
   {
    "q": "Does Sprite Jumpsprocket warn you about any specific danger?",
@@ -81,21 +81,21 @@
     "sprite warning",
     "bomb warning westfall"
    ],
-   "answer": "Sprite explicitly cautions that the bomb is primed and that you must handle the detonator with extreme care on the journey."
+   "answer": "Sprite Jumpsprocket warns that the bomb is primed and tells you to handle the detonator with extreme care on the journey."
   }
  ],
  "angles": [
   {
    "target": "profession:Engineering",
-   "text": "Any practicing engineer will recognize the typical risks of gnomish ordnance: maximum yield paired with a hair-trigger detonator."
+   "text": "As an engineer, you know the risks of gnomish ordnance: high yield and a hair-trigger detonator."
   },
   {
    "target": "race:Gnome",
-   "text": "Sprite Jumpsprocket represents Gnomeregan's explosive problem-solving, bringing high-yield technological solutions to Westfall's turbulent front."
+   "text": "As a gnome, you see Sprite Jumpsprocket bring Gnomeregan's explosive solutions to Westfall's troubled front."
   },
   {
    "target": "faction:Alliance",
-   "text": "Alliance operatives across Westfall rely on unconventional armaments to counter entrenched bandit encampments and rogue machinery."
+   "text": "As an Alliance adventurer, you see operatives across Westfall use unconventional arms against entrenched bandit camps and rogue machinery."
   }
  ],
  "keywords": [
@@ -113,5 +113,6 @@
  ],
  "attribution": [
   "Explosive Consultation (2)"
- ]
+ ],
+ "style": 1
 }

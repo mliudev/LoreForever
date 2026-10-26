@@ -8,16 +8,16 @@
   "wiki": "Priestess Anetta",
   "refs": 2
  },
- "summary": "Priestess Anetta is a human cleric of the Holy Light stationed inside Northshire Abbey. As a member of the Brotherhood of Northshire, she instructs newly arrived priests in their first sacred rites.",
+ "summary": "Inside Northshire Abbey, Priestess Anetta teaches new priests their first rites of the Holy Light. She is a human cleric and a member of the Brotherhood of Northshire.",
  "sections": [
   {
    "title": "Tender of the Faithful",
-   "body": "Priestess Anetta can be found on the ground floor of Northshire Abbey within its quiet library wing. Amid the threat of Defias bandits and kobolds troubling the valley, she serves as a grounding presence for the Brotherhood of Northshire, reminding all who pass not to turn their backs on the Light, for it may be the one thing that saves them someday.",
+   "body": "On the ground floor of Northshire Abbey, Priestess Anetta keeps to the quiet library wing. Defias bandits and kobolds trouble the valley, and she reminds those who pass that the Light may be the one thing that saves them someday.",
    "spoiler": 0
   },
   {
    "title": "Guiding Novice Priests",
-   "body": "Within the cloister, Anetta acts as the primary mentor for budding human priests. Novices who arrive with a hallowed letter of introduction seek her out to learn the fundamentals of faith: channeling holy words to mend flesh and unleashing smiting radiance to repel evil. Under her tutelage, young acolytes prepare to carry the Light beyond Northshire's secluded walls.",
+   "body": "New human priests come to Priestess Anetta in the cloister with a hallowed letter of introduction. She teaches them to channel holy words to mend flesh and call down smiting radiance against evil. Under her guidance, the young acolytes prepare to carry the Light beyond Northshire's secluded walls.",
    "spoiler": 0
   }
  ],
@@ -29,7 +29,7 @@
     "priestess anetta lore",
     "priestess anetta northshire"
    ],
-   "answer": "Priestess Anetta is a human priest trainer and healer belonging to the Brotherhood of Northshire. She resides on the ground floor of Northshire Abbey in the library wing, where she mentors novice priests."
+   "answer": "Priestess Anetta is a human cleric of the Holy Light and a member of the Brotherhood of Northshire. On the ground floor of Northshire Abbey, she mentors newly arrived priests in their first sacred rites."
   },
   {
    "q": "Where can I find Priestess Anetta?",
@@ -38,7 +38,7 @@
     "anetta location",
     "find anetta"
    ],
-   "answer": "She is located inside Northshire Abbey in northern Elwynn Forest. Enter the front gates of the abbey, proceed into the main hall, and look to the ground floor of the library wing."
+   "answer": "Priestess Anetta is inside Northshire Abbey in northern Elwynn Forest. Enter the front gates, go into the main hall, and look on the ground floor of the library wing."
   },
   {
    "q": "What role does she play in the Abbey's defense?",
@@ -46,7 +46,7 @@
     "what does anetta do",
     "anetta role"
    ],
-   "answer": "While Stormwind marshals and recruits fight to reclaim the valley from Defias bandits and kobolds, Anetta trains the priests among them, teaching them to heal and protect their comrades with the Light."
+   "answer": "Stormwind marshals and recruits fight to reclaim the valley from Defias bandits and kobolds, while Priestess Anetta trains priests to heal and protect their comrades with the Light."
   },
   {
    "q": "What training does she offer?",
@@ -54,17 +54,17 @@
     "can anetta teach me spells",
     "anetta priest spells"
    ],
-   "answer": "Anetta teaches entry-level clerical spells and prayers to young priests, instructing them in the fundamentals of healing and smiting enemies in the name of the Holy Light."
+   "answer": "Priestess Anetta teaches young priests entry-level prayers and clerical spells, including how to heal and smite enemies in the name of the Holy Light."
   }
  ],
  "angles": [
   {
    "target": "class:Priest",
-   "text": "For young human priests starting in Northshire, Priestess Anetta is your very first mentor, validating your holy calling and teaching you how to commune directly with the Light."
+   "text": "As a young human priest beginning in Northshire, you meet Priestess Anetta as your first mentor. She affirms your holy calling and teaches you to commune directly with the Light."
   },
   {
    "target": "faction:Alliance",
-   "text": "Anetta represents the enduring spiritual core of the Alliance, preparing young priests to support those defending Northshire Valley."
+   "text": "Priestess Anetta prepares young priests to support those defending Northshire Valley."
   }
  ],
  "keywords": [
@@ -89,5 +89,6 @@
  ],
  "attribution": [
   "Priestess Anetta"
- ]
+ ],
+ "style": 1
 }

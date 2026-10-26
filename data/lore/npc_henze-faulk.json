@@ -8,11 +8,11 @@
   "wiki": "Henze Faulk",
   "refs": 0
  },
- "summary": "Henze Faulk is a dwarven adventurer found lying near death on the stone circle outside Heroes' Vigil in Elwynn Forest. Struck down by the Defias Brotherhood while shielding his companion, he serves as a pivotal test for aspiring paladins learning to wield the gift of resurrection.",
+ "summary": "Near Heroes' Vigil in Elwynn Forest, Henze Faulk lies gravely wounded. He shielded his companion Gazin Tenorm from the Defias Brotherhood, and now awaits a paladin's aid.",
  "sections": [
   {
    "title": "A Sacrifice at Heroes' Vigil",
-   "body": "Near the ancient stone ring east of Stormwind sits Heroes' Vigil, a place often haunted by Defias bandits prowling the Elwynn woods. Henze Faulk and his friend Gazin Tenorm were ambushed here by Defias marauders. Putting himself in harm's way to ensure Gazin's survival, Henze fell to the bandits' blades. While his companion survived to summon aid from the Cathedral of Light, Henze's body remains on the threshold of life and death, awaiting the divine intervention of a paladin carrying a Symbol of Life.",
+   "body": "Henze Faulk lies near the stone ring east of Stormwind, at Heroes' Vigil. Defias marauders ambushed him and his friend Gazin Tenorm there. Henze took the attack so Gazin could survive, and fell to the bandits' blades. Gazin reached the Cathedral of Light to seek help. Henze remains between life and death, awaiting the aid of a paladin carrying a Symbol of Life.",
    "spoiler": 0
   }
  ],
@@ -24,7 +24,7 @@
     "dwarf at heroes vigil",
     "dying dwarf elwynn"
    ],
-   "answer": "Henze Faulk is an Ironforge dwarf found lying fatally wounded at the stone circle near Heroes' Vigil in Elwynn Forest. He was ambushed and struck down by Defias bandits while saving his friend Gazin Tenorm."
+   "answer": "Henze Faulk is an Ironforge dwarf lying gravely wounded near the stone circle at Heroes' Vigil in Elwynn Forest. Defias bandits struck him down while he protected his friend Gazin Tenorm."
   },
   {
    "q": "Why is Henze Faulk lying on the ground?",
@@ -33,7 +33,7 @@
     "is henze dead",
     "henze faulk dead"
    ],
-   "answer": "Henze was ambushed by the Defias Brotherhood while traveling with Gazin Tenorm. He took the brunt of the attack so Gazin could escape, leaving him mortally wounded and awaiting resurrection by an initiate of the Holy Light."
+   "answer": "Henze Faulk lies wounded because the Defias Brotherhood ambushed him and Gazin Tenorm as they traveled. Henze took the brunt of the attack so Gazin could escape, and now awaits the aid of an initiate of the Holy Light."
   },
   {
    "q": "What is Henze's connection to paladins?",
@@ -41,7 +41,7 @@
     "henze paladin quest",
     "tome of divinity dwarf"
    ],
-   "answer": "Henze is the central figure in a rite of passage for young paladins undertaking the trials of the Tome of Divinity. Paladin initiates are entrusted with a Symbol of Life and sent to Elwynn to restore Henze from death, proving their mastery over the Light's most sacred blessing of redemption."
+   "answer": "Henze Faulk is the subject of a rite of passage for young paladins undertaking the trials of the Tome of Divinity. Paladin initiates carry a Symbol of Life to Elwynn and use it to restore Henze, showing their mastery of the Light's blessing of redemption."
   },
   {
    "q": "Who is Gazin Tenorm?",
@@ -49,17 +49,17 @@
     "who is gazin",
     "gazin tenorm friend"
    ],
-   "answer": "Gazin Tenorm is Henze Faulk's companion. When the two were cornered by Defias outlaws, Henze protected Gazin, allowing Gazin to survive and seek help from the Church of the Holy Light."
+   "answer": "Gazin Tenorm is Henze Faulk's companion. When Defias outlaws cornered them, Henze protected Gazin, who survived and sought help from the Church of the Holy Light."
   }
  ],
  "angles": [
   {
    "target": "class:Paladin",
-   "text": "Henze Faulk represents your first true test of divine mercy. Bringing him back from the brink with a Symbol of Life teaches a paladin that the Light is not merely a weapon for battle, but a solemn power to defy death."
+   "text": "As a paladin, you face a test of mercy when you bring Henze Faulk back from the brink with a Symbol of Life. The Light can do more than aid you in battle; it can defy death."
   },
   {
    "target": "race:Dwarf",
-   "text": "Seeing a fellow dwarf laid low in human lands is a sobering reminder that Defias outlaws pose a deadly threat to travelers of every race, not just the locals of Stormwind."
+   "text": "As a dwarf, seeing Henze Faulk laid low in human lands reminds you that Defias outlaws threaten travelers of every race, not only Stormwind's people."
   }
  ],
  "keywords": [
@@ -82,5 +82,6 @@
  ],
  "attribution": [
   "Henze Faulk"
- ]
+ ],
+ "style": 1
 }

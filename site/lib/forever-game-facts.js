@@ -40,7 +40,11 @@ const KIRIN_TOR = { title: "Icy Veins: Horde players aren't welcome in Dalaran i
 const wiki = page => ({ title: `Warcraft Wiki: ${page} (Forever)`, url: `https://warcraft.wiki.gg/wiki/${page.replace(/ /g, "_")}` });
 // The original game's rules as its server code keeps them (patch 1.12), for how the game works (LOR-756).
 const SERVER_RULES = { title: "The original game's rules (VMaNGOS server code, patch 1.12)", url: "https://github.com/vmangos/core" };
+const STATS_AND_RULES = { title: "WoW Forever's own spell tables and the original game's rules (VMaNGOS, patch 1.12)",
+  url: "https://github.com/vmangos/core" };
 const changes = (page, path) => ({ title: `ForeverChanges: ${page}`, url: `https://foreverchanges.pro${path}` });
+// What players of the original game long agreed on (patch 1.12), for general advice: what to look for, not numbers.
+const PLAYER_ADVICE = { title: "The original game's long-standing player advice (patch 1.12), in our words", url: "" };
 const FAVOR = changes("Merchant's Favor", "/merchants-favor");
 const VMANGOS = { title: "The original game's world database (VMaNGOS, patch 1.12)", url: "https://github.com/vmangos/core" };
 const TOWN_DATA = { title: "WoW Forever's own client data: who stands where in its towns (Lore Forever)", url: "" };
@@ -428,8 +432,20 @@ export const GAME_FACTS = [
     text: "Melee attack power: warriors and paladins get 3 per level plus 2 per Strength, less 20; shamans 2 per " +
       "level plus 2 per Strength, less 20; rogues and hunters 2 per level plus 1 per Strength and 1 per Agility, " +
       "less 20; druids 2 per Strength, less 20 (Cat Form adds 1 per Agility); mages, priests and warlocks 1 per " +
-      "Strength, less 10. So for a warrior 5 Strength is the same as 10 attack power. Ranged: hunters 2 per level " +
-      "plus 2 per Agility, less 10; warriors and rogues 1 per level plus 1 per Agility, less 10." },
+      "Strength, less 10. So 5 Strength gives a warrior 10 attack power before buffs; Blessing of Kings and a shield " +
+      "make the Strength worth more. Ranged: hunters 2 per level plus 2 per Agility, less 10; warriors and rogues 1 " +
+      "per level plus 1 per Agility, less 10." },
+  // LOR-687: asked "what's the difference between 10 attack power and five strength?", she said "they are the same"
+  // (the Tour Short, 10/17), and viewers pointed out Kings and block value. Blessing of Kings and Divine Strength as
+  // Forever's spell tables have them (Kings: a trainer spell at 20, an hour, +10% total stats; it was a talent).
+  { id: "mech-strength-or-attack-power", title: "Strength or attack power on gear", source: STATS_AND_RULES,
+    text: "Strength or attack power on gear depends on the class. Warriors, paladins, shamans and druids get 2 " +
+      "attack power per Strength, so 5 Strength matches 10 attack power before buffs and Strength is the slightly " +
+      "better pick; rogues and hunters get only 1, so for them 10 attack power beats 5 Strength, even with Kings. In " +
+      "WoW Forever every paladin learns Blessing of Kings at level 20: it raises total stats by 10% for an hour, so " +
+      "a warrior's 5 Strength becomes about 11 attack power. A paladin's Divine Strength talent adds 2% Strength per " +
+      "point, and with a shield Strength also adds block value (1 per 20 Strength). Attack power on gear gets none " +
+      "of that." },
   { id: "mech-attack-power-damage", title: "What attack power does to damage", source: SERVER_RULES,
     text: "Every 14 attack power adds 1 damage per second to your weapon: each swing gains attack power ÷ 14 × the " +
       "weapon's speed in seconds, so slow weapons gain more per hit. Instant attacks like Mortal Strike use a fixed " +
@@ -481,4 +497,69 @@ export const GAME_FACTS = [
     text: "A pet earns experience only from kills that give you experience, compared with its own level, so monsters " +
       "a few levels above the pet level it fastest. It can never pass your level. In WoW Forever Tame Beast no " +
       "longer works on beasts above your own level, and pets use your higher critical strike chance." },
+  // Damage (LOR-834; Mike, 10/25: "general DPS guidance and how to become more effective but not in depth analytics…
+  // similar to how people go to forums for guidance"). Asked "how much DPS should I do at 30?" or "is my DPS good?",
+  // she gave invented ranges and judged damage she can't see (the 10/25 scope: 30-50%). Advice, never a benchmark.
+  { id: "dps-how-much", title: "How much damage (DPS) you should be doing", source: PLAYER_ADVICE,
+    text: "There's no set damage per second to reach at a level: it rests mostly on your weapon (its damage per " +
+      "second is on its tooltip), your main stat and how cleanly you use your abilities. The game itself doesn't show " +
+      "your damage per second, and no one else sees your fights, so the useful test is against yourself: the same " +
+      "kind of fight before and after a change, such as a new weapon, a talent or a habit." },
+  { id: "dps-best-class", title: "Which class does the most damage (DPS) in WoW Forever", source: PLAYER_ADVICE,
+    text: "No one has settled which class does the most damage yet: every class's talents and abilities were " +
+      "reworked, and the raids, where damage is weighed most, open on 9 December 2026. Long-time adventurers name " +
+      "warriors, rogues and mages as the hardest hitters at level 60 once well geared, a fair first guess. A class " +
+      "you enjoy and play well does more damage than one you don't." },
+  { id: "dps-more-damage", title: "How to do more damage (DPS)", source: PLAYER_ADVICE,
+    text: "The usual steps for more damage: for fighters and hunters, the weapon with the highest damage per second " +
+      "you can get comes first; then your main stat; then hit, so fewer attacks miss. Train each new spell rank as " +
+      "soon as your trainer has it. Keep your weapon skill up with the weapon you use. Fight monsters near your " +
+      "level, since ones far above you glance, dodge and resist more. And use your abilities in a steady order " +
+      "rather than whatever is ready." },
+  { id: "stats-by-role", title: "Which stats matter for each class and role", source: STATS_AND_RULES,
+    text: "What to look for on gear: warriors, paladins and shamans fighting up close want Strength (2 attack power " +
+      "each), then Agility and hit; rogues, hunters and druids in Cat Form want Agility; mages, warlocks and shadow " +
+      "priests want Intellect and spell damage, with Spirit for less drinking while leveling. Healers want " +
+      "Intellect, healing power and mana regeneration. Tanks want Stamina and armor first, then defense and " +
+      "Agility to be hit less, and Strength for threat." },
+  { id: "dps-warrior", title: "How a warrior does more damage", source: PLAYER_ADVICE,
+    text: "A warrior's damage comes mostly from the weapon: a slow, hard-hitting two-hander while leveling, since " +
+      "every swing and Mortal Strike hit harder with a slow weapon. Strength on gear, Battle Shout kept up, Rend on " +
+      "foes that live long enough, Overpower whenever it lights up after a dodge, and Heroic Strike only with rage " +
+      "to spare. In WoW Forever every warrior learns Victory Rush at 20 and Tactical Mastery at 14." },
+  { id: "dps-rogue", title: "How a rogue does more damage", source: PLAYER_ADVICE,
+    text: "A rogue's damage starts with the main-hand weapon: a dagger for Backstab from behind, or a slower sword, " +
+      "mace or axe (WoW Forever lets rogues use one-handed axes) for Sinister Strike. Agility on gear, Slice and " +
+      "Dice kept up, Eviscerate at four or five combo points, and poisons on both weapons from level 20; in " +
+      "WoW Forever poisons stack with sharpening stones." },
+  { id: "dps-mage", title: "How a mage does more damage", source: PLAYER_ADVICE,
+    text: "A mage's damage comes from spell ranks and mana: train each new rank of Frostbolt, Fireball and the rest " +
+      "as it comes, wear Intellect and spell damage gear, and finish monsters with a wand to save mana. Frostbolt's " +
+      "slow lets a mage kite instead of trading blows, and conjured water between pulls keeps the fights coming." },
+  { id: "dps-hunter", title: "How a hunter does more damage", source: PLAYER_ADVICE,
+    text: "A hunter's damage comes from the ranged weapon (its damage per second on the tooltip), Agility on gear, " +
+      "and the pet: a happy pet does 25% more damage and an unhappy one 25% less, so keep it fed. Hunter's Mark and " +
+      "Serpent Sting on the target, Arcane Shot while the foe closes in; in WoW Forever every hunter learns Aimed " +
+      "Shot at 20 from the trainer." },
+  { id: "dps-warlock", title: "How a warlock does more damage", source: PLAYER_ADVICE,
+    text: "A warlock's damage builds over time: Corruption, Immolate and a Bane (WoW Forever's Bane of Agony; only " +
+      "one of your Banes on a target) on everything, the demon fighting beside you, and Shadow Bolt or a wand to " +
+      "finish. Life Tap trades health for mana between pulls. Spell damage and Intellect on gear, Stamina for Life Tap." },
+  { id: "dps-priest", title: "How a priest does more damage", source: PLAYER_ADVICE,
+    text: "A priest's damage while leveling: Shadow Word: Pain first, then Mind Blast, and a wand to finish and save " +
+      "mana; with the Shadow tree, Mind Flay too. In WoW Forever every priest learns Devouring Plague at 20 and " +
+      "Shadow Word: Death at 32. Intellect, spell damage and Spirit on gear." },
+  { id: "dps-paladin", title: "How a paladin does more damage", source: PLAYER_ADVICE,
+    text: "A paladin's damage comes from a slow two-handed weapon and keeping a Seal up, judging it when the time is " +
+      "right; in WoW Forever Judgement no longer uses up the Seal, Holy Strike comes at 6 and Consecration at 20 " +
+      "from the trainer. Strength on gear, and Blessing of Might on yourself when no one else needs it." },
+  { id: "dps-shaman", title: "How a shaman does more damage", source: PLAYER_ADVICE,
+    text: "A shaman's damage while leveling: a slow two-handed weapon (or a one-hander and a shield) with Rockbiter " +
+      "or Flametongue Weapon on it, Strength of Earth Totem down, Earth Shock to finish or interrupt, and " +
+      "Stormstrike with the Enhancement tree. Strength and Agility on gear for fighting up close, Intellect and " +
+      "spell damage for casting." },
+  { id: "dps-druid", title: "How a druid does more damage", source: PLAYER_ADVICE,
+    text: "A druid fights either way: in Cat Form, Agility and Strength on gear, Claw to build combo points and Rip " +
+      "or Ferocious Bite to finish; as a caster, Moonfire and Wrath with Intellect and spell damage gear. In WoW " +
+      "Forever every druid learns Omen of Clarity at 20, and Tiger's Fury is gone." },
 ];

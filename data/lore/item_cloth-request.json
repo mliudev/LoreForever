@@ -10,11 +10,11 @@
    "quest:333"
   ]
  },
- "summary": "The Cloth Request is an order slip penned by the Stormwind merchant Harlan Bagley. Addressed to Rema Schneider at the Canal Tailor and Fit Shop, the note seeks fresh bolts and knitted goods to replenish Bagley's rapidly emptying shelves.",
+ "summary": "At the Canal Tailor and Fit Shop, Rema Schneider receives Harlan Bagley's request for fresh cloth and knitted goods. His shelves are emptying quickly.",
  "sections": [
   {
    "title": "A Run on Sturdy Goods",
-   "body": "Written by Harlan Bagley, this trade requisition asks the canal district's clothiers for a fresh resupply of knitted garments and cloth. Bagley notes a sudden, unsettling surge in commerce: ordinary citizens and travelers are stocking up heavily on armor and sturdy wear as if bracing for a brutal season. When delivered to Rema Schneider, the request leaves the tailor puzzled and wary. Rema wonders why city folk are quietly armoring themselves when the House of Nobles has announced no open war, stoking quiet suspicion that the crown's leaders are keeping unrest under wraps.",
+   "body": "Harlan Bagley asks Rema Schneider for a fresh supply of knitted garments and cloth. Bagley notes a sudden and unsettling surge in trade: citizens and travelers are buying armor and sturdy clothing as if bracing for a brutal season. The rush leaves Rema puzzled and wary. The House of Nobles has announced no open war, so Rema wonders why city folk are quietly armoring themselves and whether the crown's leaders are hiding unrest.",
    "spoiler": 0
   }
  ],
@@ -26,7 +26,7 @@
     "cloth request item",
     "harlan order slip"
    ],
-   "answer": "It is a written supply requisition from shopkeeper Harlan Bagley asking tailor Rema Schneider for fresh loads of cloth and knitted wear to restock his store."
+   "answer": "The Cloth Request is Harlan Bagley's written order to Rema Schneider for fresh cloth and knitted wear to restock his store."
   },
   {
    "q": "Why does Harlan Bagley need more cloth?",
@@ -35,7 +35,7 @@
     "why is bagley out of stock",
     "bagley resupply reason"
    ],
-   "answer": "Bagley's business has been unusually busy. Townsfolk and travelers have been buying up armor and sturdy clothing in large quantities, exhausting his stock."
+   "answer": "Bagley's business has been unusually busy. Townsfolk and travelers have bought armor and sturdy clothing in large quantities, exhausting his stock."
   },
   {
    "q": "Where does this request need to go?",
@@ -44,7 +44,7 @@
     "who gets cloth request",
     "cloth request delivery"
    ],
-   "answer": "The order is carried to Rema Schneider at the Canal Tailor and Fit Shop, located along the waterways of Stormwind."
+   "answer": "The order goes to Rema Schneider at the Canal Tailor and Fit Shop, along Stormwind's waterways."
   },
   {
    "q": "Why are people in Stormwind buying so much armor and clothing?",
@@ -53,17 +53,17 @@
     "is stormwind at war",
     "rema schneider suspicions"
    ],
-   "answer": "Neither the merchants nor the commoners know for certain. Rema Schneider finds the sudden rush unnerving, wondering if the noble court is concealing brewing hostilities or danger from the public."
+   "answer": "Neither merchants nor commoners know for certain. Rema Schneider finds the sudden rush unnerving and wonders whether the noble court is concealing brewing hostilities or danger from the public."
   }
  ],
  "angles": [
   {
    "target": "profession:Tailoring",
-   "text": "The request highlights the bustling internal textile trade in Stormwind, where neighborhood clothiers like the Schneiders supply general stores and outfitters with woven goods."
+   "text": "The request points to Stormwind's textile trade, where neighborhood clothiers like the Schneiders supply general stores and outfitters with woven goods."
   },
   {
    "target": "faction:Alliance",
-   "text": "The run on sturdy garments reflects the palpable unease gripping Stormwind's citizenry, who prepare for strife despite the lack of official announcements from the regency."
+   "text": "Stormwind's citizens feel uneasy and prepare for strife, despite the regency making no official announcements."
   }
  ],
  "keywords": [
@@ -82,5 +82,6 @@
  "attribution": [
   "Cloth Request",
   "Harlan Needs a Resupply"
- ]
+ ],
+ "style": 1
 }

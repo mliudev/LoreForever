@@ -11,16 +11,16 @@
    "quest:1245"
   ]
  },
- "summary": "The Defias Docket is a collection of classified operational orders belonging to the Defias Brotherhood, discovered hidden within Addle's Stead in western Duskwood. It contains detailed intelligence concerning an ambitious Defias plot, providing a critical lead in the search for Stormwind's vanished emissary.",
+ "summary": "Defias operatives have hidden their orders at Addle's Stead in western Duskwood. The docket gives Stormwind's search for its missing emissary a lead into the Brotherhood's plans.",
  "sections": [
   {
    "title": "A Trail into the Dark",
-   "body": "While pursuing leads on the kingdom's missing diplomat, investigators are pointed toward Duskwood by Master Elling Trias. Watcher Backus notes recent and unusual Defias movements converging on Addle's Stead, a derelict farmstead situated just south of the road leading in from Westfall. Stashed inside a strongbox on the property, the Defias Docket contains complex records detailing the brotherhood's movements, far exceeding simple highway robbery or local banditry.",
+   "body": "Master Elling Trias points investigators toward Duskwood as they follow leads on the kingdom's missing diplomat. Watcher Backus has noted unusual Defias movements converging on Addle's Stead, the derelict farm south of the road from Westfall. A strongbox on the property holds the Defias Docket. Its records track the Brotherhood's movements, revealing work that reaches beyond highway robbery and local banditry.",
    "spoiler": 0
   },
   {
    "title": "The Web of Conspiracy",
-   "body": "Upon inspection, the paperwork proved so intricate and politically perilous that Watcher Backus refused to keep it, dreading severe punishment from his superiors if caught handling it. Returned to Trias' Cheese shop in Stormwind City, the docket reveals that the Defias have poured extensive resources into an elaborate abduction scheme, cross-referencing known underworld operators like an operative codenamed 'Fist.'",
+   "body": "The papers prove so intricate and politically dangerous that Watcher Backus refuses to keep them. He fears severe punishment from his superiors if they catch him handling the docket. Back at Trias' Cheese shop in Stormwind City, the papers reveal an elaborate abduction scheme backed by extensive Defias resources. They also name underworld operators, including one codenamed 'Fist.'",
    "spoiler": 1
   }
  ],
@@ -32,7 +32,7 @@
     "defias papers",
     "missing diplomat docket"
    ],
-   "answer": "It is an official bundle of written documents and orders belonging to the Defias Brotherhood, detailing their plans and the covert operations they conducted around Duskwood and Westfall."
+   "answer": "The Defias Docket is a bundle of official orders and documents belonging to the Defias Brotherhood. It details their plans and covert operations around Duskwood and Westfall."
   },
   {
    "q": "Where is the Defias Docket found?",
@@ -41,7 +41,7 @@
     "where to find defias docket",
     "addle's stead docket"
    ],
-   "answer": "It is locked inside a Defias strongbox inside the dilapidated farmhouse at Addle's Stead, just south of the road leading into western Duskwood from Westfall."
+   "answer": "You find the docket locked inside a Defias strongbox at the dilapidated farmhouse in Addle's Stead, south of the road from Westfall into western Duskwood."
   },
   {
    "q": "Why was the docket kept in Duskwood?",
@@ -49,7 +49,7 @@
     "why is it in duskwood",
     "defias at addle's stead"
    ],
-   "answer": "Defias operatives used Addle's Stead as a remote staging post between Westfall and Duskwood to coordinate a high-priority operation away from the watchful eyes of Stormwind's primary patrols."
+   "answer": "Defias operatives used Addle's Stead as a remote staging post between Westfall and Duskwood. They coordinated a high-priority operation there, away from Stormwind's primary patrols."
   },
   {
    "q": "Who analyzes the docket?",
@@ -57,17 +57,17 @@
     "who gets the docket",
     "who reads the docket"
    ],
-   "answer": "Watcher Backus examines it briefly before sending it directly to Elling Trias in Stormwind City, whose private intelligence network specializes in deciphering covert underworld communications."
+   "answer": "Watcher Backus examines the docket briefly, then sends it to Elling Trias in Stormwind City. Trias' private intelligence network specializes in deciphering covert underworld communications."
   }
  ],
  "angles": [
   {
    "target": "class:Rogue",
-   "text": "The docket serves as a stark reminder of the sophisticated cipher work and covert logistics the Defias Brotherhood employs behind the facade of common outlawry."
+   "text": "As a rogue, you can see how the Defias Brotherhood uses cipher work and covert logistics behind the appearance of common outlawry."
   },
   {
    "target": "faction:Alliance",
-   "text": "The documents within the docket reveal a coordinated Defias plot reaching far beyond common banditry."
+   "text": "As an Alliance member, you can see that the documents reveal a coordinated Defias plot reaching far beyond common banditry."
   }
  ],
  "keywords": [
@@ -93,5 +93,6 @@
   "Defias Docket",
   "The Missing Diplomat (5)",
   "The Missing Diplomat (6)"
- ]
+ ],
+ "style": 1
 }

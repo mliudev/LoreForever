@@ -22,16 +22,16 @@
    "Return to Milton"
   ]
  },
- "summary": "Recovered from the blighted soil and monstrous dens of Duskwood, this battered tome bears the official stamp of the Royal Library of Stormwind. Titled 'The History of Stormwind,' it vanished prior to the kingdom's reconstruction following the First War. Returning it restores a lost chronicle to Head Librarian Milton Sheaf and begins an effort to preserve Southern human history.",
+ "summary": "In Stormwind, a lost chronicle returns to the Royal Library. Titled The History of Stormwind, the battered book bears the library’s seal and vanished before the kingdom was rebuilt after the First War. Its return gives Head Librarian Milton Sheaf a chance to preserve the history of southern human lands.",
  "sections": [
   {
    "title": "A Relic of the First War",
-   "body": "Discovered among the hostile undead and brutish ogres roaming Duskwood, this mud-caked volume is a rare surviving artifact from the era before Stormwind's destruction. Bearing the kingdom's formal library seal on its opening page, it was checked out decades ago\u2014before the Horde razed the capital\u2014and was presumed lost forever amid the fall of the south.",
+   "body": "Duskwood’s undead and ogres roam among the ruins where this mud-caked volume was found. The book is a rare relic from before Stormwind’s destruction. Its opening page bears the kingdom’s formal library seal. Someone checked it out decades ago, before the Horde razed the capital, and the book was presumed lost in the fall of the south.",
    "spoiler": 0
   },
   {
    "title": "Restoring Forgotten Annals",
-   "body": "When brought back to Milton Sheaf in the Royal Library of Stormwind Keep, the book is recognized as an invaluable treasure destined for the rare books archive. Years of exposure in the haunted wilderness have left its pages badly degraded, and the find spurs Sheaf to recover more lost knowledge, looking north to Southshore, the town closest to the ruined kingdom of Alterac and its abandoned libraries.",
+   "body": "Milton Sheaf recognizes the book when it reaches him in the Royal Library of Stormwind Keep. The head librarian means to place it in the rare books archive, though years in the haunted wilderness have badly damaged its pages. The discovery spurs Sheaf to seek more lost knowledge. He looks north to Southshore, the town nearest the ruined kingdom of Alterac and its abandoned libraries.",
    "spoiler": 0
   }
  ],
@@ -43,7 +43,7 @@
     "book drop location",
     "duskwood history book"
    ],
-   "answer": "The book drops from various hostile creatures roaming Duskwood, most commonly the undead haunting the cemeteries and fields or the ogres occupying the southern hills."
+   "answer": "You find the book among the hostile creatures roaming Duskwood, most often among undead in the cemeteries and fields or ogres in the southern hills."
   },
   {
    "q": "Who do I bring the book to?",
@@ -52,7 +52,7 @@
     "where do i turn this in",
     "milton sheaf location"
    ],
-   "answer": "You return the volume to Milton Sheaf, the head librarian situated in the Royal Library inside Stormwind Keep."
+   "answer": "Bring the volume to Milton Sheaf, head librarian in the Royal Library inside Stormwind Keep."
   },
   {
    "q": "Why is the book in such poor condition?",
@@ -60,7 +60,7 @@
     "why is it muddy",
     "why damaged"
    ],
-   "answer": "The book was checked out prior to the First War and the sack of Stormwind. It survived decades in the wilderness of Duskwood, weathered by dirt, rot, and the hands of wandering scavengers and monsters."
+   "answer": "The book was checked out before the First War and Stormwind’s sack. It spent decades in Duskwood’s wilderness, exposed to dirt and rot and handled by wandering scavengers and monsters."
   },
   {
    "q": "Does returning this book lead to other tasks?",
@@ -69,7 +69,7 @@
     "followup quest",
     "book quest chain"
    ],
-   "answer": "Yes. Milton Sheaf will send you north to Southshore in the Hillsbrad Foothills to speak with Loremaster Dibbs, who can direct you to books still lying in the Ruins of Alterac."
+   "answer": "Yes. Milton Sheaf sends you north to Southshore in the Hillsbrad Foothills to speak with Loremaster Dibbs, who can direct you to books in the Ruins of Alterac."
   },
   {
    "q": "Why does Milton Sheaf care so much about this specific tome?",
@@ -77,7 +77,7 @@
     "why is the book important",
     "importance of history of stormwind"
    ],
-   "answer": "Because the original kingdom was leveled during the First War, few original historical records survived the burning of the city. Recovering genuine pre-war texts helps scholars reconstruct the kingdom's past."
+   "answer": "Few original records survived when the kingdom was leveled and Stormwind burned during the First War. Genuine pre-war texts help scholars piece together the kingdom’s past."
   },
   {
    "q": "Can Horde players complete this quest?",
@@ -85,21 +85,21 @@
     "horde version",
     "is this alliance only"
    ],
-   "answer": "No. The book belongs to the Royal Library of Stormwind and can only be turned in to Alliance librarians within Stormwind Keep."
+   "answer": "No. The book belongs to Stormwind’s Royal Library, and only Alliance librarians in Stormwind Keep can accept it."
   }
  ],
  "angles": [
   {
    "target": "faction:Alliance",
-   "text": "Recovering pre-war texts restores fragments of Stormwind's lost heritage that survived the devastation of the First War."
+   "text": "As an Alliance traveler, you help restore fragments of Stormwind’s heritage that survived the First War’s devastation."
   },
   {
    "target": "race:Human",
-   "text": "For humans of the south, reclaiming written records from the wilderness is a vital step in rebuilding the culture shattered by the Old Horde."
+   "text": "As a human of the south, you help reclaim written records from the wilderness and rebuild a culture shattered by the Old Horde."
   },
   {
    "target": "class:Mage",
-   "text": "Scholars of the arcane understand that ancient libraries hold knowledge vulnerable to decay and neglect when left in the wild."
+   "text": "As a mage, you know ancient libraries hold knowledge that can decay or be neglected when left in the wild."
   }
  ],
  "keywords": [
@@ -123,5 +123,6 @@
  ],
  "attribution": [
   "An Old History Book (quest)"
- ]
+ ],
+ "style": 1
 }

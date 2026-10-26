@@ -8,11 +8,11 @@
   "wiki": "Sara Timberlain",
   "refs": 2
  },
- "summary": "Sara Timberlain is a skilled tailor residing at the Eastvale Logging Camp in eastern Elwynn Forest. Known for her resourceful needlework with salvaged fabrics, she assists the war effort by stitching cloth and leather armaments for the Stormwind Army.",
+ "summary": "At Eastvale Logging Camp, Sara Timberlain stitches gear for the Stormwind Army. She makes useful armaments from salvaged cloth and leather.",
  "sections": [
   {
    "title": "Needlework on the Frontier",
-   "body": "Situated outside a small cottage on the western edge of the Eastvale Logging Camp, Sara Timberlain works tirelessly with needle and thread amidst the ambient noise of felling axes. Despite the remote nature of Eastvale and the looming threat of prowling wolves and murlocs, she provides hospitality and vital craftwork to travelers. Her talent for turning scraps of linen and salvaged bandanas into durable gear has earned her official recognition, securing commissions to supply protective cloth and leather armaments directly to Stormwind's military forces.",
+   "body": "Sara Timberlain works with needle and thread outside a small cottage on the western edge of Eastvale Logging Camp. Axes sound through the camp as workers fell trees. Though Eastvale lies far from settled lands, wolves and murlocs prowl nearby, and Sara still offers travelers hospitality. She turns scraps of linen and salvaged bandanas into sturdy gear. Her skill has earned official recognition and commissions to supply cloth and leather armaments to Stormwind's military forces.",
    "spoiler": 0
   }
  ],
@@ -24,7 +24,7 @@
     "sara timberlain",
     "eastvale tailor"
    ],
-   "answer": "Sara Timberlain is an accomplished seamstress living at the Eastvale Logging Camp in Elwynn Forest. She is renowned for crafting practical gear from reclaimed fabrics and holds contracts to supply the Stormwind Army."
+   "answer": "Sara Timberlain is a skilled seamstress at Eastvale Logging Camp in Elwynn Forest. She makes practical gear from reclaimed fabrics and has contracts to supply the Stormwind Army."
   },
   {
    "q": "Where can I find Sara Timberlain?",
@@ -33,7 +33,7 @@
     "where is sara timberlain",
     "timberlain house"
    ],
-   "answer": "She can be found sitting outside a house on the western side of the Eastvale Logging Camp, situated in the far eastern reaches of Elwynn Forest along the road to Redridge."
+   "answer": "Sara Timberlain sits outside a house on the western side of Eastvale Logging Camp, in eastern Elwynn Forest along the road to Redridge."
   },
   {
    "q": "Why is Sara gathering cloth for the army?",
@@ -42,17 +42,17 @@
     "stormwind army armor",
     "cloth and leather armor quest"
    ],
-   "answer": "The Stormwind Army relies on local crafters to maintain their equipment stockpiles. Sara uses salvaged cloth, such as linen collected by adventurers, to fashion sturdy garments and armor linings for the kingdom's soldiers."
+   "answer": "The Stormwind Army depends on local crafters to maintain its equipment stores. Sara uses salvaged cloth, including linen gathered by adventurers, to make sturdy garments and armor linings for the kingdom's soldiers."
   }
  ],
  "angles": [
   {
    "target": "profession:Tailoring",
-   "text": "Sara exemplifies the resourcefulness of frontier tailors, turning scraps of rough linen and bandit cloth into functional garments commissioned by the military."
+   "text": "Sara shows how frontier tailors make useful garments from scraps of rough linen and bandit cloth for military commissions."
   },
   {
    "target": "faction:Alliance",
-   "text": "Outlying settlements like Eastvale directly sustain the kingdom's defense, with local craftspeople supplying basic armor to the under-resourced Stormwind Army."
+   "text": "Outlying settlements such as Eastvale help defend the kingdom, as local craftspeople supply basic armor to the under-resourced Stormwind Army."
   }
  ],
  "keywords": [
@@ -74,5 +74,6 @@
  ],
  "attribution": [
   "Sara Timberlain"
- ]
+ ],
+ "style": 1
 }

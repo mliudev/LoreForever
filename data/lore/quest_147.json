@@ -20,16 +20,16 @@
    "Manhunt (Classic)"
   ]
  },
- "summary": "Manhunt is an Alliance quest issued by Marshal Dughan in Goldshire to eliminate a Defias bagman known as 'the Collector'. Operating out of the overrun Brackwell Pumpkin Patch, this operative funnels pilfered gold from Elwynn Forest's mines directly into the Brotherhood's coffers.",
+ "summary": "Marshal Dughan sends you after a Defias bagman called the Collector in Elwynn Forest. The Collector works from the overrun Brackwell Pumpkin Patch and sends stolen gold from the forest's mines into the Brotherhood's coffers.",
  "sections": [
   {
    "title": "Justice in the Pumpkin Patch",
-   "body": "Following the discovery of a gold pickup schedule carried by Elwynn's gnolls, Marshal Dughan dispatches adventurers to Brackwell Pumpkin Patch. Once a quiet homestead, the farm has been overtaken by Defias bandits and gnolls. Amid the overgrown vines hides the Collector, the middleman responsible for skimming kingdom ore and organizing shipments for the gathering rebellion.",
+   "body": "Marshal Dughan sends you to Brackwell Pumpkin Patch after Elwynn's gnolls are found carrying a schedule for gold pickups. Defias bandits and gnolls have taken over the once quiet homestead. The Collector hides among its overgrown vines, skimming ore from the kingdom's mines and arranging shipments for the growing rebellion.",
    "spoiler": 0
   },
   {
    "title": "An Artisan's Seal",
-   "body": "Upon slaying the Collector, adventurers recover his ring and deliver it to Marshal Dughan. To the marshal's bewilderment, the band does not bear a common criminal crest, but the mark of the old Stormwind Stonemasons Guild. The discovery hints at an uncomfortable truth: the highwaymen choking Elwynn Forest are not merely opportunists, but former craftsmen turned bitter outlaws after the rebuilding of Stormwind.",
+   "body": "After the Collector is slain, you recover his ring and deliver it to Marshal Dughan. The marshal is bewildered: its band bears the mark of Stormwind's old Stonemasons Guild, not a common criminal crest. The ring suggests the highwaymen choking Elwynn Forest are more than opportunists. Some were craftsmen who turned bitter and became outlaws after Stormwind was rebuilt.",
    "spoiler": 1
   }
  ],
@@ -41,7 +41,7 @@
     "where is collector",
     "collector spot"
    ],
-   "answer": "The Collector hides in the Brackwell Pumpkin Patch, located in southeastern Elwynn Forest, just east of the Maclure Vineyards and north of the river boundary."
+   "answer": "The Collector hides at Brackwell Pumpkin Patch in southeastern Elwynn Forest, just east of the Maclure Vineyards and north of the river boundary."
   },
   {
    "q": "Why is the Collector stealing gold from Elwynn's mines?",
@@ -50,7 +50,7 @@
     "defias mines",
     "what is collector doing"
    ],
-   "answer": "He gathers smuggled ore and extortion payments from the kobold-infested Fargodeep and Jasperlode mines to finance the Defias Brotherhood's covert operations across the kingdom."
+   "answer": "The Collector gathers smuggled ore and extortion payments from the kobold-infested Fargodeep and Jasperlode mines to fund the Defias Brotherhood's covert operations across the kingdom."
   },
   {
    "q": "What is the significance of the Collector's ring?",
@@ -59,7 +59,7 @@
     "stonemason ring",
     "what does the ring mean"
    ],
-   "answer": "It is a membership ring of the old Stonemasons Guild, the craftsmen who rebuilt Stormwind City after the First War. Marshal Dughan cannot explain why a lowly thief working with the Defias would carry an artisan guild ring, and hopes the question will one day be answered."
+   "answer": "The ring is a membership ring of the old Stonemasons Guild, whose craftsmen rebuilt Stormwind City after the First War. Marshal Dughan cannot explain why a lowly thief working with the Defias carries an artisan guild ring, and hopes the question will one day be answered."
   },
   {
    "q": "Does Marshal Dughan figure out who is behind the Brotherhood?",
@@ -68,7 +68,7 @@
     "dughan reaction",
     "marshal dughan Stonemasons"
    ],
-   "answer": "Not immediately. Marshal Dughan recognizes the artisan insignia on the ring, but he is puzzled as to why a common thief would hold an artisan guild signet, leaving the broader conspiracy an open question in Goldshire."
+   "answer": "Not immediately. Marshal Dughan recognizes the artisan insignia on the ring, but cannot explain why a common thief carries an artisan guild signet. The wider conspiracy remains an open question in Goldshire."
   },
   {
    "q": "Who sends you on this manhunt?",
@@ -77,7 +77,7 @@
     "quest giver manhunt",
     "marshal dughan quest"
    ],
-   "answer": "Marshal Dughan, the garrison commander stationed at the Lion's Pride Inn in Goldshire, offers the quest after you recover the Defias pickup schedule."
+   "answer": "Marshal Dughan, the garrison commander at the Lion's Pride Inn in Goldshire, offers you this work after you recover the Defias pickup schedule."
   },
   {
    "q": "What happened to the Brackwell family?",
@@ -86,21 +86,21 @@
     "who owns pumpkin patch",
     "brackwell farm"
    ],
-   "answer": "The Brackwell Pumpkin Patch has fallen into ruin, abandoned by its owners and occupied by Defias rogues, bandits, and encroaching Riverpaw gnolls who prowl the southeastern woodlands."
+   "answer": "The Brackwell Pumpkin Patch lies in ruin, abandoned by its owners and occupied by Defias rogues, bandits, and encroaching Riverpaw gnolls that prowl the southeastern woodlands."
   }
  ],
  "angles": [
   {
    "target": "class:Rogue",
-   "text": "The Collector's stealthy operation in the pumpkin patch highlights the expanding network of highwaymen and cutpurses taking root throughout Elwynn Forest."
+   "text": "As a rogue, you can see how the Collector's covert work reflects the growing network of highwaymen and cutpurses taking root throughout Elwynn Forest."
   },
   {
    "target": "faction:Alliance",
-   "text": "Protecting Stormwind's local resources is critical; stopping the Collector cuts off an illicit flow of kingdom gold intended to fund rebellion right on the capital's doorstep."
+   "text": "As an Alliance member, you help protect Stormwind's local resources. Stopping the Collector cuts off an illicit flow of kingdom gold meant to fund rebellion near the capital."
   },
   {
    "target": "race:Human",
-   "text": "Recovering the Stonemason's ring touches a raw nerve in Stormwind's recent history, recalling the bitter labor disputes that fractured the kingdom after the capital was rebuilt."
+   "text": "As a human, you may feel the weight of recovering the Stonemason's ring. It recalls the bitter labor disputes that divided the kingdom after Stormwind was rebuilt."
   }
  ],
  "keywords": [
@@ -122,5 +122,6 @@
  ],
  "attribution": [
   "Manhunt (Classic)"
- ]
+ ],
+ "style": 1
 }

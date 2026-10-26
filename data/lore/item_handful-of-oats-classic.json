@@ -10,11 +10,11 @@
    "quest:151"
   ]
  },
- "summary": "Handfuls of Oats are simple grains salvaged from the abandoned farmsteads of Westfall. They serve as essential feed for working livestock like Old Blanchy, who struggle under the weight of refugee travel.",
+ "summary": "In Westfall, Old Blanchy needs oats after the Furlbrows' wagon breaks down.",
  "sections": [
   {
    "title": "Fodder Among the Ruins",
-   "body": "Once the breadbasket of the Kingdom of Stormwind, Westfall's vast agrarian plots now lie overgrown or overrun by Defias bandits and rogue harvest golems. Despite the collapse of order, sacks of cultivated grain and oats remain abandoned near outbuildings, barns, and overgrown plots. For travelers and refugees stranded by broken wagons along the dusty roads, recovering handfuls of these leftover oats is one of the few ways to nourish weary draft horses.",
+   "body": "Westfall once fed the Kingdom of Stormwind, but its farms now lie overgrown or under the control of Defias bandits and rogue harvest golems. Sacks of grain and oats remain near barns, outbuildings, and overgrown fields. Travelers and refugees stranded by broken wagons along the dusty roads can gather the leftover oats to feed their weary draft horses.",
    "spoiler": 0
   }
  ],
@@ -26,7 +26,7 @@
     "why collect oats",
     "handful of oats use"
    ],
-   "answer": "They are collected to feed Old Blanchy, a weary mare belonging to the Furlbrow family. After their wagon broke down along the road in Westfall, she was left exhausted and in desperate need of nourishment."
+   "answer": "The oats feed Old Blanchy, a weary mare belonging to the Furlbrow family. Their wagon broke down on a Westfall road, leaving her exhausted and in need of food."
   },
   {
    "q": "Where can these oats be found?",
@@ -35,7 +35,7 @@
     "sack of oats location",
     "how to get oats"
    ],
-   "answer": "Handfuls of Oats are scooped from sacks scattered around the abandoned farms across Westfall, particularly to the southwest."
+   "answer": "You can gather oats from sacks scattered around abandoned farms across Westfall, especially in the southwest."
   },
   {
    "q": "Why are the oat sacks left unguarded?",
@@ -43,13 +43,13 @@
     "why abandoned sacks",
     "who left the oats"
    ],
-   "answer": "The sudden rise of the Defias Brotherhood and the rampage of rogue harvest machinery forced local farmers to flee their lands in haste, leaving harvested grains and supplies behind in their fields and barns."
+   "answer": "The Defias Brotherhood rose suddenly, and rogue harvest machinery rampaged through the fields. Farmers fled in haste, leaving harvested grain and other supplies in their fields and barns."
   }
  ],
  "angles": [
   {
    "target": "faction:Alliance",
-   "text": "For Alliance travelers passing through Westfall, scrounging oats to help stranded refugees like the Furlbrows is a small act of mercy amidst Stormwind's neglected frontier."
+   "text": "As an Alliance traveler in Westfall, gathering oats for stranded refugees like the Furlbrows offers a small act of mercy on Stormwind's neglected frontier."
   }
  ],
  "keywords": [
@@ -70,5 +70,6 @@
  "attribution": [
   "Handful of Oats (Classic)",
   "Poor Old Blanchy"
- ]
+ ],
+ "style": 1
 }

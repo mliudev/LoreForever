@@ -7,16 +7,16 @@
  "meta": {
   "wiki": "Dagger Hills"
  },
- "summary": "The Dagger Hills form a rugged ridge rising across southern Westfall, directly behind the blighted town of Moonbrook. Long neglected by the crown, this rocky highland serves as a hostile hideout for cutthroats, bandits, and creeping terrors that threaten the surrounding plains.",
+ "summary": "Bandits hold the Dagger Hills, the rocky heights behind Moonbrook in southern Westfall. With royal patrols gone, the ridge threatens travelers and the plains below.",
  "sections": [
   {
    "title": "A Bandit Haven",
-   "body": "Rising high above the dilapidated settlement of Moonbrook, the Dagger Hills mark the jagged southern reaches of Westfall. Stripped of official royal patrols from Stormwind, this arid highland has become a natural fortification for the Defias Brotherhood. Knuckledusters, pathstalkers, and highwaymen lurk among the rocky crests and scrub, ambushing unwary travelers and keeping watch over the approaches to their strongholds below.",
+   "body": "The Dagger Hills rise above Moonbrook in southern Westfall, where Defias outlaws watch the rocky ridges. Stormwind's royal patrols are gone, leaving the dry highland as a natural stronghold for the Defias Brotherhood. Knuckledusters, pathstalkers, and highwaymen hide among the crests and scrub. They ambush travelers and watch the approaches to their strongholds below.",
    "spoiler": 0
   },
   {
    "title": "Shadows on the Ridge",
-   "body": "Beyond mortal outlaws, the Dagger Hills carry an eerie reputation under cover of darkness. The unsettling specter Leprithus, a wandering ghoul, has been sighted stalking the desolate heights when the sun dips. Aside from wandering outlaws and lingering undead, the only resident willing to brave the ridge is Grimbooze Thunderbrew, a dwarven brewer who sets up his distilling equipment in the rugged wilderness regardless of the nearby dangers.",
+   "body": "Darkness brings its own danger to the Dagger Hills. Leprithus, a wandering ghoul, has been seen stalking the desolate heights after sunset. Outlaws and lingering undead roam the ridge, while Grimbooze Thunderbrew, a dwarven brewer, sets up his distilling equipment in the rugged wilderness despite the dangers nearby.",
    "spoiler": 0
   }
  ],
@@ -28,7 +28,7 @@
     "where is dagger hills",
     "how to get to dagger hills"
    ],
-   "answer": "The Dagger Hills form the high, rocky southern border of Westfall, standing directly behind the abandoned settlement of Moonbrook."
+   "answer": "The Dagger Hills form the rocky southern border of Westfall, directly behind Moonbrook."
   },
   {
    "q": "Who controls the Dagger Hills?",
@@ -37,7 +37,7 @@
     "who lives in dagger hills",
     "enemies in dagger hills"
    ],
-   "answer": "The Defias Brotherhood maintains a heavy presence across the ridge, deploying highwaymen, pathstalkers, and knuckledusters to guard the southern hills."
+   "answer": "The Defias Brotherhood holds much of the ridge, with highwaymen, pathstalkers, and knuckledusters guarding the southern hills."
   },
   {
    "q": "Why is a dwarf brewing ale out here?",
@@ -46,7 +46,7 @@
     "dwarf in dagger hills",
     "grimbooze thunderbrew lore"
    ],
-   "answer": "Grimbooze Thunderbrew has set up his distilling works in these lonely heights to craft his potent dwarven brews, braving bandits and beasts alike in the name of good drink."
+   "answer": "Grimbooze Thunderbrew distills his potent dwarven brews in the lonely heights, braving bandits and beasts for the sake of good drink."
   },
   {
    "q": "What is Leprithus?",
@@ -55,17 +55,17 @@
     "ghoul in dagger hills",
     "dagger hills undead"
    ],
-   "answer": "Leprithus is an infamous ghoul known to roam the crags of the Dagger Hills, terrifying any travelers or bandits unfortunate enough to run across it in the dark."
+   "answer": "Leprithus is an infamous ghoul that roams the Dagger Hills crags, frightening travelers and bandits who meet it in the dark."
   }
  ],
  "angles": [
   {
    "target": "faction:Alliance",
-   "text": "The hills represent the utter breakdown of law in southern Westfall, where Gryan Stoutmantle's People's Militia must fight to reclaim ground surrendered by Stormwind's absence."
+   "text": "The hills show how law has broken down in southern Westfall. Gryan Stoutmantle's People's Militia must fight to reclaim ground left behind by Stormwind."
   },
   {
    "target": "race:Dwarf",
-   "text": "The solitary presence of Grimbooze Thunderbrew on this exposed ridge shows the sheer stubbornness of dwarven brewers searching for undisturbed space to perfect their craft."
+   "text": "As a dwarf, you can see Grimbooze Thunderbrew's solitary presence on this exposed ridge as a sign of how stubbornly brewers seek undisturbed space for their craft."
   }
  ],
  "keywords": [
@@ -86,5 +86,6 @@
  ],
  "attribution": [
   "Dagger Hills"
- ]
+ ],
+ "style": 1
 }

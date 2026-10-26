@@ -17,16 +17,16 @@
   "wiki": "Kobold Camp Cleanup",
   "chain": []
  },
- "summary": "Kobold Camp Cleanup is an early military task assigned by Marshal McBride to newly arrived recruits in Northshire Valley. The mission directs volunteers to cull the kobold vermin lurking in the northern woods, attempting to keep the aggressive subterranean scavengers from overwhelming the abbey grounds. It serves as an initiate's first true test in defending the borders of the Kingdom of Stormwind.",
+ "summary": "At Northshire, Kobold Camp Cleanup puts new recruits to their first test defending Stormwind's borders. Marshal McBride sends volunteers after kobolds in the northern woods, where their growing numbers threaten the abbey grounds.",
  "sections": [
   {
    "title": "A Valley Under Pressure",
-   "body": "Northshire Valley was once a quiet sanctuary for prayer, agriculture, and novice training, but recent years have stretched Stormwind's military thin. With the King missing and royal garrisons dispersed, wild creatures and opportunists push boldly against civilization's edge. Marshal McBride organizes local defense from inside Northshire Abbey, relying on fresh volunteers to suppress encroaching threats before they disrupt abbey operations or threaten the surrounding vineyards.",
+   "body": "Northshire Valley once offered quiet for prayer, farming, and novice training. In recent years, Stormwind's forces have grown thin. With the King missing and royal garrisons scattered, wild creatures and opportunists press at civilization's edge. Marshal McBride directs the valley's defense from Northshire Abbey. He depends on fresh volunteers to keep threats from disrupting the abbey or endangering the surrounding vineyards.",
    "spoiler": 0
   },
   {
    "title": "The Vermin in the Woods",
-   "body": "Kobolds are cowardly, candle-obsessed cave-dwellers by nature, usually content to pick at underground seams away from direct sunlight. However, an entire clan has pressed into the northern timberline of Northshire. Left unchecked, their sheer numbers turn scavenging into open raiding. McBride's order to hunt down kobold vermin serves a dual purpose: it winnows their vanguard and proves whether a recruit possesses the resolve needed to protect the realm.",
+   "body": "Kobolds are timid cave-dwellers with a strong attachment to candles. They usually pick at underground seams, far from direct sunlight. Now an entire clan has reached Northshire's northern timberline. If left unchecked, their numbers can turn scavenging into open raids. McBride sends recruits to thin their vanguard and test their resolve to defend the realm.",
    "spoiler": 0
   }
  ],
@@ -38,7 +38,7 @@
     "quest giver",
     "marshal mcbride role"
    ],
-   "answer": "Marshal McBride gives the order. Stationed inside Northshire Abbey, he oversees local recruit intake and security for the valley on behalf of Stormwind."
+   "answer": "Marshal McBride gives the order. From Northshire Abbey, he oversees recruit intake and the valley's security for Stormwind."
   },
   {
    "q": "Why are kobolds in the northern woods instead of a mine?",
@@ -47,7 +47,7 @@
     "kobolds above ground",
     "why woods"
    ],
-   "answer": "While kobolds typically live in burrows and mines, their population in Northshire has grown dense enough to spill out into the open forest. They established primitive camps among the northern trees, prowling near the edge of civilized land."
+   "answer": "Kobolds usually live in burrows and mines, but Northshire's growing population has spilled into the open forest. They have made primitive camps among the northern trees, near the edge of civilized land."
   },
   {
    "q": "Why are these kobolds considered a threat to Stormwind?",
@@ -55,7 +55,7 @@
     "are kobolds dangerous",
     "why kill vermin"
    ],
-   "answer": "Individually, kobold vermin are timid and weak. In packs, however, they are brazen thieves capable of ambushing travelers, raiding supplies, and overrunning undefended outposts, which Stormwind cannot afford while its military is already overstretched."
+   "answer": "Alone, kobold vermin are timid and weak. In packs, they can ambush travelers, raid supplies, and overwhelm unguarded outposts, a threat Stormwind can ill afford while its forces are stretched thin."
   },
   {
    "q": "Where does this mission lead next?",
@@ -64,7 +64,7 @@
     "next step",
     "after camp cleanup"
    ],
-   "answer": "After thinning the surface vermin, Marshal McBride asks recruits to investigate deeper into the Echo Ridge Mine, where the heart of the kobold infestation lies."
+   "answer": "After thinning the kobolds on the surface, recruits are sent to investigate deeper into Echo Ridge Mine, where the heart of the infestation lies."
   },
   {
    "q": "Is Northshire receiving regular royal army backup?",
@@ -72,7 +72,7 @@
     "where are stormwind guards",
     "why volunteers"
    ],
-   "answer": "No. Due to political tension and troop shortages across the kingdom following King Varian's disappearance, local commanders like McBride must rely on civilian volunteers, adventurers, and trainees to handle border security."
+   "answer": "No. Political tension and troop shortages after King Varian's disappearance leave commanders like McBride relying on civilian volunteers, adventurers, and trainees for border security."
   },
   {
    "q": "What makes kobolds so attached to their candles?",
@@ -80,17 +80,17 @@
     "why candles",
     "candle obsession"
    ],
-   "answer": "Kobolds revere candles as their primary defense against the smothering darkness of underground tunnels. The flame represents safety, sight, and ownership to them, making them notoriously hostile if anyone attempts to take it."
+   "answer": "Kobolds revere candles as their main defense against the smothering darkness of underground tunnels. Their flames give them safety, sight, and a sense of ownership."
   }
  ],
  "angles": [
   {
    "target": "race:Human",
-   "text": "For humans of Northshire, driving back the kobold vermin is a baseline civic duty to protect the abbey and farmland from being overrun."
+   "text": "As a human of Northshire, driving back kobold vermin is a civic duty that helps protect the abbey and farmland from being overrun."
   },
   {
    "target": "faction:Alliance",
-   "text": "The unrest in Northshire highlights the strain on Stormwind's home territories, where even low-level scavenger infestations require urgent volunteer militia."
+   "text": "As an Alliance member, you can see the strain on Stormwind's home territories, where even scavenger infestations call for urgent help from volunteer militia."
   }
  ],
  "keywords": [
@@ -113,5 +113,6 @@
  ],
  "attribution": [
   "Kobold Camp Cleanup"
- ]
+ ],
+ "style": 1
 }

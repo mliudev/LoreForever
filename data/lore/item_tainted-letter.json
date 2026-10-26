@@ -10,16 +10,16 @@
    "quest:3105"
   ]
  },
- "summary": "The Tainted Letter is a discreetly delivered summons bearing the seal of Drusilla La Salle, a warlock trainer lurking on the outskirts of Northshire Abbey. It directs aspiring human practitioners of the dark arts to report to her for specialized tutelage away from watchful eyes.",
+ "summary": "Drusilla La Salle sends the Tainted Letter to human warlock initiates near Northshire Abbey. It bears her seal and directs them to seek her tutelage discreetly.",
  "sections": [
   {
    "title": "A Covert Summons",
-   "body": "While priests, paladins, and standard soldiers train openly across the manicured lawns of Northshire Abbey, practitioners of fel magic must operate with far greater discretion. Handed to initiates returning from the nearby kobold camps, this letter carries the personal insignia of Drusilla La Salle. Bearing subtle traces of dark artifice, the missive instructs novice warlocks to seek out their mentor discreetly near the abbey's grounds before the local town guards and clerics become suspicious of their forbidden path.",
+   "body": "The Tainted Letter bears Drusilla La Salle’s insignia and reaches initiates returning from nearby kobold camps. While priests, paladins, and soldiers train openly across Northshire Abbey’s lawns, fel practitioners must keep their path quiet. The letter directs novice warlocks to find their mentor near the abbey grounds without drawing the notice of town guards or clerics.",
    "spoiler": 0
   },
   {
    "title": "The Price of Ambition",
-   "body": "Meeting Drusilla reveals the necessity for such secretive measures. Warlocks are viewed with deep distrust by the mundane populace of Elwynn, forcing mentors to linger on the fringes and avoid prying sentries. Drusilla uses the delivered letter to initiate a critical lesson in discipline: arcane and nether magic invite relentless corruption, requiring practitioners to temper their surging ambition with patient self-control while communing with denizens of the Twisting Nether.",
+   "body": "Drusilla La Salle meets her pupils on the fringes, where sentries are less likely to pry. Elwynn’s ordinary folk distrust warlocks, so the letter begins a lesson in discipline. Arcane and nether magic bring the risk of corruption. Those who commune with denizens of the Twisting Nether must temper ambition with patient self-control.",
    "spoiler": 0
   }
  ],
@@ -31,7 +31,7 @@
     "drusilla letter",
     "sender of tainted letter"
    ],
-   "answer": "The letter was written and sealed by Drusilla La Salle, the local warlock trainer stationed just outside the main hall of Northshire Abbey."
+   "answer": "Drusilla La Salle, the warlock trainer near Northshire Abbey, sent the letter."
   },
   {
    "q": "Why is the letter considered tainted?",
@@ -40,7 +40,7 @@
     "what makes the letter tainted",
     "tainted seal"
    ],
-   "answer": "The missive is marked with fel undertones and sealed with the insignia of a practitioner of demonic arts, carrying an aura of dark magic that sets it apart from ordinary correspondence."
+   "answer": "The letter bears Drusilla La Salle’s insignia and traces of fel magic, marking it as the work of a practitioner of demonic arts."
   },
   {
    "q": "Why are Northshire guards watching Drusilla La Salle?",
@@ -49,7 +49,7 @@
     "why do guards suspect drusilla",
     "warlock hiding in northshire"
    ],
-   "answer": "The guards and priests of Northshire Abbey distrust fel magic and demonic summoning. Drusilla must keep a low profile on the abbey's outskirts to avoid provoking the mundane authorities who keep close watch on suspected practitioners."
+   "answer": "Northshire’s guards and priests distrust fel magic and demonic summoning. Drusilla keeps to the abbey’s outskirts to avoid the authorities’ close watch."
   },
   {
    "q": "What advice does Drusilla give upon reading the letter?",
@@ -58,17 +58,17 @@
     "what does drusilla say",
     "drusilla training"
    ],
-   "answer": "Drusilla cautions the initiate that dealing with entities from the Twisting Nether invites intense temptation and corruption. She instructs her pupils to exercise self-control and prudence without allowing caution to extinguish their personal ambition."
+   "answer": "Drusilla warns that dealing with entities from the Twisting Nether brings temptation and corruption. She urges her pupils to use self-control and prudence while holding to their ambition."
   }
  ],
  "angles": [
   {
    "target": "class:Warlock",
-   "text": "The Tainted Letter marks your formal introduction to the shadowy craft within the Kingdom of Stormwind, establishing that power over the Nether demands constant vigilance and discretion."
+   "text": "As a warlock, you receive the Tainted Letter as your introduction to the shadowy craft in the Kingdom of Stormwind. Power over the Nether calls for constant vigilance and discretion."
   },
   {
    "target": "race:Human",
-   "text": "Human society broadly champions the Holy Light, leaving practitioners of dark magic to conduct their initiations and training covertly on the margins of places like Northshire Abbey."
+   "text": "As a human, you live in a society that broadly champions the Holy Light. Practitioners of dark magic train in secret on the margins of places like Northshire Abbey."
   }
  ],
  "keywords": [
@@ -88,5 +88,6 @@
  "attribution": [
   "Tainted Letter",
   "Tainted Letter (quest)"
- ]
+ ],
+ "style": 1
 }

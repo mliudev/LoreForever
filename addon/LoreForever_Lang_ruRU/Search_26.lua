@@ -2,8 +2,6 @@
 -- Sources: data/i18n/ruRU. Lore text adapted from warcraft.wiki.gg (CC BY-SA 4.0); the core add-on's src fields name the articles.
 local P = LoreForeverPacks.Begin("LoreForever_Lang_ruRU")
 local Po = P.search.post
-Po["рогdarkhorn"] = "HbmBHbqD"
-Po["рогelder"] = "HbmC"
 Po["рогgalvanized"] = "EcxC"
 Po["рогholt"] = "CKSB"
 Po["рогkirge"] = "CTnC"
@@ -12002,3 +12000,5 @@ Po["смертисиндиката"] = "GGOC"
 Po["смертисколько"] = "HlRC"
 Po["смертисмерть"] = "DRIB"
 Po["смертисовета"] = "FwUCKvjC"
+Po["смертисопровождая"] = "FsEB"
+Po["смертисреброкрылых"] = "CVBC"

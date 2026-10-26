@@ -38,10 +38,6 @@ export const HERE = {
       "a": "Stormwind is the beating heart of the Alliance and a haven to rest, train, and supply yourself. Beneath its gleaming white ramparts, however, the kingdom is deeply fractured. King Varian Wrynn has vanished under mysterious circumstances, leaving the boy-king Anduin and Highlord Bolvar Fordragon struggling against political paralysis in the Keep. Meanwhile, the surrounding frontiers in Westfall and Redridge cry out for aid against rampant banditry, and the Defias Brotherhood plots in the shadows. You are here to hone your craft, report to your faction leaders, and lend your sword to a beleaguered realm.",
       "links": [
         {
-          "name": "Bolvar Fordragon",
-          "href": "/lore/npc/bolvar-fordragon"
-        },
-        {
           "name": "Westfall",
           "href": "/lore/zone/westfall"
         }
@@ -49,13 +45,22 @@ export const HERE = {
     },
     {
       "q": "Who are the giant statues in the Valley of Heroes?",
-      "a": "The statues honor the Sons of Lothar: General Turalyon, Ranger Captain Alleria Windrunner, Archmage Khadgar, Kurdran Wildhammer, and Danath Trollbane. They were raised to commemorate the heroes who ventured through the Dark Portal to draenor to seal the rift and protect Azeroth.",
-      "links": []
+      "a": "The Valley of Heroes honors the Sons of Lothar: General Turalyon, Ranger Captain Alleria Windrunner, Archmage Khadgar, Kurdran Wildhammer, and Danath Trollbane. The statues commemorate the heroes who entered the Dark Portal to draenor to seal the rift and protect Azeroth.",
+      "links": [
+        {
+          "name": "Valley of Heroes",
+          "href": "/lore/subzone/valley-of-heroes"
+        }
+      ]
     },
     {
       "q": "How does Stormwind connect to Ironforge?",
-      "a": "Stormwind is connected to Ironforge by the Deeprun Tram, a subterranean railway built by High Tinker Gelbin Mekkatorque and commissioned by King Magni Bronzebeard to enable swift trade and rapid military reinforcement between both capitals.",
+      "a": "The Deeprun Tram, an underground railway, connects Stormwind to Ironforge. High Tinker Gelbin Mekkatorque built it at King Magni Bronzebeard’s request, so the capitals could trade swiftly and reinforce one another in war.",
       "links": [
+        {
+          "name": "Magni Bronzebeard",
+          "href": "/lore/npc/magni-bronzebeard"
+        },
         {
           "name": "Deeprun Tram",
           "href": "/lore/subzone/deeprun-tram"

@@ -8,11 +8,11 @@
   "wiki": "Hogger",
   "refs": 0
  },
- "summary": "Hogger is the vicious chieftain of the Riverpaw gnolls prowling southwestern Elwynn Forest. Towering over his kin and remarkably aggressive, he has become notorious for raiding local farms and butchering unsuspecting travelers. His violent rampages have earned him an official bounty from the Stormwind Marshals.",
+ "summary": "In southwestern Elwynn Forest, Hogger leads the Riverpaw gnolls in raids on farms and travelers. His violent attacks have earned him a bounty from the Stormwind Marshals.",
  "sections": [
   {
    "title": "Terror of the Riverpaw",
-   "body": "Prowling atop Hogger Hill in southwestern Elwynn Forest, Hogger commands the local Riverpaw pack with unmatched savagery. In the years following the Third War, gnoll raids across local homesteads grew increasingly bold and coordinated. Behind this rise in violence lies an unsettling alliance: the Riverpaw have begun colluding with the Defias Brotherhood, trading raw ferocity for arms, tactical direction, and magical support. To safeguard Elwynn's borders and protect trade routes from further bloodshed, Marshal Dughan has posted a generous bounty on Hogger's head.",
+   "body": "Hogger commands the Riverpaw pack from Hogger Hill in southwestern Elwynn Forest. Since the Third War, the gnolls have grown bolder and more coordinated in their raids on nearby homesteads. The Riverpaw have joined forces with the Defias Brotherhood, exchanging their raw ferocity for arms, tactical direction, and magical support. To protect Elwynn's borders and trade routes from further bloodshed, Marshal Dughan has posted a bounty on Hogger's head.",
    "spoiler": 0
   }
  ],
@@ -24,7 +24,7 @@
     "who is hogger",
     "riverpaw leader"
    ],
-   "answer": "Hogger is a massive, exceptionally dangerous gnoll who leads the Riverpaw pack in southwestern Elwynn Forest. Known for raiding nearby farmsteads, he is wanted dead by Stormwind authorities for his brutal attacks on human settlements."
+   "answer": "Hogger leads the Riverpaw pack in southwestern Elwynn Forest. This massive, dangerous gnoll is known for raiding nearby farmsteads and is wanted by Stormwind authorities for his attacks on human settlements."
   },
   {
    "q": "Why is there a bounty on Hogger?",
@@ -33,7 +33,7 @@
     "why kill hogger",
     "hogger bounty"
    ],
-   "answer": "Marshal Dughan and the Stormwind guard issued an official bounty on Hogger due to his escalating raids on rural farms and travelers. Anyone daring enough to end his rampage must bring his huge claw back to Goldshire as proof of the deed."
+   "answer": "Marshal Dughan and the Stormwind guard issued a bounty on Hogger for his raids on rural farms and travelers. To prove the deed, bring his huge claw back to Goldshire."
   },
   {
    "q": "Are the Riverpaw gnolls working with the Defias Brotherhood?",
@@ -42,7 +42,7 @@
     "gnoll defias connection",
     "riverpaw defias"
    ],
-   "answer": "Yes. The Defias Brotherhood has been conspiring with the Riverpaw pack, supplying the brutish gnolls with refined weaponry, tactical guidance, and mystical support to further destabilize Stormwind's grip on the region."
+   "answer": "Yes. The Riverpaw pack has joined forces with the Defias Brotherhood, which supplies the gnolls with refined weapons, tactical guidance, and magical support to weaken Stormwind's hold on the region."
   },
   {
    "q": "Where does Hogger make his camp?",
@@ -51,17 +51,17 @@
     "where is hogger",
     "hogger hill"
    ],
-   "answer": "Hogger resides atop Hogger Hill in the southwestern reaches of Elwynn Forest, surrounded by his loyal Riverpaw packmates near the border of Westfall."
+   "answer": "Hogger makes his camp atop Hogger Hill in southwestern Elwynn Forest, near the Westfall border with his Riverpaw packmates."
   }
  ],
  "angles": [
   {
    "target": "race:Human",
-   "text": "For young defenders of Stormwind, confronting Hogger is an early trial by fire and a direct response to the threats destabilizing Elwynn's heartland."
+   "text": "As a human, facing Hogger is an early trial for Stormwind's young defenders and a response to threats in Elwynn's heartland."
   },
   {
    "target": "faction:Alliance",
-   "text": "Hogger's raids demonstrate how stretched thin the Stormwind army is, forcing the Marshals to rely on roaming adventurers to maintain order near the capital."
+   "text": "As an Alliance member, you can see how Hogger's raids stretch the Stormwind army, leaving the Marshals to rely on roaming adventurers to keep order near the capital."
   }
  ],
  "keywords": [
@@ -85,5 +85,6 @@
  ],
  "attribution": [
   "Hogger"
- ]
+ ],
+ "style": 1
 }

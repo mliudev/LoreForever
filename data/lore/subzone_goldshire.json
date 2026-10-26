@@ -7,16 +7,16 @@
  "meta": {
   "wiki": "Goldshire"
  },
- "summary": "Goldshire is a vital human crossroads town nestled in central Elwynn Forest, connecting Stormwind City with Westfall, Redridge, and the southern frontier. Rebuilt after its destruction in the First War, it serves as a bustling waystation anchored by the famous Lion's Pride Inn and defended by a hard-pressed contingent of the Stormwind Guard.",
+ "summary": "Goldshire sits where Elwynn’s roads meet, linking Stormwind City with Westfall, Redridge, and the southern frontier. Rebuilt after the First War, the town now offers travelers the Lion’s Pride Inn, while a hard-pressed Stormwind Guard defends it.",
  "sections": [
   {
    "title": "A Crossroads Under Strain",
-   "body": "Positioned where the king's highways meet, Goldshire has long been the civic and commercial heart of rural Elwynn. However, the town's bucolic charm masks escalating peril in Year 25 ADP. With Stormwind's military resources stretched thin and King Varian Wrynn mysteriously absent, Marshal Dughan must rely on passing adventurers rather than regular troops to contain surrounding threats. Aggressive Riverpaw gnolls push inward from the western border, while vicious murlocs claim the shores of Stone Cairn Lake and Crystal Lake, claiming the lives of royal guards and encroaching dangerously close to the town center.",
+   "body": "Goldshire stands where the king’s highways meet, the civic and commercial heart of rural Elwynn. Threats press closer as Stormwind’s forces stretch thin and King Varian Wrynn remains mysteriously absent. Marshal Dughan relies on passing adventurers instead of regular troops to hold the surrounding borders. Riverpaw gnolls push in from the west, while hostile murlocs claim the shores of Stone Cairn Lake and Crystal Lake. Their attacks have killed royal guards and brought danger close to the town center.",
    "spoiler": 0
   },
   {
    "title": "Scars of the Great Wars",
-   "body": "Goldshire's quiet atmosphere belies a brutal military history. In the First War, Goldshire and Moonbrook were the final strongholds overwhelmed by the Orcish Horde as Warchief Blackhand cut off King Llane Wrynn I from his realm before sacking Stormwind Keep. The town was reduced to ash and remained barren until it was rebuilt after the Second War.",
+   "body": "Goldshire and Moonbrook were the last strongholds to fall in the First War. Warchief Blackhand cut King Llane Wrynn I off from his realm before sacking Stormwind Keep, and the Orcish Horde overwhelmed both towns. Goldshire was reduced to ash and lay barren until its rebuilding after the Second War.",
    "spoiler": 0
   }
  ],
@@ -28,7 +28,7 @@
     "goldshire marshal",
     "who protects goldshire"
    ],
-   "answer": "Marshal Dughan of the Stormwind Guard commands local defense. Operating out of the center of town, he coordinates the garrison, though a lack of reinforcements forces him to hire freelance adventurers to handle border threats and monster bounties."
+   "answer": "Marshal Dughan of the Stormwind Guard commands Goldshire’s defenses. He coordinates the garrison from the town center, but a lack of reinforcements leaves him hiring freelance adventurers to face border threats and monster bounties."
   },
   {
    "q": "What threats are currently menacing the town?",
@@ -37,7 +37,7 @@
     "why is goldshire in danger",
     "enemies near goldshire"
    ],
-   "answer": "Goldshire is pressured from multiple fronts: Riverpaw gnolls raiding eastward toward Westbrook Garrison, and bands of hostile murlocs infesting the waterways at Stone Cairn Lake and Crystal Lake. Local scouts warn that without intervention, skirmishes could reach the village streets."
+   "answer": "Riverpaw gnolls are raiding east toward Westbrook Garrison, while hostile murlocs infest Stone Cairn Lake and Crystal Lake. Local scouts warn that the skirmishes could reach Goldshire’s streets without intervention."
   },
   {
    "q": "What happened to Goldshire during the First War?",
@@ -46,7 +46,7 @@
     "did goldshire fall to orcs",
     "goldshire destruction"
    ],
-   "answer": "Goldshire was one of the last two human towns to fall before the sack of Stormwind. Warchief Blackhand destroyed it alongside Moonbrook to sever King Llane's supply lines, leaving the settlement in ruins until it was rebuilt following the Second War."
+   "answer": "Goldshire was one of the last two human towns to fall before Stormwind was sacked. Warchief Blackhand destroyed it alongside Moonbrook to sever King Llane’s supply lines, leaving it in ruins until its rebuilding after the Second War."
   },
   {
    "q": "Why is the Lion's Pride Inn so notable?",
@@ -55,17 +55,17 @@
     "goldshire inn",
     "tavern in goldshire"
    ],
-   "answer": "The Lion's Pride Inn is renowned as one of the most respectable and frequented alehouses in Azeroth. Situated at the junction of several regional highways, it serves as the primary meeting hall, resting spot, and training ground for travelers passing through the kingdom."
+   "answer": "The Lion’s Pride Inn is one of Azeroth’s most respected and frequented alehouses. At the junction of several regional highways, it is a meeting hall, resting place, and training ground for travelers crossing the kingdom."
   }
  ],
  "angles": [
   {
    "target": "race:Human",
-   "text": "For humans fresh out of Northshire Abbey, Goldshire represents the first real taste of the kingdom beyond monastery walls, offering a sobering look at Stormwind's strained borders."
+   "text": "As a human fresh from Northshire Abbey, you find in Goldshire your first real taste of the kingdom beyond the monastery walls, and a sobering view of Stormwind’s strained borders."
   },
   {
    "target": "faction:Alliance",
-   "text": "Goldshire is an essential transit hub connecting the Alliance capital to the surrounding frontier lands of Westfall, Redridge, and Duskwood."
+   "text": "As an Alliance traveler, you pass through Goldshire on the way from the capital to the frontier lands of Westfall, Redridge, and Duskwood."
   }
  ],
  "keywords": [
@@ -90,5 +90,6 @@
  ],
  "attribution": [
   "Goldshire"
- ]
+ ],
+ "style": 1
 }

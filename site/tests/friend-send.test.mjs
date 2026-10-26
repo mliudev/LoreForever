@@ -73,7 +73,9 @@ const ask = async (token, question, client = "companion/0.24.0", capabilities = 
 test("screenshot commands are distinct from questions and old game cards", () => {
   for (const q of ["Willo take a screenshot of the game and send it to Patrick", "Willo, send a picture of my game to Patrick",
     "Can you share this screenshot with Patrick?", "send Patrick this screenshot", "send this to Patrick", "send a screenshot to Patrick please",
-    "take a screen shot and send it to Patrick", "send a screenshot to Patrick Smith"]) {
+    "take a screen shot and send it to Patrick", "send a screenshot to Patrick Smith",
+    // Mike, 10/25: both went to the answer model, which said she can't take pictures.
+    "Hey Willow, can you take a screenshot?", "Can you take a current screenshot and send it to my friend?"]) {
     assert.equal(sendIntent(q)?.kind, "screenshot", q);
   }
   for (const q of NEAR_MISSES) assert.notEqual(sendIntent(q)?.kind, "screenshot", q);
@@ -132,7 +134,8 @@ test("missing screenshot recipients and ambiguous names can be clarified in the 
   await friends(me, first, "ana-one"); await friends(me, second, "ana-two");
   for (const question of ["send a screenshot", "take a screenshot of the game and send it", "send a screenshot to a friend"]) {
     const missing = await ask(me.token, question);
-    assert.match(missing.answer, /Which friend/); assert.equal(missing.action, undefined);
+    assert.match(missing.answer, /which friend/i); assert.equal(missing.action, undefined);
+    assert.match(missing.answer, /Ana One/); assert.match(missing.answer, /Ana Two/);
   }
   const follow = async (prior, said, reply) => {
     const prompt = `PLAYER CONTEXT\nzone: Westfall\n\nRECENT CONVERSATION (oldest first)\n${JSON.stringify([{player: prior, willo: said}])}\n\nQUESTION\n${reply}`;
@@ -146,5 +149,75 @@ test("missing screenshot recipients and ambiguous names can be clarified in the 
   const ambiguous = await ask(me.token, "send a screenshot to Ana");
   assert.match(ambiguous.answer, /more than one friend/);
   assert.equal((await follow("send a screenshot to Ana", ambiguous.answer, "Ana Two")).action.args.to, (await person(env, second.user.id)).pid);
+  assert.equal(calls, 0);
+});
+
+// Mike, 10/25: his only friend had no name or handle, and "my only friend" was read as a name nobody had.
+test("one friend with no name is the one 'my only friend' means, and is named by their character among several", async () => {
+  const me = await player("sam", "Sam");
+  const quiet = await findOrCreateUser(env, { email: "quiet@example.com", googleSub: "quiet", name: "Quiet" });
+  await addFriend(env, quiet.id, "sam");
+  const theirs = (await person(env, quiet.id)).pid;
+  await answerRequest(env, me.user.id, theirs, true);
+  const HOLDS = "game-screenshot-sharing game-screenshot-take";
+  for (const q of ["send that screenshot to my only friend", "send this picture to them", "send a screenshot", "send this screenshot to Bob"]) {
+    const r = await ask(me.token, q, "companion/0.29.0", HOLDS);
+    assert.equal(r.action?.args.to, theirs, q);
+    assert.doesNotMatch(`${r.answer} ${r.action.args.name}`, /don't see|lore forever player/i, q);
+  }
+  // With a second friend, Willo says who's there; the unnamed one goes by the character they share.
+  const ana = await player("ana", "Aelric");
+  await friends(me, ana, "ana");
+  env.DB.sqlite.prepare("UPDATE friend_people SET share = 1, progress = ?, progress_at = ? WHERE user_id = ?")
+    .run(JSON.stringify({ character: "Tulkas", level: 30, zone: "Dun Morogh" }), new Date().toISOString(), quiet.id);
+  const asked = await ask(me.token, "send that screenshot to my only friend", "companion/0.29.0", HOLDS);
+  assert.equal(asked.action?.args.to, undefined, "no one guessed among several");
+  assert.match(asked.answer, /Tulkas/); assert.match(asked.answer, /Aelric/);
+  assert.doesNotMatch(asked.answer, /lore forever player/i);
+  const unknown = await ask(me.token, "send this screenshot to Bob");
+  assert.match(unknown.answer, /Tulkas/); assert.doesNotMatch(unknown.answer, /don't see/i);
+  const prompt = `PLAYER CONTEXT
+zone: Westfall
+
+RECENT CONVERSATION (oldest first)
+${JSON.stringify([{ player: "send it", willo: asked.answer }])}
+
+QUESTION
+Tulkas`;
+  const named = await (await answer({ env, request: new Request("https://example.test/api/companion/answer", {
+    method: "POST", headers: { "X-LF-Client": "companion/0.29.0", "X-LF-Capabilities": HOLDS, Authorization: `Bearer ${me.token}`, "Content-Type": "application/json" },
+    body: JSON.stringify({ prompt, persona: "willo" }) }) })).json();
+  assert.equal(named.action?.args.to, theirs);
+  assert.equal(calls, 0);
+});
+
+test("a screenshot with no friend named is taken and held, then goes to the friend named next", async () => {
+  const me = await player("sam", "Sam"), ana = await player("ana", "Aelric");
+  await friends(me, ana, "ana");
+  const HOLDS = "game-screenshot-sharing game-screenshot-take";
+  const follow = async (prior, said, reply) => {
+    const prompt = `PLAYER CONTEXT\nzone: Westfall\n\nRECENT CONVERSATION (oldest first)\n${JSON.stringify([{ player: prior, willo: said }])}\n\nQUESTION\n${reply}`;
+    return (await answer({ env, request: new Request("https://example.test/api/companion/answer", {
+      method: "POST", headers: { "X-LF-Client": "companion/0.29.0", "X-LF-Capabilities": HOLDS, Authorization: `Bearer ${me.token}`, "Content-Type": "application/json" },
+      body: JSON.stringify({ prompt, persona: "willo" }),
+    }) })).json();
+  };
+  const aelric = (await person(env, ana.user.id)).pid;
+  const q = "Hey Willow, can you take a screenshot?";
+  const held = await ask(me.token, q, "companion/0.29.0", HOLDS);
+  assert.equal(held.action?.id, "capture_game_to_friend", q);
+  assert.equal(held.action.args.to, undefined, "only taken: no recipient guessed");
+  assert.match(held.answer, /send it to a friend/i);
+  assert.equal((await follow(q, held.answer, "Aelric")).action?.args.to, aelric);
+  // The only friend there is needs no name: a yes, or "my friend" (Mike, 10/25).
+  assert.equal((await follow(q, held.answer, "Yes")).action?.args.to, aelric);
+  assert.equal((await ask(me.token, "Can you take a current screenshot and send it to my friend?", "companion/0.29.0", HOLDS)).action?.args.to, aelric);
+  // A desktop that can't hold one yet asks who first; a phone points to the desktop.
+  const older = await ask(me.token, "Hey Willow, can you take a screenshot?");
+  assert.equal(older.action, undefined);
+  assert.match(older.answer, /which friend/i);
+  const phone = await ask(me.token, "Hey Willow, can you take a screenshot?", "companion/ios-0.2.0", "");
+  assert.equal(phone.action, undefined);
+  assert.match(phone.answer, /PC or Mac/);
   assert.equal(calls, 0);
 });

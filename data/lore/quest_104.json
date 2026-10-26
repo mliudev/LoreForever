@@ -17,16 +17,16 @@
   "wiki": "The Coastal Menace (Classic)",
   "chain": []
  },
- "summary": "Captain Grayson's restless ghost watches the rocky coast of Westfall, haunted by the memory of the shipwreck that took his life and the slaughter of the lighthouse keeper's family. He charges travelers with hunting down the vicious murloc chieftain responsible: Old Murk-Eye. Slaying the beast brings a measure of justice to the shore and helps safeguard future sailors.",
+ "summary": "Captain Grayson's ghost watches Westfall's rocky coast, where his ship broke on the rocks. He blames Old Murk-Eye for driving the lighthouse keeper's family from their post, then killing them in a later attack. Now he calls on travelers to hunt the murloc chieftain and bring justice to the shore.",
  "sections": [
   {
    "title": "A Beacon in the Dark",
-   "body": "The Westfall Lighthouse stands as the lone guide through the jagged shallows of the southern coast, but its flame has flickered through bloody tragedies. Captain Grayson lost his life when his vessel broke against the rocks in the dark, an accident precipitated when murlocs terrified the lighthouse keeper's family into fleeing their post. Though the family later returned and relit the flame, the reprieve was brief. The shoreline remained stalked by a particularly cunning and ruthless predator.",
+   "body": "The Westfall Lighthouse once guided ships through the southern coast's jagged shallows. Captain Grayson's vessel struck the rocks in the dark after murlocs frightened the lighthouse keeper's family into leaving their post. The family returned and lit the flame again, but safety did not last. A cunning, ruthless predator still stalked the shore.",
    "spoiler": 0
   },
   {
    "title": "The Scourge of the Coast",
-   "body": "Old Murk-Eye is not merely another wild beast prowling the tide pools. Grayson recounts watching the creature sway the weaker-minded murlocs along the coast, rallying them into a coordinated strike against the lighthouse. The second raid proved fatal, wiping out the keeper's family before Grayson's helpless spectral eyes. To bring peace to the dead and preserve what remains of safety on the Great Sea, the ghostly captain demands Murk-Eye's death and a scale as proof.",
+   "body": "Old Murk-Eye rallied the weaker-minded murlocs along the coast and led them against the lighthouse. The second attack killed the keeper's family while Captain Grayson watched, helpless. Now the ghostly captain calls for Murk-Eye's death and a scale as proof, hoping to bring peace to the dead and protect sailors on the Great Sea.",
    "spoiler": 0
   }
  ],
@@ -39,7 +39,7 @@
     "who is murk eye",
     "who is the coastal menace"
    ],
-   "answer": "Old Murk-Eye is a notorious, cunning murloc chieftain who prowls the southern coastline of Westfall. Unlike ordinary murlocs, he possesses enough malicious intelligence to rally and direct his brethren into coordinated, lethal attacks on human settlements along the shore."
+   "answer": "Old Murk-Eye is a cunning murloc chieftain who prowls Westfall's southern coast. He rallies other murlocs and leads them in attacks on human settlements along the shore."
   },
   {
    "q": "Why does Captain Grayson want Old Murk-Eye dead?",
@@ -48,7 +48,7 @@
     "why kill murk eye",
     "grayson backstory"
    ],
-   "answer": "Grayson's ship crashed upon the rocks because Murk-Eye and his followers frightened off the lighthouse keeper, plunging the shore into darkness. Later, Grayson helplessly watched as Murk-Eye led a second raid that butchered the returned keeper and his family."
+   "answer": "Captain Grayson wants Old Murk-Eye dead because murlocs frightened the lighthouse keeper's family from their post, leaving the shore dark when Grayson's ship struck the rocks. Later, Grayson watched Murk-Eye lead a second attack that killed the returned keeper and his family."
   },
   {
    "q": "Where can Old Murk-Eye be found?",
@@ -57,7 +57,7 @@
     "where is murk eye",
     "find murk eye"
    ],
-   "answer": "Old Murk-Eye patrols the open beaches and shallows along the coast of Westfall, typically near the waters surrounding the Westfall Lighthouse and the neighboring murloc encampments."
+   "answer": "Old Murk-Eye prowls Westfall's open beaches and shallows, near the Westfall Lighthouse and nearby murloc encampments."
   },
   {
    "q": "What proof does Grayson ask for?",
@@ -66,7 +66,7 @@
     "scale of murk eye",
     "quest turn in"
    ],
-   "answer": "Captain Grayson asks for a single scale stripped from Old Murk-Eye's hide to confirm the coastal terror has finally been destroyed."
+   "answer": "Captain Grayson asks for one scale from Old Murk-Eye as proof that the chieftain is dead."
   },
   {
    "q": "Who was Captain Grayson in life?",
@@ -75,7 +75,7 @@
     "ghost at the lighthouse",
     "lighthouse ghost"
    ],
-   "answer": "Captain Grayson was a sea captain whose ship met its end on the rocks below the Westfall Lighthouse. In death, his spirit lingers near the shore, seeking retribution against the murlocs and attempting to make the waters safer for passing vessels."
+   "answer": "Captain Grayson was a sea captain whose ship struck the rocks below the Westfall Lighthouse. His spirit remains near the shore, seeking retribution against the murlocs and safer waters for passing vessels."
   },
   {
    "q": "What happened to the lighthouse keeper's family?",
@@ -84,17 +84,17 @@
     "who lived at lighthouse",
     "lighthouse massacre"
    ],
-   "answer": "The keeper's family originally fled when Old Murk-Eye harassed the tower. After they bravely returned to relight the lantern, Murk-Eye coerced a band of murlocs to raid the tower a second time, slaughtering the entire family."
+   "answer": "The lighthouse keeper's family first fled after Old Murk-Eye harassed the tower. They returned to relight the lantern, but Murk-Eye led a second attack that killed the whole family."
   }
  ],
  "angles": [
   {
    "target": "faction:Alliance",
-   "text": "The coastal waters of Westfall are vital shipping lanes for Stormwind. Culling leaders like Old Murk-Eye keeps the southern sea routes open and safe from sabotage."
+   "text": "Westfall's coastal waters carry vital shipping for Stormwind. Driving away leaders like Old Murk-Eye helps keep the southern sea routes safe from sabotage."
   },
   {
    "target": "race:Human",
-   "text": "The murder of the lighthouse keeper's family is another grim chapter in the loss of Westfall's safety, adding a personal weight to avenging fellow citizens of the kingdom."
+   "text": "As a human, the lighthouse keeper's family's murder is a grim chapter in Westfall's loss of safety. Their deaths give you another reason to avenge your fellow citizens."
   }
  ],
  "keywords": [
@@ -115,5 +115,6 @@
  ],
  "attribution": [
   "The Coastal Menace (Classic)"
- ]
+ ],
+ "style": 1
 }

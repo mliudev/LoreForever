@@ -7,11 +7,11 @@
  "meta": {
   "wiki": "Royal Gallery"
  },
- "summary": "Tucked away inside Stormwind Keep past the courtyard garden, the Royal Gallery serves as a quiet hall of remembrance. It displays magnificent statues and fine works of art honoring prominent figures from the kingdom's history and the Grand Alliance.",
+ "summary": "Stormwind Keep's Royal Gallery honors figures from the kingdom's history and the Grand Alliance. Past the courtyard garden, its statues and works of art fill a quiet hall of remembrance.",
  "sections": [
   {
    "title": "A Hall of Heroes",
-   "body": "The Royal Gallery sits adjacent to the Royal Library, just beyond the verdant interior garden of Stormwind Keep. The hall houses statues of towering figures who shaped the realm: King Llane Wrynn, the fallen ruler of Stormwind; Grand Admiral Daelin Proudmoore of Kul Tiras; and Lady Mara Fordragon, patron of the refugees who fled to Lordaeron after the First War. It serves as both a private museum of noble heritage and a quiet retreat for courtly visitors like Lady Dena Kennedy.",
+   "body": "The Royal Gallery lies beyond Stormwind Keep's interior garden, beside the Royal Library. Its statues honor King Llane Wrynn, the fallen ruler of Stormwind; Grand Admiral Daelin Proudmoore of Kul Tiras; and Lady Mara Fordragon, patron of the refugees who fled to Lordaeron after the First War. Courtly visitors such as Lady Dena Kennedy come to this quiet hall, where the kingdom's noble heritage is remembered.",
    "spoiler": 0
   }
  ],
@@ -23,7 +23,7 @@
     "how to get to royal gallery",
     "where is it"
    ],
-   "answer": "The Royal Gallery is located inside Stormwind Keep. Head through the keep past the small interior courtyard park, situated right next to the Royal Library."
+   "answer": "The Royal Gallery lies inside Stormwind Keep, beyond the small interior courtyard park and beside the Royal Library."
   },
   {
    "q": "Which historical figures are commemorated here?",
@@ -32,7 +32,7 @@
     "who are the statues of",
     "who is honored here"
    ],
-   "answer": "The gallery features grand statues honoring King Llane Wrynn, Grand Admiral Daelin Proudmoore, and Mara Fordragon, celebrating the lineage and valor of the kingdom and its closest allies."
+   "answer": "The gallery commemorates King Llane Wrynn, Grand Admiral Daelin Proudmoore, and Mara Fordragon with grand statues honoring the kingdom and its closest allies."
   },
   {
    "q": "Who can be found visiting the gallery?",
@@ -41,7 +41,7 @@
     "npcs in royal gallery",
     "lady dena kennedy"
    ],
-   "answer": "Lady Dena Kennedy can frequently be found admiring the fine art and reflective atmosphere of the gallery."
+   "answer": "Lady Dena Kennedy visits the gallery to admire its art and quiet atmosphere."
   },
   {
    "q": "What is the difference between the Royal Gallery and the Royal Library?",
@@ -49,17 +49,17 @@
     "royal gallery vs library",
     "is it part of the library"
    ],
-   "answer": "While situated immediately next to one another in the royal wing of Stormwind Keep, they are distinct chambers. The library houses royal archives and scholars, while the gallery focuses on fine art and memorial sculpture."
+   "answer": "The Royal Gallery and the Royal Library are separate chambers beside each other in Stormwind Keep's royal wing. The library holds royal archives and scholars, while the gallery displays fine art and memorial sculpture."
   }
  ],
  "angles": [
   {
    "target": "faction:Alliance",
-   "text": "The gallery stands as a quiet monument to the sacrifices of the Alliance, paying homage to legendary leaders like Daelin Proudmoore and King Llane."
+   "text": "For the Alliance, the gallery honors the sacrifices of its people and leaders such as Daelin Proudmoore and King Llane."
   },
   {
    "target": "race:Human",
-   "text": "For humans of Stormwind, this hall honors the legacy of House Wrynn and House Fordragon, preserving their royal heritage within the keep."
+   "text": "As a human of Stormwind, you can see House Wrynn and House Fordragon's heritage honored within the keep."
   }
  ],
  "keywords": [
@@ -78,5 +78,6 @@
  ],
  "attribution": [
   "Royal Gallery"
- ]
+ ],
+ "style": 1
 }

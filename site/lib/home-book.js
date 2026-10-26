@@ -153,13 +153,13 @@ export async function homeBook(env, request, handle = env.HOME_BOOK_HANDLE || HO
   const lines = new Map();
   for (const m of list) {
     if (m.k !== "quests" || !m.story) continue;
-    if (!lines.has(m.quest.sl)) lines.set(m.quest.sl, { name: m.story.name, zone: m.story.zone, pages: m.story.pages, quests: [], last: 0 });
+    if (!lines.has(m.quest.sl)) lines.set(m.quest.sl, { name: m.story.name, zone: m.story.zone, quests: [], last: 0 });
     const s = lines.get(m.quest.sl);
-    if (!s.quests.some(q => q.name === m.e.title)) s.quests.push({ k: "quest", name: m.e.title, ...(lore && m.quest.p ? { href: m.quest.p } : {}) });
+    if (!s.quests.some(q => q.name === m.e.title)) s.quests.push({ k: "quest", name: m.e.title, ...(m.e.zone ? { zone: m.e.zone } : {}), ...(lore && m.quest.p ? { href: m.quest.p } : {}) });
     s.last = m.o;
   }
   const storylines = [...lines.values()].sort((a, b) => b.last - a.last)
-    .map(({ name, zone, pages, quests }) => ({ name, zone, n: quests.length, of: Math.max(quests.length, pages || 0), quests }));
+    .map(({ name, zone, quests }) => ({ name, zone, n: quests.length, quests }));
 
   const t = d.totals || {};
   const deaths = d.stats ? d.stats.deaths : (d.deaths || []).length;

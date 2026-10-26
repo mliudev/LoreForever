@@ -7,11 +7,11 @@
  "meta": {
   "wiki": "Jansen Stead"
  },
- "summary": "Jansen Stead is the northernmost farmstead in Westfall, situated just down the road from the bridge to Elwynn Forest. Like much of the surrounding breadbasket, the homestead has fallen out of peasant hands and is swarming with rogue mechanical Harvest Watchers and roving Defias bandits.",
+ "summary": "Jansen Stead lies just west of the Elwynn border, where Defias bandits and mechanical Harvest Watchers now roam its fields.",
  "sections": [
   {
    "title": "A Fallen Homestead",
-   "body": "Positioned right past the Elwynn border, the Jansen Stead represents the harsh reality greeting anyone traveling westward into Westfall. Once a flourishing family farm feeding the kingdom, its rightful occupants have been driven away by the rising tide of unrest. In their place, hostile Harvest Watchers—mechanical constructs associated with the Defias Brotherhood—patrol the blighted fields alongside brigands. Its proximity to the main road makes it a prominent early hazard for couriers and travelers moving between Goldshire and Sentinel Hill.",
+   "body": "Jansen Stead lies beside the road from Elwynn into Westfall. The farm once fed the kingdom, but unrest has driven its family from the land. Now Harvest Watchers, mechanical constructs associated with the Defias Brotherhood, patrol the fields alongside brigands. Couriers and travelers between Goldshire and Sentinel Hill pass close by.",
    "spoiler": 0
   }
  ],
@@ -23,7 +23,7 @@
     "where is jansen stead",
     "jansen farm westfall"
    ],
-   "answer": "It is the very first farmstead on the right-hand side of the road as you cross the river bridge from Elwynn Forest into northeastern Westfall."
+   "answer": "Jansen Stead is the first farmstead on the right as you cross the river bridge from Elwynn Forest into northeastern Westfall."
   },
   {
    "q": "Who lives at Jansen Stead right now?",
@@ -32,7 +32,7 @@
     "jansen stead inhabitants",
     "mobs at jansen stead"
    ],
-   "answer": "The farm's original residents have been displaced. Today, the overgrown fields and derelict farmhouse are occupied by hostile Harvest Watchers and footpads loyal to the Defias Brotherhood."
+   "answer": "The farm's original residents have been driven away. Hostile Harvest Watchers and footpads loyal to the Defias Brotherhood now occupy its overgrown fields and derelict farmhouse."
   },
   {
    "q": "Why are mechanical scarecrows attacking people here?",
@@ -41,7 +41,7 @@
     "mechanical golems westfall",
     "defias scarecrows"
    ],
-   "answer": "Harvest Watchers are mechanical constructs that attack the people of Westfall. They patrol the farm alongside Defias agents. Their exact origins remain uncertain."
+   "answer": "Harvest Watchers are mechanical constructs that attack people in Westfall. They patrol the farm alongside Defias agents, though their exact origins remain uncertain."
   },
   {
    "q": "Who is nearby asking for help?",
@@ -50,17 +50,17 @@
     "furlbrows location",
     "who gives quests near elwynn bridge"
    ],
-   "answer": "Just south of the bridge near the entrance to Jansen Stead, Farmer Furlbrow and his wife Verna have set up camp by their broken wagon, having been forced off their own pumpkin patch down the road."
+   "answer": "Farmer Furlbrow and his wife Verna are camped just south of the bridge near Jansen Stead's entrance. They were forced off their pumpkin patch down the road and have set up beside their broken wagon."
   }
  ],
  "angles": [
   {
    "target": "race:Human",
-   "text": "For humans crossing over from the relative peace of Northshire and Elwynn, the ruin of Jansen Stead offers a harsh awakening to the economic crisis and banditry paralyzing Stormwind's rural heartland."
+   "text": "For humans crossing from the relative peace of Northshire and Elwynn, Jansen Stead shows the economic crisis and banditry gripping Stormwind's rural heartland."
   },
   {
    "target": "faction:Alliance",
-   "text": "The farmstead's fall underscores the failure of Stormwind's leadership to secure its own borders, leaving defenseless homesteaders at the mercy of outlaws within sight of Elwynn Forest."
+   "text": "Jansen Stead's fall shows Stormwind's failure to secure its borders, leaving defenseless homesteaders at the mercy of outlaws within sight of Elwynn Forest."
   }
  ],
  "keywords": [
@@ -82,5 +82,6 @@
  ],
  "attribution": [
   "Jansen Stead"
- ]
+ ],
+ "style": 1
 }

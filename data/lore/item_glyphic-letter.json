@@ -10,11 +10,11 @@
    "quest:3104"
   ]
  },
- "summary": "The Glyphic Letter is an official missive bearing the arcane sigil of Khelden Bremen, the resident mage trainer in Northshire Abbey. Delivered to promising novitiates after early service to the garrison, it bids aspiring mages to report upstairs and face the rigorous realities of arcane study.",
+ "summary": "At Northshire Abbey, Glyphic Letter calls promising novitiates to arcane study. After early service to the garrison, they are summoned upstairs to Khelden Bremen, the resident mage trainer.",
  "sections": [
   {
    "title": "A Summons to the Arcane",
-   "body": "Sealed with the personal insignia of the mage trainer Khelden Bremen, the Glyphic Letter is handed to apprentice spellcasters once they have proven their discipline in Northshire Valley. The letter acts as a formal invitation to step away from basic field duties and begin dedicated magical instruction within the abbey. Bremen uses the summons to gauge the student's resolve, ensuring anyone meddling with the arcane is fully prepared to confront dangerous forces, unyielding scrutiny, and the burdens that come with wielding raw magical power.",
+   "body": "Khelden Bremen seals the Glyphic Letter with his personal insignia. Apprentice spellcasters receive it after proving their discipline in Northshire Valley. The summons calls them away from basic field duties and into dedicated magical instruction within the abbey. Bremen tests each student's resolve before they take up the arcane, with its dangerous forces, unyielding scrutiny, and burdens.",
    "spoiler": 0
   }
  ],
@@ -26,7 +26,7 @@
     "glyphic letter item",
     "khelden letter"
    ],
-   "answer": "It is an instructional summons written and sealed by Khelden Bremen, the resident mage mentor of Northshire Abbey. It directs aspiring human mages to seek him out within the abbey's upper chambers for formal arcane schooling."
+   "answer": "Khelden Bremen writes and seals the Glyphic Letter as a summons to instruction. It directs aspiring human mages to find him in Northshire Abbey's upper chambers for formal arcane schooling."
   },
   {
    "q": "Who sends the Glyphic Letter?",
@@ -35,7 +35,7 @@
     "who gave me glyphic letter",
     "letter sender"
    ],
-   "answer": "The letter is sealed with the insignia of Khelden Bremen, the local mage trainer stationed at Northshire Abbey. It is handed over by the garrison command after an apprentice proves their mettle against the nearby vermin."
+   "answer": "Khelden Bremen, the mage trainer at Northshire Abbey, seals the letter with his insignia. Garrison command hands it over after an apprentice proves their mettle against nearby vermin."
   },
   {
    "q": "Where do I take the Glyphic Letter?",
@@ -44,7 +44,7 @@
     "where is khelden bremen",
     "khelden location"
    ],
-   "answer": "You take it inside Northshire Abbey. Head into the main entrance behind Marshal McBride, take the left corridor, ascend the stairs, and look toward the back room where Khelden Bremen conducts his arcane instruction."
+   "answer": "Take the letter inside Northshire Abbey. Enter behind Marshal McBride, follow the left corridor, climb the stairs, and look toward the back room where Khelden Bremen teaches the arcane."
   },
   {
    "q": "Why does Khelden send for young mages?",
@@ -53,17 +53,17 @@
     "mage trainer reason",
     "what does khelden want"
    ],
-   "answer": "Khelden wishes to test your determination. As he warns in his introductory lessons, pursuing the arcane means inviting both fear and respect while challenging potent forces, and he needs to know that his apprentices possess the will to endure that fate."
+   "answer": "Khelden wants to test your determination. He warns that pursuing the arcane invites both fear and respect, and means challenging potent forces. He needs to know you have the will to endure that fate."
   }
  ],
  "angles": [
   {
    "target": "class:Mage",
-   "text": "This marked dispatch marks your formal induction into the arcane traditions of the Alliance, calling you upstairs to study under Khelden Bremen."
+   "text": "As a Mage, this marked dispatch calls you upstairs to begin formal study of the Alliance's arcane traditions under Khelden Bremen."
   },
   {
    "target": "race:Human",
-   "text": "Northshire Abbey has sheltered many students of the arcane through the kingdom's history, and this summons begins your service to Stormwind's magical disciplines."
+   "text": "As a human, you begin your service to Stormwind's magical disciplines with this summons. Northshire Abbey has sheltered students of the arcane throughout the kingdom's history."
   }
  ],
  "keywords": [
@@ -86,5 +86,6 @@
  "attribution": [
   "Glyphic Letter",
   "Glyphic Letter (quest)"
- ]
+ ],
+ "style": 1
 }

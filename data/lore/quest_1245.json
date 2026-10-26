@@ -17,16 +17,16 @@
   "wiki": "The Missing Diplomat (6)",
   "chain": []
  },
- "summary": "This errand within the sprawling investigation sends you racing back to Stormwind with the recovered Defias Docket. What began as a quiet inquiry into a missing diplomat is steadily uncovering a conspiracy far broader and more perilous than local night watchmen dare touch.",
+ "summary": "You carry the recovered Defias Docket back to Stormwind as the search for a missing diplomat grows more dangerous.",
  "sections": [
   {
    "title": "Too Heavy for the Night Watch",
-   "body": "Upon recovering the Defias Docket in the shadowed forests of Duskwood, Watcher Backus wants nothing more to do with it. The papers detail schemes far too intricate to be mere banditry or diversionary tactics. Terrified of royal retribution and wary of his own superiors in the Night Watch, Backus urges you to keep his involvement entirely quiet. The documents speak of machinations dangerous enough to end careers or cost lives, leaving the investigator no choice but to carry the dangerous prize directly back to the capital.",
+   "body": "In Duskwood, Watcher Backus wants no part of the Defias Docket you recovered. Its papers describe plans too intricate to be simple banditry or a diversion. Afraid of royal punishment and wary of his Night Watch superiors, Backus asks you to keep his involvement quiet. The papers point to schemes dangerous enough to end careers or cost lives, so you carry them to Stormwind.",
    "spoiler": 0
   },
   {
    "title": "A Cheesemonger's True Trade",
-   "body": "Back in Stormwind's Trade District, Master Cheesemonger Elling Trias drops all pretense of selling dairy the moment you return. As a pivotal handler for the kingdom's covert intelligence network, Trias pores over the docket's contents. Far from simple brigand communications, the documents reveal careful planning, coordinated efforts by the Defias Brotherhood, and an ominous codename: 'Fist.' The missing diplomat was clearly targeted by a meticulous, well-connected network with reach deep inside the kingdom.",
+   "body": "Back in Stormwind's Trade District, Master Cheesemonger Elling Trias drops his shopkeeper's pretense when you return. He studies the docket as a handler in the kingdom's covert intelligence network. The papers describe careful planning by the Defias Brotherhood and name an ominous codename: 'Fist.' The missing diplomat was targeted by a careful, well-connected network with reach deep inside the kingdom.",
    "spoiler": 1
   }
  ],
@@ -38,7 +38,7 @@
     "what are the papers",
     "docket contents"
    ],
-   "answer": "The Defias Docket is a collection of complex, sensitive papers retrieved in Duskwood outlining Defias Brotherhood plans. Its contents are sophisticated enough to terrify local watchmen and provide Master Trias with fresh leads in the search for the missing royal diplomat."
+   "answer": "The Defias Docket is a collection of sensitive papers you recovered in Duskwood, outlining plans by the Defias Brotherhood. Their complexity frightens local watchmen and gives Master Trias new leads in the search for the missing diplomat."
   },
   {
    "q": "Why is Watcher Backus so afraid to keep the docket?",
@@ -46,7 +46,7 @@
     "why backus scared",
     "watcher backus fear"
    ],
-   "answer": "Backus realizes the information in the docket is way beyond the pay grade or jurisdiction of a Duskwood Night Watchman. He fears that if his commanders or Stormwind superiors discover he withheld or handled state-level conspiratorial intelligence, he could be hanged for treason."
+   "answer": "Watcher Backus fears the docket contains information beyond a Duskwood Night Watchman's authority. He worries that if his commanders or Stormwind superiors learn he handled or withheld such intelligence, he could be hanged for treason."
   },
   {
    "q": "Why take the papers to a cheese shop owner in Stormwind?",
@@ -54,7 +54,7 @@
     "why elling trias",
     "why trias cheese"
    ],
-   "answer": "Elling Trias poses as a simple cheesemonger, but he is in truth one of Stormwind's most capable spymasters and a key figure in the kingdom's underworld intelligence. He possesses the cipher skills, contacts, and political awareness required to decipher the Defias plans."
+   "answer": "Elling Trias poses as a cheesemonger, but he is a Stormwind spymaster and a key figure in the kingdom's covert intelligence network. His knowledge and connections help him decipher the Defias plans."
   },
   {
    "q": "Who is 'Fist' mentioned in the docket?",
@@ -63,7 +63,7 @@
     "the fist defias",
     "fist codename"
    ],
-   "answer": "Upon reading through the docket, Elling Trias notes the name 'Fist' with immediate familiarity. It serves as an operative alias or codename for an individual tied directly to the coordination between the Defias Brotherhood and the abduction plot."
+   "answer": "Elling Trias recognizes 'Fist' in the docket as a codename for someone tied to the Defias Brotherhood's coordination of the abduction plot."
   },
   {
    "q": "Where does this investigation lead next?",
@@ -72,7 +72,7 @@
     "what after docket",
     "where do i go next"
    ],
-   "answer": "Trias uses the newly revealed details from the docket to trace the conspirators further, sending you to question contacts and pursue the mysterious 'Fist' to find where the kidnapped diplomat was taken."
+   "answer": "The docket's details let Trias trace the conspirators further. He sends you to question contacts and pursue 'Fist' to learn where the diplomat was taken."
   },
   {
    "q": "What does this have to do with King Varian Wrynn?",
@@ -80,17 +80,17 @@
     "is varian the diplomat",
     "king varian connection"
    ],
-   "answer": "Nothing in the docket names the king. Officially, you are searching for an unnamed diplomat who never arrived in Theramore, and the papers Trias reads do not reveal who the target was."
+   "answer": "The docket does not name King Varian Wrynn. You are searching for an unnamed diplomat who never arrived in Theramore, and Trias's reading of the papers does not reveal the target's identity."
   }
  ],
  "angles": [
   {
    "target": "class:Rogue",
-   "text": "Elling Trias represents the side of roguecraft that trades daggers for information networks. Watching a spymaster decode raw Defias cipher-work shows how the crown's shadow wars are truly fought."
+   "text": "Elling Trias shows how roguecraft can trade daggers for information networks. As a rogue, you see how a spymaster deciphers Defias cipher-work in the crown's shadow wars."
   },
   {
    "target": "faction:Alliance",
-   "text": "The discovery of high-level Defias planning underscores how deeply the kingdom of Stormwind's security has eroded since the Third War, threatening stability from within."
+   "text": "As an Alliance member, you see how deeply Stormwind's security has eroded since the Third War, with Defias plans threatening the kingdom from within."
   }
  ],
  "keywords": [
@@ -111,5 +111,6 @@
  ],
  "attribution": [
   "The Missing Diplomat (6)"
- ]
+ ],
+ "style": 1
 }

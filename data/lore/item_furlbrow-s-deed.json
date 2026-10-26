@@ -10,11 +10,11 @@
    "quest:184"
   ]
  },
- "summary": "Furlbrow's Deed is the legal property title belonging to Farmer Theodore Furlbrow and his wife Verna for their land in Westfall. Snatched by Defias bandits to serve as a template for forging land claims, it represents the precarious state of honest folk driven from their homes across the kingdom.",
+ "summary": "The Furlbrows are stranded near Westfall's border, and their land deed is in Defias hands. The paper bears Theodore and Verna Furlbrow's claim to their family farm, while the couple waits by their broken wagon.",
  "sections": [
   {
    "title": "Stolen Land and Forged Claims",
-   "body": "Signed by Theodore Furlbrow and co-signed by his wife Verna, this paper establishes ownership over their family farm in Westfall. When the Defias Brotherhood overran the region, brigands muscled the couple out and took the document with them into Elwynn Forest. Scrawled notes on the back reveal that the thieves intended to use the official parchment as a template to forge legal deeds for other properties. Stripped of their home and livelihood, the Furlbrows were forced onto the road, left stranded near the border when their wagon broke down.",
+   "body": "The deed bears Theodore Furlbrow's signature and Verna's as well, securing their family farm in Westfall. When the Defias Brotherhood overran the region, bandits drove the couple from their home and carried the paper into Elwynn Forest. Notes on its back show they meant to copy it when forging claims to other properties. The Furlbrows lost their home and livelihood, then took to the road. Their wagon broke near the border, leaving them stranded.",
    "spoiler": 0
   }
  ],
@@ -26,7 +26,7 @@
     "why did bandits want the deed",
     "defias deed purpose"
    ],
-   "answer": "Notes written across the back of the parchment reveal that the Defias thugs intended to study the authentic seal and signatures to forge deeds of their own, legitimizing claims over seized homesteads across Westfall."
+   "answer": "Notes on the parchment show the Defias meant to study its seal and signatures, then forge deeds to claim seized homesteads across Westfall."
   },
   {
    "q": "Who does this deed belong to?",
@@ -35,7 +35,7 @@
     "who is furlbrow",
     "whose deed is this"
    ],
-   "answer": "The deed legally belongs to Farmer Theodore Furlbrow and his wife Verna, two Westfall homesteaders who were harassed and driven away from their farm by outlaws."
+   "answer": "The deed belongs to Farmer Theodore Furlbrow and his wife Verna, Westfall homesteaders driven from their farm by outlaws."
   },
   {
    "q": "Where can the Furlbrows be found?",
@@ -44,7 +44,7 @@
     "farmer furlbrow location",
     "where to return deed"
    ],
-   "answer": "The couple can be found just inside Westfall along the main road leading from Elwynn Forest, stranded beside their broken-down wagon."
+   "answer": "You can find the couple just inside Westfall, beside their broken wagon on the main road from Elwynn Forest."
   },
   {
    "q": "Why do the Furlbrows still care about the deed if they fled?",
@@ -52,17 +52,17 @@
     "why do they want deed back",
     "will furlbrows return"
    ],
-   "answer": "While the Furlbrows admit that Westfall has become far too dangerous for honest folk, retaining legal proof of ownership offers their only hope of ever reclaiming their land if peace is restored."
+   "answer": "The Furlbrows know Westfall is too dangerous for honest folk now, but keeping proof of ownership gives them hope of reclaiming their land if peace returns."
   }
  ],
  "angles": [
   {
    "target": "race:Human",
-   "text": "The theft of simple property titles highlights how thoroughly the Defias have compromised civil order in Stormwind's neighboring territories."
+   "text": "As a human, you can see how the Defias have damaged civil order in the territories beside Stormwind, even by stealing simple property titles."
   },
   {
    "target": "faction:Alliance",
-   "text": "Returning the deed brings small comfort to displaced subjects abandoned by the kingdom's military shortages."
+   "text": "As an Alliance member, you can bring a little comfort to subjects displaced by the kingdom's shortage of soldiers."
   }
  ],
  "keywords": [
@@ -86,5 +86,6 @@
  "attribution": [
   "Furlbrow's Deed",
   "Furlbrow's Deed (Classic)"
- ]
+ ],
+ "style": 1
 }

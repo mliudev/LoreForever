@@ -10,11 +10,11 @@
    "quest:139"
   ]
  },
- "summary": "Another Clue to Sanders' Treasure is a weathered parchment slip left behind by the notorious pirate Captain Sanders. Retrieved from an old barrel, it contains directional verse pointing fortune hunters toward a lonely landmark on the bluffs of Westfall.",
+ "summary": "In Westfall, a scrap of Captain Sanders' parchment points the way to his next hidden marker.",
  "sections": [
   {
    "title": "A Trail on the Coastal Bluffs",
-   "body": "Captain Sanders was careful never to keep his stolen riches in plain sight. Instead of drawing a single map that could be seized at once, he split his instructions into a succession of riddles and buried markers. This scrap of parchment continues the trail, directing whoever holds it to turn north from the previous hiding place and seek out a discarded jug sitting near an isolated windmill towering over the sea cliffs.",
+   "body": "Captain Sanders hid his stolen riches across Westfall, using riddles and buried markers instead of one map that could be seized. This scrap continues the trail from the previous hiding place. It tells the finder to turn north and look for a discarded jug near a lonely windmill above the sea cliffs.",
    "spoiler": 0
   }
  ],
@@ -26,7 +26,7 @@
     "sanders clue text",
     "directions on clue"
    ],
-   "answer": "The parchment instructs the finder to face north from the hidden barrel and walk in a straight line until spotting an empty jug beside a lone windmill along the sea bluffs."
+   "answer": "The parchment says to face north from the hidden barrel and walk straight until you find an empty jug beside a lone windmill on the sea bluffs."
   },
   {
    "q": "Who was Captain Sanders?",
@@ -35,7 +35,7 @@
     "captain sanders background",
     "sanders westfall pirate"
    ],
-   "answer": "Captain Sanders was a pirate whose exploits left caches of stolen goods scattered along the shores and bluffs of Westfall. Rather than leaving an intact map, he created a scavenger hunt of hidden markers across the region."
+   "answer": "Captain Sanders was a pirate who left caches of stolen goods along Westfall's shores and bluffs. He hid markers across the region instead of leaving an intact map."
   },
   {
    "q": "Where does this clue lead next?",
@@ -44,13 +44,13 @@
     "sanders windmill clue",
     "where is the jug"
    ],
-   "answer": "Following the clue's directions leads north along the coastal cliffs to a lone windmill perched on the bluffs, where an empty jug holds the next step of Sanders' trail."
+   "answer": "The clue points north along Westfall's coastal cliffs to a lone windmill on the bluffs, where an empty jug marks the next step in Sanders' trail."
   }
  ],
  "angles": [
   {
    "target": "class:Rogue",
-   "text": "Deciphering cryptic directions and rummaging through forgotten seaside caches is standard tradecraft for anyone with an eye for hidden plunder."
+   "text": "As a Rogue, you know how to read cryptic directions and search forgotten seaside caches for hidden plunder."
   }
  ],
  "keywords": [
@@ -69,5 +69,6 @@
  "attribution": [
   "Another Clue to Sanders' Treasure",
   "Captain Sanders' Hidden Treasure (Classic 3)"
- ]
+ ],
+ "style": 1
 }
