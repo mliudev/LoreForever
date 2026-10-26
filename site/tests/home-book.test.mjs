@@ -91,7 +91,7 @@ test("the book is the profile's own record: its road newest first, its finds zon
   assert.ok(body.storylines.length > 0, "the record's quests are on storylines");
   for (const s of body.storylines) {
     assert.equal(s.n, s.quests.length);
-    assert.ok(s.of >= s.n, `${s.name}: never fewer pages than found`);
+    assert.equal(s.of, undefined, `${s.name}: a storyline never says how many quests it has`);
     for (const q of s.quests) {
       assert.ok(done.has(q.name), `${q.name} was finished`);
       const sl = links.quests.filter(([title]) => title === q.name).map(x => x[4]).filter(Boolean);

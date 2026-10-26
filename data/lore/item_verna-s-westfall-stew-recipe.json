@@ -10,11 +10,11 @@
    "quest:36"
   ]
  },
- "summary": "Verna's Westfall Stew Recipe is a handwritten culinary guide penned by Verna Furlbrow as she prepares to flee Westfall. Entrusted to travelers bound for Salma Saldean, it preserves a hearty regional staple amidst the collapse of the countryside.",
+ "summary": "Verna's Westfall Stew Recipe travels to Salma Saldean as the Furlbrows prepare to leave their farm. Her handwritten formula carries a familiar comfort for those who remain.",
  "sections": [
   {
    "title": "A Farewell Gift",
-   "body": "As the Defias Brotherhood and rogue harvest golems run rampant across Westfall, longtime homesteaders like Verna and Farmer Furlbrow have been forced to abandon their land. While waiting for their wagon to be repaired so they can escape toward Stormwind, Verna scribbles down her beloved formula for Westfall Stew. Rather than letting the recipe vanish with their departure, she entrusts it to passing travelers to deliver to her neighboring friend, Salma Saldean, ensuring that a warm, familiar comfort endures for those remaining behind.",
+   "body": "Verna and Farmer Furlbrow have homesteaded in Westfall for years, but the Defias Brotherhood and rogue harvest golems now run rampant across the countryside. They wait for their wagon to be repaired so they can escape toward Stormwind. While they wait, Verna writes down her beloved formula for Westfall Stew. She entrusts the recipe to travelers bound for her neighboring friend, Salma Saldean, so the familiar comfort of the stew can endure for those left behind.",
    "spoiler": 0
   }
  ],
@@ -26,7 +26,7 @@
     "why westfall stew recipe",
     "verna recipe purpose"
    ],
-   "answer": "Verna and her husband are fleeing Westfall because their fields have been overrun by bandits and rogue machines. Knowing she must leave the farmlands behind, she wants her friend Salma Saldean to keep making the stew for those who remain."
+   "answer": "Verna and her husband are fleeing Westfall because bandits and rogue machines have overrun their fields. As they leave their homestead, Verna wants her friend Salma Saldean to keep making the stew for those who remain."
   },
   {
    "q": "Who is the recipe meant for?",
@@ -35,7 +35,7 @@
     "who do i bring the recipe to",
     "where does the stew recipe go"
    ],
-   "answer": "The recipe is addressed to Salma Saldean, who lives just beyond the fork in the road at the Saldean Farm."
+   "answer": "The recipe is meant for Salma Saldean, who lives just beyond the fork in the road at the Saldean Farm."
   },
   {
    "q": "Where are the Furlbrows planning to go?",
@@ -44,7 +44,7 @@
     "where does verna go",
     "furlbrow destination"
    ],
-   "answer": "The Furlbrows are waiting to repair their wagon so they can flee to the safety of Stormwind City, escaping the chaos and brigandry threatening the countryside."
+   "answer": "The Furlbrows wait for their wagon to be repaired so they can flee to the safety of Stormwind City, escaping the chaos and brigandry threatening the countryside."
   },
   {
    "q": "What makes Westfall Stew notable in the region?",
@@ -53,17 +53,17 @@
     "why westfall stew matters",
     "westfall stew lore"
    ],
-   "answer": "Westfall Stew is a regional culinary staple, sustained by local farming and game. In hard times when food is scarce and farms are abandoned, sharing hearty recipes helps the surviving farming families endure."
+   "answer": "Westfall Stew is a regional staple made possible by local farming and game. When food is scarce and farms are abandoned, sharing hearty recipes helps surviving farming families endure."
   }
  ],
  "angles": [
   {
    "target": "profession:Cooking",
-   "text": "For culinarians, this handwritten paper is a treasured piece of local lore, securing the culinary heritage of Westfall even as its farms collapse."
+   "text": "For cooks, this handwritten paper is treasured local lore, preserving Westfall's culinary heritage as its farms collapse."
   },
   {
    "target": "faction:Alliance",
-   "text": "The recipe represents the tragic displacement of loyal Alliance homesteaders driven out by lawlessness while Stormwind struggles to project its authority."
+   "text": "For the Alliance, the recipe speaks to loyal homesteaders driven from their land by lawlessness while Stormwind struggles to project its authority."
   }
  ],
  "keywords": [
@@ -87,5 +87,6 @@
  "attribution": [
   "Verna's Westfall Stew Recipe",
   "Westfall Stew (Classic)"
- ]
+ ],
+ "style": 1
 }

@@ -17,16 +17,16 @@
   "wiki": "The Perenolde Tiara",
   "chain": []
  },
- "summary": "The Perenolde Tiara is a task commissioned by Count Remington Ridgewell, an aristocrat residing in Stormwind. He hires adventurers to journey north into the treacherous Ruins of Alterac to recover a lost royal heirloom. The crown once belonged to the fallen dynasty of Alterac and is rumored to be held by an ogre mage.",
+ "summary": "Count Remington Ridgewell seeks a lost heirloom in the Ruins of Alterac. The Stormwind aristocrat sends mercenaries north to recover the Perenolde Tiara, once owned by Alterac's royal family and now said to be held by an ogre mage.",
  "sections": [
   {
    "title": "A Relic of a Ruined Kingdom",
-   "body": "The Perenolde Tiara is an exquisite relic from the fallen human kingdom of Alterac. Crafted by master dwarven jewelers within Ironforge, the ornate headpiece was set with the finest emeralds to adorn the Perenolde ruling family. However, during the Second War, King Aiden Perenolde betrayed the Grand Alliance to the Orcish Horde, leading directly to his kingdom's downfall, conquest, and ultimate collapse into ruin. Amid the chaos and subsequent fall of Alterac City, many of the royal dynasty's greatest treasures vanished into the snowy rubble of the Alterac Mountains.",
+   "body": "Alterac's royal family wore an emerald-set tiara crafted by master dwarven jewelers in Ironforge. During the Second War, King Aiden Perenolde betrayed the Grand Alliance and joined the Orcish Horde. His betrayal led to Alterac's conquest and collapse. In the fall of Alterac City, many treasures of the royal family vanished among the snowy rubble of the Alterac Mountains.",
    "spoiler": 0
   },
   {
    "title": "The Miser in the Ruins",
-   "body": "Rather than residing in an alliance vault or a royal grave, the tiara ended up in the greedy grasp of Grel'borg the Miser. An ogre mage belonging to the Crushridge ogres inhabiting the ruins of Alterac, Grel'borg spends his days picking through the dilapidated stones in search of shiny baubles and abandoned wealth. Count Remington Ridgewell, an avid collector of historical oddities in Stormwind City, learns of the tiara's survival and enlists daring mercenaries to venture deep into ogre-held territory, dispatch the miserly brute, and return the priceless jewel to his personal gallery.",
+   "body": "Grel'borg the Miser, an ogre mage of the Crushridge ogres, came to hold the tiara among the ruins of Alterac. He searches the broken stones for baubles and abandoned wealth. Count Remington Ridgewell, a collector of historical oddities in Stormwind City, learns the tiara survived. He hires mercenaries to enter ogre-held territory, defeat Grel'borg, and bring the jewel back to his gallery.",
    "spoiler": 0
   }
  ],
@@ -38,7 +38,7 @@
     "who were the perenoldes",
     "perenolde lore"
    ],
-   "answer": "The Perenoldes were the royal lineage that ruled the northern human realm of Alterac. During the Second War, King Aiden Perenolde committed high treason by collaborating with the invading Orcish Horde to spare his kingdom. His treachery was uncovered by the Alliance of Lordaeron, leading to Alterac's martial occupation, the dismantling of the throne, and the kingdom's subsequent descent into complete lawlessness and ruin."
+   "answer": "The Perenoldes were the royal family of Alterac, the human realm in the north. During the Second War, King Aiden Perenolde collaborated with the invading Orcish Horde to spare his kingdom. The Alliance of Lordaeron uncovered his treachery, occupied Alterac, dismantled its throne, and left the kingdom to descend into lawlessness and ruin."
   },
   {
    "q": "Who made the Perenolde Tiara?",
@@ -46,7 +46,7 @@
     "tiara origin",
     "who crafted perenolde tiara"
    ],
-   "answer": "The tiara was forged by master jewelers in the dwarven city of Ironforge. Crafted with fine metals and set with lustrous emeralds, it stood as a symbol of nobility and wealth for the ruling house of Alterac before the nation fell from grace."
+   "answer": "Master jewelers in Ironforge made the tiara. They set it with emeralds as a sign of nobility and wealth for Alterac's ruling family."
   },
   {
    "q": "Who holds the tiara now?",
@@ -55,7 +55,7 @@
     "who has perenolde tiara",
     "tiara location"
    ],
-   "answer": "The tiara fell into the clutches of Grel'borg the Miser, a scavenging ogre mage who roams the snowy Ruins of Alterac in the northern hills, coveting ancient treasures left behind by the ruined human city."
+   "answer": "Grel'borg the Miser holds the tiara. The ogre mage scavenges the snowy Ruins of Alterac for treasures left behind by the ruined human city."
   },
   {
    "q": "Why does Count Remington Ridgewell want the tiara?",
@@ -63,7 +63,7 @@
     "remington ridgewell motive",
     "why get the tiara"
    ],
-   "answer": "Count Remington Ridgewell is a wealthy nobleman and antiquarian living in Stormwind City. He seeks out renowned artifacts and historic curiosities across Azeroth to expand his prestigious private collection, employing capable mercenaries to retrieve lost treasures from perilous locations."
+   "answer": "Count Remington Ridgewell wants the tiara for his private collection. The wealthy noble and antiquarian lives in Stormwind City and hires mercenaries to retrieve lost treasures from perilous places across Azeroth."
   },
   {
    "q": "Where are the Ruins of Alterac located?",
@@ -71,7 +71,7 @@
     "alterac ruins location",
     "where is alterac"
    ],
-   "answer": "The Ruins of Alterac lie in the frigid Alterac Mountains in the north of the Eastern Kingdoms, positioned north of the Hillsbrad Foothills and north of the Durnholde region. The abandoned city is currently infested by hostile Crushridge ogres and Syndicate outlaws."
+   "answer": "The Ruins of Alterac lie in the northern Alterac Mountains, north of the Hillsbrad Foothills and the Durnholde region. Crushridge ogres and Syndicate outlaws now infest the abandoned city."
   },
   {
    "q": "What happens to the tiara after you recover it?",
@@ -79,21 +79,21 @@
     "tiara turn in",
     "tiara fate"
    ],
-   "answer": "Upon receiving the muddy and tarnished heirloom, Count Ridgewell arranges for professional restorers to clean and polish it before immediately mounting it as a showpiece within his personal collection."
+   "answer": "After Count Ridgewell receives the muddy, tarnished heirloom, professional restorers clean and polish it. He then mounts it as a showpiece in his collection."
   }
  ],
  "angles": [
   {
    "target": "race:Human",
-   "text": "For humans of the Alliance, the tiara serves as an uncomfortable reminder of Alterac's betrayal during the Second War, when human royalty sided with the Horde against their own kin."
+   "text": "For humans of the Alliance, the tiara recalls Alterac's betrayal during the Second War, when its human royalty sided with the Horde against their own kin."
   },
   {
    "target": "race:Dwarf",
-   "text": "Crafted by the master jewelers of Ironforge, the tiara represents the celebrated craftsmanship of dwarven artisans, whose fine work endured even the collapse of a human kingdom."
+   "text": "The tiara was crafted by Ironforge's master jewelers. Their fine work endured even as a human kingdom fell."
   },
   {
    "target": "faction:Alliance",
-   "text": "Venturing north into the lawless Alterac Mountains lets Alliance operatives clear out dangerous Crushridge ogres while recovering priceless historical artifacts for Stormwind nobility."
+   "text": "By traveling north into the lawless Alterac Mountains, you can clear out dangerous Crushridge ogres and recover priceless historical artifacts for Stormwind's nobility."
   }
  ],
  "keywords": [
@@ -115,5 +115,6 @@
  ],
  "attribution": [
   "The Perenolde Tiara"
- ]
+ ],
+ "style": 1
 }

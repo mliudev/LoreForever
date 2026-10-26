@@ -17,16 +17,16 @@
   "wiki": "Speak with Gramma",
   "chain": []
  },
- "summary": "This errand sends an adventurer to Gramma Stonefield on behalf of her grandson Tommy Joe. Caught in a bitter feud between the Stonefield and Maclure families, Tommy Joe hopes the elderly matriarch knows a way he can see Maybell Maclure.",
+ "summary": "Tommy Joe Stonefield seeks Gramma Stonefield's help to meet Maybell Maclure. Their families' bitter feud keeps the young lovers apart, and Tommy Joe hopes his grandmother can find a way for them to see each other.",
  "sections": [
   {
    "title": "A Feud and Forbidden Love",
-   "body": "The Stonefields and the Maclures have spent years locked in bitter agricultural rivalry, turning neighboring homesteads into hostile territory. Caught in the middle are young Tommy Joe Stonefield and Maybell Maclure, whose romance has to be conducted in total secrecy. Desperate for a way to meet his beloved without sparking violence between their kin, Tommy Joe turns to his grandmother for guidance.",
+   "body": "Tommy Joe Stonefield and Maybell Maclure keep their romance secret from their feuding families. The Stonefields and Maclures have fought over their farms for years, making their neighboring homesteads hostile ground. Tommy Joe wants to meet Maybell without provoking violence between their kin, so he turns to his grandmother for help.",
    "spoiler": 0
   },
   {
    "title": "Gramma's Cunning",
-   "body": "Though age has kept Gramma Stonefield indoors, she understands the nature of the feud better than anyone. While she recognizes that a true union between the two families is impossible as long as the bad blood persists, she has no intention of letting neighboring grudges crush young love entirely. Instead of urging caution, she begins scheming small opportunities to bring the two together.",
+   "body": "Gramma Stonefield stays indoors, but she knows the feud well. She understands that the families cannot truly unite while their bad blood remains. Still, she will not let their grudge crush young love. Rather than urge caution, Gramma begins looking for small chances to bring Tommy Joe and Maybell together.",
    "spoiler": 0
   }
  ],
@@ -38,7 +38,7 @@
     "tommy joe gramma",
     "speak with gramma purpose"
    ],
-   "answer": "Tommy Joe is deeply in love with Maybell Maclure, but their feuding families make meeting impossible. He believes his grandmother has the wisdom, sympathy, and cunning to help them arrange secret meetings without causing an uproar."
+   "answer": "Tommy Joe loves Maybell Maclure, but their families' feud keeps them from meeting. He hopes his grandmother can help arrange secret meetings without stirring an uproar."
   },
   {
    "q": "Where can Gramma Stonefield be found?",
@@ -47,7 +47,7 @@
     "where is gramma",
     "find gramma stonefield"
    ],
-   "answer": "Gramma Stonefield stays inside the main Stonefield farmhouse, located east of the riverbank where Tommy Joe hides, south of Goldshire."
+   "answer": "Gramma Stonefield stays inside the main Stonefield farmhouse, south of Goldshire and east of the riverbank where Tommy Joe hides."
   },
   {
    "q": "What is the feud between the Stonefields and the Maclures?",
@@ -56,7 +56,7 @@
     "why are they fighting",
     "family feud elwynn"
    ],
-   "answer": "The two neighboring farming families have a long-standing personal and territorial grudge. Accusations of theft, rivalry over crops, and mutual distrust keep both households on the brink of violence, forcing any interaction between their children underground."
+   "answer": "The neighboring farming families have a long personal and territorial grudge. They accuse each other of theft and compete over crops, while distrust keeps both households near violence. Their children must keep any contact secret."
   },
   {
    "q": "Does Gramma Stonefield oppose Tommy Joe's relationship?",
@@ -64,7 +64,7 @@
     "is gramma against maybell",
     "does gramma support lovers"
    ],
-   "answer": "No. Although she acknowledges the feud makes a long-term future difficult right now, she has a soft spot for the young lovers and is willing to concoct schemes to help them meet."
+   "answer": "No. Gramma knows the feud makes a lasting future difficult, but she cares for the young lovers and is willing to devise ways for them to meet."
   },
   {
    "q": "What happens after speaking to Gramma?",
@@ -72,7 +72,7 @@
     "what next speak with gramma",
     "gramma quest follow up"
    ],
-   "answer": "Gramma begins formulating a plan to sneak Tommy Joe and Maybell together, sending the adventurer on errands to prepare an invisibility liquor to bypass watchful family eyes."
+   "answer": "Gramma begins making a plan to bring Tommy Joe and Maybell together in secret. She sends you to gather what she needs for an invisibility liquor to get past their watchful families."
   },
   {
    "q": "Who is Maybell Maclure?",
@@ -80,17 +80,17 @@
     "who is maybell",
     "maybell maclure"
    ],
-   "answer": "Maybell is the daughter of the rival Maclure family, living just across the road from the Stonefields. She is secretly courting Tommy Joe Stonefield."
+   "answer": "Maybell Maclure is the daughter of the rival family, living across the road from the Stonefields. She is secretly courting Tommy Joe Stonefield."
   }
  ],
  "angles": [
   {
    "target": "race:Human",
-   "text": "For humans adventuring in Elwynn, the Stonefield-Maclure conflict is a reminder of how deeply local grudges run in the heartlands of Stormwind, even in the shadow of broader realm-wide crises."
+   "text": "As a human in Elwynn, you see how deeply local grudges run in Stormwind's heartlands, even amid wider troubles across the realm."
   },
   {
    "target": "faction:Alliance",
-   "text": "While Stormwind faces Defias unrest and beast attacks, Alliance travelers often find themselves playing mediator in petty domestic squabbles between neighboring farmers."
+   "text": "While Stormwind faces Defias unrest and beast attacks, you may find yourself mediating quarrels between neighboring farmers."
   }
  ],
  "keywords": [
@@ -110,5 +110,6 @@
  ],
  "attribution": [
   "Speak with Gramma"
- ]
+ ],
+ "style": 1
 }

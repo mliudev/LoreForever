@@ -10,16 +10,16 @@
    "quest:399"
   ]
  },
- "summary": "A Simple Compass is an old personal keepsake belonging to the City Architect of Stormwind, Baros Alexston. Stored away inside a small chest at his family's burned-down homestead in Westfall, it serves as a cherished memento of his youth before he rose to prominence in the capital.",
+ "summary": "At the burned Alexston Farmstead in Westfall, A Simple Compass waits in a small chest. It belonged to Baros Alexston before he became Stormwind's City Architect.",
  "sections": [
   {
    "title": "A Boyhood Keepsake",
-   "body": "Long before Baros Alexston became a master architect directing major works in Cathedral Square, he grew up laboring on his family's farm in Westfall. The simple compass was his very first navigational instrument, likely sparking his early interest in geometry, drafting, and exploration. When the Alexston Farmstead fell victim to the Defias Brotherhood's raids and burned, the compass was left behind inside a sturdy chest amidst the ruins, preserved even as the surrounding farmland was overrun by bandits.",
+   "body": "Baros Alexston grew up working his family's farm in Westfall. His simple compass was his first navigational instrument, and may have stirred his interest in geometry, drafting, and exploration. The Defias Brotherhood raided and burned the farmstead, leaving the compass in a sturdy chest among the ruins as bandits overran the farmland.",
    "spoiler": 0
   },
   {
    "title": "Sentimental Value",
-   "body": "Baros's father managed to escape the farmstead's destruction but could not carry the family's possessions with him to safety. While the instrument possesses little practical utility to a master builder working within the stone walls of Stormwind City, its emotional significance remains immense. Returning it to Baros offers him a rare, intact link to his humble beginnings and the peaceful countryside of his childhood.",
+   "body": "Baros's father escaped the destruction but could not carry the family's possessions to safety. The compass offers little use to a master builder within Stormwind City's stone walls, yet it holds great meaning for Baros. Its return would restore a rare, intact link to his humble beginnings and the peaceful countryside of his childhood.",
    "spoiler": 0
   }
  ],
@@ -31,7 +31,7 @@
     "alexston compass",
     "baros compass"
    ],
-   "answer": "It is a modest, non-magical pocket compass that belonged to Baros Alexston when he was a boy living on his family's farm in Westfall."
+   "answer": "A Simple Compass is a modest, non-magical pocket compass Baros Alexston owned as a boy on his family's Westfall farm."
   },
   {
    "q": "Where is the compass located?",
@@ -40,7 +40,7 @@
     "compass location",
     "alexston chest location"
    ],
-   "answer": "It is stashed inside Alexston's Chest, which sits within the burned-out ruins of the Alexston Farmstead, situated just west of Sentinel Hill in Westfall."
+   "answer": "The compass is inside Alexston's Chest in the burned-out ruins of the Alexston Farmstead, just west of Sentinel Hill in Westfall."
   },
   {
    "q": "Who wants this compass returned?",
@@ -49,7 +49,7 @@
     "compass turn in",
     "who owns the compass"
    ],
-   "answer": "The compass belongs to Baros Alexston, the City Architect of Stormwind, who can be found near the town hall in Cathedral Square."
+   "answer": "Baros Alexston, Stormwind's City Architect, wants the compass returned. He can be found near the town hall in Cathedral Square."
   },
   {
    "q": "Why was the compass left behind at the farm?",
@@ -57,17 +57,17 @@
     "why did they leave the compass",
     "what happened to the farm"
    ],
-   "answer": "The Alexston family farm was raided, burned down, and taken over by Defias outlaws. Baros's father had to flee for his life and was unable to carry their heavier possessions, leaving the chest hidden in the wreckage."
+   "answer": "The Defias outlaws raided and burned the Alexston farm. Baros's father fled for his life and could not carry the family's heavier possessions, leaving the chest in the wreckage."
   }
  ],
  "angles": [
   {
    "target": "faction:Alliance",
-   "text": "Helping Baros Alexston recover his lost keepsake illustrates the human toll of the Defias uprising, showing how even prominent leaders in Stormwind have lost their family homes to the turmoil in Westfall."
+   "text": "Helping Baros Alexston recover his keepsake shows the human cost of the Defias uprising. Even prominent leaders in Stormwind have lost their family homes to the turmoil in Westfall."
   },
   {
    "target": "race:Human",
-   "text": "For humans of the kingdom, the compass symbolizes the sharp contrast between the safe, gilded courtyards of Stormwind City and the abandoned, lawless frontiers of Westfall."
+   "text": "As a human of the kingdom, you can see in the compass the contrast between Stormwind City's safe, gilded courtyards and Westfall's abandoned, lawless frontier."
   }
  ],
  "keywords": [
@@ -92,5 +92,6 @@
  "attribution": [
   "A Simple Compass",
   "Humble Beginnings"
- ]
+ ],
+ "style": 1
 }

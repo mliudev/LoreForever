@@ -10,11 +10,11 @@
    "quest:1705"
   ]
  },
- "summary": "The Burning Rock is an unusual, smoldering mineral recovered from the Nightbane worgen leader Gutspill deep within Roland's Doom in Duskwood. Master blacksmith Grimand Elmore in Stormwind requires this rare curiosity, alongside fiery worgen blood, to forge specialized enchanted armor for promising warriors.",
+ "summary": "In Duskwood, Burning Rock smolders in the depths of Roland's Doom. Gutspill, leader of the Nightbane worgen, carries it, and Grimand Elmore in Stormwind needs it with fiery worgen blood to forge enchanted armor for promising warriors.",
  "sections": [
   {
    "title": "A Smoldering Prize",
-   "body": "Carried by Gutspill, a savage Nightbane worgen lurking in the decrepit shafts of Roland's Doom, the Burning Rock is an anomaly among Duskwood's subterranean horrors. Emitting an unyielding supernatural heat, it caught the attention of Grimand Elmore in Stormwind City. Seeking to test experimental smithing techniques originated by his peer Furen Longbeard, Grimand uses the rock's intrinsic heat and the boiling blood of the local worgen to temper tough armor plate for veteran fighters.",
+   "body": "Gutspill carries Burning Rock through the shafts of Roland's Doom. Grimand Elmore in Stormwind wants its heat for armor made with fiery worgen blood. He is testing smithing techniques developed by his peer Furen Longbeard, to make tough plates for veteran fighters.",
    "spoiler": 0
   }
  ],
@@ -26,7 +26,7 @@
     "who drops burning rock",
     "where to get burning rock"
    ],
-   "answer": "It is held by Gutspill, a vicious worgen alpha dwelling inside the Roland's Doom mine located in eastern Duskwood."
+   "answer": "Gutspill carries Burning Rock inside Roland's Doom in eastern Duskwood."
   },
   {
    "q": "Who wants the Burning Rock?",
@@ -35,7 +35,7 @@
     "who turns in burning rock",
     "grimand elmore burning rock"
    ],
-   "answer": "Grimand Elmore, a skilled dwarven smith stationed in the Dwarven District of Stormwind City, requires the rock to test experimental metallurgical techniques."
+   "answer": "Grimand Elmore, a dwarven smith in Stormwind City's Dwarven District, wants Burning Rock to test experimental smithing techniques."
   },
   {
    "q": "Why does Grimand Elmore need it?",
@@ -44,7 +44,7 @@
     "why burning rock",
     "what does burning rock do"
    ],
-   "answer": "Grimand intends to test crafting techniques developed by Furen Longbeard. Combined with the boiling blood of Nightbane worgen, the smoldering stone provides the intense heat necessary to forge a unique suit of armor."
+   "answer": "Grimand plans to test crafting techniques developed by Furen Longbeard. With Nightbane worgen blood, the smoldering rock provides heat for forging a unique suit of armor."
   },
   {
    "q": "What connection does this rock have to the worgen?",
@@ -52,17 +52,17 @@
     "why do worgen have burning rock",
     "gutspill burning rock lore"
    ],
-   "answer": "The Nightbane worgen of Roland's Doom possess strange, fiery physiological traits, such as burning blood. Gutspill, their pack leader, keeps the Burning Rock deep within the mine, though whether they unearthed it or brought it with them remains a mystery."
+   "answer": "The Nightbane worgen in Roland's Doom have strange fiery traits, including burning blood. Their leader, Gutspill, keeps Burning Rock deep in the mine. Whether the worgen found it there or brought it with them is unknown."
   }
  ],
  "angles": [
   {
    "target": "class:Warrior",
-   "text": "Grimand Elmore enlists seasoned warriors to brave Roland's Doom for this stone, rewarding their valor with custom-forged armor crafted from its heat."
+   "text": "As a warrior, you brave Roland's Doom for Burning Rock. Grimand Elmore rewards your valor with custom armor forged using its heat."
   },
   {
    "target": "profession:Blacksmithing",
-   "text": "The Burning Rock serves as an exotic heat source, demonstrating the unorthodox smelting and tempering methods explored by Stormwind and Ironforge armorers."
+   "text": "As a blacksmith, you can study Burning Rock as an unusual heat source. Stormwind and Ironforge armorers explore unorthodox ways to smelt and temper armor."
   }
  ],
  "keywords": [
@@ -86,5 +86,6 @@
  "attribution": [
   "Burning Rock",
   "Burning Blood (quest)"
- ]
+ ],
+ "style": 1
 }

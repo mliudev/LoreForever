@@ -2,8 +2,6 @@
 -- Sources: data/i18n/ruRU. Lore text adapted from warcraft.wiki.gg (CC BY-SA 4.0); the core add-on's src fields name the articles.
 local P = LoreForeverPacks.Begin("LoreForever_Lang_ruRU")
 local Po = P.search.post
-Po["пробуждающейся"] = "JedB"
-Po["пробуждающие"] = "DETBHdIB"
 Po["пробуждающиеся"] = "AYsBB1CBHhxBKURB"
 Po["пробуждающий"] = "KCfB"
 Po["пробуждающийся"] = "B60BCnHBJeVB"
@@ -12002,3 +12000,5 @@ Po["рогblackwater"] = "B9LB"
 Po["рогbloodhoof"] = "Cl6B"
 Po["рогbrave"] = "BmvBBmwC"
 Po["рогcharred"] = "AL0BAfZB"
+Po["рогdarkhorn"] = "HbmBHbqD"
+Po["рогelder"] = "HbmC"

@@ -8,6 +8,11 @@
 //     POST /api/device/apple       {identity_token, name?} -> {token, device}: the iPhone app's Sign in with Apple (Apple's
 //                                  token for our bundle IDs; the account behind that Apple ID, made or linked by
 //                                  verified email); 401 when Apple's token doesn't check out. 20 an hour per sender
+//     POST /api/device/email-start {email} -> {to, expires_in, resend_after}: emails a 6-digit sign-in code
+//                                  (lib/email-signin.js, its limits; on develop an @example.test address gets testCode)
+//     POST /api/device/email-verify {email, code} -> {token, device}: the app's token for the account with that
+//                                  address, or a new one. Refusals say {error, reason} (lib/email-signin.js SAY)
+//     POST /api/device/shown       {} counts a sign-in screen shown; 60 an hour per sender
 //     GET  /api/device/status      (Authorization: Bearer <token>) -> {connected, profile}: the profile's summary
 //                                  (null until there is one), so the companion knows which character to send
 //     POST /api/device/disconnect  (Authorization: Bearer <token>) -> the token stops working
@@ -37,6 +42,7 @@ import { welcomeOnce } from "../../../lib/billing.js";
 import { noteConnect, machineOf, setupReferrals } from "../../../lib/referrals.js";
 import { noteWillo } from "../../../lib/sources.js";
 import { isCompanion } from "../../../lib/client-version.js";
+import { startCode, verifyCode, refusal, noteStep } from "../../../lib/email-signin.js";
 
 const ok = (body = {}, status = 200) => Response.json({ ok: true, ...body }, { status, headers: noStore });
 const COMPANION = /^companion\/[\w.-]{1,24}$/;
@@ -67,7 +73,32 @@ async function apple({ request, env }, input) {
   if (!id) return fail(401, "Apple's sign-in couldn't be checked. Please try again.");
   const user = await findOrCreateAppleUser(env, { ...id, name: typeof input.name === "string" ? input.name : "" });
   await recordTerms(env, user.id);
+  await noteStep(env, request, "apple_ok");
   return ok(await issueToken(env, user.id, LABEL));
+}
+
+// Sign-in by email from the app (lib/email-signin.js): the code, then a token like a claimed link's.
+async function emailStart({ request, env }, input) {
+  const out = await startCode(env, request, input.email);
+  if (!out.ok) return refusal(out);
+  const { ok: _, ...body } = out;
+  return ok(body);
+}
+
+async function emailVerify({ request, env }, input) {
+  const out = await verifyCode(env, request, input.email, input.code);
+  if (!out.ok) return refusal(out);
+  const issued = await issueToken(env, out.user.id, LABEL);
+  // Willo's one-way code for the computer, as a claimed link keeps it (token, below). Never fails the sign-in.
+  const machine = await machineOf(request);
+  if (machine) await setupReferrals(env).then(() => env.DB.prepare("UPDATE devices SET machine = ? WHERE id = ?")
+    .bind(machine, issued.device.id).run()).catch(e => console.warn(`device email: machine: ${e?.message || e}`));
+  return ok(issued);
+}
+
+async function shown({ request, env }) {
+  if (await perHour(env, await ipKey(env, request), "signin-shown", 60)) await noteStep(env, request, "shown");
+  return ok();
 }
 
 async function token({ request, env }, input) {
@@ -150,15 +181,16 @@ export async function onRequest(context) {
   if (!env.DB) return fail(503, "Accounts aren't set up yet.");
   await setup(env);
 
-  if (action === "start" || action === "token" || action === "apple" || action === "status" || action === "disconnect") {
+  const OPEN = { start: c => start(c), token, apple, "email-start": emailStart, "email-verify": emailVerify, shown };
+  if (OPEN[action] || action === "status" || action === "disconnect") {
     if (!fromCompanion(request)) return fail(403, "This is for the Lore Forever companion app.");
     const method = action === "status" ? "GET" : "POST";
     if (request.method !== method) return fail(405, `Use ${method}.`);
-    if (action === "start" || action === "token" || action === "apple") {
+    if (OPEN[action]) {
       let input = {};
       try { input = await request.json(); } catch (e) {}
       input = input && typeof input === "object" ? input : {};
-      return action === "start" ? start(context) : action === "apple" ? apple(context, input) : token(context, input);
+      return OPEN[action](context, input);
     }
     const app = await currentDevice(env, request);
     if (!app) return fail(401, "This app isn't connected to an account any more.");

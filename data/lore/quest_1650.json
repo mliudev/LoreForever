@@ -17,16 +17,16 @@
   "wiki": "The Tome of Valor (3)",
   "chain": []
  },
- "summary": "This quest represents the second trial in the paladin's pursuit of the Tome of Valor. Duthorian Rall dispatches knights to the distant shores of Westfall to shield Daphne Stilwell, a secluded homesteader left vulnerable to surrounding Defias bandits.",
+ "summary": "Duthorian Rall sends a paladin to protect Daphne Stilwell on Westfall's distant shore. With her husband away, Defias bandits threaten her homestead.",
  "sections": [
   {
    "title": "A Call to Arms",
-   "body": "Within the Cathedral of Light, Duthorian Rall tests aspiring paladins not merely through scripture or solitary devotion, but through the direct defense of the realm's people. Having embraced the mantle of valor, paladins are immediately tasked with putting their ideals into practice where authority and law have broken down.",
+   "body": "At Stormwind's Cathedral of Light, Duthorian Rall tests aspiring paladins by asking them to defend the realm's people. After accepting the mantle of valor, you put those ideals to work where law and authority have failed.",
    "spoiler": 0
   },
   {
    "title": "Peril on the Longshore",
-   "body": "The destination is the isolated Longshore of Westfall, where Daphne Stilwell and her husband Jordan maintain an outpost against the ocean. With Jordan away in Ironforge consulting dwarven blacksmiths, Daphne has been left on her own amid rampant Defias Brotherhood activity. Duthorian orders the paladin to ride westward and stand as her shield before the thieves overwhelm her solitary homestead.",
+   "body": "Daphne Stilwell and her husband Jordan keep an outpost at Westfall's isolated Longshore. Jordan is away in Ironforge, consulting dwarven blacksmiths, and Defias Brotherhood activity is rampant. Duthorian sends you west to protect Daphne before the thieves overwhelm her homestead.",
    "spoiler": 0
   }
  ],
@@ -38,7 +38,7 @@
     "why is jordan stilwell gone",
     "daphne stilwell alone"
    ],
-   "answer": "Her husband, Jordan Stilwell, is a renowned blacksmith who traveled to the dwarven kingdom of Ironforge to consult with fellow smiths. His absence left Daphne to defend their coastal property unassisted amid growing Defias attacks."
+   "answer": "Her husband, Jordan Stilwell, traveled to Ironforge to consult fellow blacksmiths. While he is away, Daphne faces growing Defias attacks on their coastal property alone."
   },
   {
    "q": "Who assigns this task to the paladin?",
@@ -47,7 +47,7 @@
     "quest giver tome of valor",
     "duthorian rall quest"
    ],
-   "answer": "Duthorian Rall, a leading paladin trainer and preceptor within Stormwind's Cathedral of Light, gives the order once you prove ready to undertake the trials of valor."
+   "answer": "Duthorian Rall assigns it. He trains paladins at Stormwind's Cathedral of Light and gives the order once you prove ready for the trials of valor."
   },
   {
    "q": "Where can Daphne Stilwell be found?",
@@ -56,7 +56,7 @@
     "daphne stilwell location",
     "find daphne stilwell"
    ],
-   "answer": "She resides in a small cottage on the far southern reaches of the Longshore, perched along the coastline of southwestern Westfall."
+   "answer": "Daphne lives in a small cottage on the far southern Longshore, along the coast of southwestern Westfall."
   },
   {
    "q": "Is Daphne completely helpless when you arrive?",
@@ -65,7 +65,7 @@
     "is daphne defenseless",
     "daphne stilwell fighting"
    ],
-   "answer": "Not in the slightest. By the time a paladin reaches her porch, Daphne has already personally dispatched half a dozen Defias bandits with her own weapon while holding down the homestead."
+   "answer": "No. By the time you reach her porch, Daphne has already killed half a dozen Defias bandits with her own weapon while defending the homestead."
   },
   {
    "q": "What threat is menacing the Stilwell home?",
@@ -74,7 +74,7 @@
     "defias in westfall",
     "enemies at stilwell farm"
    ],
-   "answer": "The Defias Brotherhood has overrun much of Westfall and continually harasses the isolated coastal homestead, attempting to claim the land and plunder what remains."
+   "answer": "The Defias Brotherhood threatens the Stilwell home. The Brotherhood has overrun much of Westfall and keeps harassing the isolated coastal homestead, seeking to claim the land and plunder what remains."
   },
   {
    "q": "How does this task fit into the Tome of Valor chain?",
@@ -83,17 +83,17 @@
     "tome of valor trial purpose",
     "meaning of this quest"
    ],
-   "answer": "Valor in the paladin tradition is measured by proactive sacrifice and the defense of the defenseless. Standing between Daphne and marauding bandits provides a practical demonstration of righteousness in action."
+   "answer": "The paladin's valor is measured by sacrifice and defense of the defenseless. Protecting Daphne from marauding bandits puts righteousness into action."
   }
  ],
  "angles": [
   {
    "target": "class:Paladin",
-   "text": "This mission forms a core right of passage for young paladins, requiring them to leave the safety of Stormwind's Cathedral and prove their valor by guarding the defenseless."
+   "text": "As a paladin, you leave the safety of Stormwind's Cathedral to protect the defenseless and prove your valor."
   },
   {
    "target": "faction:Alliance",
-   "text": "The Stilwell homestead's plight underscores how far Westfall has fallen from Stormwind's direct protection, leaving rural citizens to fend off the Defias alone."
+   "text": "The Stilwell homestead shows how far Westfall has fallen from Stormwind's protection, leaving rural people to face the Defias alone."
   }
  ],
  "keywords": [
@@ -116,5 +116,6 @@
  ],
  "attribution": [
   "The Tome of Valor (3)"
- ]
+ ],
+ "style": 1
 }

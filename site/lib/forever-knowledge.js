@@ -18,7 +18,7 @@ import { LOOP_FACTS } from "./forever-loop-facts.js";
 import { DATA_VERSION } from "./knowledge-version.js";
 import { questFacts, questBlock, questChain } from "./forever-quest-facts.js";
 import { itemFacts, itemBlock } from "./forever-item-facts.js";
-import { spellFacts, spellBlock } from "./forever-spell-facts.js";
+import { spellFacts, spellBlock, talentFacts, talentBlock } from "./forever-spell-facts.js";
 import { placeFacts, placeBlock } from "./forever-place-facts.js";
 import { createMissing } from "./schema.js";
 
@@ -702,7 +702,13 @@ export async function knowledgeFor(env, parts, { character = false, dataVersion 
   } catch (e) {
     console.warn(`place facts: ${e?.message || e}`);
   }
-  const local = [questBlock(quest), itemBlock(item), spellBlock(spell), placeBlock(place)];
+  let talent = [];
+  try {
+    talent = talentFacts(parts, { character });     // the class's talent trees, for a talent or build question (LOR-823)
+  } catch (e) {
+    console.warn(`talent facts: ${e?.message || e}`);
+  }
+  const local = [questBlock(quest), itemBlock(item), spellBlock(spell), talentBlock(talent), placeBlock(place)];
   // The way worked out (TOWN AND ROAD FACTS: "The way to Orgrimmar"), from Forever's own ships, zeppelins, tram and
   // flights: the lists of every ship and flight point beside it only tempt another leg (the vision check, 10/19: from
   // Bloodhoof to Orgrimmar she added "the airship from Skywatcher Plateau to Zephras Isle", which the way doesn't take).
@@ -716,9 +722,9 @@ export async function knowledgeFor(env, parts, { character = false, dataVersion 
     const named = f => ride && asked.some(w => String(f.title || "").toLowerCase().includes(w));
     const facts = forPlayer(await searched, parts).filter(f => !routed || !/^(?:travel|flight)-/.test(f.id || "") || named(f));
     const block = factsBlock(facts, { character, olderData: olderData(dataVersion) });
-    return { facts: [...quest, ...item, ...spell, ...place, ...facts], block: [...local, block].filter(Boolean).join("\n\n") };
+    return { facts: [...quest, ...item, ...spell, ...talent, ...place, ...facts], block: [...local, block].filter(Boolean).join("\n\n") };
   } catch (e) {
     console.warn(`forever facts: ${e?.message || e}`);
-    return { facts: [...quest, ...item, ...spell, ...place], block: local.filter(Boolean).join("\n\n") };
+    return { facts: [...quest, ...item, ...spell, ...talent, ...place], block: local.filter(Boolean).join("\n\n") };
   }
 }

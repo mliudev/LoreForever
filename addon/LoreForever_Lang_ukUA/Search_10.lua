@@ -2,9 +2,6 @@
 -- Sources: data/i18n/ukUA. Lore text adapted from warcraft.wiki.gg (CC BY-SA 4.0); the core add-on's src fields name the articles.
 local P = LoreForeverPacks.Begin("LoreForever_Lang_ukUA")
 local Po = P.search.post
-Po["вестфолfarmer"] = "CzjB"
-Po["вестфолgoretusk"] = "Fe3B"
-Po["вестфолharvest"] = "EC5B"
 Po["вестфолlewis"] = "CudB"
 Po["вестфолsi"] = "JthB"
 Po["вестфола"] = "CFkCCufCCzmCC6wCDxcCD6MC"
@@ -12002,3 +11999,6 @@ Po["відступникипік"] = "BBZB"
 Po["відступникирейнджер"] = "Jo8B"
 Po["відступникироблять"] = "DQeCDQnC"
 Po["відступникирозвідка"] = "By/B"
+Po["відступникирозвідник"] = "CukB"
+Po["відступникируїни"] = "I4JB"
+Po["відступникисамоцвіт"] = "A10C"

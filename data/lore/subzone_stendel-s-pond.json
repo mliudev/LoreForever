@@ -7,11 +7,11 @@
  "meta": {
   "wiki": "Stendel's Pond"
  },
- "summary": "Stendel's Pond is a small, possibly tainted body of water located southwest of Sentinel Hill in Westfall. Surrounded by prowling gnolls and marked by nearby graves, it remains one of the few fresh fishing spots in the parched countryside despite its sinister hazards.",
+ "summary": "Gnolls prowl Stendel's Pond southwest of Sentinel Hill, where anglers still seek fresh fish.",
  "sections": [
   {
    "title": "A Dangerous Watering Hole",
-   "body": "Tucked away southwest of Sentinel Hill, Stendel's Pond offers a quiet break from Westfall's dusty plains, though danger is never far. Gnolls roam the muddy banks, while scattered skeletons and a pair of lone graves suggest that either the waters or the beasts around it are fatal to careless travelers. Anglers still risk the trek for schools of sagefish.",
+   "body": "Southwest of Sentinel Hill, Stendel's Pond draws anglers despite the danger along its muddy banks. Gnolls roam nearby, and scattered skeletons with two lone graves show that the shore is perilous. The water may be foul, or the beasts may be to blame, but the cause is unknown. Schools of sagefish still bring anglers to the pond.",
    "spoiler": 0
   }
  ],
@@ -23,7 +23,7 @@
     "where is stendel's pond",
     "find stendel pond"
    ],
-   "answer": "It lies southwest of Sentinel Hill in central Westfall, just off the dusty paths leading toward the southern reaches."
+   "answer": "Stendel's Pond lies southwest of Sentinel Hill in central Westfall, just off the dusty paths toward the southern reaches."
   },
   {
    "q": "What creatures lurk around the pond?",
@@ -32,7 +32,7 @@
     "monsters at stendel's pond",
     "stendel pond gnolls"
    ],
-   "answer": "The pond's muddy shoreline is prowled by territorial Riverpaw gnolls who attack any wanderers approaching the water."
+   "answer": "Territorial Riverpaw gnolls prowl the pond's muddy shore and attack wanderers who approach the water."
   },
   {
    "q": "Why are there skeletons and graves by the shore?",
@@ -41,17 +41,17 @@
     "why skeletons",
     "grave at pond"
    ],
-   "answer": "The skeletons and two unnamed graves point to the area's deadly perils. Whether travelers fell prey to the gnolls or were poisoned by foul pond water remains an ominous mystery."
+   "answer": "Scattered skeletons and two unnamed graves mark the shore's dangers. The dead may have fallen to gnolls or been poisoned by the pond water, but no one knows for certain."
   }
  ],
  "angles": [
   {
    "target": "profession:Cooking",
-   "text": "The sagefish harvested from these murky waters are valued by cooks for their fish dishes."
+   "text": "Cooks value the sagefish from these murky waters for their fish dishes."
   },
   {
    "target": "faction:Alliance",
-   "text": "Located close to Sentinel Hill, the pond remains an uncontrolled threat on the People's Militia's southern perimeter due to gnoll encampments."
+   "text": "Near Sentinel Hill, gnoll encampments make the pond an uncontrolled threat on the People's Militia's southern perimeter."
   }
  ],
  "keywords": [
@@ -70,5 +70,6 @@
  ],
  "attribution": [
   "Stendel's Pond"
- ]
+ ],
+ "style": 1
 }

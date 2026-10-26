@@ -2,9 +2,6 @@
 -- Sources: data/i18n/ukUA. Lore text adapted from warcraft.wiki.gg (CC BY-SA 4.0); the core add-on's src fields name the articles.
 local P = LoreForeverPacks.Begin("LoreForever_Lang_ukUA")
 local Po = P.search.post
-Po["змішаний"] = "AS+BAVTBAw9BAzbBBMUBE2YBF8zBJ+tB"
-Po["змішаним"] = "JR7B"
-Po["змішаними"] = "IBpB"
 Po["змішаних"] = "CM/BEImB"
 Po["змішано"] = "A9uB"
 Po["змішану"] = "ES8B"
@@ -12002,3 +11999,6 @@ Po["користуються"] = "ALlBANrBAPZBAQaBAUjBAZyBAbfBAiUBA6DBA/oBB5vBCU
 Po["користуютьсявартові"] = "KvVC"
 Po["користуютьсядемонічною"] = "JKlC"
 Po["користуютьсямагією"] = "FJmC"
+Po["користуютьсямисливці"] = "KndC"
+Po["користуютьсярозбійники"] = "KtzC"
+Po["користуютьсясаптами"] = "D8VC"

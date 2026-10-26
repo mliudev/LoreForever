@@ -610,11 +610,11 @@ P.transport["subzone:deadman-s-crossing"] = {
   },
 }
 P.transport["subzone:deadmines"] = {
-  hash = "d4d689",
-  fullHash = "d4d689",
-  text = "Deadmines. Deep beneath the dusty ghost town of Moonbrook, the Deadmines are a sprawling underground labyrinth that was once the greatest gold-production center in human lands. Abandoned during the First War and long whispered to be haunted, the forgotten shafts have become the fortified headquarters of Edwin VanCleef and his rebellious Defias Brotherhood. Before the First War, the Deadmines were the premier mining operation in human lands, rich in gold and sturdy Whitestone oak used for timber and structural supports. When the orcish Horde pushed north, the mines were abandoned in haste. Sir Anduin Lothar notably ventured into their treacherous depths to recover the sacred Tome of Divinity, surviving twenty months of captivity at the hands of subterranean ogres before being rescued. In the turmoil that followed the kingdom's fall, the shafts fell silent and gained a chilling reputation for being cursed.",
+  hash = "050b2c",
+  fullHash = "050b2c",
+  text = "Deadmines. Beneath Moonbrook, the Deadmines lie silent under a ruined town in Westfall. Once the greatest gold producer in human lands, the mines were abandoned during the First War. Now rumors speak of sinister forces in the forgotten shafts, though their danger remains unknown. The Deadmines once led all human mines in gold, with Whitestone oak for timber and supports. When the orcish Horde pushed north, miners fled in haste. Sir Anduin Lothar entered the treacherous depths to recover the sacred Tome of Divinity. Subterranean ogres held him captive for twenty months before rescuers freed him. After the kingdom fell, the shafts went quiet, and people came to say they were cursed.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_deadmines-9fca322fb3efc6c250be/1-0000.mp3", duration = 50.8865306, start = 0},
+    {file = "Audio/Transport/full_subzone_deadmines-5d961ce78c153f73d924/1-0000.mp3", duration = 42.24, start = 0},
   },
 }
 P.transport["subzone:deadwood-village"] = {
@@ -2586,11 +2586,11 @@ P.transport["subzone:stormrage-barrow-dens"] = {
   },
 }
 P.transport["subzone:stormwind-city"] = {
-  hash = "3d2c67",
-  fullHash = "3d2c67",
-  text = "Stormwind City. Stormwind City is the majestic capital of the Kingdom of Stormwind and the military and political heart of the Alliance. Rebuilt from ashes following its destruction in the First War, it stands as the greatest remaining bastion of human power in Azeroth following the fall of the northern kingdoms. Founded over a millennium ago by Arathi descendants migrating south, Stormwind flourished as a vibrant coastal capital ringed by stone ramparts and powered by swift rivermills. That grandeur ended in the First War when the Orcish Horde besieged the city, breached its defenses, and burned it to the ground, forcing Sir Anduin Lothar to lead surviving refugees across the Great Sea to Lordaeron. Following the victory of the Alliance in the Second War, the Stonemasons' Guild undertook the monumental task of rebuilding the capital into the gleaming fortress of white stone, canal networks, and towering spires that stands north of Elwynn Forest today. With Lordaeron shattered by the Scourge and Dalaran heavily ruined during the Third War, Stormwind City serves as the primary refuge and stronghold for mankind. Its broad avenues and defensive walls are patrolled by the disciplined Stormwind City Guard, while the spires of the Cathedral of Light guide faith and devotion across the southern kingdoms. Yet beneath its orderly districts and ceremonial gates lies quiet political turmoil: King Varian Wrynn has mysteriously vanished, leaving his young son Anduin on the throne under the regency of Highlord Bolvar Fordragon and the whispered counsel of royal advisor Lady Katrana Prestor.",
+  hash = "a28f8f",
+  fullHash = "a28f8f",
+  text = "Stormwind City. Stormwind City leads the Kingdom of Stormwind and the Alliance as their capital and seat of power. Rebuilt after the First War, it is the greatest remaining human stronghold in Azeroth since the northern kingdoms fell. Stormwind City rose over a thousand years ago, founded by Arathi descendants who migrated south. The coastal capital flourished behind stone ramparts, with swift rivermills powering the city. In the First War, the Orcish Horde laid siege, broke through its defenses, and burned Stormwind to the ground. Sir Anduin Lothar led the surviving refugees across the Great Sea to Lordaeron. After the Alliance won the Second War, the Stonemasons' Guild rebuilt the capital with white stone, canals, and towering spires. The fortress now stands north of Elwynn Forest. Stormwind City has become mankind's chief refuge and stronghold after the Scourge shattered Lordaeron and the Third War left Dalaran heavily ruined. The disciplined Stormwind City Guard patrols its broad avenues and defensive walls. The Cathedral of Light's spires guide faith across the southern kingdoms. Beneath the orderly districts and ceremonial gates, political troubles linger. King Varian Wrynn has mysteriously vanished, and his young son Anduin sits on the throne under the regency of Highlord Bolvar Fordragon and the whispered counsel of royal advisor Lady Katrana Prestor.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_stormwind-city-cc27185116bf578c9ecd/1-0000.mp3", duration = 92.1338776, start = 0},
+    {file = "Audio/Transport/full_subzone_stormwind-city-f3371fb2289a5fa7470e/1-0000.mp3", duration = 79.8040816, start = 0},
   },
 }
 P.transport["subzone:stratholme"] = {

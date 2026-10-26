@@ -12,31 +12,31 @@
   "levels": "10-20",
   "aliases": []
  },
- "summary": "Once the fertile breadbasket of the Kingdom of Stormwind, Westfall has collapsed into a windswept, neglected territory overrun by outlaws. Deprived of official crown support and military garrisons, its surviving homesteaders cling to their farms while the Defias Brotherhood tightens its grip from the abandoned mining town of Moonbrook.",
+ "summary": "Westfall's farms lie exposed, and the Defias Brotherhood holds much of the countryside. Once Stormwind's breadbasket, the territory now struggles without crown support or military garrisons.",
  "sections": [
   {
    "title": "A Land Left Behind",
-   "body": "For generations, Westfall fed the Kingdom of Stormwind. Its rolling pastures and wheat fields flourished until the aftermath of the Second War brought financial exhaustion and political neglect. When the kingdom poured its resources elsewhere and failed to maintain its garrisons, the territory grew fallow. Today, barren pastures, howling coastal gusts, rogue harvest golems, and raiding Riverpaw gnolls make daily survival a constant trial for the stubborn few who refuse to abandon their homesteads.",
+   "body": "Westfall once fed the Kingdom of Stormwind with its pastures and wheat fields. After the Second War, the kingdom's finances ran thin and its leaders neglected the territory. Stormwind sent resources elsewhere and let its garrisons go, leaving the land fallow. Now barren pastures, harsh coastal winds, rogue harvest golems, and Riverpaw gnolls make survival hard for the few homesteaders who remain.",
    "spoiler": 0
   },
   {
    "title": "The Rise of the Brotherhood",
-   "body": "Westfall's collapse accelerated when the Defias Brotherhood moved in, bandits in red masks who answer to a leader no one in the countryside has named. They claimed Westfall as their stronghold, burning stubborn farmers' fields, salting soil, and seizing abandoned mines. Operating out of the ghost town of Moonbrook, the Brotherhood now rules the majority of the countryside in all but name.",
+   "body": "The Defias Brotherhood's arrival hastened Westfall's collapse. The bandits wear red masks and follow a leader whose name no one in the countryside knows. They made Westfall their stronghold, burning farmers' fields, salting the soil, and taking abandoned mines. From Moonbrook, a ghost town, the Brotherhood rules most of the countryside in all but name.",
    "spoiler": 0
   },
   {
    "title": "The People's Militia",
-   "body": "With the House of Nobles ignoring Westfall's plight, local inhabitants took up their own defense. Based at the fortified post of Sentinel Hill, Gryan Stoutmantle organized the People's Militia\u2014a volunteer force attempting to hold the line against gnolls and bandits. Lacking formal soldiers and supplies from Stormwind, the Militia relies on wandering adventurers to push back the Defias tide and protect the remaining farms.",
+   "body": "The House of Nobles has ignored Westfall's plight, so local people have taken up their own defense. At Sentinel Hill, Gryan Stoutmantle formed the People's Militia, a volunteer force holding the line against gnolls and bandits. Stormwind sends no formal soldiers or supplies. The Militia depends on wandering adventurers to push back the Defias and protect the farms that remain.",
    "spoiler": 0
   },
   {
    "title": "Masons in Red Masks",
    "spoiler": 1,
-   "body": "The Brotherhood's leader has a name now: Edwin VanCleef, the guildmaster who rebuilt Stormwind City. Denied their pay by the House of Nobles and driven out after the riots, his stonemasons took up the red mask in Westfall. The bandits burning its fields are the same hands that raised the capital's walls."
+   "body": "Edwin VanCleef leads the Brotherhood. He was the guildmaster who rebuilt Stormwind City, but the House of Nobles denied his stonemasons their pay, and riots drove them out. They took up the red mask in Westfall. The bandits burning its fields are the same hands that raised the capital's walls."
   },
   {
    "title": "The Deadmines Conspiracy",
-   "body": "The true scale of the Defias threat lies concealed beneath the surface. Deep within the abandoned gold shafts of the Deadmines beneath Moonbrook, Edwin VanCleef has assembled an army of cutthroats, goblins, and renegades. Rather than simple banditry, the Brotherhood is constructing a massive ironclad juggernaut designed to sail up the coast and bombard Stormwind City directly.",
+   "body": "Beneath Moonbrook, Edwin VanCleef has gathered cutthroats, goblins, and renegades in the abandoned gold shafts of the Deadmines. The Brotherhood is building a massive ironclad juggernaut there, meant to sail up the coast and bombard Stormwind City.",
    "spoiler": 1
   }
  ],
@@ -48,7 +48,7 @@
     "why is westfall dead",
     "why fallow"
    ],
-   "answer": "Stormwind withdrew its military garrisons when upkeep became too expensive, leaving the region unprotected. Soon after, the Defias Brotherhood seized control of the countryside, driving off homesteaders, burning cropland, and reprogramming mechanical harvest watchers into lethal sentries."
+   "answer": "Stormwind withdrew its garrisons when upkeep grew too expensive, leaving Westfall unprotected. The Defias Brotherhood then seized much of the countryside, driving off homesteaders, burning cropland, and reprogramming mechanical harvest watchers as lethal sentries."
   },
   {
    "q": "Why does Stormwind not send troops to help Westfall?",
@@ -57,7 +57,7 @@
     "where are the guards",
     "stormwind aid"
    ],
-   "answer": "The kingdom's treasury is strained, and the House of Nobles considers threats in other lands to be higher priorities. Furthermore, court manipulation has quietly starved Westfall of attention and supplies, forcing local residents to fend entirely for themselves."
+   "answer": "The kingdom's treasury is strained, and the House of Nobles gives greater priority to threats in other lands. Court manipulation has also quietly deprived Westfall of attention and supplies, leaving residents to defend themselves."
   },
   {
    "q": "What is the People's Militia?",
@@ -66,7 +66,7 @@
     "sentinel hill militia",
     "gryan stoutmantle army"
    ],
-   "answer": "The People's Militia is a volunteer defense outfit organized by Gryan Stoutmantle at Sentinel Hill. Because the crown refused to deploy soldiers to Westfall, the remaining farmers and settlers banded together to fight off the Defias Brotherhood and the Riverpaw gnolls."
+   "answer": "Gryan Stoutmantle organized the People's Militia at Sentinel Hill to defend Westfall. With no soldiers from the crown, farmers and settlers joined to fight the Defias Brotherhood and Riverpaw gnolls."
   },
   {
    "q": "Who leads the Defias Brotherhood in Westfall?",
@@ -75,7 +75,7 @@
     "who leads defias",
     "vancleef"
    ],
-   "answer": "Edwin VanCleef, the former guildmaster of the Stonemasons Guild who oversaw the rebuilding of Stormwind City. After a bitter dispute over payment resulted in riots, VanCleef led his workers into Westfall and turned to armed insurrection."
+   "answer": "Edwin VanCleef, former guildmaster of the Stonemasons Guild, leads the Defias Brotherhood. He oversaw Stormwind City's rebuilding, then led his workers into Westfall and armed them after a bitter payment dispute ended in riots."
   },
   {
    "q": "What is hidden inside Moonbrook?",
@@ -84,7 +84,7 @@
     "what is in deadmines",
     "moonbrook mine"
    ],
-   "answer": "Underneath an unassuming barn in Moonbrook lies the entrance to the Deadmines, an extensive abandoned gold mine that the Defias Brotherhood converted into an underground fortress and shipwright for their war against Stormwind."
+   "answer": "Beneath an unassuming barn in Moonbrook lies the entrance to the Deadmines. The Defias Brotherhood turned the abandoned gold mine into an underground fortress and shipwright for its war against Stormwind."
   },
   {
    "q": "Why are the mechanical scarecrows attacking people?",
@@ -93,25 +93,25 @@
     "harvest watchers",
     "evil scarecrows"
    ],
-   "answer": "Originally built to tend the crops and scare away pests, these mechanical harvest watchers were captured and retrofitted by Defias-aligned goblin tinkerers to patrol fields and murder any trespassers."
+   "answer": "Defias-aligned goblin tinkerers captured the mechanical harvest watchers, originally built to tend crops and scare away pests. They retrofitted them to patrol fields and kill trespassers."
   }
  ],
  "angles": [
   {
    "target": "race:Human",
-   "text": "Westfall is a painful reflection of Stormwind's political decay; the farmers starving in the dirt were abandoned by the very nobility they toiled to feed."
+   "text": "As a human, Westfall shows Stormwind's political decay. The farmers starving in the dirt were abandoned by the nobility they toiled to feed."
   },
   {
    "target": "faction:Alliance",
-   "text": "Without the People's Militia holding Sentinel Hill, the Defias Brotherhood would control the southern approaches straight to Elwynn Forest."
+   "text": "As an Alliance traveler, you can see how the People's Militia holds Sentinel Hill. Without it, the Defias Brotherhood would control the southern approaches to Elwynn Forest."
   },
   {
    "target": "class:Rogue",
-   "text": "The shadow war across Westfall pits SI:7 spies directly against the street-smart scouts, thieves, and assassins of the Defias Brotherhood."
+   "text": "As a rogue, you find a shadow war across Westfall, where SI:7 spies face the Defias Brotherhood's street-smart scouts, thieves, and assassins."
   },
   {
    "target": "profession:Cooking",
-   "text": "The beleaguered homesteaders at Saldean's Farm make do with tough local beasts, teaching travelers to brew the hearty staple known as Westfall Stew."
+   "text": "As a cook, you can learn how the beleaguered homesteaders at Saldean's Farm make do with tough local beasts and teach travelers to prepare Westfall Stew."
   }
  ],
  "keywords": [
@@ -139,5 +139,6 @@
  "attribution": [
   "Westfall (Classic)",
   "Westfall"
- ]
+ ],
+ "style": 1
 }

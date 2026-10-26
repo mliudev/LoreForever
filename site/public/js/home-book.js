@@ -102,22 +102,31 @@
       P.who = H.voice.who || "narrator";
       P.name = `The story of ${H.name}`;
     }
-    // asked: the questions asked on the Here page, in order (the add-on's first one is asked already, as an example).
-    const st = { view: "here", asked: H.asks.length ? [0] : [], zone: 0, pic: -1, ch: chapters[0]?.n, line: 0 };
+    // thread: the Here page's conversation in order, a question asked by its number (the add-on's first one is asked
+    // already, as an example) and a story card told by its lore page's path. back: Found was opened from the
+    // conversation (its "Its page in Found ›"), so Found shows the way back to it; hit is the page it opened on.
+    const st = { view: "here", thread: H.asks.length ? [0] : [], zone: 0, pic: -1, ch: chapters[0]?.n, line: 0, q: "", kind: "all",
+      back: false, hit: "", hereTop: 0, hereY: 0 };
+    // The story cards a lore link in an answer tells, as the add-on's: the page's story from its lore data, read once.
+    const cards = new Map();
     const chap = n => chapters.find(c => c.n === n);
     const listen = () => (P.parts.length ? `<button type="button" class="hb-listen" data-play aria-pressed="false" aria-label="Listen to the story of ${esc(H.name)}"><span class="ic" aria-hidden="true">▶</span><span data-lbl>Listen</span> <small>· ${esc(P.who)} ${mmss(total())}</small></button>` : "");
     const link = (x, inner, cls) => (own(x.href, "/") ? `<a class="${cls}" href="${esc(x.href)}" title="${esc(x.name)}">${inner}</a>` : `<span class="${cls}" title="${esc(x.name)}">${inner}</span>`);
     const card = x => link(x, `${IC[x.k] || IC.place}<span>${esc(x.name)}</span>`, "hb-card");
-    const tile = (x, kind) => link(x, `<i class="hb-tok ${kind}">${IC[x.k] || IC.place}</i><span>${esc(x.name)}</span>`, "hb-tile");
+    const tile = (x, kind) => link(x, `<i class="hb-tok ${kind}">${IC[x.k] || IC.place}</i><span>${esc(x.name)}</span>`, `hb-tile${st.hit && x.href === st.hit ? " hit" : ""}`);
+    // A storyline's quest, as the add-on's: its name the main line, where it was and that it's done small under it.
+    const questRow = q => link(q, `<i class="hb-tok quests">${IC.quest}</i><span><b>${esc(q.name)}</b><small>${[q.zone, "Done"].filter(Boolean).map(esc).join(" · ")}</small></span>`, "hb-tile");
     const blank = kind => `<span class="hb-tile dim" aria-hidden="true"><i class="hb-tok ${kind}">${IC[kind === "places" ? "place" : kind === "people" ? "person" : kind === "quests" ? "quest" : "item"]}</i><span>Not yet</span></span>`;
-    // An answer in ink: its text, with the lore pages it names linked where they first come up.
-    const inked = (text, links = []) => {
+    // An answer in ink: its text, with the lore pages it names linked where they first come up (seen: the pages linked
+    // already, so a story card's paragraphs link each one once).
+    const inked = (text, links = [], seen = new Set()) => {
       const spots = links.map(l => ({ ...l, at: text.indexOf(l.name) })).filter(l => l.at >= 0 && own(l.href, "/lore/"))
         .sort((a, b) => a.at - b.at);
       let out = "", from = 0;
       for (const l of spots) {
-        if (l.at < from) continue;
-        out += esc(text.slice(from, l.at)) + `<a href="${esc(l.href)}">${esc(l.name)}</a>`;
+        if (l.at < from || seen.has(l.href)) continue;
+        seen.add(l.href);
+        out += esc(text.slice(from, l.at)) + `<a href="${esc(l.href)}" data-card>${esc(l.name)}</a>`;
         from = l.at + l.name.length;
       }
       return out + esc(text.slice(from));
@@ -129,6 +138,28 @@
       return big ? `<figure class="hb-pic"><img src="${esc(url)}" width="${Number(p.w) || 1920}" height="${Number(p.h) || 1080}" alt="${alt}" loading="lazy" decoding="async"><figcaption>${esc([p.where, p.when].filter(Boolean).join(" · ") || "Taken on the way")}</figcaption></figure>` : "";
     };
 
+    // Where a page is in Found: its chapter, and its kind there (a chapter's own page is the whole chapter).
+    const foundAt = (href, name) => {
+      for (const [i, z] of zones.entries()) {
+        if (z.name === name) return { zone: i, kind: "all" };
+        for (const [k] of KINDS) if ((z[k]?.list || []).some(x => x.href === href)) return { zone: i, kind: k };
+      }
+      return null;
+    };
+    const toFound = (href, name) => {
+      const at = foundAt(href, name);
+      return at ? `<button type="button" class="hb-chip" data-found="${at.zone}" data-fkind="${at.kind}" data-fhref="${esc(href)}">${IC.book}Its page in Found ›</button>` : "";
+    };
+    // "Tell me about X", as the add-on asks it: "the Defias Brotherhood" when its story names it that way.
+    const tellMe = c => `Tell me about ${c.paras[0]?.startsWith(`The ${c.name}`) ? "the " : ""}${c.name}`;
+    const said = (j, q) => `<div class="hb-asked" data-asked="${j}"><span>You asked</span>${esc(q)}</div>`;
+    const told = (t, j) => {
+      if (typeof t === "number") return H.asks[t] ? `${said(j, H.asks[t].q)}<p class="hb-answer">${inked(H.asks[t].a, H.asks[t].links)}</p>` : "";
+      const c = cards.get(t);
+      return c ? `${said(j, tellMe(c))}<div class="hb-told"><h5>${esc(c.name)}</h5>${c.label ? `<div class="hb-crumb">${esc(c.label)}</div>` : ""}
+        ${((seen) => c.paras.map(p => `<p>${inked(p, c.links, seen)}</p>`).join(""))(new Set([t]))}${toFound(t, c.name)}</div>` : "";
+    };
+
     // Here: the add-on's list for where you stand (its story, then its questions), and the one picked on the right.
     const here = () => {
       const sc = D.stats || [];
@@ -138,40 +169,58 @@
         <h3 class="hb-here-h" tabindex="-1" data-focus>Here: ${esc(H.name)}</h3>
         <div class="hb-list">
           <button type="button" class="hb-row gold" data-here="story">${IC.play}<span>${esc(H.name)}</span></button>
-          ${H.asks.map((a, i) => `<button type="button" class="hb-row${st.asked.includes(i) ? " on" : ""}" data-here="${i}">${IC.ask}<span>${esc(a.q)}</span></button>`).join("")}
+          ${H.asks.map((a, i) => `<button type="button" class="hb-row${st.thread.includes(i) ? " on" : ""}" data-here="${i}">${IC.ask}<span>${esc(a.q)}</span></button>`).join("")}
         </div>
         <p class="hb-note">In the game, Here is wherever you stand: its story, and the questions people ask there.</p>`;
       // The right page, as the add-on's: the place's lore with Listen, then the conversation in ink, then what to ask next.
-      const next = H.asks.map((a, i) => [a, i]).filter(([, i]) => !st.asked.includes(i));
+      const next = H.asks.map((a, i) => [a, i]).filter(([, i]) => !st.thread.includes(i));
       const right = `<div class="hb-crumb">${esc([H.label, "Here"].filter(Boolean).join(" · "))}</div><h4>${esc(H.name)}</h4>${listen()}
         <div class="hb-story">${(H.story || []).map(t => `<p>${esc(t)}</p>`).join("")}</div>
-        <a class="hb-chip" href="${esc(own(H.page, "/lore/") || "/lore")}">${IC.book}Read ${esc(H.name)}'s page</a>
-        ${st.asked.map(i => H.asks[i]).filter(Boolean).map((a, j) => `<div class="hb-asked" data-asked="${j}"><span>You asked</span>${esc(a.q)}</div>
-          <p class="hb-answer">${inked(a.a, a.links)}</p>`).join("")}
+        ${toFound(H.page, H.name)}
+        ${st.thread.map(told).join("")}
         ${next.length ? `<div class="hb-kind">Suggested:</div><div class="hb-list">${next.map(([a, i]) => `<button type="button" class="hb-row" data-here="${i}">${IC.ask}<span>${esc(a.q)}</span></button>`).join("")}</div>` : ""}`;
       return [left, right];
     };
 
     // Found: a chapter for each zone, and its pages by kind, with the pictures he took there.
     const KINDS = [["places", "Places"], ["people", "People"], ["quests", "Quests"], ["items", "Items"]];
+    const chips = () => `<div class="hb-chips" role="group" aria-label="Kind">${[["all", "Everything"], ...KINDS].map(([k, label]) =>
+      `<button type="button" class="hb-chip${st.kind === k ? " on" : ""}" data-kind="${k}" aria-pressed="${st.kind === k}">${esc(label)}</button>`).join("")}</div>`;
+    // A search reads only the pages he found, in every chapter (a name never confirms a page he hasn't).
+    const searched = () => {
+      const words = st.q.toLowerCase().split(/\s+/).filter(Boolean);
+      const hits = {};
+      for (const z of zones) for (const [k] of KINDS) for (const x of z[k]?.list || []) {
+        const name = String(x.name || "").toLowerCase();
+        if (words.every(w => name.includes(w))) (hits[k] = hits[k] || []).push(x);
+      }
+      const shown = KINDS.filter(([k]) => hits[k] && (st.kind === "all" || st.kind === k));
+      const n = shown.reduce((a, [k]) => a + hits[k].length, 0);
+      return `<h4>Search</h4><div class="hb-crumb">${plural(n, "page", "pages")}</div>${chips()}
+        ${shown.map(([k, label]) => `<div class="hb-kind">${label} · ${num(hits[k].length)}</div><div class="hb-tiles">${hits[k].map(x => tile(x, k)).join("")}</div>`).join("")
+          || `<p class="hb-sub">No pages like that found yet. Search reads only the pages you've found.</p>`}`;
+    };
     const found = () => {
       const share = (n, of) => (of > n ? ` of ${num(of)}` : "");
       const left = `<h3 tabindex="-1" data-focus>Found</h3>
+        <input type="search" class="hb-search" placeholder="Search..." aria-label="Search the pages ${esc(who)} found" value="${esc(st.q)}" data-search>
         <div class="hb-list">${zones.map((z, i) => `<button type="button" class="hb-row hb-ch${st.zone === i ? " on" : ""}" data-zone="${i}"><span>${esc(z.name)}</span><span class="hb-d">${num(z.n)}${z.of > z.n ? `/${num(z.of)}` : ""}</span><i class="hb-prog" aria-hidden="true"><b style="width:${Math.round(100 * z.n / Math.max(z.n, z.of || 0, 1))}%"></b></i></button>`).join("")}</div>
-        <p class="hb-note">Click a chapter to see its pages. Every place, person, item and quest has a page in the book; the ones ${esc(who)} hasn't found stay blank, so nothing is spoiled.</p>`;
+        <p class="hb-note">Click a chapter to see its pages. Every place, person, item and quest has a page in the book; the ones you haven't found stay blank, so nothing is spoiled.</p>`;
+      if (st.q.trim()) return [left, searched()];
       const z = zones[st.zone];
       if (!z) return [left, `<p class="hb-sub">Your chronicle is still blank. Pages fill in as you travel, meet people, take quests and find things.</p>`];
       const pics = (z.pictures || []).filter(p => own(p.url, "/pictures/"));
       const shown = pics[st.pic];
-      const right = `<h4>${esc(z.name)}</h4><div class="hb-crumb">${num(z.n)}${share(z.n, z.of)} pages found</div>
+      const right = `${st.back ? `<button type="button" class="hb-back" data-back>‹ Back to the conversation</button>` : ""}<h4>${esc(z.name)}</h4><div class="hb-crumb">${num(z.n)}${share(z.n, z.of)} pages found</div>
+        ${chips()}
         ${shown ? pic(shown, true) : ""}
-        ${KINDS.filter(([k]) => z[k]?.n).map(([k, label]) => `<div class="hb-kind">${label} · ${num(z[k].n)}${share(z[k].n, z[k].of)}</div><div class="hb-tiles">${z[k].list.map(x => tile(x, k)).join("")}${z[k].of > z[k].n ? blank(k) : ""}</div>`).join("")}
+        ${KINDS.filter(([k]) => z[k]?.n && (st.kind === "all" || st.kind === k)).map(([k, label]) => `<div class="hb-kind">${label} · ${num(z[k].n)}${share(z[k].n, z[k].of)}</div><div class="hb-tiles">${z[k].list.map(x => tile(x, k)).join("")}${z[k].of > z[k].n ? blank(k) : ""}</div>`).join("")}
         ${pics.length ? `<div class="hb-kind">Pictures · ${num(pics.length)}</div><div class="hb-gallery">${pics.map((p, i) => `<button type="button" data-pic="${i}"${i === st.pic ? ' aria-current="true"' : ""}><img src="${esc(p.url)}" alt="${esc(p.caption || p.where || "A picture from the journey")}" loading="lazy" decoding="async">${esc(p.when || "")}</button>`).join("")}</div>` : ""}`;
       return [left, right];
     };
 
     // Road: his chapters, newest first; a chapter's pages on the right.
-    const road = () => `<h3 tabindex="-1" data-focus>His road · ${plural(chapters.length, "chapter", "chapters")}</h3>${chapters.map(c => {
+    const road = () => `<h3 tabindex="-1" data-focus>Your road · ${plural(chapters.length, "chapter", "chapters")}</h3>${chapters.map(c => {
       const th = own(c.pictures?.[0]?.url, "/pictures/");
       return `<button type="button" class="hb-row${st.view === "chapter" && st.ch === c.n ? " on" : ""}" data-ch="${c.n}"><span class="hb-num">${c.n}</span><span>${esc(c.title)}</span>${th ? `<img class="hb-th" src="${esc(th)}" alt="" loading="lazy" decoding="async">` : ""}<span class="hb-d">${esc(c.when)}</span></button>`;
     }).join("")}`;
@@ -180,19 +229,19 @@
         ${c.summary ? `<p class="hb-sum">${esc(c.summary)}</p>` : ""}
         ${c.facts?.length ? `<ul class="hb-facts">${c.facts.map(f => `<li>${esc(f)}</li>`).join("")}</ul>` : ""}
         ${(c.pictures || []).map(p => pic(p, true)).join("")}`,
-      `<h3>Pages he found this chapter</h3>
+      `<h3>Pages you found this chapter</h3>
         ${c.found?.length ? `<div class="hb-cards">${c.found.map(card).join("")}</div><p class="hb-sub" style="margin-top:8px">Each one has its page in the lore.</p>` : `<p class="hb-sub">Nothing new to find this chapter.</p>`}`];
 
-    // Storylines: the ones he's on, the one he was on last first; a storyline's quests he has done on the right.
+    // Storylines: the ones he's on, the one he was on last first; a storyline's quests he has done on the right, in
+    // the order he did them, never how many it has. The words speak to the reader as "you", as the add-on's do.
     const stories = () => {
-      const left = `<h3 tabindex="-1" data-focus>Storylines</h3><p class="hb-sub">The storylines he's on. Click one to see its quests he's found.</p>
+      const left = `<h3 tabindex="-1" data-focus>Storylines</h3><p class="hb-sub">The storylines you're on. Click one to see its quests you've taken.</p>
         <div class="hb-list">${lines.map((s, i) => `<button type="button" class="hb-row${st.line === i ? " on" : ""}" data-line="${i}"><span>${esc(s.name)}</span><span class="hb-d">${num(s.n)}</span></button>`).join("")}</div>`;
       const s = lines[st.line];
       if (!s) return [left, `<p class="hb-sub">No storylines yet. Take quests, and the storylines you're on are listed here.</p>`];
       return [left, `<h4>${esc(s.name)}</h4><div class="hb-crumb">Storyline${s.zone ? ` · ${esc(s.zone)}` : ""}</div>
-        <div class="hb-kind">Quests · ${num(s.n)}${s.of > s.n ? ` of ${num(s.of)}` : ""}</div>
-        <div class="hb-tiles">${s.quests.map(q => tile(q, "quests")).join("")}${s.of > s.n ? blank("quests") : ""}</div>
-        <p class="hb-note">${s.of > s.n ? "A blank page is still out there: the storyline goes on past the quests he's done." : "Every page of it is found."}</p>`];
+        <p class="hb-sub">Quests you take from this story are written here, in order.</p>
+        <ol class="hb-steps">${s.quests.map(q => `<li>${questRow(q)}</li>`).join("")}</ol>`];
     };
 
     const pages = () => {
@@ -224,6 +273,7 @@
       els.r.innerHTML = R;
       els.l.scrollTop = 0;
       els.r.scrollTop = 0;
+      els.l.classList.toggle("hb-searching", st.view === "found" && !!st.q.trim());
       els.where.textContent = {
         here: `Here: ${H.name}`, found: `Found · ${zones[st.zone]?.name || ""}`, road: `${who}'s road`,
         chapter: `Chapter ${st.ch} · ${chap(st.ch)?.title || ""}`, story: `Storylines · ${lines[st.line]?.name || ""}`,
@@ -244,29 +294,80 @@
       if (focus === "ribbon") root.querySelector(`.hb-rib[data-v="${tabOf(st.view)}"]`)?.focus({ preventScroll: true });
       else if (focus === "page") els.l.querySelector("[data-focus]")?.focus({ preventScroll: true });
     }
+    // The conversation at its entry j: on a phone the page scrolls to it, on a wide screen the right page does.
+    const toEntry = j => {
+      const at = els.r.querySelector(`[data-asked="${j}"]`);
+      if (!at) return;
+      if (matchMedia("(max-width: 760px)").matches) at.scrollIntoView({ block: "start" });
+      else els.r.scrollTop = at.offsetTop - 12;   // (the page is the entry's offsetParent)
+    };
+    // A lore link in an answer: its story card joins the thread (once; a second click goes to it). A page with no story
+    // to tell, or one that can't be read, opens its lore page as the link would.
+    async function tell(href) {
+      if (!cards.has(href)) {
+        const m = href.match(/^\/lore\/([\w-]+)\/([\w-]+)$/);
+        const d = m ? await fetch(`/lore/data/e/${m[1]}_${m[2]}.json`).then(r => (r.ok ? r.json() : null)).catch(() => null) : null;
+        const story = (d?.clips || []).find(c => c.part === "narration");
+        const paras = (story?.paras || (d?.description ? [d.description] : [])).map(String).filter(Boolean);
+        if (!d?.name || !paras.length) { location.href = href; return; }
+        // The pages its story names, linked as an answer's are, so the story can be followed on from the card.
+        const links = (d.related || []).map(l => ({ name: String(l?.n || ""), href: String(l?.p || "") })).filter(l => l.name && l.href !== href);
+        cards.set(href, { name: String(d.name), label: String(d.label || ""), paras, links });
+      }
+      if (!st.thread.includes(href)) st.thread.push(href);
+      if (st.view !== "here") return;
+      paint("right");
+      toEntry(st.thread.indexOf(href));
+    }
     root.addEventListener("click", e => {
+      const a = e.target.closest("a[data-card]");
+      if (a && e.button === 0 && !e.ctrlKey && !e.metaKey && !e.shiftKey && !e.altKey) {
+        e.preventDefault();
+        tell(a.getAttribute("href"));
+        return;
+      }
       const t = e.target.closest("button");
       if (!t) return;
       const d = t.dataset;
       if (d.play !== undefined || d.main !== undefined) return toggle();
-      if (d.v) { st.view = d.v; st.pic = -1; return paint(t.classList.contains("hb-rib") ? "ribbon" : "page"); }
+      if (d.v) {
+        st.view = d.v; st.pic = -1;
+        if (t.classList.contains("hb-rib")) { st.back = false; st.hit = ""; }   // a ribbon is a fresh visit
+        return paint(t.classList.contains("hb-rib") ? "ribbon" : "page");
+      }
+      if (d.found) {
+        st.hereTop = els.r.scrollTop; st.hereY = scrollY;
+        st.view = "found"; st.zone = Number(d.found); st.kind = d.fkind || "all"; st.q = ""; st.pic = -1;
+        st.back = true; st.hit = d.fhref || "";
+        return paint("right");
+      }
+      if (d.back !== undefined) {
+        st.view = "here"; st.back = false; st.hit = "";
+        paint(false);
+        els.r.scrollTop = st.hereTop;
+        if (matchMedia("(max-width: 760px)").matches) scrollTo(0, st.hereY);
+        return;
+      }
       if (d.here === "story") { paint("right"); els.r.scrollTop = 0; return; }
       if (d.here) {
         const i = Number(d.here);
-        if (!st.asked.includes(i)) st.asked.push(i);
+        if (!st.thread.includes(i)) st.thread.push(i);
         paint("right");
-        // The answer, where the conversation reaches it.
-        const at = els.r.querySelector(`[data-asked="${st.asked.indexOf(i)}"]`);
-        if (at) {
-          if (matchMedia("(max-width: 760px)").matches) at.scrollIntoView({ block: "start" });
-          else els.r.scrollTop = at.offsetTop - 12;   // (the page is the answer's offsetParent)
-        }
+        toEntry(st.thread.indexOf(i));   // the answer, where the conversation reaches it
         return;
       }
       if (d.zone) { st.zone = Number(d.zone); st.pic = -1; return paint("right"); }
       if (d.pic) { st.pic = Number(d.pic) === st.pic ? -1 : Number(d.pic); return paint("right"); }
       if (d.line) { st.line = Number(d.line); return paint("right"); }
+      if (d.kind) { st.kind = d.kind; return paint("right"); }
       if (d.ch) { st.view = "chapter"; st.ch = Number(d.ch); return paint("page"); }
+    });
+    // Typing a search repaints only the right page, so the box keeps its focus and caret.
+    root.addEventListener("input", e => {
+      if (!e.target.matches("[data-search]")) return;
+      st.q = e.target.value;
+      els.r.innerHTML = pages()[1];
+      els.l.classList.toggle("hb-searching", !!st.q.trim());
     });
     paint(false);
   }

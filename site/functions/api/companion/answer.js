@@ -43,13 +43,13 @@ import { pinIntent, spotOf, pinTool, pinCall, pinUpdate, pinRules, pinnedLine, u
 import { savedJourney } from "../../../lib/saved-journey.js";
 import { asks as asksJourney, hasJourney, recall, withRecall } from "../../../lib/willo-recall.js";
 import { savedStock } from "../../../lib/willo-stock.js";
-import { stockOf, GOALS_ON_HERO, goalIntent, writesGoals, goalsOf, askedGoal, goalsBlock, asOfSave, goalTools, goalCall, isGoalTool,
+import { stockOf, withSave, GOALS_ON_HERO, goalIntent, writesGoals, goalsOf, askedGoal, goalsBlock, asOfSave, goalTools, goalCall, isGoalTool,
   goalConfirmed, withoutClaims, withoutGoalClaims, goalsNamed, whichLine, goalsList, GOAL_LIST, QUIET_LINES, numbersIn,
   wrongGold, planLine } from "../../../lib/willo-goals.js";
 import { guardAnswer, groundedWritten, evidenceOf, SOUNDS } from "../../../lib/willo-guards.js";
 import { activateReferral, machineOf } from "../../../lib/referrals.js";
 import { checkAlerts } from "../../../lib/free-pool.js";
-import { sendIntent, screenshotRecipientReply, sendOffer, capturesFrom } from "../../../lib/friend-send.js";
+import { sendIntent, screenshotRecipientReply, sendOffer } from "../../../lib/friend-send.js";
 import { withFriendsNote } from "../../../lib/friends-note.js";
 import { stubbed, stubAnswer } from "../../../lib/test-players.js";
 import { isCompanion, isPhone, tooOld, UPDATE_LINE } from "../../../lib/client-version.js";
@@ -279,7 +279,7 @@ async function answerQuestion(context, hold) {
   // gets a local capture action; phone and older desktop clients get clear directions. Card sends have retired.
   const sending = operation === "answer" && persona === "willo" ? sendIntent(parts.question) || screenshotRecipientReply(parts) : null;
   const [offer, sendLeft] = sending ? await Promise.all([sendOffer(env, app.user.id, sending,
-    capturesFrom(request.headers.get("X-LF-Capabilities")), now.getTime()),
+    request.headers.get("X-LF-Capabilities"), now.getTime()),
     allowance(env, app.user.id, now)]) : [];
   if (offer) {
     const asked = markAsked(env, app.user.id, now.getTime());
@@ -345,7 +345,9 @@ async function answerQuestion(context, hold) {
   }) : null;
   // A reminder at a place is checked against the places of this age (LOR-663), read alongside too.
   const placing = intent.remind ? knownPlaces(env).catch(() => new Map()) : null;
-  const knowledge = compact ? null : knowledgeFor(env, parts, { character: operation === "character", dataVersion });
+  // With the profession ranks the question came with (the add-on's save), for "how do I level my herbalism?".
+  const knowledge = compact ? null : knowledgeFor(env, { ...parts, skills: stock?.skills || null },
+    { character: operation === "character", dataVersion });
   // Mike's own and test accounts skip the daily answer cap; the monthly budget below still applies to them. The plan
   // sets the daily answers; a paying player skips the shared monthly budget and has a cost cap instead. Both at once:
   // every round trip to D1 here is one a player far from it waits for before Willo can start (LOR-654).
@@ -522,6 +524,12 @@ async function answerQuestion(context, hold) {
   // Reminders (LOR-663) on Hero and up, while the site sells plans (lib/billing.js companionFeatures).
   const book = await reading;
   if (!stock && book?.stock) stock = savedStock(book.stock);
+  // Their professions, talents, and the gear and bags the question bears on, from that save, in PLAYER CONTEXT
+  // (lib/willo-goals.js withSave).
+  if (operation === "answer" && stock) {
+    const told = withSave(prompt, stock, parts?.question, now);
+    if (new TextEncoder().encode(told).length <= ANSWER_PROMPT_BYTES) prompt = told;
+  }
   // "What do you know about me?" (LOR-666): what she keeps in it, counted here (lib/keeps-notebook.js keptSummary).
   if (help && book && asksWhatKept(parts.question)) {
     help += `\n- What you keep in their notebook now, counted for you (this character's page and the one for all of ` +

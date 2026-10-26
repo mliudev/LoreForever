@@ -17,16 +17,16 @@
   "wiki": "Speaking of Fortitude",
   "chain": []
  },
- "summary": "\"Speaking of Fortitude\" is an Alliance errand within Stormwind City begun by Brother Kristoff in Cathedral Square. Preparing a sermon titled \"Fortitude of the Spirit,\" Kristoff enlists an adventurer to visit the Royal Library within Stormwind Keep and ask Head Librarian Milton Sheaf for a specific technical text.",
+ "summary": "Brother Kristoff prepares a sermon in Stormwind City's Cathedral of Light. For his message on the Fortitude of the Spirit, he seeks a book in Stormwind Keep's Royal Library.",
  "sections": [
   {
    "title": "A Metaphor in Metal",
-   "body": "Brother Kristoff, one of the priests stationed in Stormwind's Cathedral of Light, seeks to deliver a sermon on the Fortitude of the Spirit. Rather than drawing solely from clerical scripture, Kristoff looks to the craft of metalworking to illustrate the temper and resilience of faith. Specifically, he requires a treatise known as \"The Stresses of Iron\" to quote during his address, hoping its lessons on enduring pressure will resonate with his congregation.",
+   "body": "Brother Kristoff, a priest in Stormwind's Cathedral of Light, is preparing a sermon on the Fortitude of the Spirit. He wants to draw on the craft of metalworking alongside scripture. To make his point, he needs a treatise called \"The Stresses of Iron.\" Its lessons on bearing pressure may help his congregation understand the strength of faith.",
    "spoiler": 0
   },
   {
    "title": "The Royal Stacks",
-   "body": "Stormwind Keep houses the Royal Library, the central repository of knowledge, history, and civic treatises for the kingdom of Stormwind. Because the collection spans countless shelves and centuries of work, Kristoff directs messengers to Milton Sheaf, the head librarian. Sheaf prides himself on knowing the archive by heart, making him the only practical guide for tracking down obscure craft manuscripts among the keep's sprawling vaults.",
+   "body": "The Royal Library holds Stormwind's histories, civic writings, and other works within Stormwind Keep. Its shelves contain centuries of writing, so Brother Kristoff sends messengers to Head Librarian Milton Sheaf. Sheaf knows the archive by heart and can guide them to obscure works on crafts.",
    "spoiler": 0
   }
  ],
@@ -38,7 +38,7 @@
     "who gives speaking of fortitude",
     "brother kristoff"
    ],
-   "answer": "Brother Kristoff is a priest serving the Church of the Holy Light in Cathedral Square within Stormwind City. He often engages visitors to assist with procuring materials and references for his teachings and sermons."
+   "answer": "Brother Kristoff is a priest serving the Church of the Holy Light in Cathedral Square, Stormwind City. He often asks visitors to find materials and references for his teachings and sermons."
   },
   {
    "q": "What book is Brother Kristoff looking for?",
@@ -47,7 +47,7 @@
     "the stresses of iron",
     "kristoff book"
    ],
-   "answer": "He is searching for a technical text titled \"The Stresses of Iron,\" an instructional work on metallurgy that he intends to cite as a metaphor for spiritual endurance."
+   "answer": "Brother Kristoff seeks \"The Stresses of Iron,\" a technical text on metalworking that he plans to cite as a metaphor for spiritual endurance."
   },
   {
    "q": "Who is Milton Sheaf?",
@@ -56,7 +56,7 @@
     "librarian stormwind",
     "head librarian"
    ],
-   "answer": "Milton Sheaf is the head librarian of the Royal Library inside Stormwind Keep. He oversees the realm's vast compilation of books, scrolls, and municipal records, knowing the collection thoroughly."
+   "answer": "Milton Sheaf is the head librarian of the Royal Library inside Stormwind Keep. He oversees the kingdom's books, scrolls, and civic records, and knows the collection well."
   },
   {
    "q": "Where is the Royal Library located?",
@@ -65,7 +65,7 @@
     "where is royal library",
     "stormwind keep library"
    ],
-   "answer": "The Royal Library sits within the northeastern wing of Stormwind Keep, accessible directly through the main hall of the royal palace."
+   "answer": "The Royal Library is in the northeastern wing of Stormwind Keep, reached through the royal palace's main hall."
   },
   {
    "q": "Why does a priest need a metallurgy book?",
@@ -74,7 +74,7 @@
     "why iron book",
     "fortitude sermon"
    ],
-   "answer": "Brother Kristoff is writing a sermon titled \"Fortitude of the Spirit.\" He intends to use the physical stresses that iron endures during forging as an allegory for how the human spirit is strengthened under trial."
+   "answer": "Brother Kristoff is preparing a sermon titled \"Fortitude of the Spirit.\" He plans to compare iron's stress during forging with the way trials strengthen the human spirit."
   },
   {
    "q": "Does Milton Sheaf have the book ready right away?",
@@ -82,21 +82,21 @@
     "does sheaf have book",
     "hand in speaking of fortitude"
    ],
-   "answer": "Milton Sheaf confirms that the library houses works on metallurgy, but he must check the exact title and coordinate the search when approached, starting the process to track down Kristoff's text."
+   "answer": "Milton Sheaf says the library holds books on metalworking, but he needs to check for the exact title and arrange a search for Kristoff's book."
   }
  ],
  "angles": [
   {
    "target": "class:Priest",
-   "text": "Brother Kristoff's sermon draws on themes of spiritual fortitude, offering insight into how Stormwind's clergy craft sermons by blending mundane craft lessons with devotion to the Light."
+   "text": "As a priest, you can see how Stormwind's clergy draw on everyday crafts alongside devotion to the Light when teaching spiritual fortitude."
   },
   {
    "target": "profession:Blacksmithing",
-   "text": "The sermon relies on \"The Stresses of Iron,\" reflecting how even scholarly theologians look to the harsh realities of the forge to explain endurance under pressure."
+   "text": "As a blacksmith, you know the forge's hardships. Brother Kristoff plans to use \"The Stresses of Iron\" to explain endurance under pressure."
   },
   {
    "target": "faction:Alliance",
-   "text": "The errand ties Cathedral Square's priesthood directly to Stormwind Keep's Royal Library, displaying the civic and scholarly infrastructure maintained in the capital."
+   "text": "As an Alliance member, you can see Cathedral Square's priesthood connected to Stormwind Keep's Royal Library, part of the capital's civic and scholarly life."
   }
  ],
  "keywords": [
@@ -119,5 +119,6 @@
  ],
  "attribution": [
   "Speaking of Fortitude"
- ]
+ ],
+ "style": 1
 }

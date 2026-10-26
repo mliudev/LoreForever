@@ -22,16 +22,16 @@
    "Bartleby's Mug (quest)"
   ]
  },
- "summary": "Beat Bartleby is a straightforward test of martial mettle for aspiring Alliance warriors in Stormwind City. To fulfill an initiation task, the trainee must physically brawl with a stubborn town drunk who refuses to hand over his prized mug without a fight. Proving one's strength against him earns both his begrudging respect and the vessel required by the warrior trainers.",
+ "summary": "In Stormwind, Bartleby guards the mug a young warrior must claim. The instructors send recruits to face him in a bare-knuckle fight and earn the vessel for their training.",
  "sections": [
   {
    "title": "A Brawler's Challenge",
-   "body": "Warrior instructors in Stormwind do not accept excuses, nor do they teach their students that combat will always be noble and grand. As part of a recruit's formal training, young warriors are tasked with retrieving a particular mug from Bartleby, a notorious drunkard found lounging in the city. When approached, Bartleby scoffs at any polite requests, swearing that the only way anyone will claim his prized drinkware is by prying it from his cold, dead fingers. For a fledgling warrior, words quickly give way to bare-knuckle violence.",
+   "body": "Stormwind's warrior instructors expect recruits to face combat without excuses or grand ceremony. As part of their formal training, young warriors must retrieve a particular mug from Bartleby, a notorious drunkard who lounges in the city. He scoffs at polite requests and swears no one will take his prized drinkware without prying it from his cold, dead fingers. For a fledgling warrior, words soon give way to a fistfight.",
    "spoiler": 0
   },
   {
    "title": "A Drunken Lesson",
-   "body": "Though Bartleby makes grand declarations about fighting to the death, a thorough thrashing is all that is truly required to sober him up. Once beaten into submission, his bravado collapses into bruised admiration. Recognizing that his opponent is far tougher than they appear, he yields peacefully, allowing the victor to finally claim the mug and complete the trial for the training hall.",
+   "body": "Bartleby boasts that he will fight to the death, but a thorough thrashing is enough to sober him. Once beaten, his bravado gives way to bruised admiration. He recognizes that his opponent is tougher than they appear and yields peacefully, letting the victor claim the mug and complete the trial at the training hall.",
    "spoiler": 0
   }
  ],
@@ -43,7 +43,7 @@
     "who is bartleby",
     "bartleby npc"
    ],
-   "answer": "Bartleby is a belligerent drunkard who frequents Stormwind City. Known for clutching a beloved drinking vessel, he serves as an unwitting obstacle and sparring test for novice warriors sent to prove their physical resolve."
+   "answer": "Bartleby is a belligerent drunkard who frequents Stormwind City. He clings to a beloved drinking vessel and tests novice warriors sent to prove their physical resolve."
   },
   {
    "q": "Why do I have to fight Bartleby?",
@@ -52,7 +52,7 @@
     "beat bartleby reason",
     "why beat him"
    ],
-   "answer": "Alliance warrior trainers send recruits to recover a specific mug in Bartleby's possession. Because he stubbornly refuses to give it up without a brawl, the trainee must defeat him in hand-to-hand combat to loosen his grip."
+   "answer": "Alliance warrior trainers send recruits to recover a mug in Bartleby's possession. He refuses to give it up without a brawl, so the trainee must defeat him hand to hand to claim it."
   },
   {
    "q": "Do I actually kill Bartleby in this quest?",
@@ -61,7 +61,7 @@
     "kill bartleby",
     "is bartleby dead"
    ],
-   "answer": "No. Despite his boasting that you must pry the mug from his cold, dead fingers, Bartleby surrenders once his health is depleted, readily admitting that you are far tougher than he assumed."
+   "answer": "No. Bartleby boasts that you must pry the mug from his cold, dead fingers, but he surrenders when beaten and admits you are tougher than he expected."
   },
   {
    "q": "Where does this quest take place?",
@@ -70,7 +70,7 @@
     "where is bartleby",
     "bartleby spot"
    ],
-   "answer": "The confrontation takes place within the city of Stormwind, where Bartleby can be found drinking and loitering."
+   "answer": "The confrontation takes place in Stormwind, where Bartleby drinks and loiters."
   },
   {
    "q": "What happens after I defeat him?",
@@ -78,7 +78,7 @@
     "after beat bartleby",
     "what next bartleby"
    ],
-   "answer": "Once beaten, Bartleby yields and speaks to you amicably. You are then able to take his mug and deliver it back to the warrior trainers to complete your initiation."
+   "answer": "After you beat him, Bartleby yields and speaks to you amicably. You can take his mug back to the warrior trainers to complete your initiation."
   },
   {
    "q": "What level of training does this trial represent?",
@@ -86,17 +86,17 @@
     "bartleby quest level",
     "when do i fight bartleby"
    ],
-   "answer": "This brawl represents an early milestone for fledgling warriors around their tenth season of experience, serving as a practical test of basic melee endurance."
+   "answer": "This brawl is an early milestone for fledgling warriors around their tenth season of experience, a practical test of basic melee endurance."
   }
  ],
  "angles": [
   {
    "target": "class:Warrior",
-   "text": "This tavern brawl forms an iconic early trial for Alliance warriors, instilling the hard lesson that force of will and a heavy fist often resolve disputes where diplomacy fails."
+   "text": "As an Alliance warrior, you face this early tavern brawl and learn that force of will and a heavy fist can settle disputes when diplomacy fails."
   },
   {
    "target": "faction:Alliance",
-   "text": "Set within the capital streets of Stormwind, this skirmish offers a colorful glimpse into the city's rough-and-tumble underbelly alongside its stately stone walls."
+   "text": "In Stormwind's capital streets, you glimpse the city's rough underbelly alongside its stately stone walls."
   }
  ],
  "keywords": [
@@ -117,5 +117,6 @@
  ],
  "attribution": [
   "Beat Bartleby"
- ]
+ ],
+ "style": 1
 }

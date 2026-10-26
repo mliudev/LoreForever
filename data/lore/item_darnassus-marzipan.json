@@ -10,11 +10,11 @@
    "quest:8311"
   ]
  },
- "summary": "Darnassus Marzipan is a festive confectionery crafted in the night elven capital for the autumn celebration of Hallow's End. Innkeepers in Darnassus hand it out to trick-or-treaters willing to dance for their sweet reward.",
+ "summary": "At Hallow's End, Darnassus innkeepers hand out festive marzipan to visitors who dance for it. Crafted in the night elven capital for the autumn celebration, this sweet is one of four treats Jesper needs.",
  "sections": [
   {
    "title": "A Taste of the World Tree",
-   "body": "During Hallow's End, the capital cities of the Alliance take part in lighthearted trick-or-treat traditions. While the dwarves offer sharp mints and Stormwind crafts chewy nougat, the innkeepers of Darnassus prepare delicate marzipan for visitors. Obtaining a piece requires visitors to showcase a bit of festive spirit—specifically, dancing on command for the innkeeper. The confection is one of four regional treats sought by young Jesper, a sick orphan in Stormwind's Cathedral Square who cannot go out to collect sweets himself.",
+   "body": "During Hallow's End, Alliance capitals share a tradition of lighthearted trick-or-treating. Dwarves offer sharp mints, Stormwind makes chewy nougat, and Darnassus innkeepers prepare delicate marzipan for visitors. To receive a piece, you must show some festive spirit and dance when the innkeeper asks. The sweet is one of four regional treats sought by Jesper, a sick orphan in Stormwind's Cathedral Square who cannot go out to collect sweets himself.",
    "spoiler": 0
   }
  ],
@@ -25,7 +25,7 @@
     "darnassus marzipan use",
     "what do i do with marzipan"
    ],
-   "answer": "Darnassus Marzipan is one of four distinct sweets needed by Jesper, a sick orphan at the orphanage in Stormwind's Cathedral Square during Hallow's End. Delivering it alongside candies from Ironforge, Gnomeregan, and Stormwind earns a bundle of festive pumpkin treats in exchange."
+   "answer": "During Hallow's End, Jesper needs Darnassus Marzipan as one of four distinct sweets. He is a sick orphan at the orphanage in Stormwind's Cathedral Square. Bring it with candies from Ironforge, Gnomeregan, and Stormwind, and you receive a bundle of festive pumpkin treats."
   },
   {
    "q": "How do you obtain Darnassus Marzipan?",
@@ -33,7 +33,7 @@
     "how to get darnassus marzipan",
     "where to get marzipan"
    ],
-   "answer": "It is granted by the innkeepers of Darnassus during Hallow's End. An innkeeper will ask you to perform a quick dance before parting with the sweet confection."
+   "answer": "During Hallow's End, Darnassus innkeepers give you marzipan after asking you to perform a quick dance."
   },
   {
    "q": "Why can't Jesper get the marzipan himself?",
@@ -41,17 +41,17 @@
     "why does jesper need candy",
     "why can't jesper go"
    ],
-   "answer": "Jesper is sick and cannot go out trick-or-treating. He is at the Stormwind orphanage in Cathedral Square, and relies on adventurers to collect the distant treats for him."
+   "answer": "Jesper is sick and cannot go out trick-or-treating. He is at the Stormwind orphanage in Cathedral Square and relies on adventurers to collect the distant treats for him."
   }
  ],
  "angles": [
   {
    "target": "race:NightElf",
-   "text": "Even the solemn kaldorei embrace the lighter customs of autumn, offering sugary marzipan to travelers who honor their hospitality with a lively dance."
+   "text": "As a kaldorei, you can share the lighter customs of autumn. Darnassus innkeepers offer sugary marzipan to travelers who honor their hospitality with a lively dance."
   },
   {
    "target": "faction:Alliance",
-   "text": "Collecting treats from Darnassus, Ironforge, and Stormwind unites the far-flung peoples of the Alliance through shared Hallow's End festivities."
+   "text": "As an Alliance traveler, you can gather treats from Darnassus, Ironforge, and Stormwind. Hallow's End brings the far-flung peoples of the Alliance together in shared festivities."
   }
  ],
  "keywords": [
@@ -74,5 +74,6 @@
  "attribution": [
   "Darnassus Marzipan",
   "Hallow's End Treats for Jesper!"
- ]
+ ],
+ "style": 1
 }

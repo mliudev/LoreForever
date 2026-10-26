@@ -199,8 +199,10 @@ end
 -- explored of it, the road you walked), sepia under a parchment wash, with the zone's places on it as dots: heard
 -- (green, ringed), found (red), or a place there's a spot for but no page yet (a dashed ring, unnamed). A place gets a
 -- dot where the journey recorded you in it; one with no spot isn't on the map (the page says how many). No art for
--- the zone, no map box. "The whole road" keeps the journey page as it was; so does Its moments, for one zone.
--- Made the first time a chapter opens (the map and its art with it), never at login.
+-- the zone, no map box. Its counts open Found on that zone (by kind, or what you've heard), with a way back to the
+-- Road; its five newest moments are listed, and "Every moment here" shows them all on the journey page. The Road's
+-- pages have no Back: the zones down the left are the way around (Road A, Mike's pick of 10/25). "The whole road"
+-- keeps the journey page as it was. Made the first time a chapter opens (the map and its art with it), never at login.
 
 local PAD, GAP = 16, 14
 local ASPECT = 668 / 1002                 -- the map art's height / width (JourneyMap.lua)
@@ -211,6 +213,7 @@ local DOT_HIT, DASHES = 16, 8
 local SEPIA = { 0.96, 0.84, 0.62 }        -- the map art, desaturated and tinted
 local WASH = { 0.92, 0.84, 0.64, 0.34 }   -- a parchment veil over it, under the road and the dots
 local KINDS = { "places", "people", "items", "quests" }
+local MOMENTS = 5                         -- the newest moments a chapter lists
 
 local function kindLabel(kind)
   return ({ places = L["Places"], people = L["People"], items = L["Items"], quests = L["Quests"] })[kind] or ""
@@ -453,26 +456,52 @@ local function build()
   c.title = ink(p, T.font.place, "inkAccent")
   if c.title.SetWordWrap then c.title:SetWordWrap(false) end
   c.sub = ink(p, T.font.body, "inkNote")
-  c.back = T.Button(p, L["Back"])
-  c.back:SetHeight(22)
-  c.back:SetWidth(math.max(70, math.floor((T.TextWidth(c.back:GetFontString()) or 50) + 24)))
-  c.back:SetScript("OnClick", function() ns.Journey.Hide() end)
-  for i, spec in ipairs({ { "found", L["Found"] }, { "heard", L["Heard"] } }) do
-    local r = { label = ink(p, T.font.body, "ink"), meter = T.Meter(p, spec[1]), count = ink(p, T.font.body, "ink", "RIGHT") }
+  -- A count opens Found on this zone with those pages ("‹ Back to the Road" there): hit is the count's whole cell.
+  local function hit(filter, tip)
+    local b = CreateFrame("Button", nil, p)
+    b.filter = filter
+    local hl = b:CreateTexture(nil, "HIGHLIGHT")
+    hl:SetAllPoints()
+    T.Fill(hl, "inkHover")
+    b:SetScript("OnClick", function(self)
+      if Road.chapter then ns.UI.OpenFound(Road.chapter, self.filter, "road") end
+    end)
+    b:SetScript("OnEnter", function(self)
+      GameTooltip:SetOwner(self, "ANCHOR_RIGHT")
+      T.Tip(self.tip or tip, "tipDim", true)
+      GameTooltip:Show()
+    end)
+    b:SetScript("OnLeave", function() GameTooltip:Hide() end)
+    return b
+  end
+  -- (the count's words are the button's own, so they read as one thing to click)
+  for i, spec in ipairs({ { "found", L["Found"], {} }, { "heard", L["Heard"], { story = "heard" } } }) do
+    local h = hit(spec[3], L["See them in Found"])
+    local r = { label = ink(h, T.font.body, "ink"), meter = T.Meter(p, spec[1]),
+      count = ink(h, T.font.body, "inkAccent", "RIGHT"), hit = h }
     r.label:SetText(spec[2])
     c.meters[i] = r
   end
   for i = 1, #KINDS do
-    c.kinds[i] = { label = ink(p, T.font.small, "inkNote", "CENTER"), value = ink(p, T.font.body, "ink", "CENTER") }
+    local h = hit({}, L["See them in Found"])
+    c.kinds[i] = { label = ink(h, T.font.small, "inkNote", "CENTER"), value = ink(h, T.font.body, "inkAccent", "CENTER"),
+      hit = h }
   end
   c.sealHead = ink(p, T.font.small, "inkNote")
   c.sealHead:SetText(L["Seals"])
   for i, kind in ipairs({ "gilt", "wax" }) do
     c.seals[i] = { seal = T.Seal(p, kind, 16), text = ink(p, T.font.body, "ink") }
   end
-  c.moments = T.Button(p, L["Its moments"])
-  c.moments:SetHeight(22)
-  c.moments:SetWidth(math.max(90, math.floor((T.TextWidth(c.moments:GetFontString()) or 70) + 24)))
+  -- Its newest moments, then "Every moment here ›": the journey page with only this zone's.
+  c.momentHead = ink(p, T.font.small, "inkNote")
+  c.momentHead:SetText(L["Its moments, newest first"])
+  c.momentRows = {}
+  c.moments = ns.UI.TextButton(p, 200, 20, T.font.body, nil, true)
+  c.moments.text:ClearAllPoints()
+  c.moments.text:SetPoint("LEFT", 6, 0)
+  if c.moments.text.SetWordWrap then c.moments.text:SetWordWrap(false) end
+  c.moments.text:SetText(T.code.inkLink .. L["Every moment here"] .. " \226\128\186|r")
+  c.moments:SetWidth(math.ceil((T.TextWidth(c.moments.text) or 140) + 12))
   c.moments:SetScript("OnClick", function()
     local ck = Road.chapter
     if not ck then return end
@@ -484,7 +513,7 @@ local function build()
   end)
   c.moments:SetScript("OnEnter", function(self)
     GameTooltip:SetOwner(self, "ANCHOR_RIGHT")
-    GameTooltip:AddLine(L["Its moments"])
+    GameTooltip:AddLine(L["Every moment here"])
     T.Tip(L["Every moment of yours in this zone, newest first."], "tipText", true)
     GameTooltip:Show()
   end)
@@ -521,10 +550,7 @@ function Road.RefreshChapter()
   c.sig = table.concat({ ck, ch and ch.events and #ch.events or 0, d.count.found, d.count.heard }, "|")
 
   -- The header: the zone, where it comes in your road.
-  local backW = tonumber(c.back:GetWidth()) or 70
-  c.back:ClearAllPoints()
-  c.back:SetPoint("TOPRIGHT", p, "TOPRIGHT", -12, -10)
-  put(c.title, p, PAD, 14, inner - backW - 8)
+  put(c.title, p, PAD, 14, inner)
   c.title:SetText(esc(d.name))
   local y = 14 + math.max(textH(c.title, 22), 22) + 4
   put(c.sub, p, PAD, y, inner)
@@ -549,6 +575,9 @@ function Road.RefreshChapter()
     r.meter:SetPoint("TOPLEFT", p, "TOPLEFT", PAD + labelW + 8, -(y + 5))
     r.meter:SetSize(math.max(40, lw - labelW - countW - 16), 10)
     r.meter:SetProgress(rows[i][1], rows[i][2])
+    r.hit:ClearAllPoints()
+    r.hit:SetPoint("TOPLEFT", p, "TOPLEFT", PAD - 4, -(y + 1))
+    r.hit:SetSize(lw + 8, 20)
     y = y + 22
   end
   y = y + 8
@@ -574,13 +603,18 @@ function Road.RefreshChapter()
     local s = shown[i]
     k.label:SetShown(s ~= nil)
     k.value:SetShown(s ~= nil)
+    k.hit:SetShown(s ~= nil)
     if s then
       local x, row = PAD + ((i - 1) % cols) * cell, math.floor((i - 1) / cols)
       local top = y + row * (textH(k.label, 11) + 2 + textH(k.value) + 6)
       put(k.label, p, x, top, cell)
       put(k.value, p, x, top + textH(k.label, 11) + 2, cell)
-      k.value:SetText(string.format("%d/%d", s[2].found, s[2].total))
+      k.value:SetText(string.format("%d/%d", s[2].found, s[2].total) .. " \226\128\186")
       rowH = math.max(rowH, textH(k.label, 11) + 2 + textH(k.value))
+      k.hit.filter = { kind = s[1] }
+      k.hit:ClearAllPoints()
+      k.hit:SetPoint("TOPLEFT", p, "TOPLEFT", x + 2, -(top - 2))
+      k.hit:SetSize(cell - 4, textH(k.label, 11) + 2 + textH(k.value) + 4)
     end
   end
   local rows = math.ceil(#shown / cols)
@@ -596,10 +630,9 @@ function Road.RefreshChapter()
     s.seal:SetFilled(info.done)
     y = y + math.max(18, textH(s.text)) + 6
   end
-  y = y + 6
-  c.moments:ClearAllPoints()
-  c.moments:SetPoint("TOPLEFT", p, "TOPLEFT", PAD, -y)
-  local leftBottom = y + 22
+  y = y + 10
+  y = Road.LayoutMoments(c, ck, d.name, y, lw)
+  local leftBottom = y
 
   -- The map: beside the counts, or under them on a narrow page; as large as the room allows.
   local rx, ry, rw = PAD, leftBottom + 12, inner
@@ -641,6 +674,60 @@ function Road.RefreshChapter()
     c.legend.missing:SetText(string.format(L["Not on the map yet: %d"], missing))
     c.legend.missing:Show()
   end
+end
+
+-- A chapter's newest moments (Journey.List, the zone's only) as rows under the seals, then "Every moment here".
+-- A row doesn't repeat the zone: it is the chapter's. Clicking one with a page opens it in Found. Returns the y under it.
+function Road.LayoutMoments(c, ck, zoneName, y, w)
+  local p, J = c.frame, ns.Journey
+  local engine = ns.UI.engine
+  local list = J.List and try(J.List, "all", function(_, _, zone)
+    return zone ~= nil and engine and engine:ZoneKey(zone) == ck
+  end) or {}
+  local shown = {}
+  for _, it in ipairs(list) do
+    if it.ev and #shown < MOMENTS then shown[#shown + 1] = it end
+  end
+  c.momentHead:SetShown(#shown > 0)
+  if #shown > 0 then
+    put(c.momentHead, p, PAD, y, w)
+    y = y + textH(c.momentHead, 11) + 4
+  end
+  local dot, zone = ns.Lang.Dotted("  ·  "), tostring(zoneName or "")
+  for i, it in ipairs(shown) do
+    local r = c.momentRows[i]
+    if not r then
+      r = ns.UI.TextButton(p, w, 32, T.font.body, nil, true)
+      r.text:ClearAllPoints()
+      r.text:SetPoint("TOPLEFT", 14, -2)
+      r.text:SetPoint("RIGHT", -4, 0)
+      if r.text.SetWordWrap then r.text:SetWordWrap(false) end
+      r.sub = ink(r, T.font.small, "inkNote")
+      r.sub:SetPoint("TOPLEFT", 14, -18)
+      r.sub:SetPoint("RIGHT", -4, 0)
+      if r.sub.SetWordWrap then r.sub:SetWordWrap(false) end
+      r.dot = T.Area(r, "inkAccent", "ARTWORK")
+      r.dot:SetSize(6, 6)
+      r.dot:SetPoint("TOPLEFT", 3, -7)
+      r:SetScript("OnClick", function(self) if self.key then ns.UI.OpenChronicle(self.key, "road") end end)
+      c.momentRows[i] = r
+    end
+    local sub = tostring(it.sub or "")
+    if sub == zone then sub = ""
+    elseif zone ~= "" and sub:sub(-#(dot .. zone)) == dot .. zone then sub = sub:sub(1, -#(dot .. zone) - 1) end
+    r.key = it.key and entries()[it.key] and it.key or nil
+    r:SetWidth(w)
+    r.text:SetText(T.code.ink .. esc(it.title) .. "|r")
+    r.sub:SetText(esc(sub))
+    r:ClearAllPoints()
+    r:SetPoint("TOPLEFT", p, "TOPLEFT", PAD - 6, -y)
+    r:Show()
+    y = y + 34
+  end
+  for i = #shown + 1, #c.momentRows do c.momentRows[i]:Hide() end
+  c.moments:ClearAllPoints()
+  c.moments:SetPoint("TOPLEFT", p, "TOPLEFT", PAD - 6, -(y + 2))
+  return y + 26
 end
 
 -- One zone's chapter page (nil: the whole road, the journey page as it was). The page for a zone shows its chapter;

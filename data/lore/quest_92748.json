@@ -17,16 +17,16 @@
   "wiki": "Explosive Consultation",
   "chain": []
  },
- "summary": "Explosive Consultation is an Alliance assignment originating in Westfall to combat toxic industrial operations hidden deep within the Deadmines. Following discoveries that point to heavy machinery poisoning local farmland, adventurers are dispatched to the Dwarven District of Stormwind to enlist an engineering specialist capable of supplying heavy explosives.",
+ "summary": "In Westfall, toxic industry beneath the Deadmines is poisoning the farmland. You travel to Stormwind's Dwarven District to seek an engineer who can supply heavy explosives.",
  "sections": [
   {
    "title": "A Toxic Source",
-   "body": "While Westfall contends with displaced vagrants and banditry under the Defias Brotherhood, evidence gathered across the region reveals a far more coordinated and mechanised threat festering beneath the earth. Industrial refuse and caustic toxins creeping into the surrounding soil have been traced directly back into the labyrinthine tunnels of the Deadmines, indicating that an organized operation is working tirelessly underground.",
+   "body": "Westfall faces displaced vagrants and banditry under the Defias Brotherhood. Evidence from across the region points to a coordinated, mechanised threat underground. Industrial refuse and caustic toxins foul the soil, and their trail leads into the Deadmines, where an organized operation works below the earth.",
    "spoiler": 0
   },
   {
    "title": "Seeking Stormwind's Expertise",
-   "body": "Conventional weaponry is insufficient to sabotage fortified subterranean infrastructure. Halting the poisoning of Westfall requires industrial demolition, prompting an urgent summons to Stormwind City's Dwarven District. There, among the roaring forges, tinkerers, and blasting powder merchants, an engineering mind named Sprite Jumpsprocket must be recruited to devise an explosive remedy.",
+   "body": "Fortified tunnels and machinery in the Deadmines call for more than ordinary weapons. To stop the poison reaching Westfall's fields, you seek help in Stormwind City's Dwarven District. Roaring forges, tinkerers, and merchants selling blasting powder fill the district. There you look for Sprite Jumpsprocket, an engineer who can devise explosives for the work.",
    "spoiler": 0
   }
  ],
@@ -38,7 +38,7 @@
     "why do we need bombs",
     "deadmines toxins reason"
    ],
-   "answer": "Evidence recovered in Westfall indicates that a massive industrial operation hidden inside the Deadmines is actively generating toxins that foul the surrounding farmland. Smashing reinforced machinery by hand is impractical, requiring heavy-duty ordnance to disable."
+   "answer": "Evidence from Westfall points to a large industrial operation in the Deadmines producing toxins that foul nearby farmland. Heavy explosives can disable its reinforced machinery."
   },
   {
    "q": "Who starts this quest?",
@@ -46,7 +46,7 @@
     "who gives explosive consultation",
     "explosive consultation start"
    ],
-   "answer": "Alba Fairmoon gives this task to heroes investigating the unnatural contaminants and unrest threatening Westfall."
+   "answer": "Alba Fairmoon sends heroes investigating the unnatural contaminants and unrest threatening Westfall."
   },
   {
    "q": "Who is Sprite Jumpsprocket?",
@@ -54,7 +54,7 @@
     "sprite jumpsprocket location",
     "who is jumpsprocket"
    ],
-   "answer": "Sprite Jumpsprocket is a gnome engineer residing in the Dwarven District of Stormwind. Known for working with complex mechanical devices and volatile compounds, she is sought out to craft high-yield demolitions."
+   "answer": "Sprite Jumpsprocket is a gnome engineer in Stormwind's Dwarven District. She works with complex mechanical devices and volatile compounds, and can craft powerful demolitions."
   },
   {
    "q": "Why travel to the Dwarven District for help?",
@@ -62,7 +62,7 @@
     "why dwarven district",
     "stormwind dwarven district connection"
    ],
-   "answer": "The Dwarven District serves as the industrial heart of Stormwind, housing the kingdom's premier blacksmiths, tinkerers, and suppliers of blasting powder and engineering components."
+   "answer": "Stormwind's Dwarven District is the city's industrial heart, with skilled blacksmiths, tinkerers, blasting powder, and engineering components."
   },
   {
    "q": "Does Stormwind's government assist with this effort?",
@@ -70,21 +70,21 @@
     "does the army help",
     "why stormwind engineer"
    ],
-   "answer": "With King Varian Wrynn missing and the House of Nobles reluctant to commit formal military garrisons to Westfall, local defenders must rely on independent volunteers and private craftsmen in the capital rather than regular army regiments."
+   "answer": "With King Varian Wrynn missing and the House of Nobles reluctant to send formal military garrisons to Westfall, local defenders rely on independent volunteers and private craftsmen in the capital instead of regular army regiments."
   }
  ],
  "angles": [
   {
    "target": "profession:Engineering",
-   "text": "Engineers will appreciate that brute force cannot solve Westfall's ecological plight; disabling large-scale underground machinery demands specialized munitions and meticulous technical expertise."
+   "text": "As an engineer, you know that brute force cannot solve Westfall's troubles with poisoned land. Disabling large underground machinery calls for specialized munitions and careful technical skill."
   },
   {
    "target": "race:Gnome",
-   "text": "Gnomish technological ingenuity is vital for neutralizing underground industrial threats that regular Alliance military forces fail to address."
+   "text": "As a gnome, you bring technological ingenuity that can help neutralize underground industrial threats beyond the reach of regular Alliance forces."
   },
   {
    "target": "faction:Alliance",
-   "text": "This task demonstrates the interdependence of Westfall's struggling frontier communities and the bustling workshops of Stormwind's Dwarven District."
+   "text": "As an Alliance member, you see how Westfall's struggling frontier communities depend on the workshops of Stormwind's Dwarven District."
   }
  ],
  "keywords": [
@@ -108,5 +108,6 @@
  ],
  "attribution": [
   "Explosive Consultation"
- ]
+ ],
+ "style": 1
 }

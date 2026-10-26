@@ -242,11 +242,11 @@ P.transport["quest:1039"] = {
   },
 }
 P.transport["quest:104"] = {
-  hash = "9f569a",
-  fullHash = "9f569a",
-  text = "The Coastal Menace. Captain Grayson's restless ghost watches the rocky coast of Westfall, haunted by the memory of the shipwreck that took his life and the slaughter of the lighthouse keeper's family. He charges travelers with hunting down the vicious murloc chieftain responsible: Old Murk-Eye. Slaying the beast brings a measure of justice to the shore and helps safeguard future sailors. The Westfall Lighthouse stands as the lone guide through the jagged shallows of the southern coast, but its flame has flickered through bloody tragedies. Captain Grayson lost his life when his vessel broke against the rocks in the dark, an accident precipitated when murlocs terrified the lighthouse keeper's family into fleeing their post. Though the family later returned and relit the flame, the reprieve was brief. The shoreline remained stalked by a particularly cunning and ruthless predator. Old Murk-Eye is not merely another wild beast prowling the tide pools. Grayson recounts watching the creature sway the weaker-minded murlocs along the coast, rallying them into a coordinated strike against the lighthouse. The second raid proved fatal, wiping out the keeper's family before Grayson's helpless spectral eyes. To bring peace to the dead and preserve what remains of safety on the Great Sea, the ghostly captain demands Murk-Eye's death and a scale as proof.",
+  hash = "290b47",
+  fullHash = "290b47",
+  text = "The Coastal Menace. Captain Grayson's ghost watches Westfall's rocky coast, where his ship broke on the rocks. He blames Old Murk-Eye for driving the lighthouse keeper's family from their post, then killing them in a later attack. Now he calls on travelers to hunt the murloc chieftain and bring justice to the shore. The Westfall Lighthouse once guided ships through the southern coast's jagged shallows. Captain Grayson's vessel struck the rocks in the dark after murlocs frightened the lighthouse keeper's family into leaving their post. The family returned and lit the flame again, but safety did not last. A cunning, ruthless predator still stalked the shore. Old Murk-Eye rallied the weaker-minded murlocs along the coast and led them against the lighthouse. The second attack killed the keeper's family while Captain Grayson watched, helpless. Now the ghostly captain calls for Murk-Eye's death and a scale as proof, hoping to bring peace to the dead and protect sailors on the Great Sea.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_104-aa6ef7a32019e9ae0a9d/1-0000.mp3", duration = 79.5167347, start = 0},
+    {file = "Audio/Transport/full_quest_104-b350650704d4c1e003e4/1-0000.mp3", duration = 59.4285714, start = 0},
   },
 }
 P.transport["quest:1040"] = {
@@ -434,19 +434,19 @@ P.transport["quest:1074"] = {
   },
 }
 P.transport["quest:1075"] = {
-  hash = "444b5b",
-  fullHash = "444b5b",
-  text = "A Scroll from Mauren. \"A Scroll from Mauren\" is an Alliance errand carrying word between gnome ingenuity and human arcane craft. The inventive Gaxim Rustfizzle requires a specialized spell to remotely trigger his volatile NG-5 explosives, dispatching couriers to consult with mage Collin Mauren in the heart of Stormwind. Gnomish engineering is legendary for ambitious concepts, but safe execution often requires clever solutions. When Gaxim Rustfizzle set out to design an explosive payload capable of remote activation, mechanical fuses proved insufficient. Rather than relying purely on mechanical timers or trailing cords, Gaxim envisioned a device that would detonate the NG-5 explosives at the push of a single button from a safe vantage point. To bridge the gap between volatile powder and instantaneous trigger, he turned his sights toward arcane magic. To acquire the necessary spellwork, Gaxim directs travelers across the kingdom to Stormwind's bustling Mage Quarter. There resides Collin Mauren, a human spellcaster whose practical understanding of the arcane makes him an ideal partner for ambitious tinkers. Mauren ponders the delicate problem of binding explosive ignition to a distant command, marking the first step in assembling the arcane incantation required to arm Gaxim's hazardous project.",
+  hash = "f68688",
+  fullHash = "f68688",
+  text = "A Scroll from Mauren. Gaxim Rustfizzle needs arcane help to trigger his NG-5 explosives from afar. He sends you to Collin Mauren in Stormwind, where gnomish ingenuity meets human arcane craft. Gaxim Rustfizzle seeks a safer way to set off his NG-5 explosives. Mechanical fuses cannot give him the remote trigger he wants: one button should ignite the charges while he stays at a safe distance. He turns to arcane magic to bridge that gap. Gaxim sends you to Collin Mauren in Stormwind's Mage Quarter for the needed spellwork. Mauren is a human spellcaster whose practical knowledge of the arcane may help bind an explosive ignition to a distant command. His work begins the incantation Gaxim needs for his dangerous project.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_1075-ba953b91e0aaafe5bfe5/1-0000.mp3", duration = 82.7036735, start = 0},
+    {file = "Audio/Transport/full_quest_1075-ca1a93ef039032fe1846/1-0000.mp3", duration = 46.08, start = 0},
   },
 }
 P.transport["quest:1076"] = {
-  hash = "af3960",
-  fullHash = "af3960",
-  text = "Devils in Westfall. \"Devils in Westfall\" is an Alliance errand undertaken for Collin Mauren in the Mage Quarter of Stormwind. Tasked with aiding an eccentric experiment by the gnome inventor Gaxim Rustfizzle, adventurers are sent into the desolate plains of Westfall to gather volatile debris from living dust devils. The collected dust provides the raw magical component needed to enchant a specialized messaging scroll. The wizard Collin Mauren is assisting the tinkerer Gaxim Rustfizzle with an unusual venture, but arcane work requires specialized reagents. To enchant a scroll capable of carrying Gaxim's desired messaging spell, Mauren cannot rely on simple ink and vellum alone. The swirling elemental magic trapped within Westfall's native dust devils provides the exact volatile medium needed to bind the spell into parchment form. Westfall was once the fertile breadbasket of Stormwind, but drought, banditry, and neglect have left the land arid and wild. Swirling dust devils now roam the untamed fields, posing a hazard to travelers and lone homesteaders alike. By defeating one of these living whirlwinds and gathering its residue, adventurers retrieve the focused elemental essence required to bring the mage's enchantment to life.",
+  hash = "0aab45",
+  fullHash = "0aab45",
+  text = "Devils in Westfall. Dust devils roam Westfall, and Collin Mauren needs their remains for a spell. The Mage Quarter wizard is helping Gaxim Rustfizzle with an unusual experiment. Their work calls for a messaging scroll, and the dust holds what Mauren needs to enchant it. Collin Mauren is preparing a messaging scroll for Gaxim Rustfizzle. The wizard is helping the tinkerer with an unusual venture, but the spell needs more than ink and vellum. Dust devils roam Westfall with elemental magic swirling within them. Their remains provide the volatile medium Mauren needs to bind Gaxim's spell to parchment. Westfall was once Stormwind's fertile breadbasket. Drought, banditry, and neglect have left its fields arid and wild. Dust devils roam there, threatening travelers and lone homesteaders. Their residue holds the focused elemental essence Mauren needs to complete the enchantment.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_1076-0f17f88eb0b3450df200/1-0000.mp3", duration = 76.3820408, start = 0},
+    {file = "Audio/Transport/full_quest_1076-f9fc62a7ba97564b730d/1-0000.mp3", duration = 54.804898, start = 0},
   },
 }
 P.transport["quest:1077"] = {
@@ -1034,59 +1034,59 @@ P.transport["quest:124"] = {
   },
 }
 P.transport["quest:1241"] = {
-  hash = "901066",
-  fullHash = "901066",
-  text = "The Missing Diplomat. An urgent discreet investigation begins within Stormwind City after an Alliance diplomat fails to arrive at Theramore Isle. Bishop DeLavey suspects Defias foul play and dispatches trusted operatives to consult Jorgen, a quiet contact stationed in the Valley of Heroes. A high-ranking diplomat departed the Eastern Kingdoms bound for Theramore Isle to conduct sensitive talks with Lady Jaina Proudmoore. The envoy vanished before ever making landfall. While royal investigators comb Stormwind for leads, the disappearance has been kept strictly under wraps to avoid widespread panic or tipping off conspirators who might be watching the crown's every move. Believing the Defias Brotherhood is involved in the diplomat's abduction, Bishop DeLavey opts not to rely solely on the king's formal guard. Instead, the bishop reaches out to unofficial and discreet channels, turning to Jorgen, an old acquaintance who keeps a low profile fishing in the Valley of Heroes just inside the city gates.",
+  hash = "a4ca93",
+  fullHash = "a4ca93",
+  text = "The Missing Diplomat. In Stormwind, an urgent inquiry begins after a diplomat fails to reach Theramore Isle. Bishop DeLavey suspects Defias foul play and sends trusted operatives to Jorgen, a discreet contact in the Valley of Heroes. A high-ranking diplomat sailed from the Eastern Kingdoms to meet Lady Jaina Proudmoore in Theramore Isle for sensitive talks, but never arrived. Royal investigators search Stormwind for clues. The disappearance remains secret to prevent panic and keep conspirators from learning that the crown is watching. Bishop DeLavey believes the Defias Brotherhood abducted the diplomat, but does not rely only on the king’s guard. He turns to discreet contacts and seeks out Jorgen, an old acquaintance who keeps a low profile fishing in the Valley of Heroes, just inside the city gates.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_1241-2ede3d3d515f0c92333e/1-0000.mp3", duration = 57.9134694, start = 0},
+    {file = "Audio/Transport/full_quest_1241-dee9fbb40e51757d5fc6/1-0000.mp3", duration = 48.4832653, start = 0},
   },
 }
 P.transport["quest:1242"] = {
-  hash = "55a366",
-  fullHash = "55a366",
-  text = "The Missing Diplomat. This errand directs investigators from Jorgen in the Valley of Heroes to Elling Trias, the proprietor of Trias' Cheese in Stormwind's Trade District. Carrying a discreet sealed note, it bridges palace concerns about the missing diplomat into the quiet contacts kept behind the counter of a modest cheese shop. Following initial inquiries into the disappearance of an unnamed diplomat, Jorgen directs trusted operatives to keep their mouths firmly shut and carry a sealed note across the city. The destination is not an official barracks or a magistrate's office, but Trias' Cheese, nestled in the busy Trade District. The secretive nature of the handover hints at how delicate the matter has become, bypassing ordinary guard channels in favor of informal intelligence.",
+  hash = "faf1fe",
+  fullHash = "faf1fe",
+  text = "The Missing Diplomat. Jorgen sends trusted operatives across Stormwind with a sealed note for Elling Trias. The delivery carries the search for the missing diplomat from the Valley of Heroes to Trias' Cheese in the Trade District. After the first inquiries into the diplomat's disappearance, Jorgen asks trusted operatives to keep silent and carry a sealed note across the city. It is meant for Trias' Cheese in Stormwind's Trade District, not a barracks or magistrate's office. The handoff avoids ordinary guard channels as concern over the missing diplomat reaches beyond the palace.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_1242-502a94d0ee082c281d37/1-0000.mp3", duration = 46.4979592, start = 0},
+    {file = "Audio/Transport/full_quest_1242-2d8f6a070ab633b1ee69/1-0000.mp3", duration = 35.2130612, start = 0},
   },
 }
 P.transport["quest:1243"] = {
-  hash = "750e54",
-  fullHash = "750e54",
-  text = "The Missing Diplomat. This errand within the investigation of Stormwind's vanished emissary sends you south into the gloomy realm of Duskwood. Acting on leads secured in the capital, master of cheese Elling Trias dispatches you to contact Watcher Backus near Darkshire to uncover traces of Defias activity. Following a frustrating exchange involving Jorgen, cheesemonger Elling Trias decides to leverage his broader network of informants. Rather than squander his own coin sending out professional agents, he directs you to undertake the legwork yourself. You are charged with carrying a sealed missive across the border into Duskwood, a shadowed land beleaguered by beasts, the undead, and worse. Your target is Watcher Backus, a member of the Night Watch patrolling the northern approach to Darkshire. Despite the perils that make Duskwood treacherous for ordinary travelers, Trias relies on Backus as a dependable source of intelligence regarding illicit movements. Presenting the sealed dispatch opens the door to municipal guard records and local gossip concerning Defias Brotherhood operations in the south.",
+  hash = "074885",
+  fullHash = "074885",
+  text = "The Missing Diplomat. Elling Trias sends you south to seek news of the missing diplomat. Leads in Stormwind point toward Duskwood and Watcher Backus, a contact near Darkshire who may know of Defias activity. After a frustrating exchange with Jorgen, cheesemonger Elling Trias turns to his wider circle of informants. To save his own coin, he sends you to do the fieldwork instead of hiring agents. You carry a sealed missive across the border into Duskwood, where beasts and the undead make travel dangerous. Watcher Backus serves in the Night Watch and patrols the northern approach to Darkshire. Trias trusts him to report illicit movements through Duskwood, despite the dangers on its roads. Show Backus the sealed dispatch, and he can share guard records and local gossip about Defias Brotherhood operations in the south.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_1243-4d08b29279f747aa889e/1-0000.mp3", duration = 64.6269388, start = 0},
+    {file = "Audio/Transport/full_quest_1243-093b0541a9af7506a863/1-0000.mp3", duration = 48.9012245, start = 0},
   },
 }
 P.transport["quest:1244"] = {
-  hash = "9f97bc",
-  fullHash = "9f97bc",
-  text = "The Missing Diplomat. This leg of the investigation directs Alliance agents into the shadows of Duskwood following the trail of Stormwind's vanished emissary. Acting on information from Watcher Backus, investigators must search the derelict farmstead of Addle's Stead to uncover Defias paperwork. After following whisperings of conspiracy outside Stormwind's walls, the search for the missing diplomat reaches the Night Watch in Duskwood. Watcher Backus notes that while Defias bandits usually keep to themselves across the border, an unusually large gathering converged at Addle's Stead several weeks prior. For an organization operating largely out of Westfall, such concentrated activity in the dark woods suggests something critical transpired on that abandoned farmland.",
+  hash = "d017e5",
+  fullHash = "d017e5",
+  text = "The Missing Diplomat. In Duskwood, the search for Stormwind's missing diplomat follows a lead from Watcher Backus to Defias papers at Addle's Stead. Watcher Backus of the Night Watch brings the search to Duskwood. He says an unusually large gathering of Defias bandits came to Addle's Stead several weeks ago. The bandits usually keep to themselves across the border in Westfall, so their gathering in the dark woods marks an unusual move. Now you search the abandoned farmstead for the papers they left behind.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_1244-c08fa3a57e15d18a0a7c/1-0000.mp3", duration = 44.7216327, start = 0},
+    {file = "Audio/Transport/full_quest_1244-66d0883e381631825242/1-0000.mp3", duration = 28.3167347, start = 0},
   },
 }
 P.transport["quest:1245"] = {
-  hash = "eebb6d",
-  fullHash = "eebb6d",
-  text = "The Missing Diplomat. This errand within the sprawling investigation sends you racing back to Stormwind with the recovered Defias Docket. What began as a quiet inquiry into a missing diplomat is steadily uncovering a conspiracy far broader and more perilous than local night watchmen dare touch. Upon recovering the Defias Docket in the shadowed forests of Duskwood, Watcher Backus wants nothing more to do with it. The papers detail schemes far too intricate to be mere banditry or diversionary tactics. Terrified of royal retribution and wary of his own superiors in the Night Watch, Backus urges you to keep his involvement entirely quiet. The documents speak of machinations dangerous enough to end careers or cost lives, leaving the investigator no choice but to carry the dangerous prize directly back to the capital.",
+  hash = "a8ebed",
+  fullHash = "a8ebed",
+  text = "The Missing Diplomat. You carry the recovered Defias Docket back to Stormwind as the search for a missing diplomat grows more dangerous. In Duskwood, Watcher Backus wants no part of the Defias Docket you recovered. Its papers describe plans too intricate to be simple banditry or a diversion. Afraid of royal punishment and wary of his Night Watch superiors, Backus asks you to keep his involvement quiet. The papers point to schemes dangerous enough to end careers or cost lives, so you carry them to Stormwind.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_1245-ad5ca61aeb58308c8c91/1-0000.mp3", duration = 47.4383673, start = 0},
+    {file = "Audio/Transport/full_quest_1245-2ddef646455c08b9fdfc/1-0000.mp3", duration = 29.3093878, start = 0},
   },
 }
 P.transport["quest:1246"] = {
-  hash = "2c179c",
-  fullHash = "2c179c",
-  text = "The Missing Diplomat. This errand leads investigators deep into Old Town to confront a known street brawler tied to suspicious papers. Guided by the cheese merchant Elling Trias, you must seek out Dashel Stonefist and pry answers from him by any means necessary. The trail surrounding the missing diplomat is rapidly shifting from court intrigue to Stormwind's rough underbelly. After examining the coded notes and leads tied to the missing diplomat, Master Trias recalls a key figure connected to the operation: a rough street fighter named Dashel Stonefist, colloquially known as 'Fist'. Rather than rubbing shoulders with nobility in the Cathedral Square, Stonefist frequents the cramped alleys of Old Town. Tracking him down represents the first physical thread pulling the investigation away from the grand halls of Stormwind Keep and into the city's criminal circles.",
+  hash = "c97a8c",
+  fullHash = "c97a8c",
+  text = "The Missing Diplomat. In Old Town, a lead in the missing diplomat's case points to a street fighter. Elling Trias sends you to find Dashel Stonefist and get answers about the suspicious papers. The investigation reaches Stormwind's rough streets. Elling Trias recalls a name tied to the coded notes and leads: Dashel Stonefist, known as Fist. He is a rough street fighter, far from the nobility around Cathedral Square. Stonefist keeps to Old Town's cramped alleys. Finding him draws the search out of Stormwind Keep's grand halls and into the city's criminal circles.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_1246-c0aeb2134d1ae0ce20e1/1-0000.mp3", duration = 49.684898, start = 0},
+    {file = "Audio/Transport/full_quest_1246-6edaaee866a6079e0e49/1-0000.mp3", duration = 37.1461224, start = 0},
   },
 }
 P.transport["quest:1247"] = {
-  hash = "fbc123",
-  fullHash = "fbc123",
-  text = "The Missing Diplomat. This step in the investigation of Stormwind's missing envoy follows the interrogation of Dashel Stonefist in Old Town. Having beaten a confession out of the thug, you carry word of a backup abduction plot back to the spymaster disguised as a master of cheese, Elling Trias. Dashel Stonefist is not the kind of operative who takes secrets to the grave, especially once convinced his health is on the line. Cornered in his Old Town alley, Dashel folds and admits that his role in the kidnapping crumbled when the conspirators' initial plan fell apart. Desperate to deflect blame, he points to a clandestine meeting held weeks earlier at Addle's Stead in Duskwood and offers a single lead for their backup operation: an insider operating out of Menethil Harbor known only as Slim.",
+  hash = "0b297c",
+  fullHash = "0b297c",
+  text = "The Missing Diplomat. Dashel Stonefist has confessed in Old Town, and you carry his warning to Elling Trias. The thug names a backup abduction plot and a contact in Menethil Harbor. Dashel Stonefist gives up when he fears for his health. In an Old Town alley, he admits the conspirators' first kidnapping plan fell apart, leaving his part in the plot in ruins. To shift blame, he tells you of a secret meeting weeks ago at Addle's Stead in Duskwood. He also names one lead in their backup plan: an insider in Menethil Harbor known only as Slim.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_1247-39b29d07642e3ebf03b8/1-0000.mp3", duration = 46.3412245, start = 0},
+    {file = "Audio/Transport/full_quest_1247-edf5208b5c4310f2e8ec/1-0000.mp3", duration = 31.764898, start = 0},
   },
 }
 P.transport["quest:126"] = {
@@ -1106,11 +1106,11 @@ P.transport["quest:127"] = {
   },
 }
 P.transport["quest:1274"] = {
-  hash = "891af3",
-  fullHash = "891af3",
-  text = "The Missing Diplomat. The Missing Diplomat is the introductory step in one of Stormwind's most critical and sensitive investigations. Brought to your attention discreetly on the city streets, the matter leads directly to Bishop DeLavey in Stormwind Keep. The Church and the crown require capable hands for an issue too perilous to trust to public channels. While traveling through Stormwind, an unassuming altar boy named Thomas approaches trustworthy adventurers with a quiet request. Bishop DeLavey, a respected figure within the Church of the Holy Light stationed at Stormwind Keep, needs an outsider's assistance. The matter is described strictly as delicate and urgent, requiring complete discretion to avoid inciting panic among the populace.",
+  hash = "a24ffa",
+  fullHash = "a24ffa",
+  text = "The Missing Diplomat. A quiet request in Stormwind draws you to Bishop DeLavey in Stormwind Keep. The Church and crown need help with a matter too perilous for public channels. As you travel through Stormwind, Thomas, an altar boy, approaches with a quiet request. Bishop DeLavey, a respected cleric of the Church of the Holy Light, needs an outsider's help at Stormwind Keep. He calls the matter delicate and urgent. You must keep it discreet, lest the people panic.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_1274-ead85d4020751c4748b9/1-0000.mp3", duration = 44.4081633, start = 0},
+    {file = "Audio/Transport/full_quest_1274-22f0e7aa50acd987bec6/1-0000.mp3", duration = 26.9844898, start = 0},
   },
 }
 P.transport["quest:1275"] = {
@@ -1698,11 +1698,11 @@ P.transport["quest:164"] = {
   },
 }
 P.transport["quest:1649"] = {
-  hash = "b718df",
-  fullHash = "b718df",
-  text = "The Tome of Valor. The Tome of Valor represents a sacred transitional trial for rising paladins within the Cathedral of Light. Guided by holy texts and seasoned instructors, aspirants seek out Duthorian Rall in Stormwind to prove their unyielding faith, courage, and dedication to the Church's virtues. Within the traditions of the Holy Light, valor is not considered an innate trait that remains pure on its own. The sacred text of the Tome compares virtues to precious, unrefined ores: valuable upon discovery, yet requiring careful smelting and refinement to endure hardship. Only through strenuous trials and true commitment can a paladin fuse faith, compassion, and courage into an alloy capable of resisting the darkest evils threatening Azeroth. Having absorbed the wisdom laid down within the Tome of Valor, the paladin is directed to Duthorian Rall, a respected leader among the paladins gathered in Stormwind's Cathedral of Light. Duthorian serves as the arbiter for those petitioning to face the trials of valor. He warns aspirants that the tests ahead are no mere ritual: defending the innocent and upholding the Church demands readiness to sacrifice one's life, ensuring only the truly steadfast earn recognition in the order.",
+  hash = "e888d7",
+  fullHash = "e888d7",
+  text = "The Tome of Valor. Duthorian Rall awaits paladins seeking trials of faith and courage in Stormwind. The Tome of Valor guides their first steps toward proving their devotion to the Church. The Tome of Valor teaches that valor must be forged through hardship. Its sacred text compares virtues to precious ores, valuable when found but needing refinement to endure. Through hard trials and true commitment, a paladin binds faith, compassion, and courage into a strength that can resist the evils threatening Azeroth. After reading the Tome of Valor, you are directed to Duthorian Rall, a respected leader among the paladins in Stormwind's Cathedral of Light. He hears petitions from those seeking the trials of valor. The tests are no mere ritual: defending the innocent and upholding the Church may demand your life, and only the steadfast earn recognition in the order.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_1649-4333e7cdcd44baaa6c94/1-0000.mp3", duration = 72.5420408, start = 0},
+    {file = "Audio/Transport/full_quest_1649-6acb753713e2481cc4d4/1-0000.mp3", duration = 52.0881633, start = 0},
   },
 }
 P.transport["quest:165"] = {
@@ -1714,35 +1714,35 @@ P.transport["quest:165"] = {
   },
 }
 P.transport["quest:1650"] = {
-  hash = "2d18fb",
-  fullHash = "2d18fb",
-  text = "The Tome of Valor. This quest represents the second trial in the paladin's pursuit of the Tome of Valor. Duthorian Rall dispatches knights to the distant shores of Westfall to shield Daphne Stilwell, a secluded homesteader left vulnerable to surrounding Defias bandits. Within the Cathedral of Light, Duthorian Rall tests aspiring paladins not merely through scripture or solitary devotion, but through the direct defense of the realm's people. Having embraced the mantle of valor, paladins are immediately tasked with putting their ideals into practice where authority and law have broken down. The destination is the isolated Longshore of Westfall, where Daphne Stilwell and her husband Jordan maintain an outpost against the ocean. With Jordan away in Ironforge consulting dwarven blacksmiths, Daphne has been left on her own amid rampant Defias Brotherhood activity. Duthorian orders the paladin to ride westward and stand as her shield before the thieves overwhelm her solitary homestead.",
+  hash = "12e5b0",
+  fullHash = "12e5b0",
+  text = "The Tome of Valor. Duthorian Rall sends a paladin to protect Daphne Stilwell on Westfall's distant shore. With her husband away, Defias bandits threaten her homestead. At Stormwind's Cathedral of Light, Duthorian Rall tests aspiring paladins by asking them to defend the realm's people. After accepting the mantle of valor, you put those ideals to work where law and authority have failed. Daphne Stilwell and her husband Jordan keep an outpost at Westfall's isolated Longshore. Jordan is away in Ironforge, consulting dwarven blacksmiths, and Defias Brotherhood activity is rampant. Duthorian sends you west to protect Daphne before the thieves overwhelm her homestead.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_1650-d658c9868287ecdcbba8/1-0000.mp3", duration = 58.9583673, start = 0},
+    {file = "Audio/Transport/full_quest_1650-174f200b231eddab865f/1-0000.mp3", duration = 41.0644898, start = 0},
   },
 }
 P.transport["quest:1651"] = {
-  hash = "6bae01",
-  fullHash = "6bae01",
-  text = "The Tome of Valor. A pivotal trial for developing paladins, this task demands the defense of Daphne Stilwell's homestead against a coordinated Defias raid. Outnumbered in the open fields of Westfall, the paladin must hold the line to embody the core tenet of valor. While pursuing the virtues recorded in the Tome of Valor, a paladin is directed to the embattled homestead of Daphne Stilwell in Westfall. The farm sits squarely in territory contested by the Defias Brotherhood, who have made repeated attempts to overrun the property and eliminate Daphne. Knowing a retaliatory strike is imminent after earlier skirmishes, the defender must make a resolute stand beside her house rather than retreat to safer ground. Armed with only her personal firearm and what blessings the Holy Light can provide, Daphne and the paladin face wave after wave of Defias raiders. Unlike solitary combat, this trial tests a guardian's ability to protect the vulnerable under crushing pressure. Weathering the onslaught proves that true valor is not merely the pursuit of personal glory, but the willingness to stand between innocent civilians and ruthless violence.",
+  hash = "900481",
+  fullHash = "900481",
+  text = "The Tome of Valor. At Daphne Stilwell's farm in Westfall, a paladin faces a trial of valor. The Defias Brotherhood is pressing the homestead, and Daphne needs a defender at her side. Daphne Stilwell's homestead in Westfall lies in land contested by the Defias Brotherhood. While seeking the virtues recorded in the Tome of Valor, you are sent to defend her farm. The Defias have tried repeatedly to overrun the property and kill Daphne. After earlier clashes, another attack is expected. You must stand beside her house instead of retreating to safer ground. Daphne and you face wave after wave of Defias raiders. She has only her personal firearm, while you have the blessings of the Holy Light. The fight tests whether you can protect someone vulnerable under heavy pressure. True valor is not the pursuit of personal glory, but the willingness to stand between innocent civilians and ruthless violence.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_1651-50117a9d85a61a4e729d/1-0000.mp3", duration = 70.1387755, start = 0},
+    {file = "Audio/Transport/full_quest_1651-873ff9c499e301bad86e/1-0000.mp3", duration = 53.1330612, start = 0},
   },
 }
 P.transport["quest:1652"] = {
-  hash = "e82804",
-  fullHash = "e82804",
-  text = "The Tome of Valor. This quest marks the conclusion of the trials of valor set forth by the Church of the Holy Light in Stormwind. After defending the isolated Stilwell homestead from bandits in Westfall, an aspiring paladin returns to Duthorian Rall to report Daphne's safety. It cements the sacred duty of the paladin to serve as a selfless shield for the innocent. The path of a paladin is not merely defined by combat prowess, but by the will to stand between danger and the defenseless. When Daphne Stilwell found herself besieged on her farm in Westfall, the Church of the Holy Light dispatched an initiate to hold the line. Returning to the Cathedral of Light in Stormwind, the initiate delivers the news that the homestead holds firm, proving that their courage matches their conviction. Daphne's husband, Jordan Stilwell, is away in Ironforge assisting the efforts of the Alliance with his renowned craftsmanship. With the homestead guarded and Daphne secure, Duthorian Rall prepares word to travel north to the dwarven mountain city. Reassuring Jordan that his family remains protected allows the artisan to focus on his work, highlighting how mutual aid and paladin devotion bind the Alliance together across distant lands.",
+  hash = "838c83",
+  fullHash = "838c83",
+  text = "The Tome of Valor. At the Cathedral of Light in Stormwind, word returns that Daphne Stilwell is safe. After defending her Westfall homestead from bandits, an aspiring paladin reports to Duthorian Rall, completing the Church of the Holy Light's trials of valor. The Church's charge is to shield the innocent without thought for oneself. Daphne Stilwell's homestead in Westfall is safe after an initiate of the Church of the Holy Light defended it from bandits. Back at the Cathedral of Light in Stormwind, the aspiring paladin reports her safety to Duthorian Rall. The defense shows the courage and conviction expected of one who stands between danger and the defenseless. Daphne's husband, Jordan Stilwell, is in Ironforge, where he lends his renowned craftsmanship to the Alliance. With Daphne safe and the homestead guarded, Duthorian Rall prepares to send word north to Jordan. Reassured that his family is protected, the artisan can focus on his work. Their distant homes are bound by the aid the Alliance gives across its lands.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_1652-1d23f7caef46b97c9aa6/1-0000.mp3", duration = 74.1877551, start = 0},
+    {file = "Audio/Transport/full_quest_1652-ca85f961ec4049840875/1-0000.mp3", duration = 58.7232653, start = 0},
   },
 }
 P.transport["quest:1653"] = {
-  hash = "e7af2b",
-  fullHash = "e7af2b",
-  text = "The Test of Righteousness. The Test of Righteousness marks the transition from defending the innocent in Westfall to embarking on the construction of a paladin's sacred weapon. Entrusted by Duthorian Rall, the initiate travels to Ironforge to bring glad tidings to the devout smith Jordan Stilwell. Having stood guard over Daphne Stilwell during a harrowing Defias ambush on her Westfall homestead, a paladin initiate returns to Cathedral Square to report. Duthorian Rall recognizes that word must reach her husband, Jordan Stilwell, who left for Ironforge believing his family in jeopardy. Rall sends the young knight to deliver the relief in person, serving both as an act of fellowship and the prelude to a deeper undertaking. Jordan Stilwell was originally destined for the holy order of paladins, yet chose to honor his father's craft as a master weapon-smith without ever forsaking his faith. Setting up his anvil outside the gates of Ironforge to work in the bracing mountain air, Jordan relies on his spiritual devotion to guide his hammer. Upon hearing that his wife survived the Defias assault, his profound gratitude moves him to aid the paladin in forging a blessed weapon of righteousness.",
+  hash = "081a36",
+  fullHash = "081a36",
+  text = "The Test of Righteousness. In Ironforge, glad tidings bring Jordan Stilwell news of his wife. Duthorian Rall sends you from Westfall to tell the devout smith that Daphne survived the Defias attack. Duthorian Rall sends you from Cathedral Square with news for Jordan Stilwell. You have guarded Daphne Stilwell through a Defias ambush at her Westfall homestead, and she survived. Her husband left for Ironforge believing his family was in danger. Rall asks you to carry the news in person, so Jordan can know his wife is safe. Jordan Stilwell was once destined to join the paladins, but chose to follow his father's craft as a master weaponsmith. He works at his anvil outside Ironforge's gates, keeping his faith as he shapes weapons. When you tell him Daphne survived the Defias attack, gratitude moves him to help you forge a blessed weapon of righteousness.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_1653-54014cbc94664ca08f11/1-0000.mp3", duration = 71.5232653, start = 0},
+    {file = "Audio/Transport/full_quest_1653-ed93dc82e92ecd90ceae/1-0000.mp3", duration = 50.1812245, start = 0},
   },
 }
 P.transport["quest:1654"] = {
@@ -1794,11 +1794,11 @@ P.transport["quest:169"] = {
   },
 }
 P.transport["quest:1698"] = {
-  hash = "786b71",
-  fullHash = "786b71",
-  text = "Yorus Barleybrew. Yorus Barleybrew is an Alliance warrior summons directing seasoned fighters out of Stormwind toward the borderlands of Redridge. Issued by martial trainers across the Alliance capitals, it sends ambitious combatants to meet an eccentric dwarf laying down a deadly challenge at the Lakeshire Inn. Warrior trainers across the Alliance capitals, including Kelv Sternhammer, Wu Shen, and Darnath Bladesinger, keep a close eye on fighters who have outgrown basic drills. When an apprentice proves their mettle around their twentieth season, these masters pass along word of a dwarf named Yorus Barleybrew. Rather than issuing a standard military directive, Barleybrew has put out an open wager and a test of arms to any Alliance warrior bold enough to answer. Barleybrew has stationed himself at the tavern in Lakeshire, right on the front lines of Redridge's struggle against encroaching gnolls and Blackrock orcs. Those who track him down find a boastful dwarf with a hearty drink in hand, ready to size up any challenger who claims to possess real fighting spirit. For warriors seeking to prove themselves beyond the safe cobbled streets of the capital, his trial marks an initiation into harsher frontier battles.",
+  hash = "064fd5",
+  fullHash = "064fd5",
+  text = "Yorus Barleybrew. At the Lakeshire Inn, Yorus Barleybrew awaits Alliance warriors bold enough to answer his challenge. Trainers across Alliance capitals send seasoned fighters from Stormwind toward the Redridge borderlands to meet the eccentric dwarf and face his test of arms. Across Alliance capitals, warrior trainers watch fighters who have outgrown their first drills. When an apprentice proves their mettle around their twentieth season, trainers such as Kelv Sternhammer, Wu Shen, and Darnath Bladesinger pass along word of Yorus Barleybrew. The dwarf offers no standard military order. Instead, he has issued an open wager and a test of arms to any Alliance warrior bold enough to answer. Yorus Barleybrew waits at the tavern in Lakeshire, on the front lines of Redridge's struggle against encroaching gnolls and Blackrock orcs. Those who find him meet a boastful dwarf with a hearty drink in hand, ready to judge any challenger who claims true fighting spirit. For warriors seeking to prove themselves beyond the capital's safe cobbled streets, his trial opens onto the harsher battles of the frontier.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_1698-f5f0ee77902d5b13d911/1-0000.mp3", duration = 72.4636735, start = 0},
+    {file = "Audio/Transport/full_quest_1698-91de07f0a66a37c322a3/1-0000.mp3", duration = 64.5485714, start = 0},
   },
 }
 P.transport["quest:1699"] = {
@@ -1818,19 +1818,19 @@ P.transport["quest:1700"] = {
   },
 }
 P.transport["quest:1701"] = {
-  hash = "e2d6de",
-  fullHash = "e2d6de",
-  text = "Fire Hardened Mail. \"Fire Hardened Mail\" is an Alliance warrior quest offered by the dwarf armorer Furen Longbeard in Stormwind City. Building upon his previous smithing work, Furen promises to fashion a suit of exceptionally durable mail armor if the warrior can retrieve rare alchemical and beast-harvested components scattered across both continents. After forging an exceptional buckler for the aspiring warrior, Furen Longbeard proposes an even greater project: a suit of mail hardened against the fiercest blows. Such dwarf craftsmanship requires more than mere iron or steel; it demands exotic materials imbued with elemental heat and natural resilience. Because the smith cannot abandon his forge in Stormwind, the burden of collecting these hazardous reagents falls entirely upon the warrior seeking the armor. Furen's detailed instructions send the warrior to distant wildernesses and treacherous depths. The recipe requires fangs harvested from the venomous arachnids crawling through the damp crevices of the Wetlands, as well as scorched and galvanized horns stripped from the fierce chimaeras nesting in the Stonetalon Mountains. To bind and temper these beast parts into wearable mail, the armor also calls for a vial of volatile phlogiston seized from Roogug, a geomancer deep inside the bristling thorn-labyrinths of Razorfen Kraul in the Barrens.",
+  hash = "ed73be",
+  fullHash = "ed73be",
+  text = "Fire Hardened Mail. In Stormwind, Furen Longbeard has a new armor design for an Alliance warrior. The dwarf armorer offers to forge Fire Hardened Mail if the warrior brings him rare materials from both continents. Furen Longbeard has forged an exceptional buckler for the aspiring warrior and now proposes a greater work: mail made to withstand fierce blows. His craft calls for more than iron or steel. He needs rare materials touched by elemental heat and natural resilience. Furen cannot leave his Stormwind forge, so the warrior seeking the armor must gather these dangerous ingredients. Furen sends the warrior to distant wilds and dangerous depths for the parts he needs. The recipe calls for fangs from venomous spiders in the damp crevices of the Wetlands, along with scorched and galvanized horns from fierce chimaeras in the Stonetalon Mountains. To bind and temper those beast parts into mail, Furen also needs volatile phlogiston from Roogug, a geomancer deep within Razorfen Kraul's thorny maze in the Barrens.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_1701-5dc7d6f105e1f8da6185/1-0000.mp3", duration = 79.4383673, start = 0},
+    {file = "Audio/Transport/full_quest_1701-733696b7519ffa336a20/1-0000.mp3", duration = 62.197551, start = 0},
   },
 }
 P.transport["quest:1702"] = {
-  hash = "2df517",
-  fullHash = "2df517",
-  text = "The Shieldsmith. Following a harrowing trial in the Redridge Mountains, Yorus Barleybrew sends warriors to Stormwind's Dwarven District to collect their true reward. Bearing a potent cask of Barleybrew Scalder, martial travelers seek out master armorer Furen Longbeard to fashion a stout shield. After proving their mettle against the gnolls and perils of the Rethban Gauntlet, warriors expect compensation from Yorus Barleybrew. While Yorus honors his bargain, the true prize cannot be hammered out in Lakeshire. Instead, he directs promising fighters back to Stormwind City, where a dwarven armorer stands ready to repay a personal debt. Rather than a parchment letter of credit, Yorus provides currency far more persuasive to a thirsty Ironforge artisan: a heavy cask of Barleybrew Scalder. Delivered to Furen Longbeard amidst the clatter and soot of the Dwarven District, the brew serves as both introduction and payment, prompting the seasoned smith to lend his craft to an aspiring protector.",
+  hash = "cf422e",
+  fullHash = "cf422e",
+  text = "The Shieldsmith. In Stormwind, Yorus Barleybrew sends warriors back after a harrowing trial in the Redridge Mountains. He gives them a cask of Barleybrew Scalder to take to Furen Longbeard, who will fashion a stout shield. After you prove your mettle against the gnolls and perils of the Rethban Gauntlet, Yorus Barleybrew honors his bargain. The promised reward cannot be hammered out in Lakeshire, so he directs promising fighters back to Stormwind City. A dwarven armorer there stands ready to repay a personal debt. Yorus gives you a heavy cask of Barleybrew Scalder instead of a letter of credit. Take it to Furen Longbeard in Stormwind's Dwarven District, where soot and hammer-clatter fill the air. The seasoned smith recognizes the name behind the delivery and lends his craft to a warrior seeking a stout shield.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_1702-b65375b9a3c6967b9bc4/1-0000.mp3", duration = 58.0963265, start = 0},
+    {file = "Audio/Transport/full_quest_1702-5f83f3c660bbb68c5c16/1-0000.mp3", duration = 48.4832653, start = 0},
   },
 }
 P.transport["quest:1703"] = {
@@ -1850,19 +1850,19 @@ P.transport["quest:1704"] = {
   },
 }
 P.transport["quest:1705"] = {
-  hash = "2fb5f3",
-  fullHash = "2fb5f3",
-  text = "Burning Blood. Master smith Grimand Elmore in Stormwind tasks an adventurer with venturing into the shadowy forests of Duskwood to recover exotic forge reagents. Intrigued by innovative armorcrafting techniques pioneered by Furen Longbeard, Grimand requires burning blood and a blazing ember stone held by feral worgen to test the process himself. Grimand Elmore, one of the Alliance's most accomplished armorers, rarely concedes that another craftsman might outshine his own methods. Yet, after hearing of Furen Longbeard's unconventional smithing discoveries, professional curiosity overtakes his stubborn pride. Grimand agrees to put Furen's methods to the test by hammering out a bespoke piece of armor. To quench and temper the metal to exact specifications, ordinary water or common coals will not suffice; he demands strange, volatile components found only in the darkened reaches of the south. The quest directs brave smith-aspirants and warriors into Duskwood, specifically toward the forsaken mine of Roland's Doom. The cavern has been overrun by savage Nightbane worgen—lupine beasts whose cursed veins pulse with unnatural, searing ichor. Grimand requires vials of this burning blood, alongside a rare flaming geological core known as a burning rock, held by the pack's ferocious leader, Gutspill. Slaying these beasts and securing their scorching remains allows Grimand to fire his forge with dark, fiery power.",
+  hash = "3a66cc",
+  fullHash = "3a66cc",
+  text = "Burning Blood. In Stormwind, Grimand Elmore turns to Furen Longbeard’s smithing methods. He needs burning blood and a burning rock from Duskwood to test the armorcrafting technique himself. Grimand Elmore is one of the Alliance’s accomplished armorers, and he rarely accepts that another smith might surpass his methods. Hearing of Furen Longbeard’s unusual smithing discoveries stirs his professional curiosity. Grimand agrees to test Furen’s methods by making a piece of armor. He needs strange, volatile components from the dark reaches of the south to quench and temper the metal to his exact requirements; ordinary water and common coals will not do. Grimand sends you to Duskwood, to the abandoned mine called Roland’s Doom. Savage Nightbane worgen have overrun its tunnels, their cursed veins pulsing with burning ichor. He needs vials of their burning blood and a rare, flaming core called a burning rock, carried by the pack’s leader, Gutspill. Bring these scorching materials back so Grimand can test Furen’s methods at the forge.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_1705-9bf86a34f582c14df2f1/1-0000.mp3", duration = 88.6857143, start = 0},
+    {file = "Audio/Transport/full_quest_1705-e71bf978d475a089ce7a/1-0000.mp3", duration = 62.3020408, start = 0},
   },
 }
 P.transport["quest:1706"] = {
-  hash = "7652d3",
-  fullHash = "7652d3",
-  text = "Grimand's Armor. \"Grimand's Armor\" is the culmination of a warrior's training questline under the supervision of Grimand Elmore in the Dwarven District of Stormwind. After proving the viability of Furen Longbeard's metallurgic techniques, the smith crafts a formidable piece of armor capable of absorbing punishing blows in battle. It marks an essential milestone in an Alliance warrior's journey toward mastery. Grimand Elmore, working from his forge in Stormwind's Dwarven District, originally held deep skepticism regarding the bizarre and daring techniques developed by the dwarven master armorer Furen Longbeard. Testing Furen's methods required perilous expeditions into hostile territory to gather rare elemental and beast components. By delivering these vital materials, a warrior allows Grimand to put the dwarf's theories to the fire, turning raw ingredients into a reinforced helm engineered to endure catastrophic impacts. The final product demonstrates that Furen's metallurgic insights were entirely sound. Grimand successfully treats the metal to withstand intense pressure and physical trauma that would warp ordinary steel. Presenting the crafted coif to the warrior who aided him, Grimand acknowledges both Furen's craft and the adventurer's determination, equipping them to hold the frontline against the greatest threats in Azeroth.",
+  hash = "032687",
+  fullHash = "032687",
+  text = "Grimand's Armor. In Stormwind, Grimand's Armor takes shape through a test of Furen Longbeard's methods. Grimand Elmore crafts a helm from rare materials, meant to endure punishing blows in battle. For an Alliance warrior, it marks a step toward mastery. Grimand Elmore tests Furen Longbeard's daring smithing methods at his forge in Stormwind's Dwarven District. Grimand had doubted the dwarven master armorer's theories. To put them to the test, a warrior gathers rare elemental and beast components in hostile territory and brings them to Grimand. He uses the materials to forge a reinforced helm built to endure crushing impacts. Grimand's finished coif shows that Furen's metallurgic insights were sound. He treats the metal to withstand pressure and physical blows that would warp ordinary steel. Grimand gives the coif to the warrior who helped him, honoring Furen's craft and the warrior's resolve. The armor can help them hold the frontline against Azeroth's greatest threats.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_1706-cc7fcdc5b05ff918efe9/1-0000.mp3", duration = 82.3640816, start = 0},
+    {file = "Audio/Transport/full_quest_1706-730d539d348f841f656f/1-0000.mp3", duration = 61.1787755, start = 0},
   },
 }
 P.transport["quest:1708"] = {
@@ -1954,11 +1954,11 @@ P.transport["quest:1738"] = {
   },
 }
 P.transport["quest:1739"] = {
-  hash = "056ca2",
-  fullHash = "056ca2",
-  text = "The Binding. The Binding is the final initiation ritual for Alliance warlocks seeking to command a succubus in Stormwind. Using the enchanted core obtained from the Heartswood, the practitioner enters the summoning circle beneath The Slaughtered Lamb to drag forth and physically overpower the demon. Once defeated, the demon's will is chained, binding its servitude to the summoner. Hidden beneath the floorboards of The Slaughtered Lamb in Stormwind's Mage Quarter lies a cavernous crypt dedicated to forbidden arts. Far from the watchful eyes of the city watch and the Cathedral of Light, the city's covert warlock enclave conducts its most dangerous rituals here. Summoning circles etched into stone channel the raw forces of the Nether, allowing ambitious initiates to pierce the veil between worlds. Summoning a succubus requires far more than merely chanting incantations. A warlock must bring a focus—in this case, the prepared Heartswood Core—and cast a ritual of breach at the circle. Succubi are known to corrupt, seduce, and overwhelm even fortified minds. To establish absolute mastery, the summoner must cut the beast down in single combat, banishing its physical form back to the Twisting Nether while securing its true tether.",
+  hash = "1b5bbb",
+  fullHash = "1b5bbb",
+  text = "The Binding. Stormwind warlocks seek to bind a succubus to their will. Beneath The Slaughtered Lamb, an initiate uses the enchanted core from the Heartswood to summon the demon and defeat it in combat. A crypt beneath The Slaughtered Lamb in Stormwind's Mage Quarter shelters the city's warlocks. There, away from the city watch and the Cathedral of Light, they practice forbidden arts. Stone summoning circles channel the Nether's power and let initiates reach across the veil between worlds. A warlock needs the prepared Heartswood Core to summon a succubus. The ritual opens a breach at the summoning circle, but the demon can corrupt and overwhelm even a fortified mind. To master it, the warlock must defeat it in single combat. Its physical form returns to the Twisting Nether, while its true tether is secured.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_1739-e0b9436d8f3b16553c70/1-0000.mp3", duration = 76.3297959, start = 0},
+    {file = "Audio/Transport/full_quest_1739-db197d1e50739793b459/1-0000.mp3", duration = 50.964898, start = 0},
   },
 }
 P.transport["quest:174"] = {
@@ -2010,11 +2010,11 @@ P.transport["quest:178"] = {
   },
 }
 P.transport["quest:1782"] = {
-  hash = "4331dc",
-  fullHash = "4331dc",
-  text = "Furen's Armor. Furen's Armor marks the culmination of an aspiring warrior's quest to assist the master smith Furen Longbeard in Stormwind. By gathering spider fangs, chimaera horns and a vial of phlogiston, the adventurer helps Longbeard forge a resilient suit of fire-hardened mail. In return for their aid, Longbeard rewards the warrior with the finished mail and pledges to share his newfound metallurgical techniques across the Alliance. Furen Longbeard, an esteemed dwarven armorer stationed in Stormwind, has dedicated his craft to pushing the limits of Alliance defensive metallurgy. By commissioning a stalwart adventurer to track down scarce fangs, horns and phlogiston, Longbeard sought to test advanced techniques in tempering mail against searing heat and crushing impacts. The resulting craftwork proves to be a tremendous success, solidifying Longbeard's standing as one of the Alliance's foremost armor crafters. Upon presenting the newly finished fire-hardened mail to the adventurer who gathered the materials, Furen expresses deep gratitude for the partnership. The experiments did more than produce a single durable suit; they expanded his understanding of protective smithing. In the communal spirit of Ironforge and Stormwind artisans, Longbeard resolves to dispatch his notes and discoveries to fellow Alliance smiths, ensuring that his breakthrough strengthens frontline fighters across the faction.",
+  hash = "ac1e16",
+  fullHash = "ac1e16",
+  text = "Furen's Armor. In Stormwind, Furen Longbeard seeks help testing new armor. An aspiring warrior gathers spider fangs, chimaera horns, and phlogiston so the master smith can forge fire-hardened mail. Furen gives the finished armor to the warrior and promises to share what he learned with Alliance smiths. Furen Longbeard, a dwarven armorer in Stormwind, works to improve how Alliance armor withstands heat and crushing blows. He asks an aspiring warrior to gather rare materials for his tests. The resulting mail proves a success and strengthens Furen's standing among Alliance armorers. Furen gives the finished fire-hardened mail to the warrior who gathered the materials, grateful for their help. The experiments also deepen his knowledge of protective smithing. He plans to send his notes and findings to other Alliance smiths, so they can put the new methods to use.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_1782-e938fe665e65767b8265/1-0000.mp3", duration = 86.804898, start = 0},
+    {file = "Audio/Transport/full_quest_1782-01211847c54e30a89cad/1-0000.mp3", duration = 51.7746939, start = 0},
   },
 }
 P.transport["quest:1791"] = {
@@ -2290,19 +2290,19 @@ P.transport["quest:192"] = {
   },
 }
 P.transport["quest:1938"] = {
-  hash = "b056b7",
-  fullHash = "b056b7",
-  text = "Ur's Treatise on Shadow Magic. Ur's Treatise on Shadow Magic is a quest given by High Sorcerer Andromath in the Mage Quarter of Stormwind. He charges adventurers with recovering a forbidden, magically sealed tome from the renegade mage Morganth, who fled with it to the Tower of Ilgalar in the Redridge Mountains. Long ago, three promising mages studied together within the Wizard's Sanctum of Stormwind. Over time, one of them, Morganth, succumbed to the temptations of dark arts and shadow magic. Despite desperate warnings from his peers urging him to turn away from such corrupting power, he refused to abandon his obsession. He was formally banished from the city's magical order, but he did not leave empty-handed—he stole a dangerous work penned by Ur, an infamous archmage whose studies ventured beyond orthodox arcana. Morganth established a new redoubt far from Stormwind's scrutiny, seizing the Tower of Ilgalar in the heights of the Redridge Mountains. High Sorcerer Andromath cannot allow such hazardous knowledge to remain in the hands of an outcast practicing forbidden sorcery. Tasking Alliance adventurers with breaching the tower's defenses, Andromath seeks the recovery of the tome before its wards fall.",
+  hash = "566413",
+  fullHash = "566413",
+  text = "Ur's Treatise on Shadow Magic. In Stormwind, High Sorcerer Andromath seeks the forbidden tome Morganth stole and carried to the Tower of Ilgalar in the Redridge Mountains. Three promising mages once studied together in Stormwind's Wizard's Sanctum. Morganth turned to dark arts and shadow magic, despite his peers' desperate warnings to abandon those corrupting powers. The city's magical order formally banished him. Before leaving, he stole a dangerous work by Ur, an infamous archmage whose studies reached beyond orthodox arcana. Morganth seized the Tower of Ilgalar in the heights of the Redridge Mountains, far from Stormwind's scrutiny. High Sorcerer Andromath considers the tome's knowledge hazardous in the hands of an outcast practicing forbidden sorcery. He sends Alliance adventurers to breach the tower and recover it before its wards fall.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_1938-a84f1cd289194ec10c6e/1-0000.mp3", duration = 72.9338776, start = 0},
+    {file = "Audio/Transport/full_quest_1938-d9be3d53bacbb744562c/1-0000.mp3", duration = 51.2261224, start = 0},
   },
 }
 P.transport["quest:1939"] = {
-  hash = "baac98",
-  fullHash = "baac98",
-  text = "High Sorcerer Andromath. High Sorcerer Andromath is a short summons directing Alliance mages to report to the summit of the Wizard's Sanctum in Stormwind. High Sorcerer Andromath stands as one of the kingdom's preeminent archmages outside the ruined city of Dalaran. Within the Mage Quarter of Stormwind, apprentice coordinator Jennea Cannon directs promising casters upward to the peak of the Wizard's Sanctum. High Sorcerer Andromath, one of the most senior practitioners of the arcane operating actively in the southern kingdoms, specifically requests an audience with emerging magi ready for weightier responsibilities. With the northern magocracy of Dalaran ruined in the Third War and its surviving wizards consumed by the work of rebuilding it, practitioners like Andromath hold vital strategic importance. Without easy access to the libraries of the Violet Citadel, the Alliance relies directly on senior archmages stationed within Stormwind to study ancient threats and direct research into shadowy, forbidden arts.",
+  hash = "584f52",
+  fullHash = "584f52",
+  text = "High Sorcerer Andromath. At Stormwind's Wizard's Sanctum, a summons calls promising Alliance mages to the tower's summit. Andromath works among the kingdom's foremost archmages beyond ruined Dalaran. Jennea Cannon, the apprentice coordinator in Stormwind's Mage Quarter, sends promising casters up to the Wizard's Sanctum summit. High Sorcerer Andromath, among the southern kingdoms' most senior active practitioners of the arcane, has asked to meet magi ready for greater responsibilities. Dalaran's magocracy was ruined in the Third War, and its surviving wizards are occupied with rebuilding. Without easy access to the Violet Citadel's libraries, the Alliance depends on senior archmages in Stormwind to study ancient threats and guide research into shadowy, forbidden arts.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_1939-181fe84f5680403eecc9/1-0000.mp3", duration = 60.5518367, start = 0},
+    {file = "Audio/Transport/full_quest_1939-319db0e661ed8141569b/1-0000.mp3", duration = 49.2146939, start = 0},
   },
 }
 P.transport["quest:194"] = {
@@ -2314,19 +2314,19 @@ P.transport["quest:194"] = {
   },
 }
 P.transport["quest:1940"] = {
-  hash = "3d2ca0",
-  fullHash = "3d2ca0",
-  text = "Pristine Spider Silk. Pristine Spider Silk is an initiation task for rising Alliance mages entrusted by High Sorcerer Andromath in Stormwind. To earn a garment fitting an adept's station, the spellcaster is dispatched into the darkened woods of Duskwood to harvest prime silk from carrion recluses. The gathered spools are delivered to tailor Wynne Larson in the Mage Quarter to prepare enchanted robes. Within the Wizard's Sanctum, recognition is measured not only by mastery over the arcane but in the regalia worn by its practitioners. High Sorcerer Andromath recognizes when a student has graduated from mere apprentice work and directs them to commission vestments proper to an adept. Rather than simply purchasing finished goods, the mage must prove both field competence and discernment by gathering pristine, unblemished silk directly from perilous beasts. The required material cannot be found in conventional merchant stalls. It must be carefully extracted from the venomous carrion recluse spiders stalking the haunted gloom of Duskwood. Once eight prime samples are gathered, they are brought across the city to Larson Clothiers in the Mage Quarter, where tailor Wynne Larson stands ready to spin the delicate threads into a robe of arcane significance.",
+  hash = "ae8c74",
+  fullHash = "ae8c74",
+  text = "Pristine Spider Silk. In Stormwind, High Sorcerer Andromath sends rising Alliance mages to Duskwood for pristine spider silk. They bring eight samples to Wynne Larson in the Mage Quarter, where she makes a robe for an adept. High Sorcerer Andromath marks a mage’s passage beyond apprenticeship with vestments fit for an adept. In the Wizard’s Sanctum, arcane mastery is matched by the robes its practitioners wear. Rather than buy finished garments, the mage must show field skill and discernment by taking pristine, unblemished silk from dangerous spiders. Venomous carrion recluse spiders haunt Duskwood’s gloomy woods, and their silk is not sold at ordinary stalls. You gather eight prime samples and carry them across Stormwind to Larson Clothiers in the Mage Quarter. There, Wynne Larson uses the delicate threads to weave a robe with arcane significance.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_1940-3f6ce76dd20812223fa1/1-0000.mp3", duration = 75.3632653, start = 0},
+    {file = "Audio/Transport/full_quest_1940-f1ffbe7bf7e365eab048/1-0000.mp3", duration = 53.4465306, start = 0},
   },
 }
 P.transport["quest:1942"] = {
-  hash = "945481",
-  fullHash = "945481",
-  text = "Astral Knot Garment. Astral Knot Garment is the culmination of a dedicated crafting endeavor in Stormwind City. After braving the wilds to gather rare spider silk, an adventurer presents the materials to the skilled tailor Wynne Larson. The result is a fine, magical weave suited for both treacherous journeys and high-society gatherings. In the bustling Mage Quarter of Stormwind, tailors and seamstresses cater to the arcane elite and visiting nobility alike. Wynne Larson is one such artisan, renowned for her ability to weave pristine spider silk into durable, enchanted vestments. Known for a playful sense of humor, she jokes about keeping extra scraps of precious silk for her own wardrobe before delivering her expertly tailored creations. The Astral Knot Garment is prized by cloth-wearing spellcasters who demand both resilience and refinement. Woven from delicate yet hardy silk gathered from dangerous arachnids, the garment is designed to withstand the rigors of combat while maintaining the polished appearance expected at formal banquets within Stormwind Keep.",
+  hash = "b3d938",
+  fullHash = "b3d938",
+  text = "Astral Knot Garment. Wynne Larson works fine spider silk into a garment in Stormwind City. An adventurer brings her rare silk gathered from the wilds, and she tailors it into a magical weave for dangerous journeys and high-society gatherings. In Stormwind's Mage Quarter, tailors serve arcane elites and visiting nobles. Wynne Larson is known for weaving pristine spider silk into durable, enchanted garments. Her playful humor comes through when she jokes about saving a few precious scraps for her own wardrobe before handing over her finished work. Spellcasters who wear cloth prize the Astral Knot Garment for its resilience and refinement. Its silk comes from dangerous spiders, and its weave is made to endure combat while keeping the polished look expected at formal banquets in Stormwind Keep.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_1942-0f1efcd8debc3d01c3ac/1-0000.mp3", duration = 64.9404082, start = 0},
+    {file = "Audio/Transport/full_quest_1942-3783ec03c1e169a7bb4f/1-0000.mp3", duration = 46.4979592, start = 0},
   },
 }
 P.transport["quest:1943"] = {
@@ -2570,11 +2570,11 @@ P.transport["quest:235"] = {
   },
 }
 P.transport["quest:2359"] = {
-  hash = "86d8b9",
-  fullHash = "86d8b9",
-  text = "Klaven's Tower. Klaven's Tower is a covert SI:7 infiltration mission assigned to Alliance rogues in Westfall. Operating on intelligence from Agent Kearnen, agents must pickpocket a key, break into a heavily guarded Defias outpost, and retrieve sinister documents linked to unnatural experiments. At the southeastern edge of Westfall, near the river and north of the Dagger Hills, stands a lonely stone spire claimed by the Defias Brotherhood. While the Brotherhood's human thieves and brigands are common across the plains, Agent Kearnen noticed strange developments after weeks of solitary surveillance. A bizarre shipment recently arrived directly from the shadowed woods of Duskwood, escorted by monstrous, deformed sentries unlike any ordinary highwaymen.",
+  hash = "b12814",
+  fullHash = "b12814",
+  text = "Klaven's Tower. Agent Kearnen watches Klaven's Tower from a camp in Westfall. Strange shipments and altered guards point to a threat inside the Defias Brotherhood. Near the river at Westfall's southeastern edge, Klaven's Tower rises north of the Dagger Hills. The Defias Brotherhood claims the stone spire, though its human thieves and brigands are common across the plains. Agent Kearnen has watched it alone for weeks and noticed strange developments. A bizarre shipment recently came straight from Duskwood's shadowed woods. Monstrous, deformed sentries escorted it, unlike any ordinary highwaymen.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_2359-f9d5fbd27c622d1fde5f/1-0000.mp3", duration = 49.1363265, start = 0},
+    {file = "Audio/Transport/full_quest_2359-1aa1ac57336c3fa7adc6/1-0000.mp3", duration = 35.1346939, start = 0},
   },
 }
 P.transport["quest:24"] = {
@@ -2746,11 +2746,11 @@ P.transport["quest:268"] = {
   },
 }
 P.transport["quest:269"] = {
-  hash = "0b509a",
-  fullHash = "0b509a",
-  text = "Seeking Wisdom. Seeking Wisdom is an Alliance errand carrying Jitters' Completed Journal from the embattled camps of Duskwood into the safety of Stormwind City. Sven Yorgen sends adventurers to consult Bishop Farthing at the Cathedral of Light, hoping holy counsel will reveal how to destroy the shielded necromancer Morbent Fel. Duskwood suffers under lingering curses, ravenous undead, and the growing indifference of Stormwind's royal court. Sven Yorgen, a broken-hearted survivor camping near the borders, knows ordinary strength cannot pierce the dark wards of the necromancer Morbent Fel. Armed with the assembled diary of the vagrant Jitters, Sven urges traveling heroes to petition the church rather than the crown, sending them north along the road to the Cathedral of Light.",
+  hash = "019db1",
+  fullHash = "019db1",
+  text = "Seeking Wisdom. In Stormwind, Sven Yorgen seeks holy counsel for Duskwood. He sends Jitters' Completed Journal to Bishop Farthing at the Cathedral of Light, hoping the bishop can reveal how to destroy Morbent Fel's shield. Duskwood suffers beneath lingering curses and ravenous undead, while Stormwind's royal court grows indifferent. Sven Yorgen, a broken-hearted survivor at a camp near the borders, knows ordinary strength cannot pierce Morbent Fel's dark wards. With Jitters' assembled journal, Sven asks you to seek the church's counsel. The road north leads to the Cathedral of Light.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_269-034fb01945849cfe47a7/1-0000.mp3", duration = 46.5763265, start = 0},
+    {file = "Audio/Transport/full_quest_269-1dc0ad3a683dba2d4f53/1-0000.mp3", duration = 38.4, start = 0},
   },
 }
 P.transport["quest:270"] = {
@@ -2770,11 +2770,11 @@ P.transport["quest:2745"] = {
   },
 }
 P.transport["quest:2746"] = {
-  hash = "7ab261",
-  fullHash = "7ab261",
-  text = "Items of Some Consequence. To sneak his mechanical spy into Stormwind Keep and eavesdrop on Lord Lescovar, the covert operative Tyrion demands a very specific assortment of disguise materials. You must supply fine silk and crisp orchard apples to assemble an eccentric cover identity that can bypass the royal guards undetected. Word from the cheese merchant Elling Trias has accelerated operations against Lord Gregor Lescovar. Suspecting that the noble's machinations within Stormwind Keep pose an immediate danger to the realm, Trias insisted the timetable be moved forward. Hidden in the gardens of Stormwind Keep, Tyrion agrees to advance the operation, though he insists that gathering the proper infiltration supplies requires careful preparation. Tyrion's plan hinges on an unconventional asset: Spybot, a small mechanical contraption intended to slip past the vigilant castle guards to reach Lescovar inside the keep. Rather than relying on simple stealth, Tyrion constructs a bizarre feminine disguise to deflect suspicion. To complete this masquerade, he sends operatives out to Clara's orchard just outside the city walls for appropriately sized apples, while demanding bolts of silk cloth to tailor the puppet's garments.",
+  hash = "016fca",
+  fullHash = "016fca",
+  text = "Items of Some Consequence. Tyrion gathers silk and apples for a spy inside Stormwind Keep. The covert operative needs the materials to disguise Spybot and send it past the royal guards to listen in on Lord Lescovar. Elling Trias has moved the operation against Lord Gregor Lescovar forward. The cheese merchant suspects Lescovar's schemes inside Stormwind Keep threaten the realm. In the keep's gardens, Tyrion agrees to the tighter schedule, but says the disguise needs careful preparation. Tyrion plans to send Spybot, a small mechanical contraption, past the castle guards to reach Lescovar inside the keep. A strange feminine disguise should turn suspicion aside. For it, you gather suitably sized apples from Clara's orchard just outside the city walls, along with bolts of silk for the puppet's clothes.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_2746-83b204c0843d687ac732/1-0000.mp3", duration = 74.9453061, start = 0},
+    {file = "Audio/Transport/full_quest_2746-807cf5717a3112264367/1-0000.mp3", duration = 49.4497959, start = 0},
   },
 }
 P.transport["quest:275"] = {
@@ -3098,11 +3098,11 @@ P.transport["quest:321"] = {
   },
 }
 P.transport["quest:322"] = {
-  hash = "c61371",
-  fullHash = "c61371",
-  text = "Blessed Arm. Having salvaged lightforge ingots from the wreck of the Flying Osprey in the Wetlands, an adventurer is directed to carry the precious metal to Stormwind City. There, the master dwarven smith Grimand Elmore awaits to fashion the raw metal into a tool capable of confronting the necromancer Morbent Fel. Lightforge iron is not an everyday trade metal found in standard market stalls. Renowned for its resonance against foul and unholy entities, it demands a smith who understands its temper and quirks. After the shipment was recovered from the wreck of the Flying Osprey off the Wetlands coast, Glorin Steelbrow packed the reclaimed ingots into a sturdy crate, knowing of only one artisan in the southern kingdoms suited to work such extraordinary material: master weaponsmith Grimand Elmore. Situated amidst the soot and clatter of Stormwind's Dwarven District, Grimand Elmore maintains one of the city's finest anvils. When presented with the recovered shipment, Elmore notes that years have passed since he last hammered lightforge iron. Intrigued by the heroic errand and eager to strike a blow against the necromancer Morbent Fel, the veteran artisan readily agrees to lend his hammer to the cause.",
+  hash = "65ead0",
+  fullHash = "65ead0",
+  text = "Blessed Arm. In Stormwind, Blessed Arm carries lightforge iron toward a weapon against Morbent Fel. After salvaging the ingots from the wreck of the Flying Osprey in the Wetlands, you bring the precious metal to master dwarven smith Grimand Elmore, who can shape it to face the necromancer. Glorin Steelbrow packs the recovered lightforge iron for Stormwind. The metal is rare, and its power against foul and unholy beings demands a smith who knows how to work it. After the shipment came from the wreck of the Flying Osprey off the Wetlands coast, Glorin knew of only one artisan in the southern kingdoms suited to the task: master weaponsmith Grimand Elmore. In Stormwind's Dwarven District, Grimand Elmore keeps one of the city's finest anvils. Years have passed since he last hammered lightforge iron, he says, when you bring him the recovered shipment. The veteran artisan is intrigued by the chance to strike at the necromancer Morbent Fel, and agrees to put his hammer to work.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_322-8d8c4bbed9b1af1a2a94/1-0000.mp3", duration = 73.195102, start = 0},
+    {file = "Audio/Transport/full_quest_322-e46427c8235d9ad875f6/1-0000.mp3", duration = 60.3167347, start = 0},
   },
 }
 P.transport["quest:323"] = {
@@ -3122,11 +3122,11 @@ P.transport["quest:324"] = {
   },
 }
 P.transport["quest:325"] = {
-  hash = "ee441c",
-  fullHash = "ee441c",
-  text = "Armed and Ready. Armed and Ready marks the culmination of forging a weapon specifically designed to strip away the unholy defenses of the necromancer Morbent Fel. Having secured Grimand Elmore's craft, the adventurer carries Morbent's Bane back across the river to the vengeful Sven Yorgen in Duskwood. Morbent Fel's grasp on the Raven Hill cemetery seemed unbreakable. Conventional steel shattered or deflected harmlessly off the dark wards shrouding the necromancer. Overcoming such vile magic required a specialized artifact: Morbent's Bane. With the metal shaped by Grimand Elmore in the Dwarven District of Stormwind and properly consecrated with sacred power, the ward-breaking relic is finally complete and ready to sever Fel's connection to unlife.",
+  hash = "12efe9",
+  fullHash = "12efe9",
+  text = "Armed and Ready. You carry Morbent's Bane back to Sven Yorgen, the weapon forged to strip away Morbent Fel's unholy defenses. Morbent Fel's hold over Raven Hill cemetery resists ordinary steel. Blades shatter or glance off the dark wards around the necromancer. A weapon made to break those wards is now ready. Grimand Elmore shaped the metal in Stormwind's Dwarven District, and sacred power consecrated it. Morbent's Bane can now sever Fel's tie to unlife.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_325-30663de0140349038f81/1-0000.mp3", duration = 46.7330612, start = 0},
+    {file = "Audio/Transport/full_quest_325-72671198b93aaa734dfb/1-0000.mp3", duration = 28.1077551, start = 0},
   },
 }
 P.transport["quest:328"] = {
@@ -3162,19 +3162,19 @@ P.transport["quest:331"] = {
   },
 }
 P.transport["quest:335"] = {
-  hash = "1dd956",
-  fullHash = "1dd956",
-  text = "A Noble Brew. Deep within the shadowed recesses of the Slaughtered Lamb in Stormwind, Zardeth of the Black Claw schemes against the city's nobility. An inquisitive peer, Lord Wishock, threatens to uncover the warlock enclave beneath the tavern, prompting a quiet gathering of rare and potent reagents to neutralize the threat. Beneath the streets of the Mage Quarter, the warlock coven operating out of the Slaughtered Lamb enjoys a precarious secrecy. That secrecy is jeopardized by Lord Wishock, a member of the House of Nobles who has caught wind of the dark magic simmering below the city. Wishock has begun lobbying his peers for a full investigation, which would bring the city guard and royal scrutiny down upon the coven.",
+  hash = "816b61",
+  fullHash = "816b61",
+  text = "A Noble Brew. Zardeth of the Black Claw schemes against Stormwind's nobles from beneath the Slaughtered Lamb. Lord Wishock's call for an investigation puts the hidden warlock coven at risk. Beneath the Mage Quarter streets, warlocks gather in the Slaughtered Lamb and keep their coven hidden. Lord Wishock, a member of the House of Nobles, has heard of the dark magic below the city. He is urging his peers to launch a full investigation, which could bring the city guard and royal scrutiny down on the coven.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_335-d9261f90d76557514781/1-0000.mp3", duration = 43.284898, start = 0},
+    {file = "Audio/Transport/full_quest_335-0ad00689a81028239092/1-0000.mp3", duration = 29.1526531, start = 0},
   },
 }
 P.transport["quest:336"] = {
-  hash = "0ddde5",
-  fullHash = "0ddde5",
-  text = "A Noble Brew. A Noble Brew is the culmination of a covert scheme orchestrated from the shady cellar beneath the Slaughtered Lamb in Stormwind. Operating at the behest of Zardeth of the Black Claw, an unwitting or uncaring courier delivers a potent concoction known as Black Claw Stout to Lord Baurles K. Wishock inside the Royal Keep. Lord Baurles K. Wishock is a nobleman who frequents the Hall of Petitioners in Stormwind Keep, preaching self-importance and the future of the kingdom. Yet beneath his aristocratic posturing lies an open secret known to the patrons of the Slaughtered Lamb: by night, Wishock frequents the tavern's upper rooms, drinking heavily and running up massive tabs he never settles. Worse still in the eyes of the establishment, he spends his days petitioning to shut the tavern down entirely.",
+  hash = "f58ba9",
+  fullHash = "f58ba9",
+  text = "A Noble Brew. In Stormwind, a courier carries Black Claw Stout to Lord Baurles K. Wishock in the Royal Keep. Zardeth of the Black Claw has arranged the delivery from the cellar beneath the Slaughtered Lamb. Lord Baurles K. Wishock spends time in the Hall of Petitioners in Stormwind Keep, speaking of his own importance and the kingdom’s future. Patrons of the Slaughtered Lamb know another side of him. At night, he drinks in the tavern’s upper rooms and leaves large bills unpaid. By day, he petitions to have the tavern shut down.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_336-4f801ea318f7191e29b0/1-0000.mp3", duration = 47.6734694, start = 0},
+    {file = "Audio/Transport/full_quest_336-ad1dde059718437db5a6/1-0000.mp3", duration = 32.8881633, start = 0},
   },
 }
 P.transport["quest:3369"] = {
@@ -3186,11 +3186,11 @@ P.transport["quest:3369"] = {
   },
 }
 P.transport["quest:337"] = {
-  hash = "f9af50",
-  fullHash = "f9af50",
-  text = "An Old History Book. Recovered from the blighted soil and monstrous dens of Duskwood, this battered tome bears the official stamp of the Royal Library of Stormwind. Titled 'The History of Stormwind,' it vanished prior to the kingdom's reconstruction following the First War. Returning it restores a lost chronicle to Head Librarian Milton Sheaf and begins an effort to preserve Southern human history. Discovered among the hostile undead and brutish ogres roaming Duskwood, this mud-caked volume is a rare surviving artifact from the era before Stormwind's destruction. Bearing the kingdom's formal library seal on its opening page, it was checked out decades ago—before the Horde razed the capital—and was presumed lost forever amid the fall of the south. When brought back to Milton Sheaf in the Royal Library of Stormwind Keep, the book is recognized as an invaluable treasure destined for the rare books archive. Years of exposure in the haunted wilderness have left its pages badly degraded, and the find spurs Sheaf to recover more lost knowledge, looking north to Southshore, the town closest to the ruined kingdom of Alterac and its abandoned libraries.",
+  hash = "265736",
+  fullHash = "265736",
+  text = "An Old History Book. In Stormwind, a lost chronicle returns to the Royal Library. Titled The History of Stormwind, the battered book bears the library’s seal and vanished before the kingdom was rebuilt after the First War. Its return gives Head Librarian Milton Sheaf a chance to preserve the history of southern human lands. Duskwood’s undead and ogres roam among the ruins where this mud-caked volume was found. The book is a rare relic from before Stormwind’s destruction. Its opening page bears the kingdom’s formal library seal. Someone checked it out decades ago, before the Horde razed the capital, and the book was presumed lost in the fall of the south. Milton Sheaf recognizes the book when it reaches him in the Royal Library of Stormwind Keep. The head librarian means to place it in the rare books archive, though years in the haunted wilderness have badly damaged its pages. The discovery spurs Sheaf to seek more lost knowledge. He looks north to Southshore, the town nearest the ruined kingdom of Alterac and its abandoned libraries.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_337-efcf38e89f06bba349ed/1-0000.mp3", duration = 68.1534694, start = 0},
+    {file = "Audio/Transport/full_quest_337-bb222ad8ba3728103149/1-0000.mp3", duration = 65.3583673, start = 0},
   },
 }
 P.transport["quest:3370"] = {
@@ -3210,43 +3210,43 @@ P.transport["quest:34"] = {
   },
 }
 P.transport["quest:343"] = {
-  hash = "7d5c71",
-  fullHash = "7d5c71",
-  text = "Speaking of Fortitude. \"Speaking of Fortitude\" is an Alliance errand within Stormwind City begun by Brother Kristoff in Cathedral Square. Preparing a sermon titled \"Fortitude of the Spirit,\" Kristoff enlists an adventurer to visit the Royal Library within Stormwind Keep and ask Head Librarian Milton Sheaf for a specific technical text. Brother Kristoff, one of the priests stationed in Stormwind's Cathedral of Light, seeks to deliver a sermon on the Fortitude of the Spirit. Rather than drawing solely from clerical scripture, Kristoff looks to the craft of metalworking to illustrate the temper and resilience of faith. Specifically, he requires a treatise known as \"The Stresses of Iron\" to quote during his address, hoping its lessons on enduring pressure will resonate with his congregation. Stormwind Keep houses the Royal Library, the central repository of knowledge, history, and civic treatises for the kingdom of Stormwind. Because the collection spans countless shelves and centuries of work, Kristoff directs messengers to Milton Sheaf, the head librarian. Sheaf prides himself on knowing the archive by heart, making him the only practical guide for tracking down obscure craft manuscripts among the keep's sprawling vaults.",
+  hash = "564f37",
+  fullHash = "564f37",
+  text = "Speaking of Fortitude. Brother Kristoff prepares a sermon in Stormwind City's Cathedral of Light. For his message on the Fortitude of the Spirit, he seeks a book in Stormwind Keep's Royal Library. Brother Kristoff, a priest in Stormwind's Cathedral of Light, is preparing a sermon on the Fortitude of the Spirit. He wants to draw on the craft of metalworking alongside scripture. To make his point, he needs a treatise called \"The Stresses of Iron.\" Its lessons on bearing pressure may help his congregation understand the strength of faith. The Royal Library holds Stormwind's histories, civic writings, and other works within Stormwind Keep. Its shelves contain centuries of writing, so Brother Kristoff sends messengers to Head Librarian Milton Sheaf. Sheaf knows the archive by heart and can guide them to obscure works on crafts.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_343-038c175931824c77c169/1-0000.mp3", duration = 74.1877551, start = 0},
+    {file = "Audio/Transport/full_quest_343-72cebcd39dbfa4b09fd2/1-0000.mp3", duration = 49.5281633, start = 0},
   },
 }
 P.transport["quest:344"] = {
-  hash = "67e0c3",
-  fullHash = "67e0c3",
-  text = "Brother Paxton. Brother Paxton is an errand that sends adventurers from Stormwind's royal archives out to Northshire Abbey. Librarian Milton Sheaf directs searchers there to track down a borrowed dwarven mining treatise that never found its way back to the city shelves. When researchers come looking for rare technical lore within Stormwind City, the head librarian Milton Sheaf often finds his collection scattered. A notable treatise on metallurgical techniques, 'The Stresses of Iron' by dwarven prospector Margulf Blaggon, is missing from the capital's shelves. Rather than being misplaced in the capital, it was loaned out months ago to the clerics of Northshire Abbey for transcription. The task of transcribing and preserving literature falls to Brother Paxton, the caretaker of the abbey's library. While the Holy Order of Northshire Clerics values knowledge, manual hand-copying of lengthy technical manuscripts is painstaking and slow. Caught red-handed with the overdue tome, Paxton admits he has yet to finish duplicating Blaggon's work, stalling the recovery of the original manuscript.",
+  hash = "ec0232",
+  fullHash = "ec0232",
+  text = "Brother Paxton. At Stormwind's royal archives, Milton Sheaf sends you to Northshire Abbey for a missing dwarven treatise. The book was loaned months ago for copying, but has not returned to the city shelves. Stormwind's head librarian, Milton Sheaf, has a missing book on his hands. 'The Stresses of Iron,' a treatise on metallurgical techniques by dwarven prospector Margulf Blaggon, is gone from the capital's shelves. The book was loaned months ago to the clerics of Northshire Abbey so they could copy it. It was not misplaced in Stormwind. At Northshire Abbey, Brother Paxton cares for the library and its books. The Holy Order of Northshire Clerics values knowledge, but copying a long technical manuscript by hand takes time. Paxton admits he has not finished duplicating Blaggon's work, so the original has yet to return to Stormwind.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_344-81c474b32c5f053a3e64/1-0000.mp3", duration = 63.5036735, start = 0},
+    {file = "Audio/Transport/full_quest_344-02e659a045a9a65ee4ee/1-0000.mp3", duration = 50.6514286, start = 0},
   },
 }
 P.transport["quest:345"] = {
-  hash = "0601ab",
-  fullHash = "0601ab",
-  text = "Ink Supplies. Ink Supplies is an Alliance errand on behalf of Brother Paxton, a monastic scribe residing in Northshire Abbey. Needing a specialized mineral component to brew his fast-drying ink, Paxton sends an adventurer east into the embattled township of Lakeshire to secure Rethban ore from Foreman Oslow. Brother Paxton takes immense pride in his literary craft, refusing to rely on standard inks for vital transcriptions like The Stresses of Iron. Instead, he brews a custom recipe noted for its resistance to smearing and its rapid drying time. The formula's chief flaw is that it dries out even in the pot if left unattended too long. Replenishing his stock requires raw Rethban iron ore, a distinctive mineral mined in the rocky reaches of the Redridge Mountains. When travelers arrive in Lakeshire carrying Paxton's humble requisition, they find the settlement in no condition to indulge a distant monk. Foreman Oslow oversees the strained town laborers, who are wholly occupied with shoring up barricades, rebuilding ruined structures, and bracing against ongoing raids from the Blackrock orcs. Oslow has neither the men nor the patience to dig ore for Stormwind's scribes, leaving outsiders to brave the perilous Rethban Caverns on their own.",
+  hash = "a19c1f",
+  fullHash = "a19c1f",
+  text = "Ink Supplies. In Northshire Abbey, Brother Paxton needs fresh ink for his work as a monastic scribe. He sends you east to Lakeshire for Rethban ore, the mineral his fast-drying ink requires. Brother Paxton takes pride in his craft and uses a special ink for important writings such as The Stresses of Iron. His recipe dries quickly and resists smearing, but the ink can dry in its pot if left too long. To make more, he needs raw Rethban iron ore, mined in the rocky Redridge Mountains. Lakeshire has little room for a distant scribe’s request. Foreman Oslow oversees laborers busy strengthening barricades, rebuilding ruined structures, and defending the town from ongoing Blackrock orc raids. With no workers to spare for mining, travelers must seek the ore in the perilous Rethban Caverns themselves.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_345-b5f7e902bc9d72c198ac/1-0000.mp3", duration = 77.7404082, start = 0},
+    {file = "Audio/Transport/full_quest_345-496556657361c283bb3a/1-0000.mp3", duration = 49.8416327, start = 0},
   },
 }
 P.transport["quest:346"] = {
-  hash = "6af5be",
-  fullHash = "6af5be",
-  text = "Return to Kristoff. Return to Kristoff concludes Brother Kristoff's search for the elusive tome, The Stresses of Iron. After journeying through Redridge to fetch ore for special ink and waiting on Northshire's scribes, the adventurer finally brings the borrowed volume back to the Cathedral of Light in Stormwind. Brother Kristoff, stationed in Stormwind's Cathedral Square, needed access to a specialized metallurgical volume known as The Stresses of Iron. The pursuit of the work sent couriers across human lands, leading first to the Royal Library in Stormwind Keep and then deep into Northshire Abbey. At the abbey, Brother Paxton was busily copying the text by hand, delayed by a shortage of Rethban ore needed to craft scribe's ink. With the ore retrieved and the copy complete, Paxton finally surrenders the original volume for its return to the city. In a kingdom constantly pressed by outside threats, the quiet work of Northshire's copyists remains vital to preserving civic and spiritual lore. Brother Paxton's request to apologize to Librarian Milton Sheaf highlights how thin the abbey's resources have worn. Valuable books must be meticulously duplicated stroke by stroke using mineral-rich inks before they can be released back into Stormwind's care, turning a simple book request into an arduous logistical errand.",
+  hash = "9d9d8a",
+  fullHash = "9d9d8a",
+  text = "Return to Kristoff. Brother Kristoff is waiting in Stormwind for a borrowed book to return. After a long search and a delay in Northshire, you bring The Stresses of Iron back to the Cathedral of Light. Brother Kristoff is waiting in Cathedral Square for The Stresses of Iron, a book on metallurgy. Its trail led from Stormwind Keep's Royal Library to Northshire Abbey, where Brother Paxton was copying the text by hand. Paxton ran short of Rethban ore for the scribe's ink, so the work stalled. With the ore retrieved and the copy complete, you bring the original book back to Stormwind. Northshire's copyists preserve civic and spiritual lore through patient work. Brother Paxton asks you to apologize to Librarian Milton Sheaf, a sign of how thin the abbey's resources have worn. Scribes must copy valuable books stroke by stroke with mineral-rich ink before returning them to Stormwind's care, making a book request a long undertaking.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_346-cea3a5a29151b187e1b3/1-0000.mp3", duration = 80.1436735, start = 0},
+    {file = "Audio/Transport/full_quest_346-741fbdef30ea7ba2972c/1-0000.mp3", duration = 57.0514286, start = 0},
   },
 }
 P.transport["quest:347"] = {
-  hash = "257e76",
-  fullHash = "257e76",
-  text = "Rethban Ore. Foreman Oslow directs adventurers into the Rethban Caverns of Redridge to retrieve a peculiar dark mineral. While too soft to forge reliable armor or weapons, its unique pigmentation makes it indispensable to the scribes of Northshire Abbey for crafting specialized ink. Rethban Ore is named after its discoverer, Bart Rethban. Unlike common iron or copper, this ore holds little value at an armorer's anvil—when smelted down, the resulting metal lacks the tensile strength required for sturdy weapons or plate. Its true value lies in its raw, dark, flat coloration, which monks and scribes prize as a pigment base for rich manuscript dyes. The primary deposits of the mineral lie within the Rethban Caverns, nestled in the northern mountains of Redridge. Unfortunately for the stoneworkers of Lakeshire, the local miners have abandoned the cavern. A fierce band of Redridge gnolls has seized the tunnels, putting gnoll drudgers to work chipping away at the rocky veins for their own crude purposes. Brother Paxton, a monk residing within the quiet walls of Northshire Abbey, depends on this pigment to reproduce historic texts. His current undertaking—a transcribed copy of the treatise 'The Stresses of Iron'—has ground to an abrupt halt without the proper dye, sending messengers and adventurers deep into gnoll-infested territory to secure the raw stone.",
+  hash = "3efe90",
+  fullHash = "3efe90",
+  text = "Rethban Ore. Foreman Oslow sends you into Rethban Caverns in Redridge for a dark mineral the scribes of Northshire Abbey need for ink. It is too soft for strong weapons or armor, but its color makes it useful for their work. Scribes at Northshire Abbey prize Rethban Ore for its dark, flat color. Bart Rethban discovered the mineral, but it has little use at an armorer’s anvil. Smelted metal from the ore lacks the strength needed for sturdy weapons or plate. Its raw color instead makes a valued base for manuscript dyes. The main deposits lie in the northern mountains of Redridge, inside Rethban Caverns. Lakeshire’s stoneworkers have left the cavern, driven out by a fierce band of Redridge gnolls. The gnolls put drudgers to work chipping ore from the rocky veins for their own crude purposes. Brother Paxton, a monk at Northshire Abbey, needs the pigment to copy historic texts. His work on The Stresses of Iron has stopped without the proper dye. Messengers and adventurers now travel into gnoll-held territory to bring him the raw stone.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_347-8ca39d2923deba7a40e4/1-0000.mp3", duration = 87.8759184, start = 0},
+    {file = "Audio/Transport/full_quest_347-61f26d0e426a5a926f43/1-0000.mp3", duration = 66.4032653, start = 0},
   },
 }
 P.transport["quest:349"] = {
@@ -3258,11 +3258,11 @@ P.transport["quest:349"] = {
   },
 }
 P.transport["quest:350"] = {
-  hash = "39f9d0",
-  fullHash = "39f9d0",
-  text = "Look to an Old Friend. Master Mathias Shaw directs an investigator to seek out an unconventional contact in Stormwind's Trade District. Because noble corruption shields powerful traitors from standard legal justice, the spymaster reluctantly relies on the intelligence network of the city's finest cheesemonger.",
+  hash = "7137a3",
+  fullHash = "7137a3",
+  text = "Look to an Old Friend. Master Mathias Shaw sends you to seek an unusual contact in Stormwind's Trade District. Noble corruption shields traitors from ordinary justice, so Shaw turns to the city's finest cheesemonger and his intelligence network.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_350-5c27e090153d3d3e8ef3/1-0000.mp3", duration = 16.7444898, start = 0},
+    {file = "Audio/Transport/full_quest_350-2bf7adf4e8161d0e38a4/1-0000.mp3", duration = 13.8710204, start = 0},
   },
 }
 P.transport["quest:3513"] = {
@@ -3290,11 +3290,11 @@ P.transport["quest:359"] = {
   },
 }
 P.transport["quest:373"] = {
-  hash = "f095f1",
-  fullHash = "f095f1",
-  text = "The Unsent Letter. Found upon the corpse of Edwin VanCleef deep within the Deadmines, this sealed missive is addressed to Baros Alexston, the City Architect of Stormwind. Its delivery pulls back the curtain on the personal grievances and history binding the Defias leader to the city's master builders. When Edwin VanCleef falls aboard his juggernaut in the subterranean depths of Moonbrook, he leaves behind more than a broken rebellion. Tucked into his clothing is a newly penned, sealed letter. Strangely, the Defias kingpin did not address it to one of his criminal lieutenants or shadowy financiers, but to an official inside the heart of the kingdom he swore to destroy: Baros Alexston, Stormwind's City Architect.",
+  hash = "22f8ce",
+  fullHash = "22f8ce",
+  text = "The Unsent Letter. In the Deadmines, The Unsent Letter waits to be carried to Stormwind. Its delivery reveals the grievances and shared history binding Edwin VanCleef to the city's master builders. Edwin VanCleef falls aboard his juggernaut beneath Moonbrook, leaving behind more than a broken rebellion. A newly penned, sealed letter is tucked into his clothing. He addressed it not to a criminal lieutenant or financier, but to Baros Alexston, Stormwind's City Architect.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_373-0fdc90012d2bfc9e9b53/1-0000.mp3", duration = 42.004898, start = 0},
+    {file = "Audio/Transport/full_quest_373-85da3fb5b63ee5b93446/1-0000.mp3", duration = 27.637551, start = 0},
   },
 }
 P.transport["quest:3765"] = {
@@ -3346,11 +3346,11 @@ P.transport["quest:388"] = {
   },
 }
 P.transport["quest:389"] = {
-  hash = "15e10a",
-  fullHash = "15e10a",
-  text = "Bazil Thredd. Following the discovery of an unsent letter recovered from the Deadmines, City Architect Baros Alexston directs investigators to Bazil Thredd, the Defias leader's right-hand man. Thredd is currently locked beneath the streets of Stormwind in the high-security Stockade prison, holding crucial insight into the Brotherhood's lingering plots. When presented with evidence from the Deadmines, Baros Alexston admits his own shared history with Edwin VanCleef. Both were leading craftsmen in the Stonemasons Guild tasked with rebuilding Stormwind from the ashes of the First and Second Wars. After finishing the kingdom's magnificent white walls and towers, the nobility refused to pay the masons their promised wages. While select senior members were offered cushy bureaucratic posts to quiet them, VanCleef refused to abandon the rank-and-file laborers, leading a violent riot out of the city and founding the Defias Brotherhood.",
+  hash = "5cd513",
+  fullHash = "5cd513",
+  text = "Bazil Thredd. In Stormwind, Bazil Thredd holds insight into the Defias Brotherhood's lingering plots. After an unsent letter is recovered from the Deadmines, City Architect Baros Alexston directs you to the Defias leader's right-hand man, now locked beneath the streets in the high-security Stockade. Baros Alexston shares a bitter history with Edwin VanCleef. Both led the Stonemasons Guild, charged with rebuilding Stormwind from the ashes of the First and Second Wars. When the kingdom's magnificent white walls and towers were finished, the nobility refused to pay the masons their promised wages. Some senior members received bureaucratic posts to quiet them, but VanCleef refused to abandon the rank-and-file laborers. He led a violent riot out of the city and founded the Defias Brotherhood.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_389-44decf9ac589f76113fe/1-0000.mp3", duration = 55.5363265, start = 0},
+    {file = "Audio/Transport/full_quest_389-620893cbcf64aec8b1ed/1-0000.mp3", duration = 49.2146939, start = 0},
   },
 }
 P.transport["quest:391"] = {
@@ -3362,43 +3362,43 @@ P.transport["quest:391"] = {
   },
 }
 P.transport["quest:392"] = {
-  hash = "d1754e",
-  fullHash = "d1754e",
-  text = "The Curious Visitor. Following the containment of the Stockade uprising, Warden Thelwater reveals a troubling discovery regarding the insurgent leader, Bazil Thredd. For months before the riot, Thredd had been receiving regular visits from a mysterious man holding legitimate papers under the name Maelik. Bazil Thredd spent the early years of his captivity in the Stormwind Stockade abandoned by his former comrades, or so the guards believed. That changed months before the prison riot, when a quiet visitor began meeting with Thredd once or twice a week. He passed every inspection, carried authorized paperwork, and gave his name as Maelik. Warden Thelwater, realizing these visits likely coordinated the bloody uprising that followed, gathers a physical description and sends adventurers to consult City Architect Baros Alexston to uncover who this visitor truly was.",
+  hash = "ae1e81",
+  fullHash = "ae1e81",
+  text = "The Curious Visitor. After the Stockade uprising, Warden Thelwater has a troubling discovery about Bazil Thredd. For months before the riot, a man named Maelik visited Thredd with legitimate papers. Warden Thelwater learned that Bazil Thredd had not been abandoned by his former comrades, as the guards believed. Months before the riot, a quiet visitor began meeting with Thredd once or twice a week. He passed every inspection, carried authorized paperwork, and gave his name as Maelik. Thelwater suspects the visits helped coordinate the bloody uprising. He gathers a physical description and sends you to City Architect Baros Alexston to learn who the visitor was.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_392-0f2593bb0a1db8afd0f0/1-0000.mp3", duration = 51.7746939, start = 0},
+    {file = "Audio/Transport/full_quest_392-6ee77214ceb1d4818051/1-0000.mp3", duration = 41.8481633, start = 0},
   },
 }
 P.transport["quest:393"] = {
-  hash = "fe0342",
-  fullHash = "fe0342",
-  text = "Shadow of the Past. Shadow of the Past is an Alliance investigation quest leading from City Architect Baros Alexston to Master Mathias Shaw, head of SI:7. Following inquiries into a mysterious visitor who spoke with the imprisoned Defias leader Bazil Thredd, the trail shifts from public construction scandals into Stormwind's covert intelligence network. After questioning Warden Thelwater regarding suspicious visitors to the Stockade's chief prisoner, Bazil Thredd, investigators hit a dead end with Baros Alexston. While the city architect cannot identify the mysterious figure, he points toward the one man whose business is knowing every secret whispered in the capital: Master Mathias Shaw, leader of the secretive intelligence agency SI:7.",
+  hash = "8e8434",
+  fullHash = "8e8434",
+  text = "Shadow of the Past. In Stormwind, the trail from a Stockade prisoner leads into the city’s hidden dealings. Baros Alexston sends you to Mathias Shaw after a mysterious visitor spoke with Bazil Thredd. Baros Alexston cannot identify the visitor who spoke with Bazil Thredd, the Stockade’s chief prisoner. Warden Thelwater’s account has brought investigators to the city architect, but he has no name to offer. Instead, Baros points you toward Master Mathias Shaw, who leads SI:7 and makes it his business to know Stormwind’s secrets.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_393-6bbfc8625a432fd4057c/1-0000.mp3", duration = 46.08, start = 0},
+    {file = "Audio/Transport/full_quest_393-d351deb2fb539784d6dd/1-0000.mp3", duration = 33.1232653, start = 0},
   },
 }
 P.transport["quest:394"] = {
-  hash = "d7b3c1",
-  fullHash = "d7b3c1",
-  text = "The Head of the Beast. Following the assassination of the treacherous Lord Gregor Lescovar, this assignment directs you from Elling Trias to Master Mathias Shaw in Old Town. Reporting the death of Lescovar cements your standing with Stormwind's clandestine intelligence network. In the hidden chambers of Old Town, Master Mathias Shaw oversees the kingdom's covert apparatus through SI:7. Receiving word of Lescovar's demise, Shaw recognizes your skill and ruthlessness, warmly praising your efficiency and thanking you for the great service you have done the people of Stormwind.",
+  hash = "e1895e",
+  fullHash = "e1895e",
+  text = "The Head of the Beast. In Stormwind, The Head of the Beast carries you from Elling Trias to Master Mathias Shaw in Old Town. Reporting Lord Gregor Lescovar’s death confirms your place in Stormwind’s covert intelligence network. Master Mathias Shaw directs Stormwind’s covert apparatus through SI:7 from hidden chambers in Old Town. When you report Lescovar’s death, Shaw recognizes your skill and ruthlessness, praises your efficiency, and thanks you for serving the people of Stormwind.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_394-24db1603fd3140fd3601/1-0000.mp3", duration = 33.6195918, start = 0},
+    {file = "Audio/Transport/full_quest_394-44f6883775d3bfb1a441/1-0000.mp3", duration = 26.2791837, start = 0},
   },
 }
 P.transport["quest:395"] = {
-  hash = "34a94a",
-  fullHash = "34a94a",
-  text = "Brotherhood's End. Brotherhood's End marks the aftermath of the clandestine strike against Lord Gregor Lescovar within Stormwind Keep. With the treacherous nobleman dead, Master Mathias Shaw sends you to City Architect Baros Alexston, cautioning you to keep quiet about who actually struck the killing blow. Baros Alexston, the City Architect who once helped rebuild Stormwind as a stonemason, greets the news of Lescovar's demise with profound relief. Alexston and other prominent figures in the rebuilding effort were marked targets for Edwin VanCleef's vengeance after the Stonemasons were cast out without pay. With Lescovar silenced and the conspiracy disrupted, Alexston believes the immediate threat of retribution hanging over the kingdom's architects and nobility has finally passed.",
+  hash = "ccb141",
+  fullHash = "ccb141",
+  text = "Brotherhood's End. In Stormwind Keep, Lord Gregor Lescovar's killing leaves dangerous questions behind. Master Mathias Shaw sends you to City Architect Baros Alexston and warns you to keep the killer's identity quiet. Baros Alexston, the City Architect who helped rebuild Stormwind as a stonemason, is relieved to hear that Lescovar is dead. Edwin VanCleef had marked Alexston and other prominent figures in the rebuilding effort for vengeance after the Stonemasons were cast out without pay. With Lescovar silenced and the conspiracy disrupted, Alexston believes the immediate threat to the kingdom's architects and nobility has passed.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_395-af4f170fc28f39828a1e/1-0000.mp3", duration = 47.4644898, start = 0},
+    {file = "Audio/Transport/full_quest_395-4a2e93d72676e9b1a57f/1-0000.mp3", duration = 37.6163265, start = 0},
   },
 }
 P.transport["quest:396"] = {
-  hash = "cc45be",
-  fullHash = "cc45be",
-  text = "An Audience with the King. \"An Audience with the King\" is the culmination of the long investigation into the Defias Brotherhood across Westfall and the Deadmines. Carrying the final report prepared by City Architect Baros Alexston, heroes journey to Stormwind Keep to lay the threat to rest before the realm's highest authority. Yet reaching the throne room reveals that royal affairs in the capital are not as straightforward as they seem. After the defeat of Edwin VanCleef and the dismantling of the conspiracy beneath Moonbrook, the City Architect Baros Alexston compiles an official dossier for the Crown. Alexston insists that the adventurer who broke the guild's criminal enterprise should be the one honored before the monarch. Carrying the detailed report across the grand canals to Stormwind Keep, the messenger arrives expecting an audience with the sovereign of the realm.",
+  hash = "28b24e",
+  fullHash = "28b24e",
+  text = "An Audience with the King. At Stormwind Keep, An Audience with the King brings the Defias report before the Crown. After the long investigation across Westfall and the Deadmines, the heroes carry City Architect Baros Alexston's findings to the capital. Edwin VanCleef has been defeated, and the conspiracy beneath Moonbrook has been dismantled. City Architect Baros Alexston prepares an official report for the Crown. He believes the adventurer who broke the guild's criminal enterprise should be honored before the monarch. You carry the detailed findings across Stormwind's grand canals to Stormwind Keep, expecting to meet the realm's sovereign.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_396-cb41a719f19afc6a10f6/1-0000.mp3", duration = 50.2595918, start = 0},
+    {file = "Audio/Transport/full_quest_396-06e9b31d71c3a71ecf61/1-0000.mp3", duration = 37.0416327, start = 0},
   },
 }
 P.transport["quest:401"] = {
@@ -4234,11 +4234,11 @@ P.transport["quest:5674"] = {
   },
 }
 P.transport["quest:5676"] = {
-  hash = "da2ca7",
-  fullHash = "da2ca7",
-  text = "Arcane Feedback. Arcane Feedback is a rite of passage for Alliance priests in Stormwind City, granted by High Priestess Laurena in the Cathedral of Light. Reaching a deeper communion with faith, the priest is instructed in wards designed to counter hostile practitioners of the arcane. It represents the Church's practical defense against raw sorcery and rogue spellcasters. Within the sunlit cloisters of the Cathedral of Light, High Priestess Laurena reminds acolytes of an enduring peril: arcane magic. While the Holy Light brings healing, warmth, and divine order, raw magical energies are volatile and often court corruption or catastrophe. To endure against warlocks, renegade sorcerers, and magical beasts, devout priests are taught that faith alone must sometimes be shaped into an active ward against ambient spells. Arcane Feedback trains the mind and spirit to punish hostile spellcasters for channeling power against the faithful. Rather than simply deflecting magical volleys, this discipline mirrors arcane energy back into its source, burning through the caster's own mana reserves while causing agony. Laurena imparts this spell to human priests stepping out into the wider world, ensuring the Cathedral's emissaries never travel defenseless against sorcery.",
+  hash = "a86e73",
+  fullHash = "a86e73",
+  text = "Arcane Feedback. In Stormwind, Arcane Feedback prepares priests to face hostile spellcasters. High Priestess Laurena teaches the rite in the Cathedral of Light, where faith is shaped into a defense against arcane power. At the Cathedral of Light, High Priestess Laurena warns acolytes that arcane magic remains a danger. The Holy Light brings healing, warmth, and divine order, while raw magic can turn volatile and lead to corruption or catastrophe. Warlocks, renegade sorcerers, and magical beasts threaten the faithful. Priests learn that faith can become an active ward against spells around them. Arcane Feedback turns a hostile spellcaster's power back against them. The ward does more than deflect spells: it burns through the caster's mana and causes agony. Laurena teaches the rite to human priests preparing to travel beyond Stormwind, so the Cathedral's emissaries can face sorcery with a defense of their own.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_5676-1847c0c3ebdb195b676d/1-0000.mp3", duration = 76.6432653, start = 0},
+    {file = "Audio/Transport/full_quest_5676-25f29d2cb86dd1750535/1-0000.mp3", duration = 56.3983673, start = 0},
   },
 }
 P.transport["quest:5677"] = {
@@ -4994,11 +4994,11 @@ P.transport["quest:69"] = {
   },
 }
 P.transport["quest:690"] = {
-  hash = "a59c2d",
-  fullHash = "a59c2d",
-  text = "Malin's Request. Malin's Request is an Alliance task offered by Archmage Malin in Stormwind City's Mage Quarter. Malin asks seasoned adventurers to travel far north to Refuge Pointe in the Arathi Highlands, where an expedition attempts to recover valuable magical relics left behind during the fall of Stromgarde. Archmage Malin, stationed in the Wizard's Sanctum of Stormwind, acts on behalf of his former mentor, Archmage Trelane. When the martial kingdom of Stromgarde collapsed into chaos and ruin, Trelane made a desperate stand at the Tower of Arathor. Forced to abandon his post as the city fell to hostile forces, Trelane left behind powerful enchanted possessions. Eager to reclaim these lost artifacts before hostile hands seize them, Malin directs capable mercenaries north to reinforce his operatives in the field. The road to recovering Trelane's relics leads through Refuge Pointe, the beleaguered bastion of Stromgarde loyalists in the central Arathi Highlands. Malin's primary contact among the defenders is the dwarf Skuerto. However, Refuge Pointe is severely hard-pressed by surrounding Syndicate outlaws, Witherbark trolls, and Boulderfist ogres. Arriving travelers quickly find that Skuerto and the outpost garrison are stretched far too thin to offer a warm reception without immediate assistance.",
+  hash = "d0e0c2",
+  fullHash = "d0e0c2",
+  text = "Malin's Request. In Stormwind, Malin asks for help recovering relics from fallen Stromgarde. Archmage Malin sends seasoned Alliance adventurers north to Refuge Pointe in the Arathi Highlands, where an expedition seeks the magical relics left behind when Stromgarde fell. Archmage Malin serves in Stormwind's Wizard's Sanctum and acts for his former mentor, Archmage Trelane. When Stromgarde fell into chaos, Trelane made a desperate stand at the Tower of Arathor. As hostile forces took the city, he had to abandon his post and leave powerful enchanted possessions behind. Malin fears those relics may fall into hostile hands. He sends capable mercenaries north to strengthen his agents in the field and reclaim Trelane's lost belongings. Refuge Pointe lies on the road to Trelane's relics, in the central Arathi Highlands. The outpost is a hard-pressed refuge for Stromgarde loyalists, and Malin's chief contact there is the dwarf Skuerto. Syndicate outlaws, Witherbark trolls, and Boulderfist ogres press the outpost from every side. When you arrive, Skuerto and the garrison are stretched too thin to welcome you warmly without immediate help.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_690-185982d689db3e5deaad/1-0000.mp3", duration = 81.92, start = 0},
+    {file = "Audio/Transport/full_quest_690-df62d6432cd306780499/1-0000.mp3", duration = 72.2808163, start = 0},
   },
 }
 P.transport["quest:691"] = {
@@ -5234,11 +5234,11 @@ P.transport["quest:79"] = {
   },
 }
 P.transport["quest:79008"] = {
-  hash = "9689fa",
-  fullHash = "9689fa",
-  text = "... and that note you found. Discovered among the embers of a dying campfire in Westfall, this blistered note leaves behind a cryptic and solitary clue. Its scorched message hints at a destination waiting elsewhere in the world, urging whoever finds it to seek out a 'twin land.' Amid the abandoned fields, scavenged farmsteads, and wind-scoured plains of Westfall, travelers frequently come across the camps of vagrants, outlaws, or desperate vagabonds. Yet this small campsite was left in haste or secrecy, its provisions abandoned and its embers still faintly glowing. Left among the scattered debris lies a scorched slip of parchment that survived the flames. The blistered note bears only two short sentences: 'Not all that burns is lost. Find the twin land, find the place.' Shrouded in mystery, the words serve as both an enigmatic riddle and an invitation, pointing away from the desolate fields of Westfall toward another realm connected by name, geography, or fate.",
+  hash = "f2d038",
+  fullHash = "f2d038",
+  text = "... and that note you found. In Westfall, a scorched note survives beside a dying campfire. Its brief message points toward a place called the twin land. Across Westfall's abandoned fields and wind-scoured plains, travelers find camps left by vagrants, outlaws, and desperate wanderers. This small camp may have been left in haste or secrecy; its provisions lie abandoned, and embers still glow. A scorched slip of parchment rests among the scattered debris. The blistered note bears two short sentences: “Not all that burns is lost. Find the twin land, find the place.” The words point away from Westfall, but give no clear direction. What place shares a name, geography, or fate with this land?",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_79008-055651598c82a455144d/1-0000.mp3", duration = 57.9918367, start = 0},
+    {file = "Audio/Transport/full_quest_79008-756a63ddf388eb26f18d/1-0000.mp3", duration = 46.5763265, start = 0},
   },
 }
 P.transport["quest:79092"] = {
@@ -6098,11 +6098,11 @@ P.transport["quest:93951"] = {
   },
 }
 P.transport["quest:94"] = {
-  hash = "83dcdd",
-  fullHash = "83dcdd",
-  text = "A Watchful Eye. A Watchful Eye is an Alliance quest issued by the wizard Theocritus from the Tower of Azora in Elwynn Forest. Having established a basic scrying link against his rival Morganth, Theocritus directs adventurers east into Redridge Mountains to plant an enchanted focus upon an ancient lion statue watching the Tower of Ilgalar. From his tower in eastern Elwynn Forest, the mage Theocritus maintains a vigilant watch over dark spellcraft brewing in the nearby hills. His chief nemesis is Morganth, a vicious sorcerer of formidable power who has claimed the Tower of Ilgalar in the crags of Redridge Mountains. Seeking to uncover Morganth's sinister ambitions before they spill across the border, Theocritus developed the Eye of Azora to surveil the rogue wizard from a distance. While visual scrying affords some information, it is not enough to divine Morganth's deeper schemes. Theocritus entrusts travelers with the Glyph of Azora, commanding them to trek to the shadow of the Tower of Ilgalar. There, keeping a lonely watch for decades, stands an Old Lion Statue. Setting the glyph into a worn depression at the statue's base awakens an arcane conduit, linking the stone back to Azora and allowing Theocritus to delve straight into his rival's mind.",
+  hash = "d80fbb",
+  fullHash = "d80fbb",
+  text = "A Watchful Eye. Theocritus watches Morganth from the Tower of Azora in Elwynn Forest. He sends travelers east into Redridge Mountains to place an enchanted glyph at an old lion statue near the Tower of Ilgalar. Theocritus watches the hills from his tower in eastern Elwynn Forest. His rival, Morganth, is a powerful sorcerer who has claimed the Tower of Ilgalar in Redridge Mountains. Theocritus fears Morganth's dark magic may cross the border, so he made the Eye of Azora to watch the rogue wizard from afar. Theocritus needs more than a distant view to learn what Morganth plans. He gives travelers the Glyph of Azora and sends them to the Old Lion Statue near the Tower of Ilgalar. The statue has kept watch there for decades. Set the glyph into the worn hollow at its base, and an arcane link reaches back to Azora, letting Theocritus look into his rival's mind.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_94-388c23f8f3a193baf566/1-0000.mp3", duration = 77.6097959, start = 0},
+    {file = "Audio/Transport/full_quest_94-433000806fccdeb6300f/1-0000.mp3", duration = 54.4914286, start = 0},
   },
 }
 P.transport["quest:942"] = {
@@ -6362,11 +6362,11 @@ P.transport["quest:951"] = {
   },
 }
 P.transport["quest:95161"] = {
-  hash = "967740",
-  fullHash = "967740",
-  text = "Remember That I Love You. Remember That I Love You is an Alliance quest that begins in the Stormwind Orphanage and sends travelers into the gloomy forests of Duskwood. Tasked with delivering a grim Blood-Stained Letter, adventurers must track down a newly adopted orphan named Jeremy Heartweaver and his adoptive mother, Avette Fellwood. The children of the Stormwind Orphanage carry heavy burdens, having lost their families to warfare, hardship, and the chaos gripping the kingdom. Jeremy Heartweaver was one such ward until he was recently adopted by a woman named Avette Fellwood. While life out in the gloomy woods of Duskwood is fraught with peril and hard labor, caretakers at the orphanage believed it offered him a chance at family rather than remaining cooped up in the city.",
+  hash = "285a31",
+  fullHash = "285a31",
+  text = "Remember That I Love You. In Stormwind, a blood-stained letter is bound for Jeremy Heartweaver. He has left the orphanage for a new home with Avette Fellwood in Duskwood. Children at the Stormwind Orphanage have lost their families to war, hardship, and the chaos gripping the kingdom. Jeremy Heartweaver was one of them until Avette Fellwood adopted him. She took him to live in Duskwood, where the woods are gloomy and life brings peril and hard labor. The orphanage caretakers believed a home with a family offered him more than remaining in the city.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_95161-207bda056dec383800f5/1-0000.mp3", duration = 44.7216327, start = 0},
+    {file = "Audio/Transport/full_quest_95161-3a79cc2ad091eae2546b/1-0000.mp3", duration = 32.8097959, start = 0},
   },
 }
 P.transport["quest:95189"] = {
@@ -7042,11 +7042,11 @@ P.transport["quest:98190"] = {
   },
 }
 P.transport["quest:98191"] = {
-  hash = "fd4d54",
-  fullHash = "fd4d54",
-  text = "A Friend of the Family. Highlord Bolvar Fordragon entrusts an adventurer with delivering a rare Menethil Statuette to the Cathedral of Light. The relic, depicting the late King Terenas Menethil II of Lordaeron, has begun coalescing with holy power. It is handed over to Lord Grayson Shadowbreaker for permanent safekeeping in Stormwind's spiritual heart. King Terenas Menethil II was the architect of the Grand Alliance during the Second War and a man of great personal devotion. Despite his towering stature among the kingdoms of humanity, Terenas was deeply humble and notoriously disliked monuments sculpted in his own honor. Because of his personal reluctance, very few likenesses of him were ever commissioned, and fewer still managed to survive the horrific destruction and scourge that overran Lordaeron. When Highlord Bolvar Fordragon examines the surviving Menethil Statuette, he recognizes something far beyond simple craftsmanship. The Holy Light itself has begun coalescing within the carved figure, imbuing it with quiet spiritual resonance. Deciding that the royal palace of Stormwind Keep is not the appropriate sanctuary for such a sacred piece, Bolvar directs that it be taken across the city to the Cathedral of Light, placing it into the trusted hands of Paladin trainer Lord Grayson Shadowbreaker.",
+  hash = "f0c2eb",
+  fullHash = "f0c2eb",
+  text = "A Friend of the Family. In Stormwind, A Friend of the Family carries a rare likeness of King Terenas to the Cathedral of Light. Highlord Bolvar Fordragon entrusts the Menethil Statuette to an adventurer for Lord Grayson Shadowbreaker, who will keep it safe. King Terenas Menethil II helped shape the Grand Alliance during the Second War and lived with deep personal devotion. Though he held great standing among humanity's kingdoms, he was humble and disliked monuments made in his honor. Few likenesses were commissioned, and fewer survived Lordaeron's ruin and the Scourge's devastation. Highlord Bolvar Fordragon sees more than fine carving in the surviving Menethil Statuette. The Holy Light has begun to gather within it, giving the figure a quiet spiritual presence. Bolvar decides Stormwind Keep is no place for such a sacred piece. He sends it across the city to the Cathedral of Light, into the care of Lord Grayson Shadowbreaker, who trains paladins.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_98191-349ff588db143c7ceb79/1-0000.mp3", duration = 77.7926531, start = 0},
+    {file = "Audio/Transport/full_quest_98191-8e1d63507d54d015fe5d/1-0000.mp3", duration = 58.0963265, start = 0},
   },
 }
 P.transport["quest:98293"] = {

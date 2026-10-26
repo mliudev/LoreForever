@@ -21,16 +21,16 @@
    "You Have Served Us Well"
   ]
  },
- "summary": "Deep within the shadowed recesses of the Slaughtered Lamb in Stormwind, Zardeth of the Black Claw schemes against the city's nobility. An inquisitive peer, Lord Wishock, threatens to uncover the warlock enclave beneath the tavern, prompting a quiet gathering of rare and potent reagents to neutralize the threat.",
+ "summary": "Zardeth of the Black Claw schemes against Stormwind's nobles from beneath the Slaughtered Lamb. Lord Wishock's call for an investigation puts the hidden warlock coven at risk.",
  "sections": [
   {
    "title": "Threat from the Nobility",
-   "body": "Beneath the streets of the Mage Quarter, the warlock coven operating out of the Slaughtered Lamb enjoys a precarious secrecy. That secrecy is jeopardized by Lord Wishock, a member of the House of Nobles who has caught wind of the dark magic simmering below the city. Wishock has begun lobbying his peers for a full investigation, which would bring the city guard and royal scrutiny down upon the coven.",
+   "body": "Beneath the Mage Quarter streets, warlocks gather in the Slaughtered Lamb and keep their coven hidden. Lord Wishock, a member of the House of Nobles, has heard of the dark magic below the city. He is urging his peers to launch a full investigation, which could bring the city guard and royal scrutiny down on the coven.",
    "spoiler": 0
   },
   {
    "title": "A Concoction in the Shadows",
-   "body": "Rather than risk open confrontation with Stormwind's ruling class, Zardeth of the Black Claw devises a discreet remedy to ensure Lord Wishock becomes permanently preoccupied. The preparation requires obscure botanical ingredients gathered from distant corners of the Eastern Kingdoms: a pale bloom known as the Tear of Tilloa from Duskwood, and a submerged Musquash Root plucked from beneath the Stonewrought Dam.",
+   "body": "To avoid an open clash with Stormwind's ruling class, Zardeth of the Black Claw seeks a quiet remedy to keep Lord Wishock occupied. The brew calls for rare plants from distant parts of the Eastern Kingdoms: the pale Tear of Tilloa from Duskwood, and a Musquash Root gathered underwater beneath the Stonewrought Dam.",
    "spoiler": 1
   }
  ],
@@ -42,7 +42,7 @@
     "lord wishock",
     "who is wishock"
    ],
-   "answer": "Lord Wishock is a nobleman within the Stormwind House of Nobles. After discovering hints of warlock activities hidden beneath the Mage Quarter, he began pressing the council for a formal investigation."
+   "answer": "Lord Wishock is a nobleman in Stormwind's House of Nobles. After hearing hints of warlock activity beneath the Mage Quarter, he began pressing the council to open a formal investigation."
   },
   {
    "q": "Who is Zardeth of the Black Claw?",
@@ -51,7 +51,7 @@
     "zardeth black claw",
     "who is zardeth"
    ],
-   "answer": "Zardeth is a senior warlock operating from the crypts beneath the Slaughtered Lamb tavern in Stormwind. He works to shield the city's warlock cabal from being discovered and purged by authorities."
+   "answer": "Zardeth is a senior warlock in the crypts beneath Stormwind's Slaughtered Lamb. He works to shield the city's warlock cabal from discovery and a purge by the authorities."
   },
   {
    "q": "Where does the Tear of Tilloa come from?",
@@ -60,7 +60,7 @@
     "tear of tilloa",
     "where is tear of tilloa"
    ],
-   "answer": "The Tear of Tilloa is a delicate white flower found growing in the overgrown Garden of Stalvan on the outskirts of Darkshire in Duskwood."
+   "answer": "The Tear of Tilloa is a delicate white flower found in the overgrown Garden of Stalvan, on the outskirts of Darkshire in Duskwood."
   },
   {
    "q": "Where is the Musquash Root found?",
@@ -69,7 +69,7 @@
     "musquash root",
     "where to get musquash root"
    ],
-   "answer": "The Musquash Root grows only in the wetlands at the very base of the massive waterfalls tumbling beneath the Stonewrought Dam in the Wetlands."
+   "answer": "The Musquash Root grows only in the wetlands at the very base of the massive waterfalls beneath the Stonewrought Dam in the Wetlands."
   },
   {
    "q": "Why doesn't Stormwind's government already know about the warlocks?",
@@ -78,7 +78,7 @@
     "why are warlocks hiding",
     "are warlocks illegal"
    ],
-   "answer": "Warlocks are deeply distrusted in Stormwind, so the coven under the Slaughtered Lamb keeps its practice hidden underground, away from the eyes of the city guards and the nobility. Lord Wishock has only just caught wind of it."
+   "answer": "Warlocks are deeply distrusted in Stormwind, so the coven beneath the Slaughtered Lamb hides its practice underground, away from the city guards and nobles. Lord Wishock has only just caught wind of it."
   },
   {
    "q": "What does Zardeth intend to brew with these reagents?",
@@ -87,21 +87,21 @@
     "noble brew purpose",
     "why make the brew"
    ],
-   "answer": "Zardeth claims the brew will keep Lord Wishock 'preoccupied' so the investigation stalls. What exactly he has in mind for the nobleman only becomes clear once the brew is ready."
+   "answer": "Zardeth says the brew will keep Lord Wishock occupied and stall the investigation. What he intends for the nobleman becomes clear only when the brew is ready."
   }
  ],
  "angles": [
   {
    "target": "class:Warlock",
-   "text": "The crypts beneath the Slaughtered Lamb are your safe haven in Stormwind. Assisting Zardeth protects your brothers and sisters of the dark arts from the prying eyes of the kingdom's righteous nobility."
+   "text": "As a warlock, the crypts beneath the Slaughtered Lamb are your safe haven in Stormwind. Helping Zardeth protects your brothers and sisters in the dark arts from discovery by the kingdom's righteous nobility."
   },
   {
    "target": "faction:Alliance",
-   "text": "While King Varian Wrynn remains missing, political maneuvering among the House of Nobles is at an all-time high, making internal scandals especially dangerous for the city's stability."
+   "text": "While King Varian Wrynn remains missing, political maneuvering in the House of Nobles is at an all-time high. That makes scandals within the city especially dangerous to its stability."
   },
   {
    "target": "profession:Herbalism",
-   "text": "The Tear of Tilloa and Musquash Root represent rare and specialized flora that thrive only in regions shaped by grim history or torrents of pristine water."
+   "text": "As a herbalist, you know the Tear of Tilloa and Musquash Root are rare plants that grow only in regions shaped by grim history or torrents of pristine water."
   }
  ],
  "keywords": [
@@ -125,5 +125,6 @@
  ],
  "attribution": [
   "A Noble Brew"
- ]
+ ],
+ "style": 1
 }

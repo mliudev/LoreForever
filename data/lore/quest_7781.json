@@ -20,16 +20,16 @@
    "The Lord of Blackrock (Alliance 2)"
   ]
  },
- "summary": "The Lord of Blackrock is an Alliance quest initiated upon claiming the severed head of the black dragon Nefarian within Blackwing Lair. Delivering this monstrous trophy to Highlord Bolvar Fordragon in Stormwind Keep announces the downfall of the master of Blackrock Mountain. It marks one of the greatest military triumphs the Alliance has celebrated in recent history.",
+ "summary": "Nefarian's severed head is bound for Stormwind Keep after his defeat in Blackwing Lair. Highlord Bolvar Fordragon receives the trophy, a sign that the master of Blackrock Mountain has fallen. The victory is among the Alliance's greatest military triumphs in recent history.",
  "sections": [
   {
    "title": "A Monument to Victory",
-   "body": "Nefarian, the insidious brood-master of the Black Dragonflight and ruler of Upper Blackrock Spire, has long cast a terrifying shadow over the surrounding human kingdoms. Slaying him is not merely an act of survival; it represents the utter dismantling of his twisted experiments and scheming. Carrying his colossal, battle-scarred head back to Stormwind serves as undeniable proof that the Lord of Blackrock has met his end at the hands of the Alliance's greatest heroes.",
+   "body": "Nefarian, brood-master of the Black Dragonflight and ruler of Upper Blackrock Spire, has long threatened the surrounding human kingdoms. His defeat ends his twisted experiments and schemes. Carrying his battle-scarred head back to Stormwind gives proof that the Lord of Blackrock has fallen to the Alliance's greatest heroes.",
    "spoiler": 0
   },
   {
    "title": "Audience at Stormwind Keep",
-   "body": "The grisly prize is brought directly to Highlord Bolvar Fordragon, who governs the kingdom from the throne room of Stormwind Keep. The sudden arrival of a dragon's severed head inside the royal court shocks onlookers and commands immediate reverence. For a kingdom already straining under internal political strife and external threats, this victory provides the realm with a momentous morale surge and an unforgettable entry into the annals of Alliance history.",
+   "body": "Highlord Bolvar Fordragon governs the kingdom from the throne room of Stormwind Keep. The dragon's severed head shocks the royal court and commands reverence. With the kingdom strained by internal political strife and threats from beyond, the victory lifts morale and earns a place in Alliance history.",
    "spoiler": 0
   }
  ],
@@ -41,7 +41,7 @@
     "nefarian head quest alliance",
     "head of nefarian stormwind"
    ],
-   "answer": "This quest begins when adventurers claim the severed Head of Nefarian in Blackwing Lair. It directs the victor to carry the monumental trophy back to Stormwind City and present it to Highlord Bolvar Fordragon on behalf of the kingdom."
+   "answer": "You claim Nefarian's severed head in Blackwing Lair and carry the trophy to Stormwind City. There you present it to Highlord Bolvar Fordragon on behalf of the kingdom."
   },
   {
    "q": "Who is Nefarian?",
@@ -50,7 +50,7 @@
     "lord of blackrock",
     "nefarian lore"
    ],
-   "answer": "Nefarian is a great black dragon and the son of Deathwing. Ruling from the heights of Blackwing Lair inside Blackrock Mountain, he commanded the Blackrock orcs and conducted sinister experiments to create the chromatic dragonflight."
+   "answer": "Nefarian is a great black dragon and the son of Deathwing. He rules from Blackwing Lair in Blackrock Mountain, commands the Blackrock orcs, and conducts sinister experiments to create the chromatic dragonflight."
   },
   {
    "q": "Who is Highlord Bolvar Fordragon?",
@@ -59,7 +59,7 @@
     "who is bolvar",
     "highlord bolvar"
    ],
-   "answer": "Highlord Bolvar Fordragon is the paladin who rules Stormwind as regent in King Varian Wrynn's absence, holding court in the throne room of Stormwind Keep and watching over the young Prince Anduin Wrynn."
+   "answer": "Highlord Bolvar Fordragon is the paladin ruling Stormwind as regent while King Varian Wrynn is absent. He holds court in Stormwind Keep's throne room and watches over the young Prince Anduin Wrynn."
   },
   {
    "q": "Why is this trophy brought to Stormwind Keep?",
@@ -68,7 +68,7 @@
     "why bring head to keep",
     "why bolvar"
    ],
-   "answer": "Nefarian's dominion in Blackrock Mountain posed a mortal threat to the kingdom of Stormwind and the entire southern continent. Bringing the trophy directly to the kingdom's military leadership confirms the dragon's destruction and allows the realm to rally around the heroic feat."
+   "answer": "Nefarian's rule in Blackrock Mountain threatens the kingdom of Stormwind and the entire southern continent. Bringing his head to the kingdom's military leadership confirms the dragon's defeat and gives the realm a victory to rally around."
   },
   {
    "q": "What happens after giving the head to Bolvar?",
@@ -77,7 +77,7 @@
     "lord of blackrock part 2",
     "nefarian head turn in"
    ],
-   "answer": "Highlord Bolvar Fordragon is astounded by the feat, declaring that the triumph will be permanently recorded in history. This directly leads into the subsequent stage of the event, where the head is mounted publicly for all of Stormwind to see."
+   "answer": "Highlord Bolvar Fordragon is astounded and declares the triumph will be recorded in history. The next stage of the event has the head mounted publicly for all Stormwind to see."
   },
   {
    "q": "Does turning in this head affect the whole city?",
@@ -86,17 +86,17 @@
     "rallying cry",
     "head of nefarian buff"
    ],
-   "answer": "Yes. When the head of Nefarian is delivered to the capital and hoisted above the city gates, it signals the dragon's demise to all citizens and soldiers present, filling the defenders of Stormwind with triumphant resolve."
+   "answer": "Yes. Nefarian's head is delivered to the capital and raised above the city gates, announcing the dragon's death to citizens and soldiers and strengthening Stormwind's defenders with resolve."
   }
  ],
  "angles": [
   {
    "target": "faction:Alliance",
-   "text": "Presenting the head of the black dragon Nefarian is one of the crowning martial achievements for the Alliance, decisively crushing the dragonflight's schemes against human territories."
+   "text": "For the Alliance, presenting Nefarian's head is a crowning military achievement. It crushes the dragonflight's schemes against human lands."
   },
   {
    "target": "race:Human",
-   "text": "Stormwind has suffered countless incursions and plots orchestrated from Blackrock Mountain; seeing its master defeated provides the realm with long-sought retribution and relief."
+   "text": "As a human, you know Blackrock Mountain has sent countless incursions and plots against Stormwind. Its master's defeat brings the realm long-sought retribution and relief."
   }
  ],
  "keywords": [
@@ -115,5 +115,6 @@
  ],
  "attribution": [
   "The Lord of Blackrock (Alliance)"
- ]
+ ],
+ "style": 1
 }

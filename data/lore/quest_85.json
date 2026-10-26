@@ -17,16 +17,16 @@
   "wiki": "Lost Necklace",
   "chain": []
  },
- "summary": "Lost Necklace is an introductory task in southern Elwynn Forest given by \"Auntie\" Bernice Stonefield. Suspecting theft by the rival clan's mischievous young boy, Bernice sends adventurers across the road to confront Billy Maclure and retrieve her missing heirloom.",
+ "summary": "In southern Elwynn, Bernice Stonefield searches for her missing necklace. She suspects Billy Maclure, the young son of the neighboring family, and asks you to find him across the road.",
  "sections": [
   {
    "title": "A Neighborly Accusation",
-   "body": "The Stonefield and Maclure families share adjoining land in southern Elwynn Forest, but very little goodwill passes between them. When \"Auntie\" Bernice Stonefield discovers her cherished necklace is missing, she wastes no time pointing the finger at the youngest of the rival household. Convinced that young Billy Maclure snuck onto her farm and snatched the jewelry, the bitter widow asks any willing traveler to cross over to the vineyards, track down the boy, and demand its return.",
+   "body": "The Stonefield and Maclure families live on adjoining land in southern Elwynn Forest, but they share little goodwill. When \"Auntie\" Bernice Stonefield discovers her cherished necklace is gone, she blames the youngest Maclure. Certain that Billy Maclure slipped onto her farm and took it, the bitter widow asks you to cross the road to the vineyards, find the boy, and demand its return.",
    "spoiler": 0
   },
   {
    "title": "A Boy with an Appetite",
-   "body": "Confronting Billy Maclure at the neighboring vineyard quickly complicates the matter. Billy indignantly denies taking the necklace, claiming he is no thief. However, with a knowing grin, he hints that he might just know what actually became of the trinket\u2014provided someone satisfies his rumbling stomach with a fresh pork pie first.",
+   "body": "At the neighboring vineyard, Billy Maclure denies taking the necklace and insists he is no thief. With a knowing grin, he hints that he may know what became of it. First, he wants someone to satisfy his hunger with a fresh pork pie.",
    "spoiler": 1
   }
  ],
@@ -38,7 +38,7 @@
     "bernice stonefield",
     "who gives lost necklace"
    ],
-   "answer": "Auntie Bernice Stonefield is an elderly widow living on the Stonefield Farm in southern Elwynn Forest. She is deeply suspicious of the neighboring Maclure family, especially their troublemaking young son, Billy."
+   "answer": "Auntie Bernice Stonefield is an elderly widow who lives on Stonefield Farm in southern Elwynn Forest. She distrusts the neighboring Maclure family, especially their troublemaking young son, Billy."
   },
   {
    "q": "Did Billy Maclure actually steal the necklace?",
@@ -47,7 +47,7 @@
     "did billy steal it",
     "did billy take the necklace"
    ],
-   "answer": "Billy adamantly denies being a thief when confronted. He hints that he might know who took it, though he refuses to share the secret until he is properly fed."
+   "answer": "Billy Maclure adamantly denies stealing the necklace. He hints that he knows who took it, but won't share what he knows until someone feeds him."
   },
   {
    "q": "Where can I find Billy Maclure?",
@@ -56,7 +56,7 @@
     "where is billy",
     "find billy maclure"
    ],
-   "answer": "Billy Maclure is typically found idling among the grapevines at the Maclure Vineyards, located just east across the road from the Stonefield Farm."
+   "answer": "You can find Billy Maclure among the grapevines at Maclure Vineyards, just east across the road from Stonefield Farm."
   },
   {
    "q": "Why do the Stonefields and Maclures dislike each other?",
@@ -65,7 +65,7 @@
     "stonefield maclure feud",
     "why do they hate each other"
    ],
-   "answer": "The two neighboring families have been embroiled in a bitter rural feud for years. Tensions run high over property, pride, and longstanding personal grudges, leading both sides to immediately suspect the worst of one another."
+   "answer": "The neighboring Stonefield and Maclure families have been caught in a bitter rural feud for years. Property, pride, and old personal grudges keep tensions high, so each side suspects the worst of the other."
   },
   {
    "q": "What happens after talking to Billy Maclure?",
@@ -74,7 +74,7 @@
     "after lost necklace",
     "next quest"
    ],
-   "answer": "Billy insists that he is far too hungry to recall where the necklace went, sending you right back to Auntie Bernice to bake him a pork pie in exchange for the information."
+   "answer": "Billy says he is too hungry to remember where the necklace went. He sends you back to Auntie Bernice to bake him a pork pie in exchange for the information."
   },
   {
    "q": "Where does this quest take place?",
@@ -82,17 +82,17 @@
     "quest zone",
     "where is lost necklace"
    ],
-   "answer": "The quest takes place entirely in southern Elwynn Forest, running back and forth between the Stonefield Farm and the adjacent Maclure Vineyards."
+   "answer": "You travel through southern Elwynn Forest between Stonefield Farm and the adjacent Maclure Vineyards."
   }
  ],
  "angles": [
   {
    "target": "faction:Alliance",
-   "text": "For Alliance novices starting their careers in Elwynn Forest, settling petty disputes between the squabbling Stonefield and Maclure families is a quintessential taste of local frontier life."
+   "text": "As an Alliance novice in Elwynn Forest, you get a taste of local frontier life by settling a petty dispute between the squabbling Stonefield and Maclure families."
   },
   {
    "target": "race:Human",
-   "text": "The grudge between the Stonefields and the Maclures shows that not all strife in the Kingdom of Stormwind comes from Defias outlaws or gnoll warbands; old rural neighbor squabbles run just as deep."
+   "text": "As a human, you see that strife in the Kingdom of Stormwind comes not only from Defias outlaws and gnoll warbands. Old quarrels between rural neighbors run deep, too."
   }
  ],
  "keywords": [
@@ -114,5 +114,6 @@
  ],
  "attribution": [
   "Lost Necklace"
- ]
+ ],
+ "style": 1
 }

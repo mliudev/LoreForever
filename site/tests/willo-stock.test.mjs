@@ -234,3 +234,62 @@ test("What Willo keeps shows the kept save, and erasing it (one, a section, ever
   await deleteUser(env, user);
   assert.equal(stored(user).length, 0, "deleting the account too");
 });
+
+// ---- What they wore, spent and carried (LOR-834) ----
+
+const contextOf = body => /PLAYER CONTEXT\n([\s\S]*?)\n\n/.exec(body.contents.map(c => (c.parts || []).map(p => p.text || "")
+  .join("\n")).join("\n"))?.[1] || "";
+
+test("LOR-834: the save's gear, talents and bags reach her from the kept save, each only where the question bears on it", async () => {
+  const { token } = await linked();
+  await sync(token, save({ gear: { 16: [2489, "Two-Handed Sword"], 5: [6129, "Acolyte Robe", "Rune of Rage"] },
+    talents: [{ name: "Arms", points: 3, ranks: { Deflection: 3 } }, { name: "Fury", points: 0, ranks: {} }],
+    bags: { 2589: [20, "Linen Cloth"], 6948: [1, "Hearthstone"] } }));
+  await ask(token, "what should I upgrade first?");
+  let context = contextOf(calls.at(-1));
+  for (const want of [/Two-Handed Sword/i, /Rune of Rage/i, /Arms 3/i, /last save/i]) assert.match(context, want);
+  assert.doesNotMatch(context, /Linen/i);
+  await ask(token, "do I have enough linen for bandages?");
+  context = contextOf(calls.at(-1));
+  assert.match(context, /20 Linen Cloth/i);
+  assert.doesNotMatch(context, /Hearthstone|Two-Handed Sword/i);
+  await ask(token, "who is Hogger?");
+  context = contextOf(calls.at(-1));
+  assert.doesNotMatch(context, /Sword|Linen|Arms 3|Deflection/i, "nothing from the save for a lore question");
+  await ask(token, "which talents should I take next?");
+  assert.match(contextOf(calls.at(-1)), /Arms 3.*Deflection 3/is);
+});
+
+test("LOR-834: a German client's save reads in English: its gear and bags by item ID", async () => {
+  const { token } = await linked();
+  await sync(token, save({ gear: { 16: [2489, "Zweihandschwert"] }, bags: { 2589: [20, "Leinenstoff"], 999999: [2, "Unbekannt"] } }));
+  await ask(token, "what should I upgrade first?");
+  assert.match(contextOf(calls.at(-1)), /Two-handed Sword/i);
+  await ask(token, "what's in my bags?");
+  const context = contextOf(calls.at(-1));
+  assert.match(context, /20 Linen Cloth/i);
+  assert.match(context, /2 Unbekannt/, "an item the table doesn't know keeps the save's name");
+  assert.doesNotMatch(context, /Leinenstoff|Zweihandschwert/);
+});
+
+test("LOR-834: a full character's save fits what the site keeps; one over it is kept without its bags", async () => {
+  const { readFileSync } = await import("node:fs");
+  const beats = Object.keys(JSON.parse(readFileSync(new URL("../../data/beats.json", import.meta.url), "utf8")).beats);
+  const name = i => `Item of the Long Name Number ${i}`.padEnd(30, "x");
+  const gear = Object.fromEntries(Array.from({ length: 19 }, (_, i) => [i + 1, [10000 + i, name(i), "Rune of Something"]]));
+  const talents = ["Arms", "Fury", "Protection"].map(t => ({ name: t, points: 17,
+    ranks: Object.fromEntries(Array.from({ length: 20 }, (_, i) => [`${t} Talent of Many Words ${i}`, 5])) }));
+  const bags = n => Object.fromEntries(Array.from({ length: n }, (_, i) => [20000 + i, [20, name(i)]]));
+  const days = Array.from({ length: 14 }, (_, i) => ({ d: `2026-10-${10 + i}`, m0: 1e6, m: 2e6, l0: 40.5, l: 41.5, on: 7200 }));
+  const rep = Object.fromEntries(Array.from({ length: 60 }, (_, i) => [`Faction ${i}`, [5, 5100, 3000, 9000]]));
+  const full = save({ gear, talents, bags: bags(80), beats, days, rep });
+  const kept = readStock(full);
+  assert.ok(kept, `a full character is kept (${JSON.stringify(stockOf(full)).length} characters)`);
+  assert.equal(Object.keys(savedStock(kept.json).bags).length, 80, "read back as kept");
+  const over = readStock(save({ gear, talents, beats, days, rep,
+    bags: Object.fromEntries(Array.from({ length: 150 }, (_, i) => [20000 + i, [20, name(i).padEnd(64, "y")]])) }));
+  assert.ok(over, "over the cap, the save is still kept");
+  const back = savedStock(over.json);
+  assert.equal(back.bags, undefined);
+  assert.equal(Object.keys(back.gear).length, 19);
+});

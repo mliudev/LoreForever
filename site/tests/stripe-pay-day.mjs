@@ -1,18 +1,17 @@
-// The launch as every plan's pay day (lib/billing.js: payDay, the beta's checkout anchor and BETA_HALF, the upgrades)
-// against real Stripe, in TEST mode only: what Stripe charges, read back from it rather than assumed. First a dry run of
-// payDay over the whole test account (read only), and the beta's coupon made if it's missing (betaCoupon). Then each
+// The launch as every plan's pay day (lib/billing.js: payDay, the pre-order's checkout anchor, the upgrades) against
+// real Stripe, in TEST mode only: what Stripe charges, read back from it rather than assumed. First a dry run of
+// payDay over the whole test account (read only). Then each
 // scenario gets its own customer on its own test clock, a subscription made the way the site makes it, the clock is
 // advanced past the launch, and the invoices are read:
 //   I  a Legend paid now, moved to the launch with a credit: charged on the launch less what it paid for the days after
 //      it; then monthly from the launch
 //   J  the same without the credit: the whole price on the launch
 //   K  a Keep Hero trial moved to the launch: $4.99 then, nothing credited
-//   L  Hero bought in the beta (anchored at the launch, no proration): nothing now, $4.99 at the launch
-//   M  Champion bought in the beta (anchored, prorated, BETA_HALF): half price for the days left now, $9.99 at the launch
-//   N  an upgrade from Keep Hero in the beta (the trial kept): nothing now, Champion's $9.99 at the launch
-//   O  an upgrade from a paid Champion in the beta (BETA_HALF on the change): half price for the days left, $19.99 at
-//      the launch
-//   P  Checkout itself takes the beta's sessions (createCheckout, against a throwaway local D1): Hero's and Champion's
+//   L  Hero pre-ordered (anchored at the launch, no proration): nothing now, $4.99 at the launch
+//   M  Champion pre-ordered with a creator's 15% (a once coupon): nothing now, $8.49 at the launch, then $9.99
+//   N  an upgrade from Keep Hero before the launch (the trial kept): nothing now, Champion's $9.99 at the launch
+//   O  an upgrade from a pre-ordered Champion (no proration): nothing now, Legend's $19.99 at the launch
+//   P  Checkout itself takes the pre-order sessions (createCheckout, against a throwaway local D1): Hero's and Champion's
 //
 //   node site/tests/stripe-pay-day.mjs [I J ...]   (from the repo, in WSL; Node 22+; some scenarios only, by letter)
 //
@@ -24,7 +23,7 @@ import { readFileSync, existsSync } from "node:fs";
 import os from "node:os";
 import path from "node:path";
 
-import { payDay, betaCoupon, launchWindow, createCheckout, setupBilling, BETA_HALF, BETA_END_DEFAULT } from "../lib/billing.js";
+import { payDay, createCheckout, setupBilling, BETA_END_DEFAULT } from "../lib/billing.js";
 import { setup as setupAccounts, findOrCreateUser } from "../lib/accounts.js";
 import { d1 } from "./helpers.mjs";
 
@@ -122,7 +121,6 @@ const toPayDay = (sub, credit) => narrowed(sub, () => payDay(env, { credit, dry:
 const lastInvoice = async sub => (await S("GET", "invoices", { subscription: sub, limit: 1 })).data[0];
 
 console.log(`The launch: ${new Date(launchAt).toISOString()}; the beta from ${env.LAUNCH_WEEK_START}`);
-check("the beta's coupon is in Stripe (made if it was missing)", await betaCoupon(env) === BETA_HALF.id);
 const dry = await payDay(env, { dry: true });
 console.log(`Test account dry run: ${JSON.stringify(dry.counts)}`);
 check("the pay day's dry run changes nothing", dry.dry === true && Array.isArray(dry.subscriptions));
@@ -159,22 +157,28 @@ const scenarios = {
   async L() {
     const clock = await clockAt("l");
     const s0 = await subscribe(clock, "hero", { billing_cycle_anchor: LAUNCH, proration_behavior: "none", metadata: { launch: "hero" } });
-    check("L: Hero in the beta: active, nothing charged now", s0.status === "active" && (await paid(s0.id)).length === 0);
+    check("L: Hero pre-ordered: active, nothing charged now", s0.status === "active" && (await paid(s0.id)).length === 0);
     await advance(clock, LAUNCH + 7200);
     const s1 = await get(s0.id);
     check("L: $4.99 at the launch, then monthly from it", (await paid(s0.id)).join() === "499" &&
       s1.items.data[0].current_period_start === LAUNCH, (await paid(s0.id)).join());
   },
   async M() {
+    // A creator's first-month 15% (lib/referrals.js syncPromo: percent off, once) on a pre-order: Stripe must keep it
+    // for the launch's charge, not spend it on the days before, which cost nothing.
+    const coupon = "lore_forever_creator_15";
+    await S("GET", `coupons/${coupon}`).catch(() => S("POST", "coupons", { id: coupon, name: "15% off your first month",
+      percent_off: 15, duration: "once" }));
     const clock = await clockAt("m");
-    const s0 = await subscribe(clock, "champion", { billing_cycle_anchor: LAUNCH, proration_behavior: "create_prorations",
-      discounts: [{ coupon: BETA_HALF.id }], metadata: { launch: "half" } });
-    const first = (await paid(s0.id))[0];
-    const share = (LAUNCH - s0.start_date) / (30.4 * DAY);   // about the days left, of a month
-    check("M: Champion in the beta: half price for the days until the launch", first > 0 &&
-      Math.abs(first - 999 * share / 2) <= 999 * 0.04, `paid ${first} now (${(share * 100).toFixed(0)}% of a month, half price)`);
+    const s0 = await subscribe(clock, "champion", { billing_cycle_anchor: LAUNCH, proration_behavior: "none",
+      discounts: [{ coupon }], metadata: { preorder: "1", creator_offer: "1" } });
+    check("M: Champion pre-ordered with a creator's 15%: active, nothing charged now", s0.status === "active" &&
+      (await paid(s0.id)).length === 0);
     await advance(clock, LAUNCH + 7200);
-    check("M: then $9.99 at the launch", (await paid(s0.id)).join() === `${first},999`, (await paid(s0.id)).join());
+    check("M: $8.49 at the launch: the 15% is on the first real charge", (await paid(s0.id)).join() === "849",
+      (await paid(s0.id)).join());
+    await advance(clock, LAUNCH + 31 * DAY);
+    check("M: then $9.99", (await paid(s0.id)).join() === "849,999", (await paid(s0.id)).join());
   },
   async N() {
     const clock = await clockAt("n"), s0 = await subscribe(clock, "hero", { trial_end: LAUNCH, metadata: { launch: "hero" } });
@@ -188,21 +192,18 @@ const scenarios = {
   },
   async O() {
     const clock = await clockAt("o");
-    const s0 = await subscribe(clock, "champion", { billing_cycle_anchor: LAUNCH, proration_behavior: "create_prorations",
-      discounts: [{ coupon: BETA_HALF.id }], metadata: { launch: "half" } });
-    const before = await paid(s0.id);
-    // changePlan's upgrade from a paid plan in the beta: BETA_HALF on the new price's item, charged now.
-    const up = await S("POST", `subscriptions/${s0.id}`, { items: [{ id: s0.items.data[0].id, price: prices.legend,
-      discounts: [{ coupon: BETA_HALF.id }] }], proration_behavior: "always_invoice", payment_behavior: "pending_if_incomplete",
-      expand: ["latest_invoice"] });
-    const now2 = up.latest_invoice?.amount_paid ?? 0, share = (LAUNCH - now) / (30.4 * DAY);
-    check("O: the upgrade is half price for the days left", now2 > 0 && Math.abs(now2 - 1000 * share / 2) <= 1000 * 0.05,
-      `paid ${before.join()} then ${now2} for the upgrade (${(share * 100).toFixed(0)}% of a month)`);
+    const s0 = await subscribe(clock, "champion", { billing_cycle_anchor: LAUNCH, proration_behavior: "none",
+      metadata: { preorder: "1" } });
+    // changePlan's upgrade before the launch from a pre-order: the price swapped, no proration.
+    const up = await S("POST", `subscriptions/${s0.id}`, { items: [{ id: s0.items.data[0].id, price: prices.legend }],
+      proration_behavior: "none" });
+    check("O: the upgrade from a pre-ordered Champion charges nothing now", up.status === "active" &&
+      (await paid(s0.id)).length === 0);
     await advance(clock, LAUNCH + 7200);
-    check("O: Legend's $19.99 at the launch", (await paid(s0.id)).at(-1) === 1999, (await paid(s0.id)).join());
+    check("O: Legend's $19.99 at the launch", (await paid(s0.id)).join() === "1999", (await paid(s0.id)).join());
   },
   async P() {
-    // createCheckout itself, against Stripe test mode with a throwaway local D1: Stripe takes the beta's sessions.
+    // createCheckout itself, against Stripe test mode with a throwaway local D1: Stripe takes the pre-order sessions.
     // As Production makes them: Stripe as merchant of record (Managed Payments), on in the test account too.
     const local = { ...env, DB: d1(), STRIPE_MANAGED_PAYMENTS: "1" };
     await setupAccounts(local);
@@ -212,7 +213,7 @@ const scenarios = {
       const out = await createCheckout(local, user, plan, undefined, "https://develop.lore-forever.pages.dev");
       const id = /\/(cs_test_[\w]+)/.exec(out.url || "")?.[1];
       const session = id ? await S("GET", `checkout/sessions/${id}`, { expand: ["line_items"] }) : null;
-      check(`P: Checkout takes the beta's ${plan} session`, Boolean(session?.url),
+      check(`P: Checkout takes the pre-order ${plan} session, nothing due now`, Boolean(session?.url) && session.amount_total === 0,
         session ? `amount now ${session.amount_total}, ${session.payment_status}` : String(out.error || out.url));
       if (id) await S("POST", `checkout/sessions/${id}/expire`).catch(() => {});
     }

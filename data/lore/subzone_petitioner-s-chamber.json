@@ -7,11 +7,11 @@
  "meta": {
   "wiki": "Petitioner's Chamber"
  },
- "summary": "The Petitioner's Chamber, also known as the Hall of Petitioners, is an antechamber situated just off the main entrance ramp of Stormwind Keep. It serves as an official waiting room for nobility, church dignitaries, and visiting subjects seeking an audience with the crown. Those lingering here often pass the hours mingling, drinking, or waiting upon the regent's pleasure.",
+ "summary": "Petitioners wait for the crown in a chamber just inside Stormwind Keep. Nobles, church dignitaries, and visiting subjects spend the time mingling, drinking, or awaiting an audience.",
  "sections": [
   {
    "title": "A Room of Waiting and Influence",
-   "body": "Found immediately to the right upon ascending into Stormwind Keep, the Petitioner's Chamber is where matters of state meet everyday bureaucracy. Nobles such as Count Remington Ridgewell and high-ranking clergy like Bishop DeLavey pass their time in these halls while waiting for an audience with the boy-king Anduin Wrynn and Highlord Bolvar Fordragon. Behind the polished veneer of courtly etiquette, it is an ideal corner of the castle for gossip, quiet lobbying, and discerning who truly holds influence within the realm.",
+   "body": "The Petitioner's Chamber lies just to the right as you enter Stormwind Keep. Count Remington Ridgewell and Bishop DeLavey wait there for audiences with boy-king Anduin Wrynn and Highlord Bolvar Fordragon. Between formal visits, the chamber gives nobles and clergy room to mingle, trade gossip, and quietly press their concerns. Who holds influence in the realm can often be seen in who speaks with whom.",
    "spoiler": 0
   }
  ],
@@ -23,7 +23,7 @@
     "how to find petitioner chamber",
     "petitioner room location"
    ],
-   "answer": "The chamber is located inside Stormwind Keep. As soon as you ascend the grand entrance ramp into the keep, it is the first room directly on your right."
+   "answer": "The Petitioner's Chamber is inside Stormwind Keep, immediately to your right as you ascend the main entrance ramp."
   },
   {
    "q": "Who gathers in this room?",
@@ -32,7 +32,7 @@
     "npcs in petitioner chamber",
     "who waits here"
    ],
-   "answer": "The room is frequented by petitioners, court attendees, and nobles seeking the ear of the throne, including figures like Count Remington Ridgewell, Caledra Dawnbreeze, and Bishop DeLavey of the Church of the Holy Light."
+   "answer": "Petitioners, court attendees, and nobles gather there, including Count Remington Ridgewell, Caledra Dawnbreeze, and Bishop DeLavey of the Church of the Holy Light."
   },
   {
    "q": "Why is it also called the Hall of Petitioners?",
@@ -41,7 +41,7 @@
     "why called hall of petitioners",
     "petitioners hall"
    ],
-   "answer": "Its formal function is to host subjects who have submitted formal petitions to the crown. Visitors must wait here until the regent, Highlord Bolvar Fordragon, or the royal council grants them admittance to the throne room."
+   "answer": "The chamber takes its name from its role as a waiting room for subjects who have petitioned the crown. They wait until Highlord Bolvar Fordragon, the royal council, or the regent grants them entry to the throne room."
   },
   {
    "q": "What happens here during city quests?",
@@ -49,17 +49,17 @@
     "petitioner chamber quests",
     "what quests lead here"
    ],
-   "answer": "The chamber is primarily visited when delivering goods or speaking with nobles and clergy stationed within the keep, such as running errands to supply refined drinks like port for thirsty aristocrats waiting on court business."
+   "answer": "Visitors come to the chamber to deliver goods or speak with nobles and clergy in the keep. Some bring refined drinks such as port to aristocrats waiting on court business."
   }
  ],
  "angles": [
   {
    "target": "faction:Alliance",
-   "text": "For Alliance loyalists, this chamber represents the administrative bottleneck of Stormwind, where domestic appeals, church affairs, and noble requests await the royal council's scarce attention."
+   "text": "For the Alliance, the chamber is where domestic appeals, church affairs, and noble requests wait for the royal council's attention."
   },
   {
    "target": "class:Priest",
-   "text": "With Bishop DeLavey often stationed in this antechamber, the room serves as an intersection between the Holy Light's administrative hierarchy and the royal court."
+   "text": "As a priest, you may find Bishop DeLavey in this antechamber, where the Holy Light's hierarchy meets the royal court."
   }
  ],
  "keywords": [
@@ -80,5 +80,6 @@
  ],
  "attribution": [
   "Petitioner's Chamber"
- ]
+ ],
+ "style": 1
 }

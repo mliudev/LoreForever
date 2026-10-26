@@ -7,11 +7,11 @@
  "meta": {
   "wiki": "Longshore"
  },
- "summary": "The Longshore is the expansive sandy coastline stretching along the entire western edge of Westfall. Despite its vast and scenic expanse, the shore is notoriously hazardous due to thick populations of aggressive murlocs and scattered wrecks off the coast.",
+ "summary": "Along Westfall’s western edge, Longshore’s broad sands are claimed by hostile murlocs and broken ships.",
  "sections": [
   {
    "title": "A Treacherous Coastline",
-   "body": "Running the full western length of Westfall, the Longshore is one of the widest unbroken beaches in the Eastern Kingdoms. Yet it offers little peace to travelers. Coastal murlocs dominate the surf, led by notorious terrors like Old Murk-Eye, while the remnants of sunken vessels\u2014including ruined elven destroyers\u2014litter the shallows. Near the southern reaches, isolated settlers like Daphne Stilwell struggle against marauding Defias bandits, standing within sight of the Westfall Lighthouse across the water.",
+   "body": "Longshore runs along Westfall’s western coast, a wide stretch of unbroken sand. Travelers find little peace there. Murlocs dominate the surf, with Old Murk-Eye among the feared leaders, and sunken ships, including ruined elven destroyers, lie in the shallows. Near the south, Daphne Stilwell’s isolated farm faces Defias bandits. Across the water, the Westfall Lighthouse stands within sight.",
    "spoiler": 0
   }
  ],
@@ -23,7 +23,7 @@
     "longshore hazards",
     "is longshore safe"
    ],
-   "answer": "The shoreline is infested with aggressive murloc tribes that roam unchecked across the sands, ambushing anyone who strays too close to the surf. In addition to the murlocs, the southern end of the beach is troubled by Defias bandits raiding coastal homesteads."
+   "answer": "Aggressive murloc tribes roam the shore and ambush those who stray near the surf. Defias bandits also raid homesteads at the beach’s southern end."
   },
   {
    "q": "Who is Daphne Stilwell?",
@@ -32,7 +32,7 @@
     "stilwell farm",
     "woman on the beach"
    ],
-   "answer": "Daphne Stilwell is a lone settler maintaining an isolated farm on the southwestern stretch of the Longshore. Her vulnerable position makes her a frequent target for raids by the Defias Brotherhood, prompting the Knights of the Silver Hand to dispatch paladin initiates to her defense."
+   "answer": "Daphne Stilwell lives alone on a farm in southwestern Longshore. Defias Brotherhood raids threaten her, so the Knights of the Silver Hand send paladin initiates to defend her."
   },
   {
    "q": "What are the shipwrecks lying off the coast?",
@@ -41,7 +41,7 @@
     "sunken ships longshore",
     "shipwrecks"
    ],
-   "answer": "Numerous wrecks lie submerged off the Longshore, ranging from merchant vessels to elven destroyers lost during past naval conflicts. These underwater ruins attract scavengers, murlocs, and adventurers seeking relics lost beneath the waves."
+   "answer": "Merchant ships and elven destroyers lie among the wrecks submerged off Longshore, lost in past naval conflicts. Scavengers, murlocs, and adventurers seek relics among the underwater ruins."
   },
   {
    "q": "Why do druids visit the Longshore?",
@@ -50,17 +50,17 @@
     "strange lockbox westfall",
     "half pendant of aquatic endurance"
    ],
-   "answer": "Alliance druids undertake a rite known as the Trial of the Sea Lion to master their aquatic form. Part of this trial requires seeking out a submerged chest near an offshore shipwreck along northwestern Longshore to retrieve the Half Pendant of Aquatic Endurance."
+   "answer": "Alliance druids undertake the Trial of the Sea Lion to master their aquatic form. They must retrieve the Half Pendant of Aquatic Endurance from a submerged chest near a shipwreck off northwestern Longshore."
   }
  ],
  "angles": [
   {
    "target": "class:Paladin",
-   "text": "Paladins following the guidance of Duthorian Rall in Stormwind are sent south to Daphne Stilwell's homestead on Longshore, proving their valor by shielding an innocent farmer from Defias raiders."
+   "text": "As a paladin guided by Duthorian Rall in Stormwind, you are sent south to Daphne Stilwell’s homestead on Longshore. There, you prove your valor by protecting an innocent farmer from Defias raiders."
   },
   {
    "target": "class:Druid",
-   "text": "Alliance druids must brave the depths off the northwestern Longshore, locating a lockbox hidden near a sunken wreck to assemble the pendant required for their aquatic form."
+   "text": "As an Alliance druid, you must brave the waters off northwestern Longshore and find a lockbox near a sunken wreck. Its contents help you assemble the pendant needed for your aquatic form."
   }
  ],
  "keywords": [
@@ -85,5 +85,6 @@
  ],
  "attribution": [
   "Longshore"
- ]
+ ],
+ "style": 1
 }

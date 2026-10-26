@@ -17,16 +17,16 @@
   "wiki": "A Dynamite Plan",
   "chain": []
  },
- "summary": "A Dynamite Plan is a task offered by the inventive tinkerer Sprite Jumpsprocket in Stormwind's Dwarven District. Excited by talk of industrial sabotage, she seeks a sizable stash of coarse dynamite to kick-start the plan. Adventurers must manufacture or acquire the munitions to support her scheming.",
+ "summary": "Sprite Jumpsprocket is eager to put dynamite to work in Stormwind. The inventive tinkerer in the Dwarven District has heard talk of industrial sabotage and wants a supply of coarse dynamite to begin her plan.",
  "sections": [
   {
    "title": "Sparks in the Dwarven District",
-   "body": "Amid the clatter and smoke of Stormwind's Dwarven District, gnome engineer Sprite Jumpsprocket is rarely one to shy away from radical solutions. When talk turns to industrial sabotage, her immediate instinct is not caution, but enthusiasm. As a first step, she enlists passing mercenaries to supply her with a bundle of coarse dynamite.",
+   "body": "Sprite Jumpsprocket, a gnome engineer in Stormwind's Dwarven District, welcomes talk of industrial sabotage. Rather than urge caution, she asks passing mercenaries to bring her a bundle of coarse dynamite.",
    "spoiler": 0
   },
   {
    "title": "Gnomish Ambitions",
-   "body": "Procuring the explosives requires a capable hand at an engineering workbench or a knack for trading among the city's craftsmen. Ten sticks of coarse dynamite provide more than enough firepower to disrupt whatever industrial schemes are unfolding in the surrounding territories, demonstrating the practical, if perilous, methods gnomes favor when solving mechanical and political disruptions alike.",
+   "body": "You can make coarse dynamite at an engineering workbench or trade with the city's craftsmen. Sprite asks for ten sticks, enough to disrupt the industrial schemes unfolding in the surrounding territories. Her plan shows the practical, perilous methods gnomes favor when facing mechanical and political disruptions.",
    "spoiler": 0
   }
  ],
@@ -38,7 +38,7 @@
     "who is sprite",
     "quest giver"
    ],
-   "answer": "Sprite Jumpsprocket is an engineer found working among the smithies and workshops of the Dwarven District in Stormwind City. She is known for pursuing audacious and volatile engineering projects."
+   "answer": "Sprite Jumpsprocket is an engineer in the Dwarven District of Stormwind City, among its smithies and workshops. She pursues bold, volatile engineering projects."
   },
   {
    "q": "What does Sprite need for this task?",
@@ -47,7 +47,7 @@
     "what do i need",
     "items needed"
    ],
-   "answer": "She requires ten sticks of coarse dynamite. These can be manufactured using engineering techniques or acquired through trade and the auction house from other crafters."
+   "answer": "Sprite needs ten sticks of coarse dynamite. You can make them with engineering or acquire them through trade or the auction house."
   },
   {
    "q": "Why does Sprite want coarse dynamite?",
@@ -56,7 +56,7 @@
     "dynamite purpose",
     "sabotage motive"
    ],
-   "answer": "The prospect of industrial sabotage has caught Sprite's attention, and she means to start the job with a dependable stockpile of basic blasting charges."
+   "answer": "Talk of industrial sabotage has caught Sprite's attention. She wants a stock of basic blasting charges to begin."
   },
   {
    "q": "Where do I turn in the quest?",
@@ -65,7 +65,7 @@
     "hand in location",
     "sprite location"
    ],
-   "answer": "Sprite Jumpsprocket is located in the Dwarven District within the walls of Stormwind City."
+   "answer": "Sprite Jumpsprocket is in Stormwind City's Dwarven District."
   },
   {
    "q": "Is engineering required to complete this quest?",
@@ -74,7 +74,7 @@
     "engineering requirement",
     "can non engineers do this"
    ],
-   "answer": "No, engineering is not strictly required. While engineers can craft the coarse dynamite themselves, any adventurer can trade with players or buy the required dynamite from the auction house."
+   "answer": "No, engineering is not required. Engineers can make coarse dynamite, and you can also trade for it or buy it at the auction house."
   },
   {
    "q": "How does this relate to broader troubles around Stormwind?",
@@ -83,21 +83,21 @@
     "westfall sabotage",
     "industrial sabotage lore"
    ],
-   "answer": "Sprite never says what her sabotage is aimed at. All she reveals is her eagerness: the moment industrial sabotage comes up, she wants to start with dynamite."
+   "answer": "Sprite does not say what her sabotage targets. She only shows eagerness to begin with dynamite when industrial sabotage comes up."
   }
  ],
  "angles": [
   {
    "target": "profession:Engineering",
-   "text": "Engineers can craft coarse dynamite using coarse blasting powder and linen cloth, making this task a straightforward test of early tinkercraft."
+   "text": "As an engineer, you can make coarse dynamite from coarse blasting powder and linen cloth. It is a straightforward test of early tinkercraft."
   },
   {
    "target": "race:Gnome",
-   "text": "Sprite Jumpsprocket exemplifies the classic gnomish impulse: meeting complicated industrial problems with clever, combustible contraptions."
+   "text": "As a gnome, you see Sprite Jumpsprocket meet complicated industrial problems with clever, combustible contraptions."
   },
   {
    "target": "faction:Alliance",
-   "text": "Sprite runs her explosive scheme from the Dwarven District, right inside the walls of the Alliance capital."
+   "text": "As an Alliance member, you find Sprite's explosive scheme inside the walls of your capital, Stormwind."
   }
  ],
  "keywords": [
@@ -117,5 +117,6 @@
  ],
  "attribution": [
   "A Dynamite Plan"
- ]
+ ],
+ "style": 1
 }

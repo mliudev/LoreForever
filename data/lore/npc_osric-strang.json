@@ -8,11 +8,11 @@
   "wiki": "Osric Strang",
   "refs": 2
  },
- "summary": "Osric Strang is a veteran armor merchant who operates Limited Immunity, a shop situated in Stormwind's Old Town. Specializing in heavy mail and plate, he supplies sturdy gear and shields to Alliance defenders and weary travelers passing through the capital.",
+ "summary": "In Stormwind's Old Town, veteran armor merchant Osric Strang supplies weary travelers and Alliance defenders with sturdy gear. His shop, Limited Immunity, specializes in heavy mail and plate armor, along with shields.",
  "sections": [
   {
    "title": "Shopkeeper of Limited Immunity",
-   "body": "Tucked away in the weathered streets of Old Town, Osric Strang manages Limited Immunity, a shop catering to frontline fighters in need of heavy armor and shields. While his wares are suited for standard soldiers and traveling adventurers, he often assists incoming couriers who need a point of contact when arriving in the capital from nearby settlements like Westfall's Sentinel Hill.",
+   "body": "Osric Strang runs Limited Immunity, where fighters find heavy armor and shields. He also helps arriving couriers who need a point of contact in the capital, including those coming from nearby settlements such as Sentinel Hill in Westfall.",
    "spoiler": 0
   }
  ],
@@ -24,7 +24,7 @@
     "what does osric strang have",
     "limited immunity goods"
    ],
-   "answer": "Osric sells various pieces of heavy protective armor, ranging from augmented chain and polished scale to solid platemail suits, bucklers, and heater shields."
+   "answer": "Osric sells heavy protective armor, including augmented chain, polished scale, solid platemail suits, bucklers, and heater shields."
   },
   {
    "q": "Where can I find Osric Strang?",
@@ -33,7 +33,7 @@
     "where is osric strang",
     "limited immunity location"
    ],
-   "answer": "He can be found inside Limited Immunity, an armor shop in Old Town near the southern district of Stormwind."
+   "answer": "You can find Osric inside Limited Immunity, an armor shop in Old Town near Stormwind's southern district."
   },
   {
    "q": "Why am I sent to Osric Strang on a quest?",
@@ -42,17 +42,17 @@
     "osric strang quest",
     "delivery to osric"
    ],
-   "answer": "Couriers delivering goods across the kingdom, such as shipments arriving via gryphon master from Westfall, are often directed to Osric's shop in Old Town to complete deliveries and receive return messages."
+   "answer": "Couriers carrying goods across the kingdom, including shipments arriving by gryphon master from Westfall, are directed to Osric's shop in Old Town to deliver them and receive return messages."
   }
  ],
  "angles": [
   {
    "target": "class:Warrior",
-   "text": "Osric Strang offers reliable sets of chain, scale, plate, and shields, serving as an early source of dependable bulk protection for warriors visiting Old Town."
+   "text": "As a warrior visiting Old Town, you can find reliable chain, scale, plate, and shields from Osric, offering dependable bulk protection."
   },
   {
    "target": "faction:Alliance",
-   "text": "A loyal resident of Stormwind, Osric equips the kingdom's defenders and aids couriers maintaining supply links between Stormwind and outlying settlements."
+   "text": "As an Alliance member, you can rely on Stormwind resident Osric to equip the kingdom's defenders and help couriers maintain supply links between Stormwind and outlying settlements."
   }
  ],
  "keywords": [
@@ -72,5 +72,6 @@
  ],
  "attribution": [
   "Osric Strang"
- ]
+ ],
+ "style": 1
 }

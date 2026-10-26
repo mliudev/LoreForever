@@ -10,11 +10,11 @@
    "quest:1241"
   ]
  },
- "summary": "The Letter to Jorgen is a confidential missive drafted to enlist an old contact in Stormwind City. It serves as an operative's introduction during the early stages of an inquiry into a high-level diplomatic disappearance.",
+ "summary": "A sealed letter calls on Jorgen in Stormwind City to help with a missing diplomat.",
  "sections": [
   {
    "title": "A Dispassionate Summons",
-   "body": "When a high-ranking diplomat bound for Theramore failed to arrive for scheduled talks with Lady Jaina Proudmoore, royal investigators scrambled to keep the incident quiet. While official agents began scouring the capital, alternative channels were quietly mobilized. This sealed letter was drafted to circumvent standard military bureaucracy, aimed specifically at Jorgen\u2014a gruff veteran passing his days fishing beneath the colossal statues in the Valley of Heroes. The note calls upon old obligations, pulling an unwilling contact into a covert investigation touched by rumors of Defias conspiracy.",
+   "body": "A diplomat bound for Theramore failed to arrive for talks with Lady Jaina Proudmoore, and royal investigators moved quickly to keep the matter quiet. While official agents searched the capital, other channels stirred. The letter bypasses military bureaucracy and seeks out Jorgen, a gruff veteran who fishes beneath the great statues in the Valley of Heroes. It invokes old obligations and draws him into a covert inquiry amid rumors of a Defias conspiracy.",
    "spoiler": 0
   }
  ],
@@ -26,7 +26,7 @@
     "why letter to jorgen",
     "letter purpose"
    ],
-   "answer": "The letter acts as an introduction and a call to honor an old obligation. It directs the bearer to Jorgen, an operative in the Valley of Heroes, to bring independent eyes onto the case of a missing diplomat without alerting the wider public."
+   "answer": "The letter introduces its bearer and calls on Jorgen to honor an old obligation. It sends the bearer to the Valley of Heroes so Jorgen can help investigate a missing diplomat without drawing public attention."
   },
   {
    "q": "Who is Jorgen?",
@@ -35,7 +35,7 @@
     "jorgen npc",
     "jorgen stormwind"
    ],
-   "answer": "Jorgen is a reclusive contact residing just inside the gates of Stormwind, spending his time fishing along the waters of the Valley of Heroes. Though irritated by interruptions, he is bound by a past debt to assist when presented with this missive."
+   "answer": "Jorgen is a reclusive contact just inside Stormwind's gates who spends his time fishing in the Valley of Heroes. He dislikes interruptions, but a past debt binds him to help when shown the letter."
   },
   {
    "q": "What disappearance does the letter relate to?",
@@ -44,7 +44,7 @@
     "who disappeared",
     "missing diplomat"
    ],
-   "answer": "A prominent diplomat departed Stormwind on a voyage to Theramore to hold audience with Lady Jaina Proudmoore, but vanished en route. Suspicion points toward the Defias Brotherhood, though the full extent of the plot remains tightly guarded."
+   "answer": "A prominent diplomat left Stormwind by ship for Theramore to meet Lady Jaina Proudmoore, then vanished along the way. Suspicion falls on the Defias Brotherhood, though the full plot remains closely guarded."
   },
   {
    "q": "Where is the letter delivered?",
@@ -53,17 +53,17 @@
     "jorgen location",
     "where is jorgen"
    ],
-   "answer": "The letter is carried to the Valley of Heroes, the grand entryway of Stormwind City lined with monuments to the heroes of the Second War. Jorgen can be found along the water's edge near the front gates."
+   "answer": "The letter is carried to the Valley of Heroes, Stormwind City's grand entrance lined with monuments to the heroes of the Second War. Jorgen fishes by the water near the front gates."
   }
  ],
  "angles": [
   {
    "target": "faction:Alliance",
-   "text": "The missive touches on the fragile stability of the Alliance, seeking to quietly handle an incident that threatens diplomatic ties between Stormwind and Theramore."
+   "text": "The letter concerns the Alliance's fragile stability and seeks a quiet response to an incident that threatens ties between Stormwind and Theramore."
   },
   {
    "target": "class:Rogue",
-   "text": "Operating through hushed dispatches and reluctant street-level informants rather than the city guard is a familiar, necessary method for uncovering foul play in the capital."
+   "text": "As a rogue, you know that quiet dispatches and reluctant street informants can be necessary when uncovering trouble in the capital."
   }
  ],
  "keywords": [
@@ -86,5 +86,6 @@
  "attribution": [
   "Letter to Jorgen",
   "The Missing Diplomat (2)"
- ]
+ ],
+ "style": 1
 }

@@ -127,6 +127,19 @@
   font: 0.86rem/1.4 var(--h-body); cursor: pointer; text-decoration: none; }
 .home main .hb-pg a.hb-chip { color: var(--parch-ink); text-decoration: none; }
 .hb-chip svg { width: 14px; height: 14px; }
+/* Found's kind filter (home-book.js chips), one picked; and its search over the pages he found. */
+.hb-chips { display: flex; flex-wrap: wrap; gap: 4px; margin: 4px 0 8px; }
+button.hb-chip { margin-top: 0; }
+.hb-chip.on { background: #6b1c0d; border-color: #6b1c0d; color: #ffeec7; }
+.hb-search { width: 100%; box-sizing: border-box; margin: 0 0 8px; padding: 5px 8px; border: 1px solid #a8864a; border-radius: 2px;
+  background: #f3e6c4; color: var(--parch-ink); font: 0.9rem/1.3 var(--h-body); }
+/* A storyline's quests he has done, in the order he did them. */
+.hb-steps { list-style: none; margin: 6px 0 10px; padding: 0; display: grid; gap: 6px; }
+.hb-steps li { display: flex; align-items: center; gap: 10px; }
+.hb-steps .hb-tile { grid-template-columns: auto 1fr; justify-items: start; align-items: center; text-align: left; gap: 10px; }
+.hb-steps .hb-tile > span { display: grid; gap: 2px; -webkit-line-clamp: unset; }
+.hb-steps b { font: 600 0.98rem/1.25 var(--h-body); }
+.hb-steps small { color: var(--parch-note); font: 400 0.76rem/1.2 var(--h-body); }   /* the add-on's sub line: smaller, muted */
 .hb-back { float: right; padding: 4px 12px; border: 1px solid #000; border-radius: 2px; background: #231b12; color: #ffd100; font: 700 0.82rem/1.4 var(--h-body); cursor: pointer; }
 .hb-ribbons { position: absolute; top: 8px; right: -36px; z-index: 3; display: grid; gap: 6px; }
 .hb-rib { width: 30px; padding: 10px 0; border: 1px solid #000; border-left: 0; border-radius: 0 3px 3px 0; background: #7a2414; color: #f0e2bf; cursor: pointer;
@@ -154,6 +167,14 @@
 .hb-asked { width: fit-content; max-width: 88%; margin: 8px 0 12px auto; padding: 8px 12px; border: 1px solid #a8864a; border-radius: 10px 10px 2px 10px;
   background: var(--parch-paper); color: var(--parch-ink); font: 600 0.98rem/1.4 var(--h-body); }
 .hb-asked span { display: block; color: var(--parch-note); font: 700 0.72rem/1.3 var(--h-body); letter-spacing: 0.08em; text-transform: uppercase; }
+/* A story card told in the conversation (a lore link in an answer), as the add-on's: its name, kind, story, and its page
+   in Found. A page Found was opened on wears the gold ring the add-on's new mark does. */
+.hb-told { display: grid; gap: 6px; margin: 0 0 10px; padding: 10px 12px 12px; border: 1px solid #a8864a; border-radius: 3px; background: #f3e3b833;
+  color: var(--parch-ink); font: 1rem/1.5 "Alegreya", Georgia, serif; }
+.hb-told h5 { margin: 0; color: var(--parch-title); font: 700 1.08rem/1.25 var(--h-display); }
+.hb-told p { margin: 0; }
+.hb-told .hb-chip, .hb-pg > .hb-chip { justify-self: start; width: fit-content; cursor: pointer; font-family: var(--h-body); }
+.hb-tile.hit .hb-tok { box-shadow: 0 0 0 3px #dba11a; }
 .hb-answer { margin: 0 0 8px; color: var(--parch-ink); font: 1.06rem/1.55 "Alegreya", Georgia, serif; }
 .home main .hb-pg .hb-answer a { color: var(--parch-link); text-underline-offset: 2px; }
 .hb-tiles { display: grid; grid-template-columns: repeat(auto-fill, minmax(78px, 1fr)); gap: 10px 6px; }
@@ -292,7 +313,8 @@
   .hb-pg.l { border-right: 0; border-bottom: 1px solid var(--parch-fold); box-shadow: none; border-radius: var(--parch-round) var(--parch-round) 0 0; }
   .hb-pg.r { box-shadow: none; border-radius: 0 0 var(--parch-round) var(--parch-round); }
   .hb-ribbons { position: static; display: flex; gap: 4px; margin: 0 6px 6px; order: -1; }
-  .hb-rib { width: auto; padding: 8px 12px; border-left: 1px solid #000; border-radius: 0 0 3px 3px; writing-mode: horizontal-tb; max-height: none; }
+  .hb-searching .hb-list, .hb-searching .hb-note { display: none; }   /* a search's results right under its box */
+  .hb-rib, .hb-rib.on { width: auto; padding: 8px 12px; border-left: 1px solid #000; border-radius: 0 0 3px 3px; writing-mode: horizontal-tb; max-height: none; }
   .hb-title { padding: 16px 10px 6px; gap: 8px; }
   .hb-who, .hb-sample { display: none; }
   .hb-where { font-size: 0.98rem; }

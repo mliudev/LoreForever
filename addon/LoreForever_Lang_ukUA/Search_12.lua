@@ -2,9 +2,6 @@
 -- Sources: data/i18n/ukUA. Lore text adapted from warcraft.wiki.gg (CC BY-SA 4.0); the core add-on's src fields name the articles.
 local P = LoreForeverPacks.Begin("LoreForever_Lang_ukUA")
 local Po = P.search.post
-Po["дендрита"] = "AP9BAbQBA4sBB0ECB0FEB0GEB0HCB0MBDEJDDELBDETBEzXCEzaCE1lBE1mGFJ2CFJ7BF/IBGVrCGVuCGVvEGV/BGWaBGW3BGW4BGdeCGd4CGeBBGeCCGeJBGeLCIoBCIpFBIpMB"
-Po["дендритаводні"] = "EzaC"
-Po["дендритазнайти"] = "GVvC"
 Po["дендритасписок"] = "B0EC"
 Po["дендритастарблейза"] = "B0FCEzXCE1mCFJ2CGVrCGVuCGVvCGdeCGd4CGeCCGeLCIoBC"
 Po["дендритателепорт"] = "B0GCDEJC"
@@ -12002,3 +11999,6 @@ Po["забруднене"] = "KEZC"
 Po["забрудненеісторія"] = "KEZC"
 Po["забруднений"] = "DITB"
 Po["забрудненийдух"] = "DITB"
+Po["забрудненим"] = "Fv0BGdtB"
+Po["забруднених"] = "Cl/BFBPBG+KB"
+Po["забрудненню"] = "A6zB"

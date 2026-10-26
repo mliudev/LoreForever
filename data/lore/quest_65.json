@@ -17,16 +17,16 @@
   "wiki": "The Defias Brotherhood (quest)",
   "chain": []
  },
- "summary": "This errand marks the opening step in unraveling the covert syndicate terrorizing Westfall. Dispatched by Gryan Stoutmantle of Sentinel Hill, travelers are directed eastward into Redridge to consult a shady contact who might know where the thieves hide.",
+ "summary": "In Westfall, the Defias Brotherhood's thieves threaten the farms and roads. Gryan Stoutmantle sends you from Sentinel Hill east into Redridge to seek a contact who may know where they hide.",
  "sections": [
   {
    "title": "The Threat in the Dust",
-   "body": "Westfall has descended into ruin, stripped of its harvests and overrun by bandits wearing red bandanas. Gryan Stoutmantle and the People's Militia hold Sentinel Hill against near-constant harassment, yet they fight in the dark. Stoutmantle realizes that hacking away at stray looters will never save the region without finding the cartel's inner circle and identifying who commands them.",
+   "body": "Westfall's harvests are gone, and bandits in red bandanas roam the land. Gryan Stoutmantle and the People's Militia hold Sentinel Hill under near-constant attack, but they do not know who directs their enemies. Stoutmantle knows that fighting stray looters will not save the region. He needs to find the cartel's inner circle and learn who commands it.",
    "spoiler": 0
   },
   {
    "title": "An Out-of-Town Contact",
-   "body": "Rather than relying on official military channels or Stormwind's absentee nobles, Stoutmantle turns to his personal debts. He sends trusted adventurers past Elwynn into the Redridge Mountains. In the quiet lakeside village of Lakeshire, lurking on the upper floor of the local inn, sits a rogue named Wiley the Black. Knowing the underworld far better than any militia captain, Wiley represents the first thread in unraveling the Brotherhood's hideouts.",
+   "body": "Gryan Stoutmantle sets aside military channels and Stormwind's absent nobles, and calls on someone he knows. He sends trusted adventurers east, past Elwynn and into the Redridge Mountains. In Lakeshire, a quiet village by the lake, Wiley the Black waits on the upper floor of the local inn. The rogue knows the underworld better than any militia captain, and may offer the first lead to the Brotherhood's hideouts.",
    "spoiler": 0
   }
  ],
@@ -38,7 +38,7 @@
     "who gives this quest",
     "quest giver westfall"
    ],
-   "answer": "Gryan Stoutmantle is the leader of the People's Militia, a ragtag defense force stationed at Sentinel Hill in Westfall. With Stormwind neglecting the borderlands, he coordinates the defense of the few remaining local farmers and refugees."
+   "answer": "Gryan Stoutmantle leads the People's Militia, a ragtag defense force based at Sentinel Hill in Westfall. With Stormwind neglecting the borderlands, he coordinates the defense of the few farmers and refugees still there."
   },
   {
    "q": "Why does Stoutmantle send you to Lakeshire?",
@@ -47,7 +47,7 @@
     "why go to redridge",
     "why wiley"
    ],
-   "answer": "The People's Militia lacks underground informants within Westfall itself. Stoutmantle calls in an old personal favor from Wiley the Black, a rogue residing in Lakeshire's inn, hoping underworld contacts can reveal who leads the thieves."
+   "answer": "The People's Militia has no informants in Westfall's underworld. Gryan Stoutmantle calls on an old favor from Wiley the Black, a rogue at the Lakeshire inn, hoping his criminal ties can reveal who leads the thieves."
   },
   {
    "q": "Who is Wiley the Black?",
@@ -56,7 +56,7 @@
     "wiley lakeshire",
     "wiley the black"
    ],
-   "answer": "Wiley the Black is a rogue staying on the second floor of the Lakeshire Inn in Redridge Mountains. He owes Gryan Stoutmantle a favor, making him a useful conduit for underground rumors and criminal connections."
+   "answer": "Wiley the Black is a rogue staying on the second floor of the Lakeshire Inn in the Redridge Mountains. He owes Gryan Stoutmantle a favor and may share underworld rumors and criminal connections."
   },
   {
    "q": "What is the Defias Brotherhood?",
@@ -65,7 +65,7 @@
     "what is defias",
     "red bandana bandits"
    ],
-   "answer": "The Defias Brotherhood is a ruthless criminal cartel wearing red masks that has seized control of Westfall's farms, roads, and abandoned mines, actively driving out homesteaders and challenging the authority of Stormwind."
+   "answer": "In Westfall, the Defias Brotherhood's thieves wear red bandanas and have seized farms, roads, and abandoned mines. They drive homesteaders out and challenge Stormwind's authority."
   },
   {
    "q": "Where can I find Wiley in Lakeshire?",
@@ -74,7 +74,7 @@
     "find wiley",
     "wiley location"
    ],
-   "answer": "Wiley the Black is located upstairs on the second floor of the Lakeshire Inn, which sits near the bridge in the Redridge Mountains town of Lakeshire."
+   "answer": "Wiley the Black is upstairs on the second floor of the Lakeshire Inn, near the bridge in the Redridge Mountains town of Lakeshire."
   },
   {
    "q": "Does this quest involve any combat?",
@@ -83,17 +83,17 @@
     "combat in defias brotherhood quest",
     "enemies"
    ],
-   "answer": "No. This initial step is entirely informational. You simply journey from Sentinel Hill in Westfall across Elwynn Forest to the inn in Lakeshire to make contact with Wiley."
+   "answer": "No. You travel from Sentinel Hill in Westfall across Elwynn Forest to the Lakeshire inn to meet Wiley."
   }
  ],
  "angles": [
   {
    "target": "class:Rogue",
-   "text": "Stoutmantle recognizes that formal soldiering cannot crack a criminal syndicate; it takes someone who understands shadows and street favors, leading directly to Wiley the Black."
+   "text": "As a rogue, you know that soldiering alone cannot uncover a criminal syndicate. Stoutmantle turns to someone who understands shadows and street favors: Wiley the Black."
   },
   {
    "target": "faction:Alliance",
-   "text": "The long journey from Westfall to Redridge highlights how deeply Stormwind's outer territories must rely on one another while the capital remains indifferent."
+   "text": "As an Alliance traveler, you cross from Westfall to Redridge, where the outer territories rely on one another while Stormwind neglects them."
   }
  ],
  "keywords": [
@@ -116,5 +116,6 @@
  ],
  "attribution": [
   "The Defias Brotherhood (quest)"
- ]
+ ],
+ "style": 1
 }

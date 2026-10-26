@@ -1,0 +1,26 @@
+/* Sign in by email (js/email-signin.js, LOR-816): under Google's button on /account and /link. Its own file so it ships
+   without a new style.css version on every page. The address field is 16px or more so iOS doesn't zoom; the button
+   stays quiet (outlined) until there's an address, then takes the page's fill: gold on Lore Forever, Willo's turquoise
+   on her door (Design Lead, 10/25). */
+.es-signin { max-width: 380px; margin: 0 0 12px; }
+.es-signin[hidden] { display: none; }
+.es-or { display: flex; align-items: center; gap: 10px; margin: 4px 0 10px; color: var(--muted); font-size: 0.9rem; }
+.es-or::before, .es-or::after { content: ""; flex: 1; height: 1px; background: var(--line); }
+.es-signin .fb-field { margin-bottom: 10px; }
+.es-signin input { font-size: max(16px, 1rem); }
+.bw main .es-signin .es-send { width: 100%; }
+.bw main .es-signin .es-send:disabled { color: var(--muted); background: transparent; border-color: var(--line); box-shadow: none;
+  cursor: default; opacity: 1; transform: none; filter: none; }
+html[data-door="willo"] .bw main .es-signin .es-send:not(:disabled) { color: #08303a; background: var(--w-glow, #7fe0dc);
+  border-color: #b6f0ec; box-shadow: 0 10px 26px -14px #7fe0dc; text-shadow: none; }
+.es-title { margin: 0 0 4px; font-size: 1.15rem; }
+.es-sent { margin: 0 0 10px; }
+.es-digits-label { display: block; margin-bottom: 8px; }
+.es-digits { width: 100%; max-width: 15ch; padding: 8px 10px; font: 600 1.5rem/1.2 ui-monospace, Consolas, monospace;
+  letter-spacing: 0.4em; color: var(--text); background: var(--c-fill, #000000aa); border: 1px solid var(--panel-line);
+  border-radius: 4px; }
+.es-digits:focus { outline: 2px solid var(--gold-soft); outline-offset: 1px; }
+.es-line { margin: 0 0 8px; color: var(--warn, #f0a080); font-weight: 600; }
+.es-line[hidden], .es-test[hidden] { display: none; }
+.es-link { padding: 0; border: 0; background: none; color: var(--link); font: inherit; text-decoration: underline; cursor: pointer; }
+.es-link:disabled { color: var(--muted); text-decoration: none; cursor: default; }

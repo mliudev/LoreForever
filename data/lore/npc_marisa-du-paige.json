@@ -8,11 +8,11 @@
   "wiki": "Marisa du'Paige",
   "refs": 0
  },
- "summary": "Marisa du'Paige is a rare human rogue spellcaster found lurking within the sprawling cave network outside the entrance to the Deadmines in southwestern Westfall. Aligned with the outlaws operating beneath Moonbrook, she wields arcane magic alongside the laborers and highwaymen guarding the tunnels.",
+ "summary": "In the caves outside the Deadmines, Marisa du'Paige fights beside Moonbrook's outlaws. Rare among their laborers and highwaymen, she uses arcane magic in the tunnels of southwestern Westfall.",
  "sections": [
   {
    "title": "Arcane Talent in the Tunnels",
-   "body": "Deep inside the winding caverns that lead toward the Deadmines beneath Moonbrook, most defenders are rough-hewn cutpurses, renegade miners, and thugs. Marisa du'Paige stands out among them as a skilled human mage. While most spellcasters of the kingdom train within the sanctioned halls of Stormwind's Mage Quarter or serve the Kirin Tor, du'Paige has cast her lot with the outlaws and brigands hiding in Westfall's subterranean depths.",
+   "body": "Deep in the caves leading toward the Deadmines beneath Moonbrook, cutpurses, renegade miners, and thugs guard the tunnels. Marisa du'Paige is a skilled human mage among them. Many spellcasters train in Stormwind's Mage Quarter or serve the Kirin Tor, but Marisa has joined the outlaws and brigands in Westfall's underground passages.",
    "spoiler": 0
   }
  ],
@@ -24,7 +24,7 @@
     "who is marisa",
     "rare in deadmines cave"
    ],
-   "answer": "Marisa du'Paige is a rare human mage lurking in the outer cave system leading into the Deadmines. Unlike the typical common thieves and laborers found patrolling these passages, she wields arcane spells in defense of the underground network."
+   "answer": "Marisa du'Paige is a rare human mage in the outer caves leading into the Deadmines. While common thieves and laborers patrol these passages, she wields arcane spells to defend the underground network."
   },
   {
    "q": "Where can she be found?",
@@ -33,7 +33,7 @@
     "where is marisa dupaige",
     "marisa spawn"
    ],
-   "answer": "She spawns infrequently within the public cavern system beneath Moonbrook in Westfall, in the tunnels just outside the portal threshold of the Deadmines instance."
+   "answer": "Marisa du'Paige appears infrequently in the public cavern system beneath Moonbrook in Westfall, in the tunnels just outside the Deadmines instance portal threshold."
   },
   {
    "q": "Why is a human mage hiding in the Deadmines caves?",
@@ -42,17 +42,17 @@
     "marisa lore",
     "marisa dupaige faction"
    ],
-   "answer": "Not every arcane practitioner remains loyal to the high towers of Stormwind. Deserters, renegades, and sympathetic commoners have flocked to the outlaw cause across Westfall, lending both steel and sorcery to their fortifications beneath Moonbrook."
+   "answer": "Some arcane practitioners leave Stormwind's high towers. Deserters, renegades, and sympathetic commoners have joined the outlaw cause across Westfall, bringing steel and sorcery to their strongholds beneath Moonbrook."
   }
  ],
  "angles": [
   {
    "target": "class:Mage",
-   "text": "Marisa du'Paige is a reminder that arcane training in the kingdom is not confined to the towers of the Kirin Tor or Stormwind's wizard sanctum; rogue spellcasters readily sell their talents to criminal networks."
+   "text": "Marisa du'Paige shows that arcane training in the kingdom reaches beyond the Kirin Tor's towers and Stormwind's wizard sanctum. Rogue spellcasters readily sell their talents to criminal networks."
   },
   {
    "target": "faction:Alliance",
-   "text": "Alliance adventurers scouting the tunnels beneath Moonbrook must stay alert for du'Paige, as an unexpected spellcaster amid hordes of cutpurses can quickly turn a skirmish deadly."
+   "text": "As an Alliance adventurer, stay alert for du'Paige in the tunnels beneath Moonbrook. An unexpected spellcaster among the cutpurses can quickly make a skirmish deadly."
   }
  ],
  "keywords": [
@@ -73,5 +73,6 @@
  ],
  "attribution": [
   "Marisa du'Paige"
- ]
+ ],
+ "style": 1
 }

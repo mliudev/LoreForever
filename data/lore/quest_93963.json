@@ -14,11 +14,11 @@
  "angles": [
   {
    "target": "faction:Alliance",
-   "text": "This diplomatic journey introduces newcomers to the Alliance's primary bastions and the foundational leaders holding the pact together."
+   "text": "As an Alliance newcomer, you visit its principal strongholds and meet the leaders who hold the pact together."
   },
   {
    "target": "race:Skyborne",
-   "text": "As guests on Azeroth preparing for their order's presence in Dalaran, the Skyborne are urged to understand the allied nations that harbor them."
+   "text": "As a Skyborne guest on Azeroth, you are urged to learn about the allied nations that shelter you while your order prepares to establish itself in Dalaran."
   }
  ],
  "faq": [
@@ -27,7 +27,7 @@
     "exploring the alliance quest",
     "what is this quest"
    ],
-   "answer": "Exploring the Alliance is a diplomatic journey introducing a newcomer to the major seats of Alliance power across Azeroth. Entrusted as a guest, the adventurer is charged with traveling across the world to meet the leaders of Ironforge, Gnomeregan in exile, and Darnassus.",
+   "answer": "You travel across Azeroth to meet the leaders of the Alliance’s major seats of power. The journey brings you before the rulers of Ironforge and Darnassus, and High Tinker Gelbin Mekkatorque, leader of the gnomes in exile.",
    "q": "What is the quest Exploring the Alliance?"
   },
   {
@@ -35,7 +35,7 @@
     "randal emerson",
     "who gives directions"
    ],
-   "answer": "Randal Emerson is an attendant stationed in the southern antechamber of Stormwind Keep. He provides initial travel directions and guidance to send travelers on their way to the other capital cities.",
+   "answer": "Randal Emerson is an attendant in Stormwind Keep’s southern antechamber. He gives travelers directions for reaching the other capital cities.",
    "q": "Who is Randal Emerson?"
   },
   {
@@ -43,7 +43,7 @@
     "leaders visited",
     "who do i talk to"
    ],
-   "answer": "The journey requires presenting oneself to King Magni Bronzebeard of Ironforge, High Tinker Gelbin Mekkatorque, and High Priestess Tyrande Whisperwind in Darnassus. Each represents a core race and seat of authority within the Alliance.",
+   "answer": "You visit King Magni Bronzebeard in Ironforge, High Tinker Gelbin Mekkatorque, and High Priestess Tyrande Whisperwind in Darnassus. Each leads a core race and seat of authority within the Alliance.",
    "q": "Which leaders must be visited during this journey?"
   },
   {
@@ -51,7 +51,7 @@
     "why dalaran mentioned",
     "order in dalaran"
    ],
-   "answer": "The adventurer's order is in the process of establishing its presence in Dalaran. While waiting for those arrangements to materialize, travelers are encouraged to familiarize themselves with Azeroth and lend aid to nearby territories.",
+   "answer": "Your order is preparing to establish its presence in Dalaran. While those arrangements are underway, you are encouraged to learn about Azeroth and aid nearby territories.",
    "q": "Why is Dalaran mentioned upon completing the quest?"
   },
   {
@@ -59,7 +59,7 @@
     "where to go next",
     "after exploring the alliance"
    ],
-   "answer": "Upon returning to Stormwind Keep, adventurers are directed toward the countryside surrounding the capital, specifically Westfall, where local communities are troubled and in urgent need of capable defenders.",
+   "answer": "After returning to Stormwind Keep, you head toward the countryside near the capital, specifically Westfall. Its troubled communities urgently need capable defenders.",
    "q": "Where does the path lead after completing this journey?"
   },
   {
@@ -67,7 +67,7 @@
     "guest of the alliance",
     "why guest"
    ],
-   "answer": "The quest text addresses the adventurer as an outsider arriving on Azeroth who must understand the broader world to protect and aid their own people, taking in the varied cultures of the Alliance.",
+   "answer": "You are treated as an outsider newly arrived on Azeroth, and you are expected to understand the wider world so you can protect and aid your own people. The journey introduces you to the Alliance’s varied cultures.",
    "q": "Why is the adventurer treated as a guest of the Alliance?"
   }
  ],
@@ -95,23 +95,24 @@
  ],
  "sections": [
   {
-   "body": "For visitors newly arrived on Azeroth, the Alliance extends an open invitation to witness its breadth firsthand. Rather than remaining sequestered within Stormwind Keep, travelers are tasked with venturing beyond the human capital to observe the distinct cultures, traditions, and fortitude that define the great allied peoples. Guided first by Randal Emerson in the keep's southern antechamber, adventurers set out on a continent-spanning tour.",
+   "body": "Randal Emerson, an attendant in Stormwind Keep’s southern antechamber, sends you beyond the human capital. You are newly arrived on Azeroth, and the Alliance invites you to see its allied peoples firsthand. The journey takes you beyond the keep to learn the distinct cultures, traditions, and strength of those who stand with Stormwind.",
    "spoiler": 0,
    "title": "A Tour of Allied Lands"
   },
   {
-   "body": "The diplomatic pilgrimage takes adventurers across land and sea to stand before the Alliance's governing heads: King Magni Bronzebeard in the subterranean mountain halls of Ironforge, High Tinker Gelbin Mekkatorque of the displaced gnomes, and High Priestess Tyrande Whisperwind atop Darnassus in Teldrassil. Meeting these rulers offers a rare glimpse into the delicate web of unity binding humans, dwarves, gnomes, and night elves.",
+   "body": "Your travels cross land and sea to the leaders of the Alliance. In Ironforge, you meet King Magni Bronzebeard in the mountain halls, and High Tinker Gelbin Mekkatorque, leader of the displaced gnomes. In Darnassus, atop Teldrassil, you meet High Priestess Tyrande Whisperwind. Their cities and peoples reveal the ties among humans, dwarves, gnomes, and night elves.",
    "spoiler": 0,
    "title": "Audiences with the High Seats"
   },
   {
-   "body": "Upon concluding the long voyage and returning to Stormwind, travelers are welcomed back with a reminder that knowledge of Azeroth is vital for aiding their own people. With their order still preparing its foundation in Dalaran, the immediate focus turns outward to the troubled territories neighboring the capital, beginning with the struggling farmlands of Westfall.",
+   "body": "After the long journey, you return to Stormwind. Understanding Azeroth helps you aid your own people, while your order prepares to establish itself in Dalaran. For now, the troubled territories near the capital need help, beginning with Westfall’s struggling farmlands.",
    "spoiler": 0,
    "title": "A World in Need of Aid"
   }
  ],
- "summary": "Exploring the Alliance is a diplomatic journey that directs newly arrived adventurers in Stormwind Keep to visit the Alliance's sovereign capitals. By meeting the rulers of Ironforge and Darnassus, travelers gain a vital understanding of Azeroth's allied nations before taking up arms in nearby lands like Westfall.",
+ "summary": "You begin Exploring the Alliance in Stormwind Keep, then travel to meet the rulers of Ironforge and Darnassus. Their lands show the breadth of the Alliance before you turn toward Westfall.",
  "attribution": [
   "In-game quest text: Exploring the Alliance"
- ]
+ ],
+ "style": 1
 }

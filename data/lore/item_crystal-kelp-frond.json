@@ -10,11 +10,11 @@
    "quest:112"
   ]
  },
- "summary": "Crystal Kelp Fronds are aquatic plant cuttings gathered from the murlocs inhabiting Crystal Lake in Elwynn Forest. Though native to the ocean, murlocs carry fronds inland, making them an unusual alchemical reagent sought after by William Pestle in Goldshire.",
+ "summary": "Murlocs carry Crystal Kelp Fronds from the ocean to Crystal Lake in Elwynn Forest. William Pestle in Goldshire seeks them for an invisibility liquor.",
  "sections": [
   {
    "title": "A Rare Aquatic Reagent",
-   "body": "Crystal kelp typically thrives in the depths of saltwater oceans, making its presence in the freshwater pools of Elwynn Forest unexpected. The murloc tribes settled along the shores of Crystal Lake gather and hold onto these fronds for reasons of their own. Alchemists value the fronds for their peculiar visual-distorting properties, and William Pestle in Goldshire specifically uses them as the core ingredient in an invisibility liquor designed to help clandestine sweethearts slip past watchful family eyes.",
+   "body": "Crystal Kelp Fronds come from saltwater oceans, so their presence in Elwynn Forest’s fresh water is unusual. Murloc tribes along Crystal Lake’s shores gather and keep the fronds for reasons of their own. Alchemists value their strange power to distort sight. William Pestle in Goldshire uses them as the chief ingredient in an invisibility liquor, meant to help sweethearts slip past watchful family eyes.",
    "spoiler": 0
   }
  ],
@@ -26,7 +26,7 @@
     "crystal kelp origin",
     "kelp habitat"
    ],
-   "answer": "Crystal kelp is an oceanic plant that typically grows in saltwater seas. It is not native to freshwater inland lakes, but murloc tribes gather and bring the cuttings into freshwater areas such as Crystal Lake."
+   "answer": "Crystal kelp grows in saltwater oceans. It is not native to freshwater lakes, though murlocs gather the cuttings and carry them to places such as Crystal Lake."
   },
   {
    "q": "Why do the murlocs at Crystal Lake have ocean kelp?",
@@ -34,7 +34,7 @@
     "why do murlocs have kelp",
     "murloc kelp reason"
    ],
-   "answer": "Murlocs have deep coastal connections and migrate between waterways. They harvest the kelp from coastal waters and carry it with them into inland encampments around lakes and streams."
+   "answer": "The entry gives no reason the murlocs at Crystal Lake have ocean kelp. It says they gather and keep the fronds for reasons of their own."
   },
   {
    "q": "Who wants Crystal Kelp Fronds in Goldshire?",
@@ -42,7 +42,7 @@
     "who needs crystal kelp",
     "william pestle kelp"
    ],
-   "answer": "William Pestle, an apothecary working out of the Lion's Pride Inn in Goldshire, needs the kelp. He uses it to brew a special invisibility liquor for Maybell Maclure so she can sneak away from her family vineyard to meet Tommy Joe Stonefield."
+   "answer": "William Pestle, an apothecary at the Lion's Pride Inn in Goldshire, wants Crystal Kelp Fronds. He uses them to brew invisibility liquor for Maybell Maclure, so she can slip away from her family vineyard to meet Tommy Joe Stonefield."
   },
   {
    "q": "What properties does crystal kelp possess?",
@@ -50,13 +50,13 @@
     "kelp effects",
     "what does crystal kelp do"
    ],
-   "answer": "When properly refined by an alchemist, the unusual qualities of crystal kelp fronds can produce potent concealment mixtures, specifically invisibility liquor that temporarily hides the drinker from sight."
+   "answer": "Alchemists value crystal kelp fronds for their ability to distort sight. William Pestle uses them in an invisibility liquor meant to help sweethearts pass unseen."
   }
  ],
  "angles": [
   {
    "target": "profession:Herbalism",
-   "text": "Unlike common herbs rooted in soil, crystal kelp is an aquatic plant not found in standard herb nodes across Elwynn; herbalists and gatherers must pry it directly from local murlocs who hoard it."
+   "text": "Crystal Kelp Fronds are aquatic, unlike herbs rooted in soil, and do not grow in standard herb nodes across Elwynn. Herbalists and gatherers must pry them from local murlocs, who keep the fronds."
   }
  ],
  "keywords": [
@@ -81,5 +81,6 @@
  "attribution": [
   "Crystal Kelp Frond",
   "Collecting Kelp"
- ]
+ ],
+ "style": 1
 }

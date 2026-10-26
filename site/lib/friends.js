@@ -251,7 +251,9 @@ export async function friendsList(env, userId, now = Date.now()) {
   ]);
   const unreadBy = new Map(unread.results.map(r => [r.pid, r.n]));
   const lastBy = new Map(last.results.map(r => [r.pid, r]));
-  const who = r => ({ id: r.pid, handle: r.handle || null, name: r.name || r.handle || "A Lore Forever player" });
+  // A friend with no profile name or handle goes by the character they share with friends, before any stand-in.
+  const who = (r, friend) => ({ id: r.pid, handle: r.handle || null,
+    name: r.name || r.handle || (friend && progressOf(r, now)?.character) || "A Lore Forever player" });
   // me.guild: the player's own guild, from what they share (so the tab can mark friends in it); null when not sharing.
   // me.online: whether their friends see when their Willo is on ("Show when my Willo is on").
   const out = { me: { id: me.pid, handle: mine?.handle || null, name: mine?.name || null, share: Boolean(me.share),
@@ -263,7 +265,7 @@ export async function friendsList(env, userId, now = Date.now()) {
       out.unread += n;
       // online: true (Willo connected), false (away), or null when they don't show it.
       out.friends.push({
-        ...who(r), unread: n, url: r.public && r.handle ? `/u/${r.handle}` : null, since: r.updated,
+        ...who(r, true), unread: n, url: r.public && r.handle ? `/u/${r.handle}` : null, since: r.updated,
         online: r.hide_online ? null : Boolean(r.online),
         last: m ? { id: m.id, text: m.body.slice(0, 140), at: m.created, mine: m.sender === userId,
                     ...(m.image ? { kind: "image" } : m.card ? { kind: cardOf(m.card)?.kind || null } : {}) } : null,

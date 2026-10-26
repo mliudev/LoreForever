@@ -17,16 +17,16 @@
   "wiki": "Princess Must Die! (Classic)",
   "chain": []
  },
- "summary": "Princess Must Die! is a local bounty offered by Ma Stonefield at the Stonefield Farm in southern Elwynn Forest. She seeks an end to Princess, an enormous prize-winning sow from the nearby Brackwell Pumpkin Patch that continually raids her prized vegetable patches. Putting down the rampaging pig ensures the Stonefields can harvest their crops in peace.",
+ "summary": "At Stonefield Farm, Ma Stonefield wants Princess Must Die! before Princess ruins the harvest. The enormous prize-winning sow from Brackwell Pumpkin Patch keeps raiding the Stonefields’ vegetables, and Ma wants the family to gather their crops in peace.",
  "sections": [
   {
    "title": "A Menace to the Harvest",
-   "body": "The Stonefield Farm relies heavily on its crops, but a voracious threat has jeopardized their harvest. Princess, a celebrated prize-winning sow belonging to the Brackwells, has grown to monstrous proportions by trespassing onto the Stonefield plots and devouring their vegetables. Ma Stonefield has had enough of the brazen pig feasting on her hard work and wants the beast put down before she ruins the entire season's yield.",
+   "body": "Princess has put the Stonefield harvest at risk. The prize-winning sow belongs to the Brackwells, but she has grown enormous by crossing onto the Stonefield plots and devouring their vegetables. Ma Stonefield has had enough of the sow eating the crops she worked to grow. She wants Princess put down before the pig ruins the season’s yield.",
    "spoiler": 0
   },
   {
    "title": "The Porcine Entourage",
-   "body": "Princess rarely roams without company. Over at the Brackwell Pumpkin Patch, situated to the east beyond the Maclure homestead, she stays surrounded by her loyal entourage of protective boars. Slaying this massive sow requires cutting through her guards and stripping the distinctive brass collar from her neck to prove the gluttonous beast will trouble the Stonefield fields no more.",
+   "body": "Princess does not roam alone. At Brackwell Pumpkin Patch, east beyond the Maclure homestead, protective boars surround her. To prove the sow will trouble the Stonefield fields no more, you need to get past her guards and bring back the distinctive brass collar from her neck.",
    "spoiler": 0
   }
  ],
@@ -38,7 +38,7 @@
     "princess elwynn",
     "who is the pig princess"
    ],
-   "answer": "Princess is a massive, prize-winning sow belonging to the Brackwell family. She has grown to an enormous size primarily by sneaking over to the Stonefield Farm to gorge herself on Ma Stonefield's prized vegetable crops."
+   "answer": "Princess is an enormous, prize-winning sow belonging to the Brackwell family. She grew so large by sneaking onto Stonefield Farm and gorging on Ma Stonefield’s vegetables."
   },
   {
    "q": "Why does Ma Stonefield want Princess killed?",
@@ -47,7 +47,7 @@
     "ma stonefield pig quest",
     "why does princess must die"
    ],
-   "answer": "Ma Stonefield is fed up with Princess wandering into her fields and devouring her vegetables. Fearing the enormous sow will consume the family's entire harvest before it can be collected, she hires travelers to slay the beast and retrieve her brass collar as proof."
+   "answer": "Princess keeps wandering into Ma Stonefield’s fields and devouring the vegetables. Ma fears the sow will eat the family’s entire harvest, so she hires travelers to slay Princess and bring back her brass collar as proof."
   },
   {
    "q": "Where can Princess be found?",
@@ -56,7 +56,7 @@
     "where is princess",
     "princess spawn"
    ],
-   "answer": "Princess resides in the Brackwell Pumpkin Patch, located in southeastern Elwynn Forest east past the Maclure Vineyards. She roams among the ruined pumpkins guarded by a retinue of boars."
+   "answer": "Princess can be found at Brackwell Pumpkin Patch in southeastern Elwynn Forest, east beyond the Maclure Vineyards. She roams among the ruined pumpkins with boars guarding her."
   },
   {
    "q": "Who owns the Brackwell Pumpkin Patch?",
@@ -65,7 +65,7 @@
     "brackwell farm lore",
     "brackwell owners"
    ],
-   "answer": "The patch belongs to the Brackwell family, local farmers whose lands have fallen on hard times amidst bandit activity and wild beast incursions in southern Elwynn Forest. Despite their neglect of the patch, Princess remained behind to gorge on what was left."
+   "answer": "The Brackwell family owns Brackwell Pumpkin Patch. Bandits and wild beasts have brought hard times to the local farmers and their lands in southern Elwynn Forest. Though the family has neglected the patch, Princess stayed behind to gorge on what remained."
   },
   {
    "q": "How do you prove Princess is dead?",
@@ -74,7 +74,7 @@
     "what item for princess",
     "brass collar"
    ],
-   "answer": "You must take the Brass Collar from around the sow's neck after defeating her and bring it back to Ma Stonefield at the Stonefield Farm."
+   "answer": "To prove Princess is dead, bring the Brass Collar from around her neck to Ma Stonefield at Stonefield Farm."
   },
   {
    "q": "Does Princess fight alone?",
@@ -83,17 +83,17 @@
     "princess entourage",
     "princess guards"
    ],
-   "answer": "No, Princess is accompanied by a Porcine Entourage made up of defensive boars that will attack anyone attempting to slay the prize sow."
+   "answer": "No. Defensive boars called the Porcine Entourage accompany Princess and attack anyone who tries to slay the prize sow."
   }
  ],
  "angles": [
   {
    "target": "profession:Cooking",
-   "text": "Dealing with the massive sow Princess is a legendary tale among local cooks, as Elwynn's oversized boars yield plenty of hearty meat for roasting over an open fire."
+   "text": "Princess’s great size has become a tale among local cooks. Elwynn’s oversized boars yield plenty of hearty meat for roasting over an open fire."
   },
   {
    "target": "faction:Alliance",
-   "text": "Helping local farmers like Ma Stonefield manage rogue beasts keeps the southern breadbasket of Stormwind functioning despite the absence of the kingdom's formal army."
+   "text": "As an Alliance traveler, you help farmers like Ma Stonefield keep rogue beasts from threatening Stormwind’s southern breadbasket, even while the kingdom’s formal army is absent."
   }
  ],
  "keywords": [
@@ -114,5 +114,6 @@
  ],
  "attribution": [
   "Princess Must Die! (Classic)"
- ]
+ ],
+ "style": 1
 }

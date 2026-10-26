@@ -8,16 +8,16 @@
   "wiki": "Demisette Cloyce",
   "refs": 1
  },
- "summary": "Demisette Cloyce is a human warlock trainer sequestered in the subterranean crypts beneath the Slaughtered Lamb in Stormwind's Mage Quarter. Operating under cover of the city's underbelly, she instructs practitioners of the fel arts and directs promising acolytes toward deeper, more dangerous arcane mysteries.",
+ "summary": "In Stormwind's Mage Quarter, Demisette Cloyce teaches warlocks beneath the Slaughtered Lamb. She guides students in fel magic and sends those ready for more toward other summoners.",
  "sections": [
   {
    "title": "The Crypts of the Slaughtered Lamb",
-   "body": "While Stormwind's authorities maintain an outward veneer of order and holy righteousness, practitioners of fel magic convene in the dank cellars beneath the Slaughtered Lamb in the Mage Quarter. Demisette Cloyce makes her residence down within these catacombs, tutoring warlocks willing to brave the forbidden arts. She holds little patience for the untrained or the uninitiated, advising her students that the dark energies corrupt only those lacking the discipline to master them.",
+   "body": "Warlocks gather in the cellar beneath the Slaughtered Lamb in Stormwind's Mage Quarter, while the city's authorities uphold order and the Holy Light. Demisette Cloyce lives in the catacombs below, teaching those willing to study forbidden arts. She warns that dark energies corrupt only those without the discipline to master them.",
    "spoiler": 0
   },
   {
    "title": "Connecting the Covens",
-   "body": "Demisette is far more than a simple spell tutor; she serves as an essential nexus for warlock operations across Azeroth. When an acolyte reaches sufficient mastery, she directs them far beyond the walls of Stormwind—connecting them to powerful summoners like Menara Voidrender in the Barrens to harness potent artifacts and bind formidable fel steeds.",
+   "body": "Demisette guides warlocks beyond Stormwind when they have gained enough mastery. She connects them with summoners such as Menara Voidrender in the Barrens, where they can seek potent artifacts and learn to bind formidable fel steeds.",
    "spoiler": 0
   }
  ],
@@ -29,7 +29,7 @@
     "demisette cloyce lore",
     "who is demisette cloyce"
    ],
-   "answer": "Demisette Cloyce is a human warlock trainer situated in the cellar beneath the Slaughtered Lamb tavern in the Mage Quarter of Stormwind City. She instructs emerging warlocks in demonic summoning and dark spells."
+   "answer": "Demisette Cloyce trains warlocks beneath the Slaughtered Lamb in Stormwind's Mage Quarter. She teaches demonic summoning and dark spells."
   },
   {
    "q": "Why is she hiding in a tavern cellar?",
@@ -38,7 +38,7 @@
     "why slaughtered lamb",
     "slaughtered lamb basement"
    ],
-   "answer": "The warlock coven gathers within the subterranean cellar of the Slaughtered Lamb, away from public view. Their dark practices make the tavern a discreet meeting place."
+   "answer": "Warlocks gather in the cellar beneath the Slaughtered Lamb, away from public view. Its cellar offers a discreet place for their dark practices."
   },
   {
    "q": "What is her connection to the Barrens?",
@@ -47,7 +47,7 @@
     "in search of menara voidrender",
     "menara voidrender connection"
    ],
-   "answer": "Demisette sends experienced warlocks across the sea to seek out Menara Voidrender, a powerful summoner stationed in Ratchet on the coast of the Barrens, to pursue advanced rituals, powerful orbs, and binding rites."
+   "answer": "Demisette sends experienced warlocks across the sea to Menara Voidrender in Ratchet, on the coast of the Barrens. They seek advanced rituals, powerful orbs, and binding rites."
   },
   {
    "q": "How does she react to non-warlocks?",
@@ -55,17 +55,17 @@
     "demisette dialogue",
     "talking to demisette"
    ],
-   "answer": "Demisette has utter contempt for outsiders. Unless you walk the path of a warlock, she warns you that the darkness does not embrace you and commands you to cease your prattle and leave her presence."
+   "answer": "Demisette has contempt for outsiders. Unless you follow the path of a warlock, she warns that darkness does not embrace you and orders you to stop talking and leave."
   }
  ],
  "angles": [
   {
    "target": "class:Warlock",
-   "text": "Demisette is a vital contact during an acolyte's progression in Stormwind, offering fundamental spellcraft instruction and later sending warlocks on the path to claim their felsteeds and bind demonic orbs."
+   "text": "As a warlock in Stormwind, you can learn fundamental spellcraft from Demisette. She later points you toward claiming a felsteed and binding demonic orbs."
   },
   {
    "target": "race:Human",
-   "text": "Tucked away beneath the capital of human civilization, Cloyce exemplifies the quiet, perilous fringe of humanity that abandons the Holy Light to wield demonic power."
+   "text": "As a human, you can find Demisette beneath Stormwind, where she has turned from the Holy Light to demonic power."
   }
  ],
  "keywords": [
@@ -87,5 +87,6 @@
  ],
  "attribution": [
   "Demisette Cloyce"
- ]
+ ],
+ "style": 1
 }

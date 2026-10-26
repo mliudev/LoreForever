@@ -8,16 +8,16 @@
   "wiki": "Maybell Maclure",
   "refs": 1
  },
- "summary": "Maybell Maclure is a young woman living at the Maclure Vineyards in Elwynn Forest. Despite a bitter, long-standing feud between her family and the neighboring Stonefields, she has secretly fallen in love with Tommy Joe Stonefield.",
+ "summary": "At the Maclure Vineyards in Elwynn Forest, Maybell Maclure loves a Stonefield in secret. Her family’s bitter feud with the neighboring Stonefields keeps her apart from Tommy Joe Stonefield.",
  "sections": [
   {
    "title": "Star-Crossed in the Vineyards",
-   "body": "Life on the Maclure Vineyards is defined by endless labor and an enduring grudge against the neighboring Stonefield family. Caught in the middle is Maybell Maclure, who has fallen deeply in love with Tommy Joe Stonefield, the young heir to the rival farmstead. Kept apart by vigilant relatives and ancient family resentment, Maybell is desperate for any chance to communicate with Tommy Joe beyond the prying eyes of her kin.",
+   "body": "Maybell Maclure works the family vineyards under the shadow of a long feud with the Stonefields next door. She has fallen in love with Tommy Joe Stonefield, heir to the rival farm. Their relatives keep them apart, and Maybell searches for a way to speak with him beyond her family’s watchful eyes.",
    "spoiler": 0
   },
   {
    "title": "A Concoction for True Love",
-   "body": "Unable to cross the boundary between the farms openly, Maybell relies on sympathetic travelers and the guidance of Gramma Stonefield. With the aid of Goldshire's local alchemist, William Pestle, an invisibility liquor is brewed. By drinking this illicit draught, Maybell can slip away from the Maclure homestead unseen and steal precious moments with Tommy Joe down by the riverbank.",
+   "body": "Unable to cross between the farms openly, Maybell turns to sympathetic travelers and Gramma Stonefield for help. William Pestle, Goldshire’s alchemist, brews an invisibility liquor. Maybell drinks it to slip away from the Maclure homestead unseen and meet Tommy Joe by the riverbank.",
    "spoiler": 1
   }
  ],
@@ -29,7 +29,7 @@
     "maclure stonefield feud",
     "why cant they be together"
    ],
-   "answer": "The Maclure and Stonefield families have harbored a bitter rivalry for years. Because both households forbid any contact between the clans, Maybell and Tommy Joe must keep their romance an absolute secret or face the wrath of their kin."
+   "answer": "The Maclure and Stonefield families have kept a bitter rivalry for years. Both forbid contact between their households, so Maybell and Tommy Joe hide their romance from their kin."
   },
   {
    "q": "What prevents Maybell from leaving the vineyard?",
@@ -38,7 +38,7 @@
     "invisibility potion elwynn",
     "how does she meet tommy"
    ],
-   "answer": "Her family watches her closely because of the feud with the Stonefields. She needs help finding a way to meet Tommy Joe without attracting their attention."
+   "answer": "Maybell’s family watches her closely because of the feud with the Stonefields. She needs help meeting Tommy Joe without drawing their attention."
   },
   {
    "q": "Where does Maybell meet Tommy Joe?",
@@ -47,7 +47,7 @@
     "where are they meeting",
     "where is tommy joe"
    ],
-   "answer": "Tommy Joe waits along the riverbank on the border between the Maclure Vineyards and the Stonefield Farm, hidden from the direct view of both farmsteads."
+   "answer": "Tommy Joe waits by the riverbank on the border between the Maclure Vineyards and Stonefield Farm, out of direct view of both farmsteads."
   },
   {
    "q": "Who helps Maybell with her romance?",
@@ -55,13 +55,13 @@
     "who helps maybell",
     "stonefield helpers"
    ],
-   "answer": "Gramma Stonefield proves sympathetic to the lovers' plight and directs willing adventurers to William Pestle, the alchemist in Goldshire, who provides the means for their clandestine tryst."
+   "answer": "Gramma Stonefield sympathizes with the lovers and directs willing travelers to William Pestle, the alchemist in Goldshire, who provides what they need for a secret meeting."
   }
  ],
  "angles": [
   {
    "target": "faction:Alliance",
-   "text": "For Alliance adventurers passing through Elwynn Forest, Maybell's romance is a reminder that personal troubles and ancient grudges persist even in the heartlands of the kingdom."
+   "text": "For Alliance travelers crossing Elwynn Forest, Maybell’s romance shows how personal troubles and old grudges persist in the kingdom’s heartlands."
   }
  ],
  "keywords": [
@@ -83,5 +83,6 @@
  ],
  "attribution": [
   "Maybell Maclure"
- ]
+ ],
+ "style": 1
 }

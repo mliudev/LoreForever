@@ -22,21 +22,21 @@
    "Return to Lewis"
   ]
  },
- "summary": "Return to Lewis marks the final leg of an introductory courier flight, delivering desperately needed armor from Stormwind directly to Sentinel Hill. Entrusted with Osric's Crate by Dungar Longdrink, couriers fly across the skies of Elwynn and Westfall on gryphonback to resupply the embattled People's Militia.",
+ "summary": "Dungar Longdrink sends armor from Stormwind to the People's Militia at Sentinel Hill. Osric's Crate crosses Elwynn and Westfall by gryphon, carrying supplies to defenders under pressure.",
  "sections": [
   {
    "title": "A Lifeline by Air",
-   "body": "Westfall is slipping out of the kingdom's grasp, besieged by Defias bandits, ravenous gnolls, and mechanical harvest reapers. With overland supply routes harassed and roads dangerous for solitary wagons, the flight master network provides a crucial lifeline. Osric, an armorer based in the Old Town of Stormwind, prepared a heavy crate of armor intended to reinforce the battered volunteers of the People's Militia at Sentinel Hill.",
+   "body": "Westfall is slipping from the kingdom's grasp. Defias bandits, ravenous gnolls, and mechanical harvest reapers threaten the land. Overland supply routes face harassment, and roads are dangerous for solitary wagons. The flight master network offers a crucial lifeline. Osric, an armorer in Stormwind's Old Town, prepared a heavy crate of armor for the battered volunteers of the People's Militia at Sentinel Hill.",
    "spoiler": 0
   },
   {
    "title": "The Ways of Gryphons",
-   "body": "Gryphons are remarkably loyal and well-trained beasts, but navigating them across the lands requires established familiarity. As Dungar Longdrink explains to novice couriers, while gryphons instinctively know how to return home to their capital roost in Stormwind, they will only carry a rider to a remote outpost once the traveler has physically met the destination's flight master. Having previously checked in with Thor at Sentinel Hill, the skies over the frontier open up for rapid transit.",
+   "body": "Gryphons are loyal, well-trained beasts, but travel across the lands depends on established familiarity. Dungar Longdrink explains that gryphons instinctively know how to return to their capital roost in Stormwind. To carry a rider to a remote outpost, though, they need the traveler to have met its flight master in person. You have already checked in with Thor at Sentinel Hill, opening the skies over the frontier to rapid travel.",
    "spoiler": 0
   },
   {
    "title": "Supplies for the Militia",
-   "body": "Upon landing at Sentinel Hill, the delivered crate is received by Quartermaster Lewis, the officer tasked with outfitting Gryan Stoutmantle's volunteer force. Lewis immediately sets to work distributing the armor among the frontier defenders. For Sentinel Hill, reliable aerial contact with the capital means the difference between holding the line and being completely overrun by the Defias Brotherhood.",
+   "body": "At Sentinel Hill, Quartermaster Lewis receives the crate. He is the officer tasked with outfitting Gryan Stoutmantle's volunteer force, and he sets to work distributing the armor among the frontier defenders. For Sentinel Hill, reliable aerial contact with the capital can mean the difference between holding the line and being overrun by the Defias Brotherhood.",
    "spoiler": 0
   }
  ],
@@ -48,7 +48,7 @@
     "what is in the box",
     "what am i delivering"
    ],
-   "answer": "The crate contains freshly manufactured suits of armor arranged by the Stormwind armorer Osric. It is urgently needed by the People's Militia at Sentinel Hill, who lack standard royal provisioning and rely on donations and private shipments to equip their volunteer fighters."
+   "answer": "Osric's Crate holds freshly made suits of armor arranged by the Stormwind armorer Osric. The People's Militia at Sentinel Hill urgently needs them; the volunteers lack standard royal provisioning and rely on donations and private shipments for their gear."
   },
   {
    "q": "Who is Quartermaster Lewis?",
@@ -57,7 +57,7 @@
     "quartermaster lewis role",
     "who is lewis"
    ],
-   "answer": "Quartermaster Lewis is the supply officer for the People's Militia, stationed beside the tower at Sentinel Hill. He manages rations, gear, and arms for the volunteer defenders standing against the Defias Brotherhood across Westfall."
+   "answer": "Quartermaster Lewis is the People's Militia's supply officer, stationed beside the tower at Sentinel Hill. He manages rations, gear, and arms for the volunteer defenders facing the Defias Brotherhood across Westfall."
   },
   {
    "q": "Who is Dungar Longdrink?",
@@ -66,7 +66,7 @@
     "stormwind gryphon master",
     "flight master stormwind"
    ],
-   "answer": "Dungar Longdrink is the veteran human gryphon master of Stormwind, located at the roost in the capital's Trade District. He oversees the kingdom's aerial courier and passenger routes."
+   "answer": "Dungar Longdrink is Stormwind's veteran human gryphon master, at the roost in the capital's Trade District. He oversees the kingdom's aerial courier and passenger routes."
   },
   {
    "q": "Why do gryphons only fly to places you've already visited?",
@@ -75,7 +75,7 @@
     "how flight paths work",
     "why must i visit thor first"
    ],
-   "answer": "According to Dungar, gryphons are naturally trained to navigate straight back to the capital city, but they rely on established waypoints and personal familiarity before ferrying riders out to remote frontier roosts like Thor's station at Sentinel Hill."
+   "answer": "Dungar says gryphons are trained to navigate straight back to the capital city. They rely on established waypoints and personal familiarity before carrying riders to remote frontier roosts like Thor's station at Sentinel Hill."
   },
   {
    "q": "Who is Thor?",
@@ -84,7 +84,7 @@
     "sentinel hill gryphon master",
     "flight master thor"
    ],
-   "answer": "Thor is the flight master stationed at Sentinel Hill in Westfall. He tends the outpost's gryphons and receives aerial couriers arriving from Stormwind."
+   "answer": "Thor is the flight master stationed at Sentinel Hill in Westfall. He tends the outpost's gryphons and receives aerial couriers from Stormwind."
   },
   {
    "q": "Why can't Stormwind just send royal wagons with supplies?",
@@ -93,21 +93,21 @@
     "why not overland delivery",
     "roads in westfall"
    ],
-   "answer": "The roads connecting Elwynn Forest and Westfall are heavily harassed by Defias bandits, riverpaw gnolls, and thieves. Overland supply trains risk ambush and confiscation, making the aerial gryphon route far faster and safer."
+   "answer": "Defias bandits, riverpaw gnolls, and thieves heavily harass the roads between Elwynn Forest and Westfall. Overland supply trains risk ambush and confiscation, while the aerial gryphon route is faster and safer."
   }
  ],
  "angles": [
   {
    "target": "faction:Alliance",
-   "text": "Establishing gryphon routes between Stormwind and outlying settlements like Sentinel Hill is essential to binding together an increasingly fractured kingdom."
+   "text": "Gryphon routes between Stormwind and outlying settlements like Sentinel Hill help bind together a kingdom that is increasingly fractured."
   },
   {
    "target": "race:Dwarf",
-   "text": "The kingdom's aerial transit relies on gryphons, the dwarves' ancestral mounts, flown from Dungar Longdrink's capital roost to Thor out in Westfall."
+   "text": "As a dwarf, you know gryphons as your people's ancestral mounts. The kingdom's aerial transit flies them from Dungar Longdrink's capital roost to Thor out in Westfall."
   },
   {
    "target": "class:Warrior",
-   "text": "Every crate of breastplates and greaves flown to Sentinel Hill means one more militia fighter who can withstand the blows of Defias brigands."
+   "text": "As a warrior, you know every crate of breastplates and greaves flown to Sentinel Hill gives another militia fighter a chance to withstand the blows of Defias brigands."
   }
  ],
  "keywords": [
@@ -134,5 +134,6 @@
  ],
  "attribution": [
   "Return to Lewis"
- ]
+ ],
+ "style": 1
 }

@@ -8,11 +8,11 @@
   "wiki": "Lucius",
   "refs": 2
  },
- "summary": "Lucius is a dwarf operative found near the docks of Lakeshire in the Redridge Mountains. Operating as an undercover field contact for Stormwind's SI:7 intelligence service, he assists operatives with specialized reconnaissance and trade skills.",
+ "summary": "At the Lakeshire docks, Lucius watches the Redridge waterfront. The dwarf works undercover for Stormwind’s SI:7, helping agents with reconnaissance and trade skills.",
  "sections": [
   {
    "title": "Eyes in the Mountains",
-   "body": "While Lucius presents himself casually on the Lakeshire waterfront, he is in fact a clandestine operative tied directly to Stormwind's intelligence apparatus, SI:7. From his post on the docks, he monitors trade, unusual traffic, and regional threats encroaching on Redridge. Operatives dispatched eastward from Stormwind are directed to him to coordinate covert tasks and hone practical fieldwork arts such as lockpicking, ensuring the Crown maintains hidden reach far beyond Elwynn Forest.",
+   "body": "Lucius watches the Lakeshire docks for SI:7, Stormwind’s intelligence service. He keeps an eye on trade, unusual traffic, and threats moving into the Redridge Mountains. Agents sent east from Stormwind come to him to coordinate covert work and practice field skills such as lockpicking. Through Lucius, Stormwind keeps a hidden reach beyond Elwynn Forest.",
    "spoiler": 0
   }
  ],
@@ -24,7 +24,7 @@
     "who is the dwarf on the docks",
     "lucius npc"
    ],
-   "answer": "Lucius is a dwarven agent stationed in Lakeshire who works on behalf of SI:7, the intelligence arm of the Kingdom of Stormwind."
+   "answer": "Lucius is a dwarf agent in Lakeshire who works for SI:7, Stormwind’s intelligence service."
   },
   {
    "q": "What does Lucius do in Lakeshire?",
@@ -33,7 +33,7 @@
     "lucius purpose",
     "why is lucius on the docks"
    ],
-   "answer": "He serves as a field contact for covert operatives, providing local instruction in thievery and lockpicking while keeping watch over regional movements in the Redridge Mountains."
+   "answer": "Lucius helps covert agents with local instruction in thievery and lockpicking, while watching movements across the Redridge Mountains."
   },
   {
    "q": "Which quests involve Lucius?",
@@ -42,17 +42,17 @@
     "redridge rendezvous quest",
     "alther's mill"
    ],
-   "answer": "Lucius is the contact for the SI:7 mission 'Redridge Rendezvous' and sends young rogues to pick the locks of chests at Alther's Mill to earn their Certificate of Thievery."
+   "answer": "Lucius handles the SI:7 mission ‘Redridge Rendezvous’ and sends young rogues to pick the locks of chests at Alther’s Mill for their Certificate of Thievery."
   }
  ],
  "angles": [
   {
    "target": "class:Rogue",
-   "text": "For rogues sent afield from Stormwind, Lucius serves as an essential contact and instructor for fine-tuning lockpicking and reconnaissance skills."
+   "text": "As a rogue sent east from Stormwind, you can turn to Lucius for instruction in lockpicking and reconnaissance."
   },
   {
    "target": "race:Dwarf",
-   "text": "Lucius is a reminder that dwarven talents extend well beyond the forge and front line, finding a home within Stormwind's covert operations."
+   "text": "As a dwarf, Lucius shows how your people’s talents can serve Stormwind’s covert operations as well as the forge and front line."
   }
  ],
  "keywords": [
@@ -75,5 +75,6 @@
  ],
  "attribution": [
   "Lucius"
- ]
+ ],
+ "style": 1
 }

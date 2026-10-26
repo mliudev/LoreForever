@@ -17,16 +17,16 @@
   "wiki": "Harlan Needs a Resupply",
   "chain": []
  },
- "summary": "Harlan Bagley, a merchant in Stormwind, finds his racks emptied by an unprecedented surge in demand for sturdy garments and armor. Unaware of the brewing conflicts beyond the city walls, he dispatches a courier with an urgent cloth order to Rema Schneider at the Canal Tailor and Fit Shop.",
+ "summary": "Harlan Bagley, a Stormwind merchant, cannot keep sturdy clothes and armor in stock. As demand surges, he sends an urgent cloth order to Rema Schneider at the Canal Tailor and Fit Shop, unaware of the conflicts brewing beyond the city walls.",
  "sections": [
   {
    "title": "A Run on Sturdy Clothes",
-   "body": "In the bustling commercial districts of Stormwind City, shopkeepers like Harlan Bagley have seen their inventory dwindle at an alarming rate. Ordinary citizens and wandering adventurers alike have been snatching up reinforced tunics, traveling wear, and battle-ready armor. To Harlan, it feels as though the kingdom's populace is bracing for a harsh season or an impending winter, but the sheer volume of sales leaves his shop depleted and desperate for finished cloth.",
+   "body": "Across Stormwind City, Harlan Bagley's shelves are emptying fast. Citizens and wandering adventurers are buying reinforced tunics, traveling clothes, and battle-ready armor. Harlan wonders if people are preparing for a harsh season or winter, but the rush has left his shop short of finished cloth.",
    "spoiler": 0
   },
   {
    "title": "Questions on the Canals",
-   "body": "To replenish his shelves, Bagley sends a runner across the city's waterways to Rema Schneider, the seamstress operating the Canal Tailor and Fit Shop. While Rema is grateful for the continued trade, the sudden run on protective outfitting strikes her as unsettling. Rumors of tension linger throughout the kingdom, and the seamstress cannot help but wonder if Stormwind's ruling House of Nobles is hiding rumors of an open war from the common folk.",
+   "body": "Harlan sends a runner across the city's waterways to Rema Schneider, a seamstress at the Canal Tailor and Fit Shop. She is glad of his trade, yet the sudden demand for protective clothing troubles her. Rumors of tension spread through the kingdom, and Rema wonders whether the House of Nobles is hiding talk of open war from ordinary people.",
    "spoiler": 0
   }
  ],
@@ -38,7 +38,7 @@
     "who is harlan",
     "bagley stormwind"
    ],
-   "answer": "Harlan Bagley is a clothier and shopkeeper operating in Stormwind City. His business relies on local tailors to keep his inventory stocked with knitted goods and travel-ready garments."
+   "answer": "Harlan Bagley is a clothier and shopkeeper in Stormwind City. Local tailors supply the knitted goods and travel-ready clothes he sells."
   },
   {
    "q": "Who is Rema Schneider?",
@@ -47,7 +47,7 @@
     "tailor rema",
     "canal tailor"
    ],
-   "answer": "Rema Schneider is a professional tailor and seamstress who works at the Canal Tailor and Fit Shop in Stormwind. Along with her husband Corbett, she supplies merchants across the city with freshly sewn fabric and garments."
+   "answer": "Rema Schneider is a professional tailor and seamstress at the Canal Tailor and Fit Shop in Stormwind. With her husband Corbett, she supplies merchants across the city with freshly sewn fabric and garments."
   },
   {
    "q": "Why is Harlan running out of clothing?",
@@ -56,7 +56,7 @@
     "why buying armor",
     "harlan business booming"
    ],
-   "answer": "Citizens and travelers have been buying up armor and rugged garments in unusually high numbers. Harlan jokes that people act as if a bitter winter is coming, though the true cause is the rising unrest and danger across the kingdom's borders."
+   "answer": "Citizens and travelers are buying armor and rugged clothes in unusually high numbers. Harlan jokes that they seem to expect a bitter winter, though rising unrest and danger across the kingdom's borders are the true cause."
   },
   {
    "q": "Why does Rema Schneider suspect the nobles?",
@@ -65,7 +65,7 @@
     "stormwind nobles hiding war",
     "why nobles suspect"
    ],
-   "answer": "Rema finds it unnatural that common folk are suddenly equipping themselves for battle without any official declaration of conflict. Since the House of Nobles controls royal affairs while King Varian Wrynn remains absent, she fears the aristocracy is concealing impending war from the public."
+   "answer": "Rema finds it strange that ordinary people are suddenly preparing for battle without an official declaration of conflict. The House of Nobles controls royal affairs while King Varian Wrynn is absent, and she fears the nobles are concealing an impending war from the public."
   },
   {
    "q": "Where is the Canal Tailor and Fit Shop located?",
@@ -74,7 +74,7 @@
     "where is rema schneider",
     "where is canal tailor"
    ],
-   "answer": "The Canal Tailor and Fit Shop sits along the waterways that wind through Stormwind City, tucked conveniently between the major urban districts for easy merchant delivery."
+   "answer": "The Canal Tailor and Fit Shop is along the waterways that run through Stormwind City, between the major city districts for convenient merchant deliveries."
   },
   {
    "q": "What happens after the cloth request is delivered?",
@@ -83,21 +83,21 @@
     "what does corbett do",
     "rema husband"
    ],
-   "answer": "Upon receiving the order, Rema asks her husband, Corbett Schneider, to carry another load of knitted goods across the city to Harlan at the Lionheart Armory. Corbett stops at Trias' Cheese for a snack on his way back to the shop."
+   "answer": "After Rema receives the order, she asks her husband Corbett Schneider to carry another load of knitted goods across the city to Harlan at the Lionheart Armory. On his way back to the shop, Corbett stops at Trias' Cheese for a snack."
   }
  ],
  "angles": [
   {
    "target": "profession:Tailoring",
-   "text": "The errand offers a glimpse into the everyday logistics of Stormwind's textile industry, where small canal workshops supply larger mercantile storefronts."
+   "text": "Stormwind's canal workshops supply larger shops, revealing the everyday workings of the city's textile trade."
   },
   {
    "target": "faction:Alliance",
-   "text": "The quiet panic among Stormwind's shoppers hints at the growing unease gripping the Alliance heartland in the absence of King Varian Wrynn."
+   "text": "Stormwind's shoppers show growing unease in the Alliance heartland while King Varian Wrynn is absent."
   },
   {
    "target": "race:Human",
-   "text": "Stormwind's working-class artisans remain wary of their rulers, suspecting the nobility of keeping ordinary citizens in the dark about looming dangers."
+   "text": "Stormwind's working artisans distrust their rulers and suspect the nobility is keeping ordinary people in the dark about looming dangers."
   }
  ],
  "keywords": [
@@ -117,5 +117,6 @@
  ],
  "attribution": [
   "Harlan Needs a Resupply"
- ]
+ ],
+ "style": 1
 }

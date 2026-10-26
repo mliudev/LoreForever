@@ -1,8 +1,8 @@
 // The launch as every plan's pay day (lib/billing.js, Mike, 2026-10-17: "half off for the beta period only, then full
 // price for when the full game launches"): payDay moves every live plan's next charge to the launch, once, with or
-// without a credit for days already paid after it (/admin's "pay-day"); during the beta an upgrade from a plan that's
-// free until the launch stays free until then, and one from a paid plan is half price for the days left (BETA_HALF,
-// which the site makes if Stripe lacks it: betaCoupon); a downgrade keeps the trial; a paying plan moved to the launch
+// without a credit for days already paid after it (/admin's "pay-day"); before the launch an upgrade charges nothing
+// until then (a trial, or a pre-order anchored at the launch), and after it the rest of the month at full price; a
+// downgrade keeps the trial; a paying plan moved to the launch
 // still counts as paying, and /plans and /account say when it renews. (Checkout's anchor and the free Hero month:
 // launch.test.mjs.) Stripe is mocked through fetch; D1 is node:sqlite (helpers.mjs).
 // Run: node --test 'site/tests/*.test.mjs'
@@ -12,9 +12,8 @@ import assert from "node:assert/strict";
 import { createHmac } from "node:crypto";
 
 import { onRequest as billing } from "../functions/api/billing/[action].js";
-import { onRequestPost as adminPost } from "../functions/api/admin.js";
 import { findOrCreateUser, startSession, setup } from "../lib/accounts.js";
-import { setupBilling, planFor, payDay, betaCoupon, changePlan, subscriptionReport, BETA_HALF } from "../lib/billing.js";
+import { setupBilling, planFor, payDay, changePlan, subscriptionReport, preorderText, BETA_HALF } from "../lib/billing.js";
 
 import { d1 } from "./helpers.mjs";
 
@@ -205,7 +204,7 @@ test("the pay day: each plan's charge on the launch, with or without a credit fo
   assert.match((await payDay(env, { at: "November 4" })).error, /ISO/);
 });
 
-test("in the beta, an upgrade from a plan free until the launch stays free until then; from a paid one, half price for the days left", async () => {
+test("before the launch, an upgrade costs nothing until the launch, then the full price; after it, the rest of the month", async () => {
   const user = await player("upgrader");
   const row = (who, id, cus, plan) => env.DB.prepare("INSERT INTO entitlements (user_id, customer_id, subscription_id, plan, " +
     "status, current_period_end, updated) VALUES (?, ?, ?, ?, 'trialing', ?, ?)").bind(who.id, cus, id, plan,
@@ -224,23 +223,27 @@ test("in the beta, an upgrade from a plan free until the launch stays free until
     change.get("trial_end"), change.get("payment_behavior")], ["price_champion_m", null, "none", null, null],
     "the trial carries on to the launch, and no coupon: full price from it");
 
-  // A paid one (bought in the beta, its month anchored at the launch): half price for the days left, Stripe's own sum.
+  // A pre-order (active, its month anchored at the launch, nothing paid): the same, nothing now (LOR-835).
   const payer = await player("payer");
   await env.DB.prepare("INSERT INTO entitlements (user_id, customer_id, subscription_id, plan, status, current_period_end, " +
     "updated) VALUES (?, 'cus_pay', 'sub_pay', 'champion', 'active', ?, ?)").bind(payer.id, new Date(L).toISOString(),
     new Date(NOW).toISOString()).run();
-  sub("sub_pay", { plan: "champion", ends: L, customer: "cus_pay", metadata: { user_id: payer.id, launch: "half" } });
+  sub("sub_pay", { plan: "champion", ends: L, customer: "cus_pay", metadata: { user_id: payer.id, preorder: "1" } });
   stripeCalls = [];
   const up = await changePlan(env, payer, "legend");
-  const asked = posts("POST invoices/create_preview")[0].body;
-  assert.deepEqual([asked.get("subscription_details[items][0][discounts][0][coupon]"), asked.get("subscription_details[proration_behavior]")],
-    [BETA_HALF.id, "always_invoice"]);
-  assert.match(up.preview.text, /^Legend starts now\. You'll pay \$9\.99 today for the days until launch, at half price, then \$19\.99 on November 4\.$/);
-  // After the launch: full price, and a trial (if any were left) ends now.
-  stripeCalls = [];
+  assert.deepEqual([up.preview.amount, posts("POST invoices/create_preview").length], [0, 0], "nothing charged now");
+  assert.match(up.preview.text, /nothing to pay until November 4.*\$19\.99 a month/i);
+  // After the launch: the rest of the month at full price, Stripe's own sum; a trial (if any were left) ends now.
   const after = promo(L + DAY);
   await changePlan(after, payer, "legend");
-  assert.equal(posts("POST invoices/create_preview")[0].body.get("subscription_details[items][0][discounts][0][coupon]"), null);
+  const asked = posts("POST invoices/create_preview")[0].body;
+  assert.deepEqual([asked.get("subscription_details[items][0][discounts][0][coupon]"), asked.get("subscription_details[proration_behavior]")],
+    [null, "always_invoice"]);
+  stripeCalls = [];
+  await changePlan(env, payer, "legend", { confirm: true, from: "champion", quote: up.preview.quote });
+  const swap = posts("POST subscriptions/sub_pay")[0].body;
+  assert.deepEqual([swap.get("items[0][price]"), swap.get("items[0][discounts][0][coupon]"), swap.get("proration_behavior")],
+    ["price_legend_m", null, "none"]);
   const keeper = await player("keeper");
   await row(keeper, "sub_keep", "cus_keep", "hero");
   sub("sub_keep", { status: "trialing", ends: L + 20 * DAY, customer: "cus_keep", metadata: { user_id: keeper.id, launch: "hero" } });
@@ -261,23 +264,6 @@ test("in the beta, an upgrade from a plan free until the launch stays free until
     [String(s(L)), String(s(L)), "price_hero_m"]);
 });
 
-test("the beta's coupon: made by the site when Stripe lacks it, then remembered; /admin checks it", async () => {
-  // A live-mode key of its own here, so the isolate's memory of the test mode's coupon doesn't answer for it.
-  const live = { ...env, STRIPE_SECRET_KEY: "sk_live_x", STRIPE_LIVE: "1" };
-  coupons.delete(BETA_HALF.id);
-  assert.equal(await betaCoupon(live), BETA_HALF.id);
-  const made = posts("POST coupons")[0].body;
-  assert.deepEqual([made.get("id"), made.get("percent_off"), made.get("duration"), made.get("applies_to[products][0]"),
-    made.get("applies_to[products][1]")], [BETA_HALF.id, "50", "once", "lore_forever_champion", "lore_forever_legend"]);
-  stripeCalls = [];
-  assert.equal(await betaCoupon(live), BETA_HALF.id, "then remembered");
-  assert.equal(stripeCalls.length, 0);
-  // The admin's check for it.
-  const res = await adminPost({ env, request: new Request(ORIGIN + "/api/admin", { method: "POST",
-    headers: { Authorization: "Bearer admin-test", "Content-Type": "application/json" }, body: JSON.stringify({ action: "beta-coupon" }) }) });
-  assert.deepEqual(await res.json(), { ok: true, coupon: BETA_HALF.id });
-});
-
 test("a paying plan moved to the launch still counts as paying, and /plans and /account say when it renews", async () => {
   const user = await player("buyer");
   const cookie = (await startSession(env, new Request(ORIGIN), user.id)).split(";")[0];
@@ -295,7 +281,7 @@ test("a paying plan moved to the launch still counts as paying, and /plans and /
   assert.equal((await planFor(env, other.id)).paidBefore, undefined);
   assert.equal((await subscriptionReport(env)).trialing.hero, 1);
   const page = await plansFor(env, cookie);
-  assert.equal(page.launch, "Half price during the beta. Full price from launch, November 4.");
+  assert.equal(page.launch, preorderText(env));
   assert.equal(page.current.paidBefore, true);
   assert.equal(page.gap, undefined, "the play gap's line is gone");
 });

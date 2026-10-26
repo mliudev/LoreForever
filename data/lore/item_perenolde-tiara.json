@@ -10,16 +10,16 @@
    "quest:543"
   ]
  },
- "summary": "The Perenolde Tiara is an emerald-studded heirloom of Alterac's fallen royal house, originally fashioned by dwarven craftsmen of Ironforge. Lost amidst the destruction of the kingdom, it eventually fell into the greedy hands of an ogre wandering the ruins before drawing the interest of collectors in Stormwind.",
+ "summary": "In the ruins of Alterac, an emerald-studded heirloom of the Perenolde family has turned up again. Dwarven craftsmen of Ironforge made it, and collectors in Stormwind now seek it.",
  "sections": [
   {
    "title": "A Relic of a Ruined Kingdom",
-   "body": "Before the mountainous realm of Alterac collapsed in infamy and rubble during the Second War, its ruling house was the Perenolde family. Among their treasures was this delicate tiara, commissioned from master jewelers in Ironforge and set with brilliant emeralds. When Alterac fell to ruin following King Aiden Perenolde's treachery, the crown jewel vanished into the chaotic devastation of the high crags.",
+   "body": "The Perenolde family ruled Alterac before the kingdom fell during the Second War. Their treasures included a delicate tiara, made by master jewelers in Ironforge and set with brilliant emeralds. After King Aiden Perenolde’s treachery brought Alterac to ruin, the tiara vanished amid the devastation of the high crags.",
    "spoiler": 0
   },
   {
    "title": "The Miser's Prize",
-   "body": "Rather than being buried forever beneath the snow, the tiara was unearthed by Grel'borg the Miser, an ogre mage who rummages through the ruins of Alterac searching for abandoned wealth. News of the surviving relic reached Count Remington Ridgewell, a wealthy noble in Stormwind eager to acquire famous relics for his family museum, prompting a search to prise the tiara from the ogre's grasping hands.",
+   "body": "Grel'borg the Miser, an ogre mage, unearthed the tiara while searching Alterac’s ruins for abandoned wealth. Word of the surviving relic reached Count Remington Ridgewell, a wealthy noble in Stormwind who collects famous relics for his family museum. Now the count seeks to take the tiara from the ogre.",
    "spoiler": 0
   }
  ],
@@ -31,7 +31,7 @@
     "what is this tiara",
     "alterac tiara"
    ],
-   "answer": "It is an heirloom that once belonged to the royal Perenolde family of Alterac. It was crafted by master dwarven jewelers from Ironforge and adorned with fine emeralds before being lost during Alterac's downfall."
+   "answer": "The Perenolde Tiara is an heirloom of Alterac’s royal Perenolde family. Dwarven jewelers in Ironforge crafted it and set it with emeralds before it was lost in the kingdom’s downfall."
   },
   {
    "q": "Who possesses the tiara now?",
@@ -40,7 +40,7 @@
     "who drops the tiara",
     "grelborg tiara"
    ],
-   "answer": "An ogre mage known as Grel'borg the Miser discovered the tiara among the snowbound ruins of Alterac. He guards it jealously as he scavenges the ruined kingdom for more lost treasures."
+   "answer": "Grel'borg the Miser, an ogre mage, found the tiara among Alterac’s snowbound ruins. He guards it while searching the ruined kingdom for more treasure."
   },
   {
    "q": "Why does Count Remington Ridgewell want it?",
@@ -49,7 +49,7 @@
     "why does remington want it",
     "remington ridgewell motive"
    ],
-   "answer": "Count Remington Ridgewell collects historic and prestigious antiquities for his family museum in Stormwind. Recovering a genuine crown jewel from a fallen human kingdom provides an impressive centerpiece for his collection."
+   "answer": "Count Remington Ridgewell collects historic and prestigious antiquities for his family museum in Stormwind. He wants the tiara as a crown jewel from a fallen human kingdom."
   },
   {
    "q": "Who were the Perenoldes?",
@@ -58,17 +58,17 @@
     "house of perenolde",
     "rulers of alterac"
    ],
-   "answer": "The Perenoldes were the ruling dynasty of the kingdom of Alterac. During the Second War, King Aiden Perenolde betrayed the Alliance to the Orcish Horde, leading to the collapse and ruin of his sovereign realm."
+   "answer": "The Perenoldes ruled the kingdom of Alterac. During the Second War, King Aiden Perenolde betrayed the Alliance to the Orcish Horde, and his realm fell into ruin."
   }
  ],
  "angles": [
   {
    "target": "race:Dwarf",
-   "text": "The tiara serves as a testament to the renowned gemcraft of Ironforge, whose master jewelers cut and set the emeralds for the human royalty of the north."
+   "text": "As a dwarf, you can see Ironforge’s gemcraft in the emeralds its master jewelers cut and set for the human royalty of the north."
   },
   {
    "target": "faction:Alliance",
-   "text": "The artifact is a bitter reminder of the House of Perenolde, whose betrayal during the Second War nearly destroyed the original Alliance of Lordaeron."
+   "text": "As an Alliance member, you face a bitter reminder of House Perenolde, whose betrayal during the Second War nearly destroyed the original Alliance of Lordaeron."
   }
  ],
  "keywords": [
@@ -94,5 +94,6 @@
  "attribution": [
   "Perenolde Tiara",
   "The Perenolde Tiara"
- ]
+ ],
+ "style": 1
 }

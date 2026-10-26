@@ -2,9 +2,6 @@
 -- Sources: data/i18n/ukUA. Lore text adapted from warcraft.wiki.gg (CC BY-SA 4.0); the core add-on's src fields name the articles.
 local P = LoreForeverPacks.Begin("LoreForever_Lang_ukUA")
 local Po = P.search.post
-Po["спіймав"] = "A9bB"
-Po["спіймала"] = "B03B"
-Po["спіймали"] = "AlgBAlmBAweBBbpBBuzBCHKDCn1BC+hBDAnBDdIBD4HBFeaBFeiBHlCBJBCB"
 Po["спійманий"] = "DAfBDAjBFVrB"
 Po["спіймати"] = "BXwBCB3B"
 Po["спіймають"] = "ASLBBGIBHcSB"
@@ -12002,3 +11999,6 @@ Po["торгівлячаклун"] = "DLXB"
 Po["торгівляшкірою"] = "BafCCNZCF52C"
 Po["торгівлі"] = "ACQCAMyBASBBAoKBA/QBBB8BBEnBBN3BBTXBBasBB2XBB5pBB5zBB6zBCC0BCC5BCDBBCH/CCR2BCeMBCmhBCspBCwhBDDeBDN8BDr0BDsCBDtgBDvmBEBPBEoOBEpPBE0sBFSHBFXIBFfEBFkjBFvCBFxEBFywBFzYBF9zBGcdBGlNBG9WBHNyBH3kBH3mBH3rBH4/BIeBBIesBI0kBI2XBI6VBI7UBJDdBJDyBJJVBJJhBJLQBJNLBJVnBJVtBJWLBJYMBJgZCJjzBJlFBJmqBJqTBJqUBJqWBJqZBJvtBJxhBJxqBJ1jBJ8GBJ8gBKFEBKFcBKH8BKH+BKKeBKLWBKPIBKQtBKTNBKTbBKThBKXEBKX2BKcTBKgVBKl8BKuIBKwkBK2hBK9BBLEDBLEPBLH9B"
 Po["торгівліальянсу"] = "JgZB"
+Po["торгівлістормвінда"] = "CH/C"
+Po["торгівці"] = "I2SBKThB"
+Po["торгівців"] = "Id8BJC1BJTEB"

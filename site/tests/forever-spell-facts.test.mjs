@@ -100,3 +100,35 @@ test("the block stays within its bound, however many spells and however long the
   }
   assert.equal(spellBlock([]), "");
 });
+
+test("LOR-823: a talent or build question gets the class's trees, each talent in its own tier with its ranks", async () => {
+  const { talentFacts, talentBlock, TALENT_FACTS_MAX_BYTES } = await import("../lib/forever-spell-facts.js");
+  const { spellData } = await import("../lib/forever-spells.js");
+  const { classes, trees, spells } = spellData();
+  const facts = talentFacts({ question: "Arms or Fury for leveling from 30? Which talents first?", class: "Warrior" });
+  assert.deepEqual(facts.slice(0, 2).map(f => f.title).sort(), ["Talents: Warrior Arms", "Talents: Warrior Fury"]);
+  assert.ok(facts.every(f => f.asked));
+  // Every Arms talent of the warrior's in the spell table is in its own tier with its ranks, except Forever's
+  // milestones: those sit at the points Blizzard gives (16 points: tier 4, 31: tier 7).
+  const tiersOf = text => Object.fromEntries(text.replace(/^[^:]+: /, "").split("; ").map(t => [t.split(":")[0], t]));
+  const arms = tiersOf(facts.find(f => f.title.endsWith("Arms")).text);
+  for (const [name, c, kind, tree, talent] of spells)
+    if (kind === 1 && classes[c] === "Warrior" && trees[tree] === "Arms" && name !== "Mortal Strike")
+      assert.ok(arms[talent[0]]?.includes(`${name} ${talent[1]}`), `${name}: tier ${talent[0]}, ${talent[1]} ranks`);
+  assert.match(arms[4], /Spearing Strike \(the 16-point/);
+  assert.match(arms[7], /Mortal Strike \(the 31-point/);
+  assert.ok(new TextEncoder().encode(talentBlock(facts)).length <= TALENT_FACTS_MAX_BYTES);
+  // A paladin's Holy tree as Blizzard describes Forever's: Holy Shock at 21 points, Light's Vigil at 31, and
+  // Consecration (a trainer spell at 20 now) no longer a talent, though the game's files still list it.
+  const { GAME_FACTS } = await import("../lib/forever-game-facts.js");
+  assert.match(GAME_FACTS.find(f => f.id === "abilities-paladin").text, /Holy Shock \(21\) and Light's Vigil \(31\)/);
+  const holyText = talentFacts({ question: "Is the holy talent at 31 worth it?", class: "Paladin" })[0].text;
+  const holy = tiersOf(holyText);
+  assert.match(holy[5], /Holy Shock \(the 21-point/);
+  assert.match(holy[7], /Light's Vigil \(the 31-point/);
+  assert.doesNotMatch(holyText, /Consecration/);
+  // A tank's question puts that tree first; a question about something else, or with no class, gets none.
+  assert.equal(talentFacts({ question: "What's the best talent build for a druid tank?" })[0].title, "Talents: Druid Feral Combat");
+  assert.deepEqual(talentFacts({ question: "Who is Thrall?", class: "Warrior" }), []);
+  assert.deepEqual(talentFacts({ question: "Which talents should I take?" }), []);
+});

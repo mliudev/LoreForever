@@ -7,16 +7,16 @@
  "meta": {
   "wiki": "Stone Cairn Lake"
  },
- "summary": "Stone Cairn Lake is a ring-shaped body of water resting in northeastern Elwynn Forest. At its center lies an island crowned with Heroes' Vigil, a memorial to the fallen of the First War. Once a tranquil site for reflection, the lake is now troubled by hostile murlocs along its shores and renegade wizards occupying the isle.",
+ "summary": "At Stone Cairn Lake in northeastern Elwynn, hostile murlocs hold the southern shore and renegade wizards camp on the island. Heroes' Vigil honors those lost in the First War.",
  "sections": [
   {
    "title": "A Monument Besieged",
-   "body": "Stone Cairn Lake earns its name from the prominent stone memorial erected on the large island in its center. Known as Heroes' Vigil, this monument was raised to honor the heavy loss of human life suffered during the First War against the Orcish Horde. Families and pilgrims once traveled safely to the island to pay respects to the fallen, gazing across the calm waters at the solemn stonework. Today, however, dangerous renegade wizards have established a camp directly beside the memorial, turning a place of sacred remembrance into a hostile redoubt.",
+   "body": "Families and pilgrims once crossed the calm waters to honor the dead at Heroes' Vigil. The stone memorial was raised on the lake's central island to mark the heavy loss of human life in the First War against the Orcish Horde. Now renegade wizards have made camp beside the monument, and the island has become a hostile place.",
    "spoiler": 0
   },
   {
    "title": "Shores of the Lake",
-   "body": "Surrounding the ring-shaped lake is a scenic shoreline that has grown increasingly dangerous for locals and travelers. A tribe of aggressive murlocs has claimed the southern banks, erecting crude huts along the waterline and harassing anyone who draws near. Beyond its dangers, the hills and outcrops encircling the lake are rich in mineral veins, making the perimeter a frequent destination for prospectors and miners willing to brave the local threats.",
+   "body": "Aggressive murlocs have claimed the southern banks of Stone Cairn Lake. Their crude huts line the water, and they harass anyone who comes near. The hills and rocky outcrops around the lake hold rich mineral veins, drawing prospectors and miners despite the dangers along the shore.",
    "spoiler": 0
   }
  ],
@@ -28,7 +28,7 @@
     "why stone cairn",
     "origin of the name"
    ],
-   "answer": "The lake takes its name from Heroes' Vigil, a stone cairn monument raised on the central island to commemorate the soldiers and civilians of Stormwind who perished during the First War."
+   "answer": "Stone Cairn Lake takes its name from Heroes' Vigil, a stone cairn on the central island honoring Stormwind's soldiers and civilians who died in the First War."
   },
   {
    "q": "Who is currently occupying the central island?",
@@ -37,7 +37,7 @@
     "island wizards",
     "rogue mages on lake"
    ],
-   "answer": "The island is overrun by rogue wizards and renegades who have chased away ordinary pilgrims and set up a fortified camp around the memorial."
+   "answer": "Renegade wizards and other renegades occupy the island, driving away pilgrims and building a fortified camp around the memorial."
   },
   {
    "q": "Why are murlocs gathered around the water?",
@@ -46,7 +46,7 @@
     "lake murlocs",
     "south shore huts"
    ],
-   "answer": "A local tribe of murlocs has settled the southern shallows and riverbanks, building primitive huts and claiming the plentiful fishing waters as their territory."
+   "answer": "A local murloc tribe has settled the southern shallows and riverbanks. They build huts along the waterline and claim the plentiful fishing waters as their territory."
   },
   {
    "q": "What is the memorial on the island called?",
@@ -55,17 +55,17 @@
     "monument name",
     "stone cairn shrine"
    ],
-   "answer": "The monument is known as Heroes' Vigil, featuring a stone cairn often referred to as the Stone of Remembrance."
+   "answer": "The memorial is called Heroes' Vigil. Its stone cairn is also known as the Stone of Remembrance."
   }
  ],
  "angles": [
   {
    "target": "profession:Mining",
-   "text": "The bluffs and hills encircling Stone Cairn Lake boast one of the heaviest concentrations of copper deposits in all of Elwynn Forest, making it a lucrative stop for aspiring blacksmiths and engineers."
+   "text": "The hills and bluffs around Stone Cairn Lake hold one of Elwynn Forest's heaviest concentrations of copper deposits, drawing aspiring blacksmiths and engineers."
   },
   {
    "target": "race:Human",
-   "text": "The central island represents a deeply personal memorial for the Kingdom of Stormwind, honoring those lost when the kingdom fell during the First War."
+   "text": "As a human, you can see the island as a memorial to Stormwind's people, honoring those lost when the kingdom fell in the First War."
   }
  ],
  "keywords": [
@@ -86,5 +86,6 @@
  ],
  "attribution": [
   "Stone Cairn Lake"
- ]
+ ],
+ "style": 1
 }

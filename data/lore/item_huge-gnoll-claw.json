@@ -10,11 +10,11 @@
    "quest:176"
   ]
  },
- "summary": "The Huge Gnoll Claw is an unmistakable trophy taken from Hogger, the massive gnoll prowling southwestern Elwynn Forest. Sized far beyond any normal gnoll talon, it serves as the official proof of demise required by the Stormwind authorities in Goldshire.",
+ "summary": "In southwestern Elwynn, Hogger’s huge claw is sought as proof of his death. Stormwind’s authorities in Goldshire require it for the bounty.",
  "sections": [
   {
    "title": "Bounty Hunter's Proof",
-   "body": "For months, the brute Hogger has terrorized the southern woodlands of Forest's Edge, shrugging off patrols and overwhelming every effort by the local garrison to corral or subdue him. Outmatched and stretched thin across Elwynn, the Stormwind Army posted an open bounty on the beast's head. Marshal Dughan at Goldshire demands undeniable evidence before disbursing the reward funds, and the brute's oversized claw offers undisputed confirmation that the terror of the woods has finally fallen.",
+   "body": "Hogger has terrorized the southern woodlands of Forest's Edge for months. Patrols have failed to stop the brute, and the local garrison cannot corral or subdue him. The Stormwind Army, stretched thin across Elwynn, posted an open bounty on his head. Marshal Dughan in Goldshire requires clear proof before paying it. Hogger's oversized claw leaves no doubt that the notorious marauder has fallen.",
    "spoiler": 0
   }
  ],
@@ -26,7 +26,7 @@
     "huge gnoll claw use",
     "who wants the claw"
    ],
-   "answer": "The claw serves as official proof of Hogger's death. It is brought directly to Marshal Dughan in Goldshire to complete the posted bounty and collect your reward."
+   "answer": "Bring Hogger's claw to Marshal Dughan in Goldshire as proof of his death, and you can collect the posted bounty."
   },
   {
    "q": "Where does this claw come from?",
@@ -35,7 +35,7 @@
     "how to get huge gnoll claw",
     "where to find huge gnoll claw"
    ],
-   "answer": "It is taken directly from Hogger, an elite gnoll wandering near the Riverpaw camps along the southwestern borders of Forest's Edge in Elwynn Forest."
+   "answer": "The claw comes from Hogger, an elite gnoll who wanders near the Riverpaw camps along the southwestern borders of Forest's Edge in Elwynn Forest."
   },
   {
    "q": "Why does Marshal Dughan want a claw instead of the head?",
@@ -44,7 +44,7 @@
     "why not hoggers head",
     "dughan bounty proof"
    ],
-   "answer": "Hogger is abnormally large even for a gnoll, and his immense claws are distinct and instantly recognizable. Presenting one leaves no doubt for the Stormwind Army that the notorious marauder has truly been slain."
+   "answer": "Hogger is abnormally large for a gnoll, and his immense claws are distinct and instantly recognizable. One proves to the Stormwind Army that the notorious marauder has been slain."
   },
   {
    "q": "Can I get another claw if I lose it?",
@@ -53,17 +53,17 @@
     "can i get claw again",
     "hogger claw respawn"
    ],
-   "answer": "Yes. If the claw is lost before you hand it over to Marshal Dughan, you can hunt down Hogger again in southwestern Elwynn Forest to claim a replacement."
+   "answer": "Yes. If you lose the claw before taking it to Marshal Dughan, you can hunt Hogger again in southwestern Elwynn Forest and claim a replacement."
   }
  ],
  "angles": [
   {
    "target": "faction:Alliance",
-   "text": "Claiming the claw rids the kingdom's heartland of its most infamous woodland terror, proving your valor to Marshal Dughan and the beleaguered garrison at Goldshire."
+   "text": "For the Alliance, claiming Hogger's claw rids the kingdom's heartland of its most infamous woodland terror. The claw proves your valor to Marshal Dughan and the beleaguered garrison at Goldshire."
   },
   {
    "target": "class:Hunter",
-   "text": "Securing such an outsized predator's claw demonstrates supreme tracking and beast-hunting capability against a brute that routinely overpowered armed squads."
+   "text": "As a hunter, securing the claw of a predator who routinely overpowered armed squads shows your skill at tracking and hunting beasts."
   }
  ],
  "keywords": [
@@ -88,5 +88,6 @@
  "attribution": [
   "Huge Gnoll Claw",
   "Wanted: \"Hogger\""
- ]
+ ],
+ "style": 1
 }

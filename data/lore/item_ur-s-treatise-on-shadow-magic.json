@@ -10,16 +10,16 @@
    "quest:1938"
   ]
  },
- "summary": "Ur's Treatise on Shadow Magic is a perilous arcane tome penned by the renowned wizard Ur of Dalaran. Originally safeguarded by the mages of Stormwind, the enchanted book was stolen by the renegade sorcerer Morganth and hidden away in the Tower of Ilgalar.",
+ "summary": "Stormwind's mages once guarded Ur's Treatise on Shadow Magic, but Morganth stole the perilous tome and hid it in the Tower of Ilgalar.",
  "sections": [
   {
    "title": "A Dangerous Legacy",
-   "body": "Penned by the Dalaran scholar Ur, this treatise delves into the subtle and corruptive nature of shadow magic. Because delving into such arts invites doom and ruin for the unwary, the mages of the Wizard's Sanctum in Stormwind placed protective seals upon the volume to bar anyone from reading its contents. However, when the sorcerer Morganth surrendered to dark arts and was exiled from the city's magical circle, he made off with the tome, carrying it eastward into the Redridge Mountains to his stronghold at the Tower of Ilgalar.",
+   "body": "Ur of Dalaran wrote a treatise on shadow magic and its subtle, corruptive nature. The mages of the Wizard's Sanctum in Stormwind feared that such arts could bring doom and ruin to the unwary, so they sealed the volume against readers. After Morganth surrendered to dark arts and Stormwind's magical circle exiled him, he took the tome east into the Redridge Mountains, to his stronghold at the Tower of Ilgalar.",
    "spoiler": 0
   },
   {
    "title": "The Warded Secrets",
-   "body": "Fearing that Morganth might master the dark lore preserved by Ur, High Sorcerer Andromath dispatched adventurers to breach the Tower of Ilgalar and reclaim the stolen work. Despite Morganth's ambition and deep descent into forbidden magic, the warding seals applied by Stormwind's circle proved resilient enough to defy him, ensuring the treatise remained unopened prior to its recovery.",
+   "body": "High Sorcerer Andromath feared Morganth might master the dark lore in Ur's work, so he sent adventurers to breach the Tower of Ilgalar and reclaim it. Morganth had sunk deep into forbidden magic, but the warding seals Stormwind's circle placed on the treatise held firm against him. The book remained unopened until it was recovered.",
    "spoiler": 1
   }
  ],
@@ -31,7 +31,7 @@
     "ur of dalaran",
     "who is ur"
    ],
-   "answer": "Ur was a respected wizard and scholar hailing from Dalaran who dedicated much of his research to studying extraplanar creatures, dark arts, and esoteric magic, including shadow craft."
+   "answer": "Ur was a respected wizard and scholar from Dalaran. He studied extraplanar creatures, dark arts, and esoteric magic, including shadow craft."
   },
   {
    "q": "Why is the treatise so dangerous?",
@@ -40,7 +40,7 @@
     "what does the book do",
     "shadow magic danger"
    ],
-   "answer": "As High Sorcerer Andromath cautions, the secrets of shadow magic are not meant for the untrained. Probing its forbidden depths can easily corrupt a practitioner and lead to doom and ruin."
+   "answer": "Shadow magic can corrupt an untrained practitioner and bring doom and ruin. High Sorcerer Andromath warns against probing its forbidden depths."
   },
   {
    "q": "Who stole Ur's Treatise on Shadow Magic?",
@@ -49,7 +49,7 @@
     "morganth stolen book",
     "who took the treatise"
    ],
-   "answer": "Morganth, a former member of Stormwind's wizard order who was banished after succumbing to the lure of dark magic, stole the tome and retreated to the Tower of Ilgalar in Redridge."
+   "answer": "Morganth stole the tome after he was banished from Stormwind's wizard order for succumbing to dark magic. He retreated to the Tower of Ilgalar in Redridge."
   },
   {
    "q": "Did Morganth manage to read the treatise?",
@@ -58,7 +58,7 @@
     "did the seals hold",
     "was the book opened"
    ],
-   "answer": "No. The protective seals placed on the tome by the mages of Stormwind held fast, preventing Morganth from opening it before it could be reclaimed."
+   "answer": "No. Stormwind's mages sealed the tome, and their wards held fast, keeping Morganth from opening it before its recovery."
   },
   {
    "q": "Is this the same work as The Book of Ur?",
@@ -67,17 +67,17 @@
     "book of ur shadowfang",
     "is this the book of ur"
    ],
-   "answer": "They are closely related works by the same author. While The Book of Ur is a broader grimoire kept in the ruins of Shadowfang Keep, the Treatise on Shadow Magic appears to be an excerpt or specialized volume focused entirely on shadow arts."
+   "answer": "Both works are by Ur and closely related. The Book of Ur is a broader grimoire kept in the ruins of Shadowfang Keep, while the Treatise on Shadow Magic appears to be an excerpt or specialized volume focused on shadow arts."
   }
  ],
  "angles": [
   {
    "target": "class:Mage",
-   "text": "For the mages of Stormwind, reclaiming Ur's treatise is a matter of containment, preserving the Sanctum's safety after one of their own succumbed to dark temptations."
+   "text": "As a mage of Stormwind, you help contain the treatise and preserve the Sanctum's safety after one of its own succumbed to dark temptations."
   },
   {
    "target": "faction:Alliance",
-   "text": "Morganth's presence in Redridge threatens the eastern frontier of the kingdom, making the retrieval of this powerful artifact vital to Stormwind's security."
+   "text": "As an Alliance traveler, you know Morganth's presence in Redridge threatens the kingdom's eastern frontier. Retrieving the powerful artifact matters to Stormwind's security."
   }
  ],
  "keywords": [
@@ -105,5 +105,6 @@
  "attribution": [
   "Ur's Treatise on Shadow Magic",
   "Ur's Treatise on Shadow Magic (quest)"
- ]
+ ],
+ "style": 1
 }

@@ -10,16 +10,16 @@
    "quest:1598"
   ]
  },
- "summary": "Powers of the Void is a rare magical tome originally kept in a restricted wing of Northshire Abbey's library. After an errant novice stole it while defecting to the Defias Brotherhood, the warlock mentor Drusilla La Salle seeks its recovery to further her own study of dark magic.",
+ "summary": "A stolen tome draws Drusilla La Salle's attention in Northshire. Powers of the Void was kept in a restricted wing of Northshire Abbey's library until a novice took it while defecting to the Defias Brotherhood. Drusilla seeks its recovery for her own study of dark magic.",
  "sections": [
   {
    "title": "A Restricted Northshire Text",
-   "body": "The Northshire Abbey archives hold far more than holy scripture and clerical records. Tucked away in a protected wing of the abbey's library was Powers of the Void, a scholarly work regarding shadow and nether energies, presumably penned by the archmage Khadgar. Given the dangerous nature of such research, abbey authorities kept the book heavily guarded and strictly off-limits to casual visitors. This kept it out of the hands of Northshire's local warlock mentor, Drusilla La Salle, who could not loiter near the restricted shelves without drawing unwanted suspicion from the priesthood.",
+   "body": "Powers of the Void was kept behind guarded shelves in Northshire Abbey's library. The abbey archives hold holy scripture and clerical records, along with scholarly works on shadow and nether energies. The tome was presumably penned by the archmage Khadgar. Because its subject was dangerous, abbey authorities kept the book under guard and away from casual visitors. That barred Northshire's warlock mentor, Drusilla La Salle, from browsing it without drawing the priesthood's suspicion.",
    "spoiler": 0
   },
   {
    "title": "Defias Theft and Recovery",
-   "body": "The tome finally left the abbey's walls not by Drusilla's hand, but through betrayal from within. A novice studying at Northshire abandoned his vows to join the Defias Brotherhood, looting several valuable volumes as he fled into the neighboring vineyards. Taking advantage of the thief's opportunism, Drusilla sends promising warlock initiates directly into the Defias bandit camp to seize the tome from their tents. Retrieving the text serves a double purpose: it places dark knowledge into the trainer's grasp and tests whether a novice possess the nerve required to bind otherworldly demons.",
+   "body": "A Northshire novice carried the tome away while abandoning his vows to join the Defias Brotherhood. As he fled into the neighboring vineyards, he took several valuable volumes from the abbey. Drusilla sends promising warlock initiates into the Defias bandit camp to recover the book from their tents. She wants the dark knowledge for her own study, and the effort tests whether an initiate has the nerve to bind otherworldly demons.",
    "spoiler": 0
   }
  ],
@@ -31,7 +31,7 @@
     "powers of the void book",
     "what is the stolen tome"
    ],
-   "answer": "It is a rare occult book detailing dark energies and nether concepts, believed to have been penned by the archmage Khadgar. It was locked inside a restricted wing of Northshire Abbey before being stolen."
+   "answer": "Powers of the Void is a rare occult book about shadow and nether energies, believed to have been penned by the archmage Khadgar. It was kept in a restricted wing of Northshire Abbey's library before it was stolen."
   },
   {
    "q": "Why was the book locked up in Northshire Abbey?",
@@ -40,7 +40,7 @@
     "why did the priests have it",
     "northshire library wing"
    ],
-   "answer": "Northshire Abbey preserves historic archives, including dangerous texts on illicit magics. Books detailing Void energies and demonology are held under lock and key to prevent novices and wayward practitioners from abusing them."
+   "answer": "Northshire Abbey keeps historic archives, including dangerous texts on illicit magic. Books about Void energies and demonology are locked away to keep novices and wayward practitioners from abusing them."
   },
   {
    "q": "How did the Defias Brotherhood get the book?",
@@ -49,7 +49,7 @@
     "defias stolen books",
     "how did defias get it"
    ],
-   "answer": "An abbey novice defected to join the Defias Brotherhood and took several valuable volumes from Northshire's restricted library with him, hiding them in the bandit camp out in the Northshire vineyards."
+   "answer": "A Northshire Abbey novice defected to the Defias Brotherhood and took several valuable volumes from the restricted library. He hid them in the bandit camp in the Northshire vineyards."
   },
   {
    "q": "Why does Drusilla La Salle want Powers of the Void?",
@@ -58,7 +58,7 @@
     "who wants the book",
     "drusilla la salle stolen tome"
    ],
-   "answer": "Drusilla is Northshire's resident warlock trainer. She covets the tome's esoteric knowledge for her own dark craft, but could never enter the abbey's secure library archives without raising the alarm."
+   "answer": "Drusilla La Salle is Northshire's warlock mentor and wants the tome's knowledge for her own dark craft. She could not enter the abbey's secure library without raising suspicion."
   },
   {
    "q": "What does retrieving the tome prove to Drusilla?",
@@ -67,17 +67,17 @@
     "imp summoning test",
     "stolen tome reward"
    ],
-   "answer": "Securing the tome proves to Drusilla that an initiate has the cunning, strength, and resolve necessary to command demonic servants, earning them instruction in how to summon their first imp."
+   "answer": "Retrieving the tome tests whether an initiate has the nerve to bind demons. Drusilla uses that test before teaching them to summon their first imp."
   }
  ],
  "angles": [
   {
    "target": "class:Warlock",
-   "text": "Retrieving this stolen grimoire serves as the foundational test for young human warlocks, demonstrating sufficient will to earn the secret of summoning an imp."
+   "text": "As a warlock, retrieving the stolen tome tests whether you have the will to earn instruction in summoning an imp."
   },
   {
    "target": "race:Human",
-   "text": "The tome's presence in Northshire reveals that the Holy Order preserves dangerous magical records alongside standard clerical texts, keeping them hidden from novice eyes."
+   "text": "As a human, you can see that Northshire's Holy Order keeps dangerous magical records alongside clerical texts, hidden from novice eyes."
   }
  ],
  "keywords": [
@@ -103,5 +103,6 @@
  "attribution": [
   "Powers of the Void",
   "The Stolen Tome"
- ]
+ ],
+ "style": 1
 }

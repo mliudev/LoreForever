@@ -10,11 +10,11 @@
    "quest:3103"
   ]
  },
- "summary": "The Hallowed Letter is a formal summons bearing the insignia of Priestess Anetta, delivered to promising young priests in Northshire Valley. It calls the bearer to Northshire Abbey to begin formal study and training in the Holy Light.",
+ "summary": "Priestess Anetta calls young priests from Northshire Valley to Northshire Abbey. Her letter begins their study of the Holy Light.",
  "sections": [
   {
    "title": "A Call to Faith",
-   "body": "Sealed with the personal mark of Priestess Anetta, the Hallowed Letter is presented to fledgling priests after their first trials against the kobold camps of Northshire Valley. Anetta recognizes the inner spark of the Holy Light within the novice and urges them not to linger, but to step inside the abbey walls to formally dedicate themselves. With dark forces still lingering across Azeroth in the wake of the Third War, the priesthood actively gathers those capable of healing, protecting, and offering spiritual guidance to an empire struggling to maintain order.",
+   "body": "The Hallowed Letter bears Priestess Anetta’s personal mark and reaches fledgling priests after their first trials against the kobold camps of Northshire Valley. She sees the Holy Light’s spark within each novice and urges them to enter the abbey and dedicate themselves to its service. Dark forces still linger across Azeroth in the wake of the Third War. The priesthood gathers those able to heal, protect, and guide an empire struggling to keep order.",
    "spoiler": 0
   }
  ],
@@ -26,7 +26,7 @@
     "hallowed letter item",
     "priest letter northshire"
    ],
-   "answer": "It is an introductory missive sealed by Priestess Anetta, given to newly arrived priests in Northshire Abbey to summon them for their initial class instruction."
+   "answer": "The Hallowed Letter is Priestess Anetta’s introductory missive to newly arrived priests in Northshire Abbey, summoning them for their first class instruction."
   },
   {
    "q": "Who wrote the letter?",
@@ -35,7 +35,7 @@
     "who is the author",
     "letter sender"
    ],
-   "answer": "The letter bears the insignia of Priestess Anetta, the resident trainer and spiritual guide who mentors young human priests arriving at Northshire."
+   "answer": "Priestess Anetta’s insignia marks the letter. She trains and guides young human priests arriving at Northshire."
   },
   {
    "q": "Why is the priesthood calling for new initiates right now?",
@@ -44,7 +44,7 @@
     "state of the world",
     "priest lore 25 adp"
    ],
-   "answer": "The world remains in turmoil. Remnants of the Burning Legion still haunt Azeroth, Kalimdor faces new trials, and the kingdom of Stormwind requires compassionate healers and leaders to rebuild and protect its people."
+   "answer": "Azeroth remains in turmoil, and remnants of the Burning Legion still haunt it. Kalimdor faces new trials, while Stormwind needs compassionate healers and leaders to rebuild and protect its people."
   },
   {
    "q": "What should I do after reading the letter?",
@@ -53,17 +53,17 @@
     "hallowed letter quest turn in",
     "who to talk to"
    ],
-   "answer": "Take the letter inside Northshire Abbey and speak with Priestess Anetta. She will accept your pledge to the Light and offer training in new priestly disciplines as your journey unfolds."
+   "answer": "Carry the letter into Northshire Abbey and speak with Priestess Anetta. She will accept your pledge to the Light and train you in new priestly disciplines as your journey unfolds."
   }
  ],
  "angles": [
   {
    "target": "class:Priest",
-   "text": "This missive marks your formal recognition as an instrument of the Holy Light, establishing your bond with the trainers of Northshire Abbey."
+   "text": "As a priest, this missive recognizes you as an instrument of the Holy Light and binds you to the trainers of Northshire Abbey."
   },
   {
    "target": "race:Human",
-   "text": "Human priests have practiced in the Northshire Valley since before the First War; receiving this letter continues that ancestral tradition of holy duty."
+   "text": "As a human, you carry on Northshire Valley’s tradition of holy duty, practiced there since before the First War."
   }
  ],
  "keywords": [
@@ -88,5 +88,6 @@
  "attribution": [
   "Hallowed Letter",
   "Hallowed Letter (quest)"
- ]
+ ],
+ "style": 1
 }

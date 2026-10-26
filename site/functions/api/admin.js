@@ -32,9 +32,6 @@ import { isReportRead } from "../../lib/report-read.js";
 //                                                                               dry is false; with credit, paid days after
 //                                                                               it go back as a Stripe balance credit;
 //                                                                               safe to repeat (scripts/pay-day.mjs)
-//                    {"action": "beta-coupon"}                                  the beta's half-price coupon in this
-//                                                                               deployment's Stripe, made if it's missing
-//                                                                               (lib/billing.js betaCoupon): {ok, coupon}
 //                    {"action": "contrib-reject", "uploader": "h:..."}          shared Forever text (LOR-236): every
 //                    {"action": "contrib-restore", "uploader": "h:..."}         line one sender sent stops counting, or
 //                                                                               counts again (lib/contribute.js)
@@ -89,7 +86,7 @@ import { activityReport, funnelReport, funnelFrom, syncExclusions, setExclusion,
 import { storesReport } from "../../lib/stores.js";
 import { checkinReport, checkinWeeks } from "../../lib/checkins.js";
 import { featureReport } from "../../lib/featureuse.js";
-import { billingReport, payDay, betaCoupon, PAID, PLANS, voicePicks } from "../../lib/billing.js";
+import { billingReport, payDay, PAID, PLANS, voicePicks } from "../../lib/billing.js";
 import { poolReport } from "../../lib/free-pool.js";
 import { sendEmail, senderOf, emailService, REPLY_TO } from "../../lib/email.js";
 import { featureOn } from "../../lib/features.js";
@@ -367,12 +364,7 @@ export async function onRequestPost({ request, env }) {
     } catch (e) { return json({ ok: false, error: String(e?.message || e) }); }   // 200: the edge hides a 502's body
   }
   // The launch as every plan's pay day (lib/billing.js payDay): what moving them there does, with or without a credit,
-  // or doing it; and the beta's half-price coupon (betaCoupon).
-  if (body.action === "beta-coupon") {
-    if (!env.STRIPE_SECRET_KEY) return json({ error: "Stripe isn't set up here (no STRIPE_SECRET_KEY)." }, 503);
-    const coupon = await betaCoupon(env);
-    return json({ ok: Boolean(coupon), coupon, ...(coupon ? {} : { error: "Couldn't make it with this key: see the log." }) });
-  }
+  // or doing it.
   if (body.action === "pay-day") {
     if (!env.STRIPE_SECRET_KEY) return json({ error: "Stripe isn't set up here (no STRIPE_SECRET_KEY)." }, 503);
     try {

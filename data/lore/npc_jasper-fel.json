@@ -8,11 +8,11 @@
   "wiki": "Jasper Fel",
   "refs": 2
  },
- "summary": "Jasper Fel is a discreet supplier operating out of the SI:7 headquarters in Stormwind's Old Town. Providing daggers and assorted vials to operatives, he keeps a sharp eye on visitors and warns them to watch their tongues. His quiet trade supports the covert arm of the kingdom behind closed doors.",
+ "summary": "In Stormwind's Old Town, Jasper Fel supplies daggers and vials from SI:7 headquarters. He keeps watch on visitors and warns them to mind their speech.",
  "sections": [
   {
    "title": "Supplies for the Shadows",
-   "body": "Tucked away inside the barracks of SI:7 within Old Town, Jasper Fel caters to a very specific clientele. Rather than hawking standard arms to the city guard, he provides essential implements of tradecraft: simple daggers and the delicate vials required for brewing and applying poisons. Fel operates under the strict discipline of Mathias Shaw's intelligence division, curtly advising any who approach to mind their speech. In a stronghold dedicated to espionage and subtle lethality, casual chatter is an easy way to meet an early end.",
+   "body": "Inside SI:7 headquarters in Old Town, Jasper Fel supplies the agents who work there. He offers simple daggers and empty vials for brewing and applying poisons. Jasper works under Mathias Shaw's intelligence division and warns visitors to mind their speech. In a place built for espionage, careless words can put people in danger.",
    "spoiler": 0
   }
  ],
@@ -24,7 +24,7 @@
     "where is jasper fel",
     "jasper fel stormwind"
    ],
-   "answer": "Jasper Fel is stationed inside the SI:7 headquarters, located in the eastern portion of Old Town in Stormwind City."
+   "answer": "Jasper Fel can be found inside SI:7 headquarters in the eastern part of Old Town, Stormwind City."
   },
   {
    "q": "What does Jasper Fel sell?",
@@ -33,7 +33,7 @@
     "what does fel sell",
     "jasper fel wares"
    ],
-   "answer": "He supplies basic daggers and various grades of empty vials, making him a useful stop for operatives stocking up on poison components."
+   "answer": "Jasper Fel supplies simple daggers and various grades of empty vials for operatives."
   },
   {
    "q": "Is Jasper Fel related to Morbent Fel?",
@@ -42,7 +42,7 @@
     "is jasper fel related to morbent",
     "fel family duskwood"
    ],
-   "answer": "They share a surname, which has led to speculation about a familial connection to the necromancer Morbent Fel in Duskwood, though Jasper himself keeps silent on personal matters."
+   "answer": "Jasper Fel and Morbent Fel share a surname, but Jasper keeps silent about his personal matters."
   },
   {
    "q": "Why does Jasper Fel warn people to speak quietly?",
@@ -51,17 +51,17 @@
     "jasper fel warning",
     "wrong word throat cut"
    ],
-   "answer": "He works directly inside SI:7, the heart of Stormwind's espionage apparatus. Loose talk in an organization filled with assassins and spies is considered dangerous, and Fel makes sure visitors treat the headquarters with appropriate caution."
+   "answer": "Jasper Fel warns visitors to mind their speech because he works inside SI:7, Stormwind's espionage headquarters, where loose talk is dangerous."
   }
  ],
  "angles": [
   {
    "target": "class:Rogue",
-   "text": "Jasper Fel provides the essential vials and backup blades required by covert operatives practicing their craft in Stormwind."
+   "text": "As a rogue, you can find vials and spare blades from Jasper Fel for your covert work in Stormwind."
   },
   {
    "target": "faction:Alliance",
-   "text": "Serving from the headquarters of SI:7, Fel ensures that the agents defending the kingdom from the shadows have reliable supplies."
+   "text": "As an Alliance member, you can rely on SI:7 headquarters to supply the agents who defend the kingdom from the shadows."
   }
  ],
  "keywords": [
@@ -84,5 +84,6 @@
  ],
  "attribution": [
   "Jasper Fel"
- ]
+ ],
+ "style": 1
 }

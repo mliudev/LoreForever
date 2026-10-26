@@ -363,7 +363,9 @@ footer { border-top: 1px solid var(--w-rim); background: #08161f; padding-block:
     li.append(el("p", gist(p) + (p.answersPerDay ? `. ${p.answersPerDay} answers a day.` : "."), "what"));
     return li;
   }));
-  document.getElementById("w-plan-fine").textContent = "Monthly, cancel any time.";
+  // Before WoW Forever's launch, the pre-order's words too (launchEnds: the launch's day, null from it).
+  document.getElementById("w-plan-fine").textContent = "Monthly, cancel any time." +
+    (res.launchEnds ? ` Start today, nothing to pay until ${res.launchEnds}, when the game opens.` : "");
   document.getElementById("plans").hidden = false;
 })();
 </script>

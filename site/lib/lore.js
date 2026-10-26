@@ -210,22 +210,6 @@ function clipSection(clip, live, names, heading) {
     </section>`;
 }
 
-function sourceItem(s) {
-  if (s.kind === "wiki") {
-    // An article from Wowpedia (lore.wowpedia) names itself and its own license; the default is Warcraft Wiki, CC BY-SA 4.0.
-    const site = s.site === "Wowpedia" ? "Wowpedia" : "Warcraft Wiki";
-    const [lic, licUrl] = site === "Wowpedia" ? ["CC BY-SA 3.0", "https://creativecommons.org/licenses/by-sa/3.0/"]
-      : ["CC BY-SA 4.0", "https://creativecommons.org/licenses/by-sa/4.0/"];
-    return `<li><span class="src src-wiki">Wiki</span> Adapted from the ${site} article
-        <a href="${escape(s.url)}">${escape(s.title)}</a> (<a href="${licUrl}">${lic}</a>)</li>`;
-  }
-  if (s.kind === "forever") return `<li><span class="src src-forever">Forever</span> ${escape(s.title)}</li>`;
-  if (s.kind === "community") return `<li><span class="src src-community">Community</span> ${escape(s.title)}</li>`;
-  if (s.kind === "game") return `<li><span class="src src-game">Game</span> ${escape(s.title)}</li>`;
-  if (s.kind === "web") return `<li><span class="src src-web">Web</span> <a href="${escape(s.url)}">${escape(s.title)}</a></li>`;
-  return `<li class="src-note">${escape(s.title)}</li>`;
-}
-
 const linkList = links => `<ul class="lp-links">
         ${links.map(l => `<li><a href="${escape(l.p)}">${escape(l.n)}</a></li>`).join("\n        ")}
       </ul>`;
@@ -265,9 +249,9 @@ const cta = (lang = "en") => `<aside class="lp-cta">
     <p><a class="btn-download" href="${DOWNLOAD}">${tr(lang, "Get Lore Forever")}</a></p>
   </aside>`;
 
-const foot = `<p>Lore text is adapted from the <a href="https://warcraft.wiki.gg">Warcraft Wiki</a> under
-    <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a>; each page names its articles. Quest text
-    is the game's own, &copy; Blizzard Entertainment.</p>`;
+// No line of their own over the footer: where the lore comes from and its licences are on /credits, linked from the
+// footer once (Mike, 10/25: "consolidated and moved from the site too").
+const foot = "";
 
 // A thin page (site_lore.py THIN_CHARS: a line or two, nothing to play) is served but kept out of search: noindex in the
 // header and the page, and out of the sitemap. Its links are still followed.
@@ -619,13 +603,8 @@ export function entryPage(entry, { live = new Set(), names = {}, env, packs = []
     </div>`
     : lang !== "en" ? `<p class="lp-ingame lp-norec">No ${escape(langName)} recording yet. <a href="${escape(enPath)}">The English page</a> has the narrators.</p>`
       : (entry.clips || []).length ? "" : `<p class="lp-ingame lp-norec">No recording yet: read it here, and hear it in game once it's recorded.</p>`;
-  const sources = (entry.sources || []).length
-    ? `<section class="lp-src" aria-labelledby="src-title">
-      <h2 id="src-title">${tr(lang, "Sources")}</h2>
-      <ul>
-        ${entry.sources.map(sourceItem).join("\n        ")}
-      </ul>
-    </section>` : "";
+  // (Its sources aren't listed here: /credits says where the lore comes from, and the public data names each entry's
+  // articles. Mike, 10/25.)
   const childCount = (entry.children || []).length;
   const children = childCount
     ? `<details class="lp-in"${childCount <= 12 ? " open" : ""}>
@@ -660,7 +639,7 @@ export function entryPage(entry, { live = new Set(), names = {}, env, packs = []
         : `<a href="${escape(l.path)}" hreflang="${escape(l.hreflang)}" lang="${escape(l.hreflang)}">${escape(l.name)}</a>`).join(" ")}</p>` : "";
   const alternates = langs.length ? [{ hreflang: "en", path: enPath }, ...langs, { hreflang: "x-default", path: enPath }]
     .map(l => `<link rel="alternate" hreflang="${escape(l.hreflang)}" href="https://${HOME}${escape(l.path)}">`).join("\n") : "";
-  // The left page: where it is, its name, Listen, the text, what's on the same road, then its sources, what's in it, the
+  // The left page: where it is, its name, Listen, the text, what's on the same road, then what's in it, the
   // downloads that have its recording, the links out and the download box.
   const left = `        <article class="lp" data-key="${escape(entry.key)}" data-path="${escape(entry.path)}" data-en="${escape(enPath)}" data-lang="${escape(lang)}"${next ? ` data-next="${escape(next.p)}" data-next-name="${escape(next.n)}"` : ""}>
     <span class="ent-ico">${icon(KIND_ICON[entry.kind] || "book")}</span>
@@ -673,7 +652,6 @@ export function entryPage(entry, { live = new Set(), names = {}, env, packs = []
     ${sections}
     ${clipsHtml.join("\n    ")}
     ${related}
-    ${sources}
     ${children}
     ${packsSection(packs)}
     ${lookup}

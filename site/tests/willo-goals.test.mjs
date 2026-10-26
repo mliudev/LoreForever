@@ -610,3 +610,12 @@ test("Forever's riding price is a checked fact, with the same numbers her goals 
   assert.match(SEED_FACTS.find(f => f.id === "artisan-trainers").text, /Tailoring: Georgio Bolero in Stormwind's Mage Quarter \(Alliance\), Josef Gregorian in the Undercity's Magic Quarter \(Horde\)/);
   assert.match(SEED_FACTS.find(f => f.id === "riding-mounts").text, /gives you your first mount, so you don't buy one\. Only if you want more, your people's mount vendor sells them for 20 gold each at level 40, and swift ones for 200 gold at level 60/);
 });
+
+test("LOR-834: her prompt carries their professions from the save, never another skill, so she knows their rank", async () => {
+  const { token } = await linked();
+  await ask(token, "how do I level my tailoring?");
+  const prompt = calls[0].contents.map(c => (c.parts || []).map(p => p.text || "").join("\n")).join("\n");
+  const context = /PLAYER CONTEXT\n([\s\S]*?)\n\n/.exec(prompt)?.[1] || "";
+  says(context, "Tailoring 120 of 150", "last save");
+  assert.doesNotMatch(context, /Riding/);
+});

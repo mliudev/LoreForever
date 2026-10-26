@@ -17,16 +17,16 @@
   "wiki": "The Great Outdoors (Forever)",
   "chain": []
  },
- "summary": "The Great Outdoors is an introductory survival lesson offered by seasoned travelers to newly minted wanderers across Azeroth. By taking a moment to rest by a warm campfire, fledglings learn how staying well-rested and prepared keeps an adventurer alive beyond city walls. It marks the first step into mastering wilderness survival and specialized field camps.",
+ "summary": "You learn how rest and preparation help you survive beyond city walls. Travelers across Azeroth teach new wanderers to rest by a campfire and prepare for the wilds.",
  "sections": [
   {
    "title": "Lessons of the Trail",
-   "body": "No matter how sharp your blade or potent your magic, the wilds of Azeroth quickly whittle down anyone who neglects the basics of survival. Seasoned wanderers stationed near roadside clearings offer this simple lesson to travelers setting out from their home valleys. Taking time to rest by a campfire does more than ease sore boots\u2014it settles the mind and readies the spirit for the harsh road ahead. Only those who master the discipline of regular rest and preparation stand a chance of surviving long enough to claim fortune and glory.",
+   "body": "Even a sharp blade or potent magic cannot protect you from the wilds if you neglect the basics of survival. Seasoned wanderers near roadside clearings share this lesson with travelers leaving their home valleys. Resting by a campfire eases sore boots, settles the mind, and readies you for the road ahead. Regular rest and preparation give you a better chance of surviving long enough to find fortune and glory.",
    "spoiler": 0
   },
   {
    "title": "A Home Away from Home",
-   "body": "Once an adventurer grasps the value of a crackling fire and proper rest, the instructors point them directly toward town tradesfolk. A camp in the field is rarely complete with just an ember and a bedroll; survival requires practical crafts. Whether forging replacement rivets, cooking trail rations, or stitching torn gear under the stars, every profession provides unique camp fixtures to turn a barren hillside into a self-sufficient outpost.",
+   "body": "Once you understand the value of a fire and proper rest, your instructors point you toward town tradesfolk. A field camp needs more than an ember and a bedroll; survival also calls for practical crafts. You can forge replacement rivets, cook trail rations, or stitch torn gear under the stars. Each profession offers camp fixtures that can help turn a bare hillside into a self-sufficient outpost.",
    "spoiler": 0
   }
  ],
@@ -38,7 +38,7 @@
     "who starts the great outdoors",
     "quest giver great outdoors"
    ],
-   "answer": "A variety of veteran travelers offer this guidance depending on where you are. In Elwynn Forest, the seasoned wanderer Sam Sarsaparilla steps up, while elsewhere figures such as Eric Brighthammer, Lyreena Duskblade, Brakk, Eleanor Shackleton, Kaga Wildhoof, and Raan Wildwind share their wilderness experience."
+   "answer": "Veteran travelers offer the lesson, with the instructor depending on where you are. In Elwynn Forest, Sam Sarsaparilla teaches it; elsewhere, instructors include Eric Brighthammer, Lyreena Duskblade, Brakk, Eleanor Shackleton, Kaga Wildhoof, and Raan Wildwind."
   },
   {
    "q": "What is the purpose of sitting by the campfire?",
@@ -47,7 +47,7 @@
     "what does campfire do",
     "boosted rest buff"
    ],
-   "answer": "Sitting quietly by a blazing campfire lets an adventurer catch their breath and gain a Boosted Rest effect. Taking deliberate downtime in the field is essential for keeping your strength up during long expeditions across the wilds."
+   "answer": "Resting by a campfire lets you catch your breath and gain a Boosted Rest effect. Taking time to rest in the field helps you keep your strength during long journeys through the wilds."
   },
   {
    "q": "Where does this training lead next?",
@@ -56,7 +56,7 @@
     "great outdoors next quest",
     "camping quests"
    ],
-   "answer": "Once you finish resting by the fire, your mentor directs you to nearby settlements to learn practical tradeskills. From there, you begin learning Camping 101: Cooking as well as specific field camping lessons tailored to whatever profession you choose to pursue."
+   "answer": "After you rest by the fire, your mentor sends you to nearby settlements to learn practical tradeskills. You can then learn Camping 101: Cooking and field camping lessons suited to the profession you choose."
   },
   {
    "q": "Can Horde adventurers undertake this lesson as well?",
@@ -65,7 +65,7 @@
     "horde great outdoors",
     "can orcs do this quest"
    ],
-   "answer": "Yes. Surviving in the harsh wilds is a necessity regardless of allegiance. Veteran instructors from both the Alliance and the Horde\u2014such as Brakk, Eleanor Shackleton, and Kaga Wildhoof\u2014teach the exact same fundamental campcraft to their faction's initiates."
+   "answer": "Yes. Survival matters to adventurers of either faction. Instructors from the Alliance and the Horde, including Brakk, Eleanor Shackleton, and Kaga Wildhoof, teach the same basic campcraft to their initiates."
   },
   {
    "q": "Why do the instructors tell you to speak with trade trainers?",
@@ -74,7 +74,7 @@
     "camp fixtures trade trainers",
     "profession camp connection"
    ],
-   "answer": "Survival requires more than just sitting by flames; an adventurer needs self-reliance. Tradeskill trainers teach you how to craft specialized camp fixtures that let you ply your trade, whether that is cooking trail rations, mending armor, or brewing remedies under the open sky."
+   "answer": "Survival takes more than sitting by the fire; you also need self-reliance. Tradeskill trainers teach you to make camp fixtures for your trade, whether you cook trail rations, mend armor, or brew remedies beneath the open sky."
   },
   {
    "q": "What prior experience is expected before taking this quest?",
@@ -83,21 +83,21 @@
     "how do i unlock great outdoors",
     "before great outdoors"
    ],
-   "answer": "Adventurers typically receive this lesson directly following 'The Adventurer', once they have proved their basic ambition and stepped beyond their starter enclaves into the wider region."
+   "answer": "You typically receive this lesson after 'The Adventurer', once you have shown basic ambition and left your starter enclave for the wider region."
   }
  ],
  "angles": [
   {
    "target": "profession:Cooking",
-   "text": "Every wilderness camp starts with fire, making cooking the natural companion to outdoor survival. Following this lesson, master campers immediately direct you to trailside culinary instruction."
+   "text": "Every wilderness camp begins with fire, so cooking belongs naturally beside outdoor survival. After this lesson, your instructors direct you to cooking lessons along the trail."
   },
   {
    "target": "faction:Alliance",
-   "text": "In the safety of Elwynn Forest, human travelers learn these survival basics from experienced wayfarers before facing the harsher threats lurking in Westfall and Redridge."
+   "text": "In Elwynn Forest, human travelers learn survival basics from experienced wayfarers before facing the harsher threats in Westfall and Redridge."
   },
   {
    "target": "faction:Horde",
-   "text": "Whether crossing the arid plains of Durotar or the windswept mesas of Mulgore, Horde survivalists instill firecraft and outdoor discipline into every young warrior."
+   "text": "Across Durotar's arid plains and Mulgore's windswept mesas, Horde survivalists teach young warriors firecraft and discipline in the outdoors."
   }
  ],
  "keywords": [
@@ -119,5 +119,6 @@
  ],
  "attribution": [
   "The Great Outdoors (Forever)"
- ]
+ ],
+ "style": 1
 }

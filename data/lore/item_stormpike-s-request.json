@@ -10,16 +10,16 @@
    "quest:1338"
   ]
  },
- "summary": "Stormpike's Request is a written commission dispatched by Mountaineer Stormpike from the hills of Loch Modan to Stormwind City. The letter petitions master armorsmith Furen Longbeard to craft a custom shield of unmatched dwarven quality.",
+ "summary": "Mountaineer Stormpike sends a written commission from Loch Modan to Stormwind City. He asks Furen Longbeard to craft him a shield of exceptional dwarven quality.",
  "sections": [
   {
    "title": "A Northern Commission",
-   "body": "While stationed far to the north in Loch Modan, Mountaineer Stormpike requires a sturdy new shield to weather the dangers of the dwarven frontier. Rather than trusting an ordinary smith, he insists on commissioning Furen Longbeard, an armorsmith whose legendary craftsmanship he holds in the highest regard. Because Furen now resides far to the south among the humans of Stormwind's Dwarven District\u2014lured away from Ironforge by what Stormpike assumes must be a king's ransom\u2014the mountaineer relies on traveling adventurers to deliver his formal request across the kingdoms.",
+   "body": "Mountaineer Stormpike needs a sturdy shield while stationed in Loch Modan. He trusts no ordinary smith with the work and asks Furen Longbeard, whose craft he greatly admires. Furen now lives among the humans in Stormwind's Dwarven District, having left Ironforge. Stormpike assumes a king's ransom drew him south, so traveling adventurers carry the commission across the kingdoms.",
    "spoiler": 0
   },
   {
    "title": "The Stormpike Line",
-   "body": "Delivering the letter into the bustling Dwarven District of Stormwind places the order directly into Furen Longbeard's capable hands. As a proud and established dwarven clan known across Khaz Modan for both martial grit and substantial wealth, a Stormpike commission carries weight. Pleased to receive word and business from his ancestral northern homelands, Furen agrees to fulfill the order and set to work hammering out the mountaineer's shield.",
+   "body": "Furen Longbeard receives Stormpike's letter in Stormwind's Dwarven District and agrees to make the shield. A proud and established member of the Stormpike clan, known across Khaz Modan for its martial grit and wealth, Furen welcomes word and business from his northern homeland. He sets to work on the mountaineer's order.",
    "spoiler": 0
   }
  ],
@@ -31,7 +31,7 @@
     "stormpike order item",
     "stormpike request"
    ],
-   "answer": "It is a written order sent by Mountaineer Stormpike from Loch Modan requesting that the master armorsmith Furen Longbeard forge him a high-quality shield."
+   "answer": "Mountaineer Stormpike's letter from Loch Modan asks Furen Longbeard to forge him a high-quality shield."
   },
   {
    "q": "Who wrote this letter?",
@@ -40,7 +40,7 @@
     "who wrote it",
     "mountaineer stormpike"
    ],
-   "answer": "It was penned by Mountaineer Stormpike, a dwarven sentry defending the passes of Loch Modan who deeply admires Furen Longbeard's smithing craft."
+   "answer": "Mountaineer Stormpike wrote the letter. He is a dwarven sentry guarding the passes of Loch Modan and deeply admires Furen Longbeard's smithing."
   },
   {
    "q": "Where does this letter need to go?",
@@ -49,7 +49,7 @@
     "who gets this letter",
     "deliver stormpikes request"
    ],
-   "answer": "It is addressed to Furen Longbeard, who works at his forge within the Dwarven District of Stormwind City."
+   "answer": "The letter is addressed to Furen Longbeard at his forge in Stormwind City's Dwarven District."
   },
   {
    "q": "Why does Stormpike hire a smith all the way in Stormwind?",
@@ -58,17 +58,17 @@
     "why not forge in ironforge",
     "why send to stormwind"
    ],
-   "answer": "Mountaineer Stormpike considers Furen's skill unmatched and refuses to settle for any other armorer, even though Furen chose to leave Ironforge to ply his trade among the humans in the south."
+   "answer": "Stormpike considers Furen's skill unmatched and will accept no other armorer. Furen left Ironforge to work among the humans in the south."
   }
  ],
  "angles": [
   {
    "target": "profession:Blacksmithing",
-   "text": "The request is a testament to the reputation of master armorers, demonstrating that great dwarven smithwork commands patrons across entire kingdoms."
+   "text": "Stormpike's request shows the standing of master armorers: patrons across kingdoms seek skilled dwarven smiths."
   },
   {
    "target": "race:Dwarf",
-   "text": "For dwarves, carrying the request maintains bonds of clan and craft between the mountaineers guarding Khaz Modan and craftsmen living abroad in human cities."
+   "text": "As a dwarf, you carry a bond of clan and craft between the mountaineers guarding Khaz Modan and craftsmen living abroad in human cities."
   }
  ],
  "keywords": [
@@ -93,5 +93,6 @@
  "attribution": [
   "Stormpike's Request",
   "Stormpike's Order"
- ]
+ ],
+ "style": 1
 }

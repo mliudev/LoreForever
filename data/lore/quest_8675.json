@@ -17,16 +17,16 @@
   "wiki": "Skychaser the Elder",
   "chain": []
  },
- "summary": "Elder Skychaser is an ancestral spirit who manifests during the Lunar Festival atop the Sentinel Tower in Westfall. Honoring her allows travelers across the dust-swept plains to pay homage to the wisdom of ages past. In return, the elder acknowledges the burning vigor of the living and grants her blessing.",
+ "summary": "During the Lunar Festival, Skychaser the Elder appears atop Sentinel Tower in Westfall. Travelers climb to honor her and receive her blessing in return.",
  "sections": [
   {
    "title": "A Beacon in the Dust",
-   "body": "Amid the troubled scrublands of Westfall, Sentinel Hill stands as the lone fortified redoubt against Defias raiders and roving scavengers. During the Lunar Festival, an ancestral spirit named Elder Skychaser takes her place on the open platform atop the Sentinel Tower. High above the dust and wind, she keeps a patient vigil over the weary soldiers and beleaguered settlers below, welcoming anyone who makes the climb to show respect.",
+   "body": "Sentinel Hill holds against Defias raiders and roving scavengers in Westfall's troubled scrublands. During the Lunar Festival, an ancestral spirit named Elder Skychaser appears on the open platform atop Sentinel Tower. From above the dust and wind, she watches over the weary soldiers and beleaguered settlers below. Anyone may climb the tower and pay her respect.",
    "spoiler": 0
   },
   {
    "title": "Honoring the Ancestors",
-   "body": "The Lunar Festival marks a sacred season observed across Azeroth, celebrating wisdom, heritage, and the deeds of ancient spirits who walked the earth before the present struggles. When approached, Elder Skychaser recognizes the vital spark within the traveler, accepting their homage and bestowing a token of her favor as a gift of kinship between the living and the honored dead.",
+   "body": "Across Azeroth, the Lunar Festival honors wisdom, heritage, and the deeds of ancient spirits who walked the earth before today's struggles. When you approach, Elder Skychaser recognizes the living spark within you. She accepts your homage and gives you a token of her favor, a bond between the living and the honored dead.",
    "spoiler": 0
   }
  ],
@@ -38,7 +38,7 @@
     "where is elder skychaser",
     "skychaser westfall"
    ],
-   "answer": "Elder Skychaser is located at the very top of Sentinel Tower at Sentinel Hill in Westfall. Climb the spiral stairs within the tower out onto the upper lookout ramparts."
+   "answer": "Elder Skychaser waits atop Sentinel Tower at Sentinel Hill in Westfall. Climb the tower's spiral stairs to the upper lookout ramparts."
   },
   {
    "q": "Why is Elder Skychaser standing on top of Sentinel Tower?",
@@ -46,7 +46,7 @@
     "why is he in sentinel tower",
     "skychaser tower"
    ],
-   "answer": "Ancestral spirits choose prominent and symbolic locations across Azeroth during the Lunar Festival. The heights of Sentinel Tower provide a watchful vantage over the Westfall basin, allowing the elder to witness travelers braving the frontier."
+   "answer": "During the Lunar Festival, ancestral spirits appear at prominent, symbolic places across Azeroth. Sentinel Tower's heights overlook the Westfall basin, where the elder can watch travelers brave the frontier."
   },
   {
    "q": "What is the purpose of this quest?",
@@ -54,7 +54,7 @@
     "skychaser quest reward",
     "why honor elder skychaser"
    ],
-   "answer": "Seeking out Elder Skychaser is part of honoring ancestral elders during the Lunar Festival. Showing respect grants a Coin of Ancestry and a blessing celebrating the living spirit of the adventurer."
+   "answer": "You honor ancestral elders during the Lunar Festival by seeking Elder Skychaser. Your respect earns a Coin of Ancestry and a blessing that celebrates your living spirit."
   },
   {
    "q": "Can Horde players honor Elder Skychaser?",
@@ -62,7 +62,7 @@
     "can horde visit skychaser",
     "is skychaser hostile to horde"
    ],
-   "answer": "Elder Skychaser herself is a peaceful spirit who welcomes all pilgrims. However, Sentinel Hill is a heavily defended Alliance outpost, making reaching her perilous for Horde adventurers."
+   "answer": "Elder Skychaser welcomes all pilgrims, but Sentinel Hill is a heavily defended Alliance outpost. Reaching her is perilous for Horde adventurers."
   },
   {
    "q": "Does Elder Skychaser participate in the defense of Sentinel Hill?",
@@ -70,7 +70,7 @@
     "does skychaser fight defias",
     "is skychaser part of the people's militia"
    ],
-   "answer": "No. The elders who visit during the Lunar Festival are spiritual manifestations focused solely on tradition and ancient remembrance. Elder Skychaser takes no part in the People's Militia's skirmishes against the Defias Brotherhood."
+   "answer": "No. The Lunar Festival elders are spiritual manifestations devoted to tradition and remembrance. Elder Skychaser takes no part in the People's Militia's skirmishes against the Defias Brotherhood."
   },
   {
    "q": "What does Skychaser say when you greet her?",
@@ -78,21 +78,21 @@
     "skychaser dialogue",
     "what does the elder say"
    ],
-   "answer": "Upon greeting her, Elder Skychaser remarks that your spirit burns brightly with life, graciously accepts the homage you bring, and offers an ancestral token in return."
+   "answer": "Elder Skychaser says your spirit burns brightly with life. She accepts your homage and offers an ancestral token in return."
   }
  ],
  "angles": [
   {
    "target": "faction:Alliance",
-   "text": "Elder Skychaser is conveniently stationed within the heart of the People's Militia base at Sentinel Hill, making her an easy elder to honor while questing through Westfall."
+   "text": "As an Alliance traveler, you find Elder Skychaser within the People's Militia base at Sentinel Hill. She is easy to honor while you travel through Westfall."
   },
   {
    "target": "faction:Horde",
-   "text": "Reaching Elder Skychaser requires stealth, speed, or brute force, as Sentinel Hill is filled with hostile Alliance guards and militia scouts."
+   "text": "As a Horde traveler, you face hostile Alliance guards and militia scouts at Sentinel Hill. Reaching Elder Skychaser calls for stealth, speed, or brute force."
   },
   {
    "target": "class:Druid",
-   "text": "Druids hold the Lunar Festival sacred, recognizing ancestral manifestations like Skychaser as an enduring link to ancient traditions and deep natural reverence."
+   "text": "As a druid, you honor the Lunar Festival and its ancestral spirits. Skychaser links ancient traditions with deep reverence for nature."
   }
  ],
  "keywords": [
@@ -111,5 +111,6 @@
  ],
  "attribution": [
   "Skychaser the Elder"
- ]
+ ],
+ "style": 1
 }

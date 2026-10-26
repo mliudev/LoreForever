@@ -8,16 +8,16 @@
   "wiki": "Jorgen",
   "refs": 2
  },
- "summary": "Jorgen is a discreet human informant residing in Stormwind City, tucked away by the water just inside the Valley of Heroes. Despite his modest and out-of-the-way perch, he is entangled in sensitive matters involving prominent figures in the capital, including Elling Trias and Bishop DeLavey.",
+ "summary": "Jorgen keeps watch beside the water at Stormwind's Valley of Heroes entrance. His quiet perch draws people with matters they cannot discuss openly.",
  "sections": [
   {
    "title": "Eyes by the Water",
-   "body": "Positioned down near the water immediately to the right of Stormwind's monumental entryway, Jorgen maintains a low profile away from the bustling thoroughfares of the city. While the towering statues of heroes overlook the bridge above, Jorgen monitors comings and goings from the shadows below, serving as a quiet contact for those who need information kept off the record.",
+   "body": "Jorgen keeps to the water just right of Stormwind's great entrance. Above him, statues of heroes look over the bridge, while he watches those who come and go below. People seeking information they want kept off the record can find a quiet contact there.",
    "spoiler": 0
   },
   {
    "title": "A Tangled History",
-   "body": "Jorgen's discreet presence is no accident. He shares an uneasy past with master cheese merchant and intelligence gatherer Elling Trias, as well as Bishop DeLavey of the Cathedral of Light. When delicate investigations arise\u2014such as unraveling the disappearance of a diplomat sent to Theramore\u2014Jorgen is one of the few local contacts capable of pointing investigators in the right direction, provided they know how to approach him.",
+   "body": "Jorgen's past ties him to Elling Trias, a master cheese merchant who gathers intelligence, and Bishop DeLavey of the Cathedral of Light. When investigators seek a diplomat who disappeared after being sent to Theramore, Jorgen can point them in the right direction. Few local contacts know the way through such delicate inquiries, and Jorgen helps only when approached with care.",
    "spoiler": 1
   }
  ],
@@ -29,7 +29,7 @@
     "where is jorgen",
     "find jorgen"
    ],
-   "answer": "Jorgen is located in Stormwind City within the Valley of Heroes. As soon as you enter the city gates from Elwynn Forest, head down toward the water to the right of the main bridge."
+   "answer": "Jorgen waits beside the water in Stormwind's Valley of Heroes. Enter through the gates from Elwynn Forest, then head down to the water on the right side of the main bridge."
   },
   {
    "q": "Who is Jorgen connected to in Stormwind?",
@@ -38,7 +38,7 @@
     "jorgen ties",
     "who does jorgen know"
    ],
-   "answer": "Jorgen has a storied history with Elling Trias, the prominent cheesemonger in the Trade District with covert connections, as well as Bishop DeLavey of the Cathedral of Light."
+   "answer": "Jorgen has a history with Elling Trias, a prominent cheesemonger in the Trade District with covert connections, and Bishop DeLavey of the Cathedral of Light."
   },
   {
    "q": "What role does Jorgen play in the investigation of the missing diplomat?",
@@ -46,7 +46,7 @@
     "jorgen missing diplomat",
     "jorgen quest"
    ],
-   "answer": "During the search for the missing envoy, Bishop DeLavey sends investigators to Jorgen, his old friend, with a letter. Jorgen grudgingly agrees to help, swears them to secrecy, and sends them on with a sealed note for Elling Trias at Trias' Cheese."
+   "answer": "Bishop DeLavey sends investigators to his old friend Jorgen with a letter during the search for the missing envoy. Jorgen grudgingly agrees to help, makes them swear to secrecy, and sends them to Elling Trias at Trias' Cheese with a sealed note."
   },
   {
    "q": "Is Jorgen affiliated with the Stormwind City Guard?",
@@ -54,17 +54,17 @@
     "is jorgen a guard",
     "jorgen faction"
    ],
-   "answer": "No. Jorgen operates independently, lurking away from the official guard patrols down near the canal banks where discreet conversations can happen out of earshot."
+   "answer": "No. Jorgen works independently, away from the Stormwind City Guard's patrols along the canal banks, where people can speak out of earshot."
   }
  ],
  "angles": [
   {
    "target": "class:Rogue",
-   "text": "Jorgen represents the street-level network of whispers that thrives beneath Stormwind's pristine marble, closely tied to the clandestine operations run through Trias' Cheese."
+   "text": "Jorgen shows how whispers travel through Stormwind beneath its marble streets, with close ties to the covert work run through Trias' Cheese."
   },
   {
    "target": "faction:Alliance",
-   "text": "When official channels in Stormwind run into bureaucratic walls, reliable street informants like Jorgen are critical for tracking down threats to the kingdom."
+   "text": "When official channels in Stormwind meet bureaucratic walls, street informants like Jorgen help track threats to the kingdom."
   }
  ],
  "keywords": [
@@ -86,5 +86,6 @@
  ],
  "attribution": [
   "Jorgen"
- ]
+ ],
+ "style": 1
 }

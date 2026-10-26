@@ -1,10 +1,8 @@
 // Plans (LOR-252, lib/billing.js): what /plans and the plan card on /account show, and the Stripe pages they send players to.
 //   GET  /api/billing/plans     -> {on, plans: [{id, name, monthly (US cents), answersPerDay, answersPerMonth,
-//                                  sellable, features, promo (the beta's price until the launch, lib/billing.js
-//                                  launchOffer: {price (US cents a month until then: 0, 499, 999), label ("Beta: free"
-//                                  | "Beta: half price"), note ("until November 4, then $4.99 a month")}, during the
-//                                  beta)}] (not
-//                                  hidden ones), compare (lib/billing.js planCompare: [{label, values: {free, hero,
+//                                  sellable, features, promo (the first-month discount of the creator whose link
+//                                  brought this player, lib/referrals.js creatorOffers: {price (US cents), label, note},
+//                                  or none)}] (not hidden ones), compare (lib/billing.js planCompare: [{label, values: {free, hero,
 //                                  champion, legend}}], strings, "✓" and "—" for yes and no), current, starter (the
 //                                  free plan's starter answers left), voiceNote (the fine print about Willo's finest
 //                                  voice), voicePack: {price, replies, monthMax, text, buy (its button's words, when not
@@ -12,15 +10,16 @@
 //                                  it out (lib/billing.js voicePackFor: Legend sees it only near its month's last finest
 //                                  replies)}: current is the signed-in player's plan (lib/billing.js planFor, with
 //                                  changesTo for a downgrade waiting for the renewal), or null when signed out, when
-//                                  there's no starter, boughtThisMonth or open either. launch: the beta promo's banner
-//                                  (launchText) during the beta, else null; launchEnds: its last day ("November 3"),
-//                                  else null (both for /account's plan card too).
+//                                  there's no starter, boughtThisMonth or open either. launch: the pre-order line
+//                                  (preorderText: plans bought now are first charged at WoW Forever's launch) before
+//                                  the launch, else null; launchEnds: the launch's day ("November 4"), else null (both
+//                                  for /account's plan card and the home page too).
 //                                  {on: false} while plans are off.
 //   POST /api/billing/checkout  {plan, source?} -> {url}: Stripe's payment page (source: where it started, as /plans
 //                               says it, kept on the subscription for /admin); /plans again for a player who already has a
 //                               plan (they switch with change). Plans are monthly: an interval other than "month" is a 400.
-//                               A player a creator's link brought gets the creator's first-month discount there when
-//                               no beta offer applies (lib/referrals.js creatorFor, lib/billing.js createCheckout).
+//                               A player a creator's link brought gets the creator's first-month discount there
+//                               (lib/referrals.js creatorFor, lib/billing.js createCheckout).
 //   POST /api/billing/change    {plan, from (the plan the page showed), confirm, quote (the preview's)} -> without
 //                               confirm {preview: {kind, plan, from, text, amount, quote}}: what switching to that plan
 //                               does, in plain words (an upgrade's amount is Stripe's own preview of the charge); with
@@ -37,7 +36,7 @@
 import { setup, currentUser, fail, noStore, sameOrigin } from "../../../lib/accounts.js";
 import {
   billingOn, setupBilling, sellablePlans, planFor, packsFor, createCheckout, createVoicePack, createPortal, changePlan,
-  verifyWebhook, applyEvent, launchWeek, launchText, launchEnds, launchOffers, voicePackFor, planCompare, PLANS, planFeatures, cardFlags, VOICE_PACK,
+  verifyWebhook, applyEvent, preorderText, launchEnds, voicePackFor, planCompare, PLANS, planFeatures, cardFlags, VOICE_PACK,
   VOICE_PACK_TEXT, VOICE_NOTE, VOICE_PACK_SOLD,
 } from "../../../lib/billing.js";
 import { ALLOWED } from "../../../lib/willo-custom.js";
@@ -58,11 +57,8 @@ async function plans({ request, env }) {
     current = shown;
     [packs, pack] = await Promise.all([packsFor(env, user.id), voicePackFor(env, user.id, shown)]);
   }
-  // The beta's offers this player can still have (once each per account), by plan; on the plans without one, the
-  // first-month discount of the creator whose link brought them (lib/referrals.js creatorOffers).
-  const offers = await launchOffers(env, user?.id || null);
-  if (user) Object.assign(offers, await creatorOffers(env, user.id, offers));
-  const beta = launchWeek(env);
+  // The first-month discount of the creator whose link brought them, by plan (lib/referrals.js creatorOffers).
+  const offers = user ? await creatorOffers(env, user.id) : {};
   // The Voices of Azeroth and the narrator's readings in the plans' words once the released companion has them
   // (lib/features.js azeroth, readings).
   const flags = cardFlags(env), features = planFeatures(flags);
@@ -75,8 +71,8 @@ async function plans({ request, env }) {
     voicePack: VOICE_PACK_SOLD && pack && { price: VOICE_PACK.price, replies: VOICE_PACK.replies, monthMax: VOICE_PACK.monthMax, ...pack,
       ...(packs ? { boughtThisMonth: packs.voice.boughtThisMonth, open: current.id !== "free" && !current.launch } : {}) },
     voiceNote: VOICE_NOTE,
-    launch: beta ? launchText(env) : null,
-    launchEnds: beta ? launchEnds(env) : null,
+    launch: preorderText(env) || null,
+    launchEnds: launchEnds(env) || null,
   });
 }
 

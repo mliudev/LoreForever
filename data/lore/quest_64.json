@@ -17,16 +17,16 @@
   "wiki": "The Forgotten Heirloom",
   "chain": []
  },
- "summary": "Farmer Furlbrow and his wife Verna fled their home when masked brigands overran their pumpkin patch in Westfall. In the frantic rush to escape, Furlbrow left behind a cherished family heirloom inside his farmhouse wardrobe. Recovering the pocket watch represents a rare chance to salvage something personal from the encroaching chaos gripping the region.",
+ "summary": "In Westfall, the Furlbrows have fled their farm, leaving a cherished heirloom behind. Recovering the pocket watch offers them a chance to salvage something personal from the chaos spreading through the region.",
  "sections": [
   {
    "title": "A Midnight Eviction",
-   "body": "Like many homesteaders throughout Westfall, Farmer Furlbrow and his wife Verna were driven from their land through brute force. Roused from their beds by sudden shouts and violence among the pumpkin patches, the couple had only moments to bundle what few belongings they could carry before fleeing their farm. In the panic, Furlbrow was forced to leave behind a pocket watch gifted to him by Verna's father on their wedding day, leaving it behind in the wardrobe of their occupied farmhouse.",
+   "body": "Farmer Furlbrow and his wife Verna were driven from their Westfall farm by violence. Shouts rose from the pumpkin patches in the night, waking them with little time to gather what they could carry. In the rush to flee, Furlbrow left behind the pocket watch Verna's father gave him on their wedding day. It remains in the wardrobe of their occupied farmhouse.",
    "spoiler": 0
   },
   {
    "title": "Hooligans in the Fields",
-   "body": "The Furlbrow pumpkin farm now teems with Defias thugs, looters, and opportunistic thieves such as Benny Blaanco who pick through the remains of abandoned homes. For ordinary folk, returning to retrieve personal treasures is a death sentence. By securing the watch from the wardrobe amidst the ransacked rooms, adventurers deliver a small measure of dignity to a family that has lost nearly everything else to the rising tide of lawlessness.",
+   "body": "Defias thugs and thieves, including Benny Blaanco, now pick through the abandoned Furlbrow farm. For ordinary folk, returning for a keepsake could mean death. By securing the pocket watch from the wardrobe, you restore a measure of dignity to a family that has lost nearly everything to Westfall's lawlessness.",
    "spoiler": 0
   }
  ],
@@ -38,7 +38,7 @@
     "furlbrow watch significance",
     "who gave furlbrow the watch"
    ],
-   "answer": "The pocket watch was a wedding gift from Verna's father. As destitute refugees with their livelihood destroyed, the watch is one of the only remaining sentimental connections to their past life and family heritage."
+   "answer": "Verna's father gave Farmer Furlbrow the pocket watch on their wedding day. For the Furlbrows, now refugees who have lost their livelihood, it preserves a sentimental connection to their past life and family heritage."
   },
   {
    "q": "Who drove the Furlbrows away from their farm?",
@@ -47,7 +47,7 @@
     "who took furlbrow farm",
     "what happened to the furlbrows"
    ],
-   "answer": "Defias brigands and looters overwhelmed the farm during the night. The lawlessness sweeping Westfall has forced numerous farming families to abandon their fields and homes under threat of violence."
+   "answer": "Defias brigands and looters drove the Furlbrows from their farm during the night. Their attack reflects the lawlessness forcing many farming families to abandon their homes and fields under threat of violence."
   },
   {
    "q": "Where is the watch hidden?",
@@ -56,7 +56,7 @@
     "find watch",
     "wardrobe location"
    ],
-   "answer": "The watch is stored inside a bedroom wardrobe within the Furlbrow homestead, located at the pumpkin patches west of the Furlbrows' roadside camp in northern Westfall. Squatters and Defias outlaws currently occupy the dwelling."
+   "answer": "The pocket watch is inside a bedroom wardrobe at the Furlbrow homestead, in the pumpkin patches west of the Furlbrows' roadside camp in northern Westfall. Squatters and Defias outlaws occupy the farmhouse."
   },
   {
    "q": "Who is Benny Blaanco?",
@@ -64,7 +64,7 @@
     "benny blaanco lore",
     "who is the guy in the house"
    ],
-   "answer": "Benny Blaanco is an outlaw found lingering inside the Furlbrow farmhouse alongside Defias companions, ransacking the abandoned residence and guarding the stolen territory against reclaimers."
+   "answer": "Benny Blaanco is an outlaw inside the Furlbrow farmhouse with Defias companions. They ransack the abandoned home and guard it against those who might reclaim it."
   },
   {
    "q": "Where are the Furlbrows staying now?",
@@ -72,7 +72,7 @@
     "where are furlbrows",
     "where is farmer furlbrow"
    ],
-   "answer": "Having fled their land, Farmer Furlbrow and Verna can be found stranded by the roadside in Westfall, sheltering near their wagon as they try to survive the regional collapse."
+   "answer": "Farmer Furlbrow and Verna are stranded by the roadside in Westfall, sheltering near their wagon as they try to survive the region's collapse."
   },
   {
    "q": "Does Stormwind send guards to help recover farms like this?",
@@ -80,17 +80,17 @@
     "stormwind help westfall",
     "why no guards at farm"
    ],
-   "answer": "Stormwind's official military presence in Westfall is practically nonexistent due to political indifference and missing leadership in the capital. The People's Militia at Sentinel Hill lacks the manpower to reclaim individual farmsteads, leaving settlers entirely vulnerable."
+   "answer": "Stormwind's official military presence in Westfall is nearly absent, with political indifference and missing leadership in the capital. The People's Militia at Sentinel Hill lacks the strength to reclaim individual farms, leaving settlers exposed."
   }
  ],
  "angles": [
   {
    "target": "faction:Alliance",
-   "text": "The plight of the Furlbrows highlights the severe breakdown of civil order in the kingdom's breadbasket, forcing Alliance travelers to handle matters the crown has neglected."
+   "text": "The Furlbrows' plight shows how badly order has broken down in the kingdom's breadbasket. Alliance travelers are left to handle what the crown has neglected."
   },
   {
    "target": "race:Human",
-   "text": "For humans of Stormwind, seeing honest farmers displaced by violent outlaws within a day's march of the capital is a sobering reminder of the kingdom's domestic troubles."
+   "text": "As a human of Stormwind, you see honest farmers driven from their land by outlaws within a day's march of the capital. Their plight reveals the kingdom's troubles at home."
   }
  ],
  "keywords": [
@@ -109,5 +109,6 @@
  ],
  "attribution": [
   "The Forgotten Heirloom"
- ]
+ ],
+ "style": 1
 }

@@ -8,11 +8,11 @@
   "wiki": "Tommy Joe Stonefield",
   "refs": 1
  },
- "summary": "Tommy Joe Stonefield is a young farmer caught in a bitter family rivalry in the heart of Elwynn Forest. Deeply in love with Maybell Maclure, he must rely on quiet riverbanks and secret messages to keep their romance hidden from their feuding kin.",
+ "summary": "At the river west of Stonefield Farm, Tommy Joe Stonefield longs for Maybell Maclure. Their families have feuded for years, so he relies on secret notes and quiet banks to keep their love hidden.",
  "sections": [
   {
    "title": "A Star-Crossed Feud",
-   "body": "Standing by the riverbank just west of the Stonefield Farm, Tommy Joe Stonefield spends his days looking across the water toward the Maclure homestead. The Stonefields and Maclures have harbored bad blood for years, clashing over land, pride, and petty farmyard squabbles. Yet despite the hostility preached by his elders, Tommy Joe has fallen head over heels for Maybell Maclure. Unable to meet openly without sparking outrage from both households, he depends on trusted intermediaries and his sympathetic grandmother, Gramma Stonefield, to exchange secret notes and tokens of affection.",
+   "body": "Tommy Joe Stonefield waits by the river west of Stonefield Farm, looking toward the Maclure homestead across the water. The Stonefields and Maclures have clashed for years over land, pride, and farmyard squabbles. Their elders keep the feud alive, but Tommy Joe has fallen in love with Maybell Maclure. The two cannot meet openly without angering both households. Gramma Stonefield, Tommy Joe’s sympathetic grandmother, helps them exchange secret notes and tokens of affection.",
    "spoiler": 0
   }
  ],
@@ -24,7 +24,7 @@
     "who is tommy joe",
     "stonefield son"
    ],
-   "answer": "He is a young human living on the Stonefield Farm in Elwynn Forest. He is secretly in love with Maybell Maclure, the daughter of his family's bitter rivals."
+   "answer": "Tommy Joe Stonefield is a young human who lives on Stonefield Farm in Elwynn Forest. He is secretly in love with Maybell Maclure, daughter of his family’s bitter rivals."
   },
   {
    "q": "Where can I find Tommy Joe Stonefield?",
@@ -33,7 +33,7 @@
     "where is tommy joe",
     "find tommy joe"
    ],
-   "answer": "Tommy Joe stands along the riverbank west of the Stonefield Farm, gazing across the water toward the Maclure farmstead where Maybell lives."
+   "answer": "Tommy Joe Stonefield stands on the riverbank west of Stonefield Farm, looking across the water toward the Maclure farmstead where Maybell lives."
   },
   {
    "q": "Why are the Stonefields and Maclures fighting?",
@@ -42,7 +42,7 @@
     "why do they hate each other",
     "stonefield maclure feud"
    ],
-   "answer": "No one says what started it. The two farming families have simply kept up a long, bitter feud, and neither side wants its young ones associating with the other."
+   "answer": "No one says what began the feud. The Stonefields and Maclures have kept up their bitter rivalry for years, and neither family wants its young ones associating with the other."
   },
   {
    "q": "Who helps Tommy Joe and Maybell meet?",
@@ -51,13 +51,13 @@
     "secret lovers help",
     "who helps the lovers"
    ],
-   "answer": "Gramma Stonefield is aware of their affection and helps facilitate their secret courtship, using outside travelers to carry discreet messages between Tommy Joe and Maybell."
+   "answer": "Gramma Stonefield knows of their affection and helps their secret courtship. She uses travelers to carry discreet messages between Tommy Joe and Maybell."
   }
  ],
  "angles": [
   {
    "target": "faction:Alliance",
-   "text": "For Alliance adventurers exploring southern Elwynn, Tommy Joe's secret romance is a humble reminder of the quiet, personal lives continuing in the shadow of regional banditry and political unrest."
+   "text": "As an Alliance adventurer in southern Elwynn, you may find Tommy Joe’s secret romance a reminder of the quiet personal lives that continue amid banditry and political unrest."
   }
  ],
  "keywords": [
@@ -77,5 +77,6 @@
  ],
  "attribution": [
   "Tommy Joe Stonefield"
- ]
+ ],
+ "style": 1
 }

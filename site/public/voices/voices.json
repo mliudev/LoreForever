@@ -107,7 +107,7 @@
           "addon": "LoreForever_Voice_Default_MorePlaces",
           "status": "live",
           "included": false,
-          "clips": 408,
+          "clips": 425,
           "coverage": "the whole story of hundreds more places in his voice",
           "download": "https://github.com/mliudev/LoreForever/releases/latest/download/LoreForever_Voice_Default_MorePlaces.zip"
         },
@@ -117,7 +117,7 @@
           "addon": "LoreForever_Voice_Default_MorePeople",
           "status": "live",
           "included": false,
-          "clips": 581,
+          "clips": 616,
           "coverage": "the whole story of hundreds more characters, plus factions, peoples and lore topics, in his voice",
           "download": "https://github.com/mliudev/LoreForever/releases/latest/download/LoreForever_Voice_Default_MorePeople.zip"
         },
@@ -127,7 +127,7 @@
           "addon": "LoreForever_Voice_Default_MoreItems",
           "status": "live",
           "included": false,
-          "clips": 734,
+          "clips": 757,
           "coverage": "the story behind hundreds of quest items, letters and relics, in his voice",
           "download": "https://github.com/mliudev/LoreForever/releases/latest/download/LoreForever_Voice_Default_MoreItems.zip"
         },
@@ -137,7 +137,7 @@
           "addon": "LoreForever_Voice_Default_MoreQuests1",
           "status": "soon",
           "included": false,
-          "clips": 522,
+          "clips": 607,
           "coverage": "the story behind hundreds of quests from level 1 to 19, in his voice",
           "download": "https://github.com/mliudev/LoreForever/releases/latest/download/LoreForever_Voice_Default_MoreQuests1.zip"
         },
@@ -147,7 +147,7 @@
           "addon": "LoreForever_Voice_Default_MoreQuests2",
           "status": "live",
           "included": false,
-          "clips": 929,
+          "clips": 957,
           "coverage": "the story behind hundreds of quests from level 20 to 39, in his voice",
           "download": "https://github.com/mliudev/LoreForever/releases/latest/download/LoreForever_Voice_Default_MoreQuests2.zip"
         },
@@ -395,7 +395,7 @@
           "addon": "LoreForever_Voice_Female_MorePlaces",
           "status": "live",
           "included": false,
-          "clips": 408,
+          "clips": 425,
           "coverage": "the whole story of hundreds more places in her voice",
           "download": "https://github.com/mliudev/LoreForever/releases/latest/download/LoreForever_Voice_Female_MorePlaces.zip"
         },
@@ -405,7 +405,7 @@
           "addon": "LoreForever_Voice_Female_MorePeople",
           "status": "live",
           "included": false,
-          "clips": 581,
+          "clips": 616,
           "coverage": "the whole story of hundreds more characters, plus factions, peoples and lore topics, in her voice",
           "download": "https://github.com/mliudev/LoreForever/releases/latest/download/LoreForever_Voice_Female_MorePeople.zip"
         },
@@ -415,7 +415,7 @@
           "addon": "LoreForever_Voice_Female_MoreItems",
           "status": "soon",
           "included": false,
-          "clips": 733,
+          "clips": 757,
           "coverage": "the story behind hundreds of quest items, letters and relics, in her voice",
           "download": "https://github.com/mliudev/LoreForever/releases/latest/download/LoreForever_Voice_Female_MoreItems.zip"
         },
@@ -425,7 +425,7 @@
           "addon": "LoreForever_Voice_Female_MoreQuests1",
           "status": "soon",
           "included": false,
-          "clips": 38,
+          "clips": 188,
           "coverage": "the story behind hundreds of quests from level 1 to 19, in her voice",
           "download": "https://github.com/mliudev/LoreForever/releases/latest/download/LoreForever_Voice_Female_MoreQuests1.zip"
         },
@@ -435,7 +435,7 @@
           "addon": "LoreForever_Voice_Female_MoreQuests2",
           "status": "soon",
           "included": false,
-          "clips": 931,
+          "clips": 958,
           "coverage": "the story behind hundreds of quests from level 20 to 39, in her voice",
           "download": "https://github.com/mliudev/LoreForever/releases/latest/download/LoreForever_Voice_Female_MoreQuests2.zip"
         },
@@ -709,16 +709,16 @@
       "language": "Español",
       "addon": "LoreForever_Edition_Densuad_esES_Audio",
       "clips": 804,
-      "download": "https://github.com/mliudev/LoreForever/releases/download/v0.28.0/LoreForever_Edition_Densuad_esES.zip",
+      "download": "https://github.com/mliudev/LoreForever/releases/download/v0.29.0/LoreForever_Edition_Densuad_esES.zip",
       "bio": "Spanish text and narration contributed by Densuad. This edition uses its own wording and recordings together. It contains contributed overviews and answers; these are not complete story recordings.",
       "coverage": "699 contributed entries, 109 answer texts and 804 recordings, each played with Densuad’s own text. Text without a matching recording remains readable.",
       "edition": {
         "id": "densuad-esES",
         "locale": "esES",
-        "version": "ae74c607d3c639a0f7511f4bbf28f77e4934c454ffe4e8da3c3751ec7706fe04",
+        "version": "665f0ff82a9d0726f4d14e15d25fd55cd81274bbf41f882d58a936cd5921c3ee",
         "entries": 699,
         "answers": 109,
-        "coreVersion": "0.28.0",
+        "coreVersion": "0.29.0",
         "api": 1,
         "installedSize": 704920095,
         "textAddon": "LoreForever_Edition_Densuad_esES_Text",

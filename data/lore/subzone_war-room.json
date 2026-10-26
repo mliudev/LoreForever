@@ -7,11 +7,11 @@
  "meta": {
   "wiki": "War Room"
  },
- "summary": "Tucked deep inside Stormwind Keep, the War Room serves as the strategic nerve center of the Alliance military. Ringed with armaments, historical war tomes, and tactical charts, it is where generals and strategists monitor distant fronts and coordinate the defense of the kingdom.",
+ "summary": "Deep inside Stormwind Keep, the War Room gathers the arms, records, and charts used to plan the Alliance’s defense.",
  "sections": [
   {
    "title": "Nerve Center of the Keep",
-   "body": "Branching off from the grand chambers of Stormwind Keep, the War Room is outfitted specifically for military logistics and high-level campaign planning. Its stone walls are decorated with rows of armaments, including swords, blunderbusses, and even heavy artillery cannons. Piles of military treatises and historical chronicles stand stacked on nearby tables. At the room's core lies a large tactical map table, allowing commanders to assess Alliance deployments across Azeroth while the royal court handles matters of state just steps away.",
+   "body": "Beyond Stormwind Keep’s grand chambers, commanders turn to military logistics and high-level campaign planning. Swords, blunderbusses, and heavy artillery cannons line the stone walls. Military treatises and chronicles of past wars fill nearby tables. At the center, a large map lets commanders assess Alliance deployments across Azeroth, while the royal court handles affairs of state just steps away.",
    "spoiler": 0
   }
  ],
@@ -23,7 +23,7 @@
     "how to find war room",
     "where is the map room"
    ],
-   "answer": "The War Room is located inside Stormwind Keep, situated beyond the central corridors of the royal fortress. It is easily recognized by its heavy fortifications, weapon racks, and large tactical strategy table."
+   "answer": "Deep inside Stormwind Keep, beyond its central corridors, the War Room has heavy fortifications, weapon racks, and a large tactical map table."
   },
   {
    "q": "What is the purpose of this room?",
@@ -32,7 +32,7 @@
     "war room purpose",
     "why does the keep have a war room"
    ],
-   "answer": "It serves as the strategic planning headquarters for the Alliance military within Stormwind. High commanders gather here to review intelligence, coordinate troop movements, and study historical and ongoing conflicts."
+   "answer": "The War Room is the Alliance military’s strategic planning headquarters within Stormwind. High commanders review intelligence, coordinate troop movements, and study conflicts past and present."
   },
   {
    "q": "What historical lore can be found here?",
@@ -41,17 +41,17 @@
     "books in stormwind keep",
     "historical tomes war room"
    ],
-   "answer": "The room's tables are piled high with books on military strategy and chronicles of the kingdom's past wars, kept close at hand for the commanders who plan the Alliance's campaigns."
+   "answer": "The tables hold books on military strategy and chronicles of the kingdom’s past wars, close at hand for commanders planning Alliance campaigns."
   }
  ],
  "angles": [
   {
    "target": "faction:Alliance",
-   "text": "For Alliance soldiers and champions, the War Room represents the tactical brain of the realm's defense against lingering threats across the Eastern Kingdoms and beyond."
+   "text": "As an Alliance soldier or champion, you can look to the War Room for plans to defend the realm from lingering threats across the Eastern Kingdoms and beyond."
   },
   {
    "target": "class:Warrior",
-   "text": "Surrounded by heavy munitions and strategic maps, martial commanders will appreciate the thorough military organization maintained inside the keep."
+   "text": "As a warrior, you may value the military order kept inside Stormwind Keep, among its heavy munitions and strategic maps."
   }
  ],
  "keywords": [
@@ -72,5 +72,6 @@
  ],
  "attribution": [
   "War Room"
- ]
+ ],
+ "style": 1
 }

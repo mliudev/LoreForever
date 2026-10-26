@@ -2,8 +2,6 @@
 -- Sources: data/i18n/ruRU. Lore text adapted from warcraft.wiki.gg (CC BY-SA 4.0); the core add-on's src fields name the articles.
 local P = LoreForeverPacks.Begin("LoreForever_Lang_ruRU")
 local Po = P.search.post
-Po["смертисопровождая"] = "FsEB"
-Po["смертисреброкрылых"] = "CVBC"
 Po["смертистарого"] = "CpECDVKC"
 Po["смертистепи"] = "D0FBD0OB"
 Po["смертистраж"] = "BxxBBx3BBx5BByZBBy2B"
@@ -12002,3 +12000,5 @@ Po["такоеодеяние"] = "EhHCEhNEEh2C"
 Po["такоеодинокая"] = "JUHC"
 Po["такоеожог"] = "ERpC"
 Po["такоеозерное"] = "BO7C"
+Po["такоеозеро"] = "JjoCKO7E"
+Po["такоеокаменелость"] = "AdZC"

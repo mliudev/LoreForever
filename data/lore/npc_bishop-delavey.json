@@ -8,16 +8,16 @@
   "wiki": "Bishop DeLavey",
   "refs": 2
  },
- "summary": "Bishop DeLavey is a senior representative of the Church of the Holy Light stationed within the Petitioner's Chamber in Stormwind Keep. Acting on matters of state and faith, he quietly oversees sensitive court affairs that the Crown cannot publicly address.",
+ "summary": "In Stormwind Keep, Bishop DeLavey hears the court's quiet concerns. He represents the Church of the Holy Light in the Petitioner's Chamber, where matters of faith and state meet.",
  "sections": [
   {
    "title": "A Bishop at Court",
-   "body": "While Archbishop Benedictus tends to the Cathedral of Light, Bishop DeLavey resides among the nobility and petitioners of Stormwind Keep. He serves as an ecclesiastical liaison to the court, balancing spiritual counsel with the kingdom's political reality. His position allows him to hear whispered rumors and delicate palace grievances before they ever reach the ears of Highlord Bolvar Fordragon or the young King Anduin.",
+   "body": "Bishop DeLavey advises Stormwind's court from within the keep. While Archbishop Benedictus tends to the Cathedral of Light, DeLavey lives among the nobility and petitioners. He brings spiritual counsel to the court while reckoning with the kingdom's politics. His place there lets him hear whispered rumors and delicate grievances before they reach Highlord Bolvar Fordragon or the young King Anduin.",
    "spoiler": 0
   },
   {
    "title": "A Delicate Inquiry",
-   "body": "When a vital diplomat dispatched to meet Lady Jaina Proudmoore in Theramore failed to arrive, the court kept the disappearance under strict secrecy to avoid widespread panic. Suspecting the insidious reach of the Defias Brotherhood, DeLavey bypassed normal guard protocols. Instead, he mobilized private channels and discreet adventurers, using contacts like the fisherman Jorgen to establish ties with covert informants such as Elling Trias.",
+   "body": "A missing diplomat has drawn Bishop DeLavey into a secret inquiry. The diplomat was sent to meet Lady Jaina Proudmoore in Theramore but never arrived. To prevent panic, the court keeps the disappearance quiet. Suspecting the Defias Brotherhood, DeLavey goes around the usual guard channels. He uses private contacts and discreet adventurers, including the fisherman Jorgen, to reach hidden informants such as Elling Trias.",
    "spoiler": 1
   }
  ],
@@ -29,7 +29,7 @@
     "where is bishop delavey",
     "delavey keep"
    ],
-   "answer": "Bishop DeLavey stands inside the Petitioner's Chamber within Stormwind Keep, just off the main entryway where subjects gather to petition the royal court."
+   "answer": "Bishop DeLavey is in the Petitioner's Chamber inside Stormwind Keep, just off the main entryway where subjects gather to petition the royal court."
   },
   {
    "q": "What is his role in Stormwind Keep?",
@@ -38,7 +38,7 @@
     "who is bishop delavey",
     "what does delavey do"
    ],
-   "answer": "He represents the Church of the Holy Light at the royal court, managing ecclesiastical affairs, advising nobility, and handling sensitive issues for the kingdom discreetly."
+   "answer": "Bishop DeLavey represents the Church of the Holy Light at Stormwind's royal court. He handles church affairs, advises the nobility, and quietly takes up sensitive matters for the kingdom."
   },
   {
    "q": "Why is he investigating the missing diplomat?",
@@ -46,7 +46,7 @@
     "missing diplomat delavey",
     "why does delavey care about the diplomat"
    ],
-   "answer": "The diplomat vanished en route to meet Lady Jaina Proudmoore in Theramore. DeLavey suspects Defias interference and uses quiet, trusted channels to investigate before news of the crisis can panic the public."
+   "answer": "The diplomat vanished while traveling to meet Lady Jaina Proudmoore in Theramore. Bishop DeLavey suspects Defias interference and investigates through trusted channels to keep the crisis from alarming the public."
   },
   {
    "q": "How is DeLavey connected to Elling Trias?",
@@ -54,17 +54,17 @@
     "delavey and trias",
     "delavey si7 contact"
    ],
-   "answer": "DeLavey utilizes a network of intermediaries, including the fisherman Jorgen, to pass messages to Elling Trias\u2014a master of cheese who secretly gathers intelligence for SI:7."
+   "answer": "Bishop DeLavey passes messages through intermediaries, including the fisherman Jorgen, to Elling Trias, a master of cheese who secretly gathers intelligence for SI:7."
   }
  ],
  "angles": [
   {
    "target": "class:Priest",
-   "text": "DeLavey exemplifies the church's deep political involvement in Stormwind, showing that faith in the Holy Light often intersects with statecraft and covert affairs."
+   "text": "As a priest, DeLavey shows how closely the Church of the Holy Light is involved in Stormwind's politics, where faith meets statecraft and covert affairs."
   },
   {
    "target": "faction:Alliance",
-   "text": "His clandestine investigation seeks to protect the fragile peace between Stormwind and Lady Jaina Proudmoore's outpost of Theramore."
+   "text": "As an Alliance member, you can see DeLavey's discreet inquiry at work to protect the fragile peace between Stormwind and Lady Jaina Proudmoore's outpost of Theramore."
   }
  ],
  "keywords": [
@@ -89,5 +89,6 @@
  ],
  "attribution": [
   "Bishop DeLavey"
- ]
+ ],
+ "style": 1
 }

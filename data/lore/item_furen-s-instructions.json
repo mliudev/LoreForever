@@ -10,16 +10,16 @@
    "quest:1701"
   ]
  },
- "summary": "Furen's Instructions is a handwritten parchment given by the master armorer Furen Longbeard in Stormwind. It details the rare and perilous reagents required to forge fire-hardened mail armor for promising Alliance warriors.",
+ "summary": "In Stormwind, Furen's Instructions name the materials needed for fire-hardened mail. Furen Longbeard gives the parchment to Alliance warriors he has tested.",
  "sections": [
   {
    "title": "A Master Smith's Demands",
-   "body": "Furen Longbeard does not hand out exceptional armor lightly. Having already tested a warrior's resolve with simpler smithing tasks, the dwarven craftsman offers to hammer out an extraordinarily resilient suit of mail, provided the adventurer fetches the rare components himself. To ensure nothing is forgotten, Furen provides this detailed checklist, sending his charge across continents on an arduous scavenger hunt.",
+   "body": "Furen Longbeard offers to forge a resilient suit of mail for a warrior who has proved himself through simpler smithing work. The dwarven armorer asks the warrior to fetch the rare components himself. His parchment records what is needed and sends the warrior across continents to gather it.",
    "spoiler": 0
   },
   {
    "title": "Exotic Components",
-   "body": "The instructions outline a dangerous journey spanning both the Eastern Kingdoms and Kalimdor. Crafting the hardened links requires dozens of scorched spider fangs from the damp caves of the Wetlands, horns harvested from fire-breathing chimaeras in the crags of Stonetalon Mountains, and a prized galvanized horn from the chimaera matriarch herself. The final, alchemical catalyst is a vial of volatile phlogiston, held deep within the quilboar bastion of Razorfen Kraul.",
+   "body": "The parchment calls for a dangerous journey through the Eastern Kingdoms and Kalimdor. The hardened links need dozens of scorched spider fangs from damp caves in the Wetlands, along with horns from fire-breathing chimaeras in the crags of Stonetalon Mountains. The list also calls for a galvanized horn from the chimaera matriarch and a vial of volatile phlogiston held deep within Razorfen Kraul, a quilboar bastion.",
    "spoiler": 0
   }
  ],
@@ -31,7 +31,7 @@
     "what are furens instructions",
     "furen list"
    ],
-   "answer": "It is a written checklist handed to Alliance warriors by the blacksmith Furen Longbeard in Stormwind. It outlines the specific exotic materials needed to craft a suit of fire-hardened mail armor."
+   "answer": "Furen's Instructions are a written list Furen Longbeard gives Alliance warriors in Stormwind. It names the exotic materials needed to craft fire-hardened mail."
   },
   {
    "q": "Who is Furen Longbeard?",
@@ -40,7 +40,7 @@
     "furen longbeard",
     "furen stormwind"
    ],
-   "answer": "Furen Longbeard is a master dwarven armorer stationed in the Dwarven District of Stormwind. He specializes in testing seasoned warriors and crafting durable protective gear for them."
+   "answer": "Furen Longbeard is a master dwarven armorer in Stormwind's Dwarven District. He tests seasoned warriors and makes durable protective gear for them."
   },
   {
    "q": "Where do the materials on the list come from?",
@@ -49,7 +49,7 @@
     "furen materials locations",
     "materials on furen list"
    ],
-   "answer": "The list sends warriors far and wide: scorched spider fangs are retrieved from spiders in the Wetlands, charred horns and a galvanized horn are hunted from chimaeras in the Stonetalon Mountains, and a vial of phlogiston must be claimed from Roogug in Razorfen Kraul."
+   "answer": "The list calls for scorched spider fangs from the Wetlands, charred horns and a galvanized horn from chimaeras in Stonetalon Mountains, and a vial of phlogiston from Roogug in Razorfen Kraul."
   },
   {
    "q": "What does Furen forge with these materials?",
@@ -58,17 +58,17 @@
     "fire hardened mail reward",
     "furen crafting reward"
    ],
-   "answer": "Once all the dangerous reagents and the instructions are returned to him, Furen uses his smithing secrets to forge a specialized piece of fire-hardened mail armor for the warrior."
+   "answer": "Furen uses the materials and his smithing secrets to forge a specialized piece of fire-hardened mail for the warrior."
   }
  ],
  "angles": [
   {
    "target": "class:Warrior",
-   "text": "This checklist represents a rite of passage for Alliance warriors transitioning to heavy mail armor, demanding trials against ferocious beasts and foul quilboar."
+   "text": "As an Alliance warrior, you face trials against fierce beasts and quilboar to earn heavy mail armor."
   },
   {
    "target": "profession:Blacksmithing",
-   "text": "Furen's exotic recipe demonstrates how master smiths combine beast reagents and rare alchemical distillations to temper armor beyond ordinary mundane forging."
+   "text": "As a blacksmith, you can see how Furen's recipe combines beast reagents with rare alchemical distillations to temper armor beyond ordinary forging."
   }
  ],
  "keywords": [
@@ -96,5 +96,6 @@
  "attribution": [
   "Furen's Instructions",
   "Fire Hardened Mail"
- ]
+ ],
+ "style": 1
 }

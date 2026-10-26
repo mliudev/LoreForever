@@ -17,16 +17,16 @@
   "wiki": "Flexing for Nougat (Alliance)",
   "chain": []
  },
- "summary": "During the autumn celebration of Hallow's End, adventurers visiting Stormwind City can help a local orphan collect festive sweets. To earn a piece of Stormwind Nougat from Innkeeper Allison at the Gilded Rose, visitors are playfully made to strike a mighty flexing pose before she hands over the treat.",
+ "summary": "During autumn's Hallow's End, you gather festive sweets for an orphan in Stormwind. Innkeeper Allison at the Gilded Rose asks you to flex before she gives you Stormwind Nougat.",
  "sections": [
   {
    "title": "A Hallow's End Tradition",
-   "body": "Hallow's End brings a rare sense of levity to the streets of Stormwind. While the holiday's ancient roots acknowledge the turning of seasons and the warding off of dark spirits, common folk celebrate it through disguises, revelry, and trick-or-treating. Innkeepers across the Alliance take part by handing out traditional confections, provided the holiday seekers are willing to perform a harmless trick in exchange for their treat.",
+   "body": "Hallow's End brings a lighter mood to Stormwind's streets. The holiday marks the turning of the seasons and wards off dark spirits. Common folk celebrate with disguises, revelry, and trick-or-treating. Alliance innkeepers join in, offering traditional sweets to those who perform a harmless trick.",
    "spoiler": 0
   },
   {
    "title": "Entertaining the Innkeeper",
-   "body": "At the Gilded Rose in the bustling Trade District, Innkeeper Allison ensures no one receives holiday candy for free\u2014even when they are running errands for an orphaned boy like Jesper. Observing whatever gear or attire an adventurer is wearing, Allison playfully comments on their physique and insists they flex their muscles for her amusement. Only once an adventurer puts on a display of strength does she reward them with a piece of chewy Stormwind Nougat.",
+   "body": "At the Gilded Rose in the Trade District, Innkeeper Allison asks for a show before handing out holiday candy, even when you're gathering sweets for Jesper, an orphaned boy. She comments playfully on your physique and asks you to flex your muscles. When you do, she gives you a piece of chewy Stormwind Nougat.",
    "spoiler": 0
   }
  ],
@@ -38,7 +38,7 @@
     "what does allison want",
     "flex emote why"
    ],
-   "answer": "Hallow's End revolves around the tradition of tricks and treats. Because the adventurer is visiting on behalf of an orphan seeking sweets, Innkeeper Allison insists they earn the confection with an entertaining trick\u2014namely, showing off their muscles."
+   "answer": "Hallow's End trades tricks for treats, so Innkeeper Allison asks you to show off your muscles before giving you the sweet."
   },
   {
    "q": "Where does this quest take place?",
@@ -47,7 +47,7 @@
     "allison location",
     "gilded rose innkeeper"
    ],
-   "answer": "The request is given and fulfilled entirely within the Gilded Rose inn, located in the heart of Stormwind's Trade District, where Innkeeper Allison tends the tavern counter."
+   "answer": "You meet Innkeeper Allison at the Gilded Rose, in the heart of Stormwind's Trade District, where she tends the tavern counter."
   },
   {
    "q": "Who is the Stormwind Nougat meant for?",
@@ -56,7 +56,7 @@
     "who wants stormwind nougat",
     "jesper candy"
    ],
-   "answer": "The nougat is intended for Jesper, an orphan boy staying in Stormwind. He hopes to taste traditional festival treats from each major Alliance city during Hallow's End."
+   "answer": "The nougat is for Jesper, an orphan boy staying in Stormwind. He hopes to taste traditional festival treats from each major Alliance city during Hallow's End."
   },
   {
    "q": "What is Stormwind Nougat?",
@@ -65,7 +65,7 @@
     "hallow's end nougat",
     "stormwind candy"
    ],
-   "answer": "Stormwind Nougat is a regional confection handed out by Stormwind's innkeepers during Hallow's End, known among festival-goers as one of the quintessential sweets of the human kingdom."
+   "answer": "Stormwind Nougat is a regional sweet Stormwind's innkeepers hand out during Hallow's End. Festival-goers know it as one of the human kingdom's signature treats."
   },
   {
    "q": "Can Horde players obtain this treat from Allison?",
@@ -73,7 +73,7 @@
     "can horde flex for nougat",
     "horde version of nougat"
    ],
-   "answer": "No. Innkeeper Allison resides deep within Alliance-controlled Stormwind City and caters only to Alliance members. Horde adventurers perform their own festive antics for innkeepers in their own capital cities."
+   "answer": "No. Innkeeper Allison lives deep within Alliance-controlled Stormwind City and serves Alliance members. Horde adventurers perform their own festive tricks for innkeepers in their capital cities."
   },
   {
    "q": "Does this quest happen year-round?",
@@ -82,21 +82,21 @@
     "is this quest seasonal",
     "hallows end timing"
    ],
-   "answer": "No. Innkeeper Allison only offers this request during the seasonal festival of Hallow's End, when trick-or-treating customs take over the cities."
+   "answer": "No. Innkeeper Allison offers this request only during Hallow's End, the seasonal festival when trick-or-treating customs fill the cities."
   }
  ],
  "angles": [
   {
    "target": "faction:Alliance",
-   "text": "The playful exchange highlights the lighter community spirit that flourishes within Stormwind during seasonal festivals like Hallow's End, bringing citizens and wandering heroes together for a good laugh."
+   "text": "For the Alliance, this playful exchange reflects Stormwind's lighter community spirit during Hallow's End and other seasonal festivals, bringing citizens and wandering heroes together for a laugh."
   },
   {
    "target": "race:Human",
-   "text": "For humans in Stormwind, indulging children and exchanging tricks for treats is a cherished seasonal custom that offers brief relief from the darker perils facing the kingdom."
+   "text": "As a human in Stormwind, you know indulging children and trading tricks for treats is a cherished seasonal custom. It offers brief relief from the darker perils facing the kingdom."
   },
   {
    "target": "class:Warrior",
-   "text": "For brawny warriors accustomed to bloody battlefields, showing off arm muscles at an innkeeper's behest makes for a harmless, if slightly undignified, display of strength."
+   "text": "As a warrior, you know bloody battlefields well. Flexing for an innkeeper is a harmless, if slightly undignified, show of strength."
   }
  ],
  "keywords": [
@@ -116,5 +116,6 @@
  ],
  "attribution": [
   "Flexing for Nougat (Alliance)"
- ]
+ ],
+ "style": 1
 }

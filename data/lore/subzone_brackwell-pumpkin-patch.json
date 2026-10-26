@@ -7,16 +7,16 @@
  "meta": {
   "wiki": "Brackwell Pumpkin Patch"
  },
- "summary": "Brackwell Pumpkin Patch is an overrun farmstead in southeastern Elwynn Forest. Once home to the Brackwell family, the fields and cottage have been thoroughly seized by the Defias Brotherhood as an operational hideout. It serves as a meeting point for rogue conspirators and a staging ground for smuggling stolen gold.",
+ "summary": "Defias brigands have taken over Brackwell Pumpkin Patch in southeastern Elwynn Forest. The farm once belonged to the Brackwell family, but now its cottage and fields serve as a hideout where conspirators meet and stolen mine gold is received.",
  "sections": [
   {
    "title": "A Bandit Haven",
-   "body": "Situated southeast of the Stonefield homestead, the Brackwell farm was once a productive patch of Elwynn farmland. Today, the rightful owners have vanished without a trace, driven out or worse by the rising criminal tide. In their absence, the Defias Brotherhood claimed the farm's sturdy cottage and overgrown fields. The area functions as a safehouse and transfer post, where brigands regroup away from the watchful eyes of Goldshire's patrols. High-profile conspirators like Morgan the Collector use the isolated patch to receive shipments of illicitly gathered gold skimmed from the forest's mines.",
+   "body": "You find the Brackwell farm southeast of the Stonefield homestead, its fields no longer tended. The Brackwell family has vanished, driven away or worse as crime spread through the area. The Defias Brotherhood now occupies the sturdy cottage and overgrown fields. Brigands regroup here beyond the reach of Goldshire's patrols. Morgan the Collector and other prominent conspirators use the isolated farm to receive illicit gold taken from the forest's mines.",
    "spoiler": 0
   },
   {
    "title": "Pigs and Dark Magic",
-   "body": "The Defias are not the only troublemakers prowling the pumpkin vines. The Brackwells left behind an enormous prize-winning sow named Princess, who roams the patch and constantly terrorizes neighboring fields. Meanwhile, the farmhouse attic and outbuildings shelter dangerous personal dealings: bandit Erlan Drudgemoor seduced Surena Caledon, a rogue warlock apprentice who fled her master in Stormwind with a stolen bloodstone artifact, bringing the attention of dark practitioners down upon the hideout.",
+   "body": "The Defias share the pumpkin vines with a giant sow named Princess, left behind by the Brackwells. She roams the patch and terrorizes neighboring fields. The farmhouse attic and outbuildings shelter other dangerous dealings. Bandit Erlan Drudgemoor seduced Surena Caledon, a rogue warlock apprentice who fled her master in Stormwind with a stolen bloodstone artifact. Her presence has drawn dark practitioners to the hideout.",
    "spoiler": 1
   }
  ],
@@ -28,7 +28,7 @@
     "who lived at brackwell farm",
     "brackwell family fate"
    ],
-   "answer": "Their exact fate remains unknown. When the Defias Brotherhood expanded their presence throughout southeastern Elwynn Forest, the Brackwells were either forced to flee or killed, leaving their pumpkin fields and farmhouse to the bandits."
+   "answer": "No one knows the Brackwell family's exact fate. When the Defias Brotherhood spread across southeastern Elwynn Forest, the family either fled or was killed, leaving its pumpkin fields and farmhouse to the bandits."
   },
   {
    "q": "Why is the Defias Brotherhood using this farm?",
@@ -37,7 +37,7 @@
     "what are bandits doing at the pumpkin patch",
     "defias at brackwell"
    ],
-   "answer": "The farm provides an out-of-the-way base close to the forest's borders. It allows the brotherhood to store plundered goods and coordinate smuggling operations, such as receiving shipments of stolen mine gold via couriers like Morgan the Collector, well away from the Stormwind Guard."
+   "answer": "The farm gives the Defias an isolated base near the forest's borders. They store plundered goods and arrange smuggling there, including shipments of stolen mine gold brought by couriers such as Morgan the Collector, away from the Stormwind Guard."
   },
   {
    "q": "Who is Princess?",
@@ -46,7 +46,7 @@
     "princess pig",
     "why is there a huge boar here"
    ],
-   "answer": "Princess is an enormous, prize-winning pig originally raised by the Brackwells. Left behind when the farm fell, she has grown even larger by regularly breaking into the nearby Stonefield Farm to devour their prized crops."
+   "answer": "Princess is an enormous, prize-winning sow raised by the Brackwells. Left behind when the farm fell, she grew larger by repeatedly breaking into nearby Stonefield Farm to eat its prized crops."
   },
   {
    "q": "Why do warlocks come to the pumpkin patch?",
@@ -55,17 +55,17 @@
     "surena caledon",
     "gakin voidwalker quest"
    ],
-   "answer": "Surena Caledon, an apprentice of the Stormwind warlock trainer Gakin the Darkbinder, stole a powerful bloodstone choker and fled to the farm to hide alongside her lover, the Defias bandit Erlan Drudgemoor. Gakin sends novice warlocks here to execute her and recover the relic."
+   "answer": "Surena Caledon, apprentice to Stormwind warlock trainer Gakin the Darkbinder, stole a powerful bloodstone choker and fled to the farm with her lover, Defias bandit Erlan Drudgemoor. Gakin sends novice warlocks to kill her and recover the relic."
   }
  ],
  "angles": [
   {
    "target": "class:Warlock",
-   "text": "The farm's shack shelters the fugitive apprentice Surena Caledon, whose stolen bloodstone choker is needed to bind a voidwalker."
+   "text": "Surena Caledon, a fugitive apprentice, hides in the farm's shack. Her stolen bloodstone choker is needed to bind a voidwalker."
   },
   {
    "target": "faction:Alliance",
-   "text": "The overrun patch marks one of the easternmost operational bases of the Defias inside Elwynn, directly threatening nearby farms and trade routes."
+   "text": "The overrun patch is one of the Defias Brotherhood's easternmost bases in Elwynn, threatening nearby farms and trade routes."
   }
  ],
  "keywords": [
@@ -90,5 +90,6 @@
  ],
  "attribution": [
   "Brackwell Pumpkin Patch"
- ]
+ ],
+ "style": 1
 }

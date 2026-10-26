@@ -17,16 +17,16 @@
   "wiki": "Desperate Prayer (Goldshire)",
   "chain": []
  },
- "summary": "Desperate Prayer is an introductory quest for fledgling Alliance priests serving the Church of the Holy Light. After demonstrating initial devotion and discipline in Elwynn Forest, promising acolytes are summoned to the Cathedral of Light in Stormwind to further their sacred training under High Priestess Laurena.",
+ "summary": "Promising priests from Elwynn Forest are summoned to Stormwind for further training in the Church of the Holy Light. After proving their devotion and discipline, they come before High Priestess Laurena at the Cathedral of Light.",
  "sections": [
   {
    "title": "A Summons to the Capital",
-   "body": "Novice priests serving in the outlying settlements of Elwynn Forest begin their journey under local mentors like Priestess Josetta in Goldshire. When a disciple proves capable in spirit and deeds, word quickly reaches the senior priesthood in the capital. Recognition comes in the form of a direct summons to the grand Cathedral of Light, the spiritual heart of the Kingdom of Stormwind, signaling that the time has come to undertake formal, deeper responsibilities in the faith.",
+   "body": "Priestess Josetta guides novice priests in Goldshire, while other local mentors serve the outlying settlements of Elwynn Forest. When a disciple proves capable in spirit and deeds, word reaches the senior priesthood in Stormwind. A summons to the Cathedral of Light marks the move to deeper responsibilities in the faith and formal training at the spiritual heart of the Kingdom of Stormwind.",
    "spoiler": 0
   },
   {
    "title": "Guidance from the High Priestess",
-   "body": "Upon arriving at the Cathedral, acolytes present themselves to High Priestess Laurena. As one of the preeminent leaders of the Church within the city, Laurena oversees the spiritual foundation and practical training of newly elevated priests. Her instruction prepares devotees for the harsh trials facing the Alliance, imparting critical knowledge of the Light's miracles\u2014including the vital plea for salvation known among human practitioners as Desperate Prayer.",
+   "body": "At the Cathedral, acolytes present themselves to High Priestess Laurena, one of the Church's senior leaders in Stormwind. She oversees their spiritual grounding and practical training as newly elevated priests. Her instruction prepares them for the harsh trials facing the Alliance and teaches the Light's miracles, including Desperate Prayer, the plea for salvation known among human practitioners.",
    "spoiler": 0
   }
  ],
@@ -38,7 +38,7 @@
     "what is desperate prayer quest",
     "why do desperate prayer"
    ],
-   "answer": "The quest directs promising level 10 priests from Goldshire to Stormwind's Cathedral of Light, connecting novice practitioners with High Priestess Laurena to advance their sacred training."
+   "answer": "Desperate Prayer sends promising priests from Goldshire to Stormwind's Cathedral of Light for further training under High Priestess Laurena."
   },
   {
    "q": "Who gives the quest Desperate Prayer?",
@@ -46,7 +46,7 @@
     "who starts desperate prayer",
     "desperate prayer quest giver"
    ],
-   "answer": "Priestess Josetta, the priest trainer stationed at the Lion's Pride Inn in Goldshire, offers the summons once you have proven your devotion."
+   "answer": "Priestess Josetta, the priest trainer at the Lion's Pride Inn in Goldshire, gives you the summons after you prove your devotion."
   },
   {
    "q": "Who is High Priestess Laurena?",
@@ -54,7 +54,7 @@
     "who is laurena",
     "high priestess laurena lore"
    ],
-   "answer": "High Priestess Laurena is a senior leader within the Church of the Holy Light, residing inside the Cathedral of Light in Stormwind where she trains advanced acolytes."
+   "answer": "High Priestess Laurena is a senior leader of the Church of the Holy Light who trains acolytes inside Stormwind's Cathedral of Light."
   },
   {
    "q": "Where is the Cathedral of Light located?",
@@ -62,7 +62,7 @@
     "where is cathedral of light",
     "cathedral location stormwind"
    ],
-   "answer": "The Cathedral of Light dominates Cathedral Square in the northern district of Stormwind City, serving as the spiritual center for the kingdom's priesthood and paladins."
+   "answer": "The Cathedral of Light is in Cathedral Square, in the northern district of Stormwind City. It is the spiritual center for the kingdom's priests and paladins."
   },
   {
    "q": "Why is the quest named Desperate Prayer?",
@@ -70,7 +70,7 @@
     "why called desperate prayer",
     "desperate prayer name meaning"
    ],
-   "answer": "It introduces the priest to their advanced training in Stormwind, where human priests traditionally learn the invocation known as Desperate Prayer\u2014a plea to the Light for immediate, self-preserving deliverance."
+   "answer": "Human priests learn Desperate Prayer as a plea to the Light for immediate, self-preserving deliverance during their advanced training in Stormwind."
   },
   {
    "q": "Do other races or classes get this quest?",
@@ -78,21 +78,21 @@
     "can dwarves do desperate prayer quest",
     "is desperate prayer priest only"
    ],
-   "answer": "This specific questline is tailored for priests advancing out of Elwynn Forest to begin higher instruction in the capital of Stormwind."
+   "answer": "This instruction is for priests advancing from Elwynn Forest to begin higher training in Stormwind."
   }
  ],
  "angles": [
   {
    "target": "class:Priest",
-   "text": "This quest marks your official transition from a parish novice in Goldshire to an acknowledged disciple entrusted to the senior leadership of the Cathedral of Light."
+   "text": "As a priest, you move from novice service in Goldshire to training under the senior leadership of the Cathedral of Light."
   },
   {
    "target": "race:Human",
-   "text": "For humans of the Holy Light, stepping into the towering Cathedral of Light is a profound pilgrimage, affirming your duty to the spiritual heart of the kingdom."
+   "text": "As a human who follows the Holy Light, entering the Cathedral of Light affirms your duty to the kingdom's spiritual heart."
   },
   {
    "target": "faction:Alliance",
-   "text": "The Church of the Holy Light remains one of the strongest cultural and moral pillars binding the Alliance together in an era of looming threats."
+   "text": "As an Alliance member, you belong to a people bound in part by the Church of the Holy Light, one of its strongest cultural and moral pillars amid looming threats."
   }
  ],
  "keywords": [
@@ -114,5 +114,6 @@
  ],
  "attribution": [
   "Desperate Prayer (Goldshire)"
- ]
+ ],
+ "style": 1
 }

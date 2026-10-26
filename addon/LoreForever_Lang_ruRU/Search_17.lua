@@ -2,8 +2,6 @@
 -- Sources: data/i18n/ruRU. Lore text adapted from warcraft.wiki.gg (CC BY-SA 4.0); the core add-on's src fields name the articles.
 local P = LoreForeverPacks.Begin("LoreForever_Lang_ruRU")
 local Po = P.search.post
-Po["заданиенеотправленное"] = "Bi3C"
-Po["заданиенепосредственно"] = "DUwCDjNCESTCFTXC"
 Po["заданиенеприятности"] = "G7bCG7cBG7eB"
 Po["заданиенепроглядная"] = "BjLCC0kC"
 Po["заданиенесса"] = "Gk3C"
@@ -12002,3 +12000,5 @@ Po["изучаетгершал"] = "CBWC"
 Po["изучаетдекларацию"] = "ASHC"
 Po["изучаетденалан"] = "Bz5C"
 Po["изучаете"] = "FJ5BGdECIRnB"
+Po["изучаетзвезды"] = "DIDC"
+Po["изучаеткинвилай"] = "CTaC"

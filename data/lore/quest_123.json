@@ -20,21 +20,21 @@
    "Manhunt (Classic)"
   ]
  },
- "summary": "Recovered from gnoll raiders prowling the woods, this intercepted dispatch outlines a precise timetable of gold shipments leaving Elwynn Forest's abandoned mines. Addressed to an elusive figure known only as 'The Collector,' the schedule hints at a coordinated operation thriving right under the nose of Stormwind's garrison.",
+ "summary": "An intercepted dispatch from gnoll raiders in Elwynn Forest lays out when gold shipments leave the abandoned mines. It is addressed to a figure called 'The Collector' and points to an organized operation near Stormwind's garrison.",
  "sections": [
   {
    "title": "A Paper Trail in the Paws of Gnolls",
-   "body": "While clearing Riverpaw gnoll packs lurking in western Elwynn Forest, adventurers stumble upon a curious piece of parchment tucked among rough furs and crude weapons: the Gold Pickup Schedule. Far from animal scribblings, the note details organized drop-off dates and times for precious metal extracted directly from local mines. The recipients clearly possess discipline and logistical foresight, directing shipments toward an overseer identified solely as 'The Collector.'",
+   "body": "Riverpaw gnoll packs in western Elwynn Forest carry more than furs and crude weapons. Among them, a parchment called the Gold Pickup Schedule lays out dates and times for gold taken from local mines. The intercepted note directs each shipment to an overseer identified only as 'The Collector.'",
    "spoiler": 0
   },
   {
    "title": "Unsettling News for Goldshire",
-   "body": "When brought before Marshal Dughan at the Lion's Pride Inn, the discovery comes as an alarming shock. Official mining operations across Elwynn have been shuttered for months due to gnoll aggression, kobold infestations, and roaming bandits. The realization that ore is still being systematically extracted and moved\u2014and that gnolls carry shipping manifests\u2014confirms that an organized criminal network is plundering the kingdom's natural wealth from the shadows.",
+   "body": "Marshal Dughan hears the news at the Lion's Pride Inn and learns that gold is still being mined and moved. Official mines across Elwynn have been closed for months because of gnoll attacks, kobold infestations, and roaming bandits. Gnolls carrying shipping schedules point to an organized criminal network stealing the kingdom's wealth.",
    "spoiler": 0
   },
   {
    "title": "Eyes on the Brackwell Patch",
-   "body": "The schedule pins the Collector's suspected location near the Brackwell Pumpkin Patch in eastern Elwynn Forest. While Dughan has heard whispers of the moniker before, he lacks clear evidence of who commands this ring or where the illicit gold ultimately travels. Handing over the schedule gives the garrison its first solid lead in hunting down the mastermind behind the shipments.",
+   "body": "The schedule places the suspected Collector near the Brackwell Pumpkin Patch in eastern Elwynn Forest. Marshal Dughan has heard whispers of the name, but has no clear proof of who leads the ring or where the gold goes. The dispatch gives the garrison its first solid lead in the hunt for whoever directs the shipments.",
    "spoiler": 1
   }
  ],
@@ -46,7 +46,7 @@
     "collector note",
     "elwynn gold schedule"
    ],
-   "answer": "It is an intercepted ledger dropped by gnolls in Elwynn Forest. It lists specific dates and times when mined gold is scheduled to be handed over to a secretive figure called 'The Collector.'"
+   "answer": "The Gold Pickup Schedule is an intercepted note carried by gnolls in Elwynn Forest. It lists dates and times for mined gold to be handed over to a figure called 'The Collector.'"
   },
   {
    "q": "Who is 'The Collector'?",
@@ -55,7 +55,7 @@
     "who is the collector",
     "brackwell collector"
    ],
-   "answer": "The Collector is an elusive criminal figure operating in eastern Elwynn Forest, believed to be hiding around the Brackwell Pumpkin Patch while coordinating illicit gold trade."
+   "answer": "'The Collector' is a criminal figure believed to be near the Brackwell Pumpkin Patch in eastern Elwynn Forest, coordinating an illicit gold trade."
   },
   {
    "q": "Why is Marshal Dughan shocked by the schedule?",
@@ -64,7 +64,7 @@
     "dughan reaction",
     "elwynn mines closed"
    ],
-   "answer": "Stormwind's official miners have abandoned the local mines for months due to rising monster activity. Finding out that someone is still harvesting and moving shipments of gold reveals a covert operation undermining the crown."
+   "answer": "Marshal Dughan is shocked because gold is still being mined and shipped despite the official mines being closed for months. Gnoll attacks, kobold infestations, and roaming bandits forced the closures, so the schedule reveals a hidden operation stealing from the crown."
   },
   {
    "q": "Why do gnolls have this note?",
@@ -73,7 +73,7 @@
     "why gnolls drop schedule",
     "gnoll involvement"
    ],
-   "answer": "The Riverpaw gnolls of western Elwynn appear to be acting as couriers, guards, or collaborators in the gold smuggling pipeline, carrying orders meant to organize the pickups."
+   "answer": "The Riverpaw gnolls of western Elwynn appear to carry the schedule as couriers, guards, or collaborators in the gold smuggling, bearing orders for the pickups."
   },
   {
    "q": "Where does this investigation lead next?",
@@ -82,7 +82,7 @@
     "manhunt quest",
     "after the collector"
    ],
-   "answer": "Delivering the schedule to Marshal Dughan initiates the quest 'Manhunt,' directing you to track down and eliminate the Collector near the Brackwell Pumpkin Patch."
+   "answer": "Giving the schedule to Marshal Dughan leads to Manhunt, which sends you to find and eliminate the Collector near the Brackwell Pumpkin Patch."
   },
   {
    "q": "Where is the Brackwell Pumpkin Patch located?",
@@ -91,21 +91,21 @@
     "where is brackwell",
     "pumpkin patch elwynn"
    ],
-   "answer": "The Brackwell Pumpkin Patch sits in the eastern reaches of Elwynn Forest, north of the river and east of the Maclure and Stonefield vineyards."
+   "answer": "The Brackwell Pumpkin Patch lies in eastern Elwynn Forest, north of the river and east of the Maclure and Stonefield vineyards."
   }
  ],
  "angles": [
   {
    "target": "faction:Alliance",
-   "text": "Every ounce of gold smuggled out of Elwynn deprives the Crown of vital tax revenue and raw materials during an era when the kingdom struggles to protect its borders."
+   "text": "Every ounce of gold smuggled from Elwynn denies the Crown tax revenue and raw materials while the kingdom struggles to protect its borders."
   },
   {
    "target": "class:Rogue",
-   "text": "Intercepting schedules and tracing organized contraband is classic tradecraft, revealing how deeply criminal syndicates have rooted themselves into Elwynn's wilderness."
+   "text": "As a rogue, you can read the intercepted schedule and trace contraband through the criminal networks in Elwynn's wilderness."
   },
   {
    "target": "profession:Mining",
-   "text": "The shuttered mines of Elwynn still hold rich veins of copper and precious metals\u2014veins that someone is unlawfully tapping while honest miners stay home in fear."
+   "text": "As a miner, you know Elwynn's shuttered mines still hold copper and precious metals. Someone is working those veins unlawfully while honest miners stay home in fear."
   }
  ],
  "keywords": [
@@ -128,5 +128,6 @@
  ],
  "attribution": [
   "The Collector (Classic)"
- ]
+ ],
+ "style": 1
 }

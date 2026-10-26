@@ -7,16 +7,16 @@
  "meta": {
   "wiki": "Stormwind Stockade (Classic)"
  },
- "summary": "The Stormwind Stockade is a fortified underground prison beneath the canal district of Stormwind City. Originally built to contain petty criminals, violent mercenaries, and political subversives, it has recently plunged into chaos following a violent inmate revolt.",
+ "summary": "Prisoners now control the Stormwind Stockade beneath Stormwind City's canal district. A revolt has driven the guards from its halls.",
  "sections": [
   {
    "title": "A Prison in Revolt",
-   "body": "Tucked away off the canals between Old Town and the Mage Quarter, the Stockade serves as the primary penal facility of the Kingdom of Stormwind. Presided over by Warden Thelwater, the subterranean complex houses an assortment of the realm's most dangerous malefactors: cutthroats of the Defias Brotherhood, a marauding Blackrock orc, an ogre, and even an infiltrating Dark Iron dwarf. Recently, a coordinated prison riot orchestrated by the cunning felon Bazil Thredd overwhelmed the garrison, driving out surviving guards and leaving the convicts in full control of the interior halls.",
+   "body": "The Stockade lies off the canals between Old Town and the Mage Quarter, holding Stormwind's most dangerous prisoners. Warden Thelwater oversees the underground prison. Its inmates include Defias Brotherhood cutthroats, a Blackrock orc, an ogre, and a Dark Iron dwarf. Bazil Thredd recently led a coordinated riot that overwhelmed the garrison. The surviving guards fled, leaving the prisoners in control of the halls.",
    "spoiler": 0
   },
   {
    "title": "Bureaucracy and Retribution",
-   "body": "The disaster within the Stockade exposes deep cracks in Stormwind's governance. Several notorious inmates, such as the Blackrock terror Targorr the Dread and the body-selling grave robber Dextren Ward, had long been sentenced to death, yet were kept alive due to endless stays of execution arranged by influential nobles. Frustrated by aristocratic stalling, neighboring settlements like Lakeshire and Darkshire, alongside the dwarven garrison at Dun Modr, have circumvented royal channels entirely, contracting outside adventurers to march in and execute key ringleaders amidst the bedlam.",
+   "body": "The Stockade's disorder lays bare deep cracks in Stormwind's rule. Targorr the Dread, a feared Blackrock orc, and Dextren Ward, a grave robber who sold bodies, had both been sentenced to death. Influential nobles kept them alive through endless stays of execution. Fed up with aristocratic delays, Lakeshire, Darkshire, and the dwarven garrison at Dun Modr bypassed royal channels. They hired outsiders to enter the chaos and execute key ringleaders.",
    "spoiler": 1
   }
  ],
@@ -28,7 +28,7 @@
     "how to get to stockade",
     "stockade location"
    ],
-   "answer": "The Stockade entrance is situated inside Stormwind City along the northern canal bank, bridging the passage between Old Town and the Cathedral and Mage districts."
+   "answer": "The Stockade entrance lies inside Stormwind City, along the northern canal bank between Old Town and the Cathedral and Mage districts."
   },
   {
    "q": "Who is currently running the prison?",
@@ -37,7 +37,7 @@
     "stockade boss",
     "bazil thredd"
    ],
-   "answer": "While Warden Thelwater is the official warden, he was driven out during the rebellion. The facility is currently under the de facto control of the prisoner who instigated the uprising, Bazil Thredd, alongside allied Defias rioters."
+   "answer": "Warden Thelwater is the prison's official warden, but the rebellion drove him out. Bazil Thredd, who started the uprising, now controls the prison with allied Defias rioters."
   },
   {
    "q": "Why are there orcs and Dark Iron dwarves locked up in Stormwind?",
@@ -46,7 +46,7 @@
     "kam deepfury",
     "targorr the dread"
    ],
-   "answer": "Stormwind holds high-value prisoners of war and saboteurs here. Targorr the Dread is a captured Blackrock orc raider from the nearby mountains, while Kam Deepfury is a hostile Dark Iron dwarf imprisoned for subversion against the Alliance."
+   "answer": "Stormwind holds prisoners of war and saboteurs there. Targorr the Dread is a captured Blackrock orc raider from the nearby mountains, and Kam Deepfury is a Dark Iron dwarf imprisoned for subversion against the Alliance."
   },
   {
    "q": "Why were condemned murderers kept alive instead of executed?",
@@ -55,17 +55,17 @@
     "stormwind nobles",
     "dextren ward execution"
    ],
-   "answer": "Bureaucracy and political interference from high-ranking Stormwind nobles repeatedly stalled executions for convicts like Dextren Ward and Targorr, sparking outrage from outer territories such as Redridge and Duskwood."
+   "answer": "Stormwind nobles repeatedly delayed executions for convicts such as Dextren Ward and Targorr. Their political interference and bureaucratic delays angered outer territories such as Redridge and Duskwood."
   }
  ],
  "angles": [
   {
    "target": "faction:Alliance",
-   "text": "The riot directly beneath the capital's streets is an acute humiliation for Highlord Bolvar Fordragon's administration, showing how vulnerable Stormwind is from within while the king remains absent."
+   "text": "The riot beneath the capital's streets humiliates Highlord Bolvar Fordragon's administration. It shows Stormwind's vulnerability from within while the king remains absent."
   },
   {
    "target": "race:Human",
-   "text": "For humans of the outlying towns, the Stockade's dysfunction proves that the House of Nobles cares far more for legal red tape in the capital than protecting border settlements from murderers."
+   "text": "For humans in the outlying towns, the Stockade's failure shows that the House of Nobles puts legal delays in the capital ahead of protecting border settlements from murderers."
   }
  ],
  "keywords": [
@@ -91,5 +91,6 @@
  ],
  "attribution": [
   "Stormwind Stockade (Classic)"
- ]
+ ],
+ "style": 1
 }

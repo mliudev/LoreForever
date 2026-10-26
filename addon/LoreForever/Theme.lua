@@ -129,7 +129,9 @@ T.color = {
   waxHi = { 0.80, 0.30, 0.22, 1 },       -- its highlight
   gilt = { 0.80, 0.62, 0.20, 1 },        -- the gold seal (every place found)
   giltHi = { 0.92, 0.80, 0.44, 1 },
-  ringGreen = { 0.18, 0.48, 0.20, 1 },   -- a new page's ring
+  ringGreen = { 0.18, 0.48, 0.20, 1 },
+  newMark = { 0.86, 0.62, 0.10, 1 },     -- new: a card's ring, the count on a bookmark, the New pages row (gilt)
+  newMarkText = { 0.20, 0.11, 0.02, 1 }, -- a count on it
   dotGreen = { 0.20, 0.50, 0.22, 1 },    -- a heard page's dot
   dotRim = { 0.65, 0.94, 0.63, 1 },
   ribbon = { 0.48, 0.12, 0.08, 1 },      -- a bookmark's ribbon: red, and gold while it's the open one
@@ -876,9 +878,9 @@ function T.Ribbon(parent, label, horizontal)
   if r.text.SetWordWrap then r.text:SetWordWrap(true) end
   r.text:SetShadowColor(0, 0, 0, 0.8)
   r.text:SetShadowOffset(1, -1)
-  r.countBg = T.Area(r, "ringGreen", "ARTWORK")
+  r.countBg = T.Area(r, "newMark", "ARTWORK")
   r.count = r:CreateFontString(nil, "OVERLAY", T.font.label)
-  r.count:SetTextColor(1, 1, 1, 1)
+  r.count:SetTextColor(rgba(T.color.newMarkText))
   r.count:SetJustifyH("CENTER")
   for k, v in pairs(RibbonMixin) do r[k] = v end
   r.label, r.countN, r.on = label or "", 0, false
@@ -1179,8 +1181,8 @@ function T.Tile(parent, kind)
   local hl = b:CreateTexture(nil, "HIGHLIGHT")
   hl:SetAllPoints()
   hl:SetColorTexture(1, 0.95, 0.75, 0.30)
-  -- New: a 2px green ring just outside the card.
-  b.ring = T.Outline(b, "ringGreen", "OVERLAY", 2, 2)
+  -- New: a 2px gilt ring just outside the card.
+  b.ring = T.Outline(b, "newMark", "OVERLAY", 2, 2)
   -- Heard: a green dot in the top right corner (a light rim round a green centre).
   b.dot = CreateFrame("Frame", nil, b)
   b.dot:SetSize(11, 11)

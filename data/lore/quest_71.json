@@ -17,16 +17,16 @@
   "wiki": "Report to Thomas",
   "chain": []
  },
- "summary": "Report to Thomas concludes the somber investigation into the missing Stormwind guards near the eastern waterways of Elwynn Forest. After recovering the service medallions of both Malakai and Rolf from their remains, an adventurer brings proof of their deaths back to Guard Thomas at the eastern bridge. The confirmation proves that the local murlocs are far more aggressive and dangerous than Stormwind previously realized.",
+ "summary": "Guard Thomas is waiting at the eastern bridge for news of his missing men. He holds the crossing between Goldshire and the Eastvale Logging Camp with few guards to spare, and needs to know what happened along the river.",
  "sections": [
   {
    "title": "A Grim Confirmation",
-   "body": "Guard Thomas has held the crossing between Goldshire and the Eastvale Logging Camp with very few men to spare. When two of his comrades, Malakai and Rolf, disappeared into the riverlands, hope remained that they were merely cut off or delayed. Bringing their recovered service medallions back to the bridge extinguishes that hope, verifying that both guards were slain near the waterways.",
+   "body": "Guard Thomas holds the crossing between Goldshire and the Eastvale Logging Camp with few men to spare. When Malakai and Rolf vanished into the riverlands, he hoped they had only been cut off or delayed. Their recovered service medallions leave no such hope. Both guards were slain near the waterways.",
    "spoiler": 0
   },
   {
    "title": "The Threat Along the Water",
-   "body": "For months, Stormwind's leadership has largely dismissed murlocs as nuisance river-dwellers, prioritizing bandit activity and broader kingdom borders. The slaughter of two armed Stormwind guards along the inland streams demonstrates organized brutality. With proof in hand, Thomas realizes the eastern frontier of Elwynn faces an active assault, compelling him to demand a response before the logging routes and settlements are overwhelmed.",
+   "body": "For months, Stormwind's leaders have treated murlocs as nuisance river-dwellers, focusing instead on bandits and the kingdom's wider borders. Now two armed Stormwind guards have been slaughtered along the inland streams. The medallions show Thomas that Elwynn's eastern frontier faces an active assault, and he calls for a response before the logging routes and settlements are overwhelmed.",
    "spoiler": 0
   }
  ],
@@ -38,7 +38,7 @@
     "guard thomas bridge",
     "where is guard thomas"
    ],
-   "answer": "Guard Thomas is posted at the stone bridge crossing the river in eastern Elwynn Forest, connecting the road between Goldshire and the Eastvale Logging Camp."
+   "answer": "Guard Thomas is posted at the stone bridge over the river in eastern Elwynn Forest, on the road between Goldshire and the Eastvale Logging Camp."
   },
   {
    "q": "Who were Rolf and Malakai?",
@@ -47,7 +47,7 @@
     "who was rolf",
     "who was malakai"
    ],
-   "answer": "Rolf and Malakai were Stormwind guards dispatched to patrol eastern Elwynn Forest. Both were overwhelmed and killed by murlocs lurking along the riverbanks and Stonecairn Lake."
+   "answer": "Rolf and Malakai were Stormwind guards sent to patrol eastern Elwynn Forest. Murlocs along the riverbanks and Stonecairn Lake overwhelmed and killed them."
   },
   {
    "q": "Why were their medallions necessary?",
@@ -55,7 +55,7 @@
     "why medallions",
     "guard medallions purpose"
    ],
-   "answer": "The medallions served as official identification for Stormwind city guards. Returning them provided indisputable proof to Guard Thomas that his missing men had fallen in duty."
+   "answer": "The medallions identify Stormwind city guards. Returning them gives Guard Thomas proof that his missing men died in the line of duty."
   },
   {
    "q": "Why is the murloc attack such a big deal?",
@@ -63,7 +63,7 @@
     "why murlocs threat",
     "are murlocs dangerous elwynn"
    ],
-   "answer": "Murlocs were commonly regarded as primitive, cowardly pests rather than a lethal threat to trained soldiers. The death of two armed guards proves that the river tribes have grown emboldened and capable of coordinated ambush."
+   "answer": "Murlocs are commonly dismissed as primitive, cowardly pests. The deaths of two armed guards show that river tribes can carry out coordinated ambushes and threaten trained soldiers."
   },
   {
    "q": "What happens after reporting back to Thomas?",
@@ -79,17 +79,17 @@
     "why is thomas alone",
     "stormwind bridge guard alone"
    ],
-   "answer": "Stormwind's military is stretched thin across the realm, with King Varian Wrynn missing and resources strained. Outlying posts like the eastern bridge have only minimal personnel to guard vital transit routes."
+   "answer": "Stormwind's military is stretched thin across the realm, with King Varian Wrynn missing and resources strained. The eastern bridge and other outlying posts have few guards to protect vital routes."
   }
  ],
  "angles": [
   {
    "target": "faction:Alliance",
-   "text": "The death of Rolf and Malakai illustrates the vulnerable state of Elwynn Forest's borders, where even everyday river patrols can be overwhelmed due to manpower shortages."
+   "text": "Rolf and Malakai's deaths show how exposed Elwynn Forest's borders are. Even routine river patrols can be overwhelmed when guards are scarce."
   },
   {
    "target": "race:Human",
-   "text": "Recovering the fallen guards' medallions offers a measure of honor and finality to Stormwind soldiers who died defending the kingdom's interior roads."
+   "text": "As a human, recovering the fallen guards' medallions gives Stormwind soldiers who died defending the kingdom's interior roads a measure of honor and finality."
   }
  ],
  "keywords": [
@@ -114,5 +114,6 @@
  ],
  "attribution": [
   "Report to Thomas"
- ]
+ ],
+ "style": 1
 }

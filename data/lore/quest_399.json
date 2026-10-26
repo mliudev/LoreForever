@@ -17,16 +17,16 @@
   "wiki": "Humble Beginnings",
   "chain": []
  },
- "summary": "Baros Alexston, the City Architect residing in Stormwind's Cathedral Square, seeks help recovering a lost heirloom from his youth. His family's old homestead in Westfall has burned down and fallen into the hands of thieves, leaving behind only buried memories.",
+ "summary": "Baros Alexston seeks help from his home in Stormwind's Cathedral Square. His family's Westfall farm has burned, and thieves hold its ruins; he hopes to recover an heirloom from his youth.",
  "sections": [
   {
    "title": "A Builder's Roots",
-   "body": "Though Baros Alexston is now an accomplished architect in Stormwind City, his early life was far more modest. Long before he designed stonework and city buildings, he grew up toiling in the fields of Westfall as a farm boy. His journey from tilling rural soil to advising city planners represents a rare ascent in the kingdom, yet he remains deeply attached to the modest beginnings that shaped his path.",
+   "body": "Baros Alexston grew up working the fields of Westfall. Now he is an accomplished architect in Stormwind City, advising on stonework and city buildings. His path from farm boy to city planner is rare in the kingdom, yet he remains attached to the modest beginnings that shaped him.",
    "spoiler": 0
   },
   {
    "title": "Tragedy in Westfall",
-   "body": "Like many homesteads across Westfall, the Alexston Farmstead fell victim to the lawlessness sweeping the region. Bandits and vagrants torched the house, driving Baros's father away from his livelihood. In the chaos of the arson and occupation, family heirlooms were abandoned. Baros asks brave travelers to venture into the ruined, bandit-infested farmstead west of Sentinel Hill to recover his first compass\u2014a sentimental keepsake hidden away before the home fell.",
+   "body": "Lawlessness swept across Westfall, and the Alexston Farmstead fell to it. Bandits and vagrants burned the house, forcing Baros's father from his livelihood. Family heirlooms were left behind amid the fire and occupation. Baros asks you to search the ruined, bandit-held farmstead west of Sentinel Hill for his first compass, hidden before the home fell.",
    "spoiler": 0
   }
  ],
@@ -38,7 +38,7 @@
     "who is baros",
     "city architect"
    ],
-   "answer": "Baros Alexston is the City Architect of Stormwind, located near the Cathedral Square. Despite his prestigious position in the capital, he was raised as an ordinary farmer's son in Westfall before leaving the countryside to master the craft of building."
+   "answer": "Baros Alexston is Stormwind's City Architect, residing near Cathedral Square. He grew up as a farmer's son in Westfall, then left the countryside to learn the craft of building."
   },
   {
    "q": "Where is the Alexston Farmstead located?",
@@ -47,7 +47,7 @@
     "where is the farm",
     "alexston farm"
    ],
-   "answer": "The farmstead sits directly west of Sentinel Hill in central Westfall. Like many properties in the area, it has been burned and overrun by thieves and rogues belonging to the Defias-aligned rabble."
+   "answer": "The Alexston Farmstead lies west of Sentinel Hill in central Westfall. Thieves and rogues aligned with the Defias rabble burned it and took control of the property."
   },
   {
    "q": "Why is the compass important to Baros?",
@@ -56,7 +56,7 @@
     "what is the compass",
     "simple compass"
    ],
-   "answer": "The compass holds purely sentimental value. It was Baros's very first navigation tool from his boyhood on the farm, symbolizing his journey from rural laborer to architectural planner. Though functionally useless to his current craft, it is an irreplaceable relic of his past."
+   "answer": "The compass matters to Baros only for its sentimental value. It was his first navigation tool as a boy on the farm, a reminder of his path from rural laborer to architectural planner. It has no use in his current craft, but remains an irreplaceable relic of his past."
   },
   {
    "q": "Who burned down the Alexston farm?",
@@ -65,7 +65,7 @@
     "why was farm destroyed",
     "westfall farm burned"
    ],
-   "answer": "The farm was razed by the thieves and outlaws terrorizing Westfall. With the kingdom's military spread thin and unable to safeguard outlying homesteads, bandits seized the land and drove out the Alexston family."
+   "answer": "Thieves and outlaws terrorizing Westfall razed the farm. With the kingdom's military spread thin and unable to protect outlying homesteads, bandits seized the land and drove out the Alexston family."
   },
   {
    "q": "Where can the compass be found on the farm?",
@@ -74,7 +74,7 @@
     "where is compass",
     "hidden compass"
    ],
-   "answer": "The compass was hidden away before the family fled and can be discovered inside a small chest amidst the charred ruins of the main farmhouse."
+   "answer": "Baros's compass was hidden before the family fled. You can find it in a small chest amid the charred ruins of the main farmhouse."
   },
   {
    "q": "What happened to Baros's father?",
@@ -83,17 +83,17 @@
     "alexston father",
     "who is baros's dad"
    ],
-   "answer": "Baros's father survived the raid on their homestead and fled the farm. Though unable to carry their possessions through the flames and bandits, he remembered where the family hid valuable keepsakes before escaping."
+   "answer": "Baros's father survived the raid and fled the farm. He could not carry their possessions through the flames and bandits, but remembered where the family had hidden valuable keepsakes."
   }
  ],
  "angles": [
   {
    "target": "race:Human",
-   "text": "The fate of the Alexston Farmstead mirrors the slow decline of Westfall's yeomanry, where generations of human farmers have been dispossessed by lawlessness right on Stormwind's doorstep."
+   "text": "The Alexston Farmstead's fate reflects the decline of Westfall's yeomanry, where generations of human farmers have been driven from their land by lawlessness on Stormwind's doorstep."
   },
   {
    "target": "faction:Alliance",
-   "text": "Venturing into Westfall on behalf of capital city figures highlights the growing disconnect between the safe streets of Stormwind and the unprotected frontier lands nearby."
+   "text": "When you venture into Westfall on behalf of figures in the capital, you cross the divide between Stormwind's safe streets and the nearby frontier lands left unprotected."
   }
  ],
  "keywords": [
@@ -116,5 +116,6 @@
  ],
  "attribution": [
   "Humble Beginnings"
- ]
+ ],
+ "style": 1
 }

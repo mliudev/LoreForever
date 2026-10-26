@@ -2,9 +2,6 @@
 -- Sources: data/i18n/ukUA. Lore text adapted from warcraft.wiki.gg (CC BY-SA 4.0); the core add-on's src fields name the articles.
 local P = LoreForeverPacks.Begin("LoreForever_Lang_ukUA")
 local Po = P.search.post
-Po["маркотзарізане"] = "EPcB"
-Po["маркотремен"] = "EPfC"
-Po["маркредпат"] = "KtbC"
 Po["маркрі"] = "BdYBBdaCBdhB"
 Po["маркріandron"] = "BdYB"
 Po["маркріандрон"] = "BdaC"
@@ -12002,3 +11999,6 @@ Po["найкращими"] = "ESvBEb5BFySBGFTBGhOBKodB"
 Po["найкращих"] = "ACoBACsBAJDBARiBAc9BBJ1BBZCBBjtBB1FBB7pBB7yBCDdBCDeBCWzBCeCBCgbBCnJBCnfBC4bBDC7BDGoBDjjBD/DBEQnBEcTBEcbBEhFBFAdBFQSBF+IBGnLBGnkBGnmBGnqBHF1BJNqBJi2BKfXBKfpBKl7BKrMB"
 Po["найкращого"] = "ExFBFSEBFXsBFkvBGbiBG1XBI85BKtIB"
 Po["найкращому"] = "KjNB"
+Po["найкращою"] = "GBCBHszBJImBJcMBK0sB"
+Po["найкращої"] = "EsBB"
+Po["найкращу"] = "AjDBBu1BCMHBJqKB"

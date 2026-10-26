@@ -12,16 +12,16 @@
   "harvested": true,
   "level": "22"
  },
- "summary": "Remember That I Love You is an Alliance quest that begins in the Stormwind Orphanage and sends travelers into the gloomy forests of Duskwood. Tasked with delivering a grim Blood-Stained Letter, adventurers must track down a newly adopted orphan named Jeremy Heartweaver and his adoptive mother, Avette Fellwood.",
+ "summary": "In Stormwind, a blood-stained letter is bound for Jeremy Heartweaver. He has left the orphanage for a new home with Avette Fellwood in Duskwood.",
  "sections": [
   {
    "title": "A Message for an Orphan",
-   "body": "The children of the Stormwind Orphanage carry heavy burdens, having lost their families to warfare, hardship, and the chaos gripping the kingdom. Jeremy Heartweaver was one such ward until he was recently adopted by a woman named Avette Fellwood. While life out in the gloomy woods of Duskwood is fraught with peril and hard labor, caretakers at the orphanage believed it offered him a chance at family rather than remaining cooped up in the city.",
+   "body": "Children at the Stormwind Orphanage have lost their families to war, hardship, and the chaos gripping the kingdom. Jeremy Heartweaver was one of them until Avette Fellwood adopted him. She took him to live in Duskwood, where the woods are gloomy and life brings peril and hard labor. The orphanage caretakers believed a home with a family offered him more than remaining in the city.",
    "spoiler": 0
   },
   {
    "title": "A Grim Token",
-   "body": "The quest revolves around carrying a Blood-Stained Letter meant for Jeremy, directed to the care of Avette Fellwood. Inquiries lead travelers south past the safety of Elwynn Forest and into the shadow of Duskwood. The grim nature of the parcel hints at a past tragedy that has followed young Jeremy far beyond Stormwind's gates.",
+   "body": "A Blood-Stained Letter is meant for Jeremy, in Avette Fellwood's care. The trail leads south past Elwynn Forest's safety and into Duskwood's shadow. What tragedy followed Jeremy beyond Stormwind's gates, and why does the letter bear such a grim mark?",
    "spoiler": 1
   }
  ],
@@ -33,7 +33,7 @@
     "who is jeremy",
     "orphan jeremy"
    ],
-   "answer": "Jeremy Heartweaver is a young boy formerly raised in the Stormwind Orphanage. He was recently adopted by Avette Fellwood, leaving the city behind to live and work in the shadowed realm of Duskwood."
+   "answer": "Jeremy Heartweaver is a young boy who was raised at the Stormwind Orphanage. Avette Fellwood recently adopted him, and he now lives and works in Duskwood."
   },
   {
    "q": "Who is Avette Fellwood?",
@@ -42,7 +42,7 @@
     "who is avette",
     "adoptive mother"
    ],
-   "answer": "Avette Fellwood is Jeremy's newly adoptive mother who resides in Duskwood. The matrons of Stormwind regard her as a sweet woman who likely took in Jeremy to gain another pair of hands for her daily labors."
+   "answer": "Avette Fellwood is Jeremy's adoptive mother and lives in Duskwood. The matrons of Stormwind regard her as a sweet woman who likely took Jeremy in to gain another pair of hands for her daily labor."
   },
   {
    "q": "What is the Blood-Stained Letter?",
@@ -51,7 +51,7 @@
     "the letter",
     "what is the letter"
    ],
-   "answer": "The Blood-Stained Letter is a somber delivery item meant for Jeremy Heartweaver and delivered directly into the hands of his adoptive guardian, Avette Fellwood, carrying echoes of violence or tragedy."
+   "answer": "The Blood-Stained Letter is meant for Jeremy Heartweaver and goes into the hands of his adoptive guardian, Avette Fellwood. It carries echoes of violence or tragedy."
   },
   {
    "q": "Where do I find Avette Fellwood?",
@@ -60,7 +60,7 @@
     "where is avette",
     "find avette"
    ],
-   "answer": "Avette Fellwood resides out in Duskwood, the dark forest territory located directly south of Elwynn Forest across the river."
+   "answer": "Avette Fellwood lives in Duskwood, the dark forest directly south of Elwynn Forest, across the river."
   },
   {
    "q": "Why was Jeremy sent to Duskwood?",
@@ -69,7 +69,7 @@
     "why did jeremy leave stormwind",
     "orphanage duskwood"
    ],
-   "answer": "Jeremy was adopted out of the Stormwind Orphanage. While Duskwood is a dangerous and forbidding land, his caretakers believed living with a family and helping with honest labor was better than remaining an institutionalized orphan."
+   "answer": "Jeremy was adopted from the Stormwind Orphanage. His caretakers believed a family and honest labor in dangerous Duskwood were better than life as an orphan in the orphanage."
   },
   {
    "q": "Which faction can take this quest?",
@@ -78,17 +78,17 @@
     "alliance only",
     "horde quest"
    ],
-   "answer": "This quest is strictly for the Alliance, originating from the human capital of Stormwind and proceeding into the Alliance-held territory of Duskwood."
+   "answer": "Only the Alliance can take this assignment. It begins in Stormwind, the human capital, and leads into Alliance-held Duskwood."
   }
  ],
  "angles": [
   {
    "target": "faction:Alliance",
-   "text": "Carrying tokens of fallen or vanished kin to adopted orphans highlights the enduring personal costs of the kingdom's turbulent state."
+   "text": "For the Alliance, tokens of fallen or vanished kin carried to adopted orphans speak to the personal costs of the kingdom's turbulent state."
   },
   {
    "target": "race:Human",
-   "text": "For humans of Stormwind, this errand bridges the relatively safe heart of the realm with the haunted, forgotten settlements of Duskwood."
+   "text": "As a human of Stormwind, you cross from the realm's relatively safe heart to Duskwood's haunted, forgotten settlements."
   }
  ],
  "keywords": [
@@ -105,5 +105,6 @@
  ],
  "attribution": [
   "In-game quest text: Remember That I Love You"
- ]
+ ],
+ "style": 1
 }

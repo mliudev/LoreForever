@@ -17,16 +17,16 @@
   "wiki": "The Unsent Letter",
   "chain": []
  },
- "summary": "Found upon the corpse of Edwin VanCleef deep within the Deadmines, this sealed missive is addressed to Baros Alexston, the City Architect of Stormwind. Its delivery pulls back the curtain on the personal grievances and history binding the Defias leader to the city's master builders.",
+ "summary": "In the Deadmines, The Unsent Letter waits to be carried to Stormwind. Its delivery reveals the grievances and shared history binding Edwin VanCleef to the city's master builders.",
  "sections": [
   {
    "title": "A Message From the Grave",
-   "body": "When Edwin VanCleef falls aboard his juggernaut in the subterranean depths of Moonbrook, he leaves behind more than a broken rebellion. Tucked into his clothing is a newly penned, sealed letter. Strangely, the Defias kingpin did not address it to one of his criminal lieutenants or shadowy financiers, but to an official inside the heart of the kingdom he swore to destroy: Baros Alexston, Stormwind's City Architect.",
+   "body": "Edwin VanCleef falls aboard his juggernaut beneath Moonbrook, leaving behind more than a broken rebellion. A newly penned, sealed letter is tucked into his clothing. He addressed it not to a criminal lieutenant or financier, but to Baros Alexston, Stormwind's City Architect.",
    "spoiler": 0
   },
   {
    "title": "Architects of Old",
-   "body": "Carrying the correspondence to City Hall in Cathedral Square reveals a shared past between the architect and the outlaw. Alexston, once a peer of VanCleef during the ambitious reconstruction of Stormwind following the Second War, reacts with disbelief at the news of Edwin's death. Though horrified by the bandit leader's descent into indiscriminate violence, Alexston acknowledges the root of his bitter crusade: VanCleef was an uncompromising idealist consumed by betrayal, one whose rightful grievance morphed into destructive madness.",
+   "body": "Carry the letter to City Hall in Cathedral Square, where Baros Alexston once worked alongside Edwin VanCleef during Stormwind's reconstruction after the Second War. Alexston reacts with disbelief at news of VanCleef's death. Horrified by the bandit leader's indiscriminate violence, he recognizes the grievance behind VanCleef's bitter crusade. VanCleef was an uncompromising idealist consumed by betrayal, whose rightful grievance turned to destructive madness.",
    "spoiler": 1
   }
  ],
@@ -38,7 +38,7 @@
     "how to get unsent letter",
     "who drops unsent letter"
    ],
-   "answer": "The item An Unsent Letter drops from Edwin VanCleef, the final boss found aboard the ironclad ship within the Deadmines instance in Westfall."
+   "answer": "An Unsent Letter is found on Edwin VanCleef aboard his ironclad ship in the Deadmines, deep in Westfall."
   },
   {
    "q": "Who is Baros Alexston?",
@@ -47,7 +47,7 @@
     "where is baros alexston",
     "city architect stormwind"
    ],
-   "answer": "Baros Alexston is the City Architect of Stormwind. He resides in the City Hall building, located along the northeast edge of Cathedral Square."
+   "answer": "Baros Alexston is Stormwind's City Architect. He lives in City Hall, along the northeast edge of Cathedral Square."
   },
   {
    "q": "Why was Edwin VanCleef writing to the City Architect?",
@@ -56,7 +56,7 @@
     "vancleef and baros relationship",
     "letter to architect"
    ],
-   "answer": "VanCleef and Alexston were fellow stonemasons who worked together rebuilding Stormwind after the Second War. Even after turning to banditry, VanCleef still viewed Alexston as a former peer connected to the work and betrayal of the Stonemasons Guild."
+   "answer": "Edwin VanCleef and Baros Alexston were fellow stonemasons who rebuilt Stormwind after the Second War. Even after turning to banditry, VanCleef saw Alexston as a former peer connected to the masons' work and betrayal."
   },
   {
    "q": "What does the letter reveal about VanCleef?",
@@ -65,7 +65,7 @@
     "what does the letter say",
     "letter lore"
    ],
-   "answer": "Upon reading it, Alexston notes that VanCleef remained an idealist and a romantic to the end, but one thoroughly poisoned by vengeance. VanCleef believed his violent war against the kingdom was entirely justified by the ruling nobility's refusal to pay the masons."
+   "answer": "Alexston sees VanCleef as an idealist and a romantic to the end, poisoned by vengeance. VanCleef believed his war against the kingdom was justified because the ruling nobility refused to pay the masons."
   },
   {
    "q": "Do I need to finish the main Defias Brotherhood chain before turning this in?",
@@ -74,7 +74,7 @@
     "can i do unsent letter early",
     "do i need defias chain"
    ],
-   "answer": "No. While the extended Defias Brotherhood questline leads directly to VanCleef, the Unsent Letter can be looted and completed by any Alliance adventurer who defeats him, regardless of prior quest progression."
+   "answer": "No. Any Alliance adventurer who defeats VanCleef can loot and complete the letter, regardless of prior progress in the Defias Brotherhood storyline."
   },
   {
    "q": "Where does this questline lead next?",
@@ -83,21 +83,21 @@
     "lescovar chain",
     "what follows baros alexston"
    ],
-   "answer": "Delivering the letter prompts Alexston to direct you toward the Stockade to interrogate an imprisoned Defias leader, Bazil Thredd, who might know more about VanCleef's plans."
+   "answer": "After you deliver the letter, Alexston sends you to the Stockade to question Bazil Thredd, an imprisoned Defias leader who may know more about VanCleef's plans."
   }
  ],
  "angles": [
   {
    "target": "race:Human",
-   "text": "For humans of Stormwind, this letter exposes the lingering wounds of the kingdom's reconstruction, proving that the banditry plaguing Westfall was born directly out of political betrayals within their own capital."
+   "text": "For humans of Stormwind, the letter exposes the wounds left by the kingdom's reconstruction. The banditry in Westfall grew from political betrayals within the capital."
   },
   {
    "target": "class:Rogue",
-   "text": "VanCleef was legendary among rogues for his skill as a peerless fighter and organizer; recovering his private correspondence offers a stark look at how easily an operative's discipline can curdle into suicidal obsession."
+   "text": "As a rogue, you can see how VanCleef's skill as a fighter and organizer gave way to suicidal obsession."
   },
   {
    "target": "faction:Alliance",
-   "text": "Delivering the letter provides crucial evidence that the Defias threat is not merely a regional outlaw uprising, but a targeted vendetta with deep ties to Stormwind's civic administration."
+   "text": "For the Alliance, the letter ties the Defias threat to Stormwind's civic administration and reveals a vendetta beyond a regional outlaw uprising."
   }
  ],
  "keywords": [
@@ -121,5 +121,6 @@
  ],
  "attribution": [
   "The Unsent Letter"
- ]
+ ],
+ "style": 1
 }

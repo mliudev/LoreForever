@@ -124,11 +124,35 @@ test("every dungeon and raid of the original game can be asked for, by name or b
   assert.match(text("How do I get from Stormwind to the Deadmines?", { zone: "Wetlands" }), /^From Stormwind City to the Deadmines/);
 });
 
-test("a dungeon's name in a question about something else gets no way, so its research isn't skipped", () => {
+test("a dungeon's name in a question about something else gets its card, never the way; what the card doesn't hold is still looked up", () => {
   for (const question of ["Where is the best loot in the Deadmines?", "What level is the Scarlet Monastery?",
     "How do I get to level 40 in the Scarlet Monastery?", "Who is the last boss in Shadowfang Keep?",
-    "What drops from the boss in Uldaman and where do I turn it in?"])
-    assert.equal(text(question, { zone: "Stormwind City" }), "", question);
+    "What drops from the boss in Uldaman and where do I turn it in?"]) {
+    const facts = placeFacts({ question, faction: "Alliance", zone: "Stormwind City" });
+    assert.ok(facts.length && facts.every(f => /^About /.test(f.title)), question);
+  }
+  // Loot isn't on the card: its research goes ahead.
+  for (const question of ["Where is the best loot in the Deadmines?", "What drops from the boss in Uldaman and where do I turn it in?"])
+    assert.ok(placeFacts({ question, faction: "Alliance", zone: "Stormwind City" }).every(f => !f.asked), question);
+});
+
+test("LOR-834: a dungeon's card says its foes' levels, its bosses and the quests that send the asker's side in", async () => {
+  const { DUNGEON_CARDS } = await import("../lib/forever-dungeons.js");
+  const card = DUNGEON_CARDS["the Deadmines"];
+  const ally = placeFacts({ question: "Am I ready for the Deadmines?", faction: "Alliance", zone: "Westfall" });
+  assert.equal(ally.length, 1);
+  assert.ok(ally[0].asked, "levels and bosses are the card's: no look-up");
+  const said = ally[0].text;
+  assert.match(said, new RegExp(`levels ${card.foes[0]} to ${card.foes[1]}`));
+  assert.match(said, new RegExp(`${card.bosses[0][0]} \\(${card.bosses[0][1]}\\)`));
+  assert.match(said, /Moonbrook/i, "and where the way in is");
+  const allianceOnly = card.quests.filter(q => q[2] === "Alliance").map(q => q[1]);
+  assert.ok(allianceOnly.length && allianceOnly.some(t => said.includes(t)), "a quest of their own side");
+  const horde = placeFacts({ question: "Am I ready for the Deadmines?", faction: "Horde", zone: "The Barrens" })[0].text;
+  assert.ok(allianceOnly.every(t => !horde.includes(`${t} (Alliance`)), "never the other side's quests");
+  // The way there, asked with it, still comes.
+  assert.ok(placeFacts({ question: "How do I get to the Deadmines?", faction: "Alliance", zone: "Elwynn Forest" })
+    .some(f => /^The way to /.test(f.title)));
 });
 
 test("who holds a zone is data/zone_factions.json's, in step with the table the routes use", () => {
@@ -187,4 +211,22 @@ test("one bank, auction house or inn however many work there; a town no side hol
   assert.match(booty, /^Booty Bay, in Stranglethorn Vale \(open to both sides\), has a bank, with bankers Viznik Goldgrubber/);
   assert.match(text("Where is the auction house in Ironforge?", { zone: "Ironforge" }),
     /^Ironforge has an auction house, with Auctioneer Buckler \(\d+, \d+\)/);
+});
+
+test("LOR-834: a leveling plan names zones for their levels and side, with quest hubs whose quests fit those levels", async () => {
+  const { QUESTS } = await import("../lib/forever-quests.js");
+  const { TOWNS } = await import("../lib/forever-services.js");
+  const plan = (question, faction, level) => placeFacts({ question, faction, level, zone: "Elwynn Forest" });
+  const [fact] = plan("Where should I level now?", "Alliance", "25");
+  assert.ok(fact?.asked && /^Leveling from 25 to 30/.test(fact.title), fact?.title);
+  // Every town it names is one the Alliance can use, and every quest it names is for those levels.
+  for (const [town, [, side]] of Object.entries(TOWNS))
+    if (side === "Horde") assert.ok(!fact.text.includes(`${town} (`), `${town} is Horde`);
+  const fits = title => Object.values(QUESTS).some(q => q[0] === title && q[1] >= 25 && q[1] <= 30 && (!q[3] || q[3] === "Alliance"));
+  const named = [...fact.text.matchAll(/such as ([^)]+)\)/g)].flatMap(m => m[1].split(/, | and /));
+  assert.ok(named.length >= 3);
+  for (const title of named) assert.ok(fits(title), title);   // titles repeat across a chain: one of them fits
+  // A span is a route, by where each zone's levels start; a named place gets the way, never a plan.
+  assert.match(plan("Plan my 20 to 30", "Horde", "20")[0].text, /in the order their levels start/);
+  assert.ok(!plan("How do I get to Duskwood?", "Alliance", "20").some(f => /^Leveling/.test(f.title)));
 });

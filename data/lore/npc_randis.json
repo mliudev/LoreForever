@@ -8,16 +8,16 @@
   "wiki": "Randis",
   "refs": 1
  },
- "summary": "Randis is a spirited young human orphan under the care of Orphan Matron Nightingale at the orphanage in Cathedral Square. During Children's Week, he eagerly accompanies willing adventurers across the Alliance's territories to take in sights far beyond the city walls.",
+ "summary": "In Cathedral Square, Randis waits for a chance to see the world beyond Stormwind. During Children's Week, he eagerly joins willing adventurers across Alliance lands.",
  "sections": [
   {
    "title": "A Ward of Stormwind",
-   "body": "Residing in the orphanage near Stormwind's Cathedral of Light, Randis is one of many children left without family in the wake of the realm's persistent conflicts. When the annual Children's Week arrives, Orphan Matron Nightingale entrusts sympathetic heroes with a whistle to take him under their wing. Full of youthful curiosity and nonstop questions, Randis dreams of adventuring, asks endless riddles, and boldly declares that when he grows up, he wants to be the king of Stormwind.",
+   "body": "Randis lives in the orphanage near Stormwind's Cathedral of Light, one of many children left without family by the realm's conflicts. When Children's Week comes each year, Orphan Matron Nightingale gives sympathetic heroes a whistle and entrusts them with his care. Curious and full of questions, Randis dreams of adventure, asks riddles, and declares that he wants to be king of Stormwind when he grows up.",
    "spoiler": 0
   },
   {
    "title": "Eyes on the World",
-   "body": "For a boy who spends most of his days penned up in Cathedral Square, leaving the capital is a grand adventure. Though he is quick to note that places like Ironforge smell rather odd, his boundless wonder reflects the innocent future that heroes of the Alliance fight to protect.",
+   "body": "For Randis, who spends most days in Cathedral Square, leaving the capital is a grand adventure. He remarks that places like Ironforge smell odd, and his wonder shows what Alliance heroes fight to protect.",
    "spoiler": 0
   }
  ],
@@ -29,7 +29,7 @@
     "who is the human orphan",
     "human orphan stormwind"
    ],
-   "answer": "Randis is a human child staying at the Stormwind Orphanage in Cathedral Square. During the festivities of Children's Week, adventurers can volunteer to look after him and take him on travels across the world."
+   "answer": "Randis is a human child living at the Stormwind Orphanage in Cathedral Square. During Children's Week, willing adventurers can look after him and take him across Alliance lands."
   },
   {
    "q": "How do you meet Randis?",
@@ -38,7 +38,7 @@
     "summon randis",
     "orphan whistle stormwind"
    ],
-   "answer": "During Children's Week, Orphan Matron Nightingale in Cathedral Square provides adventurers with an orphan whistle. Blowing the whistle summons Randis so he can tag along on your adventures."
+   "answer": "During Children's Week, Orphan Matron Nightingale gives adventurers an orphan whistle in Cathedral Square. Blow it, and Randis comes along on your travels."
   },
   {
    "q": "What places does Randis want to visit?",
@@ -47,7 +47,7 @@
     "randis sights",
     "childrens week human orphan locations"
    ],
-   "answer": "Randis is eager to go anywhere beyond the walls of Stormwind with the hero who takes him along. He has been to Ironforge before, and he says it smells funny there."
+   "answer": "Randis wants to visit anywhere beyond Stormwind's walls with the hero who takes him along. He has visited Ironforge and says it smells funny there."
   },
   {
    "q": "Why is Randis living in an orphanage?",
@@ -56,13 +56,13 @@
     "why is randis an orphan",
     "stormwind orphanage lore"
    ],
-   "answer": "Like many children under Matron Nightingale's roof, Randis lost his parents to the constant wars, invasions, and hardships that have struck the kingdom of Stormwind and the wider lands of Azeroth."
+   "answer": "Randis lost his parents to the constant wars, invasions, and hardships that have struck Stormwind and the wider lands of Azeroth. Many children under Matron Nightingale's care share that loss."
   }
  ],
  "angles": [
   {
    "target": "faction:Alliance",
-   "text": "Mentoring Randis during Children's Week reminds Alliance champions what their battles are truly for: protecting the next generation of civilians and dreamers."
+   "text": "As an Alliance champion, caring for Randis during Children's Week reminds you that your battles protect the next generation of civilians and dreamers."
   }
  ],
  "keywords": [
@@ -82,5 +82,6 @@
  ],
  "attribution": [
   "Randis"
- ]
+ ],
+ "style": 1
 }

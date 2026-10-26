@@ -7,16 +7,16 @@
  "meta": {
   "wiki": "Valley of Heroes"
  },
- "summary": "The Valley of Heroes forms the monumental southern entrance to Stormwind City, carrying travellers across a stone bridge spanning the moat. Flanked by towering statues honoring the leaders of the Alliance Expedition to Draenor, it serves as both an awe-inspiring welcome and a heavily fortified checkpoint.",
+ "summary": "Stone statues watch over the Valley of Heroes, where Stormwind's southern road crosses the moat into the city. They honor the leaders of the Alliance Expedition to Draenor, and guards hold this fortified entrance.",
  "sections": [
   {
    "title": "A Monument to the Lost",
-   "body": "Erected during the grand rebuilding of Stormwind following the Second War, the statues lining the causeway commemorate the commanders of the Alliance Expedition. These champions marched through the Dark Portal into the orcish homeworld of Draenor to seal the rift forever, giving their lives so Azeroth might survive. Visitors proceeding north toward the Trade District pass beneath the visages of Archmage Khadgar, Kurdran Wildhammer, Ranger-Captain Alleria Windrunner, Force Commander Danath Trollbane, and High General Turalyon.",
+   "body": "You cross the moat beneath statues honoring the commanders of the Alliance Expedition. Stormwind's rebuilding after the Second War raised these monuments along the causeway. The champions marched through the Dark Portal into Draenor to seal the rift forever, giving their lives so Azeroth might survive. As you head north toward the Trade District, you pass Archmage Khadgar, Kurdran Wildhammer, Ranger-Captain Alleria Windrunner, Force Commander Danath Trollbane, and High General Turalyon.",
    "spoiler": 0
   },
   {
    "title": "The City Bastion",
-   "body": "Beyond its ceremonial role, the valley is the primary defensive choke point guarding Stormwind from overland invasion. The approaches are overseen by General Marcus Jonathan, commander of the city guard, who monitors all traffic entering and departing through the great gates astride his steed. Flanking commanders, including Major Mattingly and Field Marshal Stonebridge, maintain vigilance alongside rows of seasoned guards, ensuring the capital remains secure against external threats.",
+   "body": "General Marcus Jonathan watches Stormwind's gates from horseback, overseeing the guards and the traffic in and out. The valley is the city's main defense against an overland invasion. Major Mattingly, Field Marshal Stonebridge, and rows of seasoned guards keep watch beside him, guarding the capital from threats beyond its walls.",
    "spoiler": 0
   }
  ],
@@ -29,7 +29,7 @@
     "valley statues",
     "names on statues"
    ],
-   "answer": "The five colossal monuments depict the legendary commanders of the Sons of Lothar who led the Alliance Expedition to Draenor: High General Turalyon, Ranger-Captain Alleria Windrunner, Archmage Khadgar, Kurdran Wildhammer, and Force Commander Danath Trollbane."
+   "answer": "The five statues honor the commanders of the Sons of Lothar who led the Alliance Expedition to Draenor: High General Turalyon, Ranger-Captain Alleria Windrunner, Archmage Khadgar, Kurdran Wildhammer, and Force Commander Danath Trollbane."
   },
   {
    "q": "Why were these monuments placed at the city gate?",
@@ -37,7 +37,7 @@
     "why build statues here",
     "valley of heroes purpose"
    ],
-   "answer": "Constructed during the city's restoration after the Second War, the statues serve as an enduring tribute to the heroes assumed lost during the destruction of Draenor. They remind all who enter of the steep price paid to keep the kingdom safe."
+   "answer": "Stormwind raised the statues during its restoration after the Second War to honor heroes believed lost in Draenor's destruction. They remind those entering the city of the price paid to keep the kingdom safe."
   },
   {
    "q": "Who commands the guards stationed at the entrance?",
@@ -46,7 +46,7 @@
     "who is the guy on the horse",
     "who leads stormwind defense"
    ],
-   "answer": "General Marcus Jonathan, the supreme commander of the Stormwind City Guard, oversees the security of the valley directly from the front lines, supported by officers such as Major Mattingly and Field Marshal Stonebridge."
+   "answer": "General Marcus Jonathan commands the Stormwind City Guard and oversees security at the entrance. Major Mattingly and Field Marshal Stonebridge support him."
   },
   {
    "q": "Where does the Valley of Heroes lead?",
@@ -54,17 +54,17 @@
     "where does bridge go",
     "directions stormwind gate"
    ],
-   "answer": "Heading north over the bridge brings travelers directly into Stormwind City's bustling Trade District, while heading south exits the gates into the pastoral forests of Elwynn."
+   "answer": "The bridge leads north into Stormwind City's Trade District. South through the gates, the road enters Elwynn's forests."
   }
  ],
  "angles": [
   {
    "target": "faction:Alliance",
-   "text": "Every citizen of the Grand Alliance reveres the valley as a solemn testament to racial cooperation, honoring human, high elven, and dwarven martyrs side by side."
+   "text": "As a citizen of the Grand Alliance, you can honor the human, high elven, and dwarven martyrs remembered together in the valley."
   },
   {
    "target": "class:Paladin",
-   "text": "The statue of General Turalyon stands as a profound inspiration to paladins, immortalizing one of the original champions of the Knights of the Silver Hand."
+   "text": "As a paladin, you can look to the statue of General Turalyon, one of the original champions of the Knights of the Silver Hand."
   }
  ],
  "keywords": [
@@ -89,5 +89,6 @@
  ],
  "attribution": [
   "Valley of Heroes"
- ]
+ ],
+ "style": 1
 }

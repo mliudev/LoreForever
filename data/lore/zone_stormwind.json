@@ -13,36 +13,36 @@
    "Stormwind"
   ]
  },
- "summary": "Stormwind City is the bustling capital of the Kingdom of Stormwind and the premier human bastion in the world following the fall of Lordaeron. Rebuilt from ashes by the Stonemasons Guild after its destruction in the First War, its magnificent white stone districts now house the heart of the Grand Alliance. Beneath its majestic canals and cathedrals, however, the city grapples with the sudden disappearance of King Varian Wrynn and brewing political intrigue.",
+ "summary": "In Stormwind City, the crown rests on a young prince while King Varian is missing. Rebuilt after the First War, the city is now the heart of the Grand Alliance, though debt and political turmoil trouble its white stone districts.",
  "sections": [
   {
    "title": "Rise from the Ashes",
-   "body": "Founded over a millennium ago by the descendants of the Arathi, Stormwind stood for generations as a flourishing, self-sufficient realm. That golden era ended when the Orcish Horde poured through the Dark Portal, laying waste to the southern continent and razing the capital to the ground in the First War. Survivors led by Sir Anduin Lothar fled north across the Great Sea to Lordaeron. Following the Horde's defeat in the Second War, King Terenas Menethil II and the Alliance funded a complete reconstruction. The Stonemasons Guild painstakingly rebuilt the capital into New Stormwind\u2014a gleaming citadel of polished white stone and canal-laced boroughs.",
+   "body": "Stormwind was founded over a thousand years ago by descendants of the Arathi. For generations, it was a flourishing, self-sufficient realm. The Orcish Horde crossed the Dark Portal and laid waste to the southern continent, razing the capital during the First War. Survivors followed Sir Anduin Lothar north across the Great Sea to Lordaeron. After the Horde fell in the Second War, King Terenas Menethil II and the Alliance paid to rebuild the city. The Stonemasons Guild raised New Stormwind from polished white stone, with canals running through its boroughs.",
    "spoiler": 0
   },
   {
    "title": "A Divided Court",
-   "body": "Despite its outward majesty, the capital is locked in domestic turmoil. A dispute between the House of Nobles and the Stonemasons Guild over wages left the kingdom paralyzed by debt. The guild rioted, and its workers were driven from the city they had built. Now, King Varian Wrynn has mysteriously vanished en route to a diplomatic summit. To avert panic, the crown was placed upon his young son, ten-year-old Prince Anduin Wrynn, with Highlord Bolvar Fordragon ruling as Regent and military commander alongside royal advisor Lady Katrana Prestor.",
+   "body": "Stormwind’s grand appearance hides a kingdom in debt and a court divided. The House of Nobles and the Stonemasons Guild fought over wages, and the dispute left the kingdom paralyzed by debt. The guild’s workers rioted and were driven from the city they had built. King Varian Wrynn has vanished on his way to a diplomatic summit. To keep panic at bay, the crown went to his ten-year-old son, Prince Anduin Wrynn. Highlord Bolvar Fordragon now rules as Regent and military commander, with royal advisor Lady Katrana Prestor at his side.",
    "spoiler": 0
   },
   {
    "title": "Heart of the Grand Alliance",
-   "body": "With Lordaeron overrun by the Scourge, Stormwind has inherited the mantle of humanity's greatest haven and the epicenter of the Alliance. It connects directly to the dwarven kingdom of Ironforge via High Tinker Mekkatorque's subterranean Deeprun Tram. Visitors crossing the Valley of Heroes are greeted by towering statues of the Sons of Lothar who vanished beyond the Dark Portal. From the spiritual beacon of the Cathedral of Light to the arcane studies within the Wizard's Sanctum, Stormwind stands as the supreme hub of trade, culture, and defense across the southern seas.",
+   "body": "With Lordaeron overrun by the Scourge, Stormwind has become humanity’s greatest haven and the Alliance’s center. High Tinker Mekkatorque’s underground Deeprun Tram links the city directly to Ironforge, the dwarven kingdom. Across the Valley of Heroes, towering statues honor the Sons of Lothar, who vanished beyond the Dark Portal. The Cathedral of Light draws the faithful, while the Wizard’s Sanctum houses arcane study. Trade, culture, and defense across the southern seas all meet in Stormwind.",
    "spoiler": 0
   },
   {
    "title": "Where the Masons Went",
    "spoiler": 1,
-   "body": "The stonemasons did not scatter. Their guildmaster, Edwin VanCleef, led them into Westfall and remade them as the Defias Brotherhood, the red-masked bandits now strangling the kingdom's farmland. The men who raised Stormwind's white walls have sworn to see the House of Nobles pay for every stone."
+   "body": "The stonemasons gathered again in Westfall under their guildmaster, Edwin VanCleef. There they became the Defias Brotherhood, red-masked bandits now strangling the kingdom’s farmland. The builders of Stormwind’s white walls have sworn to make the House of Nobles pay for every stone."
   },
   {
    "title": "A Friend at Court",
    "spoiler": 1,
-   "body": "The Brotherhood never worked from Westfall alone. Some of its coin and secrets came from inside the Keep itself: Lord Gregor Lescovar of the House of Nobles was dealing with the Defias in secret, passing them word of the kingdom's plans while he sat among the lords who had cheated them."
+   "body": "The Defias Brotherhood found help within Stormwind Keep. Lord Gregor Lescovar of the House of Nobles secretly dealt with the Brotherhood, passing along the kingdom’s plans while sitting among the lords who had cheated the stonemasons."
   },
   {
    "title": "Shadows in the Keep",
-   "body": "The discord plaguing the kingdom is no mere administrative accident. Lady Katrana Prestor has covertly guided the decisions of the House of Nobles, inflaming hostility with the stonemasons and willfully neglecting appeals for military relief from outlying settlements like Westfall and Redridge. By whispering poison into the ears of Highlord Bolvar and dividing the realm's attention, she works to keep Stormwind\u2019s legions idle and divided while unrest festering beyond the city walls threatens the throne itself.",
+   "body": "Lady Katrana Prestor has secretly guided the House of Nobles’ decisions. She inflamed its conflict with the stonemasons and ignored pleas for military aid from settlements such as Westfall and Redridge. She also whispered poison to Highlord Bolvar, keeping Stormwind’s legions idle and divided as unrest beyond the city walls threatens the throne.",
    "spoiler": 2
   }
  ],
@@ -55,7 +55,7 @@
     "who leads stormwind",
     "king of stormwind"
    ],
-   "answer": "Ten-year-old Prince Anduin Wrynn holds the crown, but actual governance is handled by Highlord Bolvar Fordragon, who acts as Regent of Stormwind and supreme commander of its military. Bolvar relies heavily on the counsel of royal advisor Lady Katrana Prestor while King Varian Wrynn remains missing."
+   "answer": "Ten-year-old Prince Anduin Wrynn holds Stormwind’s crown, while Highlord Bolvar Fordragon governs as Regent and commands its military. Bolvar relies on royal advisor Lady Katrana Prestor’s counsel as King Varian Wrynn remains missing."
   },
   {
    "q": "What happened to King Varian Wrynn?",
@@ -65,7 +65,7 @@
     "varian gone",
     "varian wrynn missing"
    ],
-   "answer": "King Varian vanished under suspicious circumstances while traveling by ship to a diplomatic summit in Theramore. His disappearance was kept quiet to maintain stability, though rumors run rampant through the streets and countryside."
+   "answer": "King Varian vanished under suspicious circumstances while sailing to a diplomatic summit in Theramore. His disappearance was kept quiet to preserve stability, though rumors spread through the streets and countryside."
   },
   {
    "q": "Why was the city rebuilt, and by whom?",
@@ -75,7 +75,7 @@
     "new stormwind",
     "city rebuilding"
    ],
-   "answer": "The original city was burned to the ground by the Orcish Horde during the First War. After the Second War, the Stonemasons Guild, led by master craftsman Edwin VanCleef, painstakingly rebuilt the capital out of gleaming white stone with financial backing from the Alliance of Lordaeron."
+   "answer": "The Orcish Horde burned the original city to the ground during the First War. After the Second War, the Alliance of Lordaeron funded the rebuilding, and master craftsman Edwin VanCleef led the Stonemasons Guild in raising the capital from white stone."
   },
   {
    "q": "Why did the stonemasons rebel against the crown?",
@@ -84,7 +84,7 @@
     "why defias mad",
     "stonemasons riot"
    ],
-   "answer": "The House of Nobles amassed heavy debts expanding Stormwind's military and refused to pay the Stonemasons Guild their promised wages. When Edwin VanCleef demanded restitution, the nobles disbanded the guild. The workers rioted, and the guild was driven out of the city."
+   "answer": "The House of Nobles took on heavy debts while expanding Stormwind’s military, then refused to pay the Stonemasons Guild its promised wages. When Edwin VanCleef demanded payment, the nobles disbanded the guild. The workers rioted and were driven from the city."
   },
   {
    "q": "Who are the giant statues in the Valley of Heroes?",
@@ -93,7 +93,7 @@
     "valley of heroes statues",
     "sons of lothar statues"
    ],
-   "answer": "The statues honor the Sons of Lothar: General Turalyon, Ranger Captain Alleria Windrunner, Archmage Khadgar, Kurdran Wildhammer, and Danath Trollbane. They were raised to commemorate the heroes who ventured through the Dark Portal to draenor to seal the rift and protect Azeroth."
+   "answer": "The Valley of Heroes honors the Sons of Lothar: General Turalyon, Ranger Captain Alleria Windrunner, Archmage Khadgar, Kurdran Wildhammer, and Danath Trollbane. The statues commemorate the heroes who entered the Dark Portal to draenor to seal the rift and protect Azeroth."
   },
   {
    "q": "How does Stormwind connect to Ironforge?",
@@ -102,7 +102,7 @@
     "train to ironforge",
     "how to get to ironforge"
    ],
-   "answer": "Stormwind is connected to Ironforge by the Deeprun Tram, a subterranean railway built by High Tinker Gelbin Mekkatorque and commissioned by King Magni Bronzebeard to enable swift trade and rapid military reinforcement between both capitals."
+   "answer": "The Deeprun Tram, an underground railway, connects Stormwind to Ironforge. High Tinker Gelbin Mekkatorque built it at King Magni Bronzebeard’s request, so the capitals could trade swiftly and reinforce one another in war."
   },
   {
    "q": "Why isn't Stormwind sending troops to help Westfall and Redridge?",
@@ -111,29 +111,29 @@
     "why no help for westfall",
     "reinforcements refused"
    ],
-   "answer": "The royal court, heavily advised by Lady Katrana Prestor, insists the city cannot spare troops from its own walls and immediate borders. With the kingdom's finances stressed and political infighting paralyzing the House of Nobles, regional towns have been abandoned to rely on local militias."
+   "answer": "The royal court, guided by Lady Katrana Prestor, says Stormwind cannot spare troops from its walls and nearby borders. Kingdom finances are strained, and political infighting has paralyzed the House of Nobles, leaving regional towns to depend on their local militias."
   }
  ],
  "angles": [
   {
    "target": "race:Human",
-   "text": "Stormwind stands as your people's last great seat of sovereign power following the destruction of Lordaeron, Alterac, and Dalaran in the north."
+   "text": "As a human, Stormwind is your people’s last great seat of sovereign power after Lordaeron, Alterac, and Dalaran fell in the north."
   },
   {
    "target": "faction:Alliance",
-   "text": "As the most populous metropolis within the Grand Alliance, Stormwind provides naval might, spiritual grounding, and vital diplomatic leadership."
+   "text": "As an Alliance member, you can look to Stormwind for naval might, spiritual grounding, and vital diplomatic leadership. It is the Grand Alliance’s most populous metropolis."
   },
   {
    "target": "class:Paladin",
-   "text": "The Cathedral of Light serves as the supreme sanctuary of your faith in the south, training knights of the Silver Hand and upholding justice."
+   "text": "As a paladin, you can find the Cathedral of Light, the south’s chief sanctuary of your faith. It trains knights of the Silver Hand and upholds justice."
   },
   {
    "target": "class:Rogue",
-   "text": "Beneath the pristine stone streets lies the SI:7 headquarters in Old Town, operating the Alliance's primary intelligence and espionage network."
+   "text": "As a rogue, you can find SI:7’s headquarters beneath Old Town’s stone streets. It runs the Alliance’s chief intelligence and espionage network."
   },
   {
    "target": "race:Dwarf",
-   "text": "Through the Deeprun Tram, your kin in the Dwarven District maintain deep commercial ties and forge brotherly military bonds with the human kingdom."
+   "text": "As a dwarf, you can travel the Deeprun Tram to your kin in the Dwarven District. They maintain close trade and military ties with the human kingdom."
   }
  ],
  "keywords": [
@@ -159,5 +159,6 @@
  ],
  "attribution": [
   "Stormwind City"
- ]
+ ],
+ "style": 1
 }

@@ -10,11 +10,11 @@
    "quest:33"
   ]
  },
- "summary": "Tough Wolf Meat is raw game meat harvested from the predatory timber wolves and young wolves prowling Northshire Valley and Coldridge Valley. Though coarse and stringy, it serves as a staple ration for hungry locals like Eagan Peltskinner in Elwynn Forest and dwarven outfitters in Dun Morogh.",
+ "summary": "Northshire and Coldridge wolves prowl their valleys, leaving raw Tough Wolf Meat for hungry locals. Coarse and stringy, it feeds people in Elwynn Forest and supplies dwarven outfitters in Dun Morogh.",
  "sections": [
   {
    "title": "Frontier Rations",
-   "body": "The wolves roaming the outskirts of Northshire Valley and Dun Morogh pose a constant menace to local settlements, but they also offer a gritty source of sustenance. Tough Wolf Meat is notoriously sinewy and chewy compared to prime game, yet resource-strapped frontiersmen prize it all the same. Outside Northshire Abbey, Eagan Peltskinner despises the beasts for their viciousness but happily cooks their meat into rustic steaks, eagerly trading basic supplies and gear to anyone willing to cull the packs.",
+   "body": "Wolves prowl near Northshire Valley and Dun Morogh, threatening nearby settlements and providing a hard-won source of food. Their meat is coarse, stringy, and chewy, but resource-strapped frontiersmen prize it. Outside Northshire Abbey, Eagan Peltskinner hates the vicious beasts yet cooks their meat into steaks. He trades basic supplies and gear to those willing to cull the packs.",
    "spoiler": 0
   }
  ],
@@ -26,7 +26,7 @@
     "how to get tough wolf meat",
     "where to farm tough wolf meat"
    ],
-   "answer": "It is gathered by hunting young wolves and timber wolves in Northshire Valley within Elwynn Forest, as well as ragged wolves inhabiting Coldridge Valley in Dun Morogh."
+   "answer": "Hunting young wolves and timber wolves in Northshire Valley in Elwynn Forest, and ragged wolves in Coldridge Valley in Dun Morogh, provides Tough Wolf Meat."
   },
   {
    "q": "Who wants to collect this meat in Elwynn Forest?",
@@ -35,7 +35,7 @@
     "eagan peltskinner meat",
     "wolf meat turn in"
    ],
-   "answer": "Eagan Peltskinner, stationed just outside Northshire Abbey, collects it. Despite hating the wolves, he loves grilling wolf steaks and trades spare equipment to new recruits who bring him eight cuts."
+   "answer": "Eagan Peltskinner, outside Northshire Abbey, collects the meat. He hates the wolves but cooks their meat into steaks and trades spare equipment to new recruits who bring him eight cuts."
   },
   {
    "q": "Is this meat useful outside of human lands?",
@@ -44,7 +44,7 @@
     "dwarf wolf meat",
     "dwarven outfitters meat"
    ],
-   "answer": "Yes. In the frigid reaches of Dun Morogh, dwarven outfitters also accept tough wolf meat harvested from ragged wolves in Coldridge Valley to keep supplies stocked."
+   "answer": "Yes. Dwarven outfitters in frigid Dun Morogh accept meat from ragged wolves in Coldridge Valley to keep their supplies stocked."
   },
   {
    "q": "Is Tough Wolf Meat used in normal cooking recipes?",
@@ -52,17 +52,17 @@
     "can you cook tough wolf meat",
     "tough wolf meat recipes"
    ],
-   "answer": "No. Tough Wolf Meat is strictly a quest bounty gathered for local frontiersmen like Eagan Peltskinner and Coldridge outfitters, rather than an ingredient used in standard camp cooking recipes."
+   "answer": "No. Tough Wolf Meat is strictly a bounty for local frontiersmen such as Eagan Peltskinner and Coldridge outfitters, not an ingredient in standard camp cooking recipes."
   }
  ],
  "angles": [
   {
    "target": "race:Human",
-   "text": "For fresh recruits in Northshire Valley, gathering wolf meat for Eagan Peltskinner is one of the earliest survival tasks assigned outside the abbey's quiet cloisters."
+   "text": "As a human recruit in Northshire Valley, you can gather wolf meat for Eagan Peltskinner outside the abbey. It is one of the earliest survival tasks beyond its quiet cloisters."
   },
   {
    "target": "race:Dwarf",
-   "text": "Coldridge Valley dwarves frequently cull ragged timber wolves for meat to help supply the local outfitters before setting off across Dun Morogh."
+   "text": "As a dwarf in Coldridge Valley, you can cull ragged timber wolves for meat to supply local outfitters before setting off across Dun Morogh."
   }
  ],
  "keywords": [
@@ -85,5 +85,6 @@
  "attribution": [
   "Tough Wolf Meat",
   "Wolves Across the Border"
- ]
+ ],
+ "style": 1
 }

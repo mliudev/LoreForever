@@ -17,16 +17,16 @@
   "wiki": "Desperate Prayer (Cathedral Square)",
   "chain": []
  },
- "summary": "Desperate Prayer is a rite of passage for fledgling human priests in Stormwind City. Bestowed by High Priestess Laurena in the Cathedral of Light, it marks an acolyte's dedication to preserving life across the turbulent lands of the Alliance. By completing this spiritual instruction, priests are granted an emergency blessing to heal their own wounds when all else fails.",
+ "summary": "In Stormwind, human priests seek a prayer for their own hour of need. At the Cathedral of Light, High Priestess Laurena teaches acolytes to call on the Holy Light when their lives are at risk.",
  "sections": [
   {
    "title": "A Plea in the Dark",
-   "body": "Priests serving within the Cathedral of Light are taught to channel their faith outward to shield comrades, mend mortal wounds, and smite evil. Yet even the most devout servants of the Holy Light find themselves isolated, cornered, or pushed to the edge of mortal endurance. Desperate Prayer represents an intimate, emergency communion\u2014a raw cry for divine intervention when an acolyte's personal survival hangs by a thread.",
+   "body": "Priests in the Cathedral of Light learn to use their faith to shield companions, heal wounds, and strike at evil. Yet even the devout can be isolated, cornered, or brought close to death. In such moments, an acolyte may cry out to the Holy Light for help, with their own survival at stake.",
    "spoiler": 0
   },
   {
    "title": "The Cathedral's Blessing",
-   "body": "High Priestess Laurena oversees many of the clergy within Stormwind's Cathedral Square, assessing when an acolyte has proven worthy of deeper doctrinal secrets. By demonstrating true dedication to the virtues of the Light across the kingdom, human initiates receive this sacred lesson not merely as an instrument of survival, but as a solemn affirmation that their continued service remains essential to the realm.",
+   "body": "High Priestess Laurena guides clergy in Stormwind's Cathedral Square and judges when an acolyte is ready for deeper teachings. Human initiates who show devotion to the Light across the kingdom receive this lesson as both protection and a charge to continue serving the realm.",
    "spoiler": 0
   }
  ],
@@ -38,7 +38,7 @@
     "why desperate prayer",
     "desperate prayer purpose"
    ],
-   "answer": "Desperate Prayer is an emergency invocation of the Holy Light granted to human and dwarf priests. It allows a wounded priest to instantly call down divine energy to mend their own critical injuries without taking time to chant long incantations."
+   "answer": "Desperate Prayer lets a wounded priest call on the Holy Light to heal their own critical injuries at once, without a long chant."
   },
   {
    "q": "Who grants this lesson in Stormwind?",
@@ -47,7 +47,7 @@
     "where to get desperate prayer",
     "high priestess laurena quest"
    ],
-   "answer": "High Priestess Laurena, who ministers inside the grand Cathedral of Light in Stormwind's Cathedral Square, bestows the lesson once an acolyte demonstrates sufficient devotion and experience in the wider world."
+   "answer": "High Priestess Laurena grants this lesson in the Cathedral of Light in Stormwind's Cathedral Square, once an acolyte has shown devotion and experience in the wider world."
   },
   {
    "q": "Why do priests receive this specific teaching?",
@@ -55,7 +55,7 @@
     "why do priests get desperate prayer",
     "lore behind desperate prayer"
    ],
-   "answer": "Priests of the Holy Light often throw themselves into peril to aid others. Desperate Prayer serves as a sacred safeguard, ensuring that when healers find themselves abandoned or gravely hurt, their faith can preserve their own lives."
+   "answer": "Priests of the Holy Light risk their lives to aid others. This prayer can help preserve a healer's life when they are alone or badly hurt."
   },
   {
    "q": "Can any adventurer learn Desperate Prayer here?",
@@ -63,7 +63,7 @@
     "can anyone learn desperate prayer",
     "is this quest priest only"
    ],
-   "answer": "No. This quest and lesson are strictly reserved for priests attuned to the teachings of the Holy Light who study under the guidance of the Church of the Light."
+   "answer": "No. Only priests devoted to the Holy Light and guided by the Church of the Light receive this lesson."
   },
   {
    "q": "Where does this rite take place?",
@@ -71,7 +71,7 @@
     "desperate prayer location",
     "where is laurena"
    ],
-   "answer": "It takes place in the Cathedral of Light, the towering spiritual heart of the Alliance situated in the northern district of Stormwind City."
+   "answer": "The rite takes place in the Cathedral of Light, in the northern district of Stormwind City."
   },
   {
    "q": "Is Desperate Prayer unique to human priests?",
@@ -79,21 +79,21 @@
     "do other races get desperate prayer",
     "dwarf desperate prayer"
    ],
-   "answer": "Within Alliance lands, both human and dwarven clergy share access to Desperate Prayer, as both peoples venerate the Holy Light through closely allied clerical traditions centered around Stormwind and Ironforge."
+   "answer": "Both human and dwarven clergy in Alliance lands have access to Desperate Prayer, through their closely allied traditions of worshiping the Holy Light in Stormwind and Ironforge."
   }
  ],
  "angles": [
   {
    "target": "class:Priest",
-   "text": "This rite represents your transition from an apprentice acolyte into an active servant of the Holy Light capable of surviving deadly trials in the field."
+   "text": "As a priest, this rite marks your passage from apprentice acolyte to an active servant of the Holy Light, prepared to survive deadly trials in the field."
   },
   {
    "target": "race:Human",
-   "text": "Human priests receive this teaching directly from the hierarchy of the Cathedral of Light, reinforcing Stormwind's role as the preeminent seat of human faith."
+   "text": "As a human, you receive this teaching from the Cathedral of Light's clergy, affirming Stormwind's place as the foremost seat of human faith."
   },
   {
    "target": "faction:Alliance",
-   "text": "The preservation of frontline healers through blessings like Desperate Prayer is vital to sustaining Alliance soldiers across dangerous frontiers."
+   "text": "As a member of the Alliance, you know that blessings like Desperate Prayer help keep frontline healers alive to tend soldiers on dangerous frontiers."
   }
  ],
  "keywords": [
@@ -112,5 +112,6 @@
  ],
  "attribution": [
   "Desperate Prayer (Cathedral Square)"
- ]
+ ],
+ "style": 1
 }
