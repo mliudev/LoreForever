@@ -10,16 +10,16 @@
    "quest:83"
   ]
  },
- "summary": "A red linen bandana is the distinctive facial mask worn by members of the Defias Brotherhood across Elwynn Forest. Beyond concealing a bandit's identity, the cloth is woven from quality linen that resourceful locals often repurpose into useful garments.",
+ "summary": "Across Elwynn Forest, Red Linen Bandana marks the Defias Brotherhood. Its cloth hides a wearer’s face and can be put to use by local settlers.",
  "sections": [
   {
    "title": "Mark of the Defias",
-   "body": "While lower-ranking initiates and common thugs in Northshire Valley make do with coarse burlap face masks, full-fledged Defias operatives throughout Elwynn Forest wear woven red linen bandanas. The bright crimson fabric serves as both a uniform and a statement of allegiance to Edwin VanCleef's rogue fraternity, disguising faces while signaling insurrection against the crown of Stormwind.",
+   "body": "Across Elwynn Forest, full Defias operatives wear woven red linen bandanas. In Northshire Valley, lower-ranking initiates and common thugs use coarse burlap masks instead. The crimson cloth hides a face and marks allegiance to Edwin VanCleef's rogue fraternity. It also signals their rebellion against Stormwind's crown.",
    "spoiler": 0
   },
   {
    "title": "Repurposed Cloth",
-   "body": "Despite their violent associations, the bandanas are cut from respectable yardage. Pragmatic settlers like Sara Timberlain at the Eastvale Logging Camp routinely ask travelers to collect them from outlaw encampments. With a bit of washing and needlework, the contraband cloth is transformed into sturdy clothing and bandages for the working folk of the forest.",
+   "body": "Sara Timberlain at the Eastvale Logging Camp asks travelers to gather bandanas from outlaw encampments. Though tied to bandits, the masks are made from respectable linen. After washing and needlework, settlers can turn the cloth into sturdy clothing and bandages for the forest's working folk.",
    "spoiler": 0
   }
  ],
@@ -31,7 +31,7 @@
     "why red masks",
     "defias red bandana"
    ],
-   "answer": "The red bandana serves as a uniform and badge of defiance against Stormwind, concealing the wearer's identity while displaying loyalty to Edwin VanCleef's brotherhood."
+   "answer": "Defias operatives wear red linen bandanas to hide their faces and show allegiance to Edwin VanCleef's brotherhood and defiance of Stormwind."
   },
   {
    "q": "How do these differ from the masks worn in Northshire?",
@@ -40,7 +40,7 @@
     "northshire masks",
     "burlap bandana"
    ],
-   "answer": "Thugs operating in Northshire Valley wear rough burlap masks, whereas established Defias operatives throughout Elwynn Forest wear finer red linen."
+   "answer": "Northshire Valley thugs wear coarse burlap masks, while established Defias operatives across Elwynn Forest wear finer red linen."
   },
   {
    "q": "Who wants to collect these bandanas?",
@@ -49,7 +49,7 @@
     "sara timberlain bandana",
     "bandana quest turn in"
    ],
-   "answer": "Sara Timberlain at the Eastvale Logging Camp collects them. Being a seamstress short on cloth, she washes and unravels the bandit masks to weave into practical garments."
+   "answer": "Sara Timberlain at the Eastvale Logging Camp wants the bandanas. She washes and unravels the masks to weave practical garments."
   },
   {
    "q": "Which enemies carry red linen bandanas?",
@@ -58,17 +58,17 @@
     "where to farm bandanas",
     "defias bandana drops"
    ],
-   "answer": "Nearly all Defias operatives in Elwynn Forest carry them, including Defias Bandits, Ambushers, Rogue Wizards, dockworkers, and ringleaders such as Morgan the Collector."
+   "answer": "Defias operatives across Elwynn Forest carry red linen bandanas, including Defias Bandits, Ambushers, Rogue Wizards, dockworkers, and ringleaders such as Morgan the Collector."
   }
  ],
  "angles": [
   {
    "target": "profession:Tailoring",
-   "text": "The bandanas illustrate how valuable raw woven linen remains in rural Elwynn, where common weavers repurpose bandit colors into working clothes."
+   "text": "In rural Elwynn, weavers can put the linen in bandit masks to use as working clothes."
   },
   {
    "target": "class:Rogue",
-   "text": "A crimson cloth tied across the lower face has become the iconic visage of highwaymen and cutpurses throughout the woods surrounding the capital."
+   "text": "As a rogue, you know the crimson cloth tied across the lower face as the mark of highwaymen and cutpurses in the woods around the capital."
   }
  ],
  "keywords": [
@@ -91,5 +91,6 @@
  "attribution": [
   "Red Linen Bandana",
   "Red Linen Goods"
- ]
+ ],
+ "style": 1
 }

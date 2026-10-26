@@ -7,6 +7,16 @@ wrap long bullets with an indented continuation line.
 
 ## Unreleased
 
+## 0.29.0 (2026-10-25)
+
+- **The Chronicle, reworked:** Here stays a conversation that links to pages, Found is your collection with filters and sorting, and the Road and Storylines lead into it, quests in the order you took them.
+- **Rewritten lore, read aloud:** Elwynn, Westfall and the starting area tell their new stories in both narrators' voices.
+- **Sign in with your email:** no Google account needed. Type your address and the code we email you.
+- **Willo knows your character:** your gear, talents and professions from your last /reload, in any game language, for upgrades, dungeon readiness and talent builds.
+- **Willo plans your leveling:** where to level next, the best quest towns, and where to gather herbs and ores at your skill.
+- **Willo helps with dungeons and damage:** levels, bosses and quests to pick up first, plus the stat and damage advice players trade, never a made-up number.
+- **Lighter saved data:** your questions stay in Here and History instead of being copied onto every page.
+
 ## 0.28.0 (2026-10-25)
 
 - **Your Chronicle is an open book:** a parchment book with Here, Found, Road and Storylines as ribbons, and a note with Listen whenever you find a new person, place or item.

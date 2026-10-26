@@ -7,16 +7,16 @@
  "meta": {
   "wiki": "Trade District"
  },
- "summary": "The Trade District is the bustling commercial heart of Stormwind City, located immediately past the main gates and the Valley of Heroes. It serves as the primary hub for adventurers and citizens alike, housing the city's central bank, auction house, guild registry, and diverse merchant shops.",
+ "summary": "Past the Valley of Heroes, Trade District draws Stormwind’s merchants and travelers. Its bank, Auction House, guild registry, and shops serve citizens and adventurers alike.",
  "sections": [
   {
    "title": "The Crossroads of Commerce",
-   "body": "Crossing beneath the stone arches from the Valley of Heroes brings travelers directly into the Trade District. This vibrant open plaza acts as Stormwind's primary marketplace and logistical hub. At its center stands the Auction House, flanked nearby by the Stormwind Counting House, the city's main bank, and the popular tavern known as The Gilded Rose. The district directly bridges the gap between the military enclave of Old Town, the serene Cathedral Square, and the arcane avenues of the Mage Quarter, ensuring that coin, raw goods, and adventuring supplies circulate swiftly through the realm.",
+   "body": "You pass beneath the stone arches from the Valley of Heroes into Trade District. The open plaza is Stormwind’s main marketplace and a hub for goods and travel. The Auction House stands at its center, with the Stormwind Counting House, the city’s main bank, and The Gilded Rose nearby. From here, routes lead to Old Town, the Cathedral Square, and the Mage Quarter. Coin, raw goods, and supplies for adventurers pass through the district on their way across the realm.",
    "spoiler": 0
   },
   {
    "title": "Bazaars and Guild Halls",
-   "body": "Every essential commodity can be acquired along the paved avenues and flanking canals. Weapon smiths at Weller's Arsenal and Lionheart Armory supply blades and mail, fletchers peddle bows at The Empty Quiver, and artisanal stalls offer everything from fresh flowers to fine aged vintages from the Gallina Winery. Just inside the gates, the Stormwind Visitor's Center coordinates newly registered charters and tabard designs for organized adventuring guilds, while an elevated ramp on the eastern side climbs toward the Gryphon Roost, linking the capital's mercantile life to the rest of the Alliance territories.",
+   "body": "Shops line the paved avenues and canals, offering goods for daily needs and travel. Weller’s Arsenal and Lionheart Armory sell blades and mail, while The Empty Quiver offers bows. Stalls sell fresh flowers and aged vintages from the Gallina Winery. Just inside the gates, the Stormwind Visitor’s Center handles newly registered guild charters and tabard designs. On the eastern side, an elevated ramp leads to the Gryphon Roost, connecting Stormwind’s markets with Alliance territories.",
    "spoiler": 0
   }
  ],
@@ -28,7 +28,7 @@
     "where is trade district",
     "how to get to trade district"
    ],
-   "answer": "The Trade District sits just past the city's main entrance gates and the Valley of Heroes. It connects directly to Cathedral Square to the northwest, Old Town to the east, and the Mage Quarter across the canals to the southwest."
+   "answer": "Trade District lies just past Stormwind’s main gates and the Valley of Heroes. Cathedral Square is to the northwest, Old Town to the east, and the Mage Quarter lies across the canals to the southwest."
   },
   {
    "q": "Where can I find the bank and the inn?",
@@ -37,7 +37,7 @@
     "gilded rose location",
     "stormwind bank trade district"
    ],
-   "answer": "The Stormwind Counting House (the primary city bank) and The Gilded Rose inn are situated along the southwest perimeter of the Trade District, directly convenient to the main thoroughfare."
+   "answer": "The Stormwind Counting House and The Gilded Rose are along Trade District’s southwest perimeter, near the main thoroughfare."
   },
   {
    "q": "Where do I register a guild or design a tabard in Stormwind?",
@@ -46,7 +46,7 @@
     "guild registrar",
     "make a guild"
    ],
-   "answer": "The Stormwind Visitor's Center, located on your left immediately upon entering the Trade District from the city gates, houses the Guild Master and tabard design services."
+   "answer": "The Stormwind Visitor’s Center is on your left just inside Trade District’s city gates. The Guild Master and tabard design services are there."
   },
   {
    "q": "Where can I take a gryphon flight from the Trade District?",
@@ -55,13 +55,13 @@
     "gryphon roost stormwind",
     "where is flight master"
    ],
-   "answer": "A stone ramp on the eastern side of the Trade District leads directly up to the Gryphon Roost, where the flight master dispatches gryphons across the kingdom and beyond."
+   "answer": "Take the stone ramp on Trade District’s eastern side to reach the Gryphon Roost, where the flight master sends gryphons across the kingdom and beyond."
   }
  ],
  "angles": [
   {
    "target": "faction:Alliance",
-   "text": "For Alliance champions, the Trade District is the quintessential hub for banking, trading at the Auction House, organizing guilds, and taking flight across the Eastern Kingdoms."
+   "text": "As an Alliance champion, you can bank, trade at the Auction House, organize your guild, and take flight from Trade District."
   }
  ],
  "keywords": [
@@ -85,5 +85,6 @@
  ],
  "attribution": [
   "Trade District"
- ]
+ ],
+ "style": 1
 }

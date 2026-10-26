@@ -20,16 +20,16 @@
    "Mirror Lake (quest)"
   ]
  },
- "summary": "Speak with Jennea is an introductory summoning summons directed at novice Alliance mages who have advanced beyond basic training in Elwynn Forest. Dispatched by the trainer Zaldimar Wefhellt in Goldshire, initiates are directed to report directly to Jennea Cannon in the Wizard's Sanctum within Stormwind City.",
+ "summary": "In Goldshire, Zaldimar Wefhellt sends novice mages to Stormwind for further instruction. He directs apprentices who have advanced beyond basic training in Elwynn Forest to Jennea Cannon in the Wizard's Sanctum.",
  "sections": [
   {
    "title": "A Call to the Wizard's Sanctum",
-   "body": "Once an apprentice mage shows sufficient mastery of elementary spells in Goldshire, Zaldimar Wefhellt recognizes that field training under local tutors has run its course. Rather than lingering indefinitely in Elwynn's hamlets, promising spellcasters are directed into Stormwind City itself. At the heart of the Mage Quarter looms the Wizard's Sanctum, a sprawling sanctuary of arcane research and instruction where the realm's senior practitioners coordinate broader magical matters across the kingdom.",
+   "body": "Zaldimar Wefhellt sends you from Goldshire to Stormwind City as your training advances. Your time learning elementary spells from local tutors in Elwynn's hamlets has run its course. In the Mage Quarter, the Wizard's Sanctum is where the kingdom's senior mages pursue arcane study and instruction. They coordinate magical matters across the realm.",
    "spoiler": 0
   },
   {
    "title": "Matters of Kingdom Security",
-   "body": "Zaldimar emphasizes that reporting to Stormwind is far more than a routine scholastic promotion; a specific task has arisen that directly impacts the security of Elwynn Forest and Stormwind alike. Upon arrival, the apprentice reports to Jennea Cannon, an established mage who oversees vital local assignments. While Jennea remains measured and cautious about divulging grand secrets to a freshly arrived apprentice, reporting to her marks the start of direct service to the wizarding order.",
+   "body": "Zaldimar says your report concerns the security of Elwynn Forest and Stormwind, not only your studies. In Stormwind, you report to Jennea Cannon, a mage who oversees local assignments. She is cautious about sharing grand secrets with a newly arrived apprentice, but your report begins your service to the wizarding order.",
    "spoiler": 0
   }
  ],
@@ -41,7 +41,7 @@
     "who gives quest",
     "zaldimar"
    ],
-   "answer": "Zaldimar Wefhellt, the human mage trainer stationed inside the Lion's Pride Inn at Goldshire, initiates the quest once you reach sufficient arcane proficiency."
+   "answer": "Zaldimar Wefhellt, the mage trainer at the Lion's Pride Inn in Goldshire, sends you once your arcane skills have advanced enough."
   },
   {
    "q": "Where can I find Jennea Cannon?",
@@ -50,7 +50,7 @@
     "where is jennea",
     "find jennea"
    ],
-   "answer": "Jennea Cannon resides inside the Wizard's Sanctum, located in the center of the Mage Quarter in Stormwind City. She is found studying within the sanctum's mystical halls."
+   "answer": "Jennea Cannon is in the Wizard's Sanctum, in the center of Stormwind City's Mage Quarter."
   },
   {
    "q": "What is the Wizard's Sanctum?",
@@ -58,7 +58,7 @@
     "what is wizards sanctum",
     "mage tower stormwind"
    ],
-   "answer": "The Wizard's Sanctum is the prominent magical spire in Stormwind's Mage Quarter. It serves as the primary academy, library, and operational base for the kingdom's mages and arcane scholars."
+   "answer": "The Wizard's Sanctum is a prominent magical spire in Stormwind's Mage Quarter. The kingdom's mages and arcane scholars use it as an academy, library, and base of operations."
   },
   {
    "q": "Why does Zaldimar send me to Jennea instead of handling it himself?",
@@ -66,7 +66,7 @@
     "why go to stormwind",
     "why jennea"
    ],
-   "answer": "Zaldimar trains young mages in the fundamentals at Goldshire, but larger regional threats and specialized tasks affecting the realm are overseen by higher-ranking scholars like Jennea Cannon from the capital."
+   "answer": "Zaldimar teaches young mages the fundamentals in Goldshire. Higher-ranking scholars such as Jennea Cannon oversee larger regional threats and specialized work affecting the realm from the capital."
   },
   {
    "q": "What happens after reporting to Jennea Cannon?",
@@ -75,7 +75,7 @@
     "follow up quest",
     "next step"
    ],
-   "answer": "Once you report to Jennea, she tasks you with investigating mysterious magical anomalies surrounding Mirror Lake back in Elwynn Forest."
+   "answer": "Jennea sends you to investigate mysterious magical anomalies around Mirror Lake in Elwynn Forest."
   },
   {
    "q": "Is this quest available to any class?",
@@ -84,17 +84,17 @@
     "mage only",
     "class requirement"
    ],
-   "answer": "No. This quest is exclusive to mages, serving as a class rite of passage that transitions an apprentice out of local village training and into the formal ranks of Stormwind's arcane society."
+   "answer": "No. Only mages receive this rite of passage from village training into Stormwind's arcane society."
   }
  ],
  "angles": [
   {
    "target": "class:Mage",
-   "text": "This assignment marks your graduation from rural spellcasting in Goldshire to formal involvement with the high mages operating out of Stormwind's Wizard's Sanctum."
+   "text": "As a mage, you leave rural spellcasting in Goldshire for formal work with the high mages at Stormwind's Wizard's Sanctum."
   },
   {
    "target": "faction:Alliance",
-   "text": "The safety of Elwynn Forest and Stormwind relies not just on foot soldiers, but on arcane vigilance monitored directly from the capital's magical academy."
+   "text": "As an Alliance member, you rely on arcane vigilance from the capital to help protect Elwynn Forest and Stormwind."
   }
  ],
  "keywords": [
@@ -116,5 +116,6 @@
  ],
  "attribution": [
   "Speak with Jennea"
- ]
+ ],
+ "style": 1
 }

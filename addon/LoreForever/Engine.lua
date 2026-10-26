@@ -1740,6 +1740,22 @@ end
 
 -- "Ask next" questions after showing entry `key` (FAQ `idx`, or the overview when idx is nil). `done`: the
 -- character's completed quest IDs (ctx.done), which open spoiler answers (Engine:Opens).
+-- Whether question `q` only asks what `name` is: with the name taken out, two words or fewer are left ("Who is",
+-- "Qui est", "Wer ist"; an article before the name doesn't count). "Where is X located?" asks more.
+local ARTICLES = { the = true, a = true, an = true }
+function Engine.AsksWhatItIs(q, name)
+  if type(q) ~= "string" or type(name) ~= "string" or name == "" then return false end
+  local lq, ln = Engine.lower(q), Engine.lower(name)
+  local at = lq:find(ln, 1, true)
+  if not at then return false end
+  local rest = lq:sub(1, at - 1) .. " " .. lq:sub(at + #ln)
+  local n = 0
+  for w in rest:gmatch("[^%s%p]+") do
+    if not ARTICLES[w] then n = n + 1 end
+  end
+  return n <= 2
+end
+
 function Engine:FollowUps(key, idx, limit, done)
   limit = limit or 3
   local e = self.db.entries[key]
@@ -1757,6 +1773,12 @@ function Engine:FollowUps(key, idx, limit, done)
     end
   end
   local own = Engine.RankedFaq(e, self.race, self:Opener(key, done))
+  -- Under the whole story (no question asked), its own "Who is X?" / "What is X?" would only repeat it.
+  if not idx then
+    for _, i in ipairs(own) do
+      if Engine.AsksWhatItIs(e.faq[i] and e.faq[i].q, e.n) then used[key .. ":" .. i] = true end
+    end
+  end
   local function nextOwn()
     for _, i in ipairs(own) do
       if push(key, i) then return end

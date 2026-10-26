@@ -10,16 +10,16 @@
    "quest:6285"
   ]
  },
- "summary": "Osric's Crate is a heavy package of freshly crafted armor dispatched from Stormwind to the struggling defenders of Sentinel Hill. Carried aboard a gryphon across the kingdom's flight network, it provides vital equipment to help the People's Militia hold Westfall against outlaw gangs.",
+ "summary": "At Sentinel Hill, Osric's Crate brings armor from Stormwind to the People's Militia. The defenders face the Defias Brotherhood and marauding gnolls without the Stormwind army.",
  "sections": [
   {
    "title": "Supplies for the Front",
-   "body": "Westfall suffers under the predations of the Defias Brotherhood and marauding gnolls, while the Stormwind army remains absent. The local defenders, organized as the People's Militia at Sentinel Hill, lack the formal support of the crown and must rely on piecemeal supplies. Osric's Crate contains a fresh batch of protective armor sent from the capital to Quartermaster Lewis, intended to be parceled out directly to volunteer militia fighters on the ground.",
+   "body": "Westfall faces the Defias Brotherhood and marauding gnolls, while the Stormwind army remains absent. At Sentinel Hill, the People's Militia must make do without the crown's formal support. Osric's Crate holds freshly made armor from the capital, sent to Quartermaster Lewis to distribute among the volunteer fighters.",
    "spoiler": 0
   },
   {
    "title": "Winged Courier Network",
-   "body": "Transporting gear overland from Stormwind through Elwynn Forest and across the Westfall border is slow and fraught with bandit ambushes. To bypass the roads, the crate is entrusted to an adventurer flying via Dungar Longdrink's gryphon roost in Stormwind's Trade District down to Thor at Sentinel Hill. This swift delivery demonstrates the crucial role gryphons play in keeping frontier garrisons supplied during wartime.",
+   "body": "Gryphons carry the crate from Dungar Longdrink's roost in Stormwind's Trade District to Thor at Sentinel Hill. The flight avoids the dangerous roads through Elwynn Forest and across the Westfall border, where bandits may ambush travelers. Gryphons help keep frontier garrisons supplied during wartime.",
    "spoiler": 0
   }
  ],
@@ -31,7 +31,7 @@
     "contents of osrics crate",
     "osric crate contents"
    ],
-   "answer": "The crate contains protective armor crafted in Stormwind. Quartermaster Lewis inspects its delivery and immediately prepares to distribute the armor among the fighters defending Sentinel Hill."
+   "answer": "Osric's Crate holds protective armor crafted in Stormwind. Quartermaster Lewis receives the delivery and prepares to distribute it among the fighters defending Sentinel Hill."
   },
   {
    "q": "Who is Osric?",
@@ -39,7 +39,7 @@
     "who is osric",
     "who sent osrics crate"
    ],
-   "answer": "Osric is an armorer based in Stormwind who prepared this shipment of gear for the People's Militia holding Westfall."
+   "answer": "Osric is an armorer in Stormwind who prepared the shipment for the People's Militia holding Westfall."
   },
   {
    "q": "Who receives the crate?",
@@ -48,7 +48,7 @@
     "who do i give osric's crate to",
     "crate recipient"
    ],
-   "answer": "The shipment is addressed to Quartermaster Lewis, the officer managing supplies and equipment for the People's Militia at Sentinel Hill in Westfall."
+   "answer": "Quartermaster Lewis receives the crate. He manages supplies and equipment for the People's Militia at Sentinel Hill in Westfall."
   },
   {
    "q": "Why is the crate delivered by gryphon?",
@@ -57,13 +57,13 @@
     "why use gryphons",
     "osric crate flight"
    ],
-   "answer": "Bandits and outlaws make the roads connecting Stormwind, Elwynn Forest, and Westfall perilous. Flying via gryphon from Dungar Longdrink in Stormwind directly to Thor at Sentinel Hill ensures the armor arrives quickly and safely."
+   "answer": "Bandits and outlaws make the roads through Stormwind, Elwynn Forest, and Westfall perilous. The gryphon flight from Dungar Longdrink in Stormwind to Thor at Sentinel Hill carries the armor quickly and safely."
   }
  ],
  "angles": [
   {
    "target": "faction:Alliance",
-   "text": "Every shipment of arms and armor that reaches Sentinel Hill helps keep the western borders of the kingdom from falling completely to the Defias Brotherhood."
+   "text": "For the Alliance, every shipment of arms and armor that reaches Sentinel Hill helps keep the kingdom's western borders from falling to the Defias Brotherhood."
   }
  ],
  "keywords": [
@@ -89,5 +89,6 @@
  "attribution": [
   "Osric's Crate",
   "Return to Lewis"
- ]
+ ],
+ "style": 1
 }

@@ -8,11 +8,11 @@
   "wiki": "Renato Gallina",
   "refs": 1
  },
- "summary": "Renato Gallina is an energetic barker found promoting business in Stormwind City's bustling Trade District. A member of the Gallina winemaking family, his job is to drum up patrons and direct thirsty travelers to the family winery nestled along the city canals.",
+ "summary": "In Stormwind's Trade District, Renato Gallina calls travelers toward his family's winery.",
  "sections": [
   {
    "title": "Voice of the Gallina Winery",
-   "body": "Standing amidst the busy stalls of the Trade District, Renato Gallina spends his days calling out to passers-by, boldly proclaiming that his family sells the finest vintages in all of Stormwind. His family operates the Gallina Winery located nearby along the Canals, and Renato serves as their public promoter, handing out pamphlets that passers-by can bring to his sister Suzetta at the shop for a free bottle of wine.",
+   "body": "Renato Gallina calls to passers-by among the Trade District stalls, proclaiming his family's vintages the finest in Stormwind. The Gallina family runs a winery along the Canals, and Renato promotes it with pamphlets. Travelers can bring one to his sister Suzetta at the shop for a free bottle of wine.",
    "spoiler": 0
   }
  ],
@@ -24,7 +24,7 @@
     "who is renato",
     "wine barker stormwind"
    ],
-   "answer": "Renato is a human barker working in Stormwind City's Trade District. He belongs to the Gallina family and spends his time promoting their family-owned winery to locals and visiting adventurers."
+   "answer": "Renato Gallina is a human barker in Stormwind City's Trade District. He belongs to the Gallina family and promotes their winery to locals and visiting travelers."
   },
   {
    "q": "Where is the Gallina Winery located?",
@@ -33,7 +33,7 @@
     "stormwind wine shop location",
     "gallina winery"
    ],
-   "answer": "The Gallina Winery is situated along the Canals of Stormwind City, tucked just off the bustling streets of the main commercial quarters."
+   "answer": "The Gallina Winery is along the Canals of Stormwind City, just off the main commercial quarters."
   },
   {
    "q": "What does Renato ask adventurers to do?",
@@ -42,13 +42,13 @@
     "wine shop advert quest",
     "what does renato want"
    ],
-   "answer": "Renato hands out a pamphlet for his family's wine shop and asks travelers to bring it to his sister, Suzetta Gallina, at the winery along the canals, where it earns them a complimentary bottle of wine."
+   "answer": "Renato gives travelers a pamphlet for his family's wine shop and asks them to bring it to his sister, Suzetta Gallina, at the winery along the Canals. The pamphlet earns them a free bottle of wine."
   }
  ],
  "angles": [
   {
    "target": "faction:Alliance",
-   "text": "For Alliance travelers arriving in the capital, Renato offers a quick introduction to Stormwind's local commerce and domestic trades."
+   "text": "As an Alliance traveler arriving in the capital, you can see Renato at work promoting Stormwind's local commerce and domestic trades."
   }
  ],
  "keywords": [
@@ -68,5 +68,6 @@
  ],
  "attribution": [
   "Renato Gallina"
- ]
+ ],
+ "style": 1
 }

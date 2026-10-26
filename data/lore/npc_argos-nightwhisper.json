@@ -8,11 +8,11 @@
   "wiki": "Argos Nightwhisper",
   "refs": 1
  },
- "summary": "Argos Nightwhisper is a night elf emissary found in the Park district of Stormwind City. He serves as an Alliance contact directing adventurers to Darkshore, where his brother Gershala studies the spreading corruption.",
+ "summary": "In Stormwind's Park, Argos Nightwhisper guides Alliance travelers toward Darkshore. His brother Gershala studies the corruption spreading there.",
  "sections": [
   {
    "title": "A Kaldorei in the Human Capital",
-   "body": "Argos Nightwhisper resides among the growing night elf presence in Stormwind, often lingering in the lush, secluded Park district crafted to remind the kaldorei of their ancestral woodlands. Like many of his kin stationed in the human kingdom, Argos acts as a bridge between the newfound allies across the Great Sea. Deeply concerned by reports filtering across the ocean, he urges capable Alliance champions to make the long journey to Auberdine in Darkshore, where his brother Gershala needs help against the spreading corruption.",
+   "body": "Argos Nightwhisper lives among the night elves gathering in Stormwind's Park. The district's quiet groves recall the kaldorei's ancestral woodlands. Like others of his kin stationed in the human kingdom, Argos connects the new allies across the Great Sea. Reports from across the ocean trouble him. He urges capable Alliance champions to travel to Auberdine in Darkshore, where his brother Gershala needs help against the spreading corruption.",
    "spoiler": 0
   }
  ],
@@ -24,7 +24,7 @@
     "who is argos",
     "argos stormwind"
    ],
-   "answer": "Argos Nightwhisper is a night elf residing in Stormwind City. He represents the interests of Darnassus in the eastern Alliance capital, helping organize travelers and directing adventurers to take passage to Kalimdor."
+   "answer": "Argos Nightwhisper is a night elf who lives in Stormwind City. He represents Darnassus in the eastern Alliance capital, helping travelers and directing them to passage to Kalimdor."
   },
   {
    "q": "Where can Argos Nightwhisper be found?",
@@ -33,7 +33,7 @@
     "where is argos",
     "find argos nightwhisper"
    ],
-   "answer": "Argos can be found in the Park, the green district of Stormwind City where visiting night elves gather."
+   "answer": "You can find Argos in the Park, Stormwind City's green district where visiting night elves gather."
   },
   {
    "q": "What does Argos ask adventurers to do?",
@@ -42,7 +42,7 @@
     "argos quest",
     "why go to darnassus"
    ],
-   "answer": "Argos asks seasoned adventurers to make the long journey to Auberdine in Darkshore, where his brother Gershala needs help studying the corruption spreading through the land."
+   "answer": "Argos asks seasoned adventurers to travel to Auberdine in Darkshore, where his brother Gershala needs help studying the corruption spreading through the land."
   },
   {
    "q": "Is Argos related to other Nightwhispers?",
@@ -50,17 +50,17 @@
     "nightwhisper family",
     "argos relatives"
    ],
-   "answer": "Yes. Argos is the brother of Gershala Nightwhisper, a night elf scholar in Auberdine in Darkshore, which is why he sends adventurers there."
+   "answer": "Yes. Argos is the brother of Gershala Nightwhisper, a night elf scholar in Auberdine in Darkshore. That is why Argos sends travelers there."
   }
  ],
  "angles": [
   {
    "target": "race:NightElf",
-   "text": "For kaldorei traveling far from Kalimdor, Argos is a familiar face pointing travelers toward his brother in Darkshore and the threats endangering their homeland."
+   "text": "As a kaldorei far from Kalimdor, you may find Argos a familiar face. He points travelers toward his brother in Darkshore and the threats endangering their homeland."
   },
   {
    "target": "faction:Alliance",
-   "text": "Argos serves as an early link between the Eastern Kingdoms and Kalimdor, encouraging young Alliance heroes to cross the sea and aid the night elves."
+   "text": "As an Alliance hero, you can look to Argos as a link between the Eastern Kingdoms and Kalimdor. He encourages young heroes to cross the sea and aid the night elves."
   }
  ],
  "keywords": [
@@ -82,5 +82,6 @@
  ],
  "attribution": [
   "Argos Nightwhisper"
- ]
+ ],
+ "style": 1
 }

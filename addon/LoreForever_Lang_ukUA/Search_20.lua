@@ -2,9 +2,6 @@
 -- Sources: data/i18n/ukUA. Lore text adapted from warcraft.wiki.gg (CC BY-SA 4.0); the core add-on's src fields name the articles.
 local P = LoreForeverPacks.Begin("LoreForever_Lang_ukUA")
 local Po = P.search.post
-Po["прохолодне"] = "CPYB"
-Po["прохолодний"] = "AUBBE0XBFTRB"
-Po["прохолодним"] = "BnKB"
 Po["прохолодними"] = "Jt4B"
 Po["прохолодних"] = "AKaB"
 Po["прохолодного"] = "AKWB"
@@ -12002,3 +11999,6 @@ Po["руннийкамінь"] = "I+OG"
 Po["руннийклинок"] = "Ko4C"
 Po["рунним"] = "KfrB"
 Po["рунними"] = "A/cCA/dDA/eBA/fBA/gBA/qDA/rDA/sBA/tBA/uBA/vBFHxDFHyFFHzBFH0BFH1BFH2BFH3BFIeDFIfDFIgBFIhBFIiBFIjBFIkCFIlBKfCB"
+Po["руннимиписьменами"] = "A/cCA/dDA/eBA/fBA/gBA/qCA/rDA/sBA/tBA/uBA/vBFHxCFHyFFHzBFH0BFH1BFH2BFH3BFIeCFIfDFIgBFIhBFIiBFIjBFIkB"
+Po["рунного"] = "JslBKqFB"
+Po["рунної"] = "B1gB"

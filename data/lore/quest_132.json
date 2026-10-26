@@ -17,21 +17,21 @@
   "wiki": "The Defias Brotherhood (2)",
   "chain": []
  },
- "summary": "This errand delivers vital underground intelligence from Wiley the Black back to Gryan Stoutmantle at Sentinel Hill. Wiley's dispatch reveals that the Defias Brotherhood is not merely a scattered gang of bandits, but an organized force colluding with local gnolls, kobolds, and goblins. Stoutmantle relies on this intelligence to measure the full scale of the conspiracy choking Westfall.",
+ "summary": "In Westfall, The Defias Brotherhood is building a network beyond banditry. Wiley the Black sends word of its ties to gnolls, kobolds, and goblins. Gryan Stoutmantle needs this intelligence to measure the full reach of the conspiracy choking Westfall.",
  "sections": [
   {
    "title": "A Dangerous Dispatch",
-   "body": "Wiley the Black claims that disclosing what he knows about the Defias could forfeit his life. Operating along the fringes of Redridge and Westfall, Wiley has caught wind of an operation far grander than highway robbery. His sealed note details how the Brotherhood has managed to coordinate efforts across disparate, normally hostile groups throughout the countryside.",
+   "body": "Wiley the Black says telling what he knows about the Defias could cost him his life. Along the edges of Redridge and Westfall, he has caught wind of an operation far greater than highway robbery. His sealed note describes how the Brotherhood has coordinated groups that are usually hostile to one another across the countryside.",
    "spoiler": 0
   },
   {
    "title": "Unlikely Alliances",
-   "body": "The core of Wiley's warning is the alarming network the Defias has assembled. Rather than working in isolation, the red-masked outlaws have enlisted gnoll packs, kobold diggers, and opportunistic goblin engineers. This combination of brutal muscle, burrowing labor, and mechanical cunning signals an enterprise that outstrips anything the People's Militia initially anticipated.",
+   "body": "Wiley warns that the Defias has drawn an alarming network around itself. The red-masked outlaws have enlisted gnoll packs, kobold diggers, and goblin engineers instead of working alone. Together, their brutal muscle, burrowing labor, and mechanical cunning point to an enterprise beyond what the People's Militia first expected.",
    "spoiler": 0
   },
   {
    "title": "Stoutmantle's Uneasy Reliance",
-   "body": "Gryan Stoutmantle holds little love for Wiley, openly lamenting that he did not leave the rogue to rot when he had the opportunity. Even so, Westfall cannot afford pride. With Stormwind ignoring pleas for military aid, the People's Militia must take actionable intelligence wherever it can be found.",
+   "body": "Gryan Stoutmantle has little love for Wiley and openly laments that he did not leave the rogue to rot when he had the chance. Yet Westfall cannot afford pride. With Stormwind ignoring pleas for military aid, the People's Militia must take useful intelligence wherever it can find it.",
    "spoiler": 0
   }
  ],
@@ -43,7 +43,7 @@
     "what is in the note",
     "wiley the black note"
    ],
-   "answer": "The note contains Wiley the Black's warning that the Defias Brotherhood is coordinating with gnolls, kobolds, and goblin engineers. It informs the People's Militia that the outlaws are preparing a massive operation far beyond petty banditry."
+   "answer": "Wiley the Black's note warns that the Defias Brotherhood is coordinating with gnolls, kobolds, and goblin engineers. It tells the People's Militia that the outlaws are preparing an operation far beyond petty banditry."
   },
   {
    "q": "Who is Wiley the Black?",
@@ -52,7 +52,7 @@
     "wiley the black lore",
     "wiley lakeshire"
    ],
-   "answer": "Wiley the Black is a shady contact stationed at Lakeshire in Redridge. Though Gryan Stoutmantle considers him an untrustworthy scoundrel, Wiley possesses extensive ties to the criminal underworld and critical information on Defias activities."
+   "answer": "Wiley the Black is a shady contact stationed at Lakeshire in Redridge. Gryan Stoutmantle sees him as an untrustworthy scoundrel, but Wiley has extensive ties to the criminal underworld and critical information on Defias activity."
   },
   {
    "q": "Why would the Defias ally with gnolls and kobolds?",
@@ -61,7 +61,7 @@
     "kobolds and defias",
     "defias allies"
    ],
-   "answer": "The Defias exploit local creatures for territory control and cheap labor. Gnolls provide brutish skirmishers to distract local defenders, while kobolds serve as tunnelers in regional mines, and goblin tinkers contribute heavy machinery and demolition tools."
+   "answer": "The Defias uses local creatures to control territory and provide cheap labor. Gnolls serve as brutish skirmishers to distract defenders, kobolds tunnel in regional mines, and goblin tinkers contribute heavy machinery and demolition tools."
   },
   {
    "q": "Why does Gryan Stoutmantle dislike Wiley?",
@@ -69,7 +69,7 @@
     "stoutmantle and wiley",
     "why hate wiley"
    ],
-   "answer": "Gryan Stoutmantle is a disciplined former soldier who views Wiley as a common cutpurse and criminal. Stoutmantle regrets sparing him from prison in the past, though he concedes that Wiley's underworld ears are indispensable."
+   "answer": "Gryan Stoutmantle is a disciplined former soldier who sees Wiley as a common cutpurse and criminal. He regrets sparing Wiley from prison, though Wiley's underworld ears are indispensable."
   },
   {
    "q": "Where does this message fit into the militia's investigation?",
@@ -77,7 +77,7 @@
     "defias chain step",
     "what quest is this"
    ],
-   "answer": "This delivery represents the bridge between local reconnaissance and uncovering the deeper Defias conspiracy. Returning Wiley's message spurs Stoutmantle to probe further into the conspiracy's leadership and staging grounds."
+   "answer": "Wiley's message carries the militia's investigation from local reconnaissance toward the deeper Defias conspiracy. Its return prompts Stoutmantle to probe the conspiracy's leadership and staging grounds."
   },
   {
    "q": "Why isn't Stormwind handling this threat?",
@@ -85,21 +85,21 @@
     "stormwind help westfall",
     "where are the guards"
    ],
-   "answer": "With King Varian Wrynn missing, the Stormwind House of Nobles refuses to divert royal soldiers or funding to defend Westfall. The region is left to defend itself through the ragtag People's Militia led by Stoutmantle."
+   "answer": "With King Varian Wrynn missing, the Stormwind House of Nobles refuses to divert royal soldiers or funding to defend Westfall. Stoutmantle's ragtag People's Militia is left to defend the region."
   }
  ],
  "angles": [
   {
    "target": "faction:Alliance",
-   "text": "The discovery of cross-species coordination between human outlaws, gnolls, and goblins highlights the severe security vacuum left on Stormwind's western borders."
+   "text": "For the Alliance, coordination between human outlaws, gnolls, and goblins shows the severe security vacuum on Stormwind's western borders."
   },
   {
    "target": "class:Rogue",
-   "text": "Wiley the Black is an example of an operative walking the line between outlaw and useful informant, illustrating how underworld connections drive wartime intelligence."
+   "text": "As a rogue, you can see how Wiley the Black walks the line between outlaw and useful informant, and how underworld ties carry wartime intelligence."
   },
   {
    "target": "race:Human",
-   "text": "For the people of Westfall and Redridge, the note confirms that the bandits pillaging their family homesteads are executing a deliberate, coordinated campaign."
+   "text": "As a human, you know the note confirms that bandits pillaging family homesteads in Westfall and Redridge are carrying out a deliberate, coordinated campaign."
   }
  ],
  "keywords": [
@@ -125,5 +125,6 @@
  ],
  "attribution": [
   "The Defias Brotherhood (2)"
- ]
+ ],
+ "style": 1
 }

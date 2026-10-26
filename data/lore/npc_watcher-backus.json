@@ -8,16 +8,16 @@
   "wiki": "Watcher Backus",
   "refs": 3
  },
- "summary": "Watcher Backus is a member of the Night Watch tasked with patrolling the shadowy roads of Duskwood. Stationed along the thoroughfare between Darkshire and Manor Mistmantle, he keeps a weary eye out for lurking undead and strange travelers. His post also makes him a vital contact for those investigating suspicious movements tied to Stormwind's political intrigues.",
+ "summary": "Along Duskwood's road, Watcher Backus keeps watch for danger and suspicious traffic tied to Stormwind's political intrigues. He patrols between Darkshire and Manor Mistmantle, watching for undead and strange travelers.",
  "sections": [
   {
    "title": "A Patrol in the Shadows",
-   "body": "Like the rest of the Night Watch, Watcher Backus faces an uphill struggle against the cursed woodland. Duskwood receives little support from the Stormwind garrison, leaving local volunteers to guard the misty paths on their own. Backus walks a solitary beat along the road leading north out of Darkshire, passing near the eerie Manor Mistmantle while keeping beast and ghoul at bay.",
+   "body": "Watcher Backus walks a solitary beat north of Darkshire, passing near Manor Mistmantle. Like the rest of the Night Watch, he struggles against Duskwood's curse. Stormwind's garrison gives the region little support, so local volunteers guard its misty paths on their own. Backus keeps beast and ghoul at bay along the road.",
    "spoiler": 0
   },
   {
    "title": "Eyes on the Road",
-   "body": "Because of his isolated patrol route, Backus sees much of the traffic skirting the edges of Darkshire. When royal investigators trace the disappearance of a high-ranking diplomat down south, Backus serves as a crucial witness, recalling odd Defias activity around Addle's Stead.",
+   "body": "Watcher Backus sees much of the traffic skirting Darkshire from his isolated route. When royal investigators follow the disappearance of a high-ranking diplomat down south, he recalls odd Defias activity around Addle's Stead.",
    "spoiler": 1
   }
  ],
@@ -29,7 +29,7 @@
     "watcher backus role",
     "backus duskwood"
    ],
-   "answer": "Watcher Backus is a human guard belonging to the Night Watch, the beleaguered town militia responsible for defending Darkshire and the roads of Duskwood."
+   "answer": "Watcher Backus is a human guard in the beleaguered Night Watch, the militia defending Darkshire and Duskwood's roads."
   },
   {
    "q": "Where can Watcher Backus be found?",
@@ -38,7 +38,7 @@
     "backus location",
     "backus patrol route"
    ],
-   "answer": "He patrols the main road running north from Darkshire toward Manor Mistmantle in Duskwood."
+   "answer": "Watcher Backus patrols the main road north from Darkshire toward Manor Mistmantle in Duskwood."
   },
   {
    "q": "What is the Night Watch?",
@@ -47,7 +47,7 @@
     "night watch duskwood",
     "darkshire guards"
    ],
-   "answer": "The Night Watch is a local volunteer militia formed by the citizens of Duskwood to defend against undead, worgen, and feral beasts after Stormwind withdrew its official military presence."
+   "answer": "The Night Watch is a local volunteer militia formed by Duskwood's citizens to defend against undead, worgen, and feral beasts after Stormwind withdrew its official military presence."
   },
   {
    "q": "How is Backus involved with The Missing Diplomat?",
@@ -55,7 +55,7 @@
     "backus missing diplomat",
     "missing diplomat quest backus"
    ],
-   "answer": "During the investigation into a missing Stormwind diplomat, clues lead adventurers to Duskwood. Backus recalls recent Defias activity around Addle's Stead and helps look over the documents recovered from their hideout there."
+   "answer": "During the search for a missing Stormwind diplomat, clues lead adventurers to Duskwood. Watcher Backus recalls recent Defias activity around Addle's Stead and helps examine documents recovered from their hideout there."
   },
   {
    "q": "Does Watcher Backus have any town gossip surrounding him?",
@@ -63,7 +63,7 @@
     "backus brownell",
     "watcher brownell crush"
    ],
-   "answer": "Within Darkshire, fellow guard Watcher Brownell is known to harbor an unspoken crush on Backus, offering a rare moment of lighthearted town gossip amid the gloom."
+   "answer": "Darkshire's fellow guard Watcher Brownell is known to harbor an unspoken crush on Backus, a rare piece of lighthearted town gossip amid the gloom."
   },
   {
    "q": "Why does Backus patrol alone near Manor Mistmantle?",
@@ -71,17 +71,17 @@
     "why alone",
     "backus danger"
    ],
-   "answer": "The Night Watch is stretched thin across the entire territory. With few able-bodied defenders to spare, watchers are forced to handle long, dangerous patrol routes by themselves."
+   "answer": "The Night Watch is stretched thin across the entire territory, leaving few able-bodied defenders to spare. Watchers like Backus must handle long, dangerous patrol routes alone."
   }
  ],
  "angles": [
   {
    "target": "faction:Alliance",
-   "text": "For Alliance agents tracking a missing diplomat, Backus represents a vital contact providing ground-level intelligence on the frontier."
+   "text": "For Alliance agents tracking a missing diplomat, Backus is a vital contact with ground-level intelligence on the frontier."
   },
   {
    "target": "race:Human",
-   "text": "Backus exemplifies the grit of Duskwood's human defenders, abandoned by the capital yet determined to hold the roads."
+   "text": "As a human, Backus shows the grit of Duskwood's defenders, abandoned by the capital yet determined to hold the roads."
   }
  ],
  "keywords": [
@@ -101,5 +101,6 @@
  ],
  "attribution": [
   "Watcher Backus"
- ]
+ ],
+ "style": 1
 }

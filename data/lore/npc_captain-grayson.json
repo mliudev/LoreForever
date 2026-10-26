@@ -8,21 +8,21 @@
   "wiki": "Captain Grayson",
   "refs": 8
  },
- "summary": "Captain Grayson is the restless spirit of a pirate captain stationed at the Westfall Lighthouse. Having lost his own life when his ship smashed against the dark coastline, he now watches over the beacon to prevent other sailors from suffering his fate.",
+ "summary": "At Westfall Lighthouse, Captain Grayson keeps watch over the beacon that failed him. His ship smashed against the dark coastline, and now he tends the light so other sailors will not meet his fate.",
  "sections": [
   {
    "title": "A Life Cut Short by the Rocks",
-   "body": "In life, Grayson captained a vessel along the perilous southern seas of the Eastern Kingdoms. His voyage came to a violent end off the jagged shoals of Westfall on a night when the lighthouse fire had gone dark. Cast upon the rocks, Grayson perished alongside his ship, only to awaken as an earthbound phantom trapped upon the coast.",
+   "body": "Captain Grayson once sailed the southern seas of the Eastern Kingdoms as a ship’s captain. One night, the lighthouse fire went dark as his vessel neared Westfall’s jagged shoals. The ship struck the rocks, and Grayson died with it. He awoke as an earthbound phantom, trapped upon the coast.",
    "spoiler": 0
   },
   {
    "title": "Tragedy at the Beacon",
-   "body": "Drawn to the Westfall Lighthouse in death, Grayson hoped to find answers about the afterlife. Instead, he witnessed sheer tragedy. A notorious murloc known as Old Murk-Eye drove the lighthouse keeper and his family away. Though the keepers bravely returned to rekindle the flame, Old Murk-Eye rallied the surrounding murlocs for a second, brutal slaughter. Grayson could only watch helplessly as the family was butchered.",
+   "body": "In death, Captain Grayson went to Westfall Lighthouse, hoping to learn what waited beyond life. There he saw Old Murk-Eye, a notorious murloc, drive away the keeper and his family. The brave keepers returned to rekindle the flame, but Old Murk-Eye rallied the surrounding murlocs and led a second, brutal slaughter. Grayson could only watch as the family was butchered.",
    "spoiler": 0
   },
   {
    "title": "A Ghostly Vigil",
-   "body": "With the keepers dead and Westfall crumbling under neglect, Captain Grayson took the solemn burden of the beacon upon his spectral shoulders. He seeks aid from passing adventurers to gather fuel for the great flame and avenge the slaughtered family by hunting down Old Murk-Eye and driving back the coastal murloc tide.",
+   "body": "With the keepers dead and Westfall crumbling under neglect, Captain Grayson bears the beacon’s solemn burden on his spectral shoulders. He asks passing travelers to gather fuel for the great flame. He also seeks vengeance for the slaughtered family: hunt down Old Murk-Eye and drive back the coastal murlocs.",
    "spoiler": 0
   }
  ],
@@ -34,7 +34,7 @@
     "who is the ghost pirate",
     "lighthouse ghost"
    ],
-   "answer": "Captain Grayson is a human ghost pirate residing at the Westfall Lighthouse. After wrecking on the coast because the beacon went out, his spirit took it upon himself to maintain the light and protect passing mariners."
+   "answer": "Captain Grayson is a human ghost pirate at Westfall Lighthouse. His ship smashed against the coast when the beacon went dark, and he now tends the light to protect passing sailors."
   },
   {
    "q": "How did Captain Grayson die?",
@@ -43,7 +43,7 @@
     "how did grayson become a ghost",
     "what killed captain grayson"
    ],
-   "answer": "He died when his pirate vessel was driven onto the treacherous rocks along Westfall's shore. The lighthouse was dark that night, giving him and his crew no warning before their ship was torn apart."
+   "answer": "Captain Grayson died when his pirate vessel struck the treacherous rocks along Westfall’s shore. The lighthouse was dark that night, leaving him and his crew without warning before the ship was torn apart."
   },
   {
    "q": "What happened to the real lighthouse keeper?",
@@ -52,7 +52,7 @@
     "what happened to the keepers",
     "lighthouse family"
    ],
-   "answer": "The keeper and his family were attacked by coastal murlocs. Though they escaped the initial assault and returned to relight the beacon, Old Murk-Eye rallied a second raid and slaughtered them all before Grayson's eyes."
+   "answer": "Coastal murlocs attacked the keeper and his family. The brave family escaped the first assault and returned to relight the beacon, but Old Murk-Eye rallied a second raid and slaughtered them before Grayson’s eyes."
   },
   {
    "q": "Who is Old Murk-Eye?",
@@ -61,7 +61,7 @@
     "old murk eye",
     "murloc leader westfall"
    ],
-   "answer": "Old Murk-Eye is a cunning and vicious murloc chieftain stalking the Westfall shoreline. He led the assault that killed the lighthouse keeper's family and poses a constant threat to anyone attempting to keep the beacon lit."
+   "answer": "Old Murk-Eye is a cunning, vicious murloc chieftain on the Westfall shoreline. He led the attack that killed the lighthouse keeper’s family and threatens anyone trying to keep the beacon lit."
   },
   {
    "q": "Why does Grayson want the lighthouse kept lit?",
@@ -69,7 +69,7 @@
     "grayson motivation",
     "why light the beacon"
    ],
-   "answer": "Having drowned because the coastline was pitch black, Grayson considers it his solemn duty in the afterlife to ensure no other sailors meet that same fate upon the shoals."
+   "answer": "Grayson drowned when the coastline was pitch black, and sees keeping the lighthouse lit as his solemn duty in the afterlife. He wants to spare other sailors the same fate on the shoals."
   },
   {
    "q": "Is Captain Grayson hostile to adventurers?",
@@ -77,21 +77,21 @@
     "is grayson friendly",
     "grayson hostile"
    ],
-   "answer": "No. Despite his pirate background in life, Grayson harbors no ill will toward the living. He has witnessed too much slaughter and seeks only peace and assistance in tending the flame."
+   "answer": "No. Though Grayson was a pirate in life, he bears no ill will toward the living. He has witnessed too much slaughter and seeks peace and help tending the flame."
   }
  ],
  "angles": [
   {
    "target": "faction:Alliance",
-   "text": "With the Defias Brotherhood choking Westfall and Stormwind neglecting its borders, it falls to visiting Alliance travelers to answer Grayson's plea and secure the lighthouse flame."
+   "text": "With the Defias Brotherhood choking Westfall and Stormwind neglecting its borders, Alliance travelers must answer Grayson’s plea and keep the lighthouse flame burning."
   },
   {
    "target": "class:Paladin",
-   "text": "Though Grayson is an undead spirit, his purpose is selfless and protective. Assisting him honors the sacred duty of defending the helpless and purging the murderous tides of murlocs."
+   "text": "As a paladin, you can honor your sacred duty to defend the helpless and drive back the murderous murlocs by helping Grayson, though he is an undead spirit."
   },
   {
    "target": "class:Priest",
-   "text": "Grayson's spirit is anchored by guilt and grief over watching an innocent family die. Offering aid brings a measure of solace to his restless soul."
+   "text": "As a priest, you can offer solace to Grayson’s restless soul. Guilt and grief anchor his spirit after he watched an innocent family die."
   }
  ],
  "keywords": [
@@ -115,5 +115,6 @@
  ],
  "attribution": [
   "Captain Grayson"
- ]
+ ],
+ "style": 1
 }

@@ -8,16 +8,16 @@
   "wiki": "Innkeeper Farley",
   "refs": 2
  },
- "summary": "Innkeeper Farley manages the Lion's Pride Inn in Goldshire, providing food, lodging, and hearthstones to travelers passing through Elwynn Forest. Well-liked and observant, he often holds misplaced mail and listens to the troubles of adventurers on the road.",
+ "summary": "At the Lion's Pride Inn in Goldshire, Innkeeper Farley welcomes travelers with food, beds, and hearthstones. Well-liked and observant, he keeps misplaced mail and hears the troubles of those on the road.",
  "sections": [
   {
    "title": "A Goldshire Fixture",
-   "body": "Innkeeper Farley runs the Lion's Pride Inn with a welcoming hand and a sharp eye. Travelers bound for Stormwind, Westfall and Duskwood stop at his counter for a warm meal, a mug of ale and a bed, and Farley keeps order in one of the realm's busiest waystations, pouring ale and serving cheese to all who pass through Goldshire.",
+   "body": "Travelers bound for Stormwind, Westfall, and Duskwood find Innkeeper Farley behind the Lion's Pride Inn counter in Goldshire. He offers meals, ale, cheese, and a bed, and sets hearthstones for those who need one. With a welcoming hand and a sharp eye, Farley serves all who pass through this busy waystation and keeps order at the inn.",
    "spoiler": 0
   },
   {
    "title": "The Courier's Abandoned Chest",
-   "body": "Because Goldshire sits at the crossroads between Stormwind, Westfall, and Duskwood, Farley overhears plenty of rumors and deals with strange travelers. Notably, he once took in a courier who bolted into the night in terror, abandoning his satchel behind. Farley safely stowed the leftover missives in an upstairs chest—including an undelivered letter addressed to the former schoolmaster Stalvan Mistmantle, which eventually serves as a critical clue for investigators tracing the fallen tutor's movements.",
+   "body": "At the crossroads of Stormwind, Westfall, and Duskwood, Innkeeper Farley hears rumors and deals with strange travelers. Once, a courier fled into the night in terror, leaving his satchel behind. Farley safely stowed the leftover missives in an upstairs chest. Among them lies an undelivered letter addressed to former schoolmaster Stalvan Mistmantle, a clue for investigators tracing the fallen tutor's movements.",
    "spoiler": 1
   }
  ],
@@ -29,7 +29,7 @@
     "fredrik farley",
     "who is the goldshire innkeeper"
    ],
-   "answer": "Innkeeper Farley is the proprietor of the Lion's Pride Inn in Goldshire, offering rest and supplies to travelers traversing Elwynn Forest."
+   "answer": "Innkeeper Farley serves travelers at the Lion's Pride Inn in Goldshire, offering rest and supplies to those traversing Elwynn Forest."
   },
   {
    "q": "What does Farley know about Stalvan Mistmantle?",
@@ -38,7 +38,7 @@
     "stalvan letter goldshire",
     "legend of stalvan farley"
    ],
-   "answer": "Farley remembers a terrified courier who fled the Lion's Pride Inn in the dead of night, leaving behind several deliveries. Farley stored the abandoned letters in a chest upstairs, among which is an undelivered letter addressed to Stalvan Mistmantle that investigators can retrieve."
+   "answer": "Farley recalls a terrified courier who fled the Lion's Pride Inn at night, leaving several deliveries behind. He safely stored the abandoned letters in an upstairs chest, including an undelivered letter addressed to Stalvan Mistmantle for investigators to retrieve."
   },
   {
    "q": "What services does Farley provide at the inn?",
@@ -47,13 +47,13 @@
     "farley food and drink",
     "goldshire hearthstone"
    ],
-   "answer": "Farley sets home hearthstones for travelers, rents rooms, and sells a wide variety of drinks, juices, and cheeses from across the Alliance, ranging from Alterac Swiss and Dalaran Sharp to local Stormwind Brie."
+   "answer": "Farley sets hearthstones, rents rooms, and sells a wide variety of drinks, juices, and cheeses from across the Alliance. The cheeses include Alterac Swiss, Dalaran Sharp, and local Stormwind Brie."
   }
  ],
  "angles": [
   {
    "target": "faction:Alliance",
-   "text": "For fresh recruits heading out from Northshire Valley, Farley's counter at the Lion's Pride is often the very first place they bind their hearthstone and purchase provisions."
+   "text": "As a fresh recruit leaving Northshire Valley, you can bind your hearthstone and buy provisions at Farley's counter in the Lion's Pride Inn."
   }
  ],
  "keywords": [
@@ -74,5 +74,6 @@
  ],
  "attribution": [
   "Innkeeper Farley"
- ]
+ ],
+ "style": 1
 }

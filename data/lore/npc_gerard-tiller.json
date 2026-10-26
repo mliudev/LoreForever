@@ -8,11 +8,11 @@
   "wiki": "Gerard Tiller",
   "refs": 2
  },
- "summary": "Gerard Tiller is a thirsty human farmhand working outside the barn at the Maclure Vineyards in Elwynn Forest. Tending the vineyards under the warm sun, he is always eager to trade a crisp, shiny red apple to any traveler willing to spare a skin of refreshing spring water.",
+ "summary": "At the Maclure Vineyards, Gerard Tiller works under the warm sun and longs for spring water. He offers a shiny red apple to any traveler who brings him a skin of it.",
  "sections": [
   {
    "title": "A Thirsty Farmhand",
-   "body": "Gerard Tiller spends his days toiling in the fields and tending the grounds outside the barn at the Maclure Vineyards. Located just south of Goldshire, the vineyard produces some of Elwynn's best-known grapes, but keeping the harvest running is hard labor. Tiller is constantly parched from his chores, making him quick to barter with passing adventurers. If someone offers him a fresh skin of cool spring water, he happily repays the courtesy with fresh, shiny red apples gathered straight from the local orchards.",
+   "body": "Gerard Tiller works the grounds outside the barn at the Maclure Vineyards, south of Goldshire. The vineyard is known for its grapes, and keeping the harvest going takes hard labor. The chores leave Gerard thirsty, so he welcomes travelers who bring him a skin of fresh spring water. In return, he gives them shiny red apples gathered from local orchards.",
    "spoiler": 0
   }
  ],
@@ -24,7 +24,7 @@
     "who is gerard",
     "tiller elwynn"
    ],
-   "answer": "Gerard Tiller is a human farmhand stationed outside the barn at the Maclure Vineyards in southern Elwynn Forest."
+   "answer": "Gerard Tiller works as a human farmhand outside the barn at the Maclure Vineyards in southern Elwynn Forest."
   },
   {
    "q": "Where can I find Gerard Tiller?",
@@ -33,7 +33,7 @@
     "where is gerard",
     "find gerard elwynn"
    ],
-   "answer": "He stands right outside the large wooden barn at the Maclure Vineyards, located south of Goldshire and east of the Stonefield Farm."
+   "answer": "Look outside the large wooden barn at the Maclure Vineyards, south of Goldshire and east of the Stonefield Farm."
   },
   {
    "q": "What does Gerard Tiller trade?",
@@ -42,7 +42,7 @@
     "gerard tiller water",
     "what does gerard want"
    ],
-   "answer": "Gerard trades a Shiny Red Apple to any traveler who brings him a skin of Refreshing Spring Water to quench his thirst."
+   "answer": "Gerard trades a Shiny Red Apple for a skin of Refreshing Spring Water."
   },
   {
    "q": "Does Gerard get involved in the Maclure and Stonefield feud?",
@@ -50,13 +50,13 @@
     "gerard tiller feud",
     "maclure feud gerard"
    ],
-   "answer": "No. While he works at the Maclure Vineyards, Gerard focuses on his chores and staying hydrated rather than meddling in the family rivalry between the Maclures and Stonefields."
+   "answer": "No. Gerard works at the Maclure Vineyards and focuses on his chores and getting water, rather than the rivalry between the Maclures and Stonefields."
   }
  ],
  "angles": [
   {
    "target": "profession:Cooking",
-   "text": "Gerard's willingness to trade fresh apples for plain spring water makes him a handy source of fruit for wandering cooks looking for simple ingredients."
+   "text": "Gerard trades fresh apples for plain spring water, making him a source of fruit for travelers who want simple ingredients."
   }
  ],
  "keywords": [
@@ -74,5 +74,6 @@
  ],
  "attribution": [
   "Gerard Tiller"
- ]
+ ],
+ "style": 1
 }

@@ -589,12 +589,12 @@ check("journey map", {
   ns.Journey.Hide()
 end)
 
--- An answer, a lore link in it, then Back and Forward (their buttons' own handlers).
+-- An answer, then a lore link in it: its story card joins the conversation, on Here, and no page covers it.
 check("lore links", {
   function(c)
     local UI = ns.UI
     if S().chatLinks == false then
-      skip("lore links: Back and Forward", "Clickable names in answers is off")
+      skip("lore links: a link's story in the conversation", "Clickable names in answers is off")
       return false
     end
     if not UI.frame:IsShown() then UI.frame:Show() end
@@ -609,28 +609,20 @@ check("lore links", {
       end
     end
     if not start then
-      skip("lore links: Back and Forward", "no answer with a lore link to follow")
+      skip("lore links: a link's story in the conversation", "no answer with a lore link to follow")
       return false
     end
-    c.from, c.to = start.subject, start.linked[1]
+    c.from, c.to, c.n = start.subject, start.linked[1], #UI.msgs
     UI.FollowLink(c.to, start)
   end,
   function(c)
     local UI = ns.UI
-    local bar = UI.navBar
-    local ok = widgets("lore links: Back and Forward shown", { { "Back", bar and bar.back, true },
-      { "Forward", bar and bar.fwd, true } }, c.box)
-    if not ok then return false end
-    local function subject() local m = UI.msgs[#UI.msgs] return m and m.subject end
-    local function enabled(b) return not b.IsEnabled or b:IsEnabled() ~= false end
-    local followed, backOn = subject(), enabled(bar.back)
-    press(bar.back)
-    local back, fwdOn = subject(), enabled(bar.fwd)
-    press(bar.fwd)
-    local fwd = subject()
-    expect("lore links: Back and Forward", followed == c.to and back == c.from and fwd == c.to and backOn and fwdOn,
-      string.format("%s, link to %s, Back%s: %s, Forward%s: %s", c.from, tostring(followed),
-        backOn and "" or " (disabled)", tostring(back), fwdOn and "" or " (disabled)", tostring(fwd)))
+    local m = UI.msgs[#UI.msgs]
+    local covered = ns.Page.IsShown() or (ns.Book and ns.Book.IsShown())
+    expect("lore links: a link's story in the conversation", m and m.subject == c.to and #UI.msgs == c.n + 2
+      and UI.tab == "here" and not covered and UI.scroll:IsShown(),
+      string.format("%s, link to %s: last card %s, tab %s%s", c.from, tostring(c.to), tostring(m and m.subject),
+        tostring(UI.tab), covered and ", a page covers the conversation" or ""))
   end,
 })
 
@@ -1083,7 +1075,7 @@ local function snapshot()
     shown = UI.frame:IsShown(), tab = UI.tab, queue = UI.plView:IsShown(), history = UI.historyFrame:IsShown(),
     journey = J.IsShown(), msgs = list(UI.msgs), blocks = list(UI.blocks), welcomeFor = UI.welcomeFor,
     page = ns.Page.IsShown() and ns.Page.key or nil, pageStack = list(ns.Page.stack or {}),
-    nav = { keys = list(UI.nav.keys), pos = UI.nav.pos }, lastKey = UI.engine.lastKey, race = UI.engine.race,
+    lastKey = UI.engine.lastKey, race = UI.engine.race,
     pl = { items = list(UI.pl.items), pos = UI.pl.pos, state = UI.pl.state },
     miniClosed = UI.miniClosed, progress = copy(UI.progress), playback = copy(LoreForeverDB.playback),
     activeTarget = UI.activeTarget, resumeTarget = UI.resumeTarget, stoppedTarget = UI.stoppedTarget,
@@ -1101,7 +1093,7 @@ local function putBack()
   local pl = UI.pl
   pl.items, pl.pos, pl.token = list(st.pl.items), st.pl.pos, nil
   pl.state = (st.pl.state == "playing" or st.pl.state == "waiting") and "paused" or st.pl.state
-  -- The conversation (opening the panel shows the welcome card; the link check posts answers) and Back/Forward.
+  -- The conversation (opening the panel shows the welcome card; the link check posts answers).
   local same_msgs = #UI.msgs == #st.msgs
   for i, m in ipairs(st.msgs) do
     if UI.msgs[i] ~= m then same_msgs = false end
@@ -1120,8 +1112,6 @@ local function putBack()
     UI.nextLabel:SetText(st.suggestedLabel[1] or "")
     UI.nextLabel:SetShown(st.suggestedLabel[2] and true or false)
   end
-  UI.nav = { keys = list(st.nav.keys), pos = st.nav.pos }
-  UI.UpdateNav()
   UI.engine.lastKey, UI.engine.race, UI.lastLog = st.lastKey, st.race, st.lastLog
   -- The panel, its tab and pages.
   if st.tab and UI.tab ~= st.tab then UI.ShowTab(st.tab) end

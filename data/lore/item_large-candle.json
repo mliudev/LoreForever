@@ -10,16 +10,16 @@
    "quest:60"
   ]
  },
- "summary": "Large Candles are wax tapers prized and carried by kobolds delving into the mines of Elwynn Forest. Mounted atop their heads, these crude lights provide visibility in subterranean tunnels and serve as a reliable source of raw wax for human apothecaries.",
+ "summary": "In Elwynn's mines, kobolds carry Large Candles on their heads for light and wax. Their flames guide them through dark tunnels, and apothecaries value the wax.",
  "sections": [
   {
    "title": "Subterranean Light and Wax",
-   "body": "Kobolds tunneling beneath Elwynn Forest depend upon candle flame to navigate pitch-black subterranean shafts, affixing wax tapers directly to their heads. Kobold Miners, Tunnelers, and Geomancers defend their candles fiercely against interlopers. Despite their crude manufacture, the large candles carried deep inside Fargodeep Mine and Jasperlode Mine contain valuable wax that surface tradesmen cannot easily produce in bulk, turning an everyday monster tool into an alchemical commodity.",
+   "body": "Kobolds use candle flame to find their way through the dark shafts beneath Elwynn Forest. They fasten the tapers to their heads, and Kobold Miners, Tunnelers, and Geomancers defend them fiercely from intruders. Though crudely made, the Large Candles carried in Fargodeep Mine and Jasperlode Mine hold valuable wax. Surface tradesmen cannot easily produce it in bulk, so the candles are both tools for the kobolds and a commodity for alchemists.",
    "spoiler": 0
   },
   {
    "title": "Trade and the Apothecary",
-   "body": "William Pestle, an apothecary operative hailing from Stormwind City, gathers these oversized candles at the Lion's Pride Inn in Goldshire. Seeking rendered wax for the concoctions, balms, and ointments prepared by his family apothecary, Pestle employs passing adventurers to clear the infested mines and strip the candles from the subterranean invaders.",
+   "body": "William Pestle, an apothecary operative from Stormwind City, gathers Large Candles at the Lion's Pride Inn in Goldshire. His family runs an apothecary, and he needs rendered wax for its concoctions, balms, and ointments. Pestle hires passing adventurers to clear the infested mines and take candles from the kobolds.",
    "spoiler": 0
   }
  ],
@@ -31,7 +31,7 @@
     "why get large candles",
     "who wants large candles"
    ],
-   "answer": "William Pestle collects Large Candles in Goldshire for the apothecary he runs with his brother in Stormwind City. The business renders the collected candles down to use the wax as an ingredient in various ointments, balms, and alchemical recipes."
+   "answer": "William Pestle collects Large Candles in Goldshire for the apothecary he runs with his brother in Stormwind City. They render the candles down for wax used in ointments, balms, and alchemical recipes."
   },
   {
    "q": "Where can Large Candles be found?",
@@ -40,7 +40,7 @@
     "where to get large candles",
     "kobold candle drops"
    ],
-   "answer": "They are carried by kobolds inhabiting the mines of Elwynn Forest, predominantly within Fargodeep Mine south of Goldshire and Jasperlode Mine to the east. Tunnelers, Miners, and Geomancers carry them."
+   "answer": "Kobolds carry Large Candles in Elwynn Forest's mines, especially Fargodeep Mine south of Goldshire and Jasperlode Mine to the east. Tunnelers, Miners, and Geomancers carry them."
   },
   {
    "q": "Why do kobolds carry candles on their heads?",
@@ -48,7 +48,7 @@
     "why do kobolds have candles",
     "kobold head candle lore"
    ],
-   "answer": "Kobolds inhabit pitch-black underground tunnels and require light to dig and navigate. They wear candles affixed to their heads to keep their hands free for pickaxes, geomantic spellcasting, and weapons."
+   "answer": "Kobolds use candlelight to dig and find their way through dark underground tunnels. They fasten candles to their heads to keep their hands free for pickaxes, geomantic spellcasting, and weapons."
   },
   {
    "q": "Who is William Pestle?",
@@ -56,17 +56,17 @@
     "william pestle lore",
     "who is the apothecary guy in goldshire"
    ],
-   "answer": "William Pestle is an apothecary from Stormwind City who conducts business out of Goldshire's Lion's Pride Inn. He gathers raw ingredients from the local wilderness and mines to supply the apothecary shop he operates with his brother."
+   "answer": "William Pestle is an apothecary operative from Stormwind City who conducts business at Goldshire's Lion's Pride Inn. He gathers raw ingredients from the wilderness and mines to supply the apothecary shop he runs with his brother."
   }
  ],
  "angles": [
   {
    "target": "profession:Mining",
-   "text": "Miners working veins in Fargodeep and Jasperlode regularly run afoul of the kobold infestations that covet both the gold and the flickering light of these large candles."
+   "text": "Miners working the veins in Fargodeep and Jasperlode regularly run afoul of kobold infestations that covet both the gold and the light of Large Candles."
   },
   {
    "target": "faction:Alliance",
-   "text": "By stripping candles from kobolds in Elwynn, Alliance adventurers simultaneously weaken the vermin infesting the mines and supply critical materials to Stormwind's apothecary trades."
+   "text": "By taking candles from kobolds in Elwynn, Alliance adventurers weaken the vermin in the mines and supply critical materials to Stormwind's apothecary trade."
   }
  ],
  "keywords": [
@@ -92,5 +92,6 @@
  "attribution": [
   "Large Candle",
   "Kobold Candles"
- ]
+ ],
+ "style": 1
 }

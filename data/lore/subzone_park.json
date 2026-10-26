@@ -7,16 +7,16 @@
  "meta": {
   "wiki": "Park"
  },
- "summary": "Tucked along the western edge of Stormwind City between Cathedral Square and the Mage Quarter, the Park is a lush sanctuary of greenery and quiet reflection. Devoted to nature and leisure amidst the bustling stone capital, it serves as the primary haven for visiting night elves and houses the only druid trainers in the Eastern Kingdoms.",
+ "summary": "In Stormwind's western edge, Park offers visiting night elves a haven amid the stone city. It lies between Cathedral Square and the Mage Quarter, with greenery and quiet for rest. Druid trainers here are the only ones in the Eastern Kingdoms.",
  "sections": [
   {
    "title": "A Grove in the Stone Capital",
-   "body": "While the rest of Stormwind is dominated by cobbled walkways, towering limestone ramparts, and crowded market stalls, the Park offers a tranquil breath of wilderness. Originally established as a quiet place of recreation for the city's populace, it naturally transformed into an enclave for night elf emissaries and travelers arriving from across the Great Sea. Sheltered beneath shaded canopies and surrounding a central Moonwell, the district brings a sliver of Kalimdor's sacred glades into the heart of the human kingdom.",
+   "body": "Stormwind's Park brings a quiet stretch of wilderness into the stone capital. Once a place for the city's people to seek recreation, it became an enclave for night elf emissaries and travelers from across the Great Sea. Shaded canopies shelter the district, and a central Moonwell stands amid its grounds. The grove offers a glimpse of Kalimdor's sacred glades in the heart of the human kingdom.",
    "spoiler": 0
   },
   {
    "title": "Sanctuary and Fellowship",
-   "body": "For the night elves, the Park is a vital foothold in foreign lands. Here, Kaldorei priests such as Nara Meideros tend to visiting pilgrims, and druidic mentors offer their guidance to those devoted to the wild. The district also serves as a peaceful retreat where weary adventurers rest their eyes from the clatter of the Trade District and the solemn duties of the Cathedral.",
+   "body": "Night elves have a foothold in foreign lands within the Park. Kaldorei priests such as Nara Meideros tend visiting pilgrims, while druidic mentors guide those devoted to the wild. Weary travelers can also rest from the clatter of the Trade District and the solemn duties of the Cathedral.",
    "spoiler": 0
   }
  ],
@@ -28,7 +28,7 @@
     "how to get to the park",
     "park location"
    ],
-   "answer": "The Park sits along the far western edge of Stormwind City. You can reach its verdant paths by heading southwest from Cathedral Square or northwest from the Mage Quarter."
+   "answer": "Park lies along Stormwind City's far western edge. You can reach it by heading southwest from Cathedral Square or northwest from the Mage Quarter."
   },
   {
    "q": "Why are there so many night elves in the Park?",
@@ -37,7 +37,7 @@
     "stormwind night elf district",
     "kaldorei district"
    ],
-   "answer": "The Park was embraced as a refuge by visiting night elves who sought relief from Stormwind's towering stone streets. Its lush groves and serene atmosphere reminded them of their home forests, leading them to settle here and even establish a Moonwell in the square."
+   "answer": "Visiting night elves found refuge in Park to escape Stormwind's towering stone streets. Its groves and serene air reminded them of home, and they established a Moonwell in the square."
   },
   {
    "q": "Can I train druid abilities here?",
@@ -46,7 +46,7 @@
     "where to train druid eastern kingdoms",
     "park druid training"
    ],
-   "answer": "Yes. The Park is currently the only place anywhere in the Eastern Kingdoms where Alliance druid trainers are stationed, offering guidance and training to Kaldorei practitioners away from Kalimdor."
+   "answer": "Yes. Park is the only place in the Eastern Kingdoms with Alliance druid trainers, who offer Kaldorei practitioners guidance and training away from Kalimdor."
   },
   {
    "q": "What is the glowing pool in the center of the Park?",
@@ -55,17 +55,17 @@
     "glowing fountain park",
     "pool in the park"
    ],
-   "answer": "The pool in the middle of the Park is a consecrated night elven Moonwell, created by Kaldorei visitors to serve as a sacred font of spiritual peace and lunar power amidst the human city."
+   "answer": "The pool at the center of Park is a consecrated night elven Moonwell. Kaldorei visitors created it as a sacred font of spiritual peace and lunar power amid the human city."
   }
  ],
  "angles": [
   {
    "target": "race:NightElf",
-   "text": "For night elves traveling across the sea, the Park provides a welcome taste of home, centered around a glowing Moonwell and familiar teachers of Elune and the wild."
+   "text": "Park gives night elves a welcome taste of home, with a glowing Moonwell and familiar teachers of Elune and the wild."
   },
   {
    "target": "class:Druid",
-   "text": "This tranquil enclave is your sole sanctuary for training and counsel across all of the Eastern Kingdoms."
+   "text": "In Park, you find your sole sanctuary for druid training and counsel across the Eastern Kingdoms."
   }
  ],
  "keywords": [
@@ -89,5 +89,6 @@
  ],
  "attribution": [
   "Park"
- ]
+ ],
+ "style": 1
 }

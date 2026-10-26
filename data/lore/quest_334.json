@@ -17,16 +17,16 @@
   "wiki": "Package for Thurman",
   "chain": []
  },
- "summary": "Package for Thurman is a brief errand through the streets of Stormwind City. A worried mother, Rema Schneider, asks passing travelers to bring forgotten tailoring supplies to her slacking apprentice son at Larson Clothiers in the Mage Quarter.",
+ "summary": "In Stormwind City, Rema Schneider needs her son Thurman’s tailoring supplies at Larson Clothiers in the Mage Quarter. He left home without his shears and needles, and Rema asks you to carry them to his workshop.",
  "sections": [
   {
    "title": "A Mother's Errand",
-   "body": "In the daily hustle of Stormwind, not every task involves fighting gnolls or uncovering Defias conspiracies. Rema Schneider, concerned for her son Thurman's livelihood, notices he left home in a rush without his shears and needles. Fearing he will fall behind in his trade duties, she entreats an adventurer to deliver the kit across the canals to his workshop.",
+   "body": "Rema Schneider worries that Thurman will fall behind in his tailoring work without his shears and needles. He left home in a rush, and his mother asks you to carry the tools across Stormwind’s canals to his workshop.",
    "spoiler": 0
   },
   {
    "title": "A Reluctant Apprentice",
-   "body": "Larson Clothiers sits nestled deep within the Mage Quarter, not far from the soaring spires of the Mage Tower. Upon receiving his tools, Thurman reveals that leaving his shears behind was entirely deliberate\u2014a scheme to escape his daily chores and spend the day having fun. With his mother's intervention, however, his afternoon of freedom evaporates, and he is forced back to his stitching.",
+   "body": "Larson Clothiers is in the Mage Quarter, near the Mage Tower. When Thurman receives his tools, he admits he left them behind on purpose so he could skip his daily chores and have fun. Rema’s intervention ends his free afternoon, and he returns to his stitching.",
    "spoiler": 1
   }
  ],
@@ -38,7 +38,7 @@
     "rema schneider quest",
     "quest giver"
    ],
-   "answer": "Rema Schneider starts the quest. She is looking for someone to deliver a sewing kit to her son, who works across town in the Mage Quarter."
+   "answer": "Rema Schneider asks you to carry a sewing kit to her son, who works in the Mage Quarter."
   },
   {
    "q": "Where can Thurman Schneider be found?",
@@ -47,7 +47,7 @@
     "where is thurman",
     "find thurman"
    ],
-   "answer": "Thurman Schneider is located inside Larson Clothiers in the Mage Quarter of Stormwind. The shop is positioned deeper into the quarter, close to the path leading up to the Mage Tower."
+   "answer": "Thurman Schneider works inside Larson Clothiers in Stormwind’s Mage Quarter, near the path to the Mage Tower."
   },
   {
    "q": "Did Thurman actually forget his tools by accident?",
@@ -65,7 +65,7 @@
     "larson clothiers",
     "who does thurman work for"
    ],
-   "answer": "Thurman works as an apprentice tailor for Larson Clothiers, a garment shop in Stormwind's Mage Quarter run by the Larson family."
+   "answer": "Thurman apprentices as a tailor at Larson Clothiers, a garment shop in Stormwind’s Mage Quarter run by the Larson family."
   },
   {
    "q": "Why does Rema Schneider ask an adventurer for help?",
@@ -73,7 +73,7 @@
     "why ask player",
     "rema help"
    ],
-   "answer": "Rema believes her son's apprenticeship is in jeopardy without his kit. Unable to leave her own obligations, she appeals to passing adventurers who might be headed toward the Mage Quarter."
+   "answer": "Rema believes Thurman’s apprenticeship is in jeopardy without his kit. Unable to leave her own obligations, she asks travelers heading toward the Mage Quarter to help."
   },
   {
    "q": "What happens after you deliver the sewing kit?",
@@ -82,17 +82,17 @@
     "after package for thurman",
     "thurman reaction"
    ],
-   "answer": "Thurman takes his kit and gets back to helping the Larsons with their sewing."
+   "answer": "Thurman takes his kit and returns to helping the Larsons with their sewing."
   }
  ],
  "angles": [
   {
    "target": "profession:Tailoring",
-   "text": "Every grand tailor started at the bottom: running seams, holding pins, and trying to slip away from apprentice chores at Larson Clothiers."
+   "text": "Every grand tailor starts at the bottom, running seams and holding pins. At Larson Clothiers, even an apprentice may wish to slip away from chores."
   },
   {
    "target": "faction:Alliance",
-   "text": "Beneath the high politics of Stormwind Keep, ordinary citizens and artisans keep the capital clothed, fed, and running one errand at a time."
+   "text": "Stormwind’s ordinary citizens and artisans keep the capital clothed, fed, and running, one errand at a time."
   }
  ],
  "keywords": [
@@ -113,5 +113,6 @@
  ],
  "attribution": [
   "Package for Thurman"
- ]
+ ],
+ "style": 1
 }

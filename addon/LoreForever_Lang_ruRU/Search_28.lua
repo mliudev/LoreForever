@@ -2,8 +2,6 @@
 -- Sources: data/i18n/ruRU. Lore text adapted from warcraft.wiki.gg (CC BY-SA 4.0); the core add-on's src fields name the articles.
 local P = LoreForeverPacks.Begin("LoreForever_Lang_ruRU")
 local Po = P.search.post
-Po["такоеозеро"] = "JjoCKO7E"
-Po["такоеокаменелость"] = "AdZC"
 Po["такоеоко"] = "B84CCCOEE86CE+NEHSCCJtuCKSxC"
 Po["такоеоковы"] = "IsmC"
 Po["такоеокровавленные"] = "IJeC"
@@ -12002,3 +12000,5 @@ Po["ужасанатрезим"] = "DGGB"
 Po["ужасаобитель"] = "JsGBJsIBJsKB"
 Po["ужасаогры"] = "JLsCJLwB"
 Po["ужасаостров"] = "JgzBJg0BJ86B"
+Po["ужасаотличие"] = "J86C"
+Po["ужасаперсонажи"] = "KOXC"

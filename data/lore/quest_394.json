@@ -17,16 +17,16 @@
   "wiki": "The Head of the Beast",
   "chain": []
  },
- "summary": "Following the assassination of the treacherous Lord Gregor Lescovar, this assignment directs you from Elling Trias to Master Mathias Shaw in Old Town. Reporting the death of Lescovar cements your standing with Stormwind's clandestine intelligence network.",
+ "summary": "In Stormwind, The Head of the Beast carries you from Elling Trias to Master Mathias Shaw in Old Town. Reporting Lord Gregor Lescovar’s death confirms your place in Stormwind’s covert intelligence network.",
  "sections": [
   {
    "title": "A Matter Resolved",
-   "body": "With Lord Lescovar struck down before his conspiracies against the realm could bear fruit, the immediate danger to Stormwind's leadership has been severed. Cheese merchant and veteran operative Elling Trias immediately directs you away from the crime scene and into the shadows of Old Town, cautioning you not to let courtly praise turn your head.",
+   "body": "Elling Trias sends you from the crime scene to Old Town after Lord Lescovar is struck down, ending the immediate danger to Stormwind’s leaders. A cheese merchant and veteran operative, Trias warns you not to be distracted by courtly praise.",
    "spoiler": 1
   },
   {
    "title": "Reporting to the Spymaster",
-   "body": "In the hidden chambers of Old Town, Master Mathias Shaw oversees the kingdom's covert apparatus through SI:7. Receiving word of Lescovar's demise, Shaw recognizes your skill and ruthlessness, warmly praising your efficiency and thanking you for the great service you have done the people of Stormwind.",
+   "body": "Master Mathias Shaw directs Stormwind’s covert apparatus through SI:7 from hidden chambers in Old Town. When you report Lescovar’s death, Shaw recognizes your skill and ruthlessness, praises your efficiency, and thanks you for serving the people of Stormwind.",
    "spoiler": 0
   }
  ],
@@ -37,7 +37,7 @@
     "head of the beast quest",
     "what do i do in head of the beast"
    ],
-   "answer": "This brief interlude tasks you with traveling from Elling Trias to Master Mathias Shaw in Stormwind's Old Town to confirm that Lord Gregor Lescovar has been slain."
+   "answer": "You travel from Elling Trias to Master Mathias Shaw in Stormwind’s Old Town and confirm that Lord Gregor Lescovar has been slain."
   },
   {
    "q": "Who is Mathias Shaw?",
@@ -46,7 +46,7 @@
     "master shaw",
     "si7 leader"
    ],
-   "answer": "Mathias Shaw is the Master of SI:7, Stormwind's secretive intelligence agency and assassin guild, operating discreetly out of Old Town."
+   "answer": "Mathias Shaw leads SI:7, Stormwind’s secretive intelligence agency and assassin guild, from Old Town."
   },
   {
    "q": "Why does Elling Trias send you to Shaw instead of the palace guard?",
@@ -54,7 +54,7 @@
     "why shaw not guards",
     "why report to shaw"
    ],
-   "answer": "Trias operates deep within Stormwind's intelligence apparatus. Because Lescovar was a prominent nobleman engaged in high treason, dealing with the aftermath requires secrecy rather than public scandal among the guard."
+   "answer": "Elling Trias works deep within Stormwind’s intelligence apparatus. Lescovar was a prominent nobleman engaged in high treason, so secrecy helps avoid a public scandal among the palace guard."
   },
   {
    "q": "What threat did Lescovar pose to Stormwind?",
@@ -62,7 +62,7 @@
     "lescovar threat",
     "what did lescovar do"
    ],
-   "answer": "Lord Gregor Lescovar was actively plotting with subversive agents against the crown and the safety of the capital, betraying the realm from within the nobility."
+   "answer": "Lord Gregor Lescovar plotted with subversive agents against the crown and the capital’s safety, betraying the realm from within the nobility."
   },
   {
    "q": "What happens after reporting Lescovar's death?",
@@ -70,7 +70,7 @@
     "next quest after head of the beast",
     "what comes next"
    ],
-   "answer": "Mathias Shaw prepares to close the book on the conspiracy, sending you toward the final resolution of the subversive threat looming over Stormwind."
+   "answer": "Mathias Shaw prepares to close the book on the conspiracy and sends you toward the final resolution of the threat looming over Stormwind."
   },
   {
    "q": "Where can Mathias Shaw be found?",
@@ -78,17 +78,17 @@
     "shaw location",
     "where is mathias shaw"
    ],
-   "answer": "Mathias Shaw is located in the command building of SI:7, tucked away within Old Town in the eastern quarters of Stormwind City."
+   "answer": "Mathias Shaw can be found in SI:7’s command building in Old Town, in the eastern quarters of Stormwind City."
   }
  ],
  "angles": [
   {
    "target": "class:Rogue",
-   "text": "Reporting directly to Mathias Shaw serves as a vital rite of passage, confirming your reliability to the leader of Stormwind's foremost shadow organization."
+   "text": "As a rogue, reporting directly to Mathias Shaw confirms your reliability to the leader of Stormwind’s foremost shadow organization."
   },
   {
    "target": "faction:Alliance",
-   "text": "Removing corrupt aristocrats from within Stormwind helps stabilize the realm during King Varian Wrynn's deeply destabilizing absence."
+   "text": "As an Alliance member, you help stabilize the realm by removing corrupt aristocrats from Stormwind during King Varian Wrynn’s deeply destabilizing absence."
   }
  ],
  "keywords": [
@@ -110,5 +110,6 @@
  ],
  "attribution": [
   "The Head of the Beast"
- ]
+ ],
+ "style": 1
 }

@@ -7,16 +7,16 @@
  "meta": {
   "wiki": "Westbrook Garrison"
  },
- "summary": "Westbrook Garrison is a Stormwind Guard outpost situated on the western edge of Elwynn Forest near the Westfall border. Manned by an overworked, under-supplied skeleton crew under Deputy Rainer, it serves as the realm's first line of defense against the encroaching Riverpaw gnolls and rogue bandits.",
+ "summary": "At Westbrook Garrison, Deputy Rainer's few guards hold Elwynn's western road against gnolls and bandits. The outpost is short on soldiers and supplies, with danger rising near the Westfall border.",
  "sections": [
   {
    "title": "A Beleaguered Border Post",
-   "body": "Positioned where Elwynn Forest begins to thin toward Westfall, Westbrook Garrison stands as a vital but struggling watchpoint. With much of the Stormwind Army committed abroad or tied down by political inertia in the capital, the outpost has been left critically shorthanded. Deputy Rainer and his handful of guards must patrol the western roads while fending off emboldened thieves and the vicious Riverpaw gnolls who have overrun the southern woods. Unable to secure formal reinforcements from Marshal Dughan in Goldshire, the garrison relies almost entirely on traveling adventurers to secure the highway.",
+   "body": "Westbrook Garrison watches the road where Elwynn Forest thins toward Westfall. Deputy Rainer and a handful of guards patrol the western roads with too few soldiers to cover them. Much of the Stormwind Army serves abroad, while political indecision in the capital leaves the outpost without needed support. Thieves grow bolder, and Riverpaw gnolls have overrun the southern woods. Marshal Dughan in Goldshire has not sent formal reinforcements, so the guards depend on travelers to help secure the highway.",
    "spoiler": 0
   },
   {
    "title": "The Menace of Forest's Edge",
-   "body": "The primary threat facing Westbrook is the swelling gnoll presence centered around the south of Forest's Edge. The packs have grown bold enough to stage raids directly on supply lines and homesteads, organized under the fearsome gnoll chieftain known as Hogger. Outnumbered and overwhelmed by the brute strength of Hogger's forces, the garrison has posted a high bounty across its grounds, desperately seeking capable fighters willing to venture into the hills and bring down the beast before he pushes farther east.",
+   "body": "Riverpaw gnolls gather south of Forest's Edge, where their raids threaten supply lines and homesteads. The packs follow Hogger, a fearsome chieftain whose forces outnumber the garrison and overwhelm its guards with brute strength. A high bounty is posted across the outpost, seeking fighters willing to enter the hills and bring down Hogger before the gnolls press farther east.",
    "spoiler": 0
   }
  ],
@@ -28,7 +28,7 @@
     "westbrook reinforcements",
     "deputy rainer lacking troops"
    ],
-   "answer": "The bulk of the Stormwind Army is deployed abroad, and political indecision within the capital's House of Nobles has starved regional garrisons of fresh troops and supplies. Westbrook's commanders must rely heavily on wandering adventurers to pick up the slack."
+   "answer": "Most of the Stormwind Army serves abroad, while indecision among the House of Nobles in the capital has left regional garrisons short of soldiers and supplies. Westbrook's commanders depend on wandering adventurers to help fill the gap."
   },
   {
    "q": "Who is in command at the garrison?",
@@ -37,7 +37,7 @@
     "deputy rainer role",
     "westbrook commander"
    ],
-   "answer": "Deputy Rainer oversees operations at Westbrook Garrison. He answers directly to Marshal Dughan stationed at Goldshire, though his requests for additional soldiers have largely gone unanswered."
+   "answer": "Deputy Rainer oversees Westbrook Garrison and answers to Marshal Dughan in Goldshire. His requests for more soldiers have largely gone unanswered."
   },
   {
    "q": "What threats does the garrison face?",
@@ -46,7 +46,7 @@
     "gnolls westbrook",
     "who attacks westbrook garrison"
    ],
-   "answer": "The garrison deals with wandering bandits spilling out of Westfall and the ferocious Riverpaw gnolls who camp in the surrounding woods, led by their dangerous chieftain Hogger."
+   "answer": "Westbrook faces bandits from Westfall and Riverpaw gnolls camping in the surrounding woods. The gnolls follow their chieftain, Hogger."
   },
   {
    "q": "What is the relation between Westbrook and Westfall?",
@@ -54,17 +54,17 @@
     "is westbrook in westfall",
     "border to westfall"
    ],
-   "answer": "Westbrook Garrison is the final outpost in Elwynn Forest along the western road before crossing the bridge into Westfall, guarding the border against the lawlessness rising from the west."
+   "answer": "Westbrook Garrison is Elwynn's last outpost on the western road before the bridge into Westfall. Its guards watch the border as lawlessness rises from the west."
   }
  ],
  "angles": [
   {
    "target": "class:Warrior",
-   "text": "The beleaguered guards at Westbrook represent an overstretched kingdom holding back wilderness predators with sheer grit, offering plenty of straightforward, brutal work clearing gnoll war bands."
+   "text": "As a Warrior, you can help Westbrook's overstretched guards hold back wilderness predators and fight the gnoll war bands."
   },
   {
    "target": "faction:Alliance",
-   "text": "For Alliance champions setting out from Elwynn toward Westfall, securing Westbrook's perimeter and claiming the bounty on Hogger is essential to keeping the heartland's western borders secure."
+   "text": "As an Alliance champion traveling from Elwynn toward Westfall, you can help secure Westbrook's perimeter and claim the bounty on Hogger to guard the kingdom's western border."
   }
  ],
  "keywords": [
@@ -89,5 +89,6 @@
  ],
  "attribution": [
   "Westbrook Garrison"
- ]
+ ],
+ "style": 1
 }

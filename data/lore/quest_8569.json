@@ -18,16 +18,16 @@
   "wiki": "Past Efforts in Warsong Gulch",
   "chain": []
  },
- "summary": "Past Efforts in Warsong Gulch is a military commendation turned in to capital city officers in recognition of service on the front lines. Rather than celebrating outright conquest, it honors veterans who offered valiant struggle and sacrifice amidst the contested woods of Ashenvale. City commanders accept these tokens to sustain war morale and reward dedication across both factions.",
+ "summary": "In Warsong Gulch, soldiers fight for Ashenvale while commanders honor their sacrifices. Capital officers accept the Ribbon of Sacrifice as a sign of steadfast service, even when battles bring no clear victory.",
  "sections": [
   {
    "title": "Honoring the Fallen and the Valiant",
-   "body": "War between the Silverwing Sentinels and the Warsong Outriders rarely yields clean or effortless victories. Across the southern borders of Ashenvale, skirmishes are brutal, bloody, and often end without decisive triumph. Recognizing that morale cannot hinge entirely on unblemished success, commanders in Stormwind, Orgrimmar, and other capitals instituted honors for steadfast service. The Ribbon of Sacrifice commemorates those who threw themselves into the fray regardless of the odds.",
+   "body": "The Silverwing Sentinels and Warsong Outriders fight brutal skirmishes along Ashenvale’s southern border. Many battles end without a clear victory. Stormwind, Orgrimmar, and other capitals honor those who hold their ground despite the odds. The Ribbon of Sacrifice marks fighters who gave themselves to the struggle.",
    "spoiler": 0
   },
   {
    "title": "The War Effort at Home",
-   "body": "Capital officials such as the Alliance Brigadier Generals and Horde Warbringers manage mobilization far behind the front lines. While recruiters direct new blood toward battlefields like Warsong Gulch, quartermasters and tacticians must account for returning fighters who endured grueling campaigns. By acknowledging individual courage and sacrifices in stalemate or defeat, leadership ensures that frontline soldiers remain committed to holding Ashenvale.",
+   "body": "Far from the front, Alliance Brigadier Generals and Horde Warbringers oversee their forces. Recruiters send new fighters to Warsong Gulch, while quartermasters and tacticians account for veterans returning from hard campaigns. By honoring courage in stalemate or defeat, their leaders help keep soldiers committed to holding Ashenvale.",
    "spoiler": 0
   }
  ],
@@ -39,7 +39,7 @@
     "past efforts purpose",
     "what does past efforts mean"
    ],
-   "answer": "The commendation acknowledges frontline combatants who gave everything during engagements in Warsong Gulch. Capital commanders accept proof of heroic struggle to reward perseverance and sustain war morale across the realm."
+   "answer": "The commendation honors fighters who gave everything in Warsong Gulch. Capital commanders accept the Ribbon of Sacrifice to recognize their perseverance and sustain morale."
   },
   {
    "q": "Who accepts these tokens of sacrifice?",
@@ -48,7 +48,7 @@
     "where to turn in past efforts",
     "who is the brigadier general"
    ],
-   "answer": "Senior military liaisons stationed in major cities accept them, including Alliance Brigadier Generals in places like Stormwind and Horde Warbringers in cities like Orgrimmar."
+   "answer": "Alliance Brigadier Generals and Horde Warbringers accept the tokens in major cities, including Stormwind and Orgrimmar."
   },
   {
    "q": "Why does the military reward efforts that did not lead to victory?",
@@ -57,7 +57,7 @@
     "why reward loss",
     "heroic effort meaning"
    ],
-   "answer": "Commanders understand that relentless combat in the forests of Ashenvale exacts a steep toll. Rewarding dedication and grit reminds combatants that their blood and sacrifice are valued even when the battle outcome falls short of total victory."
+   "answer": "Commanders know the fighting in Ashenvale’s forests takes a heavy toll. Honoring soldiers’ dedication shows that their sacrifice matters even when they do not win."
   },
   {
    "q": "Where does the conflict of Warsong Gulch take place?",
@@ -66,7 +66,7 @@
     "warsong gulch location",
     "what is warsong gulch"
    ],
-   "answer": "Warsong Gulch lies along the southern border of Ashenvale, where the orcish Warsong Outriders gather lumber while clashing against the fierce resistance of the night elf Silverwing Sentinels."
+   "answer": "Warsong Gulch lies along Ashenvale’s southern border. The Warsong Outriders gather lumber there while the Silverwing Sentinels resist them."
   },
   {
    "q": "Can members of both the Alliance and Horde undertake this?",
@@ -75,7 +75,7 @@
     "horde or alliance past efforts",
     "can horde turn this in"
    ],
-   "answer": "Yes. Both factions maintain equivalent military leaderships in their respective capitals to honor the soldiers returning from the bloody logging skirmishes in Ashenvale."
+   "answer": "Yes. Both factions honor returning soldiers through their military leaders in their respective capitals."
   },
   {
    "q": "What does the Ribbon of Sacrifice represent?",
@@ -84,21 +84,21 @@
     "what is ribbon of sacrifice",
     "sacrifice ribbon"
    ],
-   "answer": "The Ribbon of Sacrifice is an emblem bestowed upon or carried by combatants who endured fierce clashes in Warsong Gulch, testifying to their unwavering willingness to fight on behalf of their people."
+   "answer": "The Ribbon of Sacrifice honors fighters who endured fierce clashes in Warsong Gulch and remained willing to fight for their people."
   }
  ],
  "angles": [
   {
    "target": "faction:Alliance",
-   "text": "For Alliance forces, turning in ribbons to the Brigadier General reaffirms their pledge to defend the ancient forests and support their night elven allies against Warsong aggression."
+   "text": "As an Alliance soldier, presenting a ribbon to a Brigadier General affirms your pledge to defend the ancient forests and support your night elven allies against Warsong aggression."
   },
   {
    "target": "faction:Horde",
-   "text": "For the Horde, delivering tokens to city Warbringers proves that the blood spilled securing wood and survival in Ashenvale was not offered in vain."
+   "text": "As a member of the Horde, presenting a token to a Warbringer affirms that the blood spent securing wood and survival in Ashenvale was not wasted."
   },
   {
    "target": "class:Warrior",
-   "text": "Frontline combatants who weathered the brutal melee in the gulch understand better than anyone that true discipline lies in fighting fiercely even when victory hangs in the balance."
+   "text": "As a warrior, you know the brutal melee in the gulch. Discipline means fighting fiercely even when victory hangs in the balance."
   }
  ],
  "keywords": [
@@ -117,5 +117,6 @@
  ],
  "attribution": [
   "Past Efforts in Warsong Gulch"
- ]
+ ],
+ "style": 1
 }

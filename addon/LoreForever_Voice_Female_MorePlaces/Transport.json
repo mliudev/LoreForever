@@ -1979,9 +1979,9 @@
     "subzone:deadmines": {
       "1": [
         {
-          "duration": 56.0065306122449,
-          "file": "Audio/Transport/full_subzone_deadmines-b702bdb8e257708728ce/1-0000.mp3",
-          "sha256": "ff00056a7d644fdbf76f1c34d5ec7c731b8cc4fed87e02d6b7a1b706dfeae3d4",
+          "duration": 44.251428571428576,
+          "file": "Audio/Transport/full_subzone_deadmines-24ef2b4266fe91b472a0/1-0000.mp3",
+          "sha256": "b19a99e095d504b24d8ab61faf67e8c954c8e562e1a39c885ea9fd51fb06dbac",
           "start": 0
         }
       ],
@@ -1992,15 +1992,15 @@
           "1"
         ]
       },
-      "fullHash": "d4d689",
-      "generation": "5ad555f496e87c005665",
-      "hash": "d4d689",
+      "fullHash": "050b2c",
+      "generation": "5c1b439a8deb9dfd9365",
+      "hash": "050b2c",
       "source": {
-        "duration": 55.980375,
+        "duration": 44.251429,
         "file": null,
-        "sha256": "b702bdb8e257708728ce8df2788b5af6f8ff5b5a0a415aac6f3acd859cfb60e0"
+        "sha256": "24ef2b4266fe91b472a0c99a4740c48388b74c87913fe38f5095d37c2c582d8c"
       },
-      "text": "Deadmines. Deep beneath the dusty ghost town of Moonbrook, the Deadmines are a sprawling underground labyrinth that was once the greatest gold-production center in human lands. Abandoned during the First War and long whispered to be haunted, the forgotten shafts have become the fortified headquarters of Edwin VanCleef and his rebellious Defias Brotherhood. Before the First War, the Deadmines were the premier mining operation in human lands, rich in gold and sturdy Whitestone oak used for timber and structural supports. When the orcish Horde pushed north, the mines were abandoned in haste. Sir Anduin Lothar notably ventured into their treacherous depths to recover the sacred Tome of Divinity, surviving twenty months of captivity at the hands of subterranean ogres before being rescued. In the turmoil that followed the kingdom's fall, the shafts fell silent and gained a chilling reputation for being cursed."
+      "text": "Deadmines. Beneath Moonbrook, the Deadmines lie silent under a ruined town in Westfall. Once the greatest gold producer in human lands, the mines were abandoned during the First War. Now rumors speak of sinister forces in the forgotten shafts, though their danger remains unknown. The Deadmines once led all human mines in gold, with Whitestone oak for timber and supports. When the orcish Horde pushed north, miners fled in haste. Sir Anduin Lothar entered the treacherous depths to recover the sacred Tome of Divinity. Subterranean ogres held him captive for twenty months before rescuers freed him. After the kingdom fell, the shafts went quiet, and people came to say they were cursed."
     },
     "subzone:deadwood-village": {
       "1": [
@@ -8401,9 +8401,9 @@
     "subzone:stormwind-city": {
       "1": [
         {
-          "duration": 95.79102040816326,
-          "file": "Audio/Transport/full_subzone_stormwind-city-7c7684478c52595e16c1/1-0000.mp3",
-          "sha256": "03499d4e2a448907e1a052bca2af5a87786dc7524f93976fc4563d5fc0001ec3",
+          "duration": 87.40571428571428,
+          "file": "Audio/Transport/full_subzone_stormwind-city-1740ad1e2c701909b7de/1-0000.mp3",
+          "sha256": "76db5f242bbe13e906c9c840bdf51cf533d3b5ad2cec02f814d5ee7b001ac9b6",
           "start": 0
         }
       ],
@@ -8414,15 +8414,15 @@
           "1"
         ]
       },
-      "fullHash": "3d2c67",
-      "generation": "9c6a52976fe8dd33d115",
-      "hash": "3d2c67",
+      "fullHash": "a28f8f",
+      "generation": "54d63d86727b29ecfde6",
+      "hash": "a28f8f",
       "source": {
-        "duration": 95.764875,
+        "duration": 87.431837,
         "file": null,
-        "sha256": "7c7684478c52595e16c1ff95434075a61f2abd3ee152baeb1152a9aa36f5eb8f"
+        "sha256": "1740ad1e2c701909b7de8138c986b05a743b7afc75e8b9587cccd2870a810275"
       },
-      "text": "Stormwind City. Stormwind City is the majestic capital of the Kingdom of Stormwind and the military and political heart of the Alliance. Rebuilt from ashes following its destruction in the First War, it stands as the greatest remaining bastion of human power in Azeroth following the fall of the northern kingdoms. Founded over a millennium ago by Arathi descendants migrating south, Stormwind flourished as a vibrant coastal capital ringed by stone ramparts and powered by swift rivermills. That grandeur ended in the First War when the Orcish Horde besieged the city, breached its defenses, and burned it to the ground, forcing Sir Anduin Lothar to lead surviving refugees across the Great Sea to Lordaeron. Following the victory of the Alliance in the Second War, the Stonemasons' Guild undertook the monumental task of rebuilding the capital into the gleaming fortress of white stone, canal networks, and towering spires that stands north of Elwynn Forest today. With Lordaeron shattered by the Scourge and Dalaran heavily ruined during the Third War, Stormwind City serves as the primary refuge and stronghold for mankind. Its broad avenues and defensive walls are patrolled by the disciplined Stormwind City Guard, while the spires of the Cathedral of Light guide faith and devotion across the southern kingdoms. Yet beneath its orderly districts and ceremonial gates lies quiet political turmoil: King Varian Wrynn has mysteriously vanished, leaving his young son Anduin on the throne under the regency of Highlord Bolvar Fordragon and the whispered counsel of royal advisor Lady Katrana Prestor."
+      "text": "Stormwind City. Stormwind City leads the Kingdom of Stormwind and the Alliance as their capital and seat of power. Rebuilt after the First War, it is the greatest remaining human stronghold in Azeroth since the northern kingdoms fell. Stormwind City rose over a thousand years ago, founded by Arathi descendants who migrated south. The coastal capital flourished behind stone ramparts, with swift rivermills powering the city. In the First War, the Orcish Horde laid siege, broke through its defenses, and burned Stormwind to the ground. Sir Anduin Lothar led the surviving refugees across the Great Sea to Lordaeron. After the Alliance won the Second War, the Stonemasons' Guild rebuilt the capital with white stone, canals, and towering spires. The fortress now stands north of Elwynn Forest. Stormwind City has become mankind's chief refuge and stronghold after the Scourge shattered Lordaeron and the Third War left Dalaran heavily ruined. The disciplined Stormwind City Guard patrols its broad avenues and defensive walls. The Cathedral of Light's spires guide faith across the southern kingdoms. Beneath the orderly districts and ceremonial gates, political troubles linger. King Varian Wrynn has mysteriously vanished, and his young son Anduin sits on the throne under the regency of Highlord Bolvar Fordragon and the whispered counsel of royal advisor Lady Katrana Prestor."
     },
     "subzone:stratholme": {
       "1": [
@@ -10654,17 +10654,6 @@
       1456,
       1637
     ],
-    "03499d4e2a448907e1a052bca2af5a87786dc7524f93976fc4563d5fc0001ec3": [
-      274,
-      416,
-      669,
-      1110,
-      1598,
-      2150,
-      2550,
-      2971,
-      3191
-    ],
     "03fb8084d40354e5bf4e253c71a3ebe1ff157d1a880e7975f3f203828902b92d": [
       309,
       625,
@@ -10784,6 +10773,9 @@
       565,
       956
     ],
+    "0bd91dac5b9631d1e670b8afe4c89ab4bf9db23c0903a89ba9b68dfdfce8349e": [
+      559
+    ],
     "0c3ee5db81e8731b50234fd6337399ade3ccb6d61b119d9724172270ba5ba1b4": [
       286,
       993,
@@ -10819,6 +10811,9 @@
       1699,
       2094,
       2401
+    ],
+    "0fcf6edd68c2a0f1b00128e53b2792376ab765266ccb973a3c90513f96514e8b": [
+      500
     ],
     "103b7e39c579a4ac1f1a21ee41972a31763d9ed9eb79c47a5082d2701d619256": [
       590,
@@ -11371,6 +11366,10 @@
       1912,
       2062
     ],
+    "3d21e3e732bc70b4566be67f277ebc101a1572312a983b1939ec61673bddb673": [
+      534,
+      1014
+    ],
     "3d3696eb78f21ee9624ab8de6bcf7be4a5cb6929d6bf8093b9e29b314b4314bb": [
       216,
       358,
@@ -11653,6 +11652,10 @@
       2322,
       2459
     ],
+    "51a7cd1544cbcf20b7ea4cff06c437d730c594632640d1928589c3e68b7408e4": [
+      255,
+      980
+    ],
     "5273fa2755cd9860032231c2a2efc3c12111eef6340314357ce6f0a25c09e495": [
       649,
       1017,
@@ -11772,6 +11775,9 @@
       2106,
       2454
     ],
+    "5c7d84a238b637582f97b630d5356dac51ec09361117036a71a1dd932e5ab1f3": [
+      511
+    ],
     "5d9a96b30a050d913b22326ea95f2af2efb0611e43b28d7ebd82d6422fdfc167": [
       214,
       515,
@@ -11890,6 +11896,9 @@
       1523,
       1754,
       2061
+    ],
+    "668052e3e865443e73d9ae545fffacf68ba13cc574c54c1fe949f8e40c99e284": [
+      624
     ],
     "67250425c7656fc9f3cbc01e85c62ed5a517e365f94f75d2eb2b0810f16978b7": [
       395,
@@ -12045,6 +12054,19 @@
       1520,
       2087,
       2672
+    ],
+    "76db5f242bbe13e906c9c840bdf51cf533d3b5ad2cec02f814d5ee7b001ac9b6": [
+      245,
+      520,
+      752,
+      984,
+      1135,
+      1301,
+      1937,
+      2321,
+      2523,
+      2683,
+      2894
     ],
     "775f3f433acb69fdb9c7c1c3277420dd7d3279ae20ed2ecfce783e76d80a0aaf": [
       265,
@@ -12445,6 +12467,9 @@
       2235,
       2821
     ],
+    "91b8921952532c0d8188e7a222714e04e9e750cf672bb86fbeeab32938806dec": [
+      387
+    ],
     "91e89c4ad9774310a2e111b6d2e98e074d565980e906e7d08db44e9777afb005": [
       288,
       586,
@@ -12658,6 +12683,9 @@
       3193,
       3672
     ],
+    "a33c358af9b8e7c4108f51731cae2555b33507318733dcbe4bb2ff40bf39cab1": [
+      294
+    ],
     "a39c1bfb6780af3963415f61ef0f8014885411c92935b1df8739c636f088441c": [
       137,
       290,
@@ -12842,6 +12870,15 @@
       1248,
       1703,
       2214
+    ],
+    "b19a99e095d504b24d8ab61faf67e8c954c8e562e1a39c885ea9fd51fb06dbac": [
+      215,
+      445,
+      686,
+      919,
+      1094,
+      1310,
+      1509
     ],
     "b1cf8c9ae452438aa29230d53da0946733cef3b386cd6f8d5ceff586dc08facb": [
       355,
@@ -13117,6 +13154,9 @@
       1023,
       1489
     ],
+    "c8a24964dd6223ce9c8ce5a10169090830c80169f2352f17f1b2dbaa9f3cf944": [
+      429
+    ],
     "c8fc0fc2a2f6c4a8f3ee5cf15cedd264b991560788edc02ac4df815ed5a44181": [
       336,
       728,
@@ -13356,6 +13396,9 @@
       1037,
       1358
     ],
+    "dd97cea8e6fa6ce3530f7eb05ed1398941c76bbf2e0a083c1bfe90a462fcc488": [
+      518
+    ],
     "ddfc94631bb76dad4b3283a77ab33a8c24f753085754a7aeb0830971db5377dc": [
       242,
       587,
@@ -13383,6 +13426,9 @@
       1033,
       1351,
       1591
+    ],
+    "e0018f4786c9197b16cce46ece5d556520c76ac83612d9033988816eba93099a": [
+      553
     ],
     "e10aae3455ae667325be3fd0c4983559f06f7c09f8aebb9d2e9c5b4b1588ef04": [
       171,
@@ -13645,6 +13691,9 @@
       1566,
       1895
     ],
+    "f836634fe27b72e659ece42ed37e7b4ce5c81054a9762b3432e771c85b034116": [
+      758
+    ],
     "f9095a3307bc76870af1a77aa5fea64df080c1db7f992b5746226e8eb76a0b2a": [
       264,
       868,
@@ -13722,13 +13771,6 @@
       2362,
       2826
     ],
-    "ff00056a7d644fdbf76f1c34d5ec7c731b8cc4fed87e02d6b7a1b706dfeae3d4": [
-      394,
-      552,
-      717,
-      883,
-      1852
-    ],
     "ff114d7497eb87a1bbb90e31df5ac65196e051db2fe321266a479bb2f34b332d": [
       297,
       717,
@@ -13754,5 +13796,15 @@
     ]
   },
   "pack": "LoreForever_Voice_Female_MorePlaces",
+  "retired": [
+    {
+      "file": "Audio/Transport/full_subzone_deadmines-b702bdb8e257708728ce/1-0000.mp3",
+      "sha256": "ff00056a7d644fdbf76f1c34d5ec7c731b8cc4fed87e02d6b7a1b706dfeae3d4"
+    },
+    {
+      "file": "Audio/Transport/full_subzone_stormwind-city-7c7684478c52595e16c1/1-0000.mp3",
+      "sha256": "03499d4e2a448907e1a052bca2af5a87786dc7524f93976fc4563d5fc0001ec3"
+    }
+  ],
   "version": 1
 }

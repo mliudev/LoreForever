@@ -10,11 +10,11 @@
    "quest:6"
   ]
  },
- "summary": "Garrick's Head is the severed head of Garrick Padfoot, a notorious cutthroat operating near the vineyards of Northshire Valley. It serves as gruesome proof of death to claim a bounty issued by the authorities at Northshire Abbey.",
+ "summary": "At Northshire's vineyards, Garrick Padfoot's severed head proves the cutthroat is dead. The authorities at Northshire Abbey require it to pay the bounty.",
  "sections": [
   {
    "title": "A Bandit's End",
-   "body": "For weeks, Garrick Padfoot and his gang of thugs harassed local farmers and merchants across Northshire Valley. Taking advantage of the Kingdom of Stormwind's stretched defenses, Garrick holed up in a shack near the Northshire vineyards, raiding passing trade. With local guards pinned down by encroaching kobolds and Defias bandits, Deputy Willem placed a bounty on Padfoot's head, seeking an enterprising adventurer to eliminate the outlaw and present undeniable proof of his demise.",
+   "body": "Garrick Padfoot and his gang harassed Northshire Valley's farmers and merchants for weeks. With Stormwind's defenses stretched thin, Garrick made his hideout in a shack near the vineyards and raided passing trade. Local guards were occupied by kobolds and Defias bandits, so Deputy Willem offered a bounty for the outlaw's death. He sought someone willing to kill Garrick and bring back proof.",
    "spoiler": 0
   }
  ],
@@ -26,7 +26,7 @@
     "garrick padfoot lore",
     "who was padfoot"
    ],
-   "answer": "Garrick Padfoot was a villainous cutthroat who terrorized the farmers, vineyards, and traveling merchants of Northshire Valley. He established a small outpost with a crew of thugs east of Northshire Abbey across the river."
+   "answer": "Garrick Padfoot was a cutthroat who terrorized Northshire Valley's farmers, vineyard workers, and traveling merchants. He set up an outpost with his gang east of Northshire Abbey, across the river."
   },
   {
    "q": "Why is a severed head needed to collect the bounty?",
@@ -35,7 +35,7 @@
     "proof of death",
     "why take garricks head"
    ],
-   "answer": "Frontier justice in Elwynn Forest demands irrefutable proof. Deputy Willem and the Northshire authorities require tangible evidence of Garrick's demise before handing out the bounty payment."
+   "answer": "Deputy Willem and the Northshire authorities require proof of Garrick's death before paying the bounty."
   },
   {
    "q": "Where was Garrick Padfoot hiding?",
@@ -44,7 +44,7 @@
     "garrick shack location",
     "where to find garrick padfoot"
    ],
-   "answer": "Padfoot established a camp at a small wooden shack located east of Northshire Abbey, across the river bridge near the Northshire vineyards."
+   "answer": "Padfoot hid in a small wooden shack east of Northshire Abbey, across the river bridge near the Northshire vineyards."
   },
   {
    "q": "Who pays the bounty for Garrick's head?",
@@ -53,17 +53,17 @@
     "turn in garricks head",
     "who turned in garrick head"
    ],
-   "answer": "Deputy Willem, stationed just outside the entrance to Northshire Abbey, posted the bounty and pays it out upon receiving the head."
+   "answer": "Deputy Willem posted the bounty and pays it when he receives Garrick's head. He is stationed just outside Northshire Abbey's entrance."
   }
  ],
  "angles": [
   {
    "target": "race:Human",
-   "text": "Taking Padfoot's head marks one of the first decisive blows a young Stormwind recruit lands against the lawlessness creeping through Elwynn Forest."
+   "text": "As a human, taking Padfoot's head is an early blow against the lawlessness spreading through Elwynn Forest."
   },
   {
    "target": "class:Rogue",
-   "text": "Eliminating Padfoot demonstrates to local ruffians that undisciplined banditry will not go unanswered by deadlier, more professional blades."
+   "text": "As a rogue, eliminating Padfoot shows local ruffians that banditry will meet deadly, professional blades."
   }
  ],
  "keywords": [
@@ -83,5 +83,6 @@
  "attribution": [
   "Garrick's Head",
   "Bounty on Garrick Padfoot"
- ]
+ ],
+ "style": 1
 }

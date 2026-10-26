@@ -17,16 +17,16 @@
   "wiki": "Glyphic Letter (quest)",
   "chain": []
  },
- "summary": "The Glyphic Letter is a formal summons delivered to novice human mages inside Northshire Valley by Marshal McBride. Written under the arcane seal of Khelden Bremen, the note calls promising spellcasters into Northshire Abbey to begin their formal tutelage in the arcane arts.",
+ "summary": "A sealed summons reaches novice human mages in Northshire Valley, sent by Marshal McBride. Khelden Bremen calls promising spellcasters to Northshire Abbey to begin their arcane tutelage.",
  "sections": [
   {
    "title": "A Summons to the Arcane",
-   "body": "Once an aspiring apprentice proves their capability by aiding Marshal McBride against the local vermin, the garrison commander hands them a message marked with arcane runes. The letter comes directly from Khelden Bremen, Northshire's resident mage trainer, who monitors new recruits arriving at the abbey for signs of magical discipline and talent.",
+   "body": "Marshal McBride gives the rune-marked letter to an aspiring apprentice who has proved capable by helping him against local vermin. Khelden Bremen, Northshire's resident mage trainer, wrote it. He watches new recruits arriving at the abbey for signs of magical discipline and talent.",
    "spoiler": 0
   },
   {
    "title": "The Weight of Wizardry",
-   "body": "Northshire Abbey has historically served as a sanctuary for the Holy Light, yet the ongoing perils facing Stormwind require practitioners of every discipline. Answering the letter leads the novice upstairs to Khelden Bremen. Rather than offering easy praise, the tutor delivers a stark warning: mastering arcane power demands defiance of natural limits, inviting both profound respect and deep-seated fear from ordinary folk.",
+   "body": "Northshire Abbey has long been a sanctuary of the Holy Light, but Stormwind's dangers call for practitioners of every discipline. The letter brings you upstairs to Khelden Bremen. He offers no easy praise. Instead, he warns that mastering arcane power means defying natural limits, earning both profound respect and deep fear from ordinary folk.",
    "spoiler": 0
   }
  ],
@@ -37,7 +37,7 @@
     "who gives glyphic letter",
     "glyphic letter quest giver"
    ],
-   "answer": "Marshal McBride presents the letter to newly arrived mages outside Northshire Abbey once they have helped clear the nearby kobold vermin."
+   "answer": "Marshal McBride gives the letter to newly arrived mages outside Northshire Abbey after they help clear nearby kobold vermin."
   },
   {
    "q": "Who wrote the Glyphic Letter?",
@@ -45,7 +45,7 @@
     "author of glyphic letter",
     "who sent glyphic letter"
    ],
-   "answer": "The letter was written and sealed by Khelden Bremen, the resident mage trainer stationed inside the upper chambers of Northshire Abbey."
+   "answer": "Khelden Bremen, the resident mage trainer in Northshire Abbey's upper chambers, wrote and sealed the letter."
   },
   {
    "q": "Where do I find Khelden Bremen?",
@@ -53,7 +53,7 @@
     "khelden bremen location",
     "where is khelden"
    ],
-   "answer": "Enter Northshire Abbey behind Marshal McBride, take the left hallway, head up the stairs, and look toward the rear chambers to find Khelden waiting to teach."
+   "answer": "Enter Northshire Abbey behind Marshal McBride, take the left hallway, then climb the stairs. Khelden waits in the rear chambers to teach."
   },
   {
    "q": "Why is the mage trainer located in an abbey?",
@@ -61,7 +61,7 @@
     "why are mages in northshire abbey",
     "mage trainer in holy abbey"
    ],
-   "answer": "While Northshire Abbey is fundamentally a holy sanctuary, Stormwind utilizes the valley as an initial training depot for defenders of all disciplines, stationing arcane tutors alongside clerics and marshals."
+   "answer": "Northshire Abbey is a holy sanctuary, yet Stormwind uses the valley to train defenders in every discipline. Arcane tutors work there alongside clerics and marshals."
   },
   {
    "q": "What happens after turning in the letter?",
@@ -77,17 +77,17 @@
     "why are mages feared",
     "khelden bremen dialogue"
    ],
-   "answer": "Arcane magic is a volatile, reality-bending force. Khelden reminds apprentices that pursuing supreme knowledge means crossing boundaries that regular folk find deeply unsettling."
+   "answer": "Arcane magic can bend reality and is volatile. Khelden warns that the pursuit of supreme knowledge crosses boundaries ordinary folk find deeply unsettling."
   }
  ],
  "angles": [
   {
    "target": "class:Mage",
-   "text": "This quest marks your official transition from a raw, untrained talent into a recognized apprentice of Stormwind's arcane arts under Khelden Bremen."
+   "text": "As a mage, you begin your recognized apprenticeship in Stormwind's arcane arts under Khelden Bremen."
   },
   {
    "target": "race:Human",
-   "text": "Northshire's human mages inherit a legacy stretching back to the original human arcanists of Dalaran and the Kirin Tor, carrying arcane might into the Kingdom of Stormwind."
+   "text": "As a human, you carry Northshire's legacy of arcane magic, reaching back to Dalaran's first human arcanists and the Kirin Tor, into the Kingdom of Stormwind."
   }
  ],
  "keywords": [
@@ -108,5 +108,6 @@
  ],
  "attribution": [
   "Glyphic Letter (quest)"
- ]
+ ],
+ "style": 1
 }

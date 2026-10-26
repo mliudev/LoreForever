@@ -17,16 +17,16 @@
   "wiki": "Brotherhood of Thieves",
   "chain": []
  },
- "summary": "Brotherhood of Thieves is an early task assigned by Deputy Willem outside Northshire Abbey. It directs young Alliance recruits across the eastern river to push back an encroaching band of brigands known as the Defias Brotherhood. Collecting the thieves' signature red burlap bandanas provides Stormwind authorities their first tangible evidence of the group's organized presence in the valley.",
+ "summary": "Deputy Willem sends recruits across Northshire's eastern river to face the Defias Brotherhood. Their red burlap bandanas give Stormwind its first tangible evidence of the brigands' organized presence in the valley.",
  "sections": [
   {
    "title": "Bandits in the Valley",
-   "body": "Northshire Valley has long been considered a safe haven within Elwynn Forest, protected by Stormwind guards and dedicated to training new recruits and Clerics of the Holy Light. Recently, however, discipline around the perimeter has frayed. Vagrants and thieves have crossed the eastern river, lurking near the woods and setting up small camps right under the abbey's nose. Deputy Willem, tasked with maintaining local order, recognizes that the local guard cannot spare the manpower to police every corner of the valley without volunteer aid.",
+   "body": "Northshire Valley has long been a safe haven in Elwynn Forest, guarded by Stormwind and used to train recruits and Clerics of the Holy Light. Recently, discipline along its perimeter has frayed. Vagrants and thieves have crossed the eastern river, lurking near the woods and making small camps close to the abbey. Deputy Willem maintains local order, but the guards cannot spare the manpower to watch every corner of the valley without volunteers.",
    "spoiler": 0
   },
   {
    "title": "The Crimson Sigil",
-   "body": "What sets these outlaws apart from common highwaymen is their coordination and uniform attire. They call themselves the Defias Brotherhood, marking their allegiance with distinctive red burlap bandanas tied over their faces. By ordering recruits to hunt these brigands and retrieve their masks, Deputy Willem aims to curb their bold advance while taking inventory of just how deeply the Defias have infiltrated the heartland of the kingdom.",
+   "body": "These outlaws are coordinated and wear matching attire. They call themselves the Defias Brotherhood, and their red burlap bandanas mark their allegiance. Deputy Willem sends recruits to drive back the brigands and recover their masks, hoping to curb their advance and learn how deeply the Defias have reached into the kingdom's heartland.",
    "spoiler": 0
   }
  ],
@@ -38,7 +38,7 @@
     "what is defias brotherhood",
     "defias lore"
    ],
-   "answer": "The Defias Brotherhood is an organized faction of brigands and outlaws currently operating across Elwynn Forest and Westfall. While Northshire authorities initially see them merely as bold thieves, they wear uniform red burlap masks and follow coordinated leadership."
+   "answer": "The Defias Brotherhood is an organized band of brigands and outlaws operating across Elwynn Forest and Westfall. Northshire authorities first see them as bold thieves, but they wear matching red burlap masks and follow coordinated leadership."
   },
   {
    "q": "Why is Deputy Willem asking recruits for help instead of using the Stormwind Army?",
@@ -47,7 +47,7 @@
     "where are stormwind guards",
     "why no army"
    ],
-   "answer": "The Stormwind Army and local city guards are spread thin throughout the kingdom. With unrest rising in neighboring regions and leadership strained in Stormwind City, local deputies must rely on eager volunteers and novice recruits to clear out encroaching bandits."
+   "answer": "The Stormwind Army and city guards are spread thin across the kingdom. Unrest is rising in neighboring regions, and Stormwind City's leadership is strained, so local deputies rely on eager volunteers and novice recruits to push back the bandits."
   },
   {
    "q": "Where are these thieves coming from?",
@@ -55,7 +55,7 @@
     "where are the bandits",
     "defias location northshire"
    ],
-   "answer": "In Northshire, the thieves have gathered across the river to the east of the abbey, skulking around the edges of local farmsteads and campsites near the vineyard."
+   "answer": "The thieves have gathered across the river east of the abbey. They skulk around the edges of local farmsteads and campsites near the vineyard."
   },
   {
    "q": "Why do the thieves wear red burlap bandanas?",
@@ -64,7 +64,7 @@
     "meaning of red masks",
     "red burlap"
    ],
-   "answer": "The red burlap bandana serves as the unified badge of the Defias Brotherhood, masking their identities while signaling their allegiance to fellow outlaws operating throughout the human territories."
+   "answer": "The red burlap bandana marks allegiance to the Defias Brotherhood and masks each thief's identity. It also signals their allegiance to fellow outlaws across the human territories."
   },
   {
    "q": "What happens after completing this quest?",
@@ -72,7 +72,7 @@
     "what comes next",
     "after brotherhood of thieves"
    ],
-   "answer": "Deputy Willem and the locals quickly realize the bandit threat extends further into Northshire, leading recruits to aid Milly Osworth with her ruined harvest and track down a specific ringleader named Garrick Padfoot."
+   "answer": "Deputy Willem and the locals soon realize the bandit threat reaches farther into Northshire. Recruits then help Milly Osworth with her ruined harvest and track down Garrick Padfoot, a specific ringleader."
   },
   {
    "q": "Does Deputy Willem know who leads the Defias?",
@@ -80,13 +80,13 @@
     "does willem know vancleef",
     "who leads defias northshire"
    ],
-   "answer": "At this point, Willem does not understand the full scope of the organization. He only knows they call themselves the Defias Brotherhood and suspects their presence near the abbey bodes ill for Stormwind."
+   "answer": "Willem does not understand the full scope of the organization. He knows only that the brigands call themselves the Defias Brotherhood, and he suspects their presence near the abbey bodes ill for Stormwind."
   }
  ],
  "angles": [
   {
    "target": "race:Human",
-   "text": "For humans starting their training in Northshire, confronting the Defias is the first harsh reminder that the safety of the Kingdom of Stormwind is slipping from within."
+   "text": "For humans beginning their training in Northshire, the Defias are a harsh reminder that the safety of the Kingdom of Stormwind is slipping from within."
   },
   {
    "target": "faction:Alliance",
@@ -94,7 +94,7 @@
   },
   {
    "target": "class:Rogue",
-   "text": "Encountering the Defias provides novice rogues a glimpse of how organized criminal networks operate in the shadows of the human heartland."
+   "text": "For novice rogues, the Defias offer a glimpse of how organized criminal networks operate in the shadows of the human heartland."
   }
  ],
  "keywords": [
@@ -118,5 +118,6 @@
  ],
  "attribution": [
   "Brotherhood of Thieves"
- ]
+ ],
+ "style": 1
 }

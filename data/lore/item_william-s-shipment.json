@@ -10,16 +10,16 @@
    "quest:61"
   ]
  },
- "summary": "William's Shipment is a carefully boxed consignment of candles harvested from Elwynn Forest's troublesome kobolds. Packed by William Pestle in Goldshire, it is destined for his brother Morgan's alchemical business in the Stormwind Trade District.",
+ "summary": "In Goldshire, William Pestle packs candles from Elwynn's kobolds for his brother Morgan in Stormwind.",
  "sections": [
   {
    "title": "A Familial Trade",
-   "body": "The Pestle brothers keep a steady mercantile line open between Goldshire and the capital. While William works out of Elwynn Forest gathering materials from local opportunists and adventurers, Morgan tends to the family storefront, Pestle's Apothecary, in Stormwind's Trade District. Because William cannot leave his own duties to travel north, he relies on couriers to carry this securely packed parcel of wax and candles into the city.",
+   "body": "William Pestle keeps trade moving between Goldshire and the capital. He gathers materials in Elwynn Forest, while his brother Morgan runs Pestle's Apothecary in Stormwind's Trade District. William cannot leave his duties to travel north, so he depends on couriers to carry the parcel of wax and candles into the city.",
    "spoiler": 0
   },
   {
    "title": "Kobold Wax",
-   "body": "The contents of the shipment are kobold candles, salvaged from the creatures infesting Elwynn's mines. William gathers the large candles for their wax and packs them for his brother Morgan at Pestle's Apothecary. Through William's enterprise, these reclaimed mining scavenges become useful stock for the capital's alchemical trade.",
+   "body": "Kobold candles from Elwynn's mines fill the shipment. William gathers the large candles for their wax and packs them for Morgan at Pestle's Apothecary. The wax joins the stock used in the capital's alchemical trade.",
    "spoiler": 0
   }
  ],
@@ -31,7 +31,7 @@
     "what is in the box",
     "what does william send"
    ],
-   "answer": "The shipment contains candles gathered from kobolds in the mines of Elwynn Forest. William Pestle collects them from passing adventurers and packs them to be used as raw ingredients in his family's alchemy shop."
+   "answer": "The shipment holds candles gathered from kobolds in Elwynn Forest's mines. William collects them from passing adventurers and packs them as raw ingredients for his family's alchemy shop."
   },
   {
    "q": "Who is William sending this package to?",
@@ -40,7 +40,7 @@
     "who is the delivery for",
     "shipment destination"
    ],
-   "answer": "It is addressed to William's brother, Morgan Pestle, who operates Pestle's Apothecary in the Trade District of Stormwind City."
+   "answer": "William sends the package to his brother, Morgan Pestle, who runs Pestle's Apothecary in Stormwind City's Trade District."
   },
   {
    "q": "Why does an apothecary need so many candles?",
@@ -49,7 +49,7 @@
     "what does pestle do with candles",
     "candle use"
    ],
-   "answer": "William says that he and his brother need the large candles for their wax. He does not describe the particular preparations they will use it for."
+   "answer": "William says he and his brother need the large candles for their wax. He does not say which preparations will use it."
   },
   {
    "q": "Why doesn't William deliver the package himself?",
@@ -57,17 +57,17 @@
     "why can't william go",
     "why does william need a courier"
    ],
-   "answer": "William is occupied managing his affairs and procuring goods in Goldshire and lacks the time to make the overland journey to Stormwind, prompting him to hire travelers heading toward the capital."
+   "answer": "William is busy managing his affairs and gathering goods in Goldshire, with no time for the overland trip to Stormwind. He hires travelers bound for the capital to carry the package."
   }
  ],
  "angles": [
   {
    "target": "race:Human",
-   "text": "The delivery demonstrates the close economic ties binding rural hamlets like Goldshire to the capital city of Stormwind."
+   "text": "As a human, you can see how Goldshire's trade connects rural hamlets to the capital, Stormwind."
   },
   {
    "target": "faction:Alliance",
-   "text": "Clearing kobolds from Elwynn mines doubly serves the Alliance by protecting local infrastructure and supplying capital shops with raw alchemy goods."
+   "text": "As an Alliance member, you help protect Elwynn's mines from kobolds and supply the capital's shops with raw alchemy goods."
   }
  ],
  "keywords": [
@@ -93,5 +93,6 @@
  "attribution": [
   "William's Shipment",
   "Shipment to Stormwind"
- ]
+ ],
+ "style": 1
 }

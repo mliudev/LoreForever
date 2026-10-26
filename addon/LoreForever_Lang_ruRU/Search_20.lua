@@ -2,8 +2,6 @@
 -- Sources: data/i18n/ruRU. Lore text adapted from warcraft.wiki.gg (CC BY-SA 4.0); the core add-on's src fields name the articles.
 local P = LoreForeverPacks.Begin("LoreForever_Lang_ruRU")
 local Po = P.search.post
-Po["лощинуtauren"] = "I8mC"
-Po["лощинубенэтиль"] = "I3lC"
 Po["лощинувулгол"] = "EaOC"
 Po["лощинувход"] = "JzhC"
 Po["лощинузадания"] = "I8mC"
@@ -12002,3 +12000,5 @@ Po["награбленного"] = "A4JBBF3B"
 Po["награбленное"] = "AD4BCkeBDzSBD1fBEtXDEtYCEtZBEtaBEtbBEtcDEtdBEteBEtfBEtoBI8YB"
 Po["награбленноеe"] = "EtXB"
 Po["награбленноеграбь"] = "EtXB"
+Po["награбленноенаграда"] = "EtcC"
+Po["награбленноеполли"] = "EtXB"

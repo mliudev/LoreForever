@@ -7,16 +7,16 @@
  "meta": {
   "wiki": "Jerod's Landing"
  },
- "summary": "Jerod's Landing is a modest river dock situated on the Elwynn Forest bank of the Nazferiti River. Currently seized by the Defias Brotherhood, the outpost serves as a clandestine transfer point for illicit shipments smuggled across the kingdom's waterways.",
+ "summary": "Defias smugglers hold Jerod's Landing on the Elwynn Forest bank of the Nazferiti River. The dock gives them a hidden route for illicit shipments across the kingdom's waterways.",
  "sections": [
   {
    "title": "A Smuggler's Waypoint",
-   "body": "Tucked away along the eastern waters of the Nazferiti River, Jerod's Landing provides river access connecting Elwynn Forest to neighboring territories. While originally an ordinary boat dock, the site has fallen firmly into the hands of the Defias Brotherhood. Under the watchful eye of a Defias dockmaster, outlaws utilize the dock as a hub to receive goods plundered from the Redridge Mountains, discreetly moving river cargo downstream toward holdings such as Klaven's Tower in Westfall.",
+   "body": "Defias outlaws now control the river dock at Jerod's Landing, where Elwynn Forest meets the waters of the Nazferiti River. Once an ordinary boat dock, it now receives goods plundered from the Redridge Mountains under a Defias dockmaster's watch. The outlaws move the cargo discreetly downstream toward holdings such as Klaven's Tower in Westfall.",
    "spoiler": 0
   },
   {
    "title": "Eyes in the Shadows",
-   "body": "Because of its strategic placement on the river, Jerod's Landing has drawn the attention of SI:7, Stormwind's covert intelligence network. Operatives monitoring Defias operations view the landing as a vital link in the syndicate's supply lines, sending resourceful rogues to infiltrate the docks, pilfer river shipment ledgers, and unravel the wider conspiracy strangling the kingdom.",
+   "body": "Jerod's Landing's place on the river has drawn SI:7, Stormwind's covert intelligence network. Its operatives watch Defias activity there and see the dock as a vital link in the syndicate's supply lines. Resourceful rogues slip inside, steal river shipment ledgers, and work to unravel the wider conspiracy strangling the kingdom.",
    "spoiler": 1
   }
  ],
@@ -28,7 +28,7 @@
     "where is jerod's landing",
     "jerod dock map"
    ],
-   "answer": "Jerod's Landing is located in eastern Elwynn Forest, resting along the western bank of the Nazferiti River, which marks the boundary between Elwynn and the Redridge Mountains."
+   "answer": "Jerod's Landing lies in eastern Elwynn Forest, on the western bank of the Nazferiti River, which marks the boundary between Elwynn and the Redridge Mountains."
   },
   {
    "q": "Who controls Jerod's Landing?",
@@ -37,7 +37,7 @@
     "defias at jerods landing",
     "jerod landing mobs"
    ],
-   "answer": "The landing has been occupied by members of the Defias Brotherhood, led by a Defias dockmaster who coordinates shipments with armed bandits guarding the waterside."
+   "answer": "Members of the Defias Brotherhood occupy Jerod's Landing. A Defias dockmaster coordinates shipments with armed bandits guarding the waterside."
   },
   {
    "q": "What is the purpose of this dock for the Defias?",
@@ -45,7 +45,7 @@
     "why do defias use jerods landing",
     "defias river smuggling"
    ],
-   "answer": "The Brotherhood utilizes the dock as a smuggling waystation to transport stolen goods and weaponry intercepted in the Redridge Mountains toward rogue strongholds like Klaven's Tower in Westfall."
+   "answer": "The Brotherhood uses Jerod's Landing to smuggle stolen goods and weaponry taken in the Redridge Mountains toward rogue strongholds such as Klaven's Tower in Westfall."
   },
   {
    "q": "Why is SI:7 interested in Jerod's Landing?",
@@ -53,17 +53,17 @@
     "si7 jerods landing",
     "rogue quest jerods landing"
    ],
-   "answer": "Master Mathias Shaw and his intelligence agents track the flow of Defias contraband through this dock to expose the network linking Westfall, Elwynn, and Redridge."
+   "answer": "Master Mathias Shaw and his intelligence agents track Defias contraband through Jerod's Landing to expose the network linking Westfall, Elwynn, and Redridge."
   }
  ],
  "angles": [
   {
    "target": "class:Rogue",
-   "text": "Rogues working on behalf of SI:7 are dispatched to Jerod's Landing to test their stealth, pickpocket the Defias dockmaster, and recover sensitive trade ledgers."
+   "text": "As a rogue working for SI:7, you are sent to Jerod's Landing to test your stealth, pickpocket the Defias dockmaster, and recover sensitive trade ledgers."
   },
   {
    "target": "faction:Alliance",
-   "text": "The occupation of Jerod's Landing highlights how thoroughly the Defias have compromised the interior waterways linking Elwynn to Redridge right beneath Stormwind's nose."
+   "text": "As an Alliance member, you can see how thoroughly the Defias have compromised the waterways linking Elwynn to Redridge, right beneath Stormwind's nose."
   }
  ],
  "keywords": [
@@ -86,5 +86,6 @@
  ],
  "attribution": [
   "Jerod's Landing"
- ]
+ ],
+ "style": 1
 }

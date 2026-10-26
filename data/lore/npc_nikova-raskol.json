@@ -8,16 +8,16 @@
   "wiki": "Nikova Raskol",
   "refs": 1
  },
- "summary": "Nikova Raskol is an elderly human townsperson who walks the cobblestone streets of Old Town in Stormwind City. Grieving the murder of her grandson at the hands of the Defias Brotherhood, she seeks justice against the rioting criminals locked inside the Stockade.",
+ "summary": "In Old Town, Nikova Raskol grieves for her murdered grandson. The elderly Stormwind townswoman seeks justice against the Defias Brotherhood rioters held in the Stockade.",
  "sections": [
   {
    "title": "A Grandmother's Grief",
-   "body": "Nikova wanders Old Town carrying the weight of a recent and devastating personal tragedy. Her beloved grandson, Mac, was slain by brigands belonging to the Defias Brotherhood. While the kingdom grapples with treason on a political scale, Nikova represents the intimate human cost inflicted upon everyday citizens by the Brotherhood's lawless rampage.",
+   "body": "Nikova Raskol wanders Old Town, carrying the grief of a recent loss. Her beloved grandson, Mac, was slain by Defias Brotherhood brigands. While the kingdom faces treason on a grand scale, Nikova bears the private cost of the Brotherhood's lawless rampage.",
    "spoiler": 0
   },
   {
    "title": "Vengeance in the Stockade",
-   "body": "Though many of the criminals who wrecked havoc were captured and thrown into the Stockade, prison bars offer little solace now that a violent inmate rebellion has seized the facility. Frustrated by the guards' inability to restore order, Nikova appeals directly to brave adventurers heading into the prison, asking them to collect red Defias bandanas as proof that her grandson's killers have finally faced retribution.",
+   "body": "Many criminals who wrecked havoc were captured and locked in the Stockade, but a violent inmate rebellion has seized the prison. The guards have failed to restore order, and Nikova turns to adventurers heading inside. She asks them to bring back red Defias bandanas as proof that her grandson's killers have faced retribution.",
    "spoiler": 0
   }
  ],
@@ -29,7 +29,7 @@
     "nikova raskol role",
     "nikova raskol lore"
    ],
-   "answer": "Nikova Raskol is an elderly resident of Stormwind who walks the oval road in Old Town. She is mourning her grandson, Mac, who was murdered by Defias thugs."
+   "answer": "Nikova Raskol is an elderly Stormwind resident who walks Old Town's oval road. She mourns her grandson Mac, murdered by Defias thugs."
   },
   {
    "q": "What happened to her grandson Mac?",
@@ -38,7 +38,7 @@
     "what happened to mac",
     "how did mac die"
    ],
-   "answer": "Mac was only fourteen. When the army marched off to the front, he took up arms as a guard in the Stockade, where the Defias are locked up. After he reprimanded prisoners for tearing their wool blankets into gang scarves, they stabbed him in the back."
+   "answer": "Mac was fourteen. When the army marched to the front, he took up arms as a guard in the Stockade, where the Defias are locked up. After he reprimanded prisoners for tearing their wool blankets into gang scarves, they stabbed him in the back."
   },
   {
    "q": "Why does she want red bandanas from the Stockade?",
@@ -47,7 +47,7 @@
     "why red bandanas",
     "defias bandanas"
    ],
-   "answer": "The red bandana is the identifying mark worn by the Defias Brotherhood. Nikova asks fighters entering the rebellious Stockade to bring back these neckerchiefs to prove that the criminals responsible for taking innocent lives have been dealt with."
+   "answer": "The red bandana marks the Defias Brotherhood. Nikova asks fighters entering the rebellious Stockade to bring back the neckerchiefs as proof that the criminals who took innocent lives have been dealt with."
   },
   {
    "q": "Where can Nikova Raskol be found?",
@@ -56,13 +56,13 @@
     "nikova location",
     "nikova raskol path"
    ],
-   "answer": "Nikova paces in a steady loop along the main thoroughfare of Old Town, not far from the Pig and Whistle Tavern and the training grounds in Stormwind City."
+   "answer": "Nikova paces along Old Town's main thoroughfare, near the Pig and Whistle Tavern and Stormwind City's training grounds."
   }
  ],
  "angles": [
   {
    "target": "faction:Alliance",
-   "text": "For Alliance champions visiting Stormwind, helping Nikova is a reminder that defending the kingdom means protecting ordinary townsfolk whose families have been torn apart by civil unrest."
+   "text": "For Alliance champions in Stormwind, helping Nikova is a reminder that defending the kingdom means protecting ordinary townsfolk whose families have been torn apart by civil unrest."
   }
  ],
  "keywords": [
@@ -84,5 +84,6 @@
  ],
  "attribution": [
   "Nikova Raskol"
- ]
+ ],
+ "style": 1
 }

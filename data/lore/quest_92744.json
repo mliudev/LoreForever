@@ -17,16 +17,16 @@
   "wiki": "Murloc Gills",
   "chain": []
  },
- "summary": "Murloc Gills is an Alliance task in Westfall given by Alba Fairmoon. Amid concerns that the crop blight could poison coastal fisheries, adventurers are dispatched to the Longshore to collect murloc gills for ecological analysis. Because murloc physiology is acutely sensitive to maritime contaminants, their gills reveal whether toxins have infiltrated the sea.",
+ "summary": "Alba Fairmoon sends Alliance help to Westfall's Longshore to gather murloc gills. She fears the crop blight may reach the Great Sea, and the gills could reveal whether the coastal waters are tainted.",
  "sections": [
   {
    "title": "A Threat to the Coastline",
-   "body": "Westfall is already on the verge of ruin due to widespread crop failure, displaced farmers, and banditry. Alba Fairmoon fears an even deadlier development: that the corruption afflicting the inland harvest has begun draining into the Great Sea. If Westfall's coastal waters are tainted, the fish stocks that feed the peasantry and supplement the tables of Stormwind City could vanish entirely, tipping a strained kingdom into outright famine.",
+   "body": "Westfall is already near ruin, with crops failing, farmers displaced, and bandits roaming the roads. Alba Fairmoon fears the blight may be draining from inland fields into the Great Sea. If the coast is tainted, the fish that feed Westfall's poor and grace Stormwind City's tables could vanish. That loss could tip an already strained kingdom into outright famine.",
    "spoiler": 0
   },
   {
    "title": "Sentinels of Water Quality",
-   "body": "While murlocs are notoriously stubborn and violent creatures, their amphibious biology makes them keen natural bio-indicators. Murloc respiratory systems constantly filter seawater, making their gill tissue exceptionally receptive to foreign poisons, blights, and unnatural pollutants. By studying freshly harvested gills taken from the tide-dwellers prowling the Longshore, Fairmoon hopes to measure the exact severity of the encroaching contamination.",
+   "body": "Murlocs are stubborn and violent, but their amphibious bodies make them natural signs of water quality. Their breathing constantly filters seawater, leaving their gills exceptionally receptive to poisons, blight, and unnatural pollutants. Alba Fairmoon hopes to gauge the contamination by studying fresh gills from the murlocs prowling the Longshore.",
    "spoiler": 0
   }
  ],
@@ -38,7 +38,7 @@
     "alba fairmoon murlocs",
     "purpose of quest"
    ],
-   "answer": "Alba Fairmoon is investigating whether the blight ruining Westfall's crops has leached into the ocean. Murlocs are highly sensitive to aquatic contaminants, meaning their gills act as biological filters that quickly display any trace toxins or pollution present in the seawater."
+   "answer": "Alba Fairmoon wants murloc gills to learn whether Westfall's crop blight has reached the ocean. Murloc gills act as biological filters and quickly show traces of toxins or pollution in seawater."
   },
   {
    "q": "Where are the murlocs located for this task?",
@@ -47,7 +47,7 @@
     "longshore murloc location",
     "murloc gill spot"
    ],
-   "answer": "The murlocs inhabit the Longshore, the long stretch of beach forming the western coast of Westfall. They prowl the shallows and tidal flats just past the bluffs."
+   "answer": "The murlocs prowl the Longshore, the beach along Westfall's western coast. They haunt the shallows and tidal flats beyond the bluffs."
   },
   {
    "q": "What is the broader danger if the ocean is corrupted?",
@@ -56,7 +56,7 @@
     "westfall famine danger",
     "threat to stormwind"
    ],
-   "answer": "Westfall is the primary breadbasket of the kingdom of Stormwind. With inland crops already failing, coastal fishing provides critical sustenance. If toxins poison the marine life along the shore, the kingdom could plunge into an inescapable famine."
+   "answer": "Westfall is Stormwind's primary breadbasket, and its inland crops are already failing. Coastal fishing provides vital food; if toxins poison marine life along the shore, the kingdom could face inescapable famine."
   },
   {
    "q": "Are murlocs particularly prone to disease?",
@@ -64,7 +64,7 @@
     "murloc physiology",
     "do murlocs get sick"
    ],
-   "answer": "Murlocs are hardy and resilient survivors in harsh environments, but their amphibious respiratory systems react immediately to chemical or magical impurities in the water, making them ideal subjects for studying waterborne pollution."
+   "answer": "Murlocs survive harsh conditions, but their amphibious breathing systems react immediately to chemical or magical impurities in the water. That makes them useful for studying waterborne pollution."
   },
   {
    "q": "Does this quest connect to the Defias Brotherhood?",
@@ -72,7 +72,7 @@
     "defias connection",
     "is this defias"
    ],
-   "answer": "While the Defias Brotherhood is responsible for much of the chaos and neglected farmland across Westfall, this investigation focuses specifically on ecological blight and the preservation of food sources for the kingdom."
+   "answer": "The Defias Brotherhood has brought chaos and left farmland neglected across Westfall. Alba Fairmoon's investigation instead examines ecological blight and the protection of the kingdom's food sources."
   },
   {
    "q": "Who is Alba Fairmoon?",
@@ -80,17 +80,17 @@
     "who is fairmoon",
     "alba fairmoon lore"
    ],
-   "answer": "Alba Fairmoon is an Alliance researcher stationed in Westfall monitoring the blight and environmental decline threatening the region's agricultural viability."
+   "answer": "Alba Fairmoon is an Alliance researcher in Westfall who monitors the blight and environmental decline threatening the region's agricultural viability."
   }
  ],
  "angles": [
   {
    "target": "faction:Alliance",
-   "text": "With King Varian missing and food shortages already stoking unrest, protecting Westfall's remaining food supply is vital for keeping Stormwind stable."
+   "text": "With King Varian missing and food shortages stoking unrest, protecting Westfall's remaining food supply is vital to Stormwind's stability."
   },
   {
    "target": "class:Druid",
-   "text": "The spread of inland blight into coastal ecosystems threatens to corrupt native wildlife, making biological monitoring of indicator species like murlocs an essential safeguard."
+   "text": "The spread of inland blight into coastal ecosystems threatens native wildlife. Monitoring native indicator species such as murlocs helps guard against that danger."
   },
   {
    "target": "race:Human",
@@ -116,5 +116,6 @@
  ],
  "attribution": [
   "Murloc Gills"
- ]
+ ],
+ "style": 1
 }

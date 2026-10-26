@@ -8,16 +8,16 @@
   "wiki": "Archbishop Benedictus",
   "refs": 1
  },
- "summary": "Archbishop Benedictus is the supreme spiritual leader of the Church of the Holy Light, presiding over the faithful from the Cathedral of Light in Stormwind City. Once the devoted student of Archbishop Alonsus Faol, he now guides the moral and religious heart of the Alliance during a time of immense uncertainty.",
+ "summary": "In Stormwind City, Archbishop Benedictus leads the Church of the Holy Light from the Cathedral of Light. He guides the faithful and the Alliance through uncertain times.",
  "sections": [
   {
    "title": "Shepherd of the Holy Light",
-   "body": "Benedictus rose to leadership following the death of his revered mentor, Archbishop Alonsus Faol. Having witnessed the devastation of the First and Second Wars, Benedictus helped oversee the construction of the grand Cathedral of Light in Stormwind City, vowing to preserve the virtues of the faith. With the fall of Lordaeron and the rise of the Scourge during the Third War, the weight of the human kingdoms' spiritual guidance fell squarely on his shoulders. From his altar, he offers counsel to the royal court, trains newly initiated priests, and directs holy crusades against the undead and demonic forces threatening Azeroth.",
+   "body": "Archbishop Benedictus took the Church’s leadership after his mentor, Archbishop Alonsus Faol, died. He had seen the First and Second Wars devastate the kingdoms and helped oversee the building of the Cathedral of Light in Stormwind City. He vowed to uphold the virtues of the faith. After Lordaeron fell and the Scourge rose during the Third War, the human kingdoms looked to him for spiritual guidance. From the Cathedral, he counsels the royal court, trains newly initiated priests, and directs holy crusades against the undead and demonic forces threatening Azeroth.",
    "spoiler": 0
   },
   {
    "title": "A Beacon of Hope",
-   "body": "Regarded across the Alliance as a gentle, wise, and benevolent patriarch, Benedictus presents an unyielding beacon of hope to the public, rallying heroes to vanquish dark threats such as Amnennar the Coldbringer in Kalimdor and assisting in purifying cursed relics brought by faithful adventurers.",
+   "body": "Across the Alliance, people regard Archbishop Benedictus as a gentle, wise, and benevolent patriarch. He offers the public hope and rallies heroes against dark threats, including Amnennar the Coldbringer in Kalimdor. He also helps purify cursed relics brought by faithful adventurers.",
    "spoiler": 0
   }
  ],
@@ -29,7 +29,7 @@
     "archbishop stormwind",
     "leader of church of the holy light"
    ],
-   "answer": "He is the reigning leader of the Church of the Holy Light and the highest religious authority in the Grand Alliance. Stationed in Stormwind City's Cathedral of Light, he guides the faithful and counsels the kingdom's leaders."
+   "answer": "Archbishop Benedictus leads the Church of the Holy Light and is the highest religious authority in the Grand Alliance. From the Cathedral of Light in Stormwind City, he guides the faithful and counsels the kingdom’s leaders."
   },
   {
    "q": "What is his relationship to Alonsus Faol?",
@@ -37,7 +37,7 @@
     "faol student",
     "alonsus faol benedictus"
    ],
-   "answer": "Benedictus was the foremost pupil of the legendary Archbishop Alonsus Faol, who founded the Knights of the Silver Hand. Following Faol's death, Benedictus inherited the leadership of the Church to carry forward his mentor's work."
+   "answer": "Archbishop Benedictus was the foremost pupil of Archbishop Alonsus Faol, founder of the Knights of the Silver Hand. After Faol died, Benedictus took up leadership of the Church and continued his mentor’s work."
   },
   {
    "q": "What tasks does Benedictus oversee for adventurers?",
@@ -45,7 +45,7 @@
     "benedictus quests",
     "what does archbishop benedictus do"
    ],
-   "answer": "Benedictus instructs Alliance heroes on missions against the Scourge, including sanctioning expeditions into Razorfen Downs to slay the lich Amnennar the Coldbringer. He also uses his holy power to cleanse powerful corrupted artifacts, such as the Cursed Eye of Paleth."
+   "answer": "Archbishop Benedictus directs Alliance heroes against the Scourge, including expeditions into Razorfen Downs to slay the lich Amnennar the Coldbringer. He also uses holy power to cleanse corrupted artifacts such as the Cursed Eye of Paleth."
   },
   {
    "q": "What is his stance on the undead?",
@@ -53,17 +53,17 @@
     "benedictus forsaken",
     "benedictus views on scourge"
    ],
-   "answer": "Benedictus shows the undead a grim sort of mercy. According to his follower Commander Karl Philips, the Archbishop wants the Forsaken granted a swift, permanent death, asking only that their hearts be brought back to be burned at the Cathedral of Light."
+   "answer": "Archbishop Benedictus calls for the Forsaken to receive a swift, permanent death. His follower Commander Karl Philips says the Archbishop asks only for their hearts to be brought back and burned at the Cathedral of Light."
   }
  ],
  "angles": [
   {
    "target": "class:Priest",
-   "text": "As the supreme shepherd of the Church of the Holy Light, Benedictus is the central figure overseeing the training, doctrines, and vows of all Alliance priests."
+   "text": "As a priest, you look to Archbishop Benedictus, who oversees the training, doctrines, and vows of all Alliance priests as head of the Church of the Holy Light."
   },
   {
    "target": "faction:Alliance",
-   "text": "Benedictus serves as the moral compass of Stormwind and the wider Alliance, providing spiritual solace to refugees and guiding high-ranking paladins and commanders."
+   "text": "As an Alliance member, you can look to Archbishop Benedictus for moral guidance and spiritual comfort for refugees. He also guides high-ranking paladins and commanders."
   }
  ],
  "keywords": [
@@ -87,5 +87,6 @@
  ],
  "attribution": [
   "Archbishop Benedictus"
- ]
+ ],
+ "style": 1
 }

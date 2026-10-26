@@ -17,16 +17,16 @@
   "wiki": "Cloth and Leather Armor",
   "chain": []
  },
- "summary": "Cloth and Leather Armor is an errand commissioned by Marshal Dughan in Goldshire. Impressed by an adventurer's service, Dughan issues an official military armor marker redeemable with local artisan Sara Timberlain. This task directs recruits east past Guard Thomas's bridge into the Eastvale Logging Camp to obtain proper gear for the defense of the realm.",
+ "summary": "In Goldshire, Cloth and Leather Armor sends a trusted traveler east for gear. Marshal Dughan issues an armor marker redeemable with Sara Timberlain at Eastvale Logging Camp. The trip carries recruits beyond Guard Thomas's bridge to obtain armor for the realm's defense.",
  "sections": [
   {
    "title": "The Marshal's Token",
-   "body": "Guard Thomas stands vigil at the eastern crossing over the river in Elwynn, holding the border against hostile murlocs and roving gnolls. When a capable traveler carries his report to Goldshire, Marshal Dughan rewards that service with an official Stormwind Armor Marker rather than pulling equipment from the garrison's own meager stores. This marker acts as a military requisition voucher, officially recognizing the bearer's service to the crown.",
+   "body": "Guard Thomas watches Elwynn's eastern river crossing, where murlocs and gnolls threaten the border. After you carry his report to Goldshire, Marshal Dughan recognizes your service with an official Stormwind Armor Marker. Goldshire's garrison has meager stores, so Dughan gives you a marker instead of drawing equipment from them. The marker is a military voucher that records your service to the crown.",
    "spoiler": 0
   },
   {
    "title": "The Weaver of Eastvale",
-   "body": "Across the bridge to the east lies the Eastvale Logging Camp, Elwynn's primary timber operation. Working out of the settlement, Sara Timberlain holds an official commission from the Stormwind Army to produce cloth and leather gear. Because the kingdom's centralized armories are strained and stretched thin, local artisans like Sara are vital for outfitting troops and auxiliary scouts on the frontier.",
+   "body": "East of Guard Thomas's bridge lies Eastvale Logging Camp, Elwynn's main timber operation. Sara Timberlain works there under an official commission from the Stormwind Army to make cloth and leather gear. The kingdom's central armories are strained, leaving local artisans like Sara to outfit troops and auxiliary scouts on the frontier.",
    "spoiler": 0
   }
  ],
@@ -38,7 +38,7 @@
     "stormwind voucher",
     "what is the marker"
    ],
-   "answer": "It is an official military requisition slip issued by officers like Marshal Dughan. Rather than stocking bulky armor sets at their posts, officers carry markers that allow trusted recruits to claim custom-fitted armor from commissioned civilian artisans."
+   "answer": "A Stormwind Armor Marker is an official military requisition slip issued by officers such as Marshal Dughan. Trusted recruits can use it to claim custom-fitted armor from civilian artisans commissioned by the army, instead of officers keeping bulky armor sets at their posts."
   },
   {
    "q": "Who is Sara Timberlain?",
@@ -47,7 +47,7 @@
     "eastvale tailor",
     "who makes the armor"
    ],
-   "answer": "Sara Timberlain is a tailor and crafter residing in the Eastvale Logging Camp. She holds a contract with the Stormwind Army to manufacture cloth and leather equipment for kingdom personnel and authorized auxiliary fighters."
+   "answer": "Sara Timberlain is a tailor and crafter who lives at Eastvale Logging Camp. Under contract with the Stormwind Army, she makes cloth and leather equipment for kingdom personnel and authorized auxiliary fighters."
   },
   {
    "q": "Where is the Eastvale Logging Camp?",
@@ -56,7 +56,7 @@
     "where is eastvale",
     "how to get to timberlain"
    ],
-   "answer": "Eastvale Logging Camp is located in far eastern Elwynn Forest. From Guard Thomas's post at the river bridge, follow the road east into the wooded valley where woodcutters harvest timber for the kingdom."
+   "answer": "Eastvale Logging Camp lies in far eastern Elwynn Forest. From Guard Thomas's river bridge post, take the road east into the wooded valley, where woodcutters harvest timber for the kingdom."
   },
   {
    "q": "Why does Marshal Dughan send adventurers to Eastvale?",
@@ -65,7 +65,7 @@
     "dughan purpose",
     "why eastvale"
    ],
-   "answer": "Dughan does not hand out finished gear from his post in Goldshire. Instead, he rewards brave deeds by sending recruits to Sara Timberlain, directing travelers toward Eastvale while ensuring they are properly protected to defend Elwynn."
+   "answer": "Marshal Dughan directs recruits to Sara Timberlain at Eastvale because he does not hand out finished gear from his Goldshire post. He sends travelers east after brave deeds so they can obtain proper protection for Elwynn's defense."
   },
   {
    "q": "Why is the army relying on local tailors for supplies?",
@@ -74,7 +74,7 @@
     "why local artisan",
     "army logistics"
    ],
-   "answer": "With King Varian Wrynn missing and Stormwind's military spread thin responding to Defias activity and wild beasts, local defense posts depend heavily on contracted regional workers to sustain their supply lines."
+   "answer": "King Varian Wrynn is missing, and Stormwind's military is spread thin responding to Defias activity and wild beasts. Local defense posts rely heavily on contracted regional workers to keep their supply lines going."
   },
   {
    "q": "Who is Guard Thomas defending against?",
@@ -83,21 +83,21 @@
     "threats at bridge",
     "eastern elwynn threats"
    ],
-   "answer": "Guard Thomas monitors the eastern border of Elwynn Forest, watching over the bridge against incursions from river murlocs, prowling beasts, and the dangerous wilderness bordering the Redridge Mountains."
+   "answer": "Guard Thomas watches Elwynn Forest's eastern border and the bridge against river murlocs, prowling beasts, and the dangerous wilderness by the Redridge Mountains."
   }
  ],
  "angles": [
   {
    "target": "faction:Alliance",
-   "text": "Outfitting defenders through local contracts demonstrates how rural Elwynn communities keep the Alliance functioning despite political paralysis in the capital."
+   "text": "As an Alliance defender, you see how local contracts help Elwynn's rural communities keep the Alliance functioning while the capital is politically paralyzed."
   },
   {
    "target": "race:Human",
-   "text": "Serving Marshal Dughan and trading with Sara Timberlain reflects the shared civic bonds that hold the small homesteads of Elwynn Forest together."
+   "text": "As a human, your service to Marshal Dughan and dealings with Sara Timberlain reflect the civic bonds that hold Elwynn's small homesteads together."
   },
   {
    "target": "profession:Tailoring",
-   "text": "Sara Timberlain's commission with the army shows that cloth crafting is a critical, officially sponsored military trade in the kingdom."
+   "text": "As a tailor, you can see in Sara Timberlain's army commission that cloth crafting is an officially sponsored military trade in the kingdom."
   }
  ],
  "keywords": [
@@ -123,5 +123,6 @@
  ],
  "attribution": [
   "Cloth and Leather Armor"
- ]
+ ],
+ "style": 1
 }

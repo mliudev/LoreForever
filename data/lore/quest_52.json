@@ -17,16 +17,16 @@
   "wiki": "Protect the Frontier",
   "chain": []
  },
- "summary": "Protect the Frontier is an Alliance assignment handed out by Guard Thomas at the eastern bridge crossing in Elwynn Forest. As Stormwind's military presence thins toward the border, wild predators have grown increasingly bold, harassing travelers and workers at the Eastvale Logging Camp. Guard Thomas seeks capable adventurers to cull the wolves and bears threatening the eastern frontier.",
+ "summary": "Guard Thomas watches Elwynn's eastern bridge as predators threaten the frontier. Stormwind's forces are thin here, and wolves and bears have grown bold near the Eastvale Logging Camp. He asks capable adventurers to cull the beasts threatening travelers and workers.",
  "sections": [
   {
    "title": "A Thinning Defense",
-   "body": "While Goldshire and the Northshire Valley maintain a visible Stormwind garrison, the far eastern edge of Elwynn Forest receives far less protection. Guard Thomas stands watch at the bridge crossing over the river, serving as one of the few sentries between civilized heartlands and the dangerous wilderness. With resources stretched thin across the realm, solitary guardsmen rely on passing volunteers to keep vital supply lanes open.",
+   "body": "Guard Thomas watches the bridge over the river at Elwynn Forest's eastern edge. Goldshire and the Northshire Valley have a visible Stormwind garrison, but this frontier receives far less protection. With Stormwind's forces stretched across the realm, Thomas is one of few sentries between the settled heartlands and the wilderness. Travelers help keep vital supply roads open.",
    "spoiler": 0
   },
   {
    "title": "The Predatory Threat",
-   "body": "The Eastvale Logging Camp is crucial for supplying timber to Stormwind City, but felling trees along the tree line brings woodsmen into direct conflict with local wildlife. Prowlers, gray forest wolves, and young forest bears have turned increasingly aggressive, wandering near the roads and lumber yards. Thinning their numbers temporarily relieves the pressure on local laborers, though Guard Thomas suspects an unseen disturbance deeper in the woods may be driving the beasts toward settlements.",
+   "body": "Eastvale Logging Camp supplies timber to Stormwind City, but woodsmen felling trees at the forest's edge meet dangerous wildlife. Prowlers, gray forest wolves, and young forest bears now roam near roads and lumber yards. Culling them eases the danger to local workers for a time. Thomas suspects a disturbance deeper in the woods is driving the beasts toward settlements.",
    "spoiler": 0
   }
  ],
@@ -38,7 +38,7 @@
     "who starts protect the frontier",
     "guard thomas quest"
    ],
-   "answer": "Guard Thomas assigns the task. He is stationed at the eastern bridge along the main road through Elwynn Forest, guarding the boundary between the forest interior and the Eastvale region."
+   "answer": "Guard Thomas gives the order. He watches the eastern bridge on Elwynn Forest's main road, between the forest interior and the Eastvale region."
   },
   {
    "q": "Why are wolves and bears attacking the frontier?",
@@ -47,7 +47,7 @@
     "why are wolves attacking eastvale",
     "animal attacks elwynn"
    ],
-   "answer": "The aggressive predators frequently encroach on roads and work sites near the Eastvale Logging Camp. While wolves and bears are naturally territorial, Guard Thomas notes that something deeper in the surrounding wilderness appears to be agitating them and driving them toward civilization."
+   "answer": "Wolves and bears are pressing near roads and work sites around Eastvale Logging Camp. Thomas suspects something deeper in the wilderness is agitating them and driving them toward settled ground."
   },
   {
    "q": "Where is the Eastvale Logging Camp?",
@@ -56,7 +56,7 @@
     "where is logging camp elwynn",
     "eastvale camp"
    ],
-   "answer": "The Eastvale Logging Camp lies in eastern Elwynn Forest, just east of Guard Thomas's bridge. It provides vital lumber for Stormwind and border settlements."
+   "answer": "Eastvale Logging Camp lies in eastern Elwynn Forest, just east of Guard Thomas's bridge. It supplies vital lumber to Stormwind and border settlements."
   },
   {
    "q": "Why is Guard Thomas watching the bridge alone?",
@@ -65,7 +65,7 @@
     "guard thomas post",
     "stormwind guards eastvale"
    ],
-   "answer": "Stormwind's standing army and city guard are stretched extremely thin across the kingdom. Sentry outposts along rivers and outer crossroads often have only one or two guards stationed to watch the highways, leaving them dependent on traveling adventurers to handle large-scale wildlife threats."
+   "answer": "Stormwind's army and city guard are stretched thin across the kingdom. River and crossroads outposts often have only one or two guards watching the highways, so they rely on travelers to handle large wildlife threats."
   },
   {
    "q": "What animals need to be culled for this task?",
@@ -74,7 +74,7 @@
     "wolves and bears to kill",
     "what mobs for protect the frontier"
    ],
-   "answer": "You are tasked with slaying eight wolves (either prowlers or gray forest wolves) and five young forest bears roaming the woods of eastern Elwynn Forest."
+   "answer": "You need to slay eight wolves, either prowlers or gray forest wolves, and five young forest bears roaming eastern Elwynn Forest."
   },
   {
    "q": "What happens once the wildlife is culled?",
@@ -82,17 +82,17 @@
     "protect the frontier follow up",
     "turn in protect the frontier"
    ],
-   "answer": "Reporting back to Guard Thomas secures his gratitude and ensures safer passage for logging caravans. However, he remains wary that whatever dark influence stirred up the beasts might cause further trouble in the forest."
+   "answer": "When you report back, Guard Thomas thanks you, and logging caravans can travel more safely. He remains wary that the dark influence that stirred the beasts may bring further trouble to the forest."
   }
  ],
  "angles": [
   {
    "target": "faction:Alliance",
-   "text": "Keeping the eastern roads secure helps maintain lumber shipments from Eastvale, supporting reconstruction and defensive efforts across Alliance lands."
+   "text": "Keeping the eastern roads secure helps Eastvale's lumber reach Alliance lands, where it supports reconstruction and defense."
   },
   {
    "target": "class:Hunter",
-   "text": "The wolves and bears stalking eastern Elwynn Forest provide an early test of tracking and marksmanship against ferocious local game."
+   "text": "As a hunter, you can test your tracking and marksmanship against the wolves and bears stalking eastern Elwynn Forest."
   }
  ],
  "keywords": [
@@ -112,5 +112,6 @@
  ],
  "attribution": [
   "Protect the Frontier"
- ]
+ ],
+ "style": 1
 }

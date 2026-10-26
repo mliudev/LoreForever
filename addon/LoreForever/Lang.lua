@@ -740,7 +740,6 @@ function Lang.ValidateEdition()
   end
   if ns.UI and ns.UI.frame then
     ns.UI.SetNext({})
-    ns.UI.NavClear()
     ns.UI.HideCompletion()
     ns.UI.Render()
   end

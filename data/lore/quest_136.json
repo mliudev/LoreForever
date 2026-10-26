@@ -22,16 +22,16 @@
    "Captain Sanders' Hidden Treasure (Classic 4)"
   ]
  },
- "summary": "Captain Sanders' Hidden Treasure is the opening step of a multi-part treasure hunt along the coast of Westfall. Triggered by a battered parchment map, it sends treasure-seekers scouring the shoreline for the late captain's personal footlocker. Finding the buried locker sets off a pursuit across the region for his hidden plunder.",
+ "summary": "A battered parchment map sets Captain Sanders' Hidden Treasure in motion along Westfall's coast. The hunt begins with a search of the shoreline for the late captain's personal footlocker, then leads toward his hidden plunder across the region.",
  "sections": [
   {
    "title": "A Sailor's Last Bequest",
-   "body": "The sea off Westfall's western coast is littered with shipwrecks, shattered hulls, and the restless spirits of drowned sailors. Among those lost to the depths was Captain Sanders, an old seafarer who met a watery grave. Rather than letting his hard-won fortune be lost to the Great Sea or stolen outright by scavengers, the old salt penned a series of cryptic instructions, leaving behind a trail that only a determined adventurer could retrace.",
+   "body": "Shipwrecks and the restless spirits of drowned sailors mark Westfall's western coast. Captain Sanders, an old seafarer, met a watery grave there. He left cryptic instructions so his hard-won fortune would not be lost to the Great Sea or taken by scavengers. A determined adventurer can retrace the trail he left behind.",
    "spoiler": 0
   },
   {
    "title": "The Rusty Anchor",
-   "body": "The first step of the hunt directs the finder toward a lone rusted anchor resting in the surf on the western coast. Hidden half-buried in the sand near a wreck, the captain's old footlocker has survived the battering waves. Inside lies not gold, but seawater, sand, and an unexpected guardian: a scurrying crab clutching the next piece of Sanders' puzzle.",
+   "body": "The first clue points to a lone rusty anchor in the surf on Westfall's western coast. Near a wreck, half-buried in the sand, lies Captain Sanders' old footlocker, battered by the waves. Inside are seawater, sand, and a scurrying crab clutching the next piece of Sanders' puzzle.",
    "spoiler": 1
   }
  ],
@@ -43,7 +43,7 @@
     "who is sanders",
     "sanders backstory"
    ],
-   "answer": "Captain Sanders was an old sea captain whose map announces that, if anyone is reading it, he already lies in a watery grave. He left behind the map and a series of clues leading to his hidden plunder."
+   "answer": "Captain Sanders was an old sea captain whose map says he lies in a watery grave. He left the map and a series of clues leading to his hidden plunder."
   },
   {
    "q": "Where is the footlocker located?",
@@ -52,7 +52,7 @@
     "where is the rusty anchor",
     "find sanders footlocker"
    ],
-   "answer": "The footlocker is half-buried in the sand along the western coast of Westfall. While many shipwrecks line the beaches, Sanders noted that it lies near a distinctive, solitary rusty anchor resting near the shoreline."
+   "answer": "The footlocker lies half-buried in the sand along Westfall's western coast, near a solitary rusty anchor by the shoreline."
   },
   {
    "q": "Does the footlocker contain the captain's treasure?",
@@ -61,7 +61,7 @@
     "what is in the footlocker",
     "where is the gold"
    ],
-   "answer": "The map directs you toward a footlocker and the next clue in a longer treasure hunt."
+   "answer": "The map directs you to a footlocker and the next clue in a longer treasure hunt."
   },
   {
    "q": "How many clues are in Captain Sanders' treasure hunt?",
@@ -70,7 +70,7 @@
     "how many parts",
     "sanders quest chain"
    ],
-   "answer": "The hunt spans four steps across the coast and countryside of Westfall, beginning with the map and culminating in the recovery of Captain Sanders' actual treasure chest on an island off the coast."
+   "answer": "The hunt has four steps across Westfall's coast and countryside, beginning with the map and ending with Captain Sanders' actual treasure chest on an island off the coast."
   },
   {
    "q": "Why did Captain Sanders bury his treasure in Westfall?",
@@ -78,7 +78,7 @@
     "why hide treasure",
     "why westfall coast"
    ],
-   "answer": "His map never says why he chose Westfall. It only reveals that he expected to end up in a watery grave and wanted his treasure to go to whoever followed his clues, which he spread across landmarks on the Westfall coast and the bluffs above it."
+   "answer": "Captain Sanders' map never says why he chose Westfall. It says he expected to meet a watery grave and wanted whoever followed his clues to find his treasure, with clues spread across the coast and the bluffs above it."
   },
   {
    "q": "Can Horde players follow this treasure map?",
@@ -87,17 +87,17 @@
     "horde sanders quest",
     "faction neutral treasure"
    ],
-   "answer": "Yes. Captain Sanders' map and the subsequent clues are neutral, allowing any adventurer who washes up on the coast or braves the shores of Westfall to follow his trail."
+   "answer": "Yes. Captain Sanders' map and clues are neutral, so any adventurer who reaches Westfall's coast can follow his trail."
   }
  ],
  "angles": [
   {
    "target": "class:Rogue",
-   "text": "A pirate's treasure hunt is second nature to scoundrels and privateers who know the value of following a dead sailor's map along a lawless coast."
+   "text": "As a rogue, you know the value of following a dead sailor's map along a lawless coast. A pirate's treasure hunt suits scoundrels and privateers."
   },
   {
    "target": "faction:Alliance",
-   "text": "Westfall's coast is fraught with coastal murlocs and wreckage, making any recovery of sea-bound fortune a small victory amidst the kingdom's frontier turmoil."
+   "text": "As an Alliance adventurer, recovering fortune from Westfall's wreck-strewn coast is a small victory amid the kingdom's frontier turmoil, where coastal murlocs menace the shore."
   }
  ],
  "keywords": [
@@ -114,5 +114,6 @@
  ],
  "attribution": [
   "Captain Sanders' Hidden Treasure (Classic 1)"
- ]
+ ],
+ "style": 1
 }

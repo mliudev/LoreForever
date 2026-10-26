@@ -2,9 +2,6 @@
 -- Sources: data/i18n/ukUA. Lore text adapted from warcraft.wiki.gg (CC BY-SA 4.0); the core add-on's src fields name the articles.
 local P = LoreForeverPacks.Begin("LoreForever_Lang_ukUA")
 local Po = P.search.post
-Po["багнокрайdragonmaw"] = "Fw8BJ1SB"
-Po["багнокрайdun"] = "BGJBFyYBFz6B"
-Po["багнокрайdwarf"] = "CqMBCuTBC+1B"
 Po["багнокрайeinar"] = "C5DB"
 Po["багнокрайexcavation"] = "AdYBAjEBA1fBBBmB"
 Po["багнокрайexplorer"] = "FBpB"
@@ -12002,3 +11999,6 @@ Po["вестфолdanuvin"] = "AijB"
 Po["вестфолdaphne"] = "EMuB"
 Po["вестфолdeadmines"] = "CeDBEHOBJJzB"
 Po["вестфолdefias"] = "AtjBC0WBDAfBDqIBD37BEb+BGq6BJ/lBK0YB"
+Po["вестфолfarmer"] = "CzjB"
+Po["вестфолgoretusk"] = "Fe3B"
+Po["вестфолharvest"] = "EC5B"

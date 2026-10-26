@@ -17,16 +17,16 @@
   "wiki": "The Journey Has Just Begun (Alliance)",
   "chain": []
  },
- "summary": "This quest represents the hard-earned recognition of a seasoned artisan following the defeat of Onyxia. Major Mattingly imparts the vital technique required to craft an Onyxia Scale Cloak, turning the fallen broodmother's remains into essential protection against her brother.",
+ "summary": "In Stormwind, Major Mattingly recognizes the artisan who brought down Onyxia. He teaches the craft needed to make a cloak from her scales.",
  "sections": [
   {
    "title": "A Rare Mastery",
-   "body": "While many champions can claim credit for bringing low the broodmother Onyxia, very few possess both martial prowess and the master leatherworking skill required to work her formidable hide. When a hero with such combined talents reports to Major Mattingly in Stormwind, the officer acknowledges how vital those crafting skills are for the battles yet to come.",
+   "body": "Few who helped bring down Onyxia can also work her hide. When an artisan with master leatherworking reports to Major Mattingly in Stormwind, the officer recognizes how much those skills matter in the battles ahead.",
    "spoiler": 0
   },
   {
    "title": "Protection Against the Black Dragonflight",
-   "body": "The death of Onyxia does not end the threat of the black dragonflight. Mattingly teaches the artisan how to treat and stitch the broodmother's scales into an Onyxia Scale Cloak. This unique garment provides specialized warding against the devastating, incendiary breath of Onyxia's brother, Nefarian, the Lord of Blackrock.",
+   "body": "Onyxia's death leaves the black dragonflight a threat. Major Mattingly teaches the artisan to treat and stitch her scales into an Onyxia Scale Cloak. The garment wards against the fiery breath of her brother, Nefarian, the Lord of Blackrock.",
    "spoiler": 1
   }
  ],
@@ -38,7 +38,7 @@
     "where to get journey has just begun",
     "journey has just begun quest giver"
    ],
-   "answer": "Major Mattingly in Stormwind City offers this quest to Alliance heroes who have proven themselves in the campaign against Onyxia and possess master-level leatherworking."
+   "answer": "Major Mattingly in Stormwind City offers this to Alliance heroes who fought in the campaign against Onyxia and have master leatherworking."
   },
   {
    "q": "What does this quest teach?",
@@ -47,7 +47,7 @@
     "onyxia cloak recipe",
     "reward for journey has just begun"
    ],
-   "answer": "Completing this interaction teaches master leatherworkers the recipe to craft the Onyxia Scale Cloak, an item specifically tailored from Onyxia's scales."
+   "answer": "Major Mattingly teaches master leatherworkers how to make an Onyxia Scale Cloak from Onyxia's scales."
   },
   {
    "q": "Why is the Onyxia Scale Cloak necessary?",
@@ -56,7 +56,7 @@
     "what is onyxia scale cloak for",
     "shadow flame protection"
    ],
-   "answer": "The cloak is specially treated to shield wearers against the deadly, incendiary breath of Nefarian, the Lord of Blackrock, making it indispensable for facing the remaining leaders of the black dragonflight."
+   "answer": "The cloak is treated to shield its wearer from the fiery breath of Nefarian, the Lord of Blackrock."
   },
   {
    "q": "Who is the Lord of Blackrock mentioned by Major Mattingly?",
@@ -65,7 +65,7 @@
     "who is nefarian",
     "mattingly dragon warning"
    ],
-   "answer": "The Lord of Blackrock is Nefarian, a powerful black dragon and the brother of Onyxia. He rules over Blackrock Spire and continues the schemes of the black dragonflight."
+   "answer": "The Lord of Blackrock is Nefarian, a powerful black dragon and Onyxia's brother. He rules Blackrock Spire and continues the black dragonflight's schemes."
   },
   {
    "q": "Why must the hero be a leatherworker to receive this knowledge?",
@@ -74,7 +74,7 @@
     "can anyone get this quest",
     "leatherworker requirement"
    ],
-   "answer": "The techniques required to harvest, temper, and sew dragon scales without destroying their innate magical warding demand the advanced expertise of a seasoned master leatherworker."
+   "answer": "Working dragon scales without destroying their magical warding calls for the advanced skill of a master leatherworker."
   },
   {
    "q": "Does Onyxia's death resolve the black dragon threat in Stormwind?",
@@ -83,13 +83,13 @@
     "onyxia dead what next",
     "black dragonflight after onyxia"
    ],
-   "answer": "No. While Onyxia herself has been slain, her brother Nefarian still commands Blackrock Mountain and continues plotting against the Alliance and the mortal races."
+   "answer": "No. Onyxia is dead, but her brother Nefarian still commands Blackrock Mountain and plots against the Alliance and the mortal races."
   }
  ],
  "angles": [
   {
    "target": "faction:Alliance",
-   "text": "This quest bridges Stormwind's hard-won victory over Onyxia with the impending offensive against her brother Nefarian at Blackrock Mountain."
+   "text": "As an Alliance hero, you carry Stormwind's victory over Onyxia into the coming offensive against her brother Nefarian at Blackrock Mountain."
   }
  ],
  "keywords": [
@@ -111,5 +111,6 @@
  ],
  "attribution": [
   "The Journey Has Just Begun (Alliance)"
- ]
+ ],
+ "style": 1
 }

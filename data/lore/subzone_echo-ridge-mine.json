@@ -7,16 +7,16 @@
  "meta": {
   "wiki": "Echo Ridge Mine"
  },
- "summary": "Echo Ridge Mine is a small excavation carved into the northwestern cliffs of Northshire Valley. Rich in stone and ore, it has recently fallen into the clutches of a destructive kobold infestation, halting Northshire's local operations.",
+ "summary": "In Northshire Valley's northwestern cliffs, Echo Ridge Mine lies rich in stone and ore, but kobolds have seized it.",
  "sections": [
   {
    "title": "A Foothold for Vermin",
-   "body": "Tucked away in the hills above Northshire Abbey, Echo Ridge Mine was meant to supply the valley with useful stone and metal. Instead, opportunistic kobolds swarmed through the tunnels, driving out the local workers. Marshal McBride views the infestation as an unacceptable security risk to Northshire's safety and recruitment efforts, directing new recruits straight into the tunnels to cull their numbers and reclaim the site.",
+   "body": "Echo Ridge Mine was cut into the hills above Northshire Abbey to supply the valley with stone and metal. Kobolds poured through its tunnels and drove out the workers. Marshal McBride sees them as a danger to Northshire's safety and its recruits. He sends new recruits into the mine to thin their numbers and take the site back.",
    "spoiler": 0
   },
   {
    "title": "The Threat Beneath Northshire",
-   "body": "The occupation of Echo Ridge is part of a broader pattern of kobold encroachment spreading across Elwynn Forest. If left unchecked in the northwestern ridge, these subterranean pests threaten to disrupt Northshire's peaceful training grounds and choke off crucial resources from reaching the abbey.",
+   "body": "Kobolds have been pushing into Elwynn Forest beyond Echo Ridge Mine. From the northwestern ridge, they threaten Northshire's training grounds and the flow of resources to the abbey.",
    "spoiler": 0
   }
  ],
@@ -28,7 +28,7 @@
     "echo ridge kobolds",
     "who took the mine"
    ],
-   "answer": "Kobolds are natural burrowers drawn to dark, mineral-rich tunnels. Sensing weak defenses, they overran Echo Ridge Mine to dig for treasures and claim the territory as their own."
+   "answer": "Kobolds burrow into dark tunnels rich in minerals. They found Echo Ridge Mine's defenses weak, overran it, and now dig for treasure while claiming the tunnels as their own."
   },
   {
    "q": "Who is trying to reclaim Echo Ridge Mine?",
@@ -37,7 +37,7 @@
     "echo ridge quests",
     "mcbride echo ridge"
    ],
-   "answer": "Marshal McBride at Northshire Abbey oversees efforts to clear the mine. He enlists newly arrived adventurers to scout the tunnels and cull the infesting vermin before they expand further into the valley."
+   "answer": "Marshal McBride at Northshire Abbey leads the effort to clear Echo Ridge Mine. He sends newly arrived adventurers to scout its tunnels and thin the kobold numbers before they spread farther into the valley."
   },
   {
    "q": "Where is Echo Ridge Mine located?",
@@ -46,17 +46,17 @@
     "where is echo ridge",
     "find echo ridge mine"
    ],
-   "answer": "The mine entrance sits in the northwestern corner of Northshire Valley, carved directly into the rocky hillside just north of the abbey vineyards."
+   "answer": "Echo Ridge Mine's entrance is in Northshire Valley's northwestern corner, cut into the rocky hillside just north of the abbey vineyards."
   }
  ],
  "angles": [
   {
    "target": "profession:Mining",
-   "text": "The shafts of Echo Ridge are rich in early mineral deposits, though any prospector seeking ore will have to fight through hordes of candle-bearing kobolds first."
+   "text": "Echo Ridge Mine's shafts hold mineral deposits, but prospectors must fight through the candle-bearing kobolds to reach the ore."
   },
   {
    "target": "race:Human",
-   "text": "For fresh recruits answering Stormwind's call, purging Echo Ridge Mine serves as an essential trial by fire to defend Northshire Abbey."
+   "text": "As a human answering Stormwind's call, you help clear Echo Ridge Mine and defend Northshire Abbey."
   }
  ],
  "keywords": [
@@ -78,5 +78,6 @@
  ],
  "attribution": [
   "Echo Ridge Mine"
- ]
+ ],
+ "style": 1
 }

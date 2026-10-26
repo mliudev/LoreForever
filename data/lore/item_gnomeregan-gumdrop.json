@@ -10,16 +10,16 @@
    "quest:8311"
   ]
  },
- "summary": "A Gnomeregan Gumdrop is a specialty seasonal sweet distributed during Hallow's End on behalf of the displaced gnomes. Adventurers fetch this confection to help the sick child Jesper in Stormwind's orphanage celebrate the holiday.",
+ "summary": "During Hallow's End, Gnomeregan Gumdrops reach travelers from the exiled gnomes. One sweet helps sick Jesper celebrate at the Stormwind orphanage.",
  "sections": [
   {
    "title": "A Taste of Gnomish Ingenuity",
-   "body": "While innkeepers across the Alliance dispense regional treats during Hallow's End, the exiled gnomes of Gnomeregan do not have a full capital inn of their own to operate. Instead, the inventive gnome Talvash del Kissel, residing in Ironforge's Mystic Ward, hands out Gnomeregan Gumdrops to travelers willing to play along with his festive tricks. Despite the radioactive disaster that drove his people from their subterranean kingdom, gnomes still proudly share their distinct confectionery with the wider Alliance.",
+   "body": "At Ironforge's Mystic Ward, Talvash del Kissel hands out Gnomeregan Gumdrops to travelers who play along with his Hallow's End tricks. Innkeepers across the Alliance offer regional treats, but the exiled gnomes have no capital inn of their own. The radioactive disaster drove them from their underground kingdom, yet they still share their distinct sweets with the Alliance.",
    "spoiler": 0
   },
   {
    "title": "A Treat for Jesper",
-   "body": "Because Jesper is sick and confined to the Stormwind orphanage in Cathedral Square, he cannot travel the continents to go trick-or-treating himself. A Gnomeregan Gumdrop is one of the four essential regional confections\u2014alongside treats from Stormwind, Ironforge, and Darnassus\u2014that kind-hearted travelers gather across the Alliance capitals to bring the festivities to him.",
+   "body": "Sick Jesper is confined to the Stormwind orphanage in Cathedral Square and cannot travel the continents to trick-or-treat. Travelers gather four regional sweets from Alliance capitals to bring the holiday to him: Gnomeregan Gumdrop, Stormwind Nougat, Ironforge Mint, and Darnassus Marzipan.",
    "spoiler": 0
   }
  ],
@@ -31,7 +31,7 @@
     "how to get gumdrop",
     "gumdrop location"
    ],
-   "answer": "It is provided by Talvash del Kissel, a gnome tinker located in the Mystic Ward of Ironforge, when you perform a trick for him during the Hallow's End festival."
+   "answer": "Talvash del Kissel gives out Gnomeregan Gumdrops in Ironforge's Mystic Ward when you play one of his Hallow's End tricks."
   },
   {
    "q": "Why isn't this candy handed out in Gnomeregan?",
@@ -39,7 +39,7 @@
     "why ironforge",
     "why is talvash in ironforge"
    ],
-   "answer": "Gnomeregan was overrun by troggs and irradiated, forcing the surviving gnomes into exile. Many, including Talvash del Kissel, now live alongside the dwarves in Ironforge."
+   "answer": "Troggs overran and irradiated Gnomeregan, forcing its surviving gnomes into exile. Many now live alongside the dwarves in Ironforge, including Talvash del Kissel."
   },
   {
    "q": "What is this candy used for?",
@@ -47,7 +47,7 @@
     "what does gumdrop do",
     "jesper candy"
    ],
-   "answer": "It is one of four festive sweets needed to complete the Hallow's End task for Jesper, a sick orphan boy at the orphanage in Stormwind's Cathedral Square."
+   "answer": "You bring this sweet to Jesper, a sick orphan boy at the Stormwind orphanage in Cathedral Square. It is one of four festive sweets gathered for him during Hallow's End."
   },
   {
    "q": "What other treats are collected alongside it?",
@@ -55,17 +55,17 @@
     "other candies",
     "hallows end sweets"
    ],
-   "answer": "Jesper also asks for Stormwind Nougat, Ironforge Mint, and Darnassus Marzipan, each gathered from the respective Alliance capital cities."
+   "answer": "Jesper also asks for Stormwind Nougat, Ironforge Mint, and Darnassus Marzipan. You gather each in its respective Alliance capital."
   }
  ],
  "angles": [
   {
    "target": "race:Gnome",
-   "text": "Even without a reclaimed city of their own, gnomes take pride in having their own signature confection represented among the great Alliance capitals during Hallow's End."
+   "text": "Though gnomes have no reclaimed city of their own, their signature sweet joins those of the great Alliance capitals during Hallow's End."
   },
   {
    "target": "faction:Alliance",
-   "text": "Gathering this sweet requires traveling between human, dwarven, and gnomish communities, showcasing the close bonds between the Alliance races during seasonal celebrations."
+   "text": "You travel among human, dwarven, and gnomish communities to gather this sweet, sharing the Alliance's close bonds during seasonal celebrations."
   }
  ],
  "keywords": [
@@ -88,5 +88,6 @@
  "attribution": [
   "Gnomeregan Gumdrop",
   "Hallow's End Treats for Jesper!"
- ]
+ ],
+ "style": 1
 }

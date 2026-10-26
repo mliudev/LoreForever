@@ -17,21 +17,21 @@
   "wiki": "The Defias Brotherhood (5)",
   "chain": []
  },
- "summary": "This mission sends adventurers along Westfall's roads to intercept a Defias Messenger. Gryan Stoutmantle hopes his dispatches will help the People's Militia discover the Brotherhood's hideout.",
+ "summary": "Across Westfall, the Defias Brotherhood moves orders by courier. Gryan Stoutmantle sends the People's Militia after an elusive messenger whose dispatches may reveal how the bandits command their forces.",
  "sections": [
   {
    "title": "Intercepting the Courier",
-   "body": "Gryan Stoutmantle's scouts noticed an elusive Defias Messenger traveling between the key outlaw hubs of Moonbrook, the Gold Coast Quarry, and the Jangolode Mine. Unlike the ordinary thugs holding the countryside, this courier carries vital written orders across the region. Stoutmantle orders the courier captured or killed so that the People's Militia can read the contents of his satchel and deduce where the brotherhood commands its forces.",
+   "body": "Gryan Stoutmantle's scouts have seen an elusive Defias Messenger traveling between Moonbrook, the Gold Coast Quarry, and the Jangolode Mine. Unlike the thugs who hold the countryside, this courier carries written orders across the region. Stoutmantle wants him captured or killed so the People's Militia can read his satchel and learn where the brotherhood directs its forces.",
    "spoiler": 0
   },
   {
    "title": "A Trail of Ink",
-   "body": "The message recovered from the courier provides undeniable confirmation that Edwin VanCleef, the legendary former leader of the Stonemasons Guild, is personally orchestrating the Defias insurgency. While the intercepted note affirms VanCleef's command over the local cells, it still falls short of pinpointing his secret base of operations.",
+   "body": "The recovered message confirms that Edwin VanCleef, the legendary former leader of the Stonemasons Guild, is personally directing the Defias uprising. It confirms his command over the local cells, but does not reveal where he has made his secret base.",
    "spoiler": 1
   },
   {
    "title": "A Fortuitous Turn",
-   "body": "Just as the messenger's orders confirm VanCleef's leadership, the People's Militia catches a major break. A desperate bandit caught attempting to steal farmer Saldean's wagon agrees to turn traitor in exchange for his life. With written proof in hand, Stoutmantle shifts his focus to this turncoat, hoping he will lead an escort into the heart of the Defias hideout.",
+   "body": "The message confirms VanCleef's leadership, and the People's Militia catches a break. A desperate bandit is caught trying to steal farmer Saldean's wagon and agrees to turn traitor in exchange for his life. With written proof in hand, Stoutmantle shifts his focus to the turncoat, hoping he can lead an escort into the heart of the Defias hideout.",
    "spoiler": 1
   }
  ],
@@ -43,7 +43,7 @@
     "where is defias messenger",
     "find messenger"
    ],
-   "answer": "The Defias Messenger begins his patrol in Moonbrook outside the blacksmith shop. From there, he walks the roads north to inspect the Gold Coast Quarry and the Jangolode Mine, entering both underground digs before retracing his path back to Moonbrook."
+   "answer": "The Defias Messenger starts his patrol in Moonbrook, outside the blacksmith shop. He walks north to the Gold Coast Quarry and the Jangolode Mine, enters both underground digs, then retraces his route to Moonbrook."
   },
   {
    "q": "What does the intercepted message reveal?",
@@ -52,7 +52,7 @@
     "mysterious message text",
     "vancleef note"
    ],
-   "answer": "Stoutmantle hopes the courier's written orders will reveal the Brotherhood's command structure and help locate its hideout. Their contents are discovered when the message is recovered."
+   "answer": "Stoutmantle hopes the courier's orders will reveal the Brotherhood's command structure and help locate its hideout. The message's contents become known once it is recovered."
   },
   {
    "q": "Who is Gryan Stoutmantle?",
@@ -60,7 +60,7 @@
     "stoutmantle role",
     "who gives this quest"
    ],
-   "answer": "Gryan Stoutmantle is the field commander of the People's Militia, headquartered at Sentinel Hill. Frustrated by the lack of royal Stormwind guards, he organizes volunteers and adventurers to defend Westfall from Defias raiders."
+   "answer": "Gryan Stoutmantle commands the People's Militia from its headquarters at Sentinel Hill. With too few royal Stormwind guards, he organizes volunteers and adventurers to defend Westfall from Defias raiders."
   },
   {
    "q": "Why is the messenger visiting the mines?",
@@ -68,7 +68,7 @@
     "why gold coast quarry",
     "why jangolode mine"
    ],
-   "answer": "The brotherhood has overrun Westfall's mineral wealth, using sites like the Jangolode Mine and Gold Coast Quarry for raw supplies, shelter, and staging grounds. The messenger keeps these disparate operations in contact with the Brotherhood's leadership."
+   "answer": "The brotherhood has overrun Westfall's mineral wealth, using the Jangolode Mine and Gold Coast Quarry for raw supplies, shelter, and staging grounds. The messenger carries word between those operations and the Brotherhood's leadership."
   },
   {
    "q": "Does catching the messenger reveal the Defias hideout?",
@@ -76,7 +76,7 @@
     "did we find the hideout",
     "where is hideout"
    ],
-   "answer": "Stoutmantle intends to use the intercepted orders to advance his search for the hideout. The next lead is learned when you return to him."
+   "answer": "Stoutmantle plans to use the intercepted orders to continue searching for the hideout. You learn the next lead when you return to him."
   },
   {
    "q": "Who is Edwin VanCleef?",
@@ -84,21 +84,21 @@
     "who is vancleef",
     "defias leader"
    ],
-   "answer": "Edwin VanCleef was the Grand Mason of the Stonemasons Guild that rebuilt Stormwind. Stoutmantle's investigation examines his possible connection to the Brotherhood."
+   "answer": "Edwin VanCleef was Grand Mason of the Stonemasons Guild, which rebuilt Stormwind. Stoutmantle's investigation looks into VanCleef's possible connection to the Brotherhood."
   }
  ],
  "angles": [
   {
    "target": "faction:Alliance",
-   "text": "Stormwind's silence forces Westfall's People's Militia to handle regional intelligence on their own, tracking couriers along lonely dirt roads without royal garrison support."
+   "text": "Without support from Stormwind's royal garrison, the People's Militia handles Westfall's intelligence on its own, tracking couriers along lonely dirt roads."
   },
   {
    "target": "class:Rogue",
-   "text": "Tracking Defias couriers highlights how skilled scouts and cutpurses coordinate a sprawling shadow network right under the militia's nose."
+   "text": "As a rogue, you can see how skilled scouts and cutpurses coordinate a sprawling shadow network beneath the militia's nose."
   },
   {
    "target": "race:Human",
-   "text": "For humans of the kingdom, tracing the dispatches to Edwin VanCleef exposes the bitter, lingering fallout of Stormwind's political and labor disputes."
+   "text": "As a human, you can trace the dispatches to Edwin VanCleef and see the bitter, lingering fallout of Stormwind's political and labor disputes."
   }
  ],
  "keywords": [
@@ -123,5 +123,6 @@
  ],
  "attribution": [
   "The Defias Brotherhood (5)"
- ]
+ ],
+ "style": 1
 }

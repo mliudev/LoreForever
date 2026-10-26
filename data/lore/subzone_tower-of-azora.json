@@ -7,16 +7,16 @@
  "meta": {
   "wiki": "Tower of Azora"
  },
- "summary": "The Tower of Azora is a slender wizard's spire rising out of eastern Elwynn Forest, north of the Brackwell Pumpkin Patch. Presided over by the human Archmage Theocritus, the enclave serves as a scholarly outpost locked in a silent magical feud with a hostile tower in neighboring Redridge Mountains.",
+ "summary": "At the Tower of Azora, Archmage Theocritus leads a scholarly outpost in eastern Elwynn Forest. The slender spire stands north of the Brackwell Pumpkin Patch, where its human master keeps watch over a silent magical feud with a hostile tower in the Redridge Mountains.",
  "sections": [
   {
    "title": "A Spire of Arcane Vigilance",
-   "body": "Standing along the eastern road toward the Redridge Mountains, the Tower of Azora is an arcane sanctuary staffed almost entirely by gnome spellcasters. Under the stewardship of Archmage Theocritus, these scholars study strange curiosities and provide magical instruction to wandering spellweavers. The wild magical aura surrounding the spire occasionally warps the nearby wildlife, leaving the gnome servants to contend with enchanted household items and mutated insects creeping past the doorway.",
+   "body": "The Tower of Azora stands beside the eastern road to the Redridge Mountains, staffed almost entirely by gnome spellcasters. Archmage Theocritus guides their studies of strange curiosities and teaches wandering spellweavers. A wild magical aura surrounds the spire and sometimes warps nearby wildlife. Within the tower, gnome servants contend with enchanted household items and mutated insects that creep past the doorway.",
    "spoiler": 0
   },
   {
    "title": "The Feud with Ilgalar",
-   "body": "Beneath its quiet scholarly exterior, the tower is engaged in an enduring war of scrying and sabotage. To the east, atop the crags of Redridge, sits the sinister Tower of Ilgalar, ruled by the renegade sorcerer Morganth. Theocritus and Morganth constantly spy on one another through arcane means, employing daring adventurers to plant scrying relics like the Eye of Azora to pierce the wards of Ilgalar and monitor Morganth's dark machinations.",
+   "body": "The Tower of Azora wages a quiet war of scrying and sabotage. Eastward, atop the crags of the Redridge Mountains, the sinister Tower of Ilgalar is ruled by the renegade sorcerer Morganth. Theocritus and Morganth spy on one another through arcane means. They enlist daring adventurers to plant scrying relics such as the Eye of Azora, piercing Ilgalar's wards to watch Morganth's dark machinations.",
    "spoiler": 1
   }
  ],
@@ -28,7 +28,7 @@
     "who is in charge here",
     "tower of azora boss"
    ],
-   "answer": "The tower is presided over by Archmage Theocritus, an accomplished human wizard. He directs the servants within the spire and coordinates their magical defenses against rival sorcerers."
+   "answer": "Archmage Theocritus, an accomplished human wizard, presides over the Tower of Azora. He directs its servants and coordinates the tower's magical defenses against rival sorcerers."
   },
   {
    "q": "Why are there so many gnomes here?",
@@ -36,7 +36,7 @@
     "why gnomes in elwynn tower",
     "servants of azora"
    ],
-   "answer": "The servants of Azora are predominantly gnome researchers and acolytes who assist Archmage Theocritus with his studies, arcane experiments, and housekeeping against magical mishaps."
+   "answer": "Most servants at the Tower of Azora are gnome researchers and acolytes. They help Archmage Theocritus with his studies, arcane experiments, and housekeeping when magic goes awry."
   },
   {
    "q": "Who is the tower fighting against?",
@@ -45,7 +45,7 @@
     "tower feud",
     "who is azora spying on"
    ],
-   "answer": "The tower is locked in a magical rivalry with the Tower of Ilgalar in the Redridge Mountains, home to the evil sorcerer Morganth. Both spires spy on each other with scrying artifacts and contest each other's influence."
+   "answer": "The Tower of Azora is locked in a magical rivalry with the Tower of Ilgalar in the Redridge Mountains, home to the evil sorcerer Morganth. Both towers spy on each other with scrying artifacts and contest each other's influence."
   },
   {
    "q": "What is the Eye of Azora on the top floor?",
@@ -54,17 +54,17 @@
     "eye of azora",
     "crystal ball azora"
    ],
-   "answer": "The Eye of Azora is an enchanted scrying focus placed on a table in the upper sanctum. Touching it allows an observer to gaze through magical distance to monitor the outskirts of the Tower of Ilgalar."
+   "answer": "The Eye of Azora is an enchanted scrying focus on a table in the upper sanctum. Touching it lets an observer gaze across magical distance and watch the outskirts of the Tower of Ilgalar."
   }
  ],
  "angles": [
   {
    "target": "class:Mage",
-   "text": "For mages traveling beyond Stormwind, the tower offers a secluded haven of study, arcane trainers, and a front-row seat to the dangerous arts of remote divination."
+   "text": "As a mage traveling beyond Stormwind, you can find a secluded place to study, arcane trainers, and a close view of the dangerous arts of remote divination at the tower."
   },
   {
    "target": "race:Gnome",
-   "text": "Seeing an arcane spire in human lands staffed by gnomes under Archmage Theocritus is a proud showcase of your people's mastery over the mystic arts."
+   "text": "As a gnome, you can take pride in seeing an arcane spire in human lands staffed by gnomes under Archmage Theocritus, a showcase of your people's mastery of the mystic arts."
   }
  ],
  "keywords": [
@@ -88,5 +88,6 @@
  ],
  "attribution": [
   "Tower of Azora"
- ]
+ ],
+ "style": 1
 }

@@ -20,16 +20,16 @@
    "Garments of the Light (Elwynn Forest)"
   ]
  },
- "summary": "In Favor of the Light marks an early milestone for novice priests training within Northshire Valley. Given by Priestess Anetta, it directs the fledgling minister beyond the cloistered abbey to Goldshire. There, Priestess Josetta awaits to deepen their spiritual discipline and guide them further into the faith of the Holy Light.",
+ "summary": "Priestess Anetta sends you south from Northshire Abbey to continue your training in Goldshire. Priestess Josetta is waiting at the Lion's Pride Inn to guide your next steps in the Holy Light.",
  "sections": [
   {
    "title": "Stepping Beyond Northshire",
-   "body": "Northshire Abbey provides shelter and initial instruction for novices, but clerical training in the Church of the Holy Light demands practical ministry out in the world. Once an initiate demonstrates basic mastery of prayer and divine healing, Priestess Anetta sends them south along the sunlit roads to Goldshire. The journey signifies a transition from secluded student to active parish servant amidst the everyday trials of the Elwynn populace.",
+   "body": "Northshire Abbey gives you shelter and your first lessons in the Holy Light. After you learn prayer and divine healing, Priestess Anetta sends you south along the road to Goldshire. There, you leave the abbey's sheltered study for service among the people of Elwynn.",
    "spoiler": 0
   },
   {
    "title": "Tutelage in Goldshire",
-   "body": "At the Lion's Pride Inn in Goldshire, Priestess Josetta tends to local spiritual needs and oversees rising acolytes. Josetta builds directly upon the fundamentals laid down at the abbey, testing the initiate's ability to offer solace, ward the faithful, and mend the injured. Stepping under her guidance introduces the young priest to the duties required of the Church's servants across the broader kingdom.",
+   "body": "Priestess Josetta tends to Goldshire's spiritual needs from the Lion's Pride Inn and guides rising acolytes. She builds on the lessons you learned at the abbey, teaching you to offer comfort, protect the faithful, and heal the injured. Under her guidance, you begin learning the duties of the Church's servants across the kingdom.",
    "spoiler": 0
   }
  ],
@@ -41,7 +41,7 @@
     "quest turn in",
     "where to turn in in favor of the light"
    ],
-   "answer": "Priestess Anetta inside Northshire Abbey gives the quest, sending you down the road to meet Priestess Josetta in Goldshire."
+   "answer": "Priestess Anetta gives you your instructions inside Northshire Abbey and sends you down the road to meet Priestess Josetta in Goldshire."
   },
   {
    "q": "Why is a priest sent away from Northshire so early?",
@@ -49,7 +49,7 @@
     "why go to goldshire",
     "why leave northshire abbey"
    ],
-   "answer": "Northshire provides foundational lessons in the Holy Light, but young ministers are expected to serve real communities quickly. Goldshire offers an immediate parish environment where an acolyte can assist everyday townspeople and town guards under Josetta's direction."
+   "answer": "Northshire teaches you the foundations of the Holy Light, and Goldshire gives you a chance to serve a real community. Under Josetta's direction, you can help townspeople and town guards."
   },
   {
    "q": "Where can Priestess Josetta be found in Goldshire?",
@@ -58,7 +58,7 @@
     "find josetta",
     "josetta location"
    ],
-   "answer": "Priestess Josetta resides inside the Lion's Pride Inn in Goldshire, serving as the local priest trainer."
+   "answer": "Priestess Josetta is inside the Lion's Pride Inn in Goldshire, where she trains priests."
   },
   {
    "q": "What happens after meeting Priestess Josetta?",
@@ -66,7 +66,7 @@
     "next quest after in favor of the light",
     "what follows in favor of the light"
    ],
-   "answer": "Priestess Josetta immediately puts your training to the test with the follow-up task, Garments of the Light, which requires ministering to a wounded guard and receiving ceremonial clerical vestments."
+   "answer": "After you meet Priestess Josetta, she tests your training by asking you to care for a wounded guard and receive ceremonial clerical vestments."
   },
   {
    "q": "Is this quest restricted to priests?",
@@ -74,7 +74,7 @@
     "can any class do in favor of the light",
     "is this priest only"
    ],
-   "answer": "Yes. This task represents formal spiritual instruction within the Church of the Holy Light and is only offered to priest initiates."
+   "answer": "Yes. This instruction is for priest initiates learning to serve the Church of the Holy Light."
   },
   {
    "q": "What role does the Church of the Holy Light play in Elwynn?",
@@ -82,21 +82,21 @@
     "church of the holy light role",
     "priests in elwynn"
    ],
-   "answer": "The Church offers comfort, spiritual leadership, and physical mending to townsfolk and defenders facing increasing banditry and wildlife incursions throughout the forest."
+   "answer": "The Church of the Holy Light offers comfort, spiritual guidance, and healing to townspeople and defenders facing bandits and dangerous wildlife in Elwynn."
   }
  ],
  "angles": [
   {
    "target": "class:Priest",
-   "text": "This rite of passage bridges your sheltered studies in Northshire with active pastoral work among the citizens and garrisons of Elwynn Forest."
+   "text": "As a priest, you leave your sheltered studies in Northshire to serve the people and garrisons of Elwynn Forest."
   },
   {
    "target": "race:Human",
-   "text": "For humans of Stormwind, seeking guidance from the priesthood in Goldshire is an essential step in upholding the moral and spiritual backbone of the kingdom."
+   "text": "As a human of Stormwind, you can seek the priesthood's guidance in Goldshire as you help uphold your kingdom's moral and spiritual life."
   },
   {
    "target": "faction:Alliance",
-   "text": "The Church of the Holy Light forms one of the Alliance's key pillars, nurturing devoted healers capable of sustaining frontline defenders."
+   "text": "As an Alliance member, you can look to the Church of the Holy Light for healers who tend to those defending the Alliance."
   }
  ],
  "keywords": [
@@ -119,5 +119,6 @@
  ],
  "attribution": [
   "In Favor of the Light (Elwynn Forest)"
- ]
+ ],
+ "style": 1
 }

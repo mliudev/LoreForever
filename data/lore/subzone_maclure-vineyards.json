@@ -7,16 +7,16 @@
  "meta": {
   "wiki": "Maclure Vineyards"
  },
- "summary": "Maclure Vineyards is a sprawling agricultural estate in southern Elwynn Forest owned by the Maclure family. While known for producing grapes and wine for the kingdom of Stormwind, the farmstead is equally infamous for an ongoing, bitter feud with the neighboring Stonefield family.",
+ "summary": "In southern Elwynn, Maclure Vineyards sends grapes and wine to Stormwind. The Maclure family's estate is known as much for its bitter feud with the neighboring Stonefields as for its harvest.",
  "sections": [
   {
    "title": "A Bitter Harvest",
-   "body": "Nestled in the lush hills of southern Elwynn Forest, the Maclure Vineyards should be a peaceful haven of winecraft and farming. Instead, everyday labor is overshadowed by a vicious, long-standing rivalry with the Stonefields just down the road. Accusations of theft and bad blood run deep between the households, keeping tempers flaring even as common troubles\u2014like hungry prowling boars and encroaching kobolds\u2014threaten both homesteads.",
+   "body": "The Maclure Vineyards should be a peaceful haven of farming and winecraft in southern Elwynn Forest. Instead, the feud with the Stonefields down the road overshadows the family's daily labor. Accusations of theft and old resentment keep tempers high between the households. Hungry boars prowl the land, while kobolds press toward both homesteads.",
    "spoiler": 0
   },
   {
    "title": "A Forbidden Romance",
-   "body": "Despite the fierce animosity between the two patriarchs, young love has crossed the boundary lines. Maybell Maclure and Tommy Joe Stonefield have fallen secretly in love, meeting in hidden groves away from their parents' suspicious eyes. Those passing through the vineyards often find themselves drawn into running secret messages, resolving petty grievances, and trying to help the young couple escape the shadow of their families' grudge.",
+   "body": "Maybell Maclure and Tommy Joe Stonefield have fallen secretly in love despite their families' bitter feud. They meet in hidden groves, away from their parents' suspicious eyes. Travelers through the vineyards are drawn into carrying secret messages, settling petty grievances, and helping the young couple seek a life together beyond their families' grudge.",
    "spoiler": 1
   }
  ],
@@ -28,7 +28,7 @@
     "why do they hate each other",
     "family feud"
    ],
-   "answer": "The rivalry is a long-standing rural feud built on years of mistrust, petty accusations, and stubborn pride. Neither family trusts the other an inch, blaming each other for lost goods and livestock, though neither has outright proof of foul play."
+   "answer": "The Maclures and Stonefields have a long rural feud rooted in years of mistrust, petty accusations, and stubborn pride. Each family blames the other for lost goods and livestock, though neither has proof of foul play."
   },
   {
    "q": "Who is Maybell Maclure?",
@@ -36,7 +36,7 @@
     "maybell",
     "maclure daughter"
    ],
-   "answer": "Maybell is the daughter of the Maclure household. She has secretly fallen in love with Tommy Joe Stonefield, defying her family's bitter hatred of their neighbors in the hope of finding a way for them to be together."
+   "answer": "Maybell is the daughter of the Maclure household. She has secretly fallen in love with Tommy Joe Stonefield, defying her family's hatred of their neighbors and hoping they can find a way to be together."
   },
   {
    "q": "What threats do the vineyards face?",
@@ -44,7 +44,7 @@
     "vineyard dangers",
     "boars at maclure"
    ],
-   "answer": "Aside from family disputes, the vineyards are plagued by ravenous wild boars trampling the crops and vines, as well as wandering kobolds raiding nearby fields from surrounding gold mines."
+   "answer": "The vineyards face family disputes, hungry wild boars that trample crops and vines, and kobolds from nearby gold mines who raid the surrounding fields."
   },
   {
    "q": "What do the Maclures produce here?",
@@ -52,17 +52,17 @@
     "what grows here",
     "maclure crops"
    ],
-   "answer": "The Maclure family cultivates grapevines to supply wine and fresh fruit to tavern-keepers and merchants throughout Elwynn Forest and Stormwind City."
+   "answer": "The Maclure family grows grapes for wine and fresh fruit, supplying tavern-keepers and merchants throughout Elwynn Forest and Stormwind City."
   }
  ],
  "angles": [
   {
    "target": "race:Human",
-   "text": "For humans of Stormwind, the vineyard feud is a classic example of countryside stubbornness, reminding travelers that even within the heartland, neighbors often bicker over fences while larger perils loom."
+   "text": "For humans of Stormwind, the feud shows the stubbornness of the countryside. Even in the kingdom's heartland, neighbors quarrel over fences while greater perils loom."
   },
   {
    "target": "faction:Alliance",
-   "text": "The estate serves as an important breadbasket and vineyard supplying the nearby settlements of Goldshire and Stormwind City with food and spirits."
+   "text": "The estate supplies food and spirits to nearby Goldshire and Stormwind City."
   }
  ],
  "keywords": [
@@ -87,5 +87,6 @@
  ],
  "attribution": [
   "Maclure Vineyards"
- ]
+ ],
+ "style": 1
 }

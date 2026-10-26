@@ -17,16 +17,16 @@
   "wiki": "Detonation at a Distance",
   "chain": []
  },
- "summary": "Detonation at a Distance sends an adventurer seeking specialized explosives expertise across the capital of Stormwind. After being prompted by the eccentric gnome tinkerer Sprite Jumpsprocket, you are directed to Stormwind Intelligence to procure a remote detonator.",
+ "summary": "Sprite Jumpsprocket needs a safer way to set off explosives, and Stormwind holds the answer. She sends you to Stormwind Intelligence for a remote detonator.",
  "sections": [
   {
    "title": "A Controlled Blast",
-   "body": "While goblins and gnomes are both notorious for their reckless abandon with volatile chemicals, not every demolition task calls for standing directly beside the payload. When standard fuses risk life and limb, remote detonation becomes an absolute necessity. Sprite Jumpsprocket recognizes that a controlled explosion requires specialized trigger mechanisms that common tinkerers do not carry in everyday surplus.",
+   "body": "Sprite Jumpsprocket wants to set off explosives from a safe distance. Goblins and gnomes are known for handling volatile chemicals recklessly, but some blasts demand care. A standard fuse can put the person lighting it in danger. Sprite knows a controlled explosion needs a special trigger, the kind common tinkerers do not keep on hand.",
    "spoiler": 0
   },
   {
    "title": "Calling Upon the SI:7",
-   "body": "Instead of turning to local dwarven blasters or standard engineering supplies, Sprite directs the search toward Stormwind Intelligence, operating out of Old Town. Known colloquially as SI:7, the kingdom's covert operative network regularly handles sensitive sabotage, stealth infiltration, and targeted demolitions. Jasper Fel, an operative embedded within the capital, is precisely the sort of shadowy contact who manages such discreet and dangerous equipment.",
+   "body": "Sprite sends you to Stormwind Intelligence in Old Town instead of to local dwarven blasters or ordinary engineering suppliers. The network is known as SI:7, and its covert agents handle sabotage, stealth, and targeted demolitions. Jasper Fel works among them in the capital and can provide discreet, dangerous equipment.",
    "spoiler": 0
   }
  ],
@@ -38,7 +38,7 @@
     "who starts detonation at a distance",
     "sprite jumpsprocket quest"
    ],
-   "answer": "The quest is handed out by Sprite Jumpsprocket, an Alliance-aligned gnome tinkerer found in the Dwarven District of Stormwind."
+   "answer": "Sprite Jumpsprocket, a gnome tinkerer in Stormwind's Dwarven District, sends you to find a remote detonator."
   },
   {
    "q": "Who do you need to talk to in Stormwind?",
@@ -47,7 +47,7 @@
     "stormwind intelligence contact",
     "jasper fel location"
    ],
-   "answer": "You are directed to speak with Jasper Fel, an associate of Stormwind Intelligence stationed in the capital city of Stormwind."
+   "answer": "Sprite directs you to Jasper Fel, an associate of Stormwind Intelligence in Stormwind."
   },
   {
    "q": "Why does Sprite Jumpsprocket need a remote detonator?",
@@ -55,7 +55,7 @@
     "why remote detonator",
     "purpose of detonation"
    ],
-   "answer": "Sprite notes that while remote detonations might lack the chaotic excitement of an uncontrolled blast, keeping your limbs intact makes a distance trigger far more practical for dangerous explosive work."
+   "answer": "Sprite wants to set off explosives from a distance. Keeping your limbs intact makes a remote trigger more practical than an uncontrolled blast."
   },
   {
    "q": "Why contact Stormwind Intelligence rather than an engineer?",
@@ -63,7 +63,7 @@
     "why si7",
     "why stormwind intelligence"
    ],
-   "answer": "Stormwind Intelligence maintains covert supplies and specialized sabotage gear that ordinary city merchants or field tinkerers do not publicly stock or distribute."
+   "answer": "Stormwind Intelligence keeps specialized sabotage gear that ordinary merchants and field tinkerers do not stock or distribute openly."
   },
   {
    "q": "Where is Jasper Fel located in Stormwind?",
@@ -71,7 +71,7 @@
     "jasper fel stormwind",
     "jasper fel room"
    ],
-   "answer": "Jasper Fel is situated in Old Town within the headquarters of SI:7, where Stormwind's spies and covert agents conduct their operations."
+   "answer": "Jasper Fel is in Old Town at SI:7 headquarters, where Stormwind's spies and covert agents work."
   },
   {
    "q": "What faction can undertake this task?",
@@ -79,21 +79,21 @@
     "is this alliance only",
     "can horde do this"
    ],
-   "answer": "This assignment is strictly available to members of the Alliance, as it relies on cooperation with Stormwind's royal intelligence division."
+   "answer": "Only members of the Alliance can undertake this work, because it depends on cooperation with Stormwind's royal intelligence division."
   }
  ],
  "angles": [
   {
    "target": "class:Rogue",
-   "text": "Visiting Jasper Fel means stepping into the center of SI:7 operations in Old Town, the heart of human covert tradecraft."
+   "text": "As a rogue, you enter the heart of SI:7 operations in Old Town, where human covert tradecraft is practiced."
   },
   {
    "target": "profession:Engineering",
-   "text": "While engineers frequently build their own fuses and dynamite, securing military-grade remote triggers often requires contacts who specialize in quiet sabotage."
+   "text": "As an engineer, you can build fuses and dynamite, but military-grade remote triggers often come through contacts who specialize in quiet sabotage."
   },
   {
    "target": "race:Gnome",
-   "text": "Sprite Jumpsprocket exemplifies the classic gnomish interest in engineering problems, even if she defers to human intelligence for specific spycraft munitions."
+   "text": "As a gnome, you share Sprite Jumpsprocket's interest in engineering problems, though she turns to human intelligence for spycraft munitions."
   }
  ],
  "keywords": [
@@ -113,5 +113,6 @@
  ],
  "attribution": [
   "Detonation at a Distance"
- ]
+ ],
+ "style": 1
 }

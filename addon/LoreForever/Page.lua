@@ -1,30 +1,24 @@
 -- A story's page (v2 "Your Chronicle", slice 2; the two-page spread, look slice V3): one page for a place, person, item
 -- or quest, opened from every way in (the tooltip keys, the quest window's Lore button, names in answers and chat, the
 -- Here list), over the conversation like the Journey page. It reads as an open book:
---   left page   the story: where it sits (the breadcrumb), its title, "kind · place · rarity", Listen with the
+--   left page   the story: its title, "kind · place · rarity", Listen with the
 --               narrator and how long it runs, the story under an illuminated initial, its sections, and the passages
 --               your quests haven't opened yet as seals
 --   right page  what's yours: when and where you found it (and the quest you were on), for a quest what you read of it
 --               (the text the game showed you, kept) with a Listen for what its quest giver said, the pages on the
---               same road you've found with the storyline it belongs to, the questions about it (what you asked, with
---               its answers, and the recorded questions you haven't; Margin.lua), and a line to ask about it, whose
---               answer is written on the page
--- The story still goes into the conversation underneath too (UI.ShowEntry), so Back shows it there and nothing that
--- read the chat changes.
+--               same road you've found as cards with the storyline it belongs to; at its foot "Ask about it in Here"
+--               and, opened from Found's list, Previous / Next through that list
+-- Asking is Here's: the page has no questions or ask line of its own (one job per tab, Mike's pick of 10/25).
 
 local _, ns = ...
 local Page = {}
 ns.Page = Page
 local L, T = ns.L, ns.Theme
 
--- Opened by these ways in (UI.ShowEntry's via; Found opens pages itself, as "found"); a story the player or the playlist reads aloud stays in the chat.
-Page.VIA = { hover = true, questdialog = true, questlog = true, chatlink = true, link = true, here = true,
-  quest = true, typed = true, target = true, page = true }
-
 -- Parchment inks: the book's own (Theme.lua).
 local INK, ACCENT, NOTE = T.color.ink, T.color.inkAccent, T.color.inkNote
-local HINT = T.color.inkLight                 -- the ask box's placeholder: light, on the box's dark fill
 local PAD, GAP, RELATED_MAX = 16, 10, 6
+local CARD, CELL = 36, 92                     -- a same-road card, and the room it takes with its name
 local SCROLL_W = 22                           -- what a scroll bar takes beside its text
 -- What kind of page it is, by entry type (read through L when shown: the language pack loads after this file).
 local KIND = { zone = "Zone", city = "City", dungeon = "Dungeon", subzone = "Place", npc = "Person", item = "Item",
@@ -33,9 +27,6 @@ local KIND_L = { Zone = function() return L["Zone"] end, City = function() retur
   Dungeon = function() return L["Dungeon"] end, Place = function() return L["Place"] end,
   Person = function() return L["Person"] end, Item = function() return L["Item"] end,
   Quest = function() return L["Quest"] end, ["Of Azeroth"] = function() return L["Of Azeroth"] end }
--- The icon a page's chip wears (Theme.lua's kinds of page).
-local CHIP_KIND = { zone = "place", city = "place", dungeon = "place", subzone = "place", npc = "person", item = "item",
-  quest = "quest", topic = "storyline" }
 
 local function esc(s) return (tostring(s or ""):gsub("|", "||")) end
 local function settings() return (LoreForeverDB and LoreForeverDB.settings) or {} end
@@ -157,22 +148,16 @@ function Page.Create(f)
   T.Parchment(rp, "right")
   Page.left, Page.right = lp, rp
 
-  local crumb = ink(lp:CreateFontString(nil, "OVERLAY", "GameFontNormalSmall"), NOTE)
-  crumb:SetPoint("TOPLEFT", PAD, -14)
-  if crumb.SetWordWrap then crumb:SetWordWrap(false) end
-  Page.crumb = crumb
-
   local back = T.Button(lp, L["Back"])
   back:SetHeight(22)
   back:SetPoint("TOPRIGHT", -PAD - 4, -8)
   fitWidth(back, 70)
   back:SetScript("OnClick", function() Page.Back() end)
   Page.backButton = back
-  crumb:SetPoint("RIGHT", back, "LEFT", -8, 0)
 
   local title = ink(lp:CreateFontString(nil, "OVERLAY", "QuestTitleFont"), ACCENT)
-  title:SetPoint("TOPLEFT", PAD, -38)
-  title:SetPoint("RIGHT", lp, "RIGHT", -PAD - 8, 0)
+  title:SetPoint("TOPLEFT", PAD, -14)
+  title:SetPoint("RIGHT", back, "LEFT", -8, 0)
   if title.SetMaxLines then title:SetMaxLines(2) end
   Page.title = title
   local sub = ink(lp:CreateFontString(nil, "OVERLAY", "GameFontNormalSmall"), NOTE)
@@ -180,12 +165,11 @@ function Page.Create(f)
   sub:SetPoint("RIGHT", lp, "RIGHT", -PAD - 8, 0)
   Page.sub = sub
 
-  -- Listen: click plays it, Shift-click adds it to the playlist (the same meaning everywhere). The pill names the
-  -- narrator; its length stands beside it.
-  local listen = T.Chip(lp, T.ARROW, L["Listen"])
+  -- Listen: click plays it, Shift-click adds it to the playlist (the same meaning everywhere). The conversation's
+  -- Listen (one style in the book); who reads it and its length stand beside it.
+  local listen = T.Button(lp, L["Listen"])
   listen:SetHeight(22)
-  listen:SetActive(true)
-  listen.icon:SetVertexColor(T.rgba(T.color.inkLight))
+  fitWidth(listen, 70)
   listen:SetPoint("TOPLEFT", sub, "BOTTOMLEFT", 0, -8)
   listen:RegisterForClicks("LeftButtonUp")
   listen:SetScript("OnClick", function()
@@ -210,35 +194,41 @@ function Page.Create(f)
   unvoiced:SetPoint("RIGHT", lp, "RIGHT", -PAD - 8, 0)
   Page.unvoiced = unvoiced
 
-  -- The ask line at the foot of the right page: asked as in the conversation; an answer about a page is written on
-  -- that page, under Questions (anything else, a "did you mean" say, shows in the conversation).
-  local ask = CreateFrame("EditBox", nil, rp, "InputBoxTemplate")
-  ask:SetHeight(22)
-  ask:SetPoint("BOTTOMLEFT", PAD + 6, 10)
-  ask:SetPoint("BOTTOMRIGHT", -PAD, 10)
-  ask:SetAutoFocus(false)
-  ask:SetFontObject(ChatFontNormal or "GameFontHighlight")
-  ask:SetScript("OnEnterPressed", function(self)
-    local q = (self:GetText() or ""):gsub("^%s+", ""):gsub("%s+$", "")
-    self:SetText("")
-    self:ClearFocus()
-    if q == "" then return end
-    ns.Margin.last = nil
-    UI.Ask(q, "page", Page.key)   -- "who is this?" means the page's subject, not where you stand
-    local m = ns.Margin.last
-    if m and entries()[m.key] then return Page.ShowAsked(m.key) end
-    Page.Hide()
-    ns.Book.HidePage()   -- the answer is in the chat, under Found's pages
+  -- The right page's foot: "Ask about it in Here ›" (the story told in the conversation, ready for a question), and,
+  -- for a page opened from Found's list, Previous / where it is / Next through that list.
+  local foot = CreateFrame("Frame", nil, rp)
+  foot:SetPoint("BOTTOMLEFT", PAD, 8)
+  foot:SetPoint("BOTTOMRIGHT", -PAD, 8)
+  foot:SetHeight(24)
+  Page.foot = foot
+  local askIn = UI.TextButton(foot, 200, 20, T.font.body, nil, true)
+  askIn:SetPoint("BOTTOMLEFT", -6, 2)
+  askIn.text:ClearAllPoints()   -- (one line at its own width: the button fits it, Layout)
+  askIn.text:SetPoint("LEFT", 6, 0)
+  if askIn.text.SetWordWrap then askIn.text:SetWordWrap(false) end
+  askIn:SetScript("OnClick", function() if Page.key then UI.AskInHere(Page.key) end end)
+  askIn:SetScript("OnEnter", function(self)
+    GameTooltip:SetOwner(self, "ANCHOR_TOP")
+    GameTooltip:AddLine(L["Ask in Here"])
+    T.Tip(L["Tells its story in the conversation, with questions about it to ask."], "tipDim", true)
+    GameTooltip:Show()
   end)
-  ask:SetScript("OnEscapePressed", function(self) self:ClearFocus() end)
-  local hint = ask:CreateFontString(nil, "OVERLAY", T.font.hint)
-  hint:SetPoint("LEFT", 2, 0)
-  hint:SetPoint("RIGHT", -2, 0)
-  hint:SetJustifyH("LEFT")
-  hint:SetTextColor(HINT[1], HINT[2], HINT[3], 1)
-  ask:SetScript("OnEditFocusGained", function() hint:Hide() end)
-  ask:SetScript("OnEditFocusLost", function(self) hint:SetShown((self:GetText() or "") == "") end)
-  Page.ask, Page.askHint = ask, hint
+  askIn:SetScript("OnLeave", function() GameTooltip:Hide() end)
+  Page.askIn = askIn
+  local nxt = T.Button(foot, L["Next"] .. " \226\128\186")
+  nxt:SetHeight(22)
+  fitWidth(nxt, 60)
+  nxt:SetPoint("BOTTOMRIGHT", 0, 0)
+  nxt:SetScript("OnClick", function() Page.Step(1) end)
+  local at = ink(foot:CreateFontString(nil, "OVERLAY", "GameFontNormalSmall"), NOTE)
+  if at.SetWordWrap then at:SetWordWrap(false) end
+  at:SetPoint("RIGHT", nxt, "LEFT", -8, 0)
+  local prev = T.Button(foot, "\226\128\185 " .. L["Previous"])
+  prev:SetHeight(22)
+  fitWidth(prev, 60)
+  prev:SetPoint("RIGHT", at, "LEFT", -8, 0)
+  prev:SetScript("OnClick", function() Page.Step(-1) end)
+  Page.nextButton, Page.prevButton, Page.atLine = nxt, prev, at
 
   -- The two bodies, each scrolling on its own.
   local function body(parent)
@@ -250,7 +240,6 @@ function Page.Create(f)
   end
   Page.scroll, Page.content = body(lp)       -- the left page's (the story)
   Page.rscroll, Page.rcontent = body(rp)     -- the right page's (what's yours)
-  Page.qscroll = Page.rscroll                -- the one that holds the questions
 
   p:SetScript("OnSizeChanged", function(self) if self:IsShown() and Page.key then Page.Layout() end end)
   -- Only one page over the conversation at a time.
@@ -266,8 +255,8 @@ function Page.Create(f)
   p:HookScript("OnShow", function()
     if ns.Book and ns.Book.frame then ns.Book.frame:Hide() end
   end)
-  -- The page has its own ask line: the panel's (message box, its field and Send) isn't shown beside it, and is back
-  -- when the page closes, whichever way it closes (UI.pageOpen: PlaceChat and Layout keep it hidden meanwhile).
+  -- The panel's ask row (message box, its field and Send) isn't shown under the page, and is back when the page
+  -- closes, whichever way it closes (UI.pageOpen: PlaceChat and Layout keep it hidden meanwhile).
   p:HookScript("OnShow", function()
     UI.pageOpen = true
     UI.ShowAskRow()
@@ -381,7 +370,7 @@ local function textLine(content, width, y, text, font, color)
   return y - (fs:GetStringHeight() or 14) - GAP
 end
 
--- A thin line across the body, between what's yours and its questions.
+-- A thin line across the body, between its parts.
 local function rule(content, width, y)
   local r = take(content, "rule", function(c)
     local f = CreateFrame("Frame", nil, c)
@@ -395,80 +384,41 @@ local function rule(content, width, y)
   return y - 2 - GAP
 end
 
--- Questions in the margin: what you asked about it, the newest first, each with its answer; then the recorded
--- questions you haven't asked (one that would spoil a storyline you're on stays out until you've reached it). Click
--- one to write its answer here, with Listen when it's recorded.
-function Page.Questions(key)
-  local e = entries()[key]
-  local asked, faqs, seen = ns.Margin.List(key), {}, {}
-  for _, a in ipairs(asked) do seen[tostring(a.q):lower()] = true end
-  for i, f in ipairs(e and e.faq or {}) do
-    if type(f.q) == "string" and not f.answerOnly and not seen[f.q:lower()]
-        and (not f.sp or ns.UI.SpoilerAllowed(key, "faq", i)) then faqs[#faqs + 1] = i end
-  end
-  return asked, faqs
-end
-
-local function questions(content, width, y, key, e)
-  local asked, faqs = Page.Questions(key)
-  Page.questionsY = nil
-  if #asked == 0 and #faqs == 0 then return y end
-  if y < 0 then y = rule(content, width, y) end   -- (a rule under what's above it, never at the very top)
-  Page.questionsY = -y
-  y = textLine(content, width, y, L["Questions"], "GameFontNormalSmall", NOTE) + GAP - 4
-  for _, a in ipairs(asked) do
-    y = textLine(content, width, y, L["You asked:"] .. " " .. esc(a.q), "GameFontNormal", ACCENT) + GAP - 6
-    if type(a.a) == "string" and a.a ~= "" then y = textLine(content, width, y, esc(a.a), T.font.body, INK) end
-  end
-  for _, i in ipairs(faqs) do
-    local f = e.faq[i]
-    local b = take(content, "q", function(c)
-      local r = CreateFrame("Button", nil, c)
-      r.text = ink(r:CreateFontString(nil, "OVERLAY", "GameFontNormal"), ACCENT)
-      r.text:SetPoint("TOPLEFT", 0, 0)
-      if r.text.SetWordWrap then r.text:SetWordWrap(true) end
-      r:SetScript("OnClick", function(self)
-        Page.opened[self.idx] = not Page.opened[self.idx] or nil
-        Page.Layout()
-      end)
-      r:SetScript("OnEnter", function(self)
-        GameTooltip:SetOwner(self, "ANCHOR_RIGHT")
-        T.Tip(Page.opened[self.idx] and L["Click: fold the answer away"] or L["Click: write its answer here"], "tipDim", true)
-        GameTooltip:Show()
-      end)
-      r:SetScript("OnLeave", function() GameTooltip:Hide() end)
-      -- A row under the mouse lights up, as every clickable row does (a little wider than the words).
-      local hl = r:CreateTexture(nil, "HIGHLIGHT")
-      hl:SetPoint("TOPLEFT", -4, 2)
-      hl:SetPoint("BOTTOMRIGHT", 4, -2)
-      T.Fill(hl, "inkHover")
-      return r
-    end)
-    b.idx = i
-    b.text:SetWidth(width)
-    b.text:SetText(esc(f.q))
-    local h = math.max(18, b.text:GetStringHeight() or 14)   -- easy to click, one line or two
-    b:SetSize(width, h)
-    b:SetPoint("TOPLEFT", 0, y)
-    y = y - h - GAP
-    if Page.opened[i] then
-      y = textLine(content, width, y + 4, esc(f.a), T.font.body, INK)
-      local target = ns.UI.FaqTarget(key, i)
-      if target and ns.Voice.HasAudio(target.key) then
-        local l = take(content, "listen", function(c)
-          local r = T.Button(c, L["Listen"])
-          r:SetHeight(20)
-          fitWidth(r, 60)
-          r:SetScript("OnClick", function(self) ns.UI.PlayFaq(Page.key, self.idx) end)
-          return r
-        end)
-        l.idx = i
-        l:SetPoint("TOPLEFT", 0, y + 4)
-        y = y - 20 - GAP
-      end
+-- A page on the same road: its card (as Found draws it) with its name under it. Click opens it, Shift-click adds it to
+-- the playlist, right-click gives options.
+local function roadCard(content)
+  local UI = ns.UI
+  local r = CreateFrame("Frame", nil, content)
+  r:SetSize(CELL, CARD + 32)
+  local t = T.Tile(r, "place")
+  t:SetSize(CARD, CARD)
+  t:SetPoint("TOP", 0, -3)
+  t:RegisterForClicks("LeftButtonUp", "RightButtonUp")
+  t:SetScript("OnClick", function(self, button)
+    if button == "RightButton" then return ns.Book.PageMenu(self, self.key, "page") end
+    if IsShiftKeyDown and IsShiftKeyDown() then
+      if UI.CanQueue(self.key) then UI.DoQueueAction(self.key) end
+      return
     end
-  end
-  return y
+    Page.Show(self.key, "page")
+  end)
+  t:SetScript("OnEnter", function(self)
+    local e = entries()[self.key]
+    if not e then return end
+    GameTooltip:SetOwner(self, "ANCHOR_RIGHT")
+    GameTooltip:AddLine(esc(e.n))
+    T.Tip(Page.KindLabel(e.t), "tipText")
+    T.Tip(L["Click: open its page. Shift-click: add to your playlist. Right-click: options."], "tipDim", true)
+    GameTooltip:Show()
+  end)
+  t:SetScript("OnLeave", function() GameTooltip:Hide() end)
+  r.tile = t
+  r.name = ink(r:CreateFontString(nil, "OVERLAY", "GameFontNormalSmall"), INK)
+  r.name:SetWidth(CELL - 4)
+  r.name:SetJustifyH("CENTER")
+  if r.name.SetMaxLines then r.name:SetMaxLines(2) end
+  r.name:SetPoint("TOP", t, "BOTTOM", 0, -3)
+  return r
 end
 
 -- The story: its first paragraph under an illuminated initial, then its sections, each a heading and its words, or a
@@ -579,7 +529,7 @@ local function yours(content, width, y, key, e)
     y = textLine(content, width, y, L["On the same road"], "GameFontNormalSmall", NOTE) + GAP - 4
     local x, rowH = 0, 26
     local function chip(icon, text, onClick, tip)
-      local b = take(content, "rel", function(c)
+      local b = take(content, "storyline", function(c)
         local r = T.Chip(c, "place", "")
         r:SetScript("OnClick", function(self) if self.go then self.go(self) end end)
         r:SetScript("OnEnter", function(self)
@@ -593,6 +543,7 @@ local function yours(content, width, y, key, e)
         return r
       end)
       b.go, b.tip, b.tipTitle = onClick, tip, tip and L["Storyline"] or nil
+      Page.storylineChip = b   -- (the one chip on a page: its storyline)
       b:SetIcon(icon)
       b:SetText(text)
       b:SetWidth(math.min(b:GetWidth() or 80, width))
@@ -605,18 +556,36 @@ local function yours(content, width, y, key, e)
       -- "Storyline · The Defias Brotherhood": the name only (see Page.Storyline)
       chip("storyline", L["Storyline"] .. ns.Lang.Dotted(" · ") .. esc(line.name),
         function()
-          local R = ns.Road
+          -- Storylines on it, with a gold "‹ Back to <this>'s page" that opens this page again where it was.
+          local R, UI = ns.Road, ns.UI
+          local snap, tab = Page.Snapshot(), UI.tab
           if R then R.story = "*sl:" .. tostring(line.id) end
+          if UI.pageResume then UI.pageResume[tab] = nil end
           Page.Hide()
-          if ns.UI.ShowTab then ns.UI.ShowTab("story") end
-        end, L["Click: see its quests you've found"])
+          UI.ShowTab("story")
+          ns.Book.SetBackTo({ tab = tab, page = snap, label = string.format(L["Back to %s's page"], esc(e.n)) })
+        end, L["Click: see its quests you've taken"])
     end
+    if line then y = y - rowH - GAP + 4 end
+    -- The pages themselves, as cards with their names, as many to a line as fit.
+    local B, done, cx = ns.Book, try(ns.Context.Done), 0
     for _, k in ipairs(related) do
-      chip(CHIP_KIND[entries()[k].t] or "place", esc(entries()[k].n), function() Page.Show(k, "page") end)
+      local re = entries()[k]
+      if cx > 0 and cx + CELL > width then cx, y = 0, y - CARD - 36 end
+      local r = take(content, "road", roadCard)
+      r:SetPoint("TOPLEFT", cx, y)
+      local t = r.tile
+      t.key = k
+      t:SetKind(B.TileKind(re.t))
+      t:SetState({ new = ns.Collection.IsNew(k), heard = ns.Voice.Heard(k), sealed = B.Sealed(k, done) })
+      t:SetFigure(re.t == "npc" and B.Look(k) or nil)
+      r.name:SetText(esc(re.n))
+      B.NameInk(r.name, k, INK)
+      cx = cx + CELL
     end
-    y = y - rowH - GAP + 4
+    if #related > 0 then y = y - CARD - 36 - GAP end
   end
-  return questions(content, width, y, key, e)
+  return y
 end
 
 function Page.Layout()
@@ -633,10 +602,12 @@ function Page.Layout()
   sf:SetPoint("BOTTOMRIGHT", left, "BOTTOMRIGHT", -PAD - SCROLL_W + 6, 10)
   rsf:ClearAllPoints()
   rsf:SetPoint("TOPLEFT", right, "TOPLEFT", PAD, -14)
-  rsf:SetPoint("BOTTOMRIGHT", Page.ask, "TOPRIGHT", -SCROLL_W, GAP)
-  -- (a long narrator's name never runs the pill out of its page: the length stands beside it)
-  Page.listen:Fit()
-  Page.listen:SetWidth(math.min(Page.listen:GetWidth() or 120, math.max(80, lw - PAD * 2 - 70)))
+  rsf:SetPoint("BOTTOMRIGHT", Page.foot, "TOPRIGHT", -SCROLL_W + PAD, GAP)
+  local room = math.max(80, rw - PAD * 2 - (Page.pager and 250 or 0))
+  Page.askIn.text:SetWidth(0)
+  local tw = math.ceil(T.TextWidth(Page.askIn.text) or 160)
+  Page.askIn.text:SetWidth(math.min(tw, room - 12))
+  Page.askIn:SetWidth(math.min(tw, room - 12) + 12)
   local width = math.max(160, lw - PAD * 2 - SCROLL_W)
   local rwidth = math.max(160, rw - PAD * 2 - SCROLL_W)
   lcontent:SetWidth(width)
@@ -669,7 +640,6 @@ function Page.Refresh()
   if zone and zone.n then parts[#parts + 1] = esc(zone.n) end
   parts[#parts + 1] = rarityWord(key)
   Page.sub:SetText(table.concat(parts, dot))
-  Page.crumb:SetText("\226\128\185 " .. esc(zone and zone.n and (kind ~= "" and (zone.n .. dot .. kind) or zone.n) or kind))
   Page.qid = questId(e)
   Page.dialogue = Page.qid ~= nil and ns.UI.HasQuestDialogue(Page.qid)   -- a voice recorded its quest giver
   local target = ns.UI.EntryTarget(key)
@@ -678,42 +648,89 @@ function Page.Refresh()
   Page.length:SetShown(voiced)
   if voiced then
     local who, secs = Page.Narration(key)
-    Page.listen:SetText(who and (L["Listen"] .. dot .. esc(who)) or L["Listen"])
-    Page.length:SetText(secs and clock(secs) or "")
+    local parts2 = {}
+    if who then parts2[#parts2 + 1] = esc(who) end
+    if secs then parts2[#parts2 + 1] = clock(secs) end
+    Page.length:SetText(table.concat(parts2, dot))
   end
   -- A recording planned that this player can't play (not recorded yet, or its voices aren't installed).
   local planned = not voiced and ns.Voice.Current() ~= "none" and (ns.DB.clipHash or {})[key]
   Page.unvoiced:SetText(planned and L["Not in your voices yet: read it here."] or "")
-  Page.askHint:SetText(string.format(L["Ask about %s"], esc(e.n)))
-  Page.askHint:SetShown((Page.ask:GetText() or "") == "")
+  Page.askIn.text:SetText(T.code.inkLink .. string.format(L["Ask about %s in Here"], esc(e.n)) .. " \226\128\186|r")
+  Page.UpdatePager()
   Page.Layout()
   if Page.scroll.SetVerticalScroll then Page.scroll:SetVerticalScroll(0) end
   if Page.rscroll.SetVerticalScroll then Page.rscroll:SetVerticalScroll(0) end
+  Page.UpdateBack()
 end
 
--- Opens `key`'s page (and the panel). Pages opened from a page stack up for Back.
+-- Opens `key`'s page (and the panel). Pages opened from a page stack up for Back. A page is Found's (or Storylines',
+-- which shows a storyline's quests on Found's page): opened from anywhere else, Found lights first, so a page never
+-- covers the conversation under the Here ribbon (Here A, 10/25).
 function Page.Show(key, via)
   if not (Page.frame and key and entries()[key]) then return end
   local UI = ns.UI
   if UI.frame and not UI.frame:IsShown() then UI.frame:Show() end
+  if UI.tab ~= "found" and UI.tab ~= "story" and UI.ShowTab then UI.ShowTab("found") end
   if not (via == "page" and Page.frame:IsShown()) then Page.backTo = nil end   -- (UI.OpenChronicle sets it after)
   Page.stack = (via == "page" and Page.frame:IsShown()) and Page.stack or {}
   if Page.stack[#Page.stack] ~= key then Page.stack[#Page.stack + 1] = key end
-  Page.key, Page.revealed, Page.opened = key, {}, {}
+  Page.key, Page.revealed = key, {}
   Page.frame:Show()
   Page.Refresh()
   ns.Log.Use("page")
   if ns.Collection.Read(key) then ns.Book.Changed() end   -- it isn't new any more
 end
 
--- After asking on a page: the page the answer is about, scrolled to its questions (the newest is the one just asked).
-function Page.ShowAsked(key)
-  if Page.key ~= key or not Page.IsShown() then Page.Show(key, "page") else Page.Layout() end
-  local sf, y = Page.qscroll, Page.questionsY
-  if y and sf.SetVerticalScroll then
-    local range = tonumber(sf.GetVerticalScrollRange and sf:GetVerticalScrollRange()) or y
-    sf:SetVerticalScroll(math.min(y, range))
+-- Previous / Next walk the found pages Found lists (as filtered), for a page opened from that list: not a storyline's
+-- quests (a storyline never says where a quest stands in it), nor a page reached from another page or bookmark.
+function Page.UpdatePager()
+  local B, list, at = ns.Book, nil, nil
+  local ck = B and B.chapter
+  if ns.UI.tab == "found" and B and not (B.extra[ck] or ck == B.NONE) and #(Page.stack or {}) <= 1 and not Page.backTo then
+    list = B.ListedKeys()
+    for i, k in ipairs(list) do if k == Page.key then at = i; break end end
   end
+  Page.pager = at and #list > 1 and { list = list, at = at } or nil
+  local on = Page.pager ~= nil
+  Page.prevButton:SetShown(on)
+  Page.nextButton:SetShown(on)
+  Page.atLine:SetShown(on)
+  if on then
+    Page.atLine:SetText(string.format(L["%d of %d"], at, #list))
+    Page.prevButton:SetEnabled(at > 1)
+    Page.nextButton:SetEnabled(at < #list)
+  end
+end
+
+function Page.Step(d)
+  local pg = Page.pager
+  local k = pg and pg.list[pg.at + d]
+  if k then Page.Show(k, "found") end
+end
+
+-- Back says where it goes: one page back ("Back"), or, with none behind, the bookmark the page was opened from
+-- ("‹ Back to the conversation", "‹ Back to the Road"), gold so a jump between bookmarks reads as one.
+local BACK_TO = { here = "Back to the conversation", road = "Back to the Road", story = "Back to Storylines" }
+function Page.UpdateBack()
+  local b = Page.backButton
+  if not b then return end
+  local first = #(Page.stack or {}) <= 1
+  local to = first and Page.backTo and BACK_TO[Page.backTo] and L[BACK_TO[Page.backTo]]
+  if first and Page.backTo == "storyline" and ns.Book then   -- (a quest opened from its storyline's list)
+    to = string.format(L["Back to %s"], esc(ns.Book.ChapterName(ns.Book.chapter)))
+  end
+  b:SetText(to and ("\226\128\185 " .. to) or L["Back"])
+  if b.skinBg then T.Fill(b.skinBg, to and "buttonHi" or "button") end
+  fitWidth(b, 70)
+end
+
+-- The bookmark Back returns to once no page is behind it (UI.OpenChronicle, after the page opened).
+function Page.SetBackTo(to)
+  Page.backTo = to
+  Page.UpdateBack()
+  Page.UpdatePager()
+  if Page.IsShown() then Page.Layout() end
 end
 
 function Page.Back()
@@ -721,14 +738,14 @@ function Page.Back()
   table.remove(stack)
   local prev = stack[#stack]
   if prev then
-    Page.key, Page.revealed, Page.opened = prev, {}, {}
+    Page.key, Page.revealed = prev, {}
     return Page.Refresh()
   end
-  -- Nothing behind it: back to the list, or to the bookmark it was opened from (the Road).
+  -- Nothing behind it: back to the list (a storyline's too), or to the bookmark it was opened from (the Road).
   local to = Page.backTo
   Page.backTo = nil
   Page.Hide()
-  if to and ns.UI.ShowTab then ns.UI.ShowTab(to) end
+  if to and to ~= "storyline" and ns.UI.ShowTab then ns.UI.ShowTab(to) end
 end
 
 -- Which page is open and the pages behind it (for Back), to open it again later (UI.ShowTab); nil if none is.
@@ -742,7 +759,8 @@ end
 function Page.Restore(snap)
   if not (snap and snap.key and entries()[snap.key]) then return end
   Page.Show(snap.key, "found")
-  Page.stack, Page.backTo = snap.stack, snap.backTo
+  Page.stack = snap.stack
+  Page.SetBackTo(snap.backTo)
 end
 
 function Page.Hide()

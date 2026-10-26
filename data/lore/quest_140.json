@@ -22,16 +22,16 @@
    "Captain Sanders' Hidden Treasure (Classic 4)"
   ]
  },
- "summary": "This marks the conclusion of Captain Sanders' scavenger hunt across Westfall. Following a whiskey-soaked note discovered inside an old jug, fortune seekers are directed off the western coast to claim a long-hidden stash. The venture leads out into the open sea, away from the troubles of the mainland to a remote coastal islet.",
+ "summary": "A whiskey-soaked clue sends Captain Sanders' Hidden Treasure hunt west from Westfall's shore. The trail leads out across the Great Sea, away from the mainland's troubles, to a remote islet.",
  "sections": [
   {
    "title": "A Sailor's Trail",
-   "body": "Captain Sanders left a trail of clues scattered across the Westfall coastline, daring any adventurous soul to piece them together. The final parchment, pulled from the dregs of his favorite whiskey jug, provides the final bearing. With smudged ink and a distinct smell of liquor, the captain's instructions are straightforward: head directly west to the water's edge and plunge into the waves.",
+   "body": "Captain Sanders scattered clues along Westfall's coast for any adventurer bold enough to follow them. The last parchment came from the dregs of his favorite whiskey jug and gives the final bearing. The captain's words are clear: head west to the water's edge, then swim out into the waves.",
    "spoiler": 0
   },
   {
    "title": "The Lonely Islet",
-   "body": "Off the coast of Westfall, small rocky outcroppings jut out from the churning Great Sea. Swimming due west leads straight to one such isolated isle where Captain Sanders cached his prize. Half-hidden and braving years of salty surf, the locked chest's rusty hinges stubbornly give way to those persistent enough to see the buccaneer's game through to its end.",
+   "body": "Small rocky outcroppings rise from the Great Sea off Westfall. Swimming due west brings you to the isolated isle where Captain Sanders hid his prize. A locked chest waits there, its hinges rusted by years of salty surf. Those persistent enough can force it open and finish the buccaneer's trail.",
    "spoiler": 1
   }
  ],
@@ -43,7 +43,7 @@
     "sanders treasure location",
     "final clue destination"
    ],
-   "answer": "The whiskey-soaked note inside the Old Jug directs treasure hunters to head directly west to the Westfall shore and keep swimming out into the ocean. The chest sits waiting on a small island out in the water."
+   "answer": "The note inside the Old Jug sends you west to Westfall's shore, then out into the ocean. The chest waits on a small island."
   },
   {
    "q": "Who was Captain Sanders?",
@@ -52,7 +52,7 @@
     "sanders lore",
     "captain sanders background"
    ],
-   "answer": "Captain Sanders was a buccaneer who sailed the waters along Westfall. Rather than keeping his spoils in a bank or stronghold, he created a riddle-filled trail of clues along the shoreline, leaving his chest out on a remote island off the coast."
+   "answer": "Captain Sanders was a buccaneer who sailed along Westfall. He left a riddle-filled trail of clues along the shoreline, leading to a chest on a remote island rather than storing his spoils in a bank or stronghold."
   },
   {
    "q": "Why is the final clue smelling like whiskey?",
@@ -60,7 +60,7 @@
     "whiskey note",
     "old jug clue"
    ],
-   "answer": "The final instructions were tucked inside Captain Sanders' discarded whiskey jug near the coast. The dampness and spirits caused the ink to run over time, though the directions remain legible enough to follow."
+   "answer": "The final instructions were tucked inside Captain Sanders' discarded whiskey jug near the coast. Dampness and spirits made the ink run over time, but the directions remain legible."
   },
   {
    "q": "How many steps are in this treasure hunt?",
@@ -69,7 +69,7 @@
     "sanders quest parts",
     "captain sanders questline"
    ],
-   "answer": "The hunt consists of four stages in total. It begins with a sea-battered treasure map found along the coast and winds through several hidden containers\u2014including a footlocker, a barrel, and a whiskey jug\u2014before concluding at the chest on the island."
+   "answer": "The hunt has four stages. It begins with a sea-battered map on the coast, then leads through a footlocker, a barrel, and a whiskey jug before ending at the island chest."
   },
   {
    "q": "Is the island dangerous to reach?",
@@ -78,7 +78,7 @@
     "island danger",
     "murlocs near chest"
    ],
-   "answer": "The primary challenge is the long swim offshore into the Great Sea. While coastal waters in Westfall are frequently troubled by aggressive murlocs and sea beasts, the islet itself serves mainly as Sanders' private cache."
+   "answer": "The main challenge is the long swim into the Great Sea. Westfall's coastal waters often hold aggressive murlocs and sea beasts, while the islet is where Sanders kept his cache."
   },
   {
    "q": "What state is the treasure chest in?",
@@ -87,17 +87,17 @@
     "is the chest locked",
     "rusty chest"
    ],
-   "answer": "Exposed to the damp sea air and crashing surf, the chest has suffered from the elements. Its hinges are heavily rusted, though with a bit of leverage, it can be forced open to claim the goods left inside."
+   "answer": "Sea air and crashing surf have battered the chest. Its hinges are heavily rusted, but leverage can force it open to reach the goods inside."
   }
  ],
  "angles": [
   {
    "target": "class:Rogue",
-   "text": "Following a scoundrel's trail across deserted beaches and out to sea feels like second nature to any rogue who appreciates pirate contraband."
+   "text": "Following a scoundrel's trail across deserted beaches and out to sea comes naturally to a rogue who values pirate contraband."
   },
   {
    "target": "race:Human",
-   "text": "For humans defending Westfall from Defias brigands and gnolls, tracking down a forgotten local pirate's stash offers a welcome respite from farm patrol."
+   "text": "As a human defending Westfall from Defias brigands and gnolls, you may welcome a break from farm patrol while tracking down a forgotten local pirate's stash."
   }
  ],
  "keywords": [
@@ -116,5 +116,6 @@
  ],
  "attribution": [
   "Captain Sanders' Hidden Treasure (Classic 4)"
- ]
+ ],
+ "style": 1
 }

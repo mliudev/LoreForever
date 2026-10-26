@@ -21,7 +21,6 @@
   <Script file="Log.lua"/>
   <Script file="Journey.lua"/>
   <Script file="Collection.lua"/>
-  <Script file="Margin.lua"/>
   <Script file="Stock.lua"/>
   <Script file="Screen.lua"/>
   <Script file="Battle.lua"/>

@@ -17,16 +17,16 @@
   "wiki": "A Friend of the Family (2)",
   "chain": []
  },
- "summary": "Highlord Bolvar Fordragon entrusts an adventurer with delivering a rare Menethil Statuette to the Cathedral of Light. The relic, depicting the late King Terenas Menethil II of Lordaeron, has begun coalescing with holy power. It is handed over to Lord Grayson Shadowbreaker for permanent safekeeping in Stormwind's spiritual heart.",
+ "summary": "In Stormwind, A Friend of the Family carries a rare likeness of King Terenas to the Cathedral of Light. Highlord Bolvar Fordragon entrusts the Menethil Statuette to an adventurer for Lord Grayson Shadowbreaker, who will keep it safe.",
  "sections": [
   {
    "title": "A Rare Remembrance",
-   "body": "King Terenas Menethil II was the architect of the Grand Alliance during the Second War and a man of great personal devotion. Despite his towering stature among the kingdoms of humanity, Terenas was deeply humble and notoriously disliked monuments sculpted in his own honor. Because of his personal reluctance, very few likenesses of him were ever commissioned, and fewer still managed to survive the horrific destruction and scourge that overran Lordaeron.",
+   "body": "King Terenas Menethil II helped shape the Grand Alliance during the Second War and lived with deep personal devotion. Though he held great standing among humanity's kingdoms, he was humble and disliked monuments made in his honor. Few likenesses were commissioned, and fewer survived Lordaeron's ruin and the Scourge's devastation.",
    "spoiler": 0
   },
   {
    "title": "Touched by Grace",
-   "body": "When Highlord Bolvar Fordragon examines the surviving Menethil Statuette, he recognizes something far beyond simple craftsmanship. The Holy Light itself has begun coalescing within the carved figure, imbuing it with quiet spiritual resonance. Deciding that the royal palace of Stormwind Keep is not the appropriate sanctuary for such a sacred piece, Bolvar directs that it be taken across the city to the Cathedral of Light, placing it into the trusted hands of Paladin trainer Lord Grayson Shadowbreaker.",
+   "body": "Highlord Bolvar Fordragon sees more than fine carving in the surviving Menethil Statuette. The Holy Light has begun to gather within it, giving the figure a quiet spiritual presence. Bolvar decides Stormwind Keep is no place for such a sacred piece. He sends it across the city to the Cathedral of Light, into the care of Lord Grayson Shadowbreaker, who trains paladins.",
    "spoiler": 0
   }
  ],
@@ -38,7 +38,7 @@
     "who is terenas",
     "king of lordaeron"
    ],
-   "answer": "King Terenas Menethil II was the beloved ruler of the Kingdom of Lordaeron. During the Second War, he rallied the disparate human nations alongside the dwarves, gnomes, and high elves to forge the Grand Alliance, ultimately defeating the Orcish Horde. He was slain during the fall of his realm."
+   "answer": "King Terenas Menethil II ruled the Kingdom of Lordaeron and was beloved by its people. During the Second War, he brought the human kingdoms together with the dwarves, gnomes, and high elves to form the Grand Alliance, which defeated the Orcish Horde. He was slain when his realm fell."
   },
   {
    "q": "Why are statues of King Terenas so rare?",
@@ -47,7 +47,7 @@
     "terenas statuette rarity",
     "why so few memorials"
    ],
-   "answer": "Despite his immense prestige and the love of his people, King Terenas was known for his personal humility and disliked extravagant self-monuments. Very few statues or memorials were ever carved in his likeness, and almost none survived the Scourge's destruction of Lordaeron."
+   "answer": "King Terenas was humble and disliked grand monuments made in his honor. Few likenesses were carved, and almost none survived the Scourge's destruction of Lordaeron."
   },
   {
    "q": "Why is the Menethil Statuette glowing with the Light?",
@@ -56,7 +56,7 @@
     "holy statuette",
     "coalescing light"
    ],
-   "answer": "Bolvar notices that the Light seems to have coalesced in the statuette. He speaks of Terenas as a good and devout man, but does not explain why this particular likeness has gathered holy power."
+   "answer": "Bolvar notices that the Light has gathered in the statuette. He calls Terenas a good and devout man, but gives no reason why this likeness holds holy power."
   },
   {
    "q": "Who is Lord Grayson Shadowbreaker?",
@@ -64,7 +64,7 @@
     "who is shadowbreaker",
     "lord grayson role"
    ],
-   "answer": "Lord Grayson Shadowbreaker is a veteran human paladin of the Knights of the Silver Hand and a prominent master within the Cathedral of Light. Stationed in Cathedral Square, he trains aspiring paladins and oversees holy matters for Stormwind's faithful."
+   "answer": "Lord Grayson Shadowbreaker is a veteran human paladin of the Knights of the Silver Hand and a master at the Cathedral of Light. He is stationed in Cathedral Square, where he trains aspiring paladins and oversees holy matters for Stormwind's faithful."
   },
   {
    "q": "Why does Highlord Bolvar send the statuette to the Cathedral?",
@@ -72,7 +72,7 @@
     "why send to cathedral",
     "why not keep in stormwind keep"
    ],
-   "answer": "While Bolvar honors Terenas's role as the father of the Alliance, the statuette has visibly gathered holy power. Bolvar believes such a vessel of the Light belongs not among court bureaucrats in Stormwind Keep, but in the Cathedral of Light under the care of the holy orders."
+   "answer": "Bolvar honors Terenas as the father of the Alliance and believes the statuette belongs in the Cathedral of Light. It has gathered holy power, and he entrusts it to the holy orders rather than keeping it among the court officials in Stormwind Keep."
   },
   {
    "q": "Where is the Cathedral of Light located?",
@@ -80,21 +80,21 @@
     "where is cathedral of light",
     "cathedral square location"
    ],
-   "answer": "The Cathedral of Light dominates Cathedral Square, located right in the heart of Stormwind City between the Dwarven District, Trade District, and Mage Quarter. It serves as the primary sanctuary and center of worship for the Church of the Holy Light in the southern kingdoms."
+   "answer": "The Cathedral of Light dominates Cathedral Square in the heart of Stormwind City, between the Dwarven District, Trade District, and Mage Quarter. It is the main sanctuary and center of worship for the Church of the Holy Light in the southern kingdoms."
   }
  ],
  "angles": [
   {
    "target": "class:Paladin",
-   "text": "For a paladin, safeguarding a relic of King Terenas carrying the tangible touch of the Light represents profound respect for the ruler who originally sanctioned the founding of the Knights of the Silver Hand."
+   "text": "As a paladin, you safeguard a relic of King Terenas that bears the Light's touch. It honors the ruler who first sanctioned the founding of the Knights of the Silver Hand."
   },
   {
    "target": "class:Priest",
-   "text": "The coalescing of holy energy within a simple carved likeness affirms the enduring spiritual legacy of Lordaeron's faithful even after the kingdom's physical destruction."
+   "text": "As a priest, you can see how holy power gathered in a simple carved likeness. It speaks to Lordaeron's faithful legacy, even after the kingdom's lands were destroyed."
   },
   {
    "target": "faction:Alliance",
-   "text": "King Terenas Menethil II was the foundational pillar of the Alliance of Lordaeron, making any artifact connected to him a treasured symbol of unity and remembrance."
+   "text": "As an Alliance member, you remember King Terenas Menethil II as a founding pillar of the Alliance of Lordaeron. Any artifact tied to him is a treasured sign of unity and remembrance."
   }
  ],
  "keywords": [
@@ -118,5 +118,6 @@
  ],
  "attribution": [
   "A Friend of the Family (2)"
- ]
+ ],
+ "style": 1
 }

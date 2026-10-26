@@ -10,11 +10,11 @@
    "quest:18"
   ]
  },
- "summary": "Red Burlap Bandanas are the crude, dyed cloth masks worn by low-ranking highwaymen and cutpurses of the Defias Brotherhood. In Northshire Valley, Deputy Willem collects these pieces of cloth as proof of slain thieves encroaching near the abbey vineyards.",
+ "summary": "In Northshire Valley, Deputy Willem gathers red bandanas from slain Defias thieves near the abbey vineyards. The cloth marks low-ranking highwaymen and cutpurses of the Brotherhood.",
  "sections": [
   {
    "title": "A Mark of the Brotherhood",
-   "body": "Worn across the lower face, the red burlap bandana serves as the identifying badge of the Defias Brotherhood's rank-and-file. Made from cheap, rough fabric and soaked in red dye, the cloth conceals a thief's features while signaling allegiance to the growing rebellion. In Northshire, young recruits and common thugs carry these scarves into the eastern orchards, unaware that the local guards use the striking red fabric as a grim bounty marker.",
+   "body": "Red burlap masks mark the Defias Brotherhood's rank-and-file. Cheap, rough cloth dyed red hides a thief's features and signals allegiance to the growing rebellion. In Northshire, young recruits and common thugs carry these scarves into the eastern orchards. The local guards recognize the striking red fabric as proof of thieves slain nearby.",
    "spoiler": 0
   }
  ],
@@ -26,7 +26,7 @@
     "willem bandanas",
     "brotherhood of thieves turn in"
    ],
-   "answer": "Deputy Willem collects the bandanas as tangible proof that an adventurer has eliminated the Defias thugs encroaching across the river near Northshire Abbey. Because the thieves openly wear the red cloth, bringing them in serves as confirmation of bounties paid on the local highwaymen."
+   "answer": "Deputy Willem collects the bandanas as proof that an adventurer has killed Defias thugs near Northshire Abbey. The thieves wear the red cloth openly, confirming the bounty has been claimed."
   },
   {
    "q": "Who wears the red burlap bandanas?",
@@ -35,7 +35,7 @@
     "defias mask lore",
     "who drops red bandanas"
    ],
-   "answer": "They are worn by footpads and thugs affiliated with the Defias Brotherhood, a ring of organized outlaws active throughout Elwynn Forest and Westfall. The coarse red fabric acts as both a disguise and an emblem of loyalty to their underground guild."
+   "answer": "Footpads and thugs of the Defias Brotherhood wear the red burlap bandanas. The coarse cloth conceals their faces and marks their loyalty to the outlaws."
   },
   {
    "q": "Why are Defias thieves operating in Northshire?",
@@ -43,7 +43,7 @@
     "why are defias in northshire",
     "thieves near abbey"
    ],
-   "answer": "Defias scouts and brigands have set up camps across the stream east of Northshire Abbey to scavenge and steal supplies. The garrison at the abbey is stretched thin, allowing low-level highwaymen to roam the nearby orchards."
+   "answer": "Defias scouts and brigands camp across the stream east of Northshire Abbey to scavenge and steal supplies. The abbey garrison is stretched thin, leaving the nearby orchards open to highwaymen."
   },
   {
    "q": "What makes the bandanas red?",
@@ -51,17 +51,17 @@
     "why are defias masks red",
     "red cloth meaning"
    ],
-   "answer": "The bandanas are simply pieces of cheap burlap treated with crimson dye. The distinctive color acts as the official banner and uniform of the Defias Brotherhood, ensuring fellow members recognize one another in the field."
+   "answer": "Cheap burlap treated with crimson dye gives the bandanas their red color. The hue is the Defias Brotherhood's banner and uniform, so members can recognize one another in the field."
   }
  ],
  "angles": [
   {
    "target": "class:Rogue",
-   "text": "For a developing rogue, stripping red masks from Northshire's clumsy footpads is a lesson in how quickly undisciplined outlaws make themselves easy targets for local law enforcement."
+   "text": "As a developing rogue, you can learn from Northshire's clumsy footpads how quickly undisciplined outlaws become easy targets for local law enforcement."
   },
   {
    "target": "faction:Alliance",
-   "text": "The spread of these red bandanas to the very doorstep of Northshire Abbey shows how severely the kingdom's rural borders are slipping out of Stormwind's control."
+   "text": "As an Alliance member, you can see the red bandanas reaching Northshire Abbey's doorstep as a sign that Stormwind is losing control of the kingdom's rural borders."
   }
  ],
  "keywords": [
@@ -84,5 +84,6 @@
  "attribution": [
   "Red Burlap Bandana",
   "Brotherhood of Thieves"
- ]
+ ],
+ "style": 1
 }

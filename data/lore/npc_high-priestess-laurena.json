@@ -8,16 +8,16 @@
   "wiki": "High Priestess Laurena",
   "refs": 10
  },
- "summary": "High Priestess Laurena is a respected human priest trainer stationed behind the grand altar within Stormwind City's Cathedral of Light. She instructs budding Alliance priests in spiritual devotion and arcane wards.",
+ "summary": "At Stormwind's Cathedral of Light, High Priestess Laurena trains human priests in devotion and arcane wards.",
  "sections": [
   {
    "title": "A High Priestess of the Cathedral",
-   "body": "As a High Priestess of the Church of the Holy Light, Laurena holds one of the senior posts within the towering halls of the Cathedral of Light, the heart of the faith in Stormwind City, where Archbishop Benedictus leads the Church.",
+   "body": "High Priestess Laurena holds a senior post in the Church of the Holy Light. She serves in Stormwind City's Cathedral of Light, the heart of the faith, where Archbishop Benedictus leads the Church.",
    "spoiler": 0
   },
   {
    "title": "Tending the Faithful",
-   "body": "Positioned directly behind the central altar within the cathedral sanctuary, High Priestess Laurena dedicates herself to mentoring aspiring priests. When promising acolytes demonstrate sufficient dedication and piety, they are directed to her to deepen their studies. Laurena guides them in the invocation of sacred boons such as Desperate Prayer and instructs them in defensive arts, including spells designed to turn enemy arcane magic back against those who wield it. Once an initiate has learned all she can offer, she sends them onward to other master priests across the Alliance.",
+   "body": "Behind the central altar in the cathedral sanctuary, High Priestess Laurena mentors aspiring priests. Acolytes who show dedication and piety are sent to her for deeper study. She teaches sacred boons such as Desperate Prayer and defensive spells that turn enemy arcane magic against its wielders. When her students have learned all she can teach, she sends them to other master priests across the Alliance.",
    "spoiler": 0
   }
  ],
@@ -29,7 +29,7 @@
     "where is priestess laurena",
     "find laurena"
    ],
-   "answer": "She stands behind the main altar inside the Cathedral of Light, which is located in Cathedral Square within Stormwind City."
+   "answer": "High Priestess Laurena stands behind the main altar inside the Cathedral of Light in Cathedral Square, Stormwind City."
   },
   {
    "q": "What does High Priestess Laurena teach?",
@@ -38,7 +38,7 @@
     "priest trainer laurena",
     "what does laurena teach"
    ],
-   "answer": "Laurena is a priest trainer. She provides foundational instruction to human priests and teaches specialized racial prayers such as Desperate Prayer, as well as wards like Arcane Feedback to protect against hostile spellcasters."
+   "answer": "High Priestess Laurena trains human priests in foundational prayers, including Desperate Prayer, and wards such as Arcane Feedback against hostile spellcasters."
   },
   {
    "q": "Where did Laurena come from before Stormwind?",
@@ -47,7 +47,7 @@
     "is laurena from stormwind",
     "laurena lordaeron"
    ],
-   "answer": "Nothing is recorded of her life before she took up her post at the Cathedral of Light in Stormwind City."
+   "answer": "Nothing is recorded of High Priestess Laurena's life before she took up her post at Stormwind City's Cathedral of Light."
   },
   {
    "q": "Does she serve under Archbishop Benedictus?",
@@ -56,7 +56,7 @@
     "who is laurena's boss",
     "benedictus laurena"
    ],
-   "answer": "Yes. Archbishop Benedictus is the spiritual leader of the Church of the Holy Light and presides over the Cathedral of Light, where Laurena serves as a High Priestess."
+   "answer": "Yes. Archbishop Benedictus leads the Church of the Holy Light and presides over the Cathedral of Light, where High Priestess Laurena holds a senior post."
   },
   {
    "q": "Why does she direct me to other priest trainers?",
@@ -65,7 +65,7 @@
     "a lack of fear quest",
     "elunes grace quest"
    ],
-   "answer": "Different cultures and races within the Alliance commune with the divine in unique ways. Once Laurena has taught her students the foundational prayers of the Holy Light, she sends them to master priests of other disciplines\u2014such as dwarven masters in Ironforge or night elf priestesses in Darnassus\u2014to expand their spiritual horizons."
+   "answer": "Once High Priestess Laurena has taught the foundational prayers of the Holy Light, she sends students to master priests of other disciplines, such as dwarven masters in Ironforge or night elf priestesses in Darnassus, to broaden their spiritual learning."
   },
   {
    "q": "Did Laurena lose her family to the undead?",
@@ -73,21 +73,21 @@
     "laurena family dead",
     "what happened to laurena family"
    ],
-   "answer": "Nothing is recorded of her family."
+   "answer": "Nothing is recorded of High Priestess Laurena's family."
   }
  ],
  "angles": [
   {
    "target": "class:Priest",
-   "text": "High Priestess Laurena acts as one of Stormwind's primary priest mentors, guiding human acolytes through sacred trials, blessing them with Desperate Prayer, and teaching methods to disrupt enemy spellcasters."
+   "text": "As a priest, you can learn from High Priestess Laurena in Stormwind. She guides human acolytes, teaches Desperate Prayer, and shows them how to disrupt enemy spellcasters."
   },
   {
    "target": "race:Human",
-   "text": "For the humans of Stormwind, Laurena is a spiritual pillar of the Cathedral of Light, guiding the faithful through troubled times."
+   "text": "As a human of Stormwind, you can look to High Priestess Laurena as a spiritual guide at the Cathedral of Light through troubled times."
   },
   {
    "target": "faction:Alliance",
-   "text": "From within the Cathedral of Light, Laurena helps strengthen the spiritual backbone of the Alliance, ensuring its champions can withstand dark magic and undead horrors."
+   "text": "As an Alliance champion, you can find High Priestess Laurena strengthening the faith of the Alliance from the Cathedral of Light, teaching defenses against dark magic and undead horrors."
   }
  ],
  "keywords": [
@@ -113,5 +113,6 @@
  ],
  "attribution": [
   "High Priestess Laurena"
- ]
+ ],
+ "style": 1
 }

@@ -10,16 +10,16 @@
    "quest:114"
   ]
  },
- "summary": "Invisibility Liquor is a potent, alchemically infused brew crafted using rare Crystal Kelp Fronds found in Elwynn Forest. Designed to render its drinker unseen for a brief window, it serves as the linchpin in a clandestine plot allowing two star-crossed young lovers to bypass their feuding families.",
+ "summary": "Invisibility Liquor gives Maybell Maclure a way to slip from her family's sight and meet Tommy Joe Stonefield. Their households are locked in a feud.",
  "sections": [
   {
    "title": "A Potion for Star-Crossed Lovers",
-   "body": "The ongoing feud between the Stonefields and the Maclures makes peaceful contact between their households nearly impossible. When young Tommy Joe Stonefield seeks to meet with Maybell Maclure away from the watchful eyes of their kin, conventional secrecy falls short. Invisibility Liquor provides an uncanny solution: an alcoholic draught that bends sight around the imbiber, granting just enough stealth to slip across disputed farmland undetected.",
+   "body": "Tommy Joe Stonefield seeks a quiet meeting with Maybell Maclure, though their families' feud keeps the households apart. Their kin watch closely, and ordinary secrecy is not enough. Invisibility Liquor lets the drinker pass unseen across the disputed farmland.",
    "spoiler": 0
   },
   {
    "title": "Unorthodox Elwynn Alchemy",
-   "body": "Brewed using Crystal Kelp Fronds harvested from local murloc-infested waters, the concoction blends simple moonshine craft with raw magical reagents. Though illicit and perhaps dangerous to ingest, the draught proves potent enough to vanish Maybell from plain sight the moment it touches her lips, allowing her to slip away into the woods for a covert rendezvous.",
+   "body": "Crystal Kelp Fronds from waters where murlocs dwell go into the brew. When Maybell Maclure drinks it, she vanishes from sight and slips into the woods for a secret meeting.",
    "spoiler": 1
   }
  ],
@@ -31,7 +31,7 @@
     "invisibility brew",
     "what does it do"
    ],
-   "answer": "It is a potent alcoholic drink imbued with magical properties that temporarily renders whoever drinks it completely invisible."
+   "answer": "Invisibility Liquor is an alcoholic drink with magic that makes the drinker invisible for a short time."
   },
   {
    "q": "Who uses the Invisibility Liquor?",
@@ -39,7 +39,7 @@
     "who drinks it",
     "maybell maclure liquor"
    ],
-   "answer": "The liquor is brought to Maybell Maclure so that she can vanish from her family's sight and sneak away to meet her lover, Tommy Joe Stonefield, despite their feuding households."
+   "answer": "Maybell Maclure receives Invisibility Liquor so she can leave her family's sight and meet Tommy Joe Stonefield, despite their households' feud."
   },
   {
    "q": "How is the liquor made?",
@@ -47,7 +47,7 @@
     "liquor ingredients",
     "crystal kelp liquor"
    ],
-   "answer": "It is brewed using Crystal Kelp Fronds gathered from the riverbeds and lake shores of Elwynn Forest, where murlocs often hoard the magical plants."
+   "answer": "The liquor is brewed with Crystal Kelp Fronds gathered from riverbeds and lake shores in Elwynn Forest, where murlocs hoard the plants."
   },
   {
    "q": "Can players drink the Invisibility Liquor themselves?",
@@ -55,17 +55,17 @@
     "can i drink it",
     "drink invisibility liquor"
    ],
-   "answer": "No. The draught is a specialized quest item intended strictly for delivery to Maybell Maclure as part of her plan to sneak away from her family."
+   "answer": "No. Invisibility Liquor is meant for delivery to Maybell Maclure, so she can slip away from her family."
   }
  ],
  "angles": [
   {
    "target": "class:Mage",
-   "text": "While Kirin Tor arcanists spend years perfecting illusions and invisibility spells, Elwynn locals manage a crude imitation using fermented spirits and waterlogged kelp."
+   "text": "As a mage, you know the Kirin Tor arcanists spend years mastering illusions and invisibility spells. Elwynn locals make a rough imitation with fermented spirits and waterlogged kelp."
   },
   {
    "target": "race:Human",
-   "text": "The brew highlights the absurd extremes of Elwynn Forest's bitter rural feud between the Stonefield and Maclure clans."
+   "text": "As a human, you know the Stonefield and Maclure clans' rural feud reaches bitter extremes."
   }
  ],
  "keywords": [
@@ -88,5 +88,6 @@
  "attribution": [
   "Invisibility Liquor",
   "The Escape (Alliance)"
- ]
+ ],
+ "style": 1
 }

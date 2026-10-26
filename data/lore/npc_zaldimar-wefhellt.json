@@ -8,11 +8,11 @@
   "wiki": "Zaldimar Wefhellt",
   "refs": 1
  },
- "summary": "Zaldimar Wefhellt is a human mage trainer stationed on the upper floor of the Lion's Pride Inn in Goldshire. He serves as an instructor for fledgling spellcasters passing through Elwynn Forest before sending them along to higher practitioners in Stormwind City.",
+ "summary": "On Goldshire's upper floor, Zaldimar Wefhellt teaches young mages their first spells. When they outgrow his lessons, he sends them to Stormwind City for further training.",
  "sections": [
   {
    "title": "The Mage in Goldshire",
-   "body": "While Goldshire's Lion's Pride Inn is best known for weary travelers, rowdy adventurers, and local gossip, its upper rooms house instructors of various trades. Tucked into one of the second-floor chambers, Zaldimar Wefhellt instructs novice mages in the foundational arts of the arcane, fire, and frost. Once an apprentice outgrows his early tutelage, he directs them north to the Mage Quarter in Stormwind to study under Jennea Cannon.",
+   "body": "Upstairs at the Lion's Pride Inn, Zaldimar Wefhellt teaches novice mages the first arts of arcane, fire, and frost. When an apprentice outgrows those lessons, he sends them north to the Mage Quarter in Stormwind, where Jennea Cannon can teach them more.",
    "spoiler": 0
   }
  ],
@@ -24,7 +24,7 @@
     "zaldimar wefhellt role",
     "goldshire mage trainer"
    ],
-   "answer": "Zaldimar Wefhellt is an arcane instructor stationed in the Lion's Pride Inn in Goldshire. He helps novice Alliance mages learn their initial spells and guides them toward advanced training in Stormwind City."
+   "answer": "Zaldimar Wefhellt teaches novice mages their first spells at the Lion's Pride Inn in Goldshire. He guides them toward further training in Stormwind City."
   },
   {
    "q": "Where can I find Zaldimar Wefhellt?",
@@ -33,7 +33,7 @@
     "where is zaldimar",
     "how to find zaldimar"
    ],
-   "answer": "He is located on the second floor of the Lion's Pride Inn in Goldshire, inside the leftmost room at the top of the stairs."
+   "answer": "Zaldimar Wefhellt is on the second floor of the Lion's Pride Inn in Goldshire, inside the leftmost room at the top of the stairs."
   },
   {
    "q": "Where does Zaldimar send novice mages?",
@@ -42,7 +42,7 @@
     "who does zaldimar send you to",
     "speak with jennea quest"
    ],
-   "answer": "Once a mage has gained basic proficiency, Zaldimar directs them to Stormwind's Mage Quarter to speak with Jennea Cannon in the Wizard's Sanctum for continued training."
+   "answer": "After a mage learns the basics, Zaldimar sends them to Stormwind's Mage Quarter to speak with Jennea Cannon in the Wizard's Sanctum."
   },
   {
    "q": "Is Zaldimar related to any other mages?",
@@ -51,17 +51,17 @@
     "zalna wefhellt",
     "zaldimar relatives"
    ],
-   "answer": "No relatives of his are known; he keeps to his teaching at the Lion's Pride Inn."
+   "answer": "No relatives of Zaldimar are known. He teaches at the Lion's Pride Inn."
   }
  ],
  "angles": [
   {
    "target": "class:Mage",
-   "text": "For young human mages leaving Northshire Abbey, Zaldimar is the first trainer you encounter in the wider world, teaching early spells before directing you to the Wizard's Sanctum in Stormwind."
+   "text": "As a young human mage leaving Northshire Abbey, you meet Zaldimar first in the wider world. He teaches you early spells, then directs you to the Wizard's Sanctum in Stormwind."
   },
   {
    "target": "faction:Alliance",
-   "text": "Stationed inside the bustling Lion's Pride Inn, Zaldimar ensures Alliance spellcasters patrolling Elwynn Forest have access to magical instruction without needing to immediately trek into Stormwind."
+   "text": "At the Lion's Pride Inn, Zaldimar teaches Alliance spellcasters in Elwynn Forest, so you can learn magic before traveling to Stormwind."
   }
  ],
  "keywords": [
@@ -81,5 +81,6 @@
  ],
  "attribution": [
   "Zaldimar Wefhellt"
- ]
+ ],
+ "style": 1
 }

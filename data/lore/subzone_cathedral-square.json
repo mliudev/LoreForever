@@ -7,16 +7,16 @@
  "meta": {
   "wiki": "Cathedral Square"
  },
- "summary": "Cathedral Square is the spiritual and civic heart of Stormwind City, dominated by the majestic Cathedral of Light. Beyond serving as a place of worship and devotion, the bustling plaza houses municipal institutions like City Hall, the city orphanage, and the regional headquarters of the Argent Dawn.",
+ "summary": "In Cathedral Square, faith and civic life meet beneath the Cathedral of Light. City Hall, the orphanage, and the Argent Dawn's Stormwind headquarters all stand here.",
  "sections": [
   {
    "title": "The Holy District",
-   "body": "Situated northwest of the Trade District and southeast of the Dwarven District, Cathedral Square serves as the epicenter of faith in the Kingdom of Stormwind. Dominating the skyline is the Cathedral of Light, the preeminent sanctuary for followers of the Holy Light across Azeroth. Priests, paladins, and healers gather here to study, pray, and train. Citizens, pilgrims, and local schoolchildren led by School Mistress Danna regularly mingle in the square for conversation and contemplation.",
+   "body": "Northwest of the Trade District and southeast of the Dwarven District, Cathedral Square draws the faithful from across the Kingdom of Stormwind. The Cathedral of Light rises above it, the foremost sanctuary of the Holy Light across Azeroth. Priests, paladins, and healers come to study, pray, and train. Citizens and pilgrims mingle with local schoolchildren, led by School Mistress Danna, in the square.",
    "spoiler": 0
   },
   {
    "title": "Civic Heart and Holy Order",
-   "body": "The district is not merely reserved for prayer; it is one of the capital's busiest civic centers. The square houses the Stormwind Orphanage as well as City Hall, anchoring the administrative life of the kingdom. Specialized armorers and weaponsmiths catering to holy crusaders, such as Righteous Plates and Just Maces, line the avenues. It also serves as the base of operations for the Argent Dawn within Stormwind, where recruiters and representatives coordinate relief efforts and rally champions against the encroaching threats of the Scourge in the northern kingdoms.",
+   "body": "Prayer shares the district with the work of the kingdom. City Hall and the Stormwind Orphanage anchor its civic life. Along the avenues, armorers and weaponsmiths serve holy crusaders, including Righteous Plates and Just Maces. The Argent Dawn keeps its Stormwind base here, where recruiters and representatives coordinate relief efforts and rally champions against the Scourge in the northern kingdoms.",
    "spoiler": 0
   }
  ],
@@ -28,7 +28,7 @@
     "holy district",
     "what is this place"
    ],
-   "answer": "Cathedral Square is a major district in Stormwind City centered on the Cathedral of Light. It serves as both the spiritual hub for practitioners of the Light and a vital civic center housing City Hall, the local orphanage, and various shops."
+   "answer": "Cathedral Square gathers worship and civic life around the Cathedral of Light in Stormwind City. City Hall, the local orphanage, and shops also fill the district."
   },
   {
    "q": "Who trains in Cathedral Square?",
@@ -37,7 +37,7 @@
     "who trains here",
     "paladin priest trainers"
    ],
-   "answer": "Priests and Paladins of the Alliance come to Cathedral Square and the Cathedral of Light to hone their skills and study sacred doctrines. Medics and caregivers also study here under First Aid trainers."
+   "answer": "Priests, paladins, and healers study and train in Cathedral Square and the Cathedral of Light. Medics and caregivers study here with First Aid trainers."
   },
   {
    "q": "Why is the Argent Dawn located here?",
@@ -45,7 +45,7 @@
     "argent dawn stormwind",
     "argent dawn presence"
    ],
-   "answer": "The Argent Dawn maintains a prominent embassy in Cathedral Square to recruit able-bodied champions and coordinate logistical support from Stormwind for their relentless crusade against the Scourge in the Plaguelands."
+   "answer": "The Argent Dawn keeps a base in Cathedral Square to recruit champions and coordinate support from Stormwind for its fight against the Scourge in the Plaguelands."
   },
   {
    "q": "Where does Cathedral Square lead?",
@@ -53,17 +53,17 @@
     "connected districts",
     "where does this go"
    ],
-   "answer": "Bridges and canal paths link Cathedral Square directly to the bustling Trade District to the southeast, the industrial Dwarven District to the northwest, and the quiet gardens of the Park to the southwest."
+   "answer": "Bridges and canal paths connect Cathedral Square to the Trade District to the southeast, the Dwarven District to the northwest, and the Park to the southwest."
   }
  ],
  "angles": [
   {
    "target": "class:Paladin",
-   "text": "For paladins, Cathedral Square is the fountainhead of faith and duty, housing mentors, sacred vows, and specialized armorers tailored to holy warriors."
+   "text": "As a paladin, you can find mentors, sacred vows, and armorers for holy warriors in Cathedral Square."
   },
   {
    "target": "class:Priest",
-   "text": "The quiet halls and towering spires of the square offer priests a tranquil sanctuary to commune with the Holy Light, advance their spiritual studies, and minister to the citizens of Stormwind."
+   "text": "As a priest, you can study the Holy Light, pray, and minister to Stormwind's citizens in the square's halls and spires."
   }
  ],
  "keywords": [
@@ -87,5 +87,6 @@
  ],
  "attribution": [
   "Cathedral Square"
- ]
+ ],
+ "style": 1
 }

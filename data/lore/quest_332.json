@@ -17,16 +17,16 @@
   "wiki": "Wine Shop Advert",
   "chain": []
  },
- "summary": "Wine Shop Advert is a brief promotional errand handed out by Renato Gallina in the Trade District of Stormwind. He entices passersby with a voucher for a complimentary bottle of vintage wine from his family's storefront along the canals. It serves as an everyday glimpse into the domestic trade and small businesses flourishing within the reconstructed capital.",
+ "summary": "In Stormwind, Renato Gallina draws passersby to his family's wine shop. He offers a voucher for a free bottle of vintage wine from their canal-side storefront, a small sign of trade in the reconstructed capital.",
  "sections": [
   {
    "title": "A Taste of the Canals",
-   "body": "While adventurers often occupy themselves with martial threats and political intrigue, daily life in Stormwind revolves around brisk commerce. Renato Gallina walks the cobbled ways of the Trade District promoting Gallina Winery, the small shop he runs alongside his sister, Suzetta. To draw in thirsty travelers and locals alike, he hands out promotional flyers entitling the bearer to a complimentary tasting.",
+   "body": "Everyday life in Stormwind revolves around brisk commerce. Renato Gallina walks the Trade District's cobbled streets, promoting Gallina Winery, the small shop he runs with his sister, Suzetta. He hands flyers to thirsty travelers and locals, each offering a free tasting.",
    "spoiler": 0
   },
   {
    "title": "The Pinot Noir Vintage",
-   "body": "The prize offered by the Gallina family is a bottle of their famous pinot noir. Following the ticket to the winery entrance near the canal waterways, patrons find Suzetta Gallina ready to hand over the bottle, confident that one sip of their signature stock will turn any newcomer into a loyal regular.",
+   "body": "The Gallina family offers a bottle of their famous pinot noir. Follow the ticket to the winery entrance near the canals, where Suzetta Gallina hands over the bottle. The family hopes a taste of their signature wine will bring newcomers back.",
    "spoiler": 0
   }
  ],
@@ -38,7 +38,7 @@
     "suzetta gallina location",
     "where is wine shop advert turned in"
    ],
-   "answer": "The Gallina Winery sits in Stormwind City's Trade District, tucked right along the edge of the scenic canals not far from Renato Gallina's promotional route."
+   "answer": "Gallina Winery is in Stormwind City's Trade District, along the canals near Renato Gallina's route."
   },
   {
    "q": "Who are Renato and Suzetta Gallina?",
@@ -47,7 +47,7 @@
     "renato gallina",
     "suzetta gallina lore"
    ],
-   "answer": "Renato and Suzetta Gallina are siblings running an independent vintner shop in Stormwind. Renato wanders the streets promoting their trade with flyers, while Suzetta tends the shop counter and pours the wine."
+   "answer": "Renato and Suzetta Gallina are siblings who run a wine shop in Stormwind. Renato promotes it with flyers, while Suzetta tends the shop and serves the wine."
   },
   {
    "q": "What wine does the ticket earn?",
@@ -56,7 +56,7 @@
     "what wine do you get",
     "pinot noir stormwind"
    ],
-   "answer": "A bottle of the Gallinas' famous pinot noir, the shop's signature red that Renato hopes will turn newcomers into loyal regulars."
+   "answer": "The ticket earns a bottle of the Gallinas' famous pinot noir, their signature red wine."
   },
   {
    "q": "Why does Renato give out free wine tickets?",
@@ -64,7 +64,7 @@
     "why free wine",
     "wine shop ticket purpose"
    ],
-   "answer": "It is classic street-level marketing. Renato uses free samples of their prized stock to draw foot traffic into their canal-side shop and build a returning customer base among Stormwind's citizens."
+   "answer": "Renato gives out free wine tickets to draw customers into the canal-side shop and encourage them to return."
   },
   {
    "q": "Does this errand involve any danger or combat?",
@@ -72,7 +72,7 @@
     "is wine shop advert dangerous",
     "wine quest fights"
    ],
-   "answer": "No. The errand simply involves taking a promotional ticket from Renato and strolling a short distance through the safe streets of the Trade District to Suzetta at the storefront."
+   "answer": "No. You take a promotional ticket from Renato and walk a short distance through the safe streets of the Trade District to Suzetta at the storefront."
   },
   {
    "q": "Does the Gallina Winery sell other goods?",
@@ -80,21 +80,21 @@
     "what else does suzetta sell",
     "gallina winery drinks"
    ],
-   "answer": "Suzetta stocks a selection of standard wines and alcoholic beverages for thirsty travelers, guards on break, and local tavern suppliers in need of a refill."
+   "answer": "Suzetta stocks standard wines and other alcoholic drinks for travelers, guards on break, and local tavern suppliers."
   }
  ],
  "angles": [
   {
    "target": "profession:Cooking",
-   "text": "Fine wines like the pinot noir distributed by the Gallinas are prized companions for hearty meals prepared across the taverns of the Eastern Kingdoms."
+   "text": "The Gallinas' pinot noir pairs with hearty meals prepared in taverns across the Eastern Kingdoms."
   },
   {
    "target": "race:Human",
-   "text": "For humans rebuilding their lives in Stormwind, the presence of family-run wineries along the canal banks is a comforting sign of urban revival."
+   "text": "As a human rebuilding a life in Stormwind, you may find family-run wineries along the canals a comforting sign of the city's revival."
   },
   {
    "target": "faction:Alliance",
-   "text": "Even during turbulent times of war and missing kings, Stormwind's bustling Trade District maintains an active market for domestic luxuries and imported tastes."
+   "text": "Even in turbulent times, with kings missing and war underway, Stormwind's Trade District keeps a lively market for domestic luxuries and imported goods."
   }
  ],
  "keywords": [
@@ -116,5 +116,6 @@
  ],
  "attribution": [
   "Wine Shop Advert"
- ]
+ ],
+ "style": 1
 }

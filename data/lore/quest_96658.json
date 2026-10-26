@@ -17,16 +17,16 @@
   "wiki": "Camping 101: Cooking",
   "chain": []
  },
- "summary": "Camping 101: Cooking teaches fledgling adventurers the essential art of starting a fire and preparing sustenance in the wild. Found across the starting settlements of both the Alliance and Horde, this lesson introduces the campfire as the core anchor for any makeshift outdoor campsite.",
+ "summary": "At nearby settlements, new adventurers learn to cook and kindle a Basic Campfire for life in the wild. The lesson is offered across Alliance and Horde lands.",
  "sections": [
   {
    "title": "The Hearth of the Wilderness",
-   "body": "To survive outside fortified walls, every traveler must know how to build a fire. Beyond boiling water and roasting meat, a basic campfire serves as the vital foundation for pitching a camp in uncharted terrain. A basic campfire anchors the campsite this lesson introduces.",
+   "body": "Every traveler needs to know how to build a fire beyond the safety of fortified walls. A campfire can boil water and roast meat, and it anchors a campsite in unfamiliar country.",
    "spoiler": 0
   },
   {
    "title": "From Embers to Encampments",
-   "body": "While apprentice cooks can only sustain a modest fire with minimal surroundings, mastering culinary arts unlocks the ability to kindle larger blazes capable of supporting more elaborate campsites. Furthermore, adventurers who branch out into other practical tradeskills discover ways to craft useful furnishings to complement their camps.",
+   "body": "Apprentice cooks can kindle only modest fires with few surroundings. Greater skill in cooking lets them light larger fires that support more elaborate campsites. Other practical trades also teach ways to make useful furnishings for a camp.",
    "spoiler": 0
   }
  ],
@@ -38,7 +38,7 @@
     "camping 101 cooking purpose",
     "what does this quest do"
    ],
-   "answer": "The quest directs new adventurers to seek out their local cooking trainer in nearby settlements, ensuring they learn basic cooking and how to light a campfire to anchor an outdoor campsite."
+   "answer": "New adventurers visit a cooking trainer in a nearby settlement to learn basic cooking and light a campfire that anchors an outdoor campsite."
   },
   {
    "q": "Who offers this quest to travelers?",
@@ -46,7 +46,7 @@
     "who gives camping 101",
     "camping quest giver"
    ],
-   "answer": "Various experienced wilderness guides and adventurers offer this training across both factions, including Eleanor Shackleton, Eric Brighthammer, Lyreena Duskblade, Sam Sarsaparilla, Brakk, Kaga Wildhoof, and Raan Wildwind."
+   "answer": "Experienced wilderness guides and adventurers offer this training across both factions, including Eleanor Shackleton, Eric Brighthammer, Lyreena Duskblade, Sam Sarsaparilla, Brakk, Kaga Wildhoof, and Raan Wildwind."
   },
   {
    "q": "Where do Alliance players turn this in?",
@@ -54,7 +54,7 @@
     "where to turn in alliance",
     "alliance cooking trainer"
    ],
-   "answer": "Alliance adventurers report to trainers such as Tomas in Goldshire, Gremlock Pilsnor in Kharanos, or Zarrin in Dolanaar, depending on their home territory."
+   "answer": "Alliance adventurers report to trainers in their home territories, such as Tomas in Goldshire, Gremlock Pilsnor in Kharanos, or Zarrin in Dolanaar."
   },
   {
    "q": "Where do Horde players turn this in?",
@@ -62,7 +62,7 @@
     "horde cooking trainer",
     "where to turn in horde"
    ],
-   "answer": "Horde adventurers can complete the training with Cook Torka in Razor Hill, William Pickman in Brill, or Pyall Silentstride in Bloodhoof Village."
+   "answer": "Horde adventurers can learn with Cook Torka in Razor Hill, William Pickman in Brill, or Pyall Silentstride in Bloodhoof Village."
   },
   {
    "q": "Can campsite size be expanded later?",
@@ -70,7 +70,7 @@
     "bigger campfire",
     "improve camp"
    ],
-   "answer": "Yes. As you increase your cooking skill, you can learn to light larger fires that can support more camp furnishings in the wilderness."
+   "answer": "Yes. Greater cooking skill teaches you to kindle larger fires that support more camp furnishings in the wild."
   },
   {
    "q": "Can other professions contribute to camping?",
@@ -78,21 +78,21 @@
     "camping professions",
     "campsite furnishings"
    ],
-   "answer": "Yes. While cooking provides the campfire that anchors the camp, other tradeskill trainers offer ways to craft practical furnishings for your site if you have practiced their crafts."
+   "answer": "Yes. Cooking provides the campfire, while other tradeskill trainers offer ways to craft practical furnishings if you have practiced their crafts."
   }
  ],
  "angles": [
   {
    "target": "profession:Cooking",
-   "text": "Cooking is the literal spark of camping life, providing both the vital sustenance to recover strength and the central campfire required to pitch an outdoor bivouac."
+   "text": "Cooking provides food to restore strength and the campfire at the heart of an outdoor camp."
   },
   {
    "target": "faction:Alliance",
-   "text": "Novices departing Northshire, Dun Morogh, or Teldrassil are guided to towns like Goldshire, Kharanos, and Dolanaar to learn self-reliance before braving the wilds."
+   "text": "As an Alliance adventurer leaving Northshire, Dun Morogh, or Teldrassil, you are guided toward towns like Goldshire, Kharanos, and Dolanaar to learn self-reliance before braving the wilds."
   },
   {
    "target": "faction:Horde",
-   "text": "Survival is second nature to the Horde, and young fighters in Durotar, Mulgore, and Tirisfal are pointed straight toward campfires in Razor Hill, Bloodhoof Village, and Brill."
+   "text": "As a young Horde fighter in Durotar, Mulgore, or Tirisfal, you are directed toward campfires in Razor Hill, Bloodhoof Village, or Brill."
   }
  ],
  "keywords": [
@@ -117,5 +117,6 @@
  ],
  "attribution": [
   "Camping 101: Cooking"
- ]
+ ],
+ "style": 1
 }

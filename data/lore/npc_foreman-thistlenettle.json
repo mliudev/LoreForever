@@ -8,16 +8,16 @@
   "wiki": "Foreman Thistlenettle",
   "refs": 0
  },
- "summary": "Foreman Thistlenettle was once a dwarven overseer representing both the Miners' League and the Explorers' League within the depths of Westfall. After a catastrophic cave-in trapped his crew in the subterranean tunnels of the Deadmines, he perished alongside his workers and rose again as an undead ghoul. He now wanders the dark, collapsed corridors, unrecognizable to all except by the guild badge he still carries.",
+ "summary": "In the Deadmines, Foreman Thistlenettle once led a dwarven mining crew. He worked for both the Miners' League and the Explorers' League until a cave-in trapped his crew below Moonbrook. He died with them and rose again as a ghoul, still carrying his guild badge through the dark, collapsed tunnels.",
  "sections": [
   {
    "title": "A Brother's Grief",
-   "body": "Back in Stormwind, his brother Wilder Thistlenettle spent restless months wondering about the fate of the missing mining crew. With no word escaping the occupied tunnels, rumors eventually surfaced that the fallen overseer still walked among the dead. Adventurers braving the outskirts of the Deadmines are asked to locate the undead foreman, end his torment, and recover his badge to bring closure to his grieving kin.",
+   "body": "Wilder Thistlenettle, Foreman Thistlenettle's brother, has waited in Stormwind for word of the missing crew. With the tunnels occupied, no news came from below. Rumors now say the fallen foreman walks among the dead. Travelers near the Deadmines are asked to find him, end his torment, and recover his badge for his grieving brother.",
    "spoiler": 1
   },
   {
    "title": "Tragedy in the Deadmines",
-   "body": "Before the Defias Brotherhood took total control of the Deadmines, legitimate mining expeditions delved deep into its rich veins. Foreman Thistlenettle oversaw one such venture on behalf of the Miners' League and Explorers' League. Deep in the tunnels beneath Moonbrook, disaster struck when a violent cave-in sealed his party off from the surface. The trapped miners died in the darkness, but their rest did not last; a sinister, necrotic taint raised Thistlenettle and his crew as ravenous ghouls to stalk the shadowed passages.",
+   "body": "Before the Defias Brotherhood took full control of the Deadmines, mining crews worked its rich veins. Foreman Thistlenettle led one such expedition for the Miners' League and the Explorers' League. Deep beneath Moonbrook, a violent cave-in sealed his party away from the surface. The miners died in the darkness, but did not remain at rest. A necrotic taint raised Thistlenettle and his crew as ravenous ghouls, stalking the shadowed passages.",
    "spoiler": 1
   }
  ],
@@ -29,7 +29,7 @@
     "who is foreman thistlenettle",
     "thistlenettle background"
    ],
-   "answer": "He was a dwarven foreman associated with both the Miners' League and the Explorers' League. He led a crew of miners into the Deadmines prior to its complete fortification by outlaws, looking to excavate and survey the subterranean veins."
+   "answer": "Foreman Thistlenettle was a dwarf who worked with both the Miners' League and the Explorers' League. Before outlaws fully fortified the Deadmines, he led miners there to excavate and survey its underground veins."
   },
   {
    "q": "Why is Foreman Thistlenettle an undead ghoul?",
@@ -38,7 +38,7 @@
     "how did thistlenettle die",
     "thistlenettle undead"
    ],
-   "answer": "A catastrophic cave-in collapsed the tunnels around Thistlenettle and his mining party, killing them. Dark subterranean energies or lingering necromancy within the labyrinthine mines subsequently animated their remains, turning the dwarves into restless ghouls."
+   "answer": "A cave-in buried Foreman Thistlenettle and his mining party, killing them. Dark energies or lingering necromancy in the mines then animated their remains as restless ghouls."
   },
   {
    "q": "Where is Foreman Thistlenettle located?",
@@ -47,7 +47,7 @@
     "thistlenettle location",
     "deadmines foreman spot"
    ],
-   "answer": "He haunts a dead-end, collapsed tunnel within the exterior maze of the Deadmines, located before the portal to the inner instance itself, surrounded by his reanimated former miners."
+   "answer": "Foreman Thistlenettle haunts a dead-end, collapsed tunnel in the Deadmines' outer maze, before the portal to its inner depths. His former miners, now ghouls, surround him."
   },
   {
    "q": "Who is looking for Foreman Thistlenettle?",
@@ -56,17 +56,17 @@
     "wilder brother",
     "thistlenettle quest giver"
    ],
-   "answer": "His brother, Wilder Thistlenettle, who resides in the Dwarven District of Stormwind City. Wilder seeks proof of his brother's fate and asks travelers to bring back Thistlenettle's Badge."
+   "answer": "Wilder Thistlenettle, Foreman Thistlenettle's brother, seeks proof of his fate. Wilder lives in Stormwind City's Dwarven District and asks travelers to bring back Thistlenettle's Badge."
   }
  ],
  "angles": [
   {
    "target": "race:Dwarf",
-   "text": "The tragic loss of an Explorers' League foreman and an entire dwarven crew highlights the lingering dangers lurking beneath the human kingdoms."
+   "text": "As a dwarf, you know the loss of an Explorers' League foreman and his crew shows the dangers beneath the human kingdoms."
   },
   {
    "target": "profession:Mining",
-   "text": "Thistlenettle's fate is a somber reminder to all miners of the ever-present peril of tunnel collapses and hostile subterranean depths."
+   "text": "As a miner, you know tunnel collapses and hostile depths can make every descent perilous."
   }
  ],
  "keywords": [
@@ -89,5 +89,6 @@
  ],
  "attribution": [
   "Foreman Thistlenettle"
- ]
+ ],
+ "style": 1
 }

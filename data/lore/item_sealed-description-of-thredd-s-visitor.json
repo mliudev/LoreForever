@@ -11,16 +11,16 @@
    "quest:393"
   ]
  },
- "summary": "The Sealed Description of Thredd's Visitor is a confidential report penned by Warden Thelwater regarding an enigmatic man who visited the imprisoned Defias leader, Bazil Thredd, inside the Stormwind Stockade. Its contents help track down a covert operative moving unseen through Stormwind's political and criminal spheres.",
+ "summary": "Warden Thelwater seals a report about a visitor to Bazil Thredd in the Stormwind Stockade. The confidential account helps track a covert operative moving through Stormwind's political and criminal spheres.",
  "sections": [
   {
    "title": "A Mysterious Patron",
-   "body": "For years inside the Stockade, prisoner Bazil Thredd sat in his cell with no visitors. That routine shifted when an uncommunicative man began stopping by once or twice a week with completely valid identification papers. Taking note of these unusual arrivals, Warden Thelwater composed a physical account of the man, who carried identification marking him as 'Maelik'. The warden sealed the profile to prevent any meddling eyes from reading it before proper investigators could act.",
+   "body": "Prisoner Bazil Thredd spent years in the Stockade without a visitor. Then a quiet man began coming once or twice each week, carrying valid identification papers under the name Maelik. Warden Thelwater took note of the unusual visits and wrote down the man's appearance. He sealed the description so no meddling eyes could read it before proper investigators acted.",
    "spoiler": 0
   },
   {
    "title": "From Stonemasons to Spies",
-   "body": "When brought to the city architect Baros Alexston, the description sparked no immediate recognition beyond a faint suspicion that the visitor might be an operative tied to the Defias rebellion. Alexston quickly rerouted the sealed envelope to Master Mathias Shaw, leader of Stormwind's intelligence service, SI:7. Shaw immediately pierced the deception: the description matched a lethal mercenary who operates under aliases including Marzon, currently doing dirty work for Lord Gregor Lescovar.",
+   "body": "City architect Baros Alexston found no clear match in the description, though he suspected the visitor might be tied to the Defias rebellion. Alexston sent the sealed envelope to Master Mathias Shaw, who leads Stormwind's intelligence service, SI:7. Shaw recognized the man as a lethal mercenary who uses names including Marzon and now does dirty work for Lord Gregor Lescovar.",
    "spoiler": 1
   }
  ],
@@ -32,7 +32,7 @@
     "author of description",
     "who penned the note"
    ],
-   "answer": "Warden Thelwater, the head warden of the Stormwind Stockade, wrote and sealed the document. He grew suspicious when an unknown figure began paying regular visits to the imprisoned Defias ringleader, Bazil Thredd."
+   "answer": "Warden Thelwater, head warden of the Stormwind Stockade, wrote and sealed the document. He grew suspicious when an unknown man began visiting the imprisoned Defias leader, Bazil Thredd, regularly."
   },
   {
    "q": "Who is the visitor described in the paper?",
@@ -41,7 +41,7 @@
     "who is maelik",
     "visitor identity"
    ],
-   "answer": "He presented papers under the name Maelik. Warden Thelwater recorded his appearance so investigators could establish his identity."
+   "answer": "The visitor used papers bearing the name Maelik. Warden Thelwater recorded his appearance so investigators could identify him."
   },
   {
    "q": "Why was the visitor meeting with Bazil Thredd?",
@@ -49,7 +49,7 @@
     "why visit thredd",
     "thredd visitor purpose"
    ],
-   "answer": "Thelwater grew suspicious when Thredd began receiving regular visits after years without any. The visitor's purpose is investigated through the sealed description."
+   "answer": "Thelwater grew suspicious when Thredd began receiving regular visits after years without any. The sealed description is being investigated to learn the visitor's purpose."
   },
   {
    "q": "Where does this sealed document need to be taken?",
@@ -57,17 +57,17 @@
     "where do i bring it",
     "who wants the description"
    ],
-   "answer": "The document is first brought to the city architect Baros Alexston in Stormwind. After Alexston examines it and finds the description unfamiliar, he directs you to deliver it directly to Master Mathias Shaw at the SI:7 headquarters in Old Town."
+   "answer": "Take the document first to city architect Baros Alexston in Stormwind. After examining the unfamiliar description, Alexston directs you to deliver it to Master Mathias Shaw at SI:7 headquarters in Old Town."
   }
  ],
  "angles": [
   {
    "target": "class:Rogue",
-   "text": "Carrying this dossier is a direct lesson in tradecraft: false names, forged documentation, and cell visits are all uncovered when Mathias Shaw cross-references physical descriptions against SI:7 intelligence."
+   "text": "As a rogue, you can see how false names, forged papers, and visits to a prison cell drew Mathias Shaw's attention when he compared the man's appearance with SI:7 intelligence."
   },
   {
    "target": "faction:Alliance",
-   "text": "The document exposes troubling cracks in Stormwind's internal security, proving that conspirators can walk straight through the Stockade's gates using falsified credentials."
+   "text": "As an Alliance member, you can see the weakness in Stormwind's security: conspirators can pass through the Stockade's gates with falsified credentials."
   }
  ],
  "keywords": [
@@ -94,5 +94,6 @@
   "Sealed Description of Thredd's Visitor",
   "The Curious Visitor",
   "Shadow of the Past (quest)"
- ]
+ ],
+ "style": 1
 }

@@ -20,16 +20,16 @@
    "Mirror Lake (quest)"
   ]
  },
- "summary": "Mirror Lake is an introductory investigative quest for novice Alliance mages studying in the Mage Quarter of Stormwind. Tasked by Jennea Cannon, apprentices venture just southwest of the city gates to sample the waterfall waters of Mirror Lake for residual magical contamination.",
+ "summary": "Novice Alliance mages in Stormwind's Mage Quarter are sent to sample Mirror Lake's waters for magical contamination. Jennea Cannon sends them southwest of the city gates to test the waterfall spray.",
  "sections": [
   {
    "title": "Ley Lines and Shifting Currents",
-   "body": "Azeroth has suffered catastrophic mystic conflicts over the recent decades, from the opening of the Dark Portal to the Third War and the battle at Mount Hyjal. These violent shocks tore ancient arcane currents from their once-stable channels. In the Wizard's Sanctum of Stormwind, magi like Jennea Cannon monitor these shifts closely, fearing that dislodged flows of arcane power might bleed into the surrounding wilderness and corrupt local ecosystems.",
+   "body": "Azeroth's arcane currents were shaken by conflicts from the opening of the Dark Portal through the Third War and the battle at Mount Hyjal. Those shocks tore ancient currents from their stable channels. In Stormwind's Wizard's Sanctum, magi like Jennea Cannon watch the changes closely. They fear that displaced arcane power could reach the wilderness and corrupt local ecosystems.",
    "spoiler": 0
   },
   {
    "title": "Testing the Waters",
-   "body": "Mirror Lake lies nestled beneath the cliffs just southwest of the Stormwind gates, serving as a primary natural reservoir fed by mountain falls. Because the surrounding countryside depends on these waters, Jennea sends novice mages equipped with a glass flask directly to the base of the waterfall. Collecting fresh spray allows the Sanctum to conduct delicate scrying and reagent tests to confirm whether wild magic has begun seeping into the public water supply.",
+   "body": "Mirror Lake lies beneath the cliffs southwest of the Stormwind gates and is a primary natural reservoir fed by mountain falls. The surrounding countryside depends on its waters. Jennea sends novice mages with a glass flask to the waterfall's base, where they collect fresh spray. The Sanctum can then use scrying and reagent tests to learn whether wild magic is seeping into the public water supply.",
    "spoiler": 0
   }
  ],
@@ -41,7 +41,7 @@
     "jennea water sample",
     "what is this quest for"
    ],
-   "answer": "Massive mystical wars across Azeroth have ruptured natural ley currents. Jennea Cannon fears that unsettled arcane energies are bleeding into the water table around Stormwind, which could adversely affect anyone who drinks from the lake."
+   "answer": "Conflicts across Azeroth have ruptured natural ley currents. Jennea Cannon fears unsettled arcane energies are reaching the water table around Stormwind and could harm anyone who drinks from the lake."
   },
   {
    "q": "Where exactly is Mirror Lake?",
@@ -50,7 +50,7 @@
     "mirror lake location",
     "find mirror lake"
    ],
-   "answer": "Mirror Lake is situated in northwestern Elwynn Forest, tucked against the high bluffs just southwest of the main gates of Stormwind. The required sample is taken from the pool at the foot of its cascading waterfall."
+   "answer": "Mirror Lake lies in northwestern Elwynn Forest, against the high bluffs southwest of Stormwind's main gates. The sample comes from the pool at the foot of its waterfall."
   },
   {
    "q": "What happens if the water is tainted?",
@@ -59,7 +59,7 @@
     "what if water has magic",
     "magical taint effects"
    ],
-   "answer": "Jennea fears that drinking magically tainted water for too long could harm those who rely on the lake. The precise effects are not yet known."
+   "answer": "Jennea fears that drinking magically tainted water for too long could harm those who depend on the lake. The precise effects are not known."
   },
   {
    "q": "Who can undertake this mission?",
@@ -67,7 +67,7 @@
     "who gets mirror lake quest",
     "is mirror lake mage only"
    ],
-   "answer": "This assignment is reserved specifically for novice mages training in the Alliance, serving as one of their earliest practical fieldwork tasks on behalf of the Wizard's Sanctum."
+   "answer": "Novice Alliance mages in training undertake this assignment as one of their earliest field studies for the Wizard's Sanctum."
   },
   {
    "q": "Does this quest lead to further investigations?",
@@ -75,7 +75,7 @@
     "what comes after mirror lake",
     "mirror lake quest chain"
    ],
-   "answer": "It concludes the direct initial task begun with Jennea Cannon's summons, rewarding the apprentice with their first formal mage implement and establishing their duty to monitor magical disturbances across the realm."
+   "answer": "The direct initial task begun with Jennea Cannon's summons ends here. It gives the apprentice their first formal mage implement and establishes their duty to watch for magical disturbances across the realm."
   },
   {
    "q": "What caused the magical currents to destabilize in the first place?",
@@ -84,21 +84,21 @@
     "mystic struggles meaning",
     "what broke the magic"
    ],
-   "answer": "Jennea attributes the changed currents to the world's massive mystic struggles, without identifying a specific battle or event."
+   "answer": "Jennea traces the changed currents to the world's great mystic struggles, but names no specific battle or event."
   }
  ],
  "angles": [
   {
    "target": "class:Mage",
-   "text": "This task marks an apprentice's transition from reading dusty tomes in the Wizard's Sanctum to investigating real-world arcane phenomena, rewarding their first dedicated mage staff or off-hand orb."
+   "text": "As a Mage, you move from study in the Wizard's Sanctum to investigating arcane phenomena in the world. This work brings your first dedicated mage staff or off-hand orb."
   },
   {
    "target": "race:Human",
-   "text": "Mirror Lake feeds the surrounding farmlands and waterways of Elwynn, making its purity vital to the daily health of Stormwind's citizenry."
+   "text": "As a Human, you know Mirror Lake feeds Elwynn's farmlands and waterways, so its purity matters to Stormwind's citizens."
   },
   {
    "target": "faction:Alliance",
-   "text": "Ensuring the safety of Elwynn's natural resources is one of the quiet ways the magi of the Wizard's Sanctum safeguard the heart of the kingdom."
+   "text": "As an Alliance member, you can help the Wizard's Sanctum magi protect Elwynn's natural resources and the kingdom's heart."
   }
  ],
  "keywords": [
@@ -119,5 +119,6 @@
  ],
  "attribution": [
   "Mirror Lake (quest)"
- ]
+ ],
+ "style": 1
 }

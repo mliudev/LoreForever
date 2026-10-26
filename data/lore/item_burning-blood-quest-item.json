@@ -10,16 +10,16 @@
    "quest:1705"
   ]
  },
- "summary": "Burning Blood is an unnatural fluid harvested from the ferocious Nightbane worgen prowling Duskwood. The Stormwind armorer Grimand Elmore requires twenty vials of this fiery essence to experiment with advanced smithing techniques.",
+ "summary": "In Duskwood, Burning Blood is gathered from the Nightbane worgen. Grimand Elmore needs twenty vials for experiments in smithing.",
  "sections": [
   {
    "title": "A Volatile Reagent",
-   "body": "The cursed Nightbane worgen infesting Duskwood run hot with a strange, unnatural fury, and their blood burns with literal heat. This searing fluid can be drawn from the beasts haunting the haunted timberlands and the abandoned dig site of Roland's Doom. While grotesque to harvest, the fiery substance holds rare metallurgical properties coveted by master armorers seeking to quench and temper resilient plate.",
+   "body": "Nightbane worgen prowl Duskwood with a strange fury, and their blood burns with real heat. The fluid can be drawn from worgen haunting the timberlands and Roland's Doom. Though foul to gather, its heat draws the interest of armorers seeking to temper resilient plate.",
    "spoiler": 0
   },
   {
    "title": "Elmore's Experiment",
-   "body": "Grimand Elmore, a veteran craftsman working in the Dwarven District of Stormwind, seeks to test novel smithing methods pioneered by his former student Furen Longbeard. To see if these radical forging techniques hold merit, Elmore requires burning blood alongside a dense burning rock held by the worgen chieftain Gutspill. Those willing to face the predatory pack and return with the bubbling fluid are promised sturdy warrior armor forged in the heat of his forge.",
+   "body": "Grimand Elmore works as an armorer in Stormwind's Dwarven District. He wants to test smithing methods developed by his former student Furen Longbeard. For the experiment, Elmore needs Burning Blood and a dense burning rock held by the worgen chieftain Gutspill. Those who bring back the bubbling fluid are promised sturdy warrior armor from his forge.",
    "spoiler": 0
   }
  ],
@@ -31,7 +31,7 @@
     "what is burning blood",
     "worgen blood"
    ],
-   "answer": "Burning Blood is a searing, volatile bodily fluid taken from the Nightbane worgen in Duskwood. Its unnatural heat makes it a valuable reagent for specialized armorsmithing experiments."
+   "answer": "Burning Blood is a hot bodily fluid taken from Nightbane worgen in Duskwood. Grimand Elmore needs it for smithing experiments."
   },
   {
    "q": "Where does Burning Blood come from?",
@@ -40,7 +40,7 @@
     "who drops burning blood",
     "burning blood location"
    ],
-   "answer": "It is gathered from the various Nightbane worgen prowling the woods of Duskwood, particularly those congregating around the abandoned mine of Roland's Doom."
+   "answer": "Burning Blood comes from Nightbane worgen in Duskwood, especially those around Roland's Doom."
   },
   {
    "q": "Why does Grimand Elmore need it?",
@@ -48,7 +48,7 @@
     "why grimand wants burning blood",
     "grimand elmore blood quest"
    ],
-   "answer": "Grimand Elmore wants to test the innovative armor-crafting techniques developed by Furen Longbeard. By combining the boiling blood with a burning rock, he intends to forge an exceptional piece of protective mail for an adventuring warrior."
+   "answer": "Grimand Elmore needs Burning Blood to test smithing methods developed by Furen Longbeard. With a burning rock, he plans to forge protective mail for a warrior."
   },
   {
    "q": "Why is the blood of the Nightbane burning?",
@@ -56,17 +56,17 @@
     "why do worgen have burning blood",
     "is worgen blood fire"
    ],
-   "answer": "The worgen of Duskwood are unnatural fiends summoned through dark and chaotic magics. The curse coursing through the Nightbane pack warps their physiology, imbuing their veins with a fiery, unnatural virulence."
+   "answer": "Nightbane are unnatural fiends summoned by dark, chaotic magic. The curse in their blood gives it a fierce, unnatural heat."
   }
  ],
  "angles": [
   {
    "target": "class:Warrior",
-   "text": "Grimand Elmore uses this volatile reagent to test cutting-edge smithing methods, rewarding aspiring warriors who harvest it with durable, custom-crafted plate armor."
+   "text": "Grimand Elmore uses Burning Blood to test smithing methods and promises durable plate armor to warriors who bring it to him."
   },
   {
    "target": "profession:Blacksmithing",
-   "text": "Master smiths occasionally look beyond conventional coal and water, utilizing exotic reagents like burning worgen blood to quench and temper heavy metals under extreme temperatures."
+   "text": "Smiths can use unusual materials like burning worgen blood to quench and temper heavy metals at extreme heat."
   }
  ],
  "keywords": [
@@ -91,5 +91,6 @@
  "attribution": [
   "Burning Blood (quest item)",
   "Burning Blood (quest)"
- ]
+ ],
+ "style": 1
 }

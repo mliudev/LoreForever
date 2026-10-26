@@ -7,11 +7,11 @@
  "meta": {
   "wiki": "Hall of Arms (Northshire)"
  },
- "summary": "The Hall of Arms is the martial wing of Northshire Abbey, situated south of the Main Hall. Here, veteran instructors drill the newest recruits of the Stormwind Army in the arts of the sword, shield, and holy combat.",
+ "summary": "In Northshire Abbey, recruits train with the Stormwind Army in the Hall of Arms, south of the Main Hall.",
  "sections": [
   {
    "title": "Groundwork of the Guard",
-   "body": "While the clerics and scholars ponder ancient tomes across the courtyard in the Library Wing, the Hall of Arms rings with the clash of blunted steel and the heavy cadence of martial instruction. Positioned on the south side of Northshire Abbey, this chamber serves as the primary training station for raw human fighters and devout aspirants taking up arms for the Stormwind Army. Here, seasoned battle instructors and paladin mentors teach the basic postures, disciplines, and fundamentals required to defend Elwynn Forest against encroaching kobolds, Defias bandits, and gnoll raiders.",
+   "body": "The Hall of Arms rings with blunted steel and the measured cadence of instruction. South of Northshire Abbey’s Main Hall, the wing trains human fighters and devout aspirants who take up arms for the Stormwind Army. Veteran battle instructors and paladin mentors teach the postures and disciplines needed to defend Elwynn Forest from kobolds, Defias bandits, and gnoll raiders. Across the courtyard, clerics and scholars study ancient tomes in the Library Wing.",
    "spoiler": 0
   }
  ],
@@ -23,7 +23,7 @@
     "hall of arms purpose",
     "what happens here"
    ],
-   "answer": "The Hall of Arms serves as the initial martial training ground inside Northshire Abbey. It provides newly enlisted soldiers, mercenaries, and paladins with basic weapons training and combat techniques before they venture out into the wider kingdom."
+   "answer": "The Hall of Arms trains new soldiers, mercenaries, and paladins in weapons and combat inside Northshire Abbey, before they venture into the wider kingdom."
   },
   {
    "q": "Who can be found inside this wing?",
@@ -32,7 +32,7 @@
     "trainers hall of arms",
     "who teaches here"
    ],
-   "answer": "The wing is staffed by veteran warrior and paladin trainers who instruct fresh recruits in martial disciplines, shield work, and basic combat maneuvers on behalf of the Stormwind Army."
+   "answer": "Veteran warrior and paladin trainers instruct Stormwind Army recruits in martial disciplines, shield work, and basic combat maneuvers."
   },
   {
    "q": "Where is the Hall of Arms located within Northshire Abbey?",
@@ -41,17 +41,17 @@
     "where is hall of arms",
     "abbey layout"
    ],
-   "answer": "The Hall of Arms lies on the southern side of Northshire Abbey, directly accessible from the central Main Hall and mirrored across the abbey courtyard by the Library Wing."
+   "answer": "The Hall of Arms stands on the southern side of Northshire Abbey, directly accessible from the central Main Hall. The Library Wing lies across the abbey courtyard."
   }
  ],
  "angles": [
   {
    "target": "class:Warrior",
-   "text": "For human warriors stepping into service, this wing is where you receive your very first lessons in stance, weapon handling, and the martial discipline of the Stormwind Army."
+   "text": "As a human warrior entering service, you receive your first lessons here in stance, weapon handling, and the Stormwind Army’s martial discipline."
   },
   {
    "target": "class:Paladin",
-   "text": "The Hall of Arms balances holy devotion with martial grit, offering fledgling paladins their foundational instruction in wielding the Light alongside martial arms."
+   "text": "As a fledgling paladin, you learn to wield the Light alongside martial arms, joining holy devotion with martial training."
   }
  ],
  "keywords": [
@@ -74,5 +74,6 @@
  ],
  "attribution": [
   "Hall of Arms (Northshire)"
- ]
+ ],
+ "style": 1
 }

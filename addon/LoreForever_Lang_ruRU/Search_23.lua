@@ -2,8 +2,6 @@
 -- Sources: data/i18n/ruRU. Lore text adapted from warcraft.wiki.gg (CC BY-SA 4.0); the core add-on's src fields name the articles.
 local P = LoreForeverPacks.Begin("LoreForever_Lang_ruRU")
 local Po = P.search.post
-Po["отсыревший"] = "FQnBFQuBGl5BGmAB"
-Po["отсыревшийконверт"] = "Gl5B"
 Po["отсыревшийсундук"] = "FQnB"
 Po["отсыревшим"] = "BNOB"
 Po["отсыревших"] = "GuPB"
@@ -12002,3 +12000,5 @@ Po["покорного"] = "GRgB"
 Po["покорности"] = "EDnBFdqBFg/BGblB"
 Po["покорность"] = "FdvB"
 Po["покорностью"] = "Aj6B"
+Po["покорные"] = "GdFB"
+Po["покорным"] = "D99B"

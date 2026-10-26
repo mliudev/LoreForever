@@ -1406,6 +1406,9 @@ local function heardStore()
 end
 
 function Voice.Heard(id)
+  -- Asking saves nothing: a character who has heard nothing yet has no record to make (the Found counts ask for every
+  -- page found).
+  if type(LoreForeverDB) ~= "table" or type(LoreForeverDB.heard) ~= "table" then return false end
   local t = id and heardStore()
   return (t and t[id] ~= nil) or false
 end

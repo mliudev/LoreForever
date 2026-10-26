@@ -7,11 +7,11 @@
  "meta": {
   "wiki": "Mirror Lake"
  },
- "summary": "Mirror Lake is a picturesque body of water tucked into northwestern Elwynn Forest near an orchard. Fed by a gentle waterfall beneath the cliffs of Stormwind, its tranquil surface belies the dangers lurking on its shores, from prowling Defias bandits to strange disruptions in the local ley lines.",
+ "summary": "Water spills into Mirror Lake beneath Stormwind's cliffs in northwestern Elwynn Forest, near an orchard. Defias bandits prowl the surrounding orchards, while mages watch for trouble in the forest's arcane currents.",
  "sections": [
   {
    "title": "A Troubled Idyl",
-   "body": "Situated beneath the towering ramparts of Stormwind City, Mirror Lake ought to be a peaceful retreat for fishermen and weary travelers. Instead, brigands of the Defias Brotherhood stalk the surrounding orchards, making any prolonged stay perilous for passing locals. Worse still, mystical disturbances across Azeroth have begun warping the natural channels of arcane energy throughout the forest. The mages of the Wizard's Sanctum keep a cautious eye on the lake, sending practitioners to sample its currents and ensure that downstream communities are not poisoned by chaotic arcane runoff.",
+   "body": "Mirror Lake lies beneath Stormwind City's walls, where fishermen and weary travelers might seek a quiet rest. Defias Brotherhood brigands stalk the surrounding orchards, making a long stay perilous for locals. Mystical disturbances across Azeroth have also begun to warp the forest's natural channels of arcane energy. Mages from the Wizard's Sanctum watch the lake closely. They send practitioners to sample its currents and guard against chaotic arcane runoff poisoning communities downstream.",
    "spoiler": 0
   }
  ],
@@ -23,7 +23,7 @@
     "mirror lake enemies",
     "defias mirror lake"
    ],
-   "answer": "Despite its scenic appearance, the area around the lake is heavily prowled by Defias bandits who target travelers and farmers. Additionally, the recent fluctuations in regional magic have prompted concerns about the lake's water safety."
+   "answer": "Defias bandits prowl the area around Mirror Lake and prey on travelers and farmers. Recent shifts in regional magic have also raised concern about the lake's water."
   },
   {
    "q": "Why are mages studying Mirror Lake?",
@@ -32,7 +32,7 @@
     "mirror lake quest",
     "magic in mirror lake"
    ],
-   "answer": "Massive magical conflicts across Azeroth have destabilized ley currents throughout Elwynn Forest and Stormwind. The Wizard's Sanctum dispatches initiates to sample the lake's water to test for unstable arcane residue before it can affect those who drink from it."
+   "answer": "Massive magical conflicts across Azeroth have unsettled ley currents throughout Elwynn Forest and Stormwind. The Wizard's Sanctum sends initiates to sample the lake's water for unstable arcane residue that could affect those who drink from it."
   },
   {
    "q": "Where does the waterfall at Mirror Lake come from?",
@@ -40,17 +40,17 @@
     "mirror lake waterfall",
     "water source mirror lake"
    ],
-   "answer": "The waterfall cascades down from the high cliffs and waterways flanking the perimeter of Stormwind City, feeding the lake before the water winds through the Elwynn river system."
+   "answer": "The waterfall comes from the high cliffs and waterways around Stormwind City. Its water feeds the lake before winding through the Elwynn river system."
   }
  ],
  "angles": [
   {
    "target": "class:Mage",
-   "text": "Initiates studying under the Wizard's Sanctum in Stormwind are dispatched here to gather water samples, learning firsthand how turbulent arcane channels can seep into the natural ecosystem."
+   "text": "Initiates studying at Stormwind's Wizard's Sanctum come here to gather water samples. The work shows how turbulent arcane channels can seep into the natural world."
   },
   {
    "target": "faction:Alliance",
-   "text": "Though close to the capital's towering walls, the lake stands as a reminder of how thinly stretched the kingdom's guards are against Defias outlaws."
+   "text": "The lake lies close to Stormwind's walls, while the kingdom's guards are stretched thin against Defias outlaws in the surrounding area."
   }
  ],
  "keywords": [
@@ -69,5 +69,6 @@
  ],
  "attribution": [
   "Mirror Lake"
- ]
+ ],
+ "style": 1
 }

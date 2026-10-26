@@ -17,16 +17,16 @@
   "wiki": "Wolves Across the Border",
   "chain": []
  },
- "summary": "Wolves Across the Border is an early task given by Eagan Peltskinner just outside Northshire Abbey. He enlists new adventurers to hunt down prowling wolves in the valley and collect their meat for his personal cooking.",
+ "summary": "Eagan Peltskinner asks you to hunt wolves prowling Northshire Valley and bring him their meat. He waits outside Northshire Abbey, where the valley’s needs continue despite the guards’ focus on Defias bandits.",
  "sections": [
   {
    "title": "A Pragmatic Request",
-   "body": "While Marshal McBride and the Stormwind guards focus their limited manpower on defending Northshire Abbey from Defias bandits, ordinary tradesfolk still have daily needs. Eagan Peltskinner stands by the abbey walls harboring a deep grudge against the local timber wolves. Rather than merely complain about the beasts prowling the border woods, he recruits passing recruits to cull their numbers and retrieve tough wolf meat for his skillet.",
+   "body": "Eagan Peltskinner waits by Northshire Abbey’s walls with a grudge against the local timber wolves. Marshal McBride and the Stormwind guards have limited strength to defend the abbey from Defias bandits, while tradesfolk still have daily needs. Eagan asks you to thin the wolves’ numbers and bring back their tough meat for his cooking.",
    "spoiler": 0
   },
   {
    "title": "Wilds of Northshire",
-   "body": "Northshire Valley was once a peaceful sanctuary, sheltered by rolling hills and dense woods. With the Kingdom of Stormwind strained by missing leadership and troop shortages, wild predators like young wolves and timber wolves have grown bolder, roaming closer to the abbey's pathways and orchards. Clearing them out not only fills Eagan's pantry but also keeps the immediate trails safer for novitiates, laborers, and newly arrived defenders.",
+   "body": "Wolves roam closer to Northshire Abbey as patrols weaken. The Kingdom of Stormwind has too few troops and is strained by missing leadership. Young wolves and timber wolves now prowl the abbey’s paths and orchards. Hunting them supplies Eagan’s pantry and makes nearby trails safer for novitiates, laborers, and newly arrived defenders.",
    "spoiler": 0
   }
  ],
@@ -38,7 +38,7 @@
     "peltskinner",
     "eagan peltskinner"
    ],
-   "answer": "Eagan Peltskinner is a local hunter and tradesman situated near the entrance of Northshire Abbey. He has a distaste for the region's wild timber wolves, but he is more than happy to cook and eat their meat."
+   "answer": "Eagan Peltskinner is a hunter and tradesman near the entrance to Northshire Abbey. He dislikes the local timber wolves and is happy to cook and eat their meat."
   },
   {
    "q": "Why does Eagan want wolf meat?",
@@ -47,7 +47,7 @@
     "eagan hungry",
     "what does eagan do with meat"
    ],
-   "answer": "Eagan genuinely enjoys eating wolf steaks. He trades useful starter gear and coin to recruits willing to go out and harvest fresh meat for him."
+   "answer": "Eagan enjoys eating wolf steaks. He offers useful starter gear and coin to recruits who bring him fresh meat."
   },
   {
    "q": "Where are the wolves located?",
@@ -56,7 +56,7 @@
     "wolf locations",
     "find wolves"
    ],
-   "answer": "Timber wolves and young wolves roam the fields, hills, and riverbanks throughout the Northshire Valley, particularly to the south and east of the abbey."
+   "answer": "Timber wolves and young wolves roam Northshire Valley’s fields, hills, and riverbanks, especially south and east of the abbey."
   },
   {
    "q": "Why are wolves a problem in Northshire?",
@@ -64,7 +64,7 @@
     "why wolves attacking",
     "northshire wolf problem"
    ],
-   "answer": "Due to reduced patrols and threats like Defias bandits pressing on the valley, wildlife has encroached on the roads and farms, making unescorted travel dangerous for clergy and workers."
+   "answer": "Reduced patrols and Defias bandits have left Northshire’s roads and farms exposed to wildlife, making unescorted travel dangerous for clergy and workers."
   },
   {
    "q": "Do I need to talk to anyone before taking this quest?",
@@ -73,7 +73,7 @@
     "prerequisites",
     "who gives this quest"
    ],
-   "answer": "No. While Deputy Willem may direct newcomers to Eagan Peltskinner via an introductory errand, Eagan will offer this hunting task directly to anyone who approaches him outside the abbey."
+   "answer": "No. Deputy Willem may send newcomers to Eagan through an introductory errand, but Eagan offers the hunt directly to anyone who approaches him outside the abbey."
   },
   {
    "q": "Is tough wolf meat used for cooking recipes?",
@@ -81,17 +81,17 @@
     "tough wolf meat cooking",
     "can players cook wolf meat"
    ],
-   "answer": "Eagan intends to cook the meat himself, but novitiate cooks often learn that wolf meat gathered in Elwynn Forest serves as a basic staple in outdoor cooking."
+   "answer": "Eagan plans to cook the meat himself. Novitiate cooks often learn that wolf meat gathered in Elwynn Forest is a basic ingredient for outdoor cooking."
   }
  ],
  "angles": [
   {
    "target": "profession:Cooking",
-   "text": "Eagan's craving for wolf steak introduces new adventurers to the frontier reality of Azeroth: whatever you hunt can often be cooked and eaten."
+   "text": "As a cook, you learn a frontier truth from Eagan’s craving for wolf steak: what you hunt can often be cooked and eaten."
   },
   {
    "target": "race:Human",
-   "text": "Human recruits starting their journey in Northshire find this to be one of their first practical tasks in securing the immediate borders of Stormwind."
+   "text": "As a human recruit in Northshire, you find this among your first practical ways to help secure Stormwind’s nearby borders."
   }
  ],
  "keywords": [
@@ -111,5 +111,6 @@
  ],
  "attribution": [
   "Wolves Across the Border"
- ]
+ ],
+ "style": 1
 }

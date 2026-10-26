@@ -7,11 +7,11 @@
  "meta": {
   "wiki": "Stonefield Farm"
  },
- "summary": "Stonefield Farm is a working homestead situated in southern Elwynn Forest. It is home to the Stonefield family, who have long been locked in a bitter feud with their neighbors, the Maclures.",
+ "summary": "The Stonefield family works the fields in southern Elwynn Forest. Their long feud with the neighboring Maclures keeps the two households at odds.",
  "sections": [
   {
    "title": "A Bitter Homestead",
-   "body": "Nestled in the rolling greenery south of Goldshire, Stonefield Farm produces crops for the realm while maintaining a fierce, decades-long grudge against the nearby Maclure Vineyards. The bad blood between the households leads to petty squabbles, mutual accusations of theft, and constant tension. Yet beneath the hostile bickering, young Tommy Joe Stonefield has fallen secretly in love with Maybell Maclure, creating a quiet romance that could either bridge the divide between the families or ignite further outrage.",
+   "body": "Stonefield Farm lies south of Goldshire, where the family grows crops for the realm. For decades, the Stonefields have quarreled with the nearby Maclure Vineyards. The households trade accusations of theft and trespassing, and even small disputes keep tensions high. Gramma Stonefield, Ma Stonefield, and young Tommy Joe Stonefield make their home here.",
    "spoiler": 0
   }
  ],
@@ -23,7 +23,7 @@
     "why are stonefields fighting",
     "stonefield rivals"
    ],
-   "answer": "The Stonefield and Maclure families hold a long-standing, stubborn rivalry in southern Elwynn Forest. They constantly accuse one another of trespassing, petty theft, and general wrongdoing, refusing to cooperate on even simple neighborhood matters."
+   "answer": "The Stonefields and Maclures have quarreled for years in southern Elwynn Forest. They accuse each other of trespassing, theft, and other wrongs, and refuse to cooperate even on simple neighborhood matters."
   },
   {
    "q": "Who lives at Stonefield Farm?",
@@ -31,7 +31,7 @@
     "stonefield npcs",
     "who is at stonefield farm"
    ],
-   "answer": "The farmstead is managed by the Stonefield clan, including Gramma Stonefield, Ma Stonefield, and young Tommy Joe Stonefield."
+   "answer": "Gramma Stonefield, Ma Stonefield, and young Tommy Joe Stonefield live at the farm, which is managed by the Stonefield clan."
   },
   {
    "q": "What is Tommy Joe Stonefield's secret?",
@@ -40,13 +40,13 @@
     "tommy joe romance",
     "stonefield love"
    ],
-   "answer": "Despite the bitter hostility between the two households, Tommy Joe Stonefield is secretly in love with Maybell Maclure. The two lovers rely on sympathetic travelers to pass messages and gifts back and forth without their families noticing."
+   "answer": "Tommy Joe Stonefield is secretly in love with Maybell Maclure, despite the hostility between their families. The two rely on sympathetic travelers to carry messages and gifts without their families noticing."
   }
  ],
  "angles": [
   {
    "target": "race:Human",
-   "text": "For humans starting out from Northshire, the squabbles between the Stonefields and Maclures offer a lighthearted look at rural kingdom life beyond the threat of bandits and gnolls."
+   "text": "As a human from Northshire, you can see the squabbles between the Stonefields and Maclures as a glimpse of rural life beyond the threat of bandits and gnolls."
   }
  ],
  "keywords": [
@@ -62,5 +62,6 @@
  ],
  "attribution": [
   "Stonefield Farm"
- ]
+ ],
+ "style": 1
 }

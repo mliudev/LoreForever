@@ -7,16 +7,16 @@
  "meta": {
   "wiki": "Northshire Abbey"
  },
- "summary": "Northshire Abbey is a historic monastery nestled in Northshire Valley within the northern foothills of Elwynn Forest. Rebuilt after its destruction in the First War, it serves as the spiritual heart of the Brotherhood of Northshire and a premier training center for new defenders answering the kingdom of Stormwind's call.",
+ "summary": "Northshire Abbey trains new defenders in Northshire Valley, among Elwynn Forest's northern foothills. Rebuilt after the First War, it is the spiritual heart of the Brotherhood of Northshire and a leading school for those answering Stormwind's call.",
  "sections": [
   {
    "title": "A Legacy of Faith and Ruin",
-   "body": "Centuries ago, clerics from Lordaeron traveled south into the kingdom of Stormwind to spread the worship of the Holy Light, establishing the Holy Order of Northshire Clerics and their abbey. The monastery quickly became an anchor of kingdom life, caring for the sick and even tending to the young Guardian Medivh during his years in a coma. During the First War, the abbey suffered repeated assaults by brigands and the Orcish Horde, culminating in its utter destruction. When the Alliance of Lordaeron liberated the region in the Second War, Archbishop Alonsus Faol helped rebuild the sanctuary, refounding its protectors as the Brotherhood of Northshire.",
+   "body": "Clerics from Lordaeron came south centuries ago to spread the Holy Light and founded the Holy Order of Northshire Clerics and their abbey. The monastery soon became part of kingdom life, caring for the sick and tending to the young Guardian Medivh during his years in a coma. In the First War, brigands and the Orcish Horde attacked it repeatedly, and the abbey was destroyed. After the Alliance of Lordaeron liberated the region in the Second War, Archbishop Alonsus Faol helped rebuild the sanctuary and refounded its protectors as the Brotherhood of Northshire.",
    "spoiler": 0
   },
   {
    "title": "The Training Grounds",
-   "body": "Today, Northshire Abbey functions as the starting ground for volunteers, militia recruits, and novices seeking to defend a beleaguered Stormwind. Split into the Main Hall, Hall of Arms, and Library Wing, it houses instructors in the martial, arcane, and holy arts, while scouts and rogues train in the outer yards. Despite the watchful presence of the Knights of the Silver Hand, peace here remains precarious. Kobolds overrun nearby mines, aggressive wolves roam the orchards, and agents of the Defias Brotherhood stalk the valley roads, pilfering ancient scrolls and sacred librams from the abbey's storied archives.",
+   "body": "Northshire Abbey trains volunteers, militia recruits, and novices who hope to defend Stormwind. Its Main Hall, Hall of Arms, and Library Wing house instructors in martial, arcane, and holy arts, while scouts and rogues train in the outer yards. The Knights of the Silver Hand keep watch, but peace remains fragile. Kobolds overrun nearby mines, aggressive wolves prowl the orchards, and Defias Brotherhood agents stalk the valley roads. They steal ancient scrolls and sacred librams from the abbey's archives.",
    "spoiler": 0
   }
  ],
@@ -28,7 +28,7 @@
     "northshire clerics",
     "brotherhood of northshire lore"
    ],
-   "answer": "The Brotherhood of Northshire is a religious order of clerics, priests, and paladins based out of Northshire Abbey. Originally founded centuries ago by missioning clerics from Lordaeron, it was re-established by Archbishop Alonsus Faol after the First War to train faithful defenders and preserve sacred scripture."
+   "answer": "The Brotherhood of Northshire is a religious order of clerics, priests, and paladins based at Northshire Abbey. Clerics from Lordaeron founded it centuries ago, and Archbishop Alonsus Faol re-established it after the First War to train faithful defenders and preserve sacred scripture."
   },
   {
    "q": "Why was Northshire Abbey destroyed in the First War?",
@@ -37,7 +37,7 @@
     "northshire first war",
     "what happened to northshire"
    ],
-   "answer": "During the First War, the abbey held strategic and spiritual importance for Stormwind. Orcish forces incited human brigands to attack it, and after the half-orc Garona was briefly held captive there, a massive Horde onslaught leveled the holy grounds. It remained ruined throughout the war until the Alliance drove out the orcish clans and rebuilt it."
+   "answer": "During the First War, the abbey was important to Stormwind's defenses and faith. Orcish forces incited human brigands to attack, and after the half-orc Garona was briefly held captive there, a great Horde assault leveled the holy grounds. The abbey lay in ruins until the Alliance drove out the orcish clans and rebuilt it."
   },
   {
    "q": "Why are there Defias bandits and kobolds outside the abbey?",
@@ -46,7 +46,7 @@
     "kobolds in northshire",
     "defias outside northshire"
    ],
-   "answer": "Stormwind's military is stretched thin protecting distant borders, leaving outlying regions poorly guarded. Opportunistic kobolds have infested the local gold mines, while the Defias Brotherhood exploits the gaps to rob travelers, harass the local vineyards, and raid the abbey's library for arcane tomes and holy relics."
+   "answer": "Stormwind's military is stretched thin protecting distant borders, leaving outlying regions poorly guarded. Kobolds have infested the local gold mines, while the Defias Brotherhood takes advantage of the gaps to rob travelers, harass local vineyards, and raid the abbey's library for arcane tomes and holy relics."
   },
   {
    "q": "What is the connection between Northshire Abbey and the Deadmines?",
@@ -55,17 +55,17 @@
     "northshire deadmines lore",
     "anduin lothar deadmines"
    ],
-   "answer": "During the First War, an ogre chieftain named Turok stole the sacred Tome of Divinity from Northshire Abbey and retreated into the Deadmines. Sir Anduin Lothar led an expedition into the depths to recover the holy scripture, getting trapped until a royal rescue party saved him and returned the tome to the abbey's care."
+   "answer": "During the First War, the ogre chieftain Turok stole the sacred Tome of Divinity from Northshire Abbey and retreated into the Deadmines. Sir Anduin Lothar led an expedition into the depths to recover it, became trapped, and was rescued by a royal party that returned the tome to the abbey."
   }
  ],
  "angles": [
   {
    "target": "race:Human",
-   "text": "For humans of Stormwind, Northshire Abbey is the cradle of your journey, where the kingdom's history of resilience and devotion welcomes every recruit taking up arms."
+   "text": "For humans of Stormwind, Northshire Abbey is where your journey begins, and where the kingdom's resilience and devotion welcome every recruit who takes up arms."
   },
   {
    "target": "class:Paladin",
-   "text": "Northshire represents the legacy of Archbishop Alonsus Faol and the early clerics whose sacrifices laid the foundation for the Knights of the Silver Hand."
+   "text": "For a paladin, Northshire carries the legacy of Archbishop Alonsus Faol and the early clerics whose sacrifices laid the foundation for the Knights of the Silver Hand."
   }
  ],
  "keywords": [
@@ -90,5 +90,6 @@
  ],
  "attribution": [
   "Northshire Abbey"
- ]
+ ],
+ "style": 1
 }

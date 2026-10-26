@@ -2,9 +2,6 @@
 -- Sources: data/i18n/ukUA. Lore text adapted from warcraft.wiki.gg (CC BY-SA 4.0); the core add-on's src fields name the articles.
 local P = LoreForeverPacks.Begin("LoreForever_Lang_ukUA")
 local Po = P.search.post
-Po["забрудненим"] = "Fv0BGdtB"
-Po["забруднених"] = "Cl/BFBPBG+KB"
-Po["забрудненню"] = "A6zB"
 Po["забруднення"] = "AzLBBJpDBQNBBZHBBZJCBZNBEeFBFBdCF3UBGfDBG+HBG+PBG/IBG/oBG/6BHAYBHA2BH4KBH4OCH4PBH4TBH4VBH4WBH4ZBH4fBH4gBH4hCH4mCH4pBH42BH5uBI5qBI5sEI6lCJfkBJmJBK5LB"
 Po["забрудненнябратство"] = "H4gB"
 Po["забрудненнявенчурної"] = "I5sC"
@@ -12002,3 +11999,6 @@ Po["змішав"] = "A75BIB6B"
 Po["змішавши"] = "DNyBE5BBGBVB"
 Po["змішала"] = "FY1B"
 Po["змішана"] = "APEBAVXBBHuBGCXB"
+Po["змішаний"] = "AS+BAVTBAw9BAzbBBMUBE2YBF8zBJ+tB"
+Po["змішаним"] = "JR7B"
+Po["змішаними"] = "IBpB"

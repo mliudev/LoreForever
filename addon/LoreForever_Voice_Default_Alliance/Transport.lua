@@ -43,10 +43,10 @@ P.transport["npc:athridas-bearmantle"] = {
 }
 P.transport["npc:auntie-bernice-stonefield"] = {
   hash = "fd91de",
-  fullHash = "fd91de",
-  text = "\"Auntie\" Bernice Stonefield. “Auntie” Bernice Stonefield is an elder of the Stonefield family, residing at their homestead in south-central Elwynn Forest. Widowed after her husband fell in battle during the kingdom's military campaigns, she is renowned throughout the valley for her famous pork belly pies. She can be found outside the farmhouse alongside Ma Stonefield, keeping a sharp eye on the neighborhood and harboring a deep suspicion of the rival Maclure family. Like many common folk across the Kingdom of Stormwind, Bernice has borne the steep price of ongoing war. Having lost her husband to military campaigns, she now lives out her days on the family homestead with her kin, helping manage daily farm affairs alongside matriarch Ma Stonefield. Despite personal loss, she keeps the household fed and running, earning local fame for her celebrated pork belly pies.",
+  fullHash = "91d379",
+  text = "\"Auntie\" Bernice Stonefield. At the Stonefield homestead in south-central Elwynn Forest, “Auntie” Bernice Stonefield keeps watch over the neighborhood. Widowed when her husband fell in the kingdom’s military campaigns, she is known throughout the valley for her pork belly pies. She stays outside the farmhouse beside Ma Stonefield and remains deeply suspicious of the rival Maclure family. Bernice carries the cost of war, as many common folk in the Kingdom of Stormwind do. Her husband fell in military campaigns, and she now lives with her kin at the family homestead. She helps Ma Stonefield manage the farm’s daily affairs, keeping the household fed and running. Her pork belly pies have made her famous among the people of the valley.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_auntie-bernice-stonefield-e6a13f5a9da5de98b370/1-0000.mp3", duration = 48.1959184, start = 0},
+    {file = "Audio/Transport/full_npc_auntie-bernice-stonefield-33c184e0dd9febf23e3b/1-0000.mp3", duration = 41.2212245, start = 0},
   },
 }
 P.transport["npc:balthule-shadowstrike"] = {
@@ -59,18 +59,18 @@ P.transport["npc:balthule-shadowstrike"] = {
 }
 P.transport["npc:baros-alexston"] = {
   hash = "e27df9",
-  fullHash = "e27df9",
-  text = "Baros Alexston. Baros Alexston is the Chief Architect of Stormwind City, stationed within the City Hall overlooking Cathedral Square. A former member of the Stonemasons Guild who helped rebuild the capital after the First War, he chose to accept an official post rather than follow his old friend Edwin VanCleef into open rebellion. Baros grew up on the Alexston Farmstead in the rolling grasslands of Westfall. During his youth, thieves overran and torched his family's homestead, forcing his father to hurriedly stash their most cherished heirlooms across the grounds before fleeing. Baros eventually journeyed to the capital and joined the Stonemasons Guild, dedicating years of grueling labor alongside Guildmaster Edwin VanCleef to raise Stormwind anew from the ashes of the First War.",
+  fullHash = "3c35ed",
+  text = "Baros Alexston. In Stormwind City Hall, Baros Alexston keeps watch over the capital he helped rebuild. Once a close friend of Edwin VanCleef in the Stonemasons Guild, he stayed loyal to the crown when the guild fractured. Baros grew up on the Alexston Farmstead in Westfall's rolling grasslands. Thieves overran and burned the family homestead while he was young. Before they fled, his father hurriedly hid their cherished heirlooms across the grounds. Baros later journeyed to the capital and joined the Stonemasons Guild. For years, he labored beside Guildmaster Edwin VanCleef as they raised Stormwind anew from the ashes of the First War.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_baros-alexston-db077d3a520959f9177d/1-0000.mp3", duration = 45.0873469, start = 0},
+    {file = "Audio/Transport/full_npc_baros-alexston-c0b876fe834191017922/1-0000.mp3", duration = 35.3697959, start = 0},
   },
 }
 P.transport["npc:billy-maclure"] = {
   hash = "24f678",
-  fullHash = "5ceabb",
-  text = "Billy Maclure. Billy Maclure is a mischievous young human boy living at the Maclure Vineyards in Elwynn Forest. Caught in the midst of a bitter feud between his family and the neighboring Stonefields, Billy's petty antics often cause trouble for both farms. His weakness for fresh pastries makes him easy to bribe when his shenanigans get out of hand. Billy Maclure can usually be found loitering outside the barn at the Maclure Vineyards, not far from the farmer Gerard Tiller. Growing up amidst the endless rows of grapevines, Billy spends much of his time dodging chores and running wild across the rural meadows of southern Elwynn Forest. Like the rest of his kin, he is keenly aware of the long-standing hostility between the Maclures and the Stonefields, though Billy treats the feud more like a game of pranks and petty theft than a serious conflict.",
+  fullHash = "751262",
+  text = "Billy Maclure. At Maclure Vineyards, Billy Maclure's pranks stir trouble between two neighboring farms. The young human boy dodges chores and plays at the feud between his family and the Stonefields, but fresh pastries can win his cooperation. Billy Maclure spends his days outside the barn at Maclure Vineyards, near farmer Gerard Tiller. He grows up among the grapevines in southern Elwynn Forest, often dodging chores and roaming the meadows. The Maclures and Stonefields have long been hostile toward each other. Billy treats their feud as a chance for pranks and petty theft.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_billy-maclure-9580b3276bfae5f6503a/1-0000.mp3", duration = 45.1657143, start = 0},
+    {file = "Audio/Transport/full_npc_billy-maclure-367d83f7b56f627740e1/1-0000.mp3", duration = 32.9665306, start = 0},
   },
 }
 P.transport["npc:blind-mary"] = {
@@ -83,10 +83,10 @@ P.transport["npc:blind-mary"] = {
 }
 P.transport["npc:bolvar-fordragon"] = {
   hash = "620dc8",
-  fullHash = "620dc8",
-  text = "Bolvar Fordragon. Highlord Bolvar Fordragon serves as the Regent of Stormwind and Supreme Commander of its armed forces following the mysterious disappearance of King Varian Wrynn. Standing beside the young boy-king Anduin Wrynn in Stormwind Keep, he strives to hold the kingdom together amid escalating domestic turmoil. Though fiercely honorable, Bolvar often finds his martial decisions influenced and stalled by royal advisor Lady Katrana Prestor. When King Varian vanished en route to a peace summit on Theramore Isle, Stormwind was thrown into political disarray. Ten-year-old Prince Anduin was crowned to maintain continuity, but actual governing power fell to Highlord Bolvar Fordragon as Regent. Bolvar is a venerated paladin devoted to the crown, yet he faces immense strain. Stormwind's military is thinly stretched across Westfall, Redridge, and Duskwood. Compounding these crises, Bolvar frequently defers to the counsel of Lady Katrana Prestor, whose dismissive advice consistently blocks him from committing royal troops to peripheral towns.",
+  fullHash = "5896ab",
+  text = "Bolvar Fordragon. Stormwind’s crown and armies rest with Bolvar Fordragon while King Varian is missing. As Regent and Supreme Commander of Stormwind’s armed forces, he stands beside young King Anduin in Stormwind Keep and tries to hold the kingdom together. Domestic troubles grow, while Lady Katrana Prestor’s counsel often delays his military decisions. King Varian vanished on the way to a peace summit on Theramore Isle, leaving Stormwind in political disarray. Ten-year-old Prince Anduin was crowned to preserve continuity, while Highlord Bolvar Fordragon took up the work of ruling as Regent. A venerated paladin devoted to the crown, Bolvar now faces a kingdom under strain. Stormwind’s soldiers are spread thin across Westfall, Redridge, and Duskwood. Lady Katrana Prestor’s dismissive counsel adds to the burden, repeatedly blocking him from sending royal troops to towns on the frontier.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_bolvar-fordragon-63f6bf7afe6f7d52b288/1-0000.mp3", duration = 61.8318367, start = 0},
+    {file = "Audio/Transport/full_npc_bolvar-fordragon-eda7abca86c332bd9b85/1-0000.mp3", duration = 53.8644898, start = 0},
   },
 }
 P.transport["npc:calor"] = {
@@ -99,10 +99,10 @@ P.transport["npc:calor"] = {
 }
 P.transport["npc:captain-grayson"] = {
   hash = "becc07",
-  fullHash = "195406",
-  text = "Captain Grayson. Captain Grayson is the restless spirit of a pirate captain stationed at the Westfall Lighthouse. Having lost his own life when his ship smashed against the dark coastline, he now watches over the beacon to prevent other sailors from suffering his fate. In life, Grayson captained a vessel along the perilous southern seas of the Eastern Kingdoms. His voyage came to a violent end off the jagged shoals of Westfall on a night when the lighthouse fire had gone dark. Cast upon the rocks, Grayson perished alongside his ship, only to awaken as an earthbound phantom trapped upon the coast. Drawn to the Westfall Lighthouse in death, Grayson hoped to find answers about the afterlife. Instead, he witnessed sheer tragedy. A notorious murloc known as Old Murk-Eye drove the lighthouse keeper and his family away. Though the keepers bravely returned to rekindle the flame, Old Murk-Eye rallied the surrounding murlocs for a second, brutal slaughter. Grayson could only watch helplessly as the family was butchered. With the keepers dead and Westfall crumbling under neglect, Captain Grayson took the solemn burden of the beacon upon his spectral shoulders. He seeks aid from passing adventurers to gather fuel for the great flame and avenge the slaughtered family by hunting down Old Murk-Eye and driving back the coastal murloc tide.",
+  fullHash = "aeb7a4",
+  text = "Captain Grayson. At Westfall Lighthouse, Captain Grayson keeps watch over the beacon that failed him. His ship smashed against the dark coastline, and now he tends the light so other sailors will not meet his fate. Captain Grayson once sailed the southern seas of the Eastern Kingdoms as a ship’s captain. One night, the lighthouse fire went dark as his vessel neared Westfall’s jagged shoals. The ship struck the rocks, and Grayson died with it. He awoke as an earthbound phantom, trapped upon the coast. In death, Captain Grayson went to Westfall Lighthouse, hoping to learn what waited beyond life. There he saw Old Murk-Eye, a notorious murloc, drive away the keeper and his family. The brave keepers returned to rekindle the flame, but Old Murk-Eye rallied the surrounding murlocs and led a second, brutal slaughter. Grayson could only watch as the family was butchered. With the keepers dead and Westfall crumbling under neglect, Captain Grayson bears the beacon’s solemn burden on his spectral shoulders. He asks passing travelers to gather fuel for the great flame. He also seeks vengeance for the slaughtered family: hunt down Old Murk-Eye and drive back the coastal murlocs.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_captain-grayson-dc1ca8a111b541d4cd50/1-0000.mp3", duration = 75.3893878, start = 0},
+    {file = "Audio/Transport/full_npc_captain-grayson-3f02c601b7d31e8e9670/1-0000.mp3", duration = 66.795102, start = 0},
   },
 }
 P.transport["npc:captain-stoutfist"] = {
@@ -139,10 +139,10 @@ P.transport["npc:cliffwatcher-longhorn"] = {
 }
 P.transport["npc:collin-mauren"] = {
   hash = "c0384b",
-  fullHash = "11b390",
-  text = "Collin Mauren. Collin Mauren is a human mage residing in the Mage Quarter of Stormwind City. A scholarly researcher and crafter of incantations, he experiments with exotic natural reagents to devise unique utility spells. Among his pursuits is assisting his acquaintance, the gnome engineer and explorer Gaxim Rustfizzle, with specialized arcane scrolls. Situated within Stormwind's bustling Mage Quarter, Collin Mauren spends his days pursuing the quieter, more practical applications of magic. Rather than chasing raw elemental power, he focuses on crafting arcane formulas that solve specific, logistical problems. Collin often turns to natural anomalies and raw components scavenged across Azeroth, weaving their intrinsic properties into functional magic scrolls and reagents for friends and travelers alike. Collin maintains a close friendship with the gnomish tinker Gaxim Rustfizzle. When Gaxim needed a way to set off his NG-5 explosives from a distance, Collin worked out that a messaging spell would do the job. To impress the spell onto a scroll, he uses debris from Westfall's erratic Dust Devils, and he looks forward to hearing how his inventive friend's scheme turns out. Beyond his work with local elementals, Collin's research extends clear across the Great Sea to the crags of Kalimdor. Curiously captivated by the resilient hides of basilisks native to the Stonetalon Mountains, Collin seeks out their scales to synthesize new spells. Travelers venturing into Kalimdor frequently receive his requests for these rare hides, fueling Collin's ongoing fascination with how primal creature anatomy can stabilize complex enchantments.",
+  fullHash = "f07a05",
+  text = "Collin Mauren. In Stormwind's Mage Quarter, Collin Mauren studies practical magic and crafts useful spells from natural reagents. He also makes arcane scrolls for his friend Gaxim Rustfizzle, a gnome engineer and explorer. In Stormwind's Mage Quarter, Collin Mauren studies magic's practical uses. He crafts arcane formulas to solve specific problems, drawing on natural anomalies and raw components gathered across Azeroth. Their properties help him make functional scrolls and reagents for friends and travelers. Collin Mauren is helping his friend Gaxim Rustfizzle set off NG-5 explosives from a distance. Gaxim, a gnome tinkerer, needed a way to trigger them remotely, so Collin devised a messaging spell for a scroll. To impress the spell on it, Collin uses debris from Westfall's erratic Dust Devils. He awaits word on how Gaxim's scheme fares. Collin Mauren's studies reach from Stormwind across the Great Sea to Kalimdor's Stonetalon Mountains. He seeks the scales of the region's basilisks, whose resilient hides interest him as materials for synthesizing new spells. Travelers heading into Kalimdor often receive his requests for these rare hides. The scales fuel his study of how primal creature anatomy can steady complex enchantments.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_collin-mauren-bdc7aa2a52d245ae404c/1-0000.mp3", duration = 95.8171429, start = 0},
+    {file = "Audio/Transport/full_npc_collin-mauren-a585ff08a5c3b8ccf2b1/1-0000.mp3", duration = 75.0236735, start = 0},
   },
 }
 P.transport["npc:corithras-moonrage"] = {
@@ -155,10 +155,10 @@ P.transport["npc:corithras-moonrage"] = {
 }
 P.transport["npc:daphne-stilwell"] = {
   hash = "673add",
-  fullHash = "6bbeff",
-  text = "Daphne Stilwell. Daphne Stilwell tends an isolated orchard nestled atop the coastal cliffs of Westfall overlooking the Longshore. Together with her husband Jordan, she fled turmoil in the north and relocated south, quietly aiding the Church of the Holy Light while defending her home from nearby outlaws. Perched on the bluffs to the west of Moonbrook and the exit of the Deadmines, Daphne Stilwell manages a secluded homestead and apple orchard. From below along the Longshore or above on gryphon routes south to Stranglethorn Vale, the small farm looks quiet and unassuming. Yet running a homestead in modern Westfall is anything but safe. Despite the encroaching bandits and roaming scavengers, Daphne diligently works her trees and keeps watch over her isolated patch of land. Before settling in the hills of Westfall, Daphne and her husband Jordan lived in Lordaeron near Pyrewood Village, working in what is now Shadowfang Keep. When darkness and disaster overtook the region, they were driven southward along with thousands of other human refugees. In Stormwind's orbit, Jordan's renowned craftsmanship and Daphne's steady presence led them to forge close ties with the Church of the Holy Light, providing support and holy arms to paladins of the Silver Hand.",
+  fullHash = "0b9ac6",
+  text = "Daphne Stilwell. On Westfall's cliffs, Daphne Stilwell keeps an orchard above the Longshore. She and her husband Jordan fled the north and now aid the Church of the Holy Light while guarding their home from nearby outlaws. West of Moonbrook and the Deadmines exit, Daphne Stilwell tends a homestead and apple orchard on the bluffs. From the Longshore below or gryphon routes south to Stranglethorn Vale above, the farm looks quiet. But life there is not safe. Bandits and scavengers roam nearby, while Daphne works among the trees and watches over her isolated land. Before coming to Westfall, Daphne and her husband Jordan lived in Lordaeron near Pyrewood Village, where they worked in what is now Shadowfang Keep. Darkness and disaster drove them south with thousands of other human refugees. Near Stormwind, Jordan's renowned skill as a craftsman and Daphne's steady presence brought them close to the Church of the Holy Light. They support the church and provide holy arms to paladins of the Silver Hand.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_daphne-stilwell-7ec244d9ad9ebe41270e/1-0000.mp3", duration = 72.5420408, start = 0},
+    {file = "Audio/Transport/full_npc_daphne-stilwell-8393f7f9a2d13ed56d8c/1-0000.mp3", duration = 58.2269388, start = 0},
   },
 }
 P.transport["npc:delgren-the-purifier"] = {
@@ -195,18 +195,18 @@ P.transport["npc:dorn-plainstalker"] = {
 }
 P.transport["npc:duthorian-rall"] = {
   hash = "3eadf2",
-  fullHash = "557a46",
-  text = "Duthorian Rall. Duthorian Rall is a respected human knight of the Silver Hand stationed within Stormwind's Cathedral of Light. Renowned as one of the most influential paladins in the Alliance, he oversees the training and spiritual trials of emerging holy warriors. He guides recruits through solemn vows of charity, valor, and devotion to defend Azeroth against the Scourge and lurking domestic threats. Standing within the vaulted transept of the Cathedral of Light, Duthorian Rall represents the venerable traditions of the Knights of the Silver Hand. With the kingdom unsettled by internal strife and the missing King Varian Wrynn, Duthorian shoulders the vital duty of instilling righteous discipline in fresh initiates. Respected paladins in the field, including Brother Wilhelm in Goldshire and Brandur Ironhammer in Ironforge, direct promising recruits to his guidance to begin their sacred trials. Duthorian teaches that martial power without moral foundation is hollow. Through the Tome of Divinity, he tests a paladin's capacity for empathy, requiring acts of mercy and selfless service across Stormwind before entrusting them with deeper mysteries. His trials culminate in testing candidates with the Symbol of Life near Heroes' Vigil, sending them to aid wounded allies and teach them to channel the Light's miraculous power to restore fallen comrades from death.",
+  fullHash = "7ea713",
+  text = "Duthorian Rall. In Stormwind's Cathedral of Light, Duthorian Rall guides new holy warriors through their trials. The respected human knight of the Silver Hand is one of the Alliance's most influential paladins, overseeing their training and spiritual tests. He teaches charity, valor, and devotion as they prepare to defend Azeroth from the Scourge and threats within the kingdom. In the Cathedral of Light, Duthorian Rall upholds the traditions of the Knights of the Silver Hand. The kingdom is unsettled by internal strife, and King Varian Wrynn is missing. Duthorian carries the duty of teaching discipline to new initiates. Respected paladins in the field send promising recruits to him: Brother Wilhelm in Goldshire and Brandur Ironhammer in Ironforge, so they can begin their sacred trials. Duthorian teaches that martial power without a moral foundation is hollow. In the Tome of Divinity trials, he tests an initiate's empathy through acts of mercy and selfless service across Stormwind. Only after these tests does he entrust candidates with deeper mysteries. Near Heroes' Vigil, he tests them with the Symbol of Life, then sends them to aid wounded allies and learn to channel the Light's power to restore fallen comrades from death.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_duthorian-rall-8f41ec550ac300a42e26/1-0000.mp3", duration = 77.6097959, start = 0},
+    {file = "Audio/Transport/full_npc_duthorian-rall-4e9a9060beb222a2a427/1-0000.mp3", duration = 69.8253061, start = 0},
   },
 }
 P.transport["npc:elling-trias"] = {
   hash = "ecbf2b",
-  fullHash = "a4df76",
-  text = "Elling Trias. Elling Trias manages Trias' Cheese, a small storefront nestled in the bustling Trade District of Stormwind City. While he presents himself as a jovial and passionate purveyor of dairy, he quietly operates as one of the kingdom's most connected information brokers. Behind wheels of cheese and cordial banter, Trias maintains an ear to the ground that reaches across continents. To the casual customer strolling the Trade District, Elling Trias is merely an artisan dedicated to fine curds, working his shop alongside his wife Elaine and son Ben. He enthusiastically hawks wheels of cheese and chats amicably with townsfolk. Yet those in the know understand that Trias' Cheese is one of the most reliable fronts in Stormwind. The steady hum of city commerce provides perfect cover for operatives, courtiers, and adventurers who need to trade quiet words without drawing the attention of the city watch. Elling's network of informants and allies is staggering for a shopkeeper. He maintains ties with Master Mathias Shaw of SI:7, coordinates with Church contacts like Bishop DeLavey, and corresponds with agents as far afield as Darkshire, Theramore Isle, and the distant Plaguelands near Hearthglen. When odd rumors surface—whether concerning highway bandits or quiet movements in the countryside—Trias often pieces the puzzle together long before the royal court takes notice.",
+  fullHash = "fa9dc5",
+  text = "Elling Trias. In Stormwind's Trade District, Elling Trias runs a cheese shop with his family. He welcomes customers with easy talk, while his quiet work as an information broker reaches across continents. Elling Trias sells fine cheese in the Trade District, working beside his wife Elaine and son Ben. He cheerfully offers wheels of cheese and chats with the townsfolk. To those who know better, Trias' Cheese is one of Stormwind's most reliable fronts. The city's steady trade gives operatives, courtiers and adventurers a place to exchange quiet words beyond the city watch's notice. Elling Trias has informants and allies far beyond what most shopkeepers can claim. He keeps ties with Master Mathias Shaw of SI:7, works with Church contacts such as Bishop DeLavey, and corresponds with agents in Darkshire, Theramore Isle and the distant Plaguelands near Hearthglen. When rumors surface about highway bandits or quiet movements in the countryside, Trias often pieces them together before the royal court takes notice.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_elling-trias-5af535621ed89f73a2e2/1-0000.mp3", duration = 78.3934694, start = 0},
+    {file = "Audio/Transport/full_npc_elling-trias-7a2b0923520a780e86fd/1-0000.mp3", duration = 58.8016327, start = 0},
   },
 }
 P.transport["npc:fandral-staghelm"] = {
@@ -219,10 +219,10 @@ P.transport["npc:fandral-staghelm"] = {
 }
 P.transport["npc:farthing"] = {
   hash = "014af8",
-  fullHash = "1b1438",
-  text = "Farthing. Bishop Farthing is a human clergyman residing within the Cathedral of Light in Stormwind City. Known as a kind and wise servant of the Holy Light, he guides parishioners and directs aid toward beleaguered settlements across the kingdom. Within the serene marble halls of the Cathedral of Light, Bishop Farthing stands as one of the prominent figures attending to the spiritual needs of Stormwind City. Alongside Archbishop Benedictus and the gathered clergy, he offers counsel to travelers, assists those pursuing the holy arts, and attends to the civic and pastoral obligations of the Church of the Holy Light. Despite remaining situated within the capital, Farthing directs earnest travelers toward darker corners of the kingdom that desperately require holy aid. When troubled reports filter in regarding the necromancer Morbent Fel and the creeping undead blight overtaking Duskwood, Farthing serves as an advisor in seeking out methods to overcome dark sorceries and cleanse the blighted frontier.",
+  fullHash = "33bb81",
+  text = "Farthing. Farthing serves the faithful from Stormwind's Cathedral of Light. The kind and wise human clergyman guides parishioners and directs aid to settlements across the kingdom. Bishop Farthing tends to the spiritual needs of Stormwind City from the Cathedral of Light. Alongside Archbishop Benedictus and the gathered clergy, he counsels travelers, assists those pursuing the holy arts, and attends to the Church of the Holy Light's civic and pastoral duties. From the capital, Farthing directs earnest travelers toward parts of the kingdom in need of holy aid. Reports tell of the necromancer Morbent Fel and an undead blight spreading through Duskwood. Farthing advises on ways to overcome dark sorceries and cleanse the blighted frontier.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_farthing-d245ecf7502126a29eba/1-0000.mp3", duration = 56.2155102, start = 0},
+    {file = "Audio/Transport/full_npc_farthing-6e2f8ccfa68026ff7e55/1-0000.mp3", duration = 44.2514286, start = 0},
   },
 }
 P.transport["npc:first-mate-fitzsimmons"] = {
@@ -243,18 +243,18 @@ P.transport["npc:foreman-oslow"] = {
 }
 P.transport["npc:furen-longbeard"] = {
   hash = "c59646",
-  fullHash = "775128",
-  text = "Furen Longbeard. Furen Longbeard is a master dwarven armorer stationed within Stormwind City's bustling Dwarven District. Apprenticed under the renowned smith Grimand Elmore, he specializes in crafting heavy protective gear and sturdy mail for seasoned defenders of the Alliance. Warriors across the kingdom seek out his metallurgical expertise to forge specialized, battle-ready armor. Furen Longbeard plies his craft far from the great forges of Ironforge, making his home instead among the cobblestones and soot of Stormwind's Dwarven District. Like many of his kin, Furen brought traditional dwarven metallurgy south to support the rebuilding and defense of the kingdom. Working amidst blazing hearths and clanging anvils, he maintains strong ties with other artisans throughout the city and beyond. Taught by the venerable craftsman Grimand Elmore, Furen has perfected techniques for treating heavy mail and plate to withstand extreme battlefield punishment. Promising young warriors seeking durable protection often turn to Furen, who requires rare ores, specialized components, and exotic reagents from distant corners of the world to fashion his signature fire-hardened armor.",
+  fullHash = "61db7c",
+  text = "Furen Longbeard. In Stormwind's Dwarven District, warriors seek Furen Longbeard's skill to forge specialized, battle-ready armor. Apprenticed to Grimand Elmore, the master armorer is known for his metallurgical expertise and heavy protective gear. Furen Longbeard works far from Ironforge's great forges, among the cobblestones and soot of Stormwind's Dwarven District. Like many dwarves, he brought traditional metallurgy south to help rebuild and defend the kingdom. His work keeps him connected with artisans throughout the city and beyond. Grimand Elmore taught Furen Longbeard his craft. Furen has perfected ways to treat heavy mail and plate so they can withstand the punishment of battle. Young warriors seeking durable protection turn to him, and he requires rare ores, specialized components, and exotic reagents from distant corners of the world to fashion his signature fire-hardened armor.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_furen-longbeard-7cb26047640168376a10/1-0000.mp3", duration = 67.7093878, start = 0},
+    {file = "Audio/Transport/full_npc_furen-longbeard-2985e9a01c23aa7e97f4/1-0000.mp3", duration = 50.964898, start = 0},
   },
 }
 P.transport["npc:gakin-the-darkbinder"] = {
   hash = "1d2b80",
-  fullHash = "8c5eaa",
-  text = "Gakin the Darkbinder. Gakin the Darkbinder is a master warlock operating covertly deep beneath The Slaughtered Lamb tavern in Stormwind's Mage Quarter. He instructs aspiring Alliance practitioners in the dark arts, testing their resolve before initiating rituals to summon and bind otherworldly demons to their service. While Stormwind's mages practice openly in their towering sanctuaries, practitioners of shadow and fel must dwell where prying eyes cannot reach. Hidden below the taproom of The Slaughtered Lamb is a damp crypt-like cellar equipped with summoning circles and grim tomes. Gakin serves as the anchor of this hidden conclave, ensuring that young warlocks learn discipline and restraint before unleashing horrors they cannot control. Gakin's expertise lies in demonology and binding rituals. Initiates who earn his notice are sent across the kingdom to acquire rare relics and ingredients—from stolen bloodstone talismans to corrupt wood from the dark forests. Once the reagents are assembled, Gakin oversees rituals in the crypt's summoning circle, forcing novitiates to subjugate voidwalkers and succubi in life-or-death trials of willpower.",
+  fullHash = "7211b0",
+  text = "Gakin the Darkbinder. Beneath The Slaughtered Lamb in Stormwind, Gakin the Darkbinder teaches the warlock arts in secret. He tests aspiring Alliance warlocks before they attempt to summon and bind demons. Below The Slaughtered Lamb's taproom, a cellar shelters those who study shadow and fel. The crypt-like room holds summoning circles and grim tomes, hidden from the eyes that watch Stormwind's open mage sanctuaries. Gakin guides young warlocks there, teaching discipline and restraint before they summon forces they cannot control. Gakin teaches demonology and the rites used to bind demons. Those who earn his notice travel across the kingdom to gather rare things, including stolen bloodstone talismans and corrupt wood from dark forests. When the materials are ready, Gakin oversees their work in the crypt's summoning circle. Novices must master voidwalkers and succubi in trials that test their will and put their lives at risk.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_gakin-the-darkbinder-b7b9a95cc49327a0698b/1-0000.mp3", duration = 66.7167347, start = 0},
+    {file = "Audio/Transport/full_npc_gakin-the-darkbinder-5eff1ee98d7e714eaf08/1-0000.mp3", duration = 52.9502041, start = 0},
   },
 }
 P.transport["npc:gaxim-rustfizzle"] = {
@@ -299,18 +299,18 @@ P.transport["npc:grif-wildheart"] = {
 }
 P.transport["npc:gryan-stoutmantle"] = {
   hash = "ed4bcb",
-  fullHash = "7a1d76",
-  text = "Gryan Stoutmantle. Gryan Stoutmantle is a paladin of the Silver Hand and the commander of the People's Militia, operating out of Sentinel Hill in Westfall. Born in Westfall, he returned from the devastated northern kingdom of Lordaeron to protect his homeland after Stormwind's crown abandoned the region to banditry. Gryan Stoutmantle began his service far from the quiet fields of southern Azeroth. Traveling north to Lordaeron as a young man, he took vows as a Knight of the Silver Hand and endured the horrors of the Third War. When news reached him that his native province of Westfall was collapsing into lawlessness, overrun by organized brigands and abandoned by the crown, Gryan left the northern fronts behind. He traded imperial battlefields for the defense of honest farmers, swearing that his home would not fall as the north had. Upon his return, Gryan found Westfall virtually undefended. Due to royal neglect and political paralysis within the House of Nobles, Stormwind refused to dispatch garrison troops. In response, Stoutmantle established the People's Militia at Sentinel Hill, rallying local farmers, sentries, and traveling mercenaries into a volunteer defense corps. His forces hold a precarious line against the Defias Brotherhood, riverpaw gnolls, and hostile mechanoids, unable even to spare reinforcements when neighbor settlements like Lakeshire plead for aid.",
+  fullHash = "177e4f",
+  text = "Gryan Stoutmantle. At Sentinel Hill in Westfall, Gryan Stoutmantle leads the People's Militia. A paladin of the Silver Hand, he returned from Lordaeron to defend his birthplace after Stormwind's crown left it to banditry. Gryan Stoutmantle first served far from Westfall's fields. As a young man, he traveled north to Lordaeron and took vows as a Knight of the Silver Hand. He endured the horrors of the Third War there. News reached him that his native province was collapsing into lawlessness, overrun by organized brigands and abandoned by the crown. Gryan left the northern fronts to defend honest farmers, determined that his home would not fall as the north had. When Gryan returned, Westfall had virtually no defenders. Royal neglect and political paralysis in the House of Nobles kept Stormwind from sending garrison troops. Gryan formed the People's Militia at Sentinel Hill, gathering local farmers, sentries, and traveling mercenaries into a volunteer defense corps. The militia holds a precarious line against the Defias Brotherhood, riverpaw gnolls, and hostile mechanoids. Even when nearby Lakeshire pleads for aid, Gryan cannot spare reinforcements.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_gryan-stoutmantle-912448086c937086e8b9/1-0000.mp3", duration = 79.4122449, start = 0},
+    {file = "Audio/Transport/full_npc_gryan-stoutmantle-c64688321b4def184a66/1-0000.mp3", duration = 68.4669388, start = 0},
   },
 }
 P.transport["npc:guard-thomas"] = {
   hash = "082cd1",
-  fullHash = "082cd1",
-  text = "Guard Thomas. Guard Thomas is a dedicated soldier of the Stormwind Army stationed at the bridge west of the Eastvale Logging Camp. Isolated on the eastern frontier of Elwynn Forest, he oversees the defense of local settlers against predatory wildlife and encroaching murlocs. While much of the realm's attention is focused inward toward the capital or west toward Westfall, Guard Thomas holds one of the quietest yet most precarious posts in Elwynn Forest. Positioned at the stone bridge crossing the river toward Eastvale Logging Camp, Thomas acts as the thin blue line between everyday forestry workers and the aggressive creatures roaming the woods. With the Stormwind military stretched thin, guards like Thomas must rely heavily on passing adventurers to maintain order and carry messages back to central command.",
+  fullHash = "67c531",
+  text = "Guard Thomas. At the bridge west of Eastvale Logging Camp, Guard Thomas watches Elwynn’s eastern frontier. The Stormwind soldier guards local workers from wild predators and murlocs. At the stone bridge over the river toward Eastvale Logging Camp, Guard Thomas holds a quiet but exposed post. The woods around him shelter aggressive creatures, and the logging workers depend on the Stormwind guard for protection. With the army stretched thin, Thomas must rely on travelers to help keep order and carry messages to central command.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_guard-thomas-49a823a743bc50cb4337/1-0000.mp3", duration = 44.8261224, start = 0},
+    {file = "Audio/Transport/full_npc_guard-thomas-eecb49513f309b52eee1/1-0000.mp3", duration = 29.9363265, start = 0},
   },
 }
 P.transport["npc:gwennyth-bly-leggonde"] = {
@@ -331,10 +331,10 @@ P.transport["npc:high-executor-darthalia"] = {
 }
 P.transport["npc:high-priestess-laurena"] = {
   hash = "7a8e40",
-  fullHash = "6216ce",
-  text = "High Priestess Laurena. High Priestess Laurena is a respected human priest trainer stationed behind the grand altar within Stormwind City's Cathedral of Light. She instructs budding Alliance priests in spiritual devotion and arcane wards. As a High Priestess of the Church of the Holy Light, Laurena holds one of the senior posts within the towering halls of the Cathedral of Light, the heart of the faith in Stormwind City, where Archbishop Benedictus leads the Church. Positioned directly behind the central altar within the cathedral sanctuary, High Priestess Laurena dedicates herself to mentoring aspiring priests. When promising acolytes demonstrate sufficient dedication and piety, they are directed to her to deepen their studies. Laurena guides them in the invocation of sacred boons such as Desperate Prayer and instructs them in defensive arts, including spells designed to turn enemy arcane magic back against those who wield it. Once an initiate has learned all she can offer, she sends them onward to other master priests across the Alliance.",
+  fullHash = "c88bb1",
+  text = "High Priestess Laurena. At Stormwind's Cathedral of Light, High Priestess Laurena trains human priests in devotion and arcane wards. High Priestess Laurena holds a senior post in the Church of the Holy Light. She serves in Stormwind City's Cathedral of Light, the heart of the faith, where Archbishop Benedictus leads the Church. Behind the central altar in the cathedral sanctuary, High Priestess Laurena mentors aspiring priests. Acolytes who show dedication and piety are sent to her for deeper study. She teaches sacred boons such as Desperate Prayer and defensive spells that turn enemy arcane magic against its wielders. When her students have learned all she can teach, she sends them to other master priests across the Alliance.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_high-priestess-laurena-ae78d0e1d9ab10595d75/1-0000.mp3", duration = 55.4057143, start = 0},
+    {file = "Audio/Transport/full_npc_high-priestess-laurena-020c654f9561afaf1d7f/1-0000.mp3", duration = 40.2546939, start = 0},
   },
 }
 P.transport["npc:illiyana"] = {
@@ -483,10 +483,10 @@ P.transport["npc:malfurion-stormrage"] = {
 }
 P.transport["npc:marshal-dughan"] = {
   hash = "4f65b1",
-  fullHash = "1602c1",
-  text = "Marshal Dughan. Marshal Dughan is the commanding officer of the Stormwind Army detachment stationed in Goldshire. Tasked with protecting the heart of Elwynn Forest, he finds his local garrison stretched thin against growing incursions of kobolds, gnolls, and bandits. To keep the crossroads town and surrounding farmsteads safe, he relies heavily on independent adventurers. Stationed prominently in Goldshire outside the Lion's Pride Inn, Marshal Dughan bears the heavy burden of keeping Elwynn Forest secure while Stormwind's military resources are tied up elsewhere. The surrounding woods are steadily deteriorating: vermin choke the mines, gnolls mass along the riverbanks, and highwaymen harass travelers along the King's Road. With too few footmen under his direct command, Dughan orchestrates local defense by directing fresh recruits to reinforce outposts and scout contested ground. Dughan's immediate concerns lie with the kobold infestations overrunning Fargodeep and Jasperlode Mines, threatening Goldshire's vital mineral output. To the west, Riverpaw gnolls led by the notorious Hogger press hard against Westbrook Garrison. To the east, Dughan is forced to confront reports from Guard Thomas concerning vicious murlocs slaughtering patrols along the river. Managing these overlapping crises with limited manpower keeps the marshal in constant need of capable mercenaries.",
+  fullHash = "9d8ed0",
+  text = "Marshal Dughan. Goldshire's marshal faces threats on every road and mine. Marshal Dughan commands the Stormwind Army detachment there, but kobolds, gnolls, and bandits stretch his small garrison. He depends on independent adventurers to help protect the town and nearby farms. Marshal Dughan directs Elwynn Forest's defense from Goldshire, outside the Lion's Pride Inn. Stormwind's soldiers are tied up elsewhere, while trouble grows in the woods. Kobolds crowd the mines, gnolls gather along the riverbanks, and highwaymen harass travelers on the King's Road. With too few footmen under his command, Dughan sends new recruits to reinforce outposts and scout dangerous ground. Kobolds overrun Fargodeep and Jasperlode Mines, threatening Goldshire's mineral supply. West of town, Hogger's Riverpaw gnolls press against Westbrook Garrison. Eastward, Guard Thomas reports vicious murlocs killing patrols along the river. Dughan has too few soldiers to meet each threat, so he needs capable mercenaries to help contain them.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_marshal-dughan-902cb003cda579ba4113/1-0000.mp3", duration = 79.0987755, start = 0},
+    {file = "Audio/Transport/full_npc_marshal-dughan-19ad2d202160174c07b0/1-0000.mp3", duration = 59.5069388, start = 0},
   },
 }
 P.transport["npc:marshal-marris"] = {
@@ -499,18 +499,18 @@ P.transport["npc:marshal-marris"] = {
 }
 P.transport["npc:marshal-mcbride"] = {
   hash = "25c67b",
-  fullHash = "aa6905",
-  text = "Marshal McBride. Marshal Douglas McBride is the commander of the Stormwind garrison stationed at Northshire Abbey. Tasked with the defense of Northshire Valley, he directs freshly arrived recruits against the rising kobold infestation threatening local farms and mines. He serves as the primary military authority for newcomers beginning their service to the kingdom of Stormwind. Stationed right outside Northshire Abbey, Marshal Douglas McBride represents the direct authority of the Stormwind Army in this quiet valley. While the abbey itself is an enclave of faith and learning, rising turmoil across the kingdom has stretched military garrisons thin. McBride must maintain peace and secure the valley's food and resource supplies with only a handful of sworn guards and an influx of green recruits seeking training under the abbey's masters. McBride's primary headache is the sudden aggression of local vermin. Kobolds, once merely a nuisance, have overrun the surrounding woods and seized Echo Ridge Mine—a vital local asset. Lacking the regular soldiers needed to clear them out, McBride marshals paladins, warriors, and other novices to push back the tunneling pests and uncover the extent of the infestation before the valley is completely choked off.",
+  fullHash = "0ca27b",
+  text = "Marshal McBride. At Northshire Abbey, Marshal McBride commands Stormwind's garrison and defends the valley. Kobolds threaten its farms and mines, so he directs new recruits against them. Marshal McBride commands Stormwind's garrison outside Northshire Abbey. The abbey is a place of faith and learning, while unrest across the kingdom has left military garrisons short of soldiers. With only a handful of sworn guards, McBride must keep the valley peaceful and protect its food and resources. Green recruits arrive seeking training from the abbey's masters, and he must put them to work. Kobolds have grown more aggressive around Northshire. Once a nuisance, they have spread through the woods and seized Echo Ridge Mine, an important local resource. Short of regular soldiers, McBride calls on paladins, warriors, and other novices to drive back the tunneling kobolds and learn how far the infestation reaches before the valley is cut off.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_marshal-mcbride-9e9cd0d68130f45edcf4/1-0000.mp3", duration = 70.164898, start = 0},
+    {file = "Audio/Transport/full_npc_marshal-mcbride-e10155aacee554636da6/1-0000.mp3", duration = 54.0995918, start = 0},
   },
 }
 P.transport["npc:mathias-shaw"] = {
   hash = "43d149",
-  fullHash = "7291bc",
-  text = "Mathias Shaw. Master Mathias Shaw is the leader of SI:7, the covert intelligence agency of the Kingdom of Stormwind. Operating from the shadows of Old Town, he directs spies and scouts to protect the realm from internal conspiracies and external horrors alike. Mathias Shaw stands as Stormwind's foremost spymaster and assassin. From SI:7's discreet headquarters tucked behind the barracks in Old Town, Shaw coordinates a covert network that spans the Eastern Kingdoms and beyond. Pragmatic, calculating, and fiercely loyal to the House of Wrynn, he operates on the philosophy that Stormwind's safety depends just as much on unseen daggers and stolen missives as it does on gleaming armor and palace garrisons. While domestic insurrection consumes Westfall and Elwynn, Shaw's attention is constantly drawn outward to lethal unknowns. When reports reached him of bizarre Forsaken operations in the Eastern Plaguelands, he dispatched five of his finest agents to investigate. Only one returned alive—babbling in terror about \"Nathanos\" and a \"Blightcaller\" before dying in his sleep. Shaw relies on trusted independent champions to venture where his scouts vanish, seeking to pierce the gloom gathering at the kingdom's borders.",
+  fullHash = "6ea39e",
+  text = "Mathias Shaw. In Old Town, Mathias Shaw directs SI:7, Stormwind's covert intelligence agency. From the shadows, he sends spies and scouts to guard the realm against conspiracies within and horrors beyond. Mathias Shaw leads Stormwind's spies and assassins from SI:7's hidden headquarters behind the barracks in Old Town. His covert network reaches across the Eastern Kingdoms and beyond. Loyal to the House of Wrynn, Shaw weighs every threat with care. He trusts unseen daggers and stolen messages to defend Stormwind as much as armor and palace guards. Mathias Shaw watches threats beyond the unrest in Westfall and Elwynn. Reports of strange Forsaken operations in the Eastern Plaguelands led him to send five of his finest agents to investigate. Only one came back alive, babbling about \"Nathanos\" and a \"Blightcaller\" before dying in his sleep. Shaw now depends on trusted champions to go where his scouts vanish and uncover the dangers gathering at the kingdom's borders.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_mathias-shaw-33c07ee90962b8c2ce51/1-0000.mp3", duration = 72.1763265, start = 0},
+    {file = "Audio/Transport/full_npc_mathias-shaw-70f110584c3977081f61/1-0000.mp3", duration = 55.7453061, start = 0},
   },
 }
 P.transport["npc:mathrengyl-bearwalker"] = {
@@ -627,10 +627,10 @@ P.transport["npc:shael-dryn"] = {
 }
 P.transport["npc:sprite-jumpsprocket"] = {
   hash = "e8f25f",
-  fullHash = "f2cfc6",
-  text = "Sprite Jumpsprocket. Sprite Jumpsprocket is an apprentice gnome engineer currently residing in the busy Dwarven District of Stormwind City. Like many gnomes who sought refuge following the fall of Gnomeregan, she pursues technical craft and innovation alongside her fellow tinkers. Her presence highlights the thriving community of dwarven and gnomish artisans who keep the capital city supplied with gears, gadgets, and mechanical expertise. In the soot-covered streets and bustling workshops of the Dwarven District, gnomes and dwarves work shoulder-to-shoulder forging metal and designing intricate contraptions. Sprite Jumpsprocket serves as an apprentice engineer in this vibrant hub. Having integrated into the kingdom's capital, apprentice tinkers like Sprite hone their craft under experienced masters, contributing their inventive minds to the everyday mechanisms and technological marvels of the Alliance. Following the devastating loss of Gnomeregan, displaced gnomes dispersed across Alliance lands, bringing their singular knack for tinkering, chemistry, and mechanics with them. In Stormwind City, gnomes found a welcoming sanctuary within the Dwarven District, where blast furnaces and workbenches are plentiful. Sprite Jumpsprocket represents this resilient, forward-looking spirit—determined to master the complex discipline of engineering despite the hardships faced by her kin.",
+  fullHash = "8864bf",
+  text = "Sprite Jumpsprocket. In Stormwind's Dwarven District, Sprite Jumpsprocket works among gnomish and dwarven artisans. Like many gnomes who sought refuge after Gnomeregan fell, she pursues engineering alongside fellow tinkers. Sprite Jumpsprocket works as an apprentice engineer in Stormwind's Dwarven District, where gnomes and dwarves forge metal and design intricate devices side by side. She has made her place in the kingdom's capital, where apprentice tinkers hone their craft under experienced masters. Their inventive minds help maintain the Alliance's everyday mechanisms and marvels. After Gnomeregan fell, displaced gnomes spread across Alliance lands, bringing their skill in tinkering, chemistry, and mechanics. In Stormwind, they found a welcoming sanctuary in the Dwarven District, with its blast furnaces and workbenches. Sprite Jumpsprocket reflects their resolve to master engineering despite the hardships her kin have faced.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_sprite-jumpsprocket-0e806b243b6b2659b838/1-0000.mp3", duration = 77.5053061, start = 0},
+    {file = "Audio/Transport/full_npc_sprite-jumpsprocket-5eef9ab5849d15701cd1/1-0000.mp3", duration = 53.76, start = 0},
   },
 }
 P.transport["npc:sten-stoutarm"] = {
@@ -675,10 +675,10 @@ P.transport["npc:terenthis"] = {
 }
 P.transport["npc:theocritus"] = {
   hash = "9eca2f",
-  fullHash = "2a718d",
-  text = "Theocritus. Archmage Theocritus is an eccentric human wizard who resides at the peak of the Tower of Azora in eastern Elwynn Forest. He lives independently, surrounded by servants and magical scrying devices. From his high sanctum, Theocritus directs his arcane talents toward keeping watch over the kingdom and combating his dark rival, the rogue mage Morganth. Archmage Theocritus keeps an independent stronghold in the kingdom of Stormwind. He settled in the prominent Tower of Azora, situated near the eastern road to Redridge. Theocritus is known for his eccentric habits and comfortable lifestyle, employing an extensive household staff that includes numerous gnomish attendants and his own dedicated clothier, Morley Eberlein. Though he keeps himself largely detached from the mundane concerns of local villagers, his presence serves as a critical magical bulwark in eastern Elwynn. Theocritus's greatest ongoing concern is the fallen mage Morganth, a dangerous warlock operating from the Tower of Ilgalar in the nearby Redridge Mountains. Viewing Morganth both as a personal nemesis and a severe peril to Stormwind, Theocritus has dedicated months of arcane research to undermining him. Through scrying artifacts like the Eye of Azora, Theocritus monitors the villain's actions and delves into his thoughts. He also works to turn Morganth's own creations against him, studying the magical pendants carried by the Shadowhide gnolls in hopes of transmitting an arcane pulse that can immobilize the entire pack.",
+  fullHash = "ef69e3",
+  text = "Theocritus. At the Tower of Azora in eastern Elwynn, Theocritus watches over the kingdom and opposes Morganth. The eccentric human archmage lives apart from others, surrounded by servants and magical scrying devices. Archmage Theocritus keeps his own stronghold in the kingdom of Stormwind. He lives in the Tower of Azora, near the eastern road to Redridge. Eccentric in his habits, he enjoys a comfortable life with a large household staff, including gnomish attendants and his clothier, Morley Eberlein. He keeps apart from the everyday concerns of local villagers, yet his magic guards eastern Elwynn. The fallen mage Morganth is Theocritus's greatest concern. Morganth works from the Tower of Ilgalar in the nearby Redridge Mountains, and Theocritus sees him as both a personal enemy and a danger to Stormwind. For months, Theocritus has used arcane research to undermine him. With scrying devices such as the Eye of Azora, he watches Morganth's actions and probes his thoughts. He also studies the magical pendants worn by Morganth's Shadowhide gnolls, hoping to turn their master's creations against him with an arcane pulse that can immobilize the entire pack.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_theocritus-de6f1be9b4fa3722d671/1-0000.mp3", duration = 85.7861224, start = 0},
+    {file = "Audio/Transport/full_npc_theocritus-a0bf49dd32ba20bc88f0/1-0000.mp3", duration = 69.0416327, start = 0},
   },
 }
 P.transport["npc:thyn-tel-bladeweaver"] = {
@@ -739,10 +739,10 @@ P.transport["npc:warden-thelwater"] = {
 }
 P.transport["npc:william-pestle"] = {
   hash = "78ce20",
-  fullHash = "1d87a3",
-  text = "William Pestle. William Pestle is a human alchemist staying inside Goldshire's Lion's Pride Inn. Together with his brother Morgan, he helps run the apothecary shop in Stormwind's Trade District. He frequently employs traveling adventurers to gather odd reagents like kobold candles, murloc kelp, and herbal supplies. While his brother Morgan Pestle manages the counter at Pestle's Apothecary in the Trade District of Stormwind City, William operates out of the Lion's Pride Inn in Goldshire. Being stationed in Elwynn Forest allows him to work closely with local gatherers and secure raw materials that city shops constantly require. He maintains regular shipments back to the capital, ensuring Stormwind's citizens have steady access to restorative salves, draughts, and powders. William's craft often demands unusual components that go beyond simple garden herbs. He frequently commissions newcomers to gather wax candles carried by Elwynn's infesting kobolds, as well as crystal kelp taken from the murlocs of Crystal Lake, just east of Goldshire. Although such concoctions seem bizarre to the uninitiated, William insists these strange ingredients possess potent alchemical virtues.",
+  fullHash = "e3f8f0",
+  text = "William Pestle. At the Lion's Pride Inn in Goldshire, William Pestle gathers supplies for Stormwind's apothecary. He and his brother Morgan run the shop in the Trade District, and William hires travelers to find candles, kelp, and herbs. William works from Goldshire's Lion's Pride Inn while his brother Morgan Pestle tends the counter at Pestle's Apothecary in Stormwind City's Trade District. From Elwynn Forest, William works with local gatherers to secure raw materials the city shops need. He sends regular shipments to the capital, where Stormwind's citizens rely on a steady supply of restorative salves, draughts, and powders. William often needs more than common garden herbs for his craft. He hires newcomers to gather wax candles carried by Elwynn's kobolds and crystal kelp from the murlocs of Crystal Lake, just east of Goldshire. The ingredients may seem strange to those unfamiliar with alchemy, but William believes they have potent virtues in a mixture.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_william-pestle-910233588daa9095db02/1-0000.mp3", duration = 69.0938776, start = 0},
+    {file = "Audio/Transport/full_npc_william-pestle-8915ed43ae59dc16886f/1-0000.mp3", duration = 55.1967347, start = 0},
   },
 }
 P.transport["npc:wizbang-cranktoggle"] = {
@@ -771,10 +771,10 @@ P.transport["subzone:aldrassil"] = {
 }
 P.transport["subzone:alexston-farmstead"] = {
   hash = "32969a",
-  fullHash = "8e9538",
-  text = "Alexston Farmstead. The Alexston Farmstead is a derelict farm in Westfall, overgrown and prowled by haywire Harvest Watchers. Once the childhood home of Stormwind's city architect, Baros Alexston, it has fallen into ruin like much of the breadbasket around it. Situated amidst the dry plains of Westfall, the Alexston Farmstead stands as another grim testament to the kingdom's neglect. Like neighboring estates, the farm was abandoned by its caretakers when banditry erupted across the countryside. Today, the fields are overgrown, and the mechanical Harvest Watchers left behind to tend the crops have spun out of control, violently attacking anyone who approaches the barren farmhouse. Despite its bleak state, the farm is tied to one of Stormwind's most prominent citizens. Baros Alexston, the skilled architect who helped design parts of the rebuilt capital, spent his youth toiling on these very fields. He left the farmstead long before the unrest began to pursue his trade in masonry and construction, leaving behind a memento of his early life nestled among the ruins.",
+  fullHash = "c69d72",
+  text = "Alexston Farmstead. At Alexston Farmstead, wild Harvest Watchers prowl the ruined fields. Baros Alexston grew up here before becoming Stormwind's city architect. Alexston Farmstead lies amid Westfall's dry plains, abandoned like the neighboring estates. Its caretakers fled when banditry spread across the countryside. Now the fields have grown wild, and the Harvest Watchers left to tend the crops attack anyone who comes near the barren farmhouse. Baros Alexston spent his youth working these fields before leaving to pursue masonry and construction. He became one of Stormwind's most prominent citizens, helping design parts of the rebuilt capital. Something from his early life remains among the ruins.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_alexston-farmstead-367d63ec02be7c8decee/1-0000.mp3", duration = 61.9885714, start = 0},
+    {file = "Audio/Transport/full_subzone_alexston-farmstead-22d23829a5bb0d56cbad/1-0000.mp3", duration = 40.3330612, start = 0},
   },
 }
 P.transport["subzone:algaz-station"] = {
@@ -955,10 +955,10 @@ P.transport["subzone:boulderslide-ravine"] = {
 }
 P.transport["subzone:brackwell-pumpkin-patch"] = {
   hash = "ab9ecd",
-  fullHash = "ab9ecd",
-  text = "Brackwell Pumpkin Patch. Brackwell Pumpkin Patch is an overrun farmstead in southeastern Elwynn Forest. Once home to the Brackwell family, the fields and cottage have been thoroughly seized by the Defias Brotherhood as an operational hideout. It serves as a meeting point for rogue conspirators and a staging ground for smuggling stolen gold. Situated southeast of the Stonefield homestead, the Brackwell farm was once a productive patch of Elwynn farmland. Today, the rightful owners have vanished without a trace, driven out or worse by the rising criminal tide. In their absence, the Defias Brotherhood claimed the farm's sturdy cottage and overgrown fields. The area functions as a safehouse and transfer post, where brigands regroup away from the watchful eyes of Goldshire's patrols. High-profile conspirators like Morgan the Collector use the isolated patch to receive shipments of illicitly gathered gold skimmed from the forest's mines.",
+  fullHash = "bb6e16",
+  text = "Brackwell Pumpkin Patch. Defias brigands have taken over Brackwell Pumpkin Patch in southeastern Elwynn Forest. The farm once belonged to the Brackwell family, but now its cottage and fields serve as a hideout where conspirators meet and stolen mine gold is received. You find the Brackwell farm southeast of the Stonefield homestead, its fields no longer tended. The Brackwell family has vanished, driven away or worse as crime spread through the area. The Defias Brotherhood now occupies the sturdy cottage and overgrown fields. Brigands regroup here beyond the reach of Goldshire's patrols. Morgan the Collector and other prominent conspirators use the isolated farm to receive illicit gold taken from the forest's mines.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_brackwell-pumpkin-patch-fff4676005bc9d4f3c71/1-0000.mp3", duration = 52.1665306, start = 0},
+    {file = "Audio/Transport/full_subzone_brackwell-pumpkin-patch-700887473172c12c4a33/1-0000.mp3", duration = 41.0383673, start = 0},
   },
 }
 P.transport["subzone:brewnall-village"] = {
@@ -995,26 +995,26 @@ P.transport["subzone:camp-aparaje"] = {
 }
 P.transport["subzone:canals-stormwind-city"] = {
   hash = "34363d",
-  fullHash = "0ab82a",
-  text = "Canals (Stormwind City). The Canals are a network of stone-lined waterways weaving through Stormwind City, separating its distinct districts. They serve as quiet thoroughfares for pedestrians and anglers, while quietly harboring hidden hazards and the entrance to the city's prison. The Canals link and define the districts of Stormwind, dividing the bustling markets of the Trade District from the aged alleys of Old Town, the cathedral gardens, and the Dwarven District. Stone bridges, archways, and waterside walkways frame quiet establishments like the Gallina Winery, tailor shops, and quiet residential homes. In addition to serving local merchants and recreational fishermen, the waterways conceal the fortified entrance to the Stockade, where Stormwind's most dangerous criminals and rebels are held beneath street level. The placid surface of the waterways belies a violent past. When the Horde sacked Stormwind during the First War, the city was left in ruins, and the canals were restored only as the capital was rebuilt after the Second War. Today, while cleaned and restored, the depths retain an air of mystery, fueled by city rumors of a massive albino crocolisk prowling beneath the docks.",
+  fullHash = "76852a",
+  text = "Canals (Stormwind City). Stormwind's Canals wind between the city's districts, where walkers and anglers share the waterside paths. You can follow the Canals between Stormwind's districts, from the Trade District's markets to Old Town's aged alleys, the cathedral gardens, and the Dwarven District. Stone bridges, archways, and waterside walks pass the Gallina Winery, tailor shops, and quiet homes. Merchants and fishermen use the waterways, while the fortified Stockade entrance lies beneath the streets, holding Stormwind's most dangerous criminals and rebels. Stormwind's Canals were left in ruins when the Horde sacked the city during the First War. The waterways were restored as the capital rose again after the Second War. They are clean and repaired now, though rumors speak of a massive albino crocolisk beneath the docks.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_canals-stormwind-city-f0617928ff96aaabf36d/1-0000.mp3", duration = 67.082449, start = 0},
+    {file = "Audio/Transport/full_subzone_canals-stormwind-city-bee40c30f31205701e85/1-0000.mp3", duration = 48.1697959, start = 0},
   },
 }
 P.transport["subzone:cathedral-of-light"] = {
   hash = "39f342",
-  fullHash = "08f7ed",
-  text = "Cathedral of Light. The Cathedral of Light is the spiritual heart of Stormwind City and the primary sanctuary of the Church of the Holy Light. Standing tall over Cathedral Square, it serves as the central bastion for human priesthood and the Knights of the Silver Hand. Rebuilt after its devastation during the First War under the guidance of Archbishop Alonsus Faol and then-Bishop Benedictus, the Cathedral of Light stands as a towering beacon of resilience. With the fall of Lordaeron to the Scourge during the Third War, the seat of the Church shifted south to Stormwind. Today, Archbishop Benedictus shepherds the faithful from this grand hall, providing spiritual guidance to the entire Alliance. Beyond serving as a house of prayer and healing, the cathedral acts as the primary headquarters for the remaining Knights of the Silver Hand in the southern kingdoms. High-ranking figures such as Lord Grayson Shadowbreaker and Duthorian Rall train promising squires through the sacred trials of the Tome of Valor and the Tome of Divinity. Alongside them, High Priestess Laurena guides devout acolytes in the deepest tenets of the Light, preparing holy champions to defend the realm against the rising threat of the Defias Brotherhood and the Scourge.",
+  fullHash = "ab9608",
+  text = "Cathedral of Light. The Cathedral of Light rises over Cathedral Square as Stormwind's chief sanctuary of the Church of the Holy Light. It is the spiritual heart of the city and the center of human priesthood and the Knights of the Silver Hand. Archbishop Benedictus leads the faithful from the Cathedral of Light, rebuilt after the First War's devastation. Archbishop Alonsus Faol and Bishop Benedictus guided its restoration, and its towering form remains a beacon of resilience. After the Scourge took Lordaeron during the Third War, the Church moved its seat south to Stormwind. From this great hall, Benedictus gives spiritual guidance to the Alliance. The Cathedral of Light is both a place of prayer and healing and the main headquarters of the Knights of the Silver Hand in the southern kingdoms. Lord Grayson Shadowbreaker and Duthorian Rall train promising squires through the sacred trials of the Tome of Valor and the Tome of Divinity. High Priestess Laurena guides devout acolytes in the deepest tenets of the Light, preparing holy champions to defend the realm from the growing threats of the Defias Brotherhood and the Scourge.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_cathedral-of-light-225957f3f4e8e4de55c8/1-0000.mp3", duration = 67.7616327, start = 0},
+    {file = "Audio/Transport/full_subzone_cathedral-of-light-2f2d770c8e88f7f5156c/1-0000.mp3", duration = 62.7461224, start = 0},
   },
 }
 P.transport["subzone:cathedral-square"] = {
   hash = "3e5388",
-  fullHash = "249281",
-  text = "Cathedral Square. Cathedral Square is the spiritual and civic heart of Stormwind City, dominated by the majestic Cathedral of Light. Beyond serving as a place of worship and devotion, the bustling plaza houses municipal institutions like City Hall, the city orphanage, and the regional headquarters of the Argent Dawn. Situated northwest of the Trade District and southeast of the Dwarven District, Cathedral Square serves as the epicenter of faith in the Kingdom of Stormwind. Dominating the skyline is the Cathedral of Light, the preeminent sanctuary for followers of the Holy Light across Azeroth. Priests, paladins, and healers gather here to study, pray, and train. Citizens, pilgrims, and local schoolchildren led by School Mistress Danna regularly mingle in the square for conversation and contemplation. The district is not merely reserved for prayer; it is one of the capital's busiest civic centers. The square houses the Stormwind Orphanage as well as City Hall, anchoring the administrative life of the kingdom. Specialized armorers and weaponsmiths catering to holy crusaders, such as Righteous Plates and Just Maces, line the avenues. It also serves as the base of operations for the Argent Dawn within Stormwind, where recruiters and representatives coordinate relief efforts and rally champions against the encroaching threats of the Scourge in the northern kingdoms.",
+  fullHash = "71ff43",
+  text = "Cathedral Square. In Cathedral Square, faith and civic life meet beneath the Cathedral of Light. City Hall, the orphanage, and the Argent Dawn's Stormwind headquarters all stand here. Northwest of the Trade District and southeast of the Dwarven District, Cathedral Square draws the faithful from across the Kingdom of Stormwind. The Cathedral of Light rises above it, the foremost sanctuary of the Holy Light across Azeroth. Priests, paladins, and healers come to study, pray, and train. Citizens and pilgrims mingle with local schoolchildren, led by School Mistress Danna, in the square. Prayer shares the district with the work of the kingdom. City Hall and the Stormwind Orphanage anchor its civic life. Along the avenues, armorers and weaponsmiths serve holy crusaders, including Righteous Plates and Just Maces. The Argent Dawn keeps its Stormwind base here, where recruiters and representatives coordinate relief efforts and rally champions against the Scourge in the northern kingdoms.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_cathedral-square-6682062cb1f91f68689f/1-0000.mp3", duration = 76.9828571, start = 0},
+    {file = "Audio/Transport/full_subzone_cathedral-square-150edd3340b94a1d68a2/1-0000.mp3", duration = 57.9918367, start = 0},
   },
 }
 P.transport["subzone:cenarion-enclave"] = {
@@ -1027,10 +1027,10 @@ P.transport["subzone:cenarion-enclave"] = {
 }
 P.transport["subzone:champions-hall"] = {
   hash = "eb1981",
-  fullHash = "eb1981",
-  text = "Champions' Hall. Tucked away in the southern reaches of Old Town, the Champions' Hall serves as the officer's barracks and supply armory for the Alliance's decorated veterans in Stormwind. Beyond its threshold, quartermasters dispense specialized weapons, plate, and regalia to proven warriors of the faction. Access is strictly guarded, reserved only for officers who have demonstrated valor on the field of war. Hidden behind a guarded threshold in Old Town, the Champions' Hall is a restricted haven for the Alliance's most distinguished combatants. Military commanders gather here over tactical maps of Azeroth to confer on ongoing campaigns, flanked by armaments and the grand insignias of rank. Only soldiers who have climbed the Alliance hierarchy to achieve officer status—specifically the rank of Knight or higher—are permitted entry. Inside, military quartermasters supply battle-hardened soldiers with elite arms, armor, and mounts crafted specifically to turn the tide against the Horde in contested zones across the world.",
+  fullHash = "460f6e",
+  text = "Champions' Hall. In Stormwind's Old Town, Champions' Hall is guarded and reserved for Alliance officers. Its quartermasters supply weapons, armor, and regalia to veterans who have proven themselves in battle. Champions' Hall stands behind a guarded entrance in Old Town, reserved for the Alliance's distinguished combatants. Military commanders gather around maps of Azeroth to discuss ongoing campaigns, among arms and the insignias of rank. Only Alliance soldiers who have earned the rank of Knight or higher may enter. Inside, quartermasters supply battle-hardened soldiers with elite weapons, armor, and mounts made to aid them against the Horde in contested lands.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_champions-hall-c9499f3b8949719a8bd1/1-0000.mp3", duration = 57.4955102, start = 0},
+    {file = "Audio/Transport/full_subzone_champions-hall-dc650687475ba25900d6/1-0000.mp3", duration = 38.8179592, start = 0},
   },
 }
 P.transport["subzone:charred-vale"] = {
@@ -1083,10 +1083,10 @@ P.transport["subzone:coldridge-pass"] = {
 }
 P.transport["subzone:command-center"] = {
   hash = "eb026d",
-  fullHash = "e9ff58",
-  text = "Command Center. The Command Center, often referred to as the Stormwind Barracks, stands in the heart of Old Town as the operational headquarters for the city's military officers. In peacetime, it houses the standing army, but with Stormwind's forces dispatched to distant frontiers, it currently operates with a seasoned skeleton crew focused on drilling recruits and local militia. Situated within the weathered streets of Old Town, the Command Center serves as the primary garrison and martial training ground for the kingdom of Stormwind. Normally packed with regular infantry and ranking officers, the facility is uncharacteristically sparse. With much of the royal army committed to campaigns abroad, the barracks relies on a veteran cadre of instructors—including Ander Germaine and martial artist Wu Shen—to train fresh warriors to bolster the city's defenses. Guards throughout Stormwind often direct newcomers to the 'Barracks' when seeking instruction in heavy arms and tactical combat. The building's proximity to both the Pig and Whistle Tavern and the shadowy operations elsewhere in Old Town makes it an essential anchor of order in a district known for tavern brawls and roguish activity.",
+  fullHash = "9e7be8",
+  text = "Command Center. In Stormwind's Old Town, the Command Center trains recruits while most of the army serves abroad. Also called the Stormwind Barracks, it houses the city's military officers and a seasoned skeleton crew focused on drilling recruits and local militia. In Old Town, Stormwind's Command Center is a garrison and training ground for the kingdom's soldiers. Its halls are quieter than usual, with much of the royal army committed to campaigns abroad. Veteran instructors, including Ander Germaine and martial artist Wu Shen, train fresh warriors to strengthen the city's defenses. When you ask for instruction in heavy arms or tactical combat, Stormwind's guards may point you to the Barracks. The building sits near the Pig and Whistle Tavern and the shadowy operations elsewhere in Old Town. It helps keep order in a district known for tavern brawls and roguish activity.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_command-center-8975b7d474ff41aa309b/1-0000.mp3", duration = 65.5412245, start = 0},
+    {file = "Audio/Transport/full_subzone_command-center-71a647bb4d54e35dbde7/1-0000.mp3", duration = 50.7297959, start = 0},
   },
 }
 P.transport["subzone:commons"] = {
@@ -1115,26 +1115,26 @@ P.transport["subzone:cragpool-lake"] = {
 }
 P.transport["subzone:crystal-lake"] = {
   hash = "e6e934",
-  fullHash = "e6e934",
-  text = "Crystal Lake. Crystal Lake is a body of water lying just east of Goldshire in the heart of Elwynn Forest. While once a peaceful spot, its shores have been overrun by aggressive murlocs, turning it into a frequent hazard for local villagers and passing travelers. Situated within walking distance of Lion's Pride Inn, Crystal Lake should be an idyllic rural retreat, but it is plagued by dangerous wildlife. Tribes of freshwater murlocs have claimed the shoreline and shallow shoals, attacking anyone who strays too close. Local alchemist William Pestle frequently hires passing adventurers to venture to the water's edge, directing them to defeat the creatures and harvest the crystal kelp they carry for use in his experimental concoctions.",
+  fullHash = "d6e5ac",
+  text = "Crystal Lake. East of Goldshire, Crystal Lake draws travelers toward a shore claimed by murlocs. Their attacks make the water a danger to villagers and passersby. Crystal Lake lies east of Goldshire, within walking distance of the Lion's Pride Inn. Freshwater murlocs now claim its shore and shallow shoals, attacking anyone who comes too close. William Pestle, an alchemist at the inn, hires travelers to drive them back and gather the crystal kelp they carry for his experiments.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_crystal-lake-717c90a73db52a53b18b/1-0000.mp3", duration = 40.8816327, start = 0},
+    {file = "Audio/Transport/full_subzone_crystal-lake-24d2fc9ffa85a38b6c6e/1-0000.mp3", duration = 27.8726531, start = 0},
   },
 }
 P.transport["subzone:cut-throat-alley"] = {
   hash = "91a820",
-  fullHash = "91a820",
-  text = "Cut-Throat Alley. Cut-Throat Alley is a secluded, unpopulated back corner of Stormwind City hidden away behind the canal shops. Tucked behind a storefront called the Shady Lady near the Dwarven District border, it consists of a quiet courtyard and an empty residence cut off from normal city foot traffic. Cut-Throat Alley is one of Stormwind's quietest and most secretive corners. Though technically charted alongside the Dwarven District, it shares none of the district's roaring forge fires or heavy soot. The alley cannot be reached from any of the city's main avenues; the only foot path leads straight through the Shady Lady, a small shop lining the canals just south of the bridge from Cathedral Square. Beyond the shop door lies a small paved dead-end lined with stacked crates, forgotten barrels, and a single unoccupied two-story residence. Completely hidden from passing guards and ordinary citizens, it sits entirely silent amidst the bustle of the capital.",
+  fullHash = "4b4d6b",
+  text = "Cut-Throat Alley. Behind the canal shops, Cut-Throat Alley lies quiet and empty in Stormwind City. Reach it through the Shady Lady near the Dwarven District, where a paved courtyard ends at an unoccupied residence. Cut-Throat Alley lies in a quiet corner of Stormwind, charted with the Dwarven District but apart from its forge fires and soot. No main avenue leads here; the only footpath passes through the Shady Lady, a small canal-side shop just south of the bridge from Cathedral Square. Beyond its door, a paved dead end holds stacked crates, forgotten barrels, and one empty two-story residence. Passing guards and ordinary citizens cannot see the alley, which stays silent amid the capital.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_cut-throat-alley-214bad24da0cec66d0b6/1-0000.mp3", duration = 54.3869388, start = 0},
+    {file = "Audio/Transport/full_subzone_cut-throat-alley-28c1013b6e8a65978126/1-0000.mp3", duration = 40.5681633, start = 0},
   },
 }
 P.transport["subzone:dagger-hills"] = {
   hash = "b320e6",
-  fullHash = "d5a779",
-  text = "Dagger Hills. The Dagger Hills form a rugged ridge rising across southern Westfall, directly behind the blighted town of Moonbrook. Long neglected by the crown, this rocky highland serves as a hostile hideout for cutthroats, bandits, and creeping terrors that threaten the surrounding plains. Rising high above the dilapidated settlement of Moonbrook, the Dagger Hills mark the jagged southern reaches of Westfall. Stripped of official royal patrols from Stormwind, this arid highland has become a natural fortification for the Defias Brotherhood. Knuckledusters, pathstalkers, and highwaymen lurk among the rocky crests and scrub, ambushing unwary travelers and keeping watch over the approaches to their strongholds below. Beyond mortal outlaws, the Dagger Hills carry an eerie reputation under cover of darkness. The unsettling specter Leprithus, a wandering ghoul, has been sighted stalking the desolate heights when the sun dips. Aside from wandering outlaws and lingering undead, the only resident willing to brave the ridge is Grimbooze Thunderbrew, a dwarven brewer who sets up his distilling equipment in the rugged wilderness regardless of the nearby dangers.",
+  fullHash = "28bdfd",
+  text = "Dagger Hills. Bandits hold the Dagger Hills, the rocky heights behind Moonbrook in southern Westfall. With royal patrols gone, the ridge threatens travelers and the plains below. The Dagger Hills rise above Moonbrook in southern Westfall, where Defias outlaws watch the rocky ridges. Stormwind's royal patrols are gone, leaving the dry highland as a natural stronghold for the Defias Brotherhood. Knuckledusters, pathstalkers, and highwaymen hide among the crests and scrub. They ambush travelers and watch the approaches to their strongholds below. Darkness brings its own danger to the Dagger Hills. Leprithus, a wandering ghoul, has been seen stalking the desolate heights after sunset. Outlaws and lingering undead roam the ridge, while Grimbooze Thunderbrew, a dwarven brewer, sets up his distilling equipment in the rugged wilderness despite the dangers nearby.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_dagger-hills-acf8609f7d6f59700e51/1-0000.mp3", duration = 67.2130612, start = 0},
+    {file = "Audio/Transport/full_subzone_dagger-hills-8da52c4f96154719abfc/1-0000.mp3", duration = 52.5061224, start = 0},
   },
 }
 P.transport["subzone:darkcloud-pinnacle"] = {
@@ -1179,10 +1179,10 @@ P.transport["subzone:dawning-wood-catacombs"] = {
 }
 P.transport["subzone:dead-acre"] = {
   hash = "d5327f",
-  fullHash = "d5327f",
-  text = "Dead Acre. The Dead Acre is a ruined, smoldering farmstead in southeastern Westfall near the river bridge to Duskwood. Burned to ash by the Defias Brotherhood during their uprising across the countryside, the blackened fields are now abandoned by people and stalked by rogue harvest golems. Situated just north of the road linking Sentinel Hill to Duskwood, the Dead Acre was once a productive homestead among the breadbasket farms of Westfall. When the Defias Brotherhood rose in revolt and drove out the local landowners, this farm met a violent end. The homestead and its surrounding crops were put to the torch, leaving behind scorched timber, smoking earth, and wandering mechanical Harvest Watchers that still reap the barren soil.",
+  fullHash = "d440e8",
+  text = "Dead Acre. The Dead Acre lies burned and abandoned in southeastern Westfall, near the bridge to Duskwood. The Defias Brotherhood torched the farm during their uprising, and rogue harvest golems now stalk its blackened fields. You find the Dead Acre just north of the road from Sentinel Hill to Duskwood. Once a productive homestead among Westfall’s breadbasket farms, it met a violent end when the Defias Brotherhood rose in revolt and drove out the local landowners. The farm and its crops went up in flames. Scorched timber and smoking earth remain, while mechanical Harvest Watchers still reap the barren soil.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_dead-acre-5d6d66cd40175fe1b403/1-0000.mp3", duration = 42.2661224, start = 0},
+    {file = "Audio/Transport/full_subzone_dead-acre-6589bbba401607aa04bc/1-0000.mp3", duration = 34.7428571, start = 0},
   },
 }
 P.transport["subzone:deeprun-tram"] = {
@@ -1203,10 +1203,10 @@ P.transport["subzone:deepwater-tavern"] = {
 }
 P.transport["subzone:defias-hideout"] = {
   hash = "3ad655",
-  fullHash = "3ad655",
-  text = "Defias Hideout. The Defias Hideout is an unassuming, derelict house situated on the southern edge of Moonbrook. Though it blends in with the surrounding ruined settlement, its upper floor conceals the primary overland entrance into the extensive subterranean network of the Deadmines. To the casual eye, the Defias Hideout looks like any other ransacked manor or farmhouse in Moonbrook, overrun by destitute vagrants and Defias thugs. However, its modest interior masks the nerve center of Edwin VanCleef's southern operations. Ascending to the upper floor reveals an opening that leads directly down into the sprawling labyrinth of the Deadmines. Because the Brotherhood focuses its manpower on guarding the perimeter of Moonbrook and laboring deep underground, the hideout itself is sparsely garrisoned, functioning more as a heavily monitored bottleneck than an active stronghold.",
+  fullHash = "3171f7",
+  text = "Defias Hideout. Defias thugs and vagrants linger in a ruined house on Moonbrook’s southern edge. Its upper floor hides a route into the chambers beneath the town.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_defias-hideout-ddacd6a11f8558f8e9fd/1-0000.mp3", duration = 48.0653061, start = 0},
+    {file = "Audio/Transport/full_subzone_defias-hideout-3f81ea698796e08d1d78/1-0000.mp3", duration = 8.43755102, start = 0},
   },
 }
 P.transport["subzone:demon-fall-canyon"] = {
@@ -1227,10 +1227,10 @@ P.transport["subzone:demon-fall-ridge"] = {
 }
 P.transport["subzone:demont-s-place"] = {
   hash = "2cfc57",
-  fullHash = "3c403e",
-  text = "Demont's Place. Demont's Place is a ruined homestead nestled in southwestern Westfall, just west of the forsaken town of Moonbrook. Once a working agricultural plot, the farm was driven to ruin alongside the rest of the region and claimed by the rogue agents of the Defias Brotherhood. Today, its weathered fences and empty fields stand as another casualty of the realm's fading prosperity. Situated within sight of Moonbrook, Demont's Place was once among the private family holdings feeding the Kingdom of Stormwind. Economic collapse and the sudden rise of outlaw brigands stripped the farm of its livelihood, forcing out its original caretakers. Much like its neighboring fields, the plot has degenerated into a rough hideout, overrun by outlaws using its weathered grounds as an extension of the Defias stronghold in Moonbrook. Because of its close proximity to Moonbrook, Demont's Place serves the Defias Brotherhood as an operational outpost on the outskirts of their regional center. Thugs, cutpurses, and displaced laborers linger among the fences and shattered structures, ambushing travelers who wander off the southern roads. Until Moonbrook is reclaimed and the outlaws broken, the ground remains far too dangerous for peaceful farming to ever return.",
+  fullHash = "5b1250",
+  text = "Demont's Place. Outlaws hold Demont's Place, a ruined farm west of Moonbrook in southwestern Westfall. The farm once fed the Kingdom of Stormwind, but economic collapse and the Defias Brotherhood drove its caretakers away. Its fields remain empty and its fences weathered. Demont's Place lies within sight of Moonbrook, among the family holdings that once fed the Kingdom of Stormwind. Economic collapse and outlaw brigands stripped the farm of its livelihood and drove out its caretakers. Like the neighboring fields, it has fallen into a rough hideout, where outlaws use its grounds as an extension of the Defias stronghold in Moonbrook. Demont's Place is an outpost for the Defias Brotherhood on the outskirts of Moonbrook. Thugs, cutpurses, and displaced laborers linger among its fences and shattered buildings, ambushing travelers who stray from the southern roads. Until Moonbrook is reclaimed and the outlaws are broken, the farm remains too dangerous for peaceful farming to return.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_demont-s-place-a6b47e8a55d20f32a720/1-0000.mp3", duration = 72.4897959, start = 0},
+    {file = "Audio/Transport/full_subzone_demont-s-place-acc5a08bf2bf56674867/1-0000.mp3", duration = 56.6334694, start = 0},
   },
 }
 P.transport["subzone:dolanaar"] = {
@@ -1291,34 +1291,34 @@ P.transport["subzone:durnholde-keep"] = {
 }
 P.transport["subzone:dust-plains"] = {
   hash = "8af9fe",
-  fullHash = "dc51cb",
-  text = "Dust Plains. The Dust Plains form the dry, wind-scoured southern frontier of Westfall. Marked by arid ground and scarce scrub, the region is overrun by aggressive gnoll encampments and borders an old wizard's tower along its eastern rise. Stretching across southern Westfall, the Dust Plains mark the transition from troubled farmland to desolate wilderness. Unlike the plundered farmsteads to the north, this arid reach has long been surrendered to packs of feral gnolls who ambush travelers and challenge anyone venturing toward the coast or the nearby hills. On the eastern boundary sits Klaven's Tower, an old mage tower now held by the Defias rogue Klaven Mortwake, which offers no shelter from the beasts prowling the surrounding wastes.",
+  fullHash = "3da420",
+  text = "Dust Plains. Gnoll packs hold the Dust Plains, Westfall’s dry southern frontier. The plains stretch toward the coast and eastern hills, where Klaven’s Tower overlooks the wastes. Across southern Westfall, the Dust Plains run from troubled farmland toward desolate wilderness. Feral gnolls have long claimed this arid ground, ambushing travelers and challenging anyone bound for the coast or nearby hills. Klaven’s Tower stands on the eastern boundary. The old mage tower is held by Klaven Mortwake, a Defias rogue, and offers no shelter from the gnolls prowling the surrounding wastes.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_dust-plains-f88d195ed62c4c9b855c/1-0000.mp3", duration = 41.4563265, start = 0},
+    {file = "Audio/Transport/full_subzone_dust-plains-d81de2a61fbbe0f03bd6/1-0000.mp3", duration = 34.5077551, start = 0},
   },
 }
 P.transport["subzone:dwarven-district"] = {
   hash = "55fdc5",
-  fullHash = "3e08a4",
-  text = "Dwarven District. Tucked into the northern corner of Stormwind City, the Dwarven District is a bustling industrial enclave filled with roaring furnaces, ringing anvils, and thick smog. Home to many of the city's dwarven craftsmen, it serves as the beating mechanical heart of the city. The northern quarter of Stormwind is home to the city's dwarven artisans, smiths, and engineers and their trades. The district retains the unmistakable character of Ironforge, dominated by heavy stone masonry, sprawling smelting operations, and bustling craft shops. Shops such as Potts' Plates provide a familiar haven for craftspeople from Khaz Modan. It also houses the Stormwind portal to the Deeprun Tram, tethering the human capital directly to Ironforge.",
+  fullHash = "ead413",
+  text = "Dwarven District. Dwarven craftsmen keep their furnaces and workshops working in Stormwind's northern quarter. The district brings a piece of Khaz Modan to the human capital, with the Deeprun Tram linking it to Ironforge. Dwarven artisans, smiths, and engineers make their home in Stormwind's northern quarter. Heavy stonework, smelting works, and craft shops recall Ironforge. At Potts' Plates, craftspeople from Khaz Modan find familiar company. On the district's eastern side, an open, arched tunnel leads to the Stormwind station of the Deeprun Tram, linking the human capital directly to Ironforge.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_dwarven-district-c70a575d7003fa18cf66/1-0000.mp3", duration = 43.6244898, start = 0},
+    {file = "Audio/Transport/full_subzone_dwarven-district-1342c6682cc9a9c4a3bd/1-0000.mp3", duration = 36.0228571, start = 0},
   },
 }
 P.transport["subzone:eastvale-logging-camp"] = {
   hash = "2af34c",
-  fullHash = "4b4d64",
-  text = "Eastvale Logging Camp. Eastvale Logging Camp is a vital lumber settlement tucked into the eastern woodlands of Elwynn Forest, near the border with the Redridge Mountains. The camp supplies vital timber to Stormwind and surrounding settlements, but its operations are constantly hampered by hungry predators prowling the surrounding forests. Orders for timber constantly stream into Eastvale Logging Camp from buyers across the Kingdom of Stormwind, but meeting these strict deadlines is a harrowing task. The dense wilderness surrounding the camp swarms with vicious wolves and prowling bears that routinely chase lumberjacks away from their worksites, leaving valuable cut timber abandoned in the woods. Under the direction of Supervisor Raelen, the camp frequently relies on wandering adventurers to cull the encroaching beasts and retrieve fallen wood before deliveries fall fatally behind schedule. Despite its remote location, Eastvale is more than just a logging outpost. It features several residential dwellings and bustling horse stables where travelers can purchase fine mounts. On a nearby hill overlooking the worksite sits the quiet manor of retired Marshal Haggard, the former leader of the Stormwind Guard, who withdrew to this rustic outpost to live out his retirement away from capital politics.",
+  fullHash = "e75b93",
+  text = "Eastvale Logging Camp. At Eastvale Logging Camp, timber orders from Stormwind meet the dangers of Elwynn’s eastern woods. Wolves and bears drive lumberjacks from their work, while the camp keeps timber moving toward Stormwind and nearby settlements. Timber buyers across the Kingdom of Stormwind send orders to Eastvale Logging Camp, each with a strict deadline. Wolves and bears prowl the woods around the work sites, driving lumberjacks away and leaving cut timber behind. Supervisor Raelen directs the camp’s work, and travelers help drive off the beasts and recover the abandoned wood before deliveries fall behind schedule. Eastvale Logging Camp has homes and horse stables where travelers can buy fine mounts. On a nearby hill above the work site, retired Marshal Haggard lives in a quiet manor. He once led the Stormwind Guard and left its service to retire far from the politics of the capital.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_eastvale-logging-camp-da1c368981477ee84ea5/1-0000.mp3", duration = 70.4783673, start = 0},
+    {file = "Audio/Transport/full_subzone_eastvale-logging-camp-a95bf4d2550b77d01ca9/1-0000.mp3", duration = 47.2032653, start = 0},
   },
 }
 P.transport["subzone:echo-ridge-mine"] = {
   hash = "3ecc87",
-  fullHash = "ad842f",
-  text = "Echo Ridge Mine. Echo Ridge Mine is a small excavation carved into the northwestern cliffs of Northshire Valley. Rich in stone and ore, it has recently fallen into the clutches of a destructive kobold infestation, halting Northshire's local operations. Tucked away in the hills above Northshire Abbey, Echo Ridge Mine was meant to supply the valley with useful stone and metal. Instead, opportunistic kobolds swarmed through the tunnels, driving out the local workers. Marshal McBride views the infestation as an unacceptable security risk to Northshire's safety and recruitment efforts, directing new recruits straight into the tunnels to cull their numbers and reclaim the site. The occupation of Echo Ridge is part of a broader pattern of kobold encroachment spreading across Elwynn Forest. If left unchecked in the northwestern ridge, these subterranean pests threaten to disrupt Northshire's peaceful training grounds and choke off crucial resources from reaching the abbey.",
+  fullHash = "87f819",
+  text = "Echo Ridge Mine. In Northshire Valley's northwestern cliffs, Echo Ridge Mine lies rich in stone and ore, but kobolds have seized it. Echo Ridge Mine was cut into the hills above Northshire Abbey to supply the valley with stone and metal. Kobolds poured through its tunnels and drove out the workers. Marshal McBride sees them as a danger to Northshire's safety and its recruits. He sends new recruits into the mine to thin their numbers and take the site back. Kobolds have been pushing into Elwynn Forest beyond Echo Ridge Mine. From the northwestern ridge, they threaten Northshire's training grounds and the flow of resources to the abbey.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_echo-ridge-mine-ccc2377b07618935e0b9/1-0000.mp3", duration = 54.8832653, start = 0},
+    {file = "Audio/Transport/full_subzone_echo-ridge-mine-bd742da60bfa43ce5dbc/1-0000.mp3", duration = 34.324898, start = 0},
   },
 }
 P.transport["subzone:engineering-labs"] = {
@@ -1347,10 +1347,10 @@ P.transport["subzone:fallen-sky-lake"] = {
 }
 P.transport["subzone:fargodeep-mine"] = {
   hash = "c12ebb",
-  fullHash = "d1cd97",
-  text = "Fargodeep Mine. Fargodeep Mine is an abandoned gold mine nestled in central Elwynn Forest, south of Goldshire. Once a productive source of wealth for the Kingdom of Stormwind, it has recently been overrun by a belligerent clan of kobolds. Fargodeep Mine once provided steady gold to Stormwind's treasury, but the Kingdom's dwindling military presence in Elwynn has left outlying resources vulnerable. Kobolds quickly swarmed into the dark tunnels, establishing a bustling warren beneath the hills. Marshal Dughan and the local authorities in Goldshire view the infestation with deep concern, not only because of lost ore, but because the emboldened creatures now threaten nearby farmsteads like the Stonefield and Maclure holdings. The mine spans multiple levels, with the lower shafts winding deep beneath the forest floor. Kobold laborers and vermin scurry along the wooden scaffolds, fiercely guarding their scavenged wax and gold dust. In a den above the main tunnels lurks Goldtooth, a particularly cunning kobold leader known for hoarding trinkets pilfered from unwary travelers and surrounding residents.",
+  fullHash = "0d8103",
+  text = "Fargodeep Mine. Kobolds now swarm through Fargodeep Mine, south of Goldshire in central Elwynn Forest. The mine once brought gold to Stormwind, but its tunnels are now a kobold warren. Gold once flowed from Fargodeep Mine into Stormwind's treasury. As the Kingdom's military presence in Elwynn dwindled, outlying resources became vulnerable. Kobolds soon filled the mine's dark tunnels and made a warren beneath the hills. Marshal Dughan and Goldshire's authorities fear the lost ore and the danger to nearby farms, including the Stonefield and Maclure holdings. Fargodeep Mine runs through several levels, with lower shafts reaching deep beneath the forest floor. Kobold laborers and vermin hurry along wooden scaffolds, guarding the wax and gold dust they have scavenged. Goldtooth, a cunning kobold leader, lurks in a den above the main tunnels. He hoards trinkets stolen from travelers and nearby residents.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_fargodeep-mine-60c4c924400a5f37cb4e/1-0000.mp3", duration = 64.8097959, start = 0},
+    {file = "Audio/Transport/full_subzone_fargodeep-mine-9dfae166148f741ac071/1-0000.mp3", duration = 54.0995918, start = 0},
   },
 }
 P.transport["subzone:farstrider-lodge"] = {
@@ -1387,10 +1387,10 @@ P.transport["subzone:fire-scar-shrine"] = {
 }
 P.transport["subzone:forest-s-edge"] = {
   hash = "1c78d7",
-  fullHash = "bf1a20",
-  text = "Forest's Edge. Forest's Edge is a wooded wedge of land along the southwestern frontier of Elwynn Forest, flanked by rivers leading toward Westfall. Guarded to the north by Westbrook Garrison, this untamed area has become dangerously overrun by riverpaw gnolls under the command of the notorious Hogger. Tucked southwest of Stormwind City between Mirror Lake Orchard and the rivers bordering Westfall, Forest's Edge forms a natural peninsula of woodland. Despite its proximity to Westbrook Garrison, the Stormwind army's thin ranks have left the area vulnerable to wild beasts and raiding parties. Wandering boars roam among the trees and along the riverbanks, but the true menace is the concentration of Riverpaw gnolls who have made these woods their staging ground. The woods of Forest's Edge are the hunting grounds of Hogger, a massive and brutal gnoll chieftain. With a sizable bounty placed on his head by the Stormwind Army, Hogger directs his pack in harassing travelers and raiding nearby farms, turning what could be a peaceful timberland into a lethal proving ground for young Alliance adventurers.",
+  fullHash = "830096",
+  text = "Forest's Edge. Riverpaw gnolls under Hogger threaten travelers at Forest's Edge, along Elwynn's southwestern frontier. At Forest's Edge, woodland runs southwest from Stormwind City between Mirror Lake Orchard and the rivers that border Westfall. Westbrook Garrison lies nearby, but Stormwind's thin ranks leave the woods open to wild beasts and raiding parties. Boars roam among the trees and along the banks. Riverpaw gnolls gather here in force, using the woods as a staging ground. Hogger and his pack hunt through the woods of Forest's Edge. A massive, brutal gnoll chieftain, he leads raids on nearby farms and harasses travelers. The Stormwind Army has placed a bounty on his head. His pack makes the timberland dangerous for anyone who crosses it.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_forest-s-edge-f7786ff49eb8e523c58d/1-0000.mp3", duration = 60.4734694, start = 0},
+    {file = "Audio/Transport/full_subzone_forest-s-edge-412e66a0edd9ad8416dc/1-0000.mp3", duration = 43.5461224, start = 0},
   },
 }
 P.transport["subzone:forest-song"] = {
@@ -1443,10 +1443,10 @@ P.transport["subzone:frostmane-hovel"] = {
 }
 P.transport["subzone:furlbrow-s-pumpkin-farm"] = {
   hash = "49ec78",
-  fullHash = "55f7a3",
-  text = "Furlbrow's Pumpkin Farm. Furlbrow's Pumpkin Farm is an overrun homestead in northern Westfall, just off the main road from Elwynn Forest. Once a prosperous plot tended by Farmer Furlbrow and his wife Verna, the fields and farmhouse have been seized by the Defias Brotherhood and prowling harvest golems. Situated near the northern border of Westfall, Furlbrow's Pumpkin Farm was once known for producing robust crops to feed the kingdom. That ended when the Defias Brotherhood swept across the countryside. Outlaws drove Farmer Furlbrow and his wife Verna from their land, leaving their fields overrun with mechanical harvest golems programmed to attack anyone approaching. With the farm buildings occupied by bandits and the fields prowled by renegade machinery, the rightful owners have been forced to camp along the roadside near the Jansen Stead, mourning the loss of their home and livelihood. The farm's fall illustrates the broader collapse of law and order across Westfall. With Stormwind's military garrison spread thin and unable to safeguard rural freeholders, the Defias Brotherhood easily claimed homesteads like Furlbrow's. Bandits use the property as an staging ground and camp while letting lethal harvest watchers guard the perimeter, leaving travelers on the nearby highway vulnerable to ambush.",
+  fullHash = "8c353f",
+  text = "Furlbrow's Pumpkin Farm. Bandits and harvest golems hold Furlbrow's Pumpkin Farm in northern Westfall, off the road from Elwynn Forest. Farmer Furlbrow and Verna have lost their home to the Defias Brotherhood. Near Westfall's northern border, Furlbrow's Pumpkin Farm once grew crops to feed the kingdom. The Defias Brotherhood drove Farmer Furlbrow and his wife Verna from their land. Mechanical harvest golems now roam the fields, attacking anyone who approaches. Bandits occupy the farm buildings, while the rightful owners camp beside the road near the Jansen Stead, mourning their lost home and livelihood. The Defias Brotherhood has claimed homesteads like Furlbrow's as Stormwind's military garrison struggles to protect Westfall's rural farmers. Bandits camp at the farm and use it as a staging ground. Lethal harvest watchers guard the perimeter, leaving travelers on the nearby highway vulnerable to ambush.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_furlbrow-s-pumpkin-farm-046142e5d592d59ed213/1-0000.mp3", duration = 71.915102, start = 0},
+    {file = "Audio/Transport/full_subzone_furlbrow-s-pumpkin-farm-e4eaa393a491eb69e70b/1-0000.mp3", duration = 52.4277551, start = 0},
   },
 }
 P.transport["subzone:galardell-valley"] = {
@@ -1491,18 +1491,18 @@ P.transport["subzone:gol-bolar-quarry-mine"] = {
 }
 P.transport["subzone:gold-coast-quarry"] = {
   hash = "05cf0b",
-  fullHash = "05cf0b",
-  text = "Gold Coast Quarry. The Gold Coast Quarry is an open-pit mine carved into the bluffs of southwestern Westfall. Once a prized source of stone, minerals, and gold for the Kingdom of Stormwind, it has been seized by the Defias Brotherhood to fuel their growing insurrection. Before the kingdom fell into neglect, the Gold Coast Quarry supplied raw building materials and precious gold to help rebuild Stormwind. When royal troops withdrew from Westfall and left the countryside unprotected, Defias highwaymen and renegade laborers took control of the diggings. The Brotherhood now patrols the terraced stone ramps, using the site's vantage over the coast and plundering whatever minerals remain to fund their rebellion.",
+  fullHash = "f2fa89",
+  text = "Gold Coast Quarry. In southwestern Westfall, the Gold Coast Quarry has fallen to the Defias Brotherhood. The mine once supplied Stormwind with stone, minerals, and gold; now the Brotherhood draws on its remaining resources for its insurrection. The Gold Coast Quarry once supplied Stormwind with stone and gold for the kingdom's rebuilding. After royal troops withdrew from Westfall, Defias highwaymen and renegade laborers seized the mine. Brotherhood patrols watch from its terraced ramps, which overlook the coast, and take what minerals remain to fund their rebellion.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_gold-coast-quarry-4cfa5e196178205e5581/1-0000.mp3", duration = 39.4710204, start = 0},
+    {file = "Audio/Transport/full_subzone_gold-coast-quarry-c9e5d0d22fc570fea4c5/1-0000.mp3", duration = 32.6530612, start = 0},
   },
 }
 P.transport["subzone:goldshire"] = {
   hash = "d86afe",
-  fullHash = "99a511",
-  text = "Goldshire. Goldshire is a vital human crossroads town nestled in central Elwynn Forest, connecting Stormwind City with Westfall, Redridge, and the southern frontier. Rebuilt after its destruction in the First War, it serves as a bustling waystation anchored by the famous Lion's Pride Inn and defended by a hard-pressed contingent of the Stormwind Guard. Positioned where the king's highways meet, Goldshire has long been the civic and commercial heart of rural Elwynn. However, the town's bucolic charm masks escalating peril in Year 25 ADP. With Stormwind's military resources stretched thin and King Varian Wrynn mysteriously absent, Marshal Dughan must rely on passing adventurers rather than regular troops to contain surrounding threats. Aggressive Riverpaw gnolls push inward from the western border, while vicious murlocs claim the shores of Stone Cairn Lake and Crystal Lake, claiming the lives of royal guards and encroaching dangerously close to the town center. Goldshire's quiet atmosphere belies a brutal military history. In the First War, Goldshire and Moonbrook were the final strongholds overwhelmed by the Orcish Horde as Warchief Blackhand cut off King Llane Wrynn I from his realm before sacking Stormwind Keep. The town was reduced to ash and remained barren until it was rebuilt after the Second War.",
+  fullHash = "8da9b9",
+  text = "Goldshire. Goldshire sits where Elwynn’s roads meet, linking Stormwind City with Westfall, Redridge, and the southern frontier. Rebuilt after the First War, the town now offers travelers the Lion’s Pride Inn, while a hard-pressed Stormwind Guard defends it. Goldshire stands where the king’s highways meet, the civic and commercial heart of rural Elwynn. Threats press closer as Stormwind’s forces stretch thin and King Varian Wrynn remains mysteriously absent. Marshal Dughan relies on passing adventurers instead of regular troops to hold the surrounding borders. Riverpaw gnolls push in from the west, while hostile murlocs claim the shores of Stone Cairn Lake and Crystal Lake. Their attacks have killed royal guards and brought danger close to the town center. Goldshire and Moonbrook were the last strongholds to fall in the First War. Warchief Blackhand cut King Llane Wrynn I off from his realm before sacking Stormwind Keep, and the Orcish Horde overwhelmed both towns. Goldshire was reduced to ash and lay barren until its rebuilding after the Second War.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_goldshire-a9752b1c1c04598e9e46/1-0000.mp3", duration = 77.7404082, start = 0},
+    {file = "Audio/Transport/full_subzone_goldshire-e3fd63d70c48d5b42813/1-0000.mp3", duration = 60.9436735, start = 0},
   },
 }
 P.transport["subzone:grand-vestibule"] = {
@@ -1579,10 +1579,10 @@ P.transport["subzone:grove-of-the-ancients"] = {
 }
 P.transport["subzone:gryphon-roost"] = {
   hash = "30bda3",
-  fullHash = "4b7344",
-  text = "Gryphon Roost. Perched along the ramparts just east of Stormwind's Trade District, the Gryphon Roost serves as the capital's primary transit hub for aerial travel. Managed by the human gryphon master Dungar Longdrink, it houses the majestic beasts that ferry couriers, soldiers, and adventurers across the Eastern Kingdoms. Situated atop the fortifications overlooking the Trade District canal, the Gryphon Roost connects the capital with outlying Alliance garrisons and settlements throughout the Eastern Kingdoms. The flight network is orchestrated by the seasoned master Dungar Longdrink, who coordinates routes to Ironforge, Lakeshire, Sentinel Hill, and beyond. While Stormwind is predominantly a kingdom of men, the presence of gryphons and their handlers brings a bit of Hinterlands tradition directly into the city walls. Gryphons have long been revered partners of the Wildhammer clan, who introduced aerial warfare and transport to the broader Alliance during the Second War. Here on the roost, the salty smell of leather, feed, and fresh winds creates a distinct frontier atmosphere amid the city's stone masonry.",
+  fullHash = "f20a08",
+  text = "Gryphon Roost. Gryphons take travelers from Stormwind’s eastern ramparts across the Eastern Kingdoms. Dungar Longdrink, a human gryphon master, manages the roost beside the Trade District. From the eastern ramparts, gryphons carry travelers from Stormwind to Alliance garrisons and settlements across the Eastern Kingdoms. Dungar Longdrink, the seasoned gryphon master, coordinates flights to Ironforge, Lakeshire, Sentinel Hill, and other destinations. Gryphons and their handlers bring a trace of Hinterlands tradition within Stormwind’s walls. The Wildhammer clan has long revered gryphons as partners and introduced aerial warfare and transport to the broader Alliance during the Second War. Leather, feed, and fresh winds mark the roost amid the city’s stonework.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_gryphon-roost-addff1772bbbc9dee1a8/1-0000.mp3", duration = 65.1232653, start = 0},
+    {file = "Audio/Transport/full_subzone_gryphon-roost-e7f016fdddb5ca561f10/1-0000.mp3", duration = 42.9714286, start = 0},
   },
 }
 P.transport["subzone:hall-of-arms"] = {
@@ -1595,10 +1595,10 @@ P.transport["subzone:hall-of-arms"] = {
 }
 P.transport["subzone:hall-of-arms-northshire"] = {
   hash = "88749d",
-  fullHash = "819ac8",
-  text = "Hall of Arms (Northshire). The Hall of Arms is the martial wing of Northshire Abbey, situated south of the Main Hall. Here, veteran instructors drill the newest recruits of the Stormwind Army in the arts of the sword, shield, and holy combat. While the clerics and scholars ponder ancient tomes across the courtyard in the Library Wing, the Hall of Arms rings with the clash of blunted steel and the heavy cadence of martial instruction. Positioned on the south side of Northshire Abbey, this chamber serves as the primary training station for raw human fighters and devout aspirants taking up arms for the Stormwind Army. Here, seasoned battle instructors and paladin mentors teach the basic postures, disciplines, and fundamentals required to defend Elwynn Forest against encroaching kobolds, Defias bandits, and gnoll raiders.",
+  fullHash = "a04b7f",
+  text = "Hall of Arms (Northshire). In Northshire Abbey, recruits train with the Stormwind Army in the Hall of Arms, south of the Main Hall. The Hall of Arms rings with blunted steel and the measured cadence of instruction. South of Northshire Abbey’s Main Hall, the wing trains human fighters and devout aspirants who take up arms for the Stormwind Army. Veteran battle instructors and paladin mentors teach the postures and disciplines needed to defend Elwynn Forest from kobolds, Defias bandits, and gnoll raiders. Across the courtyard, clerics and scholars study ancient tomes in the Library Wing.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_hall-of-arms-northshire-b9cc022d243755b9670b/1-0000.mp3", duration = 45.844898, start = 0},
+    {file = "Audio/Transport/full_subzone_hall-of-arms-northshire-c550b604d99fd3f59a5d/1-0000.mp3", duration = 33.28, start = 0},
   },
 }
 P.transport["subzone:hall-of-explorers"] = {
@@ -1635,10 +1635,10 @@ P.transport["subzone:helm-s-bed-lake"] = {
 }
 P.transport["subzone:heroes-vigil"] = {
   hash = "e43720",
-  fullHash = "6ed023",
-  text = "Heroes' Vigil. Heroes' Vigil is a quiet, sacred clearing situated on the central island within Stone Cairn Lake in eastern Elwynn Forest. Centered around a monument known as the Stone of Remembrance, it was dedicated to honor those who fell during the First War. Today, however, the shrine sits largely neglected by Stormwind and is overrun by dangerous renegade wizards. Erected after the First War, Heroes' Vigil centers upon the Stone of Remembrance, an inscribed stone circle meant to honor the soldiers and citizens slaughtered during the Old Horde's sacking of Goldshire and the surrounding valleys. Though once revered as a sacred bastion of faith and sacrifice, the vigil has gradually slipped from the attention of Stormwind's current rulers, leaving its hallowed grounds overgrown and unattended by the realm's soldiers. Because the kingdom has left the island garrisoned by none, outcasts have seized the memorial. A cabal of rogue wizards now controls Stone Cairn Lake and the monument grounds, practicing wild and undisciplined magic away from the oversight of the Kirin Tor and the Academy of Arcane Sciences. The desecration is made all the more bitter by tragic casualties left near the stones, including the body of Henze Faulk, leaving travelers to wonder if the shrine will ever be restored to peace.",
+  fullHash = "84c0d7",
+  text = "Heroes' Vigil. On Stone Cairn Lake’s central island, Heroes' Vigil lies neglected and overrun by renegade wizards. Its Stone of Remembrance honors those who fell in the First War. Heroes' Vigil stands on an island in Stone Cairn Lake, centered on the Stone of Remembrance. Erected after the First War, its inscribed stone circle honors the soldiers and citizens slaughtered when the Old Horde sacked Goldshire and the surrounding valleys. Once revered as a sacred place of faith and sacrifice, the vigil has slipped from Stormwind's attention. Its grounds now lie overgrown, with no soldiers sent to tend them. With no kingdom garrison on the island, outcasts have taken the memorial. Rogue wizards control Stone Cairn Lake and the grounds, practicing wild, undisciplined magic beyond the oversight of the Kirin Tor and the Academy of Arcane Sciences. Near the stones lies Henze Faulk's body among other tragic casualties. Travelers can only wonder whether the shrine will ever know peace again.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_heroes-vigil-5b9ff8a1d72547ec4c96/1-0000.mp3", duration = 73.0383673, start = 0},
+    {file = "Audio/Transport/full_subzone_heroes-vigil-218ae9144865375886ed/1-0000.mp3", duration = 57.6, start = 0},
   },
 }
 P.transport["subzone:high-seat"] = {
@@ -1739,34 +1739,34 @@ P.transport["subzone:ironforge-airfield"] = {
 }
 P.transport["subzone:jangolode-mine"] = {
   hash = "c9f416",
-  fullHash = "c9f416",
-  text = "Jangolode Mine. Jangolode Mine is a rich mineral excavation located in the rolling hills of Westfall. Once a vital source of ore and raw materials for Stormwind City, the mine has been seized by the bandits of the Defias Brotherhood. Before Westfall fell into decline, the Jangolode Mine provided a steady flow of metals crucial to the reconstruction and supply of Stormwind City. As civil order deteriorated and the kingdom withdrew its garrisons, the Defias Brotherhood seized control of the site to feed their own operations. The bandits now work the rich veins for themselves, fiercely defending their subterranean prize.",
+  fullHash = "dc0518",
+  text = "Jangolode Mine. In Westfall’s rolling hills, the Defias Brotherhood works Jangolode Mine for itself. The mine once supplied Stormwind City with ore and raw materials. Before Westfall declined, Jangolode Mine sent metals to Stormwind City for its reconstruction and supply. As civil order weakened and the kingdom withdrew its garrisons, the Defias Brotherhood seized the mine to support its own operations. The bandits now work its rich veins and defend the shafts fiercely.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_jangolode-mine-81278e06c73b3b021e71/1-0000.mp3", duration = 35.3959184, start = 0},
+    {file = "Audio/Transport/full_subzone_jangolode-mine-a347834351cc33c0a06c/1-0000.mp3", duration = 28.1077551, start = 0},
   },
 }
 P.transport["subzone:jansen-stead"] = {
   hash = "f20dd9",
-  fullHash = "23fcdb",
-  text = "Jansen Stead. Jansen Stead is the northernmost farmstead in Westfall, situated just down the road from the bridge to Elwynn Forest. Like much of the surrounding breadbasket, the homestead has fallen out of peasant hands and is swarming with rogue mechanical Harvest Watchers and roving Defias bandits. Positioned right past the Elwynn border, the Jansen Stead represents the harsh reality greeting anyone traveling westward into Westfall. Once a flourishing family farm feeding the kingdom, its rightful occupants have been driven away by the rising tide of unrest. In their place, hostile Harvest Watchers—mechanical constructs associated with the Defias Brotherhood—patrol the blighted fields alongside brigands. Its proximity to the main road makes it a prominent early hazard for couriers and travelers moving between Goldshire and Sentinel Hill.",
+  fullHash = "3bd4f9",
+  text = "Jansen Stead. Jansen Stead lies just west of the Elwynn border, where Defias bandits and mechanical Harvest Watchers now roam its fields. Jansen Stead lies beside the road from Elwynn into Westfall. The farm once fed the kingdom, but unrest has driven its family from the land. Now Harvest Watchers, mechanical constructs associated with the Defias Brotherhood, patrol the fields alongside brigands. Couriers and travelers between Goldshire and Sentinel Hill pass close by.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_jansen-stead-1a1a38b4cd442da65e05/1-0000.mp3", duration = 48.2481633, start = 0},
+    {file = "Audio/Transport/full_subzone_jansen-stead-c66003dcf1a0763881dc/1-0000.mp3", duration = 27.5591837, start = 0},
   },
 }
 P.transport["subzone:jasperlode-mine"] = {
   hash = "1f1858",
-  fullHash = "14990a",
-  text = "Jasperlode Mine. Jasperlode Mine is an iron and mineral excavation in north-central Elwynn Forest that once supplied Stormwind City with vital resources. Today, the shafts are overrun by swarming kobolds and deadly giant spiders, leaving the resource-strapped kingdom unable to reclaim it. Jasperlode Mine was historically one of Stormwind's most productive mining operations, providing steady mineral wealth alongside nearby Fargodeep. With the kingdom's military stretched thin defending against external threats and unrest, local garrisons have been unable to protect the shafts. Kobolds seized the opportunity to burrow inside, driving human miners out and stockpiling stolen gold and tallow candles. The infestation within Jasperlode extends beyond simple vermin. In the deepest, darkest corridors beneath the timber supports, an aggressive colony of mine spiders has taken root. Led by a massive matriarch known to locals as Mother Fang, the spiders treat trespassing kobolds—and any unwary prospectors—as effortless prey, making any attempt to salvage the mine exceptionally hazardous.",
+  fullHash = "fd00c1",
+  text = "Jasperlode Mine. In north-central Elwynn, Jasperlode Mine lies lost to kobolds and giant spiders. Its shafts once supplied Stormwind City with vital iron and minerals, but the resource-strapped kingdom cannot reclaim them. Jasperlode Mine once supplied Stormwind with a steady wealth of minerals, alongside nearby Fargodeep. With the kingdom's forces stretched thin by outside threats and unrest, local garrisons cannot protect the shafts. Kobolds seized their chance, drove out the human miners, and hoarded stolen gold and tallow candles. Deep within Jasperlode Mine, mine spiders have taken hold beneath the timber supports. A massive matriarch called Mother Fang leads them. The spiders prey on trespassing kobolds and unwary prospectors, making any attempt to salvage the mine dangerous.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_jasperlode-mine-3dac96cef697ac1c4861/1-0000.mp3", duration = 64.7836735, start = 0},
+    {file = "Audio/Transport/full_subzone_jasperlode-mine-2e64854a648b992d4cad/1-0000.mp3", duration = 46.1844898, start = 0},
   },
 }
 P.transport["subzone:jerod-s-landing"] = {
   hash = "2345e6",
-  fullHash = "2345e6",
-  text = "Jerod's Landing. Jerod's Landing is a modest river dock situated on the Elwynn Forest bank of the Nazferiti River. Currently seized by the Defias Brotherhood, the outpost serves as a clandestine transfer point for illicit shipments smuggled across the kingdom's waterways. Tucked away along the eastern waters of the Nazferiti River, Jerod's Landing provides river access connecting Elwynn Forest to neighboring territories. While originally an ordinary boat dock, the site has fallen firmly into the hands of the Defias Brotherhood. Under the watchful eye of a Defias dockmaster, outlaws utilize the dock as a hub to receive goods plundered from the Redridge Mountains, discreetly moving river cargo downstream toward holdings such as Klaven's Tower in Westfall.",
+  fullHash = "3ee15e",
+  text = "Jerod's Landing. Defias smugglers hold Jerod's Landing on the Elwynn Forest bank of the Nazferiti River. The dock gives them a hidden route for illicit shipments across the kingdom's waterways. Defias outlaws now control the river dock at Jerod's Landing, where Elwynn Forest meets the waters of the Nazferiti River. Once an ordinary boat dock, it now receives goods plundered from the Redridge Mountains under a Defias dockmaster's watch. The outlaws move the cargo discreetly downstream toward holdings such as Klaven's Tower in Westfall.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_jerod-s-landing-fc059acaefee839eea8b/1-0000.mp3", duration = 40.4114286, start = 0},
+    {file = "Audio/Transport/full_subzone_jerod-s-landing-d353da278ab9c18cb376/1-0000.mp3", duration = 30.6677551, start = 0},
   },
 }
 P.transport["subzone:kargathia-keep"] = {
@@ -1851,18 +1851,18 @@ P.transport["subzone:library-ironforge"] = {
 }
 P.transport["subzone:library-wing-northshire"] = {
   hash = "d34735",
-  fullHash = "ce2ed3",
-  text = "Library Wing (Northshire). The Library Wing is the quiet, book-lined southern wing of Northshire Abbey in Elwynn Forest. It serves as a sanctuary for scholars, offering early instruction to fledgling priests and mages joining the defense of Stormwind. Branching south from the Main Hall of Northshire Abbey, the Library Wing houses dusty shelves, study lecterns, and quiet alcoves dedicated to intellectual and spiritual training. While martial recruits drill in the Hall of Arms across the abbey, aspiring mages and priests gather here to grasp the fundamentals of the Arcane and the Holy Light. Currently, Priestess Anetta guides novice priests in matters of faith and healing, while Khelden Bremen teaches budding mages how to shape primal elemental energy.",
+  fullHash = "b356fd",
+  text = "Library Wing (Northshire). In Northshire Abbey, the Library Wing gathers scholars and new priests and mages. Its quiet southern rooms offer instruction for those joining Stormwind’s defense. The Library Wing branches south from Northshire Abbey’s Main Hall. Dusty shelves, study lecterns, and quiet alcoves fill its rooms, where aspiring mages and priests learn the Arcane and the Holy Light. Across the abbey, martial recruits drill in the Hall of Arms. Priestess Anetta guides novice priests in faith and healing, while Khelden Bremen teaches budding mages to shape primal elemental energy.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_library-wing-northshire-c603a21cc3ea3dbf163c/1-0000.mp3", duration = 42.8669388, start = 0},
+    {file = "Audio/Transport/full_subzone_library-wing-northshire-9506e396d9730b71c328/1-0000.mp3", duration = 34.0114286, start = 0},
   },
 }
 P.transport["subzone:lion-s-pride-inn"] = {
   hash = "f65e29",
-  fullHash = "3c2f1b",
-  text = "Lion's Pride Inn. The Lion's Pride Inn is the bustling tavern and community center of Goldshire in Elwynn Forest. Kept by Innkeeper Farley, it serves as the primary resting place, meeting hall, and hiring house for travelers venturing just south of Stormwind City. Standing at the crossroads of Elwynn Forest, the Lion's Pride Inn is Goldshire's lively centerpiece. Operated by Innkeeper Farley under the tavern's traditional motto—'Rest and relaxation for the tired and cold'—the inn offers warm hearths, strong drinks, and rooms for weary adventurers fresh out of Northshire. Because Goldshire lies along the vital trade routes between Stormwind, Westfall, Redridge, and Duskwood, the tavern serves as an indispensable rallying point where town marshals, local crafters, and seasoned trainers gather to share news and contract passing mercenaries.",
+  fullHash = "5900da",
+  text = "Lion's Pride Inn. Travelers gather at the Lion's Pride Inn, Goldshire's tavern and community center in Elwynn Forest. Innkeeper Farley keeps the inn, a place to rest, meet others, and find work just south of Stormwind City. The Lion's Pride Inn anchors Goldshire at the crossroads of Elwynn Forest. Innkeeper Farley keeps it by the old motto, “Rest and relaxation for the tired and cold.” Inside, warm hearths, strong drinks, and rooms welcome weary travelers from Northshire. Goldshire sits on trade routes between Stormwind, Westfall, Redridge, and Duskwood, making the inn an indispensable gathering place. Town marshals, local crafters, and seasoned trainers meet there to share news and hire passing mercenaries.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_lion-s-pride-inn-2cd8ccc40c3de9e4874b/1-0000.mp3", duration = 47.8563265, start = 0},
+    {file = "Audio/Transport/full_subzone_lion-s-pride-inn-6057314941ad7d733963/1-0000.mp3", duration = 42.8146939, start = 0},
   },
 }
 P.transport["subzone:long-wash"] = {
@@ -1875,10 +1875,10 @@ P.transport["subzone:long-wash"] = {
 }
 P.transport["subzone:longshore"] = {
   hash = "52edab",
-  fullHash = "52edab",
-  text = "Longshore. The Longshore is the expansive sandy coastline stretching along the entire western edge of Westfall. Despite its vast and scenic expanse, the shore is notoriously hazardous due to thick populations of aggressive murlocs and scattered wrecks off the coast. Running the full western length of Westfall, the Longshore is one of the widest unbroken beaches in the Eastern Kingdoms. Yet it offers little peace to travelers. Coastal murlocs dominate the surf, led by notorious terrors like Old Murk-Eye, while the remnants of sunken vessels—including ruined elven destroyers—litter the shallows. Near the southern reaches, isolated settlers like Daphne Stilwell struggle against marauding Defias bandits, standing within sight of the Westfall Lighthouse across the water.",
+  fullHash = "240344",
+  text = "Longshore. Along Westfall’s western edge, Longshore’s broad sands are claimed by hostile murlocs and broken ships. Longshore runs along Westfall’s western coast, a wide stretch of unbroken sand. Travelers find little peace there. Murlocs dominate the surf, with Old Murk-Eye among the feared leaders, and sunken ships, including ruined elven destroyers, lie in the shallows. Near the south, Daphne Stilwell’s isolated farm faces Defias bandits. Across the water, the Westfall Lighthouse stands within sight.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_longshore-9e7e1b457dd5fe14c0f5/1-0000.mp3", duration = 44.1730612, start = 0},
+    {file = "Audio/Transport/full_subzone_longshore-151c06ae50646c8dbbbc/1-0000.mp3", duration = 30.5110204, start = 0},
   },
 }
 P.transport["subzone:lordamere-lake"] = {
@@ -1891,10 +1891,10 @@ P.transport["subzone:lordamere-lake"] = {
 }
 P.transport["subzone:maclure-vineyards"] = {
   hash = "82e082",
-  fullHash = "82e082",
-  text = "Maclure Vineyards. Maclure Vineyards is a sprawling agricultural estate in southern Elwynn Forest owned by the Maclure family. While known for producing grapes and wine for the kingdom of Stormwind, the farmstead is equally infamous for an ongoing, bitter feud with the neighboring Stonefield family. Nestled in the lush hills of southern Elwynn Forest, the Maclure Vineyards should be a peaceful haven of winecraft and farming. Instead, everyday labor is overshadowed by a vicious, long-standing rivalry with the Stonefields just down the road. Accusations of theft and bad blood run deep between the households, keeping tempers flaring even as common troubles—like hungry prowling boars and encroaching kobolds—threaten both homesteads.",
+  fullHash = "c6177b",
+  text = "Maclure Vineyards. In southern Elwynn, Maclure Vineyards sends grapes and wine to Stormwind. The Maclure family's estate is known as much for its bitter feud with the neighboring Stonefields as for its harvest. The Maclure Vineyards should be a peaceful haven of farming and winecraft in southern Elwynn Forest. Instead, the feud with the Stonefields down the road overshadows the family's daily labor. Accusations of theft and old resentment keep tempers high between the households. Hungry boars prowl the land, while kobolds press toward both homesteads.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_maclure-vineyards-01b02a2b683542b6e65c/1-0000.mp3", duration = 39.5232653, start = 0},
+    {file = "Audio/Transport/full_subzone_maclure-vineyards-37ab02c9aa8343462388/1-0000.mp3", duration = 30.4065306, start = 0},
   },
 }
 P.transport["subzone:maestra-s-post"] = {
@@ -1915,10 +1915,10 @@ P.transport["subzone:mage-quarter"] = {
 }
 P.transport["subzone:main-hall-northshire"] = {
   hash = "d5168e",
-  fullHash = "d5168e",
-  text = "Main Hall (Northshire). The Main Hall is the central entrance chamber of Northshire Abbey in Elwynn Forest. It serves as the primary crossroads connecting the abbey's grounds to its upper tower, the Hall of Arms, and the Library Wing. Here, newly recruited human adventurers report to receive their initial assignments in service of the Kingdom of Stormwind. Stepping through the grand archways of Northshire Abbey brings visitors directly into the Main Hall. As the building's central hub, it channels arriving trainees and clerical staff between the abbey's distinct wings: the martial Hall of Arms on one side, the scholastic Library Wing on the other, and the stairs rising into the abbey tower. The quiet sanctuary of the hall is tempered by the ongoing strife in the valley, as officers rally able-bodied newcomers to defend the kingdom's borders.",
+  fullHash = "2e3eaf",
+  text = "Main Hall (Northshire). Newcomers report in the Main Hall at Northshire Abbey in western Elwynn. From there, they reach the Hall of Arms, the Library Wing, and the abbey tower, then receive their first assignments defending Stormwind. Trainees and clerics pass through the Main Hall after entering Northshire Abbey. The chamber links the Hall of Arms, where recruits prepare for battle, with the Library Wing and the stairs to the abbey tower. Strife in the valley reaches even this quiet place, and officers rally able newcomers to defend the kingdom's borders.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_main-hall-northshire-012259f245f055830a35/1-0000.mp3", duration = 45.2440816, start = 0},
+    {file = "Audio/Transport/full_subzone_main-hall-northshire-6398c9134b93f6003652/1-0000.mp3", duration = 29.1265306, start = 0},
   },
 }
 P.transport["subzone:malaka-jin"] = {
@@ -1987,18 +1987,18 @@ P.transport["subzone:mirkfallon-lake"] = {
 }
 P.transport["subzone:mirror-lake"] = {
   hash = "8519bd",
-  fullHash = "8519bd",
-  text = "Mirror Lake. Mirror Lake is a picturesque body of water tucked into northwestern Elwynn Forest near an orchard. Fed by a gentle waterfall beneath the cliffs of Stormwind, its tranquil surface belies the dangers lurking on its shores, from prowling Defias bandits to strange disruptions in the local ley lines. Situated beneath the towering ramparts of Stormwind City, Mirror Lake ought to be a peaceful retreat for fishermen and weary travelers. Instead, brigands of the Defias Brotherhood stalk the surrounding orchards, making any prolonged stay perilous for passing locals. Worse still, mystical disturbances across Azeroth have begun warping the natural channels of arcane energy throughout the forest. The mages of the Wizard's Sanctum keep a cautious eye on the lake, sending practitioners to sample its currents and ensure that downstream communities are not poisoned by chaotic arcane runoff.",
+  fullHash = "392998",
+  text = "Mirror Lake. Water spills into Mirror Lake beneath Stormwind's cliffs in northwestern Elwynn Forest, near an orchard. Defias bandits prowl the surrounding orchards, while mages watch for trouble in the forest's arcane currents. Mirror Lake lies beneath Stormwind City's walls, where fishermen and weary travelers might seek a quiet rest. Defias Brotherhood brigands stalk the surrounding orchards, making a long stay perilous for locals. Mystical disturbances across Azeroth have also begun to warp the forest's natural channels of arcane energy. Mages from the Wizard's Sanctum watch the lake closely. They send practitioners to sample its currents and guard against chaotic arcane runoff poisoning communities downstream.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_mirror-lake-04219549ee3320a80d5b/1-0000.mp3", duration = 51.6179592, start = 0},
+    {file = "Audio/Transport/full_subzone_mirror-lake-f8dac7bb0c6007c40186/1-0000.mp3", duration = 40.4897959, start = 0},
   },
 }
 P.transport["subzone:mirror-lake-orchard"] = {
   hash = "138f94",
-  fullHash = "138f94",
-  text = "Mirror Lake Orchard. Mirror Lake Orchard is a quiet grove and cottage nestled on the southern banks of Mirror Lake in western Elwynn Forest. Once a peaceful homestead near Thunder Falls, it has fallen into the hands of Defias bandits who exploit the countryside while Stormwind's guards look elsewhere. Tucked away near the cascading waters of Thunder Falls, Mirror Lake Orchard was once a productive farmstead benefiting from the clean waters of Mirror Lake. Today, the peaceful cottage sits overrun, claimed by opportunistic thieves and brigands flying the colors of the Defias Brotherhood. With the kingdom's military stretched thin and King Varian Wrynn missing, rural properties like this orchard have become easy pickings for outlaws looking to secure hideouts across the Elwynn countryside.",
+  fullHash = "f17e6b",
+  text = "Mirror Lake Orchard. Defias bandits now hold Mirror Lake Orchard, on Mirror Lake's southern shore in western Elwynn Forest. The quiet homestead near Thunder Falls has fallen to outlaws while Stormwind's guards are stretched thin. Mirror Lake Orchard once fed a peaceful farmstead with the clean waters of Mirror Lake. Now Defias Brotherhood bandits have seized the cottage and grounds near Thunder Falls. With Stormwind's military stretched thin and King Varian Wrynn missing, rural homes across Elwynn are easy targets for outlaws seeking shelter.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_mirror-lake-orchard-28c52acebad45a17be96/1-0000.mp3", duration = 42.6057143, start = 0},
+    {file = "Audio/Transport/full_subzone_mirror-lake-orchard-3d27ce908bb2ef0abb37/1-0000.mp3", duration = 30.0930612, start = 0},
   },
 }
 P.transport["subzone:mist-s-edge"] = {
@@ -2035,18 +2035,18 @@ P.transport["subzone:molsen-farm"] = {
 }
 P.transport["subzone:moonbrook"] = {
   hash = "0ed826",
-  fullHash = "0ed826",
-  text = "Moonbrook. Once a bustling agricultural hub and mining town in southwestern Westfall, Moonbrook now stands as a lawless ghost town. The town has been completely overrun by the Defias Brotherhood, who use it as a fortified screen to hide their subterranean headquarters in the Deadmines. Before the First War, Moonbrook was a vital community at the center of Westfall's breadbasket, supporting local farming families and the lucrative gold shafts of the Deadmines. Though it was razed by the Old Horde and painstakingly rebuilt after the Second War, its peace did not last. Neglected by the House of Nobles in Stormwind and stripped of military protection, the settlement could not resist the vengeful Stonemasons Guild when they fled into the wilderness. Bandits drove out the honest homesteaders, forcing citizens and teachers alike to flee toward Sentinel Hill and Elwynn Forest.",
+  fullHash = "172fb5",
+  text = "Moonbrook. In southwestern Westfall, Moonbrook lies under Defias control, its streets emptied of peaceful residents. The Brotherhood uses the town as a guarded screen for its hidden headquarters in the Deadmines. Before the First War, Moonbrook stood at the heart of Westfall’s breadbasket, supporting farming families and the gold shafts of the Deadmines. The Old Horde razed the town, but it was rebuilt after the Second War. Its peace did not last. The House of Nobles in Stormwind neglected the settlement, and its military protection was stripped away. Unable to resist the red-masked bandits, Moonbrook’s people were driven from their homes. Citizens and teachers fled toward Sentinel Hill and Elwynn Forest.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_moonbrook-ba4d7321cfdf1058480b/1-0000.mp3", duration = 50.1289796, start = 0},
+    {file = "Audio/Transport/full_subzone_moonbrook-1d4355b8140a89b85681/1-0000.mp3", duration = 40.6465306, start = 0},
   },
 }
 P.transport["subzone:moonbrook-schoolhouse"] = {
   hash = "824320",
-  fullHash = "88aac5",
-  text = "Moonbrook Schoolhouse. Standing in the northwestern corner of Moonbrook, the Schoolhouse is a prominent building resembling a town hall with a small graveyard behind it. Originally erected to educate local children under headmaster Stalvan Mistmantle, it now stands derelict amidst the Defias occupation of Westfall. Before Moonbrook fell to ruin and bandits, the community invested in the education of its youth by raising this grand schoolhouse. After Stalvan Mistmantle began tutoring local children, the mayor commissioned him to run a school. In those brighter days, the hall bustled with students rather than thieves, standing as proof of Moonbrook's former prosperity. Now, the schoolhouse lies abandoned to the elements and infested with outlaws, while the weathered headstones of its rear cemetery silently oversee Westfall's steady decay.",
+  fullHash = "0305bd",
+  text = "Moonbrook Schoolhouse. In Moonbrook's northwestern corner, the schoolhouse stands abandoned under Defias occupation. A small graveyard lies behind the hall where Stalvan Mistmantle once taught local children. Moonbrook's schoolhouse once welcomed children before ruin and bandits overtook the town. After Stalvan Mistmantle began tutoring local children, the mayor commissioned him to run a school. Students filled the hall in Moonbrook's brighter days, when the town prospered. Now outlaws occupy the abandoned building, and weathered headstones in its rear cemetery look out over Westfall's decline.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_moonbrook-schoolhouse-100974f5804d3c1dc812/1-0000.mp3", duration = 47.3861224, start = 0},
+    {file = "Audio/Transport/full_subzone_moonbrook-schoolhouse-1a30dce28548bdf25421/1-0000.mp3", duration = 33.9330612, start = 0},
   },
 }
 P.transport["subzone:moonshrine-ruins"] = {
@@ -2139,18 +2139,18 @@ P.transport["subzone:north-gate-pass"] = {
 }
 P.transport["subzone:northshire-valley"] = {
   hash = "9c92fc",
-  fullHash = "71acd9",
-  text = "Northshire Valley. Tucked away in the northern mountains of Elwynn Forest, Northshire Valley serves as the peaceful cradle and training ground for the kingdom of Stormwind's newest defenders. Surrounded by natural barriers, it hosts the historic Northshire Abbey, fertile vineyards, and the rich Echo Ridge Mine. Despite its tranquil appearance, the valley faces mounting unrest from rogue bandits, infesting kobolds, and displaced predators. Northshire Valley is framed by nearly impassable mountain ridges, with its only road heading south through a fortified gatehouse toward Goldshire and the rest of Elwynn Forest. A clear river winds through its pastures before feeding south into Crystal Lake. At the valley's heart stands Northshire Abbey, an ancient sanctuary where the Holy Light is taught and where recruits are trained by the Knights of the Silver Hand and seasoned veterans. Beyond the abbey walls lie the bountiful Northshire Vineyards and Echo Ridge Mine, forming a self-sustaining pocket of Stormwind territory that feels far removed from the wider world's wars. Even this sheltered haven has felt the strain of Stormwind's overextended defenses. Marshal McBride and his detachment of the Stormwind Guard struggle to maintain order across the vale. Packs of wolves driven north from blighted Duskwood prowl the surrounding woods, while vermin-like kobolds have overrun the tunnels of Echo Ridge Mine. Worse still, masked thugs aligned with the Defias Brotherhood openly harass the vineyards and threaten the abbey's grounds, forcing local commanders to recruit every able-bodied civilian arriving at their gates.",
+  fullHash = "52c26f",
+  text = "Northshire Valley. Northshire Valley shelters Stormwind's newest defenders in northern Elwynn Forest. Natural barriers guard the peaceful valley, where ancient Northshire Abbey, fertile vineyards, and the rich Echo Ridge Mine sustain a pocket of the kingdom. Bandits, kobolds, and displaced predators now trouble its quiet pastures. Northshire Valley lies behind mountain ridges, with one road south through a fortified gatehouse toward Goldshire and the rest of Elwynn Forest. A clear river crosses the pastures and flows into Crystal Lake. At the valley's heart, ancient Northshire Abbey teaches the Holy Light and trains recruits under the Knights of the Silver Hand and seasoned veterans. Beyond its walls, the fertile Northshire Vineyards and Echo Ridge Mine make this a self-sustaining pocket of Stormwind territory, far from the wars beyond its ridges. Stormwind's overextended defenses have strained even this sheltered valley. Marshal McBride and his detachment of the Stormwind Guard struggle to maintain order across it. Wolves driven north from blighted Duskwood prowl the woods, while kobolds have overrun Echo Ridge Mine's tunnels. Masked thugs aligned with the Defias Brotherhood harass the vineyards and threaten the abbey grounds, so local commanders recruit every able-bodied civilian who arrives at the gates.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_northshire-valley-69e807d5a9e533968f94/1-0000.mp3", duration = 94.197551, start = 0},
+    {file = "Audio/Transport/full_subzone_northshire-valley-2ce74615c8953bf70d25/1-0000.mp3", duration = 77.6097959, start = 0},
   },
 }
 P.transport["subzone:northshire-vineyards"] = {
   hash = "682f1f",
-  fullHash = "682f1f",
-  text = "Northshire Vineyards. The Northshire Vineyards are cultivated grape fields lying just east of Northshire Abbey in the valley's sheltered basin. Though once a peaceful source of wine for the clerics, the fields have fallen under the control of the Defias Brotherhood and their local brigands. Located east across the stream from Northshire Abbey, the Northshire Vineyards represent the valley's quiet agrarian life. The fields are tended by local workers like Milly Osworth, but rising civil unrest has left them unprotected. Bandits aligned with the Defias Brotherhood, led on the ground by a cutthroat named Garrick Padfoot, have seized the acreage. Rather than mere vandalism, the thieves occupy the fields to plunder the harvest and strip the local farmers of their livelihood, providing new recruits to the Brotherhood an easy foothold right under the abbey's nose.",
+  fullHash = "e7dec0",
+  text = "Northshire Vineyards. At Northshire Vineyards, Defias brigands have seized the fields east of Northshire Abbey. The grapes once supplied wine to the clerics, but now the thieves plunder the harvest and threaten local farmers. Northshire Vineyards lie east across the stream from Northshire Abbey, where workers such as Milly Osworth once tended the fields. Defias Brotherhood brigands now hold the acreage, led by Garrick Padfoot. The thieves plunder the harvest and strip local farmers of their livelihood. Their occupation gives new Brotherhood recruits a foothold close to the abbey.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_northshire-vineyards-a2c914338edf41b84fd9/1-0000.mp3", duration = 47.4644898, start = 0},
+    {file = "Audio/Transport/full_subzone_northshire-vineyards-9893bf2372d4d2a89a69/1-0000.mp3", duration = 32.7314286, start = 0},
   },
 }
 P.transport["subzone:old-ironforge"] = {
@@ -2163,10 +2163,10 @@ P.transport["subzone:old-ironforge"] = {
 }
 P.transport["subzone:old-town"] = {
   hash = "3557ac",
-  fullHash = "17aec3",
-  text = "Old Town. Old Town is the oldest and grittiest quarter of Stormwind City, having largely survived the destruction of the First War intact. Rather than gleaming stone plazas, its narrow alleys feature weathered brick, working-class tenements, and bustling military facilities. It serves as home to the kingdom's military Command Center as well as the clandestine headquarters of SI:7. While the rest of Stormwind was painstakingly rebuilt from the ground up by the Stonemasons following the First War, Old Town escaped total ruin. Because it did not require wholesale reconstruction, it never received the pristine marble facades and grand canals seen in the Trade District or Cathedral Square. Instead, it remains a rustic, crowded quarter where working folk, laborers, and the city's poorest residents reside. Its cobbled streets are narrower, dirtier, and far more chaotic than the rest of the capital, yet they preserve the authentic atmosphere of pre-war Stormwind. Behind its weathered tenements, Old Town functions as the martial backbone of the Alliance capital. The Command Center houses Stormwind's military officers, barracks, and combat trainers, alongside the Champions' Hall where the Alliance's finest warriors gather. Tucked away toward the district's edge sits the covert compound of SI:7, the kingdom's secretive intelligence agency led by Master Mathias Shaw. Off-duty footmen and shadowy operatives alike gather at the Pig and Whistle Tavern, rubbing shoulders in one of the city's liveliest watering holes.",
+  fullHash = "7bf57c",
+  text = "Old Town. In Old Town, soldiers train beside weathered tenements and crowded alleys. The quarter largely survived the First War and remains home to Stormwind’s military Command Center and the covert headquarters of SI:7. Old Town keeps much of the shape of Stormwind before the First War. While the Stonemasons rebuilt the rest of the city from the ground up, this quarter escaped total ruin. It never gained the pristine marble facades and grand canals found in the Trade District and Cathedral Square. Working folk, laborers, and the city’s poorest residents live among its crowded tenements. Its cobbled streets are narrower, dirtier, and more chaotic than those elsewhere in the capital, preserving the feel of the old kingdom. Old Town holds Stormwind’s military officers, barracks, and combat trainers in the Command Center. Nearby, the Champions’ Hall gathers the Alliance’s finest warriors. At the district’s edge, SI:7 keeps its covert compound under the leadership of Master Mathias Shaw. Off-duty footmen and shadowy operatives meet at the Pig and Whistle Tavern, one of the city’s liveliest watering holes.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_old-town-bd4d1cc33c0c1b41ff89/1-0000.mp3", duration = 88.7118367, start = 0},
+    {file = "Audio/Transport/full_subzone_old-town-bf711162d4277d3b3643/1-0000.mp3", duration = 63.6604082, start = 0},
   },
 }
 P.transport["subzone:oracle-glade"] = {
@@ -2179,26 +2179,26 @@ P.transport["subzone:oracle-glade"] = {
 }
 P.transport["subzone:park"] = {
   hash = "718cba",
-  fullHash = "f5847d",
-  text = "Park. Tucked along the western edge of Stormwind City between Cathedral Square and the Mage Quarter, the Park is a lush sanctuary of greenery and quiet reflection. Devoted to nature and leisure amidst the bustling stone capital, it serves as the primary haven for visiting night elves and houses the only druid trainers in the Eastern Kingdoms. While the rest of Stormwind is dominated by cobbled walkways, towering limestone ramparts, and crowded market stalls, the Park offers a tranquil breath of wilderness. Originally established as a quiet place of recreation for the city's populace, it naturally transformed into an enclave for night elf emissaries and travelers arriving from across the Great Sea. Sheltered beneath shaded canopies and surrounding a central Moonwell, the district brings a sliver of Kalimdor's sacred glades into the heart of the human kingdom. For the night elves, the Park is a vital foothold in foreign lands. Here, Kaldorei priests such as Nara Meideros tend to visiting pilgrims, and druidic mentors offer their guidance to those devoted to the wild. The district also serves as a peaceful retreat where weary adventurers rest their eyes from the clatter of the Trade District and the solemn duties of the Cathedral.",
+  fullHash = "038e9e",
+  text = "Park. In Stormwind's western edge, Park offers visiting night elves a haven amid the stone city. It lies between Cathedral Square and the Mage Quarter, with greenery and quiet for rest. Druid trainers here are the only ones in the Eastern Kingdoms. Stormwind's Park brings a quiet stretch of wilderness into the stone capital. Once a place for the city's people to seek recreation, it became an enclave for night elf emissaries and travelers from across the Great Sea. Shaded canopies shelter the district, and a central Moonwell stands amid its grounds. The grove offers a glimpse of Kalimdor's sacred glades in the heart of the human kingdom. Night elves have a foothold in foreign lands within the Park. Kaldorei priests such as Nara Meideros tend visiting pilgrims, while druidic mentors guide those devoted to the wild. Weary travelers can also rest from the clatter of the Trade District and the solemn duties of the Cathedral.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_park-505289b020740c0efe1b/1-0000.mp3", duration = 73.0122449, start = 0},
+    {file = "Audio/Transport/full_subzone_park-1478d86806090c129cae/1-0000.mp3", duration = 53.8383673, start = 0},
   },
 }
 P.transport["subzone:petitioner-s-chamber"] = {
   hash = "48a5e4",
-  fullHash = "48a5e4",
-  text = "Petitioner's Chamber. The Petitioner's Chamber, also known as the Hall of Petitioners, is an antechamber situated just off the main entrance ramp of Stormwind Keep. It serves as an official waiting room for nobility, church dignitaries, and visiting subjects seeking an audience with the crown. Those lingering here often pass the hours mingling, drinking, or waiting upon the regent's pleasure. Found immediately to the right upon ascending into Stormwind Keep, the Petitioner's Chamber is where matters of state meet everyday bureaucracy. Nobles such as Count Remington Ridgewell and high-ranking clergy like Bishop DeLavey pass their time in these halls while waiting for an audience with the boy-king Anduin Wrynn and Highlord Bolvar Fordragon. Behind the polished veneer of courtly etiquette, it is an ideal corner of the castle for gossip, quiet lobbying, and discerning who truly holds influence within the realm.",
+  fullHash = "5592b5",
+  text = "Petitioner's Chamber. Petitioners wait for the crown in a chamber just inside Stormwind Keep. Nobles, church dignitaries, and visiting subjects spend the time mingling, drinking, or awaiting an audience. The Petitioner's Chamber lies just to the right as you enter Stormwind Keep. Count Remington Ridgewell and Bishop DeLavey wait there for audiences with boy-king Anduin Wrynn and Highlord Bolvar Fordragon. Between formal visits, the chamber gives nobles and clergy room to mingle, trade gossip, and quietly press their concerns. Who holds influence in the realm can often be seen in who speaks with whom.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_petitioner-s-chamber-fcd46274b3724d39e80d/1-0000.mp3", duration = 50.0244898, start = 0},
+    {file = "Audio/Transport/full_subzone_petitioner-s-chamber-99aff949896307c8197e/1-0000.mp3", duration = 34.1420408, start = 0},
   },
 }
 P.transport["subzone:pig-and-whistle-tavern"] = {
   hash = "ad3b88",
-  fullHash = "0dae36",
-  text = "Pig and Whistle Tavern. The Pig and Whistle Tavern is a bustling tavern nestled within Stormwind City's rugged Old Town district. It serves as a favored gathering spot for Alliance travelers, local laborers, and weathered veterans recalling the kingdom's past conflicts. Situated amidst the gritty, winding alleys of Old Town, the Pig and Whistle Tavern offers warmth, ale, and lodging to those who walk the capital's rougher quarter. While the nobles of the city congregate in cathedral squares and marble plazas, this establishment caters to common citizens, working folk, and travelers fresh from the road. Inside, patrons can find merchants like the renowned recipe vendor Kendor Kabonka, alongside grizzled veterans who nurse their tankards while trading memories of the First and Second Wars.",
+  fullHash = "f4dd64",
+  text = "Pig and Whistle Tavern. In Stormwind City's Old Town, the Pig and Whistle Tavern welcomes travelers and local laborers. Veterans gather there to remember the kingdom's past conflicts. In Old Town's winding alleys, the Pig and Whistle Tavern offers warmth, ale, and lodging. Common citizens, working folk, and travelers fresh from the road gather there. Merchants such as recipe vendor Kendor Kabonka share the room with grizzled veterans, who trade memories of the First and Second Wars over their tankards.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_pig-and-whistle-tavern-39cddf74225280c61feb/1-0000.mp3", duration = 43.0497959, start = 0},
+    {file = "Audio/Transport/full_subzone_pig-and-whistle-tavern-afd2d816d0c5b6bec05c/1-0000.mp3", duration = 28.6040816, start = 0},
   },
 }
 P.transport["subzone:pool-of-ask-ar"] = {
@@ -2291,10 +2291,10 @@ P.transport["subzone:rethban-caverns"] = {
 }
 P.transport["subzone:ridgepoint-tower"] = {
   hash = "1922ec",
-  fullHash = "6641f4",
-  text = "Ridgepoint Tower. Ridgepoint Tower is a fortified guard post watching the eastern frontier of Elwynn Forest. Manned by the Stormwind Guard, it serves as an early warning bulwark against hostile incursions threatening the heart of the kingdom. Its guards keep vigil over the perilous corridors leading to neighboring wilderness. Standing sentinel on the high ground of eastern Elwynn Forest, Ridgepoint Tower marks the final bastion of direct Stormwind authority before the untamed wilds take over. The garrison stationed here keeps a constant watch over the surrounding valleys and roads. With tensions mounting across the continent, this stone watchtower ensures that encroaching threats are spotted and checked before they can endanger the farms and settlements closer to Northshire and Goldshire. Ridgepoint Tower faces pressure from multiple frontiers at once. To the east lie the Redridge Mountains, home to aggressive gnoll packs and blackrock orc raiders who test human defenses. Across the southern river looms the shadowy timberline of Duskwood, with its prowling undead horrors. Closer to home, rogue Defias Brotherhood bandits prowl the wilderness camps, eager to exploit any gap in the guard's defensive line.",
+  fullHash = "30f3a4",
+  text = "Ridgepoint Tower. Stormwind guards watch the eastern frontier from Ridgepoint Tower. They keep vigil over the perilous corridors, valleys, and roads leading into neighboring wilderness. At Ridgepoint Tower, the garrison watches the valleys and roads of eastern Elwynn. The tower stands on high ground, where Stormwind's authority reaches its eastern border and the wilds begin. Its guards keep watch over the routes before threats can reach the farms and settlements nearer Northshire and Goldshire. Ridgepoint Tower faces threats from several directions. East lie the Redridge Mountains, where aggressive gnoll packs and blackrock orc raiders test human defenses. Across the southern river, undead horrors prowl the timberline of Duskwood. Rogue Defias Brotherhood bandits also haunt nearby wilderness camps, looking for gaps in the guard's defenses.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_ridgepoint-tower-3c3dc889b0f461b40ef9/1-0000.mp3", duration = 67.6832653, start = 0},
+    {file = "Audio/Transport/full_subzone_ridgepoint-tower-5236e783d8ce2a31e91d/1-0000.mp3", duration = 48.7183673, start = 0},
   },
 }
 P.transport["subzone:roland-s-doom"] = {
@@ -2315,18 +2315,18 @@ P.transport["subzone:rotting-orchard"] = {
 }
 P.transport["subzone:royal-gallery"] = {
   hash = "09621e",
-  fullHash = "afaac9",
-  text = "Royal Gallery. Tucked away inside Stormwind Keep past the courtyard garden, the Royal Gallery serves as a quiet hall of remembrance. It displays magnificent statues and fine works of art honoring prominent figures from the kingdom's history and the Grand Alliance. The Royal Gallery sits adjacent to the Royal Library, just beyond the verdant interior garden of Stormwind Keep. The hall houses statues of towering figures who shaped the realm: King Llane Wrynn, the fallen ruler of Stormwind; Grand Admiral Daelin Proudmoore of Kul Tiras; and Lady Mara Fordragon, patron of the refugees who fled to Lordaeron after the First War. It serves as both a private museum of noble heritage and a quiet retreat for courtly visitors like Lady Dena Kennedy.",
+  fullHash = "7ffe53",
+  text = "Royal Gallery. Stormwind Keep's Royal Gallery honors figures from the kingdom's history and the Grand Alliance. Past the courtyard garden, its statues and works of art fill a quiet hall of remembrance. The Royal Gallery lies beyond Stormwind Keep's interior garden, beside the Royal Library. Its statues honor King Llane Wrynn, the fallen ruler of Stormwind; Grand Admiral Daelin Proudmoore of Kul Tiras; and Lady Mara Fordragon, patron of the refugees who fled to Lordaeron after the First War. Courtly visitors such as Lady Dena Kennedy come to this quiet hall, where the kingdom's noble heritage is remembered.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_royal-gallery-dabc72d736b021e52dbe/1-0000.mp3", duration = 42.8930612, start = 0},
+    {file = "Audio/Transport/full_subzone_royal-gallery-3a8ec845f79131521420/1-0000.mp3", duration = 37.0677551, start = 0},
   },
 }
 P.transport["subzone:royal-library"] = {
   hash = "b0a695",
-  fullHash = "b0a695",
-  text = "Royal Library. Tucked deep within the stone wing of Stormwind Keep, the Royal Library preserves the collective memory, chronicle scrolls, and treatises of the kingdom. Under the watchful eye of Head Librarian Milton Sheaf, its shelves hold crucial records of ancient wars, lost legends, and the realms beyond the sea. While Stormwind Keep bristles with armored guards and courtly intrigue, its Royal Library offers an island of scholarly quiet. Overseen by Milton Sheaf, the hall serves as the premier archive of southern human history, preserving surviving texts from before the First War alongside recent military chronicles and recovered tomes. Alliance scholars, priests, and travelers are free to browse its open treatises, which cover everything from the formation of the original Alliance of Lordaeron to the recent emergence of Thrall's Horde in Kalimdor.",
+  fullHash = "f3e7b7",
+  text = "Royal Library. Scholars come to the Royal Library in Stormwind Keep for the kingdom’s records and histories. Head Librarian Milton Sheaf watches over its scrolls and treatises, from ancient wars to accounts of realms beyond the sea. The Royal Library offers quiet among Stormwind Keep’s guarded halls and courtly intrigues. Milton Sheaf oversees its shelves of southern human history, from surviving texts written before the First War to recent military chronicles and recovered tomes. Alliance scholars, priests, and travelers may browse its treatises. They cover the founding of the Alliance of Lordaeron and the recent arrival of Thrall’s Horde in Kalimdor.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_royal-library-0a2c14d57a05a09c4935/1-0000.mp3", duration = 48.5616327, start = 0},
+    {file = "Audio/Transport/full_subzone_royal-library-0880e22165007587403a/1-0000.mp3", duration = 36.4930612, start = 0},
   },
 }
 P.transport["subzone:ruins-of-mathystra"] = {
@@ -2363,10 +2363,10 @@ P.transport["subzone:rut-theran-village"] = {
 }
 P.transport["subzone:saldean-s-farm"] = {
   hash = "7976ca",
-  fullHash = "05b917",
-  text = "Saldean's Farm. Saldean's Farm is the only homestead in Westfall that has not been completely overrun and abandoned to the Defias Brotherhood. Held by the stubborn Farmer Saldean and his wife Salma, the farmhouse remains a rare safe haven amid the region's turmoil. While neighboring lands fell to banditry and mechanical sabotage, the Saldean family refused to abandon their soil. Farmer Saldean and his wife Salma have stayed on their homestead, offering hot food and a kind word to passing travelers. Despite their resilience, the fields remain plagued by rogue harvest golems deployed across the plains, forcing the family to stay close to the farmhouse walls. Because the Stormwind crown has largely neglected Westfall, law enforcement here is thin. A handful of Sentinel Hill and Stormwind guards patrol the periphery, but the farm survives primarily through sheer grit and the aid of passing travelers. For the Saldeans, Salma's famous Westfall stew and goretusk liver pie and the shelter of their farmhouse are small comforts against the ever-present threat of the Defias.",
+  fullHash = "31207e",
+  text = "Saldean's Farm. At Saldean's Farm, the Saldeans hold Westfall's only homestead not completely overrun and abandoned to the Defias Brotherhood. Farmer Saldean and his wife Salma keep the farmhouse as a rare safe haven amid the region's turmoil. The Saldean family stayed on their soil as neighboring lands fell to banditry and mechanical sabotage. Farmer Saldean and his wife Salma still offer hot food and a kind word to travelers. Rogue harvest golems deployed across the plains plague their fields, so the family keeps close to the farmhouse walls. Stormwind's crown has largely neglected Westfall, leaving law enforcement thin. A handful of Sentinel Hill and Stormwind guards patrol the periphery, but the Saldeans rely chiefly on their own grit and help from passing travelers. Salma's famous Westfall stew and goretusk liver pie, and the shelter of the farmhouse, offer small comforts against the Defias threat.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_saldean-s-farm-955dac726959d096d4c6/1-0000.mp3", duration = 61.1526531, start = 0},
+    {file = "Audio/Transport/full_subzone_saldean-s-farm-42bc386680f4cc592cfa/1-0000.mp3", duration = 52.1665306, start = 0},
   },
 }
 P.transport["subzone:satyrnaar"] = {
@@ -2387,18 +2387,18 @@ P.transport["subzone:scarlet-raven-tavern"] = {
 }
 P.transport["subzone:sentinel-hill"] = {
   hash = "9a851f",
-  fullHash = "ec0937",
-  text = "Sentinel Hill. Sentinel Hill is the primary bastion of the Alliance in Westfall, serving as the command center for the People's Militia. Surrounded by overgrown fields, scavenging gnolls, and hostile outlaws, this fortified rise is the only secure foothold for lawful citizens in the region. Perched on high ground in central Westfall, Sentinel Hill stands as a vital sanctuary in an otherwise lawless territory. It features a barracks-style inn, a gryphon roost connecting travelers to Stormwind and beyond, a forge, and a lumber mill, all anchored by the imposing Sentinel Tower. While the surrounding lands have fallen to banditry and ravenous beasts, the encampment maintains a fragile perimeter where travelers, beleaguered farmers, and recruits can regroup under the watchful eyes of veteran defenders. With the royal army detained in Stormwind and unable to spare soldiers to protect outlying territories, Gryan Stoutmantle established the People's Militia directly upon this hill. From here, volunteer fighters organize scouts, coordinate strikes against the Riverpaw gnolls, and investigate the organized banditry tearing through Westfall's abandoned farmsteads. Sentinel Hill is neither an opulent fort nor a comfortable refuge, but a working frontline camp determined to reclaim the kingdom's former breadbasket.",
+  fullHash = "253bdd",
+  text = "Sentinel Hill. In Westfall, Sentinel Hill remains the Alliance's main stronghold and the People's Militia's command post. Overgrown fields, scavenging gnolls, and hostile outlaws surround the rise, the only secure foothold for lawful citizens in the region. Sentinel Hill rises above central Westfall, with a barracks-style inn, a gryphon roost linking travelers to Stormwind and beyond, a forge, and a lumber mill around Sentinel Tower. Overgrown fields, scavenging gnolls, and outlaws crowd the surrounding land. The encampment keeps a fragile perimeter where travelers, beleaguered farmers, and recruits can regroup under the watchful eyes of veteran defenders. With the royal army detained in Stormwind and unable to spare soldiers for outlying territories, Gryan Stoutmantle established the People's Militia on Sentinel Hill. Volunteer fighters organize scouts, coordinate strikes against the Riverpaw gnolls, and investigate the organized banditry tearing through Westfall's abandoned farmsteads. The camp is neither an opulent fort nor a comfortable refuge; it is a working frontline camp determined to reclaim the kingdom's former breadbasket.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_sentinel-hill-21f6c74e7d6c9a834086/1-0000.mp3", duration = 77.322449, start = 0},
+    {file = "Audio/Transport/full_subzone_sentinel-hill-a2053af196f6d6b7d488/1-0000.mp3", duration = 68.597551, start = 0},
   },
 }
 P.transport["subzone:sentinel-tower"] = {
   hash = "6d8a5a",
-  fullHash = "3c1828",
-  text = "Sentinel Tower. Sentinel Tower crowns the apex of Sentinel Hill, standing as the primary vantage point and headquarters for defenders in Westfall. From its heights, Gryan Stoutmantle and the People's Militia organize their desperate defense against bandits, gnolls, and the growing shadow of the Defias Brotherhood. Erected upon the crest of Sentinel Hill, Sentinel Tower is the military heart of unsettled Westfall. With Stormwind's official army largely absent and withholding aid, local volunteers and veterans banded together to create a central redoubt. The stone tower grants lookouts an unbroken view across the dusty plains, from the abandoned pumpkin patches to the misty shores, giving early warning when rogue highwaymen or gnoll raiding parties begin to prowl. The tower serves as the command post for Gryan Stoutmantle and the core of the local leadership. Surrounded by makeshift defenses, wounded refugees, and weary soldiers, it operates as both an administrative hub and an emergency shelter for homesteaders driven from their lands. Here, intelligence on the Defias Brotherhood is pieced together, coordinating volunteers into cohesive strikes against the syndicate that has choked the province into ruin.",
+  fullHash = "e8c81a",
+  text = "Sentinel Tower. Defenders watch Westfall from Sentinel Tower atop Sentinel Hill. Gryan Stoutmantle and the People's Militia organize resistance against bandits, gnolls, and the Defias Brotherhood. Sentinel Tower rises above the unsettled plains of Westfall. With Stormwind's official army largely absent and aid withheld, local volunteers and veterans joined together around this central stronghold. From its stone heights, lookouts can see across the dusty plains, from abandoned pumpkin patches to the misty shores. They watch for highwaymen and gnoll raiding parties moving through the region. Gryan Stoutmantle and the local leadership direct the militia from Sentinel Tower. Makeshift defenses surround the stronghold, where wounded refugees and weary soldiers gather, and homesteaders driven from their lands find emergency shelter. Militia members piece together reports about the Defias Brotherhood and organize volunteers into strikes against the syndicate that has brought Westfall to ruin.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_sentinel-tower-e2f6e2b660002b2e0493/1-0000.mp3", duration = 69.6163265, start = 0},
+    {file = "Audio/Transport/full_subzone_sentinel-tower-ae35baa3308e256ef98a/1-0000.mp3", duration = 55.6146939, start = 0},
   },
 }
 P.transport["subzone:shadowthread-cave"] = {
@@ -2555,26 +2555,26 @@ P.transport["subzone:steelgrill-s-depot"] = {
 }
 P.transport["subzone:stendel-s-pond"] = {
   hash = "5fe9c2",
-  fullHash = "95a4e1",
-  text = "Stendel's Pond. Stendel's Pond is a small, possibly tainted body of water located southwest of Sentinel Hill in Westfall. Surrounded by prowling gnolls and marked by nearby graves, it remains one of the few fresh fishing spots in the parched countryside despite its sinister hazards. Tucked away southwest of Sentinel Hill, Stendel's Pond offers a quiet break from Westfall's dusty plains, though danger is never far. Gnolls roam the muddy banks, while scattered skeletons and a pair of lone graves suggest that either the waters or the beasts around it are fatal to careless travelers. Anglers still risk the trek for schools of sagefish.",
+  fullHash = "37cdae",
+  text = "Stendel's Pond. Gnolls prowl Stendel's Pond southwest of Sentinel Hill, where anglers still seek fresh fish. Southwest of Sentinel Hill, Stendel's Pond draws anglers despite the danger along its muddy banks. Gnolls roam nearby, and scattered skeletons with two lone graves show that the shore is perilous. The water may be foul, or the beasts may be to blame, but the cause is unknown. Schools of sagefish still bring anglers to the pond.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_stendel-s-pond-c19087d888a84a729188/1-0000.mp3", duration = 37.5379592, start = 0},
+    {file = "Audio/Transport/full_subzone_stendel-s-pond-fef0cb67206921a27ce7/1-0000.mp3", duration = 24.6857143, start = 0},
   },
 }
 P.transport["subzone:stone-cairn-lake"] = {
   hash = "c731f3",
-  fullHash = "3ff038",
-  text = "Stone Cairn Lake. Stone Cairn Lake is a ring-shaped body of water resting in northeastern Elwynn Forest. At its center lies an island crowned with Heroes' Vigil, a memorial to the fallen of the First War. Once a tranquil site for reflection, the lake is now troubled by hostile murlocs along its shores and renegade wizards occupying the isle. Stone Cairn Lake earns its name from the prominent stone memorial erected on the large island in its center. Known as Heroes' Vigil, this monument was raised to honor the heavy loss of human life suffered during the First War against the Orcish Horde. Families and pilgrims once traveled safely to the island to pay respects to the fallen, gazing across the calm waters at the solemn stonework. Today, however, dangerous renegade wizards have established a camp directly beside the memorial, turning a place of sacred remembrance into a hostile redoubt. Surrounding the ring-shaped lake is a scenic shoreline that has grown increasingly dangerous for locals and travelers. A tribe of aggressive murlocs has claimed the southern banks, erecting crude huts along the waterline and harassing anyone who draws near. Beyond its dangers, the hills and outcrops encircling the lake are rich in mineral veins, making the perimeter a frequent destination for prospectors and miners willing to brave the local threats.",
+  fullHash = "b37a8b",
+  text = "Stone Cairn Lake. At Stone Cairn Lake in northeastern Elwynn, hostile murlocs hold the southern shore and renegade wizards camp on the island. Heroes' Vigil honors those lost in the First War. Families and pilgrims once crossed the calm waters to honor the dead at Heroes' Vigil. The stone memorial was raised on the lake's central island to mark the heavy loss of human life in the First War against the Orcish Horde. Now renegade wizards have made camp beside the monument, and the island has become a hostile place. Aggressive murlocs have claimed the southern banks of Stone Cairn Lake. Their crude huts line the water, and they harass anyone who comes near. The hills and rocky outcrops around the lake hold rich mineral veins, drawing prospectors and miners despite the dangers along the shore.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_stone-cairn-lake-060e25143bad5827e49c/1-0000.mp3", duration = 75.4155102, start = 0},
+    {file = "Audio/Transport/full_subzone_stone-cairn-lake-22c176092d5dde498c14/1-0000.mp3", duration = 45.5314286, start = 0},
   },
 }
 P.transport["subzone:stonefield-farm"] = {
   hash = "3503ec",
-  fullHash = "3503ec",
-  text = "Stonefield Farm. Stonefield Farm is a working homestead situated in southern Elwynn Forest. It is home to the Stonefield family, who have long been locked in a bitter feud with their neighbors, the Maclures. Nestled in the rolling greenery south of Goldshire, Stonefield Farm produces crops for the realm while maintaining a fierce, decades-long grudge against the nearby Maclure Vineyards. The bad blood between the households leads to petty squabbles, mutual accusations of theft, and constant tension. Yet beneath the hostile bickering, young Tommy Joe Stonefield has fallen secretly in love with Maybell Maclure, creating a quiet romance that could either bridge the divide between the families or ignite further outrage.",
+  fullHash = "822a6b",
+  text = "Stonefield Farm. The Stonefield family works the fields in southern Elwynn Forest. Their long feud with the neighboring Maclures keeps the two households at odds. Stonefield Farm lies south of Goldshire, where the family grows crops for the realm. For decades, the Stonefields have quarreled with the nearby Maclure Vineyards. The households trade accusations of theft and trespassing, and even small disputes keep tensions high. Gramma Stonefield, Ma Stonefield, and young Tommy Joe Stonefield make their home here.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_stonefield-farm-6596626dd9caf628c35f/1-0000.mp3", duration = 42.1355102, start = 0},
+    {file = "Audio/Transport/full_subzone_stonefield-farm-90716a84f8cebe4ef2c9/1-0000.mp3", duration = 29.7012245, start = 0},
   },
 }
 P.transport["subzone:stonefire-tavern"] = {
@@ -2643,10 +2643,10 @@ P.transport["subzone:stonewrought-dam"] = {
 }
 P.transport["subzone:stormwind-gate"] = {
   hash = "b03623",
-  fullHash = "b03623",
-  text = "Stormwind Gate. The Stormwind Gate is the monumental fortified entryway connecting Elwynn Forest to Stormwind City. Guarded constantly by royal sentries, this threshold stands as the primary boundary between the tranquil woodlands and the grand Valley of Heroes. Towering over the southern road of Elwynn Forest, the Stormwind Gate serves as both a defensive bulwark and a ceremonial threshold for the capital. Sentinels of the Stormwind City Guard maintain a constant watch across the stone portal, guarding the approaches from the forest while regular patrols march between the outer arch and the Valley of Heroes. Despite lingering unrest throughout Elwynn, the massive iron-and-stone gates remain wide open to welcome travelers, merchants, and returning defenders into the heart of the Alliance.",
+  fullHash = "dc518f",
+  text = "Stormwind Gate. At Stormwind Gate, sentries watch the road between Elwynn Forest and Stormwind City. The passage opens onto the Valley of Heroes, where the city’s stone monuments rise beyond the arch. Stormwind Gate guards the southern road from Elwynn Forest into the capital. The Stormwind City Guard watches from the stone portal, while patrols move between the outer arch and the Valley of Heroes. Unrest lingers in Elwynn, yet the massive iron and stone gates stay open. Travelers, merchants, and returning defenders pass through into the heart of the Alliance.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_stormwind-gate-fb4ce5894814072d9619/1-0000.mp3", duration = 43.7028571, start = 0},
+    {file = "Audio/Transport/full_subzone_stormwind-gate-c3ef303b41c830c99cca/1-0000.mp3", duration = 32.1828571, start = 0},
   },
 }
 P.transport["subzone:stormwind-keep"] = {
@@ -2659,18 +2659,18 @@ P.transport["subzone:stormwind-keep"] = {
 }
 P.transport["subzone:stormwind-stockade"] = {
   hash = "627646",
-  fullHash = "627646",
-  text = "Stormwind Stockade. Tucked away beneath the canals along the northern edge of the Mage Quarter, the Stockade serves as Stormwind's high-security penitentiary. Intended to lock away murderers, political dissidents, and foreign enemies, the subterranean fortress has recently collapsed into total chaos following a coordinated inmate rebellion. Ordinarily overseen by Warden Thelwater, the Stockade is where the kingdom deposits its most volatile prisoners, ranging from cutthroats and Defias operatives to captured Blackrock orcs and Dark Iron dwarves. However, a violent uprising orchestrated by the cunning Defias conspirator Bazil Thredd has entirely displaced the prison guards. The inmates now roam freely in the lower cells, turning the fortress into a fortress of riots. Thelwater, having barely secured the entry thresholds, relies on independent adventurers to plunge into the subterranean corridors and suppress the revolt before it spills out into the canals.",
+  fullHash = "1157bb",
+  text = "Stormwind Stockade. Stormwind Stockade holds the city’s most dangerous prisoners beneath the canals near the Mage Quarter. A coordinated revolt has driven the guards from the lower cells, leaving the prison in chaos. Warden Thelwater oversees the Stockade, where Stormwind keeps cutthroats, Defias operatives, captured Blackrock orcs, and Dark Iron dwarves. Now a violent uprising led by the Defias conspirator Bazil Thredd has forced the guards from the lower cells. The prisoners roam freely through the corridors. Thelwater has managed to secure the entrance, but the revolt still threatens to reach the canals. He depends on adventurers to enter the prison and put down the uprising.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_stormwind-stockade-e242b7a760600b334327/1-0000.mp3", duration = 55.5102041, start = 0},
+    {file = "Audio/Transport/full_subzone_stormwind-stockade-a0828a28855a50570572/1-0000.mp3", duration = 40.2546939, start = 0},
   },
 }
 P.transport["subzone:stormwind-stockade-classic"] = {
   hash = "4afcb2",
-  fullHash = "4afcb2",
-  text = "Stormwind Stockade (Classic). The Stormwind Stockade is a fortified underground prison beneath the canal district of Stormwind City. Originally built to contain petty criminals, violent mercenaries, and political subversives, it has recently plunged into chaos following a violent inmate revolt. Tucked away off the canals between Old Town and the Mage Quarter, the Stockade serves as the primary penal facility of the Kingdom of Stormwind. Presided over by Warden Thelwater, the subterranean complex houses an assortment of the realm's most dangerous malefactors: cutthroats of the Defias Brotherhood, a marauding Blackrock orc, an ogre, and even an infiltrating Dark Iron dwarf. Recently, a coordinated prison riot orchestrated by the cunning felon Bazil Thredd overwhelmed the garrison, driving out surviving guards and leaving the convicts in full control of the interior halls.",
+  fullHash = "cb4758",
+  text = "Stormwind Stockade (Classic). Prisoners now control the Stormwind Stockade beneath Stormwind City's canal district. A revolt has driven the guards from its halls. The Stockade lies off the canals between Old Town and the Mage Quarter, holding Stormwind's most dangerous prisoners. Warden Thelwater oversees the underground prison. Its inmates include Defias Brotherhood cutthroats, a Blackrock orc, an ogre, and a Dark Iron dwarf. Bazil Thredd recently led a coordinated riot that overwhelmed the garrison. The surviving guards fled, leaving the prisoners in control of the halls.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_stormwind-stockade-classic-9f6db6e3dd853a982736/1-0000.mp3", duration = 50.5991837, start = 0},
+    {file = "Audio/Transport/full_subzone_stormwind-stockade-classic-9b4edd0cf0003e5d16c1/1-0000.mp3", duration = 32.8097959, start = 0},
   },
 }
 P.transport["subzone:stoutlager-inn"] = {
@@ -2787,10 +2787,10 @@ P.transport["subzone:three-corners"] = {
 }
 P.transport["subzone:thunder-falls"] = {
   hash = "5a8d62",
-  fullHash = "5a8d62",
-  text = "Thunder Falls. Thunder Falls is a secluded mountain ravine tucked away in the northwestern heights of Elwynn Forest. Cradled between sheer cliffs and fed by roaring cascades, it features a quiet riverside cottage that has fallen into the hands of local bandits. Tucked away in the jagged ridges above Mirror Lake, Thunder Falls is an unusual geographical cleft. The ravine is carved by a swift mountain stream that enters via an inaccessible northern cascade, only to drop away on both sides in dramatic waterfalls. One side plunges down into Mirror Lake, while the downstream course flows west toward the rugged borders of Westfall. Despite the roaring waters, a small cottage, a dock, and an outdoor forge sit along the shore, though outlaws now claim the peaceful clearing for themselves.",
+  fullHash = "d080b0",
+  text = "Thunder Falls. Thunder Falls lies in Elwynn Forest’s northwestern heights, where bandits have taken a riverside cottage. Thunder Falls cuts through the ridges above Mirror Lake, where a mountain stream rushes between steep cliffs. It enters over an unreachable cascade in the north, then spills away in waterfalls on both sides. One fall empties into Mirror Lake; the stream’s downstream course runs west toward Westfall’s rugged border. A cottage, dock, and outdoor forge sit beside the water. Bandits now claim the clearing.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_thunder-falls-4d4bcdd3f5de491e071c/1-0000.mp3", duration = 44.1469388, start = 0},
+    {file = "Audio/Transport/full_subzone_thunder-falls-3b1697d877ce62953c9d/1-0000.mp3", duration = 30.6677551, start = 0},
   },
 }
 P.transport["subzone:thunderbrew-distillery"] = {
@@ -2827,10 +2827,10 @@ P.transport["subzone:tower-of-althalaxx"] = {
 }
 P.transport["subzone:tower-of-azora"] = {
   hash = "0e6386",
-  fullHash = "0e6386",
-  text = "Tower of Azora. The Tower of Azora is a slender wizard's spire rising out of eastern Elwynn Forest, north of the Brackwell Pumpkin Patch. Presided over by the human Archmage Theocritus, the enclave serves as a scholarly outpost locked in a silent magical feud with a hostile tower in neighboring Redridge Mountains. Standing along the eastern road toward the Redridge Mountains, the Tower of Azora is an arcane sanctuary staffed almost entirely by gnome spellcasters. Under the stewardship of Archmage Theocritus, these scholars study strange curiosities and provide magical instruction to wandering spellweavers. The wild magical aura surrounding the spire occasionally warps the nearby wildlife, leaving the gnome servants to contend with enchanted household items and mutated insects creeping past the doorway.",
+  fullHash = "1994c1",
+  text = "Tower of Azora. At the Tower of Azora, Archmage Theocritus leads a scholarly outpost in eastern Elwynn Forest. The slender spire stands north of the Brackwell Pumpkin Patch, where its human master keeps watch over a silent magical feud with a hostile tower in the Redridge Mountains. The Tower of Azora stands beside the eastern road to the Redridge Mountains, staffed almost entirely by gnome spellcasters. Archmage Theocritus guides their studies of strange curiosities and teaches wandering spellweavers. A wild magical aura surrounds the spire and sometimes warps nearby wildlife. Within the tower, gnome servants contend with enchanted household items and mutated insects that creep past the doorway.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_tower-of-azora-2c1281e0bc8e62e7123d/1-0000.mp3", duration = 44.7477551, start = 0},
+    {file = "Audio/Transport/full_subzone_tower-of-azora-f31bc31f2d45775c6212/1-0000.mp3", duration = 41.9265306, start = 0},
   },
 }
 P.transport["subzone:tower-of-ilgalar"] = {
@@ -2843,10 +2843,10 @@ P.transport["subzone:tower-of-ilgalar"] = {
 }
 P.transport["subzone:trade-district"] = {
   hash = "ba5adf",
-  fullHash = "ccf0a6",
-  text = "Trade District. The Trade District is the bustling commercial heart of Stormwind City, located immediately past the main gates and the Valley of Heroes. It serves as the primary hub for adventurers and citizens alike, housing the city's central bank, auction house, guild registry, and diverse merchant shops. Crossing beneath the stone arches from the Valley of Heroes brings travelers directly into the Trade District. This vibrant open plaza acts as Stormwind's primary marketplace and logistical hub. At its center stands the Auction House, flanked nearby by the Stormwind Counting House, the city's main bank, and the popular tavern known as The Gilded Rose. The district directly bridges the gap between the military enclave of Old Town, the serene Cathedral Square, and the arcane avenues of the Mage Quarter, ensuring that coin, raw goods, and adventuring supplies circulate swiftly through the realm. Every essential commodity can be acquired along the paved avenues and flanking canals. Weapon smiths at Weller's Arsenal and Lionheart Armory supply blades and mail, fletchers peddle bows at The Empty Quiver, and artisanal stalls offer everything from fresh flowers to fine aged vintages from the Gallina Winery. Just inside the gates, the Stormwind Visitor's Center coordinates newly registered charters and tabard designs for organized adventuring guilds, while an elevated ramp on the eastern side climbs toward the Gryphon Roost, linking the capital's mercantile life to the rest of the Alliance territories.",
+  fullHash = "01416e",
+  text = "Trade District. Past the Valley of Heroes, Trade District draws Stormwind’s merchants and travelers. Its bank, Auction House, guild registry, and shops serve citizens and adventurers alike. You pass beneath the stone arches from the Valley of Heroes into Trade District. The open plaza is Stormwind’s main marketplace and a hub for goods and travel. The Auction House stands at its center, with the Stormwind Counting House, the city’s main bank, and The Gilded Rose nearby. From here, routes lead to Old Town, the Cathedral Square, and the Mage Quarter. Coin, raw goods, and supplies for adventurers pass through the district on their way across the realm. Shops line the paved avenues and canals, offering goods for daily needs and travel. Weller’s Arsenal and Lionheart Armory sell blades and mail, while The Empty Quiver offers bows. Stalls sell fresh flowers and aged vintages from the Gallina Winery. Just inside the gates, the Stormwind Visitor’s Center handles newly registered guild charters and tabard designs. On the eastern side, an elevated ramp leads to the Gryphon Roost, connecting Stormwind’s markets with Alliance territories.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_trade-district-9cb200fa7fb57e2d9dc3/1-0000.mp3", duration = 86.1257143, start = 0},
+    {file = "Audio/Transport/full_subzone_trade-district-b28682d0875e686c2817/1-0000.mp3", duration = 69.12, start = 0},
   },
 }
 P.transport["subzone:tradesmen-s-terrace"] = {
@@ -2907,10 +2907,10 @@ P.transport["subzone:twilight-vale"] = {
 }
 P.transport["subzone:valley-of-heroes"] = {
   hash = "7d9bf7",
-  fullHash = "193848",
-  text = "Valley of Heroes. The Valley of Heroes forms the monumental southern entrance to Stormwind City, carrying travellers across a stone bridge spanning the moat. Flanked by towering statues honoring the leaders of the Alliance Expedition to Draenor, it serves as both an awe-inspiring welcome and a heavily fortified checkpoint. Erected during the grand rebuilding of Stormwind following the Second War, the statues lining the causeway commemorate the commanders of the Alliance Expedition. These champions marched through the Dark Portal into the orcish homeworld of Draenor to seal the rift forever, giving their lives so Azeroth might survive. Visitors proceeding north toward the Trade District pass beneath the visages of Archmage Khadgar, Kurdran Wildhammer, Ranger-Captain Alleria Windrunner, Force Commander Danath Trollbane, and High General Turalyon. Beyond its ceremonial role, the valley is the primary defensive choke point guarding Stormwind from overland invasion. The approaches are overseen by General Marcus Jonathan, commander of the city guard, who monitors all traffic entering and departing through the great gates astride his steed. Flanking commanders, including Major Mattingly and Field Marshal Stonebridge, maintain vigilance alongside rows of seasoned guards, ensuring the capital remains secure against external threats.",
+  fullHash = "e57e2c",
+  text = "Valley of Heroes. Stone statues watch over the Valley of Heroes, where Stormwind's southern road crosses the moat into the city. They honor the leaders of the Alliance Expedition to Draenor, and guards hold this fortified entrance. You cross the moat beneath statues honoring the commanders of the Alliance Expedition. Stormwind's rebuilding after the Second War raised these monuments along the causeway. The champions marched through the Dark Portal into Draenor to seal the rift forever, giving their lives so Azeroth might survive. As you head north toward the Trade District, you pass Archmage Khadgar, Kurdran Wildhammer, Ranger-Captain Alleria Windrunner, Force Commander Danath Trollbane, and High General Turalyon. General Marcus Jonathan watches Stormwind's gates from horseback, overseeing the guards and the traffic in and out. The valley is the city's main defense against an overland invasion. Major Mattingly, Field Marshal Stonebridge, and rows of seasoned guards keep watch beside him, guarding the capital from threats beyond its walls.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_valley-of-heroes-a1a8fca58ae0efeb9fa8/1-0000.mp3", duration = 73.8220408, start = 0},
+    {file = "Audio/Transport/full_subzone_valley-of-heroes-ac7552de77927533ddb5/1-0000.mp3", duration = 61.8318367, start = 0},
   },
 }
 P.transport["subzone:valley-of-kings"] = {
@@ -2939,10 +2939,10 @@ P.transport["subzone:vul-gol-ogre-mound"] = {
 }
 P.transport["subzone:war-room"] = {
   hash = "7c707f",
-  fullHash = "dda0a5",
-  text = "War Room. Tucked deep inside Stormwind Keep, the War Room serves as the strategic nerve center of the Alliance military. Ringed with armaments, historical war tomes, and tactical charts, it is where generals and strategists monitor distant fronts and coordinate the defense of the kingdom. Branching off from the grand chambers of Stormwind Keep, the War Room is outfitted specifically for military logistics and high-level campaign planning. Its stone walls are decorated with rows of armaments, including swords, blunderbusses, and even heavy artillery cannons. Piles of military treatises and historical chronicles stand stacked on nearby tables. At the room's core lies a large tactical map table, allowing commanders to assess Alliance deployments across Azeroth while the royal court handles matters of state just steps away.",
+  fullHash = "b2d25b",
+  text = "War Room. Deep inside Stormwind Keep, the War Room gathers the arms, records, and charts used to plan the Alliance’s defense. Beyond Stormwind Keep’s grand chambers, commanders turn to military logistics and high-level campaign planning. Swords, blunderbusses, and heavy artillery cannons line the stone walls. Military treatises and chronicles of past wars fill nearby tables. At the center, a large map lets commanders assess Alliance deployments across Azeroth, while the royal court handles affairs of state just steps away.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_war-room-acf5ac7a03b72f5db70c/1-0000.mp3", duration = 48.2481633, start = 0},
+    {file = "Audio/Transport/full_subzone_war-room-e3968d9263ca075c9eaf/1-0000.mp3", duration = 32.9665306, start = 0},
   },
 }
 P.transport["subzone:warrior-s-terrace"] = {
@@ -3003,18 +3003,18 @@ P.transport["subzone:wellspring-river"] = {
 }
 P.transport["subzone:westbrook-garrison"] = {
   hash = "75d6dc",
-  fullHash = "44e21b",
-  text = "Westbrook Garrison. Westbrook Garrison is a Stormwind Guard outpost situated on the western edge of Elwynn Forest near the Westfall border. Manned by an overworked, under-supplied skeleton crew under Deputy Rainer, it serves as the realm's first line of defense against the encroaching Riverpaw gnolls and rogue bandits. Positioned where Elwynn Forest begins to thin toward Westfall, Westbrook Garrison stands as a vital but struggling watchpoint. With much of the Stormwind Army committed abroad or tied down by political inertia in the capital, the outpost has been left critically shorthanded. Deputy Rainer and his handful of guards must patrol the western roads while fending off emboldened thieves and the vicious Riverpaw gnolls who have overrun the southern woods. Unable to secure formal reinforcements from Marshal Dughan in Goldshire, the garrison relies almost entirely on traveling adventurers to secure the highway. The primary threat facing Westbrook is the swelling gnoll presence centered around the south of Forest's Edge. The packs have grown bold enough to stage raids directly on supply lines and homesteads, organized under the fearsome gnoll chieftain known as Hogger. Outnumbered and overwhelmed by the brute strength of Hogger's forces, the garrison has posted a high bounty across its grounds, desperately seeking capable fighters willing to venture into the hills and bring down the beast before he pushes farther east.",
+  fullHash = "796429",
+  text = "Westbrook Garrison. At Westbrook Garrison, Deputy Rainer's few guards hold Elwynn's western road against gnolls and bandits. The outpost is short on soldiers and supplies, with danger rising near the Westfall border. Westbrook Garrison watches the road where Elwynn Forest thins toward Westfall. Deputy Rainer and a handful of guards patrol the western roads with too few soldiers to cover them. Much of the Stormwind Army serves abroad, while political indecision in the capital leaves the outpost without needed support. Thieves grow bolder, and Riverpaw gnolls have overrun the southern woods. Marshal Dughan in Goldshire has not sent formal reinforcements, so the guards depend on travelers to help secure the highway. Riverpaw gnolls gather south of Forest's Edge, where their raids threaten supply lines and homesteads. The packs follow Hogger, a fearsome chieftain whose forces outnumber the garrison and overwhelm its guards with brute strength. A high bounty is posted across the outpost, seeking fighters willing to enter the hills and bring down Hogger before the gnolls press farther east.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_westbrook-garrison-b9c9a5d1494b5b40ab3b/1-0000.mp3", duration = 79.4122449, start = 0},
+    {file = "Audio/Transport/full_subzone_westbrook-garrison-5bfbc8c470c7851b5eff/1-0000.mp3", duration = 61.3616327, start = 0},
   },
 }
 P.transport["subzone:westfall-lighthouse"] = {
   hash = "3d610d",
-  fullHash = "3d610d",
-  text = "Westfall Lighthouse. Perched on a rocky isle off the southwestern shore of Westfall, the Westfall Lighthouse once warned vessels away from the perilous shallows of the Great Sea. Today, its living keepers are gone, wiped out in a brutal assault led by the notorious murloc Old Murk-Eye, leaving only the spirit of Captain Grayson to watch over the flame. Built along the treacherous southwestern bluffs of Westfall, the lighthouse long provided safe passage for ships navigating the coastline near Stormwind. However, as law and order collapsed across the region and royal patrols dwindled, coastal dangers surged unchecked. A family of keepers originally tended the beacon, but aggressive murloc tribes drove them inland. Though they bravely returned to relight the tower, the infamous murloc raider Old Murk-Eye rallied his kin for a second, merciless onslaught, butchering the family and extinguishing the beacon.",
+  fullHash = "bdc542",
+  text = "Westfall Lighthouse. Westfall Lighthouse watches over the rocky isle off Westfall's southwestern shore, its beacon dark and its keepers gone. Old Murk-Eye led the attack that killed them, and Captain Grayson's spirit remains by the tower. Westfall Lighthouse once guided ships along Westfall's dangerous southwestern bluffs and the coast near Stormwind. As law and order failed across the region, royal patrols dwindled and coastal dangers grew unchecked. Murloc tribes drove the lighthouse keepers inland. The family returned to relight the beacon, but Old Murk-Eye rallied his kin for another attack. The murlocs killed the keepers and put out the light.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_westfall-lighthouse-9028b81542a9fe1cb5d2/1-0000.mp3", duration = 52.7934694, start = 0},
+    {file = "Audio/Transport/full_subzone_westfall-lighthouse-bfe6003198d4b5f8da6e/1-0000.mp3", duration = 37.9297959, start = 0},
   },
 }
 P.transport["subzone:whelgar-s-excavation-site"] = {

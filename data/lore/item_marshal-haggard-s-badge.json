@@ -10,11 +10,11 @@
    "quest:1667"
   ]
  },
- "summary": "Marshal Haggard's Badge is a symbol of rank and authority once carried by Marshal Haggard during his service to the kingdom of Stormwind. After being stolen by the Defias bandit Dead-tooth Jack through trickery, the badge poses a dangerous threat as a tool for impersonating city officials.",
+ "summary": "At his farm in Elwynn, Marshal Haggard has lost the badge he carried in Stormwind's service. Dead-tooth Jack stole it by trickery, and the Defias may use it to impersonate city officials.",
  "sections": [
   {
    "title": "A Stolen Insignia",
-   "body": "Though Marshal Haggard has long retired to his small farmstead in the hills of Elwynn Forest, his old Stormwind Marshal's badge still holds official weight. Under the cover of night, a Defias rogue named Dead-tooth Jack donned a Stormwind tabard and posed as Marshal Dughan, Goldshire's garrison commander. Tricked into believing his former peers required the insignia for official business, the aging Haggard handed it over without suspicion. Jack fled into the woods before the retired officer realized the ruse. In the hands of the Defias Brotherhood, such an emblem of Stormwind authority could allow outlaws to slip past checkpoints or sow confusion among local patrols.",
+   "body": "Marshal Haggard retired to a small farmstead in the hills of Elwynn Forest, but his old Stormwind Marshal's badge still carries official weight. One night, Dead-tooth Jack, a Defias rogue, wore a Stormwind tabard and posed as Marshal Dughan, Goldshire's garrison commander. He tricked Haggard into believing his former peers needed the insignia for official business. The aging marshal handed it over without suspicion. Jack fled into the woods before Haggard saw through the ruse. In Defias hands, the emblem of Stormwind authority could let outlaws pass checkpoints or confuse local patrols.",
    "spoiler": 0
   }
  ],
@@ -26,7 +26,7 @@
     "marshal badge",
     "haggards badge"
    ],
-   "answer": "It is an official insignia of rank from Marshal Haggard's time serving the kingdom of Stormwind. Even in retirement, retaining such a badge signifies past military standing and carries genuine authority."
+   "answer": "It is an official badge of rank Marshal Haggard carried while serving the kingdom of Stormwind. Though retired, he still possesses an insignia with genuine authority."
   },
   {
    "q": "How did Dead-tooth Jack get the badge?",
@@ -35,7 +35,7 @@
     "who stole the badge",
     "dead-tooth jack trick"
    ],
-   "answer": "Dead-tooth Jack approached Marshal Haggard's home under cover of darkness wearing a Stormwind tabard. In the dim light, Haggard mistook him for Goldshire's Marshal Dughan and handed over the badge when asked."
+   "answer": "Dead-tooth Jack came to Marshal Haggard's home at night wearing a Stormwind tabard. Haggard mistook him for Marshal Dughan of Goldshire and handed over the badge when Jack asked for it."
   },
   {
    "q": "Why is the badge dangerous in the hands of the Defias?",
@@ -44,7 +44,7 @@
     "defias badge use",
     "badge danger"
    ],
-   "answer": "With a genuine Marshal's badge and a disguised uniform, a Defias agent could impersonate high-ranking Stormwind officials to bypass sentries, infiltrate garrisons, or issue false orders to town guards."
+   "answer": "A Defias agent carrying the genuine badge and wearing a disguise could impersonate a high-ranking Stormwind official, bypass sentries, enter garrisons, or give false orders to town guards."
   },
   {
    "q": "Where is the badge kept?",
@@ -53,17 +53,17 @@
     "where to find badge",
     "dead tooth strongbox"
    ],
-   "answer": "Dead-tooth Jack locked the stolen badge inside his strongbox, stashed within his campsite located south of Marshal Haggard's farm in Elwynn Forest."
+   "answer": "Dead-tooth Jack locked the badge in his strongbox at his campsite south of Marshal Haggard's farm in Elwynn Forest."
   }
  ],
  "angles": [
   {
    "target": "class:Warrior",
-   "text": "Recovering Haggard's badge proves your mettle to a veteran of Stormwind's military, who rewards promising warriors with well-maintained surplus arms from his fighting days."
+   "text": "As a warrior, recovering Haggard's badge proves your mettle to a veteran of Stormwind's military. He rewards promising warriors with well-maintained surplus arms from his fighting days."
   },
   {
    "target": "faction:Alliance",
-   "text": "Retrieving the badge preserves the integrity of Stormwind's military command and prevents the Defias Brotherhood from sabotaging local defenses from within."
+   "text": "As an Alliance member, retrieving the badge protects Stormwind's military command and keeps the Defias Brotherhood from undermining local defenses from within."
   }
  ],
  "keywords": [
@@ -86,5 +86,6 @@
  "attribution": [
   "Marshal Haggard's Badge",
   "Dead-tooth Jack"
- ]
+ ],
+ "style": 1
 }

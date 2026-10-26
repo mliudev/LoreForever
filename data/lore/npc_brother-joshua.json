@@ -8,11 +8,11 @@
   "wiki": "Brother Joshua",
   "refs": 1
  },
- "summary": "Brother Joshua is a human priest of the Church of the Holy Light stationed within the grand Cathedral of Light in Stormwind. Dedicated to guiding the faithful, he trains novice priests in channeling the Holy Light to mend wounds and bolster their allies. His quiet service anchors the day-to-day spiritual instruction carried out in the heart of the kingdom.",
+ "summary": "In Stormwind, Brother Joshua guides those who come to the Cathedral of Light to learn the ways of the Holy Light. He trains novice priests to heal wounds and strengthen their allies.",
  "sections": [
   {
    "title": "A Mentor in the Cathedral",
-   "body": "Within the serene halls of the Cathedral of Light, Brother Joshua stands near the main altar, ready to instruct newly called servants of the faith. As a priest trainer for the Church of the Holy Light, Joshua provides instruction on the foundational disciplines of healing, protective wards, and the spiritual focus required to commune with the Light. For young human priests starting their service to the Alliance, he represents one of their first guides into deeper communion with the divine.",
+   "body": "Brother Joshua waits near the main altar in Stormwind's Cathedral of Light, ready to teach new servants of the faith. A priest of the Church of the Holy Light, he instructs them in healing, protective wards, and the focus needed to commune with the Light. Young human priests beginning their service to the Alliance find one of their first guides in him.",
    "spoiler": 0
   }
  ],
@@ -24,7 +24,7 @@
     "brother joshua role",
     "joshua priest"
    ],
-   "answer": "Brother Joshua is a human priest and trainer within the Church of the Holy Light. He is stationed inside Stormwind's Cathedral of Light, where he instructs aspiring priests in their spells, rituals, and sacred duties."
+   "answer": "Brother Joshua is a human priest and trainer of the Church of the Holy Light. He teaches aspiring priests their spells, rituals, and sacred duties in Stormwind's Cathedral of Light."
   },
   {
    "q": "Where can I find Brother Joshua?",
@@ -33,7 +33,7 @@
     "where is brother joshua",
     "where is joshua"
    ],
-   "answer": "He can be found standing toward the back of the Cathedral of Light in the Cathedral Square of Stormwind City, near the high altar."
+   "answer": "Brother Joshua stands near the high altar toward the back of the Cathedral of Light, in Cathedral Square in Stormwind City."
   },
   {
    "q": "What services does he offer?",
@@ -42,17 +42,17 @@
     "brother joshua training",
     "can joshua train me"
    ],
-   "answer": "Brother Joshua offers priestly instruction, helping priests learn new ranks of divine and restorative spells, as well as allowing them to reset their spiritual talents."
+   "answer": "Brother Joshua teaches priests new ranks of divine and restorative spells and can reset their spiritual talents."
   }
  ],
  "angles": [
   {
    "target": "class:Priest",
-   "text": "Brother Joshua serves as a primary mentor in Stormwind, guiding your study of the Holy Light and helping you unlock new prayers and disciplines as you advance."
+   "text": "As a priest, you can study the Holy Light with Brother Joshua in Stormwind and learn new prayers and disciplines as you advance."
   },
   {
    "target": "faction:Alliance",
-   "text": "Based in the Cathedral of Light, Joshua represents the enduring spiritual resilience of the Church of the Holy Light in the heart of the Alliance."
+   "text": "As an Alliance member, you can find Joshua in the Cathedral of Light, at the heart of your kingdom."
   }
  ],
  "keywords": [
@@ -72,5 +72,6 @@
  ],
  "attribution": [
   "Brother Joshua"
- ]
+ ],
+ "style": 1
 }

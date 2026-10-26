@@ -10,16 +10,16 @@
    "quest:336"
   ]
  },
- "summary": "Black Claw Stout is a special drink prepared by Zardeth of the Black Claw beneath the streets of Stormwind. Concocted for a meddlesome nobleman, it is delivered under the guise of an ordinary tavern beverage.",
+ "summary": "Beneath Stormwind, Zardeth of the Black Claw prepares a drink for Lord Wishock. The stout is delivered as an ordinary tavern beverage.",
  "sections": [
   {
    "title": "A Toxic Draught",
-   "body": "Behind the shadowy taprooms of the Slaughtered Lamb, warlocks and conspirators lurk just beneath the notice of the Stormwind city guard. When a noble named Lord Wishock repeatedly threatens to shut down their underground operation while hypocritically running up unpaid bar tabs upstairs, Zardeth of the Black Claw decides to settle the score. The Black Claw Stout is crafted specifically to exploit Wishock's weakness for strong drink, carrying a lethal dose disguised as a common tavern refreshment.",
+   "body": "Zardeth of the Black Claw works beneath the notice of Stormwind's city guard, in the operation below the Slaughtered Lamb's taprooms. Lord Wishock repeatedly threatens to shut it down, though he runs up unpaid bar tabs upstairs. Zardeth decides to settle the score with the noble's weakness for strong drink. He disguises a lethal dose in a common tavern refreshment.",
    "spoiler": 1
   },
   {
    "title": "Quiet Assassination",
-   "body": "Carried directly into Stormwind Keep's Hall of Petitioners, the stout takes advantage of Wishock's pompous arrogance and thirst. Mistaking the delivery for an attentive servant's offering, the noble gladly downs the brew on the spot. The poison acts almost instantly, silencing one of the cult's most persistent and annoying political critics right under the noses of the Royal Court.",
+   "body": "Lord Wishock receives the stout in Stormwind Keep's Hall of Petitioners. His pompous arrogance and thirst leave him eager to accept what he mistakes for a servant's attentive offering. The noble downs the brew on the spot. Its poison acts almost instantly, silencing one of the cult's most persistent political critics under the Royal Court's very noses.",
    "spoiler": 1
   }
  ],
@@ -31,7 +31,7 @@
     "black claw stout lore",
     "poison brew"
    ],
-   "answer": "It is a special brew concocted by Zardeth of the Black Claw in the catacombs beneath the Slaughtered Lamb in Stormwind's Mage Quarter, intended for Lord Wishock."
+   "answer": "Zardeth of the Black Claw concocts Black Claw Stout in the catacombs beneath the Slaughtered Lamb in Stormwind's Mage Quarter for Lord Wishock."
   },
   {
    "q": "Who is the target of the stout?",
@@ -40,7 +40,7 @@
     "who dies from black claw stout",
     "wishock target"
    ],
-   "answer": "The target is Lord Wishock, a high-handed noble lingering in the Hall of Petitioners who spent his time campaigning to shut down the warlock haven while drinking there on credit."
+   "answer": "Lord Wishock is the target, a high-handed noble in the Hall of Petitioners who campaigns to shut down the warlock haven while drinking there on credit."
   },
   {
    "q": "Who created the brew?",
@@ -49,7 +49,7 @@
     "who made this",
     "zardeth brew"
    ],
-   "answer": "It was brewed by Zardeth of the Black Claw, a sinister figure operating out of the crypts beneath the Slaughtered Lamb."
+   "answer": "Zardeth of the Black Claw brews the stout in the crypts beneath the Slaughtered Lamb."
   },
   {
    "q": "Why is Lord Wishock offered the stout?",
@@ -57,17 +57,17 @@
     "does wishock die",
     "black claw stout effect"
    ],
-   "answer": "Zardeth sends the stout to Lord Wishock in the Hall of Petitioners, asking the courier to see how the noble likes his special brew."
+   "answer": "Zardeth sends Lord Wishock the stout in the Hall of Petitioners, asking the courier to see how the noble likes his special brew."
   }
  ],
  "angles": [
   {
    "target": "class:Warlock",
-   "text": "The brew is an errand for Stormwind's hidden warlock coven, whose haven beneath the Slaughtered Lamb a meddling noble wants shut down."
+   "text": "For Stormwind's hidden warlock coven, the brew is an errand. A meddling noble wants its haven beneath the Slaughtered Lamb shut down."
   },
   {
    "target": "faction:Alliance",
-   "text": "Carrying the brew into Stormwind Keep shows how close the warlocks beneath the Slaughtered Lamb operate to the capital's nobles."
+   "text": "Carrying the brew into Stormwind Keep brings the warlocks operating beneath the Slaughtered Lamb close to the capital's nobles."
   }
  ],
  "keywords": [
@@ -87,5 +87,6 @@
  "attribution": [
   "Black Claw Stout",
   "A Noble Brew (2)"
- ]
+ ],
+ "style": 1
 }

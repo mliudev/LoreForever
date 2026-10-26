@@ -2,13 +2,13 @@
 ## Title: Lore Forever - 简体中文
 ## Notes: Lore Forever 简体中文语言包：界面、背景故事文本，以及中文游戏客户端的官方名称。
 ## Author: Mike
-## Version: 0.28.0
+## Version: 0.29.0
 ## Dependencies: LoreForever
 ## LoadOnDemand: 1
 ## X-LoreForever-Pack: lang
 ## X-LoreForever-Locale: zhCN
 ## X-LoreForever-Format: 1
-## X-LoreForever-DataVersion: 2026-10-25 00:59 UTC
+## X-LoreForever-DataVersion: 2026-10-25 20:19 UTC
 ## X-LoreForever-LanguageName: 简体中文
 
 # The files load through Lang.xml, which lists them.

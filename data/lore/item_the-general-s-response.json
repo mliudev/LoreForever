@@ -10,11 +10,11 @@
    "quest:121"
   ]
  },
- "summary": "The General's Response is an official military dispatch written by General Marcus Jonathan, commander of the Stormwind city guard. Intended for Magistrate Solomon in Lakeshire, the missive acknowledges Redridge's plea for aid while revealing that the capital cannot\u2014or will not\u2014immediately send royal reinforcements.",
+ "summary": "General Marcus Jonathan sends word to Lakeshire while Redridge waits for aid. His dispatch acknowledges Magistrate Solomon's plea against the Blackrock orcs and gnolls, but offers no immediate reinforcements from Stormwind.",
  "sections": [
   {
    "title": "A Diplomatic Standoff",
-   "body": "When Magistrate Solomon reaches out to Stormwind City desperately seeking troops to fend off the gathering Blackrock orc clans and Gnoll warbands in Redridge, he sends his plea straight to the high command. General Marcus Jonathan's written response delivers cold comfort: while the plea has been forwarded upward to the throne, no soldiers are currently dispatched. Caught between protocol and politics, the General orders the letter delivered back to Lakeshire, leaving Solomon troubled and suspicious that a deeper sickness paralyzes the capital's leadership.",
+   "body": "Magistrate Solomon sends an urgent plea to Stormwind City for troops to defend Redridge from the gathering Blackrock orc clans and Gnoll warbands. General Marcus Jonathan replies that the plea has been forwarded to the throne, but no soldiers are being sent now. He orders the letter returned to Lakeshire. Solomon is left troubled by Stormwind's delay and suspicious that something is wrong with its leaders.",
    "spoiler": 0
   }
  ],
@@ -26,7 +26,7 @@
     "what does the letter say",
     "generals letter"
    ],
-   "answer": "General Marcus Jonathan mourns the dead and promises to make the King aware of Lakeshire's situation. He hopes to bring reinforcements and confides that His Majesty has been scarce and acting oddly."
+   "answer": "General Marcus Jonathan mourns the dead and says he will make the King aware of Lakeshire's plight. He hopes to bring reinforcements and confides that His Majesty has been scarce and acting oddly."
   },
   {
    "q": "Why can't General Marcus Jonathan send troops to Lakeshire?",
@@ -35,7 +35,7 @@
     "why doesn't stormwind help lakeshire",
     "why no help"
    ],
-   "answer": "General Jonathan is waiting for a response from the King before he can promise reinforcements. In confidence, he tells Solomon that His Majesty has been scarce and acting oddly."
+   "answer": "General Jonathan awaits the King's response before promising reinforcements. In confidence, he tells Solomon that His Majesty has been scarce and acting oddly."
   },
   {
    "q": "How does Magistrate Solomon react to the letter?",
@@ -44,17 +44,17 @@
     "what does solomon think",
     "solomon response"
    ],
-   "answer": "Magistrate Solomon is deeply unsettled by the dispatch. He finds Stormwind's sluggishness inexplicable given the dire threat to Lakeshire, concluding that something is deeply amiss in the kingdom and fearing that this neglect signals the onset of worse calamities."
+   "answer": "Magistrate Solomon is deeply unsettled by the dispatch. Stormwind's slowness makes no sense to him while Lakeshire faces such danger, and he fears the neglect points to worse trouble in the kingdom."
   }
  ],
  "angles": [
   {
    "target": "faction:Alliance",
-   "text": "The response highlights the fraying edges of the Grand Alliance: outer settlements like Lakeshire bleed while the court of Stormwind appears strangely unresponsive to their plight."
+   "text": "Stormwind's response shows the strain on the Grand Alliance. Lakeshire bleeds while the court appears strangely unresponsive to its plight."
   },
   {
    "target": "race:Human",
-   "text": "For humans of the southern kingdoms, this stalled correspondence shows the growing rift between the citizens fighting for survival in the provinces and the secluded nobility in Stormwind Keep."
+   "text": "For humans of the southern kingdoms, the delayed reply shows the growing rift between people fighting for survival in the provinces and the secluded nobility in Stormwind Keep."
   }
  ],
  "keywords": [
@@ -76,5 +76,6 @@
  "attribution": [
   "The General's Response",
   "Messenger to Stormwind (2)"
- ]
+ ],
+ "style": 1
 }

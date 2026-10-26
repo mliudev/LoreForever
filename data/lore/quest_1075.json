@@ -17,16 +17,16 @@
   "wiki": "A Scroll from Mauren",
   "chain": []
  },
- "summary": "\"A Scroll from Mauren\" is an Alliance errand carrying word between gnome ingenuity and human arcane craft. The inventive Gaxim Rustfizzle requires a specialized spell to remotely trigger his volatile NG-5 explosives, dispatching couriers to consult with mage Collin Mauren in the heart of Stormwind.",
+ "summary": "Gaxim Rustfizzle needs arcane help to trigger his NG-5 explosives from afar. He sends you to Collin Mauren in Stormwind, where gnomish ingenuity meets human arcane craft.",
  "sections": [
   {
    "title": "A Spark Across Distances",
-   "body": "Gnomish engineering is legendary for ambitious concepts, but safe execution often requires clever solutions. When Gaxim Rustfizzle set out to design an explosive payload capable of remote activation, mechanical fuses proved insufficient. Rather than relying purely on mechanical timers or trailing cords, Gaxim envisioned a device that would detonate the NG-5 explosives at the push of a single button from a safe vantage point. To bridge the gap between volatile powder and instantaneous trigger, he turned his sights toward arcane magic.",
+   "body": "Gaxim Rustfizzle seeks a safer way to set off his NG-5 explosives. Mechanical fuses cannot give him the remote trigger he wants: one button should ignite the charges while he stays at a safe distance. He turns to arcane magic to bridge that gap.",
    "spoiler": 0
   },
   {
    "title": "The Mage Quarter Connection",
-   "body": "To acquire the necessary spellwork, Gaxim directs travelers across the kingdom to Stormwind's bustling Mage Quarter. There resides Collin Mauren, a human spellcaster whose practical understanding of the arcane makes him an ideal partner for ambitious tinkers. Mauren ponders the delicate problem of binding explosive ignition to a distant command, marking the first step in assembling the arcane incantation required to arm Gaxim's hazardous project.",
+   "body": "Gaxim sends you to Collin Mauren in Stormwind's Mage Quarter for the needed spellwork. Mauren is a human spellcaster whose practical knowledge of the arcane may help bind an explosive ignition to a distant command. His work begins the incantation Gaxim needs for his dangerous project.",
    "spoiler": 0
   }
  ],
@@ -38,7 +38,7 @@
     "who gives a scroll from mauren",
     "gaxim quest"
    ],
-   "answer": "Gaxim Rustfizzle sends you on this task. He needs an arcane formula from his human acquaintance to finish building a remote detonator."
+   "answer": "Gaxim Rustfizzle sends you to Collin Mauren. He needs an arcane formula from his human acquaintance to finish a remote detonator."
   },
   {
    "q": "Where can Collin Mauren be found?",
@@ -47,7 +47,7 @@
     "where is collin mauren",
     "find mauren"
    ],
-   "answer": "Collin Mauren resides within the Mage Quarter of Stormwind City. Look for him among the instructors, apprentices, and arcane researchers stationed around the district's towers and shops."
+   "answer": "Collin Mauren is in Stormwind City's Mage Quarter. Look for him among the instructors, apprentices, and arcane researchers around the district's towers and shops."
   },
   {
    "q": "Why does Gaxim need a spell for an explosive device?",
@@ -56,7 +56,7 @@
     "remote detonation lore",
     "why see a mage"
    ],
-   "answer": "Gaxim wants to detonate his NG-5 explosive charges from a safe distance with the press of a single button. Pure mechanics can be cumbersome or unreliable over long ranges, so he seeks Mauren's arcane expertise to create an instantaneous remote trigger."
+   "answer": "Gaxim wants to set off his NG-5 explosives with one button from a safe distance. He seeks Mauren's arcane knowledge for an instant remote trigger because mechanical means can be cumbersome or unreliable over long ranges."
   },
   {
    "q": "What is the NG-5?",
@@ -65,7 +65,7 @@
     "what is ng5",
     "gaxim explosive"
    ],
-   "answer": "NG-5, or Nitromirglyceronium, is a volatile explosive brewed by Gaxim's old colleague Lomac Gearstrip in Ironforge. To make it both effective and safe for field deployment, Gaxim requires a remote detonation system so the operator is well out of the blast radius when it ignites."
+   "answer": "NG-5, or Nitromirglyceronium, is a volatile explosive brewed by Gaxim's old colleague Lomac Gearstrip in Ironforge. Gaxim needs a remote detonation system so the person setting it off can stay well beyond the blast radius."
   },
   {
    "q": "What comes next after speaking with Collin Mauren?",
@@ -74,7 +74,7 @@
     "what follows a scroll from mauren",
     "collin mauren follow up"
    ],
-   "answer": "Once Collin Mauren assesses the request for a distant detonation spell, he tasks you with aiding him in Westfall in the quest 'Devils in Westfall'."
+   "answer": "After Collin Mauren considers the request for a distant detonation spell, he asks you to help him in Westfall in Devils in Westfall."
   },
   {
    "q": "Is Collin Mauren a gnome or a human?",
@@ -83,25 +83,25 @@
     "what race is mauren",
     "is mauren a human"
    ],
-   "answer": "Collin Mauren is a human mage. Gaxim humorously notes in his instructions that because Mauren is human, he should be easy enough to spot amidst the crowds in Stormwind."
+   "answer": "Collin Mauren is a human mage. Gaxim notes that Mauren should be easy to spot among the crowds in Stormwind because he is human."
   }
  ],
  "angles": [
   {
    "target": "class:Mage",
-   "text": "This task demonstrates how the Kirin Tor and Stormwind's practitioners of the arcane frequently collaborate with engineers, applying evocation and transmutation to mechanical challenges."
+   "text": "As a mage, you know that the Kirin Tor and Stormwind's arcane practitioners work with engineers. They apply evocation and transmutation to mechanical problems."
   },
   {
    "target": "race:Gnome",
-   "text": "Gnomes are never shy about combining technology with sorcery if it yields a more efficient, catastrophic explosion from a comfortable distance."
+   "text": "As a gnome, you are never shy about joining technology with sorcery when it promises a more catastrophic explosion from a comfortable distance."
   },
   {
    "target": "profession:Engineering",
-   "text": "Tinkers often find that pairing volatile black powder with arcane catalysts solves complex problems like remote ignition."
+   "text": "As an engineer, you know that volatile black powder and arcane catalysts can solve problems such as remote ignition."
   },
   {
    "target": "faction:Alliance",
-   "text": "The errand highlights practical cooperation between gnomish tinkerers and the human wizards who study in Stormwind's Mage Quarter."
+   "text": "As an Alliance member, you see gnomish tinkerers working with the human wizards who study in Stormwind's Mage Quarter."
   }
  ],
  "keywords": [
@@ -123,5 +123,6 @@
  ],
  "attribution": [
   "A Scroll from Mauren"
- ]
+ ],
+ "style": 1
 }

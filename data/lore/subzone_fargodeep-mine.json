@@ -7,16 +7,16 @@
  "meta": {
   "wiki": "Fargodeep Mine"
  },
- "summary": "Fargodeep Mine is an abandoned gold mine nestled in central Elwynn Forest, south of Goldshire. Once a productive source of wealth for the Kingdom of Stormwind, it has recently been overrun by a belligerent clan of kobolds.",
+ "summary": "Kobolds now swarm through Fargodeep Mine, south of Goldshire in central Elwynn Forest. The mine once brought gold to Stormwind, but its tunnels are now a kobold warren.",
  "sections": [
   {
    "title": "A Lost Vein",
-   "body": "Fargodeep Mine once provided steady gold to Stormwind's treasury, but the Kingdom's dwindling military presence in Elwynn has left outlying resources vulnerable. Kobolds quickly swarmed into the dark tunnels, establishing a bustling warren beneath the hills. Marshal Dughan and the local authorities in Goldshire view the infestation with deep concern, not only because of lost ore, but because the emboldened creatures now threaten nearby farmsteads like the Stonefield and Maclure holdings.",
+   "body": "Gold once flowed from Fargodeep Mine into Stormwind's treasury. As the Kingdom's military presence in Elwynn dwindled, outlying resources became vulnerable. Kobolds soon filled the mine's dark tunnels and made a warren beneath the hills. Marshal Dughan and Goldshire's authorities fear the lost ore and the danger to nearby farms, including the Stonefield and Maclure holdings.",
    "spoiler": 0
   },
   {
    "title": "Depths of the Warren",
-   "body": "The mine spans multiple levels, with the lower shafts winding deep beneath the forest floor. Kobold laborers and vermin scurry along the wooden scaffolds, fiercely guarding their scavenged wax and gold dust. In a den above the main tunnels lurks Goldtooth, a particularly cunning kobold leader known for hoarding trinkets pilfered from unwary travelers and surrounding residents.",
+   "body": "Fargodeep Mine runs through several levels, with lower shafts reaching deep beneath the forest floor. Kobold laborers and vermin hurry along wooden scaffolds, guarding the wax and gold dust they have scavenged. Goldtooth, a cunning kobold leader, lurks in a den above the main tunnels. He hoards trinkets stolen from travelers and nearby residents.",
    "spoiler": 0
   }
  ],
@@ -28,7 +28,7 @@
     "why did humans leave fargodeep",
     "who owned fargodeep mine"
    ],
-   "answer": "The mine was neglected as Stormwind's military stretched thin across southern lands. With town guards focused on protecting Goldshire and the main roads, the subterranean dig site was left unguarded, allowing kobolds to move in and fortify the tunnels."
+   "answer": "Stormwind neglected Fargodeep Mine as its military stretched thin across the southern lands. Town guards focused on Goldshire and the main roads, leaving the underground mine unguarded. Kobolds moved in and fortified its tunnels."
   },
   {
    "q": "Why are the kobolds here so dangerous to local farmers?",
@@ -37,7 +37,7 @@
     "kobold threat",
     "stonefield kobolds"
    ],
-   "answer": "Fargodeep Mine lies right between the Stonefield and Maclure family farms. The kobolds venture out from the tunnels to steal livestock, tools, and personal belongings, harassing anyone who wanders near the mine's entrance."
+   "answer": "Fargodeep Mine lies between the Stonefield and Maclure family farms. Kobolds come out of its tunnels to steal livestock, tools, and personal belongings, and harass anyone near the entrance."
   },
   {
    "q": "Who is Goldtooth?",
@@ -46,7 +46,7 @@
     "who is goldtooth",
     "goldtooth location"
    ],
-   "answer": "Goldtooth is a prominent kobold who nests in a den in the upper reaches of Fargodeep Mine. He is notorious for making off with Auntie Bernice Stonefield's prized family necklace."
+   "answer": "Goldtooth is a prominent kobold who nests in a den in Fargodeep Mine's upper reaches. He is known for stealing Auntie Bernice Stonefield's prized family necklace."
   },
   {
    "q": "Why do people in Goldshire want items from the mine?",
@@ -55,17 +55,17 @@
     "why gather candles",
     "gold dust"
    ],
-   "answer": "Local merchants and townsfolk see opportunity in clearing the pests: Remy 'Two Times' buys up salvaged gold dust, the alchemist William Pestle uses kobold candle wax for reagents, and Marshal Dughan needs the infestation monitored to safeguard Elwynn."
+   "answer": "People in Goldshire see a reason to clear the pests from Fargodeep Mine. Remy 'Two Times' buys salvaged gold dust, the alchemist William Pestle uses kobold candle wax for reagents, and Marshal Dughan needs the infestation monitored to protect Elwynn."
   }
  ],
  "angles": [
   {
    "target": "profession:Mining",
-   "text": "Though infested with pests, the rocky tunnels of Fargodeep remain rich in accessible copper veins for fledgling miners."
+   "text": "Though pests infest Fargodeep Mine, its rocky tunnels still hold accessible copper veins for new miners."
   },
   {
    "target": "faction:Alliance",
-   "text": "Clearing the vermin out of Fargodeep Mine is vital for securing the supply lines and farmlands immediately surrounding Goldshire."
+   "text": "Clearing the vermin from Fargodeep Mine helps secure the supply lines and farmlands around Goldshire."
   }
  ],
  "keywords": [
@@ -90,5 +90,6 @@
  ],
  "attribution": [
   "Fargodeep Mine"
- ]
+ ],
+ "style": 1
 }

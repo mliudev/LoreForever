@@ -7,16 +7,16 @@
  "meta": {
   "wiki": "Furlbrow's Pumpkin Farm"
  },
- "summary": "Furlbrow's Pumpkin Farm is an overrun homestead in northern Westfall, just off the main road from Elwynn Forest. Once a prosperous plot tended by Farmer Furlbrow and his wife Verna, the fields and farmhouse have been seized by the Defias Brotherhood and prowling harvest golems.",
+ "summary": "Bandits and harvest golems hold Furlbrow's Pumpkin Farm in northern Westfall, off the road from Elwynn Forest. Farmer Furlbrow and Verna have lost their home to the Defias Brotherhood.",
  "sections": [
   {
    "title": "A Harvest Lost",
-   "body": "Situated near the northern border of Westfall, Furlbrow's Pumpkin Farm was once known for producing robust crops to feed the kingdom. That ended when the Defias Brotherhood swept across the countryside. Outlaws drove Farmer Furlbrow and his wife Verna from their land, leaving their fields overrun with mechanical harvest golems programmed to attack anyone approaching. With the farm buildings occupied by bandits and the fields prowled by renegade machinery, the rightful owners have been forced to camp along the roadside near the Jansen Stead, mourning the loss of their home and livelihood.",
+   "body": "Near Westfall's northern border, Furlbrow's Pumpkin Farm once grew crops to feed the kingdom. The Defias Brotherhood drove Farmer Furlbrow and his wife Verna from their land. Mechanical harvest golems now roam the fields, attacking anyone who approaches. Bandits occupy the farm buildings, while the rightful owners camp beside the road near the Jansen Stead, mourning their lost home and livelihood.",
    "spoiler": 0
   },
   {
    "title": "Defias Stronghold",
-   "body": "The farm's fall illustrates the broader collapse of law and order across Westfall. With Stormwind's military garrison spread thin and unable to safeguard rural freeholders, the Defias Brotherhood easily claimed homesteads like Furlbrow's. Bandits use the property as an staging ground and camp while letting lethal harvest watchers guard the perimeter, leaving travelers on the nearby highway vulnerable to ambush.",
+   "body": "The Defias Brotherhood has claimed homesteads like Furlbrow's as Stormwind's military garrison struggles to protect Westfall's rural farmers. Bandits camp at the farm and use it as a staging ground. Lethal harvest watchers guard the perimeter, leaving travelers on the nearby highway vulnerable to ambush.",
    "spoiler": 0
   }
  ],
@@ -28,7 +28,7 @@
     "furlbrow owner",
     "who lives here"
    ],
-   "answer": "The farm belongs to Farmer Furlbrow and his wife, Verna Furlbrow. However, they were forced off their property when outlaws seized the area, driving the couple to take refuge along the road near the Jansen Stead."
+   "answer": "Farmer Furlbrow and his wife, Verna Furlbrow, own the farm. Outlaws drove them from their property, and the couple now shelters along the road near the Jansen Stead."
   },
   {
    "q": "Why is the farm abandoned?",
@@ -37,7 +37,7 @@
     "what happened to the farm",
     "why are bandits here"
    ],
-   "answer": "The farm was violently taken over by the Defias Brotherhood. They drove off the Furlbrows and stationed thugs in the buildings, using haywire mechanical harvest golems to guard the surrounding pumpkin patch."
+   "answer": "The Defias Brotherhood seized the farm and drove the Furlbrows away. Thugs occupy the buildings, while haywire mechanical harvest golems guard the pumpkin patch."
   },
   {
    "q": "Where are the Furlbrows now?",
@@ -46,7 +46,7 @@
     "furlbrow location",
     "find furlbrow"
    ],
-   "answer": "Farmer Furlbrow and his wife have taken shelter along the main road just northeast of the farm, close to the Jansen Stead, stranded with their cart and belongings."
+   "answer": "Farmer Furlbrow and his wife shelter beside the main road just northeast of the farm, near the Jansen Stead. They are stranded with their cart and belongings."
   },
   {
    "q": "Why are mechanical harvest golems attacking people here?",
@@ -55,13 +55,13 @@
     "why are golems hostile",
     "who made the golems"
    ],
-   "answer": "These mechanical constructs are programmed to attack the people of Westfall and patrol land held by the Defias. Their exact origins remain uncertain."
+   "answer": "The mechanical constructs are programmed to attack the people of Westfall and patrol land held by the Defias. Their exact origins remain uncertain."
   }
  ],
  "angles": [
   {
    "target": "faction:Alliance",
-   "text": "The overrun farm stands as a stark indictment of Stormwind's inability to protect its own heartland, leaving loyal tax-paying farmers defenseless against banditry."
+   "text": "The overrun farm shows how Stormwind has failed to protect its heartland, leaving loyal farmers defenseless against bandits."
   }
  ],
  "keywords": [
@@ -84,5 +84,6 @@
  ],
  "attribution": [
   "Furlbrow's Pumpkin Farm"
- ]
+ ],
+ "style": 1
 }

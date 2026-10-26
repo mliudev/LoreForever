@@ -7,16 +7,16 @@
  "meta": {
   "wiki": "Cathedral of Light"
  },
- "summary": "The Cathedral of Light is the spiritual heart of Stormwind City and the primary sanctuary of the Church of the Holy Light. Standing tall over Cathedral Square, it serves as the central bastion for human priesthood and the Knights of the Silver Hand.",
+ "summary": "The Cathedral of Light rises over Cathedral Square as Stormwind's chief sanctuary of the Church of the Holy Light. It is the spiritual heart of the city and the center of human priesthood and the Knights of the Silver Hand.",
  "sections": [
   {
    "title": "Sanctuary of the Faithful",
-   "body": "Rebuilt after its devastation during the First War under the guidance of Archbishop Alonsus Faol and then-Bishop Benedictus, the Cathedral of Light stands as a towering beacon of resilience. With the fall of Lordaeron to the Scourge during the Third War, the seat of the Church shifted south to Stormwind. Today, Archbishop Benedictus shepherds the faithful from this grand hall, providing spiritual guidance to the entire Alliance.",
+   "body": "Archbishop Benedictus leads the faithful from the Cathedral of Light, rebuilt after the First War's devastation. Archbishop Alonsus Faol and Bishop Benedictus guided its restoration, and its towering form remains a beacon of resilience. After the Scourge took Lordaeron during the Third War, the Church moved its seat south to Stormwind. From this great hall, Benedictus gives spiritual guidance to the Alliance.",
    "spoiler": 0
   },
   {
    "title": "Halls of Devotion and Arms",
-   "body": "Beyond serving as a house of prayer and healing, the cathedral acts as the primary headquarters for the remaining Knights of the Silver Hand in the southern kingdoms. High-ranking figures such as Lord Grayson Shadowbreaker and Duthorian Rall train promising squires through the sacred trials of the Tome of Valor and the Tome of Divinity. Alongside them, High Priestess Laurena guides devout acolytes in the deepest tenets of the Light, preparing holy champions to defend the realm against the rising threat of the Defias Brotherhood and the Scourge.",
+   "body": "The Cathedral of Light is both a place of prayer and healing and the main headquarters of the Knights of the Silver Hand in the southern kingdoms. Lord Grayson Shadowbreaker and Duthorian Rall train promising squires through the sacred trials of the Tome of Valor and the Tome of Divinity. High Priestess Laurena guides devout acolytes in the deepest tenets of the Light, preparing holy champions to defend the realm from the growing threats of the Defias Brotherhood and the Scourge.",
    "spoiler": 0
   }
  ],
@@ -28,7 +28,7 @@
     "who is the archbishop",
     "who leads the church"
    ],
-   "answer": "Archbishop Benedictus serves as the head of the Church of the Holy Light. Following the fall of Lordaeron and the demise of Archbishop Alonsus Faol, Benedictus assumed spiritual leadership over the reformed Church from his dais in Stormwind."
+   "answer": "Archbishop Benedictus leads the Church of the Holy Light from Stormwind. After Lordaeron fell and Archbishop Alonsus Faol died, Benedictus took spiritual leadership of the reformed Church."
   },
   {
    "q": "What is the cathedral's connection to the paladins?",
@@ -37,7 +37,7 @@
     "paladin order stormwind",
     "why are paladins here"
    ],
-   "answer": "The cathedral serves as the operational headquarters of the Knights of the Silver Hand in the kingdom of Stormwind. Renowned paladins like Lord Grayson Shadowbreaker and Duthorian Rall instruct new squires, bestow sacred tomes, and direct crusaders against enemies of the realm."
+   "answer": "The Cathedral of Light is the Knights of the Silver Hand's headquarters in Stormwind. Lord Grayson Shadowbreaker and Duthorian Rall instruct new squires, give them sacred tomes, and direct crusaders against the realm's enemies."
   },
   {
    "q": "What lies beneath the cathedral floor?",
@@ -46,17 +46,17 @@
     "cathedral catacombs",
     "what is under the cathedral"
    ],
-   "answer": "Beneath the main sanctuary lie the cathedral's catacombs, the final resting place for honored heroes, priests, and paladins."
+   "answer": "The cathedral's catacombs lie beneath the main sanctuary. They hold the remains of honored heroes, priests, and paladins."
   }
  ],
  "angles": [
   {
    "target": "class:Paladin",
-   "text": "The Cathedral of Light serves as your principal order hall in Stormwind, where mentors like Duthorian Rall and Lord Grayson Shadowbreaker guide you through the sacred trials of the Tomes of Valor and Divinity."
+   "text": "As a paladin, you find your order's chief hall in Stormwind's Cathedral of Light, where Duthorian Rall and Lord Grayson Shadowbreaker guide you through the sacred trials of the Tomes of Valor and Divinity."
   },
   {
    "target": "class:Priest",
-   "text": "As the supreme seat of the Church of the Holy Light in the southern kingdoms, the cathedral is where High Priestess Laurena and Archbishop Benedictus nurture your spiritual devotion and sacred healing arts."
+   "text": "As a priest, you find the Church of the Holy Light's chief seat in the southern kingdoms at the Cathedral of Light, where High Priestess Laurena and Archbishop Benedictus guide your devotion and sacred healing."
   }
  ],
  "keywords": [
@@ -82,5 +82,6 @@
  ],
  "attribution": [
   "Cathedral of Light"
- ]
+ ],
+ "style": 1
 }

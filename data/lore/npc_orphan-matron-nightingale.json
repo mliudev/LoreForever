@@ -8,16 +8,16 @@
   "wiki": "Orphan Matron Nightingale",
   "refs": 1
  },
- "summary": "Orphan Matron Nightingale oversees the Stormwind Orphanage located in Cathedral Square. Alongside Matron Shellene, she cares for children who have lost their families to the relentless conflicts troubling the kingdom. She also enlists trusted Alliance adventurers to mentor and inspire her young wards during Children's Week.",
+ "summary": "In Cathedral Square, Orphan Matron Nightingale cares for Stormwind’s orphaned children. She and Matron Shellene give them shelter and guidance, and invite Alliance adventurers to spend Children's Week with them.",
  "sections": [
   {
    "title": "Guardian of the Displaced",
-   "body": "Standing watch just outside the orphanage south-east of the Cathedral of Light, Orphan Matron Nightingale tends to Stormwind's most vulnerable survivors. Recent wars, gnoll rampages, and the rise of the Defias Brotherhood have left many children without homes or parents. Nightingale and her fellow caretaker, Matron Shellene, provide these youngsters shelter, basic care, and guidance beneath the watchful eye of the Church of the Holy Light.",
+   "body": "Outside the orphanage, south-east of the Cathedral of Light, Orphan Matron Nightingale cares for Stormwind’s most vulnerable children. Recent wars, gnoll attacks, and the rise of the Defias Brotherhood have left many without homes or parents. Nightingale and Matron Shellene give them shelter, basic care, and guidance under the Church of the Holy Light’s watch.",
    "spoiler": 0
   },
   {
    "title": "Children's Week Patron",
-   "body": "Believing that hope is as vital as food and shelter, Matron Nightingale organizes Stormwind's Children's Week celebrations. During this time, she appeals directly to Alliance heroes to chaperone an orphan on travels across Azeroth. By pairing these children with celebrated champions, she hopes to instill confidence, grant them a broader view of the world outside the city walls, and remind them that they are never truly forgotten.",
+   "body": "Matron Nightingale believes children need hope as well as food and shelter. Each Children's Week, she asks Alliance heroes to take an orphan on journeys across Azeroth. She hopes meeting celebrated champions will build their confidence, show them the wider world beyond the city walls, and remind them they are not forgotten.",
    "spoiler": 0
   }
  ],
@@ -29,7 +29,7 @@
     "stormwind orphanage location",
     "where is nightingale"
    ],
-   "answer": "She stands directly outside the entrance to the Stormwind Orphanage, situated in Cathedral Square to the south-east of the Cathedral of Light."
+   "answer": "Orphan Matron Nightingale can be found outside the Stormwind Orphanage in Cathedral Square, south-east of the Cathedral of Light."
   },
   {
    "q": "Why are there so many orphans in Stormwind?",
@@ -38,7 +38,7 @@
     "stormwind orphans origin",
     "who are these kids"
    ],
-   "answer": "The kingdom has endured devastating wars, including the Third War and ongoing skirmishes with the Defias Brotherhood, orc remnants, and hostile beasts in nearby territories. Many city residents and frontier farmers have perished, leaving behind children with nowhere else to turn."
+   "answer": "Stormwind has many orphans because devastating wars, including the Third War, and ongoing skirmishes with the Defias Brotherhood, orc remnants, and hostile beasts have killed many city residents and frontier farmers, leaving children without homes."
   },
   {
    "q": "What is Children's Week?",
@@ -47,7 +47,7 @@
     "what is children's week",
     "orphan event"
    ],
-   "answer": "Children's Week is an annual event in Stormwind organized by Matron Nightingale. Alliance adventurers are invited to act as guardians and chaperones for an orphan, taking them on journeys to witness the wonders and heroes of the wider world."
+   "answer": "Children's Week is an annual Stormwind celebration organized by Matron Nightingale. Alliance adventurers chaperone an orphan on journeys to see the wonders and heroes of the wider world."
   },
   {
    "q": "Who helps Matron Nightingale run the orphanage?",
@@ -56,17 +56,17 @@
     "who runs the orphanage",
     "matron shellene"
    ],
-   "answer": "Matron Shellene works alongside Nightingale inside and around the orphanage, helping to raise, feed, and shelter the children under their care."
+   "answer": "Matron Shellene helps Nightingale raise, feed, and shelter the children in and around the orphanage."
   }
  ],
  "angles": [
   {
    "target": "faction:Alliance",
-   "text": "For Alliance champions, Nightingale serves as a reminder of the quiet, everyday costs of war and the duty to protect the realm's future generations."
+   "text": "As an Alliance champion, you see in Nightingale the quiet cost of war and the duty to protect the realm’s future generations."
   },
   {
    "target": "class:Priest",
-   "text": "Stationed right outside the Cathedral of Light, Nightingale's mission embodies the virtues of compassion and service that priests of the Holy Light strive to uphold."
+   "text": "As a priest, you can recognize the compassion and service Nightingale shows outside the Cathedral of Light, virtues that priests of the Holy Light uphold."
   }
  ],
  "keywords": [
@@ -88,5 +88,6 @@
  ],
  "attribution": [
   "Orphan Matron Nightingale"
- ]
+ ],
+ "style": 1
 }

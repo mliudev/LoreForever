@@ -10,16 +10,16 @@
    "quest:87"
   ]
  },
- "summary": "Bernice's Necklace is a sentimental heirloom belonging to \"Auntie\" Bernice Stonefield of the Stonefield Farm in Elwynn Forest. Originally worn as a lucky charm by her late husband during his military service, the trinket was lost near the Fargodeep Mine and snatched by an opportunistic kobold.",
+ "summary": "At Stonefield Farm in Elwynn Forest, Bernice keeps her late husband's necklace close.",
  "sections": [
   {
    "title": "A Soldier's Lost Charm",
-   "body": "Though known locally as Bernice's necklace, the piece originally belonged to Auntie Bernice Stonefield's late husband. A veteran of Stormwind's military campaigns, he carried the charm as a token of good fortune into battle. According to Bernice, the only time tragedy struck was during his final campaign\u2014the one expedition where he forgot to bring his lucky necklace along. Following his death, the keepsake remained one of Bernice's most cherished possessions on the Stonefield Farm.",
+   "body": "Auntie Bernice Stonefield's necklace once belonged to her late husband, a veteran of Stormwind's military campaigns. He carried it into battle as a charm for good fortune. Bernice says tragedy came only during his final campaign, the one expedition when he forgot to bring it. Since his death, the keepsake has remained among her most cherished possessions at Stonefield Farm.",
    "spoiler": 0
   },
   {
    "title": "Stolen by Scavengers",
-   "body": "The heirloom went missing after young Billy Maclure was caught playing near the Fargodeep Mine, where he dropped the shiny bauble while exploring. The glint caught the eye of Goldtooth, a notorious kobold lurking inside the mine. Drawn to bright and valuable trinkets like all of his kind, Goldtooth hoarded the necklace among his subterranean scavengings until it could be recovered for the grieving widow.",
+   "body": "Young Billy Maclure was exploring near the Fargodeep Mine when he dropped the shiny necklace. Goldtooth, a prominent kobold inside the mine, spotted it and carried it away. Like other kobolds, he was drawn to bright, valuable trinkets, and he kept the necklace among his scavenged treasures.",
    "spoiler": 1
   }
  ],
@@ -31,7 +31,7 @@
     "bernice necklace owner",
     "husband necklace"
    ],
-   "answer": "The necklace originally belonged to Auntie Bernice Stonefield's late husband, who wore it as a good-luck charm during his military campaigns for Stormwind."
+   "answer": "The necklace belonged to Auntie Bernice Stonefield's late husband, who wore it as a good-luck charm during Stormwind's military campaigns."
   },
   {
    "q": "How did the necklace end up with the kobolds?",
@@ -40,7 +40,7 @@
     "why does goldtooth have it",
     "who took the necklace"
    ],
-   "answer": "Billy Maclure reports seeing a large, gold-toothed kobold pick up the necklace near the Fargodeep Mine and carry it away. Auntie Bernice hopes it can be recovered."
+   "answer": "Billy Maclure saw a large kobold with gold teeth pick up the necklace near the Fargodeep Mine and carry it away. Auntie Bernice hopes it can be recovered."
   },
   {
    "q": "Why is the necklace so important to Auntie Bernice?",
@@ -49,7 +49,7 @@
     "bernice husband story",
     "is the necklace magic"
    ],
-   "answer": "It serves as a cherished memory of her late husband. Bernice sadly notes that he always believed it protected him in battle, and the only time he fell in war was the day he accidentally left the necklace behind."
+   "answer": "The necklace is a cherished memory of Bernice's late husband. He believed it protected him in battle, and the only time he fell in war was the day he left it behind."
   },
   {
    "q": "Who is Goldtooth?",
@@ -58,13 +58,13 @@
     "goldtooth lore",
     "who has the necklace"
    ],
-   "answer": "Goldtooth is a prominent kobold scavenger who makes his lair inside the Fargodeep Mine in Elwynn Forest. Known for collecting shiny baubles, he claimed the lost necklace after it was dropped nearby."
+   "answer": "Goldtooth is a prominent kobold scavenger who makes his lair inside the Fargodeep Mine in Elwynn Forest. He collects shiny baubles and took the necklace after it was dropped nearby."
   }
  ],
  "angles": [
   {
    "target": "faction:Alliance",
-   "text": "The necklace is a quiet reminder of the heavy toll Stormwind's prolonged military campaigns take on everyday farm families across Elwynn Forest."
+   "text": "For Alliance farm families in Elwynn Forest, the necklace recalls the toll Stormwind's long military campaigns take on everyday lives."
   }
  ],
  "keywords": [
@@ -88,5 +88,6 @@
  "attribution": [
   "Bernice's Necklace",
   "Goldtooth (quest)"
- ]
+ ],
+ "style": 1
 }

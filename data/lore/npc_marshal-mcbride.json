@@ -8,16 +8,16 @@
   "wiki": "Marshal McBride",
   "refs": 5
  },
- "summary": "Marshal Douglas McBride is the commander of the Stormwind garrison stationed at Northshire Abbey. Tasked with the defense of Northshire Valley, he directs freshly arrived recruits against the rising kobold infestation threatening local farms and mines. He serves as the primary military authority for newcomers beginning their service to the kingdom of Stormwind.",
+ "summary": "At Northshire Abbey, Marshal McBride commands Stormwind's garrison and defends the valley. Kobolds threaten its farms and mines, so he directs new recruits against them.",
  "sections": [
   {
    "title": "Commander of Northshire",
-   "body": "Stationed right outside Northshire Abbey, Marshal Douglas McBride represents the direct authority of the Stormwind Army in this quiet valley. While the abbey itself is an enclave of faith and learning, rising turmoil across the kingdom has stretched military garrisons thin. McBride must maintain peace and secure the valley's food and resource supplies with only a handful of sworn guards and an influx of green recruits seeking training under the abbey's masters.",
+   "body": "Marshal McBride commands Stormwind's garrison outside Northshire Abbey. The abbey is a place of faith and learning, while unrest across the kingdom has left military garrisons short of soldiers. With only a handful of sworn guards, McBride must keep the valley peaceful and protect its food and resources. Green recruits arrive seeking training from the abbey's masters, and he must put them to work.",
    "spoiler": 0
   },
   {
    "title": "The Kobold Incursion",
-   "body": "McBride's primary headache is the sudden aggression of local vermin. Kobolds, once merely a nuisance, have overrun the surrounding woods and seized Echo Ridge Mine\u2014a vital local asset. Lacking the regular soldiers needed to clear them out, McBride marshals paladins, warriors, and other novices to push back the tunneling pests and uncover the extent of the infestation before the valley is completely choked off.",
+   "body": "Kobolds have grown more aggressive around Northshire. Once a nuisance, they have spread through the woods and seized Echo Ridge Mine, an important local resource. Short of regular soldiers, McBride calls on paladins, warriors, and other novices to drive back the tunneling kobolds and learn how far the infestation reaches before the valley is cut off.",
    "spoiler": 0
   }
  ],
@@ -29,7 +29,7 @@
     "who is mcbride",
     "northshire commander"
    ],
-   "answer": "Marshal Douglas McBride is an officer of the Stormwind Army stationed as the garrison commander at Northshire Abbey. He is in charge of defending Northshire Valley and directing new recruits into service."
+   "answer": "Marshal McBride commands Stormwind's garrison at Northshire Abbey. He defends Northshire Valley and directs new recruits into service."
   },
   {
    "q": "Why is McBride having recruits fight kobolds?",
@@ -38,7 +38,7 @@
     "kobold problem",
     "echo ridge problem"
    ],
-   "answer": "Kobolds have infested the forests around Northshire and seized control of Echo Ridge Mine. With Stormwind's military stretched thin, McBride relies on newly arrived adventurers to clear the vermin and secure the area."
+   "answer": "Kobolds have overrun the woods around Northshire and seized Echo Ridge Mine. With Stormwind's forces stretched thin, McBride sends newly arrived adventurers to drive them out and secure the area."
   },
   {
    "q": "Where does McBride send recruits next?",
@@ -47,7 +47,7 @@
     "after northshire",
     "next town"
    ],
-   "answer": "Once a recruit has demonstrated their capability by dealing with the threats in Northshire Valley, McBride directs them down the southern road to Goldshire to assist Marshal Dughan."
+   "answer": "After a recruit has handled the threats in Northshire Valley, McBride sends them south along the road to Goldshire to help Marshal Dughan."
   },
   {
    "q": "What is Echo Ridge Mine?",
@@ -55,7 +55,7 @@
     "echo ridge",
     "the mine in northshire"
    ],
-   "answer": "Echo Ridge Mine is a mineral-rich cavern located on the northern edge of Northshire Valley. It has recently been overrun by tunneling kobolds, prompting McBride to order several operations to reclaim it."
+   "answer": "Echo Ridge Mine is a mineral-rich cavern on the northern edge of Northshire Valley. Kobolds have overrun it, and McBride has ordered several efforts to reclaim it."
   },
   {
    "q": "Does McBride command the abbey itself?",
@@ -63,7 +63,7 @@
     "does mcbride lead northshire abbey",
     "who is in charge of the abbey"
    ],
-   "answer": "No. Northshire Abbey is maintained by the holy orders and priests of the Light. McBride oversees the military garrison tasked with defending the abbey and the surrounding valley."
+   "answer": "No. Northshire Abbey is maintained by the holy orders and priests of the Light. McBride commands the military garrison defending the abbey and the surrounding valley."
   },
   {
    "q": "Is McBride concerned about threats beyond kobolds?",
@@ -71,21 +71,21 @@
     "defias in northshire",
     "is northshire safe"
    ],
-   "answer": "While kobolds are the most immediate nuisance, McBride watches for deeper instability. Bandits and outlaws hover at the fringes of the valley, signaling broader unrest brewing across Elwynn Forest."
+   "answer": "Kobolds are McBride's most immediate concern, but bandits and outlaws linger at the valley's edges, signs of wider unrest across Elwynn Forest."
   }
  ],
  "angles": [
   {
    "target": "race:Human",
-   "text": "For humans beginning their adventures in Northshire, Marshal McBride is the first representative of Stormwind's royal authority they encounter."
+   "text": "As a human beginning in Northshire, you first meet Marshal McBride, Stormwind's royal authority in the valley."
   },
   {
    "target": "class:Warrior",
-   "text": "McBride actively seeks out sturdy fighters to serve the kingdom, relying on frontline warriors to clear out the tunnels of Echo Ridge."
+   "text": "As a warrior, you can serve the kingdom by helping McBride clear kobolds from Echo Ridge's tunnels."
   },
   {
    "target": "faction:Alliance",
-   "text": "McBride represents the starting frontier of the Grand Alliance in the heartland of humanity, inducting recruits into service of the Crown."
+   "text": "As an Alliance recruit, you begin at the Grand Alliance's frontier in humanity's heartland, where McBride brings recruits into the Crown's service."
   }
  ],
  "keywords": [
@@ -109,5 +109,6 @@
  ],
  "attribution": [
   "Marshal McBride"
- ]
+ ],
+ "style": 1
 }
