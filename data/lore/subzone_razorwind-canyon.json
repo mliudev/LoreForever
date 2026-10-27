@@ -7,16 +7,16 @@
  "meta": {
   "wiki": "Razorwind Canyon"
  },
- "summary": "Razorwind Canyon is a winding, rocky gulch split across the main road between Razor Hill and Orgrimmar. Infested by the aggressive Dustwind harpies, the canyon poses a persistent danger to travelers moving north toward the Horde's capital.",
+ "summary": "Dustwind harpies threaten travelers on Razorwind Canyon’s road between Razor Hill and Orgrimmar. The rocky gulch cuts through Durotar, and the harpies make the route north toward the Horde capital dangerous.",
  "sections": [
   {
    "title": "A Threat on the High Road",
-   "body": "Razorwind Canyon flanks the central artery linking Razor Hill to Orgrimmar, carving paths into both the eastern bluffs and the western scrublands toward Tor'kren Farm. The canyon is the nesting ground of the Dustwind harpies, territorial creatures that strike without hesitation at travelers who stray too close to their roosts. Their presence so near the capital's trade routes makes clearing out these gullies an ongoing necessity for the defenders of Durotar.",
+   "body": "Razorwind Canyon runs beside the main road from Razor Hill to Orgrimmar. Its gullies reach into the eastern bluffs and west toward Tor'kren Farm. Dustwind harpies nest among the rocks and attack travelers who stray too close to their roosts. With the canyon so near the capital’s trade route, Durotar’s defenders must keep watch over its gullies.",
    "spoiler": 0
   },
   {
    "title": "Passages and Ravines",
-   "body": "Beyond serving as harpy nests, the twists of Razorwind Canyon function as hidden routes through Durotar's red rock hills. The eastern branch tunnels deeply into the crags, providing a passage through a cavern into Drygulch Ravine. Because the harpies roost on the high perches and descend in flocks, unwary adventurers traversing these passes can easily find themselves surrounded and cut down.",
+   "body": "Razorwind Canyon’s winding passages cut through Durotar’s red rock hills. An eastern branch runs deep into the crags, through a cavern, and into Drygulch Ravine. Harpies roost on high perches and descend in flocks, so travelers crossing the passes can be surrounded and cut down.",
    "spoiler": 0
   }
  ],
@@ -28,7 +28,7 @@
     "where is razorwind canyon",
     "how to find razorwind canyon"
    ],
-   "answer": "Razorwind Canyon is located in central Durotar, flanking both sides of the main road running between Razor Hill and Orgrimmar. Entrances lead into it north of Razor Hill, near Tor'kren Farm, and through a cave connecting to Drygulch Ravine."
+   "answer": "Razorwind Canyon runs along both sides of the main road between Razor Hill and Orgrimmar in central Durotar. It has entrances north of Razor Hill, near Tor'kren Farm, and through a cave leading to Drygulch Ravine."
   },
   {
    "q": "What creatures inhabit Razorwind Canyon?",
@@ -37,7 +37,7 @@
     "what lives in razorwind canyon",
     "harpy canyon durotar"
    ],
-   "answer": "The canyon is heavily inhabited by the Dustwind harpies. These aggressive, avian creatures nest in large clutches throughout the gullies and rocky outcroppings, preying on unwary travelers."
+   "answer": "Dustwind harpies inhabit Razorwind Canyon. They nest in the gullies and rocky outcroppings and prey on unwary travelers."
   },
   {
    "q": "Why is the Horde concerned about this canyon?",
@@ -45,7 +45,7 @@
     "why care about razorwind",
     "orgrimmar threat razorwind"
    ],
-   "answer": "Razorwind Canyon borders the primary trade and travel route between Razor Hill and Orgrimmar. The nesting harpies frequently harass couriers, supply caravans, and travelers passing along the central road."
+   "answer": "The Horde is concerned because Razorwind Canyon borders the main trade and travel route between Razor Hill and Orgrimmar. The nesting harpies harass couriers, supply caravans, and other travelers on the central road."
   },
   {
    "q": "Does Razorwind Canyon connect to other areas?",
@@ -53,17 +53,17 @@
     "canyon connections",
     "where does razorwind lead"
    ],
-   "answer": "Yes. In addition to opening onto the main road, the canyon provides trails west toward Tor'kren Farm, as well as an eastern cavern leading into Drygulch Ravine."
+   "answer": "Yes. Razorwind Canyon opens onto the main road and has trails west toward Tor'kren Farm, as well as an eastern cavern leading into Drygulch Ravine."
   }
  ],
  "angles": [
   {
    "target": "faction:Horde",
-   "text": "Clearing the Dustwind harpies from Razorwind Canyon is vital to keeping the main thoroughfare between Razor Hill and the capital of Orgrimmar safe for couriers and fresh recruits."
+   "text": "As a member of the Horde, you know clearing Dustwind harpies from Razorwind Canyon helps keep the main road between Razor Hill and Orgrimmar safe for couriers and fresh recruits."
   },
   {
    "target": "race:Orc",
-   "text": "The harpies nesting right along Durotar's central roadway are an insult to the security of the orcish homeland, requiring young warriors to cull their numbers."
+   "text": "As an orc, you know harpies nesting beside Durotar’s central road threaten the security of your homeland. Young warriors must cull their numbers."
   }
  ],
  "keywords": [
@@ -85,5 +85,6 @@
  ],
  "attribution": [
   "Razorwind Canyon"
- ]
+ ],
+ "style": 1
 }

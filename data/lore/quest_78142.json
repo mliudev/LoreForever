@@ -1,0 +1,66 @@
+{
+ "key": "quest:78142",
+ "type": "quest",
+ "name": "Bewitchments and Glamours",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   78142
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "The Ironforge library seeks magical works to add to its collection. You can help its knowledge grow by bringing in books that may benefit the library.",
+ "sections": [
+  {
+   "title": "A Growing Collection",
+   "body": "The library asks you to bring in magical works that may benefit its collection. Each addition broadens what its keepers know.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What does the library want?",
+   "aliases": [
+    "what do they want",
+    "library books",
+    "magical works"
+   ],
+   "answer": "The library seeks magical works that could benefit its collection."
+  },
+  {
+   "q": "Where do I bring the magical works?",
+   "aliases": [
+    "where bring books",
+    "where is the library",
+    "ironforge library"
+   ],
+   "answer": "Bring them to the library in Ironforge."
+  },
+  {
+   "q": "Why are they collecting magical works?",
+   "aliases": [
+    "why collect magic books",
+    "what is the collection for"
+   ],
+   "answer": "The library says the works will expand its knowledge."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "bewitchments and glamours",
+  "books",
+  "collection",
+  "ironforge",
+  "library",
+  "magical works"
+ ],
+ "related": [
+  "subzone:library-ironforge"
+ ],
+ "style": 1,
+ "attribution": [
+  "In-game quest text: Bewitchments and Glamours"
+ ]
+}

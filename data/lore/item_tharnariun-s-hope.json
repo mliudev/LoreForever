@@ -10,16 +10,16 @@
    "quest:2118"
   ]
  },
- "summary": "Tharnariun's Hope is a specialized trap crafted by the night elf Tharnariun Treetender in Darkshore. Designed to pacify diseased wildlife rather than harm it, the device projects a calming light intended to tame rabid thistle bears so they can be examined for a cure.",
+ "summary": "In Darkshore, Tharnariun Treetender seeks a way to study the sick thistle bears and find a cure. His trap calms them long enough to bring them to his camp.",
  "sections": [
   {
    "title": "A Gentle Snare",
-   "body": "As a mysterious affliction spreads through Darkshore, the local thistle bears have grown increasingly frenzied and violent. Rather than sanctioning a cull of the afflicted wildlife, the druid Tharnariun Treetender crafted this unique trap in the hope of studying and curing the illness. When laid upon the ground, Tharnariun's Hope emits a soothing radiance. Any rabid thistle bear that steps across the trap's light has its frenzy temporarily broken, rendering the beast docile enough to follow an adventurer back to Tharnariun's camp for treatment.",
+   "body": "Tharnariun Treetender made a calming trap to study the sick thistle bears. Across Darkshore, a mysterious affliction has left the animals increasingly frenzied and violent. Tharnariun hopes to cure them rather than see them killed. Set on the ground, Tharnariun's Hope casts a soothing light. A rabid thistle bear that crosses it grows calm for a time and can follow a traveler back to Tharnariun's camp for treatment.",
    "spoiler": 0
   },
   {
    "title": "The Elusive Remedy",
-   "body": "While the trap succeeds in subduing the maddened beasts without drawing blood, the underlying corruption proves far more vicious than anticipated. When Tharnariun channels his healing magic into the captured bear, the restorative power violently clashes with the virulent infection, causing the afflicted creature to collapse and perish. Despite the heartbreaking failure of his initial trial, Tharnariun insists his determination will not waver until the true nature of the forest's sickness is uncovered.",
+   "body": "Tharnariun's healing magic cannot save the captured bear. The trap quiets the maddened animal without harming it, but the corruption proves more vicious than he expected. When he directs his healing into the bear, the magic clashes with the infection. The animal collapses and dies. Though his first attempt ends in heartbreak, Tharnariun remains determined to uncover the true nature of the forest's sickness.",
    "spoiler": 1
   }
  ],
@@ -31,7 +31,7 @@
     "how does the trap work",
     "what is this trap"
    ],
-   "answer": "It is an enchanted ground trap designed to pacify a rabid thistle bear. Placing it on the forest floor creates a field of light that temporarily calms a bear crossing its threshold, allowing the beast to be led peacefully back to Tharnariun Treetender."
+   "answer": "Tharnariun's Hope calms a rabid thistle bear for a time. Set on the forest floor, it casts a field of light that lets a traveler lead the bear peacefully back to Tharnariun Treetender."
   },
   {
    "q": "Why does Tharnariun want a live bear captured?",
@@ -40,7 +40,7 @@
     "why catch a rabid bear",
     "what does tharnariun want"
    ],
-   "answer": "Tharnariun believes that the sickness afflicting Darkshore's wildlife can be cured rather than ended through slaughter. He needs a living subject to test his cleansing remedies directly."
+   "answer": "Tharnariun believes the sickness afflicting Darkshore's wildlife can be cured, rather than answered with slaughter. He needs a living bear to test his cleansing remedies."
   },
   {
    "q": "Can you get another trap if you lose it?",
@@ -49,7 +49,7 @@
     "failed trap",
     "trap disappeared"
    ],
-   "answer": "Yes. Tharnariun assures travelers that his hope is eternal. If a trap is triggered in vain or lost in the wild, returning to him will provide another device to finish the task."
+   "answer": "Yes. Tharnariun says his hope is eternal. If the trap is triggered in vain or lost in the wild, return to him for another."
   },
   {
    "q": "What happens to the bear once it is brought back?",
@@ -58,17 +58,17 @@
     "can tharnariun cure the bear",
     "bear dies at tharnariun"
    ],
-   "answer": "Upon the bear's arrival, Tharnariun casts a healing enchantment to purge the corruption. Tragically, the foul sickness is too entrenched; the magic overwhelms the beast, and it dies within moments."
+   "answer": "When the bear reaches Tharnariun, he casts healing magic to purge the corruption. The sickness overwhelms the beast, and it dies within moments."
   }
  ],
  "angles": [
   {
    "target": "class:Druid",
-   "text": "The trap embodies the Cenarion ideal of preservation over extermination, demonstrating a refusal to strike down corrupted beasts when a chance for redemption remains."
+   "text": "As a druid, you can see Tharnariun's trap as a choice to preserve corrupted beasts while there is still a chance to redeem them."
   },
   {
    "target": "race:NightElf",
-   "text": "The degradation of Darkshore's beloved thistle bears strikes at the heart of the kaldorei bond with nature, making the device a poignant symbol of desperate compassion."
+   "text": "As a night elf, you know the thistle bears are beloved in Darkshore. Their sickness makes Tharnariun's trap a sign of desperate compassion."
   }
  ],
  "keywords": [
@@ -90,5 +90,6 @@
  "attribution": [
   "Tharnariun's Hope",
   "Plagued Lands"
- ]
+ ],
+ "style": 1
 }

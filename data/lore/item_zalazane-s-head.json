@@ -10,11 +10,11 @@
    "quest:826"
   ]
  },
- "summary": "Zalazane's Head is the grim trophy brought to Master Gadrin to confirm the fall of the traitorous witch doctor Zalazane. Its retrieval marks a crucial step in freeing the Echo Isles from the dark magic holding the Darkspear tribe's home hostage.",
+ "summary": "Master Gadrin awaits proof that Zalazane has fallen. The Darkspear seek relief from the witch doctor who drove them from the Echo Isles.",
  "sections": [
   {
    "title": "Proof of the Traitor's End",
-   "body": "When the witch doctor Zalazane betrayed the Darkspear tribe, he used mind-enslaving hexes to seize control of their island home, driving Vol'jin's people to the mainland shores of Durotar. From the Echo Isles, Zalazane continued to send hexed thralls across the waters to snatch more victims. To assure the anxious refugees in Sen'jin Village that the tyrant's reign of terror had broken, Master Gadrin demanded absolute physical proof of his demise. Returning the severed head not only confirms Zalazane's defeat in battle, but offers the displaced tribe a rare measure of peace and a hope of one day reclaiming their stolen islands.",
+   "body": "Master Gadrin asks for proof that Zalazane is dead. The witch doctor betrayed the Darkspear and seized control of their island home with mind-enslaving hexes. His magic drove Vol'jin's people to the shores of Durotar. From the Echo Isles, Zalazane still sends hexed thralls across the water to seize more victims. Sen'jin Village needs proof that his rule has ended. Returning Zalazane's severed head confirms his defeat and gives the displaced tribe a measure of peace, with hope of reclaiming their stolen islands one day.",
    "spoiler": 0
   }
  ],
@@ -26,7 +26,7 @@
     "zalazane quest giver",
     "gadrin zalazane"
    ],
-   "answer": "Master Gadrin, the witch doctor residing in Sen'jin Village on the southern coast of Durotar, asks adventurers to bring him the head as proof that Zalazane has been slain."
+   "answer": "Master Gadrin, the witch doctor in Sen'jin Village on Durotar's southern coast, asks for Zalazane's Head as proof that Zalazane has been slain."
   },
   {
    "q": "Why was Zalazane targeted?",
@@ -35,7 +35,7 @@
     "what did zalazane do",
     "zalazane lore"
    ],
-   "answer": "Zalazane was once a respected sorcerer among the Darkspear, but his lust for power led him to enslave his kin through mind-controlling magic. He drove the tribe out of the Echo Isles and continued raiding the mainland to capture more Darkspear for his thrall army."
+   "answer": "Zalazane was once a respected sorcerer among the Darkspear. His lust for power led him to enslave his kin with mind-controlling magic, drive the tribe from the Echo Isles, and raid the mainland for more Darkspear to bind as thralls."
   },
   {
    "q": "Where is Zalazane found?",
@@ -44,7 +44,7 @@
     "zalazane location",
     "echo isles zalazane"
    ],
-   "answer": "Zalazane resides on the largest of the Echo Isles off the southeastern coast of Durotar, surrounded by the hexed and voodoo trolls bound to his service."
+   "answer": "Zalazane resides on the largest of the Echo Isles, off Durotar's southeastern coast. Hexed and voodoo trolls bound to his service surround him."
   },
   {
    "q": "Does bringing the head reclaim the Echo Isles?",
@@ -53,17 +53,17 @@
     "is echo isles reclaimed",
     "echo isles safe"
    ],
-   "answer": "While killing Zalazane removes the immediate threat of his raids and brings relief to Sen'jin Village, the Echo Isles remain dangerous and littered with his lingering voodoo thralls, leaving the Darkspear still largely based on the mainland."
+   "answer": "Killing Zalazane ends the immediate threat of his raids and brings relief to Sen'jin Village, but the Echo Isles remain dangerous and filled with lingering voodoo thralls. The Darkspear remain largely based on the mainland."
   }
  ],
  "angles": [
   {
    "target": "race:Troll",
-   "text": "For Darkspear trolls, claiming Zalazane's head is a deeply personal act of vengeance and justice against the traitor who drove their people into exile and enslaved their brothers."
+   "text": "As a Darkspear troll, claiming Zalazane's head is a personal act of vengeance and justice against the traitor who drove your people into exile and enslaved your brothers."
   },
   {
    "target": "faction:Horde",
-   "text": "Eliminating Zalazane secures the southern coastline of Durotar for the Horde, preventing dark magic from undermining Thrall's newly founded territories."
+   "text": "As a member of the Horde, you help secure Durotar's southern coast by eliminating Zalazane and stopping his dark magic from undermining Thrall's newly founded territories."
   }
  ],
  "keywords": [
@@ -88,5 +88,6 @@
  "attribution": [
   "Zalazane's Head",
   "Zalazane (quest)"
- ]
+ ],
+ "style": 1
 }

@@ -17,16 +17,16 @@
   "wiki": "Your Place In The World",
   "chain": []
  },
- "summary": "This simple rite of passage marks the moment an aspiring young champion steps forward to serve the Horde. Given by Kaltunk in the Valley of Trials, it sends untested recruits straight to Gornek to begin their basic combat training. It represents the very first step toward earning honor and survival in the harsh lands of Durotar.",
+ "summary": "In the Valley of Trials, untested recruits take their first steps toward honor and survival in Durotar. Kaltunk sends them straight to Gornek for basic combat training, beginning their service to the Horde.",
  "sections": [
   {
    "title": "Coming of Age in Durotar",
-   "body": "In the arid canyon of the Valley of Trials, young orcs and darkspear trolls must prove their worth before they can ever set foot in the wider world. Life under Warchief Thrall demands strength, vigilance, and discipline. Kaltunk evaluates every eager recruit, temperately dampening their dreams of wrestling demons and dragons to redirect them toward realistic duties. New recruits begin their training here, learning humility before claiming glory.",
+   "body": "In Durotar's arid Valley of Trials, young orcs and Darkspear trolls prove their worth before entering the wider world. Under Warchief Thrall, life demands strength, vigilance, and discipline. Kaltunk evaluates every eager recruit, tempering dreams of wrestling demons and dragons with the practical duties ahead. Training begins in the canyon, where recruits learn humility before claiming glory.",
    "spoiler": 0
   },
   {
    "title": "Reporting to Gornek",
-   "body": "Just steps away from Kaltunk sits Gornek, a gruff veteran stationed beside the camp fire. Gornek evaluates the fresh arrivals with a skeptical eye, often grumbling about the meager stock arriving at the camp. Yet, it is his responsibility to harden these fledgling fighters through rigorous trials, beginning with culling the local vermin threatening the encampment's supplies.",
+   "body": "Gornek waits beside the camp fire, only steps away from Kaltunk. The gruff veteran regards fresh arrivals with a skeptical eye and often grumbles about the meager stock reaching camp. His duty is to harden these young fighters through trials, starting with the vermin that threaten the encampment's supplies.",
    "spoiler": 0
   }
  ],
@@ -38,7 +38,7 @@
     "first horde quest",
     "what is your place in the world"
    ],
-   "answer": "It serves as the introductory rite of passage for young recruits in the Valley of Trials. It officially enlists you into service under the Horde and introduces you to Gornek, who assigns your first real combat duties."
+   "answer": "This rite marks a young recruit's entry into Horde service in the Valley of Trials. You go straight to Gornek, who begins your basic combat training and assigns your first duties."
   },
   {
    "q": "Who is Kaltunk?",
@@ -46,7 +46,7 @@
     "kaltunk role",
     "who gives this quest"
    ],
-   "answer": "Kaltunk is an orc overseer stationed at the entrance of the Valley of Trials. He greets coming-of-age recruits, looks them over, and directs them toward proper trainers and leadership within the camp."
+   "answer": "Kaltunk is an orc overseer at the entrance to the Valley of Trials. He evaluates coming-of-age recruits and directs them to the proper trainers and leaders in camp."
   },
   {
    "q": "Who is Gornek?",
@@ -54,7 +54,7 @@
     "gornek role",
     "where is gornek"
    ],
-   "answer": "Gornek is an experienced Horde trainer seated near the campfire in the Valley of Trials. He is tasked with testing incoming recruits and hardening them into capable soldiers before allowing them to leave the canyon."
+   "answer": "Gornek is an experienced Horde trainer seated near the campfire in the Valley of Trials. He tests incoming recruits and hardens them into capable soldiers before they leave the canyon."
   },
   {
    "q": "Where does this quest lead next?",
@@ -62,7 +62,7 @@
     "what quest is next",
     "next after your place in the world"
    ],
-   "answer": "Reporting to Gornek leads immediately into the trial 'Cutting Teeth', where recruits are sent into the dirt to cull mottled boars and prove their basic martial prowess."
+   "answer": "Reporting to Gornek leads immediately to the trial 'Cutting Teeth'. Recruits head into the dirt to cull mottled boars and prove their basic martial skill."
   },
   {
    "q": "Why are recruits kept in the Valley of Trials?",
@@ -70,7 +70,7 @@
     "why valley of trials",
     "why start here"
    ],
-   "answer": "The Valley of Trials is a secluded, protected canyon within Durotar designed to train, evaluate, and weed out recruits before they encounter the far deadlier beasts, quilboar, and enemy scouts of the wider territory."
+   "answer": "The Valley of Trials is a secluded, protected canyon in Durotar where recruits are trained, evaluated, and weeded out before facing the territory's deadlier beasts, quilboar, and enemy scouts."
   },
   {
    "q": "Does this quest differ between orcs and trolls?",
@@ -78,21 +78,21 @@
     "troll intro quest",
     "orc intro quest"
    ],
-   "answer": "Both young orcs and Darkspear trolls begin their training together in the Valley of Trials and receive this same introductory call to arms from Kaltunk."
+   "answer": "Young orcs and Darkspear trolls begin training together in the Valley of Trials and receive the same call to arms from Kaltunk."
   }
  ],
  "angles": [
   {
    "target": "faction:Horde",
-   "text": "Every young Horde recruit in Durotar must prove they possess the grit to defend their fledgling nation before taking up arms in the Warchief's name."
+   "text": "Every young Horde recruit in Durotar must prove they have the grit to defend their fledgling nation before taking up arms in the Warchief's name."
   },
   {
    "target": "race:Orc",
-   "text": "For orcs, reaching age and reporting for duty in the Valley of Trials is a deeply cultural milestone centered on personal honor and martial readiness."
+   "text": "For orcs, coming of age and reporting for duty in the Valley of Trials is a cultural milestone centered on personal honor and martial readiness."
   },
   {
    "target": "race:Troll",
-   "text": "Having settled in Durotar alongside their orc allies, the Darkspear trolls train alongside their brethren here to forge unity and mutual survival."
+   "text": "The Darkspear trolls settled in Durotar alongside their orc allies. Here, they train with their brethren to forge unity and mutual survival."
   }
  ],
  "keywords": [
@@ -114,5 +114,6 @@
  ],
  "attribution": [
   "Your Place In The World"
- ]
+ ],
+ "style": 1
 }

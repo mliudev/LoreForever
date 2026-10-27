@@ -17,21 +17,21 @@
   "wiki": "The Tear of the Moons",
   "chain": []
  },
- "summary": "High above the southern Barrens, a crazed dwarf named Feegly the Exiled demands the return of a mysterious relic unearthed at Bael Modan. Known as the Tear of the Moons, the artifact drove Feegly into madness and obsession before General Twinbraid had it locked away as an ill-omened curse.",
+ "summary": "At Bael Modan, a relic called the Tear of the Moons has left Feegly the Exiled mad and obsessed. General Twinbraid has locked it away as a curse, but Feegly still demands its return.",
  "sections": [
   {
    "title": "Unearthed at Bael Modan",
-   "body": "When the dwarves began cutting into the hills of southern Kalimdor to build Bael Modan, the Tear of the Moons was their first major discovery. The strange artifact immediately exerted a powerful and unsettling influence over Feegly, one of the expedition's workers.",
+   "body": "The dwarves found the Tear of the Moons while cutting into the southern Kalimdor hills for Bael Modan. It was their first major discovery, and its strange influence fell at once on Feegly, one of the expedition's workers.",
    "spoiler": 0
   },
   {
    "title": "Twinbraid's Quarantine",
-   "body": "Feegly claimed the Tear granted him immense personal power, violently turning on his comrades to protect his prize. Recognizing the relic's corrupting influence, General Twinbraid branded it cursed, wrested it from Feegly's clutches, and secured it inside the keep. Banished from the excavation camp, Feegly took refuge among the cliffs, festering in bitter obsession and begging wandering travelers to steal it back.",
+   "body": "Feegly claimed the Tear granted him immense power and turned violently on his comrades to protect it. General Twinbraid saw the relic's corrupting hold, called it cursed, took it from Feegly, and secured it in the keep. Banished from the excavation camp, Feegly took refuge among the cliffs. Bitter and obsessed, he begs passing travelers to steal the Tear back.",
    "spoiler": 0
   },
   {
    "title": "The Terrible Cost",
-   "body": "Twinbraid's warnings prove far more literal than Feegly realized. Upon recovering the Tear of the Moons, Feegly's joy is cut short as the relic's latent transformative magic consumes him. Rather than elevating him to glory, the artifact violently mutates the dwarf into a feral trogg, ending his life seconds after reclaiming his prize.",
+   "body": "General Twinbraid's warnings prove true when Feegly recovers the Tear of the Moons. The relic's hidden transformative magic consumes him, changing the dwarf into a feral trogg. His life ends seconds after he reclaims the prize.",
    "spoiler": 1
   }
  ],
@@ -43,7 +43,7 @@
     "tear of the moons relic",
     "bael modan artifact"
    ],
-   "answer": "It is an ancient, potent relic uncovered by dwarven excavators during their early digs at Bael Modan in the southern Barrens. It exerts an intoxicating, corrupting effect on those who handle it."
+   "answer": "The Tear of the Moons is a potent relic found by dwarven excavators during their early digs at Bael Modan in the southern Barrens. It corrupts those who handle it and fills them with an intoxicating desire for power."
   },
   {
    "q": "Who is Feegly the Exiled?",
@@ -52,7 +52,7 @@
     "feegly lore",
     "feegly dwarf"
    ],
-   "answer": "Feegly was once an excavator with General Twinbraid's expedition at Bael Modan. After the Tear of the Moons was uncovered, Feegly grew obsessed and violent, prompting Twinbraid to cast him out of the fortress."
+   "answer": "Feegly the Exiled was an excavator with General Twinbraid's expedition at Bael Modan. After the Tear of the Moons was found, he grew obsessed and violent, and Twinbraid cast him out of the keep."
   },
   {
    "q": "Why does General Twinbraid lock the Tear away?",
@@ -61,7 +61,7 @@
     "twinbraid curse",
     "bael modan keep relic"
    ],
-   "answer": "General Twinbraid recognized the artifact as a dangerous curse rather than a harmless historical finding. After watching Feegly turn violent toward his fellow excavators, Twinbraid locked the relic securely within Bael Modan's keep."
+   "answer": "General Twinbraid locked the Tear away because he recognized it as a dangerous curse. After Feegly turned on his fellow excavators, Twinbraid secured the relic inside Bael Modan's keep."
   },
   {
    "q": "What happens when you return the Tear to Feegly?",
@@ -70,7 +70,7 @@
     "feegly ending",
     "return the tear"
    ],
-   "answer": "Returning the relic brings Feegly's obsession to a climax. The aftermath is revealed when he takes possession of it."
+   "answer": "Returning the Tear satisfies Feegly's demand, but what follows is not yet known."
   },
   {
    "q": "Is the Tear's magic fully understood?",
@@ -79,7 +79,7 @@
     "tear of the moons curse",
     "how does the tear work"
    ],
-   "answer": "General Twinbraid calls it cursed, while Feegly craves the power he believes it grants. The quest does not explain the workings of the relic's magic."
+   "answer": "General Twinbraid calls the Tear cursed, while Feegly craves the power he believes it grants. Its magic remains unexplained."
   },
   {
    "q": "Why is this a Horde quest if Feegly is a dwarf?",
@@ -88,13 +88,13 @@
     "is feegly horde",
     "bael modan horde"
    ],
-   "answer": "Feegly is an outcast hiding in the Barrens who despises the Alliance forces occupying Bael Modan. Because Horde adventurers are naturally hostile to Twinbraid's excavation, Feegly appeals to them to raid the keep and recover the artifact."
+   "answer": "Feegly is an outcast hiding in the Barrens, where he despises the Alliance forces occupying Bael Modan. He appeals to Horde adventurers, who are hostile to Twinbraid's excavation, to raid the keep and recover the relic."
   }
  ],
  "angles": [
   {
    "target": "faction:Horde",
-   "text": "Striking into Bael Modan to recover the relic gives the Horde a chance to disrupt dwarven operations that infringe directly upon the Barrens."
+   "text": "Striking Bael Modan to recover the relic gives the Horde a chance to disrupt dwarven operations that infringe on the Barrens."
   }
  ],
  "keywords": [
@@ -114,5 +114,6 @@
  ],
  "attribution": [
   "The Tear of the Moons"
- ]
+ ],
+ "style": 1
 }

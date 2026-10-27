@@ -198,6 +198,25 @@ test("/contributors: narrators, translators and text finders; hidden people neve
   assert.ok(html.includes('href="/contribute"'), "links the text intake (the contribute feature is on)");
 });
 
+// A whole kit sent through /translate/submit has no dashboard edits: its translator is credited from languages.json
+// (pack.json "credits"), once, alongside a dashboard translator of the same name.
+test("/contributors: a kit's translator from languages.json, merged with the same name's dashboard edits", async () => {
+  await edit(users.alice, "deDE", "ui:1", "pulled");
+  env.ASSETS = assets({
+    "/voices/voices.json": { voices: [] },
+    "/translate/languages.json": { languages: [
+      { locale: "deDE", name: "Deutsch", englishName: "German" },
+      { locale: "frFR", name: "Français", englishName: "French", credits: [{ name: "alice", strings: 5 }] },
+      { locale: "roRO", name: "Română", englishName: "Romanian", credits: [{ name: "Indurin", strings: 128017 }] },
+    ] },
+    "/contribute/known.json": { v: 1, lines: {} },
+  });
+  const html = await (await contributorsGet({ request: new Request(`${ORIGIN}/contributors`), env })).text();
+  assert.match(html, /<strong class="ct-name">Indurin<\/strong> <span class="ct-what">Romanian, 128,017 strings<\/span>/);
+  assert.match(html, /<strong class="ct-name">Alice<\/strong> <span class="ct-what">German, 1 string &middot; French, 5 strings<\/span>/);
+  assert.equal(html.match(/ct-name">alice</gi).length, 1, "one tile per person");
+});
+
 test("/api/credits community (the home page strip): players' live voices only, shown names only, alphabetical", async () => {
   const { bob } = users;
   env.ASSETS = assets({

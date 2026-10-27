@@ -10,16 +10,16 @@
    "quest:941"
   ]
  },
- "summary": "The Tainted Heart is a blighted floral core extracted from the corrupt flora of Teldrassil. Given to adventurers by the botanist Denalan, it requires magical and nutritive cleansing to rid it of lingering foul energies.",
+ "summary": "In Teldrassil, Denalan gives adventurers a heart still troubled by corruption. Though its outer foul moss is gone, lingering energies remain, and he seeks to cleanse them with rich soil.",
  "sections": [
   {
    "title": "A Corrupted Core",
-   "body": "Teldrassil's natural balance suffers from an unnatural malady, warping its native plants and beasts. After stripping away foul moss that clung to a blighted growth, Denalan presents this lingering core: the Tainted Heart. Though freed of its outer rot, darkness still permeates the tissue. Denalan seeks to discover whether specially prepared, nutrient-rich earth can counteract the lingering taint and restore life to what was corrupted.",
+   "body": "Teldrassil's natural balance is troubled by a malady that warps its plants and beasts. After foul moss is stripped from a blighted growth, Denalan gives adventurers the Tainted Heart within. Darkness still clings to its tissue. Denalan hopes specially prepared, nutrient-rich earth can counter the taint and restore what was corrupted.",
    "spoiler": 0
   },
   {
    "title": "Denalan's Remedy",
-   "body": "When placed into Denalan's enchanted planter, the heart exhibits a strange, lingering vitality. It burrows eagerly into the rich soil, absorbing the curative nutrients. Within moments, the earth burns away the corruption, and the cleansed heart emerges alive and pulsing with clean energy, eager to defend those who healed it.",
+   "body": "The Tainted Heart shows a strange vitality when placed in Denalan's enchanted planter. It burrows into the rich soil and absorbs its curative nutrients. The earth burns away the corruption, and the heart emerges alive, pulsing with clean energy and eager to defend those who healed it.",
    "spoiler": 1
   }
  ],
@@ -30,7 +30,7 @@
     "what is tainted heart",
     "tainted heart item"
    ],
-   "answer": "It is the inner core of a corrupted plant found on Teldrassil. Botanist Denalan stripped off the outer foul moss, but the heart itself remains steeped in corruption until purified."
+   "answer": "The Tainted Heart is the inner core of a corrupted plant found on Teldrassil. Botanist Denalan stripped away the foul moss, but the heart remains corrupted until purified."
   },
   {
    "q": "Who cleanses the Tainted Heart?",
@@ -38,7 +38,7 @@
     "who cleanses it",
     "how to clean tainted heart"
    ],
-   "answer": "Denalan directs adventurers to plant it inside his specially prepared planter at Lake Al'Ameth. The nutritive soil naturally purifies the heart and cleanses away its unnatural corruption."
+   "answer": "Denalan directs adventurers to plant the Tainted Heart in his specially prepared planter at Lake Al'Ameth. The nutritive soil purifies it and clears away its unnatural corruption."
   },
   {
    "q": "What happens after it is planted?",
@@ -46,7 +46,7 @@
     "what happens to the heart",
     "planted heart result"
    ],
-   "answer": "The heart actively burrows into the soil of the planter. Moments later, it reemerges fully cleansed and pulsing with vitality, ready to bond with whoever restored it."
+   "answer": "The heart burrows into the planter's soil. Moments later, it emerges cleansed and pulsing with vitality, ready to bond with whoever restored it."
   },
   {
    "q": "Why is the heart corrupted in the first place?",
@@ -54,17 +54,17 @@
     "why corrupted",
     "teldrassil corruption heart"
    ],
-   "answer": "A strange blight has been spreading across the World Tree Teldrassil, corrupting native flora, timberlings, and wildlife throughout the boughs."
+   "answer": "A strange blight is spreading across the World Tree Teldrassil, corrupting native flora, timberlings, and wildlife throughout its boughs."
   }
  ],
  "angles": [
   {
    "target": "class:Druid",
-   "text": "For Cenarion druids, working to cleanse the Tainted Heart provides direct insight into the creeping corruption that threatens the health of the young World Tree."
+   "text": "As a Cenarion druid, cleansing the Tainted Heart offers direct insight into the creeping corruption threatening the young World Tree's health."
   },
   {
    "target": "profession:Herbalism",
-   "text": "Herbalists and botanists can appreciate Denalan's craft in mixing specially enriched soils capable of drawing out unnatural rot from living plant matter."
+   "text": "As an herbalist, you can appreciate Denalan's craft in mixing enriched soils that draw unnatural rot from living plant matter."
   }
  ],
  "keywords": [
@@ -84,5 +84,6 @@
  "attribution": [
   "Tainted Heart",
   "Planting the Heart"
- ]
+ ],
+ "style": 1
 }

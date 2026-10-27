@@ -17,16 +17,16 @@
   "wiki": "Lakota'mani (quest)",
   "chain": []
  },
- "summary": "Lakota'mani is a rite of the hunt initiated by claiming the hoof of Lakota'mani, a massive roaming kodo of the Barrens. Bringing this trophy to Jorn Skyseer at Camp Taurajo honors the spirit of the mighty beast and marks the hunter as an equal to its thunderous strength.",
+ "summary": "At Camp Taurajo, hunters bring Lakota'mani's hoof to Jorn Skyseer after the hunt. The offering honors the mighty kodo's spirit and marks the hunter as an equal to its strength.",
  "sections": [
   {
    "title": "The Earthshaker",
-   "body": "In the Taur-ahe tongue, Lakota'mani translates to 'Earthshaker.' Among the herds that wander the sun-baked plains of the Barrens, he stands apart\u2014a kodo of tremendous size and endurance whose footsteps echo like gathered thunder. To tauren hunters, tracking and defeating such a creature is not an act of wanton slaughter, but a sacred communion with the raw vigor of Kalimdor's wildlife.",
+   "body": "Among the Barrens herds, Lakota'mani is a kodo of great size and endurance. In Taur-ahe, the tauren tongue, his name means “Earthshaker,” and his steps rumble across the plains. Tauren hunters track and defeat such a beast not for slaughter, but to meet the raw vigor of Kalimdor's wildlife in a sacred hunt.",
    "spoiler": 0
   },
   {
    "title": "A Hunt Honored at Camp Taurajo",
-   "body": "Carrying the hoof of the fallen beast to Jorn Skyseer at Camp Taurajo brings spiritual closure to the hunt. Jorn recognizes the change immediately, noting a newfound power and stride in any hunter who returns from the encounter. By presenting the trophy, the hunter receives Jorn's blessing, acknowledging that Lakota'mani's enduring courage and primal spirit now walk alongside them.",
+   "body": "When you bring Lakota'mani's hoof to Jorn Skyseer at Camp Taurajo, the hunt reaches its close. Jorn sees a new power and stride in hunters who return from the encounter. Presenting the trophy earns his blessing, honoring Lakota'mani's courage and primal spirit as companions on your path.",
    "spoiler": 0
   }
  ],
@@ -38,7 +38,7 @@
     "lakota'mani translation",
     "what does lakotamani mean in taurahe"
    ],
-   "answer": "According to Jorn Skyseer, Lakota'mani translates to 'Earthshaker' in the tauren language. The name reflects the beast's immense size and footsteps that rumble like gathered thunder across the plains."
+   "answer": "Lakota'mani means “Earthshaker” in Taur-ahe, the tauren tongue. The name fits the beast's immense size and the thunderous rumble of his steps across the plains."
   },
   {
    "q": "Who is Jorn Skyseer?",
@@ -47,7 +47,7 @@
     "jorn skyseer role",
     "where is jorn skyseer"
    ],
-   "answer": "Jorn Skyseer is a tauren spiritual guide and elder residing at Camp Taurajo in the southern Barrens. He interprets signs, guides young hunters, and honors the great beasts slain across the plains."
+   "answer": "Jorn Skyseer is a tauren elder and spiritual guide at Camp Taurajo in the southern Barrens. He reads signs, guides young hunters, and honors the great beasts slain across the plains."
   },
   {
    "q": "Why do tauren collect the hooves of great beasts?",
@@ -56,7 +56,7 @@
     "hoof of lakota'mani meaning",
     "kodo hoof trophy"
    ],
-   "answer": "To the tauren, a hoof taken from a beast like Lakota'mani serves as a physical token of the creature's immense power. Presenting it to an elder allows the spirit and fortitude of the fallen beast to be formally recognized and bound to the hunter's own spirit."
+   "answer": "Tauren hunters carry a great beast's hoof as a token of its power. Presenting it to an elder honors the fallen beast's spirit and fortitude alongside the hunter's own."
   },
   {
    "q": "Where does the beast Lakota'mani roam?",
@@ -65,7 +65,7 @@
     "lakota'mani location",
     "how to find lakotamani"
    ],
-   "answer": "Lakota'mani roams the open savanna of the central and southern Barrens, wandering among the lesser kodo herds until tracked down by an attentive hunter."
+   "answer": "Lakota'mani roams the open savanna of the central and southern Barrens, among the lesser kodo herds, until an attentive hunter tracks him down."
   },
   {
    "q": "Why does Jorn call the hunter 'Earthshaker'?",
@@ -73,7 +73,7 @@
     "why am i called earthshaker",
     "earthshaker title lore"
    ],
-   "answer": "Jorn Skyseer believes that besting Lakota'mani permanently merges the beast's spirit and courage with the hunter's own. By overcoming the Earthshaker, the hunter inherits the name and walks with the same thunderous resolve."
+   "answer": "Jorn Skyseer calls the hunter “Earthshaker” because besting Lakota'mani joins the beast's spirit and courage with the hunter's own. The hunter takes on the name and walks with the same thunderous resolve."
   },
   {
    "q": "Does this hunt have spiritual significance beyond Camp Taurajo?",
@@ -81,21 +81,21 @@
     "lakotamani spiritual meaning",
     "is this a tauren rite"
    ],
-   "answer": "Yes. It reflects the fundamental tauren belief in the Earthmother and the natural balance. A hunter proves their strength not by dominating nature, but by testing themselves against its greatest avatars and taking their spiritual strength into future conflicts."
+   "answer": "Yes. The hunt reflects the tauren belief in the Earthmother and the natural balance. By testing themselves against nature's greatest avatars, hunters prove their strength and carry that spiritual strength into future conflicts."
   }
  ],
  "angles": [
   {
    "target": "race:Tauren",
-   "text": "For tauren hunters, defeating Lakota'mani fulfills ancient hunting traditions, earning spiritual reverence and the proud title of Earthshaker from your elders."
+   "text": "As a tauren hunter, defeating Lakota'mani fulfills an ancient hunting tradition and earns reverence and the proud title of Earthshaker from your elders."
   },
   {
    "target": "class:Hunter",
-   "text": "Tracking a legendary solitary kodo across the vast savanna is an ultimate test of tracking prowess, endurance, and field combat in the heart of Kalimdor."
+   "text": "As a hunter, tracking a legendary solitary kodo across the vast savanna tests your tracking skill, endurance, and field combat in the heart of Kalimdor."
   },
   {
    "target": "faction:Horde",
-   "text": "Camp Taurajo serves as a crucial hunting hub for the Horde, and claiming the spoils of the plains helps establish your reputation among the tribes."
+   "text": "Camp Taurajo is a hunting hub for the Horde. Claiming the plains' spoils helps build your reputation among the tribes."
   }
  ],
  "keywords": [
@@ -114,5 +114,6 @@
  ],
  "attribution": [
   "Lakota'mani (quest)"
- ]
+ ],
+ "style": 1
 }

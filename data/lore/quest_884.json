@@ -17,21 +17,21 @@
   "wiki": "Owatanka (quest)",
   "chain": []
  },
- "summary": "Owatanka is a legendary thunder lizard known among the tauren as Bluebolt, roaming the southern plains of the Barrens. Slaying this swift, electrified beast yields a crackling tailspike that carries its bound lightning to the camp elders. Delivering this trophy to Jorn Skyseer at Camp Taurajo honors the tradition of learning from the primordial beasts of Kalimdor.",
+ "summary": "Across the southern Barrens, Owatanka roams as a swift thunder lizard known to the tauren as Bluebolt. Slaying the beast yields a crackling tailspike, carried to Jorn Skyseer at Camp Taurajo in honor of the elders’ tradition of learning from Kalimdor’s primordial beasts.",
  "sections": [
   {
    "title": "The Beast Called Bluebolt",
-   "body": "Across the arid expanses of the southern Barrens walks Owatanka, a rare thunder lizard spoken of with reverent respect by tauren hunters. While most of his kin are massive and plodding, Owatanka possesses sudden, blinding speed. The tauren name him Bluebolt, marking him as a creature fundamentally altered by the storm.",
+   "body": "Owatanka prowls the southern Barrens, where tauren hunters speak of him with reverence. Unlike his massive, plodding kin, he moves with blinding speed. The tauren call him Bluebolt, for the storm changed him.",
    "spoiler": 0
   },
   {
    "title": "Fed by the Sky's Rage",
-   "body": "According to lore kept by Jorn Skyseer, Owatanka was struck directly by lightning long ago. Rather than perishing, the thunder lizard absorbed the celestial strike, fueling an endless wellspring of energetic fury. Even in death, the creature's tailspike crackles violently with stray sparks when handled, a tactile remnant of the storm's power.",
+   "body": "Tauren lore says lightning struck Owatanka long ago. The thunder lizard survived, and the strike filled him with unending energy and fury. Even after his death, his tailspike crackles with stray sparks when handled, a remnant of the storm’s power.",
    "spoiler": 0
   },
   {
    "title": "Trophy of Taurajo",
-   "body": "Carrying Owatanka's Tailspike back to Camp Taurajo is treated as a rite of prowess and spirit. Jorn Skyseer recognizes the mark of the encounter immediately in the eyes of any hunter who manages to outmatch the beast's speed. In presenting the trophy, the hunter symbolically draws upon Bluebolt's enduring velocity.",
+   "body": "Taking Owatanka's Tailspike to Jorn Skyseer at Camp Taurajo marks a hunter’s prowess and spirit. Jorn recognizes the encounter in the eyes of any hunter who has outmatched the beast’s speed. Presenting the trophy honors Bluebolt’s enduring swiftness.",
    "spoiler": 0
   }
  ],
@@ -43,7 +43,7 @@
     "what kind of beast is owatanka",
     "owatanka lore"
    ],
-   "answer": "Owatanka is a legendary thunder lizard native to the Barrens. Known to the local tauren as 'Bluebolt', he is renowned for his extraordinary speed and crackling lightning energy."
+   "answer": "Owatanka roams the Barrens as a swift thunder lizard known to the tauren as Bluebolt. He crackles with lightning energy."
   },
   {
    "q": "Why does Owatanka spark with lightning?",
@@ -52,7 +52,7 @@
     "bluebolt lore",
     "why sparks fly"
    ],
-   "answer": "Tauren legend holds that Owatanka was struck by lightning in the distant past. Instead of killing him, the strike imbued the creature with endless energy and fury fed directly from the sky."
+   "answer": "Tauren legend says lightning struck Owatanka long ago. The strike left him filled with endless energy and fury."
   },
   {
    "q": "Who is Jorn Skyseer?",
@@ -61,7 +61,7 @@
     "who is jorn",
     "camp taurajo questgiver"
    ],
-   "answer": "Jorn Skyseer is a tauren elder and spiritual guide residing at Camp Taurajo in the southern Barrens. He recognizes the latent power of the region's great beasts and accepts trophies like Owatanka's tailspike."
+   "answer": "Jorn Skyseer is a tauren elder and spiritual guide at Camp Taurajo in the southern Barrens. He recognizes the power of the region’s great beasts and accepts trophies such as Owatanka's tailspike."
   },
   {
    "q": "Where does Owatanka wander?",
@@ -70,7 +70,7 @@
     "where is owatanka",
     "where to find bluebolt"
    ],
-   "answer": "Owatanka roams the arid flatlands of the southern Barrens, typically wandering through the scrub and dirt pathways south of Camp Taurajo."
+   "answer": "Owatanka wanders the arid flatlands of the southern Barrens, through scrub and dirt pathways south of Camp Taurajo."
   },
   {
    "q": "What happens when you deliver Owatanka's Tailspike?",
@@ -79,7 +79,7 @@
     "what does jorn say",
     "owatanka reward lore"
    ],
-   "answer": "Jorn Skyseer commends you for besting the swift thunder lizard, noting that keeping pace with such a creature leaves a lasting spark of energy and power within the hunter."
+   "answer": "Jorn Skyseer commends you for outmatching the swift thunder lizard. He says keeping pace with Owatanka leaves a lasting spark of energy and power within you."
   },
   {
    "q": "Is Owatanka dangerous compared to normal thunder lizards?",
@@ -88,25 +88,25 @@
     "bluebolt danger",
     "owatanka fight"
    ],
-   "answer": "Yes. Beyond the standard toughness of thunder lizards, Owatanka possesses deceptive swiftness and innate electrical power stemming from his legendary lightning strike."
+   "answer": "Yes. Owatanka is swift and carries innate electrical power from the lightning strike of legend, as well as the toughness of a thunder lizard."
   }
  ],
  "angles": [
   {
    "target": "race:Tauren",
-   "text": "Hunting Bluebolt honors ancient tauren traditions of respecting the wild spirits and claiming the vitality of the Barrens' most enduring beasts."
+   "text": "As a tauren, hunting Bluebolt honors your people’s tradition of respecting wild spirits and claiming the vitality of the Barrens’ enduring beasts."
   },
   {
    "target": "class:Hunter",
-   "text": "Besting Owatanka is a premier test of stalking and speed, demonstrating that a hunter can outrun and outfight nature's swiftest giants."
+   "text": "As a hunter, besting Owatanka tests your stalking and speed against one of nature’s swiftest giants."
   },
   {
    "target": "class:Shaman",
-   "text": "The residual lightning bound within Owatanka's tailspike demonstrates how elemental forces of the sky can forever reshape living creatures on Kalimdor."
+   "text": "As a shaman, Owatanka's tailspike shows how the sky’s elemental forces can reshape living creatures on Kalimdor."
   },
   {
    "target": "faction:Horde",
-   "text": "Culling such an unpredictable, lightning-charged apex predator protects the vulnerable supply trails running near Camp Taurajo."
+   "text": "As a member of the Horde, culling this unpredictable, lightning-charged predator protects the vulnerable supply trails near Camp Taurajo."
   }
  ],
  "keywords": [
@@ -126,5 +126,6 @@
  ],
  "attribution": [
   "Owatanka (quest)"
- ]
+ ],
+ "style": 1
 }

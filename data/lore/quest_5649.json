@@ -20,16 +20,16 @@
    "Garments of Spirituality"
   ]
  },
- "summary": "\"In Favor of Spirituality\" is a foundational rite of passage for young Darkspear priests departing the Valley of Trials. Directed by Ken'jai to report to the priest trainer Tai'jin in Razor Hill, initiates take their first real steps beyond the secluded training den into the wider challenges of Durotar. The journey highlights the delicate balance the Darkspear strike between honoring their ancestral troll heritage and integrating into the newly forged Horde.",
+ "summary": "Young Darkspear priests leave the Valley of Trials under Ken'jai's direction. They report to Tai'jin in Razor Hill and take their first steps into Durotar's wider challenges. Their path balances ancestral troll heritage with life in the Horde.",
  "sections": [
   {
    "title": "Leaving the Red Canyon",
-   "body": "After mastering their basic rites under Ken'jai in the secluded Valley of Trials, Darkspear acolytes are ready to leave the training grounds behind. The winding paths out into Durotar lead directly to the crossroads settlement of Razor Hill. For a young priest, this journey represents a major milestone: transitioning from basic survival drills in the dirt to shouldering spiritual and cultural responsibilities for the tribe.",
+   "body": "Darkspear acolytes leave the Valley of Trials after learning their basic rites under Ken'jai. The paths out of the secluded training grounds lead to Razor Hill, a crossroads settlement in Durotar. For a young priest, the journey marks a step beyond basic survival drills and toward the spiritual and cultural responsibilities of the tribe.",
    "spoiler": 0
   },
   {
    "title": "Old Faiths and New Alliances",
-   "body": "Ken'jai is candid about the Darkspear's position within Thrall's Horde. While the trolls deeply value the orcs' loyalty and lessons of honor, not every ancestral tradition fits smoothly under the eyes of their allies. Darkspear spiritual leaders instruct their pupils to quietly preserve their heritage, holding fast to their identity while continuing to serve the Horde. Tai'jin at Razor Hill welcomes these acolytes into that deeper understanding, guiding them toward self-sufficiency and communal strength.",
+   "body": "Ken'jai speaks plainly about the Darkspear's place in Thrall's Horde. The trolls value the orcs' loyalty and lessons of honor, yet some ancestral traditions sit uneasily among their allies. Darkspear spiritual leaders teach their pupils to preserve their heritage quietly while serving the Horde. At Razor Hill, Tai'jin welcomes the acolytes and guides them toward self-sufficiency and strength within the community.",
    "spoiler": 0
   }
  ],
@@ -41,7 +41,7 @@
     "quest giver in favor of spirituality",
     "kenjai priest quest"
    ],
-   "answer": "The quest is given by Ken'jai, the troll priest trainer stationed inside the Den in the Valley of Trials."
+   "answer": "Ken'jai, the troll priest trainer in the Den in the Valley of Trials, gives it to you."
   },
   {
    "q": "Where can I find Tai'jin?",
@@ -50,7 +50,7 @@
     "where is tai jin",
     "find tai'jin"
    ],
-   "answer": "Tai'jin resides in the barracks at Razor Hill, situated east of the center of town along the main road of Durotar."
+   "answer": "Tai'jin is in the barracks at Razor Hill, east of the town center along Durotar's main road."
   },
   {
    "q": "What classes can accept this quest?",
@@ -59,7 +59,7 @@
     "who can take in favor of spirituality",
     "priest class quest razor hill"
    ],
-   "answer": "This quest is exclusively offered to troll priests beginning their journey in Durotar."
+   "answer": "Only troll priests beginning their journey in Durotar can accept it."
   },
   {
    "q": "Why does Ken'jai emphasize keeping some traditions secret?",
@@ -68,7 +68,7 @@
     "orc troll friction religion",
     "why practice in secret"
    ],
-   "answer": "Ken'jai recognizes that while the orcs are loyal comrades who value honor, they do not look kindly on every ancient troll ritual or custom. He teaches young priests to honor their ancestral heritage discreetly to maintain harmony within the Horde."
+   "answer": "Ken'jai says the orcs are loyal allies who value honor, but do not welcome every ancient troll ritual or custom. He teaches young priests to honor their ancestral heritage discreetly and preserve harmony within the Horde."
   },
   {
    "q": "What does Tai'jin teach the young priest upon arrival?",
@@ -77,7 +77,7 @@
     "what does tai jin say",
     "darkspear adaptation"
    ],
-   "answer": "Tai'jin explains that the Darkspear have grown stronger by adapting to life in the Horde. Rather than waiting to consume strength directly from fallen foes, the tribe now prepares itself beforehand, entering battle already empowered."
+   "answer": "Tai'jin teaches that the Darkspear grew stronger by adapting to life in the Horde. Rather than waiting to draw strength directly from fallen foes, the tribe prepares beforehand and enters battle already empowered."
   },
   {
    "q": "What quest immediately follows In Favor of Spirituality?",
@@ -86,21 +86,21 @@
     "in favor of spirituality follow up",
     "next priest quest after taijin"
    ],
-   "answer": "Upon turning in this quest, Tai'jin offers 'Garments of Spirituality', which sends the acolyte to assist a wounded Horde soldier in the field."
+   "answer": "When you turn this in, Tai'jin offers Garments of Spirituality, which sends you to help a wounded Horde soldier in the field."
   }
  ],
  "angles": [
   {
    "target": "class:Priest",
-   "text": "This quest marks your transition out of the novice canyon to receive formal training and vestments from Tai'jin in Razor Hill."
+   "text": "As a priest, you leave the novice canyon and receive formal training and vestments from Tai'jin in Razor Hill."
   },
   {
    "target": "race:Troll",
-   "text": "The mission illustrates the tension the Darkspear navigate every day, balancing their loyalty to the Horde with the preservation of ancient tribal spirituality."
+   "text": "As a troll, you balance loyalty to the Horde with the preservation of ancient tribal spirituality."
   },
   {
    "target": "faction:Horde",
-   "text": "It demonstrates how diverse cultures coordinate within Durotar, bridging the wild traditions of the Echo Isles with the martial outpost of Razor Hill."
+   "text": "As a member of the Horde, you see diverse cultures work together in Durotar, joining the wild traditions of the Echo Isles with Razor Hill's martial outpost."
   }
  ],
  "keywords": [
@@ -125,5 +125,6 @@
  ],
  "attribution": [
   "In Favor of Spirituality"
- ]
+ ],
+ "style": 1
 }

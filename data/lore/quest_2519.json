@@ -21,16 +21,16 @@
    "Sathrah's Sacrifice (quest)"
   ]
  },
- "summary": "The Temple of the Moon is an introductory quest in Darnassus where Sister Aquinne directs adventurers to seek out Priestess A'moora. The Sisterhood of Elune requires aid for a suffering ancient creature dwelling within the boughs of Teldrassil. It serves as the opening call to a solemn ritual of mercy.",
+ "summary": "In Darnassus, Sister Aquinne calls for aid to a suffering ancient creature in Teldrassil. The Sisterhood of Elune needs help, and this is the opening call to a solemn ritual of mercy.",
  "sections": [
   {
    "title": "A Plea in the Gardens",
-   "body": "While walking among the waters and shaded groves of the Temple Gardens, travelers meet Sister Aquinne, a devoted servant of Elune. Sensing capable hands, she reaches out on behalf of her order. A venerable forest creature is suffering, and the Sisters cannot attend to the matter alone.",
+   "body": "Sister Aquinne asks for help in the Temple Gardens. As a devoted servant of Elune, she speaks for her order: a venerable forest creature is suffering, and the Sisters cannot attend to it alone.",
    "spoiler": 0
   },
   {
    "title": "Into the Moon Temple",
-   "body": "Sister Aquinne directs candidates toward the grand Temple of the Moon just to the southeast. There, Priestess A'moora coordinates the rituals and practical duties required to address Teldrassil's troubled wildlife, preparing sympathetic allies to carry out a sorrowful task of mercy.",
+   "body": "Sister Aquinne sends you southeast to the Temple of the Moon. Priestess A'moora coordinates the rituals and practical duties needed to address Teldrassil's troubled wildlife, preparing allies to carry out a sorrowful act of mercy.",
    "spoiler": 0
   }
  ],
@@ -42,7 +42,7 @@
     "where to get temple of the moon quest",
     "who gives the temple of the moon"
    ],
-   "answer": "Sister Aquinne initiates the quest. She can be found standing outside in the Temple Gardens district of Darnassus."
+   "answer": "Sister Aquinne begins the call for help. She stands outside in Darnassus's Temple Gardens district."
   },
   {
    "q": "Where is Priestess A'moora located?",
@@ -51,7 +51,7 @@
     "find amoora",
     "priestess a'moora location"
    ],
-   "answer": "Priestess A'moora is located inside the grand Temple of the Moon, situated just southeast of the Temple Gardens in Darnassus."
+   "answer": "Priestess A'moora is inside the Temple of the Moon, just southeast of the Temple Gardens in Darnassus."
   },
   {
    "q": "What is the creature in need of help?",
@@ -60,7 +60,7 @@
     "who is the forest creature",
     "what is this quest chain about"
    ],
-   "answer": "The creature in question is Sathrah, a revered spider of Teldrassil whose plight leads into a ritual of mercy overseen by the priesthood."
+   "answer": "The creature is Sathrah, a revered spider of Teldrassil. Her plight leads to a ritual of mercy overseen by the priesthood."
   },
   {
    "q": "Is this quest mandatory to continue the chain?",
@@ -69,7 +69,7 @@
     "can i skip temple of the moon",
     "temple of the moon breadcrumb"
    ],
-   "answer": "No. The Temple of the Moon serves as an optional breadcrumb quest. You can speak directly with Priestess A'moora inside the temple to undertake the ritual tasks without visiting Sister Aquinne first."
+   "answer": "No. The Temple of the Moon is an optional breadcrumb. You can speak directly with Priestess A'moora inside the temple to take up the ritual tasks without first visiting Sister Aquinne."
   },
   {
    "q": "What quest follows after this one?",
@@ -78,7 +78,7 @@
     "temple of the moon follow up",
     "what comes next"
    ],
-   "answer": "Priestess A'moora offers the quest Tears of the Moon, directing you to end Lady Sathrah's suffering and bring back her silvery spinnerets."
+   "answer": "Priestess A'moora offers Tears of the Moon. She asks you to end Lady Sathrah's suffering and bring back her silvery spinnerets."
   },
   {
    "q": "Why is the Sisterhood of Elune asking outsiders for help?",
@@ -87,21 +87,21 @@
     "why does the priesthood need help",
     "sister aquinne motive"
    ],
-   "answer": "The corruption lingering within Teldrassil's flora and fauna stretches the Sisterhood thin, compelling priestesses to recruit competent travelers who respect nature and the Goddess."
+   "answer": "Corruption lingers in Teldrassil's flora and fauna, stretching the Sisterhood thin. The priestesses seek capable travelers who respect nature and the Goddess."
   }
  ],
  "angles": [
   {
    "target": "race:NightElf",
-   "text": "For night elves, answering Sister Aquinne is an extension of their duty to protect the sacred ecosystem of Teldrassil and uphold the guidance of Elune's priesthood."
+   "text": "As a night elf, answering Sister Aquinne helps protect Teldrassil's sacred ecosystem and uphold the guidance of Elune's priesthood."
   },
   {
    "target": "class:Priest",
-   "text": "Priests walking the grounds of Darnassus are naturally drawn to the work of the Sisterhood, assisting fellow servants of the divine in rites of healing and mercy."
+   "text": "As a priest, you may feel drawn to the Sisterhood's work in Darnassus, helping fellow servants of the divine with rites of healing and mercy."
   },
   {
    "target": "class:Druid",
-   "text": "Druids hold deep concern for any great creature of the wild in distress, making the call from the Temple Gardens an urgent matter of natural harmony."
+   "text": "As a druid, you care deeply when a great creature of the wild is in distress. The call from the Temple Gardens asks you to help restore natural harmony."
   }
  ],
  "keywords": [
@@ -125,5 +125,6 @@
  ],
  "attribution": [
   "The Temple of the Moon (Classic)"
- ]
+ ],
+ "style": 1
 }

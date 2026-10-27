@@ -11,16 +11,16 @@
    "quest:4731"
   ]
  },
- "summary": "A Strangely Marked Box is a piece of cargo discovered inside the harnesses strapped to dead sea turtles along the Darkshore coastline. Its mysterious exterior bears the runic script of the serpentine naga, offering night elf scholars proof that these sea creatures did not strand themselves by accident.",
+ "summary": "Along Darkshore, a Strangely Marked Box is found among cargo on dead sea turtles. Its runes point to the naga and show that the turtles did not come ashore by chance.",
  "sections": [
   {
    "title": "Trophies of the Deep",
-   "body": "While several giant sea turtles and sea creatures simply wash ashore along Darkshore's mist-veiled beaches, others tell a far more ominous tale. Scattered carcasses bear the splintered remnants of riding harnesses and abandoned carriages bound straight to their shells. Within the ruins of these buckled contraptions lie sealed containers covered in foreign, sinuous runes. Scavenging Greymist murlocs frequently take up residence in the hollow ribcages and broken wagons, picking at the carrion and guarding whatever remnants were left behind.",
+   "body": "Dead sea turtles and other sea creatures wash up on Darkshore's beaches. Some carry broken harnesses and carriages strapped to their shells. Sealed boxes marked with foreign, winding runes lie among the wreckage. Greymist murlocs often shelter in the hollow ribs and broken wagons, feeding on the carcasses and guarding what remains.",
    "spoiler": 0
   },
   {
    "title": "Evidence of Naga Expansion",
-   "body": "When brought to Gwennyth Bly'Leggonde, a researcher representing the Temple of the Moon in Auberdine, the markings on the box reveal their true origin. The script and the strapped carriages belong to the naga, who use massive turtles as beasts of burden to ferry logistical supplies and war equipment onto dry land. The discovery of these supply boxes confirms that the naga are deliberately operating along the northern shores and may be driving mounts south toward Ashenvale, prompting the priesthood in Auberdine to ship the relics directly to Darnassus for further study.",
+   "body": "Gwennyth Bly'Leggonde, a researcher for the Temple of the Moon in Auberdine, recognizes the markings. The script and the carriages belong to the naga, who use giant turtles to carry supplies and war equipment onto land. The boxes show that naga are active along the northern shores and may be driving their mounts south toward Ashenvale. The priesthood in Auberdine sends the relics to Darnassus for study.",
    "spoiler": 1
   }
  ],
@@ -32,7 +32,7 @@
     "box location",
     "turtle carriage box"
    ],
-   "answer": "The box is recovered from abandoned carriages strapped to the shells of beached sea turtle carcasses along the coast of Darkshore. These carcasses are often surrounded and defended by Greymist murlocs feeding on the carrion."
+   "answer": "The box is found in an abandoned carriage strapped to a dead sea turtle along Darkshore's coast. Greymist murlocs often feed near the carcasses and guard what remains."
   },
   {
    "q": "Who made the Strangely Marked Box?",
@@ -42,7 +42,7 @@
     "box runes",
     "what are the markings"
    ],
-   "answer": "The box and its inscriptions were created by the naga. They affix cargo carriages to living sea turtles to haul provisions, arms, and equipment out of the ocean depths and onto the shores of Kalimdor."
+   "answer": "The naga made the box and its inscriptions. They strap carriages to living sea turtles to carry provisions, arms, and equipment from the ocean depths onto Kalimdor's shores."
   },
   {
    "q": "Who wants this box in Auberdine?",
@@ -51,7 +51,7 @@
     "box turn in",
     "who wants the box"
    ],
-   "answer": "Gwennyth Bly'Leggonde, a researcher working in Auberdine on behalf of the Temple of the Moon, collects the box to analyze the strange beachings and understand the growing naga threat."
+   "answer": "Gwennyth Bly'Leggonde, a researcher for the Temple of the Moon in Auberdine, collects the box to study the strange beachings and the naga threat."
   },
   {
    "q": "Why were the sea turtles carrying these boxes?",
@@ -60,7 +60,7 @@
     "turtle carriages",
     "why are turtles strapped"
    ],
-   "answer": "The naga domesticate or enslave giant sea turtles as beasts of burden, strapping harnesses and carriages to their backs for battle and to carry their supplies onto land. Gwennyth suspects one such turtle was killed while heading further south, perhaps toward Ashenvale."
+   "answer": "The naga use giant sea turtles as beasts of burden, strapping harnesses and carriages to their backs to carry supplies and war equipment onto land. Gwennyth suspects one turtle was killed while heading south, perhaps toward Ashenvale."
   },
   {
    "q": "What happens to the box after giving it to Gwennyth?",
@@ -68,17 +68,17 @@
     "where does the box go",
     "box sent to darnassus"
    ],
-   "answer": "Gwennyth Bly'Leggonde forwards the box and the rest of the coastal survey findings up to the Temple of the Moon in Darnassus so the night elf leadership can study the extent of the naga incursion."
+   "answer": "Gwennyth Bly'Leggonde sends the box and the coastal survey findings to the Temple of the Moon in Darnassus, where the night elf leadership can study the naga's reach."
   }
  ],
  "angles": [
   {
    "target": "race:NightElf",
-   "text": "Finding naga supply boxes lashed to native sea turtles along Darkshore warns the kaldorei that their ancient, mutated kin are systematically pushing ashore from the Great Sea."
+   "text": "Finding naga supply boxes lashed to native sea turtles along Darkshore warns the kaldorei that their ancient, mutated kin are pushing ashore from the Great Sea."
   },
   {
    "target": "class:Priest",
-   "text": "Securing relics from the shore aids the Temple of the Moon's scholars in Auberdine as they work to safeguard the coast from marine corruption."
+   "text": "As a priest, you help the Temple of the Moon's scholars in Auberdine secure shore relics as they work to protect the coast from marine corruption."
   }
  ],
  "keywords": [
@@ -105,5 +105,6 @@
   "Strangely Marked Box",
   "Beached Sea Turtle (2)",
   "Beached Sea Turtle (4)"
- ]
+ ],
+ "style": 1
 }

@@ -13,7 +13,7 @@ import { storyVoice, listenBox } from "../../lib/storyvoice.js";
 import { historyEnabled, historyPage } from "../../lib/history.js";
 import { escape } from "../../lib/voices.js";
 import { countSite, BOT } from "../../lib/usage.js";
-import { shareSummary, shareCard } from "../../lib/referrals.js";
+import { shareSummary, shareCard, creatorBadge } from "../../lib/referrals.js";
 
 const html = (body, status, cache, more = {}) => new Response(body, {
   status, headers: { "Content-Type": "text/html; charset=utf-8", "Cache-Control": cache, "Vary": "Cookie", ...more },
@@ -55,7 +55,9 @@ export async function onRequestGet({ request, env, params, waitUntil }) {
     if (waitUntil) waitUntil(counting); else await counting;
   }
   const user = await env.DB.prepare("SELECT links FROM users WHERE id = ?").bind(p.user_id).first();
-  const badges = await contributionBadges(env, request, p.user_id);   // Narrator, Translator, Contributed N lines (LOR-239)
+  // Narrator, Translator, Contributed N lines (LOR-239); a creator partner's badge and Conversions (LOR-836).
+  const [contributed, creator] = await Promise.all([contributionBadges(env, request, p.user_id), creatorBadge(env, p.user_id)]);
+  const badges = creator ? [creator, ...contributed] : contributed;
   // The journey's trails and lore links (LOR-248); names link to lore pages once those are on (the "lore" feature).
   const names = await loadLinks(env, request);
   // The picture book (lib/pictures.js) once the "pictures" feature is on; ?pictures=1 shows it before.

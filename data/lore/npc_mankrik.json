@@ -8,16 +8,16 @@
   "wiki": "Mankrik",
   "refs": 1
  },
- "summary": "Mankrik is a grief-stricken orc warrior stationed at the Crossroads in the Barrens. After a vicious quilboar ambush separated him from his wife, Olgra, he has dedicated his life to avenging her and cutting down every bristled beast he can find.",
+ "summary": "At the Crossroads, Mankrik carries grief and a thirst for vengeance. A quilboar ambush separated him from his wife, Olgra, and he now hunts the bristled beasts across the Barrens.",
  "sections": [
   {
    "title": "Ambush in the Dust",
-   "body": "While traveling through the scrublands of the Barrens, Mankrik and his wife Olgra were overrun by swarms of quilboar during a skirmish at a small tauren settlement. Separated in the chaos and frantic fighting, Mankrik watched Olgra disappear under a tide of tusks and thorn-woven weapons. Overwhelmed by fury, he fought recklessly until he was struck down unconscious. He survived only because a passing tauren druid discovered him bleeding out along the Gold Road and bound his injuries.",
+   "body": "Mankrik and his wife Olgra traveled through the Barrens when quilboar swarmed them during a skirmish at a small tauren settlement. The fighting tore them apart, and Mankrik saw Olgra vanish beneath tusks and thorn-woven weapons. Fury drove him to fight recklessly until a blow left him unconscious. Along the Gold Road, a passing tauren druid found Mankrik bleeding out and bound his injuries. He survived the ambush, but Olgra was gone.",
    "spoiler": 0
   },
   {
    "title": "Consumed by Vengeance",
-   "body": "Recovering at the Crossroads, Mankrik found himself paralyzed by grief and an all-consuming bloodlust. Though local leaders like Thork warn that his blind hatred clouds his judgment and refuse to mount official war parties, Mankrik refuses to move on. Haunted by uncertainty over Olgra's fate, he enlists any willing Horde travelers to scour the Barrens for sign of his lost mate and to slaughter any quilboar that cross their path.",
+   "body": "At the Crossroads, Mankrik recovers, paralyzed by grief and consumed by bloodlust. Thork and other local leaders warn that hatred has clouded his judgment, and they refuse to send official war parties. Mankrik refuses to move on. Uncertain of Olgra's fate, he calls on any willing Horde travelers to search the Barrens for signs of his lost mate and slaughter any quilboar they meet.",
    "spoiler": 0
   }
  ],
@@ -29,7 +29,7 @@
     "who is mankrik",
     "mankrik story"
    ],
-   "answer": "Mankrik is an orc warrior residing at the Crossroads in the Barrens. He survived a brutal quilboar ambush that separated him from his wife, leaving him consumed by rage and bent on avenging her."
+   "answer": "At the Crossroads in the Barrens, Mankrik is an orc warrior consumed by grief and rage. A quilboar ambush separated him from his wife, and he now seeks vengeance."
   },
   {
    "q": "What happened to Mankrik's wife?",
@@ -39,7 +39,7 @@
     "what happened to olgra",
     "olgra fate"
    ],
-   "answer": "During a clash at a tauren settlement, Mankrik and Olgra were cut off from each other by overwhelming numbers of quilboar. Mankrik was beaten down in the chaos, and Olgra was lost amid the fighting."
+   "answer": "A swarm of quilboar cut Mankrik and Olgra off from each other during a clash at a tauren settlement. Mankrik was beaten down in the chaos, and Olgra disappeared amid the fighting."
   },
   {
    "q": "How did Mankrik survive the battle?",
@@ -47,7 +47,7 @@
     "how did mankrik survive",
     "who saved mankrik"
    ],
-   "answer": "After falling unconscious under swarms of quilboar, Mankrik was found collapsed on the Gold Road by a wandering tauren druid, who tended to his grievous wounds and brought him to safety."
+   "answer": "A tauren druid found Mankrik bleeding out along the Gold Road after he fell unconscious beneath the quilboar swarm. The druid bound his injuries and brought him to safety."
   },
   {
    "q": "Why does Thork refuse to help Mankrik?",
@@ -55,17 +55,17 @@
     "why wont thork help",
     "thork and mankrik"
    ],
-   "answer": "Thork, the leader at the Crossroads, believes that Mankrik's intense rage and thirst for vengeance have completely clouded his judgment, preventing him from acting rationally."
+   "answer": "Thork, the leader at the Crossroads, believes Mankrik's rage and thirst for vengeance have clouded his judgment and left him unable to act rationally."
   }
  ],
  "angles": [
   {
    "target": "race:Orc",
-   "text": "Mankrik embodies the devastating cost of settling the wild frontiers of Kalimdor, where family and honor are tested constantly against brutal indigenous threats."
+   "text": "As an orc, you know family and honor are constantly tested against the threats on Kalimdor's wild frontiers."
   },
   {
    "target": "faction:Horde",
-   "text": "For travelers arriving at the Crossroads, Mankrik's plight serves as a stark introduction to the unrelenting threat posed by the bristled quilboar packs across the Barrens."
+   "text": "At the Crossroads, you face the unrelenting threat of the bristled quilboar packs across the Barrens."
   }
  ],
  "keywords": [
@@ -89,5 +89,6 @@
  ],
  "attribution": [
   "Mankrik"
- ]
+ ],
+ "style": 1
 }

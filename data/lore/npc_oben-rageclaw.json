@@ -8,16 +8,16 @@
   "wiki": "Oben Rageclaw",
   "refs": 2
  },
- "summary": "Oben Rageclaw is the restless spirit of a night elf druid haunting the corrupted depths of the Ban'ethil Barrow Den in Teldrassil. While his spirit wanders trapped in the barrow den, his slumbering physical form has fallen under the sway of foul furbolg magic.",
+ "summary": "In Ban'ethil Barrow Den, Oben Rageclaw's spirit wanders, unable to wake or pass on. His sleeping body remains under the Gnarlpine furbolgs' control.",
  "sections": [
   {
    "title": "A Slumber Desecrated",
-   "body": "Like many Druids of the Claw, Oben Rageclaw retreated into the subterranean sanctum of Ban'ethil Barrow Den to commune with nature and wander the Emerald Dream. However, when the native Gnarlpine furbolgs fell to corruption and overran the barrows, Oben was caught entirely defenseless in his trance. Rather than simply slaying him, the corrupted Gnarlpine shaman used dark rituals to seize control of his comatose mortal frame, leaving his displaced spirit lingering as an anguished ghost unable to pass on or wake.",
+   "body": "Oben Rageclaw entered Ban'ethil Barrow Den to commune with nature and wander the Emerald Dream, as many Druids of the Claw do. When the Gnarlpine furbolgs fell to corruption and overran the barrows, Oben lay defenseless in his trance. A corrupted Gnarlpine shaman used dark rituals to take control of his comatose body. His spirit was left behind as an anguished ghost, unable to wake or pass on.",
    "spoiler": 0
   },
   {
    "title": "Severing the Vessel",
-   "body": "Unable to reclaim his own flesh from the shaman's enthrallment, Oben relies on travelers navigating the dangerous tunnels to end his torment. Only by locating and destroying his puppeted physical body can his mortal ties be severed. Once his hijacked vessel is slain, Oben's tortured ghost is finally released from the subterranean gloom to find eternal rest within the Emerald Dream.",
+   "body": "Oben Rageclaw cannot reclaim his body from the shaman's control. Travelers moving through the dangerous tunnels can end his torment by finding and destroying the body the shaman commands. When that vessel falls, Oben's tortured ghost is released from the underground gloom and finds rest in the Emerald Dream.",
    "spoiler": 1
   }
  ],
@@ -29,7 +29,7 @@
     "oben rageclaw lore",
     "spirit in barrow den"
    ],
-   "answer": "Oben Rageclaw is a night elf Druid of the Claw whose ghost haunts Ban'ethil Barrow Den in Teldrassil after being severed from his physical body by corrupted furbolgs."
+   "answer": "Oben Rageclaw is a night elf Druid of the Claw whose ghost wanders Ban'ethil Barrow Den in Teldrassil, separated from his body by corrupted furbolgs."
   },
   {
    "q": "Why is Oben Rageclaw a ghost?",
@@ -38,7 +38,7 @@
     "how did oben die",
     "why is oben a ghost"
    ],
-   "answer": "While Oben slept in a deep druidic trance communing with the Emerald Dream, Gnarlpine furbolg shamans infiltrated the den and cast foul magic on his body, taking control of it and trapping his spirit outside as an apparition."
+   "answer": "Oben Rageclaw became a ghost while he slept in a druidic trance, communing with the Emerald Dream. Gnarlpine furbolg shamans entered the den, used foul magic to control his body, and trapped his spirit outside it."
   },
   {
    "q": "Where is Oben's physical body?",
@@ -47,7 +47,7 @@
     "where is oben body",
     "sleeping druid location"
    ],
-   "answer": "His physical body lies deeper within the winding corridors of Ban'ethil Barrow Den, guarded and manipulated by the Gnarlpine shamans who corrupted the den."
+   "answer": "Oben's body lies deeper in Ban'ethil Barrow Den's winding corridors, under the control of the Gnarlpine shamans who corrupted the den."
   },
   {
    "q": "What happens after Oben's body is destroyed?",
@@ -56,17 +56,17 @@
     "what happens to oben spirit",
     "saving oben"
    ],
-   "answer": "Destroying his puppeted body breaks the Gnarlpine shamans' dark hold over him, allowing his spirit to peacefully depart Teldrassil and rest forever in the Emerald Dream."
+   "answer": "When Oben's body is destroyed, the Gnarlpine shamans' hold over him is broken. His spirit can leave Teldrassil and find rest in the Emerald Dream."
   }
  ],
  "angles": [
   {
    "target": "class:Druid",
-   "text": "Oben's fate is a harrowing reminder of the vulnerability of druids during their trance-like communion with the Emerald Dream when sacred barrow dens are left undefended."
+   "text": "As a druid, Oben's fate shows how vulnerable druids are while communing with the Emerald Dream in a trance, when sacred barrow dens are undefended."
   },
   {
    "target": "race:NightElf",
-   "text": "The desecration of Oben Rageclaw by the Gnarlpine furbolgs illustrates just how deeply corruption has tainted Teldrassil's native denizens and sacred sanctuaries."
+   "text": "As a night elf, you see how deeply the Gnarlpine furbolgs' corruption has touched Teldrassil's native denizens and sacred sanctuaries."
   }
  ],
  "keywords": [
@@ -89,5 +89,6 @@
  ],
  "attribution": [
   "Oben Rageclaw"
- ]
+ ],
+ "style": 1
 }

@@ -1,0 +1,92 @@
+{
+ "key": "quest:99081",
+ "type": "quest",
+ "name": "Schwieriges Unterfangen",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   99081
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "Kriegerheld Wildrunner needs the report held by Langl\u00e4uferin Malah. A new centaur camp points to a small raiding party entering Mulgore, and her death must be reported.",
+ "sections": [
+  {
+   "title": "Malah's Report",
+   "body": "You carry Langl\u00e4uferin Malah\u2019s report to Kriegerheld Wildrunner in Bloodhoof Village. He will want to know what happened to Malah and who killed her. The report brings troubling news that must reach Baine at once.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who wants Malah's report?",
+   "aliases": [
+    "who needs the report",
+    "wildrunner report",
+    "who do i take it to"
+   ],
+   "answer": "Kriegerheld Wildrunner wants Langl\u00e4uferin Malah\u2019s report, in Bloodhoof Village."
+  },
+  {
+   "q": "What does the report concern?",
+   "aliases": [
+    "what happened to malah",
+    "malah report",
+    "why is malah dead"
+   ],
+   "answer": "The report concerns what happened to Langl\u00e4uferin Malah and who killed her."
+  },
+  {
+   "q": "What is near the arrows' direction?",
+   "aliases": [
+    "new centaur camp",
+    "centaur camp",
+    "where did the raiders come from"
+   ],
+   "answer": "A new centaur camp lies in the direction from which the arrows that struck Malah seem to have come."
+  },
+  {
+   "q": "What does the camp suggest?",
+   "aliases": [
+    "centaur raid",
+    "raiders in mulgore",
+    "what does the camp mean"
+   ],
+   "answer": "The activity at the camp suggests a small raiding party has made its way into Mulgore."
+  },
+  {
+   "q": "Who needs to hear the news?",
+   "aliases": [
+    "tell baine",
+    "wildrunner tells baine",
+    "who gets informed"
+   ],
+   "answer": "Kriegerheld Wildrunner says Baine must be informed at once."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Tauren",
+   "text": "As a tauren, you carry news of a centaur raiding party in Mulgore to Kriegerheld Wildrunner."
+  }
+ ],
+ "keywords": [
+  "baine",
+  "bloodhoof village",
+  "centaur camp",
+  "kriegerheld wildrunner",
+  "langl\u00e4uferin malah",
+  "malah",
+  "mulgore",
+  "schwieriges unterfangen"
+ ],
+ "related": [
+  "zone:mulgore"
+ ],
+ "style": 1,
+ "attribution": [
+  "In-game quest text: Schwieriges Unterfangen"
+ ]
+}

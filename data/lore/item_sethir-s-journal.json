@@ -10,11 +10,11 @@
    "quest:2242"
   ]
  },
- "summary": "Sethir's Journal is a personal record carried by the elusive satyr Sethir the Ancient in Teldrassil. Recovered through stealth, its contents confirm the alarming spread of corruption from mainland Kalimdor onto the World Tree.",
+ "summary": "On Teldrassil, Sethir's Journal was recovered through stealth. Its pages confirm that corruption from mainland Kalimdor has reached the World Tree.",
  "sections": [
   {
    "title": "A Clue to the Taint",
-   "body": "Teldrassil was raised in the hope of reclaiming elven immortality, but an unseen sickness has increasingly taken root across its boughs. Syurna in Darnassus suspected that Sethir the Ancient, a solitary satyr lurking on an outlying branch near the Oracle Glade, held answers. When direct diplomacy and open force resulted only in death for past scouts, quiet pickpocketing yielded Sethir's journal. The writings reveal a grim truth: the mysterious blight poisoning the woods and waters across the sea in Darkshore has crossed over into Teldrassil itself.",
+   "body": "Teldrassil was raised in the hope of reclaiming elven immortality, yet an unseen sickness has taken root across its boughs. In Darnassus, Syurna suspected that Sethir the Ancient held answers. The solitary satyr lurks on an outlying branch near the Oracle Glade. Past scouts who tried diplomacy or open force met only death, so stealthy pickpocketing yielded Sethir's journal. Its writings reveal that the mysterious blight poisoning the woods and waters across the sea in Darkshore has crossed into Teldrassil itself.",
    "spoiler": 1
   }
  ],
@@ -26,7 +26,7 @@
     "sethir journal lore",
     "who owns sethirs journal"
    ],
-   "answer": "It is a journal carried by Sethir the Ancient, a hostile satyr living along the outer branches near the Oracle Glade on Teldrassil. It contains notes detailing the spreading corruption plaguing the region."
+   "answer": "Sethir's Journal is carried by Sethir the Ancient, a hostile satyr living along the outer branches near the Oracle Glade on Teldrassil. Its notes detail the corruption spreading through the region."
   },
   {
    "q": "How is the journal obtained?",
@@ -35,7 +35,7 @@
     "where to get sethir journal",
     "pickpocket sethir"
    ],
-   "answer": "Because previous attempts to bargain with or fight Sethir resulted in failure and death, the journal must be lifted directly from his packs using stealth."
+   "answer": "Past attempts to bargain with or fight Sethir ended in failure and death. The journal must be lifted from his packs through stealth."
   },
   {
    "q": "What does the journal reveal?",
@@ -43,7 +43,7 @@
     "what does sethir journal say",
     "what is in sethir journal"
    ],
-   "answer": "According to the rogue trainer Syurna, the journal proves that the strange sickness blighting the forests and waters of Darkshore has successfully crept into Teldrassil."
+   "answer": "Rogue trainer Syurna says the journal proves that the strange sickness blighting Darkshore's forests and waters has reached Teldrassil."
   },
   {
    "q": "Who is Sethir the Ancient?",
@@ -51,17 +51,17 @@
     "who is sethir",
     "sethir the ancient"
    ],
-   "answer": "Sethir is a solitary satyr who nests on a secluded branch along the outskirts of the Oracle Glade. Known for dealing violently with interlopers, he holds vital information on the creeping corruption of the World Tree."
+   "answer": "Sethir the Ancient is a solitary satyr on a secluded branch along the outskirts of the Oracle Glade. He deals violently with interlopers and holds information on the corruption creeping across the World Tree."
   }
  ],
  "angles": [
   {
    "target": "class:Rogue",
-   "text": "Retrieving the journal proves that subtle infiltration and pickpocketing can uncover critical intelligence where frontline warriors and diplomats failed completely."
+   "text": "As a Rogue, you can use stealth and pickpocketing to uncover vital intelligence where warriors and diplomats failed."
   },
   {
    "target": "race:NightElf",
-   "text": "The journal provides distressing evidence that Teldrassil is not immune to the ancient demonic taint creeping across mainland Kalimdor."
+   "text": "As a Night Elf, you face evidence that Teldrassil is not immune to the ancient demonic taint creeping across mainland Kalimdor."
   }
  ],
  "keywords": [
@@ -86,5 +86,6 @@
  "attribution": [
   "Sethir's Journal",
   "Destiny Calls"
- ]
+ ],
+ "style": 1
 }

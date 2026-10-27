@@ -8,11 +8,11 @@
   "wiki": "Mydrannul",
   "refs": 1
  },
- "summary": "Mydrannul is a night elf general goods vendor stationed at the Warrior's Terrace in Darnassus. He serves the capital's sentinels, soldiers, and visitors by keeping basic supplies, munitions, and provisions readily available.",
+ "summary": "At the Warrior's Terrace in Darnassus, Mydrannul keeps basic supplies ready for sentinels, soldiers, and visitors.",
  "sections": [
   {
    "title": "Supplies of the Warrior's Terrace",
-   "body": "Located among the military pavilions and training grounds of the Warrior's Terrace, Mydrannul provides essential gear to Darnassus's defenders and traveling adventurers alike. His wares include the practical everyday items needed for life in the field: ammunition for archers and gunners, throwing blades, flint, pouches, and simple rations. By tending his stall in the city's martial district, he ensures that the sentinels and trainees preparing for duty on Teldrassil do not want for basic sundries.",
+   "body": "Mydrannul keeps a supply stall among the Warrior's Terrace military pavilions and training grounds. Darnassus's defenders and travelers can find everyday field gear there, including ammunition for archers and gunners, throwing blades, flint, pouches, and simple rations. His stall helps sentinels and trainees preparing for duty on Teldrassil find the basic sundries they need.",
    "spoiler": 0
   }
  ],
@@ -24,7 +24,7 @@
     "where is mydrannul",
     "mydrannul map"
    ],
-   "answer": "Mydrannul is located within the Warrior's Terrace, the southeastern martial district of Darnassus situated on the crown of Teldrassil."
+   "answer": "Mydrannul can be found in the Warrior's Terrace, Darnassus's southeastern martial district on the crown of Teldrassil."
   },
   {
    "q": "What goods does Mydrannul sell?",
@@ -33,7 +33,7 @@
     "what does mydrannul sell",
     "mydrannul vendor items"
    ],
-   "answer": "He serves as a general goods vendor, stocking containers, simple rations, drink, and camp craft tools like flint and tinder, alongside throwing weapons and munitions like arrows and bullets."
+   "answer": "Mydrannul sells containers, simple rations, drink, flint and tinder, throwing weapons, arrows, and bullets."
   },
   {
    "q": "Does Mydrannul offer any quests?",
@@ -41,17 +41,17 @@
     "mydrannul quest",
     "quests from mydrannul"
    ],
-   "answer": "Yes. Besides selling supplies, Mydrannul sends adventurers to his friend Nessa Shadowsong, a fishing merchant in Rut'theran Village who needs a parcel carried to Darkshore."
+   "answer": "Yes. Mydrannul sends adventurers to his friend Nessa Shadowsong, a fishing merchant in Rut'theran Village, who needs a parcel carried to Darkshore."
   }
  ],
  "angles": [
   {
    "target": "race:NightElf",
-   "text": "For night elves training in Darnassus, Mydrannul provides essential everyday equipment and arrows to keep Sentinels properly provisioned."
+   "text": "As a night elf training in Darnassus, you can find everyday equipment and arrows from Mydrannul to keep Sentinels supplied."
   },
   {
    "target": "faction:Alliance",
-   "text": "Visiting Alliance travelers arriving on Teldrassil can rely on vendors like Mydrannul on the Warrior's Terrace for basic packs, ammunition, and field rations."
+   "text": "As an Alliance traveler arriving on Teldrassil, you can rely on vendors like Mydrannul in the Warrior's Terrace for basic packs, ammunition, and field rations."
   }
  ],
  "keywords": [
@@ -71,5 +71,6 @@
  ],
  "attribution": [
   "Mydrannul"
- ]
+ ],
+ "style": 1
 }

@@ -7,16 +7,16 @@
  "meta": {
   "wiki": "Orgrimmar"
  },
- "summary": "Orgrimmar is the formidable warrior capital of the New Horde, carved into the winding red canyons of northern Durotar. Founded by Warchief Thrall and named in memory of Orgrim Doomhammer, it serves as the beating heart of orcish renewal and intertribal survival on Kalimdor.",
+ "summary": "In northern Durotar, Orgrimmar rises as the New Horde’s warrior capital. Warchief Thrall founded the city in memory of Orgrim Doomhammer, and its red canyons shelter the orcs’ renewal and survival on Kalimdor.",
  "sections": [
   {
    "title": "A Stronghold in the Stone",
-   "body": "Following the Third War and the victory at Mount Hyjal, Warchief Thrall brought his surviving people south to establish a permanent homeland in Durotar. Nestled into a natural barrier of sheer mountain crags, Orgrimmar was engineered to withstand siege, boasting spiked timber palisades, stone watchtowers, and deep mountain-carved caverns. Built in cooperation with the Darkspear trolls, tauren stonemasons, and goblin engineers, the fortress turned a desolate wilderness into an unassailable bastion of strength.",
+   "body": "After the Third War and the victory at Mount Hyjal, Warchief Thrall brought his surviving people south to make a homeland in Durotar. Orgrimmar was built among steep mountain crags, with spiked timber walls, stone watchtowers, and caverns cut deep into the mountains. Darkspear trolls, tauren stonemasons, and goblin engineers helped raise the fortress. Its defenses turned the wilderness into a stronghold built to withstand a siege.",
    "spoiler": 0
   },
   {
    "title": "Heart of the New Horde",
-   "body": "Free of the demonic bloodlust that once bound them, the orcs built Orgrimmar as a beacon of honor, community, and survival. Today in 25 ADP, the city houses not only orcs and Darkspear trolls, but also welcomes emissaries from the tauren of Mulgore and emissaries from the newly allied Forsaken. Within its fortified canyons, shamans instruct the next generation in ancestral balance, while veterans clash in gladiatorial rings to hone the army that shields the fragile peace of Kalimdor.",
+   "body": "Free of the demonic bloodlust that once bound them, the orcs built Orgrimmar as a beacon of honor, community, and survival. Orcs and Darkspear trolls live in the city, while emissaries from the tauren of Mulgore and the newly allied Forsaken are welcomed there. Shamans teach the next generation ancestral balance, and veterans clash in gladiatorial rings to hone the army that guards Kalimdor’s fragile peace.",
    "spoiler": 0
   }
  ],
@@ -28,7 +28,7 @@
     "why called orgrimmar",
     "who was orgrimmar named for"
    ],
-   "answer": "Warchief Thrall named the city in honor of his mentor and predecessor, the legendary orc Warchief Orgrim Doomhammer. Doomhammer fell in the Eastern Kingdoms during the liberation of the orc internment camps, bestowing his iconic warplate and battle hammer onto Thrall."
+   "answer": "Warchief Thrall named Orgrimmar for his mentor and predecessor, the legendary orc Warchief Orgrim Doomhammer. Doomhammer fell in the Eastern Kingdoms while freeing the orc internment camps, and gave Thrall his iconic warplate and battle hammer."
   },
   {
    "q": "Who helped build the city?",
@@ -37,7 +37,7 @@
     "how was orgrimmar made",
     "orgrimmar builders"
    ],
-   "answer": "The capital was raised rapidly through the joint effort of orcs, the Darkspear trolls, the tauren, hired goblin sappers and engineers, and the wandering champion Rexxar. Its natural stone walls were excavated and fortified to provide swift, defensible shelter in the harsh terrain of Durotar."
+   "answer": "Orcs, Darkspear trolls, tauren, hired goblin sappers and engineers, and the wandering champion Rexxar rapidly raised Orgrimmar. They carved and fortified its natural stone walls to provide swift, defensible shelter in Durotar’s harsh terrain."
   },
   {
    "q": "Which races call Orgrimmar home?",
@@ -46,7 +46,7 @@
     "orgrimmar residents",
     "races in orgrimmar"
    ],
-   "answer": "Orgrimmar is primarily inhabited by the orcs and Sen'jin's Darkspear trolls, who share its districts. Tauren travelers frequently reside in the city as steadfast allies, and envoys of the recently accepted Forsaken have begun establishing a quiet foothold alongside them."
+   "answer": "Orcs and Sen'jin's Darkspear trolls share Orgrimmar’s districts. Tauren travelers often reside there as steadfast allies, and envoys of the recently accepted Forsaken have begun establishing a quiet foothold."
   },
   {
    "q": "Where does Warchief Thrall reside?",
@@ -55,17 +55,17 @@
     "thrall location orgrimmar",
     "warchief seat"
    ],
-   "answer": "Thrall presides over the New Horde from Grommash Hold, a central stronghold located in the Valley of Wisdom within Orgrimmar, named to honor his fallen friend, Grom Hellscream."
+   "answer": "Thrall resides in Grommash Hold, a central stronghold in Orgrimmar’s Valley of Wisdom. The hold honors his fallen friend, Grom Hellscream."
   }
  ],
  "angles": [
   {
    "target": "faction:Horde",
-   "text": "As the supreme seat of Horde leadership, Orgrimmar is the central staging ground for military campaigns, clan alliances, and diplomatic relations across Kalimdor and beyond."
+   "text": "As the Horde’s supreme seat of leadership, Orgrimmar is the center for military campaigns, clan alliances, and diplomacy across Kalimdor and beyond."
   },
   {
    "target": "race:Orc",
-   "text": "For the orcs, Orgrimmar is the realization of their redemption, where they cast off the legacy of the demonic curse to build an honorable, independent future."
+   "text": "For the orcs, Orgrimmar is the realization of their redemption. They cast off the demonic curse’s legacy there and build an honorable, independent future."
   }
  ],
  "keywords": [
@@ -90,5 +90,6 @@
  ],
  "attribution": [
   "Orgrimmar"
- ]
+ ],
+ "style": 1
 }

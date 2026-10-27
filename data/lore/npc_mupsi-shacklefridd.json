@@ -8,11 +8,11 @@
   "wiki": "Mupsi Shacklefridd",
   "refs": 1
  },
- "summary": "Mupsi Shacklefridd is a goblin resident stationed just outside the port town of Ratchet in the Barrens. She serves as a local contact for travelers looking to smooth over troubled relations with the Steamwheedle Cartel.",
+ "summary": "Outside Ratchet in the Barrens, Mupsi Shacklefridd helps travelers repair ties with the Steamwheedle Cartel.",
  "sections": [
   {
    "title": "On the Outskirts of Ratchet",
-   "body": "Mupsi Shacklefridd operates just outside Ratchet along the dusty coastal roads of the Barrens. Life near the port town is always busy, with Steamwheedle guards patrolling the perimeter and merchants coming and going. For those who find themselves in poor standing with the goblins, Mupsi provides a path to reconciliation\u2014provided travelers are willing to offer the supplies and labor the cartel demands.",
+   "body": "Mupsi Shacklefridd works along the coastal road just outside Ratchet. Steamwheedle guards patrol the port town's edge as merchants come and go. Travelers on poor terms with the goblins can seek a way back into the cartel's good graces through Mupsi, if they bring the supplies and labor it demands.",
    "spoiler": 0
   }
  ],
@@ -24,7 +24,7 @@
     "who is mupsi",
     "ratchet mupsi"
    ],
-   "answer": "She is a goblin stationed just outside the settlement of Ratchet in the Barrens who assists travelers seeking to restore their standing with the Steamwheedle Cartel."
+   "answer": "Mupsi Shacklefridd is a goblin stationed just outside Ratchet in the Barrens. She helps travelers restore their standing with the Steamwheedle Cartel."
   },
   {
    "q": "Where can I find her?",
@@ -33,7 +33,7 @@
     "where is mupsi shacklefridd",
     "find mupsi"
    ],
-   "answer": "Mupsi is located right outside Ratchet in the Barrens, close enough to the main settlement that wandering port guards and patrols occasionally cross her path."
+   "answer": "You can find Mupsi just outside Ratchet in the Barrens, where port guards and patrols sometimes pass by."
   },
   {
    "q": "Why would someone talk to Mupsi Shacklefridd?",
@@ -42,7 +42,7 @@
     "ratchet reputation turn in",
     "mupsi quest"
    ],
-   "answer": "Travelers who have angered the Steamwheedle Cartel\u2014often through run-ins with goblins or siding with pirates\u2014can work with Mupsi through supply donations to repair their reputation."
+   "answer": "If you have angered the Steamwheedle Cartel, Mupsi can help you repair your reputation with supplies. This often follows trouble with goblins or siding with pirates."
   }
  ],
  "angles": [],
@@ -62,5 +62,6 @@
  ],
  "attribution": [
   "Mupsi Shacklefridd"
- ]
+ ],
+ "style": 1
 }

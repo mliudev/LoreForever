@@ -20,16 +20,16 @@
    "Stars of Elune"
   ]
  },
- "summary": "Returning Home is a summons for wandering night elf priests operating far from Kalimdor in the snowy crags of Dun Morogh. Directed by the dwarven priest trainer Maxan Anvol, the novice is instructed to return to the Temple of the Moon in Darnassus to report to Priestess Alathea.",
+ "summary": "A summons reaches wandering night elf priests in Dun Morogh, calling them back to Darnassus. Maxan Anvol, the dwarven priest trainer, directs them to report to Priestess Alathea at the Temple of the Moon.",
  "sections": [
   {
    "title": "A Summons Across the Sea",
-   "body": "Night elves who choose to begin their adventures alongside their dwarven allies face the bitter biting cold of Dun Morogh, a far cry from the serene forests of Teldrassil. In Kharanos, the dwarven priest trainer Maxan Anvol takes note of the elf's fortitude before passing along an urgent message: a priestess of Elune passed through seeking them out, carrying orders from Darnassus that require their immediate return.",
+   "body": "In Kharanos, Maxan Anvol takes note of the night elf's fortitude amid Dun Morogh's bitter cold, far from Teldrassil's serene forests. The dwarven priest trainer brings urgent word: a priestess of Elune passed through looking for the elf, carrying orders from Darnassus that demand an immediate return.",
    "spoiler": 0
   },
   {
    "title": "The Temple of the Moon",
-   "body": "The journey demands a trek back to the sacred boughs of Teldrassil, leading directly to the Temple of the Moon. There, Priestess Alathea welcomes the traveler back into the fold of the Sisterhood of Elune. Relieved to see another devotee return unscathed from foreign lands, Alathea swiftly prepares the priest for their next rites of devotion, beginning with the Stars of Elune.",
+   "body": "The road leads across the sea to the Temple of the Moon in Darnassus, among Teldrassil's sacred boughs. Priestess Alathea welcomes the traveler back to the Sisterhood of Elune, relieved to see another devotee return unscathed from foreign lands. She swiftly prepares the priest for the next rites of devotion, beginning with the Stars of Elune.",
    "spoiler": 0
   }
  ],
@@ -41,7 +41,7 @@
     "who starts returning home",
     "maxan anvol"
    ],
-   "answer": "Maxan Anvol, the dwarven priest trainer stationed in Kharanos within Dun Morogh, delivers the message to you. He notes that another night elf priestess had recently passed through seeking you out."
+   "answer": "Maxan Anvol, the dwarven priest trainer in Kharanos, delivers the message. He says another night elf priestess recently passed through Dun Morogh seeking you."
   },
   {
    "q": "Where do I need to go to complete it?",
@@ -50,7 +50,7 @@
     "where is priestess alathea",
     "where do i go"
    ],
-   "answer": "You must travel back to Darnassus on the island of Teldrassil in northern Kalimdor. Priestess Alathea awaits you inside the Temple of the Moon."
+   "answer": "Return to Darnassus, on Teldrassil in northern Kalimdor. Priestess Alathea awaits inside the Temple of the Moon."
   },
   {
    "q": "Why is the Temple of the Moon calling me back?",
@@ -58,7 +58,7 @@
     "why returning home",
     "priest summons reason"
    ],
-   "answer": "Priestess Alathea and High Priestess Tyrande Whisperwind monitor the development of young initiates. Alathea wishes to verify your safety, hear of your travels under Elune's grace, and initiate your next stage of spiritual training through the Stars of Elune."
+   "answer": "Priestess Alathea and High Priestess Tyrande Whisperwind monitor the development of young initiates. Alathea wants to confirm your safety, hear of your travels under Elune's grace, and begin your next stage of spiritual training with the Stars of Elune."
   },
   {
    "q": "What happens after speaking with Priestess Alathea?",
@@ -66,7 +66,7 @@
     "next quest",
     "what comes next"
    ],
-   "answer": "Once you report your return, Priestess Alathea offers the quest Stars of Elune, continuing your foundational rites as a priest of the Kaldorei."
+   "answer": "When you report your return, Priestess Alathea offers Stars of Elune, continuing your foundational rites as a Kaldorei priest."
   },
   {
    "q": "Why would a night elf be in Dun Morogh at level 10?",
@@ -74,7 +74,7 @@
     "why dun morogh",
     "night elf in ironforge"
    ],
-   "answer": "Night elf adventurers often journey to the Eastern Kingdoms by boat from Darkshore to Menethil Harbor to explore the lands of the Alliance or adventure alongside dwarf and gnome comrades."
+   "answer": "Night elf adventurers can sail from Darkshore to Menethil Harbor in the Eastern Kingdoms. There, they explore Alliance lands or adventure alongside dwarf and gnome comrades."
   },
   {
    "q": "Is this quest available to other races?",
@@ -82,17 +82,17 @@
     "can dwarves do returning home",
     "who can take this quest"
    ],
-   "answer": "No, this quest is specifically intended for night elf priests who are training abroad in dwarven lands, directing them back to their cultural and spiritual home in Darnassus."
+   "answer": "No. This is for night elf priests training in dwarven lands, and it directs them back to their cultural and spiritual home in Darnassus."
   }
  ],
  "angles": [
   {
    "target": "class:Priest",
-   "text": "This rite of passage connects wandering acolytes back to the leadership of the Sisterhood of Elune, ensuring that devotion to the Moon Goddess remains steadfast even while traveling across distant lands."
+   "text": "As a priest, you return from distant lands to the leadership of the Sisterhood of Elune, keeping your devotion to the Moon Goddess steadfast."
   },
   {
    "target": "race:NightElf",
-   "text": "For a Kaldorei braving the frigid winds of Dun Morogh, the summons offers a welcome return to the familiar sanctuaries and ancestral forests of Teldrassil."
+   "text": "As a Kaldorei braving Dun Morogh's frigid winds, you receive a welcome call back to Teldrassil's familiar sanctuaries and ancestral forests."
   }
  ],
  "keywords": [
@@ -118,5 +118,6 @@
  ],
  "attribution": [
   "Returning Home (Dun Morogh)"
- ]
+ ],
+ "style": 1
 }

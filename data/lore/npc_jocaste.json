@@ -8,11 +8,11 @@
   "wiki": "Jocaste",
   "refs": 1
  },
- "summary": "Jocaste is a night elf hunter trainer residing within the verdant Cenarion Enclave in Darnassus. Working alongside the Cenarion Circle, she mentors young night elf marksmen and beastmasters who arrive from the wilds of Teldrassil.",
+ "summary": "In Darnassus, Jocaste trains night elf hunters arriving from the wilds of Teldrassil.",
  "sections": [
   {
    "title": "A Mentor in the Enclave",
-   "body": "Stationed among the tranquil groves of the Cenarion Enclave in Darnassus, Jocaste serves as an instructor for night elf hunters. When fledgling trackers finish their initial training in Shadowglen and venture into the capital city, Jocaste guides their transition into seasoned survivalists. She teaches the arts of marksmanship, wilderness survival, and the sacred bond between a hunter and the wild beasts of Kalimdor.",
+   "body": "Jocaste trains night elf hunters in Darnassus's Cenarion Enclave. Young trackers come to her after their first training in Shadowglen, ready to take up the hunt in the capital. She teaches marksmanship and survival in the wild, along with the bond between a hunter and the beasts of Kalimdor.",
    "spoiler": 0
   }
  ],
@@ -24,7 +24,7 @@
     "who is jocaste",
     "jocaste darnassus"
    ],
-   "answer": "Jocaste is a night elf hunter trainer located within the Cenarion Enclave in the capital city of Darnassus, offering instruction and guidance to practitioners of the hunt."
+   "answer": "Jocaste trains night elf hunters in the Cenarion Enclave of Darnassus."
   },
   {
    "q": "Where can I find Jocaste?",
@@ -33,7 +33,7 @@
     "where is jocaste",
     "jocaste spot"
    ],
-   "answer": "She can be found among the trees and pavilions of the Cenarion Enclave, in the northwest district of Darnassus on the boughs of Teldrassil."
+   "answer": "Find Jocaste in the Cenarion Enclave, in northwest Darnassus on the boughs of Teldrassil."
   },
   {
    "q": "What role does she play for young hunters?",
@@ -42,7 +42,7 @@
     "the hunter's path jocaste",
     "training the beast"
    ],
-   "answer": "Hunters directed to Darnassus seek her out to advance their discipline through tasks like The Hunter's Path and learn how to properly train and master wild beasts."
+   "answer": "Young hunters come to Jocaste in Darnassus to advance their discipline through The Hunter's Path and learn to train and master wild beasts."
   },
   {
    "q": "Is Jocaste affiliated with the Cenarion Circle?",
@@ -50,17 +50,17 @@
     "is jocaste cenarion circle",
     "jocaste faction"
    ],
-   "answer": "Yes. While training hunters rather than druids, she operates within the Cenarion Enclave and explicitly welcomes visiting hunters into the presence of the Cenarion Circle."
+   "answer": "Yes. Jocaste trains hunters in the Cenarion Enclave and welcomes visiting hunters into the presence of the Cenarion Circle."
   }
  ],
  "angles": [
   {
    "target": "class:Hunter",
-   "text": "For night elf hunters stepping into Darnassus for the first time, Jocaste is a key teacher who refines your combat techniques and helps solidify the bond with your animal companions."
+   "text": "As a night elf hunter arriving in Darnassus, Jocaste can refine your combat skills and help strengthen your bond with your animal companion."
   },
   {
    "target": "race:NightElf",
-   "text": "Rooted in the Cenarion Enclave, Jocaste reflects the close harmony between night elf wayfarers, the wild beasts of Teldrassil, and the teachings of the Cenarion Circle."
+   "text": "As a night elf, you can see in Jocaste the harmony between your people, Teldrassil's wild beasts, and the teachings of the Cenarion Circle."
   }
  ],
  "keywords": [
@@ -82,5 +82,6 @@
  ],
  "attribution": [
   "Jocaste"
- ]
+ ],
+ "style": 1
 }

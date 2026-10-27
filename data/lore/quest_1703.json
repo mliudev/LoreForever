@@ -17,16 +17,16 @@
   "wiki": "Mathiel (quest)",
   "chain": []
  },
- "summary": "This quest sends an adventurer carrying Furen Longbeard's crafting notes across the seas to Darnassus. The recipient is Mathiel, an artisan smith residing on the Warrior's Terrace eager to study dwarven innovations in mail forging. It represents a vital exchange of martial metallurgy between Ironforge and the kaldorei.",
+ "summary": "Furen Longbeard sends his crafting notes across the sea to Mathiel in Darnassus. The night elf smith works on the Warrior's Terrace, where dwarven mail forging may reach a new pair of hands.",
  "sections": [
   {
    "title": "A Courier Across the Sea",
-   "body": "After mastering the difficult process of forging fire-hardened armor, the veteran dwarven smith Furen Longbeard resolves to share his breakthroughs with fellow Alliance craftsmen. Instead of hoarding his newfound metallurgy, Furen copies down detailed technical diagrams and sends his tested adventurer across continents to find Mathiel, an accomplished smith dwelling high in Teldrassil.",
+   "body": "Furen Longbeard has mastered the forging of fire-hardened armor and chooses to share what he has learned with other Alliance craftsmen. He copies his technical diagrams and sends you across the continents to Mathiel, a smith on Teldrassil.",
    "spoiler": 0
   },
   {
    "title": "Kaldorei Steel and Dwarven Craft",
-   "body": "Mathiel works his forge on the tree-canopied Warrior's Terrace in Darnassus, catering to the Sentinels and fighters who defend the night elven capital. Receiving Furen's notes marks a bridge between disparate crafting traditions: the rugged, subterranean smelting of the Khaz Modan dwarves and the graceful, nature-attuned armorsmithing of the kaldorei.",
+   "body": "On Darnassus's Warrior's Terrace, Mathiel tends a forge for the Sentinels and other fighters who defend the night elf capital. Furen's notes carry dwarven methods from the underground forges of Khaz Modan to kaldorei armorers, whose craft is shaped by their bond with nature.",
    "spoiler": 0
   }
  ],
@@ -37,7 +37,7 @@
     "mathiel lore",
     "who is mathiel darnassus"
    ],
-   "answer": "Mathiel is a night elf blacksmith stationed on the Warrior's Terrace in Darnassus. He crafts equipment for defenders of the capital and maintains collegial correspondence with fellow master smiths across the Alliance."
+   "answer": "Mathiel is a night elf blacksmith on the Warrior's Terrace in Darnassus. He makes equipment for the capital's defenders and corresponds with smiths across the Alliance."
   },
   {
    "q": "Why does Furen send you to Darnassus?",
@@ -45,7 +45,7 @@
     "why send notes to mathiel",
     "furen notes reason"
    ],
-   "answer": "Furen Longbeard wants his research on forging fire-hardened armor to benefit other Alliance craftsmen. Because Mathiel is a trusted colleague capable of appreciating and utilizing advanced metallurgical techniques, Furen entrusts you with carrying his personal crafting notes to him."
+   "answer": "Furen Longbeard wants other Alliance craftsmen to benefit from his work on fire-hardened armor. He sends you to carry his crafting notes to Mathiel, a colleague able to study the techniques."
   },
   {
    "q": "Where can I find Mathiel in Darnassus?",
@@ -53,7 +53,7 @@
     "mathiel location",
     "where is mathiel"
    ],
-   "answer": "Mathiel can be found at the forge on the Warrior's Terrace, located in the eastern district of Darnassus by the main gate, where warriors and sentinels train."
+   "answer": "Mathiel works at the forge on Darnassus's Warrior's Terrace, in the eastern district by the main gate, where warriors and Sentinels train."
   },
   {
    "q": "What happens after giving Mathiel the notes?",
@@ -61,7 +61,7 @@
     "next quest after mathiel",
     "mathiel followup"
    ],
-   "answer": "Impressed by Furen's discoveries, Mathiel decides to build upon the dwarven techniques, sending the warrior on further trials into Kalimdor's wilderness to gather exotic components like sunscorched shells."
+   "answer": "After receiving Furen's notes, Mathiel is impressed by the discoveries and sets out to build on the dwarven techniques. He sends you into Kalimdor's wilderness to gather rare materials, including sunscorched shells."
   },
   {
    "q": "What kind of notes are being delivered?",
@@ -69,7 +69,7 @@
     "furen notes contents",
     "what are furen's notes"
    ],
-   "answer": "The notes contain detailed metallurgical observations and forging techniques Furen learned while experimenting with scorched spider fangs, chimaera horns, and phlogiston to produce reinforced mail."
+   "answer": "The notes hold Furen's observations and forging methods from experiments with scorched spider fangs, chimaera horns, and phlogiston to make reinforced mail."
   },
   {
    "q": "Is this quest restricted to warriors?",
@@ -77,25 +77,25 @@
     "warrior quest mathiel",
     "can other classes do mathiel"
    ],
-   "answer": "Yes, this courier errand is part of the dedicated trial and progression for Alliance warriors developing their martial prowess and armorcraft."
+   "answer": "Yes. The delivery is part of the trials and training for Alliance warriors building their martial skill and knowledge of armorcraft."
   }
  ],
  "angles": [
   {
    "target": "class:Warrior",
-   "text": "Carrying these notes marks your journey from the fiery smithies of the Eastern Kingdoms to the proving grounds of Darnassus, expanding your personal armory."
+   "text": "As a warrior, carrying Furen's notes takes you from the smithies of the Eastern Kingdoms to Darnassus's proving grounds, where your knowledge of armorcraft grows."
   },
   {
    "target": "race:Dwarf",
-   "text": "Sharing Furen's metalworking breakthrough with the night elves highlights the pride dwarves take in their unmatched mastery of the forge."
+   "text": "As a dwarf, sharing Furen's discovery with the night elves carries your people's pride in the forge across the sea."
   },
   {
    "target": "race:NightElf",
-   "text": "Mathiel represents the kaldorei willingness to study subterranean dwarven smithing and blend it with traditional night elven armorsmithing."
+   "text": "As a night elf, you can see Mathiel's interest in dwarven smithing and its place beside kaldorei armorcraft."
   },
   {
    "target": "profession:Blacksmithing",
-   "text": "The delivery illustrates the vital collaboration between master smiths, as blueprints and thermal tempering techniques pass between distant anvils."
+   "text": "As a blacksmith, you see master smiths share their craft as diagrams and heat tempering methods travel between distant forges."
   }
  ],
  "keywords": [
@@ -117,5 +117,6 @@
  ],
  "attribution": [
   "Mathiel (quest)"
- ]
+ ],
+ "style": 1
 }

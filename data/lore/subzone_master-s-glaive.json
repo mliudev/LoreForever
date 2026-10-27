@@ -7,16 +7,16 @@
  "meta": {
   "wiki": "Master's Glaive"
  },
- "summary": "The Master's Glaive is an ancient, unsettling landmark tucked into southwestern Darkshore where a colossal adamantine weapon stands impaled in a massive petrified skull. Long revered by local night elves as a sacred mystery, the site now swarms with Twilight's Hammer cultists drawn to the lingering malevolence of an ancient entity.",
+ "summary": "In southwestern Darkshore, the Master's Glaive rises from an ancient, unsettling site. Night elves once revered it as a sacred mystery, but Twilight's Hammer cultists now swarm around the colossal weapon, drawn by the malevolence that lingers there.",
  "sections": [
   {
    "title": "A Monument of an Ancient Clash",
-   "body": "Rising out of the Darkshore earth, the Master's Glaive is a massive adamantine blade buried deep in a colossal petrified skull. No record names the creature that died here or the hand that drove the blade home. Onu, the Ancient of Lore, says only that an old, old lord of the earth fell on this spot, and the night elves long believed that only the titans could have wielded so gigantic a weapon. Today, the impaled monolith stands as a stark, petrified monument to that forgotten struggle.",
+   "body": "At the Master's Glaive, an adamantine blade pierces a colossal petrified skull. No record names the creature or the hand that drove the blade home. Onu, the Ancient of Lore, says only that an old, old lord of the earth fell here. Night elves long believed that only the titans could wield a weapon so vast. The blade and skull remain a monument to that forgotten clash.",
    "spoiler": 0
   },
   {
    "title": "Dark Excavations",
-   "body": "Though the site was held in solemn reverence by night elves for generations, sinister forces have recently seized the grounds. Fanatics of the Twilight's Hammer cult have established a camp around the sunken carcass, carving out trenches and uncovering petrified ribs. Drawn by whispers beneath the stone, the cultists obsessively study the remains and commune with the malevolent power that still clings to the ancient remains, seeking to revive or harness whatever fell essence slumbers within the earth.",
+   "body": "Night elves held the Master's Glaive in solemn reverence for generations. Now Twilight's Hammer fanatics have camped around the sunken carcass, digging trenches and uncovering petrified ribs. Whispers beneath the stone draw them to study the remains obsessively and commune with the malevolent power that clings to them. They seek to revive or harness whatever fell essence sleeps within the earth.",
    "spoiler": 0
   }
  ],
@@ -28,7 +28,7 @@
     "masters glaive sword",
     "who put the sword there"
    ],
-   "answer": "No one knows for certain. The colossal adamantine blade is the Master's Glaive itself, driven into the skull in some forgotten age. The night elves believed that only the titans could have wielded a weapon of such size."
+   "answer": "No one knows for certain. The colossal adamantine blade is the Master's Glaive, driven into the skull in some forgotten age. Night elves believed only the titans could wield a weapon of such size."
   },
   {
    "q": "What creature's skull is buried here?",
@@ -36,7 +36,7 @@
     "what died here",
     "who is buried at masters glaive"
    ],
-   "answer": "Its name is lost. Onu, the Ancient of Lore, says only that an old, old lord of the earth fell here, and the Twilight's Hammer believe the petrified remains belong to a servant of the Old Gods."
+   "answer": "The creature's name is lost. Onu, the Ancient of Lore, says only that an old, old lord of the earth fell here. Twilight's Hammer believes the petrified remains belong to a servant of the Old Gods."
   },
   {
    "q": "Why is the Twilight's Hammer cult gathered here?",
@@ -45,20 +45,20 @@
     "twilight hammer darkshore",
     "what are cultists digging"
    ],
-   "answer": "The Twilight's Hammer cult worships the Old Gods. They have overrun the Master's Glaive to excavate the petrified remains, drawn by the lingering dark power and hoping to restore the fallen creature to life."
+   "answer": "The Twilight's Hammer cult worships the Old Gods. Its members have overrun the Master's Glaive to excavate the petrified remains, drawn by lingering dark power and hoping to restore the fallen creature to life."
   },
   {
    "q": "Who knows about the history of this site?",
    "aliases": [
     "who studies the glaive"
    ],
-   "answer": "Onu, the Ancient of Lore residing in Darkshore, recognizes the site as the resting place of an ancient lord of the earth and bids investigators to look into it."
+   "answer": "Onu, the Ancient of Lore in Darkshore, recognizes the site as the resting place of an ancient lord of the earth and bids investigators look into it."
   }
  ],
  "angles": [
   {
    "target": "race:NightElf",
-   "text": "For generations, night elves treated the strange petrified monument as a solemn holy place, making the recent intrusion of the Twilight's Hammer cult an intolerable defilement of Darkshore's sacred grounds."
+   "text": "For generations, night elves treated the strange petrified monument as a solemn holy place. The Twilight's Hammer intrusion is an intolerable defilement of Darkshore's sacred grounds."
   }
  ],
  "keywords": [
@@ -77,5 +77,6 @@
  ],
  "attribution": [
   "Master's Glaive"
- ]
+ ],
+ "style": 1
 }

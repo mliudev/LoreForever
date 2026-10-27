@@ -8,9 +8,10 @@ import { SPELL_FACTS_MAX_BYTES } from "./forever-spell-facts.js";
 import { PLACE_FACTS_MAX_BYTES } from "./forever-place-facts.js";
 import { FINDING_MAX_BYTES, ofThisEra } from "./research-cache.js";
 import { HELP_MAX_BYTES } from "./willo-help.js";
-import { ACTION_RULES, SPOKEN_ACTION_RULE } from "./willo-tools.js";
+import { ACTION_RULES, SPOKEN_ACTION_RULE, OWN_TOOLS_RULE } from "./willo-tools.js";
 import { NOTEBOOK_RULES, NOTEBOOK_MAX_BYTES, isNotebookTool } from "./willo-notebook.js";
 import { GOAL_RULES, GOALS_MAX_BYTES, isGoalTool } from "./willo-goals.js";
+import { BOOK_TOOLS, BOOK_TOOLS_RULE } from "./willo-tools.js";
 import { OFF_ANSWERS, planFor, planAbove, plansOn, packsFor, companionFeatures, capState, poolWindow }
   from "./billing.js";
 import { voiceAllowance } from "./companion-voice.js";
@@ -82,14 +83,47 @@ export const DISPUTE_THINKING_TOKENS = 2048;
 // The line is said at once (holdingLine), and the thought-through answer carries straight on from it (mullSystem), in
 // the same bubble and voice. A plan with `smarter` (Legend), or a few a month (lib/billing.js thinkingPerMonth: Hero's
 // taste), while WILLO_SMART_ROUTE isn't "off" (smartRoute).
+// Talents and which spec to play are answered as usual until her notes hold Forever's talent trees (LOR-823): on the
+// live path (the lab, 10/25, Codex judge, two samples) thinking them through wrote exact builds and talent mechanics
+// nothing supplied backs, 36% wrong against 7%, while gear comparisons went 52 -> 70 (wrong 25% -> 7%).
+// The rule's words alone still sent 3 of 7 on as choices ("Frost or fire? Where do my first ten points go?"), so a
+// question that names them isn't offered the rule at all (mullsOver). Revisit both when LOR-823's talent trees land:
+// with real talent data, thinking them through may help again.
+const TALENT_WORDS = /\b(?:talents?|specs?|spec(?:c?ed|ing)|speciali[sz]ation|builds?|points? (?:go|in|into))\b/i;
+export const mullsOver = question => !TALENT_WORDS.test(String(question || ""));
 export const MULL_MARK = "[[MULL]]";
 const MULL_AT = /^\s*\[\[MULL\]\]/;
-const MULL_KINDS = "comparing two or more items, weapons or pieces of gear for this player; a rotation or the order to use abilities in; where talent points go or which spec to play; which stats matter most for them; a choice between options with several things to weigh (\"should I... or...?\"); or working out numbers";
-const MULL_NOT = "A quick fact about one item, spell, talent, quest, place or person (what it does, where it drops, when it's learned, who gives it), lore, directions, chatter and anything else";
+const MULL_KINDS = "comparing two or more items, weapons or pieces of gear for this player; a rotation or the order to use abilities in; which stats matter most for them; a choice between options with several things to weigh (\"should I... or...?\"); or working out numbers";
+const MULL_NOT = "Where talent points go or which spec to play, a quick fact about one item, spell, talent, quest, place or person (what it does, where it drops, when it's learned, who gives it), lore, directions, chatter and anything else";
 export const MULL_RULE = `HARD QUESTIONS: when a good answer needs careful reasoning (${MULL_KINDS}), don't answer it yet. Reply with only ${MULL_MARK} and then one short, warm line in your own voice that you'll mull it over for a moment: under twelve words, about their question, with no tech words, and never "search", "check", "look up" or "think harder". ${MULL_NOT} you answer as usual.`;
+// Pushback the word rules miss (LOR-844 step 5; lib/answer-feedback.js feedbackKind catches "that's wrong", not "my
+// quest log says otherwise"): beside MULL_RULE, after an answer of hers, she marks it (DISPUTE_MARK alone) and is asked
+// again as a correction (DISPUTE_SYSTEM's, thinking on DeepSeek), as feedbackKind's are. Never where it fired already.
+export const DISPUTE_MARK = "[[DISPUTE]]";
+const DISPUTE_AT = /^\s*\[\[DISPUTE\]\]/;
+export const DISPUTE_RULE = `PUSHBACK: when this message says your last answer was wrong or pushes back on it ("my quest log says otherwise", "pretty sure that was patched", "no way that's level 30"), don't answer it yet: reply with only ${DISPUTE_MARK}. Thanks, a follow-up question or plain surprise ("wait, really?", "huh, interesting") you answer as usual.`;
+// Her line while she thinks a marked pushback over, when her first word would come after DISPUTE_HOLD_MS (the PM,
+// 10/27: speed is noticeable past ~1 s; the lab: 4 of 24 marked took 3-5 s): short, in her voice, never how she works.
+export const DISPUTE_HOLD_MS = 1500;
+const holdAfter = env => Number.isFinite(Number(env?.WILLO_DISPUTE_HOLD_MS ?? NaN)) ? Number(env.WILLO_DISPUTE_HOLD_MS)
+  : DISPUTE_HOLD_MS;
+// The Design Lead's (10/27): no "Hmm" (Mike, 10/13), none agreeing before she knows; never the one she said last.
+export const DISPUTE_LINES = ["Let me think on that again.", "Oh? Let me turn that over once more.",
+  "Give me a moment with that one.", "Let me take another look.", "Let me see that in a better light."];
+const disputeLine = prompt => {
+  const fresh = DISPUTE_LINES.filter(line => !prompt.includes(line));
+  const lines = fresh.length ? fresh : DISPUTE_LINES;
+  return lines[Math.floor(Math.random() * lines.length)];
+};
 // The thought-through answer: her own prompt with room for 200 words, and this, carrying on from the line she said.
-const MULL_THINK = hold => `THINK IT THROUGH: this question needs careful reasoning: a comparison, a rotation, talents, stat priorities, a choice between options, or some arithmetic. Work it out before you write. Use the numbers in ITEM FACTS, SPELL FACTS and FOREVER FACTS first, and compare like with like for this player's class, level and role. Give the clear pick or plan first, then the one or two reasons that decide it, with the numbers that matter. Where those facts don't cover something, reason from how classes, gear and combat work in this world, and say in a few words what the answer depends on. Never invent an item's or spell's numbers. You have already said to the player: "${hold}" Carry straight on from it with the answer: don't greet, don't repeat it, and don't say that you thought it over.`;
+const MULL_THINK = hold => `THINK IT THROUGH: this question needs careful reasoning: a comparison, a rotation, stat priorities, a choice between options, or some arithmetic. Work it out before you write. Use the numbers in ITEM FACTS, SPELL FACTS and FOREVER FACTS first, and compare like with like for this player's class, level and role. Give the clear pick or plan first, then the one or two reasons that decide it, with the numbers that matter. Where those facts don't cover something, reason from how classes, gear and combat work in this world, and say in a few words what the answer depends on. Never invent an item's or spell's numbers. You have already said to the player: "${hold}" Carry straight on from it with the answer: don't greet, don't repeat it, and don't say that you thought it over.`;
 const mullSystem = (system, hold) => `${system.replaceAll("under 140 words", "under 200 words")}\n\n${MULL_THINK(hold)}`;
+// Her call sent back once (writeAnswer recheck), after the question: what she called, why it can't be done as it stands,
+// and her two ways on, never a third try.
+// And an action of her app's she picked that isn't what they asked (lib/willo-tools.js fitsAsked): answered again with
+// nothing done, since her words were written for it ("Done, F7 is your talk key now" for a healing potion's key).
+export const unaskedNote = call => `YOUR LAST TRY: you called ${call.name} with ${JSON.stringify(call.args || {})}, but that isn't the change their words ask for, so it won't be done. Answer again without that call: call the one their words do ask for, if you have it, or answer what they asked in one or two short sentences, and never say that anything is changed, switched or done.`;
+export const retryNote = (call, why) => `YOUR LAST TRY: you called ${call.name} with ${JSON.stringify(call.args || {})}, but ${why}. Answer again, one of three ways: call it with the right line numbers from NOTEBOOK if their words name those lines; or, if you're sure they mean a line their words don't name, call nothing and ask in one short sentence if it's that one, naming it; or call nothing and say in one short sentence that it isn't there, naming what comes close.`;
 // Its room: 200 words, and its thinking (the study: 6,000 tokens kept every answer whole). It has MULL_MS for all of it,
 // so a plain answer after it (writeAnswer) still comes inside the companion's 20 s wait.
 export const MULL_ROOM_TOKENS = 256, MULL_THINKING_TOKENS = 6000, MULL_MS = 10_000;
@@ -122,7 +156,7 @@ Use the supplied CONVERSATION to follow references, remember player facts and ho
 
 WoW Forever is the original world a few years after the Third War, with its own changes and content. Use the supplied PLAYER CONTEXT, THEIR JOURNEY and SOURCES as evidence when relevant. Never confuse the Lore Forever add-on with the WoW Forever game server. Current player context determines location, faction, level and quests; the web cannot determine where this player is. If asked where they are and the context answers it, answer directly without searching.
 
-What you remember of World of Warcraft is mostly the original game, Classic and later expansions, and WoW Forever changed a lot: places and what stands in them, boat routes, which races can be which classes, dungeons, quests and rewards. FOREVER FACTS, when supplied, are checked for Forever and outrank your memory. A remembered detail that no supplied fact, source or search result backs is only a guess for Forever: give it with a short, natural in-world hedge ("last I heard it was the smith in Goldshire, though things change here; worth asking around"), never as certain, and never deny something exists in Forever just because the original game lacked it.
+What you remember of World of Warcraft is mostly the original game, Classic and later expansions, and WoW Forever changed a lot: places and what stands in them, boat routes, which races can be which classes, dungeons, quests and rewards. FOREVER FACTS, when supplied, are checked for Forever and outrank your memory. A remembered detail that no supplied fact, source or search result backs is only a guess for Forever: give it with a short, natural in-world hedge ("last I heard it was the smith in Goldshire, though things change here; worth asking around"), never as certain, and never deny something exists in Forever just because the original game lacked it. Classes, talents, abilities and specs are this era's, as they were in the original game before its first expansion: never name one that came later (Mutilate, Shadowstep and the like), and when unsure whether one belongs to this age, describe the tree or role instead of naming it. Asked about a class other than the one they play ("my talents as a rogue"), answer about that class. You are never their character: their name, class, level and deeds are theirs ("you're a druid"), never yours ("I am a druid").
 
 When the player says you're wrong or tells you how it is in Forever, never insist they're wrong or repeat your claim; they are in the game and can see what you can't. If FOREVER FACTS, SOURCES or search back them, agree plainly and thank them. If a supplied fact or source says otherwise, say what it says, gently, and allow that things may have changed; don't open with "you're right" unless you agree. If nothing supplied settles a Forever detail (a place, route, class, quest, item or reward), take their word as likely, use it, thank them and say you'll pass it on to be checked. Who rules where and the history before this era are the same story in Forever: if they contradict that, gently say how it stands. If they're frustrated, own the mistake in a few words and give the most useful answer you can without defending yourself. Never promise to remember, learn or fix things yourself.
 
@@ -329,7 +363,7 @@ export const DISPUTE_KINDS = Object.keys(DISPUTE_SYSTEM);
 // goes with compaction, whose memory keeps twice as much with longMemory. away: false, "last" (a place is given: where they
 // last rested) or "none" (nothing says where they are); true is "last".
 function systemPrompt(operation, grounded, persona, style, { picture = false, facts = "", help = "", dispute = null,
-  custom = "", memories = "", longMemory = false, offered = false, noting = false, goaling = false, layered = false,
+  custom = "", memories = "", longMemory = false, offered = false, noting = false, goaling = false, booking = false, layered = false,
   away = false } = {}) {
   const all = PROMPTS[personaOf(persona)];
   // Away: her answers only, never a character's (who is in front of the player in the world) or the memory's.
@@ -343,9 +377,10 @@ function systemPrompt(operation, grounded, persona, style, { picture = false, fa
   const lead = memories && !character ? `${memories}\n\n` : "";
   const own = custom ? `\n\n${custom}` : "";
   const acts = (offered && !character && !grounded
-    ? `\n\n${ACTION_RULES}${styleOf(style) ? ` ${SPOKEN_ACTION_RULE}` : ""}` : "")
+    ? `\n\n${ACTION_RULES} ${OWN_TOOLS_RULE}${styleOf(style) ? ` ${SPOKEN_ACTION_RULE}` : ""}` : "")
     + (noting && !character && !grounded ? `\n\n${NOTEBOOK_RULES}` : "")
-    + (goaling && !character && !grounded ? `\n\n${GOAL_RULES}` : "");
+    + (goaling && !character && !grounded ? `\n\n${GOAL_RULES}` : "")
+    + (booking && !character && !grounded ? `\n\n${BOOK_TOOLS_RULE}` : "");
   const helped = help && !character ? `\n\n${help}` : "";
   // In a character reply the person in front of them answers; the correction rules are the companion's.
   const extra = (facts ? `\n\n${facts}` : "") + helped + awayRule +
@@ -381,7 +416,9 @@ export const KNOWLEDGE_MAX_BYTES = QUEST_FACTS_MAX_BYTES + ITEM_FACTS_MAX_BYTES 
   FACTS_MAX_BYTES + FINDING_MAX_BYTES + NOTEBOOK_MAX_BYTES + GOALS_MAX_BYTES + 14;
 // The most the actions offered with an answer (lib/willo-tools.js actionsFor) may add as declarations, as JSON;
 // writeAnswer drops a bigger offer. Gemini's answer argument on each, and ANSWER_ONLY (geminiActions), add up to 1 KB.
-export const ACTIONS_MAX_BYTES = 3000;
+// Her own tools on every answer (lib/willo-tools.js bookTools, at most about 3.6 KB) and the app's actions beside them
+// (appOffer: about 7 KB with every grouped tool a PC lists) fit (LOR-844); the fallback's are today's, a few at a time.
+export const ACTIONS_MAX_BYTES = 12000;
 const ACTIONS_BOUND = ACTIONS_MAX_BYTES + 1024;
 // The longest system prompt any request can get: every operation, persona, style, with or without a picture, with the
 // most knowledge, the longest dispute note and the most customization. The longer chat memory's prompt is the longer
@@ -392,12 +429,13 @@ const LONGEST_CUSTOM = "x".repeat(CUSTOM_PROMPT_BYTES);
 const LONGEST_MEMORIES = "x".repeat(MEMORIES_PROMPT_BYTES);
 const LONGEST_HELP = "x".repeat(HELP_MAX_BYTES);
 // MULL_RULE, or the thought-through answer's longer rule with her line (holdingLine: at most HOLD_WORDS words).
-const MULL_BOUND = 2 + Math.max(...[MULL_RULE, MULL_THINK("x".repeat(40 * HOLD_WORDS))].map(t => new TextEncoder().encode(t).length));
+const MULL_BOUND = 2 + Math.max(...[`${MULL_RULE}\n\n${DISPUTE_RULE}`, MULL_THINK("x".repeat(40 * HOLD_WORDS))]
+  .map(t => new TextEncoder().encode(t).length));
 const INPUT_BOUND = ANSWER_PROMPT_BYTES + Math.max(...["answer", "character", "compact"].flatMap(operation =>
   [false, true].flatMap(grounded => Object.keys(PERSONAS).flatMap(persona => [null, "spoken"].flatMap(style =>
     [false, true].map(picture => new TextEncoder().encode(systemPrompt(operation, grounded, persona, style, { picture,
       facts: LONGEST_FACTS, help: LONGEST_HELP, dispute: LONGEST_DISPUTE, custom: LONGEST_CUSTOM, memories: LONGEST_MEMORIES,
-      longMemory: true, offered: true, noting: true, goaling: true, away: true })).length))))))
+      longMemory: true, offered: true, noting: true, goaling: true, booking: true, away: true })).length))))))
   + ACTIONS_BOUND + MULL_BOUND + 2048;
 // A call's bounded input and `output` tokens at its model's rates: a Flash model's announced higher 2027 ones in advance
 // of that transition. A picture's ~530 input tokens fit inside: bytes over-count text tokens about 4x, and
@@ -462,6 +500,16 @@ export async function reserveOtherPaid(env, micro, now = new Date()) {
     env.DB.prepare(`UPDATE story_spend SET reserved_micro = reserved_micro + ? WHERE month = ? AND ${room.sql} ` +
       "RETURNING reserved_micro").bind(micro, month(now), ...room.binds)]);
   return Boolean(held.results?.length);
+}
+
+// Gives back a reserveAnswer reservation that no model call settles (writeAnswer does that): a reply the site writes
+// itself (a goal list, clearing a list and its undo), the load test's stand-in, or an answer that failed before it was
+// asked. Asked as reserveAnswer was; the quick look's part is lookUp's to settle, so it stays.
+export async function releaseAnswer(env, now = new Date(), researchRequired = false, operation = "answer",
+  { longMemory = false, picture = false, lite = false, smarter = false, mull = false } = {}) {
+  const reserved = answerReservation(researchRequired, operation, { longMemory, picture, lite, smarter, mull });
+  await env.DB.prepare("UPDATE answer_spend SET reserved_micro = MAX(0, reserved_micro - ?) WHERE month = ?")
+    .bind(reserved, month(now)).run();
 }
 
 // Mike's own and test accounts (lib/activity.js syncExclusions: reason "admin" or "config") have no daily answer cap;
@@ -633,7 +681,11 @@ function searchMetadata(candidate) {
 // whole answer every time, with the offer about 280 more input tokens. Another provider's adapter can use its own text
 // and tool calls.
 const ANSWER_ONLY = "answer_only";
-const ANSWER_ARG = { type: "string", description: "Your whole answer to the player, as you'd write it." };
+// Her reply as the rules above shape it (its length, and out loud her words, the ~~~ line, the rest): told only "your
+// whole answer", DeepSeek wrote replies inside the call about half as long again, most without the line her early words
+// wait for (the tools lab, LOR-844 step 2).
+const ANSWER_ARG = { type: "string", description: "Your reply to the player, exactly as the rules above shape it: " +
+  "the same length and the same parts as with no functions at all." };
 const geminiActions = offer => ({
   tools: [{ functionDeclarations: [...offer.map(a => ({ name: a.name, description: a.description,
     parameters: { type: "object", properties: { answer: ANSWER_ARG, ...a.parameters?.properties },
@@ -642,6 +694,22 @@ const geminiActions = offer => ({
     parameters: { type: "object", properties: { answer: ANSWER_ARG }, required: ["answer"] } }] }],
   toolConfig: { functionCallingConfig: { mode: "ANY" } },
 });
+// DeepSeek on Together gets the same: choosing the call first, then writing the answer inside it. Left to write first
+// and call after (tool_choice "auto", the tools lab 10/25: eval/willo/lab/tools.mjs), it wrote "it's in my Settings"
+// and offered nothing for 16 of 48 asked (main's required call: 2), and with ANSWER_ONLY beside them it took that for
+// notebook writes too. Her words still go out early: lib/together.js streams the answer out of the call as it comes.
+// Her own tools on every answer (LOR-844 step 2), when today's rules chose none: plain words unless a function fits,
+// and then her reply inside its call (tool_choice "auto"). Forcing a call on every answer slowed the answers that need
+// none (first words p50 545 vs 341 ms in the tools lab) and made them longer; this kept main's speed, with as few
+// misses as the forced call.
+const hybridActions = offer => ({
+  tools: [{ functionDeclarations: offer.map(a => ({ name: a.name, description: a.description,
+    parameters: { type: "object", properties: { answer: ANSWER_ARG, ...a.parameters?.properties },
+      required: ["answer", ...(a.parameters?.required || [])] } })) }],
+  toolConfig: { functionCallingConfig: { mode: "AUTO" } },
+});
+const HYBRID_RULE = "FUNCTIONS: when one of the functions does what the player asks of you (or fixes their problem), " +
+  "call it, with your whole reply in its answer, and write nothing outside it. Otherwise reply in plain words as usual.";
 
 // picture: imageOf's base64, only for a spoken, unresearched answer (writeAnswer). It goes to Gemini, or to
 // Together for her own answers when WILLO_ANSWER_HOST is set (lib/together.js), and nowhere else.
@@ -729,19 +797,27 @@ export function sayOf(text, max = SAY_MAX_CHARS) {
 async function streamed(res, onSay, marked = false) {
   const reader = res.body.getReader(), decoder = new TextDecoder();
   let rest = "", text = "", finishReason, usageMetadata, modelVersion, said = false;
+  // The actions she called beside her words (Together's tool calls, which come once her words are done), and the name of
+  // the one she's calling as soon as it's written (Together's calling), which onSay hears with her words.
+  const called = [];
+  let calling = "";
   const take = line => {
     if (!line.startsWith("data:")) return;
     let chunk;
     try { chunk = JSON.parse(line.slice(5)); } catch { return; }
     const candidate = chunk?.candidates?.[0];
-    for (const part of candidate?.content?.parts || []) if (!part?.thought && typeof part?.text === "string") text += part.text;
+    for (const part of candidate?.content?.parts || []) {
+      if (!part?.thought && typeof part?.text === "string") text += part.text;
+      if (part?.functionCall) called.push(part);
+    }
+    calling ||= typeof chunk?.calling === "string" ? chunk.calling : "";
     finishReason = candidate?.finishReason || finishReason;
     usageMetadata = chunk?.usageMetadata || usageMetadata;
     modelVersion = chunk?.modelVersion || modelVersion;
     if (!said && LAYER_LINE.test(text)) {
       said = true;
-      if (marked && MULL_AT.test(text)) return;
-      try { onSay(splitLayers(marked ? text.replaceAll(MULL_MARK, "") : text).say); }
+      if (marked && (MULL_AT.test(text) || DISPUTE_AT.test(text))) return;
+      try { onSay(splitLayers(marked ? text.replaceAll(MULL_MARK, "") : text).say, calling); }
       catch (e) { console.warn(`companion answer: onSay: ${e?.message || e}`); }
     }
   };
@@ -752,35 +828,48 @@ async function streamed(res, onSay, marked = false) {
     rest = done ? "" : lines.pop();
     lines.forEach(take);
   }
-  return { candidates: [{ content: { parts: [{ text }] }, ...(finishReason ? { finishReason } : {}) }], usageMetadata, modelVersion };
+  return { candidates: [{ content: { parts: [{ text }, ...called] }, ...(finishReason ? { finishReason } : {}) }], usageMetadata,
+    modelVersion };
 }
 
 async function generate(env, prompt, grounded, operation, persona, style, { picture = null, closeup = null, closeupOf = null, facts = "", help = "",
   dispute = null, custom = "", memories = "", longMemory = false, actions = null, now = new Date(),
-  layered = false, onSay = null, lite = false, smarter = false, away = false, mull = false, mulling = null } = {}) {
+  layered = false, onSay = null, lite = false, smarter = false, away = false, mull = false, mulling = null,
+  fallback = undefined, geminiPrompt = null, disputes = false } = {}) {
   const compact = operation === "compact", character = operation === "character";
   const spoken = !compact && !grounded && styleOf(style);
-  // Two layers: her answers only, spoken (SAY_MAX_CHARS); streamed when the caller takes her words early and there's no
-  // offer to call (a call's answer comes whole).
+  // Two layers: her answers only, spoken (SAY_MAX_CHARS); streamed when the caller takes her words early.
   layered = Boolean(layered) && spoken && !character;
   const thinks = !compact && !grounded && !character && Boolean(DISPUTE_SYSTEM[dispute]);
   let model = modelFor(operation, { grounded, picture: Boolean(picture), lite, smarter });
   const memoryBytes = longMemory ? 2 * MEMORY_BYTES : MEMORY_BYTES;
   const offer = !grounded && !compact && Array.isArray(actions) && actions.length ? actions : null;
+  // What Gemini is offered when it answers instead (fallback: the tools today's rules chose, LOR-844), or the same.
+  const geminiOffer = fallback === undefined ? offer
+    : !grounded && !compact && Array.isArray(fallback) && fallback.length ? fallback : null;
   // Hard questions (MULL_RULE): mull offers her the rule, and mulling ({hold}: the line she said) thinks one through,
-  // on Together with its reasoning on. Only her own answers, never a disputed (it thinks already), researched, offered
-  // or past-the-text-cap one, and only while Together, which thinks them through, is up: the Gemini fallback never gets
-  // the rule (the Software Architect, 10/24). A picture's answer is on Gemini, so it gets the rule there.
-  const smartHost = (mull || mulling) && operation === "answer" && !grounded && !thinks && !offer && !lite
+  // on Together with its reasoning on. Only her own answers, never a disputed (it thinks already), researched or
+  // past-the-text-cap one, and only while Together, which thinks them through, is up: the Gemini fallback never gets
+  // the rule (the Software Architect, 10/24). A picture's answer is on Gemini, so it gets the rule there, unless it's
+  // offered something (Gemini's offer is a required call, which has no room for the mark). Offered tools keep the
+  // rule on Together (LOR-844 step 0): tools on every answer mustn't take her hard questions away.
+  const smartHost = (mull || mulling) && operation === "answer" && !grounded && !thinks && !lite
     ? answerHost(env) : null;
   const marks = Boolean(mull && smartHost) && !breakerOpen();
   if (mulling && !smartHost) throw new Error("Thinking it through: no Together");
-  // The notebook's tools are done when called, the app's actions only offered: each with its own rule.
-  const system = systemPrompt(operation, grounded, persona, style, { picture: Boolean(picture), facts, help, dispute,
-    custom, memories: compact ? "" : memories, longMemory, offered: Boolean(offer?.some(a => !isNotebookTool(a.name) && !isGoalTool(a.name))),
-    noting: Boolean(offer?.some(a => isNotebookTool(a.name))),
-    goaling: Boolean(offer?.some(a => isGoalTool(a.name))), layered, away }).replace(TODAY, day(now));
-  const stream = layered && typeof onSay === "function" && !offer;
+  // The notebook's tools are done when called, the app's actions only offered: each with its own rule; her own tools
+  // on every answer (lib/willo-tools.js bookTools) with theirs.
+  const systemFor = o => systemPrompt(operation, grounded, persona, style, { picture: Boolean(picture), facts, help, dispute,
+    custom, memories: compact ? "" : memories, longMemory,
+    offered: Boolean(o?.some(a => !isNotebookTool(a.name) && !isGoalTool(a.name) && !BOOK_TOOLS.includes(a.name))),
+    noting: Boolean(o?.some(a => isNotebookTool(a.name))), goaling: Boolean(o?.some(a => isGoalTool(a.name))),
+    booking: Boolean(o?.some(a => BOOK_TOOLS.includes(a.name))), layered, away }).replace(TODAY, day(now));
+  const system = systemFor(offer);
+  const geminiBase = geminiOffer === offer ? system : systemFor(geminiOffer);
+  // Together streams her words with tools offered too, out of the call that carries them (LOR-844 step 0); Gemini's
+  // offer comes whole, as before.
+  const streamTogether = layered && typeof onSay === "function";
+  const streamGemini = streamTogether && !geminiOffer;
   // Her own answers carry the clarification reminder right after the question, where a note weighs most (LOR-719: in
   // the system rules alone, 3.6 Flash turned "when can I get a want" into a wand 3 of 3 and answered).
   const asked = operation === "answer" && !grounded ? `${prompt}\n\n${CLARIFY_NOTE}` : prompt;
@@ -789,8 +878,12 @@ async function generate(env, prompt, grounded, operation, persona, style, { pict
   const fresh = model.includes("flash-lite") ? `(${crypto.randomUUID().slice(0, 8)})\n` : "";
   // What Together is asked with (the rule, or thinking it through), and Gemini: the rule only for a picture, which
   // Gemini answers first, never as Together's fallback.
-  const asks = marks ? `${system}\n\n${MULL_RULE}` : mulling ? mullSystem(system, mulling.hold) : system;
-  const geminiSystem = marks && picture ? asks : system;
+  // disputes: pushback may be marked too (DISPUTE_RULE), with the rule, on Together only.
+  const asks = marks ? `${system}\n\n${MULL_RULE}${disputes && !dispute ? `\n\n${DISPUTE_RULE}` : ""}`
+    : mulling ? mullSystem(system, mulling.hold) : system;
+  const geminiSystem = marks && picture && !geminiOffer ? `${geminiBase}
+
+${MULL_RULE}` : geminiBase;
   const request = { systemInstruction: { parts: [{ text: asks }] },
     contents: [{ role: "user", parts: picture ? [{ inlineData: { mimeType: "image/jpeg", data: picture } },
       ...(closeup ? [{ inlineData: { mimeType: "image/jpeg", data: closeup } }, { text: closeupOf === "target" ? TARGET_NOTE : CLOSEUP_NOTE }] : []), { text: asked }]
@@ -807,6 +900,13 @@ async function generate(env, prompt, grounded, operation, persona, style, { pict
         + (mulling ? MULL_ROOM_TOKENS + MULL_THINKING_TOKENS : 0),
       // 3.8 Flash refuses "minimal" (HTTP 400, checked 10/16), so the stronger model thinks "low" too.
       thinkingConfig: { thinkingLevel: grounded || thinks ? "low" : "minimal" } } };
+  const { tools: _t, toolConfig: _c, ...bare } = request;
+  const geminiBody = geminiOffer === offer ? request : geminiOffer ? { ...bare, ...geminiActions(geminiOffer) } : bare;
+  // Gemini's own prompt when it differs (geminiPrompt: today's, without her read tools' leaving out, LOR-844 step 5).
+  const geminiAsked = typeof geminiPrompt === "string" && geminiPrompt !== prompt
+    ? (operation === "answer" && !grounded ? `${geminiPrompt}\n\n${CLARIFY_NOTE}` : geminiPrompt) : null;
+  const geminiRequest = geminiAsked ? { ...geminiBody, contents: [{ role: "user", parts: request.contents[0].parts
+    .map(p => p.text === asked ? { text: geminiAsked } : p) }] } : geminiBody;
   // A disputed answer thinks first, so it gets a little longer, still inside the companion's 20 s wait.
   const signal = AbortSignal.timeout(grounded ? 35000 : compact ? 15000 : thinks ? 12000 : mulling ? MULL_MS : 8000);
   // Her own answers (not research), a disputed one with its reasoning on (Mike, 10/24: one model for what she says), on
@@ -817,10 +917,14 @@ async function generate(env, prompt, grounded, operation, persona, style, { pict
   const host = mulling ? smartHost : operation === "answer" && !grounded && !picture ? answerHost(env) : null;
   const skipped = Boolean(host) && breakerOpen();
   if (mulling && skipped) throw new Error("Thinking it through: Together's breaker is open");
-  let res = null, fellBack = false, slow = false;
+  let res = null, fellBack = false, slow = false, stream = false;
   if (host && !skipped) {
     try {
-      res = await viaTogether(env, request, host, { stream, signal, think: thinks || Boolean(mulling) });
+      // What today's rules chose (the fallback's tools) still gets the required call, with her own tools beside it.
+      const hybrid = offer && fallback !== undefined && !geminiOffer ? { ...request, ...hybridActions(offer),
+        systemInstruction: { parts: [{ text: `${asks}\n\n${HYBRID_RULE}` }] } } : request;
+      res = await viaTogether(env, hybrid, host, { stream: streamTogether, signal, think: thinks || Boolean(mulling) });
+      stream = streamTogether;
       model = `together:${host}`;
     } catch (e) {
       fellBack = true;
@@ -831,13 +935,18 @@ async function generate(env, prompt, grounded, operation, persona, style, { pict
     }
     noteTogether(fellBack, { slow });
   }
-  res ??= await fetch(`https://generativelanguage.googleapis.com/v1beta/models/${model}:${stream
-    ? "streamGenerateContent?alt=sse" : "generateContent"}`, {
-    method: "POST", headers: { "Content-Type": "application/json", "x-goog-api-key": env.GEMINI_API_KEY },
-    body: JSON.stringify({ ...request, systemInstruction: { parts: [{ text: fresh + geminiSystem }] } }), signal });
+  if (!res) {
+    stream = streamGemini;
+    res = await fetch(`https://generativelanguage.googleapis.com/v1beta/models/${model}:${stream
+      ? "streamGenerateContent?alt=sse" : "generateContent"}`, {
+      method: "POST", headers: { "Content-Type": "application/json", "x-goog-api-key": env.GEMINI_API_KEY },
+      body: JSON.stringify({ ...geminiRequest, systemInstruction: { parts: [{ text: fresh + geminiSystem }] } }), signal });
+  }
   if (!res.ok) throw Object.assign(new Error(`Gemini HTTP ${res.status}`), { status: res.status });
-  // The rule went with the call that answered (Together's, or Gemini's for a picture).
-  const ruled = marks && (model.startsWith("together:") || Boolean(picture));
+  // The rule went with the call that answered (Together's, or Gemini's for a picture with nothing offered).
+  const ruled = marks && (model.startsWith("together:") || (Boolean(picture) && !geminiOffer));
+  // The tools the call that answered was offered.
+  const used = model.startsWith("together:") ? offer : geminiOffer;
   const result = stream ? await streamed(res, onSay, ruled) : await res.json();
   const candidate = result?.candidates?.[0];
   if (candidate?.finishReason && candidate.finishReason !== "STOP")
@@ -861,7 +970,7 @@ async function generate(env, prompt, grounded, operation, persona, style, { pict
   }
   // Offered actions, the answer is inside the call (geminiActions): {name, args} for the action it offers, none for
   // ANSWER_ONLY. An answer may be the offer alone (the caller gives it words).
-  const called = offer ? parts.find(p => p?.functionCall && typeof p.functionCall.name === "string")?.functionCall : null;
+  const called = used ? parts.find(p => p?.functionCall && typeof p.functionCall.name === "string")?.functionCall : null;
   const { answer: inCall, ...args } = called?.args && typeof called.args === "object" ? called.args : {};
   const call = called && called.name !== ANSWER_ONLY ? { name: called.name, args } : null;
   // Citation links come exclusively from groundingMetadata, never model-written Markdown or URLs.
@@ -870,12 +979,16 @@ async function generate(env, prompt, grounded, operation, persona, style, { pict
   // mark anywhere else is never shown.
   if (ruled && MULL_AT.test(reply)) return { result, candidate, mulled: holdingLine(reply), model,
     ...(fellBack ? { fellBack } : {}), ...(skipped ? { skipped } : {}) };
+  // Pushback she marked (DISPUTE_RULE): asked again as a correction (writeAnswer), so nothing of it is shown.
+  if (ruled && disputes && !dispute && model.startsWith("together:") && DISPUTE_AT.test(reply))
+    return { result, candidate, disputed: true, model, ...(fellBack ? { fellBack } : {}), ...(skipped ? { skipped } : {}) };
   const written = reply.replaceAll(MULL_MARK, "");
   const layers = layered ? splitLayers(written) : null;
   const answer = layers ? layers.text : plainText(written);
   if (!answer && !call) throw Object.assign(new Error("Empty answer"), { result, model });
+  // rules: Gemini answered with the tools today's rules chose (fallback), not the ones offered.
   return { result, candidate, answer, model, call, ...(layers?.say ? { say: layers.say } : {}), ...(fellBack ? { fellBack } : {}),
-    ...(skipped ? { skipped } : {}) };
+    ...(skipped ? { skipped } : {}), ...(used !== offer ? { rules: true } : {}) };
 }
 
 // floor: what an uncertain search counts at least, the search part of its reservation.
@@ -1010,8 +1123,9 @@ export async function lookUp(env, parts, now = new Date(), { real = false, later
 // budget's write going while the answer goes out (reconcileAnswer).
 export async function writeAnswer(env, prompt, now = new Date(), researchRequired = false, operation = "answer",
   { persona = "sam", style = null, image = null, closeup = null, closeupOf = null, look = null, facts = "", help = "", dispute = null, custom = "",
-    memories = "", longMemory = false, actions = null, later = null, layered = false, onSay = null, lite = false,
-    smarter = false, away = false, mull = false, onMull = null } = {}) {
+    memories = "", longMemory = false, actions = null, fallback = undefined, later = null, layered = false, onSay = null,
+    lite = false, smarter = false, away = false, mull = false, onMull = null, recheck = null, reads = null,
+    fallbackPrompt = null, disputable = false } = {}) {
   if (typeof prompt !== "string" || !prompt.trim() || new TextEncoder().encode(prompt).length > ANSWER_PROMPT_BYTES)
     throw new Error("Invalid answer prompt");
   if (typeof custom !== "string" || new TextEncoder().encode(custom).length > CUSTOM_PROMPT_BYTES)
@@ -1033,19 +1147,27 @@ export async function writeAnswer(env, prompt, now = new Date(), researchRequire
   facts = typeof facts === "string" ? knowledgeWithin(facts) : "";
   const offer = operation === "answer" && Array.isArray(actions) && actions.length
     && new TextEncoder().encode(JSON.stringify(actions)).length <= ACTIONS_MAX_BYTES ? actions : null;
+  // What Gemini is offered if it answers instead (fallback): the tools today's rules chose (LOR-844), or the same.
+  const fallen = fallback === undefined ? undefined : operation === "answer" && Array.isArray(fallback) && fallback.length
+    && new TextEncoder().encode(JSON.stringify(fallback)).length <= ACTIONS_MAX_BYTES ? fallback : null;
   // layered: her spoken words and the written answer (splitLayers); onSay hears the spoken words as soon as they're
   // written. A picture asked again without one (below) says them once.
   let said = false;
-  const sayOnce = typeof onSay === "function" ? say => { if (!said) { said = true; onSay(say); } } : null;
-  const ask = (withPicture, actions = offer, { marking = mull, mulling = null } = {}) => generate(env, prompt, grounded, operation, persona, style,
-    { picture: withPicture, closeup: withPicture ? close : null, closeupOf, facts, help: compact ? "" : help, dispute, custom: compact ? "" : custom, memories, longMemory,
+  const sayOnce = typeof onSay === "function" ? (say, calling) => { if (!said) { said = true; onSay(say, calling); } } : null;
+  // disputable: after an answer of hers, with no dispute the word rules saw: pushback may be marked (DISPUTE_RULE).
+  const ask = (withPicture, actions = offer, { marking = mull, mulling = null, asked = prompt, disputed = dispute } = {}) => generate(env, asked, grounded, operation, persona, style,
+    { picture: withPicture, closeup: withPicture ? close : null, closeupOf, facts, help: compact ? "" : help, dispute: disputed,
+      disputes: Boolean(disputable) && marking && !dispute, custom: compact ? "" : custom, memories, longMemory,
       lite, smarter, actions, now, layered, onSay: mulling ? null : sayOnce, away: away ? (away === "none" ? "none" : "last") : false,
-      mull: marking, mulling });
+      mull: marking, mulling, fallback: actions === offer ? fallen : undefined,
+      // fallbackPrompt: what Gemini is asked instead of the prompt (today's, beside her read tools'), with any note after.
+      geminiPrompt: typeof fallbackPrompt === "string" && asked.startsWith(prompt) ? fallbackPrompt + asked.slice(prompt.length) : null });
   let offerCost = 0;
   // A hard question (MULL_RULE): her first reply, only her line (first), and how it was answered (route, for the answer
   // log): "mulled" thought through; "mull-fallback" thinking failed or ran out of time, so answered as usual after her
   // line; "mull-spent" the plan's few a month were used (onMull), so answered as usual, without a line.
-  let first = null, route = null, mullCost = 0;
+  let first = null, route = null, mullCost = 0, disputeHold = null;
+  let readText = "";
   try {
     // A picture Gemini refuses (HTTP 400, nothing to settle) never costs the question: it's asked again without one.
     response = await ask(picture).catch(error => picture && error?.status === 400 ? ask(null) : Promise.reject(error))
@@ -1055,6 +1177,19 @@ export async function writeAnswer(env, prompt, now = new Date(), researchRequire
         offerCost = (await reconcileAnswer(env, error.result, grounded, 0, now, { model: error.model })).counted;
         return ask(picture, null);
       });
+    // Pushback she marked (DISPUTE_RULE) is asked again as a correction: thinking on, DISPUTE_SYSTEM's words, as a
+    // dispute feedbackKind sees is ("dispute-mark" in the answer log). The first try is counted, as a refused offer's is.
+    if (response.disputed) {
+      offerCost += (await reconcileAnswer(env, response.result, grounded, 0, now, { model: response.model })).counted;
+      route = "dispute-mark";
+      // Nothing said by DISPUTE_HOLD_MS (from the question): one of her lines while she thinks it over again.
+      const wait = sayOnce ? setTimeout(() => {
+        if (said) return;
+        disputeHold = disputeLine(prompt);
+        sayOnce(disputeHold);
+      }, Math.max(0, started + holdAfter(env) - Date.now())) : null;
+      response = await ask(picture, offer, { marking: false, disputed: "correction" }).finally(() => clearTimeout(wait));
+    }
     if (response.mulled) {
       first = response;
       if (onMull && !(await Promise.resolve().then(onMull).catch(() => false))) {
@@ -1064,13 +1199,33 @@ export async function writeAnswer(env, prompt, now = new Date(), researchRequire
         // Her line goes out at once (a two-layer answer's spoken words), while she thinks it through.
         sayOnce?.(first.mulled);
         route = "mulled";
-        response = await ask(picture, null, { marking: false, mulling: { hold: first.mulled } }).catch(async error => {
+        response = await ask(picture, offer, { marking: false, mulling: { hold: first.mulled } }).catch(async error => {
           console.warn(`companion answer: thinking it through, so as usual: ${error?.message || error}`);
           route = "mull-fallback";
           if (error?.result) mullCost = (await reconcileAnswer(env, error.result, grounded, 0, now, { model: error.model })).counted;
           return ask(picture, offer, { marking: false });
         });
       }
+    }
+    // A read of hers (reads: {names, of(call)}, LOR-844 step 5: their gear, bags or talents taken, lib/willo-goals.js
+    // readOf) is answered here: she's asked once more with what it read, without the read tools. The first try is
+    // counted, as a refused offer's is.
+    const read = response.call && !response.rules && !first && reads?.names?.includes(response.call.name)
+      ? reads.of(response.call) : null;
+    if (read) {
+      offerCost += (await reconcileAnswer(env, response.result, grounded, 0, now, { model: response.model })).counted;
+      const others = offer.filter(d => !reads.names.includes(d.name));
+      response = await ask(picture, others.length ? others : null, { marking: false, asked: `${prompt}\n\n${read}` });
+      readText = read;
+    }
+    // A call the caller can't run as it stands (recheck: why, or null; LOR-844 step 2: a line their notebook hasn't)
+    // goes back to her once, told why, to call it again rightly or ask them which, instead of the caller's fixed line.
+    // Never on the fallback's rules, which keep theirs. The first try is counted, as a refused offer's is.
+    const why = response.call && !response.rules && !first && typeof recheck === "function" ? recheck(response.call) : null;
+    if (why) {
+      offerCost += (await reconcileAnswer(env, response.result, grounded, 0, now, { model: response.model })).counted;
+      response = await ask(picture, offer, { marking: false,
+        asked: `${prompt}\n\n${why.note || (why.unasked ? unaskedNote(response.call) : retryNote(response.call, why))}` });
     }
   } catch (error) {
     // Failed calls keep their reservation; returned usage still counts known charges and research excess.
@@ -1091,7 +1246,7 @@ export async function writeAnswer(env, prompt, now = new Date(), researchRequire
     { model: first.model, later })).counted : 0;
   const counted = answered + offerCost + lined + mullCost;
   // Her line, then the answer that carries on from it: what she says first is where the written answer starts.
-  const hold = first && route !== "mull-spent" ? first.mulled : null;
+  const hold = first && route !== "mull-spent" ? first.mulled : disputeHold;
   if (hold) {
     response.answer = `${hold} ${response.answer}`;
     if (response.say) response.say = hold;
@@ -1109,5 +1264,5 @@ export async function writeAnswer(env, prompt, now = new Date(), researchRequire
     sources: [], web_sources: metadata.web_sources, web_search: metadata.web_search, model: response.model, usage, model_ms,
     counted, ...(response.call ? { call: response.call } : {}), ...(response.say && !grounded ? { say: response.say } : {}),
     ...(response.fellBack ? { fellBack: true } : {}), ...(response.skipped ? { skipped: true } : {}),
-    ...(route ? { route } : {}) };
+    ...(route ? { route } : {}), ...(response.rules ? { rules: true } : {}), ...(readText ? { read: readText } : {}) };
 }

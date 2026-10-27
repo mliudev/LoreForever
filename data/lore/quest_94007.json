@@ -1,0 +1,70 @@
+{
+ "key": "quest:94007",
+ "type": "quest",
+ "name": "Taming the Beast",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   94007
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "Quel'ana Quickgale in Valanaar can teach you to tame a beast. Your time in the highlands has prepared you to seek an animal companion.",
+ "sections": [
+  {
+   "title": "A New Companion",
+   "body": "You have grown more comfortable in the highlands, and your host believes you are ready to seek an animal companion. Go to Valanaar and speak with Quel'ana Quickgale; he will begin teaching you the art of beast taming.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who teaches beast taming?",
+   "aliases": [
+    "who is Quel'ana Quickgale",
+    "beast taming teacher"
+   ],
+   "answer": "Quel'ana Quickgale teaches you the art of beast taming in Valanaar."
+  },
+  {
+   "q": "Where do I find Quel'ana Quickgale?",
+   "aliases": [
+    "where is Quel'ana",
+    "Valanaar taming"
+   ],
+   "answer": "Quel'ana Quickgale is in Valanaar, the port to the southeast."
+  },
+  {
+   "q": "Why am I going to Valanaar?",
+   "aliases": [
+    "why Valanaar",
+    "taming beast quest"
+   ],
+   "answer": "You are sent to Valanaar to speak with Quel'ana Quickgale and begin learning beast taming."
+  },
+  {
+   "q": "What am I learning?",
+   "aliases": [
+    "what is beast taming",
+    "animal companion"
+   ],
+   "answer": "Quel'ana Quickgale will teach you how to tame a beast so you can seek an animal companion."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "animal companion",
+  "beast taming",
+  "highlands",
+  "quel'ana quickgale",
+  "taming the beast",
+  "valanaar"
+ ],
+ "related": [],
+ "style": 1,
+ "attribution": [
+  "In-game quest text: Taming the Beast"
+ ]
+}

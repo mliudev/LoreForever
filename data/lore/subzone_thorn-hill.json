@@ -7,11 +7,11 @@
  "meta": {
   "wiki": "Thorn Hill"
  },
- "summary": "Thorn Hill is a fortified Razormane quilboar enclave nestled on the high ridges east of the Crossroads in the Barrens. The settlement serves as a forward base for quilboar warbands raiding Horde supply lines traveling between Durotar and the interior savanna.",
+ "summary": "Razormane warbands strike Horde supply lines from Thorn Hill, east of the Crossroads. The fortified quilboar camp holds the high ridges between Durotar and the Barrens interior.",
  "sections": [
   {
    "title": "A Thorn in the Horde's Side",
-   "body": "Perched on the north face of the rugged hills between Durotar and the Crossroads, Thorn Hill commands a watchful vantage over the primary trade corridors of the Barrens. The settlement is home to a dangerous gathering of the Razormane tribe, including hunters, trained wolves, and earth-shaping geomancers. Guided by mystics like Elder Mystic Razorsnout, the quilboar here have escalated their attacks against passing Horde supply caravans. Because this mountain camp sits so close to vital transit routes, the guards at the Crossroads consider Thorn Hill one of the most immediate military hazards in the central savanna.",
+   "body": "Thorn Hill overlooks the roads between Durotar and the Crossroads. The Razormane gather here with hunters, trained wolves, and geomancers who shape the earth. Elder Mystic Razorsnout guides the quilboar as their attacks on Horde supply caravans grow bolder. The camp sits close to vital routes, making it one of the Crossroads guards' most immediate threats in the central savanna.",
    "spoiler": 0
   }
  ],
@@ -23,7 +23,7 @@
     "where is thorn hill",
     "what is this camp"
    ],
-   "answer": "Thorn Hill is a major encampment of Razormane quilboar nestled on the mountain slopes in the northern Barrens, directly between the Crossroads and the border of Durotar."
+   "answer": "Thorn Hill is a Razormane camp on the northern Barrens ridges between the Crossroads and Durotar."
   },
   {
    "q": "Who leads the quilboar at Thorn Hill?",
@@ -31,7 +31,7 @@
     "thorn hill boss",
     "who rules thorn hill"
    ],
-   "answer": "The most prominent figure among the quilboar here is Elder Mystic Razorsnout, a Razormane mystic who guides the tribe's warbands."
+   "answer": "Elder Mystic Razorsnout guides the Razormane warbands at Thorn Hill."
   },
   {
    "q": "Why is the Horde fighting the quilboar here?",
@@ -40,7 +40,7 @@
     "horde caravan raids",
     "crossroads quilboar"
    ],
-   "answer": "Razormane warbands based at Thorn Hill regularly ambush Horde supply caravans making the trek across the border from Durotar to the Crossroads, forcing local Horde authorities to dispatch warriors to clear the ridges."
+   "answer": "Razormane warbands ambush Horde supply caravans traveling from Durotar to the Crossroads, so Horde authorities send warriors to clear the ridges."
   },
   {
    "q": "What kinds of enemies live in Thorn Hill?",
@@ -48,13 +48,13 @@
     "thorn hill mobs",
     "quilboar types thorn hill"
    ],
-   "answer": "The encampment is defended by Razormane geomancers, hunters, trained wolves, and ferocious berserkers."
+   "answer": "Razormane geomancers, hunters, trained wolves, and berserkers defend the camp."
   }
  ],
  "angles": [
   {
    "target": "faction:Horde",
-   "text": "Securing the road between the Crossroads and Durotar is vital for the fledgling Horde, making the aggressive raiders at Thorn Hill an urgent target for new warriors."
+   "text": "As a Horde warrior, you can help secure the road between the Crossroads and Durotar by confronting the raiders at Thorn Hill."
   }
  ],
  "keywords": [
@@ -74,5 +74,6 @@
  ],
  "attribution": [
   "Thorn Hill"
- ]
+ ],
+ "style": 1
 }

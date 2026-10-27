@@ -17,16 +17,16 @@
   "wiki": "Weapons of Elunite",
   "chain": []
  },
- "summary": "Weapons of Elunite is the culmination of an early rite of passage for night elf warriors in Darnassus. After recovering raw ore blessed by Elune, the warrior brings the material to the skilled smith Mathiel to be forged into arms fit for a defender of Kalimdor.",
+ "summary": "In Darnassus, Weapons of Elunite brings a young warrior's early rite of passage to its close. After recovering ore blessed by Elune, you bring it to Mathiel to forge arms for a defender of Kalimdor.",
  "sections": [
   {
    "title": "A Sacred Forge",
-   "body": "Night elf warriors carry a sacred duty to defend Teldrassil and the kaldorei people. Rather than relying on mundane steel alone, those who show promise are sent to gather elunite, a mineral imbued with the grace of the Moon Goddess. Fashioning such weapons requires an artisan who understands both metalcraft and the reverence owed to Elune's gifts.",
+   "body": "Night elf warriors defend Teldrassil and the kaldorei people. Promising young warriors gather elunite, a mineral blessed by the Moon Goddess, rather than relying on mundane steel alone. Its ore calls for a smith skilled in metalcraft and mindful of Elune's gift.",
    "spoiler": 0
   },
   {
    "title": "Mathiel's Craft",
-   "body": "Based in the capital city of Darnassus, Smith Mathiel takes great pride in shaping the blessed ore into arms of war. For Mathiel, working with elunite is not simply routine metallurgy but an honor. Upon receiving the ore, he crafts a selection of implements tailored to the warrior's style, rewarding their service with arms blessed by their goddess.",
+   "body": "Smith Mathiel works in Darnassus, shaping blessed elunite into weapons of war. He considers the work an honor, not routine metalcraft. When you bring him the ore, he fashions arms to suit your style and rewards your service with weapons blessed by your goddess.",
    "spoiler": 0
   }
  ],
@@ -38,7 +38,7 @@
     "why do this quest",
     "warrior level 10 darnassus"
    ],
-   "answer": "This quest marks the completion of the early warrior trial based in Darnassus. After securing rare elunite ore, the warrior delivers it to Smith Mathiel, who crafts reliable weapons imbued with the essence of Elune to aid in their journey across Kalimdor."
+   "answer": "This rite of passage for a young warrior in Darnassus reaches its end when you bring elunite ore to Smith Mathiel. He forges weapons blessed by Elune to aid your journey across Kalimdor."
   },
   {
    "q": "Who is Mathiel?",
@@ -47,7 +47,7 @@
     "who is mathiel",
     "darnassus smith"
    ],
-   "answer": "Mathiel is a skilled night elf armorsmith and weaponsmith residing in Darnassus. He possesses the specialized knowledge needed to forge elunite ore into finely balanced armaments for the city's burgeoning defenders."
+   "answer": "Mathiel is a skilled night elf smith who lives in Darnassus. He knows how to forge elunite into balanced arms for the city's defenders."
   },
   {
    "q": "What is elunite?",
@@ -55,7 +55,7 @@
     "what is elunite ore",
     "elunite lore"
    ],
-   "answer": "Elunite is a rare mineral sacred to the night elves, believed to be infused with the luminescence and favor of the Moon Goddess, Elune. Because of its divine nature, artisans consider shaping it into weapons a solemn honor."
+   "answer": "Elunite is a rare mineral sacred to the night elves, believed to hold Elune's luminescence and favor. Shaping it into weapons is a solemn honor for a smith."
   },
   {
    "q": "Who can undertake this quest?",
@@ -63,7 +63,7 @@
     "who gets weapons of elunite",
     "is this warrior only"
    ],
-   "answer": "This quest is reserved strictly for Alliance warriors training around Darnassus who have completed the preliminary tasks to locate and gather elunite for Smith Mathiel."
+   "answer": "This undertaking is for Alliance warriors training near Darnassus who have completed the earlier work of finding and gathering elunite for Smith Mathiel."
   },
   {
    "q": "Where does this quest take place?",
@@ -71,7 +71,7 @@
     "weapons of elunite location",
     "where is mathiel"
    ],
-   "answer": "The quest is turned in directly to Smith Mathiel within the night elven capital of Darnassus, located high in the boughs of the World Tree, Teldrassil."
+   "answer": "You bring the ore to Smith Mathiel in Darnassus, the night elf capital high in the boughs of Teldrassil."
   },
   {
    "q": "Why does Mathiel thank the adventurer?",
@@ -79,21 +79,21 @@
     "why is mathiel honored",
     "mathiel dialogue"
    ],
-   "answer": "Mathiel considers working with elunite both a sacred honor and a personal pleasure. Shaping an ore tied to Elune is a privilege few smiths receive, making the warrior's delivery a boon for the craftsman as well."
+   "answer": "Mathiel thanks you because shaping elunite is both a sacred honor and a personal pleasure. Few smiths receive the privilege of working ore tied to Elune, so your delivery is a boon to him."
   }
  ],
  "angles": [
   {
    "target": "class:Warrior",
-   "text": "This quest represents an essential early rite of martial service for young kaldorei warriors, rewarding their dedication with dependable, Elune-blessed weaponry."
+   "text": "As a young kaldorei warrior, you mark an early rite of martial service and receive dependable weapons blessed by Elune."
   },
   {
    "target": "race:NightElf",
-   "text": "The forging of elunite reflects how night elf society weaves reverence for the Moon Goddess directly into the practical craft of war and defense."
+   "text": "As a night elf, you see reverence for the Moon Goddess joined to the practical craft of war and defense."
   },
   {
    "target": "profession:Blacksmithing",
-   "text": "Smith Mathiel's craft demonstrates the delicate balance between conventional metalworking and the treatment of divine materials like elunite."
+   "text": "As a blacksmith, you see Mathiel balance ordinary metalwork with the care needed to shape sacred elunite."
   }
  ],
  "keywords": [
@@ -113,5 +113,6 @@
  ],
  "attribution": [
   "Weapons of Elunite"
- ]
+ ],
+ "style": 1
 }

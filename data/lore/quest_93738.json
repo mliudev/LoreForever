@@ -1,0 +1,84 @@
+{
+ "key": "quest:93738",
+ "type": "quest",
+ "name": "The Broken Construct",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   93738
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "A Windshaper asks you to report what you learned about the broken construct to Ayessa Dawnsinger. The High Order\u2019s work with wind spirit magic has drawn concern.",
+ "sections": [
+  {
+   "title": "Return to Ayessa",
+   "body": "The Windshaper wants you to take what you learned to Ayessa Dawnsinger in Valanaar. The High Order has been testing the Windshapers\u2019 patience by experimenting with wind spirit magic and touching knowledge under Windshaper purview. Ayessa can decide what should happen next.",
+   "spoiler": 0
+  },
+  {
+   "title": "A Troubling Name",
+   "body": "Ayessa believes the High Order was responsible for the construct breaking down. She knows Belathaan as Valennia Stormfist\u2019s cousin, and says his mother was a Windshaper. His involvement leaves her disappointed, and she needs time to reflect.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who should I report to?",
+   "aliases": [
+    "report to ayessa",
+    "where report",
+    "ayessa daw sinsinger"
+   ],
+   "answer": "Report what you learned to Ayessa Dawnsinger in Valanaar."
+  },
+  {
+   "q": "Why are the Windshapers concerned about the High Order?",
+   "aliases": [
+    "high order trouble",
+    "why windshapers mad",
+    "high order wind magic"
+   ],
+   "answer": "The High Order has been experimenting with wind spirit magic and meddling with knowledge under Windshaper purview, despite being forbidden to do so."
+  },
+  {
+   "q": "What happened to the construct?",
+   "aliases": [
+    "broken construct",
+    "construct broke",
+    "why construct broken"
+   ],
+   "answer": "Ayessa believes the High Order was responsible for the construct breaking down."
+  },
+  {
+   "q": "Who is Belathaan?",
+   "aliases": [
+    "belathaan",
+    "belathaan family",
+    "belathaan cousin"
+   ],
+   "answer": "Belathaan is Valennia Stormfist\u2019s cousin, and his mother was a Windshaper."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "ayessa dawnsinger",
+  "belathaan",
+  "broken construct",
+  "high order",
+  "valanaar",
+  "valennia stormfist",
+  "wind spirits",
+  "windshaper"
+ ],
+ "related": [
+  "npc:ayessa-dawnsinger",
+  "quest:92596"
+ ],
+ "style": 1,
+ "attribution": [
+  "In-game quest text: The Broken Construct"
+ ]
+}

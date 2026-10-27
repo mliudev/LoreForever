@@ -1,16 +1,16 @@
 <!doctype html>
-<!-- The creator terms below: Mike's go on 2026-10-18 (as written; not legal advice). Keep in step with lib/referrals.js -->
+<!-- The creator terms below summarize Patrick's Creator Partnership Agreement (LOR-836). Keep in step with lib/referrals.js -->
 <html lang="en">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Creator program - Lore Forever</title>
-<meta name="description" content="Show Willo to your audience and earn 60% of the first month of every subscriber you bring. Your audience gets 15% off.">
+<meta name="description" content="Partner with Willo: earn 60% to 90% of the first payment of every subscriber you bring, and get Champion free. Your audience gets 15% off.">
 <link rel="canonical" href="https://loreforeverwow.com/creators">
 <meta property="og:site_name" content="Lore Forever">
 <meta property="og:type" content="website">
 <meta property="og:title" content="Lore Forever creator program">
-<meta property="og:description" content="Show Willo to your audience and earn 60% of the first month of every subscriber you bring. Your audience gets 15% off.">
+<meta property="og:description" content="Partner with Willo: earn 60% to 90% of the first payment of every subscriber you bring, and get Champion free. Your audience gets 15% off.">
 <meta property="og:url" content="https://loreforeverwow.com/creators">
 <meta property="og:image" content="https://loreforeverwow.com/img/social-card.png">
 <meta property="og:image:width" content="1200">
@@ -18,7 +18,7 @@
 <meta property="og:image:alt" content="Lore Forever, the WoW Forever lore add-on">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="Lore Forever creator program">
-<meta name="twitter:description" content="Show Willo to your audience and earn 60% of the first month of every subscriber you bring. Your audience gets 15% off.">
+<meta name="twitter:description" content="Partner with Willo: earn 60% to 90% of the first payment of every subscriber you bring, and get Champion free. Your audience gets 15% off.">
 <meta name="twitter:image" content="https://loreforeverwow.com/img/social-card.png">
 <meta name="twitter:image:alt" content="Lore Forever, the WoW Forever lore add-on">
 <link rel="icon" href="/img/logo.svg" type="image/svg+xml">
@@ -29,6 +29,17 @@
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Alegreya+Sans:wght@400;500;700&family=Cinzel:wght@600;700&display=swap">
 <link rel="stylesheet" href="/style.css?v=20261026a">
 <link rel="stylesheet" href="/pages.css?v=20261026a">
+<!-- The payout details form (this page only, so the shared stylesheet's cached copy needn't change). -->
+<style>
+.cp-form { display: flex; flex-wrap: wrap; align-items: center; gap: 8px 12px; margin: 10px 0 4px; }
+.cp-form .cp-how { display: flex; flex-wrap: wrap; gap: 4px 16px; flex-basis: 100%; margin: 0; padding: 0; border: 0; }
+.cp-form .cp-how legend { padding: 0; margin-bottom: 4px; color: var(--muted); font-size: 0.9rem; }
+.cp-form input[type=email] { flex: 1 1 220px; min-width: 0; max-width: 100%; font: inherit; font-size: 1rem; padding: 8px 10px; border-radius: 4px; }
+.cp-saved { color: var(--muted); font-size: 0.9rem; }
+.cp-bar { height: 6px; margin: 8px 0 2px; border-radius: 3px; background: var(--panel-line); overflow: hidden; }
+.cp-bar span { display: block; height: 100%; min-width: 2px; background: var(--gold); }
+.cp-form label[for] { flex-basis: 100%; color: var(--muted); font-size: 0.9rem; }
+</style>
 <script src="/header.js?v=20261026a" defer></script>
 <script src="/js/share.js" defer></script>
 </head>
@@ -49,19 +60,21 @@
 </header>
 
 
-<!-- The creator program (lib/referrals.js, functions/api/creators/[action].js; LOR-503, CC-72; Patrick's Coaching 74
-     spec): what it is, the apply form for a signed-in account, an approved creator's dashboard (their link, clicks,
-     sign-ups, activated, paying, commission and payouts), and the creator terms. The numbers come from the site
-     (GET /api/creators/me: program, the creator's own terms), so this page never states a rate the code doesn't pay.
-     Public since Mike's go on the terms (2026-10-18): in the footer and the sitemap. -->
+<!-- The creator program (lib/referrals.js, functions/api/creators/[action].js; LOR-503, CC-72, LOR-836): what it is,
+     the apply form for a signed-in account, an approved creator's dashboard (their link and code, clicks, sign-ups,
+     Conversions, their tier and how many more to the next, commission, payout details and payouts), and a summary of
+     the terms of Patrick's Willo Creator Partnership Agreement (v0, 10/24; the signed agreement is what counts, and
+     its text is Patrick's). The numbers come from the site (GET /api/creators/me: program, the creator's own terms),
+     so this page never states a rate or a date the code doesn't use. -->
 <main class="bw-page">
   <div class="h-sky bw-sky" aria-hidden="true"></div>
   <div class="h-wrap bw-in vp-page vp-doc">
   <h1>Bring your audience to Willo</h1>
-  <p class="pitch">Play WoW Forever on stream or make videos about it, and like Willo? Show her to your audience.
-    Every viewer who starts a plan through your link or code earns you <strong data-rate>60%</strong> of their first
-    month<span data-perk>, and they get <strong data-off>15%</strong> off it</span>. No sponsorship deal and no script:
-    try her first, and join if you like her.</p>
+  <p class="pitch">Play WoW Forever on stream or make videos about it, and like Willo? Partner with us. Every viewer who
+    starts a plan through your link or code earns you <strong data-rate>60%</strong> of their first payment, rising to
+    <strong data-top>90%</strong> as more of your audience joins<span data-perk>, and they get <strong data-off>15%</strong>
+    off it</span>. You also get Willo's Champion plan free while we work together. No script: you say what you really
+    think.</p>
 
   <!-- An approved creator's dashboard (creatorDashboard). -->
   <section id="cp-dash" data-cp hidden aria-labelledby="cp-dash-title">
@@ -72,29 +85,28 @@
       <button class="btn-small btn-small-alt" type="button" id="cp-code-copy">Copy code</button></p>
     <p class="vp-note" id="cp-terms"></p>
     <ul class="cp-tiles" id="cp-tiles" aria-label="What your link brought"></ul>
+    <div class="cp-box" aria-labelledby="cp-tier-title">
+      <h3 id="cp-tier-title">Your share</h3>
+      <p id="cp-tier"></p>
+      <div class="cp-bar" id="cp-bar" role="img" hidden><span id="cp-bar-fill"></span></div>
+      <p class="vp-note" id="cp-tier-next"></p>
+    </div>
     <div class="cp-box" aria-labelledby="cp-pay-title">
       <h3 id="cp-pay-title">Payouts</h3>
       <p id="cp-money"></p>
       <p class="vp-note" id="cp-next"></p>
       <p class="vp-note" id="cp-last" hidden></p>
-      <div id="cp-connect" hidden>
-        <form class="cp-form" id="cp-connect-form">
-          <label for="cp-country">Where you live</label>
-          <select id="cp-country">
-            <option value="US">United States</option><option value="CA">Canada</option><option value="GB">United Kingdom</option>
-            <option value="IE">Ireland</option><option value="DE">Germany</option><option value="FR">France</option>
-            <option value="ES">Spain</option><option value="IT">Italy</option><option value="NL">Netherlands</option>
-            <option value="BE">Belgium</option><option value="AT">Austria</option><option value="SE">Sweden</option>
-            <option value="DK">Denmark</option><option value="FI">Finland</option><option value="NO">Norway</option>
-            <option value="PL">Poland</option><option value="PT">Portugal</option><option value="CH">Switzerland</option>
-            <option value="AU">Australia</option><option value="NZ">New Zealand</option>
-          </select>
-          <button class="btn-small" type="submit">Set up payouts with Stripe</button>
-        </form>
-        <p class="vp-note">Stripe sends the money to your bank and may ask for your ID and tax details. Somewhere else?
-          Tell us on <a href="/discord?src=creators">Discord</a> and we'll pay you by hand.</p>
-      </div>
-      <p id="cp-stripe" hidden><button class="btn-small btn-small-alt" type="button" id="cp-stripe-btn">Your payouts on Stripe</button></p>
+      <form class="cp-form" id="cp-payout-form">
+        <fieldset class="cp-how"><legend>How we pay you (in US dollars)</legend>
+          <label><input type="radio" name="method" value="paypal"> PayPal</label>
+          <label><input type="radio" name="method" value="wire"> Bank wire</label></fieldset>
+        <label for="cp-payout-email" id="cp-payout-email-label">Your PayPal email</label>
+        <input id="cp-payout-email" type="email" maxlength="254" autocomplete="email">
+        <button class="btn-small" type="submit">Save</button>
+        <span class="cp-saved" id="cp-saved" role="status" hidden>Saved</span>
+      </form>
+      <p class="vp-note" id="cp-payout-saved" hidden></p>
+      <p class="vp-note" id="cp-tax"></p>
       <p class="fb-status" id="cp-pay-status" role="status" hidden></p>
     </div>
     <h3>By month</h3>
@@ -105,17 +117,27 @@
 
   <h2>How it works</h2>
   <ol class="cp-steps">
-    <li><strong>Apply</strong> below with a link to your channel. We read every application ourselves.</li>
+    <li><strong>Apply</strong> below with a link to your channel. We read every application ourselves, and creators we
+      partner with sign our Creator Partnership Agreement.</li>
     <li><strong>Get your link</strong>, like <code>loreforeverwow.com/w/yourname</code>, <span data-perk>your code,
-      like <code>YOURNAME</code>,</span> and a dashboard on this page with your clicks, sign-ups and earnings.</li>
+      like <code>YOURNAME</code>,</span> a free Champion plan, and a dashboard on this page with your clicks, sign-ups,
+      paying viewers and earnings.</li>
     <li data-perk><strong>Your audience saves <span data-off>15%</span></strong> on their first month. Your link takes
       it off at checkout, and anyone can type your code there instead.</li>
-    <li><strong>Earn <span data-rate>60%</span> of each subscriber's first month.</strong> When someone who came
-      through your link<span data-perk> or your code</span> starts a plan, you get that share of what they pay for their
-      first month, before tax. Later months are ours.</li>
-    <li><strong>Get paid monthly.</strong> A commission can be paid <span data-hold>30</span> days after the payment
-      it comes from, once you're owed at least <span data-min>$10</span>.</li>
+    <li><strong>Earn <span data-rate>60%</span> to <span data-top>90%</span> of each new subscriber's first
+      payment.</strong> The more people you bring in during your term, the bigger your share.</li>
+    <li><strong>Get paid after each 30-day cycle</strong>, by PayPal or bank wire, once a commission is
+      <span data-hold>30</span> days old and you're owed at least <span data-min>$10</span>.</li>
   </ol>
+
+  <h3>Your share</h3>
+  <div class="cp-table-wrap"><table class="cp-table">
+    <thead><tr><th>Conversions during your term</th><th>Your share of each one</th></tr></thead>
+    <tbody id="cp-tiers">
+      <tr><td>1 to 49</td><td>60%</td></tr><tr><td>50 to 99</td><td>65%</td></tr><tr><td>100 to 499</td><td>70%</td></tr>
+      <tr><td>500 to 999</td><td>80%</td></tr><tr><td>1,000 or more</td><td>90%</td></tr></tbody></table></div>
+  <p class="vp-note">The higher rate starts with the Conversion that reaches it: your 50th and every one after it earn
+    65%. Earlier ones keep the rate they earned.</p>
 
   <!-- Apply (applyCreator): signed in; one open application per account. -->
   <section id="cp-apply" aria-labelledby="cp-apply-title">
@@ -142,36 +164,37 @@
   </section>
 
   <h2 id="terms">Creator terms</h2>
-  <!-- Mike said go on these as written (2026-10-18). Still worth his look, later: the rate and first-month rule (lib/referrals.js
-       CREATOR_DEFAULTS, notePayment), the 30-day hold and $10 minimum (PAYOUTS), taxes (Stripe Connect Express collects
-       tax details and can file 1099s for US creators, a paid Stripe option), disclosure (FTC in the US), paying
-       creators outside the US (Stripe's cross-border payouts), and whether Stripe Managed Payments allows transfers to
-       connected accounts. -->
+  <!-- A plain summary of Patrick's Willo Creator Partnership Agreement (v0, 2026-10-24; LOR-836). The signed agreement
+       is what counts; keep this in step with it and with lib/referrals.js (CREATOR_TIERS, CREATOR_TERM, PAYOUTS). -->
+  <p>Creators we partner with sign our Creator Partnership Agreement. In short:</p>
   <ul>
-    <li><strong>Who can join.</strong> Creators we approve. We can say no, and we can end the program, or your part in
-      it, at any time; we tell you first, and what you earned before that is still paid, unless it broke these terms.</li>
-    <li><strong>What counts.</strong> Someone counts for you when they open your link, then make their Lore Forever
-      account or connect Willo for the first time within 30 days<span data-perk>, or when they type your code at
-      checkout for their first plan</span>. People who already used Willo don't count, and neither does anyone who came
-      through another link first.</li>
+    <li><strong>Term.</strong> <span data-days>90</span> days from your start date, as three 30-day payout cycles. It
+      doesn't renew by itself; we can agree to extend it in writing.</li>
+    <li><strong>Your free plan.</strong> Champion, free for your term, for your own use, with the same limits as a
+      paying account. It's a benefit from us, so say so when you talk about Willo.</li>
+    <li><strong>What counts.</strong> A Conversion is someone who starts a paid plan for the first time through your
+      link<span data-perk> or code</span>, during your term, whose first payment went through and wasn't refunded. You,
+      accounts you control, and duplicate or fake accounts don't count.</li>
     <li data-perk><strong>What your audience gets.</strong> <span data-off>15%</span> off their first month of a plan,
-      once per account, with your link or your code. It doesn't add to other offers: while another offer is on, they
-      get that one instead, and you still earn on what they pay.</li>
-    <li><strong>What you earn.</strong> <span data-rate>60%</span> of what they pay for their first month of a plan,
-      before tax: their first full month, and any days or upgrade they paid for before it ends. Later months, and
-      anything else they buy, are ours.</li>
-    <li><strong>Refunds and disputes.</strong> If a payment is refunded or disputed, its commission is taken back, from
-      your next payout if it was paid already.</li>
-    <li><strong>Not allowed.</strong> Signing up yourself or accounts you control, paying for someone with your own
-      card, ads that bid on our names, spam, saying Willo is made or endorsed by Blizzard, or promising viewers money
-      back. Commissions from any of these don't count.</li>
-    <li><strong>Say it's a partnership.</strong> Tell your audience your link earns you money, wherever your platform or
-      the law asks you to (in the US, the FTC's endorsement rules).</li>
-    <li><strong>Payouts.</strong> Once a month, in US dollars, through Stripe once you've set up payouts on this page, or
-      by hand until then. A commission can be paid <span data-hold>30</span> days after its payment; we pay once you're
-      owed at least <span data-min>$10</span>, and less carries over. Taxes on what you earn are yours.</li>
-    <li><strong>Changes.</strong> We may change the rate or these terms. A change only applies to people who join
-      through your link after we've told you about it.</li>
+      once per account, with your link or your code.</li>
+    <li><strong>What you earn.</strong> Your share (the table above) of what each Conversion paid in their first
+      payment, after the discount and without sales tax or VAT. We cover the payment fees. Renewals, upgrades and later
+      payments don't earn a commission.</li>
+    <li><strong>Payouts.</strong> In US dollars, by PayPal or bank wire, within 7 days after each 30-day cycle ends.
+      Each commission can be paid <span data-hold>30</span> days after its payment, and we pay once you're owed at
+      least <span data-min>$10</span>; less carries over to the next payout, after your term too. We can't pay you
+      until you've given us your payout details.</li>
+    <li><strong>Refunds and chargebacks.</strong> We take that commission back, from your next payout if it was paid
+      already.</li>
+    <li><strong>Taxes.</strong> Yours. US creators send us a Form W-9, and everyone else a Form W-8BEN.</li>
+    <li><strong>Say it's a partnership.</strong> Every post, video or stream about Willo says, at the start and in
+      words people can read or hear, that it's a partnership, that you may earn a commission and that you got free
+      access. Say what you really think.</li>
+    <li><strong>Not allowed.</strong> Using your own code for yourself, fake or duplicate accounts, paying people to
+      subscribe, spam, ads that bid on our names, look-alike accounts, saying Willo is made or endorsed by Blizzard, or
+      false claims about Willo. Conversions from any of these don't count.</li>
+    <li><strong>Ending.</strong> Either of us can end it at any time. From then your link and code stop earning and
+      your free plan ends; everything you earned before is still paid on the usual schedule.</li>
     <li><strong>Our names.</strong> You may use the Lore Forever and Willo names, and screenshots of them, to show
       Willo to your audience. These terms sit alongside the site's <a href="/terms">Terms</a>.</li>
   </ul>
@@ -183,7 +206,8 @@
   const $ = id => document.getElementById(id);
   const usd = cents => `$${((cents || 0) / 100).toFixed(2)}`;
   const n0 = n => (n || 0).toLocaleString("en-US");
-  const day = iso => new Date(iso).toLocaleDateString(undefined, { month: "long", day: "numeric", year: "numeric", timeZone: "UTC" });
+  const day = iso => new Date(iso.length === 10 ? iso + "T00:00:00Z" : iso).toLocaleDateString(undefined,
+    { month: "long", day: "numeric", year: "numeric", timeZone: "UTC" });
   const monthName = key => new Date(key + "-01T00:00:00Z").toLocaleDateString(undefined, { month: "long", year: "numeric", timeZone: "UTC" });
   const say = (id, text, good) => { const el = $(id); el.textContent = text || ""; el.hidden = !text; el.classList.toggle("fb-good", Boolean(good)); };
   const post = async (url, body) => {
@@ -194,39 +218,71 @@
   };
   // The program's numbers, from the site, wherever the page states them.
   function numbers(p, mine) {
-    const rate = mine?.sharePct ?? p.sharePct, off = mine?.discount ?? p.discount ?? 0;
+    const tiers = p.tiers || [], off = mine?.discount ?? p.discount ?? 0;
+    const rate = Math.max(mine?.sharePct ?? 0, tiers[0]?.pct ?? p.sharePct);
     document.querySelectorAll("[data-rate]").forEach(el => { el.textContent = `${rate}%`; });
+    if (tiers.length) document.querySelectorAll("[data-top]").forEach(el => { el.textContent = `${tiers.at(-1).pct}%`; });
     document.querySelectorAll("[data-off]").forEach(el => { el.textContent = `${off}%`; });
     document.querySelectorAll("[data-perk]").forEach(el => { el.hidden = !(off > 0); });
     document.querySelectorAll("[data-hold]").forEach(el => { el.textContent = String(p.holdDays); });
     document.querySelectorAll("[data-min]").forEach(el => { el.textContent = usd(p.minimum).replace(".00", ""); });
+    if (p.term) document.querySelectorAll("[data-days]").forEach(el => { el.textContent = String(p.term.days); });
+    if (tiers.length) $("cp-tiers").replaceChildren(...tiers.map((t, i) => {
+      const tr = document.createElement("tr"), next = tiers[i + 1];
+      for (const v of [next ? `${n0(t.from)} to ${n0(next.from - 1)}` : `${n0(t.from)} or more`, `${t.pct}%`])
+        tr.append(Object.assign(document.createElement("td"), { textContent: v }));
+      return tr;
+    }));
   }
-  function dashboard(c, stripeOn) {
+  // The payout form: the email field is the PayPal account's, or (for a wire) where we write for the bank details.
+  function payoutFields(method) {
+    const paypal = method !== "wire";
+    $("cp-payout-email-label").textContent = paypal ? "Your PayPal email" : "Where we write to you for your bank details (optional)";
+    $("cp-payout-email").required = paypal;
+  }
+  function dashboard(c) {
     $("cp-dash").hidden = false;
     $("cp-url").textContent = c.url;
     $("cp-code-line").hidden = !c.promoCode;
     $("cp-code").textContent = c.promoCode || "";
     const t = c.terms, perks = [t.discount && `${t.discount}% off their first month`, t.gift && `${n0(t.gift)} extra answers`].filter(Boolean);
-    $("cp-terms").textContent = `You earn ${t.sharePct}% of each subscriber's first ${t.months === 1 ? "month" : `${t.months} months`}.` +
-      (perks.length ? ` Your audience gets ${perks.join(" and ")}.` : "") + (c.retired ? " Your link is switched off." : "");
+    $("cp-terms").textContent = `Your term: ${day(t.termStart)} to ${day(t.termEnd)}, with Champion free.` +
+      (perks.length ? ` Your audience gets ${perks.join(" and ")}.` : "") +
+      (c.retired ? " Our agreement has ended: your link no longer earns, and what you earned is still paid." : "");
     const x = c.numbers;
-    $("cp-tiles").replaceChildren(...[[n0(x.clicks), "Clicks"], [n0(x.signups), "Sign-ups"], [n0(x.activated), "Asked Willo"],
-      [n0(x.paying), "Paying"], [usd(x.earned), "Earned"], [usd(x.paidOut), "Paid to you"]].map(([v, label]) => {
+    $("cp-tiles").replaceChildren(...[[n0(x.clicks), "Clicks"], [n0(x.signups), "Sign-ups"], [n0(x.conversions), "Paying"],
+      [usd(x.earned), "Earned"], [usd(x.paidOut), "Paid to you"]].map(([v, label]) => {
       const li = document.createElement("li");
       li.append(Object.assign(document.createElement("strong"), { textContent: v }), Object.assign(document.createElement("span"), { textContent: label }));
       return li;
     }));
-    $("cp-money").textContent = `Ready to pay: ${usd(x.payable)}. In the ${t.holdDays}-day hold: ${usd(x.held)}.` +
+    const tier = c.tier;
+    $("cp-tier").textContent = `${tier.pct}% of each new subscriber's first payment.`;
+    $("cp-tier-next").textContent = tier.next ? `${n0(tier.next.more)} more paying viewer${tier.next.more === 1 ? "" : "s"} ` +
+      `to reach ${tier.next.pct}%.` : "You're at the top share.";
+    // How far along to the next share: paying viewers so far of the one that reaches it.
+    $("cp-bar").hidden = !tier.next;
+    if (tier.next) {
+      $("cp-bar-fill").style.width = `${Math.min(100, tier.conversions / tier.next.at * 100)}%`;
+      $("cp-bar").setAttribute("aria-label", `${n0(tier.conversions)} of ${n0(tier.next.at)} paying viewers`);
+    }
+    $("cp-money").textContent = `Ready to pay: ${usd(x.payable)}. On hold for ${t.holdDays} days in case of refunds: ${usd(x.held)}.` +
       (x.reversed ? ` Taken back for refunds: ${usd(x.reversed)}.` : "");
-    const p = c.payouts;
-    $("cp-next").textContent = `Next payout: ${day(p.next)}, if at least ${usd(t.minimum)} is ready by then.`;
+    const p = c.payouts, short = d => new Date(d + "T00:00:00Z").toLocaleDateString(undefined, { month: "long", day: "numeric", timeZone: "UTC" });
+    $("cp-next").textContent = `Next payout: by ${short(p.cycle.runBy)}, if at least ${usd(t.minimum).replace(".00", "")} is ready ` +
+      `on ${short(p.cycle.endDay)}.`;
     $("cp-last").hidden = !p.last;
-    if (p.last) $("cp-last").textContent = `Last payout: ${usd(p.last.cents)} on ${day(p.last.when)}` +
-      (p.last.method === "stripe" ? ", through Stripe." : ", by hand.");
-    $("cp-connect").hidden = !(stripeOn && !p.ready);
-    $("cp-stripe").hidden = !(p.connect);
-    if (!stripeOn) $("cp-next").textContent += " For now we pay by hand (a bank transfer or PayPal), and we'll write to you before the first one.";
-    else if (p.connect && !p.ready) $("cp-next").textContent += " Stripe is still checking your payout details.";
+    if (p.last) $("cp-last").textContent = `Last payout: ${usd(p.last.cents)} on ${day(p.last.when)}.`;
+    const form = $("cp-payout-form");
+    for (const r of form.elements.method) r.checked = r.value === (p.method || "paypal");
+    $("cp-payout-email").value = p.email || "";
+    payoutFields(p.method || "paypal");
+    // Only what the form above doesn't already say: nothing saved yet, or that a wire needs bank details from them.
+    $("cp-payout-saved").hidden = p.method === "paypal";
+    $("cp-payout-saved").textContent = !p.method ? "We can't pay you until you tell us how."
+      : p.method === "wire" ? "We'll write to you for your bank details." : "";
+    $("cp-tax").textContent = p.taxForm ? `Tax form on file: ${p.taxForm === "w9" ? "W-9" : "W-8BEN"}.`
+      : "Before your first payout we'll ask for a tax form: a W-9 if you're in the US, a W-8BEN if not.";
     $("cp-months").replaceChildren(...(x.months || []).map(m => {
       const tr = document.createElement("tr");
       for (const v of [monthName(m.month), n0(m.signups), n0(m.activated), n0(m.paying), usd(m.earned)])
@@ -243,7 +299,7 @@
     for (const el of document.querySelectorAll("[data-cp]")) el.hidden = true;
     if (!res.signedIn) { $("cp-signin").hidden = false; return; }
     if (res.creator) {
-      dashboard(res.creator, res.stripe);
+      dashboard(res.creator);
       $("cp-state").hidden = false;
       $("cp-state").textContent = "You're in the program. Your link and numbers are above.";
       return;
@@ -270,6 +326,19 @@
     if (!res.ok) return say("cp-apply-status", res.error);
     await load();
   });
+  $("cp-payout-form").addEventListener("change", e => { if (e.target.name === "method") payoutFields(e.target.value); });
+  $("cp-payout-form").addEventListener("input", () => { $("cp-saved").hidden = true; });
+  $("cp-payout-form").addEventListener("submit", async e => {
+    e.preventDefault();
+    const f = e.target, btn = f.querySelector("button");
+    btn.disabled = true;
+    const res = await post("/api/creators/payout", { method: f.elements.method.value, email: $("cp-payout-email").value });
+    btn.disabled = false;
+    if (!res.ok) return say("cp-pay-status", res.error);
+    say("cp-pay-status", "");
+    await load();
+    $("cp-saved").hidden = false;
+  });
   $("cp-copy").addEventListener("click", async () => {
     const url = $("cp-url").textContent;
     const done = await window.lfShare({ url, text: "Meet Willo, a wisp you can talk to in WoW Forever" });
@@ -281,20 +350,7 @@
     try { await navigator.clipboard.writeText(code); copied = true; } catch (e) {}
     say("cp-pay-status", copied ? "Code copied." : "Your code: " + code, true);
   });
-  $("cp-connect-form").addEventListener("submit", async e => {
-    e.preventDefault();
-    const res = await post("/api/creators/payouts", { country: $("cp-country").value });
-    if (res.ok) location.href = res.url; else say("cp-pay-status", res.error);
-  });
-  $("cp-stripe-btn").addEventListener("click", async () => {
-    const res = await post("/api/creators/stripe");
-    if (res.ok) location.href = res.url; else say("cp-pay-status", res.error);
-  });
-  const back = new URLSearchParams(location.search).get("payouts");
-  load().then(() => {
-    if (back === "done") say("cp-pay-status", "Thanks! Stripe is checking your details; payouts go there once it's done.", true);
-    if (back === "again") say("cp-pay-status", "That link ran out. Press Set up payouts with Stripe again.");
-  });
+  load();
 })();
 </script>
 

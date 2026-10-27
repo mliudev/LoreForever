@@ -17,16 +17,16 @@
   "wiki": "Finding the Antidote",
   "chain": []
  },
- "summary": "Finding the Antidote is an urgent task undertaken for Kor'ghan in Orgrimmar to brew a cure for the poisoned hunter Rhinag. Facing a strict deadline before the venom proves fatal, an adventurer must gather venomtail poison sacs from scorpids outside the city walls. It highlights the unforgiving nature of Durotar's wildlife and the necessity of wilderness preparation.",
+ "summary": "Kor'ghan in Orgrimmar races to brew a cure for the poisoned hunter Rhinag. You gather venomtail poison sacs from scorpids outside the city walls before their venom proves fatal. Durotar's wildlife is unforgiving, and survival depends on wilderness preparation.",
  "sections": [
   {
    "title": "A Race Against the Venom",
-   "body": "While hunting throughout Durotar, a Darkspear troll named Rhinag made the perilous mistake of engaging native venomtail scorpids without bringing along an antidote. Stung and succumbing rapidly to their potent toxins, he was forced to send for immediate aid. The task falls to Kor'ghan, an experienced hunter residing in Orgrimmar, to mix a restorative draught before the poison finishes its work.",
+   "body": "Rhinag, a Darkspear troll, was hunting in Durotar when he faced venomtail scorpids without an antidote. Their potent venom struck quickly, leaving him in need of immediate aid. Kor'ghan, an experienced hunter in Orgrimmar, must mix a draught before the poison kills him.",
    "spoiler": 0
   },
   {
    "title": "Crafting the Cure",
-   "body": "Creating an antidote requires harvesting the source of the affliction itself: the venom sacs of mature venomtails lurking outside the gates of Orgrimmar. Kor'ghan notes that chastising Rhinag for his lack of preparation must wait, as every moment counts. Once the sacs are quickly retrieved and brought back into the city, Kor'ghan synthesizes the draught so it can be rushed straight to the dying hunter.",
+   "body": "Mature venomtail scorpids outside Orgrimmar's gates carry the sacs Kor'ghan needs to make an antidote. He says there will be time to chastise Rhinag for going unprepared, but every moment matters now. Bring the sacs back into the city, and Kor'ghan can brew the draught for the dying hunter.",
    "spoiler": 0
   }
  ],
@@ -38,7 +38,7 @@
     "who is poisoned",
     "who needs the antidote"
    ],
-   "answer": "Rhinag is a Darkspear troll hunter in Durotar who was badly stung by native venomtails while out tracking beasts. Lacking an antidote in the field, he was left incapacitated and reliant on couriers to retrieve a remedy from Orgrimmar before succumbing to the poison."
+   "answer": "Rhinag is a Darkspear troll hunter in Durotar. Venomtails stung him while he was tracking beasts, and without an antidote he now depends on aid from Orgrimmar before the poison overwhelms him."
   },
   {
    "q": "Who is Kor'ghan?",
@@ -47,7 +47,7 @@
     "who is korphan",
     "korgan orgrimmar"
    ],
-   "answer": "Kor'ghan is an experienced Darkspear troll hunter based in Orgrimmar's Cleft of Shadow. He understands the natural beasts of Durotar intimately and possesses the alchemical knowledge required to brew an effective counter-venom using raw venomtail poison sacs."
+   "answer": "Kor'ghan is an experienced Darkspear troll hunter in Orgrimmar's Cleft of Shadow. He knows Durotar's beasts and can brew a counter-venom from venomtail poison sacs."
   },
   {
    "q": "Where do the required venom sacs come from?",
@@ -56,7 +56,7 @@
     "poison sac location",
     "venomtail scorpid sacs"
    ],
-   "answer": "The poison sacs are harvested directly from venomtail scorpids that prowl the rocky arid ground near the entrance of Orgrimmar."
+   "answer": "The venom sacs come from venomtail scorpids outside Orgrimmar, on the rocky, arid ground near the city's entrance."
   },
   {
    "q": "Why is there an active time limit on this task?",
@@ -65,7 +65,7 @@
     "need for a cure timer",
     "timed quest"
    ],
-   "answer": "The urgency is driven by Rhinag's failing health in the field. Because venomtail toxins are exceptionally virulent and fast-acting, Kor'ghan must receive the ingredients and distill the cure before the hunter perishes from systemic poisoning."
+   "answer": "Rhinag's health is failing in the field. Venomtail toxins act quickly, so Kor'ghan needs the ingredients in time to brew a cure before Rhinag dies of poisoning."
   },
   {
    "q": "What lesson does Kor'ghan emphasize during this hunt?",
@@ -74,7 +74,7 @@
     "hunting lesson",
     "kor'ghan advice"
    ],
-   "answer": "Kor'ghan warns that every hunter must carefully study the habits and lethal dangers of their quarry prior to engaging it. Entering the wilderness without proper preparation or countermeasures is an oversight that can easily cost a warrior their life."
+   "answer": "Kor'ghan warns hunters to study their quarry and its dangers before they engage. Entering the wilderness without proper preparation or countermeasures can cost a warrior their life."
   },
   {
    "q": "How does this task fit with 'Need for a Cure'?",
@@ -83,21 +83,21 @@
     "prerequisite quest",
     "how does it connect"
    ],
-   "answer": "'Need for a Cure' is the foundational errand that sets the emergency in motion and starts the timer. 'Finding the Antidote' is the intermediary step where the player gathers the raw components for Kor'ghan to brew the finished concoction."
+   "answer": "'Need for a Cure' begins the emergency and starts the timer. Finding the Antidote is the intermediary step: you gather the raw components Kor'ghan needs to brew the finished concoction."
   }
  ],
  "angles": [
   {
    "target": "class:Hunter",
-   "text": "Kor'ghan serves as a stern reminder to all hunters: knowledge of a beast's venom and carrying appropriate remedies is just as critical as your bow and tracking skills."
+   "text": "As a hunter, you hear Kor'ghan's stern reminder: know a beast's venom and carry the right remedies, alongside your bow and tracking skills."
   },
   {
    "target": "race:Orc",
-   "text": "Survival in Durotar tests the endurance of the newly settled orcs, demonstrating that even a seasoned scout can fall to the land's native hazards if careless."
+   "text": "As an orc newly settled in Durotar, you face a test of endurance. Even a seasoned scout can fall to the land's native hazards through carelessness."
   },
   {
    "target": "faction:Horde",
-   "text": "The Horde in Durotar looks after its own, ensuring that isolated rangers and scouts on the perimeter can rely on the stronghold of Orgrimmar for aid."
+   "text": "As a member of the Horde in Durotar, you look after your own. Isolated rangers and scouts on the perimeter can rely on Orgrimmar for aid."
   }
  ],
  "keywords": [
@@ -120,5 +120,6 @@
  ],
  "attribution": [
   "Finding the Antidote"
- ]
+ ],
+ "style": 1
 }

@@ -1,0 +1,84 @@
+{
+ "key": "quest:94369",
+ "type": "quest",
+ "name": "The Fate of Zephras",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   94369
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "You carry news of the danger facing Zephras to Talaanis Shadowsong in Valanaar. The fallen wards leave the isle exposed to Al'Akir, and the people of Zephras must decide how to protect their home.",
+ "sections": [
+  {
+   "title": "A warning for Talaanis",
+   "body": "You tell Talaanis what happened above the Shrine of Akir and share Elaadrin's plan to leave Zephras Isle. High Elder Shadowsong needs to understand the danger and the purpose of your mission to Azeroth as the people of Zephras seek a way to save their home.",
+   "spoiler": 0
+  },
+  {
+   "title": "What remains",
+   "body": "Talaanis reflects on the news. Lorthuna is gone, and the cult has lost its leader. Zephras has not been invaded, though Al'Akir may turn his attention to the isle in years or decades. Fear and cause for celebration now stand side by side.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who do I speak with?",
+   "aliases": [
+    "who to talk to",
+    "talaanis",
+    "where do i report"
+   ],
+   "answer": "You speak with Talaanis Shadowsong in Valanaar."
+  },
+  {
+   "q": "What do I tell Talaanis?",
+   "aliases": [
+    "what happened at shrine",
+    "what do i report",
+    "shrine of akir news"
+   ],
+   "answer": "You tell Talaanis what happened above the Shrine of Akir and of Elaadrin's plan to leave Zephras Isle."
+  },
+  {
+   "q": "Why are the people of Zephras afraid of Al'Akir?",
+   "aliases": [
+    "why fear al'akir",
+    "windlord danger",
+    "al akir threat"
+   ],
+   "answer": "The wards that hid Zephras are down, and Al'Akir may choose to attack while the people are in his domain."
+  },
+  {
+   "q": "What does High Elder Shadowsong need to know?",
+   "aliases": [
+    "what talaanis needs",
+    "high elder news",
+    "intentions for azeroth"
+   ],
+   "answer": "He needs to know of the danger and what the people of Zephras intend to do on their mission to Azeroth."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "al'akir",
+  "elaadrin",
+  "lorthuna",
+  "shrine of akir",
+  "talaanis shadowsong",
+  "valanaar",
+  "wards",
+  "windlord",
+  "zephras"
+ ],
+ "related": [
+  "zone:zephras"
+ ],
+ "style": 1,
+ "attribution": [
+  "In-game quest text: The Fate of Zephras"
+ ]
+}

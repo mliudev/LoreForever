@@ -17,21 +17,21 @@
   "wiki": "Samophlange (Classic 3)",
   "chain": []
  },
- "summary": "This quest is the critical step in shutting down the Venture Company machinery at the Sludge Fen in the northern Barrens. Having already shut down the surrounding valves, an operative must secure the console key from Tinkerer Sniggles to open the main control unit and extract the mysterious samophlange.",
+ "summary": "At the Sludge Fen, the Venture Company’s machinery waits with its valves shut and its pressure relieved. Tinkerer Sniggles holds the key to open the control unit and free the samophlange within.",
  "sections": [
   {
    "title": "Unlocking the Mechanism",
-   "body": "Before the core component can be physically extracted, the machinery must be completely unpowered and unlocked. With the auxiliary valves turned and the pressure relieved, the terminal's dials and gauges settle into an idle state. However, the housing itself remains locked tight to prevent sabotage, requiring a physical key held by the lead goblin engineer overseeing the drilling site.",
+   "body": "You have relieved the pressure by turning the auxiliary valves, and the dials and gauges have settled. The housing remains locked against tampering. Its key rests with the goblin engineer overseeing the drilling site.",
    "spoiler": 0
   },
   {
    "title": "Tinkerer Sniggles",
-   "body": "The Venture Company relies on Tinkerer Sniggles to oversee the delicate balance of their industrial equipment at the Sludge Fen. Sniggles keeps the console key on his person, residing inside a nearby hut just northeast of the primary rig. Overcoming the engineer is the final obstacle standing between the operative and the samophlange nested inside the chassis.",
+   "body": "Tinkerer Sniggles oversees the Venture Company’s equipment at the Sludge Fen. He keeps the console key in a hut just northeast of the main rig. You need that key to open the housing and reach the samophlange.",
    "spoiler": 0
   },
   {
    "title": "Power Drain",
-   "body": "Turning Sniggles' key inside the console unlatches the locked housing. With a final click, the red indicator beacon on the frame fades to black, and the lingering electrical hum fades away entirely. The console's failsafes disengage, leaving the internal core accessible for removal.",
+   "body": "Turning Sniggles’ key in the console unlatches the housing. The red beacon goes dark, and the electrical hum fades. With the console’s safeguards disengaged, the core is ready to be removed.",
    "spoiler": 1
   }
  ],
@@ -43,7 +43,7 @@
     "sniggles location",
     "where is tinkerer sniggles"
    ],
-   "answer": "Tinkerer Sniggles is located inside a small goblin hut just northeast of the main control console at the Sludge Fen in the northern Barrens."
+   "answer": "Tinkerer Sniggles is in a goblin hut just northeast of the main control console at the Sludge Fen in the northern Barrens."
   },
   {
    "q": "What is the Console Key used for?",
@@ -52,7 +52,7 @@
     "what does key open",
     "how to use console key"
    ],
-   "answer": "The Console Key unlocks the main control terminal at the Sludge Fen, draining the remaining power from the system so the samophlange inside can be removed."
+   "answer": "The Console Key unlocks the main control terminal at the Sludge Fen and cuts the remaining power, allowing you to remove the samophlange inside."
   },
   {
    "q": "Why did the console need to be shut down before using the key?",
@@ -60,7 +60,7 @@
     "why shut down first",
     "valves before key"
    ],
-   "answer": "The machinery had to be brought to an idle state by venting the apparatus valves first. Attempting to unlock and handle the machinery under full operational pressure would be hazardous."
+   "answer": "First, the apparatus valves had to be vented so the machinery would idle. Handling it under full pressure would be hazardous."
   },
   {
    "q": "Who does Tinkerer Sniggles work for?",
@@ -68,7 +68,7 @@
     "sniggles faction",
     "is sniggles venture co"
    ],
-   "answer": "Tinkerer Sniggles is an engineer employed by the Venture Company, the ruthless trading and resource extraction conglomerate ravaging the northern Barrens."
+   "answer": "Tinkerer Sniggles works for the Venture Company, which trades and extracts resources across the northern Barrens."
   },
   {
    "q": "What is a samophlange?",
@@ -76,7 +76,7 @@
     "what does samophlange mean",
     "what is a samophlange"
    ],
-   "answer": "A samophlange is an esoteric, complex engineering component vital to the operation of the Venture Company's heavy drilling and pumping machinery."
+   "answer": "A samophlange is a complex engineering component used in the Venture Company’s heavy drilling and pumping machinery."
   },
   {
    "q": "What happens after using the key on the console?",
@@ -84,17 +84,17 @@
     "what happens next",
     "after console key"
    ],
-   "answer": "Unlocking the terminal cuts all power to the console, shutting off the warning lights and allowing you to retrieve the samophlange itself."
+   "answer": "Using the key unlocks the terminal and cuts its power. The warning lights go dark, and you can remove the samophlange."
   }
  ],
  "angles": [
   {
    "target": "profession:Engineering",
-   "text": "The delicate process of idling the rig's gauges before unsealing the housing demonstrates standard, if eccentric, goblin mechanical safety protocols."
+   "text": "As an engineer, you can see how idling the gauges before opening the housing follows goblin mechanical safety practice."
   },
   {
    "target": "faction:Horde",
-   "text": "Sabotaging the Venture Company's equipment at the Sludge Fen helps slow their exploitation and toxic runoff across northern Kalimdor."
+   "text": "As a member of the Horde, you help slow the Venture Company’s exploitation and toxic runoff across northern Kalimdor by sabotaging its equipment at the Sludge Fen."
   }
  ],
  "keywords": [
@@ -111,5 +111,6 @@
  ],
  "attribution": [
   "Samophlange (Classic 3)"
- ]
+ ],
+ "style": 1
 }

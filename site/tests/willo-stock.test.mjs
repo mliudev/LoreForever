@@ -240,7 +240,7 @@ test("What Willo keeps shows the kept save, and erasing it (one, a section, ever
 const contextOf = body => /PLAYER CONTEXT\n([\s\S]*?)\n\n/.exec(body.contents.map(c => (c.parts || []).map(p => p.text || "")
   .join("\n")).join("\n"))?.[1] || "";
 
-test("LOR-834: the save's gear, talents and bags reach her from the kept save, each only where the question bears on it", async () => {
+test("LOR-834: the save's gear, talents taken and bags reach her from the kept save, each only where the question bears on it", async () => {
   const { token } = await linked();
   await sync(token, save({ gear: { 16: [2489, "Two-Handed Sword"], 5: [6129, "Acolyte Robe", "Rune of Rage"] },
     talents: [{ name: "Arms", points: 3, ranks: { Deflection: 3 } }, { name: "Fury", points: 0, ranks: {} }],
@@ -255,7 +255,9 @@ test("LOR-834: the save's gear, talents and bags reach her from the kept save, e
   assert.doesNotMatch(context, /Hearthstone|Two-Handed Sword/i);
   await ask(token, "who is Hogger?");
   context = contextOf(calls.at(-1));
-  assert.doesNotMatch(context, /Sword|Linen|Arms 3|Deflection/i, "nothing from the save for a lore question");
+  assert.doesNotMatch(context, /Sword|Linen|Deflection/i, "no gear, bags or talents taken for a lore question");
+  // Their talent points go with every answer, a line of who they are (LOR-844 step 5's profile).
+  assert.match(context, /Arms 3/i);
   await ask(token, "which talents should I take next?");
   assert.match(contextOf(calls.at(-1)), /Arms 3.*Deflection 3/is);
 });

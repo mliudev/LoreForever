@@ -8,11 +8,11 @@
   "wiki": "Zarrin",
   "refs": 1
  },
- "summary": "Zarrin is a night elf culinary mentor located in Dolanaar on the boughs of Teldrassil. Tending an open hearth behind the village inn, he instructs young night elves and visitors in traditional Kaldorei cooking techniques.",
+ "summary": "Behind Dolanaar's inn, Zarrin teaches the ways of Kaldorei cooking. He tends an open hearth on Teldrassil, where young night elves and visitors learn to prepare meals from the tree's native flora and fauna.",
  "sections": [
   {
    "title": "Hearthkeeper of Dolanaar",
-   "body": "Situated behind the Dolanaar inn away from the main thoroughfare, Zarrin tends an open fire where he shares the culinary arts of the Kaldorei. Survival in Teldrassil requires utilizing the native flora and fauna of the giant tree, and Zarrin serves as an instructor for those seeking to sustain themselves through foraging and home-cooked meals.",
+   "body": "Behind Dolanaar's inn, Zarrin tends an open cooking fire and teaches Kaldorei culinary arts. Teldrassil's native plants and animals provide food for those who live here. Zarrin shows visitors how to forage and prepare meals at home.",
    "spoiler": 0
   }
  ],
@@ -24,7 +24,7 @@
     "where is zarrin",
     "dolanaar cooking trainer"
    ],
-   "answer": "Zarrin stands behind the inn in Dolanaar on Teldrassil, working over a cooking fire in the open yard opposite the road."
+   "answer": "Find Zarrin behind the inn in Dolanaar, at a cooking fire in the open yard across from the road."
   },
   {
    "q": "What does Zarrin teach?",
@@ -32,7 +32,7 @@
     "zarrin trainer",
     "what does zarrin teach"
    ],
-   "answer": "He is a Cooking trainer who teaches the basics of culinary preparation and traditional night elf recipes to novices."
+   "answer": "Zarrin teaches the basics of cooking and traditional night elf recipes to novices."
   },
   {
    "q": "What tasks does Zarrin offer?",
@@ -40,17 +40,17 @@
     "zarrin quest",
     "recipe of the kaldorei quest"
    ],
-   "answer": "Zarrin asks travelers to help him prepare traditional dishes, offering the quest 'Recipe of the Kaldorei' to teach newcomers local culinary practices."
+   "answer": "Zarrin asks travelers to help prepare traditional dishes through Recipe of the Kaldorei, teaching newcomers local cooking practices."
   }
  ],
  "angles": [
   {
    "target": "profession:Cooking",
-   "text": "For adventurers beginning their journey in Teldrassil, Zarrin is the primary mentor for learning how to turn wild beast meats and foraged goods into nourishing meals."
+   "text": "As you begin your journey in Teldrassil, Zarrin can teach you to prepare nourishing meals from wild beast meat and foraged goods."
   },
   {
    "target": "race:NightElf",
-   "text": "Zarrin preserves everyday Kaldorei foodways, ensuring that traditional tastes and methods endure within the canopy of the World Tree."
+   "text": "Zarrin keeps everyday Kaldorei foodways alive, passing traditional tastes and methods on beneath the World Tree's canopy."
   }
  ],
  "keywords": [
@@ -69,5 +69,6 @@
  ],
  "attribution": [
   "Zarrin"
- ]
+ ],
+ "style": 1
 }

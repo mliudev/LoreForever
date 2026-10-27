@@ -10,16 +10,16 @@
    "quest:943"
   ]
  },
- "summary": "The Stone of Relu is an ancient archaeological relic recovered from the Wetlands. Believed by Archaeologist Flagongut to be the key to unlocking latent powers within primordial fossils, it was briefly lost when local raptors ambushed the scholar on the road.",
+ "summary": "In the Wetlands, the Stone of Relu is lost to a raptor after an ambush. Archaeologist Flagongut believes it can unlock secrets within ancient fossils.",
  "sections": [
   {
    "title": "A Key to Ancient Relics",
-   "body": "Discovered during Explorers' League operations, the Stone of Relu is believed to hold the deciphering power needed to unlock prehistoric fossils gathered from Kalimdor and the Eastern Kingdoms. Archaeologist Flagongut identified the artifact as the catalyst required to unleash secrets within both his own Wetlands specimens and the fossil unearthed by Prospector Remtravel in Darkshore.",
+   "body": "Explorers' League work uncovered the Stone of Relu. Archaeologist Flagongut believes it can decipher prehistoric fossils gathered from Kalimdor and the Eastern Kingdoms. He means to use it on his Wetlands specimens and on the fossil Prospector Remtravel unearthed in Darkshore.",
    "spoiler": 0
   },
   {
    "title": "Lost in the Marshes",
-   "body": "While Flagongut was traveling along the Wetland roads to rendezvous with Prospector Whelgar, a pack of mottled raptors ambushed him. During the scramble, the relic was lost and swallowed by one of the ravenous beasts, forcing the League to enlist adventurers to hunt the marsh raptors and cut the ancient stone from their gullets.",
+   "body": "Archaeologist Flagongut was traveling along the Wetlands roads to meet Prospector Whelgar when mottled raptors ambushed him. In the scramble, the relic was lost and swallowed by one of the beasts. The League now seeks the marsh raptors so the ancient stone can be cut from their gullets.",
    "spoiler": 0
   }
  ],
@@ -31,7 +31,7 @@
     "what is this stone",
     "relu artifact"
    ],
-   "answer": "The Stone of Relu is an ancient artifact sought by Archaeologist Flagongut. He believes it acts as a cipher or catalyst capable of unlocking the hidden mysteries and power dormant inside prehistoric fossils."
+   "answer": "The Stone of Relu is an ancient artifact sought by Archaeologist Flagongut. He believes it can unlock the hidden mysteries and power within prehistoric fossils."
   },
   {
    "q": "How did the stone end up inside a raptor?",
@@ -40,7 +40,7 @@
     "who dropped the stone",
     "how was it lost"
    ],
-   "answer": "Archaeologist Flagongut was carrying the relic along the Wetlands road to meet Prospector Whelgar when mottled raptors attacked his party. In the chaos, the stone was lost and ingested by one of the scavenging beasts."
+   "answer": "Archaeologist Flagongut carried the relic along a Wetlands road to meet Prospector Whelgar when mottled raptors attacked. In the chaos, one of the beasts swallowed the lost stone."
   },
   {
    "q": "What is Flagongut planning to do with the stone?",
@@ -48,17 +48,17 @@
     "what does flagongut want",
     "stone of relu purpose"
    ],
-   "answer": "Flagongut intends to pair the stone with his recovered fossil and the fossil found by Prospector Remtravel in Darkshore, using the relic to decipher and release their latent magical secrets."
+   "answer": "Flagongut plans to use the stone with his recovered fossil and the fossil Prospector Remtravel found in Darkshore, to decipher and release their latent magical secrets."
   }
  ],
  "angles": [
   {
    "target": "race:Dwarf",
-   "text": "For the Explorers' League, the Stone of Relu is a vital tool in piecing together the origins of ancient life and the forgotten legacy of the world."
+   "text": "For the Explorers' League, the Stone of Relu helps piece together the origins of ancient life and the world's forgotten legacy."
   },
   {
    "target": "faction:Alliance",
-   "text": "Alliance expeditions in Menethil Harbor rely on recovered artifacts like the Stone of Relu to justify the arduous excavations across the perilous marshlands."
+   "text": "Alliance expeditions in Menethil Harbor rely on recovered artifacts like the Stone of Relu to justify difficult excavations across the perilous marshlands."
   }
  ],
  "keywords": [
@@ -82,5 +82,6 @@
  "attribution": [
   "Stone of Relu",
   "The Absent Minded Prospector (5)"
- ]
+ ],
+ "style": 1
 }

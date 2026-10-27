@@ -10,11 +10,11 @@
    "quest:997"
   ]
  },
- "summary": "Rare Earth is a specialized package of mineral-rich soil procured from Darnassus for botanic experiments on Teldrassil. It is sent via courier from Dolanaar to the herbalist researcher Denalan at his lakeside camp near Lake Al'Ameth.",
+ "summary": "At Dolanaar, Rare Earth waits for delivery to Denalan's camp near Lake Al'Ameth. The mineral-rich soil came from Darnassus for his botanical experiments on Teldrassil.",
  "sections": [
   {
    "title": "Soil of Darnassus",
-   "body": "Teldrassil's newly grown ecosystem requires careful observation and nurturing, prompting herbalists across the island to study how various plants respond to foreign or enriched soils. This particular parcel of rare earth was requisitioned directly from Darnassus by Denalan, an eccentric botanist stationed along the eastern shore of Lake Al'Ameth. After languishing in transit and turning up late in Dolanaar, herbalist Syral Bladeleaf entrusts travelers passing south to deliver the perishable soil to Denalan before its potency fades.",
+   "body": "Rare Earth is late reaching Dolanaar from Darnassus. Denalan, an eccentric botanist on Lake Al'Ameth's eastern shore, requested the parcel to study plants in Teldrassil's young ecosystem. Herbalist Syral Bladeleaf now entrusts the soil to travelers heading south, hoping it reaches Denalan before its potency fades.",
    "spoiler": 0
   }
  ],
@@ -26,7 +26,7 @@
     "what does denalan do with rare earth",
     "rare earth purpose"
    ],
-   "answer": "The rare earth is intended for Denalan, an herbalist and botanic researcher camping on the shores of Lake Al'Ameth. He uses specialized mineral compounds and enriched soils imported from Darnassus to cultivate and experiment on native Teldrassil flora."
+   "answer": "Denalan, an herbalist and botanical researcher at Lake Al'Ameth, will use Rare Earth in his experiments. He cultivates Teldrassil's native plants with mineral compounds and enriched soils from Darnassus."
   },
   {
    "q": "Who sends the Rare Earth to Denalan?",
@@ -35,7 +35,7 @@
     "where do you get rare earth",
     "syral bladeleaf parcel"
    ],
-   "answer": "Syral Bladeleaf, an herbalist based in the town of Dolanaar, holds the package. It arrived late from Darnassus, and she asks passing adventurers heading south toward Lake Al'Ameth to deliver it on her behalf."
+   "answer": "Herbalist Syral Bladeleaf holds the package in Dolanaar. It arrived late from Darnassus, and she asks travelers heading south toward Lake Al'Ameth to carry it to Denalan."
   },
   {
    "q": "Why was Denalan worried about the delivery?",
@@ -44,17 +44,17 @@
     "denalan fresh earth",
     "why late earth"
    ],
-   "answer": "The shipment was delayed in transit to Dolanaar, leaving Denalan waiting by the lakeside for a considerable time. Upon receiving it, he immediately worries whether the earth has retained its freshness and vitality for his botanical experiments."
+   "answer": "The shipment was delayed on its way to Dolanaar, leaving Denalan waiting by the lake. When it arrives, he worries that the soil may have lost the freshness his experiments need."
   }
  ],
  "angles": [
   {
    "target": "profession:Herbalism",
-   "text": "Herbalists will appreciate the meticulous efforts of researchers like Syral Bladeleaf and Denalan, who study how specialized earth can alter the growth and properties of Teldrassil's saplings."
+   "text": "Herbalists can look to Syral Bladeleaf and Denalan, who study how specialized earth changes the growth and properties of Teldrassil's saplings."
   },
   {
    "target": "race:NightElf",
-   "text": "For night elves tending their young World Tree, every botanical experiment at Lake Al'Ameth offers insight into how life adapts to Teldrassil's untamed boughs."
+   "text": "As a night elf tending the young World Tree, you can see how experiments at Lake Al'Ameth reveal the ways life adapts to Teldrassil's untamed boughs."
   }
  ],
  "keywords": [
@@ -79,5 +79,6 @@
  "attribution": [
   "Rare Earth",
   "Denalan's Earth"
- ]
+ ],
+ "style": 1
 }

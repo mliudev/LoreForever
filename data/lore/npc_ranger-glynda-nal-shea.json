@@ -8,16 +8,16 @@
   "wiki": "Ranger Glynda Nal'Shea",
   "refs": 4
  },
- "summary": "Sentinel Glynda Nal'Shea is a seasoned night elf sentry stationed in the coastal town of Auberdine. From her post near the town watch, she directs local defense efforts across Darkshore, dispatching travelers to eliminate lurking threats and investigate strange coastal phenomena.",
+ "summary": "Near Auberdine's watch, Ranger Glynda Nal'Shea directs the defense of Darkshore. The seasoned night elf sentry sends travelers to meet threats and investigate strange signs along the coast.",
  "sections": [
   {
    "title": "Guardian of Auberdine",
-   "body": "As Darkshore grapples with rising corruption and hostile incursions, Sentinel Glynda Nal'Shea coordinates vital scout work from Auberdine. She keeps a watchful eye over the surrounding wilderness, relying on capable adventurers to maintain the perimeter and safeguard night elf holdings along the fog-shrouded coast.",
+   "body": "From Auberdine, Sentinel Glynda Nal'Shea coordinates scouts as corruption grows and hostile forces press into Darkshore. She watches the wilderness around town and relies on capable travelers to guard the perimeter and protect night elf holdings along the coast.",
    "spoiler": 0
   },
   {
    "title": "Threats Along the Coast",
-   "body": "Glynda is keenly focused on the mounting perils encroaching on the shorelines, particularly the emboldened murlocs gathering south of town. She oversees bounties on notorious menaces like Murkdeep and tasks scouts with examining curious artifacts, including a mysterious crimson crystal reported along Darkshore's eastern mountain range.",
+   "body": "Glynda watches for dangers gathering along the shore, especially the bolder murlocs south of town. She oversees bounties on threats such as Murkdeep and sends scouts to examine strange finds, including a crimson crystal reported near Darkshore's eastern mountain range.",
    "spoiler": 0
   }
  ],
@@ -29,7 +29,7 @@
     "who is glynda",
     "ranger glynda"
    ],
-   "answer": "She is a night elf Sentinel stationed in Auberdine who organizes scout patrols and defensive tasks across Darkshore."
+   "answer": "Sentinel Glynda Nal'Shea is a night elf stationed in Auberdine, where she organizes scout patrols and defenses across Darkshore."
   },
   {
    "q": "Where can Glynda Nal'Shea be found?",
@@ -38,7 +38,7 @@
     "where is glynda",
     "where to find glynda"
    ],
-   "answer": "She is located in Auberdine, the main Alliance settlement in Darkshore, typically found near the sentinel watch and town entrances."
+   "answer": "Glynda Nal'Shea can be found in Auberdine, Darkshore's main Alliance settlement, near the sentinel watch and town entrances."
   },
   {
    "q": "What quests does Ranger Glynda Nal'Shea offer?",
@@ -46,7 +46,7 @@
     "glynda quests",
     "what does glynda give"
    ],
-   "answer": "She offers tasks dealing with regional hazards, including bounties like WANTED: Murkdeep! and investigations involving the mysterious red crystal along the cliffs of Darkshore."
+   "answer": "Glynda offers work against regional dangers, including a bounty on Murkdeep and an investigation of the red crystal along Darkshore's cliffs."
   },
   {
    "q": "Why is Glynda concerned about Murkdeep?",
@@ -54,7 +54,7 @@
     "who is murkdeep",
     "why kill murkdeep"
    ],
-   "answer": "Murkdeep is a vicious murloc chieftain responsible for attacks on night elf outposts and travelers along the southern coast, posing an ongoing threat to the security of Auberdine."
+   "answer": "Murkdeep is a vicious murloc chieftain whose attacks on night elf outposts and travelers threaten the southern coast and Auberdine's security."
   },
   {
    "q": "What is the Red Crystal quest line?",
@@ -62,7 +62,7 @@
     "red crystal darkshore",
     "the red crystal quest"
    ],
-   "answer": "It is a line of scout investigations initiated by Glynda, tasking adventurers with climbing the eastern cliffs of Darkshore to examine an odd, pulsing crystal and retrieve fragments for study."
+   "answer": "The Red Crystal investigation begins with Glynda sending scouts up Darkshore's eastern cliffs to examine a strange, pulsing crystal and retrieve fragments for study."
   },
   {
    "q": "What faction does Glynda Nal'Shea serve?",
@@ -70,21 +70,21 @@
     "glynda faction",
     "who does glynda work for"
    ],
-   "answer": "She serves the night elves of Darnassus and acts as a military outpost commander for the Alliance in Darkshore."
+   "answer": "Glynda Nal'Shea serves the night elves of Darnassus and commands an Alliance military outpost in Darkshore."
   }
  ],
  "angles": [
   {
    "target": "race:NightElf",
-   "text": "For night elves, Glynda Nal'Shea represents the ongoing vigilance required to protect the sacred shores of Kalimdor from aggressive beasts and ancient corruptions."
+   "text": "For night elves, Glynda Nal'Shea reflects the vigilance needed to protect Kalimdor's sacred shores from aggressive beasts and ancient corruption."
   },
   {
    "target": "class:Hunter",
-   "text": "Fellow rangers and trackers will find kindred spirit in Glynda's sharp instincts and direct approach to eliminating wild beasts and shoreline predators."
+   "text": "As a hunter, you may recognize Glynda's sharp instincts and direct approach to dealing with wild beasts and shoreline predators."
   },
   {
    "target": "faction:Alliance",
-   "text": "Glynda provides Alliance travelers arriving by boat from Teldrassil or the Eastern Kingdoms with essential bounties to secure Darkshore's perimeter."
+   "text": "As an Alliance traveler arriving by boat from Teldrassil or the Eastern Kingdoms, you can take Glynda's bounties to help secure Darkshore's perimeter."
   }
  ],
  "keywords": [
@@ -109,5 +109,6 @@
  ],
  "attribution": [
   "Ranger Glynda Nal'Shea"
- ]
+ ],
+ "style": 1
 }

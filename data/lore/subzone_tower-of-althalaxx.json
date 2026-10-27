@@ -7,16 +7,16 @@
  "meta": {
   "wiki": "Tower of Althalaxx"
  },
- "summary": "The Tower of Althalaxx is an ancient Highborne spire standing in northern Darkshore near the coast. Once an isolated retreat for the sorcerer Athrikus Narassin before the Great Sundering, it has become infested by demonic cultists and warlocks practicing dark arts.",
+ "summary": "Dark sorcery stirs within the Tower of Althalaxx on northern Darkshore's coast. Once Athrikus Narassin's retreat, the ancient Highborne spire now shelters demonic cultists and warlocks.",
  "sections": [
   {
    "title": "A Highborne Retreat",
-   "body": "Ten thousand years ago, Queen Azshara settled favored Highborne servants in the coastal towns of Ameth'Aran and Bashal'Aran, placing the powerful sorcerer Athrikus Narassin in authority over them. Growing distant from civic governance, Athrikus chose to isolate himself within the nearby Tower of Althalaxx. When the Great Sundering shattered ancient Kalimdor, the tower endured along the desolate coastline of Darkshore, standing as a quiet ruin of forgotten elven magics.",
+   "body": "Queen Azshara settled favored Highborne servants in Ameth'Aran and Bashal'Aran ten thousand years ago, placing the powerful sorcerer Athrikus Narassin in authority over them. As he grew distant from civic governance, Athrikus chose to isolate himself in the nearby Tower of Althalaxx. The Great Sundering shattered ancient Kalimdor, but the tower endured on Darkshore's desolate coastline, a quiet ruin of forgotten elven magic.",
    "spoiler": 0
   },
   {
    "title": "The Dark Strand",
-   "body": "In the modern era, the tower has stirred with malignant sorcery. Warlocks, dark cultists calling themselves the Cult of the Dark Strand, and allied satyrs have congregated within the ruin under the leadership of Athrikus Narassin himself. Their rites channel demonic magic and torment the lingering spirits of the ancient dead, serving sinister designs tied directly to the demonic Shadow Council.",
+   "body": "The Tower of Althalaxx stirs with malignant sorcery. Warlocks, dark cultists calling themselves the Cult of the Dark Strand, and allied satyrs have gathered in the ruin under Athrikus Narassin's leadership. Their rites channel demonic magic and torment the lingering spirits of the ancient dead, serving sinister designs tied directly to the demonic Shadow Council.",
    "spoiler": 1
   }
  ],
@@ -28,7 +28,7 @@
     "althalaxx tower",
     "what is althalaxx"
    ],
-   "answer": "It is an ancient elven mage tower built in northern Darkshore during the reign of Queen Azshara, now occupied by dark sorcerers and cultists."
+   "answer": "On northern Darkshore's coast, the Tower of Althalaxx is an ancient elven mage tower from Queen Azshara's reign, now occupied by dark sorcerers and cultists."
   },
   {
    "q": "Who originally built and lived in the tower?",
@@ -37,7 +37,7 @@
     "athrikus narassin",
     "who built the tower"
    ],
-   "answer": "Athrikus Narassin, a powerful Highborne sorcerer appointed by Queen Azshara to oversee the nearby settlements of Ameth'Aran and Bashal'Aran, retreated here when he grew bored of his duties."
+   "answer": "Athrikus Narassin, a powerful Highborne sorcerer, was placed in authority over Ameth'Aran and Bashal'Aran by Queen Azshara. He retreated to the tower when he grew distant from civic governance."
   },
   {
    "q": "Who are the cultists occupying the tower now?",
@@ -46,7 +46,7 @@
     "cult of the dark strand",
     "althalaxx enemies"
    ],
-   "answer": "They belong to the Cult of the Dark Strand, a sect of warlocks, cultists, and satyrs practicing dark rites within the ruined tower."
+   "answer": "The Cult of the Dark Strand occupies the tower, with warlocks, cultists, and satyrs practicing dark rites in its ruins."
   },
   {
    "q": "Why are there ghosts and tortured spirits here?",
@@ -54,17 +54,17 @@
     "why are there ghosts",
     "tortured spirits althalaxx"
    ],
-   "answer": "The cultists conduct dark rituals and soul-binding magic, subjecting the long-dead elven spirits of ancient Darkshore to agonizing torment for their spells."
+   "answer": "The cultists torment the long-dead elven spirits of ancient Darkshore with dark rituals and soul-binding magic, using their agony in spells."
   }
  ],
  "angles": [
   {
    "target": "race:NightElf",
-   "text": "The tower represents a grim reminder of Highborne corruption and demonic folly lingering on ancestral lands, demanding swift intervention from Darnassus."
+   "text": "For a night elf, the tower is a grim reminder of Highborne corruption and demonic folly on ancestral lands, and calls for swift intervention from Darnassus."
   },
   {
    "target": "class:Warlock",
-   "text": "The dark rites conducted by the Cult of the Dark Strand demonstrate the far-reaching influence and lingering presence of the Shadow Council in Kalimdor."
+   "text": "As a warlock, you can see the Cult of the Dark Strand's dark rites as proof of the Shadow Council's far-reaching influence and lingering presence in Kalimdor."
   }
  ],
  "keywords": [
@@ -90,5 +90,6 @@
  ],
  "attribution": [
   "Tower of Althalaxx"
- ]
+ ],
+ "style": 1
 }

@@ -8,11 +8,11 @@
   "wiki": "Jannok Breezesong",
   "refs": 1
  },
- "summary": "Jannok Breezesong is a night elf rogue trainer stationed in the village of Dolanaar on Teldrassil. He offers instruction in stealth, cunning, and bladecraft to young kaldorei rogues venturing out into the boughs of the World Tree.",
+ "summary": "In Dolanaar, Jannok Breezesong trains young night elf rogues. He teaches stealth, cunning, and bladecraft to kaldorei setting out beneath the World Tree's boughs.",
  "sections": [
   {
    "title": "A Guide in the Shadows",
-   "body": "Found lounging beneath the boughs of Dolanaar, Jannok Breezesong serves as the primary instructor for novice night elf rogues. Unlike the formal sentinels or cloistered druids of Teldrassil, Jannok guides those who operate quietly on the fringes of society, teaching them how to stalk the shadows, strike from behind, and survive unseen amidst the boughs. Once a rogue has advanced beyond initial lessons in Dolanaar, Jannok directs them onward to more experienced masters in the capital city of Darnassus.",
+   "body": "Beneath Dolanaar's boughs, Jannok Breezesong teaches novice night elf rogues. He trains those who work quietly beyond the ranks of Teldrassil's sentinels and druids. His lessons teach them to stalk through shadows, strike from behind, and survive unseen among the boughs. When rogues finish their first lessons in Dolanaar, Jannok sends them to more experienced trainers in Darnassus.",
    "spoiler": 0
   }
  ],
@@ -24,7 +24,7 @@
     "jannok breezesong role",
     "dolanaar rogue trainer"
    ],
-   "answer": "Jannok Breezesong is a night elf rogue trainer residing in Dolanaar on Teldrassil. He teaches foundational rogue abilities and techniques to young kaldorei."
+   "answer": "Jannok Breezesong trains young night elf rogues in Dolanaar on Teldrassil. He teaches them foundational rogue skills and techniques."
   },
   {
    "q": "Where does Jannok send advancing rogues?",
@@ -33,7 +33,7 @@
     "erion shadewhisper quest",
     "dolanaar rogue next step"
    ],
-   "answer": "Once a rogue has completed their early training in Dolanaar, Jannok directs them to journey to Darnassus to seek further instruction under Erion Shadewhisper, a senior rogue trainer located in the city's Cenarion Enclave."
+   "answer": "After their early training in Dolanaar, rogues can travel to Darnassus for further instruction from Erion Shadewhisper, a senior rogue trainer in the city's Cenarion Enclave."
   },
   {
    "q": "Where can I find Jannok in Dolanaar?",
@@ -42,17 +42,17 @@
     "where is jannok",
     "find jannok breezesong"
    ],
-   "answer": "Jannok is located in Dolanaar, the central settlement of Teldrassil outside of Shadowglen, positioned among the town's trainer pavilions."
+   "answer": "Jannok is among Dolanaar's trainer pavilions, in the central settlement of Teldrassil outside Shadowglen."
   }
  ],
  "angles": [
   {
    "target": "class:Rogue",
-   "text": "For young night elf rogues starting out on Teldrassil, Jannok is your key mentor in Dolanaar before you head to the capital."
+   "text": "As a young night elf rogue starting out on Teldrassil, you can learn from Jannok in Dolanaar before heading to the capital."
   },
   {
    "target": "race:NightElf",
-   "text": "While kaldorei culture often emphasizes sentinels and druidism, trainers like Jannok prepare those who prefer stealth, poisons, and daggers."
+   "text": "As a kaldorei, you may follow the path of stealth, poisons, and daggers, alongside the traditions of sentinels and druids."
   }
  ],
  "keywords": [
@@ -72,5 +72,6 @@
  ],
  "attribution": [
   "Jannok Breezesong"
- ]
+ ],
+ "style": 1
 }

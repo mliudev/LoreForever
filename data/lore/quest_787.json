@@ -17,16 +17,16 @@
   "wiki": "The New Horde (quest)",
   "chain": []
  },
- "summary": "The New Horde is an introductory task in the Valley of Trials given by the veteran warrior Eitrigg. It directs fresh recruits to report to Gornek within the Den to begin their training. Through this brief summons, Eitrigg shares his personal journey and Thrall's guiding vision for a redeemed Horde.",
+ "summary": "In the Valley of Trials, veteran warrior Eitrigg calls new recruits to the Den. He sends you to Gornek to begin training and shares why he returned to the Horde and what Thrall hopes it can become.",
  "sections": [
   {
    "title": "A Veteran's Return",
-   "body": "Eitrigg stands in the Valley of Trials under orders from Warchief Thrall to evaluate and mentor the newest hopefuls of the Horde. Having abandoned the Old Horde after the Second War, disillusioned by its corruption by the Burning Legion, Eitrigg lived in quiet exile until captured by humans. Rescued by Thrall, he chose to return after learning of the young Warchief's dream: an honorable Horde rooted in ancestral shamanism, entirely severed from demonic masters.",
+   "body": "Eitrigg stands in the Valley of Trials under Warchief Thrall's orders, ready to evaluate and mentor the Horde's newest hopefuls. After the Second War, he abandoned the Old Horde, disillusioned by its corruption by the Burning Legion. He lived in quiet exile until humans captured him. Thrall rescued Eitrigg, and the veteran chose to return after learning of the young Warchief's dream: an honorable Horde rooted in ancestral shamanism and entirely free of demonic masters.",
    "spoiler": 0
   },
   {
    "title": "Reporting to the Den",
-   "body": "Before any recruit can venture beyond the harsh canyons of the Valley of Trials, they must prove their mettle. Eitrigg sends newcomers into the shaded cavern known as the Den to speak with Gornek. Though Gornek rarely minces words about the crude state of incoming aspirants, his oversight ensures that only those who master discipline and survival are permitted into the wider reaches of Durotar.",
+   "body": "Before you venture beyond the harsh canyons of the Valley of Trials, Eitrigg sends you into the shaded cavern called the Den to speak with Gornek. Gornek rarely minces words about the crude state of new aspirants. His oversight ensures that only those who master discipline and survival enter the wider reaches of Durotar.",
    "spoiler": 0
   }
  ],
@@ -38,7 +38,7 @@
     "eitrigg backstory",
     "eitrigg lore"
    ],
-   "answer": "Eitrigg is an aging orc veteran who witnessed firsthand the corruption of the Old Horde under the influence of the Burning Legion. Disillusioned, he withdrew into self-imposed exile in Lordaeron. After being captured by humans and subsequently liberated by Thrall, he swore loyalty to Thrall's newly reformed Horde and now helps oversee recruit training in the Valley of Trials."
+   "answer": "Eitrigg is an aging orc veteran who witnessed the Old Horde's corruption by the Burning Legion firsthand. Disillusioned, he withdrew into quiet, self-imposed exile in Lordaeron. Humans captured him, and Thrall later freed him. Eitrigg swore loyalty to Thrall's reformed Horde and now helps oversee recruit training in the Valley of Trials."
   },
   {
    "q": "Why does Eitrigg talk about the 'New Horde'?",
@@ -47,7 +47,7 @@
     "difference between old and new horde",
     "new horde meaning"
    ],
-   "answer": "The original Horde was manipulated and enslaved by demonic bloodlust under the sway of the Burning Legion. Thrall's New Horde was forged to cast aside demonic control, resurrect traditional shamanistic ways, and build an honorable, autonomous future for orcs and their allies in Kalimdor."
+   "answer": "The original Horde was manipulated and enslaved by demonic bloodlust under the Burning Legion's sway. Thrall's New Horde cast aside demonic control, revived traditional shamanistic ways, and sought an honorable, independent future for orcs and their allies in Kalimdor."
   },
   {
    "q": "Where is Gornek located?",
@@ -56,7 +56,7 @@
     "find gornek",
     "gornek location"
    ],
-   "answer": "Gornek is stationed just inside the entrance of the Den, the prominent cave hollowed out in the northern rock wall of the Valley of Trials."
+   "answer": "Gornek is stationed just inside the Den's entrance, in the prominent cave hollowed out of the Valley of Trials' northern rock wall."
   },
   {
    "q": "What happens after reporting to Gornek?",
@@ -65,7 +65,7 @@
     "what does gornek do",
     "gornek quest"
    ],
-   "answer": "Gornek accepts you as one of Eitrigg's trainees and gives you your initial field assignments, putting you to work defending the valley and testing your readiness to serve the Horde."
+   "answer": "After you report to Gornek, he accepts you as one of Eitrigg's trainees and gives you your initial field assignments. You work to defend the valley and prove your readiness to serve the Horde."
   },
   {
    "q": "Why was Eitrigg exiled?",
@@ -74,7 +74,7 @@
     "eitrigg exile reason",
     "eitrigg demon corruption"
    ],
-   "answer": "Eitrigg abandoned the Horde because he was disgusted by the demonic corruption and senseless slaughter orchestrated by warlocks serving the Burning Legion during the earlier wars."
+   "answer": "Eitrigg abandoned the Horde because he was disgusted by demonic corruption and the senseless slaughter orchestrated by warlocks serving the Burning Legion during the earlier wars."
   },
   {
    "q": "Why are recruits trained in the Valley of Trials?",
@@ -83,21 +83,21 @@
     "purpose of the valley of trials",
     "valley of trials training"
    ],
-   "answer": "The Valley of Trials provides a secluded, rugged environment in Durotar where young orcs and allied newcomers can face dangerous beasts and scorpids under the watchful eye of veteran trainers before setting out into the wider world."
+   "answer": "The Valley of Trials offers young orcs and allied newcomers a secluded, rugged place in Durotar to face dangerous beasts and scorpids under veteran trainers' watch before setting out into the wider world."
   }
  ],
  "angles": [
   {
    "target": "faction:Horde",
-   "text": "This task encapsulates the founding ethos of Thrall's regime: a complete break from demonic servitude in favor of honor, survival, and ancestral identity."
+   "text": "For the Horde, Thrall's regime is defined by a complete break from demonic servitude in favor of honor, survival, and ancestral identity."
   },
   {
    "target": "race:Orc",
-   "text": "For young orcs stepping into the Valley of Trials, Eitrigg represents the living memory of their people's tragic past and their redemption under Thrall."
+   "text": "As an orc entering the Valley of Trials, you meet Eitrigg as the living memory of your people's tragic past and redemption under Thrall."
   },
   {
    "target": "race:Troll",
-   "text": "The Darkspear trolls train alongside the orcs in the Valley of Trials, having embraced Thrall's vision of mutual survival and honor."
+   "text": "As a Darkspear troll, you train alongside the orcs in the Valley of Trials, sharing Thrall's vision of mutual survival and honor."
   }
  ],
  "keywords": [
@@ -121,5 +121,6 @@
  ],
  "attribution": [
   "The New Horde (quest)"
- ]
+ ],
+ "style": 1
 }

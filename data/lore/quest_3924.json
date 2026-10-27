@@ -17,16 +17,16 @@
   "wiki": "Samophlange Manual (quest)",
   "chain": []
  },
- "summary": "Samophlange Manual is a quest given by goblin engineer Rilli Greasygob in Orgrimmar. Determined to repair a broken samophlange, Rilli sends adventurers back into the Barrens to wrest the device's proprietary operating instructions from his former Venture Company rival.",
+ "summary": "In Orgrimmar, Rilli Greasygob needs help with a broken samophlange. The goblin engineer sends you back into the Barrens for the operating instructions, held by his former Venture Company rival.",
  "sections": [
   {
    "title": "Corporate Rivalries and Trade Secrets",
-   "body": "Within the mercenary ranks of the Venture Company, technical knowledge is currency. Rilli Greasygob previously worked alongside Boss Copperplug, an overseer who guarded the internal mechanics of the mysterious samophlange with paranoid secrecy. Rather than sharing the manual, Copperplug parceled out individual pages only to trusted underlings, leaving peers like Rilli completely in the dark regarding its inner workings.",
+   "body": "Rilli Greasygob once worked beside Boss Copperplug in the Venture Company. Copperplug oversaw the samophlange’s inner workings and guarded their secrets closely. He shared no manual with Rilli. Instead, he gave out separate pages only to underlings he trusted, leaving his fellow engineer without the knowledge to understand the device.",
    "spoiler": 0
   },
   {
    "title": "Infiltration of Boulder Lode",
-   "body": "To decipher the complex contraption brought to him from the Barrens, Rilli sends travelers to infiltrate the Boulder Lode Mine in the northeastern Barrens. Recovering the manual requires tracking down Boss Copperplug directly and gathering whatever scattered pages he distributed among the mine's operations, finally assembling a complete guide to repairing the baffling device.",
+   "body": "Rilli sends you to Boulder Lode Mine in the northeastern Barrens to find the instructions for the contraption brought from there. Boss Copperplug is somewhere in the mine, and pages he handed out are scattered among its operations. You need to gather them and piece together a complete guide to repairing the device.",
    "spoiler": 1
   }
  ],
@@ -38,7 +38,7 @@
     "samophlange manual item",
     "user manual"
    ],
-   "answer": "It is the technical user's guide detailing the mechanics and repair procedures of the samophlange, a complex and eccentric mechanical device utilized by the Venture Company."
+   "answer": "The Samophlange Manual explains the device’s mechanics and how to repair it. The Venture Company uses the complex, eccentric machine."
   },
   {
    "q": "Who is Boss Copperplug?",
@@ -47,7 +47,7 @@
     "who is copperplug",
     "boss copperplug"
    ],
-   "answer": "Boss Copperplug is a Venture Company overseer stationed at the Boulder Lode Mine in the northeastern Barrens. He is a former rival of Rilli Greasygob who jealously hoarded the operating secrets and manual pages of the samophlange."
+   "answer": "Boss Copperplug oversees the Venture Company’s Boulder Lode Mine in the northeastern Barrens. He once rivaled Rilli Greasygob and kept the samophlange’s operating secrets and manual pages to himself."
   },
   {
    "q": "Where is the Boulder Lode Mine located?",
@@ -56,7 +56,7 @@
     "where is boulder lode",
     "find boulder lode mine"
    ],
-   "answer": "The Boulder Lode Mine is carved into the mountains in the northeastern region of the Barrens, north of the Crossroads and west of the coastline."
+   "answer": "Boulder Lode Mine lies in the northeastern Barrens, north of the Crossroads and west of the coast."
   },
   {
    "q": "Why does Rilli Greasygob need the manual?",
@@ -64,7 +64,7 @@
     "why rilli wants manual",
     "why fix samophlange"
    ],
-   "answer": "Rilli believes he can successfully repair and operate the broken samophlange brought to him from the Barrens, but the contraption's proprietary and convoluted design requires its official operating instructions."
+   "answer": "Rilli believes he can repair and operate the broken samophlange brought from the Barrens, but its convoluted design calls for the official instructions."
   },
   {
    "q": "How does Sputtervalve fit into this task?",
@@ -72,7 +72,7 @@
     "sputtervalve connection",
     "ratchet goblin sputtervalve"
    ],
-   "answer": "Sputtervalve is an associate based in Ratchet who originally sought information about the device and stays in touch with Rilli, sending word of gratitude and compensation for securing the machine's schematics."
+   "answer": "Sputtervalve is an associate in Ratchet who first sought information about the device and stays in touch with Rilli. Sputtervalve sends thanks and compensation for obtaining the machine’s schematics."
   },
   {
    "q": "What happens after the manual is returned?",
@@ -80,17 +80,17 @@
     "quest conclusion",
     "does rilli fix it"
    ],
-   "answer": "Rilli enthusiastically takes the manual to study its contents in hopes of finally getting the machine working, though fixing such an arcane contraption remains an ongoing mechanical puzzle."
+   "answer": "Rilli eagerly studies the manual, hoping to get the machine working. Repairing such an arcane contraption remains an ongoing mechanical puzzle."
   }
  ],
  "angles": [
   {
    "target": "profession:Engineering",
-   "text": "Engineers can appreciate the absurd secrecy of goblin corporate intellectual property, where complex schematics are torn apart and hoarded to prevent colleagues from duplicating inventions."
+   "text": "As an engineer, you can appreciate how goblins guard corporate inventions: they tear complex schematics apart and hoard the pieces so colleagues cannot copy them."
   },
   {
    "target": "faction:Horde",
-   "text": "Assisting goblin specialists inside Orgrimmar helps secure valuable technical salvage while striking back against the predatory operations of the Venture Company in nearby territories."
+   "text": "As a member of the Horde, you help goblin specialists in Orgrimmar secure valuable technical salvage and strike back at the Venture Company’s predatory operations nearby."
   }
  ],
  "keywords": [
@@ -115,5 +115,6 @@
  ],
  "attribution": [
   "Samophlange Manual (quest)"
- ]
+ ],
+ "style": 1
 }

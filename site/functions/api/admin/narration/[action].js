@@ -22,17 +22,55 @@ export const MAX_BYTES = 25 * 1024 * 1024;
 const SHA256 = /^[0-9a-f]{64}$/;
 const ok = (body = {}) => Response.json({ ok: true, ...body }, { headers: noStore });
 
-export async function listAudio(bucket) {
+// One R2 list page, retried: the bucket answers an occasional 5xx (R2's "internal error (10001)", "please reduce your
+// request rate"), and the listing below makes ~100 calls, so even a rare one used to fail about 1 request in 3 (10/26). A page that still fails after the retries throws; onRequest turns that into a 503.
+const PAGE_TRIES = 4;
+const pause = ms => new Promise(resolve => setTimeout(resolve, ms));
+async function listPage(bucket, options, wait) {
+  for (let attempt = 1; ; attempt++) {
+    try {
+      return await bucket.list(options);
+    } catch (e) {
+      if (attempt >= PAGE_TRIES) throw e;
+      await wait(100 * 2 ** (attempt - 1));
+    }
+  }
+}
+
+// Every recording under one prefix, following the cursor (R2 returns at most 1000 keys a page).
+async function listFolder(bucket, prefix, wait) {
   const out = [];
   let cursor;
   do {
-    const page = await bucket.list({ prefix: R2_PREFIX, cursor, limit: 1000 });
+    const page = await listPage(bucket, { prefix, cursor, limit: 1000 }, wait);
     for (const o of page.objects) {
       const k = o.key.slice(R2_PREFIX.length);
       if (AUDIO_KEY.test(k)) out.push(k);
     }
     cursor = page.truncated ? page.cursor : undefined;
   } while (cursor);
+  return out;
+}
+
+// The bucket holds ~80,000 recordings (~85 pages), so one serial walk took over a minute. The voices' folders are
+// walked side by side instead (each is its own prefix and its own cursor), a few at a time to stay polite to R2.
+const FOLDERS_AT_ONCE = 6;
+export async function listAudio(bucket, { wait = pause } = {}) {
+  const folders = [];
+  const loose = [];
+  let cursor;
+  do {
+    const page = await listPage(bucket, { prefix: R2_PREFIX, delimiter: "/", cursor, limit: 1000 }, wait);
+    folders.push(...(page.delimitedPrefixes || []));
+    loose.push(...page.objects);   // keys straight under narration/: only matched below if they look like recordings
+    cursor = page.truncated ? page.cursor : undefined;
+  } while (cursor);
+  const out = loose.map(o => o.key.slice(R2_PREFIX.length)).filter(k => AUDIO_KEY.test(k));
+  const queue = [...folders];
+  const worker = async () => {
+    for (let prefix = queue.shift(); prefix; prefix = queue.shift()) out.push(...await listFolder(bucket, prefix, wait));
+  };
+  await Promise.all(Array.from({ length: Math.min(FOLDERS_AT_ONCE, folders.length) }, worker));
   return out.sort();
 }
 
@@ -58,20 +96,28 @@ async function put(request, env) {
   return ok({ key, stored: true });
 }
 
-export async function onRequest({ request, env, params }) {
+export async function onRequest({ request, env, params, wait = pause }) {
   const action = String(params.action || "");
   if (action !== "audio" && action !== "manifest") return fail(404, "Not found.");
   // A verified Access service token, or ADMIN_KEY: unlike /api/admin, FEEDBACK_KEY (the routines' key) is not enough to write recordings.
   const gate = await adminOrService(request, env);
   if (!gate.ok) return fail(gate.status, gate.error);
   if (!env.STUDIO) return fail(503, "The STUDIO R2 binding isn't set up here.");
-  if (action === "audio" && request.method === "GET") return ok({ keys: await listAudio(env.STUDIO) });
-  if (action === "audio" && request.method === "PUT") return put(request, env);
-  if (action === "manifest" && request.method === "POST") {
-    const keys = await listAudio(env.STUDIO);
-    await env.STUDIO.put(MANIFEST_KEY, JSON.stringify({ updated: new Date().toISOString(), keys }),
-      { httpMetadata: { contentType: "application/json" } });
-    return ok({ files: keys.length });
+  try {
+    if (action === "audio" && request.method === "GET") return ok({ keys: await listAudio(env.STUDIO, { wait }) });
+    if (action === "audio" && request.method === "PUT") return await put(request, env);
+    if (action === "manifest" && request.method === "POST") {
+      const keys = await listAudio(env.STUDIO, { wait });
+      await env.STUDIO.put(MANIFEST_KEY, JSON.stringify({ updated: new Date().toISOString(), keys }),
+        { httpMetadata: { contentType: "application/json" } });
+      return ok({ files: keys.length });
+    }
+  } catch (e) {
+    // R2 kept failing after the retries: ours or Cloudflare's, but never the caller's. Say so, so the uploader waits and retries
+    // (pipeline/lore/site_lore.py narration_request) instead of stopping a batch on an unexplained 500.
+    console.error("admin narration:", action, request.method, e?.name || "error", String(e?.message || "").slice(0, 200));
+    return Response.json({ ok: false, error: "The recordings bucket didn't answer just now. Try again." },
+      { status: 503, headers: { ...noStore, "Retry-After": "5" } });
   }
   return fail(405, action === "audio" ? "Use GET or PUT." : "Use POST.");
 }

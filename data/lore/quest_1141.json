@@ -17,21 +17,21 @@
   "wiki": "The Family and the Fishing Pole",
   "chain": []
  },
- "summary": "Gubber Blump, a dwarf dwelling on the docks of Auberdine, seeks assistance catching native Darkshore grouper. Hostile murlocs prowling the coast have disrupted the town's small fishing boats, leaving Gubber stranded on shore and offering an heirloom rod to anyone willing to cast their line.",
+ "summary": "Gubber Blump and his heirloom Fishing Pole await a catch on Auberdine's docks. Hostile murlocs keep the town's small fishing boats ashore, so Gubber seeks help catching native Darkshore grouper from the coast.",
  "sections": [
   {
    "title": "A Dwarf Far From Ironforge",
-   "body": "Gubber Blump takes great pride in his lineage, declaring that the Blump name has long been synonymous with the art of angling. While night elves occupy most of Auberdine, dwarves and gnomes have settled into its docks and bustling port facilities. Rather than digging into stone, Gubber spends his days gazing out over the misty waters of the Veiled Sea, eager to haul in the local bounty.",
+   "body": "Gubber Blump takes pride in a family known for its skill with a fishing line. Night elves make up most of Auberdine, though dwarves and gnomes have settled around its docks and port. Gubber spends his days gazing over the Veiled Sea instead of digging into stone, hoping to bring in the local catch.",
    "spoiler": 0
   },
   {
    "title": "Murloc Infestations and Darkshore Grouper",
-   "body": "The Darkshore grouper is a prized coastal fish, versatile in cooking and famously spirited on the line. Normally, local fishermen would row small craft out into deeper waters to haul them in. However, the aggressive arrival of coastal murlocs has brought civilian boat traffic to a standstill. Fearing the creatures are devouring all the local fish stocks, Gubber recruits travelers willing to angle from the shoreline.",
+   "body": "Darkshore grouper thrive along the coast and make versatile food, but they can put up a lively fight on the line. Local fishermen usually row small boats into deeper waters to catch them. Now aggressive murlocs prowl the coast, and small boats no longer go out. Gubber fears the creatures are eating the local fish, so he asks travelers to fish from shore.",
    "spoiler": 0
   },
   {
    "title": "The Blump Legacy",
-   "body": "To reward those who bring him a hearty catch, Gubber parts with a Blump Family Fishing Pole. By his estimation, anyone capable of hauling in a batch of feisty groupers measures up to the legendary anglers of his bloodline\u2014including his bearded, sharp-scented cousin Graun Blump. To a dwarf of his eccentric tastes, handing over a family rod is the ultimate sign of respect.",
+   "body": "Gubber gives a Blump Family Fishing Pole to anyone who brings him a hearty catch. He believes anyone who can land a batch of feisty groupers is worthy of his family's legendary anglers, including his cousin Graun Blump. For Gubber, handing over a family rod is the highest mark of respect.",
    "spoiler": 0
   }
  ],
@@ -43,7 +43,7 @@
     "gubber blump lore",
     "auberdine dwarf fisherman"
    ],
-   "answer": "Gubber Blump is a dwarf fisherman stationed on the docks of Auberdine in Darkshore. Hailing from a proud family of anglers, he teaches basic fishing techniques and passes down his family's signature rods to promising fishermen."
+   "answer": "Gubber Blump is a dwarf fisherman on the docks of Auberdine in Darkshore. He comes from a proud family of anglers, teaches basic fishing techniques, and gives the family's signature rods to promising fishermen."
   },
   {
    "q": "Why aren't boats going out from Auberdine to fish?",
@@ -52,7 +52,7 @@
     "darkshore fishing boats",
     "auberdine boat trouble"
    ],
-   "answer": "Hostile murlocs have overrun large stretches of the Darkshore coastline. Their aggressive presence has made launching small personal fishing crafts far too dangerous, keeping local anglers pinned to the piers and shallows."
+   "answer": "Hostile murlocs prowl large stretches of the Darkshore coast, making it too dangerous to launch small fishing boats. Local anglers stay by the piers and shallows."
   },
   {
    "q": "What is a Darkshore grouper?",
@@ -60,7 +60,7 @@
     "darkshore grouper",
     "grouper darkshore"
    ],
-   "answer": "It is a native saltwater fish found off the misty coast of Darkshore. Anglers prize the grouper for both the challenge of landing one and its versatility in various hearty coastal recipes."
+   "answer": "A Darkshore grouper is a native saltwater fish found off Darkshore's coast. Anglers prize the lively fight it puts up and its use in hearty coastal recipes."
   },
   {
    "q": "Who is Graun Blump?",
@@ -68,7 +68,7 @@
     "graun blump",
     "gubber cousin"
    ],
-   "answer": "Graun is Gubber Blump's cousin. According to Gubber, she possesses a full beard, smells rather pungent, and stands among the finest anglers their family has ever produced."
+   "answer": "Graun Blump is Gubber's cousin and, in his telling, has a full beard and a pungent smell. He counts her among the finest anglers their family has produced."
   },
   {
    "q": "Why are there dwarves in a night elf town like Auberdine?",
@@ -76,7 +76,7 @@
     "why dwarves in auberdine",
     "dwarves in darkshore"
    ],
-   "answer": "Following the Third War and the forging of the Alliance, Ironforge dwarves and gnomes traveled across the sea to Kalimdor to trade, establish maritime links, and assist their new night elf allies with harbor infrastructure."
+   "answer": "After the Third War and the forging of the Alliance, dwarves and gnomes from Ironforge crossed the sea to Kalimdor. They came to trade, build maritime links, and help their new night elf allies with harbor infrastructure."
   },
   {
    "q": "What is the Blump Family Fishing Pole?",
@@ -85,21 +85,21 @@
     "blump family rod",
     "gubber reward pole"
    ],
-   "answer": "It is a sturdy fishing rod crafted and used by the Blump clan. Gubber bestows these treasured poles upon travelers who prove they have genuine angling talent along Darkshore's waters."
+   "answer": "The Blump Family Fishing Pole is a sturdy rod used by the Blump clan. Gubber gives these treasured poles to travelers who prove their angling skill in Darkshore's waters."
   }
  ],
  "angles": [
   {
    "target": "race:Dwarf",
-   "text": "Finding a fellow dwarf passionately dedicated to fishing rather than subterranean smithing or brewing is an eccentric reminder of your people's varied pursuits."
+   "text": "As a dwarf, finding another of your people devoted to fishing instead of subterranean smithing or brewing reminds you how varied dwarven pursuits can be."
   },
   {
    "target": "profession:Cooking",
-   "text": "Darkshore grouper makes for a reliable, nutritious catch along the northern Kalimdor coast, serving as a staple ingredient for frontier camp meals."
+   "text": "Darkshore grouper is a reliable, nutritious catch along northern Kalimdor's coast and a staple for meals at frontier camps."
   },
   {
    "target": "faction:Alliance",
-   "text": "Auberdine serves as a vital Alliance port on Kalimdor, where mainland races and night elves cooperate daily against coastal hazards like murlocs."
+   "text": "As an Alliance member, you find Auberdine's harbor bringing mainland races and night elves together against coastal dangers such as murlocs."
   }
  ],
  "keywords": [
@@ -122,5 +122,6 @@
  ],
  "attribution": [
   "The Family and the Fishing Pole"
- ]
+ ],
+ "style": 1
 }

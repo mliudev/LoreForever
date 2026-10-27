@@ -23,16 +23,16 @@
    "Call of Fire (5)"
   ]
  },
- "summary": "This pilgrimage marks the second trial in the shamanic pursuit to commune with fire. Sent by Kranal Fiss from the Barrens, an aspiring shaman carries the unlit Torch of the Dormant Flame to a secluded mountaintop shrine perched high over the Southfury River in Durotar.",
+ "summary": "In the Barrens, an aspiring shaman begins the second trial in the search for communion with fire. Kranal Fiss sends the initiate across the Southfury River to a secluded mountaintop shrine in Durotar, carrying the unlit Torch of the Dormant Flame.",
  "sections": [
   {
    "title": "A Test of Readiness",
-   "body": "While an initiate may demonstrate raw mystical strength, fire demands far more than power; it requires temperance, focus, and respect. Kranal Fiss entrusts the shaman with the Torch of the Dormant Flame. The object serves as both ritual instrument and credential, demonstrating to the shrine's keeper that the bearer has been formally judged ready to attempt the trial.",
+   "body": "Kranal Fiss entrusts the shaman with the Torch of the Dormant Flame. Raw mystical strength alone cannot meet fire’s demands; the trial calls for temperance, focus, and respect. The torch is both ritual instrument and proof to the shrine’s keeper that the bearer has been judged ready to attempt the trial.",
    "spoiler": 0
   },
   {
    "title": "The Hidden Peak",
-   "body": "The destination lies across the Southfury River within Durotar's southern crags. Marked only by a weathered stone inscribed with a fire rune, an obscure path climbs toward one of the region's highest heights. At its summit rests the Shrine of the Dormant Flame, watched over by the troll hermit Telf Joolam. Telf regularly turns away curious travelers and treasure hunters, safeguarding the sacred brazier from mundane eyes until a true petitioner arrives carrying the unlit torch.",
+   "body": "The shrine lies across the Southfury River, among Durotar’s southern crags. A weathered stone carved with a fire rune marks an obscure path that climbs toward one of the region’s highest peaks. At the summit, the Shrine of the Dormant Flame is watched by Telf Joolam, a troll hermit. He turns away curious travelers and treasure hunters, keeping the sacred brazier from ordinary eyes until a petitioner arrives with the unlit torch.",
    "spoiler": 0
   }
  ],
@@ -44,7 +44,7 @@
     "dormant flame torch",
     "torch meaning"
    ],
-   "answer": "The unlit torch is a token of intent provided by Kranal Fiss. It identifies the carrier as a worthy shaman initiate to Telf Joolam, the keeper of the shrine, who otherwise turns away casual wanderers and treasure seekers."
+   "answer": "Kranal Fiss gives the unlit torch as a token of intent. It identifies its bearer to Telf Joolam, keeper of the shrine, as a shaman initiate judged ready for the trial."
   },
   {
    "q": "Who is Telf Joolam?",
@@ -53,7 +53,7 @@
     "shrine keeper",
     "who is the troll at the shrine"
    ],
-   "answer": "Telf Joolam is a shamanic hermit of the Horde who watches over the Shrine of the Dormant Flame atop the peaks of southern Durotar. He safeguards the brazier from those who do not understand or respect the nature of the spirits."
+   "answer": "Telf Joolam is a shamanic hermit of the Horde who watches over the Shrine of the Dormant Flame atop southern Durotar’s peaks. He guards the brazier from those who do not understand or respect the spirits."
   },
   {
    "q": "Where is the hidden path located?",
@@ -62,7 +62,7 @@
     "how to find shrine of the dormant flame",
     "path up the mountain"
    ],
-   "answer": "The trail begins in Durotar, south of the bridge crossing the Southfury River. Along the riverbank near where the mountains meet the coastline, a standing stone marked with a flame rune marks the narrow trail ascending the high ridge."
+   "answer": "The hidden trail begins in Durotar, south of the bridge over the Southfury River. Near the riverbank, where the mountains meet the coastline, a standing stone marked with a flame rune signals the narrow ascent up the high ridge."
   },
   {
    "q": "Why must the torch be brought unlit?",
@@ -71,7 +71,7 @@
     "dormant torch ritual",
     "why dormant flame"
    ],
-   "answer": "Fire cannot simply be claimed; it must be awakened and mastered through proper ritual. Carrying the torch unlit symbolizes the dormant state of the flame before the shaman undertakes the communion required to kindle it."
+   "answer": "The torch is brought unlit because fire must be awakened and mastered through ritual, not simply claimed. Its dormant flame marks the state the shaman must kindle through communion."
   },
   {
    "q": "What happens after reaching Telf Joolam?",
@@ -79,7 +79,7 @@
     "next step call of fire",
     "what after telf joolam"
    ],
-   "answer": "Once Telf Joolam verifies the torch, he directs the initiate into the harsher, more dangerous rites needed to kindle the dormant flame and prove mastery over elemental fire."
+   "answer": "After Telf Joolam verifies the torch, he directs the initiate to harsher, more dangerous rites to kindle its dormant flame and prove mastery of elemental fire."
   },
   {
    "q": "Why is this shrine kept secret from the rest of the Horde?",
@@ -87,17 +87,17 @@
     "why secret shrine",
     "is the shrine hidden"
    ],
-   "answer": "Elemental forces are volatile and perilous in untrained hands. Shamanic traditions hold sacred sites away from everyday settlements so that treasure hunters and the curious do not disturb the resting spirits or invite calamity."
+   "answer": "The shrine is kept apart because elemental forces are volatile and dangerous in untrained hands. Shamanic traditions place sacred sites away from everyday settlements, so the curious and treasure hunters do not disturb resting spirits or invite calamity."
   }
  ],
  "angles": [
   {
    "target": "class:Shaman",
-   "text": "The path to the Fire Totem requires communing directly with the elemental forces of Kalimdor, demanding pilgrimage to remote shrines rather than simple instruction."
+   "text": "As a shaman, you seek the Fire Totem by communing with Kalimdor’s elemental forces. That path takes you to remote shrines, beyond simple instruction."
   },
   {
    "target": "faction:Horde",
-   "text": "The shared shamanic teachings between orcs, tauren, and trolls unify their spiritual traditions, sending disciples from the plains of the Barrens to the sacred cliffs of Durotar."
+   "text": "As a member of the Horde, you share shamanic teachings with orcs, tauren, and trolls. Those traditions send disciples from the Barrens’ plains to Durotar’s sacred cliffs."
   }
  ],
  "keywords": [
@@ -122,5 +122,6 @@
  ],
  "attribution": [
   "Call of Fire (2)"
- ]
+ ],
+ "style": 1
 }

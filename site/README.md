@@ -3,26 +3,32 @@
 **Optional GA4:** [GA4 setup and Patrick's reporting workflow](GA4.md) covers the production-only measurement ID,
 consent controls, event meanings, required Google settings and activation checks. Existing Sources reports remain in place.
 
-**Live:** https://loreforeverwow.com (Cloudflare Pages project `lore-forever`, also at https://lore-forever.pages.dev). Production deploys from the `site-live` branch of github.com/mliudev/lore-forever, not from `main`: pushes to
-`main` makes a preview deploy, so merging never changes the live site by itself.
+**Live:** https://loreforeverwow.com (Cloudflare Pages project `lore-forever`, also at https://lore-forever.pages.dev). Production deploys from the `site-live` branch of github.com/mliudev/lore-forever, not from `main`: merging to
+`main` never changes the live site by itself (and since 10/26 builds no preview either).
 Other PR branches do not automatically deploy to this project. The **Site preview**
 GitHub check builds an isolated preview artifact; see [Guides and site contributions](GUIDES.md).
 
 **Publishing the site** (after checking the preview of the commit you want live):
 
 ```bash
-git fetch origin && git push origin origin/main:site-live
+scripts/ship-site.sh origin/main        # or the reviewed merge commit's full SHA; --dry-run pushes nothing
 ```
 
-That fast-forwards `site-live` to main and Cloudflare deploys it to loreforeverwow.com. To roll back, push an older
-commit to `site-live` (`git push -f origin <sha>:site-live`) or use Rollback on an earlier production deployment in
-the Pages project.
+That fast-forwards `site-live` (refusing anything that isn't a fast-forward of a commit on main), waits for the commit's
+"Cloudflare Pages" check and prints `site build FAILED: <link>` (exit 1) or, once production serves the new build,
+`site live: <sha>`. **"Live" means that line**: a pushed `site-live` whose Pages build failed leaves production on the last
+good build (10/26: five hours of pushes reported "live" while every build failed). Nothing else pushes `site-live`.
+To roll back, use Rollback on an earlier production deployment in the Pages project (a force push builds again, and
+`ship-site.sh` refuses it).
+Pages bundles `site/functions` with its own wrangler (3.114.17, the version in a Pages build log; pinned as
+`WRANGLER_PAGES` in `scripts/check.sh`, whose "pages functions" check bundles them the same way before merge): keep
+to syntax that wrangler takes (no `import ... with { type: "json" }`).
 
 **The develop site** is https://develop.lore-forever.pages.dev: the `develop` branch, a scratch branch on Pages'
 Preview environment (Preview's own D1 `loreforever-preview` and R2 `lore-forever-voices-preview`, so its data is
 disposable). It's the one Preview address in the Google OAuth client, so it's where anything that needs signing in
 gets tested: put a branch there with `scripts/deploy-develop.sh <branch>` (a force push; it says what it replaces).
-Only `main`, `develop` and `preview` get Preview builds (Pages > Settings > Builds > Branch control, since 10/13).
+Only `develop` and `preview` get Preview builds (Pages > Settings > Builds > Branch control; `main` was dropped 10/26: its previews queued ahead of production builds, and Pages builds one at a time).
 The shared Preview environment has service secrets: only put reviewed code there. Contributor code uses the
 separate unbound preview described in [GUIDES.md](GUIDES.md), not this project's branch previews.
 Sign-in only works on develop, and no other preview address should be added to the OAuth client. develop holds one branch at a time: on release

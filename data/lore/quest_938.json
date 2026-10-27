@@ -17,16 +17,16 @@
   "wiki": "Mist (quest)",
   "chain": []
  },
- "summary": "Mist is an escort quest in the shaded boughs of Teldrassil. After discovering a wounded gray sabercat abandoned deep in the woods, travelers must shepherd her safely back to Sentinel Arynia Cloudsbreak at a nearby moon well.",
+ "summary": "In Teldrassil's shaded boughs, Mist lies wounded and separated from her companion. She needs a safe path back to Sentinel Arynia Cloudsbreak at a nearby moon well.",
  "sections": [
   {
    "title": "A Wounded Companion",
-   "body": "Tucked away amid the wild undergrowth of Teldrassil lies Mist, a distinctive gray sabercat marked by severe, slashing lacerations across her back and belly. Rather than acting as a feral beast of the wilds, Mist exhibits remarkable calm and bright intelligence in her blue eyes, immediately looking to friendly travelers for guidance and protection.",
+   "body": "A gray sabercat named Mist lies wounded among Teldrassil's undergrowth. Deep slashes mark her back and belly. Her blue eyes are bright, and she stays calm rather than acting like a feral beast. She looks to friendly travelers for guidance and protection.",
    "spoiler": 0
   },
   {
    "title": "The Price of Ambush",
-   "body": "Mist is the beloved companion of Sentinel Arynia Cloudsbreak. While patrolling the great boughs near the Oracle Tree, Arynia was caught off guard by foul witches who ambushed the pair and separated them. Believing her loyal pet had met a bloody end, Arynia withdrew in grief to the tranquility of a local moon well, where she desperately hoped against hope for Mist's survival.",
+   "body": "Sentinel Arynia Cloudsbreak and Mist were patrolling near the Oracle Tree when witches ambushed them and drove them apart. Arynia believed her beloved companion had died. Grieving, she withdrew to a nearby moon well and hoped Mist had survived.",
    "spoiler": 1
   }
  ],
@@ -38,7 +38,7 @@
     "what is mist",
     "who is the sabercat"
    ],
-   "answer": "Mist is a loyal gray sabercat companion belonging to Sentinel Arynia Cloudsbreak. She is found injured in the forests of Teldrassil after being separated from her master during a violent ambush."
+   "answer": "Mist is the loyal gray sabercat companion of Sentinel Arynia Cloudsbreak. She lies injured in Teldrassil's forests after an ambush separated her from Arynia."
   },
   {
    "q": "Who injured Mist?",
@@ -47,7 +47,7 @@
     "why is mist bleeding",
     "witches ambush mist"
    ],
-   "answer": "Mist and her master were ambushed by local witches lurking within the woods of Teldrassil. The attackers managed to separate the pair and inflicted deep lacerations across the cat's back and stomach."
+   "answer": "Witches in Teldrassil's woods ambushed Mist and Sentinel Arynia Cloudsbreak, separating them and slashing Mist's back and belly."
   },
   {
    "q": "Where should Mist be escorted?",
@@ -56,7 +56,7 @@
     "mist turn in",
     "mist destination"
    ],
-   "answer": "Mist needs to be brought safely to Sentinel Arynia Cloudsbreak, who is stationed beside the moon well near the Oracle Tree."
+   "answer": "Bring Mist safely to Sentinel Arynia Cloudsbreak, who waits beside a moon well near the Oracle Tree."
   },
   {
    "q": "Who is Sentinel Arynia Cloudsbreak?",
@@ -65,7 +65,7 @@
     "cloudsbreak",
     "mist owner"
    ],
-   "answer": "Arynia Cloudsbreak is a night elf Sentinel and Mist's companion. She is stationed at the moon well near the Oracle Tree."
+   "answer": "Sentinel Arynia Cloudsbreak is a night elf Sentinel and Mist's companion. She waits at the moon well near the Oracle Tree."
   },
   {
    "q": "Why are night elf Sentinels bonded with sabercats?",
@@ -74,7 +74,7 @@
     "sentinel sabercats",
     "why sabercats"
    ],
-   "answer": "Night elf Sentinels have fought alongside the great cats of Kalimdor for millennia, relying on them as fierce partners in skirmishes, scouts in the shadowy boughs, and trusted lifelong companions."
+   "answer": "For millennia, night elf Sentinels have fought beside Kalimdor's great cats. The sabercats serve as fierce partners in skirmishes, scouts among shadowed boughs, and trusted lifelong companions."
   },
   {
    "q": "Where is the Oracle Tree in relation to this rescue?",
@@ -82,21 +82,21 @@
     "oracle tree location",
     "moon well mist"
    ],
-   "answer": "The Oracle Tree sits in northwestern Teldrassil, with a nearby moon well providing holy waters where Sentinel Arynia Cloudsbreak tends to her duties."
+   "answer": "The Oracle Tree stands in northwestern Teldrassil. A nearby moon well provides holy waters, and Sentinel Arynia Cloudsbreak tends to her duties there."
   }
  ],
  "angles": [
   {
    "target": "race:NightElf",
-   "text": "The bond between Sentinel and sabercat is a cornerstone of night elf warfare and forest lore; rescuing Mist upholds that ancient, sacred companionship."
+   "text": "As a night elf, you know the bond between Sentinels and sabercats is central to your warfare and forest lore. Bringing Mist home honors that ancient companionship."
   },
   {
    "target": "class:Hunter",
-   "text": "Any beastmaster will recognize the fierce devotion and intelligent gaze in Mist's eyes, making her safe return to her partner a matter of professional pride."
+   "text": "As a hunter, you recognize the fierce devotion and bright gaze in Mist's eyes. Her safe return to her companion is a matter of pride."
   },
   {
    "target": "faction:Alliance",
-   "text": "Aiding the Sentinels in Teldrassil cements vital goodwill between the fledgling Alliance and the kaldorei defenders of the world tree."
+   "text": "As an Alliance member, you can aid the Sentinels in Teldrassil and build goodwill between the young Alliance and the kaldorei who defend the world tree."
   }
  ],
  "keywords": [
@@ -114,5 +114,6 @@
  ],
  "attribution": [
   "Mist (quest)"
- ]
+ ],
+ "style": 1
 }

@@ -7,16 +7,16 @@
  "meta": {
   "wiki": "Stagnant Oasis"
  },
- "summary": "The Stagnant Oasis is one of the precious bodies of water nestled in the arid heart of the Barrens, positioned between the Gold Road and the Merchant Coast. Ringed by lush palms and contested by Kolkar centaur, its murky waters and surrounding shores sustain unique local wildlife, including snapping turtles and wandering kodos.",
+ "summary": "Kolkar centaur guard the Stagnant Oasis in the dry heart of the Barrens. Its waters lie between the Gold Road and Merchant Coast, drawing wildlife to its banks.",
  "sections": [
   {
    "title": "A Murky Haven in the Drought",
-   "body": "Tucked away east of the Gold Road and inland from the Merchant Coast, the Stagnant Oasis provides a vital pocket of greenery amid the dusty scrubland of the Barrens. Like its neighboring waters, the pool supports dense foliage and aggressive snapjaw turtles, while weakened Barrens kodos often stray here away from the massive herds of the Field of Giants. However, travelers must tread carefully: Kolkar centaur maintain encampments along its banks, fiercely guarding the water rights against any who wander into their territory.",
+   "body": "East of the Gold Road, inland from the Merchant Coast, the Stagnant Oasis breaks up the dusty scrub of the Barrens. Dense foliage grows around the pool, where aggressive snapjaw turtles prowl. Weakened kodos often stray here from the great herds of the Field of Giants. Kolkar centaur keep camps along the banks and fiercely guard the water from anyone entering their territory.",
    "spoiler": 0
   },
   {
    "title": "Strange Waters",
-   "body": "Despite its stagnant appearance, the pool teems with unusual aquatic life, including strange mutate variants like Deviate Fish. Scholars and shamans keep a watchful eye on the Barrens oases, studying the peculiar forces affecting the local springheads and the wildlife that drinks from them.",
+   "body": "Strange life stirs in the pool, though its waters look still. Deviate Fish swim among other unusual creatures. Scholars and shamans watch the Barrens oases closely, studying the strange forces that affect local springheads and the wildlife that drinks from them.",
    "spoiler": 0
   }
  ],
@@ -28,7 +28,7 @@
     "where is stagnant oasis",
     "how to find stagnant oasis"
    ],
-   "answer": "The Stagnant Oasis lies in the central-southern stretch of the Barrens, located east of the Gold Road and west of the cliffs lining the Merchant Coast."
+   "answer": "The Stagnant Oasis lies in the central-southern Barrens, east of the Gold Road and west of the cliffs along the Merchant Coast."
   },
   {
    "q": "Who controls the Stagnant Oasis?",
@@ -37,7 +37,7 @@
     "stagnant oasis centaur",
     "enemies at stagnant oasis"
    ],
-   "answer": "Nomadic Kolkar centaur have established camps around the perimeter of the pool. In addition to the centaur, dangerous beasts such as Oasis Snapjaws and solitary, wandering kodos roam the surrounding greenery."
+   "answer": "Kolkar centaur have camps around the pool. Oasis Snapjaws and solitary, wandering kodos also roam the greenery nearby."
   },
   {
    "q": "Why are the kodos here easier to hunt?",
@@ -46,7 +46,7 @@
     "kodos stagnant oasis",
     "hunting kodos barrens"
    ],
-   "answer": "Unlike the massive, coordinated herds found further south in the Field of Giants, the kodos near the Stagnant Oasis are solitary and often weakened or lost, making them significantly easier prey for hunters and travelers."
+   "answer": "Kodos near the Stagnant Oasis are often solitary, weakened, or lost, unlike the great, coordinated herds farther south in the Field of Giants. That makes them easier prey for hunters and travelers."
   },
   {
    "q": "What kind of fish can be caught in the pool?",
@@ -55,7 +55,7 @@
     "deviate fish stagnant oasis",
     "fishing in stagnant oasis"
    ],
-   "answer": "Anglers can hook Deviate Fish from the murky pool, a peculiar catch that can be cooked into culinary delicacies prized across Kalimdor."
+   "answer": "Anglers can catch Deviate Fish in the murky pool. The fish can be cooked into delicacies prized across Kalimdor."
   },
   {
    "q": "Did Thrall visit this oasis during the Long March?",
@@ -64,17 +64,17 @@
     "long march oasis",
     "warcraft 3 oasis"
    ],
-   "answer": "No record says for certain. The Stagnant Oasis may have been one of the three watering holes Thrall and the newly arrived Horde secured while marching alongside Cairne Bloodhoof across the Barrens."
+   "answer": "No record confirms whether Thrall visited the Stagnant Oasis. It may have been one of the three watering holes Thrall and the newly arrived Horde secured while marching across the Barrens with Cairne Bloodhoof."
   }
  ],
  "angles": [
   {
    "target": "profession:Cooking",
-   "text": "The waters of the Stagnant Oasis yield rare Deviate Fish, the essential ingredient for baking Savory Deviate Delights."
+   "text": "The Stagnant Oasis yields rare Deviate Fish, the essential ingredient for Savory Deviate Delights."
   },
   {
    "target": "faction:Horde",
-   "text": "For Horde couriers and scouts traversing the territory between Crossroads and Taurajo, the centaur encampments at the oasis pose a constant threat to supply traffic on the Gold Road."
+   "text": "Horde couriers and scouts traveling between Crossroads and Taurajo face a constant threat from the centaur camps at the oasis, which menace supply traffic on the Gold Road."
   }
  ],
  "keywords": [
@@ -98,5 +98,6 @@
  ],
  "attribution": [
   "Stagnant Oasis"
- ]
+ ],
+ "style": 1
 }

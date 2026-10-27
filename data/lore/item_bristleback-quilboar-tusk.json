@@ -10,11 +10,11 @@
    "quest:899"
   ]
  },
- "summary": "Bristleback Quilboar Tusks are harvested from the slain Bristleback quilboar across the northern and central Barrens. Collected as proof of slaughter, they serve as gruesome tokens of vengeance for the grieving orc warrior Mankrik.",
+ "summary": "Across the northern and central Barrens, Bristleback Quilboar Tusks are taken from slain quilboar. Mankrik gathers them as proof of slaughter and tokens of vengeance.",
  "sections": [
   {
    "title": "Trophies of Vengeance",
-   "body": "Bristleback quilboar inhabit thickets and bramble dens throughout the Barrens, fiercely defending their territory against Horde expansion. Their tusks are prominent, jagged ivory used as natural weapons in close quarters. For Mankrik, a veteran warrior stationed at the Crossroads whose wife was lost during a vicious quilboar ambush, these tusks represent more than simple hunter trophies. Collecting dozens of them is a measure of pure retribution, a bloody tally meant to ensure the Bristlebacks suffer as deeply as he has.",
+   "body": "Bristleback quilboar defend their territory across the Barrens against Horde expansion. Their jagged ivory tusks serve as weapons in close combat. Mankrik, a veteran orc warrior stationed at the Crossroads, lost his wife in a vicious quilboar ambush. He gathers dozens of tusks as retribution, a bloody count of the suffering he means to return to the Bristlebacks.",
    "spoiler": 0
   }
  ],
@@ -26,7 +26,7 @@
     "who takes bristleback quilboar tusk",
     "tusk turn in"
    ],
-   "answer": "Mankrik, an orc warrior stationed at the Crossroads in the Barrens, demands them. He seeks retribution against the Bristleback quilboar following a tragic ambush that separated him from his wife."
+   "answer": "Mankrik, an orc warrior at the Crossroads in the Barrens, wants the tusks. He seeks vengeance against the Bristleback quilboar after an ambush separated him from his wife."
   },
   {
    "q": "Why does Mankrik want so many tusks?",
@@ -35,7 +35,7 @@
     "why does mankrik want tusks",
     "mankrik revenge"
    ],
-   "answer": "Mankrik is consumed by grief and fury after being overwhelmed and left for dead by quilboar raiders. Gathering sixty tusks provides him tangible proof that the Bristleback tribe is being relentlessly culled in return."
+   "answer": "After quilboar raiders overwhelmed Mankrik and left him for dead, he was consumed by grief and fury. Sixty tusks give him proof that the Bristleback tribe is being culled in return."
   },
   {
    "q": "Which quilboar carry these tusks?",
@@ -43,7 +43,7 @@
     "where do bristleback tusks drop",
     "who drops bristleback quilboar tusk"
    ],
-   "answer": "They are taken from members of the Bristleback tribe found wandering the northern and central scrublands and bramble camps of the Barrens."
+   "answer": "Members of the Bristleback tribe carry these tusks in the northern and central scrublands and bramble camps of the Barrens."
   },
   {
    "q": "Do these tusks serve any purpose other than Mankrik's vendetta?",
@@ -51,17 +51,17 @@
     "bristleback tusk uses",
     "can you craft with quilboar tusks"
    ],
-   "answer": "No. While quilboar tusks can sometimes be used in tribal trinkets or trade goods, these particular trophies are collected solely to satisfy Mankrik's thirst for vengeance."
+   "answer": "Mankrik gathers these trophies solely for vengeance. Quilboar tusks can sometimes become tribal trinkets or trade goods, but these are not put to those uses."
   }
  ],
  "angles": [
   {
    "target": "faction:Horde",
-   "text": "The quilboar threaten the Crossroads and supply trails across the Barrens; collecting tusks aids both Mankrik's private vendetta and the Horde's broader effort to pacify the region."
+   "text": "The quilboar threaten the Crossroads and supply trails across the Barrens. Gathering tusks serves Mankrik's vendetta and the Horde's effort to pacify the region."
   },
   {
    "target": "race:Orc",
-   "text": "Orcs understand blood debts and warrior grief, making Mankrik's brutal quest for sixty quilboar trophies a matter of shared honor."
+   "text": "As an orc, you know the weight of blood debts and a warrior's grief. Mankrik's pursuit of sixty quilboar trophies touches a shared sense of honor."
   }
  ],
  "keywords": [
@@ -83,5 +83,6 @@
  "attribution": [
   "Bristleback Quilboar Tusk",
   "Consumed by Hatred (Classic)"
- ]
+ ],
+ "style": 1
 }

@@ -8,21 +8,21 @@
   "wiki": "Ilthalaine",
   "refs": 7
  },
- "summary": "Ilthalaine is a night elf guardian standing watch over the sacred glade of Shadowglen in Teldrassil. He serves as the primary greeter and mentor for young night elves taking their very first steps into the world. Vigilant and attuned to the wilderness, he guides novice adventurers toward maintaining the delicate balance of nature across the boughs of the World Tree.",
+ "summary": "In Shadowglen, Ilthalaine keeps watch over the sacred glade and guides young night elves as they begin their lives in Teldrassil. He teaches them to defend their home and tend its balance.",
  "sections": [
   {
    "title": "Guardian of the Glen",
-   "body": "Positioned just outside the heart of Shadowglen, Ilthalaine is often the first face a fledgling night elf sees upon beginning their journey. He observes the woodland paths and notices the subtle shifts within the forest that go unseen by ordinary eyes. His duty is to welcome returning kin and ensure that any newly awakened defenders are grounded in the traditions of their people, ready to face the responsibilities that come with tending to Teldrassil.",
+   "body": "Ilthalaine watches the woodland paths just outside Shadowglen's heart. He sees changes in the forest that ordinary eyes miss. When young night elves awaken to their duties, he welcomes them and grounds them in Kaldorei traditions. His guidance prepares them to care for Teldrassil and shoulder the responsibilities of its defenders.",
    "spoiler": 0
   },
   {
    "title": "The Balance of Nature",
-   "body": "Heavy spring rains have allowed the nightsaber and thistle boar populations in Shadowglen to grow beyond what the glade can feed. Ilthalaine asks young defenders to thin their numbers so that the woodland's other creatures can flourish and nature's balance can be preserved.",
+   "body": "Heavy spring rains have brought more nightsabers and thistle boars to Shadowglen than the glade can feed. Ilthalaine asks young defenders to thin their numbers, leaving room for the woodland's other creatures to flourish and restoring nature's balance.",
    "spoiler": 0
   },
   {
    "title": "A Guide to Discipline",
-   "body": "Beyond testing an adventurer's martial prowess against local wildlife, Ilthalaine directs young elves toward their chosen callings. Entrusting each traveler with a class sigil, he points them directly to their mentors within the Aldrassil sanctuary—whether they follow the path of the warrior, druid, rogue, priest, or hunter. Through him, every novice learns where their service to the Kaldorei begins.",
+   "body": "Ilthalaine tests young elves against local wildlife and points them toward their chosen callings. He gives each traveler a class sigil and directs them to their mentors in the Aldrassil sanctuary. Warriors, druids, rogues, priests, and hunters all find where their service to the Kaldorei begins.",
    "spoiler": 0
   }
  ],
@@ -34,7 +34,7 @@
     "who is this night elf",
     "shadowglen quest giver"
    ],
-   "answer": "Ilthalaine is a Kaldorei overseer located in Shadowglen, the sheltered starting bower of Teldrassil. He serves as the first quest giver for newly created night elf adventurers, introducing them to their duties and the state of the forest."
+   "answer": "Ilthalaine watches over Shadowglen, the sheltered glade in Teldrassil. He introduces newly arrived night elves to their duties and the state of the forest."
   },
   {
    "q": "What is Ilthalaine's role in Shadowglen?",
@@ -43,7 +43,7 @@
     "why is he here",
     "ilthalaine purpose"
    ],
-   "answer": "He watches over the wildlife in Shadowglen and ensures new night elves understand the importance of nature's equilibrium. He sends young initiates on basic hunts and directs them to their respective class trainers inside the great tree of Aldrassil."
+   "answer": "Ilthalaine watches Shadowglen's wildlife and teaches young night elves to preserve nature's balance. He sends them to hunt and points them to their class mentors inside Aldrassil."
   },
   {
    "q": "Why does Ilthalaine want the young nightsabers and boars culled?",
@@ -52,7 +52,7 @@
     "why kill nightsabers",
     "why kill boars"
    ],
-   "answer": "Heavy spring rains have increased the nightsaber and thistle boar populations beyond what Shadowglen can support. Ilthalaine asks for a cull to preserve nature's balance."
+   "answer": "Heavy spring rains have increased the nightsaber and thistle boar populations beyond what Shadowglen can support. Ilthalaine asks for their numbers to be thinned so nature's balance can be preserved."
   },
   {
    "q": "What are the sigils he gives out?",
@@ -63,7 +63,7 @@
     "encrypted sigil",
     "hallowed sigil"
    ],
-   "answer": "Ilthalaine gives class-specific inscribed sigils to novices, instructing them to seek out their trainers—such as priestesses, druids, warriors, and rogues—sheltered within the roots of Aldrassil."
+   "answer": "Ilthalaine gives novices class sigils and directs them to their mentors within Aldrassil, including priestesses, druids, warriors, and rogues."
   },
   {
    "q": "Where can Ilthalaine be found?",
@@ -72,7 +72,7 @@
     "where is ilthalaine",
     "ilthalaine coords"
    ],
-   "answer": "He stands right on the central path of Shadowglen, just south of the massive hollow bough of Aldrassil in Teldrassil."
+   "answer": "Ilthalaine stands on Shadowglen's central path, just south of Aldrassil's great hollow bough in Teldrassil."
   },
   {
    "q": "Is Ilthalaine affiliated with the druids or the sentinels?",
@@ -80,21 +80,21 @@
     "is he a druid",
     "what faction is ilthalaine"
    ],
-   "answer": "Ilthalaine acts as a general caretaker and representative of the Kaldorei in Shadowglen. While deeply attuned to nature and the druidic ethos of harmony, he works on behalf of all Darnassian leadership to guide novices of every discipline."
+   "answer": "Ilthalaine guides novices of every discipline in Shadowglen. He is attuned to nature's harmony and represents the Kaldorei there."
   }
  ],
  "angles": [
   {
    "target": "race:NightElf",
-   "text": "Ilthalaine is the first mentor every young night elf encounters, offering foundational wisdom about stewardship and the sacred balance of their newfound home on Teldrassil."
+   "text": "As a young night elf, you meet Ilthalaine first. He teaches you to care for your home on Teldrassil and preserve its sacred balance."
   },
   {
    "target": "class:Druid",
-   "text": "For budding druids, Ilthalaine's teachings on culling and natural equilibrium provide their very first practical lessons in Cenarion principles."
+   "text": "As a budding druid, you find your first practical lessons in Cenarion principles in Ilthalaine's teachings on culling and nature's balance."
   },
   {
    "target": "faction:Alliance",
-   "text": "He represents the calm, enduring vigilance of the Kaldorei, welcoming new champions into the service of Darnassus and the broader Alliance."
+   "text": "As an Alliance champion, you meet Ilthalaine's calm Kaldorei vigilance as he welcomes new champions into the service of Darnassus and the Alliance."
   }
  ],
  "keywords": [
@@ -119,5 +119,6 @@
  ],
  "attribution": [
   "Ilthalaine"
- ]
+ ],
+ "style": 1
 }

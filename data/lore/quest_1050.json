@@ -1,0 +1,82 @@
+{
+ "key": "quest:1050",
+ "type": "quest",
+ "name": "Mythology of the Titans",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   1050
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "Librarian Mae Paledust in Ironforge seeks a book said to have been kept in the old Monastery of Tirisfal. Its study may help reveal what the past can teach about the unknown ahead.",
+ "sections": [
+  {
+   "title": "A Lost Volume",
+   "body": "Before troubles came to Lordaeron, the old Monastery in Tirisfal Glades held a library of knowledge. Mae asks you to retrieve a book called Mythology of the Titans from there and bring it to her in Ironforge. She hopes that studying it will help uncover secrets of the past.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is asking for the book?",
+   "aliases": [
+    "who wants it",
+    "Mae Paledust book",
+    "librarian Mae"
+   ],
+   "answer": "Librarian Mae Paledust in Ironforge asks you to bring her Mythology of the Titans."
+  },
+  {
+   "q": "Where is Mythology of the Titans said to be?",
+   "aliases": [
+    "where book",
+    "monastery book",
+    "titan book location"
+   ],
+   "answer": "The book is rumored to be in the library of the old Monastery in Tirisfal Glades."
+  },
+  {
+   "q": "What is Mythology of the Titans?",
+   "aliases": [
+    "what's the book",
+    "titan mythology",
+    "mythology book"
+   ],
+   "answer": "It is a book said to have been housed in the old Monastery's library in Tirisfal Glades."
+  },
+  {
+   "q": "Why does Mae want the book?",
+   "aliases": [
+    "why get it",
+    "why Mae needs it",
+    "what's it for"
+   ],
+   "answer": "Mae hopes studying the book may help reveal secrets of the past and prepare for the unknown."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "book",
+  "ironforge",
+  "librarian mae paledust",
+  "mae paledust",
+  "mythology of the titans",
+  "old monastery",
+  "tirisfal glades",
+  "titans"
+ ],
+ "related": [
+  "zone:tirisfal",
+  "zone:ironforge",
+  "subzone:library-ironforge",
+  "topic:titan",
+  "topic:lordaeron"
+ ],
+ "style": 1,
+ "attribution": [
+  "In-game quest text: Mythology of the Titans"
+ ]
+}

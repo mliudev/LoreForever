@@ -1,0 +1,78 @@
+{
+ "key": "quest:94979",
+ "type": "quest",
+ "name": "Taming the Beast",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   94979
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "Quel'ana Quickgale asks you to tame a galestrider in the Gustberry Lowlands. Your skill on open ground will prepare you for trials ahead.",
+ "sections": [
+  {
+   "title": "Across the Plains",
+   "body": "You've already shown you can tame the river's crawler. Quel'ana Quickgale now gives you a Taming Rod and asks you to seek a galestrider in the lowlands of Zephras. The proud, winged creature runs swiftly across the plains. Earn its trust, practice your skill, and bring the rod back to Quel'ana in Valanaar.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What does Quel'ana want me to tame?",
+   "aliases": [
+    "tame what",
+    "galestrider tame",
+    "what beast"
+   ],
+   "answer": "Quel'ana asks you to tame an Ornery Galestrider in the Gustberry Lowlands."
+  },
+  {
+   "q": "Where do I find the galestrider?",
+   "aliases": [
+    "where galestrider",
+    "galestrider location",
+    "lowlands where"
+   ],
+   "answer": "The Ornery Galestrider is in the Gustberry Lowlands, in the plains of Zephras."
+  },
+  {
+   "q": "What is the Taming Rod for?",
+   "aliases": [
+    "taming rod use",
+    "rod for what",
+    "how tame beast"
+   ],
+   "answer": "Quel'ana gives you the Taming Rod to tame an Ornery Galestrider."
+  },
+  {
+   "q": "Who gave me this assignment?",
+   "aliases": [
+    "who sent me",
+    "quelana who",
+    "quickgale"
+   ],
+   "answer": "Quel'ana Quickgale in Valanaar asks you to tame an Ornery Galestrider and return the Taming Rod."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "galestrider",
+  "gustberry lowlands",
+  "ornery galestrider",
+  "quel'ana quickgale",
+  "taming rod",
+  "taming the beast",
+  "valanaar",
+  "zephras"
+ ],
+ "related": [
+  "item:taming-rod"
+ ],
+ "style": 1,
+ "attribution": [
+  "In-game quest text: Taming the Beast"
+ ]
+}

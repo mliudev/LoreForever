@@ -8,16 +8,16 @@
   "wiki": "Canaga Earthcaller",
   "refs": 5
  },
- "summary": "Canaga Earthcaller is a Darkspear troll shaman stationed in the sunbaked Valley of Trials. He instructs novice Horde shamans in communing with the spirits of the land and obtaining their first elemental totems.",
+ "summary": "In the Valley of Trials, Canaga Earthcaller guides new Horde shamans toward the spirits of the land and their first totems.",
  "sections": [
   {
    "title": "Voice of the Land",
-   "body": "Perched on the red bluffs of the Valley of Trials, Canaga Earthcaller serves as one of the very first spiritual guides for Darkspear trolls and orcs who walk the path of the shaman. While many trainers focus strictly on martial readiness, Canaga teaches newcomers how to quiet their minds and listen to the rumblings of Kalimdor itself, preparing the earth sapta necessary to commune with the spirits.",
+   "body": "Canaga Earthcaller guides Darkspear trolls and orcs who begin the shaman’s path from the red bluffs of the Valley of Trials. He teaches newcomers to quiet their minds and listen to Kalimdor’s rumblings. They prepare earth sapta so they can commune with the spirits.",
    "spoiler": 0
   },
   {
    "title": "The First Totem",
-   "body": "Before any fledgling shaman can truly channel the elemental fury of the earth, they must prove their respect and resolve to the spirits. Canaga directs initiates to gather sacred reagents and journey to the local spirit rock in Durotar. Through his guidance, novices drink the earth sapta, behold the elemental spirits firsthand, and earn their Earth Totem.",
+   "body": "Canaga asks each novice to gather sacred reagents and travel to the local spirit rock in Durotar. There, they drink earth sapta and see the elemental spirits firsthand. Through his guidance, they earn their Earth Totem.",
    "spoiler": 0
   }
  ],
@@ -29,7 +29,7 @@
     "who is canaga",
     "canaga earthcaller npc"
    ],
-   "answer": "Canaga Earthcaller is a Darkspear troll shaman residing in the Valley of Trials. He mentors young shamans taking their first steps in the Horde."
+   "answer": "Canaga Earthcaller is a Darkspear troll shaman in the Valley of Trials. He mentors young shamans taking their first steps in the Horde."
   },
   {
    "q": "What does Canaga teach young shamans?",
@@ -38,7 +38,7 @@
     "call of earth durotar",
     "canaga quests"
    ],
-   "answer": "Canaga oversees the Call of Earth ritual chain for Horde shamans starting in Durotar. He brews the Earth Sapta, a mystical draught that allows initiates to perceive and speak with the local earth elemental spirit to earn their first totem."
+   "answer": "Canaga guides Horde shamans through the Call of Earth ritual chain in Durotar. He brews Earth Sapta, which lets initiates perceive and speak with the local earth elemental spirit as they seek their first totem."
   },
   {
    "q": "What is the Earth Sapta Canaga prepares?",
@@ -46,7 +46,7 @@
     "what is earth sapta",
     "sapta lore"
    ],
-   "answer": "Earth Sapta is a specially brewed spiritual draught crafted from regional reagents. Shamans drink it to open their senses to the hidden spirits of the land, allowing them to communicate directly with elemental manifestations."
+   "answer": "Earth Sapta is a spiritual draught Canaga brews from regional reagents. Shamans drink it to open their senses to the land’s hidden spirits and speak with elemental manifestations."
   },
   {
    "q": "Why is a troll training shamans in an orcish proving ground?",
@@ -54,7 +54,7 @@
     "why troll in valley of trials",
     "darkspear in valley of trials"
    ],
-   "answer": "Following the Third War, the Darkspear tribe integrated closely with Thrall's Horde and settled alongside the orcs in Durotar. Troll shamans and warriors now train side by side with young orcs within the Valley of Trials."
+   "answer": "After the Third War, the Darkspear tribe joined closely with Thrall’s Horde and settled alongside the orcs in Durotar. Troll shamans and warriors now train beside young orcs in the Valley of Trials."
   },
   {
    "q": "Where can Canaga Earthcaller be found?",
@@ -62,21 +62,21 @@
     "canaga location",
     "where is canaga"
    ],
-   "answer": "Canaga sits on the rock plateaus overlooking the eastern paths of the Valley of Trials, just south of the main training hub."
+   "answer": "Canaga sits on rock plateaus overlooking the Valley of Trials’ eastern paths, just south of the main training hub."
   }
  ],
  "angles": [
   {
    "target": "class:Shaman",
-   "text": "Canaga is your very first spiritual mentor in Durotar, preparing the Earth Sapta so you can commune with the elements and claim your Earth Totem."
+   "text": "As a shaman, you meet Canaga as your first spiritual mentor in Durotar. He prepares Earth Sapta so you can commune with the elements and claim your Earth Totem."
   },
   {
    "target": "race:Troll",
-   "text": "As one of the prominent Darkspear figures in the Valley of Trials, Canaga makes sure young troll shamans begin their path with the spirits properly guided."
+   "text": "As a troll, you find Canaga among the prominent Darkspear figures in the Valley of Trials. He guides young troll shamans as they begin their path with the spirits."
   },
   {
    "target": "race:Orc",
-   "text": "Canaga works side by side with orcish instructors in the valley, helping young orcs bind their spirit to the harsh soil of their new homeland."
+   "text": "As an orc, you find Canaga working alongside orcish instructors in the valley. He helps young orcs bind their spirits to the harsh soil of their new homeland."
   }
  ],
  "keywords": [
@@ -98,5 +98,6 @@
  ],
  "attribution": [
   "Canaga Earthcaller"
- ]
+ ],
+ "style": 1
 }

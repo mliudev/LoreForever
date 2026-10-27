@@ -10,16 +10,16 @@
    "quest:1442"
   ]
  },
- "summary": "A Corrupted Kor Gem is a potent magical conduit warped by the dark rites of the naga residing around Blackfathom Deeps. Spellcasters covet such stones for their capacity to store sheer arcane force, though the gem's tainted state demands purification before it can serve righteous crafts.",
+ "summary": "Around Blackfathom Deeps, naga rites leave Kor gems corrupted. Spellcasters prize the stones for holding arcane force, but this taint must be cleansed before a gem can be used in righteous smithing.",
  "sections": [
   {
    "title": "Vessels of Tainted Power",
-   "body": "Kor gems naturally possess the rare ability to capture and contain substantial magical energies, making them invaluable focuses for sorcerers and enchanted smithing. Along the coastline near the ruins of Blackfathom Deeps, however, the resident naga oracles and tide priestesses claim these gems for their own shadowy rituals. Through foul enchantments, the serpent-kin warp the stone, suffusing it with malevolent, sea-borne corruption. While this infusion taints the gem's nature, the core latent power remains potent, drawing those in need of exceptional magical foci to harvest them from the naga.",
+   "body": "Kor gems can capture and hold great stores of magic, making them prized by sorcerers and enchanted smiths. Near the ruins of Blackfathom Deeps, naga oracles and tide priestesses claim the stones for their shadowy rites. Their foul enchantments warp each gem with corruption from the sea. The taint does not drain the stone's latent power, so those who need a potent focus still seek gems among the naga.",
    "spoiler": 0
   },
   {
    "title": "Purification and Smithing",
-   "body": "A Corrupted Kor Gem must be purified before Thundris Windweaver will allow it to be taken to Jordan Stilwell. The night elf of Auberdine cleanses the naga's evil magic and assures the paladin that the gem's power remains intact, ready for the blacksmith's ritual.",
+   "body": "Thundris Windweaver requires a Corrupted Kor Gem to be purified before it can be taken to Jordan Stilwell. The night elf in Auberdine cleanses the naga's evil magic and assures the paladin that the gem's power remains intact for the blacksmith's ritual.",
    "spoiler": 1
   }
  ],
@@ -31,7 +31,7 @@
     "purpose of kor gem",
     "kor gem lore"
    ],
-   "answer": "Kor gems act as powerful conduits and reservoirs for arcane energy. Spellcasters utilize them to hold immense reserves of power for their incantations, while skilled blacksmiths embed them into enchanted weapons to channel magical forces."
+   "answer": "Kor gems hold arcane energy for spellcasters and can be set into enchanted weapons by skilled blacksmiths, who use them to channel magic."
   },
   {
    "q": "Where are Corrupted Kor Gems found?",
@@ -40,7 +40,7 @@
     "kor gem location",
     "who drops kor gem"
    ],
-   "answer": "Corrupted Kor Gems are carried by naga spellcasters\u2014specifically Blackfathom Tide Priestesses and Blackfathom Oracles\u2014who dwell outside and within the ancient ruins leading to Blackfathom Deeps on the Ashenvale and Darkshore border."
+   "answer": "Naga spellcasters carry Corrupted Kor Gems around Blackfathom Deeps, outside and within its ancient ruins on the Ashenvale and Darkshore border. Blackfathom Tide Priestesses and Blackfathom Oracles bear them."
   },
   {
    "q": "Why must the gem be purified?",
@@ -49,7 +49,7 @@
     "why purify kor gem",
     "is the gem evil"
    ],
-   "answer": "The naga saturate the gems with foul magic during their rituals. Attempting to use a corrupted gem in sacred crafting could contaminate the forge or the wielder, requiring a master of nature or light, such as Thundris Windweaver, to purge the evil before it is worked into an arm."
+   "answer": "Naga rites fill the gems with foul magic. Before one can be worked into an arm, a master of nature or light such as Thundris Windweaver must purge the evil."
   },
   {
    "q": "Does cleansing the gem preserve its power?",
@@ -57,17 +57,17 @@
     "does purification ruin the gem",
     "weaker after purification"
    ],
-   "answer": "Yes. After purifying the gem, Thundris Windweaver assures the paladin that its power is intact and that it should work well for Jordan Stilwell's ritual."
+   "answer": "Yes. Thundris Windweaver assures the paladin that purification leaves the gem's power intact for Jordan Stilwell's ritual."
   }
  ],
  "angles": [
   {
    "target": "class:Paladin",
-   "text": "Paladins seeking to forge sacred armaments must recover and purify a Kor Gem as a testament to their ability to confront evil and cleanse darkness into righteous strength."
+   "text": "As a paladin, you must recover and purify a Kor Gem to forge a sacred armament, proving you can face evil and cleanse darkness into righteous strength."
   },
   {
    "target": "race:NightElf",
-   "text": "Night elf scholars like Thundris Windweaver recognize the danger of naga relics encroaching on Darkshore and safeguard the knowledge needed to cleanse the ancient stones."
+   "text": "As a night elf, you know the danger naga relics bring to Darkshore. Scholars like Thundris Windweaver preserve the knowledge needed to cleanse the ancient stones."
   }
  ],
  "keywords": [
@@ -90,5 +90,6 @@
  "attribution": [
   "Corrupted Kor Gem",
   "Seeking the Kor Gem"
- ]
+ ],
+ "style": 1
 }

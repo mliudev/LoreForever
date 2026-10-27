@@ -1849,9 +1849,9 @@
     "subzone:darnassus": {
       "1": [
         {
-          "duration": 96.86204081632654,
-          "file": "Audio/Transport/full_subzone_darnassus-5d6369f81d9e8b3ca405/1-0000.mp3",
-          "sha256": "ce5ab0759db29601d0c5faa2d9f9833914307fd29cb86d68a0c699b65e8492c7",
+          "duration": 82.75591836734694,
+          "file": "Audio/Transport/full_subzone_darnassus-026b245be804b67852b9/1-0000.mp3",
+          "sha256": "81eeee3ed3cb3def00cf3fb8034f76ad97d372b77286471d338c8b2c245d42da",
           "start": 0
         }
       ],
@@ -1862,15 +1862,15 @@
           "1"
         ]
       },
-      "fullHash": "71e8df",
-      "generation": "8e739d925aa2671a21df",
-      "hash": "71e8df",
+      "fullHash": "a40435",
+      "generation": "34659dbc9b9d7570d720",
+      "hash": "a40435",
       "source": {
-        "duration": 96.835875,
+        "duration": 82.782041,
         "file": null,
-        "sha256": "5d6369f81d9e8b3ca405a3c390cc1037b052ee6811b969ee21444ce324157b0d"
+        "sha256": "026b245be804b67852b9e2270ecc0ebb6f1f526e4ea9ca92beb9ad247f72d8d4"
       },
-      "text": "Darnassus. High amidst the sweeping boughs of Teldrassil stands Darnassus, the capital refuge of the kaldorei. Built along tranquil waters and verdant groves, it serves as the spiritual heart of the night elves and the primary Alliance bastion on northern Kalimdor. From here, High Priestess Tyrande Whisperwind and Archdruid Fandral Staghelm guide their people through the trials of newfound mortality. Constructed in the aftermath of the Third War, Darnassus was founded to honor the survival of the night elf people after the loss of the immortality granted by their sacred World Tree, Nordrassil. Unlike the dense stone metropolises of Ironforge or Stormwind, Darnassus is an open, tranquil settlement of wood-crafted lodges, glowing shrines, and arched bridges spanning crystalline lakes. Vigilant Sentinels, towering ancients of war, and tree-shaping druids keep watch over the paths, ensuring that the peaceful quiet of nature is preserved within the city's borders. While Darnassus represents the unity of the kaldorei, its governance reflects subtle fractures. High Priestess Tyrande Whisperwind presides over civil and military matters from the radiant Temple of the Moon, surrounded by the Sisters of Elune. Meanwhile, the Cenarion Circle's affairs fall under Archdruid Fandral Staghelm, who championed the planting of Teldrassil to restore the elves' lost immortality. With Malfurion Stormrage lost in a mysterious slumber deep within the Emerald Dream, Staghelm's aggressive vision for their future frequently creates friction with the more patient priesthood."
+      "text": "Darnassus. Darnassus rises among Teldrassil’s high boughs as the kaldorei capital and refuge. Its tranquil waters and groves make it the night elves’ spiritual heart and the Alliance’s primary bastion on northern Kalimdor. High Priestess Tyrande Whisperwind and Archdruid Fandral Staghelm guide their people through the trials of newfound mortality. Darnassus took shape after the Third War, honoring the night elves’ survival after they lost the immortality granted by their sacred World Tree, Nordrassil. Unlike the stone cities of Ironforge and Stormwind, it is an open, tranquil settlement of wood-crafted lodges, glowing shrines, and arched bridges over crystalline lakes. Vigilant Sentinels, towering ancients of war, and druids who shape trees watch the paths and preserve nature’s quiet within the city. Darnassus speaks of kaldorei unity, though its leadership is divided between different duties. High Priestess Tyrande Whisperwind handles civil and military matters from the radiant Temple of the Moon, with the Sisters of Elune around her. Archdruid Fandral Staghelm leads the Cenarion Circle’s affairs and championed planting Teldrassil to restore the elves’ lost immortality. Malfurion Stormrage is lost in a mysterious slumber deep within the Emerald Dream, and Staghelm’s aggressive vision for the future often clashes with the more patient priesthood."
     },
     "subzone:darrow-hill": {
       "1": [
@@ -6035,9 +6035,9 @@
     "subzone:orgrimmar": {
       "1": [
         {
-          "duration": 82.18122448979592,
-          "file": "Audio/Transport/full_subzone_orgrimmar-9810cb633f0e0052906e/1-0000.mp3",
-          "sha256": "d5c1ab6a1567f3951ef98d813a5480d3426cde6dfb601e2c89986ded9b5e883b",
+          "duration": 68.41469387755102,
+          "file": "Audio/Transport/full_subzone_orgrimmar-213253d8e3926bd3fd22/1-0000.mp3",
+          "sha256": "9a360c4de75bebddaad2d8fd773bbfc615aae1f41602b51215ccebcaa05fd488",
           "start": 0
         }
       ],
@@ -6048,15 +6048,15 @@
           "1"
         ]
       },
-      "fullHash": "75d743",
-      "generation": "318578009c5f61a1b03d",
-      "hash": "75d743",
+      "fullHash": "3cea5d",
+      "generation": "daa459c9317515dc8fcc",
+      "hash": "3cea5d",
       "source": {
-        "duration": 82.155063,
+        "duration": 68.440816,
         "file": null,
-        "sha256": "9810cb633f0e0052906ed541d2fe9b57fb965f966c4aa0e69b8aa84b92d3078a"
+        "sha256": "213253d8e3926bd3fd2236d90ec0d78bd2ab8051053ed4fb6f1b4e30ab22e292"
       },
-      "text": "Orgrimmar. Orgrimmar is the formidable warrior capital of the New Horde, carved into the winding red canyons of northern Durotar. Founded by Warchief Thrall and named in memory of Orgrim Doomhammer, it serves as the beating heart of orcish renewal and intertribal survival on Kalimdor. Following the Third War and the victory at Mount Hyjal, Warchief Thrall brought his surviving people south to establish a permanent homeland in Durotar. Nestled into a natural barrier of sheer mountain crags, Orgrimmar was engineered to withstand siege, boasting spiked timber palisades, stone watchtowers, and deep mountain-carved caverns. Built in cooperation with the Darkspear trolls, tauren stonemasons, and goblin engineers, the fortress turned a desolate wilderness into an unassailable bastion of strength. Free of the demonic bloodlust that once bound them, the orcs built Orgrimmar as a beacon of honor, community, and survival. Today in 25 ADP, the city houses not only orcs and Darkspear trolls, but also welcomes emissaries from the tauren of Mulgore and emissaries from the newly allied Forsaken. Within its fortified canyons, shamans instruct the next generation in ancestral balance, while veterans clash in gladiatorial rings to hone the army that shields the fragile peace of Kalimdor."
+      "text": "Orgrimmar. In northern Durotar, Orgrimmar rises as the New Horde’s warrior capital. Warchief Thrall founded the city in memory of Orgrim Doomhammer, and its red canyons shelter the orcs’ renewal and survival on Kalimdor. After the Third War and the victory at Mount Hyjal, Warchief Thrall brought his surviving people south to make a homeland in Durotar. Orgrimmar was built among steep mountain crags, with spiked timber walls, stone watchtowers, and caverns cut deep into the mountains. Darkspear trolls, tauren stonemasons, and goblin engineers helped raise the fortress. Its defenses turned the wilderness into a stronghold built to withstand a siege. Free of the demonic bloodlust that once bound them, the orcs built Orgrimmar as a beacon of honor, community, and survival. Orcs and Darkspear trolls live in the city, while emissaries from the tauren of Mulgore and the newly allied Forsaken are welcomed there. Shamans teach the next generation ancestral balance, and veterans clash in gladiatorial rings to hone the army that guards Kalimdor’s fragile peace."
     },
     "subzone:ortell-s-hideout": {
       "1": [
@@ -6347,9 +6347,9 @@
     "subzone:ragefire-chasm": {
       "1": [
         {
-          "duration": 45.32244897959184,
-          "file": "Audio/Transport/full_subzone_ragefire-chasm-89c7a7c8e36298c18fc9/1-0000.mp3",
-          "sha256": "c49c47e95275efa3d8c080598569e0dc5454fc3ba52407b052c778a9d162f644",
+          "duration": 31.320816326530615,
+          "file": "Audio/Transport/full_subzone_ragefire-chasm-48b2dc52c1f4a668776a/1-0000.mp3",
+          "sha256": "4acc4df39697a6f16c7b5be841977319fba3c28c1c0ff6130075367acbb49fcf",
           "start": 0
         }
       ],
@@ -6360,15 +6360,15 @@
           "1"
         ]
       },
-      "fullHash": "cc67c1",
-      "generation": "4ccab9636d6c8808d888",
-      "hash": "cc67c1",
+      "fullHash": "8d67ff",
+      "generation": "e4bacd179dc5ce6238fc",
+      "hash": "8d67ff",
       "source": {
-        "duration": 45.296313,
+        "duration": 31.320816,
         "file": null,
-        "sha256": "89c7a7c8e36298c18fc940343647c618f283d1f64374a0c82836536889c082be"
+        "sha256": "48b2dc52c1f4a668776a605ba4510af70045fa5b134b47f991fdd29cd4e47f06"
       },
-      "text": "Ragefire Chasm. Ragefire Chasm is a network of volcanic caverns situated directly beneath the Horde capital of Orgrimmar. Accessible through the Cleft of Shadow, its magma-lit tunnels harbor feral troggs and a hidden sect of the Shadow Council bent on unraveling the young orcish nation from within. While Thrall works to secure Durotar above, subterranean dangers fester directly beneath Orgrimmar's foundation. Ragefire Chasm is an unstable network of volcanic vents and magma rivers that has become infested with savage Ragefire troggs. Rising from unknown depths below the tunnels, these hostile creatures violently rebuffed diplomatic overtures made by Magatha Grimtotem. Left unchecked, their sheer numbers threaten to undermine and overrun the capital."
+      "text": "Ragefire Chasm. Beneath Orgrimmar, Ragefire Chasm threatens the Horde from below. Its magma-lit tunnels hold savage troggs, and the Cleft of Shadow gives access to the caverns. Beneath Orgrimmar, dangers threaten the capital from below. While Thrall works to secure Durotar above, Ragefire troggs infest the chasm’s unstable vents and magma rivers. They rose from unknown depths and violently rejected Magatha Grimtotem’s attempts at diplomacy. Left unchecked, their numbers could undermine the city and overrun it."
     },
     "subzone:raptor-ridge": {
       "1": [
@@ -10013,9 +10013,9 @@
     "subzone:wailing-caverns": {
       "1": [
         {
-          "duration": 53.968979591836735,
-          "file": "Audio/Transport/full_subzone_wailing-caverns-66922ef0032457a5f062/1-0000.mp3",
-          "sha256": "6b33e5d5eaa6e0fe37aa5dc7a28917a5e39bb7ff15d0bd777192378c789053a8",
+          "duration": 16.666122448979593,
+          "file": "Audio/Transport/full_subzone_wailing-caverns-4bd3ee33a3edf6485345/1-0000.mp3",
+          "sha256": "2b5c1bbf8c199044289e2247f609c90bca14644b13d1bf064087ba9234f45fa2",
           "start": 0
         }
       ],
@@ -10026,15 +10026,15 @@
           "1"
         ]
       },
-      "fullHash": "3d0126",
-      "generation": "a351fb765cafcce147f4",
-      "hash": "3d0126",
+      "fullHash": "2fc56b",
+      "generation": "15f08dbd48239e131afa",
+      "hash": "2fc56b",
       "source": {
-        "duration": 53.942813,
+        "duration": 16.666122,
         "file": null,
-        "sha256": "66922ef0032457a5f0625212208721240994a76ad182eb0d42d8daa023267a4a"
+        "sha256": "4bd3ee33a3edf648534547ecd8809eadf237ca648d821252d602e2e095bacadf"
       },
-      "text": "Wailing Caverns. Tucked into the bluffs above Lushwater Oasis in the Barrens, the Wailing Caverns are a sprawling network of subterranean springs and caverns. Originally explored by the night elf druid Naralex to restore lush vitality to the arid plains, the complex has instead become a twisted den of nightmares, mutated wildlife, and corrupted druids. The caverns earn their name from the eerie, mournful wails that escape rock fissures when natural underground geysers erupt into steam. The night elf druid Naralex ventured into these deep waterways with his faithful followers, hoping to tap into the subterranean network and channel the Emerald Dream to make the barren savannas bloom. Instead, Naralex's consciousness was trapped within the Emerald Nightmare. The festering corruption bleeds outward through the slumbering druid, warping the springs and turning local beasts into unnatural deviate horrors."
+      "text": "Wailing Caverns. Steam wails through the bluffs above Lushwater Oasis, where the Wailing Caverns twist beneath the Barrens. Naralex, a night elf druid, entered the springs hoping to restore life to the arid plains, but mutations and agitated wildlife now haunt the caverns."
     },
     "subzone:warpwood-quarter": {
       "1": [
@@ -10914,6 +10914,9 @@
       2929,
       3153
     ],
+    "17da8dc51d2af62744fbc0f6d91561c215d690c26c9243b6f7fdaf8cf0dd3b95": [
+      591
+    ],
     "19d76a80ab41125dc34df850310b2593d014f7def0133ef07fd8ac77b43d6742": [
       270,
       636,
@@ -10931,6 +10934,10 @@
       597,
       874,
       1238
+    ],
+    "1d1056194d0a3697fa230487eabbde332475a9a47cb7a76a3c1aa0c8e621f5ba": [
+      542,
+      970
     ],
     "1d1b83ced6f0a35df412e45080c5ca9b70124289d9a96b3cd43db6872f591abd": [
       291,
@@ -11135,6 +11142,9 @@
       2636,
       2986,
       3312
+    ],
+    "2b5c1bbf8c199044289e2247f609c90bca14644b13d1bf064087ba9234f45fa2": [
+      271
     ],
     "2c639cb7be21c8c17caad304ddf398f9a53e4e362446758e279a681cb6c8b6dc": [
       290,
@@ -11379,6 +11389,9 @@
       1377,
       1704
     ],
+    "3da37cbb6486b12112ff35f3e6db99d0c5ff28271177cb2ae8dd42eec55e6093": [
+      737
+    ],
     "3f2c717eb6d040f36d903c230fa33c27e1e8f7d154969c2e89b740b2f12ac4c0": [
       458,
       1000,
@@ -11433,6 +11446,10 @@
       965,
       1427
     ],
+    "42fa80a59e62f7f24e2fd5f7170198c3b64318baac9c7b073355865b6002ffe3": [
+      363,
+      658
+    ],
     "432c604379ec15f4239a6efb48c83a98869212d734caebb4428d9e74d1ee0dd3": [
       170,
       402,
@@ -11444,6 +11461,12 @@
       263,
       846,
       1674
+    ],
+    "45ef814879c885426cb9d362dc3a6564d5c21a2a312419da2aa45f29aaa4e400": [
+      441
+    ],
+    "46729dcae534db7a452b2881b000eb2cca7975f005b748d97f5548afbc9163f9": [
+      353
     ],
     "4678a6f5f2ae75978cd6099eb70cc5649e97850ffa7d7fc03af03ff66aae061f": [
       228,
@@ -11481,6 +11504,9 @@
       925,
       1090,
       1403
+    ],
+    "488f91daf9651a5ef497e186b6ff38c3083cf2161ee605191e613aa4e69044d9": [
+      467
     ],
     "48c7b6309f5fed1caaec57cdc16e456da230fe9b8e51ffc2d2f9b92b02f7a720": [
       802,
@@ -11525,6 +11551,12 @@
       610,
       1121,
       1471
+    ],
+    "4acc4df39697a6f16c7b5be841977319fba3c28c1c0ff6130075367acbb49fcf": [
+      200,
+      436,
+      581,
+      850
     ],
     "4ad149fddd126794d27bc116ca4ce9523edafb3db75eb239ef6fd65db8c6c455": [
       320,
@@ -11778,6 +11810,9 @@
     "5c7d84a238b637582f97b630d5356dac51ec09361117036a71a1dd932e5ab1f3": [
       511
     ],
+    "5d3050d65f2da72512667c2492d34ae49423872422580cdf58d0d72ff3a3c448": [
+      462
+    ],
     "5d9a96b30a050d913b22326ea95f2af2efb0611e43b28d7ebd82d6422fdfc167": [
       214,
       515,
@@ -11882,6 +11917,10 @@
       2354,
       2713
     ],
+    "63f81bf6c0e5a6dc0d9b617ea0e7762cf21ad62eb0b9883f6fb933ea941534aa": [
+      365,
+      877
+    ],
     "6554e4881efed2984619209787a1d95b775397f21102fb6b5c5f1c90de55b8af": [
       255,
       933,
@@ -11928,6 +11967,9 @@
       2023,
       2343
     ],
+    "692e60342bf98f46bd2ded0ae23743113b8208cc78d4f21a9851e301040c45dc": [
+      555
+    ],
     "696f8ef5cd206b8d50412282da72f9ba4b3e0650183ec020d439f103a0d25ef0": [
       630,
       843,
@@ -11953,12 +11995,6 @@
       567,
       944,
       1279
-    ],
-    "6b33e5d5eaa6e0fe37aa5dc7a28917a5e39bb7ff15d0bd777192378c789053a8": [
-      812,
-      1144,
-      1574,
-      1755
     ],
     "6ba8b0b3b3eaf5bfe1fe443df43a228c4c6acb353dbd6baf1be4de5f5af93537": [
       605,
@@ -12215,6 +12251,14 @@
       2219,
       2401,
       2571
+    ],
+    "81eeee3ed3cb3def00cf3fb8034f76ad97d372b77286471d338c8b2c245d42da": [
+      1130,
+      1612,
+      1930,
+      2150,
+      2460,
+      2787
     ],
     "81fc92a9c3fbd6e41cc26477f884c820086567b83e7ad53a2290f6ca7d930809": [
       295,
@@ -12572,6 +12616,15 @@
       2306,
       2648
     ],
+    "9a360c4de75bebddaad2d8fd773bbfc615aae1f41602b51215ccebcaa05fd488": [
+      231,
+      570,
+      863,
+      1196,
+      1447,
+      1937,
+      2259
+    ],
     "9a794dd3377d200673765e437dbd028cdba875d64a44a67a99ce0e2c1d8e807a": [
       345,
       659,
@@ -12599,6 +12652,10 @@
       1437,
       1600,
       1788
+    ],
+    "9d9bf2bfedb2a3c292258f0b7ed70c73c0f29904355c5a06c38b3fc88c4fa197": [
+      260,
+      804
     ],
     "9e264427231944299f585a56e0ace80180b0aebc0b49d1960b928a0146891c34": [
       287,
@@ -12682,6 +12739,10 @@
       3017,
       3193,
       3672
+    ],
+    "a204df8490782bd1242e8957bf69e4324d15fd1c720d874b8a2a6833cd0a6e52": [
+      401,
+      767
     ],
     "a33c358af9b8e7c4108f51731cae2555b33507318733dcbe4bb2ff40bf39cab1": [
       294
@@ -12862,6 +12923,10 @@
       1814,
       2069
     ],
+    "b09aa96548daccee370abae25628b20c2485f447ea0e778bd48ba4b457a652c6": [
+      514,
+      915
+    ],
     "b17065dacffb6536c85b7cb6e73fe6ab85a627cac7543062446500468ab1b6ad": [
       307,
       604,
@@ -12943,6 +13008,10 @@
       702,
       992,
       1295
+    ],
+    "b643f8b5d8535b0ce9fd601cf4a0404d0e48d846fe0c0b825c0e763e1ec2541c": [
+      262,
+      707
     ],
     "b7b02b8775903b3ac8cd742b4b817c120f2d1c4ce26bae9ab0dab2108bcae2de": [
       579,
@@ -13117,15 +13186,15 @@
       1978,
       2320
     ],
-    "c49c47e95275efa3d8c080598569e0dc5454fc3ba52407b052c778a9d162f644": [
-      907,
-      1244
-    ],
     "c4e416f0e3ec8a65b78aa64a31c882596cc03fe7763f40f9f4fd6a81dde78461": [
       259,
       823,
       1353,
       1711
+    ],
+    "c5e71010dba6ebddfaf5ca1fb58cae21928313257bbcebae1601fb059ffcc3bc": [
+      389,
+      671
     ],
     "c65c7c8354c92504827e7f7735c771ca457f5ec7aa748877317bea32ce57f2a3": [
       280,
@@ -13230,19 +13299,6 @@
       2133,
       2466
     ],
-    "ce5ab0759db29601d0c5faa2d9f9833914307fd29cb86d68a0c699b65e8492c7": [
-      272,
-      632,
-      956,
-      1221,
-      1424,
-      1578,
-      1871,
-      2312,
-      2547,
-      2886,
-      3308
-    ],
     "ce71c839b916b4e907c4f75c3a201f0f18eadbad8b329d34fa1842d7c3061404": [
       310,
       640,
@@ -13296,17 +13352,6 @@
       970,
       1337,
       1535
-    ],
-    "d5c1ab6a1567f3951ef98d813a5480d3426cde6dfb601e2c89986ded9b5e883b": [
-      147,
-      290,
-      455,
-      655,
-      992,
-      1491,
-      1896,
-      2199,
-      2683
     ],
     "d6b1b4d28a6d5840eea1ed1c42357ed0d80588a2d59b567cdd11b3838870b667": [
       353,
@@ -13429,6 +13474,9 @@
     ],
     "e0018f4786c9197b16cce46ece5d556520c76ac83612d9033988816eba93099a": [
       553
+    ],
+    "e0a88732583ce632543535ba159d06eb03757121288d5831274007cac6920276": [
+      523
     ],
     "e10aae3455ae667325be3fd0c4983559f06f7c09f8aebb9d2e9c5b4b1588ef04": [
       171,
@@ -13804,6 +13852,22 @@
     {
       "file": "Audio/Transport/full_subzone_stormwind-city-7c7684478c52595e16c1/1-0000.mp3",
       "sha256": "03499d4e2a448907e1a052bca2af5a87786dc7524f93976fc4563d5fc0001ec3"
+    },
+    {
+      "file": "Audio/Transport/full_subzone_orgrimmar-9810cb633f0e0052906e/1-0000.mp3",
+      "sha256": "d5c1ab6a1567f3951ef98d813a5480d3426cde6dfb601e2c89986ded9b5e883b"
+    },
+    {
+      "file": "Audio/Transport/full_subzone_ragefire-chasm-89c7a7c8e36298c18fc9/1-0000.mp3",
+      "sha256": "c49c47e95275efa3d8c080598569e0dc5454fc3ba52407b052c778a9d162f644"
+    },
+    {
+      "file": "Audio/Transport/full_subzone_wailing-caverns-66922ef0032457a5f062/1-0000.mp3",
+      "sha256": "6b33e5d5eaa6e0fe37aa5dc7a28917a5e39bb7ff15d0bd777192378c789053a8"
+    },
+    {
+      "file": "Audio/Transport/full_subzone_darnassus-5d6369f81d9e8b3ca405/1-0000.mp3",
+      "sha256": "ce5ab0759db29601d0c5faa2d9f9833914307fd29cb86d68a0c699b65e8492c7"
     }
   ],
   "version": 1

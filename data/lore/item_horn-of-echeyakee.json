@@ -10,11 +10,11 @@
    "quest:881"
   ]
  },
- "summary": "The Horn of Echeyakee is a hunting instrument provided by Sergra Darkthorn at the Crossroads. Sounding it among the ancient kodo remains northeast of the settlement calls forth Whitemist, the legendary white predator of the Barrens.",
+ "summary": "At the Crossroads, Sergra Darkthorn gives hunters the Horn of Echeyakee. Sounded among the ancient kodo remains northeast of the settlement, it calls the legendary white predator of the Barrens.",
  "sections": [
   {
    "title": "Calling the Whitemist",
-   "body": "Given to initiates testing their prowess in the hunt, the horn's call echoes across the savannah to summon Echeyakee, whose name translates from Taur-ahe as 'Whitemist.' Known as the king of the savannah cats, Echeyakee is revered by tauren hunters as both mercy and death, striking so swiftly that his quarry feels neither terror nor suffering. The horn is meant to be sounded only at the great predator's lair, a sun-bleached nest of giant kodo bones tucked behind the hills northeast of the Crossroads.",
+   "body": "Hunters who are being tested in the hunt receive the horn. Its call summons Echeyakee, whose name means “Whitemist” in Taur-ahe. Taure n hunters revere the king of the savannah cats as both mercy and death. He strikes so swiftly that his quarry feels neither terror nor suffering. The horn belongs at the predator’s lair, among giant kodo bones behind the hills northeast of the Crossroads.",
    "spoiler": 0
   }
  ],
@@ -25,7 +25,7 @@
     "use horn of echeyakee",
     "what is horn of echeyakee for"
    ],
-   "answer": "The horn is used to draw out Echeyakee, the elusive white savannah cat. Blowing the horn near the giant kodo bones northeast of the Crossroads provokes the beast into appearing so a hunter may face him."
+   "answer": "The horn draws out Echeyakee, the elusive white savannah cat. Sound it near the giant kodo bones northeast of the Crossroads, and the beast appears for a hunter to face."
   },
   {
    "q": "Where does the horn come from?",
@@ -33,7 +33,7 @@
     "who gives the horn",
     "horn of echeyakee source"
    ],
-   "answer": "Sergra Darkthorn, an orc huntress residing at the Crossroads in the Barrens, entrusts the horn to adventurers seeking to prove their subtlety and tracking skill."
+   "answer": "Sergra Darkthorn, an orc huntress at the Crossroads in the Barrens, gives the horn to adventurers seeking to prove their subtlety and tracking skill."
   },
   {
    "q": "What does the name Echeyakee mean?",
@@ -41,7 +41,7 @@
     "echeyakee meaning",
     "whitemist meaning"
    ],
-   "answer": "In the Tauren tongue of Taur-ahe, Echeyakee means 'Whitemist.' The name honors the beast's pale coat and his silent, mist-like ability to stalk through the dry grasses without being detected."
+   "answer": "In Taur-ahe, the Tauren tongue, Echeyakee means “Whitemist.” The name honors the beast’s pale coat and his silent way of stalking through dry grasses undetected."
   },
   {
    "q": "Where do you blow the horn?",
@@ -49,17 +49,17 @@
     "where to use horn",
     "echeyakee location"
    ],
-   "answer": "The horn must be sounded among the giant kodo ribs and skeletal remains found behind the hills northeast of the Crossroads, where the white lion makes his roaming ground."
+   "answer": "Sound the horn among the giant kodo ribs and skeletal remains behind the hills northeast of the Crossroads, where the white lion roams."
   }
  ],
  "angles": [
   {
    "target": "class:Hunter",
-   "text": "For hunters, summoning Echeyakee presents a legendary rite of passage, pitting their senses against a predator renowned across the Barrens for near-flawless stealth."
+   "text": "As a hunter, you face Echeyakee in a legendary rite of passage, testing your senses against a predator renowned across the Barrens for near-flawless stealth."
   },
   {
    "target": "race:Tauren",
-   "text": "The hunt of Echeyakee carries spiritual weight among the tauren, who view the beast's swift, painless kill as an embodiment of both mercy and the harsh necessity of death."
+   "text": "As a tauren, you know Echeyakee’s hunt carries spiritual weight. Your people see his swift, painless kill as both mercy and the harsh necessity of death."
   }
  ],
  "keywords": [
@@ -82,5 +82,6 @@
  "attribution": [
   "Horn of Echeyakee",
   "Echeyakee (Classic)"
- ]
+ ],
+ "style": 1
 }

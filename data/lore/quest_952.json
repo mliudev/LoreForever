@@ -21,16 +21,16 @@
    "Grove of the Ancients (quest)"
   ]
  },
- "summary": "Grove of the Ancients is an Alliance delivery quest that directs adventurers out of Darnassus and across the sea to Darkshore. Tasked by Arch Druid Fandral Staghelm, the courier carries correspondence to Onu, a venerable Ancient of Lore residing south of Auberdine.",
+ "summary": "A dispatch carries you from Darnassus to Darkshore, where Onu waits in the Grove of the Ancients. Arch Druid Fandral Staghelm sends you across the sea with correspondence for the Ancient of Lore, who lives south of Auberdine.",
  "sections": [
   {
    "title": "Leaving the Boughs",
-   "body": "Having assisted with matters concerning the Oracle Glade atop Teldrassil, adventurers find themselves brusquely summoned into further service by Arch Druid Fandral Staghelm. Not one to waste idle hands, Staghelm tasks the messenger with carrying an urgent dispatch across the sea to the ancient forests of Darkshore, instructing them to book flight aboard a hippogryph from the city.",
+   "body": "After you help with matters at the Oracle Glade atop Teldrassil, Arch Druid Fandral Staghelm summons you for another duty. He sends you across the sea to Darkshore with an urgent dispatch for Onu. From Darnassus, you can book a flight aboard a hippogryph.",
    "spoiler": 0
   },
   {
    "title": "A Contrast in Patience",
-   "body": "Upon reaching Darkshore and traveling south of Auberdine to the Grove of the Ancients, the messenger delivers the missive to Onu. The towering Ancient of Lore accepts the correspondence with quiet reflection, subtly noting Staghelm's relentless impatience. To Onu and the ancient keepers of the forest, all things unfold in their proper time\u2014a calm, enduring wisdom that Shan'do Malfurion Stormrage embodied, but which Staghelm distinctly lacks.",
+   "body": "South of Auberdine, you reach the Grove of the Ancients and deliver the missive to Onu. The towering Ancient of Lore accepts it quietly and remarks on Staghelm's impatience. Onu and the forest's ancient keepers believe all things unfold in their proper time. Shan'do Malfurion Stormrage embodied that patient wisdom, while Staghelm lacks it.",
    "spoiler": 0
   }
  ],
@@ -42,7 +42,7 @@
     "who gives grove of ancients",
     "fandral staghelm quest"
    ],
-   "answer": "Arch Druid Fandral Staghelm provides the quest from the Cenarion Enclave in Darnassus after you complete his prior errand regarding the Oracle Glade."
+   "answer": "Arch Druid Fandral Staghelm sends you from the Cenarion Enclave in Darnassus after you complete his earlier errand concerning the Oracle Glade."
   },
   {
    "q": "Where is the Grove of the Ancients located?",
@@ -51,7 +51,7 @@
     "where is grove of ancients",
     "onu location"
    ],
-   "answer": "The Grove of the Ancients lies on the mainland in Darkshore, situated directly south of the coastal port of Auberdine."
+   "answer": "The Grove of the Ancients lies on the mainland in Darkshore, directly south of the coastal port of Auberdine."
   },
   {
    "q": "Who is Onu?",
@@ -60,7 +60,7 @@
     "onu darkshore",
     "ancient of lore onu"
    ],
-   "answer": "Onu is a wise and venerable Ancient of Lore resting in Darkshore. As a protector and chronicler of natural wisdom, he receives correspondence from the druidic leadership in Darnassus."
+   "answer": "Onu is a wise and venerable Ancient of Lore in Darkshore. He protects and records natural wisdom, and receives correspondence from Darnassus's druidic leadership."
   },
   {
    "q": "How do you reach Darkshore from Teldrassil?",
@@ -69,7 +69,7 @@
     "travel to auberdine",
     "hippogryph to darkshore"
    ],
-   "answer": "Travelers typically head down from Darnassus to Rut'theran Village and take a hippogryph across the water to the port settlement of Auberdine in Darkshore."
+   "answer": "From Darnassus, travel to Rut'theran Village and take a hippogryph across the water to Auberdine, Darkshore's port settlement."
   },
   {
    "q": "Why does Onu mention Shan'do Stormrage?",
@@ -78,7 +78,7 @@
     "shan'do stormrage reference",
     "why mention shando"
    ],
-   "answer": "Upon receiving the missive, Onu remarks on Arch Druid Staghelm's restless haste. He reflects that the forest moves at its own pace, a timeless patience that Shan'do Malfurion Stormrage understood and respected."
+   "answer": "Onu remarks on Arch Druid Staghelm's restless haste after receiving the missive. He says the forest moves at its own pace, with a patience Shan'do Malfurion Stormrage understood and respected."
   },
   {
    "q": "What quests come before this one?",
@@ -87,21 +87,21 @@
     "grove of the ancients chain",
     "quests before onu"
    ],
-   "answer": "This quest is the final step in a short three-part sequence that begins with The Enchanted Glade, followed by Teldrassil, before sending you outward to Darkshore."
+   "answer": "This is the last step in a short sequence of three parts. It begins with The Enchanted Glade, continues with Teldrassil, then sends you out to Darkshore."
   }
  ],
  "angles": [
   {
    "target": "race:NightElf",
-   "text": "This task marks the natural transition from the sheltered cradle of Teldrassil to the wider wilds of mainland Kalimdor, highlighting the philosophical contrast between Fandral Staghelm and the teachings of Malfurion Stormrage."
+   "text": "As a Night Elf, you leave Teldrassil's sheltered cradle for the wider wilds of mainland Kalimdor. The journey shows the contrast between Fandral Staghelm and Malfurion Stormrage's teachings."
   },
   {
    "target": "class:Druid",
-   "text": "Delivering missives between the Arch Druid in Darnassus and Onu exposes young druids to the differing temperaments among their Cenarion Circle elders, contrasting Staghelm's drive with the quiet patience of an Ancient of Lore."
+   "text": "As a druid, you carry a missive between Darnassus's Arch Druid and Onu. Their different temperaments show Staghelm's drive beside an Ancient of Lore's quiet patience."
   },
   {
    "target": "faction:Alliance",
-   "text": "For Alliance champions completing their business in Darnassus, this delivery provides an early incentive to secure hippogryph routes and explore the coastal territory of Darkshore."
+   "text": "As an Alliance champion, you leave your business in Darnassus with reason to secure hippogryph routes and explore Darkshore's coast."
   }
  ],
  "keywords": [
@@ -126,5 +126,6 @@
  ],
  "attribution": [
   "Grove of the Ancients (quest)"
- ]
+ ],
+ "style": 1
 }

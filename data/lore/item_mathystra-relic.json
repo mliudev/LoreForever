@@ -10,16 +10,16 @@
    "quest:951"
   ]
  },
- "summary": "Mathystra Relics are ancient night elven artifacts scattered among the overgrown ruins of Mathystra in northern Darkshore. Though remnants of a fallen elven bastion, they retain dormant shards of magic that have drawn the interest of the Twilight's Hammer cult.",
+ "summary": "Among Mathystra’s overgrown ruins in northern Darkshore, ancient night elven relics still hold traces of magic. The Twilight's Hammer cult has taken an interest in them.",
  "sections": [
   {
    "title": "Remnants of a Fallen Bastion",
-   "body": "Before the Great Sundering, Mathystra stood as a proud city and bastion of elven civilization along the Kalimdor coast. Today, its toppled columns and cracked stones sit half-swallowed by brush and sea mist, haunted by restless spirits and lurking beasts. Scattered across the ruins are ancient relics dating back to that golden age. Though worn by ten thousand years of neglect, these artifacts still hold faint traces of elven arcane craft, making them dangerous prizes if left unattended.",
+   "body": "Mathystra once stood on the Kalimdor coast as a city and bastion of elven civilization. Before the Great Sundering, it was a proud place. Now toppled columns and cracked stones lie half-swallowed by brush and sea mist, with restless spirits and lurking beasts among them. Relics from that age are scattered through the ruins. Ten thousand years of neglect have worn them, but traces of elven arcane craft remain, and they are dangerous in careless hands.",
    "spoiler": 0
   },
   {
    "title": "A Looming Peril",
-   "body": "The ancient tree of lore, Onu, seeks these relics after discovering that the sinister Twilight's Hammer cult is attempting to weaponize forgotten elven writings unearthed at the Master's Glaive. The cultists seek to harness ancient Kaldorei magic to hasten the return of their dark masters. By studying these scattered remnants, Onu and the guardians of Darkshore hope to unravel the cult's intentions and protect the fading power of Mathystra from being turned toward dark ends.",
+   "body": "Onu, the ancient tree of lore, seeks the relics after learning that the Twilight's Hammer cult is trying to weaponize forgotten elven writings found at the Master's Glaive. The cult wants to wield ancient Kaldorei magic and hasten the return of its dark masters. Onu and Darkshore's guardians study the scattered remnants to learn the cult's intentions and keep Mathystra's fading power from serving dark ends.",
    "spoiler": 1
   }
  ],
@@ -31,7 +31,7 @@
     "elven relics mathystra",
     "what are these relics"
    ],
-   "answer": "They are fragments and artifacts left behind from the ancient night elven city of Mathystra. Despite being thousands of years old, they still retain remnants of the magical craftsmanship of the pre-Sundering elven civilization."
+   "answer": "The Mathystra Relics are fragments and artifacts from the ancient night elven city. They still bear traces of the magical craft of the elves before the Sundering, though thousands of years have passed."
   },
   {
    "q": "Where are these relics found?",
@@ -40,7 +40,7 @@
     "where to find relics",
     "relic locations"
    ],
-   "answer": "They lie scattered amid the broken stones, tumbled pillars, and tall grasses within the Ruins of Mathystra, located in the northern reaches of Darkshore."
+   "answer": "The relics lie scattered among broken stones, fallen pillars, and tall grasses in the Ruins of Mathystra, in northern Darkshore."
   },
   {
    "q": "Who wants the Mathystra Relics?",
@@ -49,7 +49,7 @@
     "who do i bring relics to",
     "onu relics"
    ],
-   "answer": "The Ancient of Lore named Onu, who resides at the Grove of the Ancients in southern Darkshore, asks travelers to gather them for study."
+   "answer": "Onu, an Ancient of Lore who lives at the Grove of the Ancients in southern Darkshore, asks travelers to gather the relics for study."
   },
   {
    "q": "Why is the Twilight's Hammer interested in them?",
@@ -57,17 +57,17 @@
     "why twilight hammer wants relics",
     "twilight's hammer mathystra"
    ],
-   "answer": "The cult has been deciphering ancient elven texts uncovered nearby at the Master's Glaive. They seek to twist and exploit the magical secrets of the ancient elves to assist in summoning their shadowy masters into the world."
+   "answer": "The Twilight's Hammer cult is studying ancient elven texts found at the Master's Glaive. It seeks to twist the elves' old magic and use it to summon its shadowy masters into the world."
   }
  ],
  "angles": [
   {
    "target": "race:NightElf",
-   "text": "For the Kaldorei, recovering these relics is both a matter of safeguarding dangerous ancient arcana from the Twilight's Hammer and honoring the heritage of a city lost to the Sundering."
+   "text": "As a Kaldorei, recovering these relics helps guard dangerous ancient magic from the Twilight's Hammer and honors a city lost to the Sundering."
   },
   {
    "target": "class:Druid",
-   "text": "Working closely with ancients like Onu, druids help protect the delicate balance of Darkshore by ensuring forgotten magical remnants do not fuel dark summonings."
+   "text": "As a druid, you work with ancients like Onu to protect Darkshore's balance and keep forgotten magic from aiding dark summonings."
   }
  ],
  "keywords": [
@@ -92,5 +92,6 @@
  "attribution": [
   "Mathystra Relic",
   "Mathystra Relics"
- ]
+ ],
+ "style": 1
 }

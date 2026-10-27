@@ -7,11 +7,11 @@
  "meta": {
   "wiki": "Shrine of the Dormant Flame"
  },
- "summary": "Perched atop the highest peak northwest of the Valley of Trials, the Shrine of the Dormant Flame is a secluded sanctuary revered by Horde shaman. Guided by its solitary keeper, Telf Joolam, initiates make the treacherous climb to commune with the element of fire and prove their spiritual mastery.",
+ "summary": "At the Shrine of the Dormant Flame, Horde shaman seek communion with fire atop Durotar’s highest peak northwest of the Valley of Trials. Telf Joolam keeps the secluded sanctuary, where initiates climb to prove their spiritual mastery.",
  "sections": [
   {
    "title": "A Summit of Trial and Flame",
-   "body": "Reaching the Shrine of the Dormant Flame requires braving a narrow, winding trail that begins along the Southfury River at the southwestern edge of the Southfury Watershed. High above the red cliffs of Durotar, the mountain summit offers a commanding view of the surrounding lands, though a single misstep along the precipice means certain death. In this quiet refuge wanders Telf Joolam, a solitary hermit tasked with overseeing sacred rites. For aspiring orc and troll shaman undertaking the ritual Call of Fire, the shrine's brazier serves as the crucible where they must ignite slumbering coals using the ember of a vanquished elemental, proving their power to commune with and respect the destructive spirits of flame.",
+   "body": "A narrow trail winds up from the Southfury River, at the southwestern edge of the Southfury Watershed. The summit rises above Durotar’s red cliffs, with a commanding view and a precipice where one misstep means certain death. Telf Joolam, a solitary hermit, oversees the sacred rites here. Aspiring orc and troll shaman come for the ritual Call of Fire. At the shrine’s brazier, they use the ember of a defeated elemental to kindle the sleeping coals and prove they can commune with fire and respect its destructive spirits.",
    "spoiler": 0
   }
  ],
@@ -23,7 +23,7 @@
     "path to dormant flame",
     "climb dormant flame mountain"
    ],
-   "answer": "The path begins along the Southfury River on the southwestern edge of the Southfury Watershed, just northwest of the Valley of Trials. A narrow mountain trail spirals around the peak, leading directly up to the summit."
+   "answer": "Start along the Southfury River at the southwestern edge of the Southfury Watershed, just northwest of the Valley of Trials. A narrow, winding trail climbs around the peak to the summit."
   },
   {
    "q": "Why is this shrine important to shaman?",
@@ -32,7 +32,7 @@
     "why do shaman go here",
     "call of fire shrine"
    ],
-   "answer": "The shrine is a sacred site where aspiring Horde shaman learn to understand and command the element of fire. As part of their Call of Fire journey, initiates must travel to this summit to prepare a ritual draft and kindle the dormant brazier."
+   "answer": "The shrine is sacred to Horde shaman learning to understand and command fire. For the Call of Fire, initiates climb to the summit to prepare a ritual draft and kindle the dormant brazier."
   },
   {
    "q": "Who is Telf Joolam?",
@@ -41,7 +41,7 @@
     "dormant flame npc",
     "shrine keeper"
    ],
-   "answer": "Telf Joolam is a solitary troll hermit who serves as the keeper of the shrine. He guides young shaman through their trials, concocting a draught of fire to awaken their spiritual sight and testing their resolve."
+   "answer": "Telf Joolam is a solitary troll hermit who keeps the shrine. He guides young shaman through their trials, preparing a fire draught to awaken their spiritual sight and test their resolve."
   },
   {
    "q": "What happens when you kindle the brazier?",
@@ -50,17 +50,17 @@
     "igniting the flame",
     "shrine brazier quest"
    ],
-   "answer": "Shaman who have gathered the required ritual components and defeated a hostile fire elemental place its burning ember into the brazier. This acts as an offering to prove they have the strength and discipline to tame the volatile spirit of flame."
+   "answer": "After gathering the ritual components and defeating a hostile fire elemental, shaman place its burning ember in the brazier. The offering proves their strength and discipline in taming the volatile spirit of flame."
   }
  ],
  "angles": [
   {
    "target": "class:Shaman",
-   "text": "Every young orc and troll shaman must make the arduous trek up this crag to kindle their spiritual connection with fire and earn their Fire Totem."
+   "text": "As a young orc or troll shaman, you climb this crag to kindle your spiritual connection with fire and earn your Fire Totem."
   },
   {
    "target": "faction:Horde",
-   "text": "Tucked away in the mountains above Durotar, this isolated shrine preserves ancient elemental rites vital to the spiritual heart of the new Horde."
+   "text": "Above Durotar, this isolated shrine preserves ancient elemental rites vital to the spiritual heart of the new Horde."
   }
  ],
  "keywords": [
@@ -85,5 +85,6 @@
  ],
  "attribution": [
   "Shrine of the Dormant Flame"
- ]
+ ],
+ "style": 1
 }

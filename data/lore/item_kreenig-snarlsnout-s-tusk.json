@@ -10,11 +10,11 @@
    "quest:872"
   ]
  },
- "summary": "Kreenig Snarlsnout's Tusk is a gruesome hunting trophy taken from the leader of the Razormane quilboar raiders in the northern Barrens. Severing the tusk serves as indisputable proof for Thork at the Crossroads that the menace targeting Horde supply lines has been put down.",
+ "summary": "At the Crossroads, Thork seeks proof that Kreenig Snarlsnout has fallen. His tusk marks the end of the Razormane leader's attacks on Horde caravans in the northern Barrens.",
  "sections": [
   {
    "title": "A Trophy of Severed Ambition",
-   "body": "The supply caravans traveling west from Durotar into the Barrens face constant harassment, but recent attacks grew increasingly brazen under the orchestration of a fierce Razormane leader named Kreenig Snarlsnout. To cripple the quilboars' coordination, Thork\u2014commander of the Crossroads watch\u2014ordered Snarlsnout eliminated. Taking the chieftain's tusk not only offers concrete proof that the raider has fallen, but serves as a deliberate insult to the Razormane tribe, shattering their resolve and leaving their fighters without central direction.",
+   "body": "Horde caravans traveling west from Durotar face constant attacks in the Barrens. Those raids grew bolder under Kreenig Snarlsnout, a fierce Razormane leader. Thork, commander of the Crossroads watch, ordered Kreenig killed to disrupt the quilboars' coordination. His tusk offers proof that the leader is dead and insults the Razormane, weakening their resolve and leaving their fighters without central direction.",
    "spoiler": 0
   }
  ],
@@ -26,7 +26,7 @@
     "who is kreenig",
     "snarlsnout lore"
    ],
-   "answer": "Kreenig Snarlsnout was a prominent leader among the Razormane quilboar encamped northeast of the Crossroads. He organized aggressive raids against Horde supply caravans traveling along the main road from Durotar, turning the supply line into a hazard until his death."
+   "answer": "Kreenig Snarlsnout led the Razormane quilboar encamped northeast of the Crossroads. He organized attacks on Horde caravans traveling along the main road from Durotar, making the supply route dangerous until his death."
   },
   {
    "q": "Why does Thork want the tusk specifically?",
@@ -35,7 +35,7 @@
     "why bring tusk to thork",
     "thork tusk"
    ],
-   "answer": "Thork demands the tusk both as undeniable evidence that Kreenig is dead and as a pointed insult to the Razormane tribe. Removing a fallen quilboar chieftain's tusk degrades their pride and demoralizes the surviving raiders."
+   "answer": "Thork wants the tusk as proof that Kreenig is dead and as an insult to the Razormane. Taking a fallen chieftain's tusk wounds their pride and demoralizes the surviving raiders."
   },
   {
    "q": "Where was this tusk taken?",
@@ -44,7 +44,7 @@
     "where to get tusk",
     "snarlsnout location"
    ],
-   "answer": "The tusk is claimed from Kreenig Snarlsnout's camp situated northeast of the Crossroads, nestled near the mountain foothills just south of the main road crossing from Durotar into the Barrens."
+   "answer": "The tusk comes from Kreenig Snarlsnout's camp northeast of the Crossroads, near the mountain foothills just south of the main road crossing from Durotar into the Barrens."
   },
   {
    "q": "What effect does taking Kreenig down have on the Barrens?",
@@ -52,17 +52,17 @@
     "did raids stop",
     "consequences of kreenig death"
    ],
-   "answer": "By eliminating Kreenig, Thork believes the Razormane raiders will flounder without leadership. Removing their commander creates chaos in their ranks and drastically curbs further attacks on vital supply shipments."
+   "answer": "Thork believes the Razormane raiders will falter without Kreenig's leadership. His death throws their ranks into disarray and curbs further attacks on vital supply shipments."
   }
  ],
  "angles": [
   {
    "target": "faction:Horde",
-   "text": "Caravans carrying weapons, provisions, and settlers from Durotar are the lifeblood of Horde expansion into the Barrens. Delivering this tusk protects those vital lifelines."
+   "text": "Caravans carry weapons, provisions, and settlers from Durotar, sustaining the Horde's expansion into the Barrens. Bringing Thork this tusk helps protect those lifelines."
   },
   {
    "target": "race:Orc",
-   "text": "Taking a trophy from a vanquished commander reflects the harsh, practical warfare favored by the orcs of the Crossroads, showing strength while sowing panic among the enemy."
+   "text": "For an orc of the Crossroads, taking a trophy from a defeated commander is practical warfare: it shows strength and sows panic among the enemy."
   }
  ],
  "keywords": [
@@ -87,5 +87,6 @@
  "attribution": [
   "Kreenig Snarlsnout's Tusk",
   "The Disruption Ends"
- ]
+ ],
+ "style": 1
 }

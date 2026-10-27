@@ -1,0 +1,89 @@
+{
+ "key": "quest:94912",
+ "type": "quest",
+ "name": "Child of Nature",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   94912
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "Sheldras Moontree in Stormwind can teach you how to reach Moonglade, stronghold of the Cenarion Circle. The ancient order\u2019s druids have wisdom to share with a child of nature.",
+ "sections": [
+  {
+   "title": "A Far Stronghold",
+   "body": "You are directed to Sheldras Moontree, a night elf in Stormwind. He can teach you how to reach Moonglade on Kalimdor, where the Cenarion Circle has its stronghold. The Circle is an ancient order of naturalists and practitioners of the druidic arts, with much to teach you.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Sheldras Moontree?",
+   "aliases": [
+    "sheldras",
+    "night elf in stormwind",
+    "who teaches me moonglade"
+   ],
+   "answer": "Sheldras Moontree is a night elf in Stormwind who can teach you how to reach Moonglade."
+  },
+  {
+   "q": "What is the Cenarion Circle?",
+   "aliases": [
+    "cenarion circle",
+    "druid order",
+    "nature circle"
+   ],
+   "answer": "The Cenarion Circle is an ancient order of naturalists and practitioners of the druidic arts."
+  },
+  {
+   "q": "Where is the Cenarion Circle's stronghold?",
+   "aliases": [
+    "cenarion stronghold",
+    "where is moonglade",
+    "moonglade"
+   ],
+   "answer": "The Cenarion Circle's stronghold is Moonglade on Kalimdor."
+  },
+  {
+   "q": "What can I learn from the Cenarion Circle?",
+   "aliases": [
+    "cenarion teachings",
+    "what can they teach",
+    "druid wisdom"
+   ],
+   "answer": "The Cenarion Circle's druids have much wisdom to impart to you."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Skyborne",
+   "text": "As a Skyborne, you are welcomed among the first of your people to arrive in Azeroth."
+  },
+  {
+   "target": "class:Druid",
+   "text": "As a druid, you are directed toward the Cenarion Circle, an ancient order whose members practice the druidic arts."
+  }
+ ],
+ "keywords": [
+  "cenarion circle",
+  "child of nature",
+  "druid",
+  "kalimdor",
+  "moonglade",
+  "sheldras moontree",
+  "skyborne",
+  "stormwind"
+ ],
+ "related": [
+  "quest:5921",
+  "topic:cenarion-circle",
+  "quest:94911"
+ ],
+ "style": 1,
+ "attribution": [
+  "In-game quest text: Child of Nature"
+ ]
+}

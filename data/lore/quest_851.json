@@ -22,16 +22,16 @@
    "Counterattack! (Classic)"
   ]
  },
- "summary": "Verog the Dervish is an elusive Kolkar centaur leader who roams the southern plains of the Barrens. To put an end to his raids, Regthar Deathgate directs Horde champions to raid the centaur command tent at the Stagnant Oasis, forcing the nomadic commander into the open.",
+ "summary": "Across the southern Barrens, Verog the Dervish keeps moving, and Regthar Deathgate seeks to draw him out. The orc directs Horde champions to attack the Kolkar command tent at the Stagnant Oasis, hoping to force the nomadic leader into the open.",
  "sections": [
   {
    "title": "Drawing Out the Dervish",
-   "body": "Following the downfall of Barak Kodobane, the orc warrior Regthar Deathgate sets his sights on the remaining warlords of the Kolkar tribe. Unlike Barak, who lingered openly near the northern waters of the Forgotten Pools, Verog the Dervish wanders far and wide across the sun-baked plains, rarely staying in one encampment for long. Tracking him across the vast territory would be an exercise in futility, leaving Horde scouts with only one viable strategy: force the commander to come to them.",
+   "body": "After Barak Kodobane fell, Regthar Deathgate turned to the remaining Kolkar warlords. Barak had stayed near the northern waters of the Forgotten Pools, but Verog the Dervish roams the sun-baked plains and rarely lingers in one camp. Horde scouts cannot easily track him across that wide territory. Their chance is to make the commander come to them.",
    "spoiler": 0
   },
   {
    "title": "The Stagnant Oasis",
-   "body": "Verog operates out of the centaur command post anchored at the Stagnant Oasis, southeast of the Crossroads. Regthar instructs adventurers to assault the encampment directly, cutting down Kolkar warriors near their command tent until panic forces a horn call. The tactic leverages centaur pride against them\u2014slaughter enough of Verog's subordinates on their own soil, and the dervish rushes back to defend his outpost, walking straight into the awaiting blades of the Horde.",
+   "body": "Verog operates from the Kolkar command post at the Stagnant Oasis, southeast of the Crossroads. Regthar sends you against the camp, where you strike the Kolkar warriors near their command tent. Their alarm calls Verog back to defend the outpost, bringing him within reach of the Horde blades.",
    "spoiler": 0
   }
  ],
@@ -43,7 +43,7 @@
     "verog lore",
     "verog the dervish"
    ],
-   "answer": "Verog the Dervish is a roaming warlord of the Kolkar centaur in the Barrens. He oversees operations out of the Stagnant Oasis but spends much of his time wandering the southern wastes, making him difficult to corner directly."
+   "answer": "Verog the Dervish leads the Kolkar centaur in the Barrens. He commands from the Stagnant Oasis but roams the southern wastes, making him hard to corner."
   },
   {
    "q": "Why doesn't Verog stay in his camp?",
@@ -52,7 +52,7 @@
     "why does verog roam",
     "verog missing"
    ],
-   "answer": "True to his title of 'Dervish,' Verog is a nomadic leader who frequents the desolate reaches of the Barrens rather than sitting idly in a single encampment. His mobile nature keeps him safe from organized Horde war parties, forcing his enemies to provoke him into showing his face."
+   "answer": "Verog wanders the Barrens rather than remaining in one camp. His movements make it hard for Horde war parties to find him, so his enemies must provoke him to return."
   },
   {
    "q": "How do you summon Verog?",
@@ -61,7 +61,7 @@
     "find verog",
     "verog not showing up"
    ],
-   "answer": "Verog is drawn back to his command post when his tribe is threatened. By assaulting the centaur clustered around the prominent command tent at the Stagnant Oasis, adventurers create enough chaos that the surviving Kolkar raise an alarm, prompting Verog to sprint back to defend his tent."
+   "answer": "Threaten Verog's tribe at the Stagnant Oasis command post. Attacking the Kolkar near their command tent raises an alarm that brings him back to defend it."
   },
   {
    "q": "Who orders Verog's death?",
@@ -69,7 +69,7 @@
     "who gives the quest",
     "regthar deathgate"
    ],
-   "answer": "Regthar Deathgate, an orc veteran encamped west of the Crossroads along the main road to the Stonetalon Mountains, orders Verog's execution. He seeks to break the back of the Kolkar by methodically hunting down each of their regional commanders."
+   "answer": "Regthar Deathgate orders Verog's death. The orc veteran camps west of the Crossroads, along the main road to the Stonetalon Mountains, and hunts the Kolkar's regional commanders one by one."
   },
   {
    "q": "What happens after Verog falls?",
@@ -77,7 +77,7 @@
     "what comes next",
     "after verog"
    ],
-   "answer": "Bringing Verog's severed head back to Regthar allows the orc to add it to his collection alongside Barak Kodobane's. Regthar then sets his sights on Hezrul Bloodmark, the centaur warlord overseeing the Lushwater Oasis to the south."
+   "answer": "After Verog falls, you bring his severed head to Regthar, who adds it beside Barak Kodobane's. Regthar then turns his attention to Hezrul Bloodmark, the centaur warlord at the Lushwater Oasis to the south."
   },
   {
    "q": "Why are the Kolkar centaur such a problem in the Barrens?",
@@ -85,21 +85,21 @@
     "why fight kolkar",
     "kolkar threat"
    ],
-   "answer": "The Kolkar are aggressive, territorial predators who claim the vital water sources throughout the Barrens. Their frequent raids on caravans, outposts, and native tauren herds make them an immediate existential threat to the fledgling Horde presence in central Kalimdor."
+   "answer": "The Kolkar threaten the Barrens by claiming its vital water sources and raiding caravans, outposts, and native tauren herds. Their attacks endanger the Horde's fledgling presence in central Kalimdor."
   }
  ],
  "angles": [
   {
    "target": "race:Orc",
-   "text": "Regthar Deathgate views the elimination of Kolkar warlords as essential to securing the road between the Crossroads and the Stonetalon Mountains for Durotar's travelers."
+   "text": "As an orc, you know Regthar Deathgate sees the Kolkar warlords' defeat as essential to securing the road between the Crossroads and the Stonetalon Mountains for Durotar's travelers."
   },
   {
    "target": "race:Tauren",
-   "text": "The Kolkar hunted and harassed the nomadic tauren for generations across these plains, making the execution of leaders like Verog a matter of long-awaited retribution."
+   "text": "As a tauren, you know the Kolkar hunted and harassed your nomadic people across these plains for generations. Verog's execution brings long-awaited retribution."
   },
   {
    "target": "faction:Horde",
-   "text": "Control of the oases is vital to survival in the arid Barrens; purging centaur commanders ensures water routes remain viable for supply caravans."
+   "text": "As a member of the Horde, you know the oases are vital to survival in the arid Barrens. Defeating centaur commanders helps keep water routes open to supply caravans."
   }
  ],
  "keywords": [
@@ -124,5 +124,6 @@
  ],
  "attribution": [
   "Verog the Dervish (Classic)"
- ]
+ ],
+ "style": 1
 }

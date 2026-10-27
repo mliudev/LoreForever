@@ -17,16 +17,16 @@
   "wiki": "Plainstrider Menace (Classic)",
   "chain": []
  },
- "summary": "Plainstrider Menace is an introductory hunting task assigned by Sergra Darkthorn at the Crossroads. Newly arrived Horde adventurers are directed to cull the native plainstriders scavenging the settlement's supply routes, serving both as pest control and as an initial test of hunting prowess.",
+ "summary": "At the Crossroads, Sergra Darkthorn sends new Horde adventurers after plainstriders east of the outpost. The birds threaten its food supplies, and the hunt gives newcomers a first measure of the Barrens.",
  "sections": [
   {
    "title": "Securing the Crossroads",
-   "body": "The Crossroads sits at the logistical heart of Kalimdor, coordinating supply caravans across the harsh savanna. However, the arid terrain leaves local wildlife desperate for sustenance. Flocks of tall, flightless plainstriders roaming just east of the outpost have taken to picking at food crates and disrupting the settlement's lifeline. To protect these vulnerable provisions, the shaman Sergra Darkthorn dispatches travelers to cull the aggressive birds before they inflict serious damage on the outpost's stores.",
+   "body": "The Crossroads coordinates supplies across Kalimdor, but plainstriders east of the outpost have begun picking at its food crates. Sergra Darkthorn, an orc shaman, sends newly arrived Horde adventurers to hunt the birds before they damage the stores. Their attacks threaten provisions the settlement depends on.",
    "spoiler": 0
   },
   {
    "title": "The First Hunt",
-   "body": "While pest management is an immediate practical goal, Sergra views the plainstriders as a measuring stick for newcomers. She considers the birds simple prey\u2014easy game intended to teach young hunters how to survive the elements and track quarry in the sun-baked plains. Bringing back their sharp beaks proves that a hunter has the patience and basic martial skill required to face the fiercer beasts native to the Barrens.",
+   "body": "Sergra Darkthorn uses the hunt to measure newcomers as well as protect supplies. She sees the plainstriders as simple prey, fit to teach young hunters to endure the elements and track quarry across the sun-baked plains. Bringing back their sharp beaks shows a hunter has patience and the basic martial skill needed to face fiercer beasts of the Barrens.",
    "spoiler": 0
   }
  ],
@@ -38,7 +38,7 @@
     "plainstrider problem",
     "what did plainstriders do"
    ],
-   "answer": "Flocks of plainstriders east of the Crossroads have grown bold enough to raid food supplies and harass passing supply lines. Sergra Darkthorn orders them culled to preserve the settlement's vital provisions."
+   "answer": "Plainstriders east of the Crossroads have grown bold, raiding food supplies and harassing passing supply lines. Sergra Darkthorn orders them hunted to protect the settlement's provisions."
   },
   {
    "q": "Who is Sergra Darkthorn?",
@@ -47,7 +47,7 @@
     "sergra darkthorn role",
     "quest giver crossroads"
    ],
-   "answer": "Sergra Darkthorn is an experienced orc shaman stationed at the Crossroads. She oversees the settlement's hunting trials, training incoming adventurers and directing them against wild beasts that threaten Horde operations."
+   "answer": "Sergra Darkthorn is an experienced orc shaman stationed at the Crossroads. She oversees hunting trials, trains incoming adventurers, and directs them against wild beasts that threaten Horde operations."
   },
   {
    "q": "Why does Sergra want their beaks specifically?",
@@ -55,7 +55,7 @@
     "why plainstrider beaks",
     "plainstrider beak proof"
    ],
-   "answer": "The tough, sharp beak is the plainstrider's primary weapon and tool for scavenging. Taking their beaks serves as undeniable proof that the scavenging birds have been slain."
+   "answer": "A plainstrider uses its tough, sharp beak as both its primary weapon and a tool for scavenging. Bringing back the beak proves the bird has been slain."
   },
   {
    "q": "What comes after this hunt?",
@@ -64,7 +64,7 @@
     "next quest after plainstriders",
     "hunt sequence"
    ],
-   "answer": "Once the plainstriders are handled, Sergra tests you against faster, more spirited prey by directing you to hunt the zhevra roaming the plains."
+   "answer": "After the plainstriders, Sergra sends you to hunt zhevra, faster and more spirited prey roaming the plains."
   },
   {
    "q": "Where are these plainstriders located?",
@@ -73,7 +73,7 @@
     "plainstrider locations",
     "hunting grounds"
    ],
-   "answer": "They wander the savanna grasslands immediately east and southeast of the Crossroads, foraging along the trade roads."
+   "answer": "Plainstriders wander the savanna grasslands east and southeast of the Crossroads, foraging along the trade roads."
   },
   {
    "q": "Is this part of a larger hunting series?",
@@ -81,21 +81,21 @@
     "barrens hunting chain",
     "sergra quest chain"
    ],
-   "answer": "Yes. This task marks the very beginning of Sergra Darkthorn's hunting trials in the Barrens, which gradually escalate toward increasingly dangerous beasts across the savanna."
+   "answer": "Yes. This begins Sergra Darkthorn's hunting trials in the Barrens, which grow more dangerous as they turn to fiercer beasts across the savanna."
   }
  ],
  "angles": [
   {
    "target": "class:Hunter",
-   "text": "For young hunters, Sergra's trial is an essential baseline in stalking, tracking, and putting down quarry in the wide-open savanna."
+   "text": "As a young hunter, you learn to stalk, track, and put down quarry in the wide-open savanna."
   },
   {
    "target": "faction:Horde",
-   "text": "The Crossroads is an essential logistics junction, and keeping its food supplies secure from wildlife ensures the Horde can maintain its foothold across Kalimdor."
+   "text": "As a member of the Horde, you help protect the Crossroads, an essential logistics junction, and secure its food supplies so the Horde can maintain its foothold across Kalimdor."
   },
   {
    "target": "race:Orc",
-   "text": "Orcs honor the discipline of the hunt, and Sergra expects every newcomer to prove their mettle against local beasts before taking on weightier duties."
+   "text": "As an orc, you honor the discipline of the hunt. Sergra expects you to prove your mettle against local beasts before taking on weightier duties."
   }
  ],
  "keywords": [
@@ -115,5 +115,6 @@
  ],
  "attribution": [
   "Plainstrider Menace (Classic)"
- ]
+ ],
+ "style": 1
 }

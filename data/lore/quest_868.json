@@ -17,16 +17,16 @@
   "wiki": "Egg Hunt (Classic)",
   "chain": []
  },
- "summary": "Egg Hunt is a Horde task assigned by the scholar Korran at the Crossroads. Disturbed by the emergence of intelligent, insectoid creatures in the southern Barrens, Korran recruits adventurers to excavate intact silithid eggs from the mounds in the Field of Giants for study in Orgrimmar.",
+ "summary": "Across the Barrens, Korran seeks silithid eggs for study. The Horde scholar at the Crossroads has heard of intelligent insect creatures in the south and wants intact eggs brought to Orgrimmar.",
  "sections": [
   {
    "title": "Eyes in the Crossroads",
-   "body": "Stationed at the dusty crossroads of the central savannah, the troll Korran serves as an observer reporting back to masters in Orgrimmar. While tribal conflicts and Alliance incursions occupy the Horde military, Korran pays attention to strange disturbances across the ecosystem. Chief among these oddities is the emergence of alien, hive-minded insectoids burrowing into the southern reaches of the Barrens.",
+   "body": "Korran watches the Barrens from the Crossroads and reports to Orgrimmar. While the Horde faces tribal conflicts and Alliance incursions, he studies strange changes in the land. Intelligent, hive-minded insect creatures have begun burrowing into the southern Barrens.",
    "spoiler": 0
   },
   {
    "title": "Excavating the Swarm",
-   "body": "To learn where these insect creatures come from and what drives them, Korran requires biological samples before they mature. Armed with an excavation claw, adventurers head down to the Field of Giants to harvest eggs straight from the silithid dirt mounds. Disturbing these brooding pods triggers frantic defense from the surrounding brood, hinting at the unnatural intelligence and shared will uniting the swarm.",
+   "body": "Korran needs samples to learn where the silithid come from and what drives them. With an excavation claw, you go to the Field of Giants and take intact eggs from the dirt mounds. Disturbing a mound draws the nearby brood to defend it, showing the swarm's uncanny coordination.",
    "spoiler": 0
   }
  ],
@@ -38,7 +38,7 @@
     "korran location",
     "who starts egg hunt"
    ],
-   "answer": "Korran gives the quest at the Crossroads in the Barrens. He is a troll observer studying the flora, fauna, and emerging anomalies of the region on behalf of patrons in Orgrimmar."
+   "answer": "Korran gives the work at the Crossroads in the Barrens. The troll watches the region's plants, animals, and strange changes for his patrons in Orgrimmar."
   },
   {
    "q": "Where are the silithid eggs found?",
@@ -47,7 +47,7 @@
     "where to find eggs",
     "field of giants eggs"
    ],
-   "answer": "The eggs are located inside silithid dirt mounds within the Field of Giants, situated in the southern half of the Barrens. The mounds cluster around the hive tunnels burrowed into the landscape."
+   "answer": "Silithid eggs lie in dirt mounds at the Field of Giants in the southern Barrens. The mounds gather around hive tunnels in the land."
   },
   {
    "q": "What tool is needed to collect the eggs?",
@@ -56,7 +56,7 @@
     "digging claw",
     "how to get eggs"
    ],
-   "answer": "Korran provides a sturdy Digging Claw to carefully scoop out intact eggs without crushing their fragile shells. The tool must be returned along with twelve undamaged eggs."
+   "answer": "Korran provides a Digging Claw to lift the eggs without breaking their shells. You return it with twelve undamaged eggs."
   },
   {
    "q": "What makes these insects different from typical beasts?",
@@ -65,7 +65,7 @@
     "insect intelligence",
     "silithid nature"
    ],
-   "answer": "Unlike simple vermin or local wildlife, these creatures display an eerie coordination and high cunning. Korran notes that they exhibit intelligence far beyond ordinary animals, suggesting a unified hive purpose."
+   "answer": "Silithid act with eerie coordination and cunning. Korran has found their intelligence far beyond that of ordinary animals, as if they share a purpose."
   },
   {
    "q": "Why does Orgrimmar want silithid eggs?",
@@ -74,7 +74,7 @@
     "why study eggs",
     "korran purpose"
    ],
-   "answer": "The leadership in Orgrimmar wants early intelligence on unknown threats taking root near Horde borders. Studying the eggs helps researchers understand the creatures' growth cycle, strengths, and underlying biology before the infestation spreads."
+   "answer": "Orgrimmar wants to learn about unknown threats near Horde lands. Studying the eggs can reveal how silithid grow, their strengths, and their biology before the infestation spreads."
   },
   {
    "q": "What happens when you disturb an egg mound?",
@@ -82,17 +82,17 @@
     "mound ambush",
     "silithid defenders"
    ],
-   "answer": "Touching the nesting mounds agitates the surrounding swarm. Nearby silithid immediately react to protect the brood, ambushing anyone caught raiding the nest."
+   "answer": "Disturbing a silithid mound agitates the swarm. Nearby silithid attack to protect the brood."
   }
  ],
  "angles": [
   {
    "target": "faction:Horde",
-   "text": "The Horde relies on scouts like Korran to watch the desolate stretches of Kalimdor, ensuring strange ecological threats are analyzed before they endanger Durotar and Mulgore."
+   "text": "The Horde depends on scouts like Korran to watch Kalimdor's harsh lands. Their reports help uncover strange threats before they endanger Durotar and Mulgore."
   },
   {
    "target": "race:Troll",
-   "text": "Trolls familiar with primeval creatures recognize that the silithid are no mere bugs, sharing Korran's wariness of beasts with an unnatural, calculating mind."
+   "text": "As a troll, you know primeval creatures can be dangerous. The silithid are no ordinary bugs, and Korran is wary of their calculating minds."
   }
  ],
  "keywords": [
@@ -113,5 +113,6 @@
  ],
  "attribution": [
   "Egg Hunt (Classic)"
- ]
+ ],
+ "style": 1
 }

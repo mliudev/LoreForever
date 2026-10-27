@@ -8,16 +8,16 @@
   "wiki": "Gelkak Gyromast",
   "refs": 2
  },
- "summary": "Gelkak Gyromast is a gnome who talks like a pirate captain, found stranded along the foggy shoreline of Mist's Edge in northern Darkshore. His ship was sunk offshore by threshadons, and he wants his mechanical first mate, the Threshwackonator 4100, back in working order.",
+ "summary": "Along Mist's Edge in northern Darkshore, Gelkak Gyromast is stranded after threshadons sank his ship. The gnome talks like a pirate captain and wants his mechanical first mate, the Threshwackonator 4100, working again.",
  "sections": [
   {
    "title": "Castaway on Mist's Edge",
-   "body": "Perched on the desolate northern coast of Darkshore just west of the ancient Ruins of Mathystra, Gelkak Gyromast represents a peculiar sight among the gloomy night elven shores. Talking like an old sea dog, the self-styled captain lost his ship to the threshadons just offshore. When he washed up on the misty sands, the key to his mechanical first mate, the Threshwackonator 4100, broke on the rocks, and its pieces were carried off by the crawlers, foreststriders and murlocs rummaging through the wreckage.",
+   "body": "West of the Ruins of Mathystra, Gelkak Gyromast is stranded on Darkshore's northern coast. The gnome talks like an old sea dog and calls himself captain. Threshadons sank his ship just offshore, and he washed up on the misty shore. The key to his mechanical first mate, the Threshwackonator 4100, broke on the rocks. Crawlers, foreststriders and murlocs rummaging through the wreckage carried off its pieces.",
    "spoiler": 0
   },
   {
    "title": "The Threshwackonator Malfunction",
-   "body": "Once adventurers recover the key, Gyromast sends them to switch on his first mate and lead it back to him, eager to set it loose on the murlocs and beasts of the coast. The Threshwackonator 4100 follows obediently, only to malfunction and turn hostile the moment it reaches its captain, leaving the adventurers to destroy it.",
+   "body": "Once travelers recover the key, Gelkak sends them to switch on the Threshwackonator 4100 and lead it back to him. He hopes to set it against the murlocs and beasts along the coast. The machine follows obediently, then malfunctions and turns hostile as it reaches its captain. The travelers must destroy it.",
    "spoiler": 1
   }
  ],
@@ -29,7 +29,7 @@
     "who is gelkak",
     "gyromast"
    ],
-   "answer": "Gelkak Gyromast is an eccentric gnome who talks like a pirate captain, stranded on the northern beach of Darkshore known as Mist's Edge, just west of the Ruins of Mathystra."
+   "answer": "Gelkak Gyromast is stranded on Mist's Edge, the northern beach of Darkshore just west of the Ruins of Mathystra. The gnome talks like a pirate captain."
   },
   {
    "q": "Why is Gelkak stranded in Darkshore?",
@@ -37,7 +37,7 @@
     "why is gelkak here",
     "gelkak darkshore"
    ],
-   "answer": "His ship was sunk just offshore by threshadons, and he washed up on the desolate northern coast with the broken key to his mechanical first mate."
+   "answer": "Threshadons sank Gelkak's ship just offshore, and he washed up on Darkshore's northern coast with the broken key to his mechanical first mate."
   },
   {
    "q": "What is the Threshwackonator 4100?",
@@ -46,7 +46,7 @@
     "gelkak machine",
     "robot"
    ],
-   "answer": "The Threshwackonator 4100 is Gelkak's mechanical creation and self-proclaimed first mate. He wants it back in working order so it can take revenge on the murlocs and beasts of the coast."
+   "answer": "The Threshwackonator 4100 is Gelkak's mechanical creation and self-proclaimed first mate. He wants it working again so it can take revenge on the murlocs and beasts along the coast."
   },
   {
    "q": "What help does Gelkak need from travelers?",
@@ -54,17 +54,17 @@
     "gelkak quests",
     "gyromast quests"
    ],
-   "answer": "Gelkak asks capable adventurers to recover the three pieces of his broken key from the crawlers, foreststriders and murlocs of the coast, then use it to start the Threshwackonator 4100 and lead it back to him."
+   "answer": "Gelkak asks travelers to recover the three pieces of his broken key from the coast's crawlers, foreststriders and murlocs. Then they can start the Threshwackonator 4100 and lead it back to him."
   }
  ],
  "angles": [
   {
    "target": "race:Gnome",
-   "text": "Seeing a fellow gnome stranded on the edge of Kalimdor is a stark reminder of how far from home a gnome's adventures can carry him."
+   "text": "As a gnome, seeing one of your own stranded on the edge of Kalimdor shows how far your adventures can carry you from home."
   },
   {
    "target": "profession:Engineering",
-   "text": "Gelkak's predicament is a classic tale of a gnome far from home, pinning his hopes of revenge on a device as impressive as the Threshwackonator 4100."
+   "text": "As an engineer, you can see Gelkak's hopes of revenge pinned on his impressive device, the Threshwackonator 4100."
   }
  ],
  "keywords": [
@@ -85,5 +85,6 @@
  ],
  "attribution": [
   "Gelkak Gyromast"
- ]
+ ],
+ "style": 1
 }

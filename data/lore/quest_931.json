@@ -17,16 +17,16 @@
   "wiki": "The Shimmering Frond",
   "chain": []
  },
- "summary": "Discovered among the roots and canopies of Teldrassil, a curious flora radiates with an otherworldly shimmer. Recognizing its rarity, travelers bring a specimen to the botanist Denalan at Lake Al'Ameth to uncover its origin.",
+ "summary": "Across Teldrassil, a curious plant shimmers among the roots and canopy. Travelers bring a cutting to Denalan at Lake Al'Ameth, hoping the botanist can explain its origin.",
  "sections": [
   {
    "title": "A Strange Glow",
-   "body": "While wandering through the verdant boughs of Teldrassil, observant travelers may stumble across a strange fronded plant. Unlike the usual forest foliage, its fronds catch the light and shimmer with a pulsing, twisting radiance. Such an unnatural presence catches the eye of anyone mindful of the island's delicate, nascent ecosystem.",
+   "body": "In Teldrassil's boughs, a strange plant catches the light. Its fronds twist with a pulsing shimmer unlike the island's usual foliage. The glow draws the eye amid Teldrassil's young forest life.",
    "spoiler": 0
   },
   {
    "title": "Denalan's Discovery",
-   "body": "Bringing the cutting to the botanist Denalan at Lake Al'Ameth reveals an unexpected truth. Denalan identifies the plant as an exotic specimen not native to northern Kalimdor, having last encountered its kind decades ago during a journey to the distant Swamp of Sorrows in the Eastern Kingdoms. Fascinated by how such a seed could travel across the ocean and thrive to such impressive size upon the World Tree, Denalan immediately sets to work cultivating and testing the sample.",
+   "body": "At Lake Al'Ameth, Denalan recognizes the cutting as a plant from beyond northern Kalimdor. He last saw one decades ago, during a journey to the Swamp of Sorrows in the Eastern Kingdoms. How its seed crossed the ocean and grew so large on the World Tree puzzles him. Denalan begins cultivating the sample and testing it.",
    "spoiler": 1
   }
  ],
@@ -38,7 +38,7 @@
     "where is frond from",
     "swamp plant"
    ],
-   "answer": "According to the botanist Denalan, the plant is native to the Swamp of Sorrows, a murky wetland far to the southeast in the Eastern Kingdoms. He had not seen a living specimen since visiting the marshlands decades earlier."
+   "answer": "Denalan says the plant comes from the Swamp of Sorrows in the Eastern Kingdoms. He last saw a living specimen in those marshes decades ago."
   },
   {
    "q": "Who is Denalan?",
@@ -46,7 +46,7 @@
     "denalan lore",
     "who is denalan"
    ],
-   "answer": "Denalan is an inquisitive night elf botanist and herbalist stationed near the banks of Lake Al'Ameth on Teldrassil. He dedicates his time to studying and nurturing Teldrassil's burgeoning plant life, often experimenting with foreign seeds and planters."
+   "answer": "Denalan is a night elf botanist and herbalist near Lake Al'Ameth on Teldrassil. He studies and tends the island's growing plant life, experimenting with foreign seeds and planters."
   },
   {
    "q": "Why is this plant growing on Teldrassil?",
@@ -54,7 +54,7 @@
     "how did it get to teldrassil",
     "why is frond here"
    ],
-   "answer": "It remains an ecological mystery. Denalan marvels at how a seed could travel all the way from the Eastern Kingdoms across the Great Sea, yet somehow take root and flourish into such a large specimen in Teldrassil's rich soil."
+   "answer": "No one knows how the plant reached Teldrassil. Denalan wonders how a seed crossed the Great Sea from the Eastern Kingdoms, then took root and grew large in Teldrassil's soil."
   },
   {
    "q": "What happens after giving the frond to Denalan?",
@@ -63,7 +63,7 @@
     "denalan test",
     "sprouted fronds"
    ],
-   "answer": "Denalan immediately places the specimen into his planter at Lake Al'Ameth to conduct tests. His cultivation quickly causes several sprouted fronds to blossom, leading to further study of the exotic flora."
+   "answer": "Denalan places the specimen in his planter at Lake Al'Ameth and begins testing it. Several fronds quickly sprout and blossom, giving him more to study."
   },
   {
    "q": "Does this plant cause corruption in Teldrassil?",
@@ -71,21 +71,21 @@
     "is frond corrupted",
     "corrupted plant"
    ],
-   "answer": "No. While much of Teldrassil's wildlife faces subtle corruption from foul influences, this plant simply appears to be an unusual, misplaced exotic breed rather than an agent of corruption."
+   "answer": "No. The plant appears to be an unusual exotic breed in the wrong place, rather than a source of corruption."
   }
  ],
  "angles": [
   {
    "target": "profession:Herbalism",
-   "text": "Herbalists and plant enthusiasts will appreciate the botanical intrigue of finding a marshland plant thriving thousands of miles from its native ecosystem."
+   "text": "Herbalists and plant enthusiasts may wonder how a plant from the Swamp of Sorrows thrives so far from its native marshland."
   },
   {
    "target": "class:Druid",
-   "text": "Druids mindful of the Great Tree's balance take note of non-native plant life introduced to Teldrassil's delicate young canopy."
+   "text": "As a druid, you may watch how foreign plant life affects Teldrassil's young canopy."
   },
   {
    "target": "race:NightElf",
-   "text": "For the night elves tending to their new home, Denalan's experiments provide vital insight into how resilient Teldrassil's soil truly is."
+   "text": "As a night elf tending your new home, you can see how Denalan's experiments reveal the resilience of Teldrassil's soil."
   }
  ],
  "keywords": [
@@ -107,5 +107,6 @@
  ],
  "attribution": [
   "The Shimmering Frond"
- ]
+ ],
+ "style": 1
 }

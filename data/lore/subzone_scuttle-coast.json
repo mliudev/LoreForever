@@ -7,16 +7,16 @@
  "meta": {
   "wiki": "Scuttle Coast"
  },
- "summary": "The Scuttle Coast is the wave-battered eastern shoreline of Durotar, situated between Razor Hill and Tiragarde Keep. The rocky beach is strewn with sunken wreckage from Admiral Daelin Proudmoore's Kul Tiras fleet, making it an active scavenging ground for the Horde and a lingering reminder of recent naval warfare.",
+ "summary": "Between Razor Hill and Tiragarde Keep, wreckage from Daelin Proudmoore’s fleet litters Durotar’s eastern shore. The sunken ships make the Scuttle Coast a place where the Horde scavenges and remembers the recent naval war.",
  "sections": [
   {
    "title": "Wreckage of the Fleet",
-   "body": "Running along Durotar's eastern edge out to the Great Sea, the Scuttle Coast earned its grim character during the invasion led by Grand Admiral Daelin Proudmoore. When the Kul Tiras fleet assaulted the fledgling nation of Durotar, fierce battles with the Horde drove many human warships against the jagged shoals, smashing them into splintered hulks. Today, the shoreline is choked with barnacle-encrusted timber, broken rigging, and salvaged cargo barrels. For the nearby encampments of Razor Hill, the coast remains a lingering reminder of how close the Kul Tiran threat still lies.",
+   "body": "Sunken warships line Durotar’s eastern edge, where the shore meets the Great Sea. During Grand Admiral Daelin Proudmoore’s invasion, the Kul Tiras fleet attacked the young nation of Durotar. Fierce battles with the Horde drove many human warships onto jagged shoals, where they broke apart. Barnacled timber, broken rigging, cargo barrels, and sunken ships still mark the coast. For the nearby encampments at Razor Hill, the wreckage recalls how close the Kul Tiran threat remains.",
    "spoiler": 0
   },
   {
    "title": "Scavengers and Tides",
-   "body": "The name Scuttle Coast may refer to the sunken warships scuttled or grounded during the fighting, or to the swarms of crabs and makrura that pick through the rotting detritus. Shoreline wildlife and dangerous tides keep casual travelers away from the wreckage.",
+   "body": "The name Scuttle Coast may refer to warships scuttled or grounded in the fighting, or to crabs and makrura picking through the wreckage. Shoreline beasts and dangerous tides keep casual travelers away.",
    "spoiler": 0
   }
  ],
@@ -28,7 +28,7 @@
     "who owns the wrecked ships",
     "sunken ships durotar"
    ],
-   "answer": "The shattered ships belonged to the naval fleet of Kul Tiras under Grand Admiral Daelin Proudmoore. They were smashed against Durotar's rocky shallows during the admiral's failed military campaign against the newly founded Horde."
+   "answer": "The shattered ships belonged to Kul Tiras’s fleet under Grand Admiral Daelin Proudmoore. During his failed campaign against the newly founded Horde, they smashed against Durotar’s rocky shallows."
   },
   {
    "q": "Why is it called the Scuttle Coast?",
@@ -36,7 +36,7 @@
     "why is it called scuttle coast",
     "scuttle coast name origin"
    ],
-   "answer": "No one is certain. The name may refer to the warships scuttled along the coastline during naval combat, or to the numerous makrura and crabs that scuttle across the rocky sands."
+   "answer": "No one is certain. The name may refer to warships scuttled along the coast during naval combat, or to makrura and crabs scuttling across the rocky sands."
   },
   {
    "q": "Is the Scuttle Coast safe to travel?",
@@ -44,13 +44,13 @@
     "scuttle coast dangers",
     "is scuttle coast dangerous"
    ],
-   "answer": "No. Aside from treacherous waves and jagged rocks, hostile coastal beasts like makrura prowl the surf, and armed Kul Tiras survivors remain entrenched just to the south at Tiragarde Keep."
+   "answer": "No. Treacherous waves and jagged rocks line the shore, while makrura and other hostile coastal beasts prowl the surf. Armed Kul Tiras survivors remain entrenched just to the south at Tiragarde Keep."
   }
  ],
  "angles": [
   {
    "target": "faction:Horde",
-   "text": "The broken hulls littering this beach stand as stark monuments to Durotar's defense against Daelin Proudmoore's invading navy."
+   "text": "For the Horde, the broken hulls on this beach recall Durotar’s defense against Daelin Proudmoore’s invading navy."
   }
  ],
  "keywords": [
@@ -73,5 +73,6 @@
  ],
  "attribution": [
   "Scuttle Coast"
- ]
+ ],
+ "style": 1
 }

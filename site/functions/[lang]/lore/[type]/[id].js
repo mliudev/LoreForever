@@ -1,12 +1,12 @@
 // /<lang>/lore/<type>/<id>: a lore page in another language (LOR-809; /de/lore/zone/westfall), from R2's
 // lore-i18n/<lang>/<type>/<id>.json (pipeline/lore/site_i18n.py), rendered by the same lib/lore.js entryPage as the
-// English page in functions/lore/. The address follows the English one (a quest's title in English, so the switch
+// English page in functions/lore/, with a player for each of its language's recordings R2 has. The address follows the English one (a quest's title in English, so the switch
 // only swaps the first segment); any other spelling gets a 301 to it. A page with no current translation, or a
 // language R2 doesn't have it in, is a 302 to the English page, so a link never dead-ends. A segment that isn't one of
 // the languages is the site's 404. The Lore Forever domain only (lib/doors.js LORE_PAGES).
 
-import { keyOf, loadEntry, loadI18nIndex, translationsOf, loadTranslated, entryPage, missingLorePage, htmlHeaders }
-  from "../../../../lib/lore.js";
+import { keyOf, loadEntry, loadI18nIndex, translationsOf, loadTranslated, entryPage, missingLorePage, htmlHeaders,
+  liveKeys, voiceNames } from "../../../../lib/lore.js";
 import { loadVoices } from "../../../../lib/voices.js";
 import { loadPacks, loadPackEntries, visiblePacks, packOptions } from "../../../../lib/packs.js";
 import { edgeCached } from "../../../../lib/edge-cache.js";
@@ -36,9 +36,11 @@ async function render({ request, env, params }, index) {
   const page = await loadTranslated(env, seg, entry.path);
   if (!page) return english();
   const hreflang = langs.find(l => l.seg === seg).hreflang;
-  const [voices, packData, packEntries] = await Promise.all([loadVoices(env, request), loadPacks(env, request), loadPackEntries(env, request)]);
+  const [live, voices, packData, packEntries] = await Promise.all([liveKeys(env, request), loadVoices(env, request),
+    loadPacks(env, request), loadPackEntries(env, request)]);
   const shelfPacks = packOptions(packEntries, packData, visiblePacks(packData, voices));
-  return new Response(entryPage(page, { env, lang: seg, langs, allLangs: index.langs || [], shelfPacks }),
+  // It plays its own language's narrators (the page's clips name only those), named in its language.
+  return new Response(entryPage(page, { live, names: voiceNames(voices, seg), env, lang: seg, langs, allLangs: index.langs || [], shelfPacks }),
     { headers: htmlHeaders(env, entry, hreflang) });
 }
 

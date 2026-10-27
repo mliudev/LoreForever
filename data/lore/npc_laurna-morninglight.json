@@ -8,16 +8,16 @@
   "wiki": "Laurna Morninglight",
   "refs": 5
  },
- "summary": "Laurna Morninglight is a night elf priest trainer residing in the tranquil settlement of Dolanaar within Teldrassil. Devoted to the Sisterhood of Elune, she guides budding acolytes emerging from Shadowglen in the spiritual rites and healing graces of the Moon Goddess. Her teachings prepare young night elf priests for the growing threats encroaching on the boughs of the World Tree.",
+ "summary": "In Dolanaar, Laurna Morninglight teaches young night elf priests the rites of Elune. Devoted to the Sisterhood of Elune, she guides acolytes from Shadowglen in healing and spiritual practice as threats gather in Teldrassil.",
  "sections": [
   {
    "title": "A Guide in Dolanaar",
-   "body": "Situated amidst the boughs of Dolanaar, Laurna Morninglight serves as one of the primary mentors for young priests who have completed their initial rites in Shadowglen. As new initiates step out into the broader reaches of Teldrassil, she instructs them on expanding their communion with Elune, balancing the light of healing with defensive rites necessary to survive an increasingly hostile wild.",
+   "body": "In Dolanaar, Laurna Morninglight guides young priests from Shadowglen. As new initiates travel farther into Teldrassil, she teaches them to deepen their bond with Elune. Her lessons join healing with defensive rites, skills needed in an increasingly hostile wild.",
    "spoiler": 0
   },
   {
    "title": "Devotion to the Moon Goddess",
-   "body": "Priestcraft among the kaldorei is deeply intertwined with the worship of Elune rather than the abstract Holy Light revered by humans and dwarves. Laurna tasks her students with spiritual labors such as receiving sacred robes and healing a wounded Sentinel. Through these traditions, acolytes learn that their powers are direct gifts of the Mother Moon, meant to preserve and mend the kaldorei people.",
+   "body": "Among the kaldorei, priestcraft follows Elune, not the Holy Light revered by humans and dwarves. Laurna sends her students to receive sacred robes and heal a wounded Sentinel. Through these rites, acolytes learn that the Mother Moon grants their power to preserve and mend the kaldorei people.",
    "spoiler": 0
   }
  ],
@@ -29,7 +29,7 @@
     "where is laurna",
     "dolanaar priest trainer"
    ],
-   "answer": "Laurna Morninglight is stationed in the village of Dolanaar, located in the central reaches of Teldrassil just down the road from Shadowglen."
+   "answer": "Find Laurna Morninglight in Dolanaar, in central Teldrassil, just down the road from Shadowglen."
   },
   {
    "q": "What does Laurna Morninglight do?",
@@ -38,7 +38,7 @@
     "laurna role",
     "laurna priest trainer"
    ],
-   "answer": "She is a priest trainer for night elf characters. She teaches new spells, refines ranks of known abilities, and provides early guidance through class-specific rites."
+   "answer": "Laurna Morninglight trains night elf priests. She teaches new spells, improves familiar abilities, and guides them through early class rites."
   },
   {
    "q": "What kind of quests does she offer?",
@@ -46,7 +46,7 @@
     "laurna quests",
     "priest quests dolanaar"
    ],
-   "answer": "She initiates class quests for fledgling priests, directing them to aid wounded allies and seek Elune's divine favor through ceremonial vestments and prayers."
+   "answer": "Laurna Morninglight sends fledgling priests to aid wounded allies and seek Elune's favor through ceremonial vestments and prayers."
   },
   {
    "q": "Does she train other races?",
@@ -54,7 +54,7 @@
     "can humans train here",
     "priest trainer any race"
    ],
-   "answer": "While she is culturally rooted in the Sisterhood of Elune, priest trainers in the Alliance will instruct any allied priest who comes seeking spiritual discipline."
+   "answer": "Laurna Morninglight is rooted in the Sisterhood of Elune, and Alliance priest trainers instruct any allied priest who seeks spiritual discipline."
   },
   {
    "q": "Is she affiliated with the Temple of the Moon?",
@@ -62,7 +62,7 @@
     "is she sisterhood of elune",
     "laurna temple of the moon"
    ],
-   "answer": "Yes, as a kaldorei priestess, her vows and magic are dedicated entirely to the Goddess Elune and the broader traditions overseen by the Temple of the Moon in Darnassus."
+   "answer": "Yes. Laurna Morninglight's vows and magic are dedicated to Elune and the traditions overseen by the Temple of the Moon in Darnassus."
   },
   {
    "q": "Does she share a family name with other night elves?",
@@ -70,17 +70,17 @@
     "morninglight family",
     "laurna relatives"
    ],
-   "answer": "No relatives of Laurna are known among the kaldorei of Teldrassil."
+   "answer": "No relatives of Laurna Morninglight are known among the kaldorei of Teldrassil."
   }
  ],
  "angles": [
   {
    "target": "class:Priest",
-   "text": "For night elf priests arriving from Shadowglen, Laurna Morninglight is your first major mentor outside the starting vale, teaching foundational spells and guiding your early devotion to Elune."
+   "text": "As a night elf priest arriving from Shadowglen, you can turn to Laurna Morninglight for foundational spells and guidance in devotion to Elune."
   },
   {
    "target": "race:NightElf",
-   "text": "Laurna embodies the traditional kaldorei devotion to the Moon Goddess, reminding adventurers that priestcraft in Teldrassil draws from Elune rather than the Holy Light."
+   "text": "As a night elf, you follow the kaldorei devotion to the Moon Goddess. In Teldrassil, priestcraft draws on Elune rather than the Holy Light."
   }
  ],
  "keywords": [
@@ -105,5 +105,6 @@
  ],
  "attribution": [
   "Laurna Morninglight"
- ]
+ ],
+ "style": 1
 }

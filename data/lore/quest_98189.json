@@ -1,0 +1,79 @@
+{
+ "key": "quest:98189",
+ "type": "quest",
+ "name": "Return the Statuette",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   98189
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "A recovered statuette was meant for Menethil Harbor before tragedy interrupted its delivery. You are asked to bring it to Captain Stoutfist at Menethil Keep.",
+ "sections": [
+  {
+   "title": "An Unfinished Delivery",
+   "body": "The statuette was meant to reach Menethil Harbor, with Captain Stoutfist at Menethil Keep expected to sign for it. You are asked to finish the delivery.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is meant to receive the statuette?",
+   "aliases": [
+    "who gets the statuette",
+    "statuette recipient",
+    "captain stoutfist delivery"
+   ],
+   "answer": "Captain Stoutfist at Menethil Keep is expected to sign for the Menethil Statuette."
+  },
+  {
+   "q": "Where was the statuette supposed to go?",
+   "aliases": [
+    "where does it go",
+    "statuette destination",
+    "menethil statuette"
+   ],
+   "answer": "The statuette was meant to be delivered to Menethil Harbor."
+  },
+  {
+   "q": "Who was carrying it before?",
+   "aliases": [
+    "who had the statuette",
+    "blind princess statuette",
+    "statuette delivery"
+   ],
+   "answer": "The Blind Princess was supposed to deliver the statuette before tragedy struck."
+  },
+  {
+   "q": "What is being asked of me?",
+   "aliases": [
+    "what do i do",
+    "return statuette",
+    "statuette quest"
+   ],
+   "answer": "You are asked to bring the Menethil Statuette to Captain Stoutfist at Menethil Keep."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "blind princess",
+  "captain stoutfist",
+  "menethil harbor",
+  "menethil keep",
+  "menethil statuette",
+  "statuette"
+ ],
+ "related": [
+  "item:menethil-statuette",
+  "npc:captain-stoutfist",
+  "subzone:menethil-keep",
+  "subzone:menethil-harbor"
+ ],
+ "style": 1,
+ "attribution": [
+  "In-game quest text: Return the Statuette"
+ ]
+}

@@ -15,6 +15,9 @@ import { onRequestGet as entryGet } from "../functions/lore/[type]/[id].js";
 import { onRequestGet as indexGet } from "../functions/lore/index.js";
 import { onRequestGet as sitemapGet } from "../functions/lore/sitemap.xml.js";
 import { onRequestGet as langEntryGet } from "../functions/[lang]/lore/[type]/[id].js";
+import { onRequestGet as narrationListGet } from "../functions/[lang]/lore/narration.json.js";
+import { onRequest as i18nAdmin } from "../functions/api/admin/lore-i18n.js";
+import { tr } from "../lib/lore-strings.js";
 
 import { onRequest as audioGet, parseRange } from "../functions/audio/clip/[voice]/[file].js";
 import { onRequest as narrationPublic } from "../functions/api/narration/[action].js";
@@ -120,15 +123,25 @@ test("spoilers: a narration whose summary gives a story away plays nothing and s
 });
 
 test("an entry with no recording is a page of its spoiler-free text, with nothing to play (LOR-20)", async () => {
-  const lore = JSON.parse(readFileSync(join(ROOT, "data/lore/item_dalin-s-heart.json"), "utf8"));
-  const res = await entry("/lore/item/dalin-s-heart");
+  // Any item page the lore data lists without a recording that links a quest (which pages those are moves with every
+  // story that gets narrated, so the data says, not a name).
+  const more = JSON.parse(readFileSync(join(PUBLIC, "lore/data/more.json"), "utf8")).pages;
+  const pick = more.filter(p => p.k === "item" && !p.x).map(p => ({ p, e: entryJson("item:" + p.p.split("/")[3]) }))
+    .find(({ e }) => e.clips.length === 0 && e.wowhead && e.related.some(r => r.p.startsWith("/lore/quest/")));
+  assert.ok(pick, "the lore data has no unnarrated item that links a quest: pick another kind of page");
+  const lore = JSON.parse(readFileSync(join(ROOT, "data/lore/item_" + pick.p.p.split("/")[3] + ".json"), "utf8"));
+  const res = await entry(pick.p.p);
   const html = await res.text();
   assert.equal(res.status, 200);
   assert.equal(res.headers.get("X-Robots-Tag"), null, "indexable");
-  assert.match(html, /<title>Dalin&#39;s Heart[^<]*Lore Forever<\/title>/);
-  for (const s of lore.sections.filter(s => s.spoiler === 0)) assert.ok(html.includes(`<h2>${s.title}</h2>`), s.title);
+  assert.ok(html.includes("<title>" + pick.p.n.replace(/&/g, "&amp;").replace(/'/g, "&#39;")), "the title names the entry");
+  const esc = t => t.replace(/&/g, "&amp;").replace(/'/g, "&#39;");
+  assert.ok(pick.e.sections.length > 0, "the page has sections of its own");
+  for (const s of pick.e.sections) assert.ok(html.includes(`<h2>${esc(s.t)}</h2>`), s.t);
+  for (const s of lore.sections.filter(s => s.spoiler > 0)) assert.ok(!html.includes(s.body.slice(0, 50)), "no spoiler: " + s.title);
   assert.ok(html.includes("https://www.wowhead.com/forever/item="), "Look it up links its game ID");
-  assert.ok(html.includes('href="/lore/quest/1476-hearts-of-the-pure"'), "an item links its quest");
+  const quest = pick.e.related.find(r => r.p.startsWith("/lore/quest/")).p;
+  assert.ok(html.includes(`href="${quest}"`), "an item links its quest");
   // (The report form is in every page: the foot player can report whatever the playlist is playing.)
   assert.ok(!html.includes("lp-clip") && !html.includes("lp-btn") && !html.includes("lp-listen"), "no Listen box");
   // (pipeline/tests/test_site_lore.py checks that no spoiler section of any entry reaches a page.)
@@ -159,7 +172,8 @@ test("a page of a line or two is noindex and left out of the sitemap; the rest i
   const more = JSON.parse(readFileSync(join(PUBLIC, "lore/data/more.json"), "utf8")).pages;
   const index = JSON.parse(readFileSync(join(PUBLIC, "lore/data/index.json"), "utf8")).pages;
   const thin = more.filter(p => p.x);
-  assert.ok(thin.length > 0 && thin.length < more.length / 10, `${thin.length} thin pages of ${more.length}`);
+  // (a few pages, not most of them: thin ones stay under one page in a hundred)
+  assert.ok(thin.length > 0 && thin.length < (more.length + index.length) / 100, `${thin.length} thin pages of ${more.length + index.length}`);
   assert.ok(index.every(p => !p.x), "a page with a recording is never thin");
   const res = await entry(thin[0].p);
   assert.equal(res.status, 200);
@@ -317,7 +331,8 @@ test("a translated page reads in its language with the English page and its othe
   assert.doesNotMatch(html, /hreflang="fr"/, "French isn't one of this page's languages");
   assert.doesNotMatch(html, /class="lp-mine"/, "the profile line names English pages only");
   // No English narrator under German text: the page says there's no recording in German, and plays nothing.
-  assert.match(html, /No Deutsch recording yet/i);
+  assert.match(html, /class="lp-ingame lp-norec"/);
+  assert.doesNotMatch(html, /English page/i);
   assert.doesNotMatch(html, /class="lp-btn"|class="lp-all"/);
 
   // French: not in this page's mask. Chinese: in the mask, but R2 has no object (an upload under way). Both go to English.
@@ -333,4 +348,55 @@ test("a translated page reads in its language with the English page and its othe
   const english = await (await entry(en.path, e)).text();
   assert.match(english, new RegExp(`<a href="/de${en.path}" hreflang="de"`));
   assert.match(english, new RegExp(`rel="alternate" hreflang="zh-Hans" href="${HOME}/zh${en.path}"`));
+});
+
+// The /lore list in another language plays that language's narrators: the upload's list of them (site_i18n.py
+// narration_list, a few hundred KB, more than a page may be), read back with the narrators named in the language.
+test("the /lore list's recordings in another language: uploaded, then served with its narrators named in it", async () => {
+  const STUDIO = r2();
+  const e = env({ STUDIO, ADMIN_KEY: "k", FEEDBACK_KEY: "f",
+    ACCESS_ISSUER: "https://lore-test.cloudflareaccess.com", ACCESS_AUD: "aud", ACCESS_SCRIPT_TOKENS: "script.access" });
+  await STUDIO.put("lore-i18n/index.json", JSON.stringify({ format: 1, pages: {},
+    langs: [{ seg: "de", hreflang: "de", name: "Deutsch" }, { seg: "fr", hreflang: "fr", name: "Français" }] }));
+  const list = { format: 1, voices: ["female-narrator-de", "male-narrator-de"], pages: Array.from({ length: 9000 }, (_, i) =>
+    ({ p: `/lore/npc/someone-${i}`, c: [["", "abc123", [["0123456789", 42], null]]] })) };
+  const body = new TextEncoder().encode(JSON.stringify(list));
+  assert.ok(body.length > 512 * 1024, "bigger than a page may be");
+  const sha = createHash("sha256").update(body).digest("hex");
+  const put = await i18nAdmin({ request: new Request(`${HOME}/api/admin/lore-i18n?key=de/narration.json&sha256=${sha}`,
+    { method: "PUT", body, headers: { Authorization: "Bearer k" } }), env: e });
+  assert.equal(put.status, 200, await put.clone().text());
+
+  const get = seg => narrationListGet({ request: new Request(`${HOME}/${seg}/lore/narration.json`), env: e, params: { lang: seg } });
+  const res = await get("de");
+  assert.equal(res.status, 200);
+  const got = await res.json();
+  assert.deepEqual(got.list, list);
+  assert.equal(got.names["female-narrator-de"], tr("de", "Female narrator"), "named in German");
+  assert.equal((await get("fr")).status, 404, "no French list uploaded yet: the list then sends listeners to the pages");
+  assert.equal((await get("xx")).status, 404, "not one of the languages");
+});
+
+// Mike, 10/26: a page in a language the add-on has recordings in plays them, in that language's narrators.
+test("a translated page with recordings in its language plays them, and only those", async () => {
+  const en = entryJson("zone:elwynn");
+  const story = { id: "zone:elwynn", part: "narration", anchor: "story", title: "The story", hash: "abc123",
+    paras: ["Der Wald von Elwynn ist ein friedlicher Wald."], voices: { "female-narrator-de": { sha: "0123456789", sec: 42 },
+      "male-narrator-de": { sha: "abcdefabcd", sec: 40 } } };
+  const german = audioKey("female-narrator-de", story.id, story.voices["female-narrator-de"]);
+  const STUDIO = await bucketWith([german]);
+  const put = (key, obj) => STUDIO.put("lore-i18n/" + key, new TextEncoder().encode(JSON.stringify(obj)));
+  await put("index.json", { format: 1, langs: [{ seg: "de", hreflang: "de", name: "Deutsch" }], pages: { [en.path]: 1 } });
+  await put("de/zone/elwynn.json", { ...en, lang: "de", en: en.path, path: "/de" + en.path, name: "Wald von Elwynn",
+    intro: [], sections: [{ t: "Ein trügerischer Friede", p: ["Doch der Friede trügt."] }], clips: [story] });
+  const res = await langEntryGet({ request: new Request(`${HOME}/de${en.path}`), env: env({ STUDIO }),
+    params: { lang: "de", type: "zone", id: "elwynn" }, next: async () => new Response("static") });
+  const html = await res.text();
+  assert.ok(html.includes(`href="/audio/clip/${german}"`), "the German recording R2 has");
+  assert.equal((html.match(/class="lp-btn"/g) || []).length, 1, "the male German take isn't in R2");
+  assert.match(html, /class="lp-all"/, "Listen");
+  assert.match(html, /class="lp-speed"/);
+  assert.doesNotMatch(html, /class="lp-ingame lp-norec"/, "it has a recording");
+  assert.doesNotMatch(html, /class="lp-vn">Female narrator</i, "named in German, not English");
+  assert.ok(html.indexOf('id="story"') < html.indexOf("Ein trügerischer Friede"), "the story, then what it doesn't read");
 });

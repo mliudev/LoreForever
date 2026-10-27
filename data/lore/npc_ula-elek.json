@@ -8,16 +8,16 @@
   "wiki": "Ula'elek",
   "refs": 3
  },
- "summary": "Ula'elek is a Darkspear troll smith residing in Sen'jin Village along the southern coast of Durotar. Working in tandem with the veteran orc smith Thun'grim Firegaze, he crafts specialized armor for Horde warriors striving to prove their worth. His work combines traditional troll craftsmanship with exotic trophies gathered from across Kalimdor.",
+ "summary": "In Sen'jin Village, Ula'elek works armor for warriors across the Horde. The Darkspear smith joins forces with Thun'grim Firegaze, shaping specialized gear from traditional troll craft and trophies gathered across Kalimdor.",
  "sections": [
   {
    "title": "Smith of the Darkspear",
-   "body": "Ula'elek plies his craft amid the huts and braziers of Sen'jin Village, serving the Darkspear tribe as a skilled armorsmith. In a coastal settlement constantly threatened by nearby hostile quilboar and sea crawlers, keeping working blades and sturdy armor ready is vital to the tribe's survival. However, Ula'elek's renown extends beyond local defense, drawing the attention of seasoned warriors across the Horde.",
+   "body": "Ula'elek is a skilled armorsmith serving the Darkspear in Sen'jin Village. Nearby quilboar and sea crawlers threaten the coastal settlement, so the tribe needs sturdy armor and working blades. Ula'elek's skill also draws seasoned warriors from across the Horde.",
    "spoiler": 0
   },
   {
    "title": "Forging the Brutal Armor",
-   "body": "When young warriors visit Thun'grim Firegaze atop his overlook in the Barrens, the old veteran directs them south toward Sen'jin Village to seek out Ula'elek. Thun'grim trusts the troll smith to fashion Brutal Gauntlets, an imposing piece of battle gear worthy of battle-hardened frontliners. Ula'elek demands rare materials for the task, most notably the swollen, uncloven hooves of the satyrs who leech the forest's magic in northeastern Ashenvale.",
+   "body": "Young warriors who visit Thun'grim Firegaze at his overlook in the Barrens are sent south to Sen'jin Village. The veteran trusts Ula'elek to forge Brutal Gauntlets for battle-hardened fighters. To make them, Ula'elek calls for rare materials, especially swollen, uncloven hooves from the satyrs draining the forest's magic in northeastern Ashenvale.",
    "spoiler": 0
   }
  ],
@@ -29,7 +29,7 @@
     "ula'elek lore",
     "ulaelek background"
    ],
-   "answer": "Ula'elek is a Darkspear troll armorsmith living in Sen'jin Village in Durotar. He is trusted by Horde veterans to forge durable, specialized armor for up-and-coming frontline fighters."
+   "answer": "Ula'elek is a Darkspear troll armorsmith in Sen'jin Village. Horde veterans trust him to forge specialized armor for promising frontline fighters."
   },
   {
    "q": "Where can Ula'elek be found?",
@@ -38,7 +38,7 @@
     "where is ula'elek",
     "find ulaelek"
    ],
-   "answer": "He is located in Sen'jin Village, a Darkspear settlement situated along the southeastern coast of Durotar, south of Razor Hill."
+   "answer": "Ula'elek can be found in Sen'jin Village, on Durotar's southeastern coast, south of Razor Hill."
   },
   {
    "q": "Why does Thun'grim Firegaze send warriors to Ula'elek?",
@@ -46,7 +46,7 @@
     "thungrim and ulaelek",
     "why go to ula'elek"
    ],
-   "answer": "Thun'grim Firegaze recognizes Ula'elek's exceptional skill as a smith and commissions him to create the Brutal Gauntlets for Horde warriors who have earned the veteran's respect."
+   "answer": "Thun'grim Firegaze sends warriors to Ula'elek because he trusts the troll smith to make Brutal Gauntlets for warriors who have earned the veteran's respect."
   },
   {
    "q": "What materials does Ula'elek need to make the gauntlets?",
@@ -54,7 +54,7 @@
     "ula'elek materials",
     "brutal gauntlets ingredients"
    ],
-   "answer": "To fashion the Brutal Gauntlets, Ula'elek requires warriors to hunt down satyrs in northeastern Ashenvale and harvest their swollen, uncloven hooves as essential crafting components."
+   "answer": "Ula'elek requires warriors to hunt satyrs in northeastern Ashenvale and harvest their swollen, uncloven hooves for the Brutal Gauntlets."
   },
   {
    "q": "What kind of gear does Ula'elek craft?",
@@ -62,7 +62,7 @@
     "what does ula'elek make",
     "ula'elek rewards"
    ],
-   "answer": "He specializes in heavy combat armor, specifically the Brutal Gauntlets, which form part of the traditional set of Brutal Armor forged for promising warriors of the Horde."
+   "answer": "Ula'elek specializes in heavy combat armor. He makes the Brutal Gauntlets, part of the Brutal Armor set for promising Horde warriors."
   },
   {
    "q": "Why do the gauntlets require satyr hooves?",
@@ -70,21 +70,21 @@
     "why satyr hooves",
     "hooves for gauntlets"
    ],
-   "answer": "The satyrs of northeastern Ashenvale feed off the forest's purity, and those who have drawn the most magic have swollen, uncloven hooves. Ula'elek leeches that power out of the hooves and harnesses it into the gauntlets."
+   "answer": "Satyrs in northeastern Ashenvale drain the forest's magic, and the most potent among them have swollen, uncloven hooves. Ula'elek draws that power from the hooves and puts it into the gauntlets."
   }
  ],
  "angles": [
   {
    "target": "class:Warrior",
-   "text": "Ula'elek plays a crucial role in assembling your Brutal armor set, shaping hard-won satyr hooves into rugged gauntlets under the instruction of Thun'grim Firegaze."
+   "text": "As a warrior, you rely on Ula'elek to assemble your Brutal armor set, shaping hard-won satyr hooves into rugged gauntlets at Thun'grim Firegaze's direction."
   },
   {
    "target": "race:Troll",
-   "text": "Ula'elek represents the vital role Darkspear smiths hold in the fledgling Horde, forging frontline equipment right from Sen'jin Village's open shores."
+   "text": "As a troll, you see how Darkspear smiths help equip the young Horde, forging frontline gear on Sen'jin Village's open shores."
   },
   {
    "target": "profession:Blacksmithing",
-   "text": "His integration of beast and demon trophies into warrior armor highlights the practical, resourceful nature of Horde smithing outside traditional foundries."
+   "text": "As a blacksmith, you see how Horde smiths put beast and demon trophies to practical use in warrior armor, beyond traditional foundries."
   }
  ],
  "keywords": [
@@ -109,5 +109,6 @@
  ],
  "attribution": [
   "Ula'elek"
- ]
+ ],
+ "style": 1
 }

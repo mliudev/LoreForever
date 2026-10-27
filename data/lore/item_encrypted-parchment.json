@@ -10,16 +10,16 @@
    "quest:3088"
   ]
  },
- "summary": "The Encrypted Parchment is a ciphered missive delivered to aspiring orc rogues training in the Valley of Trials. Handed over by Gornek, it discreetly directs promising recruits into the shadows of the Den to meet the covert trainer Rwag.",
+ "summary": "In the Valley of Trials, Encrypted Parchment guides young orc rogues toward the Den. Gornek hands it to recruits who show promise, and its cipher points them to Rwag, the hidden trainer.",
  "sections": [
   {
    "title": "A Summons from the Shadows",
-   "body": "Young orcs seeking to prove their martial prowess in the Valley of Trials typically fight out in the open sun. However, those showing an aptitude for stealth, deception, and bladecraft draw a very different kind of attention. The Encrypted Parchment is handed to promising orc rogues by Gornek once they have cut their teeth against the local wildlife. Rather than an open announcement, the message is coded to ensure that only someone with an eye for subterfuge heeds the call.",
+   "body": "Young orcs prove their strength in the Valley of Trials under the open sun. Those who show a gift for stealth, deception, and bladecraft draw different notice. After facing the local wildlife, promising orc rogues receive Encrypted Parchment from Gornek. Its coded words call to those who can read a message meant to stay hidden.",
    "spoiler": 0
   },
   {
    "title": "Ties to the Shattered Hand",
-   "body": "Deciphering the parchment directs the novice deep into the cave known as the Den, past the watchful eye of other clan trainers to find Rwag. There, the recruit learns that the summons was arranged on behalf of the Shattered Hand\u2014an order operating within the Horde's covert network. By answering the parchment, the rogue takes their first step into a world of espionage, shadowcraft, and guarded secrets.",
+   "body": "The cipher leads a novice into the Den, past the other clan trainers, to find Rwag. The recruit learns there that the Shattered Hand arranged the summons. The order works within the Horde's covert network, and answering the call begins a rogue's training in espionage and shadowcraft.",
    "spoiler": 0
   }
  ],
@@ -31,7 +31,7 @@
     "parchment purpose",
     "why encrypted parchment"
    ],
-   "answer": "It serves as a coded summons that introduces novice orc rogues to their class trainer, Rwag, who lurks inside the Den within the Valley of Trials."
+   "answer": "Encrypted Parchment is a coded summons that guides novice orc rogues to their trainer, Rwag, inside the Den in the Valley of Trials."
   },
   {
    "q": "Who sends the parchment to you?",
@@ -40,7 +40,7 @@
     "parchment sender",
     "who gave me parchment"
    ],
-   "answer": "The message originates from the rogue trainer Rwag, though it is handed to you by Gornek after you complete your initial trials in the valley."
+   "answer": "Gornek hands you the parchment after your first trials in the valley. Its message comes from Rwag, the rogue trainer."
   },
   {
    "q": "Why is the message written in cipher?",
@@ -49,7 +49,7 @@
     "why encrypted",
     "secret message"
    ],
-   "answer": "Rwag and his contacts within the Shattered Hand favor secrecy over open declarations. A ciphered message ensures that only someone suited for the subtle path of a rogue is guided into their hidden ranks."
+   "answer": "Rwag and his contacts in the Shattered Hand favor secrecy. The cipher guides recruits suited to the subtle path of a rogue into their hidden ranks."
   },
   {
    "q": "What organization is behind the summons?",
@@ -58,7 +58,7 @@
     "shattered hand rogue",
     "what faction sent this"
    ],
-   "answer": "Rwag reveals that the Shattered Hand asked him to keep an eye out for capable recruits. They offer training in stealth and espionage to serve the Horde from the shadows."
+   "answer": "Rwag reveals that the Shattered Hand asked him to watch for capable recruits. The order trains rogues in stealth and espionage to serve the Horde from the shadows."
   },
   {
    "q": "Can troll rogues use this parchment?",
@@ -66,17 +66,17 @@
     "troll encrypted parchment",
     "is it for trolls too"
    ],
-   "answer": "No. While troll rogues also begin in the Valley of Trials, their secretive summons comes in the form of an Encrypted Tablet rather than this parchment."
+   "answer": "No. Troll rogues also begin in the Valley of Trials, but they receive an Encrypted Tablet instead."
   }
  ],
  "angles": [
   {
    "target": "class:Rogue",
-   "text": "The parchment represents your induction into the covert underworld of the Horde, pointing you toward mentors affiliated with the Shattered Hand."
+   "text": "As a rogue, you receive a summons to train in the Horde's covert arts with mentors tied to the Shattered Hand."
   },
   {
    "target": "race:Orc",
-   "text": "While orc culture typically prizes open, honorable combat, this missive welcomes those whose talents lie in the quieter, deadlier arts of survival."
+   "text": "As an orc, you may favor open, honorable combat, but this missive welcomes those whose talents lie in the quieter, deadlier arts of survival."
   }
  ],
  "keywords": [
@@ -102,5 +102,6 @@
  "attribution": [
   "Encrypted Parchment",
   "Encrypted Parchment (quest)"
- ]
+ ],
+ "style": 1
 }

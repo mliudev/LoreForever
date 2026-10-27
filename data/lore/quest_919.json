@@ -17,16 +17,16 @@
   "wiki": "Timberling Sprouts",
   "chain": []
  },
- "summary": "Timberling Sprouts is a quest given by the nature-watcher Denalan near Lake Al'Ameth in central Teldrassil. Concerned by the sudden and unnatural proliferation of woodland sprouts around the lake shores, Denalan asks travelers to uproot them before they mature into hostile timberlings. The task highlights early signs that a creeping corruption is disturbing the balance of the newly grown World Tree.",
+ "summary": "Around Lake Al'Ameth, Timberling Sprouts are spreading across Teldrassil. Denalan asks you to uproot them before they grow into hostile timberlings.",
  "sections": [
   {
    "title": "Weeding Lake Al'Ameth",
-   "body": "Around the serene banks of Lake Al'Ameth, strange plant-like creatures known as timberlings have begun multiplying at an alarming rate. Rather than thriving in harmony with the woodland, the emerging timberling sprouts display signs of corruption from the moment they take root. Denalan, a dedicated student of nature residing beside the lake, recognizes that these sprouts are beyond healing. Left unchecked, they rapidly mature into aggressive bark-covered creatures that menace local wildlife and unwary travelers. Gathering and destroying the sprouts serves as an immediate line of defense to keep the grove clean.",
+   "body": "Corrupted sprouts are spreading along Lake Al'Ameth's banks. Denalan lives beside the lake and knows these young plants cannot be healed. Left alone, they quickly grow into aggressive, bark-covered timberlings that threaten wildlife and travelers. Uprooting the sprouts helps protect the grove.",
    "spoiler": 0
   },
   {
    "title": "Signs of a Deeper Taint",
-   "body": "While uprooting sprouts helps manage the local hazard, Denalan notes with dread just how swiftly the sprouts appear. Their unchecked proliferation is an unnatural phenomenon on Teldrassil. Rather than being an isolated infestation, the tainted sprouts are a symptom of a deeper malaise that threatens the roots and soil of the World Tree itself\u2014a riddle Denalan and the druids of Darnassus are racing to unravel.",
+   "body": "Denalan is troubled by how quickly new sprouts appear across Teldrassil. Their spread points to a sickness in the World Tree's roots and soil, and Denalan and the druids of Darnassus seek its cause.",
    "spoiler": 0
   }
  ],
@@ -38,7 +38,7 @@
     "timberling sprout lore",
     "what is a sprout"
    ],
-   "answer": "Timberling sprouts are the nascent, juvenile forms of timberlings\u2014small elemental plant beings native to Teldrassil's boughs. Unfortunately, those germinating along Lake Al'Ameth are tainted and rapidly grow into hostile, aggressive creatures."
+   "answer": "Timberling sprouts are young forms of the elemental plant beings native to Teldrassil's boughs. Those growing along Lake Al'Ameth are tainted and quickly become hostile."
   },
   {
    "q": "Who is Denalan?",
@@ -47,7 +47,7 @@
     "denalan lore",
     "lake al'ameth questgiver"
    ],
-   "answer": "Denalan is an herbalist and nature-tender living in a quiet camp near the shores of Lake Al'Ameth. He watches over the flora of the bough and studies the ecological shifts and strange corruptions taking hold on Teldrassil."
+   "answer": "Denalan is an herbalist who lives in a camp near Lake Al'Ameth. He watches the bough's plants and studies changes and corruption on Teldrassil."
   },
   {
    "q": "Why can't these sprouts simply be healed or purified?",
@@ -56,7 +56,7 @@
     "why destroy timberlings",
     "are sprouts beyond help"
    ],
-   "answer": "Denalan observes that the sprouts are already tainted beyond redemption by the time they surface. Attempting to restore them is futile, making culling the only practical way to prevent them from maturing into dangerous hazards."
+   "answer": "Denalan finds the sprouts already tainted beyond healing when they surface. Uprooting them is the only practical way to keep them from becoming dangerous timberlings."
   },
   {
    "q": "Where are the sprouts found?",
@@ -65,7 +65,7 @@
     "where to find sprouts",
     "lake al'ameth sprouts"
    ],
-   "answer": "The sprouts take root along the muddy shores, shallows, and lush banks surrounding Lake Al'Ameth in central Teldrassil."
+   "answer": "The sprouts grow along the muddy shores, shallows, and banks around Lake Al'Ameth in central Teldrassil."
   },
   {
    "q": "What causes the timberlings to sprout so aggressively?",
@@ -74,7 +74,7 @@
     "what taints the sprouts",
     "timberling corruption"
    ],
-   "answer": "The unnatural surge of hostile timberlings is driven by a corrupting influence spreading into Teldrassil's soil and waters. Even young growths are corrupted before they fully bloom, pointing toward an underlying blight afflicting the young World Tree."
+   "answer": "A corrupting influence in Teldrassil's soil and waters drives the unnatural spread of hostile timberlings. Young growth is tainted before it blooms, pointing to a blight in the World Tree."
   },
   {
    "q": "What happens after clearing these sprouts?",
@@ -82,21 +82,21 @@
     "next quest after sprouts",
     "what follows timberling sprouts"
    ],
-   "answer": "Denalan continues his investigation into the nature of the lake's sickness, examining samples of soil, seeds, and water to trace the root source of the blight."
+   "answer": "Denalan investigates the sickness in the lake, examining soil, seeds, and water for the blight's source."
   }
  ],
  "angles": [
   {
    "target": "race:NightElf",
-   "text": "For the kaldorei, Teldrassil is meant to be a fresh sanctuary, making corrupted growth around sacred waters like Lake Al'Ameth a deeply troubling omen."
+   "text": "As a kaldorei, you know Teldrassil was meant to be a fresh sanctuary. Corruption near Lake Al'Ameth's sacred waters is a troubling omen."
   },
   {
    "target": "class:Druid",
-   "text": "Druids hold responsibility for safeguarding the delicate balance of nature; pruning blighted sprouts is a sad but necessary duty to protect the broader ecosystem."
+   "text": "As a druid, you help guard nature's balance. Uprooting blighted sprouts is a sad duty that protects the wider ecosystem."
   },
   {
    "target": "profession:Herbalism",
-   "text": "Herbalists have a keen eye for how healthy vegetation ought to grow, recognizing instantly that these sprouts are diseased and unnaturally twisted."
+   "text": "As an herbalist, you recognize how healthy plants should grow. These sprouts are diseased and twisted."
   }
  ],
  "keywords": [
@@ -117,5 +117,6 @@
  ],
  "attribution": [
   "Timberling Sprouts"
- ]
+ ],
+ "style": 1
 }

@@ -8,11 +8,11 @@
   "wiki": "Jen'shan",
   "refs": 2
  },
- "summary": "Jen'shan is a Darkspear jungle troll and hunter trainer stationed in the Valley of Trials in Durotar. She guides fledgling orc and troll marksmen as they take their first steps into the wilds of the Horde. Young hunters are directed to her to learn the basics of tracking, ranged combat, and survival.",
+ "summary": "In the Valley of Trials, Jen'shan teaches young hunters the ways of the wild. The Darkspear jungle troll trains orc and troll marksmen in tracking, ranged combat, and survival.",
  "sections": [
   {
    "title": "Mentor of the Red Sands",
-   "body": "Perched among the weathered encampments of the Valley of Trials, Jen'shan serves as the primary hunter mentor for new recruits proving their worth to the Horde. Together, young orcs and Darkspear trolls arrive clutching inscribed tablets and parchments directing them straight to her side. With keen eyes sharpened by years in the untamed wilderness, she imparts foundational techniques in archery, marksmanship, and wilderness survival, ensuring no novice falls prey to the scorpids and boars prowling the canyon floor.",
+   "body": "Jen'shan trains new hunters in the Valley of Trials. Young orcs and Darkspear trolls come to her with inscribed tablets and parchments that direct them to her. She teaches them archery, marksmanship, and wilderness survival, preparing them for the scorpids and boars on the canyon floor.",
    "spoiler": 0
   }
  ],
@@ -24,7 +24,7 @@
     "who is jenshan",
     "valley hunter trainer"
    ],
-   "answer": "Jen'shan is a Darkspear jungle troll hunter trainer located within the Valley of Trials in Durotar. She instructs novice hunters of the Horde in basic wilderness lore, tracking, and ranged weaponry."
+   "answer": "Jen'shan is a Darkspear jungle troll who trains hunters in the Valley of Trials in Durotar. She teaches young Horde hunters tracking, wilderness lore, and ranged combat."
   },
   {
    "q": "What quests involve Jen'shan?",
@@ -33,7 +33,7 @@
     "etched tablet jenshan",
     "etched parchment jenshan"
    ],
-   "answer": "Novice hunters are sent to her via introductory training quests. Young orc hunters are directed to her by turning in an Etched Tablet, while young troll hunters seek her out with an Etched Parchment."
+   "answer": "Young hunters are sent to Jen'shan for introductory training. Orcs bring her an Etched Tablet, while trolls seek her out with an Etched Parchment."
   },
   {
    "q": "Why is a troll training hunters in an orc proving ground?",
@@ -41,17 +41,17 @@
     "why is a troll in valley of trials",
     "troll trainer in durotar"
    ],
-   "answer": "The Valley of Trials serves as the common proving ground for both orc recruits and the displaced Darkspear trolls who share Durotar. As master scouts and stalkers, trolls like Jen'shan play a vital role in preparing new warriors and hunters of both races for service to the Horde."
+   "answer": "The Valley of Trials is a proving ground for orc recruits and the Darkspear trolls who share Durotar. Troll scouts like Jen'shan train hunters and warriors of both races for service to the Horde."
   }
  ],
  "angles": [
   {
    "target": "class:Hunter",
-   "text": "For young orc and troll hunters, Jen'shan is the very first mentor you encounter, teaching foundational ranged techniques before you venture beyond the red canyons of the Den."
+   "text": "As a young orc or troll hunter, you meet Jen'shan first. She teaches you ranged techniques before you leave the red canyons of the Den."
   },
   {
    "target": "race:Troll",
-   "text": "Jen'shan represents the Darkspear tribe's renowned prowess in tracking and scouting, ensuring young trolls retain their ancestral hunting traditions in their new continental home."
+   "text": "As a troll, you see Jen'shan carry on the Darkspear tradition of tracking and scouting, teaching young trolls their ancestral hunting ways in their new home on this continent."
   }
  ],
  "keywords": [
@@ -74,5 +74,6 @@
  ],
  "attribution": [
   "Jen'shan"
- ]
+ ],
+ "style": 1
 }

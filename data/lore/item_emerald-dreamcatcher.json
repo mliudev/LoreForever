@@ -10,11 +10,11 @@
    "quest:2438"
   ]
  },
- "summary": "The Emerald Dreamcatcher is a sacred night elf amulet crafted to draw subtle vigor from the Emerald Dream. Bestowed upon Tallonkai Swiftroot by the druids of Ban'ethil Barrow Den, it was left behind in Starbreeze Village when the Gnarlpine furbolgs succumbed to corruption and overran the settlement.",
+ "summary": "In Starbreeze Village, the Emerald Dreamcatcher lies forgotten after the Gnarlpine furbolgs drove out its people. Druids of Ban’ethil Barrow Den gave it to Tallonkai Swiftroot, hoping it would draw vigor from the Emerald Dream.",
  "sections": [
   {
    "title": "A Gift from Ban'ethil",
-   "body": "Crafted under the auspices of Gaerolas Talvethren, the druidic warden of the Ban'ethil Barrow Den, the Emerald Dreamcatcher is an enchanted relic given to only a chosen few. It is designed to siphon ambient energies directly from the Emerald Dream, blessing whoever carries it with fortune and protection. When Starbreeze Village fell to the maddened Gnarlpine furbolg, the amulet was left behind inside a dresser, stranded in the middle of hostile, corrupted territory.",
+   "body": "Gaerolas Talvethren, the druidic warden of Ban’ethil Barrow Den, oversaw the making of the Emerald Dreamcatcher. The druids gave the enchanted amulet to only a chosen few. It draws ambient energy from the Emerald Dream, bringing fortune and protection to whoever carries it. When the maddened Gnarlpine furbolgs overran Starbreeze Village, the amulet remained inside a dresser, stranded in hostile, corrupted territory.",
    "spoiler": 0
   }
  ],
@@ -26,7 +26,7 @@
     "what is the dreamcatcher for",
     "dreamcatcher lore"
    ],
-   "answer": "According to Tallonkai Swiftroot, the amulet siphons raw energy from the Emerald Dream, granting luck and vitality to whoever possesses it. It is considered a rare token of favor from the Cenarion druids."
+   "answer": "Tallonkai Swiftroot says the amulet draws raw energy from the Emerald Dream, bringing luck and vitality to whoever possesses it. The Cenarion druids regard it as a rare token of favor."
   },
   {
    "q": "Who made the Emerald Dreamcatcher?",
@@ -34,7 +34,7 @@
     "who crafted the dreamcatcher",
     "who gave tallonkai the dreamcatcher"
    ],
-   "answer": "It was gifted to Tallonkai by Gaerolas Talvethren, the druid warden watching over the sleeping Cenarion circle within the Ban'ethil Barrow Den."
+   "answer": "Gaerolas Talvethren, the druid warden watching over the sleeping Cenarion circle in Ban’ethil Barrow Den, gave the Emerald Dreamcatcher to Tallonkai."
   },
   {
    "q": "Why was the dreamcatcher left behind in Starbreeze Village?",
@@ -42,7 +42,7 @@
     "why did tallonkai leave it",
     "where was the dreamcatcher lost"
    ],
-   "answer": "Tallonkai had stored the amulet inside his dresser in Starbreeze Village. When the local Gnarlpine furbolgs were consumed by corruption and turned violent, the settlement had to be abandoned before he could retrieve it."
+   "answer": "Tallonkai kept the amulet in his dresser in Starbreeze Village. When corruption consumed the local Gnarlpine furbolgs and turned them violent, the settlement had to be abandoned before he could retrieve it."
   },
   {
    "q": "Why are the furbolgs in Starbreeze Village hostile?",
@@ -50,17 +50,17 @@
     "why did star breeze fall",
     "starbreeze village furbolgs"
    ],
-   "answer": "The Gnarlpine tribe across Teldrassil has fallen victim to a dark, spreading corruption that drives them into an aggressive frenzy, forcing the night elves to flee outlying settlements like Starbreeze."
+   "answer": "The Gnarlpine tribe across Teldrassil has fallen to a dark, spreading corruption that drives its members into an aggressive frenzy. Night elves have been forced to flee outlying settlements such as Starbreeze."
   }
  ],
  "angles": [
   {
    "target": "class:Druid",
-   "text": "The amulet is a direct link to the slumbering druids of the Ban'ethil Barrow Den, demonstrating how their communion with the Emerald Dream extends aid to the Kaldorei settlements below."
+   "text": "As a druid, you can see how the amulet links the sleeping druids of Ban’ethil Barrow Den to the settlements of the Kaldorei below, carrying aid through their communion with the Emerald Dream."
   },
   {
    "target": "race:NightElf",
-   "text": "Recovering the relic is a small victory against the spreading sickness claiming Starbreeze Village and the surrounding boughs of Teldrassil."
+   "text": "As a night elf, recovering the relic is a small victory against the spreading sickness taking Starbreeze Village and the surrounding boughs of Teldrassil."
   }
  ],
  "keywords": [
@@ -86,5 +86,6 @@
  "attribution": [
   "Emerald Dreamcatcher",
   "The Emerald Dreamcatcher (quest)"
- ]
+ ],
+ "style": 1
 }

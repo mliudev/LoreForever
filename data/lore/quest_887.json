@@ -22,16 +22,16 @@
    "Stolen Booty"
   ]
  },
- "summary": "Southsea Freebooters is an introductory bounty task commissioned by Gazlowe in Ratchet to curtail local piracy. Infuriated by pirate raids on goblin trading vessels, the chief engineer hires adventurers to assault a Southsea pirate encampment along the Merchant Coast just south of town.",
+ "summary": "Along the Merchant Coast south of Ratchet, Southsea Freebooters strike goblin trading vessels. Gazlowe hires adventurers to attack their camp and curb the raids.",
  "sections": [
   {
    "title": "A Thorn in Gazlowe's Side",
-   "body": "Ratchet operates as the premier neutral trading port in central Kalimdor, built on the steady traffic of merchant vessels traveling between the eastern continents and Kalimdor. However, the Southsea Freebooters have established a fortified beach camp directly south along the Merchant Coast. From this staging ground, the buccaneers target incoming and outgoing goblin cargo ships, bleeding profits and destabilizing the local shipping lanes.",
+   "body": "Ratchet's trade suffers from pirates on the Merchant Coast. The port sits in central Kalimdor, where merchant vessels travel between Kalimdor and the eastern continents. South of town, Southsea Freebooters hold a fortified beach camp. From there, they attack goblin cargo ships arriving and departing, cutting into profits and disrupting local shipping lanes.",
    "spoiler": 0
   },
   {
    "title": "Neglect from Undermine",
-   "body": "Gazlowe's anger stems not only from the pirates themselves, but from the perceived incompetence of the Steamwheedle Cartel's naval leadership. Despite immense sums invested by the Trade Princes into maintaining defensive fleets, Vice Admiral Grezzlik has failed to police the waters effectively. Frustrated by Undermine's sluggish response, Gazlowe bypasses naval channels and resorts to contracting independent mercenaries to thin out pirate brigands and cannoneers.",
+   "body": "Gazlowe blames the pirates and the Steamwheedle Cartel's naval leaders. The Trade Princes have spent immense sums on defensive fleets, yet Vice Admiral Grezzlik has failed to patrol the waters effectively. Frustrated by Undermine's slow response, Gazlowe hires independent mercenaries to thin the pirate brigands and cannoneers.",
    "spoiler": 0
   }
  ],
@@ -43,7 +43,7 @@
     "who are southsea freebooters",
     "freebooters lore"
    ],
-   "answer": "The Southsea Freebooters are a notorious band of pirates operating across the southern oceans and the Great Sea. In the Barrens, they maintain an armed beachhead just south of Ratchet, raiding merchant ships and plundering trade goods bound for Kalimdor."
+   "answer": "The Southsea Freebooters are pirates who operate across the southern oceans and the Great Sea. In the Barrens, they hold an armed beach camp south of Ratchet and raid merchant ships, plundering trade goods bound for Kalimdor."
   },
   {
    "q": "Why does Gazlowe care so much about these pirates?",
@@ -52,7 +52,7 @@
     "gazlowe motivation",
     "ratchet pirate problem"
    ],
-   "answer": "Gazlowe oversees the port of Ratchet on behalf of the Steamwheedle Cartel. Every merchant ship intercepted or plundered by the Freebooters directly reduces the cartel's revenues and undermines Ratchet's reputation as a secure trading haven."
+   "answer": "Gazlowe oversees Ratchet's port for the Steamwheedle Cartel. Each merchant ship the Freebooters intercept or plunder cuts into cartel revenue and weakens Ratchet's reputation as a secure trading haven."
   },
   {
    "q": "Where is the pirate camp located?",
@@ -61,7 +61,7 @@
     "cannoneer location",
     "where is pirate camp"
    ],
-   "answer": "The Southsea encampment lies directly down the shoreline to the south of Ratchet, situated along the Merchant Coast. It features fortified tents, beached dinghies, and artillery positions manned by Southsea Cannoneers."
+   "answer": "The Southsea camp lies along the Merchant Coast, down the shoreline south of Ratchet. Fortified tents, beached dinghies, and artillery positions manned by Southsea Cannoneers mark the camp."
   },
   {
    "q": "Who is Vice Admiral Grezzlik?",
@@ -70,7 +70,7 @@
     "vice admiral grezzlik lore",
     "steamwheedle admiral"
    ],
-   "answer": "Vice Admiral Grezzlik is the officer responsible for overseeing the Steamwheedle Cartel's trade fleets and protecting their sea lanes. Gazlowe considers him largely ineffective due to the brazen pirate activity taking place right off the coast of the Barrens."
+   "answer": "Vice Admiral Grezzlik oversees the Steamwheedle Cartel's trade fleets and protects its sea lanes. Gazlowe considers him ineffective, given the pirates operating brazenly off the Barrens coast."
   },
   {
    "q": "What happens after culling the camp?",
@@ -79,7 +79,7 @@
     "southsea freebooters follow up",
     "missing shipment"
    ],
-   "answer": "Thinning the camp's defenders only solves part of the problem. Once the brigands and cannoneers are routed, Gazlowe moves to track down the valuable cargo they hijacked, leading directly into investigations regarding his missing shipments."
+   "answer": "Culling the camp's defenders solves only part of the problem. After the brigands and cannoneers are routed, Gazlowe turns to tracking down the valuable cargo they hijacked, leading to investigations into his missing shipments."
   },
   {
    "q": "Are the Southsea Freebooters affiliated with the Alliance or Horde?",
@@ -88,17 +88,17 @@
     "are pirates alliance",
     "southsea faction"
    ],
-   "answer": "No. The Southsea Freebooters operate entirely outside both factions, preying indiscriminately on Alliance vessels, Horde supply craft, and neutral goblin freighters alike."
+   "answer": "No. The Southsea Freebooters operate outside both factions and prey on Alliance vessels, Horde supply craft, and neutral goblin freighters alike."
   }
  ],
  "angles": [
   {
    "target": "class:Rogue",
-   "text": "The camp of the Southsea Freebooters is rich with opportunities for cutpurses, provided you can slip past their alert watchmen and heavy coastal artillery."
+   "text": "As a rogue, you find opportunities for cutpurses in the Southsea Freebooters' camp, if you can slip past alert watchmen and heavy coastal artillery."
   },
   {
    "target": "faction:Horde",
-   "text": "Ratchet serves as a vital resupply corridor for the Horde in Kalimdor; keeping sea routes clear of maritime raiders protects supply lines heading inward across the Barrens."
+   "text": "As a member of the Horde, you rely on Ratchet as a vital resupply corridor in Kalimdor. Clear sea routes protect supplies moving inland across the Barrens."
   }
  ],
  "keywords": [
@@ -122,5 +122,6 @@
  ],
  "attribution": [
   "Southsea Freebooters (Classic)"
- ]
+ ],
+ "style": 1
 }

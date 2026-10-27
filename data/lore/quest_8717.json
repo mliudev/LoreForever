@@ -17,16 +17,16 @@
   "wiki": "Moonwarden the Elder",
   "chain": []
  },
- "summary": "Elder Moonwarden is an honored ancestral spirit visited during the Lunar Festival, standing under a celestial beam of light at the Crossroads in the Barrens. Speaking with him offers travelers ancient wisdom and guidance toward other elders scattered throughout the continent.",
+ "summary": "At the Crossroads, Moonwarden the Elder receives travelers beneath a beam of light. During the Lunar Festival, people honor ancestral spirits and seek his wisdom and directions to elders across Kalimdor.",
  "sections": [
   {
    "title": "A Celestial Presence in the Barrens",
-   "body": "Standing amidst the dusty thoroughfare of the Crossroads, Elder Moonwarden appears bathed in a radiant column of heavenly light. He represents the ancient spirits revered during the Lunar Festival, a time when mortals pause their conflicts to pay homage to the wisdom of past generations.",
+   "body": "At the Crossroads, a column of light falls around Elder Moonwarden. He is one of the ancient spirits honored during the Lunar Festival, when mortals set aside their conflicts to seek the wisdom of generations past.",
    "spoiler": 0
   },
   {
    "title": "Guidance to the Ancestors",
-   "body": "Elder Moonwarden muses on the starry heavens and their ability to reveal earthly mysteries to those who look up in search of truth. In addition to bestowing his own ancestral blessings, he offers seekers direction toward fellow elders across Kalimdor, including Elder Bloodhoof, Elder High Mountain, Elder Morningdew, and Elder Runetotem.",
+   "body": "Elder Moonwarden looks to the stars for answers to earthly mysteries. He offers ancestral blessings and directs seekers to other elders across Kalimdor, including Elder Bloodhoof, Elder High Mountain, Elder Morningdew, and Elder Runetotem.",
    "spoiler": 0
   }
  ],
@@ -38,7 +38,7 @@
     "where is moonwarden",
     "moonwarden crossroads"
    ],
-   "answer": "Elder Moonwarden stands in the Crossroads within the Barrens, marked clearly by a bright column of starlight shining down from above."
+   "answer": "Elder Moonwarden stands at the Crossroads in the Barrens, beneath a bright column of starlight."
   },
   {
    "q": "What is the purpose of visiting Elder Moonwarden?",
@@ -47,7 +47,7 @@
     "moonwarden quest",
     "lunar festival moonwarden"
    ],
-   "answer": "Travelers visit him during the Lunar Festival to honor ancestral spirits, receive tokens of ancestry, and seek directions to other revered elders across the lands."
+   "answer": "During the Lunar Festival, travelers honor ancestral spirits, receive tokens of ancestry, and seek directions to other elders."
   },
   {
    "q": "Which other elders can Moonwarden direct you to?",
@@ -56,7 +56,7 @@
     "moonwarden elder directions",
     "who does moonwarden mention"
    ],
-   "answer": "Elder Moonwarden shares the whereabouts of several neighboring spirits, notably Elder Bloodhoof, Elder High Mountain, Elder Morningdew, and Elder Runetotem."
+   "answer": "Elder Moonwarden can direct you to Elder Bloodhoof, Elder High Mountain, Elder Morningdew, and Elder Runetotem."
   },
   {
    "q": "Can Alliance adventurers speak with Elder Moonwarden?",
@@ -64,7 +64,7 @@
     "can alliance talk to moonwarden",
     "crossroads elder alliance"
    ],
-   "answer": "Ancestral elders honor any brave pilgrim regardless of allegiance, but because Moonwarden stands directly in the Horde settlement of the Crossroads, Alliance travelers must tread carefully around the local guards."
+   "answer": "Alliance travelers can speak with Elder Moonwarden, though he stands in the Horde settlement of the Crossroads, where local guards make the visit dangerous."
   },
   {
    "q": "Why is there a beam of light shining on Elder Moonwarden?",
@@ -72,7 +72,7 @@
     "light beam elder",
     "pillar of light moonwarden"
    ],
-   "answer": "Like all spirits manifested during the Lunar Festival, Elder Moonwarden is illuminated by a celestial shaft of moonlight, signifying connection to the stars and the ancestral realm."
+   "answer": "The beam of light marks Elder Moonwarden's connection to the stars and the ancestral realm during the Lunar Festival."
   },
   {
    "q": "What does Elder Moonwarden say about the stars?",
@@ -80,21 +80,21 @@
     "moonwarden dialogue",
     "moonwarden quote"
    ],
-   "answer": "Moonwarden reflects that the countless stars in the heavens hold answers to earthly mysteries, asking whether the wise and the lucky might gaze up and find truth."
+   "answer": "Elder Moonwarden says the stars hold answers to earthly mysteries, and asks whether the wise and lucky might look up and find truth."
   }
  ],
  "angles": [
   {
    "target": "faction:Alliance",
-   "text": "Visiting Elder Moonwarden requires venturing straight into the heavily fortified Horde hub of the Crossroads, turning a moment of quiet reverence into a perilous infiltration."
+   "text": "As an Alliance traveler, you must enter the Horde settlement of the Crossroads to visit Elder Moonwarden, where the guards make the journey perilous."
   },
   {
    "target": "faction:Horde",
-   "text": "For Horde wanderers traversing the central crossroads of Kalimdor, paying respects to Elder Moonwarden is a convenient and essential part of celebrating ancestral tradition."
+   "text": "As a Horde traveler crossing central Kalimdor, you can conveniently honor Elder Moonwarden as part of the Lunar Festival tradition."
   },
   {
    "target": "class:Druid",
-   "text": "Druids who attune themselves to nature and lunar cycles find Moonwarden's focus on celestial mysteries and starry portents deeply resonant."
+   "text": "As a druid, you may find Elder Moonwarden's focus on celestial mysteries and starry portents familiar through your attunement to nature and lunar cycles."
   }
  ],
  "keywords": [
@@ -117,5 +117,6 @@
  ],
  "attribution": [
   "Moonwarden the Elder"
- ]
+ ],
+ "style": 1
 }

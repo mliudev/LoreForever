@@ -61,7 +61,7 @@ async function invoke(name, request, env, body) {
   if (name === "creators" && body !== undefined) {
     const input = JSON.parse(body);
     if (input.action === "pay") {
-      const out = await payCreator(env, input.code.trim().toLowerCase(), { method: input.method,
+      const out = await payCreator(env, input.code.trim().toLowerCase(), {
         note: input.note, expectedCents: Number(input.expected_cents) });
       return out.error ? Response.json({ ok: false, error: out.error }, { status: out.status || 400 })
         : Response.json({ ok: true, ...out });

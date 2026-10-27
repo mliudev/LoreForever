@@ -1,0 +1,90 @@
+{
+ "key": "quest:94435",
+ "type": "quest",
+ "name": "A Lesson in Divinity",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   94435
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "Tanis Alderwood thanks you for helping him and calls you a friend. Danitha Morr recognizes the small act as a way to strengthen the Forsaken's connection to the Light.",
+ "sections": [
+  {
+   "title": "A Small Service",
+   "body": "Danitha Morr says your help may strengthen the Forsaken's connection to the Light. She speaks of mistrust and conspiracies among the Dark Lady's followers, and of meeting that fear with courage and righteousness. She gives you a symbol for what comes next.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is thanking me?",
+   "aliases": [
+    "tanis alderwood",
+    "who is tanis",
+    "tanis thanks"
+   ],
+   "answer": "Tanis Alderwood thanks you for helping him and says you will always have a friend in him."
+  },
+  {
+   "q": "What does Danitha say my help means?",
+   "aliases": [
+    "why help danitha",
+    "small act meaning",
+    "light connection"
+   ],
+   "answer": "Danitha says even a small act of service may strengthen the Forsaken's connection to the Light."
+  },
+  {
+   "q": "Why does Danitha mention mistrust?",
+   "aliases": [
+    "forsaken mistrust",
+    "dark lady fear",
+    "why are they mistrusted"
+   ],
+   "answer": "Danitha says the Dark Lady and some in her service mistrust them, and that some even conspire against them."
+  },
+  {
+   "q": "What does Danitha give me?",
+   "aliases": [
+    "what symbol",
+    "danitha item",
+    "symbol for next"
+   ],
+   "answer": "Danitha gives you a symbol for what comes next."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Alliance",
+   "text": "As an Alliance traveler, you hear Danitha describe the Forsaken's effort to help their people prosper again."
+  },
+  {
+   "target": "race:Undead",
+   "text": "As Forsaken, you hear Danitha call for courage and righteousness in helping your people prosper again."
+  }
+ ],
+ "keywords": [
+  "a lesson in divinity",
+  "danitha morr",
+  "dark lady",
+  "forsaken",
+  "light",
+  "mistrust",
+  "symbol",
+  "tanis alderwood"
+ ],
+ "related": [
+  "topic:light",
+  "topic:forsaken",
+  "subzone:bandarion-keep",
+  "quest:93090"
+ ],
+ "style": 1,
+ "attribution": [
+  "In-game quest text: A Lesson in Divinity"
+ ]
+}

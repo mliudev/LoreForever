@@ -17,16 +17,16 @@
   "wiki": "The Moss-twined Heart",
   "chain": []
  },
- "summary": "The Moss-twined Heart is a strange, corrupted core harvested from the monstrous timberling Blackmoss the Fetid. Smothered in oily, dark moss, the heart unnervingly continues to beat on its own, prompting an investigation by the botanist Denalan at Lake Al'Ameth.",
+ "summary": "Near Lake Al'Ameth, Denalan studies a strange heart taken from Blackmoss the Fetid. Dark, oily moss covers the core, yet it keeps beating after being cut from the timberling.",
  "sections": [
   {
    "title": "A Beating Core",
-   "body": "Carved from the remains of Blackmoss the Fetid, this Timberling heart is almost unrecognizable beneath a layer of dark, oily moss. The only betrayal of its true nature is a slow, rhythmic pulse that persists even after being severed from the creature. Such unnatural resilience hints that the corruption spreading through Teldrassil's wild plant life is far more pervasive than ordinary rot.",
+   "body": "Blackmoss the Fetid's heart still pulses after being cut from the timberling. Dark, oily moss hides nearly all of the timberling's core, but a slow rhythm continues within it. That pulse points to a corruption reaching beyond ordinary rot in Teldrassil's wild plants.",
    "spoiler": 0
   },
   {
    "title": "Denalan's Examination",
-   "body": "Denalan, a keen researcher of the local flora stationed near Lake Al'Ameth, recognizes the grim reality of the artifact immediately. Timberlings should be gentle beings intertwined with the boughs of the World Tree, yet this heart demonstrates a virulent blighting influence. Intrigued and troubled, Denalan resolves to plant and study the corrupted organ to understand the foul moss taking root in the island's soil.",
+   "body": "Denalan, a researcher of local flora near Lake Al'Ameth, takes a keen interest in the heart and recognizes its troubling corruption. Timberlings should be gentle beings tied to the boughs of the World Tree, yet this core bears a virulent blight. Troubled by what he sees and eager to understand it, Denalan plans to plant and study the organ, hoping to learn how foul moss takes root in the island's soil.",
    "spoiler": 0
   }
  ],
@@ -38,7 +38,7 @@
     "moss-twined heart drop",
     "blackmoss the fetid heart"
    ],
-   "answer": "The heart is taken from Blackmoss the Fetid, a large and heavily corrupted timberling wandering the wilderness of Teldrassil."
+   "answer": "The heart comes from Blackmoss the Fetid, a large, heavily corrupted timberling that wanders Teldrassil's wilderness."
   },
   {
    "q": "Why is the heart still beating?",
@@ -47,7 +47,7 @@
     "still beating heart",
     "timberling heart beat"
    ],
-   "answer": "The dark, oily moss infesting the timberling appears to sustain it through unnatural vitality. Even when cut from the creature, the heart maintains a slow, persistent rhythm."
+   "answer": "Dark, oily moss appears to keep the heart alive with unnatural vitality. Though cut from the timberling, it continues a slow, steady beat."
   },
   {
    "q": "Who is Denalan?",
@@ -56,7 +56,7 @@
     "where is denalan",
     "denalan location"
    ],
-   "answer": "Denalan is a night elf naturalist tending a nursery near the shores of Lake Al'Ameth. He dedicates himself to studying Teldrassil's flora, sproutings, and the creeping corruption affecting the island's timberlings."
+   "answer": "Denalan is a night elf naturalist who tends a nursery near Lake Al'Ameth. He devotes himself to studying Teldrassil's flora, its sproutings, and the creeping corruption affecting the island's timberlings."
   },
   {
    "q": "What will Denalan do with the heart?",
@@ -65,7 +65,7 @@
     "planting the heart quest",
     "denalan heart research"
    ],
-   "answer": "Denalan decides to plant the heart in an enchanted planter to sprout and isolate the foul moss, hoping to uncover the root cause of the blighted growth."
+   "answer": "Denalan plans to plant the heart in an enchanted planter so it can sprout, isolating the foul moss and helping him uncover the cause of the blighted growth."
   },
   {
    "q": "What are timberlings supposed to be?",
@@ -74,7 +74,7 @@
     "timberling lore",
     "are timberlings evil"
    ],
-   "answer": "Timberlings are naturally peaceful plant-elementals born of the forest. However, throughout Teldrassil, dark forces and unnatural taint have driven many of them mad and aggressive."
+   "answer": "Timberlings are naturally peaceful plant elementals born of the forest. Dark forces and unnatural taint have driven many of them mad and aggressive across Teldrassil."
   },
   {
    "q": "Is the corruption on the heart magical or natural?",
@@ -83,21 +83,21 @@
     "source of foul moss",
     "teldrassil moss blight"
    ],
-   "answer": "The moss appears foul and oily rather than healthy, suggesting an unnatural blight infecting the native ecology of Teldrassil rather than normal wilderness decay."
+   "answer": "The oily, foul moss suggests an unnatural blight in Teldrassil's native plants, rather than ordinary decay in the wild."
   }
  ],
  "angles": [
   {
    "target": "race:NightElf",
-   "text": "For the kaldorei, watching the young World Tree Teldrassil foster tainted, aggressive timberlings like Blackmoss is a sobering sign that their new home is troubled by a creeping sickness."
+   "text": "As a kaldorei, you see the young World Tree Teldrassil fostering tainted, aggressive timberlings like Blackmoss. Their blight is a sobering sign that your new home is troubled by a creeping sickness."
   },
   {
    "target": "class:Druid",
-   "text": "Druids of the Cenarion Circle take keen interest in anomalies like this beating, blighted heart, seeking to diagnose whether the corruption can be purged or if it signals deeper rot."
+   "text": "As a druid, you take keen interest in a beating, blighted heart like this. You seek to learn whether its corruption can be purged or signals deeper rot."
   },
   {
    "target": "profession:Herbalism",
-   "text": "Any student of plants can see the oily growth on this core is completely unnatural, defying standard botanical traits by keeping a severed heart alive."
+   "text": "As a student of plants, you can see the oily growth on this core is unnatural. It defies ordinary botanical traits by keeping a severed heart alive."
   }
  ],
  "keywords": [
@@ -118,5 +118,6 @@
  ],
  "attribution": [
   "The Moss-twined Heart"
- ]
+ ],
+ "style": 1
 }

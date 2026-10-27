@@ -23,21 +23,21 @@
    "Call of Fire (5)"
   ]
  },
- "summary": "This trial marks the critical moment in a shaman's attunement to fire atop the peaks of Durotar. Guided by the hermit Telf Joolam, the initiate must drink a potent fire sapta to perceive and confront a Minor Manifestation of Fire. Slaying the spirit yields a glowing ember, used to kindle the brazier at the Shrine of Eternal Flame and light the ceremonial torch.",
+ "summary": "Atop Durotar's peaks, a shaman faces the trial that attunes them to fire. Telf Joolam guides the initiate to drink fire sapta, confront a Minor Manifestation of Fire, and claim its glowing ember to light the ceremonial torch.",
  "sections": [
   {
    "title": "Eyes of the Flame",
-   "body": "Fire spirits rarely linger in plain sight for the uninitiated. To commune with them, a shaman must alter their perception using a fire sapta, an elemental draught steeped from reagents gathered across the barrens and coast. Imbibing the draught opens the senses to the unseen, revealing minor spirits and manifestations dancing across the crags of the summit.",
+   "body": "Fire spirits hide from untrained eyes on Durotar's summit. To see them, you drink fire sapta, a draught made from reagents gathered across the barrens and coast. It sharpens your senses to the unseen, revealing minor spirits and manifestations among the summit crags.",
    "spoiler": 0
   },
   {
    "title": "Confronting the Manifestation",
-   "body": "Fire does not yield to passive devotion; it demands strength, decisiveness, and respect. Waiting atop the mountain is a Minor Manifestation of Fire. Aware of the shaman's piercing gaze once the sapta takes hold, the spirit waits for the challenge to begin. Initiates are taught to strike swiftly and without hesitation, as elemental fire feeds on lingering combat, swelling in ferocity and heat the longer the contest drags on.",
+   "body": "A Minor Manifestation of Fire waits atop the mountain. Once the sapta takes hold, the spirit knows you can see it and awaits your challenge. Fire answers strength and decisive action, so you strike without delay. The longer the fight lasts, the more fiercely the elemental fire burns.",
    "spoiler": 0
   },
   {
    "title": "The Brazier of the Dormant Flame",
-   "body": "With the manifestation subdued, the shaman claims its lingering heat in the form of a glowing ember. Returning to the summit shrine, the ember is placed into the Brazier of the Dormant Flame. Despite being exposed to the harsh sun and winds of Durotar, the inscribed metal remains pristine and cool until the ember meets the bowl, bursting into a rhythmic, white-hot blaze that ignites the ritual torch.",
+   "body": "After the manifestation falls, you claim its lingering heat as a glowing ember. At the summit shrine, you place the ember in the Brazier of the Dormant Flame. The inscribed metal stays cool beneath Durotar's sun and winds until the ember meets the bowl. Then a white-hot blaze kindles the ritual torch.",
    "spoiler": 1
   }
  ],
@@ -49,7 +49,7 @@
     "fire totem quest meaning",
     "call of fire trial"
    ],
-   "answer": "This trial tests an aspiring shaman's worthiness to command elemental fire. By confronting a manifestation and capturing its raw heat in a ritual torch, the initiate proves their strength and earns the right to fashion a Fire Totem."
+   "answer": "You prove your strength by facing a manifestation of fire and capturing its heat in a ritual torch. The trial earns you the right to fashion a Fire Totem."
   },
   {
    "q": "Why do I need to drink the fire sapta?",
@@ -58,7 +58,7 @@
     "why sapta",
     "cant see fire elemental"
    ],
-   "answer": "Elemental spirits often dwell slightly beyond ordinary mortal sight. Drinking the fire sapta thins the veil, allowing the shaman to perceive and physically interact with the fire elementals gathered atop the mountain."
+   "answer": "You drink fire sapta to see and touch the fire elementals gathered atop the mountain, normally beyond mortal sight."
   },
   {
    "q": "Where is the Minor Manifestation of Fire found?",
@@ -67,7 +67,7 @@
     "where is the fire elemental",
     "where do i go"
    ],
-   "answer": "The manifestation resides at the absolute peak of the mountain ridge above Telf Joolam's perch in Durotar, near the Shrine of Eternal Flame."
+   "answer": "The Minor Manifestation of Fire waits at the mountain ridge's highest peak above Telf Joolam's perch in Durotar, near the Shrine of Eternal Flame."
   },
   {
    "q": "Who is Telf Joolam?",
@@ -76,7 +76,7 @@
     "telf joolam lore",
     "who is the hermit"
    ],
-   "answer": "Telf Joolam is an eccentric shaman hermit living high on a rocky ridge in Durotar. He guides young Horde initiates through the dangerous and temperamental rites required to understand fire."
+   "answer": "Telf Joolam is an eccentric shaman hermit who lives high on a rocky ridge in Durotar. He guides young Horde initiates through dangerous, temperamental rites to understand fire."
   },
   {
    "q": "Why does the manifestation grow stronger during the fight?",
@@ -85,7 +85,7 @@
     "manifestation scaling",
     "swift strike fire"
    ],
-   "answer": "Fire naturally builds, spreads, and feeds on energy over time. Shamans are cautioned to strike decisively because prolonged hesitation allows the spirit to gather strength and burn ever hotter."
+   "answer": "Fire gathers strength and burns hotter as time passes. You strike decisively, since hesitation lets the spirit grow stronger."
   },
   {
    "q": "What happens after the brazier is lit?",
@@ -94,17 +94,17 @@
     "next quest call of fire",
     "where to take lit torch"
    ],
-   "answer": "Lighting the brazier kindles the ceremonial torch. The initiate carries this sacred flame back down the mountain to complete the creation of their Fire Totem."
+   "answer": "Lighting the brazier kindles the ceremonial torch. You carry its sacred flame down the mountain to complete your Fire Totem."
   }
  ],
  "angles": [
   {
    "target": "class:Shaman",
-   "text": "Unlike the solid, unyielding earth, fire is volatile and destructive. This trial teaches that fire will consume an indecisive caller, demanding unwavering focus and authority to master."
+   "text": "As a shaman, you learn that fire is volatile and destructive, unlike solid, unyielding earth. It consumes an indecisive caller, so you need focus and authority to master it."
   },
   {
    "target": "faction:Horde",
-   "text": "Orc and troll shamans make the pilgrimage up the red crags of Durotar to prove their communion with the fiery spirits of the land."
+   "text": "As a Horde shaman, you join orc and troll shamans who climb Durotar's red crags to prove their communion with the land's fiery spirits."
   }
  ],
  "keywords": [
@@ -125,5 +125,6 @@
  ],
  "attribution": [
   "Call of Fire (4)"
- ]
+ ],
+ "style": 1
 }

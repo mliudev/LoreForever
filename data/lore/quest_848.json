@@ -20,16 +20,16 @@
    "Apothecary Zamah (quest)"
   ]
  },
- "summary": "Apothecary Helbrim of the Royal Apothecary Society tasks Horde adventurers with gathering fungal spores around the oases of the Barrens. The strange, mutative energies coursing through these springs have altered the local flora into potent reagents. Helbrim seeks to harvest these unique specimens to brew concoctions for his colleague in Thunder Bluff.",
+ "summary": "At the Barrens oases, Horde adventurers gather Fungal Spores for Apothecary Helbrim of the Royal Apothecary Society. Strange, mutative energies flow through the springs and alter the local plants into potent reagents. Helbrim seeks the specimens to brew concoctions for his colleague in Thunder Bluff.",
  "sections": [
   {
    "title": "Vibrant and Mutated Flora",
-   "body": "The Barrens is generally an arid, sun-scorched savanna, yet its oases\u2014such as the Forgotten Pools, the Lushwater Oasis, and the Stagnant Oasis\u2014burst with unnatural vitality. A curious surge of life energy flows from these waters, warping and invigorating the plants and beasts that drink from them. Laden mushrooms growing along the muddy banks absorb these intense currents, filling their spores with rare properties that pique the curiosity of passing alchemists.",
+   "body": "The Barrens is a dry savanna, but the Forgotten Pools, Lushwater Oasis, and Stagnant Oasis brim with unnatural vitality. A curious surge of life energy flows from their waters, warping and invigorating plants and beasts that drink there. Laden mushrooms grow along the muddy banks, absorbing those currents. Their spores hold rare properties that draw the curiosity of passing alchemists.",
    "spoiler": 0
   },
   {
    "title": "The Royal Apothecary Society in Kalimdor",
-   "body": "Though stationed far from the Undercity at the Crossroads, Apothecary Helbrim remains devoted to the research of the Royal Apothecary Society. Recognizing the strange potency of Kalimdor's native reagents, he collects these altered spores to craft powerful mixtures. The specimens gathered here are destined for Apothecary Zamah in Thunder Bluff, demonstrating the subtle, far-reaching scientific efforts the Forsaken carry out across allied lands.",
+   "body": "Apothecary Helbrim works at the Crossroads, far from the Undercity, yet remains devoted to the Royal Apothecary Society's research. He gathers the altered spores because Kalimdor's native reagents have strange potency, and he uses them to craft powerful mixtures. The specimens are destined for Apothecary Zamah in Thunder Bluff, part of the Forsaken's scientific work across allied lands.",
    "spoiler": 0
   }
  ],
@@ -41,7 +41,7 @@
     "fungal spore location",
     "laden mushrooms location"
    ],
-   "answer": "The spores are gathered from laden mushrooms growing along the water's edge at the oases in the Barrens, including the Forgotten Pools, the Lushwater Oasis, and the Stagnant Oasis."
+   "answer": "Laden mushrooms grow along the water's edge at Barrens oases, including the Forgotten Pools, the Lushwater Oasis, and the Stagnant Oasis."
   },
   {
    "q": "Why are the mushrooms altered near the oases?",
@@ -50,7 +50,7 @@
     "oases life energy",
     "what is wrong with the oases"
    ],
-   "answer": "A powerful surge of life energy flows through the oasis waters in the Barrens. Rather than sustaining normal plant growth, this energy aggressively invigorates and alters the surrounding wildlife and flora."
+   "answer": "A powerful surge of life energy flows through the Barrens oasis waters. It vigorously alters nearby wildlife and flora instead of merely sustaining ordinary plant growth."
   },
   {
    "q": "Who is Apothecary Helbrim?",
@@ -59,7 +59,7 @@
     "who is helbrim",
     "apothecary at crossroads"
    ],
-   "answer": "Apothecary Helbrim is a member of the Forsaken's Royal Apothecary Society stationed at the Crossroads in the Barrens. He studies the region's unusual biology and harvests local materials for alchemical study."
+   "answer": "Apothecary Helbrim is a Forsaken member of the Royal Apothecary Society stationed at the Crossroads in the Barrens. He studies the region's unusual biology and gathers local materials for alchemical study."
   },
   {
    "q": "What does Helbrim plan to do with the spores?",
@@ -67,7 +67,7 @@
     "what are the spores for",
     "fungal spores purpose"
    ],
-   "answer": "Helbrim uses the potent spores to formulate a specific concoction, which he intends to send to his research associate, Apothecary Zamah, in the tauren city of Thunder Bluff."
+   "answer": "Helbrim uses the potent spores to brew a specific concoction for his research associate, Apothecary Zamah, in Thunder Bluff."
   },
   {
    "q": "Why are Forsaken apothecaries operating in the Barrens?",
@@ -75,7 +75,7 @@
     "why are undead in barrens",
     "royal apothecary society in kalimdor"
    ],
-   "answer": "As part of the Horde alliance, Forsaken researchers study foreign environments and unique flora across Kalimdor to discover new reagents for medicines, toxins, and concoctions."
+   "answer": "As Horde allies, Forsaken researchers study Kalimdor's foreign environments and unusual flora, seeking new reagents for medicines, toxins, and concoctions."
   },
   {
    "q": "Which oasis is safest to collect the spores from?",
@@ -83,13 +83,13 @@
     "easiest oasis for spores",
     "safest oasis barrens"
    ],
-   "answer": "The Forgotten Pools, located northwest of the Crossroads, is populated by lower-level wildlife compared to the Lushwater Oasis or the Stagnant Oasis to the south, making it the safest spot to gather the mushrooms."
+   "answer": "The Forgotten Pools, northwest of the Crossroads, has lower-level wildlife than the Lushwater Oasis or the Stagnant Oasis to the south, making it the safest place to gather mushrooms."
   }
  ],
  "angles": [
   {
    "target": "race:Undead",
-   "text": "Even far from Lordaeron, Forsaken researchers continue their alchemical work, turning Kalimdor's natural anomalies toward the goals of the Royal Apothecary Society."
+   "text": "Far from Lordaeron, Forsaken researchers continue their alchemical work, turning Kalimdor's natural anomalies toward the goals of the Royal Apothecary Society."
   },
   {
    "target": "faction:Horde",
@@ -97,11 +97,11 @@
   },
   {
    "target": "class:Druid",
-   "text": "The oases harbor an unnaturally turbulent surge of nature magic that causes aggressive mutations in the surrounding ecosystem."
+   "text": "The oases hold an unnaturally turbulent surge of nature magic that causes aggressive mutations in the surrounding ecosystem."
   },
   {
    "target": "profession:Herbalism",
-   "text": "The laden mushrooms growing around the Barrens oases showcase how sudden infusions of environmental energy can transform ordinary flora into potent reagents."
+   "text": "Laden mushrooms around the Barrens oases show how sudden infusions of environmental energy can transform ordinary plants into potent reagents."
   }
  ],
  "keywords": [
@@ -127,5 +127,6 @@
  ],
  "attribution": [
   "Fungal Spores (Classic)"
- ]
+ ],
+ "style": 1
 }

@@ -1,0 +1,86 @@
+{
+ "key": "quest:96139",
+ "type": "quest",
+ "name": "The Valor Family",
+ "era": "forever",
+ "zone": "duskwood",
+ "meta": {
+  "ids": [
+   96139
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "Sirra Von'Indi asks you to search Raven Hill for records of its lost people. Darkshire remembers their courage, but little of Raven Hill's history remains in her library.",
+ "sections": [
+  {
+   "title": "A Lost History",
+   "body": "Sirra Von'Indi says Darkshire owes its survival to brave people, including Lady Althea and those who died at Raven Hill. You are asked to look for anything that can preserve their memory.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Tome",
+   "body": "The book you bring back concerns the Valor family. Sirra offers to copy it and welcomes other material about them.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is asking me to search Raven Hill?",
+   "aliases": [
+    "who wants the book",
+    "sirra raven hill",
+    "who is sirra"
+   ],
+   "answer": "Sirra Von'Indi, whose library is in Darkshire, asks you to look for material about Raven Hill."
+  },
+  {
+   "q": "Why does Sirra want records from Raven Hill?",
+   "aliases": [
+    "why search raven hill",
+    "raven hill history",
+    "remember raven hill"
+   ],
+   "answer": "Sirra says Raven Hill's history was lost along with its people, and she wants their deeds remembered."
+  },
+  {
+   "q": "Who does Sirra say helped keep Darkshire standing?",
+   "aliases": [
+    "darkshire heroes",
+    "lady althea",
+    "who saved darkshire"
+   ],
+   "answer": "Sirra names Lady Althea and those who lost their lives at Raven Hill as brave people whose actions helped Darkshire endure."
+  },
+  {
+   "q": "What is Raven Hill's history like?",
+   "aliases": [
+    "what happened to raven hill",
+    "raven hill past",
+    "raven hill lost"
+   ],
+   "answer": "Sirra says Raven Hill's history was wiped out along with its people, and her library holds little about it."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "darkshire",
+  "duskwood",
+  "history",
+  "lady althea",
+  "raven hill",
+  "sirra von'indi",
+  "tome",
+  "valor family"
+ ],
+ "related": [
+  "quest:163",
+  "subzone:darkshire",
+  "npc:sirra-von-indi",
+  "zone:duskwood"
+ ],
+ "style": 1,
+ "attribution": [
+  "In-game quest text: The Valor Family"
+ ]
+}

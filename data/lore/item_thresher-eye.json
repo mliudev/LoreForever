@@ -10,16 +10,16 @@
    "quest:1001"
   ]
  },
- "summary": "Thresher Eyes are organic harvesting samples taken from the threshers prowling the coastal waters of Darkshore. They are sought by the eccentric gnome engineer Wizbang Cranktoggle to service his automated field devices known as Buzzboxes.",
+ "summary": "Along Darkshore, Wizbang Cranktoggle wants Thresher Eyes for his Buzzboxes. He uses them to repair Buzzbox 411 on the beach north of Auberdine.",
  "sections": [
   {
    "title": "Ecological Samples for Gnomish Gadgets",
-   "body": "Off the misty shores of Darkshore, aquatic predators known as Darkshore Threshers hunt along the surf and outer shallows. While dangerous to local fishermen and travelers, these beasts possess large ocular organs that have drawn the peculiar interest of Wizbang Cranktoggle. Stationed nearby and deeply fond of crawler wine, the gnomish engineer demands these eyes as essential components to repair Buzzbox 411, one of his far-speaking communication machines, positioned on the beach north of Auberdine.",
+   "body": "Darkshore Threshers hunt the surf and outer shallows off Darkshore. They threaten local fishermen and travelers, and their large eyes have caught the interest of Wizbang Cranktoggle. The gnome engineer is stationed nearby and fond of crawler wine. He needs the eyes to repair Buzzbox 411, a far-speaking communication machine on the beach north of Auberdine.",
    "spoiler": 0
   },
   {
    "title": "The Purpose of the Eyes",
-   "body": "Wizbang never fully elaborates on how slimy sea-creature eyes repair delicate mechanical apparatuses, whether functioning as crude optical lenses, chemical agents, or esoteric biological gears. Regardless of the questionable engineering logic, feeding three of these harvested eyes into Buzzbox 411's maintenance hatch successfully restores the machine's comms link, allowing Wizbang to dispense rewards through static-choked transmissions.",
+   "body": "Wizbang does not explain how the slimy eyes repair delicate machinery. They might serve as crude lenses, chemical agents, or biological gears. Whatever the method, three eyes placed in Buzzbox 411's maintenance hatch restore its communication link, and Wizbang sends supplies through static-choked transmissions.",
    "spoiler": 0
   }
  ],
@@ -31,7 +31,7 @@
     "how to get thresher eye",
     "thresher eye source"
    ],
-   "answer": "Thresher Eyes are harvested from Darkshore Threshers and Elder Darkshore Threshers swimming in the ocean waters off the coast of Darkshore, particularly near Auberdine."
+   "answer": "Thresher Eyes come from Darkshore Threshers and Elder Darkshore Threshers in the ocean off Darkshore, especially near Auberdine."
   },
   {
    "q": "Why does Wizbang Cranktoggle want Thresher Eyes?",
@@ -40,7 +40,7 @@
     "buzzbox 411 eyes",
     "what are thresher eyes for"
    ],
-   "answer": "Wizbang claims the eyes are needed to repair Buzzbox 411, a gnomish contraption located north of Auberdine on the shoreline. Inserting them into the machine's hatch reactivates its systems."
+   "answer": "Wizbang wants the eyes to repair Buzzbox 411, a gnomish machine on the shoreline north of Auberdine. Placing them in its hatch restores the machine's systems."
   },
   {
    "q": "How does an eye fix a machine?",
@@ -48,7 +48,7 @@
     "why eyes for a machine",
     "gnome machine biological parts"
    ],
-   "answer": "Gnomish engineering often defies conventional logic, especially when guided by Wizbang Cranktoggle's inebriated schemes. Whether he uses the retinas for optical focusing or simply incorporates organic parts into his eccentric designs, the device accepts them and powers back on."
+   "answer": "Wizbang Cranktoggle does not explain how an eye repairs a machine. The device accepts the eyes and powers back on, though whether he uses their retinas for focusing or builds with the organic parts remains unclear."
   },
   {
    "q": "What is Buzzbox 411?",
@@ -56,17 +56,17 @@
     "buzzbox 411 purpose",
     "who built buzzbox 411"
    ],
-   "answer": "Buzzbox 411 is one of several communication and monitoring devices deployed across Darkshore by Wizbang Cranktoggle. Once loaded with requested materials, it allows Wizbang to communicate remotely and dispense supplies."
+   "answer": "Buzzbox 411 is one of several communication and monitoring devices Wizbang Cranktoggle placed across Darkshore. When loaded with requested materials, it lets him communicate remotely and dispense supplies."
   }
  ],
  "angles": [
   {
    "target": "profession:Engineering",
-   "text": "Wizbang's reliance on raw animal parts to mend complex mechanical relays offers a baffling, albeit humorous, study in unorthodox gnomish contraptions."
+   "text": "Wizbang's use of animal parts to mend mechanical relays is an unusual example of gnomish engineering."
   },
   {
    "target": "race:Gnome",
-   "text": "Wizbang Cranktoggle represents the wilder fringes of gnomish ingenuity, tinkering with field machinery along Kalimdor's wilderness between cups of crawler wine."
+   "text": "Wizbang Cranktoggle represents a wilder edge of gnomish ingenuity, tinkering with field machinery in Kalimdor's wilderness between cups of crawler wine."
   }
  ],
  "keywords": [
@@ -88,5 +88,6 @@
  "attribution": [
   "Thresher Eye",
   "Buzzbox 411 (quest)"
- ]
+ ],
+ "style": 1
 }

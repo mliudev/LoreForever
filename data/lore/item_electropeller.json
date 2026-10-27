@@ -10,11 +10,11 @@
    "quest:1580"
   ]
  },
- "summary": "An electropeller is a specialized mechanical component engineered by the gnome inventor Wizbang Cranktoggle. Intended to power an explosive waterfowl decoy, a full bag of these gadgets was lost across Darkshore's freshwater rivers during an ill-fated nighttime outing.",
+ "summary": "In Darkshore, Wizbang Cranktoggle's electropellers lie scattered in freshwater rivers after a failed night outing.",
  "sections": [
   {
    "title": "Mishaps along the Riverbank",
-   "body": "Gnomish engineering requires precision, but the inventors behind it are not always so methodical. Wizbang Cranktoggle, an eccentric gnome operating out of Auberdine, devised the electropeller as a propulsion component for an experimental, self-propelled, exploding duck decoy. While scouting the waterways of Darkshore after having one too many drinks, Cranktoggle blacked out and returned to consciousness hours later with singed hair and an empty pack. His collection of electropellers had tumbled into the freshwater currents, leaving the components scattered throughout Darkshore's rivers and lakes until recovered by patient anglers.",
+   "body": "Wizbang Cranktoggle built the electropeller to propel an experimental exploding duck decoy. The gnome inventor works out of Auberdine. While scouting Darkshore's waterways after too many drinks, he blacked out. Hours later, he woke with singed hair and an empty pack. His electropellers had tumbled into Darkshore's freshwater currents, where they remain scattered through rivers and lakes until patient anglers recover them.",
    "spoiler": 0
   }
  ],
@@ -26,7 +26,7 @@
     "what does an electropeller do",
     "why duck decoy"
    ],
-   "answer": "Electropellers are motorized propulsion mechanisms designed by Wizbang Cranktoggle. He invented them specifically to power an experimental, self-propelled, exploding duck decoy he was developing in Darkshore."
+   "answer": "Wizbang Cranktoggle designed electropellers to propel an experimental, self-propelled, exploding duck decoy he was developing in Darkshore."
   },
   {
    "q": "How did these parts end up in the rivers of Darkshore?",
@@ -35,7 +35,7 @@
     "how did electropellers get lost",
     "cranktoggle mistake"
    ],
-   "answer": "Wizbang Cranktoggle was roaming Darkshore at night searching for a testing waterway while a bit intoxicated. He passed out and woke up back in Auberdine with scorched hair, having accidentally dropped his entire sack of parts into the freshwater streams."
+   "answer": "While scouting Darkshore at night after too many drinks, Wizbang Cranktoggle blacked out. He woke hours later with singed hair and an empty pack; his electropellers had tumbled into the freshwater currents."
   },
   {
    "q": "Where can electropellers be recovered?",
@@ -44,7 +44,7 @@
     "electropeller locations",
     "cliffspring river fishing"
    ],
-   "answer": "They drift in Darkshore's inland freshwater bodies, including the Cliffspring River and the Wildbend River, where lucky anglers can dredge them up from the water."
+   "answer": "Anglers can recover electropellers from Darkshore's freshwater bodies, including the Cliffspring River and the Wildbend River."
   },
   {
    "q": "Who wants these components returned?",
@@ -53,17 +53,17 @@
     "who is cranktoggle",
     "auberdine gnome quest"
    ],
-   "answer": "Wizbang Cranktoggle, a gnome residing in Auberdine, needs twelve of them back so he can carry on with his decoy research."
+   "answer": "Wizbang Cranktoggle, a gnome in Auberdine, wants twelve electropellers returned so he can continue his decoy research."
   }
  ],
  "angles": [
   {
    "target": "profession:Engineering",
-   "text": "The electropeller is classic gnomish contraption work: ambitious, motorized, and hazardous, designed for an explosive duck decoy that ended up in the river before it ever saw a proper test run."
+   "text": "For an engineer, the electropeller shows the ambition and hazards of gnomish engineering. Wizbang Cranktoggle designed it to propel an exploding duck decoy, but it ended up in the river before a proper test."
   },
   {
    "target": "race:Gnome",
-   "text": "Wizbang Cranktoggle carries on the proud gnomish tradition of pairing wild technical ambition with baffling misadventures, cheerfully asking passing anglers to salvage the results of his late-night experiments."
+   "text": "As a gnome, you may recognize Wizbang Cranktoggle's bold technical ambition. He asks passing anglers to salvage the results of his late-night experiments."
   }
  ],
  "keywords": [
@@ -89,5 +89,6 @@
  "attribution": [
   "Electropeller",
   "Electropellers"
- ]
+ ],
+ "style": 1
 }

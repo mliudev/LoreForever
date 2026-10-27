@@ -8,11 +8,11 @@
   "wiki": "Rhinag",
   "refs": 1
  },
- "summary": "Rhinag is an afflicted jungle troll of the Darkspear tribe, sheltering among the rocks near Durotar's northwestern border. Weakened by the harsh venom of the region's scorpids, he relies entirely on passing travelers to secure him a timely remedy.",
+ "summary": "Among the rocks near Durotar's northwestern border, Rhinag waits, weakened by scorpids' venom. The Darkspear troll depends on passing travelers to find him a remedy in time.",
  "sections": [
   {
    "title": "A Venomous Peril",
-   "body": "While traversing the arid terrain of Durotar, Rhinag fell victim to the vicious sting of a local Venomtail Scorpid. Overwhelmed by the potent poison, he took shelter among the rocks near Durotar's northwestern border. Weakened and isolated, his survival hinges on anyone who happens by with the resolve to procure a venomtail antidote before the toxins take their final toll.",
+   "body": "Rhinag shelters among the rocks near Durotar's northwestern border after a Venomtail Scorpid stung him. The poison has left the Darkspear troll weak and isolated. He needs a venomtail antidote, and his survival depends on whether a passing traveler can find one before the toxins take their toll.",
    "spoiler": 0
   }
  ],
@@ -24,7 +24,7 @@
     "rhinag lore",
     "troll at rocktusk"
    ],
-   "answer": "Rhinag is a jungle troll traveler who found himself stranded and weakened near Durotar's northwestern border after suffering a venomous sting from a native scorpion."
+   "answer": "Rhinag is a Darkspear jungle troll traveler, stranded and weakened near Durotar's northwestern border after a scorpion's sting."
   },
   {
    "q": "Where can Rhinag be found?",
@@ -33,7 +33,7 @@
     "where is rhinag",
     "rocktusk farm troll"
    ],
-   "answer": "He is resting among the rocks near the northwestern border of Durotar."
+   "answer": "Rhinag rests among the rocks near Durotar's northwestern border."
   },
   {
    "q": "What happened to him?",
@@ -42,13 +42,13 @@
     "what poisoned rhinag",
     "need for a cure backstory"
    ],
-   "answer": "While traversing the plains of Durotar, Rhinag was stung by a dangerous Venomtail Scorpid. The virulent toxin left him incapacitated, requiring an antidote to neutralize the poison before it proves fatal."
+   "answer": "A Venomtail Scorpid stung Rhinag while he crossed Durotar. Its poison left him incapacitated, and he needs an antidote before it proves fatal."
   }
  ],
  "angles": [
   {
    "target": "race:Troll",
-   "text": "Finding a kinsman struck down by native wildlife in the arid wastes of Durotar is a stark reminder of the trials the Darkspear tribe faces in carving out a home alongside the Horde."
+   "text": "As a troll, you may see a kinsman brought low by Durotar's native wildlife. The Darkspear tribe faces many trials as it makes a home alongside the Horde."
   }
  ],
  "keywords": [
@@ -65,5 +65,6 @@
  ],
  "attribution": [
   "Rhinag"
- ]
+ ],
+ "style": 1
 }

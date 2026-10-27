@@ -10,16 +10,16 @@
    "quest:1710"
   ]
  },
- "summary": "Sunscorched Shells are the sturdy remnants of wyvern eggs gathered beneath the roosts of Highperch in Thousand Needles. Hardened by the harsh desert heat, they are prized by skilled armorcrafters who can render them into a protective lacquer for mail links.",
+ "summary": "Beneath Highperch, wyvern eggs leave shells hardened by Thousand Needles' desert heat. Armorer Mathiel in Darnassus uses them to make lacquer for mail links.",
  "sections": [
   {
    "title": "Desert Clutches",
-   "body": "Perched high upon the mesa needles of southern Kalimdor, Highperch wyverns lay eggs that endure relentless desert sun and searing winds. The discarded shell fragments accumulate beneath their roosts, baked to remarkable hardness by the arid climate. While seemingly little more than brittle refuse to a casual wanderer, these sunscorched remains possess natural structural resilience that makes them an intriguing reagent for specialized artisans.",
+   "body": "Highperch wyverns lay eggs on the mesa needles of southern Kalimdor. Beneath their roosts, discarded shell fragments bake in the desert sun and searing winds. Their brittle remains hold a natural resilience that draws the attention of skilled artisans.",
    "spoiler": 0
   },
   {
    "title": "A Craftsman's Lacquer",
-   "body": "In Darnassus, the armorer Mathiel studies crafting methods pioneered by his colleague, the dwarf smith Furen Longbeard. Intrigued by Furen's discoveries, Mathiel uses these shells to create a fine lacquer capable of reinforcing mail armor. When properly processed and applied, the mineral-rich coating bonds to metallic links, adding substantial resilience without overburdening the wearer.",
+   "body": "In Darnassus, armorer Mathiel studies methods pioneered by his colleague, the dwarf smith Furen Longbeard. Mathiel processes the shells into a fine lacquer for mail armor. Applied to the metal links, the coating strengthens them without burdening the wearer.",
    "spoiler": 0
   }
  ],
@@ -31,7 +31,7 @@
     "where to find shells",
     "highperch shells"
    ],
-   "answer": "They are scattered on the ground beneath wyvern nests across Highperch, a high mesa rising out of the canyon floor in western Thousand Needles."
+   "answer": "You can find them beneath wyvern nests across Highperch, a high mesa rising from the canyon floor in western Thousand Needles."
   },
   {
    "q": "What creature do these shells come from?",
@@ -40,7 +40,7 @@
     "wyvern eggs",
     "shell origin"
    ],
-   "answer": "They are the broken eggshells of the Highperch wyverns that roost atop the plateaus in Thousand Needles."
+   "answer": "They are broken eggshells from the Highperch wyverns that roost atop the plateaus in Thousand Needles."
   },
   {
    "q": "Why does Mathiel want Sunscorched Shells?",
@@ -49,7 +49,7 @@
     "what are shells for",
     "armor lacquer"
    ],
-   "answer": "Mathiel seeks to test armorsmithing techniques discovered by Furen Longbeard. He renders the hardened shells down into a tough lacquer to coat and reinforce mail armor links."
+   "answer": "Mathiel wants to test armorsmithing methods discovered by Furen Longbeard. He renders the hardened shells into a tough lacquer to reinforce mail links."
   },
   {
    "q": "Who is Furen Longbeard and how is he involved?",
@@ -57,17 +57,17 @@
     "furen connection",
     "furen longbeard shells"
    ],
-   "answer": "Furen Longbeard is an iron-working colleague of Mathiel based in the Dwarven District of Stormwind. His experiments with unorthodox reagents and hardening techniques inspired Mathiel to experiment with wyvern shell lacquer."
+   "answer": "Furen Longbeard is an iron-working colleague of Mathiel, based in Stormwind's Dwarven District. His experiments with unusual reagents and hardening methods inspired Mathiel to try lacquer made from wyvern shells."
   }
  ],
  "angles": [
   {
    "target": "class:Warrior",
-   "text": "Warriors seeking bespoke mail protection assist Mathiel in gathering these durable eggshells to craft reinforced armor."
+   "text": "As a warrior seeking mail protection, you can help Mathiel gather durable eggshells for reinforced armor."
   },
   {
    "target": "profession:Blacksmithing",
-   "text": "These shells demonstrate how clever smiths look beyond ordinary ores, rendering natural mineral coatings into protective lacquers for linked armor."
+   "text": "As a blacksmith, you can see how skilled smiths use natural mineral coatings to make protective lacquer for linked armor."
   }
  ],
  "keywords": [
@@ -91,5 +91,6 @@
  "attribution": [
   "Sunscorched Shell",
   "Sunscorched Shells"
- ]
+ ],
+ "style": 1
 }

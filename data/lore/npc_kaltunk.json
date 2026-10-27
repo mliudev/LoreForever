@@ -8,16 +8,16 @@
   "wiki": "Kaltunk",
   "refs": 1
  },
- "summary": "Kaltunk is an orc overseer stationed at the heart of the Valley of Trials in Durotar. He serves as the very first point of contact for young orcs taking their opening steps into the world. It is his duty to welcome these aspiring champions and direct them to their initial duties in service to the Horde.",
+ "summary": "At the heart of the Valley of Trials in Durotar, Kaltunk welcomes young orcs and points them toward their first duties for the Horde.",
  "sections": [
   {
    "title": "The First Step",
-   "body": "Standing under the harsh sun of the Valley of Trials, Kaltunk watches over the newly arrived hopefuls seeking to prove themselves worthy of the Horde. While other trainers and elders assign grueling trials and hunting rites, Kaltunk ensures that no recruit wanders aimlessly through the red dust. He delivers straightforward orders, pointing newcomers directly toward Gornek and the path of discipline.",
+   "body": "Kaltunk watches over new arrivals in the Valley of Trials and directs them toward Gornek and the path of discipline. While trainers and elders set trials and hunting rites, the orc overseer gives recruits clear orders so they know where to go.",
    "spoiler": 0
   },
   {
    "title": "Keeper of the Valley",
-   "body": "The Valley of Trials is not an easy proving ground; it was chosen specifically to forge strength and resilience in every youth who walks its canyon floors. Kaltunk embodies this rugged practicality. He offers no grand speeches or coddling, expecting each orc to quickly find their place in the world and pull their weight for the warchief.",
+   "body": "The Valley of Trials was chosen to test the strength and resilience of the youths who walk its canyon floors. Kaltunk brings the same rugged practicality to his work. He offers no grand speeches or coddling, and expects each orc to find a place in the world and serve the warchief.",
    "spoiler": 0
   }
  ],
@@ -29,7 +29,7 @@
     "who is this orc",
     "kaltunk npc"
    ],
-   "answer": "Kaltunk is an orc overseer stationed in the Valley of Trials. He is the very first person newly awakened orc adventurers encounter, tasked with pointing them toward their mentors and starting their training."
+   "answer": "Kaltunk is an orc overseer in the Valley of Trials. Newly awakened orc adventurers encounter him first, and he points them toward their mentors and the start of their training."
   },
   {
    "q": "What does Kaltunk do for new adventurers?",
@@ -38,7 +38,7 @@
     "what does kaltunk want",
     "first quest valley of trials"
    ],
-   "answer": "He gives new recruits their initial task, directing them to speak with Gornek elsewhere in the valley so their true training can begin."
+   "answer": "Kaltunk gives new recruits their initial task: speak with Gornek elsewhere in the valley so their training can begin."
   },
   {
    "q": "Where can I find Kaltunk?",
@@ -47,7 +47,7 @@
     "find kaltunk",
     "where is kaltunk"
    ],
-   "answer": "He stands right near the central training tent and campfire within the Valley of Trials, the secluded starting grounds in southern Durotar."
+   "answer": "Kaltunk stands near the central training tent and campfire in the secluded Valley of Trials, in southern Durotar."
   },
   {
    "q": "Why is he stationed in the Valley of Trials?",
@@ -55,17 +55,17 @@
     "why is kaltunk here",
     "kaltunk purpose"
    ],
-   "answer": "He serves as a welcoming overseer to ensure incoming orc recruits are organized and promptly set onto their path of service to Thrall's Horde."
+   "answer": "Kaltunk welcomes incoming orc recruits, keeps them organized, and sets them on a path of service to Thrall's Horde."
   }
  ],
  "angles": [
   {
    "target": "race:Orc",
-   "text": "For every orc stepping out into Kalimdor, Kaltunk's gruff instructions are the first words they hear as they begin earning their honor."
+   "text": "As an orc stepping out into Kalimdor, Kaltunk's gruff instructions are the first words you hear as you begin earning your honor."
   },
   {
    "target": "faction:Horde",
-   "text": "Kaltunk helps uphold the practical discipline required to maintain order in the harsh proving grounds of Durotar."
+   "text": "As a member of the Horde, you can see how Kaltunk helps maintain order in Durotar's harsh proving grounds."
   }
  ],
  "keywords": [
@@ -83,5 +83,6 @@
  ],
  "attribution": [
   "Kaltunk"
- ]
+ ],
+ "style": 1
 }

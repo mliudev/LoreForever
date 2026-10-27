@@ -8,11 +8,11 @@
   "wiki": "Ormak Grimshot",
   "refs": 1
  },
- "summary": "Ormak Grimshot is an experienced orc hunter trainer residing in the Hunter's Hall within Orgrimmar's Valley of Honor. Accompanied by his loyal wolf, Grimfang, he instructs young hunters of the Horde in tracking, marksmanship, and bonding with wild beasts.",
+ "summary": "In Orgrimmar's Valley of Honor, Ormak Grimshot trains hunters for life in the wild. Beside his wolf, Grimfang, he teaches Horde hunters to track, shoot, and tame beasts.",
  "sections": [
   {
    "title": "Master of the Hunt",
-   "body": "Stationed within the Hunter's Hall in the Valley of Honor, Ormak Grimshot serves as a cornerstone of martial instruction for the Horde's trackers and marksmen. Alongside his companion wolf, Grimfang, Ormak imparts the foundational discipline needed to survive Kalimdor's harsh wilderness. For orc and troll hunters arriving from their trials in Durotar, he provides vital guidance on the sacred art of taming and commanding wild beasts, ensuring every hunter forms an enduring bond with their animal partner.",
+   "body": "Ormak Grimshot trains Horde trackers and marksmen in the Hunter's Hall. With his wolf, Grimfang, at his side, he teaches the skills needed to survive Kalimdor's wilderness. Orc and troll hunters who have completed their trials in Durotar learn from him how to tame and command wild beasts, and to form a lasting bond with an animal companion.",
    "spoiler": 0
   }
  ],
@@ -24,7 +24,7 @@
     "ormak grimshot lore",
     "ormak hunter trainer"
    ],
-   "answer": "Ormak Grimshot is a veteran orc hunter trainer stationed in Orgrimmar's Valley of Honor. He teaches new Horde hunters advanced skills in ranged combat and beast mastery."
+   "answer": "Ormak Grimshot trains Horde hunters in Orgrimmar's Valley of Honor. He teaches ranged combat and how to master beasts."
   },
   {
    "q": "Where can I find Ormak Grimshot?",
@@ -33,7 +33,7 @@
     "where is grimshot",
     "find ormak"
    ],
-   "answer": "Ormak is located inside the Hunter's Hall, nestled in the Valley of Honor in eastern Orgrimmar. He stands near his pet wolf, Grimfang."
+   "answer": "Ormak is inside the Hunter's Hall in Orgrimmar's Valley of Honor. His wolf, Grimfang, is near him."
   },
   {
    "q": "Who is the wolf beside him?",
@@ -42,7 +42,7 @@
     "grimfang",
     "ormak pet"
    ],
-   "answer": "The wolf at his side is Grimfang, Ormak's loyal companion animal, illustrating the tight bond between a skilled hunter and their pet."
+   "answer": "The wolf beside Ormak is Grimfang, his loyal companion. Their bond shows how a hunter and an animal companion work together."
   },
   {
    "q": "What role does he play for new hunters?",
@@ -51,17 +51,17 @@
     "taming quest ormak",
     "training the beast ormak"
    ],
-   "answer": "Ormak directs novice orc and troll hunters on how to train, feed, and manage their newly tamed beasts once they finish their basic trials in Durotar."
+   "answer": "Ormak teaches novice orc and troll hunters to train, feed, and manage beasts they have tamed after their basic trials in Durotar."
   }
  ],
  "angles": [
   {
    "target": "class:Hunter",
-   "text": "Ormak is an essential mentor for Horde hunters, guiding them through the responsibilities of taming and maintaining a loyal animal companion."
+   "text": "As a Horde hunter, you can learn from Ormak how to tame and care for a loyal animal companion."
   },
   {
    "target": "race:Orc",
-   "text": "Reflecting classic orcish survival skills, Ormak exemplifies how orcs work alongside wolves and native predators to defend Durotar."
+   "text": "As an orc, you can look to Ormak's partnership with Grimfang as an example of working alongside wolves and native predators to defend Durotar."
   }
  ],
  "keywords": [
@@ -83,5 +83,6 @@
  ],
  "attribution": [
   "Ormak Grimshot"
- ]
+ ],
+ "style": 1
 }

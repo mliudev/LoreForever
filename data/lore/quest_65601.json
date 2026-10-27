@@ -1,0 +1,84 @@
+{
+ "key": "quest:65601",
+ "type": "quest",
+ "name": "Love Hurts",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   65601
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "Gan'rul sends you to find Magar along Orgrimmar's main drag. His longing for Krilge may point to the object needed to lure an incubus into the world.",
+ "sections": [
+  {
+   "title": "Magar's Search",
+   "body": "Magar lives east of the Cleft of Shadow. He longs for Krilge's return and will ask you to search for something precious. Bring that object to Gan'rul, who needs an item of love and devotion to summon an incubus.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Magar?",
+   "aliases": [
+    "Magar who",
+    "who's Magar"
+   ],
+   "answer": "Magar lives along Orgrimmar's main drag and longs for the return of Krilge."
+  },
+  {
+   "q": "Who is Krilge?",
+   "aliases": [
+    "Krilge who",
+    "Magar's mate"
+   ],
+   "answer": "Krilge is Magar's mate, whose return he longs for."
+  },
+  {
+   "q": "What is an incubus?",
+   "aliases": [
+    "incubus meaning",
+    "sayaad male"
+   ],
+   "answer": "An incubus is a male sayaad, described as profoundly evil and single-minded."
+  },
+  {
+   "q": "What does Gan'rul need?",
+   "aliases": [
+    "Gan'rul needs what",
+    "incubus item"
+   ],
+   "answer": "Gan'rul needs an item that represents great love and devotion to lure an incubus into the world."
+  },
+  {
+   "q": "Where can I find Magar?",
+   "aliases": [
+    "Magar location",
+    "where Magar"
+   ],
+   "answer": "Magar lives east of the Cleft of Shadow, along Orgrimmar's main drag."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "cleft of shadow",
+  "gan'rul",
+  "incubus",
+  "krilge",
+  "love hurts",
+  "magar",
+  "orgrimmar",
+  "sayaad"
+ ],
+ "related": [
+  "zone:orgrimmar",
+  "subzone:cleft-of-shadow",
+  "subzone:drag"
+ ],
+ "style": 1,
+ "attribution": [
+  "In-game quest text: Love Hurts"
+ ]
+}

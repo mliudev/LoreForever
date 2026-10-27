@@ -17,16 +17,16 @@
   "wiki": "Samophlange (Classic 2)",
   "chain": []
  },
- "summary": "This task requires shutting down the intricate machinery powering the Venture Company's digging operations in the northern Barrens. By cutting off three separate control valves, adventurers can safely power down the central apparatus. Turning off these valves halts the volatile flow of fuel and pressure keeping the machine active.",
+ "summary": "At the Sludge Fen, Samophlange machinery keeps the Venture Company's digging rig running. Three valves must be sealed before the central apparatus can be shut down safely.",
  "sections": [
   {
    "title": "Taming the Apparatus",
-   "body": "The Venture Company's machinery at the Sludge Fen is as dangerous as it is complex. When confronting the central control console, the dials and indicators make it clear that the core mechanism cannot simply be shut down at the flip of a switch. To prevent an explosion or mechanical failure, the feed lines must be handled manually first.",
+   "body": "At the Sludge Fen, the Venture Company's machinery is complex and dangerous. The central console makes clear that the core cannot be stopped with a single switch. Its feed lines must be handled by hand first, or the apparatus could fail or explode.",
    "spoiler": 0
   },
   {
    "title": "The Three Valves",
-   "body": "Three distinct valves govern the flow into the rig: the Main Control Valve, the Fuel Control Valve, and the Regulator Valve. Each must be manually sealed against high pressure. As each valve closes, the glowing status indicators on the console fade from green to yellow, finally allowing the central shutoff mechanism to be engaged safely.",
+   "body": "Three valves control the flow into the rig: the Main Control Valve, the Fuel Control Valve, and the Regulator Valve. Each must be sealed by hand against high pressure. As they close, the console's green indicators fade to yellow, making it safe to engage the central shutoff.",
    "spoiler": 0
   }
  ],
@@ -38,7 +38,7 @@
     "samophlange valves purpose",
     "what do valves do"
    ],
-   "answer": "The console monitors pressure and fuel lines running into the machine. Attempting to shut down the apparatus while the lines are open could damage the unit or trigger a disaster, so the fuel, regulation, and main lines must be sealed off beforehand."
+   "answer": "The valves seal the pressure and fuel lines before the apparatus is shut down. Closing them first helps prevent damage to the machine or a disaster."
   },
   {
    "q": "What happens once all three valves are closed?",
@@ -46,7 +46,7 @@
     "console lights",
     "valves closed what next"
    ],
-   "answer": "Closing the three valves drops the internal pressure and cuts off the fuel. The blinking indicator lights on the console dim and shift from green to yellow, allowing the main shutoff switch to finally move freely."
+   "answer": "With all three valves closed, the pressure falls and the fuel stops flowing. The console's blinking lights dim from green to yellow, and the main shutoff switch can move freely."
   },
   {
    "q": "Who built this machine?",
@@ -54,7 +54,7 @@
     "who made the samophlange",
     "venture co machine"
    ],
-   "answer": "The apparatus was constructed by the Venture Company, a ruthless goblin trading cartel extracting oil and raw resources from the northern Barrens."
+   "answer": "The Venture Company built the apparatus. The goblin trading cartel extracts oil and raw resources from the northern Barrens."
   },
   {
    "q": "Where are the valves located?",
@@ -62,7 +62,7 @@
     "valve location",
     "where are the valves"
    ],
-   "answer": "The three valves are positioned right around the central control console and the primary machinery at the Venture Company dig site in the Barrens."
+   "answer": "The three valves are near the central control console and main machinery at the Venture Company dig site in the Barrens."
   },
   {
    "q": "Why is the Horde interested in this device?",
@@ -70,7 +70,7 @@
     "why does horde care",
     "horde samophlange"
    ],
-   "answer": "The Venture Company's heavy industry damages the Barrens and encroaches on Horde lands. Understanding and sabotaging their technology helps curb their destructive exploitation."
+   "answer": "The Venture Company's heavy industry damages the Barrens and encroaches on Horde lands. Understanding and sabotaging its machinery can curb that exploitation."
   },
   {
    "q": "What is a samophlange?",
@@ -78,17 +78,17 @@
     "samophlange meaning",
     "what is a samophlange"
    ],
-   "answer": "A samophlange is an obscure, technical goblin component whose exact internal function is rarely understood by non-engineers, though it appears essential to high-pressure drilling equipment."
+   "answer": "A samophlange is an obscure technical goblin component. Non-engineers rarely understand its exact function, but it appears essential to high-pressure drilling equipment."
   }
  ],
  "angles": [
   {
    "target": "profession:Engineering",
-   "text": "Engineers will recognize the classic goblin design: overpowered, volatile fuel lines with minimal automated failsafes, requiring manual shutoffs to avoid catastrophic pressure backfire."
+   "text": "Engineers will recognize a classic goblin design: overpowered, volatile fuel lines and few automatic failsafes. Manual shutoffs help prevent a catastrophic pressure backfire."
   },
   {
    "target": "faction:Horde",
-   "text": "Stopping the Venture Company's machines safeguards the northern Barrens from unchecked industrial exploitation."
+   "text": "Stopping the Venture Company's machines protects the northern Barrens from unchecked industrial exploitation."
   }
  ],
  "keywords": [
@@ -105,5 +105,6 @@
  ],
  "attribution": [
   "Samophlange (Classic 2)"
- ]
+ ],
+ "style": 1
 }

@@ -8,21 +8,21 @@
   "wiki": "Mathrengyl Bearwalker",
   "refs": 8
  },
- "summary": "Mathrengyl Bearwalker is a master druid trainer and respected elder of the Cenarion Circle residing in Darnassus's Cenarion Enclave. Having once served as Archdruid Fandral Staghelm's direct assistant, he guides young Alliance druids through their spiritual trials, shapeshifting rites, and duties across Kalimdor.",
+ "summary": "In Darnassus, Mathrengyl Bearwalker guides Alliance druids from the Cenarion Enclave. Once Fandral Staghelm's direct assistant, he helps young druids face spiritual trials, learn shapeshifting, and serve across Kalimdor.",
  "sections": [
   {
    "title": "Mentor of the Cenarion Enclave",
-   "body": "Perched within the verdant reaches of the Cenarion Enclave in Darnassus, Mathrengyl Bearwalker stands as one of the most venerable and balanced druids on Teldrassil. He serves as a primary guide for fledgling Alliance druids, overseeing their communion with Moonglade and testing their readiness to master primal animal forms. Having undergone the intense, bewildering communion with the Great Bear Spirit in his own youth, Mathrengyl understands the weight of these rites, personally charging initiates to prove their spirit against the sacred moonkin Lunaclaw before inducting them into the path of the Druid of the Claw.",
+   "body": "In Darnassus's Cenarion Enclave, Mathrengyl Bearwalker guides Alliance druids through their first rites. A respected elder of the Cenarion Circle, he sends initiates to commune with Moonglade and judges whether they are ready to take animal forms. Mathrengyl remembers his own bewildering communion with the Great Bear Spirit. He asks each initiate to test their spirit against Lunaclaw, the sacred moonkin, before entering the path of the Druid of the Claw.",
    "spoiler": 0
   },
   {
    "title": "Service to the Archdruid",
-   "body": "Mathrengyl has long operated as Fandral Staghelm's second, managing day-to-day circle affairs and handling recruitment for the Archdruid's ambitious endeavors. When Fandral demanded vast quantities of morrowgrain, Mathrengyl organized its collection from returning adventurers, despite privately confiding a quiet unease regarding the strange plant's unnatural essence. He also coordinates Alliance responses to summons from Moonglade, navigating the delicate politics of the Cenarion Circle while Fandral turns his gaze toward southern Kalimdor.",
+   "body": "For many years, Mathrengyl has served as Fandral Staghelm's second, tending the Cenarion Circle's daily affairs and finding recruits for the Archdruid's plans. When Fandral sought great stores of morrowgrain, Mathrengyl arranged for returning adventurers to gather it. In private, he admitted unease about the plant's unnatural essence. He also coordinates Alliance responses to calls from Moonglade and handles the Circle's delicate politics while Fandral turns his attention to southern Kalimdor.",
    "spoiler": 0
   },
   {
    "title": "A Broader Perspective",
-   "body": "While Staghelm is infamous for his fierce pride and disdain for other races, Mathrengyl often displays a more contemplative, open mind. When relics arrived in Darnassus from the fallen druid Mulgris Deepriver\u2014who perished fighting the Scourge in the Western Plaguelands\u2014Mathrengyl was deeply moved to discover the investigator was a tauren. Reflecting on the Cenarion Circle's shared mission, he quietly mused that the tauren may not have drifted nearly as far from the teachings of Cenarius as the Archdruid insists.",
+   "body": "Mathrengyl thinks more openly than Fandral Staghelm, whose pride and disdain for other races are well known. Relics from Mulgris Deepriver reached Darnassus after the druid died fighting the Scourge in the Western Plaguelands. Mathrengyl was moved to learn that the investigator was a tauren. The Cenarion Circle shares a mission, he reflected, and tauren may not have strayed as far from Cenarius's teachings as Fandral claims.",
    "spoiler": 0
   }
  ],
@@ -34,7 +34,7 @@
     "mathrengyl role",
     "bearwalker"
    ],
-   "answer": "Mathrengyl Bearwalker is a veteran night elf druid trainer stationed in the Cenarion Enclave in Darnassus. Revered as one of Teldrassil's most balanced sages, he instructs initiates in shapeshifting, poison cleansing, and duties on behalf of the Cenarion Circle."
+   "answer": "Mathrengyl Bearwalker guides druids in the Cenarion Enclave in Darnassus. A veteran night elf druid and respected elder, he teaches shapeshifting, poison cleansing, and service to the Cenarion Circle."
   },
   {
    "q": "What is his relationship with Fandral Staghelm?",
@@ -42,7 +42,7 @@
     "fandral assistant",
     "staghelm and mathrengyl"
    ],
-   "answer": "Mathrengyl served as Archdruid Fandral Staghelm's direct assistant and second. While obediently managing Fandral's requests\u2014including gathering morrowgrain and delegating missions\u2014Mathrengyl harbors subtle doubts regarding some of Fandral's harsh viewpoints and eccentric projects."
+   "answer": "Mathrengyl served as Fandral Staghelm's direct assistant and second. He manages Fandral's requests, including gathering morrowgrain and delegating missions, while quietly doubting some of the Archdruid's views and projects."
   },
   {
    "q": "What forms does Mathrengyl help druids learn?",
@@ -51,7 +51,7 @@
     "aquatic form quest darnassus",
     "druid forms mathrengyl"
    ],
-   "answer": "Mathrengyl instructs young druids after their spiritual pilgrimages to Moonglade, overseeing their communion with Lunaclaw to earn Bear Form, as well as concluding their trials in Darkshore and Westfall to master Aquatic Form."
+   "answer": "Mathrengyl guides young druids through their Moonglade pilgrimage and communion with Lunaclaw to earn Bear Form. He also oversees their trials in Darkshore and Westfall to master Aquatic Form."
   },
   {
    "q": "Why is Mathrengyl gathering morrowgrain?",
@@ -59,7 +59,7 @@
     "morrowgrain quest",
     "why morrowgrain darnassus"
    ],
-   "answer": "He assists Archdruid Fandral Staghelm with ongoing botanical research on Teldrassil by collecting morrowgrain cultivated by adventurers. Even so, Mathrengyl has admitted to feeling deeply uneasy whenever he is in the plant's presence."
+   "answer": "Mathrengyl gathers morrowgrain cultivated by adventurers to help Archdruid Fandral Staghelm with botanical research on Teldrassil. He has admitted to feeling uneasy in the plant's presence."
   },
   {
    "q": "How does Mathrengyl feel about tauren druids?",
@@ -67,7 +67,7 @@
     "tauren druids",
     "mathrengyl tauren"
    ],
-   "answer": "Unlike Fandral Staghelm, who views tauren druids with open skepticism, Mathrengyl is more thoughtful. After reviewing the sacrifice of a tauren druid fighting the Scourge in the Western Plaguelands, he admitted the tauren might walk closer to the teachings of Cenarius than Fandral allows."
+   "answer": "Mathrengyl considers tauren druids more thoughtfully than Fandral Staghelm, who views them with skepticism. After considering a tauren druid's sacrifice against the Scourge in the Western Plaguelands, Mathrengyl said tauren may follow Cenarius's teachings more closely than Fandral allows."
   },
   {
    "q": "What does he do with the Nightmare Shard?",
@@ -75,21 +75,21 @@
     "nightmare shard mathrengyl",
     "in nightmares quest"
    ],
-   "answer": "When adventurers bring a corrupted Nightmare Shard to Falla Sagewind, she sends them on to Mathrengyl, who inspects it with great alarm, sensing the creeping corruption threatening the Emerald Dream."
+   "answer": "When adventurers bring a corrupted Nightmare Shard to Falla Sagewind, she sends them to Mathrengyl. He examines the shard with alarm and senses corruption creeping toward the Emerald Dream."
   }
  ],
  "angles": [
   {
    "target": "class:Druid",
-   "text": "For Alliance druids, Mathrengyl is an essential mentor who bridges Darnassus with Moonglade, unlocking the secrets of Bear Form, Aquatic Form, and herbal cures for deadly poisons."
+   "text": "As an Alliance druid, you can turn to Mathrengyl for guidance between Darnassus and Moonglade. He teaches Bear Form, Aquatic Form, and herbal cures for deadly poisons."
   },
   {
    "target": "faction:Alliance",
-   "text": "Mathrengyl represents the steady, traditional leadership of the Cenarion Circle in Darnassus, offering a temperate contrast to Fandral Staghelm's aggressive posturing."
+   "text": "In Darnassus, Mathrengyl offers the Cenarion Circle's steady, traditional leadership. His temperate manner contrasts with Fandral Staghelm's aggressive posturing."
   },
   {
    "target": "race:NightElf",
-   "text": "A paragon of Kaldorei druidism, Mathrengyl embodies devotion to nature and balance in the aftermath of the Third War and the growth of Teldrassil."
+   "text": "As a night elf, you can look to Mathrengyl as an example of Kaldorei devotion to nature and balance after the Third War, as Teldrassil grows."
   }
  ],
  "keywords": [
@@ -118,5 +118,6 @@
  ],
  "attribution": [
   "Mathrengyl Bearwalker"
- ]
+ ],
+ "style": 1
 }

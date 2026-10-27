@@ -10,16 +10,16 @@
    "quest:986"
   ]
  },
- "summary": "A Fine Moonstalker Pelt is the thick, pristine hide taken from the most mature predatory moonstalkers roaming southern Darkshore. Terenthis of Auberdine uses these prized furs to weave an enchanted cloak that allows searchers to slip past the woods' hostile beasts unnoticed.",
+ "summary": "In southern Darkshore, mature moonstalkers carry the hides Terenthis needs. Their Fine Moonstalker Pelt is thick and healthy enough for an enchanted cloak that helps searchers pass the region’s hostile beasts unnoticed.",
  "sections": [
   {
    "title": "Hides of the Pack Leaders",
-   "body": "While common moonstalkers prowl throughout the mist-laden forests of Darkshore, only the older moonstalker sires and matriarchs possess coats dense and healthy enough to yield a fine pelt. These powerful wildcats establish territories along the Wildbend River and further south toward the borders of Ashenvale, where they hunt with lethal patience.",
+   "body": "Moonstalker sires and matriarchs have coats dense and healthy enough to yield a fine pelt. They hold territories along the Wildbend River and farther south toward Ashenvale’s borders, where they hunt with patience. Common moonstalkers prowl across Darkshore’s forests, but their hides are not fine enough.",
    "spoiler": 0
   },
   {
    "title": "A Cloak of Deception",
-   "body": "Gathering these hides is no mere trophy hunt. Terenthis requests five intact pelts to fashion an enchanted garment for travelers searching for the missing night elf Volcor. When woven and bound with nature magic, the pelts form a cloak of concealment that cloaks its wearer in an illusion, dampening their presence to Darkshore's wildlife as long as they refrain from aggressive actions.",
+   "body": "Terenthis needs five intact pelts to make a cloak for travelers searching for the missing night elf Volcor. Nature magic binds the hides into an illusion that dulls the wearer’s presence to Darkshore’s wildlife. The cloak works only while its wearer avoids aggressive acts.",
    "spoiler": 1
   }
  ],
@@ -31,7 +31,7 @@
     "where to get moonstalker pelt",
     "which cats have pelts"
    ],
-   "answer": "Only the mature leaders of the moonstalker packs yield these pelts\u2014specifically moonstalker sires and moonstalker matriarchs. Younger or common moonstalkers lack the necessary hide quality."
+   "answer": "Moonstalker sires and matriarchs yield Fine Moonstalker Pelts. Common and younger moonstalkers lack hides of sufficient quality."
   },
   {
    "q": "Where can the mature moonstalkers be found?",
@@ -40,7 +40,7 @@
     "moonstalker sire location",
     "moonstalker matriarch location"
    ],
-   "answer": "These formidable wildcats make their home in southern Darkshore, particularly near the banks of the Wildbend River and further south along the forest road toward Ashenvale."
+   "answer": "Mature moonstalkers live in southern Darkshore, especially along the Wildbend River and farther south toward Ashenvale."
   },
   {
    "q": "Why does Terenthis need these pelts?",
@@ -49,7 +49,7 @@
     "why collect moonstalker pelts",
     "terenthis pelt quest"
    ],
-   "answer": "Terenthis uses five of the pelts to craft an enchanted cloak. This cloak is imbued with magic designed to conceal a rescuer from predatory beasts while searching for the missing night elf Volcor."
+   "answer": "Terenthis needs five pelts to make an enchanted cloak for travelers searching for the missing night elf Volcor. Its magic conceals a rescuer from predatory beasts."
   },
   {
    "q": "Does the finished cloak make you completely invisible?",
@@ -58,17 +58,17 @@
     "cloak illusion limits",
     "cloak break stealth"
    ],
-   "answer": "The cloak projects a delicate natural illusion that deters beasts, but it is fragile. Terenthis warns that doing much beyond speaking to others will disrupt the enchantment and dispel the disguise."
+   "answer": "The cloak does not make you completely invisible. Its natural illusion deters beasts, but actions beyond speaking to others can break the enchantment and dispel the disguise."
   }
  ],
  "angles": [
   {
    "target": "class:Hunter",
-   "text": "Stalking the sires and matriarchs near the Wildbend River tests a hunter's tracking skills against some of the fiercest predators in coastal Kalimdor."
+   "text": "As a hunter, tracking sires and matriarchs near the Wildbend River tests your skills against some of coastal Kalimdor’s fiercest predators."
   },
   {
    "target": "race:NightElf",
-   "text": "Night elves respect the sacred ferocity of the moonstalkers, taking their hides only out of dire necessity to aid fallen kin like Volcor."
+   "text": "As a night elf, you respect the moonstalkers’ sacred ferocity. Their hides are taken only in dire need, to aid fallen kin such as Volcor."
   }
  ],
  "keywords": [
@@ -94,5 +94,6 @@
  "attribution": [
   "Fine Moonstalker Pelt",
   "A Lost Master"
- ]
+ ],
+ "style": 1
 }

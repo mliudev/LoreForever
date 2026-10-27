@@ -1,0 +1,81 @@
+{
+ "key": "quest:7826",
+ "type": "quest",
+ "name": "A Donation of Wool",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   7826
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "Orgrimmar is accepting wool cloth donations, with recognition promised for sixty pieces. Its stores already have some wool, and the city expects to gather enough from other donors.",
+ "sections": [
+  {
+   "title": "Wool for Orgrimmar",
+   "body": "You are asked to give sixty pieces of wool cloth for recognition from Orgrimmar. The city has some wool in its stores and expects other donors to help support the drive.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is Orgrimmar asking for?",
+   "aliases": [
+    "what do they want",
+    "wool donation"
+   ],
+   "answer": "Orgrimmar is accepting donations of wool cloth."
+  },
+  {
+   "q": "How much wool do I need to donate?",
+   "aliases": [
+    "how many wool",
+    "sixty wool"
+   ],
+   "answer": "The donation is sixty pieces of wool cloth."
+  },
+  {
+   "q": "What do I get for donating wool?",
+   "aliases": [
+    "donation recognition",
+    "wool reward"
+   ],
+   "answer": "A donation of sixty pieces earns you full recognition from Orgrimmar for your generosity."
+  },
+  {
+   "q": "Why is Orgrimmar collecting wool?",
+   "aliases": [
+    "wool drive",
+    "why wool"
+   ],
+   "answer": "Orgrimmar is gathering wool to support its donation drive."
+  },
+  {
+   "q": "Does Orgrimmar already have wool?",
+   "aliases": [
+    "wool stores",
+    "how much wool"
+   ],
+   "answer": "Yes. Orgrimmar has wool in its stores and expects to acquire enough from other donors to support the drive."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "a donation of wool",
+  "donation",
+  "orgrimmar",
+  "recognition",
+  "sixty pieces",
+  "wool",
+  "wool cloth"
+ ],
+ "related": [
+  "zone:orgrimmar"
+ ],
+ "style": 1,
+ "attribution": [
+  "In-game quest text: A Donation of Wool"
+ ]
+}

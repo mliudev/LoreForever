@@ -8,16 +8,16 @@
   "wiki": "Keldran",
   "refs": 2
  },
- "summary": "Keldran is an orc operative stationed just north of the Valley of Spirits in Orgrimmar. Dedicated to paving the way for eventual diplomacy with the Alliance, he coordinates covert strikes against demonic remnants to prove the modern Horde has truly forsaken the Burning Legion.",
+ "summary": "North of the Valley of Spirits in Orgrimmar, Keldran works to clear a path toward peace with the Alliance. He directs covert strikes against demonic remnants, hoping to show that the modern Horde has forsaken the Burning Legion.",
  "sections": [
   {
    "title": "A Diplomatic Crusade",
-   "body": "While Thrall governs from the Valley of Wisdom, Keldran works from the city's red rock terraces to solve a lingering diplomatic disaster. The Alliance still views all orcs as bloodthirsty puppets of demonic masters, a reputation cemented during the first wars. Convinced that even Thrall tires of endless conflict, Keldran believes true peace talks can never occur while demon-worshiping cults endure in Kalimdor. Without formal sanction from the Warchief, he takes the initiative upon himself, directing trusted agents toward distant threats to dismantle the demonic stain once and for all.",
+   "body": "Keldran works from Orgrimmar’s red rock terraces while Thrall governs from the Valley of Wisdom. The Alliance still sees all orcs as bloodthirsty puppets of demonic masters, a reputation forged during the first wars. Keldran believes Thrall is weary of endless conflict, but peace talks cannot begin while demon-worshiping cults endure in Kalimdor. Without the Warchief’s formal sanction, he takes the initiative himself. He directs trusted agents toward distant threats, hoping to erase the demonic stain and clear the way for diplomacy.",
    "spoiler": 0
   },
   {
    "title": "The War in Desolace",
-   "body": "To build his case to the Alliance, Keldran targets the grim wastes of Desolace. He dispatched Takata Steelblade and Maurin Bonesplitter to spearhead operations against the demonic infestations there, placing special emphasis on wiping out the Burning Blade cultists. By eradicating these demonic practitioners and bringing tangible proof back to Orgrimmar, Keldran hopes to demonstrate unequivocally that the new Horde is as much an enemy of the Legion as the humans and night elves are.",
+   "body": "In Desolace, Keldran has sent Takata Steelblade and Maurin Bonesplitter to lead operations against demonic infestations. Their chief target is the Burning Blade cult. Keldran hopes to eradicate these practitioners and bring proof back to Orgrimmar, showing the Alliance that the new Horde stands against the Legion alongside humans and night elves.",
    "spoiler": 1
   }
  ],
@@ -29,7 +29,7 @@
     "keldran lore",
     "keldran npc"
    ],
-   "answer": "Keldran is an orc located north of the Valley of Spirits in Orgrimmar who organizes efforts to purge demonic influence and open a path toward diplomatic relations with the Alliance."
+   "answer": "Keldran works north of the Valley of Spirits in Orgrimmar, organizing efforts against demonic influence to open a path toward diplomacy with the Alliance."
   },
   {
    "q": "Why does Keldran care about relations with the Alliance?",
@@ -38,7 +38,7 @@
     "keldran motives",
     "why does he want peace"
    ],
-   "answer": "Keldran believes that Thrall is growing weary of continuous war with the Alliance. He knows peace talks will remain impossible as long as the Alliance assumes the Horde is still in league with the Burning Legion."
+   "answer": "Keldran believes Thrall is growing weary of constant war with the Alliance. Peace talks cannot begin while the Alliance thinks the Horde remains allied with the Burning Legion."
   },
   {
    "q": "Is Keldran acting under Thrall's official orders?",
@@ -47,7 +47,7 @@
     "thrall orders keldran",
     "is keldran sanctioned"
    ],
-   "answer": "No. Keldran lacks official authorization from Warchief Thrall for his operation, choosing to act independently to clear the Horde's name and set the groundwork for future peace."
+   "answer": "No. Keldran acts without formal authorization from Warchief Thrall, seeking to clear the Horde’s name and prepare the way for peace."
   },
   {
    "q": "What is Keldran doing in Desolace?",
@@ -56,17 +56,17 @@
     "why desolace",
     "keldran burning blade"
    ],
-   "answer": "He dispatched Takata Steelblade and Maurin Bonesplitter to Desolace to purge the local demonic forces and decisively eradicate the presence of the Burning Blade cult."
+   "answer": "Keldran sent Takata Steelblade and Maurin Bonesplitter to Desolace to fight demonic forces, with special emphasis on wiping out the Burning Blade cultists."
   }
  ],
  "angles": [
   {
    "target": "faction:Horde",
-   "text": "Keldran represents the forward-thinking segment of the Horde that recognizes the dire need to shed their demonic reputation if they are ever to secure lasting peace on Kalimdor."
+   "text": "Keldran represents a forward-thinking part of the Horde that sees the need to shed its demonic reputation to secure lasting peace on Kalimdor."
   },
   {
    "target": "class:Warlock",
-   "text": "Keldran's covert war against the Burning Blade underscores how severely the Horde's leadership wishes to distance itself from uncontrolled demonic corruption."
+   "text": "Keldran’s covert war against the Burning Blade shows how strongly the Horde’s leadership wants to distance itself from uncontrolled demonic corruption."
   }
  ],
  "keywords": [
@@ -91,5 +91,6 @@
  ],
  "attribution": [
   "Keldran"
- ]
+ ],
+ "style": 1
 }

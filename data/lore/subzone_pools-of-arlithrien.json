@@ -7,11 +7,11 @@
  "meta": {
   "wiki": "Pools of Arlithrien"
  },
- "summary": "The Pools of Arlithrien are a cluster of secluded springs resting in western Teldrassil, just south of the gates to Darnassus. Once a tranquil retreat centered around a sacred moonwell, the area has fallen into neglect and danger as local wildlife and nearby hostile Gnarlpine furbolgs encroached upon it.",
+ "summary": "South of Darnassus, the Pools of Arlithrien have grown dangerous and neglected. Their moonwell once drew night elves to a quiet sanctuary, but beasts and nearby Gnarlpine furbolgs now threaten the springs.",
  "sections": [
   {
    "title": "A Troubled Sanctuary",
-   "body": "Tucked along the shaded boughs south of Darnassus, the Pools of Arlithrien were originally meant to be a quiet place of natural harmony. At their heart lies a stone moonwell, a vessel for the waters imbued with the grace of Elune. Yet despite its proximity to the night elven capital, the sanctuary has become perilous. Agitated beasts roam the shallows, and the persistent hostility of the displaced Gnarlpine furbolgs forced the night elves to abandon routine upkeep of the site, leaving a peaceful wonder shadowed by the island's growing malaise.",
+   "body": "The Pools of Arlithrien lie beneath Teldrassil’s shaded boughs, south of Darnassus. A stone moonwell rests at their heart, holding waters touched by Elune’s grace. Though the sanctuary lies near the night elven capital, danger has driven the night elves to leave it untended. Agitated beasts roam the shallows, and the Gnarlpine furbolgs nearby remain hostile. What was meant to be a peaceful retreat now reflects the growing troubles across the island.",
    "spoiler": 0
   }
  ],
@@ -23,7 +23,7 @@
     "where is arlithrien",
     "arlithrien map"
    ],
-   "answer": "The pools are nestled in the western reaches of Teldrassil, located just south of the main bridge and entryway into the capital city of Darnassus."
+   "answer": "The Pools of Arlithrien lie in western Teldrassil, just south of the main bridge and entrance to Darnassus."
   },
   {
    "q": "Why was the moonwell here abandoned?",
@@ -32,7 +32,7 @@
     "arlithrien moonwell abandoned",
     "empty moonwell"
    ],
-   "answer": "The night elves withdrew from actively tending the moonwell due to mounting danger. Hostile Gnarlpine furbolgs established a threatening presence nearby, and aggressive forest wildlife overran the surrounding waters."
+   "answer": "The night elves stopped tending the moonwell as danger mounted. Hostile Gnarlpine furbolgs settled nearby, while aggressive forest wildlife overran the surrounding waters."
   },
   {
    "q": "What threats can travelers find at the pools?",
@@ -41,7 +41,7 @@
     "pools of arlithrien mobs",
     "enemies at pools"
    ],
-   "answer": "Travelers wandering near the pools must contend with aggressive woodland creatures that have taken over the waters, alongside the looming risk posed by nearby territorial Gnarlpine furbolgs."
+   "answer": "Aggressive woodland creatures roam the waters, and nearby territorial Gnarlpine furbolgs pose a threat to travelers."
   },
   {
    "q": "Can players still use the moonwell at the Pools of Arlithrien?",
@@ -50,17 +50,17 @@
     "is moonwell active",
     "water at pools"
    ],
-   "answer": "Yes. Though untended and abandoned by the priesthood and druids due to local dangers, the moonwell itself still holds its sacred waters and remains a functional source of lunar essence."
+   "answer": "Yes. Though the priesthood and druids have left the moonwell untended because of local dangers, its sacred waters remain a functional source of lunar essence."
   }
  ],
  "angles": [
   {
    "target": "race:NightElf",
-   "text": "The abandonment of a holy moonwell so close to Darnassus is a troubling reminder to night elves of the corruption and disruption creeping across Teldrassil."
+   "text": "For night elves, a holy moonwell left untended so close to Darnassus is a troubling sign of corruption and disruption spreading across Teldrassil."
   },
   {
    "target": "class:Druid",
-   "text": "Druids studying the imbalances of Teldrassil see the unruly wildlife and the neglected moonwell here as another sign that the Great Tree lacks nature's true blessing."
+   "text": "Druids studying Teldrassil’s imbalances see the unruly wildlife and neglected moonwell as signs that the Great Tree lacks nature’s true blessing."
   }
  ],
  "keywords": [
@@ -79,5 +79,6 @@
  ],
  "attribution": [
   "Pools of Arlithrien"
- ]
+ ],
+ "style": 1
 }

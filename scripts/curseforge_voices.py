@@ -29,6 +29,11 @@ its project is live, unless that would put the file over the limit; a required o
 until voices.json records a file for it, so the app always has something to install in its place. A project with
 "min_days" uploads a change at most that often (its first upload never waits), so its players re-download it less.
 
+A "bundle" project (a narrator's Complete, 10/26) holds no narration: its file is one small add-on folder with only a
+.toc, made here, and it requires that narrator's story projects, so one click in the CurseForge app installs them all
+(Spoken does the same). The .toc's Notes name the projects it brings that are live, so its file changes, and uploads
+again, when another one goes live. It has no 'from' and nothing in it plays: the add-on doesn't read it.
+
   curseforge_voices.py core ZIP OUTDIR        the add-on's file: OUTDIR/<ZIP's name> without the folders that go to
                                               CurseForge on their own, OUTDIR/relations.json for its upload's
                                               "relations", OUTDIR/notes.md for its changelog (maybe empty). With
@@ -87,7 +92,9 @@ class Failure(Exception):
 
 
 def sources(project: dict, version: str | None = None) -> list[str]:
-    """The release zips a project's folders come from ('from': one name, or a list)."""
+    """The release zips a project's folders come from ('from': one name, or a list; none for a bundle)."""
+    if project.get("bundle"):
+        return []
     names = [project["from"]] if isinstance(project["from"], str) else list(project["from"])
     return [s.format(v=version) for s in names] if version else names
 
@@ -130,15 +137,23 @@ def load_config(path: Path | None = None) -> list[dict]:
                 raise Failure(f"{path.name}: {name} needs '{k}'")
         if "{v}" not in p["file"]:
             raise Failure(f"{path.name}: {name}'s 'file' needs {{v}} for the version")
+        if type(p.setdefault("bundle", False)) is not bool:
+            raise Failure(f"{path.name}: {name}'s 'bundle' is true or false")
         src = p.get("from")
-        if not ((isinstance(src, str) and src.endswith(".zip")) or (isinstance(src, list) and src and all(
+        if p["bundle"]:
+            if src is not None or p.get("handover") or not p.get("requires") or p.get("core") != "optional" or not (
+                    isinstance(p.get("folders"), list) and len(p["folders"]) == 1
+                    and re.fullmatch(r"LoreForever_Complete_\w+", str(p["folders"][0]))):
+                raise Failure(f"{path.name}: {name} is a bundle: one folder LoreForever_Complete_<narrator>, no 'from' "
+                              "or 'handover', optional for the core, and the projects it brings in 'requires'")
+        elif not ((isinstance(src, str) and src.endswith(".zip")) or (isinstance(src, list) and src and all(
                 isinstance(s, str) and s.endswith(".zip") for s in src) and len(set(src)) == len(src))):
             raise Failure(f"{path.name}: {name}'s 'from' is a release zip, like LoreForever.zip, or a list of them")
         p.setdefault("suggests", [])
         if not (isinstance(p["suggests"], list) and all(s in keys and s != p["key"] for s in p["suggests"])):
             raise Failure(f"{path.name}: {name}'s 'suggests' names other projects' keys")
         folders = p.get("folders")
-        if not (isinstance(folders, list) and folders and all(isinstance(f, str) and re.fullmatch(
+        if not p["bundle"] and not (isinstance(folders, list) and folders and all(isinstance(f, str) and re.fullmatch(
                 r"LoreForever_(?:Voice_\w+|Lang_[a-z]{2}[A-Z]{2})", f) for f in folders)):
             raise Failure(f"{path.name}: {name}'s 'folders' are add-on folders, like LoreForever_Voice_Female")
         if p.get("core") not in ("required", "optional"):
@@ -177,6 +192,30 @@ def load_config(path: Path | None = None) -> list[dict]:
     folders = [f for p in projects for f in p["folders"]]
     if len(folders) != len(set(folders)):
         raise Failure(f"{path.name}: a folder can only belong to one project")
+    # "handover": {key: [folders]}: folders that moved to project `key` stay in this project's file until `key` is live,
+    # then leave it, and this project requires `key`, so the CurseForge app installs it for everyone who has this one
+    # and no player loses a recording on the way (the female narrator's Alliance lands, 10/26).
+    by_key = {p["key"]: p for p in projects}
+    for p in projects:
+        handover = p.setdefault("handover", {})
+        if not (isinstance(handover, dict) and all(k in by_key and k != p["key"] and isinstance(fs, list) and fs
+                                                   and all(f in by_key[k]["folders"] for f in fs)
+                                                   for k, fs in handover.items())):
+            raise Failure(f"{path.name}: {p['key']}'s 'handover' maps other projects' keys to folders of theirs")
+        if any(p["key"] in by_key[k]["requires"] for k in handover):
+            raise Failure(f"{path.name}: {p['key']} will require the project it hands folders to, so that one "
+                          "mustn't require it back")
+        if any(p["key"] in by_key[k]["requires"] for k in p["requires"]):
+            raise Failure(f"{path.name}: {p['key']} and a project it requires require each other: one suggests the "
+                          "other instead (the female narrator brings her Horde lands, 10/26)")
+        if any(by_key[k]["bundle"] for k in p["requires"] + p["suggests"]):
+            raise Failure(f"{path.name}: {p['key']} names a bundle: nothing requires or suggests one")
+    for p in projects:
+        for k, fs in p["handover"].items():
+            if by_key[k]["live"]:
+                p["requires"] = p["requires"] + [k] * (k not in p["requires"])
+            else:
+                p["folders"] = p["folders"] + [f for f in fs if f not in p["folders"]]
     return projects
 
 
@@ -373,6 +412,13 @@ def changelog(version: str, parts: list[tuple[str, str, int]], before: dict | No
     return "\n".join(lines)
 
 
+def bundle_changelog(project: dict, projects: list[dict]) -> str:
+    """A bundle's notes: the projects it brings."""
+    return "\n".join([f"Installs {project['about']}:", "", *[f"- {p['name']}" for p in brings(project, projects)], "",
+                      "The CurseForge app installs them, and Lore Forever, with this one. In game, type /reload, then "
+                      "choose your voices in Options > Narration voices."])
+
+
 def relations(project: dict, projects: list[dict]) -> dict:
     """The add-on, the projects it requires and the ones it suggests (CurseForge's optional dependencies: listed, not
     installed with it), each only once it's live (a file can only name an approved project)."""
@@ -417,13 +463,45 @@ def merge(parts: list[Path], out: Path, drop: list[str] | None = None) -> Path:
     return out
 
 
+def brings(project: dict, projects: list[dict]) -> list[dict]:
+    """The live projects a bundle requires, in its order: what installing it brings."""
+    by_key = {p["key"]: p for p in projects}
+    return [by_key[k] for k in project["requires"] if by_key[k]["live"]]
+
+
+def bundle_file(project: dict, projects: list[dict], out: Path, version: str) -> Path:
+    """A bundle's file: its one folder with only a .toc, load-on-demand with nothing to load, whose Notes name the live
+    projects it brings (so it changes, and goes up again, when one more goes live)."""
+    folder = project["folders"][0]
+    toc = "\n".join([
+        f"## Interface: {toc_field(CORE_TOC, 'Interface')}",
+        f"## Title: {project['name']}",
+        f"## Notes: Installs {project['about']}: " + ", ".join(p["name"] for p in brings(project, projects)) + ".",
+        f"## Author: {toc_field(CORE_TOC, 'Author')}",
+        f"## Version: {version}",
+        "## Dependencies: LoreForever",
+        "## LoadOnDemand: 1",
+        ""])
+    out.parent.mkdir(parents=True, exist_ok=True)
+    with zipfile.ZipFile(out, "w", zipfile.ZIP_DEFLATED) as z:
+        z.writestr(zipfile.ZipInfo(f"{folder}/{folder}.toc", (1980, 1, 1, 0, 0, 0)), toc.encode("utf-8"))
+    return out
+
+
 def prepare(projects: list[dict], source_dir: Path, work: Path, version: str) -> list[dict]:
     """Each project with an id: its file (its folders, from its release zips), or why there isn't one. A release
     without any of the project's zips is "absent" (a pack is only built once its folder exists), not an error; with
-    some of them, the file has the folders those hold."""
+    some of them, the file has the folders those hold. A bundle's file is made here, once one project it brings is live."""
     steps = []
     for p in projects:
         if not p.get("id"):
+            continue
+        if p.get("bundle"):
+            if brings(p, projects):
+                steps.append({"project": p, "zip": bundle_file(p, projects, work / f"{p['folders'][0]}-{version}.zip",
+                                                               version)})
+            else:
+                steps.append({"project": p, "absent": "none of the projects it brings is live yet"})
             continue
         source_names = sources(p, version)
         have = [source_dir / s for s in source_names if (source_dir / s).is_file()]
@@ -720,7 +798,9 @@ def send(steps: list[dict], projects: list[dict], state: dict, version: str, tok
         game = 0 if dry_run else game_version(headers)
         for s in todo:
             p, parts = s["project"], contents(s["zip"])
-            meta = metadata(p, projects, version, game, changelog(version, parts, (s["last"] or {}).get("counts")))
+            notes = (bundle_changelog(p, projects) if p.get("bundle")
+                     else changelog(version, parts, (s["last"] or {}).get("counts")))
+            meta = metadata(p, projects, version, game, notes)
             if dry_run:
                 print(f"{p['key']}: would upload {s['zip'].name} ({s['zip'].stat().st_size // MB} MB) to CurseForge "
                       f"project {p['id']} (fingerprint {s['fingerprint'][:12]})")

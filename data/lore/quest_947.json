@@ -17,16 +17,16 @@
   "wiki": "Cave Mushrooms",
   "chain": []
  },
- "summary": "Cave Mushrooms is an Alliance assignment offered by the night elf Barithras Moonshade in Auberdine. While formulating a specialized potion, Barithras tasks an adventurer with venturing into a hidden cavern behind Cliffspring Falls to harvest rare fungi and verify disturbing premonitions felt by the Grove of the Ancients.",
+ "summary": "Barithras Moonshade sends you behind Cliffspring Falls for rare fungi. In Auberdine, the night elf prepares a specialized potion and asks you to investigate troubling warnings from the Grove of the Ancients.",
  "sections": [
   {
    "title": "A Recipe Behind the Falls",
-   "body": "Barithras Moonshade requires specific ingredients for a potent mixture: scaber stalks and an elusive death cap. These particular fungi thrive in the damp, shadowy cavern concealed directly behind Cliffspring Falls in northeastern Darkshore. While the alchemy itself is delicate, gathering these specimens is far more hazardous than harvesting typical woodland herbs.",
+   "body": "Barithras Moonshade needs scaber stalks and a death cap for a potent mixture. Both grow in a damp cavern hidden behind Cliffspring Falls in northeastern Darkshore. Gathering these fungi is more dangerous than picking ordinary woodland herbs.",
    "spoiler": 0
   },
   {
    "title": "The Ancients' Warning",
-   "body": "Barithras did not avoid the cavern out of mere idleness. The venerable tree guardians at the Grove of the Ancients issued stern warnings, sensing that a foul presence had begun nesting inside the mountain caves. By sending a hardy explorer rather than investigating himself, Moonshade seeks to confirm whether the elders' dire intuitions about a creeping evil in northern Darkshore are indeed well founded.",
+   "body": "The tree guardians at the Grove of the Ancients warned Barithras away from the cavern. They sense a foul presence nesting in the mountain caves. Moonshade sends a hardy traveler to learn whether the elders' fears of a creeping evil in northern Darkshore are well founded.",
    "spoiler": 1
   }
  ],
@@ -38,7 +38,7 @@
     "barithras moonshade location",
     "cave mushrooms quest start"
    ],
-   "answer": "You receive this assignment from Barithras Moonshade, who resides in the night elf coastal settlement of Auberdine in central Darkshore."
+   "answer": "You receive the assignment from Barithras Moonshade, who lives in Auberdine, the night elf settlement on Darkshore's central coast."
   },
   {
    "q": "Where are the mushrooms located?",
@@ -47,7 +47,7 @@
     "death cap location",
     "cave behind waterfall darkshore"
    ],
-   "answer": "They grow inside a cavern hidden behind Cliffspring Falls, situated along the mountain face to the northeast of Auberdine."
+   "answer": "The mushrooms grow in a cavern hidden behind Cliffspring Falls, along the mountain face northeast of Auberdine."
   },
   {
    "q": "Why won't Barithras Moonshade retrieve the mushrooms himself?",
@@ -55,7 +55,7 @@
     "why barithras won't go",
     "why barithras stays in auberdine"
    ],
-   "answer": "Barithras was specifically advised by the Grove of the Ancients to stay clear of the falls. The great ancients sensed that an unnatural, rising evil has taken refuge inside that cave."
+   "answer": "The Grove of the Ancients warned Barithras to stay clear of the falls. The great ancients sense that an unnatural, rising evil has taken refuge in the cave."
   },
   {
    "q": "What specific mushrooms are needed?",
@@ -63,7 +63,7 @@
     "required mushrooms",
     "which fungi for moonshade"
    ],
-   "answer": "Moonshade needs five scaber stalks along with a single, highly dangerous death cap mushroom to complete his potion."
+   "answer": "Moonshade needs five scaber stalks and one dangerous death cap mushroom for his potion."
   },
   {
    "q": "What does this errand lead to next?",
@@ -71,7 +71,7 @@
     "next quest after cave mushrooms",
     "onu follow up"
    ],
-   "answer": "Once the presence in the cave is verified and the fungi delivered, the journey turns south toward the ancient protector Onu at the Grove of the Ancients."
+   "answer": "After you verify the presence in the cave and deliver the fungi, you travel south to the ancient protector Onu at the Grove of the Ancients."
   },
   {
    "q": "Why are the Ancients concerned about Cliffspring Falls?",
@@ -79,21 +79,21 @@
     "ancients warning cliffspring falls",
     "why scout cave"
    ],
-   "answer": "The Grove of the Ancients warned Barithras that a rising evil may lurk in the cave behind the falls. He asks a traveler to gather mushrooms and investigate the warning."
+   "answer": "The Grove of the Ancients warned Barithras that a rising evil may lurk in the cave behind the falls. He asks you to gather mushrooms and investigate the warning."
   }
  ],
  "angles": [
   {
    "target": "profession:Herbalism",
-   "text": "Foragers and herbalists will appreciate the hunt for the death cap and scaber stalks, though these specific specimens dwell in darkened caverns rather than lush woodland soil."
+   "text": "As an herbalist, you may value the hunt for death caps and scaber stalks. These particular fungi grow in dark caverns rather than lush woodland soil."
   },
   {
    "target": "race:NightElf",
-   "text": "The Grove of the Ancients remains deeply attuned to the natural balance of Darkshore, making any disturbance they detect beneath the falls a matter of urgent concern to the Kaldorei."
+   "text": "As a night elf, you know the Grove of the Ancients is deeply attuned to Darkshore's natural balance. Any disturbance beneath the falls concerns the Kaldorei."
   },
   {
    "target": "faction:Alliance",
-   "text": "Auberdine serves as the Alliance's primary bastion on the Kalimdor coast, and creeping evils in the eastern mountains directly endanger the stability of the entire shore."
+   "text": "As an Alliance member, you know Auberdine is the Alliance's main stronghold on the Kalimdor coast. Evil spreading in the eastern mountains threatens the whole shore."
   }
  ],
  "keywords": [
@@ -116,5 +116,6 @@
  ],
  "attribution": [
   "Cave Mushrooms"
- ]
+ ],
+ "style": 1
 }

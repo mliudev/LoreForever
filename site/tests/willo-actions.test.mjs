@@ -6,7 +6,7 @@ import assert from "node:assert/strict";
 import { onRequest as answer } from "../functions/api/companion/answer.js";
 import { findOrCreateUser, setup } from "../lib/accounts.js";
 import { startLink, decideLink, claimToken } from "../lib/devices.js";
-import { actionsFor, actionOf, offerLine } from "../lib/willo-tools.js";
+import { actionsFor, actionOf, offerLine, canRun, toolDeclaration, withNow } from "../lib/willo-tools.js";
 import { helpTopics, helpBlock } from "../lib/willo-help.js";
 import { picksFor, pickNamed, AZEROTH_PICKS } from "../lib/companion-voice.js";
 import { ACTIONS_MAX_BYTES } from "../lib/companion-answers.js";
@@ -210,4 +210,68 @@ test("her friends: where they come from, never the game's social panel (QA 10/19
   for (const q of ["My friend and I want to run the Deadmines, any tips?", "Who are Thrall's friends?"]) {
     assert.deepEqual(helpTopics(q), [], q);
   }
+});
+
+test("a Mac is offered only the keys it hears (LOR-844 step 6)", () => {
+  const pc = "actions/1 talk.key";
+  const keys = d => d.parameters.properties.key.enum;
+  assert.ok(keys(toolDeclaration("talk", pc, { state: "voice now: Sprite" })).includes("mouse5"), "a PC: every key");
+  const mac = toolDeclaration("talk", pc, { state: "voice now: Sprite\nkeys she hears: f5 f6 f9" });
+  assert.deepEqual(keys(mac), ["f5", "f6", "f9"]);
+  assert.equal(actionOf({ name: "talk", args: { op: "key", key: "mouse5" } }, [mac]), null);
+});
+
+test("past chats by voice: only by the titles the app's state lists (LOR-844 step 6)", () => {
+  const pc = "actions/1 chats.open chats.delete";
+  assert.equal(toolDeclaration("chats", pc, { state: "voice now: Sprite" }), null, "no titles, nothing to pick");
+  const chats = toolDeclaration("chats", pc,
+    { state: "voice now: Sprite\npast chats, newest first: Wolves of Westfall | Today" });
+  assert.equal(actionOf({ name: "chats", args: { op: "open", chat: "Deadmines" } }, [chats]), null, "a chat not listed");
+  assert.deepEqual(actionOf({ name: "chats", args: { op: "open", chat: "Wolves of Westfall" } }, [chats]).args,
+    { op: "open", chat: "Wolves of Westfall" });
+  assert.match(actionOf({ name: "chats", args: { op: "delete", chat: "Today" } }, [chats]).label, /today/i,
+    "a delete reads its title back");
+});
+
+test("asked to see their past chats, she knows where they are, and shows them where the app can", () => {
+  // QA 0.30.0: "Show my past chats" got "I can't pull up old conversations" beside a full chat list.
+  for (const q of ["Show my past chats", "can you list my old conversations?", "where are my previous chats?"]) {
+    assert.ok(helpTopics(q).includes("chat"), q);
+    assert.match(helpBlock(q), /chat list/i, q);
+  }
+  const chats = toolDeclaration("chats", "actions/1 chats.list chats.open", { state: "voice now: Sprite" });
+  assert.match(actionOf({ name: "chats", args: { op: "list" } }, [chats]).label, /chats/i);
+});
+
+test("every feature by voice: an app is offered only what it says it runs (LOR-844 step 6)", () => {
+  // The PC lists what it runs in X-LF-Capabilities (companion/lore_companion/actions.py capabilities); a button her
+  // words offer must be one it shows. An older PC lists nothing, so it gets nothing grouped.
+  const pc = "game-screenshot-sharing actions/1 set_voice new_chat talk.off talk.key remarks.level";
+  assert.equal(toolDeclaration("talk", "game-screenshot-sharing game-screenshot-take"), null);
+  assert.equal(canRun("", "set_voice"), true, "an older PC still runs today's");
+  assert.equal(canRun("actions/1", "set_voice"), false, "an app that lists none runs none");
+  const talk = toolDeclaration("talk", pc);
+  assert.deepEqual(talk.parameters.properties.op.enum, ["off", "key"]);
+  assert.deepEqual(actionOf({ name: "talk", args: { op: "key", key: "f9" } }, [talk]),
+    { id: "talk", args: { op: "key", key: "f9" }, label: "Use F9" });
+  for (const args of [{ op: "on" }, { op: "key", key: "w" }, { op: "key" }])
+    assert.equal(actionOf({ name: "talk", args }, [talk]), null, JSON.stringify(args));
+  assert.equal(toolDeclaration("player", pc), null, "nothing of the Lore Player's");
+  // Asked plainly, a change runs at once; a delete, money or consent never does.
+  assert.equal(withNow({ id: "remarks", args: { op: "level", level: "off" } }).now, true);
+  for (const a of [{ id: "chats", args: { op: "delete", chat: "Wolves" } }, { id: "open_plans", args: {} },
+    { id: "live_game_info", args: {} }]) assert.equal(withNow(a).now, undefined, a.id);
+});
+
+test("snooze and restart only in their moment: a reminder showing, an update ready (LOR-844 step 6)", () => {
+  // The lab: with snooze always offered, "snooze my alarm" and "wait an hour before the next pull" snoozed her
+  // reminder. Her PC says in WILLO STATE when one is showing (companion/lore_companion/core.py willo_state).
+  const pc = "actions/1 reminder.snooze updates.check updates.restart";
+  assert.equal(toolDeclaration("reminder", pc, { state: "voice now: Sprite" }), null);
+  assert.deepEqual(toolDeclaration("reminder", pc, { state: "voice now: Sprite\nreminder showing now: Sell the cloth" })
+    .parameters.properties.op.enum, ["snooze"]);
+  assert.deepEqual(toolDeclaration("updates", pc, { state: "version: 0.29.0, newest 0.29.0" }).parameters.properties.op.enum,
+    ["check"]);
+  assert.deepEqual(toolDeclaration("updates", pc, { state: "version: 0.29.0, 0.30.0 ready to restart into" })
+    .parameters.properties.op.enum, ["check", "restart"]);
 });

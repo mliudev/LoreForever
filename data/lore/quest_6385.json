@@ -22,16 +22,16 @@
    "Return to the Crossroads."
   ]
  },
- "summary": "Innkeeper Gryshka of Orgrimmar has written a letter of gratitude to Zargh at the Crossroads and needs a courier to fly it back to the Barrens. To arrange passage, she directs travelers up to the city's skytower to consult Doras, the Horde's chief wind rider master.",
+ "summary": "Innkeeper Gryshka needs a courier to carry her thanks to Zargh at the Crossroads. She sends travelers to Doras the Wind Rider Master at Orgrimmar's skytower to arrange the flight back to the Barrens.",
  "sections": [
   {
    "title": "A Courier's Reply",
-   "body": "After receiving a fresh shipment of bulk meat flown in from the hunting grounds of the Barrens, Innkeeper Gryshka drafts a formal letter of thanks to the butcher Zargh. Lacking the time to make the overland journey through Durotar herself, she relies on the aerial courier network established between Kalimdor's major Horde settlements to speed her message back across the frontier.",
+   "body": "Innkeeper Gryshka sends thanks to Zargh after a shipment of meat arrives safely from the Barrens hunting grounds. With no time to travel through Durotar herself, she trusts the established aerial courier network linking major Horde settlements to carry her letter back across the frontier.",
    "spoiler": 0
   },
   {
    "title": "The Master of the Roost",
-   "body": "Doras oversees Orgrimmar's wind rider roost atop the flight tower in the Valley of Strength. His trained wyverns are the lifeblood of Horde military communication and logistics, bridging the perilous gap between the capital and outlying outposts like the Crossroads in a fraction of the time required by foot or kodo cart.",
+   "body": "At the flight tower in the Valley of Strength, Doras oversees Orgrimmar's wind rider roost. The trained wyverns carry military messages and supplies between the capital and outposts such as the Crossroads, far faster than anyone traveling by foot or kodo cart.",
    "spoiler": 0
   }
  ],
@@ -43,7 +43,7 @@
     "who is doras",
     "orgrimmar flight master"
    ],
-   "answer": "Doras is the primary wind rider master stationed in Orgrimmar. He manages the city's stable of trained wyverns and coordinates aerial travel to distant Horde hubs throughout central Kalimdor."
+   "answer": "Doras is Orgrimmar's primary wind rider master. He manages the city's trained wyverns and coordinates aerial travel to distant Horde hubs across central Kalimdor."
   },
   {
    "q": "Why is Innkeeper Gryshka sending this letter?",
@@ -52,7 +52,7 @@
     "gryshka letter",
     "what is the letter for"
    ],
-   "answer": "Gryshka is sending a written note of thanks to Zargh, the butcher at the Crossroads, acknowledging the safe arrival of meat supplies delivered to her tavern in Orgrimmar."
+   "answer": "Gryshka is sending Zargh, the butcher at the Crossroads, a note of thanks for the meat supplies that arrived safely at her tavern in Orgrimmar."
   },
   {
    "q": "Where can Doras be found?",
@@ -61,7 +61,7 @@
     "doras location",
     "find doras"
    ],
-   "answer": "Doras is stationed atop the central flight tower above the Valley of Strength in Orgrimmar, reachable via the wooden ramps inside the tower."
+   "answer": "Doras is atop the central flight tower above Orgrimmar's Valley of Strength. Wooden ramps inside the tower lead up to him."
   },
   {
    "q": "What happens after giving Gryshka's letter to Doras?",
@@ -70,7 +70,7 @@
     "after doras",
     "next quest"
    ],
-   "answer": "Once you consult Doras, he prepares a wind rider to carry you back to the Barrens so you can hand-deliver Gryshka's letter directly to Zargh at the Crossroads."
+   "answer": "After you consult Doras, he prepares a wind rider to carry you back to the Barrens. You can deliver Gryshka's letter directly to Zargh at the Crossroads."
   },
   {
    "q": "Who is Zargh?",
@@ -78,7 +78,7 @@
     "zargh",
     "who is zargh"
    ],
-   "answer": "Zargh is an orc butcher based at the Crossroads in the Barrens and a friend of Gryshka, who sent her a gift of choice cuts of Barrens meat."
+   "answer": "Zargh is an orc butcher at the Crossroads in the Barrens and a friend of Gryshka. He sent her a gift of choice cuts of Barrens meat."
   },
   {
    "q": "Why use wind riders instead of walking?",
@@ -87,17 +87,17 @@
     "wind rider purpose",
     "flight path lore"
    ],
-   "answer": "The overland journey from Orgrimmar through Durotar and across the Southfury River into the Barrens is slow and fraught with perils. Tamed wind riders provide the Horde with a swift, reliable means to send scouts, orders, and couriers between settlements."
+   "answer": "The overland route from Orgrimmar through Durotar and across the Southfury River into the Barrens is slow and perilous. The Horde uses tamed wind riders to swiftly carry scouts, orders, and couriers between settlements."
   }
  ],
  "angles": [
   {
    "target": "faction:Horde",
-   "text": "The wind rider network connects Orgrimmar to key regional garrisons, serving as the connective sinew that lets the young Horde project force and move supplies across Kalimdor's wilderness."
+   "text": "The wind rider network links Orgrimmar to key regional garrisons, helping the young Horde move troops and supplies across Kalimdor's wilderness."
   },
   {
    "target": "race:Orc",
-   "text": "Orcs have forged a strong bond with the native wyverns of Kalimdor since arriving on the continent, relying on their agility and strength as flying mounts and beast-of-burden couriers."
+   "text": "Since arriving on Kalimdor, orcs have forged a strong bond with its native wyverns. They rely on their agility and strength as flying mounts and beasts of burden."
   }
  ],
  "keywords": [
@@ -123,5 +123,6 @@
  ],
  "attribution": [
   "Doras the Wind Rider Master (Classic)"
- ]
+ ],
+ "style": 1
 }

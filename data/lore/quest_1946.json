@@ -17,16 +17,16 @@
   "wiki": "Nether-lace Garment",
   "chain": []
  },
- "summary": "Nether-lace Garment marks the completion of tailor Kil'hala's specialized crafting work in the Barrens. By weaving the gathered hair of dryads into refined cloth, the tailor crafts an enchanted garment fit for spellcasters.",
+ "summary": "At the Crossroads, Kil'hala weaves dryad hair into enchanted cloth for spellcasters. The finished garment marks the end of his specialized work in the Barrens.",
  "sections": [
   {
    "title": "Weaving the Nether-Lace",
-   "body": "Kil'hala, working out of the Crossroads in the Barrens, undertakes the delicate process of fashioning nether-lace. Requiring rare and magically resonant components\u2014specifically the locks harvested from the dryads known as laughing sisters in Ashenvale\u2014the tailor binds natural woodland enchantment directly into comfortable, durable cloth.",
+   "body": "At the Crossroads in the Barrens, Kil'hala weaves nether-lace from the locks of laughing sisters. The dryads live in Ashenvale, and their hair is harvested for this work. Kil'hala binds the woodland enchantment in those rare, magically resonant locks into cloth that is comfortable and durable.",
    "spoiler": 0
   },
   {
    "title": "Favors for Orgrimmar",
-   "body": "Beyond simply practicing his trade, Kil'hala has personal motivations for ensuring the quality of the garment. He is particularly keen on currying favor with Deino, a respected troll mage residing in the Valley of Spirits in Orgrimmar. By crafting exceptional garb for aspiring practitioners, Kil'hala hopes to secure and maintain Deino's good graces.",
+   "body": "Kil'hala wants more than fine work from his trade. He hopes to win favor with Deino, a respected troll mage who lives in Orgrimmar's Valley of Spirits. By making exceptional garb for aspiring practitioners, he hopes to earn and keep Deino's good graces.",
    "spoiler": 0
   }
  ],
@@ -37,7 +37,7 @@
     "nether lace cloth",
     "what is nether lace garment"
    ],
-   "answer": "Nether-lace is an enchanted fabric tailored by Kil'hala. It is woven with magical materials, specifically the tresses of laughing sisters, making it both resilient and naturally imbued with arcane resonance."
+   "answer": "Nether-lace is an enchanted fabric Kil'hala weaves from the tresses of laughing sisters. The cloth is resilient and carries their woodland enchantment."
   },
   {
    "q": "Who crafts the Nether-lace Garment?",
@@ -45,7 +45,7 @@
     "who makes nether lace",
     "kil hala nether lace"
    ],
-   "answer": "Kil'hala, a skilled Horde tailor stationed at the Crossroads in the Barrens, crafts the garment once provided with the necessary dryad hair from Ashenvale."
+   "answer": "Kil'hala crafts the garment at his station in the Crossroads in the Barrens, once he has the needed dryad hair from Ashenvale."
   },
   {
    "q": "Why does Kil'hala mention Deino?",
@@ -53,7 +53,7 @@
     "who is deino",
     "why mention deino"
    ],
-   "answer": "Deino is an influential troll mage trainer residing in Orgrimmar's Valley of Spirits. Kil'hala is eager to stay on her good side and hopes your satisfaction with his tailoring will reflect favorably upon him."
+   "answer": "Deino is an influential troll mage trainer in Orgrimmar's Valley of Spirits. Kil'hala hopes to keep her favor, and believes your satisfaction with his tailoring will reflect well on him."
   },
   {
    "q": "Where did the materials for the garment come from?",
@@ -61,7 +61,7 @@
     "nether lace materials",
     "dryad hair cloth"
    ],
-   "answer": "The core material is hair gathered from the laughing sisters, a group of elusive dryads found across the forests of Ashenvale."
+   "answer": "The garment's core material is hair gathered from the elusive laughing sisters, dryads found across Ashenvale's forests."
   },
   {
    "q": "Who is this garment made for?",
@@ -69,7 +69,7 @@
     "who uses nether lace garment",
     "nether lace class"
    ],
-   "answer": "It is crafted primarily for spellcasters, particularly mages in training who require robes that can channel arcane energies without hindering movement."
+   "answer": "The garment is made chiefly for spellcasters, especially mages in training who need robes that channel arcane energies without hindering movement."
   },
   {
    "q": "Where is Kil'hala located?",
@@ -77,21 +77,21 @@
     "kil hala location",
     "where is kil hala"
    ],
-   "answer": "Kil'hala resides at the Crossroads, the central crossroads settlement situated in the heart of the Barrens."
+   "answer": "Kil'hala lives at the Crossroads, the central crossroads settlement in the heart of the Barrens."
   }
  ],
  "angles": [
   {
    "target": "class:Mage",
-   "text": "The nether-lace garment serves as an important milestone for progressing mages, bridging wilderness trials in Ashenvale with Kil'hala's craftsmanship under Deino's guidance."
+   "text": "As a mage, you receive a garment that bridges wilderness trials in Ashenvale with Kil'hala's craftsmanship under Deino's guidance."
   },
   {
    "target": "profession:Tailoring",
-   "text": "Kil'hala's craft demonstrates how exotic reagents like dryad hair can be spun into fabrics carrying innate magical protection."
+   "text": "As a tailor, you can see how exotic reagents such as dryad hair become cloth with innate magical protection."
   },
   {
    "target": "faction:Horde",
-   "text": "Procuring components from Kalimdor's sacred woods to equip Horde spellcasters showcases the ongoing contest between the Horde and Ashenvale's woodland defenders."
+   "text": "As a member of the Horde, you help equip its spellcasters with materials from Kalimdor's sacred woods, part of the ongoing contest between the Horde and Ashenvale's woodland defenders."
   }
  ],
  "keywords": [
@@ -113,5 +113,6 @@
  ],
  "attribution": [
   "Nether-lace Garment"
- ]
+ ],
+ "style": 1
 }

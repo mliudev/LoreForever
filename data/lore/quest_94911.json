@@ -1,0 +1,82 @@
+{
+ "key": "quest:94911",
+ "type": "quest",
+ "name": "Child of Nature",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   94911
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "A fellow Skyborne sees promise in your druidic arts and points you toward Turak Runetotem in Thunder Bluff. He can teach you how to reach the Cenarion Circle\u2019s stronghold in Moonglade.",
+ "sections": [
+  {
+   "title": "A Druid\u2019s Welcome",
+   "body": "Your teacher believes the druids of the Cenarion Circle will welcome you and share their knowledge. Turak Runetotem in Thunder Bluff can show you how to reach their stronghold in Moonglade.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who should I speak with?",
+   "aliases": [
+    "who do I talk to",
+    "Turak Runetotem",
+    "who is Turak"
+   ],
+   "answer": "Speak with Turak Runetotem in Thunder Bluff. He can teach you how to reach Moonglade."
+  },
+  {
+   "q": "Where is the Cenarion Circle\u2019s stronghold?",
+   "aliases": [
+    "where is the circle",
+    "Cenarion Circle location",
+    "Moonglade"
+   ],
+   "answer": "The Cenarion Circle\u2019s stronghold is in Moonglade on Kalimdor."
+  },
+  {
+   "q": "Why am I being sent to Moonglade?",
+   "aliases": [
+    "why Moonglade",
+    "learn druid",
+    "druid training"
+   ],
+   "answer": "The druids of the Cenarion Circle can impart their knowledge to you."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Skyborne",
+   "text": "As a Skyborne, you are told the Cenarion Circle\u2019s druids will welcome you and share their knowledge."
+  },
+  {
+   "target": "class:Druid",
+   "text": "As a druid, you are directed to Turak Runetotem, who can teach you how to reach the Cenarion Circle in Moonglade."
+  }
+ ],
+ "keywords": [
+  "cenarion circle",
+  "child of nature",
+  "druid",
+  "moonglade",
+  "skyborne",
+  "thunder bluff",
+  "turak runetotem"
+ ],
+ "related": [
+  "quest:5921",
+  "zone:thunderbluff",
+  "npc:turak-runetotem",
+  "topic:cenarion-circle",
+  "topic:druid",
+  "topic:skyborne"
+ ],
+ "style": 1,
+ "attribution": [
+  "In-game quest text: Child of Nature"
+ ]
+}

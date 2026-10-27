@@ -10,11 +10,11 @@
    "quest:3085"
   ]
  },
- "summary": "The Hallowed Tablet is an inscribed message delivered to young Darkspear troll priests training in the Valley of Trials. Sent by the spiritual elder Ken'jai, it bids novices to seek him out and begin learning how to commune with the spirits.",
+ "summary": "In the Valley of Trials, the Hallowed Tablet calls young Darkspear priests to Ken'jai. Its words begin their lessons in communing with the spirits.",
  "sections": [
   {
    "title": "A Summons from the Spirits",
-   "body": "When a promising troll priest takes their first steps in the harsh crimson canyons of the Valley of Trials, Gornek hands them the Hallowed Tablet. Rather than a formal bureaucratic writ, it serves as a personal invitation from Ken'jai, the resident priest trainer residing outside the Den. Ken'jai interprets the signs and whisperings of the spirits, sensing when young Darkspear with spiritual potential arrive in Durotar. The tablet instructs the initiate to read its words and present themselves for guidance on properly channeling spiritual authority.",
+   "body": "Gornek gives the Hallowed Tablet to a promising troll priest taking their first steps through the Valley of Trials. The words carry a personal invitation from Ken'jai, the priest trainer outside the Den. Ken'jai reads signs and hears the spirits' whispers, sensing when young Darkspear with spiritual potential arrive in Durotar. The tablet tells the initiate to read its message and seek Ken'jai's guidance in channeling spiritual authority.",
    "spoiler": 0
   }
  ],
@@ -26,7 +26,7 @@
     "hallowed tablet lore",
     "what does the tablet do"
    ],
-   "answer": "It is an inscribed stone tablet passed to novice troll priests by Gornek in the Valley of Trials. It contains a message directing the initiate to Ken'jai, their class trainer."
+   "answer": "Gornek gives novice troll priests an inscribed stone tablet in the Valley of Trials. Its message directs them to Ken'jai, their priest trainer."
   },
   {
    "q": "Who sent the tablet?",
@@ -35,7 +35,7 @@
     "who gave me this",
     "tablet author"
    ],
-   "answer": "The tablet was sent by Ken'jai, the priest trainer situated outside the Den. The spirits foretold the arrival of a new acolyte, prompting him to send word via Gornek."
+   "answer": "Ken'jai sent the tablet through Gornek. The spirits foretold a new acolyte's arrival, prompting Ken'jai, the priest trainer outside the Den, to send word."
   },
   {
    "q": "Why do troll priests need to see Ken'jai?",
@@ -43,17 +43,17 @@
     "what does kenjai do",
     "why see kenjai"
    ],
-   "answer": "Darkspear priests rely on communing with and commanding the spirits. Ken'jai guides initiates as their spiritual connection deepens, ensuring the spirits favor teaching them more potent abilities."
+   "answer": "Darkspear priests commune with and command the spirits. Ken'jai guides initiates as their spiritual connection deepens, helping ensure the spirits favor teaching them stronger abilities."
   }
  ],
  "angles": [
   {
    "target": "race:Troll",
-   "text": "For the Darkspear, priesthood is an intimate communion with the spirits and loa, making the call inscribed on the tablet an invitation into ancestral spiritual traditions."
+   "text": "For the Darkspear, priesthood means close communion with the spirits and loa. The tablet invites you into those ancestral spiritual traditions."
   },
   {
    "target": "class:Priest",
-   "text": "The tablet marks the start of a priest's formal training in Durotar, establishing their bond with class mentor Ken'jai."
+   "text": "The tablet begins your formal priest training in Durotar and establishes your bond with Ken'jai, your mentor."
   }
  ],
  "keywords": [
@@ -76,5 +76,6 @@
  "attribution": [
   "Hallowed Tablet",
   "Hallowed Tablet (quest)"
- ]
+ ],
+ "style": 1
 }

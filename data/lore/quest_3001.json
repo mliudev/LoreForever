@@ -17,16 +17,16 @@
   "wiki": "Seeking Strahad (Undercity)",
   "chain": []
  },
- "summary": "Seeking Strahad is an undertaking entrusted to Horde warlocks by Carendin Halgar in the Undercity. Halgar directs his pupil across the Great Sea to the dusty hills above Ratchet, where a human sorcerer holds the keys to deeper, more dangerous summonings. It marks the transition from foundational shadowcraft to the demanding art of conjuring a felhunter.",
+ "summary": "Carendin Halgar sends Horde warlocks across the Great Sea to seek Strahad Farsan. Above Ratchet, a human sorcerer offers a path beyond basic shadowcraft toward the difficult art of summoning a felhunter.",
  "sections": [
   {
    "title": "A Master Across the Sea",
-   "body": "Carendin Halgar, the Forsaken warlock trainer who oversees the dark arts in the Undercity's Magic Quarter, recognizes when an initiate has outgrown basic instruction. Rather than keeping his pupils within the bounds of Lordaeron's ruins, he commands them to seek out Strahad Farsan. Halgar warns that while Strahad is a living human, he is far from weak and must not be treated as an enemy. For warlocks, the pursuit of demonic mastery routinely supersedes racial and factional boundaries.",
+   "body": "Carendin Halgar, a Forsaken warlock trainer in the Undercity's Magic Quarter, knows when an initiate has outgrown basic instruction. He sends his pupils beyond Lordaeron's ruins to find Strahad Farsan. Halgar warns that Strahad is a living human, but no weakling, and says not to treat him as an enemy. For warlocks, the pursuit of demonic mastery often crosses racial and factional lines.",
    "spoiler": 0
   },
   {
    "title": "The Overlook at Ratchet",
-   "body": "Strahad operates in relative neutrality high on the bluffs overlooking the goblin port of Ratchet in the Barrens. From his perch near the stone watchtower, he looks down on the bustling sailors, mercenaries, and merchants below with mild disdain, mocking their blissful ignorance of the twisting nether. Strahad does not mind the distrust or simmering hatred in the eyes of Horde practitioners who arrive at his feet; instead, he regards that raw malice as a potent fuel to be shaped into dark authority.",
+   "body": "Strahad works from the bluffs above Ratchet, the goblin port in the Barrens. Near a stone watchtower, he looks down on the sailors, mercenaries, and merchants below, whose blissful ignorance of the Twisting Nether amuses him. Horde warlocks who reach him may bring distrust and simmering hatred in their eyes. Strahad accepts that raw malice as fuel to shape into dark authority.",
    "spoiler": 0
   }
  ],
@@ -38,7 +38,7 @@
     "why send to human",
     "carendin sending to strahad"
    ],
-   "answer": "Warlocks frequently set aside the factional divide when chasing rare and potent dark lore. Carendin Halgar acknowledges that Strahad Farsan holds specialized mastery over greater demonic summonings that Halgar cannot provide. In the pursuit of demonic power, knowledge matters far more than the bloodline of the instructor."
+   "answer": "Warlocks often set aside factional divisions to pursue rare and potent dark lore. Carendin Halgar says Strahad Farsan has a specialized command of greater demonic summonings that Halgar cannot teach. In the pursuit of demonic power, an instructor's knowledge matters more than their bloodline."
   },
   {
    "q": "Where exactly is Strahad Farsan located?",
@@ -47,7 +47,7 @@
     "where is strahad",
     "how to find strahad"
    ],
-   "answer": "Strahad Farsan resides in the Barrens, positioned on the elevated cliffs just above the goblin port of Ratchet. He stands near the stone tower overlooking the bay and the bustling harbor docks below."
+   "answer": "Strahad Farsan is in the Barrens, on the high cliffs above the goblin port of Ratchet. He stands near a stone tower overlooking the bay and the busy harbor docks."
   },
   {
    "q": "What kind of power does Strahad teach?",
@@ -56,7 +56,7 @@
     "what is this quest for",
     "felhunter quest"
    ],
-   "answer": "Strahad guides experienced warlocks through the complex rituals required to bind greater demons from the Twisting Nether, leading directly into the dangerous trials necessary to summon and command a felhunter."
+   "answer": "Strahad guides experienced warlocks through the complex rituals for binding greater demons from the Twisting Nether. His instruction leads toward the dangerous trials of summoning and commanding a felhunter."
   },
   {
    "q": "Is Strahad allied with the Alliance?",
@@ -65,7 +65,7 @@
     "strahad faction",
     "is strahad friendly"
    ],
-   "answer": "Although human, Strahad operates out of neutral goblin territory in Ratchet and remains unaffiliated with the Grand Alliance. He is an independent practitioner who deals freely with both Horde and Alliance warlocks capable of surviving his instruction."
+   "answer": "Though human, Strahad works from neutral goblin territory in Ratchet and is unaffiliated with the Grand Alliance. He is an independent practitioner who deals freely with Horde and Alliance warlocks able to endure his instruction."
   },
   {
    "q": "What happens after reaching Strahad?",
@@ -74,7 +74,7 @@
     "tome of the cabal",
     "next quest"
    ],
-   "answer": "Upon arriving, Strahad tests your resolve and enlists you to retrieve the scattered fragments and components of the Tome of the Cabal, setting you on a wide-ranging quest to unlock the ritual of summoning a felhunter."
+   "answer": "When you arrive, Strahad tests your resolve and enlists you to recover the scattered fragments and components of the Tome of the Cabal. The search ranges far as you seek the ritual for summoning a felhunter."
   },
   {
    "q": "Why does Strahad welcome hatred in his students?",
@@ -82,21 +82,21 @@
     "why does strahad like hatred",
     "hatred in your eyes"
    ],
-   "answer": "Demonic magic feeds upon intense emotion, dominance, and willpower. Strahad considers hatred a focused, potent discipline that can be channeled to subjugate chaotic nether entities who would otherwise consume an undisciplined summoner."
+   "answer": "Demonic magic feeds on intense emotion, dominance, and willpower. Hatred can be focused and disciplined, helping a summoner bind chaotic beings from the Nether before they consume someone who lacks discipline."
   }
  ],
  "angles": [
   {
    "target": "class:Warlock",
-   "text": "This quest is a pivotal rite of passage around your thirtieth circle of power, stepping away from minor imp and voidwalker bindings toward commanding the predatory felhunter."
+   "text": "As a warlock, this marks a rite of passage around your thirtieth circle of power. You leave minor imp and voidwalker bindings behind as you turn toward command of the predatory felhunter."
   },
   {
    "target": "faction:Horde",
-   "text": "Forsaken and Orc practitioners must swallow their usual hostility toward humans, journeying all the way to neutral Ratchet to learn from a living sorcerer."
+   "text": "As a Horde warlock, you set aside your usual hostility toward humans and travel to neutral Ratchet to learn from a living sorcerer."
   },
   {
    "target": "race:Undead",
-   "text": "Carendin Halgar personally dispatches Forsaken disciples from the Undercity, proving that even Sylvanas's loyalists will leverage living masters to expand their arsenal."
+   "text": "As an Undead, you are among the Forsaken disciples Carendin Halgar sends from the Undercity. His choice shows that even Sylvanas's loyalists use living masters to expand their arsenal."
   }
  ],
  "keywords": [
@@ -119,5 +119,6 @@
  ],
  "attribution": [
   "Seeking Strahad (Undercity)"
- ]
+ ],
+ "style": 1
 }

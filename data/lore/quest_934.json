@@ -17,16 +17,16 @@
   "wiki": "Crown of the Earth (5)",
   "chain": []
  },
- "summary": "Crown of the Earth is a pivotal step in the Dolanaar quest chain investigating the ailments plaguing Teldrassil. Corithras Moonrage tasks adventurers with gathering water from the sacred moonwell in the Oracle Glade, using the journey to reveal the troubling truth behind the World Tree's creation.",
+ "summary": "At the Oracle Glade, Corithras Moonrage sends you to gather water from Teldrassil’s sacred moonwell. The journey reveals the truth behind the World Tree’s creation.",
  "sections": [
   {
    "title": "The Oracle Glade",
-   "body": "Corithras Moonrage directs travelers far to the northwest of Teldrassil, nestled beneath the majestic canopy of the Oracle Glade. Resting directly under the massive boughs of the Oracle Tree lies the first and most potent moonwell raised upon the island. Drawing an Amethyst Phial from its shimmering waters brings seekers face to face with the prime sanctuary from which the druids and the tree itself monitor the health of their new homeland.",
+   "body": "Corithras Moonrage sends you northwest across Teldrassil to the Oracle Glade. Beneath the Oracle Tree’s great boughs lies the first and most powerful moonwell raised on the island. You draw water into an Amethyst Phial from its sacred pool. The moonwell is the sanctuary where druids and the tree itself watch over the health of their new homeland.",
    "spoiler": 0
   },
   {
    "title": "The Denied Blessing",
-   "body": "Upon returning the phial to Dolanaar, Corithras reveals the dark flaw in Archdruid Fandral Staghelm's grand design. After the sacrifice of Nordrassil at Mount Hyjal, Staghelm sought to restore night elven immortality by planting Teldrassil and asking the Dragon Aspects for their blessings. However, Nozdormu the Timeless One refused, rebuking Staghelm for his sheer arrogance. Queen Alexstrasza followed suit, withholding the Aspect of Life's vital blessing and leaving Teldrassil's growth volatile, imperfect, and vulnerable to deep corruption.",
+   "body": "When you return the phial to Dolanaar, Corithras tells you what went wrong with Archdruid Fandral Staghelm’s design. After Nordrassil was sacrificed at Mount Hyjal, Staghelm planted Teldrassil to restore night elf immortality and asked the Dragon Aspects to bless it. Nozdormu the Timeless One refused, rebuking Staghelm for his arrogance. Queen Alexstrasza also withheld her blessing, the Aspect of Life’s gift. Without it, Teldrassil’s growth became volatile and imperfect, leaving the tree vulnerable to deep corruption.",
    "spoiler": 1
   }
  ],
@@ -38,7 +38,7 @@
     "oracle glade moonwell location",
     "oracle well"
    ],
-   "answer": "The moonwell is located in northwestern Teldrassil, situated directly north of the primary road leading into Darnassus. It lies beneath the great boughs of the Oracle Tree."
+   "answer": "The Oracle Glade moonwell lies in northwestern Teldrassil, beneath the great boughs of the Oracle Tree and directly north of the main road to Darnassus."
   },
   {
    "q": "Who is Corithras Moonrage?",
@@ -46,7 +46,7 @@
     "corithras",
     "who is corithras moonrage"
    ],
-   "answer": "Corithras Moonrage is a night elf keeper stationed at Dolanaar. He guides young defenders across the boughs of Teldrassil to sample its moonwells and imparts the history of the tree's flawed beginnings."
+   "answer": "Corithras Moonrage is a night elf keeper stationed at Dolanaar. He guides young defenders across Teldrassil to sample its moonwells and teaches the history of the tree’s flawed beginnings."
   },
   {
    "q": "Did Teldrassil restore night elf immortality?",
@@ -55,7 +55,7 @@
     "teldrassil immortality",
     "do elves live forever again"
    ],
-   "answer": "No. Although Teldrassil provides a new home for the night elves, their immortal lives have not been restored after the sacrifice of Nordrassil during the Third War."
+   "answer": "No. Teldrassil gave the night elves a new home, but their immortality was not restored after Nordrassil’s sacrifice during the Third War."
   },
   {
    "q": "What is the purpose of collecting water from the Oracle Glade?",
@@ -63,21 +63,21 @@
     "why get oracle water",
     "amethyst phial purpose"
    ],
-   "answer": "The moonwell beneath the Oracle Tree is the island's first and most powerful well. Drawing its water allows Corithras to assess the underlying spiritual and natural health of Teldrassil."
+   "answer": "The moonwell beneath the Oracle Tree is the island’s first and most powerful. Its water lets Corithras assess Teldrassil’s spiritual and natural health."
   }
  ],
  "angles": [
   {
    "target": "race:NightElf",
-   "text": "The journey touches on the night elves' hopes for Teldrassil after the sacrifice of Nordrassil during the Third War."
+   "text": "As a night elf, you hear of your people’s hopes for Teldrassil after Nordrassil’s sacrifice during the Third War."
   },
   {
    "target": "class:Druid",
-   "text": "For the Cenarion Circle, visiting the Oracle Tree highlights the ideological split between Fandral Staghelm's forceful ambitions and the natural balance traditionally preserved by Malfurion Stormrage."
+   "text": "As a druid, you see the divide between Fandral Staghelm’s forceful ambitions and the natural balance traditionally kept by Malfurion Stormrage."
   },
   {
    "target": "faction:Alliance",
-   "text": "Understanding the fragile state of Teldrassil explains the persistent blight and creature madness troubling the Alliance's newest capital territory."
+   "text": "As an Alliance member, you learn why blight and creature madness trouble Teldrassil, the Alliance’s newest capital territory."
   }
  ],
  "keywords": [
@@ -104,5 +104,6 @@
  ],
  "attribution": [
   "Crown of the Earth (5)"
- ]
+ ],
+ "style": 1
 }

@@ -8,11 +8,11 @@
   "wiki": "Sentinel Tysha Moonblade",
   "refs": 1
  },
- "summary": "Sentinel Tysha Moonblade is a night elf scout stationed along the main road of Darkshore, just west of the ancient ruins of Ameth'Aran. Tasked with patrolling the troubled coastal wilderness, she directs travelers and recruits aid to investigate the restless spirits haunting the shattered elven settlements nearby.",
+ "summary": "Along Darkshore’s road, Sentinel Tysha Moonblade watches a troubled coast. The night elf scout stands west of Ameth'Aran, guiding travelers and seeking help with the restless spirits haunting the nearby ruins.",
  "sections": [
   {
    "title": "Watch upon the Road",
-   "body": "Standing sentinel along the overgrown highway of Darkshore, Tysha Moonblade keeps a vigilant eye over an increasingly unstable land. Directly to her east lie the haunted remnants of Ameth'Aran, where cursed Highborne ghosts and malevolent banshees linger among ancient stone pillars. Recognizing that Auberdine's limited defenses are stretched thin by threats across the coast, Tysha enlists capable adventurers passing by to uncover the history behind Ameth'Aran's tragic fall and put down the restless dead.",
+   "body": "Sentinel Tysha Moonblade watches the road through Darkshore. East of her lie the ruins of Ameth'Aran, where cursed Highborne ghosts and malevolent banshees linger among ancient stone pillars. Auberdine's defenses are stretched thin by dangers along the coast, so Tysha asks capable travelers to uncover the history of Ameth'Aran's fall and put down its restless dead.",
    "spoiler": 0
   }
  ],
@@ -24,7 +24,7 @@
     "tysha moonblade lore",
     "sentinel tysha"
    ],
-   "answer": "Sentinel Tysha Moonblade is a night elf guardian patrolling the main road in central Darkshore, stationed just west of the ruins of Ameth'Aran. She watches the route against wandering beasts and restless specters."
+   "answer": "Sentinel Tysha Moonblade patrols the main road in central Darkshore, just west of Ameth'Aran. She guards the route against wandering beasts and restless specters."
   },
   {
    "q": "Where can I find Sentinel Tysha Moonblade?",
@@ -33,7 +33,7 @@
     "where is tysha",
     "where is sentinel tysha"
    ],
-   "answer": "She is posted along the north-south road in Darkshore, situated directly west across from the ancient ruin site of Ameth'Aran."
+   "answer": "You can find Sentinel Tysha Moonblade along Darkshore's north-south road, directly west of Ameth'Aran."
   },
   {
    "q": "What tasks does she give to adventurers?",
@@ -42,24 +42,24 @@
     "fall of ametharan quest giver",
     "what does tysha want"
    ],
-   "answer": "Tysha directs travelers into the nearby ruins of Ameth'Aran to investigate the ancient tragedy that ruined the ancient night elf settlement, helping quiet the tormented ghosts that haunt its tumbled columns."
+   "answer": "Tysha sends travelers to Ameth'Aran to investigate the tragedy that ruined the ancient night elf settlement and quiet the tormented ghosts among its fallen columns."
   },
   {
    "q": "Is she related to anyone else in Darkshore?",
    "aliases": [
     "tysha moonblade family"
    ],
-   "answer": "No relatives of hers are known. Tysha keeps her post alone on the road west of Ameth'Aran, watching over the haunted ruins."
+   "answer": "No relatives of Tysha are known. She keeps watch alone on the road west of Ameth'Aran, guarding the way by the haunted ruins."
   }
  ],
  "angles": [
   {
    "target": "race:NightElf",
-   "text": "Tysha represents the vigilant Sentinels trying to maintain peace over lands still scarred by the ancient Sundering, asking fellow night elves to lay their cursed ancestors to rest."
+   "text": "As a night elf, you can help the Sentinels keep peace in lands scarred by the ancient Sundering by laying your cursed ancestors to rest."
   },
   {
    "target": "faction:Alliance",
-   "text": "For Alliance travelers making the journey south from Auberdine toward Ashenvale, Tysha is one of the few friendly outposts along an otherwise perilous, monster-infested road."
+   "text": "As an Alliance traveler heading south from Auberdine toward Ashenvale, you can find one of the few friendly outposts along a perilous road filled with monsters."
   }
  ],
  "keywords": [
@@ -79,5 +79,6 @@
  ],
  "attribution": [
   "Sentinel Tysha Moonblade"
- ]
+ ],
+ "style": 1
 }

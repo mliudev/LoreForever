@@ -17,16 +17,16 @@
   "wiki": "Twisted Hatred",
   "chain": []
  },
- "summary": "Twisted Hatred is a covert task issued by Tallonkai Swiftroot in Teldrassil. He asks trusted champions to delve into the cavern of Fel Rock to execute Lord Melenas, a satyr marshalling the local grell into an organized, corrupting force dangerously close to night elf settlements.",
+ "summary": "Tallonkai Swiftroot sends trusted champions into Fel Rock to stop Lord Melenas. The satyr has rallied the cave’s grell into an organized force, threatening night elf settlements near Teldrassil.",
  "sections": [
   {
    "title": "A Bitter Disgrace",
-   "body": "For the night elves, satyrs represent the living memory of ancient betrayal. Born of Highborne who gave themselves to the Burning Legion during the War of the Ancients, these caprine demons serve as a painful, enduring stain upon kaldorei history. That a satyr would establish a foul foothold right here within Teldrassil, the young World Tree supposed to be a sanctuary, is viewed by local defenders like Tallonkai Swiftroot as an acute embarrassment.",
+   "body": "Satyrs recall an ancient betrayal that still stains kaldorei history. They were Highborne who gave themselves to the Burning Legion during the War of the Ancients. Now one has made a foothold on Teldrassil, the young World Tree meant to be a sanctuary. For defenders like Tallonkai Swiftroot, that presence is a bitter disgrace.",
    "spoiler": 0
   },
   {
    "title": "The Threat at Fel Rock",
-   "body": "North of the nearby paths lies Fel Rock, a corrupted cavern system infested with feral grell. Lord Melenas has rallied these naturally chaotic creatures into a hostile, organized force under his dark will. Fearing what the satyr intends to unleash upon the boughs of the World Tree, Tallonkai demands that Melenas be eliminated quickly, quietly, and decisively by bringing back his severed head.",
+   "body": "Fel Rock lies north of the nearby paths, its corrupted caverns crawling with feral grell. Lord Melenas has gathered the chaotic creatures into a hostile force under his will. Tallonkai fears what the satyr may unleash on the World Tree’s boughs, and demands a swift, quiet end. He wants Melenas eliminated and his severed head brought back.",
    "spoiler": 0
   }
  ],
@@ -38,7 +38,7 @@
     "who is melenas",
     "fel rock boss"
    ],
-   "answer": "Lord Melenas is a satyr who has claimed the cave of Fel Rock in northern Teldrassil. He commands a brood of aggressive grell warriors and schemes to spread corruption throughout the World Tree."
+   "answer": "Lord Melenas is a satyr who has claimed Fel Rock in northern Teldrassil. He commands aggressive grell warriors and schemes to spread corruption through the World Tree."
   },
   {
    "q": "Where can I find Lord Melenas?",
@@ -47,7 +47,7 @@
     "where is melenas",
     "how to find fel rock"
    ],
-   "answer": "He lurks deep within Fel Rock, a jagged cave system located north of Dolanaar in Teldrassil, surrounded by grell and other corrupted creatures."
+   "answer": "Lord Melenas lurks deep within Fel Rock, north of Dolanaar in Teldrassil. Grell and other corrupted creatures surround him."
   },
   {
    "q": "Why does Tallonkai Swiftroot want this kept secret?",
@@ -56,7 +56,7 @@
     "why must this stay between us",
     "tallonkai secret"
    ],
-   "answer": "Satyrs represent a horrific, ancient chapter of night elven history, having betrayed their people during the War of the Ancients. Having one lurking so boldly within the heart of the newly planted World Tree is considered an utter disgrace that Tallonkai prefers to resolve without widespread panic."
+   "answer": "Satyrs recall the night elves’ ancient betrayal during the War of the Ancients. A satyr’s bold presence within the young World Tree is a disgrace, and Tallonkai wants to resolve it without widespread panic."
   },
   {
    "q": "What is the relationship between satyrs and grell?",
@@ -65,7 +65,7 @@
     "why are grell following melenas",
     "satyr grell connection"
    ],
-   "answer": "Grell are small, mischievous, and naturally corrupted wild creatures found across Teldrassil. Satyrs, being cunning and inherently demonic, readily bully or bend such lesser creatures into serving their foul ambitions."
+   "answer": "Grell are small, mischievous, naturally corrupted wild creatures found across Teldrassil. Satyrs can bully or bend these lesser creatures to serve their ambitions."
   },
   {
    "q": "Why are there satyrs on Teldrassil in the first place?",
@@ -74,7 +74,7 @@
     "how did satyrs get here",
     "teldrassil corruption"
    ],
-   "answer": "Teldrassil was grown only a few years ago. Despite the druids' hopes for a clean sanctuary, corruption and dark beings quickly crept onto the island, with satyrs sneaking in to establish footholds in shadowy places like Fel Rock."
+   "answer": "Teldrassil was grown only a few years ago, and corruption and dark beings quickly reached the island despite the druids’ hopes for a clean sanctuary. Satyrs slipped in and made footholds in shadowy places like Fel Rock."
   },
   {
    "q": "Who is Tallonkai Swiftroot?",
@@ -82,17 +82,17 @@
     "tallonkai",
     "who gives twisted hatred"
    ],
-   "answer": "Tallonkai Swiftroot is a night elf guardian stationed near Dolanaar who watches for emerging threats against Teldrassil and tasks adventurers with neutralizing nearby pockets of corruption."
+   "answer": "Tallonkai Swiftroot is a night elf guardian stationed near Dolanaar. He watches for threats to Teldrassil and sends adventurers to deal with nearby pockets of corruption."
   }
  ],
  "angles": [
   {
    "target": "race:NightElf",
-   "text": "Every satyr is an ancient reminder of your ancestors' fall to demonic ambition; putting Lord Melenas to the sword is both a duty to the World Tree and an act of ancestral penance."
+   "text": "As a night elf, you face an ancient reminder of your ancestors’ fall to demonic ambition. Defeating Lord Melenas is a duty to the World Tree and an act of ancestral penance."
   },
   {
    "target": "class:Druid",
-   "text": "The vile presence of Melenas and his corrupted grell at Fel Rock poisons the fragile balance of Teldrassil's newly grown wilderness."
+   "text": "As a druid, you find Melenas and his corrupted grell poisoning the fragile balance of Teldrassil’s young wilderness."
   }
  ],
  "keywords": [
@@ -112,5 +112,6 @@
  ],
  "attribution": [
   "Twisted Hatred"
- ]
+ ],
+ "style": 1
 }

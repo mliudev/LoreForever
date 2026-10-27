@@ -21,16 +21,16 @@
    "Sathrah's Sacrifice (quest)"
   ]
  },
- "summary": "Tears of the Moon is a solemn task assigned by Priestess A'moora in the Temple of the Moon. Once cherished by the goddess Elune, the great spider Lady Sathrah has fallen into madness, forcing the Sisterhood of Elune to seek her merciful end and retrieve her sacred spinnerets.",
+ "summary": "At the Temple of the Moon, Priestess A'moora mourns Lady Sathrah's madness. Once cherished by Elune, the great spider has become dangerous, and the Sisterhood seeks to end her suffering and recover her sacred spinnerets.",
  "sections": [
   {
    "title": "A Beloved Creature's Fall",
-   "body": "Within the serene confines of Darnassus's Temple of the Moon, Priestess A'moora laments the tragic fate of Lady Sathrah. In earlier days, Sathrah was celebrated as a blessed creature of Elune. She wove delicate silver webs beneath the night sky, catching the evening mist that gathered upon Teldrassil's boughs. The shimmering dew her webs collected possessed miraculous healing properties, carefully gathered and preserved by the Sisterhood of Elune for their sacred ministrations.",
+   "body": "In Darnassus's Temple of the Moon, Priestess A'moora grieves for Lady Sathrah. Sathrah was once blessed by Elune. Beneath the night sky, she wove delicate silver webs that caught the evening mist on Teldrassil's boughs. The Sisterhood of Elune gathered and kept the shimmering dew from those webs, which held healing powers for their sacred ministrations.",
    "spoiler": 0
   },
   {
    "title": "Mercy for Sathrah",
-   "body": "Like much of the wildlife across the young World Tree, Lady Sathrah has recently fallen prey to an overwhelming madness. Her corruption threatens not only travelers but her own unhatched broods along the northern reaches near Wellspring Lake. Unable to cleanse her while she roams violent and frantic, the Sisterhood resolved that ending her suffering was the only compassionate path remaining. By retrieving her silvery spinnerets, the priestesses intend to dedicate her remains upon Elune's altar, praying that the Moon Goddess will grant her peace and a pure rebirth.",
+   "body": "Like much of the wildlife on the young World Tree, Lady Sathrah has recently fallen into madness. Her corruption threatens travelers and her own unhatched broods near Wellspring Lake in the northern reaches. The Sisterhood cannot cleanse her while she roams in a violent frenzy, so they have decided that ending her suffering is the only compassionate path. They mean to retrieve her silvery spinnerets and dedicate her remains at Elune's altar, praying the Moon Goddess grants her peace and a pure rebirth.",
    "spoiler": 1
   }
  ],
@@ -43,7 +43,7 @@
     "sathrah backstory",
     "sathrah spider"
    ],
-   "answer": "Lady Sathrah is a majestic, ancient spider native to Teldrassil. Traditionally revered as beloved of Elune, she was known for weaving silvery webs that trapped night mist rich in natural healing potency."
+   "answer": "Lady Sathrah is an ancient spider native to Teldrassil, once beloved of Elune. Her silvery webs caught the night mist, whose dew was known for its healing power."
   },
   {
    "q": "Why does Lady Sathrah have to be killed?",
@@ -52,7 +52,7 @@
     "can sathrah be saved",
     "why is sathrah aggressive"
    ],
-   "answer": "She succumbed to a creeping madness that has infected Teldrassil's wildlife. Because she became violently unhinged and a danger to both her offspring and others, the priestesses decided slaying her was an act of mercy."
+   "answer": "Lady Sathrah has fallen into a madness that has spread through Teldrassil's wildlife. Violent and dangerous to her offspring and others, she is to be slain as an act of mercy."
   },
   {
    "q": "Where is Lady Sathrah found?",
@@ -61,7 +61,7 @@
     "where is sathrah",
     "find sathrah"
    ],
-   "answer": "Lady Sathrah makes her lair in the northern wilderness of Teldrassil, near the shores of Wellspring Lake."
+   "answer": "Lady Sathrah is found in northern Teldrassil, near the shores of Wellspring Lake."
   },
   {
    "q": "What were Lady Sathrah's webs used for?",
@@ -70,7 +70,7 @@
     "sathrah webs use",
     "silvery dew lore"
    ],
-   "answer": "Her webs caught the evening mist, forming a potent silvery dew known for profound healing powers, which the Sisterhood of Elune kept in the Temple of the Moon."
+   "answer": "Lady Sathrah's webs caught the evening mist, forming silvery dew with healing powers. The Sisterhood of Elune kept it in the Temple of the Moon."
   },
   {
    "q": "Who gives the quest Tears of the Moon?",
@@ -79,7 +79,7 @@
     "tears of the moon quest giver",
     "priestess amoora"
    ],
-   "answer": "Priestess A'moora, an attendant serving within the Temple of the Moon in Darnassus, gives the quest to trusted Alliance adventurers."
+   "answer": "Priestess A'moora gives Tears of the Moon from the Temple of the Moon in Darnassus to trusted Alliance adventurers."
   },
   {
    "q": "What will the priestesses do with Sathrah's spinnerets?",
@@ -88,21 +88,21 @@
     "spinnerets purpose",
     "sacrifice to elune"
    ],
-   "answer": "They are offered to Elune at the temple altar as a consecration, asking the goddess to accept Sathrah's spirit, bless her, and allow her to be reborn in peaceful tranquility."
+   "answer": "The priestesses plan to offer Sathrah's spinnerets to Elune at the temple altar. They ask the goddess to accept Sathrah's spirit, bless her, and grant her a peaceful rebirth."
   }
  ],
  "angles": [
   {
    "target": "race:NightElf",
-   "text": "For the Kaldorei, putting down Sathrah is a painful reminder that the corruption touching Teldrassil's wilds spares neither the humble beast nor the sacred companions of Elune."
+   "text": "As a Kaldorei, you know corruption in Teldrassil's wilds spares neither humble beasts nor Elune's sacred companions."
   },
   {
    "target": "class:Priest",
-   "text": "Priests serving the Sisterhood of Elune understand that mercy sometimes requires a sorrowful strike, culminating in a ritual offering to return a corrupted soul to the Goddess's embrace."
+   "text": "As a priest of the Sisterhood of Elune, you know mercy can call for a sorrowful strike and a ritual offering to return a corrupted soul to the Goddess's embrace."
   },
   {
    "target": "class:Druid",
-   "text": "Druids view Sathrah's sudden ferocity and torment as another troubling symptom of Teldrassil's imbalance, making the restoration of her spirit an ecological necessity."
+   "text": "As a druid, you see Sathrah's sudden ferocity and torment as another troubling sign of Teldrassil's imbalance. Restoring her spirit is an ecological necessity."
   }
  ],
  "keywords": [
@@ -128,5 +128,6 @@
  ],
  "attribution": [
   "Tears of the Moon (Classic)"
- ]
+ ],
+ "style": 1
 }

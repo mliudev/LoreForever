@@ -20,16 +20,16 @@
    "The Kolkar of Desolace"
   ]
  },
- "summary": "This quest bridges Horde military operations between the Barrens and the bleak expanse of Desolace. Directed by the orc warrior Regthar Deathgate, Horde champions journey westward across the mountains to reinforce scout Felgur Twocuts at Ghost Walker Post.",
+ "summary": "The Kolkar threaten Horde lands from their stronghold in Desolace. Regthar Deathgate sends Horde champions west across the mountains to reinforce scout Felgur Twocuts at Ghost Walker Post.",
  "sections": [
   {
    "title": "A Threat Across the Mountains",
-   "body": "While the Horde contends with marauding centaur packs across the Barrens, commanders like Regthar Deathgate recognize that trimming branches will never kill a tree. The Kolkar clan traces its root strength directly to the desolate crags of Kalimdor's western coast. As long as their ancestral stronghold remains untamed, endless waves of raiders will bleed through the passes into Horde territory. Neutralizing the Kolkar requires striking at the source.",
+   "body": "Centaur raiders keep pressing into the Barrens, and Regthar Deathgate knows that fighting them there will not end the threat. The Kolkar clan draws its strength from the rugged lands on Kalimdor's western coast. While their ancestral stronghold remains beyond Horde control, raiders will keep pouring through the mountain passes. To stop them, the Horde must strike at their home.",
    "spoiler": 0
   },
   {
    "title": "Ghost Walker Post",
-   "body": "To counter the centaur heartland, the Horde maintains a rugged forward outpost known as Ghost Walker Post. Deep in Desolace, scout Felgur Twocuts gathers intelligence on the bickering centaur clans. Regthar sends veterans of the Barrens west to place their blades under Felgur's command, shifting the Horde's stance from passive defense to an active campaign of disruption.",
+   "body": "Ghost Walker Post gives the Horde a foothold deep in Desolace. Scout Felgur Twocuts watches the rival centaur clans from the outpost. Regthar sends seasoned fighters from the Barrens to serve under Felgur, carrying the Horde's campaign west from defense to direct action.",
    "spoiler": 0
   }
  ],
@@ -41,7 +41,7 @@
     "who gives quest",
     "regthar"
    ],
-   "answer": "Regthar Deathgate, an orc warrior stationed at the bunker west of the Crossroads in the Barrens, directs you to carry the fight directly to the Kolkar's ancestral lands."
+   "answer": "Regthar Deathgate, an orc warrior at the bunker west of the Crossroads in the Barrens, directs you to carry the fight into the Kolkar's ancestral lands."
   },
   {
    "q": "Where is Ghost Walker Post located?",
@@ -50,7 +50,7 @@
     "felgur twocuts location",
     "desolace camp"
    ],
-   "answer": "Ghost Walker Post is an isolated Horde encampment tucked along the rugged paths of Desolace, situated on the western side of the Kalimdor mountain ridge."
+   "answer": "Ghost Walker Post is an isolated Horde camp along the rugged paths of Desolace, west of the Kalimdor mountain ridge."
   },
   {
    "q": "Why is the Horde focusing on Desolace?",
@@ -59,7 +59,7 @@
     "why fight kolkar in desolace",
     "centaur connection"
    ],
-   "answer": "The Kolkar raiding the Barrens originate from the larger centaur clans rooted in Desolace. Regthar realizes that defensive measures in the Barrens will never permanently halt the invasions until the Kolkar stronghold in Desolace is crippled."
+   "answer": "The Kolkar who raid the Barrens come from the larger centaur clans rooted in Desolace. Regthar knows defense alone cannot stop the invasions while the Kolkar stronghold remains intact."
   },
   {
    "q": "Who is Felgur Twocuts?",
@@ -67,7 +67,7 @@
     "felgur twocuts",
     "who is felgur"
    ],
-   "answer": "Felgur Twocuts is a Horde scout stationed at Ghost Walker Post tasked with observing the warring centaur clans in Desolace and organizing tactical strikes against them."
+   "answer": "Felgur Twocuts is a Horde scout at Ghost Walker Post. He watches the rival centaur clans in Desolace and organizes strikes against them."
   },
   {
    "q": "Does this quest involve combat?",
@@ -75,7 +75,7 @@
     "combat in quest",
     "fighting quest"
    ],
-   "answer": "No. This is a transitional courier quest that guides leveling Horde adventurers from the mid-level conflicts of the Barrens into the higher-level challenges of Desolace."
+   "answer": "No. You carry a message from the Barrens into Desolace, where harder challenges await Horde adventurers."
   },
   {
    "q": "Which centaur clan does this quest target?",
@@ -84,21 +84,21 @@
     "what clan",
     "kolkar clan"
    ],
-   "answer": "It specifically targets the Kolkar clan, one of the primary centaur factions originating from Desolace that has aggressively expanded into the Barrens and Durotar."
+   "answer": "The Kolkar clan is the target. Its centaur raiders come from Desolace and have pushed into the Barrens and Durotar."
   }
  ],
  "angles": [
   {
    "target": "faction:Horde",
-   "text": "This quest marks an important strategic pivot for the Horde, moving from protecting fledgling settlements in Durotar and the Barrens to launching proactive military campaigns deep into hostile foreign frontiers."
+   "text": "For the Horde, this marks a shift from guarding young settlements in Durotar and the Barrens to taking the fight into hostile lands."
   },
   {
    "target": "race:Tauren",
-   "text": "Centaur aggression brought the nomadic tauren tribes to the brink of extinction prior to their alliance with Thrall. Taking the battle directly to their homelands in Desolace carries deeply personal weight for any tauren warrior."
+   "text": "As a tauren, you know centaur aggression brought your nomadic tribes close to extinction before your alliance with Thrall. Fighting them in their Desolace homelands carries a personal cost."
   },
   {
    "target": "race:Orc",
-   "text": "Having secured their presence in eastern Kalimdor, the orcs view the untamed centaur clans as an enduring danger that must be subdued to safeguard Horde supply lines."
+   "text": "As an orc, you have secured a foothold in eastern Kalimdor. The untamed centaur clans still threaten Horde supply lines."
   }
  ],
  "keywords": [
@@ -122,5 +122,6 @@
  ],
  "attribution": [
   "The Kolkar of Desolace"
- ]
+ ],
+ "style": 1
 }

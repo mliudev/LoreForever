@@ -1,0 +1,88 @@
+{
+ "key": "quest:94427",
+ "type": "quest",
+ "name": "A Lesson in Divinity",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   94427
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "Your order sends you to Tanis Alderwood in Undercity\u2019s Trade Quarter. Their need offers a chance to show grace through good deeds.",
+ "sections": [
+  {
+   "title": "A Call for Grace",
+   "body": "Your order teaches that divinity means pursuing good for its own sake, not seeking godhood. It says tragedy brought you to this place, and asks you to seek Tanis Alderwood in the Trade Quarter of Undercity. Tanis is in need and may benefit from your grace.",
+   "spoiler": 0
+  },
+  {
+   "title": "Tanis\u2019s Plea",
+   "body": "When you approach Tanis, they fear you may hurt them. They say they have no quarrel with you or your order, and beg you to leave them be.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Tanis Alderwood?",
+   "aliases": [
+    "Tanis",
+    "who's Tanis",
+    "Trade Quarter person"
+   ],
+   "answer": "Tanis Alderwood is someone in need in Undercity\u2019s Trade Quarter."
+  },
+  {
+   "q": "Why am I sent to Tanis?",
+   "aliases": [
+    "why Tanis",
+    "help Tanis",
+    "what's the point"
+   ],
+   "answer": "Your order says Tanis could benefit from your grace."
+  },
+  {
+   "q": "What does divinity mean to my order?",
+   "aliases": [
+    "divinity meaning",
+    "good for its own sake",
+    "what is divinity"
+   ],
+   "answer": "It means pursuing good for its own sake, rather than seeking godhood."
+  },
+  {
+   "q": "Where can I find Tanis Alderwood?",
+   "aliases": [
+    "Tanis location",
+    "where's Tanis",
+    "Trade Quarter"
+   ],
+   "answer": "Tanis Alderwood is in the Trade Quarter of Undercity."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Priest",
+   "text": "As a priest, your order frames divinity as doing good for its own sake, and says tragedy can threaten the grace that defined you in life."
+  }
+ ],
+ "keywords": [
+  "a lesson in divinity",
+  "divinity",
+  "grace",
+  "panhandling",
+  "tanis alderwood",
+  "trade quarter",
+  "undercity"
+ ],
+ "related": [
+  "zone:undercity",
+  "subzone:trade-quarter"
+ ],
+ "style": 1,
+ "attribution": [
+  "In-game quest text: A Lesson in Divinity"
+ ]
+}

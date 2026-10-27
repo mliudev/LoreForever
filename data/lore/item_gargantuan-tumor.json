@@ -10,11 +10,11 @@
    "quest:2499"
   ]
  },
- "summary": "The Gargantuan Tumor is a massive, diseased growth torn from the corrupted timberling Oakenscowl in Teldrassil. It serves as glaring proof of the unnatural sickness spreading through the creatures inhabiting Lake Al'Ameth.",
+ "summary": "In Teldrassil, a great growth was torn from Oakenscowl, the corrupted timberling by Lake Al'Ameth. The tumor bears witness to sickness spreading among the creatures there.",
  "sections": [
   {
    "title": "Blight Upon the Lake",
-   "body": "Near the southern bank of Lake Al'Ameth, a cavern shelters Oakenscowl, once a noble timberling elder who has fallen prey to vile affliction. The creature was visibly poisoned by an enormous growth that warped its behavior and seeped taint into surrounding wildlife. Severing this grotesque tumor is crucial not only to end the beast's tormented rampage, but to allow local researchers to inspect the blight and understand how such a foul malady took root in the boughs of the newly grown World Tree.",
+   "body": "Oakenscowl lurks in a cavern near Lake Al'Ameth's southern bank. Once a noble timberling elder, the creature has fallen to a vile affliction. A huge growth poisoned Oakenscowl, warped its behavior, and spread taint through the surrounding wildlife. The tumor was severed to end the beast's rampage and give local researchers a chance to examine the blight. They hope to learn how the malady took root in the boughs of the newly grown World Tree.",
    "spoiler": 0
   }
  ],
@@ -26,7 +26,7 @@
     "how to get gargantuan tumor",
     "oakenscowl drop"
    ],
-   "answer": "The tumor is retrieved from Oakenscowl, a large corrupted timberling residing in a cave on the southern shore of Lake Al'Ameth in Teldrassil."
+   "answer": "The Gargantuan Tumor comes from Oakenscowl, a large corrupted timberling in a cave on Lake Al'Ameth's southern shore in Teldrassil."
   },
   {
    "q": "What is causing the tumor to grow on Oakenscowl?",
@@ -35,7 +35,7 @@
     "timberling sickness",
     "lake al'ameth corruption"
    ],
-   "answer": "It is an outward symptom of the strange corruption poisoning the timberlings and wildlife around Lake Al'Ameth. Oakenscowl was once a grand leader of his kind, but succumbed entirely to this virulent growth."
+   "answer": "The tumor is a visible sign of the strange corruption poisoning timberlings and wildlife around Lake Al'Ameth. Oakenscowl was once a grand leader of its kind, but the growth overcame it."
   },
   {
    "q": "Who wants to study this tumor?",
@@ -44,17 +44,17 @@
     "turn in gargantuan tumor",
     "oakenscowl quest turn in"
    ],
-   "answer": "Investigators in the area require the tumor to research the strange rot afflicting local timberlings, hoping to discern how to treat or halt the blight."
+   "answer": "Investigators in the area want the tumor to study the strange rot afflicting local timberlings and learn how to treat or halt the blight."
   }
  ],
  "angles": [
   {
    "target": "class:Druid",
-   "text": "For druids striving to nurture the fledgling boughs of Teldrassil, the grotesque tumor is an alarming reminder that nature within the boughs is dangerously vulnerable to corruption."
+   "text": "As a druid tending Teldrassil's young boughs, you can see in the tumor how vulnerable nature there is to corruption."
   },
   {
    "target": "race:NightElf",
-   "text": "Seeing a respected elder timberling reduced to a mad, blighted monster underscores the growing environmental troubles facing the kaldorei's new homeland."
+   "text": "As a night elf, you see a respected elder timberling reduced to a mad, blighted monster, a sign of the troubles facing your new homeland."
   }
  ],
  "keywords": [
@@ -74,5 +74,6 @@
  "attribution": [
   "Gargantuan Tumor",
   "Oakenscowl (Classic)"
- ]
+ ],
+ "style": 1
 }

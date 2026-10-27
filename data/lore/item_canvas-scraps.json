@@ -10,16 +10,16 @@
    "quest:791"
   ]
  },
- "summary": "Canvas Scraps are remnants of tough woven fabric carried by human invaders and centaur tribes encroaching upon Durotar. In Razor Hill, aging veteran Furl Scornbrow collects these salvaged swatches to stitch useful travel sacks for fresh Horde recruits.",
+ "summary": "At Razor Hill, Furl Scornbrow gathers Canvas Scraps to make travel sacks for new Horde recruits. The cloth comes from human invaders and centaur tribes in Durotar.",
  "sections": [
   {
    "title": "Trophies of Durotar's Enemies",
-   "body": "Canvas is not a fabric native to the rough hide-working traditions of the Orcs, but it is abundant among Durotar's enemies. The Kul Tiras marines and sailors entrenched along the eastern shoreline carry heavy canvas gear and sailcloth remnants from their naval excursions. Further inland, the roaming Kolkar centaur repurpose scraps of coarse cloth looted from supply caravans and past conflicts. Defeating these hostiles yields durable remnants that can be salvaged from their camps and gear.",
+   "body": "Kul Tiras marines and sailors carry canvas along Durotar’s eastern shore. Their gear and sails leave scraps behind. Inland, Kolkar centaur reuse coarse cloth taken from supply caravans and past conflicts. Their camps and gear hold scraps that can be salvaged.",
    "spoiler": 0
   },
   {
    "title": "A Veteran's Craft",
-   "body": "Perched atop the Razor Hill watchtower, veteran Furl Scornbrow keeps an eye out for invaders while turning his hands to useful labor. Though past his fighting prime, the old warrior repurposes salvaged enemy fabric into sturdy carrying bags for younger soldiers. By turning the materials of Kul Tiras and the Kolkar against them, Furl equips the new generation of defenders fighting to secure the Horde's borders.",
+   "body": "Furl Scornbrow watches for invaders from the Razor Hill watchtower. The aging veteran has left his fighting days behind, but puts salvaged enemy cloth to use. He stitches it into sturdy carrying bags for younger soldiers, helping the new generation defend the Horde’s borders.",
    "spoiler": 0
   }
  ],
@@ -31,7 +31,7 @@
     "where to get canvas scraps",
     "canvas scraps farm"
    ],
-   "answer": "They are recovered from human and centaur foes across Durotar. You can take them from the Kul Tiras forces occupying Tiragarde Keep and the eastern shore, or from Kolkar centaur drudges and outrunners prowling near their inland camps."
+   "answer": "Canvas Scraps come from human and centaur foes across Durotar. Kul Tiras forces at Tiragarde Keep and along the eastern shore carry them, as do Kolkar centaur drudges and outrunners near their inland camps."
   },
   {
    "q": "Why does Furl Scornbrow want these scraps?",
@@ -40,7 +40,7 @@
     "what are canvas scraps used for",
     "furl scornbrow canvas"
    ],
-   "answer": "Furl Scornbrow is an aging Orc veteran stationed in the Razor Hill watchtower who can no longer fight on the front lines. To remain useful to the Horde, he uses the salvaged cloth to sew practical traveling sacks for young adventurers."
+   "answer": "Furl Scornbrow is an aging Orc veteran in the Razor Hill watchtower who can no longer fight on the front lines. He sews the salvaged cloth into traveling sacks for young adventurers."
   },
   {
    "q": "Why do the Kul Tiras troops and centaur carry canvas?",
@@ -48,17 +48,17 @@
     "why do centaur have canvas",
     "human canvas scraps lore"
    ],
-   "answer": "The Kul Tiras expedition arrived in Durotar aboard warships and maintains seaside encampments, making sailcloth and woven canvas everyday essentials. The Kolkar centaur acquire similar coarse fabrics by raiding caravans, scavenging coastlines, and plundering travelers crossing the arid plains."
+   "answer": "Kul Tiras troops came to Durotar aboard warships and keep seaside camps, where sailcloth and woven canvas are everyday essentials. Kolkar centaur get coarse fabrics by raiding caravans, scavenging coastlines, and plundering travelers across the arid plains."
   }
  ],
  "angles": [
   {
    "target": "faction:Horde",
-   "text": "Every salvaged scrap taken from Kul Tiras invaders or Kolkar raiders helps supply new defenders answering Thrall's call across Durotar."
+   "text": "Each scrap taken from Kul Tiras invaders or Kolkar raiders helps supply new defenders answering Thrall’s call across Durotar."
   },
   {
    "target": "profession:Tailoring",
-   "text": "While simple woven canvas is primarily gathered as raw salvage by warriors, it serves as a rugged foundation for crafting utilitarian bags in the harsh desert."
+   "text": "Warriors gather woven canvas as raw salvage, and the rugged cloth can be made into practical bags for the harsh desert."
   }
  ],
  "keywords": [
@@ -83,5 +83,6 @@
  "attribution": [
   "Canvas Scraps",
   "Carry Your Weight"
- ]
+ ],
+ "style": 1
 }

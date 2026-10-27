@@ -146,7 +146,7 @@ const willoFoot = (ctx, env) => `<footer class="h-foot">
     <div class="h-foot-grid">
       <div class="h-sign">
         <span class="h-brand"><img src="/img/wispr.svg" alt="" width="30" height="30">Willo</span>
-        <p>A companion for the games you love. Now in World of Warcraft, with the free
+        <p>A companion for the games you love. Now in World of Warcraft, with the optional free
           <a href="${crossUrl(ctx, "lore", "/", env)}">Lore Forever</a> add-on.</p>
       </div>
       <nav aria-label="Willo"><h2>Willo</h2><ul><li><a href="/willo">Meet Willo</a></li><li><a href="/plans">Plans</a></li><li><a href="/download/willo?src=willo-foot">Download for Windows</a></li><li><a href="/willo/style">Her ways</a></li></ul></nav>

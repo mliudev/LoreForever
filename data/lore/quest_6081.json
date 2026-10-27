@@ -23,21 +23,21 @@
    "Training the Beast (Orc and Troll)"
   ]
  },
- "summary": "Training the Beast is the culminating rite of passage for young orc and troll hunters in Durotar. After demonstrating mastery over the wild beasts of the plains, hunters are sent from Razor Hill to Orgrimmar to study under veteran master hunter Ormak Grimshot. Completing this journey teaches the novice how to care for, feed, and hone the skills of their lifelong animal companion.",
+ "summary": "In Durotar, young orc and troll hunters are sent to learn from veteran master hunter Ormak Grimshot. After proving themselves with the plains beasts, they travel from Razor Hill to Orgrimmar. There they learn to care for, feed, and train a lifelong animal companion.",
  "sections": [
   {
    "title": "A Journey Beyond the Wilderness",
-   "body": "In the arid canyon lands of Durotar, mastering a bow and surviving the harsh elements is only half of a hunter's duty. After proving their resilience by taming Durotar's fierce boars, crab scavengers, and armored scorpid stalkers, young hunters are ready for the true responsibility of stewardship. Thotar, stationed in Razor Hill, dispatches them north through the red clay gulches straight to the fortified gates of Orgrimmar.",
+   "body": "In Durotar's arid canyon lands, skill with a bow and survival in the harsh wilds are only part of a hunter's duty. Young hunters first tame the plains beasts: fierce boars, crab scavengers, and armored scorpid stalkers. Once they prove their resilience, Thotar sends them from Razor Hill north through the red clay gulches to Orgrimmar's fortified gates, ready to take responsibility for a companion.",
    "spoiler": 0
   },
   {
    "title": "The Valley of Honor",
-   "body": "Within the bustling capital, aspiring track-masters must seek out the Valley of Honor, an enclave where warrior spirits and veteran stalkers hone their craft. There dwells Ormak Grimshot, one of the Horde's most revered master hunters. Ormak looks past raw youth to see whether a hunter possesses the patience required not just to command a beast, but to sustain and nurture it through famine, battle, and loss.",
+   "body": "Orgrimmar's Valley of Honor is an enclave where veteran stalkers and warriors hone their craft. There, aspiring hunters seek Ormak Grimshot, one of the Horde's revered master hunters. He looks beyond their youth to judge whether they have the patience to command a beast and sustain and nurture it through famine, battle, and loss.",
    "spoiler": 0
   },
   {
    "title": "Bonding with the Wild",
-   "body": "A beast won through force of will remains wild until an understanding is forged between hunter and companion. Ormak imparts the sacred traditions required to maintain that bond: the knowledge of which foods nourish each creature's spirit, the discipline needed to teach them lethal techniques, and the spiritual focus required to revive a fallen beast should it collapse in the line of duty.",
+   "body": "A beast won through force remains wild until hunter and companion come to understand one another. Ormak teaches the sacred traditions that keep their bond: which foods nourish each creature's spirit, how discipline teaches a beast lethal techniques, and the spiritual focus needed to revive one that falls in the line of duty.",
    "spoiler": 0
   }
  ],
@@ -49,7 +49,7 @@
     "who gives training the beast",
     "where to start training the beast"
    ],
-   "answer": "Thotar, the hunter trainer situated outside the barracks in Razor Hill, offers this task once you have successfully subdued all three test creatures across Durotar."
+   "answer": "Thotar, the hunter trainer outside the barracks in Razor Hill, offers this training after you subdue all three test creatures across Durotar."
   },
   {
    "q": "Where can I find Ormak Grimshot?",
@@ -58,7 +58,7 @@
     "find ormak grimshot",
     "where is ormak"
    ],
-   "answer": "Ormak Grimshot resides in the Valley of Honor, an eastern district within the capital city of Orgrimmar, alongside other veteran hunter and warrior mentors."
+   "answer": "Ormak Grimshot is in the Valley of Honor, an eastern district of Orgrimmar, among veteran hunter and warrior mentors."
   },
   {
    "q": "What skills does Ormak Grimshot teach you?",
@@ -67,7 +67,7 @@
     "quest reward skills",
     "hunter pet abilities"
    ],
-   "answer": "Ormak teaches you how to train your companion with active and passive abilities, how to feed your pet to keep it loyal and content, and how to revive it if it dies in combat."
+   "answer": "Ormak teaches you to train your companion with active and passive abilities, feed your pet to keep it loyal and content, and revive it if it dies in combat."
   },
   {
    "q": "Why do orc and troll hunters have to visit Orgrimmar for this?",
@@ -76,7 +76,7 @@
     "why orgrimmar",
     "valley of honor visit"
    ],
-   "answer": "Local trainers like Thotar can teach basic wilderness survival, but advanced beast mastery is preserved by the Horde's elder scouts and venerated trackers like Ormak Grimshot in the capital."
+   "answer": "Local trainers like Thotar teach basic wilderness survival. The Horde's elder scouts and venerated trackers, including Ormak Grimshot, preserve advanced beast mastery in the capital."
   },
   {
    "q": "Do other Horde races undertake this exact quest?",
@@ -85,7 +85,7 @@
     "is this orc only",
     "undead hunter"
    ],
-   "answer": "No. This specific rite is designed for orc and troll hunters starting in Durotar. Tauren hunters undertake a parallel ritual in Mulgore under their own tribal masters."
+   "answer": "No. Orc and troll hunters starting in Durotar undertake this rite. Tauren hunters follow a parallel ritual in Mulgore under their own tribal masters."
   },
   {
    "q": "What happens if a hunter neglects to complete this training?",
@@ -93,25 +93,25 @@
     "do i need to do this",
     "can i skip training the beast"
    ],
-   "answer": "Without finishing this instruction, a hunter cannot feed, properly train, or resurrect their companion, rendering any captured beast unhappy, weak, and ultimately prone to abandoning them."
+   "answer": "Without this training, a hunter cannot feed, properly train, or resurrect a companion. A captured beast grows unhappy and weak, and is ultimately prone to abandoning its hunter."
   }
  ],
  "angles": [
   {
    "target": "class:Hunter",
-   "text": "This quest marks the moment your pet becomes a permanent, dependable ally rather than a fleeting summon, unlocking the essential Feed Pet and Revive Pet arts."
+   "text": "For a hunter, this training makes your pet a permanent, dependable ally rather than a fleeting summon, and teaches you the arts of Feed Pet and Revive Pet."
   },
   {
    "target": "race:Orc",
-   "text": "Orcs view the bond with their hunting companion as a matter of martial honor and duty, a partnership tested in battle across the harsh frontiers of Durotar."
+   "text": "Orcs regard the bond with a hunting companion as a matter of martial honor and duty, tested in battle across Durotar's harsh frontiers."
   },
   {
    "target": "race:Troll",
-   "text": "For Darkspear trolls carving out a new home in Kalimdor, learning to commune with Durotar's savage creatures is vital for scouting and surviving in unfamiliar soil."
+   "text": "For Darkspear trolls making a new home in Kalimdor, learning to commune with Durotar's savage creatures is vital to scouting and surviving on unfamiliar soil."
   },
   {
    "target": "faction:Horde",
-   "text": "The Horde relies on its scouts and beasts to secure the fragile borders of Durotar and the Barrens against centaur, quilboar, and Alliance incursions."
+   "text": "The Horde relies on scouts and beasts to secure Durotar's and the Barrens' fragile borders against centaur, quilboar, and Alliance incursions."
   }
  ],
  "keywords": [
@@ -136,5 +136,6 @@
  ],
  "attribution": [
   "Training the Beast (Orc and Troll)"
- ]
+ ],
+ "style": 1
 }

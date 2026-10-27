@@ -20,16 +20,16 @@
    "The Lord of Blackrock (Horde 2)"
   ]
  },
- "summary": "This quest marks the final delivery of Nefarian's severed head to the leaders of Orgrimmar. Having proven the black dragon's demise to Thrall, champions are directed to High Overlord Saurfang in the Valley of Strength to display the trophy before the entire Horde.",
+ "summary": "In Orgrimmar, Nefarian's severed head is brought before the Horde. After Thrall confirms the black dragon's death, he sends the victor to High Overlord Saurfang in the Valley of Strength to show the trophy to all.",
  "sections": [
   {
    "title": "A Trophy for the Horde",
-   "body": "After the black dragon Nefarian is slain atop Blackwing Lair, his head is brought to Orgrimmar as proof of his defeat. Warchief Thrall confirms the fall of the son of Deathwing before sending the victor to High Overlord Saurfang in the Valley of Strength. There, the gruesome remains are prepared to be displayed publicly, serving as a warning to enemies and a rallying cry for the true Horde.",
+   "body": "Nefarian's head reaches Orgrimmar after the black dragon is slain atop Blackwing Lair. Warchief Thrall confirms that Deathwing's son has fallen, then sends the victor to High Overlord Saurfang in the Valley of Strength. There, the remains are prepared for public display, a warning to enemies and a rallying cry for the true Horde.",
    "spoiler": 0
   },
   {
    "title": "Claiming the Legacy",
-   "body": "Nefarian ruled the heights of Blackrock Mountain, bending the Blackrock orcs and the Dark Horde to his will. By striking him down and hoisting his head high in the Valley of Strength, Warchief Thrall's Horde deals a mighty blow against the Black Dragonflight, and Saurfang calls on all of Orgrimmar to revel in the Rallying Cry of the Dragonslayer.",
+   "body": "Nefarian ruled the heights of Blackrock Mountain, bending the Blackrock orcs and the Dark Horde to his will. By striking him down and raising his head in the Valley of Strength, Thrall's Horde deals a mighty blow against the Black Dragonflight. Saurfang calls on all of Orgrimmar to rejoice in the Rallying Cry of the Dragonslayer.",
    "spoiler": 1
   }
  ],
@@ -41,7 +41,7 @@
     "lord of blackrock turn in",
     "why go to saurfang"
    ],
-   "answer": "It serves as the concluding turn-in for slaying Nefarian. After showing proof to Thrall, you report to High Overlord Saurfang in Orgrimmar's Valley of Strength to receive honors and have the severed head put on public display."
+   "answer": "After proving Nefarian's death to Thrall, you report to High Overlord Saurfang in Orgrimmar's Valley of Strength. The severed head is put on public display, and you receive honors."
   },
   {
    "q": "Who is High Overlord Saurfang?",
@@ -49,7 +49,7 @@
     "who is saurfang",
     "high overlord saurfang role"
    ],
-   "answer": "High Overlord Saurfang is a veteran orc warrior and one of the Horde's greatest champions, stationed in the Valley of Strength within Orgrimmar, where he receives the head and has it mounted for all to see."
+   "answer": "High Overlord Saurfang is a veteran orc warrior and one of the Horde's greatest champions. He is stationed in Orgrimmar's Valley of Strength, where he receives the head and has it mounted for all to see."
   },
   {
    "q": "Why is Nefarian's head put on display?",
@@ -57,7 +57,7 @@
     "why mount nefarians head",
     "nefarian head display orgrimmar"
    ],
-   "answer": "Mounting the head of the black dragon proves beyond doubt that the master of Blackrock Mountain has fallen. It strengthens the morale of Orgrimmar's defenders, and the Rallying Cry of the Dragonslayer is cast on everyone in the city."
+   "answer": "Nefarian's mounted head proves that the master of Blackrock Mountain has fallen. Its display strengthens the morale of Orgrimmar's defenders, and everyone in the city receives the Rallying Cry of the Dragonslayer."
   },
   {
    "q": "Who was Nefarian?",
@@ -73,7 +73,7 @@
     "where is saurfang",
     "saurfang location"
    ],
-   "answer": "Saurfang stands on watch in the Valley of Strength, the central entrance district of Orgrimmar."
+   "answer": "Saurfang is in the Valley of Strength, Orgrimmar's central entrance district."
   },
   {
    "q": "What role does Thrall play in this?",
@@ -81,17 +81,17 @@
     "why thrall",
     "thrall involvement"
    ],
-   "answer": "Warchief Thrall receives the head first. Once he confirms Nefarian's death, he sends you to Saurfang to have the trophy officially mounted."
+   "answer": "Warchief Thrall receives Nefarian's head first. After confirming the dragon's death, he sends you to Saurfang to have the trophy officially mounted."
   }
  ],
  "angles": [
   {
    "target": "faction:Horde",
-   "text": "The public display of Nefarian's head reinforces Thrall's new order and proves the might of the reformed Horde against the black dragon who manipulated the orcs of Blackrock Mountain."
+   "text": "For the Horde, Nefarian's public display proves the reformed Horde's might against the black dragon who manipulated the orcs of Blackrock Mountain. It reinforces Thrall's new order."
   },
   {
    "target": "race:Orc",
-   "text": "For orcs, witnessing the fall of the dragon who held the Blackrock clan in thrall provides deep catharsis, cleansing a dishonorable shadow cast over their people."
+   "text": "As an orc, you may feel deep catharsis at the fall of the dragon who held the Blackrock clan in thrall. His defeat lifts a dishonorable shadow from your people."
   }
  ],
  "keywords": [
@@ -113,5 +113,6 @@
  ],
  "attribution": [
   "The Lord of Blackrock (Horde 2)"
- ]
+ ],
+ "style": 1
 }

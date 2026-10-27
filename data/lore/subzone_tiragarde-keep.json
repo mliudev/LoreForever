@@ -7,16 +7,16 @@
  "meta": {
   "wiki": "Tiragarde Keep"
  },
- "summary": "Tiragarde Keep is a fortified human stronghold situated along Durotar's Scuttle Coast, south of Razor Hill. Originally built during Grand Admiral Daelin Proudmoore's invasion, the ruined citadel remains garrisoned by hostile Kul Tiran marines under Lieutenant Benedict. It serves as a defiant, permanent thorn in the Horde's side right on their home territory.",
+ "summary": "Kul Tiran marines still hold Tiragarde Keep on Durotar's Scuttle Coast, south of Razor Hill. Built during Grand Admiral Daelin Proudmoore's invasion, the ruined stronghold remains garrisoned under Lieutenant Benedict, a hostile thorn in the Horde's own territory.",
  "sections": [
   {
    "title": "Proudmoore's Bastion",
-   "body": "Erected during Grand Admiral Daelin Proudmoore's campaign to eradicate Thrall's newly founded realm, Tiragarde Keep provided the Kul Tiran fleet an entrenched beachhead on the red shores of Durotar. Although the Horde eventually broke the siege and killed Proudmoore at Theramore Isle, the keep was never fully abandoned. Resupply forces under Lieutenant Benedict reclaimed the shattered stone walls, following the late Admiral's standing orders to wage an unyielding war against the orcs, entirely refusing the peace forged by Lady Jaina Proudmoore.",
+   "body": "Tiragarde Keep gave Grand Admiral Daelin Proudmoore's fleet a beachhead on Durotar's red shores. He built it during his campaign to destroy Thrall's newly founded realm. The Horde eventually broke the siege and killed Proudmoore at Theramore Isle, but the keep was never fully abandoned. Resupply forces under Lieutenant Benedict reclaimed its shattered stone walls. They follow the late Admiral's standing orders to wage unyielding war against the orcs and reject the peace Lady Jaina Proudmoore forged.",
    "spoiler": 0
   },
   {
    "title": "A Thorn in Durotar's Flank",
-   "body": "Today, the keep's gleaming white battlements stand in harsh contrast against Durotar's crimson cliffs. Well-trained Kul Tiras sailors and marines patrol the ramparts and launch raids targeting supply lines near Razor Hill. For the Horde, Tiragarde Keep is an ongoing security crisis and a live proving ground. Orc and troll commanders constantly task young warriors with assaulting the fortress and cutting down Benedict's soldiers, seeking to contain the garrison before the humans can mount a deeper inland offensive.",
+   "body": "White battlements rise above Durotar's crimson cliffs, and Kul Tiran sailors and marines patrol them. The garrison raids supply lines near Razor Hill. For the Horde, the keep remains an ongoing security crisis and a live proving ground: orc and troll commanders send young warriors to assault the fortress and cut down Benedict's soldiers. They seek to contain the garrison before the humans can push farther inland.",
    "spoiler": 0
   }
  ],
@@ -28,7 +28,7 @@
     "who are the humans in tiragarde",
     "human soldiers durotar"
    ],
-   "answer": "These humans are Kul Tiras sailors and marines who arrived with Grand Admiral Daelin Proudmoore during his invasion following the Third War. They reject peace with the Horde and maintain this garrison to harass the orcs."
+   "answer": "The humans in Durotar are Kul Tiran sailors and marines who arrived with Grand Admiral Daelin Proudmoore during his invasion after the Third War. They reject peace with the Horde and keep this garrison to harass the orcs."
   },
   {
    "q": "Are these humans part of Jaina's forces in Theramore?",
@@ -37,7 +37,7 @@
     "are they jaina proudmoore's men",
     "theramore soldiers here"
    ],
-   "answer": "No. While Jaina Proudmoore rules Theramore Isle and maintains an uneasy truce with Thrall, these soldiers follow the orders of her late father, Grand Admiral Daelin Proudmoore. They consider any peace with orcs unacceptable treason."
+   "answer": "No. Jaina Proudmoore rules Theramore Isle and maintains an uneasy truce with Thrall, while these soldiers follow invasion orders left by her late father, Grand Admiral Daelin Proudmoore. They regard peace with orcs as unacceptable treason."
   },
   {
    "q": "Who commands Tiragarde Keep?",
@@ -46,7 +46,7 @@
     "who leads tiragarde keep",
     "lieutenant benedict"
    ],
-   "answer": "The stronghold is commanded by Lieutenant Benedict, a Kul Tiran officer acting on posthumous invasion orders left by Admiral Proudmoore to secure the coast and attack the Horde."
+   "answer": "Lieutenant Benedict commands Tiragarde Keep, acting on posthumous invasion orders left by Admiral Proudmoore to secure the coast and attack the Horde."
   },
   {
    "q": "Why hasn't the Horde simply wiped them out?",
@@ -54,17 +54,17 @@
     "why not destroy tiragarde",
     "why is the keep still here"
    ],
-   "answer": "The keep is fortified and manned by disciplined, well-armed Kul Tiran troops. While the defenders from Razor Hill frequently skirmish with the garrison and use it as a proving ground for new recruits, launching a full-scale siege would draw heavy casualties and divert vital resources away from securing the rest of Durotar."
+   "answer": "The keep is fortified and held by disciplined, well-armed Kul Tiran troops. Defenders from Razor Hill often skirmish with the garrison and send new recruits there to prove themselves, while a full siege would cost many lives and draw resources away from securing the rest of Durotar."
   }
  ],
  "angles": [
   {
    "target": "faction:Horde",
-   "text": "Tiragarde Keep is a blatant Alliance invasion base right on Durotar's doorstep; raiding its ramparts and eliminating Lieutenant Benedict is a rite of passage for young soldiers serving Razor Hill."
+   "text": "For the Horde, Tiragarde Keep is an Alliance invasion base on Durotar's doorstep. Raiding its ramparts and defeating Lieutenant Benedict is a rite of passage for young soldiers serving Razor Hill."
   },
   {
    "target": "race:Human",
-   "text": "The garrison represents the unbending, vengeful legacy of Kul Tiras and Admiral Proudmoore, fighting a stubborn guerrilla war in defiance of Jaina Proudmoore's diplomacy."
+   "text": "As a human, you can see the garrison's stubborn legacy of Kul Tiras and Admiral Proudmoore. Its soldiers wage a guerrilla war against the Horde despite Jaina Proudmoore's diplomacy."
   }
  ],
  "keywords": [
@@ -88,5 +88,6 @@
  ],
  "attribution": [
   "Tiragarde Keep"
- ]
+ ],
+ "style": 1
 }

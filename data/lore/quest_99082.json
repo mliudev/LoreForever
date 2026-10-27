@@ -1,0 +1,84 @@
+{
+ "key": "quest:99082",
+ "type": "quest",
+ "name": "The High Chieftain",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   99082
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "A tauren elder sends you to Thunder Bluff to ask Cairne Bloodhoof for an audience. Your defense of your people has earned recognition.",
+ "sections": [
+  {
+   "title": "A Chieftain\u2019s Deed",
+   "body": "Cairne Bloodhoof led the effort to reclaim these plains from the centaurs alongside the young Warchief Thrall. As High Chieftain, he can recognize your part in defending your people.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who am I being sent to see?",
+   "aliases": [
+    "who is the high chieftain",
+    "cairne audience",
+    "meet cairne"
+   ],
+   "answer": "You are asked to seek an audience with Cairne Bloodhoof, the High Chieftain of Thunder Bluff."
+  },
+  {
+   "q": "Why am I going to Thunder Bluff?",
+   "aliases": [
+    "why thunder bluff",
+    "what does cairne want",
+    "cairne meeting"
+   ],
+   "answer": "Your courage in defending your people has earned recognition, and you are asked to seek an audience with Cairne Bloodhoof."
+  },
+  {
+   "q": "Who helped reclaim the plains?",
+   "aliases": [
+    "who fought centaurs",
+    "thrall and cairne",
+    "reclaim plains"
+   ],
+   "answer": "Cairne Bloodhoof and the young Warchief Thrall led the effort to reclaim the plains from the centaurs."
+  },
+  {
+   "q": "Where is Cairne?",
+   "aliases": [
+    "where is high chieftain",
+    "cairne location",
+    "find cairne"
+   ],
+   "answer": "Cairne Bloodhoof is in Thunder Bluff, on the central rise."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Tauren",
+   "text": "As a tauren, you are sent to Cairne Bloodhoof after defending your people. He led the effort to reclaim the plains alongside Thrall."
+  }
+ ],
+ "keywords": [
+  "audience",
+  "cairne bloodhoof",
+  "centaurs",
+  "high chieftain",
+  "tauren",
+  "thrall",
+  "thunder bluff"
+ ],
+ "related": [
+  "zone:thunderbluff",
+  "npc:cairne-bloodhoof",
+  "npc:thrall"
+ ],
+ "style": 1,
+ "attribution": [
+  "In-game quest text: The High Chieftain"
+ ]
+}

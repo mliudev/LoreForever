@@ -10,11 +10,11 @@
    "quest:967"
   ]
  },
- "summary": "The Letter to Delgren is an urgent missive penned by Balthule Shadowstrike near the Tower of Althalaxx in northern Darkshore. Addressed to his mentor, the paladin Delgren the Purifier, it details the sinister operations of the demonic Dark Strand cult. Delivering it carries vital intelligence southward to Maestra's Post in Ashenvale.",
+ "summary": "Balthule Shadowstrike sends a warning from the Tower of Althalaxx in northern Darkshore. His letter to Delgren the Purifier describes the Dark Strand cult's demonic work and must reach Maestra's Post in Ashenvale.",
  "sections": [
   {
    "title": "A Warning Sent South",
-   "body": "As cultists of the Dark Strand gather around the ruins of the Tower of Althalaxx, the night elf Balthule Shadowstrike keeps watch over their escalating malice. Lacking the martial might to eradicate the cult alone, Balthule drafts this dispatch to request aid from his tutor in the Holy Light, Delgren the Purifier. Because the cult's foul rites threaten more than just Darkshore's coastline, the message must be carried the entire length of the region into western Ashenvale, where Delgren works in concert with night elf Sentinels to hunt down demonic and undead threats.",
+   "body": "Balthule Shadowstrike watches the Dark Strand cult gather around the Tower of Althalaxx ruins. He cannot destroy the cult alone, so he writes to Delgren the Purifier, his tutor in the Holy Light, asking for aid. The cult's foul rites threaten more than Darkshore's coast. The letter must travel south through the region into western Ashenvale, where Delgren works with night elf Sentinels against demonic and undead threats.",
    "spoiler": 0
   }
  ],
@@ -26,7 +26,7 @@
     "letter to delgren",
     "balthule's letter"
    ],
-   "answer": "It is a sealed message written by Balthule Shadowstrike, reporting the rising activities of the demonic Dark Strand cult at the Tower of Althalaxx. It is addressed to the paladin Delgren the Purifier."
+   "answer": "The Letter to Delgren is a sealed message from Balthule Shadowstrike about the Dark Strand cult's growing activity at the Tower of Althalaxx. It is addressed to Delgren the Purifier."
   },
   {
    "q": "Who is Delgren the Purifier?",
@@ -35,7 +35,7 @@
     "delgren lore",
     "where is delgren"
    ],
-   "answer": "Delgren is a human paladin stationed at Maestra's Post in western Ashenvale. Dedicated to the Holy Light, he has offered his martial skills to aid the night elf Sentinels in purging demons and undead from the ancient forests, while mentoring Balthule in holy warfare."
+   "answer": "Delgren the Purifier is a human paladin at Maestra's Post in western Ashenvale. He serves the Holy Light, aids the night elf Sentinels against demons and undead in the ancient forests, and mentors Balthule in holy warfare."
   },
   {
    "q": "Why is Balthule sending the letter so far away?",
@@ -43,7 +43,7 @@
     "why send to ashenvale",
     "why not tell auberdine"
    ],
-   "answer": "Balthule is Delgren's pupil and looks specifically to his mentor's expertise against demonic corruption. Delgren has both the combat prowess and the backing of local Sentinel forces at Maestra's Post to mount an organized response against the Dark Strand's dark rituals."
+   "answer": "Balthule is Delgren's pupil and seeks his mentor's skill against demonic corruption. At Maestra's Post, Delgren can draw on his combat prowess and the local Sentinel forces to oppose the Dark Strand's dark rituals."
   },
   {
    "q": "Where does this letter need to be delivered?",
@@ -51,17 +51,17 @@
     "where do i take the letter",
     "letter delivery location"
    ],
-   "answer": "The letter must be carried south through all of Darkshore and across the border into Ashenvale, reaching Maestra's Post along the western road."
+   "answer": "Carry the letter south through Darkshore and across the border into Ashenvale, to Maestra's Post along the western road."
   }
  ],
  "angles": [
   {
    "target": "class:Paladin",
-   "text": "This missive highlights an unusual fellowship: a human paladin training a night elf student in the Holy Light, bridging ancient Kaldorei lands with the martial faith of the Eastern Kingdoms."
+   "text": "As a paladin, you can see a human paladin teaching a night elf the Holy Light, joining Kaldorei lands with the martial faith of the Eastern Kingdoms."
   },
   {
    "target": "faction:Alliance",
-   "text": "The message reflects growing cooperation within the Alliance, as human champions and night elf Sentinels join forces to combat demonic cults infiltrating northern Kalimdor."
+   "text": "As an Alliance member, you can see human champions and night elf Sentinels working together against demonic cults in northern Kalimdor."
   }
  ],
  "keywords": [
@@ -87,5 +87,6 @@
  "attribution": [
   "Letter to Delgren",
   "The Tower of Althalaxx (3)"
- ]
+ ],
+ "style": 1
 }

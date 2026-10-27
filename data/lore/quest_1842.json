@@ -17,16 +17,16 @@
   "wiki": "Satyr Hooves",
   "chain": []
  },
- "summary": "Satyr Hooves is a quest given by the troll craftsman Ula'elek in Sen'jin Village. In pursuit of forging a pair of empowered brutal gauntlets, warriors must journey north into Ashenvale to hunt satyrs and harvest their magically bloated, uncloven hooves.",
+ "summary": "In Sen'jin Village, Ula'elek sends warriors north for Satyr Hooves. He needs their strange power to forge brutal gauntlets.",
  "sections": [
   {
    "title": "Harnessing Corrupted Essence",
-   "body": "To forge armor capable of rivaling the most brutal forces on Kalimdor, the Darkspear craftsman Ula'elek looks beyond mundane iron and leather. He directs aspiring warriors north to the ancient woods of Ashenvale, where lingering demonic corruption festers within the local satyr covens.",
+   "body": "Ula'elek sends you into Ashenvale's ancient woods to gather what his craft requires. Demonic corruption still clings to the satyr covens there, and he seeks more than iron and leather for armor meant to rival Kalimdor's fiercest forces.",
    "spoiler": 0
   },
   {
    "title": "The Bloat of Ashenvale's Magic",
-   "body": "According to Ula'elek, the satyrs in northeastern Ashenvale sustain themselves by leeching the forest's latent purity and twisting it into foul power. Those demons that have gorged themselves the deepest on this borrowed life manifest abnormal, swollen hooves that have lost their natural cloven split. Ula'elek intends to drain this concentrated magical energy and weave it directly into the gauntlets he crafts.",
+   "body": "In northeastern Ashenvale, satyrs feed on the forest's lingering purity and twist it into foul power. Those that take in the most develop swollen hooves without the usual cloven split. Ula'elek plans to draw out that concentrated magic and weave it into the gauntlets he makes.",
    "spoiler": 0
   }
  ],
@@ -38,7 +38,7 @@
     "hoof purpose",
     "what are the hooves for"
    ],
-   "answer": "Ula'elek requires the hooves to empower the brutal gauntlets he is crafting. He intends to siphon the concentrated forest magic that the satyrs have drained and corrupted into their swollen feet."
+   "answer": "Ula'elek needs the hooves to empower the brutal gauntlets he is making. He means to draw out the forest magic the satyrs have drained and corrupted."
   },
   {
    "q": "Where are the satyrs found?",
@@ -47,7 +47,7 @@
     "satyr location",
     "where to find satyr hooves"
    ],
-   "answer": "They inhabit northeastern Ashenvale, where they roost among corrupted ancient ruins and leech off the residual magical energy of the deep forest."
+   "answer": "Satyrs dwell in northeastern Ashenvale, among corrupted ancient ruins, where they drain the deep forest's lingering magic."
   },
   {
    "q": "What makes an uncloven hoof special?",
@@ -56,7 +56,7 @@
     "why uncloven",
     "swollen hooves"
    ],
-   "answer": "The lack of a cloven split indicates that a satyr has engorged itself on excessive amounts of Ashenvale's pure magic, swelling its extremities with stolen power."
+   "answer": "A hoof without a cloven split marks a satyr that has gorged itself on Ashenvale's pure magic. The stolen power swells its feet."
   },
   {
    "q": "Who is Ula'elek?",
@@ -65,7 +65,7 @@
     "quest giver",
     "troll in senjin"
    ],
-   "answer": "Ula'elek is a skilled Darkspear troll armor craftsman residing in Sen'jin Village in southern Durotar, known for assisting warriors with crafting trial gear."
+   "answer": "Ula'elek is a skilled Darkspear troll armor craftsman in Sen'jin Village, in southern Durotar. He helps warriors craft trial gear."
   },
   {
    "q": "What armor is Ula'elek forging?",
@@ -74,7 +74,7 @@
     "gauntlet quest",
     "reward armor"
    ],
-   "answer": "He is preparing to craft a pair of Brutal Gauntlets, heavy protective handwear imbued with stolen magical potency for rising Horde warriors."
+   "answer": "Ula'elek is preparing a pair of Brutal Gauntlets, heavy hand armor imbued with stolen magic for rising Horde warriors."
   },
   {
    "q": "Do the satyrs serve the Burning Legion here?",
@@ -82,21 +82,21 @@
     "satyr allegiance",
     "are satyrs legion"
    ],
-   "answer": "Yes. Satyrs are ancient night elves transformed by demonic pacts, and the lingering covens in Kalimdor's woodlands continue to practice fel corruption in service to demonic powers."
+   "answer": "Yes. Satyrs are ancient night elves transformed by demonic pacts. The covens lingering in Kalimdor's woodlands still wield fel corruption in service to demonic powers."
   }
  ],
  "angles": [
   {
    "target": "class:Warrior",
-   "text": "This task is part of a warrior's rite of progression, testing their martial resilience against cunning demonic ambushers to earn personalized armor."
+   "text": "As a warrior, you face cunning demonic ambushers as part of your rite of progression. The trial tests your martial resilience and earns you personalized armor."
   },
   {
    "target": "faction:Horde",
-   "text": "Undertaking this hunt pushes Horde warriors out of Durotar's arid plains and deep into contested night elf territory in Ashenvale."
+   "text": "As a Horde warrior, you leave Durotar's arid plains and travel deep into contested night elf territory in Ashenvale."
   },
   {
    "target": "race:Troll",
-   "text": "Ula'elek's methods demonstrate the pragmatic nature of Darkspear craftsmanship, siphoning raw essence from fallen magical foes rather than relying purely on conventional smithing."
+   "text": "As a troll, you can see Darkspear craft in Ula'elek's methods: he draws raw essence from fallen magical foes instead of relying only on conventional smithing."
   }
  ],
  "keywords": [
@@ -120,5 +120,6 @@
  ],
  "attribution": [
   "Satyr Hooves"
- ]
+ ],
+ "style": 1
 }

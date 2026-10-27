@@ -11,16 +11,16 @@
    "quest:1858"
   ]
  },
- "summary": "Tazan's Satchel is a locked pouch carried by the troll Tazan, who operates alongside pirates near Ratchet. It holds secret information coveted by the Shattered Hand, the covert guild of rogues based beneath Orgrimmar.",
+ "summary": "Near Ratchet, Tazan carries a locked satchel as he deals with pirates along the coast. The Shattered Hand wants the secret information inside.",
  "sections": [
   {
    "title": "Secrets of the Barrens",
-   "body": "Within the sun-baked wastes of the Barrens, a troll named Tazan carries on illicit dealings with the pirates encamped along the coast near Ratchet. These under-the-table arrangements drew the keen eyes of Therzok, a guild master of the Shattered Hand situated in the subterranean gloom of the Cleft of Shadow. Seeking to build covert power away from Warchief Thrall's cautious diplomacy, the Shattered Hand marked Tazan for elimination to seize the valuable intelligence bound within his satchel.",
+   "body": "Tazan deals with pirates camped along the Barrens coast near Ratchet. Therzok, a guild master of the Shattered Hand beneath Orgrimmar in the Cleft of Shadow, takes notice. The guild seeks covert power beyond Warchief Thrall's cautious diplomacy, and marks Tazan for elimination to seize the intelligence in his satchel.",
    "spoiler": 0
   },
   {
    "title": "A Complex Lock",
-   "body": "Recovering the satchel is only half the trial for an aspiring rogue. Secured with an intricate locking mechanism, the satchel cannot easily be forced open in the field. Tazan entrusted the key to his associate Gamon, a drunken tavern fixture in Orgrimmar. Aspiring initiates must put their sleight of hand to the test, lifting the key directly from Gamon's pockets without raising an alarm to finally uncover Tazan's logbook.",
+   "body": "The satchel's lock makes it hard to open in the field. Tazan gave the key to Gamon, his associate, who is a drunken fixture in an Orgrimmar tavern. Rogues seeking the satchel must lift the key from Gamon's pocket without raising an alarm, then they can read Tazan's logbook.",
    "spoiler": 1
   }
  ],
@@ -32,7 +32,7 @@
     "tazan owner",
     "satchel owner"
    ],
-   "answer": "The satchel belongs to Tazan, a troll operating in the Barrens who conducts secretive business with the pirates near Ratchet."
+   "answer": "The satchel belongs to Tazan, a troll who deals with pirates near Ratchet in the Barrens."
   },
   {
    "q": "Why does the Shattered Hand want Tazan's Satchel?",
@@ -41,7 +41,7 @@
     "shattered hand satchel",
     "why steal the satchel"
    ],
-   "answer": "Therzok and the Shattered Hand seek to expand their intelligence network and reclaim martial pride from the shadows. Tazan's dealings with coastal pirates hold valuable information that the rogues wish to exploit."
+   "answer": "Therzok and the Shattered Hand want the intelligence from Tazan's dealings with coastal pirates to expand their network and reclaim martial pride from the shadows."
   },
   {
    "q": "Where is the key to open the satchel?",
@@ -50,7 +50,7 @@
     "tazan key",
     "where is the key"
    ],
-   "answer": "Tazan did not carry the key on his person; instead, he left it in the keeping of his associate, a drunken patron named Gamon found in an Orgrimmar tavern."
+   "answer": "Tazan left the key with his associate Gamon, a drunken patron in an Orgrimmar tavern."
   },
   {
    "q": "What is inside Tazan's Satchel?",
@@ -59,17 +59,17 @@
     "what is in the bag",
     "tazan logbook"
    ],
-   "answer": "Inside the locked satchel rests Tazan's logbook, detailing his clandestine trades and associations with the coastal buccaneers."
+   "answer": "Tazan's logbook rests inside the locked satchel and details his secret trades and ties to coastal buccaneers."
   }
  ],
  "angles": [
   {
    "target": "class:Rogue",
-   "text": "Procuring the satchel and liberating its key from Gamon is a definitive rite of passage for Horde rogues earning their place within the Shattered Hand."
+   "text": "As a Horde rogue, you must recover the satchel and lift its key from Gamon to earn your place in the Shattered Hand."
   },
   {
    "target": "faction:Horde",
-   "text": "The pursuit of the satchel highlights the tension within Orgrimmar, where the Shattered Hand seeks covert advantage while Warchief Thrall pursues a more measured course."
+   "text": "In Orgrimmar, the Shattered Hand seeks covert advantage while Warchief Thrall pursues a more measured course."
   }
  ],
  "keywords": [
@@ -96,5 +96,6 @@
   "Tazan's Satchel",
   "The Shattered Hand (Classic)",
   "The Shattered Hand (2)"
- ]
+ ],
+ "style": 1
 }

@@ -17,16 +17,16 @@
   "wiki": "Free From the Hold",
   "chain": []
  },
- "summary": "Free From the Hold is an escort quest in the Barrens where Horde adventurers rescue Gilthares Firebough from human captors at Northwatch Hold. Captured after his transport was intercepted and sunk, the elf deckhand seeks a daring break out to reunite with his captain in Ratchet.",
+ "summary": "Gilthares Firebough is held at Northwatch Hold after Alliance forces sink his ship off the Barrens coast. The elf deckhand wants to reach his captain in Ratchet.",
  "sections": [
   {
    "title": "Imprisoned at Northwatch",
-   "body": "Northwatch Hold stands as Theramore's military spearhead on the Barrens coast, vigilant and aggressive toward any perceived threat. That paranoia caught Gilthares Firebough in its net. His ship, running moonshine along the commercial lane between Ratchet and Booty Bay, was bombarded and sent to the ocean floor by Alliance forces. As the lone survivor plucked from the wreckage, Gilthares was thrown into Northwatch's dungeons accused of being an enemy agent conspiring against the Alliance.",
+   "body": "Gilthares Firebough is held in the dungeons at Northwatch Hold. Theramore uses the fortress as its military foothold on the Barrens coast, where its garrison watches for threats. Gilthares had been aboard a ship carrying moonshine along the trade route between Ratchet and Booty Bay when Alliance forces bombarded it and sent it beneath the sea. He alone survived the wreck. The soldiers took him to Northwatch and accused him of being an enemy agent conspiring against the Alliance.",
    "spoiler": 0
   },
   {
    "title": "A Smuggler's Flight",
-   "body": "Despite his jailers painting him as a dangerous saboteur, Gilthares insists he is nothing more than a humble deckhand caught carrying illicit liquor. With the aid of Horde forces willing to strike at Northwatch, he makes a desperate bid for freedom, fighting his way out of the fortress and fleeing north up the shoreline to Ratchet. There, Captain Thalo'thas Brightsun welcomes the returned crewmate back into the fold of the Thalo'dan Privateers.",
+   "body": "Gilthares says he is only a deckhand who was carrying illicit liquor. With help from Horde forces, he fights his way out of Northwatch Hold and flees north along the shore toward Ratchet. Captain Thalo'thas Brightsun welcomes him back to the crew of the Thalo'dan Privateers.",
    "spoiler": 0
   }
  ],
@@ -38,7 +38,7 @@
     "who is gilthares firebough",
     "who is the prisoner in northwatch hold"
    ],
-   "answer": "Gilthares Firebough is an elf deckhand sailing under Captain Thalo'thas Brightsun. He served aboard a transport moving moonshine between Ratchet and Booty Bay before Theramore troops sank his vessel and threw him in chains."
+   "answer": "Gilthares Firebough is an elf deckhand sailing under Captain Thalo'thas Brightsun. He served aboard a transport carrying moonshine between Ratchet and Booty Bay before Theramore troops sank the vessel and imprisoned him."
   },
   {
    "q": "Why was Gilthares arrested by Theramore forces?",
@@ -47,7 +47,7 @@
     "why is gilthares in jail",
     "why was the ship sunk"
    ],
-   "answer": "Alliance soldiers from Northwatch Hold intercepted his ship off the coast of the Barrens and blasted it into the sea. Brandishing extreme wariness toward all maritime traffic near their stronghold, the garrison deemed the moonshine ship a hostile vessel and condemned Gilthares as an operative hostile to the Alliance."
+   "answer": "Alliance soldiers at Northwatch Hold intercepted Gilthares's ship off the Barrens coast and blasted it into the sea. Wary of maritime traffic near their stronghold, they condemned him as an operative hostile to the Alliance."
   },
   {
    "q": "Where does Gilthares go once freed?",
@@ -56,7 +56,7 @@
     "gilthares destination",
     "where does the escort go"
    ],
-   "answer": "Gilthares flees north out of Northwatch Hold, following the eastern shoreline of the Barrens until he reaches the neutral goblin port of Ratchet. Once there, he rejoins Captain Brightsun by the docks."
+   "answer": "Gilthares flees north from Northwatch Hold along the Barrens' eastern shore to Ratchet. There, he rejoins Captain Brightsun by the docks."
   },
   {
    "q": "Who are the Thalo'dan Privateers?",
@@ -65,7 +65,7 @@
     "captain brightsun crew",
     "who does brightsun lead"
    ],
-   "answer": "The Thalo'dan Privateers are a maritime crew led by Captain Thalo'thas Brightsun operating out of Ratchet. They engage in shipping and illicit smuggling, including moving bootleg moonshine across the sea between Kalimdor and the Eastern Kingdoms."
+   "answer": "The Thalo'dan Privateers are a maritime crew led by Captain Thalo'thas Brightsun and based in Ratchet. They ship goods and smuggle bootleg moonshine across the sea between Kalimdor and the Eastern Kingdoms."
   },
   {
    "q": "Why is Northwatch Hold attacking civilian or smuggler ships?",
@@ -74,7 +74,7 @@
     "theramore aggression barrens",
     "northwatch hold purpose"
    ],
-   "answer": "Northwatch Hold acts as Theramore's fortress in the Barrens, positioned directly between Horde territory and key maritime routes. Heightened paranoia and strict military orders lead its commanders to view nearly any non-Alliance sea traffic as a subversive Horde operation or pirate threat."
+   "answer": "Northwatch Hold is Theramore's fortress in the Barrens, between Horde territory and key sea routes. Its commanders' paranoia and strict military orders lead them to see nearly any non-Alliance ship as a Horde operation or pirate threat."
   },
   {
    "q": "What cargo was the sunken ship carrying?",
@@ -83,13 +83,13 @@
     "gilthares cargo",
     "what were they transporting"
    ],
-   "answer": "The vessel was carrying a run of illicit moonshine meant for distribution between Ratchet and Booty Bay, rather than armaments or military supplies."
+   "answer": "The sunken vessel carried illicit moonshine for distribution between Ratchet and Booty Bay, not weapons or military supplies."
   }
  ],
  "angles": [
   {
    "target": "faction:Horde",
-   "text": "Striking deep into Northwatch Hold to liberate an imprisoned smuggler is another satisfying blow against Theramore's militaristic foothold on the Barrens coast."
+   "text": "As a member of the Horde, you can strike at Theramore's foothold on the Barrens coast by freeing a smuggler held at Northwatch Hold."
   }
  ],
  "keywords": [
@@ -114,5 +114,6 @@
  ],
  "attribution": [
   "Free From the Hold"
- ]
+ ],
+ "style": 1
 }

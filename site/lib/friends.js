@@ -82,11 +82,16 @@ export const FRIENDS_SETUP = [
   `CREATE TABLE IF NOT EXISTS friend_reports (
     id INTEGER PRIMARY KEY AUTOINCREMENT, reporter TEXT NOT NULL, reported TEXT NOT NULL, messages TEXT NOT NULL,
     note TEXT, created TEXT NOT NULL, status TEXT NOT NULL DEFAULT 'open')`,
+  // What Willo read back and waits on a yes for (lib/friend-send.js holdMessage, holdChange): a message, or a change to
+  // their friends (kind); one a player, for a moment.
+  `CREATE TABLE IF NOT EXISTS friend_pending (
+    user_id TEXT PRIMARY KEY, recipient TEXT NOT NULL, body TEXT NOT NULL, created TEXT NOT NULL,
+    kind TEXT NOT NULL DEFAULT 'message')`,
 ];
 
 // Columns added after their tables were first made (lib/accounts.js setup adds the missing ones): table -> [column, type].
 export const FRIENDS_COLUMNS = { friend_people: [["hide_online", "INTEGER NOT NULL DEFAULT 0"]],
-  friend_messages: [["card", "TEXT"], ["image", "TEXT"]] };
+  friend_messages: [["card", "TEXT"], ["image", "TEXT"]], friend_pending: [["kind", "TEXT NOT NULL DEFAULT 'message'"]] };
 
 // What "Delete my account" runs (lib/accounts.js USER_DATA): every row that names the account, either side.
 export const FRIENDS_USER_DATA = [
@@ -98,6 +103,7 @@ export const FRIENDS_USER_DATA = [
   ["DELETE FROM friend_edges WHERE other_id = ?", u => u.id],
   ["DELETE FROM friend_reports WHERE reporter = ?", u => u.id],
   ["DELETE FROM friend_reports WHERE reported = ?", u => u.id],
+  ["DELETE FROM friend_pending WHERE user_id = ?", u => u.id],
   ["DELETE FROM friend_people WHERE user_id = ?", u => u.id],
 ];
 

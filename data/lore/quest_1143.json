@@ -17,16 +17,16 @@
   "wiki": "The Tower of Althalaxx (8)",
   "chain": []
  },
- "summary": "This quest marks the direct assault on Athrikus Narassin, the ancient dark sorcerer holding the pinnacle of the Tower of Althalaxx. Under the direction of Balthule Shadowstrike, an Alliance operative must breach the ruined keep and execute the cabal's master. Eliminating Athrikus strikes a devastating blow to the demonic worship corrupting northern Darkshore.",
+ "summary": "At the Tower of Althalaxx, demonic rites threaten northern Darkshore. Balthule Shadowstrike directs an Alliance assault on Athrikus Narassin, the ancient sorcerer who commands the cult from the tower’s peak.",
  "sections": [
   {
    "title": "Breaching the Summit",
-   "body": "Perched upon the ruined heights of northern Darkshore, the Tower of Althalaxx has become a foul center of demonic summoning. Balthule Shadowstrike, monitoring the ruin from nearby, determines that the time to act is immediate. At the tower's peak dwells Athrikus Narassin, an ancient and formidable night elven warlock who orchestrates the dark rituals taking place beneath its shattered stone roof.",
+   "body": "In northern Darkshore, the ruined Tower of Althalaxx shelters demonic summoning. Balthule Shadowstrike watches the tower from nearby and sees that the threat must be faced now. Athrikus Narassin dwells at the summit, an ancient night elf warlock who directs the dark rituals beneath the shattered roof.",
    "spoiler": 0
   },
   {
    "title": "A Decisive Strike",
-   "body": "Athrikus surrounds himself with loyal warlocks and dark magic far deadlier than the cultists patrolling the slopes below. Striking down the master cultist requires cutting through his inner circle and securing his severed head as proof. While Balthule notes that the demonic presence may one day seek to regroup, Athrikus's demise robs the cult of its commanding intellect and buys precious safety for Darkshore.",
+   "body": "Athrikus Narassin is protected by loyal warlocks and dark magic more dangerous than the cultists on the slopes. To reach him, you must cut through his inner circle and take his severed head as proof. Balthule warns that demonic forces may regroup, but Athrikus’s death leaves the cult without its commander and brings Darkshore precious safety.",
    "spoiler": 1
   }
  ],
@@ -38,7 +38,7 @@
     "who is athrikus",
     "boss of althalaxx"
    ],
-   "answer": "Athrikus Narassin is an ancient night elf warlock commanding the cultists stationed at the Tower of Althalaxx. He directs the dark summonings and demonic rites infesting the ruins in northern Darkshore."
+   "answer": "Athrikus Narassin is an ancient night elf warlock who commands the cultists at the Tower of Althalaxx. He directs dark summonings and demonic rites in the northern Darkshore ruins."
   },
   {
    "q": "Where can Athrikus Narassin be found?",
@@ -47,7 +47,7 @@
     "athrikus location",
     "top of althalaxx"
    ],
-   "answer": "Athrikus resides at the very top of the Tower of Althalaxx, guarded by a coterie of seasoned warlocks and summoned minions."
+   "answer": "Athrikus Narassin dwells at the summit of the Tower of Althalaxx, guarded by seasoned warlocks and summoned minions."
   },
   {
    "q": "Who gives this quest?",
@@ -56,7 +56,7 @@
     "balthule",
     "balthule shadowstrike"
    ],
-   "answer": "Balthule Shadowstrike, an Alliance scout camped near the base of the Tower of Althalaxx, issues the mission to slay Athrikus."
+   "answer": "Balthule Shadowstrike, an Alliance scout camped near the base of the Tower of Althalaxx, asks you to slay Athrikus."
   },
   {
    "q": "Who is Delgren mentioned in the quest?",
@@ -64,7 +64,7 @@
     "delgren",
     "delgren the purifier"
    ],
-   "answer": "Delgren the Purifier is an Alliance ally stationed nearby who sent you to coordinate with Balthule to eliminate the demonic cabal."
+   "answer": "Delgren the Purifier is an Alliance ally nearby. He sent you to coordinate with Balthule against the demonic cabal."
   },
   {
    "q": "What happens after Athrikus is defeated?",
@@ -72,7 +72,7 @@
     "after athrikus",
     "tower of althalaxx ending"
    ],
-   "answer": "Balthule confirms that Athrikus's death deals a critical blow to demonic operations in the area, though he warns that the dark forces will eventually regroup."
+   "answer": "Athrikus Narassin’s death deals a critical blow to demonic operations in the area, though Balthule warns that the dark forces may regroup."
   },
   {
    "q": "Why is the Tower of Althalaxx dangerous to Darkshore?",
@@ -80,21 +80,21 @@
     "why clean tower",
     "althalaxx threat"
    ],
-   "answer": "The cultists and warlocks residing in the tower practice fel sorcery and summon demons into night elven lands, threatening the wilderness and the nearby settlements."
+   "answer": "Cultists and warlocks in the tower practice fel sorcery and summon demons into night elven lands, threatening the wilderness and nearby settlements."
   }
  ],
  "angles": [
   {
    "target": "race:NightElf",
-   "text": "Confronting Athrikus Narassin represents a bitter reminder of the arcane and demonic corruption that once devastated night elven civilization."
+   "text": "As a night elf, confronting Athrikus Narassin recalls the arcane and demonic corruption that once devastated your people."
   },
   {
    "target": "class:Warlock",
-   "text": "Athrikus commands potent demonic magic from the summit of Althalaxx, serving as a lethal example of how unbound fel worship draws lethal attention."
+   "text": "As a warlock, Athrikus’s potent demonic magic at the summit of Althalaxx shows the danger of unbound fel worship."
   },
   {
    "target": "faction:Alliance",
-   "text": "Securing northern Darkshore from demonic cultists is vital to protecting Alliance travel corridors between Auberdine and the lands beyond."
+   "text": "As an Alliance member, helping secure northern Darkshore protects travel between Auberdine and the lands beyond."
   }
  ],
  "keywords": [
@@ -116,5 +116,6 @@
  ],
  "attribution": [
   "The Tower of Althalaxx (8)"
- ]
+ ],
+ "style": 1
 }

@@ -1,26 +1,26 @@
 {
- "generated": "2026-10-23",
+ "generated": "2026-10-26",
  "forever_only": {
-  "quests_known": 498,
-  "quests_with_text": 460,
-  "narrated": 363,
+  "quests_known": 508,
+  "quests_with_text": 471,
+  "narrated": 432,
   "npcs_known": 225,
-  "npcs_with_text": 68
+  "npcs_with_text": 72
  },
  "zones": [
   {
    "zone": "Other",
    "key": "general",
-   "quests": 385,
-   "with_text": 347,
-   "narrated": 257
+   "quests": 395,
+   "with_text": 358,
+   "narrated": 320
   },
   {
    "zone": "Zephras Isle",
    "key": "zephras",
    "quests": 25,
    "with_text": 25,
-   "narrated": 24
+   "narrated": 25
   },
   {
    "zone": "Tirisfal Glades",
@@ -69,7 +69,7 @@
    "key": "alterac",
    "quests": 5,
    "with_text": 5,
-   "narrated": 0
+   "narrated": 5
   },
   {
    "zone": "Redridge Mountains",
@@ -181,13 +181,6 @@
   {
    "kind": "quest",
    "id": 96204,
-   "name": null,
-   "zone": "Other",
-   "level": null
-  },
-  {
-   "kind": "quest",
-   "id": 97951,
    "name": null,
    "zone": "Other",
    "level": null
@@ -320,13 +313,6 @@
   },
   {
    "kind": "quest",
-   "id": 98072,
-   "name": "Crocs of the Sky",
-   "zone": "Other",
-   "level": null
-  },
-  {
-   "kind": "quest",
    "id": 98896,
    "name": "Darkspear Islands Clash",
    "zone": "Other",
@@ -362,6 +348,13 @@
   },
   {
    "kind": "quest",
+   "id": 93459,
+   "name": "More Al'Aketh Ears",
+   "zone": "Other",
+   "level": null
+  },
+  {
+   "kind": "quest",
    "id": 92110,
    "name": "My First Real Potion",
    "zone": "Other",
@@ -385,6 +378,13 @@
    "kind": "quest",
    "id": 78143,
    "name": "Secrets of the Dreamers",
+   "zone": "Other",
+   "level": null
+  },
+  {
+   "kind": "quest",
+   "id": 87491,
+   "name": "Spark of Freedom",
    "zone": "Other",
    "level": null
   },
@@ -420,13 +420,6 @@
    "kind": "quest",
    "id": 99080,
    "name": "Vertreibt sie",
-   "zone": "Other",
-   "level": null
-  },
-  {
-   "kind": "quest",
-   "id": 94947,
-   "name": "Welcome to Azeroth",
    "zone": "Other",
    "level": null
   },
@@ -567,13 +560,6 @@
    "kind": "npc",
    "id": 258306,
    "name": "Granny Finespindle",
-   "zone": null,
-   "level": null
-  },
-  {
-   "kind": "npc",
-   "id": 258113,
-   "name": "Ingrid Dunwald",
    "zone": null,
    "level": null
   },

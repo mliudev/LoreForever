@@ -12,16 +12,16 @@
   "harvested": true,
   "level": "20"
  },
- "summary": "WANTED: Bruuz is a bounty posted by Gazlowe in the goblin port of Ratchet. A massive predatory shark has taken up residence near the harbor docks, threatening maritime traffic and coastal trade until someone puts an end to it.",
+ "summary": "Bruuz threatens the harbor traffic that keeps Ratchet busy. Gazlowe has posted a bounty for the huge shark prowling the docks and disrupting coastal trade.",
  "sections": [
   {
    "title": "A Terror in the Bay",
-   "body": "Ratchet thrives on merchant shipping, serving as the primary neutral gateway between Kalimdor and the Eastern Kingdoms. That steady stream of commerce makes the waters around the docks bustling and chaotic, but recently it has drawn a far more dangerous visitor. A gargantuan shark, dubbed 'Bruuz' by the frightened dockworkers, has begun prowling the bay. Rather than remaining in deep water, the beast aggressively targets small skiffs, local sailors, and offloading cargo, disrupting port operations.",
+   "body": "Ratchet is the primary neutral gateway between Kalimdor and the Eastern Kingdoms, and its trade depends on merchant ships. Lately, a huge shark called Bruuz has been prowling the bay. Dockworkers gave the shark its name after it began attacking small skiffs, sailors, and cargo being unloaded near the docks. Its presence disrupts the port and puts the ships that keep Ratchet supplied at risk.",
    "spoiler": 0
   },
   {
    "title": "Gazlowe's Bounty",
-   "body": "Gazlowe cannot afford to have vessels avoiding his port out of fear of getting mauled by sea life. So he has posted a public bounty notice calling on all anglers and promising a hefty reward. To claim it, a hunter must slay Bruuz and haul back the predator's dorsal fin as proof of the deed.",
+   "body": "Gazlowe has posted a public bounty to keep ships from avoiding his port for fear of the shark. The notice calls on anglers and promises a hefty reward. To claim it, you need to slay Bruuz and bring back the shark's dorsal fin as proof.",
    "spoiler": 0
   }
  ],
@@ -33,7 +33,7 @@
     "bruuz shark",
     "who is bruuz the shark"
    ],
-   "answer": "Bruuz is a notoriously large, aggressive shark that has taken up hunting grounds around the shipping docks of Ratchet. Dockworkers gave the monster its nickname after several attacks on sailors and small vessels."
+   "answer": "Bruuz is a huge, aggressive shark hunting near Ratchet's shipping docks. Dockworkers gave it that name after attacks on sailors and small vessels."
   },
   {
    "q": "Why did Gazlowe post a bounty on Bruuz?",
@@ -42,7 +42,7 @@
     "gazlowe shark quest",
     "why want bruuz fin"
    ],
-   "answer": "Bruuz disrupts the maritime traffic that fuels Ratchet's economy. Gazlowe relies on steady trade and functioning docks, so a massive shark harassing sailors and wrecking boats hurts business enough to justify a cash reward for its carcass."
+   "answer": "Bruuz disrupts the shipping and trade that fuel Ratchet's economy. Gazlowe offers a cash reward for the shark's carcass to protect business at the docks."
   },
   {
    "q": "Where is Bruuz usually found?",
@@ -51,7 +51,7 @@
     "where is bruuz",
     "find bruuz"
    ],
-   "answer": "Bruuz stalks the waters directly off the coast of Ratchet in the Barrens, frequently circling near the main shipping piers and harbor entrance."
+   "answer": "Bruuz prowls the waters off Ratchet in the Barrens, often near the main shipping piers and harbor entrance."
   },
   {
    "q": "What proof does Gazlowe require for the kill?",
@@ -60,7 +60,7 @@
     "what do you bring gazlowe",
     "bruuz dorsal fin"
    ],
-   "answer": "Gazlowe demands Bruuz's dorsal fin as physical evidence that the massive predator has truly been slain before he parts with the bounty money."
+   "answer": "Gazlowe requires Bruuz's dorsal fin as proof that the shark has been slain before he pays the bounty."
   },
   {
    "q": "Can both Alliance and Horde adventurers take this bounty?",
@@ -69,7 +69,7 @@
     "can horde do wanted bruuz",
     "can alliance do bruuz"
    ],
-   "answer": "Yes. Ratchet operates under the neutral administration of the Steamwheedle Cartel, meaning Gazlowe welcomes any capable adventurer from either faction willing to dive in and solve his shark problem."
+   "answer": "Yes. Ratchet is run by the neutral Steamwheedle Cartel, and Gazlowe welcomes capable adventurers from either faction to deal with the shark."
   },
   {
    "q": "Why does the bounty specifically call for anglers?",
@@ -77,17 +77,17 @@
     "calling all anglers bruuz",
     "is this a fishing quest"
    ],
-   "answer": "The notice doesn't say why. It simply opens with 'Calling all anglers!' and promises a hefty reward to whoever brings Gazlowe the shark's fin."
+   "answer": "The notice does not explain why it calls for anglers. It opens with “Calling all anglers!” and promises a hefty reward for Bruuz's fin."
   }
  ],
  "angles": [
   {
    "target": "class:Hunter",
-   "text": "Taking down an apex aquatic predator like Bruuz offers a unique test of patience and aim."
+   "text": "As a hunter, you can test your patience and aim against Bruuz, a huge predator of the waters."
   },
   {
    "target": "profession:Cooking",
-   "text": "While Gazlowe only cares about the dorsal fin as proof of the kill, a shark of Bruuz's proportions represents a mountain of fresh coastal meat for enterprising cooks."
+   "text": "As a cook, you could make use of the fresh coastal meat from a shark as large as Bruuz. Gazlowe wants only the dorsal fin as proof of the kill."
   }
  ],
  "keywords": [
@@ -106,5 +106,6 @@
  ],
  "attribution": [
   "In-game quest text: WANTED: Bruuz"
- ]
+ ],
+ "style": 1
 }

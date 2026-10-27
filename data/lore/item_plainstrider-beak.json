@@ -10,11 +10,11 @@
    "quest:844"
   ]
  },
- "summary": "Plainstrider Beaks are harvested from the tall, flightless birds roaming the scrublands of the Barrens. Huntmasters at the Crossroads collect these beaks as physical proof that a hunter has culled local birds threatening the settlement's provisions.",
+ "summary": "Across the Barrens, hunters bring Plainstrider Beaks back to the Crossroads. Huntmasters use them as proof that birds threatening local provisions have been culled.",
  "sections": [
   {
    "title": "A Measure of the Hunt",
-   "body": "The vast savannahs surrounding the Crossroads are populated by various breeds of plainstrider, including greater, fleeting, and ornery varieties. While relatively simple prey compared to the fiercer beasts of central Kalimdor, their aggressive foraging makes them a constant pest around settlements. Sergra Darkthorn tasks arriving hunters with bringing back Plainstrider Beaks to confirm the flock has been culled away from essential supply lines and storehouses.",
+   "body": "Plainstriders forage around the Crossroads and threaten its supplies. Greater, fleeting, and ornery plainstriders roam the surrounding savannah. Sergra Darkthorn asks arriving hunters to bring back their beaks as proof that the flocks have been culled away from supply lines and storehouses.",
    "spoiler": 0
   }
  ],
@@ -26,7 +26,7 @@
     "sergra plainstrider beak quest",
     "why beaks"
    ],
-   "answer": "Sergra Darkthorn asks hunters to cull the plainstriders because the aggressive birds regularly harass the food supplies around the Crossroads. The beaks serve as tangible proof of a successful hunt to verify that the threat to local supply lines has been lessened."
+   "answer": "Sergra Darkthorn asks hunters to cull plainstriders because the birds harass food supplies around the Crossroads. Their beaks show that the hunt has reduced the threat to local supplies."
   },
   {
    "q": "Which creatures yield these beaks?",
@@ -35,7 +35,7 @@
     "plainstrider beak sources",
     "where to get beaks"
    ],
-   "answer": "They are taken from the various species of tallstrider roaming the savannah, including greater plainstriders, fleeting plainstriders, and ornery plainstriders in the Barrens."
+   "answer": "Hunters take the beaks from greater, fleeting, and ornery plainstriders roaming the Barrens savannah."
   },
   {
    "q": "Why don't all plainstriders provide a beak when slain?",
@@ -43,17 +43,17 @@
     "why bad drop rate",
     "plainstrider beak not dropping"
    ],
-   "answer": "In the chaos of combat, particularly against swift and thrashing birds, a beak is often cracked, shattered, or rendered unusable as a clean hunting trophy, meaning only intact specimens are gathered."
+   "answer": "In the struggle, swift, thrashing birds can leave a beak cracked, shattered, or unusable as a clean trophy. Hunters gather only intact beaks."
   }
  ],
  "angles": [
   {
    "target": "class:Hunter",
-   "text": "Taking down plainstriders and harvesting their beaks provides novice trackers an introductory lesson in stalking and securing prey across Kalimdor's open plains."
+   "text": "As a hunter, taking down plainstriders and gathering their beaks gives you an early lesson in stalking and securing prey across Kalimdor’s open plains."
   },
   {
    "target": "faction:Horde",
-   "text": "Culling the nuisance flocks east of the Crossroads directly protects the fragile trade and supply routes keeping the Horde outpost fed."
+   "text": "As a member of the Horde, culling the nuisance flocks east of the Crossroads helps protect the trade and supply routes that feed the outpost."
   }
  ],
  "keywords": [
@@ -72,5 +72,6 @@
  "attribution": [
   "Plainstrider Beak",
   "Plainstrider Menace (Classic)"
- ]
+ ],
+ "style": 1
 }

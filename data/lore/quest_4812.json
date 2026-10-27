@@ -21,16 +21,16 @@
    "The Fragments Within"
   ]
  },
- "summary": "As Water Cascades is an Alliance quest in Darkshore where players test the nature of the mysterious red crystal jutting from the eastern mountain wall. By pouring sacred moonwell water from Auberdine over its surface, players attempt to pierce its opaque exterior and uncover where it came from.",
+ "summary": "Sacred water is brought to bear on the red crystal in Darkshore. Sentinel Glynda Nal'Shea hopes moonwell water from Auberdine will reveal what lies beneath its opaque surface.",
  "sections": [
   {
    "title": "Purifying the Unknown",
-   "body": "After the red crystal is first sighted high on the eastern cliffs of Darkshore, Sentinel Glynda Nal'Shea devises a way to examine its composition safely. Moonwell waters carry potent divine and restorative magic, blessed by the night elves' devotion to Elune. Glynda reasons that dousing the alien monolith with water drawn from the moonwell in Auberdine will trigger a reaction, cutting through its strange, opaque shell without destroying it outright.",
+   "body": "Sentinel Glynda Nal'Shea seeks a safe way to study the red crystal high on Darkshore's eastern cliffs. Moonwell water holds divine, restorative magic, blessed by the night elves' devotion to Elune. Glynda believes water from Auberdine's moonwell may react with the strange stone and pierce its opaque shell without destroying it.",
    "spoiler": 0
   },
   {
    "title": "The Shadow of Felwood",
-   "body": "Nal'Shea's concern stems largely from geography. Darkshore's eastern ridge looms beneath the corrupted heights of Felwood, a forest twisted by demonic energies during the Third War. If the red spire is linked to Felwood's corruption, handling it carries immense risk. When the sacred water trickles down the crystal's lattice, the humming stone momentarily turns transparent, hinting that whatever lies trapped within requires a closer look.",
+   "body": "Felwood's corruption makes the eastern ridge a dangerous place to investigate. The forest above Darkshore was twisted by demonic energies during the Third War, and Sentinel Glynda Nal'Shea fears the red spire may be linked to that corruption. As sacred water trickles over the crystal's lattice, the humming stone briefly turns transparent. What lies within calls for a closer look.",
    "spoiler": 1
   }
  ],
@@ -42,7 +42,7 @@
     "moonwell water location",
     "fill empty water tube"
    ],
-   "answer": "You must draw the water from the moonwell located in the night elf settlement of Auberdine, using the empty vial provided by Sentinel Glynda Nal'Shea."
+   "answer": "Draw water from the moonwell in Auberdine, the night elf settlement, with the empty vial Sentinel Glynda Nal'Shea provides."
   },
   {
    "q": "Why does moonwell water affect the crystal?",
@@ -50,7 +50,7 @@
     "why moonwell water",
     "moonwell magic on crystal"
    ],
-   "answer": "Moonwells hold consecrated, magic-rich water blessed by Elune. Sentinel Glynda Nal'Shea anticipates that its purifying essence will react against the foreign energy of the stone and reveal its hidden composition."
+   "answer": "Moonwells hold consecrated water rich with magic, blessed by Elune. Sentinel Glynda Nal'Shea expects its purifying essence to react with the stone's foreign energy and reveal its hidden composition."
   },
   {
    "q": "Where is the red crystal located?",
@@ -59,7 +59,7 @@
     "where is the crystal",
     "red crystal darkshore"
    ],
-   "answer": "The mysterious red crystal rests along Darkshore's eastern mountain wall, nestled into the rocky foothills separating the shore from the highlands above."
+   "answer": "The red crystal rests along Darkshore's eastern mountain wall, set into the rocky foothills between the shore and the highlands above."
   },
   {
    "q": "Why is Sentinel Glynda worried about Felwood?",
@@ -67,7 +67,7 @@
     "glynda felwood",
     "connection to felwood"
    ],
-   "answer": "Felwood lies directly east and above Darkshore, ravaged by demonic corruption from the Third War. Because the crystal appeared near the boundary ridge, Glynda fears it may share that foul, demonic origin."
+   "answer": "Felwood lies east and above Darkshore, scarred by demonic corruption from the Third War. Since the crystal appeared near the boundary ridge, Glynda fears it may share that demonic origin."
   },
   {
    "q": "What happens when you pour the water on the crystal?",
@@ -75,7 +75,7 @@
     "pouring water result",
     "what happens to the crystal"
    ],
-   "answer": "Glynda expects the potent moonwell water to reveal a clue about the crystal's composition. Its reaction is discovered when you pour the water over it."
+   "answer": "Sentinel Glynda expects the potent moonwell water to reveal a clue to the crystal's composition. Its reaction becomes clear when you pour the water over it."
   },
   {
    "q": "Who gives the quest As Water Cascades?",
@@ -83,21 +83,21 @@
     "quest giver",
     "who starts as water cascades"
    ],
-   "answer": "The quest is given by Sentinel Glynda Nal'Shea in Auberdine, immediately following the reconnaissance mission, The Red Crystal."
+   "answer": "Sentinel Glynda Nal'Shea in Auberdine gives you this work after the reconnaissance mission called The Red Crystal."
   }
  ],
  "angles": [
   {
    "target": "race:NightElf",
-   "text": "For the Kaldorei, moonwells are sacred fonts of life and solace. Using their consecrated waters as a tool of revelation highlights how central Elune's grace is to untangling threats along their borders."
+   "text": "As a Kaldorei, you know moonwells as sacred fonts of life and solace. Using their consecrated waters to reveal what lies within a strange formation shows how Elune's grace helps untangle threats along your borders."
   },
   {
    "target": "class:Druid",
-   "text": "Druids watching over Darkshore's fragile ecosystem are naturally suspicious of unnatural foreign formations, especially along the ridge below corrupted Felwood."
+   "text": "As a druid, you watch over Darkshore's fragile ecosystem and have reason to distrust unnatural formations, especially along the ridge below corrupted Felwood."
   },
   {
    "target": "faction:Alliance",
-   "text": "Alliance scouts based in Auberdine must keep the coast secure from looming corruption creeping down from the eastern highlands."
+   "text": "As an Alliance member, you know the scouts based in Auberdine must keep the coast secure from corruption creeping down from the eastern highlands."
   }
  ],
  "keywords": [
@@ -119,5 +119,6 @@
  ],
  "attribution": [
   "As Water Cascades"
- ]
+ ],
+ "style": 1
 }

@@ -20,7 +20,7 @@
 import { setup } from "./accounts.js";
 import { ACCEPTED, ACCEPT_AFTER, contributors } from "./contribute.js";
 import { escape, page, linkList, contributorAnchor, publicVoices, loadVoices, communityRibbons } from "./voices.js";
-import { CREDITED_EDIT, creditedTranslators } from "./translations.js";
+import { CREDITED_EDIT, creditedTranslators, loadLanguages } from "./translations.js";
 
 const seconds = ms => Math.floor(ms / 1000);
 
@@ -86,26 +86,42 @@ export async function releaseCredits(env, release) {
 
 // Translators shown on /contributors: [{name, links, languages: [{locale, strings}], strings, first}], alphabetical.
 // Credited edits (CREDITED_EDIT, the rule /translate's cards use too), each string counted once per language however
-// many times it was edited.
-export async function translatorList(env) {
-  if (!env.DB) return [];
-  try {
-    const people = new Map();
-    for (const r of await creditedTranslators(env)) {
-      const name = cleanName(r.name);
-      if (!name) continue;
-      const p = people.get(r.id) || { name, links: linkList(r.links), languages: [], strings: 0, first: r.first };
-      p.languages.push({ locale: r.locale, strings: Number(r.n) || 0 });
-      p.strings += Number(r.n) || 0;
-      if (r.first < p.first) p.first = r.first;
-      people.set(r.id, p);
+// many times it was edited. kitCredits: [{name, locale, strings}] for whole kits sent outside the dashboard (a Drive
+// link on /translate/submit, a Discord zip), from languages.json "credits" (data/i18n/<locale>/pack.json "credits"):
+// the name the translator gave for credit. A dashboard translator of the same name gets the language added once.
+export async function translatorList(env, kitCredits = []) {
+  const people = new Map();
+  if (env.DB) {
+    try {
+      for (const r of await creditedTranslators(env)) {
+        const name = cleanName(r.name);
+        if (!name) continue;
+        const p = people.get(r.id) || { name, links: linkList(r.links), languages: [], strings: 0, first: r.first };
+        p.languages.push({ locale: r.locale, strings: Number(r.n) || 0 });
+        p.strings += Number(r.n) || 0;
+        if (r.first < p.first) p.first = r.first;
+        people.set(r.id, p);
+      }
+    } catch (e) {
+      people.clear();   // no translator tables yet, or D1 is down: the kit translators still show
     }
-    for (const p of people.values()) p.languages.sort((a, b) => a.locale.localeCompare(b.locale));
-    return [...people.values()].sort((a, b) => a.name.localeCompare(b.name, "en", { sensitivity: "base" }) || String(a.first).localeCompare(String(b.first)));
-  } catch (e) {
-    return [];
   }
+  for (const c of kitCredits) {
+    const name = cleanName(c.name);
+    if (!name || !c.locale) continue;
+    const key = [...people.keys()].find(k => people.get(k).name.toLowerCase() === name.toLowerCase()) ?? `kit:${name.toLowerCase()}`;
+    const p = people.get(key) || { name, links: [], languages: [], strings: 0, first: "" };
+    if (!p.languages.some(l => l.locale === c.locale)) {
+      p.languages.push({ locale: c.locale, strings: Number(c.strings) || 0 });
+      p.strings += Number(c.strings) || 0;
+    }
+    people.set(key, p);
+  }
+  for (const p of people.values()) p.languages.sort((a, b) => a.locale.localeCompare(b.locale));
+  return [...people.values()].sort((a, b) => a.name.localeCompare(b.name, "en", { sensitivity: "base" }) || String(a.first).localeCompare(String(b.first)));
 }
+
+const kitCredits = languages => languages.flatMap(l => (l.credits || []).map(c => ({ ...c, locale: l.locale })));
 
 // ---- Narrators ----
 
@@ -140,7 +156,8 @@ export function communityNarrators(groups) {
 
 export async function allCredits(env, request, now = Date.now()) {
   const [voices, translators, textFound] = await Promise.all([
-    publicVoices(env, request).catch(() => []), translatorList(env), textFinders(env, now),
+    publicVoices(env, request).catch(() => []),
+    loadLanguages(env, request).then(langs => translatorList(env, kitCredits(langs))), textFinders(env, now),
   ]);
   return { narrators: narratorGroups(voices), translators, finders: textFound };
 }

@@ -1,0 +1,92 @@
+{
+ "key": "quest:91285",
+ "type": "quest",
+ "name": "Murlocs at the Gates",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   91285
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "Breton Samuels asks you to help drive back murlocs troubling the keep. Their attacks are making it harder to rebuild.",
+ "sections": [
+  {
+   "title": "The Murloc Problem",
+   "body": "A tribe of murlocs once used the keep as spawning grounds. Since you and the others drove them out, they have remained a problem, and their attacks are growing harder to manage. Breton Samuels asks you to drive back some of them. They lurk in the bluffs along the eastern road and in camps around the lake to the west.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Attacks",
+   "body": "Breton Samuels expects the attacks to continue, but hopes pushing back the Vile Fin attackers and seers will slow them down. The keep is already difficult to rebuild with murlocs striking at its people.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is asking for help?",
+   "aliases": [
+    "who gives this",
+    "breton samuels",
+    "who wants help"
+   ],
+   "answer": "Breton Samuels asks you to drive back some of the murlocs troubling the keep."
+  },
+  {
+   "q": "Why are the murlocs a problem?",
+   "aliases": [
+    "why murlocs",
+    "murloc problem",
+    "what are they doing"
+   ],
+   "answer": "The murlocs have troubled the keep since its people drove them from their spawning grounds, and their attacks are becoming harder to manage."
+  },
+  {
+   "q": "Where are the murlocs?",
+   "aliases": [
+    "where murlocs",
+    "murlocs location",
+    "where to find them"
+   ],
+   "answer": "They lurk in the bluffs along the road to the east and in camps around the lake to the west."
+  },
+  {
+   "q": "Which murlocs are involved?",
+   "aliases": [
+    "murloc types",
+    "vile fins",
+    "who to fight"
+   ],
+   "answer": "The Vile Fin attackers and Vile Fin seers are troubling the keep."
+  },
+  {
+   "q": "Why does the keep need help?",
+   "aliases": [
+    "why help",
+    "keep rebuilding",
+    "what's at stake"
+   ],
+   "answer": "The keep is being rebuilt, and murloc attacks make that work harder."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "attacker",
+  "breton samuels",
+  "keep",
+  "murloc",
+  "murlocs at the gates",
+  "seer",
+  "spawning grounds",
+  "vile fin"
+ ],
+ "related": [
+  "topic:murloc"
+ ],
+ "style": 1,
+ "attribution": [
+  "In-game quest text: Murlocs at the Gates"
+ ]
+}

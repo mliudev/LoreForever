@@ -25,21 +25,21 @@
    "Razorhide"
   ]
  },
- "summary": "Mangletooth, a captive Razormane quilboar held at Camp Taurajo, reveals the sacred origin of the blood shards scattered throughout the Barrens. Imbued with the fallen demigod Agamaggan's life essence, these red minerals grant potent ancestral magic to anyone skilled enough to channel them. In exchange for the shards, the spiteful prisoner offers to share the primal boons of his god with the Horde.",
+ "summary": "Across the Barrens, blood shards carry the power of the fallen boar god Agamaggan. Quilboar say his blood sank into the earth and hardened into red stones. At Camp Taurajo, the captive Mangletooth trades their power to the Horde for his own reasons.",
  "sections": [
   {
    "title": "The Boar God's Legacy",
-   "body": "According to quilboar lore, the blood of the Ancient Boar God, Agamaggan, did not merely cause giant thorn mazes to erupt across the arid plains when he fell ten thousand years ago during the War of the Ancients. His divine blood seeped deep beneath the soil, infusing the subterranean minerals and crystallizing into blood-red stones. The quilboar revere these shards as sacred remnants of their creator, harvesting them from both mineral seams and holy grounds to serve as totems of battle and sorcery.",
+   "body": "Quilboar lore tells how Agamaggan fell ten thousand years ago in the War of the Ancients. His blood raised giant thorn mazes across the plains, then sank beneath the soil and seeped into minerals. In time, it hardened into blood-red stones. The quilboar honor the shards as sacred remnants of their creator. They gather them from mineral seams and holy grounds, then use them as totems for battle and sorcery.",
    "spoiler": 0
   },
   {
    "title": "Spite from a Wooden Cage",
-   "body": "Caged at Camp Taurajo by the tauren, Mangletooth harbors a bitter grudge against his own kind, claiming his tribe betrayed and cast him out. Deprived of his freedom and his connection to the magic of his people, he eagerly strikes a bargain with adventurers. By exchanging blood shards, Mangletooth bypasses his captivity to channel Agamaggan's power directly into Horde champions, gleefully unleashing them as an instrument of vengeance against the very quilboar who turned their backs on him.",
+   "body": "Mangletooth is held in a cage at Camp Taurajo by the tauren. He bears a bitter grudge against his own kind, saying his tribe betrayed and cast him out. Without freedom or the magic of his people, he bargains with adventurers for blood shards. Their power lets him reach Agamaggan's magic despite his captivity and channel it to Horde champions. He takes pleasure in turning that power against the quilboar who rejected him.",
    "spoiler": 0
   },
   {
    "title": "Razorfen's Sacred Roots",
-   "body": "In his captivity, Mangletooth speaks reverently of the quilboar's holiest sanctuary to the south: Razorfen. To the quilboar tribes, the sprawling briars of Razorfen Kraul and Razorfen Downs are literally formed from the fallen demigod's colossal skeleton and tusks. He warns that Razorfen Downs rests within Agamaggan's gaping maw itself\u2014a holy threshold said to devour and crush any intruders who enter without the Boar God's favor.",
+   "body": "Mangletooth speaks with reverence of Razorfen, the quilboar's holiest sanctuary to the south. The tribes say the vast briars of Razorfen Kraul and Razorfen Downs grew from Agamaggan's colossal skeleton and tusks. They believe Razorfen Downs lies within the demigod's gaping maw, a holy threshold that devours and crushes any who enter without the Boar God's favor.",
    "spoiler": 0
   }
  ],
@@ -51,7 +51,7 @@
     "blood shard lore",
     "where do blood shards come from"
    ],
-   "answer": "Blood shards are crystalline red stones formed when the blood of the Boar Ancient, Agamaggan, soaked into the earth during the ancient War of the Ancients. They hold remnants of divine quilboar magic and can be uncovered from mineral veins or taken from quilboar who carry them as totems."
+   "answer": "Blood shards are red stones formed when Agamaggan's blood soaked into the earth during the War of the Ancients. They hold remnants of divine quilboar magic and can be found in mineral veins or carried by quilboar as totems."
   },
   {
    "q": "Why is Mangletooth willing to help the Horde?",
@@ -60,7 +60,7 @@
     "is mangletooth friendly",
     "why help captive quilboar"
    ],
-   "answer": "Mangletooth sits captive at Camp Taurajo, and he says his own people have turned their backs on him. Embittered by the loss of his standing and severed from his people's sacred power, he offers to empower Horde adventurers so they can punish the quilboar who spurned him."
+   "answer": "Mangletooth is captive at Camp Taurajo, and says his own people turned their backs on him. Bitter over his exile and cut off from his people's sacred power, he offers to empower Horde adventurers against the quilboar who spurned him."
   },
   {
    "q": "What buffs does Mangletooth provide?",
@@ -69,7 +69,7 @@
     "what do i get for blood shards",
     "mangletooth boons"
    ],
-   "answer": "After proving you understand their value, Mangletooth accepts repeated offerings of blood shards in exchange for temporary primal boons honoring Agamaggan, enhancing traits like agility, strength, intellect, spirit, armor, and swift movement across the Barrens."
+   "answer": "Mangletooth trades blood shards for temporary primal boons in Agamaggan's honor. They can enhance agility, strength, intellect, spirit, armor, and swift movement across the Barrens."
   },
   {
    "q": "Where is Razorfen, and what is its significance?",
@@ -78,7 +78,7 @@
     "why is razorfen holy",
     "razorfen downs lore"
    ],
-   "answer": "Razorfen is the dense thorny bastion located in the southernmost reaches of the Barrens. Quilboar hold it as their most holy site, believing the towering briars grew directly from Agamaggan's fallen carcass and that Razorfen Downs represents the demigod's colossal maw."
+   "answer": "Razorfen lies in the southernmost Barrens. Quilboar revere it as their holiest site, believing its towering briars grew from Agamaggan's fallen body and Razorfen Downs is the demigod's colossal maw."
   },
   {
    "q": "Who was Agamaggan?",
@@ -87,7 +87,7 @@
     "boar god",
     "quilboar god"
    ],
-   "answer": "Agamaggan was an Ancient Guardian\u2014a titanic boar god who perished battling the Burning Legion ten thousand years ago. His spilled blood gave rise to the massive razor-sharp brambles across the Barrens and granted birth and mystical strength to the quilboar race."
+   "answer": "Agamaggan was an Ancient Guardian, a titanic boar god who died fighting the Burning Legion ten thousand years ago. His spilled blood raised the Barrens' massive razor-sharp brambles and gave the quilboar their birth and mystical strength."
   },
   {
    "q": "Can miners find blood shards in the Barrens?",
@@ -96,25 +96,25 @@
     "can i mine blood shards",
     "ore blood shards"
    ],
-   "answer": "Yes. Because Agamaggan's blood infused the rocks and minerals of the Barrens, prospectors and miners occasionally extract blood shards alongside ordinary tin and copper ores."
+   "answer": "Yes. Agamaggan's blood infused the Barrens' rocks and minerals, so miners sometimes find blood shards alongside ordinary tin and copper ore."
   }
  ],
  "angles": [
   {
    "target": "profession:Mining",
-   "text": "Miners working veins across the Barrens can find blood shards embedded right alongside tin and copper ore, directly extracting the crystallized blood of an Ancient Guardian."
+   "text": "Across the Barrens, miners can find blood shards embedded alongside tin and copper ore, drawing the crystallized blood of an Ancient Guardian from the veins."
   },
   {
    "target": "race:Tauren",
-   "text": "While the tauren view the quilboar as aggressive rivals over the plains' dwindling water and game, the sacred memory of Agamaggan's sacrifice during the ancient war commands spiritual respect."
+   "text": "The tauren see the quilboar as aggressive rivals over the plains' dwindling water and game. Still, Agamaggan's sacrifice in the ancient war commands their spiritual respect."
   },
   {
    "target": "faction:Horde",
-   "text": "Securing Camp Taurajo requires suppressing the aggressive Bristleback and Razorfen tribes; leveraging the spite of a caged quilboar turns their own demigod's strength against them."
+   "text": "To secure Camp Taurajo, the Horde must suppress the aggressive Bristleback and Razorfen tribes. A caged quilboar's spite can turn their demigod's strength against them."
   },
   {
    "target": "class:Shaman",
-   "text": "The magic locked within blood shards represents raw, primordial earth and spirit, reflecting how deeply the titan-forged and primal spirits shaped the face of Kalimdor."
+   "text": "Blood shards hold raw, primordial earth and spirit magic. For a shaman, they speak to the deep shaping of Kalimdor by titan-forged and primal spirits."
   }
  ],
  "keywords": [
@@ -139,5 +139,6 @@
  ],
  "attribution": [
   "Blood Shards of Agamaggan"
- ]
+ ],
+ "style": 1
 }

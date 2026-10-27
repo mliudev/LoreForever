@@ -8,16 +8,16 @@
   "wiki": "Apothecary Zinge",
   "refs": 2
  },
- "summary": "Apothecary Zinge is an alchemist and researcher of the Royal Apothecary Society stationed in the Apothecarium beneath the ruins of Lordaeron. Working in service to the Forsaken, she investigates biological specimens and coordinates research shipments across Horde territories.",
+ "summary": "Beneath the ruins of Lordaeron, Apothecary Zinge works for the Forsaken. She studies biological specimens and arranges research shipments across Horde lands.",
  "sections": [
   {
    "title": "In Service to the Society",
-   "body": "Apothecary Zinge conducts experiments deep within the murky quarters of the Apothecarium in the Undercity. Like her colleagues under Master Apothecary Faranell, she seeks chemical and biological compounds that can further the goals of the Forsaken. Her research often connects her with field researchers and scouts stationed far beyond the boundaries of Tirisfal Glades, including exchanges with remote outposts in Kalimdor.",
+   "body": "Apothecary Zinge works in the Apothecarium beneath the Undercity. Under Master Apothecary Faranell, she searches for chemical and biological compounds that can advance the Forsaken's aims. Her work connects her with field researchers and scouts far beyond Tirisfal Glades, including at distant outposts in Kalimdor.",
    "spoiler": 0
   },
   {
    "title": "Cross-Continental Experiments",
-   "body": "To refine her formulas and uncover new reagents, Zinge relies on couriers and adventurers to relay test materials across the seas. She maintains regular correspondence with colleagues such as Apothecary Helbrim stationed at the Crossroads in the Barrens, sending him toxic wolf heart samples from Silverpine Forest so he can study the effects of Lordaeron's toxins on the beasts of Kalimdor.",
+   "body": "Apothecary Zinge depends on couriers and adventurers to carry test materials across the sea. She regularly writes to Apothecary Helbrim at the Crossroads in the Barrens. She sends him toxic wolf heart samples from Silverpine Forest so he can study how Lordaeron's toxins affect Kalimdor's beasts.",
    "spoiler": 0
   }
  ],
@@ -29,7 +29,7 @@
     "where is apothecary zinge",
     "apothecary zinge spot"
    ],
-   "answer": "Apothecary Zinge is located within the Apothecarium, the alchemical quarter situated on the southeastern tier of the Undercity."
+   "answer": "Apothecary Zinge works in the Apothecarium, the alchemical quarter on the southeastern tier of the Undercity."
   },
   {
    "q": "What organization does she belong to?",
@@ -37,7 +37,7 @@
     "zinge faction",
     "who does zinge work for"
    ],
-   "answer": "She is a member of the Royal Apothecary Society, an order of Forsaken alchemists dedicated to creating new concoctions, plagues, and antidotes in service to Lady Sylvanas Windrunner."
+   "answer": "Apothecary Zinge belongs to the Royal Apothecary Society, a company of Forsaken alchemists who create concoctions, plagues, and antidotes in service to Lady Sylvanas Windrunner."
   },
   {
    "q": "Why does she need samples from the Barrens?",
@@ -46,17 +46,17 @@
     "helbrim sample",
     "zinge barrens delivery"
    ],
-   "answer": "The samples travel the other way. Zinge has adventurers carry toxic wolf heart samples, first gathered in Silverpine Forest, to her colleague Apothecary Helbrim at the Crossroads, who is studying how Lordaeron's toxins affect the beasts of Kalimdor."
+   "answer": "The samples go from Silverpine Forest to Apothecary Helbrim at the Crossroads. Zinge has adventurers carry toxic wolf hearts to her colleague, who studies how Lordaeron's toxins affect Kalimdor's beasts."
   }
  ],
  "angles": [
   {
    "target": "race:Undead",
-   "text": "For the Forsaken, researchers like Zinge represent the vanguard of scientific autonomy, tirelessly compounding solutions to ensure the survival and supremacy of their people."
+   "text": "As Forsaken, you can see researchers like Zinge at the forefront of your people's scientific independence. They work tirelessly on solutions meant to secure the Forsaken's survival and supremacy."
   },
   {
    "target": "faction:Horde",
-   "text": "Her research relies on open supply lines and trusted runners traversing the sea between Kalimdor and the Eastern Kingdoms to keep the Horde's front lines supplied."
+   "text": "As Horde, you rely on open supply routes and trusted runners crossing the sea between Kalimdor and the Eastern Kingdoms to keep your front lines supplied."
   }
  ],
  "keywords": [
@@ -81,5 +81,6 @@
  ],
  "attribution": [
   "Apothecary Zinge"
- ]
+ ],
+ "style": 1
 }

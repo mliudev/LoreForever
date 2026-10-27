@@ -8,16 +8,16 @@
   "wiki": "Tenaron Stormgrip",
   "refs": 4
  },
- "summary": "Tenaron Stormgrip is a night elf guide high within Aldrassil, the central tree of Shadowglen. He teaches young kaldorei the recent history of their people while asking them to gather moonwell water.",
+ "summary": "High in Aldrassil, Tenaron Stormgrip guides young night elves through their people's recent history. He also asks them to gather water from a moonwell.",
  "sections": [
   {
    "title": "Watcher of Aldrassil",
-   "body": "Perched upon the winding wooden platforms of Aldrassil, Tenaron Stormgrip stands as an early mentor to young night elves stepping forth from the boughs of Shadowglen. From his vantage point, he monitors the health of the local woods and the vital moonwells that sustain them. His role is to instruct novices in understanding their profound spiritual connection to the World Tree.",
+   "body": "Tenaron Stormgrip guides young night elves on Aldrassil's winding wooden platforms. From high in Shadowglen's central tree, he watches the local woods and their moonwells. He teaches novices about their spiritual bond with the World Tree.",
    "spoiler": 0
   },
   {
    "title": "Crown of the Earth",
-   "body": "Tenaron begins the journey known as Crown of the Earth. He sends initiates to gather a phial of water from the moonwell north of Aldrassil, teaching them what followed the Battle of Mount Hyjal. The journey continues through Teldrassil and into Darnassus.",
+   "body": "Tenaron sends initiates to gather a phial of water from the moonwell north of Aldrassil. Along the way, he teaches them what followed the Battle of Mount Hyjal. Their journey carries on through Teldrassil and into Darnassus.",
    "spoiler": 0
   }
  ],
@@ -29,7 +29,7 @@
     "where is tenaron",
     "tenaron stormgrip spot"
    ],
-   "answer": "Tenaron Stormgrip stands atop the wooden ramp structures of Aldrassil, the massive central tree at the heart of Shadowglen in Teldrassil."
+   "answer": "Tenaron Stormgrip stands on the wooden platforms high in Aldrassil, the central tree of Shadowglen in Teldrassil."
   },
   {
    "q": "What is Tenaron Stormgrip's role in Shadowglen?",
@@ -38,7 +38,7 @@
     "tenaron stormgrip purpose",
     "who is tenaron"
    ],
-   "answer": "He guides young night elves, introducing the aftermath of the Battle of Mount Hyjal through the Crown of the Earth journey."
+   "answer": "Tenaron Stormgrip guides young night elves in Shadowglen and teaches them about the aftermath of the Battle of Mount Hyjal."
   },
   {
    "q": "What is the Crown of the Earth quest?",
@@ -46,7 +46,7 @@
     "crown of the earth lore",
     "why carry moonwell water"
    ],
-   "answer": "Tenaron asks initiates to gather moonwell water in a phial and return it to him. The journey teaches the recent history of the night elves and continues across Teldrassil."
+   "answer": "Tenaron asks initiates to gather moonwell water in a phial. The journey teaches them recent night elf history and continues across Teldrassil."
   },
   {
    "q": "Why is Tenaron concerned about Teldrassil's waters?",
@@ -54,7 +54,7 @@
     "why precious waters",
     "teldrassil water issues"
    ],
-   "answer": "The moonwells are essential vessels of Elune's grace and natural purity. Because Teldrassil is young and lacks the full blessing of the Aspects, caretakers like Tenaron closely monitor every water source for signs of corruption or taint."
+   "answer": "Tenaron watches Teldrassil's waters because its moonwells are vessels of Elune's grace and natural purity. Since Teldrassil is young and lacks the full blessing of the Aspects, caretakers monitor its water sources for corruption or taint."
   },
   {
    "q": "Does Tenaron send adventurers beyond Shadowglen?",
@@ -62,7 +62,7 @@
     "tenaron next quest",
     "where does tenaron send you"
    ],
-   "answer": "Yes. Once an initiate demonstrates reverence and competence in handling the sacred waters, Tenaron directs them outward into greater Teldrassil, sending them down to Dolanaar to continue serving the kaldorei."
+   "answer": "Yes. Tenaron sends initiates beyond Shadowglen to Dolanaar, where they can continue serving the kaldorei."
   },
   {
    "q": "Is Tenaron a druid or a priest?",
@@ -70,17 +70,17 @@
     "tenaron stormgrip class",
     "is tenaron druid"
    ],
-   "answer": "His class is not established by the sources. He teaches recent night elf history and explains the significance of moonwells."
+   "answer": "Tenaron's class is not established. He teaches recent night elf history and explains the significance of moonwells."
   }
  ],
  "angles": [
   {
    "target": "race:NightElf",
-   "text": "For young night elves, Tenaron Stormgrip provides one of the very first introductions to the communal and spiritual duties required to keep Teldrassil alive and pure."
+   "text": "For young night elves, Tenaron Stormgrip offers an early lesson in the communal and spiritual duties of keeping Teldrassil alive and pure."
   },
   {
    "target": "class:Druid",
-   "text": "Tenaron's tasks highlight the druidic stewardship needed to monitor Teldrassil's unprecedented growth and guard against subtle corruption."
+   "text": "As a druid, you can see in Tenaron's tasks the care needed to watch over Teldrassil's rapid growth and guard against subtle corruption."
   }
  ],
  "keywords": [
@@ -102,5 +102,6 @@
  ],
  "attribution": [
   "Tenaron Stormgrip"
- ]
+ ],
+ "style": 1
 }

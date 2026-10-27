@@ -8,16 +8,16 @@
   "wiki": "Misha Tor'kren",
   "refs": 1
  },
- "summary": "Misha Tor'kren is an orc mother dwelling at the Tor'kren Farm in western Durotar, southeast of Thunder Ridge. Plagued by anxiety over her missing son Kron, she appeals to passing travelers for aid in discovering his fate.",
+ "summary": "At the Tor'kren Farm in western Durotar, Misha Tor'kren waits for word of her son. Kron went west toward the Southfury River to hunt crocolisks, but has not returned.",
  "sections": [
   {
    "title": "A Mother's Vigil",
-   "body": "Tucked away near the edge of Thunder Ridge, Misha Tor'kren works her isolated farmstead while enduring a parent's worst fear. Her son Kron ventured west toward the Southfury River to hunt crocolisks and prove his mettle, but he never returned. With Durotar's frontier dangers stretching orcish watchtowers thin, Misha is left alone to hope for word of his whereabouts, desperate for anyone willing to search the riverbanks for signs of her boy.",
+   "body": "Misha Tor'kren tends her farm near Thunder Ridge, southeast of the ridge. Her son Kron went west toward the Southfury River to hunt crocolisks and prove his mettle, but he never came home. With Durotar's frontier dangers stretching the orcish watchtowers thin, Misha has no word of where he is. She needs travelers willing to search the riverbanks for signs of her son.",
    "spoiler": 0
   },
   {
    "title": "A Grim Token",
-   "body": "The Southfury River is unforgiving to young hunters. Those who comb the muddy banks inevitably discover that Kron fell victim to the river's vicious crocolisks. Returning his salvaged amulet is the only closure Misha can receive—a bitter reminder of the brutal trials young orcs face to establish their strength in Kalimdor's harsh wilderness.",
+   "body": "Kron fell to the Southfury River's crocolisks. Misha can receive only his salvaged amulet, a bitter reminder of the dangers young orcs face as they try to prove their strength in Kalimdor's wilderness.",
    "spoiler": 1
   }
  ],
@@ -29,7 +29,7 @@
     "who is misha",
     "torkren farm owner"
    ],
-   "answer": "Misha Tor'kren is an orc settler residing at the Tor'kren Farm in western Durotar, situated just southeast of Thunder Ridge."
+   "answer": "Misha Tor'kren tends the Tor'kren Farm in western Durotar, southeast of Thunder Ridge."
   },
   {
    "q": "Where did her son Kron go?",
@@ -38,7 +38,7 @@
     "what happened to kron",
     "misha son"
    ],
-   "answer": "Kron traveled west toward the Southfury River to hunt river crocolisks, eager to prove himself as an able hunter, but failed to return home."
+   "answer": "Kron went west toward the Southfury River to hunt crocolisks and prove himself as a hunter, but he did not return home."
   },
   {
    "q": "What happens when you look for Kron?",
@@ -47,7 +47,7 @@
     "find kron",
     "lost but not forgotten"
    ],
-   "answer": "Misha sends adventurers to search for Kron along the river. His disappearance weighs heavily on her, and she needs someone to investigate the area."
+   "answer": "Misha asks travelers to search for Kron along the river. His disappearance weighs heavily on her, and she needs someone to investigate."
   },
   {
    "q": "Is she related to Rexxar's bear Misha?",
@@ -56,17 +56,17 @@
     "rexxar bear misha",
     "is she the bear"
    ],
-   "answer": "No. While they share the name Misha, she is an orc farmer living in Durotar, entirely distinct from Rexxar's loyal bear companion."
+   "answer": "No. Misha is an orc farmer in Durotar, distinct from Rexxar's loyal bear companion, who shares her name."
   }
  ],
  "angles": [
   {
    "target": "race:Orc",
-   "text": "Kron's reckless desire to prove his warrior prowess against Durotar's wildlife serves as a somber reminder of the steep cost of youthful pride."
+   "text": "Kron's attempt to prove his strength against Durotar's wildlife shows the cost of youthful pride."
   },
   {
    "target": "class:Hunter",
-   "text": "The fate of Misha's son shows the danger of underestimating river predators before a hunter has truly mastered the wild."
+   "text": "Misha's son met danger from river predators before he had mastered the wild."
   }
  ],
  "keywords": [
@@ -89,5 +89,6 @@
  ],
  "attribution": [
   "Misha Tor'kren"
- ]
+ ],
+ "style": 1
 }

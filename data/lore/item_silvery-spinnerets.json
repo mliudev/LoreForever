@@ -10,16 +10,16 @@
    "quest:2518"
   ]
  },
- "summary": "Silvery Spinnerets are harvested from the great spider Lady Sathrah in northern Teldrassil. Once used to weave webs that captured healing evening dew for the Temple of the Moon, they are sought by the Priestesses of Elune to honor the fallen creature's soul through a sacred ritual of rebirth.",
+ "summary": "Near Wellspring Lake, Silvery Spinnerets are harvested from Lady Sathrah in northern Teldrassil. Her silver webs once gathered healing evening dew for the Temple of the Moon. The Sisterhood of Elune seeks the spinnerets for a sacred rite honoring her soul.",
  "sections": [
   {
    "title": "Sacred Webbing and Corruption",
-   "body": "Lady Sathrah was once counted among the favored creatures of Elune, renowned for spinning shimmering webs through the moonlight near Wellspring Lake. Her silver silk gathered the evening mist, forming healing dews prized by the Sisterhood of Elune in Darnassus. Unfortunately, the corruption creeping through the boughs of Teldrassil did not spare her. Falling into violent madness, Sathrah became a danger to her own brood and the surrounding forest. Priestess A'moora asks travelers to end the spider's suffering and recover her spinnerets as an act of mercy, bringing closure to a revered resident of the great boughs.",
+   "body": "Lady Sathrah once spun shimmering webs by moonlight near Wellspring Lake. Her silver silk gathered evening mist into healing dew prized by the Sisterhood of Elune in Darnassus. But corruption reached her in Teldrassil, driving her into violent madness. Sathrah threatened her brood and the surrounding forest. Priestess A'moora asks travelers to end her suffering and recover her spinnerets, bringing mercy to a once-revered creature of the great boughs.",
    "spoiler": 0
   },
   {
    "title": "A Sacrifice for Rebirth",
-   "body": "The recovered spinnerets are not sought as a mere trophy or crafting material. Instead, the Sisterhood offers them directly to the Moon Goddess at the central fountain inside the Temple of the Moon. Through this consecration, known as Sathrah's Sacrifice, the priestesses pray that Elune will receive the creature's spirit, cleanse the madness that claimed her mortal body, and grant her peace in rebirth.",
+   "body": "The Sisterhood offers the recovered spinnerets to Elune at the central fountain inside the Temple of the Moon. In a rite called Sathrah's Sacrifice, the priestesses pray that the Moon Goddess will receive the creature's spirit, cleanse the madness that claimed her mortal body, and grant her peace in rebirth.",
    "spoiler": 1
   }
  ],
@@ -31,7 +31,7 @@
     "silvery spinnerets drop",
     "who drops silvery spinnerets"
    ],
-   "answer": "They are retrieved from Lady Sathrah, a large spider found along the northern borders of Teldrassil near Wellspring Lake."
+   "answer": "Retrieve them from Lady Sathrah, a large spider along Teldrassil's northern borders near Wellspring Lake."
   },
   {
    "q": "Why does Priestess A'moora want the spinnerets?",
@@ -39,7 +39,7 @@
     "why amoora wants spinnerets",
     "tears of the moon purpose"
    ],
-   "answer": "Priestess A'moora seeks to offer them to Elune as a sacred sacrifice. This ritual honors Lady Sathrah's former purity and petitions the goddess to cleanse the beast's spirit and grant her peace and rebirth."
+   "answer": "Priestess A'moora seeks to offer the spinnerets to Elune as a sacred sacrifice. The rite honors Lady Sathrah's former purity and asks the goddess to cleanse her spirit and grant her peace and rebirth."
   },
   {
    "q": "Why were Lady Sathrah's webs special?",
@@ -47,7 +47,7 @@
     "lady sathrah webs",
     "what did lady sathrah do"
    ],
-   "answer": "Lady Sathrah spun luminous silver silk that caught the evening mist beneath the moonlight. The dew gathered from her webs possessed potent restorative magic, which the Sisterhood of Elune stored in the Temple of the Moon for healing."
+   "answer": "Lady Sathrah spun luminous silver silk that caught evening mist beneath the moonlight. The gathered dew held potent restorative magic and was prized by the Sisterhood of Elune, who stored it in the Temple of the Moon for healing."
   },
   {
    "q": "Why was Lady Sathrah killed if she was sacred?",
@@ -55,17 +55,17 @@
     "why kill lady sathrah",
     "why did sathrah go crazy"
    ],
-   "answer": "She descended into incurable madness alongside other corrupted wildlife in Teldrassil. Her aggression endangered the forest and threatened her future broods, leading the priestesses to deem slaying her a sorrowful act of mercy."
+   "answer": "Corruption drove Lady Sathrah into incurable madness alongside other wildlife in Teldrassil. Her aggression endangered the forest and threatened her brood, so the priestesses judged slaying her a sorrowful act of mercy."
   }
  ],
  "angles": [
   {
    "target": "race:NightElf",
-   "text": "The tragic end of Lady Sathrah is a sobering reminder to the Kaldorei that even creatures beloved by Elune are vulnerable to the creeping affliction sickening Teldrassil."
+   "text": "Lady Sathrah's tragic end reminds the Kaldorei that even creatures beloved by Elune can fall to the affliction sickening Teldrassil."
   },
   {
    "target": "class:Priest",
-   "text": "For servants of Elune, retrieving the spinnerets is not an extermination contract, but a sacred funeral rite designed to petition the Mother Moon for a creature's redemption."
+   "text": "For servants of Elune, retrieving the spinnerets is a sacred funeral rite. It asks the Mother Moon to redeem a creature, rather than treating her death as mere extermination."
   }
  ],
  "keywords": [
@@ -90,5 +90,6 @@
  "attribution": [
   "Silvery Spinnerets",
   "Tears of the Moon (Classic)"
- ]
+ ],
+ "style": 1
 }

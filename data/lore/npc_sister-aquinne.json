@@ -8,11 +8,11 @@
   "wiki": "Sister Aquinne",
   "refs": 1
  },
- "summary": "Sister Aquinne is an acolyte of Elune residing within the serene Temple Gardens of Darnassus. A novice priestess, she is studying under the Priesthood of Elune at the Temple of the Moon.",
+ "summary": "In Darnassus, Sister Aquinne studies beneath the Priesthood of Elune at the Temple of the Moon. The novice acolyte serves in the Temple Gardens.",
  "sections": [
   {
    "title": "Acolyte in Darnassus",
-   "body": "Sister Aquinne has dedicated herself to the Priesthood of Elune in the night elf capital. Stationed in the tranquil Temple Gardens beneath the shadow of the Temple of the Moon, she continues her studies under the guidance of the High Priestess and elder sisters. When a once-great creature of the forest was in need of help, it was Aquinne who sent willing travelers to Priestess A'moora inside the temple to learn what had to be done.",
+   "body": "Sister Aquinne studies with the Priesthood of Elune in the night elf capital. She is stationed in the Temple Gardens, beneath the Temple of the Moon, learning from the High Priestess and elder sisters. When a once-great creature of the forest needed help, Aquinne sent willing travelers to Priestess A'moora inside the temple to learn what had to be done.",
    "spoiler": 0
   }
  ],
@@ -24,7 +24,7 @@
     "where is sister aquinne",
     "sister aquinne coords"
    ],
-   "answer": "Sister Aquinne stands in the Temple Gardens of Darnassus, situated just outside the magnificent Temple of the Moon."
+   "answer": "Sister Aquinne can be found in the Temple Gardens of Darnassus, just outside the Temple of the Moon."
   },
   {
    "q": "What is Sister Aquinne's background?",
@@ -33,17 +33,17 @@
     "who is sister aquinne",
     "aquinne backstory"
    ],
-   "answer": "She is a novice priestess of Elune, studying at the Temple of the Moon in Darnassus. Little is known of her life before she entered the temple's service."
+   "answer": "Sister Aquinne is a novice priestess of Elune, studying at the Temple of the Moon in Darnassus. Little is known of her life before she entered the temple's service."
   }
  ],
  "angles": [
   {
    "target": "class:Priest",
-   "text": "Fellow servants of the Light and Elune can appreciate Aquinne's devotion as she undertakes the foundational training required of all acolytes serving the Temple of the Moon."
+   "text": "As a priest, you can recognize Aquinne's devotion as she undertakes the foundational training required of acolytes serving the Temple of the Moon."
   },
   {
    "target": "race:NightElf",
-   "text": "For night elf adventurers arriving in Darnassus, Sister Aquinne is a welcoming face in the Temple Gardens and a first link to the grandeur of the temple priesthood."
+   "text": "As a night elf arriving in Darnassus, you can meet Sister Aquinne in the Temple Gardens and see a first glimpse of the temple priesthood."
   }
  ],
  "keywords": [
@@ -63,5 +63,6 @@
  ],
  "attribution": [
   "Sister Aquinne"
- ]
+ ],
+ "style": 1
 }

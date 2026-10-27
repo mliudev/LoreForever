@@ -7,16 +7,16 @@
  "meta": {
   "wiki": "Forgotten Pools"
  },
- "summary": "The Forgotten Pools is the northernmost of the verdant oases scattered across the arid Barrens, located just northwest of the Crossroads. Fed by subterranean springs, this vibrant pocket of lush flora and waters is bitterly contested between indigenous wildlife, wandering Kolkar centaur, and the Horde.",
+ "summary": "The Forgotten Pools draw wildlife, Kolkar centaur, and the Horde into a contest for water in the northern Barrens. Northwest of the Crossroads, subterranean springs feed an oasis amid the dry savanna.",
  "sections": [
   {
    "title": "An Oasis in the Wastes",
-   "body": "Situated off the western road leading out of the Crossroads, the Forgotten Pools offers a stark contrast to the parched savannas that surround it. Thick reeds, palm trees, and unusual flora like Laden Mushrooms cluster around its freshwater shore, drawing plainstriders, snapjaw turtles, and zhevras from miles around. However, the oasis is far from peaceful. Kolkar centaur maintain a constant encampment along the banks, jealously guarding the water supply against travelers and bringing them into direct conflict with Horde travelers from the Crossroads.",
+   "body": "Fresh water gathers in the Forgotten Pools, where thick reeds, palm trees, and Laden Mushrooms grow beside the parched Barrens. Plainstriders, snapjaw turtles, and zhevras come to drink. Kolkar centaur keep a camp along the banks and guard the water from travelers, bringing them into conflict with Horde travelers from the Crossroads. Wildlife, Kolkar, and the Horde all contend for the oasis.",
    "spoiler": 0
   },
   {
    "title": "Ecological Mysteries",
-   "body": "Beyond its strategic value as a watering hole, the Forgotten Pools harbors peculiar ecological traits. It is one of the rare surface waters in the region where the enigmatic Deviate Fish thrive, hinting at deeper subterranean ties to the strange transformative energies altering the Barrens' water table. Horde naturalists and scouts keep a close eye on the waters and the unique fungal growths along the banks, wary of what might be seeping into the soil.",
+   "body": "Deviate Fish thrive in the Forgotten Pools, one of the region’s rare surface waters where they can be found. Their presence hints at deeper ties to the strange transformative energies altering the Barrens’ water table. Horde naturalists and scouts watch the waters and unusual fungi along the banks, wary of what may be seeping into the soil.",
    "spoiler": 0
   }
  ],
@@ -28,7 +28,7 @@
     "where is forgotten pools",
     "find forgotten pools"
    ],
-   "answer": "The Forgotten Pools lies in the northern Barrens, directly northwest of the Crossroads, just north of the road that branches west toward the Stonetalon Mountains."
+   "answer": "The Forgotten Pools lie in the northern Barrens, directly northwest of the Crossroads and just north of the road that branches west toward the Stonetalon Mountains."
   },
   {
    "q": "Why are the Kolkar centaur here?",
@@ -37,7 +37,7 @@
     "why are kolkar here",
     "kolkar forgotten pools"
    ],
-   "answer": "Water is life in the arid Barrens. The Kolkar aggressively claim every oasis they can reach to sustain their warbands and deny vital resources to traveling Horde caravans and nearby settlements."
+   "answer": "Water sustains life in the arid Barrens, so the Kolkar aggressively claim every oasis they can reach. They sustain their warbands and deny vital resources to traveling Horde caravans and nearby settlements."
   },
   {
    "q": "What makes the fish and plants here unusual?",
@@ -46,7 +46,7 @@
     "laden mushrooms",
     "why are fish weird here"
    ],
-   "answer": "The oasis is one of the few places above ground where Deviate Fish can be caught, and it hosts clusters of unusual Laden Mushrooms. These strange mutations point to subterranean disturbances influencing the Barrens' underground aquifers."
+   "answer": "The Forgotten Pools are one of the few places above ground where Deviate Fish thrive, and unusual Laden Mushrooms grow along the banks. These mutations point to subterranean disturbances influencing the Barrens’ underground aquifers."
   },
   {
    "q": "Did Thrall pass through this oasis?",
@@ -55,17 +55,17 @@
     "did orcs camp here",
     "warcraft 3 oasis"
    ],
-   "answer": "No record says which oases Thrall's Horde rested at during its long march across the Barrens, so whether the Forgotten Pools was one of them is unknown."
+   "answer": "No record says which oases Thrall’s Horde rested at during its long march across the Barrens, so whether the Forgotten Pools was among them is unknown."
   }
  ],
  "angles": [
   {
    "target": "faction:Horde",
-   "text": "Holding the pools is vital to securing the trade routes radiating out from the Crossroads, keeping the Kolkar from throttling the Horde's western supply lines."
+   "text": "Holding the Forgotten Pools helps secure the trade routes out of the Crossroads and keep the Kolkar from choking the Horde’s western supply lines."
   },
   {
    "target": "class:Druid",
-   "text": "The rapid growth of mutated vegetation and Deviate Fish around these pools provides critical evidence for Cenarion researchers investigating the unnatural shifts across the Barrens."
+   "text": "The rapid growth of mutated vegetation and Deviate Fish around the Forgotten Pools gives Cenarion researchers evidence as they investigate unnatural shifts across the Barrens."
   }
  ],
  "keywords": [
@@ -88,5 +88,6 @@
  ],
  "attribution": [
   "Forgotten Pools"
- ]
+ ],
+ "style": 1
 }

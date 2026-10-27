@@ -17,16 +17,16 @@
   "wiki": "Darkhorn the Elder",
   "chain": []
  },
- "summary": "Darkhorn the Elder is a seasonal quest completed by seeking out Elder Darkhorn in Orgrimmar during the Lunar Festival. Travelers pay their respects to the honored ancestor, receiving a token of wisdom and celebration in return. She stands in the heart of the Horde capital as a testament to age, survival, and ancestral pride.",
+ "summary": "At the Lunar Festival, Darkhorn the Elder receives travelers in Orgrimmar. Honored among the ancestors, she embodies age, survival, and ancestral pride.",
  "sections": [
   {
    "title": "Honoring the Ancestor",
-   "body": "During the Lunar Festival, the spirits of revered ancestors manifest across Azeroth to share their wisdom with the living. Elder Darkhorn rests within the fortified ramparts of Orgrimmar, observing the bustle of the young warrior city. Approaching her offers champions of the Horde\u2014and any Alliance adventurer brave enough to slip through the gates\u2014a chance to pay formal homage to those who walked the earth generations before.",
+   "body": "During the Lunar Festival, revered ancestors appear across Azeroth to share wisdom with the living. Elder Darkhorn rests within Orgrimmar’s fortified ramparts, watching the young warrior city. You can approach her to honor those who walked the earth generations ago, whether you fight for the Horde or brave the gates as an Alliance traveler.",
    "spoiler": 0
   },
   {
    "title": "The Spirit of the Festival",
-   "body": "Upon receiving greeting and reverence from passing travelers, Elder Darkhorn acknowledges the vibrant spark of life within them. In exchange for honoring the ways of old, she grants a Coin of Ancestry and her personal blessing. These tokens celebrate the triumph over ancient perils and remind the living to cherish the strength passed down through unbroken bloodlines.",
+   "body": "Travelers greet Elder Darkhorn and pay her reverence, and she recognizes the spark of life in them. For honoring the old ways, you receive a Coin of Ancestry and her blessing. The tokens celebrate victory over ancient perils and remind the living to cherish the strength handed down through unbroken bloodlines.",
    "spoiler": 0
   }
  ],
@@ -38,7 +38,7 @@
     "who is darkhorn",
     "darkhorn lore"
    ],
-   "answer": "Elder Darkhorn is an ancestral spirit who appears in Orgrimmar during the Lunar Festival. She serves as an emissary of the past, offering blessings and tokens to travelers who take time to pay homage to the elders."
+   "answer": "Elder Darkhorn is an ancestral spirit who appears in Orgrimmar during the Lunar Festival. As an emissary of the past, she offers blessings and tokens to travelers who honor the elders."
   },
   {
    "q": "Where can I find Elder Darkhorn?",
@@ -47,7 +47,7 @@
     "where is darkhorn",
     "elder darkhorn orgrimmar"
    ],
-   "answer": "She can be found resting within Orgrimmar, in the Valley of Wisdom just outside Grommash Hold, where she observes the daily life of the Horde capital during the festival season."
+   "answer": "You can find Elder Darkhorn in the Valley of Wisdom, just outside Grommash Hold in Orgrimmar. During the festival, she watches the daily life of the Horde capital."
   },
   {
    "q": "What is the purpose of the Lunar Festival elders?",
@@ -56,7 +56,7 @@
     "lunar festival elders",
     "ancestor coins"
    ],
-   "answer": "The elders manifest during the Lunar Festival so the living may honor ancestral wisdom, courage, and sacrifice. Paying respect to an elder yields a Coin of Ancestry, a symbol of heritage and communal remembrance."
+   "answer": "During the Lunar Festival, the elders appear so you can honor ancestral wisdom, courage, and sacrifice. Pay an elder respect and receive a Coin of Ancestry, a token of heritage and shared remembrance."
   },
   {
    "q": "Can Alliance players honor Elder Darkhorn?",
@@ -65,7 +65,7 @@
     "alliance elder darkhorn",
     "alliance orgrimmar elder"
    ],
-   "answer": "Yes, ancestral elders welcome respect from all living mortals regardless of faction. However, because Elder Darkhorn resides deep within the Horde stronghold of Orgrimmar, Alliance visitors must brave hostile guards and players to reach her."
+   "answer": "Yes, you can honor Elder Darkhorn as an Alliance traveler. She lives deep within Orgrimmar, a Horde stronghold, so you must brave its hostile guards and players to reach her."
   },
   {
    "q": "What reward does Elder Darkhorn grant?",
@@ -74,7 +74,7 @@
     "what does darkhorn give",
     "coin of ancestry darkhorn"
    ],
-   "answer": "Acknowledging Elder Darkhorn awards a Coin of Ancestry, along with her blessing."
+   "answer": "When you honor Elder Darkhorn, she grants you a Coin of Ancestry and her blessing."
   },
   {
    "q": "Is this quest repeatable?",
@@ -83,21 +83,21 @@
     "is darkhorn repeatable",
     "darkhorn daily"
    ],
-   "answer": "No, each ancestral elder may only be honored once per character during the annual Lunar Festival celebration."
+   "answer": "No, you may honor each ancestral elder only once per character during the annual Lunar Festival."
   }
  ],
  "angles": [
   {
    "target": "faction:Horde",
-   "text": "For Horde champions, visiting Elder Darkhorn is a convenient opportunity to honor ancestral tradition right within the safety and bustling heart of their capital."
+   "text": "As a Horde champion, you can honor ancestral tradition by visiting Elder Darkhorn in the heart of your capital."
   },
   {
    "target": "faction:Alliance",
-   "text": "Reaching Elder Darkhorn requires daring infiltration through the heavily defended gates and streets of Orgrimmar, turning ancestral homage into a dangerous test of stealth or force."
+   "text": "As an Alliance traveler, you must slip past Orgrimmar’s heavily defended gates and streets to reach Elder Darkhorn. The journey tests your stealth or your strength."
   },
   {
    "target": "class:Shaman",
-   "text": "Shaman revere the communion between the living world and ancient spirits, making visits to ancestral elders like Darkhorn a profound spiritual duty."
+   "text": "As a shaman, you revere the bond between the living world and ancient spirits. Visiting ancestral elders like Darkhorn is a profound spiritual duty."
   }
  ],
  "keywords": [
@@ -113,5 +113,6 @@
  "related": [],
  "attribution": [
   "Darkhorn the Elder"
- ]
+ ],
+ "style": 1
 }

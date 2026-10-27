@@ -62,8 +62,10 @@ their exact names along with each table's current baseline columns.
   `followup`, `class`, `gold_id`, `fixed_at`, `fixed_how`, `fixed_ref`, `told_at`.
 - `answer_log`: `ref`, `signals`, `topic`, `ctx`, `say`, `plan`.
 - Creator/referral additions include `creators.user_id/channel/connect_id/
-  connect_ready/connect_country`, the attribution/counting fields on `referrals`,
-  and the hold/reversal/payout fields on `creator_earnings`. Compare the full
+  connect_ready/connect_country/term_start/term_end/payout_method/payout_email/
+  tax_form`, the attribution/counting fields on `referrals` (with
+  `first_invoice`), `creator_payouts.cycle`, and the hold/reversal/payout fields
+  on `creator_earnings`. Compare the full
   preflight with `lib/referrals.js`'s `MIGRATE` definitions.
 
 ## Data freshness is separate from schema

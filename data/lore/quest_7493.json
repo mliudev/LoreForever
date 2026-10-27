@@ -17,16 +17,16 @@
   "wiki": "The Journey Has Just Begun (Horde)",
   "chain": []
  },
- "summary": "\"The Journey Has Just Begun\" is a Horde quest offered in Orgrimmar to skilled leatherworkers following the defeat of Onyxia. Overlord Runthak recognizes the hero's craft and imparts the rare technique required to fashion protective cloaks from the broodmother's scales. This vital craft prepares the Horde for the deadly flames of Blackrock Spire.",
+ "summary": "After Onyxia's fall, skilled leatherworkers in Orgrimmar learn how her scales can guard against the black dragonflight. Overlord Runthak recognizes their craft and teaches a rare technique for making protective cloaks, needed against the flames of Blackrock Spire.",
  "sections": [
   {
    "title": "A Broodmother's Legacy",
-   "body": "The fall of Onyxia represents a triumph for the Horde, but it does not mark the end of the threat posed by the black dragonflight. The broodmother's scaled hide possesses remarkable resilience against draconic flame. Rather than letting such materials go to waste, Horde leadership seeks craftsmen capable of turning the dragon's remains into defensive armor.",
+   "body": "Onyxia's fall is a triumph for the Horde, yet the black dragonflight remains a threat. The broodmother's scaled hide resists draconic flame. Horde leaders seek craftsmen who can turn the dragon's remains into defensive armor rather than let them go to waste.",
    "spoiler": 0
   },
   {
    "title": "Shield Against Shadow Flame",
-   "body": "Overlord Runthak teaches gifted leatherworkers how to stitch together the Onyxia Scale Cloak. This knowledge is not meant merely for show or prestige. Deep within Blackrock Mountain, Onyxia's brother, Nefarian, wields devastating incendiary breath. Without the enchanted protection offered by their broodmother's own scales, any vanguard confronting the Lord of Blackrock would be reduced to ash.",
+   "body": "Overlord Runthak teaches gifted leatherworkers to stitch the Onyxia Scale Cloak. The knowledge is no mere show or mark of prestige. Deep within Blackrock Mountain, Onyxia's brother Nefarian breathes devastating fire. Without the enchanted protection of their broodmother's scales, any vanguard facing the Lord of Blackrock would be reduced to ash.",
    "spoiler": 1
   }
  ],
@@ -38,7 +38,7 @@
     "where is overlord runthak",
     "quest start"
    ],
-   "answer": "The quest is provided by Overlord Runthak in Orgrimmar. He recognizes champions of the Horde who possess master leatherworking expertise and have aided in the downfall of Onyxia."
+   "answer": "Overlord Runthak offers this in Orgrimmar. He recognizes Horde champions with master leatherworking expertise who aided in Onyxia's defeat."
   },
   {
    "q": "What requirement is needed to receive this quest?",
@@ -47,7 +47,7 @@
     "how to get quest",
     "prerequisites"
    ],
-   "answer": "This quest is only offered to skilled leatherworkers who have completed the triumphant aftermath of Onyxia's defeat, such as 'Victory for the Horde' or 'A Most Puzzling Circumstance'."
+   "answer": "Only skilled leatherworkers who have completed the aftermath of Onyxia's defeat can receive this, such as those who finished 'Victory for the Horde' or 'A Most Puzzling Circumstance'."
   },
   {
    "q": "What does Overlord Runthak teach?",
@@ -56,7 +56,7 @@
     "onyxia cloak pattern",
     "what do i learn"
    ],
-   "answer": "Overlord Runthak instructs the leatherworker in the technique needed to craft the Onyxia Scale Cloak using scales harvested from the fallen broodmother."
+   "answer": "Overlord Runthak teaches leatherworkers the technique for crafting the Onyxia Scale Cloak from scales taken from the fallen broodmother."
   },
   {
    "q": "Why is the Onyxia Scale Cloak important?",
@@ -65,7 +65,7 @@
     "cloak purpose",
     "nefarian cloak"
    ],
-   "answer": "The cloak shields its wearer from the deadly, incendiary breath of Nefarian, the Lord of Blackrock. Without its unique protective properties, facing the brood's master would prove fatal."
+   "answer": "The cloak shields its wearer from Nefarian's deadly, incendiary breath. Without its unique protection, facing the brood's master would prove fatal."
   },
   {
    "q": "Who is the Lord of Blackrock?",
@@ -74,7 +74,7 @@
     "nefarian identity",
     "blackrock lord"
    ],
-   "answer": "The Lord of Blackrock is Nefarian, a powerful black dragon and Onyxia's brother, who plots from the heights of Blackrock Mountain to dominate the mortal races."
+   "answer": "Nefarian is the Lord of Blackrock, a powerful black dragon and Onyxia's brother. He plots from the heights of Blackrock Mountain to dominate the mortal races."
   },
   {
    "q": "Why does the quest state that the journey has just begun?",
@@ -82,13 +82,13 @@
     "meaning of title",
     "journey just begun why"
    ],
-   "answer": "Though Onyxia has been slain, the broader war against the black dragonflight and Nefarian's schemes inside Blackrock Mountain has only escalated."
+   "answer": "Onyxia has been slain, but the broader war against the black dragonflight and Nefarian's schemes inside Blackrock Mountain has only escalated."
   }
  ],
  "angles": [
   {
    "target": "faction:Horde",
-   "text": "For the Horde, securing protective gear forged from their fallen enemies is vital to safeguarding their forces against further draconic devastation."
+   "text": "For the Horde, protective gear forged from fallen enemies is vital to guarding its forces against further draconic devastation."
   }
  ],
  "keywords": [
@@ -109,5 +109,6 @@
  ],
  "attribution": [
   "The Journey Has Just Begun (Horde)"
- ]
+ ],
+ "style": 1
 }

@@ -1,0 +1,88 @@
+{
+ "key": "quest:91294",
+ "type": "quest",
+ "name": "Touring the Grounds",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   91294
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "Breton asks you to walk the grounds of Bandarion Keep after the murloc attacks come under control. Meeting the keep\u2019s leader, Danitha Morr, is your first step toward settling among its residents.",
+ "sections": [
+  {
+   "title": "At the Keep",
+   "body": "Breton asks you to meet the residents of Bandarion Keep and look around the stronghold. Once you have finished, Danitha Morr can help you settle in. The keep is still small, but its people call it home.",
+   "spoiler": 0
+  },
+  {
+   "title": "A Commander",
+   "body": "Danitha Morr introduces herself as the closest thing the keep has to a commander. She welcomes those who seek fellowship with people still loyal to the Light, and says the keep needs help before it can be fully established.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is asking me to look around?",
+   "aliases": [
+    "who sent me around",
+    "breton touring grounds"
+   ],
+   "answer": "Breton encourages you to explore Bandarion Keep after the murloc attacks come under control."
+  },
+  {
+   "q": "Who leads Bandarion Keep?",
+   "aliases": [
+    "who is danitha",
+    "keep leader"
+   ],
+   "answer": "Danitha Morr is the closest thing Bandarion Keep has to a commander."
+  },
+  {
+   "q": "Why should I speak to Danitha Morr?",
+   "aliases": [
+    "where do i go after touring",
+    "talk to danitha"
+   ],
+   "answer": "Danitha Morr can help you get settled in among the keep\u2019s residents."
+  },
+  {
+   "q": "What is Bandarion Keep like?",
+   "aliases": [
+    "what's the keep like",
+    "bandarion keep"
+   ],
+   "answer": "It is a small stronghold whose residents call it home."
+  },
+  {
+   "q": "Who is welcome at the keep?",
+   "aliases": [
+    "who can join",
+    "loyal to the light"
+   ],
+   "answer": "Danitha welcomes those seeking fellowship with people who remain loyal to the Light."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "bandarion keep",
+  "breton",
+  "danitha morr",
+  "grounds",
+  "light",
+  "murloc attacks",
+  "residents"
+ ],
+ "related": [
+  "subzone:bandarion-keep",
+  "topic:light",
+  "topic:murloc"
+ ],
+ "style": 1,
+ "attribution": [
+  "In-game quest text: Touring the Grounds"
+ ]
+}

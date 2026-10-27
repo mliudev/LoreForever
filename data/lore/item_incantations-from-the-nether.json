@@ -10,16 +10,16 @@
    "quest:5725"
   ]
  },
- "summary": "Incantations from the Nether is a grimoire of demonic magic held by the Searing Blade cultists lurking beneath Orgrimmar. Sylvanas Windrunner and her dreadlord lieutenant, Varimathras, seek to claim the tome to harness its fel knowledge for the Forsaken.",
+ "summary": "Beneath Orgrimmar, Searing Blade cultists hold Incantations from the Nether, a grimoire of demonic magic. Sylvanas Windrunner and Varimathras seek its fel knowledge for the Forsaken.",
  "sections": [
   {
    "title": "Gifts of the Legion",
-   "body": "Beneath the red stone streets of Orgrimmar, the Searing Blade\u2014a subterranean sect tied to the Shadow Council\u2014operates in the fiery tunnels of Ragefire Chasm. Among their darkest treasures is the Incantations from the Nether, a spellbook laden with demonic rites bestowed by agents of the Burning Legion. While the cultists use its vile secrets to plot treason within the Orcish capital, word of the text reached far across the sea to the royal quarters of Undercity.",
+   "body": "The Searing Blade is a subterranean sect tied to the Shadow Council, working in the fiery tunnels of Ragefire Chasm beneath Orgrimmar's red stone streets. Its cultists prize Incantations from the Nether, a spellbook of demonic rites given by agents of the Burning Legion. They use its secrets to plot treason in the Orcish capital. Word of the tome has reached the royal quarters of Undercity.",
    "spoiler": 0
   },
   {
    "title": "Forsaken Ambition",
-   "body": "To Lady Sylvanas Windrunner and the dreadlord Varimathras, such powerful fel relics are wasted on cultists with what they view as lesser vision. Varimathras dispatches loyal Horde adventurers deep into Ragefire Chasm to recover the Incantations alongside its sister volume, Spells of Shadow. The Dark Lady intends to bend the nether-forged powers of the book toward her ultimate crusade: destroying the Lich King and delivering retribution to the Scourge.",
+   "body": "Varimathras sends loyal Horde adventurers deep into Ragefire Chasm to recover Incantations from the Nether and its sister volume, Spells of Shadow. Sylvanas Windrunner and her dreadlord lieutenant see such fel relics as wasted on cultists with lesser vision. The Dark Lady means to wield the book's nether-forged power against the Lich King and bring retribution to the Scourge.",
    "spoiler": 1
   }
  ],
@@ -31,7 +31,7 @@
     "who drops incantations from the nether",
     "incantations from the nether location"
    ],
-   "answer": "The book is carried by the Searing Blade cultists and warlocks who lurk in Ragefire Chasm, the volcanic cavern network directly underneath the city of Orgrimmar."
+   "answer": "Searing Blade cultists and warlocks carry the book in Ragefire Chasm, the volcanic cavern network beneath Orgrimmar."
   },
   {
    "q": "Who wants this book and why?",
@@ -40,7 +40,7 @@
     "why does sylvanas want this book",
     "varimathras book quest"
    ],
-   "answer": "The dreadlord Varimathras and Lady Sylvanas Windrunner seek the book. They believe demonic gifts like these are wasted on the petty cultists of the Searing Blade and wish to turn its dark magic against their sworn enemy, the Lich King."
+   "answer": "Lady Sylvanas Windrunner and the dreadlord Varimathras seek the book. They consider the Searing Blade cultists petty, with lesser vision, and want its demonic magic to fight their sworn enemy, the Lich King."
   },
   {
    "q": "What is the Searing Blade?",
@@ -48,7 +48,7 @@
     "searing blade lore",
     "who are the searing blade"
    ],
-   "answer": "The Searing Blade is a secretive coven of warlocks and cultists operating beneath Orgrimmar, allied with the Shadow Council. They serve the Burning Legion and work from the shadows to undermine Thrall's new Horde."
+   "answer": "The Searing Blade is a secretive subterranean sect of warlocks and cultists beneath Orgrimmar, allied with the Shadow Council. Its members serve the Burning Legion and work in secret to undermine Thrall's new Horde."
   },
   {
    "q": "What other book is paired with this one?",
@@ -56,17 +56,17 @@
     "other book for varimathras",
     "power to destroy books"
    ],
-   "answer": "Varimathras requires two volumes: Incantations from the Nether and a second grimoire called Spells of Shadow. Both must be wrested from the cultists in Ragefire Chasm to complete his mission."
+   "answer": "Varimathras requires two volumes: Incantations from the Nether and Spells of Shadow. Both must be taken from the cultists in Ragefire Chasm to complete his mission."
   }
  ],
  "angles": [
   {
    "target": "race:Undead",
-   "text": "Recovering this book directly aids the Dark Lady's inner circle in Undercity, gathering dark knowledge needed to wage war against the Scourge."
+   "text": "Recovering the book aids the Dark Lady's inner circle in Undercity. The dark knowledge is needed to wage war against the Scourge."
   },
   {
    "target": "class:Warlock",
-   "text": "Tomes drawn directly from the Nether contain potent fel magic that any ambitious practitioner of the dark arts would covet."
+   "text": "Tomes drawn directly from the Nether hold potent fel magic, coveted by ambitious practitioners of the dark arts."
   }
  ],
  "keywords": [
@@ -92,5 +92,6 @@
  "attribution": [
   "Incantations from the Nether",
   "The Power to Destroy... (Classic)"
- ]
+ ],
+ "style": 1
 }

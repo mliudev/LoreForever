@@ -17,16 +17,16 @@
   "wiki": "Glyphic Parchment (Forever)",
   "chain": []
  },
- "summary": "Glyphic Parchment is an introductory summons directed to aspiring mages in the Valley of Trials. Delivered via Gornek, the written missive guides fledglings toward Mai'ah, a troll mage trainer stationed near the Den, to begin their arcane discipline.",
+ "summary": "In the Valley of Trials, Glyphic Parchment points young mages toward their first lessons. Gornek delivers the runed notice, which sends them to Mai'ah near the Den to begin learning the arcane.",
  "sections": [
   {
    "title": "A Summons to Study",
-   "body": "While new recruits prove their physical mettle against the local pests of Durotar, those possessing an affinity for the arcane cannot rely purely on brute force. Gornek passes along a written notice scribed with runes, instructing novice spellcasters to seek out Mai'ah, who oversees the early magical instruction of the Horde's newest recruits.",
+   "body": "New recruits test their strength against Durotar's local pests, but those drawn to magic need more than brute force. Gornek passes along a notice marked with runes. It directs novice spellcasters to Mai'ah, who guides the Horde's newest recruits through their first lessons in magic.",
    "spoiler": 0
   },
   {
    "title": "The Way of the Arcane",
-   "body": "Stationed just outside the entrance to the Den, Mai'ah tempers the ambitions of young spellweavers. Rather than recklessly hurling raw sorcery, she emphasizes patience, timing, and calculated intellect. Under her guidance, novices learn to view the cosmos as delicate strands to weave rather than an unruly tempest to unleash.",
+   "body": "Mai'ah waits just outside the Den, where she teaches young spellweavers to temper ambition with patience and thought. She urges them to choose their moment instead of hurling raw sorcery without care. In her lessons, novices learn to weave delicate strands of the cosmos rather than unleash an unruly tempest.",
    "spoiler": 0
   }
  ],
@@ -38,7 +38,7 @@
     "who sent this",
     "parchment author"
    ],
-   "answer": "The parchment is sent by Mai'ah, the mage trainer positioned near the Den in the Valley of Trials. Gornek holds the letter and hands it over once a fledgling mage begins their trials."
+   "answer": "Mai'ah sends the parchment, and Gornek hands it to you. The mage trainer waits near the Den in the Valley of Trials."
   },
   {
    "q": "Where can Mai'ah be found?",
@@ -47,7 +47,7 @@
     "mai'ah location",
     "find mai'ah"
    ],
-   "answer": "Mai'ah is located in the Valley of Trials in Durotar, stationed right outside the entrance to the Den alongside other class mentors."
+   "answer": "Mai'ah waits just outside the Den in the Valley of Trials, Durotar, alongside the other class mentors."
   },
   {
    "q": "What is the purpose of this quest?",
@@ -56,7 +56,7 @@
     "why do this quest",
     "quest goal"
    ],
-   "answer": "It serves to introduce novice mages to their class trainer. Speaking with Mai'ah initiates your formal instruction in arcane arts, opening access to new spells and foundational training."
+   "answer": "The parchment introduces novice mages to their trainer. Speaking with Mai'ah begins your formal arcane instruction and opens the way to new spells and foundational training."
   },
   {
    "q": "What is Mai'ah's philosophy on magic?",
@@ -64,7 +64,7 @@
     "what does maiah teach",
     "mai'ah lore"
    ],
-   "answer": "Mai'ah teaches that arcane magic requires intellect, restraint, and calculated patience. Rather than acting impulsively, an effective mage watches carefully and strikes at the precise moment with the appropriate response."
+   "answer": "Mai'ah teaches that arcane magic calls for intellect, restraint, and patience. A mage watches carefully, then responds at the right moment."
   },
   {
    "q": "Why is a troll training mages in the Valley of Trials?",
@@ -73,7 +73,7 @@
     "trolls and arcane",
     "troll trainer in orc area"
    ],
-   "answer": "The Valley of Trials welcomes both young orcs and Darkspear trolls entering the Horde's ranks. Darkspear spellcasters like Mai'ah lend their wisdom and mastery of cosmic forces to tutor emerging practitioners."
+   "answer": "The Valley of Trials welcomes young orcs and Darkspear trolls into the Horde. Darkspear spellcasters such as Mai'ah teach their knowledge of cosmic forces to emerging mages."
   },
   {
    "q": "Who delivers the parchment to the player?",
@@ -81,21 +81,21 @@
     "who gives glyphic parchment",
     "gornek quest"
    ],
-   "answer": "Gornek, the primary trial overseer situated at the central camp of the Valley of Trials, delivers the parchment when you return to him during your early tasks."
+   "answer": "Gornek, the trial overseer at the Valley of Trials' central camp, gives you the parchment when you return to him during your early duties."
   }
  ],
  "angles": [
   {
    "target": "class:Mage",
-   "text": "This missive marks your formal recognition as a student of the arcane, directing you to Mai'ah to begin learning and expanding your spellbook."
+   "text": "As a mage, this missive sends you to Mai'ah to begin your studies and expand your spellbook."
   },
   {
    "target": "faction:Horde",
-   "text": "Mentorship in the Valley of Trials ensures that even volatile arts like the arcane are cultivated with discipline to strengthen the Horde's future."
+   "text": "As a member of the Horde, you learn that the Valley of Trials cultivates even volatile arts like the arcane with discipline, to strengthen the Horde's future."
   },
   {
    "target": "race:Troll",
-   "text": "Mai'ah represents the Darkspear's growing arcane traditions, offering her cosmic insights to guide both fellow trolls and allied recruits."
+   "text": "As a troll, you can look to Mai'ah and the Darkspear's growing arcane traditions. She shares her understanding of cosmic forces with fellow trolls and allied recruits."
   }
  ],
  "keywords": [
@@ -117,5 +117,6 @@
  ],
  "attribution": [
   "Glyphic Parchment (Forever)"
- ]
+ ],
+ "style": 1
 }

@@ -17,16 +17,16 @@
   "wiki": "The Adventurer (Durotar)",
   "chain": []
  },
- "summary": "While exploring the rugged wastes of Durotar, travelers stumble across a plain, discarded journal chronicling the quiet travels of an unfamiliar figure. Its pages speak warmly of outdoor life and camping out under the stars, awaiting delivery to Brakk near Razor Hill.",
+ "summary": "In Durotar, The Adventurer finds a lost journal among the red wastes. Its pages tell of quiet travels and nights beneath the stars, and it is meant for Brakk near Razor Hill.",
  "sections": [
   {
    "title": "A Wanderer's Notes",
-   "body": "Durotar is a harsh land where survival usually takes precedence over leisurely travel, making the discovery of a wandering chronicler's book an unusual sight. Found lying unattended in the red dirt, the modest journal contains the musings and exploits of someone completely unknown to the common heroes of the Horde. Rather than detailing bloody battles or grand campaigns, its pages dwell on the humble joys of sleeping under the open sky and making camp in the wild.",
+   "body": "A lost journal lies in Durotar's red dirt, far from the bloody battles and grand campaigns that mark the land. Its unknown writer fills the pages with day-to-day travels and the simple pleasure of making camp beneath the open sky. The book offers a quiet glimpse of life on the road through a harsh country.",
    "spoiler": 0
   },
   {
    "title": "Delivery to Brakk",
-   "body": "Whoever penned the entries left enough of an impression\u2014or connection\u2014to point toward Brakk, an adventurer camped near the settlement of Razor Hill. Carrying the personal effects of lost travelers to those who know the road is often the only way scattered wanderers are ever reunited with their belongings, or at least remembered by those watching the dusty roads.",
+   "body": "The journal is meant for Brakk, an adventurer camped near Razor Hill. Its pages connect an unknown traveler to someone watching the dusty roads, and carrying it to Brakk may help keep the writer's travels remembered.",
    "spoiler": 0
   }
  ],
@@ -38,7 +38,7 @@
     "lost journal contents",
     "journal text"
    ],
-   "answer": "The book is remarkably ordinary, filled with day-to-day entries detailing the quiet exploits of an obscure adventurer. In particular, it repeatedly highlights the simple joys and fun of setting up camp in the wilderness."
+   "answer": "The journal holds day-to-day entries about an obscure adventurer's travels, with repeated fond notes about camping in the wilderness."
   },
   {
    "q": "Who wrote the journal?",
@@ -47,7 +47,7 @@
     "author of lost journal",
     "who wrote this book"
    ],
-   "answer": "The identity of the author remains unnamed in the recovered pages; it describes the life and travels of someone you have never heard of before encountering the book in the wilds."
+   "answer": "The recovered pages do not name the author. They describe an unfamiliar adventurer's life and travels."
   },
   {
    "q": "Who is Brakk?",
@@ -56,7 +56,7 @@
     "who is brakk",
     "where is brakk"
    ],
-   "answer": "Brakk is an adventurer camped near Razor Hill in central Durotar who takes delivery of the lost journal."
+   "answer": "Brakk is an adventurer camped near Razor Hill in central Durotar, and the journal is meant for him."
   },
   {
    "q": "Where is the journal found?",
@@ -65,7 +65,7 @@
     "lost journal location",
     "adventurer quest start"
    ],
-   "answer": "The plain journal is discovered lying abandoned amidst the terrain of Durotar, waiting for a passing Horde traveler to recover it."
+   "answer": "The journal lies abandoned in the red dirt of Durotar, where a passing Horde traveler can find it."
   },
   {
    "q": "Why does Brakk care about this journal?",
@@ -74,7 +74,7 @@
     "brakk purpose",
     "brakk journal"
    ],
-   "answer": "The quest doesn't say. Brakk is a seasoned adventurer camped just outside Razor Hill who teaches newcomers the basics of camping, so a journal full of camping stories finds a natural home with him."
+   "answer": "The journal gives no reason for Brakk to care about it. He is an adventurer camped just outside Razor Hill who teaches newcomers the basics of camping, and the journal's stories are about camping."
   },
   {
    "q": "Is the adventurer who wrote it in danger?",
@@ -83,17 +83,17 @@
     "did the adventurer die",
     "lost adventurer status"
    ],
-   "answer": "The recovered pages give no indication of foul play, merely containing fond recollections of camping out. However, leaving behind one's travel journal in the red dust of Durotar suggests the writer either dropped it by mistake or moved on unexpectedly."
+   "answer": "The pages give no sign of foul play and recall camping with fondness. The writer may have dropped the journal by mistake or moved on unexpectedly."
   }
  ],
  "angles": [
   {
    "target": "faction:Horde",
-   "text": "The arid trails of Durotar are walked by many new recruits; retrieving lost property and bringing it to wanderers like Brakk near Razor Hill helps maintain order along the central frontier."
+   "text": "Many new recruits walk Durotar's arid trails. Bringing lost belongings to wanderers like Brakk near Razor Hill helps keep order along the central frontier."
   },
   {
    "target": "class:Hunter",
-   "text": "Hunters who spend their lives surviving off the land can easily relate to the journal's fond, repeated entries on the joys of wilderness camping."
+   "text": "As a hunter, you know how to live off the land, and the journal's fond notes about wilderness camping may feel familiar."
   }
  ],
  "keywords": [
@@ -111,5 +111,6 @@
  ],
  "attribution": [
   "The Adventurer (Durotar)"
- ]
+ ],
+ "style": 1
 }

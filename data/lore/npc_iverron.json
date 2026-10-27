@@ -8,16 +8,16 @@
   "wiki": "Iverron",
   "refs": 3
  },
- "summary": "Iverron is a young night elf found in Shadowglen, the sheltered starting bough of Teldrassil. Stricken by the venom of the woodland's increasingly agitated arachnids, his plight serves as an early warning of the growing corruption within the World Tree.",
+ "summary": "In Shadowglen, Iverron lies stricken by spider venom. His plight warns of growing corruption within Teldrassil.",
  "sections": [
   {
    "title": "A Bitter Bite",
-   "body": "While wandering through the quiet canopies of Shadowglen, Iverron ran afoul of the webwood spiders nesting in the vale. Succumbing quickly to their toxic bite, the young elf was left incapacitated, unable to return to safety on his own. His helpless condition highlights the sudden aggression sweeping through creatures that once shared the glade in peace.",
+   "body": "Iverron wandered beneath Shadowglen’s quiet canopies when webwood spiders bit him. Their venom left the young night elf unable to return to safety on his own. The spiders once shared the glade in peace, but now they grow increasingly aggressive.",
    "spoiler": 0
   },
   {
    "title": "Desperate Remedies",
-   "body": "Iverron's survival falls upon the quick thinking of his companions and local healers, who require potent woodland ingredients\u2014such as hyacinth mushrooms, moonpetal lilies and webwood ichor\u2014to brew an antidote. His brush with death is a sober reminder to all young kaldorei in Shadowglen that the boughs of Teldrassil are far from unblemished sanctuary.",
+   "body": "Iverron’s companions and local healers seek a cure using hyacinth mushrooms, moonpetal lilies, and webwood ichor. Together, these woodland ingredients make an antidote. His survival depends on their swift work.",
    "spoiler": 1
   }
  ],
@@ -29,7 +29,7 @@
     "who is iverron",
     "iverron night elf"
    ],
-   "answer": "Iverron is a young night elf dwelling in Shadowglen within Teldrassil. During his travels through the woodland, he fell victim to the poisonous fauna haunting the boughs and required urgent aid to survive."
+   "answer": "Iverron is a young night elf in Shadowglen, within Teldrassil. Poisonous creatures bit him as he wandered the woodland, and he needs urgent aid to survive."
   },
   {
    "q": "What poisoned Iverron?",
@@ -38,7 +38,7 @@
     "what bit iverron",
     "iverron poison"
    ],
-   "answer": "He was bitten by the aggressive webwood spiders that inhabit the thickets of Shadowglen, suffering from a debilitating venom that standard rest could not cure."
+   "answer": "Aggressive webwood spiders in Shadowglen bit Iverron and poisoned him with debilitating venom."
   },
   {
    "q": "How is Iverron cured?",
@@ -47,7 +47,7 @@
     "iverron antidote",
     "saving iverron"
    ],
-   "answer": "He is cured through a concoction made of local Teldrassil plant matter, including hyacinth mushrooms and moonpetal lilies, mixed with webwood ichor from the spiders to create a targeted antidote."
+   "answer": "Iverron is cured with an antidote made from hyacinth mushrooms, moonpetal lilies, and webwood ichor from the spiders."
   },
   {
    "q": "Where can Iverron be found?",
@@ -56,7 +56,7 @@
     "where is iverron",
     "find iverron"
    ],
-   "answer": "He is located in Shadowglen, the secluded starting glade in the crown of Teldrassil where novice night elves begin their training."
+   "answer": "You can find Iverron in Shadowglen, a secluded glade in Teldrassil where young night elves begin their training."
   },
   {
    "q": "Who is helping Iverron?",
@@ -65,7 +65,7 @@
     "iverron friends",
     "dentaria silverglade iverron"
    ],
-   "answer": "Iverron sends adventurers to his friend Dirania Silvershine, who asks them to gather the ingredients for an antidote and then rush it back to him before it loses its potency."
+   "answer": "Iverron’s friend Dirania Silvershine asks for help gathering antidote ingredients, then asks that the antidote be brought back to him before it loses its potency."
   },
   {
    "q": "Why are the spiders in Shadowglen so hostile?",
@@ -73,21 +73,21 @@
     "why spiders attack",
     "teldrassil spider corruption"
    ],
-   "answer": "The sudden aggression of Shadowglen's spiders is part of an unnatural malady creeping into Teldrassil, warping normally reclusive beasts into violent predators."
+   "answer": "Shadowglen’s spiders have grown hostile as part of an unnatural malady spreading through Teldrassil. It warps normally reclusive beasts into violent predators."
   }
  ],
  "angles": [
   {
    "target": "race:NightElf",
-   "text": "For fledgling night elves taking their first steps outside Aldrassil, Iverron's misfortune is an early lesson in how quickly the wilds of Teldrassil are falling into imbalance."
+   "text": "As a night elf taking your first steps outside Aldrassil, you can see in Iverron’s misfortune how quickly Teldrassil’s wilds are falling out of balance."
   },
   {
    "target": "class:Druid",
-   "text": "Druids studying in Shadowglen view Iverron's poisoning as a symptom of a deeper affliction gripping nature, requiring remedies forged directly from the flora and fauna of the glade."
+   "text": "As a druid studying in Shadowglen, you can see Iverron’s poisoning as a symptom of a deeper affliction gripping nature. The remedy draws on the glade’s flora and fauna."
   },
   {
    "target": "profession:Herbalism",
-   "text": "Iverron's survival depends on the prompt gathering of local Shadowglen flora, emphasizing the critical value of herbal knowledge in preserving life."
+   "text": "As an herbalist, you can help preserve life by gathering Shadowglen’s plants quickly; Iverron’s survival depends on it."
   }
  ],
  "keywords": [
@@ -111,5 +111,6 @@
  ],
  "attribution": [
   "Iverron"
- ]
+ ],
+ "style": 1
 }

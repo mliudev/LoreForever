@@ -129,7 +129,8 @@ const checkReservation = (system, prompt) => Math.ceil(bytes(system + prompt) * 
 
 // The content check: {ok, reason} for a player's cleaned text (kind: style, tale or memory). Throws when it can't run:
 // with `unavailable` set when there's no GEMINI_API_KEY or the month's budget is spent, so nothing is saved unchecked.
-export async function check(env, text, kind) {
+// ms: how long Gemini may take (a save waits longer than her answer can).
+export async function check(env, text, kind, { ms = 10000 } = {}) {
   // A memory that plainly breaks the rules of what Willo says is turned away before any model is asked
   // (lib/willo-memory-rules.js), so it never depends on the model getting it right.
   if (kind === "memory") {
@@ -151,7 +152,7 @@ export async function check(env, text, kind) {
       contents: [{ role: "user", parts: [{ text: prompt }] }],
       generationConfig: { temperature: 0, candidateCount: 1, responseMimeType: "application/json", responseSchema: CHECK_SCHEMA,
         maxOutputTokens: CHECK_OUTPUT_TOKENS, thinkingConfig: { thinkingLevel: "minimal" } } }),
-    signal: AbortSignal.timeout(10000),
+    signal: AbortSignal.timeout(ms),
   });
   // A failed call keeps its reservation, as a failed answer does: what it cost is unknown.
   if (!res.ok) throw new Error(`Gemini HTTP ${res.status}`);

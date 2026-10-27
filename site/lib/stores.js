@@ -38,13 +38,18 @@ import { createMissing } from "./schema.js";
 export const CF_CORE = 1715510;
 // The narration and language projects in release/curseforge.json that have an id, plus the retired ones it no longer
 // lists (CF_RETIRED) whose downloads still count (site/tests/stores.test.mjs fails when the lists differ).
-// CF_RETIRED: the six answer packs, retired in 0.19.0 (LOR-561): no new files, but their downloads stay in the totals.
-export const CF_RETIRED = [1731417, 1731418, 1731419, 1731420, 1745680, 1745682];
+// CF_RETIRED: the six answer packs, retired in 0.19.0 (LOR-561), and 10/26's fewest-projects cleanup (1752600, the
+// original male narrator's quest dialogue; 1755322, the male Brazilian Portuguese narrator, back in 1727668): no new
+// files, but their downloads stay in the totals.
+export const CF_RETIRED = [1731417, 1731418, 1731419, 1731420, 1745680, 1745682, 1752600, 1755322];
 export const CF_PACKS = [1727331, 1727332, 1727333, 1727666, 1727667, 1727668, 1727669, 1731403, 1731408, 1731410,
   1731411, 1731412, 1731414, 1731415, 1731417, 1731418, 1731419, 1731420, 1733811, 1734020,
   1736067, 1740579, 1743314, 1743315, 1743518, 1743604, 1745680, 1745682, 1752597, 1752598, 1752599,
   1752600, 1753615, 1753616,
-  1754443, 1754444, 1754446, 1754448, 1755322, 1755323];
+  1754443, 1754444, 1754446, 1754448, 1755322, 1755323,
+  1766729, 1766730, 1766731, 1766732, 1767707, 1767708,
+  1767780, 1767781, 1767782, 1767783, 1767784, 1767785, 1767786, 1767787, 1767788, 1767789, 1767790, 1767791,
+  1767792, 1767793, 1767855, 1767942, 1767949, 1767957];
 export const GITHUB_REPO = "mliudev/LoreForever";
 const HOUR = 3600e3, DAY = 864e5;
 const EVERY = { core: HOUR, pack: 6 * HOUR };

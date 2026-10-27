@@ -7,16 +7,16 @@
  "meta": {
   "wiki": "Drag"
  },
- "summary": "The Drag is a bustling, shaded thoroughfare carved into the red rock of Orgrimmar, linking the Valley of Strength to the Valley of Honor and the Valley of Wisdom. Known throughout Durotar as the heart of the capital's commerce, its canyon walls are lined with crafters, traders, and artisans. It also conceals the cavernous descent into the notorious Cleft of Shadow.",
+ "summary": "In Orgrimmar, the Drag links the Valley of Strength, Valley of Honor and Valley of Wisdom. Crafters and traders line its shaded red-rock canyon, where the descent to the Cleft of Shadow also lies.",
  "sections": [
   {
    "title": "The Artisan's Thoroughfare",
-   "body": "Tucked deep between the red canyon walls of Orgrimmar, the Drag serves as the commercial backbone of the Horde's capital. While the Valley of Strength focuses on military muster and administrative command, the Drag is where daily city life unfolds. Shaded under high cliffs and hides, the street is thick with the smells of tanning vats, bubbling alchemical cauldrons, and the clatter of tinkerers' gears. Craftsmen of almost every discipline gather here to practice their trades and teach aspiring adventurers, from leatherworking and tailoring to goblin-led engineering workshops like Nogg's Machine Shop.",
+   "body": "The Drag runs between Orgrimmar’s red canyon walls, where crafters and traders fill the Horde capital’s streets. Unlike the Valley of Strength, with its military musters and commands, the Drag is where daily city life unfolds. High cliffs and hides shade the street, where tanning vats, alchemical cauldrons and tinkers’ gears fill the air with their sounds and smells. Craftsmen gather to practice their trades and teach aspiring adventurers. Their work ranges from leatherworking and tailoring to the goblin workshops of Nogg’s Machine Shop.",
    "spoiler": 0
   },
   {
    "title": "A Crossroads of Shadows and Craft",
-   "body": "Beyond housing merchant storefronts and salvage houses, the Drag occupies an uneasy position within Orgrimmar's social geography. Nestled along its canyon face lies the guarded entrance to the subterranean Cleft of Shadow. This makes the Drag an inescapable crossroads where honest tradesmen, shaman on their way to the Valley of Wisdom, and secretive practitioners of dark arts brush shoulders beneath the dim, dusty overhangs of the canyon.",
+   "body": "Merchant storefronts and salvage houses line the Drag, beside the guarded entrance to the underground Cleft of Shadow. The street brings honest tradesmen together with shamans on their way to the Valley of Wisdom and secretive practitioners of dark arts. They cross paths beneath the canyon’s dim, dusty overhangs.",
    "spoiler": 0
   }
  ],
@@ -28,7 +28,7 @@
     "what is the drag",
     "what shops are in the drag"
    ],
-   "answer": "The Drag is Orgrimmar's primary shopping and trade district. It hosts trainers and supply vendors for a wide array of professions, including alchemy, tailoring, leatherworking, skinning, enchanting, and engineering, alongside general salvage and trading goods."
+   "answer": "The Drag is Orgrimmar’s main district for shopping and trade. Its trainers and supply vendors serve many professions, including alchemy, tailoring, leatherworking, skinning, enchanting and engineering, alongside general salvage and trade goods."
   },
   {
    "q": "Where does the Drag lead?",
@@ -37,7 +37,7 @@
     "how to get to cleft of shadow",
     "where does the drag go"
    ],
-   "answer": "The canyon street links the Valley of Strength in the south to the Valley of Honor in the northeast, with pathways also leading toward the Valley of Wisdom. Crucially, the entrance descending into the shadowy caverns of the Cleft of Shadow is located along the western cliffside of the Drag."
+   "answer": "The Drag links the Valley of Strength in the south to the Valley of Honor in the northeast, with paths leading toward the Valley of Wisdom. The entrance to the shadowy caverns of the Cleft of Shadow lies along the Drag’s western cliffside."
   },
   {
    "q": "Who is Nogg?",
@@ -45,7 +45,7 @@
     "noggs machine shop",
     "who runs the machine shop"
    ],
-   "answer": "Nogg is an enterprising goblin engineer who operates Nogg's Machine Shop along the Drag, serving as a prominent engineering trainer and gadget supplier for members of the Horde."
+   "answer": "Nogg is a goblin engineer who runs Nogg’s Machine Shop along the Drag. He trains engineers and supplies gadgets to members of the Horde."
   },
   {
    "q": "Are all profession trainers located in the Drag?",
@@ -53,17 +53,17 @@
     "where are trainers in orgrimmar",
     "first aid trainer drag"
    ],
-   "answer": "Most crafting and gathering professions maintain shops along the lower and upper shelves of the Drag, but not all of them. Notably, the city's blacksmiths and miners prefer the fiery forges of the Valley of Honor."
+   "answer": "Most crafting and gathering professions have shops along the Drag’s lower and upper shelves, but the city’s blacksmiths and miners work in the fiery forges of the Valley of Honor."
   }
  ],
  "angles": [
   {
    "target": "profession:Engineering",
-   "text": "The Drag is home to Nogg's Machine Shop, where goblin tinkerers impart schematics, explosives, and specialized engineering knowledge to the Horde."
+   "text": "In the Drag, goblin tinkerers at Nogg’s Machine Shop teach schematics, explosives and specialized engineering knowledge to the Horde."
   },
   {
    "target": "faction:Horde",
-   "text": "Every traveler passing through the capital eventually treads the Drag, as it links Orgrimmar's martial core directly to the communal and mystical quarters."
+   "text": "As a traveler through Orgrimmar, you pass along the Drag, which links the capital’s martial core to its communal and mystical quarters."
   }
  ],
  "keywords": [
@@ -87,5 +87,6 @@
  ],
  "attribution": [
   "Drag"
- ]
+ ],
+ "style": 1
 }

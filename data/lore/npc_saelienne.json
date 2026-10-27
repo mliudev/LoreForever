@@ -8,11 +8,11 @@
   "wiki": "Saelienne",
   "refs": 1
  },
- "summary": "Innkeeper Saelienne manages the inn situated on the Craftsmen's Terrace in Darnassus. She provides weary travelers and local artisans with food, drink, and a peaceful hearthstone retreat in the heart of the night elven capital.",
+ "summary": "On the Craftsmen's Terrace in Darnassus, Saelienne keeps an inn for travelers and artisans. She offers food, drink, and a place to bind a Hearthstone in the night elven capital.",
  "sections": [
   {
    "title": "Hospitality on the Terrace",
-   "body": "Situated amidst the bustling workshops and trade stalls of the Craftsmen's Terrace, Innkeeper Saelienne offers a calm respite for both residents and visitors to Darnassus. As a keeper of the hearth, she caters to adventurers arriving from across Kalimdor and beyond, serving staple night elven refreshments alongside goods brought into the city port. Her establishment serves as a primary gathering place for tradesfolk seeking rest after long hours at the forge or loom.",
+   "body": "Innkeeper Saelienne welcomes residents and visitors to her inn on Darnassus's Craftsmen's Terrace. She gives travelers a calm place to rest and serves night elven refreshments and goods brought through the city port. Tradesfolk come in after long hours at the forge or loom. Saelienne's inn gives them a place to gather and recover.",
    "spoiler": 0
   }
  ],
@@ -25,7 +25,7 @@
     "darnassus innkeeper location",
     "craftsmens terrace inn"
    ],
-   "answer": "Saelienne is located on the Craftsmen's Terrace in Darnassus, running the local inn tucked among the trade trainers and crafting shops."
+   "answer": "You can find Saelienne on the Craftsmen's Terrace in Darnassus, among the trade trainers and crafting shops."
   },
   {
    "q": "What services does Saelienne provide?",
@@ -34,7 +34,7 @@
     "saelienne vendor",
     "bind hearthstone darnassus"
    ],
-   "answer": "She acts as an innkeeper, allowing players to bind their Hearthstone to Darnassus. She also sells various food and drink items suitable for restoring health and mana."
+   "answer": "Saelienne offers food and drink, and lets you bind your Hearthstone to Darnassus."
   },
   {
    "q": "Does Saelienne offer any seasonal tasks?",
@@ -43,17 +43,17 @@
     "hallows end saelienne",
     "dancing for marzipan"
    ],
-   "answer": "During the Hallow's End festivities, Saelienne participates in holiday celebrations, offering Alliance adventurers the quest Dancing for Marzipan in exchange for holiday treats."
+   "answer": "During Hallow's End, Saelienne offers Alliance adventurers Dancing for Marzipan in exchange for holiday treats."
   }
  ],
  "angles": [
   {
    "target": "race:NightElf",
-   "text": "For night elf adventurers returning from the wild reaches of Teldrassil, Saelienne's inn offers a familiar hearth among the artisans of Darnassus."
+   "text": "As a night elf adventurer returning from Teldrassil's wild reaches, you can find a familiar hearth among Darnassus's artisans at Saelienne's inn."
   },
   {
    "target": "faction:Alliance",
-   "text": "Alliance envoys and tradesfolk traveling to the remote canopy of Teldrassil rely on Saelienne for food, drink, and a warm hearthstone sanctuary."
+   "text": "As an Alliance envoy or tradesfolk traveling to Teldrassil, you can find food, drink, and a warm hearthstone refuge at Saelienne's inn."
   }
  ],
  "keywords": [
@@ -75,5 +75,6 @@
  ],
  "attribution": [
   "Saelienne"
- ]
+ ],
+ "style": 1
 }

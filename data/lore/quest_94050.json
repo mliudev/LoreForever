@@ -1,0 +1,104 @@
+{
+ "key": "quest:94050",
+ "type": "quest",
+ "name": "Training the Beast",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   94050
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "A fellow hunter sends you to Quel'dora Quickgale in Valanaar to learn how to train your pet. Her teaching gives you more ways to care for and guide it.",
+ "sections": [
+  {
+   "title": "Quel'dora's Teaching",
+   "body": "Your fellow hunter points you to her sister, Quel'dora Quickgale, in Valanaar. You can already tame a pet, but learning to train it is the next part of guiding it. Quel'dora can teach you to train your companion.",
+   "spoiler": 0
+  },
+  {
+   "title": "A Hunter's Charge",
+   "body": "Quel'dora can teach you to guide your pet, teach it new abilities, feed it, and revive it if it falls in battle. She urges you to respect the balance and remain in awe of the nature around you.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Quel'dora Quickgale?",
+   "aliases": [
+    "who is queldora",
+    "quel'dora",
+    "quickgale"
+   ],
+   "answer": "Quel'dora Quickgale is the sister of the hunter who sends you to learn pet training."
+  },
+  {
+   "q": "Where can I find Quel'dora?",
+   "aliases": [
+    "where queldora",
+    "quel'dora location",
+    "valanaar trainer"
+   ],
+   "answer": "Quel'dora Quickgale is in Valanaar."
+  },
+  {
+   "q": "What does Quel'dora teach?",
+   "aliases": [
+    "pet training",
+    "train my pet",
+    "what can pet trainer teach"
+   ],
+   "answer": "Quel'dora teaches you to train and guide your pet, including teaching it abilities, feeding it, and reviving it if it falls in battle."
+  },
+  {
+   "q": "Can I already tame a pet?",
+   "aliases": [
+    "tame pet",
+    "pet taming",
+    "can hunter tame"
+   ],
+   "answer": "The hunter who sends you to Quel'dora says you already have the power to tame a pet."
+  },
+  {
+   "q": "What does the hunter ask me to do?",
+   "aliases": [
+    "training the beast",
+    "pet trainer quest",
+    "speak to queldora"
+   ],
+   "answer": "The hunter asks you to speak with Quel'dora Quickgale in Valanaar."
+  },
+  {
+   "q": "What does Quel'dora say about nature?",
+   "aliases": [
+    "respect nature",
+    "balance",
+    "quel'dora advice"
+   ],
+   "answer": "Quel'dora urges you to respect the balance and live in awe of the nature around you."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Hunter",
+   "text": "As a hunter, you are learning to train and guide a pet you can already tame."
+  }
+ ],
+ "keywords": [
+  "feed pet",
+  "hunter",
+  "pet training",
+  "quel'dora quickgale",
+  "revive pet",
+  "tame pet",
+  "training the beast",
+  "valanaar"
+ ],
+ "related": [],
+ "style": 1,
+ "attribution": [
+  "In-game quest text: Training the Beast"
+ ]
+}

@@ -570,11 +570,11 @@ P.transport["subzone:darkwhisper-gorge"] = {
   },
 }
 P.transport["subzone:darnassus"] = {
-  hash = "71e8df",
-  fullHash = "71e8df",
-  text = "Darnassus. High amidst the sweeping boughs of Teldrassil stands Darnassus, the capital refuge of the kaldorei. Built along tranquil waters and verdant groves, it serves as the spiritual heart of the night elves and the primary Alliance bastion on northern Kalimdor. From here, High Priestess Tyrande Whisperwind and Archdruid Fandral Staghelm guide their people through the trials of newfound mortality. Constructed in the aftermath of the Third War, Darnassus was founded to honor the survival of the night elf people after the loss of the immortality granted by their sacred World Tree, Nordrassil. Unlike the dense stone metropolises of Ironforge or Stormwind, Darnassus is an open, tranquil settlement of wood-crafted lodges, glowing shrines, and arched bridges spanning crystalline lakes. Vigilant Sentinels, towering ancients of war, and tree-shaping druids keep watch over the paths, ensuring that the peaceful quiet of nature is preserved within the city's borders. While Darnassus represents the unity of the kaldorei, its governance reflects subtle fractures. High Priestess Tyrande Whisperwind presides over civil and military matters from the radiant Temple of the Moon, surrounded by the Sisters of Elune. Meanwhile, the Cenarion Circle's affairs fall under Archdruid Fandral Staghelm, who championed the planting of Teldrassil to restore the elves' lost immortality. With Malfurion Stormrage lost in a mysterious slumber deep within the Emerald Dream, Staghelm's aggressive vision for their future frequently creates friction with the more patient priesthood.",
+  hash = "a40435",
+  fullHash = "a40435",
+  text = "Darnassus. Darnassus rises among Teldrassil’s high boughs as the kaldorei capital and refuge. Its tranquil waters and groves make it the night elves’ spiritual heart and the Alliance’s primary bastion on northern Kalimdor. High Priestess Tyrande Whisperwind and Archdruid Fandral Staghelm guide their people through the trials of newfound mortality. Darnassus took shape after the Third War, honoring the night elves’ survival after they lost the immortality granted by their sacred World Tree, Nordrassil. Unlike the stone cities of Ironforge and Stormwind, it is an open, tranquil settlement of wood-crafted lodges, glowing shrines, and arched bridges over crystalline lakes. Vigilant Sentinels, towering ancients of war, and druids who shape trees watch the paths and preserve nature’s quiet within the city. Darnassus speaks of kaldorei unity, though its leadership is divided between different duties. High Priestess Tyrande Whisperwind handles civil and military matters from the radiant Temple of the Moon, with the Sisters of Elune around her. Archdruid Fandral Staghelm leads the Cenarion Circle’s affairs and championed planting Teldrassil to restore the elves’ lost immortality. Malfurion Stormrage is lost in a mysterious slumber deep within the Emerald Dream, and Staghelm’s aggressive vision for the future often clashes with the more patient priesthood.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_darnassus-5d6369f81d9e8b3ca405/1-0000.mp3", duration = 96.8620408, start = 0},
+    {file = "Audio/Transport/full_subzone_darnassus-026b245be804b67852b9/1-0000.mp3", duration = 82.7559184, start = 0},
   },
 }
 P.transport["subzone:darrow-hill"] = {
@@ -1858,11 +1858,11 @@ P.transport["subzone:onyxia-s-lair"] = {
   },
 }
 P.transport["subzone:orgrimmar"] = {
-  hash = "75d743",
-  fullHash = "75d743",
-  text = "Orgrimmar. Orgrimmar is the formidable warrior capital of the New Horde, carved into the winding red canyons of northern Durotar. Founded by Warchief Thrall and named in memory of Orgrim Doomhammer, it serves as the beating heart of orcish renewal and intertribal survival on Kalimdor. Following the Third War and the victory at Mount Hyjal, Warchief Thrall brought his surviving people south to establish a permanent homeland in Durotar. Nestled into a natural barrier of sheer mountain crags, Orgrimmar was engineered to withstand siege, boasting spiked timber palisades, stone watchtowers, and deep mountain-carved caverns. Built in cooperation with the Darkspear trolls, tauren stonemasons, and goblin engineers, the fortress turned a desolate wilderness into an unassailable bastion of strength. Free of the demonic bloodlust that once bound them, the orcs built Orgrimmar as a beacon of honor, community, and survival. Today in 25 ADP, the city houses not only orcs and Darkspear trolls, but also welcomes emissaries from the tauren of Mulgore and emissaries from the newly allied Forsaken. Within its fortified canyons, shamans instruct the next generation in ancestral balance, while veterans clash in gladiatorial rings to hone the army that shields the fragile peace of Kalimdor.",
+  hash = "3cea5d",
+  fullHash = "3cea5d",
+  text = "Orgrimmar. In northern Durotar, Orgrimmar rises as the New Horde’s warrior capital. Warchief Thrall founded the city in memory of Orgrim Doomhammer, and its red canyons shelter the orcs’ renewal and survival on Kalimdor. After the Third War and the victory at Mount Hyjal, Warchief Thrall brought his surviving people south to make a homeland in Durotar. Orgrimmar was built among steep mountain crags, with spiked timber walls, stone watchtowers, and caverns cut deep into the mountains. Darkspear trolls, tauren stonemasons, and goblin engineers helped raise the fortress. Its defenses turned the wilderness into a stronghold built to withstand a siege. Free of the demonic bloodlust that once bound them, the orcs built Orgrimmar as a beacon of honor, community, and survival. Orcs and Darkspear trolls live in the city, while emissaries from the tauren of Mulgore and the newly allied Forsaken are welcomed there. Shamans teach the next generation ancestral balance, and veterans clash in gladiatorial rings to hone the army that guards Kalimdor’s fragile peace.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_orgrimmar-9810cb633f0e0052906e/1-0000.mp3", duration = 82.1812245, start = 0},
+    {file = "Audio/Transport/full_subzone_orgrimmar-213253d8e3926bd3fd22/1-0000.mp3", duration = 68.4146939, start = 0},
   },
 }
 P.transport["subzone:ortell-s-hideout"] = {
@@ -1954,11 +1954,11 @@ P.transport["subzone:rage-scar-hold"] = {
   },
 }
 P.transport["subzone:ragefire-chasm"] = {
-  hash = "cc67c1",
-  fullHash = "cc67c1",
-  text = "Ragefire Chasm. Ragefire Chasm is a network of volcanic caverns situated directly beneath the Horde capital of Orgrimmar. Accessible through the Cleft of Shadow, its magma-lit tunnels harbor feral troggs and a hidden sect of the Shadow Council bent on unraveling the young orcish nation from within. While Thrall works to secure Durotar above, subterranean dangers fester directly beneath Orgrimmar's foundation. Ragefire Chasm is an unstable network of volcanic vents and magma rivers that has become infested with savage Ragefire troggs. Rising from unknown depths below the tunnels, these hostile creatures violently rebuffed diplomatic overtures made by Magatha Grimtotem. Left unchecked, their sheer numbers threaten to undermine and overrun the capital.",
+  hash = "8d67ff",
+  fullHash = "8d67ff",
+  text = "Ragefire Chasm. Beneath Orgrimmar, Ragefire Chasm threatens the Horde from below. Its magma-lit tunnels hold savage troggs, and the Cleft of Shadow gives access to the caverns. Beneath Orgrimmar, dangers threaten the capital from below. While Thrall works to secure Durotar above, Ragefire troggs infest the chasm’s unstable vents and magma rivers. They rose from unknown depths and violently rejected Magatha Grimtotem’s attempts at diplomacy. Left unchecked, their numbers could undermine the city and overrun it.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_ragefire-chasm-89c7a7c8e36298c18fc9/1-0000.mp3", duration = 45.322449, start = 0},
+    {file = "Audio/Transport/full_subzone_ragefire-chasm-48b2dc52c1f4a668776a/1-0000.mp3", duration = 31.3208163, start = 0},
   },
 }
 P.transport["subzone:raptor-ridge"] = {
@@ -3082,11 +3082,11 @@ P.transport["subzone:vile-reef"] = {
   },
 }
 P.transport["subzone:wailing-caverns"] = {
-  hash = "3d0126",
-  fullHash = "3d0126",
-  text = "Wailing Caverns. Tucked into the bluffs above Lushwater Oasis in the Barrens, the Wailing Caverns are a sprawling network of subterranean springs and caverns. Originally explored by the night elf druid Naralex to restore lush vitality to the arid plains, the complex has instead become a twisted den of nightmares, mutated wildlife, and corrupted druids. The caverns earn their name from the eerie, mournful wails that escape rock fissures when natural underground geysers erupt into steam. The night elf druid Naralex ventured into these deep waterways with his faithful followers, hoping to tap into the subterranean network and channel the Emerald Dream to make the barren savannas bloom. Instead, Naralex's consciousness was trapped within the Emerald Nightmare. The festering corruption bleeds outward through the slumbering druid, warping the springs and turning local beasts into unnatural deviate horrors.",
+  hash = "2fc56b",
+  fullHash = "2fc56b",
+  text = "Wailing Caverns. Steam wails through the bluffs above Lushwater Oasis, where the Wailing Caverns twist beneath the Barrens. Naralex, a night elf druid, entered the springs hoping to restore life to the arid plains, but mutations and agitated wildlife now haunt the caverns.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_wailing-caverns-66922ef0032457a5f062/1-0000.mp3", duration = 53.9689796, start = 0},
+    {file = "Audio/Transport/full_subzone_wailing-caverns-4bd3ee33a3edf6485345/1-0000.mp3", duration = 16.6661224, start = 0},
   },
 }
 P.transport["subzone:warpwood-quarter"] = {

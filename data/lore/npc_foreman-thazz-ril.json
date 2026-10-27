@@ -8,16 +8,16 @@
   "wiki": "Foreman Thazz'ril",
   "refs": 1
  },
- "summary": "Foreman Thazz'ril is an orc labor supervisor stationed in the Valley of Trials in Durotar. Tasked with keeping peons on schedule and maintaining basic infrastructure for young warriors, he is perpetually frustrated by lazy laborers and nearby cultist activity.",
+ "summary": "Peons work under Foreman Thazz'ril in the Valley of Trials. The orc labor supervisor keeps crews on schedule and supplies ready for young warriors, but slacking workers and nearby cultists frustrate him.",
  "sections": [
   {
    "title": "Keeping the Peons in Line",
-   "body": "Building a new home in the harsh red rock of Durotar requires unending physical labor. In the Valley of Trials, Foreman Thazz'ril oversees the peons chopping lumber and gathering materials needed to support both the encampment and the wider Horde war effort. Unfortunately for Thazz'ril, peons are notoriously prone to slacking off and taking naps under the desert sun. To keep construction moving, he regularly enlists newly arrived recruits to give the slumbering workers a brisk wallop with his trusty blackjack, instilling obedience through blunt persuasion.",
+   "body": "In the Valley of Trials, Foreman Thazz'ril directs peons who chop lumber and gather materials for the encampment and young warriors. Building a home in Durotar's harsh red rock takes steady labor, yet the peons often nap under the desert sun. Thazz'ril sends newly arrived recruits to rouse the sleepers with his blackjack, and keep construction moving.",
    "spoiler": 0
   },
   {
    "title": "A Lost Pick in Dangerous Hands",
-   "body": "Thazz'ril's responsibilities also involve surveying the valley's mineral resources, though that duty led to an embarrassing misstep. While scouting the cave known as the Burning Blade Coven, he was forced to flee from the dark cultists lurking inside, accidentally abandoning his treasured enchanted pick. Too cautious to retrieve it himself amidst the gathering warlocks and their demonic minions, he relies on young Horde aspirants to venture into the depths and return his tool.",
+   "body": "While scouting the Burning Blade Coven for mineral resources, Thazz'ril fled the dark cultists inside and accidentally left his treasured enchanted pick behind. Warlocks and their demonic minions now gather in the cave. Too cautious to retrieve the tool himself, Thazz'ril relies on young Horde aspirants to venture into the depths and bring it back.",
    "spoiler": 0
   }
  ],
@@ -29,7 +29,7 @@
     "thazzril valley of trials",
     "foreman thazzril lore"
    ],
-   "answer": "Foreman Thazz'ril is an orc labor overseer in the Valley of Trials in Durotar. He is responsible for managing work crews, chopping lumber, and surveying the region for useful resources to aid the Horde's settlement."
+   "answer": "Foreman Thazz'ril is an orc labor supervisor in the Valley of Trials in Durotar. He manages work crews, oversees lumber chopping, and surveys the region for resources to aid the Horde's settlement."
   },
   {
    "q": "Why does Thazz'ril give players a blackjack?",
@@ -38,7 +38,7 @@
     "thazzril blackjack",
     "lazy peons quest lore"
    ],
-   "answer": "The peons under his watch frequently fall asleep under trees rather than harvesting lumber. Thazz'ril provides an enchanted wooden blackjack to knock some discipline into them and send them scurrying back to work."
+   "answer": "The peons under Thazz'ril's watch often sleep instead of gathering lumber. He gives recruits an enchanted wooden blackjack to rouse them and send them back to work."
   },
   {
    "q": "Why is Thazz'ril's pick inside the Burning Blade cave?",
@@ -47,7 +47,7 @@
     "why is pick in coven",
     "burning blade pick"
    ],
-   "answer": "While scouting the local caves for mineral veins, Thazz'ril stumbled into the Burning Blade Coven. Spooked by the cultists hiding in the shadows, he beat a hasty retreat and left his valuable enchanted pick behind."
+   "answer": "Thazz'ril left his enchanted pick in the Burning Blade Coven while scouting for mineral veins. He fled when he encountered the cultists inside."
   },
   {
    "q": "What is his role in the Horde?",
@@ -55,17 +55,17 @@
     "is thazzril a soldier",
     "thazzril rank"
    ],
-   "answer": "Thazz'ril is not a frontline soldier or shaman, but a civilian overseer. His duties center on the logistical backbone of Durotar: supervising manual labor, maintaining construction supplies, and keeping peons productive."
+   "answer": "Thazz'ril is a civilian overseer, not a frontline soldier or shaman. He supervises manual labor, maintains construction supplies, and keeps peons productive."
   }
  ],
  "angles": [
   {
    "target": "race:Orc",
-   "text": "For young orcs coming of age, Thazz'ril provides an early lesson in Horde society: strength on the battlefield is only possible when supported by unglamorous, disciplined labor."
+   "text": "As a young orc coming of age, you see how Horde strength on the battlefield depends on disciplined labor."
   },
   {
    "target": "profession:Mining",
-   "text": "Thazz'ril values quality mining equipment, as shown by his desperation to recover his enchanted pick from the dark recesses of the Burning Blade Coven."
+   "text": "As a miner, you can see how much Thazz'ril values his equipment: he is desperate to recover his enchanted pick from the Burning Blade Coven."
   }
  ],
  "keywords": [
@@ -86,5 +86,6 @@
  ],
  "attribution": [
   "Foreman Thazz'ril"
- ]
+ ],
+ "style": 1
 }

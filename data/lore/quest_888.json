@@ -22,16 +22,16 @@
    "Stolen Booty"
   ]
  },
- "summary": "Stolen Booty concludes Gazlowe's effort to reclaim valuable cargo hijacked by the Southsea Freebooters off the coast of Ratchet. Rather than trying to recover every lost crate, the goblin chief focuses on two essential items: a shipment of cobbler's boots and a delicate telescopic lens needed to complete his observatory.",
+ "summary": "Pirate cargo off Ratchet’s coast has left Gazlowe choosing what matters most. Stolen Booty brings him two vital goods: boots for local laborers and a delicate telescopic lens needed to complete his observatory.",
  "sections": [
   {
    "title": "Pirate Hijacking",
-   "body": "The Southsea Freebooters have long plagued the merchant lanes of the Great Sea, but establishing a fortified encampment just south of Ratchet brought them into direct conflict with Gazlowe. When merchant vessels heading for the port were intercepted and looted, the Steamwheedle Cartel lost considerable supplies. While low-priority goods could be written off as routine shipping hazards, high-value specialized merchandise warranted hiring mercenary muscle to break into the pirate stronghold.",
+   "body": "The Southsea Freebooters have troubled merchant lanes across the Great Sea for years. Their fortified camp just south of Ratchet brought them into direct conflict with Gazlowe. Pirates intercepted merchant vessels bound for the port and took valuable supplies from the Steamwheedle Cartel. Some goods could be written off as a cost of shipping. Specialized cargo mattered enough for Gazlowe to hire mercenaries to break into the pirate stronghold.",
    "spoiler": 0
   },
   {
    "title": "The Missing Pieces",
-   "body": "Gazlowe's priorities were intensely practical. One item was an essential shipment of boots dispatched from Drizzlik down in Booty Bay, badly needed by local laborers. The other was far more specialized: a ground telescopic lens designed for the prominent observatory tower overlooking Ratchet. While its twin lens had arrived safely by overland caravan through Durotar, the seaborne half was snatched right off the water. Without it, the observatory remained an empty frame.",
+   "body": "Gazlowe has two practical priorities. Drizzlik sent a needed shipment of boots from Booty Bay for local laborers. The other item is specialized: a ground telescopic lens made for the observatory tower overlooking Ratchet. Its twin arrived safely by caravan through Durotar, but pirates seized this lens at sea. Until it is recovered, the observatory remains an empty frame.",
    "spoiler": 0
   }
  ],
@@ -43,7 +43,7 @@
     "gazlowe items",
     "what was stolen"
    ],
-   "answer": "Gazlowe acknowledges that recovering all the hijacked cargo is impossible, but the boot shipment from Drizzlik in Booty Bay and the telescopic lens are irreplaceable. The boots supply local workers, while the precision lens is required to finish the observatory overlooking Ratchet."
+   "answer": "Gazlowe cannot recover all the cargo, but the boots from Drizzlik in Booty Bay and the telescopic lens are irreplaceable. Local workers need the boots, and the precision lens is needed to complete the observatory overlooking Ratchet."
   },
   {
    "q": "Where did the two observatory lenses come from?",
@@ -52,7 +52,7 @@
     "observatory lenses",
     "how did gazlowe get the lenses"
    ],
-   "answer": "The observatory requires two lenses to function properly. The larger lens safely arrived via an overland caravan traveling through Durotar. The smaller lens was shipped by sea, only to be intercepted when Southsea Freebooters raided the vessel off the coast of the Barrens."
+   "answer": "The observatory needs two lenses. The larger arrived safely with an overland caravan through Durotar. Southsea Freebooters intercepted the smaller lens, sent by sea, off the Barrens coast."
   },
   {
    "q": "Who is Drizzlik?",
@@ -61,7 +61,7 @@
     "who sent the boots",
     "drizzlik"
    ],
-   "answer": "Drizzlik is a goblin cobbler operating out of Booty Bay in the southern Eastern Kingdoms. He crafted and dispatched the shipment of footwear bound for Gazlowe's crews in Ratchet before pirates intercepted the cargo ship."
+   "answer": "Drizzlik is a goblin cobbler in Booty Bay, in the southern Eastern Kingdoms. He made and sent boots for Gazlowe’s crews in Ratchet before pirates seized the ship carrying them."
   },
   {
    "q": "Where are the stolen items hidden?",
@@ -70,7 +70,7 @@
     "pirate camp location",
     "where is the lens"
    ],
-   "answer": "Both the crates of boots and the telescopic lens were stashed in the Southsea pirate encampment along the Merchant Coast, just south of Ratchet."
+   "answer": "The crates of boots and the telescopic lens are hidden in the Southsea pirate camp on the Merchant Coast, just south of Ratchet."
   },
   {
    "q": "What happens after this quest?",
@@ -79,7 +79,7 @@
     "next quest",
     "what is next after stolen booty"
    ],
-   "answer": "Stolen Booty is the final chapter in this specific Southsea pirate investigation chain. Once the items are returned, Gazlowe expresses gratitude, praises your reliability, and invites you to continue working for his commercial enterprise in Ratchet."
+   "answer": "Gazlowe thanks you and praises your reliability once you return the items. He invites you to keep working for his commercial enterprise in Ratchet."
   },
   {
    "q": "Why does Ratchet have an observatory?",
@@ -88,17 +88,17 @@
     "gazlowe observatory",
     "why does gazlowe want a telescope"
    ],
-   "answer": "Goblin engineering relies heavily on observation, navigation, and surveying the surrounding land and sea lanes. Completing the observatory tower allows Ratchet's leadership to monitor approaching merchant fleets, rival vessels, and encroaching threats across the Merchant Coast."
+   "answer": "Goblin engineering depends on observation, navigation, and surveying the land and sea lanes nearby. A completed observatory tower lets Ratchet’s leaders watch merchant fleets, rival vessels, and threats along the Merchant Coast."
   }
  ],
  "angles": [
   {
    "target": "profession:Engineering",
-   "text": "Gazlowe's observatory project highlights goblin precision optics, showing that heavy construction and delicate glasswork must both come together to build practical coastal infrastructure."
+   "text": "Gazlowe’s observatory brings goblin precision optics into coastal construction. Practical infrastructure needs both heavy building and delicate glasswork."
   },
   {
    "target": "profession:Tailoring",
-   "text": "Importing boots all the way from Drizzlik in Booty Bay demonstrates the widespread trade network for finished leather and cobbling across the Steamwheedle ports."
+   "text": "Boots sent from Drizzlik in Booty Bay show how finished leather goods and cobbling move through Steamwheedle ports."
   }
  ],
  "keywords": [
@@ -122,5 +122,6 @@
  ],
  "attribution": [
   "Stolen Booty"
- ]
+ ],
+ "style": 1
 }

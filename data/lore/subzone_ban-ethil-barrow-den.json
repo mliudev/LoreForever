@@ -7,16 +7,16 @@
  "meta": {
   "wiki": "Ban'ethil Barrow Den"
  },
- "summary": "Ban'ethil Barrow Den is a sacred subterranean sanctuary hollowed out within the roots of Teldrassil. Originally created as a resting place for the sleeping Druids of the Talon, the cavern complex has recently fallen into chaos. The corrupted furbolgs of the Gnarlpine tribe have overrun its chambers, turning a place of peaceful slumber into a perilous den of madness.",
+ "summary": "Gnarlpine furbolgs have overrun Ban'ethil Barrow Den beneath Teldrassil's roots. The sacred chambers were made for the sleeping Druids of the Talon, whose spirits commune with the Emerald Dream. Now the den is a dangerous warren, and the druids within are at risk.",
  "sections": [
   {
    "title": "A Defiled Sanctuary",
-   "body": "Barrow dens serve as sacred resting chambers where night elf druids slumber while projecting their spirits into the Emerald Dream. Ban'ethil Barrow Den was dedicated specifically to sheltering the Druids of the Talon as they communed with nature. Divided into upper and lower subterranean chambers, the den once resonated with tranquil reverie and deep meditative magic. However, the affliction sweeping Teldrassil's wildlife did not spare the Gnarlpine furbolgs, who invaded the complex, turning its hollowed halls into a fortified warren.",
+   "body": "Ban'ethil Barrow Den lies beneath Teldrassil's roots, with upper and lower chambers. Barrow dens shelter night elf druids as they sleep and send their spirits into the Emerald Dream. This den was made for the Druids of the Talon to commune with nature. Its halls once held quiet meditation, but the corruption spreading through Teldrassil's wildlife reached the Gnarlpine furbolgs. They invaded the den and made its hollowed chambers a fortified warren.",
    "spoiler": 0
   },
   {
    "title": "The Gnarlpine Incursion",
-   "body": "Driven mad by mysterious corruption taking root across the World Tree, the Gnarlpine tribe drove out or endangered the slumbering druids within Ban'ethil. The furbolgs now fiercely guard the winding tunnels, aggressive toward any night elf who approaches. For the defenders of Teldrassil, reclaiming the barrow den is an urgent priority, not merely to drive back the hostile furbolgs, but to protect the vulnerable druids and sacred relics trapped within its lower depths.",
+   "body": "The Gnarlpine tribe has gone mad under a mysterious corruption spreading across the World Tree. Its furbolgs drove out or endangered the sleeping druids, and now guard the winding tunnels fiercely, attacking any night elf who approaches. Teldrassil's defenders must drive them back to protect the vulnerable druids and the sacred relics trapped in the den's lower depths.",
    "spoiler": 0
   }
  ],
@@ -28,7 +28,7 @@
     "ban'ethil barrow den purpose",
     "what is this cave"
    ],
-   "answer": "Ban'ethil Barrow Den is a subterranean hollow in Teldrassil crafted by the night elves. It was designed to shelter sleeping Druids of the Talon while their spirits roamed the Emerald Dream."
+   "answer": "Ban'ethil Barrow Den is a hollow beneath Teldrassil, made by night elves to shelter the sleeping Druids of the Talon. Their spirits roam the Emerald Dream while they sleep."
   },
   {
    "q": "Why are there furbolgs inside Ban'ethil Barrow Den?",
@@ -37,7 +37,7 @@
     "furbolgs in barrow den",
     "who took over ban'ethil"
    ],
-   "answer": "The Gnarlpine furbolgs have fallen victim to a spreading corruption affecting Teldrassil's creatures. Driven hostile and territorial, they invaded the barrow den, displacing the keepers and threatening the slumbering druids."
+   "answer": "The Gnarlpine furbolgs fell to a spreading corruption among Teldrassil's creatures. They turned hostile, invaded the den, displaced its keepers, and threaten the sleeping druids."
   },
   {
    "q": "What are the sections of the barrow den?",
@@ -46,7 +46,7 @@
     "upper den lower den",
     "ban'ethil levels"
    ],
-   "answer": "The cavern complex is split into two primary interconnected tiers: the Upper Den near the entrance passages and the Lower Den deeper in the subterranean roots."
+   "answer": "The den has two connected tiers, the Upper Den near the entrance passages and the Lower Den deeper among the subterranean roots."
   },
   {
    "q": "Why are barrow dens so important to druids?",
@@ -55,17 +55,17 @@
     "druid barrow dens lore",
     "emerald dream barrow den"
    ],
-   "answer": "Barrow dens provide safe, secure physical shelter for druids who enter prolonged, deep slumbers to project their consciousness into the Emerald Dream, leaving their waking bodies helpless for years or decades."
+   "answer": "Barrow dens shelter druids whose deep sleep lets their consciousness enter the Emerald Dream. Their waking bodies lie helpless for years or decades, so they need safe, secure shelter."
   }
  ],
  "angles": [
   {
    "target": "class:Druid",
-   "text": "Ban'ethil represents sacred ground for the Cenarion Circle, specifically built to protect Druids of the Talon while communing with the Emerald Dream."
+   "text": "As a druid, you can see Ban'ethil as sacred ground for the Cenarion Circle, built to protect the Druids of the Talon as they commune with the Emerald Dream."
   },
   {
    "target": "race:NightElf",
-   "text": "The occupation of Ban'ethil by corrupted Gnarlpine furbolgs is an alarming sign of the growing sickness plaguing their new home of Teldrassil."
+   "text": "As a night elf, you can see the Gnarlpine occupation of Ban'ethil as a warning of the sickness spreading through your new home, Teldrassil."
   }
  ],
  "keywords": [
@@ -86,5 +86,6 @@
  ],
  "attribution": [
   "Ban'ethil Barrow Den"
- ]
+ ],
+ "style": 1
 }

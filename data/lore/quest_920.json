@@ -17,16 +17,16 @@
   "wiki": "Tenaron's Summons",
   "chain": []
  },
- "summary": "Tenaron's Summons marks a crucial transition for young night elves in Shadowglen. After assisting Gilshalan Windwalker with local woodland perils, you are called to ascend the massive boughs of Aldrassil to confer with Tenaron Stormgrip. This summons marks the moment a novice leaves minor local chores behind to confront the deeper spiritual afflictions touching Teldrassil.",
+ "summary": "In Shadowglen, Tenaron's Summons calls you to Aldrassil. After helping Gilshalan Windwalker with woodland dangers, you are asked to meet Tenaron Stormgrip high in the great tree. The call draws you from local troubles toward the spiritual afflictions touching Teldrassil.",
  "sections": [
   {
    "title": "A Call to the Boughs",
-   "body": "Having proven your capability handling the venomous spiders and corrupted wildlife stirring in the glen, your efforts do not go unnoticed. Gilshalan Windwalker passes word that Tenaron Stormgrip himself has requested your presence. Even among the exceptionally long-lived night elves, keeping an elder waiting atop the great tree Aldrassil is considered poor form.",
+   "body": "Your work against the venomous spiders and corrupted wildlife in the glen has reached Tenaron Stormgrip. Gilshalan Windwalker tells you the elder has asked for your presence. Even night elves, with their long lives, know better than to keep an elder waiting atop Aldrassil.",
    "spoiler": 0
   },
   {
    "title": "Ascending Aldrassil",
-   "body": "Tenaron waits in the highest chamber of Aldrassil, looking out over the verdant boughs of Shadowglen. Answering this summons leads directly into larger matters of stewardship: the cleansing of Teldrassil's moonwells and the investigation of the unnatural corruption creeping into the World Tree's fledgling ecosystem.",
+   "body": "Tenaron waits in Aldrassil's highest chamber, looking across Shadowglen's boughs. Meeting him brings you into wider concerns of stewardship, including the cleansing of Teldrassil's moonwells and the corruption spreading through the young World Tree's ecosystem.",
    "spoiler": 0
   }
  ],
@@ -37,7 +37,7 @@
     "who is tenaron",
     "tenaron stormgrip lore"
    ],
-   "answer": "Tenaron Stormgrip is an influential night elf residing in the uppermost chamber of Aldrassil in Shadowglen. He oversees the spiritual care of the glen and coordinates efforts to monitor and cleanse Teldrassil's sacred waters."
+   "answer": "Tenaron Stormgrip is a night elf who lives in Aldrassil's highest chamber in Shadowglen. He oversees the glen's spiritual care and efforts to watch over and cleanse Teldrassil's sacred waters."
   },
   {
    "q": "Where do I find Tenaron Stormgrip?",
@@ -46,7 +46,7 @@
     "tenaron location",
     "where is tenaron"
    ],
-   "answer": "He is located in the topmost room of Aldrassil, the great hollow trunk-city in Shadowglen. You must climb the winding ramps inside the tree to reach his vantage point near the crown."
+   "answer": "Tenaron Stormgrip waits in the highest room of Aldrassil, the great hollow tree in Shadowglen. Climb the winding ramps inside to reach his chamber near the crown."
   },
   {
    "q": "Why does Tenaron summon me?",
@@ -54,7 +54,7 @@
     "why summons",
     "what does tenaron want"
    ],
-   "answer": "Once you have proved your worth dealing with the blighted wildlife below, Tenaron entrusts you with greater responsibilities\u2014specifically investigating the sacred moonwells and testing their waters for signs of corruption."
+   "answer": "After you prove yourself against the blighted wildlife below, Tenaron gives you greater responsibilities. He asks you to investigate the sacred moonwells and test their waters for corruption."
   },
   {
    "q": "What happens after this quest?",
@@ -62,7 +62,7 @@
     "next quest",
     "what comes after tenaron's summons"
    ],
-   "answer": "Answering the summons leads immediately into the Crown of the Earth questline, where Tenaron tasks you with collecting water samples from the moonwells across Teldrassil to check on the tree's health."
+   "answer": "Meeting Tenaron leads into the Crown of the Earth storyline. He asks you to collect water samples from moonwells across Teldrassil and check the tree's health."
   },
   {
    "q": "Who sends you to Tenaron?",
@@ -70,7 +70,7 @@
     "who gives the quest",
     "gilshalan windwalker"
    ],
-   "answer": "Gilshalan Windwalker gives you the summons once you finish assisting him with the venom-crazed Webwood spiders threatening the lower hollows of Shadowglen."
+   "answer": "Gilshalan Windwalker sends you to Tenaron after you help him with the venom-crazed Webwood spiders threatening Shadowglen's lower hollows."
   },
   {
    "q": "What is Aldrassil?",
@@ -78,17 +78,17 @@
     "aldrassil lore",
     "what is aldrassil"
    ],
-   "answer": "Aldrassil is the immense bough-tree nestled inside the secluded valley of Shadowglen, serving as the central settlement and training sanctuary for young night elf adventurers on Teldrassil."
+   "answer": "Aldrassil is a great tree in Shadowglen, with a hollow trunk that holds the central settlement and training sanctuary for young night elves on Teldrassil."
   }
  ],
  "angles": [
   {
    "target": "race:NightElf",
-   "text": "This summons marks your coming of age among the kaldorei, moving from simple woodland defense to direct service to the elders tending the World Tree."
+   "text": "As a night elf, this call marks your coming of age among the kaldorei. You move from defending the woods to serving the elders who tend the World Tree."
   },
   {
    "target": "class:Druid",
-   "text": "Reporting to Tenaron Stormgrip is an essential step toward learning how the druidic balance of Teldrassil is monitored and maintained."
+   "text": "Meeting Tenaron Stormgrip helps you learn how druids watch over and maintain Teldrassil's balance."
   }
  ],
  "keywords": [
@@ -111,5 +111,6 @@
  ],
  "attribution": [
   "Tenaron's Summons"
- ]
+ ],
+ "style": 1
 }

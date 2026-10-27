@@ -20,16 +20,16 @@
    "Horde Presence"
   ]
  },
- "summary": "Horde Presence is a military strike commissioned by the orc Kadrak at the border of the Barrens and Ashenvale. Prompted by an intercepted missive, the Horde sends a champion high into Stonetalon Peak to eliminate the dryad Rynthariel and plant a Horde banner directly inside the Talon Den.",
+ "summary": "At the Barrens border, Kadrak sends a Horde champion into Stonetalon Peak after a missive is intercepted. The champion is to kill the dryad Rynthariel and plant a Horde banner inside the Talon Den.",
  "sections": [
   {
    "title": "A Message Intercepted",
-   "body": "Guarding the northern boundary of the Barrens, Kadrak stands watchful against encroachments from the Alliance and the night elves. When a messenger carrying a runed scroll is cut down, Kadrak decodes the missive and traces its origin to Rynthariel the Keymaster, an influential dryad stationed in Stonetalon Peak. Rather than merely defending the mountain passes, Kadrak chooses an aggressive response to deter any future scouts from probing Horde territory.",
+   "body": "Kadrak watches the Barrens' northern boundary for Alliance and night elf incursions. After a messenger carrying a runed scroll is cut down, he decodes the missive and traces it to Rynthariel the Keymaster, an influential dryad in Stonetalon Peak. Kadrak chooses to strike rather than simply guard the mountain passes, hoping to deter future scouts from probing Horde territory.",
    "spoiler": 0
   },
   {
    "title": "Defiance in the Den",
-   "body": "The mission sends Horde warriors deep into the Talon Den, a cavernous redoubt overlooking Stonetalon Peak. Slaying Rynthariel strikes a direct blow against local night elf coordination, but the act is punctuated by planting Kadrak's Horde banner within the cave itself. By leaving their red standard fluttering in the heart of dryad territory, the Horde intends to signal clearly that incursions into the Barrens will be answered with decisive violence.",
+   "body": "Horde warriors enter the Talon Den, a cavern overlooking Stonetalon Peak. Killing Rynthariel deals a blow to local night elf coordination. Kadrak's banner is planted inside the cave, its red standard marking the heart of dryad territory with a warning: incursions into the Barrens will meet decisive violence.",
    "spoiler": 0
   }
  ],
@@ -41,7 +41,7 @@
     "who is kadrak",
     "kadrak purpose"
    ],
-   "answer": "Kadrak is an orc warrior stationed at the northern border outpost between the Barrens and Ashenvale. Responsible for securing Horde lands against foreign encroachment, he orders a preemptive retaliation when he discovers Alliance messengers slipping through nearby passes."
+   "answer": "Kadrak is an orc warrior stationed at the northern border outpost between the Barrens and Ashenvale. He orders the strike after discovering Alliance messengers slipping through nearby passes, and seeks to secure Horde lands against foreign encroachment."
   },
   {
    "q": "Who is Rynthariel the Keymaster?",
@@ -50,7 +50,7 @@
     "rynthariel the keymaster",
     "talon den boss"
    ],
-   "answer": "Rynthariel is a dryad leader residing in the Talon Den atop Stonetalon Peak. She penned the runed scroll carried by the intercepted messenger, coordinating Alliance and sentinel movements across the mountain corridors."
+   "answer": "Rynthariel is a dryad leader in the Talon Den atop Stonetalon Peak. She wrote the runed scroll carried by the intercepted messenger, coordinating Alliance and sentinel movements through the mountain corridors."
   },
   {
    "q": "Where is the Talon Den located?",
@@ -59,7 +59,7 @@
     "where is talon den",
     "rynthariel location"
    ],
-   "answer": "The Talon Den is a subterranean cavern complex located on the western slopes of Stonetalon Peak, nestled high in the Stonetalon Mountains."
+   "answer": "The Talon Den is a subterranean cavern complex on the western slopes of Stonetalon Peak, high in the Stonetalon Mountains."
   },
   {
    "q": "What is the purpose of planting Kadrak's flag?",
@@ -68,7 +68,7 @@
     "kadrak's flag",
     "horde flag purpose"
    ],
-   "answer": "Planting the flag serves as a psychological warning. Kadrak wants the night elves and the Alliance to see the red Horde banner standing over their fallen leader, ensuring they hesitate before sending further scouts through the Barrens."
+   "answer": "Kadrak plants the flag as a warning. He wants the night elves and the Alliance to see the red Horde banner over their fallen leader and hesitate before sending more scouts through the Barrens."
   },
   {
    "q": "How does this quest connect to 'The Runed Scroll'?",
@@ -77,7 +77,7 @@
     "previous quest",
     "horde presence prerequisite"
    ],
-   "answer": "Horde Presence is the direct continuation of 'The Runed Scroll.' The mission is unlocked only after a player discovers the intercepted parchment on an Alliance messenger and delivers it to Kadrak for translation."
+   "answer": "Horde Presence follows The Runed Scroll. The mission begins after a player finds the intercepted parchment on an Alliance messenger and brings it to Kadrak for translation."
   },
   {
    "q": "Why is the Horde concerned about Alliance runners in the Barrens?",
@@ -86,21 +86,21 @@
     "why fight dryads",
     "barrens threat"
    ],
-   "answer": "The Barrens is the vital heartland linking Orgrimmar, Thunder Bluff, and surrounding settlements. Allowing Alliance messengers and night elf allies to travel unhindered through mountain gaps threatens Horde supply lines and border security."
+   "answer": "The Barrens links Orgrimmar, Thunder Bluff, and surrounding settlements. Alliance messengers and night elf allies traveling freely through mountain gaps threaten Horde supply lines and border security."
   }
  ],
  "angles": [
   {
    "target": "faction:Horde",
-   "text": "Securing the northern borders of the Barrens is essential for maintaining control over Kalimdor's central plains and protecting fledgling settlements from night elf incursions."
+   "text": "For the Horde, securing the Barrens' northern border helps hold Kalimdor's central plains and protect its fledgling settlements from night elf incursions."
   },
   {
    "target": "class:Druid",
-   "text": "For Horde druids, marching into Stonetalon Peak to strike down a dryad child of Cenarius illustrates the bitter political tension between faction allegiance and sacred natural ties."
+   "text": "As a Horde druid, you face the bitter pull between faction allegiance and sacred ties to nature when you march into Stonetalon Peak to strike down a dryad child of Cenarius."
   },
   {
    "target": "race:Orc",
-   "text": "Orcs view Kadrak's decisive offensive as the only suitable answer to territorial intrusion, showing strength rather than allowing the Alliance room to maneuver."
+   "text": "As an orc, you can see Kadrak's offensive as a show of strength and an answer to territorial intrusion, leaving the Alliance no room to maneuver."
   }
  ],
  "keywords": [
@@ -126,5 +126,6 @@
  ],
  "attribution": [
   "Horde Presence"
- ]
+ ],
+ "style": 1
 }

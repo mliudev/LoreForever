@@ -10,16 +10,16 @@
    "quest:865"
   ]
  },
- "summary": "An intact horn harvested from the predatory raptors stalking the savannas of the Barrens. Kept in pristine condition, it is coveted by an entrepreneurial goblin looking to tap into rumors of raptor intelligence.",
+ "summary": "Across the Barrens savannas, raptors are hunted for their intact horns. Mebok Mizzyrix of Ratchet wants them for a scheme built on rumors of raptor intelligence.",
  "sections": [
   {
    "title": "A Questionable Ingredient",
-   "body": "While common hunters value raptor parts for hides, talons, and trophies, unbroken horns are harder to come by in the field. In the port town of Ratchet, an eccentric goblin alchemist named Mebok Mizzyrix has formulated a wild theory regarding local wildlife: because the raptors of the Barrens display cunning beyond their kin elsewhere, he suspects their intellect resides directly within their headgear. By grinding whole horns down and brewing them into tonic concoctions, Mebok aims to bottle this perceived genius into commercial 'smart drinks.'",
+   "body": "Hunters prize raptor hides, talons, and trophies, but whole horns are harder to take in the field. Mebok Mizzyrix, an eccentric goblin alchemist in Ratchet, believes the Barrens raptors are more cunning than their kin elsewhere. He suspects their intellect lies in their horns. By grinding whole horns and brewing them into tonics, Mebok hopes to bottle that supposed genius in commercial drinks.",
    "spoiler": 0
   },
   {
    "title": "Stalking the Prides",
-   "body": "Pristine horns cannot simply be chipped off any juvenile beast. To yield viable material for brewing, hunters must take them from particularly vicious predators, such as the Sunscale Scytheclaws that prowl the southern plains and the northern borders near Ashenvale. Notable legendary terrors of the veldt, such as Takk the Leaper and the elusive Ishamuhale, also bear horns stout enough to survive the clash of the hunt intact.",
+   "body": "A horn fit for brewing must come from a particularly vicious predator, not just any young raptor. Sunscale Scytheclaws prowl the southern plains and the northern borders near Ashenvale. Takk the Leaper and the elusive Ishamuhale are notable terrors of the veldt, and their stout horns can survive the clash of the hunt intact.",
    "spoiler": 0
   }
  ],
@@ -31,7 +31,7 @@
     "horn buyer",
     "who buys raptor horn"
    ],
-   "answer": "Mebok Mizzyrix, a goblin merchant and aspiring brewer stationed in Ratchet, seeks them out. He believes whole horns hold the key to his next get-rich-quick product."
+   "answer": "Mebok Mizzyrix, a goblin merchant and aspiring brewer in Ratchet, seeks intact horns. He believes they hold the key to his next get-rich-quick product."
   },
   {
    "q": "Why do the horns need to be intact?",
@@ -39,7 +39,7 @@
     "why intact",
     "shattered horns"
    ],
-   "answer": "Mebok intends to grind them into a fine powder for ingestion. Shipped, chipped, or broken horns are either discarded during the hunt or considered spent, lacking the full potency the goblin hopes to harness for his recipes."
+   "answer": "Mebok plans to grind whole horns into a fine powder for ingestion. Hunters discard chipped or broken horns, or consider them spent, because they lack the full potency he hopes to harness for his recipes."
   },
   {
    "q": "Which raptors carry them?",
@@ -48,7 +48,7 @@
     "which raptors",
     "who drops intact horn"
    ],
-   "answer": "They are predominantly found on mature Sunscale Scytheclaws roaming the northern and southern extremes of the Barrens, as well as notorious unique raptors like Ishamuhale and Takk the Leaper."
+   "answer": "Mature Sunscale Scytheclaws carry them in the northern and southern extremes of the Barrens. Notorious unique raptors, including Ishamuhale and Takk the Leaper, bear them too."
   },
   {
    "q": "Do raptor horns actually make you smarter?",
@@ -57,17 +57,17 @@
     "are raptors smart",
     "raptor intelligence"
    ],
-   "answer": "While Barrens raptors are known for unusual pack cunning and coordination, the idea that their intelligence is stored in their horns\u2014or transferable via a drink\u2014is an unproven goblin scheme."
+   "answer": "Barrens raptors show unusual pack cunning and coordination, but no one has proved their intelligence rests in their horns or can pass to someone through a drink."
   }
  ],
  "angles": [
   {
    "target": "class:Hunter",
-   "text": "Taking a trophy horn whole requires a clean kill, proving your precision against some of the fiercest predators the savannas have to offer."
+   "text": "As a hunter, taking a trophy horn whole calls for a clean kill against some of the savannas' fiercest predators."
   },
   {
    "target": "profession:Cooking",
-   "text": "While Mebok plans to pulverize the horns for wine infusions, practical survivalists know raptor parts are usually better suited for toolcrafting than palatable cuisine."
+   "text": "As a cook, you may hear Mebok plans to pulverize the horns for wine infusions. Practical survivalists favor raptor parts for toolcrafting over palatable cuisine."
   }
  ],
  "keywords": [
@@ -92,5 +92,6 @@
  "attribution": [
   "Intact Raptor Horn",
   "Raptor Horns"
- ]
+ ],
+ "style": 1
 }

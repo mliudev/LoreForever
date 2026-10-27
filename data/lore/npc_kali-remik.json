@@ -8,11 +8,11 @@
   "wiki": "Kali Remik",
   "refs": 1
  },
- "summary": "Kali Remik is a Darkspear troll hunter who spends her time lending guidance to travelers across the Horde's heartland. Familiar with the ways of tracking and survival in Durotar, she directs young hunters to Thotar in Razor Hill to learn the taming of beasts.",
+ "summary": "In Sen'jin Village, Kali Remik guides young hunters toward their next training. She is a Darkspear troll hunter who knows the tracking and survival ways of Durotar.",
  "sections": [
   {
    "title": "A Guide for the Hunt",
-   "body": "Kali Remik is a seasoned jungle troll tracker well-acquainted with the arid wastes of Durotar and the bustling hubs of the Horde. In coastal settlements like Sen'jin Village, she watches over young scouts taking their first steps outside the Valley of Trials. Knowing when a novice outgrows the local training grounds, she steps in to direct promising marksmen toward Thotar in Razor Hill to begin their path as beastmasters, ensuring the Horde's frontier ranks stay sharp and disciplined.",
+   "body": "Kali Remik guides young scouts in Sen'jin Village, where they begin their lives beyond the Valley of Trials. A Darkspear troll tracker, she knows Durotar's dry lands and the Horde's settlements. When a novice is ready to leave the local training grounds, Kali sends promising hunters to Thotar in Razor Hill. There they begin learning to tame beasts, strengthening the Horde's frontier ranks.",
    "spoiler": 0
   }
  ],
@@ -24,7 +24,7 @@
     "who is kali remik",
     "kali remik npc"
    ],
-   "answer": "Kali Remik is a Darkspear troll scout and quest giver. She helps guide fledgling Horde adventurers, especially hunters ready to advance their training beyond local outposts."
+   "answer": "Kali Remik is a Darkspear troll hunter and scout who guides young hunters ready to advance beyond local training."
   },
   {
    "q": "Where can Kali Remik be found?",
@@ -33,7 +33,7 @@
     "kali remik location",
     "find kali remik"
    ],
-   "answer": "She can be found aiding her people in Durotar, notably around Sen'jin Village."
+   "answer": "Kali Remik can be found in Durotar, notably around Sen'jin Village, aiding her people."
   },
   {
    "q": "What guidance does she offer to hunters?",
@@ -42,17 +42,17 @@
     "kali remik hunter quest",
     "what does kali teach"
    ],
-   "answer": "Through 'The Hunter's Path', Kali directs young orc and troll hunters who have proven their basic skills to travel to Razor Hill, where Thotar sets them on the path to taming a beast companion of their own."
+   "answer": "Kali Remik directs young orc and troll hunters who have proven their basic skills to Razor Hill. There, Thotar sets them on the path to taming a beast companion."
   }
  ],
  "angles": [
   {
    "target": "class:Hunter",
-   "text": "For young orc and troll marksmen, Kali acts as a stepping stone, recognizing when your skills outstrip village drills and sending you forward to Thotar in Razor Hill."
+   "text": "As a young orc or troll hunter, you can look to Kali Remik for guidance when your skills outgrow village drills. She sends you to Thotar in Razor Hill."
   },
   {
    "target": "race:Troll",
-   "text": "A fellow member of the Darkspear tribe, Kali keeps watch over her kin as they rebuild their lives along Durotar's coast and settle within Orgrimmar's Valley of Spirits."
+   "text": "As a Darkspear troll, you share Kali Remik's tribe. She watches over her kin as they rebuild their lives along Durotar's coast and settle in Orgrimmar's Valley of Spirits."
   }
  ],
  "keywords": [
@@ -76,5 +76,6 @@
  ],
  "attribution": [
   "Kali Remik"
- ]
+ ],
+ "style": 1
 }

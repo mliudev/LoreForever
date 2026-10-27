@@ -28,10 +28,10 @@ export const CHARACTER_VOICES = {
   },
   "dwarf-male": {
     "r2": "character-voices/dwarf-male.wav",
-    "text": "I've buried more friends than ye've met, youngster. The Dark Irons took my brother at the Gates o' Ironforge, an' I've not forgotten. If ye're goin' intae those mines, go ready tae bleed... an' bring back every last one o' them.",
-    "cue": "[strong Scottish Highland brogue, deep guttural gravelly voice]",
-    "inworld": "humble-aspen-1573__lf-char-clone-dwarf-male",
-    "provenance": "Our own design, generated on Inworld from a written casting brief on 2026-10-13. Not cut from the game client, another add-on, or any recording of a real actor."
+    "text": "Ah, there ye are! Good, good. Now listen close. The troggs have broken through at the old dig, an' my lads cannae hold them much longer. Take this hammer. Aye, it's heavy, that's the point! Drive them back, an' bring me six o' their claws. Off ye go now, an' mind the ice on the pass!",
+    "cue": "[strong rolling Scottish brogue] [warm bright barrel-chested baritone, lively, quick to laugh]",
+    "inworld": "humble-aspen-1573__lf-char-clone-dwarf-male-20261026",
+    "provenance": "Our own design, generated on Inworld from a written casting brief on 2026-10-25, picked by Mike in the quest-giver recast (LOR-842). Not cut from the game client, another add-on, or any recording of a real actor."
   },
   "forsaken-female": {
     "r2": "character-voices/forsaken-female.wav",
@@ -98,10 +98,10 @@ export const CHARACTER_VOICES = {
   },
   "human-male": {
     "r2": "character-voices/human-male.wav",
-    "text": "Don't mind the mud, friend, it's been raining in Elwynn for three days straight. The gnolls have been after my fields again, and the guards are spread too thin to help. If you've got a sword and a free afternoon, I'd pay you in silver and the best apple pie in Goldshire.",
-    "cue": "[warm grounded male baritone] [natural conversational phrasing, calm confident delivery]",
-    "inworld": "humble-aspen-1573__lf-char-clone-human-male",
-    "provenance": "Our own design, generated on Inworld from a written casting brief on 2026-10-13. Not cut from the game client, another add-on, or any recording of a real actor."
+    "text": "Ah, friend, you came! Good. Listen well. The kobolds have overrun the old mine, and the miners refuse to go back in. I can't say I blame them. Take this lantern. It's dented, but it still burns bright! Clear them out, and bring me back any candles you find. Go on, then, and may the Light watch over you!",
+    "cue": "[very deep booming bass, big chest resonance, smooth and rich] [commanding, theatrical, warm]",
+    "inworld": "humble-aspen-1573__lf-char-clone-human-male-20261026",
+    "provenance": "Our own design, generated on Inworld from a written casting brief on 2026-10-26, picked by Mike in the quest-giver recast (LOR-842). Not cut from the game client, another add-on, or any recording of a real actor."
   },
   "nightelf-female": {
     "r2": "character-voices/nightelf-female.wav",

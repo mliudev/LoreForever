@@ -8,11 +8,11 @@
   "wiki": "Grish Longrunner",
   "refs": 1
  },
- "summary": "Grish Longrunner is a tauren scout and messenger stationed near the Great Lift, the vital mechanical crossing connecting the southern Barrens with the canyons of Thousand Needles. Serving the interests of the Horde along this bustling boundary, he keeps watch over travelers and coordinates military movement across the frontier.",
+ "summary": "At the Great Lift, Grish Longrunner watches the boundary between the southern Barrens and Thousand Needles. The tauren scout carries messages for the Horde and tracks movement across the crossing.",
  "sections": [
   {
    "title": "Watcher at the Lift",
-   "body": "Positioned right beside the towering machinery of the Great Lift, Grish Longrunner stands watch over one of central Kalimdor's most precarious border crossings. The platform elevator is a lifeline connecting the arid wastes of the southern Barrens to the windswept mesas of Thousand Needles below. Between roving quilboar packs and competing territorial threats, travel along this vertical boundary is dangerous, making scouts like Grish essential for keeping the Horde informed and summoning reinforcements where they are sorely needed.",
+   "body": "Grish Longrunner keeps watch beside the Great Lift in the southern Barrens. Its platform connects the dry southern Barrens with the canyons of Thousand Needles. Quilboar packs roam nearby, and rival groups threaten the crossing. Grish watches travelers and keeps the Horde informed, so reinforcements can be called where they are needed.",
    "spoiler": 0
   }
  ],
@@ -24,7 +24,7 @@
     "grish longrunner identity",
     "what does grish do"
    ],
-   "answer": "Grish Longrunner is a tauren scout aligned with the Horde who is stationed at the rim of the Great Lift, which descends from the Barrens down into Thousand Needles."
+   "answer": "Grish Longrunner is a tauren scout for the Horde, stationed at the rim of the Great Lift. The platform descends from the Barrens into Thousand Needles."
   },
   {
    "q": "Where can I find Grish Longrunner?",
@@ -33,7 +33,7 @@
     "where is grish",
     "find grish"
    ],
-   "answer": "He is located in the southern reaches of the Barrens, right near the mechanical entrance of the Great Lift leading down to Thousand Needles."
+   "answer": "Find Grish Longrunner in the southern Barrens, beside the mechanical entrance to the Great Lift that leads down to Thousand Needles."
   },
   {
    "q": "What role does he play in the area?",
@@ -42,17 +42,17 @@
     "grish quests",
     "calling in the reserves grish"
    ],
-   "answer": "Grish acts as a point of contact for Horde messengers and travelers, notably assisting in rallying and directing local reinforcements through requests like Calling in the Reserves."
+   "answer": "Grish receives Horde messengers and travelers, and helps rally and direct local reinforcements through requests such as Calling in the Reserves."
   }
  ],
  "angles": [
   {
    "target": "faction:Horde",
-   "text": "For Horde couriers and warriors journeying south toward Thousand Needles or returning north into the Barrens, Grish serves as an important lookout and point of contact at the lift."
+   "text": "As a Horde courier or warrior, you can find Grish watching the Great Lift on the route south to Thousand Needles or north into the Barrens."
   },
   {
    "target": "race:Tauren",
-   "text": "Bearing the proud Longrunner name, Grish represents the endurance and vigilance of the shu'halo as they secure vital routes across their ancestral homelands."
+   "text": "As a tauren, you share Grish's Longrunner name and the vigilance his people bring to the routes through their ancestral lands."
   }
  ],
  "keywords": [
@@ -74,5 +74,6 @@
  ],
  "attribution": [
   "Grish Longrunner"
- ]
+ ],
+ "style": 1
 }

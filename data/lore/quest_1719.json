@@ -17,16 +17,16 @@
   "wiki": "The Affray",
   "chain": []
  },
- "summary": "The Affray is a brutal martial trial conducted on Fray Island off the coast of the Barrens. Administered by Klannoc Macleod, this arena brawl pits ambitious warriors against waves of island challengers and their champion to prove they possess the mettle required for advanced training.",
+ "summary": "On Fray Island, warriors face a trial before Klannoc Macleod will train them. The Affray pits them against island challengers and their champion.",
  "sections": [
   {
    "title": "A Proving Ground in the Great Sea",
-   "body": "Fray Island stands apart from the struggles of the mainland, serving as a sanctuary for hardy brawlers, outcasts, and combat instructors. Klannoc Macleod does not simply teach any wanderer who steps off a boat. To earn his tutelage, aspiring warriors must participate in the Affray, an open trial of martial stamina and battlefield awareness designed to separate true fighters from boastful pretenders.",
+   "body": "Fray Island lies apart from the mainland, drawing brawlers, outcasts, and combat instructors. Klannoc Macleod does not teach every wanderer who arrives by boat. Aspiring warriors must first enter the Affray, where stamina and awareness in battle prove who can fight beyond mere boasting.",
    "spoiler": 0
   },
   {
    "title": "The Circle of Iron and Blood",
-   "body": "The rules of the Affray are simple and unforgiving. By stepping onto the central iron grate among the gathered spectators, a warrior signals ringmaster Twiggy Flathead to begin the contest. Challengers enter the ring one after another, testing the initiate's endurance. Those who survive the preliminary fighters face the island's heavyweight champion, Big Will, whose defeat is the sole condition for earning Klannoc's respect.",
+   "body": "A warrior begins the Affray by stepping onto the central iron grate among the spectators. Ringmaster Twiggy Flathead then sends challengers into the ring one after another. Those who survive face the island's heavyweight champion, Big Will. Defeating him is the only way to earn Klannoc's respect.",
    "spoiler": 0
   }
  ],
@@ -38,7 +38,7 @@
     "what is the affray",
     "fray island arena"
    ],
-   "answer": "The Affray is an arena-style gauntlet held on Fray Island. It tests whether an aspiring warrior has the raw endurance and skill to handle advanced combat training from Klannoc Macleod."
+   "answer": "The Affray tests aspiring warriors in a series of arena fights on Fray Island. Klannoc Macleod uses it to judge whether they are ready for advanced combat training."
   },
   {
    "q": "Where does the Affray take place?",
@@ -46,7 +46,7 @@
     "where is the affray",
     "affray location"
    ],
-   "answer": "It takes place on Fray Island, a rugged isle situated off the eastern coast of the Barrens in the Great Sea."
+   "answer": "The Affray takes place on Fray Island, off the eastern coast of the Barrens in the Great Sea."
   },
   {
    "q": "Who organizes the trial?",
@@ -54,7 +54,7 @@
     "who runs the affray",
     "affray organizer"
    ],
-   "answer": "Warrior trainer Klannoc Macleod oversees the island's fighters and dictates the trial, while Twiggy Flathead directs the bouts from the edge of the pit."
+   "answer": "Warrior trainer Klannoc Macleod oversees the island's fighters and sets the trial. Twiggy Flathead directs the bouts from the edge of the pit."
   },
   {
    "q": "How does the combat in the ring work?",
@@ -63,7 +63,7 @@
     "affray waves",
     "starting the affray"
    ],
-   "answer": "A warrior steps onto the central iron grate to signal readiness. Twiggy Flathead then sends waves of Affray Challengers into the pit before finally releasing the island's brawny champion, Big Will."
+   "answer": "A warrior steps onto the central iron grate to signal readiness. Twiggy Flathead sends Affray Challengers into the pit in waves, then releases the island champion, Big Will."
   },
   {
    "q": "Who is Big Will?",
@@ -72,7 +72,7 @@
     "who is big will",
     "fray island champion"
    ],
-   "answer": "Big Will is the reigning champion of Fray Island's brawlers. Defeating him in the ring is the final requirement to pass the Affray."
+   "answer": "Big Will is the reigning champion of Fray Island's brawlers. Defeating him is the final requirement to pass the Affray."
   },
   {
    "q": "Why must warriors complete this trial?",
@@ -80,13 +80,13 @@
     "why do the affray",
     "affray purpose"
    ],
-   "answer": "Klannoc Macleod refuses to teach his martial techniques to anyone who has not proven their toughness in blood and combat against multiple opponents."
+   "answer": "Klannoc Macleod will not teach his martial techniques until a warrior proves their toughness in combat against multiple opponents."
   }
  ],
  "angles": [
   {
    "target": "class:Warrior",
-   "text": "The Affray is a defining rite of passage for seasoned warriors, serving as the crucible where they prove their combat stances and battle endurance to unlock deeper mastery of their craft."
+   "text": "As a warrior, you face the Affray as a trial of your battle stances and endurance. Proving yourself there opens the way to deeper mastery of your craft."
   }
  ],
  "keywords": [
@@ -107,5 +107,6 @@
  ],
  "attribution": [
   "The Affray"
- ]
+ ],
+ "style": 1
 }

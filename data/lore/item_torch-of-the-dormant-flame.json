@@ -10,11 +10,11 @@
    "quest:1526"
   ]
  },
- "summary": "The Torch of the Dormant Flame is a ritual implement carried by young Horde shaman during their communion with fire in Durotar. Awaiting the defeat of a flame manifestation atop the mountain, it serves as a vessel meant to capture primal elemental fire upon the Shrine of the Dormant Flame.",
+ "summary": "At the Shrine of the Dormant Flame, a shaman prepares to kindle the Torch of the Dormant Flame. The unlit torch waits for a fire spirit's ember, earned on a mountaintop in Durotar.",
  "sections": [
   {
    "title": "Vessel of Awakening",
-   "body": "A shaman seeking the favor of fire is entrusted with the unlit Torch of the Dormant Flame before ascending the peaks above Durotar. After drinking a spirit-revealing fire sapta, the shaman sees and challenges a Minor Manifestation of Fire upon the mountaintop. Slaying this elemental spirit yields a glowing ember, which is deposited into the weathered brazier of the Shrine of the Dormant Flame. Touching the head of the dormant torch to the resulting white-hot conflagration awakens the wood, transforming it into a burning emblem of elemental mastery.",
+   "body": "A shaman seeking fire's favor carries the unlit Torch of the Dormant Flame up the peaks above Durotar. Fire sapta lets the shaman see a Minor Manifestation of Fire on the mountaintop and challenge it. When the spirit falls, its glowing ember goes into the weathered brazier at the Shrine of the Dormant Flame. The shaman touches the torch's head to the white-hot blaze, and the wood awakens as a burning emblem of elemental mastery.",
    "spoiler": 0
   }
  ],
@@ -26,7 +26,7 @@
     "why do i have this unlit torch",
     "what does the torch do"
    ],
-   "answer": "It is an unlit ceremonial torch given to shaman undertaking the Call of Fire trial. Once a manifestation of fire is defeated and its ember placed in the shrine's brazier, the torch is dipped into the white-hot flames to ignite it with elemental power."
+   "answer": "Shaman undertaking the Call of Fire trial receive the unlit ceremonial torch. After a manifestation of fire is defeated, its ember goes into the shrine's brazier, and the torch is dipped into the white-hot flames to kindle it with elemental power."
   },
   {
    "q": "Where does this torch get lit?",
@@ -35,7 +35,7 @@
     "shrine of dormant flame torch",
     "how to ignite dormant torch"
    ],
-   "answer": "It is ignited atop the mountain near Telf Joolam in Durotar, specifically at the brazier upon the Shrine of the Dormant Flame, immediately after defeating the Minor Manifestation of Fire."
+   "answer": "The torch is lit atop the mountain near Telf Joolam in Durotar, at the brazier of the Shrine of the Dormant Flame, after the Minor Manifestation of Fire is defeated."
   },
   {
    "q": "Who provides the unlit torch?",
@@ -44,13 +44,13 @@
     "dormant torch source",
     "call of fire torch giver"
    ],
-   "answer": "Kranal Fiss, the shaman living north of the Crossroads, gives the torch to initiates and sends them to Telf Joolam, keeper of the Shrine of the Dormant Flame, who recognizes it as the mark of one attempting to tame fire."
+   "answer": "Kranal Fiss, the shaman living north of the Crossroads, gives initiates the unlit torch and sends them to Telf Joolam, keeper of the Shrine of the Dormant Flame. Telf Joolam recognizes it as the mark of one attempting to tame fire."
   }
  ],
  "angles": [
   {
    "target": "class:Shaman",
-   "text": "The dormant torch represents the initiate's unproven state; only by conquering a living manifestation of flame can a shaman kindle it and earn the right to summon a Fire Totem."
+   "text": "As a shaman, you begin with an unproven torch. Conquer a living manifestation of flame to kindle it and earn the right to summon a Fire Totem."
   }
  ],
  "keywords": [
@@ -72,5 +72,6 @@
  "attribution": [
   "Torch of the Dormant Flame",
   "Call of Fire (4)"
- ]
+ ],
+ "style": 1
 }

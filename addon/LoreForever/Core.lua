@@ -649,6 +649,7 @@ events:SetScript("OnEvent", function(_, event, arg1, ...)
     ns.Voice.Init()
     ns.WhatsNew.Init()   -- the first login of a new version: what's new in it (WhatsNew.lua)
     ns.Strip.SyncWillo()   -- Willo's newer Live game info choice beats an older one made here (Strip.lua, LOR-676)
+    ns.Voice.SyncWillo()   -- and her newer Speak quest dialogue choice
     ns.UI.Create(ns.engine)
     ns.Hooks.Init()
     ns.Options.Create()

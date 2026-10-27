@@ -26,14 +26,14 @@
 import { setup, currentUser, fail, noStore, sameOrigin } from "../../../lib/accounts.js";
 import { currentDevice } from "../../../lib/devices.js";
 import { forwardFeedback } from "../../../lib/slack-feedback.js";
-import { perMinute, perHour, perDay, unDay, slowDown } from "../../../lib/ratelimit.js";
-import { plansOn, planIdNow } from "../../../lib/billing.js";
+import { perMinute, perHour, perDay, slowDown } from "../../../lib/ratelimit.js";
+import { messageLimit } from "../../../lib/friend-send.js";
 import { readImageUpload, sendScreenshot, screenshotResponse } from "../../../lib/friend-images.js";
 import {
   FriendError, friendsList, friendCounts, addFriend, answerRequest, removeFriend, blockPlayer, unblockPlayer, reportPlayer,
   passPlayer, setOnlineShown, unsendMessage, needFriend,
   setSharing, sendMessage, conversation, readPresence, savePresence,
-  ASKS_PER_DAY, MESSAGES_PER_MINUTE, MESSAGES_PER_DAY, FREE_MESSAGES_PER_DAY, REPORTS_PER_DAY, PRESENCE_PER_HOUR,
+  ASKS_PER_DAY, MESSAGES_PER_MINUTE, REPORTS_PER_DAY, PRESENCE_PER_HOUR,
 } from "../../../lib/friends.js";
 import { waitForFriends } from "../../../lib/friend-wait.js";
 import { isCompanion } from "../../../lib/client-version.js";
@@ -59,27 +59,12 @@ const GETS = {
   },
 };
 
-// Text and screenshots share the same quotas and plan entitlements. Successful screenshot retries skip this.
-// All at once (Mike, 10/21: "an immediate messaging system"; one after another they were five round trips to the
-// database before the message was even saved): the free plan's day is counted alongside the others and given back
-// (after the reply) when it doesn't apply, a paid plan or a message refused by another limit, so it counts as before.
+// Text and screenshots share the same quotas and plan entitlements, with Willo's own sends (lib/friend-send.js
+// messageLimit). Successful screenshot retries skip this. All at once (Mike, 10/21: "an immediate messaging system";
+// one after another they were five round trips to the database before the message was even saved).
 async function messageLimits(context, user) {
-  const { env } = context, plans = plansOn(env);
-  const [minute, day, plan, freeDay] = await Promise.all([
-    perMinute(env, user.id, "friends-send", MESSAGES_PER_MINUTE),
-    perDay(env, user.id, "friends-send-day", MESSAGES_PER_DAY),
-    plans ? planIdNow(env, user.id) : null,
-    plans ? perDay(env, user.id, "friends-send-free", FREE_MESSAGES_PER_DAY) : true,
-  ]);
-  const giveBack = () => (plans ? later(context, unDay(env, user.id, "friends-send-free")) : null);
-  if (!minute) return (await giveBack(), slowDown());
-  if (!day) return (await giveBack(), tooMany("That's a lot of messages for one day. Try again tomorrow."));
-  if (plan !== "free") return (await giveBack(), null);
-  if (!freeDay) {
-    return tooMany(`That's today's ${FREE_MESSAGES_PER_DAY} messages on the free plan. More tomorrow, or as many ` +
-      "as you like from Hero up.");
-  }
-  return null;
+  const limited = await messageLimit(context.env, user.id, work => later(context, work));
+  return !limited ? null : limited.slow ? slowDown() : tooMany(limited.error);
 }
 
 // Bookkeeping after the reply, where Pages gives a waitUntil (the tests wait for it).

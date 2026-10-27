@@ -113,14 +113,11 @@ and the chosen merge commit; this also publishes any earlier merged site changes
 After checking that exact commit's preview, promote that commit (not a moving main):
 
 ```bash
-git fetch origin
-reviewed=<full-reviewed-merge-commit-SHA>
-git merge-base --is-ancestor origin/site-live "$reviewed"
-git push origin "$reviewed:refs/heads/site-live"
+scripts/ship-site.sh <full-reviewed-merge-commit-SHA>
 ```
 
-Do not force-push past a failed ancestor check. Confirm the matching Cloudflare
-Production deployment succeeded and check the public page before calling it live.
+The script refuses a non-fast-forward (never force-push past it), waits for the matching Cloudflare
+Production build and checks the public site serves it. It is live when it prints "site live: <sha>".
 A full add-on release still follows the existing release workflow.
 
 ## Optional Git-authored articles

@@ -8,16 +8,16 @@
   "wiki": "Klannoc Macleod",
   "refs": 3
  },
- "summary": "Klannoc Macleod is a rugged human warrior residing on Fray Island, situated off the eastern shores of the Barrens. Renowned as an arbiter of martial prowess, he tests aspiring brawlers from both the Alliance and the Horde who seek to master combat stances. Those who earn his respect are directed further inland toward greater trials of strength.",
+ "summary": "On Fray Island, Klannoc Macleod puts warriors to the test. The human warrior welcomes fighters from both the Alliance and the Horde who seek mastery of combat stances. Those who earn his respect are sent inland to face greater trials of strength.",
  "sections": [
   {
    "title": "The Master of Fray Island",
-   "body": "Isolated on Fray Island off the coast of the Merchant Coast in the Barrens, Klannoc Macleod oversees a brutal proving ground for seasoned fighters. Despite being human, Klannoc stands apart from the typical political squabbles of the Alliance and Horde, judging contenders solely by their grit, blade work, and resolve under fire.",
+   "body": "Klannoc Macleod puts seasoned fighters through their paces on Fray Island, off the Merchant Coast in the Barrens. Though human, he leaves Alliance and Horde quarrels aside. He judges each contender by grit, blade work, and resolve under fire.",
    "spoiler": 0
   },
   {
    "title": "The Affray",
-   "body": "Warriors directed to Fray Island are subjected to Macleod's trial: the Affray. Contenders step onto a raised iron grating to endure relentless waves of eager brawlers while Klannoc watches. Those who withstand the onslaught and defeat his chosen champion earn his seal of approval, proving they possess the temperament necessary for berserker training.",
+   "body": "Klannoc Macleod's trial on Fray Island is called the Affray. Contenders climb onto raised iron grating and face relentless waves of eager brawlers as he watches. Those who endure the onslaught and defeat his chosen champion earn his approval and prove they have the temperament for berserker training.",
    "spoiler": 0
   }
  ],
@@ -29,7 +29,7 @@
     "klannoc macleod lore",
     "fray island guy"
    ],
-   "answer": "Klannoc Macleod is a veteran human warrior dwelling on Fray Island, just off the coast of the Barrens. He acts as an instructor and trial master for warriors striving to test their limits and unlock new techniques."
+   "answer": "Klannoc Macleod trains warriors and tests their limits on Fray Island off the Barrens coast. Fighters come to him to prove themselves and learn new techniques."
   },
   {
    "q": "Where can I find Klannoc Macleod?",
@@ -38,7 +38,7 @@
     "where is fray island",
     "how to get to klannoc"
    ],
-   "answer": "Klannoc is located on Fray Island, a rocky isle off the eastern coast of the Barrens, southeast of the Merchant Coast and Ratchet. You must swim across the open water to reach his camp."
+   "answer": "You can find Klannoc Macleod on Fray Island, a rocky isle off the eastern Barrens coast, southeast of the Merchant Coast and Ratchet. Swim across open water to reach his camp."
   },
   {
    "q": "Why does a human talk to Horde players on Fray Island?",
@@ -47,7 +47,7 @@
     "why is klannoc neutral",
     "horde klannoc"
    ],
-   "answer": "Klannoc operates outside the traditional Alliance and Horde conflict. As an independent combat master, he cares only for martial discipline and warrior ethos, willingly testing any contender who arrives with a proper recommendation."
+   "answer": "Klannoc Macleod keeps apart from the Alliance and Horde conflict. He judges contenders by their martial discipline and warrior's resolve, and tests those who arrive with a proper recommendation."
   },
   {
    "q": "What is the Affray?",
@@ -56,7 +56,7 @@
     "fray island trial",
     "klannoc trial"
    ],
-   "answer": "The Affray is a trial of endurance held on Fray Island. A warrior must stand atop Klannoc's combat platform and defeat waves of challengers culminating in a battle against Big Will, proving they have the ferocity needed for advanced warrior techniques."
+   "answer": "The Affray is an endurance trial on Fray Island. You stand on Klannoc's combat platform and defeat waves of challengers, ending with a fight against Big Will, to prove your ferocity for advanced warrior techniques."
   },
   {
    "q": "Why send warriors to Klannoc Macleod?",
@@ -65,7 +65,7 @@
     "why visit klannoc",
     "berserker stance quest"
    ],
-   "answer": "Warrior trainers across Azeroth refer their most promising students to Klannoc to undergo a trial of martial fortitude, necessary to prepare them for the fierce focus of the Berserker Stance."
+   "answer": "Warrior trainers across Azeroth send their most promising students to Klannoc Macleod for a trial of martial fortitude. The trial prepares you for the fierce focus of the Berserker Stance."
   },
   {
    "q": "Who does Klannoc send you to after the Affray?",
@@ -74,21 +74,21 @@
     "the windwatcher quest",
     "who is the windwatcher"
    ],
-   "answer": "After proving your mettle in the Affray, Klannoc directs warriors north to the Alterac Mountains, near Tarren Mill, to seek out Bath'rah the Windwatcher for further guidance."
+   "answer": "After you prove yourself in the Affray, Klannoc Macleod sends you north to the Alterac Mountains, near Tarren Mill, to seek guidance from Bath'rah the Windwatcher."
   }
  ],
  "angles": [
   {
    "target": "class:Warrior",
-   "text": "Klannoc Macleod is a crucial figure in a warrior's journey, testing your endurance and ferocity in the Affray before guiding you toward mastering the Berserker Stance."
+   "text": "As a warrior, you face Klannoc Macleod's test of endurance and ferocity in the Affray before he guides you toward the Berserker Stance."
   },
   {
    "target": "faction:Horde",
-   "text": "Though he is human, Klannoc remains indifferent to faction rivalries, welcoming Horde fighters who come seeking trial and honor on his isolated island."
+   "text": "As a Horde fighter, you can seek trial and honor with Klannoc Macleod, who sets faction rivalries aside on his island."
   },
   {
    "target": "faction:Alliance",
-   "text": "Alliance warriors must venture far into Kalimdor's waters off the Barrens coast to find Klannoc and prove their combat readiness on Fray Island."
+   "text": "As an Alliance warrior, you must travel far into the waters off the Barrens coast to find Klannoc Macleod and prove your combat readiness on Fray Island."
   }
  ],
  "keywords": [
@@ -111,5 +111,6 @@
  ],
  "attribution": [
   "Klannoc Macleod"
- ]
+ ],
+ "style": 1
 }

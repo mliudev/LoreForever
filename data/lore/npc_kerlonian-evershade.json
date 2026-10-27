@@ -8,16 +8,16 @@
   "wiki": "Kerlonian Evershade",
   "refs": 1
  },
- "summary": "Kerlonian Evershade is a night elf Druid of the Claw resting at the Grove of the Ancients in Darkshore. Having recently awakened from the long slumber within the Emerald Dream, he requires aid navigating the corrupted wilds to reach the safety of Maestra's Post.",
+ "summary": "At the Grove of the Ancients in Darkshore, Kerlonian Evershade wakes from a long sleep in the Emerald Dream. The night elf Druid of the Claw needs help crossing the troubled wilds to reach Maestra's Post.",
  "sections": [
   {
    "title": "Awakening in Darkshore",
-   "body": "Kerlonian Evershade belongs to the Druids of the Claw, followers of the bear totem who spent centuries sleeping in barrows and communion with the Emerald Dream. The Druids of the Claw were called from their slumber during the Third War. Found resting beneath the ancient trees of the Grove of the Ancients, Kerlonian is still shaking off the supernatural grogginess of his prolonged rest. His immediate concern is traveling safely through the troubled forests of Darkshore toward Maestra's Post on the border of Ashenvale.",
+   "body": "Kerlonian Evershade follows the bear totem as one of the Druids of the Claw. For centuries, these druids slept in barrows and communed with the Emerald Dream. They were called from their slumber during the Third War. Now Kerlonian rests beneath the ancient trees of the Grove of the Ancients, still shaking off the supernatural grogginess of his long sleep. He must travel through Darkshore's troubled forests to reach Maestra's Post on the Ashenvale border.",
    "spoiler": 0
   },
   {
    "title": "A Treacherous Journey",
-   "body": "The road out of the Grove of the Ancients is far from secure. Blackwood furbolgs prowl the Twilight Vale, and Dark Strand cultists lurk along the road into Ashenvale. Weakened from sleep and struggling with sudden bouts of exhaustion, Kerlonian relies on sympathetic travelers of the Alliance to protect him as he makes his way south to rejoin his fellow night elves.",
+   "body": "The road from the Grove of the Ancients is dangerous. Blackwood furbolgs prowl the Twilight Vale, while Dark Strand cultists lurk along the road into Ashenvale. Sleep has weakened Kerlonian, and sudden bouts of exhaustion still trouble him. He depends on sympathetic Alliance travelers for protection as he journeys south to rejoin his fellow night elves.",
    "spoiler": 0
   }
  ],
@@ -29,7 +29,7 @@
     "kerlonian evershade lore",
     "druid in grove of the ancients"
    ],
-   "answer": "Kerlonian Evershade is a night elf Druid of the Claw stationed near the Grove of the Ancients in Darkshore. He recently woke from the Emerald Dream and needs assistance traveling safely through the woods."
+   "answer": "Kerlonian Evershade is a night elf Druid of the Claw near the Grove of the Ancients in Darkshore. He recently woke from the Emerald Dream and needs help crossing the woods safely."
   },
   {
    "q": "Why does Kerlonian fall asleep while walking?",
@@ -38,7 +38,7 @@
     "sleeper has awakened quest druid",
     "kerlonian sleepy"
    ],
-   "answer": "Like many Druids of the Claw who slept for centuries in barrow dens, Kerlonian is still suffering from the lingering stupor of the Emerald Dream. His body and mind have not fully adjusted to waking reality, causing sudden spells of drowsiness."
+   "answer": "Like many Druids of the Claw who slept for centuries in barrow dens, Kerlonian still suffers from the lingering stupor of the Emerald Dream. His body and mind have not fully adjusted to waking, and sudden spells of drowsiness overtake him."
   },
   {
    "q": "Where is he trying to go?",
@@ -47,7 +47,7 @@
     "where does kerlonian go",
     "grove of the ancients escort destination"
    ],
-   "answer": "He seeks safe passage south to Maestra's Post, a night elf outpost situated on the border between Darkshore and Ashenvale, where he can safely recuperate."
+   "answer": "Kerlonian seeks safe passage south to Maestra's Post, a night elf outpost on the border between Darkshore and Ashenvale, where he can recuperate safely."
   },
   {
    "q": "What is a Druid of the Claw?",
@@ -55,17 +55,17 @@
     "what is druid of the claw",
     "druids of the claw lore"
    ],
-   "answer": "Druids of the Claw are night elf druids who take the shape of the great bear. They channel strength, resilience, and feral might, traditionally guarding barrows and night elf lands while spending ages asleep in the Emerald Dream."
+   "answer": "Druids of the Claw are night elf druids who take the shape of the great bear. They channel strength, resilience, and feral might, and traditionally guard barrows and night elf lands while spending ages asleep in the Emerald Dream."
   }
  ],
  "angles": [
   {
    "target": "class:Druid",
-   "text": "Druid adventurers will recognize Kerlonian's plight intimately, as all disciples of the Cenarion Circle must grapple with the heavy toll of deep communion with the Emerald Dream."
+   "text": "As a Druid, you know the toll deep communion with the Emerald Dream can take on Cenarion Circle disciples."
   },
   {
    "target": "race:NightElf",
-   "text": "For night elf travelers, guiding Kerlonian represents safeguarding one of their ancient defenders, freshly returned to a world vastly changed since the Third War."
+   "text": "As a night elf, you help safeguard one of your ancient defenders, freshly returned to a world changed since the Third War."
   }
  ],
  "keywords": [
@@ -86,5 +86,6 @@
  ],
  "attribution": [
   "Kerlonian Evershade"
- ]
+ ],
+ "style": 1
 }

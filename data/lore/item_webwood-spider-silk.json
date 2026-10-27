@@ -10,11 +10,11 @@
    "quest:488"
   ]
  },
- "summary": "Webwood Spider Silk is a fine, sticky thread harvested from Webwood Lurkers prowling the woods of Teldrassil. While spider silk has many craft uses, these particular swatches are sought out by suspicious figures in the boughs of the World Tree.",
+ "summary": "Webwood Spider Silk is gathered from Webwood Lurkers in the woods of Teldrassil. Crafters use spider silk in many ways, but these swatches draw the interest of suspicious figures among the World Tree’s boughs.",
  "sections": [
   {
    "title": "A Dubious Reagent",
-   "body": "Spun by the overgrown Webwood Lurkers that nest around Dolanaar, Webwood Spider Silk is light, remarkably strong, and dangerous to harvest. The satyr Zenn Foulhoof, who lurks along the forest road, hires young adventurers to harvest swatches of this silk alongside nightsaber fangs and strigid owl feathers. Claiming they are simply rare reagents necessary for his forest business, he relies on the naivety of newcomers to gather the wild components without questioning his corrupt nature or his true motives.",
+   "body": "Webwood Lurkers around Dolanaar spin a fine, strong thread that is dangerous to gather. Zenn Foulhoof, a satyr along the forest road, asks young adventurers to collect the silk with nightsaber fangs and strigid owl feathers. He says these rare reagents are needed for his forest business, and newcomers gather them without asking about his corrupt nature or true motives.",
    "spoiler": 0
   }
  ],
@@ -26,7 +26,7 @@
     "who drops webwood spider silk",
     "where to get webwood spider silk"
    ],
-   "answer": "Webwood Spider Silk is harvested from Webwood Lurkers and related spider beasts inhabiting the wilds of Teldrassil, particularly around the settlement of Dolanaar."
+   "answer": "Webwood Spider Silk comes from Webwood Lurkers and related spiders in Teldrassil’s wilds, especially around Dolanaar."
   },
   {
    "q": "Who wants this silk?",
@@ -35,7 +35,7 @@
     "webwood silk quest giver",
     "zenn foulhoof silk"
    ],
-   "answer": "The satyr Zenn Foulhoof, who conceals his dealings just north of the path between Shadowglen and Dolanaar, requests swatches of the silk alongside owl feathers and predator fangs."
+   "answer": "Zenn Foulhoof wants the silk. The satyr conceals his dealings just north of the path between Shadowglen and Dolanaar, and asks for it alongside owl feathers and predator fangs."
   },
   {
    "q": "Why does Zenn Foulhoof want Webwood Spider Silk?",
@@ -43,7 +43,7 @@
     "zenn foulhoof motive",
     "why does zenn want silk"
    ],
-   "answer": "Zenn claims to need the silk as a reagent for his forest business, but keeps the details of that business to himself."
+   "answer": "Zenn says he needs the silk as a reagent for his forest business, but keeps its details to himself."
   },
   {
    "q": "Can players use Webwood Spider Silk for tailoring?",
@@ -51,17 +51,17 @@
     "is webwood silk tailoring mat",
     "crafting webwood silk"
    ],
-   "answer": "No. Despite being genuine spider silk, this specific harvested thread serves as a quest reagent rather than standard tailoring cloth."
+   "answer": "No. Though it is genuine spider silk, this harvested thread is a reagent for a task, not ordinary tailoring cloth."
   }
  ],
  "angles": [
   {
    "target": "race:NightElf",
-   "text": "Young night elves leaving Shadowglen are warned to be mindful of the creatures they hunt, especially when coerced by a solitary satyr lurking right near their heartland."
+   "text": "As a young night elf leaving Shadowglen, take care with the creatures you hunt, especially when a solitary satyr near your heartland presses you to gather them."
   },
   {
    "target": "profession:Tailoring",
-   "text": "Although spinners frequently seek out arachnid threads, these particular swatches are tied up in dark satyr bargains rather than standard loom crafting."
+   "text": "As a tailor, you may seek arachnid thread, but these swatches are bound up in dark bargains with a satyr rather than ordinary loom work."
   }
  ],
  "keywords": [
@@ -86,5 +86,6 @@
  "attribution": [
   "Webwood Spider Silk",
   "Zenn's Bidding"
- ]
+ ],
+ "style": 1
 }

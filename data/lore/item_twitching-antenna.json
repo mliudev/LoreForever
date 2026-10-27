@@ -10,16 +10,16 @@
    "quest:1824"
   ]
  },
- "summary": "Twitching Antennae are severed sensory appendages gathered from the invasive silithid swarming the southern Barrens. Sought by the tauren warrior Ruga Ragetotem at Camp Taurajo, they serve as proof of a young warrior's swiftness and combat prowess before their lingering nerve twitches fade.",
+ "summary": "In the southern Barrens, silithid antennae still twitch after they are cut free. Ruga Ragetotem at Camp Taurajo seeks them as proof of a young warrior’s speed and skill in combat before the nerves go still.",
  "sections": [
   {
    "title": "Proof of the Hunt",
-   "body": "Carved directly from the heads of silithid grubs, swarmers, and harvesters, these antennae retain residual nervous reflex even after detachment. Their violent spasming does not last long once severed from the insectoid host. Because of this brief window of vitality, bringing back still-twitching antennae serves as a strict test of speed, requiring an aspirant to hunt the beasts in the southern wastes and dash back across the scrublands before the twitching goes still.",
+   "body": "Silithid Grubs, Swarmers, Harvesters, and Creepers carry antennae that twitch after they are cut from the head. The spasms fade soon after the insects are slain. A young warrior must hunt silithid in the southern wastes and hurry back across the scrublands while the antennae still twitch. Bringing them back in time tests both speed and skill, making the hunt a rite of passage for Horde warriors.",
    "spoiler": 0
   },
   {
    "title": "The Threat in the South",
-   "body": "Beyond serving as a rite of passage, these antennae are troubling harbingers. Silithid are not native to the Barrens, and their recent burrowing mounds at the Field of Giants deeply unsettle the hunters of Camp Taurajo. Ruga Ragetotem demands these specimens to study the new threat while simultaneously steeling Horde warriors against an encroaching, alien menace.",
+   "body": "The silithid antennae also point to a threat that troubles Camp Taurajo’s hunters. Silithid are not native to the Barrens, and their new burrowing mounds at the Field of Giants unsettle the camp. Ruga Ragetotem wants the specimens to study the danger and prepare Horde warriors for the alien menace moving into the plains.",
    "spoiler": 0
   }
  ],
@@ -31,7 +31,7 @@
     "who drops twitching antenna",
     "silithid antenna source"
    ],
-   "answer": "They are harvested from silithid insects infesting the southern Barrens, including Silithid Grubs, Harvesters, Swarmers, and Creepers that dwell around the massive fossilized bones at the Field of Giants."
+   "answer": "Silithid Grubs, Harvesters, Swarmers, and Creepers around the Field of Giants in the southern Barrens carry the antennae."
   },
   {
    "q": "Why do the antennae have to be twitching?",
@@ -40,7 +40,7 @@
     "why the rush for antennae",
     "trial at field of giants timer"
    ],
-   "answer": "The persistent twitching proves the specimens are freshly harvested. Ruga Ragetotem uses this rapid expiration to test an aspirant's combat efficiency and swiftness across the wild terrain."
+   "answer": "The twitching shows the antennae were freshly cut. Ruga Ragetotem uses how quickly they go still to test an aspirant’s speed and combat skill across the wild terrain."
   },
   {
    "q": "Who is looking for these antennae?",
@@ -48,7 +48,7 @@
     "who wants twitching antenna",
     "who turns in antennae"
    ],
-   "answer": "Ruga Ragetotem, a tauren warrior stationed at Camp Taurajo in the southern Barrens, requires them as part of the Trial at the Field of Giants."
+   "answer": "Ruga Ragetotem, a tauren warrior at Camp Taurajo in the southern Barrens, seeks the antennae for the Trial at the Field of Giants."
   },
   {
    "q": "Where is the Field of Giants?",
@@ -56,17 +56,17 @@
     "where is field of giants",
     "field of giants location"
    ],
-   "answer": "The Field of Giants lies directly south of Camp Taurajo in the Barrens, easily recognized by massive skeletal remains protruding from the earth and the strange silithid hives erupting around them."
+   "answer": "The Field of Giants lies south of Camp Taurajo in the Barrens. Massive skeletal remains rise from the earth there, with silithid hives around them."
   }
  ],
  "angles": [
   {
    "target": "class:Hunter",
-   "text": "Tracking, slaying, and harvesting freshly killed silithid within a strict time limit forms a quintessential test of a hunter's speed, wilderness tracking, and field lethality."
+   "text": "As a hunter, you track and slay silithid, then gather their antennae while they still twitch. The trial tests your speed, tracking, and skill in the field."
   },
   {
    "target": "race:Tauren",
-   "text": "Camp Taurajo's hunters see the sudden appearance of the silithid as a deep disturbance to the natural balance of the plains, requiring vigilance from young braves."
+   "text": "As a tauren, you know Camp Taurajo’s hunters see the silithid’s sudden arrival as a disturbance to the plains’ natural balance. Young braves must stay vigilant."
   }
  ],
  "keywords": [
@@ -89,5 +89,6 @@
  "attribution": [
   "Twitching Antenna",
   "Trial at the Field of Giants"
- ]
+ ],
+ "style": 1
 }

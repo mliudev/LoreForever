@@ -7,16 +7,16 @@
  "meta": {
   "wiki": "Cleft of Shadow"
  },
- "summary": "Tucked deep within the subterranean caverns beneath Orgrimmar, the Cleft of Shadow houses the city's practitioners of stealth, sorcery, and demonology. Far from the proud warrior ethos of Thrall's upper districts, it serves as a necessary haven for rogues and warlocks operating in the shadows of the Horde.",
+ "summary": "Rogues, warlocks, and their teachers gather in the Cleft of Shadow beneath Orgrimmar. The caverns give them room to practice their arts under the Horde's watch.",
  "sections": [
   {
    "title": "A Subterranean Sanctuary",
-   "body": "While Thrall's new Horde champions honor, shamanism, and strength of arms, practical leadership demands a place for subtler arts. Carved into the damp stone caverns below the capital, the Cleft of Shadow hosts the Shadowswift Brotherhood of rogues and the Darkfire Enclave of warlocks. Kept away from the everyday bustle of the valley districts, this dark quarter allows practitioners of poison and fel energy to ply their trades out of direct public view while remaining under the watchful eye of Orgrimmar's leadership.",
+   "body": "Below Orgrimmar, the Cleft of Shadow holds rogues of the Shadowswift Brotherhood and warlocks of the Darkfire Enclave. Thrall's Horde honors shamanism and strength of arms, yet its leaders make room for subtler arts. In these caverns, practitioners of poison and fel energy work away from the valley districts and under Orgrimmar's watch.",
    "spoiler": 0
   },
   {
    "title": "A Dangerous Threshold",
-   "body": "Beyond acting as a center for covert instruction and magical reagents, the Cleft of Shadow descends directly into Ragefire Chasm. This fiery network of volcanic caves honeycombs beneath Orgrimmar itself, posing an ongoing security threat that draws adventurous defenders and sinister cultists alike right to the cavern's edge.",
+   "body": "At the Cleft's lowest point, a passage opens into Ragefire Chasm. Volcanic caves honeycomb the ground beneath Orgrimmar, and their danger draws defenders and sinister cultists to the cavern's edge.",
    "spoiler": 0
   }
  ],
@@ -28,7 +28,7 @@
     "why warlocks underground orgrimmar",
     "cleft of shadow lore"
    ],
-   "answer": "Thrall strives to keep the Horde united under honorable shamanic and warrior traditions. While the utility of warlocks and rogues is acknowledged, their practices are distrusted by much of the orcish public. Confining them to the subterranean caverns keeps dangerous fel and illicit activities contained and monitored."
+   "answer": "Thrall seeks to unite the Horde through honorable shamanic and warrior traditions, while many orcs distrust the arts of rogues and warlocks. The caverns keep their dangerous fel workings and illicit practices contained and watched."
   },
   {
    "q": "What major trainers and services can be found in the Cleft of Shadow?",
@@ -36,7 +36,7 @@
     "trainers in cleft of shadow",
     "who is in cleft of shadow"
    ],
-   "answer": "The cavern serves as Orgrimmar's primary hub for rogue and warlock trainers. It also hosts poison suppliers, reagent vendors, and wand and staff merchants."
+   "answer": "Rogue and warlock trainers work in the Cleft, alongside poison suppliers, reagent vendors, and merchants who sell wands and staffs."
   },
   {
    "q": "What is the entrance at the bottom of the cavern?",
@@ -45,17 +45,17 @@
     "cleft cave entrance",
     "what instance is here"
    ],
-   "answer": "The chasm plunging into the cavern floor leads to Ragefire Chasm, a perilous subterranean network of lava tubes beneath Orgrimmar infested with troggs, searing elementals, and rogue cultists."
+   "answer": "The opening leads to Ragefire Chasm, a dangerous network of lava tubes beneath Orgrimmar. Troggs, searing elementals, and rogue cultists infest its depths."
   }
  ],
  "angles": [
   {
    "target": "class:Warlock",
-   "text": "The Darkfire Enclave gives Horde warlocks a sanctioned place to summon demons and bind fel energy beneath Orgrimmar without drawing the immediate wrath of shaman and warriors."
+   "text": "As a Horde warlock, you can summon demons and bind fel energy in the Darkfire Enclave beneath Orgrimmar, away from the immediate wrath of shaman and warriors."
   },
   {
    "target": "class:Rogue",
-   "text": "The Shadowswift Brotherhood gathers here alongside poison merchants and lockpickers, turning this dark recess into the primary den for the Horde's stealth operatives."
+   "text": "As a rogue, you find the Shadowswift Brotherhood, poison merchants, and lockpickers in this dark recess, the Horde's main gathering place for stealth operatives."
   }
  ],
  "keywords": [
@@ -74,5 +74,6 @@
  ],
  "attribution": [
   "Cleft of Shadow"
- ]
+ ],
+ "style": 1
 }

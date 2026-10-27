@@ -10,16 +10,16 @@
    "quest:882"
   ]
  },
- "summary": "Ishamuhale's Fang is a hunting trophy taken from Ishamuhale, the notorious sunscale raptor known as Speartooth in the Barrens. Brought to Jorn Skyseer at Camp Taurajo, the tooth serves as proof of besting one of Kalimdor's deadliest natural predators.",
+ "summary": "At Camp Taurajo, Jorn Skyseer awaits Ishamuhale's Fang from the feared sunscale raptor Speartooth of the Barrens. The tooth proves the hunter bested one of Kalimdor's deadliest natural predators.",
  "sections": [
   {
    "title": "Trophy of Speartooth",
-   "body": "Ishamuhale is feared across the central savanna as the fiercest sunscale raptor alive, an apex hunter said to kill purely out of predatory passion rather than mere hunger. Lured into the open with fresh zhevra meat beside a withered tree northwest of Ratchet, the beast offers no quarter. Severing its massive fang proves to the hunting instructors of the Horde that a traveler has conquered not just a beast, but the sheer savagery of the plains.",
+   "body": "Across the central savanna, hunters fear Ishamuhale, the fiercest sunscale raptor alive. Some say the apex hunter kills from predatory passion, not hunger. Fresh zhevra meat draws the beast into the open beside a withered tree northwest of Ratchet, where it gives no quarter. Taking its massive fang proves to the Horde's hunting instructors that a traveler has overcome the savagery of the plains.",
    "spoiler": 0
   },
   {
    "title": "A Lesson in Temperance",
-   "body": "When presented to Jorn Skyseer at Camp Taurajo, the fang is recognized as far more than ivory and blood. To the tauren of the camp, taking Ishamuhale's fang transfers the predator's fierce strength to the hunter who bested him. The true test that follows is temperance: mastering that savage fury rather than letting it control the hunter's soul.",
+   "body": "At Camp Taurajo, Jorn Skyseer sees more than ivory and blood in Ishamuhale's fang. To the tauren there, taking it passes the predator's fierce strength to the hunter who bested him. The test that follows is temperance: the hunter must master that savage fury instead of letting it rule the soul.",
    "spoiler": 1
   }
  ],
@@ -31,7 +31,7 @@
     "speartooth fang",
     "raptor fang barrens"
    ],
-   "answer": "It is a trophy claimed from the corpse of Ishamuhale, the infamous 'Speartooth' sunscale raptor prowling the Barrens."
+   "answer": "Ishamuhale's Fang is a trophy taken from Ishamuhale, the infamous Speartooth sunscale raptor that prowls the Barrens."
   },
   {
    "q": "Who wants Ishamuhale's Fang?",
@@ -40,7 +40,7 @@
     "turn in ishamuhale fang",
     "where does ishamuhale fang go"
    ],
-   "answer": "The fang is brought to Jorn Skyseer at Camp Taurajo as part of the hunting trials that begin under Sergra Darkthorn at the Crossroads."
+   "answer": "Jorn Skyseer at Camp Taurajo wants the fang, as part of the hunting trials that begin with Sergra Darkthorn at the Crossroads."
   },
   {
    "q": "How is the beast Ishamuhale found?",
@@ -49,7 +49,7 @@
     "summon ishamuhale",
     "where is ishamuhale"
    ],
-   "answer": "Ishamuhale does not wander openly. Hunters must slay a fresh zhevra and place its carcass near a dead tree northwest of Ratchet to bait the raptor out of hiding."
+   "answer": "Ishamuhale is lured from hiding with a fresh zhevra carcass placed near a dead tree northwest of Ratchet."
   },
   {
    "q": "What does claiming the fang represent to the tauren?",
@@ -57,17 +57,17 @@
     "meaning of the fang",
     "tauren hunter ritual ishamuhale"
    ],
-   "answer": "According to Jorn Skyseer, claiming the trophy symbolizes that Ishamuhale's legendary strength now resides within the hunter, who must bear the burden of using that power with temperance and honor."
+   "answer": "To the tauren, claiming Ishamuhale's Fang means the raptor's legendary strength now lives within the hunter, who must use that power with temperance and honor."
   }
  ],
  "angles": [
   {
    "target": "class:Hunter",
-   "text": "Taking the fang of Speartooth is an essential rite of passage across the Barrens, testing a tracker's ability to bait, confront, and overcome a cunning apex beast."
+   "text": "As a hunter, taking Speartooth's fang is a rite of passage across the Barrens. It tests your skill at baiting, facing, and overcoming a cunning predator."
   },
   {
    "target": "race:Tauren",
-   "text": "To the hunters of Taurajo, claiming the tooth is not about needless slaughter, but absorbing a predator's raw power while maintaining discipline and balance."
+   "text": "As a tauren, claiming the tooth means taking in a predator's raw power while keeping discipline and balance."
   }
  ],
  "keywords": [
@@ -91,5 +91,6 @@
  "attribution": [
   "Ishamuhale's Fang",
   "Ishamuhale (quest)"
- ]
+ ],
+ "style": 1
 }

@@ -1,0 +1,88 @@
+{
+ "key": "quest:98069",
+ "type": "quest",
+ "name": "Stolen Freewind Supplies",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   98069
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "Jandia in Freewind Post needs stolen supplies recovered from the harpies. Without another shipment, the post will soon run short.",
+ "sections": [
+  {
+   "title": "The Missing Shipment",
+   "body": "The harpies attacked the last caravan scheduled to bring supplies to Freewind Post. Jandia says the post has enough for now, but that will not last without more. Their lair lies west of here, along the cliff base and in a cave above.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who needs the supplies?",
+   "aliases": [
+    "who asked for supplies",
+    "Jandia supplies",
+    "freewind supplies"
+   ],
+   "answer": "Jandia in Freewind Post needs the stolen supplies recovered."
+  },
+  {
+   "q": "Who took the caravan's supplies?",
+   "aliases": [
+    "who stole them",
+    "harpy supplies",
+    "harpies stole what"
+   ],
+   "answer": "Harpies attacked the last caravan scheduled to deliver supplies to Freewind Post."
+  },
+  {
+   "q": "Where is the harpy lair?",
+   "aliases": [
+    "where are harpies",
+    "harpy cave",
+    "harpies west"
+   ],
+   "answer": "The harpies make their lair west of Freewind Post, at the base of the cliff and inside a cave at the top."
+  },
+  {
+   "q": "Why does Jandia need them back?",
+   "aliases": [
+    "why recover supplies",
+    "freewind running short",
+    "why supplies matter"
+   ],
+   "answer": "Freewind Post has enough supplies for the moment, but will run short soon without another shipment."
+  },
+  {
+   "q": "What does Jandia ask you to recover?",
+   "aliases": [
+    "how many supplies",
+    "stolen goods",
+    "what do i bring"
+   ],
+   "answer": "Jandia asks you to recover eight stolen supplies for Freewind Post."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "caravan",
+  "cave",
+  "cliff",
+  "freewind post",
+  "harpies",
+  "jandia",
+  "stolen freewind supplies",
+  "supplies"
+ ],
+ "related": [
+  "subzone:freewind-post",
+  "topic:harpy"
+ ],
+ "style": 1,
+ "attribution": [
+  "In-game quest text: Stolen Freewind Supplies"
+ ]
+}

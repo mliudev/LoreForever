@@ -11,6 +11,7 @@ import { setupBilling } from "../lib/billing.js";
 import { TOGETHER_URL, resetBreaker } from "../lib/together.js";
 import { setupAnswerLog } from "../lib/answer-log.js";
 import { d1 } from "./helpers.mjs";
+import { DISPUTE_LINES } from "../lib/companion-answers.js";
 
 const env = { DB: d1(), GEMINI_API_KEY: "test-key", TOGETHER_AI_API_KEY: "together-key", SITE_FEATURES: "plans",
   WILLO_ANSWER_HOST: "together:deepseek-ai/DeepSeek-V4.1-Flash" };
@@ -104,6 +105,28 @@ test("Legend's hard question: her line is said at once, then the answer thought 
   }
 });
 
+test("a question about talents or a spec is answered as usual, never thought through", async () => {
+  for (const question of ["Frost or fire for leveling a mage? Where do my first ten points go?",
+    "What talent build should my warrior tank with?", "Arms or fury: which spec should I play?"]) {
+    asked = [];
+    const reply = (await ask({ prompt: "PLAYER CONTEXT\nzone: Westfall\nclass: Mage\nlevel: 20\n\nQUESTION\n" + question })).at(-1);
+    assert.equal(reply.answer, PLAIN, question);
+    assert.ok(asked.every(a => !ruled(a.system) && !a.thinks), question);
+  }
+});
+
+// LOR-844 step 0: offering her tools mustn't take the hard-question route away (tools go on every answer).
+test("offered an action, a hard question still gets her line first and is thought through with the action at hand", async () => {
+  const tooled = [];
+  const plain = together;
+  together = body => { tooled.push((body.tools || []).map(t => t.function.name)); return plain(body); };
+  const lines = await ask({ style: "spoken", layers: 2, prompt: "PLAYER CONTEXT\nzone: Westfall\nclass: Rogue\nlevel: 20\n\n" +
+    "QUESTION\nCan you show me your voices? And should I use the Cruel Barb or the Stiletto?" });
+  assert.deepEqual(lines[0], { say: LINE }, "her line goes out first");
+  assert.ok(ruled(asked[0].system) && asked.at(-1).thinks, JSON.stringify(asked));
+  assert.ok(tooled.length === 2 && tooled.every(names => names.includes("open_settings")), JSON.stringify(tooled));
+});
+
 test("the rule never reaches Gemini as Together's fallback, and WILLO_SMART_ROUTE off turns it off", async () => {
   together = () => new Response("busy", { status: 503 });
   const down = (await ask({})).at(-1);
@@ -116,4 +139,57 @@ test("the rule never reaches Gemini as Together's fallback, and WILLO_SMART_ROUT
   assert.equal((await ask({ style: "spoken", layers: 2, image: jpeg })).at(-1).answer, PLAIN);
   assert.equal((await ask({})).at(-1).answer, PLAIN);
   assert.ok(asked.every(a => !ruled(a.system) && !a.thinks), JSON.stringify(asked));
+});
+
+test("pushback the word rules miss is marked and answered as a correction, thought through; surprise is not", async () => {
+  const CORRECTED = "My notes say Hogger is level eleven, but your quest log has the final word: what does it show?";
+  const says = text => ({ prompt: "PLAYER CONTEXT\nzone: Elwynn Forest\nclass: Warrior\nlevel: 9\n\n" +
+    `RECENT CONVERSATION (oldest first)\n${JSON.stringify([{ player: "what level is Hogger?", willo: "Hogger is level eleven." }])}\n\n` +
+    `QUESTION\n${text}`, style: "spoken", layers: 2 });
+  together = body => {
+    const system = body.messages[0].content, question = JSON.stringify(body.messages[1].content);
+    if (body.reasoning?.enabled) return togetherSays(/disputes your last answer/.test(system) ? CORRECTED : THOUGHT);
+    return togetherSays(/PUSHBACK/.test(system) && /quest log/.test(question) ? "[[DISPUTE]]" : PLAIN);
+  };
+  const reply = (await ask(says("hmm, my quest log says otherwise"))).at(-1);
+  assert.equal(reply.answer, CORRECTED);
+  assert.ok(/PUSHBACK/.test(asked[0].system) && asked.at(-1).thinks, JSON.stringify(asked.map(a => a.thinks)));
+  assert.match(env.DB.sqlite.prepare("SELECT lookups FROM answer_log").get().lookups, /dispute-mark/);
+  // Surprise is answered as usual, once; with no answer of hers before it, the rule isn't there at all.
+  asked = [];
+  env.DB.sqlite.exec("DELETE FROM answer_log");
+  assert.equal((await ask(says("wait, really?"))).at(-1).answer, PLAIN);
+  assert.equal(asked.length, 1);
+  asked = [];
+  await ask({ style: "spoken", layers: 2 });
+  assert.ok(!asked.some(a => /PUSHBACK/.test(a.system)));
+});
+
+test("a marked pushback that's slow to think over gets one of her lines first, and the answer carries on from it", async () => {
+  const CORRECTED = "My notes say Hogger is level eleven, but your quest log has the final word: what does it show?";
+  const says = { prompt: "PLAYER CONTEXT\nzone: Elwynn Forest\nclass: Warrior\nlevel: 9\n\n" +
+    `RECENT CONVERSATION (oldest first)\n${JSON.stringify([{ player: "what level is Hogger?", willo: "Hogger is level eleven." }])}\n\n` +
+    "QUESTION\nhmm, my quest log says otherwise", style: "spoken", layers: 2 };
+  // The correction comes after the line's moment (here 0 ms, so it's due at once; a 0 ms timer goes before a 5 ms one).
+  together = async body => body.reasoning?.enabled
+    ? (await new Promise(r => setTimeout(r, 5)), togetherSays(`${CORRECTED}\n~~~\n${CORRECTED}`))
+    : togetherSays("[[DISPUTE]]");
+  env.WILLO_DISPUTE_HOLD_MS = "0";
+  try {
+    const lines = await ask(says);
+    const line = lines[0].say;
+    assert.ok(DISPUTE_LINES.includes(line), JSON.stringify(lines));
+    assert.ok(lines.at(-1).answer.startsWith(line) && lines.at(-1).answer.includes("final word"), lines.at(-1).answer);
+    // Pushed back again: never the line she just said (chance pinned so the pick would be the same one).
+    const random = Math.random;
+    Math.random = () => DISPUTE_LINES.indexOf(line) / DISPUTE_LINES.length;
+    try {
+      const again = await ask({ ...says, prompt: says.prompt.replace('"Hogger is level eleven."',
+        JSON.stringify(lines.at(-1).answer)) });
+      assert.ok(DISPUTE_LINES.includes(again[0].say) && again[0].say !== line, JSON.stringify(again[0]));
+    } finally { Math.random = random; }
+  } finally { delete env.WILLO_DISPUTE_HOLD_MS; }
+  // Quick enough: no line of hers before it.
+  const quick = await ask(says);
+  assert.ok(!DISPUTE_LINES.some(l => quick.at(-1).answer.startsWith(l)), quick.at(-1).answer);
 });

@@ -17,16 +17,16 @@
   "wiki": "Elixirs for the Bladeleafs",
   "chain": []
  },
- "summary": "In the boughs of Dolanaar, Syral Bladeleaf seeks an alchemist to restock her family's burgeoning trade. Her husband spends endless hours over brewing cauldrons, and Syral hopes a batch of fresh elixirs will lighten his workload and earn the contributor a bundle of rare herbs.",
+ "summary": "Syral Bladeleaf seeks help keeping her family’s busy trade supplied in Dolanaar. Her husband spends nearly all his time brewing, and fresh elixirs could ease his workload while earning the brewer uncommon herbs.",
  "sections": [
   {
    "title": "A Burden of Prosperity",
-   "body": "The settlement of Dolanaar serves as a vital crossroad for travelers, sentinels, and druids navigating Teldrassil's canopy. With so many wanderers passing through, the herb and alchemy trade run by Syral Bladeleaf and her husband has flourished. However, high demand brings its own cost. Her husband spends nearly all his hours bent over vials and cauldrons to keep shelves stocked, leaving the couple almost no time to spend together.",
+   "body": "Dolanaar draws travelers, sentinels, and druids moving through Teldrassil. Syral Bladeleaf and her husband have built a flourishing herb and alchemy trade to serve them. Demand keeps her husband bent over vials and cauldrons for nearly all his hours, leaving the couple little time together.",
    "spoiler": 0
   },
   {
    "title": "A Trader's Exchange",
-   "body": "Rather than letting her partner burn out beneath compounding orders, Syral turns to passing herbalists and brewers. By commissioning pre-mixed draughts\u2014specifically Elixirs of Lion's Strength and Minor Defense\u2014she shores up the shop's inventory while offering freshly harvested, uncommon herbs in exchange. For a fledgling alchemist practicing their craft beneath the Great Tree, it is an ideal opportunity to turn common forest flora into coveted regional flora.",
+   "body": "Syral turns to passing herbalists and brewers to ease her husband’s workload. She asks for Elixirs of Lion's Strength and Minor Defense, offering freshly gathered, uncommon herbs in exchange. For a fledgling alchemist practicing beneath the Great Tree, the exchange brings a bundle of herbs and a chance to turn common forest flora into coveted regional flora.",
    "spoiler": 0
   }
  ],
@@ -38,7 +38,7 @@
     "syral bladeleaf motive",
     "bladeleaf shop problem"
    ],
-   "answer": "Their family herbal and alchemy shop in Dolanaar has grown extremely busy. Her husband spends all his time brewing potions to keep up with demand, leaving them no personal time together. Outsourcing the work gives him a much-needed break."
+   "answer": "Syral Bladeleaf’s family shop in Dolanaar has grown busy, and her husband spends nearly all his time brewing to meet demand. Having someone else prepare the elixirs gives him a much-needed break."
   },
   {
    "q": "What potions are required for the task?",
@@ -47,7 +47,7 @@
     "what do i need to brew",
     "potions needed"
    ],
-   "answer": "Syral asks for six Elixirs of Lion's Strength and two Elixirs of Minor Defense. Both are staple draughts frequently purchased by adventurers and local sentinels in Teldrassil."
+   "answer": "Syral asks for six Elixirs of Lion's Strength and two Elixirs of Minor Defense. Adventurers and local sentinels in Teldrassil often buy both kinds."
   },
   {
    "q": "What herbs are needed to brew the required elixirs?",
@@ -56,7 +56,7 @@
     "mats for elixirs",
     "what herbs do i pick"
    ],
-   "answer": "Brewing the requested batch requires Silverleaf and Earthroot, both of which grow abundantly across the forest floor of Teldrassil, alongside standard Crystal Vials."
+   "answer": "The batch calls for Silverleaf, Earthroot, and standard Crystal Vials. Silverleaf and Earthroot grow across Teldrassil’s forest floor."
   },
   {
    "q": "Who can undertake this request?",
@@ -65,7 +65,7 @@
     "profession requirement",
     "can anyone do this quest"
    ],
-   "answer": "Only practitioners of Alchemy who have attained a basic competence in the craft are offered the task. Syral seeks dependable, well-mixed remedies for her shop rather than amateur brews."
+   "answer": "This request is offered to alchemists with basic competence in the craft. Syral wants dependable, well-mixed remedies for her shop."
   },
   {
    "q": "What does Syral offer in exchange for the elixirs?",
@@ -74,7 +74,7 @@
     "what does syral give",
     "bladeleaf trade reward"
    ],
-   "answer": "Syral rewards helpful alchemists with a bundle of freshly gathered, uncommon herbs that are difficult to locate casually along the woodland trails of Teldrassil."
+   "answer": "Syral offers a bundle of freshly gathered, uncommon herbs, difficult to find casually along Teldrassil’s woodland trails."
   },
   {
    "q": "Where is Syral Bladeleaf located?",
@@ -83,21 +83,21 @@
     "bladeleaf location",
     "where do i turn this in"
    ],
-   "answer": "She can be found outside the northern building in Dolanaar, near the central road that runs through the forest village."
+   "answer": "Syral Bladeleaf is outside the northern building in Dolanaar, near the central road through the forest village."
   }
  ],
  "angles": [
   {
    "target": "profession:Herbalism",
-   "text": "Teldrassil's rich soil teems with Silverleaf and Earthroot, making it straightforward to forage the raw greens needed to satisfy Syral's shop order."
+   "text": "Teldrassil’s rich soil holds Silverleaf and Earthroot, so you can forage the raw herbs for Syral’s shop order."
   },
   {
    "target": "race:NightElf",
-   "text": "Supporting local tradesfolk like the Bladeleafs helps sustain the fledgling settlement of Dolanaar as it grows beneath the canopy of Teldrassil."
+   "text": "As a Night Elf, you know the Bladeleafs’ trade is part of Dolanaar’s life beneath Teldrassil’s canopy."
   },
   {
    "target": "faction:Alliance",
-   "text": "Keeping Dolanaar well-supplied with restorative and defensive draughts ensures defenders and traveling allies are prepared for woodland threats."
+   "text": "As an Alliance member, you can help keep Dolanaar supplied with restorative and defensive draughts for defenders and traveling allies facing woodland threats."
   }
  ],
  "keywords": [
@@ -120,5 +120,6 @@
  ],
  "attribution": [
   "Elixirs for the Bladeleafs"
- ]
+ ],
+ "style": 1
 }

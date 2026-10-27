@@ -17,16 +17,16 @@
   "wiki": "Speak with Deino",
   "chain": []
  },
- "summary": "\"Speak with Deino\" is a summons directing promising Horde mages to seek out a skilled practitioner in Orgrimmar. Deino, a troll mage operating out of the Valley of Spirits, requires an adept to undertake critical work on behalf of their craft. Answering her call opens the path to deeper magical study and vital tasks across Kalimdor.",
+ "summary": "In Orgrimmar, Deino calls promising Horde mages to aid their craft. The troll mage works from the Valley of Spirits and seeks an adept for important work. Her summons opens a path to deeper study and duties across Kalimdor.",
  "sections": [
   {
    "title": "A Summons to Orgrimmar",
-   "body": "As practitioners of the arcane hone their abilities within the Horde, instructors recognize when a student is prepared for more demanding ventures. Mentors like Anastasia Hartwell in the Undercity point developing mages toward Orgrimmar. There, tucked away in the troll-dominated quarter, more specialized knowledge and perilous errands await.",
+   "body": "Horde mages hone their arcane abilities under the guidance of instructors. When a student is ready for harder work, mentors such as Anastasia Hartwell in the Undercity point the way to Orgrimmar. In its troll quarter, specialized knowledge and dangerous work await.",
    "spoiler": 0
   },
   {
    "title": "The Valley of Spirits and Darkbriar Lodge",
-   "body": "Deino makes her home within the Darkbriar Lodge in Orgrimmar's Valley of Spirits. Among the Darkspear, dedicated practitioners of the arcane are relatively rare compared to witch doctors and priests, making Deino a notable authority in the capital. She works not just for local concerns, but for the broader interests of the Horde's arcane practitioners, seeking ambitious mages willing to brave distant perils.",
+   "body": "Deino lives in Darkbriar Lodge in Orgrimmar's Valley of Spirits. Among the Darkspear, few study arcane magic compared with the many witch doctors and priests, which makes Deino an authority in the capital. Her work serves Horde mages beyond local concerns, and she seeks ambitious spellcasters willing to face dangers far from home.",
    "spoiler": 0
   }
  ],
@@ -38,7 +38,7 @@
     "who starts this",
     "where do i get speak with deino"
    ],
-   "answer": "Mage trainers such as Anastasia Hartwell in the Magic Quarter of Undercity send aspiring mages to Orgrimmar once they reach sufficient skill."
+   "answer": "Mage trainers such as Anastasia Hartwell in Undercity's Magic Quarter send aspiring mages to Orgrimmar when their skill is sufficient."
   },
   {
    "q": "Where can I find Deino?",
@@ -47,7 +47,7 @@
     "where is deino",
     "darkbriar lodge location"
    ],
-   "answer": "Deino is located inside the Darkbriar Lodge, nestled in the Valley of Spirits on the western side of Orgrimmar."
+   "answer": "You can find Deino inside Darkbriar Lodge, in the Valley of Spirits on Orgrimmar's western side."
   },
   {
    "q": "Why does Deino need assistance?",
@@ -55,7 +55,7 @@
     "why deino needs help",
     "what does deino want"
    ],
-   "answer": "Deino oversees important research and tasks deemed vital to the society of Horde mages. She enlists capable spellcasters to venture into dangerous lands to secure rare magical resources."
+   "answer": "Deino oversees research and work important to Horde mages. She sends capable spellcasters into dangerous lands to find rare magical resources."
   },
   {
    "q": "What happens after reporting to Deino?",
@@ -64,7 +64,7 @@
     "what comes after",
     "follow up quest"
    ],
-   "answer": "Once you report to Deino, she briefs you on her mission and sends you on your next assignment, beginning with gathering the Waters of Xavian."
+   "answer": "When you report to Deino, she explains her work and sends you to gather the Waters of Xavian."
   },
   {
    "q": "Is this quest available to all classes?",
@@ -73,7 +73,7 @@
     "can warlocks do this",
     "class restriction"
    ],
-   "answer": "No. This quest is exclusively offered to mages of the Horde as part of their dedicated class progression and training."
+   "answer": "No. Only Horde mages receive Deino's summons as part of their class training."
   },
   {
    "q": "Are troll mages common in the Horde?",
@@ -81,21 +81,21 @@
     "trolls using arcane",
     "darkspear mages lore"
    ],
-   "answer": "Arcane magic is less common among the Darkspear trolls than spiritual shamanism, voodoo, or loa priesthood. However, figures like Deino show that some trolls have thoroughly mastered the formal study of arcane forces."
+   "answer": "Arcane magic is less common among Darkspear trolls than shamanism, voodoo, or service to the loa. Deino shows that some trolls have mastered the formal study of arcane forces."
   }
  ],
  "angles": [
   {
    "target": "class:Mage",
-   "text": "This quest is a pivotal step in your formal arcane training, connecting you to senior spellcasters in Orgrimmar."
+   "text": "As a mage, you deepen your arcane training and meet senior spellcasters in Orgrimmar."
   },
   {
    "target": "race:Troll",
-   "text": "Deino represents the focused arcane discipline practiced by a select few among the Darkspear tribe."
+   "text": "As a troll, you see the focused arcane discipline practiced by a select few among the Darkspear."
   },
   {
    "target": "faction:Horde",
-   "text": "The summons bridges regional trainers from Lordaeron and Durotar into the centralized arcane leadership gathering in Orgrimmar."
+   "text": "As a member of the Horde, you follow a summons linking trainers in Lordaeron and Durotar with Orgrimmar's arcane leaders."
   }
  ],
  "keywords": [
@@ -117,5 +117,6 @@
  ],
  "attribution": [
   "Speak with Deino"
- ]
+ ],
+ "style": 1
 }

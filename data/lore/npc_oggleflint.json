@@ -8,21 +8,21 @@
   "wiki": "Oggleflint",
   "refs": 5
  },
- "summary": "Oggleflint is the chieftain of the trogg tribe dwelling within the volcanic depths of Ragefire Chasm directly beneath Orgrimmar. His troggs have been creeping up from the lava-filled tunnels toward the surface, and from his place near the cavern's entrance he commands a savage pack that poses an immediate threat to the Horde capital above.",
+ "summary": "Beneath Orgrimmar, Oggleflint leads the trogg tribe in Ragefire Chasm. His pack climbs from lava-filled tunnels toward the surface, where he commands them near the cavern entrance and threatens the Horde capital above.",
  "sections": [
   {
    "title": "Chieftain of the Deep",
-   "body": "Oggleflint and his troggs climbed out of the fiery tunnels deep beneath Orgrimmar and into Ragefire Chasm. Brutal and territorial, they carved out a primitive domain among the molten rock. Though troggs possess little in the way of advanced civilization, Oggleflint maintained absolute authority over the pack through sheer brute strength.",
+   "body": "Deep beneath Orgrimmar, Oggleflint and his troggs climbed from fiery tunnels into Ragefire Chasm. They carved a primitive domain among the molten rock and defend it with brutal force. Troggs have little advanced civilization, and Oggleflint rules his pack through sheer strength.",
    "spoiler": 0
   },
   {
    "title": "Death to Envoys",
-   "body": "When Elder Crone Magatha Grimtotem sent diplomats into the chasm to make peace with the troggs, the troggs turned on them and killed them. The body of one envoy, Maur Grimtotem, lay in the caverns under Oggleflint's watch. The trogg chieftain now waits near the cavern entrance, striking at any outsider who comes down into the dark.",
+   "body": "Elder Crone Magatha Grimtotem sent diplomats into the chasm to make peace with the troggs. The troggs turned on them and killed them. Maur Grimtotem, one of the envoys, lies dead in the caverns under Oggleflint’s watch. Near the cavern entrance, the chieftain waits and strikes at outsiders who venture into the dark.",
    "spoiler": 0
   },
   {
    "title": "The Threat Beneath Orgrimmar",
-   "body": "Having troggs directly beneath Thrall's capital is a hazard the Horde cannot tolerate. Creeping closer to the surface, Oggleflint's tribe is far too volatile to leave unchecked, threatening to spill into the Drag and Cleft of Shadow if left undisturbed.",
+   "body": "Oggleflint’s tribe lives directly beneath Thrall’s capital, a hazard the Horde cannot tolerate. The troggs creep closer to the surface, and their volatile nature threatens to carry them into the Drag and Cleft of Shadow if left undisturbed.",
    "spoiler": 0
   }
  ],
@@ -34,7 +34,7 @@
     "who is oggleflint",
     "ragefire trogg boss"
    ],
-   "answer": "Oggleflint is a powerful trogg chieftain who leads the pack inhabiting Ragefire Chasm beneath the city of Orgrimmar."
+   "answer": "Oggleflint is a powerful trogg chieftain who leads his pack in Ragefire Chasm beneath Orgrimmar."
   },
   {
    "q": "Where can Oggleflint be found?",
@@ -43,7 +43,7 @@
     "oggleflint location",
     "find oggleflint"
    ],
-   "answer": "He is located in the upper caverns of Ragefire Chasm, not far from the entrance tunnel, where his pack holds the tunnels nearest the surface."
+   "answer": "Oggleflint waits in Ragefire Chasm’s upper caverns, near the entrance tunnel. His pack holds the tunnels nearest the surface."
   },
   {
    "q": "Why are the troggs in Ragefire Chasm?",
@@ -51,7 +51,7 @@
     "why are troggs under orgrimmar",
     "ragefire trogg lore"
    ],
-   "answer": "Troggs naturally dwell deep underground in subterranean volcanic networks. Oggleflint's pack has been coming up from deep below the lava-filled tunnels beneath Orgrimmar toward the surface."
+   "answer": "Troggs naturally dwell deep underground in subterranean volcanic networks. Oggleflint’s pack has climbed from the lava-filled tunnels beneath Orgrimmar toward the surface."
   },
   {
    "q": "Why is Oggleflint hostile to the Horde?",
@@ -59,7 +59,7 @@
     "why kill oggleflint",
     "why fight oggleflint"
    ],
-   "answer": "Troggs are fiercely territorial and violent beasts by nature. Pressing up toward the surface, Oggleflint and his followers pose an imminent danger to the Horde tunnels and the city above."
+   "answer": "Troggs are fiercely territorial and violent. As Oggleflint and his followers press toward the surface, they threaten the Horde tunnels and the city above."
   },
   {
    "q": "What is Oggleflint's relationship with the Searing Blade?",
@@ -67,21 +67,21 @@
     "searing blade and oggleflint",
     "are troggs with the cult"
    ],
-   "answer": "They share the chasm, but nothing makes them allies: Oggleflint's troggs hold the tunnels near the entrance, while the Searing Blade cultists work in the deeper chambers."
+   "answer": "Oggleflint’s troggs and the Searing Blade cultists share the chasm, but nothing makes them allies. The troggs hold the tunnels near the entrance, while the cultists work in the deeper chambers."
   }
  ],
  "angles": [
   {
    "target": "faction:Horde",
-   "text": "Living directly beneath Thrall's fortress, Oggleflint's troggs represent a wild, unpredictable security risk right in the heart of Durotar."
+   "text": "Beneath Thrall’s fortress, Oggleflint’s troggs pose a wild, unpredictable security risk in the heart of Durotar."
   },
   {
    "target": "race:Orc",
-   "text": "For young orcs proving their mettle in the trial of arms, slaying the chieftain lurking right under the Drag is an early test of martial discipline."
+   "text": "As a young orc proving your mettle in the trial of arms, facing the chieftain beneath the Drag tests your martial discipline."
   },
   {
    "target": "class:Warrior",
-   "text": "Facing Oggleflint means confronting a heavy brute who relies entirely on raw muscle and primal rage rather than armor or discipline."
+   "text": "As a warrior, you face a heavy brute who relies on raw muscle and primal rage, not armor or discipline."
   }
  ],
  "keywords": [
@@ -97,5 +97,6 @@
  ],
  "attribution": [
   "Oggleflint"
- ]
+ ],
+ "style": 1
 }

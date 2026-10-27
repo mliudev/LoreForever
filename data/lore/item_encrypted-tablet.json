@@ -10,16 +10,16 @@
    "quest:3083"
   ]
  },
- "summary": "The Encrypted Tablet is a coded message delivered to novice Darkspear troll rogues training in the Valley of Trials. Inscribed by the rogue trainer Rwag, it summons promising cutpurses and scouts to his post inside the Den.",
+ "summary": "In the Valley of Trials, the Encrypted Tablet sends novice troll rogues to Rwag. The rogue trainer inscribes its coded message and keeps his post inside the Den.",
  "sections": [
   {
    "title": "A Hidden Summons",
-   "body": "Novice troll rogues arriving in the Valley of Trials are handed the Encrypted Tablet as their initial directive. Inscribed with ciphered instructions, the slate directs them directly to Rwag, an orc trainer residing within the shaded caves of the Den. Rather than openly broadcasting guild business, the local shadow operatives use these encrypted slates to test comprehension and discreetly draw new talent under official tutelage.",
+   "body": "Novice troll rogues receive the Encrypted Tablet when they arrive in the Valley of Trials. Its ciphered words direct them to Rwag, an orc trainer who lives in the Den’s shaded caves. The slate keeps the local shadow operatives’ business discreet while testing whether new recruits can understand its message.",
    "spoiler": 0
   },
   {
    "title": "Eyes of the Hand",
-   "body": "Deciphering the tablet introduces recruits to the larger shadow network of the Horde. Upon reporting to Rwag, scouts learn that their progression is scrutinized by shadowy syndicates like the Shattered Hand, who look to valley trainers to ensure prospective cutpurses, spies, and assassins are sharp enough to serve the new nation.",
+   "body": "Deciphering the tablet brings recruits into contact with the Horde’s wider shadow network. When they report to Rwag, scouts learn that syndicates such as the Shattered Hand watch their progress. The syndicates rely on valley trainers to judge whether prospective cutpurses, spies, and assassins are sharp enough to serve the new nation.",
    "spoiler": 0
   }
  ],
@@ -31,7 +31,7 @@
     "what does encrypted tablet do",
     "why do i have encrypted tablet"
    ],
-   "answer": "The Encrypted Tablet serves as an encrypted summons instructing young troll rogues to report to Rwag, the local rogue trainer stationed within the Den in the Valley of Trials."
+   "answer": "The Encrypted Tablet directs young troll rogues to report to Rwag, the rogue trainer posted inside the Den in the Valley of Trials."
   },
   {
    "q": "Who wrote the message on the tablet?",
@@ -40,7 +40,7 @@
     "tablet author",
     "who wrote this"
    ],
-   "answer": "The message was crafted by Rwag, the rogue trainer in the Valley of Trials who oversees the training of thieves, cutpurses, and assassins for the Horde."
+   "answer": "Rwag, the rogue trainer in the Valley of Trials, wrote the message. He oversees the training of thieves, cutpurses, and assassins for the Horde."
   },
   {
    "q": "Where do I find Rwag?",
@@ -49,7 +49,7 @@
     "rwag location",
     "find rogue trainer valley of trials"
    ],
-   "answer": "Rwag is located deep inside the Den, a cavern complex along the northern ridge of the Valley of Trials in Durotar."
+   "answer": "Rwag is inside the Den, a cavern complex along the northern ridge of the Valley of Trials in Durotar."
   },
   {
    "q": "What is 'the Hand' mentioned by Rwag?",
@@ -58,17 +58,17 @@
     "who are the hand",
     "shattered hand connection"
    ],
-   "answer": "The Hand refers to the Shattered Hand, a clandestine order operating among the Horde's rogue network. Rwag answers to them regarding the readiness of new operatives emerging from the Valley."
+   "answer": "The Hand is the Shattered Hand, a clandestine order in the Horde’s rogue network. Rwag reports to them on the readiness of new operatives from the Valley."
   }
  ],
  "angles": [
   {
    "target": "class:Rogue",
-   "text": "The ciphered slate represents your initial induction into the formal ranks of Horde rogues, pointing you toward Rwag's training in the Den."
+   "text": "As a rogue, you receive the ciphered slate as your first step into the Horde’s formal ranks. It points you to Rwag’s training in the Den."
   },
   {
    "target": "race:Troll",
-   "text": "Darkspear trolls training in Durotar receive this tablet as proof that their agility and stealth have caught the eye of the Valley's trainers."
+   "text": "As a Darkspear troll training in Durotar, you receive this tablet as proof that your agility and stealth have caught the Valley trainers’ attention."
   }
  ],
  "keywords": [
@@ -92,5 +92,6 @@
  "attribution": [
   "Encrypted Tablet",
   "Encrypted Tablet (quest)"
- ]
+ ],
+ "style": 1
 }

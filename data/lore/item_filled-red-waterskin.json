@@ -10,11 +10,11 @@
    "quest:1536"
   ]
  },
- "summary": "The Filled Red Waterskin contains pristine spring water drawn from the village well in Tarren Mill. Gathering this pure water amidst the blighted ruins held by the Forsaken serves as a vital trial for young shaman seeking communion with the water spirits.",
+ "summary": "In Tarren Mill, a well gives clear spring water for a shaman’s trial. The Filled Red Waterskin carries water drawn from the village well, amid ruins held by the Forsaken.",
  "sections": [
   {
    "title": "A Beacon in Blighted Lands",
-   "body": "While training shaman in the ways of water, the hermit Brine in the Barrens dispatches initiates on a lengthy journey to Tarren Mill in the Hillsbrad Foothills. Amidst the decay and the dead, the town's central well miraculously draws clear, untainted spring water. Brine regards this holy vestige in an unhallowed land as an emblem of enduring spirit\u2014drawing a parallel between the uncorrupted spring and Warchief Thrall's enduring resolve despite profound hardship. Gathering this sample proves an initiate's reverence for water's purity regardless of hostile surroundings.",
+   "body": "Brine, a hermit in the Barrens, sends shaman initiates to Tarren Mill for water training. The journey leads to the Hillsbrad Foothills, where decay and the dead surround the town. Yet the central well still draws clear spring water. Brine sees this pure water as a sign of endurance in an unhallowed land. She compares the uncorrupted spring with Warchief Thrall’s resolve through hardship. Gathering the water tests an initiate’s respect for its purity, even in hostile surroundings.",
    "spoiler": 0
   }
  ],
@@ -26,7 +26,7 @@
     "tarren mill water",
     "red waterskin contents"
    ],
-   "answer": "It contains pure, uncorrupted spring water drawn directly from the public well in the center of Tarren Mill."
+   "answer": "The Filled Red Waterskin holds pure spring water drawn from the public well in the center of Tarren Mill."
   },
   {
    "q": "Why does Brine want water from Tarren Mill?",
@@ -35,7 +35,7 @@
     "why brine needs this",
     "purpose of red waterskin"
    ],
-   "answer": "Brine considers the town's fresh spring a miraculous vestige of purity surviving amidst Forsaken decay. She requires this sacred sample as an ingredient to brew the sapta needed for a shaman's water trials."
+   "answer": "Brine sees Tarren Mill’s fresh spring as a rare sign of purity amid Forsaken decay. She needs the water to brew sapta for a shaman’s water trials."
   },
   {
    "q": "How does the well stay clean in an undead town?",
@@ -44,7 +44,7 @@
     "is tarren mill well poisoned",
     "holy well tarren mill"
    ],
-   "answer": "No one knows; the spring has somehow remained untouched by the plague around it. Brine notes that the Forsaken inhabiting Tarren Mill may not even recognize or value the purity of the holy vestige in their midst."
+   "answer": "No one knows why the spring has remained untouched by the plague around it. Brine says the Forsaken in Tarren Mill may not recognize or value the purity of the holy spring among them."
   },
   {
    "q": "How does Thrall relate to this quest?",
@@ -52,17 +52,17 @@
     "thrall comparison",
     "why mention thrall"
    ],
-   "answer": "Brine compares the clean well surviving in a ruined town to Thrall, who endured immense suffering and captivity yet emerged strong and untainted to guide the orcish people through dark times."
+   "answer": "Brine compares the clean well in a ruined town to Thrall. He endured great suffering and captivity, then emerged strong and untainted to guide the orcish people through dark times."
   }
  ],
  "angles": [
   {
    "target": "class:Shaman",
-   "text": "Carrying this water tests a shaman's ability to find and honor life-giving balance even within the most decayed, sorrowful corners of the world."
+   "text": "As a shaman, carrying this water tests your ability to find and honor life-giving balance in the world’s most decayed and sorrowful corners."
   },
   {
    "target": "faction:Horde",
-   "text": "Visiting Tarren Mill brings young Kalimdor champions into the heart of the Forsaken's struggle against Alliance forces across the Eastern Kingdoms."
+   "text": "As a Horde champion from Kalimdor, you travel to Tarren Mill, where the Forsaken struggle against Alliance forces across the Eastern Kingdoms."
   }
  ],
  "keywords": [
@@ -87,5 +87,6 @@
  "attribution": [
   "Filled Red Waterskin",
   "Call of Water (4)"
- ]
+ ],
+ "style": 1
 }

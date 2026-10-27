@@ -17,16 +17,16 @@
   "wiki": "Wenikee Boltbucket (Classic)",
   "chain": []
  },
- "summary": "Having tinkered with the retrieved samophlange until it broke, the goblin engineer Sputtervalve needs an expert hand to restore it before his colleagues in Undermine demand results. He sends adventurers north across the Barrens to consult Wenikee Boltbucket, a clever tinkerer stationed near the Mor'shan Rampart.",
+ "summary": "Near the Mor'shan Rampart, Wenikee Boltbucket may be able to mend a broken samophlange. Sputtervalve tinkered with the device after it was retrieved from the Sludge Fen, and now needs an expert hand before his colleagues in Undermine demand results.",
  "sections": [
   {
    "title": "A Delicate Mishap",
-   "body": "Sputtervalve's ambition outpaced his mechanical finesse. After having an adventurer extract the mysterious samophlange from the Venture Company's control console at the Sludge Fen, Sputtervalve couldn't resist bragging to his fellow engineers in Undermine. Unfortunately, his tinkering took a turn for the worse, leaving the delicate contraption broken. Desperate to deliver on his claims, he needs someone with sharper technical acumen to diagnose the damage and repair it.",
+   "body": "Sputtervalve's claims to his fellow engineers in Undermine now hang on a broken machine. An adventurer retrieved the mysterious samophlange from the Venture Company's control console at the Sludge Fen, and Sputtervalve could not resist showing it off. His tinkering damaged the delicate contraption. He needs someone with sharper skill to diagnose the damage and repair it.",
    "spoiler": 0
   },
   {
    "title": "The Tinkerer by the Rampart",
-   "body": "Wenikee Boltbucket makes her camp along the road just south of the Mor'shan Rampart, the defensive barrier dividing the northern Barrens from Ashenvale. Known for her inquisitive nature and inventive mind, she is readily captivated by intricate machinery. Upon laying eyes on the broken samophlange, its internal gearing immediately hooks her curiosity, prompting her to drop everything and set to work deciphering how to rebuild it.",
+   "body": "Wenikee Boltbucket camps beside the road just south of the Mor'shan Rampart. The rampart divides the northern Barrens from Ashenvale. Her inquisitive mind is drawn to intricate machinery, and the broken samophlange quickly captures her attention. Its internal gears hold her curiosity, and she sets to work figuring out how to rebuild it.",
    "spoiler": 0
   }
  ],
@@ -38,7 +38,7 @@
     "how did it break",
     "sputtervalve broke it"
    ],
-   "answer": "Sputtervalve attempted to examine and tinker with the device after it was recovered from the Sludge Fen control console, but he ended up damaging the intricate internal mechanisms."
+   "answer": "Sputtervalve damaged the samophlange while examining and tinkering with it after it was recovered from the Sludge Fen control console."
   },
   {
    "q": "Who is Wenikee Boltbucket?",
@@ -47,7 +47,7 @@
     "boltbucket location",
     "where is wenikee"
    ],
-   "answer": "She is an inventive goblin tinkerer stationed just south of the Mor'shan Rampart on the border between the northern Barrens and Ashenvale, known for her skill with complex machinery."
+   "answer": "Wenikee Boltbucket is an inventive goblin tinkerer camped just south of the Mor'shan Rampart, on the border between the northern Barrens and Ashenvale. She is known for her skill with complex machinery."
   },
   {
    "q": "Why does Sputtervalve care so much about fixing it?",
@@ -56,7 +56,7 @@
     "sputtervalve undermine",
     "why does he care"
    ],
-   "answer": "Sputtervalve already bragged about securing the device to his colleagues back in Undermine. If he fails to deliver a functioning device, his reputation and professional standing will take a serious hit."
+   "answer": "Sputtervalve bragged to his colleagues in Undermine that he had secured the device. If he cannot deliver a working samophlange, his reputation and professional standing will suffer."
   },
   {
    "q": "Does Wenikee know what a samophlange actually does?",
@@ -64,7 +64,7 @@
     "does she know what it is",
     "what is a samophlange to her"
    ],
-   "answer": "No. When first presented with it, she asks what a samophlange even is, but becomes fascinated by the sound of the intricate gears and wants to fix it simply to see what it does."
+   "answer": "No. When Wenikee first sees the samophlange, she asks what it is. Its intricate gears fascinate her, and she wants to repair it to see what it does."
   },
   {
    "q": "Where is the Mor'shan Rampart located?",
@@ -73,7 +73,7 @@
     "where is rampart",
     "barrens ashenvale border"
    ],
-   "answer": "The Mor'shan Rampart is the fortified Horde outpost situated on the northern edge of the Barrens, guarding the pass into Ashenvale."
+   "answer": "The Mor'shan Rampart is a fortified Horde outpost on the northern edge of the Barrens, guarding the pass into Ashenvale."
   },
   {
    "q": "What happens after Wenikee examines the broken device?",
@@ -82,17 +82,17 @@
     "nugget slugs",
     "samophlange next step"
    ],
-   "answer": "Intrigued by its construction, Wenikee agrees to repair the samophlange, but requires specific mechanical components, starting with nugget slugs kept in Venture Company tool buckets at the Sludge Fen, to get the gears working again."
+   "answer": "Wenikee agrees to repair the samophlange, intrigued by its construction. She needs specific mechanical parts, beginning with nugget slugs kept in Venture Company tool buckets at the Sludge Fen, to get the gears working again."
   }
  ],
  "angles": [
   {
    "target": "profession:Engineering",
-   "text": "Engineers can appreciate the sheer irresistible curiosity the samophlange elicits; even when neither Sputtervalve nor Wenikee knows its original purpose, the complex gearing alone demands investigation."
+   "text": "As an engineer, you can understand why the samophlange stirs such curiosity. Neither Sputtervalve nor Wenikee knows its original purpose, but its complex gears invite investigation."
   },
   {
    "target": "faction:Horde",
-   "text": "Wenikee's camp sits in the shadow of the Mor'shan Rampart, the crucial fortified choke point defending Horde territory in the northern Barrens against hostile incursions from Ashenvale."
+   "text": "As a member of the Horde, you know Wenikee's camp lies in the shadow of the Mor'shan Rampart, a fortified choke point protecting Horde territory in the northern Barrens from incursions out of Ashenvale."
   }
  ],
  "keywords": [
@@ -115,5 +115,6 @@
  ],
  "attribution": [
   "Wenikee Boltbucket (Classic)"
- ]
+ ],
+ "style": 1
 }

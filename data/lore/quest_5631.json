@@ -20,16 +20,16 @@
    "Stars of Elune"
   ]
  },
- "summary": "Returning Home is an Alliance priest quest that summons promising night elf acolytes who have been traveling abroad back to Teldrassil. Guided by Brother Joshua in human lands, the young priest is recalled to the Temple of the Moon in Darnassus by Priestess Alathea for advanced guidance in the mysteries of Elune.",
+ "summary": "In human lands, a night elf priest receives a summons to return to Teldrassil. Brother Joshua delivers the message from Priestess Alathea, who calls the young priest to the Temple of the Moon in Darnassus for advanced guidance in Elune’s mysteries.",
  "sections": [
   {
    "title": "A Summons Across Seas",
-   "body": "While night elf priests occasionally travel to human domains like Stormwind to share spiritual fellowship with the Church of the Holy Light, their deepest ties remain bound to the Sisterhood of Elune. When Brother Joshua informs an acolyte that a night elf emissary has come searching for them, it signals that their early wanderings are done. Their home temple requires their presence for deeper training under the guidance of High Priestess Tyrande Whisperwind's inner circle.",
+   "body": "Night elf priests sometimes travel to human lands such as Stormwind to share spiritual fellowship with the Church of the Holy Light. Their deepest ties remain with the Sisterhood of Elune. Brother Joshua tells an acolyte that a night elf emissary has come searching for them. Their early travels are over, and their home temple calls them back for deeper training with High Priestess Tyrande Whisperwind’s inner circle.",
    "spoiler": 0
   },
   {
    "title": "The Temple of the Moon",
-   "body": "Returning across the seas to Darnassus brings the traveler directly to the sanctum of the Temple of the Moon. Priestess Alathea greets the returning acolyte with warmth, celebrating their safe passage through a troubled world. The safe return of their young disciples is a source of joy for both Alathea and Tyrande, but it is also the prologue to more demanding spiritual trials.",
+   "body": "Across the sea, Darnassus welcomes the returning priest at the Temple of the Moon. Priestess Alathea greets the acolyte warmly and celebrates their safe passage through a troubled world. Their return brings joy to Alathea and Tyrande, while more demanding spiritual trials await.",
    "spoiler": 0
   }
  ],
@@ -41,7 +41,7 @@
     "brother joshua night elf",
     "who sends me home"
    ],
-   "answer": "Brother Joshua serves the Church of the Holy Light in human lands, where young Alliance priests often train alongside one another. A sister of Elune visited his halls specifically to deliver a message recalling you to Darnassus, prompting Joshua to pass along the summons."
+   "answer": "Brother Joshua serves the Church of the Holy Light in human lands, where young Alliance priests often train together. A sister of Elune came to his halls with a message recalling you to Darnassus, and Joshua passes on the summons."
   },
   {
    "q": "Who is Priestess Alathea?",
@@ -50,7 +50,7 @@
     "alathea darnassus",
     "who is alathea"
    ],
-   "answer": "Priestess Alathea is a senior member of the Sisterhood of Elune stationed within the Temple of the Moon in Darnassus. Working closely with High Priestess Tyrande Whisperwind, she oversees the training and advancement of promising night elf priests."
+   "answer": "Priestess Alathea is a senior member of the Sisterhood of Elune at the Temple of the Moon in Darnassus. She works with High Priestess Tyrande Whisperwind and oversees the training and advancement of promising night elf priests."
   },
   {
    "q": "What happens after reaching the Temple of the Moon?",
@@ -59,7 +59,7 @@
     "what is next",
     "stars of elune quest"
    ],
-   "answer": "Upon reporting your safe arrival to Priestess Alathea, she welcomes you home and initiates you into your next rite of passage, beginning the quest Stars of Elune to deepen your communion with the Moon Goddess."
+   "answer": "At the Temple of the Moon, Priestess Alathea welcomes you home and begins your next rite of passage. Stars of Elune deepens your communion with the Moon Goddess."
   },
   {
    "q": "Can any Alliance race do this quest?",
@@ -68,7 +68,7 @@
     "can humans do returning home",
     "who can pick up returning home"
    ],
-   "answer": "This particular summons is meant for night elf priests who have strayed far from Kalimdor during their early training. It ensures they return to their ancestral home to study racial priesthood traditions under the Sisterhood of Elune."
+   "answer": "This summons is for night elf priests who have traveled far from Kalimdor during their early training. It calls you home to study the traditions of your people’s priesthood with the Sisterhood of Elune."
   },
   {
    "q": "Where is the Temple of the Moon located?",
@@ -77,7 +77,7 @@
     "where is the temple",
     "where is alathea"
    ],
-   "answer": "The Temple of the Moon stands in the southern district of Darnassus atop the boughs of Teldrassil. It serves as both the spiritual heart of night elf culture and the seat of power for High Priestess Tyrande Whisperwind."
+   "answer": "The Temple of the Moon is in Darnassus’s southern district, atop the boughs of Teldrassil. It is the spiritual heart of night elf culture and the seat of power for High Priestess Tyrande Whisperwind."
   },
   {
    "q": "Why does Alathea mention Tyrande Whisperwind?",
@@ -86,21 +86,21 @@
     "tyrande whisperwind priestess",
     "alathea and tyrande"
    ],
-   "answer": "Tyrande Whisperwind is the High Priestess of Elune and the spiritual leader of the night elves. Senior priestesses like Alathea act on her behalf, ensuring that all novices who represent their faith abroad are tracked and instructed according to Tyrande's standards."
+   "answer": "Tyrande Whisperwind is the High Priestess of Elune and spiritual leader of the night elves. Senior priestesses such as Alathea act on her behalf, tracking and guiding novices who represent their faith abroad according to Tyrande’s standards."
   }
  ],
  "angles": [
   {
    "target": "class:Priest",
-   "text": "This quest bridges the fellowship between the Church of the Holy Light and the Sisterhood of Elune, marking the moment a young acolyte returns to their people to master unique Kaldorei rites."
+   "text": "As a priest, you return from fellowship with the Church of the Holy Light to the Sisterhood of Elune, where you can master Kaldorei rites."
   },
   {
    "target": "race:NightElf",
-   "text": "For night elf priests who walked among humans or dwarves across the sea, this pilgrimage marks a sacred homecoming to the sanctuaries of Teldrassil."
+   "text": "As a night elf priest who has walked among humans or dwarves across the sea, you make a sacred return to the sanctuaries of Teldrassil."
   },
   {
    "target": "faction:Alliance",
-   "text": "The seamless cooperation between Brother Joshua in the Eastern Kingdoms and the priestesses in Darnassus reflects the spiritual diplomacy keeping the Alliance unified."
+   "text": "Brother Joshua in the Eastern Kingdoms and the priestesses in Darnassus work together, reflecting the spiritual ties that unite the Alliance."
   }
  ],
  "keywords": [
@@ -126,5 +126,6 @@
  ],
  "attribution": [
   "Returning Home (Brother Joshua)"
- ]
+ ],
+ "style": 1
 }

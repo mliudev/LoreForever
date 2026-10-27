@@ -10,11 +10,11 @@
    "quest:881"
   ]
  },
- "summary": "Echeyakee's Hide is the pale pelt taken from the legendary white lion known as Whitemist in the Barrens. Revered by the tauren as an embodiment of mercy and death, the pelt serves as proof of a hunter's prowess for Sergra Darkthorn at the Crossroads.",
+ "summary": "At the Crossroads, Sergra Darkthorn awaits the pale hide of Whitemist, the legendary white lion of the Barrens. Tauren honor the beast as an embodiment of mercy and death, while hunters bring the pelt as proof of their prowess.",
  "sections": [
   {
    "title": "Trophy of Whitemist",
-   "body": "In the Taur-ahe tongue, Echeyakee means Whitemist. The predator earned the title among the savannah lions for his stealthy white coat and the swiftness with which he took down prey, ending their lives before fear or pain could take hold. Claiming the beast's pelt requires summoning the elusive cat near giant kodo bones northeast of the Crossroads with a ceremonial horn. To present this hide to Sergra Darkthorn is not just to prove martial skill, but to honor the predator's silent, merciful end.",
+   "body": "Echeyakee means Whitemist in the Taur-ahe tongue. The lion earned that name among the savannah's predators for his stealthy white coat and swift kills, ending prey's lives before fear or pain could take hold. A hunter summons the elusive cat near the giant kodo bones northeast of the Crossroads with a ceremonial horn, then claims his pelt. Bringing it to Sergra Darkthorn proves martial skill and honors Whitemist's silent, merciful end.",
    "spoiler": 0
   }
  ],
@@ -26,7 +26,7 @@
     "how to get echeyakee hide",
     "echeyakee pelt location"
    ],
-   "answer": "The hide is obtained by slaying Echeyakee, the white lion who lairs among giant kodo skeletons northeast of the Crossroads in the Barrens. He must be summoned using the Horn of Echeyakee provided by Sergra Darkthorn."
+   "answer": "Echeyakee's Hide comes from the white lion Echeyakee, who lairs among giant kodo skeletons northeast of the Crossroads in the Barrens. Sergra Darkthorn provides the Horn of Echeyakee to summon him."
   },
   {
    "q": "Who wants Echeyakee's Hide?",
@@ -35,7 +35,7 @@
     "turn in echeyakees hide",
     "who needs echeyakee hide"
    ],
-   "answer": "Sergra Darkthorn, an orc huntress residing at the Crossroads, tasks rising Horde hunters with tracking the great cat and returning with his pelt to prove their connection to the wild."
+   "answer": "Sergra Darkthorn, an orc huntress at the Crossroads, wants Echeyakee's Hide. She sends rising Horde hunters to track the great cat and return with his pelt as proof of their connection to the wild."
   },
   {
    "q": "What does the name Echeyakee mean?",
@@ -44,17 +44,17 @@
     "meaning of echeyakee",
     "tauren name echeyakee"
    ],
-   "answer": "In the tauren language, Echeyakee translates to 'Whitemist.' The name honors the cat's pale pelt and the belief that he moved across the savannah like a rolling mist, killing without causing lingering terror or agony."
+   "answer": "Echeyakee means Whitemist in the tauren language. The name honors the cat's pale pelt and the belief that he moved across the savannah like rolling mist, killing without lingering terror or agony."
   }
  ],
  "angles": [
   {
    "target": "race:Tauren",
-   "text": "To the tauren, hunting Echeyakee is a sacred test of mercy and stealth, honoring Whitemist's swift spirit rather than seeking mere conquest."
+   "text": "As a tauren, you honor Whitemist's swift spirit when you hunt Echeyakee, a sacred test of mercy and stealth rather than mere conquest."
   },
   {
    "target": "class:Hunter",
-   "text": "Claiming the pelt of the savannah's apex stalker is an early rite of passage for Horde trackers seeking to master the subtleties of the wild."
+   "text": "As a Hunter, you take the pelt of the savannah's apex stalker as an early rite of passage, learning the subtleties of the wild as a Horde tracker."
   }
  ],
  "keywords": [
@@ -77,5 +77,6 @@
  "attribution": [
   "Echeyakee's Hide",
   "Echeyakee (Classic)"
- ]
+ ],
+ "style": 1
 }

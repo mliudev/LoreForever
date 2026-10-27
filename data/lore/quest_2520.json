@@ -21,16 +21,16 @@
    "Sathrah's Sacrifice (quest)"
   ]
  },
- "summary": "Sathrah's Sacrifice is the conclusion to a somber ritual performed within the Temple of the Moon in Darnassus. Entrusted with the remains of Lady Sathrah, players offer the fallen creature's spinnerets to Elune's sacred waters to cleanse her soul of corruption and lay her spirit to rest.",
+ "summary": "At the Temple of the Moon, Sathrah's Sacrifice gives a fallen creature's spirit a final rite. You carry Lady Sathrah's spinnerets to Elune's sacred waters, where the Priesthood seeks to cleanse her soul of corruption.",
  "sections": [
   {
    "title": "A Cleansing in Sacred Waters",
-   "body": "Following the tragic slaying of Lady Sathrah, Priestess A'moora charges initiates with a final spiritual duty. The great spider had fallen prey to the dark madness spreading across Teldrassil, warping her once-peaceful nature into mindless aggression. Rather than treating her death as a simple culling, the Priesthood of Elune seeks to redeem her fallen essence. By placing her silvery spinnerets into the central fountain of the Temple of the Moon, the consecrated waters wash away the tainting corruption, granting her release.",
+   "body": "Priestess A'moora asks you to perform a final rite after Lady Sathrah is slain. The great spider fell to the dark madness spreading across Teldrassil, which twisted her peaceful nature into mindless aggression. The Priesthood of Elune seeks to redeem her fallen essence, not treat her death as a simple culling. You place her silvery spinnerets in the fountain at the heart of the Temple of the Moon. Its consecrated waters wash away the corruption and grant her release.",
    "spoiler": 0
   },
   {
    "title": "The Renewal of Sathrah",
-   "body": "Offering the sacrifice to Elune brings immediate spiritual communion. As the spinnerets touch the moonlit pool, the ethereal form of Lady Sathrah rises from the depths, peaceful and cleansed of the affliction that drove her mad. The Sisterhood of Elune views this ritual as necessary salvation; though the loss of the great creature is deeply felt, night elven theology teaches that through this sacred purification, she can one day be reborn with an uncorrupted spirit.",
+   "body": "When the spinnerets touch the moonlit pool, Lady Sathrah's peaceful spirit rises, cleansed of the affliction that drove her mad. The Sisterhood of Elune sees the rite as her salvation. Though the loss of the great creature is deeply felt, night elven belief holds that sacred purification can let her be reborn one day with an uncorrupted spirit.",
    "spoiler": 1
   }
  ],
@@ -42,7 +42,7 @@
     "who is sathrah",
     "what is sathrah"
    ],
-   "answer": "Lady Sathrah was a great spider inhabiting Teldrassil who succumbed to the creeping corruption afflicting the World Tree's wildlife. Driven mad by the taint, she had to be slain so her remains could be sanctified."
+   "answer": "Lady Sathrah was a great spider who lived on Teldrassil and succumbed to the corruption spreading through the World Tree's wildlife. The taint drove her mad, and she had to be slain so her remains could be sanctified."
   },
   {
    "q": "Where is the sacrifice offered?",
@@ -51,7 +51,7 @@
     "fountain location",
     "temple fountain"
    ],
-   "answer": "The sacrifice is placed into the holy fountain located at the center of the Temple of the Moon, the central sanctuary of the Sisterhood of Elune in Darnassus."
+   "answer": "You offer the sacrifice in the holy fountain at the center of the Temple of the Moon, the Sisterhood of Elune's central sanctuary in Darnassus."
   },
   {
    "q": "What happens when you place the spinnerets in the fountain?",
@@ -59,7 +59,7 @@
     "what happens at the fountain",
     "spirit of sathrah fountain"
    ],
-   "answer": "Upon placing the silvery spinnerets into the blessed waters, the purified Spirit of Sathrah manifests briefly in the pool, walking freely and peacefully to signal Elune's acceptance."
+   "answer": "When you place the silvery spinnerets in the blessed waters, Sathrah's purified spirit appears briefly in the pool and walks freely and peacefully, signaling Elune's acceptance."
   },
   {
    "q": "Why did Lady Sathrah have to die?",
@@ -68,7 +68,7 @@
     "could sathrah be saved",
     "sathrah madness"
    ],
-   "answer": "The corruption poisoning her mind was too deep to heal while living. Priestess A'moora and the Sisterhood believed the only way to save her soul was to end her suffering and cleanse her remains in Elune's holy waters."
+   "answer": "The corruption in Lady Sathrah's mind ran too deep to heal while she lived. Priestess A'moora and the Sisterhood believed they could save her soul only by ending her suffering and cleansing her remains in Elune's holy waters."
   },
   {
    "q": "Who gives the quest Sathrah's Sacrifice?",
@@ -77,7 +77,7 @@
     "where to turn in",
     "amoora location"
    ],
-   "answer": "The quest is provided and concluded by Priestess A'moora, who serves within the Temple of the Moon in Darnassus overlooking the central chamber."
+   "answer": "Priestess A'moora gives and concludes Sathrah's Sacrifice from the Temple of the Moon in Darnassus, overlooking the central chamber."
   },
   {
    "q": "What belief underpins this ritual for the night elves?",
@@ -86,21 +86,21 @@
     "elune purification",
     "rebirth lore"
    ],
-   "answer": "The night elves believe that souls purified by the Mother Moon can be reborn into the natural world with their spirits cleansed and renewed, free from the lingering stain of corruption."
+   "answer": "Night elves believe souls purified by the Mother Moon can be reborn into the natural world, their spirits renewed and free of corruption."
   }
  ],
  "angles": [
   {
    "target": "race:NightElf",
-   "text": "For night elves, this rite reflects their solemn duty to the flora and fauna of Kalimdor: even when creatures must be slain, their spirits are honored and cleansed through Elune's grace."
+   "text": "As a night elf, you honor the flora and fauna of Kalimdor through this solemn rite. Even when a creature must be slain, its spirit is honored and cleansed through Elune's grace."
   },
   {
    "target": "class:Priest",
-   "text": "Priests walking the Temple of the Moon see firsthand how Elune's holy light and sacred waters can mend spirits severed by madness and corruption."
+   "text": "As a priest, you see how Elune's holy light and sacred waters can mend spirits afflicted by madness and corruption."
   },
   {
    "target": "class:Druid",
-   "text": "Druids who mourn the sickness plaguing Teldrassil find solace in knowing that fallen beasts can be restored to the natural cycle through purification."
+   "text": "As a druid, you can find solace in knowing fallen beasts can return to the natural cycle through purification, even as Teldrassil suffers from sickness."
   }
  ],
  "keywords": [
@@ -124,5 +124,6 @@
  ],
  "attribution": [
   "Sathrah's Sacrifice (quest)"
- ]
+ ],
+ "style": 1
 }

@@ -8,21 +8,21 @@
   "wiki": "Islen Waterseer",
   "refs": 7
  },
- "summary": "Islen Waterseer is a respected tauren shaman who dwells beside a quiet fishing hut on the Tidus Stair, overlooking the eastern sea of the Barrens. Possessing an intimate communion with the spirits of water, she guides initiates on the trials necessary to attune with the element. Novice shamans across the Horde seek her wisdom to earn their Water Totem.",
+ "summary": "Beside the Tidus Stair, respected tauren shaman Islen Waterseer guides Horde initiates through the trials of water. She lives by a quiet fishing hut and teaches shamans to attune to water spirits as they seek their Water Totem.",
  "sections": [
   {
    "title": "The Hermit of Tidus Stair",
-   "body": "Far from the bustling crossroads and encampments of the Barrens, Islen Waterseer lives along the craggy coastline known as the Tidus Stair. Here, where the arid plains break against the Great Sea, the presence of the water spirits is raw and pervasive. Rather than dwelling in thunderous halls or busy cities, Islen prefers this quiet outpost, dedicating her days to listening to the tides and assisting shamans who seek communion with the fluid element.",
+   "body": "On the Barrens coast, Islen Waterseer keeps to the craggy Tidus Stair, where arid plains meet the Great Sea. Water spirits are raw and near along this shore. Islen chooses this quiet outpost over thunderous halls and busy cities, spending her days listening to the tides. Shamans seeking communion with water come to her for guidance.",
    "spoiler": 0
   },
   {
    "title": "Mistress of the Water Sapta",
-   "body": "Understanding water requires more than simple study; it demands internal harmony and spiritual perception. Islen guides seekers through the preparation of the Water Sapta, a sacred brew that pierces the veil between mortal senses and elemental manifestations. Her teachings remind shamans that water is as unyielding and deep as it is fluid and restorative, requiring immense respect from any who hope to call upon its aid.",
+   "body": "To know water, a shaman needs inner harmony and spiritual sight as well as study. Islen guides seekers in preparing the Water Sapta, a sacred brew that pierces the veil between mortal senses and elemental manifestations. She teaches that water can be unyielding and deep, yet fluid and restorative. Anyone who calls on its aid must show it great respect.",
    "spoiler": 0
   },
   {
    "title": "Bonds Across the Wilds",
-   "body": "While Islen maintains a quiet life on the coast, her spiritual reach and connections extend across Kalimdor. She maintains a close, enduring friendship with Greta Mosshoof, another wise tauren versed in the restorative arts. Through these connections, Islen's knowledge of water's purifying essence touches matters well beyond the Barrens, even offering spiritual aid to lands afflicted by deep corruption.",
+   "body": "Though Islen lives quietly on the coast, her spiritual ties reach across Kalimdor. She shares a close, enduring friendship with Greta Mosshoof, another wise tauren skilled in the restorative arts. Islen's knowledge of water's purifying nature reaches beyond the Barrens, bringing spiritual aid to lands afflicted by deep corruption.",
    "spoiler": 0
   }
  ],
@@ -34,7 +34,7 @@
     "who is islen",
     "tidus stair tauren"
    ],
-   "answer": "Islen Waterseer is a wise tauren shaman who resides along the coast of the Barrens at the Tidus Stair. She possesses a rare, deep bond with the elemental spirits of water and acts as a spiritual mentor for shamans journeying to earn their Water Totem."
+   "answer": "Along the Barrens coast, Islen Waterseer guides shamans who seek their Water Totem. The respected tauren shaman has a rare, deep bond with the elemental spirits of water and mentors those who travel to learn from her."
   },
   {
    "q": "Why do shamans travel to see her?",
@@ -43,7 +43,7 @@
     "call of water npc",
     "shaman quest barrens coast"
    ],
-   "answer": "Horde shamans are directed to Islen by their trainers in Durotar, Orgrimmar, and Thunder Bluff during the Call of Water trials. She tests their understanding of the element and instructs them on crafting the Water Sapta to perceive water elementals directly."
+   "answer": "During the Call of Water trials, shaman trainers in Durotar, Orgrimmar, and Thunder Bluff direct their students to Islen. She tests their understanding of water and teaches them to craft the Water Sapta, which lets them perceive water elementals directly."
   },
   {
    "q": "Where is Islen Waterseer located?",
@@ -52,7 +52,7 @@
     "where is islen waterseer",
     "find islen"
    ],
-   "answer": "She can be found sitting outside a small fishing hut on the Tidus Stair, situated on the eastern shoreline of the Barrens, south of the Merchant Coast."
+   "answer": "Islen sits outside a small fishing hut on the Tidus Stair, on the Barrens' eastern shore south of the Merchant Coast."
   },
   {
    "q": "What is the Water Sapta she speaks of?",
@@ -60,7 +60,7 @@
     "water sapta meaning",
     "what does the sapta do"
    ],
-   "answer": "The Water Sapta is a specially brewed spiritual draught crafted through elemental components. Consuming it allows a shaman's sight to penetrate the physical plane and witness the hidden spirits of water dwelling in sacred springs and tides."
+   "answer": "The Water Sapta is a spiritual draught brewed with elemental components. Drinking it lets a shaman's sight pierce the physical plane and reveal water spirits dwelling in sacred springs and tides."
   },
   {
    "q": "Who is Islen's friend Greta Mosshoof?",
@@ -68,7 +68,7 @@
     "greta mosshoof connection",
     "islen friend"
    ],
-   "answer": "Greta Mosshoof is an old tauren companion and fellow practitioner of spiritual crafts. The two share an enduring friendship, consulting one another on spiritual cleansing and the restorative nature of water."
+   "answer": "Greta Mosshoof is Islen's old tauren companion and fellow practitioner of spiritual crafts. They share an enduring friendship and consult one another about spiritual cleansing and water's restorative nature."
   },
   {
    "q": "Does Islen belong to a specific faction or tribe?",
@@ -76,21 +76,21 @@
     "islen faction",
     "is islen horde"
    ],
-   "answer": "No tribe is named for her. Islen lives in isolation along the coast and is friendly to travelers of both the Horde and the Alliance, even helping cleanse Felwood's corrupted waters, though it is the Horde's shaman trainers who send their orc, troll, and tauren students to her."
+   "answer": "No tribe is named for Islen. She lives alone on the coast and welcomes travelers from both the Horde and the Alliance. She helps cleanse Felwood's corrupted waters, while Horde shaman trainers send their orc, troll, and tauren students to her."
   }
  ],
  "angles": [
   {
    "target": "class:Shaman",
-   "text": "Islen is an essential mentor on your journey, guiding you through the elemental rites needed to bind and commune with the spirits of water to earn your Water Totem."
+   "text": "As a shaman, you learn from Islen the elemental rites that bind you to water spirits and teach you to commune with them as you seek your Water Totem."
   },
   {
    "target": "race:Tauren",
-   "text": "Islen embodies the traditional tauren reverence for the Earth Mother's gifts, choosing a solitary life by the sea to stay attuned to the subtle currents of the wild."
+   "text": "As a tauren, you can see Islen's reverence for the Earth Mother's gifts in her solitary life by the sea, where she stays attuned to the wild's subtle currents."
   },
   {
    "target": "faction:Horde",
-   "text": "Stationed along the Barrens coast, Islen serves as a tranquil Horde spiritual anchor, welcoming travelers from Orgrimmar and Thunder Bluff alike."
+   "text": "As a member of the Horde, you find a tranquil spiritual anchor in Islen along the Barrens coast. She welcomes travelers from Orgrimmar and Thunder Bluff."
   }
  ],
  "keywords": [
@@ -115,5 +115,6 @@
  ],
  "attribution": [
   "Islen Waterseer"
- ]
+ ],
+ "style": 1
 }

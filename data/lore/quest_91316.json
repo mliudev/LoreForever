@@ -1,0 +1,76 @@
+{
+ "key": "quest:91316",
+ "type": "quest",
+ "name": "Making Repairs",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   91316
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "A supply shortage at a fortress far from the Undercity has left its defenders short of building materials. You are asked to search Shadowvale for lumber that can help restore it.",
+ "sections": [
+  {
+   "title": "Supplies at Shadowvale",
+   "body": "The ruined village of Shadowvale lies in the Whispering Forest, southwest of the fortress. You are sent to search an old root cellar in one of its buildings for usable materials. The fortress is difficult to supply at this distance from settled lands, and its repairs depend on what can be found there.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Why are building materials needed?",
+   "aliases": [
+    "why need lumber",
+    "fortress repairs"
+   ],
+   "answer": "The fortress needs materials to help restore it, and its distance from the Undercity makes supplies difficult to bring in."
+  },
+  {
+   "q": "Where is Shadowvale?",
+   "aliases": [
+    "shadowvale location",
+    "where is the village"
+   ],
+   "answer": "Shadowvale is a ruined village in the Whispering Forest, southwest of the fortress."
+  },
+  {
+   "q": "Where might usable materials be found?",
+   "aliases": [
+    "root cellar materials",
+    "where to look"
+   ],
+   "answer": "One of Shadowvale's buildings has an old root cellar where usable materials may be stored."
+  },
+  {
+   "q": "What is the fortress short of?",
+   "aliases": [
+    "what supplies are missing",
+    "lumber shortage"
+   ],
+   "answer": "The fortress is short of building materials needed for its restoration."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "building materials",
+  "fortress",
+  "making repairs",
+  "root cellar",
+  "shadowvale",
+  "sturdy lumber",
+  "undercity",
+  "whispering forest"
+ ],
+ "related": [
+  "subzone:whispering-forest",
+  "zone:tirisfal",
+  "zone:undercity"
+ ],
+ "style": 1,
+ "attribution": [
+  "In-game quest text: Making Repairs"
+ ]
+}

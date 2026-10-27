@@ -72,7 +72,7 @@ function setup({ data = null, ok = true, reject = false, hash = "", withRows = t
     const row = add({ id: "female-narrator", classes: ["dl-voice"], dataset: { recording: "", voice: "female-narrator", voiceName: "Female narrator", language: "English" } });
     const size = row.appendChild(new Element({ classes: ["dl-size", "dl-total-size"], dataset: { assets: JSON.stringify(["latest:Legacy.zip", "latest:Places.zip"]) } }));
     const kind = row.appendChild(new Element({ classes: ["dl-size-kind"], text: "Total download" }));
-    const details = row.appendChild(new Element({ classes: ["dl-install-choice"], dataset: { preferred: "v0.9.0:LoreForever_Voice_Female_enUS-complete.zip" } }));
+    const details = row.appendChild(new Element({ classes: ["dl-install-choice"], dataset: { preferred: "v0.9.0:LoreForever_Voice_Female-complete.zip" } }));
     details.tagName = "DETAILS";
     const files = details.appendChild(new Element({ classes: ["dl-files"] }));
     const block = details.appendChild(new Element({ classes: ["dl-preferred"], hidden: true }));
@@ -116,7 +116,7 @@ test("filtering pauses a hidden sample and resets its button/card state immediat
 });
 
 test("a preferred bundle only activates when the exact catalog tag and filename are confirmed", async () => {
-  const file = "LoreForever_Voice_Female_enUS-complete.zip";
+  const file = "LoreForever_Voice_Female-complete.zip";
   for (const options of [{ reject: true }, { data: { byTag: { latest: { [file]: 700e6 }, "v0.8.0": { [file]: 700e6 } } } }, { data: { byTag: { "v0.9.0": { [file]: "700000000" } } } }]) {
     const h = setup({ withPreferred: true, ...options }); await h.finish();
     assert.equal(h.candidate.block.hidden, true);
@@ -130,7 +130,7 @@ test("a preferred bundle only activates when the exact catalog tag and filename 
   assert.equal(h.candidate.kind.textContent, "One ZIP");
   assert.equal(h.candidate.files.hidden, false, "filtering leaves install links visible inside a shown row");
   assert.equal(h.candidate.heading.textContent, "Component alternatives");
-  assert.match(h.candidate.link.getAttribute("href"), /\/releases\/download\/v0\.9\.0\/LoreForever_Voice_Female_enUS-complete\.zip$/);
+  assert.match(h.candidate.link.getAttribute("href"), /\/releases\/download\/v0\.9\.0\/LoreForever_Voice_Female-complete\.zip$/);
   h.voice.value = "default"; h.voice.fire("change");
   assert.equal(h.candidate.row.hidden, true, "table row is itself the recording choice");
   h.location.hash = "#female-answers-places"; h.window.fire("hashchange");

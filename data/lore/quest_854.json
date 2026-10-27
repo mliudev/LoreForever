@@ -17,16 +17,16 @@
   "wiki": "Journey to the Crossroads",
   "chain": []
  },
- "summary": "Journey to the Crossroads is a pivotal rite of passage for young Horde adventurers leaving the peaceful meadows of Mulgore behind. Directed by the tauren mystic Kirge Sternhorn at Camp Taurajo, travelers are sent north to the Crossroads to aid the orcish overseer Thork. It marks the moment a novice steps onto the wider stage of Kalimdor's frontier.",
+ "summary": "At Camp Taurajo, Kirge Sternhorn sends travelers north to aid Thork at the Crossroads. The journey carries them from Mulgore into the Barrens and the wider struggles of the Horde.",
  "sections": [
   {
    "title": "Leaving the Cradle",
-   "body": "For many tauren leaving their homeland of Mulgore, Camp Taurajo is their first real taste of the harsh, windswept plains of the Barrens. Just past the mountain pass from Mulgore, mystic Kirge Sternhorn watches over travelers making their descent into these dry grasslands. Sensing their growing capability, Sternhorn directs promising champions to journey further north along the dusty trade route rather than lingering on the fringe.",
+   "body": "Camp Taurajo is where many tauren first face the Barrens beyond Mulgore. Just past the mountain pass, mystic Kirge Sternhorn watches travelers descend into the dry grasslands. When Sternhorn sees that a traveler is ready to go farther, Kirge points north along the dusty trade route toward the Crossroads.",
    "spoiler": 0
   },
   {
    "title": "A Shared Bond",
-   "body": "The quest underscores the vital bond forged between the tauren of Thunder Bluff and Thrall's new Horde. Kirge notes that the fates of both peoples are now intertwined, and the orcs battling to carve out an outpost at the Crossroads desperately need reinforcements. Upon reaching the outpost, Thork warmly welcomes travelers coming from as far as the high bluffs, eager to put their strength to the test against the perils of the savanna.",
+   "body": "The tauren of Thunder Bluff and Thrall's new Horde now share their fortunes. Kirge says the two peoples' fates are bound together, and orcs at the Crossroads need reinforcements as they struggle to establish an outpost. At the settlement, Thork welcomes travelers from even the high bluffs, ready to test their strength against the dangers of the savanna.",
    "spoiler": 0
   }
  ],
@@ -38,7 +38,7 @@
     "quest giver",
     "kirge sternhorn quest"
    ],
-   "answer": "The quest is offered by Kirge Sternhorn, a tauren located at Camp Taurajo in the southern Barrens, just east of the mountain pass leading from Mulgore."
+   "answer": "Kirge Sternhorn, a tauren mystic at Camp Taurajo, sends travelers north. The camp lies in the southern Barrens, just east of the mountain pass from Mulgore."
   },
   {
    "q": "Where is Thork located?",
@@ -47,7 +47,7 @@
     "thork location",
     "find thork"
    ],
-   "answer": "Thork stands within the stockade walls of the Crossroads, the central Horde settlement in the Barrens situated north along the main road from Camp Taurajo."
+   "answer": "Thork is inside the stockade walls at the Crossroads, the Horde settlement in the central Barrens. It lies north of Camp Taurajo along the main road."
   },
   {
    "q": "Why does Kirge Sternhorn send travelers to the Crossroads?",
@@ -56,7 +56,7 @@
     "crossroads purpose",
     "why send me to orcs"
    ],
-   "answer": "Kirge senses that the adventurer is ready for greater trials and recognizes that the tauren and orcs now share a intertwined destiny. The orcish garrison at the Crossroads is under constant pressure from local threats and urgently needs capable allies."
+   "answer": "Kirge Sternhorn sees that a traveler is ready for greater trials and knows tauren and orcs now share an intertwined fate. The orcish garrison at the Crossroads faces constant pressure from local threats and needs capable allies."
   },
   {
    "q": "What is the Crossroads?",
@@ -65,7 +65,7 @@
     "crossroads settlement",
     "barrens hub"
    ],
-   "answer": "The Crossroads is the primary strategic hub and trading post for the Horde in central Kalimdor. Built where the major north-south and east-west trails intersect, it serves as the staging ground for stabilizing the wild frontier."
+   "answer": "The Crossroads is the Horde's main strategic hub and trading post in central Kalimdor. Major north-south and east-west trails meet there, and the settlement is a base for bringing order to the wild frontier."
   },
   {
    "q": "Do only tauren receive this task?",
@@ -73,7 +73,7 @@
     "is this quest tauren only",
     "horde breadcrumb"
    ],
-   "answer": "Yes. Kirge Sternhorn offers this journey only to tauren, welcoming kin who have come from as far as Thunder Bluff and sending them on to report to Thork."
+   "answer": "Yes. Kirge Sternhorn sends only tauren on this journey, welcoming kin from as far as Thunder Bluff and directing them to report to Thork."
   },
   {
    "q": "What threats await along the road to the Crossroads?",
@@ -81,21 +81,21 @@
     "is the road dangerous",
     "taurajo to crossroads path"
    ],
-   "answer": "The road north traverses arid plains populated by aggressive plainstriders, prowling savanna lions, and roaming bands of Razormane quilboar. Sticking to the beaten path helps travelers avoid the more territorial predators of the central savanna."
+   "answer": "The road north crosses dry plains where aggressive plainstriders, prowling savanna lions, and roaming bands of Razormane quilboar roam. Keeping to the beaten path helps travelers avoid the more territorial predators of the central savanna."
   }
  ],
  "angles": [
   {
    "target": "race:Tauren",
-   "text": "For tauren adventurers, this journey marks the true departure from the shelter of the Earthmother's sacred mesa into the broader struggles of the Horde."
+   "text": "As a tauren, you leave the shelter of the Earthmother's sacred mesa and enter the wider struggles of the Horde."
   },
   {
    "target": "race:Orc",
-   "text": "Thork is eager for reinforcements from the south to maintain the fragile hold Thrall's scouts have secured across the Barrens."
+   "text": "As an orc, you know Thork needs reinforcements from the south to hold the ground Thrall's scouts have secured across the Barrens."
   },
   {
    "target": "faction:Horde",
-   "text": "The quest highlights the deepening cooperation between the tribes of Thunder Bluff and the warchief's vanguard in central Kalimdor."
+   "text": "As a member of the Horde, you see cooperation grow between the tribes of Thunder Bluff and the warchief's vanguard in central Kalimdor."
   }
  ],
  "keywords": [
@@ -116,5 +116,6 @@
  ],
  "attribution": [
   "Journey to the Crossroads"
- ]
+ ],
+ "style": 1
 }

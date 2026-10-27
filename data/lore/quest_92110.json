@@ -1,0 +1,77 @@
+{
+ "key": "quest:92110",
+ "type": "quest",
+ "name": "My First Real Potion",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   92110
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "A child hidden away asks you to bring murloc eyes for her first real potion. She is eager to try mixing it herself.",
+ "sections": [
+  {
+   "title": "A First Attempt",
+   "body": "The child is excited when you return with the murloc eyes. While you were away, she gathered more herbs and found empty vials downstairs. She asks you to mix the ingredients this time, watching as the potion turns sickly orange when the eyes go in.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What does the child want?",
+   "aliases": [
+    "what she wants",
+    "child potion",
+    "potion ingredients"
+   ],
+   "answer": "The child wants murloc eyes for her first real potion, along with herbs and empty vials."
+  },
+  {
+   "q": "Who mixes the potion?",
+   "aliases": [
+    "who does the mixing",
+    "mix potion",
+    "potion maker"
+   ],
+   "answer": "You mix the potion while the child watches."
+  },
+  {
+   "q": "What color does the potion turn?",
+   "aliases": [
+    "potion color",
+    "orange potion",
+    "what does it look like"
+   ],
+   "answer": "The mixture turns sickly orange within seconds of adding the murloc eyes."
+  },
+  {
+   "q": "Does the child drink it?",
+   "aliases": [
+    "drink potion",
+    "would she drink it",
+    "is it safe"
+   ],
+   "answer": "No. The child says she would not drink the potion, but gives you her recipe."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "child",
+  "herbs",
+  "murloc eyes",
+  "my first real potion",
+  "orange potion",
+  "potion",
+  "vials"
+ ],
+ "related": [
+  "topic:murloc"
+ ],
+ "style": 1,
+ "attribution": [
+  "In-game quest text: My First Real Potion"
+ ]
+}

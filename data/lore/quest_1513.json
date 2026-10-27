@@ -26,21 +26,21 @@
    "The Binding (Succubus, Orgrimmar)"
   ]
  },
- "summary": "The Binding is the final trial in an aspiring Horde warlock's quest to enslave a succubus in Orgrimmar. By using the devotion bound up in Dogran's Pendant at Neeru Fireblade's summoning circle, the warlock wrenches a demon from the Twisting Nether and breaks its will through force of arms and spellcraft.",
+ "summary": "At Neeru Fireblade's circle in Orgrimmar, a warlock faces the trial of binding a succubus. Dogran's Pendant draws the demon from the Twisting Nether, where spellcraft and force of arms must break its will.",
  "sections": [
   {
    "title": "A Demon's Anchor",
-   "body": "To reach across realms and compel a succubus, a summoner requires an anchor\u2014a conduit attuned to the creature's particular nature. The pendant given up by the maimed orc Dogran serves this dark purpose. A keepsake of his love for Zankaja, carried through captivity and torment, the trinket carries the emotional resonance needed to bridge the Twisting Nether and seize a demon's attention.",
+   "body": "Dogran's Pendant binds memory to the summoning. The maimed orc gave it up, but it had been a keepsake of his love for Zankaja, carried through captivity and torment. That devotion gives the pendant the force to reach across realms, bridge the Twisting Nether, and seize a succubus's attention.",
    "spoiler": 1
   },
   {
    "title": "The Circle in the Shadows",
-   "body": "Beneath the clefts of Orgrimmar, deep within the tent of Neeru Fireblade, lies a summoning circle prepared for such hazardous work. Under the tutelage of Gan'rul Bloodeye, the warlock activates the rune-scribed circle and battles the summoned seductress. A warlock cannot simply call a demon into service; they must overpower it in single combat, bending its malevolent spirit to their sovereign will.",
+   "body": "Beneath the clefts of Orgrimmar, Neeru Fireblade keeps a tent with a circle prepared for dangerous rites. Under Gan'rul Bloodeye's guidance, you activate its runes and face the summoned succubus in battle. Calling a demon is only the beginning; you must overpower it alone and bend its spirit to your will.",
    "spoiler": 0
   },
   {
    "title": "Wiles and Willpower",
-   "body": "As Gan'rul warns, succubi are perilous thralls. While their presence intoxicates and tempts the senses, they steadily drain the vitality and spirit of careless masters. Gan'rul bids the warlock remember the sorrow of Dogran and Zankaja as a guard against the demon's wiles, for pride and overconfidence have overcome many a promising warlock. True mastery demands an unyielding will that never succumbs to the demon's allure.",
+   "body": "Gan'rul Bloodeye warns that succubi can make dangerous thralls. Their presence intoxicates and tempts the senses, while they drain the vitality and spirit of careless masters. He tells you to remember Dogran and Zankaja's sorrow, lest pride and overconfidence leave you open to the demon's wiles. Only an unyielding will can resist its allure.",
    "spoiler": 1
   }
  ],
@@ -52,7 +52,7 @@
     "what do you do in the binding",
     "succubus ritual"
    ],
-   "answer": "The warlock brings Dogran's Pendant into the summoning circle inside Neeru Fireblade's tent in the Cleft of Shadow. Using the devotion bound up in the talisman, the summoner calls forth a succubus from the Twisting Nether and battles it to submission to establish total dominion over the creature."
+   "answer": "You bring Dogran's Pendant to the circle inside Neeru Fireblade's tent in the Cleft of Shadow. Its devotion draws a succubus from the Twisting Nether, and you battle the demon until it submits to your will."
   },
   {
    "q": "Where does the summoning take place?",
@@ -61,7 +61,7 @@
     "summoning circle location",
     "where do i summon the succubus"
    ],
-   "answer": "The summoning takes place in the Cleft of Shadow in Orgrimmar, specifically within the tent of Neeru Fireblade, where a permanent ritual circle is inscribed into the floor."
+   "answer": "The summoning takes place in Neeru Fireblade's tent in the Cleft of Shadow, beneath Orgrimmar. A ritual circle is inscribed in the floor."
   },
   {
    "q": "Who was Dogran and why is his pendant needed?",
@@ -70,7 +70,7 @@
     "why dograns pendant",
     "dogran story"
    ],
-   "answer": "Dogran was a Horde grunt captured and maimed by the quilboar in the Barrens. His pendant, a keepsake tied to his beloved Zankaja, serves as the essential focal point needed to lure and anchor a succubus."
+   "answer": "Dogran was a Horde grunt captured and maimed by quilboar in the Barrens. His pendant, a keepsake of his beloved Zankaja, draws and anchors a succubus."
   },
   {
    "q": "Who is Gan'rul Bloodeye?",
@@ -79,7 +79,7 @@
     "who is ganrul",
     "ganrul bloodeye role"
    ],
-   "answer": "Gan'rul Bloodeye is a senior warlock trainer residing in the Cleft of Shadow beneath Orgrimmar. He mentors rising practitioners of the dark arts and guides them through the perilous rites of demon subjugation."
+   "answer": "Gan'rul Bloodeye is a senior warlock trainer in the Cleft of Shadow beneath Orgrimmar. He mentors rising warlocks and guides them through rites of demon subjugation."
   },
   {
    "q": "What power does a warlock gain upon completing this trial?",
@@ -88,7 +88,7 @@
     "why summon succubus",
     "succubus pet ability"
    ],
-   "answer": "Subduing the creature completes the warlock's training, granting them the secret knowledge and runic mastery required to summon a succubus minion into service at any time."
+   "answer": "Subduing the succubus completes a warlock's training and grants the knowledge and runic mastery to summon one into service at any time."
   },
   {
    "q": "Why is summoning a succubus considered especially dangerous?",
@@ -97,21 +97,21 @@
     "why are succubi risky",
     "succubus lore"
    ],
-   "answer": "Succubi wield powerful charms and manipulate the desires of mortals. Overconfident warlocks risk having their souls slowly siphoned away, succumbing to the demon's subtle guile rather than commanding it."
+   "answer": "Succubi charm mortals and play on their desires. An overconfident warlock risks having their soul slowly siphoned away, until the demon's guile overcomes their command."
   }
  ],
  "angles": [
   {
    "target": "class:Warlock",
-   "text": "This rite marks a warlock's transition into commanding cunning, disruptive demons, proving that personal willpower can dominate the seductive perils of the Nether."
+   "text": "As a warlock, you prove your will can master the cunning, disruptive demons of the Nether and withstand their seductive perils."
   },
   {
    "target": "faction:Horde",
-   "text": "Conducted in secret within the Cleft of Shadow, the ritual highlights the uneasy tolerance Thrall's Horde extends to demonic practitioners hidden away from the city's honor-bound populace."
+   "text": "As a member of the Horde, you see how the faction tolerates demonic practitioners in secret within the Cleft of Shadow, away from the city's honor-bound populace."
   },
   {
    "target": "race:Orc",
-   "text": "For orcs, dealing with demonic entities carries the bitter weight of their people's past corruption, making the discipline and control demanded by Gan'rul especially poignant."
+   "text": "As an orc, you carry the bitter weight of your people's past corruption when dealing with demons. Gan'rul's demand for discipline and control bears that history."
   }
  ],
  "keywords": [
@@ -138,5 +138,6 @@
  ],
  "attribution": [
   "The Binding (Succubus, Orgrimmar)"
- ]
+ ],
+ "style": 1
 }

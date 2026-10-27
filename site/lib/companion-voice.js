@@ -178,10 +178,10 @@ const FIRST_FIVE = ["sprite", "sunbeam", "moonwell", "fenlight", "starling"];
 // Inworld clone (character-voices.js inworld), its studio voice a Chatterbox clone of the same reference, here
 // (~/lore-voice-renders/experiments/willo-voice/azeroth.py); HOSTED_VOICES by the slot's name replaces either.
 export const AZEROTH_STUDIO = {
-  "dwarf-female": "6ehpzvsatxh68puj8zpj", "dwarf-male": "al479rk4wzxum85mjmho", "forsaken-female": "p56dz8d9cop6d1vcqlim",
+  "dwarf-female": "6ehpzvsatxh68puj8zpj", "dwarf-male": "wtu5t6afil83k17k3hd0", "forsaken-female": "p56dz8d9cop6d1vcqlim",
   "forsaken-male": "m37sh5db0aw8v70ot59w", "gnome-female": "nqp4j1122ziuhncoe06c", "gnome-male": "y0r8r1e4eba0uka3mwv1",
   "goblin-female": "ri3plic4681fapq5r097", "goblin-male": "0hztttmrhtlb8bq3pow6", "highelf-female": "0257e3ifx42ghq5j1bo8",
-  "highelf-male": "zds5q3ot7g3grpug47ap", "human-female": "bpbq49k6rdxtxqvdmub0", "human-male": "hv2ffug7hb8r2d2ha22l",
+  "highelf-male": "zds5q3ot7g3grpug47ap", "human-female": "bpbq49k6rdxtxqvdmub0", "human-male": "faragfrzkhicjzekjvh7",
   "nightelf-female": "x9kpm8tny2yedjaiquay", "nightelf-male": "qy47s0jonl1kbd3eo8yq", "orc-female": "jof7in80gcv3n9t7kw0p",
   "orc-male": "k275zcoo9107rf43jtxf", "skyborne-female": "3iaymnan1zj4ldxj9rcj", "skyborne-male": "3byfsilqgwivdbxrt4qe",
   "tauren-female": "1zs5jnu59ws84c9uu44x", "tauren-male": "6bbl2x6amrzmu9dm3y0g", "troll-female": "8uzpdu2eira3gxiptfbu",

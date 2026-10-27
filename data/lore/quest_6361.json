@@ -17,16 +17,16 @@
   "wiki": "A Bundle of Hides (Classic)",
   "chain": []
  },
- "summary": "A Bundle of Hides is an introductory delivery task in the Barrens given by the tauren Jahan Hawkwing at the Crossroads. He asks travelers to take cured game pelts across central Kalimdor to Thunder Bluff for leatherworking. The errand serves to introduce new Horde couriers to the Crossroads wind rider roost and the mechanics of flight transport.",
+ "summary": "Jahan Hawkwing sends cured hides from the Crossroads to Thunder Bluff for leatherworking. The delivery takes you across central Kalimdor and introduces the Crossroads wind rider roost.",
  "sections": [
   {
    "title": "Trade Across the Savanna",
-   "body": "The Crossroads is the bustling heart of commerce and travel throughout the Barrens, connecting orcs, trolls, and tauren across the arid plains. Hunters constantly harvest hides and meat from the savanna's roaming beasts, but local outposts lack the facilities to process every raw material on site. Jahan Hawkwing gathers pelts from regional hunts and relies on passing travelers to route them west to Thunder Bluff, where master leatherworkers can craft vital gear for the Horde.",
+   "body": "Hunters bring game hides and meat to the Crossroads, where Jahan Hawkwing gathers pelts from across the Barrens. The outposts cannot process every raw hide, so he asks travelers to carry them west to Thunder Bluff. Master leatherworkers there can turn the pelts into gear for the Horde.",
    "spoiler": 0
   },
   {
    "title": "Taking to the Skies",
-   "body": "Carrying heavy cargo across the rugged trails of the Barrens and up into Mulgore on foot is a grueling journey exposed to quilboar ambushes and predators. To expedite trade, Jahan directs couriers straight to Devrak, the Crossroads' wind rider master. Entrusting goods to Devrak and taking wing aboard a trained wyvern demonstrates the vital logistical network tying the Horde's scattered settlements together.",
+   "body": "The trail across the Barrens and into Mulgore is rough, and quilboar and predators threaten anyone carrying cargo on foot. Jahan sends you to Devrak, the Crossroads wind rider master. He can take the goods by air aboard a trained wyvern, linking the Horde’s scattered settlements.",
    "spoiler": 0
   }
  ],
@@ -38,7 +38,7 @@
     "who starts a bundle of hides",
     "where to get bundle of hides"
    ],
-   "answer": "Jahan Hawkwing, a tauren located at the Crossroads in the Barrens, offers the quest. He has collected hides from local fauna and seeks a reliable courier to help move them toward Thunder Bluff."
+   "answer": "Jahan Hawkwing, a tauren at the Crossroads in the Barrens, gives you the hides to carry. He has gathered pelts from local beasts and needs a reliable courier to take them toward Thunder Bluff."
   },
   {
    "q": "Who should I bring the bundle of hides to?",
@@ -47,7 +47,7 @@
     "where to take hides",
     "who do i talk to"
    ],
-   "answer": "You need to take the bundle directly to Devrak, the orc wind rider master stationed at the Crossroads perch. He handles aerial transit between the Crossroads and other major Horde hubs."
+   "answer": "Bring the bundle to Devrak, the orc wind rider master at the Crossroads perch. He handles air travel between the Crossroads and other major Horde hubs."
   },
   {
    "q": "What happens after giving the hides to Devrak?",
@@ -56,7 +56,7 @@
     "what after a bundle of hides",
     "follow up quest"
    ],
-   "answer": "Devrak offers a follow-up task instructing you to mount a wind rider and fly the cargo straight to Ahanu, a leatherworker waiting atop the high bluffs of Thunder Bluff."
+   "answer": "After you give Devrak the hides, he asks you to take a wind rider and fly the cargo to Ahanu, the leatherworker atop Thunder Bluff’s high bluffs."
   },
   {
    "q": "Why are these hides being sent to Thunder Bluff?",
@@ -65,7 +65,7 @@
     "ahanu hides",
     "what are hides for"
    ],
-   "answer": "Jahan Hawkwing works with a colleague named Ahanu in Thunder Bluff, who turns the raw pelts of Barrens game into finished leather armor and goods for the tauren and their Horde allies."
+   "answer": "Jahan Hawkwing works with Ahanu in Thunder Bluff, who turns pelts from Barrens game into leather armor and goods for the tauren and their Horde allies."
   },
   {
    "q": "Why use a wind rider instead of walking?",
@@ -73,7 +73,7 @@
     "why fly to thunder bluff",
     "wind rider travel"
    ],
-   "answer": "Traveling on foot across the expanse of the Barrens and climbing the massive mesa of Thunder Bluff is dangerous and slow. A wind rider offers swift, safe transit above hostile savanna wildlife and quilboar packs."
+   "answer": "Walking across the Barrens and climbing Thunder Bluff’s great mesa takes time and risks danger from wildlife and quilboar packs. A wind rider carries you swiftly above them."
   },
   {
    "q": "Does this require prior flight master experience?",
@@ -81,17 +81,17 @@
     "flight path requirement",
     "do i need flight path"
    ],
-   "answer": "This quest is intended as an early introduction to the flight master system for Horde adventurers, familiarizing you with Devrak's roost so you can utilize wind riders for long-distance regional travel."
+   "answer": "You can learn to use the flight master system on this early delivery. Devrak’s roost shows you how wind riders connect distant regions."
   }
  ],
  "angles": [
   {
    "target": "race:Tauren",
-   "text": "For tauren travelers, this errand represents the ongoing partnership between wandering hunters in the ancestral Barrens and the craftsmen established on the great mesas of Thunder Bluff."
+   "text": "As a tauren traveler, you carry hides between hunters in the ancestral Barrens and craftsmen on Thunder Bluff’s great mesas."
   },
   {
    "target": "faction:Horde",
-   "text": "The delivery highlights the logistics linking Kalimdor's Horde bases, relying on orcish beast masters like Devrak to bridge the physical distances between allied territories."
+   "text": "As a member of the Horde, you rely on links between Kalimdor’s bases. Orcish beast masters like Devrak help bridge the distance between allied territories."
   }
  ],
  "keywords": [
@@ -116,5 +116,6 @@
  ],
  "attribution": [
   "A Bundle of Hides (Classic)"
- ]
+ ],
+ "style": 1
 }

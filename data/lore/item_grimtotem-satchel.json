@@ -10,16 +10,16 @@
    "quest:5724"
   ]
  },
- "summary": "The Grimtotem Satchel is a leather pouch clutched by the fallen tauren Maur Grimtotem deep inside Ragefire Chasm. Even as troggs overwhelmed him in the subterranean cavern beneath Orgrimmar, Maur shielded this pack with his dying breath. Recovering it and returning it to Thunder Bluff reveals that Elder Crone Magatha Grimtotem had an active interest in whatever her clansman carried.",
+ "summary": "Deep beneath Orgrimmar, Grimtotem Satchel remains in Maur Grimtotem’s grasp. Troggs killed the tauren in Ragefire Chasm, but he shielded the pouch as he died. Its return to Thunder Bluff brings Magatha Grimtotem’s interest to light.",
  "sections": [
   {
    "title": "A Dying Grip",
-   "body": "Discovered beneath the broken body of Maur Grimtotem in the depths of Ragefire Chasm, this simple pack was held in a fierce, vice-like embrace. Maur fought desperately to protect whatever it contains while surrounded and slain by savage troggs. The sheer determination required to shield a satchel above one's own life suggests its contents are far more significant than ordinary trail rations or supplies.",
+   "body": "Maur Grimtotem fell to troggs deep inside Ragefire Chasm, beneath Orgrimmar. The tauren still clutched the simple leather pack when his body was found. He had fought to protect it while the troggs surrounded him. What could it hold that made him guard it with his life?",
    "spoiler": 0
   },
   {
    "title": "The Elder Crone's Interest",
-   "body": "Upon carrying the satchel to Rahauro on the Elder Rise in Thunder Bluff, the greater mystery unfurls. Rahauro accepts the pack on behalf of Magatha Grimtotem, the matriarch of the Grimtotem clan. Maur was Magatha's servant, and word had reached her that he found something peculiar in the caverns below Orgrimmar before he died; Magatha specifically arranged rewards for its safe return, demonstrating that the Grimtotem leadership had deliberate, covert stakes in the trogg-infested chasm.",
+   "body": "Rahauro on the Elder Rise in Thunder Bluff accepts the satchel for Magatha Grimtotem, matriarch of the Grimtotem clan. Maur served Magatha, and word had reached her that he found something peculiar in the caverns beneath Orgrimmar before he died. She arranged a reward for the pack’s safe return. The Grimtotem leader had a clear interest in what Maur found.",
    "spoiler": 1
   }
  ],
@@ -31,7 +31,7 @@
     "where is the satchel",
     "how to find satchel"
    ],
-   "answer": "The satchel is discovered deep inside Ragefire Chasm, the volcanic cavern beneath Orgrimmar. It lies tucked under the corpse of Maur Grimtotem, pinned in his arms where he fell to the cavern's troggs."
+   "answer": "The Grimtotem Satchel was found beneath Maur Grimtotem’s body, deep inside Ragefire Chasm, the volcanic cavern beneath Orgrimmar. His arms still held it where troggs killed him."
   },
   {
    "q": "Who does the satchel belong to?",
@@ -39,7 +39,7 @@
     "who owns the satchel",
     "maur satchel owner"
    ],
-   "answer": "It belonged to Maur Grimtotem, a member of the Grimtotem clan who ventured into Ragefire Chasm. Even in death, his arms remained tightly wrapped around the pack to protect its contents from the attacking troggs."
+   "answer": "The satchel belonged to Maur Grimtotem, a member of the Grimtotem clan who entered Ragefire Chasm. He held it close as troggs attacked."
   },
   {
    "q": "Who wants the satchel returned?",
@@ -48,7 +48,7 @@
     "who turns in satchel",
     "who wants grimtotem satchel"
    ],
-   "answer": "The satchel is delivered to Rahauro on the Elder Rise in Thunder Bluff. Rahauro accepts it under the direct orders of Magatha Grimtotem, who arranged a reward for anyone who recovered her fallen clansman's belongings."
+   "answer": "Rahauro on the Elder Rise in Thunder Bluff accepts the satchel for Magatha Grimtotem. Magatha arranged a reward for the return of her fallen clansman’s belongings."
   },
   {
    "q": "Why was a Grimtotem carrying this under Orgrimmar?",
@@ -56,7 +56,7 @@
     "why was maur in ragefire",
     "what was the grimtotem doing in orgrimmar"
    ],
-   "answer": "Maur Grimtotem was a servant of Magatha Grimtotem, who had taken an interest in Ragefire Chasm. He went into the chasm to speak with the troggs and found something peculiar there, but he never made it out to show her what."
+   "answer": "Maur Grimtotem served Magatha Grimtotem, who took an interest in Ragefire Chasm. He went there to speak with the troggs and found something peculiar, but died before he could show it to her."
   },
   {
    "q": "What is inside the satchel?",
@@ -64,17 +64,17 @@
     "satchel contents",
     "what is in the bag"
    ],
-   "answer": "The exact contents inside the pouch are kept sealed and are handed directly to Rahauro in Thunder Bluff. Magatha hopes it holds signs of the peculiar thing Maur found in the chasm."
+   "answer": "The pouch’s contents remain sealed when Rahauro receives it in Thunder Bluff. Magatha hopes it holds signs of the peculiar thing Maur found in the chasm."
   }
  ],
  "angles": [
   {
    "target": "race:Tauren",
-   "text": "Finding a Grimtotem operating deep beneath Orgrimmar and reporting back to Magatha on the Elder Rise highlights the subtle, uneasy political maneuvers of the Grimtotem within the united tauren tribes."
+   "text": "A Grimtotem went deep beneath Orgrimmar, then word of what he found reached Magatha on the Elder Rise. The clan’s moves within the united tauren tribes are quiet and uneasy."
   },
   {
    "target": "faction:Horde",
-   "text": "The discovery of a dead Grimtotem courier deep in the tunnels beneath Thrall's capital shows that the perils of Ragefire Chasm extend far beyond simple beast infestations."
+   "text": "A dead Grimtotem courier lay deep in the tunnels beneath Thrall’s capital. Ragefire Chasm holds dangers beyond its beasts."
   }
  ],
  "keywords": [
@@ -101,5 +101,6 @@
  "attribution": [
   "Grimtotem Satchel",
   "Returning the Lost Satchel"
- ]
+ ],
+ "style": 1
 }

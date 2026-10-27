@@ -10,16 +10,16 @@
    "quest:982"
   ]
  },
- "summary": "Mist Veil's Lockbox is a sturdy strongbox resting in the submerged wreckage of the night elven vessel Mist Veil off the coast of Darkshore. It holds the captain's log and personal effects, which were lost when the ship was ambushed and sunk by coastal murlocs.",
+ "summary": "Off Darkshore, Mist Veil's Lockbox lies in the sunken night elven vessel. It holds the captain's log and personal effects, lost when coastal murlocs ambushed and sank the ship.",
  "sections": [
   {
    "title": "Lost to the Depths",
-   "body": "The night elven vessel Mist Veil met its end while sailing the treacherous coastal waters toward Auberdine. Ambushed by hostile murlocs alongside its sister ship, the Silver Dawning, the vessel was overwhelmed and sent to the ocean floor. Its captain perished during the attack, leaving behind their logbook and prized personal belongings sealed inside this lockbox. Resting in the flooded hold, the chest remains a grim trophy surrounded by the very creatures responsible for the catastrophe.",
+   "body": "The night elven vessel Mist Veil sank while sailing toward Auberdine. Coastal murlocs ambushed it alongside its sister ship, the Silver Dawning, and overwhelmed both vessels. The captain perished in the attack. Their logbook and personal belongings remain sealed in the lockbox in the flooded hold, surrounded by murlocs.",
    "spoiler": 0
   },
   {
    "title": "Rest for the Crew",
-   "body": "For the surviving sailors who managed to reach Auberdine, the loss of their vessel and commander remains an open wound. Gorbold Steelhand seeks the recovery of the Mist Veil's Lockbox so the captain's final effects can be properly honored and laid to rest. Braving the flooded ruins to salvage the chest offers some measure of solace to the grief-stricken survivors stranded on the mainland.",
+   "body": "Surviving sailors reached Auberdine, but the loss of their vessel and commander still grieves them. Gorbold Steelhand seeks Mist Veil's Lockbox so the captain's final effects can be honored and laid to rest. Recovering it from the flooded wreck may bring some solace to the survivors on the mainland.",
    "spoiler": 0
   }
  ],
@@ -31,7 +31,7 @@
     "what does the lockbox hold",
     "what is in the box"
    ],
-   "answer": "The lockbox contains the captain's log and personal effects. The captain perished when the ship sank, and the surviving crew in Auberdine wish to have these mementos returned to honor their fallen leader."
+   "answer": "Mist Veil's Lockbox holds the captain's log and personal effects. The captain perished when the ship sank, and the surviving crew in Auberdine want these mementos returned to honor their fallen leader."
   },
   {
    "q": "How did the Mist Veil sink?",
@@ -40,7 +40,7 @@
     "who sank mist veil",
     "what happened to the mist veil"
    ],
-   "answer": "The Mist Veil was ambushed by coastal murlocs while navigating the waters toward Auberdine. Overwhelmed by the creatures, the ship foundered and sank to the seabed alongside its companion vessel, the Silver Dawning."
+   "answer": "Coastal murlocs ambushed Mist Veil while it sailed toward Auberdine. They overwhelmed the ship, which sank alongside its sister vessel, the Silver Dawning."
   },
   {
    "q": "Where is the lockbox found?",
@@ -49,7 +49,7 @@
     "mist veil location",
     "lockbox location"
    ],
-   "answer": "It is located underwater off the coast of Darkshore, north of Auberdine. The strongbox rests inside the flooded hull of the sunken Mist Veil wreckage, which is heavily infested with murlocs."
+   "answer": "The lockbox lies underwater off Darkshore, north of Auberdine, in the flooded hull of the sunken Mist Veil. Murlocs fill the wreck."
   },
   {
    "q": "Who wants the lockbox recovered?",
@@ -58,17 +58,17 @@
     "who gives the quest",
     "gorbold lockbox quest"
    ],
-   "answer": "Gorbold Steelhand in Auberdine seeks the lockbox on behalf of the surviving crew members, hoping to bring closure and peace to the fallen captain's memory."
+   "answer": "Gorbold Steelhand in Auberdine seeks the lockbox for the surviving crew, hoping to honor the fallen captain and bring them peace."
   }
  ],
  "angles": [
   {
    "target": "race:NightElf",
-   "text": "The fallen captain was an esteemed night elf mariner, and securing their logbook helps put a respected spirit to rest in the waters off Darkshore."
+   "text": "As a night elf, you can help return the fallen captain's logbook and lay their spirit to rest in the waters off Darkshore."
   },
   {
    "target": "faction:Alliance",
-   "text": "Recovering this box honors the fallen crew and aids the struggling maritime community stationed at Auberdine."
+   "text": "As an Alliance member, you can honor the fallen crew and help the maritime community in Auberdine."
   }
  ],
  "keywords": [
@@ -92,5 +92,6 @@
  "attribution": [
   "Mist Veil's Lockbox",
   "Deep Ocean, Vast Sea"
- ]
+ ],
+ "style": 1
 }

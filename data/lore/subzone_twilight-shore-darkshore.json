@@ -7,11 +7,11 @@
  "meta": {
   "wiki": "Twilight Shore (Darkshore)"
  },
- "summary": "The Twilight Shore is a rugged stretch of coast in southern Darkshore, running south from the Long Wash down to the border of Ashenvale. Its gloomy, mist-laden beaches are interrupted by jutting sea cliffs, offshore islets, and treacherous surf. The area is infested with aggressive murloc tribes and ravenous aquatic predators like threshadons.",
+ "summary": "Murloc tribes and hungry sea creatures crowd the Twilight Shore in southern Darkshore. The rugged coast runs from the Long Wash to Ashenvale, where misty beaches meet cliffs, islets, and dangerous surf.",
  "sections": [
   {
    "title": "A Treacherous Coastline",
-   "body": "Stretching south of the Long Wash past the ruins of Ameth'Aran toward Ashenvale, the Twilight Shore is among the most rugged and inhospitable parts of Darkshore's coastline. Gray sand gives way to sharp, wave-battered cliffs and scattered rocky islands. The waters here are notoriously hostile; swimming off the coast invites attacks from territorial threshadons and sea crawlers, while the beaches themselves are dominated by thriving camps of aggressive murlocs.",
+   "body": "The Twilight Shore runs south from the Long Wash, past Ameth'Aran's ruins, toward Ashenvale. Gray beaches give way to sharp cliffs and rocky islands. Threshadons and sea crawlers prowl the waters, while aggressive murloc camps line the shore.",
    "spoiler": 0
   }
  ],
@@ -23,7 +23,7 @@
     "where is twilight shore",
     "twilight shore map"
    ],
-   "answer": "It encompasses the southernmost coastal strip of Darkshore, beginning south of the Long Wash (roughly west of the ancient ruins of Ameth'Aran) and continuing southward until reaching the rocky borders of Ashenvale."
+   "answer": "The Twilight Shore runs along Darkshore's southern coast, beginning south of the Long Wash, roughly west of Ameth'Aran's ruins, and reaching the rocky border of Ashenvale."
   },
   {
    "q": "What threats can be found along the Twilight Shore?",
@@ -32,7 +32,7 @@
     "dangers at twilight shore",
     "what is at twilight shore"
    ],
-   "answer": "The shoreline is heavily settled by aggressive murloc tribes, while the surrounding cold surf is home to territorial threshadons, lurkers, and giant crabs that prey upon unwary travelers."
+   "answer": "Aggressive murloc tribes crowd the shore. In the cold surf, threshadons, lurkers, and giant crabs prey on unwary travelers."
   },
   {
    "q": "Why is the terrain so rugged here?",
@@ -40,13 +40,13 @@
     "why are there cliffs",
     "twilight shore geography"
    ],
-   "answer": "Unlike the flatter, expansive beaches farther north, the Twilight Shore is fragmented by sharp sea cliffs, rocky shoals, and small offshore islands shaped by the relentless pounding of the Veiled Sea."
+   "answer": "The Veiled Sea's relentless pounding has broken the coast into sharp cliffs, rocky shoals, and small offshore islands. Farther north, the beaches are flatter and more open."
   }
  ],
  "angles": [
   {
    "target": "race:NightElf",
-   "text": "The Twilight Shore marks the lonely, mist-shrouded threshold between the haunted ruins of Darkshore and the sacred ancestral forests of Ashenvale."
+   "text": "As a night elf, you reach the lonely, mist-shrouded border between Darkshore's haunted ruins and Ashenvale's ancestral forests."
   }
  ],
  "keywords": [
@@ -67,5 +67,6 @@
  ],
  "attribution": [
   "Twilight Shore (Darkshore)"
- ]
+ ],
+ "style": 1
 }

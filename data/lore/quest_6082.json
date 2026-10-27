@@ -23,16 +23,16 @@
    "Training the Beast (Orc and Troll)"
   ]
  },
- "summary": "This quest marks the final trial in a young Horde hunter's basic rites of passage in Durotar. Guided by the veteran hunter Thotar in Razor Hill, an aspiring tracker must confront and tame a dangerous armored scorpid. Conquering this armored predator proves mastery over wild beasts and unlocks the lifelong ability to tame, call, and dismiss a true companion.",
+ "summary": "In Durotar, Taming the Beast tests a young Horde hunter's skill with wild creatures. Thotar in Razor Hill guides the hunter through one last trial: taming a dangerous armored scorpid. Success brings the ability to tame, call, and dismiss a lasting companion.",
  "sections": [
   {
    "title": "The Final Trial",
-   "body": "Before a hunter is permitted to roam Kalimdor with a loyal animal companion, they must prove they can command the harshest wildlife Durotar has to offer. Razor Hill's hunter trainer, Thotar, sends trainees to subdue three distinct creatures with an enchanted taming rod. Having previously tested their mettle against dire boars and swift surf crawlers, hunters are tasked with facing the armored scorpid\u2014a venomous, heavily plated predator that embodies resilience and lethal speed.",
+   "body": "Before a hunter can travel Kalimdor with an animal companion, they must prove they can command Durotar's harsh wildlife. Thotar, the hunter trainer in Razor Hill, sends trainees to subdue three kinds of creature with an enchanted taming rod. After facing dire boars and swift surf crawlers, they must now tame an armored scorpid, a venomous predator protected by heavy plates and known for resilience and speed.",
    "spoiler": 0
   },
   {
    "title": "Bonding with the Wild",
-   "body": "Subduing an armored scorpid is not an act of mere slaughter, but a demonstration of focus and dominance while under relentless assault. Thotar urges hunters to emulate the beast's quick, confident strikes. Returning to Razor Hill after successfully charming the venomous arachnid proves that the hunter possesses the calm will necessary to maintain control. With the taming rod returned, Thotar imparts the innate techniques of the wild, allowing the hunter to seek out and bind a permanent companion of their own choosing.",
+   "body": "Taming an armored scorpid tests a hunter's focus and control under attack, not their skill at killing. Thotar urges hunters to match the beast's quick, confident strikes. Once the hunter has charmed the scorpid, they return to Razor Hill and give the taming rod back to Thotar. That return completes the trial, and Thotar then teaches the wild's innate techniques, letting the hunter seek out and bind a permanent companion of their choosing.",
    "spoiler": 0
   }
  ],
@@ -44,7 +44,7 @@
     "target beast",
     "scorpid quest"
    ],
-   "answer": "You must seek out an armored scorpid roaming the arid red crags of Durotar and use Thotar's taming rod to pacify and control it."
+   "answer": "For this trial, tame an armored scorpid with Thotar's taming rod. The creature roams Durotar's arid red crags."
   },
   {
    "q": "Do I get to keep the armored scorpid after finishing the quest?",
@@ -53,7 +53,7 @@
     "do i keep the pet",
     "scorpid permanent"
    ],
-   "answer": "No. The armored scorpid tamed during the trial is temporary and vanishes once the training rod is handed back. Completing the task, however, teaches you the permanent ability to tame whichever wild beast you desire."
+   "answer": "No. The armored scorpid is only a temporary companion and vanishes when you return the taming rod. Completing the trial teaches you to tame the wild beast of your choice permanently."
   },
   {
    "q": "Who initiates this rite of passage?",
@@ -62,7 +62,7 @@
     "who gives taming the beast",
     "thotar location"
    ],
-   "answer": "Thotar, the hunter trainer situated in Razor Hill within central Durotar, oversees this rite of passage for young orc and troll hunters."
+   "answer": "Thotar, the hunter trainer in Razor Hill in central Durotar, oversees this rite for young orc and troll hunters."
   },
   {
    "q": "Why does Thotar want hunters to tame an armored scorpid specifically?",
@@ -70,7 +70,7 @@
     "why scorpid",
     "purpose of scorpid"
    ],
-   "answer": "Thotar considers the armored scorpid an ideal creature to emulate due to its confident, swift strikes and natural resilience. Mastering such a dangerous predator proves a hunter is ready to command any beast in the wild."
+   "answer": "Thotar sees the armored scorpid as a model for its confident, swift strikes and resilience. Taming such a dangerous predator proves a hunter can command wild beasts."
   },
   {
    "q": "What skills do you learn upon completing this quest?",
@@ -79,7 +79,7 @@
     "what spells do i get",
     "taming skills unlocked"
    ],
-   "answer": "Completing this trial grants the foundational abilities of a seasoned beast master: Tame Beast, Call Pet, and Dismiss Pet."
+   "answer": "You learn Tame Beast, Call Pet, and Dismiss Pet."
   },
   {
    "q": "What comes after this trial?",
@@ -88,25 +88,25 @@
     "what's next",
     "after taming 3"
    ],
-   "answer": "Once you have learned how to tame and call your own companion, Thotar directs you toward training that pet, sending you on the follow-up quest 'Training the Beast' to master feeding and commanding your ally."
+   "answer": "After learning to tame and call a companion, you can follow Thotar's direction to Training the Beast, where you learn to feed and command your ally."
   }
  ],
  "angles": [
   {
    "target": "class:Hunter",
-   "text": "This rite of passage is the defining milestone of a hunter's early journey, granting permanent access to the core techniques of taming, calling, and commanding animal companions."
+   "text": "As a hunter, this rite marks an early milestone and grants you the core skills to tame, call, and command animal companions."
   },
   {
    "target": "faction:Horde",
-   "text": "Orc and troll youths in Durotar must survive the barren land's most vicious predators to earn their place as true scouts and providers for the Horde."
+   "text": "As a Horde youth in Durotar, you face its harshest predators to earn a place among the faction's scouts and providers."
   },
   {
    "target": "race:Orc",
-   "text": "Subduing Durotar's scorpids honors the orcish philosophy of overcoming harsh terrain through unyielding willpower and martial discipline."
+   "text": "As an orc, subduing Durotar's scorpids honors the belief that harsh terrain is overcome through unyielding will and martial discipline."
   },
   {
    "target": "race:Troll",
-   "text": "Darkspear hunters draw upon their keen instincts and deep connection to wild spirits to pacify venomous predators that would strike others down."
+   "text": "As a troll, you draw on keen instincts and a deep bond with wild spirits to pacify venomous predators that could strike others down."
   }
  ],
  "keywords": [
@@ -130,5 +130,6 @@
  ],
  "attribution": [
   "Taming the Beast (Orc and Troll 3)"
- ]
+ ],
+ "style": 1
 }

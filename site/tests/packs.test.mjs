@@ -1,4 +1,4 @@
-// What each pack holds (LOR-437, lib/packs.js): /downloads' "Comes with it", extra-pack tiles and "Your language", and
+// What each pack holds (LOR-437, lib/packs.js): /downloads' bundle cards and every file (LOR-848, lib/bundles.js), and
 // the lore pages' "Hear it in game", from the generated public/data/packs.json and pack-entries.json (pipeline/lore/site_packs.py), with R2 in
 // memory. Run: node --test 'site/tests/*.test.mjs'
 
@@ -8,7 +8,8 @@ import { readFileSync, existsSync } from "node:fs";
 import { join } from "node:path";
 import { SITE, r2 } from "./helpers.mjs";
 import { MANIFEST_KEY } from "../lib/lore.js";
-import { visiblePacks, packPlays } from "../lib/packs.js";
+import { visiblePacks, packPlays, anchorOf } from "../lib/packs.js";
+import { SETUP_PICKS_AFTER } from "../lib/bundles.js";
 import { onRequestGet as downloadsGet } from "../functions/downloads/index.js";
 import { onRequestGet as entryGet } from "../functions/lore/[type]/[id].js";
 import { onRequestGet as indexGet } from "../functions/lore/index.js";
@@ -16,7 +17,6 @@ import { onRequestGet as indexGet } from "../functions/lore/index.js";
 const PUBLIC = join(SITE, "public");
 const HOME = "https://loreforeverwow.com";
 const packs = JSON.parse(readFileSync(join(PUBLIC, "data/packs.json"), "utf8"));
-const examples = packs.groups.flatMap(g => g.examples).filter(ex => ex.audio);
 
 // ASSETS serving public/, with some files replaced ({path: json}).
 const assets = (over = {}) => ({ async fetch(url) {
@@ -33,28 +33,57 @@ async function bucketWith(keys) {
 const downloads = async env => (await downloadsGet({ request: new Request(HOME + "/downloads"), env })).text();
 const ids = html => new Set([...html.matchAll(/\sid="([^"]+)"/g)].map(m => m[1]));
 
-test("/downloads: what comes with it, a tile per extra pack, each language's packs together, and an example plays only once R2 has it", async () => {
-  const [inR2, notYet] = examples;
-  const html = await downloads({ ASSETS: assets(), STUDIO: await bucketWith([inR2.audio]) });
-  assert.match(html, /Comes with it/);
-  assert.match(html, /Add more, if you like/);
-  // A card for every group with a pack that's out (the original male narrator's stay "soon" until a release has them).
+// The catalog /downloads draws its cards from (LOR-848), as the page carries it for /js/downloads.js.
+const catalogOf = html => JSON.parse(/<script type="application\/json" id="bx-catalog">([\s\S]*?)<\/script>/.exec(html)[1]);
+
+test("/downloads: each language's add-on card gets that language's narrator, the Windows button says the pick, and the original male narrator and text-only choices are nowhere", async () => {
+  const html = await downloads({ ASSETS: assets(), STUDIO: await bucketWith([]) });
+  const cat = catalogOf(html);
+  // Every narration the release has, by language and narrator, from packs.json: each is that language's narrator on
+  // its add-on card, which downloads its ZIP and opens its CurseForge project.
   const voices = JSON.parse(readFileSync(join(PUBLIC, "voices/voices.json"), "utf8")).voices;
   const out = visiblePacks(packs, voices, JSON.parse(readFileSync(join(PUBLIC, "translate/packs.json"), "utf8")).packs);
-  for (const g of packs.groups) {
-    if (g.packs.some(f => out.has(f))) assert.ok(ids(html).has(`packs-${g.id}`), `card ${g.id}`);
+  const narrations = Object.entries(packs.packs).filter(([f, p]) => /^LoreForever_Voice_(Default|Female)_[a-z]{2}[A-Z]{2}$/.test(f)
+    && p.group !== "community" && out.has(f));
+  assert.ok(narrations.length >= 8, "the release has narration in several languages");
+  for (const [folder, p] of narrations) {
+    const lang = cat.langs.find(l => l.locale === p.locale), who = folder.includes("_Female_") ? "female" : "male";
+    assert.ok(lang, `${p.locale} is in the bar`);
+    const card = lang.narrators.find(n => n.id === who)?.cards.addon;
+    assert.ok(card?.ok, `${p.locale} ${who}: an add-on card`);
+    assert.ok(card.zips.some(z => z.href === p.download), `${p.locale} ${who}: its ZIP`);
+    if (p.curseforge?.slug) assert.ok(card.cf.some(c => c.slug === p.curseforge.slug), `${p.locale} ${who}: its CurseForge project`);
+    assert.equal(card.setup, `${who}, ${lang.code}, addon`, `${p.locale} ${who}: Setup gets the pick`);
   }
-  // The counts are the generated ones, never typed in: the female narrator's stories pack, as packs.json has it.
-  const female = packs.packs.LoreForever_Voice_Female;
-  assert.ok(html.includes(`${female.recordings.toLocaleString("en-US")} recordings: `), "female narrator's count");
-  assert.ok(html.includes(`href="/audio/clip/${inR2.audio}"`), "an example R2 has plays");
-  assert.ok(!html.includes(`/audio/clip/${notYet.audio}`), "an example R2 lacks has no player");
-  // Nothing plays or loads by itself: the examples are links, played by /js/packs.js on a click.
-  assert.equal((html.match(/<audio/g) || []).length, (html.match(/class="dl-audio"/g) || []).length);
-  assert.doesNotMatch(html, /<!-- dl-(comes|packs) -->/);
-  // A pack in another language sits in that language's panel, not in an English tile.
-  const deDE = html.slice(html.indexOf('class="pk-lang" data-lang="deDE"'), html.indexOf('class="pk-lang" data-lang="esES"'));
-  assert.ok(deDE.includes('id="pack-voice-default-dede"'), "German stories under Deutsch");
+  // English: the female narrator's add-on card brings her stories and both lands.
+  const female = cat.langs.find(l => l.code === "en").narrators.find(n => n.id === "female").cards.addon;
+  const herZips = female.zips.map(z => z.href).join(" ");
+  assert.ok(/female-complete/.test(herZips) || ["", "_Alliance", "_Horde"].every(s => herZips.includes(packs.packs[`LoreForever_Voice_Female${s}`].download)));
+  // The original male narrator is off the page, and no language that has a narrator offers its text alone.
+  const original = Object.entries(packs.packs).filter(([, p]) => p.lore_voice === "original-male-narrator");
+  assert.ok(original.length, "packs.json still lists his packs (they keep working in game)");
+  for (const [f, p] of original) {
+    assert.ok(!html.includes(p.download) && !html.includes(anchorOf(f)), `${f} is not on /downloads`);
+    if (p.curseforge?.slug) assert.ok(!html.includes(p.curseforge.slug), `${f}'s project is not on /downloads`);
+  }
+  assert.doesNotMatch(html, /original male/i);
+  assert.doesNotMatch(html, /text only/i);
+  for (const lang of cat.langs) {
+    const narrated = narrations.some(([, p]) => p.locale === lang.locale) || lang.narrators.some(n => !/in English/.test(n.name));
+    if (narrated) assert.ok(!html.includes(`id="${anchorOf(`LoreForever_Lang_${lang.locale}`)}"`), `${lang.name}: no text-only file`);
+  }
+});
+
+test("/downloads: once the published Setup reads the pick from its name, the English cards need no ticking and a German card still says what Setup can't install", async () => {
+  const feed = JSON.parse(readFileSync(join(PUBLIC, "data/download-files.json"), "utf8"));
+  const draw = async tag => catalogOf(await downloads({ ASSETS: assets({ "/data/download-files.json": { ...feed, publishedTag: tag } }),
+    STUDIO: await bucketWith([]) }));
+  const ticks = (cat, code) => cat.langs.find(l => l.code === code).narrators.flatMap(n => Object.values(n.cards)).filter(c => c.ok).map(c => c.tick);
+  assert.ok(ticks(await draw(`v${SETUP_PICKS_AFTER}`), "en").some(Boolean), "that release's Setup is ticked by hand");
+  const [major, minor] = SETUP_PICKS_AFTER.split(".").map(Number);
+  const later = await draw(`v${major}.${minor + 1}.0`);
+  assert.deepEqual(ticks(later, "en").filter(Boolean), [], "the next one comes ticked");
+  assert.ok(ticks(later, "de").length && ticks(later, "de").every(t => /german/i.test(t)), "German narration isn't in Setup yet");
 });
 
 test("/downloads: a pack that isn't out yet stays off the page; a missing packs.json leaves the rest of it working", async () => {
@@ -64,9 +93,10 @@ test("/downloads: a pack that isn't out yet stays off the page; a missing packs.
   const html = await downloads({ ASSETS: assets({ "/voices/voices.json": voices }), STUDIO: await bucketWith([]) });
   assert.ok(!ids(html).has("pack-voice-female-moreplaces"));
   assert.ok(ids(html).has("pack-voice-female-morepeople"));
+  assert.ok(!html.includes(packs.packs.LoreForever_Voice_Female_MorePlaces.download), "not in any card");
   const bare = await downloads({ ASSETS: assets({ "/data/packs.json": { nope: 1 } }), STUDIO: await bucketWith([]) });
   assert.match(bare, /id="voices"/);
-  assert.doesNotMatch(bare, /class="pk-tile |class="pk-comes"/);
+  assert.doesNotMatch(bare, /id="bx-catalog"/);
   assert.match(bare, /id="installer"/);
 });
 

@@ -8,11 +8,11 @@
   "wiki": "Kirge Sternhorn",
   "refs": 1
  },
- "summary": "Kirge Sternhorn is a tauren stationed in the rugged frontier of the Barrens. Serving as a steady presence for travelers journeying across central Kalimdor, he directs fledgling Horde adventurers northward toward the vital outpost of the Crossroads.",
+ "summary": "In the Barrens, Kirge Sternhorn guides travelers crossing central Kalimdor. The tauren keeps watch over the southern trails and sends new Horde adventurers north to the Crossroads.",
  "sections": [
   {
    "title": "A Wayfarer in the Barrens",
-   "body": "The vast, sun-baked plains of the Barrens are daunting for newly arrived wanderers, and Kirge Sternhorn stands as a helpful guide along their path. Stationed south of the central trails, he watches over travelers moving between the southern camps and the heart of Kalimdor. Understanding the dangers of marauding quilboar and fierce predators roaming the savanna, Kirge ensures that young adventurers find their footing and seek out the greater Horde presence gathering to the north.",
+   "body": "New wanderers often find the sun-baked Barrens daunting. Kirge Sternhorn watches over travelers south of the central trails, between the southern camps and the heart of Kalimdor. Marauding quilboar and fierce predators roam the savanna, and Kirge helps young adventurers find their footing. He ensures they seek out the greater Horde presence gathering to the north.",
    "spoiler": 0
   }
  ],
@@ -24,7 +24,7 @@
     "who is kirge",
     "kirge npc"
    ],
-   "answer": "Kirge Sternhorn is a tauren wanderer and guide stationed in the southern stretches of the Barrens, aiding Horde travelers navigating the dusty plains."
+   "answer": "Kirge Sternhorn is a tauren wanderer and guide in the southern Barrens. He aids Horde travelers as they cross the dusty plains."
   },
   {
    "q": "Where does Kirge send travelers?",
@@ -33,7 +33,7 @@
     "journey to the crossroads kirge",
     "where does kirge send you"
    ],
-   "answer": "Kirge directs travelers north toward the Crossroads, the central junction in the Barrens where Horde forces coordinate defense and exploration across the region."
+   "answer": "Kirge directs travelers north to the Crossroads, the Barrens’ central junction. Horde forces coordinate defense and exploration across the region there."
   },
   {
    "q": "What faction does Kirge Sternhorn serve?",
@@ -41,17 +41,17 @@
     "is kirge horde",
     "kirge allegiance"
    ],
-   "answer": "Kirge is loyal to the Horde and his fellow tauren, offering guidance and assistance to all members of the faction traveling through the territory."
+   "answer": "Kirge is loyal to the Horde and his fellow tauren. He offers guidance and assistance to all Horde members traveling through the territory."
   }
  ],
  "angles": [
   {
    "target": "race:Tauren",
-   "text": "Kirge represents the grounded, welcoming spirit of the Shu'halo, guiding fellow tribal kin and allies through the harsh frontier of their adopted homeland."
+   "text": "As a tauren, you can see Kirge’s grounded, welcoming spirit in the way he guides fellow tribal kin and allies through the harsh frontier of their adopted homeland."
   },
   {
    "target": "faction:Horde",
-   "text": "For travelers emerging from the southern reaches, Kirge acts as an early waypoint directing them to the greater Horde community at the Crossroads."
+   "text": "As a member of the Horde, you can look to Kirge as an early waypoint from the southern reaches, pointing you toward the greater Horde community at the Crossroads."
   }
  ],
  "keywords": [
@@ -73,5 +73,6 @@
  ],
  "attribution": [
   "Kirge Sternhorn"
- ]
+ ],
+ "style": 1
 }

@@ -17,16 +17,16 @@
   "wiki": "Recipe of the Kaldorei",
   "chain": []
  },
- "summary": "Recipe of the Kaldorei is a lesson in balance taught by Zarrin, a culinary instructor in Dolanaar. By gathering a precise number of spider legs across Teldrassil, aspiring cooks learn that sustaining oneself from nature requires restraint and respect.",
+ "summary": "Zarrin teaches a lesson in balance through the Recipe of the Kaldorei. In Dolanaar, young cooks learn to gather only what they need from Teldrassil's woods.",
  "sections": [
   {
    "title": "Children of the Stars",
-   "body": "Behind the inn in Dolanaar, Zarrin tends a bubbling cauldron and instructs young adventurers on the traditions of his people. Long before the modern age, night elves knew themselves as the kaldorei, meaning 'children of the stars.' For Zarrin, understanding that ancestral heritage begins not on the battlefield, but in the relationship between a hunter, their food, and the surrounding boughs of Teldrassil.",
+   "body": "Behind the inn in Dolanaar, Zarrin tends a bubbling cauldron and teaches young adventurers the traditions of his people. The night elves once called themselves the kaldorei, or children of the stars. Zarrin begins their understanding of that heritage with the bond between a hunter, their food, and Teldrassil's boughs, rather than the battlefield.",
    "spoiler": 0
   },
   {
    "title": "Taking Only What Is Needed",
-   "body": "The core of the lesson lies in restraint. Zarrin charges his pupils with gathering small spider legs from the woodland arachnids outside Shadowglen, but specifically commands that only seven be taken\u2014no more. In night elven culture, living in harmony with nature demands taking strictly what is necessary and returning kindness to the wild. This delicate balance must be upheld even in troubled times, a philosophy that transforms a simple spider kabob into a moral discipline.",
+   "body": "Zarrin teaches restraint through a simple demand: gather small spider legs from the woodland arachnids outside Shadowglen, but take exactly seven. The kaldorei seek harmony with nature by taking only what they need and showing kindness to the wild. Even in troubled times, that balance matters. A spider kabob becomes a lesson in living with care.",
    "spoiler": 0
   }
  ],
@@ -39,7 +39,7 @@
     "dolanaar cook",
     "cooking trainer dolanaar"
    ],
-   "answer": "Zarrin is a night elf culinary mentor found tending a cauldron behind the inn in Dolanaar. He instructs young adventurers in cooking while emphasizing the importance of ancestral kaldorei values."
+   "answer": "Zarrin is a night elf who tends a cauldron behind the inn in Dolanaar. He teaches young adventurers to cook while honoring kaldorei traditions."
   },
   {
    "q": "Why does Zarrin insist on collecting exactly seven spider legs?",
@@ -48,7 +48,7 @@
     "why only seven",
     "take no more than seven"
    ],
-   "answer": "Zarrin emphasizes that the kaldorei must live in harmony with nature, taking only what is needed to survive. Gathering strictly the required amount instills respect for the living forest and preserves the natural balance."
+   "answer": "Zarrin asks for exactly seven spider legs to teach that the kaldorei take only what they need and live in harmony with nature. The lesson encourages respect for the living forest and its balance."
   },
   {
    "q": "What does the word 'kaldorei' mean?",
@@ -57,7 +57,7 @@
     "kaldorei meaning",
     "children of the stars"
    ],
-   "answer": "In the Darnassian tongue, kaldorei translates to 'children of the stars,' the ancient name by which the night elf people have known themselves for thousands of years."
+   "answer": "Kaldorei means children of the stars in the Darnassian tongue. It is the ancient name the night elves have used for themselves for thousands of years."
   },
   {
    "q": "Where are the spider legs gathered?",
@@ -66,7 +66,7 @@
     "spider leg location",
     "which spiders"
    ],
-   "answer": "The legs can be harvested from webwood spiders roaming the forests of Teldrassil outside of the sheltered borders of Shadowglen."
+   "answer": "Gather the legs from webwood spiders in Teldrassil's forests, outside Shadowglen's sheltered borders."
   },
   {
    "q": "What do night elves prepare with spider legs?",
@@ -75,7 +75,7 @@
     "kaldorei spider kabob",
     "spider food"
    ],
-   "answer": "Zarrin teaches adventurers how to prepare Kaldorei Spider Kabobs, a traditional wilderness dish that turns woodland spider meat into a nourishing, travel-ready meal."
+   "answer": "Zarrin teaches young adventurers to prepare Kaldorei Spider Kabobs, a traditional wilderness dish made from woodland spider meat for a nourishing meal on the road."
   },
   {
    "q": "Do all spiders in Teldrassil yield the legs needed?",
@@ -83,17 +83,17 @@
     "do shadowglen spiders work",
     "shadowglen spider legs"
    ],
-   "answer": "No. The immature spiders found within the protected vale of Shadowglen do not yield the proper legs for Zarrin's recipe; one must hunt the spiders wandering the broader woods of Teldrassil."
+   "answer": "No. Immature spiders in Shadowglen do not yield the proper legs for Zarrin's recipe. Gather them from spiders roaming the wider woods of Teldrassil."
   }
  ],
  "angles": [
   {
    "target": "profession:Cooking",
-   "text": "This task serves as an early introduction to wilderness cooking in Teldrassil, rewarding the recipe for Kaldorei Spider Kabobs."
+   "text": "Learning to cook in Teldrassil brings the recipe for Kaldorei Spider Kabobs."
   },
   {
    "target": "race:NightElf",
-   "text": "The lesson reinforces the core kaldorei worldview: maintaining harmony with nature by exercising restraint and taking only what is necessary."
+   "text": "As a night elf, you learn the kaldorei way of keeping harmony with nature through restraint and taking only what you need."
   }
  ],
  "keywords": [
@@ -115,5 +115,6 @@
  ],
  "attribution": [
   "Recipe of the Kaldorei"
- ]
+ ],
+ "style": 1
 }
