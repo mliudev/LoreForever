@@ -7,16 +7,16 @@
  "meta": {
   "wiki": "Bael'dun Keep"
  },
- "summary": "Bael'dun Keep is an imposing dwarven fortification overlooking the Bael Modan excavation in the southern Barrens. Under the command of General Twinbraid, this fortress anchors the Alliance's controversial presence in the region, bringing them into violent conflict with the surrounding Horde territories.",
+ "summary": "Dwarven forces hold Bael'dun Keep above the Bael Modan excavation in the southern Barrens. Under General Twinbraid, this imposing fortification anchors the Alliance's controversial presence in the region and brings it into violent conflict with the surrounding Horde territories.",
  "sections": [
   {
    "title": "A Dwarven Stronghold in Kalimdor",
-   "body": "Constructed according to designs by the dwarven architect Haggis Boatmurder, Bael'dun Keep serves as the fortified military heart of the Ironforge presence in the southern Barrens. Towering over the expansive excavation trenches of Bael Modan, the fortress protects the Prospectors and archaeologists searching for ancient titan artifacts. Heavily armed with ironworks and artillery, its garrison maintains a vigilant watch, securing dwarven supply lines and projecting Alliance martial power straight into Kalimdor's heartland.",
+   "body": "Bael'dun Keep rises over the Bael Modan excavation as the fortified military heart of Ironforge's presence in the southern Barrens. Dwarven architect Haggis Boatmurder designed the stronghold to protect the Prospectors and archaeologists searching the trenches for ancient titan artifacts. Ironworks and artillery arm its garrison, which keeps a vigilant watch, secures dwarven supply lines, and projects Alliance military power into Kalimdor's heartland.",
    "spoiler": 0
   },
   {
    "title": "A Flashpoint of Bloodshed",
-   "body": "The construction of Bael'dun Keep and the adjoining digsite did not come peacefully; it displaced the local Stonespire tribe of tauren from their ancestral home. Now, Bael'dun sits as a simmering flashpoint in the Barrens. Nearby Horde outposts view the fortress as a flagrant military intrusion, while Gann Stonespire wages a personal war of vengeance against the invaders. Between aggrieved tauren, opportunistic scouts, and suspicious outposts like Camp Taurajo, the keep is constantly under threat of raid and sabotage.",
+   "body": "The keep and its adjoining digsite displaced the local Stonespire tribe of tauren from their ancestral home. Bael'dun remains a flashpoint in the Barrens, and nearby Horde outposts see it as a flagrant military intrusion. Gann Stonespire wages a personal war of vengeance against the invaders. Aggrieved tauren, opportunistic scouts, and suspicious outposts such as Camp Taurajo keep the fortress under threat of raids and sabotage.",
    "spoiler": 0
   }
  ],
@@ -28,7 +28,7 @@
     "who leads baeldun",
     "general twinbraid"
    ],
-   "answer": "The fortress is garrisoned by dwarven soldiers answering to the Alliance and the Explorers' League of Ironforge, led by the steadfast commander General Twinbraid."
+   "answer": "Dwarven soldiers garrison Bael'dun Keep under the Alliance and Ironforge's Explorers' League. Their steadfast commander is General Twinbraid."
   },
   {
    "q": "Why is Bael'dun Keep built in the southern Barrens?",
@@ -37,7 +37,7 @@
     "purpose of bael'dun keep",
     "why did dwarves build here"
    ],
-   "answer": "It was established to defend Bael Modan, a massive archaeological expedition digging for titan relics and ancient dwarven origins in Kalimdor."
+   "answer": "The Alliance established Bael'dun Keep to defend Bael Modan, a massive archaeological expedition seeking titan relics and ancient dwarven origins in Kalimdor."
   },
   {
    "q": "Why are the local tauren attacking Bael'dun Keep?",
@@ -46,7 +46,7 @@
     "why do tauren hate baeldun",
     "stonespire feud"
    ],
-   "answer": "The excavation and fortress displaced the native Stonespire tauren from their ancestral grounds. Survivors like Gann Stonespire seek vengeance and the destruction of the dwarven invaders."
+   "answer": "The excavation and fortress displaced the Stonespire tauren from their ancestral grounds. Survivors such as Gann Stonespire seek vengeance and the destruction of the dwarven invaders."
   },
   {
    "q": "Who was the architect of the fortress?",
@@ -55,17 +55,17 @@
     "haggis boatmurder",
     "baeldun schematics"
    ],
-   "answer": "Dwarven architectural records indicate the fortress was designed and constructed by Haggis Boatmurder."
+   "answer": "Dwarven architectural records name Haggis Boatmurder as the architect who designed and constructed the fortress."
   }
  ],
  "angles": [
   {
    "target": "race:Tauren",
-   "text": "Bael'dun Keep stands on sacred grounds stolen from the Stonespire tribe, serving as an insulting reminder of Alliance encroachment on your homeland."
+   "text": "Bael'dun Keep occupies grounds taken from the Stonespire tribe, a reminder of Alliance encroachment on your homeland."
   },
   {
    "target": "faction:Alliance",
-   "text": "This keep is your primary military toehold in the southern Barrens, guarding the vital discoveries of the Explorers' League against hostile Horde forces."
+   "text": "Bael'dun Keep is your primary military foothold in the southern Barrens, guarding the Explorers' League's vital discoveries against hostile Horde forces."
   }
  ],
  "keywords": [
@@ -89,5 +89,6 @@
  ],
  "attribution": [
   "Bael'dun Keep"
- ]
+ ],
+ "style": 1
 }

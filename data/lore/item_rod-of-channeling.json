@@ -11,11 +11,11 @@
    "quest:1805"
   ]
  },
- "summary": "A Rod of Channeling is an arcane focus carried by spellcasters of the Dragonmaw clan in the Wetlands. Warlocks seeking to master the summoning of a felhunter must gather several of these rods for Strahad Farsan's acolytes to safely anchor the ritual circle in Ratchet.",
+ "summary": "In the Wetlands, the Rod of Channeling is carried by Dragonmaw spellcasters. Warlocks seeking to summon a felhunter gather three for Strahad Farsan's acolytes to steady the ritual circle in Ratchet.",
  "sections": [
   {
    "title": "Instruments of Binding",
-   "body": "When a warlock seeks to bind a predator as volatile as a felhunter, raw willpower is rarely enough. Strahad Farsan requires three matched rods to allow his acolytes to channel their magic in concert, stabilizing the summoning circle while the practitioner undertakes the binding. The Dragonmaw clan's darkcasters, including the bonewarders and shadowwarders haunting the Angerfang Encampment and surrounding ruins in the Wetlands, carry these implements for their own fell workings. Though typically worn and nicked from combat, the rods remain potent focuses capable of directing chaotic nether energy.",
+   "body": "Warlocks need more than willpower to bind a volatile felhunter. Strahad Farsan asks for three matched rods so his acolytes can channel magic together and steady the summoning circle while the warlock binds the beast. Dragonmaw darkcasters carry these rods for their own workings. Bonewarders and shadowwarders bear them at Angerfang Encampment and in the surrounding Wetlands ruins. Combat leaves the rods worn and nicked, but they still focus chaotic nether energy.",
    "spoiler": 0
   }
  ],
@@ -27,7 +27,7 @@
     "rod of channeling purpose",
     "why do i need rod of channeling"
    ],
-   "answer": "The rods are given to the warlock Strahad Farsan above Ratchet. His acolytes use them to channel and steady the magical circle required to summon and bind a hostile felhunter."
+   "answer": "The rods go to Strahad Farsan above Ratchet. His acolytes use them to channel and steady the circle needed to summon and bind a hostile felhunter."
   },
   {
    "q": "Where can Rods of Channeling be found?",
@@ -36,7 +36,7 @@
     "who drops rod of channeling",
     "rod of channeling location"
    ],
-   "answer": "They are held by Dragonmaw clan spellcasters\u2014particularly Dragonmaw Bonewarders and Shadowwarders\u2014stationed in the Wetlands, notably around Angerfang Encampment."
+   "answer": "Dragonmaw spellcasters carry the rods in the Wetlands, especially Dragonmaw Bonewarders and Shadowwarders around Angerfang Encampment."
   },
   {
    "q": "Why does Strahad need three rods?",
@@ -44,7 +44,7 @@
     "why three rods",
     "why 3 rods of channeling"
    ],
-   "answer": "Strahad employs multiple acolytes to assist in the felhunter summoning ritual. Each assistant requires a dedicated focus to maintain the conduit safely while the warlock subdues the beast."
+   "answer": "Strahad's acolytes assist with the felhunter summoning ritual. Each needs a focus to hold the conduit steady while the warlock subdues the beast."
   },
   {
    "q": "Why are the Dragonmaw using these rods?",
@@ -52,13 +52,13 @@
     "dragonmaw rods",
     "why do dragonmaw have them"
    ],
-   "answer": "The Dragonmaw clan practices dark shamanism and shadowcraft remnants from the Old Horde. Their bonewarders and shadowwarders use the rods to channel curses, necromancy, and shadow magic in their ongoing territorial wars in the Wetlands."
+   "answer": "The Dragonmaw clan uses the rods in its dark shamanism and shadowcraft, remnants of the Old Horde. Its bonewarders and shadowwarders channel curses, necromancy, and shadow magic in their ongoing territorial wars in the Wetlands."
   }
  ],
  "angles": [
   {
    "target": "class:Warlock",
-   "text": "Procuring three Rods of Channeling is a crucial milestone in completing the Tome of the Cabal trials, providing the containment needed to bind your first felhunter."
+   "text": "As a warlock, you gather three Rods of Channeling during the Tome of the Cabal trials. They help contain the ritual as you bind your first felhunter."
   }
  ],
  "keywords": [
@@ -85,5 +85,6 @@
   "Rod of Channeling",
   "Tome of the Cabal (Alliance, 3)",
   "Tome of the Cabal (Horde, 3)"
- ]
+ ],
+ "style": 1
 }

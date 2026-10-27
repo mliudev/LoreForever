@@ -20,21 +20,21 @@
    "The Escape (Classic)"
   ]
  },
- "summary": "The Escape is an escort quest in the northern Barrens where adventurers help the goblin pilot Wizzlecrank flee the Venture Company's drill site at the Sludge Fen. Trapped inside a stolen prototype shredder, Wizzlecrank requires protection against waves of company mercenaries until he clears the industrial pit. The mission concludes by reporting back to his contact, Sputtervalve, in the port town of Ratchet.",
+ "summary": "You help Wizzlecrank flee the Venture Company drill site at the Sludge Fen in the northern Barrens. Trapped in a stolen prototype shredder, the goblin pilot needs protection from company mercenaries as he climbs from the industrial pit. Afterward, you report to his contact, Sputtervalve, in Ratchet.",
  "sections": [
   {
    "title": "A Clumsy Getaway",
-   "body": "Having ignited the stolen prototype deep within the Sludge Fen drill site, Wizzlecrank quickly discovers that commandeering Venture Company engineering is easier said than done. With only a rudimentary grasp of the control levers and switches, the goblin lurches the heavy machine across the muddy quarry floor. His erratic driving and roaring mechanical joints inevitably alert nearby laborers and armed guards, turning what should have been a stealthy extraction into a chaotic running battle up the western ramp of the excavation pit.",
+   "body": "Wizzlecrank struggles to control the stolen shredder at the Sludge Fen. He has lit the prototype deep inside the Venture Company drill site, but knows little of its levers and switches. The heavy machine lurches across the muddy quarry floor, and its erratic driving and roaring joints alert nearby laborers and armed guards. A stealthy escape becomes a running battle up the excavation pit’s western ramp.",
    "spoiler": 0
   },
   {
    "title": "Venture Company Pursuit",
-   "body": "The Venture Company does not take the theft of proprietary prototypes lightly. As the machine claws its way up the slope toward open ground, squads of company mercenaries deploy to intercept and disable the runaway construct. Despite the prototype lashing out to defend itself, the clumsy contraption cannot withstand concerted sabotage without outside bodyguard work. Clearing the rim allows the craft to stagger clear of the main drilling depression, though the machine suffers critical failure shortly thereafter.",
+   "body": "The Venture Company sends mercenaries to stop the stolen prototype. As the machine claws up the slope toward open ground, squads move to intercept and disable it. The shredder lashes out, but cannot withstand their sabotage without your protection. It clears the rim and staggers from the main drilling depression, though the machine soon suffers a critical failure.",
    "spoiler": 0
   },
   {
    "title": "Salvage and Payoff",
-   "body": "Once out of the immediate danger zone, the prototype shredder breaks down entirely and collapses onto the savanna turf. Wizzlecrank scrambles out alive, instructing his rescuers to report to Sputtervalve in Ratchet while he stays behind with the wreckage. Sputtervalve, desperate to dissect the Venture Company's cutting-edge designs before his window of opportunity closes, immediately mobilizes a goblin salvage squad to haul whatever intact mechanisms survive back to port.",
+   "body": "Wizzlecrank escapes the wrecked prototype shredder alive. Once clear of immediate danger, the machine breaks down and collapses on the savanna turf. Wizzlecrank scrambles out and tells you to report to Sputtervalve in Ratchet while he stays with the wreckage. Eager to study the Venture Company's designs before his opportunity closes, Sputtervalve immediately sends a goblin salvage squad to haul the intact mechanisms back to port.",
    "spoiler": 1
   }
  ],
@@ -46,7 +46,7 @@
     "why is goblin in shredder",
     "wizzlecrank shredder"
    ],
-   "answer": "Wizzlecrank is an operative and mechanic working with Sputtervalve in Ratchet. He infiltrated the Venture Company's northern drill site to steal their latest experimental shredder prototype, but ended up trapped inside while figuring out the unfamiliar cockpit controls."
+   "answer": "Wizzlecrank is an operative and mechanic working with Sputtervalve in Ratchet. He entered the Venture Company's northern drill site to steal its latest experimental shredder prototype, then became trapped while learning its unfamiliar cockpit controls."
   },
   {
    "q": "Where does this escape take place?",
@@ -55,7 +55,7 @@
     "escape location",
     "sludge fen escort"
    ],
-   "answer": "The escort begins deep inside the Sludge Fen, a fouled industrial drilling site operated by the Venture Company in the northern Barrens, just north of the dry savanna basin."
+   "answer": "The escape begins deep inside the Sludge Fen, a fouled industrial drilling site run by the Venture Company in the northern Barrens, just north of the dry savanna basin."
   },
   {
    "q": "Do you have to escort the shredder all the way to Ratchet?",
@@ -64,7 +64,7 @@
     "escort path",
     "do you go to ratchet"
    ],
-   "answer": "No. You only escort Wizzlecrank out of the drill pit depression and up the western ramp. Once safely away from the quarry rim, the machine breaks down and Wizzlecrank tells you to report back to Ratchet on your own."
+   "answer": "No. You escort Wizzlecrank out of the drill pit depression and up the western ramp. Once clear of the quarry rim, the machine breaks down, and Wizzlecrank tells you to report to Ratchet on your own."
   },
   {
    "q": "Who is Sputtervalve?",
@@ -73,7 +73,7 @@
     "turn in npc sputtervalve",
     "sputtervalve lore"
    ],
-   "answer": "Sputtervalve is a goblin technician stationed near the docks in Ratchet. He coordinates industrial intelligence against the rival Venture Company and seeks their mechanical designs to profit off their technological innovations."
+   "answer": "Sputtervalve is a goblin technician stationed near Ratchet's docks. He gathers industrial intelligence against the rival Venture Company and seeks its mechanical designs to profit from its technological innovations."
   },
   {
    "q": "Why does the shredder fall over at the end?",
@@ -82,7 +82,7 @@
     "shredder wrecked",
     "prototype failure"
    ],
-   "answer": "Wizzlecrank is barely familiar with the controls and the experimental machine is pushed to its limits during the ambush. It suffered severe mechanical strain breaking through the perimeter, causing the prototype to give out as soon as it cleared the drill site."
+   "answer": "Wizzlecrank barely knows the controls, and the experimental machine is pushed to its limits in the ambush. It suffers severe mechanical strain breaking through the perimeter, then gives out as soon as it clears the drill site."
   },
   {
    "q": "What happens after the prototype crashes?",
@@ -91,21 +91,21 @@
     "what happens next",
     "escape quest conclusion"
    ],
-   "answer": "Wizzlecrank stays with the downed machine while you report to Sputtervalve in Ratchet. Sputtervalve immediately prepares a goblin salvage team to harvest the prototype's high-value components before the Venture Company can reclaim them."
+   "answer": "Wizzlecrank stays with the downed machine while you report to Sputtervalve in Ratchet. Sputtervalve immediately prepares a goblin salvage team to harvest the prototype's valuable components before the Venture Company can reclaim them."
   }
  ],
  "angles": [
   {
    "target": "profession:Engineering",
-   "text": "The prototype shredder showcases cutting-edge Venture Company pneumatics and cockpit designs, making its salvage a goldmine of industrial insight."
+   "text": "The prototype shredder shows Venture Company pneumatics and cockpit designs, giving engineers valuable insight to study in its salvage."
   },
   {
    "target": "race:Gnome",
-   "text": "Wizzlecrank's willingness to pilot a wildly volatile Venture Company machine on sheer guesswork shows that goblin tinkers, like gnomish ones, often tinker first and ask questions later."
+   "text": "As a gnome, you may recognize Wizzlecrank's willingness to pilot a volatile machine on guesswork. Goblin tinkerers, like gnomish ones, often tinker first and ask questions later."
   },
   {
    "target": "faction:Horde",
-   "text": "The Venture Company's polluting oil operations at the Sludge Fen are an eye-sore on the Barrens, making any disruptive sabotage welcome to local tribes."
+   "text": "As a member of the Horde, you can welcome disruption to the Venture Company's polluting oil operations at the Sludge Fen, an eyesore on the Barrens."
   }
  ],
  "keywords": [
@@ -132,5 +132,6 @@
  ],
  "attribution": [
   "The Escape (Classic)"
- ]
+ ],
+ "style": 1
 }

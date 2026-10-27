@@ -7,16 +7,16 @@
  "meta": {
   "wiki": "Dustwind Cave"
  },
- "summary": "Dustwind Cave is a secluded hollow perched atop the cliffs of Razorwind Canyon, just northeast of Razor Hill. It serves as an active training ground and covert sanctuary for initiates of the nefarious Burning Blade cult operating within Durotar.",
+ "summary": "Burning Blade initiates train in Dustwind Cave, high above Razorwind Canyon northeast of Razor Hill. The cave is both a training ground and a covert refuge for the cult in Durotar.",
  "sections": [
   {
    "title": "A Shadow in the Cliffs",
-   "body": "Overlooking Razorwind Canyon, Dustwind Cave is one of the closest and most perilous threats to Razor Hill. While many assume demonic cultists gather only in deep subterranean depths, here the Burning Blade trains fresh recruits right under the noses of the Horde authorities. Shadowy cultists tutor initiates in forbidden dark magics and demonology, preparing them to undermine the young orcish realm from within Durotar's own borders.",
+   "body": "Dustwind Cave overlooks Razorwind Canyon, close to Razor Hill and a perilous threat to the town. The Burning Blade trains new recruits here beneath the notice of Horde authorities. Cultists teach initiates forbidden dark magic and demonology, preparing them to undermine the young orcish realm from within Durotar's borders.",
    "spoiler": 0
   },
   {
    "title": "Tainted Bloodlines",
-   "body": "Those who trespass into the cave risk exposure to the cultists' dangerous corruptions. Practitioners inside channel volatile dark arts such as felblood afflictions, demonstrating how deeply the Burning Blade clings to the demonic legacy Thrall fought so hard to banish. Eliminating the cabal here is vital for maintaining the precarious peace of Durotar.",
+   "body": "Those who enter Dustwind Cave risk the Burning Blade's corruptions. Cultists channel volatile dark arts, including felblood afflictions. Their work shows how firmly the cult holds to the demonic legacy Thrall fought to banish. Clearing the cabal from the cave matters to Durotar's fragile peace.",
    "spoiler": 0
   }
  ],
@@ -28,7 +28,7 @@
     "where is dustwind cave",
     "how to find dustwind cave"
    ],
-   "answer": "Dustwind Cave is situated high along the clifftops of Razorwind Canyon, directly northeast of Razor Hill in Durotar."
+   "answer": "Dustwind Cave lies high on the clifftops of Razorwind Canyon, directly northeast of Razor Hill in Durotar."
   },
   {
    "q": "Who occupies Dustwind Cave?",
@@ -37,7 +37,7 @@
     "dustwind cave enemies",
     "mobs in dustwind cave"
    ],
-   "answer": "The cave is occupied by cultists and initiates of the Burning Blade, a shadowy demonic cult dedicated to spreading fel corruption and destabilizing the Horde."
+   "answer": "Cultists and initiates of the Burning Blade occupy Dustwind Cave. The shadowy demonic cult spreads fel corruption and seeks to destabilize the Horde."
   },
   {
    "q": "Why is the Burning Blade operating here?",
@@ -45,7 +45,7 @@
     "why are cultists in dustwind cave",
     "burning blade purpose durotar"
    ],
-   "answer": "The Burning Blade uses Dustwind Cave as a secluded training outpost where seasoned cultists instruct new recruits in demonic arts away from the immediate gaze of the Orgrimmar and Razor Hill guards."
+   "answer": "The Burning Blade uses Dustwind Cave as a secluded training outpost. Seasoned cultists teach new recruits demonic arts away from the immediate gaze of guards in Orgrimmar and Razor Hill."
   },
   {
    "q": "Why does the Horde want this cave cleared?",
@@ -53,17 +53,17 @@
     "why clear dustwind cave",
     "horde threat dustwind cave"
    ],
-   "answer": "Having demon-worshiping cultists lurking just steps away from Razor Hill poses an unacceptable security risk to traveling recruits and the overall defense of Durotar."
+   "answer": "Demon-worshiping cultists near Razor Hill threaten the safety of traveling recruits and Durotar's defenses."
   }
  ],
  "angles": [
   {
    "target": "class:Warlock",
-   "text": "Warlocks of the Horde will recognize the dark rituals taking place within Dustwind Cave, though the Burning Blade wields their fel gifts toward rebellion rather than the service of Thrall's new order."
+   "text": "As a Horde warlock, you may recognize the dark rituals in Dustwind Cave. The Burning Blade turns its fel gifts toward rebellion against Thrall's new order."
   },
   {
    "target": "faction:Horde",
-   "text": "Dustwind Cave represents an embarrassing and dangerous internal breach, harboring demon cultists within shouting distance of Razor Hill."
+   "text": "For the Horde, Dustwind Cave is a dangerous breach within your borders, sheltering demon cultists within shouting distance of Razor Hill."
   }
  ],
  "keywords": [
@@ -83,5 +83,6 @@
  ],
  "attribution": [
   "Dustwind Cave"
- ]
+ ],
+ "style": 1
 }

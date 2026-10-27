@@ -10,11 +10,11 @@
    "quest:6543"
   ]
  },
- "summary": "The Warsong Runner Update is a military dispatch carrying situational observations from the Zoram'gar Outpost along the western coast of Ashenvale. Delivered to the Horde commander Kadrak at the Barrens border, it helps coordinate the Warsong clan's ongoing campaign against the night elves.",
+ "summary": "At Zoram'gar Outpost, Warsong Runner Update carries reports from western Ashenvale to Kadrak.",
  "sections": [
   {
    "title": "Eyes on the Western Front",
-   "body": "Positioned at the edge of the Zoram Strand, the Warsong runner at Zoram'gar Outpost keeps watch over coastal waters and nearby threats in western Ashenvale. This update contains critical intelligence gathered from the outpost's frontline scouts, documenting regional activity and securing supply lines. Carried back to Kadrak's watchtower on the Barrens border, the dispatch provides the Horde leadership with the clarity needed to fortify their position and plan subsequent movements deep in ancestral elven woods.",
+   "body": "The Warsong runner at Zoram'gar Outpost watches the coast and nearby threats in western Ashenvale. The dispatch records observations gathered by scouts at the outpost and reports on local activity. It travels to Kadrak's watchtower on the Barrens border, helping Horde leaders strengthen their position and plan their movements into the elves' ancestral woods.",
    "spoiler": 0
   }
  ],
@@ -26,7 +26,7 @@
     "what is warsong runner update",
     "warsong report zoram"
    ],
-   "answer": "It is a written military dispatch penned by the Warsong runner stationed at Zoram'gar Outpost in western Ashenvale, reporting frontline observations back to Horde leadership at the Barrens border."
+   "answer": "Warsong Runner Update is a written military dispatch from the Warsong runner at Zoram'gar Outpost in western Ashenvale. It carries frontline observations to Horde leaders at the Barrens border."
   },
   {
    "q": "Where does this dispatch come from?",
@@ -35,7 +35,7 @@
     "where is warsong runner",
     "who gives runner update"
    ],
-   "answer": "It is obtained from the Warsong runner stationed at Zoram'gar Outpost, located on the far western coast of Ashenvale near the Zoram Strand."
+   "answer": "The dispatch comes from the Warsong runner at Zoram'gar Outpost, on Ashenvale's far western coast near the Zoram Strand."
   },
   {
    "q": "Who receives this update?",
@@ -44,7 +44,7 @@
     "kadrak update",
     "deliver runner update"
    ],
-   "answer": "The update is carried to Kadrak, the Warsong commander stationed in the watchtower along the northern Barrens border."
+   "answer": "Kadrak, the Warsong commander in the watchtower along the northern Barrens border, receives the update."
   },
   {
    "q": "Why does Kadrak need this dispatch?",
@@ -52,17 +52,17 @@
     "why runner update",
     "warsong reports purpose"
    ],
-   "answer": "Kadrak coordinates the Warsong clan's military movements into Ashenvale. Field dispatches from outposts like Zoram'gar keep him informed of enemy resistance, naval approaches, and local territory control."
+   "answer": "Kadrak coordinates the Warsong clan's military movements into Ashenvale. Dispatches from outposts such as Zoram'gar tell him about enemy resistance, naval approaches, and control of local territory."
   }
  ],
  "angles": [
   {
    "target": "faction:Horde",
-   "text": "The report highlights the logistical difficulty of maintaining distant outposts in hostile night elf territory, relying on couriers to keep communications open between Ashenvale and the Barrens."
+   "text": "The report shows the difficulty of maintaining distant outposts in hostile night elf territory. Couriers keep communications open between Ashenvale and the Barrens."
   },
   {
    "target": "race:Orc",
-   "text": "Warsong scouts and couriers risk life and limb in the dense forests to feed tactical data directly to Kadrak and further the clan's territorial claims."
+   "text": "As an orc, you know Warsong scouts and couriers risk their lives in dense forests to bring tactical reports to Kadrak and advance the clan's territorial claims."
   }
  ],
  "keywords": [
@@ -88,5 +88,6 @@
  "attribution": [
   "Warsong Runner Update",
   "The Warsong Reports"
- ]
+ ],
+ "style": 1
 }

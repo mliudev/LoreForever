@@ -10,16 +10,16 @@
    "quest:4763"
   ]
  },
- "summary": "The Talisman of Corruption is a vile demonic trinket used by the satyr Xabraxxis to poison the minds of Darkshore's Blackwood furbolgs. Carried within the satyr's personal pouch, it serves as a magical conduit that binds the tribe to fel madness.",
+ "summary": "In Darkshore, Xabraxxis uses the Talisman of Corruption to turn the Blackwood furbolgs against their former allies. The satyr keeps it in his personal pouch, where its magic binds the tribe to fel madness.",
  "sections": [
   {
    "title": "A Conduit of Madness",
-   "body": "The night elves of Auberdine have long struggled to understand why the Blackwood furbolgs turned so aggressively upon their former allies. Thundris Windweaver discovered that the tribe's downfall was not a natural descent, but deliberate sabotage orchestrated by the satyrs. Using talismans like this one, demonic agents project corrupting sorcery across the wilderness, tainting food supplies and twisting peaceful forest spirits into frenzied beasts. By channeling fell magics directly through these devices, the satyrs hold an unbroken grip over the minds and wills of the local tribes.",
+   "body": "Auberdine's night elves have long sought the cause of the Blackwood furbolgs' turn against their former allies. Thundris Windweaver found that satyrs had brought about the tribe's fall. With talismans like this, demonic agents spread corrupting sorcery through the wilderness, tainting food and twisting peaceful forest spirits into frenzied beasts. The devices channel fel magic that grips the minds and wills of local tribes.",
    "spoiler": 0
   },
   {
    "title": "Breaking the Grip",
-   "body": "To draw out the satyr responsible, adventurers must purify samples of the furbolgs' food using blessed moonwell water, cleansing the camp long enough to enrage its overseer. Slaying Xabraxxis breaks his immediate hold and yields his demon bag, inside which the talisman rests. Delivering the talisman to Thundris Windweaver in Auberdine allows the Kaldorei to neutralize its foul emanations and study how to permanently undo the demonic affliction plaguing the forest.",
+   "body": "To draw out Xabraxxis, you cleanse samples of the furbolgs' food with blessed moonwell water. The purification enrages the overseer. When Xabraxxis is slain, his demon bag yields the talisman. You bring it to Thundris Windweaver in Auberdine, where the Kaldorei can neutralize its foul emanations and study how to undo the demonic affliction in the forest.",
    "spoiler": 1
   }
  ],
@@ -31,7 +31,7 @@
     "talisman purpose",
     "what does the talisman do"
    ],
-   "answer": "It is a demonic device used by the satyr Xabraxxis to channel foul magic and corrupt the minds and food sources of the Blackwood furbolgs in Darkshore."
+   "answer": "Xabraxxis uses the Talisman of Corruption to channel foul magic that corrupts the Blackwood furbolgs' minds and food in Darkshore."
   },
   {
    "q": "Who carries the talisman?",
@@ -40,7 +40,7 @@
     "where to find talisman of corruption",
     "how to get talisman"
    ],
-   "answer": "It is kept within the demon bag carried by Xabraxxis, a satyr who oversees the northern Blackwood furbolg camp near the Cliffspring River."
+   "answer": "Xabraxxis, the satyr overseeing the northern Blackwood furbolg camp near the Cliffspring River, carries it in his demon bag."
   },
   {
    "q": "How do you draw out the owner of the talisman?",
@@ -49,7 +49,7 @@
     "how to find xabraxxis",
     "summon satyr darkshore"
    ],
-   "answer": "You must collect samples of the furbolgs' fruit, grain, and nuts, combine them with moonwell water in a cleansing bowl, and place the offering by the bonfire near the river. Cleansing the furbolgs enrages Xabraxxis, prompting him to attack."
+   "answer": "You gather the furbolgs' fruit, grain, and nuts, then combine them with moonwell water in a cleansing bowl. Place the offering by the bonfire near the river, and the cleansing enrages Xabraxxis until he attacks."
   },
   {
    "q": "What happens to the talisman after it is recovered?",
@@ -58,17 +58,17 @@
     "turn in talisman of corruption",
     "thundris windweaver talisman"
    ],
-   "answer": "It is turned over to Thundris Windweaver in Auberdine. He secures the artifact for disposal and studies it to learn how to permanently liberate the furbolgs from demonic corruption."
+   "answer": "You bring the talisman to Thundris Windweaver in Auberdine. He secures it for disposal and studies how to free the furbolgs permanently from demonic corruption."
   }
  ],
  "angles": [
   {
    "target": "race:NightElf",
-   "text": "For the Kaldorei of Auberdine, recovering the talisman is a vital step toward freeing their ancestral furbolg allies from demonic degradation and healing the land."
+   "text": "As a Kaldorei of Auberdine, recovering the talisman helps free your ancestral furbolg allies from demonic degradation and heal the land."
   },
   {
    "target": "class:Druid",
-   "text": "Druids view devices like the talisman as direct perversions of the natural order, twisting sacred beasts into feral pawns of the Burning Legion's leftover minions."
+   "text": "As a druid, you see devices like the talisman as a perversion of the natural order. They twist sacred beasts into feral pawns of the Burning Legion's leftover minions."
   }
  ],
  "keywords": [
@@ -94,5 +94,6 @@
  "attribution": [
   "Talisman of Corruption",
   "The Blackwood Corrupted"
- ]
+ ],
+ "style": 1
 }

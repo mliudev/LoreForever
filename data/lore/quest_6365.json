@@ -22,16 +22,16 @@
    "Return to the Crossroads."
   ]
  },
- "summary": "Meats to Orgrimmar is a short introductory logistical quest offered by Zargh at the Crossroads. He asks young orc and troll adventurers to take a package of prime Barrens meat to the settlement's wind rider master, Devrak, introducing them to flight transport back to the Horde capital.",
+ "summary": "At the Crossroads, Zargh sends a parcel of Barrens meat toward Orgrimmar. He asks young orc and troll adventurers to carry it to Devrak, the wind rider master, and learn the flight route to the Horde capital.",
  "sections": [
   {
    "title": "Fresh Game from the Barrens",
-   "body": "The vast plains of the Barrens support an abundance of wildlife, from zhevras and plainstriders to kodos and thunder lizards. Zargh has prepared several choice cuts intended as a personal delivery to Gryshka, the bustling innkeeper of Orgrimmar's Valley of Strength. To keep the meat fresh and avoid the long, dust-choked trek across the Southfury River into Durotar, Zargh sends runners across the Crossroads directly to the wind rider perch.",
+   "body": "Wildlife fills the Barrens, from zhevras and plainstriders to kodos and thunder lizards. Zargh has prepared choice cuts for a personal delivery to Gryshka, the innkeeper in Orgrimmar's Valley of Strength. Rather than risk the long, dusty trek across the Southfury River into Durotar, he sends runners from the Crossroads to the wind rider perch.",
    "spoiler": 0
   },
   {
    "title": "Wings Over the Steppes",
-   "body": "Reaching Devrak marks a young Horde warrior's first formal introduction to the wind rider flight network. By partnering with the wind rider masters, the Horde connects remote outposts like the Crossroads directly to its fortified seat of power in Orgrimmar. Devrak prepares the courier and cargo for a swift aerial ride over the savannah.",
+   "body": "Meeting Devrak gives a young Horde warrior a first look at the wind rider flight network. Wind rider masters connect remote outposts like the Crossroads to the Horde's fortified seat of power in Orgrimmar. Devrak prepares you and the cargo for a swift flight over the savannah.",
    "spoiler": 0
   }
  ],
@@ -43,7 +43,7 @@
     "who is the meat for",
     "zargh meat recipient"
    ],
-   "answer": "Zargh is sending the cuts of meat to his friend Gryshka, the popular innkeeper who operates the main tavern in Orgrimmar's Valley of Strength."
+   "answer": "Zargh sends the meat to his friend Gryshka, the innkeeper of Orgrimmar's Valley of Strength."
   },
   {
    "q": "Why can only Orcs and Trolls take this quest?",
@@ -52,7 +52,7 @@
     "undead meats quest",
     "race restriction"
    ],
-   "answer": "This quest serves as the cultural flight introduction connecting orcs and Darkspear trolls back to their shared capital of Orgrimmar. Tauren are directed to Thunder Bluff through the quest 'A Bundle of Hides,' while Forsaken characters are given 'Supplying the Sepulcher' to connect them to Silverpine Forest."
+   "answer": "This flight introduction links orcs and Darkspear trolls to their shared capital, Orgrimmar. Tauren are directed to Thunder Bluff through A Bundle of Hides, while Forsaken are sent to Silverpine Forest through Supplying the Sepulcher."
   },
   {
    "q": "Who is Devrak?",
@@ -60,7 +60,7 @@
     "devrak crossroads",
     "who is devrak"
    ],
-   "answer": "Devrak is the orc wind rider master stationed at the Crossroads in the Barrens. He oversees the wyverns used to carry messages, supplies, and travelers throughout Kalimdor."
+   "answer": "Devrak is the orc wind rider master stationed at the Crossroads in the Barrens. He oversees the wyverns that carry messages, supplies, and travelers throughout Kalimdor."
   },
   {
    "q": "What happens after giving the meat to Devrak?",
@@ -68,7 +68,7 @@
     "next quest after meats to orgrimmar",
     "what does devrak do"
    ],
-   "answer": "Devrak accepts the shipment and arranges a wind rider flight for you to fly the meat to Orgrimmar's Skytower and deliver it to Gryshka at her inn, through the follow-up quest 'Ride to Orgrimmar'."
+   "answer": "Devrak accepts the shipment and arranges a wind rider flight that carries you and the meat to Orgrimmar's Skytower. You then deliver it to Gryshka at her inn through Ride to Orgrimmar."
   },
   {
    "q": "Where is Zargh located?",
@@ -76,7 +76,7 @@
     "zargh location",
     "where is zargh"
    ],
-   "answer": "Zargh is stationed at the Crossroads, the central Horde trading hub located at the main intersection of the Barrens."
+   "answer": "Zargh is at the Crossroads, the central Horde trading hub at the Barrens' main intersection."
   },
   {
    "q": "Why use a wind rider instead of walking?",
@@ -84,21 +84,21 @@
     "why fly to orgrimmar",
     "wind rider meat"
    ],
-   "answer": "Wind riders provide rapid transit across the harsh expanse of the Barrens and across the river canyon into Durotar, ensuring delicate cargo like fresh meat arrives in Orgrimmar before spoiling."
+   "answer": "Wind riders carry travelers rapidly across the harsh Barrens and over the river canyon into Durotar, so delicate cargo like fresh meat can reach Orgrimmar before spoiling."
   }
  ],
  "angles": [
   {
    "target": "race:Orc",
-   "text": "For young orcs leaving Durotar to hunt in the Barrens, delivering Zargh's parcel offers a quick way to establish an aerial transit route straight back to the Warchief's capital."
+   "text": "As an orc leaving Durotar to hunt in the Barrens, you can deliver Zargh's parcel and establish an aerial route straight back to the Warchief's capital."
   },
   {
    "target": "race:Troll",
-   "text": "Darkspear trolls operating out of the Crossroads use this errand to tie the expanding wilderness outposts back into Orgrimmar's logistical supply lines."
+   "text": "As a Darkspear troll at the Crossroads, you help tie the expanding wilderness outposts into Orgrimmar's supply lines."
   },
   {
    "target": "profession:Cooking",
-   "text": "Supplying fresh cuts from the plains of the Barrens to Gryshka's inn in Orgrimmar keeps the capital's hearty stewpots filled for visiting warriors."
+   "text": "As a cook, you help bring fresh Barrens cuts to Gryshka's inn in Orgrimmar, keeping the capital's stewpots filled for visiting warriors."
   }
  ],
  "keywords": [
@@ -124,5 +124,6 @@
  ],
  "attribution": [
   "Meats to Orgrimmar (Classic)"
- ]
+ ],
+ "style": 1
 }

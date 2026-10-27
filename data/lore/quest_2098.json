@@ -20,21 +20,21 @@
    "Gyromast's Revenge"
   ]
  },
- "summary": "Shipwrecked on the misty coast of Darkshore, the eccentric gnome pirate Gelkak Gyromast seeks aid to restore his mechanical first mate. His vital winding key was shattered upon the rocks and scavenged by the local wildlife and murlocs. Recovering the three pieces is the first step toward getting his crew back in working order.",
+ "summary": "On Darkshore's coast, Gelkak Gyromast needs help restoring his mechanical first mate. His winding key shattered on the rocks, and wildlife and murlocs scavenged the three pieces. Recovering them is the first step toward setting his crew right.",
  "sections": [
   {
    "title": "Castaway on Darkshore",
-   "body": "Gelkak Gyromast is an odd sight along the gloomy sands of Darkshore: a gnome pirate stranded far from the typical sea routes of the South Seas. According to Gelkak, his vessel met an unfortunate end just off the coastline after being attacked and sunk by aggressive threshadons. Washing ashore amid the flotsam, he found himself utterly marooned and separated from his trusty crew.",
+   "body": "Gelkak Gyromast is a gnome pirate stranded on Darkshore, far from the South Seas. He says aggressive threshadons attacked and sank his vessel just off the coast. The wreck cast him ashore among the flotsam, marooned and separated from his crew.",
    "spoiler": 0
   },
   {
    "title": "The Scavenged Key",
-   "body": "Gelkak's most pressing concern is not provisions or gold, but his first mate. Activating and operating this companion requires a specialized key, which shattered into three distinct fragments when Gelkak crashed onto the rocky shoals. Before he could gather the fragments, the indigenous wildlife\u2014scuttling reef crawlers on the beach, towering foreststriders near the woods, and scavengers from the local Greymist murloc tribe\u2014snatched the shiny metal pieces away.",
+   "body": "Gelkak's first concern is his first mate, not provisions or gold. The companion needs a specialized key to operate, but the key shattered into three pieces when Gelkak crashed on the rocky shoals. Before he could gather them, reef crawlers on the beach, foreststriders near the woods, and scavengers from the Greymist murloc tribe carried the shiny pieces away.",
    "spoiler": 0
   },
   {
    "title": "A Peculiar Companion",
-   "body": "Gelkak speaks of his first mate with the fierce loyalty of a sea captain, though references to needing to put the companion 'in workin' order' hint at an unorthodox crewmate. A gnome mariner stranded on foreign shores naturally relies on mechanical ingenuity, and reassembling the broken key proves vital to restarting whatever clockwork marvel Gelkak dragged from the depths.",
+   "body": "Gelkak speaks of his first mate with a sea captain's fierce loyalty. He says the companion needs to be put in working order, and the broken key is vital to winding it up again.",
    "spoiler": 1
   }
  ],
@@ -46,7 +46,7 @@
     "who is the gnome pirate",
     "darkshore gnome pirate"
    ],
-   "answer": "Gelkak Gyromast is an eccentric gnome pirate who was shipwrecked off the coast of Darkshore when predatory threshadons attacked and sank his vessel."
+   "answer": "Gelkak Gyromast is a gnome pirate whose vessel was attacked and sunk by predatory threshadons off Darkshore."
   },
   {
    "q": "What is the key used for?",
@@ -55,7 +55,7 @@
     "gelkak key purpose",
     "first mate key"
    ],
-   "answer": "The key is required to reactivate and wind up Gelkak's first mate, a mechanical creation that was powered down during their disastrous shipwreck."
+   "answer": "The key is needed to reactivate and wind up Gelkak's mechanical first mate, which shut down during the shipwreck."
   },
   {
    "q": "Where did the three pieces of the key go?",
@@ -64,7 +64,7 @@
     "who stole the key",
     "broken key darkshore"
    ],
-   "answer": "When the key broke on the shore, the pieces were scavenged by local creatures: the top piece was taken by foreststriders, the middle by Greymist murlocs, and the bottom by coastal reef crawlers."
+   "answer": "The top piece went to foreststriders, the middle piece to Greymist murlocs, and the bottom piece to coastal reef crawlers after the key broke on shore."
   },
   {
    "q": "Why was a gnome pirate sailing near Darkshore?",
@@ -72,7 +72,7 @@
     "why is gelkak in darkshore",
     "pirates in darkshore"
    ],
-   "answer": "Gelkak was navigating the waters off northern Kalimdor in search of plunder, but hostile threshadons brought an abrupt end to his voyage."
+   "answer": "Gelkak was sailing off northern Kalimdor in search of plunder when hostile threshadons ended his voyage."
   },
   {
    "q": "What happens after the key is reassembled?",
@@ -80,7 +80,7 @@
     "what next after key",
     "gyromast retrieval follow up"
    ],
-   "answer": "Once Gelkak has all three pieces of his key, he can proceed with winding up his companion, leading directly into the quest 'Gyromast's Revenge'."
+   "answer": "With all three pieces of his key, Gelkak can wind up his companion and continue with Gyromast's Revenge."
   },
   {
    "q": "Who are the murlocs holding the key piece?",
@@ -89,17 +89,17 @@
     "greymist murloc key",
     "shipwreck murlocs"
    ],
-   "answer": "The middle piece is scavenged by the Greymist tribe of murlocs, who have made their home among the wreckage of drowned ships along Darkshore's shoals."
+   "answer": "Greymist murlocs scavenged the middle piece. Their tribe lives among wreckage from drowned ships along Darkshore's shoals."
   }
  ],
  "angles": [
   {
    "target": "race:Gnome",
-   "text": "Gnomes will immediately recognize Gelkak's reliance on clockwork devices over flesh-and-blood shipmates, even if his pirate lifestyle is quite unusual for their kin."
+   "text": "As a gnome, you may recognize Gelkak's reliance on clockwork devices instead of flesh-and-blood shipmates, though his pirate life is unusual among your kin."
   },
   {
    "target": "profession:Engineering",
-   "text": "Engineers can appreciate the challenge of keeping clockwork contraptions functional after enduring a violent shipwreck in saltwater."
+   "text": "As an engineer, you can appreciate the challenge of keeping clockwork contraptions working after a violent shipwreck in saltwater."
   }
  ],
  "keywords": [
@@ -122,5 +122,6 @@
  ],
  "attribution": [
   "Gyromast's Retrieval"
- ]
+ ],
+ "style": 1
 }

@@ -1,0 +1,78 @@
+{
+ "key": "quest:94434",
+ "type": "quest",
+ "name": "A Lesson in Divinity",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   94434
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "Tanis Alderwood asks you for fresh cloth in the Undercity. His wife is falling apart, and he hopes a wrapping can hold her together until an apothecary is free.",
+ "sections": [
+  {
+   "title": "A Beggar's Plea",
+   "body": "Tanis says the apothecaries are occupied with the Dark Lady's business. He asks you to bring him linen so he can wrap his wife while they wait for help. Her condition is the matter at hand.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is asking for help?",
+   "aliases": [
+    "who is Tanis",
+    "Tanis Alderwood",
+    "beggar guy"
+   ],
+   "answer": "Tanis Alderwood, a beggar in the Undercity, asks you to help his wife."
+  },
+  {
+   "q": "What's wrong with Tanis's wife?",
+   "aliases": [
+    "wife falling apart",
+    "what happened to his wife",
+    "Tanis wife"
+   ],
+   "answer": "Tanis says she is literally falling apart and needs a wrapping to hold her together."
+  },
+  {
+   "q": "Why can't the apothecaries help?",
+   "aliases": [
+    "apothecaries busy",
+    "why no apothecary",
+    "Dark Lady business"
+   ],
+   "answer": "Tanis says the apothecaries are occupied with the Dark Lady's business."
+  },
+  {
+   "q": "What does Tanis need?",
+   "aliases": [
+    "what cloth does he need",
+    "linen for Tanis",
+    "help beggar"
+   ],
+   "answer": "Tanis asks you to bring him fresh cloth so he can wrap his wife while they wait for the apothecaries."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "a lesson in divinity",
+  "apothecaries",
+  "beggar",
+  "dark lady",
+  "linen cloth",
+  "tanis alderwood",
+  "undercity",
+  "wife"
+ ],
+ "related": [
+  "zone:undercity"
+ ],
+ "style": 1,
+ "attribution": [
+  "In-game quest text: A Lesson in Divinity"
+ ]
+}

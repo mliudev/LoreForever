@@ -8,16 +8,16 @@
   "wiki": "Renzik \"The Shiv\"",
   "refs": 3
  },
- "summary": "Renzik \"The Shiv\" is a goblin operative and the trusted second-in-command of SI:7, stationed inside their headquarters in Stormwind City's Old Town. He serves Spymaster Mathias Shaw faithfully, directing the new rogue recruits sent to him from across the Alliance.",
+ "summary": "In Stormwind's Old Town, Renzik \"The Shiv\" directs SI:7's new rogue recruits. The goblin is Spymaster Mathias Shaw's trusted second-in-command, receiving promising agents sent from across the Alliance.",
  "sections": [
   {
    "title": "A Goblin in SI:7",
-   "body": "Renzik keeps the story of his past to himself. What Stormwind knows is that this goblin found his way into SI:7 and now stands as Spymaster Mathias Shaw's second in command. He is short on patience and pleasantries, greeting new recruits by asking whether they are ready to get to work or need a nap first.",
+   "body": "Renzik keeps his past to himself. In Stormwind, he is known as a goblin who rose to become Spymaster Mathias Shaw's second-in-command in SI:7. He has little patience for pleasantries. When new recruits arrive, he asks whether they are ready to work or need a nap first.",
    "spoiler": 0
   },
   {
    "title": "Right Hand of Mathias Shaw",
-   "body": "Now based inside the secretive SI:7 fortress in Old Town, Renzik serves as Mathias Shaw's second-in-command. Rogue mentors across the Alliance, from Ironforge to Darnassus, send their most promising agents to Renzik. Rather than sending them straight to slaughter, Renzik forwards them to field instructors like Lucius in Redridge to hone their survival craft.",
+   "body": "Renzik works inside SI:7's secretive fortress in Old Town, second-in-command to Mathias Shaw. Rogue mentors across the Alliance, from Ironforge to Darnassus, send their most promising agents to him. He sends them to field instructors such as Lucius in Redridge, where they can hone the skills needed to survive in the field.",
    "spoiler": 0
   }
  ],
@@ -29,7 +29,7 @@
     "goblin in stormwind",
     "why is there a goblin in si7"
    ],
-   "answer": "Renzik keeps the story of how he came to Stormwind to himself. All anyone knows is that the goblin has risen to become Mathias Shaw's second in command at SI:7."
+   "answer": "Renzik keeps the story of how he came to Stormwind to himself. The goblin has risen to become Mathias Shaw's second-in-command at SI:7."
   },
   {
    "q": "Why is he called 'The Shiv'?",
@@ -38,7 +38,7 @@
     "renzik nickname",
     "renzik the shiv meaning"
    ],
-   "answer": "Renzik has never shared the story behind the name with Stormwind. The nickname is all anyone in Old Town gets, and for a spy that may be the point."
+   "answer": "Renzik has never told Stormwind how he got his nickname. In Old Town, the name is all anyone gets, and for a spy that may be the point."
   },
   {
    "q": "What does Renzik do for player rogues?",
@@ -47,7 +47,7 @@
     "what does renzik give",
     "talk to renzik the shiv"
    ],
-   "answer": "When Alliance rogues prove their competence, their trainers send them to Renzik in Stormwind. He acts as their intake handler for SI:7, dispatching recruits to specialized trainers like Lucius in the Redridge Mountains to ensure they have the fieldcraft to stay alive."
+   "answer": "When Alliance rogues prove their skill, their trainers send them to Renzik in Stormwind. He handles their entry into SI:7 and sends recruits to instructors such as Lucius in the Redridge Mountains to learn how to survive in the field."
   },
   {
    "q": "Where does Renzik usually operate?",
@@ -56,7 +56,7 @@
     "where to find renzik",
     "where is renzik"
    ],
-   "answer": "He is stationed inside the SI:7 headquarters in Old Town, Stormwind City, where the Alliance's rogue recruits report to him."
+   "answer": "Renzik is stationed inside SI:7 headquarters in Old Town, Stormwind City, where Alliance rogue recruits report to him."
   },
   {
    "q": "Does Renzik maintain ties outside Stormwind?",
@@ -65,21 +65,21 @@
     "renzik connections",
     "renzik allies"
    ],
-   "answer": "Yes. Rogue trainers in Ironforge and Darnassus send their promising students to him, and he passes recruits on to Lucius, an SI:7 associate in Lakeshire in the Redridge Mountains."
+   "answer": "Yes. Rogue trainers in Ironforge and Darnassus send promising students to Renzik, who passes recruits on to Lucius, an SI:7 associate in Lakeshire in the Redridge Mountains."
   }
  ],
  "angles": [
   {
    "target": "class:Rogue",
-   "text": "For an Alliance rogue, Renzik is your bridge from street-level knifework into the high-stakes intelligence network of SI:7, weeding out the reckless before sending you to Lucius in Redridge."
+   "text": "As an Alliance rogue, you pass through Renzik's hands on your way from street-level knifework into SI:7. He sends recruits to Lucius in Redridge to learn fieldcraft and survive."
   },
   {
    "target": "faction:Alliance",
-   "text": "Though a goblin, Renzik is one of Stormwind's most capable intelligence officers, second only to Mathias Shaw within SI:7."
+   "text": "Though he is a goblin, Renzik is one of Stormwind's most capable intelligence officers, second only to Mathias Shaw within SI:7."
   },
   {
    "target": "race:Human",
-   "text": "Standing beside Spymaster Shaw in Old Town, Renzik is a rare goblin fixture in the kingdom's military elite, proving that loyalty and competence outweigh race in the shadow wars."
+   "text": "Beside Spymaster Shaw in Old Town, Renzik is a rare goblin in the kingdom's military elite. His place there shows that loyalty and skill matter in the shadow wars."
   }
  ],
  "keywords": [
@@ -105,5 +105,6 @@
  ],
  "attribution": [
   "Renzik \"The Shiv\""
- ]
+ ],
+ "style": 1
 }

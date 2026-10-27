@@ -7,16 +7,16 @@
  "meta": {
   "wiki": "Boulder Lode Mine"
  },
- "summary": "Boulder Lode Mine is an aggressive excavation cut into the hills of the northeastern Barrens. Though orcish banners and watchtowers suggest the Horde first established the site, it is now firmly seized and operated by the ruthless Venture Company.",
+ "summary": "In the northeastern Barrens, the Venture Company tears into Boulder Lode Mine for its riches. Orcish banners and watchtowers mark a claim the Horde once held.",
  "sections": [
   {
    "title": "Corporate Claim",
-   "body": "The presence of weathered orcish architecture around the mouth of Boulder Lode Mine indicates that the Horde once held or founded the claim. Today, however, the area crawls with Venture Company overseers and enforcers working under the direction of Boss Copperplug. The goblin syndicate strip-mines the canyon with little regard for the local ecosystem or their workers, driven purely by the search for valuable minerals, high-yield gems, and industrial machinery.",
+   "body": "Weathered orcish works frame the mine mouth, signs that the Horde once held or founded the claim. Now Venture Company overseers and enforcers answer to Boss Copperplug. The goblin syndicate strips the canyon for minerals, gems, and machinery, with little care for the land or its workers.",
    "spoiler": 0
   },
   {
    "title": "Gems and Schematics",
-   "body": "Word of the riches pulled from Boulder Lode Mine has reached outside ears in Ratchet. Wharfmaster Dizzywig has dispatched mercenaries to pocket a rumored massive emerald unearthed in its tunnels, while engineers seeking to understand complex goblin machinery know Boss Copperplug keeps key operational manuals hidden away within his camp.",
+   "body": "Riches from the mine have drawn attention from Ratchet. Wharfmaster Dizzywig has sent mercenaries after a rumored massive emerald found in the tunnels. Engineers seeking to understand goblin machinery also know that Boss Copperplug keeps key operating manuals in his camp.",
    "spoiler": 0
   }
  ],
@@ -28,7 +28,7 @@
     "boulder lode boss",
     "who is in boulder lode"
    ],
-   "answer": "The mine is operated by the Venture Company under the immediate authority of Boss Copperplug, guarded by heavily armed corporate enforcers and labor overseers."
+   "answer": "The Venture Company runs Boulder Lode Mine under Boss Copperplug, with armed enforcers and overseers guarding its work."
   },
   {
    "q": "Did the Horde originally own this mine?",
@@ -37,7 +37,7 @@
     "horde mine",
     "why are there horde flags"
    ],
-   "answer": "The surviving orcish woodwork, watchtowers, and weathered Horde banners strongly indicate that the Horde initially established or claimed the site before the Venture Company moved in and took control."
+   "answer": "Weathered orcish woodwork, watchtowers, and Horde banners suggest the Horde first established or claimed the site before the Venture Company took control."
   },
   {
    "q": "Why is Wharfmaster Dizzywig interested in this place?",
@@ -46,7 +46,7 @@
     "emerald quest barrens",
     "miners fortune"
    ],
-   "answer": "Dizzywig caught wind that a miner inside Boulder Lode dug up an unusually large and valuable emerald, and he hires cutthroat freelancers to infiltrate the tunnels and swipe it for a cut of the profits."
+   "answer": "Wharfmaster Dizzywig heard that a miner unearthed an unusually large emerald in the tunnels. He hires cutthroats to steal it for a share of the profits."
   },
   {
    "q": "What is Boss Copperplug's connection to the samophlange?",
@@ -55,17 +55,17 @@
     "copperplug manual",
     "rilli greasygob mine"
    ],
-   "answer": "Boss Copperplug possesses the essential operating manual for the mysterious samophlange machinery found nearby, and engineers in Ratchet send adventurers to recover the book and its scattered pages from his crew."
+   "answer": "Boss Copperplug holds the operating manual for the nearby samophlange machinery. Engineers in Ratchet send adventurers to recover the book and its scattered pages from his crew."
   }
  ],
  "angles": [
   {
    "target": "faction:Horde",
-   "text": "Seeing the Venture Company operating out of fortifications marked with Horde standards is an irritating reminder of how aggressively the goblin cartel encroaches on Kalimdor lands."
+   "text": "As a member of the Horde, seeing Venture Company crews work from fortifications marked with Horde standards is a bitter reminder of the cartel's reach across Kalimdor."
   },
   {
    "target": "profession:Mining",
-   "text": "The deep excavation tunnels cut straight into the arid hills, revealing rich mineral veins that the Venture Company mercilessly strips."
+   "text": "As a miner, you can see rich veins in the deep tunnels cut into the arid hills, where the Venture Company strips the earth without mercy."
   }
  ],
  "keywords": [
@@ -89,5 +89,6 @@
  ],
  "attribution": [
   "Boulder Lode Mine"
- ]
+ ],
+ "style": 1
 }

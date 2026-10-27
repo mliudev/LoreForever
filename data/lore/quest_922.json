@@ -17,16 +17,16 @@
   "wiki": "Rellian Greenspyre (Classic)",
   "chain": []
  },
- "summary": "This errand sends you from Denalan's lakeside retreat in Teldrassil into the capital city of Darnassus. Handing over a timberling seed to the druid Rellian Greenspyre reveals disturbing news about the spreading corruption in the boughs of the World Tree.",
+ "summary": "At Denalan's lakeside retreat in Teldrassil, you carry a timberling seed to Rellian Greenspyre in Darnassus. The handoff brings news of trouble spreading through the World Tree's boughs.",
  "sections": [
   {
    "title": "A Courier to the Capital",
-   "body": "Denalan has spent considerable effort cultivating and understanding the flora and elemental life around Lake Al'Ameth. Having collected seeds from the local timberlings, he dispatches you into Darnassus to present a sample to his colleague, Rellian Greenspyre. Rellian, a fellow druid who walks the tranquil terraces of the Cenarion Enclave, previously voiced curiosity about Denalan's research and hopes to raise a timberling of his own.",
+   "body": "Denalan has studied the plants and elemental life around Lake Al'Ameth. After gathering seeds from the local timberlings, he sends you to Darnassus with a sample for his colleague, Rellian Greenspyre. Rellian is a druid who walks the Cenarion Enclave's terraces. He had shown interest in Denalan's research and hopes to grow a timberling of his own.",
    "spoiler": 0
   },
   {
    "title": "Tainted Growth",
-   "body": "Upon receiving the seed, Rellian brings grim tidings instead of scholarly optimism. His recent investigations have confirmed that the timberlings across Teldrassil are falling victim to an aggressive, pervasive corruption. Worse still, seeds harvested from tainted specimens already carry their parents' blight. Rellian admits that cleansing them lies beyond his personal prowess, suggesting that only Denalan's deep affinity for living things offers any lingering hope of restoring balance.",
+   "body": "Rellian receives the seed and brings grim news. His recent studies show that timberlings across Teldrassil are falling to a widespread, aggressive corruption. Seeds from tainted timberlings carry the blight of their parents. Rellian cannot cleanse them with his own skill, and sees Denalan's bond with living things as their best hope.",
    "spoiler": 1
   }
  ],
@@ -38,7 +38,7 @@
     "who is rellian",
     "rellian greenspyre location"
    ],
-   "answer": "Rellian Greenspyre is a night elf druid who can be found wandering the pathways of the Cenarion Enclave in Darnassus. He maintains close scholarly ties with Denalan, sharing an interest in the ecology and elemental spirits of Teldrassil."
+   "answer": "Rellian Greenspyre is a night elf druid who walks the pathways of Darnassus's Cenarion Enclave. He and Denalan share an interest in Teldrassil's ecology and elemental spirits."
   },
   {
    "q": "Why does Denalan send a timberling seed to Rellian?",
@@ -46,7 +46,7 @@
     "why send timberling seed",
     "denalan's errand"
    ],
-   "answer": "Denalan gathered timberling seeds at Lake Al'Ameth with your assistance. Remembering that Rellian had expressed interest in timberling biology and possessed theories of his own, Denalan offers a seed so Rellian can attempt to grow one in the capital."
+   "answer": "Denalan gathered timberling seeds at Lake Al'Ameth with your help. Rellian had shared his interest in timberling life and his own ideas, so Denalan sends him a seed to try growing in the capital."
   },
   {
    "q": "What problem does Rellian discover?",
@@ -54,7 +54,7 @@
     "what is wrong with the timberling seed",
     "timberling corruption"
    ],
-   "answer": "Rellian discovers that an unnatural corruption has infected the timberlings. Consequently, the seeds harvested from them are already warped by their parents' blight, making it impossible to cultivate healthy sprouts without first discovering a cure."
+   "answer": "Rellian finds that corruption has infected the timberlings. Their seeds carry their parents' blight, so healthy sprouts cannot grow until someone finds a cure."
   },
   {
    "q": "Where does this task lead next?",
@@ -62,7 +62,7 @@
     "what comes after rellian greenspyre",
     "next quest after rellian"
    ],
-   "answer": "Rellian cannot cure the corrupted seeds himself, so he sends you to Wellspring Lake in northern Teldrassil to cut down the most tainted timberlings and bring back their mossy tumors so they can be burned."
+   "answer": "Rellian cannot cure the seeds himself. He sends you to Wellspring Lake in northern Teldrassil to cut down the most tainted timberlings and bring back their mossy tumors to burn."
   },
   {
    "q": "Where can Rellian Greenspyre be found?",
@@ -70,7 +70,7 @@
     "where is rellian",
     "rellian map location"
    ],
-   "answer": "Rellian walks the open pathways through the Cenarion Enclave, situated in the northwestern corner of Darnassus."
+   "answer": "Rellian walks the open pathways of the Cenarion Enclave in Darnassus's northwestern corner."
   },
   {
    "q": "Why can't Rellian cleanse the seeds himself?",
@@ -78,17 +78,17 @@
     "why cant rellian cure them",
     "rellian druid powers"
    ],
-   "answer": "The deep-rooted nature of the corruption exceeds Rellian's specific talents. He defers to Denalan's extraordinary skill with botany and cultivating living things, deeming his friend the best hope for curing future generations of timberlings."
+   "answer": "The corruption runs too deep for Rellian's skills. He trusts Denalan's talent for botany and growing living things, and believes his friend is the best hope for curing future generations of timberlings."
   }
  ],
  "angles": [
   {
    "target": "class:Druid",
-   "text": "For Cenarion initiates, this errand highlights how deeply an unforeseen malaise has penetrated Teldrassil's newly sprouted ecosystem, underscoring the urgent need to preserve native elemental life."
+   "text": "As a druid of the Cenarion, you see how deeply an unknown sickness has reached into Teldrassil's young life. Native elemental life needs protection."
   },
   {
    "target": "race:NightElf",
-   "text": "The timberlings were meant to flourish alongside Teldrassil's growth, making Rellian's discovery of hereditary corruption a worrying sign for the new homeland of the kaldorei."
+   "text": "As a night elf, you know timberlings were meant to flourish with Teldrassil. Their inherited corruption bodes ill for the kaldorei's new homeland."
   }
  ],
  "keywords": [
@@ -108,5 +108,6 @@
  ],
  "attribution": [
   "Rellian Greenspyre (Classic)"
- ]
+ ],
+ "style": 1
 }

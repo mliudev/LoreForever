@@ -8,11 +8,11 @@
   "wiki": "Tai'jin",
   "refs": 1
  },
- "summary": "Tai'jin is a Darkspear troll priest trainer stationed within the barracks of Razor Hill in Durotar. She guides fledgling priests of the Horde, introducing Darkspear initiates to traditional troll rites such as the Hex of Weakness.",
+ "summary": "At the Razor Hill barracks, Tai'jin guides young Darkspear priests in their spiritual traditions. She teaches the balance of light and shadow and rites such as the Hex of Weakness.",
  "sections": [
   {
    "title": "Priestess of Razor Hill",
-   "body": "Stationed inside the sturdy barracks of Razor Hill, Tai'jin serves as a spiritual mentor for young priests stepping out into Durotar. While orcs predominantly turn to shamanism or dark warlock arts, the Darkspear trolls bring their own distinct communion with the spirits and loas to the Horde. Tai'jin offers foundational teachings in the priesthood, ensuring that new acolytes understand both the balance of light and shadow and the spiritual heritage unique to troll culture.",
+   "body": "Tai'jin guides young priests from the Razor Hill barracks as they set out into Durotar. Orcs here turn chiefly to shamanism or warlock arts, while Darkspear trolls bring their communion with spirits and loas to the Horde. Tai'jin teaches the first principles of priesthood, the balance of light and shadow, and the spiritual heritage of troll culture.",
    "spoiler": 0
   }
  ],
@@ -24,7 +24,7 @@
     "where is tai'jin",
     "taijin razor hill"
    ],
-   "answer": "Tai'jin is located on the ground floor of the Razor Hill Barracks in central Durotar, right beside other class trainers."
+   "answer": "Tai'jin is inside the Razor Hill Barracks in central Durotar, on the ground floor beside other class trainers."
   },
   {
    "q": "What does Tai'jin teach?",
@@ -33,7 +33,7 @@
     "what does taijin train",
     "priest spells razor hill"
    ],
-   "answer": "As a priest trainer, she teaches new priest spells, ranks, and abilities to Horde characters as they gain experience, including early training quests for troll initiates."
+   "answer": "Tai'jin teaches new priests spells, ranks, and abilities as they gain experience, including early instruction for troll initiates."
   },
   {
    "q": "Why is a troll priest stationed in an orc settlement?",
@@ -41,7 +41,7 @@
     "why is taijin in razor hill",
     "trolls in razor hill barracks"
    ],
-   "answer": "Razor Hill serves as the main training hub for all young Horde adventurers venturing out of the Valley of Trials and Sen'jin Village. Because orcs do not practice the priestly arts, Tai'jin represents the Darkspear tribe's spiritual traditions for the settlement."
+   "answer": "Razor Hill trains young Horde adventurers leaving the Valley of Trials and Sen'jin Village. Since orcs do not practice the priestly arts, Tai'jin brings Darkspear spiritual traditions to the settlement."
   },
   {
    "q": "What special rites does Tai'jin provide for troll priests?",
@@ -49,17 +49,17 @@
     "hex of weakness quest",
     "taijin quests"
    ],
-   "answer": "Tai'jin guides Darkspear priests through introductory spiritual rites, notably teaching them how to channel ancestral curses through the Hex of Weakness."
+   "answer": "Tai'jin guides Darkspear priests through introductory spiritual rites, including the Hex of Weakness, which channels ancestral curses."
   }
  ],
  "angles": [
   {
    "target": "class:Priest",
-   "text": "For Horde priests training in Durotar, Tai'jin is your primary mentor before heading to the grand halls of Orgrimmar."
+   "text": "As a Horde priest training in Durotar, you learn from Tai'jin before heading to Orgrimmar's grand halls."
   },
   {
    "target": "race:Troll",
-   "text": "Tai'jin introduces young Darkspear priests to their culture's distinctive spells, such as the Hex of Weakness."
+   "text": "As a young Darkspear troll, you can learn distinctive spells from Tai'jin, including the Hex of Weakness."
   }
  ],
  "keywords": [
@@ -80,5 +80,6 @@
  ],
  "attribution": [
   "Tai'jin"
- ]
+ ],
+ "style": 1
 }

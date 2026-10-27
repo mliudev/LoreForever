@@ -8,16 +8,16 @@
   "wiki": "Gazrog",
   "refs": 4
  },
- "summary": "Gazrog is an orc warrior stationed at the Crossroads in the heart of the Barrens. Tasked with maintaining logistics and security along the savannah's perilous roads, he recruits able Horde travelers to deal with regional threats and investigate lost patrols.",
+ "summary": "At the Crossroads, Gazrog keeps watch over the Horde’s roads and supply lines. He calls on passing Horde travelers to face threats in the Barrens and search for lost patrols.",
  "sections": [
   {
    "title": "A Sentinel of the Crossroads",
-   "body": "The Crossroads serves as the vital junction for all Horde transit through Kalimdor, but its isolation leaves supply lines vulnerable to marauders and beasts alike. Gazrog stands watch alongside the settlement's defenders, working to ensure that cargo, coin, and couriers reach their destinations. Maintaining order in a sprawling wilderness requires constant vigilance, and Gazrog relies heavily on passing adventurers to handle crises brewing beyond the outpost's stockades.",
+   "body": "Gazrog watches over the Crossroads and the roads beyond it. Marauders and beasts threaten the supplies moving through this isolated settlement, so he works with its defenders to keep cargo, coin, and couriers moving. The wilderness demands constant attention, and Gazrog depends on passing travelers to answer trouble beyond the outpost’s stockades.",
    "spoiler": 0
   },
   {
    "title": "Savannah Hazards",
-   "body": "Between predatory raptors harassing trails and aggressive quilboar clans ambushing scouts, Gazrog's duties never end. He frequently coordinates responses to highway robberies\u2014such as retrieving stolen Horde shipments\u2014and keeps track of missing soldiers like the grunt Dogran, who ended up an injured prisoner of the quilboar.",
+   "body": "Gazrog’s watch extends across trails where raptors prey on travelers and quilboar clans ambush scouts. He coordinates responses to highway robberies, including the recovery of stolen Horde shipments. He also keeps track of missing soldiers, among them the grunt Dogran, who is injured and held by the quilboar.",
    "spoiler": 0
   }
  ],
@@ -29,7 +29,7 @@
     "where is gazrog",
     "gazrog crossroads"
    ],
-   "answer": "Gazrog is located at the Crossroads, the central settlement connecting the northern, southern, and eastern routes of the Barrens."
+   "answer": "Gazrog can be found at the Crossroads, where the Barrens’ northern, southern, and eastern routes meet."
   },
   {
    "q": "What role does Gazrog play for the Horde?",
@@ -38,7 +38,7 @@
     "who is gazrog",
     "what does gazrog do"
    ],
-   "answer": "He acts as an operational coordinator and guard at the Crossroads, handing out tasks to safeguard regional supply lines, recover intercepted shipments, and locate missing Horde personnel."
+   "answer": "Gazrog coordinates operations and guards the Crossroads. He directs Horde travelers to protect supply lines, recover stolen shipments, and search for missing personnel."
   },
   {
    "q": "What happened to the stolen silver Gazrog asks about?",
@@ -47,7 +47,7 @@
     "who stole the silver",
     "barrens stolen shipment"
    ],
-   "answer": "Horde coin convoys are frequently targeted by clever savannah raptors and opportunists roaming the Barrens trails, prompting Gazrog to send champions to hunt down the beasts and recover the cargo."
+   "answer": "Raptors and opportunists on the Barrens trails often target Horde coin convoys. Gazrog sends champions after the beasts to recover the stolen cargo."
   },
   {
    "q": "Who is Dogran?",
@@ -56,7 +56,7 @@
     "where is dogran",
     "gazrog dogran"
    ],
-   "answer": "Dogran is a Horde grunt who was posted to the Crossroads to work with Gazrog. He never returned from duty: Gazrog has heard he is alive but injured and held prisoner by the quilboar, news he would rather keep from Dogran's mate, Zankaja."
+   "answer": "Dogran is a Horde grunt posted to the Crossroads to work with Gazrog. Gazrog has heard that Dogran is alive, injured, and held by the quilboar, but would rather keep the news from Dogran’s mate, Zankaja."
   },
   {
    "q": "Is Gazrog affiliated with Ratchet or the goblins?",
@@ -65,7 +65,7 @@
     "gazrog faction",
     "gazrog goblin"
    ],
-   "answer": "No. Gazrog serves the Horde directly out of the Crossroads, maintaining security for orc, tauren, and troll interests across the central Barrens."
+   "answer": "Gazrog serves the Horde from the Crossroads. He maintains security for orc, tauren, and troll interests across the central Barrens."
   },
   {
    "q": "Why are raptors stealing supplies in the Barrens?",
@@ -74,17 +74,17 @@
     "do raptors steal things",
     "raptors shiny"
    ],
-   "answer": "No one is quite sure. The raptors hid the stolen silver at their nests in the Raptor Grounds south of Ratchet, and Gazrog wonders whether the stories of their intelligence are closer to the mark than he thought."
+   "answer": "No one knows why the raptors steal supplies. They hid the silver in nests at the Raptor Grounds south of Ratchet, and Gazrog wonders if the stories of their intelligence are true."
   }
  ],
  "angles": [
   {
    "target": "faction:Horde",
-   "text": "Gazrog is an early contact for Horde adventurers leaving Durotar or Mulgore, offering critical work to establish secure travel corridors across Kalimdor."
+   "text": "As a Horde traveler leaving Durotar or Mulgore, you can find work with Gazrog to secure travel routes across Kalimdor."
   },
   {
    "target": "race:Orc",
-   "text": "As an orc veteran holding down the Crossroads, Gazrog embodies the gritty, no-nonsense grit required to tame the unforgiving Kalimdor frontier."
+   "text": "As an orc, you know Gazrog as a veteran holding the Crossroads, where keeping the frontier safe takes grit and resolve."
   }
  ],
  "keywords": [
@@ -106,5 +106,6 @@
  ],
  "attribution": [
   "Gazrog"
- ]
+ ],
+ "style": 1
 }

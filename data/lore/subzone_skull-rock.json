@@ -7,11 +7,11 @@
  "meta": {
   "wiki": "Skull Rock"
  },
- "summary": "Skull Rock is a cavern tucked into the eastern coastal cliffs of Durotar, just east of Orgrimmar. It serves as a fortified coven for the demonic Burning Blade cult right under the capital's nose.",
+ "summary": "Burning Blade cultists gather at Skull Rock, hidden in Durotar's eastern coastal cliffs. Their cavern lies east of Orgrimmar, where they plot against Thrall's Horde.",
  "sections": [
   {
    "title": "A Den of Cultists",
-   "body": "Hidden beneath the crags of northeastern Durotar, Skull Rock is one of the most perilous strongholds of the Burning Blade cult in the region. Dark cultists, fel-worshipping orcs, and summoners gather deep within the winding tunnels to practice demonic arts and weave conspiracies against the nascent Horde. The cell is led by the dangerous warlock Gazz'uz, whose operations pose an imminent threat to the nearby gates of Orgrimmar and travelers traversing the eastern shoreline.",
+   "body": "Burning Blade cultists gather in Skull Rock, a perilous stronghold beneath northeastern Durotar's crags. Dark cultists, fel-worshipping orcs, and summoners meet in its winding tunnels to practice demonic arts and plot against the young Horde. The warlock Gazz'uz leads the cell. Its work threatens Orgrimmar's nearby gates and travelers along the eastern shore.",
    "spoiler": 0
   }
  ],
@@ -23,7 +23,7 @@
     "where is skull rock",
     "what is in skull rock"
    ],
-   "answer": "Skull Rock is a cave system situated in northeastern Durotar along the coast. It is occupied by cultists of the Burning Blade who use its natural cover to plot against Thrall's Horde."
+   "answer": "Skull Rock is a cave system along the coast of northeastern Durotar. Burning Blade cultists use its natural cover to plot against Thrall's Horde."
   },
   {
    "q": "Who controls Skull Rock?",
@@ -32,7 +32,7 @@
     "who runs skull rock",
     "skull rock boss"
    ],
-   "answer": "The cavern is infested by the Burning Blade cult, led by the orc warlock Gazz'uz from the deepest chamber of the cave."
+   "answer": "The Burning Blade cult controls Skull Rock, led by the orc warlock Gazz'uz from the cave's deepest chamber."
   },
   {
    "q": "Why does the Horde care about this cave?",
@@ -40,17 +40,17 @@
     "why clear skull rock",
     "why is skull rock dangerous"
    ],
-   "answer": "Its proximity to Orgrimmar makes it a severe security hazard. The Burning Blade actively seeks to undermine Thrall's new realm and plunge the orcs back into demonic servitude."
+   "answer": "Skull Rock lies close to Orgrimmar, making the cave a serious threat to the Horde's security. The Burning Blade seeks to undermine Thrall's new realm and return the orcs to demonic servitude."
   }
  ],
  "angles": [
   {
    "target": "class:Warlock",
-   "text": "The dark arts practiced within Skull Rock showcase the unchecked spread of demonic influence that Thrall's Horde seeks to root out and control."
+   "text": "As a warlock, you can see the demonic influence spreading through Skull Rock, which Thrall's Horde seeks to root out and control."
   },
   {
    "target": "faction:Horde",
-   "text": "Clearing the cultists from Skull Rock is vital to securing the coastal approaches to Durotar and protecting Orgrimmar from subversion from within."
+   "text": "As a member of the Horde, you know clearing Skull Rock's cultists helps secure Durotar's coastal approaches and protect Orgrimmar from subversion within."
   }
  ],
  "keywords": [
@@ -68,5 +68,6 @@
  ],
  "attribution": [
   "Skull Rock"
- ]
+ ],
+ "style": 1
 }

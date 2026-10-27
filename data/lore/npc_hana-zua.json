@@ -8,11 +8,11 @@
   "wiki": "Hana'zua",
   "refs": 2
  },
- "summary": "Hana'zua is a Darkspear troll scout stationed in the Valley of Trials who fell victim to the poisonous beasts prowling the canyon ridges. Stricken and wounded by the monstrous scorpid Sarkoth, he lies awaiting assistance from young Horde initiates seeking to prove their valor.",
+ "summary": "In the Valley of Trials, Hana'zua lies wounded after meeting Sarkoth on the canyon ridges. The Darkspear scout waits for help from young Horde initiates.",
  "sections": [
   {
    "title": "A Scout Fallen to Venom",
-   "body": "While traversing the arid heights overlooking the Valley of Trials, Hana'zua encountered Sarkoth, an exceptionally vicious and venomous scorpid that stalks the cliffs. Overwhelmed and stung by the beast, the troll barely survived the confrontation. Unable to move or return to camp on his own, he languishes amid the dust, counting on passing recruits to finish the creature and deliver word of his plight back to the Den.",
+   "body": "Hana'zua lies wounded on the ridges above the Valley of Trials. The Darkspear scout met Sarkoth, a vicious scorpid that stalks the cliffs, and its venomous sting nearly killed him. Unable to move or make his way back to camp, he waits in the dust for passing recruits. He needs them to kill Sarkoth and carry word of his plight to the Den.",
    "spoiler": 0
   }
  ],
@@ -24,7 +24,7 @@
     "who is hanazua",
     "injured troll valley of trials"
    ],
-   "answer": "Hana'zua is a Darkspear troll found injured in the Valley of Trials in Durotar. He was ambushed and poisoned while tracking beasts on the ridges."
+   "answer": "Hana'zua is a wounded Darkspear troll scout in the Valley of Trials in Durotar. Beasts on the ridges ambushed and poisoned him."
   },
   {
    "q": "What happened to Hana'zua?",
@@ -33,7 +33,7 @@
     "who poisoned hanazua",
     "hanazua injury"
    ],
-   "answer": "He was struck down by Sarkoth, a large and deadly scorpid lurking on the crags above the training grounds. Its potent venom left him incapacitated and unable to return to safety."
+   "answer": "Sarkoth, a large scorpid lurking on the crags above the training grounds, struck Hana'zua down. Its venom left him unable to move or return to safety."
   },
   {
    "q": "What does he ask travelers to do?",
@@ -41,17 +41,17 @@
     "hanazua quest",
     "what does hanazua want"
    ],
-   "answer": "Hana'zua asks able adventurers to avenge his wounding by slaying Sarkoth, collecting the beast's claw as proof, and carrying word of his condition back to the instructors at the Den."
+   "answer": "Hana'zua asks travelers to kill Sarkoth, bring back the beast's claw as proof, and carry word of his condition to the instructors at the Den."
   }
  ],
  "angles": [
   {
    "target": "race:Troll",
-   "text": "For Darkspear initiates just beginning their journey in Durotar, discovering a wounded kinsman underscores the lethal nature of the local wildlife and the need to protect their newfound allies."
+   "text": "As a Darkspear initiate beginning your journey in Durotar, you may find a wounded kinsman among the local wildlife's dangers. Protecting your new allies matters."
   },
   {
    "target": "faction:Horde",
-   "text": "Hana'zua's survival and vengeance serve as one of the earliest tests of loyalty and combat readiness for aspiring champions of the Horde."
+   "text": "For the Horde, helping Hana'zua survive and avenge his wound is an early test of your loyalty and readiness to fight."
   }
  ],
  "keywords": [
@@ -72,5 +72,6 @@
  ],
  "attribution": [
   "Hana'zua"
- ]
+ ],
+ "style": 1
 }

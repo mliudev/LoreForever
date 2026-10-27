@@ -17,16 +17,16 @@
   "wiki": "Call of Water (Durotar)",
   "chain": []
  },
- "summary": "Call of Water marks the beginning of a shaman's communion with the fluid element of healing and adaptability. Having already proved their mastery over earth and fire, an initiate is directed by Swart in Razor Hill to seek out the recluse Islen Waterseer on the eastern coast of the Barrens.",
+ "summary": "Swart sends a shaman from Razor Hill to seek Islen Waterseer on the Barrens coast. Earth and fire have tested the initiate; now water calls for a different kind of understanding.",
  "sections": [
   {
    "title": "A Shift in the Elements",
-   "body": "A shaman's training demands balance. After learning the steadfast resilience of earth and enduring the wild ferocity of fire, initiates are called toward the flowing, adaptable nature of water. In Razor Hill, the orc shaman Swart assesses his students' spiritual growth. When an initiate has proven their command of flame without being consumed by it, Swart recognizes that their spirit is tempered enough to seek out the teachings of water.",
+   "body": "Swart, the shaman trainer in Razor Hill, guides initiates through the elements. Earth has taught them endurance, and fire has tested their command. Once a shaman proves they can wield flame without being consumed by it, Swart judges them ready to seek the teachings of water.",
    "spoiler": 0
   },
   {
    "title": "The Recluse of the Merchant Coast",
-   "body": "To learn the secrets of the water spirits, the shaman must travel south along the Southfury River into the Barrens and push east toward the coast, just beyond the bustling goblin port of Ratchet. There, by the ocean shore near the carcass of a massive shark, dwells Islen Waterseer. Unlike the trainers in Durotar's towns, Islen lives where the salt waves relentlessly meet the land, serving as the Horde's principal guide for communion with water.",
+   "body": "Islen Waterseer lives on the Barrens coast, beyond Ratchet. To reach her, travel south along the Southfury River into the Barrens, then head east to the shore near a massive shark's carcass. Islen dwells where the waves meet the land, apart from the trainers in Durotar's towns. She guides the Horde in communion with water.",
    "spoiler": 0
   }
  ],
@@ -38,7 +38,7 @@
     "who starts call of water",
     "swart"
    ],
-   "answer": "Swart, an orc shaman trainer in Razor Hill, gives this task once you have proven your command over fire and earth."
+   "answer": "Swart, the orc shaman trainer in Razor Hill, sends you onward after you prove your command of earth and fire."
   },
   {
    "q": "Where can I find Islen Waterseer?",
@@ -47,7 +47,7 @@
     "islen location",
     "how to find islen waterseer"
    ],
-   "answer": "Islen Waterseer lives along the eastern coast of the Barrens, just south of Ratchet. Follow the Southfury River south out of Durotar, head toward the shore past Ratchet, and look for her camp marked by a large beached shark."
+   "answer": "Islen Waterseer lives on the eastern coast of the Barrens, just south of Ratchet. Follow the Southfury River south from Durotar, then head for the shore and look for her camp beside a large beached shark."
   },
   {
    "q": "Why must a shaman learn the elements in a specific order?",
@@ -56,7 +56,7 @@
     "why water after fire",
     "shaman progression"
    ],
-   "answer": "Shamanic tradition requires an initiate to build spiritual balance step by step. Grounded by earth and tempered by fire, the soul becomes steady enough to withstand the fluid, shifting purity of water without being swept away."
+   "answer": "Shamanic tradition asks an initiate to build spiritual balance step by step. Earth grounds the soul, and fire tempers it for water's shifting nature."
   },
   {
    "q": "Is this quest available to other classes?",
@@ -64,7 +64,7 @@
     "can non shaman do this",
     "is call of water shaman only"
    ],
-   "answer": "No. The Call of Water quests are exclusive to shamans seeking to earn the favor of the water spirits and manifest their Water Totem."
+   "answer": "No. Shamans alone seek the favor of the water spirits and seek to manifest their Water Totem."
   },
   {
    "q": "What landmark should I look for when searching for Islen?",
@@ -73,7 +73,7 @@
     "how to spot islen's camp",
     "islen coast"
    ],
-   "answer": "Look for a massive beached shark along the shoreline south of Ratchet. Islen has made her dwelling right beside it."
+   "answer": "Look for a massive beached shark on the shore south of Ratchet. Islen lives beside it."
   },
   {
    "q": "What happens after reaching Islen Waterseer?",
@@ -82,17 +82,17 @@
     "what does islen do",
     "after call of water"
    ],
-   "answer": "Speaking to Islen begins the true trials of water, requiring the shaman to journey across Kalimdor and Lordaeron to gather pure drops of water and confront spirits before earning the totem."
+   "answer": "Speaking with Islen begins the trials of water. The shaman must travel across Kalimdor and Lordaeron, gather pure drops of water, and confront spirits before earning the totem."
   }
  ],
  "angles": [
   {
    "target": "class:Shaman",
-   "text": "This summons marks the critical transition from destructive fire and stalwart earth toward the restorative, restorative powers of water, unlocking the spiritual conduit required to cast healing totems."
+   "text": "As a shaman, you turn from earth and fire toward water's restorative power, opening a spiritual path to healing totems."
   },
   {
    "target": "faction:Horde",
-   "text": "Horde shamans across Kalimdor\u2014whether orc, troll, or tauren\u2014are directed to Islen Waterseer on the Barrens coast to undertake their watery communion."
+   "text": "As a Horde shaman, you are directed to Islen Waterseer on the Barrens coast to undertake your communion with water."
   }
  ],
  "keywords": [
@@ -115,5 +115,6 @@
  ],
  "attribution": [
   "Call of Water (Durotar)"
- ]
+ ],
+ "style": 1
 }

@@ -10,11 +10,11 @@
    "quest:3065"
   ]
  },
- "summary": "The Simple Tablet is a written missive handed to novice troll warriors arriving in the Valley of Trials. Delivered by Gornek, it directs the fledgling combatant to present themselves to Frang, the local warrior trainer.",
+ "summary": "At the Valley of Trials, Gornek gives new troll warriors a message to take to Frang.",
  "sections": [
   {
    "title": "A Summons to Battle",
-   "body": "Within the harsh red bounds of the Valley of Trials, new recruits are quickly set to work. For young trolls seeking the path of the warrior, Gornek passes along this simple slate or parchment. Written by the troll Tar'sere and addressed to Frang, the master-at-arms resting near the Den, it serves as an official introduction to martial training in Durotar. It urges the recruit to step forward, present themselves, and prove their willingness to swing weapons under the banner of the Horde.",
+   "body": "Gornek gives new troll warriors a message from Tar'sere, addressed to Frang, the warrior trainer near the Den. It introduces the recruit to combat training in Durotar and asks them to present themselves to Frang. The message calls on them to take up weapons for the Horde.",
    "spoiler": 0
   }
  ],
@@ -26,7 +26,7 @@
     "what is this tablet",
     "troll warrior tablet"
    ],
-   "answer": "It is an introductory written message delivered by Gornek to aspiring troll warriors in the Valley of Trials. It bids them to read it and seek out Frang for professional combat training."
+   "answer": "Gornek gives aspiring troll warriors in the Valley of Trials a message that directs them to Frang for combat training."
   },
   {
    "q": "Who sends the tablet?",
@@ -35,7 +35,7 @@
     "who wrote the tablet",
     "tablet sender"
    ],
-   "answer": "The message is signed by the troll Tar'sere, who sends the recruit to Frang, the warrior trainer stationed outside the Den in the Valley of Trials."
+   "answer": "Tar'sere signs the message and directs the recruit to Frang, the warrior trainer outside the Den in the Valley of Trials."
   },
   {
    "q": "Where do I take the tablet?",
@@ -44,7 +44,7 @@
     "where to bring tablet",
     "frang location"
    ],
-   "answer": "Bring it to Frang, who can be found resting in the shade outside the entrance of the Den in the Valley of Trials."
+   "answer": "Take the Simple Tablet to Frang, who rests outside the Den in the Valley of Trials."
   },
   {
    "q": "Who receives this tablet?",
@@ -52,17 +52,17 @@
     "can anyone get simple tablet",
     "which class gets simple tablet"
    ],
-   "answer": "The Simple Tablet is provided specifically to troll warriors beginning their rites of passage in the Valley of Trials."
+   "answer": "The Simple Tablet is given to troll warriors beginning their rites of passage in the Valley of Trials."
   }
  ],
  "angles": [
   {
    "target": "class:Warrior",
-   "text": "The tablet marks a troll warrior's formal introduction to Frang, initiating their combat instruction within the Horde."
+   "text": "As a warrior, the tablet introduces you to Frang for combat training."
   },
   {
    "target": "race:Troll",
-   "text": "For Darkspear trolls carving out their place alongside the orcs in Durotar, receiving the summons signifies their duty to bolster the frontline ranks."
+   "text": "As a Darkspear troll in Durotar, this summons calls you to strengthen the Horde's frontline ranks alongside the orcs."
   }
  ],
  "keywords": [
@@ -87,5 +87,6 @@
  "attribution": [
   "Simple Tablet",
   "Simple Tablet (quest)"
- ]
+ ],
+ "style": 1
 }

@@ -8,16 +8,16 @@
   "wiki": "Wrenix the Wretched",
   "refs": 2
  },
- "summary": "Wrenix the Wretched is a goblin tinker stationed in the bustling port town of Ratchet. Operating beside his strange gizmotronic apparatus, he offers specialized assistance to those seeking to crack tough locks and plunder secure caches.",
+ "summary": "Beside his strange apparatus in Ratchet, Wrenix the Wretched helps crack tough locks. The goblin tinker offers tools to open secure caches.",
  "sections": [
   {
    "title": "A Tinker in Ratchet",
-   "body": "Found lounging alongside his peculiar machinery in the goblin port of Ratchet, Wrenix the Wretched represents the opportunistic, pragmatic spirit of the Steamwheedle Cartel. Despite his downcast moniker, he possesses specialized knowledge regarding mechanisms, contraptions, and the delicate art of bypass and salvage, making him an invaluable contact for aspiring scoundrels and scouts working the coast.",
+   "body": "Wrenix the Wretched works beside his machinery in Ratchet, the goblin port on the Barrens coast. As a tinker of the Steamwheedle Cartel, he knows mechanisms and contraptions, and how to bypass locks and salvage what lies beyond them. Rogues and scouts working the coast can turn to him for help.",
    "spoiler": 0
   },
   {
    "title": "The Gizmotronic Apparatus",
-   "body": "Positioned right next to Wrenix is his prized gizmotronic apparatus, a humming testament to goblin ingenuity. Wrenix puts this device and his own mechanical expertise to work by supplying specialized tools\u2014such as thieves' tools and lock-picking instruments\u2014to operatives seeking to recover stolen Southsea pirate contraband along the Merchant Coast.",
+   "body": "Wrenix keeps his gizmotronic apparatus close at hand. He uses it and his mechanical skill to supply thieves' tools and lock-picking instruments. Those seeking to recover stolen Southsea pirate contraband along the Merchant Coast can put them to use.",
    "spoiler": 0
   }
  ],
@@ -29,7 +29,7 @@
     "who is wrenix",
     "wrenix the wretched"
    ],
-   "answer": "Wrenix is a goblin tinker residing in Ratchet in the Barrens. He works alongside his gizmotronic apparatus, dealing in specialized contraptions and lock-picking tools."
+   "answer": "Wrenix is a goblin tinker in Ratchet, in the Barrens. He works beside his gizmotronic apparatus and deals in contraptions and lock-picking tools."
   },
   {
    "q": "Where can Wrenix be found?",
@@ -38,7 +38,7 @@
     "where is wrenix",
     "wrenix ratchet"
    ],
-   "answer": "Wrenix is located in the port town of Ratchet, along the eastern coast of the Barrens, standing beside his large mechanical device."
+   "answer": "Wrenix can be found beside his large mechanical device in Ratchet, the port town on the eastern coast of the Barrens."
   },
   {
    "q": "What is the gizmotronic apparatus next to him?",
@@ -47,7 +47,7 @@
     "wrenix machine",
     "what is that machine"
    ],
-   "answer": "It is Wrenix's personal goblin-engineered apparatus used for tinkering, diagnostic work, and crafting specialized instruments like precision thieves' tools."
+   "answer": "Wrenix's gizmotronic apparatus is a goblin-made machine for tinkering and diagnostic work. He uses it to craft specialized instruments such as precision thieves' tools."
   },
   {
    "q": "Why is he helping adventurers against the Southsea Freebooters?",
@@ -56,17 +56,17 @@
     "plundering the plunderers lore",
     "wrenix pirates"
    ],
-   "answer": "The Southsea pirates along the Barrens coast hoard valuable plunder in locked lockboxes. Wrenix uses his mechanical tools to help resourceful rogues crack those chests open for mutual profit."
+   "answer": "Southsea pirates along the Barrens coast keep valuable plunder in locked lockboxes. Wrenix's mechanical tools help resourceful rogues open them, for mutual profit."
   }
  ],
  "angles": [
   {
    "target": "class:Rogue",
-   "text": "Wrenix serves as an essential mentor in the craft of lockpicking for young rogues, providing the tools and tasks needed to practice bypass techniques on Southsea pirate lockboxes."
+   "text": "As a rogue, you can get tools from Wrenix and practice bypassing Southsea pirate lockboxes."
   },
   {
    "target": "profession:Engineering",
-   "text": "Wrenix's odd gizmotronic apparatus is a quintessential example of Steamwheedle gadgetry\u2014noisy, temperamental, but remarkably effective at precision work."
+   "text": "Wrenix's gizmotronic apparatus shows Steamwheedle gadgetry at work: noisy, temperamental, and effective at precision work."
   }
  ],
  "keywords": [
@@ -88,5 +88,6 @@
  ],
  "attribution": [
   "Wrenix the Wretched"
- ]
+ ],
+ "style": 1
 }

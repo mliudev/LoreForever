@@ -26,21 +26,21 @@
    "The Binding (Succubus, Orgrimmar)"
   ]
  },
- "summary": "This quest sends Horde warlocks from the clefts of Orgrimmar into the dry expanses of the Barrens in search of a missing grunt named Dogran. His mate, Zankaja, fears the worst after days of silence, sending the practitioner to question Dogran's superior at the Crossroads. Unraveling Dogran's fate forms a crucial step in the warlock ritual to bind a succubus.",
+ "summary": "A missing grunt named Dogran leaves Zankaja waiting in Orgrimmar. His mate has heard nothing for days, so she sends you to question his superior, Gazrog, at the Crossroads. For a warlock, the search also serves a ritual to bind a succubus.",
  "sections": [
   {
    "title": "A Mate's Despair",
-   "body": "On the bluffs of Orgrimmar, Zankaja waits in quiet dread. Her mate Dogran was assigned to the Crossroads on an honorable promotion, yet his scheduled return has long passed without a single word. Unaware of the intricate dark arts pulling strings behind the scenes, she reaches out to a sympathetic traveler to seek answers from his commander, Gazrog.",
+   "body": "Zankaja waits on the bluffs of Orgrimmar, fearing for her mate Dogran. He was sent to the Crossroads on an honorable promotion, but his return is overdue and she has heard nothing for days. She asks you to seek news from his commander, Gazrog. She does not know that dark arts are at work behind the search.",
    "spoiler": 0
   },
   {
    "title": "Grim Tidings in the Barrens",
-   "body": "Reaching the central outpost of the Crossroads, the truth turns dark. Dogran is not merely delayed by duties; he has fallen into the hands of the ferocious quilboar infesting the plains. Gazrog acknowledges that while Dogran still lives, his capture presents a brutal reality he is hesitant to send back to Zankaja.",
+   "body": "Gazrog tells you what happened to Dogran at the Crossroads, the central Horde outpost in the Barrens. Quilboar infest the plains, and Dogran has fallen into their hands. He still lives, but his capture is a grim truth Gazrog hesitates to send back to Zankaja.",
    "spoiler": 1
   },
   {
    "title": "An Instrument of Summoning",
-   "body": "For an aspiring warlock, Dogran's tragedy is not merely a rescue mission. The path to summoning and mastering a succubus—a creature bound by raw passion, despair, and torment—demands relics touched by true emotion. Dogran's suffering and his bond with Zankaja provide the exact emotional conduit required for the binding ritual.",
+   "body": "The warlock's search for Dogran also serves the work of summoning and mastering a succubus. The binding ritual calls for relics touched by true emotion. Dogran's suffering and his bond with Zankaja provide the emotional conduit the ritual needs.",
    "spoiler": 1
   }
  ],
@@ -52,7 +52,7 @@
     "who is dogran",
     "grunt dogran"
    ],
-   "answer": "Dogran is an orc grunt stationed in the Barrens who recently earned a promotion to the Crossroads. He is also the mate of Zankaja, an orc woman living in Orgrimmar."
+   "answer": "Dogran is an orc grunt stationed in the Barrens, recently promoted to the Crossroads. He is Zankaja's mate, and she lives in Orgrimmar."
   },
   {
    "q": "Why does a warlock care about a missing orc guard?",
@@ -61,7 +61,7 @@
     "why do warlocks do this",
     "succubus connection"
    ],
-   "answer": "Warlock mentors in the Cleft of Shadow orchestrate this search because the binding ritual for a succubus requires tokens steeped in deep mortal emotions, such as love, devotion, and suffering."
+   "answer": "Warlock mentors in the Cleft of Shadow direct you to seek news of Dogran. The binding ritual for a succubus needs relics touched by deep mortal emotions, including love, devotion, and suffering."
   },
   {
    "q": "Where is Gazrog located?",
@@ -70,7 +70,7 @@
     "gazrog location",
     "crossroads gazrog"
    ],
-   "answer": "Gazrog is stationed at the Crossroads in the Barrens, serving as one of the primary Horde authorities managing defense against local threats."
+   "answer": "Gazrog is at the Crossroads in the Barrens, where he helps manage Horde defenses against local threats."
   },
   {
    "q": "What happened to Dogran?",
@@ -79,7 +79,7 @@
     "where is dogran",
     "dogran fate"
    ],
-   "answer": "Dogran is overdue to return to Zankaja. She asks you to seek news from Gazrog at the Crossroads."
+   "answer": "Dogran is overdue to return to Zankaja, who has heard nothing from him for days. She asks you to seek news from Gazrog at the Crossroads."
   },
   {
    "q": "Who gives this quest?",
@@ -87,7 +87,7 @@
     "quest giver",
     "where to start news of dogran"
    ],
-   "answer": "The quest is given by Zankaja on the bluffs of Orgrimmar, after being directed to her by the warlock trainer Cazul."
+   "answer": "Zankaja gives it to you on the bluffs of Orgrimmar, after the warlock trainer Cazul directs you to her."
   },
   {
    "q": "What comes next in the chain?",
@@ -102,15 +102,15 @@
  "angles": [
   {
    "target": "class:Warlock",
-   "text": "This leg of your journey transitions your training from dark texts in Orgrimmar into real-world exploitation of mortal tragedy to claim a succubus."
+   "text": "As a warlock, you move from dark texts in Orgrimmar to using mortal tragedy in your effort to claim a succubus."
   },
   {
    "target": "faction:Horde",
-   "text": "The mission illustrates the constant danger faced by Horde grunts attempting to secure the perilous crossroads of Kalimdor from hostile indigenous threats."
+   "text": "As a member of the Horde, you see the danger its grunts face while securing the Crossroads of Kalimdor from hostile threats."
   },
   {
    "target": "race:Orc",
-   "text": "The quiet grief of Zankaja reveals the personal cost behind the Horde's expansion and defense throughout Durotar and the Barrens."
+   "text": "As an orc, you see in Zankaja's grief the personal cost of the Horde's expansion and defense across Durotar and the Barrens."
   }
  ],
  "keywords": [
@@ -136,5 +136,6 @@
  ],
  "attribution": [
   "News of Dogran"
- ]
+ ],
+ "style": 1
 }

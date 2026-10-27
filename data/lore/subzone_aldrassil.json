@@ -7,11 +7,11 @@
  "meta": {
   "wiki": "Aldrassil"
  },
- "summary": "Aldrassil is the colossal bough-tree and settlement nestled at the heart of Shadowglen in northeastern Teldrassil. Serving as the primary refuge and training ground for young kaldorei, its carved hollows shelter trainers, merchants, and local leadership.",
+ "summary": "Young kaldorei gather beneath Aldrassil’s vast boughs in Shadowglen. The settlement shelters trainers, merchants, and local leaders in hollows carved through the great tree.",
  "sections": [
   {
    "title": "Heart of Shadowglen",
-   "body": "Rising high above the secluded vale of Shadowglen, Aldrassil functions as both shelter and civic hub for young night elves taking their first steps in the world. Built into and around the colossal trunk of this ancient growth, winding ramps lead past class trainers and artisans to the high roost where Tenaron Stormgrip oversees the glade's protection. While the world bough Teldrassil stretches across the horizon, Aldrassil provides a safe, grounded canopy where novices learn their arts before venturing down into the troubled wilds of Kalimdor.",
+   "body": "Aldrassil shelters young night elves in Shadowglen. Ramps wind through its immense trunk, passing trainers and artisans on the way to the high roost. Tenaron Stormgrip watches over the glade’s protection from there. Beyond the tree, Teldrassil stretches across the horizon, while novices learn their arts beneath Aldrassil’s canopy before venturing into Kalimdor’s troubled wilds.",
    "spoiler": 0
   }
  ],
@@ -23,7 +23,7 @@
     "what is aldrassil",
     "shadowglen big tree"
    ],
-   "answer": "Aldrassil is the massive, hollowed-out tree and settlement situated in the center of Shadowglen, northeastern Teldrassil. It serves as the starting haven where young night elves gather training, goods, and guidance."
+   "answer": "Aldrassil shelters young night elves at the heart of Shadowglen, in northeastern Teldrassil. Its hollowed trunk holds a settlement where they find training, goods, and guidance."
   },
   {
    "q": "Who leads the settlement at Aldrassil?",
@@ -32,7 +32,7 @@
     "aldrassil leader",
     "tenaron stormgrip location"
    ],
-   "answer": "Tenaron Stormgrip oversees Shadowglen from his roost at the very top of Aldrassil, coordinating the defense of the vale and guiding newly awakened kaldorei."
+   "answer": "Tenaron Stormgrip oversees Shadowglen from his roost atop Aldrassil. He coordinates the vale’s defense and guides newly awakened kaldorei."
   },
   {
    "q": "What services can be found here?",
@@ -41,17 +41,17 @@
     "vendors aldrassil",
     "what is in aldrassil"
    ],
-   "answer": "The tree houses class trainers for young night elf warriors, rogues, druids, hunters, and priests, alongside local supply merchants, armorers, and questgivers attending to the immediate needs of the glade."
+   "answer": "Aldrassil’s trainers teach young night elf warriors, rogues, druids, hunters, and priests. Supply merchants and armorers also serve the glade’s immediate needs."
   }
  ],
  "angles": [
   {
    "target": "race:NightElf",
-   "text": "For many young kaldorei, the carved hollows and ramps of Aldrassil are their first memory of civic life and the foundation of their early training."
+   "text": "For many young kaldorei, Aldrassil’s carved hollows and ramps are their first memory of civic life and the start of their training."
   },
   {
    "target": "class:Druid",
-   "text": "Aldrassil demonstrates the kaldorei affinity for living architecture, shaped from living wood without breaking the balance of the forest."
+   "text": "As a druid, you can see the kaldorei affinity for living architecture in Aldrassil, shaped from living wood while keeping the forest’s balance."
   }
  ],
  "keywords": [
@@ -71,5 +71,6 @@
  ],
  "attribution": [
   "Aldrassil"
- ]
+ ],
+ "style": 1
 }

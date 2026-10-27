@@ -10,16 +10,16 @@
    "quest:1525"
   ]
  },
- "summary": "Fire Tar is a volatile substance gathered by Razormane quilboar spellcasters across the eastern Barrens. To Horde shamans, it serves as a crucial ritual component used to brew the Fire Sapta, which grants spiritual communion with the element of fire.",
+ "summary": "Across the eastern Barrens, Razormane spellcasters carry Fire Tar. Horde shamans use it to brew the Fire Sapta, which lets them commune with fire spirits.",
  "sections": [
   {
    "title": "A Concoction of the Razormane",
-   "body": "Carried almost exclusively by spellcasting Razormane quilboar\u2014including their geomancers, mystics, and thornweavers\u2014fire tar is an alchemical substance tuned closely to flame. While the bristled tribes of the Barrens use it for their own harsh magic and rituals, shamanic instructors recognize it as an essential worldly reagent capable of bridging the gap between mortal senses and raw elemental fury.",
+   "body": "Razormane geomancers, mystics, and thornweavers carry Fire Tar. The quilboar use the flame-tuned substance in their harsh magic and rituals. Shamanic instructors prize it as a worldly reagent that helps mortal senses reach the raw fury of the elements.",
    "spoiler": 0
   },
   {
    "title": "The Path to the Fire Totem",
-   "body": "When young orc and troll shamans are sent to Telf Joolam perched high in Durotar's crags, they are charged with forging their fire totem. Telf requires two key elements tied to heat and flame to brew a fire sapta: a reagent pouch stolen from Burning Blade cultists, and fire tar harvested from the Razormane. Drinking the resulting brew allows the shaman to pierce the veil and perceive the elemental spirits of flame awaiting them atop the nearby peaks.",
+   "body": "Young orc and troll shamans travel to Telf Joolam, high among Durotar's crags, to forge their fire totems. Telf asks them for a reagent pouch taken from Burning Blade cultists and Fire Tar gathered from the Razormane. He brews the two ingredients into a fire sapta. Drinking it lets a shaman perceive the fire spirits waiting atop the nearby peaks.",
    "spoiler": 0
   }
  ],
@@ -31,7 +31,7 @@
     "what does fire tar do",
     "why do i need fire tar"
    ],
-   "answer": "Fire Tar is a necessary ritual ingredient brought to the hermit shaman Telf Joolam in Durotar. Combined with reagents from the Burning Blade, it is brewed into a Fire Sapta\u2014a potion that enables a shaman to view and commune with fire spirits to earn their fire totem."
+   "answer": "Shamans bring Fire Tar to Telf Joolam in Durotar, where he brews it with reagents from the Burning Blade into a Fire Sapta. The brew lets a shaman see and commune with fire spirits to earn a fire totem."
   },
   {
    "q": "Who carries Fire Tar?",
@@ -40,7 +40,7 @@
     "fire tar mobs",
     "where to get fire tar"
    ],
-   "answer": "It is carried by spellcasting quilboar of the Razormane tribe in the eastern Barrens, such as Razormane Geomancers, Mystics, Thornweavers, and Water Seekers."
+   "answer": "Spellcasting Razormane quilboar carry Fire Tar in the eastern Barrens. These include Razormane Geomancers, Mystics, Thornweavers, and Water Seekers."
   },
   {
    "q": "Why do shamans need ingredients tied to hostile spellcasters?",
@@ -48,7 +48,7 @@
     "why quilboar tar",
     "why warlocks and quilboar"
    ],
-   "answer": "Saptas require physical components deeply saturated with the corresponding element. Because both the Razormane casters and Burning Blade warlocks channel intense heat and destructive flame, their everyday materials are already steeped in the fiery essence needed to awaken a shaman's elemental sight."
+   "answer": "Saptas need physical components saturated with the matching element. Razormane casters and Burning Blade warlocks channel heat and destructive flame, so their everyday materials carry the fiery essence needed to awaken a shaman's elemental sight."
   },
   {
    "q": "Where does Telf Joolam brew the Fire Sapta?",
@@ -56,17 +56,17 @@
     "where is telf joolam",
     "turn in fire tar"
    ],
-   "answer": "Telf Joolam resides on a high cliff overlooking the crags of Durotar, near the path between Razor Hill and the Barrens. There he instructs initiates on balancing the destructive and creative nature of flame."
+   "answer": "Telf Joolam brews the Fire Sapta on a high cliff overlooking Durotar's crags, near the path between Razor Hill and the Barrens. He teaches initiates to balance flame's destructive and creative nature."
   }
  ],
  "angles": [
   {
    "target": "class:Shaman",
-   "text": "Gathering Fire Tar marks an essential rite of passage, teaching you to seek out elemental resonance in the wider world to brew the Fire Sapta and earn your Fire Totem."
+   "text": "As a shaman, gathering Fire Tar is an essential rite of passage. You seek elemental resonance in the wider world, then use it to brew the Fire Sapta and earn your Fire Totem."
   },
   {
    "target": "faction:Horde",
-   "text": "Acquiring Fire Tar takes young Horde adventurers out of Durotar and across the Southfury River into the Barrens, confronting the aggressive Razormane tribes."
+   "text": "As a member of the Horde, you cross the Southfury River from Durotar into the Barrens to gather Fire Tar. There you face the aggressive Razormane tribes."
   }
  ],
  "keywords": [
@@ -92,5 +92,6 @@
  "attribution": [
   "Fire Tar",
   "Call of Fire (3)"
- ]
+ ],
+ "style": 1
 }

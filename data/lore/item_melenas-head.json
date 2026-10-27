@@ -10,11 +10,11 @@
    "quest:932"
   ]
  },
- "summary": "Melenas' Head is the severed bounty taken from Lord Melenas, a satyr commander encamped inside Fel Rock. Brought back as absolute proof of his demise, the trophy marks the quiet elimination of a lingering demonic threat on the boughs of Teldrassil.",
+ "summary": "At Fel Rock, Melenas' Head marks the end of a lingering demonic threat on Teldrassil. Taken as a bounty from Lord Melenas, the satyr commander encamped there, it is proof of his death.",
  "sections": [
   {
    "title": "An Unspoken Disgrace",
-   "body": "To the night elves guarding Shadowglen and the surrounding reaches of Teldrassil, the mere existence of satyrs upon their new World Tree is a bitter disgrace. Lord Melenas chose to make his lair inside the twisted caverns of Fel Rock, just north of the elven settlements, rallying aggressive grell warriors to his banner. Because the kaldorei prize discretion when handling corruptions so close to their heartlands, this bloody trophy serves as private proof that his scheming has been snuffed out before his influence could spread.",
+   "body": "Satyrs on Teldrassil’s new World Tree shame the night elves who guard Shadowglen and the surrounding reaches. Lord Melenas made his lair in Fel Rock’s twisted caverns, just north of the elven settlements, and rallied aggressive grell warriors to his banner. The kaldorei prize discretion when dealing with corruption so close to their heartlands. Melenas' Head is private proof that his schemes have ended before his influence could spread.",
    "spoiler": 0
   }
  ],
@@ -26,7 +26,7 @@
     "who is melenas",
     "melenas story"
    ],
-   "answer": "Lord Melenas was a satyr commander lurking inside the cave known as Fel Rock on Teldrassil. He gathered a war band of grell under his command to plot against the nearby kaldorei outposts."
+   "answer": "Lord Melenas was a satyr commander who lurked in Fel Rock on Teldrassil. He gathered grell warriors under his command to plot against nearby kaldorei outposts."
   },
   {
    "q": "Why must his death remain quiet?",
@@ -35,7 +35,7 @@
     "twisted hatred secret",
     "why quiet"
    ],
-   "answer": "The presence of satyrs\u2014ancient, cursed night elves twisted by demonic corruption\u2014so close to Teldrassil's sacred boughs is seen as a deep embarrassment by kaldorei authorities. Dealing with him swiftly and quietly prevents panic and minimizes shame."
+   "answer": "Satyrs are ancient night elves cursed and twisted by demonic corruption, and their presence so close to Teldrassil’s sacred boughs is a deep embarrassment to kaldorei authorities. Dealing with Melenas swiftly and quietly prevents panic and limits the shame."
   },
   {
    "q": "Where was Melenas' Head taken from?",
@@ -44,17 +44,17 @@
     "fel rock location",
     "melenas location"
    ],
-   "answer": "The head is retrieved deep inside Fel Rock, a corrupted cavern located just north of Dolanaar in central Teldrassil."
+   "answer": "Melenas' Head was taken deep inside Fel Rock, a corrupted cavern just north of Dolanaar in central Teldrassil."
   }
  ],
  "angles": [
   {
    "target": "race:NightElf",
-   "text": "Satyrs represent a tragic, demonic perversion of ancient night elf lineage, making the quiet execution of Lord Melenas an act of both necessity and cultural shame."
+   "text": "As a night elf, you know satyrs are a tragic demonic corruption of your ancient lineage. Lord Melenas’ quiet execution was both necessary and a source of cultural shame."
   },
   {
    "target": "class:Warrior",
-   "text": "Carrying the severed head of an enemy warlord offers unmistakable, primal proof that a dangerous adversary and his grell host have been broken."
+   "text": "As a warrior, you know a severed enemy warlord’s head gives unmistakable proof that a dangerous adversary and his grell host have been broken."
   }
  ],
  "keywords": [
@@ -75,5 +75,6 @@
  "attribution": [
   "Melenas' Head",
   "Twisted Hatred"
- ]
+ ],
+ "style": 1
 }

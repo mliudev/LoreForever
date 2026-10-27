@@ -8,16 +8,16 @@
   "wiki": "Captain Thalo'thas Brightsun",
   "refs": 2
  },
- "summary": "Captain Thalo'thas Brightsun is a privateer affiliated with the Steamwheedle Cartel, stationed at the docks of Ratchet. Despite keeping a cordial demeanor toward traveling Alliance members, he harbors intense resentment toward the Theramore forces at Northwatch Hold who dare fire upon his vessels.",
+ "summary": "At Ratchet's docks, Captain Thalo'thas Brightsun keeps a cordial face toward Alliance travelers. The privateer serves the Steamwheedle Cartel and resents the Theramore forces at Northwatch Hold for firing on his vessels.",
  "sections": [
   {
    "title": "Privateer of Ratchet",
-   "body": "Operating out of the bustling neutral port of Ratchet, Captain Thalo'thas Brightsun leads the Thalo'dan Privateers under the broad banner of the Steamwheedle Cartel. In theory, Ratchet's merchants welcome all flags so long as their coin is good, but maritime trade along the Barrens coast is fraught with danger. Just south of the port lies Northwatch Hold, an aggressive Alliance fortification whose heavy artillery threatens neutral sea lanes. Brightsun maintains an outward neutrality toward visiting travelers, but he has reached his limit with the belligerent garrison firing on his fleet.",
+   "body": "Captain Thalo'thas Brightsun leads the Thalo'dan Privateers from Ratchet's docks under the Steamwheedle Cartel's banner. Ratchet welcomes merchants of every flag if they bring coin, but danger shadows trade along the Barrens coast. Northwatch Hold lies just south of the port, where its heavy cannons threaten neutral sea lanes. Brightsun stays cordial toward visiting travelers, yet the garrison's attacks on his fleet have tried his patience.",
    "spoiler": 0
   },
   {
    "title": "A Private War with Northwatch",
-   "body": "Because full-scale conflict would endanger Ratchet's neutrality, Brightsun cannot deploy an open armada against the fortress. Instead, he looks to capable Horde mercenaries to settle the score. He discreetly arranges strikes against Northwatch Hold to silence the fortress's cannons and secure the freedom of his captured crew. By employing Horde auxiliaries rather than provoking a direct Alliance retaliation against the cartel, Brightsun protects his shipping interests while keeping Ratchet's official ledger clean.",
+   "body": "An open assault on Northwatch Hold could endanger Ratchet's neutrality, so Brightsun cannot send his fleet against the fort. He turns instead to capable Horde mercenaries to settle the score. Their strikes aim to silence the cannons and free his captured crew. By using Horde auxiliaries, Brightsun protects his shipping interests without provoking direct Alliance retaliation against the cartel or entering the conflict openly.",
    "spoiler": 0
   }
  ],
@@ -29,7 +29,7 @@
     "who is brightsun",
     "ratchet captain"
    ],
-   "answer": "Captain Thalo'thas Brightsun is a sea captain and leader of the Thalo'dan Privateers, operating out of Ratchet in service to the Steamwheedle Cartel."
+   "answer": "Captain Thalo'thas Brightsun commands the Thalo'dan Privateers from Ratchet in service to the Steamwheedle Cartel."
   },
   {
    "q": "Why is he angry at Northwatch Hold?",
@@ -38,7 +38,7 @@
     "brightsun northwatch issue",
     "why hate alliance"
    ],
-   "answer": "The Alliance forces stationed at Northwatch Hold have repeatedly fired heavy cannons upon his merchant vessels and imprisoned his sailors, disrupting trade along the coast."
+   "answer": "Northwatch Hold's Alliance forces have repeatedly fired heavy cannons at Brightsun's merchant vessels and imprisoned his sailors, disrupting trade along the coast."
   },
   {
    "q": "Why does he only hire the Horde to attack Northwatch?",
@@ -47,7 +47,7 @@
     "why horde only",
     "brightsun alliance quests"
    ],
-   "answer": "While he maintains diplomatic neutrality toward Alliance travelers visiting Ratchet, he cannot reasonably ask Alliance loyalists to bombard an Alliance stronghold like Northwatch Hold. The Horde, however, has every strategic reason to weaken Theramore's military outpost."
+   "answer": "Brightsun remains diplomatic toward Alliance travelers in Ratchet, but cannot ask Alliance loyalists to attack their own stronghold. The Horde has reason to weaken Theramore's military outpost."
   },
   {
    "q": "Does he belong to the Alliance or the Horde?",
@@ -56,17 +56,17 @@
     "is brightsun horde",
     "is brightsun neutral"
    ],
-   "answer": "He belongs to neither; his primary allegiance is to the Steamwheedle Cartel and his own privateers, though his grievances currently align his interests with the Horde."
+   "answer": "Brightsun belongs to neither faction. His allegiance lies with the Steamwheedle Cartel and his privateers, though his current grievances bring his interests in line with the Horde."
   }
  ],
  "angles": [
   {
    "target": "faction:Horde",
-   "text": "Brightsun provides the Horde with a valuable pretext to strike Northwatch Hold, crippling Alliance naval artillery along the central Kalimdor coast."
+   "text": "Brightsun gives the Horde a reason to strike Northwatch Hold and cripple Alliance naval artillery along central Kalimdor's coast."
   },
   {
    "target": "faction:Alliance",
-   "text": "Brightsun will speak cordially with you in port, but the relentless aggression of Theramore's forces at Northwatch Hold has pushed him to covertly conspire with your enemies."
+   "text": "Brightsun speaks cordially with you in port, but Northwatch Hold's Theramore forces have driven him to conspire in secret with your enemies."
   }
  ],
  "keywords": [
@@ -89,5 +89,6 @@
  ],
  "attribution": [
   "Captain Thalo'thas Brightsun"
- ]
+ ],
+ "style": 1
 }

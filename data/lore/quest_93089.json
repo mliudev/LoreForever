@@ -1,0 +1,89 @@
+{
+ "key": "quest:93089",
+ "type": "quest",
+ "name": "What Comes Next",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   93089
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "The High Order seeks your blessing before leaving Zephras Isle with its Kirin Tor allies. Its expedition depends on finding an arcane answer to the island\u2019s instability.",
+ "sections": [
+  {
+   "title": "The Departure",
+   "body": "High Elder Shadowsong has blessed the expedition, and preparations are ready. Ansirem has worked to establish skycutter travel between Dalaran and Zephras Isle. The vanguard is preparing to depart, and you can speak with Elaadrin Evengale when you are ready to leave the island.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who do I speak with before leaving Zephras Isle?",
+   "aliases": [
+    "who do i talk to",
+    "leave zephras isle",
+    "elaadrin departure"
+   ],
+   "answer": "Speak with Elaadrin Evengale when you are ready to leave Zephras Isle."
+  },
+  {
+   "q": "Where is the High Order going?",
+   "aliases": [
+    "where are they going",
+    "high order destination",
+    "next stop"
+   ],
+   "answer": "The High Order is preparing an expedition, with skycutter transport linking Dalaran and Zephras Isle."
+  },
+  {
+   "q": "Who is helping the High Order?",
+   "aliases": [
+    "who are the allies",
+    "kirin tor help",
+    "high order friends"
+   ],
+   "answer": "The Kirin Tor are helping the High Order, and Ansirem has worked on skycutter transport between Dalaran and Zephras Isle."
+  },
+  {
+   "q": "What is the expedition seeking?",
+   "aliases": [
+    "what are they looking for",
+    "arcane solution",
+    "why leave the island"
+   ],
+   "answer": "The expedition hopes to find an arcane solution that can bring stability to Zephras Isle."
+  },
+  {
+   "q": "What happened to the cult?",
+   "aliases": [
+    "cult status",
+    "is the cult defeated",
+    "what about the cult"
+   ],
+   "answer": "Elaadrin says the cult has been defeated, and preparations for the expedition are complete."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "ansirem",
+  "dalaran",
+  "elaadrin evengale",
+  "high order",
+  "kirin tor",
+  "skycutter",
+  "what comes next",
+  "zephras isle"
+ ],
+ "related": [
+  "zone:zephras",
+  "subzone:dalaran",
+  "quest:92596"
+ ],
+ "style": 1,
+ "attribution": [
+  "In-game quest text: What Comes Next"
+ ]
+}

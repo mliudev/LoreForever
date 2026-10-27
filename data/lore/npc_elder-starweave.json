@@ -8,11 +8,11 @@
   "wiki": "Elder Starweave",
   "refs": 1
  },
- "summary": "Elder Starweave is an ancestral night elf spirit honored during the Lunar Festival. Found resting at the port town of Auberdine along the misty coast of Darkshore, she shares the wisdom of ancient ages with passing pilgrims.",
+ "summary": "During the Lunar Festival, Elder Starweave rests in Auberdine as a night elf ancestral spirit. She shares ancient wisdom with pilgrims along Darkshore’s coast.",
  "sections": [
   {
    "title": "A Beacon in Auberdine",
-   "body": "Appearing as an ethereal shade among the coastal dwellings of Auberdine, Elder Starweave is one of the revered ancestors honored by the Cenarion Circle and the peoples of Kalimdor. While many travelers rush through the port on their way inland or across the sea, those who pause before her receive an ancestral blessing. Starweave speaks of celestial movements, observing that the stars of the modern era trace unfamiliar paths that serve as beacons of hope and fortitude for future generations.",
+   "body": "In Auberdine, Elder Starweave appears as an ethereal shade among the coastal dwellings. The Cenarion Circle and the peoples of Kalimdor honor her as an ancestor. Travelers pass through the port on their way inland or across the sea, but those who pause before her receive an ancestral blessing. She speaks of the stars, whose paths in this age differ from those of old, and sees them as beacons of hope and fortitude for generations to come.",
    "spoiler": 0
   }
  ],
@@ -24,7 +24,7 @@
     "who is starweave",
     "starweave the elder"
    ],
-   "answer": "Elder Starweave is a night elf ancestral spirit who appears in Auberdine during the Lunar Festival to offer greetings, ancient wisdom, and Coins of Ancestry to travelers."
+   "answer": "During the Lunar Festival, Elder Starweave appears in Auberdine as a night elf ancestral spirit. She greets travelers, shares ancient wisdom, and offers Coins of Ancestry."
   },
   {
    "q": "Where can Elder Starweave be found?",
@@ -33,7 +33,7 @@
     "elder starweave location",
     "starweave spot"
    ],
-   "answer": "She can be found lingering near the settlement of Auberdine along the shoreline of Darkshore."
+   "answer": "Elder Starweave can be found near Auberdine, along the shoreline of Darkshore."
   },
   {
    "q": "Why does she appear as a spirit?",
@@ -42,7 +42,7 @@
     "is starweave dead",
     "why ghost"
    ],
-   "answer": "She is an honored ancestor brought forth during the Lunar Festival, appearing in spiritual form so the living may pay respects to those who shaped the night elves' distant past."
+   "answer": "Elder Starweave is an honored ancestor who appears in spiritual form during the Lunar Festival, so the living may pay respects to those who shaped the night elves’ distant past."
   },
   {
    "q": "Can Horde players speak to her?",
@@ -50,17 +50,17 @@
     "can horde visit starweave",
     "horde elder starweave"
    ],
-   "answer": "Yes. Ancestral elders honored during the Lunar Festival welcome travelers of all affiliations, though Horde adventurers must navigate the Alliance-friendly port of Auberdine with caution."
+   "answer": "Yes. Ancestral elders honored during the Lunar Festival welcome travelers of every affiliation. Horde adventurers must cross Auberdine, an Alliance-friendly port, with care."
   }
  ],
  "angles": [
   {
    "target": "race:NightElf",
-   "text": "Meeting Elder Starweave in Darkshore connects kaldorei adventurers directly to their long lineage of forebears who looked to Elune and the stars through ancient cataclysms."
+   "text": "As a night elf adventurer in Darkshore, you meet Elder Starweave and connect with your long lineage of forebears, who looked to Elune and the stars through ancient cataclysms."
   },
   {
    "target": "class:Druid",
-   "text": "Druids observing the festival find Starweave's celestial reflections aligned with the Cenarion teachings of renewal, memory, and harmony with the natural world."
+   "text": "As a druid observing the festival, you may hear Starweave’s thoughts on the stars echo Cenarion teachings of renewal, memory, and harmony with the natural world."
   }
  ],
  "keywords": [
@@ -80,5 +80,6 @@
  ],
  "attribution": [
   "Elder Starweave"
- ]
+ ],
+ "style": 1
 }

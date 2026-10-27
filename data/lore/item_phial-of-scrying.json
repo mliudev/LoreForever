@@ -10,16 +10,16 @@
    "quest:944"
   ]
  },
- "summary": "The Phial of Scrying is an enchanted vessel provided by the ancient of lore Onu in Darkshore. When used, it manifests a scrying bowl that allows distant communion across the corrupted woodlands.",
+ "summary": "In Darkshore, scouts use the Phial of Scrying to reach Onu from afar. The ancient of lore provides the enchanted vessel, which calls forth a bowl for scrying across corrupted woodlands.",
  "sections": [
   {
    "title": "A Lens Across Darkshore",
-   "body": "Entrusted to scouts investigating deep within Darkshore, the Phial of Scrying contains mystical waters that conjures a temporary scrying bowl upon the earth. This tool enables long-distance divination, allowing travelers venturing into perilous reaches like the Master's Glaive to commune directly with Onu without immediately journeying back to his grove.",
+   "body": "The Phial of Scrying carries mystical waters that form a temporary bowl on the ground. Scouts investigating deep within Darkshore use it for long-distance divination. From perilous places such as the Master's Glaive, they can speak directly with Onu instead of returning to his grove.",
    "spoiler": 0
   },
   {
    "title": "Uncovering the Cult",
-   "body": "Onu provides the phial specifically to monitor the unsettling presence of the Twilight's Hammer cultists. By establishing a scrying link at the site of the ancient fallen master impaled by an enormous glaive, the scout confirms that dark cultists are actively gathering around the ancient remains, seeking slivers of forgotten power that linger even in death.",
+   "body": "Onu gives the phial to watch the Twilight's Hammer cultists. A scout opens a scrying link at the place where an ancient fallen master lies impaled by an enormous glaive. The vision confirms that dark cultists are gathering around the ancient remains, seeking slivers of forgotten power that linger even in death.",
    "spoiler": 1
   }
  ],
@@ -31,7 +31,7 @@
     "scrying bowl function",
     "what is this phial for"
    ],
-   "answer": "When uncorked, the phial manifests a magical scrying bowl on the ground, allowing an adventurer in the field to contact and speak with the ancient of lore Onu across vast distances."
+   "answer": "Uncork the Phial of Scrying and a magical bowl forms on the ground. From the field, you can use it to contact and speak with Onu across vast distances."
   },
   {
    "q": "Who provides the Phial of Scrying?",
@@ -39,7 +39,7 @@
     "who gives phial of scrying",
     "where do i get the phial"
    ],
-   "answer": "The ancient treant Onu entrusts the phial to scouts in Darkshore when tasking them with reconnoitering the Master's Glaive to the south."
+   "answer": "The ancient treant Onu gives the phial to scouts in Darkshore when he sends them to reconnoiter the Master's Glaive to the south."
   },
   {
    "q": "What happens if the phial is lost or exhausted?",
@@ -48,7 +48,7 @@
     "get another phial",
     "replace phial"
    ],
-   "answer": "If the phial is lost or used before completing your mission, Onu can provide another while he is meditating in Darkshore."
+   "answer": "If you lose the phial or use it before finishing your mission, Onu can give you another while he meditates in Darkshore."
   },
   {
    "q": "Why is Onu scrying into the Master's Glaive?",
@@ -56,17 +56,17 @@
     "why scry master's glaive",
     "onu glaive mission"
    ],
-   "answer": "Onu knows the Master's Glaive is where an old lord fell and asks you to search for Twilight's Hammer cultists there. Their purpose is revealed as the investigation continues."
+   "answer": "Onu knows an old lord fell at the Master's Glaive, and asks you to search there for Twilight's Hammer cultists. Their purpose becomes clear as the investigation continues."
   }
  ],
  "angles": [
   {
    "target": "race:NightElf",
-   "text": "For the night elves of Darkshore, ancient tools of divination like scrying waters are vital for maintaining vigilance over holy woodlands encroached upon by alien cults."
+   "text": "As a night elf of Darkshore, you know tools of divination such as scrying waters help keep watch over holy woodlands encroached upon by alien cults."
   },
   {
    "target": "class:Druid",
-   "text": "Druids recognize scrying bowls as a harmonious blend of natural water and communion magic, allowing the forest's wardens to exchange whispers across corrupted ground."
+   "text": "As a druid, you recognize scrying bowls as a blend of natural water and communion magic. They let the forest's wardens exchange whispers across corrupted ground."
   }
  ],
  "keywords": [
@@ -88,5 +88,6 @@
  "attribution": [
   "Phial of Scrying",
   "The Master's Glaive (quest)"
- ]
+ ],
+ "style": 1
 }

@@ -8,11 +8,11 @@
   "wiki": "Orenthil Whisperwind",
   "refs": 1
  },
- "summary": "Orenthil Whisperwind is a night elf resident of Teldrassil, encountered beneath the boughs of Shadowglen.",
+ "summary": "Beneath Teldrassil’s boughs, Orenthil Whisperwind lives among the night elves of Shadowglen.",
  "sections": [
   {
    "title": "A Friendly Face in Teldrassil",
-   "body": "Orenthil Whisperwind resides among the night elves of Shadowglen, beneath the canopy of Teldrassil. Little is recorded about his personal history.",
+   "body": "Orenthil Whisperwind lives among the night elves beneath Teldrassil’s canopy in Shadowglen. Little is known of his personal history.",
    "spoiler": 0
   }
  ],
@@ -24,7 +24,7 @@
     "orenthil whisperwind info",
     "who is this elf"
    ],
-   "answer": "He is a night elf found in Shadowglen on Teldrassil. He serves as a welcoming figure for adventurers setting out into the boughs of the World Tree."
+   "answer": "Orenthil Whisperwind is a night elf found in Shadowglen on Teldrassil. He welcomes adventurers setting out into the boughs of the World Tree."
   },
   {
    "q": "Where can I find Orenthil Whisperwind?",
@@ -33,7 +33,7 @@
     "where is orenthil",
     "orenthil map"
    ],
-   "answer": "Orenthil resides in Shadowglen, the night elf starting settlement within Teldrassil."
+   "answer": "You can find Orenthil Whisperwind in Shadowglen, the night elf starting settlement within Teldrassil."
   }
  ],
  "angles": [],
@@ -50,5 +50,6 @@
  ],
  "attribution": [
   "Orenthil Whisperwind"
- ]
+ ],
+ "style": 1
 }

@@ -10,16 +10,16 @@
    "quest:4812"
   ]
  },
- "summary": "A vial filled with consecrated water drawn from the moonwell in Auberdine. Its potent, purifying nature magic is used to test and react with a mysterious red crystal embedded along Darkshore's eastern ridges.",
+ "summary": "At Auberdine, water from the moonwell carries purifying nature magic. The vial is used to test a mysterious red crystal set among Darkshore’s eastern ridges.",
  "sections": [
   {
    "title": "A Vessel of Purifying Waters",
-   "body": "Drawn directly from the shimmering moonwell resting in Auberdine, the Moonwell Water Tube contains liquid steeped in the blessed energies of Elune. Moonwells serve night elf settlements as sacred reservoirs of restorative magic and purity, rendering even a small phial remarkably potent against corruption or unknown mystical phenomena.",
+   "body": "Water from Auberdine’s moonwell fills the tube. The sacred pool is tied to Elune and holds restorative, purifying magic. Even a small amount can be used against corruption or to test strange mystical forces.",
    "spoiler": 0
   },
   {
    "title": "Investigating the Red Crystal",
-   "body": "The tube was prepared specifically to test a massive, alien red crystal that appeared against the eastern cliffside of Darkshore. Because the corrupted heights of Felwood loom directly above the mountain wall, researchers feared the crimson formation shared a dark origin. When the blessed water cascades across the crystal's facets, the magic forces the opaque stone to turn briefly transparent, revealing the humming mysteries locked inside.",
+   "body": "Researchers prepared the tube to test a huge red crystal that appeared along Darkshore’s eastern cliffside. Felwood’s corrupted heights loom above the mountain wall, so they feared the crystal shared that dark origin. When the blessed water runs over its facets, the opaque stone briefly turns transparent, exposing the mysteries humming within.",
    "spoiler": 1
   }
  ],
@@ -31,7 +31,7 @@
     "water tube source",
     "auberdine moonwell water"
    ],
-   "answer": "The water is scooped directly from the sacred moonwell located in the night elf haven of Auberdine, on the western coast of Darkshore."
+   "answer": "The water comes from the sacred moonwell in Auberdine, the night elf haven on Darkshore’s western coast."
   },
   {
    "q": "Why use moonwell water on the red crystal?",
@@ -40,7 +40,7 @@
     "purpose of the water tube",
     "what does the water do"
    ],
-   "answer": "Moonwell water holds concentrated nature and lunar magic. Pouring it onto the bizarre red crystal tests its mystical composition, triggering an ethereal reaction that makes the opaque mineral surface momentarily clear."
+   "answer": "Moonwell water carries concentrated nature and lunar magic. Poured onto the strange red crystal, it tests the stone’s mystical nature and makes its opaque surface briefly clear."
   },
   {
    "q": "Why are the researchers concerned about the crystal?",
@@ -49,17 +49,17 @@
     "red crystal danger",
     "felwood connection"
    ],
-   "answer": "The crystal rests directly beneath the eastern mountains bordering Felwood. Given Felwood's deep demonic taint, scholars fear the alien formation may be an extension of that corruption seeping down into Darkshore."
+   "answer": "The crystal lies beneath the eastern mountains that border Felwood. Its deep demonic taint has led scholars to fear that the alien formation carries corruption down into Darkshore."
   }
  ],
  "angles": [
   {
    "target": "race:NightElf",
-   "text": "Using blessed waters from a moonwell to probe foreign corruption reflects the kaldorei reliance on Elune's grace to reveal hidden truths."
+   "text": "For night elves, using blessed moonwell water to probe foreign corruption reflects their reliance on Elune’s grace to reveal hidden truths."
   },
   {
    "target": "class:Druid",
-   "text": "Druids recognize moonwell water as a vital conduit of the balance of nature, uniquely suited to counteracting unnatural corruption."
+   "text": "Druids know moonwell water as a vital vessel of nature’s balance, suited to counter unnatural corruption."
   }
  ],
  "keywords": [
@@ -83,5 +83,6 @@
  "attribution": [
   "Moonwell Water Tube",
   "As Water Cascades"
- ]
+ ],
+ "style": 1
 }

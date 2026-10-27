@@ -17,16 +17,16 @@
   "wiki": "The Sprouted Fronds",
   "chain": []
  },
- "summary": "Following Denalan's botanical experiments at Lake Al'Ameth, the planted frond takes root and sprouts. This quiet moment marks a successful harvest in understanding Teldrassil's strange and vital flora. Travelers inspecting the garden beds can witness the rapid growth firsthand.",
+ "summary": "At Denalan's garden by Lake Al'Ameth, the planted frond has taken root and sprouted. Travelers can see the new growth among the garden beds.",
  "sections": [
   {
    "title": "A Garden by Lake Al'Ameth",
-   "body": "Tucked away near Lake Al'Ameth, the botanist Denalan dedicates himself to cataloging the peculiar plant life of Teldrassil. After planting a mysterious shimmering frond, the soil quickly yields result. In his tended planter, strange, trembling fronds shoot up from the rich loam, eager to be gathered and examined.",
+   "body": "You find Denalan's garden near Lake Al'Ameth, where the botanist studies Teldrassil's peculiar plants. After a shimmering frond is planted, new fronds rise from the soil in his planter, ready to be gathered and examined.",
    "spoiler": 0
   },
   {
    "title": "The Strange Flora of the World Tree",
-   "body": "Teldrassil is young, vast, and teeming with rapid natural development that both fascinates and troubles night elf herbalists. The shimmering fronds and their sprouted offshoots are emblematic of how swiftly life takes hold on the boughs of the great tree, hinting at the powerful yet unpredictable vitality woven into the island's soil.",
+   "body": "Teldrassil is young and vast, and its plant life grows quickly. Night elf herbalists find that growth fascinating and troubling. The shimmering fronds and their offshoots show how quickly life takes hold on the World Tree's boughs, though its vitality can be hard to predict.",
    "spoiler": 0
   }
  ],
@@ -38,7 +38,7 @@
     "what are these plants",
     "denalans fronds"
    ],
-   "answer": "They are the plants that sprouted after Denalan planted a shimmering frond at his lakeside camp. Grown from that frond, found elsewhere in Teldrassil, these peculiar plants tremble with energy when ready for harvest."
+   "answer": "They are the plants that sprouted after Denalan planted a shimmering frond at his camp by Lake Al'Ameth. The peculiar fronds grow from it and tremble when they are ready to be gathered."
   },
   {
    "q": "Where is Denalan's garden located?",
@@ -56,7 +56,7 @@
     "denalan experiment",
     "purpose of fronds"
    ],
-   "answer": "Denalan studies the curious and rapid growth patterns of Teldrassil's plant life. By planting seeds in controlled soil, he investigates their nature and tests whether they possess useful restorative or herbal properties."
+   "answer": "Denalan studies the curious, rapid growth of Teldrassil's plants. He plants seeds in prepared soil to learn about them and test for useful restorative or herbal properties."
   },
   {
    "q": "Are the sprouted fronds dangerous?",
@@ -65,7 +65,7 @@
     "do fronds attack",
     "is the plant harmful"
    ],
-   "answer": "No. Unlike some of the corrupted or hostile flora elsewhere on the boughs of Teldrassil, these sprouted fronds are harmless botanical specimens waiting to be plucked."
+   "answer": "No. These sprouted fronds are harmless plants waiting to be picked, unlike some corrupted or hostile plants elsewhere on Teldrassil's boughs."
   },
   {
    "q": "What comes before this quest?",
@@ -73,7 +73,7 @@
     "prereq for sprouted fronds",
     "what quest comes first"
    ],
-   "answer": "Adventurers first discover a shimmering frond in the wilds of Teldrassil and bring it to Denalan, who plants it in his garden planter in hopes it will take root."
+   "answer": "Adventurers first find a shimmering frond in Teldrassil's wilds and bring it to Denalan. He plants it in his garden planter, hoping it will take root."
   },
   {
    "q": "Why do the fronds tremble?",
@@ -81,21 +81,21 @@
     "trembling fronds",
     "why do they shake"
    ],
-   "answer": "The fronds tremble as they await picking. The source does not explain what causes this movement."
+   "answer": "The fronds tremble as they await picking. What causes the movement is unknown."
   }
  ],
  "angles": [
   {
    "target": "profession:Herbalism",
-   "text": "Denalan's research reflects the practical arts of gathering and studying Teldrassil's unique vegetation, demonstrating how quickly local seeds adapt to nurtured soil."
+   "text": "Denalan's research shows the practical work of gathering and studying Teldrassil's plants, and how quickly local seeds adapt to tended soil."
   },
   {
    "target": "race:NightElf",
-   "text": "Tending the newly sprouted flora reflects the kaldorei responsibility to monitor and nurture the life taking root across their young World Tree."
+   "text": "As a kaldorei, you help watch over and nurture the life taking root across your young World Tree."
   },
   {
    "target": "class:Druid",
-   "text": "Druids observing Denalan's planter can appreciate the quiet balance of nature, seeing life flourish under attentive care even amid Teldrassil's growing perils."
+   "text": "As a druid, you can see life flourish under attentive care in Denalan's planter, even as Teldrassil faces growing perils."
   }
  ],
  "keywords": [
@@ -115,5 +115,6 @@
  ],
  "attribution": [
   "The Sprouted Fronds"
- ]
+ ],
+ "style": 1
 }

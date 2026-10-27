@@ -8,11 +8,11 @@
   "wiki": "Zenn Foulhoof",
   "refs": 2
  },
- "summary": "Zenn Foulhoof is a satyr lingering just east of Dolanaar in Teldrassil. He approaches passersby with requests for forest reagents, while the local night elves keep a close eye on him.",
+ "summary": "East of Dolanaar, Zenn Foulhoof asks travelers for forest reagents. The night elves watch him closely.",
  "sections": [
   {
    "title": "A Schemer in the Woods",
-   "body": "Unlike most satyrs, who are outright hostiles serving demonic masters, Zenn Foulhoof somehow secured a tenuous tolerance just outside Dolanaar. He maintains a friendly facade, claiming he has changed or wants to trade in harmless forest reagents like nightsaber fangs, strigid owl feathers, and webwood spider silk. In reality, he manipulates gullible youths to procure ingredients for foul rituals. Dolanaar's council refuses to let him operate unchecked; rather than executing him immediately, they order adventurers to humiliate him by feeding him corrupted forest fruit, temporarily transforming the scheming satyr into a harmless frog.",
+   "body": "Zenn Foulhoof keeps a place just outside Dolanaar, where the night elves tolerate him under watch. Most satyrs serve demonic masters and attack openly, but Zenn offers a friendly face. He says he has changed, or asks to trade for nightsaber fangs, strigid owl feathers, and webwood spider silk. Gullible youths gather the ingredients he needs for foul rituals. Dolanaar's council will not let him act unchecked. They order travelers to feed him corrupted forest fruit, humiliating him by turning the scheming satyr into a harmless frog for a time.",
    "spoiler": 1
   }
  ],
@@ -24,7 +24,7 @@
     "why don't night elves kill zenn",
     "is zenn foulhoof evil"
    ],
-   "answer": "Zenn maintains a friendly veneer and has not yet openly committed atrocities on the World Tree, leading the council of Dolanaar to discipline him through public humiliation and watchfulness rather than an immediate death sentence."
+   "answer": "Zenn Foulhoof keeps a friendly face and has not openly committed atrocities on the World Tree. Dolanaar's council watches him and chooses public humiliation over an immediate death sentence."
   },
   {
    "q": "What happens when you feed Zenn the corrupted cones and berries?",
@@ -33,7 +33,7 @@
     "seek redemption quest",
     "zenn frog"
    ],
-   "answer": "The elders of Dolanaar order this as penance for Zenn's misdeeds. The result of the punishment is revealed when he eats the corrupted fruit."
+   "answer": "Dolanaar's elders order the corrupted fruit as penance for Zenn's misdeeds. The punishment's result appears when he eats it."
   },
   {
    "q": "What is a satyr?",
@@ -41,17 +41,17 @@
     "what are satyrs",
     "satyr lore"
    ],
-   "answer": "Satyrs are night elves who were warped into horned, cloven-hoofed fiends during the War of the Ancients after pledging service to the Burning Legion. Most are utterly corrupted and violently hostile to their uncorrupted kin."
+   "answer": "Satyrs were night elves who became horned, cloven-hoofed fiends during the War of the Ancients after pledging service to the Burning Legion. Most are deeply corrupted and violently hostile to their uncorrupted kin."
   }
  ],
  "angles": [
   {
    "target": "race:NightElf",
-   "text": "Satyrs represent the ultimate betrayal of kaldorei heritage. Seeing one lounging on the sacred boughs of Teldrassil is an insult to Elune and the spirits of the wild."
+   "text": "As a night elf, seeing a satyr lounging on Teldrassil's sacred boughs insults Elune and the spirits of the wild. Satyrs have betrayed kaldorei heritage."
   },
   {
    "target": "class:Druid",
-   "text": "Zenn's tampering with wild reagents and deliberate spreading of corrupting taints directly offends Cenarion teachings, which seek to keep Teldrassil pristine."
+   "text": "As a druid, you may see Zenn's tampering with wild reagents and spreading corrupting taints as an offense against Cenarion teachings, which seek to keep Teldrassil pristine."
   }
  ],
  "keywords": [
@@ -71,5 +71,6 @@
  ],
  "attribution": [
   "Zenn Foulhoof"
- ]
+ ],
+ "style": 1
 }

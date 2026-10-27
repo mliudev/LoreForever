@@ -8,21 +8,21 @@
   "wiki": "Shenthul",
   "refs": 7
  },
- "summary": "Shenthul is a jungle troll rogue trainer based in the shadowy subterranean reaches of the Cleft of Shadow in Orgrimmar. As an operative of the Shattered Hand, he orchestrates espionage operations across Kalimdor and initiates rising rogues into the guild's covert ranks.",
+ "summary": "In Orgrimmar's Cleft of Shadow, Shenthul trains rogues and serves the Shattered Hand. He directs covert work across Kalimdor and brings promising rogues into its ranks.",
  "sections": [
   {
    "title": "Eyes in the Chasm",
-   "body": "Tucked away inside the murky depths of the Cleft of Shadow, Shenthul serves as one of the Horde's foremost rogue mentors. While the warriors and shamans above march openly across the red dust of Durotar, Shenthul trains those who prefer stealth, ambush, and subterfuge. Under his tutelage, initiates master essential fieldcraft and lethal arts, learning to operate within the unforgiving politics and harsh wilderness of Kalimdor.",
+   "body": "Shenthul trains rogues in Orgrimmar's Cleft of Shadow. While warriors and shamans march openly across Durotar, he teaches stealth, ambush, and subterfuge. His students learn fieldcraft and lethal arts for work in Kalimdor's harsh wilderness and unforgiving politics.",
    "spoiler": 0
   },
   {
    "title": "The Shattered Hand",
-   "body": "Shenthul represents the Shattered Hand, an order transformed from an old orcish clan into the Horde's intelligence network and secret service. He views the organization as a timeless, watchful veil blanketing Kalimdor\u2014acting as investigator, judge, jury, and executioner. Fiercely pragmatic and independent of shifting political tides, Shenthul famously reminds outsiders that the Shattered Hand existed long before Warchief Thrall took power and will endure long after him.",
+   "body": "Shenthul speaks for the Shattered Hand, once an orcish clan and now the Horde's intelligence network and secret service. He describes it as a watchful presence across Kalimdor, investigating, judging, and carrying out its own sentences. Pragmatic and independent of shifting politics, Shenthul reminds outsiders that the Shattered Hand existed before Warchief Thrall took power and will endure after him.",
    "spoiler": 0
   },
   {
    "title": "Covert Fieldwork",
-   "body": "Beyond basic training, Shenthul coordinates delicate missions into contested territories. His assignments send operatives on perilous infiltration assignments, such as conducting deep-cover operations against hostile interests, practicing their lockpicking on the Venture Company's locked supply boxes around Windshear Crag, and testing recruits through demanding clandestine trials. When poisons strike his field agents, Shenthul ensures they secure remedies before fatal consequences take hold.",
+   "body": "Shenthul directs covert work in contested territories. He sends operatives to infiltrate hostile interests and practice lockpicking on the Venture Company's locked supply boxes around Windshear Crag. Recruits face demanding trials, and when poisons strike his field agents, Shenthul makes sure they find remedies before the toxins prove fatal.",
    "spoiler": 1
   }
  ],
@@ -34,7 +34,7 @@
     "who is shenthul",
     "troll rogue trainer orgrimmar"
    ],
-   "answer": "Shenthul is a jungle troll rogue trainer and operative of the Shattered Hand stationed in the Cleft of Shadow beneath Orgrimmar."
+   "answer": "Shenthul trains jungle troll rogues in the Cleft of Shadow beneath Orgrimmar and works for the Shattered Hand."
   },
   {
    "q": "Where can I find Shenthul?",
@@ -43,7 +43,7 @@
     "where is shenthul",
     "shenthul cleft of shadow"
    ],
-   "answer": "He can be found in the Cleft of Shadow, the subterranean cavern complex accessed through the darker tunnels of Orgrimmar."
+   "answer": "Shenthul can be found in the Cleft of Shadow, a cavern complex reached through Orgrimmar's darker tunnels."
   },
   {
    "q": "What is Shenthul's connection to the Shattered Hand?",
@@ -52,7 +52,7 @@
     "is shenthul shattered hand",
     "what faction is shenthul"
    ],
-   "answer": "Shenthul is a dedicated operative and recruiter for the Shattered Hand, the covert intelligence and assassin guild operating within the Horde."
+   "answer": "Shenthul works for the Shattered Hand, the Horde's covert intelligence and assassin guild, and recruits rogues into its ranks."
   },
   {
    "q": "What does Shenthul think of Warchief Thrall?",
@@ -61,7 +61,7 @@
     "does shenthul like thrall",
     "shenthul loyalty"
    ],
-   "answer": "Shenthul is loyal to the craft and security of the Horde, but maintains that the Order of the Shattered Hand existed before Thrall and will outlast his rule, seeing his guild as an eternal necessity."
+   "answer": "Shenthul says the Shattered Hand existed before Thrall took power and will endure after him. He puts the guild's work and the Horde's security above shifting politics."
   },
   {
    "q": "What missions does Shenthul offer to rogues?",
@@ -69,7 +69,7 @@
     "shenthul quests",
     "rogue quests shenthul"
    ],
-   "answer": "He guides rogues through initiation trials, sends them on covert infiltration missions, and points them to the Venture Company's locked supply boxes in the Stonetalon Mountains to improve their lockpicking."
+   "answer": "Shenthul guides rogues through initiation trials and covert infiltration work. He also directs them to practice lockpicking on Venture Company's locked supply boxes around Windshear Crag in the Stonetalon Mountains."
   },
   {
    "q": "Does Shenthul assist with rogue poisons?",
@@ -77,21 +77,21 @@
     "shenthul poison quest",
     "hinott assistance shenthul"
    ],
-   "answer": "Yes, during crucial field operations where rogues face lethal toxins, Shenthul directs agents to Hinott to ensure survival and ongoing fieldwork."
+   "answer": "Yes. When field agents face lethal poisons, Shenthul directs them to Hinott for remedies."
   }
  ],
  "angles": [
   {
    "target": "class:Rogue",
-   "text": "Shenthul is a primary mentor and handler for Horde rogues arriving in Orgrimmar, offering skill training, initiation trials, and covert assignments."
+   "text": "As a rogue in Orgrimmar, you can learn from Shenthul, face initiation trials, and take on covert assignments."
   },
   {
    "target": "faction:Horde",
-   "text": "Operating beneath the surface of the capital, Shenthul directs the covert intelligence arm that protects the Horde from unseen internal and external threats."
+   "text": "Beneath Orgrimmar, Shenthul directs the Horde's covert intelligence work against threats within and beyond its ranks."
   },
   {
    "target": "race:Troll",
-   "text": "As a jungle troll embedded deeply in the traditionally orcish Shattered Hand, Shenthul demonstrates how Darkspear rogues have woven themselves into the Horde's highest levels of espionage."
+   "text": "As a troll, you can see how Shenthul, a jungle troll, has joined the Shattered Hand, once an orcish clan."
   }
  ],
  "keywords": [
@@ -116,5 +116,6 @@
  ],
  "attribution": [
   "Shenthul"
- ]
+ ],
+ "style": 1
 }

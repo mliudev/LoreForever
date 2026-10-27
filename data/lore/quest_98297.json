@@ -1,0 +1,83 @@
+{
+ "key": "quest:98297",
+ "type": "quest",
+ "name": "Stopping the Cycle",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   98297
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "Howin Kindfeather returns from a test flight with troubling news: Dragonmaw warlocks are enslaving a red dragonspawn. The Wildhammer will not let that happen again.",
+ "sections": [
+  {
+   "title": "At the Gates",
+   "body": "Howin asks you to face the subdued dragonspawn at the Dragonmaw Gates. He says the warlocks holding it down must be killed first, which should free it. Then you are to put the dragonspawn out of its misery. Howin expects you to bring friends; the Wildhammer will not let the Dragonmaw stand in their way.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is asking for help?",
+   "aliases": [
+    "who wants this",
+    "howin task"
+   ],
+   "answer": "Howin Kindfeather asks you to stop the Dragonmaw from enslaving a red dragonspawn."
+  },
+  {
+   "q": "What are the Dragonmaw doing?",
+   "aliases": [
+    "dragonmaw doing what",
+    "why dragonspawn subdued"
+   ],
+   "answer": "A group of Dragonmaw warlocks is holding down a red dragonspawn and trying to enslave it."
+  },
+  {
+   "q": "Where is the dragonspawn?",
+   "aliases": [
+    "dragonspawn location",
+    "where subdued dragonspawn"
+   ],
+   "answer": "The subdued dragonspawn is at the Dragonmaw Gates."
+  },
+  {
+   "q": "What does Howin ask me to do?",
+   "aliases": [
+    "what do i do",
+    "stop the cycle"
+   ],
+   "answer": "Howin asks you to kill the warlocks holding the dragonspawn down, then put it out of its misery."
+  },
+  {
+   "q": "Why does Howin say the Wildhammer cannot allow this?",
+   "aliases": [
+    "why not again",
+    "wildhammer reason"
+   ],
+   "answer": "Howin says the Dragonmaw are enslaving a red dragonspawn, and insists the Wildhammer will not let them stand in the way."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "dragonmaw",
+  "dragonmaw gates",
+  "howin kindfeather",
+  "red dragonspawn",
+  "stopping the cycle",
+  "subdued dragonspawn",
+  "warlocks",
+  "wildhammer"
+ ],
+ "related": [
+  "subzone:dragonmaw-gates",
+  "topic:warlock"
+ ],
+ "style": 1,
+ "attribution": [
+  "In-game quest text: Stopping the Cycle"
+ ]
+}

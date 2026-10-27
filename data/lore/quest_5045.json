@@ -25,16 +25,16 @@
    "Wisdom of Agamaggan"
   ]
  },
- "summary": "Rising Spirit is a ritual blessing offered by the captured Razormane geomancer Mangletooth at Camp Taurajo. In exchange for blood shards wrested from his Bristleback rivals, Mangletooth channels the ancient power of Agamaggan to invigorate a champion's willpower and spiritual fortitude.",
+ "summary": "At Camp Taurajo, Mangletooth offers a ritual blessing drawn from Agamaggan's ancient power. Bring blood shards taken from his Bristleback rivals, and he strengthens your will and spirit.",
  "sections": [
   {
    "title": "Willpower of the Razormane",
-   "body": "Held in a cage at Camp Taurajo, the Razormane elder Mangletooth possesses deep knowledge of quilboar geomancy and ancestral magic. While other tribes may boast of raw combat ferocity, Mangletooth takes immense pride in his people's spiritual devotion to their creator, the Great Boar Agamaggan. He teaches that an unbroken spirit is what sustains a warrior when strength alone falters in battle, driving champions onward when defeat seems certain.",
+   "body": "Held in a cage at Camp Taurajo, Mangletooth knows the geomancy and ancestral magic of the quilboar. He takes pride in his people's devotion to their creator, the Great Boar Agamaggan. To Mangletooth, an unbroken spirit carries a warrior onward when strength fails and defeat seems near.",
    "spoiler": 0
   },
   {
    "title": "The Power of Blood Shards",
-   "body": "To invoke this spiritual elevation, Mangletooth demands blood shards\u2014crystallized fragments steeped in the ancient blood of Agamaggan that seeped into the red earth ten thousand years ago. By bringing him shards harvested from across the Barrens, particularly from his Bristleback enemies, you provide the raw spiritual conduit needed for him to weave a blessing of rising spirit that bolsters your will.",
+   "body": "Mangletooth asks for blood shards to raise your spirit. These crystals hold Agamaggan's ancient blood, which seeped into the red earth ten thousand years ago. Bring him shards gathered across the Barrens, especially from his Bristleback enemies, and he can channel their power into a blessing that bolsters your will.",
    "spoiler": 0
   }
  ],
@@ -46,7 +46,7 @@
     "who is the caged boar",
     "taurajo prisoner"
    ],
-   "answer": "Mangletooth is an elder Razormane quilboar kept in a wooden cage in Camp Taurajo. Despite being a captive of the Horde, he is willing to share sacred geomantic rituals in exchange for blood shards, using travelers to strike blows against the rival Bristleback tribe."
+   "answer": "Mangletooth is an elder Razormane quilboar held in a wooden cage at Camp Taurajo. Though the Horde keeps him captive, he shares sacred geomantic rites for blood shards and uses travelers to strike at the rival Bristlebacks."
   },
   {
    "q": "What are blood shards?",
@@ -55,7 +55,7 @@
     "blood shard lore",
     "agamaggan blood"
    ],
-   "answer": "Blood shards are red mineral crystals formed from the spilled blood of the Ancient Demigod Agamaggan, who died in the Barrens during the War of the Ancients. They hold potent residual magic that quilboar shamans and geomancers harness for boons and rituals."
+   "answer": "Blood shards are red mineral crystals formed from the blood of Agamaggan, an Ancient Demigod who died in the Barrens during the War of the Ancients. Quilboar shamans and geomancers draw on their lingering magic for boons and rituals."
   },
   {
    "q": "Why does Mangletooth help Horde adventurers?",
@@ -63,7 +63,7 @@
     "why does mangletooth help",
     "why is quilboar helping horde"
    ],
-   "answer": "Mangletooth harbors a bitter hatred for the rival Bristleback quilboar. By exchanging blessings for blood shards, he encourages powerful adventurers to slaughter Bristlebacks across the Barrens, advancing his tribe's feud even while locked in a cage."
+   "answer": "Mangletooth hates the rival Bristleback quilboar. He trades blessings for blood shards to spur powerful travelers to kill Bristlebacks across the Barrens, carrying on his tribe's feud from behind the cage."
   },
   {
    "q": "What does the Rising Spirit blessing do?",
@@ -71,7 +71,7 @@
     "rising spirit buff",
     "what is rising spirit"
    ],
-   "answer": "Rising Spirit is a potent ancestral blessing bestowed by Mangletooth that enhances a warrior's spirit and internal resolve, drawing on Agamaggan's enduring life force to keep hope alive through grueling encounters."
+   "answer": "The Rising Spirit blessing from Mangletooth strengthens a warrior's spirit and resolve. It draws on Agamaggan's enduring life force to keep hope alive through hard encounters."
   },
   {
    "q": "Who is Agamaggan?",
@@ -79,7 +79,7 @@
     "agamaggan",
     "the great boar"
    ],
-   "answer": "Agamaggan is the colossal Boar Ancient who fought the Burning Legion ten thousand years ago during the War of the Ancients. The quilboar revere him as their creator, believing that the thorny brambles and red blood shards of the Barrens sprouted directly from his fallen body."
+   "answer": "Agamaggan is the colossal Boar Ancient who fought the Burning Legion ten thousand years ago during the War of the Ancients. The quilboar revere him as their creator and believe the Barrens' thorny brambles and red blood shards grew from his fallen body."
   },
   {
    "q": "Is this ritual a one-time trade?",
@@ -87,21 +87,21 @@
     "repeat rising spirit",
     "is rising spirit repeatable"
    ],
-   "answer": "No. As long as you bring Mangletooth four blood shards, the captive elder is willing to perform the ritual repeatedly to renew the blessing before you venture back out into the wastes."
+   "answer": "No. Bring Mangletooth four blood shards, and he will perform the ritual again to renew your blessing before you venture into the wastes."
   }
  ],
  "angles": [
   {
    "target": "class:Priest",
-   "text": "Priests will recognize the quilboar's communion with Agamaggan as a raw, primal expression of faith and spirit that rivals the organized devotions of eastern churches."
+   "text": "As a priest, you may recognize the quilboar's communion with Agamaggan as a raw expression of faith and spirit, rivaling the organized devotions of eastern churches."
   },
   {
    "target": "class:Shaman",
-   "text": "Shaman understand how deeply ancient bloodlines and earth minerals can bind the spirits of the land to a mortal warrior."
+   "text": "As a shaman, you understand how ancient bloodlines and earth minerals can bind the spirits of the land to a mortal warrior."
   },
   {
    "target": "faction:Horde",
-   "text": "For Horde wanderers in the Barrens, exploiting Mangletooth's deep tribal hatred of the Bristlebacks turns a captive nuisance into a valuable tactical advantage."
+   "text": "As a Horde wanderer in the Barrens, you can turn Mangletooth's hatred of the Bristlebacks into a tactical advantage."
   }
  ],
  "keywords": [
@@ -126,5 +126,6 @@
  ],
  "attribution": [
   "Rising Spirit"
- ]
+ ],
+ "style": 1
 }

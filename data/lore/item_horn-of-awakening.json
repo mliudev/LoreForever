@@ -10,11 +10,11 @@
    "quest:5321"
   ]
  },
- "summary": "The Horn of Awakening is a sounding instrument kept in a chest by Kerlonian Evershade in southern Darkshore. It is used to rouse the drowsy druid whenever he collapses into a slumber on the road to Ashenvale.",
+ "summary": "In southern Darkshore, Kerlonian Evershade keeps a horn close at hand. It rouses him whenever sleep overtakes him on the road to Ashenvale.",
  "sections": [
   {
    "title": "A Remedy for Drowsy Druids",
-   "body": "Kerlonian Evershade, a Druid of the Claw recently awoken from centuries inside the Emerald Dream, finds himself persistently lethargic in the waking realm. Journeying south toward Maestra's Post, he entrusts this horn to travelers willing to escort him. Whenever exhaustion overtakes him along the perilous wilderness trail, a clear blast from the instrument jolts his senses, prodding him back to his feet before wild beasts or cultists can seize upon his slumber.",
+   "body": "Kerlonian Evershade has only recently awakened from centuries in the Emerald Dream, and wakefulness still weighs on him. The Druid of the Claw travels south toward Maestra's Post and entrusts the horn to travelers willing to escort him. When exhaustion takes him along the wilderness trail, a clear blast jolts him awake and gets him back on his feet before wild beasts or cultists can reach him.",
    "spoiler": 0
   }
  ],
@@ -26,7 +26,7 @@
     "where is horn of awakening",
     "kerlonians chest"
    ],
-   "answer": "The horn rests inside Kerlonian's Chest, beside Kerlonian Evershade's campsite in southern Darkshore near the border of Ashenvale."
+   "answer": "The horn rests inside Kerlonian's Chest beside Kerlonian Evershade's campsite in southern Darkshore, near the Ashenvale border."
   },
   {
    "q": "Why does Kerlonian need the horn to stay awake?",
@@ -35,7 +35,7 @@
     "why does he fall asleep",
     "emerald dream slumber"
    ],
-   "answer": "Having spent long ages slumbering within the Emerald Dream, Kerlonian struggles to adjust to mortal wakefulness and constantly lapses into sudden, deep naps while traveling."
+   "answer": "After long ages asleep within the Emerald Dream, Kerlonian struggles with mortal wakefulness and often slips into sudden, deep naps while traveling."
   },
   {
    "q": "Where is Kerlonian trying to go?",
@@ -44,17 +44,17 @@
     "where is he walking",
     "maestras post escort"
    ],
-   "answer": "He is attempting to reach Maestra's Post in northern Ashenvale to rendezvous with Liladris Moonriver."
+   "answer": "Kerlonian is trying to reach Maestra's Post in northern Ashenvale to meet Liladris Moonriver."
   }
  ],
  "angles": [
   {
    "target": "class:Druid",
-   "text": "Druids of the Claw spent generations slumbering in the Barrow Dens communing with the Emerald Dream, and returning to waking reality often leaves them dazed and disoriented."
+   "text": "As a druid, you know Druids of the Claw spent generations asleep in the Barrow Dens, communing with the Emerald Dream. Returning to wakefulness can leave them dazed and disoriented."
   },
   {
    "target": "race:NightElf",
-   "text": "Kerlonian's drowsy journey shows how hard the return to the waking world can be for the night elves' druids after their long slumber in the Emerald Dream."
+   "text": "As a night elf, you can see in Kerlonian's drowsy journey how difficult the return to wakefulness can be for your druids after their long slumber in the Emerald Dream."
   }
  ],
  "keywords": [
@@ -78,5 +78,6 @@
  "attribution": [
   "Horn of Awakening",
   "The Sleeper Has Awakened (Classic)"
- ]
+ ],
+ "style": 1
 }

@@ -1,0 +1,89 @@
+{
+ "key": "quest:65610",
+ "type": "quest",
+ "name": "Wish You Were Here",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   65610
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "A mooncloth maker asks you to search Fallen Sky Lake in Ashenvale for Krilge. Those who served with him call him a deserter, but the maker believes he did not abandon his post.",
+ "sections": [
+  {
+   "title": "A Missing Friend",
+   "body": "The maker met Krilge while making mooncloth in Ashenvale. Krilge had been stationed there to protect civilians, then disappeared. They often met at Fallen Sky Lake before aggressive bog beasts overran it. The maker still hopes to learn what became of him.",
+   "spoiler": 0
+  },
+  {
+   "title": "At the Lake",
+   "body": "You are asked to investigate Fallen Sky Lake and report what you find to Gan'rul Bloodeye in Orgrimmar. The search may offer a sign of Krilge, whose comrades have stopped looking for him.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Krilge?",
+   "aliases": [
+    "krilge",
+    "missing mooncloth maker's friend"
+   ],
+   "answer": "Krilge was stationed in Ashenvale to protect civilians before he disappeared. He and the mooncloth maker often met at Fallen Sky Lake."
+  },
+  {
+   "q": "Why is Krilge being called a deserter?",
+   "aliases": [
+    "krilge deserter",
+    "why they stopped looking"
+   ],
+   "answer": "Krilge disappeared from his post, and those who served with him stopped searching and consider him a deserter."
+  },
+  {
+   "q": "Who asks you to look for Krilge?",
+   "aliases": [
+    "who sent me",
+    "mooncloth maker"
+   ],
+   "answer": "A mooncloth maker who met Krilge in Ashenvale asks you to search for a sign of him."
+  },
+  {
+   "q": "Where did Krilge and the maker meet?",
+   "aliases": [
+    "krilge meeting place",
+    "where is fallen lake"
+   ],
+   "answer": "They often met at Fallen Sky Lake in Ashenvale, before aggressive bog beasts overran the area."
+  },
+  {
+   "q": "Where should you report your findings?",
+   "aliases": [
+    "report to gan'rul",
+    "where do i report"
+   ],
+   "answer": "You are asked to report your findings to Gan'rul Bloodeye in Orgrimmar."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "ashenvale",
+  "bog beasts",
+  "deserter",
+  "fallen <name> lake",
+  "gan'rul bloodeye",
+  "krilge",
+  "missing",
+  "mooncloth"
+ ],
+ "related": [
+  "zone:ashenvale",
+  "zone:orgrimmar",
+  "npc:gan-rul-bloodeye"
+ ],
+ "style": 1,
+ "attribution": [
+  "In-game quest text: Wish You Were Here"
+ ]
+}

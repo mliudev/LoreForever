@@ -17,21 +17,21 @@
   "wiki": "Hidden Enemies (3)",
   "chain": []
  },
- "summary": "Hidden Enemies is a pivotal infiltration task assigned by Warchief Thrall to eliminate the insidious cult flourishing beneath Orgrimmar. Having tricked the treacherous Neeru Fireblade into thinking you are an ally, Thrall sends you into the molten depths of Ragefire Chasm to assassinate the Searing Blade's top commanders.",
+ "summary": "Thrall sends you against the Searing Blade beneath Orgrimmar. After tricking Neeru Fireblade into believing you are an ally, he sends you into Ragefire Chasm to assassinate the cult's top commanders.",
  "sections": [
   {
    "title": "A Cancer Beneath the Streets",
-   "body": "Orgrimmar was built as a haven for a free Orcish race, yet its very foundations harbor old demonic shackles. Beneath the bustling markets lies the Cleft of Shadow, leading further down into the subterranean tunnels of Ragefire Chasm. Within these volcanic depths, remnants of the Shadow Council known as the Searing Blade gather strength, practicing dark arts and scheming to usurp the young Horde from within its own capital.",
+   "body": "Orgrimmar was built as a haven for a free Orcish race, but its foundations conceal an old demonic threat. Beneath the markets, the Cleft of Shadow opens onto the tunnels of Ragefire Chasm. In those volcanic depths, remnants of the Shadow Council called the Searing Blade gather strength. They practice dark arts and scheme to seize the young Horde from within its own capital.",
    "spoiler": 0
   },
   {
    "title": "Playing the Double Agent",
-   "body": "Direct assault without intelligence would leave the Shadow Council's network intact. Thrall orchestrated an undercover gambit, using you to bait out information from Neeru Fireblade, a seemingly cooperative warlock in the Cleft of Shadow. Convinced of your loyalty to their twisted cause, Neeru unwittingly surrendered the names of the cult's underground leadership: the corrupt satyr Bazzalan and the warlock Jergosh the Invoker.",
+   "body": "A direct assault without intelligence would leave the Shadow Council's network intact. Thrall uses you to draw information from Neeru Fireblade, a warlock in the Cleft of Shadow who seems willing to cooperate. Neeru believes you share the cult's cause and gives up the names of its underground leaders: Bazzalan, a corrupt satyr, and Jergosh the Invoker, a warlock.",
    "spoiler": 1
   },
   {
    "title": "Decapitating the Searing Blade",
-   "body": "Thrall tasks you with descending into Ragefire Chasm to butcher Bazzalan and Jergosh, plunging the cultists into chaos. Crucially, the hits must remain deniable\u2014Neeru cannot discover who carried out the slaughter, as Thrall intends to keep the warlock under watchful observation. Eliminating these ringleaders sends shockwaves through the cult, buying precious breathing room for the Horde's fledgling city.",
+   "body": "Thrall sends you into Ragefire Chasm to kill Bazzalan and Jergosh, throwing the cultists into chaos. The killings must remain deniable, so Neeru cannot learn who carried them out. Thrall plans to keep the warlock under watch. Removing the leaders sends shock through the cult and gives the Horde's young city precious breathing room.",
    "spoiler": 2
   }
  ],
@@ -43,7 +43,7 @@
     "hidden enemies quest giver",
     "thrall ragefire quest"
    ],
-   "answer": "Warchief Thrall directly commands this mission from the Valley of Wisdom in Orgrimmar, choosing to trust you with sensitive espionage to secure the city's underbelly."
+   "answer": "Warchief Thrall orders the attack from the Valley of Wisdom in Orgrimmar. He trusts you with sensitive work to secure the city's underbelly."
   },
   {
    "q": "Why doesn't Thrall just execute Neeru Fireblade?",
@@ -52,7 +52,7 @@
     "why keep neeru alive",
     "neeru fireblade traitor"
    ],
-   "answer": "Thrall prefers keeping Neeru alive under surveillance. Knowing who the traitor is allows the Warchief's scouts to monitor the Shadow Council's communications and anticipate future plots rather than letting a hidden replacement take his place."
+   "answer": "Thrall keeps Neeru alive under surveillance. Knowing the traitor lets the Warchief's scouts watch the Shadow Council's communications and anticipate plots, rather than leave room for a hidden replacement."
   },
   {
    "q": "Where are Bazzalan and Jergosh the Invoker located?",
@@ -61,7 +61,7 @@
     "where is jergosh",
     "ragefire chasm bosses"
    ],
-   "answer": "Both leaders reside deep within Ragefire Chasm, the dungeon accessible through the Cleft of Shadow in Orgrimmar. Jergosh occupies a volcanic ledge commanding the cultists, while the satyr Bazzalan lurks in an elevated cavern nearby."
+   "answer": "Bazzalan and Jergosh the Invoker are deep within Ragefire Chasm, reached through the Cleft of Shadow in Orgrimmar. Jergosh commands the cultists from a volcanic ledge, while Bazzalan lurks in a nearby elevated cavern."
   },
   {
    "q": "Who are the Searing Blade?",
@@ -70,7 +70,7 @@
     "searing blade cult",
     "burning blade orgrimmar"
    ],
-   "answer": "The Searing Blade is a local sect aligned with the Burning Blade and Shadow Council. They worship demonic powers, practicing fel magic beneath Orgrimmar with the ultimate goal of overthrowing Thrall and enslaving the Horde anew."
+   "answer": "The Searing Blade is a local sect aligned with the Burning Blade and Shadow Council. Its members worship demonic powers and practice fel magic beneath Orgrimmar, seeking to overthrow Thrall and enslave the Horde again."
   },
   {
    "q": "Why is a satyr like Bazzalan working beneath an Orc city?",
@@ -79,7 +79,7 @@
     "bazzalan lore",
     "satyr in ragefire"
    ],
-   "answer": "Satyrs are ancient servants of the Burning Legion. Bazzalan serves as a demonic handler and instigator, guiding the mortal cultists of the Searing Blade to execute the Legion's will directly under Thrall's feet."
+   "answer": "Satyrs are ancient servants of the Burning Legion. Bazzalan works beneath the Orc city as a demonic handler and instigator, guiding the Searing Blade's mortal cultists to carry out the Legion's will under Thrall's feet."
   },
   {
    "q": "How does this quest fit into the broader Ragefire Chasm run?",
@@ -88,21 +88,21 @@
     "rfc quest line",
     "hidden enemies chain"
    ],
-   "answer": "Hidden Enemies is the climax of Thrall's infiltration chain. It aligns with multiple other dungeon quests targeting Ragefire Chasm, directing players to execute the dungeon's primary humanoid bosses in a single coordinated strike."
+   "answer": "Hidden Enemies brings Thrall's infiltration chain to its climax. It joins other Ragefire Chasm assignments that target the dungeon's chief humanoid foes in one coordinated strike."
   }
  ],
  "angles": [
   {
    "target": "faction:Horde",
-   "text": "Demonic corruption within the heart of Durotar threatens everything the new Horde fought to establish; cleansing Ragefire Chasm is vital to preserving their hard-won autonomy."
+   "text": "As a member of the Horde, you face demonic corruption in the heart of Durotar, threatening all the new Horde fought to establish. Cleansing Ragefire Chasm helps preserve its hard-won freedom."
   },
   {
    "target": "race:Orc",
-   "text": "For orcs seeking redemption from the blood-haze, eradicating the Shadow Council's remnants beneath Orgrimmar is a matter of profound cultural survival and honor."
+   "text": "As an orc seeking redemption from the blood-haze, you face the Shadow Council's remnants beneath Orgrimmar. Their destruction is a matter of cultural survival and honor."
   },
   {
    "target": "class:Warlock",
-   "text": "While Thrall tolerates warlocks practicing dark arts for the defense of the Horde, Jergosh and the Searing Blade cross into treasonous servitude of demonic masters."
+   "text": "As a warlock, you know Thrall tolerates dark arts in the Horde's defense. Jergosh and the Searing Blade have instead sworn themselves to demonic masters, betraying the Horde."
   }
  ],
  "keywords": [
@@ -128,5 +128,6 @@
  ],
  "attribution": [
   "Hidden Enemies (3)"
- ]
+ ],
+ "style": 1
 }

@@ -1,0 +1,73 @@
+{
+ "key": "quest:7802",
+ "type": "quest",
+ "name": "A Donation of Wool",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   7802
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "Ironforge is accepting wool cloth donations to support its stores. Sixty pieces earn full recognition for your generosity.",
+ "sections": [
+  {
+   "title": "Wool Stores",
+   "body": "Ironforge needs sixty pieces of wool cloth from you. Its stores need only that amount from you, while others are expected to contribute enough to support the drive.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "How much wool does Ironforge need from me?",
+   "aliases": [
+    "wool donation amount",
+    "how many wool",
+    "sixty wool"
+   ],
+   "answer": "Ironforge asks you for sixty pieces of wool cloth."
+  },
+  {
+   "q": "What do I get for donating wool?",
+   "aliases": [
+    "wool donation reward",
+    "what for wool",
+    "ironforge recognition"
+   ],
+   "answer": "Donating sixty pieces of wool cloth earns you full recognition from Ironforge for your generosity."
+  },
+  {
+   "q": "Why is Ironforge collecting wool?",
+   "aliases": [
+    "wool drive",
+    "why wool donation",
+    "ironforge wool"
+   ],
+   "answer": "Ironforge is gathering wool cloth to support its stores."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Alliance",
+   "text": "As an Alliance traveler, your wool donation earns recognition from Ironforge."
+  }
+ ],
+ "keywords": [
+  "donation",
+  "ironforge",
+  "recognition",
+  "sixty pieces",
+  "stores",
+  "wool",
+  "wool cloth"
+ ],
+ "related": [
+  "zone:ironforge"
+ ],
+ "style": 1,
+ "attribution": [
+  "In-game quest text: A Donation of Wool"
+ ]
+}

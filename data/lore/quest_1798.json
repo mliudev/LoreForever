@@ -23,16 +23,16 @@
    "The Binding (Felhunter)"
   ]
  },
- "summary": "Seeking Strahad is an Alliance warlock quest that sends practitioners of the dark arts from Stormwind City across the Great Sea to the Barrens. There, beneath the gaze of the goblin port of Ratchet, they seek the expertise of Strahad Farsan to learn the summoning of felhunters. It marks a warlock's passage into the higher, more dangerous tiers of demonic subjugation.",
+ "summary": "Warlocks leave Stormwind City for Ratchet, where Strahad Farsan can teach them to summon felhunters. Beneath the goblin port, his knowledge offers a path into more dangerous demon summoning.",
  "sections": [
   {
    "title": "A Summons Across the Sea",
-   "body": "Within the subterranean enclave of the Slaughtered Lamb in Stormwind, Gakin the Darkbinder oversees the development of budding warlocks. Yet mastering the predatory felhunter demands materials, relics, and rites beyond what the modest cellar in the Mage Quarter can provide. Recognizing his pupil has grown in power, Gakin directs them away from the safety of the kingdom toward Kalimdor, initiating a journey that bridges the secret circles of human demonology across continents.",
+   "body": "Gakin the Darkbinder sends you from Stormwind to seek help with summoning a felhunter. He guides warlocks in the Slaughtered Lamb, below the Mage Quarter, but the rites call for knowledge beyond what he can offer there. Your journey carries you across the Great Sea to Kalimdor, where another warlock may know the way.",
    "spoiler": 0
   },
   {
    "title": "The Hermit of Ratchet",
-   "body": "The destination is the arid hills overlooking the goblin harbor of Ratchet. There dwells Strahad Farsan, a human warlock and a peer of Gakin's within their clandestine cabal. Operating out of neutral territory allows Strahad relative freedom from the prying eyes of Alliance magistrates, church inquisitors, and Horde sentries alike. His presence in the Barrens serves as an anchor for ambitious summoners ready to wrest control over mana-draining demons.",
+   "body": "Strahad Farsan lives in the arid hills above Ratchet, the goblin harbor. He is a human warlock and a peer of Gakin's in their secret cabal. From neutral territory, Strahad can work beyond the notice of Alliance magistrates, church inquisitors, and Horde sentries. Warlocks come to him hoping to master demons that drain mana.",
    "spoiler": 0
   }
  ],
@@ -44,7 +44,7 @@
     "quest giver",
     "gakin"
    ],
-   "answer": "Gakin the Darkbinder, the warlock trainer secluded in the crypt beneath the Slaughtered Lamb in Stormwind's Mage Quarter, sends you on this journey once you are ready to learn how to summon a felhunter."
+   "answer": "Gakin the Darkbinder sends you from the Slaughtered Lamb in Stormwind's Mage Quarter when you are ready to learn to summon a felhunter."
   },
   {
    "q": "Where is Strahad Farsan located?",
@@ -53,7 +53,7 @@
     "where is strahad",
     "find strahad"
    ],
-   "answer": "Strahad Farsan makes his home in the Barrens, stationed on the heights overlooking the goblin port town of Ratchet."
+   "answer": "Strahad Farsan lives in the Barrens, in the heights overlooking Ratchet, the goblin port."
   },
   {
    "q": "Why does an Alliance warlock have to travel all the way to the Barrens?",
@@ -62,7 +62,7 @@
     "why kalimdor",
     "why ratchet"
    ],
-   "answer": "Gakin lacks the specialized reagents and lore required in Stormwind to conduct the felhunter summoning rites. Strahad Farsan possesses the necessary knowledge and materials, having established himself in the neutral territory of Ratchet away from local scrutiny."
+   "answer": "Gakin cannot provide the lore and materials needed for the felhunter summoning rites in Stormwind. Strahad Farsan has that knowledge and works from neutral territory near Ratchet, away from local scrutiny."
   },
   {
    "q": "What ability does this quest lead to unlocking?",
@@ -71,7 +71,7 @@
     "what do i get",
     "felhunter quest"
    ],
-   "answer": "This quest is the introductory step in a chain that leads to the Tome of the Cabal and the binding ritual required to summon a felhunter companion."
+   "answer": "Speaking with Strahad begins a chain that leads to the Tome of the Cabal and the binding ritual for summoning a felhunter companion."
   },
   {
    "q": "Is Strahad Farsan hostile to the Horde?",
@@ -79,7 +79,7 @@
     "is strahad alliance only",
     "horde strahad"
    ],
-   "answer": "No. Strahad resides in neutral goblin territory and serves as an instructor for both Alliance and Horde warlocks seeking the secrets of summoning felhunters, maintaining ties with various cabals."
+   "answer": "No. Strahad lives in neutral goblin territory and instructs Alliance and Horde warlocks in summoning felhunters, while keeping ties with various cabals."
   },
   {
    "q": "What happens after you speak to Strahad?",
@@ -88,17 +88,17 @@
     "what after seeking strahad",
     "tome of the cabal"
    ],
-   "answer": "Upon greeting you, Strahad tasks you with assembling the necessary components for the binding ritual, starting the multi-part quest chain involving the Tome of the Cabal."
+   "answer": "Strahad asks you to gather the components for a binding ritual, beginning a chain involving the Tome of the Cabal."
   }
  ],
  "angles": [
   {
    "target": "class:Warlock",
-   "text": "This quest marks an important milestone in a warlock's growth, graduating from basic fiends and succubi to the cunning, magic-devouring felhunter."
+   "text": "As a warlock, you reach a milestone when you leave basic fiends and succubi behind and learn to summon the cunning, magic-draining felhunter."
   },
   {
    "target": "faction:Alliance",
-   "text": "For Alliance summoners, the journey requires braving the long trek across the Great Sea directly into the rugged, Horde-dominated heartland of Kalimdor."
+   "text": "As an Alliance warlock, you cross the Great Sea into Kalimdor's rugged, Horde-dominated heartland to reach Strahad."
   }
  ],
  "keywords": [
@@ -123,5 +123,6 @@
  ],
  "attribution": [
   "Seeking Strahad (Stormwind)"
- ]
+ ],
+ "style": 1
 }

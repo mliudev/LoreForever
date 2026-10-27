@@ -10,11 +10,11 @@
    "quest:913"
   ]
  },
- "summary": "Thunderhawk Wings are feathered trophies taken from the fierce wind serpents soaring above the central and southern Barrens. Presented to Jorn Skyseer at Camp Taurajo, they serve as definitive proof of a hunter's strength, cunning, and endurance in tracking down one of the savanna's most majestic predators.",
+ "summary": "Across the central and southern Barrens, hunters claim Thunderhawk Wings from the wind serpents that soar overhead. At Camp Taurajo, Jorn Skyseer receives them as proof of a hunter’s strength, cunning, and endurance.",
  "sections": [
   {
    "title": "Trophy of the Hunt",
-   "body": "Wind serpents, known to local hunters as thunderhawks, are formidable winged reptiles capable of striking swiftly from above. For the hunters stationed at Camp Taurajo, harvesting a pair of intact Thunderhawk Wings is far more than collecting biological scraps; it represents the culmination of grueling hunting trials in the Barrens. By tracking the aerial predators across the open plains and claiming their wings in combat, an initiate proves their readiness to walk the lifelong path of an accomplished hunter.",
+   "body": "Hunters stationed at Camp Taurajo prize a pair of intact Thunderhawk Wings. Wind serpents, whom local hunters call thunderhawks, are fierce winged reptiles that strike swiftly from above. Tracking them across the open plains and claiming their wings in combat tests a hunter’s skill. For an initiate, bringing back the wings proves readiness to follow the lifelong path of an accomplished hunter.",
    "spoiler": 0
   }
  ],
@@ -26,7 +26,7 @@
     "thunderhawk wings location",
     "how to get thunderhawk wings"
    ],
-   "answer": "Thunderhawk Wings are harvested from the thunderhawks that glide along the ridges and plains of the central and southern Barrens, particularly in the lands surrounding Camp Taurajo."
+   "answer": "Thunderhawk Wings come from thunderhawks gliding above the ridges and plains of the central and southern Barrens, especially around Camp Taurajo."
   },
   {
    "q": "Who wants these wings?",
@@ -35,7 +35,7 @@
     "turn in thunderhawk wings",
     "jorn skyseer wings"
    ],
-   "answer": "Jorn Skyseer, a seasoned tauren hunter stationed at Camp Taurajo, asks for them as proof that an initiate has mastered the hunting rites of the savanna."
+   "answer": "Jorn Skyseer, a seasoned tauren hunter stationed at Camp Taurajo, asks for the wings as proof that an initiate has mastered the savanna’s hunting rites."
   },
   {
    "q": "What does claiming the wings signify?",
@@ -44,17 +44,17 @@
     "wings purpose",
     "significance of thunderhawk hunt"
    ],
-   "answer": "Bringing the wings back to Jorn Skyseer marks the completion of a challenging rite of passage, confirming that the hunter possesses the strength, courage, and patience needed to confront apex aerial predators."
+   "answer": "Bringing the wings to Jorn Skyseer completes a challenging rite of passage. It shows the hunter has the strength, courage, and patience to face fierce aerial predators."
   }
  ],
  "angles": [
   {
    "target": "class:Hunter",
-   "text": "Claiming the wings of a soaring thunderhawk represents a rite of passage, validating your tracking, patience, and marksmanship against swift aerial beasts."
+   "text": "As a hunter, claiming a soaring thunderhawk’s wings marks a rite of passage. It tests your tracking, patience, and marksmanship against swift aerial beasts."
   },
   {
    "target": "race:Tauren",
-   "text": "To the hunters of Taurajo, harvesting these wings honors the spirit of the savanna and demonstrates respect for the Earthmother's fierce creatures."
+   "text": "As a tauren, you honor the savanna’s spirit by harvesting these wings and showing respect for the Earthmother’s fierce creatures."
   }
  ],
  "keywords": [
@@ -77,5 +77,6 @@
  "attribution": [
   "Thunderhawk Wings",
   "Cry of the Thunderhawk"
- ]
+ ],
+ "style": 1
 }

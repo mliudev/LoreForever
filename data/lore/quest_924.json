@@ -17,16 +17,16 @@
   "wiki": "The Demon Seed (quest)",
   "chain": []
  },
- "summary": "Acting on orders funneled through Neeru Fireblade, Ak'Zeloth charges Horde travelers with neutralizing the Demon Seed atop Dreadmist Peak. By deploying an unstable Flawed Power Stone upon an altar of fire, adventurers shatter a potent conduit tied to the Burning Legion before its dark influence spreads further across the Barrens.",
+ "summary": "Neeru Fireblade's orders reach Ak'Zeloth, who sends Horde travelers to destroy the Demon Seed atop Dreadmist Peak. An unstable Flawed Power Stone can break the Burning Legion's conduit before its influence spreads farther through the Barrens.",
  "sections": [
   {
    "title": "A Beacon in the Crags",
-   "body": "Perched within a jagged cave high on Dreadmist Peak sits the Demon Seed, suspended over a demonic altar of fire. The artifact acts as a powerful apparatus for the Burning Legion, anchoring demonic frequencies into the dusty heart of the Barrens. To combat this threat, the orc Ak'Zeloth prepares specialized power stones capable of disrupting the artifact's link to the Nether, provided an operative can carry one to the peak before its volatile energy collapses.",
+   "body": "High in a cave on Dreadmist Peak, the Demon Seed hangs above an altar of fire. The artifact anchors demonic power in the heart of the Barrens for the Burning Legion. The orc Ak'Zeloth prepares specialized power stones to break its link to the Nether. One must reach the peak before the stone's unstable energy runs out.",
    "spoiler": 0
   },
   {
    "title": "Shattering the Tether",
-   "body": "Transporting the fragile stone across the craggy slopes of Dreadmist Peak is a race against time, as the stone slowly consumes its own power. Once introduced to the fiery altar, the catalyst overloads the Demon Seed and shatters its connection. Yet silencing the conduit comes with an ominous consequence: its sudden destruction radiates staggering shockwaves across the ether, alerting powerful, unseen masters that their precious device has been compromised.",
+   "body": "The Flawed Power Stone loses power as it crosses Dreadmist Peak's craggy slopes. Set against the altar of fire, it overloads the Demon Seed and shatters its connection. The destruction sends powerful shockwaves through the ether, alerting unseen masters that their device has been compromised.",
    "spoiler": 1
   }
  ],
@@ -38,7 +38,7 @@
     "what is demon seed",
     "demon seed lore"
    ],
-   "answer": "The Demon Seed is an artifact of the Burning Legion situated in a cavern atop Dreadmist Peak. It rests above an altar of fire and functions as a conduit drawing demonic power and influence directly into the Barrens."
+   "answer": "The Demon Seed is a Burning Legion artifact in a cavern atop Dreadmist Peak. It hangs above an altar of fire and draws demonic power and influence into the Barrens."
   },
   {
    "q": "Who orders the destruction of the Demon Seed?",
@@ -47,7 +47,7 @@
     "neeru demon seed",
     "akzeloth questgiver"
    ],
-   "answer": "The task is assigned directly by the orc Ak'Zeloth, operating under instructions and rewards sent by Neeru Fireblade, a prominent warlock stationed beneath Orgrimmar in the Cleft of Shadow."
+   "answer": "The orc Ak'Zeloth orders the Demon Seed destroyed, following instructions and receiving rewards through Neeru Fireblade, a warlock in Orgrimmar's Cleft of Shadow."
   },
   {
    "q": "Why does the Flawed Power Stone have a time limit?",
@@ -56,7 +56,7 @@
     "why does stone expire",
     "stone disappearing"
    ],
-   "answer": "The Flawed Power Stone crafted by Ak'Zeloth is inherently unstable. Its magical containment is imperfect, causing its disruptive energies to burn out and consume the stone if not brought to the demonic altar within a short window."
+   "answer": "Ak'Zeloth's Flawed Power Stone is unstable. Its imperfect magical containment makes its disruptive energy burn out, so it must reach the demonic altar quickly."
   },
   {
    "q": "Where is the altar of fire located?",
@@ -65,7 +65,7 @@
     "demon seed cave",
     "dreadmist peak cave"
    ],
-   "answer": "The demonic altar of fire is situated inside a cavern near the summit of Dreadmist Peak, an ominous mountain northwest of the Crossroads in the northern Barrens."
+   "answer": "The altar of fire lies in a cavern near the summit of Dreadmist Peak, northwest of the Crossroads in the northern Barrens."
   },
   {
    "q": "What happens when the Demon Seed is destroyed?",
@@ -74,7 +74,7 @@
     "consequences of demon seed",
     "waves of power"
    ],
-   "answer": "Shattering the seed severs its link to the Burning Legion, but the violent release of magic sends immense ripples through the ether. Ak'Zeloth warns that powerful demonic entities will have sensed the disruption and will investigate why their tool was ruined."
+   "answer": "Destroying the Demon Seed severs its link to the Burning Legion, and the release sends immense ripples through the ether. Ak'Zeloth warns that powerful demonic entities will sense the disruption and investigate the ruin of their tool."
   },
   {
    "q": "How does this connect to Neeru Fireblade?",
@@ -83,21 +83,21 @@
     "is neeru good",
     "neeru involvement"
    ],
-   "answer": "Neeru Fireblade coordinates with Ak'Zeloth to target rival or disruptive demonic artifacts throughout the Barrens. Neeru supplies the coin and equipment given as compensation once the Demon Seed is eliminated."
+   "answer": "Neeru Fireblade coordinates with Ak'Zeloth against rival or disruptive demonic artifacts across the Barrens. Neeru supplies the coin and equipment given once the Demon Seed is destroyed."
   }
  ],
  "angles": [
   {
    "target": "class:Warlock",
-   "text": "Warlocks recognize the delicate work required to craft power stones that destabilize Legion tethers without accidentally triggering a catastrophic demonic implosion."
+   "text": "As a warlock, you recognize the delicate craft of power stones that disrupt Legion tethers without causing a catastrophic demonic implosion."
   },
   {
    "target": "faction:Horde",
-   "text": "Eliminating Legion footholds in the Barrens protects the vital caravan crossroads and trade routes sustaining the young Horde."
+   "text": "As a member of the Horde, you help protect the Barrens' vital caravan crossroads and the trade routes that sustain the young Horde by eliminating Legion footholds."
   },
   {
    "target": "race:Orc",
-   "text": "Having endured the ruin of Draenor under demonic corruption, orcs have little tolerance for Legion altars festering near the borders of Durotar."
+   "text": "As an orc, you have endured Draenor's ruin under demonic corruption and have little tolerance for Legion altars near Durotar's borders."
   }
  ],
  "keywords": [
@@ -120,5 +120,6 @@
  ],
  "attribution": [
   "The Demon Seed (quest)"
- ]
+ ],
+ "style": 1
 }

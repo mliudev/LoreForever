@@ -10,11 +10,11 @@
    "quest:955"
   ]
  },
- "summary": "Grell Earrings are crude baubles scavenged and worn by the feral creatures infesting the ruins of Bashal'Aran. Though unremarkable at a glance, their proximity to ancient relics allows sensitive spirits to trace the lingering magical seals holding them in torment.",
+ "summary": "In Bashal'Aran, Grell Earring carries traces of the seal binding Asterion.",
  "sections": [
   {
    "title": "Traces in the Brass",
-   "body": "The Wild Grells and Vile Sprites lurking around the collapsed marble of Bashal'Aran hoard assorted trinkets, frequently fashioning earrings from scraps they scavenge among the ruins. To most mortals, these items are worthless refuse. However, to Asterion, an ancient night elf bound as a tormented phantom within the ruins, they serve as dowsing implements. By scrutinizing the resonant magical traces absorbed by these earrings, Asterion attempts to locate the ancient seal that imprisons his spectral form.",
+   "body": "Wild Grells and Vile Sprites in Bashal'Aran gather scraps among the ruins and make earrings from them. Most mortals see only worthless trinkets. Asterion, an ancient night elf bound there as a tormented phantom, studies the magic lingering on the earrings. He hopes those traces will lead him to the ancient seal that imprisons him.",
    "spoiler": 0
   }
  ],
@@ -26,7 +26,7 @@
     "where to get grell earrings",
     "who drops grell earrings"
    ],
-   "answer": "They are collected from the corpses of Wild Grells and Vile Sprites inhabiting the ruined night elven settlement of Bashal'Aran in Darkshore."
+   "answer": "Wild Grells and Vile Sprites in the ruined night elven settlement of Bashal'Aran in Darkshore carry the earrings."
   },
   {
    "q": "Why does Asterion want these earrings?",
@@ -35,7 +35,7 @@
     "why collect grell earrings",
     "grell earring use"
    ],
-   "answer": "Asterion is an ancient spirit held captive in Bashal'Aran by potent magic. He uses the earrings as magical conduits to detect traces of the nearby seal that has bound his soul for centuries."
+   "answer": "Asterion is an ancient spirit held captive in Bashal'Aran by potent magic. He uses the earrings to seek traces of the seal that has bound his soul for centuries."
   },
   {
    "q": "How do the earrings help Asterion search for the seal?",
@@ -43,7 +43,7 @@
     "are the earrings magic",
     "do grells know magic"
    ],
-   "answer": "Asterion hopes to cast a spell over the earpieces to trace the magical seal that keeps his spectral form imprisoned in Bashal'Aran."
+   "answer": "Asterion hopes to cast a spell over the earrings and trace the seal that imprisons his spectral form in Bashal'Aran."
   },
   {
    "q": "Does Asterion find what he needs from the earrings?",
@@ -51,17 +51,17 @@
     "did the earrings work",
     "asterion seal location"
    ],
-   "answer": "The earrings themselves do not hold the seal, but examining them reveals that the creatures have been in recent contact with it, guiding the search deeper into the surrounding ruins."
+   "answer": "The earrings do not hold the seal. Their traces show that the creatures have recently been near it, guiding Asterion's search deeper into the ruins."
   }
  ],
  "angles": [
   {
    "target": "class:Mage",
-   "text": "The earrings demonstrate how inanimate metals can passively absorb and retain the ambient magical signature of ancient warding seals over long periods."
+   "text": "As a mage, you can see how metal may retain the ambient magic of ancient warding seals over time."
   },
   {
    "target": "race:NightElf",
-   "text": "Seeing sacred elven ruins overrun by thieving sprites wearing scavenged brass is a bitter reminder of how low the once-grand estates of ancient Kalimdor have fallen."
+   "text": "As a night elf, you see sacred ruins overrun by sprites wearing scavenged brass, a reminder of how far the once-grand estates of ancient Kalimdor have fallen."
   }
  ],
  "keywords": [
@@ -81,5 +81,6 @@
  "attribution": [
   "Grell Earring",
   "Bashal'Aran (2)"
- ]
+ ],
+ "style": 1
 }

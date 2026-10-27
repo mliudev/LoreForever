@@ -7,16 +7,16 @@
  "meta": {
   "wiki": "Auberdine"
  },
- "summary": "Auberdine is a coastal night elven port town on the gloomy shores of Darkshore, serving as the Alliance's primary maritime gateway to northern Kalimdor. Sheltered beneath overcast skies and pine-covered bluffs, it connects the island home of Teldrassil to the Eastern Kingdoms while serving as an administrative haven against the encroaching wilderness.",
+ "summary": "Ships crowd Auberdine's docks, linking Darkshore with Teldrassil and the Eastern Kingdoms. The night elven town is the Alliance's main port in northern Kalimdor, set between the Veiled Sea and pine-covered bluffs.",
  "sections": [
   {
    "title": "Gateway to Northern Kalimdor",
-   "body": "Resting along the shores of the Veiled Sea, Auberdine is the only major settlement to successfully endure in modern Darkshore. Unlike the secluded treetop cities of Teldrassil, Auberdine looks outward, serving as the Alliance's busiest port in the north. Regular ships sail between here and the Eastern Kingdoms, to Stormwind Harbor and, by way of Southshore, to Menethil Harbor, while local ferries run to Rut'theran Village at the boughs of the World Tree. Because of its trade role, Auberdine embraces a more cosmopolitan air than traditional elven enclaves; visitors find lamps illuminating stone-laid streets and outland merchants including dwarves and gnomes mingling among the low-slung, arched timber houses.",
+   "body": "Auberdine sits on the Veiled Sea, the only major settlement still thriving in Darkshore. Its ships sail to Stormwind Harbor and, by way of Southshore, to Menethil Harbor. Ferries cross to Rut'theran Village beneath the boughs of the World Tree. Unlike Teldrassil's secluded treetop cities, Auberdine welcomes travelers from across the sea. Lamps light its stone streets, and dwarves and gnomes mingle with merchants among low, arched timber houses.",
    "spoiler": 0
   },
   {
    "title": "A Beleaguered Haven",
-   "body": "Governed by elder Thundris Windweaver and the Auberdine Village Council, the town coordinates the defence of Darkshore alongside the local Sentinels. Despite its role as a vital trade hub, Auberdine's name is rarely spoken in the boughs of Darnassus, where memory dwells on the great cities the Sundering took. The town endures relentless regional perils: aggressive murlocs raid the fishing boats along the strand, corrupted Blackwood furbolgs press from the south, and foul magic seeping down from Felwood agitates the local wildlife.",
+   "body": "Elder Thundris Windweaver and the Auberdine Village Council govern the town, coordinating Darkshore's defense with the local Sentinels. Auberdine is a vital trade hub, though its name is rarely spoken in Darnassus, where memory dwells on the great cities lost to the Sundering. Trouble presses in from every side: aggressive murlocs raid fishing boats along the strand, corrupted Blackwood furbolgs push from the south, and foul magic drifting down from Felwood agitates the wildlife.",
    "spoiler": 0
   }
  ],
@@ -28,7 +28,7 @@
     "where do boats go",
     "auberdine travel"
    ],
-   "answer": "The docks connect northern Kalimdor to the wider Alliance world. One pier hosts the ferry to Rut'theran Village at the base of Teldrassil, while others berth large ocean-going vessels that sail across the Great Sea to Stormwind Harbor and, by way of Southshore in the Hillsbrad Foothills, to Menethil Harbor in the Wetlands."
+   "answer": "Auberdine's docks connect northern Kalimdor with the wider Alliance world. A ferry crosses to Rut'theran Village at Teldrassil's base, while ocean-going ships sail across the Great Sea to Stormwind Harbor and, by way of Southshore in the Hillsbrad Foothills, to Menethil Harbor in the Wetlands."
   },
   {
    "q": "Who rules Auberdine?",
@@ -37,7 +37,7 @@
     "who is in charge",
     "village council"
    ],
-   "answer": "Auberdine is stewarded by elder Thundris Windweaver alongside the Auberdine Village Council. The settlement's defense is overseen by the Sentinels, led locally by Sentinel Glynda Nal'Shea."
+   "answer": "Elder Thundris Windweaver and the Auberdine Village Council govern Auberdine. The Sentinels oversee its defense, led locally by Sentinel Glynda Nal'Shea."
   },
   {
    "q": "Why are there dwarves and humans living in a night elf town?",
@@ -45,7 +45,7 @@
     "non elves in auberdine",
     "why dwarves here"
    ],
-   "answer": "Because Auberdine serves as the Alliance's chief port on northern Kalimdor, foreign traders, craftsmen, and travelers arrive here first. Dwarves have set up a local smithy to service visiting ships and travellers, making the town unusually diverse and welcoming compared to traditional night elf settlements."
+   "answer": "Auberdine is the Alliance's chief port in northern Kalimdor, so foreign traders, craftsmen, and travelers arrive there first. Dwarves keep a smithy to serve visiting ships and travelers, making the town unusually diverse beside traditional night elf settlements."
   },
   {
    "q": "Why do night elves from Darnassus look down on Auberdine?",
@@ -53,17 +53,17 @@
     "darnassus auberdine rivalry",
     "auberdine outcasts"
    ],
-   "answer": "Thundris Windweaver calls Auberdine a humble place whose name is not spoken in the boughs of Darnassus. Most kaldorei remember only what the Sundering took, the thriving cities of Ameth'Aran and Bashal'Aran, and Auberdine remains in their shadow."
+   "answer": "Thundris Windweaver calls Auberdine a humble place whose name is not spoken in the boughs of Darnassus. Most kaldorei remember the cities lost to the Sundering, including the thriving Ameth'Aran and Bashal'Aran, and Auberdine remains in their shadow."
   }
  ],
  "angles": [
   {
    "target": "race:NightElf",
-   "text": "For kaldorei venturing out from Teldrassil, Auberdine is the first true mainland hub where ancient tradition meets the strange ways and bustling industry of younger Alliance allies."
+   "text": "As a kaldorei venturing out from Teldrassil, you reach Auberdine as your first true mainland hub, where ancient tradition meets the unfamiliar ways and industry of younger Alliance allies."
   },
   {
    "target": "faction:Alliance",
-   "text": "This port is the lifeblood of Alliance travel and supply lines into northern Kalimdor, ensuring steady logistics between Stormwind, Ironforge, and Darnassus."
+   "text": "As an Alliance traveler, you rely on this port to carry people and supplies into northern Kalimdor, linking Stormwind, Ironforge, and Darnassus."
   }
  ],
  "keywords": [
@@ -89,5 +89,6 @@
  ],
  "attribution": [
   "Auberdine"
- ]
+ ],
+ "style": 1
 }

@@ -20,16 +20,16 @@
    "Erion's Behest"
   ]
  },
- "summary": "Erion's Behest is a summons dispatched to promising night elf rogues operating out of Darnassus. Recognizing their budding stealthcraft, the rogue mentor Erion Shadewhisper sends them across the sea to Stormwind City to report directly to Stormwind Intelligence.",
+ "summary": "Across the Great Sea, Erion's Behest carries a summons to promising night elf rogues in Darnassus. Erion Shadewhisper sees their growing skill in stealth and sends them to Stormwind City to report to Stormwind Intelligence.",
  "sections": [
   {
    "title": "A Summons Across the Sea",
-   "body": "Night elf rogues operating in the shadow of Teldrassil typically hone their skills under the quiet watch of mentors like Erion Shadewhisper. However, when an operative demonstrates exceptional talent, word travels well beyond the boughs of the World Tree. Through Erion, Stormwind Intelligence\u2014better known as SI:7\u2014extends a direct invitation to travel across the Great Sea to the human capital.",
+   "body": "Night elf rogues in Teldrassil's shadow train under mentors such as Erion Shadewhisper. When one shows exceptional talent, word reaches beyond the World Tree. Through Erion, Stormwind Intelligence, known as SI:7, invites the rogue across the Great Sea to the human capital.",
    "spoiler": 0
   },
   {
    "title": "Entering the Service of SI:7",
-   "body": "The journey is arduous, taking the operative from Kalimdor's northern reaches through the docks of Darkshore or the Wetlands and into the bustling streets of Stormwind City. Once in the capital, the operative must slip into Old Town and report to SI:7 headquarters. There, Renzik \"The Shiv\" awaits to assess the newcomer, opening the door to advanced espionage, poison mastery, and covert operations on behalf of the Alliance.",
+   "body": "The journey leads from northern Kalimdor through the docks of Darkshore or the Wetlands to Stormwind City. In the capital, you make your way to SI:7 headquarters in Old Town and report to Renzik \"The Shiv.\" He assesses newcomers and opens the way to advanced espionage, poison mastery, and covert operations for the Alliance.",
    "spoiler": 0
   }
  ],
@@ -41,7 +41,7 @@
     "erion shadewhisper",
     "who gave me this"
    ],
-   "answer": "Erion Shadewhisper, the rogue trainer in Darnassus, gives you this assignment after your early deeds catch the attention of intelligence networks across the sea."
+   "answer": "Erion Shadewhisper, the rogue trainer in Darnassus, sends you after your early deeds draw the attention of intelligence networks across the sea."
   },
   {
    "q": "Why is Stormwind Intelligence contacting a night elf?",
@@ -50,7 +50,7 @@
     "why stormwind",
     "why do humans care"
    ],
-   "answer": "Though the night elves have their own stealth traditions, the Alliance relies heavily on SI:7 to coordinate covert intelligence and sabotage. Stormwind Intelligence regularly seeks out capable rogues of any Alliance race to bolster their operational ranks."
+   "answer": "The Alliance relies on SI:7 to coordinate covert intelligence and sabotage, alongside the night elves' own stealth traditions. Stormwind Intelligence seeks capable rogues of every Alliance race for its ranks."
   },
   {
    "q": "Where do I find Renzik 'The Shiv'?",
@@ -59,7 +59,7 @@
     "where is the shiv",
     "find renzik"
    ],
-   "answer": "Renzik 'The Shiv' is stationed inside the SI:7 headquarters, located tucked away within the Old Town district of Stormwind City."
+   "answer": "Renzik \"The Shiv\" is inside SI:7 headquarters in Stormwind City's Old Town."
   },
   {
    "q": "Is this quest only for rogues?",
@@ -68,7 +68,7 @@
     "can other classes do this",
     "is this rogue quest"
    ],
-   "answer": "Yes. This is an Alliance rogue class quest intended to guide Kalimdor-based operatives to the central hub of Alliance intelligence training in Stormwind."
+   "answer": "Yes. This Alliance rogue assignment guides operatives from Kalimdor to Stormwind, the center of Alliance intelligence training."
   },
   {
    "q": "What happens after meeting Renzik?",
@@ -77,7 +77,7 @@
     "what do i get",
     "after renzik"
    ],
-   "answer": "Reporting to Renzik integrates you into SI:7's training operations in the Eastern Kingdoms, setting you up for specialized training and covert assignments throughout the human lands."
+   "answer": "Reporting to Renzik brings you into SI:7's training operations in the Eastern Kingdoms, where specialized training and covert assignments await throughout the human lands."
   },
   {
    "q": "How does a night elf get to Stormwind City at this stage?",
@@ -86,21 +86,21 @@
     "travel to stormwind",
     "path to stormwind"
    ],
-   "answer": "A traveler can take the ship from Auberdine in Darkshore that sails straight across the sea to Stormwind Harbor."
+   "answer": "You can sail from Auberdine in Darkshore straight across the sea to Stormwind Harbor."
   }
  ],
  "angles": [
   {
    "target": "class:Rogue",
-   "text": "This summons marks your graduation from local Kalimdor scuffles into the broader realm of continental espionage and lethal training under SI:7."
+   "text": "As a rogue, you leave local Kalimdor scuffles for continental espionage and lethal training under SI:7."
   },
   {
    "target": "race:NightElf",
-   "text": "Leaving the shelter of Darnassus and Teldrassil to serve human intelligence networks in the stone alleys of Stormwind is often a stark culture shock for Kaldorei prowlers."
+   "text": "As a night elf, leaving Darnassus and Teldrassil to serve human intelligence in Stormwind's stone alleys can bring a sharp culture shock."
   },
   {
    "target": "faction:Alliance",
-   "text": "SI:7 centralizes covert operations for the Alliance, ensuring talented scouts from every member race can be deployed where the crown needs them most."
+   "text": "As an Alliance member, you can see SI:7 gather covert operations and deploy talented scouts from every member race where the crown needs them."
   }
  ],
  "keywords": [
@@ -123,5 +123,6 @@
  ],
  "attribution": [
   "Erion's Behest"
- ]
+ ],
+ "style": 1
 }

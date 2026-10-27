@@ -8,16 +8,16 @@
   "wiki": "Laird",
   "refs": 2
  },
- "summary": "Laird is a night elf fish vendor found inside the seaside inn of Auberdine. Working along Darkshore's mist-shrouded coast, he provides trade goods and culinary recipes to travelers and fishermen braving the rugged shoreline.",
+ "summary": "At Auberdine's inn, Laird sells fish and cooking supplies to travelers along Darkshore's coast.",
  "sections": [
   {
    "title": "A Harbor Merchant",
-   "body": "Situated inside the bustling inn of Auberdine, Laird sells fresh fish and supplies to sailors, locals, and journeying adventurers. Darkshore's waters are notoriously turbulent and rife with danger compared to the sheltered shores of Teldrassil, but Laird knows well that risk brings reward. For daring anglers willing to cast their lines along the misty beaches, the local catch yields a handsome profit.",
+   "body": "Laird sells fish and supplies inside Auberdine's inn. Sailors, locals, and travelers come to him while Darkshore's waters churn with dangers greater than those along Teldrassil's sheltered shores. For anglers willing to cast from the misty beaches, the local catch can bring a handsome profit.",
    "spoiler": 0
   },
   {
    "title": "Ties Across the Water",
-   "body": "Laird remains closely connected to fishing operations across the channel in Teldrassil. He serves as an essential contact for courier runs between the island boughs of Rut'theran Village and the mainland port, receiving shipments from his fellow fisher Nessa Shadowsong and ensuring the lines of coastal commerce stay open.",
+   "body": "Laird stays in touch with fishing operations across the channel in Teldrassil. Shipments come from his fellow fisher Nessa Shadowsong, linking Rut'theran Village with the mainland port and keeping coastal trade moving.",
    "spoiler": 0
   }
  ],
@@ -29,7 +29,7 @@
     "where is laird",
     "laird auberdine"
    ],
-   "answer": "Laird is located indoors on the ground floor of the inn in Auberdine, the main Alliance settlement along the coast of Darkshore."
+   "answer": "Find Laird inside Auberdine's inn, on the ground floor. Auberdine is the main Alliance settlement on Darkshore's coast."
   },
   {
    "q": "What does Laird sell?",
@@ -38,7 +38,7 @@
     "what does laird sell",
     "laird wares"
    ],
-   "answer": "He sells various caught fish and cooking ingredients, as well as the culinary instruction for preparing a Fillet of Frenzy."
+   "answer": "Laird sells caught fish, cooking ingredients, and instruction for preparing a Fillet of Frenzy."
   },
   {
    "q": "What quests involve Laird?",
@@ -46,7 +46,7 @@
     "laird quests",
     "auberdine fish quest"
    ],
-   "answer": "Laird is the recipient of a delivery originating from Nessa Shadowsong at Rut'theran Village in the quest Flight to Auberdine, after which he asks adventurers to carry word back across the sea."
+   "answer": "Laird receives a delivery from Nessa Shadowsong at Rut'theran Village. Afterward, he asks adventurers to carry word back across the sea."
   },
   {
    "q": "Why does Laird think Darkshore fishing is worthwhile despite the danger?",
@@ -54,17 +54,17 @@
     "laird gossip",
     "is darkshore good for fishing"
    ],
-   "answer": "Laird notes that while the misty shoreline of Darkshore harbors far more hazards than the tranquil waters of Teldrassil, the abundant and exotic sea life makes the trade far more profitable for enterprising fishers."
+   "answer": "Though Darkshore's misty shoreline is more dangerous than Teldrassil's tranquil waters, its abundant and exotic sea life makes fishing more profitable for enterprising fishers."
   }
  ],
  "angles": [
   {
    "target": "profession:Cooking",
-   "text": "Culinary travelers visiting Darkshore often seek out Laird for his recipe on how to properly fillet and cook the fierce frenzy fish native to Kalimdor's waters."
+   "text": "If you travel through Darkshore for cooking, Laird teaches how to fillet and cook the fierce frenzy fish found in Kalimdor's waters."
   },
   {
    "target": "race:NightElf",
-   "text": "Laird represents the everyday night elf tradesmen who have established themselves along the mainland shores to support Kalimdor's growing coastal network."
+   "text": "As a night elf, Laird shows how your people trade along Kalimdor's mainland shores and support the growing coastal network."
   }
  ],
  "keywords": [
@@ -85,5 +85,6 @@
  ],
  "attribution": [
   "Laird"
- ]
+ ],
+ "style": 1
 }

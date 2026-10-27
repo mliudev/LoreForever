@@ -11,16 +11,16 @@
    "quest:6362"
   ]
  },
- "summary": "A Bundle of Hides consists of cured skins collected from the beasts of the Barrens, bundled together for transport across central Kalimdor. Bound for the leatherworkers of Thunder Bluff, it serves as a straightforward courier shipment that introduces travelers to the Horde's wind rider flight network.",
+ "summary": "Across the Barrens, a Bundle of Hides travels toward Thunder Bluff with the Horde’s wind riders. The cured skins are a straightforward courier shipment for the leatherworkers, and their delivery introduces travelers to the wind rider network.",
  "sections": [
   {
    "title": "Frontier Trade",
-   "body": "The untamed plains of the Barrens are home to vast herds of kodo, prowling lions, and roving raptors. Hunters along the trade paths skin these creatures not only for meat and survival, but to supply city artisans. Without raw pelts from the wilds, settlements like Thunder Bluff would struggle to sustain their local leathercrafters, who transform dried skins into essential gear, pouches, armor, and bindings for the Horde.",
+   "body": "Hunters skin the beasts of the Barrens for cured hides. The plains hold vast herds of kodo, prowling lions, and roving raptors. These skins supply the leatherworkers of Thunder Bluff, who turn them into gear, pouches, armor, and bindings for the Horde.",
    "spoiler": 0
   },
   {
    "title": "Skyward Freight",
-   "body": "Transporting heavy goods overland through the Barrens and up into Mulgore is dangerous and slow, constantly threatened by roaming quilboar and centaur raiders. To speed delivery between the Crossroads and the tauren capital, couriers rely on Devrak's trained wyverns. Handing a bundle of hides to a wind rider courier demonstrates the sheer efficiency of air travel across Kalimdor's fractured terrain.",
+   "body": "Couriers carry the bundle from the Crossroads to Thunder Bluff on Devrak’s trained wyverns. Overland travel through the Barrens and into Mulgore is slow and dangerous, with roaming quilboar and centaur raiders. Handing the hides to a wind rider courier shows how swiftly air travel can cross Kalimdor’s fractured terrain.",
    "spoiler": 0
   }
  ],
@@ -32,7 +32,7 @@
     "why transport hides",
     "what are hides for"
    ],
-   "answer": "The skins were harvested from animals across the Barrens and are meant for Ahanu, a leatherworker in Thunder Bluff. He uses them to craft leather goods and armaments for the tauren and their Horde allies."
+   "answer": "The Bundle of Hides carries skins gathered from animals across the Barrens to Ahanu, a leatherworker in Thunder Bluff. He makes leather goods and armaments for the tauren and their Horde allies."
   },
   {
    "q": "Who receives the shipment in Thunder Bluff?",
@@ -41,7 +41,7 @@
     "bundle of hides recipient",
     "where is ahanu"
    ],
-   "answer": "Ahanu receives the parcel. He works out of Hewa's Armory, which sits directly at the base of the wind rider roost in Thunder Bluff."
+   "answer": "Ahanu receives the parcel at Hewa’s Armory, directly at the base of Thunder Bluff’s wind rider roost."
   },
   {
    "q": "Why send this bundle via a wind rider?",
@@ -50,7 +50,7 @@
     "crossroads flight hides",
     "devrak wind rider"
    ],
-   "answer": "Traveling across the Barrens and ascending to the mesas of Mulgore on foot takes days and risks ambush by centaur or quilboar. Flying atop a wind rider with the Crossroads flight master, Devrak, ensures the goods arrive swiftly and safely."
+   "answer": "The Crossroads-to-Thunder Bluff journey on foot takes days and risks ambush by centaur or quilboar. Devrak, the Crossroads flight master, carries the goods atop a wind rider so they arrive swiftly and safely."
   },
   {
    "q": "Who prepared the bundle in the Barrens?",
@@ -59,17 +59,17 @@
     "jahan hides",
     "who gathered the pelts"
    ],
-   "answer": "The hides were bundled by Jahan Hawkwing, a leather and mail armor merchant at the Crossroads and a colleague of Ahanu, from animals of the Barrens."
+   "answer": "Jahan Hawkwing prepared the bundle from animals of the Barrens. He is a leather and mail armor merchant at the Crossroads and a colleague of Ahanu."
   }
  ],
  "angles": [
   {
    "target": "faction:Horde",
-   "text": "Hauling simple shipments like pelts across the sky highlights how the Horde leverages wyvern flight paths to bind isolated desert outposts directly to sovereign capital cities."
+   "text": "Simple shipments like pelts cross the sky on wyvern flight paths, binding isolated Horde outposts directly to sovereign capital cities."
   },
   {
    "target": "race:Tauren",
-   "text": "Tauren rely on natural materials and reverent hunting, transforming hides from the neighboring savanna into the armor and crafts sold in the stalls of Mulgore."
+   "text": "As a tauren, you rely on natural materials and reverent hunting, turning hides from the neighboring savanna into armor and crafts sold in Mulgore’s stalls."
   }
  ],
  "keywords": [
@@ -97,5 +97,6 @@
   "Bundle of Hides",
   "A Bundle of Hides (Classic)",
   "Ride to Thunder Bluff (Classic)"
- ]
+ ],
+ "style": 1
 }

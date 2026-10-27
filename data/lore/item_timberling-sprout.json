@@ -10,11 +10,11 @@
    "quest:919"
   ]
  },
- "summary": "Timberling Sprouts are young, nascent plant elementals taking root near the shores of Lake Al'Ameth in Teldrassil. Even in their earliest growth, these sprouts show signs of corruption, prompting night elf wardens to pull them before they mature into aggressive timberlings.",
+ "summary": "Along Lake Al'Ameth, Timberling Sprouts take root already touched by corruption. Night elf wardens pull them before they grow into aggressive timberlings.",
  "sections": [
   {
    "title": "Blighted Seedlings",
-   "body": "Timberlings are plant spirits closely tied to the natural vitality of Teldrassil, but the seedlings sprouting along Lake Al'Ameth have worried the local night elves. Rather than emerging healthy and in harmony with the wild, they sprout already tainted and aggressive. Because these infant sprouts appear beyond cleansing or natural healing, caretakers at Lake Al'Ameth must gather and destroy them to prevent an uncontrolled spread of hostile timberlings across the fragile boughs of the newly planted World Tree.",
+   "body": "Timberlings are plant spirits bound to Teldrassil's natural vitality. Along Lake Al'Ameth, the night elves find seedlings that sprout tainted and aggressive instead of healthy and in harmony with the wild. The young sprouts seem beyond cleansing or natural healing, so the caretakers gather and destroy them. They hope to stop hostile timberlings from spreading across the fragile boughs of the newly planted World Tree.",
    "spoiler": 0
   }
  ],
@@ -26,7 +26,7 @@
     "where are timberling sprouts",
     "find sprouts"
    ],
-   "answer": "Timberling Sprouts grow close to the water's edge along the shores of Lake Al'Ameth, south of Dolanaar in Teldrassil."
+   "answer": "Timberling Sprouts grow near the water's edge along Lake Al'Ameth, south of Dolanaar in Teldrassil."
   },
   {
    "q": "Why are night elves pulling Timberling Sprouts from the ground?",
@@ -35,7 +35,7 @@
     "timberling sprout purpose",
     "why destroy sprouts"
    ],
-   "answer": "The sprouts are sprouting tainted from the very beginning. Left unchecked, they grow into violent timberlings that threaten the safety and balance of Teldrassil. Because they are considered beyond help, the caretakers remove them while they are still small."
+   "answer": "The sprouts emerge tainted. Left alone, they grow into violent timberlings that threaten Teldrassil's safety and balance. The caretakers consider them beyond help and remove them while they are still small."
   },
   {
    "q": "What is causing the sprouts to become tainted?",
@@ -44,7 +44,7 @@
     "what is tainting them",
     "sprout sickness"
    ],
-   "answer": "A mysterious sickness has begun affecting the wildlife and plant elementals of Teldrassil. While the exact source of the taint is still an unsolved riddle to the botanist Denalan, it influences young timberlings from the moment they take root."
+   "answer": "A mysterious sickness is affecting Teldrassil's wildlife and plant elementals. Botanist Denalan does not know its source, but it taints young timberlings from the moment they take root."
   },
   {
    "q": "Who asks for Timberling Sprouts to be collected?",
@@ -53,17 +53,17 @@
     "sprout questgiver",
     "timberling sprouts turn in"
    ],
-   "answer": "Denalan, the botanist tending Lake Al'Ameth, asks adventurers to collect and clear the sprouts from the lakeside to keep the land pure."
+   "answer": "Denalan, the botanist tending Lake Al'Ameth, asks adventurers to gather the sprouts and clear them from the lakeside to keep the land pure."
   }
  ],
  "angles": [
   {
    "target": "class:Druid",
-   "text": "For druids attuned to the plant life and elementals of Kalimdor, seeing natural woodland spirits sprout pre-corrupted from the soil is a grim omen for Teldrassil's future."
+   "text": "As a druid attuned to Kalimdor's plant life and elementals, you may see woodland spirits emerging corrupted as a grim omen for Teldrassil's future."
   },
   {
    "target": "race:NightElf",
-   "text": "Young night elves beginning their training in Shadowglen are tasked with clearing these sprouts to safeguard their new woodland home."
+   "text": "As a young night elf training in Shadowglen, you are tasked with clearing the sprouts to safeguard your new woodland home."
   }
  ],
  "keywords": [
@@ -84,5 +84,6 @@
  "attribution": [
   "Timberling Sprout",
   "Timberling Sprouts"
- ]
+ ],
+ "style": 1
 }

@@ -7,11 +7,11 @@
  "meta": {
   "wiki": "Razormane Grounds"
  },
- "summary": "The Razormane Grounds form the forward encampment of the Razormane quilboar pushing eastward from the Barrens into central Durotar. Choked with sharp briars and the stripped carcasses of wild game, this bristling outpost serves as the frontline in the quilboars' unending clash with the orcs of Orgrimmar.",
+ "summary": "Razormane quilboar push east from the Barrens into central Durotar. Their thorn-choked camp marks the front of their unending clash with Orgrimmar's orcs.",
  "sections": [
   {
    "title": "A Thorn in Durotar's Side",
-   "body": "Sprawling beneath the red cliffs of central Durotar, the Razormane Grounds mark the furthest eastern reach of quilboar expansion out of the Barrens. Entangled within thick brambles and surrounded by bleached bones, the encampment poses a constant danger to travelers along the Southfury River. The camp is led by figures such as Captain Flat Tusk of the Battleguard and Geolord Mottle, who orchestrate raids against neighboring orc settlements and passing supply lines. Despite regular patrols dispatched from Razor Hill and nearby outposts, the Razormane replenish their ranks tirelessly, sprouting from the briars faster than the Horde can clear them.",
+   "body": "At the Southfury River, the Razormane Grounds threaten travelers beneath central Durotar's red cliffs. The camp marks the furthest east the quilboar have spread from the Barrens. Captain Flat Tusk of the Battleguard and Geolord Mottle lead raids on nearby orc settlements and passing supply lines. Patrols set out from Razor Hill and nearby outposts, but the Razormane keep replenishing their ranks among the briars faster than the Horde can clear them.",
    "spoiler": 0
   }
  ],
@@ -23,7 +23,7 @@
     "quilboar camp durotar",
     "where are razormane"
    ],
-   "answer": "It is a fortified quilboar encampment in central Durotar, acting as a forward base for the Razormane tribe as they expand eastward from the Barrens."
+   "answer": "The Razormane Grounds are a fortified quilboar camp in central Durotar, where the Razormane push east from the Barrens."
   },
   {
    "q": "Why are the quilboar attacking Durotar?",
@@ -32,7 +32,7 @@
     "why are razormane here",
     "quilboar invasion"
    ],
-   "answer": "The Razormane quilboar view all neighboring territories as rightfully theirs, seeking to expand their thorny thickets and hunting lands at the expense of the new Horde settlements."
+   "answer": "The Razormane see neighboring lands as theirs and seek to expand their thorny thickets and hunting grounds at the expense of the Horde's new settlements."
   },
   {
    "q": "Who leads the quilboar at the Razormane Grounds?",
@@ -41,7 +41,7 @@
     "who leads the razormane grounds",
     "captain flat tusk"
    ],
-   "answer": "The encampment is commanded by Captain Flat Tusk, leader of the Razormane Battleguard, alongside the earth-shaping geomancer Geolord Mottle."
+   "answer": "Captain Flat Tusk leads the Razormane Battleguard, alongside Geolord Mottle, an earth-shaping geomancer."
   },
   {
    "q": "Why are there so many bones around the camp?",
@@ -50,17 +50,17 @@
     "razormane animal carcasses",
     "why dead animals"
    ],
-   "answer": "The Razormane are aggressive scavengers and hunters who strip the local wildlife down to the bone to feed their raiders, leaving the carcasses behind to mark their territory."
+   "answer": "The Razormane hunt and scavenge aggressively, stripping local wildlife to the bone to feed their raiders and leaving the carcasses around the camp as markers of their territory."
   }
  ],
  "angles": [
   {
    "target": "race:Orc",
-   "text": "For the orcs of Durotar, the Razormane Grounds are a persistent threat right in the heart of their new homeland, requiring young warriors to prove their mettle by culling the quilboar."
+   "text": "For orcs in Durotar, the Razormane Grounds threaten the heart of their new homeland. Young warriors prove their mettle by culling the quilboar."
   },
   {
    "target": "faction:Horde",
-   "text": "Keeping the Razormane Grounds suppressed is vital to securing travel and supply lines between the Barrens and the Horde capital of Orgrimmar."
+   "text": "For the Horde, suppressing the Razormane Grounds helps secure travel and supply lines between the Barrens and Orgrimmar."
   }
  ],
  "keywords": [
@@ -79,5 +79,6 @@
  ],
  "attribution": [
   "Razormane Grounds"
- ]
+ ],
+ "style": 1
 }

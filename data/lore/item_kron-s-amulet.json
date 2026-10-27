@@ -10,11 +10,11 @@
    "quest:816"
   ]
  },
- "summary": "Kron's Amulet is a recovered personal keepsake belonging to Kron, a young orc hunter from Durotar. It serves as the sole physical proof of his grim fate along the banks of the Southfury River.",
+ "summary": "Along the Southfury River, Kron’s keepsake carries the memory of a young orc hunter who went missing.",
  "sections": [
   {
    "title": "Tragedy on the Southfury",
-   "body": "Kron was a headstrong young orc from a farmstead northwest of Razor Hill. Eager to prove his prowess and dismissive of danger, he stormed off to hunt the vicious Dreadmaw crocolisks prowling the Southfury River along the border with the Barrens. Ignoring his mother Misha Tor'kren's warnings, his stubborn pride led him directly into the jaws of the river's predators. He never returned, leaving behind only this swallowed trinket as a silent confirmation that he had been slain and devoured.",
+   "body": "Kron was a headstrong young orc from a farmstead northwest of Razor Hill. Eager to prove himself, he went to hunt the vicious Dreadmaw crocolisks along the Southfury River, on the border with the Barrens. His mother, Misha Tor'kren, warned him of the danger, but pride carried him onward. Kron never returned from the river. His amulet was found inside one of its predators, confirming that he had been slain and devoured.",
    "spoiler": 1
   }
  ],
@@ -26,7 +26,7 @@
     "kron backstory",
     "kron lore"
    ],
-   "answer": "Kron was an impulsive young orc hunter who lived with his mother, Misha Tor'kren, on a farmstead northwest of Razor Hill. Determined to test his strength, he went out alone to hunt river beasts despite warnings of their ferocity."
+   "answer": "Kron was a headstrong young orc hunter who lived with his mother, Misha Tor'kren, on a farmstead northwest of Razor Hill. He went alone to test his strength against the river beasts, despite warnings of their ferocity."
   },
   {
    "q": "Where is Kron's Amulet found?",
@@ -35,7 +35,7 @@
     "kron's amulet location",
     "who drops kron's amulet"
    ],
-   "answer": "The amulet is recovered from the bellies of Dreadmaw Crocolisks and Corrupted Dreadmaw Crocolisks lurking along the banks of the Southfury River in Durotar."
+   "answer": "Dreadmaw Crocolisks and Corrupted Dreadmaw Crocolisks along the banks of the Southfury River in Durotar carry the amulet in their bellies."
   },
   {
    "q": "Who wants Kron's Amulet returned?",
@@ -44,17 +44,17 @@
     "where to turn in kron's amulet",
     "misha tor'kren"
    ],
-   "answer": "His grieving mother, Misha Tor'kren, awaits word of her son at her farmstead northwest of Razor Hill. The amulet provides her the final, painful closure needed to begin mourning."
+   "answer": "Misha Tor'kren wants Kron's Amulet returned. She awaits word of her son at her farmstead northwest of Razor Hill, and the amulet gives her painful confirmation of his fate."
   }
  ],
  "angles": [
   {
    "target": "race:Orc",
-   "text": "Kron's fate is a tragic reminder that while pride and martial glory drive orcish tradition, recklessness and ignoring the wisdom of elders can bring a swift and needless death."
+   "text": "Kron's fate shows how pride and the pursuit of martial glory can lead an orc to ignore the wisdom of elders, with deadly consequences."
   },
   {
    "target": "class:Hunter",
-   "text": "A stark lesson for any aspiring tracker on the perils of underestimating vicious beasts in unfamiliar river territory."
+   "text": "For a hunter, Kron's fate is a stark lesson in the danger of underestimating vicious beasts in unfamiliar river territory."
   }
  ],
  "keywords": [
@@ -76,5 +76,6 @@
  "attribution": [
   "Kron's Amulet",
   "Lost But Not Forgotten (Classic)"
- ]
+ ],
+ "style": 1
 }

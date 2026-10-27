@@ -10,16 +10,16 @@
    "quest:4812"
   ]
  },
- "summary": "The Empty Water Tube is a simple glass vessel provided in Auberdine to collect sacred moonwell water. It is meant to carry the blessed liquid up to the strange red crystal perched on the eastern cliffs of Darkshore.",
+ "summary": "In Auberdine, the Empty Water Tube is ready to gather sacred moonwell water for the red crystal on Darkshore’s eastern cliffs.",
  "sections": [
   {
    "title": "A Vessel for Blessed Waters",
-   "body": "Sentinels and scholars studying the mysterious red crystal along Darkshore's eastern ridge require pure lunar essence to test its nature. Because mundane glass or flasks can easily contaminate consecrated water, this sealed vial is specifically entrusted to investigators visiting the moonwell in Auberdine. Once filled, its contents are carried up the mountain slopes to see how the alien mineral responds to Elune's magic.",
+   "body": "Sentinels and scholars seek pure lunar essence to study the mysterious red crystal along Darkshore’s eastern ridge. Ordinary glass or flasks can contaminate consecrated water, so investigators visiting Auberdine’s moonwell receive this sealed vial for the work. They carry its filled contents up the mountain slopes to learn how the alien mineral responds to Elune’s magic.",
    "spoiler": 0
   },
   {
    "title": "Probing Felwood's Shadow",
-   "body": "The mountains immediately east of Darkshore border Felwood, a realm thoroughly poisoned by demonic corruption. Auberdine's defenders suspect that the ominous crimson monolith resting near the cliffs shares a sinister link with that ruined forest. By cascading moonwell water across its lattice, researchers hope the sacred waters will unveil the crystal's inner structure without triggering a catastrophic release of whatever power lies trapped inside.",
+   "body": "Felwood lies beyond the mountains east of Darkshore, poisoned by demonic corruption. Auberdine’s defenders suspect the ominous crimson monolith near the cliffs may be linked to that ruined forest. Researchers hope cascading moonwell water over its lattice will reveal the crystal’s inner structure without triggering a catastrophic release of the power trapped inside.",
    "spoiler": 1
   }
  ],
@@ -31,7 +31,7 @@
     "why do i have empty water tube",
     "what do i do with water tube"
    ],
-   "answer": "It is an empty container given to you in Auberdine to draw water directly from the settlement's moonwell, which is needed to analyze a bizarre red crystal found along the eastern heights of Darkshore."
+   "answer": "You receive the empty container in Auberdine to draw water from its moonwell for analyzing the bizarre red crystal on Darkshore’s eastern heights."
   },
   {
    "q": "Where should the tube be filled?",
@@ -40,7 +40,7 @@
     "where do i fill empty water tube",
     "fill water tube location"
    ],
-   "answer": "It must be dipped into the moonwell situated within Auberdine. Filling it transforms the item into a Moonwell Water Tube."
+   "answer": "Fill the tube by dipping it into the moonwell in Auberdine. The filled vessel becomes a Moonwell Water Tube."
   },
   {
    "q": "Why is moonwell water needed for the crystal?",
@@ -49,7 +49,7 @@
     "what does moonwell water do to crystal",
     "red crystal moonwell water"
    ],
-   "answer": "Moonwell water carries the potent, purifying magic of Elune. Scholars believe pouring it over the mysterious red crystal will react with its surface and reveal clues about its origin and composition."
+   "answer": "Moonwell water carries Elune’s potent, purifying magic. Scholars believe pouring it over the red crystal will reveal clues about its origin and composition."
   },
   {
    "q": "Why are Auberdine's residents worried about the crystal?",
@@ -58,17 +58,17 @@
     "crystal danger darkshore",
     "why investigate red crystal"
    ],
-   "answer": "The crystal sits near the high ridge overlooking Felwood, a forest badly corrupted by the Burning Legion. Local watchers fear that if the crystal is linked to that tainted wilderness, it could pose a severe threat to Darkshore."
+   "answer": "The crystal rests near the high ridge overlooking Felwood, a forest badly corrupted by the Burning Legion. Local watchers fear a link to that tainted wilderness could threaten Darkshore."
   }
  ],
  "angles": [
   {
    "target": "race:NightElf",
-   "text": "Handling consecrated moonwell water is a sacred duty for the Kaldorei, who revere the moonwells as holy reservoirs blessed by the goddess Elune."
+   "text": "As a Night Elf, handling consecrated moonwell water is a sacred duty. The Kaldorei revere moonwells as holy reservoirs blessed by Elune."
   },
   {
    "target": "class:Druid",
-   "text": "Druids hold moonwells in deep reverence, relying on their untainted waters to study anomalies and cleanse strange disruptions encroaching from corrupted lands like Felwood."
+   "text": "As a druid, you hold moonwells in deep reverence. You rely on their untainted waters to study anomalies and cleanse strange disruptions from corrupted lands like Felwood."
   }
  ],
  "keywords": [
@@ -93,5 +93,6 @@
  "attribution": [
   "Empty Water Tube",
   "As Water Cascades"
- ]
+ ],
+ "style": 1
 }

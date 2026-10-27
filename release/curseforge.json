@@ -1,7 +1,20 @@
 {
-  "_readme": "The narration that goes to CurseForge as projects of its own (scripts/curseforge_voices.py, run by the public repo's release workflow). CurseForge's WoW site takes one file per project (additional files are refused, errorCode 1011), and its upload API refuses files over about 500 MB (Cloudflare answers 413), so narrator stories, answer packs and quest dialogue have separate projects, and every other optional pack (a narrator in another language, the quest givers' voices) is one of its own. The male narrator, the default voice, stays bundled in the add-on's own file: projects 1762514 and 1762515 were created 10/23 to split him out so daily updates would be small, and Mike pulled that back 10/24, so nothing uploads to them. Each project's file is the folders listed here, taken byte for byte from the release zip named in 'from' (or the zips, when it's a list: a project gets the folders the release has so far), and it goes up whenever the narration in it changed since that project's last upload. Every project requires Lore Forever (lore-forever, 1715510), so the CurseForge app installs the add-on along with it. key: a short name for logs and 'requires'. name: the project's name on CurseForge. about: what it is, for players (changelogs). file: each upload's display name, {v} = the release version. core: how the add-on's own file lists the project once it's live, as a required or an optional dependency. Quest dialogue is always optional and never bundled with the core, whether its project is live or pending. requires: other projects here it needs installed to play (the quest givers' voices use male quest dialogue as a fallback; narrator quest packs play without their narrator's other packs). suggests: other projects here it goes well with, which CurseForge lists as optional dependencies (not installed with it). id and slug: the project's number and address (curseforge.com/wow/addons/<slug>), null until Mike creates it; a project without an id is skipped, so nothing uploads until it exists. Create a project only once its pack ships (CurseForge reviews a new project once it has a file); a release that doesn't have a project's zip yet just skips it. min_days (optional): a changed project uploads at most this often, so players re-download its narration at most once in that many days (the male narrator: 7, so recording catch-ups batch into one weekly download instead of riding the daily code updates; new narration reaches CurseForge up to a week late, while the site and GitHub get it daily); its first upload never waits. live: true once CurseForge has approved the project, since a file can only name an approved project as a dependency. Until then the add-on's file keeps bundled narration folders (quest dialogue is always excluded), unless that would put it over the limit (then its notes say so and point to the full download). paused: true for narration taken back until it's recorded again (none now: LOR-567's Brazilian Portuguese narrators are back, the female one 10/21; see scripts/build-release.sh PAUSED_PACKS; the old male narrator's project 1727668 carries the Brazilian Portuguese text alone, like the Russian and Ukrainian projects); it never uploads and is never live, so the add-on's file doesn't name it, and its project keeps its id and the files it has. core_upload: how the add-on's own file gets to CurseForge. 'auto': the release workflow uploads it, leaving out what doesn't fit under the API's limit. 'manual': one narration package without quest dialogue, the release's LoreForever.zip and the female narrator's complete zip merged (curseforge_voices.py package; without her only if that's over 2 GB), uploaded by hand on the website, which takes up to 2 GB; the workflow then uploads nothing for the add-on and its summary says what to upload (tried 2026-10-04 for 0.8.0: the website refused the 1.45 GB package as \"too large for this game class\", so it's 'auto' again).",
+  "_readme": "The narration that goes to CurseForge as projects of its own (scripts/curseforge_voices.py, run by the public repo's release workflow). CurseForge's WoW site takes one file per project (additional files are refused, errorCode 1011), and its upload API refuses files over about 500 MB (Cloudflare answers 413), so narrator stories, answer packs and quest dialogue have separate projects, and every other optional pack (a narrator in another language, the quest givers' voices) is one of its own. The male narrator, the default voice, stays bundled in the add-on's own file: projects 1762514 and 1762515 were created 10/23 to split him out so daily updates would be small, and Mike pulled that back 10/24, so nothing uploads to them (retired 10/26). A retired project is out of this list, so nothing uploads to it; its players keep what they installed, and site/lib/stores.js CF_RETIRED keeps its downloads counted (10/26, the fewest-projects cleanup: 1755322, folded back into 1727668, and 1752600, the original male narrator's quest dialogue, which is off by default). Each project's file is the folders listed here, taken byte for byte from the release zip named in 'from' (or the zips, when it's a list: a project gets the folders the release has so far), and it goes up whenever the narration in it changed since that project's last upload. Every project requires Lore Forever (lore-forever, 1715510), so the CurseForge app installs the add-on along with it. key: a short name for logs and 'requires'. name: the project's name on CurseForge. about: what it is, for players (changelogs). file: each upload's display name, {v} = the release version. core: how the add-on's own file lists the project once it's live, as a required or an optional dependency. Quest dialogue is always optional and never bundled with the core, whether its project is live or pending. requires: other projects here it needs installed to play (the quest givers' voices use male quest dialogue as a fallback; narrator quest packs play without their narrator's other packs). suggests: other projects here it goes well with, which CurseForge lists as optional dependencies (not installed with it). bundle: true for a narrator's Complete (10/26): no narration of its own, its file (made by curseforge_voices.py, so no 'from') only requires the narrator's story projects in 'requires', so one install brings them all (quest dialogue stays out: it's off by default). The add-on's Options say for each narrator whether its story projects are all installed or which are missing, from the live projects here (Data/Index.lua narratorPacks, lore.voicepack.narrator_packs), and name its Complete once that's live. id and slug: the project's number and address (curseforge.com/wow/addons/<slug>), null until Mike creates it; a project without an id is skipped, so nothing uploads until it exists. Create a project only once its pack ships (CurseForge reviews a new project once it has a file); a release that doesn't have a project's zip yet just skips it. min_days (optional): a changed project uploads at most this often, so players re-download its narration at most once in that many days (the male narrator: 7, so recording catch-ups batch into one weekly download instead of riding the daily code updates; new narration reaches CurseForge up to a week late, while the site and GitHub get it daily); its first upload never waits. live: true once CurseForge has approved the project, since a file can only name an approved project as a dependency. Until then the add-on's file keeps bundled narration folders (quest dialogue is always excluded), unless that would put it over the limit (then its notes say so and point to the full download). paused: true for narration taken back until it's recorded again (none now: LOR-567's Brazilian Portuguese narrators are back, the female one 10/21, and the male one in his first project, 1727668, again from 10/26, after it carried the Brazilian Portuguese text alone since 10/15; see scripts/build-release.sh PAUSED_PACKS); it never uploads and is never live, so the add-on's file doesn't name it, and its project keeps its id and the files it has. core_upload: how the add-on's own file gets to CurseForge. 'auto': the release workflow uploads it, leaving out what doesn't fit under the API's limit. 'manual': one narration package without quest dialogue, the release's LoreForever.zip and the female narrator's complete zip merged (curseforge_voices.py package; without her only if that's over 2 GB), uploaded by hand on the website, which takes up to 2 GB; the workflow then uploads nothing for the add-on and its summary says what to upload (tried 2026-10-04 for 0.8.0: the website refused the 1.45 GB package as \"too large for this game class\", so it's 'auto' again).",
   "core_upload": "auto",
   "projects": [
+    {
+      "key": "romanian",
+      "name": "Lore Forever - Romanian",
+      "about": "Romanian translations by Indurin",
+      "from": "LoreForever_Lang_roRO-{v}.zip",
+      "folders": ["LoreForever_Lang_roRO"],
+      "file": "Lore Forever Romanian {v}",
+      "core": "optional",
+      "requires": [],
+      "id": 1767707,
+      "slug": "lore-forever-romanian",
+      "live": false
+    },
     {
       "key": "ukrainian",
       "name": "Lore Forever - Ukrainian",
@@ -47,7 +60,7 @@
       "about": "quest givers' voices (male narrator)",
       "from": "LoreForever_Voice_Default_Quests.zip",
       "folders": ["LoreForever_Voice_Default_Quests"],
-      "file": "Lore Forever quest dialogue (male narrator) {v}",
+      "file": "Lore Forever quest dialogue 1-25 (male narrator) {v}",
       "core": "optional",
       "requires": [],
       "id": 1727331,
@@ -56,15 +69,15 @@
     },
     {
       "key": "male-more-quests-2",
-      "name": "Lore Forever - More Quest Dialogue 1-50 (Male Narrator)",
-      "about": "quest givers' voices for the rest of the game, levels 1-50 (male narrator)",
+      "name": "Lore Forever - More Quest Dialogue 26-50 (Male Narrator)",
+      "about": "quest givers' voices for the rest of the game, levels 26-50 (male narrator)",
       "from": "LoreForever_Voice_Default_Quests2.zip",
       "folders": ["LoreForever_Voice_Default_Quests2"],
-      "file": "Lore Forever more quest dialogue 1-50 (male narrator) {v}",
+      "file": "Lore Forever more quest dialogue 26-50 (male narrator) {v}",
       "core": "optional",
       "requires": [],
-      "id": null,
-      "slug": null,
+      "id": 1766729,
+      "slug": "lore-forever-more-quest-dialogue-26-50-male",
       "live": false
     },
     {
@@ -76,23 +89,37 @@
       "file": "Lore Forever more quest dialogue 51-60 (male narrator) {v}",
       "core": "optional",
       "requires": [],
-      "id": null,
-      "slug": null,
+      "id": 1766730,
+      "slug": "lore-forever-more-quest-dialogue-51-60-male",
       "live": false
     },
     {
       "key": "female-narrator",
       "name": "Lore Forever - Female Narrator",
-      "about": "the female narrator's stories of zones, places, people and dungeons, with her Alliance lands",
+      "about": "the female narrator's stories of zones, places, people and dungeons",
       "from": "LoreForever_Voice_Female-complete.zip",
-      "folders": ["LoreForever_Voice_Female", "LoreForever_Voice_Female_Alliance"],
+      "folders": ["LoreForever_Voice_Female"],
+      "handover": {"female-alliance": ["LoreForever_Voice_Female_Alliance"]},
       "file": "Lore Forever female narrator {v}",
       "core": "optional",
-      "requires": [],
-      "suggests": ["female-horde"],
+      "requires": ["female-horde"],
       "id": 1727332,
       "slug": "lore-forever-female-narrator",
       "live": true
+    },
+    {
+      "key": "female-alliance",
+      "name": "Lore Forever - Female Narrator (Alliance lands)",
+      "about": "the female narrator's stories of the Alliance's zones, cities and places",
+      "from": "LoreForever_Voice_Female_Alliance.zip",
+      "folders": ["LoreForever_Voice_Female_Alliance"],
+      "file": "Lore Forever female narrator, Alliance lands {v}",
+      "core": "optional",
+      "requires": [],
+      "suggests": ["female-narrator"],
+      "id": 1767708,
+      "slug": "lore-forever-female-narrator-alliance-lands",
+      "live": false
     },
     {
       "key": "female-horde",
@@ -102,7 +129,8 @@
       "folders": ["LoreForever_Voice_Female_Horde"],
       "file": "Lore Forever female narrator, Horde lands {v}",
       "core": "optional",
-      "requires": ["female-narrator"],
+      "requires": [],
+      "suggests": ["female-narrator"],
       "id": 1740579,
       "slug": "lore-forever-female-narrator-horde-lands",
       "live": true
@@ -113,7 +141,7 @@
       "about": "quest givers' voices (female narrator)",
       "from": "LoreForever_Voice_Female_Quests.zip",
       "folders": ["LoreForever_Voice_Female_Quests"],
-      "file": "Lore Forever quest dialogue (female narrator) {v}",
+      "file": "Lore Forever quest dialogue 1-25 (female narrator) {v}",
       "core": "optional",
       "requires": [],
       "suggests": ["female-narrator"],
@@ -123,16 +151,16 @@
     },
     {
       "key": "female-more-quests-2",
-      "name": "Lore Forever - More Quest Dialogue 1-50 (Female Narrator)",
-      "about": "quest givers' voices for the rest of the game, levels 1-50 (female narrator)",
+      "name": "Lore Forever - More Quest Dialogue 26-50 (Female Narrator)",
+      "about": "quest givers' voices for the rest of the game, levels 26-50 (female narrator)",
       "from": "LoreForever_Voice_Female_Quests2.zip",
       "folders": ["LoreForever_Voice_Female_Quests2"],
-      "file": "Lore Forever more quest dialogue 1-50 (female narrator) {v}",
+      "file": "Lore Forever more quest dialogue 26-50 (female narrator) {v}",
       "core": "optional",
       "requires": [],
       "suggests": ["female-narrator"],
-      "id": null,
-      "slug": null,
+      "id": 1766731,
+      "slug": "lore-forever-more-quest-dialogue-26-50-female",
       "live": false
     },
     {
@@ -145,13 +173,13 @@
       "core": "optional",
       "requires": [],
       "suggests": ["female-narrator"],
-      "id": null,
-      "slug": null,
+      "id": 1766732,
+      "slug": "lore-forever-more-quest-dialogue-51-60-female",
       "live": false
     },
     {
       "key": "male-more-places",
-      "name": "Lore Forever - More Places (Male Narrator)",
+      "name": "Lore Forever - Male Narrator: More Places",
       "about": "the whole story of hundreds more places (male narrator)",
       "from": "LoreForever_Voice_Default_MorePlaces.zip",
       "folders": ["LoreForever_Voice_Default_MorePlaces"],
@@ -164,7 +192,7 @@
     },
     {
       "key": "male-more-people",
-      "name": "Lore Forever - More People (Male Narrator)",
+      "name": "Lore Forever - Male Narrator: More People",
       "about": "the whole story of hundreds more characters, plus factions, peoples and lore topics (male narrator)",
       "from": "LoreForever_Voice_Default_MorePeople.zip",
       "folders": ["LoreForever_Voice_Default_MorePeople"],
@@ -176,60 +204,47 @@
       "live": true
     },
     {
-      "key": "male-more-items",
-      "name": "Lore Forever - Item Stories (Male Narrator)",
-      "about": "the story behind hundreds of quest items, letters and relics (male narrator)",
-      "from": "LoreForever_Voice_Default_MoreItems.zip",
-      "folders": ["LoreForever_Voice_Default_MoreItems"],
-      "file": "Lore Forever item stories (male narrator) {v}",
-      "core": "optional",
-      "requires": [],
-      "id": null,
-      "slug": null,
-      "live": false
-    },
-    {
       "key": "male-quest-stories-1",
-      "name": "Lore Forever - Quest Stories 1-19 (Male Narrator)",
+      "name": "Lore Forever - Male Narrator: Quest Stories 1-19",
       "about": "the story behind hundreds of quests from level 1 to 19 (male narrator)",
       "from": "LoreForever_Voice_Default_MoreQuests1.zip",
       "folders": ["LoreForever_Voice_Default_MoreQuests1"],
       "file": "Lore Forever quest stories 1-19 (male narrator) {v}",
       "core": "optional",
       "requires": [],
-      "id": null,
-      "slug": null,
+      "id": 1767788,
+      "slug": "lore-forever-quest-stories-1-19-male-narrator",
       "live": false
     },
     {
       "key": "male-quest-stories-2",
-      "name": "Lore Forever - Quest Stories 20-39 (Male Narrator)",
+      "name": "Lore Forever - Male Narrator: Quest Stories 20-39",
       "about": "the story behind hundreds of quests from level 20 to 39 (male narrator)",
       "from": "LoreForever_Voice_Default_MoreQuests2.zip",
       "folders": ["LoreForever_Voice_Default_MoreQuests2"],
       "file": "Lore Forever quest stories 20-39 (male narrator) {v}",
       "core": "optional",
       "requires": [],
-      "id": null,
-      "slug": null,
+      "id": 1767790,
+      "slug": "lore-forever-quest-stories-20-39-male-narrator",
       "live": false
     },
     {
       "key": "male-quest-stories-3",
-      "name": "Lore Forever - Quest Stories 40+ (Male Narrator)",
-      "about": "the story behind hundreds of quests from level 40 up (male narrator)",
-      "from": "LoreForever_Voice_Default_MoreQuests3.zip",
-      "folders": ["LoreForever_Voice_Default_MoreQuests3"],
-      "file": "Lore Forever quest stories 40+ (male narrator) {v}",
+      "name": "Lore Forever - Male Narrator: Item and Quest Stories 40+",
+      "about": "the story behind hundreds of quest items, letters, relics and books, and of the quests from level 40 up (male narrator)",
+      "from": ["LoreForever_Voice_Default_MoreQuests3.zip", "LoreForever_Voice_Default_MoreItems.zip"],
+      "folders": ["LoreForever_Voice_Default_MoreQuests3", "LoreForever_Voice_Default_MoreItems"],
+      "file": "Lore Forever item stories and quest stories 40+ (male narrator) {v}",
       "core": "optional",
       "requires": [],
-      "id": null,
-      "slug": null,
+      "id": 1767855,
+      "slug": "lore-forever-item-stories-and-quest-stories-40",
       "live": false
     },
     {
       "key": "female-more-places",
-      "name": "Lore Forever - More Places (Female Narrator)",
+      "name": "Lore Forever - Female Narrator: More Places",
       "about": "the whole story of hundreds more places (female narrator)",
       "from": "LoreForever_Voice_Female_MorePlaces.zip",
       "folders": ["LoreForever_Voice_Female_MorePlaces"],
@@ -242,7 +257,7 @@
     },
     {
       "key": "female-more-people",
-      "name": "Lore Forever - More People (Female Narrator)",
+      "name": "Lore Forever - Female Narrator: More People",
       "about": "the whole story of hundreds more characters, plus factions, peoples and lore topics (female narrator)",
       "from": "LoreForever_Voice_Female_MorePeople.zip",
       "folders": ["LoreForever_Voice_Female_MorePeople"],
@@ -254,55 +269,42 @@
       "live": true
     },
     {
-      "key": "female-more-items",
-      "name": "Lore Forever - Item Stories (Female Narrator)",
-      "about": "the story behind hundreds of quest items, letters and relics (female narrator)",
-      "from": "LoreForever_Voice_Female_MoreItems.zip",
-      "folders": ["LoreForever_Voice_Female_MoreItems"],
-      "file": "Lore Forever item stories (female narrator) {v}",
-      "core": "optional",
-      "requires": ["female-narrator"],
-      "id": null,
-      "slug": null,
-      "live": false
-    },
-    {
       "key": "female-quest-stories-1",
-      "name": "Lore Forever - Quest Stories 1-19 (Female Narrator)",
+      "name": "Lore Forever - Female Narrator: Quest Stories 1-19",
       "about": "the story behind hundreds of quests from level 1 to 19 (female narrator)",
       "from": "LoreForever_Voice_Female_MoreQuests1.zip",
       "folders": ["LoreForever_Voice_Female_MoreQuests1"],
       "file": "Lore Forever quest stories 1-19 (female narrator) {v}",
       "core": "optional",
       "requires": ["female-narrator"],
-      "id": null,
-      "slug": null,
+      "id": 1767789,
+      "slug": "lore-forever-quest-stories-1-19-female-narrator",
       "live": false
     },
     {
       "key": "female-quest-stories-2",
-      "name": "Lore Forever - Quest Stories 20-39 (Female Narrator)",
+      "name": "Lore Forever - Female Narrator: Quest Stories 20-39",
       "about": "the story behind hundreds of quests from level 20 to 39 (female narrator)",
       "from": "LoreForever_Voice_Female_MoreQuests2.zip",
       "folders": ["LoreForever_Voice_Female_MoreQuests2"],
       "file": "Lore Forever quest stories 20-39 (female narrator) {v}",
       "core": "optional",
       "requires": ["female-narrator"],
-      "id": null,
-      "slug": null,
+      "id": 1767791,
+      "slug": "lore-forever-quest-stories-20-39-female-narrator",
       "live": false
     },
     {
       "key": "female-quest-stories-3",
-      "name": "Lore Forever - Quest Stories 40+ (Female Narrator)",
-      "about": "the story behind hundreds of quests from level 40 up (female narrator)",
-      "from": "LoreForever_Voice_Female_MoreQuests3.zip",
-      "folders": ["LoreForever_Voice_Female_MoreQuests3"],
-      "file": "Lore Forever quest stories 40+ (female narrator) {v}",
+      "name": "Lore Forever - Female Narrator: Item and Quest Stories 40+",
+      "about": "the story behind hundreds of quest items, letters, relics and books, and of the quests from level 40 up (female narrator)",
+      "from": ["LoreForever_Voice_Female_MoreQuests3.zip", "LoreForever_Voice_Female_MoreItems.zip"],
+      "folders": ["LoreForever_Voice_Female_MoreQuests3", "LoreForever_Voice_Female_MoreItems"],
+      "file": "Lore Forever item stories and quest stories 40+ (female narrator) {v}",
       "core": "optional",
       "requires": ["female-narrator"],
-      "id": null,
-      "slug": null,
+      "id": 1767942,
+      "slug": "lore-forever-female-narrator-item-and-quest",
       "live": false
     },
     {
@@ -345,19 +347,6 @@
       "live": true
     },
     {
-      "key": "original-quests",
-      "name": "Lore Forever - Quest Dialogue (Original Male Narrator)",
-      "about": "quest givers' voices (original male narrator)",
-      "from": "LoreForever_Voice_Original_Quests.zip",
-      "folders": ["LoreForever_Voice_Original_Quests"],
-      "file": "Lore Forever quest dialogue (original male narrator) {v}",
-      "core": "optional",
-      "requires": ["original-narrator"],
-      "id": 1752600,
-      "slug": "lore-forever-quest-dialogue-original-male-narrator",
-      "live": true
-    },
-    {
       "key": "quest-givers",
       "name": "Lore Forever - Quest Givers' Voices",
       "about": "quest givers in a voice of their own race and gender",
@@ -379,8 +368,8 @@
       "file": "Lore Forever quest givers' voices 31-50 {v}",
       "core": "optional",
       "requires": ["male-quests"],
-      "id": null,
-      "slug": null,
+      "id": 1767792,
+      "slug": "lore-forever-quest-givers-voices-levels-31-50",
       "live": false
     },
     {
@@ -392,8 +381,8 @@
       "file": "Lore Forever quest givers' voices 51-60 {v}",
       "core": "optional",
       "requires": ["male-quests"],
-      "id": null,
-      "slug": null,
+      "id": 1767793,
+      "slug": "lore-forever-quest-givers-voices-levels-51-60",
       "live": false
     },
     {
@@ -509,8 +498,8 @@
       "file": "Lore Forever more people (male narrator), Spanish {v}",
       "core": "optional",
       "requires": [],
-      "id": null,
-      "slug": null,
+      "id": 1767780,
+      "slug": "lore-forever-spanish-narration-more-people-male",
       "live": false
     },
     {
@@ -522,13 +511,13 @@
       "file": "Lore Forever more people (female narrator), Spanish {v}",
       "core": "optional",
       "requires": [],
-      "id": null,
-      "slug": null,
+      "id": 1767781,
+      "slug": "lore-forever-spanish-narration-more-people-female",
       "live": false
     },
     {
       "key": "male-more-people-ptbr",
-      "name": "Lore Forever - Brazilian Portuguese Narration: More People (Male Narrator)",
+      "name": "Lore Forever - Portuguese Narration: More People (Male Narrator)",
       "about": "the male narrator in Brazilian Portuguese: the whole story of hundreds more characters, plus factions, peoples and lore topics",
       "from": "LoreForever_Voice_Default_MorePeople_ptBR.zip",
       "folders": ["LoreForever_Voice_Default_MorePeople_ptBR"],
@@ -548,8 +537,8 @@
       "file": "Lore Forever more people (female narrator), Portuguese {v}",
       "core": "optional",
       "requires": [],
-      "id": null,
-      "slug": null,
+      "id": 1767782,
+      "slug": "lore-forever-portuguese-narration-more-people",
       "live": false
     },
     {
@@ -561,8 +550,8 @@
       "file": "Lore Forever more people (male narrator), French {v}",
       "core": "optional",
       "requires": [],
-      "id": null,
-      "slug": null,
+      "id": 1767783,
+      "slug": "lore-forever-french-narration-more-people-male",
       "live": false
     },
     {
@@ -574,34 +563,21 @@
       "file": "Lore Forever more people (female narrator), French {v}",
       "core": "optional",
       "requires": [],
-      "id": null,
-      "slug": null,
+      "id": 1767784,
+      "slug": "lore-forever-french-narration-more-people-female",
       "live": false
     },
     {
       "key": "portuguese",
       "name": "Lore Forever - Portuguese Narration (Male Narrator)",
-      "about": "Brazilian Portuguese translations (text only: the narration is paused while it's re-recorded, LOR-567)",
-      "from": "LoreForever_Lang_ptBR-{v}.zip",
-      "folders": ["LoreForever_Lang_ptBR"],
-      "file": "Lore Forever Brazilian Portuguese {v}",
-      "core": "optional",
-      "requires": [],
-      "id": 1727668,
-      "slug": "lore-forever-portuguese-narration-male-narrator",
-      "live": true
-    },
-    {
-      "key": "male-ptbr",
-      "name": "Lore Forever - Brazilian Portuguese Narration (Male Narrator)",
-      "about": "the male narrator in Brazilian Portuguese: zone stories and places",
+      "about": "the male narrator in Brazilian Portuguese: zone stories and places, with the Brazilian Portuguese text",
       "from": "LoreForever_Voice_Default_ptBR.zip",
       "folders": ["LoreForever_Voice_Default_ptBR"],
       "file": "Lore Forever male narrator, Brazilian Portuguese {v}",
       "core": "optional",
       "requires": [],
-      "id": 1755322,
-      "slug": "lore-forever-brazilian-portuguese-narration-male",
+      "id": 1727668,
+      "slug": "lore-forever-portuguese-narration-male-narrator",
       "live": true
     },
     {
@@ -615,7 +591,7 @@
       "requires": [],
       "id": 1727669,
       "slug": "lore-forever-portuguese-narration-female-narrator",
-      "live": false
+      "live": true
     },
     {
       "key": "male-itit",
@@ -655,7 +631,7 @@
       "suggests": ["male-dede"],
       "id": 1731414,
       "slug": "lore-forever-german-quest-dialogue-male-narrator",
-      "live": false
+      "live": true
     },
     {
       "key": "female-quests-dede",
@@ -669,7 +645,7 @@
       "suggests": ["female-dede"],
       "id": 1731415,
       "slug": "lore-forever-german-quest-dialogue-female-narrator",
-      "live": false
+      "live": true
     },
     {
       "key": "male-quests-frfr",
@@ -709,8 +685,8 @@
       "core": "optional",
       "requires": [],
       "suggests": ["male-eses"],
-      "id": null,
-      "slug": null,
+      "id": 1767785,
+      "slug": "lore-forever-spanish-quest-dialogue-male-narrator",
       "live": false
     },
     {
@@ -723,8 +699,8 @@
       "core": "optional",
       "requires": [],
       "suggests": ["female-eses"],
-      "id": null,
-      "slug": null,
+      "id": 1767786,
+      "slug": "lore-forever-spanish-quest-dialogue-female",
       "live": false
     },
     {
@@ -737,8 +713,36 @@
       "core": "optional",
       "requires": [],
       "suggests": ["portuguese", "female-ptbr"],
-      "id": null,
-      "slug": null,
+      "id": 1767787,
+      "slug": "lore-forever-portuguese-quest-dialogue",
+      "live": false
+    },
+    {
+      "key": "male-complete",
+      "name": "Lore Forever - Male Narrator: Complete",
+      "about": "every story the male narrator recorded, beyond what comes with Lore Forever",
+      "bundle": true,
+      "folders": ["LoreForever_Complete_Male"],
+      "file": "Lore Forever male narrator, complete {v}",
+      "core": "optional",
+      "requires": ["male-more-places", "male-more-people", "male-quest-stories-1", "male-quest-stories-2",
+                   "male-quest-stories-3"],
+      "id": 1767949,
+      "slug": "lore-forever-male-narrator-complete",
+      "live": false
+    },
+    {
+      "key": "female-complete",
+      "name": "Lore Forever - Female Narrator: Complete",
+      "about": "every story the female narrator recorded",
+      "bundle": true,
+      "folders": ["LoreForever_Complete_Female"],
+      "file": "Lore Forever female narrator, complete {v}",
+      "core": "optional",
+      "requires": ["female-narrator", "female-alliance", "female-horde", "female-more-places", "female-more-people",
+                   "female-quest-stories-1", "female-quest-stories-2", "female-quest-stories-3"],
+      "id": 1767957,
+      "slug": "lore-forever-female-narrator-complete",
       "live": false
     }
   ]

@@ -1,0 +1,101 @@
+{
+ "key": "quest:3090",
+ "type": "quest",
+ "name": "Besudeltes Pergament",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   3090
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "A messenger leaves a marked parchment while you are away, and your teacher Nartok wants to speak with you. Its words challenge Thrall\u2019s rule and warn of the danger faced by those who wield warlock power.",
+ "sections": [
+  {
+   "title": "A message waits",
+   "body": "The parchment is said to come from Nartok, your new teacher. You are asked to read it and speak with him in the Den in the Valley of Trials. Nartok speaks of orcs as a proud people and argues that Thrall turns away from power that could make the land theirs.",
+   "spoiler": 0
+  },
+  {
+   "title": "A place among them",
+   "body": "Nartok says you have joined their ranks, but warns that access to warlock power will not make you welcome. Thrall allows warlocks into Orgrimmar because they remain orcs; Nartok cautions you that recklessness can be fatal. He remains available if you need instruction in spellcasting.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who sent the parchment?",
+   "aliases": [
+    "who sent this",
+    "parchment from who"
+   ],
+   "answer": "The parchment is believed to come from Nartok, your new teacher."
+  },
+  {
+   "q": "Where can I speak with Nartok?",
+   "aliases": [
+    "where is nartok",
+    "nartok location"
+   ],
+   "answer": "Nartok is in the Den in the Valley of Trials."
+  },
+  {
+   "q": "What does Nartok think of Thrall?",
+   "aliases": [
+    "thrall opinion",
+    "why criticize thrall"
+   ],
+   "answer": "Nartok says Thrall turns away from power that could make the land theirs."
+  },
+  {
+   "q": "Why does Thrall allow warlocks into Orgrimmar?",
+   "aliases": [
+    "warlocks in orgrimmar",
+    "why thrall allows warlocks"
+   ],
+   "answer": "Nartok says Thrall allows warlocks into Orgrimmar because they are still orcs."
+  },
+  {
+   "q": "What warning does Nartok give?",
+   "aliases": [
+    "nartok warning",
+    "warlock danger"
+   ],
+   "answer": "Nartok warns that access to warlock power does not ensure acceptance, and that recklessness can be fatal."
+  },
+  {
+   "q": "Can Nartok teach me spells?",
+   "aliases": [
+    "spell lessons",
+    "warlock training"
+   ],
+   "answer": "Nartok says you can seek him again if you need instruction in spellcasting."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Warlock",
+   "text": "As a warlock, Nartok\u2019s warning concerns the power you wield and the danger of acting recklessly."
+  }
+ ],
+ "keywords": [
+  "besudeltes pergament",
+  "den",
+  "nartok",
+  "orgrimmar",
+  "spellcasting",
+  "thrall",
+  "valley of trials",
+  "warlock"
+ ],
+ "related": [
+  "npc:thrall",
+  "zone:orgrimmar"
+ ],
+ "style": 1,
+ "attribution": [
+  "In-game quest text: Besudeltes Pergament"
+ ]
+}

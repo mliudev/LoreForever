@@ -10,16 +10,16 @@
    "quest:952"
   ]
  },
- "summary": "Fandral's Message is a missive penned by Arch Druid Fandral Staghelm in Darnassus. It is entrusted to an adventurer to carry across the sea to the Ancient of Lore, Onu, in Darkshore.",
+ "summary": "In Darnassus, Fandral Staghelm sends a message across the sea to Onu in Darkshore. The sealed dispatch carries news about Oracle Glade in Teldrassil.",
  "sections": [
   {
    "title": "A Dispatch from the Archdruid",
-   "body": "Written by Arch Druid Fandral Staghelm in the Cenarion Enclave, this sealed dispatch serves as direct correspondence between the acting leader of the night elven druids and Onu, the venerable Ancient of Lore dwelling within the Grove of the Ancients. After receiving reports regarding the state of Teldrassil's Oracle Glade, Staghelm wastes no time pressing couriers into service to send word south of Auberdine. The delivery requires travelers to journey across the waters to Darkshore, bridging the heart of the new World Tree with the older, shadowed mainland.",
+   "body": "Arch Druid Fandral Staghelm writes from the Cenarion Enclave in Darnassus. His sealed dispatch is addressed to Onu, the Ancient of Lore who dwells in the Grove of the Ancients. Reports have reached Fandral about the state of Oracle Glade in Teldrassil, and he sends a courier south of Auberdine with word for Onu. The journey crosses the waters to Darkshore, carrying a message from the heart of the new World Tree to Kalimdor’s older, shadowed mainland.",
    "spoiler": 0
   },
   {
    "title": "Contrasting Tempos",
-   "body": "While the exact contents of the message remain between the Arch Druid and Onu, the delivery itself highlights a subtle divide in temperament within the Cenarion Circle. Upon accepting the document, Onu notes that Fandral consistently behaves with an uncharacteristic impatience, rushing affairs that the ancients believe should unfold naturally. To the slow-living treants of Darkshore, Fandral's brisk haste stands in stark contrast to the patient wisdom once embodied by Archdruid Malfurion Stormrage.",
+   "body": "Onu remarks that Fandral is always in a hurry. The Ancient of Lore says affairs should unfold at nature’s own pace, as the ancients believe. To the slow-living treants of Darkshore, Fandral’s haste differs sharply from the patient wisdom once shown by Archdruid Malfurion Stormrage.",
    "spoiler": 1
   }
  ],
@@ -31,7 +31,7 @@
     "fandral message",
     "archdruids letter"
    ],
-   "answer": "It is an official written dispatch from Arch Druid Fandral Staghelm intended for Onu, the Ancient of Lore residing in the Grove of the Ancients in Darkshore."
+   "answer": "Fandral’s Message is a sealed dispatch from Arch Druid Fandral Staghelm to Onu, the Ancient of Lore in the Grove of the Ancients in Darkshore."
   },
   {
    "q": "Who sends this message and why?",
@@ -39,7 +39,7 @@
     "who wrote this",
     "why fandral send message"
    ],
-   "answer": "Arch Druid Fandral Staghelm pens it from Darnassus. Having received updates regarding the Oracle Glade in Teldrassil, he sends word to update Onu, who has been awaiting news from the crown of the World Tree."
+   "answer": "Arch Druid Fandral Staghelm writes from Darnassus after receiving reports about Oracle Glade in Teldrassil. He sends word to Onu in Darkshore."
   },
   {
    "q": "Where does this message need to go?",
@@ -48,7 +48,7 @@
     "where to deliver message",
     "fandrals message destination"
    ],
-   "answer": "The message must be brought to Onu in the Grove of the Ancients, which is located in Darkshore directly south of the coastal settlement of Auberdine."
+   "answer": "Carry the message to Onu in the Grove of the Ancients in Darkshore, directly south of Auberdine."
   },
   {
    "q": "What does Onu think of the letter?",
@@ -56,17 +56,17 @@
     "onu reaction",
     "what does onu say"
    ],
-   "answer": "Upon receiving it, Onu remarks that Fandral always seems to be in a hurry. The ancient observes that nature moves at its own appointed pace, musing that Shan'do Malfurion Stormrage understood that truth far better than Fandral does."
+   "answer": "Onu says Fandral is always in a hurry. The Ancient observes that nature moves at its own pace, a truth Shan'do Malfurion Stormrage understood better."
   }
  ],
  "angles": [
   {
    "target": "class:Druid",
-   "text": "Carrying missives between the Cenarion Enclave in Darnassus and the Ancients of Lore in Darkshore illustrates the contrasting philosophies between Fandral Staghelm's aggressive drive and the patient traditionalism of older druidic guardians."
+   "text": "As a druid, carrying a message between the Cenarion Enclave in Darnassus and the Ancients of Lore in Darkshore shows the divide between Fandral Staghelm’s drive and the older guardians’ patience."
   },
   {
    "target": "race:NightElf",
-   "text": "Delivering this dispatch marks one of the earliest steps off the crown of Teldrassil and back down toward the ancestral forests of Kalimdor's mainland."
+   "text": "As a night elf, this dispatch takes you from the crown of Teldrassil toward the ancestral forests of Kalimdor’s mainland."
   }
  ],
  "keywords": [
@@ -93,5 +93,6 @@
  "attribution": [
   "Fandral's Message",
   "Grove of the Ancients (quest)"
- ]
+ ],
+ "style": 1
 }

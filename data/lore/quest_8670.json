@@ -17,16 +17,16 @@
   "wiki": "Runetotem the Elder",
   "chain": []
  },
- "summary": "Runetotem the Elder is an encounter with an ancestral spirit during the Lunar Festival in Durotar. Found standing within Razor Hill under a pillar of heavenly light, she offers blessings and festival tokens to travelers who come to pay their respects to the past.",
+ "summary": "During the Lunar Festival, travelers in Durotar can honor Runetotem the Elder, an ancestral spirit. She waits in Razor Hill beneath a beam of heavenly light, offering blessings and festival tokens to those who remember the past.",
  "sections": [
   {
    "title": "A Spirit in Razor Hill",
-   "body": "During the Lunar Festival, the spirits of ancient elders materialize across Azeroth to commune with the living. Elder Runetotem manifests inside Razor Hill, positioned just past the southern entrance. Bathed in a clear beam of starlight from above, she watches over the orcish settlement and welcomes adventurers who step aside from their travels to acknowledge the wisdom of those who came before.",
+   "body": "During the Lunar Festival, spirits of ancient elders appear across Azeroth to commune with the living. Elder Runetotem waits inside Razor Hill, just past the southern entrance. A beam of starlight falls on her as she watches over the orcish settlement. Travelers can pause there to honor the wisdom of those who came before.",
    "spoiler": 0
   },
   {
    "title": "Guidance Across the Lands",
-   "body": "Approaching Elder Runetotem does more than honor an individual ancestor. In exchange for your homage, she rewards you with a festival token of fortune and shares word of where other spirits may be found, pointing wanderers toward Elder Darkhorn and Elder High Mountain across the continent.",
+   "body": "When you pay Elder Runetotem homage, she gives you a festival token of fortune and tells you where other spirits can be found. Her directions point toward Elder Darkhorn and Elder High Mountain elsewhere across the continent.",
    "spoiler": 0
   }
  ],
@@ -38,7 +38,7 @@
     "where is elder runetotem",
     "find elder runetotem"
    ],
-   "answer": "Elder Runetotem is located inside Razor Hill in Durotar, positioned just to the right immediately after entering through the southern entrance."
+   "answer": "Elder Runetotem waits inside Razor Hill in Durotar, just to the right after you enter through the southern entrance."
   },
   {
    "q": "Why is there a beam of light shining on her?",
@@ -47,7 +47,7 @@
     "why is runetotem glowing",
     "elder beam of light"
    ],
-   "answer": "Like all the ancestral spirits who manifest during the Lunar Festival, Elder Runetotem is highlighted by a celestial shaft of light shining down from the sky, marking her as an honored elder."
+   "answer": "A shaft of celestial light marks Elder Runetotem as an honored elder, as it does the ancestral spirits who appear during the Lunar Festival."
   },
   {
    "q": "What do you receive for honoring Elder Runetotem?",
@@ -56,7 +56,7 @@
     "what does runetotem give",
     "elder runetotem turn in"
    ],
-   "answer": "Honoring Elder Runetotem rewards a festival token commemorating your respect for the ancestors, and she offers directions toward other wandering spirits like Elder Darkhorn and Elder High Mountain."
+   "answer": "You receive a festival token for honoring Elder Runetotem, and she gives directions to spirits such as Elder Darkhorn and Elder High Mountain."
   },
   {
    "q": "Can Alliance players visit Elder Runetotem?",
@@ -64,7 +64,7 @@
     "alliance elder runetotem",
     "can alliance talk to runetotem"
    ],
-   "answer": "The Lunar Festival elders welcome homage from all mortals regardless of allegiance, though Razor Hill is a heavily guarded Horde outpost, making it perilous for Alliance travelers to approach her."
+   "answer": "Elder Runetotem welcomes homage from all mortals, whatever their allegiance, but Razor Hill is a guarded Horde outpost that can be perilous for Alliance travelers to reach."
   },
   {
    "q": "Which elders does Runetotem mention?",
@@ -72,7 +72,7 @@
     "runetotem directions",
     "who does runetotem tell you to find"
    ],
-   "answer": "Elder Runetotem shares lore on the whereabouts of fellow ancestors, specifically giving guidance on finding Elder Darkhorn and Elder High Mountain."
+   "answer": "Elder Runetotem gives directions to Elder Darkhorn and Elder High Mountain."
   },
   {
    "q": "Is Elder Runetotem a living tauren or a ghost?",
@@ -80,21 +80,21 @@
     "is runetotem dead",
     "is runetotem a ghost"
    ],
-   "answer": "Elder Runetotem is an ancestral spirit who appears during the Lunar Festival season to bestow blessings upon those whose spirits burn with life."
+   "answer": "Elder Runetotem is an ancestral spirit who appears during the Lunar Festival to bless those whose spirits burn with life."
   }
  ],
  "angles": [
   {
    "target": "race:Tauren",
-   "text": "Meeting a spirit bearing the revered Runetotem family name outside the plains of Mulgore serves as a potent reminder of your people's deep spiritual heritage across Kalimdor."
+   "text": "As a tauren, meeting a spirit of the Runetotem family beyond Mulgore reminds you of your people's deep spiritual heritage across Kalimdor."
   },
   {
    "target": "faction:Horde",
-   "text": "Standing right inside the walls of Razor Hill, Elder Runetotem is one of the safest and most convenient ancestors for young Horde travelers to honor early in their journeys."
+   "text": "As a member of the Horde, you can honor Elder Runetotem inside Razor Hill, making her one of the safest and most convenient ancestors to visit early in your travels."
   },
   {
    "target": "faction:Alliance",
-   "text": "Paying homage to Elder Runetotem requires slipping deep behind enemy lines into the heart of Durotar without drawing the wrath of Razor Hill's orcish guards."
+   "text": "As an Alliance traveler, you must cross enemy lines into Durotar to honor Elder Runetotem, risking the anger of Razor Hill's orcish guards."
   }
  ],
  "keywords": [
@@ -114,5 +114,6 @@
  ],
  "attribution": [
   "Runetotem the Elder"
- ]
+ ],
+ "style": 1
 }

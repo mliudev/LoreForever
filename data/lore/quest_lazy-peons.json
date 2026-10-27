@@ -17,16 +17,16 @@
   "wiki": "Lazy Peons",
   "chain": []
  },
- "summary": "Foreman Thazz'ril is fed up with the Valley of Trials' workforce falling asleep on the job. Entrusted with his weighted blackjack, young recruits are tasked with roaming the valley to discipline sleeping peons and ensure vital lumber continues flowing to Durotar's settlements.",
+ "summary": "Foreman Thazz'ril sends new Horde recruits across the Valley of Trials to wake sleeping peons. Their work keeps lumber moving to Durotar's settlements.",
  "sections": [
   {
    "title": "Slacking in the Sun",
-   "body": "Building a new home in the arid plains of Durotar demands vast amounts of timber, stone, and sheer physical toil. Much of that burden falls squarely upon the peon caste\u2014orcs who lack martial prowess but form the industrious backbone of the Horde. Unfortunately for Foreman Thazz'ril, the baking heat and grueling labor of the Valley of Trials make it easy for these laborers to slip off to shady trees for unauthorized naps.",
+   "body": "Durotar's new homes need timber, stone, and hard labor. Peons, orcs with little skill in battle, carry much of that burden and keep the Horde supplied with workers. In the Valley of Trials, the heat and grueling work leave Foreman Thazz'ril's crews seeking shade beneath trees for unauthorized naps.",
    "spoiler": 0
   },
   {
    "title": "A Swift Wake-Up Call",
-   "body": "Rather than allowing productivity to grind to a halt, Foreman Thazz'ril uses a rather direct management strategy: the Foreman's Blackjack. Entrusting incoming Horde recruits with this blunt disciplinary tool, he sends them across the valley floor to crack sleeping workers over the head. Startled awake, the dazed peons hastily return to chopping wood, reminded that idle hands have no place in the survival of Durotar.",
+   "body": "Foreman Thazz'ril gives new Horde recruits his blackjack and sends them across the valley to wake the sleeping workers. The startled peons return to chopping wood, keeping lumber flowing for Durotar's survival.",
    "spoiler": 0
   }
  ],
@@ -38,7 +38,7 @@
     "sleeping peons",
     "peons sleeping on job"
    ],
-   "answer": "Gathering heavy lumber under Durotar's punishing sun is brutal, exhausting work. Without a supervisor breathing down their necks, peons regularly slip away beneath the shade of large trees to rest."
+   "answer": "Gathering heavy lumber under Durotar's punishing sun is exhausting work. Peons slip beneath large trees to rest when no supervisor is nearby."
   },
   {
    "q": "Who is Foreman Thazz'ril?",
@@ -47,7 +47,7 @@
     "who gives lazy peons",
     "thazz'ril"
    ],
-   "answer": "Foreman Thazz'ril is an orc overseer stationed in the Valley of Trials. He manages the labor crews responsible for harvesting lumber and supplies needed for fledgling Horde construction."
+   "answer": "Foreman Thazz'ril oversees the labor crews in the Valley of Trials. They harvest lumber and supplies for the Horde's new construction."
   },
   {
    "q": "What is the Foreman's Blackjack?",
@@ -56,7 +56,7 @@
     "peon club",
     "blackjack tool"
    ],
-   "answer": "It is a heavy leather sap used by Foreman Thazz'ril to discipline slacking workers. A swift blow upside the head is just enough to wake a sleeping peon without causing permanent injury."
+   "answer": "The Foreman's Blackjack is a heavy leather sap that Thazz'ril uses to discipline slacking workers. A blow to the head wakes a sleeping peon without causing permanent injury."
   },
   {
    "q": "What role do peons have in the Horde?",
@@ -65,7 +65,7 @@
     "what are peons",
     "peon caste"
    ],
-   "answer": "Peons represent the laboring class of orcish society. While physically stout, they are considered unfit for military warfare, serving instead as builders, miners, and woodcutters to fuel the Horde's war machine and settlements."
+   "answer": "Peons form the laboring class of orcish society. Though physically stout, they are considered unfit for war and work instead as builders, miners, and woodcutters for Horde settlements and its war machine."
   },
   {
    "q": "Where do I find the sleeping peons?",
@@ -74,7 +74,7 @@
     "where are lazy peons",
     "find sleeping peons"
    ],
-   "answer": "They can be found throughout the Valley of Trials, both north and south of the Den. Look under the wide canopies of trees where the workers retreat to find shade."
+   "answer": "You can find sleeping peons throughout the Valley of Trials, north and south of the Den. Look beneath the wide tree canopies where workers seek shade."
   },
   {
    "q": "What happens after the peons are awakened?",
@@ -83,21 +83,21 @@
     "what follows lazy peons",
     "next quest after peons"
    ],
-   "answer": "Once you return the blackjack to Foreman Thazz'ril, he sends you on another chore: recovering his lost mining pick from deep within a nearby cave."
+   "answer": "After you return the blackjack to Foreman Thazz'ril, he sends you to recover his lost mining pick from a nearby cave."
   }
  ],
  "angles": [
   {
    "target": "race:Orc",
-   "text": "For young orcs coming of age, disciplining your own kin's labor force is an early lesson in the harsh realities and practical discipline required to carve a nation out of the wilderness."
+   "text": "As a young orc coming of age, you learn the harsh realities and practical discipline of building a nation from the wilderness by disciplining your kin's workers."
   },
   {
    "target": "race:Troll",
-   "text": "Darkspear trolls training alongside their allies witness firsthand the peculiar combination of brute strength and managerial exasperation that defines orcish construction."
+   "text": "As a Darkspear troll training alongside your allies, you see the brute strength and managerial exasperation behind orcish construction."
   },
   {
    "target": "faction:Horde",
-   "text": "Every outpost in Durotar relies on timber harvested by these peons, making basic workforce discipline a matter of collective survival."
+   "text": "As a member of the Horde, you know every Durotar outpost depends on peon-harvested timber, so keeping the workers on the job matters to all."
   }
  ],
  "keywords": [
@@ -117,5 +117,6 @@
  ],
  "attribution": [
   "Lazy Peons"
- ]
+ ],
+ "style": 1
 }

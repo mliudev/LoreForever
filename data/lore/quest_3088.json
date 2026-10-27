@@ -17,16 +17,16 @@
   "wiki": "Encrypted Parchment (quest)",
   "chain": []
  },
- "summary": "The Encrypted Parchment is a summons delivered to novice orc rogues who have proven their basic survival skills in the Valley of Trials. Written in cipher, it directs promising recruits into the shadowed depths of the Den to meet Rwag, an operative serving the interests of the Shattered Hand.",
+ "summary": "In the Valley of Trials, Encrypted Parchment sends proven novice orc rogues into the Den. Its cipher points them to Rwag, an agent of the Shattered Hand.",
  "sections": [
   {
    "title": "A Coded Summons",
-   "body": "After proving their mettle against the local wildlife, novice orcs receive an encrypted parchment passed along by Gornek. While other trainers openly recruit pupils in the clearing, the rogue instructor Rwag prefers the discreet safety of cipher and stone. The parchment directs the initiate past the sunlit camp and deep into the cavern known as the Den.",
+   "body": "Gornek passes the coded parchment to novice orcs who have proved themselves against the local wildlife. Other trainers recruit pupils openly in the clearing, but rogue instructor Rwag sends his summons by cipher. The message directs you beyond the sunlit camp and deep into the cavern called the Den.",
    "spoiler": 0
   },
   {
    "title": "Eyes in the Shadows",
-   "body": "Upon deciphering the note and venturing inside, the novice discovers Rwag skulking within the rock. Suspicious of the warlocks lurking even deeper in the cave, Rwag wastes no time explaining his true allegiance: he watches recruits on behalf of the Shattered Hand. While orcish society champions overt honor and glory on the battlefield, the Shattered Hand acts as the Horde's silent network of spies, cutthroats, and intelligence gatherers.",
+   "body": "Inside the Den, you find Rwag keeping watch among the rock. Warlocks lurk deeper in the cave, and he tells you he watches recruits for the Shattered Hand. While orcish society prizes open honor and glory in battle, the Shattered Hand works as the Horde's hidden network of spies, cutthroats, and gatherers of intelligence.",
    "spoiler": 0
   }
  ],
@@ -38,7 +38,7 @@
     "who gave me encrypted parchment",
     "who sent note"
    ],
-   "answer": "The parchment is written by Rwag, the rogue trainer in the Valley of Trials. He has Gornek deliver the coded message to promising young orcs after they complete their initial trials."
+   "answer": "Rwag, the rogue trainer in the Valley of Trials, writes the parchment. He has Gornek deliver the coded message to promising young orcs after they complete their first trials."
   },
   {
    "q": "What is the purpose of this quest?",
@@ -46,7 +46,7 @@
     "why do i need encrypted parchment",
     "what does this quest do"
    ],
-   "answer": "It serves as the introductory class quest for orc rogues, teaching them how to find Rwag within the Den so they can begin their formal training in stealth, lockpicking, and martial subterfuge."
+   "answer": "The parchment guides orc rogues to Rwag in the Den, where their formal training begins. He teaches stealth, lockpicking, and martial subterfuge."
   },
   {
    "q": "Where is Rwag located?",
@@ -55,7 +55,7 @@
     "find rwag",
     "rwag location"
    ],
-   "answer": "Rwag hides inside the Den, the dark cavern situated on the northern side of the Valley of Trials. He skulks in the shadows near the entrance, keeping a wary distance from the warlocks deeper inside."
+   "answer": "Rwag hides inside the Den, a dark cavern on the northern side of the Valley of Trials. He keeps near the entrance, wary of the warlocks deeper inside."
   },
   {
    "q": "Why is the parchment encrypted?",
@@ -63,7 +63,7 @@
     "why cipher",
     "why is note coded"
    ],
-   "answer": "Rogues rely on secrecy and discretion. Using a cipher ensures that wandering brutes or curious outsiders cannot read the summons, while simultaneously testing the initiate's ability to decode covert communications."
+   "answer": "The cipher keeps wandering brutes and curious outsiders from reading the summons. It also tests whether the initiate can decode a covert message."
   },
   {
    "q": "Who are the Shattered Hand?",
@@ -71,7 +71,7 @@
     "shattered hand horde",
     "what is shattered hand"
    ],
-   "answer": "Originally an infamous orc clan known for self-mutilation, the Shattered Hand within Thrall's Horde has evolved into an organization of scouts, assassins, and covert agents working from the shadows to protect Horde interests."
+   "answer": "The Shattered Hand began as an infamous orc clan known for self-mutilation. In Thrall's Horde, it is an organization of scouts, assassins, and covert agents that works from the shadows to protect Horde interests."
   },
   {
    "q": "Why does Rwag distrust Nartok?",
@@ -79,21 +79,21 @@
     "rwag nartok",
     "why does rwag hate warlocks"
    ],
-   "answer": "Nartok is a warlock trainer situated deeper in the Den. Rogues operate by stealth, but even Rwag finds it deeply unsettling that dark spellcasters openly conduct fel rituals in the deepest corners of the cave."
+   "answer": "Nartok is a warlock trainer deeper in the Den. Rwag distrusts the dark spellcasters who openly conduct fel rituals in the cave's deepest corners."
   }
  ],
  "angles": [
   {
    "target": "class:Rogue",
-   "text": "This parchment marks your formal induction into the covert apparatus of the Horde, introducing you to Rwag and your earliest professional training."
+   "text": "As a rogue, this parchment marks your induction into the Horde's covert ranks. It introduces you to Rwag and your first professional training."
   },
   {
    "target": "race:Orc",
-   "text": "Unlike typical orc warriors who seek open, bloodthirsty glory, orc rogues balance ancestral discipline with the quiet cunning demanded by the Shattered Hand."
+   "text": "As an orc, you balance ancestral discipline with the quiet cunning demanded by the Shattered Hand, unlike warriors who seek open, bloodthirsty glory."
   },
   {
    "target": "faction:Horde",
-   "text": "Even an honorable warchief like Thrall recognizes the necessity of spies and scouts to protect the nascent lands of Durotar from hidden threats."
+   "text": "As a member of the Horde, you know that even an honorable warchief like Thrall needs spies and scouts to protect Durotar's young lands from hidden threats."
   }
  ],
  "keywords": [
@@ -118,5 +118,6 @@
  ],
  "attribution": [
   "Encrypted Parchment (quest)"
- ]
+ ],
+ "style": 1
 }

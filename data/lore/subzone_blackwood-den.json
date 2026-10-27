@@ -7,11 +7,11 @@
  "meta": {
   "wiki": "Blackwood Den"
  },
- "summary": "Blackwood Den is a corrupted furbolg encampment nestled in the southern reaches of Darkshore near the border of Ashenvale. Once a peaceful dwelling, the cave and surrounding camps have fallen into madness alongside the rest of the Blackwood tribe. A lone night elf scout named Volcor sits trapped within the cavern, awaiting aid from Auberdine.",
+ "summary": "Blackwood Den lies under the Blackwood furbolgs’ corruption in southern Darkshore, near Ashenvale. The cave and camps that were once their peaceful home have fallen into madness. Volcor, a night elf scout, is trapped in the cavern and awaits aid from Auberdine.",
  "sections": [
   {
    "title": "A Corrupted Stronghold",
-   "body": "Situated near the southern border where Darkshore meets Ashenvale, Blackwood Den consists of a winding network of crude camps and a rocky cave. The Blackwood furbolgs who dwell here have succumbed to the pervasive corruption gripping the region, turning violently hostile toward outsiders. Deep inside the den's cave, the night elf Volcor remains pinned down and endangered by the aggressive tribe, desperately needing assistance from scouts and travelers dispatched from Auberdine.",
+   "body": "Blackwood furbolgs hold a rocky cave and crude camps near the southern border of Darkshore and Ashenvale. Corruption has taken hold of the tribe, and its members attack outsiders. Deep inside the cave, the night elf Volcor is pinned down and in danger. Scouts and travelers from Auberdine are needed to help him.",
    "spoiler": 0
   }
  ],
@@ -23,7 +23,7 @@
     "blackwood hold",
     "where is blackwood den"
    ],
-   "answer": "Blackwood Den is a furbolg settlement and cave complex located in far southern Darkshore, close to the border of Ashenvale. It serves as a base for the corrupted Blackwood furbolg tribe."
+   "answer": "Blackwood Den is a furbolg settlement and cave complex in far southern Darkshore, near Ashenvale. The corrupted Blackwood tribe makes its home there."
   },
   {
    "q": "Who is inside the cave at Blackwood Den?",
@@ -32,7 +32,7 @@
     "who is volcor",
     "elf in blackwood den"
    ],
-   "answer": "Inside the cave sits Volcor, a night elf who has become trapped behind enemy lines. Travelers who encounter him must coordinate with allies in Auberdine to stage an escape and guide him safely out of the den."
+   "answer": "Volcor, a night elf, is trapped inside the cave behind enemy lines. Travelers who find him must work with allies in Auberdine to help him escape the den safely."
   },
   {
    "q": "Why are the furbolgs here hostile?",
@@ -41,17 +41,17 @@
     "are blackwood furbolgs evil",
     "corrupted furbolgs darkshore"
    ],
-   "answer": "The Blackwood furbolgs have fallen victim to the dark corruption spreading across Darkshore and Kalimdor following the Third War. The affliction has driven them into a maddened frenzy, causing them to attack any outsiders on sight."
+   "answer": "The Blackwood furbolgs are hostile because corruption spreading across Darkshore and Kalimdor after the Third War has driven them mad. They attack outsiders on sight."
   }
  ],
  "angles": [
   {
    "target": "race:NightElf",
-   "text": "For the night elves of Auberdine, the loss of the Blackwood tribe to corruption is a tragic development, and rescuing Volcor from their clutches is an urgent duty to keep their people safe along the southern road."
+   "text": "For the night elves of Auberdine, the Blackwood tribe's corruption is a tragedy. Rescuing Volcor is an urgent duty to protect their people along the southern road."
   },
   {
    "target": "class:Druid",
-   "text": "Druids mourn the fall of the furbolgs, who were once steadfast protectors of the wilderness, and view the madness at Blackwood Den as another painful symptom of Kalimdor's tainted nature."
+   "text": "As a druid, you may mourn the furbolgs, once steadfast protectors of the wilderness. The madness at Blackwood Den is another painful sign of Kalimdor's tainted nature."
   }
  ],
  "keywords": [
@@ -73,5 +73,6 @@
  ],
  "attribution": [
   "Blackwood Den"
- ]
+ ],
+ "style": 1
 }

@@ -1,0 +1,70 @@
+{
+ "key": "quest:1947",
+ "type": "quest",
+ "name": "Journey to the Marsh",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   1947
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "Your class sends you to Dustwallow Marsh to speak with Tabetha. Her knowledge is the first step toward earning your wand.",
+ "sections": [
+  {
+   "title": "Tabetha\u2019s Cottage",
+   "body": "Tabetha lives in a cottage west of Theramore and just north of the Stonemaul Ruins. You are asked to speak with the hermit and learn from her vast knowledge.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Tabetha?",
+   "aliases": [
+    "tabetha",
+    "marsh hermit",
+    "who is the hermit"
+   ],
+   "answer": "Tabetha is a hermit in Dustwallow Marsh, known for her vast knowledge."
+  },
+  {
+   "q": "Where is Tabetha\u2019s cottage?",
+   "aliases": [
+    "tabetha location",
+    "where is tabetha",
+    "tabetha shack"
+   ],
+   "answer": "Tabetha\u2019s cottage is west of Theramore and just north of the Stonemaul Ruins."
+  },
+  {
+   "q": "Why am I being sent to Tabetha?",
+   "aliases": [
+    "why tabetha",
+    "wand quest",
+    "earn my wand"
+   ],
+   "answer": "Speaking with Tabetha begins your effort to earn your class\u2019s wand."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "cottage",
+  "dustwallow marsh",
+  "journey to the marsh",
+  "stonemaul ruins",
+  "tabetha",
+  "theramore",
+  "wand"
+ ],
+ "related": [
+  "npc:tabetha",
+  "zone:dustwallow",
+  "subzone:stonemaul-ruins"
+ ],
+ "style": 1,
+ "attribution": [
+  "In-game quest text: Journey to the Marsh"
+ ]
+}

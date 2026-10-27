@@ -1,0 +1,86 @@
+{
+ "key": "quest:94440",
+ "type": "quest",
+ "name": "A Lesson in Divinity",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   94440
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "Deathguard Billmuth asks you to recover Scarlet Crusade attack plans from Venomweb Vale. The plans could help the Deathguard prepare for an expected assault.",
+ "sections": [
+  {
+   "title": "Orders for the Keep",
+   "body": "Scarlet Crusaders carry deployment orders in their satchels, and the Deathguard expects an attack. You are asked to bring a copy of the plans back to Deathguard Billmuth at Bandarion Keep so the Deathguard can prepare an ambush.",
+   "spoiler": 0
+  },
+  {
+   "title": "A Friend Saved",
+   "body": "Billmuth thanks you for saving his friend and says he will take the plans to his commander. He also says your actions have shown him that you are Forsaken through and through, despite the mistrust some of his people hold toward your class.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "What does Billmuth need?",
+   "aliases": [
+    "what does billmuth want",
+    "billmuth plans",
+    "plans for billmuth"
+   ],
+   "answer": "Deathguard Billmuth asks you to recover the Scarlet Crusade's attack plans from Venomweb Vale."
+  },
+  {
+   "q": "Where are the attack plans?",
+   "aliases": [
+    "where plans",
+    "scarlet plans location",
+    "find attack plans"
+   ],
+   "answer": "The Scarlet Crusaders at Venomweb Vale carry the attack plans."
+  },
+  {
+   "q": "Why does the Deathguard want the plans?",
+   "aliases": [
+    "why get plans",
+    "what are plans for",
+    "deathguard ambush"
+   ],
+   "answer": "The Deathguard expects an attack and wants the plans so it can prepare an ambush."
+  },
+  {
+   "q": "Who should receive the plans?",
+   "aliases": [
+    "who gets plans",
+    "return plans to",
+    "billmuth where"
+   ],
+   "answer": "Bring the plans to Deathguard Billmuth at Bandarion Keep."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "a lesson in divinity",
+  "attack plans",
+  "bandarion keep",
+  "deathguard billmuth",
+  "forsaken",
+  "scarlet crusade",
+  "venomweb vale"
+ ],
+ "related": [
+  "quest:381",
+  "subzone:bandarion-keep",
+  "subzone:venomweb-vale",
+  "topic:forsaken",
+  "topic:scarlet-crusade"
+ ],
+ "style": 1,
+ "attribution": [
+  "In-game quest text: A Lesson in Divinity"
+ ]
+}

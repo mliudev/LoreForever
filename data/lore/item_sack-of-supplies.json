@@ -10,11 +10,11 @@
    "quest:834"
   ]
  },
- "summary": "These supply sacks belong to a caravan shipment intended for the goblin engineer Rezlak outside Orgrimmar. Transported across Durotar, the goods were intercepted by the Dustwind harpies roosting in the crags of Razorwind Canyon.",
+ "summary": "A caravan shipment bound for Rezlak lies scattered among the harpy roosts of Razorwind Canyon. Dustwind harpies intercepted the goods as they crossed Durotar.",
  "sections": [
   {
    "title": "A Plundered Caravan",
-   "body": "Rezlak, an engineer contracted out of Ratchet by Gazlowe, relies on regular caravans through Durotar to supply his construction efforts for the Horde. Durotar's wilderness, however, is far from tame. When a promised shipment passed near the canyon road south of Orgrimmar, it was ambushed and pillaged by the local Dustwind harpies. The vicious creatures hauled the cargo deep into their roosts within Razorwind Canyon, scattering the sacks among the dirt and scree alongside harpy nesting sites.",
+   "body": "Rezlak needs steady supplies for his work outside Orgrimmar. The goblin engineer, contracted from Ratchet by Gazlowe, builds for the Horde. A caravan carrying a promised shipment passed near the canyon road south of Orgrimmar, where Dustwind harpies ambushed it. They dragged the cargo into their roosts in Razorwind Canyon, scattering sacks among dirt and scree beside their nesting sites.",
    "spoiler": 0
   }
  ],
@@ -26,7 +26,7 @@
     "what are in the sacks",
     "rezlak supplies"
    ],
-   "answer": "The sacks contain construction materials and trade goods shipped on behalf of Gazlowe's engineering operations to support Orcish building projects near Orgrimmar. Without them, Rezlak is stranded with no supplies to finish his work."
+   "answer": "The sacks hold construction materials and trade goods for Gazlowe's engineering work, meant to support Orcish building projects near Orgrimmar. Without them, Rezlak has no supplies to finish his work."
   },
   {
    "q": "Who stole the supplies?",
@@ -34,7 +34,7 @@
     "who took the supplies",
     "who stole the sacks"
    ],
-   "answer": "The supplies were stolen by the Dustwind harpies, a savage avian race that infests the high crevices and ravines of Razorwind Canyon."
+   "answer": "Dustwind harpies stole the supplies. They are a savage avian race that infests the high crevices and ravines of Razorwind Canyon."
   },
   {
    "q": "Who is Rezlak?",
@@ -42,13 +42,13 @@
     "who is rezlak",
     "rezlak lore"
    ],
-   "answer": "Rezlak is a goblin engineer dispatched by Gazlowe from Ratchet to assist the Horde with building and line infrastructure in Durotar."
+   "answer": "Rezlak is a goblin engineer Gazlowe sent from Ratchet to help the Horde build and maintain line infrastructure in Durotar."
   }
  ],
  "angles": [
   {
    "target": "faction:Horde",
-   "text": "Recovering lost supplies from local predators ensures that frontier construction around the fledgling capital of Orgrimmar proceeds without costly delays."
+   "text": "Recovering the supplies from local predators helps keep frontier construction around Orgrimmar moving without costly delays."
   }
  ],
  "keywords": [
@@ -71,5 +71,6 @@
  "attribution": [
   "Sack of Supplies",
   "Winds in the Desert"
- ]
+ ],
+ "style": 1
 }

@@ -1,0 +1,91 @@
+{
+ "key": "quest:97953",
+ "type": "quest",
+ "name": "Camping 101: Enchanting",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   97953
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "Enchanters can learn to craft an Enchanted Lute for a camp. Speak with Vance Undergloom in Brill after showing proficiency in your skill.",
+ "sections": [
+  {
+   "title": "A Camp Companion",
+   "body": "Enchanters are welcome at camps in the wilds. You can learn to craft an Enchanted Lute to bring entertainment during time away from the trail.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What can I learn to craft?",
+   "aliases": [
+    "enchanted lute",
+    "camping enchanting item",
+    "what does vance teach"
+   ],
+   "answer": "You can learn to craft an Enchanted Lute for your camp."
+  },
+  {
+   "q": "Who teaches me about the lute?",
+   "aliases": [
+    "who is vance",
+    "vance undergloom",
+    "lute teacher"
+   ],
+   "answer": "Vance Undergloom in Brill can teach you to craft the Enchanted Lute."
+  },
+  {
+   "q": "Where do I find Vance Undergloom?",
+   "aliases": [
+    "where is vance",
+    "vance location",
+    "brill enchanter"
+   ],
+   "answer": "Vance Undergloom is in Brill."
+  },
+  {
+   "q": "What do I need before speaking with Vance?",
+   "aliases": [
+    "skill requirement",
+    "show proficiency",
+    "enchanting requirement"
+   ],
+   "answer": "You need to show proficiency in your skill before learning to craft the camping item."
+  },
+  {
+   "q": "Why bring an Enchanted Lute to camp?",
+   "aliases": [
+    "lute purpose",
+    "camp entertainment",
+    "why enchanted lute"
+   ],
+   "answer": "The Enchanted Lute provides entertainment during your downtime at camp."
+  }
+ ],
+ "angles": [
+  {
+   "target": "profession:Tailoring",
+   "text": "As an enchanter, you can learn to craft an Enchanted Lute for your camp after showing proficiency in your skill."
+  }
+ ],
+ "keywords": [
+  "brill",
+  "camp",
+  "camping 101",
+  "enchanted lute",
+  "enchanter",
+  "enchanting",
+  "vance undergloom"
+ ],
+ "related": [
+  "subzone:brill"
+ ],
+ "style": 1,
+ "attribution": [
+  "In-game quest text: Camping 101: Enchanting"
+ ]
+}

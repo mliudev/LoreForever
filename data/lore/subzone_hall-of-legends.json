@@ -7,16 +7,16 @@
  "meta": {
   "wiki": "Hall of Legends"
  },
- "summary": "The Hall of Legends is the elite military sanctuary and officer barracks of the Horde, nestled within Orgrimmar's Valley of Strength. Behind its warded threshold, champions of the Horde gather around battle plans and arm themselves with premier weapons taken from conflicts across Azeroth and beyond.",
+ "summary": "In Orgrimmar's Valley of Strength, Horde champions gather in the Hall of Legends. Behind its guarded entrance, proven officers confer over battle plans and arm themselves with weapons and armor from conflicts across Azeroth and beyond.",
  "sections": [
   {
    "title": "Sanctuary of Horde Champions",
-   "body": "Located off the bustling avenues of the Valley of Strength, the Hall of Legends serves as the private redoubt for proven officers of the Horde. Beyond its guarded entrance, strategists and delegates from across the factions\u2014including Chieftain Earthbind of Thunder Bluff, Blood Guard Hini'wana of the Darkspear, and Advisor Willington of the Undercity\u2014confer over maps of contested lands and the military standing of both factions. Here, only warriors who have tested their mettle and achieved the rank of Stone Guard or higher are permitted entry to claim the spoils and armaments befitting their status.",
+   "body": "Horde officers gather in the Hall of Legends, off the Valley of Strength's busy avenues. Beyond its guarded entrance, strategists and delegates from across the faction confer over maps of contested lands and the military standing of both factions. Among them are Chieftain Earthbind of Thunder Bluff, Blood Guard Hini'wana of the Darkspear, and Advisor Willington of the Undercity. Only warriors who have reached the rank of Stone Guard or higher may enter and claim the arms and spoils kept within.",
    "spoiler": 0
   },
   {
    "title": "The Spoils of War",
-   "body": "More than just an officer lounge, the hall houses armories containing battle-tested wargear for the Horde's proven officers. For those climbing the martial ranks, it represents the physical manifestation of Horde honor, martial prowess, and hard-won victory.",
+   "body": "The Hall of Legends holds armories stocked with battle-tested wargear for proven Horde officers. For those rising through the military ranks, its weapons and armor mark honor, martial skill, and victory hard won.",
    "spoiler": 0
   }
  ],
@@ -28,7 +28,7 @@
     "hall of legends requirement",
     "rank required for hall of legends"
    ],
-   "answer": "Only Horde champions who have achieved the rank of Stone Guard (Rank 6) or higher in the military honor system are granted passage through its threshold. Lower-ranking soldiers and ordinary citizens are turned away at the entrance."
+   "answer": "Only Horde champions who have reached the rank of Stone Guard or higher may enter the Hall of Legends. Lower-ranking soldiers and ordinary citizens are turned away at the entrance."
   },
   {
    "q": "Where is the Hall of Legends located?",
@@ -37,7 +37,7 @@
     "hall of legends location",
     "how to get to hall of legends"
    ],
-   "answer": "The Hall of Legends is situated in the Valley of Strength in Orgrimmar, near the city's primary barracks and administrative seat."
+   "answer": "The Hall of Legends stands in the Valley of Strength in Orgrimmar, near the city's primary barracks and administrative seat."
   },
   {
    "q": "What is inside the Hall of Legends?",
@@ -45,7 +45,7 @@
     "what is in hall of legends",
     "hall of legends interior"
    ],
-   "answer": "Inside lies a central strategy table flanked by military representatives of the Horde's various races, surrounded by maps of Azeroth and military records. Quartermasters also maintain armories here, distributing prestigious arms, armor, and mounts to accomplished officers."
+   "answer": "Inside, a central strategy table is flanked by military representatives of the Horde's various races, with maps of Azeroth and military records around them. Quartermasters maintain armories here and distribute prestigious arms, armor, and mounts to accomplished officers."
   },
   {
    "q": "Does the Alliance have an equivalent location?",
@@ -53,17 +53,17 @@
     "alliance hall of legends",
     "alliance counterpart"
    ],
-   "answer": "Yes. The Alliance counterpart is the Champions' Hall, situated in the Old Town district of Stormwind City, which similarly serves as an officer barracks and armory for honored Alliance combatants."
+   "answer": "Yes. The Alliance counterpart is the Champions' Hall in Stormwind City's Old Town district, an officer barracks and armory for honored Alliance combatants."
   }
  ],
  "angles": [
   {
    "target": "faction:Horde",
-   "text": "The Hall of Legends is the ultimate testament to Horde military achievement, offering recognition, strategic council, and prized wargear to those who shed blood for the Warchief."
+   "text": "For the Horde, the Hall of Legends recognizes military achievement and offers strategic council and prized wargear to those who shed blood for the Warchief."
   },
   {
    "target": "class:Warrior",
-   "text": "For front-line fighters, gaining entry to the Hall of Legends represents the pinnacle of martial respect, granting access to the finest wargear the Horde can offer."
+   "text": "As a warrior on the front lines, entry to the Hall of Legends marks the height of martial respect and grants access to the finest wargear the Horde can offer."
   }
  ],
  "keywords": [
@@ -87,5 +87,6 @@
  ],
  "attribution": [
   "Hall of Legends"
- ]
+ ],
+ "style": 1
 }

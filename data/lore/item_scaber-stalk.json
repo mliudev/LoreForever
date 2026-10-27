@@ -10,16 +10,16 @@
    "quest:947"
   ]
  },
- "summary": "Scaber Stalks are rare mushrooms that flourish in the damp, secluded cavern hidden behind Cliffspring Falls in Darkshore. Prized by herbalists and alchemists for their unusual properties, they are sought by Barithras Moonshade for his concoctions.",
+ "summary": "In Darkshore, Barithras Moonshade seeks Scaber Stalks from a hidden cavern behind Cliffspring Falls.",
  "sections": [
   {
    "title": "A Rare Fungal Specimen",
-   "body": "Scaber Stalks are obscure mushrooms found deep within the cavern nestled behind Cliffspring Falls, situated along the northeastern mountains of Darkshore. Unlike ordinary forest flora, these pale stalks thrive strictly in the secluded dampness of the subterranean cave network. Their remote and hazardous habitat makes gathering them exceedingly rare, leading alchemists like Barithras Moonshade in Auberdine to commission daring scouts willing to brave the dark.",
+   "body": "Scaber Stalks grow in a subterranean cave behind Cliffspring Falls, among the northeastern mountains of Darkshore. The pale mushrooms thrive in the damp, secluded cave network, far from ordinary forest growth. Their remote, hazardous home makes them rare to gather, and Barithras Moonshade in Auberdine commissions scouts to brave its darkness.",
    "spoiler": 0
   },
   {
    "title": "A Shadow in the Falls",
-   "body": "Harvesting Scaber Stalks carries far more danger than ordinary foraging. The venerable tree-spirits at the Grove of the Ancients issued warnings to local night elves, having sensed a dark and growing evil establishing itself within the Cliffspring Falls cave. While alchemists value the stalks alongside rare Death Caps for experimental draughts, collecting them inevitably brings gatherers face to face with whatever malice has taken root beneath the mountains.",
+   "body": "The Grove of the Ancients warned local night elves away from gathering Scaber Stalks. Its venerable tree-spirits sensed a dark, growing evil establishing itself within the Cliffspring Falls cave. Alchemists value the stalks alongside rare Death Caps for experimental draughts, but anyone seeking them may meet the malice taking root beneath the mountains.",
    "spoiler": 1
   }
  ],
@@ -31,7 +31,7 @@
     "where are scaber stalks",
     "scaber stalk cave"
    ],
-   "answer": "Scaber Stalks grow exclusively inside the damp cave tucked behind Cliffspring Falls, located in northeastern Darkshore along the mountainous ridge."
+   "answer": "Scaber Stalks grow in the damp cave behind Cliffspring Falls, along Darkshore's northeastern mountains."
   },
   {
    "q": "Who wants Scaber Stalks?",
@@ -40,7 +40,7 @@
     "barithras moonshade mushrooms",
     "who needs scaber stalks"
    ],
-   "answer": "Barithras Moonshade, a night elf scholar residing in Auberdine, seeks Scaber Stalks along with a Death Cap to brew a specialized potion."
+   "answer": "Barithras Moonshade in Auberdine seeks Scaber Stalks and a Death Cap to brew a specialized potion."
   },
   {
    "q": "Why didn't Barithras Moonshade collect the stalks himself?",
@@ -49,7 +49,7 @@
     "barithras warning",
     "cliffspring cave warning"
    ],
-   "answer": "Barithras was warned away from the cave by the Grove of the Ancients, whose spirits sensed that a dangerous new evil had taken refuge behind the waterfall."
+   "answer": "The Grove of the Ancients warned Barithras away from the cave after its spirits sensed a dangerous new evil taking refuge behind the waterfall."
   },
   {
    "q": "What else grows alongside Scaber Stalks?",
@@ -58,17 +58,17 @@
     "death cap and scaber stalk",
     "cliffspring mushrooms"
    ],
-   "answer": "The cavern also shelters the lethal Death Cap mushroom, another rare specimen required by Barithras for his alchemical research."
+   "answer": "The cavern also shelters the lethal Death Cap mushroom, another rare specimen Barithras needs for his alchemical research."
   }
  ],
  "angles": [
   {
    "target": "profession:Herbalism",
-   "text": "While not a standard traded herb, these subterranean stalks offer valuable insight into how unique cavern climates and encroaching shadows alter local fungal biology."
+   "text": "These subterranean stalks are not a standard traded herb, but they offer insight into how unusual cavern climates and encroaching shadows affect local fungi."
   },
   {
    "target": "race:NightElf",
-   "text": "Heeding the warnings of the Grove of the Ancients, night elves approach the harvesting of these cave mushrooms with great caution due to the corrupting presence festering near Cliffspring Falls."
+   "text": "As a night elf, you heed the Grove of the Ancients' warnings and approach these cave mushrooms with care; a corrupting presence festers near Cliffspring Falls."
   }
  ],
  "keywords": [
@@ -92,5 +92,6 @@
  "attribution": [
   "Scaber Stalk",
   "Cave Mushrooms"
- ]
+ ],
+ "style": 1
 }

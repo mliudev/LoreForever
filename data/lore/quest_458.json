@@ -20,16 +20,16 @@
    "The Woodland Protector (2)"
   ]
  },
- "summary": "The Woodland Protector is an introductory task in Shadowglen given by the druid Melithar Staghelm. Alerted by the whisperings of forest spirits, Melithar asks you to seek out Tarindrella, an elusive dryad who has unexpectedly returned to the grove. Her presence hints that something troubling stirs beneath the canopy of Teldrassil.",
+ "summary": "In Shadowglen, Melithar Staghelm hears troubling whispers from the forest spirits. He asks you to find Tarindrella, an elusive dryad whose unexpected return hints at trouble beneath Teldrassil’s canopy.",
  "sections": [
   {
    "title": "Whispers in the Glen",
-   "body": "While training novices beneath the boughs of Aldrassil, Melithar Staghelm receives troubling omens from the woodland spirits. The dryad Tarindrella, regarded as a protector of the wild, has reappeared in Shadowglen after an absence from Kalimdor's woodlands spanning many years. Because dryads rarely emerge without cause, Melithar fears an imbalance in the natural order.",
+   "body": "Melithar Staghelm receives troubling omens from the woodland spirits while training novices beneath Aldrassil’s boughs. Tarindrella, a dryad regarded as a protector of the wild, has returned to Shadowglen after many years away from Kalimdor’s woodlands. Dryads rarely appear without cause, and Melithar fears the natural order is out of balance.",
    "spoiler": 0
   },
   {
    "title": "Seeking the Dryad",
-   "body": "Directed by a Sentinel scouting report, newly awakened defenders venture southwest of Aldrassil into the surrounding woods. Finding Tarindrella reveals that Melithar's instincts were accurate: the daughter of Cenarius has indeed returned to address an encroaching taint affecting the barrow and surrounding glades.",
+   "body": "A Sentinel scouting report points newly awakened defenders southwest of Aldrassil, into the surrounding woods. There, you can find Tarindrella. Melithar’s instincts prove right: Cenarius’s daughter has returned to address a taint affecting the barrow and nearby glades.",
    "spoiler": 1
   }
  ],
@@ -41,7 +41,7 @@
     "who gives quest",
     "melithar quest"
    ],
-   "answer": "Melithar Staghelm, a night elf druid stationed on the lower platforms of Aldrassil in Shadowglen, provides this quest to newly awakened adventurers."
+   "answer": "Melithar Staghelm, a night elf druid on Aldrassil’s lower platforms in Shadowglen, asks newly awakened adventurers for help."
   },
   {
    "q": "Where can I find Tarindrella?",
@@ -50,7 +50,7 @@
     "where is tarindrella",
     "find dryad"
    ],
-   "answer": "Tarindrella is located in the forest southwest of Aldrassil, standing near the wooded paths of Shadowglen."
+   "answer": "Tarindrella stands by the wooded paths of Shadowglen, in the forest southwest of Aldrassil."
   },
   {
    "q": "Who is Tarindrella?",
@@ -59,7 +59,7 @@
     "tarindrella lore",
     "dryad shadowglen"
    ],
-   "answer": "Tarindrella is a dryad, one of the immortal daughters of Cenarius. Revered as woodland protectors, dryads are deeply bound to the health of the forest and rarely intervene directly unless nature faces a significant threat."
+   "answer": "Tarindrella is a dryad, one of Cenarius’s immortal daughters. Dryads are revered as woodland protectors, bound closely to the forest’s health, and rarely intervene directly unless nature faces a significant threat."
   },
   {
    "q": "Why is Melithar concerned about her return?",
@@ -67,7 +67,7 @@
     "why is melithar worried",
     "melithar staghelm concern"
    ],
-   "answer": "Tarindrella's presence had not been felt across the forests of Kalimdor in years. Her sudden reappearance in the newly grown boughs of Teldrassil suggests that something has gone amiss in the grove."
+   "answer": "Kalimdor’s forests have not felt Tarindrella’s presence for years. Her sudden return to Teldrassil’s newly grown boughs suggests something has gone wrong in the grove."
   },
   {
    "q": "What happens after finding Tarindrella?",
@@ -76,7 +76,7 @@
     "what next",
     "tarindrella followup"
    ],
-   "answer": "Speaking with Tarindrella completes the errand and immediately leads into her request for aid, enlisting you to investigate the corrupted flora and fauna creeping through Shadowglen."
+   "answer": "Speaking with Tarindrella completes the errand and leads directly to her request for aid: she asks you to investigate corrupted plants and animals in Shadowglen."
   },
   {
    "q": "Is Melithar Staghelm related to Archdruid Fandral Staghelm?",
@@ -84,17 +84,17 @@
     "melithar fandral relation",
     "is melithar staghelm related"
    ],
-   "answer": "Melithar shares the Staghelm surname with Archdruid Fandral Staghelm, the leader of the night elf druids residing in Darnassus, though no family tie between them is known; Melithar focuses his duties on mentoring fledglings in Shadowglen."
+   "answer": "Melithar shares the Staghelm surname with Archdruid Fandral Staghelm, leader of the night elf druids in Darnassus, but no family tie between them is known. Melithar mentors fledglings in Shadowglen."
   }
  ],
  "angles": [
   {
    "target": "race:NightElf",
-   "text": "For young night elves stepping out from Aldrassil, meeting one of Cenarius's daughters serves as their first direct duty in preserving the harmony of their fledgling World Tree."
+   "text": "As a young night elf leaving Aldrassil, you meet one of Cenarius’s daughters and take your first direct duty in preserving harmony in your young World Tree."
   },
   {
    "target": "class:Druid",
-   "text": "Druids hold dryads in high esteem as kin in nature; responding to Tarindrella's presence is an early calling to heed the balance of the Emerald Dream and the woods."
+   "text": "As a druid, you hold dryads in high esteem as kin in nature. Tarindrella’s presence calls you early to heed the balance of the Emerald Dream and the woods."
   }
  ],
  "keywords": [
@@ -117,5 +117,6 @@
  ],
  "attribution": [
   "The Woodland Protector (Classic)"
- ]
+ ],
+ "style": 1
 }

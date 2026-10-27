@@ -1,0 +1,92 @@
+{
+ "key": "quest:98427",
+ "type": "quest",
+ "name": "Schluss damit!",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   98427
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "Morin Cloudstalker warns that a shredder can fell a forest with terrible speed. He asks you to return to the mine in the northeast and stop it from cutting another tree.",
+ "sections": [
+  {
+   "title": "A Threat to Home",
+   "body": "Morin has heard of the shredder described on a page. Such machines can bring down a forest far faster than axes and muscle. Groves that sheltered the children of the Earth Mother for ages can vanish in days. He asks you to gather allies, return to the mine in the northeast, and ensure the machine fells no more trees. The Mechanoroderschl\u00fcssel is to be brought to Morin at Bloodhoof Village.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is Morin asking me to do?",
+   "aliases": [
+    "what does Morin want",
+    "Morin request",
+    "shredder task"
+   ],
+   "answer": "Morin asks you to gather allies, return to the mine in the northeast, and stop the shredder from felling more trees."
+  },
+  {
+   "q": "Why is the shredder a threat?",
+   "aliases": [
+    "why stop shredder",
+    "shredder danger",
+    "what can it do"
+   ],
+   "answer": "Morin says shredders can cut down a forest far faster than axes and muscle, destroying groves that sheltered the children of the Earth Mother."
+  },
+  {
+   "q": "Where does Morin want me to go?",
+   "aliases": [
+    "where is the mine",
+    "northeast mine",
+    "where return"
+   ],
+   "answer": "Morin asks you to return to the mine in the northeast."
+  },
+  {
+   "q": "What do I bring back to Morin?",
+   "aliases": [
+    "what item Morin",
+    "Mechanoroderschl\u00fcssel",
+    "key for Morin"
+   ],
+   "answer": "Bring the Mechanoroderschl\u00fcssel to Morin Cloudstalker at Bloodhoof Village."
+  },
+  {
+   "q": "Who is Morin Cloudstalker?",
+   "aliases": [
+    "who is Morin",
+    "Morin Cloudstalker",
+    "Morin guy"
+   ],
+   "answer": "Morin Cloudstalker is the one asking you to stop the shredder from cutting trees near the tauren home."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Tauren",
+   "text": "As a tauren, Morin's concern is for the groves that have sheltered the children of the Earth Mother and the safety of the young near home."
+  }
+ ],
+ "keywords": [
+  "bloodhoof village",
+  "children of the earth mother",
+  "mechanoroderschl\u00fcssel",
+  "mine",
+  "morin cloudstalker",
+  "northeast",
+  "shredder",
+  "trees"
+ ],
+ "related": [
+  "npc:morin-cloudstalker"
+ ],
+ "style": 1,
+ "attribution": [
+  "In-game quest text: Schluss damit!"
+ ]
+}

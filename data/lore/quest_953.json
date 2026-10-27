@@ -17,16 +17,16 @@
   "wiki": "The Fall of Ameth'Aran (quest)",
   "chain": []
  },
- "summary": "Sentinel Tysha Moonblade tasks adventurers with exploring the haunting ruins of Ameth'Aran in Darkshore to decipher ancient stone tablets. These inscriptions record the tragedy and ruin that struck the Highborne city during the Sundering. The gathered knowledge is intended for the Circle of Ancients in Auberdine, recovering history largely lost during the War of the Ancients.",
+ "summary": "Sentinel Tysha Moonblade sends you to explore Ameth'Aran's ruins in Darkshore and read its ancient stone tablets. Their inscriptions tell of the Highborne city's ruin during the Sundering, preserving history largely lost in the War of the Ancients for the Circle of Ancients in Auberdine.",
  "sections": [
   {
    "title": "Echoes of the Highborne",
-   "body": "Long before the coast fractured into the misty expanse of Darkshore, Ameth'Aran stood as a flourishing settlement where Queen Azshara's elite sorcerers practiced powerful arcane magic. Following the cataclysmic destruction of the Well of Eternity ten thousand years ago, the city was reduced to broken marble and cracked pillars. Today, it remains haunted by the restless, anguished spirits of the Highborne who died when their golden age tore apart.",
+   "body": "Ameth'Aran was a flourishing settlement of Queen Azshara's elite sorcerers, who practiced powerful arcane magic. After the Well of Eternity was destroyed ten thousand years ago, the city lay in broken marble and cracked pillars. Restless, anguished spirits of the Highborne who died there still haunt the ruins.",
    "spoiler": 0
   },
   {
    "title": "Uncovering Lost Chronicles",
-   "body": "Because the War of the Ancients plunged the night elf civilization into chaotic survival, remarkably few written accounts survived the Great Sundering intact. Sentinel Tysha Moonblade attempted to survey the ruins herself, discovering two large engraved tablets\u2014the Lay of Ameth'Aran and the Fall of Ameth'Aran\u2014before ghostly Highborne specters forced her to retreat. Retrieving these readings ensures that the historical truths of the ancient disaster reach the scholars of the Circle of Ancients in Auberdine.",
+   "body": "Few written accounts survived the Great Sundering intact, as the War of the Ancients drove night elves into a struggle for survival. Sentinel Tysha Moonblade surveyed the ruins and found two large engraved tablets, the Lay of Ameth'Aran and the Fall of Ameth'Aran. Ghostly Highborne specters forced her to retreat. The readings can carry the ancient disaster's history to the scholars of the Circle of Ancients in Auberdine.",
    "spoiler": 0
   }
  ],
@@ -38,7 +38,7 @@
     "what was ameth aran",
     "who lived in ameth aran"
    ],
-   "answer": "Ameth'Aran is an ancient night elf ruin located in central Darkshore. Ten thousand years ago, it was a city where Queen Azshara's Highborne nobility openly wielded and studied grand arcane magic before it fell during the Great Sundering."
+   "answer": "Ameth'Aran is an ancient night elf ruin in central Darkshore. Ten thousand years ago, it was a city where Queen Azshara's Highborne nobility wielded and studied powerful arcane magic before the Great Sundering brought its fall."
   },
   {
    "q": "Why are there ghosts in Ameth'Aran?",
@@ -47,7 +47,7 @@
     "ameth aran ghosts",
     "restless highborne"
    ],
-   "answer": "The restless ghosts haunting the ruins are the spirits of the Highborne who lived and died there. Caught in the sudden, violent catastrophe that shattered the Well of Eternity and fragmented Kalimdor, their spirits remain bound to the ruins in eternal torment."
+   "answer": "The ghosts in Ameth'Aran are the spirits of the Highborne who lived and died there. The sudden catastrophe that shattered the Well of Eternity and fragmented Kalimdor bound them to the ruins in eternal torment."
   },
   {
    "q": "Who is Sentinel Tysha Moonblade?",
@@ -64,7 +64,7 @@
     "circle of ancients tablets",
     "lay of ameth aran meaning"
    ],
-   "answer": "The destruction of the Well of Eternity plunged Kalimdor into immense upheaval, obliterating countless libraries and monuments. Because so few written records survived the War of the Ancients, the tablets provide rare firsthand accounts of the Sundering from the perspective of the Highborne."
+   "answer": "The Circle of Ancients wants the tablets read because the Well of Eternity's destruction plunged Kalimdor into immense upheaval, obliterating countless libraries and monuments. Few written records survived the War of the Ancients, so the tablets preserve rare firsthand Highborne accounts of the Sundering."
   },
   {
    "q": "Where are the tablets located?",
@@ -73,7 +73,7 @@
     "tablet locations",
     "how to read ameth aran"
    ],
-   "answer": "The two large tablets\u2014the Lay of Ameth'Aran and the Fall of Ameth'Aran\u2014are etched into standing stone monuments nestled among the ruined courtyards of Ameth'Aran, surrounded by the wandering ghosts of the city's former residents."
+   "answer": "The Lay of Ameth'Aran and the Fall of Ameth'Aran are etched into two large standing stone monuments among Ameth'Aran's ruined courtyards, surrounded by the wandering ghosts of the city's former residents."
   },
   {
    "q": "What happened to the Highborne of Ameth'Aran during the Sundering?",
@@ -81,21 +81,21 @@
     "how did ameth aran fall",
     "ameth aran destruction"
    ],
-   "answer": "When the Well of Eternity imploded at the climax of the War of the Ancients, massive tremors and arcane backlash tore Kalimdor apart. Ameth'Aran collapsed in the ruin, burying its citizens and leaving their ghosts lingering in the rubble."
+   "answer": "When the Well of Eternity imploded at the climax of the War of the Ancients, massive tremors and arcane backlash tore Kalimdor apart. Ameth'Aran collapsed, burying its citizens and leaving their ghosts in the rubble."
   }
  ],
  "angles": [
   {
    "target": "race:NightElf",
-   "text": "The ruins of Ameth'Aran are a grim reminder of your ancestors' hubris under Queen Azshara and the catastrophic consequences of unregulated arcane sorcery."
+   "text": "As a night elf, you see Ameth'Aran's ruins as a grim reminder of your ancestors' hubris under Queen Azshara and the catastrophic consequences of unchecked arcane sorcery."
   },
   {
    "target": "class:Mage",
-   "text": "The tablets offer a sobering glimpse into the heights of pre-Sundering elven spellcraft and the terrible ruin brought on when that power spiraled out of control."
+   "text": "As a mage, you can read the tablets as a glimpse of pre-Sundering elven spellcraft at its height and the ruin that followed when that power spiraled out of control."
   },
   {
    "target": "faction:Alliance",
-   "text": "Aiding the Sentinels in securing the history of Darkshore helps preserve crucial lore for the night elf leaders guiding the Alliance on Kalimdor."
+   "text": "As an Alliance member, you help the Sentinels preserve Darkshore's history for the night elf leaders guiding the Alliance on Kalimdor."
   }
  ],
  "keywords": [
@@ -119,5 +119,6 @@
  ],
  "attribution": [
   "The Fall of Ameth'Aran (quest)"
- ]
+ ],
+ "style": 1
 }

@@ -7,16 +7,16 @@
  "meta": {
   "wiki": "Temple of the Moon"
  },
- "summary": "The Temple of the Moon stands in Darnassus as the spiritual heart of the night elven people and the seat of government on Teldrassil. Presided over by High Priestess Tyrande Whisperwind, the sanctuary serves as the headquarters for the Sisterhood of Elune. Its towering marble tiers house a sacred moonwell whose blessed waters bring healing and communion with the Moon Goddess.",
+ "summary": "High Priestess Tyrande Whisperwind guides her people from the Temple of the Moon in Darnassus. The sanctuary is the seat of government on Teldrassil and home to the Sisterhood of Elune, whose priestesses tend a sacred moonwell.",
  "sections": [
   {
    "title": "Sanctuary of the Moon Goddess",
-   "body": "Erected shortly after the Third War when the night elves settled Teldrassil, the Temple of the Moon is among the largest stone structures constructed by modern kaldorei hands. Much of its marble was quarried from the Kalimdor mainland and transported across the sea through magical means. At the center of its interior lies an expansive moonwell overseen by the statue of Haidene, where consecrated waters radiate quiet power. Beyond serving as a place of worship and quiet reflection for pilgrims, the temple functions as the political apex of Darnassus, housing High Priestess Tyrande Whisperwind as she guides her people through the dawn of a uncertain new age.",
+   "body": "Built soon after the Third War, the Temple of the Moon rose as the night elves settled Teldrassil. It is among the largest stone structures made by modern kaldorei hands. Its marble came from quarries on the Kalimdor mainland and crossed the sea by magical means. At the heart of the temple, a broad moonwell rests beneath the statue of Haidene. Pilgrims come to worship and reflect beside its consecrated waters. The temple also holds Darnassus's highest seat of government, where High Priestess Tyrande Whisperwind guides her people through a new age.",
    "spoiler": 0
   },
   {
    "title": "The Sisterhood's Bastion",
-   "body": "Within the temple's quiet terraces, the priestesses of the Sisterhood of Elune carry out the goddess's will both spiritually and tactically. From here, emissaries and dispatched sisters are sent outward across northern Kalimdor to investigate threats or offer aid to local sentinels, such as Priestess Gwennyth Bly'Leggonde's inquiries along the Darkshore coastline. Novices and veteran priestesses alike gather beneath the starry vaulted ceiling to train in divine spellwork, tend to the wounded, and guard the sanctum from outside corruption.",
+   "body": "The priestesses of the Sisterhood of Elune serve their goddess from the temple's terraces, in worship and in the field. Emissaries and dispatched sisters travel across northern Kalimdor to investigate threats or aid local sentinels. Priestess Gwennyth Bly'Leggonde, for example, makes inquiries along the Darkshore coastline. Novices and veteran priestesses gather beneath the starry vaulted ceiling to learn divine spellwork, tend the wounded, and guard the sanctum from outside corruption.",
    "spoiler": 0
   }
  ],
@@ -28,7 +28,7 @@
     "who is in the temple",
     "tyrande location"
    ],
-   "answer": "High Priestess Tyrande Whisperwind presides over the temple. As the leader of the Sisterhood of Elune and de facto head of the kaldorei government, she holds court on the upper tiers, guiding both the spiritual and military affairs of Darnassus."
+   "answer": "High Priestess Tyrande Whisperwind presides over the Temple of the Moon. She leads the Sisterhood of Elune and heads the kaldorei government, guiding Darnassus in spiritual and military affairs."
   },
   {
    "q": "How was the temple built on Teldrassil?",
@@ -36,7 +36,7 @@
     "how was temple of the moon built",
     "stone temple darnassus origins"
    ],
-   "answer": "While Teldrassil was grown from boughs across the ocean, the temple itself is one of the few large stone edifices in Darnassus. Its marble and masonry were quarried from the mainland of Kalimdor and moved to the world tree's summit using magical transportation."
+   "answer": "Teldrassil grew from boughs across the ocean, but the Temple of the Moon was built of stone. Its marble and masonry came from the Kalimdor mainland and reached the world tree's summit by magical means."
   },
   {
    "q": "What is the pool in the center of the temple?",
@@ -44,7 +44,7 @@
     "temple moonwell",
     "water in temple of the moon"
    ],
-   "answer": "The central pool is a sacred moonwell watched over by the statue of Haidene. Its waters are deeply consecrated and revered as the direct blessing of Elune, utilized by the Sisterhood for cleansing rites, meditation, and powerful restorative magic."
+   "answer": "The pool at the temple's center is a sacred moonwell beneath the statue of Haidene. The Sisterhood uses its consecrated waters for cleansing rites, meditation, and restorative magic, and reveres them as a blessing of Elune."
   },
   {
    "q": "What services can players find here?",
@@ -52,17 +52,17 @@
     "what is in temple of elune",
     "temple trainers darnassus"
    ],
-   "answer": "The temple acts as the primary hub for Priest training in Darnassus. Adventurers also arrive here to report to High Priestess Tyrande Whisperwind and receive guidance or assignments dispatched by the Sisterhood of Elune."
+   "answer": "Priests train at the Temple of the Moon in Darnassus. High Priestess Tyrande Whisperwind also gives guidance there, and the Sisterhood sends adventurers on assignments."
   }
  ],
  "angles": [
   {
    "target": "class:Priest",
-   "text": "For Alliance priests\u2014especially night elves\u2014the temple represents the supreme font of Elune's divine mandate and the home of their highest trainers."
+   "text": "For an Alliance priest, especially a night elf, the Temple of the Moon is the foremost source of Elune's divine mandate and home to the highest priestly trainers."
   },
   {
    "target": "race:NightElf",
-   "text": "The temple stands as the cultural, spiritual, and civic core of modern kaldorei life, uniting the Sisterhood of Elune and the governance of Teldrassil under one roof."
+   "text": "For a night elf, the Temple of the Moon brings together kaldorei civic and spiritual life, the Sisterhood of Elune, and Teldrassil's government."
   }
  ],
  "keywords": [
@@ -87,5 +87,6 @@
  ],
  "attribution": [
   "Temple of the Moon"
- ]
+ ],
+ "style": 1
 }

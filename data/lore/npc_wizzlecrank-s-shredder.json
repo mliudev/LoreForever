@@ -8,16 +8,16 @@
   "wiki": "Wizzlecrank's Shredder",
   "refs": 2
  },
- "summary": "Wizzlecrank's Shredder is a Venture Company shredder stuck in the foul depths of Sludge Fen in the northern Barrens. The goblin Pilot Wizzlecrank has climbed inside to steal it, but without its key the machine will not move, and it sits amidst hostile Venture Company operators. Helping fire up its engine is the only way the trapped pilot can make a desperate bid for freedom.",
+ "summary": "In Sludge Fen, Wizzlecrank's Shredder sits trapped among Venture Company operators. Pilot Wizzlecrank climbed inside the machine to steal it, but it will not move without a key. Its engine must be started before the goblin can try to escape.",
  "sections": [
   {
    "title": "Trapped in the Sludge",
-   "body": "Deep within the oil-slicked, heavily polluted basin of Sludge Fen sits Wizzlecrank's Shredder, immobile and surrounded by hostile Venture Company mercenaries. The goblin inside, Wizzlecrank, hopped into the Venture Co. machine to steal it, only to discover he needed a key to unlock its movement column. When another shredder operator asked if everything was all right, he panicked and blamed a mechanical problem. Now he sits sealed inside amid hostile guards and overseers, hoping someone can fetch the key before the Venture Company grows suspicious.",
+   "body": "Deep in Sludge Fen, Wizzlecrank waits inside a motionless shredder. The Venture Company machine is surrounded by hostile mercenaries in the polluted basin. Wizzlecrank climbed aboard to steal it, then learned he needed a key to unlock its movement column. When another shredder operator asked if all was well, he panicked and blamed a mechanical problem. Now he remains sealed inside, with guards and overseers nearby, hoping someone will fetch the key before the Venture Company grows suspicious.",
    "spoiler": 0
   },
   {
    "title": "A Clattering Breakout",
-   "body": "Once provided with the ignition key taken from the supervisor in the control room atop the derrick, the shredder clatters violently back to life. With its whirling blades and heavy metal plating, Pilot Wizzlecrank uses the lumbering contraption to batter through the enclosing mercenary defenses, relying on sympathetic passersby to escort the vulnerable contraption up out of the basin to safety.",
+   "body": "With the ignition key from the supervisor in the control room atop the derrick, the shredder clatters back to life. Pilot Wizzlecrank drives the lumbering machine through the mercenaries around him, its blades whirling and metal plating taking the blows. Passersby who sympathize with the trapped pilot escort the vulnerable contraption out of the basin and toward safety.",
    "spoiler": 1
   }
  ],
@@ -29,7 +29,7 @@
     "pilot wizzlecrank",
     "who is in wizzlecranks shredder"
    ],
-   "answer": "The mechanical walker is piloted by Pilot Wizzlecrank, a goblin who climbed into the Venture Company's machine to steal it and found himself stuck in the middle of Venture Company territory without its key."
+   "answer": "Pilot Wizzlecrank, a goblin, is inside the mechanical walker. He climbed into the Venture Company machine to steal it, then found himself trapped in their territory without its key."
   },
   {
    "q": "Why is the shredder stranded at Sludge Fen?",
@@ -38,7 +38,7 @@
     "wizzlecrank stuck",
     "what happened to the shredder"
    ],
-   "answer": "Wizzlecrank hopped into the shredder without realizing he needed a key to unlock its movement column. Surrounded by hostile Venture Company laborers, drillers, and guards, he told a suspicious operator it had a mechanical problem and now waits inside for someone to fetch the key from the supervisor atop the derrick."
+   "answer": "Wizzlecrank climbed into the shredder without knowing it needed a key to unlock its movement column. Surrounded by Venture Company laborers, drillers, and guards, he told a suspicious operator the machine had a mechanical problem. Now he waits inside for someone to fetch the key from the supervisor atop the derrick."
   },
   {
    "q": "Why is the shredder sometimes missing?",
@@ -47,7 +47,7 @@
     "where is wizzlecranks shredder",
     "shredder missing"
    ],
-   "answer": "If the shredder is missing from the northern depression of Sludge Fen, another traveler has recently started the ignition sequence and is escorting Wizzlecrank to safety. The shredder will reappear in its starting position shortly after the escort concludes."
+   "answer": "When the shredder is missing from Sludge Fen's northern depression, another traveler has started the ignition and is escorting Wizzlecrank to safety. It returns to its starting place shortly after the escort ends."
   },
   {
    "q": "What is the Venture Company doing at Sludge Fen?",
@@ -55,17 +55,17 @@
     "what is sludge fen",
     "venture co sludge fen"
    ],
-   "answer": "The Venture Company is aggressively exploiting the northern Barrens for crude oil, tar, and timber, turning what was once a natural water source into a toxic, oily quagmire overrun with hired goons and foremen."
+   "answer": "The Venture Company is exploiting the northern Barrens for crude oil, tar, and timber. Its work has turned a natural water source into a toxic, oily quagmire crowded with hired goons and foremen."
   }
  ],
  "angles": [
   {
    "target": "profession:Engineering",
-   "text": "The goblin shredder is a marvel of crude steam-and-piston technology, though Pilot Wizzlecrank's predicament proves just how easily proprietary ignition systems can backfire in the field."
+   "text": "The goblin shredder uses crude steam and piston technology. Pilot Wizzlecrank's predicament shows how easily a proprietary ignition system can fail in the field."
   },
   {
    "target": "faction:Horde",
-   "text": "While the Horde typically despises the Venture Company's deforestation and toxic exploitation of the Barrens, assisting an errant pilot offers a convenient excuse to smash up their drilling operations."
+   "text": "The Horde usually despises the Venture Company's deforestation and toxic exploitation of the Barrens. Helping a stranded pilot gives you a chance to smash up their drilling operations."
   }
  ],
  "keywords": [
@@ -88,5 +88,6 @@
  ],
  "attribution": [
   "Wizzlecrank's Shredder"
- ]
+ ],
+ "style": 1
 }

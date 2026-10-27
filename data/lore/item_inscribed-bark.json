@@ -10,11 +10,11 @@
    "quest:940"
   ]
  },
- "summary": "Inscribed Bark is a living parchment entrusted by the ancient Oracle Tree to carry word of Teldrassil's state to Arch Druid Fandral Staghelm. It serves as an official report on the boughs of the World Tree and the lingering threats troubling its woods.",
+ "summary": "In Teldrassil, Inscribed Bark carries word of the World Tree's state to Arch Druid Fandral Staghelm. The Oracle Tree entrusts it with news of the boughs and the threats troubling the woods.",
  "sections": [
   {
    "title": "A Message from the Oracle",
-   "body": "Carved from the sacred wood of the Oracle Tree, this inscribed bark acts as a direct communique between the ancient guardian and the leadership of the Cenarion Circle in Darnassus. After adventurers suppress the encroaching harpies in the glades, the Oracle Tree entrusts them with this token, reluctant to risk ordinary couriers through the tainted paths of the boughs. The inscribed message informs Arch Druid Fandral Staghelm of both recent victories and the deeper, unsettling blight that continues to grip Teldrassil.",
+   "body": "The Oracle Tree sends Inscribed Bark to the Cenarion Circle in Darnassus. After you drive the harpies from their nests, the ancient tree gives you its message, wary of sending ordinary couriers along Teldrassil's tainted paths. The report tells Arch Druid Fandral Staghelm of recent victories and the deeper blight still gripping the woods.",
    "spoiler": 0
   }
  ],
@@ -26,7 +26,7 @@
     "oracle tree bark",
     "inscribed bark purpose"
    ],
-   "answer": "It is a piece of bark inscribed by the Oracle Tree containing a status report on the health and perils of the boughs, intended for Arch Druid Fandral Staghelm in Darnassus."
+   "answer": "Inscribed Bark carries a report from the Oracle Tree to Arch Druid Fandral Staghelm in Darnassus, telling of the boughs' health and dangers."
   },
   {
    "q": "Who sends this message and why?",
@@ -35,7 +35,7 @@
     "who gives inscribed bark",
     "oracle tree messenger"
    ],
-   "answer": "The Oracle Tree bestows it upon adventurers after they drive harpies from their nests. Having grown wary of sending ordinary messengers across the endangered forest paths, the ancient entrusts a proven traveler to deliver its report."
+   "answer": "The Oracle Tree gives Inscribed Bark to you after you drive harpies from their nests. Wary of sending ordinary messengers across the endangered forest paths, it entrusts the report to a proven traveler."
   },
   {
    "q": "How does Arch Druid Fandral Staghelm react to the message?",
@@ -43,17 +43,17 @@
     "fandral reaction bark",
     "what does fandral say about bark"
    ],
-   "answer": "Fandral acknowledges the respite gained from clearing the harpies, but notes with frustration that deeper problems persist. The report reinforces his lingering anxieties over whether his work on Teldrassil will ever truly restore the night elves' lost immortality."
+   "answer": "Fandral acknowledges the respite gained from clearing the harpies, but says deeper problems persist. The report renews his anxiety over whether his work on Teldrassil can restore the night elves' lost immortality."
   }
  ],
  "angles": [
   {
    "target": "race:NightElf",
-   "text": "For the Kaldorei, messages borne on the bark of ancient trees represent the sacred bond between nature and their guardians, bridging the wild groves and the marble terraces of Darnassus."
+   "text": "As a Kaldorei, you know messages carried on ancient bark bind nature to its guardians, linking wild groves with Darnassus's marble terraces."
   },
   {
    "target": "class:Druid",
-   "text": "Druids recognize this inscribed wood as an urgent dispatch from an ancient ally, highlighting the delicate balance and ongoing afflictions plaguing the young World Tree."
+   "text": "As a druid, you recognize Inscribed Bark as an urgent message from an ancient ally, speaking of the delicate balance and afflictions troubling the young World Tree."
   }
  ],
  "keywords": [
@@ -76,5 +76,6 @@
  "attribution": [
   "Inscribed Bark",
   "Teldrassil (quest)"
- ]
+ ],
+ "style": 1
 }

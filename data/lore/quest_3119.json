@@ -17,16 +17,16 @@
   "wiki": "Hallowed Sigil (Classic)",
   "chain": []
  },
- "summary": "The Hallowed Sigil is an introductory summons delivered to young night elf priests beginning their training in Shadowglen. Conservator Ilthalaine passes along the message from the priest trainer Shanda, directing novice practitioners to seek guidance within Aldrassil as they learn to wield Elune's grace.",
+ "summary": "In Shadowglen, young night elf priests are called to begin their training in Aldrassil. Conservator Ilthalaine passes along Shanda's message as novices learn to wield Elune's grace.",
  "sections": [
   {
    "title": "A Calling to Service",
-   "body": "Priests in night elf culture occupy a sacred place as handmaidens and servants of the moon goddess, Elune. When a young kaldorei in Shadowglen shows an affinity for the divine light and devotion, Conservator Ilthalaine entrusts them with a hallowed sigil. Sent by messenger from the priest trainer Shanda, the token serves as a formal invitation to present oneself at the tree of Aldrassil to begin dedicated spiritual tutelage.",
+   "body": "Night elf priests serve Elune as handmaidens and servants of the moon goddess. When a young kaldorei in Shadowglen shows devotion and an affinity for the divine light, Conservator Ilthalaine gives them a hallowed sigil. Shanda, the priest trainer, sent the token by messenger as an invitation to come to Aldrassil and begin spiritual training.",
    "spoiler": 0
   },
   {
    "title": "A Changing World",
-   "body": "Upon meeting Shanda, the young acolyte finds that the sheltered sanctuary of Teldrassil is experiencing unusual upheaval. Shanda notes that the boughs of the World Tree are stirring with travelers, including members of the wider Alliance granted leave to meet with the kaldorei. While the broader world calls, Shanda advises novices to ground themselves in the troubles immediately facing Shadowglen before venturing into the wider conflicts beyond.",
+   "body": "Shanda tells the young acolyte that unusual change has reached Teldrassil's sheltered sanctuary. Travelers fill the World Tree's boughs, including members of the wider Alliance who have leave to meet with the kaldorei. The wider world calls, but Shanda urges novices to first attend to the troubles facing Shadowglen before turning to conflicts beyond it.",
    "spoiler": 0
   }
  ],
@@ -38,7 +38,7 @@
     "what is this sigil",
     "sigil of shanda"
    ],
-   "answer": "It is an inscribed token sent by the priest trainer Shanda via messenger to Conservator Ilthalaine, meant to summon a novice priest for instruction in Aldrassil."
+   "answer": "The Hallowed Sigil is an inscribed token Shanda sent by messenger to Conservator Ilthalaine to summon a novice priest for instruction in Aldrassil."
   },
   {
    "q": "Who is Shanda?",
@@ -46,7 +46,7 @@
     "priest trainer aldrassil",
     "who is shanda"
    ],
-   "answer": "Shanda is the priest trainer stationed at Aldrassil in Shadowglen. She guides fledgling night elf priests in the fundamental rites, disciplines, and prayers of the Sisterhood of Elune."
+   "answer": "Shanda trains priests in Aldrassil, guiding young night elf priests in the rites, disciplines, and prayers of the Sisterhood of Elune."
   },
   {
    "q": "Where is Shanda located?",
@@ -55,7 +55,7 @@
     "where to turn in hallowed sigil",
     "shanda location"
    ],
-   "answer": "Shanda resides inside the hollow base of Aldrassil, the massive central tree at the heart of Shadowglen in Teldrassil."
+   "answer": "Shanda is inside the hollow base of Aldrassil, the great central tree at the heart of Shadowglen in Teldrassil."
   },
   {
    "q": "Why are Alliance members visiting Teldrassil?",
@@ -63,7 +63,7 @@
     "alliance in teldrassil",
     "why outsiders on world tree"
    ],
-   "answer": "The night elves have forged ties with the Alliance following the Third War. Outside races are beginning to arrive on Teldrassil's boughs to coordinate and confer with the kaldorei as both sides prepare for the challenges facing Azeroth."
+   "answer": "Alliance members are visiting Teldrassil to meet and confer with the kaldorei. The night elves formed ties with the Alliance after the Third War, and travelers from other races are beginning to arrive on the World Tree's boughs as both sides prepare for challenges facing Azeroth."
   },
   {
    "q": "What should a priest do after completing this task?",
@@ -71,7 +71,7 @@
     "what next after sigil",
     "after hallowed sigil"
    ],
-   "answer": "Shanda advises priests to assist the local defenders and caretakers across Shadowglen, returning to her whenever they need to learn new prayers and techniques."
+   "answer": "Shanda advises priests to help the local defenders and caretakers across Shadowglen. They can return to her to learn new prayers and techniques."
   },
   {
    "q": "Why does Ilthalaine give this quest?",
@@ -79,21 +79,21 @@
     "conservator ilthalaine priest",
     "why talk to ilthalaine"
    ],
-   "answer": "Conservator Ilthalaine oversees the earliest trials of novices in Shadowglen. When a messenger from Shanda arrived with the sigil, Ilthalaine held it until the aspiring priest proved capable of taking their next steps."
+   "answer": "Conservator Ilthalaine oversees the earliest trials of novices in Shadowglen. When Shanda's messenger arrived with the sigil, Ilthalaine kept it until the aspiring priest was ready to take the next steps."
   }
  ],
  "angles": [
   {
    "target": "class:Priest",
-   "text": "This rite of passage connects a novice kaldorei priest with Shanda, initiating their formal training in the light and wisdom of Elune."
+   "text": "As a kaldorei priest, you begin formal training with Shanda in Elune's light and wisdom."
   },
   {
    "target": "race:NightElf",
-   "text": "The priesthood is central to kaldorei culture, governed by ancient traditions of lunar devotion that have guided their people for millennia."
+   "text": "As a night elf, you belong to a people whose culture centers on the priesthood and ancient traditions of devotion to the moon, guiding them for millennia."
   },
   {
    "target": "faction:Alliance",
-   "text": "Shanda's remarks highlight how newly established Alliance alliances are bringing unfamiliar races and travelers directly onto Teldrassil's boughs."
+   "text": "Shanda's words reflect the new ties between the kaldorei and the Alliance, which bring unfamiliar races and travelers to Teldrassil's boughs."
   }
  ],
  "keywords": [
@@ -115,5 +115,6 @@
  ],
  "attribution": [
   "Hallowed Sigil (Classic)"
- ]
+ ],
+ "style": 1
 }

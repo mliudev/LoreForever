@@ -17,16 +17,16 @@
   "wiki": "Beached Sea Turtle (4)",
   "chain": []
  },
- "summary": "This beached sea turtle carcass along the Darkshore coastline carries a broken carriage and a box inscribed with strange runes. Unlike other naturally stranded marine life, this creature appears to have been slain while serving as a beast of burden.",
+ "summary": "Along Darkshore's coast, a Beached Sea Turtle lies dead beneath the carriage it once hauled. A box marked with strange runes rests in the wreckage.",
  "sections": [
   {
    "title": "A Beast of Burden",
-   "body": "The Darkshore coast is littered with the bones of ancient sea creatures, but this turtle skeleton tells a distinctly artificial tale. Strapped across its massive shell are the splintered remnants of a buckled carriage. The creature did not die of sickness or disorientation like others washed ashore; it was driven onto the rocks while hauling cargo. In the wreckage of the carriage rests a container decorated with unfamiliar, serpent-like carvings, left behind amidst the scavengers who claimed the rotting shell.",
+   "body": "A dead sea turtle lies among the ancient bones scattered along Darkshore's coast. Splintered carriage boards still cling to its broad shell. The turtle was driven onto the rocks while hauling cargo, rather than stranded by sickness or disorientation. A container carved with unfamiliar, serpent-like marks lies in the wreckage, amid scavengers feeding on the remains.",
    "spoiler": 0
   },
   {
    "title": "The Naga Incursion",
-   "body": "When Gwennyth Bly'Leggonde examines the salvaged box in Auberdine, she identifies the craftsmanship as belonging to the naga. The serpentine fiends frequently harness great sea beasts to ferry provisions and weapons ashore during their amphibious assaults. Given the location of the wreckage along the southern shores of Darkshore, Gwennyth suspects this supply transport met its end while ferrying gear toward Ashenvale, pointing toward expanding naga ambitions across northern Kalimdor.",
+   "body": "In Auberdine, Gwennyth Bly'Leggonde identifies the box's craftsmanship as naga work. The naga use great sea beasts to carry provisions and weapons ashore during their attacks from the water. The wreck lies along Darkshore's southern shore, and Gwennyth suspects the turtle was carrying supplies toward Ashenvale. Its end may point to the naga reaching farther across northern Kalimdor.",
    "spoiler": 1
   }
  ],
@@ -38,7 +38,7 @@
     "why turtle has cart",
     "sea turtle harness"
    ],
-   "answer": "The carriage was fitted onto the creature by the naga, who use giant sea turtles as living pack animals to transport supplies, weapons, and war materiel from the ocean depths onto land."
+   "answer": "The naga fitted the carriage to the turtle and used giant sea turtles as living pack animals, carrying supplies, weapons, and war materiel from the ocean depths onto land."
   },
   {
    "q": "Who is currently inhabiting the remains?",
@@ -47,7 +47,7 @@
     "greymist murlocs turtle",
     "what is guarding turtle"
    ],
-   "answer": "A band of powerful Greymist murlocs took over the giant shell after the turtle died, using its massive hollowed-out carcass as a fortified seaside shelter."
+   "answer": "Powerful Greymist murlocs have taken over the giant shell since the turtle died, using its hollowed-out remains as a fortified seaside shelter."
   },
   {
    "q": "Where does the Strangely Marked Box go?",
@@ -56,7 +56,7 @@
     "strangely marked box",
     "turn in marked box"
    ],
-   "answer": "The box should be brought to Gwennyth Bly'Leggonde, an emissary representing the Temple of the Moon stationed in the coastal settlement of Auberdine."
+   "answer": "Bring the box to Gwennyth Bly'Leggonde, an emissary of the Temple of the Moon stationed in Auberdine."
   },
   {
    "q": "What do the markings on the box mean?",
@@ -65,7 +65,7 @@
     "who made the marked box",
     "naga box"
    ],
-   "answer": "The markings are naga script. They indicate that the box and its carriage were part of a naga supply convoy moving along the coast, likely heading south toward Ashenvale before disaster struck."
+   "answer": "The markings are naga script. They show that the box and carriage belonged to a naga supply convoy moving along the coast, likely toward Ashenvale before disaster struck."
   },
   {
    "q": "Why is the Temple of the Moon interested in beached turtles?",
@@ -73,7 +73,7 @@
     "why temple wants turtles",
     "gwennyth darkshore mission"
    ],
-   "answer": "The priestesses of Elune are investigating the environmental and military threats afflicting the Darkshore coastline. Recovered artifacts like this box are sent to Darnassus so scholars can map out hostile movements."
+   "answer": "The priestesses of Elune are investigating threats to Darkshore's coast, both environmental and military. Recovered artifacts like this box go to Darnassus, where scholars can map hostile movements."
   },
   {
    "q": "Where was the turtle traveling before it died?",
@@ -81,21 +81,21 @@
     "turtle destination",
     "where was turtle going"
    ],
-   "answer": "Based on the location of the carcass along the coast, Gwennyth Bly'Leggonde suspects the naga were directing the laden creature southward, potentially headed toward Ashenvale."
+   "answer": "From the carcass's location along the coast, Gwennyth Bly'Leggonde suspects the naga were directing the laden turtle south, possibly toward Ashenvale."
   }
  ],
  "angles": [
   {
    "target": "race:NightElf",
-   "text": "The desecration of sea life for military transport by the naga is an outrage to the kaldorei, and discovering these tracks helps the Temple of the Moon track threats toward Ashenvale."
+   "text": "As a Night Elf, you know the naga's use of sea life to carry supplies for war is an outrage to the kaldorei. These tracks help the Temple of the Moon follow threats toward Ashenvale."
   },
   {
    "target": "class:Druid",
-   "text": "Seeing a noble sea turtle enslaved to haul weapons of war and left to rot among scavengers illustrates the corrupting disregard the naga show toward wild beasts."
+   "text": "As a Druid, you see a noble sea turtle forced to carry weapons of war, then left to rot among scavengers. The naga show little regard for wild beasts."
   },
   {
    "target": "faction:Alliance",
-   "text": "Investigating this wreckage alerts Auberdine and Darnassus to naga logistical routes threatening northern Kalimdor."
+   "text": "As an Alliance member, you help alert Auberdine and Darnassus to naga supply routes that threaten northern Kalimdor."
   }
  ],
  "keywords": [
@@ -121,5 +121,6 @@
  ],
  "attribution": [
   "Beached Sea Turtle (4)"
- ]
+ ],
+ "style": 1
 }

@@ -601,6 +601,28 @@ function Hooks.ResetQuestButton()
   say(L["the quest window's Lore button is back in its place, clear of other add-ons' buttons."])
 end
 
+-- The level the game gives quest `id`: from the quest log when it's in it (what the player sees), else the client's own
+-- (C_QuestLog.GetQuestDifficultyLevel, for a quest only offered). The 76 quests whose level the data doesn't know are
+-- all the game has to go by, so the game's wins over the data's.
+local function gameQuestLevel(id)
+  if type(id) ~= "number" or id <= 0 then return nil end
+  for _, q in ipairs(ns.Context.Quests()) do
+    if q.id == id and tonumber(q.level) and q.level > 0 then return q.level end
+  end
+  local QL = _G.C_QuestLog
+  if QL and QL.GetQuestDifficultyLevel then
+    local ok, level = pcall(QL.GetQuestDifficultyLevel, id)
+    if ok and tonumber(level) and level > 0 then return level end
+  end
+end
+
+-- The line a quest's play or Lore button tooltip ends with when its voices are a download the player hasn't got
+-- (Voice.QuestPackHint). Always a hint, never an action: it only shows when the player hovers.
+local function packHint(id)
+  local ok, line = pcall(function() return ns.Voice.QuestPackHint(gameQuestLevel(id)) end)
+  return ok and line or nil
+end
+
 -- A quest's Lore button: a click opens its story; Shift-click adds its narration to your playlist (UI.QueueQuest);
 -- right-click opens Options. key: its entry, quest: its quest ID, title: its name on screen (UpdateQuestDialogButton,
 -- UpdateQuestLogButton). drag: the quest window's, which Shift-drag moves.
@@ -619,6 +641,13 @@ local function loreButton(parent, name, drag)
       ns.Theme.Tip(L["Click to open. Shift-click adds it to your playlist."], "tipDim", true)
     end
     if drag then ns.Theme.Tip(L["Shift-drag to move it. Right-click for options."], "tipDim", true) end
+    -- (on the play button's tooltip when that shows; here when the page has no play button)
+    local play = self.via == "questdialog" and Hooks.questDialogPlay or self.via == "questlog" and Hooks.questLogPlay
+    local hint = not (play and play:IsShown()) and packHint(self.quest)
+    if hint then
+      GameTooltip:AddLine(" ")   -- (a note of its own, not one more thing to click)
+      ns.Theme.Tip(hint, "tipDim", true)
+    end
     GameTooltip:Show()
   end)
   b:SetScript("OnLeave", function() GameTooltip:Hide() end)
@@ -647,14 +676,17 @@ local function loreButton(parent, name, drag)
 end
 
 -- The play button beside the quest window's Lore button (Voice.PlayQuestPage): the gold play sign plays what the quest
--- giver says on this page again, a stop square stops it. Its tooltip says what plays: the quest giver's recorded words,
+-- giver says on this page (with Speak quest dialogue off too: it's pressed on purpose), a stop square stops it. Its tooltip says what plays: the quest giver's recorded words,
 -- checked against this page's words. A page no voice recorded has no button. The quest log uses the same control.
 local function questPlayButton(parent, fromLog)
   local T = ns.Theme
   local b = T.RoundButton(parent, 20)
   b:SetFrameLevel((parent:GetFrameLevel() or 1) + 5)
   b:SetScript("OnClick", function()
-    if fromLog then ns.UI.ListenTo(ns.UI.QuestLogTarget(Hooks.questLogButton.quest))
+    if fromLog then
+      local t = ns.UI.QuestLogTarget(Hooks.questLogButton.quest)
+      if t then ns.Voice.askedClips[t.key] = true end   -- asked for: it plays with Speak quest dialogue off
+      ns.UI.ListenTo(t)
     else ns.Voice.PlayQuestPage() end
     Hooks.UpdateQuestPlayButton()
   end)
@@ -667,6 +699,15 @@ local function questPlayButton(parent, fromLog)
     else
       GameTooltip:AddLine(L["Play narration"])
       if state == "listen" then T.Tip(L["What the quest giver says, in the narrator's voice."], "tipText", true) end
+      if state == "willo" then T.Tip(string.format(L["%s reads this page aloud."], ns.COMPANION_NAME), "tipText", true) end
+    end
+    -- Only where the page isn't the quest giver's own recording (from any installed pack) that plays or would: Willo
+    -- reading it is the case, and the hint says why there's no narrator.
+    local lore = fromLog and Hooks.questLogButton or Hooks.questDialogButton
+    local hint = state == "willo" and packHint(lore and lore.quest)
+    if hint then
+      GameTooltip:AddLine(" ")
+      T.Tip(hint, "tipDim", true)
     end
     GameTooltip:Show()
   end)

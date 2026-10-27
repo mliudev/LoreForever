@@ -794,17 +794,8 @@ function UI.Create(engine)
     end)
     UI.questButtons[i] = b
   end
-
-  -- Where the lore comes from (its licence asks for the credit), just above the player.
-  local hint = Faint(hereView:CreateFontString(nil, "OVERLAY", T.font.small))
-  -- It wraps rather than cut off (it runs long in every language); anchored at the bottom, a second line grows up
-  -- into the room the Here list leaves free (UI.Refresh stops the list 44px above the player).
-  hint:SetPoint("BOTTOMLEFT", 16, DOCK_H + 6)
-  hint:SetWidth(SIDE_W - 28)
-  hint:SetJustifyH("LEFT")
-  if hint.SetWordWrap then hint:SetWordWrap(true) end
-  hint:SetText(L["Lore adapted from warcraft.wiki.gg (CC BY-SA)"])
-  UI.hereCredit = hint
+  -- (Where the lore comes from is credited out of the game: CREDITS.txt in the download, the CurseForge page and the
+  -- site's /credits. Mike, 10/25.)
 
   -- Conversation
   local sfOk, sf = pcall(CreateFrame, "ScrollFrame", "LoreForeverScroll", f, "UIPanelScrollFrameTemplate")
@@ -2381,9 +2372,9 @@ function UI.Refresh()
   local here, placeName, bosses, targetKey = UI.HereItems(ctx)
   UI.hereHeader:SetText(string.format(L["Here: %s"], esc(placeName or "?")))
   -- The Here list flows top to bottom: stories and questions, the dungeon's bosses, then your quests, stopping
-  -- above the colour hint and the player at the bottom (the panel can be resized taller for more).
+  -- just above the player at the bottom (the panel can be resized taller for more).
   local fh = tonumber(UI.frame:GetHeight()) or H
-  local bottom = -(fh - 44 - DOCK_H)
+  local bottom = -(fh - 8 - DOCK_H)
   local y = -(HERE_TOP + 20)
   for i, b in ipairs(UI.suggestions) do
     local s = here[i]
@@ -5125,10 +5116,11 @@ local function logText(id)
 end
 
 -- The quest log's selected page as something to play. Check the words it actually shows, without selecting another
--- quest or using an unchecked recording. A stale button or missing/rewritten page has nothing to play.
+-- quest or using an unchecked recording. A stale button or missing/rewritten page has nothing to play. Its Listen is
+-- pressed on purpose, so it plays with Speak quest dialogue off too (Hooks' questPlayButton marks it asked).
 function UI.QuestLogTarget(qid)
   local QL, V = _G.C_QuestLog, ns.Voice
-  if not V.QuestDialogue() or not (qid and QL and QL.GetSelectedQuest) or V.Current() == "none" then return nil end
+  if not (qid and QL and QL.GetSelectedQuest) or V.Current() == "none" then return nil end
   local ok, selected = pcall(QL.GetSelectedQuest)
   if not (ok and selected == qid) then return nil end
   local desc, obj, sure = logText(qid)

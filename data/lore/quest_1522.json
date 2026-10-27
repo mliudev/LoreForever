@@ -1,0 +1,71 @@
+{
+ "key": "quest:1522",
+ "type": "quest",
+ "name": "Call of Fire",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   1522
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "A shaman sees your strength in earth and sends you to Kranal Fiss in the Barrens. He can teach you the ways of fire.",
+ "sections": [
+  {
+   "title": "Kranal Fiss",
+   "body": "Kranal lives north of the Crossroads. The shaman says he is easy to find, but warns you not to go too far or you will reach the elves' lands.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Kranal Fiss?",
+   "aliases": [
+    "who's Kranal",
+    "Kranal"
+   ],
+   "answer": "Kranal Fiss is a shaman in the Barrens who can teach you the ways of fire."
+  },
+  {
+   "q": "Where can I find Kranal?",
+   "aliases": [
+    "Kranal location",
+    "where's Kranal"
+   ],
+   "answer": "Kranal lives north of the Crossroads in the Barrens."
+  },
+  {
+   "q": "Why am I being sent to Kranal?",
+   "aliases": [
+    "why Kranal",
+    "fire training"
+   ],
+   "answer": "The shaman sees your strength in earth and believes you are ready to speak with Kranal, who can teach you the ways of fire."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Shaman",
+   "text": "As a shaman, you are sent to Kranal Fiss to learn the ways of fire after showing strength in earth."
+  }
+ ],
+ "keywords": [
+  "barrens",
+  "call of fire",
+  "crossroads",
+  "earth",
+  "fire",
+  "kranal fiss",
+  "shaman"
+ ],
+ "related": [
+  "zone:barrens",
+  "subzone:crossroads"
+ ],
+ "style": 1,
+ "attribution": [
+  "In-game quest text: Call of Fire"
+ ]
+}

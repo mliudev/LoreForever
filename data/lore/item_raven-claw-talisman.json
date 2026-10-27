@@ -10,16 +10,16 @@
    "quest:483"
   ]
  },
- "summary": "The Raven Claw Talisman is a sacred night elf relic tied to the Druids of the Talon. Kept deep within Ban'ethil Barrow Den on Teldrassil, it is one of the four essential Relics of Wakening required to safely guide slumbering druids back from the Emerald Dream.",
+ "summary": "In Ban'ethil Barrow Den, the Raven Claw Talisman is kept among relics needed to awaken sleeping druids. The sacred night elf relic is one of four Relics of Wakening used to guide the Druids of the Talon safely back from the Emerald Dream.",
  "sections": [
   {
    "title": "A Key to Awakening",
-   "body": "The Raven Claw Talisman is preserved within a designated chest inside Ban'ethil Barrow Den, the subterranean sanctuary where Teldrassil's Druids of the Talon entered their deep meditative slumbers. Druidic hibernation is a delicate spiritual threshold. If a druid's link to the waking world is shattered without the proper ceremonial focus, their spirit risks being stranded within the Emerald Dream indefinitely. Alongside the Black Feather Quill, the Sapphire of Sky, and the Rune of Nesting, the talisman is required by Athridas Bearmantle in Dolanaar to conduct the ritual of awakening and bring the slumberers back safely.",
+   "body": "The Raven Claw Talisman rests in a designated chest inside Ban'ethil Barrow Den, where Teldrassil's Druids of the Talon entered deep meditative sleep. Their hibernation is a delicate spiritual threshold. Without the proper ceremonial focus, a druid whose link to the waking world is broken may remain stranded in the Emerald Dream. Athridas Bearmantle in Dolanaar needs this talisman, the Black Feather Quill, the Sapphire of Sky, and the Rune of Nesting to perform the awakening ritual and bring the sleepers back safely.",
    "spoiler": 0
   },
   {
    "title": "The Threat in the Barrow Den",
-   "body": "When corrupted Gnarlpine furbolgs overran Ban'ethil Barrow Den, the sacred chests and the sleeping druids fell into immediate peril. The furbolg desecration severed the sanctum from outside aid and put the relics in danger of being lost or destroyed. Athridas Bearmantle tasks defenders of Teldrassil with braving the winding earthen corridors of the den to secure the Raven Claw Talisman before the displaced druids are lost to the Dream forever.",
+   "body": "Corrupted Gnarlpine furbolgs have overrun Ban'ethil Barrow Den, putting its sacred chests and sleeping druids in peril. Their desecration has cut the sanctuary off from outside aid, and the relics may be lost or destroyed. Athridas Bearmantle calls on Teldrassil's defenders to brave the den's winding earthen corridors and secure the Raven Claw Talisman before the displaced druids are lost to the Dream forever.",
    "spoiler": 0
   }
  ],
@@ -31,7 +31,7 @@
     "raven claw talisman purpose",
     "why do i need raven claw talisman"
    ],
-   "answer": "It is one of four sacred Relics of Wakening needed to perform the ritual that rouses the Druids of the Talon from their deep hibernation in the Emerald Dream."
+   "answer": "The Raven Claw Talisman is one of four sacred Relics of Wakening needed to rouse the Druids of the Talon from deep hibernation in the Emerald Dream."
   },
   {
    "q": "Where is the Raven Claw Talisman found?",
@@ -40,7 +40,7 @@
     "chest of the raven claw location",
     "how to find raven claw talisman"
    ],
-   "answer": "It rests inside the Chest of the Raven Claw, stored within the earthen tunnels of Ban'ethil Barrow Den, west of Dolanaar on Teldrassil."
+   "answer": "The Raven Claw Talisman rests in the Chest of the Raven Claw, inside the earthen tunnels of Ban'ethil Barrow Den, west of Dolanaar on Teldrassil."
   },
   {
    "q": "Who needs the Raven Claw Talisman?",
@@ -49,7 +49,7 @@
     "who takes the raven claw talisman",
     "who do i turn this in to"
    ],
-   "answer": "Athridas Bearmantle, a night elf druid stationed in Dolanaar, requires the talisman to prepare the wakening rites for his displaced kin."
+   "answer": "Athridas Bearmantle, a night elf druid in Dolanaar, needs the talisman to prepare the wakening rites for his displaced kin."
   },
   {
    "q": "Why can't the druids wake up without it?",
@@ -58,17 +58,17 @@
     "why relics of wakening",
     "can druids wake up without relics"
    ],
-   "answer": "Entering the Emerald Dream through druidic hibernation involves a complex, delicate trance. Without the specific focus of the Relics of Wakening to anchor the awakening ritual, a sleeper's spirit risks remaining lost in the Dream indefinitely."
+   "answer": "Druidic hibernation involves a complex, delicate trance in the Emerald Dream. Without the Relics of Wakening to anchor the awakening ritual, a sleeper's spirit risks remaining lost there indefinitely."
   }
  ],
  "angles": [
   {
    "target": "class:Druid",
-   "text": "The talisman is an emblem of the Druids of the Talon, illustrating how ritual foci safeguard a druid's spirit while wandering the Emerald Dream."
+   "text": "As a druid, you can see how the Raven Claw Talisman reflects the Druids of the Talon's use of ritual foci to safeguard a spirit wandering the Emerald Dream."
   },
   {
    "target": "race:NightElf",
-   "text": "Recovering this relic protects both ancient night elf tradition and the lives of the slumbering kin threatened by the madness of the Gnarlpine furbolgs."
+   "text": "As a night elf, you protect an ancient tradition and your sleeping kin by recovering this relic from the Gnarlpine furbolgs."
   }
  ],
  "keywords": [
@@ -94,5 +94,6 @@
  "attribution": [
   "Raven Claw Talisman",
   "The Relics of Wakening"
- ]
+ ],
+ "style": 1
 }

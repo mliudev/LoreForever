@@ -17,16 +17,16 @@
   "wiki": "Disrupt the Attacks",
   "chain": []
  },
- "summary": "Disrupt the Attacks is an early defensive assignment issued by Thork at the Crossroads in the Barrens. The aggressive Razormane quilboar have severed supply routes connecting Durotar to the outpost, threatening the settlement's survival. Horde adventurers are dispatched to thin out the quilboar forces while scouts attempt to locate their warband's leader.",
+ "summary": "Thork needs the Crossroads defended as Razormane quilboar cut its supply roads. Their ambushes have halted caravans from Durotar, and the outpost is running short on food and gear. You strike at the quilboar while scouts search for the one directing their warband.",
  "sections": [
   {
    "title": "A Severed Lifeline",
-   "body": "The Crossroads serves as the vital junction for all Horde traffic moving through central Kalimdor. Its survival relies entirely on freight wagons and caravans hauling food, iron, and equipment west from Durotar. When the Razormane tribe set up aggressive ambushes along the northeast trails, these essential deliveries ground to an abrupt halt. With resources dwindling and defensive stores running low, Thork cannot afford to wait for peaceable negotiations.",
+   "body": "The Crossroads guards a key junction for Horde traffic through central Kalimdor. Freight wagons and caravans bring food, iron, and equipment west from Durotar, and the outpost depends on those supplies. Razormane ambushes along the northeast trails have stopped the deliveries. Stores are running low, and Thork cannot wait for peaceful talks.",
    "spoiler": 0
   },
   {
    "title": "Pruning the Brambles",
-   "body": "Rather than waiting for the quilboar to launch a direct assault against the town walls, Thork orders proactive strikes against their bramble dens northeast of the settlement. Striking at their Water Seekers, Thornweavers, and Hunters weakens their scouting perimeter and deprives their raiding parties of magical and logistical support. These initial skirmishes buy crucial time while Horde trackers comb the brush to discover who is organizing the raids.",
+   "body": "Thork sends you against the quilboar bramble dens northeast of the settlement before they can assault the town walls. Striking their Water Seekers, Thornweavers, and Hunters weakens the Razormane scouting perimeter and deprives raiding parties of magical and logistical support. These skirmishes buy time while Horde trackers search the brush for the one organizing the raids.",
    "spoiler": 0
   }
  ],
@@ -38,7 +38,7 @@
     "razormane motivation",
     "why attack durotar road"
    ],
-   "answer": "The Razormane tribe views the arid plains of the Barrens as their ancestral homeland. The construction of the Crossroads and regular Horde caravans cutting across their hunting grounds are seen as intolerable trespasses, driving them to ambush supply wagons."
+   "answer": "The Razormane see the Barrens as their ancestral homeland. They regard the Crossroads and Horde caravans crossing their hunting grounds as intolerable trespasses, so they ambush the supply wagons."
   },
   {
    "q": "Who is Thork?",
@@ -47,7 +47,7 @@
     "thork lore",
     "crossroads leader"
    ],
-   "answer": "Thork is an orc commander stationed at the Crossroads. He manages the day-to-day defense of the outpost, coordinating scouts and tasking warriors with securing trade roads against hostile centaur, harpies, and quilboar."
+   "answer": "Thork is an orc commander stationed at the Crossroads. He oversees the outpost's daily defense, coordinates scouts, and sends warriors to secure trade roads from hostile centaur, harpies, and quilboar."
   },
   {
    "q": "Where are these quilboar located?",
@@ -56,7 +56,7 @@
     "razormane location",
     "where are thornweavers"
    ],
-   "answer": "The targeted Razormane encampments lie to the east and northeast of the Crossroads, situated along the base of the mountains that separate the Barrens from Durotar. They are easily recognized by the towering briar vines surrounding their camps."
+   "answer": "The Razormane encampments lie east and northeast of the Crossroads, along the foot of the mountains separating the Barrens from Durotar. Towering briar vines surround their camps."
   },
   {
    "q": "What comes after disrupting their attacks?",
@@ -64,7 +64,7 @@
     "what next after disrupt attacks",
     "next quest after disrupt the attacks"
    ],
-   "answer": "Thinning the ranks is merely a stopgap measure. Once the initial force is routed and scouts determine who is commanding the raiders, Thork immediately tasks you with hunting down their chieftain in the follow-up mission, The Disruption Ends."
+   "answer": "After the first force is driven back and scouts identify who commands the raiders, Thork immediately sends you after their chieftain in The Disruption Ends."
   },
   {
    "q": "What role do Water Seekers play in the tribe?",
@@ -72,7 +72,7 @@
     "what is a water seeker",
     "razormane water seeker lore"
    ],
-   "answer": "Water is the rarest, most prized resource in the Barrens. Water Seekers are vital logistical gatherers who locate natural wells, oases, and hidden underground springs to keep the tribe and its war parties hydrated in the scorching scrubland."
+   "answer": "Water is the Barrens' rarest and most prized resource. Water Seekers find wells, oases, and hidden underground springs to supply the tribe and its war parties."
   },
   {
    "q": "What are Thornweavers?",
@@ -80,21 +80,21 @@
     "what is a thornweaver",
     "quilboar thornweaver"
    ],
-   "answer": "Thornweavers are quilboar geomancers and spellcasters who manipulate the earth and cultivate the massive, impenetrable briars that guard their dens. In battle, they wield regional nature magic against intruders."
+   "answer": "Thornweavers are quilboar geomancers and spellcasters who shape earth and grow the massive, impenetrable briars guarding their dens. In battle, they wield the region's nature magic against intruders."
   }
  ],
  "angles": [
   {
    "target": "faction:Horde",
-   "text": "The supply route between Durotar and the Crossroads is the Horde's main logistical artery in central Kalimdor; allowing the quilboar to close it risks starving out the entire outpost."
+   "text": "The route between Durotar and the Crossroads is the Horde's main supply artery in central Kalimdor. If the quilboar close it, the whole outpost risks going hungry."
   },
   {
    "target": "race:Orc",
-   "text": "For orcs settling Durotar, the Barrens represents vital room to expand, making the quilboar's relentless ambushes an obstacle that must be met with force."
+   "text": "As an orc settling Durotar, you need room to expand into the Barrens. The quilboar's relentless ambushes stand in your way and must be met with force."
   },
   {
    "target": "class:Hunter",
-   "text": "Taking down Razormane Hunters in the scrub brush tests tracking skills against native skirmishers who know the terrain intimately."
+   "text": "Taking down Razormane Hunters in the scrub tests your tracking against native skirmishers who know the terrain intimately."
   }
  ],
  "keywords": [
@@ -118,5 +118,6 @@
  ],
  "attribution": [
   "Disrupt the Attacks"
- ]
+ ],
+ "style": 1
 }

@@ -17,16 +17,16 @@
   "wiki": "The Tower of Althalaxx",
   "chain": []
  },
- "summary": "Charged with the defense of Auberdine, Sentinel Elissa Starbreeze suspects foul dealings at the ancient ruins to the north. She tasks adventurers with finding Balthule Shadowstrike, a scout dispatched to watch the enigmatic Tower of Althalaxx who has failed to report back on schedule.",
+ "summary": "North of Auberdine, Sentinel Elissa Starbreeze fears trouble at an ancient ruin. She sent Balthule Shadowstrike to watch the Tower of Althalaxx, but he has missed his report.",
  "sections": [
   {
    "title": "A Scout Unaccounted For",
-   "body": "Auberdine's sentinels must remain ever watchful over Darkshore's creeping perils. Sentinel Elissa Starbreeze noticed suspicious activity stirring around the Tower of Althalaxx in the northern reaches of the forest. She sent Balthule Shadowstrike to survey the ancient ruin. Days have passed without word from the scout, prompting Elissa to seek a willing traveler to journey north, locate Balthule, and ensure he has not met an untimely end.",
+   "body": "Sentinel Elissa Starbreeze watches for danger around Auberdine. Suspicious activity near the Tower of Althalaxx in northern Darkshore drew her notice, so she sent Balthule Shadowstrike to watch the ancient ruin. Days have passed without word from him. Elissa asks you to travel north, find Balthule, and make sure he has not met an untimely end.",
    "spoiler": 0
   },
   {
    "title": "Eyes Upon the Ruin",
-   "body": "The road north from Auberdine crosses past ancient Kaldorei ruins and over the Cliffspring River before reaching the shadowy sprawl of the tower. Though cut off from sending word back to Auberdine, Balthule survived his initial surveillance. Upon being located in the surrounding woods, he confirms that Elissa's instincts were correct: dark and troubling developments are actively underway within the crumbling stone spire.",
+   "body": "The road north from Auberdine passes ancient Kaldorei ruins and crosses the Cliffspring River before reaching the tower. Balthule survived his first watch, though he could not send word back to Auberdine. You find him in the surrounding woods, where he confirms Elissa's fears: dark and troubling events are underway inside the crumbling stone spire.",
    "spoiler": 1
   }
  ],
@@ -38,7 +38,7 @@
     "who gives quest",
     "auberdine questgiver"
    ],
-   "answer": "Elissa Starbreeze is a night elf Sentinel stationed in Auberdine. She is charged with safeguarding the settlement from external threats across Darkshore and monitors regional dangers like the Tower of Althalaxx."
+   "answer": "Sentinel Elissa Starbreeze is a night elf Sentinel stationed in Auberdine. She protects the settlement from dangers across Darkshore and watches for threats such as the Tower of Althalaxx."
   },
   {
    "q": "Who is Balthule Shadowstrike?",
@@ -47,7 +47,7 @@
     "who is the scout",
     "shadowstrike"
    ],
-   "answer": "Balthule Shadowstrike is a scout dispatched by Sentinel Elissa Starbreeze to spy on the mysterious activity surrounding the Tower of Althalaxx. He maintains a vigil outside the ruin to keep track of hostile forces."
+   "answer": "Balthule Shadowstrike is the scout Sentinel Elissa Starbreeze sent to watch strange activity around the Tower of Althalaxx. He keeps watch outside the ruin for signs of hostile forces."
   },
   {
    "q": "Where is the Tower of Althalaxx located?",
@@ -56,7 +56,7 @@
     "where is the tower",
     "how to find althalaxx"
    ],
-   "answer": "The tower sits in northeastern Darkshore. Travelers can reach it by heading east out of Auberdine, following the northern road past Bashal'Aran, and crossing the bridge over the Cliffspring River until the spire comes into view."
+   "answer": "The Tower of Althalaxx stands in northeastern Darkshore. From Auberdine, head east and follow the northern road past Bashal'Aran, then cross the bridge over the Cliffspring River until the spire comes into view."
   },
   {
    "q": "Why was a scout sent to the tower in the first place?",
@@ -65,7 +65,7 @@
     "what is wrong at althalaxx",
     "why sent balthule"
    ],
-   "answer": "Elissa sent Balthule to observe strange happenings around the Tower of Althalaxx while carrying out her charge to protect Auberdine."
+   "answer": "Elissa sent Balthule to watch strange activity around the Tower of Althalaxx as part of her duty to protect Auberdine."
   },
   {
    "q": "Why hasn't Balthule returned to Auberdine?",
@@ -74,7 +74,7 @@
     "is balthule trapped",
     "why did balthule stay"
    ],
-   "answer": "Elissa has not received Balthule's report and asks you to check on him. Balthule can explain his situation when you find him."
+   "answer": "Elissa has not received Balthule's report, so she asks you to check on him. Balthule can explain his situation when you find him."
   },
   {
    "q": "Does this quest chain continue?",
@@ -83,17 +83,17 @@
     "what quest comes next",
     "althalaxx chain"
    ],
-   "answer": "Yes. Locating Balthule Shadowstrike begins a multi-part investigation into the dark forces occupying the Tower of Althalaxx and their sinister ambitions in Darkshore."
+   "answer": "Yes. Finding Balthule Shadowstrike begins a multi-part investigation into the dark forces occupying the Tower of Althalaxx and their ambitions in Darkshore."
   }
  ],
  "angles": [
   {
    "target": "race:NightElf",
-   "text": "The ruins of Althalaxx stand as a reminder of ancient Kalimdor's fallen highborne past, and preserving Auberdine from the corruption festering in those stones is a vital duty for night elf sentinels."
+   "text": "As a night elf, you know Althalaxx's ruins recall the fallen highborne of ancient Kalimdor. Corruption festers in their stones, and guarding Auberdine against it is a vital duty for the sentinels."
   },
   {
    "target": "faction:Alliance",
-   "text": "Auberdine serves as the Alliance's primary gateway into northern Kalimdor, making the defense of its surrounding roads and borders essential for all visiting allies."
+   "text": "As an Alliance traveler, you rely on Auberdine as the Alliance's main gateway into northern Kalimdor. Its surrounding roads and borders need protection."
   }
  ],
  "keywords": [
@@ -116,5 +116,6 @@
  ],
  "attribution": [
   "The Tower of Althalaxx"
- ]
+ ],
+ "style": 1
 }

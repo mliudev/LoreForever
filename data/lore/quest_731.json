@@ -17,16 +17,16 @@
   "wiki": "The Absent Minded Prospector (2)",
   "chain": []
  },
- "summary": "Deep in the southern ruins of Darkshore, Prospector Remtravel refuses to abandon his dig site without a prize to show the Explorers' League. Despite his severe forgetfulness and an infestation of hostile troggs, he insists on uncovering a mysterious fossil before retreating. Ensuring the dwarven researcher survives his erratic search allows word of his safety to reach his assistant back in Auberdine.",
+ "summary": "At the southern ruins of Darkshore, Prospector Remtravel presses on with his dig, hoping to find a prize for the Explorers' League. Hostile troggs and his forgetfulness make the search perilous, and word of his safety must reach his assistant in Auberdine.",
  "sections": [
   {
    "title": "A Perilous Excavation",
-   "body": "Remtravel's Dig lies far to the south of Darkshore, nestled among ancient ruins that were supposed to hold forgotten secrets. Instead, the dwarven excavators struck into pockets of savage troggs, driving out the workers and leaving the camp under siege. While most would flee for Auberdine immediately, Prospector Remtravel became fixated on salvaging his findings. Refusing to leave empty-handed, he wanders right into the teeth of danger to recover an elusive fossil to justify the expedition's costs to the Explorers' League.",
+   "body": "Far south in Darkshore, Remtravel's Dig lies among ancient ruins. Dwarven excavators searching there uncovered troggs, who drove out the workers and besieged the camp. Remtravel will not leave for Auberdine empty-handed. He wanders into danger to recover a fossil, hoping to justify the expedition's costs to the Explorers' League.",
    "spoiler": 0
   },
   {
    "title": "Muddled Memories and Trogg Ambushes",
-   "body": "Protecting Remtravel proves as frustrating as it is dangerous. His scatterbrained nature leads him in circles across the excavation site, mistaking brushes for fossils and blundering past scaffolding and abandoned tents. Each stop draws the attention of aggressive troggs lurking in the shadowed recesses of the quarry. Only after the escort has cleared wave after wave of subterranean brutes does the scholar finally remember where his prize is: he already gave the fossil to Hollee, and he happily goes back to work.",
+   "body": "Keeping Remtravel safe at the excavation is dangerous and frustrating. He circles the site, mistakes brushes for fossils, and blunders past scaffolding and abandoned tents. Each stop draws aggressive troggs from the quarry's shadowed recesses. After travelers clear wave after wave of the subterranean brutes, Remtravel remembers where his prize is: he already gave the fossil to Hollee. He happily returns to work.",
    "spoiler": 1
   }
  ],
@@ -38,7 +38,7 @@
     "who is the prospector",
     "absent minded prospector guy"
    ],
-   "answer": "Prospector Remtravel is a senior field researcher for the dwarven Explorers' League. Stationed in Darkshore, he was tasked with excavating ancient ruins along the coast, though his extreme absent-mindedness frequently lands him in life-threatening situations."
+   "answer": "Prospector Remtravel is a senior field researcher for the dwarven Explorers' League. Stationed in Darkshore, he was sent to excavate ancient coastal ruins, though his extreme absent-mindedness often puts his life in danger."
   },
   {
    "q": "Why is Remtravel still at the dig site?",
@@ -47,7 +47,7 @@
     "why is remtravel there",
     "why hasn't he fled"
    ],
-   "answer": "Despite the dig being overrun by troggs, Remtravel refuses to return to Darnassus without tangible proof of his work. He insists on recovering a mysterious fossil to present to the Explorers' League before he will consider abandoning the camp."
+   "answer": "Remtravel refuses to return to Darnassus without tangible proof of his work. He wants to recover a mysterious fossil to present to the Explorers' League before abandoning the camp."
   },
   {
    "q": "Where did the troggs come from?",
@@ -56,7 +56,7 @@
     "darkshore troggs",
     "dig site troggs"
    ],
-   "answer": "Like many dwarven excavations, Remtravel's team dug deep into the earth and unwittingly breached subterranean pockets inhabited by troggs. The primitive creatures surfaced in droves, violently overrunning the machinery, tents, and workers."
+   "answer": "Remtravel's team dug deep into the earth and breached underground pockets inhabited by troggs. The primitive creatures surged up and overran the machinery, tents, and workers."
   },
   {
    "q": "Who is Archaeologist Hollee?",
@@ -65,7 +65,7 @@
     "archaeologist hollee",
     "remtravel assistant"
    ],
-   "answer": "Archaeologist Hollee is Remtravel's colleague and assistant, based in the coastal town of Auberdine. Distraught over her mentor's prolonged absence and well aware of his forgetful habits, she recruits travelers to track him down and ensure his safe return."
+   "answer": "Archaeologist Hollee is Remtravel's colleague and assistant in Auberdine. Distraught over her mentor's long absence and familiar with his forgetfulness, she asks travelers to find him and ensure he returns safely."
   },
   {
    "q": "What happens after finding the fossil?",
@@ -80,15 +80,15 @@
  "angles": [
   {
    "target": "race:Dwarf",
-   "text": "For dwarves, Remtravel embodies both the relentless passion and perilous stubbornness of the Explorers' League, showing how dedication to ancient titan-lore can blind a scholar to immediate danger."
+   "text": "For dwarves, Remtravel shows the Explorers' League's fierce passion and stubbornness. His dedication to ancient titan-lore blinds him to the danger around him."
   },
   {
    "target": "race:NightElf",
-   "text": "The kaldorei generally view dwarven excavations in Darkshore with wariness; Remtravel unearthing a horde of violent troggs confirms their fears about digging too deep into sacred ground."
+   "text": "For you as a night elf, dwarven digging in Darkshore may confirm your people's wariness: Remtravel's excavation uncovered a horde of violent troggs beneath sacred ground."
   },
   {
    "target": "faction:Alliance",
-   "text": "Securing Remtravel and his findings maintains vital diplomatic and scholarly cooperation between the dwarven Explorers' League and the night elves of Teldrassil."
+   "text": "As an Alliance member, helping Remtravel and preserving his findings supports scholarly and diplomatic ties between the dwarven Explorers' League and the night elves of Teldrassil."
   }
  ],
  "keywords": [
@@ -114,5 +114,6 @@
  ],
  "attribution": [
   "The Absent Minded Prospector (2)"
- ]
+ ],
+ "style": 1
 }

@@ -17,16 +17,16 @@
   "wiki": "Bashal'Aran (quest)",
   "chain": []
  },
- "summary": "The demonic satyrs and vicious grells that infest the ancient night elven city of Bashal'Aran will not approach one shrine, bathed in an unearthly blue aura. Thundris Windweaver, the elder of Auberdine, sends adventurers to investigate the source of this untouched sanctuary.",
+ "summary": "Demonic satyrs and grells shun one shrine in Bashal'Aran, where an unearthly blue aura burns. Thundris Windweaver, Auberdine's elder, sends you to find its source.",
  "sections": [
   {
    "title": "A Beacon in the Ruins",
-   "body": "Bashal'Aran once stood as a glorious settlement of the ancient Kaldorei Empire, but its broken marble and overgrown arches now teem with demonic taint. Twisted satyrs and corrupt grells feed greedily upon the lingering magical energies of the ruins, their malice swelling with every passing day. Yet despite their predatory dominion, Thundris Windweaver in Auberdine spotted a curiosity: atop a western bluff in the ruins, an ethereal blue aura burns over a shrine that no demon will approach.",
+   "body": "Bashal'Aran once flourished under the ancient Kaldorei Empire. Now demonic taint fills its broken marble halls and overgrown arches. Twisted satyrs and corrupt grells feed on the ruins' lingering magic, growing more malicious by the day. Yet Thundris Windweaver in Auberdine has noticed a mystery: atop a western bluff, a blue aura shines above a shrine that no demon will approach.",
    "spoiler": 0
   },
   {
    "title": "The Wounded Shade",
-   "body": "Braving the demonic patrols to reach the elevated shrine reveals that the blue light is no natural phenomenon. It emanates from Asterion, an ancient spirit whose vigil has persisted through centuries of solitude. Surrounded by howling beasts and vile fiends, the weary shade views even a traveling stranger as a welcome respite from decades of isolation.",
+   "body": "At the raised shrine, you find that the blue light comes from Asterion, an ancient spirit. The shade has kept its lonely vigil for centuries. Amid howling beasts and vile fiends, even a traveling stranger brings respite from decades of isolation.",
    "spoiler": 1
   }
  ],
@@ -38,7 +38,7 @@
     "where is asterion",
     "bashal'aran shrine location"
    ],
-   "answer": "The blue aura shines atop a small raised bluff on the western edge of the ruins of Bashal'Aran, just east of Auberdine in Darkshore. It sits slightly elevated above the surrounding crumbling walls."
+   "answer": "The blue aura shines above a shrine atop a small raised bluff on Bashal'Aran's western edge, just east of Auberdine in Darkshore. The shrine rises slightly above the crumbling walls around it."
   },
   {
    "q": "Why do the satyrs avoid the shrine?",
@@ -46,7 +46,7 @@
     "why demons afraid",
     "why satyrs stay away"
    ],
-   "answer": "No one knows yet. A strange blue aura permeates the shrine, and the demonic satyrs and grells that otherwise infest the ruins will not approach it. Thundris Windweaver sends you to find the aura's source."
+   "answer": "No one knows why the satyrs and grells avoid the shrine. A strange blue aura fills the place, and Thundris Windweaver sends you to find its source."
   },
   {
    "q": "Who sends you on this quest?",
@@ -55,7 +55,7 @@
     "quest giver",
     "thundris windweaver location"
    ],
-   "answer": "Thundris Windweaver, a night elf druid and the elder of Auberdine, provides the quest after observing the unnatural demonic movements within the eastern ruins."
+   "answer": "Thundris Windweaver, a night elf druid and Auberdine's elder, sends you after noticing unnatural demonic movements in the eastern ruins."
   },
   {
    "q": "What is Bashal'Aran?",
@@ -63,17 +63,17 @@
     "what happened to bashal'aran",
     "history of bashal'aran"
    ],
-   "answer": "Bashal'Aran is an ancient kaldorei ruin nestled in the forests of Darkshore. Sacked during the ancient Sundering, it has become infested with magical parasites, grells, and satyrs seeking to feast on its dormant ley powers."
+   "answer": "Bashal'Aran is an ancient kaldorei ruin in the forests of Darkshore, sacked during the ancient Sundering. Grells and satyrs now infest it, drawn by its dormant ley powers."
   }
  ],
  "angles": [
   {
    "target": "race:NightElf",
-   "text": "Bashal'Aran is a somber reminder of what was lost during the Sundering, where your ancient kin's lingering shades still hold lonely vigils against encroaching demonic corruption."
+   "text": "As a night elf, Bashal'Aran recalls what your ancient kin lost in the Sundering. Their lingering shades keep lonely vigils as demonic corruption presses in."
   },
   {
    "target": "faction:Alliance",
-   "text": "Auberdine's scouts rely on Alliance wanderers to push into Darkshore's contested ruins and neutralize demonic threats before they reach the coast."
+   "text": "As an Alliance wanderer, you help Auberdine's scouts push into Darkshore's contested ruins and keep demonic threats from reaching the coast."
   }
  ],
  "keywords": [
@@ -94,5 +94,6 @@
  ],
  "attribution": [
   "Bashal'Aran (quest)"
- ]
+ ],
+ "style": 1
 }

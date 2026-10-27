@@ -10,11 +10,11 @@
    "quest:923"
   ]
  },
- "summary": "A mossy tumor is a foul, poisonous growth carved from the bark and flesh of corrupted timberlings on Teldrassil. Found primarily around Wellspring Lake, these growths serve as outward signs of an unnerving malevolence spreading through the newly grown World Tree.",
+ "summary": "Around Wellspring Lake, mossy tumors mark Teldrassil's spreading corruption. Carved from the bark and flesh of corrupted timberlings, these poisonous growths show the malevolence taking hold in the young World Tree.",
  "sections": [
   {
    "title": "A Symptom of Teldrassil's Malaise",
-   "body": "The timberlings of Teldrassil were created to nurture and tend the boughs of the great tree, but many have turned hostile and diseased. These mossy tumors are physical manifestations of this inner sickness. Heavily laden with toxins, the growths sprout across the bodies of Mire Beasts, Tramplers, and Elder Timberlings that prowl Wellspring Lake. Rellian Greenspyre and the keepers in Darnassus have tasked travelers with severing the tumors so they may be thoroughly burned, preventing their poison from taking deeper root in the island's soil.",
+   "body": "Teldrassil's timberlings were made to nurture and tend the great tree's boughs, but many have grown hostile and diseased. Mossy tumors are signs of that sickness made flesh. Thick with toxins, they spread across the Mire Beasts, Tramplers, and Elder Timberlings around Wellspring Lake. Rellian Greenspyre and the keepers in Darnassus send travelers to cut away the tumors and burn them thoroughly, so their poison cannot take deeper root in the island's soil.",
    "spoiler": 0
   }
  ],
@@ -26,7 +26,7 @@
     "what is this tumor",
     "timberling tumor"
    ],
-   "answer": "It is a diseased growth harvested from the bodies of tainted timberlings. Filled with foul poison, the tumors demonstrate that the nature spirits of Teldrassil are suffering from an unnatural corruption."
+   "answer": "A Mossy Tumor is a diseased growth taken from a tainted timberling. Its foul poison shows that Teldrassil's nature spirits suffer from an unnatural corruption."
   },
   {
    "q": "Where do you find Mossy Tumors?",
@@ -35,7 +35,7 @@
     "mossy tumor drop",
     "timberling location"
    ],
-   "answer": "They are gathered from corrupted timberlings\u2014such as Timberling Tramplers, Mire Beasts, and Elder Timberlings\u2014wandering around Wellspring Lake in northern Teldrassil."
+   "answer": "You find Mossy Tumors on corrupted timberlings around Wellspring Lake in northern Teldrassil, including Timberling Tramplers, Mire Beasts, and Elder Timberlings."
   },
   {
    "q": "Why does Rellian Greenspyre want these tumors?",
@@ -43,7 +43,7 @@
     "rellian greenspyre tumors",
     "why burn tumors"
    ],
-   "answer": "Rellian seeks to contain the corruption afflicting Teldrassil. By collecting the tumors and burning them to ash, he ensures the concentrated poison within cannot leech back into the soil and water."
+   "answer": "Rellian Greenspyre wants the tumors to contain the corruption afflicting Teldrassil. He has them gathered and burned to ash so their concentrated poison cannot leach back into the soil and water."
   },
   {
    "q": "Why are the timberlings becoming diseased?",
@@ -51,17 +51,17 @@
     "why are timberlings sick",
     "timberling corruption"
    ],
-   "answer": "A dark malevolence has begun taking hold across Teldrassil, warping its caretakers and wild creatures. While the night elves are actively investigating the true source of the sickness, those timberlings bearing visible tumors are considered beyond saving."
+   "answer": "A malevolence is taking hold across Teldrassil, warping its caretakers and wild creatures. The night elves are investigating the sickness's true source, while timberlings with visible tumors are considered beyond saving."
   }
  ],
  "angles": [
   {
    "target": "class:Druid",
-   "text": "For druids dedicated to the balance of nature, seeing plant guardians like timberlings sprouted with toxic tumors is a distressing sign that something is profoundly amiss with Teldrassil."
+   "text": "As a druid devoted to nature's balance, you may find toxic tumors on plant guardians like timberlings a distressing sign that something is profoundly wrong with Teldrassil."
   },
   {
    "target": "race:NightElf",
-   "text": "The night elves planted Teldrassil to restore their lost connection to nature, making the swift emergence of diseased growths on their new home a troubling omen."
+   "text": "As a night elf, you know your people planted Teldrassil to restore their lost connection to nature. Diseased growths appearing so quickly on your new home are a troubling omen."
   }
  ],
  "keywords": [
@@ -83,5 +83,6 @@
  "attribution": [
   "Mossy Tumor",
   "Tumors"
- ]
+ ],
+ "style": 1
 }

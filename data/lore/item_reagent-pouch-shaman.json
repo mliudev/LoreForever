@@ -10,16 +10,16 @@
    "quest:1525"
   ]
  },
- "summary": "A reagent pouch carried by Burning Blade cultists lurking in the crags of Durotar. Shaman seeking to communing with fire require these gathered spell components to distill their initial fire sapta.",
+ "summary": "Burning Blade cultists in Durotar carry reagents for a shaman's first fire sapta. Telf Joolam uses them with fire tar from Razormane quilboar to make the draught that lets a young shaman see the realm of fire.",
  "sections": [
   {
    "title": "Components of the Flame",
-   "body": "To forge a fire sapta and attune a young shaman to the spirits of flame, specific ritual catalysts are vital. Cultists of the Burning Blade carry small satchels stocked with reagents tailored for demonic fire conjurations. The hermit Telf Joolam uses these gathered powders and oils, combined with the fire tar of Razormane quilboar, to craft the draught needed to grant sight into the realm of fire.",
+   "body": "Burning Blade cultists carry reagents for a young shaman's first fire sapta. The hermit Telf Joolam uses the powders and oils in their pouches with fire tar from Razormane quilboar. Together, these components make a draught that grants sight into the realm of fire and attunes the shaman to the spirits of flame.",
    "spoiler": 0
   },
   {
    "title": "Tainted Sources, Pure Vision",
-   "body": "Though the Burning Blade perverts flame for destruction and fel sorcery, the physical elements within their pouches remain bound to the primal nature of heat and combustion. Shamanic philosophy maintains that all elemental forces exist in tension: fire is both creator and destroyer. By taking the cultists' stolen tools, a shaman reclaims the elemental medium to awaken genuine communion with the spirits.",
+   "body": "Burning Blade cultists turn flame toward destruction and fel sorcery, yet the elements in their pouches still belong to heat and combustion. Shaman teach that elemental forces exist in tension: fire creates as well as destroys. A shaman can take the cultists' tools and use those elements to awaken true communion with the spirits.",
    "spoiler": 0
   }
  ],
@@ -31,7 +31,7 @@
     "what does reagent pouch do",
     "reagent pouch shaman quest"
    ],
-   "answer": "It serves as an essential material for Telf Joolam to brew a fire sapta. Drinking this elixir grants a shaman the visionary sight needed to seek out the elemental spirits and claim their Fire Totem."
+   "answer": "Telf Joolam uses the reagents to brew a fire sapta. Drinking it grants a shaman visionary sight to seek the elemental spirits and claim the Fire Totem."
   },
   {
    "q": "Where do I find a reagent pouch?",
@@ -40,7 +40,7 @@
     "where to get reagent pouch",
     "burning blade pouch location"
    ],
-   "answer": "The pouch is recovered from Burning Blade cultists nestled inside Dustwind Cave, located in the rocky heights northeast of Razor Hill in Durotar."
+   "answer": "You can recover a pouch from Burning Blade cultists in Dustwind Cave, in the rocky heights northeast of Razor Hill in Durotar."
   },
   {
    "q": "Why does a shaman need warlock reagents?",
@@ -49,17 +49,17 @@
     "why burning blade reagents",
     "shaman using fel items"
    ],
-   "answer": "The Burning Blade stocks their pouches with ingredients steeped in fire magic. Because their rituals rely heavily on flame, their reagents provide ready-made elemental catalysts that can be repurposed to brew the fire sapta."
+   "answer": "Burning Blade cultists stock their pouches with ingredients tied to fire magic. Their flame rituals make the reagents useful catalysts for brewing a fire sapta."
   }
  ],
  "angles": [
   {
    "target": "class:Shaman",
-   "text": "Retrieving the pouch is a pivotal rite of passage on the path to earning your Fire Totem, teaching that even corrupted elemental mediums can be reclaimed to serve balance."
+   "text": "As a shaman, retrieving the pouch is a rite of passage toward earning your Fire Totem. It teaches that corrupted elemental forces can be reclaimed to serve balance."
   },
   {
    "target": "class:Warlock",
-   "text": "The pouches reflect the standard sorcerous supplies carried by fel cultists, holding ritual elements intended for demonic pyromancy rather than nature communion."
+   "text": "As a warlock, you recognize the pouches as sorcerous supplies for fel cultists. Their ritual elements are meant for demonic pyromancy, not communion with nature."
   }
  ],
  "keywords": [
@@ -84,5 +84,6 @@
  "attribution": [
   "Reagent Pouch (shaman)",
   "Call of Fire (3)"
- ]
+ ],
+ "style": 1
 }

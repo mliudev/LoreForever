@@ -10,11 +10,11 @@
    "quest:63"
   ]
  },
- "summary": "Corrupt Manifestation's Bracers are the physical remnants recovered from a tainted water elemental on the coast of Silverpine Forest. Taken by shaman initiates undergoing the Call of Water, they serve as a vital component in an elemental cleansing rite atop the Brazier of Everfount.",
+ "summary": "Tainted bracers lie on the coast of Silverpine Forest, remnants of a corrupted water elemental. Shaman initiates recover them during the Call of Water and cast them into the Brazier of Everfount with pure water to cleanse the shrine and summon a pure water spirit.",
  "sections": [
   {
    "title": "A Cleansing Offering",
-   "body": "When the Scourge's plague swept through Lordaeron, it did not spare the natural spirits of the land. Along the misty shores of Silverpine Forest west of the Sepulcher, a once-sacred water shrine fell victim to taint, twisting its resident water manifestation into an aggressive, corrupted shade. Shaman initiates are sent to quell the creature and retrieve its bracers. Combined with purest water upon the Brazier of Everfount, these bindings are cast into the flame to undo the defilement and summon forth an unblemished elemental spirit.",
+   "body": "The Scourge's plague reached the spirits of Lordaeron. Along Silverpine Forest's misty coast, west of the Sepulcher, a sacred water shrine fell to corruption. Its water manifestation became an aggressive shade. Shaman initiates must defeat it and recover its bracers. At the Brazier of Everfount, they cast the bindings into the flame with pure water, lifting the corruption and calling forth an unblemished water spirit.",
    "spoiler": 0
   }
  ],
@@ -26,7 +26,7 @@
     "call of water bracers",
     "corrupt bracers use"
    ],
-   "answer": "They are placed upon the Brazier of Everfount alongside drops of pure water during a cleansing ritual. This rite dispels the lingering corruption at the Silverpine shrine and draws out a pure spirit of water."
+   "answer": "The bracers are cast into the Brazier of Everfount with pure water during a cleansing rite. The rite purges corruption from the Silverpine shrine and calls forth a pure water spirit."
   },
   {
    "q": "Where do the bracers come from?",
@@ -34,7 +34,7 @@
     "where do i get bracers",
     "corrupt manifestation location"
    ],
-   "answer": "They are taken from the remains of a Corrupt Minor Manifestation of Water, located near a tainted elemental shrine along the coast of Silverpine Forest, west of the Sepulcher."
+   "answer": "The bracers come from a Corrupt Minor Manifestation of Water near a tainted elemental shrine on the Silverpine Forest coast, west of the Sepulcher."
   },
   {
    "q": "Why did the water elemental become corrupt?",
@@ -42,13 +42,13 @@
     "why is water tainted",
     "silverpine water corruption"
    ],
-   "answer": "The elemental was warped by the plague and dark powers that blighted the lands of Lordaeron, cutting the local spirits off from the communion of shaman."
+   "answer": "The plague and dark powers that blighted Lordaeron warped the elemental and severed the local spirits from communion with shamans."
   }
  ],
  "angles": [
   {
    "target": "class:Shaman",
-   "text": "Retrieving and purifying these bracers is the final crucible of the Call of Water, proving a shaman's power to soothe and restore distorted elements."
+   "text": "As a shaman, recovering and purifying these bracers is the final trial of the Call of Water. It proves your power to soothe and restore distorted elements."
   }
  ],
  "keywords": [
@@ -71,5 +71,6 @@
  "attribution": [
   "Corrupt Manifestation's Bracers",
   "Call of Water (7)"
- ]
+ ],
+ "style": 1
 }

@@ -17,16 +17,16 @@
   "wiki": "Desperate Prayer (Dolanaar)",
   "chain": []
  },
- "summary": "Desperate Prayer is an Alliance priest quest directing traveling servants of the Holy Light back to Stormwind City. Initiated by the night elf priestess Laurna Morninglight in Dolanaar, it calls human priests visiting Teldrassil home to complete vital spiritual training under High Priestess Laurena.",
+ "summary": "In Dolanaar, Laurna Morninglight sends human priests home to Stormwind for further training. A fellow priest has crossed continents to summon them to the Cathedral of Light.",
  "sections": [
   {
    "title": "A Message from Home",
-   "body": "While visiting the ancestral boughs of Teldrassil, priests faithful to the Holy Light may find themselves noticed by the local Sisterhood of Elune. In Dolanaar, Priestess Laurna Morninglight serves as an unexpected liaison, delivering word that a fellow priest traveled across continents seeking you out. Recognizing the urgency of the summons, Laurna encourages you to return to your homeland without delay, offering Elune's blessing alongside well-wishes for your own faith.",
+   "body": "In Dolanaar, Priestess Laurna Morninglight brings you word from home. A fellow priest has crossed continents to find you, and Laurna urges you to return without delay. She offers Elune’s blessing and good wishes for your faith as you leave Teldrassil.",
    "spoiler": 0
   },
   {
    "title": "The Summons to Stormwind",
-   "body": "The journey requires crossing the Great Sea to the grand Cathedral of Light situated in the heart of Stormwind City. There, High Priestess Laurena oversees the spiritual growth of the Alliance's faithful. Acolytes who have demonstrated early promise are summoned before her to master deeper mysteries of devotion, specifically the emergency invocation known as Desperate Prayer\u2014a life-saving gift granted only to dedicated disciples in their darkest hour.",
+   "body": "Your path leads across the Great Sea to Stormwind City’s Cathedral of Light. High Priestess Laurena guides the Alliance faithful in their spiritual growth. She summons promising acolytes to deepen their devotion and learn Desperate Prayer, an emergency prayer that can save a life in a darkest hour.",
    "spoiler": 0
   }
  ],
@@ -38,7 +38,7 @@
     "desperate prayer quest giver teldrassil",
     "laurna morninglight quest"
    ],
-   "answer": "Laurna Morninglight, a night elf priest trainer stationed in Dolanaar on Teldrassil, offers the quest. She passes along an urgent message left by a visiting priest from your home lands."
+   "answer": "Laurna Morninglight, a night elf priest trainer in Dolanaar, sends you word from home. A visiting priest has left an urgent message for you."
   },
   {
    "q": "Where does this quest lead?",
@@ -47,7 +47,7 @@
     "turn in desperate prayer",
     "where is laurena"
    ],
-   "answer": "The quest directs you to the Cathedral of Light within Stormwind City, where you must speak directly with High Priestess Laurena."
+   "answer": "You travel to the Cathedral of Light in Stormwind City to speak with High Priestess Laurena."
   },
   {
    "q": "Why is a night elf directing a priest to Stormwind?",
@@ -55,7 +55,7 @@
     "why does a night elf send me to stormwind",
     "night elf holy light"
    ],
-   "answer": "Night elf priests revere Elune, but foreign priests\u2014such as humans or dwarves\u2014who venture to Teldrassil still belong to the traditions of the Holy Light. Laurna Morninglight graciously respects their beliefs and relays messages sent from their homeland's religious hierarchy."
+   "answer": "Laurna Morninglight respects the faith of foreign priests who visit Teldrassil. She passes along messages from the religious leaders in their homelands, even though night elf priests revere Elune."
   },
   {
    "q": "What is the reward for completing this quest?",
@@ -63,7 +63,7 @@
     "desperate prayer reward",
     "what spell do i get"
    ],
-   "answer": "Reporting to High Priestess Laurena opens advanced spiritual mentorship and grants access to learn Desperate Prayer, an instantaneous healing prayer."
+   "answer": "You gain access to spiritual mentorship and can learn Desperate Prayer, an instantaneous healing prayer from High Priestess Laurena."
   },
   {
    "q": "Can night elf priests take this specific quest?",
@@ -71,7 +71,7 @@
     "can night elves do desperate prayer",
     "night elf priest desperate prayer"
    ],
-   "answer": "No. Night elf priests worship Elune and learn Starshards rather than Desperate Prayer. This particular summons exists specifically for human priests who find themselves exploring Kalimdor at early levels."
+   "answer": "No. Night elf priests worship Elune and learn Starshards. This summons is for human priests exploring Kalimdor at early levels."
   },
   {
    "q": "How do you travel back to Stormwind from Teldrassil?",
@@ -79,21 +79,21 @@
     "how to get to stormwind from dolanaar",
     "teldrassil to stormwind route"
    ],
-   "answer": "Head through Darnassus to Rut'theran Village, catch a boat to Auberdine in Darkshore, and take the ship from there straight across the sea to Stormwind Harbor."
+   "answer": "Travel through Darnassus to Rut'theran Village, then take a boat to Auberdine in Darkshore. From there, board the ship across the sea to Stormwind Harbor."
   }
  ],
  "angles": [
   {
    "target": "class:Priest",
-   "text": "This quest marks an important rite of passage at level 10, bringing priests back into the fold of the Cathedral of Light to learn distinctive racial blessings of faith."
+   "text": "As a priest, you return to the Cathedral of Light at level ten to learn the blessings of faith tied to your race."
   },
   {
    "target": "faction:Alliance",
-   "text": "The summons demonstrates the growing cooperation across the Alliance, as night elf priestesses readily coordinate with the church leadership in Stormwind."
+   "text": "As an Alliance member, you see night elf priestesses coordinate with the church leadership in Stormwind."
   },
   {
    "target": "race:NightElf",
-   "text": "Although night elves revere the Moon Goddess Elune, Priestess Laurna Morninglight shows polite respect for foreign devotees of the Holy Light walking under the boughs of Teldrassil."
+   "text": "As a night elf, you revere Elune, and Priestess Laurna Morninglight still respects foreign followers of the Holy Light beneath Teldrassil’s boughs."
   }
  ],
  "keywords": [
@@ -117,5 +117,6 @@
  ],
  "attribution": [
   "Desperate Prayer (Dolanaar)"
- ]
+ ],
+ "style": 1
 }

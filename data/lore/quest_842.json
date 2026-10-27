@@ -20,16 +20,16 @@
    "Crossroads Conscription"
   ]
  },
- "summary": "Crossroads Conscription directs newly enlisted Horde recruits from the border outpost into the heart of the Barrens. Carrying a signed letter from Kargal Battlescar, adventurers report directly to Sergra Darkthorn at the vital strategic hub known as the Crossroads.",
+ "summary": "Recruits leave the Far Watch Post for duty at Crossroads Conscription. Carrying Kargal Battlescar’s signed letter, you report to Sergra Darkthorn at the Barrens’ central hub.",
  "sections": [
   {
    "title": "Reporting for Duty",
-   "body": "After proving their worth to Kargal Battlescar at the Far Watch Post on the border of Durotar, recruits are handed a signed recruitment letter and sent west. The journey follows the packed dirt road through the arid brush of the Barrens until reaching the central junction. At this sun-baked intersection sits the Crossroads, the Horde's vital logistical hub linking northern Kalimdor to the southern wilderness.",
+   "body": "Kargal Battlescar sends you west from the Far Watch Post after you prove your worth. He gives you a signed recruitment letter to carry along the packed dirt road through the Barrens’ arid brush. The road reaches a central junction, where the Crossroads links northern Kalimdor with the southern wilderness.",
    "spoiler": 0
   },
   {
    "title": "The Shaman of the Crossroads",
-   "body": "Awaiting new arrivals is Sergra Darkthorn, a sharp-tongued orc shaman handpicked by Warchief Thrall to oversee operations at the Crossroads. Despite grumbling from seasoned veterans like Kargal Battlescar\u2014who considers her difficult and overly talkative\u2014Thrall holds Sergra in high esteem. Fierce and unyielding, she is quick to remind recruits, particularly arrogant men, that under Thrall's Horde, female warriors and leaders stand on completely equal ground and will tolerate no insolence.",
+   "body": "Sergra Darkthorn receives new arrivals at the Crossroads. Warchief Thrall chose the sharp-tongued orc shaman to oversee its operations. Kargal Battlescar grumbles that she is difficult and talks too much, but Thrall holds her in high esteem. Sergra is fierce and unyielding. She reminds recruits, especially arrogant men, that female warriors and leaders stand as equals in Thrall’s Horde, and she will tolerate no insolence.",
    "spoiler": 0
   }
  ],
@@ -41,7 +41,7 @@
     "quest giver crossroads conscription",
     "kargal quest"
    ],
-   "answer": "Kargal Battlescar, an orc veteran stationed at the Far Watch Post just west of the bridge dividing Durotar and the Barrens, sends you on this assignment."
+   "answer": "Kargal Battlescar, an orc veteran at the Far Watch Post just west of the bridge between Durotar and the Barrens, sends you west with a letter for Sergra."
   },
   {
    "q": "Where is Sergra Darkthorn located?",
@@ -50,7 +50,7 @@
     "where is sergra",
     "find sergra darkthorn"
    ],
-   "answer": "Sergra Darkthorn is stationed directly in the center of the Crossroads, standing near the road crossing where caravans and messengers meet."
+   "answer": "Sergra Darkthorn is near the road crossing at the center of the Crossroads, where caravans and messengers meet."
   },
   {
    "q": "Why does Kargal complain about Sergra?",
@@ -59,7 +59,7 @@
     "kargal vs sergra",
     "curse her hide"
    ],
-   "answer": "Kargal finds Sergra aggravating, calling her a nasty shaman who talks in circles before letting anyone do practical work. Despite his personal annoyance, he respects Warchief Thrall's command to send recruits to her."
+   "answer": "Kargal finds Sergra aggravating. He calls her a nasty shaman who talks in circles before anyone can get to practical work, though he respects Thrall’s command to send recruits to her."
   },
   {
    "q": "Why does Sergra speak differently to male and female characters?",
@@ -68,7 +68,7 @@
     "sergra darkthorn dialogue",
     "sergra equal footing"
    ],
-   "answer": "Sergra Darkthorn takes great pride in Thrall's mandate establishing total equality for female warriors within the new Horde. She warmly encourages female recruits for stepping up, while warning male recruits that she will not tolerate disrespect or insolence."
+   "answer": "Sergra takes pride in Thrall’s mandate of equality for female warriors in the Horde. She encourages female recruits and warns male recruits that she will not tolerate disrespect or insolence."
   },
   {
    "q": "What route should I take to reach the Crossroads?",
@@ -77,7 +77,7 @@
     "directions to crossroads",
     "crossroads path"
    ],
-   "answer": "Follow the main road west from the Far Watch Post until you hit a T-intersection, then turn left and follow the southern road straight into the settlement of the Crossroads."
+   "answer": "Follow the main road west from the Far Watch Post to a T-intersection. Turn left and follow the southern road into the Crossroads."
   },
   {
    "q": "What happens after reporting to Sergra Darkthorn?",
@@ -86,21 +86,21 @@
     "next quest sergra",
     "barrens recruits next"
    ],
-   "answer": "Once accepted by Sergra, she enlists your services to aid the Crossroads directly, sending you to assist with local threats, hunting, and outpost security throughout the central Barrens."
+   "answer": "Sergra accepts your help at the Crossroads and sends you to aid with local threats, hunting, and outpost security throughout the central Barrens."
   }
  ],
  "angles": [
   {
    "target": "faction:Horde",
-   "text": "This assignment marks the standard rite of passage for young Horde fighters transitioning from the safety of their starting homelands into the contested wilderness of the Barrens."
+   "text": "As a member of the Horde, you leave the safety of your homeland to serve in the contested wilderness of the Barrens."
   },
   {
    "target": "race:Orc",
-   "text": "The exchange between Kargal and Sergra highlights the evolving social dynamics of Thrall's reformed Horde, where merit and spiritual insight challenge the old clan ways of traditional grunt work."
+   "text": "As an orc, you can see how Thrall’s Horde is changing, as merit and spiritual insight challenge the old clan ways of traditional grunt work."
   },
   {
    "target": "class:Shaman",
-   "text": "Sergra Darkthorn demonstrates that shamans in Thrall's Horde serve not merely as mystical advisers, but as direct military commanders and administrators of key strategic outposts."
+   "text": "As a shaman, you see Sergra Darkthorn lead as both a spiritual adviser and a military commander and administrator at a strategic outpost."
   }
  ],
  "keywords": [
@@ -126,5 +126,6 @@
  ],
  "attribution": [
   "Crossroads Conscription"
- ]
+ ],
+ "style": 1
 }

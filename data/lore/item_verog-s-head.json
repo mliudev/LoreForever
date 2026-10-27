@@ -10,11 +10,11 @@
    "quest:851"
   ]
  },
- "summary": "Verog's Head is the grisly trophy claimed from Verog the Dervish, a prominent Kolkar centaur leader who oversees forces around the Stagnant Oasis. It is sought by the orc Regthar Deathgate as proof of the chieftain's demise and to demoralize the aggressive Kolkar tribes threatening the Barrens.",
+ "summary": "Regthar Deathgate seeks Verog's Head as proof of the Kolkar leader's death. The chieftain commands forces around the Stagnant Oasis, and his defeat is meant to weaken the tribes threatening the Barrens.",
  "sections": [
   {
    "title": "A Trophy of the Oasis",
-   "body": "The Kolkar centaur pose a relentless threat to Horde travelers and supply routes across the northern Barrens. Verog the Dervish, known for his nomadic habits, leaves his command tent at the Stagnant Oasis vulnerable while roaming the arid scrubland. To bring him out into the open, Horde operatives attack his forces around his pavilion until an alarm is raised. Once Verog rushes back to defend his camp, he is slain and decapitated. Delivering his severed head to Regthar Deathgate serves as vital evidence that another dangerous Kolkar chieftain has been dismantled, joining the head of Barak Kodobane on display.",
+   "body": "The Kolkar centaur threaten Horde travelers and supply routes across the northern Barrens. Verog the Dervish roams the arid scrubland, leaving his command tent at the Stagnant Oasis vulnerable. Horde operatives attack his forces around the pavilion until an alarm sounds. Verog rushes back to defend his camp, where he is slain and decapitated. Regthar Deathgate receives his head as proof that another dangerous Kolkar chieftain has fallen. Barak Kodobane's head is already on display beside it.",
    "spoiler": 0
   }
  ],
@@ -26,7 +26,7 @@
     "verog lore",
     "verog the dervish"
    ],
-   "answer": "Verog the Dervish was a mobile warlord of the Kolkar centaur based at the Stagnant Oasis in the Barrens. Known for roaming widely across the arid plains, he directed the hostile centaur forces garrisoned around the oasis command tent."
+   "answer": "Verog the Dervish was a Kolkar centaur warlord based at the Stagnant Oasis in the Barrens. He roamed the arid plains and commanded the hostile forces around the oasis tent."
   },
   {
    "q": "Who wants Verog's head?",
@@ -35,7 +35,7 @@
     "regthar deathgate verog",
     "turn in verog head"
    ],
-   "answer": "The head is claimed by Regthar Deathgate, an orc veteran stationed at an encampment west of the Crossroads. Regthar collects trophies of slain Kolkar warlords to break the strength and morale of their warbands."
+   "answer": "Regthar Deathgate, an orc veteran at an encampment west of the Crossroads, wants Verog's head. He collects trophies from slain Kolkar warlords to weaken their warbands and morale."
   },
   {
    "q": "Where is Verog found?",
@@ -44,7 +44,7 @@
     "verog location",
     "stagnant oasis tent"
    ],
-   "answer": "Verog's encampment and command tent are located at the Stagnant Oasis, southeast of the Crossroads. Rather than waiting idly at his pavilion, he must be lured into returning by slaying the centaur guarding his post until an alarm summons him."
+   "answer": "Verog's encampment and command tent are at the Stagnant Oasis, southeast of the Crossroads. He returns to defend his post when centaur guards are slain and an alarm is raised."
   },
   {
    "q": "What happens to the head after it is turned in?",
@@ -52,17 +52,17 @@
     "what does regthar do with the head",
     "centaur heads display"
    ],
-   "answer": "Regthar Deathgate places Verog's head alongside that of Barak Kodobane, mounting the grim remains as trophies to mark the Horde's systematic campaign against the Kolkar leaders."
+   "answer": "Regthar Deathgate places Verog's head beside Barak Kodobane's. The heads mark the Horde's campaign against Kolkar leaders."
   }
  ],
  "angles": [
   {
    "target": "faction:Horde",
-   "text": "Eliminating Verog and claiming his head secures Horde routes between the Crossroads and the southern reaches of the Barrens against aggressive centaur raids."
+   "text": "Defeating Verog and taking his head helps secure Horde routes between the Crossroads and the southern Barrens against centaur raids."
   },
   {
    "target": "race:Tauren",
-   "text": "The defeat of Kolkar chieftains carries deep personal resonance for the tauren, whose people endured generations of brutal warfare against the centaur tribes of Kalimdor."
+   "text": "As a tauren, you know the weight of the Kolkar defeat: your people have endured generations of brutal warfare against the centaur tribes of Kalimdor."
   }
  ],
  "keywords": [
@@ -87,5 +87,6 @@
  "attribution": [
   "Verog's Head",
   "Verog the Dervish (Classic)"
- ]
+ ],
+ "style": 1
 }

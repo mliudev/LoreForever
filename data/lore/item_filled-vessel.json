@@ -10,11 +10,11 @@
    "quest:935"
   ]
  },
- "summary": "The Filled Vessel contains purified waters drawn from the various sacred moonwells across Teldrassil. Entrusted to couriers by Corithras Moonrage in Dolanaar, it is delivered to Arch Druid Fandral Staghelm in Darnassus to aid his study of the World Tree's ailments.",
+ "summary": "At Dolanaar, Corithras Moonrage gathers sacred waters for Fandral Staghelm in Darnassus. The Filled Vessel carries samples from Teldrassil’s moonwells to aid his study of the World Tree’s ailments.",
  "sections": [
   {
    "title": "A Confluence of Sacred Waters",
-   "body": "Teldrassil was planted without the blessings of the Great Aspects, Alexstrasza and Nozdormu, leaving its immense boughs vulnerable to unexpected corruption, strange beasts, and crazed furbolg tribes. In an attempt to monitor and cleanse the burgeoning boughs, night elf acolytes are dispatched to gather water samples from moonwells situated across the boughs. Corithras Moonrage consolidates these gathered phials into a single Filled Vessel, sending it onward to the capital. The mixture serves as a vital sample of Teldrassil's vitality for Arch Druid Fandral Staghelm, who works tirelessly in the Cenarion Enclave to uncover a remedy for the Great Tree's pervasive flaws.",
+   "body": "Night elf acolytes gather water from moonwells across Teldrassil. The tree was planted without the blessings of the Great Aspects, Alexstrasza and Nozdormu, leaving its boughs open to corruption, strange beasts, and crazed furbolg tribes. Corithras Moonrage gathers the phials in Dolanaar and pours them into the Filled Vessel for the journey to the capital. Together, the waters offer a vital sample of Teldrassil’s vitality. Arch Druid Fandral Staghelm studies them in the Cenarion Enclave, seeking a remedy for the Great Tree’s flaws.",
    "spoiler": 0
   }
  ],
@@ -26,7 +26,7 @@
     "what water is this",
     "what is in the vessel"
    ],
-   "answer": "The vessel contains water collected from several moonwells scattered across Teldrassil, consolidated into a single container by Corithras Moonrage in Dolanaar."
+   "answer": "The Filled Vessel holds water gathered from several moonwells across Teldrassil. Corithras Moonrage combines the phials in Dolanaar."
   },
   {
    "q": "Who needs the Filled Vessel?",
@@ -35,7 +35,7 @@
     "where does the vessel go",
     "filled vessel hand in"
    ],
-   "answer": "The Filled Vessel is brought to Arch Druid Fandral Staghelm, who resides at the top of the Cenarion Enclave in Darnassus."
+   "answer": "Arch Druid Fandral Staghelm needs the Filled Vessel. He resides atop the Cenarion Enclave in Darnassus."
   },
   {
    "q": "Why does Fandral Staghelm need these water samples?",
@@ -44,7 +44,7 @@
     "staghelm moonwell water purpose",
     "why collect moonwell water"
    ],
-   "answer": "Teldrassil lacks the traditional dragon aspects' blessings, causing strange corruptions, aggressive wildlife, and mad furbolgs to plague its branches. Staghelm studies these mingled waters to diagnose the tree's flaws and seek a remedy for its afflictions."
+   "answer": "Teldrassil’s afflictions stem from its lack of the Great Aspects’ blessings. Strange corruption, aggressive wildlife, and mad furbolgs plague its branches, and Staghelm studies the mingled waters to understand the tree’s flaws and seek a remedy."
   },
   {
    "q": "Who prepared the vessel?",
@@ -53,17 +53,17 @@
     "who gives the filled vessel",
     "corithras filled vessel"
    ],
-   "answer": "Corithras Moonrage, a night elf stationed in Dolanaar, pours the phials gathered by young adventurers into the vessel before dispatching them to Darnassus."
+   "answer": "Corithras Moonrage prepares the vessel in Dolanaar, pouring in the phials gathered by young adventurers before sending it to Darnassus."
   }
  ],
  "angles": [
   {
    "target": "class:Druid",
-   "text": "For Cenarion initiates, delivering this vessel marks their first official errand to Arch Druid Fandral Staghelm, showing firsthand the ecological fragility facing Teldrassil."
+   "text": "As a druid serving the Cenarion cause, delivering this vessel is your first official errand to Arch Druid Fandral Staghelm. It shows you how fragile Teldrassil’s living world remains."
   },
   {
    "target": "race:NightElf",
-   "text": "The moonwell waters inside represent the sacred lifelines of the kaldorei's new home, mingling the magic of Elune with the uncertain growth of the unblessed World Tree."
+   "text": "As a night elf, you know the moonwell waters as sacred lifelines of your people’s new home. They mingle Elune’s magic with the uncertain growth of the unblessed World Tree."
   }
  ],
  "keywords": [
@@ -89,5 +89,6 @@
  "attribution": [
   "Filled Vessel",
   "Crown of the Earth (6)"
- ]
+ ],
+ "style": 1
 }

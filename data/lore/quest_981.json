@@ -17,16 +17,16 @@
   "wiki": "The Tower of Althalaxx (9)",
   "chain": []
  },
- "summary": "This errand marks the triumphant conclusion of the campaign against the Cult of the Dark Strand at the Tower of Althalaxx. Having eliminated the cult's leadership within the sinister ruins of Darkshore, an adventurer carries word south into Ashenvale to Delgren the Purifier. It represents a vital victory for the Alliance in purging demonic corruption from the ancient night elven borders.",
+ "summary": "At the Tower of Althalaxx, the Cult of the Dark Strand's hold has been broken. Word of the victory travels south to Delgren the Purifier in Ashenvale, closing the campaign against the cult in Darkshore.",
  "sections": [
   {
    "title": "A Threat Severed",
-   "body": "The Tower of Althalaxx stood for weeks as a festering wound in northern Darkshore, occupied by the fanatical Cult of the Dark Strand and their shadowy masters. Through relentless tracking, intelligence gathering, and violent skirmishes, the cult's operations were systematically dismantled. With their sorcerers slain and their dark rituals broken, the immediate danger of demonic infiltration in Darkshore has finally been stayed.",
+   "body": "For weeks, the Tower of Althalaxx was a festering wound in northern Darkshore, held by the fanatical Cult of the Dark Strand and its shadowy masters. Tracking, gathered intelligence, and violent skirmishes dismantled the cult's operations. Its sorcerers are slain and its dark rituals broken, ending the immediate danger of demonic infiltration in Darkshore.",
    "spoiler": 0
   },
   {
    "title": "Report to Maestra's Post",
-   "body": "Following the cult leader's death, Balthule Shadowstrike directs the victor south to Maestra's Post in the Ashenvale canopy. There waits Delgren the Purifier, a devoted warrior of the Holy Light who oversaw the crusade against Althalaxx's wicked occupants. Delivering news of the cult's collapse brings peace of mind to the regional defenders, earning the champion Delgren's lasting blessing and well-earned gratitude.",
+   "body": "After the cult leader's death, Balthule Shadowstrike sends you south to Maestra's Post, beneath the Ashenvale canopy. Delgren the Purifier waits there, a devoted warrior of the Holy Light who oversaw the fight against Althalaxx's wicked occupants. Your report of the cult's collapse brings peace of mind to the regional defenders, and Delgren gives you his lasting blessing and gratitude.",
    "spoiler": 0
   }
  ],
@@ -38,7 +38,7 @@
     "turn in tower of althalaxx",
     "where to turn in quest 981"
    ],
-   "answer": "This quest serves as the final turn-in for the long Tower of Althalaxx storyline. You simply need to journey from the tower's vicinity down to Maestra's Post in Ashenvale and report your decisive victory to Delgren the Purifier."
+   "answer": "You travel from the Tower of Althalaxx's vicinity to Maestra's Post in Ashenvale and report your victory to Delgren the Purifier. This is the final report in the long campaign against the tower's cult."
   },
   {
    "q": "Who is Delgren the Purifier?",
@@ -47,7 +47,7 @@
     "delgren lore",
     "delgren the purifier"
    ],
-   "answer": "Delgren the Purifier is an Alliance champion stationed at Maestra's Post in northern Ashenvale. Wielding the Holy Light, he is dedicated to purging corruption and combating demonic threats like the Cult of the Dark Strand across northern Kalimdor."
+   "answer": "Delgren the Purifier is an Alliance champion stationed at Maestra's Post in northern Ashenvale. He wields the Holy Light and is devoted to purging corruption and fighting demonic threats such as the Cult of the Dark Strand across northern Kalimdor."
   },
   {
    "q": "Who is Balthule Shadowstrike?",
@@ -56,7 +56,7 @@
     "balthule lore",
     "who is balthule shadowstrike"
    ],
-   "answer": "Balthule Shadowstrike is an Alliance operative positioned near the Tower of Althalaxx in Darkshore. Working closely with Delgren, he monitors the cult's movements and guides adventurers through dismantling the dark cabal from within."
+   "answer": "Balthule Shadowstrike is an Alliance operative near the Tower of Althalaxx in Darkshore. He works with Delgren, watches the cult's movements, and guides adventurers as they dismantle the cabal from within."
   },
   {
    "q": "What was the Cult of the Dark Strand doing at the tower?",
@@ -65,7 +65,7 @@
     "what happened at althalaxx",
     "tower of althalaxx lore"
    ],
-   "answer": "The Cult of the Dark Strand occupied the ancient ruins of the Tower of Althalaxx to perform dark rituals, summon demonic entities, and expand their sinister influence across the coastal lands of Darkshore."
+   "answer": "The Cult of the Dark Strand occupied the ancient ruins of the Tower of Althalaxx to perform dark rituals, summon demonic entities, and spread its influence across Darkshore's coastal lands."
   },
   {
    "q": "Where is Maestra's Post located?",
@@ -74,7 +74,7 @@
     "where is maestras post",
     "delgren location"
    ],
-   "answer": "Maestra's Post is an Alliance outpost situated in northwestern Ashenvale, just south of the border crossing from Darkshore along the main road."
+   "answer": "Maestra's Post is an Alliance outpost in northwestern Ashenvale, just south of the Darkshore border crossing along the main road."
   },
   {
    "q": "Is the Cult of the Dark Strand completely destroyed?",
@@ -83,21 +83,21 @@
     "dark strand destroyed",
     "did we kill the cult"
    ],
-   "answer": "While their leadership at the Tower of Althalaxx has been executed and their primary ritual broken, scattered cultists and remnants still haunt isolated corners of Kalimdor. However, their organized threat in Darkshore has been shattered."
+   "answer": "The cult's leadership at the Tower of Althalaxx has been executed and its primary ritual broken, but scattered cultists and remnants still haunt isolated corners of Kalimdor. Its organized threat in Darkshore has been shattered."
   }
  ],
  "angles": [
   {
    "target": "class:Paladin",
-   "text": "Reporting to Delgren the Purifier carries special resonance for paladins, who share his holy mission to cleanse demonic corruption and wicked cults from the world."
+   "text": "Reporting to Delgren the Purifier carries special meaning for you as a paladin, since you share his holy mission to cleanse the world of demonic corruption and wicked cults."
   },
   {
    "target": "faction:Alliance",
-   "text": "Eliminating the cult protects the overland road connecting Darkshore and Ashenvale, ensuring Alliance scouts and travelers remain safe from demonic ambushes."
+   "text": "The cult's defeat protects the overland road connecting Darkshore and Ashenvale, keeping Alliance scouts and travelers safe from demonic ambushes."
   },
   {
    "target": "race:NightElf",
-   "text": "For night elves, cleansing the Tower of Althalaxx removes a foul blight from the ancient Highborne ruins that litter their sacred coastal forests."
+   "text": "As a night elf, you see the cleansing of the Tower of Althalaxx remove a foul blight from the ancient Highborne ruins scattered through your sacred coastal forests."
   }
  ],
  "keywords": [
@@ -118,5 +118,6 @@
  ],
  "attribution": [
   "The Tower of Althalaxx (9)"
- ]
+ ],
+ "style": 1
 }

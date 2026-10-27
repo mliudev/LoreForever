@@ -1,0 +1,88 @@
+{
+ "key": "quest:8373",
+ "type": "quest",
+ "name": "The Power of Pine",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   8373
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "Sergeant Hartman asks you to clear Forsaken stink bombs from Southshore during Hallow\u2019s End. A pine-scented cleaner is meant to keep the village clean.",
+ "sections": [
+  {
+   "title": "Southshore\u2019s Stink",
+   "body": "The Forsaken use stink bombs on Southshore during Hallow\u2019s End, turning the celebration of liberation into a foul mess. Sergeant Hartman asks you to remove any that have landed in the village with a Stink Bomb Cleaner.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who asks me to clean up the stink bombs?",
+   "aliases": [
+    "who gave me this",
+    "sergeant hartman"
+   ],
+   "answer": "Sergeant Hartman in Southshore asks you to clear the Forsaken stink bombs."
+  },
+  {
+   "q": "Where are the stink bombs?",
+   "aliases": [
+    "stink bombs location",
+    "where clean"
+   ],
+   "answer": "The stink bombs are in Southshore."
+  },
+  {
+   "q": "Who uses stink bombs on Southshore?",
+   "aliases": [
+    "who stink bombs",
+    "forsaken bombs"
+   ],
+   "answer": "The Forsaken use stink bombs on Southshore during Hallow\u2019s End."
+  },
+  {
+   "q": "What does the cleaner do?",
+   "aliases": [
+    "pine cleaner",
+    "stink bomb cleaner"
+   ],
+   "answer": "The Stink Bomb Cleaner uses the power of pine to fight foul smells."
+  },
+  {
+   "q": "Why is Southshore being cleaned?",
+   "aliases": [
+    "why clean southshore",
+    "hallow's end stink"
+   ],
+   "answer": "The Forsaken stink bombs make a smelly mess during Southshore\u2019s Hallow\u2019s End celebration."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Alliance",
+   "text": "As an Alliance traveler, you can help Sergeant Hartman keep Southshore clean of Forsaken stink bombs."
+  }
+ ],
+ "keywords": [
+  "forsaken",
+  "hallow's end",
+  "pine cleaner",
+  "sergeant hartman",
+  "southshore",
+  "stink bomb cleaner",
+  "stink bombs"
+ ],
+ "related": [
+  "subzone:southshore",
+  "topic:forsaken",
+  "topic:horde"
+ ],
+ "style": 1,
+ "attribution": [
+  "In-game quest text: The Power of Pine"
+ ]
+}

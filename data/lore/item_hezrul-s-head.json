@@ -10,11 +10,11 @@
    "quest:852"
   ]
  },
- "summary": "Hezrul's Head is the grisly trophy taken from Hezrul Bloodmark, chieftain of the Kolkar centaur dwelling in the Barrens. Brought to Regthar Deathgate west of the Crossroads, it serves as undeniable proof that the central leadership of the local marauders has fallen.",
+ "summary": "At Lushwater Oasis, Hezrul Bloodmark leads the Kolkar centaur in the Barrens. His head is carried to Regthar Deathgate west of the Crossroads as proof their chieftain has fallen.",
  "sections": [
   {
    "title": "Decapitating the Kolkar",
-   "body": "The Kolkar centaur maintain an aggressive hold on the crucial oases throughout the arid Barrens, constantly threatening Horde supply routes and fledgling settlements. Hezrul Bloodmark directs his clan from the Lushwater Oasis to the south. Regthar Deathgate, an orc veteran tasked with securing the territory west of the Crossroads, recognizes that while the Kolkar possess fierce rage, they lack formal discipline. By demanding Hezrul's severed head, Regthar seeks to fracture the clan's command structure, plunging their surviving fighters into disarray and blunting their coordinated assaults against the Horde.",
+   "body": "Hezrul Bloodmark leads his Kolkar centaur clan from Lushwater Oasis, south of the Crossroads. The Kolkar hold the Barrens' oases and threaten Horde supply routes and young settlements. Regthar Deathgate, an orc veteran charged with securing the land west of the Crossroads, sees their fierce rage but little discipline. He demands Hezrul's severed head to break the clan's command and throw its surviving fighters into disarray, weakening their attacks on the Horde.",
    "spoiler": 0
   }
  ],
@@ -26,7 +26,7 @@
     "hezrul identity",
     "whose head is this"
    ],
-   "answer": "The head belongs to Hezrul Bloodmark, the brutal and cunning leader of the Kolkar centaur clan infesting the central Barrens."
+   "answer": "The head belongs to Hezrul Bloodmark, the leader of the Kolkar centaur clan in the central Barrens."
   },
   {
    "q": "Where is Hezrul Bloodmark found?",
@@ -35,7 +35,7 @@
     "where is hezrul",
     "find hezrul"
    ],
-   "answer": "Hezrul commands his band around the Lushwater Oasis, situated south of the Crossroads in the Barrens."
+   "answer": "Hezrul leads his band around Lushwater Oasis, south of the Crossroads in the Barrens."
   },
   {
    "q": "Who wants Hezrul's Head?",
@@ -44,7 +44,7 @@
     "who takes hezrul head",
     "regthar deathgate"
    ],
-   "answer": "Regthar Deathgate, an orc stationed at a military outpost along the road west of the Crossroads, asks for the head as proof of the chieftain's defeat."
+   "answer": "Regthar Deathgate, an orc at a military outpost on the road west of the Crossroads, wants the head as proof Hezrul has been defeated."
   },
   {
    "q": "Why does the Horde require his head instead of just driving him away?",
@@ -53,17 +53,17 @@
     "why take his head",
     "centaur threat"
    ],
-   "answer": "The Horde needs absolute certainty that Hezrul is dead. The centaur are naturally volatile and prone to infighting; eliminating their supreme chieftain shatters their command structure and diminishes their overall threat to the Crossroads."
+   "answer": "The Horde needs certainty that Hezrul is dead. The centaur are volatile and prone to infighting, and removing their chieftain breaks their command and weakens their threat to the Crossroads."
   }
  ],
  "angles": [
   {
    "target": "faction:Horde",
-   "text": "Claiming the head of the Kolkar chieftain secures vital water rights at the Lushwater Oasis and protects Horde travelers traversing the arid Barrens."
+   "text": "As a member of the Horde, claiming the Kolkar chieftain's head secures vital water rights at Lushwater Oasis and protects Horde travelers crossing the Barrens."
   },
   {
    "target": "race:Orc",
-   "text": "Regthar Deathgate views the Kolkar as undisciplined ruffians whose raw fury is easily overcome by orcish battle discipline, making this trophy a testament to true martial honor."
+   "text": "As an orc, you may see the Kolkar as undisciplined ruffians whose fury yields to orcish battle discipline. Regthar sees the trophy as proof of martial honor."
   }
  ],
  "keywords": [
@@ -89,5 +89,6 @@
  "attribution": [
   "Hezrul's Head",
   "Hezrul Bloodmark (Classic)"
- ]
+ ],
+ "style": 1
 }

@@ -1,0 +1,77 @@
+{
+ "key": "quest:284",
+ "type": "quest",
+ "name": "The Search Continues",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   284
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "The search for the Menethil Statuette continues among nearby Murloc hovels. This cluster holds no sign of it, so you look toward two more shelters.",
+ "sections": [
+  {
+   "title": "Empty Hovels",
+   "body": "You search this cluster of Murloc hovels, but find no trace of the Menethil Statuette. The nearby hovels to the north and northeast may hold more clues.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What am I searching for?",
+   "aliases": [
+    "statuette search",
+    "menethil statue",
+    "what statuette"
+   ],
+   "answer": "You are searching for the Menethil Statuette."
+  },
+  {
+   "q": "What do I find in these hovels?",
+   "aliases": [
+    "murloc hovels",
+    "empty hovels",
+    "anything here"
+   ],
+   "answer": "You find no trace of the Menethil Statuette in this cluster of Murloc hovels."
+  },
+  {
+   "q": "Where should I look next?",
+   "aliases": [
+    "next hovels",
+    "where look",
+    "north huts"
+   ],
+   "answer": "Two nearby hovels to the north and northeast may hold more clues."
+  },
+  {
+   "q": "What is in the barrel?",
+   "aliases": [
+    "barrel contents",
+    "cheese barrel",
+    "what's in barrel"
+   ],
+   "answer": "The barrel contains damp, pungent cheese that is still tasty."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "barrel",
+  "cheese",
+  "hovels",
+  "menethil statuette",
+  "murloc",
+  "search"
+ ],
+ "related": [
+  "item:menethil-statuette",
+  "topic:murloc"
+ ],
+ "style": 1,
+ "attribution": [
+  "In-game quest text: The Search Continues"
+ ]
+}

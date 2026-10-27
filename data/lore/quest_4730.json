@@ -17,16 +17,16 @@
   "wiki": "Beached Sea Creature (3)",
   "chain": []
  },
- "summary": "Along the windswept coast of Darkshore, the half-devoured remains of a massive sea mammal have washed ashore, guarded by opportunistic murlocs. Priestess Gwennyth Bly'Leggonde in Auberdine seeks bone samples from these stranded giants to discern why normally docile ocean beasts are violently dying upon the sands.",
+ "summary": "Along Darkshore, a great sea mammal lies half-devoured on the sand. Murlocs gather around it, and Priestess Gwennyth Bly'Leggonde in Auberdine seeks bone samples to learn why gentle sea beasts are dying on the shore.",
  "sections": [
   {
    "title": "A Gruesome Shoreline Discovery",
-   "body": "North along the lonely beaches of Darkshore lies the rotting, half-eaten carcass of a gargantuan sea mammal. Waves crash against its exposed ribs while an unusually vicious tribe of murlocs picks the scavenged bones clean. The sight is both tragic and unnerving, signaling that the ocean's balance is tipping just as severely as the blighted forests inland.",
+   "body": "Far north along Darkshore's lonely beaches, a great sea mammal lies rotting and half-eaten. Murlocs pick over its bones, more vicious than usual. These beasts were gentle in life, and their deaths trouble the coast as much as the blighted forests inland.",
    "spoiler": 0
   },
   {
    "title": "Uncharacteristic Stranding",
-   "body": "According to Priestess Gwennyth Bly'Leggonde, the creatures washing up along the strand are typically gentle marine mammals native to the waters surrounding the base of Teldrassil. Unlike aggressive threshers, these gentle beasts have never been known to drive themselves violently onto the rocks. The Temple of the Moon is actively cataloging bone samples to uncover what foul corruption or hidden threat is driving them from the deep to perish on the coast.",
+   "body": "Priestess Gwennyth Bly'Leggonde says these gentle mammals live in the waters around Teldrassil's base. Unlike aggressive threshers, they have never been known to drive themselves onto the rocks. The Temple of the Moon is gathering bone samples to learn what corruption or threat drives them from the deep.",
    "spoiler": 0
   }
  ],
@@ -38,7 +38,7 @@
     "what is the beached creature",
     "sea monster bones"
    ],
-   "answer": "The skeletal remains belong to a large, gentle sea mammal that usually inhabits the deep, tranquil waters around the base of Teldrassil. They are naturally peaceful giants and are not prone to aggressive behavior or beaching."
+   "answer": "The remains are those of a large, gentle sea mammal that usually lives in the deep waters around Teldrassil's base. These peaceful giants do not usually beach themselves."
   },
   {
    "q": "Why did the sea creature beach itself?",
@@ -47,7 +47,7 @@
     "why are sea creatures dying",
     "darkshore strandings"
    ],
-   "answer": "The exact cause is unknown, but Priestess Gwennyth Bly'Leggonde notes that such strandings are completely unnatural for this species. Night elf researchers suspect an underlying disturbance or corruption in the surrounding seas is disorienting the creatures or forcing them to flee their native habitats."
+   "answer": "No one knows why the sea creature beached itself. Priestess Gwennyth Bly'Leggonde says such strandings are unnatural for this species, and night elf researchers suspect a disturbance or corruption in the seas is disorienting them or driving them from their home waters."
   },
   {
    "q": "Who is Gwennyth Bly'Leggonde?",
@@ -56,7 +56,7 @@
     "who is gwennyth",
     "auberdine priestess"
    ],
-   "answer": "Gwennyth Bly'Leggonde is a priestess representing the Temple of the Moon stationed in Auberdine. She is coordinating the ecological investigation into Darkshore's coastline, collecting skeletal remains to study the affliction plaguing the local marine fauna."
+   "answer": "Gwennyth Bly'Leggonde is a Temple of the Moon priestess stationed in Auberdine. She is coordinating an inquiry into the coastline, gathering bones to study the affliction harming local sea life."
   },
   {
    "q": "Why are murlocs gathered around the corpse?",
@@ -65,7 +65,7 @@
     "murlocs near bones",
     "beach murlocs"
    ],
-   "answer": "The murlocs are opportunists drawn to the beached giant as an easy, abundant food source. The band surrounding this particular carcass is notably stronger and more aggressive than the murlocs dwelling closer to Auberdine."
+   "answer": "The murlocs have gathered around the corpse for an easy meal. This band is stronger and more aggressive than murlocs living closer to Auberdine."
   },
   {
    "q": "Where does this creature normally live?",
@@ -74,7 +74,7 @@
     "sea mammal habitat",
     "teldrassil sea creatures"
    ],
-   "answer": "These marine mammals make their home in the open waters encircling the giant boughs and roots of Teldrassil, rarely approaching the mainland shores under normal circumstances."
+   "answer": "These sea mammals live in the open waters around Teldrassil's great boughs and roots. In ordinary times, they rarely approach the mainland shore."
   },
   {
    "q": "How does this relate to other beachings in Darkshore?",
@@ -83,25 +83,25 @@
     "beached thresher",
     "beached sea turtle"
    ],
-   "answer": "Several marine species have washed ashore along Darkshore, including carnivorous threshers and giant sea turtles. While threshers are naturally turbulent, the beaching of peaceful mammals confirms that the maritime anomaly affects species across the entire coastal ecosystem."
+   "answer": "Several kinds of sea life have washed ashore along Darkshore, including carnivorous threshers and giant sea turtles. Threshers are naturally turbulent, but gentle mammals beaching themselves shows that the trouble affects species across the coastal ecosystem."
   }
  ],
  "angles": [
   {
    "target": "race:NightElf",
-   "text": "The strandings along Darkshore strike a painful chord for the Kaldorei, who revere natural harmony and watch with dread as the waters around their new home of Teldrassil grow troubled."
+   "text": "For the Kaldorei, these strandings wound their reverence for natural harmony. The waters around their new home of Teldrassil are growing troubled."
   },
   {
    "target": "class:Priest",
-   "text": "The Temple of the Moon funds and oversees this inquiry, seeking divine insight into the corruption unsettling Kalimdor's waters."
+   "text": "The Temple of the Moon oversees this inquiry and seeks divine insight into the corruption troubling Kalimdor's waters."
   },
   {
    "target": "class:Druid",
-   "text": "Any disruption in marine behavior is a dire omen for the Cenarion Circle, pointing toward an unnatural blight poisoning the coastal wildlife."
+   "text": "For the Cenarion Circle, any change in sea life is a dire omen of an unnatural blight poisoning coastal wildlife."
   },
   {
    "target": "faction:Alliance",
-   "text": "Securing the shores around Auberdine protects vital Alliance shipping lanes between Darkshore, Teldrassil, and the eastern kingdoms."
+   "text": "Protecting the shores around Auberdine helps secure Alliance shipping lanes between Darkshore, Teldrassil, and the eastern kingdoms."
   }
  ],
  "keywords": [
@@ -126,5 +126,6 @@
  ],
  "attribution": [
   "Beached Sea Creature (3)"
- ]
+ ],
+ "style": 1
 }

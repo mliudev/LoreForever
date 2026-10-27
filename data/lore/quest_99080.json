@@ -1,0 +1,83 @@
+{
+ "key": "quest:99080",
+ "type": "quest",
+ "name": "Vertreibt sie",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   99080
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "Baine Bloodhoof asks you to drive the Galak centaurs from the village\u2019s path. Their defeat promises the children a measure of safety.",
+ "sections": [
+  {
+   "title": "The Galak",
+   "body": "Baine asks you to kill six Galak centaurs and four Galak scouts, then bring him Herak the Plunderer\u2019s head. The village\u2019s safety is at stake.",
+   "spoiler": 0
+  },
+  {
+   "title": "A Village\u2019s Relief",
+   "body": "Baine hears the last centaur fall and the stampede cease. He calls the day a great victory for the village and says its children need the feeling of safety more than ever.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who asks me to drive off the Galak?",
+   "aliases": [
+    "who gave this",
+    "Baine task"
+   ],
+   "answer": "Baine Bloodhoof asks you to confront the Galak centaurs and scouts and bring him Herak the Plunderer\u2019s head."
+  },
+  {
+   "q": "What does Baine want from me?",
+   "aliases": [
+    "what do I do",
+    "Galak job"
+   ],
+   "answer": "Baine asks you to kill six Galak centaurs and four Galak scouts, then bring him Herak the Plunderer\u2019s head."
+  },
+  {
+   "q": "Who is Herak the Plunderer?",
+   "aliases": [
+    "Herak who",
+    "plunderer head"
+   ],
+   "answer": "Herak the Plunderer is the Galak whose head Baine asks you to bring."
+  },
+  {
+   "q": "Why does this matter to the village?",
+   "aliases": [
+    "why help village",
+    "kids safe"
+   ],
+   "answer": "Baine says victory brings the village\u2019s children a feeling of safety they need more than ever."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Tauren",
+   "text": "As a tauren, Baine calls the bloodshed a unique honor among your people."
+  }
+ ],
+ "keywords": [
+  "baine bloodhoof",
+  "centaurs",
+  "children",
+  "galak",
+  "herak the plunderer",
+  "scouts",
+  "village"
+ ],
+ "related": [
+  "npc:baine-bloodhoof"
+ ],
+ "style": 1,
+ "attribution": [
+  "In-game quest text: Vertreibt sie"
+ ]
+}

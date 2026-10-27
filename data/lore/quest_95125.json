@@ -1,0 +1,65 @@
+{
+ "key": "quest:95125",
+ "type": "quest",
+ "name": "Ott's Masterwork",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   95125
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "Ott is ready to forge a blade for you from fine materials. You are invited to watch his work.",
+ "sections": [
+  {
+   "title": "At the Forge",
+   "body": "Ott treats the materials as fine and hopes his work meets your expectations. He forges the blade for you, then offers it for your travels.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is making my blade?",
+   "aliases": [
+    "who forges it",
+    "otts blade",
+    "ott smith"
+   ],
+   "answer": "Ott is forging your blade from the fine materials you provided."
+  },
+  {
+   "q": "Can I watch Ott forge it?",
+   "aliases": [
+    "watch ott forge",
+    "see blade made",
+    "forge process"
+   ],
+   "answer": "Ott asks you to stand back while he begins forging, and the requested step is to watch him work."
+  },
+  {
+   "q": "What does Ott say when the blade is finished?",
+   "aliases": [
+    "ott completion",
+    "what does ott say",
+    "blade done"
+   ],
+   "answer": "Ott calls the blade his finest work and hopes it serves you well in your travels."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "blacksmith",
+  "blade",
+  "forging",
+  "masterwork",
+  "materials",
+  "ott"
+ ],
+ "related": [],
+ "style": 1,
+ "attribution": [
+  "In-game quest text: Ott's Masterwork"
+ ]
+}

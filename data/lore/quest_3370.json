@@ -21,16 +21,16 @@
    "In Nightmares (Alliance)"
   ]
  },
- "summary": "Following the discovery of a strange glowing shard, Falla Sagewind recognizes that the artifact contains the pure essence of the Emerald Dream tainted by dark visions. She dispatches an adventurer to Darnassus to deliver the disturbing relic directly to the elder druids of the Cenarion Circle.",
+ "summary": "Falla Sagewind sends a glowing shard to the elder druids in Darnassus. Its core holds the essence of the Emerald Dream, clouded by dark visions.",
  "sections": [
   {
    "title": "A Troubling Revelation",
-   "body": "The glowing shard recovered from the depths of Wailing Caverns proves far more dangerous than simple crystal. Upon inspecting it, Falla Sagewind identifies it as an embodiment of the Emerald Dream's purest essence. Yet rather than reflecting the verdant harmony of the natural world, the stone twists with unsettling, fearful visions. Shaken by what she sees, Falla refuses to delve deeper herself and insists the shard must be safely transferred to senior leadership within the Cenarion Circle.",
+   "body": "Falla Sagewind finds more than a simple crystal in the glowing shard recovered from the depths of Wailing Caverns. She recognizes the pure essence of the Emerald Dream within it, yet the shard shows fearful visions instead of the harmony of nature. Shaken by what she sees, Falla refuses to study it further. She sends you to carry the shard to the senior druids of the Cenarion Circle.",
    "spoiler": 0
   },
   {
    "title": "Whispers in the Cenarion Enclave",
-   "body": "In Darnassus, the relic is presented to Mathrengyl Bearwalker, an experienced druid within the Cenarion Enclave. Greeted initially with calm curiosity, Mathrengyl is visibly unsettled the moment he gazes into the shard's core. Realizing that the corruption plaguing the Barrens connects directly to disturbances deep within the Emerald Dream itself, he quickly hushes further discussion. The elder druid warns that such terrifying anomalies are not matters for common ears, quietly taking custody of the Nightmare Shard to study the encroaching shadow.",
+   "body": "Mathrengyl Bearwalker, an experienced druid in Darnassus's Cenarion Enclave, examines the shard you bring. Calm curiosity gives way to unease as he looks into its core. Mathrengyl realizes the corruption in the Barrens is connected to disturbances deep in the Emerald Dream. He quiets further discussion, warning that such terrors are not for common ears, and takes custody of the shard to study the shadow spreading through the Dream.",
    "spoiler": 1
   }
  ],
@@ -42,7 +42,7 @@
     "glowing shard lore",
     "emerald dream shard"
    ],
-   "answer": "The Nightmare Shard is a crystallized piece of the Emerald Dream's essence, originally recovered as a mysterious glowing shard. Instead of reflecting natural harmony, it emanates dark visions and corrupting power, revealing that a sinister presence has begun invading the Dream."
+   "answer": "The Nightmare Shard is a crystal holding a piece of the Emerald Dream's essence, first found as a mysterious glowing shard. It shows dark visions instead of nature's harmony, revealing that a sinister presence has entered the Dream."
   },
   {
    "q": "Who is Falla Sagewind?",
@@ -50,7 +50,7 @@
     "falla sagewind",
     "who is falla"
    ],
-   "answer": "Falla Sagewind is a tauren druid of nature's lore who inspects strange relics found across the wilds. Upon realizing the true, terrifying origin of the glowing shard, she refers travelers to higher druidic authorities in Darnassus."
+   "answer": "Falla Sagewind is a tauren druid who studies the lore of nature and examines strange relics found in the wilds. After recognizing the shard's terrifying origin, she sends travelers to the senior druids in Darnassus."
   },
   {
    "q": "Who is Mathrengyl Bearwalker?",
@@ -59,7 +59,7 @@
     "bearwalker darnassus",
     "who is mathrengyl"
    ],
-   "answer": "Mathrengyl Bearwalker is an elder druid trainer of the Cenarion Circle stationed at the Cenarion Enclave in Darnassus. He acts as an experienced mentor and investigates serious spiritual threats affecting nature and the Emerald Dream."
+   "answer": "Mathrengyl Bearwalker is an elder druid trainer of the Cenarion Circle at the Cenarion Enclave in Darnassus. He mentors druids and investigates grave spiritual threats to nature and the Emerald Dream."
   },
   {
    "q": "Why is Mathrengyl so secretive about the shard?",
@@ -68,7 +68,7 @@
     "what does mathrengyl hide",
     "why won't mathrengyl talk"
    ],
-   "answer": "The Emerald Dream is revered as the pristine, inviolable realm of nature guided by the Green Dragonflight and the sleeping druids. Evidence that this realm is suffering from nightmarish corruption represents a profound spiritual crisis, one the Cenarion Circle is reluctant to expose to the public."
+   "answer": "Mathrengyl is secretive because the shard shows corruption in the Emerald Dream, a sacred realm of nature guided by the Green Dragonflight and sleeping druids. Such a threat is a profound spiritual crisis, and the Cenarion Circle is reluctant to expose it to the public."
   },
   {
    "q": "Where does this quest chain begin?",
@@ -77,7 +77,7 @@
     "where did this start",
     "how to get in nightmares"
    ],
-   "answer": "The storyline begins with 'The Glowing Shard', an item found on Mutanus the Devourer at the culmination of the Wailing Caverns. That shard is brought to scholars who eventually trace its ominous origins toward Darnassus or Thunder Bluff."
+   "answer": "The story begins with The Glowing Shard, an item found on Mutanus the Devourer at the end of Wailing Caverns. Scholars eventually trace the shard's ominous origin toward Darnassus or Thunder Bluff."
   },
   {
    "q": "Do Horde players have an equivalent quest?",
@@ -86,21 +86,21 @@
     "is there a horde in nightmares",
     "in nightmares horde"
    ],
-   "answer": "Yes. While Alliance heroes report to Mathrengyl Bearwalker in Darnassus, Horde champions deliver their findings to Hamuul Runetotem on the Elder Rise in Thunder Bluff, discovering the same unsettling news about the Emerald Dream."
+   "answer": "Yes. Alliance travelers bring their findings to Mathrengyl Bearwalker in Darnassus, while Horde travelers report to Hamuul Runetotem on the Elder Rise in Thunder Bluff. Both learn of the same troubling news about the Emerald Dream."
   }
  ],
  "angles": [
   {
    "target": "class:Druid",
-   "text": "For druids, this quest reveals that the sacred Emerald Dream is not the untouched sanctuary they were taught to commune with, hinting at profound internal danger."
+   "text": "As a druid, you learn that the sacred Emerald Dream is not the untouched sanctuary you were taught to commune with. The shard hints at danger within it."
   },
   {
    "target": "faction:Alliance",
-   "text": "Alliance adventurers carrying this relic into the heart of Darnassus offer the night elf leadership an early glimpse of the corruption spreading beneath the world's surface."
+   "text": "As an Alliance traveler, you carry the relic into Darnassus and bring the night elf leadership an early glimpse of corruption spreading beneath the world's surface."
   },
   {
    "target": "race:NightElf",
-   "text": "Night elves venerate the slumbering realm where Malfurion Stormrage resides; discovering a waking nightmare inside its essence strikes at the core of their spiritual heritage."
+   "text": "As a night elf, you venerate the sleeping realm where Malfurion Stormrage resides. A waking nightmare within its essence strikes at the heart of your spiritual heritage."
   }
  ],
  "keywords": [
@@ -126,5 +126,6 @@
  ],
  "attribution": [
   "In Nightmares (Alliance)"
- ]
+ ],
+ "style": 1
 }

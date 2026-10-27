@@ -1,0 +1,90 @@
+{
+ "key": "quest:94914",
+ "type": "quest",
+ "name": "Moonglade",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   94914
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "A druid teacher offers you a way to reach Moonglade and meet Dendrite Starblaze. There, you can speak with him about the path you have begun.",
+ "sections": [
+  {
+   "title": "A First Lesson",
+   "body": "Your teacher welcomes all druids to Moonglade, where Keeper Remulos watches over those who rest there. You receive the spell Teleport: Moonglade, which lets you travel there when you seek its knowledge or solace. Your first lesson is to speak with Dendrite Starblaze in Nighthaven about the path you are now on.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Bear Form",
+   "body": "Dendrite recognizes that you have already mastered the form of the Bear. He sees you as well on your way.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who should I speak to in Moonglade?",
+   "aliases": [
+    "who do i talk to",
+    "dendrite starblaze",
+    "nighthaven druid"
+   ],
+   "answer": "Speak with Dendrite Starblaze in the village of Nighthaven about the path you are on."
+  },
+  {
+   "q": "How do I get to Moonglade?",
+   "aliases": [
+    "moonglade teleport",
+    "how reach moonglade",
+    "teleport spell"
+   ],
+   "answer": "Your teacher gives you the spell Teleport: Moonglade, which transports you there."
+  },
+  {
+   "q": "Who watches over druids in Moonglade?",
+   "aliases": [
+    "keeper remulos",
+    "moonglade guardian",
+    "who guards moonglade"
+   ],
+   "answer": "Keeper Remulos is Moonglade's guardian and watches over druids who rest there."
+  },
+  {
+   "q": "What does Dendrite say about my progress?",
+   "aliases": [
+    "bear form",
+    "did i master bear",
+    "dendrite response"
+   ],
+   "answer": "Dendrite recognizes that you have already mastered the form of the Bear."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Druid",
+   "text": "As a druid, your teacher welcomes you to Moonglade and teaches you a spell to travel there."
+  }
+ ],
+ "keywords": [
+  "bear form",
+  "dendrite starblaze",
+  "druid",
+  "keeper remulos",
+  "moonglade",
+  "nighthaven",
+  "teleport"
+ ],
+ "related": [
+  "quest:5921",
+  "subzone:nighthaven",
+  "npc:dendrite-starblaze",
+  "npc:remulos"
+ ],
+ "style": 1,
+ "attribution": [
+  "In-game quest text: Moonglade"
+ ]
+}

@@ -23,21 +23,21 @@
    "The Binding (Felhunter)"
   ]
  },
- "summary": "This quest marks the final preparation for Alliance warlocks seeking to command a felhunter. After piecing together the fragmented Tome of the Cabal, the warlock must gather rods of channeling from Dragonmaw orcs in the Wetlands and return to Strahad Farsan overlooking Ratchet.",
+ "summary": "In the Barrens, Strahad Farsan waits for a warlock to bring him the Tome of the Cabal and channeling rods. Together, they prepare the way to bind a felhunter.",
  "sections": [
   {
    "title": "A Grudging Hand-Off",
-   "body": "In Ironforge's Hall of Explorers, Krom Stoutarm meticulously bound the tattered and mouldering remnants of the Tome of the Cabal back together. Reluctant to surrender such a rare piece of dark scholarship, the dwarf scholar extracts a promise of a future copy before passing along a fresh missive from Strahad Farsan. The tome contains the rites required to breach the Nether, but raw parchment alone cannot conduct the necessary ritual.",
+   "body": "In Ironforge's Hall of Explorers, Krom Stoutarm binds the Tome of the Cabal's tattered, mouldering remnants back together. The dwarf scholar reluctantly parts with this rare work of dark scholarship, but first secures a promise of a copy. He also passes along a fresh missive from Strahad Farsan. The tome holds the rites for breaching the Nether, though parchment alone cannot conduct the ritual.",
    "spoiler": 0
   },
   {
    "title": "Stolen Relics of the Dragonmaw",
-   "body": "Before Strahad's acolytes can assist with binding a demon as ravenous as a felhunter, they require focus implements to stabilize the summoned energies. Krom directs the warlock to the Wetlands, where spellcasters of the Dragonmaw clan wield rods of channeling. Prizing these foci from the hands of hostile orcs provides the conduit Strahad's circle needs to control the rift.",
+   "body": "Strahad's acolytes need focus implements to steady the energies summoned to bind a felhunter. Krom sends the warlock to the Wetlands, where Dragonmaw spellcasters carry rods of channeling. Taking the rods from the hostile orcs gives Strahad's circle the conduit it needs to control the rift and stabilize the summoned energies.",
    "spoiler": 0
   },
   {
    "title": "Back to the Barrens",
-   "body": "Delivering both the reconstructed grimoire and the channelers' rods to Strahad's tower high above Ratchet completes the grueling assembly. With the instruments secured and the text translated, Strahad prepares to initiate the dangerous rite of binding, testing whether the summoner has the willpower to tame a hound of the Burning Legion.",
+   "body": "At Strahad's tower high above Ratchet, the reconstructed tome and channeling rods complete the grueling assembly. With the instruments secured and the text translated, Strahad prepares the dangerous binding rite. The summoner's willpower will be tested against a hound of the Burning Legion.",
    "spoiler": 1
   }
  ],
@@ -49,7 +49,7 @@
     "rods of channeling purpose",
     "what are the rods for"
    ],
-   "answer": "Summoning and binding a felhunter is too turbulent for a solitary warlock without an anchor. Strahad's acolytes must maintain and focus the summoning circle during the ritual, and these rods channel and steady the necessary energies to keep the portal from collapsing or running wild."
+   "answer": "Strahad's acolytes use the rods to focus and steady the energies needed to summon and bind a felhunter. Their work helps keep the portal from collapsing or running wild."
   },
   {
    "q": "Where are the rods of channeling found?",
@@ -58,7 +58,7 @@
     "who drops rods of channeling",
     "rods of channeling location"
    ],
-   "answer": "The rods are held by the orc spellcasters of the Dragonmaw clan residing in the Wetlands, particularly around the marshes and ruins they occupy."
+   "answer": "Dragonmaw orc spellcasters in the Wetlands hold the rods of channeling, especially around the marshes and ruins they occupy."
   },
   {
    "q": "Why was Krom Stoutarm involved in a warlock ritual?",
@@ -67,7 +67,7 @@
     "why is an ironforge dwarf helping a warlock",
     "krom stoutarm warlock"
    ],
-   "answer": "Krom Stoutarm is a master researcher in Ironforge with the specialized skills needed to translate, preserve, and physically reconstruct ancient, damaged manuscripts. His fascination with rare antiquities led him to restore the corrupted pages of the Tome of the Cabal."
+   "answer": "Krom Stoutarm is a master researcher in Ironforge, skilled at translating, preserving, and rebuilding ancient damaged manuscripts. His interest in rare antiquities led him to restore the Tome of the Cabal's corrupted pages."
   },
   {
    "q": "What happens after giving the tome and rods to Strahad?",
@@ -76,7 +76,7 @@
     "next quest after tome of the cabal 3",
     "what does strahad do"
    ],
-   "answer": "Strahad immediately puts the gathered tools to use, commencing the binding ritual atop his tower where you must personally face and subjugate the summoned felhunter."
+   "answer": "After you give Strahad the tome and rods, he begins the binding rite atop his tower. You face the summoned felhunter and try to subdue it."
   },
   {
    "q": "Who is Strahad Farsan?",
@@ -85,7 +85,7 @@
     "who is strahad",
     "guy above ratchet"
    ],
-   "answer": "Strahad Farsan is a powerful warlock operating out of a solitary tower perched on the cliffs above the port town of Ratchet in the Barrens. Experienced practitioners across Kalimdor and the Eastern Kingdoms defer to his mastery of demonology."
+   "answer": "Strahad Farsan is a powerful warlock in a solitary tower on the cliffs above Ratchet in the Barrens. Experienced practitioners across Kalimdor and the Eastern Kingdoms defer to his mastery of demonology."
   },
   {
    "q": "Is the Tome of the Cabal used by the Horde as well?",
@@ -93,21 +93,21 @@
     "horde tome of the cabal",
     "do orcs do this quest"
    ],
-   "answer": "Horde warlocks pursue their own version of the Tome of the Cabal rites, though their leads send them to different contacts across Kalimdor and the Undercity rather than working with Krom Stoutarm in Ironforge."
+   "answer": "Horde warlocks follow their own Tome of the Cabal rites, with leads to different contacts across Kalimdor and the Undercity rather than to Krom Stoutarm in Ironforge."
   }
  ],
  "angles": [
   {
    "target": "class:Warlock",
-   "text": "Subduing a felhunter is a defining rite of passage, elevating a warlock from simple imp and voidwalker pacts to mastering predatory demons crafted to devour arcane magic."
+   "text": "As a warlock, subduing a felhunter marks a passage from pacts with imps and voidwalkers to mastering predatory demons made to devour arcane magic."
   },
   {
    "target": "faction:Alliance",
-   "text": "This quest sends Alliance summoners crossing between Ironforge, the misty bogs of the Wetlands, and the neutral goblin port of Ratchet in Kalimdor."
+   "text": "As an Alliance summoner, you travel between Ironforge, the misty bogs of the Wetlands, and Ratchet, the neutral goblin port in Kalimdor."
   },
   {
    "target": "race:Dwarf",
-   "text": "Even the dark arts rely on the meticulous preservation skills found within Ironforge's Hall of Explorers, where Krom Stoutarm pieces ruined relics back together."
+   "text": "As a dwarf, you know the value of careful preservation. In Ironforge's Hall of Explorers, Krom Stoutarm pieces ruined relics back together."
   }
  ],
  "keywords": [
@@ -133,5 +133,6 @@
  ],
  "attribution": [
   "Tome of the Cabal (Alliance, 3)"
- ]
+ ],
+ "style": 1
 }

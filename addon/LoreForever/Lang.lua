@@ -15,9 +15,9 @@
 --   P.stop = "der die das ..."             extra stop words for questions typed in the language
 --   P.search = {...}, P.dataVersion        search index prebuilt over the merged text, and the ns.DB.version it's for
 --                                          (a frozen pack's index carries its own: P.search.dataVersion)
---   P.frozen = true                        a community pack (UALL's Ukrainian, ruRU, itIT, esMX): its translations
---                                          stay when our English moves on (Lang.MergeEntries); it changes only when
---                                          the community sends edits
+--   P.frozen = true                        a community pack (UALL's Ukrainian, ruRU, itIT, esMX): it changes only when
+--                                          the community sends edits (every pack's translations stay when our English
+--                                          moves on: Lang.MergeEntries)
 -- A translator's test pack (kind lang-overlay, LoreForever_LangTest_<locale>, made by the site from their own saved
 -- edits) loads after the language pack, or alone, when the player reads its locale. It overrides string by string:
 --   P.ui[english] = translation
@@ -236,10 +236,10 @@ function Lang.PlaceNames(ctx)
 end
 
 -- The shape of an English entry: text lengths and spoiler levels, in order. A pack records it for each entry it
--- translates; if the English entry has changed since (sections added, moved or re-flagged), the translation is left
--- out rather than risk German text sitting under the wrong spoiler flag. Lengths are bytes, so the pipeline computes
--- this through this same function. FAQs appended by pipeline/lore/questions.py (add) are a layer of their own: they
--- are translated by id (fx) and don't make the translation of the rest stale.
+-- translates; if the English entry has changed since (sections added, moved or re-flagged), the translation stays only
+-- where the flags allow (Lang.MergeEntries), never German text under a weaker spoiler flag. Lengths are bytes, so the
+-- pipeline computes this through this same function. FAQs appended by pipeline/lore/questions.py (add) are a layer of
+-- their own: they are translated by id (fx) and don't make the translation of the rest stale.
 function Lang.Fingerprint(e)
   local p = { #(e.n or ""), #(e.s or "") }
   for _, s in ipairs(e.sec or {}) do p[#p + 1] = #s.t .. "." .. #s.b .. "." .. (s.sp or 0) end
@@ -285,10 +285,10 @@ local function mergeName(db, key, e, name)
   end
 end
 
--- A frozen community language pack (P.frozen: UALL's Ukrainian, ruRU, itIT, esMX; Mike, 2026-10-12: "freeze it")
--- is the community's text as they last sent it, and it changes only when they send edits. Where our English has moved
--- on since a translation was made (its fp no longer matches), the translation stays rather than falling back to
--- English. Spoiler safety needs the shape it was translated under: fp lists the name and summary lengths, then
+-- A language pack stands on its own (Mike, 2026-10-26: "Voice and translation packs are standalone ... It just means
+-- they aren't caught up"; frozen community packs since 10/12). Where our English has moved on since a translation was
+-- made (its fp no longer matches), the translation stays rather than falling back to English, until the pack catches
+-- up. Spoiler safety needs the shape it was translated under: fp lists the name and summary lengths, then
 -- "title.body.flag" per section, then "question.answer.flag" per own FAQ, and the translation's own section and FAQ
 -- counts tell the two lists apart. Returns {section flags}, {FAQ flags}, or nil when the shape can't be read.
 local function translatedFlags(fp, t)
@@ -312,16 +312,15 @@ local function translatedFlags(fp, t)
   return sec, faq
 end
 
--- Translated text over the English entries, field by field; spoiler flags, links and metadata stay English. Returns
--- how many entries were skipped because the English changed since the translation. A frozen pack (w.frozen) skips
--- none: a translation whose English moved on keeps its name, summary, keywords and angles, and each section or own
--- FAQ, by position, where our flag there is at least the one it was translated under (so text translated from a
--- spoiler never shows outside one; anything else there stays English).
+-- Translated text over the English entries, field by field; spoiler flags, links and metadata stay English. A
+-- translation whose English moved on keeps its name, summary, keywords and angles, and each section or own FAQ, by
+-- position, where our flag there is at least the one it was translated under (so text translated from a spoiler never
+-- shows outside one; anything else there stays English). Returns how many translations are older than the English.
 function Lang.MergeEntries(db, w, merged, touched)
   -- The word-piece vectors that re-rank answers by meaning (Engine:VecOf) are English; over translated text they
   -- mislead ("Was ist die Bruderschaft der Defias?" went to a quest), so a merged pack switches them off.
   if next(w.entries or {}) then db.vectors = nil end
-  local skipped = 0
+  local older = 0
   merged = merged or {}
   for key, t in pairs(w.entries or {}) do
     local e = db.entries[key]
@@ -329,15 +328,16 @@ function Lang.MergeEntries(db, w, merged, touched)
     if e and t.fx then mergeFx(e, t.fx) end   -- by id, whatever else changed
     local current = e and t.fp ~= nil and t.fp == Lang.Fingerprint(e)
     local secFlags, faqFlags
-    if e and not current and w.frozen and t.fp ~= nil then secFlags, faqFlags = translatedFlags(t.fp, t) end
+    if e and not current and t.fp ~= nil then
+      older = older + 1
+      secFlags, faqFlags = translatedFlags(t.fp, t)
+    end
     if not e then
       -- gone
     elseif t.fp == nil then
       -- the rest of the entry's translation is out of date: only its appended FAQs (above) and its name, the sourced
       -- one, which doesn't depend on the English text
       if t.n then mergeName(db, key, e, t.n) end
-    elseif not current and not w.frozen then
-      skipped = skipped + 1
     else
       if current then merged[key] = true end   -- (complete-story recordings need the current translation)
       mergeName(db, key, e, t.n)
@@ -361,7 +361,7 @@ function Lang.MergeEntries(db, w, merged, touched)
         for i, s in ipairs(t.sec) do
           e.sec[i].t, e.sec[i].b = s.t or e.sec[i].t, s.b or e.sec[i].b
         end
-      elseif secFlags and t.sec and e.sec then   -- frozen, our English moved on: where it's safe, by position
+      elseif secFlags and t.sec and e.sec then   -- our English moved on: where it's safe, by position
         for i, s in ipairs(t.sec) do
           local cur = e.sec[i]
           if cur and (cur.sp or 0) >= (secFlags[i] or 0) then cur.t, cur.b = s.t or cur.t, s.b or cur.b end
@@ -384,7 +384,7 @@ function Lang.MergeEntries(db, w, merged, touched)
       end
     end
   end
-  return skipped
+  return older
 end
 
 -- A test pack, step 1, before the language pack is merged (fp describes the English): {key = {kw = English keywords}}
@@ -558,8 +558,8 @@ local function init(lang)
   lang.merging = touched   -- every entry the merge has changed so far, should it fail partway (Lang.Init)
   if tw then
     lang.shown = tw.shown   -- the reading language's own client names, for display (Lang.Shown)
-    local skipped = Lang.MergeEntries(db, tw, merged, touched)
-    if ns.debug and skipped > 0 then note("%d translated entries skipped: the English changed since", skipped) end
+    local older = Lang.MergeEntries(db, tw, merged, touched)
+    if ns.debug and older > 0 then note("%d translated entries are older than the English: kept where safe", older) end
     if tw.stop and ns.Engine then ns.Engine.AddStopWords(tw.stop) end
     -- A frozen pack's search index says itself which data it was built over (refreshed with our data while the
     -- community's text in the pack stays as it is); other packs say it once, for the whole pack.

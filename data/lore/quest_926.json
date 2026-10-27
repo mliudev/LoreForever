@@ -17,16 +17,16 @@
   "wiki": "Flawed Power Stone (quest)",
   "chain": []
  },
- "summary": "Deep within the arid expanse of the Barrens, mysterious stones infused with arcane energy rest atop arcane tables. Intentionally fashioned with fatal defects, these volatile relics consume their own power rapidly once separated from their source.",
+ "summary": "Across the Barrens, Flawed Power Stone rests on arcane tables, charged with arcane energy. Its makers left it fatally flawed, so it consumes its own power soon after it is moved.",
  "sections": [
   {
    "title": "Volatile Craftsmanship",
-   "body": "The flawed power stones found scattered in the Barrens are curious magical anomalies. While undeniably charged with arcane essence, their structure was intentionally compromised during their creation. Whatever hands shaped them ensured that they would remain deeply unstable, decaying into inert matter mere moments after being handled.",
+   "body": "In the Barrens, flawed power stones hold arcane essence within compromised structures. Their makers deliberately left them unstable, so they decay into inert matter moments after someone handles them.",
    "spoiler": 0
   },
   {
    "title": "Self-Consuming Energy",
-   "body": "Rather than acting as steady reservoirs or catalysts, these stones immediately begin to burn through their contained power the moment they are taken from the ritual tables where they rest. This self-consuming nature prevents anyone from transporting them far.",
+   "body": "A stone begins consuming its power as soon as it leaves the ritual table where it rests. Its energy burns away too quickly for anyone to carry it far.",
    "spoiler": 0
   }
  ],
@@ -38,7 +38,7 @@
     "what is this stone",
     "power stone lore"
    ],
-   "answer": "A Flawed Power Stone is a volatile object charged with raw magical power. It has been deliberately crafted with flaws that cause it to burn through its energy and consume itself rapidly once moved."
+   "answer": "Flawed Power Stone holds raw magical power, but its deliberate flaws make it consume itself rapidly once moved."
   },
   {
    "q": "Can the stones be preserved permanently?",
@@ -47,7 +47,7 @@
     "can i store it",
     "preserving stone"
    ],
-   "answer": "No. Once detached from the tables where they draw stability, the magical matrices collapse and rapidly exhaust their own energy reserves."
+   "answer": "No. Once separated from the tables that stabilize them, the stones' magical matrices collapse and their energy quickly runs out."
   },
   {
    "q": "Who uses these stones?",
@@ -56,7 +56,7 @@
     "who crafted them",
     "stone creators"
    ],
-   "answer": "The stones are prepared by the orc Ak'Zeloth, who has Horde adventurers carry them to the altar of fire on Dreadmist Peak to disrupt the Demon Seed's connection to the Burning Legion."
+   "answer": "The orc Ak'Zeloth prepares the stones, and Horde adventurers carry them to the altar of fire on Dreadmist Peak. There, they disrupt the Demon Seed's connection to the Burning Legion."
   },
   {
    "q": "Why does the Horde care about them?",
@@ -64,13 +64,13 @@
     "horde interest",
     "why does horde want this"
    ],
-   "answer": "The stones are the Horde's weapon against the Burning Legion here. Ak'Zeloth, acting for Neeru Fireblade, prepared them so that one carried to the altar of fire on Dreadmist Peak would break the Demon Seed's connection to the Legion."
+   "answer": "The Horde uses the stones against the Burning Legion. Ak'Zeloth prepared them for Neeru Fireblade, so carrying one to the altar of fire on Dreadmist Peak can break the Demon Seed's connection to the Legion."
   }
  ],
  "angles": [
   {
    "target": "faction:Horde",
-   "text": "The Horde keeps a wary eye on arcane oddities scattered across the Barrens, guarding against rogue sorcery that could threaten their supply routes."
+   "text": "As a member of the Horde, you keep watch over arcane oddities scattered across the Barrens, wary of rogue sorcery that could threaten your supply routes."
   }
  ],
  "keywords": [
@@ -86,5 +86,6 @@
  ],
  "attribution": [
   "Flawed Power Stone (quest)"
- ]
+ ],
+ "style": 1
 }

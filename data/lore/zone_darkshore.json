@@ -12,21 +12,21 @@
   "levels": "10-20",
   "aliases": []
  },
- "summary": "Darkshore is a cold, mist-shrouded strip of coast lining northwestern Kalimdor, dotted with ancient Kaldorei ruins and troubled wildlife. Anchored by the Alliance harbor town of Auberdine, it serves as the primary continental gateway for travelers arriving from Teldrassil and the Eastern Kingdoms. Beyond the patrolled road, demonic cults, encroaching naga, and a creeping corruption from the highlands threaten the region's delicate balance.",
+ "summary": "In Darkshore, Auberdine links night elf lands to the wider Alliance. This cold, misty coast in northwestern Kalimdor is the main gateway for travelers from Teldrassil and the Eastern Kingdoms. Ancient ruins and troubled wildlife mark the land, while cultists, naga, and a creeping rot threaten it.",
  "sections": [
   {
    "title": "A Land of Mist and Memory",
-   "body": "Stretching beneath the western shadows of Mount Hyjal and Felwood, Darkshore is characterized by pine groves, sea fog, and rocky beaches beaten by cold waves. Millennia ago, this coast was home to the flourishing Kaldorei twin cities of Ameth'Aran and Bashal'Aran. Shattered during the Great Sundering, their skeletal pillars and marble arches now lie half-drowned in the surf or overgrown with roots, haunted by restless Highborne spirits and overrun by scavenger murlocs and invasive naga.",
+   "body": "Darkshore stretches beneath the western shadows of Mount Hyjal and Felwood, where pine groves meet fog and cold, rocky shores. Millennia ago, the Kaldorei cities of Ameth'Aran and Bashal'Aran flourished along this coast. The Great Sundering shattered them, leaving pillars and arches half-drowned or tangled in roots. Highborne spirits haunt the ruins, while scavenging murlocs and invading naga range among them.",
    "spoiler": 0
   },
   {
    "title": "The Haven of Auberdine",
-   "body": "Following the Third War and the planting of Teldrassil, the night elves established Auberdine as a bustling maritime haven amidst the wilderness. Featuring wooden piers that welcome regular vessels from Rut'theran Village, Stormwind Harbor and, by way of Southshore, Menethil Harbor in the distant Wetlands, Auberdine is the lifeline linking night elf territory to the rest of the Alliance. Sentinels diligently patrol the trade highway south toward Ashenvale, though their small garrison struggles to police the deep wilds beyond the path.",
+   "body": "After the Third War and the planting of Teldrassil, the night elves made Auberdine a busy maritime haven in the wilderness. Ships arrive from Rut'theran Village, Stormwind Harbor, and Menethil Harbor in the distant Wetlands by way of Southshore. Auberdine is the lifeline between night elf lands and the rest of the Alliance. Sentinels patrol the trade road south to Ashenvale, but their small garrison cannot keep watch over the deep wilds beyond it.",
    "spoiler": 0
   },
   {
    "title": "Poisoned Waters and Whispering Depths",
-   "body": "Despite its shelter against the eastern mountains, Darkshore suffers from a slow, malignant rot. Corrupted run-off trickling down from Felwood poisons sources like Cliffspring Falls, fouling the water table and driving the local bears, stags, and furbolgs of Blackwood Den into violent madness. Worse still, sinister organizations have established footholds in the shadows: the Dark Strand and Twilight's Hammer cultists perform foul rituals at the Tower of Althalaxx and convene around the terrifying, ancient monument known as the Master's Glaive.",
+   "body": "Darkshore's shelter beneath the eastern mountains has not spared it a slow, malignant rot. Corrupted runoff from Felwood reaches sources such as Cliffspring Falls, poisoning the water and driving bears, stags, and the furbolgs of Blackwood Den into violent madness. The Dark Strand cultists perform foul rites at the Tower of Althalaxx. Twilight's Hammer gathers around the ancient, terrifying monument called the Master's Glaive.",
    "spoiler": 0
   }
  ],
@@ -38,7 +38,7 @@
     "how to reach auberdine",
     "darkshore boat"
    ],
-   "answer": "Alliance players can take a boat to Auberdine from Rut'theran Village at the base of Teldrassil, straight from Stormwind Harbor, or from Menethil Harbor in the Wetlands by way of Southshore. Horde travelers journeying north must walk through Ashenvale, following the main road northeast from Zoram'gar Outpost up across the border."
+   "answer": "Alliance travelers can sail to Auberdine from Rut'theran Village at the base of Teldrassil, Stormwind Harbor, or Menethil Harbor in the Wetlands by way of Southshore. Horde travelers heading north must cross Ashenvale on foot, following the main road northeast from Zoram'gar Outpost over the border."
   },
   {
    "q": "What is wrong with the local wildlife and furbolgs?",
@@ -47,7 +47,7 @@
     "furbolg corruption",
     "darkshore taint"
    ],
-   "answer": "Rivers running out of the tainted heights of Felwood, such as the Cliffspring River, wash demonic pollution straight down into Darkshore's water table. Drinking from these foul streams has driven the native furbolg tribes feral and infected the local deer and predators with disease and aggression."
+   "answer": "Water flowing from Felwood's tainted heights, including the Cliffspring River, carries demonic pollution into Darkshore's water table. The foul water has driven native furbolg tribes feral and left local deer and predators diseased and aggressive."
   },
   {
    "q": "What happened to Ameth'Aran and Bashal'Aran?",
@@ -56,7 +56,7 @@
     "bashal'aran lore",
     "ruins in darkshore"
    ],
-   "answer": "They were prosperous twin Kaldorei cities destroyed ten thousand years ago during the Great Sundering. Their ruler, Athrikus Narassin, claimed he would rescue his people from the cataclysm, but he instead bound their souls into gems to preserve them as eternal power sources for himself, leaving the ruins full of weeping ghosts."
+   "answer": "Ameth'Aran and Bashal'Aran were prosperous Kaldorei twin cities, destroyed ten thousand years ago in the Great Sundering. Their ruler, Athrikus Narassin, claimed he would save his people from the cataclysm, but bound their souls into gems to use as eternal power sources for himself. Weeping ghosts fill the ruins."
   },
   {
    "q": "What is the Master's Glaive?",
@@ -65,7 +65,7 @@
     "giant skull darkshore",
     "masters glaive monster"
    ],
-   "answer": "Located in southern Darkshore, the Master's Glaive is a massive petrified skull impaled by an enormous stone weapon. It is an ancient relic associated with the primordial Old Gods and their servitors, and it currently attracts dangerous cultists from the Twilight's Hammer."
+   "answer": "In southern Darkshore, the Master's Glaive is a huge petrified skull pierced by an enormous stone weapon. This ancient relic is linked to the primordial Old Gods and their servants, and dangerous Twilight's Hammer cultists are drawn to it."
   },
   {
    "q": "Who is the giant tree in the Grove of the Ancients?",
@@ -74,7 +74,7 @@
     "who is onu",
     "tree person darkshore"
    ],
-   "answer": "That is Onu, a wise and venerable Ancient of Lore. Resting in his tranquil grove south of Auberdine, he ponders the disturbing encroachment of the Twilight's Hammer cult and assists travelers in investigating disturbances throughout the forest."
+   "answer": "The giant tree in the Grove of the Ancients is Onu, a wise and venerable Ancient of Lore. In his quiet grove south of Auberdine, he considers the troubling advance of Twilight's Hammer and helps travelers investigate disturbances in the forest."
   },
   {
    "q": "Who lives in the Tower of Althalaxx?",
@@ -83,25 +83,25 @@
     "darkshore tower cultists",
     "althalaxx cult"
    ],
-   "answer": "The tower is occupied by the Dark Strand, a vicious cult practicing dark sorcery and summoning demonic entities. Their cabal actively ambushes unwary travelers along the northern reaches of the coastal woods."
+   "answer": "The Dark Strand, a vicious cult that practices dark sorcery and summons demons, occupies the tower. Its members ambush unwary travelers along the northern coastal woods."
   }
  ],
  "angles": [
   {
    "target": "class:Druid",
-   "text": "Darkshore serves as the front line for Cenarion Circle initiates answering summons from Moonglade to diagnose tainted waterways and brew cleansers for sick forest creatures."
+   "text": "For Cenarion Circle initiates answering calls from Moonglade, Darkshore is the front line: they diagnose tainted waterways and brew cleansers for sick forest creatures."
   },
   {
    "target": "race:NightElf",
-   "text": "For young night elves leaving Teldrassil, Darkshore is their first step onto mainland Kalimdor, confronting the painful ruins of their ancient civilization and the spreading corruption of the wild."
+   "text": "For young night elves leaving Teldrassil, Darkshore is the first step onto mainland Kalimdor, where ancient ruins and spreading corruption scar the wild."
   },
   {
    "target": "faction:Alliance",
-   "text": "Auberdine represents the Alliance's primary trade nexus in northern Kalimdor, maintaining the direct maritime link connecting Stormwind and Ironforge to the night elf capital of Darnassus."
+   "text": "For the Alliance, Auberdine is the primary trade nexus in northern Kalimdor, keeping a direct sea link between Stormwind and Ironforge and Darnassus, the night elf capital."
   },
   {
    "target": "faction:Horde",
-   "text": "A remote, heavily patrolled Alliance bastion, Darkshore sits directly north of Horde encampments in Ashenvale, offering a treacherous coastline prowled by hostile sentinels and dangerous cults."
+   "text": "For the Horde, Darkshore is a remote Alliance stronghold under heavy patrol, just north of Horde camps in Ashenvale. Its treacherous coast is prowled by hostile sentinels and dangerous cults."
   }
  ],
  "keywords": [
@@ -128,5 +128,6 @@
  "attribution": [
   "Darkshore (Classic)",
   "Darkshore"
- ]
+ ],
+ "style": 1
 }

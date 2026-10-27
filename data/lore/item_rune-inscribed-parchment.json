@@ -10,11 +10,11 @@
    "quest:3089"
   ]
  },
- "summary": "A written missive delivered to aspiring orc shamans in the Valley of Trials. Penned by the trainer Shikrik and handed out by Gornek, it calls initiates to embrace their role as spiritual leaders and conduits for the elemental spirits.",
+ "summary": "In the Valley of Trials, Gornek hands aspiring orc shamans a message from Shikrik. It calls them to become spiritual leaders and conduits for elemental spirits.",
  "sections": [
   {
    "title": "A Summons to the Spirits",
-   "body": "Within the sun-baked canyon of the Valley of Trials, new orc shamans begin their training under the watchful gaze of veteran overseers. While performing initial trials for Gornek, an initiate is handed this rune-covered document. Sent directly by Shikrik, the local shamanic instructor, the parchment serves as a formal summons into the deeper mysteries of elemental communion. Orcish culture regards the shaman not merely as a battlefield spellcaster, but as an essential mediator between the living and the ancestors. This brief writ marks the transition from simple brute strength to the disciplined path of ancestral reverence.",
+   "body": "New orc shamans begin training under veteran overseers in the Valley of Trials. While an initiate performs initial trials for Gornek, he hands them a rune-covered document sent by Shikrik, the local shamanic instructor. The message summons them to deeper communion with the elements. Among the orcs, shamans mediate between the living and their ancestors. The writ marks a move from brute strength toward disciplined reverence for ancestors.",
    "spoiler": 0
   }
  ],
@@ -26,7 +26,7 @@
     "what is this item",
     "shaman parchment"
    ],
-   "answer": "It is a handwritten message handed to novice orc shamans by Gornek in the Valley of Trials. It directs the reader to report to the shaman trainer Shikrik to begin formal instruction."
+   "answer": "Gornek hands the handwritten message to novice orc shamans in the Valley of Trials. It directs them to report to Shikrik for formal instruction."
   },
   {
    "q": "Who wrote the parchment?",
@@ -34,7 +34,7 @@
     "who sent the parchment",
     "parchment author"
    ],
-   "answer": "The parchment was written by Shikrik, the shaman trainer stationed in the Valley of Trials, who wished to instruct young initiates in the ways of the elements and ancestral spirits."
+   "answer": "Shikrik, the shaman trainer in the Valley of Trials, wrote the parchment to instruct young initiates in the ways of the elements and ancestral spirits."
   },
   {
    "q": "Why are shamans considered chosen among the orcs?",
@@ -42,17 +42,17 @@
     "why be a shaman",
     "orc shaman role"
    ],
-   "answer": "Orc shamans act as spiritual guides and conduits for their ancestors, listening to elemental spirits to guide their people. Shikrik reminds apprentices that their duty includes both mending allies and wielding the furious wrath of the elements against their foes."
+   "answer": "Orc shamans guide their people as spiritual leaders, listening to elemental spirits and acting as conduits for their ancestors. Shikrik reminds apprentices that their duty includes mending allies and wielding the elements' fury against their foes."
   }
  ],
  "angles": [
   {
    "target": "class:Shaman",
-   "text": "This rune-inscribed note marks your very first step along the path of the elements, setting you under Shikrik's tutelage to learn ancestor worship and elemental mastery."
+   "text": "As a shaman, this note marks your very first step on the path of the elements. Under Shikrik's tutelage, you learn ancestor worship and elemental mastery."
   },
   {
    "target": "race:Orc",
-   "text": "The rediscovery of shamanic tradition is central to the new Horde, and this parchment represents the continuation of ancestral wisdom in Durotar."
+   "text": "As an orc, you carry on ancestral wisdom in Durotar. The rediscovery of shamanic tradition is central to the new Horde."
   }
  ],
  "keywords": [
@@ -74,5 +74,6 @@
  "attribution": [
   "Rune-Inscribed Parchment",
   "Rune-Inscribed Parchment (Classic)"
- ]
+ ],
+ "style": 1
 }

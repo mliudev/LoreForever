@@ -1,0 +1,91 @@
+{
+ "key": "quest:98094",
+ "type": "quest",
+ "name": "Scout Support",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   98094
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "High Executor Darthalia sends you with updated orders for Deathstalker Masoj, south of Tarren Mill. Your delivery supports the Forsaken effort to take control of these lands.",
+ "sections": [
+  {
+   "title": "Orders for Masoj",
+   "body": "Darthalia says you can be trusted with information for the forward spies. She gives you updated orders for Masoj, who is posted on high ground north of Nethander Stead, outside Dun Garok. The Forsaken plan to take control of these lands continues, and Masoj is waiting for the orders.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who gave me the orders?",
+   "aliases": [
+    "who sent me",
+    "Darthalia orders",
+    "giver"
+   ],
+   "answer": "High Executor Darthalia gave you updated orders for Deathstalker Masoj."
+  },
+  {
+   "q": "Who is Deathstalker Masoj?",
+   "aliases": [
+    "Masoj who",
+    "who's Masoj",
+    "Masoj"
+   ],
+   "answer": "Deathstalker Masoj is a forward spy posted outside Dun Garok, north of Nethander Stead."
+  },
+  {
+   "q": "Where do I find Masoj?",
+   "aliases": [
+    "Masoj location",
+    "where is Masoj",
+    "south of Tarren Mill"
+   ],
+   "answer": "Masoj is south of Tarren Mill, on elevated ground north of Nethander Stead and outside Dun Garok."
+  },
+  {
+   "q": "What am I carrying to Masoj?",
+   "aliases": [
+    "what to deliver",
+    "orders for Masoj",
+    "the package"
+   ],
+   "answer": "You are carrying updated orders for Deathstalker Masoj."
+  },
+  {
+   "q": "Why am I delivering orders?",
+   "aliases": [
+    "why Masoj",
+    "what is the plan",
+    "Forsaken plan"
+   ],
+   "answer": "The delivery supports the Forsaken plan to take control of these lands."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "deathstalker masoj",
+  "dun garok",
+  "forsaken",
+  "forward spies",
+  "high executor darthalia",
+  "nethander stead",
+  "scout support",
+  "tarren mill",
+  "updated orders"
+ ],
+ "related": [
+  "npc:high-executor-darthalia",
+  "subzone:tarren-mill",
+  "subzone:nethander-stead",
+  "subzone:dun-garok"
+ ],
+ "style": 1,
+ "attribution": [
+  "In-game quest text: Scout Support"
+ ]
+}

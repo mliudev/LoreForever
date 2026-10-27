@@ -17,16 +17,16 @@
   "wiki": "Dancing for Marzipan (Alliance)",
   "chain": []
  },
- "summary": "During the festive season of Hallow's End, adventurers traveling through Darnassus are tasked with collecting festive sweets for a sick orphan in Stormwind. Innkeeper Saelienne upholds the trick-or-treat tradition in full, requiring an impromptu dance performance before parting with her prized Darnassus Marzipan.",
+ "summary": "During Hallow's End, travelers in Darnassus gather sweets for Jesper, a sick orphan in Stormwind. Innkeeper Saelienne keeps the trick-or-treat custom: a dance comes before her Darnassus Marzipan.",
  "sections": [
   {
    "title": "A Tradition Upheld",
-   "body": "Even in the sacred forest city of Darnassus, the revelry of Hallow's End brings a lighter spirit to the long-lived night elves. When travelers arrive looking to gather holiday confections on behalf of Jesper, a sick child recovering in Stormwind, Innkeeper Saelienne insists that the rules of the season remain unbroken. Charity or not, a treat requires a proper trick first.",
+   "body": "Hallow's End brings a lighter spirit to Darnassus, the sacred forest city of the long-lived night elves. You come seeking sweets for Jesper, a sick child recovering in Stormwind. Innkeeper Saelienne keeps the season's custom, even when the treat is meant for a child in need. First, she asks for a trick.",
    "spoiler": 0
   },
   {
    "title": "The Price of Marzipan",
-   "body": "To earn the delicate Darnassus Marzipan, adventurers must set aside their dignified demeanor and put on a show right on the inn floor. Saelienne demands nothing less than a dance, gladly rewarding those willing to shed their pride and embrace the festive cheer with the confection needed to complete the cross-continental holiday care package.",
+   "body": "Saelienne asks you to dance on the inn floor before she gives you Darnassus Marzipan. The performance earns the sweet needed for the holiday care package bound for Jesper.",
    "spoiler": 0
   }
  ],
@@ -38,7 +38,7 @@
     "what is this quest",
     "marzipan quest"
    ],
-   "answer": "The quest is part of the seasonal Alliance Hallow's End festivities. You perform a dance for Innkeeper Saelienne in Darnassus to obtain Darnassus Marzipan, one of several holiday treats required to cheer up a sick orphan named Jesper in Stormwind."
+   "answer": "Dancing for Marzipan lets you earn Darnassus Marzipan from Innkeeper Saelienne in Darnassus. The sweet is one of several Hallow's End treats gathered to cheer Jesper, a sick orphan in Stormwind."
   },
   {
    "q": "Who is Innkeeper Saelienne?",
@@ -46,7 +46,7 @@
     "who is saelienne",
     "saelienne lore"
    ],
-   "answer": "Innkeeper Saelienne manages the inn within Darnassus, offering shelter and rest to travelers beneath the boughs of Teldrassil. During Hallow's End, she oversees the distribution of local holiday confections to those willing to play along with tradition."
+   "answer": "Innkeeper Saelienne manages an inn in Darnassus, where travelers find shelter and rest beneath Teldrassil's boughs. During Hallow's End, she gives local sweets to those who take part in the tradition."
   },
   {
    "q": "Why does Saelienne insist on a dance?",
@@ -54,7 +54,7 @@
     "why dance",
     "why does saelienne want me to dance"
    ],
-   "answer": "Saelienne strictly adheres to the spirit of Hallow's End. Even though the treat is destined for an ailing child, she holds fast to the custom of 'trick or treat,' playfully requiring a demonstration of dancing prowess as the trick before handing over the sweet."
+   "answer": "Saelienne follows Hallow's End's trick-or-treat custom. She asks for a dance before giving you a sweet intended for an ailing child."
   },
   {
    "q": "Where does the marzipan go after this?",
@@ -62,7 +62,7 @@
     "who gets the marzipan",
     "what to do with marzipan"
    ],
-   "answer": "Once received, the Darnassus Marzipan is bundled alongside seasonal sweets collected from the inns of Ironforge and Stormwind and from Talvash del Kissel in Ironforge to fulfill the quest to bring holiday joy to young Jesper in Stormwind."
+   "answer": "The Darnassus Marzipan joins seasonal sweets from inns in Ironforge and Stormwind, along with sweets from Talvash del Kissel in Ironforge. Together, they are meant to bring holiday joy to young Jesper in Stormwind."
   },
   {
    "q": "What is Darnassus Marzipan?",
@@ -70,7 +70,7 @@
     "darnassus marzipan lore",
     "what kind of candy is it"
    ],
-   "answer": "Darnassus Marzipan is a sugary confection crafted in the night elven capital. It serves as Darnassus's signature festive treat for visiting trick-or-treaters during Hallow's End."
+   "answer": "Darnassus Marzipan is a sugary confection made in the night elven capital. It is the city's festive treat for Hallow's End visitors."
   },
   {
    "q": "Can Horde players complete this quest?",
@@ -78,17 +78,17 @@
     "is this quest alliance only",
     "horde marzipan quest"
    ],
-   "answer": "No. Dancing for Marzipan is an Alliance-only seasonal quest. Darnassus is an Alliance stronghold, and the marzipan is gathered specifically for an Alliance orphan convalescing in Stormwind City."
+   "answer": "No. Dancing for Marzipan is for Alliance characters. Darnassus is an Alliance stronghold, and the marzipan is gathered for an Alliance orphan recovering in Stormwind City."
   }
  ],
  "angles": [
   {
    "target": "faction:Alliance",
-   "text": "This festive task showcases the unity and lighthearted camaraderie shared across Alliance capitals, bringing treats from distant Teldrassil all the way to a young orphan in Stormwind."
+   "text": "For the Alliance, this Hallow's End tradition brings sweets from distant Teldrassil to a young orphan in Stormwind, shared across the capitals."
   },
   {
    "target": "race:NightElf",
-   "text": "For the night elves, participating in Hallow's End is an endearing adoption of Alliance seasonal customs, blending their serene woodland lifestyle with playful revelry."
+   "text": "As a night elf, you take part in the Alliance's Hallow's End customs, joining playful revelry with your woodland way of life."
   }
  ],
  "keywords": [
@@ -109,5 +109,6 @@
  ],
  "attribution": [
   "Dancing for Marzipan (Alliance)"
- ]
+ ],
+ "style": 1
 }

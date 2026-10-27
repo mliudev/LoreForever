@@ -17,16 +17,16 @@
   "wiki": "Ten Signets for War Supplies (Horde)",
   "chain": []
  },
- "summary": "Ten Signets for War Supplies is a logistical exchange coordinated by Warlord Gorchuk in Orgrimmar. Champions of the Horde can trade surplus commendation signets for practical battlefield equipment and supplies. While this trade forfeits official glory and recognition, it directly equips front-line soldiers for the looming conflicts ahead.",
+ "summary": "Warlord Gorchuk trades Horde Commendation Signets for war supplies in Orgrimmar. Champions give up formal recognition for equipment that can help keep soldiers supplied at the front.",
  "sections": [
   {
    "title": "Materiel for the Front",
-   "body": "As the Horde mobilizes its legions for war, gathering supplies is just as vital as assembling warriors. Warlord Gorchuk oversees logistics in the Valley of Spirits, ensuring that crates of weapons, rations, and armor flow toward the front lines. Those who have proven their dedication can surrender commendation signets to draw useful equipment from the army's reserves.",
+   "body": "Warlord Gorchuk oversees the Horde's supplies in the Valley of Spirits. As the Horde gathers its legions, weapons, rations, and armor must reach the front. Champions who have proved their dedication can trade commendation signets for useful equipment drawn from the army's reserves.",
    "spoiler": 0
   },
   {
    "title": "Practical Survival over Glory",
-   "body": "Horde Commendation Signets are typically surrendered as proof of service, earning a soldier prestige and renown among the leadership. Exchanging them directly for gear bypasses this formal recognition in favor of raw survival. Gorchuk understands that an extra satchel of supplies or a sturdy weapon can mean the difference between life and death once the clash of armies begins.",
+   "body": "Horde Commendation Signets usually prove a soldier's service and bring prestige with the leadership. Trading them for gear gives up that formal recognition for the chance to survive the fighting. Gorchuk knows that a satchel of supplies or a sturdy weapon can mean the difference between life and death when armies clash.",
    "spoiler": 0
   }
  ],
@@ -38,7 +38,7 @@
     "horde signets",
     "war signets"
    ],
-   "answer": "Horde Commendation Signets are official tokens awarded to champions who gather critical raw materials and resources for the Horde's war mobilization."
+   "answer": "Horde Commendation Signets are tokens awarded to champions who gather raw materials and resources for the Horde's war preparations."
   },
   {
    "q": "Who is Warlord Gorchuk?",
@@ -47,7 +47,7 @@
     "warlord gorchuk location",
     "who is gorchuk"
    ],
-   "answer": "Warlord Gorchuk is a Horde logistics officer stationed in Orgrimmar, responsible for collecting war resources and distributing battlefield provisions to mobilized troops."
+   "answer": "Warlord Gorchuk is a Horde logistics officer in Orgrimmar who collects war resources and distributes provisions to troops preparing for battle."
   },
   {
    "q": "Why turn signets in for supplies instead of faction reputation?",
@@ -56,7 +56,7 @@
     "why supplies",
     "commendation rewards"
    ],
-   "answer": "Trading signets for supplies sacrifices political standing and formal recognition in exchange for practical items, bandages, and gear that aid immediate survival on the front lines."
+   "answer": "Trading signets for supplies gives up political standing and formal recognition in exchange for useful items, bandages, and gear for survival on the front lines."
   },
   {
    "q": "Can this exchange be repeated?",
@@ -65,7 +65,7 @@
     "repeat signets",
     "turn in again"
    ],
-   "answer": "Yes. Warlord Gorchuk will continue to trade field supplies as long as you have the required batches of commendation signets to offer."
+   "answer": "Yes. Warlord Gorchuk continues trading field supplies as long as you have the required batches of commendation signets."
   },
   {
    "q": "Where does this exchange take place?",
@@ -74,7 +74,7 @@
     "signet turn in location",
     "gorchuk location"
    ],
-   "answer": "The exchange takes place in the capital city of Orgrimmar, where the Horde's war preparations and stockpiles are centered."
+   "answer": "The exchange takes place in Orgrimmar, where the Horde centers its war preparations and stockpiles."
   },
   {
    "q": "What kind of war is the Horde preparing for?",
@@ -83,17 +83,17 @@
     "why gathering supplies",
     "war effort"
    ],
-   "answer": "The Horde is amassing massive stockpiles of metal, cloth, herbs, and rations to arm an expeditionary force capable of facing an impending, cataclysmic threat."
+   "answer": "The Horde is gathering metal, cloth, herbs, and rations for an expeditionary force to face an impending cataclysmic threat."
   }
  ],
  "angles": [
   {
    "target": "faction:Horde",
-   "text": "Every crate of supplies gathered in Orgrimmar directly fuels the Horde's readiness for the brutal battles on the horizon."
+   "text": "Every crate gathered in Orgrimmar helps prepare the Horde for the battles ahead."
   },
   {
    "target": "class:Warrior",
-   "text": "Front-line fighters know that cold steel and ample rations win prolonged wars just as reliably as martial courage."
+   "text": "As a warrior, you know cold steel and ample rations help win long wars as surely as courage in battle."
   }
  ],
  "keywords": [
@@ -111,5 +111,6 @@
  ],
  "attribution": [
   "Ten Signets for War Supplies (Horde)"
- ]
+ ],
+ "style": 1
 }

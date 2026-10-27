@@ -17,16 +17,16 @@
   "wiki": "In Search of Menara Voidrender (Ironforge)",
   "chain": []
  },
- "summary": "This quest sends promising Alliance warlocks across the sea to the arid Barrens in search of Menara Voidrender. Operating out of Strahad Farsan's tower above Ratchet, Menara offers seasoned practitioners the chance to craft specialized tools and garments to bolster their control over demonic forces.",
+ "summary": "Across the sea, Alliance warlocks seek Menara Voidrender in the Barrens. From Strahad Farsan's tower above Ratchet, she teaches seasoned practitioners to craft tools and garments that strengthen their control of demons.",
  "sections": [
   {
    "title": "A Summons from Ironforge",
-   "body": "Briarthorn, an associate lurking in Ironforge's darker corners, recognizes when a warlock has advanced beyond basic demonology without succumbing to corruption. Rather than keeping his pupils cloistered under the mountain, he points them outward toward Kalimdor, commending their discipline and urging them to seek instruction from an artisan far more skilled in practical felcraft.",
+   "body": "Briarthorn sees when a warlock has moved beyond basic demonology and resisted corruption. He sends those pupils beyond Ironforge, across the sea to Kalimdor, instead of keeping them beneath the mountain. There, they can learn practical felcraft from an artisan with greater skill.",
    "spoiler": 0
   },
   {
    "title": "The Enclave Above Ratchet",
-   "body": "Perched on the bluffs overlooking the goblin port of Ratchet stands the solitary tower of Strahad Farsan. In a world deeply suspicious of dark spellcraft, practitioners of the fel often discard racial and political boundaries to survive. Menara Voidrender stays at Strahad's sanctuary precisely for this reason, collaborating with warlocks of every allegiance to ensure their perilous craft remains sharp and their summoned fiends firmly bound.",
+   "body": "Strahad Farsan keeps a solitary tower on the bluffs above Ratchet. Warlocks often set aside racial and political borders to survive in a world wary of dark magic. Menara Voidrender stays at Strahad's sanctuary and works with warlocks of every allegiance, helping them sharpen their craft and keep their summoned fiends bound.",
    "spoiler": 0
   }
  ],
@@ -38,7 +38,7 @@
     "who gives quest",
     "briarthorn location"
    ],
-   "answer": "The quest is offered by Briarthorn, who operates within the shadowy underbelly of Ironforge, catering to Alliance warlocks who have reached a sufficient level of discipline."
+   "answer": "Briarthorn sends disciplined Alliance warlocks who have advanced beyond basic demonology to seek instruction."
   },
   {
    "q": "Where can Menara Voidrender be found?",
@@ -47,7 +47,7 @@
     "where is menara voidrender",
     "strahad farsan tower location"
    ],
-   "answer": "Menara Voidrender resides at Strahad Farsan's tower in the Barrens, situated on the bluffs directly overlooking the goblin port town of Ratchet."
+   "answer": "Menara Voidrender is at Strahad Farsan's tower on the bluffs above Ratchet in the Barrens."
   },
   {
    "q": "Why does an Alliance warlock have to travel to Horde territory?",
@@ -56,7 +56,7 @@
     "why travel to ratchet",
     "barrens dangerous for alliance"
    ],
-   "answer": "Warlocks frequently operate outside conventional faction loyalties out of necessity. Ratchet is a neutral port run by the Steamwheedle Cartel, and Strahad's tower provides a secluded haven where practitioners of forbidden magic can congregate and study away from prying eyes."
+   "answer": "Warlocks often cross faction lines because their craft puts them in danger. Ratchet is a neutral port run by the Steamwheedle Cartel, and Strahad's tower gives practitioners of forbidden magic a secluded place to gather and study."
   },
   {
    "q": "What does Menara offer upon completion?",
@@ -65,7 +65,7 @@
     "quest reward",
     "next quest after menara"
    ],
-   "answer": "Speaking with Menara opens the opportunity to craft powerful warlock attire, beginning with the task to assemble the components for an Enchanted Gold Bloodrobe."
+   "answer": "Menara offers the chance to craft powerful warlock attire, beginning with gathering the components for an Enchanted Gold Bloodrobe."
   },
   {
    "q": "Is Menara Voidrender Alliance or Horde?",
@@ -73,7 +73,7 @@
     "menara faction",
     "is menara friendly"
    ],
-   "answer": "Menara Voidrender acts neutrally toward practitioners of the dark arts regardless of their origins. While stern and prickly, she aids any disciplined warlock who seeks her guidance."
+   "answer": "Menara Voidrender aids disciplined warlocks regardless of their origins. She is stern and prickly, but treats practitioners of the dark arts without regard to faction."
   },
   {
    "q": "Why do warlocks congregate across racial lines?",
@@ -81,25 +81,25 @@
     "warlock unity",
     "why do warlocks work together"
    ],
-   "answer": "As Menara notes, the demonic entities warlocks summon do not discriminate between races when striking back at careless summoners. Survival and mastery over the Twisting Nether necessitate shared knowledge and mutual survival over faction squabbles."
+   "answer": "Demons can strike back at careless summoners of any race. Warlocks share knowledge and seek mutual survival as they master the Twisting Nether."
   }
  ],
  "angles": [
   {
    "target": "class:Warlock",
-   "text": "This journey represents a crucial rite of passage into advanced spellcraft, leading directly to the creation of the warlock's Enchanted Gold Bloodrobe."
+   "text": "As a warlock, you seek advanced spellcraft that leads to crafting your Enchanted Gold Bloodrobe."
   },
   {
    "target": "faction:Alliance",
-   "text": "Venturing deep into the Barrens requires navigating hostile territory, relying on the tenuous neutrality of Ratchet to access Strahad's tower."
+   "text": "As an Alliance warlock, you cross hostile Barrens territory and rely on Ratchet's tenuous neutrality to reach Strahad's tower."
   },
   {
    "target": "race:Gnome",
-   "text": "Gnomish warlocks who have exercised careful restraint against arcane and fel corruption find that Menara respects practical control far more than raw theoretical dabbling."
+   "text": "As a gnomish warlock, your restraint against arcane and fel corruption matters to Menara, who values practical control over theory."
   },
   {
    "target": "race:Human",
-   "text": "Human practitioners accustomed to the hidden cults of Stormwind and Ironforge must adapt to the relative openness of Ratchet's secluded summit."
+   "text": "As a human warlock, you leave behind the hidden cults of Stormwind and Ironforge for Ratchet's secluded summit."
   }
  ],
  "keywords": [
@@ -121,5 +121,6 @@
  ],
  "attribution": [
   "In Search of Menara Voidrender (Ironforge)"
- ]
+ ],
+ "style": 1
 }

@@ -11,16 +11,16 @@
    "quest:5727"
   ]
  },
- "summary": "A Lieutenant's Insignia is a token worn by ranking members of the Burning Blade cult hiding within Durotar. Warchief Thrall employs it as a ruse, instructing an operative to present the emblem to Neeru Fireblade to discover whether the warlock is tied to the Shadow Council's local operations.",
+ "summary": "Within Durotar, Lieutenant's Insignia carries the Burning Blade's mark. Horde adventurers recover it from cultists near Orgrimmar.",
  "sections": [
   {
    "title": "A Mark of the Cult",
-   "body": "Recovered from cultists entrenched inside Skull Rock along Durotar's eastern shore, the Lieutenant's Insignia identifies its bearer as an officer within the Burning Blade. While Warchief Thrall refuses to tolerate traitors within his new nation, an outright purge would merely scatter the cult before its masters could be exposed. Instead, Thrall turns the badge into a counterfeit credential, handing it back to a trusted champion to test the allegiances of suspected infiltrators lurking directly beneath Orgrimmar.",
+   "body": "Cultists at Skull Rock on Durotar's eastern shore carry Lieutenant's Insignia. The emblem marks its bearer as an officer of the Burning Blade. Warchief Thrall will not tolerate traitors in his new nation, but a purge could scatter the cult before its masters are exposed. He gives the badge to a trusted champion to test suspected infiltrators beneath Orgrimmar.",
    "spoiler": 0
   },
   {
    "title": "The Cleft of Shadow",
-   "body": "Thrall directs his agent to take the token into the Cleft of Shadow and present it to the warlock Neeru Fireblade. Believing he is greeting a newly promoted subordinate, Neeru takes the bait completely. Blinded by arrogance, the warlock openly boasts that the Burning Blade operates as a direct instrument of the Shadow Council and the Burning Legion, unwittingly giving Thrall the opening he needs to expose the corruption rooted beneath the city.",
+   "body": "Warchief Thrall sends his agent to the Cleft of Shadow with Lieutenant's Insignia, to present it to Neeru Fireblade. Neeru mistakes the agent for a newly promoted subordinate. Confident in his standing, the warlock boasts that the Burning Blade serves the Shadow Council and the Burning Legion. His words give Thrall a way to expose the corruption beneath the city.",
    "spoiler": 1
   }
  ],
@@ -32,7 +32,7 @@
     "who drops lieutenants insignia",
     "lieutenant insignia source"
    ],
-   "answer": "It is recovered from Burning Blade fanatics and apprentices operating inside Skull Rock, a cavern along the coast east of Orgrimmar in Durotar."
+   "answer": "Burning Blade fanatics and apprentices in Skull Rock carry the Lieutenant's Insignia. The cavern lies on the coast east of Orgrimmar, in Durotar."
   },
   {
    "q": "What is the insignia used for?",
@@ -41,7 +41,7 @@
     "lieutenants insignia quest use",
     "what to do with insignia"
    ],
-   "answer": "Warchief Thrall uses the insignia to establish a disguise for his agent. Bearing it, a young adventurer can pass as an officer of the Burning Blade and go where Thrall's own agents cannot, to learn who truly leads the cult."
+   "answer": "Warchief Thrall gives the insignia to his agent as a disguise. A young adventurer bearing it can pass as a Burning Blade officer and reach places Thrall's own agents cannot, to learn who leads the cult."
   },
   {
    "q": "Who is Neeru Fireblade?",
@@ -49,7 +49,7 @@
     "who is neeru",
     "neeru fireblade lore"
    ],
-   "answer": "Neeru Fireblade is an orc warlock residing in Orgrimmar's Cleft of Shadow. While claiming to serve Thrall by demonstrating that warlocks can aid the Horde, he is secretly the local leader of the Burning Blade cult."
+   "answer": "Neeru Fireblade is an orc warlock in Orgrimmar's Cleft of Shadow. He claims to serve Thrall by showing how warlocks can aid the Horde, but secretly leads the local Burning Blade cult."
   },
   {
    "q": "Why doesn't Thrall just kill Neeru Fireblade immediately?",
@@ -58,17 +58,17 @@
     "why keep neeru alive",
     "why infiltrate neeru"
    ],
-   "answer": "Thrall knows Neeru is a traitor, but striking prematurely would only warn the cult's true masters and scatter their network. Thrall prefers to manipulate Neeru as an unwitting informant to uncover the broader Shadow Council presence in Durotar."
+   "answer": "Thrall knows Neeru is a traitor, but an early strike could warn the cult's true masters and scatter its network. He uses Neeru as an unwitting informant to uncover the Shadow Council's wider presence in Durotar."
   }
  ],
  "angles": [
   {
    "target": "faction:Horde",
-   "text": "For the young Horde, the insignia represents the insidious threat of demonic corruption attempting to subvert Thrall's new nation from within."
+   "text": "For the young Horde, the insignia marks the danger of demonic corruption trying to undermine Thrall's new nation from within."
   },
   {
    "target": "class:Warlock",
-   "text": "The badge showcases how the Burning Blade misuses fel magic to serve the Burning Legion, directly complicating Thrall's tenuous tolerance of lawful Horde warlocks."
+   "text": "For a warlock, the badge shows the Burning Blade turning fel magic to the Burning Legion's service, straining Thrall's tolerance of lawful Horde warlocks."
   }
  ],
  "keywords": [
@@ -96,5 +96,6 @@
   "Lieutenant's Insignia",
   "Hidden Enemies",
   "Hidden Enemies (2)"
- ]
+ ],
+ "style": 1
 }

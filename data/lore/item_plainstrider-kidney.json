@@ -10,11 +10,11 @@
    "quest:821"
   ]
  },
- "summary": "A harvested organ taken from the swift-footed plainstriders roaming the arid plains of the Barrens. Though unappetizing to most travelers, it serves as a bizarre yet essential component in exotic Kalimdor brewing traditions.",
+ "summary": "Across the Barrens, hunters harvest Plainstrider Kidney for Kalimdor's unusual brewing traditions. The organ is unappetizing to most travelers, yet essential to an exotic brew.",
  "sections": [
   {
    "title": "An Unorthodox Brewing Ingredient",
-   "body": "The vast expanses of the Barrens are populated by tall, flightless birds known as plainstriders. While their feathers and meat are often claimed by hunters for tools and simple rations, Brewmaster Drohn in Ratchet seeks their internal organs for an entirely different purpose. According to the eccentric brewer, plainstrider kidneys are a necessary ingredient to replicate Chen Stormstout's legendary potent ale, imparting a unique kick passed down through an unconventional lineage of brewmasters.",
+   "body": "The vast, arid plains of the Barrens are home to tall, flightless plainstriders. Hunters often take their feathers and meat for tools and simple rations, while Brewmaster Drohn in Ratchet seeks their internal organs for another purpose. Drohn says plainstrider kidneys are needed to recreate Chen Stormstout's legendary potent ale. He claims the kidneys give the brew a unique kick, in a tradition passed down through an unconventional line of brewmasters.",
    "spoiler": 0
   }
  ],
@@ -26,7 +26,7 @@
     "why do i need plainstrider kidneys",
     "plainstrider kidney purpose"
    ],
-   "answer": "Brewmaster Drohn in Ratchet requires them to recreate a legendary batch of Stormstout ale. He claims the recipe was taught to his mentor directly by the wandering pandaren Brewmaster, Chen Stormstout."
+   "answer": "Brewmaster Drohn in Ratchet needs plainstrider kidneys to recreate a legendary batch of Stormstout ale. He says his mentor learned the recipe directly from Chen Stormstout, the wandering pandaren Brewmaster."
   },
   {
    "q": "Why would someone brew ale with animal organs?",
@@ -35,7 +35,7 @@
     "why kidney in stormstout",
     "animal parts in alcohol"
    ],
-   "answer": "Exotic brews in Kalimdor often incorporate rugged local wildlife parts to achieve strong, memorable flavors and distinct kicks. Brewmaster Drohn notes that crafting such potent, wild recipes fondly reminds him of unorthodox creations like trogg brew."
+   "answer": "Kalimdor's exotic brews often use parts from rugged local wildlife to give them strong, memorable flavors and distinct kicks. Brewmaster Drohn says making such potent, wild recipes reminds him fondly of unorthodox creations like trogg brew."
   },
   {
    "q": "Which creatures yield these kidneys?",
@@ -44,7 +44,7 @@
     "who drops plainstrider kidney",
     "plainstrider kidney source"
    ],
-   "answer": "They are harvested from the various species of plainstriders running across the Barrens, including fleeting, ornery, and greater plainstriders."
+   "answer": "Various species of plainstriders that run across the Barrens yield these kidneys, including fleeting, ornery, and greater plainstriders."
   },
   {
    "q": "What other ingredients are needed alongside the kidneys?",
@@ -53,17 +53,17 @@
     "what else does drohn need",
     "stormstout ingredients"
    ],
-   "answer": "To complete his concoction, Brewmaster Drohn asks for five plainstrider kidneys, five savannah lion tusks, and a single thunder lizard horn."
+   "answer": "Brewmaster Drohn asks for five plainstrider kidneys, five savannah lion tusks, and one thunder lizard horn to complete his concoction."
   }
  ],
  "angles": [
   {
    "target": "profession:Cooking",
-   "text": "Culinary adventurers might balk at fermenting avian kidneys into fine spirits, yet Kalimdor's wilderness survival often relies on making full use of every part of the kill."
+   "text": "As a cook, you may balk at fermenting avian kidneys into fine spirits. In Kalimdor's wilderness, survival often means making full use of every part of the kill."
   },
   {
    "target": "class:Hunter",
-   "text": "Field dressing plainstriders across the savanna tests a hunter's precision, ensuring the internal organs remain intact for trade with Ratchet's brewmasters."
+   "text": "As a hunter, you must dress plainstriders carefully across the savanna to keep their internal organs intact for trade with Ratchet's brewmasters."
   }
  ],
  "keywords": [
@@ -87,5 +87,6 @@
  "attribution": [
   "Plainstrider Kidney",
   "Chen's Empty Keg (2)"
- ]
+ ],
+ "style": 1
 }

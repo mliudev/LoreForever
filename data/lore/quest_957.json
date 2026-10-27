@@ -17,21 +17,21 @@
   "wiki": "Bashal'Aran (4)",
   "chain": []
  },
- "summary": "This quest marks the final step in freeing the spirit of Asterion from his ancient imprisonment in the ruins of Bashal'Aran. By carrying his binding seal south to the sister ruins of Ameth'Aran, an adventurer can shatter his bonds and help free him from his ancient prison.",
+ "summary": "At Bashal'Aran, Asterion's spirit remains bound by an ancient seal. You carry it south to Ameth'Aran, where an old flame may break his bonds.",
  "sections": [
   {
    "title": "A Prison of Ancient Sorcery",
-   "body": "The spirit Asterion has lingered in Bashal'Aran for millennia, chained in death by an Ancient Moonstone Seal. Forged through the mighty sorceries of the Highborne caste before the Great Sundering, the seal cannot be shattered by mundane strength. Its destruction requires the specific magic of an ancient flame that still smolders amid the fallen stonework of Ameth'Aran to the south.",
+   "body": "Asterion's spirit remains chained in death at Bashal'Aran, bound by an Ancient Moonstone Seal. Highborne sorcerers forged it before the Great Sundering, and ordinary strength cannot break its power. Only an ancient flame still burning among the fallen stones of Ameth'Aran to the south can destroy it.",
    "spoiler": 0
   },
   {
    "title": "Twin Ruins of Darkshore",
-   "body": "Bashal'Aran and Ameth'Aran were once vibrant sister settlements of the kaldorei civilization, back when Queen Azshara reigned and the Well of Eternity still anchored their empire. Today, both sites are overgrown, haunted ruins filled with lingering ghosts and volatile arcane energies. Within a stone gazebo in Ameth'Aran, a mystical brazier holding a cyan-hued fire offers the only power capable of consuming Asterion's binding relic.",
+   "body": "Bashal'Aran and Ameth'Aran were sister settlements of the kaldorei when Queen Azshara ruled and the Well of Eternity anchored their empire. Now both are overgrown, haunted ruins where ghosts linger and arcane energies remain volatile. In a stone gazebo at Ameth'Aran, a mystical brazier burns with cyan fire, the only power able to consume Asterion's binding relic.",
    "spoiler": 0
   },
   {
    "title": "Vengeance Awakens",
-   "body": "With the seal destroyed, Asterion is finally unburdened, gazing upon a shattered Kalimdor vastly altered from the golden age he remembers. Yet his freedom does not bring him peace. Sensing that his former master and jailor, the Highborne Athrikus, still endures, Asterion's ancient despair quickly turns into a cold, burning hunger for revenge.",
+   "body": "Asterion is free once the seal is destroyed, and sees a shattered Kalimdor far changed from the golden age he remembers. Freedom brings no peace: he senses that Athrikus, his former Highborne master and jailor, still endures. Asterion's despair turns to a cold hunger for revenge.",
    "spoiler": 1
   }
  ],
@@ -43,7 +43,7 @@
     "who is the ghost",
     "npc asterion"
    ],
-   "answer": "Asterion is a night elf spirit trapped within the ruins of Bashal'Aran. He dates back ten thousand years to the reign of Queen Azshara, and is bound to the ruins by a seal crafted by one of the most powerful of the Highborne."
+   "answer": "Asterion is a night elf spirit trapped in the ruins of Bashal'Aran. He dates back ten thousand years, to Queen Azshara's reign, and a seal made by one of the most powerful Highborne binds him there."
   },
   {
    "q": "Where do I destroy the Ancient Moonstone Seal?",
@@ -52,7 +52,7 @@
     "ancient flame location",
     "destroy seal"
    ],
-   "answer": "The seal must be taken south to Ameth'Aran, the twin ruin of Bashal'Aran. Look for a stone gazebo sheltering a large cubical brazier that burns with an ancient, greenish-blue magical fire."
+   "answer": "Carry the Ancient Moonstone Seal south to Ameth'Aran, Bashal'Aran's twin ruin. A stone gazebo shelters a large cubical brazier whose ancient greenish-blue fire can destroy it."
   },
   {
    "q": "What is the relationship between Bashal'Aran and Ameth'Aran?",
@@ -61,7 +61,7 @@
     "ametharan connection",
     "bashalaran ametharan"
    ],
-   "answer": "They were sister cities of the ancient night elf empire before the Sundering. Both fell to devastation ten thousand years ago, leaving behind haunted stone pillars, residual arcane energies, and restless spirits."
+   "answer": "Bashal'Aran and Ameth'Aran were sister cities in the ancient night elf empire before the Sundering. Both were devastated ten thousand years ago, leaving haunted stone pillars, lingering arcane energies, and restless spirits."
   },
   {
    "q": "Who imprisoned Asterion?",
@@ -70,7 +70,7 @@
     "who is athrikus",
     "asterion master"
    ],
-   "answer": "Asterion says one of the most powerful Highborne created the seal binding him. More about his former master is revealed through the quest chain."
+   "answer": "Asterion says one of the most powerful Highborne made the seal that binds him. His former master is revealed as the story continues."
   },
   {
    "q": "What era does Asterion remember?",
@@ -79,7 +79,7 @@
     "well of eternity era",
     "how old is asterion"
    ],
-   "answer": "Asterion last walked the world when the original Well of Eternity still existed, Queen Azshara ruled the empire, and the Highborne nobility held their majestic courts before the Sundering."
+   "answer": "Asterion remembers the age when the original Well of Eternity still existed, Queen Azshara ruled the empire, and Highborne nobles held their majestic courts before the Sundering."
   },
   {
    "q": "Does freeing Asterion lay his spirit to rest?",
@@ -88,21 +88,21 @@
     "what happens to asterion",
     "asterion after free"
    ],
-   "answer": "Destroying the seal is meant to break Asterion's prison. His response to freedom is revealed when you return to him."
+   "answer": "Destroying the seal is meant to break Asterion's prison. What freedom means to him becomes clear when you return."
   }
  ],
  "angles": [
   {
    "target": "race:NightElf",
-   "text": "For the night elves of modern Kalimdor, freeing Asterion is a sober encounter with their people's pre-Sundering past and the lingering corruption of Queen Azshara's Highborne nobility."
+   "text": "As a night elf of modern Kalimdor, you meet your people's pre-Sundering past and the lingering corruption of Queen Azshara's Highborne nobility when Asterion is freed."
   },
   {
    "target": "class:Mage",
-   "text": "The durable enchantments binding Asterion and the surviving flames of Ameth'Aran offer a glimpse into the raw arcane power wielded by ancient Highborne sorcerers."
+   "text": "As a mage, you glimpse the raw arcane power of ancient Highborne sorcerers in the enchantments binding Asterion and the flames that survive at Ameth'Aran."
   },
   {
    "target": "faction:Alliance",
-   "text": "Clearing the ancient curses in Darkshore secures the borders for new night elf settlements pushing out from Auberdine."
+   "text": "As an Alliance member, you help clear ancient curses in Darkshore and secure the borders for new night elf settlements expanding from Auberdine."
   }
  ],
  "keywords": [
@@ -124,5 +124,6 @@
  ],
  "attribution": [
   "Bashal'Aran (4)"
- ]
+ ],
+ "style": 1
 }

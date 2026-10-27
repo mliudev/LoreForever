@@ -8,11 +8,11 @@
   "wiki": "Sentinel Elissa Starbreeze",
   "refs": 1
  },
- "summary": "Sentinel Elissa Starbreeze is a night elf guardian stationed in Auberdine along the misty coast of Darkshore. Operating from the upper floor of a lodge across the bridge, she monitors growing regional threats and directs travelers toward pressing concerns in the wilderness.",
+ "summary": "In Auberdine, Sentinel Elissa Starbreeze watches over the misty coast of Darkshore. From the upper floor of a lodge across the bridge, she tracks growing threats and directs travelers toward dangers in the wilderness.",
  "sections": [
   {
    "title": "A Vigilant Eye in Auberdine",
-   "body": "While many Sentinels patrol the foggy coastline and woodlands directly, Elissa Starbreeze coordinates defensive efforts from Auberdine. Stationed on the upper level of the building just northeast across the bridge from the town inn, she stays alert to unusual disturbances in Darkshore. Her tasks frequently point adventurers toward remote points of interest, including the mysterious Tower of Althalaxx looming far to the north, ensuring that shadowy incursions do not take the coastal settlement unawares.",
+   "body": "Sentinel Elissa Starbreeze coordinates Auberdine's defenses from across the bridge. While other Sentinels patrol Darkshore's coast and woodlands, she watches from the upper floor of a building northeast of the town inn. She keeps alert for unusual disturbances across the region. Her directions send travelers to distant places, including the Tower of Althalaxx far to the north, so threats in the shadows do not catch Auberdine unaware.",
    "spoiler": 0
   }
  ],
@@ -24,7 +24,7 @@
     "where is elissa starbreeze",
     "auberdine starbreeze"
    ],
-   "answer": "She is located in Auberdine in Darkshore. Cross the small bridge northeast of the town's inn, and head up to the second floor of the building there to find her on duty."
+   "answer": "Sentinel Elissa Starbreeze is on duty in Auberdine, in Darkshore. Cross the small bridge northeast of the inn and go to the second floor of the building there."
   },
   {
    "q": "What is her duty in Darkshore?",
@@ -32,7 +32,7 @@
     "what does elissa do",
     "elissa starbreeze role"
    ],
-   "answer": "As a member of the Night Elf Sentinels, she helps safeguard Auberdine by tracking potential dangers across Darkshore. She directs capable scouts and adventurers to investigate distant outposts and strange threats, such as the Tower of Althalaxx."
+   "answer": "Sentinel Elissa Starbreeze helps guard Auberdine by tracking dangers across Darkshore. She directs scouts and adventurers to distant outposts and strange threats, including the Tower of Althalaxx."
   },
   {
    "q": "Does she have family among the night elves?",
@@ -40,17 +40,17 @@
     "starbreeze family",
     "who is elissa related to"
    ],
-   "answer": "Nothing is recorded of her kin. She is known only by her Sentinel duty in Auberdine, where she watches over the town and sends travelers toward the Tower of Althalaxx."
+   "answer": "Nothing is recorded about Sentinel Elissa Starbreeze's kin. In Auberdine, she watches over the town and sends travelers toward the Tower of Althalaxx."
   }
  ],
  "angles": [
   {
    "target": "race:NightElf",
-   "text": "Sentinel Starbreeze represents the watchful, disciplined protection the Sentinels provide to Kalimdor's northern outposts like Auberdine."
+   "text": "As a night elf, you can see the watchful discipline the Sentinels bring to Kalimdor's northern outposts, including Auberdine."
   },
   {
    "target": "faction:Alliance",
-   "text": "For Alliance travelers arriving from Teldrassil, Starbreeze serves as one of the early contacts directing aid deeper into the haunted wastes of Darkshore."
+   "text": "As an Alliance traveler from Teldrassil, you can look to Sentinel Starbreeze for direction toward dangers deeper in Darkshore."
   }
  ],
  "keywords": [
@@ -71,5 +71,6 @@
  ],
  "attribution": [
   "Sentinel Elissa Starbreeze"
- ]
+ ],
+ "style": 1
 }

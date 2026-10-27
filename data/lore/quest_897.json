@@ -17,16 +17,16 @@
   "wiki": "The Harvester (quest)",
   "chain": []
  },
- "summary": "The Harvester is a quest initiated by discovering the severed head of a strange, alien insectoid predator in the southern Barrens. Bringing this unsettling specimen to Jorn Skyseer at Camp Taurajo reveals disturbing implications for the land's spiritual and ecological balance.",
+ "summary": "A severed head found in the southern Barrens brings The Harvester’s strange presence to Camp Taurajo. Jorn Skyseer examines the remains, and the creature’s intrusion raises concerns for the land’s spiritual and ecological balance.",
  "sections": [
   {
    "title": "An Unnatural Intruder",
-   "body": "Amid the savannahs of the southern Barrens, travelers occasionally come across an unsettling sight: the severed head of a silithid known as the Harvester. Unlike the native lions, raptors, and kodo that roam the grasslands, this chitinous insectoid seems completely outside the natural order of Kalimdor. Its presence suggests an encroaching alien ecology that does not belong in the open plains.",
+   "body": "In the southern Barrens, you find the severed head of a silithid called the Harvester. Lions, raptors, and kodos roam these grasslands, but this chitinous insectoid is unlike the native wildlife. Its presence suggests an alien ecology has reached the open plains of Kalimdor.",
    "spoiler": 0
   },
   {
    "title": "Jorn Skyseer's Premonition",
-   "body": "Upon receiving the creature's head at Camp Taurajo, the tauren mystic Jorn Skyseer examines the remains. Because the beast's spirit has already fled, he cannot divine its origin, but he immediately recognizes that it represents a profound threat. Jorn fears that the creature's intrusion into the Barrens may herald a grim future for the Horde and warns that darker mysteries are brewing beneath the sands.",
+   "body": "At Camp Taurajo, tauren mystic Jorn Skyseer examines the Harvester’s head. The creature’s spirit has already fled, so Jorn cannot divine its origin. He recognizes the remains as a profound threat and fears its intrusion may herald a grim future for the Horde. Darker mysteries are brewing beneath the sands.",
    "spoiler": 1
   }
  ],
@@ -38,7 +38,7 @@
     "what kind of bug is the harvester",
     "harvester creature"
    ],
-   "answer": "The Harvester is a large silithid insectoid prowling the southern reaches of the Barrens. Its chitinous, alien physiology is completely distinct from the region's indigenous wildlife."
+   "answer": "The Harvester is a large silithid insectoid prowling the southern Barrens. Its chitinous form is unlike the region’s native wildlife."
   },
   {
    "q": "Who is Jorn Skyseer?",
@@ -47,7 +47,7 @@
     "who is the turn in npc",
     "jorn taurajo"
    ],
-   "answer": "Jorn Skyseer is a respected tauren elder and spiritual guide stationed at Camp Taurajo. He observes the spiritual health of the plains and offers counsel on matters that threaten the balance of the land."
+   "answer": "Jorn Skyseer is a respected tauren elder and spiritual guide at Camp Taurajo. He watches over the plains’ spiritual health and counsels others when the land’s balance is threatened."
   },
   {
    "q": "Where does the Harvester come from?",
@@ -56,7 +56,7 @@
     "harvester origin",
     "silithid source"
    ],
-   "answer": "While Jorn Skyseer cannot divine its exact origins from the severed head alone, it is an offshoot of the silithid hives spreading upward from the deep deserts to the south."
+   "answer": "Jorn Skyseer cannot divine the Harvester’s exact origin from its severed head. The creature comes from the silithid hives spreading up from the deep deserts to the south."
   },
   {
    "q": "Why does the creature disturb Jorn Skyseer?",
@@ -65,7 +65,7 @@
     "jorn skyseer reaction",
     "grim future"
    ],
-   "answer": "The creature's unnatural form and foreign spirit deeply disturb Jorn. He senses that its presence in the Barrens is not a random occurrence, but an ominous warning of a looming, unnatural threat."
+   "answer": "The Harvester’s unnatural form and foreign spirit deeply disturb Jorn. He senses its presence in the Barrens is no random occurrence, but a warning of an unnatural threat to come."
   },
   {
    "q": "How do you start this quest?",
@@ -74,7 +74,7 @@
     "harvester head drop",
     "start harvester"
    ],
-   "answer": "The quest begins by slaying the rare silithid known as the Harvester in the southern Barrens and looting its severed head, which prompts you to seek the guidance of elders in Camp Taurajo."
+   "answer": "You begin by slaying the rare silithid called the Harvester in the southern Barrens and taking its severed head. Then you seek the elders’ guidance at Camp Taurajo."
   },
   {
    "q": "What does Jorn tell you to do next?",
@@ -83,25 +83,25 @@
     "what after harvester head",
     "jorn next step"
    ],
-   "answer": "Jorn offers no immediate counterattack, recognizing that the Horde must first prepare themselves and remain vigilant as the mystery of the encroaching silithid slowly unravels."
+   "answer": "Jorn offers no immediate counterattack. He believes the Horde must prepare and stay vigilant as the mystery of the encroaching silithid slowly unfolds."
   }
  ],
  "angles": [
   {
    "target": "race:Tauren",
-   "text": "For the Shu'halo, maintaining the Earth Mother's harmony is paramount; encountering an entity that defies the natural order signals profound spiritual disharmony."
+   "text": "As a Shu'halo, you know the Earth Mother’s harmony is paramount. An entity that defies the natural order signals deep spiritual disharmony."
   },
   {
    "target": "class:Shaman",
-   "text": "Shaman will note Jorn Skyseer's frustration that the spirit had fled the head, preventing communion with the elemental forces to discover the creature's true origin."
+   "text": "As a shaman, you understand Jorn Skyseer’s frustration: the spirit has fled the head, preventing communion with the elemental forces to discover the creature’s true origin."
   },
   {
    "target": "class:Druid",
-   "text": "Druids studying the regrowth of Kalimdor can immediately perceive the corruptive, parasitic nature of these alien burrowers invading the savannah."
+   "text": "As a druid, you can see the corruptive, parasitic nature of these alien burrowers invading the savannah."
   },
   {
    "target": "faction:Horde",
-   "text": "Camp Taurajo acts as the Horde's southern shield in the Barrens, making any invasive predator in the surrounding bluffs a vital security concern."
+   "text": "As a member of the Horde, you know Camp Taurajo guards the Barrens’ southern reaches. An invasive predator in the surrounding bluffs threatens the area’s security."
   }
  ],
  "keywords": [
@@ -119,5 +119,6 @@
  ],
  "attribution": [
   "The Harvester (quest)"
- ]
+ ],
+ "style": 1
 }

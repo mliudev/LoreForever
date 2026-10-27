@@ -7,11 +7,11 @@
  "meta": {
   "wiki": "Ban'ethil Hollow"
  },
- "summary": "Ban'ethil Hollow is a rugged ravine cutting into the woodland just south of the main road connecting Dolanaar and Darnassus. It has become a dangerous haven for corrupted, aggressive furbolgs who pose a constant threat to travelers. Tucked away in the back of the ravine lies the entrance to the Ban'ethil Barrow Den.",
+ "summary": "South of the road between Dolanaar and Darnassus, furbolgs threaten travelers in Ban'ethil Hollow. The ravine also hides the entrance to Ban'ethil Barrow Den.",
  "sections": [
   {
    "title": "A Perilous Ravine",
-   "body": "Situated off the highway between Dolanaar and Darnassus, Ban'ethil Hollow is a sharp reminder that the boughs of Teldrassil are not entirely safe. Furbolgs driven mad by the strange affliction plaguing the World Tree have taken refuge throughout the rocky descent. They frequently stalk the nearby path, waiting to ambush unwary couriers and wandering sentinels. Deep within the ravine sits the threshold of the Ban'ethil Barrow Den, where slumbering druids and ancient tunnels face encroachment from the maddened beasts outside.",
+   "body": "Furbolgs roam the rocky descent into Ban'ethil Hollow. Their strange affliction has driven them mad, and they stalk the nearby road, ambushing couriers and wandering sentinels. The hollow lies just south of the road between Dolanaar and Darnassus, a reminder that Teldrassil's woodland is not wholly safe. At the ravine's back stands the entrance to Ban'ethil Barrow Den. Slumbering druids and ancient tunnels lie within, threatened by the maddened beasts outside.",
    "spoiler": 0
   }
  ],
@@ -23,7 +23,7 @@
     "where is ban'ethil hollow",
     "find banethil hollow"
    ],
-   "answer": "Ban'ethil Hollow is a ravine in central Teldrassil, located just south of the primary road running between the village of Dolanaar and the capital city of Darnassus."
+   "answer": "Ban'ethil Hollow is a ravine in central Teldrassil, just south of the main road between Dolanaar and Darnassus."
   },
   {
    "q": "Why are the furbolgs here hostile?",
@@ -32,7 +32,7 @@
     "hostile furbolgs banethil",
     "banethil furbolg attack"
    ],
-   "answer": "The furbolgs across Teldrassil have succumbed to a spreading corruption and madness that grips the World Tree's wildlife. Instead of living peacefully alongside the night elves as they historically have, these tribes have become fiercely territorial and violent."
+   "answer": "A spreading corruption and madness grips the World Tree's wildlife, turning the furbolgs across Teldrassil fiercely territorial and violent. They once lived peacefully alongside the night elves."
   },
   {
    "q": "What is inside the Ban'ethil Barrow Den at the back of the hollow?",
@@ -41,7 +41,7 @@
     "banethil barrow den",
     "den in banethil hollow"
    ],
-   "answer": "The Ban'ethil Barrow Den is an underground complex historically used by night elven druids to enter deep hibernation and commune with the Emerald Dream. However, with corruption rising in the hollow, the den has become dangerous ground."
+   "answer": "Ban'ethil Barrow Den is an underground complex where night elven druids have long entered deep hibernation and communed with the Emerald Dream. Rising corruption in the hollow has made the den dangerous ground."
   },
   {
    "q": "Is the road above the hollow safe to travel?",
@@ -50,17 +50,17 @@
     "furbolg ambushes",
     "road to darnassus safe"
    ],
-   "answer": "The main road is generally patrolled by night elf sentinels, but furbolgs from Ban'ethil Hollow often venture up from the ravine to ambush travelers. Travelers making the journey between Dolanaar and Darnassus should remain on their guard."
+   "answer": "Night elf sentinels patrol the main road, but furbolgs from Ban'ethil Hollow often climb up to ambush travelers. Stay alert on the road between Dolanaar and Darnassus."
   }
  ],
  "angles": [
   {
    "target": "race:NightElf",
-   "text": "Seeing the furbolgs fall to madness so close to the road between Dolanaar and Darnassus is a grim sign of Teldrassil's mounting sickness, requiring young sentinels and druids to step in."
+   "text": "As a night elf, you see furbolgs falling to madness near the road between Dolanaar and Darnassus, a grim sign of Teldrassil's growing sickness. Young sentinels and druids must step in."
   },
   {
    "target": "class:Druid",
-   "text": "The hollow conceals the entrance to Ban'ethil Barrow Den, sacred ground where druids traditionally rest to commune with the Emerald Dream, now endangered by rabid wildlife."
+   "text": "As a druid, you know Ban'ethil Hollow hides the entrance to Ban'ethil Barrow Den, sacred ground where druids rest and commune with the Emerald Dream. Rabid wildlife now threatens it."
   }
  ],
  "keywords": [
@@ -82,5 +82,6 @@
  ],
  "attribution": [
   "Ban'ethil Hollow"
- ]
+ ],
+ "style": 1
 }

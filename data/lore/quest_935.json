@@ -17,16 +17,16 @@
   "wiki": "Crown of the Earth (6)",
   "chain": []
  },
- "summary": "\"Crown of the Earth\" marks the culmination of the moonwell rites across Teldrassil. Handing over the gathered waters to Arch Druid Fandral Staghelm in Darnassus underscores the growing anxiety over the World Tree's flawed, unblessed existence.",
+ "summary": "In Teldrassil, moonwell waters are gathered to tend the World Tree’s sickness. The rites lead to Arch Druid Fandral Staghelm in Darnassus, where concern grows over a tree raised without blessings.",
  "sections": [
   {
    "title": "A Flawed Genesis",
-   "body": "Teldrassil was raised in the wake of the Third War to grant the night elves a new home and restore their lost immortality. However, the Great Aspects Alexstrasza and Nozdormu withheld their blessings, refusing to sanction the tree's creation. Without their divine protection, Teldrassil has fallen victim to creeping sickness, causing bizarre creatures to erupt from the boughs and once-peaceful furbolg tribes to descend into madness.",
+   "body": "Teldrassil rose after the Third War to give the night elves a new home and restore their lost immortality. The Great Aspects Alexstrasza and Nozdormu withheld their blessings and refused to sanction its creation. Without their divine protection, sickness spreads through the tree. Strange creatures emerge from its boughs, and once-peaceful furbolg tribes fall into madness.",
    "spoiler": 0
   },
   {
    "title": "Delivery to the Arch Druid",
-   "body": "Corithras Moonrage tasks young adventurers with gathering waters from moonwells across the island to monitor and soothe the bough's ailments. Consolidating these samples into a single vessel, Corithras sends the runner deep into Darnassus to the Cenarion Enclave. There sits Arch Druid Fandral Staghelm, the architect of Teldrassil, who views the creeping corruption not as an omen of hubris, but as an annoying burden he alone must solve.",
+   "body": "Corithras Moonrage sends young adventurers to gather water from moonwells across Teldrassil, hoping to study and soothe the tree’s ailments. He gathers the samples into one vessel and sends you deep into Darnassus, to the Cenarion Enclave. Arch Druid Fandral Staghelm, who shaped Teldrassil, sees the spreading corruption as a burden he alone must solve.",
    "spoiler": 1
   }
  ],
@@ -38,7 +38,7 @@
     "why does fandral need the vessel",
     "what is the water for"
    ],
-   "answer": "Fandral Staghelm commissioned the gathering of moonwell samples across Teldrassil to study and address the corruption seeping through the World Tree. As the leader who championed the tree's planting, he carries the responsibility of finding a solution to the strange beasts and crazed furbolgs unsettling the canopy."
+   "answer": "Fandral Staghelm wants the moonwell samples to study and address the corruption spreading through the World Tree. As the leader who championed Teldrassil’s planting, he bears responsibility for finding a remedy for the strange beasts and maddened furbolgs in its canopy."
   },
   {
    "q": "Why is Teldrassil plagued by corruption and crazed beasts?",
@@ -47,7 +47,7 @@
     "teldrassil corruption",
     "why are furbolgs mad"
    ],
-   "answer": "Unlike the ancient World Tree Nordrassil, Teldrassil was planted without the blessings of Alexstrasza the Life-Binder or Nozdormu the Timeless. Denied these primal dragon aspects' protection, the new tree's growth is fundamentally flawed, allowing strange malignancies to take root in the soil and warp nearby wildlife and furbolgs."
+   "answer": "Teldrassil suffers corruption and strange beasts because it was planted without the blessings of Alexstrasza the Life-Binder or Nozdormu the Timeless. Unlike the ancient World Tree Nordrassil, it lacks the protection of those primal dragon aspects, leaving its growth flawed and allowing malignancies to warp nearby wildlife and furbolgs."
   },
   {
    "q": "Where is Arch Druid Fandral Staghelm located?",
@@ -56,7 +56,7 @@
     "fandral staghelm location",
     "how to find fandral"
    ],
-   "answer": "Arch Druid Fandral Staghelm resides in Darnassus within the Cenarion Enclave. You can find him atop the central druid pavilion overlooking the enclave's sacred groves."
+   "answer": "Arch Druid Fandral Staghelm is in the Cenarion Enclave in Darnassus. You can find him atop the central druid pavilion, overlooking the enclave’s sacred groves."
   },
   {
    "q": "Who is Corithras Moonrage?",
@@ -65,7 +65,7 @@
     "corithras role",
     "corithras moonrage"
    ],
-   "answer": "Corithras Moonrage is a night elf stationed at Dolanaar who has young adventurers fill phials at Teldrassil's moonwells. He pours the phials they bring into a single vessel and directs couriers to deliver them to Arch Druid Staghelm in Darnassus."
+   "answer": "Corithras Moonrage is a night elf stationed at Dolanaar who sends young adventurers to fill phials at Teldrassil’s moonwells. He pours their waters into one vessel and directs couriers to deliver it to Arch Druid Staghelm in Darnassus."
   },
   {
    "q": "What happens after completing this quest?",
@@ -74,7 +74,7 @@
     "what comes after crown of the earth 6",
     "next quest after crown of the earth"
    ],
-   "answer": "Delivering the filled vessel to Fandral Staghelm concludes the primary Crown of the Earth quest chain in Teldrassil. Staghelm accepts the water rather curtly and directs his attention back to managing the broader threats facing the night elf homeland."
+   "answer": "You deliver the filled vessel to Fandral Staghelm, ending the main Crown of the Earth chain in Teldrassil. He accepts the water curtly and turns back to the wider threats facing the night elf homeland."
   },
   {
    "q": "Why is Fandral Staghelm so dismissive upon receiving the vessel?",
@@ -83,21 +83,21 @@
     "fandral personality",
     "is fandral always grumpy"
    ],
-   "answer": "Fandral Staghelm is notoriously proud, impatient, and burdened by the daunting task of ruling the Cenarion Circle while Malfurion Stormrage remains absent. He views administrative setbacks and slow messengers with disdain, feeling the heavy yoke of Teldrassil's survival rests entirely on his own shoulders."
+   "answer": "Fandral Staghelm is proud and impatient, and he bears the burden of leading the Cenarion Circle while Malfurion Stormrage is absent. He disdains administrative setbacks and slow messengers, believing Teldrassil’s survival rests on his shoulders."
   }
  ],
  "angles": [
   {
    "target": "race:NightElf",
-   "text": "This rite exposes the quiet anxiety beneath your new home: Teldrassil was planted in pride without the Dragon Aspects' blessings, and its growing sickness is a reminder of the fragility of your people's fresh start."
+   "text": "As a night elf, you see the worry beneath your new home: Teldrassil was planted in pride without the Dragon Aspects’ blessings, and its sickness threatens your people’s fresh start."
   },
   {
    "target": "class:Druid",
-   "text": "Carrying moonwell waters to the Arch Druid of the Cenarion Circle brings you directly before Fandral Staghelm, showcasing the fierce political and spiritual divide that has gripped druidic leadership in Malfurion's absence."
+   "text": "As a druid, carrying moonwell waters brings you before Fandral Staghelm, Arch Druid of the Cenarion Circle. His presence reveals the fierce political and spiritual divide among druids while Malfurion is absent."
   },
   {
    "target": "faction:Alliance",
-   "text": "For the wider Alliance, Darnassus is an imposing capital of ancient mystery, but the corrupted wilderness around it proves that even the night elves face internal perils on their own sacred ground."
+   "text": "As an Alliance member, you see Darnassus as a capital of ancient mystery, while the corrupted wilderness around it shows that peril reaches the night elves even on their sacred ground."
   }
  ],
  "keywords": [
@@ -123,5 +123,6 @@
  ],
  "attribution": [
   "Crown of the Earth (6)"
- ]
+ ],
+ "style": 1
 }

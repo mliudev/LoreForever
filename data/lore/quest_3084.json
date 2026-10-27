@@ -17,16 +17,16 @@
   "wiki": "Rune-Inscribed Tablet (quest)",
   "chain": []
  },
- "summary": "The Rune-Inscribed Tablet is a summoning missive delivered to aspiring shamans training in the Valley of Trials. Sent by Shikrik, it invites promising initiates to begin formal instruction in communing with the spirits and commanding the elemental forces of earth, fire, water, and air.",
+ "summary": "In the Valley of Trials, new shamans receive a summons from Shikrik. It calls promising initiates to formal training in the spirits and the elements: earth, fire, water, and air.",
  "sections": [
   {
    "title": "A Call to the Spirits",
-   "body": "After proving their early discipline in the dusty training grounds of the Valley of Trials, fledgling shamans are handed a carved stone tablet by Gornek. The runes upon it serve as an invitation from Shikrik, the local shaman trainer, signaling that the initiate is ready to look beyond simple physical combat and heed the deeper currents of the natural world.",
+   "body": "Gornek gives fledgling shamans a carved stone tablet after they prove their early discipline in the dusty training grounds of the Valley of Trials. Its runes carry an invitation from Shikrik, the local shaman trainer. The summons tells each initiate they are ready to look beyond physical combat and heed the deeper currents of the natural world.",
    "spoiler": 0
   },
   {
    "title": "Spiritual Leadership in the New Horde",
-   "body": "Shamanism occupies a sacred place in the revitalized Horde. As Shikrik teaches, shamans draw their power from the four elemental forces and their strength from ancestral spirits. Emulating Warchief Thrall, shamans are expected to be spiritual guides and bulwarks of wisdom for their communities, offering protection to the settlements taking root across Durotar.",
+   "body": "Shamanism holds a sacred place in the revitalized Horde. Shikrik teaches that shamans draw power from the four elements and strength from ancestral spirits. They follow Warchief Thrall's example as spiritual guides and sources of wisdom for their communities. Across Durotar, they protect the settlements taking root.",
    "spoiler": 0
   }
  ],
@@ -38,7 +38,7 @@
     "tablet item",
     "shaman tablet"
    ],
-   "answer": "It is an inscribed stone tablet passed to novice shamans by Gornek in the Valley of Trials. It carries a summons from the shaman trainer Shikrik, urging the young adventurer to formalize their training in spiritual and elemental arts."
+   "answer": "Gornek gives novice shamans in the Valley of Trials an inscribed stone tablet bearing a summons from Shikrik. It calls the young adventurer to formal training in spiritual and elemental arts."
   },
   {
    "q": "Who is Shikrik?",
@@ -47,7 +47,7 @@
     "who is shikrik",
     "shaman trainer valley of trials"
    ],
-   "answer": "Shikrik is the shaman trainer stationed near the mouth of the Den in the Valley of Trials. She guides new orc and troll shamans in mastering the elements and understanding their duty as spiritual leaders within the Horde."
+   "answer": "Shikrik is the shaman trainer near the mouth of the Den in the Valley of Trials. She guides new orc and troll shamans in mastering the elements and learning their duty as spiritual leaders within the Horde."
   },
   {
    "q": "Why does Shikrik invoke Thrall when speaking to new shamans?",
@@ -55,7 +55,7 @@
     "why thrall",
     "shikrik mentioning thrall"
    ],
-   "answer": "Warchief Thrall led the revival of ancestral shamanism after the demonic corruption of the Old Horde. Shikrik points to Thrall as the quintessential example of a shaman's duty: balancing elemental harmony with guiding and protecting his people."
+   "answer": "Warchief Thrall led the revival of ancestral shamanism after demonic corruption consumed the Old Horde. Shikrik points to him as an example of a shaman's duty to keep elemental harmony while guiding and protecting his people."
   },
   {
    "q": "Where is Shikrik located?",
@@ -63,7 +63,7 @@
     "where is shikrik",
     "find shikrik"
    ],
-   "answer": "Shikrik stands just outside the entrance to the Den on the eastern side of the Valley of Trials, ready to teach novice shamans their early techniques."
+   "answer": "Shikrik is just outside the Den's entrance on the eastern side of the Valley of Trials, ready to teach novice shamans their early techniques."
   },
   {
    "q": "Who hands out the tablet?",
@@ -71,7 +71,7 @@
     "who gives the tablet",
     "gornek tablet"
    ],
-   "answer": "Gornek, who oversees the initial trials of newcomers arriving in the Valley of Trials, delivers the tablet once an initiate has proven their basic mettle."
+   "answer": "Gornek oversees the first trials of newcomers arriving in the Valley of Trials. He gives the tablet to an initiate who has proved their basic mettle."
   },
   {
    "q": "What core philosophy does Shikrik teach?",
@@ -79,25 +79,25 @@
     "shikrik philosophy",
     "shaman teachings"
    ],
-   "answer": "Shikrik stresses that a shaman's raw power is drawn from fire, earth, water, and air, while their endurance and resolve stem from the ancestral spirits. Shamans are expected to offer wisdom and defense to whatever towns or warbands they join."
+   "answer": "Shikrik teaches that a shaman draws power from fire, earth, water, and air, and endurance and resolve from ancestral spirits. Shamans are expected to offer wisdom and defense to the towns or warbands they join."
   }
  ],
  "angles": [
   {
    "target": "class:Shaman",
-   "text": "This tablet marks your formal initiation into the shamanic path, charging you to balance the elemental powers and serve as a beacon of ancestral guidance."
+   "text": "As a shaman, you receive this tablet as your formal initiation into the path. It charges you to balance elemental powers and guide others through ancestral wisdom."
   },
   {
    "target": "race:Orc",
-   "text": "The tablet reflects the modern orcish return to ancestral shamanism championed by Thrall, leaving behind the dark warlock legacies of the demonic past."
+   "text": "As an orc, you see in this tablet the return to ancestral shamanism championed by Thrall, leaving behind the demonic past's warlock legacy."
   },
   {
    "target": "race:Troll",
-   "text": "Darkspear trolls practicing shamanism find common ground with orc mentors like Shikrik, blending their ancestral communion with the Horde's shared elemental traditions."
+   "text": "As a troll, you find common ground in shamanism with orc mentors like Shikrik. You join your ancestral communion with the Horde's shared elemental traditions."
   },
   {
    "target": "faction:Horde",
-   "text": "Shamanism is the moral and spiritual backbone of the new Horde, offering a compass of honor and balance across the harsh frontier."
+   "text": "As a member of the Horde, you share a tradition of shamanism that offers honor and balance across the harsh frontier."
   }
  ],
  "keywords": [
@@ -121,5 +121,6 @@
  ],
  "attribution": [
   "Rune-Inscribed Tablet (quest)"
- ]
+ ],
+ "style": 1
 }

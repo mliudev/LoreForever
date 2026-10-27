@@ -8,16 +8,16 @@
   "wiki": "Melithar Staghelm",
   "refs": 1
  },
- "summary": "Melithar Staghelm is a night elf stationed just outside Aldrassil in Shadowglen, Teldrassil's starting glade. He assists young night elf adventurers as they embark on their early training, sending them to learn what has brought the dryad Tarindrella back to the glade. While he shares the prominent Staghelm surname with Archdruid Fandral Staghelm, his exact connection to the ruling druid remains unconfirmed.",
+ "summary": "Outside Aldrassil in Shadowglen, Melithar Staghelm guides young night elves. He sends them to learn why the dryad Tarindrella has returned to the glade. His Staghelm name links him to Archdruid Fandral Staghelm, though their connection is unknown.",
  "sections": [
   {
    "title": "A Guide at Aldrassil",
-   "body": "Standing directly outside the entrance to the great bough of Aldrassil, Melithar serves as an early point of contact for night elves emerging into the world. A druid who listens to the whisperings of the forest spirits, he has learned that the mysterious woodland protector Tarindrella has returned to Shadowglen after years away. Sensing that something is amiss, Melithar sends newcomers to seek out the dryad southwest of Aldrassil and learn what business brings her to the grove.",
+   "body": "Melithar Staghelm waits outside Aldrassil, where night elves first step into the world. A druid who listens to the forest spirits, he has learned that Tarindrella, a woodland protector, has returned to Shadowglen after years away. Sensing trouble, Melithar sends newcomers southwest of Aldrassil to find the dryad and learn why she has come back to the grove.",
    "spoiler": 0
   },
   {
    "title": "The Staghelm Name",
-   "body": "Bearing the surname Staghelm inevitably draws attention, as Archdruid Fandral Staghelm currently leads the Cenarion Circle in Darnassus following Malfurion Stormrage's disappearance into the Emerald Dream. However, Melithar makes no outward boast of grand heritage, nor does he actively speak of his lineage. Whether he is a distant kinsman of the Archdruid's venerable family line or merely shares an ancient Kaldorei family name, Melithar remains content fulfilling humble duties at the roots of Aldrassil.",
+   "body": "The Staghelm name draws notice because Archdruid Fandral Staghelm leads the Cenarion Circle in Darnassus, after Malfurion Stormrage disappeared into the Emerald Dream. Melithar makes no claim to a grand heritage and says nothing of his lineage. Whether he belongs to the Archdruid's family or shares an ancient Kaldorei name remains unknown. For now, Melithar tends to his humble duties at the roots of Aldrassil.",
    "spoiler": 0
   }
  ],
@@ -29,7 +29,7 @@
     "who is melithar",
     "melithar shadowglen"
    ],
-   "answer": "Melithar Staghelm is a night elf quest giver stationed on the pathway outside the bough of Aldrassil in Shadowglen. He helps newly arrived night elf adventurers get their bearings and sends them to find the dryad Tarindrella."
+   "answer": "Melithar Staghelm is a night elf who guides newcomers outside Aldrassil in Shadowglen. He sends them to find the dryad Tarindrella."
   },
   {
    "q": "Is Melithar related to Archdruid Fandral Staghelm?",
@@ -38,7 +38,7 @@
     "fandral brother",
     "staghelm family"
    ],
-   "answer": "Their exact kinship is unknown. While they share the Staghelm name, Melithar never comments on being related to Archdruid Fandral Staghelm or his late son Valstann. It remains unclear whether he is a distant relative or simply shares a common Kaldorei surname."
+   "answer": "Their exact kinship is unknown. Melithar never says whether he is related to Archdruid Fandral Staghelm or Fandral's late son Valstann. He may be a distant relative, or they may simply share a Kaldorei surname."
   },
   {
    "q": "What role does Melithar play for new adventurers?",
@@ -46,7 +46,7 @@
     "melithar quests",
     "what does melithar do"
    ],
-   "answer": "Melithar has heard through the whisperings of the forest spirits that the dryad Tarindrella, the woodland protector, has returned to Shadowglen after years away. He sends novices to find her southwest of Aldrassil and learn what business brings her to the grove."
+   "answer": "Melithar sends newcomers southwest of Aldrassil to find Tarindrella, a woodland protector who has returned to Shadowglen after years away. The forest spirits have told him of her return, and he wants them to learn why she has come to the grove."
   },
   {
    "q": "Where can I find Melithar Staghelm?",
@@ -55,13 +55,13 @@
     "where is melithar",
     "find melithar staghelm"
    ],
-   "answer": "He stands right on the wooden rampway outside the entrance of Aldrassil, in the center of Shadowglen on Teldrassil."
+   "answer": "Melithar Staghelm stands on the wooden ramp outside Aldrassil's entrance, in the center of Shadowglen on Teldrassil."
   }
  ],
  "angles": [
   {
    "target": "race:NightElf",
-   "text": "For night elves embarking on their journey in Shadowglen, Melithar is one of the very first faces encountered after departing Aldrassil's shelter."
+   "text": "As a night elf setting out in Shadowglen, you meet Melithar soon after leaving Aldrassil's shelter."
   }
  ],
  "keywords": [
@@ -81,5 +81,6 @@
  ],
  "attribution": [
   "Melithar Staghelm"
- ]
+ ],
+ "style": 1
 }

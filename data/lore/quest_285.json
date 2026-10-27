@@ -1,0 +1,67 @@
+{
+ "key": "quest:285",
+ "type": "quest",
+ "name": "Search More Hovels",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   285
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "The Murloc hovels have revealed nothing, but you suspect the Menethil Statuette lies farther north. You continue searching for the next clue.",
+ "sections": [
+  {
+   "title": "Northward Search",
+   "body": "You believe one of the hovels to the north holds the Menethil Statuette. The search continues among the Murloc dwellings.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What am I searching for?",
+   "aliases": [
+    "statuette search",
+    "menethil statue",
+    "what am i looking for"
+   ],
+   "answer": "You are searching the Murloc hovels for the Menethil Statuette."
+  },
+  {
+   "q": "Did these hovels have the statuette?",
+   "aliases": [
+    "empty hovels",
+    "find anything here",
+    "what did the hovels show"
+   ],
+   "answer": "A thorough inspection of this group of hovels reveals nothing."
+  },
+  {
+   "q": "Where might the statuette be?",
+   "aliases": [
+    "where is the statuette",
+    "north hovels",
+    "statuette location"
+   ],
+   "answer": "You believe one of the Murloc hovels to the north may hold the Menethil Statuette."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "barrel",
+  "menethil statuette",
+  "murloc hovels",
+  "north hovels",
+  "search more hovels"
+ ],
+ "related": [
+  "topic:murloc",
+  "item:menethil-statuette"
+ ],
+ "style": 1,
+ "attribution": [
+  "In-game quest text: Search More Hovels"
+ ]
+}

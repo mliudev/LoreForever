@@ -17,16 +17,16 @@
   "wiki": "Returning the Lost Satchel",
   "chain": []
  },
- "summary": "This errand concludes the search for Maur Grimtotem deep inside Ragefire Chasm beneath Orgrimmar. Having discovered the slain tauren clinging tightly to his pack, adventurers must carry the recovered satchel back to Rahauro on Elder Rise in Thunder Bluff.",
+ "summary": "In Ragefire Chasm beneath Orgrimmar, the search for Maur Grimtotem ends with his satchel. You must carry it back to Rahauro on Elder Rise in Thunder Bluff.",
  "sections": [
   {
    "title": "A Grim Discovery",
-   "body": "Beneath the red rock and fiery depths of Ragefire Chasm, Maur Grimtotem met a brutal end at the hands of the troggs. Even in death, his arms remained locked around his personal satchel, guarding its contents with his final breath. Prying the bag loose from his stiffened grip provides the only clue as to what brought a member of the Grimtotem clan down into the volcanic caverns below Thrall's capital.",
+   "body": "Maur Grimtotem was slain by troggs in the fiery depths of Ragefire Chasm beneath Orgrimmar. Even in death, his arms clung to his personal satchel. Freeing it from his grip is the only clue to why a member of the Grimtotem clan entered the volcanic caverns beneath Thrall's capital.",
    "spoiler": 0
   },
   {
    "title": "Magatha's Interest",
-   "body": "Upon delivering the satchel to Rahauro on Elder Rise, it becomes apparent that the mission was overseen by Magatha Grimtotem herself. Rahauro accepts the package gratefully, seeking answers for why one of Magatha's clan died needlessly, and delivers a reward authorized directly by the Elder Crone. What Maur was carrying\u2014or why Magatha sent him into the trogg-infested fissures of Orgrimmar\u2014remains known only to the leadership of the Grimtotem clan.",
+   "body": "Rahauro receives the satchel gratefully on Elder Rise and seeks answers about why one of Magatha Grimtotem's clan died needlessly. Magatha Grimtotem herself oversaw the effort, and Rahauro gives a reward authorized by the Elder Crone. What Maur carried, or why Magatha sent him into Orgrimmar's trogg-infested fissures, is known only to Grimtotem leadership.",
    "spoiler": 1
   }
  ],
@@ -38,7 +38,7 @@
     "find maur grimtotem",
     "where is maur"
    ],
-   "answer": "Maur Grimtotem's corpse lies deep inside the Ragefire Chasm dungeon beneath Orgrimmar, surrounded by hostile troggs."
+   "answer": "Maur Grimtotem's corpse lies deep in Ragefire Chasm beneath Orgrimmar, surrounded by hostile troggs."
   },
   {
    "q": "Who do I turn the satchel in to?",
@@ -47,7 +47,7 @@
     "where is rahauro",
     "satchel turn in"
    ],
-   "answer": "The Grimtotem Satchel must be brought back to Rahauro, who stands on the Elder Rise in Thunder Bluff."
+   "answer": "Bring the Grimtotem Satchel to Rahauro on Elder Rise in Thunder Bluff."
   },
   {
    "q": "Why was Maur Grimtotem in Ragefire Chasm?",
@@ -56,7 +56,7 @@
     "maur mission",
     "what was maur doing"
    ],
-   "answer": "Rahauro claims not to know why Magatha's clansman had to die needlessly, but Magatha Grimtotem personally ordered the recovery effort, suggesting Maur was acting on clan business."
+   "answer": "Rahauro says he does not know why Magatha's clansman had to die needlessly. Magatha Grimtotem personally ordered the recovery effort, suggesting Maur may have been acting on clan business."
   },
   {
    "q": "What is inside the Grimtotem Satchel?",
@@ -64,7 +64,7 @@
     "what was in the bag",
     "satchel contents"
    ],
-   "answer": "The exact contents are never revealed to the courier. Maur protected it fiercely until his death, and it is handed over unopened directly to Rahauro on Magatha's behalf."
+   "answer": "The satchel's contents are never revealed to the courier. Maur guarded it fiercely until his death, and it is handed unopened directly to Rahauro on Magatha's behalf."
   },
   {
    "q": "What killed Maur Grimtotem?",
@@ -72,7 +72,7 @@
     "how did maur die",
     "who killed maur"
    ],
-   "answer": "Maur was ambushed and killed by the savage troggs that infest the tunnels of Ragefire Chasm."
+   "answer": "Savage troggs ambushed and killed Maur in the tunnels of Ragefire Chasm."
   },
   {
    "q": "Who is behind this task?",
@@ -80,17 +80,17 @@
     "who sent rahauro",
     "magatha connection"
    ],
-   "answer": "While Rahauro acts as the contact on Elder Rise, the reward and directive come directly from Elder Crone Magatha Grimtotem."
+   "answer": "Rahauro is the contact on Elder Rise, while Elder Crone Magatha Grimtotem gives the directive and authorizes the reward."
   }
  ],
  "angles": [
   {
    "target": "race:Tauren",
-   "text": "The Grimtotem clan has an uneasy relationship with Cairne Bloodhoof's people, making any clandestine operation by Magatha's followers in Orgrimmar a cause for suspicion."
+   "text": "The Grimtotem clan has an uneasy relationship with Cairne Bloodhoof's people. Any secret operation by Magatha's followers in Orgrimmar gives cause for suspicion."
   },
   {
    "target": "faction:Horde",
-   "text": "Troggs and cultists threaten the tunnels beneath Orgrimmar, and the covert presence of Grimtotem agents beneath Thrall's fortress raises unanswered political questions."
+   "text": "Troggs and cultists threaten the tunnels beneath Orgrimmar. Grimtotem agents are also present beneath Thrall's fortress, raising unanswered political questions."
   }
  ],
  "keywords": [
@@ -115,5 +115,6 @@
  ],
  "attribution": [
   "Returning the Lost Satchel"
- ]
+ ],
+ "style": 1
 }

@@ -17,16 +17,16 @@
   "wiki": "Simple Tablet (quest)",
   "chain": []
  },
- "summary": "Simple Tablet is an introductory rite of passage for fledgling warriors entering the Valley of Trials. Delivered into your hands after proving your mettle against local beasts, it directs you toward Frang, the local veteran tasked with honing raw brawn into martial discipline.",
+ "summary": "In the Valley of Trials, a marked parchment sends you to Frang after you prove yourself against local beasts. The warrior trainer waits outside the Den.",
  "sections": [
   {
    "title": "A Summons to Arms",
-   "body": "After proving you can hold your own against the Mottled Boars of the valley, Gornek hands over a parchment specifically marked for you. In the harsh environment of Durotar, the Horde does not leave its fighters without guidance for long. The tablet serves as an invitation to seek out Frang, the warrior trainer stationed outside the Den.",
+   "body": "After you prove you can face the Mottled Boars, Gornek hands you a parchment marked specifically for you. Durotar is harsh, and the Horde quickly gives its fighters guidance. The parchment directs you to Frang, the veteran warrior trainer outside the Den.",
    "spoiler": 0
   },
   {
    "title": "Under the Shade of the Den",
-   "body": "Frang takes shelter in the shade just outside the Den, watching recruits trickle in from the red scrubland. He assesses fresh recruits with a seasoned eye, ready to impart fundamentals\u2014whether hefting a heavy axe or wielding a spear\u2014to ensure each new soldier can defend the fragile settlements of the young Horde.",
+   "body": "Frang shelters in the shade outside the Den and watches recruits arrive from the red scrubland. With a seasoned eye, he judges each new arrival before teaching the fundamentals, whether with a heavy axe or a spear. He prepares each recruit to defend the young Horde's fragile settlements.",
    "spoiler": 0
   }
  ],
@@ -38,7 +38,7 @@
     "what is this tablet",
     "warrior note"
    ],
-   "answer": "It is an introductory directive handed to young warriors in the Valley of Trials. Gornek passes it along to guide martial recruits to Frang, the resident warrior trainer."
+   "answer": "The Simple Tablet guides young warriors in the Valley of Trials to Frang, the resident warrior trainer."
   },
   {
    "q": "Who sends the tablet?",
@@ -46,7 +46,7 @@
     "who wrote the tablet",
     "who sent simple tablet"
    ],
-   "answer": "The message originates from Frang, the veteran warrior trainer resting outside the Den, who keeps an eye out for emerging fighters."
+   "answer": "Frang sends the message. The veteran warrior trainer rests outside the Den and watches for emerging fighters."
   },
   {
    "q": "Where can I find Frang?",
@@ -55,7 +55,7 @@
     "where is frang",
     "find warrior trainer"
    ],
-   "answer": "Frang is posted outside the Den within the Valley of Trials, taking shelter from the desert sun under the rock overhangs."
+   "answer": "Frang waits outside the Den in the Valley of Trials, sheltered from the desert sun beneath rock overhangs."
   },
   {
    "q": "Why does Frang mention spears and axes?",
@@ -63,7 +63,7 @@
     "frang spear quote",
     "why spears"
    ],
-   "answer": "Frang notes the diverse fighting styles among Horde recruits. While orcs favor heavy choppers like greataxes, trolls and other fighters often prefer spears and lighter polearms, both of which serve well in battle."
+   "answer": "Frang acknowledges that Horde recruits use different fighting styles. Orcs favor heavy choppers such as greataxes, while trolls and other fighters often choose spears and lighter polearms; both serve well in battle."
   },
   {
    "q": "Do other classes get this quest?",
@@ -71,7 +71,7 @@
     "is simple tablet warrior only",
     "class quests in valley of trials"
    ],
-   "answer": "No. The Simple Tablet is specifically given to warriors. Other classes receive their own parchment, rune, or scroll directing them to their respective mentors."
+   "answer": "No. Warriors receive the Simple Tablet, while other classes do not receive it and are directed to their own mentors by a parchment, rune, or scroll."
   },
   {
    "q": "What is the purpose of the Den?",
@@ -85,15 +85,15 @@
  "angles": [
   {
    "target": "class:Warrior",
-   "text": "This summons marks your very first step onto the warrior's path in Durotar, pointing you directly to Frang to learn foundational stances and strikes."
+   "text": "As a warrior, this summons marks your very first step on Durotar's warrior path. Frang teaches you foundational stances and strikes."
   },
   {
    "target": "faction:Horde",
-   "text": "The Horde relies on a steady stream of hardened front-line fighters to secure Durotar's precarious borders against centaur, quilboar, and human interlopers."
+   "text": "As a member of the Horde, you join its steady stream of hardened front-line fighters, sent to secure Durotar's precarious borders against centaur, quilboar, and human interlopers."
   },
   {
    "target": "race:Troll",
-   "text": "Darkspear trolls training in the valley may receive Frang's gruff observations regarding their preference for spears over orcish axes, though he respects anything that kills."
+   "text": "As a Darkspear troll training in the valley, you may hear Frang's gruff observations about your preference for spears over orcish axes. He respects anything that kills."
   }
  ],
  "keywords": [
@@ -115,5 +115,6 @@
  ],
  "attribution": [
   "Simple Tablet (quest)"
- ]
+ ],
+ "style": 1
 }

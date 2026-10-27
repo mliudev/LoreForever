@@ -10,16 +10,16 @@
    "quest:2098"
   ]
  },
- "summary": "The Bottom of Gelkak's Key is one of three fragments of a shattered mechanical winding key belonging to the shipwrecked gnome pirate Gelkak Gyromast. After his vessel foundered off Darkshore, the piece was scavenged by the shoreline's native reef crawlers.",
+ "summary": "Along Darkshore, the Bottom of Gelkak's Key is one of three fragments of a shattered winding key. It belonged to the shipwrecked gnome pirate Gelkak Gyromast, and reef crawlers scavenged it from the shore.",
  "sections": [
   {
    "title": "Claimed by Crawlers",
-   "body": "When Gelkak Gyromast's ship was sunk by threshadons off the coast of Darkshore, the gnome was thrown ashore along with his belongings. Among his most prized possessions was the winding key used to activate his mechanical first mate. The key shattered on the coastal rocks into three distinct pieces, and local scavengers immediately descended upon the debris. The bottom piece of the key was snatched up by the aggressive crustaceans wandering the surf\u2014specifically the reef and tide crawlers that pick through the detritus along the tideline.",
+   "body": "Threshadons sank Gelkak Gyromast's ship off Darkshore, casting the gnome and his belongings ashore. Among them was the winding key that activated his mechanical first mate. The key broke against the coastal rocks into three pieces, and local scavengers descended on the debris. Reef and tide crawlers seized the bottom fragment as they searched the tideline.",
    "spoiler": 0
   },
   {
    "title": "Reassembly",
-   "body": "Gelkak cannot activate his mechanical crewman without reuniting the bottom fragment with the middle and top sections, which were dragged off by coastal murlocs and inland foreststriders. Only by prying this heavy segment from the shells of the shoreline crabs can the gnome pirate hope to restore his construct and seek vengeance for his ruined expedition.",
+   "body": "Gelkak needs the bottom fragment, along with the middle and top sections, to activate his mechanical crewman. Coastal murlocs dragged off the middle piece, while inland foreststriders dragged off the top. The gnome pirate must pry this heavy fragment from the shoreline crabs' shells to restore his construct and seek vengeance for his ruined expedition.",
    "spoiler": 1
   }
  ],
@@ -31,7 +31,7 @@
     "purpose of bottom of gelkaks key",
     "why do i need gelkak key bottom"
    ],
-   "answer": "It is one of three pieces needed to repair the winding key belonging to the stranded pirate Gelkak Gyromast, which is required to reactivate his mechanical first mate."
+   "answer": "The Bottom of Gelkak's Key is one of three pieces needed to repair the winding key that belongs to the stranded pirate Gelkak Gyromast. The repaired key can reactivate his mechanical first mate."
   },
   {
    "q": "Where does this key piece come from?",
@@ -40,7 +40,7 @@
     "who drops bottom of gelkaks key",
     "gelkak key bottom location"
    ],
-   "answer": "It is found on the coast of Darkshore, scavenged by local crabs such as Encrusted Tide Crawlers and Raging Reef Crawlers along the water's edge."
+   "answer": "Reef crawlers scavenged the key piece from the coast of Darkshore. Encrusted Tide Crawlers and Raging Reef Crawlers search along the water's edge."
   },
   {
    "q": "Why is the key broken into three pieces?",
@@ -48,7 +48,7 @@
     "why did gelkaks key break",
     "how did the key break"
    ],
-   "answer": "When Gelkak's ship was wrecked by threshadons, he washed ashore and the key struck the shoreline rocks, snapping into fragments that were scattered among the local wildlife."
+   "answer": "Threshadons wrecked Gelkak's ship, and the key struck the shoreline rocks as he washed ashore. It broke into fragments that scattered among the local wildlife."
   },
   {
    "q": "Who is Gelkak Gyromast?",
@@ -56,17 +56,17 @@
     "who is gelkak",
     "gelkak gyromast lore"
    ],
-   "answer": "Gelkak Gyromast is a stranded gnome pirate camped on the shores of Darkshore after a threshadon attack destroyed his vessel and scattered his gear."
+   "answer": "Gelkak Gyromast is a stranded gnome pirate on the shores of Darkshore. Threshadons destroyed his vessel and scattered his gear."
   }
  ],
  "angles": [
   {
    "target": "profession:Engineering",
-   "text": "Engineers will recognize the piece as part of a specialized winding implement designed to power complex clockwork automatons."
+   "text": "Engineers will recognize this as part of a specialized winding implement built to power complex clockwork automatons."
   },
   {
    "target": "race:Gnome",
-   "text": "Gnomes will appreciate that even shipwrecked and stranded on a hostile coastline, Gyromast relied on clockwork ingenuity rather than flesh-and-blood crew."
+   "text": "As a gnome, you may appreciate that Gyromast relies on clockwork ingenuity rather than a flesh-and-blood crew, even while stranded on a hostile coast."
   }
  ],
  "keywords": [
@@ -91,5 +91,6 @@
  "attribution": [
   "Bottom of Gelkak's Key",
   "Gyromast's Retrieval"
- ]
+ ],
+ "style": 1
 }

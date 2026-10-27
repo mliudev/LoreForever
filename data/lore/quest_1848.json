@@ -17,16 +17,16 @@
   "wiki": "Brutal Hauberk (quest)",
   "chain": []
  },
- "summary": "Brutal Hauberk marks the culmination of an arduous rite of passage for Horde warriors in the Barrens. After gathering rare materials and proving their mettle against dangerous foes across the lands, warriors present their bounty to the reclusive smith Thun'grim Firegaze. In return, he hammers out a rugged suit of mail designed to withstand the harshest battles.",
+ "summary": "Across the Barrens, Horde warriors face a trial before Thun'grim Firegaze will forge their mail. They gather rare materials and prove themselves against dangerous foes across the lands, then bring their bounty to the reclusive smith. He hammers it into armor built for battle.",
  "sections": [
   {
    "title": "A Smith's Masterpiece",
-   "body": "Perched along the craggy hills of the northern Barrens, Thun'grim Firegaze does not forge armor for just anyone. The reclusive orc demands that aspiring warriors travel far and wide to harvest tough beast parts, rare metal, and alchemical reagents before he even lights his bellows. The finished hauberk is not merely protective gear; it is an enduring badge of endurance and grit recognized by veteran fighters throughout the Horde.",
+   "body": "In the northern Barrens, Thun'grim Firegaze forges armor only for warriors who meet his demands. The reclusive orc sends them far and wide to gather tough beast parts, rare metal, and alchemical reagents before he lights his bellows. The finished hauberk offers protection and marks the endurance and grit its wearer has shown, earning recognition from veteran fighters throughout the Horde.",
    "spoiler": 0
   },
   {
    "title": "Forged in Hardship",
-   "body": "Thun'grim's task is purposefully punishing. True Horde arms and armor are expected to bear the sweat and blood of their wearer from the moment of their inception. Handing over the finished Brutal Hauberk, the smith offers no flowery praise\u2014only the expectation that the armor will be proven in brutal combat and return bearing stories of blood and honor.",
+   "body": "Thun'grim makes his demands punishing by design. Horde arms and armor are expected to carry the sweat and blood of their wearer from the moment they are made. When you hand over the finished Brutal Hauberk, the smith offers no praise. He expects you to prove the armor in brutal combat and return with stories of blood and honor.",
    "spoiler": 0
   }
  ],
@@ -38,7 +38,7 @@
     "brutal hauberk quest",
     "who makes brutal hauberk"
    ],
-   "answer": "The Brutal Hauberk is a sturdy chestpiece custom-crafted by the orc blacksmith Thun'grim Firegaze. It serves as the crowning reward for Horde warriors who prove their combat prowess by gathering rare materials across several dangerous lands."
+   "answer": "The Brutal Hauberk is a sturdy chestpiece crafted by the orc blacksmith Thun'grim Firegaze. Horde warriors earn it by proving their combat prowess and gathering rare materials across several dangerous lands."
   },
   {
    "q": "Who is Thun'grim Firegaze?",
@@ -47,7 +47,7 @@
     "thungrim firegaze",
     "where is thungrim"
    ],
-   "answer": "Thun'grim Firegaze is a reclusive veteran smith who resides atop a mountain spur in the northern Barrens, just east of the road between the Crossroads and Orgrimmar. He tests emerging warriors and smiths them specialized armor when they prove their worth."
+   "answer": "Thun'grim Firegaze is a reclusive veteran smith who lives atop a mountain spur in the northern Barrens, just east of the road between the Crossroads and Orgrimmar. He tests emerging warriors and forges them specialized armor when they prove their worth."
   },
   {
    "q": "Why does Thun'grim require so much effort before crafting the armor?",
@@ -56,7 +56,7 @@
     "brutal armor requirements",
     "thungrim trials"
    ],
-   "answer": "Horde warrior tradition values hardship as much as martial skill. Thun'grim believes that high-grade mail is wasted on anyone who has not shed their own blood and toiled to acquire the rare components necessary to forge it."
+   "answer": "Horde warrior tradition prizes hardship alongside martial skill. Thun'grim believes fine mail belongs to those who have shed their own blood and labored to gather the rare components needed to forge it."
   },
   {
    "q": "Where does this quest chain lead next?",
@@ -65,7 +65,7 @@
     "next quest after brutal hauberk",
     "is there a follow up"
    ],
-   "answer": "This quest represents the final step of the Brutal Armor trials. Once Thun'grim presents you with the finished hauberk, his work for you is complete, leaving you to wear the armor into battle across Kalimdor and the Eastern Kingdoms."
+   "answer": "After Thun'grim presents you with the finished hauberk, his work for you is complete. You can wear the armor into battle across Kalimdor and the Eastern Kingdoms."
   },
   {
    "q": "Is the Brutal Hauberk quest available to the Alliance?",
@@ -74,7 +74,7 @@
     "alliance equivalent",
     "is this horde only"
    ],
-   "answer": "No. The Brutal Hauberk is exclusively a Horde trial. Alliance warriors undergo a distinct martial rite involving the smiths of Ironforge and the surrounding dwarven territories to forge their own signature armor."
+   "answer": "No. The Brutal Hauberk is a Horde trial. Alliance warriors undergo a separate martial rite with the smiths of Ironforge and the surrounding dwarven territories to forge their own signature armor."
   },
   {
    "q": "Where in the Barrens can Thun'grim be found?",
@@ -83,21 +83,21 @@
     "where is thungrim in barrens",
     "how to find thun grim"
    ],
-   "answer": "Thun'grim dwells on a high ridge in the northern Barrens, just south of Thorn Hill and east of the Crossroads."
+   "answer": "Thun'grim lives on a high ridge in the northern Barrens, just south of Thorn Hill and east of the Crossroads."
   }
  ],
  "angles": [
   {
    "target": "class:Warrior",
-   "text": "The Brutal Hauberk is a milestone achievement for young Horde warriors, representing the transition from raw recruit to a hardened combatant outfitted in bespoke mail."
+   "text": "As a young Horde warrior, you earn the Brutal Hauberk as you pass from raw recruit to hardened combatant outfitted in custom mail."
   },
   {
    "target": "faction:Horde",
-   "text": "Crafted from blood-earned trophies gathered from Kalimdor's wilds, the hauberk reflects the Horde's core virtues of martial self-reliance and strength."
+   "text": "As a member of the Horde, you can see its virtues of martial self-reliance and strength reflected in a hauberk made from trophies won in Kalimdor's wilds."
   },
   {
    "target": "profession:Blacksmithing",
-   "text": "Watching Thun'grim work provides an education in traditional orcish smithing, where martial spirit and resilience are hammered directly into the steel."
+   "text": "As a blacksmith, you can learn from Thun'grim's traditional orcish craft, where martial spirit and resilience are hammered into steel."
   }
  ],
  "keywords": [
@@ -116,5 +116,6 @@
  ],
  "attribution": [
   "Brutal Hauberk (quest)"
- ]
+ ],
+ "style": 1
 }

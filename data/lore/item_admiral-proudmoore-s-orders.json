@@ -10,16 +10,16 @@
    "quest:831"
   ]
  },
- "summary": "Admiral Proudmoore's Orders are written battle plans recovered from Kul Tiras forces entrenching themselves along the coastline of Durotar. Penned before the Grand Admiral's defeat at Theramore, the documents outline persistent military strategies that continue to threaten the nascent orc homeland.",
+ "summary": "Kul Tiras forces keep their coastal positions in Durotar, and Admiral Proudmoore's Orders lay out their plans. The documents were written before Daelin Proudmoore fell at Theramore and describe a campaign against the Horde.",
  "sections": [
   {
    "title": "A Legacy of Hatred",
-   "body": "Even after the death of Grand Admiral Daelin Proudmoore at Theramore, his expeditionary forces refuse to yield. Recovered from Lieutenant Benedict's garrison at Tiragarde Keep, these tactical directives detail long-term maneuvers and fortifications designed to undermine the Horde. The orders prove that the Grand Admiral's offensive in Durotar was no hasty raid, but an organized campaign structured to endure long past his own demise. For the Horde, the recovered documents offer vital insight into Kul Tiras operations and potential reinforcements threatening their borders.",
+   "body": "Admiral Proudmoore's Orders show that the Kul Tiras forces at Tiragarde Keep still mean to fight. Lieutenant Benedict's garrison holds the papers, which detail long-term maneuvers and fortifications against the Horde. The plans show that Daelin Proudmoore's offensive in Durotar was an organized campaign, built to continue after his death. For the Horde, the documents reveal Kul Tiras operations and possible reinforcements threatening its borders.",
    "spoiler": 0
   },
   {
    "title": "Delivery to Grommash Hold",
-   "body": "Recognizing the strategic danger outlined in the plans, Horde scouts dispatch the recovered papers directly to Grommash Hold in Orgrimmar. Delivered to Nazgrel in Thrall's chamber, the orders confirm his persistent warning to the Warchief that the humans could never be trusted and that their aggression remains an active peril. The intelligence urges the Horde leadership to prepare for further incursions along the coast.",
+   "body": "Horde scouts send the recovered orders to Grommash Hold in Orgrimmar. They deliver them to Nazgrel in Thrall's chamber, where the plans support Nazgrel's warning that humans cannot be trusted and remain an active danger. Horde leaders now have reason to prepare for more attacks along the coast.",
    "spoiler": 1
   }
  ],
@@ -31,7 +31,7 @@
     "what are the orders",
     "admirals orders item"
    ],
-   "answer": "They are military directives drawn up by Grand Admiral Daelin Proudmoore before his fall at Theramore. They direct the remaining Kul Tiras soldiers in Durotar to fortify coastal footholds and wage war against the Horde."
+   "answer": "Admiral Proudmoore's Orders are military directives Daelin Proudmoore drew up before he fell at Theramore. They direct the remaining Kul Tiras soldiers in Durotar to fortify coastal positions and wage war against the Horde."
   },
   {
    "q": "Where were these orders recovered?",
@@ -40,7 +40,7 @@
     "orders location",
     "who drops the orders"
    ],
-   "answer": "The orders are secured in Durotar during the ongoing struggle against the Kul Tiras remnants stationed at Tiragarde Keep, near the southeastern coast."
+   "answer": "The orders were recovered at Tiragarde Keep in Durotar, during the struggle against Kul Tiras forces near the southeastern coast."
   },
   {
    "q": "Who needs to see these orders?",
@@ -49,7 +49,7 @@
     "who wants the orders",
     "orders hand in"
    ],
-   "answer": "They are brought to Nazgrel, who counsels Warchief Thrall inside Grommash Hold in Orgrimmar's Valley of Wisdom."
+   "answer": "Nazgrel needs to see the orders. He counsels Warchief Thrall inside Grommash Hold in Orgrimmar's Valley of Wisdom."
   },
   {
    "q": "Why are Kul Tiras soldiers still fighting in Durotar?",
@@ -58,17 +58,17 @@
     "why tiragarde keep hostile",
     "daelin dead why fight"
    ],
-   "answer": "Though Admiral Proudmoore fell in battle, his subordinates, such as Lieutenant Benedict, remained devoted to his mission to exterminate the orcs. The orders provided pre-planned strategies for the garrison to continue harassing Durotar even without the Grand Admiral's direct oversight."
+   "answer": "Kul Tiras soldiers remain in Durotar because Lieutenant Benedict and others stayed devoted to Admiral Proudmoore's mission to exterminate the orcs. His orders gave the garrison plans to keep harassing Durotar without his direct oversight."
   }
  ],
  "angles": [
   {
    "target": "faction:Horde",
-   "text": "These documents vindicate those in the Horde who argued human truces would never last, demonstrating that Kul Tiras forces intended to wage a war of extermination from the moment they made landfall."
+   "text": "For the Horde, these documents support those who argued that human truces would not last. They show Kul Tiras forces intended a war of extermination from the moment they landed."
   },
   {
    "target": "race:Troll",
-   "text": "For the Darkspear trolls, who make their home along this same coast, these orders confirm that the human presence along Durotar's shores remains an immediate danger."
+   "text": "As a Darkspear troll, these orders show that the human presence along the coast where your people make their home remains an immediate danger."
   }
  ],
  "keywords": [
@@ -93,5 +93,6 @@
  "attribution": [
   "Admiral Proudmoore's Orders",
   "The Admiral's Orders (2)"
- ]
+ ],
+ "style": 1
 }

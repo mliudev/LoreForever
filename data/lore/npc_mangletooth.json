@@ -8,21 +8,21 @@
   "wiki": "Mangletooth",
   "refs": 10
  },
- "summary": "Mangletooth is an imprisoned Razormane quilboar held captive by the Horde inside Camp Taurajo. Facing execution, he trades strategic information about his rivals and the ancient lore of Agamaggan to adventurers willing to do his bidding.",
+ "summary": "At Camp Taurajo, Mangletooth faces execution in a Horde cage and bargains with those who visit him. He offers knowledge of his rivals and Agamaggan's ancient lore in return for their help.",
  "sections": [
   {
    "title": "A Hostage in Chains",
-   "body": "Held in a cage at Camp Taurajo by tauren hunters and orc sentries, Mangletooth is a captured Razormane quilboar awaiting execution. Rather than resigning to death, he attempts to manipulate his captors and visiting Horde adventurers into striking down the enemies of his tribe, hoping his cunning will prove his worth or secure his rescue.",
+   "body": "Tauren hunters and orc sentries keep Mangletooth in a cage at Camp Taurajo. The captured Razormane quilboar awaits execution, but he still tries to sway his captors and visiting Horde adventurers. He urges them to strike at the enemies of his tribe, hoping to prove his worth or win his freedom.",
    "spoiler": 0
   },
   {
    "title": "Betrayal from Within",
-   "body": "Mangletooth initially schemes to earn his clan's gratitude by steering Horde muscle toward the rival Bristleback tribe. However, he soon realizes that his fellow Razormane leaders\u2014Nak, Kuz, and Lok Orcbane\u2014have completely abandoned him to rot. Furious at their treachery, the captive quilboar turns his vengeance against his own kin, directing adventurers to execute his former allies.",
+   "body": "Mangletooth first tries to earn his clan's gratitude by directing Horde fighters against the rival Bristleback tribe. Then he learns that Razormane leaders Nak, Kuz, and Lok Orcbane have abandoned him. Enraged, he turns against his own kin and sends adventurers to execute his former allies.",
    "spoiler": 1
   },
   {
    "title": "The Power of Blood Shards",
-   "body": "Well-versed in the religious history of his people, Mangletooth knows that the massive thorns across the Barrens sprang from the spilled blood of Agamaggan during the ancient War of the Ancients. By collecting red crystalline Blood Shards from fallen Bristlebacks, Mangletooth channels the residual divine energy of the fallen boar god, bestowing formidable ancient blessings upon those who aid him.",
+   "body": "Mangletooth knows the religious history of his people. During the ancient War of the Ancients, Agamaggan's spilled blood gave rise to the Barrens' massive thorns. Mangletooth gathers red crystalline Blood Shards from fallen Bristlebacks and channels the lingering divine power within them, granting ancient blessings to those who help him.",
    "spoiler": 0
   }
  ],
@@ -34,7 +34,7 @@
     "who is mangletooth",
     "caged quilboar taurajo"
    ],
-   "answer": "Mangletooth is a captured Razormane quilboar held in a cage at Camp Taurajo. Facing execution by the Horde, he bargains with adventurers, offering guidance and ancient boons in exchange for eliminating his rivals."
+   "answer": "Mangletooth is a captured Razormane quilboar held in a cage at Camp Taurajo. Facing execution, he bargains with adventurers, offering guidance and ancient blessings in return for their help."
   },
   {
    "q": "Why is Mangletooth in a cage?",
@@ -43,7 +43,7 @@
     "why in cage",
     "why taurajo prisoner"
    ],
-   "answer": "He was captured during clashes between the Horde and the quilboar in the southern Barrens. The tauren and orcs at Camp Taurajo keep him caged while awaiting his execution."
+   "answer": "Mangletooth was captured during clashes between the Horde and quilboar in the southern Barrens. Tauren and orc guards at Camp Taurajo keep him caged as they await his execution."
   },
   {
    "q": "Why does Mangletooth ask you to attack other Razormane quilboar?",
@@ -52,7 +52,7 @@
     "betrayal from within lore",
     "why kill nak kuz"
    ],
-   "answer": "Mangletooth realized that his clanmates\u2014Nak, Kuz, and Lok Orcbane\u2014left him to die rather than mounting a rescue. Enraged by their betrayal, he tasks travelers with executing them out of pure spite."
+   "answer": "Mangletooth asks you to attack other Razormane quilboar because Nak, Kuz, and Lok Orcbane left him to die instead of trying to rescue him. Enraged, he wants travelers to execute them out of spite."
   },
   {
    "q": "What are Blood Shards?",
@@ -61,7 +61,7 @@
     "blood shards lore",
     "agamaggan blood"
    ],
-   "answer": "Blood Shards are crystalline minerals that formed where the blood of the Great Boar Ancient, Agamaggan, soaked into the earth when he fell during the War of the Ancients. Bristleback quilboar often carry them."
+   "answer": "Blood Shards are crystals formed where Agamaggan's blood soaked into the earth when he fell during the War of the Ancients. Bristleback quilboar often carry them."
   },
   {
    "q": "What can you do with Blood Shards at Mangletooth?",
@@ -70,7 +70,7 @@
     "blood shard turn in",
     "what does mangletooth give"
    ],
-   "answer": "If you supply Mangletooth with Blood Shards, he will channel Agamaggan's sacred power into temporary blessings, granting enhanced strength, agility, resilience, spirit, or swiftness."
+   "answer": "When you bring Mangletooth Blood Shards, he channels Agamaggan's sacred power into temporary blessings. They grant greater strength, agility, resilience, spirit, or swiftness."
   },
   {
    "q": "Where does Mangletooth say Agamaggan died?",
@@ -79,17 +79,17 @@
     "where did agamaggan fall",
     "boar god skull"
    ],
-   "answer": "Mangletooth recounts that Agamaggan fell in battle during the War of the Ancients. His spilled blood gave rise to the massive thorn spires, and his colossal skull lies enshrining a cavern to the south."
+   "answer": "Mangletooth says Agamaggan fell in battle during the War of the Ancients. His spilled blood gave rise to the massive thorn spires, and his colossal skull lies enshrining a cavern to the south."
   }
  ],
  "angles": [
   {
    "target": "faction:Horde",
-   "text": "Camp Taurajo's guards keep Mangletooth caged under close watch, yet the Horde is willing to exploit the prisoner's bitter grievances to crush quilboar strongholds throughout the Barrens."
+   "text": "At Camp Taurajo, Horde guards keep Mangletooth caged, yet the Horde uses his bitter grievances to strike at quilboar strongholds across the Barrens."
   },
   {
    "target": "race:Tauren",
-   "text": "Tauren hunters clash constantly with quilboar for territory across the plains, making Mangletooth's willingness to turn on his own kind a valuable, if unsettling, military asset."
+   "text": "As a tauren, you know the plains' constant clashes between tauren hunters and quilboar. Mangletooth's willingness to turn on his own kind makes him a valuable, if unsettling, military asset."
   }
  ],
  "keywords": [
@@ -114,5 +114,6 @@
  ],
  "attribution": [
   "Mangletooth"
- ]
+ ],
+ "style": 1
 }

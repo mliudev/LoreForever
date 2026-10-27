@@ -17,16 +17,16 @@
   "wiki": "Call of Air (Orgrimmar)",
   "chain": []
  },
- "summary": "Call of Air is a vital rite of passage for seasoned Horde shamans seeking mastery over the winds. Initiated by Searn Firewarder in Grommash Hold, this quest directs practitioners far south across Kalimdor to commune with the elusive Prate Cloudseer. Through her guidance, shamans earn the final elemental pillar of their craft: the Air Totem.",
+ "summary": "At Grommash Hold, Searn Firewarder sends seasoned shamans south to seek the Air Totem. Prate Cloudseer guides them toward the final elemental pillar of their craft.",
  "sections": [
   {
    "title": "A Breath from the South",
-   "body": "Having already earned the favor of earth, fire, and water, a shaman reaching the height of early training stands ready to harness the subtle and capricious element of air. In Orgrimmar, the troll trainer Searn Firewarder recognizes when a disciple is prepared for this final foundational step. Rather than testing them within Durotar's canyons, he bids them travel south across the expanse of the Barrens and descend into the canyon labyrinth of Thousand Needles.",
+   "body": "A shaman who has earned the favor of earth, fire, and water now stands ready to harness air, the last of the four elements. In Orgrimmar, troll trainer Searn Firewarder recognizes when a disciple has reached the height of early training and is prepared for this final foundational step. He sends the shaman south across the Barrens, then down into the canyon labyrinth of Thousand Needles.",
    "spoiler": 0
   },
   {
    "title": "The Cloudseer's Hermitage",
-   "body": "The mentor awaiting travelers is Prate Cloudseer, a hermit dwelling in a high cave among the sandstone mesas of Thousand Needles. Living quietly alongside her partner away from the bustle of Horde encampments, Prate demands deference before unveiling the secrets of the wind. Upon meeting her with proper respect, she imparts the knowledge and focus needed to manifest the Air Totem, completing the shaman's elemental circle.",
+   "body": "Prate Cloudseer waits in a high cave among the sandstone mesas of Thousand Needles. The hermit lives quietly with her partner, far from Horde encampments. She demands deference before revealing the secrets of the wind. Meet her with proper respect, and she shares the knowledge and focus to manifest the Air Totem, completing the shaman's elemental circle.",
    "spoiler": 0
   }
  ],
@@ -38,7 +38,7 @@
     "where to get call of air",
     "searn firewarder"
    ],
-   "answer": "Searn Firewarder, a troll shaman trainer residing in Grommash Hold within Orgrimmar, offers this quest to qualified shamans once they reach appropriate experience."
+   "answer": "Searn Firewarder, a troll shaman trainer in Grommash Hold, offers this to qualified shamans when they reach the appropriate experience."
   },
   {
    "q": "Where can I find Prate Cloudseer?",
@@ -47,7 +47,7 @@
     "find prate",
     "air totem npc"
    ],
-   "answer": "Prate Cloudseer is located in Thousand Needles. After descending the Great Lift from the southern Barrens, head eastward through the canyon floor to locate the cave where she dwells."
+   "answer": "Prate Cloudseer lives in Thousand Needles. After taking the Great Lift down from the southern Barrens, head east across the canyon floor to find her cave."
   },
   {
    "q": "What is the Air Totem used for?",
@@ -56,7 +56,7 @@
     "why do air totem quest",
     "what does air totem do"
    ],
-   "answer": "The Air Totem is the fourth and final elemental focus a shaman acquires. Carrying it allows the shaman to invoke spells and totems of the air element, granting speed, grace, and wind-based powers."
+   "answer": "The Air Totem is the fourth and final elemental focus a shaman acquires. It lets a shaman invoke air spells and totems, with speed, grace, and wind-based powers."
   },
   {
    "q": "Why does Searn Firewarder send you so far away?",
@@ -64,7 +64,7 @@
     "why thousand needles",
     "why prate cloudseer"
    ],
-   "answer": "Mastery over the elements requires finding mentors who have dedicated their lives to communing with specific spirits. Prate Cloudseer possesses deep insight into the winds of the shifting canyon gusts in Thousand Needles, making her the ideal guide for communing with air."
+   "answer": "Mastery of the elements requires finding mentors devoted to communing with specific spirits. Prate Cloudseer knows the winds of the shifting canyon gusts in Thousand Needles, making her the ideal guide to air."
   },
   {
    "q": "Do I need to complete other elemental totem quests first?",
@@ -73,7 +73,7 @@
     "totem order",
     "can i do air totem first"
    ],
-   "answer": "Yes. A shaman's training follows a strict progression through the elements, beginning with earth, followed by fire and water, before finally proving worthy to command air."
+   "answer": "Yes. Shaman training follows a strict progression through the elements: earth, then fire and water, and finally air."
   },
   {
    "q": "Are there other versions of this quest for different cities?",
@@ -81,17 +81,17 @@
     "thunder bluff air totem",
     "undercity air totem"
    ],
-   "answer": "Yes. Shaman trainers in other Horde capitals, such as Thunder Bluff, provide their own directional instructions sending initiates to Prate Cloudseer in Thousand Needles."
+   "answer": "Yes. Shaman trainers in other Horde capitals, including Thunder Bluff, give their own directions to Prate Cloudseer in Thousand Needles."
   }
  ],
  "angles": [
   {
    "target": "class:Shaman",
-   "text": "Obtaining the Air Totem is the culminating milestone of early shamanic journeying, allowing you to invoke wind spirits alongside earth, fire, and water."
+   "text": "The Air Totem is the culminating milestone of your early shamanic journey. It lets you call on wind spirits alongside earth, fire, and water."
   },
   {
    "target": "faction:Horde",
-   "text": "The shamanic tradition ties the diverse races of the Horde together, relying on far-flung elders and hermits across central Kalimdor to pass down sacred customs."
+   "text": "The shamanic tradition ties the Horde's diverse races together. Far-flung elders and hermits across central Kalimdor pass down its sacred customs."
   }
  ],
  "keywords": [
@@ -111,5 +111,6 @@
  ],
  "attribution": [
   "Call of Air (Orgrimmar)"
- ]
+ ],
+ "style": 1
 }

@@ -10,16 +10,16 @@
    "quest:1534"
   ]
  },
- "summary": "The Filled Blue Waterskin holds pristine water gathered from a fountain at the ancient Ruins of Stardust in Ashenvale. Shaman seeking communion with the water spirits collect this sample as a vital reagent for their trial of passage.",
+ "summary": "Shamans gather water for their trials at the Ruins of Stardust in Ashenvale. The Filled Blue Waterskin carries a pristine sample from the ancient fountain.",
  "sections": [
   {
    "title": "Sacred Spring of Ashenvale",
-   "body": "Initiates undertaking the Call of Water are directed northward across the border from the Barrens into the dense forests of Ashenvale. Nestled against the mountains dividing Ashenvale from Stonetalon, beyond Lake Mystral, lie the Ruins of Stardust\u2014a secluded elven sanctuary guarded by fierce forest beasts. At the center of this sacred lake stands an untouched fountain. Drawing from its basin into a blue waterskin yields water untainted by corruption or drought, prized by shaman masters for ritual attunement.",
+   "body": "Call of Water initiates cross north from the Barrens into Ashenvale's dense forests. Beyond Lake Mystral, the Ruins of Stardust lie against the mountains dividing Ashenvale from Stonetalon. Fierce forest beasts guard the secluded elven sanctuary. At the center of its lake, an untouched fountain holds water untainted by corruption or drought. A blue waterskin filled from its basin carries the sample sought by shaman masters for ritual attunement.",
    "spoiler": 0
   },
   {
    "title": "A Rite of Harmony",
-   "body": "The water collected within this vessel serves as the final sample required by Brine, a hermit water expert dwelling on a hill in the southern Barrens. Combined with waters gathered from other contrasting wells and springs, this pure essence is distilled into an offering potent enough to manifest and soothe the elemental spirits of water, completing the initiate's trial.",
+   "body": "Brine, a hermit and water expert, lives on a hill in the southern Barrens and needs this final sample. He combines it with water from contrasting wells and springs, then distills the pure essence into an offering. The offering can manifest and soothe the elemental spirits of water, completing an initiate's trial.",
    "spoiler": 0
   }
  ],
@@ -31,7 +31,7 @@
     "ruins of stardust fountain",
     "water location"
    ],
-   "answer": "It is scooped from a small fountain located at the center of the lake within the Ruins of Stardust, situated in southwestern Ashenvale just beyond Lake Mystral."
+   "answer": "The water comes from a small fountain at the center of the lake in the Ruins of Stardust, in southwestern Ashenvale beyond Lake Mystral."
   },
   {
    "q": "Who requires this water?",
@@ -40,7 +40,7 @@
     "brine water",
     "call of water npc"
    ],
-   "answer": "Brine, a seasoned hermit living in the southern reaches of the Barrens, instructs novice shaman to retrieve this water as part of the Call of Water trials."
+   "answer": "Brine, a hermit living in the southern Barrens, requires the water for the Call of Water trials he gives novice shaman."
   },
   {
    "q": "What is the purpose of collecting this sample?",
@@ -48,7 +48,7 @@
     "why do i need it",
     "what is filled blue waterskin used for"
    ],
-   "answer": "It is the final reagent needed by Brine to brew a draught of extraordinarily pure water, which allows an aspiring shaman to commune with and honor the elemental spirits of water."
+   "answer": "Brine needs this final sample to brew a draught of extraordinarily pure water, allowing an aspiring shaman to commune with and honor the elemental spirits of water."
   },
   {
    "q": "Is the area where the water is gathered dangerous?",
@@ -56,17 +56,17 @@
     "ruins of stardust danger",
     "is ashenvale fountain safe"
    ],
-   "answer": "Yes. The Ruins of Stardust are inhabited by hostile wildlife, including local elementals and ferocious beasts that defend the ancient elven glade against intruders."
+   "answer": "Yes. Hostile wildlife, including local elementals and fierce beasts, inhabit the Ruins of Stardust and defend the ancient elven glade."
   }
  ],
  "angles": [
   {
    "target": "class:Shaman",
-   "text": "Fetching this sacred water represents the culmination of your journey to master water, demanding you cross hostile faction borders to commune with nature's purest reservoirs."
+   "text": "As a shaman, you gather this water as the final step in mastering water, crossing hostile faction borders to commune with nature's purest reservoirs."
   },
   {
    "target": "faction:Horde",
-   "text": "Venturing north into the contested woods of Ashenvale presents real danger for Horde initiates, forcing you into ancestral night elven territory to complete sacred rites."
+   "text": "As a Horde initiate, you venture north into Ashenvale's contested woods and ancestral night elven territory to complete sacred rites, facing real danger along the way."
   }
  ],
  "keywords": [
@@ -90,5 +90,6 @@
  "attribution": [
   "Filled Blue Waterskin",
   "Call of Water (5)"
- ]
+ ],
+ "style": 1
 }

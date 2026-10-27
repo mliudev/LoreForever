@@ -17,16 +17,16 @@
   "wiki": "A Lesson to Learn (Alliance)",
   "chain": []
  },
- "summary": "\"A Lesson to Learn\" is an early rite of passage for Alliance druids training in Darnassus. Offered by Mathrengyl Bearwalker, it directs initiates to travel to the sacred haven of Moonglade to begin mastering their aquatic aspect.",
+ "summary": "Mathrengyl Bearwalker sends young druids from Darnassus to Moonglade to learn the ways of water. There, they meet an elder of the Cenarion Circle and begin training in their aquatic aspect.",
  "sections": [
   {
    "title": "The Call of the Wild",
-   "body": "Mathrengyl Bearwalker watches over young night elf druids practicing their craft within the boughs of Darnassus. Once an initiate demonstrates a steadfast bond with nature and the will to shoulder greater responsibility, Mathrengyl bids them prepare for their next major discipline: the mastery of the waters. The gifts bestowed by Cenarius demand rigorous focus, and the ability to traverse depths without drowning requires direct communion with the elders of the Cenarion Circle.",
+   "body": "Mathrengyl Bearwalker guides young night elf druids as they practice among Darnassus’s boughs. When an initiate shows a firm bond with nature and readiness for greater responsibility, Mathrengyl sends them toward mastery of the waters. Cenarius’s gifts demand focus, and learning to cross the depths without drowning calls for guidance from the Cenarion Circle’s elders.",
    "spoiler": 0
   },
   {
    "title": "Journey to Nighthaven",
-   "body": "To proceed, the initiate must depart Darnassus and journey to Moonglade, the ancient sanctuary tucked beneath Mount Hyjal. Within the tranquil settlement of Nighthaven, Dendrite Starblaze awaits. Serving as an elder mentor of the Circle, Starblaze evaluates whether young shapeshifters are ready to take on the trials required to unlock the aquatic form, warning them that mastery over water demands both physical resilience and mental resolve.",
+   "body": "The initiate leaves Darnassus for Moonglade, an ancient sanctuary beneath Mount Hyjal. In Nighthaven, Dendrite Starblaze waits as an elder mentor of the Cenarion Circle. Starblaze judges whether young shapeshifters are ready for the trials that lead to aquatic form. Mastering water takes both physical resilience and mental resolve.",
    "spoiler": 0
   }
  ],
@@ -38,7 +38,7 @@
     "who gives a lesson to learn",
     "who starts this"
    ],
-   "answer": "Mathrengyl Bearwalker, the druid trainer residing in the Cenarion Enclave within Darnassus, gives this quest once you have grown sufficiently in your early druidic arts."
+   "answer": "Mathrengyl Bearwalker, a druid trainer in Darnassus’s Cenarion Enclave, sends you once your early druidic training has advanced enough."
   },
   {
    "q": "What is the purpose of this quest?",
@@ -47,7 +47,7 @@
     "aquatic form intro",
     "what do i get"
    ],
-   "answer": "It serves as the opening step for druids seeking to earn their aquatic form. It summons the initiate to Moonglade to receive instruction and trials from elder Dendrite Starblaze."
+   "answer": "This begins a druid’s path toward aquatic form. You travel to Moonglade for instruction and trials from the elder Dendrite Starblaze."
   },
   {
    "q": "Where is Dendrite Starblaze located?",
@@ -56,7 +56,7 @@
     "where is dendrite starblaze",
     "find dendrite"
    ],
-   "answer": "Dendrite Starblaze resides in the village of Nighthaven, nestled along the northern shores of Lake Elune'ara in Moonglade."
+   "answer": "Dendrite Starblaze lives in Nighthaven, on the northern shores of Lake Elune'ara in Moonglade."
   },
   {
    "q": "How do druids reach Moonglade for this quest?",
@@ -64,7 +64,7 @@
     "how to get to moonglade",
     "getting to nighthaven"
    ],
-   "answer": "Druids possess a spiritual attunement that allows them to teleport directly to the sacred grove of Moonglade using their Teleport: Moonglade ability, bypassing conventional overland routes."
+   "answer": "Druids can use Teleport: Moonglade to travel directly to the sacred grove, guided by their spiritual attunement."
   },
   {
    "q": "What comes after speaking to Dendrite Starblaze?",
@@ -73,17 +73,17 @@
     "what's next",
     "after a lesson to learn"
    ],
-   "answer": "Upon completing your audience with Dendrite Starblaze, he immediately tasks you with the Trial of the Lake to test your endurance and clarity beneath the water."
+   "answer": "After you speak with Dendrite Starblaze, he sends you to the Trial of the Lake, where your endurance and clarity beneath the water will be tested."
   }
  ],
  "angles": [
   {
    "target": "class:Druid",
-   "text": "This quest marks an important milestone in a druid's training, opening the path to communing with Cenarius's gifts beneath the waves."
+   "text": "As a druid, this marks a milestone in your training and opens the way to commune with Cenarius's gifts beneath the waves."
   },
   {
    "target": "race:NightElf",
-   "text": "For the kaldorei of Darnassus, answering the call of the Cenarion Circle in Moonglade is a revered tradition that connects them to their ancient teachers."
+   "text": "As a kaldorei of Darnassus, answering the Cenarion Circle’s call in Moonglade honors tradition and connects you with your ancient teachers."
   }
  ],
  "keywords": [
@@ -108,5 +108,6 @@
  ],
  "attribution": [
   "A Lesson to Learn (Alliance)"
- ]
+ ],
+ "style": 1
 }

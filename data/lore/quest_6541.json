@@ -21,16 +21,16 @@
    "The Warsong Reports"
   ]
  },
- "summary": "Thork at the Crossroads directs able Horde fighters north to Kadrak's watch tower near the Ashenvale border. Kadrak coordinates the Horde's expansion into the ancient forest and prepares incoming recruits for the ongoing skirmishes ahead.",
+ "summary": "At the Crossroads, Thork sends proven Horde fighters north to report to Kadrak. The orc holds a watch tower near the Ashenvale border and prepares recruits for the fighting ahead.",
  "sections": [
   {
    "title": "The Road North",
-   "body": "While the Crossroads deals with quilboar, centaur, and local brigands, the Horde's broader territorial interests look north toward the thick forests of Ashenvale. Thork acts as an intermediary, directing seasoned fighters who have proven themselves in the central Barrens toward the northern border tower manned by Kadrak.",
+   "body": "The Crossroads faces quilboar, centaur, and local brigands, while the Horde looks north to Ashenvale's thick forests. Thork directs fighters who have proved themselves in the central Barrens to the northern border tower, where Kadrak is stationed.",
    "spoiler": 0
   },
   {
    "title": "Frontier Strategy",
-   "body": "Kadrak oversees the southern approach to Ashenvale, organizing reinforcements for the Horde's foothold across the border. With new encampments like Splintertree Post and the outpost along the Zoram Strand, the Horde is actively consolidating its presence in the timber-rich woodlands despite fierce resistance from the native night elves.",
+   "body": "Kadrak oversees the southern approach to Ashenvale and organizes reinforcements for the Horde's foothold across the border. Splintertree Post and an outpost along the Zoram Strand help the Horde strengthen its presence in the timber-rich woodlands, where native night elves resist them fiercely.",
    "spoiler": 0
   }
  ],
@@ -42,7 +42,7 @@
     "who gives report to kadrak",
     "thork barrens"
    ],
-   "answer": "Thork is an orc officer stationed at the Crossroads in the Barrens. He helps coordinate local defense efforts and marshals promising adventurers toward regional war efforts like the campaign in Ashenvale."
+   "answer": "Thork is an orc officer at the Crossroads in the Barrens. He helps organize local defense and directs promising fighters toward campaigns such as the push into Ashenvale."
   },
   {
    "q": "Where is Kadrak located?",
@@ -51,7 +51,7 @@
     "where is kadrak",
     "kadrak watch tower"
    ],
-   "answer": "Kadrak is stationed at the northern watch tower in the Barrens, right along the main road leading into the forest of Ashenvale."
+   "answer": "Kadrak is at the northern watch tower in the Barrens, beside the main road into Ashenvale."
   },
   {
    "q": "Why is the Horde pushing into Ashenvale?",
@@ -60,7 +60,7 @@
     "horde in ashenvale",
     "ashenvale invasion"
    ],
-   "answer": "The Horde requires lumber and resources to build their new cities in Durotar and the Barrens. Expanding into Ashenvale provides vital timber, though it places them in direct conflict with the night elves."
+   "answer": "The Horde is pushing into Ashenvale for the lumber and resources needed to build its new cities in Durotar and the Barrens. The timber is vital, but seeking it brings the Horde into direct conflict with the night elves."
   },
   {
    "q": "What outposts has the Horde established in Ashenvale?",
@@ -69,7 +69,7 @@
     "zoram strand base",
     "splintertree"
    ],
-   "answer": "Kadrak notes that the Horde has established Splintertree Post along the central road into the forest and another outpost further west along the Zoram Strand."
+   "answer": "The Horde has established Splintertree Post along Ashenvale's central road and another outpost farther west on the Zoram Strand."
   },
   {
    "q": "What comes after reporting to Kadrak?",
@@ -78,7 +78,7 @@
     "next quest after kadrak",
     "what does kadrak give"
    ],
-   "answer": "Once you report to Kadrak, he briefs you on the local military situation and assigns you to gather reports from the various Warsong outposts across Ashenvale."
+   "answer": "After you report to Kadrak, he briefs you on the local military situation and sends you to gather reports from the Warsong outposts across Ashenvale."
   },
   {
    "q": "Can you receive this assignment from anywhere other than the Barrens?",
@@ -86,17 +86,17 @@
     "alternate kadrak quest",
     "stonetalon kadrak quest"
    ],
-   "answer": "Yes. A nearly identical summons to report to Kadrak is issued to Horde fighters operating out of Malaka'jin in the Stonetalon Mountains."
+   "answer": "Yes. Horde fighters operating from Malaka'jin in the Stonetalon Mountains receive a nearly identical summons to report to Kadrak."
   }
  ],
  "angles": [
   {
    "target": "faction:Horde",
-   "text": "This dispatch marks the transition from defending settled territories in the Barrens to securing vital resource lifelines in the disputed forests to the north."
+   "text": "As a member of the Horde, you are moving from the defense of settled Barrens territories toward securing vital resources in the disputed forests to the north."
   },
   {
    "target": "race:Orc",
-   "text": "Ashenvale is a crucial proving ground for the orcs, securing the timber needed to fortify Orgrimmar and establish a lasting home on Kalimdor."
+   "text": "As an orc, you are entering a crucial proving ground. Ashenvale's timber can help fortify Orgrimmar and establish a lasting home on Kalimdor."
   }
  ],
  "keywords": [
@@ -121,5 +121,6 @@
  ],
  "attribution": [
   "Report to Kadrak (Barrens)"
- ]
+ ],
+ "style": 1
 }

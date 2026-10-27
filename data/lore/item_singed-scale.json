@@ -10,16 +10,16 @@
    "quest:1498"
   ]
  },
- "summary": "Singed Scales are the charred, shock-hardened plates harvested from the electrified thunder lizards of Durotar. Procuring them serves as a rite of passage for young Horde warriors striving to master defensive battle arts.",
+ "summary": "In Durotar, Singed Scale comes from the charred plates of electrified thunder lizards. Horde warriors bring the scales to prove their endurance and learn defensive combat.",
  "sections": [
   {
    "title": "A Test of Endurance",
-   "body": "To the veterans of the Horde, a true warrior is not measured solely by the blood drawn by their axe, but by the blows they can absorb to shield their allies. In the arid canyon of Thunder Ridge in western Durotar, lightning hides and thunder lizards crackle with volatile storm energies. Hunting these beasts requires a warrior to endure relentless electrical shocks and crushing physical strikes. The blackened, scorched scales torn from their hides offer undeniable proof of a fighter's ability to weather punishing assaults and stand firm where lesser soldiers would fall.",
+   "body": "Horde veterans judge a warrior by the blows they can bear while shielding allies. In Thunder Ridge, a canyon in western Durotar, lightning hides and thunder lizards crackle with storm energy. Hunting these beasts means enduring relentless electrical shocks and crushing blows. Their blackened scales show that a fighter can withstand punishing assaults and hold firm under pressure.",
    "spoiler": 0
   },
   {
    "title": "The Way of the Shield",
-   "body": "At the Far Watch Post on the border between Durotar and the Barrens, the veteran warrior Uzzek demands five of these scales from initiates before imparting his knowledge. In Uzzek's eyes, an initiate must possess inherent physical toughness before they can comprehend the subtle discipline of stances and tactical defense. Presenting the scales demonstrates that a warrior has the fortitude needed to combine thick hide, heavy armor, and calculated footwork into an unyielding wall against the enemies of the Horde.",
+   "body": "At the Far Watch Post, on the border between Durotar and the Barrens, the veteran warrior Uzzek asks initiates for five scales before teaching them. He believes they need physical toughness before they can learn stances and tactical defense. Bringing the scales proves they have the fortitude to join thick hide, heavy armor, and careful footwork into a firm defense against the Horde’s enemies.",
    "spoiler": 0
   }
  ],
@@ -31,7 +31,7 @@
     "who wants singed scales",
     "singed scale quest"
    ],
-   "answer": "Singed scales serve as proof of martial endurance. The warrior trainer Uzzek requires five of them to verify that an initiate possesses the physical toughness needed to learn advanced defensive techniques."
+   "answer": "Singed scales prove martial endurance. Uzzek, a warrior trainer, requires five before teaching an initiate advanced defensive techniques."
   },
   {
    "q": "Where do you find singed scales?",
@@ -40,7 +40,7 @@
     "where to get singed scales",
     "how to get singed scale"
    ],
-   "answer": "They are gathered from thunder lizards and lightning hides that dwell in Thunder Ridge, a canyon in western Durotar just across the river from the Barrens."
+   "answer": "You find singed scales on thunder lizards and lightning hides in Thunder Ridge, a canyon in western Durotar across the river from the Barrens."
   },
   {
    "q": "Why are the scales singed?",
@@ -48,7 +48,7 @@
     "why singed",
     "why are the scales burnt"
    ],
-   "answer": "The thunder lizards naturally channel lightning and electrical storms through their bodies. The persistent crackle of elemental energy scorches and blackens their outer hide, giving the scales their charred texture."
+   "answer": "Thunder lizards channel lightning and electrical storms through their bodies. The persistent crackle of elemental energy scorches and blackens their outer hide, giving the scales their charred texture."
   },
   {
    "q": "Who is Uzzek and why does he care about these scales?",
@@ -56,17 +56,17 @@
     "who is uzzek",
     "uzzek"
    ],
-   "answer": "Uzzek is a veteran warrior stationed at the Far Watch Post in the eastern Barrens. He trains rising Horde warriors in defensive combat, but insists they first prove their raw resilience against deadly beasts before he will instruct them."
+   "answer": "Uzzek is a veteran warrior at the Far Watch Post in the eastern Barrens. He trains rising Horde warriors in defensive combat and requires them to prove their resilience against deadly beasts first."
   }
  ],
  "angles": [
   {
    "target": "class:Warrior",
-   "text": "For a developing warrior, bringing these scales to Uzzek marks a core milestone in understanding the discipline of protection and learning to stand as an impenetrable shield for the Horde."
+   "text": "As a developing warrior, bringing the scales to Uzzek marks a core milestone in learning protection and standing as an impenetrable shield for the Horde."
   },
   {
    "target": "faction:Horde",
-   "text": "The trials overseen at the Far Watch Post ensure that the guards and vanguards guarding the frontiers of Durotar and the Barrens possess unyielding stamina."
+   "text": "At the Far Watch Post, trials ensure that guards and vanguards on the Durotar and Barrens frontiers possess unyielding stamina."
   }
  ],
  "keywords": [
@@ -91,5 +91,6 @@
  "attribution": [
   "Singed Scale",
   "Path of Defense"
- ]
+ ],
+ "style": 1
 }

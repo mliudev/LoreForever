@@ -1,0 +1,77 @@
+{
+ "key": "quest:97956",
+ "type": "quest",
+ "name": "Grundlagen des Zeltens: Angeln",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   97956
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "Someone in Brill believes your fishing skill can help make camp more cheerful. Clyde Kellen can teach you to craft a fishbowl for the camp.",
+ "sections": [
+  {
+   "title": "A Camp Keepsake",
+   "body": "Your fishing skill may serve the camp. After proving your skill, you are asked to speak with Clyde Kellen in Brill and learn how to make a fishbowl for the camp. The giver believes that cheerful adventurers fight more strongly, and hopes the fishbowl can bring some joy to you and others.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What am I being asked to do?",
+   "aliases": [
+    "what do i do",
+    "fishing camp task"
+   ],
+   "answer": "Prove your fishing skill, then speak with Clyde Kellen in Brill to learn how to make a fishbowl for your camp."
+  },
+  {
+   "q": "Who is Clyde Kellen?",
+   "aliases": [
+    "who's clyde",
+    "clyde kellen"
+   ],
+   "answer": "Clyde Kellen is the person in Brill who can teach you to make a fishbowl for your camp."
+  },
+  {
+   "q": "What is the fishbowl for?",
+   "aliases": [
+    "fishbowl purpose",
+    "camp fish glass"
+   ],
+   "answer": "The fishbowl is a camp item meant to bring joy to you and other adventurers."
+  },
+  {
+   "q": "Why would fishing help the camp?",
+   "aliases": [
+    "fishing useful how",
+    "why fishing camp"
+   ],
+   "answer": "Your fishing skill can help you make a fishbowl, which the giver hopes will cheer adventurers."
+  }
+ ],
+ "angles": [
+  {
+   "target": "profession:Cooking",
+   "text": "As an angler, you can use your fishing skill to make a fishbowl for your camp."
+  }
+ ],
+ "keywords": [
+  "brill",
+  "camp",
+  "camping basics",
+  "clyde kellen",
+  "fishbowl",
+  "fishing"
+ ],
+ "related": [
+  "subzone:brill"
+ ],
+ "style": 1,
+ "attribution": [
+  "In-game quest text: Grundlagen des Zeltens: Angeln"
+ ]
+}

@@ -17,16 +17,16 @@
   "wiki": "How Big a Threat?",
   "chain": []
  },
- "summary": "How Big a Threat? is an Alliance quest given by Terenthis in Auberdine. Having witnessed furbolg madness taking root across Teldrassil, the night elf druid directs scouts to investigate local furbolg settlements in Darkshore to confirm whether the same dark taint has crossed the sea.",
+ "summary": "Terenthis asks scouts in Auberdine to learn whether furbolg corruption has reached Darkshore. After madness takes hold among furbolgs in Teldrassil, the night elf druid sends them to inspect mainland settlements across the sea.",
  "sections": [
   {
    "title": "Shadows Across the Sea",
-   "body": "The night elves of northern Kalimdor have long maintained cordial or peaceful relations with indigenous furbolg tribes. However, following the Third War, strange corruptions began unhinging furbolg minds in Teldrassil, resulting in violent kidnappings and feral attacks against their former allies. Stationed in Auberdine, the druid Terenthis fears that this sinister affliction is not isolated to the World Tree, but is actively spreading among the mainland tribes along the misty coasts of Darkshore.",
+   "body": "Night elves across northern Kalimdor have long lived peacefully with the furbolg tribes. Since the Third War, strange corruption has unhinged furbolg minds in Teldrassil. They have kidnapped and attacked their former allies. Terenthis, a druid stationed in Auberdine, fears the affliction has spread beyond the World Tree to the mainland tribes along Darkshore’s coast.",
    "spoiler": 0
   },
   {
    "title": "A Gathering Storm",
-   "body": "Reconnaissance of a furbolg encampment nestled near the ruins of Ameth'Aran confirms Terenthis's worst suspicions. The furbolgs there display erratic, hostile aggression, bearing the clear marks of the same corruption plaguing the north. Their close proximity to Auberdine elevates them from a peaceful wilderness neighbor to an urgent defensive hazard for the Alliance settlement.",
+   "body": "A furbolg camp near the ruins of Ameth'Aran shows signs of the same corruption found in northern Teldrassil. The furbolgs there act erratically and attack without cause. Because the camp lies close to Auberdine, its hostile inhabitants now threaten the Alliance settlement.",
    "spoiler": 1
   }
  ],
@@ -38,7 +38,7 @@
     "who gives how big a threat",
     "terenthis auberdine"
    ],
-   "answer": "Terenthis is a night elf druid stationed in the coastal haven of Auberdine. Haunted by accounts of night elves assaulted and captured by maddened furbolgs across Teldrassil, he works to monitor and suppress emerging threats throughout Darkshore."
+   "answer": "Terenthis is a night elf druid stationed in Auberdine. Accounts of maddened furbolgs attacking and capturing night elves across Teldrassil have led him to watch for threats throughout Darkshore."
   },
   {
    "q": "Why are the furbolgs in Darkshore turning hostile?",
@@ -56,7 +56,7 @@
     "where is the furbolg camp",
     "how big a threat location"
    ],
-   "answer": "The encampment lies inland in central Darkshore, situated just north of the ancient highborne ruins of Ameth'Aran and southeast of Auberdine."
+   "answer": "The encampment lies inland in central Darkshore, just north of the ancient highborne ruins of Ameth'Aran and southeast of Auberdine."
   },
   {
    "q": "How does this relate to events on Teldrassil?",
@@ -65,7 +65,7 @@
     "teldrassil furbolgs",
     "why does terenthis mention teldrassil"
    ],
-   "answer": "In Teldrassil, several corrupted furbolgs kidnapped and injured night elf sentinels and civilians. Terenthis references those recent rescues when seeking to verify if mainland Darkshore faces the exact same crisis."
+   "answer": "In Teldrassil, corrupted furbolgs kidnapped and injured night elf sentinels and civilians. Terenthis points to those recent rescues as he seeks to learn whether mainland Darkshore faces the same crisis."
   },
   {
    "q": "What happens after reporting back to Terenthis?",
@@ -74,7 +74,7 @@
     "what follows how big a threat",
     "quest continuation"
    ],
-   "answer": "Report any signs of corruption to Terenthis in Auberdine. His response to the findings is revealed when you return."
+   "answer": "Tell Terenthis in Auberdine if you find signs of corruption. His response comes when you return."
   },
   {
    "q": "Why are night elves so concerned about furbolg camps near Auberdine?",
@@ -82,21 +82,21 @@
     "threat to auberdine",
     "why care about furbolgs"
    ],
-   "answer": "Auberdine serves as the principal Alliance port and supply lifeline on the mainland. Having deeply corrupted, hostile tribes nesting within striking distance leaves trade roads, scouting parties, and the town itself vulnerable to sudden assaults."
+   "answer": "Auberdine is the Alliance's main port and supply route on the mainland. Hostile, deeply corrupted tribes close to town could threaten trade roads, scouts and the settlement itself."
   }
  ],
  "angles": [
   {
    "target": "race:NightElf",
-   "text": "For the kaldorei, watching ancient allies like the furbolgs succumb to irrational darkness so soon after the Third War is both a bitter tragedy and an immediate danger to sacred lands."
+   "text": "As a kaldorei, you see ancient allies like the furbolgs fall to irrational darkness soon after the Third War. Their corruption threatens sacred lands as well as old bonds."
   },
   {
    "target": "class:Druid",
-   "text": "Furbolgs share deep bonds with nature and ancient wilderness spirits, making their sudden descent into corruption a grave concern for druids tasked with healing Kalimdor's balance."
+   "text": "As a druid, you know furbolgs share deep bonds with nature and ancient wilderness spirits. Their sudden corruption is a grave concern for those who heal Kalimdor's balance."
   },
   {
    "target": "faction:Alliance",
-   "text": "As the Alliance's primary gateway to mainland northern Kalimdor, safeguarding Auberdine from wilderness threats is essential for regional security and logistics."
+   "text": "As an Alliance member, you depend on Auberdine as the Alliance's main gateway to mainland northern Kalimdor. Its safety matters to the region's security and supply routes."
   }
  ],
  "keywords": [
@@ -118,5 +118,6 @@
  ],
  "attribution": [
   "How Big a Threat?"
- ]
+ ],
+ "style": 1
 }

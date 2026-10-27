@@ -8,16 +8,16 @@
   "wiki": "Bazzalan",
   "refs": 5
  },
- "summary": "Bazzalan is a sinister satyr rogue lurking within the volcanic depths of Ragefire Chasm. Alongside Jergosh the Invoker, he commands the dark activities of the Searing Blade cult directly beneath the Horde capital of Orgrimmar.",
+ "summary": "Bazzalan commands the Searing Blade cult from the lava caverns beneath Orgrimmar. Alongside Jergosh the Invoker, he directs its work in Ragefire Chasm.",
  "sections": [
   {
    "title": "A Serpent Beneath the City",
-   "body": "While Thrall works to establish the Orcs' new home across Durotar, ancient evils have found a roost beneath his feet. Bazzalan, a cunning satyr rogue, has allied with the Searing Blade cult inside the winding lava caverns of Ragefire Chasm. Swift and lethal with twin blades, he serves as one of the cult's primary field commanders.",
+   "body": "Beneath Orgrimmar, Bazzalan has joined the Searing Blade cult in Ragefire Chasm. While Thrall works to establish the Orcs' new home across Durotar, the satyr rogue commands the cult's field forces from winding lava caverns. He is swift and lethal with twin blades.",
    "spoiler": 0
   },
   {
    "title": "Cult Leadership and Deceit",
-   "body": "Perched upon a dark volcanic ledge overlooking the central chamber where Jergosh the Invoker conducts demonic rituals, Bazzalan oversees his cultist guards. Like all satyrs, his ultimate loyalty lies with demonic masters, using poisons, fast strikes, and dark stealth to eliminate any Horde scouts who venture too close to the cult's staging ground.",
+   "body": "From a volcanic ledge above the central chamber, Bazzalan oversees the cultist guards. Jergosh the Invoker conducts demonic rituals below. Like all satyrs, Bazzalan's ultimate loyalty belongs to demonic masters. He uses poison, quick strikes, and stealth against Horde scouts who venture near the cult's staging ground.",
    "spoiler": 0
   }
  ],
@@ -29,7 +29,7 @@
     "who is bazzalan",
     "satyr boss rfc"
    ],
-   "answer": "Bazzalan is a satyr rogue and co-leader of the Searing Blade cult operating inside Ragefire Chasm beneath Orgrimmar."
+   "answer": "Bazzalan is a satyr rogue who shares leadership of the Searing Blade cult inside Ragefire Chasm beneath Orgrimmar."
   },
   {
    "q": "Where can Bazzalan be found in Ragefire Chasm?",
@@ -38,7 +38,7 @@
     "where is bazzalan",
     "find bazzalan"
    ],
-   "answer": "He lurks along the upper ledges of Ragefire Chasm, stationed above Jergosh the Invoker. He can be reached by climbing dark ramps cut into the cavern walls."
+   "answer": "Bazzalan lurks on the upper ledges of Ragefire Chasm, above Jergosh the Invoker. Dark ramps cut into the cavern walls lead up to him."
   },
   {
    "q": "What is a satyr doing beneath Orgrimmar?",
@@ -46,7 +46,7 @@
     "why is there a satyr in orgrimmar",
     "why is bazzalan in rfc"
    ],
-   "answer": "Bazzalan works in concert with the Searing Blade, a demonic cult seeking to undermine the Horde from within. Satyrs are bound to demonic powers and frequently act as instigators and assassins for shadow councils."
+   "answer": "Bazzalan works with the Searing Blade, a demonic cult seeking to undermine the Horde from within. Satyrs are bound to demonic powers and often serve as instigators and assassins for shadow councils."
   },
   {
    "q": "What abilities does Bazzalan use in combat?",
@@ -55,7 +55,7 @@
     "bazzalan attacks",
     "how does bazzalan fight"
    ],
-   "answer": "Bazzalan fights as a classic rogue, striking rapidly with melee weapons, using Sinister Strike, and occasionally afflicting opponents with a mild debilitating poison."
+   "answer": "Bazzalan attacks swiftly with melee weapons and uses Sinister Strike. He sometimes afflicts opponents with a mild debilitating poison."
   },
   {
    "q": "What is his relationship to Jergosh the Invoker?",
@@ -63,7 +63,7 @@
     "jergosh and bazzalan",
     "is bazzalan related to jergosh"
    ],
-   "answer": "Bazzalan and Jergosh share leadership of the Searing Blade inside Ragefire Chasm. While Jergosh focuses on invocations and summoning dark forces, Bazzalan acts as the martial and stealth authority."
+   "answer": "Bazzalan and Jergosh share leadership of the Searing Blade inside Ragefire Chasm. Jergosh handles invocations and summoning dark forces, while Bazzalan commands the cult's martial and stealth work."
   },
   {
    "q": "Why does the Horde want Bazzalan dead?",
@@ -71,21 +71,21 @@
     "bazzalan bounty",
     "repel the invasion bazzalan"
    ],
-   "answer": "His presence deep beneath the capital represents a direct demonic threat. Horde leaders commission adventurers to infiltrate Ragefire Chasm and eliminate him before the Searing Blade's plot endangers the city."
+   "answer": "Bazzalan's presence deep beneath the capital is a direct demonic threat. Horde leaders send adventurers into Ragefire Chasm to eliminate him before the Searing Blade's plot endangers the city."
   }
  ],
  "angles": [
   {
    "target": "faction:Horde",
-   "text": "Bazzalan and his cult pose an intolerable hazard right below Thrall's stronghold, necessitating immediate extermination."
+   "text": "Bazzalan and his cult pose a hazard beneath Thrall's stronghold, and the Horde wants them eliminated."
   },
   {
    "target": "class:Rogue",
-   "text": "Bazzalan displays classic stealth techniques, vicious strikes, and venom-coated blades, making him an opponent of distinct professional interest."
+   "text": "Bazzalan uses stealth, vicious strikes, and venom-coated blades, making him an opponent of particular interest to Rogues."
   },
   {
    "target": "race:Orc",
-   "text": "Having fought so hard to escape the clutches of demonic manipulation, Orcs view a satyr directing cultists in their own foundations as an outrage."
+   "text": "Orcs fought hard to escape demonic manipulation. A satyr directing cultists in their own foundations is an outrage to them."
   }
  ],
  "keywords": [
@@ -105,5 +105,6 @@
  ],
  "attribution": [
   "Bazzalan"
- ]
+ ],
+ "style": 1
 }

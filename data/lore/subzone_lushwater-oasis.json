@@ -7,11 +7,11 @@
  "meta": {
   "wiki": "Lushwater Oasis"
  },
- "summary": "Lushwater Oasis is one of the three life-giving watering holes nestled in the arid Barrens, located just south of the Crossroads. Despite its verdant appearance, the oasis is fraught with danger, infested by aggressive Kolkar centaur and harboring the entrance to the Wailing Caverns. Its tainted waters are well-known to anglers seeking the peculiar Deviate Fish.",
+ "summary": "South of the Crossroads, Lushwater Oasis is one of three life-giving watering holes in the Barrens. Kolkar centaur threaten travelers who come for its water, while the tainted pools draw anglers seeking Deviate Fish.",
  "sections": [
   {
    "title": "A Precarious Sanctuary",
-   "body": "Situated a short march south of the Crossroads, Lushwater Oasis offers a deceptive respite amid the sun-bleached expanse of the Barrens. While its palm canopies and fresh springs draw thirsty beasts from across the savanna, Kolkar centaur claim the banks, lying in wait to butcher both game and unwary travelers. The oasis is also the gateway to the Wailing Caverns, whose sprawling underground networks seep corruptive energies into the pools above, breeding unnatural wildlife and bizarre mutations.",
+   "body": "Lushwater Oasis lies a short march south of the Crossroads, beneath the Barrens sun. Its palms and springs draw thirsty beasts, but Kolkar centaur hold the banks and ambush wildlife and travelers. The oasis also marks the entrance to the Wailing Caverns. Energies from its underground passages taint the pools, where unnatural creatures and strange mutations take hold.",
    "spoiler": 0
   }
  ],
@@ -23,7 +23,7 @@
     "wc cave entrance",
     "wailing caverns entrance"
    ],
-   "answer": "The entrance to the Wailing Caverns cavern system lies carved into the natural rock faces overlooking the eastern side of Lushwater Oasis."
+   "answer": "The entrance to the Wailing Caverns lies in the natural rock faces overlooking the eastern side of Lushwater Oasis."
   },
   {
    "q": "Who controls Lushwater Oasis?",
@@ -32,7 +32,7 @@
     "lushwater enemies",
     "centaur at the oasis"
    ],
-   "answer": "The Kolkar centaur maintain a dominant presence throughout the oasis, using the lush cover to hunt passing wildlife and attack travelers making their way from the Crossroads."
+   "answer": "Kolkar centaur dominate Lushwater Oasis. They use its cover to hunt wildlife and attack travelers coming from the Crossroads."
   },
   {
    "q": "Why are the fish here strange?",
@@ -41,7 +41,7 @@
     "why deviate fish",
     "mutated fish oasis"
    ],
-   "answer": "The deep energies leaking from the Wailing Caverns have corrupted the waterways across the oasis, causing local fish to mutate into unusual Deviate Fish."
+   "answer": "Energies from the Wailing Caverns taint the oasis waters, mutating local fish into unusual Deviate Fish."
   },
   {
    "q": "Did Thrall's Horde travel through here?",
@@ -49,17 +49,17 @@
     "thrall long march oasis",
     "orcs in barrens oasis"
    ],
-   "answer": "During the orcs' Long March through the Barrens alongside the tauren, Thrall led his troops through the region's scattered oases to secure vital drinking water while fending off relentless centaur ambushes."
+   "answer": "During the orcs' Long March through the Barrens with the tauren, Thrall led his troops through the scattered oases for drinking water while they fought off centaur ambushes."
   }
  ],
  "angles": [
   {
    "target": "profession:Cooking",
-   "text": "The pools here are among the few waters where anglers can land Deviate Fish, a vital ingredient prized across Kalimdor for preparing Savory Deviate Delights."
+   "text": "Anglers can catch Deviate Fish in these pools. The fish are a vital ingredient in Savory Deviate Delights, prized across Kalimdor."
   },
   {
    "target": "class:Druid",
-   "text": "Lushwater Oasis exhibits a troubling, unnatural overgrowth driven by the twisted energies escaping the nearby Wailing Caverns."
+   "text": "As a druid, you can see troubling overgrowth at Lushwater Oasis, driven by twisted energies escaping the nearby Wailing Caverns."
   }
  ],
  "keywords": [
@@ -79,5 +79,6 @@
  ],
  "attribution": [
   "Lushwater Oasis"
- ]
+ ],
+ "style": 1
 }

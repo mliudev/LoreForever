@@ -17,16 +17,16 @@
   "wiki": "Need for a Cure",
   "chain": []
  },
- "summary": "Stranded along the rugged cliffs of northwestern Durotar, the Darkspear troll Rhinag lies poisoned by a venomtail scorpid. With precious little time before the toxin finishes him, he relies on a courier to sprint to Orgrimmar and retrieve a cure from Kor'ghan.",
+ "summary": "Rhinag lies poisoned on Durotar’s northwestern cliffs, far from the cure he needs. The Darkspear troll has little time before the venom kills him, so he sends a passing courier to Orgrimmar for Kor'ghan’s remedy.",
  "sections": [
   {
    "title": "A Scorpid's Sting",
-   "body": "The arid canyons of Durotar are crawling with venomtail scorpids, aggressive predators whose sting carries a swift, debilitating neurotoxin. Rhinag made the mistake of dropping his guard while battling the beasts near the borderlands. Knowing that the venom coursing through his veins will kill him in under an hour, he is unable to walk the distance to the city gates himself and must place his survival in the hands of whoever passes his remote camp.",
+   "body": "Rhinag was fighting venomtail scorpids near Durotar’s border when one stung him. Their venom can kill in less than an hour. The poison keeps him from walking to Orgrimmar, so his survival depends on a traveler reaching his remote camp in time.",
    "spoiler": 0
   },
   {
    "title": "Secrets in the Shadows",
-   "body": "Rather than trusting an ordinary apothecary or shaman, Rhinag directs travelers deep beneath Orgrimmar into the shadowy subterranean caverns of the Cleft of Shadow. There dwells Kor'ghan, an enigmatic practitioner familiar with the harsh poisons of Durotar's wastes. Kor'ghan possesses the knowledge required to brew an effective counter-agent, though he rarely gives his aid freely to those who have not proven their mettle.",
+   "body": "Rhinag sends travelers beneath Orgrimmar to the Cleft of Shadow, where Kor'ghan knows how to counter the poisons of Durotar’s wastes. Kor'ghan can brew a cure, though he rarely helps those who have not proved themselves.",
    "spoiler": 0
   }
  ],
@@ -38,7 +38,7 @@
     "who is rhinag",
     "rhinag the troll"
    ],
-   "answer": "Rhinag is a Darkspear troll adventurer found clinging to life along the northwestern cliffs of Durotar. Stung by a venomtail scorpid, he fears both imminent death and the mockery he would face from his kin in Sen'jin Village if he were to return in such a humbled state."
+   "answer": "Rhinag is a Darkspear troll adventurer clinging to life on Durotar’s northwestern cliffs. A venomtail scorpid stung him, and he fears the mockery of his kin in Sen'jin Village if he returns in such a humbled state."
   },
   {
    "q": "Why is Kor'ghan in the Cleft of Shadow?",
@@ -47,7 +47,7 @@
     "who is korghan",
     "kor'ghan location"
    ],
-   "answer": "Kor'ghan makes his home in the Cleft of Shadow, the shadowy cavern beneath Orgrimmar where warlocks, rogues, and other practitioners of dark arts ply their trades away from the eyes of Thrall's honored warriors. His understanding of venomous brews and grueling trials fits the Cleft's subterranean environment."
+   "answer": "Kor'ghan makes his home in the Cleft of Shadow beneath Orgrimmar. Warlocks, rogues, and others who practice the dark arts work there beyond the eyes of Thrall’s honored warriors, and Kor'ghan’s knowledge of venomous brews and grueling trials suits the caverns."
   },
   {
    "q": "Why doesn't Rhinag just seek a shaman or healer in Sen'jin Village?",
@@ -55,7 +55,7 @@
     "why not go to senjin",
     "why rhinag avoids senjin"
    ],
-   "answer": "Rhinag admits that his own pride holds him back. He fears that returning to Sen'jin Village in such a careless, venom-stricken condition would earn him nothing but mockery from fellow trolls, preferring instead to seek a discreet remedy from Kor'ghan."
+   "answer": "Rhinag says pride keeps him from seeking help in Sen'jin Village. He fears his fellow trolls will mock him for returning careless and stricken by venom, so he seeks a discreet remedy from Kor'ghan."
   },
   {
    "q": "What happens after Rhinag receives the antidote?",
@@ -63,7 +63,7 @@
     "does rhinag survive",
     "rhinag aftermath"
    ],
-   "answer": "Rhinag drinks the antidote and recovers, though his troubles do not end there. Knowing Kor'ghan, the curer will demand that Rhinag prove himself through further grueling trials\u2014slaying boars and harvesting scorpid tails\u2014before he is fully back in the practitioner's good graces."
+   "answer": "Rhinag drinks the antidote and recovers, but Kor'ghan demands more of him. The curer expects him to face grueling trials, including slaying boars and gathering scorpid tails, before he earns Kor'ghan’s good graces again."
   },
   {
    "q": "Where can Rhinag be found?",
@@ -71,7 +71,7 @@
     "rhinag location",
     "where is rhinag"
    ],
-   "answer": "He is located in the rugged bluffs of northwestern Durotar, nestled near the border passes leading westward toward the Barrens."
+   "answer": "Rhinag can be found in the rugged bluffs of northwestern Durotar, near the border passes leading west toward the Barrens."
   },
   {
    "q": "Why is there such an urgent rush for this cure?",
@@ -79,17 +79,17 @@
     "why is it timed",
     "rhinag poison timer"
    ],
-   "answer": "The venomtail scorpid's poison is exceptionally potent, giving an untreated victim less than an hour before the venom overwhelms their vital organs."
+   "answer": "The venomtail scorpid’s poison is potent enough to overwhelm a victim’s vital organs in less than an hour without treatment."
   }
  ],
  "angles": [
   {
    "target": "race:Troll",
-   "text": "Rhinag's dread of returning to Sen'jin Village underscores the harsh pride of the Darkspear tribe, where carelessness in basic wilderness survival invites harsh mockery from kin."
+   "text": "As a troll, you can see how Rhinag fears the mockery of his kin in Sen'jin Village. Among the Darkspear, carelessness in wilderness survival invites harsh ridicule."
   },
   {
    "target": "faction:Horde",
-   "text": "Durotar's rocky terrain is harsh and unforgiving, serving as an unrelenting trial by fire for newly arrived defenders of Thrall's young realm."
+   "text": "As a member of the Horde, you face Durotar’s rocky, unforgiving terrain, a trial for defenders newly arrived in Thrall’s young realm."
   }
  ],
  "keywords": [
@@ -113,5 +113,6 @@
  ],
  "attribution": [
   "Need for a Cure"
- ]
+ ],
+ "style": 1
 }

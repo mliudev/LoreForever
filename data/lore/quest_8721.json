@@ -17,16 +17,16 @@
   "wiki": "Starweave the Elder",
   "chain": []
  },
- "summary": "Starweave the Elder is a Lunar Festival quest encountered in Darkshore. Adventurers seek out Elder Starweave in the settlement of Auberdine to pay their respects to the ancestral spirits of Kalimdor. In exchange for honoring ancient traditions, she offers celestial wisdom and her blessing.",
+ "summary": "During the Lunar Festival, Elder Starweave receives visitors in Auberdine. Travelers come to honor Kalimdor's ancestral spirits and seek her wisdom and blessing.",
  "sections": [
   {
    "title": "A Beacon in Auberdine",
-   "body": "During the Lunar Festival, spirits of venerated ancestors manifest across the continents of Azeroth, battened in pillars of radiant celestial radiance. Elder Starweave takes her place among the night elves of Auberdine, a critical harbor town situated along the mist-shrouded coast of Darkshore. Travelers honoring the festival make pilgrimage to her side, seeking the timeless guidance of ages past.",
+   "body": "During the Lunar Festival, ancestral spirits appear across Azeroth beneath pillars of celestial light. Elder Starweave joins the night elves in Auberdine, a harbor on Darkshore's coast. Travelers come to honor her and seek guidance from ages past.",
    "spoiler": 0
   },
   {
    "title": "Whispers of the Heavens",
-   "body": "Elder Starweave contemplates the cosmic tapestry above Kalimdor, reminding all who approach that the stars carry answers to mortal doubts and worldly riddles. Those who take the time to seek her council are urged to look skyward for truth and receive ancestral favor alongside tidings of other wandering spirits across the wild frontier.",
+   "body": "Elder Starweave looks to the heavens above Kalimdor. She tells visitors that the stars hold answers to mortal doubts and worldly riddles. Those who seek her counsel are urged to look skyward for truth and receive ancestral favor, along with tidings of other wandering spirits across the wild frontier.",
    "spoiler": 0
   }
  ],
@@ -38,7 +38,7 @@
     "where is elder starweave",
     "elder starweave darkshore"
    ],
-   "answer": "Elder Starweave is located in the coastal night elf town of Auberdine in Darkshore. She stands illuminated by a brilliant beam of moonlight descending directly from the heavens."
+   "answer": "Elder Starweave can be found in Auberdine, the coastal night elf town in Darkshore. A beam of moonlight shines down from the heavens where she stands."
   },
   {
    "q": "What is the purpose of this quest?",
@@ -47,7 +47,7 @@
     "starweave the elder purpose",
     "what does starweave do"
    ],
-   "answer": "The quest is part of the yearly Lunar Festival celebration. Visiting and honoring the ancestral elders scattered across Azeroth awards recognition, festive currency, and ancestral goodwill."
+   "answer": "Visiting and honoring ancestral elders across Azeroth is part of the yearly Lunar Festival. Travelers receive recognition, festive currency, and ancestral goodwill."
   },
   {
    "q": "Who is Elder Starweave?",
@@ -56,7 +56,7 @@
     "starweave lore",
     "elder starweave backstory"
    ],
-   "answer": "She is an ancient night elven spirit honoring the Lunar Festival. Bathed in starlight, she offers philosophical wisdom regarding the constellations and points pilgrims toward other revered elders, such as Elder Bladeswift."
+   "answer": "Elder Starweave is an ancient night elven spirit who honors the Lunar Festival. She offers wisdom about the constellations and points pilgrims toward other revered elders, including Elder Bladeswift."
   },
   {
    "q": "Can Horde players visit Elder Starweave?",
@@ -65,7 +65,7 @@
     "horde elder starweave",
     "starweave hostile horde"
    ],
-   "answer": "Yes. Festival elders remain neutral and welcome respectful travelers of both factions. However, because Elder Starweave resides within the Alliance harbor of Auberdine, Horde adventurers must be cautious around the town's local night elven guards."
+   "answer": "Yes. Festival elders welcome respectful travelers of either faction. Since Elder Starweave is in Auberdine, an Alliance harbor, Horde travelers must be wary of the town's night elven guards."
   },
   {
    "q": "What does Elder Starweave tell travelers?",
@@ -73,7 +73,7 @@
     "starweave dialogue",
     "what does elder starweave say"
    ],
-   "answer": "Upon greeting visitors, she reminds them that the infinite stars above hold answers to mortal riddles, asking if the wise and fortunate might gaze upward to unveil truth."
+   "answer": "Elder Starweave tells visitors that the stars hold answers to mortal riddles. She asks whether the wise and fortunate might look upward to find truth."
   },
   {
    "q": "Which elder does Starweave point to?",
@@ -82,21 +82,21 @@
     "elder after starweave",
     "next elder darkshore"
    ],
-   "answer": "Elder Starweave shares the location and tidings of Elder Bladeswift, guiding travelers onward across their festive journey through northern Kalimdor."
+   "answer": "Elder Starweave shares Elder Bladeswift's location and tidings, guiding travelers onward across northern Kalimdor."
   }
  ],
  "angles": [
   {
    "target": "race:NightElf",
-   "text": "Honoring Elder Starweave in Auberdine connects night elves directly to the ancient spirits of their forebears and the revered mysteries of Elune and the stars."
+   "text": "As a night elf, honoring Elder Starweave in Auberdine connects you with the ancient spirits of your forebears and the revered mysteries of Elune and the stars."
   },
   {
    "target": "class:Druid",
-   "text": "Druids hold ancestral spirits and the celestial balance in deep reverence, making communion with Elder Starweave a natural reflection of their beliefs."
+   "text": "As a druid, you hold ancestral spirits and celestial balance in deep reverence. Communion with Elder Starweave reflects those beliefs."
   },
   {
    "target": "faction:Horde",
-   "text": "Reaching Elder Starweave requires Horde wanderers to carefully infiltrate the Alliance-held docks of Auberdine to pay their respects without provoking the local sentinels."
+   "text": "As a Horde traveler, you must carefully make your way into Auberdine's Alliance-held docks to pay your respects without provoking the local sentinels."
   }
  ],
  "keywords": [
@@ -116,5 +116,6 @@
  ],
  "attribution": [
   "Starweave the Elder"
- ]
+ ],
+ "style": 1
 }

@@ -10,11 +10,11 @@
    "quest:3521"
   ]
  },
- "summary": "Webwood Ichor is a fluid harvested from Webwood spiders prowling Teldrassil. Dirania Silvershine needs it, along with hyacinth mushrooms and moonpetal lilies, to brew an antidote for the poisoned Iverron.",
+ "summary": "In Shadowglen, Webwood spiders carry venom that has left Iverron gravely ill. Dirania Silvershine needs their ichor, hyacinth mushrooms, and moonpetal lilies to brew an antidote.",
  "sections": [
   {
    "title": "A Toxic Cure",
-   "body": "The Webwood spiders that haunt Shadowglen carry a venom dangerous enough to leave Iverron gravely ill. Dirania Silvershine asks for ichor from these spiders, along with hyacinth mushrooms and moonpetal lilies, to prepare an antidote.",
+   "body": "Webwood spiders in Shadowglen carry venom that has left Iverron gravely ill. Dirania Silvershine asks for their ichor, hyacinth mushrooms, and moonpetal lilies to prepare an antidote.",
    "spoiler": 0
   }
  ],
@@ -26,7 +26,7 @@
     "what does webwood ichor do",
     "why get ichor"
    ],
-   "answer": "Dirania Silvershine in Shadowglen needs Webwood Ichor, hyacinth mushrooms, and moonpetal lilies to prepare an antidote for the poisoned night elf Iverron."
+   "answer": "Dirania Silvershine in Shadowglen needs Webwood Ichor, hyacinth mushrooms, and moonpetal lilies to prepare an antidote for Iverron, the poisoned night elf."
   },
   {
    "q": "Where does Webwood Ichor come from?",
@@ -35,7 +35,7 @@
     "how to get webwood ichor",
     "webwood ichor drop"
    ],
-   "answer": "It is harvested from the corpses of Webwood Spiders residing in northwestern Shadowglen, particularly those dwelling around and inside Shadowthread Cave."
+   "answer": "Webwood Ichor comes from Webwood Spiders in northwestern Shadowglen, especially those around and inside Shadowthread Cave."
   },
   {
    "q": "Why use spider fluid to cure a spider bite?",
@@ -43,13 +43,13 @@
     "spider poison cure",
     "why venom for antidote"
    ],
-   "answer": "Dirania requests Webwood Ichor as one of the ingredients for Iverron's antidote. She does not explain how the ichor works in the mixture."
+   "answer": "Dirania requests Webwood Ichor as one ingredient for Iverron's antidote. She does not explain how the ichor works in the mixture."
   }
  ],
  "angles": [
   {
    "target": "race:NightElf",
-   "text": "For young night elves defending Aldrassil, harvesting Webwood ichor teaches the harsh balance of nature: that the deadliest poisons of Teldrassil often harbor their own cures."
+   "text": "As a young night elf defending Aldrassil, gathering Webwood ichor teaches you that Teldrassil's deadliest poisons can harbor their own cures."
   }
  ],
  "keywords": [
@@ -75,5 +75,6 @@
  "attribution": [
   "Webwood Ichor",
   "Iverron's Antidote (Classic)"
- ]
+ ],
+ "style": 1
 }

@@ -8,16 +8,16 @@
   "wiki": "Gan'rul Bloodeye",
   "refs": 7
  },
- "summary": "Gan'rul Bloodeye is a senior orc warlock trainer residing deep within the dark cavern of the Cleft of Shadow in Orgrimmar. Hidden away from the watchful gaze of the city above, he initiates Horde warlocks into darker demonic rites. Under his instruction, initiates learn to bend otherworldly entities like voidwalkers and succubi to their will.",
+ "summary": "In Orgrimmar, Gan'rul Bloodeye trains warlocks beneath the city. In the Cleft of Shadow, Horde initiates learn darker demonic rites and how to bend voidwalkers and succubi to their will.",
  "sections": [
   {
    "title": "A Master in the Shadows",
-   "body": "While Warchief Thrall tolerates the presence of warlocks in the new Horde, their dark arts are not welcomed in the open sunlight of Durotar. Gan'rul Bloodeye makes his home in the Cleft of Shadow, a subterranean refuge beneath Orgrimmar where shadow weavers, rogues, and fel casters can study unmolested. From this subterranean perch, Gan'rul serves as a primary tutor for rising practitioners of fel magic.",
+   "body": "Warlocks study out of sight in the Cleft of Shadow beneath Orgrimmar. Warchief Thrall tolerates them in the new Horde, though Durotar's open sunlight is no place for their dark arts. The cavern gives shadow weavers, rogues, and fel casters room to study unmolested. From there, Gan'rul teaches rising practitioners of fel magic.",
    "spoiler": 0
   },
   {
    "title": "Binding the Nether",
-   "body": "Gan'rul's primary duty is overseeing the dangerous summoning rituals required of ambitious warlocks. Practitioners seeking to bind greater demons\u2014such as the resilient voidwalker or the seductive succubus\u2014must consult Gan'rul to secure ritual components and learn the precise incantations needed to dominate the summoned creature before it consumes its master.",
+   "body": "Ambitious warlocks come to Gan'rul to learn dangerous summoning rites. Those seeking to bind a greater demon, such as a resilient voidwalker or a seductive succubus, must secure ritual components and learn the precise incantations. The summoned creature must be dominated before it consumes its master.",
    "spoiler": 0
   }
  ],
@@ -29,7 +29,7 @@
     "who is ganrul",
     "ganrul bloodeye role"
    ],
-   "answer": "Gan'rul Bloodeye is an orc warlock trainer stationed in Orgrimmar. He mentors novice and intermediate Horde warlocks, teaching them how to summon and bind demons from the Twisting Nether."
+   "answer": "Gan'rul Bloodeye trains orc warlocks in Orgrimmar. He mentors novice and intermediate Horde warlocks in summoning and binding demons from the Twisting Nether."
   },
   {
    "q": "Where can I find Gan'rul Bloodeye?",
@@ -38,7 +38,7 @@
     "where is gan'rul bloodeye",
     "where is cleft of shadow trainer"
    ],
-   "answer": "He is located in the Cleft of Shadow, the subterranean cavern network hidden beneath Orgrimmar. He stands alongside fellow dark practitioners, away from the main thoroughfares of the city."
+   "answer": "Find Gan'rul in the Cleft of Shadow, a cavern network beneath Orgrimmar. He is among fellow dark practitioners, away from the city's main thoroughfares."
   },
   {
    "q": "Why are warlocks hidden in the Cleft of Shadow?",
@@ -47,7 +47,7 @@
     "why hide warlocks",
     "cleft of shadow lore"
    ],
-   "answer": "Warchief Thrall and the shamanistic society of the new Horde strongly distrust fel magic and demonic corruption after the orcs' past enslavement. Warlocks are permitted within the Horde strictly for their utility, but their practice is relegated to the shadows to prevent civic unrest."
+   "answer": "Warlocks practice in the Cleft of Shadow because Warchief Thrall and the new Horde's shamanistic society distrust fel magic and demonic corruption after the orcs' past enslavement. The Horde permits warlocks for their utility, but keeps their practice in the shadows to prevent civic unrest."
   },
   {
    "q": "What demons does Gan'rul help summon?",
@@ -56,7 +56,7 @@
     "ganrul demon quests",
     "voidwalker succubus trainer"
    ],
-   "answer": "Gan'rul guides warlocks through the rituals required to summon and subjugate both the voidwalker and the succubus. Completing his tasks proves that the summoner possesses the necessary willpower to control these fiends."
+   "answer": "Gan'rul guides warlocks in rituals to summon and subjugate voidwalkers and succubi. Completing his tasks proves a summoner has the will to control these fiends."
   },
   {
    "q": "Does Gan'rul have any known family?",
@@ -64,7 +64,7 @@
     "gan'rul relatives",
     "halga bloodeye relative"
    ],
-   "answer": "He shares a surname with Halga Bloodeye, though their precise relationship is not openly documented."
+   "answer": "Gan'rul shares a surname with Halga Bloodeye, but their precise relationship is not openly documented."
   },
   {
    "q": "Who is Strahad, whom Gan'rul mentions?",
@@ -73,17 +73,17 @@
     "who is strahad",
     "strahad quest"
    ],
-   "answer": "Strahad Farsan is an accomplished warlock residing in the Barrens near the Ratchet hills. Gan'rul eventually sends promising students to Strahad for more advanced instruction and greater challenges."
+   "answer": "Strahad Farsan is an accomplished warlock living in the Barrens near the Ratchet hills. Gan'rul sends promising students to him for more advanced instruction and greater challenges."
   }
  ],
  "angles": [
   {
    "target": "class:Warlock",
-   "text": "For warlocks seeking forbidden knowledge, Gan'rul is a vital mentor in Kalimdor, providing the knowledge and trials needed to bind voidwalkers and succubi."
+   "text": "As a warlock seeking forbidden knowledge, you can learn from Gan'rul in Kalimdor and face the trials needed to bind voidwalkers and succubi."
   },
   {
    "target": "faction:Horde",
-   "text": "Gan'rul embodies the precarious position of fel magic in Thrall's Horde\u2014utilized for military strength, but confined to the underground recesses of the capital."
+   "text": "As a member of the Horde, you see how fel magic is used for military strength while its practitioners remain confined to the capital's underground recesses."
   }
  ],
  "keywords": [
@@ -108,5 +108,6 @@
  ],
  "attribution": [
   "Gan'rul Bloodeye"
- ]
+ ],
+ "style": 1
 }

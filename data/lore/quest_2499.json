@@ -17,16 +17,16 @@
   "wiki": "Oakenscowl (Classic)",
   "chain": []
  },
- "summary": "Denalan asks adventurers to put an end to Oakenscowl, a powerful timberling corrupted by a massive growth. Dwelling in a cave along the southern bank of Lake Al'Ameth, the maddened creature now spreads blight across the local wildlife.",
+ "summary": "Along Lake Al'Ameth, blight spreads from a corrupted timberling called Oakenscowl. Denalan asks you to end the threat. The maddened creature dwells in a cave on the lake's southern bank.",
  "sections": [
   {
    "title": "A Fallen Guardian",
-   "body": "Oakenscowl was once a grand leader among the timberlings, the wood spirits that tend to the lush boughs of Teldrassil. Tragically, the corruption creeping through the world tree does not discriminate between humble wildlife and ancient protectors. Driven wild by a gargantuan tumor swelling upon its bark, Oakenscowl has become a vessel of blight rather than a steward of growth.",
+   "body": "Timberlings tend the boughs of Teldrassil, and Oakenscowl once led them. Now corruption runs through the world tree, reaching humble wildlife and ancient protectors alike. A massive growth swells across Oakenscowl's bark, driving the timberling mad. Where it once guarded the forest, blight now takes hold.",
    "spoiler": 0
   },
   {
    "title": "Purging Lake Al'Ameth",
-   "body": "Lurking in a cavern on the southern shore of Lake Al'Ameth, Oakenscowl's toxic presence actively poisons surrounding waters and woodland beasts. Denalan, unable to face the beast alone, seeks the creature's destruction not out of malice, but to mercifully sever the source of corruption and study the bizarre, overgrown tumor plaguing the lake's spirits.",
+   "body": "Oakenscowl hides in a cavern on Lake Al'Ameth's southern shore. Its presence poisons the nearby water and woodland beasts. Denalan cannot face the creature alone, so he seeks its destruction to cut off the corruption and study the strange growth afflicting the lake's spirits.",
    "spoiler": 0
   }
  ],
@@ -38,7 +38,7 @@
     "oakenscowl lore",
     "what kind of creature is oakenscowl"
    ],
-   "answer": "Oakenscowl is a massive timberling\u2014a forest spirit tied to Teldrassil's plant life. He was once regarded as a noble leader among his kind before falling victim to a malignant growth."
+   "answer": "Oakenscowl is a massive timberling, a forest spirit tied to Teldrassil's plant life. The timberling once led its kind before a malignant growth took hold."
   },
   {
    "q": "Why must Oakenscowl be destroyed?",
@@ -46,7 +46,7 @@
     "why kill oakenscowl",
     "oakenscowl hostile"
    ],
-   "answer": "Oakenscowl is afflicted by a gargantuan tumor that has twisted his mind and made him violently aggressive. His presence in the cavern along Lake Al'Ameth actively spreads the strange blight to neighboring timberlings and beasts."
+   "answer": "Oakenscowl's massive growth has twisted its mind and made it violently aggressive. From its cavern by Lake Al'Ameth, it spreads blight to nearby timberlings and beasts."
   },
   {
    "q": "Where does Oakenscowl reside?",
@@ -54,7 +54,7 @@
     "oakenscowl location",
     "where is oakenscowl cave"
    ],
-   "answer": "Oakenscowl dwells deep within a cavern situated along the southern shore of Lake Al'Ameth in southern Teldrassil."
+   "answer": "Oakenscowl dwells in a cavern on the southern shore of Lake Al'Ameth in southern Teldrassil."
   },
   {
    "q": "Who is Denalan and why is he studying the tumor?",
@@ -62,7 +62,7 @@
     "who gives oakenscowl quest",
     "denalan oakenscowl"
    ],
-   "answer": "Denalan is an herbalist and naturalist living on the eastern shore of Lake Al'Ameth. He studies the flora and fauna of the world tree, striving to understand and cure the strange rot that infects the local timberling population."
+   "answer": "Denalan is an herbalist and naturalist who lives on Lake Al'Ameth's eastern shore. He studies the world tree's plants and animals, seeking to understand and cure the strange rot infecting local timberlings."
   },
   {
    "q": "What caused the tumor on Oakenscowl?",
@@ -70,7 +70,7 @@
     "why do timberlings have tumors",
     "source of corruption"
    ],
-   "answer": "The tumor is a symptom of a deeper, insidious sickness creeping through the soil and roots of Teldrassil, corrupting nature spirits from within."
+   "answer": "The tumor points to a deeper sickness spreading through Teldrassil's soil and roots, corrupting nature spirits from within."
   },
   {
    "q": "Is Oakenscowl beyond saving?",
@@ -78,21 +78,21 @@
     "can oakenscowl be healed",
     "cure oakenscowl"
    ],
-   "answer": "By the time adventurers encounter him, the affliction has progressed too far. The tumor has completely warped the creature, leaving Denalan no choice but to call for a mercy kill."
+   "answer": "Oakenscowl's affliction has gone too far by the time adventurers find it. The growth has completely warped the timberling, leaving Denalan to call for a mercy kill."
   }
  ],
  "angles": [
   {
    "target": "class:Druid",
-   "text": "Seeing a guardian timberling corrupted by strange tumors is a harrowing reminder to druids that Teldrassil's burgeoning ecosystem is deeply unwell."
+   "text": "As a druid, seeing a guardian timberling warped by strange growths shows how deeply unwell Teldrassil's young ecosystem has become."
   },
   {
    "target": "race:NightElf",
-   "text": "The tragic downfall of Oakenscowl strikes near the heart of night elf society, threatening Lake Al'Ameth just south of Dolanaar."
+   "text": "As a night elf, Oakenscowl's fall threatens Lake Al'Ameth, just south of Dolanaar, close to the heart of your people."
   },
   {
    "target": "profession:Herbalism",
-   "text": "Herbalists aiding Denalan observe firsthand how botanical life can warp into malignant, mossy blights under the influence of unseen rot."
+   "text": "As an herbalist, you can see how unseen rot twists plant life into malignant, mossy blights while helping Denalan."
   }
  ],
  "keywords": [
@@ -112,5 +112,6 @@
  ],
  "attribution": [
   "Oakenscowl (Classic)"
- ]
+ ],
+ "style": 1
 }

@@ -1,0 +1,104 @@
+{
+ "key": "quest:98219",
+ "type": "quest",
+ "name": "The Shamed Lieutenant",
+ "era": "forever",
+ "zone": "stormwind",
+ "meta": {
+  "ids": [
+   98219
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "A Stormwind guard asks you to check on Lieutenant Farren Orinelle in Southshore. His reassignment is meant to teach him a lesson, but the guard hopes he can still succeed.",
+ "sections": [
+  {
+   "title": "A Check-In",
+   "body": "You've safely delivered the statuette. Now your contact asks you to speak with Lieutenant Farren Orinelle, a city guard reassigned to Southshore in Hillsbrad Foothills. The lieutenant's father was a friend of the guard, who believes he could benefit from help. Menethil Harbor has a boat bound that way if you are passing through.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who am I being asked to speak with?",
+   "aliases": [
+    "who is farren",
+    "lieutenant farren",
+    "farren orinelle"
+   ],
+   "answer": "You are being asked to speak with Lieutenant Farren Orinelle, a city guard reassigned to Southshore."
+  },
+  {
+   "q": "Where is Lieutenant Farren?",
+   "aliases": [
+    "where is farren",
+    "farren location",
+    "southshore lieutenant"
+   ],
+   "answer": "Lieutenant Farren Orinelle is in Southshore, in Hillsbrad Foothills."
+  },
+  {
+   "q": "Why was Farren reassigned?",
+   "aliases": [
+    "why reassigned",
+    "farren punishment",
+    "why is he in southshore"
+   ],
+   "answer": "The guard says Farren could use the lesson, but gives no further reason for his reassignment."
+  },
+  {
+   "q": "How does the guard know Farren?",
+   "aliases": [
+    "farren father",
+    "who was his dad",
+    "guard connection"
+   ],
+   "answer": "Farren's father was a friend of the guard who asks you to check on him."
+  },
+  {
+   "q": "How can I get to Southshore?",
+   "aliases": [
+    "boat to southshore",
+    "menethil route",
+    "how get there"
+   ],
+   "answer": "A boat from Menethil Harbor can take you that way."
+  },
+  {
+   "q": "Has anyone checked on Farren before?",
+   "aliases": [
+    "last month",
+    "other visitors",
+    "who checks on farren"
+   ],
+   "answer": "Farren says another Stormwind guard came to check on him the previous month."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Alliance",
+   "text": "As an Alliance traveler, you are asked to check on a Stormwind city guard serving in Southshore."
+  }
+ ],
+ "keywords": [
+  "farren orinelle",
+  "hillsbrad foothills",
+  "lieutenant farren",
+  "menethil harbor",
+  "southshore",
+  "stormwind guard",
+  "the shamed lieutenant"
+ ],
+ "related": [
+  "npc:lieutenant-farren-orinelle",
+  "subzone:southshore",
+  "zone:hillsbrad",
+  "subzone:menethil-harbor",
+  "topic:stormwind-kingdom"
+ ],
+ "style": 1,
+ "attribution": [
+  "In-game quest text: The Shamed Lieutenant"
+ ]
+}

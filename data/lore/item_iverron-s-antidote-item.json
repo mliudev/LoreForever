@@ -10,11 +10,11 @@
    "quest:3522"
   ]
  },
- "summary": "Iverron's Antidote is a delicate medicinal draught concocted by Dirania Silvershine in Shadowglen. Specially brewed to neutralize the lethal venom of the local Webwood spiders, the mixture is highly unstable and spoils rapidly once prepared.",
+ "summary": "In Shadowglen, Iverron's Antidote must reach a young night elf before it spoils. Dirania Silvershine brews it to counter the lethal venom of local Webwood spiders, but it lasts only five minutes.",
  "sections": [
   {
    "title": "A Fragile Remedy",
-   "body": "Crafted by Dirania Silvershine in Aldrassil, this antidote is formulated to counteract the potent venom afflicting the young night elf Iverron. Due to the volatile nature of its ingredients and herbal catalysts, the draught possesses an exceptionally short shelf life, remaining viable for only five minutes after brewing. Courier messengers must sprint north toward the Webwood cave without delay to deliver the concoction before it degrades into useless slurry.",
+   "body": "Dirania Silvershine brews the antidote in Aldrassil for Iverron, a young night elf bitten by Webwood spiders. Its volatile ingredients and herbal catalysts give the draught a shelf life of only five minutes. Couriers must hurry north to the Webwood cave and deliver it before it spoils.",
    "spoiler": 0
   }
  ],
@@ -25,7 +25,7 @@
     "antidote use",
     "what does iverrons antidote do"
    ],
-   "answer": "It cures Iverron of the toxic bite he sustained from the nearby Webwood spiders outside their cave in northern Shadowglen."
+   "answer": "Iverron's Antidote cures Iverron after a toxic bite from Webwood spiders outside their cave in northern Shadowglen."
   },
   {
    "q": "Why does the antidote have a time limit?",
@@ -34,7 +34,7 @@
     "antidote timer",
     "why does it expire"
    ],
-   "answer": "Dirania Silvershine notes that the concoction is fragile and only remains potent for five minutes after preparation. If it is not administered quickly, its medicinal properties completely break down."
+   "answer": "Dirania Silvershine says the fragile draught stays potent for only five minutes after brewing. After that, its medicinal properties break down."
   },
   {
    "q": "Who brews the antidote?",
@@ -42,7 +42,7 @@
     "who made antidote",
     "antidote maker"
    ],
-   "answer": "Dirania Silvershine, a night elf healer stationed in Aldrassil within the Shadowglen, brews the potion using ingredients gathered to save Iverron."
+   "answer": "Dirania Silvershine, a night elf healer in Aldrassil in Shadowglen, brews the potion from ingredients gathered to save Iverron."
   },
   {
    "q": "What happens if the antidote expires?",
@@ -50,17 +50,17 @@
     "antidote expired",
     "timer ran out"
    ],
-   "answer": "If the timer runs out, the draught spoils and will no longer work. The courier must return to Dirania Silvershine in Aldrassil to obtain a fresh batch."
+   "answer": "Once the five minutes pass, the draught spoils and no longer works. The courier must return to Dirania Silvershine in Aldrassil for a fresh batch."
   }
  ],
  "angles": [
   {
    "target": "race:NightElf",
-   "text": "For young night elf adventurers starting in Shadowglen, rushing this cure to Iverron demonstrates the community's reliance on quick action and herbal knowledge against the creeping corruption in the boughs of Teldrassil."
+   "text": "As a young night elf adventurer in Shadowglen, hurrying Iverron this cure shows how the community relies on quick action and herbal knowledge against corruption in Teldrassil's boughs."
   },
   {
    "target": "profession:Herbalism",
-   "text": "The concoction demonstrates the extreme volatility of native Teldrassil reagents, highlighting how certain herbal remedies must be consumed immediately upon brewing."
+   "text": "As an herbalist, you can see how volatile native Teldrassil reagents make some remedies that must be used at once."
   }
  ],
  "keywords": [
@@ -81,5 +81,6 @@
  "attribution": [
   "Iverron's Antidote (item)",
   "Iverron's Antidote (2)"
- ]
+ ],
+ "style": 1
 }

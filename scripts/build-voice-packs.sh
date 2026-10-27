@@ -4,7 +4,6 @@
 #   LoreForever_Voice_Female.zip                          the female narrator (zone stories, answers, bosses)
 #   LoreForever_Voice_Female_Alliance.zip / _Horde.zip    her lands packs
 #   LoreForever_Voice_Female-complete.zip                 her core and lands stories in one zip
-#   LoreForever_Voice_Female_enUS-complete.zip            available English female stories and answers
 #   LoreForever_Voice_<Default|Female>_<locale>-complete.zip  available stories and answers plus translated text (once
 #                                                         it holds more than the narrator's own language pack zip)
 #   LoreForever_Voice_<Default|Female>_Quests.zip         optional English quest dialogue, downloaded deliberately
@@ -68,6 +67,8 @@ root = Path(sys.argv[1])
 sys.path.insert(0, str(root / "scripts"))
 from transport_assets import TransportError, pause_split_report, validate as validate_transport
 from load_order import LoadError, addon_files
+import build_jobs   # sized by free memory too, so builds started together can't take it all (scripts/build_jobs.py)
+SPLIT_WORKER_MB = 400
 addons, out = root / "addon", root / "dist" / "packs"
 VERSIONED = "--versioned" in sys.argv[2:]
 SIZES = "--sizes" in sys.argv[2:]
@@ -95,18 +96,18 @@ def zip_bytes(folder, src, paths):
     return total
 # zip name -> (folders in it, display name with {v} for the version)
 DOWNLOADS = {
-    "LoreForever_Voice_Default_Quests": (["LoreForever_Voice_Default_Quests"], "Male narrator: quest dialogue {v}"),
+    "LoreForever_Voice_Default_Quests": (["LoreForever_Voice_Default_Quests"], "Male narrator: quest dialogue, levels 1-25 {v}"),
     "LoreForever_Voice_Female": (["LoreForever_Voice_Female"], "Female narrator: core {v}"),
     "LoreForever_Voice_Female_Alliance": (["LoreForever_Voice_Female_Alliance"], "Female narrator: Alliance lands {v}"),
     "LoreForever_Voice_Female_Horde": (["LoreForever_Voice_Female_Horde"], "Female narrator: Horde lands {v}"),
-    "LoreForever_Voice_Female_Quests": (["LoreForever_Voice_Female_Quests"], "Female narrator: quest dialogue {v}"),
-    # The rest of the game's quest dialogue (voicepack.QUEST_MORE_PACKS): levels up to 50, and 51-60.
+    "LoreForever_Voice_Female_Quests": (["LoreForever_Voice_Female_Quests"], "Female narrator: quest dialogue, levels 1-25 {v}"),
+    # The rest of the game's quest dialogue (voicepack.QUEST_MORE_PACKS): levels 26-50, and 51-60 (_Quests holds 1-25).
     "LoreForever_Voice_Default_Quests2": (["LoreForever_Voice_Default_Quests2"],
-                                          "Male narrator: more quest dialogue, levels 1-50 {v}"),
+                                          "Male narrator: more quest dialogue, levels 26-50 {v}"),
     "LoreForever_Voice_Default_Quests3": (["LoreForever_Voice_Default_Quests3"],
                                           "Male narrator: more quest dialogue, levels 51-60 {v}"),
     "LoreForever_Voice_Female_Quests2": (["LoreForever_Voice_Female_Quests2"],
-                                         "Female narrator: more quest dialogue, levels 1-50 {v}"),
+                                         "Female narrator: more quest dialogue, levels 26-50 {v}"),
     "LoreForever_Voice_Female_Quests3": (["LoreForever_Voice_Female_Quests3"],
                                          "Female narrator: more quest dialogue, levels 51-60 {v}"),
     "LoreForever_Voice_Female-complete": (["LoreForever_Voice_Female", "LoreForever_Voice_Female_Alliance",
@@ -214,14 +215,13 @@ LANGUAGES = {"": "", "_deDE": ", Deutsch", "_esES": ", Español", "_frFR": ", Fr
              "_itIT": ", Italiano"}
 # New manual bundles use only available story components. Quest dialogue stays a separate opt-in pack.
 FULL_BUNDLES = {}
-for loc, lang in (("enUS", "English"), *((k[1:], v[2:]) for k, v in LANGUAGES.items() if k)):
+# English has no bundle here: the male narrator's core and lands stay in the main download, and the female narrator's is
+# LoreForever_Voice_Female-complete above (the installer, CurseForge and the site's links name it). A second name for
+# the same three folders was a second 665 MB asset, built, uploaded and stored twice (0.29.0).
+for loc, lang in ((k[1:], v[2:]) for k, v in LANGUAGES.items() if k):
     for voice, who in (("Default", "Male"), ("Female", "Female")):
-        if loc == "enUS" and voice == "Default":
-            continue   # English male core and lands stay in the main download.
-        suffix = "" if loc == "enUS" else f"_{loc}"
         base = f"LoreForever_Voice_{voice}"
-        folders = [base, base + "_Alliance", base + "_Horde"] if not suffix else [base + suffix]
-        FULL_BUNDLES[f"{base}_{loc}-complete"] = (folders, f"{who} narrator: {lang}, stories {{v}}")
+        FULL_BUNDLES[f"{base}_{loc}-complete"] = ([f"{base}_{loc}"], f"{who} narrator: {lang}, stories {{v}}")
 DOWNLOADS.update(FULL_BUNDLES)
 # Narration taken back until it's recorded again (build-release.sh PAUSED_PACKS, LOR-567): no zip has it, neither its own
 # nor a bundle, and a bundle named for it (its narrator's -complete in that language) isn't built at all.
@@ -296,11 +296,15 @@ def source(folder):
     if SPLITS is None:
         STAGE = Path(tempfile.mkdtemp(prefix=".pause-split-", dir=out))
         atexit.register(shutil.rmtree, STAGE, True)
+        # Only the packs a zip that gets built holds: with --pack, the rest are never read (a zip is built only when all
+        # its folders are in ONLY), so they must not each start a worker either (10/25: 6 runs x 16 workers).
         packs = [f for f in dict.fromkeys(f for fs, _ in DOWNLOADS.values() for f in fs)
-                 if (addons / f / f"{f}.toc").is_file()]
+                 if (addons / f / f"{f}.toc").is_file() and (not ONLY or f in ONLY)]
+        # A split peaks near 365 MB (measured 10/25 on MoreQuests2, the biggest of the quest packs; 280 on Quests_deDE)
+        slot = build_jobs.reserve("build-voice-packs", SPLIT_WORKER_MB, tasks=len(packs))
+        atexit.register(slot.release)
         # fork: workers that start from this process, scripts/ on their path (it comes from stdin: nothing to import)
-        pool = ProcessPoolExecutor(max(1, min(len(packs), os.cpu_count() or 1)),
-                                   mp_context=multiprocessing.get_context("fork"))
+        pool = ProcessPoolExecutor(slot.workers, mp_context=multiprocessing.get_context("fork"))
         SPLITS = {f: pool.submit(pause_split_report, addons / f, STAGE) for f in packs}
     if folder not in SOURCES:
         src, notes, error = (SPLITS[folder].result() if folder in SPLITS

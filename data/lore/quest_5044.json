@@ -25,16 +25,16 @@
    "Wisdom of Agamaggan"
   ]
  },
- "summary": "Wisdom of Agamaggan is a repeatable Horde quest offered by the captive quilboar Mangletooth in Camp Taurajo. By presenting blood shards gathered across the Barrens, spellcasters can partake in the ritualistic magic of the ancient boar god Agamaggan.",
+ "summary": "At Camp Taurajo, Mangletooth trades the wisdom of Agamaggan for blood shards. The captive quilboar offers Horde spellcasters a ritual drawn from the ancient boar god’s power.",
  "sections": [
   {
    "title": "Blood Shards and Ancient Power",
-   "body": "Held prisoner by the Horde at Camp Taurajo, the quilboar Mangletooth trades the magical secrets of his race for crimson crystals known as blood shards. According to quilboar belief, these shards crystallized from the spilled blood of Agamaggan, the towering boar Demigod who perished in the War of the Ancients. Mangletooth claims the geomancers and shaman of his tribes rely on these shards to channel divine power into their rituals.",
+   "body": "At Camp Taurajo, Mangletooth is held prisoner by the Horde. The quilboar trades his people’s magical secrets for blood shards, crimson crystals said to have formed from Agamaggan’s spilled blood. The towering boar Demigod died in the War of the Ancients. Mangletooth says the geomancers and shaman of his tribes use the shards to channel divine power in their rituals.",
    "spoiler": 0
   },
   {
    "title": "Blessing of the Mind",
-   "body": "While other offerings coax physical resilience or swiftness from the shards, the ritual of Wisdom focuses strictly on intellect and arcane capability. For the exchange of four blood shards, Mangletooth invokes the boar god's spirit on behalf of the player, wishing them cunning in their confrontations before parting with an ominous reminder of mortality.",
+   "body": "Other shard offerings bring physical resilience or swiftness. Mangletooth’s Wisdom ritual instead sharpens intellect and arcane ability. For four blood shards, he calls on Agamaggan’s spirit to grant you cunning in your confrontations, then reminds you of your mortality.",
    "spoiler": 0
   }
  ],
@@ -46,7 +46,7 @@
     "who is the boar god",
     "boar ancient"
    ],
-   "answer": "Agamaggan is an ancient boar Demigod who battled the Burning Legion during the War of the Ancients ten thousand years ago. He fell in the Barrens, where his blood soaked into the soil, creating giant thorn vines and the crystalline blood shards."
+   "answer": "Agamaggan is an ancient boar Demigod who fought the Burning Legion during the War of the Ancients ten thousand years ago. He fell in the Barrens, where his blood soaked the soil and gave rise to giant thorn vines and crystalline blood shards."
   },
   {
    "q": "Why is Mangletooth willing to help the Horde?",
@@ -55,7 +55,7 @@
     "mangletooth motive",
     "captive quilboar"
    ],
-   "answer": "Mangletooth is a captive quilboar held in a cage at Camp Taurajo. Despite his tribe's fierce hatred of the Horde, his lust for blood shards and personal survival outweighs his loyalty, leading him to bestow sacred tribal blessings in exchange for shards."
+   "answer": "Mangletooth is a captive quilboar held in a cage at Camp Taurajo. Though his tribe fiercely hates the Horde, he values blood shards and his own survival more than loyalty, and gives sacred tribal blessings in exchange for shards."
   },
   {
    "q": "What are blood shards?",
@@ -64,7 +64,7 @@
     "what are blood shards",
     "red shards barrens"
    ],
-   "answer": "Blood shards are red mineral formations found throughout quilboar lands in the Barrens. Quilboar legend asserts that these crystals formed directly from the drops of blood spilled by the Demigod Agamaggan during his death."
+   "answer": "Blood shards are red mineral formations found throughout quilboar lands in the Barrens. Quilboar legend says the crystals formed from drops of blood shed by Agamaggan as he died."
   },
   {
    "q": "Can I repeat this ritual more than once?",
@@ -73,7 +73,7 @@
     "repeatable blood shards",
     "turn in again"
    ],
-   "answer": "Yes. Once Mangletooth trusts you after the initial blood shard demonstration, he will continually accept batches of four blood shards whenever you desire to refresh the blessing."
+   "answer": "Yes. After you first show Mangletooth blood shards and earn his trust, he accepts four at a time whenever you want to renew the blessing."
   },
   {
    "q": "Do quilboar shaman worship other deities?",
@@ -82,7 +82,7 @@
     "geomancer gods",
     "quilboar worship"
    ],
-   "answer": "Quilboar revere Agamaggan above all others, believing themselves to be his direct descendants. Their shamans and geomancers draw their nature magic and earth manipulation directly from his mythic legacy and remnants."
+   "answer": "Quilboar revere Agamaggan above all others and believe they descend directly from him. Their shamans and geomancers draw nature magic and power over the earth from his legacy and remnants."
   },
   {
    "q": "Where does Mangletooth suggest our next meeting might be?",
@@ -90,25 +90,25 @@
     "mangletooth next life",
     "mangletooth dialogue"
    ],
-   "answer": "Upon completing the ritual, Mangletooth tells you to share tales of your cunning whenever you meet next, whether in this mortal life or the next life, acknowledging the ceaseless bloodshed across the Barrens."
+   "answer": "After the ritual, Mangletooth asks you to share tales of your cunning the next time you meet, whether in this life or the next. His words acknowledge the ceaseless bloodshed across the Barrens."
   }
  ],
  "angles": [
   {
    "target": "faction:Horde",
-   "text": "The Horde's containment of Mangletooth at Camp Taurajo offers warriors and mystics an opportunistic way to harness native Barrens magic against the surrounding quilboar tribes."
+   "text": "At Camp Taurajo, the Horde keeps Mangletooth captive, giving you a chance to draw on native Barrens magic against the quilboar tribes."
   },
   {
    "target": "class:Mage",
-   "text": "Mages keen on magical enhancement can appreciate the primal geomantic power channeled into raw intellect through Agamaggan's essence."
+   "text": "As a mage, you can recognize how Agamaggan’s essence channels primal geomantic power into raw intellect."
   },
   {
    "target": "class:Priest",
-   "text": "Priests studying regional faiths will find the direct link between Agamaggan's deific blood and mental fortifying rituals an intriguing facet of primal divine worship."
+   "text": "As a priest, you may find the link between Agamaggan’s divine blood and rituals that fortify the mind an intriguing part of primal worship."
   },
   {
    "target": "class:Shaman",
-   "text": "Quilboar geomancy mirrors the elemental callings of shamanism, making the boar god's shard rituals familiar yet uniquely wild."
+   "text": "As a shaman, you may recognize how quilboar geomancy echoes elemental callings, while the boar god’s shard rituals remain uniquely wild."
   }
  ],
  "keywords": [
@@ -133,5 +133,6 @@
  ],
  "attribution": [
   "Wisdom of Agamaggan"
- ]
+ ],
+ "style": 1
 }

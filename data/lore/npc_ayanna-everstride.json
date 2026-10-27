@@ -8,11 +8,11 @@
   "wiki": "Ayanna Everstride",
   "refs": 1
  },
- "summary": "Ayanna Everstride is a kaldorei hunter trainer stationed in Aldrassil within the Shadowglen of Teldrassil. She instructs fledgling night elf rangers in the foundational arts of marksmanship, tracking, and wilderness survival. Young hunters taking their first steps beneath the boughs of the World Tree seek her guidance to hone their woodland discipline.",
+ "summary": "In Shadowglen, Ayanna Everstride trains young kaldorei in the hunter’s way. Stationed in Aldrassil, she teaches marksmanship, tracking, and survival beneath the World Tree.",
  "sections": [
   {
    "title": "A Mentor in Shadowglen",
-   "body": "Perched inside Aldrassil at the very heart of the Shadowglen, Ayanna Everstride stands ready to instruct newly awakened kaldorei in the ways of the wild. To the night elves, a hunter is not merely a trapper or sharpshooter, but an indispensable guardian of the sacred forests. Ayanna provides guidance on early martial techniques, helping novices master ranged combat and survive in the perilous woods of Teldrassil.",
+   "body": "Ayanna Everstride trains newly awakened kaldorei hunters inside Aldrassil, in the heart of Shadowglen. To the night elves, hunters are indispensable guardians of the sacred forests, not merely trappers or sharpshooters. Ayanna teaches novices early martial skills, ranged combat, and how to survive Teldrassil’s perilous woods.",
    "spoiler": 0
   }
  ],
@@ -24,7 +24,7 @@
     "who is ayanna",
     "aldrassil hunter trainer"
    ],
-   "answer": "Ayanna Everstride is a night elf hunter trainer located in Aldrassil, situated in the starting area of Shadowglen on Teldrassil. She teaches novice hunters fundamental combat skills and outdoor survival techniques."
+   "answer": "Ayanna Everstride trains novice night elf hunters in Aldrassil, within Shadowglen on Teldrassil. She teaches basic combat and outdoor survival skills."
   },
   {
    "q": "Where can I find Ayanna Everstride?",
@@ -33,7 +33,7 @@
     "where is ayanna",
     "find ayanna everstride"
    ],
-   "answer": "She can be found in the interior of Aldrassil, the massive hollowed tree settlement located in Shadowglen at the heart of Teldrassil."
+   "answer": "You can find Ayanna Everstride inside Aldrassil, the massive hollowed tree settlement in Shadowglen, at the heart of Teldrassil."
   },
   {
    "q": "What quests involve Ayanna Everstride?",
@@ -42,17 +42,17 @@
     "etched sigil quest",
     "ayanna quest giver"
    ],
-   "answer": "New night elf hunters are directed to Ayanna via early training quests, such as receiving an Etched Sigil from early instructors, after which she provides introductory training for aspiring woodland rangers."
+   "answer": "Early training sends new night elf hunters to Ayanna. Their first instructors may give them an Etched Sigil, and Ayanna then provides introductory training for aspiring woodland rangers."
   }
  ],
  "angles": [
   {
    "target": "class:Hunter",
-   "text": "For fledgling night elf hunters starting their journey in Shadowglen, Ayanna Everstride serves as the very first mentor in weapon handling, tracking, and surviving the untamed wilderness."
+   "text": "As a hunter starting in Shadowglen, you can look to Ayanna Everstride for your first guidance in weapon handling, tracking, and wilderness survival."
   },
   {
    "target": "race:NightElf",
-   "text": "Stationed within the sacred hollows of Aldrassil, Ayanna helps safeguard the young World Tree by preparing raw recruits to defend the surrounding forest from encroaching corruption."
+   "text": "As a night elf, you find Ayanna within Aldrassil’s sacred hollows. She prepares raw recruits to defend the surrounding forest from encroaching corruption and help safeguard the young World Tree."
   }
  ],
  "keywords": [
@@ -72,5 +72,6 @@
  ],
  "attribution": [
   "Ayanna Everstride"
- ]
+ ],
+ "style": 1
 }

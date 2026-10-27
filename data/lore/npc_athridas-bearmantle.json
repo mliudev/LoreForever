@@ -8,16 +8,16 @@
   "wiki": "Athridas Bearmantle",
   "refs": 4
  },
- "summary": "Athridas Bearmantle is a night elf druid residing in Dolanaar within the boughs of Teldrassil. Tasked with safeguarding the local settlement, he directs young adventurers to investigate the encroaching corruption affecting the local wildlife and the nearby Gnarlpine furbolgs.",
+ "summary": "In Dolanaar, Athridas Bearmantle works to protect the settlement and its wilds. The night elf druid sends young adventurers to investigate corruption among local wildlife and the nearby Gnarlpine furbolgs.",
  "sections": [
   {
    "title": "Guardian of Dolanaar",
-   "body": "Stationed within Dolanaar, Athridas Bearmantle stands as an early line of defense for the night elves emerging from Shadowglen. As the boughs of the newly grown world tree Teldrassil exhibit unnatural signs of decay and unrest, Athridas works tirelessly to coordinate local scouting efforts and protect the peaceful township from surrounding threats.",
+   "body": "In Dolanaar, Athridas Bearmantle helps defend night elves arriving from Shadowglen. Teldrassil, the newly grown world tree, shows unnatural signs of decay and unrest. Athridas organizes local scouting and guards the township against threats from the surrounding wilds.",
    "spoiler": 0
   },
   {
    "title": "The Furbolg Affliction",
-   "body": "Much of Athridas's concern centers on the neighboring Gnarlpine tribe of furbolgs. Once peaceful neighbors, the Gnarlpine have succumbed to a spreading madness and corruption that poisons their shamans and chieftains, driving them into violent frenzy against the Kaldorei. Athridas mobilizes willing champions to contain the threat and unearth the deeper taint taking root in the wilderness.",
+   "body": "Athridas worries over the nearby Gnarlpine furbolgs. Once peaceful neighbors, the tribe has fallen to spreading madness and corruption that poisons its shamans and chieftains, driving them to violence against the Kaldorei. Athridas calls on willing champions to contain the danger and investigate the deeper taint taking root in the wilderness.",
    "spoiler": 0
   }
  ],
@@ -29,7 +29,7 @@
     "athridas bearmantle lore",
     "athridas dolanaar"
    ],
-   "answer": "Athridas Bearmantle is a night elf stationed in Dolanaar on the island of Teldrassil. He serves as an organizer for local defense, enlisting adventurers to combat the dark forces creeping through the boughs of the World Tree."
+   "answer": "Athridas Bearmantle is a night elf in Dolanaar on Teldrassil. He organizes the settlement's defense and calls on adventurers to confront threats moving through the World Tree's boughs."
   },
   {
    "q": "Where can I find Athridas Bearmantle?",
@@ -38,7 +38,7 @@
     "where is athridas",
     "find athridas bearmantle"
    ],
-   "answer": "Athridas is located in Dolanaar, the first major town night elf adventurers reach after leaving Shadowglen in Teldrassil."
+   "answer": "Find Athridas in Dolanaar, the first major town night elf adventurers reach after leaving Shadowglen in Teldrassil."
   },
   {
    "q": "What threats does Athridas focus on?",
@@ -47,7 +47,7 @@
     "what does athridas want",
     "athridas bearmantle tasks"
    ],
-   "answer": "Athridas primarily focuses on the aggressive Gnarlpine furbolgs who have fallen prey to a corrupting influence, directing travelers to quell their attacks, investigate their madness, and recover vital relics."
+   "answer": "Athridas focuses on the aggressive Gnarlpine furbolgs, whose corruption has driven them to attack. He directs travelers to quell their assaults, investigate their madness, and recover vital relics."
   },
   {
    "q": "Why are the Gnarlpine furbolgs attacking Dolanaar?",
@@ -56,7 +56,7 @@
     "gnarlpine corruption",
     "furbolg hostility teldrassil"
    ],
-   "answer": "The Gnarlpine tribe has fallen victim to a dark, unnatural corruption seeping through Teldrassil, which has driven their shamans and warriors mad with hostility toward the night elves."
+   "answer": "The Gnarlpine tribe has fallen to an unnatural corruption spreading through Teldrassil. It has driven their shamans and warriors mad with hostility toward the night elves."
   },
   {
    "q": "What role does Athridas play in securing Teldrassil?",
@@ -64,17 +64,17 @@
     "athridas role",
     "athridas importance"
    ],
-   "answer": "Athridas acts as an early guardian and organizer, ensuring that the spreading corruption among the beasts and furbolgs of Teldrassil is confronted before it can overrun the settlement of Dolanaar."
+   "answer": "Athridas organizes an early defense against corruption among Teldrassil's beasts and furbolgs, working to keep the danger from overrunning Dolanaar."
   }
  ],
  "angles": [
   {
    "target": "race:NightElf",
-   "text": "For young Kaldorei leaving Shadowglen, Athridas represents the grounded reality of Teldrassil's struggles, pointing out that their new home is already threatened from within."
+   "text": "For young Kaldorei leaving Shadowglen, Athridas shows the struggles of their new home, already threatened from within."
   },
   {
    "target": "class:Druid",
-   "text": "Athridas's missions against the corrupted Gnarlpine and his concern for ancient relics directly touch upon the balance of nature that druids are sworn to restore."
+   "text": "Athridas's efforts against the corrupted Gnarlpine and his concern for ancient relics touch on the balance of nature druids are sworn to restore."
   }
  ],
  "keywords": [
@@ -98,5 +98,6 @@
  ],
  "attribution": [
   "Athridas Bearmantle"
- ]
+ ],
+ "style": 1
 }

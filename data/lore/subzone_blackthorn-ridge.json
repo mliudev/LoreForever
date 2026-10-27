@@ -7,11 +7,11 @@
  "meta": {
   "wiki": "Blackthorn Ridge"
  },
- "summary": "Blackthorn Ridge is a jagged, bramble-choked valley tucked away in the southern reaches of the Barrens, immediately north of Razorfen Kraul. The area crawls with aggressive Razormane quilboar guarding their thorny settlements. High on the ridge above sits the camp of the orc shaman Brine, watching over an unusually pure pool of mountain water.",
+ "summary": "At Blackthorn Ridge, Razormane quilboar guard the southern Barrens north of Razorfen Kraul. Brine, an orc shaman, keeps watch from a camp above a pool of unusually pure mountain water.",
  "sections": [
   {
    "title": "A Thorn-Choked Redoubt",
-   "body": "Nestled near the towering burls of Razorfen Kraul, Blackthorn Ridge is dominated by dense thickets of massive, sharp briars. The Razormane quilboar consider these grounds ancestral territory, using the natural barricades to ambush outsiders and stage skirmishes into the southern Barrens. Despite the constant danger, travellers seek out the ridge for the hermit orc shaman Brine, who tends a camp perched above a spring noted across Kalimdor for its remarkable clarity and spiritual purity.",
+   "body": "Blackthorn Ridge rises beside Razorfen Kraul, its slopes crowded with dense thickets of sharp briars. The Razormane quilboar claim the ground as ancestral territory, using the thorny barriers to ambush outsiders and skirmish across the southern Barrens. Travelers seek out the ridge despite the danger, drawn to Brine, a hermit orc shaman. His camp sits above a spring famed across Kalimdor for its clear, spiritually pure water.",
    "spoiler": 0
   }
  ],
@@ -23,7 +23,7 @@
     "where is blackthorn",
     "how to find blackthorn ridge"
    ],
-   "answer": "Blackthorn Ridge is located in the far southern Barrens, situated just north of the massive briars surrounding Razorfen Kraul and south of Camp Taurajo."
+   "answer": "Blackthorn Ridge lies in the far southern Barrens, just north of the briars around Razorfen Kraul and south of Camp Taurajo."
   },
   {
    "q": "Who lives at Blackthorn Ridge?",
@@ -32,7 +32,7 @@
     "blackthorn ridge inhabitants",
     "quilboar blackthorn"
    ],
-   "answer": "The valley floor is infested with hostile Razormane quilboar. Overlooking their brambles on an elevated rocky perch lives Brine, an orc shaman who watches over the nearby mountain spring."
+   "answer": "Hostile Razormane quilboar occupy the valley floor. Brine, an orc shaman, lives on a rocky perch above their brambles and watches over the nearby mountain spring."
   },
   {
    "q": "Why is the pool beneath Brine's camp special?",
@@ -41,17 +41,17 @@
     "water of blackthorn",
     "blackthorn ridge spring"
    ],
-   "answer": "Despite being surrounded by the arid plains and bristling corruption of the quilboar thornbrakes, the hidden pool resting beneath the ridge holds exceptionally pure, clear water, making it a sacred natural focus for shamanic rituals."
+   "answer": "A hidden pool beneath the ridge holds exceptionally pure, clear water, despite the dry plains and the quilboar thornbrakes around it. Shamans use the pool as a sacred focus for their rituals."
   }
  ],
  "angles": [
   {
    "target": "class:Shaman",
-   "text": "The ridge is an important pilgrimage site for young Horde shamans seeking out Brine to understand the purity of natural water elements amidst the harsh, dry plains."
+   "text": "Young Horde shamans seek out Brine at the ridge to learn about the purity of natural water elements amid the harsh, dry plains."
   },
   {
    "target": "faction:Horde",
-   "text": "The Razormane inhabiting the ridge threaten Horde supply lines running through the southern Barrens toward Thousand Needles, demanding constant vigilance from passing caravans."
+   "text": "Razormane quilboar threaten Horde supply lines through the southern Barrens toward Thousand Needles, so passing caravans must stay vigilant."
   }
  ],
  "keywords": [
@@ -72,5 +72,6 @@
  ],
  "attribution": [
   "Blackthorn Ridge"
- ]
+ ],
+ "style": 1
 }

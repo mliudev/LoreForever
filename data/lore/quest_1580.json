@@ -20,16 +20,16 @@
    "Electropellers"
   ]
  },
- "summary": "Electropellers is a lighthearted errand for the eccentric gnome tinkerer Wizbang Cranktoggle in Auberdine. After losing his bag of prototype components in Darkshore's freshwater streams during a misadventure with an explosive duck decoy, Wizbang asks passing anglers to fish them back out.",
+ "summary": "In Darkshore, Wizbang Cranktoggle asks anglers to recover his lost electropellers. He lost the prototype parts in freshwater streams after a mishap with an explosive duck decoy.",
  "sections": [
   {
    "title": "A Tipsy Invention",
-   "body": "Wizbang Cranktoggle, a gnome tinkerer stationed in the quiet night elf port of Auberdine, spent an evening wandering inland Darkshore searching for testing grounds. His latest passion project was a self-propelled, exploding duck decoy. Unfortunately, a bit too much drink led to an untimely blackout. Wizbang woke hours later back in town with singed hair and a completely empty pack, having accidentally dropped his precious bag of electropellers into one of the coastal rivers.",
+   "body": "Wizbang Cranktoggle spends an evening searching inland Darkshore for a place to test his latest invention. The gnome tinkerer, stationed in Auberdine, has built a self-propelled, exploding duck decoy. After drinking too much, he blacks out and wakes hours later back in town with singed hair and an empty pack. His bag of electropellers has fallen into one of the coastal rivers.",
    "spoiler": 0
   },
   {
    "title": "Dredging the Waters",
-   "body": "Rather than brave the wilds himself to retrieve his scattered mechanical parts, Wizbang calls upon local fishermen to dredge the freshwater streams of Darkshore. Anglers casting lines across waterways like the Wildbend River and Cliffspring River frequently snag these buoyant, metallic gizmos alongside the local fish. Recovering the components allows the oblivious gnome to resume his dangerously erratic waterfowl experiments.",
+   "body": "Wizbang asks local fishermen to dredge Darkshore's freshwater streams because he does not want to brave the wilds himself. Anglers fishing the Wildbend River and Cliffspring River can snag the buoyant metal parts alongside local fish. With the components recovered, the gnome can resume his erratic waterfowl experiments.",
    "spoiler": 0
   }
  ],
@@ -41,7 +41,7 @@
     "how to get electropellers",
     "electropeller location"
    ],
-   "answer": "They must be fished out of Darkshore's freshwater rivers and lakes, such as the Cliffspring River or the Wildbend River. They will not appear in the ocean waters along the coast."
+   "answer": "Fish in Darkshore's freshwater rivers and lakes, including the Cliffspring River and Wildbend River. The electropellers cannot be found in the ocean along the coast."
   },
   {
    "q": "Who is Wizbang Cranktoggle?",
@@ -49,7 +49,7 @@
     "who gives electropellers",
     "wizbang cranktoggle"
    ],
-   "answer": "Wizbang is an eccentric gnomish engineer residing in Auberdine. Known for bizarre and explosive inventions, he relies on adventurous travelers to gather lost components and oddities for his experiments."
+   "answer": "Wizbang Cranktoggle is an eccentric gnomish engineer who lives in Auberdine. He makes bizarre, explosive inventions and relies on travelers to gather lost components and oddities for his experiments."
   },
   {
    "q": "What was Wizbang trying to build?",
@@ -57,7 +57,7 @@
     "exploding duck decoy",
     "wizbang project"
    ],
-   "answer": "He was working on a self-propelled, exploding duck decoy. His testing went awry after he indulged in a bit too much drink and accidentally detonated an early prototype, scorching his hair and losing his bag of parts in the water."
+   "answer": "Wizbang was building a self-propelled, exploding duck decoy. After drinking too much, he accidentally detonated an early prototype, scorching his hair and losing his bag of parts in the water."
   },
   {
    "q": "Can electropellers be found in fish schools?",
@@ -65,7 +65,7 @@
     "fish schools electropellers",
     "can i fish schools"
    ],
-   "answer": "No, electropellers are hauled up from open freshwater casts. Casting your line directly into special schools, such as Lesser Oily Blackmouth nodes, will not yield the mechanical parts."
+   "answer": "No. Electropellers come from open freshwater casts, not special schools such as Lesser Oily Blackmouth nodes."
   },
   {
    "q": "What comes before this quest?",
@@ -73,7 +73,7 @@
     "prereq for electropellers",
     "electropellers prerequisite"
    ],
-   "answer": "You must first complete Gaffer Jacks, an earlier fishing task Wizbang assigns to test your angling luck in the local waters."
+   "answer": "Complete Gaffer Jacks first. It is an earlier fishing task Wizbang assigns to test your angling luck in the local waters."
   },
   {
    "q": "Are electropellers dropped by monsters?",
@@ -81,21 +81,21 @@
     "do mobs drop electropellers",
     "who drops electropellers"
    ],
-   "answer": "No. They cannot be looted from enemies or found in ground containers; they must be retrieved from the rivers using a fishing pole."
+   "answer": "No. Enemies and ground containers do not yield electropellers; you must retrieve them from rivers using a fishing pole."
   }
  ],
  "angles": [
   {
    "target": "race:Gnome",
-   "text": "Wizbang's chaotic ambition to build exploding duck decoys is a familiar sight to any gnome, even if losing expensive parts in an elf-guarded river is slightly embarrassing."
+   "text": "As a gnome, you may recognize Wizbang's chaotic ambition to build exploding duck decoys, though losing expensive parts in an elf-guarded river is embarrassing."
   },
   {
    "target": "profession:Engineering",
-   "text": "Electropellers are curious examples of miniaturized gnomish propulsion, designed to drive mechanical decoys before violently combusting."
+   "text": "As an engineer, you can see electropellers as curious examples of miniaturized gnomish propulsion, made to drive mechanical decoys before violently combusting."
   },
   {
    "target": "race:NightElf",
-   "text": "Local night elves look upon Wizbang's loud, smoky inventions and river-littering mishaps with quiet disapproval, preferring Darkshore's streams remain natural."
+   "text": "As a night elf, you may look on Wizbang's loud, smoky inventions and river-littering mishaps with quiet disapproval. Darkshore's streams should remain natural."
   }
  ],
  "keywords": [
@@ -118,5 +118,6 @@
  ],
  "attribution": [
   "Electropellers"
- ]
+ ],
+ "style": 1
 }

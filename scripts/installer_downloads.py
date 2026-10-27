@@ -18,11 +18,14 @@ CORE_PACKS = ['LoreForever_Voice_Default', 'LoreForever_Voice_Default_Alliance',
 # Quest dialogue: the first pack, then the rest of the game's quests (levels up to 50, 51-60: voicepack.QUEST_MORE_PACKS), each
 # its own zip under CurseForge's limit. (The answers packs are retired: LOR-561.) A zip not built yet is left out.
 QUEST_PACKS = ['LoreForever_Voice_Default_Quests', 'LoreForever_Voice_Default_Quests2', 'LoreForever_Voice_Default_Quests3']
-# More places and people, item stories and quest stories (complete stories only): each narrator's go with that
-# narrator's choice, the male narrator's with "more narration" (quests). One folder per zip, installed once built.
+FEMALE_QUEST_PACKS = ['LoreForever_Voice_Female_Quests', 'LoreForever_Voice_Female_Quests2', 'LoreForever_Voice_Female_Quests3']
+GIVER_PACKS = ['LoreForever_Voice_QuestGivers', 'LoreForever_Voice_QuestGivers2', 'LoreForever_Voice_QuestGivers3']
+# More places and people, item stories and quest stories (complete stories only): a choice of their own per narrator,
+# so the rows match the downloads page's cards (LOR-848: The add-on, Storyteller = + these, Everything = + quest
+# dialogue and the quest givers). One folder per zip, installed once built.
 MORE = ('MorePlaces', 'MorePeople', 'MoreItems', 'MoreQuests1', 'MoreQuests2', 'MoreQuests3')
-MORE_PACKS = {'female': ['LoreForever_Voice_Female_' + s for s in MORE],
-              'quests': ['LoreForever_Voice_Default_' + s for s in MORE],
+MORE_PACKS = {'female-more': ['LoreForever_Voice_Female_' + s for s in MORE],
+              'more': ['LoreForever_Voice_Default_' + s for s in MORE],
               'original': ['LoreForever_Voice_Original_MorePlaces', 'LoreForever_Voice_Original_MorePeople']}
 # A narrator's stories and lands in one zip (build-voice-packs.sh's <voice>-complete), the first zip of its choice:
 # the female narrator, and the original male narrator (his own voice since the Chronicler took over the default packs).
@@ -30,7 +33,9 @@ COMPLETE = {'female': ['LoreForever_Voice_Female', 'LoreForever_Voice_Female_All
             'original': ['LoreForever_Voice_Original', 'LoreForever_Voice_Original_Alliance',
                          'LoreForever_Voice_Original_Horde']}
 # The optional choices, in the order of the installer's voice table (release/installer/LoreForever.iss InitVoices).
-CHOICES = ('female', 'quests', 'original')
+# 'female' and 'quests' keep their ids (the Release workflow's install checks, installer_inputs.SELECTIONS); the
+# original male narrator stays for the players who have him, off the voice page (Mike, 10/26).
+CHOICES = ('female', 'female-more', 'female-quests', 'more', 'quests', 'givers', 'original')
 NAME = re.compile(r'LoreForever(?:_[A-Za-z0-9_-]+)?')
 LIMIT = 480 * 1024 * 1024
 
@@ -38,9 +43,14 @@ LIMIT = 480 * 1024 * 1024
 def offered_archives():
     """The zips Setup.exe offers, by choice, in the order build() reads them. build-voice-packs.sh builds these first,
     so the Release workflow can hand them to the Windows job while the other narration packs build."""
-    return {'female': ['LoreForever_Voice_Female-complete.zip'] + [name + '.zip' for name in MORE_PACKS['female']],
-            'quests': [name + '.zip' for name in QUEST_PACKS + MORE_PACKS['quests']],
-            'original': ['LoreForever_Voice_Original-complete.zip'] + [name + '.zip' for name in MORE_PACKS['original']]}
+    zips = lambda names: [name + '.zip' for name in names]
+    return {'female': ['LoreForever_Voice_Female-complete.zip'],
+            'female-more': zips(MORE_PACKS['female-more']),
+            'female-quests': zips(FEMALE_QUEST_PACKS),
+            'more': zips(MORE_PACKS['more']),
+            'quests': zips(QUEST_PACKS),
+            'givers': zips(GIVER_PACKS),
+            'original': ['LoreForever_Voice_Original-complete.zip'] + zips(MORE_PACKS['original'])}
 
 
 def sha(path):

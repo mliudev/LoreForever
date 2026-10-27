@@ -7,16 +7,16 @@
  "meta": {
   "wiki": "Valley of Trials"
  },
- "summary": "Tucked away behind the rugged red cliffs of southern Durotar, the Valley of Trials serves as the testing ground for new recruits of the Horde. Young orcs and their Darkspear troll allies come here to prove their strength and earn their place among the warriors of Kalimdor. Those who survive the valley's harsh wildlife and hidden threats depart ready to defend their fledgling nation.",
+ "summary": "In the Valley of Trials, young Horde recruits test their strength in southern Durotar. Orcs and Darkspear trolls face the valley’s wildlife and dangers before they leave ready to defend their people.",
  "sections": [
   {
    "title": "A Crucible of Sand and Stone",
-   "body": "The Valley of Trials is designed to weed out the weak before they ever set foot in the broader reaches of Durotar. Overseen by chieftains and trainers stationed in the carved cliffside shelter known as The Den, young fighters are thrust into the sun-scorched gulch to hunt scorpids, culled aggressive boars, and enforce discipline among lazy peons harvesting scarce timber. The trial is uncompromising: those who prove their mettle earn the right to venture forth as true soldiers of the Horde, while those who fail are left to bleach beneath the desert sun.",
+   "body": "Young fighters face the Valley of Trials before they venture into Durotar. Chieftains and trainers watch over them from The Den, a shelter carved into the cliffs. In the sunlit gulch, recruits hunt scorpids, cull aggressive boars, and keep lazy peons in line as they harvest scarce timber. The trial is hard, and only those who prove their mettle earn the right to leave as soldiers of the Horde. Those who fail are left beneath the desert sun.",
    "spoiler": 0
   },
   {
    "title": "The Shadow in the North",
-   "body": "What was once an isolated training ground has recently taken on a far more sinister edge. In the natural caves along the northern cliffs, cultists of the Burning Blade have taken root, summoning minor demonic familiars into the valley. While trainers treat these interlopers as live-combat practice for fresh recruits, the presence of fel magic so close to Orgrimmar's threshold fuels dark rumors that the Shadow Council is actively attempting to sink its claws back into the orcish people.",
+   "body": "The northern caves have brought a new danger to the Valley of Trials. Cultists of the Burning Blade have settled in the natural caves along the cliffs and summon minor demonic familiars into the valley. Trainers use the intruders to give fresh recruits live combat practice. But fel magic so close to Orgrimmar’s threshold fuels rumors that the Shadow Council is trying to regain its hold over the orcish people.",
    "spoiler": 1
   }
  ],
@@ -28,7 +28,7 @@
     "what is this place",
     "valley of trials purpose"
    ],
-   "answer": "It is the traditional proving ground for recruits of the Horde, primarily young orcs and Darkspear trolls. Within its sheltered canyons, new adventurers complete rigorous tasks to demonstrate their martial skill, survival instinct, and loyalty before being permitted to leave for the rest of Durotar."
+   "answer": "The Valley of Trials is where young orcs and Darkspear trolls prove themselves to the Horde. In its sheltered canyons, recruits face demanding trials of martial skill, survival, and loyalty before they may leave for the rest of Durotar."
   },
   {
    "q": "What is The Den?",
@@ -37,7 +37,7 @@
     "cave in valley of trials",
     "who is in the den"
    ],
-   "answer": "The Den is a cave carved into the cliffs roughly in the center of the valley. It houses class trainers, vendors, and overseers like Gornek who direct new recruits, equip them, and monitor their progress during their initial trials."
+   "answer": "The Den is a cave carved into the cliffs near the center of the valley. Class trainers, vendors, and overseers such as Gornek gather there to direct, equip, and watch over new recruits during their first trials."
   },
   {
    "q": "Why are there demons in a beginner's training ground?",
@@ -46,7 +46,7 @@
     "burning blade in durotar",
     "demons north cave"
    ],
-   "answer": "Cultists belonging to the Burning Blade have established a secret coven in the northern caves. Although trainers use their weak familiars to test recruits, the cult's presence suggests shadowy forces like the Shadow Council are seeking a foothold right on Durotar's doorsteps."
+   "answer": "Cultists of the Burning Blade have taken root in the northern caves and summon weak demonic familiars. Trainers use the familiars to test recruits, while the cult’s presence suggests the Shadow Council is seeking a foothold on Durotar’s doorstep."
   },
   {
    "q": "Who is Sarkoth?",
@@ -55,17 +55,17 @@
     "giant scorpid",
     "sarkoth quest"
    ],
-   "answer": "Sarkoth is an unusually large, venomous scorpid residing in the rocky heights of the valley. Due to his aggression and lethality, instructors task promising recruits with hunting him down to test their courage and bring back his mangled claw as proof."
+   "answer": "Sarkoth is an unusually large, venomous scorpid that lives in the rocky heights of the valley. Instructors send promising recruits to hunt him, testing their courage and asking them to bring back his mangled claw as proof."
   }
  ],
  "angles": [
   {
    "target": "race:Orc",
-   "text": "The valley represents a rite of passage for every young orc seeking honor, echoing the warrior traditions of Draenor in a newly forged homeland."
+   "text": "For a young orc seeking honor, the valley is a rite of passage that carries on Draenor’s warrior traditions in a newly forged homeland."
   },
   {
    "target": "race:Troll",
-   "text": "Having lost their home on the Echo Isles to Zalazane, the Darkspear trolls train alongside their orc allies in this canyon to earn their place in the Horde."
+   "text": "After losing their home on the Echo Isles to Zalazane, Darkspear trolls train beside their orc allies in this canyon to earn their place in the Horde."
   }
  ],
  "keywords": [
@@ -90,5 +90,6 @@
  ],
  "attribution": [
   "Valley of Trials"
- ]
+ ],
+ "style": 1
 }

@@ -10,16 +10,16 @@
    "quest:968"
   ]
  },
- "summary": "Highborne Relics are ancient magical implements recovered from the restless spirits haunting the ruins of Ameth'Aran in Darkshore. Imbued with the arcane dabblings that shattered ancient Kalimdor, they are sought by night elf scholars who wish to see them destroyed before their dormant powers can cause further harm.",
+ "summary": "In Darkshore, Highborne Relics remain in the hands of spirits haunting Ameth'Aran. Night elf scholars seek them for destruction before their dormant magic can cause more harm.",
  "sections": [
   {
    "title": "Remnants of the Sundering",
-   "body": "Ten thousand years ago, the Highborne caste practiced reckless arcane magic, ultimately bringing ruin upon ancient Kalimdor. Today, their former estates lie in shattered ruin across Darkshore. Within the crumbling columns of Ameth'Aran, wailing and writhing apparitions wander the forest floor, endlessly clinging to the physical implements of their bygone sorcery. These relics remain persistent tether-points of arcane taint, clutched by ghosts who refuse to release the instruments of their own undoing.",
+   "body": "Ten thousand years ago, the Highborne caste brought ruin upon ancient Kalimdor through reckless arcane magic. Their estates lie in shattered ruins across Darkshore. At Ameth'Aran, wailing apparitions wander among the crumbling columns, still clutching the implements of their old sorcery. The relics bind arcane taint to the spirits, who will not release the objects tied to their undoing.",
    "spoiler": 0
   },
   {
    "title": "Purging the Arcane Taint",
-   "body": "For modern night elf society, which largely renounced arcane magic after the Great Sundering, such artifacts represent a grave hazard. Scholars like Thundris Windweaver in Auberdine, acting upon scouting reports from the Sentinels, actively commission travelers to wrest these relics from the spectral hands of the cursed spirits. Once gathered, the relics are systematically destroyed to ensure that the ancient evils and catastrophic mistakes of the Highborne cannot be repeated.",
+   "body": "Night elf society largely renounced arcane magic after the Great Sundering, and scholars see these relics as a grave hazard. Acting on reports from the Sentinels, Thundris Windweaver in Auberdine sends travelers to wrest them from the cursed spirits. Once gathered, the relics are destroyed so the Highborne's ancient evils and catastrophic mistakes cannot be repeated.",
    "spoiler": 0
   }
  ],
@@ -31,7 +31,7 @@
     "who drops highborne relics",
     "relic location"
    ],
-   "answer": "They are recovered from the ghostly specters haunting the ruins of Ameth'Aran, located east of the main road in southern Darkshore. Cursed, writhing, and wailing Highborne spirits carry them amidst the ancient stones."
+   "answer": "The spirits haunting Ameth'Aran carry Highborne Relics among the ancient ruins east of the main road in southern Darkshore. The wailing ghosts clutch them among the stones."
   },
   {
    "q": "Why does Thundris Windweaver want these relics?",
@@ -40,7 +40,7 @@
     "what happens to the relics",
     "windweaver goal"
    ],
-   "answer": "Thundris Windweaver fears the lingering arcane corruption still clinging to these ancient items. He collects them so they can be completely dismantled and destroyed, preventing anyone from reviving the dangerous Highborne sorcery."
+   "answer": "Thundris Windweaver fears the arcane corruption clinging to the relics. He gathers them for destruction, so no one can revive the dangerous Highborne sorcery."
   },
   {
    "q": "Why are the Highborne spirits still in Ameth'Aran?",
@@ -49,7 +49,7 @@
     "who are the cursed highborne",
     "why ghosts in darkshore"
    ],
-   "answer": "The spirits are ancient Highborne nobility who perished when the world shattered ten thousand years ago. Cursed by their hubris and lingering attachment to arcane magic, their restless souls remain bound to the ruins of their former city."
+   "answer": "The spirits are ancient Highborne nobility who perished when the world shattered ten thousand years ago. Their restless souls remain bound to the ruins of their former city, cursed by their hubris and attachment to arcane magic."
   },
   {
    "q": "Are Highborne Relics safe to use?",
@@ -57,17 +57,17 @@
     "can i use highborne relics",
     "are relics dangerous"
    ],
-   "answer": "No. The night elves consider them tainted by the foul, unchecked arcane practices that triggered the Great Sundering. Their dormant magic is considered hazardous, which is why scholars demand their destruction rather than their study."
+   "answer": "No. Night elves consider the relics tainted by the unchecked arcane practices that triggered the Great Sundering. Their dormant magic is hazardous, so scholars demand their destruction instead of study."
   }
  ],
  "angles": [
   {
    "target": "race:NightElf",
-   "text": "For the night elves, these relics serve as a grim reminder of the disastrous arcane arrogance that tore their ancient civilization apart."
+   "text": "For night elves, these relics recall the arcane arrogance that tore their ancient civilization apart."
   },
   {
    "target": "class:Mage",
-   "text": "Mages might find the relics' arcane craftsmanship fascinating, but the local night elf authorities tolerate no hesitation in destroying them."
+   "text": "As a mage, you may find the relics' arcane craftsmanship fascinating. The local night elf authorities insist they be destroyed."
   }
  ],
  "keywords": [
@@ -91,5 +91,6 @@
  "attribution": [
   "Highborne Relic (Classic)",
   "Tools of the Highborne"
- ]
+ ],
+ "style": 1
 }

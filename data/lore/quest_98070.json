@@ -1,0 +1,85 @@
+{
+ "key": "quest:98070",
+ "type": "quest",
+ "name": "Stop the Screeching",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   98070
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "The harpies of Screeching Canyon have ambushed supply caravans bound for Freewind Post. Their attacks threaten to end those journeys.",
+ "sections": [
+  {
+   "title": "Caravans at Risk",
+   "body": "A supplier fears that caravans will stop traveling to Freewind Post if the harpy attacks continue. You are asked to slay Screeching Harpies, Screeching Roguefeather Harpies, and Screeching Windcallers. The caravans that brave the canyon remain at risk.",
+   "spoiler": 0
+  },
+  {
+   "title": "Word to Suppliers",
+   "body": "After the harpies are dealt with, the supplier will notify those who provide goods to Freewind Post. The caravans will have one less threat to face on their journeys.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Why are the caravans being attacked?",
+   "aliases": [
+    "harpies attacking caravans",
+    "why harpies attack",
+    "caravan trouble"
+   ],
+   "answer": "Harpies in Screeching Canyon have ambushed the last few supply caravans that traveled through."
+  },
+  {
+   "q": "What is at risk if the attacks continue?",
+   "aliases": [
+    "why protect caravans",
+    "freewind post supplies",
+    "caravans stop"
+   ],
+   "answer": "The supplier fears that no caravans will dare travel to Freewind Post if the attacks continue."
+  },
+  {
+   "q": "Which harpies are involved?",
+   "aliases": [
+    "harpy types",
+    "screeching harpies",
+    "roguefeather windcaller"
+   ],
+   "answer": "The harpies named are Screeching Harpies, Screeching Roguefeather Harpies, and Screeching Windcallers."
+  },
+  {
+   "q": "Where are the harpies?",
+   "aliases": [
+    "harpy location",
+    "screeching canyon harpies",
+    "where is screeching canyon"
+   ],
+   "answer": "The harpies live in Screeching Canyon."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "caravan",
+  "freewind post",
+  "harpy",
+  "roguefeather",
+  "screeching canyon",
+  "screeching harpy",
+  "stop the screeching",
+  "supplies",
+  "windcaller"
+ ],
+ "related": [
+  "subzone:freewind-post",
+  "topic:harpy"
+ ],
+ "style": 1,
+ "attribution": [
+  "In-game quest text: Stop the Screeching"
+ ]
+}

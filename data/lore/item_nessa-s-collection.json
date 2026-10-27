@@ -11,16 +11,16 @@
    "quest:6342"
   ]
  },
- "summary": "Nessa's Collection is a package of fish bones and scales gathered from the waters surrounding Rut'theran Village. Prepared for study by fish vendor Laird in Auberdine, it illustrates the unusually massive size of aquatic life thriving around the roots of Teldrassil.",
+ "summary": "At Rut'theran Village, fish bones and scales gathered from nearby waters are prepared for study by Laird in Auberdine. Nessa's Collection shows the great size of aquatic life around Teldrassil's roots.",
  "sections": [
   {
    "title": "Bounty of the World Tree",
-   "body": "Nessa Shadowsong, a fisherwoman residing in Rut'theran Village at the base of Teldrassil, gathered this collection of fish bones and scales to compare the island's marine life with that of the Kalimdor mainland. The waters feeding into the Great Tree yield catches of staggering proportions, prompting Nessa to send physical proof across the sea to Laird, a fish merchant operating along the docks of Auberdine. Transferred by way of the village's hippogryph master, Vesprystus, the parcel serves as practical evidence of Teldrassil's burgeoning vitality.",
+   "body": "Nessa Shadowsong lives in Rut'theran Village at Teldrassil's base, where she gathered fish bones and scales to compare island sea life with that of mainland Kalimdor. Catches from the waters around the Great Tree grow to striking size. Nessa sent physical proof across the sea to Laird, a fish merchant along Auberdine's docks. The parcel travels through Vesprystus, Rut'theran's hippogryph master, and offers practical evidence of Teldrassil's growing vitality.",
    "spoiler": 0
   },
   {
    "title": "A Curious Comparison",
-   "body": "Upon inspecting the contents in Darkshore, Laird discovers that the specimens far outstrip their mainland counterparts. The collection contains jawbones nearly twice the size of fish native to the Darkshore coastline, along with individual scales as large as a clenched fist. For coastal night elves, the package provides a clear look at how drastically the waters around Teldrassil differ from the somber shores of northern Kalimdor.",
+   "body": "In Darkshore, Laird finds that the specimens far outsize their mainland counterparts. The collection holds jawbones nearly twice the size of those from fish native to the Darkshore coast, and scales as large as a clenched fist. For coastal night elves, the package offers a clear look at how greatly the waters around Teldrassil differ from northern Kalimdor's somber shores.",
    "spoiler": 0
   }
  ],
@@ -32,7 +32,7 @@
     "what is in the package",
     "fish bones parcel"
    ],
-   "answer": "The collection consists of fish bones, oversized jawbones, and fist-sized scales harvested from fish caught in the waters off Rut'theran Village."
+   "answer": "The collection holds fish bones and scales, including jawbones nearly twice the size of those from fish native to the Darkshore coast and scales as large as a clenched fist. The fish were caught in the waters around Rut'theran Village."
   },
   {
    "q": "Who is the collection being sent to?",
@@ -41,7 +41,7 @@
     "who is laird",
     "delivery destination"
    ],
-   "answer": "It is sent to Laird, a night elf fish vendor stationed in the harbor village of Auberdine on the Darkshore coast."
+   "answer": "Nessa sends the collection to Laird, a night elf fish vendor working along Auberdine's docks in Darkshore."
   },
   {
    "q": "Why did Nessa gather these fish specimens?",
@@ -50,7 +50,7 @@
     "nessa fish comparison",
     "bounty of teldrassil reason"
    ],
-   "answer": "Nessa wanted to compare the remarkably large fish thriving around Teldrassil with the marine life found along mainland Kalimdor."
+   "answer": "Nessa gathered the specimens to compare the large fish thriving around Teldrassil with marine life on mainland Kalimdor."
   },
   {
    "q": "How does the collection reach Auberdine?",
@@ -59,13 +59,13 @@
     "vesprystus delivery",
     "hippogryph parcel"
    ],
-   "answer": "A traveler carries the package to Rut'theran's hippogryph master, Vesprystus, who arranges passage across the water to Auberdine so the parcel can be delivered to Laird."
+   "answer": "You carry the package to Vesprystus, Rut'theran's hippogryph master, who arranges its passage across the water to Auberdine for delivery to Laird."
   }
  ],
  "angles": [
   {
    "target": "race:NightElf",
-   "text": "The collection offers night elves their first look at the unusually vigorous nature of Teldrassil's surrounding waters as they transition from their island home to the mainland."
+   "text": "As a night elf, you can see through the collection how the waters around Teldrassil differ from those of the mainland."
   }
  ],
  "keywords": [
@@ -92,5 +92,6 @@
   "Nessa's Collection",
   "The Bounty of Teldrassil",
   "Flight to Auberdine"
- ]
+ ],
+ "style": 1
 }

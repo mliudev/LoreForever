@@ -1,0 +1,88 @@
+{
+ "key": "quest:97900",
+ "type": "quest",
+ "name": "Camping 101: Blacksmithing",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   97900
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "Dwukk in Razor Hill can teach you a camp craft suited to your blacksmithing skill. A Sharpening Wheel lets nearby fighters hone their weapons.",
+ "sections": [
+  {
+   "title": "A camp craft",
+   "body": "Dwukk teaches you to craft a Sharpening Wheel after you show proficiency in blacksmithing. You can set one up at a wilderness camp, where nearby fighters and rogues can hone their weapons. A campfire is needed to start your camp, and cooks can teach you how to make one.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who teaches me to make a Sharpening Wheel?",
+   "aliases": [
+    "sharpening wheel trainer",
+    "dwukk blacksmithing",
+    "who teaches camping blacksmithing"
+   ],
+   "answer": "Dwukk in Razor Hill teaches you to craft a Sharpening Wheel once you show proficiency in blacksmithing."
+  },
+  {
+   "q": "What does the Sharpening Wheel do?",
+   "aliases": [
+    "sharpening wheel use",
+    "what's the wheel for",
+    "hone weapons camp"
+   ],
+   "answer": "At your camp, nearby fighters and rogues can use a Sharpening Wheel to hone their weapons."
+  },
+  {
+   "q": "Where can I try out my camp?",
+   "aliases": [
+    "where to set up camp",
+    "camping location",
+    "camp in town"
+   ],
+   "answer": "You need to head into the wilderness to try out your camp; camps should not be set up in the center of town."
+  },
+  {
+   "q": "Do I need a campfire?",
+   "aliases": [
+    "campfire needed",
+    "how start camp",
+    "fire for camping"
+   ],
+   "answer": "Yes. You need a campfire before starting your camp, and cooks can teach you how to make one."
+  }
+ ],
+ "angles": [
+  {
+   "target": "profession:Blacksmithing",
+   "text": "As a blacksmith, you can learn from Dwukk to craft a Sharpening Wheel for a wilderness camp."
+  },
+  {
+   "target": "class:Rogue",
+   "text": "As a rogue, you can hone your weapons at a nearby Sharpening Wheel when one is set up at camp."
+  }
+ ],
+ "keywords": [
+  "blacksmithing",
+  "campfire",
+  "camping",
+  "dwukk",
+  "razor hill",
+  "rogues",
+  "sharpening wheel",
+  "weapons"
+ ],
+ "related": [
+  "subzone:razor-hill",
+  "topic:rogue"
+ ],
+ "style": 1,
+ "attribution": [
+  "In-game quest text: Camping 101: Blacksmithing"
+ ]
+}

@@ -8,16 +8,16 @@
   "wiki": "Chief Archaeologist Greywhisker",
   "refs": 3
  },
- "summary": "Chief Archaeologist Greywhisker is an emissary of the dwarven Explorers' League stationed in Darnassus outside the Temple of the Moon. Sent from Ironforge across the sea to northern Kalimdor, he seeks to uncover ancient history and coordinates dwarven field research throughout the region. Currently, he is preoccupied with gathering field reports and tracking lost colleagues operating in Darkshore.",
+ "summary": "In Darnassus, Chief Archaeologist Greywhisker gathers reports from the coast. The Ironforge dwarf works outside the Temple of the Moon, where he coordinates the Explorers' League's research and tracks colleagues in Darkshore.",
  "sections": [
   {
    "title": "A Dwarven Scholar in Darnassus",
-   "body": "While it is unusual to find an Ironforge dwarf nestled high in the boughs of Teldrassil, Chief Archaeologist Greywhisker represents the far-reaching ambitions of the Explorers' League. Having traded the lecture halls and museum vaults of Ironforge for fieldwork in Kalimdor, he can be found standing outside the Temple of the Moon in Darnassus, conferring with local night elf scholars such as Tarelvir. Greywhisker's academic lectures back in the Eastern Kingdoms famously touched upon ancient lore and primordial entities like the Wild God Agamaggan, and he is eager to see what ancient secrets the night elves' ancestral lands might hold.",
+   "body": "Chief Archaeologist Greywhisker works outside the Temple of the Moon in Darnassus, far from his home in Ironforge. He represents the Explorers' League, which sent him across the sea to Kalimdor for fieldwork. There, he speaks with night elf scholars such as Tarelvir and seeks knowledge of the ancient lands. In Ironforge, his lectures covered ancient lore and primordial beings, including the Wild God Agamaggan. Now he hopes to learn what the night elves' ancestral lands hold.",
    "spoiler": 0
   },
   {
    "title": "Eyes on Darkshore",
-   "body": "Greywhisker's primary role in Kalimdor is to oversee dwarven excavations and keep tabs on expeditions scouring ancient ruins along the coast. Unfortunately for the chief archaeologist, field research in unexplored lands comes with distinct perils. He relies on passing travelers to establish communication with prospectors stationed across the sea in Darkshore, anxiously awaiting news from dig sites and hoping his colleagues haven't succumbed to the dangers lurking among ancient ruins.",
+   "body": "In Kalimdor, Greywhisker oversees dwarven excavations and follows expeditions searching ancient coastal ruins. He depends on travelers to carry messages to prospectors across the sea in Darkshore. Field research in unexplored lands is perilous, and he waits anxiously for reports from the dig sites, hoping his colleagues are safe among the ruins.",
    "spoiler": 0
   }
  ],
@@ -29,7 +29,7 @@
     "greywhisker lore",
     "chief archaeologist"
    ],
-   "answer": "He is a prominent dwarven scholar and representative of the Explorers' League hailing from Ironforge. Stationed outside the Temple of the Moon in Darnassus, he coordinates League research in northern Kalimdor and liaises with night elf scholars."
+   "answer": "Chief Archaeologist Greywhisker is a dwarven scholar from Ironforge and a representative of the Explorers' League. Outside the Temple of the Moon in Darnassus, he coordinates the League's research in northern Kalimdor and speaks with night elf scholars."
   },
   {
    "q": "What is an Ironforge dwarf doing in Darnassus?",
@@ -37,7 +37,7 @@
     "why is a dwarf in darnassus",
     "dwarf temple of the moon"
    ],
-   "answer": "The Explorers' League has dispatched researchers across Azeroth to uncover forgotten history and ancient artifacts. Greywhisker was sent across the sea to establish scholarly contacts in the night elf capital and oversee dwarven expeditions exploring the ancient coastlines of Kalimdor."
+   "answer": "The Explorers' League sent Greywhisker across the sea to uncover forgotten history and ancient artifacts. He makes scholarly contacts in the night elf capital and oversees dwarven expeditions along Kalimdor's ancient coasts."
   },
   {
    "q": "What is his connection to Agamaggan?",
@@ -45,7 +45,7 @@
     "greywhisker agamaggan",
     "agamaggan lectures"
    ],
-   "answer": "Back in Ironforge, Greywhisker was well-known for his scholarly lectures on ancient history. Among the subjects he discussed was the giant boar Wild God, Agamaggan, whose legend inspired younger dwarven prospectors like Lonebrow to study ancient beast folklore."
+   "answer": "In Ironforge, Greywhisker lectured on ancient history, including the Wild God Agamaggan, a giant boar. His teachings inspired younger prospectors such as Lonebrow to study ancient beast folklore."
   },
   {
    "q": "Who is Greywhisker talking to outside the temple?",
@@ -53,7 +53,7 @@
     "greywhisker tarelvir",
     "who is with greywhisker"
    ],
-   "answer": "Greywhisker stands in Darnassus speaking with Tarelvir, a night elf scholar outside the Temple of the Moon, trading thoughts and coordinating historical research between their peoples."
+   "answer": "Outside the Temple of the Moon in Darnassus, Greywhisker speaks with Tarelvir, a night elf scholar. They exchange ideas and coordinate historical research between their peoples."
   },
   {
    "q": "What trouble is he dealing with in Darkshore?",
@@ -61,7 +61,7 @@
     "greywhisker darkshore",
     "darkshore prospectors"
    ],
-   "answer": "Greywhisker has deployed fellow dwarven field researchers to Darkshore to excavate ancient ruins, but keeping in touch with isolated expeditions has proven difficult. He frequently seeks couriers to check in on absent-minded prospectors and recover their research journals."
+   "answer": "Greywhisker's fellow dwarven researchers are excavating ancient ruins in Darkshore, but isolated expeditions are hard to reach. He seeks couriers to check on absent-minded prospectors and recover their research journals."
   },
   {
    "q": "Which faction does Greywhisker belong to?",
@@ -69,21 +69,21 @@
     "greywhisker faction",
     "explorers league darnassus"
    ],
-   "answer": "Greywhisker belongs to the Explorers' League, an Ironforge archaeological organization devoted to discovering dwarven origins and ancient history, fully aligned with the Alliance."
+   "answer": "Greywhisker belongs to the Explorers' League, an Ironforge archaeological organization devoted to discovering dwarven origins and ancient history. The League is aligned with the Alliance."
   }
  ],
  "angles": [
   {
    "target": "race:Dwarf",
-   "text": "Finding one of Ironforge's premier scholars outside the Temple of the Moon is a comforting reminder of your people's boundless thirst for uncovering ancient history, even in the far corners of Kalimdor."
+   "text": "As a dwarf, seeing one of Ironforge's leading scholars outside the Temple of the Moon recalls your people's drive to uncover ancient history across Kalimdor."
   },
   {
    "target": "race:NightElf",
-   "text": "Greywhisker represents the newfound alliance between your people and the Eastern Kingdoms, respectfully conferring with scholars outside Elune's temple about the continent's past."
+   "text": "As a night elf, Greywhisker brings the Eastern Kingdoms' new alliance to your city. He speaks with scholars outside Elune's temple about the continent's past."
   },
   {
    "target": "faction:Alliance",
-   "text": "He serves as a crucial scholarly and logistical bridge connecting Ironforge's Explorers' League to expeditions stationed across northern Kalimdor."
+   "text": "As an Alliance member, Greywhisker connects Ironforge's Explorers' League with expeditions across northern Kalimdor."
   }
  ],
  "keywords": [
@@ -109,5 +109,6 @@
  ],
  "attribution": [
   "Chief Archaeologist Greywhisker"
- ]
+ ],
+ "style": 1
 }

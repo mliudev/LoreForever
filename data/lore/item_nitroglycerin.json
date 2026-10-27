@@ -10,16 +10,16 @@
    "quest:846"
   ]
  },
- "summary": "Nitroglycerin is a volatile chemical substance carried by dwarven soldiers and officers garrisoned at Bael Modan in the southern Barrens. It serves as an industrial explosive agent for their excavation operations, though it can also be turned against them.",
+ "summary": "At Bael Modan, Nitroglycerin helps the dwarves drive their excavation through tauren lands. Their soldiers and officers carry the volatile chemical, which can also be used against the fortress.",
  "sections": [
   {
    "title": "Industrial Demolition",
-   "body": "The Bael'dun dwarves tore into the ancestral lands of the Stonespire tauren using heavy mechanical drillers and volatile chemistry. To blast holes deep into the ground and tear apart the hills, dwarven personnel at the Bael Modan excavation site and its fortified keep keep stores of raw nitroglycerin close at hand. Both frontline soldiers and officers such as Lord Cyrik Blackforge carry vials of the volatile fluid on their persons to fuel the ongoing, destructive digging.",
+   "body": "Bael Modan's dwarves dig into the ancestral lands of the Stonespire tauren with heavy drillers and volatile chemicals. At the excavation site and its fortified keep, they keep nitroglycerin close to blast deep holes and break apart hills. Soldiers and officers, including Lord Cyrik Blackforge, carry vials of the fluid as the digging continues.",
    "spoiler": 0
   },
   {
    "title": "A Taste of Their Own Medicine",
-   "body": "Following the death of Prospector Khazgorm, the displaced tauren brave Gann Stonespire sought to dismantle the encroaching dwarven fortress entirely. By scouring dwarven engineering plans, Gann realized that combining confiscated nitroglycerin with wood pulp and sodium nitrate creates an explosive charge potent enough to strike back against Bael Modan's fortified military garrison.",
+   "body": "After Prospector Khazgorm dies, Gann Stonespire seeks to destroy the encroaching fortress. The displaced tauren brave studies dwarven engineering plans and learns that nitroglycerin combined with wood pulp and sodium nitrate makes a charge strong enough to strike Bael Modan's military garrison.",
    "spoiler": 1
   }
  ],
@@ -31,7 +31,7 @@
     "who drops nitroglycerin",
     "nitroglycerin source"
    ],
-   "answer": "Nitroglycerin is carried by the dwarven forces stationed at Bael Modan in the southern Barrens, including Bael'dun Soldiers, Riflemen, Officers, and Lord Cyrik Blackforge within the keep."
+   "answer": "Dwarven forces at Bael Modan in the southern Barrens carry nitroglycerin, including Bael'dun Soldiers, Riflemen, Officers, and Lord Cyrik Blackforge in the keep."
   },
   {
    "q": "What is the nitroglycerin used for?",
@@ -40,7 +40,7 @@
     "nitroglycerin purpose",
     "revenge of gann ingredients"
    ],
-   "answer": "Gann Stonespire uses it alongside wood pulp and sodium nitrate to fashion a powerful explosive charge, turning the dwarves' own demolitions techniques against their military fortification at Bael Modan."
+   "answer": "Gann Stonespire combines nitroglycerin with wood pulp and sodium nitrate to make a powerful charge against the military fortress at Bael Modan."
   },
   {
    "q": "Why were the dwarves carrying it in the first place?",
@@ -48,7 +48,7 @@
     "why do dwarves have nitroglycerin",
     "bael modan explosives"
    ],
-   "answer": "The prospectors and garrison of Bael Modan rely heavily on explosives, steam engines, and volatile chemicals to rip open the earth and excavate their archaeological dig site."
+   "answer": "The Bael Modan prospectors and garrison use explosives, steam engines, and volatile chemicals to open the earth at their archaeological dig site."
   },
   {
    "q": "Who is Gann Stonespire?",
@@ -56,17 +56,17 @@
     "who is gann",
     "gann stonespire"
    ],
-   "answer": "Gann Stonespire is an exiled tauren warrior who lost his ancestral lands when the dwarves established the excavation site and keep at Bael Modan, driving out his tribe through industrial destruction."
+   "answer": "Gann Stonespire is an exiled tauren warrior whose tribe lost its ancestral lands when the dwarves built the Bael Modan excavation site and keep, driving them out through industrial destruction."
   }
  ],
  "angles": [
   {
    "target": "profession:Engineering",
-   "text": "Engineers will immediately recognize nitroglycerin as a classic compounding explosive, rendered stable and detonable when absorbed into porous wood pulp alongside an oxidizer like sodium nitrate."
+   "text": "Engineers know nitroglycerin as a compounding explosive. Wood pulp absorbs it, and sodium nitrate helps make it stable and detonable."
   },
   {
    "target": "race:Tauren",
-   "text": "The volatile chemicals used to scar the earth around Bael Modan serve as a bitter reminder of the industrial destruction visited upon the Stonespire tribe."
+   "text": "As a tauren, you know the volatile chemicals around Bael Modan as a bitter mark of the destruction inflicted on the Stonespire tribe."
   }
  ],
  "keywords": [
@@ -90,5 +90,6 @@
  "attribution": [
   "Nitroglycerin",
   "Revenge of Gann"
- ]
+ ],
+ "style": 1
 }

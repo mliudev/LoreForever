@@ -10,11 +10,11 @@
    "quest:916"
   ]
  },
- "summary": "A Webwood Venom Sac is an organ harvested from the overgrown arachnids inhabiting Shadowglen on Teldrassil. Naturalists seek these samples to determine how the unnatural growth of the new World Tree has altered local wildlife.",
+ "summary": "In Shadowglen, Webwood Venom Sacs draw the attention of naturalists studying Teldrassil's growth. The sacs come from overgrown spiders, and their venom may show how the new World Tree has changed local wildlife.",
  "sections": [
   {
    "title": "A Symptom of Teldrassil's Growth",
-   "body": "The webwood spiders dwelling around and within Shadowthread Cave are cousins to a far smaller breed of spider found elsewhere. Their sudden enlargement and predatory aggression have raised concerns among night elf researchers. Naturalists like Gilshalan Windwalker study the venom contained within these sacs to analyze its potency and composition, hoping to understand how the rapid, unblessed growth of Teldrassil is warping the creatures that live upon its boughs.",
+   "body": "Webwood spiders live around and within Shadowthread Cave, and they are cousins to a much smaller breed found elsewhere. Their sudden growth and predatory aggression worry night elf researchers. Naturalists such as Gilshalan Windwalker study the venom in their sacs, examining its strength and composition. They hope to learn how Teldrassil's rapid, unblessed growth is changing the creatures that live on its boughs.",
    "spoiler": 0
   }
  ],
@@ -26,7 +26,7 @@
     "webwood venom sac location",
     "spider venom location"
    ],
-   "answer": "They are gathered from webwood spiders that infest the northern reaches of Shadowglen, particularly in and around Shadowthread Cave."
+   "answer": "Webwood Venom Sacs come from spiders in northern Shadowglen, especially around and within Shadowthread Cave."
   },
   {
    "q": "Who wants these venom sacs?",
@@ -34,7 +34,7 @@
     "who needs venom sacs",
     "gilshalan windwalker quest"
    ],
-   "answer": "Gilshalan Windwalker, a night elf researcher stationed at Aldrassil in Shadowglen, collects them to study the spiders' biology before eventually returning to Darnassus."
+   "answer": "Gilshalan Windwalker, a night elf researcher at Aldrassil in Shadowglen, collects the sacs to study the spiders' biology before returning to Darnassus."
   },
   {
    "q": "Why are the webwood spiders so large?",
@@ -42,7 +42,7 @@
     "why are spiders big",
     "webwood spider size"
    ],
-   "answer": "Researchers believe that the emergence and rapid growth of the new World Tree, Teldrassil, has had a profound and distorting effect on local wildlife, causing ordinary arachnid species to grow into massive, aggressive predators."
+   "answer": "Researchers believe Teldrassil's emergence and rapid growth have changed local wildlife, turning ordinary spiders into massive, aggressive predators."
   },
   {
    "q": "Is this venom used to make an antidote?",
@@ -50,17 +50,17 @@
     "is this for a cure",
     "antidote ingredient"
    ],
-   "answer": "Gilshalan collects these sacs strictly for comparative study. However, spider venom from this region is a known hazard, and remedies such as Iverron's antidote are separately required to save those bitten in the woods."
+   "answer": "Gilshalan collects the sacs for comparison and study. Spider venom in the region is dangerous, and remedies such as Iverron's antidote are needed to save those bitten in the woods."
   }
  ],
  "angles": [
   {
    "target": "class:Druid",
-   "text": "For druids attuned to the balance of nature, the corrupted potency of these venom sacs provides alarming physical evidence that all is not well atop the boughs of Teldrassil."
+   "text": "For a druid attuned to nature's balance, the potency of these venom sacs is troubling evidence that something is wrong among Teldrassil's boughs."
   },
   {
    "target": "race:NightElf",
-   "text": "Young night elf adventurers in Shadowglen are tasked with gathering these specimens to assist scholars trying to understand the strange new ecology of their bough-top homeland."
+   "text": "As a young night elf adventurer in Shadowglen, you gather these specimens to help scholars understand the strange ecology of your homeland in the boughs."
   }
  ],
  "keywords": [
@@ -86,5 +86,6 @@
  "attribution": [
   "Webwood Venom Sac",
   "Webwood Venom"
- ]
+ ],
+ "style": 1
 }

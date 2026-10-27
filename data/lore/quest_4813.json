@@ -21,16 +21,16 @@
    "The Fragments Within"
   ]
  },
- "summary": "\"The Fragments Within\" is the concluding task in the investigation of the mysterious red crystal jutting from the cliffs east of Auberdine. By using purified moonwell water, you reveal grim organic remains encased within the stone, reporting your eerie findings back to Sentinel Glynda Nal'Shea.",
+ "summary": "At the eastern cliffs, the red crystal holds something that moonwell water can reveal. You return to examine it and report to Sentinel Glynda Nal'Shea in Auberdine.",
  "sections": [
   {
    "title": "A Grim Revelation",
-   "body": "Pouring blessed moonwell water over the crimson crystal clears away the murky exterior, exposing what lies trapped beneath its polished surface. Suspended inside the dense mineral are several small bone fragments and half of a humanoid jawbone. The stone encasing them is extraordinarily tough\u2014so durable that even formidable spells would struggle to crack it open. Whatever entity or artifact spawned these remains, it has been preserved in uncanny isolation above the Darkshore coastline.",
+   "body": "Blessed moonwell water clears the crimson crystal's cloudy surface. Several small bone fragments and half a humanoid jawbone lie trapped inside the dense mineral. The crystal is so tough that even powerful spells would struggle to break it. Whatever entity or artifact left these remains, they have been preserved in isolation above the Darkshore coast.",
    "spoiler": 1
   },
   {
    "title": "Reporting to Auberdine",
-   "body": "Returning to Auberdine, Sentinel Glynda Nal'Shea takes note of your disturbing discovery. Rather than offering definitive answers, the revelation only raises more concerns among the local night elf leadership. Glynda promises to present the findings to the town council, though she takes solace in the fact that the strange crystal sits high in the eastern cliffs, far enough from town that it poses no immediate danger to the residents.",
+   "body": "Back in Auberdine, Sentinel Glynda Nal'Shea hears what you found. The discovery gives the local night elf leaders more cause for concern, but no clear answers. Glynda will present the findings to the town council. She takes some comfort in the crystal's position high on the eastern cliffs, far enough from town to pose no immediate danger.",
    "spoiler": 0
   }
  ],
@@ -42,7 +42,7 @@
     "what are the fragments",
     "what bones are inside"
    ],
-   "answer": "Washing the crystal with sanctified moonwell water makes it transparent enough to spot several bone fragments and half of a humanoid jawbone embedded deep inside."
+   "answer": "Blessed moonwell water makes the red crystal clear enough to reveal several bone fragments and half a humanoid jawbone embedded inside."
   },
   {
    "q": "Can the crystal be broken open to inspect the bones?",
@@ -50,7 +50,7 @@
     "can you break the crystal",
     "opening the red crystal"
    ],
-   "answer": "No. The crystal is exceptionally resilient. Even the strongest forms of magic would find breaking through its structure nearly impossible, leaving the exact identity of the bones a mystery."
+   "answer": "The crystal is exceptionally resilient, and even powerful magic would struggle to break it open. The bones' exact identity remains unknown."
   },
   {
    "q": "Who do you report the findings to?",
@@ -59,7 +59,7 @@
     "quest turn in",
     "glynda nalshea"
    ],
-   "answer": "You report your findings to Sentinel Glynda Nal'Shea, who is stationed in the port town of Auberdine."
+   "answer": "You report your findings to Sentinel Glynda Nal'Shea in the port town of Auberdine."
   },
   {
    "q": "What will the Sentinels do about the crystal?",
@@ -67,17 +67,17 @@
     "what happens next with the crystal",
     "auberdine council crystal"
    ],
-   "answer": "Sentinel Glynda Nal'Shea plans to inform the council in Auberdine so they can deliberate on potential actions. However, because the crystal rests high in the eastern cliffs, it is not viewed as an urgent threat."
+   "answer": "Sentinel Glynda Nal'Shea plans to inform the council in Auberdine so its members can consider what to do. The crystal rests high in the eastern cliffs, so they do not see it as an urgent threat."
   }
  ],
  "angles": [
   {
    "target": "race:NightElf",
-   "text": "The discovery of humanoid bones suspended in strange crystal along the mountain borders of Ashenvale and Felwood warrants careful vigilance from the Sentinels guarding Darkshore."
+   "text": "As a night elf, you know that humanoid bones trapped in strange crystal along the mountain borders of Ashenvale and Felwood call for vigilance from the Sentinels guarding Darkshore."
   },
   {
    "target": "class:Druid",
-   "text": "The mysterious mineral resists natural wear and high magic alike, serving as a curious anomaly against the traditional balance of the wild."
+   "text": "As a druid, you see a curious anomaly in a mineral that resists natural wear and powerful magic alike, beyond the usual balance of the wild."
   }
  ],
  "keywords": [
@@ -98,5 +98,6 @@
  ],
  "attribution": [
   "The Fragments Within"
- ]
+ ],
+ "style": 1
 }

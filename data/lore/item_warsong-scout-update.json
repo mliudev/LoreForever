@@ -10,11 +10,11 @@
    "quest:6543"
   ]
  },
- "summary": "The Warsong Scout Update is a written dispatch containing battlefield reconnaissance from Splintertree Post in Ashenvale. Gathered by a forward scout of the Warsong clan, it provides commander Kadrak with critical intelligence needed to secure the Horde's foothold against night elf resistance.",
+ "summary": "At Splintertree Post, a Warsong scout records what the Horde needs to know about Ashenvale.",
  "sections": [
   {
    "title": "Eyes in the Ancient Forest",
-   "body": "As the Horde attempts to claim timber and establish supply routes through Ashenvale, scouts from the Warsong clan patrol deep behind enemy lines. The Warsong Scout Update compiles local observations from the fortified encampment of Splintertree Post, tracking night elf sentinels and territorial movements. Handed over to messengers trading routine orders, the document allows Kadrak at the Barrens-Ashenvale border to assess troop readiness and coordinate logistics in the contested woods.",
+   "body": "Warsong scouts watch the woods as the Horde seeks timber and supply routes through Ashenvale. From Splintertree Post, a fortified encampment, they track night elf sentinels and movements across the territory. Their observations reach Kadrak at the Barrens-Ashenvale border among routine orders. He uses them to judge troop readiness and coordinate supplies and travel through the contested woods.",
    "spoiler": 0
   }
  ],
@@ -26,7 +26,7 @@
     "scout report",
     "warsong scout dispatch"
    ],
-   "answer": "It is a field report prepared by a Warsong scout stationed at Splintertree Post in eastern Ashenvale, summarizing local surveillance for commanders on the border."
+   "answer": "The Warsong Scout Update gathers a Warsong scout’s observations from Splintertree Post in eastern Ashenvale for commanders on the border."
   },
   {
    "q": "Who requires this update?",
@@ -35,7 +35,7 @@
     "kadrak report",
     "who gets the update"
    ],
-   "answer": "Kadrak, the Horde officer stationed at the watchtower guarding the border between the northern Barrens and Ashenvale, requires it to plan the Horde's military maneuvers."
+   "answer": "Kadrak needs the update. The Horde officer watches the border between the northern Barrens and Ashenvale from a watchtower, and uses it to plan military maneuvers."
   },
   {
    "q": "Where is the Warsong Scout located?",
@@ -44,7 +44,7 @@
     "scout location",
     "find warsong scout"
    ],
-   "answer": "The scout is stationed inside Splintertree Post, the primary Horde stronghold located along the main road running through eastern Ashenvale."
+   "answer": "The scout is stationed inside Splintertree Post, the Horde stronghold along the main road through eastern Ashenvale."
   },
   {
    "q": "Why are these dispatches so important to the Horde?",
@@ -53,17 +53,17 @@
     "warsong logistics",
     "ashenvale intelligence"
    ],
-   "answer": "Ashenvale is fiercely defended by the night elves. Written scout updates warn Horde leadership about enemy ambushes and troop movements, ensuring supply chains and logging camps remain secure."
+   "answer": "Night elves fiercely defend Ashenvale. Scout reports warn Horde leaders of ambushes and troop movements, helping keep supply routes and logging camps secure."
   }
  ],
  "angles": [
   {
    "target": "faction:Horde",
-   "text": "Warsong dispatches are the lifeblood of the Horde's expansion into Ashenvale, keeping forward camps in contact with supply bases in the Barrens."
+   "text": "Warsong dispatches keep the Horde’s forward camps in Ashenvale in contact with supply bases in the Barrens as the Horde expands into the forest."
   },
   {
    "target": "race:Orc",
-   "text": "The Warsong clan carries the brunt of the logging campaign in Ashenvale, relying on swift scouts to hold their hard-won forest outposts."
+   "text": "As an orc, you know the Warsong clan bears the brunt of the logging campaign in Ashenvale. Swift scouts help hold its forest outposts."
   }
  ],
  "keywords": [
@@ -89,5 +89,6 @@
  "attribution": [
   "Warsong Scout Update",
   "The Warsong Reports"
- ]
+ ],
+ "style": 1
 }

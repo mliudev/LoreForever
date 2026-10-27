@@ -17,16 +17,16 @@
   "wiki": "Investigate the Scourge of Darnassus",
   "chain": []
  },
- "summary": "Investigate the Scourge of Darnassus is an emergency mission issued by Lieutenant Beitha on behalf of the Argent Dawn. With a necropolis looming over the Scourge encampment, Alliance defenders are tasked with destroying encroaching undead and deciphering the dark runic circles appearing outside the city gates.",
+ "summary": "Lieutenant Beitha calls for help as the Scourge encampments press close to Darnassus. The Argent Dawn needs defenders to strike the undead and learn what the runes outside the gates are for.",
  "sections": [
   {
    "title": "A Plague on the World Tree",
-   "body": "The Scourge invasion has reached the sheltered boughs of Teldrassil. Floating necropolises appear in the sky, vomiting forth ghouls, skeletons, and necromantic horrors right outside Darnassus. Lieutenant Beitha of the Argent Dawn has stepped forward to coordinate the capital's defense, enlisting willing volunteers to blunt the vanguard and gather intelligence before the undead can overwhelm the night elven homeland.",
+   "body": "The Scourge has reached Teldrassil, and floating necropolises loom above the invasion camps near Darnassus. Ghouls, skeletons, and other undead horrors spill from them. Lieutenant Beitha of the Argent Dawn coordinates the city's defense, calling on volunteers to slow the attack and gather information before the undead overwhelm the night elven homeland.",
    "spoiler": 0
   },
   {
    "title": "Whispers in the Runes",
-   "body": "Beyond simply slaying the undead and collecting their dim necrotic stones, scouts are directed to inspect strange, glowing runic formations pulsing on the ground near the invasion encampments. Stepping close to these circles exposes defenders to unsettling supernatural whispers, revealing that the runes serve as unnatural communication relays although Lieutenant Beitha does not know whom the Scourge are contacting.",
+   "body": "The undead are not the only concern near the Scourge camps. Lieutenant Beitha asks defenders to collect dim necrotic stones from slain Scourge and inspect the glowing runic circles on the ground. Their whispers reach anyone who steps close. The circles carry messages, but Beitha does not know whom the Scourge are contacting.",
    "spoiler": 1
   }
  ],
@@ -38,7 +38,7 @@
     "beitha quest giver",
     "lieutenant beitha lore"
    ],
-   "answer": "Lieutenant Beitha is an officer representing the Argent Dawn stationed at Darnassus. She organizes local resistance against the Scourge invasion, distributing tasks to curb undead numbers and study their necromantic apparatus."
+   "answer": "Lieutenant Beitha is an Argent Dawn officer stationed at Darnassus. She organizes resistance to the Scourge and asks defenders to thin their numbers and study their necromantic devices."
   },
   {
    "q": "Why is the Scourge attacking Darnassus?",
@@ -47,7 +47,7 @@
     "teldrassil invasion",
     "lich king attacking night elves"
    ],
-   "answer": "The assignment concerns Scourge forces camped outside Darnassus beneath a necropolis. Lieutenant Beitha asks defenders to thin their numbers and investigate the strange runic circles nearby."
+   "answer": "Scourge forces are camped outside Darnassus beneath a necropolis. Lieutenant Beitha asks defenders to reduce their numbers and investigate nearby runic circles."
   },
   {
    "q": "What are the glowing runic circles outside the city?",
@@ -56,7 +56,7 @@
     "runic circles outside darnassus",
     "what are the invasion runes"
    ],
-   "answer": "The glowing runic circles appear near the Scourge invasion forces. Lieutenant Beitha asks you to investigate their purpose."
+   "answer": "The glowing runic circles lie near the Scourge forces. Lieutenant Beitha asks you to investigate their purpose."
   },
   {
    "q": "What are Dim Necrotic Stones?",
@@ -65,7 +65,7 @@
     "what do necrotic stones do",
     "dim necrotic stone lore"
    ],
-   "answer": "Dim Necrotic Stones are recovered from Scourge invaders and brought to the Argent Dawn as proof of slain undead."
+   "answer": "Dim Necrotic Stones come from Scourge invaders. Defenders bring them to the Argent Dawn as proof of slain undead."
   },
   {
    "q": "Who is funding or leading the response in Darnassus?",
@@ -73,7 +73,7 @@
     "who leads defense of darnassus",
     "argent dawn darnassus"
    ],
-   "answer": "The Argent Dawn is coordinating this investigation through Lieutenant Beitha. The order is devoted to opposing the Scourge."
+   "answer": "The Argent Dawn coordinates the investigation through Lieutenant Beitha. The order is devoted to opposing the Scourge."
   },
   {
    "q": "Can listening to the runic circles harm you?",
@@ -81,25 +81,25 @@
     "runic circles whispers",
     "runic circle voices danger"
    ],
-   "answer": "Their exact effects are not established. Beitha asks defenders to investigate the strange energy around the circles."
+   "answer": "No one knows their exact effects. Beitha asks defenders to investigate the strange energy around the circles."
   }
  ],
  "angles": [
   {
    "target": "race:NightElf",
-   "text": "For the Kaldorei, the presence of rotting necropolises and defiling undead so close to Teldrassil's holy ground is a grotesque violation that must be purged immediately."
+   "text": "As a Kaldorei, you see the necropolises and undead near Teldrassil's holy ground as a violation that must be purged."
   },
   {
    "target": "faction:Alliance",
-   "text": "The defense of Darnassus demonstrates the Alliance's commitment to standing united against the global threat posed by the Lich King's invasion force."
+   "text": "As an Alliance member, you join Darnassus's defense against the Lich King's invasion force."
   },
   {
    "target": "class:Priest",
-   "text": "Priests face the chilling test of examining corrupted necromantic runes, using their mental discipline and faith to resist the madness whispering through the Scourge's dark network."
+   "text": "As a priest, you face corrupted necromantic runes and the whispers passing through the Scourge's dark network."
   },
   {
    "target": "class:Druid",
-   "text": "The spread of necromancy and decaying flesh on Teldrassil's soil represents an unnatural blight that every protector of the wild is sworn to eradicate."
+   "text": "As a druid, you see necromancy and decaying flesh on Teldrassil as a blight you are sworn to eradicate."
   }
  ],
  "keywords": [
@@ -122,5 +122,6 @@
  ],
  "attribution": [
   "Investigate the Scourge of Darnassus"
- ]
+ ],
+ "style": 1
 }

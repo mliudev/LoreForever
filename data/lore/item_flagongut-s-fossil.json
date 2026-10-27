@@ -10,16 +10,16 @@
    "quest:943"
   ]
  },
- "summary": "Flagongut's Fossil is an ancient specimen recovered from the dig sites of the Wetlands. Entrusted to the dwarven Explorers' League, it holds latent secrets that Archaeologist Flagongut seeks to decipher using a mysterious relic known as the Stone of Relu.",
+ "summary": "At the Wetlands dig, Flagongut seeks answers in an ancient fossil. The Explorers' League keeps the specimen, and Flagongut believes the Stone of Relu can help him decipher its secrets.",
  "sections": [
   {
    "title": "Excavation and Study",
-   "body": "Unearthed as part of the dwarven expeditions across Khaz Modan, this ancient fossil represents more than just petrified stone. Archaeologist Flagongut believes it holds forgotten powers tied to the deep antiquity of the world, comparable to artifacts found across the sea in Darkshore. For safekeeping during regional studies, the fossil was held by Prospector Whelgar at his excavation site in the southern hills of the Wetlands.",
+   "body": "Prospector Whelgar keeps the fossil at his excavation site in the southern hills of the Wetlands. Dwarven expeditions across Khaz Modan unearthed it, and Archaeologist Flagongut believes its ancient stone holds forgotten powers. He sees a kinship with artifacts found across the sea in Darkshore.",
    "spoiler": 0
   },
   {
    "title": "Unlocking the Relic",
-   "body": "When Flagongut discovered the Stone of Relu, he realized it was the deciphering key required to unravel the fossil's mysteries. However, an ambush by mottled raptors on the road caused the stone to be lost. To finally unlock the specimen, Flagongut requires adventurers to retrieve the fossil from Whelgar's dig and recover the swallowed stone from the Wetlands wildlife.",
+   "body": "Flagongut found the Stone of Relu and recognized it as the key to deciphering the fossil. Mottled raptors ambushed him on the road, and the stone was lost. Now Flagongut needs the fossil from Whelgar's dig and the stone recovered from the Wetlands wildlife to unlock the specimen.",
    "spoiler": 1
   }
  ],
@@ -30,7 +30,7 @@
     "what is the fossil",
     "flagongut fossil lore"
    ],
-   "answer": "It is an ancient archaeological specimen recovered from the Wetlands, kept for analysis by the dwarven Explorers' League to uncover secrets of the world's ancient past."
+   "answer": "Flagongut's Fossil is an ancient specimen recovered from the Wetlands. The dwarven Explorers' League keeps it for analysis of the world's ancient past."
   },
   {
    "q": "Where is the fossil located?",
@@ -39,7 +39,7 @@
     "where is flagongut fossil",
     "whelgar fossil cave"
    ],
-   "answer": "It is located in the cave at the top of Whelgar's Excavation Site, nestled in the southern mountains of the Wetlands, guarded by the mottled raptors that overran the dig."
+   "answer": "The fossil lies in a cave at the top of Whelgar's Excavation Site in the southern mountains of the Wetlands. Mottled raptors that overran the dig guard it."
   },
   {
    "q": "Why does Flagongut need it returned?",
@@ -47,7 +47,7 @@
     "why does flagongut want it",
     "what will flagongut do with it"
    ],
-   "answer": "Flagongut believes that paired with the Stone of Relu, he can decipher the fossil's latent magical secrets and compare its nature to similar findings uncovered in Kalimdor."
+   "answer": "Flagongut believes the Stone of Relu can help him decipher the fossil's hidden magical secrets and compare it with similar findings in Kalimdor."
   },
   {
    "q": "How is it connected to Darkshore?",
@@ -55,17 +55,17 @@
     "darkshore connection",
     "remtravel fossil"
    ],
-   "answer": "Flagongut sees a parallel between this Wetlands specimen and the fossil found by Prospector Remtravel across the sea in Darkshore, believing the Stone of Relu might unlock the power in both relics."
+   "answer": "Flagongut sees a parallel between the Wetlands specimen and the fossil found by Prospector Remtravel in Darkshore. He believes the Stone of Relu might unlock the power in both relics."
   }
  ],
  "angles": [
   {
    "target": "race:Dwarf",
-   "text": "For dwarven explorers, fossils like Flagongut's are not mere curiosities; they are physical links to the ancient past that the Explorers' League is dedicated to unearthing."
+   "text": "As a dwarf, you can see fossils such as Flagongut's as links to the ancient past. The Explorers' League is dedicated to unearthing them."
   },
   {
    "target": "faction:Alliance",
-   "text": "Securing artifacts from Whelgar's ruined dig site prevents valuable history from being destroyed by wild beasts or scavenged by hostile forces in the marsh."
+   "text": "As an Alliance member, you can help secure artifacts from Whelgar's ruined dig site before wild beasts destroy them or hostile forces scavenge them in the marsh."
   }
  ],
  "keywords": [
@@ -91,5 +91,6 @@
  "attribution": [
   "Flagongut's Fossil",
   "The Absent Minded Prospector (5)"
- ]
+ ],
+ "style": 1
 }

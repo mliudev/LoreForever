@@ -17,16 +17,16 @@
   "wiki": "The Stagnant Oasis (Classic)",
   "chain": []
  },
- "summary": "The Stagnant Oasis is an investigative quest offered by the druid Tonga Runetotem at the Crossroads. Following discoveries at the Forgotten Pools, Tonga tasks travelers with exploring the murky waters to the southeast to determine if a similar submerged fissure exists. Testing the mysterious energies with lifeless seeds reveals a profound, unexplainable power bubbling beneath the arid earth.",
+ "summary": "Tonga Runetotem sends you southeast from the Crossroads to search the Stagnant Oasis. He wants to know if the hidden fissure beneath the Forgotten Pools has a match in its murky waters.",
  "sections": [
   {
    "title": "A Search for Hidden Waters",
-   "body": "After discovering an uncanny subterranean fissure churning beneath the Forgotten Pools, Tonga Runetotem suspects that the sudden bursts of lush greenery across the arid Barrens are not mere coincidence. He dispatches adventurers southeast to the Stagnant Oasis to see if a similar opening exists beneath its murky, predator-filled shallows.",
+   "body": "Tonga Runetotem sends you to the Stagnant Oasis after a strange fissure is found beneath the Forgotten Pools. He suspects the sudden patches of lush growth across the Barrens have a cause beneath the earth. You search the oasis's murky shallows for another opening, among predators that haunt the water.",
    "spoiler": 0
   },
   {
    "title": "The Spark of Vitality",
-   "body": "To test the nature of the spring, Tonga provides dried, infertile seeds incapable of natural germination. Submerging these dead husks directly into the bubbling fissure triggers an astonishing surge of growth. The presence of an active underground wellspring capable of bestowing life upon dead matter confirms that extraordinary, unnatural forces are actively reshaping the land.",
+   "body": "Tonga Runetotem gives you dried seeds that cannot sprout on their own. When you place them in the bubbling fissure, they surge into growth. The spring beneath the oasis can give life to dead matter, revealing an extraordinary power at work below the Barrens.",
    "spoiler": 1
   }
  ],
@@ -38,7 +38,7 @@
     "where to get",
     "tonga quest"
    ],
-   "answer": "The quest is given by Tonga Runetotem, a tauren druid stationed at the Crossroads in the central Barrens, immediately following the investigation of the Forgotten Pools."
+   "answer": "Tonga Runetotem, a tauren druid at the Crossroads, sends you to investigate after the search of the Forgotten Pools."
   },
   {
    "q": "What do the dried seeds do?",
@@ -47,7 +47,7 @@
     "seeds use",
     "seeds test"
    ],
-   "answer": "Tonga provides dead, infertile seeds as a test. He asks you to place them in any fissure beneath the Stagnant Oasis and observe whether the waters have an effect."
+   "answer": "Tonga gives you dead, infertile seeds to test. Place them in a fissure beneath the Stagnant Oasis and watch for any change in the water."
   },
   {
    "q": "Where is the Stagnant Oasis located?",
@@ -56,7 +56,7 @@
     "where is stagnant oasis",
     "map location"
    ],
-   "answer": "The Stagnant Oasis lies southeast of the Crossroads in the Barrens, nestled amid rocky bluffs and inhabited by snapjaw turtles, kolkar centaur, and water-dwelling beasts."
+   "answer": "The Stagnant Oasis lies southeast of the Crossroads in the Barrens. Rocky bluffs surround its waters, where snapjaw turtles, kolkar centaur, and other water-dwelling beasts live."
   },
   {
    "q": "What is the significance of the underwater fissures?",
@@ -65,7 +65,7 @@
     "underwater crack",
     "bubbling fissure"
    ],
-   "answer": "The fissures are mysterious cracks beneath the oasis waters. Tonga suspects they may be the source of the oases' life and asks travelers to test that possibility."
+   "answer": "The fissures are mysterious cracks beneath the oasis waters. Tonga suspects they may give life to the oases and asks you to test that idea."
   },
   {
    "q": "What quest comes next in the chain?",
@@ -74,7 +74,7 @@
     "followup",
     "after stagnant oasis"
    ],
-   "answer": "Returning to Tonga Runetotem with the findings leads directly to the quest Altered Beings, where the investigation shifts toward the mutations and aggressive behaviors seen in the wildlife surrounding the pools."
+   "answer": "When you return to Tonga Runetotem with your findings, he sends you on to investigate the mutations and aggressive behavior of wildlife around the pools."
   },
   {
    "q": "Why is the Cenarion Circle interested in these pools?",
@@ -83,21 +83,21 @@
     "cenarion interest",
     "druid oasis"
    ],
-   "answer": "The Cenarion druids have long sought ways to heal the dry savanna of the Barrens. Finding springs capable of spontaneously generating life is thrilling, but the suddenness and odd nature of the phenomena raise concerns of an unnatural or destabilizing origin."
+   "answer": "Cenarion druids have long sought ways to heal the Barrens' dry savanna. Springs that create life would bring hope, but the strange, sudden changes also raise concern that an unnatural force is disturbing the land."
   }
  ],
  "angles": [
   {
    "target": "class:Druid",
-   "text": "For druids of the Cenarion Circle, testing the oasis with lifeless seeds offers a way to investigate whether hidden forces are restoring life to the Barrens."
+   "text": "As a druid of the Cenarion Circle, you test the oasis with lifeless seeds to learn whether hidden forces are restoring life to the Barrens."
   },
   {
    "target": "race:Tauren",
-   "text": "The quest speaks directly to the tauren duty of honoring the Earth Mother by understanding sudden, profound disruptions in the natural balance of their ancestral hunting grounds."
+   "text": "As a tauren, you honor the Earth Mother by seeking to understand sudden changes in the natural balance of your ancestral hunting grounds."
   },
   {
    "target": "faction:Horde",
-   "text": "Securing and understanding reliable freshwater oases near the Crossroads is vital for safeguarding trade caravans and military outposts across the harsh Barrens."
+   "text": "As a member of the Horde, you know that freshwater oases near the Crossroads help protect trade caravans and military outposts across the harsh Barrens."
   }
  ],
  "keywords": [
@@ -120,5 +120,6 @@
  ],
  "attribution": [
   "The Stagnant Oasis (Classic)"
- ]
+ ],
+ "style": 1
 }

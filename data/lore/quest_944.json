@@ -17,16 +17,16 @@
   "wiki": "The Master's Glaive (quest)",
   "chain": []
  },
- "summary": "This quest sends Alliance adventurers south across Darkshore to scout the eerie Master's Glaive on behalf of the ancient of lore, Onu. The goal is to investigate whether the sinister Twilight's Hammer cult has infiltrated the remains of the fallen ancient horror.",
+ "summary": "In southern Darkshore, Onu sends Alliance scouts to investigate the Master's Glaive. He fears the Twilight's Hammer cult may have reached the fallen ancient horror.",
  "sections": [
   {
    "title": "A Disturbing Presence",
-   "body": "While investigating the lingering corruption and displaced wildlife along Darkshore, the ancient of lore Onu notices alarming clues. The naga along the coast are troubled enough, but the presence of the Twilight's Hammer cult is far more ominous. This fanatic sect does not worship ordinary dark powers; they venerate the ancient, primal lords of the world who were overthrown in ages past.",
+   "body": "Along Darkshore, Onu sees corruption linger and wildlife driven from its homes. The naga on the coast trouble him, but signs of the Twilight's Hammer are worse. Its followers worship primal lords who ruled the world before they were overthrown in ages past.",
    "spoiler": 0
   },
   {
    "title": "The Fallen Lord",
-   "body": "Southward lies the Master's Glaive, a grim excavation centered around a colossal creature impaled by an immense stone weapon. Onu provides a Phial of Scrying and tasks scouts with entering the pit to confirm if the cultists have gathered there. As Onu warns, even though the impaled behemoth has been dead for eons, slivers of its ancient, corruptive power still linger within its bones\u2014a prize the Twilight's Hammer cannot resist.",
+   "body": "South of Onu, the Master's Glaive is a grim excavation around a colossal creature pierced by a great stone weapon. Onu gives you a Phial of Scrying and asks you to enter the pit and learn whether the cultists have gathered there. The behemoth has been dead for eons, yet corruptive power still clings to its bones. The Twilight's Hammer may seek to claim it.",
    "spoiler": 0
   }
  ],
@@ -38,7 +38,7 @@
     "who gives the masters glaive quest",
     "start npc"
    ],
-   "answer": "The quest is given by Onu, a venerable ancient of lore stationed along the road in southern Darkshore near the Grove of the Ancients."
+   "answer": "Onu, an ancient of lore, sends you from his place along the road in southern Darkshore, near the Grove of the Ancients."
   },
   {
    "q": "What is the Master's Glaive?",
@@ -47,7 +47,7 @@
     "lore of masters glaive",
     "giant skull in darkshore"
    ],
-   "answer": "The Master's Glaive is an ancient site in southern Darkshore where a monstrous ancient lord fell eons ago, impaled through its skull by a titanic stone glaive. Its massive petrified skeleton remains embedded in the earth."
+   "answer": "The Master's Glaive is an ancient site in southern Darkshore, where a monstrous ancient lord fell eons ago, pierced through the skull by a titanic stone glaive. Its vast petrified skeleton remains buried in the earth."
   },
   {
    "q": "Why is the Twilight's Hammer cult interested in the site?",
@@ -56,7 +56,7 @@
     "why are twilight cultists here",
     "twilights hammer masters glaive"
    ],
-   "answer": "The Twilight's Hammer worships the old, dark powers of ancient Azeroth. Even though the titanic creature impaled at the glaive is long dead, dormant traces and slivers of its primeval power remain within its remains, which the cultists desperately seek to harness."
+   "answer": "The Twilight's Hammer worships the old, dark powers of ancient Azeroth. Slivers of primeval power remain in the long-dead creature's remains, and the cultists seek to harness them."
   },
   {
    "q": "How do I report back to Onu?",
@@ -65,7 +65,7 @@
     "how to use scrying phial",
     "scrying bowl"
    ],
-   "answer": "You do not need to walk all the way back to Onu's physical location. Once you explore the excavation pit of the Master's Glaive, use the Phial of Scrying in your bags to conjure a Scrying Bowl on the ground, allowing you to speak directly with Onu via magic."
+   "answer": "After exploring the excavation pit, use the Phial of Scrying from your bags to call forth a Scrying Bowl on the ground. Through it, you can speak to Onu by magic without returning to him."
   },
   {
    "q": "What follows this scout mission?",
@@ -73,21 +73,21 @@
     "next quest",
     "followup to masters glaive"
    ],
-   "answer": "After you use the Scrying Bowl to confirm the cultists' presence, Onu immediately directs you toward their encampment in the quest 'The Twilight Camp' to uncover further details about their activities."
+   "answer": "Once the Scrying Bowl confirms the cultists are there, Onu sends you to their encampment in The Twilight Camp to learn more about their activities."
   }
  ],
  "angles": [
   {
    "target": "race:NightElf",
-   "text": "For night elves, the Master's Glaive is a stark reminder of primeval terrors that predated their civilization, and seeing mad cultists trespass upon Darkshore's sacred soil is an intolerable defilement."
+   "text": "As a night elf, you see the Master's Glaive as a reminder of terrors older than your people. Mad cultists trespassing on Darkshore's sacred soil is an intolerable defilement."
   },
   {
    "target": "class:Druid",
-   "text": "Druids answer Onu's call to understand how the ancient, dormant taint buried deep within the earth is disturbing the surrounding land and its wildlife."
+   "text": "As a druid, you answer Onu's call to learn how the ancient taint buried deep in the earth disturbs the land and its wildlife."
   },
   {
    "target": "faction:Alliance",
-   "text": "Alliance forces in Darkshore must keep the Twilight's Hammer from awakening ancient horrors that could overrun the struggling settlements of northern Kalimdor."
+   "text": "As an Alliance member, you help keep the Twilight's Hammer from awakening ancient horrors that could overrun northern Kalimdor's struggling settlements."
   }
  ],
  "keywords": [
@@ -109,5 +109,6 @@
  ],
  "attribution": [
   "The Master's Glaive (quest)"
- ]
+ ],
+ "style": 1
 }

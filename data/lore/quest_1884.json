@@ -1,0 +1,102 @@
+{
+ "key": "quest:1884",
+ "type": "quest",
+ "name": "Ju-Ju Heaps",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   1884
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "Un'thuwa asks you to destroy Zalazane's ju-ju heaps on the Echo Isles. Their corruption threatens the flow of magic in Durotar.",
+ "sections": [
+  {
+   "title": "Tainted Heaps",
+   "body": "Un'thuwa in Sen'jin Village asks you to destroy the heaps Zalazane placed among his huts on the main Echo Isle. The tainted fetishes corrupt wildlife and empower warlocks and infernal creatures. If left alone, they may alter Durotar's flow of magic forever.",
+   "spoiler": 0
+  },
+  {
+   "title": "Un'thuwa's Sense",
+   "body": "Un'thuwa senses that the heaps are destroyed. With time and luck, she believes Durotar's magic will return to its normal flow. She praises your deed for your people and your worth to the Horde's classes.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who placed the ju-ju heaps?",
+   "aliases": [
+    "who made the heaps",
+    "zalazane heaps",
+    "ju ju source"
+   ],
+   "answer": "Zalazane, a warlock of the Echo Isles, placed the tainted heaps among his huts on the main isle."
+  },
+  {
+   "q": "What do the heaps do?",
+   "aliases": [
+    "what are juju heaps",
+    "heaps effect",
+    "why destroy juju"
+   ],
+   "answer": "The heaps corrupt wildlife and give power to warlocks and infernal creatures."
+  },
+  {
+   "q": "Where are the ju-ju heaps?",
+   "aliases": [
+    "where heaps",
+    "echo isle heaps",
+    "ju ju location"
+   ],
+   "answer": "Zalazane placed them among his huts on the main Echo Isle."
+  },
+  {
+   "q": "Who asks me to destroy them?",
+   "aliases": [
+    "who gives this",
+    "unthuwa request",
+    "who wants heaps gone"
+   ],
+   "answer": "Un'thuwa in Sen'jin Village asks you to destroy the ju-ju heaps."
+  },
+  {
+   "q": "Why does Durotar's magic matter here?",
+   "aliases": [
+    "magic flow",
+    "durotar magic",
+    "why care about magic"
+   ],
+   "answer": "The heaps disrupt Durotar's normal flow of magic, which may be altered forever if they remain."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Horde",
+   "text": "Un'thuwa calls this a deed for your people and says you have shown your worth to the Horde's classes."
+  }
+ ],
+ "keywords": [
+  "durotar",
+  "echo isles",
+  "ju-ju heaps",
+  "magic",
+  "sen'jin village",
+  "tainted fetishes",
+  "un'thuwa",
+  "zalazane"
+ ],
+ "related": [
+  "quest:826",
+  "subzone:echo-isles",
+  "subzone:sen-jin-village",
+  "zone:durotar",
+  "topic:horde",
+  "topic:warlock"
+ ],
+ "style": 1,
+ "attribution": [
+  "In-game quest text: Ju-Ju Heaps"
+ ]
+}

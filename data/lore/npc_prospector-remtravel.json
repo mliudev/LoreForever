@@ -8,16 +8,16 @@
   "wiki": "Prospector Remtravel",
   "refs": 2
  },
- "summary": "Prospector Remtravel is a dwarven archaeologist affiliated with the Explorers' League, stationed deep in the gloomy woodlands of Darkshore. He oversees an excavation site unearthing ancient relics, though his scattered focus and perilous surroundings leave him in constant need of assistance.",
+ "summary": "In southern Darkshore, Prospector Remtravel leads an Explorers' League dig among ancient relics. The dwarf's scattered focus and the dangers around camp make his work perilous.",
  "sections": [
   {
    "title": "A Dwarven Dig in Elven Lands",
-   "body": "Sent far across the sea by the Explorers' League, Prospector Remtravel established his dig site along the southern reaches of Darkshore. While the night elves are often protective of their ancestral territories, the League's insatiable drive to uncover the origins of Azeroth pushes prospectors into every forgotten corner. Remtravel's work unearths fossilized history and ancient stones, but the aggressive native wildlife and hostile local threats make managing a frontier dig almost more than one scatterbrained dwarf can handle.",
+   "body": "The Explorers' League sent Prospector Remtravel across the sea to establish a dig in southern Darkshore. Night elves guard their ancestral lands, yet the League's drive to uncover Azeroth's origins carries its prospectors into forgotten places. Remtravel unearths fossilized history and ancient stones, while aggressive wildlife and hostile local threats make the camp difficult for one scatterbrained dwarf to manage.",
    "spoiler": 0
   },
   {
    "title": "The Absent-Minded Scholar",
-   "body": "True to his reputation, Remtravel easily becomes lost in his own thoughts and research notes. Venturing too far from camp in search of fossils or lost artifacts frequently leads to disaster, leaving him cornered by predators or hostile creatures. Those who run across him in the wild usually find themselves tasked with safeguarding his fragile discoveries\u2014and rescuing the prospector himself before the perils of Darkshore put an end to his mission.",
+   "body": "Prospector Remtravel loses himself in thought and research notes. When he wanders from camp seeking fossils or lost artifacts, predators and hostile creatures can corner him. Those who find him in the wild often have to protect his fragile discoveries and rescue him from Darkshore's dangers.",
    "spoiler": 1
   }
  ],
@@ -29,7 +29,7 @@
     "remtravel lore",
     "who is the dwarf in darkshore"
    ],
-   "answer": "He is an archaeologist and surveyor from Ironforge representing the Explorers' League. He has established a small excavation camp in southern Darkshore to uncover ancient relics and fossils."
+   "answer": "Prospector Remtravel is an archaeologist and surveyor from Ironforge, sent by the Explorers' League. His small excavation camp in southern Darkshore is where he seeks ancient relics and fossils."
   },
   {
    "q": "Why is an Ironforge dwarf digging in Darkshore?",
@@ -38,7 +38,7 @@
     "what is the explorers league doing in darkshore",
     "why dig here"
    ],
-   "answer": "The Explorers' League is scouring the known world for titan artifacts, lost history, and ancient fossils. Darkshore is an ancient, ruined land with deep ties to the distant past, making it a prime site for dwarven archaeological investigation."
+   "answer": "The Explorers' League searches the known world for titan artifacts, lost history, and ancient fossils. Darkshore's ruins and ties to the distant past make it a place for dwarven archaeological study."
   },
   {
    "q": "Why is he called absent-minded?",
@@ -47,7 +47,7 @@
     "is remtravel crazy",
     "what happened to remtravel"
    ],
-   "answer": "Remtravel has a habit of losing track of his surroundings and his own equipment while absorbed in scholarly pursuits. He frequently wanders into dangerous territory without realizing the predators and beasts closing in around him."
+   "answer": "Remtravel loses track of his surroundings and equipment while absorbed in scholarship. He often wanders into danger without noticing the predators and beasts nearby."
   },
   {
    "q": "Is Prospector Remtravel related to anyone in the League?",
@@ -56,17 +56,17 @@
     "karna remtravel uncle",
     "who is karna remtravel"
    ],
-   "answer": "He is believed to be the adventurous uncle mentioned by Karna Remtravel, an explorer who credits her uncle with inspiring her passion for discovery and the wider world."
+   "answer": "Prospector Remtravel is believed to be the adventurous uncle Karna Remtravel mentions. She credits him with inspiring her passion for discovery and the wider world."
   }
  ],
  "angles": [
   {
    "target": "race:Dwarf",
-   "text": "Remtravel represents the Explorers' League's relentless determination to piece together dwarven origins, even when it requires pitching tents in the cold, damp woods of Kalimdor."
+   "text": "As a dwarf, Remtravel reflects the Explorers' League's determination to piece together dwarven origins, even in the cold, damp woods of Kalimdor."
   },
   {
    "target": "race:NightElf",
-   "text": "While night elves tolerate peaceful Alliance guests, the League's noisy digging and disturbing of ancient soils often tests the patience of local sentinels and druids."
+   "text": "As a night elf, you may find the League's noisy digging and disturbed ancient soils testing the patience of local sentinels and druids."
   }
  ],
  "keywords": [
@@ -89,5 +89,6 @@
  ],
  "attribution": [
   "Prospector Remtravel"
- ]
+ ],
+ "style": 1
 }

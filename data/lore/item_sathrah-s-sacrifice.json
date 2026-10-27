@@ -10,11 +10,11 @@
    "quest:2520"
   ]
  },
- "summary": "Sathrah's Sacrifice consists of the silvery spinnerets taken from Lady Sathrah, a mighty spider dwelling in Teldrassil. Entrusted to adventurers by Priestess A'moora, this offering is presented at the fountain of the Temple of the Moon to cleanse the creature's corruption and lay her spirit to rest.",
+ "summary": "At the Temple of the Moon, Sathrah's Sacrifice offers Lady Sathrah's spirit a chance at peace. Her silvery spinnerets come from the mighty spider who dwells in Teldrassil.",
  "sections": [
   {
    "title": "Purification in the Holy Waters",
-   "body": "Lady Sathrah was once a venerable creature of Teldrassil who fell prey to the creeping madness and corruption afflicting the boughs of the great tree. Tasked by the Sisterhood of Elune, adventurers retrieve her silvery spinnerets not as mere trophies, but as a consecrated offering. By bathing these remains within the sacred fountain of the Temple of the Moon, the foul taint that poisoned Sathrah's mind is washed away. The rite frees her troubled soul, allowing her spirit to manifest peacefully within the sanctuary and granting her the promise of rebirth under Elune's grace.",
+   "body": "Lady Sathrah was a venerable creature of Teldrassil, until creeping madness and corruption spread through the great tree's boughs and took hold of her. The Sisterhood of Elune asks you to bring back her silvery spinnerets as a consecrated offering, not a trophy. At the fountain in the Temple of the Moon, the remains are bathed in holy water. The rite washes away the taint that poisoned Sathrah's mind and frees her troubled soul. Her spirit then appears peacefully within the sanctuary, with the promise of rebirth under Elune's grace.",
    "spoiler": 0
   }
  ],
@@ -26,7 +26,7 @@
     "sathrah sacrifice item",
     "lady sathrah offering"
    ],
-   "answer": "Sathrah's Sacrifice is the ritual offering made from the silvery spinnerets of Lady Sathrah, a corrupted giant spider slain in Teldrassil. The Sisterhood of Elune uses it in a purifying rite to cleanse the creature's soul."
+   "answer": "Sathrah's Sacrifice is an offering of silvery spinnerets taken from Lady Sathrah, a mighty spider corrupted in Teldrassil. The Sisterhood of Elune uses them in a rite to cleanse her soul."
   },
   {
    "q": "Why must the spinnerets be placed in the fountain?",
@@ -35,7 +35,7 @@
     "why sacrifice sathrah",
     "what does the fountain do"
    ],
-   "answer": "The central fountain within Darnassus's Temple of the Moon contains holy waters consecrated to Elune. Submerging Sathrah's remains in the pool washes away the foul corruption that drove her mad, releasing her spirit from agony."
+   "answer": "The fountain in Darnassus's Temple of the Moon holds holy water consecrated to Elune. Submerging Sathrah's remains washes away the corruption that drove her mad and releases her spirit from agony."
   },
   {
    "q": "What happens when the offering is presented?",
@@ -44,7 +44,7 @@
     "spirit of sathrah appear",
     "fountain event"
    ],
-   "answer": "When placed into the sacred waters, the corruption is purged and the spectral form of Lady Sathrah appears, walking serenely around the pool to signify that her soul is at peace."
+   "answer": "When you place the offering in the sacred waters, the corruption is purged and Lady Sathrah's spectral form appears. She walks serenely around the pool, showing that her soul is at peace."
   },
   {
    "q": "Who oversees this ritual?",
@@ -53,17 +53,17 @@
     "priestess a'moora quest",
     "who cleanses sathrah"
    ],
-   "answer": "Priestess A'moora, a servant of the Sisterhood of Elune stationed within the Temple of the Moon, directs adventurers to lay the creature to rest and offer her remains to the goddess."
+   "answer": "Priestess A'moora oversees the rite. A servant of the Sisterhood of Elune stationed in the Temple of the Moon, she directs you to lay Sathrah to rest and offer her remains to the goddess."
   }
  ],
  "angles": [
   {
    "target": "race:NightElf",
-   "text": "For night elves, putting down corrupted wildlife is a somber duty; returning Lady Sathrah's spirit to Elune's grace ensures that life on Teldrassil can eventually be reborn free of madness."
+   "text": "As a night elf, you know that putting down corrupted wildlife is a somber duty. Returning Lady Sathrah's spirit to Elune's grace honors that duty."
   },
   {
    "target": "class:Priest",
-   "text": "Priests serving the Sisterhood of Elune observe this ritual as a solemn act of divine mercy, using holy waters to cleanse taint rather than merely discarding a slain beast."
+   "text": "As a priest, you can see the rite as an act of divine mercy. The Sisterhood of Elune uses holy waters to cleanse taint, rather than merely discarding the slain beast."
   }
  ],
  "keywords": [
@@ -89,5 +89,6 @@
  "attribution": [
   "Sathrah's Sacrifice",
   "Sathrah's Sacrifice (quest)"
- ]
+ ],
+ "style": 1
 }

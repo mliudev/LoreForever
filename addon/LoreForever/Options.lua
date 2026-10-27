@@ -400,7 +400,7 @@ function Options.VoiceSection(c, anchor)
   end)
   local willoHead = heading(c, L["Willo's voice"], genderNote, 16)
   willoHead:SetPoint("TOPLEFT", genderNote, "BOTTOMLEFT", -26, -16)
-  local willoNote = note(c, L["Willo speaks in her own voice, picked in Willo. She can also read quest pages no one recorded, in a voice of the quest giver's; Willo's settings say when."], willoHead, 6)
+  local willoNote = note(c, L["Willo speaks in her own voice, picked in Willo. She can also read quest pages no one recorded, when you press the play button on the quest window or with Speak quest dialogue on."], willoHead, 6)
   -- "New" after an update, when this version's notes name one of the two (WhatsNew.lua; section.ShowNew).
   local raceNew = ns.WhatsNew.Tag(c, raceText, "LEFT", "RIGHT", 8, 0)
   local genderNew = ns.WhatsNew.Tag(c, genderText, "LEFT", "RIGHT", 8, 0)
@@ -448,6 +448,7 @@ function Options.VoiceSection(c, anchor)
     return b
   end
 
+  -- (Rows are VROW tall, and taller by their downloads line: section.Update stacks them.)
   local function row(i)
     if rows[i] then return rows[i] end
     local r = CreateFrame("Frame", nil, box)
@@ -456,7 +457,7 @@ function Options.VoiceSection(c, anchor)
     r:SetPoint("RIGHT", box, "RIGHT", 0, 0)
     r.check = CreateFrame("CheckButton", nil, r, "UICheckButtonTemplate")
     r.check:SetSize(26, 26)
-    r.check:SetPoint("LEFT", -4, 0)
+    r.check:SetPoint("TOPLEFT", -4, -(VROW - 26) / 2)
     r.check:SetScript("OnClick", function(self)
       ns.Voice.SetOn(r.item.key, self:GetChecked() and true or false)
       section.Update()
@@ -465,7 +466,7 @@ function Options.VoiceSection(c, anchor)
       ns.Voice.Move(it.key, 1)
       section.Update()
     end)
-    r.down:SetPoint("RIGHT", 0, 0)
+    r.down:SetPoint("TOPRIGHT", 0, -(VROW - 20) / 2)
     r.up = small(r, "Interface\\Buttons\\UI-ScrollBar-ScrollUpButton-Up", L["Move up"], function(it)
       ns.Voice.Move(it.key, -1)
       section.Update()
@@ -511,12 +512,28 @@ function Options.VoiceSection(c, anchor)
     r.stats:SetPoint("TOPLEFT", r.name, "BOTTOMLEFT", 0, -2)
     r.stats:SetPoint("RIGHT", r.sample, "LEFT", -8, 0)
     r.stats:SetJustifyH("LEFT")
+    -- Our narrators' downloads: Complete, or the CurseForge projects of their stories that aren't installed. Under the
+    -- tick box and the buttons, so the long names get the row's whole width.
+    r.packs = r:CreateFontString(nil, "ARTWORK", "GameFontHighlightSmall")
+    r.packs:SetPoint("TOPLEFT", r.check, "BOTTOMRIGHT", 2, 0)
+    r.packs:SetPoint("TOPRIGHT", r, "TOPRIGHT", 0, -(VROW - 26) / 2 - 26)
+    r.packs:SetJustifyH("LEFT")
     rows[i] = r
     return r
   end
 
-  -- One row: greyed when unticked or unusable (with why in red), counts otherwise. A voice that can't be used can
-  -- still be unticked, so it doesn't count as chosen.
+  -- A narrator's downloads line (Voice.PackGaps): Complete, or what's missing by its CurseForge project's name and,
+  -- when the narrator has one, the Complete project that brings them all. nil for a voice we don't list.
+  local function downloads(it)
+    if not it.lacking then return nil end
+    if #it.lacking == 0 then return T.code.green .. L["Complete"] .. "|r" end
+    local line = T.code.stale .. L["Missing:"] .. "|r " .. table.concat(it.lacking, ns.Lang.Dotted(" · "))
+    if it.complete then line = line .. "\n" .. string.format(L["%s installs them all."], it.complete) end
+    return line
+  end
+
+  -- One row: greyed when unticked or unusable (with why in red), counts otherwise, then its downloads line. A voice
+  -- that can't be used can still be unticked, so it doesn't count as chosen. Returns the row's height.
   local function fill(r, it, i, n)
     r.item = it
     local usable = not it.why
@@ -539,15 +556,27 @@ function Options.VoiceSection(c, anchor)
     r.forget:SetShown(it.missing and not it.default)
     if i == 1 then r.up:Disable() else r.up:Enable() end
     if i == n then r.down:Disable() else r.down:Enable() end
+    local line = downloads(it)
+    r.packs:SetText(line or "")
+    r.packs:SetTextColor(T.rgba(T.color.muted))
+    r.packs:SetShown(line ~= nil)
+    local height = VROW + (line and (tonumber(r.packs:GetStringHeight()) or 12) + 4 or 0)
+    r:SetHeight(height)
     r:Show()
+    return height
   end
 
   function section.Update()
     volume.Sync()
     local items = ns.Voice.List()
-    for i, it in ipairs(items) do fill(row(i), it, i, #items) end
+    local y = 0
+    for i, it in ipairs(items) do
+      local r = row(i)
+      r:SetPoint("TOPLEFT", 0, -y)
+      y = y + fill(r, it, i, #items)
+    end
     for i = #items + 1, #rows do rows[i]:Hide() end
-    box:SetHeight(math.max(#items, 1) * VROW)
+    box:SetHeight(math.max(y, VROW))
     local installed, text = ns.Voice.InstalledPacks(), {}
     for _, it in ipairs(installed) do
       local detail = it.language .. ns.Lang.Dotted(" · ") .. it.status
@@ -635,7 +664,7 @@ local function rows()
     { "onDemand", L["Narration: only when I press Play"], L["Nothing plays by itself: not as you arrive, on flights, at quest givers or in books. Play buttons, the Narrate key and your playlist still work."] },
     { "narrateFlights", L["Narrate flights"], L["Read the story of each zone aloud while on a flight path."] },
     { "autoZone", L["Play narrations as you arrive"], L["When you reach a zone or place with a recorded narration, play it. Storyline recaps and the story passages your quests open play by themselves under this too. Never during combat or a flight, and never over something already playing."] },
-    { "questDialogue", L["Speak quest dialogue"], L["Off by default. Turn on to hear quest pages automatically or use Play beside the quest window. Leave off when another add-on reads quests. Lore Forever's own stories and answers still play."] },
+    { "questDialogue", L["Speak quest dialogue"], L["Hear each quest page as you open it. When it's off, press the play button next to Lore on the quest window. Leave it off if another add-on reads your quests. The same switch as in Willo."] },
     { "skipHeard", L["Skip what you've heard"], L["Don't play a narration by itself again once this character has heard it. You can still play it any time; Found ticks the ones you've heard."] },
     { "packHints", L["Narration pack hints"], L["When you enter a zone whose places and people are narrated in a voice pack you don't have, say so once."] },
     { "journey", L["Remember my journey"], L["Keep track of the places you discover, the people you meet, the foes you defeat and the quests you finish, for your journey page. It stays on your PC."] },
@@ -831,7 +860,7 @@ function Options.Create()
   local title = c:CreateFontString(nil, "ARTWORK", "GameFontNormalLarge")
   title:SetPoint("TOPLEFT", 16, -12)
   title:SetText("Lore Forever")
-  local sub = note(c, L["Offline lore for the zones, quests and people around you. Lore adapted from warcraft.wiki.gg (CC BY-SA 4.0)."], title, 6, "GameFontHighlightSmall")
+  local sub = note(c, L["Offline lore for the zones, quests and people around you."], title, 6, "GameFontHighlightSmall")
   local last = heading(c, L["General"], languageSection(c, p, sub), 22)
   p.checks = {}
   -- The English label of a translated one, to look for in the notes (WhatsNew.OptionIsNew): ns.L maps English to

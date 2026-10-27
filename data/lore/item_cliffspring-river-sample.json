@@ -10,16 +10,16 @@
    "quest:4762"
   ]
  },
- "summary": "A glass vial containing murky, foul-smelling water drawn from the base of the Cliffspring River waterfall in Darkshore. Gathered on behalf of Thundris Windweaver in Auberdine, the sample provides tangible proof of an encroaching corruption threatening the coastal settlement.",
+ "summary": "In Darkshore, foul water gathers at the base of the Cliffspring River waterfall. Drawn for Thundris Windweaver in Auberdine, the vial shows that corruption is moving toward the coast.",
  "sections": [
   {
    "title": "A Tainted Current",
-   "body": "The Cliffspring River flows down from the rugged eastern heights of Darkshore, tumbling past ancient stone bridges before washing out into the sea along Mist's Edge. Lately, the river's crystalline waters have turned foul and visibly corrupted. Fearing that the toxic wash will soon contaminate Auberdine's shoreline and water supply, the night elf Thundris Windweaver commissioned travelers to draw this water sample directly from the pool beneath the river's lower waterfall. The sample confirms the worst: unnatural rot is drifting steadily downstream toward the coast.",
+   "body": "The Cliffspring River runs from Darkshore's eastern heights, past ancient stone bridges, and into the sea at Mist's Edge. Its clear waters have turned foul and visibly corrupted. Thundris Windweaver, a night elf in Auberdine, fears the tainted flow will reach the settlement's shore and water supply. He sent travelers to draw water from the pool beneath the river's lower waterfall. The sample confirms that unnatural rot is moving downstream toward the coast.",
    "spoiler": 0
   },
   {
    "title": "Echoes of Felwood",
-   "body": "While local Blackwood furbolgs inhabit the upstream banks and suffer from its darkening influence, the water sample suggests a far deeper malady than simple tribal mischief. Thundris recognizes the foul nature of the corruption as originating high above the cliffs to the east, in the blighted expanse of Felwood. The tainted sample serves as definitive proof that the demonic sickness plaguing the mountaintops is leaching downward into Darkshore's watersheds, forcing Auberdine's defenders to prepare an active response.",
+   "body": "Blackwood furbolgs live along the river upstream and suffer under its darkening influence. Thundris recognizes the water's corruption as coming from high above the cliffs to the east, in Felwood. The demonic sickness blighting the mountaintops is seeping into Darkshore's watersheds, and Auberdine's defenders must prepare to respond.",
    "spoiler": 1
   }
  ],
@@ -31,7 +31,7 @@
     "cliffspring river location",
     "waterfall pool sample"
    ],
-   "answer": "It is drawn from the pool beneath the first waterfall along the Cliffspring River, located north of Auberdine. Travelers must follow the river inland until reaching the waterfall beneath an overhead bridge."
+   "answer": "The sample comes from the pool beneath the first Cliffspring River waterfall, north of Auberdine. Follow the river inland to the waterfall beneath an overhead bridge."
   },
   {
    "q": "Why does Thundris Windweaver need this water?",
@@ -40,7 +40,7 @@
     "thundris river quest",
     "purpose of river sample"
    ],
-   "answer": "Thundris fears the river's foulness will contaminate the coastal waters near Auberdine. Gathering and examining a physical sample allows him to analyze the nature of the taint and formulate a plan to counter it."
+   "answer": "Thundris fears the foul river water will contaminate Auberdine's coastal waters. A sample lets him study the taint and plan how to counter it."
   },
   {
    "q": "What is causing the Cliffspring River to turn foul?",
@@ -49,7 +49,7 @@
     "why is the water corrupted",
     "source of river corruption"
    ],
-   "answer": "While the corrupted Blackwood furbolgs dwell along the river, Thundris suspects the true origin lies further east in Felwood, whose lingering demonic blight is seeping into the mountain headwaters."
+   "answer": "The true source lies east in Felwood, where lingering demonic blight is seeping into the mountain headwaters. Corrupted Blackwood furbolgs live along the river, too."
   },
   {
    "q": "Are the Blackwood furbolgs responsible for the poison?",
@@ -58,17 +58,17 @@
     "blackwood furbolg taint",
     "are furbolgs poisoning water"
    ],
-   "answer": "They exacerbate the problem along the riverbanks, but they are not the root cause. The furbolgs themselves have fallen prey to the broader corruption washing down from the blighted lands to the east."
+   "answer": "The Blackwood furbolgs worsen the trouble along the riverbanks, but they are not its root cause. They have fallen prey to the wider corruption flowing from the blighted lands to the east."
   }
  ],
  "angles": [
   {
    "target": "race:NightElf",
-   "text": "For the night elves of Auberdine, any corruption of northern Kalimdor's waters is a grave omen of the ongoing blight spreading outward from Felwood."
+   "text": "For the night elves of Auberdine, corruption in northern Kalimdor's waters is a grave sign of the blight spreading from Felwood."
   },
   {
    "target": "class:Druid",
-   "text": "Druids are keenly attuned to the balance of natural waterways, making the unnatural toxicity of the Cliffspring sample an urgent priority to study and cleanse."
+   "text": "As a druid, you know the balance of natural waterways matters. The Cliffspring sample's unnatural toxicity needs urgent study and cleansing."
   }
  ],
  "keywords": [
@@ -95,5 +95,6 @@
  "attribution": [
   "Cliffspring River Sample",
   "The Cliffspring River"
- ]
+ ],
+ "style": 1
 }

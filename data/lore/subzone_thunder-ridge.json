@@ -7,16 +7,16 @@
  "meta": {
   "wiki": "Thunder Ridge"
  },
- "summary": "Thunder Ridge is a rugged canyon in western Durotar, situated just southwest of Orgrimmar along the banks of the Southfury River. Once a lush grove of ancient trees inhabited by herds of thunder lizards, the canyon has suffered severe deforestation from human lumber operations and dark sorcery. Today, the agitated beasts and lingering cultists pose an ongoing threat to nearby settlements.",
+ "summary": "Thunder Ridge lies southwest of Orgrimmar, where thunder lizards roam a stripped canyon. Along the Southfury River in western Durotar, the former grove was ruined by human logging and dark sorcery. Agitated beasts and lingering cultists threaten nearby settlements.",
  "sections": [
   {
    "title": "A Scarred Sanctuary",
-   "body": "Not long ago, Thunder Ridge was a rare green haven in arid Durotar, sustained by ancient trees. Its tranquil balance shattered shortly after the Third War when human interlopers from Kul Tiras began felling its timber, driving the native thunder lizards into a frenzy. Later, fel sorcery wielded by the Burning Blade finished the destruction, stripping the canopy and leaving behind a barren, exposed gorge where angry lightning-spewing beasts now roam unrestrained.",
+   "body": "Thunder Ridge was once a green haven in arid Durotar, shaded by ancient trees. Shortly after the Third War, humans from Kul Tiras began felling its timber. The thunder lizards grew wild as their home was cut away. Then the Burning Blade used fel sorcery to destroy what remained of the canopy. Now the gorge lies barren and exposed, with angry, lightning-spewing beasts roaming through it.",
    "spoiler": 0
   },
   {
    "title": "Cultists and Tests of Strength",
-   "body": "The denizens of Orgrimmar keep a wary eye on the ridge. The Burning Blade maintains a pocket of cultists here under the warlock Fizzle Darkclaw, who uses demonic magic to sow further chaos across Durotar. Horde veterans like Orgnil Soulscar task scouts with hunting down the cabal, while warrior trainers such as Uzzek send aspiring fighters into the crags to test their resilience against the enraged thunder lizards.",
+   "body": "Orgrimmar's people watch the ridge with care. The Burning Blade keeps a band of cultists there, led by the warlock Fizzle Darkclaw, whose demonic magic spreads chaos through Durotar. Horde veterans such as Orgnil Soulscar send scouts to hunt the cultists. Warrior trainers like Uzzek also send aspiring fighters into the crags to test themselves against the enraged thunder lizards.",
    "spoiler": 1
   }
  ],
@@ -28,7 +28,7 @@
     "thunder ridge forest",
     "deforestation thunder ridge"
    ],
-   "answer": "Thunder Ridge was once a dense woodland, but it suffered two waves of destruction. First, lumber operations run by Kul Tiran forces aggressively felled its ancient timber shortly after Durotar was founded. Later, the Burning Blade used dark, demonic magic to raze the surviving groves, wiping out the forest entirely."
+   "answer": "Thunder Ridge was once dense woodland, but two waves of destruction stripped it away. Shortly after Durotar was founded, Kul Tiran forces felled the ancient trees for lumber. Later, the Burning Blade used dark, demonic magic to raze the surviving groves and wipe out the forest."
   },
   {
    "q": "Why are the thunder lizards so aggressive here?",
@@ -36,7 +36,7 @@
     "angry lizards thunder ridge",
     "thunder lizards durotar"
    ],
-   "answer": "The thunder lizards lived peacefully among the ridge's ancient trees until outside intrusion ruined their habitat. The noise and destruction of human logging, combined with lingering fel corruption from the Burning Blade cultists, drove the herds into an agitated madness that makes them attack anyone who ventures into the canyon."
+   "answer": "Thunder lizards once lived peacefully among Thunder Ridge's ancient trees. Human logging brought noise and destruction to their home, and lingering fel corruption from the Burning Blade cultists worsened their agitation. Now they attack anyone who enters the canyon."
   },
   {
    "q": "Who is Fizzle Darkclaw?",
@@ -45,7 +45,7 @@
     "who is darkclaw",
     "burning blade thunder ridge"
    ],
-   "answer": "Fizzle Darkclaw is a leader within the Burning Blade cult who established an encampment within Thunder Ridge. From this staging ground, he and his followers direct dark rituals to destabilize the region, prompting Horde leaders like Orgnil Soulscar to place a bounty on his head."
+   "answer": "Fizzle Darkclaw leads a Burning Blade cult and established an encampment in Thunder Ridge. He and his followers use dark rituals to destabilize the region, and Horde leaders such as Orgnil Soulscar have placed a bounty on his head."
   },
   {
    "q": "Did Rexxar fight in Thunder Ridge?",
@@ -53,17 +53,17 @@
     "rexxar thunder ridge",
     "drek'thar thunder ridge"
    ],
-   "answer": "Yes. Shortly after Durotar was founded, the Champion of the Horde Rexxar traveled here to gather shimmerweed for the farseer Drek'Thar. While in the canyon, Rexxar discovered the human lumber camp driving the lizards wild, forcing him to cull the frenzied beasts and salvage their eggs for Drek'Thar to study."
+   "answer": "Yes. Shortly after Durotar was founded, Rexxar came to Thunder Ridge to gather shimmerweed for the farseer Drek'Thar. He found the human lumber camp driving the lizards wild, then culled the frenzied beasts and salvaged their eggs for Drek'Thar to study."
   }
  ],
  "angles": [
   {
    "target": "class:Warrior",
-   "text": "Warrior mentors like Uzzek send their trainees into Thunder Ridge to test their defensive prowess against the sheer physical force and lightning shocks of the wild thunder lizards."
+   "text": "Warrior mentors such as Uzzek send their trainees into Thunder Ridge to test their defensive skill against the strength and lightning shocks of wild thunder lizards."
   },
   {
    "target": "faction:Horde",
-   "text": "Nestled just outside Orgrimmar's western bluffs, the ridge must be kept clear of Burning Blade agents like Fizzle Darkclaw to prevent demonic subversion at the capital's doorstep."
+   "text": "Just beyond Orgrimmar's western bluffs, Thunder Ridge must be kept clear of Burning Blade agents such as Fizzle Darkclaw, whose demonic schemes threaten the capital."
   }
  ],
  "keywords": [
@@ -89,5 +89,6 @@
  ],
  "attribution": [
   "Thunder Ridge"
- ]
+ ],
+ "style": 1
 }

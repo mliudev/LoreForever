@@ -7,16 +7,16 @@
  "meta": {
   "wiki": "Kolkar Crag"
  },
- "summary": "Kolkar Crag is a sunbaked, jagged gorge in southern Durotar claimed by the hostile Kolkar centaur. Led by Warlord Kolkanis, this enclave serves as a staging ground for coordinated raids against nearby Horde settlements.",
+ "summary": "Kolkar centaur watch the southern Durotar flats from Kolkar Crag, a gorge they have claimed for their raids. Warlord Kolkanis leads them against nearby Horde settlements.",
  "sections": [
   {
    "title": "A Thorn in Durotar's Side",
-   "body": "Tucked away in the rugged canyons of southern Durotar, Kolkar Crag is a base of operations for the aggressive Kolkar clan. Despite the arid and unforgiving terrain, these centaur have fortified the natural choke points of the gorge. From this ravine, their scouts and marauders keep close watch over the surrounding flats, probing for vulnerabilities across orc and Darkspear holdings. For young warriors training in the Valley of Trials or patrolling the southern coast, Kolkar Crag represents the nearest organized front of centaur hostility.",
+   "body": "Kolkar centaur hold a fortified gorge in southern Durotar. They guard its natural choke points and watch the surrounding flats for openings in orc and Darkspear holdings. Scouts and marauders range from the crag, probing those defenses. For young warriors training in the Valley of Trials and patrols along the southern coast, this is the nearest organized centaur threat.",
    "spoiler": 0
   },
   {
    "title": "Schemes of Invasion",
-   "body": "Under the command of Warlord Kolkanis, the centaur entrenched at the crag hold ambitions far beyond simple skirmishes. Recovered attack plans reveal plots targeting the Valley of Trials, Sen'jin Village, Razor Hill, and daring strikes aimed directly toward the gates of Orgrimmar. Halting these plans requires decisive preemptive strikes deep into the ravine to assassinate Kolkanis and break their muster before their war parties can sweep through the valleys.",
+   "body": "Warlord Kolkanis commands the centaur at the crag, whose plans reach beyond skirmishes. Recovered attack plans name the Valley of Trials, Sen'jin Village, Razor Hill, and even the gates of Orgrimmar as targets. To stop the assaults, Horde forces must strike deep into the ravine, kill Kolkanis, and break the centaur muster before their war parties sweep through the valleys.",
    "spoiler": 1
   }
  ],
@@ -28,7 +28,7 @@
     "kolkar crag inhabitants",
     "who owns kolkar crag"
    ],
-   "answer": "Kolkar Crag is held by the Kolkar centaur clan, led on-site by Warlord Kolkanis. They use the defensible canyon as a camp and raiding post against Horde outposts throughout Durotar."
+   "answer": "Kolkar centaur live in Kolkar Crag under the command of Warlord Kolkanis. They use the canyon as a camp and a raiding post against Horde outposts throughout Durotar."
   },
   {
    "q": "Why is the Horde concerned about this ravine?",
@@ -37,7 +37,7 @@
     "is kolkar crag dangerous",
     "kolkar threat"
    ],
-   "answer": "The centaur within the gorge have drafted plans to launch coordinated assaults on Durotar's vital settlements, including the training grounds in the Valley of Trials, Sen'jin Village, Razor Hill, and Orgrimmar itself."
+   "answer": "The centaur in the gorge have planned coordinated assaults on Durotar's vital settlements: the Valley of Trials, Sen'jin Village, Razor Hill, and Orgrimmar."
   },
   {
    "q": "Who leads the centaur here?",
@@ -46,17 +46,17 @@
     "who leads kolkar crag",
     "warlord kolkanis"
    ],
-   "answer": "The encampment is commanded by Warlord Kolkanis, a ferocious centaur warlord who directs their scouting maneuvers and formulates battle plans against the orcs and trolls."
+   "answer": "Warlord Kolkanis commands the centaur encampment. He directs their scouting and plans attacks against the orcs and trolls."
   }
  ],
  "angles": [
   {
    "target": "race:Orc",
-   "text": "The presence of centaur so close to the Valley of Trials threatens the initiation of young orcs, making the pacification of Kolkar Crag an urgent matter of territorial defense."
+   "text": "Centaur near the Valley of Trials threaten the initiation of young orcs, making the effort to pacify Kolkar Crag an urgent matter of territorial defense."
   },
   {
    "target": "faction:Horde",
-   "text": "Securing southern Durotar against centaur incursions protects the supply lines running between Sen'jin Village and the road to Orgrimmar."
+   "text": "Securing southern Durotar against centaur incursions protects the supply lines between Sen'jin Village and the road to Orgrimmar."
   }
  ],
  "keywords": [
@@ -80,5 +80,6 @@
  ],
  "attribution": [
   "Kolkar Crag"
- ]
+ ],
+ "style": 1
 }

@@ -17,16 +17,16 @@
   "wiki": "Beached Sea Creature (1)",
   "chain": []
  },
- "summary": "Along the fog-draped strand of Mist's Edge lies the massive carcass of a sea thresher, far larger than any native to Darkshore's shallows. While local murlocs pick through the carrion, naturalists in Auberdine seek bone samples to understand why such colossal deep-sea beasts are beaching themselves along the coast.",
+ "summary": "At Mist's Edge, a giant sea thresher lies stranded while murlocs feed on its carcass. In Auberdine, Gwennyth Bly'Leggonde gathers samples for night elf researchers in Darnassus, who seek to learn why deep-sea giants are washing ashore.",
  "sections": [
   {
    "title": "A Giant on the Shallows",
-   "body": "The Mist's Edge coastline is no stranger to shipwrecks and tide-washed debris, but the sudden appearance of enormous thresher remains is troubling. The creature dwarfs typical local wildlife, pointing to depths far beyond the calm waters of the Veiled Sea. Although coastal murlocs eagerly swarm and feast on the corpse, they lack the strength or coordination to bring down a leviathan of this scale. The predator succumbed to something else entirely before washing ashore.",
+   "body": "Enormous thresher remains have appeared along Mist's Edge, where shipwrecks and tide-washed debris are familiar sights. This beast dwarfs the wildlife of Darkshore's shallows, suggesting it came from far beyond the calm waters of the Veiled Sea. Murlocs swarm over the corpse to feed, but they lack the strength and coordination to bring down a creature of this size. Something else killed the predator before the sea carried it ashore.",
    "spoiler": 0
   },
   {
    "title": "Studies in Darnassus",
-   "body": "Gwennyth Bly'Leggonde in Auberdine coordinates field efforts to salvage bones and biological samples from Darkshore's stranded megafauna. Night elf researchers in Darnassus hope that by examining skeletal remains and tissue samples, they can determine whether illness, deep-sea disturbances, or arcane corruption drives these ocean giants onto the killing sands.",
+   "body": "Gwennyth Bly'Leggonde coordinates efforts in Auberdine to salvage bones and biological samples from Darkshore's stranded sea giants. Night elf researchers in Darnassus hope the remains will show whether illness, disturbances in the deep sea, or arcane corruption drives the giants onto the killing sands.",
    "spoiler": 0
   }
  ],
@@ -38,7 +38,7 @@
     "what is the dead monster",
     "what animal is dead on the beach"
    ],
-   "answer": "It is the remains of a giant thresher, an aquatic predator vastly larger than the threshers typically spotted close to Darkshore's beaches."
+   "answer": "A giant thresher washed ashore, far larger than the threshers usually seen near Darkshore's beaches."
   },
   {
    "q": "Did the murlocs kill it?",
@@ -46,7 +46,7 @@
     "did murlocs kill the thresher",
     "did murlocs kill the sea creature"
    ],
-   "answer": "No. Although murlocs swarm around the carcass to feed on the rotting meat, observers note they are far too weak, even in large groups, to hunt down a deep-water behemoth of that size."
+   "answer": "No. Murlocs swarm the carcass to feed, but even in large groups they are too weak to hunt a deep-water beast of that size."
   },
   {
    "q": "Why are sea creatures stranding themselves along Darkshore?",
@@ -54,7 +54,7 @@
     "why are threshers dying",
     "why do creatures beach themselves"
    ],
-   "answer": "The exact cause remains unknown. Night elf researchers suspect unseen oceanic disturbances, disease, or ecological distress are forcing deep-sea fauna to swim into shallow surf where they beach and die."
+   "answer": "The cause is unknown. Night elf researchers suspect ocean disturbances, disease, or ecological distress may drive deep-sea creatures into shallow surf, where they become stranded and die."
   },
   {
    "q": "Who is Gwennyth Bly'Leggonde?",
@@ -62,7 +62,7 @@
     "who is gwennyth",
     "who takes the bones in auberdine"
    ],
-   "answer": "Gwennyth Bly'Leggonde is a night elf researcher stationed in Auberdine. She collects skeletal specimens and biological samples from beached wildlife along Darkshore to send to Darnassus for detailed study."
+   "answer": "Gwennyth Bly'Leggonde is a night elf researcher in Auberdine. She collects bones and biological samples from beached wildlife along Darkshore for study in Darnassus."
   },
   {
    "q": "Where are the collected bones sent?",
@@ -70,7 +70,7 @@
     "where do bones go",
     "what does auberdine do with bones"
    ],
-   "answer": "After Gwennyth catalogs and preps the samples in Auberdine, they are dispatched to scholars and naturalists in the capital city of Darnassus for anatomical and magical investigation."
+   "answer": "The collected bones go to scholars and naturalists in Darnassus, where they are examined for anatomical and magical clues."
   },
   {
    "q": "Where is this carcass located?",
@@ -78,17 +78,17 @@
     "carcass location",
     "where is the beached sea creature"
    ],
-   "answer": "The carcass rests directly on the sandy shores of Mist's Edge, along Darkshore's western coastline."
+   "answer": "The carcass lies on the sandy shore of Mist's Edge, along Darkshore's western coast."
   }
  ],
  "angles": [
   {
    "target": "race:NightElf",
-   "text": "The strandings along Darkshore are a distressing sign of imbalance in the surrounding waters, prompting naturalists in Auberdine and Darnassus to investigate before more marine life perishes."
+   "text": "For night elves, the strandings along Darkshore signal trouble in the surrounding waters. Naturalists in Auberdine and Darnassus are investigating before more marine life perishes."
   },
   {
    "target": "class:Druid",
-   "text": "Druids committed to the preservation of natural harmony look upon the stranded leviathan as an alarming symptom of disturbance in the Veiled Sea's ecosystem."
+   "text": "As a druid, you may see the stranded giant as an alarming sign of disturbance in the Veiled Sea's natural balance."
   }
  ],
  "keywords": [
@@ -112,5 +112,6 @@
  ],
  "attribution": [
   "Beached Sea Creature (1)"
- ]
+ ],
+ "style": 1
 }

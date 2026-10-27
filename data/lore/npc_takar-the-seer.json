@@ -8,16 +8,16 @@
   "wiki": "Takar the Seer",
   "refs": 2
  },
- "summary": "Takar the Seer is an elusive human hermit encamped deep within the Barrens, east of Camp Taurajo. Despite sitting entirely within Horde-dominated territory, he maintains allegiance to the Alliance and assists certain travelers with esoteric occult knowledge.",
+ "summary": "East of Camp Taurajo, Takar the Seer keeps a lone camp in the Barrens. Though surrounded by Horde lands, he remains loyal to the Alliance and shares occult knowledge with certain travelers.",
  "sections": [
   {
    "title": "A Recluse in the Savannah",
-   "body": "Dwelling alone beneath a simple tent east of Camp Taurajo, Takar the Seer seems out of place amid the dry plains of the Barrens. Surrounding lands are watched constantly by tauren braves and orc patrols, yet Takar remains undisturbed in his remote clearing. Hostile to curious Horde interlopers but rarely eager to initiate violence, he keeps a sharp eye on the horizon and prefers solitude. His isolated existence suggests deliberate seclusion, far from the bustling politics of Stormwind.",
+   "body": "Takar the Seer lives alone beneath a simple tent east of Camp Taurajo. Tauren braves and orc patrols watch the surrounding Barrens, yet leave his remote clearing undisturbed. He distrusts curious Horde visitors but rarely starts a fight, keeping watch on the horizon and to himself. His camp lies far from Stormwind's politics.",
    "spoiler": 0
   },
   {
    "title": "Occult Counsel",
-   "body": "Though solitary, Takar is not entirely detached from the wider world. Initiates of darker arts\u2014particularly Alliance warlocks sent from the Eastern Kingdoms\u2014seek his cryptic guidance when attempting to bind dangerous otherworldly entities. His deep understanding of unseen forces and soulcraft makes his remote camp a vital, if perilous, pilgrimage site for practitioners looking to bind and command demons.",
+   "body": "Takar the Seer shares his knowledge with a few visitors from beyond his camp. Alliance warlocks who come from the Eastern Kingdoms seek his cryptic counsel when they try to bind dangerous beings from beyond this world. His understanding of hidden forces and the craft of souls draws these practitioners to his remote, perilous camp.",
    "spoiler": 0
   }
  ],
@@ -29,7 +29,7 @@
     "what is takar doing here",
     "takar backstory"
    ],
-   "answer": "Takar has never said why. He keeps a lone camp east of Camp Taurajo with no Alliance outpost anywhere near, and the warlocks who seek him out come for his knowledge of demons, not his story."
+   "answer": "Takar has never said why he lives alone. His camp lies east of Camp Taurajo, far from any Alliance outpost, and warlocks visit for his knowledge of demons rather than his story."
   },
   {
    "q": "Is Takar hostile to Horde players?",
@@ -38,7 +38,7 @@
     "can horde talk to takar",
     "takar horde reaction"
    ],
-   "answer": "Yes, Takar is aligned with the Alliance and will appear hostile to Horde adventurers. However, he is not overly aggressive and generally will not strike unless provoked or approached too closely."
+   "answer": "Yes. Takar is aligned with the Alliance, so Horde adventurers find him hostile. He rarely attacks unless provoked or approached too closely."
   },
   {
    "q": "What brings Alliance adventurers to his camp?",
@@ -47,17 +47,17 @@
     "why visit takar",
     "who talks to takar"
    ],
-   "answer": "Certain Alliance seekers, particularly warlocks pursuing binding rituals for powerful demons such as the Succubus, are directed to Takar. He provides cryptic instructions and insight into acquiring the reagents necessary to summon and dominate these entities."
+   "answer": "Alliance seekers, especially warlocks, come to Takar for guidance in binding powerful demons such as the Succubus. He offers cryptic instructions and insight into the reagents needed to summon and dominate them."
   }
  ],
  "angles": [
   {
    "target": "class:Warlock",
-   "text": "For Alliance warlocks, Takar is a vital contact in Kalimdor, guiding initiates through dangerous rites to summon and bind a succubus into their service."
+   "text": "As an Alliance warlock, you can turn to Takar in Kalimdor for guidance through the dangerous rites that summon and bind a succubus to your service."
   },
   {
    "target": "faction:Alliance",
-   "text": "Finding a friendly human face deep in the heart of the Horde's core territory provides a rare, albeit solitary, contact point in central Kalimdor."
+   "text": "As an Alliance traveler, you can find a friendly human far within Horde territory, though Takar keeps to his solitary camp in central Kalimdor."
   }
  ],
  "keywords": [
@@ -79,5 +79,6 @@
  ],
  "attribution": [
   "Takar the Seer"
- ]
+ ],
+ "style": 1
 }

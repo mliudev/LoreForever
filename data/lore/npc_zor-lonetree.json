@@ -8,11 +8,11 @@
   "wiki": "Zor Lonetree",
   "refs": 1
  },
- "summary": "Zor Lonetree is a knowledgeable orc advisor found within Grommash Hold in Orgrimmar. Well-versed in external affairs and Alliance politics, he aids the Horde by analyzing enemy artifacts and directing travelers to troubled regions across Kalimdor.",
+ "summary": "At Grommash Hold, Zor Lonetree studies the Horde’s concerns beyond Durotar. His knowledge of Alliance politics helps the court judge foreign affairs across Kalimdor.",
  "sections": [
   {
    "title": "Advisor in Grommash Hold",
-   "body": "Stationed within Grommash Hold alongside the Horde's high leadership, Zor Lonetree serves as a shrewd advisor who keeps a watchful eye on developments beyond Durotar. He possesses an unusually keen understanding of human and Alliance politics, making him an invaluable counselor when foreign curiosities or political threats reach the capital. From inspecting noble jewelry recovered from human settlements to monitoring disturbances among the land's spirits in Stonetalon Mountains, Lonetree ensures the warchief's court stays informed on matters both mundane and mystical.",
+   "body": "Zor Lonetree watches beyond Durotar from Grommash Hold. A shrewd advisor to the Horde’s high leadership, he has an unusually keen understanding of human and Alliance politics. When foreign curiosities reach Orgrimmar, he studies them; when trouble stirs among the land’s spirits, he directs travelers toward it. He has examined noble jewelry recovered from human settlements and followed disturbances among the spirits of the Stonetalon Mountains, keeping the warchief’s court informed on both political and spiritual matters.",
    "spoiler": 0
   }
  ],
@@ -24,7 +24,7 @@
     "who is zor",
     "zor orgrimmar"
    ],
-   "answer": "Zor Lonetree is an orc advisor stationed inside Grommash Hold in Orgrimmar. He is known for his intellect, understanding of Alliance political structures, and interest in Kalimdor's spiritual matters."
+   "answer": "Zor Lonetree advises the Horde from inside Grommash Hold in Orgrimmar. His keen grasp of Alliance politics and interest in Kalimdor’s spiritual matters make him a useful counselor."
   },
   {
    "q": "Where can I find Zor Lonetree?",
@@ -33,7 +33,7 @@
     "where is zor lonetree",
     "zor in orgrimmar"
    ],
-   "answer": "You can find him standing inside Grommash Hold, located in the Valley of Wisdom at the heart of Orgrimmar."
+   "answer": "You can find Zor Lonetree inside Grommash Hold, in the Valley of Wisdom at the heart of Orgrimmar."
   },
   {
    "q": "What tasks does Zor Lonetree give adventurers?",
@@ -41,7 +41,7 @@
     "zor lonetree quests",
     "the spirits of stonetalon zor"
    ],
-   "answer": "Zor Lonetree directs Horde champions to assist the spirits of Stonetalon Peak, dispatching travelers to soothe the elemental unrest in the Stonetalon Mountains. He also analyzes strange human relics brought to the capital by scouts."
+   "answer": "Zor Lonetree sends Horde champions to aid the spirits of Stonetalon Peak and soothe elemental unrest in the Stonetalon Mountains. He also analyzes strange human relics that scouts bring to the capital."
   },
   {
    "q": "Why is Zor Lonetree knowledgeable about the Alliance?",
@@ -49,17 +49,17 @@
     "zor lonetree alliance lore",
     "why does zor know alliance politics"
    ],
-   "answer": "Unlike many frontline warriors, Zor specializes in foreign affairs and statecraft. He studies human aristocratic customs and Alliance movements, allowing him to decipher noble signets, regalia, and tactical motives that other orcs might overlook."
+   "answer": "Zor Lonetree specializes in foreign affairs and statecraft. He studies human aristocratic customs and Alliance movements, helping him read noble signets, regalia, and tactical motives that other orcs might overlook."
   }
  ],
  "angles": [
   {
    "target": "faction:Horde",
-   "text": "For Horde scouts operating near human enclaves or disputed borderlands, Zor Lonetree serves as a vital contact in Orgrimmar for interpreting enemy intentions and relics."
+   "text": "As a Horde scout near human enclaves or disputed borders, you can turn to Zor Lonetree in Orgrimmar to interpret enemy intentions and relics."
   },
   {
    "target": "class:Shaman",
-   "text": "Shaman who heed the call of disturbed elemental forces will find common cause with Zor, who pays close attention to the suffering spirits of the Stonetalon Mountains."
+   "text": "As a shaman answering disturbed elemental forces, you share common cause with Zor Lonetree, who watches the suffering spirits of the Stonetalon Mountains."
   }
  ],
  "keywords": [
@@ -82,5 +82,6 @@
  ],
  "attribution": [
   "Zor Lonetree"
- ]
+ ],
+ "style": 1
 }

@@ -1,0 +1,103 @@
+{
+ "key": "quest:1264",
+ "type": "quest",
+ "name": "The Missing Diplomat",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   1264
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "A tavern regular points you toward Commander Samaul in Theramore. He may help you locate Hendel, a Kul Tiras Marine.",
+ "sections": [
+  {
+   "title": "A Lead in Theramore",
+   "body": "The tavern keeper believes Hendel is among the Kul Tiras Marines who regularly visit. They usually leave Theramore at the beginning of each month after being paid. Commander Samaul may know whether Hendel is still stationed there. Mention Elling's name when you speak with him, and Samaul may help discreetly.",
+   "spoiler": 0
+  },
+  {
+   "title": "Samaul's Warning",
+   "body": "Commander Samaul introduces himself as the officer in charge of Miss Proudmoore's forces in Theramore. He is busy, but offers to answer questions. He warns that the marsh beyond the city holds ogres, orcs, murlocs, and black dragons in its southern reaches.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Hendel?",
+   "aliases": [
+    "hendel",
+    "marine Hendel",
+    "who's Hendel"
+   ],
+   "answer": "Hendel is a Kul Tiras Marine who may be among the regular visitors to a tavern. The tavern keeper thinks Commander Samaul in Theramore may know whether he is still stationed there."
+  },
+  {
+   "q": "Who is Commander Samaul?",
+   "aliases": [
+    "Samaul",
+    "commander guy",
+    "Theramore commander"
+   ],
+   "answer": "Commander Samaul is in charge of Miss Proudmoore's forces in Theramore."
+  },
+  {
+   "q": "Why am I looking for Samaul?",
+   "aliases": [
+    "find Samaul",
+    "why Samaul",
+    "missing diplomat quest"
+   ],
+   "answer": "The tavern keeper believes Samaul may help you find Hendel if Hendel is still stationed in Theramore."
+  },
+  {
+   "q": "Who is Elling?",
+   "aliases": [
+    "Elling",
+    "drop Elling's name",
+    "Elling name"
+   ],
+   "answer": "The tavern keeper advises you to mention Elling's name to Commander Samaul when asking about Hendel."
+  },
+  {
+   "q": "When do the Kul Tiras Marines leave Theramore?",
+   "aliases": [
+    "Marines leave",
+    "payday",
+    "when do they go"
+   ],
+   "answer": "The Kul Tiras Marines are paid at the beginning of each month and usually leave Theramore afterward."
+  },
+  {
+   "q": "What dangers does Samaul mention?",
+   "aliases": [
+    "Theramore dangers",
+    "what's in the swamp",
+    "marsh threats"
+   ],
+   "answer": "Samaul warns of ogres, orcs, and murlocs outside the city, and black dragons in the southern part of the swamp."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "black dragons",
+  "commander samaul",
+  "dustwallow marsh",
+  "elling",
+  "hendel",
+  "kul tiras marines",
+  "miss proudmoore",
+  "theramore"
+ ],
+ "related": [
+  "zone:dustwallow",
+  "topic:kul-tiras",
+  "topic:murloc"
+ ],
+ "style": 1,
+ "attribution": [
+  "In-game quest text: The Missing Diplomat"
+ ]
+}

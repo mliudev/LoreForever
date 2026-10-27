@@ -23,16 +23,16 @@
    "Plundering the Plunderers"
   ]
  },
- "summary": "To Orgrimmar! is an introductory summons dispatching a developing Horde rogue from Razor Hill to the capital city. Acting on orders from Kaplak, the initiate is sent beneath the surface into the Cleft of Shadow to present themselves before Shenthul and deeper within the network of the Shattered Hand.",
+ "summary": "Kaplak sends a young rogue from Razor Hill to Orgrimmar. There, you are to find Shenthul in the Cleft of Shadow and enter the Shattered Hand's network.",
  "sections": [
   {
    "title": "A Summons to the Shadows",
-   "body": "After cutting their teeth across Durotar, novice rogues eventually catch the attention of more prominent handlers. In Razor Hill, Kaplak bluntly acknowledges that an operative's budding talents\u2014while unpolished\u2014have earned notice. Rather than remaining out among the red crags, the operative is directed north into the cavernous alleys of Orgrimmar.",
+   "body": "Kaplak sends you north from Razor Hill to Orgrimmar. Your budding skills have caught the notice of more prominent handlers, though they remain unpolished. The red crags of Durotar are behind you as you make for the capital.",
    "spoiler": 0
   },
   {
    "title": "Under Thrall's Watchful Eye",
-   "body": "Meeting Shenthul in the subterranean Cleft of Shadow reveals a deeper tension beneath the Horde's founding ideals. Shenthul makes no secret of his vigilance regarding Warchief Thrall's political reforms. For the Shattered Hand, brute force and open defiance will never suffice to safeguard their interests; survival and influence require patience, subterfuge, and refined deception.",
+   "body": "Shenthul receives you in the Cleft of Shadow beneath Orgrimmar. He watches Warchief Thrall's political reforms with unease. The Shattered Hand cannot protect its interests through brute force or open defiance alone; it depends on patience, subterfuge, and deception to survive and preserve its influence.",
    "spoiler": 1
   }
  ],
@@ -44,7 +44,7 @@
     "who gives to orgrimmar",
     "kaplak quest"
    ],
-   "answer": "Kaplak, a rogue trainer stationed in Razor Hill, delivers the summons after determining that your skills have caught the attention of superiors in Orgrimmar."
+   "answer": "Kaplak, a rogue trainer in Razor Hill, sends you after your skills catch the attention of superiors in Orgrimmar."
   },
   {
    "q": "Where do I find Shenthul?",
@@ -53,7 +53,7 @@
     "where is shenthul",
     "cleft of shadow shenthul"
    ],
-   "answer": "Shenthul is located in the Cleft of Shadow, the shadowy underground district carved deep beneath Orgrimmar where rogues, warlocks, and other outcasts gather."
+   "answer": "You find Shenthul in the Cleft of Shadow, an underground district beneath Orgrimmar where rogues, warlocks, and other outcasts gather."
   },
   {
    "q": "What is the Shattered Hand's agenda in Orgrimmar?",
@@ -62,7 +62,7 @@
     "why shattered hand in orgrimmar",
     "shattered hand thrall"
    ],
-   "answer": "The Shattered Hand operates as an intelligence and assassination guild within the Horde. While nominally part of the new capital, leaders like Shenthul remain wary of Thrall's honorable reforms and emphasize stealth to maintain leverage and survival."
+   "answer": "The Shattered Hand is an intelligence and assassination guild within the Horde. Shenthul is wary of Thrall's honorable reforms, and the guild relies on stealth to preserve its influence and survive."
   },
   {
    "q": "Why am I being sent specifically at this stage?",
@@ -71,7 +71,7 @@
     "why go to orgrimmar now",
     "rogue training summons"
    ],
-   "answer": "Novice operatives who prove capable in basic reconnaissance and skirmishes are drawn into more formal guild duties, beginning with lockpicking and covert fieldwork assigned in the capital."
+   "answer": "Your basic reconnaissance and skirmishes have shown you are capable, so you are being drawn into more formal guild duties. These begin with lockpicking and covert fieldwork in the capital."
   },
   {
    "q": "Does this quest differ from 'Find the Shattered Hand'?",
@@ -79,7 +79,7 @@
     "find the shattered hand vs to orgrimmar",
     "alternate breadcrumb quest"
    ],
-   "answer": "Both serve as introductory breadcrumbs leading rogues to Shenthul in Orgrimmar; depending on where you train or take orders, you receive one or the other to advance the same training chain."
+   "answer": "Both lead rogues to Shenthul in Orgrimmar. Which one you receive depends on where you train or take orders, and each advances the same training chain."
   },
   {
    "q": "What happens after reporting to Shenthul?",
@@ -87,17 +87,17 @@
     "next quest after to orgrimmar",
     "what does shenthul give"
    ],
-   "answer": "Shenthul tests your competence and directs you further down the chain, introducing contacts such as Zando'zan and eventually covert work involving goblin contacts in Ratchet."
+   "answer": "Shenthul tests your competence and sends you further along the chain. You meet contacts such as Zando'zan, then take on covert work involving goblin contacts in Ratchet."
   }
  ],
  "angles": [
   {
    "target": "class:Rogue",
-   "text": "This mission marks your formal induction into the capital's covert network, moving you beyond crude frontier scuffles into the craft of poisons, thievery, and deception overseen by Shenthul."
+   "text": "As a rogue, you are entering the capital's covert network under Shenthul's watch. The work turns to poisons, thievery, and deception beyond the frontier skirmishes."
   },
   {
    "target": "faction:Horde",
-   "text": "The quiet discontent voiced by Shenthul highlights the friction between Thrall's honorable new path and the shadowy remnants of older clan organizations surviving beneath Orgrimmar."
+   "text": "As a member of the Horde, you hear the friction between Thrall's honorable new path and the older clan organizations that survive beneath Orgrimmar."
   }
  ],
  "keywords": [
@@ -121,5 +121,6 @@
  ],
  "attribution": [
   "To Orgrimmar!"
- ]
+ ],
+ "style": 1
 }

@@ -17,21 +17,21 @@
   "wiki": "Beached Sea Turtle (2)",
   "chain": []
  },
- "summary": "Along the surf of Darkshore lies the carcass of a massive sea turtle, fitted with a broken carriage and swarming with opportunistic Greymist murlocs. Unlike other dead leviathans on the coast, this creature was harnessed as a beast of burden by the serpent-like naga before dying on the sand.",
+ "summary": "Along Darkshore's shore, Beached Sea Turtle lies with a broken carriage on its shell. Greymist murlocs have gathered around the great carcass.",
  "sections": [
   {
    "title": "A Beast in Harness",
-   "body": "The mist-shrouded shores of Darkshore are troubled by an alarming number of stranded sea giants, but this particular sea turtle tells a far more sinister story. Strapped across the creature's colossal carapace sits a dilapidated carriage, abandoned and decaying in the tide. Rather than dying of sickness or natural exhaustion like other beached creatures, this giant was pressed into service and driven onto the coast by intelligent handlers.",
+   "body": "You find a broken carriage strapped across a giant sea turtle's shell on Darkshore's misty shore. Many sea creatures have washed up along this coast, but this turtle was made to carry a load. Its handlers drove it onto the beach, and the carriage now lies abandoned in the tide.",
    "spoiler": 0
   },
   {
    "title": "Scavengers of the Shallows",
-   "body": "The carcass did not remain quiet for long. Local Greymist murlocs quickly swarmed the remains, carving out a den amidst the rotting meat and scavenged timber. Amidst the murlocs' refuse and the broken chassis of the sea carriage rests an intact, curiously marked container, left behind by the beast's original masters.",
+   "body": "Greymist murlocs soon swarm the turtle's remains. They have made a den among the rotting meat and scavenged timber. A marked container lies among their refuse and the broken carriage frame, left by the turtle's former masters.",
    "spoiler": 0
   },
   {
    "title": "Naga Supply Lines",
-   "body": "Upon delivering the strangely marked container to Gwennyth Bly'Leggonde in Auberdine, the grim reality comes into focus. The container bears naga markings, and the harness matches the supply carriages used by the serpent folk to ferry weapons and war material from the oceanic depths. The dead turtle is direct proof of the naga staging incursions into northern Darkshore, and the recovered artifact is hurried off to Darnassus for further study.",
+   "body": "After you bring the marked container to Gwennyth Bly'Leggonde in Auberdine, its naga markings reveal the truth. The harness matches the supply carriages the naga use to carry weapons and war material from the ocean depths. The turtle's remains show that the naga are making incursions into northern Darkshore. The recovered container is sent to Darnassus for study.",
    "spoiler": 1
   }
  ],
@@ -43,7 +43,7 @@
     "why carriage on turtle",
     "harnessed turtle"
    ],
-   "answer": "The carriage belonged to the naga, who harness giant sea turtles as pack animals and siege beasts. They use these carriages to transport supplies and weapons from the depths up onto the Darkshore coastline."
+   "answer": "The naga harness giant sea turtles as pack animals and siege beasts. Their carriages carry supplies and weapons from the depths to Darkshore's coast."
   },
   {
    "q": "What is inside the carriage?",
@@ -52,7 +52,7 @@
     "strangely marked box",
     "box in turtle carriage"
    ],
-   "answer": "Within the ruins of the abandoned carriage lies a strangely marked box. Its runes identify it as naga property, prompting the scholars in Auberdine to send it along to Darnassus for official scrutiny."
+   "answer": "A strangely marked box lies in the broken carriage. Its runes mark it as naga property, and scholars in Auberdine send it to Darnassus for scrutiny."
   },
   {
    "q": "Why are murlocs gathered around the turtle?",
@@ -61,7 +61,7 @@
     "greymist murlocs turtle",
     "why murlocs eating turtle"
    ],
-   "answer": "Greymist murlocs inhabit the coastline and regularly scavenge shipwrecks and beached carcasses. They have claimed the giant turtle's remains as a food source and nest."
+   "answer": "Greymist murlocs live along the coast and scavenge shipwrecks and beached carcasses. They have claimed the turtle's remains for food and a den."
   },
   {
    "q": "Who studies the beached creatures in Darkshore?",
@@ -70,7 +70,7 @@
     "auberdine researcher",
     "gwennyth bly'leggonde role"
    ],
-   "answer": "Gwennyth Bly'Leggonde in Auberdine oversees the investigation into the wave of beached sea creatures, cataloging relics and strange materials found upon their remains."
+   "answer": "Gwennyth Bly'Leggonde in Auberdine oversees the investigation into the beached sea creatures. She catalogs the relics and strange materials found among their remains."
   },
   {
    "q": "How does this turtle differ from other beached creatures along Darkshore?",
@@ -79,7 +79,7 @@
     "why this turtle different",
     "turtle mystery darkshore"
    ],
-   "answer": "While many other creatures wash ashore due to illness, corruption, or oceanic distress, this turtle was clearly domesticated, saddled with heavy cargo gear, and driven to the beach deliberately by the naga."
+   "answer": "Unlike many creatures that wash ashore sick or distressed, this turtle was harnessed to carry cargo. The naga drove it onto the beach."
   },
   {
    "q": "What happens to the marked box after Auberdine?",
@@ -88,17 +88,17 @@
     "box sent to darnassus",
     "what does auberdine do with box"
    ],
-   "answer": "Gwennyth Bly'Leggonde logs the discovery in Auberdine and sends the naga box up to Darnassus, where elven leadership analyzes the growing threat along their northern borders."
+   "answer": "Gwennyth Bly'Leggonde records the discovery in Auberdine and sends the naga box to Darnassus. Elven leaders there study the growing threat along their northern borders."
   }
  ],
  "angles": [
   {
    "target": "race:NightElf",
-   "text": "The presence of naga supply beasts washing up on Darkshore confirms that the ancestral enemies of the kaldorei are actively reinforcing beachheads uncomfortably close to Darnassus."
+   "text": "As a night elf, you can see that naga supply beasts are washing up on Darkshore. Your ancestral enemies are reinforcing beachheads close to Darnassus."
   },
   {
    "target": "faction:Alliance",
-   "text": "Investigating beached creatures provides crucial intelligence for Auberdine's sentinels, tracking both murloc infestations and the rise of organized naga raiding parties."
+   "text": "As an Alliance member, you help Auberdine's sentinels learn from beached creatures. Their findings track murloc infestations and organized naga raiding parties."
   }
  ],
  "keywords": [
@@ -123,5 +123,6 @@
  ],
  "attribution": [
   "Beached Sea Turtle (2)"
- ]
+ ],
+ "style": 1
 }

@@ -10,11 +10,11 @@
    "quest:3086"
   ]
  },
- "summary": "The Glyphic Tablet is an inscribed slate handed to novice Darkspear troll mages upon beginning their trials in Durotar. Delivered through the overseer Gornek, it directs fledgling spellcasters to seek tutelage from the troll mage trainer, Mai'ah.",
+ "summary": "In the Valley of Trials, Gornek gives the Glyphic Tablet to novice Darkspear troll mages. Its summons sends them to Mai'ah for instruction in arcane magic.",
  "sections": [
   {
    "title": "A Mage's First Summons",
-   "body": "In the Valley of Trials, new Darkspear troll initiates exhibiting an affinity for arcane power are presented with the Glyphic Tablet. Passed along by Gornek while young recruits handle early tasks around the red canyons, the tablet contains an invitation from Mai'ah, a seasoned troll mage posted outside the Den. For the Darkspear, whose arcane traditions diverge from the scholarly academies of humans or high elves, the tablet serves as a formal call to discipline. Mai'ah uses the meeting to offer both arcane instruction and a solemn warning: raw magic is corruptive, deceptive, and far more hazardous to a practitioner's mind than any enemy soldier.",
+   "body": "New Darkspear initiates with an affinity for arcane power receive the Glyphic Tablet in the Valley of Trials. Gornek passes it to young recruits as they handle early tasks around the red canyons. On the slate, Mai'ah, a seasoned troll mage outside the Den, invites them to meet her. The Darkspear follow arcane traditions unlike the scholarly academies of humans or high elves. Mai'ah offers instruction and a solemn warning: raw magic corrupts and deceives, and its dangers to a mage's mind exceed those of any enemy soldier.",
    "spoiler": 0
   }
  ],
@@ -26,7 +26,7 @@
     "glyphic tablet use",
     "why do i have glyphic tablet"
    ],
-   "answer": "It serves as a written summons directing a novice troll mage to report to Mai'ah, the local mage trainer in the Valley of Trials, to commence proper spellcasting training."
+   "answer": "The Glyphic Tablet summons a novice troll mage to Mai'ah in the Valley of Trials for proper spellcasting training."
   },
   {
    "q": "Who sends the Glyphic Tablet?",
@@ -34,7 +34,7 @@
     "who wrote glyphic tablet",
     "who gave me glyphic tablet"
    ],
-   "answer": "The tablet is authored by the mage trainer Mai'ah and handed to young troll recruits by Gornek within the Valley of Trials."
+   "answer": "Mai'ah writes the tablet, and Gornek hands it to young troll recruits in the Valley of Trials."
   },
   {
    "q": "Why do troll mages need a warning about magic?",
@@ -42,7 +42,7 @@
     "what does mai'ah say",
     "is magic dangerous"
    ],
-   "answer": "Mai'ah stresses that arcane magic is inherently corruptive. She warns that it feeds arrogance and makes spellcasters believe they are invincible, cautioning that the unseen dangers of the arcane are far deadlier than physical rivals."
+   "answer": "Mai'ah warns that arcane magic corrupts, feeds arrogance, and can make spellcasters feel invincible. Its unseen dangers are deadlier than physical rivals."
   },
   {
    "q": "Can other Horde races receive this tablet?",
@@ -50,17 +50,17 @@
     "can orcs get glyphic tablet",
     "is glyphic tablet troll only"
    ],
-   "answer": "Troll mages receive the Glyphic Tablet in the Valley of Trials. Orc mages are summoned to Mai'ah by a Glyphic Parchment instead."
+   "answer": "Troll mages receive the Glyphic Tablet in the Valley of Trials. Orc mages receive a Glyphic Parchment summoning them to Mai'ah."
   }
  ],
  "angles": [
   {
    "target": "class:Mage",
-   "text": "The tablet marks the start of your arcane instruction among the Darkspear, carrying a reminder from Mai'ah that the corrupting allure of magic is your greatest peril."
+   "text": "As a mage, you begin your Darkspear arcane instruction with Mai'ah's warning that magic's corrupting allure is your greatest peril."
   },
   {
    "target": "race:Troll",
-   "text": "Darkspear mages receive this tablet to begin their path alongside traditional shamanic and martial ways."
+   "text": "As a Darkspear troll, you receive this tablet to begin your path alongside traditional shamanic and martial ways."
   }
  ],
  "keywords": [
@@ -85,5 +85,6 @@
  "attribution": [
   "Glyphic Tablet",
   "Glyphic Tablet (quest)"
- ]
+ ],
+ "style": 1
 }

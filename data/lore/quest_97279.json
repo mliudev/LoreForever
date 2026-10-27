@@ -17,16 +17,16 @@
   "wiki": "Wayward Weapons",
   "chain": []
  },
- "summary": "Wayward Weapons is an early training task in the Valley of Trials, issued by the overseer Gornek. With young warriors arriving in droves to serve the Horde, armaments are running thin. To prove their discipline and support the encampment, recruits scour the scrubland to salvage gear abandoned by less capable predecessors.",
+ "summary": "At the Valley of Trials, Gornek sends new recruits to recover weapons for the encampment. With young warriors arriving to serve the Horde, supplies run thin, and the weaponsmith needs old arms returned to use.",
  "sections": [
   {
    "title": "Arming the New Blood",
-   "body": "The Valley of Trials is the forge where raw recruits are tested against the harsh red wastes of Durotar. With countless aspirants stepping forward to pledge their blades to the warchief, the encampment's weapon stocks are strained to their limit. Weaponsmith Kzan Thornslash struggles to keep pace with demand, especially when early lessons prove fatal or humiliating for the unready.",
+   "body": "New recruits face harsh trials in Durotar's red wastes. Many arrive ready to pledge their blades to the warchief, straining the encampment's weapon stocks. Weaponsmith Kzan Thornslash struggles to meet demand, especially when early lessons prove fatal or humiliating for the unready.",
    "spoiler": 0
   },
   {
    "title": "A Test of Resourcefulness",
-   "body": "Overseer Gornek turns this shortage into a practical trial. Rather than wasting new metal, he directs fresh arrivals to recover the abandoned blades and blunt training weapons left behind by failed recruits who fell or fled in the dust. Delivering these recovered arms to Kzan allows the smith to repair and temper them for the next wave, teaching novitiates that survival in the Horde demands scavenging as well as swinging steel.",
+   "body": "Overseer Gornek makes the shortage a practical trial. He sends fresh arrivals to recover abandoned blades and blunt training weapons left by recruits who fell or fled. Bring the recovered arms to Kzan, and he can repair and temper them for the next wave. New recruits learn that survival in the Horde calls for scavenging as well as swinging steel.",
    "spoiler": 0
   }
  ],
@@ -38,7 +38,7 @@
     "abandoned weapons durotar",
     "failed recruits weapons"
    ],
-   "answer": "Not every hopeful who steps into the Valley of Trials possesses the strength or resolve required by the Horde. Faint-hearted or careless recruits routinely drop their gear in panic or fall to the local boars and scorpids, leaving their issued armaments scattered across the dirt."
+   "answer": "Some recruits lack the strength or resolve the Horde demands. Careless or frightened newcomers leave their gear behind, while others fall to local boars and scorpids, scattering their issued arms across the dirt."
   },
   {
    "q": "Who is Kzan Thornslash?",
@@ -47,7 +47,7 @@
     "who is kzan",
     "weaponsmith kzan"
    ],
-   "answer": "Kzan Thornslash is the resident weaponsmith stationed inside the Den in the Valley of Trials. He is responsible for outfitting new recruits, repairing battered training gear, and maintaining the Horde's martial supplies in the starting valley."
+   "answer": "Kzan Thornslash is the weaponsmith inside the Den in the Valley of Trials. He outfits new recruits, repairs battered training gear, and maintains the Horde's martial supplies in the starting valley."
   },
   {
    "q": "Who issues this task?",
@@ -55,7 +55,7 @@
     "who gives wayward weapons",
     "gornek quest"
    ],
-   "answer": "Gornek, the overseer standing outside the Den, assigns this task. He watches over incoming aspirants, judging their basic potential and dispatching them to handle immediate needs around the trial grounds."
+   "answer": "Gornek, the overseer outside the Den, sends new recruits to help. He watches incoming aspirants, judges their basic potential, and assigns them immediate needs around the trial grounds."
   },
   {
    "q": "What will Kzan do with these salvaged weapons?",
@@ -63,7 +63,7 @@
     "what happens to the training weapons",
     "repairing weapons kzan"
    ],
-   "answer": "Kzan repairs, sharpens, and restores the battered practice weapons. Because resources in Durotar are sparse and recruits arrive constantly, salvaged iron and wood must be reused to train the next wave."
+   "answer": "Kzan repairs, sharpens, and restores the battered practice weapons. With resources in Durotar sparse and recruits arriving constantly, salvaged iron and wood are reused to train the next wave."
   },
   {
    "q": "Where is this quest taking place?",
@@ -71,7 +71,7 @@
     "valley of trials location",
     "where is wayward weapons"
    ],
-   "answer": "It takes place in the Valley of Trials, an isolated canyon in southern Durotar where young orcs and Darkspear trolls begin their path as warriors for the Horde."
+   "answer": "You are in the Valley of Trials, an isolated canyon in southern Durotar where young orcs and Darkspear trolls begin their path as warriors for the Horde."
   },
   {
    "q": "Why doesn't the Horde just forge entirely new weapons?",
@@ -79,21 +79,21 @@
     "why salvage weapons",
     "durotar metal shortage"
    ],
-   "answer": "Durotar is a rugged, arid land with limited easily accessible iron deposits, and the young Horde cannot afford waste. Recycling practice blades from washouts ensures that raw metal is conserved for frontline troops."
+   "answer": "Durotar is rugged and arid, with few easily reached iron deposits, and the young Horde cannot afford waste. Reusing practice blades from washouts saves raw metal for frontline troops."
   }
  ],
  "angles": [
   {
    "target": "profession:Blacksmithing",
-   "text": "Every scrap of metal counts in Durotar. Helping Kzan recover ruined gear reflects the smith's duty to reclaim iron and rework battered edges into usable tools of war."
+   "text": "In Durotar, every scrap of metal counts. As a blacksmith, you help reclaim ruined gear and rework battered edges into tools of war."
   },
   {
    "target": "class:Warrior",
-   "text": "Respecting weapons is foundational for any warrior. Recovering the arms tossed aside by failed recruits emphasizes discipline and self-reliance before true combat even begins."
+   "text": "As a warrior, you learn to respect your weapons. Recovering arms left by failed recruits calls for discipline and self-reliance before combat begins."
   },
   {
    "target": "faction:Horde",
-   "text": "The Horde endures in Durotar through grit and resourcefulness, refusing to squander arms even when discarded by those unfit to carry them."
+   "text": "As a member of the Horde, you endure in Durotar through grit and resourcefulness, saving weapons even when those unfit to carry them cast them aside."
   }
  ],
  "keywords": [
@@ -114,5 +114,6 @@
  ],
  "attribution": [
   "Wayward Weapons"
- ]
+ ],
+ "style": 1
 }

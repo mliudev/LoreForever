@@ -1,0 +1,105 @@
+{
+ "key": "quest:1250",
+ "type": "quest",
+ "name": "The Missing Diplomat",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   1250
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "Jahn, a Defias conspirator, says the king of Stormwind was taken from his ship. You are sent to Mikhail in the Wetlands as the search for the king's kidnappers continues.",
+ "sections": [
+  {
+   "title": "A Witness Speaks",
+   "body": "Jahn says the Defias put a man named Hendel aboard the king's ship while it was moored. The king was bound for Theramore to meet Jaina Proudmoore, and Jahn believes the Defias worked with someone else. You are asked to speak with Mikhail in the Wetlands as the search for Hendel begins.",
+   "spoiler": 0
+  },
+  {
+   "title": "Mikhail's Response",
+   "body": "Mikhail is startled to learn the king is missing and sends word to Elling. He says he never expected Jahn to betray Stormwind for coin, and offers help finding Hendel.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Jahn?",
+   "aliases": [
+    "jahn who",
+    "who is jahn",
+    "defias jahn"
+   ],
+   "answer": "Jahn is a Defias conspirator who helped put Hendel aboard the king's ship."
+  },
+  {
+   "q": "Who is Hendel?",
+   "aliases": [
+    "hendel guy",
+    "who's hendel",
+    "king ship man"
+   ],
+   "answer": "Hendel is the man Jahn says he placed aboard the king's ship."
+  },
+  {
+   "q": "What happened to the king?",
+   "aliases": [
+    "where king",
+    "stormwind king missing",
+    "king kidnapped"
+   ],
+   "answer": "Jahn says the Defias took the king from his ship while it was moored."
+  },
+  {
+   "q": "Why was the king going to Theramore?",
+   "aliases": [
+    "king theramore",
+    "jaina meeting",
+    "why theramore"
+   ],
+   "answer": "The king was on his way to meet Jaina Proudmoore in Theramore."
+  },
+  {
+   "q": "Who does Jahn say is involved besides the Defias?",
+   "aliases": [
+    "who working with defias",
+    "defias partner",
+    "who else involved"
+   ],
+   "answer": "Jahn believes the Defias were working with someone else, but says he does not know who."
+  },
+  {
+   "q": "Who is Mikhail?",
+   "aliases": [
+    "mikhail wetlands",
+    "who mikhail",
+    "talk to mikhail"
+   ],
+   "answer": "Mikhail is the person you are asked to speak with in the Wetlands; he offers help finding Hendel."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "defias",
+  "hendel",
+  "jahn",
+  "jaina proudmoore",
+  "mikhail",
+  "stormwind king",
+  "the missing diplomat",
+  "theramore",
+  "wetlands"
+ ],
+ "related": [
+  "zone:wetlands",
+  "npc:jaina-proudmoore",
+  "topic:stormwind-kingdom",
+  "topic:rogue"
+ ],
+ "style": 1,
+ "attribution": [
+  "In-game quest text: The Missing Diplomat"
+ ]
+}

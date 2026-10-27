@@ -20,16 +20,16 @@
    "Garments of the Moon"
   ]
  },
- "summary": "Garments of the Moon is an introductory rite of service for young night elf priests in Dolanaar. Assigned by priest trainer Laurna Morninglight, it tasks an initiate with tending to Sentinel Shaya, a wounded defender patrolling the woods south of the settlement. Fulfilling this duty marks an initiate's formal recognition within the Sisterhood of Elune.",
+ "summary": "Laurna Morninglight sends a young priest to aid a wounded Sentinel south of Dolanaar. The duty tests an initiate's devotion and brings formal recognition in the Sisterhood of Elune.",
  "sections": [
   {
    "title": "A Sacred Calling",
-   "body": "Within the boughs of Teldrassil, the Sisterhood of Elune tends both to the spiritual life of the kaldorei and the practical defense of their borders. When Sentinel Shaya is wounded while patrolling the dangerous wilderness south of Dolanaar, priest trainer Laurna Morninglight cannot abandon her post to render aid. Instead, she charges a newly trained initiate with proving their devotion by mending Shaya's wounds and bolstering her constitution with protective magic.",
+   "body": "The Sisterhood of Elune guides kaldorei in worship and helps defend Teldrassil's borders. Sentinel Shaya is wounded while patrolling the wilderness south of Dolanaar, and priest trainer Laurna Morninglight cannot leave her post to help. She asks a newly trained initiate to tend Shaya's wounds and strengthen her with protective magic.",
    "spoiler": 0
   },
   {
    "title": "Vestments of the Sisterhood",
-   "body": "Priests who restore Sentinel Shaya's vigor return to Dolanaar to receive their formal robes of office. These garments signify that the young acolyte has moved beyond mere classroom instruction to practical, lifesaving service under the moon's grace. In kaldorei society, supporting the Sentinels is not merely a military task; it is an act of communion with Elune and an essential duty to the safety of Teldrassil.",
+   "body": "After restoring Sentinel Shaya's vigor, a priest returns to Dolanaar to receive formal robes of office from Laurna Morninglight. The robes mark an acolyte's passage from classroom instruction to practical service that can save lives. For the kaldorei, aiding the Sentinels is both service to Elune and a duty to Teldrassil's safety.",
    "spoiler": 0
   }
  ],
@@ -41,7 +41,7 @@
     "where to start garments of the moon",
     "garments of the moon questgiver"
    ],
-   "answer": "The quest is offered by Laurna Morninglight, the priest trainer residing in the northern building of Dolanaar on Teldrassil."
+   "answer": "Laurna Morninglight, the priest trainer in Dolanaar's northern building, offers Garments of the Moon."
   },
   {
    "q": "Who needs help during this task?",
@@ -50,7 +50,7 @@
     "injured sentinel location",
     "where is sentinel shaya"
    ],
-   "answer": "Sentinel Shaya, a night elf guardian who was wounded while patrolling the wilderness, is stationed just south of Dolanaar awaiting aid."
+   "answer": "Sentinel Shaya needs help. Wounded while patrolling the wilderness, she waits just south of Dolanaar."
   },
   {
    "q": "What magic is required to help Sentinel Shaya?",
@@ -59,7 +59,7 @@
     "how to complete garments of the moon",
     "shaya objective"
    ],
-   "answer": "You must use healing magic to close Sentinel Shaya's wounds and cast protective wards to fortify her endurance before returning to Dolanaar."
+   "answer": "You use healing magic to tend Sentinel Shaya's wounds and protective wards to strengthen her before returning to Dolanaar."
   },
   {
    "q": "Can any class take this quest?",
@@ -68,7 +68,7 @@
     "garments of the moon class requirement",
     "can druids do garments of the moon"
    ],
-   "answer": "No. Garments of the Moon is exclusively offered to night elf priests as an early milestone in their spiritual training."
+   "answer": "No. Only night elf priests can receive Garments of the Moon, an early milestone in their spiritual training."
   },
   {
    "q": "What does the robe reward symbolize?",
@@ -77,7 +77,7 @@
     "robe reward lore",
     "significance of garments of the moon"
    ],
-   "answer": "The robe awarded by Laurna Morninglight serves as a token of initiation, signifying that you have dutifully served Elune and earned a recognized place among the local priesthood."
+   "answer": "The robe awarded by Laurna Morninglight marks your service to Elune and your recognized place among the local priesthood."
   },
   {
    "q": "What is the relationship between this quest and In Favor of Elune?",
@@ -86,17 +86,17 @@
     "in favor of elune missed",
     "order of dolanaar priest quests"
    ],
-   "answer": "In Favor of Elune serves as an introductory summons to visit the trainer in Dolanaar. While not strictly required to receive Garments of the Moon, it cannot be completed once Garments of the Moon is finished."
+   "answer": "In Favor of Elune is an introductory summons to visit the trainer in Dolanaar. It is not required for Garments of the Moon, but cannot be completed after Garments of the Moon is finished."
   }
  ],
  "angles": [
   {
    "target": "class:Priest",
-   "text": "This rite demonstrates the twin pillars of the priesthood: restoring wounded allies through restorative prayer and protecting them against future danger with divine wards."
+   "text": "As a priest, you restore wounded allies through prayer and shield them from danger with divine wards."
   },
   {
    "target": "race:NightElf",
-   "text": "For the kaldorei, the Sisterhood of Elune and the Sentinels have worked hand in hand for millennia to protect the forests and people from encroaching darkness."
+   "text": "As a kaldorei, you belong to a people whose Sisterhood of Elune and Sentinels have worked together for millennia to protect the forests and their people from encroaching darkness."
   }
  ],
  "keywords": [
@@ -120,5 +120,6 @@
  ],
  "attribution": [
   "Garments of the Moon"
- ]
+ ],
+ "style": 1
 }

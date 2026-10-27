@@ -21,16 +21,16 @@
    "Chen's Empty Keg (3)"
   ]
  },
- "summary": "This quest continues the legendary lineage of pandaren brewing in the Barrens. Brewmaster Drohn in Ratchet offers to recreate Chen Stormstout's renowned, potent concoction if you gather wild ingredients from the native beasts roaming the savannah.",
+ "summary": "In Ratchet, Brewmaster Drohn hopes to revive Chen Stormstout's potent brew with wild ingredients from the Barrens.",
  "sections": [
   {
    "title": "A Legacy in a Keg",
-   "body": "When a discarded keg marked with pandaren writing winds up in the hands of Brewmaster Drohn in Ratchet, it evokes fond memories of the legendary wanderer Chen Stormstout. Chen passed the secrets of his namesake brew to Drohn's mentor, who in turn entrusted them to Drohn. Though unusual to non-brewers, the recipe calls for raw, potent elements taken straight from the fierce wildlife of the Barrens.",
+   "body": "A marked keg brings Chen Stormstout to mind for Brewmaster Drohn in Ratchet. Chen passed the secrets of his namesake brew to Drohn's mentor, who entrusted them to Drohn. The recipe calls for raw, potent elements taken straight from the Barrens' fierce wildlife, an unusual choice to those outside the brewing trade.",
    "spoiler": 0
   },
   {
    "title": "Harvesting the Savannah",
-   "body": "Brewing Chen's potent draught requires an unorthodox array of components: plainstrider kidneys, savannah lion tusks, and the horn of a thunder lizard. Sourcing these items demands hunting across the dusty plains, proving that only the most resilient beasts can supply the kick required for true pandaren-style brewing. Once gathered, Drohn is filled with nostalgia, remarking that reviving the old formula warms his stomach almost as much as his past batches of trogg brew.",
+   "body": "To revive Chen's potent draught, you gather plainstrider kidneys, savannah lion tusks, and a thunder lizard horn. The ingredients must come from resilient beasts, so the hunt leads across the dusty plains. When you bring them to Drohn, he fondly recalls earlier batches of trogg brew. Reviving the old formula warms his stomach almost as much as those past brews.",
    "spoiler": 1
   }
  ],
@@ -42,7 +42,7 @@
     "who is drohn",
     "drohn ratchet"
    ],
-   "answer": "Brewmaster Drohn is an orc brewmaster stationed in the port town of Ratchet. He learned the art of brewing from a mentor who personally received recipes from the legendary wanderer Chen Stormstout."
+   "answer": "Brewmaster Drohn is an orc brewmaster in Ratchet, the port town. His mentor received recipes from the wandering Chen Stormstout and passed the brewing art on to Drohn."
   },
   {
    "q": "Why does a beer recipe require animal kidneys and horns?",
@@ -51,7 +51,7 @@
     "plainstrider kidneys brew",
     "lion tusks beer"
    ],
-   "answer": "Pandaren brewing traditions\u2014and the adaptations made by rough frontier brewmasters\u2014often rely on powerful, esoteric ingredients from local wildlife to impart vigor, kick, and distinct natural essences into their potent draughts."
+   "answer": "Pandaren brewing traditions and frontier adaptations use powerful, esoteric ingredients from local wildlife. They lend vigor, kick, and distinct natural essences to potent draughts."
   },
   {
    "q": "Where can the required ingredients be found?",
@@ -60,7 +60,7 @@
     "where are thunder lizards",
     "finding brew ingredients"
    ],
-   "answer": "All three components are harvested from the indigenous fauna of the Barrens. Plainstriders and savannah lions wander the open grasslands, while thunder lizards can typically be found grazing in more arid or rocky stretches of the plains."
+   "answer": "Plainstriders and savannah lions roam the Barrens' open grasslands. Thunder lizards graze in its more arid or rocky stretches."
   },
   {
    "q": "Who was Chen Stormstout?",
@@ -69,7 +69,7 @@
     "chen stormstout lore",
     "chen"
    ],
-   "answer": "Chen Stormstout is a wandering pandaren brewmaster who traveled across Kalimdor during the founding of Durotar, aiding the Horde while searching for exotic, rare ingredients to perfect his potent beers."
+   "answer": "Chen Stormstout is a wandering pandaren brewmaster who traveled across Kalimdor during the founding of Durotar. He aided the Horde while seeking rare, exotic ingredients to perfect his potent beers."
   },
   {
    "q": "What happens after bringing the ingredients to Drohn?",
@@ -78,7 +78,7 @@
     "drohn reward",
     "whats next"
    ],
-   "answer": "Delivering the lion tusks, plainstrider kidneys, and thunder lizard horn delights Drohn, reminding him of earlier brewing days and leading directly into the final phase of recreating the legendary draught."
+   "answer": "When you bring Drohn the lion tusks, plainstrider kidneys, and thunder lizard horn, he is delighted. The ingredients recall his earlier brewing days and lead into the final phase of recreating the draught."
   },
   {
    "q": "What is the trogg brew Drohn mentions?",
@@ -87,21 +87,21 @@
     "drohn trogg brew",
     "trogg beer"
    ],
-   "answer": "Drohn fondly recalls an earlier concoction known as trogg brew upon seeing the wild ingredients, a testament to his eccentric history of fermenting harsh, unusual concoctions in the frontier."
+   "answer": "Drohn fondly recalls trogg brew when he sees the wild ingredients. His recollection shows his eccentric history of fermenting harsh, unusual concoctions on the frontier."
   }
  ],
  "angles": [
   {
    "target": "profession:Cooking",
-   "text": "Culinary adventurers will appreciate the bold\u2014if unsettling\u2014intersection of frontier butchery and fine brewing used to craft legendary Kalimdor spirits."
+   "text": "For a cook, this is an unsettling meeting of frontier butchery and fine brewing in the making of legendary Kalimdor spirits."
   },
   {
    "target": "faction:Horde",
-   "text": "Chen Stormstout fought shoulder-to-shoulder with Rexxar to help establish Durotar, giving any remnant of his journey special cultural resonance for the Horde."
+   "text": "Chen Stormstout fought alongside Rexxar to help establish Durotar, giving remnants of his journey special cultural meaning for the Horde."
   },
   {
    "target": "race:Orc",
-   "text": "Drohn exemplifies how orcs have embraced the ancient brewmaster traditions passed down directly from travelers who walked the land alongside the early Horde."
+   "text": "As an orc, you can see Drohn as an example of orcs embracing ancient brewmaster traditions passed down by travelers who walked with the early Horde."
   }
  ],
  "keywords": [
@@ -124,5 +124,6 @@
  ],
  "attribution": [
   "Chen's Empty Keg (2)"
- ]
+ ],
+ "style": 1
 }

@@ -11,16 +11,16 @@
    "quest:6129"
   ]
  },
- "summary": "Curative Animal Salve is an herbal remedy brewed by druidic herbalists to soothe and heal wildlife afflicted by spreading ecological sickness. Formulated in both Darkshore and the Barrens, it serves as a frontline treatment for sickly creatures suffering from the land's unseen taints.",
+ "summary": "Across Darkshore and the Barrens, druids use Curative Animal Salve to treat sick wildlife. Herbalists prepare it in both lands, while the Cenarion Circle sees the animals’ afflictions as signs of a wider blight.",
  "sections": [
   {
    "title": "Mending the Wilds",
-   "body": "Crafted from locally gathered herbal reagents, Curative Animal Salve is prepared in ten-dose batches to treat wildlife caught in the throes of spreading corruption. In the misty forests of Darkshore, Alanndarian Nightsong directs young druids to apply the ointment to sickly deer wandering between the Cliffspring River and the borders of Ashenvale. Far to the south in the arid expanse of the Barrens, Tonga Runetotem brews an identical remedy to treat sickly gazelles grazing north of the Crossroads. While both herbalists work with local authorities to produce larger supplies, field practitioners administer the salve directly to beasts suffering from environmental malaise.",
+   "body": "Druids use Curative Animal Salve to ease sick wildlife in Darkshore and the Barrens. Alanndarian Nightsong directs young druids to treat sick deer between the Cliffspring River and the borders of Ashenvale. In the Barrens, Tonga Runetotem brews the same remedy for sick gazelles grazing north of the Crossroads. Each herbalist prepares the salve from locally gathered herbs in batches of ten doses. Field practitioners apply it directly to the animals, while both herbalists work with local authorities to produce larger supplies.",
    "spoiler": 0
   },
   {
    "title": "Symptoms of a Deeper Malaise",
-   "body": "Applying the salve directly eases an animal's suffering, yet the Cenarion Circle views these afflictions as mere symptoms of a much greater disturbance. In Moonglade, Dendrite Starblaze observes that neither the afflicted deer of the coast nor the suffering gazelles of the savannah are random casualties. Instead, they are unwitting victims of a spreading blight that touches Kalimdor from multiple directions. Administering the salve serves as a fundamental rite for initiates, testing their dedication to safeguarding the natural world and mastering the arts of cleansing poison.",
+   "body": "The salve eases an animal’s suffering, but the Cenarion Circle sees the afflictions as signs of a wider disturbance. In Moonglade, Dendrite Starblaze observes that the afflicted deer on the coast and the suffering gazelles on the savannah are no random casualties. They are unwitting victims of a blight spreading across Kalimdor from multiple directions. For initiates, treating the animals tests their dedication to protecting nature and their skill in cleansing poison.",
    "spoiler": 0
   }
  ],
@@ -32,7 +32,7 @@
     "how to use curative animal salve",
     "what does the salve do"
    ],
-   "answer": "The salve is applied directly to afflicted wildlife to cure their ailments. Druids use it to treat sickly deer wandering through Darkshore or sickly gazelles grazing north of the Crossroads in the Barrens."
+   "answer": "Druids apply Curative Animal Salve directly to afflicted wildlife to ease its ailments. They use it on sick deer in Darkshore and sick gazelles grazing north of the Crossroads in the Barrens."
   },
   {
    "q": "Who prepares the salve?",
@@ -40,7 +40,7 @@
     "who makes the salve",
     "where does the salve come from"
    ],
-   "answer": "In Darkshore, Alanndarian Nightsong prepares the salve in Auberdine using gathered reagents. In the Barrens, Tonga Runetotem at the Crossroads brews the concoction for Horde druids."
+   "answer": "In Darkshore, Alanndarian Nightsong prepares the salve from gathered herbs. In the Barrens, Tonga Runetotem brews it at the Crossroads for Horde druids."
   },
   {
    "q": "Why are the deer and gazelles sick in the first place?",
@@ -49,7 +49,7 @@
     "what is poisoning darkshore deer",
     "barrens gazelle sickness"
    ],
-   "answer": "According to Dendrite Starblaze of the Cenarion Circle, the wildlife are victims of a growing taint and corruption spreading throughout Kalimdor, serving as early casualties of an unbalancing ecological blight."
+   "answer": "Dendrite Starblaze of the Cenarion Circle says the wildlife are victims of a growing taint spreading across Kalimdor. The deer and gazelles are early casualties of an ecological blight."
   },
   {
    "q": "How many doses does a batch contain?",
@@ -57,17 +57,17 @@
     "how many charges",
     "how many uses on salve"
    ],
-   "answer": "A standard field batch provides enough ointment for ten individual applications before the herbal mixture is entirely exhausted."
+   "answer": "A standard batch contains ten doses, enough for ten applications."
   }
  ],
  "angles": [
   {
    "target": "class:Druid",
-   "text": "Administering this remedy is a foundational trial in learning to soothe poisons and disease, proving your devotion to the Cenarion Circle's mission across Kalimdor."
+   "text": "As a druid, treating wildlife with this salve tests your dedication to the Cenarion Circle’s work across Kalimdor and your skill in cleansing poison."
   },
   {
    "target": "race:Tauren",
-   "text": "Utilizing the salve in the Barrens demonstrates how tauren druids embody the teachings of Cenarius, working in harmony with ancestral circle rites to heal the earth."
+   "text": "As a tauren, using the salve in the Barrens reflects how tauren druids follow Cenarius’s teachings and work in harmony with ancestral circle rites to heal the earth."
   }
  ],
  "keywords": [
@@ -93,5 +93,6 @@
   "Curative Animal Salve",
   "Curing the Sick (Alliance)",
   "Curing the Sick (Horde)"
- ]
+ ],
+ "style": 1
 }

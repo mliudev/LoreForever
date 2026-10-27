@@ -10,11 +10,11 @@
    "quest:877"
   ]
  },
- "summary": "Dried Seeds are lifeless husks given to travelers by the tauren druid Tonga Runetotem at the Crossroads. They serve as an experimental medium to test the anomalous, life-giving power bubbling up from the fissures beneath the waters of the Barrens.",
+ "summary": "At the Crossroads, Tonga Runetotem gives travelers Dried Seeds to test the life-giving power beneath the Barrens' waters.",
  "sections": [
   {
    "title": "The Seeds and the Oasis",
-   "body": "To the casual eye, these withered seeds appear completely barren and devoid of life. Yet in the hands of Tonga Runetotem, they are an essential instrument of druidic study. Intrigued by strange underwater vents discovered at the Forgotten Pools, Tonga seeks to confirm whether similar fissures exist beneath the Stagnant Oasis to the southeast. By submerging these dead seeds into the bubbling fissure, an investigator can witness firsthand the mysterious energies coursing through the oases of the Barrens, which possess the miraculous ability to spur life where none should remain.",
+   "body": "Tonga Runetotem studies the strange vents beneath the Barrens' waters. At the Forgotten Pools, he found fissures below the surface and now wants to learn whether one lies beneath the Stagnant Oasis to the southeast. He gives travelers Dried Seeds, which appear lifeless, to place in the bubbling fissure. Their response can show whether the energy beneath the oases can stir life in dead seeds.",
    "spoiler": 1
   }
  ],
@@ -26,7 +26,7 @@
     "what do i do with dried seeds",
     "dried seeds purpose"
    ],
-   "answer": "The Dried Seeds are used to test the magical, life-giving properties of the bubbling fissure found deep within the Stagnant Oasis. By exposing the dead seeds to the fissure's waters, you test whether the anomalous energy beneath the oasis can revive plant life."
+   "answer": "You use Dried Seeds to test the bubbling fissure beneath the Stagnant Oasis. Place them in its waters and see whether the energy there can revive them."
   },
   {
    "q": "Who provides the Dried Seeds?",
@@ -34,7 +34,7 @@
     "who gives dried seeds",
     "where do dried seeds come from"
    ],
-   "answer": "They are handed to adventurers by Tonga Runetotem, a tauren druid stationed at the Crossroads in the Barrens who is studying the region's sudden, unnatural bursts of verdant growth."
+   "answer": "Tonga Runetotem, a tauren druid at the Crossroads, gives travelers the Dried Seeds. He studies the Barrens' sudden bursts of plant growth."
   },
   {
    "q": "Where is the fissure to use them on?",
@@ -43,7 +43,7 @@
     "stagnant oasis fissure location",
     "bubbling fissure dried seeds"
    ],
-   "answer": "The fissure is located submerged beneath the waters of the Stagnant Oasis, which lies southeast of the Crossroads in the Barrens."
+   "answer": "The fissure lies beneath the waters of the Stagnant Oasis, southeast of the Crossroads in the Barrens."
   },
   {
    "q": "What happens when the seeds are exposed to the fissure?",
@@ -51,17 +51,17 @@
     "do the seeds grow",
     "dried seeds result"
    ],
-   "answer": "Tonga asks that the dead seeds be placed in the bubbling fissure and observed. Their response is the result of his experiment, revealed as the investigation continues."
+   "answer": "Tonga asks you to place the dead seeds in the bubbling fissure and observe them. Their response reveals the result of his experiment."
   }
  ],
  "angles": [
   {
    "target": "class:Druid",
-   "text": "Druids studying the strange growth across the Barrens will recognize these dead seeds as a crucial tool for probing the wild, untamed energies emerging from the earth."
+   "text": "As a druid, you can use the dead seeds to study the strange energies rising from the Barrens' earth."
   },
   {
    "target": "faction:Horde",
-   "text": "Horde adventurers assist Tonga Runetotem in unraveling the ecological mysteries transforming the dry soils of the Barrens."
+   "text": "As a Horde adventurer, you can help Tonga Runetotem investigate the changes in the Barrens' dry soils."
   }
  ],
  "keywords": [
@@ -83,5 +83,6 @@
  "attribution": [
   "Dried Seeds",
   "The Stagnant Oasis (Classic)"
- ]
+ ],
+ "style": 1
 }

@@ -17,21 +17,21 @@
   "wiki": "Echeyakee (Classic)",
   "chain": []
  },
- "summary": "Echeyakee is a legendary white lion that stalks the northern Barrens, revered among the tauren as Whitemist. Through Sergra Darkthorn at the Crossroads, young Horde hunters are sent to summon and test their might against this apex predator.",
+ "summary": "At the Crossroads, hunters prepare to face Whitemist in the northern Barrens. Sergra Darkthorn sends young Horde hunters to summon the legendary white lion and test their strength.",
  "sections": [
   {
    "title": "Whitemist of the Savannah",
-   "body": "Known in the Taur-ahe tongue as Echeyakee, meaning 'Whitemist,' this white-maned lion rules over the savannah cats of the central plains. Legend holds that he stalks with such eerie silence and stealth that he resembles low-lying morning mist gliding across the red earth. His attacks are so swift that prey perish without time for fear or suffering, leading local hunters to revere him as an embodiment of both mercy and swift death.",
+   "body": "Across the central plains, a white-maned lion rules the savannah cats. Taur-ahe speakers call him Echeyakee, or Whitemist. Legend says he moves so silently that he seems like morning mist gliding over the red earth. His strikes come swiftly, leaving prey no time for fear or suffering. Local hunters revere him as a sign of mercy and swift death.",
    "spoiler": 0
   },
   {
    "title": "The Trial of the Horn",
-   "body": "Sergra Darkthorn, an experienced orc shaman training fledgling warriors at the Crossroads, directs her pupils to challenge the king of beasts once they have proven themselves against lesser savannah prowlers. Armed with a special horn, the hunter journeys northeast past the mountain ridges to a graveyard of massive kodo bones. Sounding the horn challenges Echeyakee directly, drawing the elusive predator out from hiding for a duel of strength and cunning.",
+   "body": "At the Crossroads, Sergra Darkthorn trains fledgling warriors. The experienced orc shaman sends her pupils to challenge the king of beasts after they have proven themselves against lesser savannah prowlers. With a special horn, you travel northeast past the mountain ridges to a graveyard of massive kodo bones. Sound the horn to challenge Echeyakee and draw the elusive predator from hiding for a test of strength and cunning.",
    "spoiler": 0
   },
   {
    "title": "The Lion's Legacy",
-   "body": "When Echeyakee's hide is returned, Sergra says his hunting days are over but his spirit is with the victor. She teaches that his example shows strength in subtlety and honor in mercy.",
+   "body": "When you return Echeyakee's hide, Sergra says his hunting days are over, though his spirit is with the victor. She teaches that his example joins strength in subtlety with honor in mercy.",
    "spoiler": 1
   }
  ],
@@ -43,7 +43,7 @@
     "meaning of echeyakee",
     "tauren name echeyakee"
    ],
-   "answer": "In the language of the tauren, Echeyakee translates to 'Whitemist.' The name honors the cat's pale pelt and the silent, mist-like stealth with which he stalks across the plains."
+   "answer": "In Taur-ahe, Echeyakee means “Whitemist.” The name honors his pale pelt and the silent, mist-like way he stalks across the plains."
   },
   {
    "q": "Where is Echeyakee summoned?",
@@ -52,7 +52,7 @@
     "echeyakee location",
     "how to find echeyakee"
    ],
-   "answer": "Echeyakee makes his lair northeast of the Crossroads, past the mountain ridge. He rests among a sprawl of giant kodo skeletons and will only appear when summoned using the horn provided by Sergra Darkthorn."
+   "answer": "You summon Echeyakee northeast of the Crossroads, past the mountain ridge, among giant kodo skeletons. He appears when you sound the horn Sergra Darkthorn provides."
   },
   {
    "q": "Why is Echeyakee described as both mercy and death?",
@@ -60,7 +60,7 @@
     "why mercy and death",
     "echeyakee lore"
    ],
-   "answer": "Tauren hunting tradition views him as both mercy and death because his strikes are instantaneous. He kills his quarry with such lethal precision and speed that the victim experiences neither prolonged agony nor fear."
+   "answer": "Tauren hunting tradition sees Echeyakee as both mercy and death because his strikes are swift and sure. His prey suffers no prolonged agony or fear."
   },
   {
    "q": "Who sends hunters after Echeyakee?",
@@ -68,7 +68,7 @@
     "who gives echeyakee quest",
     "sergra darkthorn quest"
    ],
-   "answer": "Sergra Darkthorn, an orc shaman stationed at the Crossroads, assigns the hunt to prove whether an adventurer understands the subtlety and balance required of a true predator."
+   "answer": "Sergra Darkthorn, an orc shaman at the Crossroads, sends hunters after Echeyakee to test their grasp of a predator's subtlety and balance."
   },
   {
    "q": "What happens after Echeyakee is slain?",
@@ -76,7 +76,7 @@
     "what happens to echeyakee",
     "echeyakee spirit"
    ],
-   "answer": "Sergra asks you to return Echeyakee's hide to her at the Crossroads as proof of the hunt."
+   "answer": "After Echeyakee is slain, Sergra asks you to bring his hide to her at the Crossroads as proof of the hunt."
   },
   {
    "q": "What follows the hunt of Echeyakee?",
@@ -84,21 +84,21 @@
     "quest after echeyakee",
     "what is next after echeyakee"
    ],
-   "answer": "Once a hunter demonstrates the patience and lethal skill required to overcome Echeyakee, Sergra Darkthorn moves them on to more volatile quarry: the vicious raptors known as scytheclaws."
+   "answer": "After you overcome Echeyakee with patience and lethal skill, Sergra Darkthorn sends you after more volatile quarry: the vicious raptors called scytheclaws."
   }
  ],
  "angles": [
   {
    "target": "race:Tauren",
-   "text": "Echeyakee holds sacred cultural significance among the tauren as Whitemist, the embodiment of a clean, painless kill and an exemplar of Earth Mother's fierce balance."
+   "text": "As a tauren, you know Echeyakee as Whitemist, a sacred figure of the clean, painless kill and an example of the Earth Mother's fierce balance."
   },
   {
    "target": "class:Hunter",
-   "text": "Due to his unique pale fur and legendary reputation among savannah beasts, Echeyakee is the ultimate test of patience and stealth for aspiring hunters wandering the Barrens."
+   "text": "As a hunter in the Barrens, you face a test of patience and stealth in Echeyakee, famed among the savannah beasts for his pale fur and legendary name."
   },
   {
    "target": "faction:Horde",
-   "text": "Hunting Echeyakee serves as a rite of passage for young champions operating out of the Crossroads, proving their survival skills against the harsh Barrens wildlife."
+   "text": "As a Horde champion at the Crossroads, you face the harsh Barrens wildlife in a rite of passage that proves your survival skills."
   }
  ],
  "keywords": [
@@ -120,5 +120,6 @@
  ],
  "attribution": [
   "Echeyakee (Classic)"
- ]
+ ],
+ "style": 1
 }

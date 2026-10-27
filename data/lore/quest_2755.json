@@ -17,16 +17,16 @@
   "wiki": "Joys of Omosh",
   "chain": []
  },
- "summary": "Joys of Omosh is a heartwarming closing moment between the blacksmith Orokk Omosh and an adventurer who has helped him in Orgrimmar. Moved to tears, the veteran smith insists that soot is just in his eye before demonstrating a cherished family tradition. By performing the vigorous Omosh dance of joy, he passes down an unusual bit of family heritage.",
+ "summary": "After an adventurer's great help, Orokk Omosh shares a family tradition in Orgrimmar. The veteran blacksmith brushes off his tears as soot, then performs the Omosh dance of joy to pass down an unusual piece of family heritage.",
  "sections": [
   {
    "title": "A Soot-Stained Tear",
-   "body": "Orokk Omosh is a burly blacksmith working near the scorching heat of the forge in Orgrimmar, known more for heavy strikes on the anvil than emotional displays. Yet after receiving great aid from an adventurer, even this rugged craftsman finds himself overwhelmed. He stubbornly insists that a stray bit of soot got into his eye rather than admitting to weeping openly.",
+   "body": "Near Orgrimmar's scorching forge, Orokk Omosh is known for heavy hammer blows, not tears. The burly blacksmith has received great help from you, and the kindness overwhelms him. He stubbornly blames a stray bit of soot in his eye rather than admit he is weeping.",
    "spoiler": 0
   },
   {
    "title": "The Omosh Tradition",
-   "body": "Rather than parting ways quietly, Orokk insists on sharing one final secret of the Omosh lineage before he can die happy. He immediately launches into the vigorous and exhausting Omosh dance of joy, demonstrating the animated tradition for his apprentice before teaching them to strike with an iron fist.",
+   "body": "Before you part, Orokk says he must share one last secret of the Omosh family. He performs the vigorous, exhausting Omosh dance of joy for his apprentice, then teaches the apprentice to strike with an iron fist.",
    "spoiler": 0
   }
  ],
@@ -38,7 +38,7 @@
     "orokk omosh backstory",
     "orokk blacksmith"
    ],
-   "answer": "Orokk Omosh is an orc blacksmith located in the Valley of Honor in Orgrimmar. He is fiercely proud of his family's craft and lineage, blending smithing expertise with lively personal traditions."
+   "answer": "Orokk Omosh is an orc blacksmith in Orgrimmar's Valley of Honor. He takes fierce pride in his family's craft and lineage, and keeps lively traditions alongside his smithing."
   },
   {
    "q": "Why is Orokk crying?",
@@ -47,7 +47,7 @@
     "is orokk sad",
     "soot in eye"
    ],
-   "answer": "Orokk insists that he is not crying and that it is simply forge soot trapped in his eye. In truth, he is deeply moved and touched by the adventurer's assistance, having found someone worthy to share his family's traditions with."
+   "answer": "Orokk says forge soot is trapped in his eye, but your help has deeply moved him. He has found someone worthy of sharing his family's traditions with."
   },
   {
    "q": "What is the Omosh dance of joy?",
@@ -56,7 +56,7 @@
     "dance of joy",
     "what is the dance"
    ],
-   "answer": "The dance of joy is a vigorous physical routine passed down through the Omosh family line. Performing it is deeply tiring for Orokk, who has not practiced the celebratory dance in a very long time."
+   "answer": "The Omosh dance of joy is a vigorous routine passed down through Orokk's family. It leaves him deeply tired, and he has not practiced it in a very long time."
   },
   {
    "q": "Where does this quest take place?",
@@ -65,7 +65,7 @@
     "where is joys of omosh",
     "orgrimmar forge"
    ],
-   "answer": "The quest takes place in Orgrimmar, specifically around the blacksmithing forge in the Valley of Honor where Orokk Omosh works his metal."
+   "answer": "It takes place in Orgrimmar, around the blacksmithing forge in the Valley of Honor where Orokk Omosh works his metal."
   },
   {
    "q": "What does Orokk teach you?",
@@ -74,7 +74,7 @@
     "what do i learn",
     "fist of iron"
    ],
-   "answer": "Beyond demonstrating the energetic Omosh dance of joy, Orokk promises to pass on the knowledge of the fist of iron, cementing the bond between smith and adventurer."
+   "answer": "Orokk teaches you the Omosh dance of joy and promises to pass on the knowledge of the fist of iron, binding smith and adventurer."
   },
   {
    "q": "Can Alliance players participate in this quest?",
@@ -82,17 +82,17 @@
     "alliance joys of omosh",
     "is this horde only"
    ],
-   "answer": "No. Orokk Omosh is allied with the Horde and resides within the fortified walls of Orgrimmar, making this interaction exclusive to Horde adventurers."
+   "answer": "No. Orokk Omosh is allied with the Horde and lives within Orgrimmar's fortified walls, so only Horde adventurers can meet him there."
   }
  ],
  "angles": [
   {
    "target": "profession:Blacksmithing",
-   "text": "For smiths accustomed to the harsh, stoic heat of the forge, Orokk's sentimental family dance offers an unusually humorous and tender look into the personal life of a veteran craftsman."
+   "text": "For a smith, Orokk's sentimental family dance offers a humorous, tender glimpse of a veteran craftsman's life beyond the forge."
   },
   {
    "target": "faction:Horde",
-   "text": "The Valley of Honor is a hub of martial pride, making Orokk's tearful joy and spirited dance an endearing sight amidst Orgrimmar's clashing steel."
+   "text": "In Orgrimmar's Valley of Honor, martial pride meets Orokk's tearful joy and spirited dance amid the clash of steel."
   }
  ],
  "keywords": [
@@ -109,5 +109,6 @@
  ],
  "attribution": [
   "Joys of Omosh"
- ]
+ ],
+ "style": 1
 }

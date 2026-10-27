@@ -1,0 +1,76 @@
+{
+ "key": "quest:99191",
+ "type": "quest",
+ "name": "A Donation of Wool",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   99191
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "The High Order is accepting donations of wool cloth. You can earn its full recognition by giving sixty pieces.",
+ "sections": [
+  {
+   "title": "A Worthy Gift",
+   "body": "The High Order is taking donations of wool cloth, and sixty pieces are enough for its current needs. The giver can accept them from you now; your donation earns full recognition from the order.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What does the High Order need?",
+   "aliases": [
+    "high order wool",
+    "what to donate",
+    "wool donation"
+   ],
+   "answer": "The High Order is accepting wool cloth donations, and sixty pieces are sufficient for its current needs."
+  },
+  {
+   "q": "How much wool cloth should I give?",
+   "aliases": [
+    "how much wool",
+    "sixty wool",
+    "wool amount"
+   ],
+   "answer": "A donation of sixty pieces of wool cloth earns full recognition from the High Order."
+  },
+  {
+   "q": "Who can take the donation?",
+   "aliases": [
+    "who takes wool",
+    "donation giver",
+    "give wool"
+   ],
+   "answer": "The giver of this request can accept your sixty pieces of wool cloth."
+  },
+  {
+   "q": "What do I gain by donating?",
+   "aliases": [
+    "wool recognition",
+    "high order standing",
+    "donation benefit"
+   ],
+   "answer": "Giving sixty pieces of wool cloth earns you full recognition from the High Order."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "donation",
+  "high order",
+  "recognition",
+  "sixty pieces",
+  "wool",
+  "wool cloth"
+ ],
+ "related": [
+  "quest:92596"
+ ],
+ "style": 1,
+ "attribution": [
+  "In-game quest text: A Donation of Wool"
+ ]
+}

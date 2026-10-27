@@ -7,16 +7,16 @@
  "meta": {
   "wiki": "Ragefire Chasm (Classic)"
  },
- "summary": "Ragefire Chasm is a sprawling network of volcanic tunnels carved directly beneath Orgrimmar, accessible through the shadowy depths of the Cleft of Shadow. Despite being situated under the Horde's sovereign capital, these fiery caverns crawl with hostile troggs and a subversive coven of cultists loyal to the Shadow Council.",
+ "summary": "Ragefire Chasm threatens Orgrimmar from beneath its streets, where troggs have broken into the tunnels. The fiery caverns also shelter a cult whose plans reach beyond Durotar.",
  "sections": [
   {
    "title": "A Hidden Peril",
-   "body": "Beneath the stone streets and fortified towers of Orgrimmar lies Ragefire Chasm, a treacherous network of magma-filled subterranean caverns. The tunnels recently became overrun by the savage Ragefire troggs, who pushed upward from deep subterranean fissures. Magatha Grimtotem of the tauren attempted peaceful diplomacy with the creatures, but her overtures were violently rejected. Left unchecked, the troggs threaten to tunnel further into the foundations of the city itself.",
+   "body": "Ragefire troggs have surged into the volcanic tunnels beneath Orgrimmar. They pushed up from deep fissures and now threaten the city's foundations. Magatha Grimtotem, a tauren, tried to make peace with them, but the troggs answered with violence. Their tunnels run below the stone streets and fortified towers, leaving Orgrimmar at risk if the creatures keep digging upward.",
    "spoiler": 0
   },
   {
    "title": "The Searing Blade",
-   "body": "Far more dangerous than mindless troggs is the presence of the Searing Blade, an insurgent cult subordinate to the demonic Shadow Council. Led by the hulking felguard Taragaman the Hungerer, the orc warlock Jergosh the Invoker, and the corrupt satyr Bazzalan, these conspirators scheme to unravel everything Thrall's Horde has established in Durotar. Rather than immediately cleansing the caves, Warchief Thrall has maintained surveillance on their activities, hoping their foolish overconfidence will expose their masters higher up in the Shadow Council's hierarchy.",
+   "body": "The Searing Blade works beneath Orgrimmar in service to the demonic Shadow Council. Taragaman the Hungerer, a felguard, leads the cult with Jergosh the Invoker, an orc warlock, and Bazzalan, a satyr. They seek to undo all that Thrall's Horde has established in Durotar. Warchief Thrall keeps watch on their activities, hoping their overconfidence will expose higher leaders within the Shadow Council.",
    "spoiler": 1
   }
  ],
@@ -29,7 +29,7 @@
     "how to get to rfc",
     "where is rfc located"
    ],
-   "answer": "The entrance portal is located deep within Orgrimmar, specifically in the subterranean canyon known as the Cleft of Shadow. It sits near the tent of the orc warlock Neeru Fireblade."
+   "answer": "You reach Ragefire Chasm through the Cleft of Shadow, a subterranean canyon deep within Orgrimmar. The entrance lies near the tent of Neeru Fireblade, an orc warlock."
   },
   {
    "q": "Why are there troggs beneath Orgrimmar?",
@@ -38,7 +38,7 @@
     "ragefire troggs",
     "orgrimmar troggs"
    ],
-   "answer": "The troggs surfaced from ancient, deep cavern systems beneath Durotar, emerging directly into the volcanic underbelly of the city. Their sudden invasion poses a structural and physical hazard to the capital, refusing any attempts at peaceful containment."
+   "answer": "Ragefire troggs surfaced from ancient, deep cavern systems beneath Durotar and broke into the volcanic depths under Orgrimmar. Their invasion threatens the capital's structure and its people, and they have refused every attempt at peaceful containment."
   },
   {
    "q": "Why does Thrall allow cultists to live under the capital?",
@@ -47,7 +47,7 @@
     "thrall shadow council",
     "why is searing blade under orgrimmar"
    ],
-   "answer": "Warchief Thrall is fully aware of the cult's presence beneath the city. Rather than launching a blunt assault that might cause the wider network to scatter, he allows them to operate under close watch in hopes they will inadvertently reveal the identity and whereabouts of the Shadow Council's true leadership."
+   "answer": "Warchief Thrall knows the cultists are beneath Orgrimmar and keeps them under close watch. He hopes they will reveal the identity and whereabouts of the Shadow Council's true leaders."
   },
   {
    "q": "Who leads the cultists inside the chasm?",
@@ -56,17 +56,17 @@
     "who leads the searing blade",
     "ragefire chasm leaders"
    ],
-   "answer": "The Searing Blade inside Ragefire Chasm is commanded by three figures: Taragaman the Hungerer, a formidable felguard; Jergosh the Invoker, an orc warlock; and Bazzalan, a treacherous satyr."
+   "answer": "Three figures command the Searing Blade in Ragefire Chasm: Taragaman the Hungerer, a formidable felguard; Jergosh the Invoker, an orc warlock; and Bazzalan, a satyr."
   }
  ],
  "angles": [
   {
    "target": "faction:Horde",
-   "text": "Clearing Ragefire Chasm is a matter of homeland defense, securing the bedrock of Durotar against internal sabotage while rooting out demonic collaborators."
+   "text": "As Horde, you defend your homeland by securing Durotar's bedrock and rooting out demonic collaborators beneath the capital."
   },
   {
    "target": "race:Tauren",
-   "text": "Elder Crone Magatha Grimtotem sent emissaries to sue for peace with the invading troggs; their bloody refusal proved diplomacy is impossible against these underground beasts."
+   "text": "As a tauren, you know Magatha Grimtotem sent emissaries to seek peace with the invading troggs. Their bloody refusal showed that diplomacy could not stop these underground beasts."
   }
  ],
  "keywords": [
@@ -91,5 +91,6 @@
  ],
  "attribution": [
   "Ragefire Chasm (Classic)"
- ]
+ ],
+ "style": 1
 }

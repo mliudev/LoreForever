@@ -17,21 +17,21 @@
   "wiki": "Returning Home (Teldrassil)",
   "chain": []
  },
- "summary": "Returning Home marks a rite of passage for young night elf priests serving across Teldrassil. After proving themselves in the wilds, novitiates are summoned to the majestic Temple of the Moon in Darnassus to present themselves before Priestess Alathea and High Priestess Tyrande Whisperwind.",
+ "summary": "In Darnassus, Returning Home brings young night elf priests before the leaders of their faith. After proving themselves in Teldrassil’s wilds, they are summoned to the Temple of the Moon to meet Priestess Alathea and High Priestess Tyrande Whisperwind.",
  "sections": [
   {
    "title": "A Summons from Darnassus",
-   "body": "Priests who spend their early days tending to the wounded and cleansing corruptions around Dolanaar quickly attract the attention of the Sisterhood of Elune. Trainer Laurna Morninglight intercepts promising initiates, explaining that Priestess Alathea has sent word asking for an audience. While aiding the local settlements is essential, every devotee must cultivate their communion with the Moon Mother and answer the higher calling of the faith.",
+   "body": "Priests tending the wounded and cleansing corruption around Dolanaar draw the Sisterhood of Elune’s notice. Trainer Laurna Morninglight intercepts promising initiates with word that Priestess Alathea has asked to meet them. Aid to local settlements matters, but each devotee must also deepen their communion with the Moon Mother and answer the faith’s higher calling.",
    "spoiler": 0
   },
   {
    "title": "Within the Temple of the Moon",
-   "body": "The path leads beyond the boughs of Teldrassil into the grand heart of Darnassus: the Temple of the Moon. Rising above the city under the gentle glow of Elune's grace, the sanctuary acts as both the supreme house of worship and the spiritual capital of the kaldorei. To be invited back into these halls means one is no longer treated merely as a fledging student, but as an initiate recognized directly by the leadership of the priesthood.",
+   "body": "The road leads from Teldrassil’s boughs to the Temple of the Moon in Darnassus. The sanctuary rises above the city in Elune’s gentle glow. It is the kaldorei’s chief house of worship and spiritual capital. An invitation into its halls means an initiate is recognized by the priesthood’s leaders, no longer treated only as a young student.",
    "spoiler": 0
   },
   {
    "title": "The Favor of Tyrande and Alathea",
-   "body": "When travelers step before Priestess Alathea, the greeting is warm and maternal. Alathea shares the leadership's watchful pride, noting that both she and High Priestess Tyrande Whisperwind rejoice whenever initiates venture into the uncertain outside world and return unharmed. This homecoming signals the start of deeper sacred trials under Alathea's direct mentorship.",
+   "body": "Priestess Alathea greets returning initiates warmly. She says she and High Priestess Tyrande Whisperwind take pride when initiates venture into the uncertain world and return unharmed. This homecoming begins deeper sacred trials under Alathea’s direct guidance.",
    "spoiler": 0
   }
  ],
@@ -43,7 +43,7 @@
     "returning home quest giver",
     "laurna morninglight quest"
    ],
-   "answer": "Laurna Morninglight, the priest trainer stationed in Dolanaar within Teldrassil, gives the quest once a young night elf priest reaches sufficient training and experience."
+   "answer": "Laurna Morninglight, the priest trainer in Dolanaar, summons young night elf priests after they gain enough training and experience."
   },
   {
    "q": "Where is Priestess Alathea located?",
@@ -52,7 +52,7 @@
     "priestess alathea location",
     "temple of the moon priestess"
    ],
-   "answer": "Priestess Alathea resides within the Temple of the Moon in Darnassus, situated toward the center of the night elven capital city on Teldrassil."
+   "answer": "Priestess Alathea is in the Temple of the Moon in Darnassus, near the center of the night elf capital on Teldrassil."
   },
   {
    "q": "Why does Priestess Alathea want to see me?",
@@ -60,7 +60,7 @@
     "why summoned to darnassus",
     "why go to temple of the moon"
    ],
-   "answer": "The elders and leadership of the Sisterhood of Elune have noted your dedicated service in the wilderness of Teldrassil. Alathea believes you are ready for advanced instruction and greater spiritual tasks."
+   "answer": "The Sisterhood of Elune’s elders have noticed your service in Teldrassil’s wilderness. Alathea believes you are ready for advanced instruction and greater spiritual duties."
   },
   {
    "q": "Can any class take this quest?",
@@ -69,7 +69,7 @@
     "can druids do returning home",
     "priest only quest"
    ],
-   "answer": "No. Returning Home is specifically tailored for night elf priests as part of their early class development and sacred initiation into the Sisterhood's higher duties."
+   "answer": "No. Only night elf priests receive this summons as part of their early training and initiation into the Sisterhood’s higher duties."
   },
   {
    "q": "What quest follows Returning Home?",
@@ -78,7 +78,7 @@
     "returning home followup",
     "next quest"
    ],
-   "answer": "Upon reporting to Priestess Alathea and concluding this errand, she entrusts you with the follow-up task titled Stars of Elune."
+   "answer": "After you report to Priestess Alathea, she gives you Stars of Elune to undertake next."
   },
   {
    "q": "What is the Temple of the Moon's significance to night elves?",
@@ -86,17 +86,17 @@
     "temple of the moon lore",
     "darnassus moon temple"
    ],
-   "answer": "The Temple of the Moon is the primary center of worship for the goddess Elune and serves as the governing house where High Priestess Tyrande Whisperwind guides both the Sisterhood and the kaldorei nation."
+   "answer": "The Temple of the Moon is Elune’s chief house of worship. High Priestess Tyrande Whisperwind guides the Sisterhood and the kaldorei nation from there."
   }
  ],
  "angles": [
   {
    "target": "class:Priest",
-   "text": "This summons reflects a priest's transition from an ordinary forest acolyte into a formal servant of the Sisterhood of Elune answering directly to Darnassus."
+   "text": "As a priest, you are answering a summons that marks your passage from forest acolyte to servant of the Sisterhood of Elune, called to Darnassus."
   },
   {
    "target": "race:NightElf",
-   "text": "For kaldorei, answering a call to the Temple of the Moon represents communion with their cultural roots and the watchful eyes of High Priestess Tyrande Whisperwind."
+   "text": "As a kaldorei, you answer the Temple of the Moon’s call and renew your ties to your people’s traditions under the watch of High Priestess Tyrande Whisperwind."
   }
  ],
  "keywords": [
@@ -123,5 +123,6 @@
  ],
  "attribution": [
   "Returning Home (Teldrassil)"
- ]
+ ],
+ "style": 1
 }

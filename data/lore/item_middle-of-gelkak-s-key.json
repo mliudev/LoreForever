@@ -10,11 +10,11 @@
    "quest:2098"
   ]
  },
- "summary": "The Middle of Gelkak's Key is a broken metal fragment belonging to the shipwrecked gnome pirate Gelkak Gyromast. After his vessel went down off the coast of Darkshore, this central section was snatched away by scavengers among the local Greymist murlocs.",
+ "summary": "Off Darkshore, Gelkak Gyromast’s key lies in three pieces after threshadons sank his ship. Greymist murlocs took the middle fragment from the shore.",
  "sections": [
   {
    "title": "A Fragment in the Silt",
-   "body": "When Gelkak Gyromast's ship was dragged beneath the waves by wild threshadons, the gnome pirate tumbled ashore with his most precious belongings shattered on the rocky shoals. Among the wreckage was a specialized winding key meant for his mechanical first mate. The key snapped into three distinct fragments during the catastrophe, scattering across the strand. While the tops and bottoms ended up carried off by coastal beasts, the middle section caught the eye of the Greymist murlocs prowling the Darkshore surf, who quickly hoarded the shiny metallic piece in their camps and wreckage holdings.",
+   "body": "Gelkak Gyromast’s winding key broke when threshadons dragged his ship beneath the waves. The gnome pirate came ashore with his belongings shattered on the rocky shoals. The specialized key was made for his mechanical first mate, but the wreck split it into three pieces scattered along the strand. Coastal beasts carried off the top and bottom. Greymist murlocs prowling the Darkshore surf took the middle piece and kept it in their camps and among the wreckage they hold.",
    "spoiler": 0
   }
  ],
@@ -26,7 +26,7 @@
     "middle of gelkaks key use",
     "why do i need this key"
    ],
-   "answer": "It is one of three fragments needed by the shipwrecked pirate Gelkak Gyromast on the Darkshore coast. Once reassembled with the top and bottom pieces, the full key is used to reactivate his mechanical first mate."
+   "answer": "The Middle of Gelkak's Key is one of three pieces Gelkak Gyromast needs. Joined to the top and bottom, it makes the key that reactivates his mechanical first mate."
   },
   {
    "q": "Where did this key piece end up?",
@@ -35,7 +35,7 @@
     "where to find middle of gelkak key",
     "middle key dropped by"
    ],
-   "answer": "The middle fragment was scavenged by the Greymist murloc tribe. It can be pried from Greymist raiders, oracles, netters, tidehunters, and other tribe members wandering the beaches and shipwrecks of Darkshore."
+   "answer": "Greymist murlocs scavenged the middle fragment. It can be taken from raiders, oracles, netters, tidehunters, and other tribe members along Darkshore’s beaches and shipwrecks."
   },
   {
    "q": "Why was the key broken in the first place?",
@@ -43,13 +43,13 @@
     "how did the key break",
     "why is it in pieces"
    ],
-   "answer": "Gelkak's ship was sunk just offshore by aggressive threshadons. When the gnome was washed ashore amidst the splintered debris, the key smashed against the coastal rocks and fractured into three pieces before local scavengers carried them off."
+   "answer": "Aggressive threshadons sank Gelkak’s ship just offshore. The key broke into three pieces against the coastal rocks as the gnome washed ashore, and local scavengers carried the pieces away."
   }
  ],
  "angles": [
   {
    "target": "profession:Engineering",
-   "text": "The key is a custom mechanical component designed to wind and operate a clockwork first mate, showing off classic gnomish ingenuity even in pirate hands."
+   "text": "As an engineer, you can see how this custom mechanical component winds and operates a clockwork first mate, a display of gnomish ingenuity in pirate hands."
   }
  ],
  "keywords": [
@@ -74,5 +74,6 @@
  "attribution": [
   "Middle of Gelkak's Key",
   "Gyromast's Retrieval"
- ]
+ ],
+ "style": 1
 }

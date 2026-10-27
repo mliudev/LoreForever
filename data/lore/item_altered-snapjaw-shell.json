@@ -10,11 +10,11 @@
    "quest:880"
   ]
  },
- "summary": "An Altered Snapjaw Shell is the carapace of a freshwater turtle inhabiting the lush oases of the Barrens. Druids studying the region examine these mutated shells to understand how strange subterranean fissures are warping the local wildlife.",
+ "summary": "At the Lushwater and Stagnant Oases, snapjaws bear altered shells that draw a druid’s attention. Their carapaces may reveal what the fissures beneath the Barrens are doing to local wildlife.",
  "sections": [
   {
    "title": "Signs of Corruption",
-   "body": "The freshwater turtles dwelling within the Lushwater and Stagnant Oases have undergone noticeable, unnatural changes. Believed to be drinking from springs fed by mysterious underground fissures, the oasis snapjaws exhibit altered carapaces that intrigue researchers at the Crossroads. Tonga Runetotem, a tauren druid seeking to divine the health of the land, gathers these shells to determine whether the energies welling up from the deep earth are an unnatural blight or something far stranger.",
+   "body": "Oasis snapjaws have changed in ways that trouble those who study the land. The freshwater turtles of Lushwater and Stagnant Oases are believed to drink from springs fed by mysterious underground fissures. Their altered carapaces have caught the attention of researchers at the Crossroads. Tonga Runetotem, a tauren druid, gathers the shells as he seeks to understand the land’s health. He wants to learn whether energies rising from deep below are an unnatural blight or something stranger.",
    "spoiler": 0
   }
  ],
@@ -26,7 +26,7 @@
     "what is altered snapjaw shell",
     "snapjaw shell mutation"
    ],
-   "answer": "The snapjaws dwell in the springs of the Lushwater and Stagnant Oases, which are fed by deep subterranean fissures. The strange energies bubbling up into the oasis waters have altered the physical biology of the creatures that drink from them, producing visibly warped carapaces."
+   "answer": "The snapjaws live in springs at the Lushwater and Stagnant Oases, fed by deep subterranean fissures. Strange energies rising into the water have changed the creatures that drink there, leaving their carapaces visibly warped."
   },
   {
    "q": "Who wants these shells and why?",
@@ -35,7 +35,7 @@
     "tonga runetotem shells",
     "altered beings quest turn in"
    ],
-   "answer": "Tonga Runetotem, a druid stationed at the Crossroads, asks hunters to harvest them. He believes that examining physical changes in native beasts is key to diagnosing what kind of power or corruption is affecting the Barrens' water supply."
+   "answer": "Tonga Runetotem, a druid at the Crossroads, asks hunters to gather the shells. He believes changes in native beasts can help reveal what power or corruption is affecting the Barrens’ water supply."
   },
   {
    "q": "Where are these snapjaws found?",
@@ -44,13 +44,13 @@
     "where to get altered shells",
     "snapjaw shell locations"
    ],
-   "answer": "Oasis snapjaws inhabit the waters and muddy shores of both the Lushwater Oasis and the Stagnant Oasis, situated south and southeast of the Crossroads."
+   "answer": "Oasis snapjaws live in the waters and muddy shores of Lushwater Oasis and Stagnant Oasis, south and southeast of the Crossroads."
   }
  ],
  "angles": [
   {
    "target": "class:Druid",
-   "text": "For druids, studying the twisted carapaces of oasis beasts is an essential step in identifying whatever hidden imbalance is disturbing the waters of the Barrens."
+   "text": "As a druid, you can study the twisted carapaces of oasis beasts to help identify the hidden imbalance disturbing the Barrens’ waters."
   }
  ],
  "keywords": [
@@ -71,5 +71,6 @@
  "attribution": [
   "Altered Snapjaw Shell",
   "Altered Beings (Classic)"
- ]
+ ],
+ "style": 1
 }

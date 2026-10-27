@@ -10,11 +10,11 @@
    "quest:822"
   ]
  },
- "summary": "A Kodo Liver is a hefty organ harvested from the massive kodos roaming the plains of the Barrens. While hardly standard culinary fare, Brewmaster Drohn in Ratchet requires it as a vital ingredient for fermenting an unorthodox trogg ale learned from the wandering brewmaster Chen Stormstout.",
+ "summary": "In Ratchet, Brewmaster Drohn needs Kodo Liver for a strange ale. He learned to brew trogg ale from the wandering brewmaster Chen Stormstout.",
  "sections": [
   {
    "title": "A Bizarre Brewing Reagent",
-   "body": "The great kodos of the Barrens are primarily hunted by the tauren and wandering predators for their tough hides and nourishing meat. However, a fresh kodo liver serves a much more eccentric purpose in the port town of Ratchet. Brewmaster Drohn uses the organ alongside thunderhawk saliva glands and lightning glands to recreate a potent brew Chen Stormstout taught him: trogg ale. Drohn claims this unusual blend possesses a formidable kick, providing adventurous travelers with a hearty concoction straight from the wilds of central Kalimdor.",
+   "body": "Kodos roam the Barrens, where tauren and predators hunt them for their hides and meat. In Ratchet, Brewmaster Drohn uses a fresh Kodo Liver with thunderhawk saliva glands and lightning glands to make trogg ale. Chen Stormstout taught Drohn the recipe, and Drohn says the blend packs a potent kick for adventurous travelers. The ingredients come from the wilds of central Kalimdor.",
    "spoiler": 0
   }
  ],
@@ -26,7 +26,7 @@
     "why need kodo liver",
     "what is kodo liver for"
    ],
-   "answer": "A Kodo Liver is delivered to Brewmaster Drohn in Ratchet. He incorporates it into a potent trogg ale recipe originally taught to him by the famed pandaren brewmaster Chen Stormstout."
+   "answer": "Brewmaster Drohn in Ratchet uses Kodo Liver in trogg ale. Chen Stormstout taught him the recipe."
   },
   {
    "q": "Which creatures yield a Kodo Liver?",
@@ -35,7 +35,7 @@
     "who drops kodo liver",
     "kodo liver source"
    ],
-   "answer": "It can be carved from various kodos wandering the open savannah of the Barrens, including common Barrens kodos, wooly kodos, lost kodos, greater kodos, and rare beasts such as Lakota'mani and Brontus."
+   "answer": "Kodo Liver comes from kodos in the Barrens, including common, wooly, lost, and greater kodos, as well as Lakota'mani and Brontus."
   },
   {
    "q": "Why would anyone put animal organs in ale?",
@@ -43,17 +43,17 @@
     "why liver in beer",
     "kodo liver in alcohol"
    ],
-   "answer": "Brewmaster Drohn brews according to exotic and eccentric recipes passed on by Chen Stormstout. In the case of trogg ale, raw organs like kodo livers and elemental glands give the drink its famous kick and distinct kick-in-the-teeth flavor."
+   "answer": "Brewmaster Drohn follows the eccentric recipes Chen Stormstout taught him. In trogg ale, raw organs such as Kodo Liver and elemental glands give the drink its kick and sharp flavor."
   }
  ],
  "angles": [
   {
    "target": "profession:Cooking",
-   "text": "While regular kodo meat provides staple rations across central Kalimdor, a kodo liver is considered far too foul and pungent for standard hearthside cooking\u2014making its inclusion in Ratchet's trogg ale all the more notorious."
+   "text": "Kodo meat feeds people across central Kalimdor, but Kodo Liver is considered too foul and pungent for ordinary cooking. Its use in Ratchet's trogg ale has made it notorious."
   },
   {
    "target": "race:Tauren",
-   "text": "Tauren honor every part of the kodo they hunt, but even their most seasoned plainsrunners look askance at the goblins and foreigners turning sacred kodo innards into novelty ale in Ratchet."
+   "text": "Tauren honor every part of the kodo they hunt. Even seasoned plainsrunners look askance at goblins and foreigners who make novelty ale from kodo innards in Ratchet."
   }
  ],
  "keywords": [
@@ -79,5 +79,6 @@
  "attribution": [
   "Kodo Liver",
   "Chen's Empty Keg (3)"
- ]
+ ],
+ "style": 1
 }

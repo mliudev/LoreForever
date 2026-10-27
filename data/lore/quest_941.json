@@ -17,16 +17,16 @@
   "wiki": "Planting the Heart",
   "chain": []
  },
- "summary": "Planting the Heart is a task undertaken for the herbalist Denalan by the shores of Lake Al'Ameth in Teldrassil. After stripping away the suffocating moss from a strange wooden heart taken from a corrupted timberling, Denalan tests whether his specially enriched soil can cleanse and heal the lingering taint within it.",
+ "summary": "At Lake Al'Ameth, you help Denalan tend a wooden heart taken from a corrupted timberling. After clearing away its moss, he asks you to place it in his planter and see whether it can be healed.",
  "sections": [
   {
    "title": "A Second Chance at Life",
-   "body": "While examining the strange wooden organ recovered from the corrupted timberling known as Blackmoss the Fetid, Denalan manages to scrape away the foul moss strangling its surface. Yet despite his efforts, a deeper, unnatural taint still pulses within the wood. Rather than burn or discard it, Denalan relies on his lifelong craft of botany and soil tending. He instructs travelers to bury the heart directly into his personal planter box, trusting the rich nutrients he blended to coax whatever natural vitality remains back toward health.",
+   "body": "Denalan has scraped the foul moss from the wooden heart taken from Blackmoss the Fetid, a corrupted timberling. Yet an unnatural taint still pulses within the wood. Trusting his years of botany and soil tending, the herbalist asks you to bury the heart directly in his personal planter. He hopes the rich nutrients he blended can draw its remaining natural vitality back toward health.",
    "spoiler": 0
   },
   {
    "title": "The Miracle of Enriched Earth",
-   "body": "Placing the blackened wooden heart into Denalan's planter yields an unexpected reaction. The moment it touches the fertile soil, the heart burrows into the dirt as if guided by primal instinct. Moments later, it re-emerges to the surface, cleansed of its foul corruption and pulsing with a gentle, companionable warmth. By purifying the seed of a fallen, tainted creature, Denalan demonstrates that even when the wild denizens of Teldrassil fall prey to unnatural blights, careful nurturing and sacred earth can still restore harmony.",
+   "body": "The heart burrows into the soil as soon as it touches the earth, as if moved by primal instinct. Moments later, it rises cleansed of corruption, warm with a gentle, companionable glow. The heart of a fallen, tainted creature has been purified. Its change shows that careful nurturing and sacred earth can restore harmony, even when unnatural blights strike Teldrassil's wild denizens.",
    "spoiler": 1
   }
  ],
@@ -38,7 +38,7 @@
     "where did the heart come from",
     "blackmoss heart"
    ],
-   "answer": "The heart originally came from Blackmoss the Fetid, a corrupted timberling lurking along the shores of Lake Al'Ameth. It was recovered choked with tangled, foul moss before Denalan scraped it clean."
+   "answer": "The heart came from Blackmoss the Fetid, a corrupted timberling along Lake Al'Ameth's shores. It was choked with foul moss when recovered, before Denalan scraped it clean."
   },
   {
    "q": "Who is Denalan?",
@@ -46,7 +46,7 @@
     "who is denalan",
     "denalan lore"
    ],
-   "answer": "Denalan is a night elf botanist and herbalist who tends an isolated camp on the eastern edge of Lake Al'Ameth. He spends his days studying Teldrassil's plant life, investigating the strange corruption creeping through the boughs, and mixing enriched soils."
+   "answer": "Denalan is a night elf botanist and herbalist with an isolated camp on Lake Al'Ameth's eastern edge. He spends his days studying Teldrassil's plant life, investigating the strange corruption spreading through its boughs, and mixing enriched soils."
   },
   {
    "q": "Why put the heart in a planter instead of destroying it?",
@@ -54,7 +54,7 @@
     "why plant the heart",
     "why heal the heart"
    ],
-   "answer": "Denalan believes in understanding and healing nature rather than merely destroying corrupted beings. He hopes the nutritive soil he prepared can purge the taint and restore the heart's original, pure vitality."
+   "answer": "Denalan believes nature should be understood and healed rather than simply destroyed. He hopes his nutritive soil can purge the taint and restore the heart's original vitality."
   },
   {
    "q": "What happens when you bury the heart?",
@@ -62,7 +62,7 @@
     "what happens in the planter",
     "heart burrows"
    ],
-   "answer": "The heart immediately burrows into the soil upon contact. Seconds later, it wriggles back to the surface completely cleansed of its foul taint, pulsing gently as an animated companion."
+   "answer": "On touching the soil, the heart burrows into it. Seconds later, it wriggles back to the surface cleansed of its taint, pulsing gently as an animated companion."
   },
   {
    "q": "Does this cure the corruption of the timberlings?",
@@ -70,7 +70,7 @@
     "are timberlings cured",
     "curing timberlings"
    ],
-   "answer": "It cures only this single salvaged heart. While it proves that individual botanical spirits can be cleansed with care and rich soil, the overarching corruption spreading across Teldrassil remains an active danger."
+   "answer": "Only this single salvaged heart is cured. The change shows that individual botanical spirits can be cleansed with care and rich soil, while corruption still spreads across Teldrassil."
   },
   {
    "q": "Why is the soil in Denalan's planter special?",
@@ -78,21 +78,21 @@
     "denalan soil",
     "planter soil"
    ],
-   "answer": "Denalan has spent considerable time experimenting with compost and nutritive soil blends around Lake Al'Ameth, designing dirt potent enough to revitalize sickly flora and purge creeping decay."
+   "answer": "Denalan has spent considerable time experimenting with compost and nutritive soil blends around Lake Al'Ameth. He designed the soil to revitalize sickly flora and purge creeping decay."
   }
  ],
  "angles": [
   {
    "target": "class:Druid",
-   "text": "For a druid, witnessing a corrupted timberling's core cleansed through rich earth offers a reassuring sign that the unnatural taint afflicting the World Tree's boughs can still be turned back through natural care."
+   "text": "As a druid, you see a corrupted timberling's core cleansed through rich earth. It is a reassuring sign that natural care can turn back the unnatural taint afflicting the World Tree's boughs."
   },
   {
    "target": "profession:Herbalism",
-   "text": "Denalan's mastery over nutrient-rich soil and botanical rejuvenation showcases the vital link between studying the earth and mending damaged plant life."
+   "text": "Denalan's command of nutrient-rich soil and botanical renewal shows how studying the earth can help mend damaged plant life."
   },
   {
    "target": "race:NightElf",
-   "text": "Restoring living wood and coaxing life from fallen forest spirits reflects the kaldorei commitment to stewarding nature even in the face of Teldrassil's troubling ailments."
+   "text": "As a night elf, you see the kaldorei commitment to stewarding nature in the restoration of living wood and the coaxing of life from fallen forest spirits, even as Teldrassil suffers troubling ailments."
   }
  ],
  "keywords": [
@@ -112,5 +112,6 @@
  ],
  "attribution": [
   "Planting the Heart"
- ]
+ ],
+ "style": 1
 }

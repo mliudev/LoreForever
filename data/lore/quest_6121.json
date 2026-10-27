@@ -17,21 +17,21 @@
   "wiki": "Lessons Anew (Alliance)",
   "chain": []
  },
- "summary": "\"Lessons Anew\" is an initiation quest given to developing Alliance druids by Mathrengyl Bearwalker in Darnassus. It directs initiates to travel to the sacred haven of Moonglade to meet with Dendrite Starblaze and begin their training in the art of purging venom and toxins.",
+ "summary": "Mathrengyl Bearwalker sends Alliance druids from Darnassus to Moonglade for training. There, Dendrite Starblaze begins their instruction in cleansing venom and toxins.",
  "sections": [
   {
    "title": "A Gift from Cenarius",
-   "body": "Druids hold a sacred connection to the living world, inherited through the teachings and blessings of the demigod Cenarius. Among these boons is the power to cleanse foul venoms through simple incantation. However, such potent gifts are never bestowed lightly upon initiates. To truly respect the miraculous ease of their magical arts, young druids must first understand the painstaking mundane toil required to fight toxins without nature's direct intervention.",
+   "body": "Druids learn from Cenarius, the demigod whose teachings and blessings bind them to the living world. His gifts include the power to cleanse venom with a simple incantation. Such power is not given lightly. Before young druids can wield it, they must learn the hard, ordinary work of fighting toxins without nature's magic.",
    "spoiler": 0
   },
   {
    "title": "Summons to Nighthaven",
-   "body": "Mathrengyl Bearwalker, the druid trainer residing in the Cenarion Enclave of Darnassus, instructs his student to bypass local practice and journey directly to Moonglade. There in the quiet village of Nighthaven, Dendrite Starblaze coordinates the Cenarion Circle's broader efforts and stands ready to assign the novitiate an urgent, practical task.",
+   "body": "Mathrengyl Bearwalker trains druids in Darnassus's Cenarion Enclave. He sends his student past local practice and on to Moonglade. In Nighthaven, Dendrite Starblaze coordinates the Cenarion Circle's wider efforts and has practical work for the novice.",
    "spoiler": 0
   },
   {
    "title": "A Real-World Crisis",
-   "body": "Upon arriving in Nighthaven, initiates learn that their trial will not be an orchestrated test or a scripted ritual. The settlement of Auberdine on the Darkshore coast is facing a severe rash of animal poisonings that the locals are powerless to arrest. Dendrite Starblaze tasks the novitiate with investigating and aiding Darkshore, thrusting them directly into a real crisis where lives hang in the balance.",
+   "body": "In Nighthaven, initiates face a real crisis rather than a staged trial or ritual. Auberdine, on the Darkshore coast, suffers a wave of animal poisonings that its people cannot stop. Dendrite Starblaze sends the novice to investigate and aid Darkshore, where lives are at stake.",
    "spoiler": 1
   }
  ],
@@ -43,7 +43,7 @@
     "lessons anew quest giver",
     "mathrengyl bearwalker quest"
    ],
-   "answer": "The quest is offered by Mathrengyl Bearwalker, the night elf druid trainer located in the Cenarion Enclave in Darnassus."
+   "answer": "Mathrengyl Bearwalker, the night elf druid trainer in Darnassus's Cenarion Enclave, offers it."
   },
   {
    "q": "Where do I need to go to complete this quest?",
@@ -52,7 +52,7 @@
     "where is dendrite starblaze",
     "lessons anew turn in"
    ],
-   "answer": "You must travel to the sacred druidic realm of Moonglade and report to Dendrite Starblaze, who is located in the peaceful settlement of Nighthaven."
+   "answer": "Travel to Moonglade and report to Dendrite Starblaze in Nighthaven."
   },
   {
    "q": "Why must druids learn to cure poisons like a layman first?",
@@ -61,7 +61,7 @@
     "why cure poison without magic",
     "cenarius poison lesson"
    ],
-   "answer": "Druidic mentors believe that receiving Cenarius's miraculous gift of curing venom with a mere incantation can breed complacency. By making initiates study and solve venom crises through herbal and mundane methods first, they ensure the druid truly respects the burden and suffering poison causes."
+   "answer": "Druid mentors believe that Cenarius's gift of curing venom with an incantation can breed complacency. Studying ordinary ways to confront venom first teaches initiates to respect the burden and suffering poison causes."
   },
   {
    "q": "What problem is taking place in Auberdine?",
@@ -70,7 +70,7 @@
     "what is happening in auberdine",
     "darkshore animal poisonings"
    ],
-   "answer": "Auberdine is suffering from an outbreak of severe animal poisonings along the coast of Darkshore. The local night elves have been unable to cure the affliction, prompting them to send a plea for help to the Cenarion Circle in Moonglade."
+   "answer": "Auberdine suffers severe animal poisonings along the Darkshore coast. The local night elves cannot cure them and have asked the Cenarion Circle in Moonglade for help."
   },
   {
    "q": "What ability does this quest chain eventually grant?",
@@ -79,7 +79,7 @@
     "cure poison quest",
     "power over poison chain"
    ],
-   "answer": "This quest begins the 'Power over Poison' chain, which teaches druids the essential spell Cure Poison, enabling them to magically cleanse toxins from allies."
+   "answer": "It begins the Power over Poison chain, which teaches druids Cure Poison, a spell that magically cleanses toxins from allies."
   },
   {
    "q": "Is this quest available to Horde druids?",
@@ -88,21 +88,21 @@
     "can tauren do this",
     "tauren lessons anew"
    ],
-   "answer": "No. 'Lessons Anew' is specifically the Alliance version of the quest starting in Darnassus. Tauren druids receive a parallel quest starting in Thunder Bluff that also directs them to Moonglade to learn the art of curing poison."
+   "answer": "No. Lessons Anew begins in Darnassus for Alliance druids. Tauren druids receive a parallel beginning in Thunder Bluff, which also sends them to Moonglade to learn to cure poison."
   }
  ],
  "angles": [
   {
    "target": "class:Druid",
-   "text": "This rite of passage marks your transition from basic shapeshifting and survival into true custodianship of the wilds, teaching you to lift lethal blights and venoms from nature."
+   "text": "As a druid, you move beyond basic shapeshifting and survival toward caring for the wilds, learning to lift lethal blights and venoms from nature."
   },
   {
    "target": "race:NightElf",
-   "text": "Given by Darnassus's Cenarion Enclave, this quest connects the young kaldorei directly to the deeper ancestral responsibilities of Moonglade and Darkshore."
+   "text": "From Darnassus's Cenarion Enclave, you are sent toward the deeper ancestral responsibilities tied to Moonglade and Darkshore."
   },
   {
    "target": "faction:Alliance",
-   "text": "The crisis threatening Auberdine highlights how essential druidic aid is to securing the fragile northern Alliance settlements in Darkshore."
+   "text": "As an Alliance member, you see how vital druidic aid is to the fragile northern settlements in Darkshore, including Auberdine."
   }
  ],
  "keywords": [
@@ -128,5 +128,6 @@
  ],
  "attribution": [
   "Lessons Anew (Alliance)"
- ]
+ ],
+ "style": 1
 }

@@ -10,11 +10,11 @@
    "quest:876"
   ]
  },
- "summary": "Serena's Head is the grisly trophy taken from the matriarch of the Dry Hills harpies in the northern Barrens. Darsok Swiftdagger of the Crossroads demanded it as proof of her demise, intending to display it upon Horde supply wagons as a harsh deterrent against further aerial raids.",
+ "summary": "At the Dry Hills in the northern Barrens, Serena Bloodfeather's head is sought as proof of her death. Darsok Swiftdagger plans to display it on a Horde supply wagon as a warning against further harpy raids.",
  "sections": [
   {
    "title": "A Warning on the Road",
-   "body": "The Witchwing harpies of the Dry Hills have long plagued trade moving through the northern Barrens, but under Serena Bloodfeather their assaults turned particularly vicious. Her raids against Horde supply lines were driven by personal vengeance for her sister, who fell to the beastmaster Rexxar. To permanently break the morale of the flock, the orc rogue Darsok Swiftdagger ordered Serena hunted down. Rather than letting her death go unnoticed, he sought her severed head so it could be mounted upon the next outbound caravan\u2014serving as a stark, bloody warning to any harpy watching from the crags above.",
+   "body": "Serena Bloodfeather led the Witchwing harpies of the Dry Hills in attacks on trade through the northern Barrens. Her assaults on Horde supply lines grew vicious because her sister had fallen to the beastmaster Rexxar. Darsok Swiftdagger, an orc rogue, ordered Serena hunted to break the flock's morale. He wants her severed head mounted on an outbound caravan, where harpies watching from the crags will see the warning.",
    "spoiler": 1
   }
  ],
@@ -26,7 +26,7 @@
     "darsok serena head",
     "what does darsok do with the head"
    ],
-   "answer": "Darsok wants undeniable proof that Serena Bloodfeather is dead, and he intends to mount her head atop a Horde supply caravan. He hopes that displaying the matriarch's remains will terrify the surviving Witchwing harpies and discourage them from raiding travelers."
+   "answer": "Darsok wants proof that Serena Bloodfeather is dead, and plans to mount her head on a Horde supply caravan. He hopes the display will frighten the surviving Witchwing harpies away from travelers."
   },
   {
    "q": "Why was Serena Bloodfeather attacking Horde caravans?",
@@ -35,7 +35,7 @@
     "serena bloodfeather motive",
     "harpy attacks barrens"
    ],
-   "answer": "Serena's attacks were driven by a vendetta against the Horde. Her sister, Bloodfeather, was slain by the half-ogre champion Rexxar, and Serena sought vengeance by striking at Horde supply lines and wayfarers across the Barrens."
+   "answer": "Serena Bloodfeather attacked Horde caravans to avenge her sister, whom the half-ogre champion Rexxar had slain. She struck Horde supply lines and wayfarers across the Barrens."
   },
   {
    "q": "Where does this trophy come from?",
@@ -44,17 +44,17 @@
     "serena bloodfeather location",
     "how to get serenas head"
    ],
-   "answer": "It is severed from Serena Bloodfeather, the matriarch who roosts among the crags of the Dry Hills in the far northwestern reaches of the Barrens."
+   "answer": "The trophy is taken from Serena Bloodfeather, the matriarch who roosts among the Dry Hills crags in the far northwestern Barrens."
   }
  ],
  "angles": [
   {
    "target": "faction:Horde",
-   "text": "Caravans are the lifeblood connecting Durotar to Mulgore and the distant outposts; mounting Serena's head on supply wagons sends an unmistakable message of Horde dominance over the wild wastes."
+   "text": "Horde caravans connect Durotar to Mulgore and the distant outposts. Displaying Serena's head on a supply wagon declares Horde dominance over the wild wastes."
   },
   {
    "target": "class:Rogue",
-   "text": "Darsok Swiftdagger appreciates clean, ruthless work, praising mercenaries who can slip behind enemy perches and execute a target without flinching."
+   "text": "Darsok Swiftdagger values clean, ruthless work. He praises mercenaries who slip behind enemy perches and execute a target without flinching."
   }
  ],
  "keywords": [
@@ -80,5 +80,6 @@
  "attribution": [
   "Serena's Head",
   "Serena Bloodfeather (Classic)"
- ]
+ ],
+ "style": 1
 }

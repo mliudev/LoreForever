@@ -10,16 +10,16 @@
    "quest:2159"
   ]
  },
- "summary": "The Dolanaar Delivery is a package of harvested herbs sent from the druidic grounds of Shadowglen to the village of Dolanaar. Entrusted to young travelers leaving the sheltered glen, it serves as a simple errand to connect them with Innkeeper Keldamyr down the road.",
+ "summary": "In Shadowglen, young travelers carry harvested herbs south to Dolanaar. Porthannius entrusts them with the bundle for Innkeeper Keldamyr.",
  "sections": [
   {
    "title": "A Bundle from Shadowglen",
-   "body": "Harvested within the shadowed groves of Aldrassil, this parcel contains fresh herbs gathered for the settlement of Dolanaar. Porthannius, detained by ongoing matters among the druids of Shadowglen, relies on fledgling adventurers bound southward along the road to ferry the bundle safely to Innkeeper Keldamyr.",
+   "body": "Fresh herbs from Aldrassil are bound for Dolanaar. Porthannius is occupied with matters among the druids of Shadowglen, so he entrusts the bundle to young travelers heading south along the road. They carry it to Innkeeper Keldamyr.",
    "spoiler": 0
   },
   {
    "title": "Welcome to the Hearth",
-   "body": "Delivering the parcel brings the traveler straight to the threshold of Dolanaar's inn. Keldamyr receives the goods with gratitude, using the exchange to remind weary wayfarers of the necessity of rest, peace of mind, and the sanctuary offered by an inn's hearth before they venture deeper into Teldrassil.",
+   "body": "The parcel brings you to Dolanaar's inn, where Keldamyr receives it with gratitude. The inn offers weary travelers rest, peace of mind, and sanctuary before they venture deeper into Teldrassil.",
    "spoiler": 0
   }
  ],
@@ -31,7 +31,7 @@
     "contents of dolanaar delivery",
     "whats in the package"
    ],
-   "answer": "The package contains a selection of fresh herbs gathered in Shadowglen, intended to supply Innkeeper Keldamyr and the patrons of Dolanaar's inn."
+   "answer": "The package holds fresh herbs gathered in Shadowglen for Innkeeper Keldamyr and the patrons of Dolanaar's inn."
   },
   {
    "q": "Who sends this delivery?",
@@ -40,7 +40,7 @@
     "who sent the herbs",
     "porthannius delivery"
    ],
-   "answer": "Porthannius, an elf attending to business with the druids in Shadowglen, prepares the bundle but cannot spare the time to journey south himself."
+   "answer": "Porthannius, an elf tending to business with the druids in Shadowglen, prepares the bundle but cannot spare time to travel south himself."
   },
   {
    "q": "Who receives the package in Dolanaar?",
@@ -49,7 +49,7 @@
     "dolanaar delivery recipient",
     "keldamyr herbs"
    ],
-   "answer": "The delivery is brought directly to Innkeeper Keldamyr, who manages the communal inn in the heart of Dolanaar."
+   "answer": "Innkeeper Keldamyr receives the package at the communal inn in the heart of Dolanaar."
   },
   {
    "q": "Why couldn't Porthannius deliver the parcel himself?",
@@ -57,17 +57,17 @@
     "why porthannius stay",
     "why did porthannius send me"
    ],
-   "answer": "Porthannius has urgent, unfinished business with the druids stationed around Aldrassil, forcing him to seek out a traveling adventurer heading south along the forest road."
+   "answer": "Porthannius has urgent, unfinished business with the druids around Aldrassil, so he seeks a traveler heading south along the forest road."
   }
  ],
  "angles": [
   {
    "target": "profession:Herbalism",
-   "text": "The delivery highlights the steady demand for flora harvested around Aldrassil to stock the outlying settlements of Teldrassil."
+   "text": "Herbs gathered around Aldrassil meet steady demand as Teldrassil's outlying settlements stock their supplies."
   },
   {
    "target": "race:NightElf",
-   "text": "Taking the package marks a rite of passage for young kaldorei stepping beyond the protective boughs of Shadowglen into the wider realm."
+   "text": "As a young kaldorei, carrying the package marks a rite of passage beyond Shadowglen's protective boughs and into the wider realm."
   }
  ],
  "keywords": [
@@ -90,5 +90,6 @@
  "attribution": [
   "Dolanaar Delivery",
   "Dolanaar Delivery (quest)"
- ]
+ ],
+ "style": 1
 }

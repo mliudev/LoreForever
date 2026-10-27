@@ -8,11 +8,11 @@
   "wiki": "Zjolnir",
   "refs": 2
  },
- "summary": "Zjolnir is a Darkspear troll mount breeder stationed in Sen'jin Village along the southern coast of Durotar. He provides trained riding raptors to the Darkspear and trustworthy champions of the Horde. For troll riders, his stable of vicious, loyal beasts is a point of deep cultural pride.",
+ "summary": "In Sen'jin Village, Zjolnir raises raptors for Darkspear riders and trusted Horde champions. His trained mounts carry deep cultural pride for troll riders.",
  "sections": [
   {
    "title": "Breeder of the Darkspear Raptors",
-   "body": "Situated near the pens of Sen'jin Village, Zjolnir tends to the fierce raptors favored as mounts by the Darkspear trolls. Raptors are temperamental and predatory by nature, requiring an expert hand to raise and saddle for war. Zjolnir freely provides these prized whistled mounts to fellow trolls who have learned the necessary riding arts. Outsiders belonging to the wider Horde must first earn the exalted trust of the Darkspear tribe before Zjolnir will consider trusting them with one of his pack.",
+   "body": "Near Sen'jin Village's pens, Zjolnir raises the fierce raptors the Darkspear favor as mounts. Predatory and temperamental, they need an expert hand before they can be raised and saddled for war. Zjolnir freely gives these prized mounts to fellow trolls who have learned the riding arts. Other Horde members must first earn the Darkspear tribe's exalted trust before he will entrust them with one of his raptors.",
    "spoiler": 0
   }
  ],
@@ -24,7 +24,7 @@
     "where is zjolnir",
     "raptor vendor location"
    ],
-   "answer": "Zjolnir is located in Sen'jin Village, a coastal Darkspear settlement found in the southern reaches of Durotar, standing beside the village's raptor pens."
+   "answer": "Zjolnir tends the raptor pens in Sen'jin Village, a Darkspear settlement on Durotar's southern coast."
   },
   {
    "q": "What does Zjolnir sell?",
@@ -33,7 +33,7 @@
     "what does he sell",
     "troll mount vendor"
    ],
-   "answer": "Zjolnir sells whistle-summoned raptors, the signature racial mounts of the Darkspear trolls. His stock includes various breeds and colors suited for both newly trained riders and experienced veterans."
+   "answer": "Zjolnir sells whistle-summoned raptors, the Darkspear trolls' racial mounts. His stock includes several breeds and colors for newly trained riders and seasoned veterans."
   },
   {
    "q": "Can non-trolls buy raptors from him?",
@@ -42,17 +42,17 @@
     "who can buy mounts from zjolnir",
     "horde raptor mount"
    ],
-   "answer": "Yes, but non-trolls must earn exalted standing with the Darkspear Trolls before Zjolnir will sell to them. Trolls can purchase from him immediately once they possess the required riding skill."
+   "answer": "Yes. Non-trolls must earn exalted standing with the Darkspear Trolls before Zjolnir will sell to them. Trolls may buy once they have the required riding skill."
   }
  ],
  "angles": [
   {
    "target": "race:Troll",
-   "text": "For Darkspear trolls, Zjolnir provides the swift, clawed beasts central to their heritage and fighting traditions."
+   "text": "As a Darkspear troll, you can ride the swift, clawed beasts central to your heritage and fighting traditions. Zjolnir provides them for your people."
   },
   {
    "target": "faction:Horde",
-   "text": "Any Horde warrior who proves their steadfast devotion to the Darkspear tribe can earn the privilege of riding one of Zjolnir's raptors into battle."
+   "text": "As a Horde warrior, you can earn the right to ride one of Zjolnir's raptors into battle by proving your steadfast devotion to the Darkspear tribe."
   }
  ],
  "keywords": [
@@ -71,5 +71,6 @@
  ],
  "attribution": [
   "Zjolnir"
- ]
+ ],
+ "style": 1
 }

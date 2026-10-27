@@ -10,16 +10,16 @@
    "quest:1740"
   ]
  },
- "summary": "The Large Soran'ruk Fragment is a sizable remnant of an ancient artifact bound with demonic energy. Originally housing the spirit of a disgraced Burning Legion demon, this shard found its way into the hands of sinister spellcasters within the haunted walls of Shadowfang Keep.",
+ "summary": "The Large Soran'ruk Fragment rests in Shadowfang Keep, far from the other shards. Its broken orb once held a disgraced demon of the Burning Legion.",
  "sections": [
   {
    "title": "The Legacy of Soran'ruk",
-   "body": "When demons of the Burning Legion fall out of favor with their dark masters, their spirits are sometimes condemned to imprisonment within enchanted orbs. These vessels are subsequently distributed among mages and warlocks aligned with the Legion, who draw upon the potent fel forces trapped within. Even when shattered into fragments, the lingering essence of the bound fiend still radiates power, making each piece a prize for ambitious practitioners of shadow magic.",
+   "body": "Disgraced demons of the Burning Legion may be condemned to imprisonment in enchanted orbs. Mages and warlocks aligned with the Legion receive these vessels and draw on the fel forces trapped within. Even when an orb is shattered, its bound fiend's lingering essence still radiates power. Each fragment draws ambitious practitioners of shadow magic.",
    "spoiler": 0
   },
   {
    "title": "The Shard in Shadowfang",
-   "body": "The orb of Soran'ruk was long ago cracked into two halves. While one portion was fractured further and dispersed among cultists elsewhere, the larger half was claimed by a sorcerer dwelling within the cursed stronghold of Shadowfang Keep. There, carried among the sinister Shadowfang Darksouls, the Large Soran'ruk Fragment channels demonic power until sought out by those hoping to reforge the ancient vessel.",
+   "body": "The orb of Soran'ruk was cracked into two halves long ago. Cultists elsewhere scattered one half into smaller pieces. A sorcerer in the cursed Shadowfang Keep claimed the larger half. The Shadowfang Darksouls carry the Large Soran'ruk Fragment, which holds the bound spirit until someone seeks to reforge the ancient vessel.",
    "spoiler": 0
   }
  ],
@@ -31,7 +31,7 @@
     "soranruk large fragment",
     "what is this fragment"
    ],
-   "answer": "It is the major half of the Orb of Soran'ruk, an ancient magical vessel containing the bound spirit of a disgraced demon from the Burning Legion."
+   "answer": "The Large Soran'ruk Fragment is the larger half of the Orb of Soran'ruk, an ancient vessel holding the bound spirit of a disgraced Burning Legion demon."
   },
   {
    "q": "Where is the fragment found?",
@@ -40,7 +40,7 @@
     "large fragment location",
     "who drops large soranruk fragment"
    ],
-   "answer": "The fragment is held by the Shadowfang Darksouls, malevolent spellcasters residing in the haunted fortress of Shadowfang Keep in Silverpine Forest."
+   "answer": "The Shadowfang Darksouls hold the fragment in Shadowfang Keep, a haunted fortress in Silverpine Forest."
   },
   {
    "q": "Why was the orb broken?",
@@ -49,7 +49,7 @@
     "why is the orb fragmented",
     "orb of soranruk history"
    ],
-   "answer": "The original orb was split into two primary pieces. The smaller half was broken into smaller shards and carried into the coastal caverns of Blackfathom Deeps, while this larger portion was kept by dark wizards in Shadowfang Keep."
+   "answer": "The original orb was split into two main pieces. The smaller half was broken into shards and carried to the coastal caverns of Blackfathom Deeps, while dark wizards kept the larger half in Shadowfang Keep."
   },
   {
    "q": "Who wants to reassemble it?",
@@ -57,13 +57,13 @@
     "who needs the large fragment",
     "who reassembles the orb"
    ],
-   "answer": "Doan Karhan, a reclusive hermit dwelling in the southern reaches of the Barrens, has devoted his life to studying and reconstructing the lost orbs of the Burning Legion."
+   "answer": "Doan Karhan, a reclusive hermit in the southern Barrens, has devoted his life to studying and reconstructing the lost orbs of the Burning Legion."
   }
  ],
  "angles": [
   {
    "target": "class:Warlock",
-   "text": "Reclaiming the Large Soran'ruk Fragment allows you to master the trapped demonic spirit inside, aiding Doan Karhan in reconstructing a potent weapon tailored for demonic arts."
+   "text": "Reclaiming the Large Soran'ruk Fragment lets you master the trapped demonic spirit inside and aid Doan Karhan in reconstructing a potent weapon for demonic arts."
   }
  ],
  "keywords": [
@@ -85,5 +85,6 @@
  "attribution": [
   "Large Soran'ruk Fragment",
   "The Orb of Soran'ruk"
- ]
+ ],
+ "style": 1
 }
