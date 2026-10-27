@@ -17,16 +17,16 @@
   "wiki": "Back to Darnassus",
   "chain": []
  },
- "summary": "This quest marks the return of a novice night elf druid from the sacred groves of Moonglade to Darnassus. Having communed with the Great Bear Spirit, the initiate reports back to Mathrengyl Bearwalker in the Cenarion Enclave to begin practical shapeshifting trials.",
+ "summary": "After meeting the Great Bear Spirit, a young night elf druid returns to Darnassus. The initiate has left Moonglade and now reports to Mathrengyl Bearwalker in the Cenarion Enclave for practical shapeshifting trials.",
  "sections": [
   {
    "title": "A Journey Between Sanctuaries",
-   "body": "After communing with the Great Bear Spirit in Moonglade, a young druid must bridge the divide between timeless nature sanctuaries and the unsettled world. Dendrite Starblaze sends the initiate back from Nighthaven to Darnassus, entrusting the next phase of training to the local mentors watching over Teldrassil.",
+   "body": "Dendrite Starblaze sends the initiate from Nighthaven back to Darnassus after the meeting with the Great Bear Spirit in Moonglade. The journey joins two sanctuaries: Moonglade, where the young druid has communed with the spirit, and the unsettled world beyond. In Darnassus, local mentors watch over Teldrassil and guide the next stage of training.",
    "spoiler": 0
   },
   {
    "title": "The Path of the Claw",
-   "body": "Mathrengyl Bearwalker awaits in the Cenarion Enclave, guarding nature even in places where the balance falters. Receiving the blessing of the Great Bear Spirit is merely the first step; Mathrengyl prepares the initiate to anchor that fierce ancestral wisdom into physical form through demanding trials of body and heart.",
+   "body": "Mathrengyl Bearwalker waits in the Cenarion Enclave, where he guards nature even as its balance falters. The Great Bear Spirit's blessing is only the first step. Mathrengyl prepares the initiate for trials of body and heart, to give physical form to the spirit's fierce ancestral wisdom.",
    "spoiler": 0
   }
  ],
@@ -38,7 +38,7 @@
     "why leave moonglade",
     "where does dendrite send me"
    ],
-   "answer": "Moonglade provides the spiritual communion with the Great Bear Spirit, but your direct mentor, Mathrengyl Bearwalker, resides in the Cenarion Enclave of Darnassus. He guides the practical tests required to master your newly granted power."
+   "answer": "Moonglade is where you commune with the Great Bear Spirit, while your mentor, Mathrengyl Bearwalker, waits in Darnassus's Cenarion Enclave. He guides the practical tests that help you master your new power."
   },
   {
    "q": "Who is Mathrengyl Bearwalker?",
@@ -47,7 +47,7 @@
     "mathrengyl bearwalker lore",
     "bearwalker"
    ],
-   "answer": "Mathrengyl Bearwalker is a seasoned night elf druid trainer stationed in Darnassus's Cenarion Enclave. He specializes in guiding young initiates through the Way of the Claw and mastering bear form."
+   "answer": "Mathrengyl Bearwalker is a seasoned night elf druid trainer in Darnassus's Cenarion Enclave. He guides young initiates along the Way of the Claw and in mastering bear form."
   },
   {
    "q": "How do I get back to Darnassus from Moonglade?",
@@ -56,7 +56,7 @@
     "moonglade flight back",
     "silva fil'naveth"
    ],
-   "answer": "The hippogryph master Silva Fil'naveth, located in southwestern Nighthaven, provides initiates with direct flights back across the sea to Rut'theran Village, where the portal leads up into Darnassus."
+   "answer": "Silva Fil'naveth, the hippogryph master in southwestern Nighthaven, can fly you across the sea to Rut'theran Village. From there, a portal leads up into Darnassus."
   },
   {
    "q": "What happens after I speak to Mathrengyl?",
@@ -64,7 +64,7 @@
     "next quest after back to darnassus",
     "what comes next"
    ],
-   "answer": "Mathrengyl will assign your first true test of purpose, tasking you to face Lunaclaw at the Moonkin Stone east of Auberdine in Darkshore to prove your body and heart are ready to wield the bear form."
+   "answer": "Mathrengyl gives you your first true test of purpose: face Lunaclaw at the Moonkin Stone east of Auberdine in Darkshore. The trial proves whether your body and heart are ready to wield bear form."
   },
   {
    "q": "What is the Path of the Claw?",
@@ -72,7 +72,7 @@
     "path of the claw",
     "druid claw lore"
    ],
-   "answer": "The Path of the Claw is the druidic tradition focused on channeling the ferocity, resilience, and strength of the bear, embodied through communion with ancient primal spirits."
+   "answer": "The Path of the Claw is a druidic tradition that channels the bear's ferocity, resilience, and strength through communion with ancient primal spirits."
   },
   {
    "q": "Why does Dendrite mention balance faltering near Darnassus?",
@@ -80,17 +80,17 @@
     "balance faltered darnassus",
     "teldrassil corrupted"
    ],
-   "answer": "Teldrassil is young and unblessed by the Dragon Aspects, leaving its boughs vulnerable to strange corruptions, furbolg madness, and encroaching darkness that druids in the Cenarion Enclave actively combat."
+   "answer": "Teldrassil is young and lacks the Dragon Aspects' blessing, leaving its boughs vulnerable to strange corruptions, furbolg madness, and encroaching darkness. Druids in the Cenarion Enclave fight these threats."
   }
  ],
  "angles": [
   {
    "target": "class:Druid",
-   "text": "This journey represents a crucial rite of passage for young druids, marking the transition from theoretical spiritual communion to physical shapeshifting."
+   "text": "For a young druid, this journey marks the passage from spiritual communion to physical shapeshifting."
   },
   {
    "target": "race:NightElf",
-   "text": "Traveling between the ancient sanctuary of Moonglade and the newly planted World Tree of Teldrassil reflects the balance between millenia of kaldorei heritage and their present duties."
+   "text": "As a night elf, you travel between Moonglade, an ancient sanctuary, and Teldrassil, the newly planted World Tree. The journey joins millennia of kaldorei heritage with your duties today."
   }
  ],
  "keywords": [
@@ -114,5 +114,6 @@
  ],
  "attribution": [
   "Back to Darnassus"
- ]
+ ],
+ "style": 1
 }

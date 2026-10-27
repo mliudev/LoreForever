@@ -1,0 +1,88 @@
+{
+ "key": "quest:286",
+ "type": "quest",
+ "name": "Return the Statuette",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   286
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "Karl Boran in Menethil Harbor asks you to bring back the Menethil Statuette. The figurine was found inside the barrel pulled from the muck, and its recovery matters to the Blind Princess's captain.",
+ "sections": [
+  {
+   "title": "The Figurine",
+   "body": "You found the statuette packed in fine straw inside the barrel. It shows a young, long-haired Paladin raising a hammer. Karl Boran in Menethil Harbor is waiting for its return, and the Blind Princess's captain will be relieved to hear the cargo is safe.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is the Menethil Statuette?",
+   "aliases": [
+    "statuette",
+    "menethil figurine",
+    "what's in the barrel"
+   ],
+   "answer": "The Menethil Statuette is a silvery figurine showing a young, long-haired Paladin with a raised hammer."
+  },
+  {
+   "q": "Where was the statuette found?",
+   "aliases": [
+    "barrel statuette",
+    "where was it",
+    "straw barrel"
+   ],
+   "answer": "The statuette was packed in fine straw inside a barrel pulled from the muck."
+  },
+  {
+   "q": "Who is waiting for the statuette?",
+   "aliases": [
+    "who gets the statuette",
+    "return statuette",
+    "Karl Boran"
+   ],
+   "answer": "Karl Boran in Menethil Harbor is waiting for the Menethil Statuette."
+  },
+  {
+   "q": "Who will be relieved when it is returned?",
+   "aliases": [
+    "captain relieved",
+    "Blind Princess cargo",
+    "who owns the cargo"
+   ],
+   "answer": "The captain of the Blind Princess will be relieved that the precious cargo has been recovered."
+  },
+  {
+   "q": "What does the statuette depict?",
+   "aliases": [
+    "who is on the statuette",
+    "Paladin figurine",
+    "hammer statuette"
+   ],
+   "answer": "It depicts a young, long-haired Paladin with a hammer raised."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "barrel",
+  "blind princess",
+  "karl boran",
+  "menethil harbor",
+  "menethil statuette",
+  "paladin",
+  "statuette"
+ ],
+ "related": [
+  "item:menethil-statuette",
+  "subzone:menethil-harbor",
+  "topic:paladin"
+ ],
+ "style": 1,
+ "attribution": [
+  "In-game quest text: Return the Statuette"
+ ]
+}

@@ -7,16 +7,16 @@
  "meta": {
   "wiki": "Dreadmist Peak"
  },
- "summary": "Dreadmist Peak is a jagged, desolate mountain looming northwest of the Crossroads in the Barrens. Shrouded in an unnatural, crimson miasma, the peak serves as a secluded redoubt for the demonic cultists of the Burning Blade.",
+ "summary": "Red haze cloaks Dreadmist Peak, northwest of the Crossroads in the Barrens. The Burning Blade cult keeps a hidden refuge on its crags.",
  "sections": [
   {
    "title": "A Den of Corruption",
-   "body": "Rising high above the arid savannas of the Barrens, Dreadmist Peak stands out as a site of palpable evil. As travelers wind their way up the crags, the bright sky is blotted out by a dense, reddish haze. At the mountain's crest and within its subterranean hollows, the Burning Blade cult operates in secret, harboring warlocks and toxicologists. From this vantage, the cultists spread poisons into the nearby water table and scheme against the nascent powers establishing control over central Kalimdor.",
+   "body": "Dreadmist Peak rises above the Barrens, its crags swallowed by a dense red haze that dims the sky. At the crest and in the hollows below, Burning Blade cultists shelter warlocks and toxicologists. They poison nearby water and scheme against the new powers claiming central Kalimdor.",
    "spoiler": 0
   },
   {
    "title": "A Convergence of Schemes",
-   "body": "Beyond housing warlocks and their dark rituals around Dreadmist Den, the peak has drawn another malevolent figure. The rogue Forsaken mage Sarilus Foulborne made his camp upon the heights, bending elemental forces to corrupt water spirits as far north as Ashenvale.",
+   "body": "Dreadmist Peak draws more than the Burning Blade. Sarilus Foulborne, a rogue Forsaken mage, has made camp on its heights. He bends elemental forces to corrupt water spirits as far north as Ashenvale.",
    "spoiler": 1
   }
  ],
@@ -28,7 +28,7 @@
     "orange fog dreadmist peak",
     "why is dreadmist red"
    ],
-   "answer": "No account records where the reddish-orange fog smothering the peak comes from. It cloaks the trails and Dreadmist Den, where the resident Burning Blade warlocks carry out their foul rituals."
+   "answer": "No one knows where the reddish-orange fog around Dreadmist Peak comes from. It covers the trails and Dreadmist Den, where Burning Blade warlocks perform their rituals."
   },
   {
    "q": "Who controls Dreadmist Peak?",
@@ -37,7 +37,7 @@
     "dreadmist peak enemies",
     "burning blade dreadmist"
    ],
-   "answer": "The mountain is controlled by the Burning Blade cult, who keep watch along its trails and guard Dreadmist Den beneath. It is also occupied by dark figures such as the renegade undead mage Sarilus Foulborne."
+   "answer": "The Burning Blade cult controls Dreadmist Peak, watches its trails, and guards Dreadmist Den below. Sarilus Foulborne, a renegade undead mage, also occupies the mountain."
   },
   {
    "q": "How do you reach Dreadmist Peak?",
@@ -46,17 +46,17 @@
     "dreadmist peak location",
     "dreadmist path"
    ],
-   "answer": "Follow the main road north from the Crossroads until it forks toward Ashenvale and Stonetalon. Face northwest to see the crag looming overhead, then ascend the path up its northern face, the safest climb to the top."
+   "answer": "Follow the main road north from the Crossroads to the fork for Ashenvale and Stonetalon. Turn northwest toward the looming crag, then climb the path up its northern face for the safest route to the top."
   }
  ],
  "angles": [
   {
    "target": "class:Druid",
-   "text": "Tauren druids from Camp Taurajo investigate Dreadmist Peak's water sources, seeking to identify the unnatural toxins poisoning the gazelles and wildlife of the plains."
+   "text": "As a tauren druid, you investigate Dreadmist Peak's water sources from Camp Taurajo, seeking the unnatural toxins poisoning the gazelles and wildlife of the plains."
   },
   {
    "target": "faction:Alliance",
-   "text": "Alliance agents operating near Ashenvale trace corrupting magic bound to befouled water elementals straight to Sarilus Foulborne, an undead summoner lurking on the peak."
+   "text": "As an Alliance agent near Ashenvale, you trace the magic corrupting water elementals to Sarilus Foulborne, an undead summoner on the peak."
   }
  ],
  "keywords": [
@@ -78,5 +78,6 @@
  ],
  "attribution": [
   "Dreadmist Peak"
- ]
+ ],
+ "style": 1
 }

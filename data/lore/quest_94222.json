@@ -1,0 +1,79 @@
+{
+ "key": "quest:94222",
+ "type": "quest",
+ "name": "Craftsman's Writ: Iridescent Hammer",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   94222
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "A faded writ requests an Iridescent Hammer and gives details for delivery and payment. Its transferable mark lets the holder complete the exchange.",
+ "sections": [
+  {
+   "title": "The Writ",
+   "body": "The customer requests one Iridescent Hammer. You need the writ with you to complete the transaction at the marked location.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What does the customer want?",
+   "aliases": [
+    "iridescent hammer writ",
+    "what item is requested"
+   ],
+   "answer": "The customer requests one Iridescent Hammer."
+  },
+  {
+   "q": "Where do I deliver it?",
+   "aliases": [
+    "writ delivery place",
+    "where to take hammer"
+   ],
+   "answer": "The writ gives delivery details, and the location is marked on your map."
+  },
+  {
+   "q": "Does the writ need to be with me?",
+   "aliases": [
+    "need writ to deliver",
+    "writ required"
+   ],
+   "answer": "Yes. You must have the writ in your possession to complete the transaction."
+  },
+  {
+   "q": "Can someone else use the writ?",
+   "aliases": [
+    "transferable writ",
+    "pass writ along"
+   ],
+   "answer": "Yes. The writ is marked as transferable."
+  },
+  {
+   "q": "Does the writ say how payment works?",
+   "aliases": [
+    "hammer payment",
+    "how much payment"
+   ],
+   "answer": "The writ includes information about payment."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "craftsman's writ",
+  "delivery",
+  "hammer",
+  "iridescent hammer",
+  "payment",
+  "transferable",
+  "writ"
+ ],
+ "related": [],
+ "style": 1,
+ "attribution": [
+  "In-game quest text: Craftsman's Writ: Iridescent Hammer"
+ ]
+}

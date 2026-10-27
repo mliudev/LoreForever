@@ -17,21 +17,21 @@
   "wiki": "In Search of Menara Voidrender (Orgrimmar)",
   "chain": []
  },
- "summary": "Zevrost, a cynical warlock trainer lurking in Orgrimmar's Cleft of Shadow, directs seasoned practitioners to seek out Menara Voidrender in the Barrens. Despite his harsh warnings about the inevitable price of demonic corruption, he points ambitious warlocks toward an expert mentor capable of fashioning powerful arcane vestments.",
+ "summary": "Zevrost sends warlocks from Orgrimmar to seek Menara Voidrender in the Barrens. He warns that fel magic leads to demonic enslavement, yet points them toward a mentor who can help fashion powerful arcane vestments.",
  "sections": [
   {
    "title": "Warnings in the Shadows",
-   "body": "Deep beneath Orgrimmar in the Cleft of Shadow, warlocks operate under a veil of uneasy tolerance. Zevrost is among the more bitter tutors in the dark arts, quick to sneer at ambitious acolytes striving for mastery. In his eyes, anyone delving deeper into fel magic is merely racing toward their own enslavement. He insists that it is only a matter of time before demonic addiction overtakes the practitioner completely, reducing even the most disciplined scholar into a thrall of the Twisting Nether.",
+   "body": "Warlocks gather beneath Orgrimmar in the Cleft of Shadow, where their presence is tolerated uneasily. Zevrost, one of their bitter tutors, sneers at acolytes who seek mastery of the dark arts. He believes those who delve deeper into fel magic only hasten their own enslavement. In his view, demonic addiction will eventually overtake every practitioner, turning even the most disciplined scholar into a thrall of the Twisting Nether.",
    "spoiler": 0
   },
   {
    "title": "The Path to Ratchet",
-   "body": "Despite his contemptuous predictions, Zevrost concedes that other practitioners do not share his dreary outlook. Word has reached Orgrimmar of Menara Voidrender, a skilled warlock stationed on the bluffs overlooking the neutral goblin port of Ratchet. Menara seeks promising disciples to aid in crafting specialized implements to harness their arcane might. For warlocks eager to push their craft further, this summons marks the beginning of forging the legendary Enchanted Gold Bloodrobe.",
+   "body": "Zevrost admits that other warlocks do not share his bleak view. Word has reached Orgrimmar of Menara Voidrender, a skilled warlock on the bluffs overlooking Ratchet, the neutral goblin port. Menara seeks promising disciples to help craft specialized implements for wielding their arcane might. For warlocks eager to advance their craft, her summons begins the forging of the legendary Enchanted Gold Bloodrobe.",
    "spoiler": 0
   },
   {
    "title": "A Pragmatic Fellowship",
-   "body": "Upon finding Menara high above Ratchet, the nature of warlock society becomes starkly apparent. Menara observes that warlocks must set aside racial and cultural rivalries to support one another, as the demons they bargain with harbor no prejudice and show no mercy to anyone who falters. Sharing expertise and fashioning protective vestments is not done out of noble charity, but as a practical necessity to survive the hostile entities they bind to their service.",
+   "body": "Menara waits high above Ratchet, where the realities of warlock society are plain. Warlocks must set aside racial and cultural rivalries and support one another. The demons they bargain with show no prejudice and no mercy to anyone who falters. Sharing knowledge and crafting protective vestments comes from practical need, not noble charity: warlocks must survive the hostile entities they bind to their service.",
    "spoiler": 0
   }
  ],
@@ -43,7 +43,7 @@
     "zevrost lore",
     "who starts in search of menara voidrender"
    ],
-   "answer": "Zevrost is an orc warlock trainer residing in the Cleft of Shadow beneath Orgrimmar. He is deeply cynical regarding the pursuit of fel power, viewing all ambitious warlocks as fools destined to become slaves to demonic corruption."
+   "answer": "Zevrost is an orc warlock trainer in the Cleft of Shadow beneath Orgrimmar. He distrusts the pursuit of fel power and sees ambitious warlocks as fools destined for slavery to demonic corruption."
   },
   {
    "q": "Who is Menara Voidrender?",
@@ -52,7 +52,7 @@
     "where is menara voidrender",
     "who is menara"
    ],
-   "answer": "Menara Voidrender is an accomplished warlock residing in the Barrens on the cliffs overlooking the goblin port of Ratchet. She acts as a mentor for rising warlocks, helping them gather rare reagents to construct potent ceremonial robes."
+   "answer": "Menara Voidrender is an accomplished warlock in the Barrens, on the cliffs overlooking Ratchet. She mentors rising warlocks and helps them gather rare reagents to make potent ceremonial robes."
   },
   {
    "q": "Why does Zevrost think all warlocks are fools?",
@@ -60,7 +60,7 @@
     "zevrost corruption",
     "why does zevrost warn me"
    ],
-   "answer": "Zevrost believes that fel magic inevitably corrupts and enslaves anyone who attempts to master it. In his view, no practitioner has the will to avoid addiction, and striving for greater power merely accelerates their downfall."
+   "answer": "Zevrost believes fel magic inevitably corrupts and enslaves anyone who tries to master it. He thinks no practitioner can resist addiction, and that seeking greater power only hastens their downfall."
   },
   {
    "q": "Where can Menara Voidrender be found?",
@@ -68,7 +68,7 @@
     "menara location",
     "find menara voidrender"
    ],
-   "answer": "Menara is stationed in the Barrens, positioned on the high hills overlooking the coastal port of Ratchet. Warlocks must travel east across the arid savannah to reach her overlooking camp."
+   "answer": "Menara is in the Barrens, on the high hills overlooking Ratchet. Warlocks travel east across the arid savannah to reach her camp overlooking the port."
   },
   {
    "q": "Why do warlocks from different races work together?",
@@ -76,7 +76,7 @@
     "warlock solidarity",
     "why do warlocks band together"
    ],
-   "answer": "As Menara explains, the demonic forces summoned by warlocks show indiscriminately cruel malice to anyone who fails to control them. Because survival depends on absolute precision, warlocks regularly share knowledge and tools across cultural boundaries."
+   "answer": "As Menara explains, demons summoned by warlocks show cruel malice to anyone who fails to control them. Survival depends on precision, so warlocks share knowledge and tools across cultural boundaries."
   },
   {
    "q": "What happens after finding Menara Voidrender?",
@@ -84,17 +84,17 @@
     "next quest after menara",
     "what does menara want"
    ],
-   "answer": "Menara Voidrender immediately enlists the warlock to gather exotic and potent materials across Azeroth to construct the Enchanted Gold Bloodrobe, a protective garment attuned to fel energies."
+   "answer": "Menara enlists the warlock to gather exotic, potent materials from across Azeroth to make the Enchanted Gold Bloodrobe, a garment protective against fel energies."
   }
  ],
  "angles": [
   {
    "target": "class:Warlock",
-   "text": "This quest represents a pivotal rite of passage for Horde warlocks, sending them to assemble their own iconic Enchanted Gold Bloodrobe under Menara Voidrender's guidance."
+   "text": "As a warlock, you travel under Menara Voidrender's guidance to assemble your own iconic Enchanted Gold Bloodrobe, a rite of passage for Horde warlocks."
   },
   {
    "target": "faction:Horde",
-   "text": "Horde warlocks must constantly navigate the contempt of traditional shamans and warriors, finding shelter only in hidden recesses like Orgrimmar's Cleft of Shadow or neutral ground near Ratchet."
+   "text": "As a Horde warlock, you face the contempt of traditional shamans and warriors. You find shelter in hidden places such as Orgrimmar's Cleft of Shadow or on neutral ground near Ratchet."
   }
  ],
  "keywords": [
@@ -116,5 +116,6 @@
  ],
  "attribution": [
   "In Search of Menara Voidrender (Orgrimmar)"
- ]
+ ],
+ "style": 1
 }

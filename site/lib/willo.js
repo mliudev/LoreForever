@@ -55,7 +55,7 @@ function offer(sizes, preview) {
 export function willoGet(sizes, preview = null) {
   const o = offer(sizes, preview);
   if (!o) {
-    return `<p class="wl-soon">Willo is almost here. Get the free Lore Forever add-on now, and Willo joins you soon.</p>
+    return `<p class="wl-soon">Willo is almost here. She works on her own, and the free Lore Forever add-on is optional.</p>
       <p><a class="h-btn h-book-btn" href="/downloads#addon">Get the Lore Forever add-on</a></p>`;
   }
   return `<p><a class="h-btn h-willo-btn dl-link" id="willo-download" href="/download/willo?src=willo"
@@ -63,5 +63,5 @@ export function willoGet(sizes, preview = null) {
       <ul class="h-meta"><li data-willo-downloads hidden></li><li>Willo-Setup.exe</li>${size(o.bytes) ? `<li>${size(o.bytes)}</li>` : ""}<li>Windows 10 or 11</li><li>${o.version}</li></ul>
       <div class="wl-phone"><p>On your phone? Willo runs on your Windows PC.</p>
         <button type="button" class="h-btn h-ghost h-sm" data-keep="https://loreforeverwow.com/willo">Copy the link for your PC</button></div>
-      <p class="wl-note">Willo walks beside the free <a href="/downloads#addon">Lore Forever add-on</a>: get that first.</p>`;
+      <p class="wl-note">Willo works on her own. The free <a href="/downloads#addon">Lore Forever add-on</a> is optional: it lets her see your quests and where you are in the game.</p>`;
 }

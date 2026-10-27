@@ -17,16 +17,16 @@
   "wiki": "Denalan's Earth",
   "chain": []
  },
- "summary": "Denalan's Earth is an errand running south from the settlement of Dolanaar to the tranquil waters of Lake Al'Ameth. Syral Bladeleaf asks travelers to hand-deliver a delayed shipment of rare, enriched soil to her botanical colleague, Denalan, who studies the boughs and flora of the new World Tree.",
+ "summary": "In Dolanaar, Syral Bladeleaf sends a late shipment of rare earth south to Denalan at Lake Al'Ameth. The night elf researcher studies Teldrassil's young plants.",
  "sections": [
   {
    "title": "A Courier for Dolanaar",
-   "body": "As travelers pass through Dolanaar on their way south toward Lake Al'Ameth, Syral Bladeleaf flags them down with an overdue errand. Her fellow researcher, Denalan, ordered a special package of rare earth all the way from Darnassus to support his ongoing botanical studies. The parcel was delayed in transit and only recently arrived in Dolanaar. Rather than letting the rich soil spoil or sit idle, Syral seeks an accommodating courier willing to walk it down the forest trail to Denalan's lakeside campsite.",
+   "body": "Syral Bladeleaf stops travelers in Dolanaar with a special shipment of rare earth for Denalan. The soil came from Darnassus to support his botanical studies, but delays kept it from reaching Dolanaar until now. Syral seeks a courier to carry the parcel south along the forest trail to Denalan's campsite by Lake Al'Ameth.",
    "spoiler": 0
   },
   {
    "title": "Cultivating Teldrassil",
-   "body": "Denalan maintains a solitary workstation along the eastern shores of Lake Al'Ameth, where he observes how Teldrassil's sapling ecosystem takes root. Teldrassil is young, having grown rapidly in the wake of the Battle of Mount Hyjal, and its flora behaves in unexpected ways. Denalan uses unique soil mixtures and specimens to test the vitality and behavior of the island's timberlings and native plants, making the fresh shipment of rare earth crucial to his experiments.",
+   "body": "Denalan works alone at a station on Lake Al'Ameth's eastern shore, watching Teldrassil's young ecosystem take root. The tree grew quickly after the Battle of Mount Hyjal, and its plants behave in unexpected ways. Denalan tests the vitality and behavior of timberlings and native plants with unique soil mixtures and specimens. The rare earth shipment will support those experiments.",
    "spoiler": 0
   }
  ],
@@ -38,7 +38,7 @@
     "who is denalan",
     "denalan npc"
    ],
-   "answer": "Denalan is a night elf researcher and herbalist who has set up camp on the eastern shores of Lake Al'Ameth. He dedicates his time to studying, cultivating, and experimenting on Teldrassil's unique plant life."
+   "answer": "Denalan is a night elf researcher and herbalist who camps on Lake Al'Ameth's eastern shore. He studies, cultivates, and experiments on Teldrassil's distinctive plant life."
   },
   {
    "q": "Where is Syral Bladeleaf located?",
@@ -46,7 +46,7 @@
     "syral bladeleaf location",
     "where is syral"
    ],
-   "answer": "Syral Bladeleaf resides in Dolanaar, the main night elf outpost in central Teldrassil, where she coordinates research supplies and assists travelers journeying across the boughs."
+   "answer": "Syral Bladeleaf is in Dolanaar, the main night elf outpost in central Teldrassil. She coordinates research supplies and helps travelers crossing the boughs."
   },
   {
    "q": "What is the rare earth used for?",
@@ -54,7 +54,7 @@
     "what does denalan need the earth for",
     "rare earth purpose"
    ],
-   "answer": "The shipment contains specially enriched soil sent from the capital of Darnassus. Denalan relies on it to nurture experimental plantings and test how Teldrassil's native saplings, like timberlings, react to diverse growing conditions."
+   "answer": "The shipment is specially enriched soil from Darnassus. Denalan uses it to nurture experimental plantings and test how native saplings, including timberlings, respond to different growing conditions."
   },
   {
    "q": "Where is Lake Al'Ameth?",
@@ -62,7 +62,7 @@
     "lake al'ameth location",
     "how to get to lake al'ameth"
    ],
-   "answer": "Lake Al'Ameth lies south of Dolanaar, forming a peaceful body of water nestled among the southern roots of Teldrassil."
+   "answer": "Lake Al'Ameth lies south of Dolanaar among Teldrassil's southern roots."
   },
   {
    "q": "Why was the shipment late?",
@@ -70,7 +70,7 @@
     "why was the earth late",
     "delayed parcel"
    ],
-   "answer": "The package had to travel out from Darnassus and encountered unspecified transit delays along Teldrassil's winding roads before finally reaching the distribution hub in Dolanaar."
+   "answer": "The package traveled from Darnassus and faced unspecified delays on Teldrassil's winding roads before reaching Dolanaar."
   },
   {
    "q": "What does delivering this earth lead to?",
@@ -78,21 +78,21 @@
     "denalan earth follow up",
     "what comes next"
    ],
-   "answer": "Upon receiving the rare soil, Denalan recruits the courier to help gather timberling sprouts and seeds along the lake's shores, beginning a deeper series of botanical field studies."
+   "answer": "After receiving the rare soil, Denalan asks the courier to gather timberling sprouts and seeds along the lake shore, opening a wider study of the plants there."
   }
  ],
  "angles": [
   {
    "target": "profession:Herbalism",
-   "text": "Herbalists will appreciate Denalan's lakeside retreat, as his experiments center on understanding the fragile, burgeoning plant life unique to the newly grown World Tree."
+   "text": "If you practice herbalism, Denalan's lakeside retreat may interest you. His experiments seek to understand the fragile plant life unique to the newly grown World Tree."
   },
   {
    "target": "class:Druid",
-   "text": "Druids share a natural affinity with Denalan's efforts, as tracking the growth and balance of Teldrassil's flora is essential to safeguarding nature on the new bough."
+   "text": "As a druid, you share an affinity with Denalan's work. Following Teldrassil's plant growth and balance helps protect nature on the new bough."
   },
   {
    "target": "race:NightElf",
-   "text": "For night elves emerging from Shadowglen, assisting Syral and Denalan serves as an early introduction to the wider stewardship required to sustain Teldrassil."
+   "text": "As a night elf from Shadowglen, helping Syral and Denalan introduces you to the wider care needed to sustain Teldrassil."
   }
  ],
  "keywords": [
@@ -117,5 +117,6 @@
  ],
  "attribution": [
   "Denalan's Earth"
- ]
+ ],
+ "style": 1
 }

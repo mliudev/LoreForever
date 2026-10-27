@@ -10,11 +10,11 @@
    "quest:933"
   ]
  },
- "summary": "The Tourmaline Phial is a specialized gem-crafted vessel given to travelers in Teldrassil by Corithras Moonrage. It is used to draw blessed waters from the moonwell beside the Pools of Arlithrien as part of ongoing rituals to monitor and soothe the boughs of the World Tree.",
+ "summary": "At the Pools of Arlithrien, the Tourmaline Phial gathers blessed moonwell water for Teldrassil's rituals.",
  "sections": [
   {
    "title": "Vessel of Arlithrien",
-   "body": "Corithras Moonrage provides the Tourmaline Phial to aid in the rituals surrounding the World Tree. The druids in Dolanaar use such dedicated gemstone vials to safely collect pure moonwell waters from across Teldrassil. This particular phial is designated for the moonwell on the shores of the Pools of Arlithrien, southeast of the road leading to Darnassus, an area increasingly beleaguered by hostile Gnarlpine furbolgs.",
+   "body": "Corithras Moonrage gives the Tourmaline Phial to travelers for rituals that tend the World Tree. Druids in Dolanaar use gemstone vials to collect pure moonwell water across Teldrassil. This phial is meant for the moonwell beside the Pools of Arlithrien, southeast of the road to Darnassus, where hostile Gnarlpine furbolgs are growing more troublesome.",
    "spoiler": 0
   }
  ],
@@ -26,7 +26,7 @@
     "tourmaline phial purpose",
     "use tourmaline phial"
    ],
-   "answer": "The phial is used to collect sacred water from the moonwell located at the Pools of Arlithrien. Once filled, it must be returned to Corithras Moonrage in Dolanaar as part of the Crown of the Earth rituals."
+   "answer": "The Tourmaline Phial collects sacred water from the moonwell at the Pools of Arlithrien. Once filled, you return it to Corithras Moonrage in Dolanaar for the Crown of the Earth rituals."
   },
   {
    "q": "Who provides the Tourmaline Phial?",
@@ -34,7 +34,7 @@
     "who gives tourmaline phial",
     "where do i get tourmaline phial"
    ],
-   "answer": "Corithras Moonrage, a night elf druid stationed in the town of Dolanaar, entrusts adventurers with the empty phial."
+   "answer": "Corithras Moonrage, a night elf druid in Dolanaar, gives travelers the empty phial."
   },
   {
    "q": "Where is the moonwell for this phial?",
@@ -42,17 +42,17 @@
     "pools of arlithrien moonwell",
     "where to fill tourmaline phial"
    ],
-   "answer": "The moonwell is located on the shores of the Pools of Arlithrien, southeast of the main gateway leading to Darnassus."
+   "answer": "The moonwell lies beside the Pools of Arlithrien, southeast of the main gateway to Darnassus."
   }
  ],
  "angles": [
   {
    "target": "class:Druid",
-   "text": "Carrying dedicated gemstone phials to gather moonwell water is an essential ceremonial duty for young night elf druids learning to tend Teldrassil's fragile ecosystem."
+   "text": "As a druid, you carry a gemstone phial to gather moonwell water, a ceremonial duty as you learn to tend Teldrassil's fragile ecosystem."
   },
   {
    "target": "race:NightElf",
-   "text": "The waters gathered in vessels like the Tourmaline Phial represent the night elves' reliance on Elune's grace and druidic vigilance as Teldrassil struggles against corruption."
+   "text": "As a night elf, you know moonwell water reflects your people's reliance on Elune's grace and druidic vigilance as Teldrassil struggles against corruption."
   }
  ],
  "keywords": [
@@ -76,5 +76,6 @@
  "attribution": [
   "Tourmaline Phial",
   "Crown of the Earth (4)"
- ]
+ ],
+ "style": 1
 }

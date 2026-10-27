@@ -10,16 +10,16 @@
    "quest:2478"
   ]
  },
- "summary": "Gallywix's Head is a severed trophy taken from Grand Foreman Puzik Gallywix, an overseer of the Venture Company operating at the Sludge Fen in the Barrens. It serves as gruesome proof of execution demanded by the Shattered Hand, the covert rogue syndicate based in Orgrimmar.",
+ "summary": "In Orgrimmar, Gallywix's Head proves that a Venture Company overseer was executed. The Shattered Hand demands the trophy as proof of the killing.",
  "sections": [
   {
    "title": "A Grim Proof of Elimination",
-   "body": "Grand Foreman Puzik Gallywix directed operations out of the Venture Company's tower north of the Sludge Fen. After word came that the Venture Co. were planning something on a grand scale, the Shattered Hand dispatched operatives to dismantle the facility entirely. Claiming Puzik Gallywix's head serves as absolute proof to Shenthul in Orgrimmar that the overseer was executed, securing the rogue's standing within the guild.",
+   "body": "Grand Foreman Puzik Gallywix directed the Venture Company's work from its tower north of the Sludge Fen. When word arrived that the Venture Co. planned something on a grand scale, the Shattered Hand sent operatives to dismantle the facility. Bringing Gallywix's head to Shenthul in Orgrimmar proves the overseer was executed and secures the rogue's standing within the guild.",
    "spoiler": 0
   },
   {
    "title": "The Sludge Fen Incursion",
-   "body": "The assignment to take Gallywix's head is accompanied by a mandate to retrieve a stolen cache of Zanzil's altered mixture and slaughter the tower's poisoned personnel. By assassinating Gallywix atop his perch and returning his head to the Cleft of Shadow, operatives confirm that the Venture Company's grand scheme in the Barrens has been broken.",
+   "body": "The order to take Gallywix's head also calls for a stolen cache of Zanzil's altered mixture and the slaughter of the tower's poisoned personnel. Operatives assassinate Gallywix atop his perch and return his head to the Cleft of Shadow. The deed confirms that the Venture Company's grand scheme in the Barrens has been broken.",
    "spoiler": 1
   }
  ],
@@ -40,7 +40,7 @@
     "turn in gallywix head",
     "shenthul head"
    ],
-   "answer": "The trophy is delivered to Shenthul, a rogue trainer and operative of the Shattered Hand situated in the Cleft of Shadow in Orgrimmar."
+   "answer": "Shenthul wants Gallywix's Head. He is a rogue trainer and Shattered Hand operative in the Cleft of Shadow in Orgrimmar."
   },
   {
    "q": "Why does the Shattered Hand want him dead?",
@@ -48,7 +48,7 @@
     "why kill gallywix",
     "gallywix assassination reason"
    ],
-   "answer": "Puzik Gallywix ran the Venture Company tower north of the Sludge Fen, where the Venture Co. were planning something on a grand scale, and he kept the last cache of Zanzil's altered mixture in his lockbox. The Shattered Hand marked him for death to break the operation and seize the mixture."
+   "answer": "Puzik Gallywix ran the Venture Company tower north of the Sludge Fen, where the Venture Co. planned something on a grand scale. He also kept the last cache of Zanzil's altered mixture in his lockbox. The Shattered Hand marked him for death to break the operation and seize the mixture."
   },
   {
    "q": "Where is Puzik Gallywix located?",
@@ -57,17 +57,17 @@
     "gallywix location",
     "sludge fen tower boss"
    ],
-   "answer": "He is found at the very top of the Venture Company tower, located just north of the Sludge Fen in the northern Barrens."
+   "answer": "Puzik Gallywix is at the very top of the Venture Company tower, just north of the Sludge Fen in the northern Barrens."
   }
  ],
  "angles": [
   {
    "target": "class:Rogue",
-   "text": "Retrieving Gallywix's Head proves a rogue's lethal capability in covert infiltration, stealth, and targeted assassination on behalf of the Shattered Hand."
+   "text": "As a rogue, retrieving Gallywix's Head proves your lethal skill in covert infiltration, stealth, and targeted assassination for the Shattered Hand."
   },
   {
    "target": "faction:Horde",
-   "text": "Eliminating Venture Company leaders like Gallywix curtails the exploitative industrial incursions threatening the borders of the Barrens and Durotar."
+   "text": "As a member of the Horde, you help curb the Venture Company's exploitative industrial incursions threatening the borders of the Barrens and Durotar."
   }
  ],
  "keywords": [
@@ -93,5 +93,6 @@
  "attribution": [
   "Gallywix's Head",
   "Mission: Possible But Not Probable"
- ]
+ ],
+ "style": 1
 }

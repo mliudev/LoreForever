@@ -17,16 +17,16 @@
   "wiki": "Aquatic Form (Alliance)",
   "chain": []
  },
- "summary": "Aquatic Form is the culminating rite of passage for Alliance druids learning to attune their spirits to the deep waters. Having gathered the fractured halves of the Pendant of the Sea Lion across Kalimdor and the Eastern Kingdoms and forged them in Moonglade, initiates return to Darnassus to unlock their new shapeshifting aspect.",
+ "summary": "You return to Darnassus with the restored Pendant of the Sea Lion. The rite teaches Alliance druids to attune their spirits to deep waters.",
  "sections": [
   {
    "title": "A Sacred Bond with the Depths",
-   "body": "For an initiate of the Cenarion Circle, shapeshifting is not mere spellcraft—it is an act of spiritual communion with the wild aspects of Azeroth. After proving their resilience in dark coastal depths and enduring the trials set before them in Moonglade, young night elf druids receive the assembled Pendant of the Sea Lion from Dendrite Starblaze. Carrying this sacred token back to Teldrassil serves as living proof that the initiate respects the natural laws governing air, water, and breath.",
+   "body": "For Cenarion Circle initiates, shapeshifting joins the druid’s spirit to the wild aspects of Azeroth. After enduring trials in the dark coastal depths and in Moonglade, young night elf druids receive the assembled Pendant of the Sea Lion from Dendrite Starblaze. They carry the sacred token back to Teldrassil as proof of their respect for the laws of air, water, and breath.",
    "spoiler": 0
   },
   {
    "title": "Return to Darnassus",
-   "body": "In the boughs of the Cenarion Enclave, the elder druid trainer Mathrengyl Bearwalker awaits the aspirant's return. The trials undertaken along the coasts of Darkshore and Westfall require profound endurance and attunement. By presenting the completed pendant, the initiate demonstrates to Bearwalker that their mind and body are prepared to shed their mortal skin and embrace the swift, breathing aspect of the sea lion.",
+   "body": "Mathrengyl Bearwalker awaits your return in the Cenarion Enclave. The trials along the coasts of Darkshore and Westfall demand endurance and attunement. Presenting the completed pendant shows Bearwalker that your mind and body are ready to shed their mortal skin and take the swift, breathing form of the sea lion.",
    "spoiler": 0
   }
  ],
@@ -38,7 +38,7 @@
     "aquatic form purpose",
     "what does this quest give"
    ],
-   "answer": "This quest is the final step in an Alliance druid's training to learn Aquatic Form. By presenting the restored Pendant of the Sea Lion to Mathrengyl Bearwalker in Darnassus, the druid earns the right to be taught the aquatic shapeshifting aspect."
+   "answer": "Presenting the restored Pendant of the Sea Lion to Mathrengyl Bearwalker in Darnassus completes an Alliance druid’s training in Aquatic Form. The pendant shows that the druid is ready to learn this aquatic shape."
   },
   {
    "q": "Who sends you back to Darnassus?",
@@ -47,7 +47,7 @@
     "quest giver",
     "dendrite starblaze"
    ],
-   "answer": "Dendrite Starblaze, an elder of the Cenarion Circle residing in the sacred haven of Moonglade, sends you back to Teldrassil after you successfully complete the Trial of the Sea Lion."
+   "answer": "Dendrite Starblaze sends you back to Teldrassil from Moonglade after you complete the Trial of the Sea Lion. Starblaze is an elder of the Cenarion Circle."
   },
   {
    "q": "Who completes your training in Darnassus?",
@@ -56,7 +56,7 @@
     "who turns in aquatic form",
     "mathrengyl bearwalker"
    ],
-   "answer": "Mathrengyl Bearwalker, the druid trainer located in the Cenarion Enclave within Darnassus, receives your pendant and bestows the training for your aquatic aspect."
+   "answer": "Mathrengyl Bearwalker, the druid trainer in Darnassus’s Cenarion Enclave, receives your pendant and teaches you the aquatic aspect."
   },
   {
    "q": "What is the Pendant of the Sea Lion?",
@@ -64,7 +64,7 @@
     "what is the pendant",
     "pendant of the sea lion lore"
    ],
-   "answer": "The Pendant of the Sea Lion is a sacred talisman created by combining two trial pendants recovered from watery depths along the shores of Darkshore and Westfall. It serves as tangible proof that a druid has mastered the endurance and patience required of sea creatures."
+   "answer": "The Pendant of the Sea Lion is a sacred talisman made by joining two trial pendants recovered from watery depths off Darkshore and Westfall. It proves a druid has mastered the endurance and patience required of sea creatures."
   },
   {
    "q": "Do Horde druids do this exact quest?",
@@ -73,7 +73,7 @@
     "is this quest alliance only",
     "horde version"
    ],
-   "answer": "No. While Tauren druids also undergo trials in Moonglade to earn their aquatic aspect, their journey directs them back to Turak Runetotem on the mesas of Thunder Bluff rather than to Darnassus."
+   "answer": "No. Tauren druids also face trials in Moonglade to earn their aquatic aspect, then return to Turak Runetotem on the mesas of Thunder Bluff instead of Darnassus."
   },
   {
    "q": "Where in Darnassus is Mathrengyl Bearwalker?",
@@ -81,21 +81,21 @@
     "where is mathrengyl",
     "darnassus druid trainer location"
    ],
-   "answer": "Mathrengyl Bearwalker resides in the Cenarion Enclave, a lush sanctuary nestled in the northwestern district of Darnassus atop the boughs of Teldrassil."
+   "answer": "Mathrengyl Bearwalker is in the Cenarion Enclave, in Darnassus’s northwestern district atop the boughs of Teldrassil."
   }
  ],
  "angles": [
   {
    "target": "class:Druid",
-   "text": "This quest marks an essential milestone in your communion with nature, granting you the ability to move swiftly underwater and breathe beneath the surface indefinitely."
+   "text": "As a druid, this rite marks a step in your communion with nature. Aquatic Form lets you move swiftly underwater and breathe beneath the surface indefinitely."
   },
   {
    "target": "race:NightElf",
-   "text": "For night elf initiates, returning from the timeless woods of Moonglade to the youthful crown of Teldrassil affirms their duty to protect Azeroth's wilderness in an era of shifting balance."
+   "text": "As a night elf, returning from Moonglade’s timeless woods to Teldrassil’s youthful crown affirms your duty to protect Azeroth’s wilderness amid shifting balance."
   },
   {
    "target": "faction:Alliance",
-   "text": "Completing your druidic trials provides the Alliance with scouts capable of effortlessly traversing lakes, rivers, and coastal shores."
+   "text": "As an Alliance druid, your trials prepare you to scout across lakes, rivers, and coastal shores with ease."
   }
  ],
  "keywords": [
@@ -118,5 +118,6 @@
  ],
  "attribution": [
   "Aquatic Form (Alliance)"
- ]
+ ],
+ "style": 1
 }

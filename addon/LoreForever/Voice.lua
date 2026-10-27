@@ -44,7 +44,8 @@ Voice.DOWNLOADS = "loreforeverwow.com/downloads"
 local AUTO = "auto"
 local LANGUAGES = { enUS = "English", enGB = "English", deDE = "Deutsch", frFR = "Français", esES = "Español",
   esMX = "Español (Latinoamérica)", ptBR = "Português", itIT = "Italiano", ruRU = "Русский", koKR = "한국어",
-  zhCN = "简体中文", zhTW = "繁體中文", ukUA = "Українська" }
+  zhCN = "简体中文", zhTW = "繁體中文", ukUA = "Українська",
+  roRO = "Română", svSE = "Svenska" }
 
 local function readingLocale() return ns.readingLocale or "enUS" end
 -- Same language, whatever the region: enGB recordings suit English text (the clip hashes still decide per clip).
@@ -914,6 +915,33 @@ function Voice.PackName(name)
   return short
 end
 
+-- Which of a narrator's story downloads are missing, in the language shown, for its row in Options: a list of
+-- CurseForge project names (empty: it's complete), and the name of the narrator's Complete project that brings them
+-- all, if it has one. nil for a voice we don't list (a community narrator, or no stories in this language on
+-- CurseForge). From ns.DB.narratorPacks (lore.voicepack.narrator_packs, from release/curseforge.json's live projects):
+-- stories only, never quest dialogue (it's off by default), and decided by the packs in the add-on list, as the quest
+-- band hint is. WoW can't open a web page, so the names are what to search for in the CurseForge app.
+function Voice.PackGaps(key)
+  local db = ns.DB and ns.DB.narratorPacks
+  if type(db) ~= "table" or (ns.lang and ns.lang.edition) then return nil end
+  local byLocale = db[Voice.KeyOf(key == AUTO and DEFAULT_PACK or key)]
+  if type(byLocale) ~= "table" then return nil end
+  local want
+  for locale, set in pairs(byLocale) do
+    if locale == readingLocale() then want = set break end
+    if sameLanguage(locale, readingLocale()) then want = set end
+  end
+  if not want then return nil end
+  local missing, named = {}, {}
+  for _, pack in ipairs(want.packs or {}) do
+    if not ns.Packs.Get(pack[1]) and not named[pack[2]] then
+      named[pack[2]] = true
+      missing[#missing + 1] = pack[2]
+    end
+  end
+  return missing, want.complete
+end
+
 -- Say once if the saved voice can't be used (the saved choice is kept, so reinstalling it brings it back).
 -- A missing pack also says where to get it: CurseForge carries only the main download, so a CurseForge update
 -- removes voice packs that came from elsewhere, and the add-on would otherwise fall back without a word (LOR-136).
@@ -1153,8 +1181,9 @@ end
 -- The voice list as Options and /lore voice show it, in order. Each row: key (as saved in voiceOrder), name (its
 -- pack, or nil when the default voice isn't installed), title, label (as shown), default (the "auto" row), on
 -- (ticked), why it can't be used (nil if it can), missing (not installed), have/stale (its current and outdated
--- recordings), plays (how many narrations it plays with the list as it is) and races (its X-LoreForever-Races text,
--- if any). Packs are loaded to count them.
+-- recordings), plays (how many narrations it plays with the list as it is), races (its X-LoreForever-Races text, if
+-- any), and for our narrators lacking (the CurseForge projects of its stories not installed; empty when it's complete)
+-- and complete (its Complete project's name, if it has one: Voice.PackGaps). Packs are loaded to count them.
 function Voice.List()
   local edition = ns.lang and ns.lang.edition
   if edition then
@@ -1180,11 +1209,13 @@ function Voice.List()
     end
     local st = name and Voice.stats[name]
     local title = name and Voice.PackName(name)
+    local lacking, complete = Voice.PackGaps(key)
     out[#out + 1] = { key = key, name = name, title = title or L["Default"],
       label = (key == AUTO and title and string.format(L["Default (%s)"], title)) or title or L["Default"],
       default = key == AUTO, on = not s.voiceOff[key], why = why, missing = code == "MISSING",
       have = have, stale = stale, plays = st and st.plays or 0,
-      races = name and ns.Packs.Get(name) and ns.Packs.Get(name).races or nil }
+      races = name and ns.Packs.Get(name) and ns.Packs.Get(name).races or nil,
+      lacking = lacking, complete = complete }
   end
   return out
 end
@@ -1757,8 +1788,27 @@ end
 -- as ever. Off by default; the separate toggles keep their own settings underneath it.
 function Voice.OnDemand() return S().onDemand == true end
 
--- Direct quest pages are independent of Lore Forever's stories and answers, and require an explicit opt-in.
+-- Direct quest pages are independent of Lore Forever's stories and answers, and require an explicit opt-in: what
+-- plays by itself at a quest giver (Mike, 10/25: our quest-giver voices aren't as good as Spoken's yet). Listen beside
+-- the quest window plays a page with it off too (Voice.PlayQuestPage). One switch for both apps: Willo's own
+-- "Speak quest dialogue" (Voice.SyncWillo).
 function Voice.QuestDialogue() return S().questDialogue == true end
+
+-- Willo's "Speak quest dialogue" (LoreForeverJourneyData.questPages, written by Willo), or nil when she doesn't say.
+local function questPagesFromWillo()
+  local data = _G.LoreForeverJourneyData
+  if type(data) == "table" and type(data.questPages) == "boolean" then return data.questPages end
+end
+
+-- At login, the newer choice wins: when Willo's answer changed since the last login (questPagesSeen), it was made
+-- there, and the add-on takes it. A tick or untick here is saved as ever, and Willo takes it from the save. The first
+-- login with a Willo that says only remembers her answer, so a player who turned it on here keeps it on.
+function Voice.SyncWillo()
+  local s, willo = S(), questPagesFromWillo()
+  if willo == nil then return end
+  if s.questPagesSeen ~= nil and s.questPagesSeen ~= willo then s.questDialogue = willo end
+  s.questPagesSeen = willo
+end
 
 -- The game's own cutscenes and voiced dialog: a cinematic, a movie, or a talking head (on clients that have one).
 -- Nothing starts by itself over them, and what started by itself stops when one begins (Voice.OnGameTalk).
@@ -2704,27 +2754,39 @@ function Voice.OnGameTalkOver()
   if not Voice.GameTalking() then Voice.OnTalkOver() end
 end
 
--- The quest window's play button requires the direct quest dialogue opt-in, including manual playback.
--- It plays the page shown, or stops it while it plays. Returns true if it did either.
+-- A page with no recording that Willo would read when asked (Companion.CanReadQuestPage, Voice.QuestPageKnown).
+local function willoReadsPage(qid, kind)
+  local C = ns.Companion
+  return C ~= nil and C.CanReadQuestPage ~= nil and C.CanReadQuestPage() and Voice.QuestPageKnown(qid, kind)
+end
+
+-- The quest window's play button (Listen): pressed on purpose, so it plays with Speak quest dialogue off too (that
+-- setting is for what plays by itself, Mike 10/25). It plays the page shown, or stops it while it plays; a page no
+-- voice recorded goes to Willo to read, when she reads quest pages. Returns true if it did any of these.
 function Voice.PlayQuestPage()
-  if not Voice.QuestDialogue() then return false end
   local UI, qid = ns.UI, openQuest()
-  local target = qid and UI and UI.frame and questTarget(qid, Voice.questKind, Voice.questRecorded)
-  if not target then return false end
-  Voice.openPages[target.id] = true
-  UI.ListenTo(target)
-  return true
+  if not (qid and UI and UI.frame) then return false end
+  local kind = Voice.questKind
+  local target = questTarget(qid, kind, Voice.questRecorded)
+  if target then
+    Voice.askedClips[target.key] = true   -- asked for (Voice.HasAudio)
+    Voice.openPages[target.id] = true
+    UI.ListenTo(target)
+    return true
+  end
+  if not willoReadsPage(qid, kind) then return false end
+  Voice.openPages[QUEST_PREFIX .. qid .. ":" .. kind] = true
+  return ns.Companion.ReadQuestPage(qid, kind, questPage(kind))
 end
 
 -- What the play button does now: "stop" (its page plays, here or from the playlist), "listen" (the quest giver's
--- recorded words), or nil when nothing can play (no recording: the button hides).
+-- recorded words), "willo" (Willo reads a page no voice recorded), or nil when nothing can play (the button hides).
 function Voice.QuestPageState()
-  if not Voice.QuestDialogue() then return nil end
   local UI, qid = ns.UI, openQuest()
   if not (UI and qid) then return nil end
   if UI.speaking and UI.playingId == QUEST_PREFIX .. qid .. ":" .. Voice.questKind then return "stop" end
   local t = questTarget(qid, Voice.questKind, Voice.questRecorded)
-  if not t then return nil end
+  if not t then return willoReadsPage(qid, Voice.questKind) and "willo" or nil end
   if UI.IsPlayingTarget and UI.IsPlayingTarget(t) then return "stop" end
   return "listen"
 end
@@ -2738,6 +2800,35 @@ function Voice.SetQuestDialogue(on)
   if UI and UI.OnVoiceChanged then UI.OnVoiceChanged() end
   if ns.Hooks and ns.Hooks.UpdateQuestPlayButton then ns.Hooks.UpdateQuestPlayButton() end
   return S().questDialogue
+end
+
+-- The one line that tells a player their quest voices stop at the band they have (the English quest dialogue is three
+-- downloads by level: ns.DB.questBands, written by lore.voicepack.quest_bands from the pipeline's own level edges). For a
+-- quest of this level (the game's, not the data's): when the narrator in use has some of its quest packs installed but not
+-- the one this level needs, the name of that pack to download; nil otherwise (no quest pack at all, as with any voice not
+-- installed, shows nothing; a pack that's installed but off or too new is not a missing download; a voice with no
+-- quest packs, or a language other than English). Decided by the packs in the add-on list, never by whether a clip was
+-- recorded, and whether "Speak quest dialogue" is on makes no difference. A tooltip line: no popup, no chat message. The
+-- pack's title is quoted: it has a colon of its own.
+local DASH = "\226\128\147"   -- an en dash
+function Voice.QuestPackHint(level)
+  local bands = ns.DB and ns.DB.questBands
+  level = tonumber(level)
+  if not (type(bands) == "table" and level) or (ns.lang and ns.lang.edition) or not sameLanguage(readingLocale(), "enUS") then
+    return nil
+  end
+  local voice = Voice.Current()
+  voice = Voice.KeyOf(voice == AUTO and DEFAULT_PACK or voice)
+  local needed, owned
+  for _, band in ipairs(bands) do
+    local pack = band.voices and band.voices[voice]
+    if not pack then return nil end   -- (not a narrator that has quest packs)
+    if ns.Packs.Get(pack.pack) then owned = true end
+    if level >= band.from and level <= band.to and not ns.Packs.Get(pack.pack) then needed = { band, pack } end
+  end
+  if not (owned and needed) then return nil end
+  return string.format(L["Quest voices for levels %s are their own download: \"%s\", from wherever you got Lore Forever."],
+    needed[1].from .. DASH .. needed[1].to, needed[2].title)
 end
 
 -- The quest window closed (accepted, turned in or closed): its page plays on to its end (LOR-667: three players asked;

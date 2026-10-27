@@ -7,21 +7,21 @@
  "meta": {
   "wiki": "Tor'kren Farm"
  },
- "summary": "Tor'kren Farm is a quiet, struggling swine farm in northwestern Durotar, near Thunder Ridge and the Southfury River. Misha Tor'kren tends the homestead while anxiously awaiting news of her son Kron, who has not returned from a hunting trip.",
+ "summary": "At Tor'kren Farm in northwestern Durotar, Misha Tor'kren waits anxiously for news of her son Kron. He has not returned from a hunting trip.",
  "sections": [
   {
    "title": "A Lonely Homestead",
-   "body": "Carving out a living from the dry, unforgiving red dirt of Durotar is never simple, but Tor'kren Farm has had a harder time than most. Situated southeast of Thunder Ridge, the homestead focuses on raising pigs in a rugged climate where feed and water are scarce. Unlike the bustling trade posts or heavily defended barracks of the Horde, the farm stands isolated and quiet, producing meager yields in the shadow of nearby bluffs.",
+   "body": "Tor'kren Farm struggles to raise pigs in Durotar's dry red dirt. The homestead lies southeast of Thunder Ridge, near the Southfury River. Feed and water are scarce, and the farm is isolated beneath nearby bluffs. Its yields are meager.",
    "spoiler": 0
   },
   {
    "title": "A Mother's Worry",
-   "body": "Misha Tor'kren's son Kron went west to hunt crocolisks along the Southfury River several days ago and has not returned. She had warned him about the vicious predators, but he left in anger. Now she asks passing adventurers to search for him or bring back a sign of his fate, fearing the worst but unable to begin mourning without knowing what happened.",
+   "body": "Kron went west several days ago to hunt crocolisks along the Southfury River. Misha Tor'kren warned him about the vicious predators, but he left in anger. Now she asks passing adventurers to search for him or bring back a sign of his fate. She fears the worst, but cannot begin mourning without knowing what happened.",
    "spoiler": 0
   },
   {
    "title": "A Mother's Loss",
-   "body": "When an adventurer brings back Kron's Amulet from the river's crocolisks, Misha recognizes it and says she now knows her son is dead. Knowing his fate, she can finally begin to mourn.",
+   "body": "Misha Tor'kren recognizes Kron's Amulet when an adventurer brings it back from the river's crocolisks. She says she now knows her son is dead. At last, she can begin to mourn.",
    "spoiler": 1
   }
  ],
@@ -33,7 +33,7 @@
     "where is torkren farm",
     "find tor'kren farm"
    ],
-   "answer": "Tor'kren Farm lies in northwestern Durotar, situated southeast of the canyon known as Thunder Ridge east of the Southfury River."
+   "answer": "Tor'kren Farm lies in northwestern Durotar, southeast of Thunder Ridge and east of the Southfury River."
   },
   {
    "q": "Who lives at Tor'kren Farm?",
@@ -51,7 +51,7 @@
     "kron tor'kren death",
     "who is kron"
    ],
-   "answer": "Kron went hunting crocolisks along the Southfury River days ago and has not returned. Misha asks travelers to find him or bring back a sign of his fate."
+   "answer": "Kron went to hunt crocolisks along the Southfury River several days ago and has not returned. Misha asks travelers to find him or bring back a sign of his fate."
   },
   {
    "q": "What does Tor'kren Farm produce?",
@@ -60,17 +60,17 @@
     "what kind of farm is torkren",
     "tor'kren pigs"
    ],
-   "answer": "It operates as a swine farm, though harsh terrain and isolation keep its profits far leaner than other livestock operations in Durotar."
+   "answer": "Tor'kren Farm raises swine, but harsh terrain and isolation keep its profits leaner than those of other livestock operations in Durotar."
   }
  ],
  "angles": [
   {
    "target": "faction:Horde",
-   "text": "The quiet tragedy at Tor'kren Farm reveals the everyday sacrifices made by ordinary Horde settlers striving to tame Durotar's wild frontier."
+   "text": "At Tor'kren Farm, you see the hardships ordinary Horde settlers face as they try to tame Durotar's wild frontier."
   },
   {
    "target": "class:Hunter",
-   "text": "Misha's warnings about the Southfury's crocolisks remind young hunters how dangerous Durotar's riverbanks can be."
+   "text": "As a hunter, you know how dangerous Durotar's riverbanks can be. Misha warned Kron about the Southfury's crocolisks."
   }
  ],
  "keywords": [
@@ -90,5 +90,6 @@
  ],
  "attribution": [
   "Tor'kren Farm"
- ]
+ ],
+ "style": 1
 }

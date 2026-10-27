@@ -10,11 +10,11 @@
    "quest:907"
   ]
  },
- "summary": "Thunder Lizard Blood is a vital fluid taken from the massive thunder lizards wandering the southern Barrens. It serves as martial proof of survival against some of Kalimdor's most crushing terrestrial beasts.",
+ "summary": "In the southern Barrens, hunters bring back Thunder Lizard Blood as proof of survival. The blood comes from the great beasts that roam the plains.",
  "sections": [
   {
    "title": "Trophy of the Hunt",
-   "body": "Thunder lizards, known across the plains as Stormsnouts, Stormhides, and Thunderheads, are colossal beasts whose heavy strides shake the earth. Hunting them is an exercise in perilous footing, as their crushing weight easily flattens unwary stalkers. Bringing back their blood demonstrates not just hunting prowess, but the sheer endurance needed to survive a bout beneath their thundering feet.",
+   "body": "Thunder lizards go by the names Stormsnouts, Stormhides, and Thunderheads across the plains. Their heavy steps shake the earth, and their crushing weight can flatten unwary hunters. Bringing back their blood shows the skill to hunt them and the endurance to survive beneath their thundering feet.",
    "spoiler": 0
   }
  ],
@@ -26,7 +26,7 @@
     "where to get thunder lizard blood",
     "which thunder lizards"
    ],
-   "answer": "The blood is harvested from the mature thunder lizards roaming the savannah around Camp Taurajo in the southern Barrens, specifically Stormsnouts, Stormhides, and Thunderheads."
+   "answer": "Stormsnouts, Stormhides, and Thunderheads provide the blood. These mature thunder lizards roam the savannah around Camp Taurajo in the southern Barrens."
   },
   {
    "q": "Why is Thunder Lizard Blood sought after?",
@@ -34,7 +34,7 @@
     "who wants thunder lizard blood",
     "thunder lizard blood purpose"
    ],
-   "answer": "Jorn Skyseer at Camp Taurajo tasks hunters with gathering the blood as part of the trials across the Barrens. Returning with it unbroken proves a hunter can face Kalimdor's largest stomping behemoths."
+   "answer": "Jorn Skyseer at Camp Taurajo asks hunters to gather the blood as part of trials across the Barrens. Bringing it back unbroken proves a hunter can face Kalimdor's largest stomping beasts."
   },
   {
    "q": "Where are these thunder lizards usually found?",
@@ -42,17 +42,17 @@
     "thunder lizard locations",
     "where are stormsnouts"
    ],
-   "answer": "They wander the grasslands spreading out to the north, east, and south of Camp Taurajo, grazing alongside the other large fauna of the southern Barrens."
+   "answer": "Thunder lizards roam the grasslands north, east, and south of Camp Taurajo, grazing alongside the other large animals of the southern Barrens."
   }
  ],
  "angles": [
   {
    "target": "class:Hunter",
-   "text": "Besting a thunder lizard requires steady positioning and agility; taking their blood proves mastery over the largest beasts of the savannah."
+   "text": "As a hunter, you need steady footing and agility to best a thunder lizard. Taking its blood proves your mastery of the savannah's largest beasts."
   },
   {
    "target": "race:Tauren",
-   "text": "For tauren hunters operating out of Camp Taurajo, confronting the thunder lizards is a traditional test of surviving alongside the formidable giants of their homeland."
+   "text": "As a tauren hunter from Camp Taurajo, you face thunder lizards in a traditional test of survival alongside the formidable giants of your homeland."
   }
  ],
  "keywords": [
@@ -74,5 +74,6 @@
  "attribution": [
   "Thunder Lizard Blood",
   "Enraged Thunder Lizards"
- ]
+ ],
+ "style": 1
 }

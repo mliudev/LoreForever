@@ -91,13 +91,60 @@ const hasWords = e => Boolean(e.choices?.[0]?.delta?.content || e.choices?.[0]?.
 // Its thinking (think): proof it's at work, so the first-word wait ends with it, though none of it is said.
 const hasThought = e => Boolean(e.choices?.[0]?.delta?.reasoning || e.choices?.[0]?.delta?.reasoning_content);
 
+// The text of a JSON string that may not have ended yet ("I'll sound like Moon), as far as it's sure: an escape cut in
+// half waits for the rest.
+const ESCAPES = { n: "\n", t: "\t", r: "\r", b: "\b", f: "\f", '"': '"', "\\": "\\", "/": "/" };
+function openString(raw) {
+  let out = "";
+  for (let i = 0; i < raw.length; i++) {
+    const c = raw[i];
+    if (c === '"') break;
+    if (c !== "\\") { out += c; continue; }
+    const e = raw[i + 1];
+    if (e === undefined) break;
+    if (e === "u") {
+      if (i + 6 > raw.length) break;
+      out += String.fromCharCode(Number.parseInt(raw.slice(i + 2, i + 6), 16));
+      i += 5;
+    } else { out += ESCAPES[e] ?? e; i += 1; }
+  }
+  // Half an emoji (a \ud83d whose pair hasn't come yet) waits for its other half (the Software Architect, 10/26).
+  return /[\ud800-\udbff]$/.test(out) ? out.slice(0, -1) : out;
+}
+
+// The actions an answer called, gathered from the pieces Together streams them in, as Gemini's functionCall parts.
+// said(): the answer argument of the first call so far (lib/companion-answers.js geminiActions puts her whole answer
+// there), so her words stream out of an offer's call as they're written.
+function callsOf() {
+  const calls = [];
+  return {
+    take(delta) {
+      for (const c of delta?.tool_calls || []) {
+        const call = calls[c.index ?? 0] ??= { name: "", arguments: "" };
+        call.name += c.function?.name || "";
+        call.arguments += c.function?.arguments || "";
+      }
+    },
+    name: () => calls[0]?.name || "",
+    said() {
+      const at = /"answer"\s*:\s*"/.exec(calls[0]?.arguments || "");
+      return at ? openString(calls[0].arguments.slice(at.index + at[0].length)) : "";
+    },
+    parts: () => calls.filter(c => c?.name).map(c => {
+      let args = {};
+      try { args = JSON.parse(c.arguments || "{}"); } catch { /* left empty: the answer is the text */ }
+      return { functionCall: { name: c.name, args } };
+    }),
+  };
+}
+
 // Gemini's request to Together: a Response like Gemini's (stream: its events; else one result with any action called
 // as a functionCall part). signal: the answer's own time limit, on top of FIRST_WORD_MS for the first words (or the
 // first thought, think). An answer given up for a slow first word throws an error marked slow (noteTogether).
+// Streamed, her words go out as they come, an offer's too (LOR-844 step 0): the answer inside its call is sent as her
+// text while the call is written, and the call itself comes in one last event once the stream ends, so offering tools
+// never holds back her first words.
 export async function viaTogether(env, body, model, { stream = false, signal = null, fetcher = fetch, think = false } = {}) {
-  // An offer's answer is inside the action it calls, which only the whole result carries (generate never streams one):
-  // streamed, it would be lost, so it goes to Gemini instead.
-  if (stream && body.tools?.length) throw new Error("Together: an offer never streams");
   const first = new AbortController();
   const wait = think ? FIRST_THOUGHT_MS : FIRST_WORD_MS;
   const late = Object.assign(new Error(`Together: no first words in ${wait} ms`), { slow: true });
@@ -132,40 +179,45 @@ export async function viaTogether(env, body, model, { stream = false, signal = n
     clearTimeout(timer);
   }
   async function* all() { yield* before; yield* it; }
-  const shaped = e => {
-    const choice = e.choices?.[0], text = choice?.delta?.content, finish = choice?.finish_reason;
+  const shaped = (e, text = e.choices?.[0]?.delta?.content) => {
+    const finish = e.choices?.[0]?.finish_reason;
     return { candidates: [{ content: { parts: text ? [{ text }] : [] }, ...(finish ? { finishReason: FINISH[finish] || "STOP" } : {}) }],
       ...(e.usage ? { usageMetadata: usageOf(e.usage) } : {}), modelVersion: e.model };
   };
+  const calls = callsOf();
   if (stream) {
     const encoder = new TextEncoder(), source = all();
+    let sent = 0, named = "";
     return new Response(new ReadableStream({
       async pull(controller) {
         const next = await source.next();
-        if (next.done) { controller.close(); return; }
-        controller.enqueue(encoder.encode(`data: ${JSON.stringify(shaped(next.value))}\n\n`));
+        if (next.done) {
+          const called = calls.parts();
+          if (called.length)
+            controller.enqueue(encoder.encode(`data: ${JSON.stringify({ candidates: [{ content: { parts: called } }] })}\n\n`));
+          controller.close();
+          return;
+        }
+        calls.take(next.value.choices?.[0]?.delta);
+        const said = calls.said(), more = said.slice(sent);
+        sent = said.length;
+        // Which action she's calling, once its name is written (before her words in it): calling, beside Gemini's shape.
+        const calling = !named && calls.name() ? (named = calls.name()) : "";
+        controller.enqueue(encoder.encode(`data: ${JSON.stringify({ ...shaped(next.value,
+          (next.value.choices?.[0]?.delta?.content || "") + more), ...(calling ? { calling } : {}) })}\n\n`));
       },
     }), { status: 200, headers: { "Content-Type": "text/event-stream" } });
   }
   let text = "", finish, usage, version;
-  const calls = [];
   for await (const e of all()) {
     const choice = e.choices?.[0];
     text += choice?.delta?.content || "";
-    for (const c of choice?.delta?.tool_calls || []) {
-      const call = calls[c.index ?? 0] ??= { name: "", arguments: "" };
-      call.name += c.function?.name || "";
-      call.arguments += c.function?.arguments || "";
-    }
+    calls.take(choice?.delta);
     finish = choice?.finish_reason || finish;
     usage = e.usage || usage;
     version = e.model || version;
   }
-  const parts = [...(text ? [{ text }] : []), ...calls.filter(c => c.name).map(c => {
-    let args = {};
-    try { args = JSON.parse(c.arguments || "{}"); } catch { /* left empty: the answer is the text */ }
-    return { functionCall: { name: c.name, args } };
-  })];
+  const parts = [...(text ? [{ text }] : []), ...calls.parts()];
   return Response.json({ candidates: [{ content: { parts }, finishReason: FINISH[finish] || "STOP" }],
     usageMetadata: usageOf(usage), modelVersion: version });
 }

@@ -8,16 +8,16 @@
   "wiki": "Seereth Stonebreak",
   "refs": 4
  },
- "summary": "Seereth Stonebreak is an orc shaman who serves the Horde by monitoring the disturbances unsettling the land. Camped near the Greatwood Vale on the border of the Stonetalon Mountains and the Barrens, she directs travelers to address environmental ruin, rogue machines, and rising tensions in Kalimdor.",
+ "summary": "Near Greatwood Vale, Seereth Stonebreak watches the land's disturbances. The orc shaman camps on the border of the Stonetalon Mountains and the Barrens, guiding travelers against environmental ruin, rogue machines, and rising tensions in Kalimdor.",
  "sections": [
   {
    "title": "A Watchful Shaman",
-   "body": "Seereth Stonebreak is an orc dedicated to the harmony of the elements and the protection of Horde territories. Sent to Stonetalon after the land's spirits cried out against the goblins' plunder, she keeps her camp near the Greatwood Vale and maintains a vigilant eye over the landscape. Rather than retreat into despair, she uses her spiritual insight and knowledge of the wild frontier to guide adventurers against looming dangers.",
+   "body": "Seereth Stonebreak watches over Horde lands from her camp near Greatwood Vale. An orc shaman, she follows the harmony of the elements and protects the territories of the Horde. The land's spirits cried out against goblin plunder, and the Horde sent her to Stonetalon. There, she watches the landscape and guides travelers against dangers threatening the wild frontier.",
    "spoiler": 0
   },
   {
    "title": "Turmoil in Stonetalon",
-   "body": "Seereth is acutely troubled by the turmoil wracking the Stonetalon range. Between the disruptive presence of ruthless goblin ventures and the unchecked operations of mechanical shredders cutting through ancient woodlands, the spiritual balance of the mountains has been severely fractured. She tasks Horde envoys with confronting these reckless invaders and consulting elder lorekeepers to heal the land's distress.",
+   "body": "Seereth Stonebreak is troubled by turmoil across the Stonetalon range. Ruthless goblin ventures and mechanical shredders cutting through ancient woodlands have badly fractured the mountains' spiritual balance. She sends Horde envoys to confront the invaders and seek counsel from elder lorekeepers, in hopes of easing the land's distress.",
    "spoiler": 0
   }
  ],
@@ -29,7 +29,7 @@
     "who is seereth",
     "seereth stonebreak lore"
    ],
-   "answer": "Seereth Stonebreak is an orc shaman serving the Horde. She provides guidance and quests for travelers heading toward the Stonetalon Mountains, addressing threats to the land and the Horde's presence."
+   "answer": "Seereth Stonebreak is an orc shaman who serves the Horde. She guides travelers heading toward the Stonetalon Mountains against threats to the land and the Horde's presence."
   },
   {
    "q": "Why is Seereth concerned about the Stonetalon Mountains?",
@@ -38,7 +38,7 @@
     "seereth problems",
     "stonetalon unrest"
    ],
-   "answer": "The Stonetalon Mountains are suffering from rampant deforestation, aggressive goblin logging machinery, and heightened conflict. As a shaman, Seereth senses the agitation of the local spirits and works to halt the devastation."
+   "answer": "The Stonetalon Mountains suffer from rampant deforestation, aggressive goblin logging machinery, and heightened conflict. Seereth senses the local spirits' agitation and works to halt the devastation."
   },
   {
    "q": "What happened to her original post?",
@@ -47,7 +47,7 @@
     "honors stand seereth",
     "why did seereth move"
    ],
-   "answer": "Nothing has befallen it. Seereth was sent to Stonetalon by the Horde and remains camped near the Greatwood Vale, on the border of the Stonetalon Mountains and the Barrens, reached by the road west of the Crossroads."
+   "answer": "Seereth's original post remains near Greatwood Vale, on the border of the Stonetalon Mountains and the Barrens. The Horde sent her to Stonetalon, and the camp lies along the road west of the Crossroads."
   },
   {
    "q": "What tasks does Seereth offer to adventurers?",
@@ -56,7 +56,7 @@
     "what does seereth want",
     "seereth stonebreak missions"
    ],
-   "answer": "She sends Horde adventurers into Stonetalon to deal with intrusive Venture Company goblins, dismantle destructive shredding machines, commune with troubled spirits, and consult respected elder figures like Magatha Grimtotem."
+   "answer": "Seereth sends Horde adventurers into Stonetalon to confront Venture Company goblins, dismantle destructive shredding machines, commune with troubled spirits, and consult respected elders such as Magatha Grimtotem."
   },
   {
    "q": "Who is the Elder Crone she mentions?",
@@ -65,7 +65,7 @@
     "who is elder crone",
     "crone quest"
    ],
-   "answer": "The Elder Crone refers to Magatha Grimtotem, a powerful and influential tauren elder residing on the Elder Rise in Thunder Bluff, whom Seereth consults for guidance regarding deep spiritual disturbances."
+   "answer": "The Elder Crone is Magatha Grimtotem, a powerful and influential tauren elder who lives on the Elder Rise in Thunder Bluff. Seereth consults her for guidance on deep spiritual disturbances."
   },
   {
    "q": "Why is she concerned with goblin operations?",
@@ -74,21 +74,21 @@
     "goblin invaders",
     "why hate goblins"
    ],
-   "answer": "Unchecked goblin logging operations rely on mechanical shredders that tear through sacred forests, polluting waterways and enraging nature spirits that Seereth is sworn to appease."
+   "answer": "Seereth is concerned because goblin logging operations use mechanical shredders to tear through sacred forests, pollute waterways, and enrage the nature spirits she is sworn to appease."
   }
  ],
  "angles": [
   {
    "target": "class:Shaman",
-   "text": "Seereth's focus on the troubled elements and wounded nature in Stonetalon mirrors the duty of any shaman to heal environmental scars and placate agitated spirits."
+   "text": "As a shaman, you share Seereth's duty to heal Stonetalon's environmental scars and soothe its agitated spirits."
   },
   {
    "target": "faction:Horde",
-   "text": "Her orders protect critical overland routes and resources against both encroaching Alliance forces and reckless goblin operations."
+   "text": "As a member of the Horde, you help protect critical overland routes and resources from Alliance forces and reckless goblin operations."
   },
   {
    "target": "race:Orc",
-   "text": "Seereth represents the modern orcish return to shamanism and reverence for the natural world, standing in opposition to mindless destruction."
+   "text": "As an orc, you share Seereth's return to shamanism and reverence for the natural world, against mindless destruction."
   }
  ],
  "keywords": [
@@ -112,5 +112,6 @@
  ],
  "attribution": [
   "Seereth Stonebreak"
- ]
+ ],
+ "style": 1
 }

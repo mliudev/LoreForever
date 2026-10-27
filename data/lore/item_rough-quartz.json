@@ -10,11 +10,11 @@
    "quest:1518"
   ]
  },
- "summary": "Rough Quartz is a humble elemental stone gifted to novice shaman by a Minor Manifestation of Earth. Though small and unrefined, it serves as the vital spiritual core needed to craft a shaman's first Earth Totem.",
+ "summary": "In Durotar, a Rough Quartz comes from a Minor Manifestation of Earth. A shaman brings the stone to an elder, who binds it into the first Earth Totem.",
  "sections": [
   {
    "title": "Heart of the Earth Totem",
-   "body": "To the untrained eye, rough quartz appears to be nothing more than an ordinary desert pebble. Yet to a shaman communing with the spirits in Durotar or Mulgore, it is an elemental gift offered directly by a Minor Manifestation of Earth. The stone represents endurance, patience, and unwavering strength. When presented to an elder such as Canaga Earthcaller in the Valley of Trials, the quartz is bound into the carved wood of an Earth Totem, acting as the spiritual focus that links the fledgling shaman directly to the living soil of Azeroth.",
+   "body": "Rough Quartz is a gift from a Minor Manifestation of Earth to a shaman who communes with the spirits in Durotar or Mulgore. To the untrained eye, it looks like an ordinary desert pebble. The stone represents endurance, patience, and unwavering strength. At the Valley of Trials, Canaga Earthcaller binds it into carved wood to make an Earth Totem. The quartz becomes the spiritual focus joining a young shaman to Azeroth's living soil.",
    "spoiler": 0
   }
  ],
@@ -26,7 +26,7 @@
     "rough quartz use",
     "why do i need rough quartz"
    ],
-   "answer": "It serves as proof that a shaman novice has communed with the elemental earth spirit. An elder shaman uses this pebble as the spiritual core when carving the initiate's very first Earth Totem."
+   "answer": "An elder shaman binds Rough Quartz into the initiate's first Earth Totem as its spiritual core. The stone also shows that the novice has communed with the elemental earth spirit."
   },
   {
    "q": "Who gives you the Rough Quartz?",
@@ -34,7 +34,7 @@
     "where do i get rough quartz",
     "who drops rough quartz"
    ],
-   "answer": "It is granted by a Minor Manifestation of Earth after you commune with the spirit during the Call of Earth ritual in Durotar or Mulgore."
+   "answer": "A Minor Manifestation of Earth grants you Rough Quartz after you commune with the spirit during the Call of Earth ritual in Durotar or Mulgore."
   },
   {
    "q": "Who do I bring this stone to in Durotar?",
@@ -43,7 +43,7 @@
     "rough quartz turn in",
     "who takes rough quartz"
    ],
-   "answer": "Bring it to Canaga Earthcaller, the shaman trainer residing in the Valley of Trials, who will fashion it into your Earth Totem."
+   "answer": "Bring Rough Quartz to Canaga Earthcaller, the shaman trainer in the Valley of Trials. Canaga fashions it into your Earth Totem."
   },
   {
    "q": "Is this quartz used for anything else?",
@@ -51,13 +51,13 @@
     "can i sell rough quartz",
     "is rough quartz used in crafting"
    ],
-   "answer": "No. It is purely a sacred ritual object meant solely for crafting an Earth Totem and holds no use in common trade."
+   "answer": "No. Rough Quartz is solely a sacred ritual object for crafting an Earth Totem and has no use in common trade."
   }
  ],
  "angles": [
   {
    "target": "class:Shaman",
-   "text": "Rough Quartz represents your very first communion with the element of earth, anchoring your spells and marking your path as a true conduit of the spirits."
+   "text": "As a shaman, Rough Quartz marks your first communion with the element of earth. It anchors your spells and marks your path as a conduit of the spirits."
   }
  ],
  "keywords": [
@@ -80,5 +80,6 @@
  "attribution": [
   "Rough Quartz",
   "Call of Earth (Durotar 3)"
- ]
+ ],
+ "style": 1
 }

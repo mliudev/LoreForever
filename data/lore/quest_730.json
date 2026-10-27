@@ -17,21 +17,21 @@
   "wiki": "Trouble in Darkshore?",
   "chain": []
  },
- "summary": "Trouble in Darkshore? is an introductory Alliance quest offered by Chief Archaeologist Greywhisker in Darnassus. Concerned after weeks of silence from an excavation team sent across the sea, he asks travelers to journey to Auberdine to investigate their disappearance. It bridges the dwarven scholarly expedition with the wild, shadowy coast of Darkshore.",
+ "summary": "In Darnassus, Chief Archaeologist Greywhisker seeks help for his missing crew. His introductory appeal sends travelers across the sea to Auberdine, where the dwarven expedition met Darkshore's wild, shadowy coast.",
  "sections": [
   {
    "title": "A Silent Expedition",
-   "body": "In the grand night elven capital of Darnassus, dwarven researchers from Ironforge pursue the ancient mysteries of Kalimdor. Chief Archaeologist Greywhisker sent an excavation party across the water to Darkshore to unearth artifacts of antiquity. When weeks go by without a single missive or progress report, Greywhisker grows anxious, fearing that his field crew has encountered perils they were ill-equipped to survive alone.",
+   "body": "Darnassus, the grand night elven capital, is home to dwarven researchers from Ironforge studying Kalimdor's ancient mysteries. Chief Archaeologist Greywhisker sent an excavation party across the water to Darkshore to unearth artifacts of antiquity. Weeks have passed without a message or progress report, and Greywhisker fears his field crew has met dangers they could not survive alone.",
    "spoiler": 0
   },
   {
    "title": "Threats Unburied",
-   "body": "Greywhisker laments that many in the Alliance dismiss dwarven archaeology as little more than an eccentric hobby. However, findings in Khaz Modan have convinced his colleagues that an ancient, terrifying force threatens Azeroth spanning from Lordaeron to Kalimdor. Digging into Darkshore's ruins is not merely an academic endeavor\u2014it is an effort to understand historic cataclysms and the deep-seated menaces buried beneath ancient soil.",
+   "body": "Greywhisker laments that many in the Alliance dismiss dwarven archaeology as an eccentric hobby. Findings in Khaz Modan have convinced his colleagues that an ancient, terrifying force threatens Azeroth from Lordaeron to Kalimdor. The work in Darkshore's ruins is more than scholarship: it seeks to understand historic cataclysms and the deep-seated menaces buried beneath ancient soil.",
    "spoiler": 0
   },
   {
    "title": "Contact at Auberdine",
-   "body": "Upon sailing across the channel from Teldrassil to the coastal haven of Auberdine, travelers find Archaeologist Hollee waiting in town. Relieved that the Chief Archaeologist sent assistance, Hollee reveals that the expedition is indeed in dire straits, having run into trouble farther down the coast while searching for ancient relics.",
+   "body": "Sail across the channel from Teldrassil to Auberdine, the coastal haven, where Archaeologist Hollee waits in town. Relieved that Greywhisker sent help, Hollee says the expedition is in dire straits. The crew ran into trouble farther down the coast while searching for ancient relics.",
    "spoiler": 1
   }
  ],
@@ -43,7 +43,7 @@
     "quest giver trouble in darkshore",
     "where to get trouble in darkshore"
    ],
-   "answer": "Chief Archaeologist Greywhisker offers the quest in the night elven capital of Darnassus, seeking brave adventurers willing to check on his missing crew."
+   "answer": "Chief Archaeologist Greywhisker offers this introductory appeal in Darnassus, seeking travelers to check on his missing crew."
   },
   {
    "q": "Where do I need to go to complete this quest?",
@@ -52,7 +52,7 @@
     "turn in location",
     "who do i turn this in to"
    ],
-   "answer": "You need to travel from Darnassus across the sea to the port town of Auberdine in Darkshore, where you will find Archaeologist Hollee."
+   "answer": "Travel from Darnassus across the sea to Auberdine in Darkshore, where Archaeologist Hollee is waiting."
   },
   {
    "q": "Why are dwarven archaeologists in Darnassus and Darkshore?",
@@ -61,7 +61,7 @@
     "dwarves in darkshore",
     "dwarven archaeology kalimdor"
    ],
-   "answer": "Following recent discoveries in Khaz Modan, dwarven researchers began investigating ancient sites across Kalimdor to uncover clues about ancient forces threatening Azeroth."
+   "answer": "After discoveries in Khaz Modan, dwarven researchers began investigating ancient sites across Kalimdor for clues about ancient forces threatening Azeroth."
   },
   {
    "q": "What happens after finding Archaeologist Hollee?",
@@ -70,7 +70,7 @@
     "follow up quest",
     "next quest"
    ],
-   "answer": "Speaking with Archaeologist Hollee in Auberdine leads directly into 'The Absent Minded Prospector', asking you to venture into Darkshore's wilderness to locate Prospector Remtravel."
+   "answer": "Speaking with Archaeologist Hollee in Auberdine leads into 'The Absent Minded Prospector', which asks you to search Darkshore's wilderness for Prospector Remtravel."
   },
   {
    "q": "Why hasn't the excavation crew reported back?",
@@ -79,7 +79,7 @@
     "why did they disappear",
     "crew missing"
    ],
-   "answer": "The team encountered unexpected dangers and setbacks out in the field in Darkshore, leaving individual members separated and cut off from communicating with Darnassus."
+   "answer": "The crew met unexpected dangers and setbacks in the field in Darkshore. Its members became separated and cut off from communication with Darnassus."
   },
   {
    "q": "What looming threat is Greywhisker referring to?",
@@ -88,21 +88,21 @@
     "greywhisker warning",
     "khaz modan threat"
    ],
-   "answer": "Greywhisker references discoveries unearthed in Khaz Modan that suggest an ancient, pervasive danger slumbering deep within Azeroth's historic ruins."
+   "answer": "Greywhisker points to discoveries in Khaz Modan that suggest an ancient, pervasive danger lies deep within Azeroth's historic ruins."
   }
  ],
  "angles": [
   {
    "target": "race:Dwarf",
-   "text": "For dwarves, this quest touches on the Explorer's League tradition of digging into titan lore and ancient history across new continents."
+   "text": "As a dwarf, you see the Explorer's League tradition of studying titan lore and ancient history carried to new continents."
   },
   {
    "target": "race:NightElf",
-   "text": "Night elves may view the arrival of pickaxe-wielding dwarven excavators in their ancestral coastal ruins with cautious amusement or quiet concern."
+   "text": "As a night elf, you may regard dwarven excavators arriving in your ancestral coastal ruins with cautious amusement or quiet concern."
   },
   {
    "target": "faction:Alliance",
-   "text": "This task demonstrates the growing cooperation between Ironforge and Darnassus, linking travelers between Teldrassil and mainland Kalimdor."
+   "text": "As an Alliance traveler, you see cooperation growing between Ironforge and Darnassus, linking Teldrassil with mainland Kalimdor."
   }
  ],
  "keywords": [
@@ -126,5 +126,6 @@
  ],
  "attribution": [
   "Trouble in Darkshore?"
- ]
+ ],
+ "style": 1
 }

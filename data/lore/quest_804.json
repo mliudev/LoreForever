@@ -20,16 +20,16 @@
    "Sarkoth (2)"
   ]
  },
- "summary": "Having avenged the wounded troll Hana'zua by slaying the monstrous scorpid Sarkoth, an adventurer must carry word of his plight back to the Den. Gornek must be alerted so that rescue can reach the stricken scout before his venomous wounds claim his life.",
+ "summary": "In the Valley of Trials, Hana'zua waits for help after Sarkoth's venom leaves him stranded. You have slain the scorpid that wounded him; now Gornek needs word at the Den so aid can reach the scout.",
  "sections": [
   {
    "title": "A Scout's Plight",
-   "body": "Stranded upon the high bluffs of the Valley of Trials, the Darkspear scout Hana'zua found himself venom-struck and unable to return down the treacherous paths unassisted. Though vengeance was delivered upon Sarkoth\u2014the dread scorpid that felled him\u2014pride alone cannot carry an envenomed warrior across the arid stones. Bound to his rock, he relies on a passing initiate to bring word back down to the training encampment.",
+   "body": "Hana'zua, a Darkspear scout, lies stranded on the high bluffs of the Valley of Trials. Sarkoth's venom has left him too weak to descend the treacherous paths alone. You have avenged him by slaying the scorpid, but he still cannot cross the arid stones without help. A passing initiate must carry word down to the training encampment.",
    "spoiler": 0
   },
   {
    "title": "Honor in the Den",
-   "body": "Returning to Gornek at the Den concludes the trial. Gornek immediately recognizes the menace of Sarkoth and swiftly organizes aid for Hana'zua. In the eyes of the Horde commanders, stepping aside from one's personal training to vindicate and rescue a fallen stranger embodies true honor, proving an initiate's worth long before they march out into Durotar proper.",
+   "body": "Gornek waits at the Den for your report. Once he hears of Hana'zua's plight, he recognizes the danger from Sarkoth and organizes aid for the scout. Horde commanders honor those who set aside their own training to defend and rescue a fallen stranger. Such conduct proves an initiate's worth before they march into Durotar proper.",
    "spoiler": 0
   }
  ],
@@ -41,7 +41,7 @@
     "who is hanazua",
     "why is the troll hurt"
    ],
-   "answer": "Hana'zua is a young Darkspear troll scout who ventured into the high reaches of the Valley of Trials and was ambushed and poisoned by the monstrous scorpid Sarkoth. Too weak to make the climb down on his own, he requires rescue."
+   "answer": "Hana'zua is a young Darkspear troll scout stranded in the high reaches of the Valley of Trials. Sarkoth ambushed and poisoned him, leaving him too weak to climb down alone."
   },
   {
    "q": "Who is Gornek?",
@@ -50,7 +50,7 @@
     "where is gornek",
     "den leader"
    ],
-   "answer": "Gornek is an orc overseer stationed at the Den in the Valley of Trials. He evaluates new recruits, assigns survival tasks, and coordinates aid when initiates encounter deadly threats within the ravine."
+   "answer": "Gornek is an orc overseer at the Den in the Valley of Trials. He evaluates new recruits, assigns survival tasks, and coordinates aid when initiates face deadly threats in the ravine."
   },
   {
    "q": "What is Sarkoth?",
@@ -58,7 +58,7 @@
     "sarkoth beast",
     "what kind of monster is sarkoth"
    ],
-   "answer": "Sarkoth is a notorious, overgrown scorpid residing in the rocky bluffs above the Valley of Trials. Its venom and sheer ferocity make it a legendary hazard among the trials of young orcs and trolls."
+   "answer": "Sarkoth prowls the rocky bluffs above the Valley of Trials as a notorious, overgrown scorpid. Its venom and ferocity make it a legendary danger to young orcs and trolls in the trials."
   },
   {
    "q": "Does Hana'zua survive his wounds?",
@@ -67,7 +67,7 @@
     "is hanazua okay",
     "hanazua saved"
    ],
-   "answer": "Gornek promises that aid will be dispatched to Hana'zua immediately upon hearing your report. What becomes of the scout afterward is not told."
+   "answer": "Gornek promises to send aid to Hana'zua as soon as he hears your report. What becomes of the scout afterward is not told."
   },
   {
    "q": "Why does Gornek praise this deed so highly?",
@@ -75,7 +75,7 @@
     "why does gornek care",
     "gornek honor speech"
    ],
-   "answer": "Surviving the trials is expected, but setting aside your own tasks to fight for a stranger's honor and ensure their survival exemplifies the core values the new Horde seeks to forge in its warriors."
+   "answer": "Surviving the trials is expected. Setting aside your own tasks to defend a stranger's honor and help them survive reflects the values the new Horde seeks to forge in its warriors."
   },
   {
    "q": "Where is the Den located?",
@@ -83,21 +83,21 @@
     "where is the den",
     "den location durotar"
    ],
-   "answer": "The Den is the central training cave and staging ground located at the heart of the Valley of Trials in southwestern Durotar."
+   "answer": "The Den is the central training cave and staging ground at the heart of the Valley of Trials in southwestern Durotar."
   }
  ],
  "angles": [
   {
    "target": "race:Orc",
-   "text": "Orcish culture values personal strength, but standing up to defend an incapacitated ally's honor proves the heart of a true warrior."
+   "text": "As an orc, you know personal strength matters. Defending an incapacitated ally's honor shows the heart of a true warrior."
   },
   {
    "target": "race:Troll",
-   "text": "The fledgling alliance between the Darkspear tribe and Thrall's orcs is strengthened through acts of brotherhood such as saving Hana'zua from a slow, venomous death."
+   "text": "As a troll, you can strengthen the young bond between the Darkspear tribe and Thrall's orcs by saving Hana'zua from a slow death by venom."
   },
   {
    "target": "faction:Horde",
-   "text": "The new Horde is built on mutual survival in a harsh, unforgiving land; leaving no comrade behind is a foundational principle taught from an initiate's first steps."
+   "text": "As a member of the Horde, you learn that survival in a harsh, unforgiving land depends on mutual aid. Leaving no comrade behind is taught from an initiate's first steps."
   }
  ],
  "keywords": [
@@ -118,5 +118,6 @@
  ],
  "attribution": [
   "Sarkoth (2)"
- ]
+ ],
+ "style": 1
 }

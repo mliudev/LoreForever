@@ -1,0 +1,63 @@
+{
+ "key": "quest:87491",
+ "type": "quest",
+ "name": "Spark of Freedom",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   87491
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "A fire elemental\u2019s display ends with the creature exhausted. Its attention had been fixed on the Dark Irons, and the others are relieved it did not turn on them.",
+ "sections": [
+  {
+   "title": "After the Flames",
+   "body": "The onlooker marvels at the display and is glad the fire elemental ran out of strength. The Dark Irons had drawn its attention; the rest of the group could have been in danger if it had turned on them.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What happened to the fire elemental?",
+   "aliases": [
+    "fire elemental",
+    "elemental ran out of steam",
+    "what happened here"
+   ],
+   "answer": "The fire elemental ran out of strength after a pyrotechnic display."
+  },
+  {
+   "q": "Who was the elemental going after?",
+   "aliases": [
+    "dark irons target",
+    "elemental and dark irons",
+    "who was it attacking"
+   ],
+   "answer": "The fire elemental had been going after the Dark Irons."
+  },
+  {
+   "q": "Why is the onlooker relieved?",
+   "aliases": [
+    "why relieved",
+    "elemental danger",
+    "could it attack us"
+   ],
+   "answer": "The onlooker is glad the elemental did not turn on the rest of the group."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "dark irons",
+  "fire elemental",
+  "pyrotechnic display",
+  "spark of freedom"
+ ],
+ "related": [],
+ "style": 1,
+ "attribution": [
+  "In-game quest text: Spark of Freedom"
+ ]
+}

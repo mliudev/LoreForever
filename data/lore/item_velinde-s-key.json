@@ -10,16 +10,16 @@
    "quest:1038"
   ]
  },
- "summary": "Velinde's Key is a small key entrusted to adventurers by Thyn'tel Bladeweaver in Darnassus. It unlocks a personal storage locker within the Sentinel bunkhouse, containing the writings left behind by Priestess Velinde Starsong before her mysterious disappearance.",
+ "summary": "In Darnassus, Velinde's Key guards the writings of a vanished priestess. Thyn'tel Bladeweaver entrusts it to those who bring proof of their interest in Velinde Starsong's fate.",
  "sections": [
   {
    "title": "A Trusted Token",
-   "body": "Held in Darnassus by Thyn'tel Bladeweaver, this simple key secures the personal belongings of Priestess Velinde Starsong. Stored safely inside a footlocker in the Sentinel bunkhouse above the Tradesmen's Terrace, Velinde's worldly possessions were put aside after she departed night elf lands without warning. Bladeweaver only surrenders the key to those who present legitimate evidence\u2014such as revelations uncovered in the Tome of Mel'Thandris\u2014proving their genuine interest in discovering the priestess's fate.",
+   "body": "Thyn'tel Bladeweaver keeps Velinde's Key in Darnassus. The simple key secures Priestess Velinde Starsong's personal belongings in a footlocker in the Sentinel bunkhouse above the Tradesmen's Terrace. Velinde left night elf lands without warning, and her possessions were set aside. Bladeweaver gives the key only to those who bring genuine evidence of their interest in learning her fate, such as revelations found in the Tome of Mel'Thandris.",
    "spoiler": 0
   },
   {
    "title": "Unlocking the Past",
-   "body": "The key opens Velinde's storage chest, which preserves the journal recording her duties and troubled thoughts. Though the Sentinels long assumed Velinde had simply walked away for personal matters and would someday return, the writings locked behind this key begin to unravel a much darker and more perplexing mystery surrounding her fateful expedition.",
+   "body": "Velinde Starsong's key opens her storage chest, where her journal records her duties and troubled thoughts. The Sentinels long believed she had left for personal matters and would someday return. Her writings begin to reveal a darker, more perplexing mystery around the expedition that took her away.",
    "spoiler": 1
   }
  ],
@@ -31,7 +31,7 @@
     "velinde locker",
     "what chest does this open"
    ],
-   "answer": "It opens Velinde's Locker, a chest located in the Sentinel bunkhouse in Darnassus, found on the upper floor across a bridge in the Tradesmen's Terrace."
+   "answer": "Velinde's Key opens Velinde's Locker, a chest in the Sentinel bunkhouse in Darnassus. It is on the upper floor, across a bridge in the Tradesmen's Terrace."
   },
   {
    "q": "Who gives you the key?",
@@ -47,7 +47,7 @@
     "who is velinde",
     "velinde backstory"
    ],
-   "answer": "Velinde Starsong was an esteemed night elf priestess trusted by the Sentinels. She departed suddenly on her own business, leaving her possessions behind in Darnassus."
+   "answer": "Velinde Starsong was a respected night elf priestess trusted by the Sentinels. She left suddenly on her own business, leaving her belongings behind in Darnassus."
   },
   {
    "q": "What is found inside her locked chest?",
@@ -55,17 +55,17 @@
     "what is in velindes locker",
     "velinde locker contents"
    ],
-   "answer": "Inside the locker rests Velinde's Journal, a personal record of her duties that sheds light on what compelled her to leave night elf lands."
+   "answer": "Velinde's Journal rests inside the locker. It records her duties and sheds light on what compelled her to leave night elf lands."
   }
  ],
  "angles": [
   {
    "target": "race:NightElf",
-   "text": "For night elves, handling Velinde's belongings is a delicate matter, as she was a respected priestess whose loyalty to Elune and her people was beyond question."
+   "text": "As a night elf, you handle the belongings of a respected priestess whose loyalty to Elune and her people was beyond question."
   },
   {
    "target": "class:Priest",
-   "text": "Priests investigating Velinde's effects follow the traces of a dedicated sister of Elune whose path took a solitary and troubling turn."
+   "text": "As a priest, you follow the traces of a devoted sister of Elune whose path took a solitary and troubling turn."
   }
  ],
  "keywords": [
@@ -88,5 +88,6 @@
  "attribution": [
   "Velinde's Key",
   "Velinde's Effects"
- ]
+ ],
+ "style": 1
 }

@@ -2,6 +2,7 @@
 // The left page is the server's (the entry, or on /lore what the book is); this script makes both pages work:
 //  - the right page: the playlist, built from /lore/data/index.json, more.json and /api/narration/live (search, zone, kind,
 //    sort, language and download filters, "Play all", rows grouped by zone, a tick on what a signed-in player has found);
+//    in another language its rows play that language's narrators, from /<lang>/lore/narration.json;
 //  - a click on a row or a link to another lore page fetches that address's page and puts its left page in (history.pushState),
 //    so a click and a full load show the same thing; without this script every link is just a link;
 //  - one player for both pages: each recording's play button (speed 1x, 1.25x, 1.5x, remembered; read-along: the sentence being
@@ -184,6 +185,10 @@
   let now = null, voices = [], voicePref = new URLSearchParams(location.search).get("v") || store.get("lf-lore-voice") || "";
   const voiceUsed = new Map();   // clip id -> the voice played last (what a report is about)
   const voiceName = (t, id) => (voices.find(v => v.id === id) || {}).name || (t.v[id] && t.v[id].name) || id;
+  // A page in another language plays its own narrators, "<voice>-<lang>" (male-narrator-de, pipeline/lore/site_i18n.py):
+  // the pick is kept as the narrator ("male-narrator"), so it follows the listener from language to language.
+  const inLang = (id, seg) => (seg && seg !== "en" ? `${id}-${seg}` : id);
+  const pickFrom = (id, seg) => (seg && seg !== "en" && id.endsWith(`-${seg}`) ? id.slice(0, -seg.length - 1) : id);
 
   // The recordings on the page being read, in order.
   function pageTracks() {
@@ -197,7 +202,7 @@
         v[b.dataset.voice] = { src: b.getAttribute("href"), sec: Number(b.dataset.sec) || 0, name: b.querySelector(".lp-vn")?.textContent || b.dataset.voice };
       });
       const part = s.querySelector("h2, h3")?.textContent || "";
-      return { cid: s.dataset.clip, hash: s.dataset.hash, key: art.dataset.key, page: true, v,
+      return { cid: s.dataset.clip, hash: s.dataset.hash, key: art.dataset.key, page: true, v, seg: art.dataset.lang || "en",
         title: s.classList.contains("lp-narration") || !part ? name : `${name}: ${part}`, sub: where, href: `${art.dataset.path}#${s.id}` };
     });
   }
@@ -276,12 +281,14 @@
   });
 
   // ---- Painting: rows, the page's buttons, the pinned foot and the now-playing box ----
+  // Whether a row is what's playing: its recording, in its language (the list's language can change under it).
+  const isNow = r => Boolean(now && !now.t.sample && r.cid === now.t.cid && (r.seg || "en") === (now.t.seg || "en"));
   function mark() {
     list.querySelectorAll(".lx-row").forEach(row => {
       const r = shown[Number(row.dataset.i)];
       if (!r) return;
       row.classList.toggle("lx-sel", Number(row.dataset.i) === sel);
-      const on = Boolean(now && !now.t.sample && r.cid === now.t.cid);
+      const on = isNow(r);
       row.classList.toggle("lx-on", on);
       row.classList.toggle("lx-cur", Boolean(currentKey) && r.key === currentKey);
       const b = row.querySelector(".lx-play");
@@ -370,9 +377,10 @@
     cycleVoice(ids[(ids.indexOf(now.voice) + 1) % ids.length]);
   });
   function cycleVoice(id) {
-    voicePref = id;
-    store.set("lf-lore-voice", id);
-    if (now && !now.t.sample && now.t.v[id] && id !== now.voice) start(now.t, id, { source: now.source, whole: now.whole, all: now.all });
+    voicePref = pickFrom(id, now && now.t.seg);
+    store.set("lf-lore-voice", voicePref);
+    const v = inLang(voicePref, now && now.t.seg);
+    if (now && !now.t.sample && now.t.v[v] && v !== now.voice) start(now.t, v, { source: now.source, whole: now.whole, all: now.all });
     else { render(); listenLabel(); paint(); }
   }
   ft.report.addEventListener("click", () => {
@@ -469,7 +477,7 @@
       e.preventDefault();
       const t = pageTracks().find(x => x.cid === b.closest(".lp-clip")?.dataset.clip);
       if (!t) return;
-      voicePref = b.dataset.voice;
+      voicePref = pickFrom(b.dataset.voice, t.seg);
       store.set("lf-lore-voice", voicePref);
       toggle(t, b.dataset.voice);
       return;
@@ -566,7 +574,7 @@
     syncLang();
     if (o.push === false && !/\/lore\/[a-z]+\//.test(pathname)) syncFromUrl();
     bindPage();
-    if (state.lang !== before && rows.length) apply(); else mark();
+    if (state.lang !== before && rows.length) langChanged(); else mark();
     if (u.hash && document.getElementById(u.hash.slice(1))) document.getElementById(u.hash.slice(1)).scrollIntoView({ block: "start" });
     else {
       const top = pageBox.getBoundingClientRect().top;
@@ -645,6 +653,52 @@
     });
   }
 
+  // In another language the rows play that language's own narrators: /<lang>/lore/narration.json (functions/[lang]/lore/
+  // narration.json.js, pipeline/lore/site_i18n.py narration_list), each page's recordings in it by its English path, in
+  // index.json's shape, read the first time the language is picked. A row gets its page's first one R2 has (useLang); a
+  // page with none plays nothing there, never the English in its place.
+  const langLists = {};    // seg -> the list's promise ({names, list}, or null when it didn't come)
+  const langTracks = {};   // seg -> Map(English path -> {cid, hash, v}), or null when the list didn't come
+  const fetchLang = seg => (langLists[seg] = langLists[seg] || fetch(`/${seg}/lore/narration.json`)
+    .then(r => (r.ok && (r.headers.get("Content-Type") || "").includes("application/json") ? r.json() : null))
+    .catch(() => null));
+  if (state.lang !== "en") fetchLang(state.lang);   // alongside the index
+  function loadLang(seg) {
+    if (seg === "en" || seg in langTracks) return Promise.resolve();
+    return fetchLang(seg).then(d => {
+      if (seg in langTracks) return;
+      const got = langTracks[seg] = d && d.list ? new Map() : null;
+      if (!got) return;
+      const ids = d.list.voices || [], names = d.names || {};
+      for (const p of d.list.pages || []) {
+        const key = keyOf(p.p);
+        for (const [part, hash, refs] of p.c || []) {
+          const cid = part ? `${key}#${part}` : key, v = {};
+          ids.forEach((id, j) => {
+            const r = refs[j];
+            if (!r) return;
+            const k = `${id}/${stem(cid)}-${r[0]}.${r[2] || "mp3"}`;
+            if (liveKeys.has(k)) v[id] = { src: `/audio/clip/${k}`, sec: r[1], name: names[id] || id };
+          });
+          if (Object.keys(v).length) { got.set(p.p, { cid, hash, v }); break; }
+        }
+      }
+    });
+  }
+  // Puts the picked language's recordings on the rows (in English their own), so everything that plays a row plays
+  // those. What the list is playing keeps its own (a copy) and plays on.
+  function useLang() {
+    const seg = state.lang, got = langTracks[seg];
+    if (now && now.source === "row" && !now.t.sample) now.t = { ...now.t };
+    for (const r of rows) Object.assign(r, seg === "en" ? r.en : { cid: r.key, hash: "", v: {}, ...(got && got.get(r.path)), seg });
+  }
+  function langChanged() {
+    const seg = state.lang;
+    useLang();
+    apply();
+    if (seg !== "en" && !(seg in langTracks)) loadLang(seg).then(() => { if (state.lang === seg) { useLang(); apply(); } });
+  }
+
   // index.json: the pages with a recording; more.json: the pages that are only text (site_lore.py). One row a page, merged
   // back into browsing order: zone, kind, name. A row plays the page's first recording; its text also holds the questions the
   // page answers, so searching one finds the page.
@@ -682,6 +736,7 @@
         });
         if (Object.keys(v).length) Object.assign(row, { cid, hash, v, text: false });   // the page's first recording that plays here
       }
+      row.en = { cid: row.cid, hash: row.hash, v: row.v, seg: "en" };   // what it plays in English (useLang)
       row.sub = [KIND_LABEL[p.k] || "", zoneName[p.z] || ""].filter(s => s && s !== p.n).join(" · ");
       rows.push(row);
     }
@@ -696,7 +751,8 @@
     countText = `${pages.length.toLocaleString("en-US")} pages${langs > 1 ? ` · ${langs} languages` : ""}`;
     const c = $("[data-count]");
     if (c) c.textContent = countText;
-    (state.p ? loadPack() : Promise.resolve()).then(() => { apply(); bar.hidden = false; showCurrent(); });
+    Promise.all([state.p ? loadPack() : null, loadLang(state.lang)])
+      .then(() => { useLang(); apply(); bar.hidden = false; showCurrent(); });
     listenLabel();
     probe();
     loadFound();
@@ -740,7 +796,7 @@
     if (langBox) langBox.addEventListener("change", () => {
       state.lang = langBox.value;
       store.set("lf-lore-lang", state.lang);
-      apply();
+      langChanged();
       const art = pageBox.querySelector(".lp");
       // The page being read follows the language when it has one (a page without one reads in English, with a note).
       if (art && art.dataset.key) openPage(state.lang === "en" ? art.dataset.en : `/${state.lang}${art.dataset.en}`);
@@ -800,15 +856,17 @@
     const v = pickOf()?.dataset.voice;
     return v && voices.some(x => x.id === v) ? v : "";
   };
-  // The voice a track plays in, or "" when it plays none here. Only the English narrators are in the list: in another
-  // language nothing plays (never English audio under another language's text), except a pack's own sample.
+  // The voice a track plays in, or "" when it plays none here: the narrator picked, in the track's language, else its
+  // first. A page's own recordings and the rows play in their language's narrators (useLang puts the picked language's on
+  // the rows), so a row plays only in the list's language: never English audio under another language's text. A picked
+  // download plays its own narrator in the list, or nothing there (its sample instead).
   function voiceOf(t) {
     if (!t) return "";
     if (t.sample) return "sample";
-    if (t.page) return t.v[voicePref] ? voicePref : Object.keys(t.v)[0] || "";
-    if (state.lang !== "en") return "";
-    if (pickOf()) { const v = packVoice(); return v && t.v[v] ? v : ""; }
-    return t.v[voicePref] ? voicePref : Object.keys(t.v)[0] || "";
+    if (!t.page && (t.seg || "en") !== state.lang) return "";
+    if (!t.page && pickOf()) { const v = packVoice(); return v && t.v[v] ? v : ""; }
+    const v = inLang(voicePref, t.seg);
+    return t.v[v] ? v : Object.keys(t.v)[0] || "";
   }
   const playableRows = () => shown.filter(r => voiceOf(r));
 
@@ -830,10 +888,13 @@
     const d = o?.dataset, v = packVoice();
     const inList = v && shown.some(r => r.v[v]);
     ctl("playable").closest("label").hidden = !anyPlayable || Boolean(o && !inList);
-    const other = state.lang !== "en";
-    langNote.hidden = !other;
-    langNote.textContent = other ? `No ${langLabel(state.lang)} recording yet. Only native recordings play for other languages; the English narrators are on the English pages.` : "";
-    $(".lx-all", shelf).disabled = other && !(o && sampleOf(o));
+    // Another language: what its list plays, once it's in (the list not coming: its pages still play).
+    const other = state.lang !== "en", lang = langLabel(state.lang), got = langTracks[state.lang];
+    langNote.hidden = !other || got === undefined;
+    langNote.textContent = !other || got === undefined ? ""
+      : got === null ? `Open a page to hear its ${lang} narration, where it has one.`
+      : got.size ? `Pages with ▶ play in ${lang}.` : `Nothing here plays in ${lang} yet. Open a page to read it.`;
+    $(".lx-all", shelf).disabled = other && !playableRows().length && !(o && sampleOf(o));
     if (!o) { note.replaceChildren(); return; }
     const what = inList ? " plays below in this pack's voice, as in the add-on."
       : d.lang ? ` plays in ${d.lang} in the add-on.` : v ? " plays in the add-on." : " plays in the add-on, in its own voices.";
@@ -911,12 +972,13 @@
       b.type = "button";
       b.innerHTML = "&#9654;";
       b.setAttribute("aria-label", `Play ${r.title}`);
-      b.addEventListener("click", e => { e.stopPropagation(); sel = i; if (now && now.t.cid === r.cid) toggle(r); else start(r, null, { source: "row" }); });
+      b.addEventListener("click", e => { e.stopPropagation(); sel = i; if (isNow(r)) toggle(r); else start(r, null, { source: "row" }); });
       row.append(b);
     } else {
       const d = el("span", "lx-none", "–");
       d.setAttribute("aria-hidden", "true");
-      d.title = state.lang !== "en" ? `No ${langLabel(state.lang)} recording yet` : r.text ? "Text only" : "No recording here yet";
+      d.title = r.text ? "Text only" : state.lang === "en" ? "No recording here yet"
+        : langTracks[state.lang] ? `No ${langLabel(state.lang)} recording yet` : "Listen on its page";
       row.append(d);
     }
     row.append(svgIcon(KIND_ICON[r.kind] || "book"));

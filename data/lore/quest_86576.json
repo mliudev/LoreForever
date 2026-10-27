@@ -1,0 +1,85 @@
+{
+ "key": "quest:86576",
+ "type": "quest",
+ "name": "Bloodfury Trinkets",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   86576
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "Mor'rogal asks you to bring him the glittering sunstones collected by Bloodfury harpies in the Charred Vale. He says the stones hold a connection to the lights of the skies.",
+ "sections": [
+  {
+   "title": "Harpies' Stones",
+   "body": "The Bloodfury harpies gather shiny objects, including golden-yellow sunstones. Mor'rogal, up on the hills above you, has mentioned using them. He asks you to bring him any Glittering Sunstones you find.",
+   "spoiler": 0
+  },
+  {
+   "title": "Light in Stone",
+   "body": "Mor'rogal says the sunstones reflect the sun's majesty and can adorn shrines and homes with small motes of light. At night, the moon gives them its silver beauty. To him, they are a reminder of a bond with the lights of the skies.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What are the Bloodfury harpies collecting?",
+   "aliases": [
+    "harpy shiny things",
+    "bloodfury trinkets",
+    "what do harpies gather"
+   ],
+   "answer": "The Bloodfury harpies collect shiny objects, including golden-yellow sunstones."
+  },
+  {
+   "q": "Who wants the sunstones?",
+   "aliases": [
+    "who needs sunstones",
+    "mor rogal trinkets",
+    "sunstone giver"
+   ],
+   "answer": "Mor'rogal, who is up on the hills above you, has mentioned using sunstones."
+  },
+  {
+   "q": "What does Mor'rogal use sunstones for?",
+   "aliases": [
+    "why morrogal wants stones",
+    "sunstone use",
+    "what are stones for"
+   ],
+   "answer": "He says they can adorn shrines and homes with small motes of light."
+  },
+  {
+   "q": "What do the sunstones mean to Mor'rogal?",
+   "aliases": [
+    "sunstone meaning",
+    "lights of skies stones",
+    "why are stones special"
+   ],
+   "answer": "They remind him of a connection to the lights of the skies."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "bloodfury harpies",
+  "bloodfury trinkets",
+  "charred vale",
+  "glittering sunstones",
+  "lights of the skies",
+  "mor'rogal",
+  "shrines",
+  "sunstones"
+ ],
+ "related": [
+  "subzone:charred-vale",
+  "npc:mor-rogal",
+  "topic:harpy"
+ ],
+ "style": 1,
+ "attribution": [
+  "In-game quest text: Bloodfury Trinkets"
+ ]
+}

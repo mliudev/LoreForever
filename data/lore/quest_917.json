@@ -17,16 +17,16 @@
   "wiki": "Webwood Egg (quest)",
   "chain": []
  },
- "summary": "Gilshalan Windwalker tasks young defenders in Shadowglen with recovering an unhatched spider egg from deep inside Shadowthread Cave. Having gathered samples of their venom, he needs living specimens to study the unnatural aggression afflicting Teldrassil's wildlife. Securing an unhatched clutch allows researchers to study the creatures safely without subduing full-grown arachnids.",
+ "summary": "In Shadowglen, Gilshalan Windwalker seeks an unhatched Webwood Egg for his study of Teldrassil’s wildlife. After gathering venom samples, he needs a living specimen to examine the unnatural aggression afflicting the forest’s creatures. An egg can be studied safely without subduing a full-grown spider.",
  "sections": [
   {
    "title": "A Safe Specimen",
-   "body": "Having secured raw venom from the aggressive Webwood spiders prowling the perimeter of Shadowglen, Gilshalan Windwalker requires live subjects to better understand their unnatural corruption. Knowing that hauling a thrashing, giant arachnid out of the subterranean depths would prove deadly for any novice, Gilshalan opts for a more practical solution: an unhatched egg taken directly from the brooding clutches within Shadowthread Cave.",
+   "body": "Gilshalan Windwalker needs live subjects to understand the unnatural corruption affecting the Webwood spiders around Shadowglen. You have secured raw venom from the aggressive spiders, but carrying a thrashing giant out of the depths would be deadly for a novice. Gilshalan asks you to bring back an unhatched egg from the brooding clutches inside Shadowthread Cave.",
    "spoiler": 0
   },
   {
    "title": "The Road to the Capital",
-   "body": "Shadowthread Cave serves as the subterranean nursery for the forest's increasingly hostile arachnids. Penetrating the cave and recovering an intact egg provides scholars with a controlled subject that can hatch under containment. Gilshalan intends to bundle the egg alongside his venom samples and send them directly to Darnassus for further examination, marking the conclusion of his local field study and directing recruits toward higher duties atop the boughs of Aldrassil.",
+   "body": "Webwood spiders brood in Shadowthread Cave, where the forest’s increasingly hostile arachnids make their nests. An intact egg gives scholars a controlled subject that can hatch under containment. Gilshalan plans to bundle it with his venom samples and send both to Darnassus for examination. With his local study complete, he directs recruits toward higher duties in the boughs of Aldrassil.",
    "spoiler": 0
   }
  ],
@@ -38,7 +38,7 @@
     "why not catch a live spider",
     "why webwood egg"
    ],
-   "answer": "Gilshalan acknowledges that capturing a live, giant spider is far too dangerous for an unproven recruit to handle, and far too difficult for him to contain alone. An intact, unhatched egg allows researchers to transport living specimens safely and arrange containment before the brood emerges."
+   "answer": "Gilshalan wants an egg because capturing a live giant spider is too dangerous for an unproven recruit and too difficult for him to contain alone. Researchers can transport an intact egg safely and arrange containment before the brood emerges."
   },
   {
    "q": "Where is the Webwood egg found?",
@@ -47,7 +47,7 @@
     "where to find webwood egg",
     "shadowthread cave nest"
    ],
-   "answer": "The egg lies within a webbed nest deep inside Shadowthread Cave, which cuts into the boughs and roots at the northern end of Shadowglen in Teldrassil."
+   "answer": "The egg lies in a webbed nest deep inside Shadowthread Cave, at the northern end of Shadowglen in Teldrassil, among the boughs and roots."
   },
   {
    "q": "Who is Gilshalan Windwalker?",
@@ -55,7 +55,7 @@
     "who is gilshalan",
     "gilshalan lore"
    ],
-   "answer": "Gilshalan Windwalker is a night elf researcher stationed at Aldrassil in Shadowglen. He investigates the sudden, corrupting afflictions driving Teldrassil's native creatures to violent behavior."
+   "answer": "Gilshalan Windwalker is a night elf researcher stationed at Aldrassil in Shadowglen. He investigates the sudden corruption driving Teldrassil’s native creatures to violent behavior."
   },
   {
    "q": "What happens to the egg after it is turned in?",
@@ -63,7 +63,7 @@
     "what does gilshalan do with the egg",
     "where does the egg go"
    ],
-   "answer": "Gilshalan prepares the egg and his collected venom vials to be shipped to the capital city of Darnassus, where scholars and druids can examine them under controlled conditions once his work in Shadowglen concludes."
+   "answer": "Gilshalan prepares the egg and his venom vials for shipment to Darnassus. Scholars and druids there can examine them under controlled conditions after his work in Shadowglen concludes."
   },
   {
    "q": "What comes after completing this task?",
@@ -71,7 +71,7 @@
     "next quest after webwood egg",
     "what to do after egg"
    ],
-   "answer": "After securing the egg, Gilshalan directs you up Aldrassil to answer Tenaron's Summons, introducing you to the elder druids guiding the heart of Shadowglen."
+   "answer": "After you secure the egg, Gilshalan directs you up Aldrassil to answer Tenaron's Summons and meet the elder druids guiding the heart of Shadowglen."
   },
   {
    "q": "Why are the Webwood spiders so aggressive?",
@@ -79,17 +79,17 @@
     "why are spiders mad",
     "spider corruption"
    ],
-   "answer": "The spiders in Teldrassil, like much of its wildlife, have been succumbing to unnatural corruption taking root across the young World Tree, turning once-docile or neutral beasts into aggressive predators."
+   "answer": "The Webwood spiders, like much of Teldrassil’s wildlife, have been succumbing to unnatural corruption taking root across the young World Tree. It turns once-docile or neutral beasts into aggressive predators."
   }
  ],
  "angles": [
   {
    "target": "race:NightElf",
-   "text": "For young night elves, recovering this egg illustrates the insidious corruption taking hold on Teldrassil, forcing scholars to study their own homeland's wildlife like hostile threats."
+   "text": "For a young night elf, recovering the egg shows how corruption is taking hold on Teldrassil. Scholars now study their homeland’s wildlife as hostile threats."
   },
   {
    "target": "class:Druid",
-   "text": "Studying eggs and venom gives Cenarion researchers an opportunity to diagnose whether the corruption altering these beasts can be cleansed or if the blight runs deeper."
+   "text": "As a druid, you know that Cenarion researchers study eggs and venom to learn whether the corruption altering these beasts can be cleansed or whether the blight runs deeper."
   }
  ],
  "keywords": [
@@ -114,5 +114,6 @@
  ],
  "attribution": [
   "Webwood Egg (quest)"
- ]
+ ],
+ "style": 1
 }

@@ -10,11 +10,11 @@
    "quest:983"
   ]
  },
- "summary": "A Crawler Leg is a harvested limb taken from the various crabs prowling the mist-shrouded coast of Darkshore. Though worthless to most travelers, these hardy chitinous appendages are surprisingly suited to mechanical improvisation.",
+ "summary": "Along Darkshore’s misty coast, crabs lose legs that most travelers have no use for. Their tough limbs can help keep a gnome’s communication device working.",
  "sections": [
   {
    "title": "Gnomish Ingenuity on the Coast",
-   "body": "The crabs of Darkshore\u2014ranging from pygmy tide crawlers to larger reef crawlers\u2014are known for their sturdy, resilient shells. While night elf sentinels pay little mind to the discarded limbs of coastal vermin, the eccentric gnome engineer Wizbang Cranktoggle found an unexpected use for them. Operating out of Auberdine, Wizbang designed his prototype long-distance communication devices, known as buzzboxes, to run on improvised local components. The segmented joints and durable chitin of crawler legs provide the precise mechanical friction and leverage required to repair Buzzbox 827, situated along the shoreline just south of town.",
+   "body": "Darkshore’s crabs leave sturdy limbs along the shore, from pygmy tide crawlers to reef crawlers. Night elf sentinels pay them little mind, but the gnome engineer Wizbang Cranktoggle has found a use for them. Working from Auberdine, Wizbang designed his prototype long-distance communication devices, called buzzboxes, to run on improvised local components. Crawler legs’ segmented joints and durable chitin provide the friction and leverage needed to repair Buzzbox 827, along the shoreline just south of town.",
    "spoiler": 0
   }
  ],
@@ -26,7 +26,7 @@
     "why keep crawler legs",
     "buzzbox crawler leg"
    ],
-   "answer": "Crawler legs are collected to repair Buzzbox 827, an experimental communication station placed along the Darkshore coastline just south of Auberdine by the gnome inventor Wizbang Cranktoggle."
+   "answer": "Crawler legs are gathered to repair Buzzbox 827, an experimental communication station along the Darkshore coast just south of Auberdine. Gnome inventor Wizbang Cranktoggle placed it there."
   },
   {
    "q": "Where do crawler legs come from?",
@@ -35,7 +35,7 @@
     "which crabs drop crawler legs",
     "where to find crawler leg"
    ],
-   "answer": "They can be scavenged from various species of crabs along the beaches of Darkshore, including Pygmy Tide Crawlers, Young Reef Crawlers, Encrusted Tide Crawlers, and Reef Crawlers."
+   "answer": "Crawler legs come from crabs along the beaches of Darkshore, including Pygmy Tide Crawlers, Young Reef Crawlers, Encrusted Tide Crawlers, and Reef Crawlers."
   },
   {
    "q": "Why does a mechanical buzzbox need crab legs?",
@@ -44,17 +44,17 @@
     "buzzbox crab legs lore",
     "how does crawler leg fix buzzbox"
    ],
-   "answer": "Wizbang Cranktoggle intentionally engineered his machines to utilize parts from nearby wildlife for ongoing field maintenance. The rigid joints and chitinous segments of the crawler legs slot directly into the buzzbox's grinding gears to restore its internal mechanisms."
+   "answer": "Wizbang Cranktoggle designed his machines to use parts from nearby wildlife for field repairs. Crawler legs’ rigid joints and chitinous segments fit the grinding gears of the buzzbox and restore its mechanisms."
   }
  ],
  "angles": [
   {
    "target": "profession:Engineering",
-   "text": "Wizbang Cranktoggle's decision to use crab appendages as makeshift mechanical levers reflects classic gnomish field improvisation, bypassing standard metal linkages in favor of immediately available local resources."
+   "text": "Wizbang Cranktoggle’s use of crab legs as makeshift levers shows gnomish field improvisation, substituting nearby materials for standard metal linkages."
   },
   {
    "target": "race:Gnome",
-   "text": "Only a gnome would see a beach crawling with aggressive crustaceans and conclude that their severed legs are the ideal replacement parts for a delicate long-distance telecommunications network."
+   "text": "As a gnome, you may see aggressive crustaceans on a beach and recognize their legs as possible parts for a delicate long-distance communication network."
   }
  ],
  "keywords": [
@@ -76,5 +76,6 @@
  "attribution": [
   "Crawler Leg",
   "Buzzbox 827 (quest)"
- ]
+ ],
+ "style": 1
 }

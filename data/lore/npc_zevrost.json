@@ -8,16 +8,16 @@
   "wiki": "Zevrost",
   "refs": 1
  },
- "summary": "Zevrost is an orc warlock trainer secluded within the subterranean Cleft of Shadow beneath Orgrimmar. He mentors developing warlocks of the Horde, guiding them through the hazardous disciplines of fel magic, summoning rituals, and binding dark artifacts.",
+ "summary": "In Orgrimmar’s Cleft of Shadow, Zevrost trains warlocks in fel magic. He guides Horde initiates through summoning rites and the handling of dark artifacts.",
  "sections": [
   {
    "title": "Master of the Dark Arts",
-   "body": "Tucked away deep in the caverns of the Cleft of Shadow, Zevrost is one of the principal mentors for Horde warlocks residing in Thrall's capital. While the broader orcish society remains wary of fel energies following the demonic corruption of their past, practitioners like Zevrost are tolerated under strict watch. He instills in his pupils the harsh discipline required to command demonic forces without succumbing to their corruptive nature, asserting that the fel only ruins those lacking inner strength.",
+   "body": "In the Cleft of Shadow beneath Orgrimmar, Zevrost is one of the chief mentors for Horde warlocks in Thrall’s capital. Orcs remain wary of fel magic after their past demonic corruption, so practitioners work under strict watch. Zevrost teaches the discipline needed to command demons without yielding to their corruption. He says fel ruins only those who lack inner strength.",
    "spoiler": 0
   },
   {
    "title": "Guiding the Ambitious",
-   "body": "Beyond basic instruction in spells and curses, Zevrost acts as a conduit for more ambitious dark undertakings. Initiates seeking advanced implements\u2014such as the Orb of Orahil or the means to summon a fiery Felsteed\u2014frequently pass through his hands. He directs aspirational practitioners to other masters of the craft, such as Menara Voidrender in the Barrens, ensuring that those who wield shadow magic push their capabilities to their absolute limits.",
+   "body": "Zevrost guides warlocks beyond spells and curses, opening the way to greater dark undertakings. Initiates seeking advanced implements such as the Orb of Orahil, or the means to summon a fiery Felsteed, often come through his hands. He sends ambitious practitioners to other masters, including Menara Voidrender in the Barrens, so they can push their command of shadow magic to its limits.",
    "spoiler": 0
   }
  ],
@@ -29,7 +29,7 @@
     "who is zevrost",
     "zevrost npc"
    ],
-   "answer": "Zevrost is an orc warlock trainer stationed in the Cleft of Shadow beneath Orgrimmar. He teaches novice and experienced Horde warlocks new incantations and guides them on pivotal class rituals."
+   "answer": "Zevrost trains Horde warlocks in the Cleft of Shadow beneath Orgrimmar. He teaches incantations to novice and experienced practitioners and guides them through important class rituals."
   },
   {
    "q": "Where can Zevrost be found?",
@@ -38,7 +38,7 @@
     "where is zevrost",
     "find zevrost"
    ],
-   "answer": "He resides in the subterranean cavern known as the Cleft of Shadow, located beneath the main districts of Orgrimmar."
+   "answer": "Zevrost can be found in the Cleft of Shadow, a cavern beneath Orgrimmar’s main districts."
   },
   {
    "q": "Why are warlocks like Zevrost permitted in Orgrimmar?",
@@ -46,7 +46,7 @@
     "why are warlocks allowed in orgrimmar",
     "warlock cleft of shadow"
    ],
-   "answer": "While Thrall's Horde strictly regulates and monitors dark sorcery due to the orcs' history with demon blood, warlocks are permitted to practice in the secluded depths of the Cleft of Shadow to provide valuable, ruthless power against the Horde's many enemies."
+   "answer": "Thrall’s Horde permits warlocks to practice in the secluded Cleft of Shadow under strict watch. Orcs remember the corruption brought by demon blood, yet the Horde values the ruthless power warlocks can bring against its enemies."
   },
   {
    "q": "What is Zevrost's philosophy on demonic magic?",
@@ -54,17 +54,17 @@
     "zevrost quote",
     "zevrost belief"
    ],
-   "answer": "Zevrost believes that dark and arcane energies only corrupt those who are weak of will. He urges his students to maintain rigid discipline in their studies lest they succumb to the destructive forces they command."
+   "answer": "Zevrost believes dark and arcane energies corrupt only those who are weak of will. He urges his students to study with strict discipline, lest they succumb to the destructive forces they command."
   }
  ],
  "angles": [
   {
    "target": "class:Warlock",
-   "text": "For Horde warlocks, Zevrost is a vital instructor, unlocking advanced spells and setting initiates on quests to secure specialized weapons, off-hands, and their fiery steed."
+   "text": "As a Horde warlock, you can learn advanced spells from Zevrost and be sent to seek specialized weapons, off-hands, and a fiery steed."
   },
   {
    "target": "race:Orc",
-   "text": "Living among an orcish society that largely shuns demonic magic, Zevrost represents those practitioners who still harness dark arts under the heavy scrutiny of the Warchief."
+   "text": "As an orc, you live among people who largely shun demonic magic. Zevrost represents practitioners who still wield the dark arts under the Warchief’s close scrutiny."
   }
  ],
  "keywords": [
@@ -85,5 +85,6 @@
  ],
  "attribution": [
   "Zevrost"
- ]
+ ],
+ "style": 1
 }

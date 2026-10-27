@@ -461,6 +461,9 @@ test("11, 18. goals stay on their character's page; 'what are my goals?' is the 
   const { user, token } = await linked();
   write(user, MOUNT_GOAL + "- [ ] Tailoring 225\n");
   write(user, "## Goals\n- [ ] Save 1,000 gold\n", "account");
+  // The site's own list holds nothing of the month's answer budget: no model call settles it (the Architect, 10/25).
+  const held = () => env.DB.sqlite.prepare("SELECT reserved_micro - actual_micro AS held FROM answer_spend").get()?.held || 0;
+  const before = held();
   // Brynn, after Húrin set his goal in the same chat: only the account's goal, and no model call to mix them up.
   let out = await ask(token, "What are my goals?", { character: "Brynn-ClassicBetaPvE", stock: hurin({ level: 20, money: 120000 }) });
   says(out.answer, "all your characters", "1,000 gold", "988");
@@ -472,6 +475,7 @@ test("11, 18. goals stay on their character's page; 'what are my goals?' is the 
   env.DB.sqlite.prepare("DELETE FROM notebook_pages WHERE page = 'account'").run();
   out = await ask(token, "what are my goals?", { character: "Brynn-ClassicBetaPvE" });
   says(out.answer, "Brynn", "no goals");
+  assert.equal(held(), before);
   // Her other answers about goals read only this character's page too.
   await ask(token, "how close am I to my mount?", { character: "Brynn-ClassicBetaPvE" });
   assert.doesNotMatch(system(calls.at(-1)), /Riding at level 40/);

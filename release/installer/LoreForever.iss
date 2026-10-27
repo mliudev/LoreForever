@@ -10,9 +10,13 @@
 ; add-on. Voices already installed start ticked, so running a newer installer updates them. A failed download never
 ; fails the install: the finish page says where to get the voice instead.
 ;
+; The pick from loreforeverwow.com/downloads (LOR-848): the site serves this same signed file under a name that says
+; what the player picked there, "Lore Forever Setup (female, en, storyteller).exe" (narrator, language, bundle), and
+; the rows of that pick start ticked too.
+;
 ; Command line (on top of Inno's own /SILENT, /VERYSILENT, /SUPPRESSMSGBOXES, /DIR=):
 ;   /VOICES=female       voices to install, comma-separated ids from the voice table; also "all" or "none". Without
-;                        it, a silent install updates the voices already installed and adds none.
+;                        it, a silent install updates the voices already installed and adds the name's pick.
 ;   /VOICEURL=<base>     where the voice zips come from instead of this version's release, e.g.
 ;                        https://github.com/mliudev/LoreForever/releases/latest/download/ (to smoke-test a build
 ;                        whose release isn't published yet)
@@ -126,22 +130,32 @@ Type: filesandordirs; Name: "{#HordeDir}"
 Type: filesandordirs; Name: "{#FemaleDir}"; Check: VoiceChosen('female')
 Type: filesandordirs; Name: "{#FemaleAllianceDir}"; Check: VoiceChosen('female')
 Type: filesandordirs; Name: "{#FemaleHordeDir}"; Check: VoiceChosen('female')
-Type: filesandordirs; Name: "{app}\{code:GameFlavor}\Interface\AddOns\LoreForever_Voice_Female_MorePlaces"; Check: VoiceChosen('female')
-Type: filesandordirs; Name: "{app}\{code:GameFlavor}\Interface\AddOns\LoreForever_Voice_Female_MorePeople"; Check: VoiceChosen('female')
-Type: filesandordirs; Name: "{app}\{code:GameFlavor}\Interface\AddOns\LoreForever_Voice_Female_MoreItems"; Check: VoiceChosen('female')
-Type: filesandordirs; Name: "{app}\{code:GameFlavor}\Interface\AddOns\LoreForever_Voice_Female_MoreQuests1"; Check: VoiceChosen('female')
-Type: filesandordirs; Name: "{app}\{code:GameFlavor}\Interface\AddOns\LoreForever_Voice_Female_MoreQuests2"; Check: VoiceChosen('female')
-Type: filesandordirs; Name: "{app}\{code:GameFlavor}\Interface\AddOns\LoreForever_Voice_Female_MoreQuests3"; Check: VoiceChosen('female')
+
+Type: filesandordirs; Name: "{app}\{code:GameFlavor}\Interface\AddOns\LoreForever_Voice_Female_MorePlaces"; Check: VoiceChosen('female-more')
+Type: filesandordirs; Name: "{app}\{code:GameFlavor}\Interface\AddOns\LoreForever_Voice_Female_MorePeople"; Check: VoiceChosen('female-more')
+Type: filesandordirs; Name: "{app}\{code:GameFlavor}\Interface\AddOns\LoreForever_Voice_Female_MoreItems"; Check: VoiceChosen('female-more')
+Type: filesandordirs; Name: "{app}\{code:GameFlavor}\Interface\AddOns\LoreForever_Voice_Female_MoreQuests1"; Check: VoiceChosen('female-more')
+Type: filesandordirs; Name: "{app}\{code:GameFlavor}\Interface\AddOns\LoreForever_Voice_Female_MoreQuests2"; Check: VoiceChosen('female-more')
+Type: filesandordirs; Name: "{app}\{code:GameFlavor}\Interface\AddOns\LoreForever_Voice_Female_MoreQuests3"; Check: VoiceChosen('female-more')
+
+Type: filesandordirs; Name: "{app}\{code:GameFlavor}\Interface\AddOns\LoreForever_Voice_Female_Quests"; Check: VoiceChosen('female-quests')
+Type: filesandordirs; Name: "{app}\{code:GameFlavor}\Interface\AddOns\LoreForever_Voice_Female_Quests2"; Check: VoiceChosen('female-quests')
+Type: filesandordirs; Name: "{app}\{code:GameFlavor}\Interface\AddOns\LoreForever_Voice_Female_Quests3"; Check: VoiceChosen('female-quests')
+
+Type: filesandordirs; Name: "{app}\{code:GameFlavor}\Interface\AddOns\LoreForever_Voice_Default_MorePlaces"; Check: VoiceChosen('more')
+Type: filesandordirs; Name: "{app}\{code:GameFlavor}\Interface\AddOns\LoreForever_Voice_Default_MorePeople"; Check: VoiceChosen('more')
+Type: filesandordirs; Name: "{app}\{code:GameFlavor}\Interface\AddOns\LoreForever_Voice_Default_MoreItems"; Check: VoiceChosen('more')
+Type: filesandordirs; Name: "{app}\{code:GameFlavor}\Interface\AddOns\LoreForever_Voice_Default_MoreQuests1"; Check: VoiceChosen('more')
+Type: filesandordirs; Name: "{app}\{code:GameFlavor}\Interface\AddOns\LoreForever_Voice_Default_MoreQuests2"; Check: VoiceChosen('more')
+Type: filesandordirs; Name: "{app}\{code:GameFlavor}\Interface\AddOns\LoreForever_Voice_Default_MoreQuests3"; Check: VoiceChosen('more')
 
 Type: filesandordirs; Name: "{app}\{code:GameFlavor}\Interface\AddOns\LoreForever_Voice_Default_Quests"; Check: VoiceChosen('quests')
 Type: filesandordirs; Name: "{app}\{code:GameFlavor}\Interface\AddOns\LoreForever_Voice_Default_Quests2"; Check: VoiceChosen('quests')
 Type: filesandordirs; Name: "{app}\{code:GameFlavor}\Interface\AddOns\LoreForever_Voice_Default_Quests3"; Check: VoiceChosen('quests')
-Type: filesandordirs; Name: "{app}\{code:GameFlavor}\Interface\AddOns\LoreForever_Voice_Default_MorePlaces"; Check: VoiceChosen('quests')
-Type: filesandordirs; Name: "{app}\{code:GameFlavor}\Interface\AddOns\LoreForever_Voice_Default_MorePeople"; Check: VoiceChosen('quests')
-Type: filesandordirs; Name: "{app}\{code:GameFlavor}\Interface\AddOns\LoreForever_Voice_Default_MoreItems"; Check: VoiceChosen('quests')
-Type: filesandordirs; Name: "{app}\{code:GameFlavor}\Interface\AddOns\LoreForever_Voice_Default_MoreQuests1"; Check: VoiceChosen('quests')
-Type: filesandordirs; Name: "{app}\{code:GameFlavor}\Interface\AddOns\LoreForever_Voice_Default_MoreQuests2"; Check: VoiceChosen('quests')
-Type: filesandordirs; Name: "{app}\{code:GameFlavor}\Interface\AddOns\LoreForever_Voice_Default_MoreQuests3"; Check: VoiceChosen('quests')
+
+Type: filesandordirs; Name: "{app}\{code:GameFlavor}\Interface\AddOns\LoreForever_Voice_QuestGivers"; Check: VoiceChosen('givers')
+Type: filesandordirs; Name: "{app}\{code:GameFlavor}\Interface\AddOns\LoreForever_Voice_QuestGivers2"; Check: VoiceChosen('givers')
+Type: filesandordirs; Name: "{app}\{code:GameFlavor}\Interface\AddOns\LoreForever_Voice_QuestGivers3"; Check: VoiceChosen('givers')
 
 Type: filesandordirs; Name: "{app}\{code:GameFlavor}\Interface\AddOns\LoreForever_Voice_Original"; Check: VoiceChosen('original')
 Type: filesandordirs; Name: "{app}\{code:GameFlavor}\Interface\AddOns\LoreForever_Voice_Original_Alliance"; Check: VoiceChosen('original')
@@ -167,29 +181,49 @@ var
   VoiceWanted: array of Boolean;
   VoicesDecided: Boolean;
   VoicePage: TInputOptionWizardPage;
+  VoicePageRow: array of Integer;   // voice I's row on the page; -1 off the page
   VoicePageDir: String;
   VoiceProblems: String;
+  PickNarrator, PickLang, PickBundle: String;
 
 procedure InitVoices();
 begin
-  SetArrayLength(VoiceIds, 3);
-  SetArrayLength(VoiceNames, 3);
-  SetArrayLength(VoiceAssets, 3);
-  SetArrayLength(VoiceFolders, 3);
-  SetArrayLength(VoiceWanted, 3);
+  SetArrayLength(VoiceIds, 7);
+  SetArrayLength(VoiceNames, 7);
+  SetArrayLength(VoiceAssets, 7);
+  SetArrayLength(VoiceFolders, 7);
+  SetArrayLength(VoiceWanted, 7);
+  // The rows follow the downloads page's cards (LOR-848): the female narrator is The add-on, more from a narrator
+  // makes it Storyteller, quest dialogue and the quest givers make it Everything.
   VoiceIds[0] := 'female';
-  // The same one-line descriptions as the pack cards on loreforeverwow.com/downloads (site/lib/packs.js, LOR-437).
-  VoiceNames[0] := 'Female narrator: the same stories in a second voice, with the Alliance and Horde lands, plus more places and people, and item and quest stories';
+  VoiceNames[0] := 'Female narrator: the same stories in a second voice, with the Alliance and Horde lands';
   VoiceAssets[0] := 'LoreForever_Voice_Female-complete.zip';
   VoiceFolders[0] := 'LoreForever_Voice_Female;LoreForever_Voice_Female_Alliance;LoreForever_Voice_Female_Horde';
-  VoiceIds[1] := 'quests';
-  VoiceNames[1] := 'Quest dialogue and more (male narrator): quest givers read their words aloud, plus more places and people, and item and quest stories';
-  VoiceAssets[1] := 'LoreForever_Voice_Default_Quests.zip';
-  VoiceFolders[1] := 'LoreForever_Voice_Default_Quests';
-  VoiceIds[2] := 'original';
-  VoiceNames[2] := 'Original male narrator: the stories in the voice Lore Forever started with, with the Alliance and Horde lands, plus more places and people';
-  VoiceAssets[2] := 'LoreForever_Voice_Original-complete.zip';
-  VoiceFolders[2] := 'LoreForever_Voice_Original;LoreForever_Voice_Original_Alliance;LoreForever_Voice_Original_Horde';
+  VoiceIds[1] := 'female-more';
+  VoiceNames[1] := 'More from the female narrator: people and bosses, more places, item and quest stories';
+  VoiceAssets[1] := 'LoreForever_Voice_Female_MorePlaces.zip';
+  VoiceFolders[1] := 'LoreForever_Voice_Female_MorePlaces';
+  VoiceIds[2] := 'female-quests';
+  VoiceNames[2] := 'Quest dialogue, read by the female narrator';
+  VoiceAssets[2] := 'LoreForever_Voice_Female_Quests.zip';
+  VoiceFolders[2] := 'LoreForever_Voice_Female_Quests';
+  VoiceIds[3] := 'more';
+  VoiceNames[3] := 'More from the male narrator: people and bosses, more places, item and quest stories';
+  VoiceAssets[3] := 'LoreForever_Voice_Default_MorePlaces.zip';
+  VoiceFolders[3] := 'LoreForever_Voice_Default_MorePlaces';
+  VoiceIds[4] := 'quests';
+  VoiceNames[4] := 'Quest dialogue, read by the male narrator';
+  VoiceAssets[4] := 'LoreForever_Voice_Default_Quests.zip';
+  VoiceFolders[4] := 'LoreForever_Voice_Default_Quests';
+  VoiceIds[5] := 'givers';
+  VoiceNames[5] := 'Quest givers'' voices: each quest giver speaks their own words';
+  VoiceAssets[5] := 'LoreForever_Voice_QuestGivers.zip';
+  VoiceFolders[5] := 'LoreForever_Voice_QuestGivers';
+  // Off the page (Mike, 10/26: drop the original male narrator), still updated for the players who have him.
+  VoiceIds[6] := 'original';
+  VoiceNames[6] := 'Original male narrator';
+  VoiceAssets[6] := 'LoreForever_Voice_Original-complete.zip';
+  VoiceFolders[6] := 'LoreForever_Voice_Original;LoreForever_Voice_Original_Alliance;LoreForever_Voice_Original_Horde';
 #ifndef DownloadIss
   // Keep unavailable download choices hidden until exact release hashes are compiled.
   SetArrayLength(VoiceIds, 0);
@@ -275,8 +309,50 @@ begin
     Wanted := (V = 'all') or (Pos(',' + VoiceIds[I] + ',', ',' + V + ',') > 0);
 end;
 
+// What the player picked on loreforeverwow.com/downloads, from this file's name (LOR-848): the site serves it as
+// "Lore Forever Setup (female, en, storyteller).exe" (functions/download/setup). The first "(...)" counts: a browser
+// puts its " (1)" for a second download after it. Any other name picks nothing.
+procedure ReadPick();
+var
+  S: String;
+  P: Integer;
+begin
+  S := Lowercase(ExtractFileName(ExpandConstant('{srcexe}')));
+  P := Pos('(', S);
+  if P = 0 then Exit;
+  S := Copy(S, P + 1, Length(S));
+  P := Pos(')', S);
+  if P = 0 then Exit;
+  S := Copy(S, 1, P - 1) + ',';
+  StringChangeEx(S, ' ', '', True);
+  P := Pos(',', S); PickNarrator := Copy(S, 1, P - 1); S := Copy(S, P + 1, Length(S));
+  P := Pos(',', S); PickLang := Copy(S, 1, P - 1); S := Copy(S, P + 1, Length(S));
+  P := Pos(',', S); PickBundle := Copy(S, 1, P - 1);
+  Log('picked on the website: ' + PickNarrator + ', ' + PickLang + ', ' + PickBundle);
+end;
+
+// The rows the pick's card holds (site/lib/bundles.js): the narrator's own for The add-on, more from them for
+// Storyteller, quest dialogue and the quest givers for Everything. Only the English narrators have rows so far; the
+// site names a language read in English (Russian) "en", and says a language's own narration isn't in Setup yet.
+function PickedVoice(Id: String): Boolean;
+var
+  Want: String;
+begin
+  Want := '';
+  if (PickLang = 'en') and (PickNarrator = 'male') then begin
+    if PickBundle = 'storyteller' then Want := 'more'
+    else if PickBundle = 'everything' then Want := 'more,quests,givers';
+  end else if (PickLang = 'en') and (PickNarrator = 'female') then begin
+    if PickBundle = 'addon' then Want := 'female'
+    else if PickBundle = 'storyteller' then Want := 'female,female-more'
+    else if PickBundle = 'everything' then Want := 'female,female-more,female-quests,givers';
+  end;
+  Result := Pos(',' + Id + ',', ',' + Want + ',') > 0;
+end;
+
 // Which voices this run installs: the page's ticks, or for a silent install the /VOICES switch (else the voices
-// already there, to update them). Decided once, the first time anything asks.
+// already there, to update them, and the name's pick). A voice off the page goes by the switch, else installed.
+// Decided once, the first time anything asks.
 procedure DecideVoices();
 var
   I: Integer;
@@ -284,12 +360,12 @@ var
 begin
   if VoicesDecided then Exit;
   for I := 0 to GetArrayLength(VoiceIds) - 1 do begin
-    if not WizardSilent() then
-      VoiceWanted[I] := VoicePage.Values[I]
+    if not WizardSilent() and (VoicePageRow[I] >= 0) then
+      VoiceWanted[I] := VoicePage.Values[VoicePageRow[I]]
     else if VoiceFromSwitch(I, W) then
       VoiceWanted[I] := W
     else
-      VoiceWanted[I] := VoiceInstalled(I);
+      VoiceWanted[I] := VoiceInstalled(I) or (WizardSilent() and PickedVoice(VoiceIds[I]));
   end;
   VoicesDecided := True;
 end;
@@ -463,9 +539,11 @@ end;
 
 function DownloadLabel(Asset: String): String;
 begin
-  if Pos('LoreForever_Voice_Female', Asset) > 0 then Result := 'female narration'
+  if Pos('LoreForever_Voice_QuestGivers', Asset) > 0 then Result := 'quest givers'' voices'
+  else if Pos('LoreForever_Voice_Female', Asset) > 0 then Result := 'female narration'
   else if Pos('LoreForever_Voice_Original', Asset) > 0 then Result := 'original male narration'
   else if (Pos('Default_Quests', Asset) > 0) or (Pos('Default_Answers', Asset) > 0) then Result := 'extra quest narration'
+  else if Pos('Default_More', Asset) > 0 then Result := 'more male narration'
   else Result := 'included narration';
 end;
 
@@ -634,22 +712,35 @@ end;
 
 procedure InitializeWizard();
 var
-  I: Integer;
+  I, Rows: Integer;
+  Ticked: String;
 begin
   InitVoices();
 #ifdef DownloadIss
   ConfigureAvailableVoices();
 #endif
+  ReadPick();
+  Ticked := '';
+  if PickNarrator <> '' then Ticked := 'What you picked on the website is ticked. ';
   VoicePage := CreateInputOptionPage(wpSelectDir, 'Extra narration',
     'The male narrator''s stories and the Alliance and Horde lands are included. Add more narration here.',
-    'Tick an option to download it while Lore Forever installs, or skip this: downloads are also at ' +
+    Ticked + 'Tick an option to download it while Lore Forever installs, or skip this: downloads are also at ' +
     'loreforeverwow.com/downloads. In game, pick one under Options > Narration voices.', False, False);
-  for I := 0 to GetArrayLength(VoiceIds) - 1 do VoicePage.Add(VoiceNames[I]);
+  SetArrayLength(VoicePageRow, GetArrayLength(VoiceIds));
+  Rows := 0;
+  for I := 0 to GetArrayLength(VoiceIds) - 1 do
+    if VoiceIds[I] = 'original' then
+      VoicePageRow[I] := -1
+    else begin
+      VoicePage.Add(VoiceNames[I]);
+      VoicePageRow[I] := Rows;
+      Rows := Rows + 1;
+    end;
 end;
 
 function ShouldSkipPage(PageID: Integer): Boolean;
 begin
-  Result := (PageID = VoicePage.ID) and (GetArrayLength(VoiceIds) = 0);
+  Result := (PageID = VoicePage.ID) and (VoicePage.CheckListBox.Items.Count = 0);
 end;
 
 procedure CurPageChanged(CurPageID: Integer);
@@ -657,13 +748,15 @@ var
   I: Integer;
   W: Boolean;
 begin
-  // Tick what's already installed in the chosen folder (or what /VOICES asks for), again if the folder changes.
+  // Tick what's already installed in the chosen folder and the website's pick (or what /VOICES asks for), again if
+  // the folder changes.
   if (CurPageID = VoicePage.ID) and (VoicePageDir <> WizardDirValue()) then begin
     VoicePageDir := WizardDirValue();
-    for I := 0 to GetArrayLength(VoiceIds) - 1 do begin
-      if not VoiceFromSwitch(I, W) then W := VoiceInstalled(I);
-      VoicePage.Values[I] := W;
-    end;
+    for I := 0 to GetArrayLength(VoiceIds) - 1 do
+      if VoicePageRow[I] >= 0 then begin
+        if not VoiceFromSwitch(I, W) then W := VoiceInstalled(I) or PickedVoice(VoiceIds[I]);
+        VoicePage.Values[VoicePageRow[I]] := W;
+      end;
   end;
   if (CurPageID = wpFinished) and (VoiceProblems <> '') then
     WizardForm.FinishedLabel.Caption := WizardForm.FinishedLabel.Caption + #13#10#13#10 +

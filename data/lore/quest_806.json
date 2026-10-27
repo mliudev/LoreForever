@@ -17,21 +17,21 @@
   "wiki": "Dark Storms (quest)",
   "chain": []
  },
- "summary": "Dark Storms is a critical task assigned by Orgnil Soulscar in Razor Hill to strike down a rogue warlock corrupting the land. A goblin named Fizzle Darkstorm has entrenched himself in Thunder Ridge on behalf of the insidious Burning Blade cult. Eliminating him is vital to safeguarding Durotar from demonic resurgence before the cultists spread further.",
+ "summary": "In Durotar, Burning Blade cultists corrupt the land from Thunder Ridge. Orgnil Soulscar in Razor Hill has learned that the goblin warlock Fizzle Darkstorm leads them, and asks you to end his threat.",
  "sections": [
   {
    "title": "A Threat in the Ridge",
-   "body": "While young Horde defenders patrol the borders of Durotar, internal corruption festers right under their watch. Orgnil Soulscar, conducting inquiries from Razor Hill, discovered that Thunder Ridge to the northwest has fallen under the sway of dark magic. The ravine is crawling with Burning Blade cultists who bring ruin and chaos to the local wildlife and land.",
+   "body": "Orgnil Soulscar has learned that dark magic has taken hold in Thunder Ridge, northwest of Razor Hill. Burning Blade cultists prowl the ravine while young Horde defenders patrol Durotar’s borders. Their presence brings ruin to the wildlife and land.",
    "spoiler": 0
   },
   {
    "title": "Fizzle Darkstorm",
-   "body": "Directing the cultist activity within the ridge is Fizzle Darkstorm, an opportunistic goblin warlock allied with the Burning Blade. Rather than serving commerce or cartel interests, Fizzle wields fel power directly in service of the cult's subversive agenda. Slaying him and claiming his twisted claw proves to Orgnil that the cult's immediate leadership in the ravine has been broken.",
+   "body": "Fizzle Darkstorm, a goblin warlock allied with the Burning Blade, directs the cultists in Thunder Ridge. He wields fel power for the cult rather than serving commerce or cartel interests. Slaying him and bringing back his twisted claw will show Orgnil that the cult’s leaders in the ravine have been struck down.",
    "spoiler": 0
   },
   {
    "title": "Rooting Out the Cult",
-   "body": "The Burning Blade represents everything Thrall's new Horde fights to leave behind: demonic servitude, reckless corruption, and bloodthirsty madness. Striking down Fizzle removes an active conspirator from Durotar's interior, but it also signals that the shadow over the orcish homeland runs far deeper than isolated encampments.",
+   "body": "The Burning Blade embodies the demonic servitude, corruption, and bloodthirsty madness Thrall’s new Horde seeks to leave behind. Fizzle’s death removes an active conspirator from Durotar’s interior. The shadow over the orcish homeland reaches beyond isolated encampments.",
    "spoiler": 1
   }
  ],
@@ -43,7 +43,7 @@
     "fizzle darkstorm lore",
     "fizzle goblin"
    ],
-   "answer": "Fizzle Darkstorm is a goblin warlock operating on behalf of the Burning Blade cult. He and his cultist followers have taken refuge in Thunder Ridge, spreading demonic chaos across the ravine until Orgnil Soulscar calls for his execution."
+   "answer": "Fizzle Darkstorm is a goblin warlock working for the Burning Blade cult. He and his followers shelter in Thunder Ridge and spread demonic chaos through the ravine, until Orgnil Soulscar calls for his execution."
   },
   {
    "q": "Where is Thunder Ridge located?",
@@ -52,7 +52,7 @@
     "thunder ridge location",
     "how to find thunder ridge"
    ],
-   "answer": "Thunder Ridge is a rugged canyon situated in northwestern Durotar, north of Razor Hill and just southwest of Orgrimmar. It is notoriously overrun by lightning-infused beasts and encampments of Burning Blade cultists."
+   "answer": "Thunder Ridge lies in northwestern Durotar, north of Razor Hill and southwest of Orgrimmar. Lightning-infused beasts and Burning Blade cultists occupy its rugged canyon."
   },
   {
    "q": "Why is the Burning Blade in Durotar?",
@@ -61,7 +61,7 @@
     "why are cultists in durotar",
     "burning blade motives"
    ],
-   "answer": "The Burning Blade seeks to undermine Thrall's Horde and re-establish demonic dominance over the orcs. They operate secretly out of hidden ravines, caves, and canyons across Durotar to sow corruption from within."
+   "answer": "The Burning Blade seeks to undermine Thrall’s Horde and restore demonic dominance over the orcs. Its members hide in ravines, caves, and canyons across Durotar, sowing corruption from within."
   },
   {
    "q": "Why does Orgnil Soulscar want Fizzle's claw specifically?",
@@ -70,7 +70,7 @@
     "fizzle's claw meaning",
     "proof of death fizzle"
    ],
-   "answer": "Orgnil requires unmistakable proof that the warlock has been terminated. Bringing back Fizzle's claw confirms that the head of the cultist cabal in Thunder Ridge can no longer direct operations."
+   "answer": "Orgnil wants Fizzle’s claw as unmistakable proof that the warlock is dead. It confirms that the head of the Thunder Ridge cultists can no longer direct their operations."
   },
   {
    "q": "What happens after Fizzle is slain?",
@@ -79,7 +79,7 @@
     "dark storms follow up",
     "next quest after dark storms"
    ],
-   "answer": "Defeating Fizzle clears the immediate threat in Thunder Ridge, leading Orgnil Soulscar to send you on to the shaman Margoz, who knows more of the Burning Blade's corruption, to root out further Burning Blade conspiracies."
+   "answer": "After Fizzle falls, you bring word to Orgnil Soulscar. He sends you to Margoz, a shaman who knows more about the Burning Blade’s corruption, so you can pursue further conspiracies."
   },
   {
    "q": "Why would a goblin work for the Burning Blade?",
@@ -88,25 +88,25 @@
     "why is fizzle with the cult",
     "fizzle warlock"
    ],
-   "answer": "While many goblins seek gold through trade cartels, some are enticed by the raw power, influence, and dark arts offered by shadow magic. Fizzle embraced fel witchcraft and lent his ruthless cunning directly to the cultists."
+   "answer": "Some goblins are drawn to shadow magic for its power, influence, and dark arts. Fizzle embraced fel witchcraft and put his ruthless cunning at the cultists’ service."
   }
  ],
  "angles": [
   {
    "target": "race:Orc",
-   "text": "The Burning Blade represents the dark past the orcs fight every day to overcome. Eliminating cultist infiltrators like Fizzle is essential to preserving Thrall's free nation."
+   "text": "As an orc, you know the Burning Blade embodies the dark past your people struggle to overcome. Driving out infiltrators like Fizzle helps protect Thrall’s free nation."
   },
   {
    "target": "class:Warlock",
-   "text": "Fizzle Darkstorm demonstrates the reckless danger of uncontrolled fel devotion, making him an embarrassment and a hazard that disciplined Horde practitioners cannot tolerate."
+   "text": "As a warlock, you see how Fizzle’s reckless devotion to fel power makes him a danger and an embarrassment to disciplined Horde practitioners."
   },
   {
    "target": "faction:Horde",
-   "text": "Ensuring the heart of Durotar remains secure from demonic subversion allows the nascent Horde to direct its defenses outward rather than collapsing from inside."
+   "text": "As a member of the Horde, you help secure Durotar’s heart from demonic subversion, so the Horde can turn its defenses outward without collapsing from within."
   },
   {
    "target": "class:Shaman",
-   "text": "The dark rites practiced by Fizzle and his minions disrupt the natural spirits of Thunder Ridge, agitating its beasts and demanding elemental balance be restored."
+   "text": "As a shaman, you know Fizzle’s dark rites and his minions disturb Thunder Ridge’s natural spirits and agitate its beasts. The elemental balance must be restored."
   }
  ],
  "keywords": [
@@ -129,5 +129,6 @@
  ],
  "attribution": [
   "Dark Storms (quest)"
- ]
+ ],
+ "style": 1
 }

@@ -44,7 +44,7 @@
       },
       "fullHash": "6512f7",
       "generation": "c398edcc2551ba3dce4d",
-      "hash": "aceb96",
+      "hash": "6512f7",
       "source": {
         "duration": 19.722449,
         "file": null,
@@ -70,7 +70,7 @@
       },
       "fullHash": "7d26c8",
       "generation": "89cf387ab847d972e319",
-      "hash": "69a9b7",
+      "hash": "7d26c8",
       "source": {
         "duration": 45.5575,
         "file": null,
@@ -96,7 +96,7 @@
       },
       "fullHash": "1f7e63",
       "generation": "3369ec0a8d5d1c24dc06",
-      "hash": "f8dd01",
+      "hash": "1f7e63",
       "source": {
         "duration": 35.84,
         "file": null,
@@ -185,9 +185,9 @@
     "npc:bazzalan": {
       "1": [
         {
-          "duration": 53.760000000000005,
-          "file": "Audio/Transport/full_npc_bazzalan-939d5d6abaec2bb4c78b/1-0000.mp3",
-          "sha256": "415c632d345c0ab405f388fbfe4b13ec02c75176d9bb88c2c602f178fe3985f6",
+          "duration": 44.64326530612245,
+          "file": "Audio/Transport/full_npc_bazzalan-a5ba91bcb7cd0b30b665/1-0000.mp3",
+          "sha256": "3e7e5dc1c55c0395096a6a6f72c15621d22eadf8f0ed3a675aa0cc462a2f428f",
           "start": 0
         }
       ],
@@ -198,15 +198,15 @@
           "1"
         ]
       },
-      "fullHash": "9b288e",
-      "generation": "8519faca956b12eadceb",
+      "fullHash": "b34067",
+      "generation": "008435d221f977f20313",
       "hash": "4ba4c4",
       "source": {
-        "duration": 53.733875,
+        "duration": 44.669388,
         "file": null,
-        "sha256": "939d5d6abaec2bb4c78b417c1a37f97b213c23a2c479e430080366f4c499fb43"
+        "sha256": "a5ba91bcb7cd0b30b665e02d5d192ce7bbb0b5149351bade20c4b05f27e447c8"
       },
-      "text": "Bazzalan. Bazzalan is a sinister satyr rogue lurking within the volcanic depths of Ragefire Chasm. Alongside Jergosh the Invoker, he commands the dark activities of the Searing Blade cult directly beneath the Horde capital of Orgrimmar. While Thrall works to establish the Orcs' new home across Durotar, ancient evils have found a roost beneath his feet. Bazzalan, a cunning satyr rogue, has allied with the Searing Blade cult inside the winding lava caverns of Ragefire Chasm. Swift and lethal with twin blades, he serves as one of the cult's primary field commanders. Perched upon a dark volcanic ledge overlooking the central chamber where Jergosh the Invoker conducts demonic rituals, Bazzalan oversees his cultist guards. Like all satyrs, his ultimate loyalty lies with demonic masters, using poisons, fast strikes, and dark stealth to eliminate any Horde scouts who venture too close to the cult's staging ground."
+      "text": "Bazzalan. Bazzalan commands the Searing Blade cult from the lava caverns beneath Orgrimmar. Alongside Jergosh the Invoker, he directs its work in Ragefire Chasm. Beneath Orgrimmar, Bazzalan has joined the Searing Blade cult in Ragefire Chasm. While Thrall works to establish the Orcs' new home across Durotar, the satyr rogue commands the cult's field forces from winding lava caverns. He is swift and lethal with twin blades. From a volcanic ledge above the central chamber, Bazzalan oversees the cultist guards. Jergosh the Invoker conducts demonic rituals below. Like all satyrs, Bazzalan's ultimate loyalty belongs to demonic masters. He uses poison, quick strikes, and stealth against Horde scouts who venture near the cult's staging ground."
     },
     "npc:blind-hunter": {
       "1": [
@@ -408,7 +408,7 @@
       },
       "fullHash": "24ccda",
       "generation": "e3b2cc9a86d0cbff1a25",
-      "hash": "041f9a",
+      "hash": "24ccda",
       "source": {
         "duration": 18.207347,
         "file": null,
@@ -668,7 +668,7 @@
       },
       "fullHash": "e3dde8",
       "generation": "1f9c19704aa62e9f4022",
-      "hash": "8038a7",
+      "hash": "e3dde8",
       "source": {
         "duration": 40.724875,
         "file": null,
@@ -731,9 +731,9 @@
     "npc:jergosh-the-invoker": {
       "1": [
         {
-          "duration": 40.85551020408163,
-          "file": "Audio/Transport/full_npc_jergosh-the-invoker-06ae5fa0884ae6ed4aab/1-0000.mp3",
-          "sha256": "5beed8ff6307e32c224d292858c7cd83f6d5e98ca2de8fca647c1097ab97261c",
+          "duration": 32.9665306122449,
+          "file": "Audio/Transport/full_npc_jergosh-the-invoker-b263d190ea58f54c90df/1-0000.mp3",
+          "sha256": "1d85ba8d136d78cf111e2dbde741b6a1926470ece6051ce5aa11c511e83f50c4",
           "start": 0
         }
       ],
@@ -744,15 +744,15 @@
           "1"
         ]
       },
-      "fullHash": "973644",
-      "generation": "44565c7667e9a54fc821",
-      "hash": "973644",
+      "fullHash": "698714",
+      "generation": "348b7254344cabc46282",
+      "hash": "698714",
       "source": {
-        "duration": 40.829375,
+        "duration": 32.966531,
         "file": null,
-        "sha256": "06ae5fa0884ae6ed4aab917f68c56e50ce16fdd7c3db06777e4be12915b3a058"
+        "sha256": "b263d190ea58f54c90dfba88fe00d45e4dd1ab29b00eec08d79e4476aaa8d6a0"
       },
-      "text": "Jergosh the Invoker. Jergosh the Invoker is a treacherous orc warlock hiding deep within Ragefire Chasm beneath Orgrimmar. As a high-ranking leader among the Searing Blade cultists, he practices demonic arts directly under the Warchief's nose and plots against the Horde. While Thrall works tirelessly to lead the orcs along a path of honor and shamanism, Jergosh rejected these ideals in favor of raw demonic power. Concealing himself within the subterranean labyrinth of Ragefire Chasm beneath Orgrimmar, he gathered followers into the Searing Blade, an insidious sect aligned with the remnants of the Shadow Council. Operating in the shadows directly below the Horde capital, Jergosh works to undo everything the new Horde stands for."
+      "text": "Jergosh the Invoker. Deep beneath Orgrimmar, Jergosh the Invoker plots against the Horde. He leads Searing Blade cultists in Ragefire Chasm and practices demonic arts while Thrall guides the orcs toward honor and shamanism. Jergosh gathers the Searing Blade beneath Orgrimmar. While Thrall leads the orcs toward honor and shamanism, Jergosh turns to demonic power. He hides in Ragefire Chasm, where he draws followers into a sect aligned with the remnants of the Shadow Council. From below the Horde capital, the cult works against the path the new Horde has chosen."
     },
     "npc:kam-deepfury": {
       "1": [
@@ -1006,7 +1006,7 @@
       },
       "fullHash": "3d0edc",
       "generation": "c944ca6e641646f787ef",
-      "hash": "00d6b7",
+      "hash": "3d0edc",
       "source": {
         "duration": 43.650563,
         "file": null,
@@ -1043,9 +1043,9 @@
     "npc:oggleflint": {
       "1": [
         {
-          "duration": 70.06040816326531,
-          "file": "Audio/Transport/full_npc_oggleflint-592a9746fe82cabdd99c/1-0000.mp3",
-          "sha256": "86a0f8d73911ab54d064ae0bc2381c3e209124d96be70eff0ffa63ea5aec6d4f",
+          "duration": 61.02204081632653,
+          "file": "Audio/Transport/full_npc_oggleflint-bbc2bc44f7bc0c73fc73/1-0000.mp3",
+          "sha256": "a8d9dcd61f68f4d6a8d8b865ec4a3e10eeeab10caf655fb2f06c25ec70b1ffbe",
           "start": 0
         }
       ],
@@ -1056,15 +1056,15 @@
           "1"
         ]
       },
-      "fullHash": "99ba55",
-      "generation": "a2f36be8939ca17bf2f4",
+      "fullHash": "bd424f",
+      "generation": "3588ae881fb6876f83d7",
       "hash": "6e56f3",
       "source": {
-        "duration": 70.03425,
+        "duration": 61.048163,
         "file": null,
-        "sha256": "592a9746fe82cabdd99c78a24e769b9e48bf85e81a870d0bcba4860605f3882d"
+        "sha256": "bbc2bc44f7bc0c73fc73bbc07ac1f9021fb87af1464708b0e2a60717cbdf26f7"
       },
-      "text": "Oggleflint. Oggleflint is the chieftain of the trogg tribe dwelling within the volcanic depths of Ragefire Chasm directly beneath Orgrimmar. His troggs have been creeping up from the lava-filled tunnels toward the surface, and from his place near the cavern's entrance he commands a savage pack that poses an immediate threat to the Horde capital above. Oggleflint and his troggs climbed out of the fiery tunnels deep beneath Orgrimmar and into Ragefire Chasm. Brutal and territorial, they carved out a primitive domain among the molten rock. Though troggs possess little in the way of advanced civilization, Oggleflint maintained absolute authority over the pack through sheer brute strength. When Elder Crone Magatha Grimtotem sent diplomats into the chasm to make peace with the troggs, the troggs turned on them and killed them. The body of one envoy, Maur Grimtotem, lay in the caverns under Oggleflint's watch. The trogg chieftain now waits near the cavern entrance, striking at any outsider who comes down into the dark. Having troggs directly beneath Thrall's capital is a hazard the Horde cannot tolerate. Creeping closer to the surface, Oggleflint's tribe is far too volatile to leave unchecked, threatening to spill into the Drag and Cleft of Shadow if left undisturbed."
+      "text": "Oggleflint. Beneath Orgrimmar, Oggleflint leads the trogg tribe in Ragefire Chasm. His pack climbs from lava-filled tunnels toward the surface, where he commands them near the cavern entrance and threatens the Horde capital above. Deep beneath Orgrimmar, Oggleflint and his troggs climbed from fiery tunnels into Ragefire Chasm. They carved a primitive domain among the molten rock and defend it with brutal force. Troggs have little advanced civilization, and Oggleflint rules his pack through sheer strength. Elder Crone Magatha Grimtotem sent diplomats into the chasm to make peace with the troggs. The troggs turned on them and killed them. Maur Grimtotem, one of the envoys, lies dead in the caverns under Oggleflint’s watch. Near the cavern entrance, the chieftain waits and strikes at outsiders who venture into the dark. Oggleflint’s tribe lives directly beneath Thrall’s capital, a hazard the Horde cannot tolerate. The troggs creep closer to the surface, and their volatile nature threatens to carry them into the Drag and Cleft of Shadow if left undisturbed."
     },
     "npc:old-serra-kis": {
       "1": [
@@ -1225,9 +1225,9 @@
     "npc:taragaman-the-hungerer": {
       "1": [
         {
-          "duration": 44.1730612244898,
-          "file": "Audio/Transport/full_npc_taragaman-the-hungerer-c2acb3acecb1aebc2741/1-0000.mp3",
-          "sha256": "979dd1901a3f435b75ca4d014a72714e1262a27b39f8f8dacb378f539957cd54",
+          "duration": 32.888163265306126,
+          "file": "Audio/Transport/full_npc_taragaman-the-hungerer-45c300ffd185bdf3c130/1-0000.mp3",
+          "sha256": "1627a0a8b6ae74af78a99bdb55dcd15007b568dca4a0222912d662f4c6fd9f9f",
           "start": 0
         }
       ],
@@ -1238,15 +1238,15 @@
           "1"
         ]
       },
-      "fullHash": "f52118",
-      "generation": "1d7cf199e4a64f712e85",
-      "hash": "f52118",
+      "fullHash": "b8e8fe",
+      "generation": "85ded69a901ea35f3b48",
+      "hash": "b8e8fe",
       "source": {
-        "duration": 44.146938,
+        "duration": 32.888163,
         "file": null,
-        "sha256": "c2acb3acecb1aebc27413803a24fadafca96d3ec230cea27aed17d80650ba95a"
+        "sha256": "45c300ffd185bdf3c130207e5360b9e8a4d94e3bf7cc7ddbd5a6616fa840da7f"
       },
-      "text": "Taragaman the Hungerer. Taragaman the Hungerer is a hulking felguard lurking within the molten caverns of Ragefire Chasm beneath Orgrimmar. While widely feared as the demonic master behind the Searing Blade cult, his presence in the fiery depths serves a darker, more deceptive purpose. The Horde seeks his destruction to eliminate the demonic taint poisoning the city's underbelly. Prowling amidst the magma pools of Ragefire Chasm, Taragaman the Hungerer represents an immediate and terrifying threat to the safety of Orgrimmar. For many scouts and young warriors sent into the dark chasm, the demonic felguard appears to be the central ringleader of the Searing Blade cultists, wielding infernal strength to bend the weak-willed and corrupt the subterranean passages beneath Thrall's fortress."
+      "text": "Taragaman the Hungerer. Beneath Orgrimmar, Taragaman the Hungerer prowls the molten caverns of Ragefire Chasm. The Horde seeks to destroy the hulking felguard, feared as the demonic master behind the Searing Blade cult, and end the demonic taint beneath the city. Taragaman the Hungerer prowls among Ragefire Chasm's magma pools, threatening Orgrimmar below. Scouts and young warriors sent into the dark caverns see the demonic felguard as the Searing Blade cult's leader. With infernal strength, he bends the weak-willed and corrupts the passages beneath Thrall's fortress."
     },
     "npc:targorr-the-dread": {
       "1": [
@@ -1318,7 +1318,7 @@
       },
       "fullHash": "d1368c",
       "generation": "fdd558e4a9384ad17db7",
-      "hash": "083256",
+      "hash": "d1368c",
       "source": {
         "duration": 31.63425,
         "file": null,
@@ -1459,9 +1459,9 @@
     "subzone:sen-jin-village": {
       "1": [
         {
-          "duration": 90.95836734693877,
-          "file": "Audio/Transport/full_subzone_sen-jin-village-dc83f1ef09ed70a89b29/1-0000.mp3",
-          "sha256": "83e9d503932403758458888b017b32d58f90e8d4e437ff6759e0399a7c21b556",
+          "duration": 76.46040816326531,
+          "file": "Audio/Transport/full_subzone_sen-jin-village-2c593bec4a6c6282d442/1-0000.mp3",
+          "sha256": "5d4443b36a969b65cd7d700aeedd1c241e9f0616765bd21e1ac47fce6905dd46",
           "start": 0
         }
       ],
@@ -1472,22 +1472,22 @@
           "1"
         ]
       },
-      "fullHash": "19fcfa",
-      "generation": "31db5de1eda1569db2d1",
+      "fullHash": "1b43ab",
+      "generation": "be36a498c2197b896a67",
       "hash": "940fe4",
       "source": {
-        "duration": 90.932188,
+        "duration": 76.486531,
         "file": null,
-        "sha256": "dc83f1ef09ed70a89b295271547f74d775e9985a4d9f412c791eb5e520c4f560"
+        "sha256": "2c593bec4a6c6282d4429146f23c88af59e5125f4089c7ca91626270a31c5a55"
       },
-      "text": "Sen'jin Village. Sen'jin Village is a coastal settlement on the southern shores of Durotar, serving as a sanctuary for the Darkspear trolls. Established by Chieftain Vol'jin after his people were driven from their ancestral home on the Echo Isles, the hamlet honors his fallen father, the witch doctor Sen'jin. Today, it stands as a fragile haven focused on survival, herbalism, and reclaiming what was stolen. When the dark witch doctor Zalazane betrayed the Darkspear and seized control of the Echo Isles, Chieftain Vol'jin was forced to lead the survivors across the strait to the mainland of Durotar. There, nestled beneath coastal cliffs and looking out over the water, they raised crude huts and established Sen'jin Village. The settlement carries the name of Vol'jin's father, the venerable elder who was captured and sacrificed by murlocs during the Third War. Despite their close alliance with Thrall's Horde, the trolls here live under the shadow of exile, staring daily across the shallows at the home they lost. Daily life in Sen'jin Village revolves around preparation and defense. Between local quilboar raids, aggressive sea beasts, and Zalazane's hexes reaching across the sea, the villagers rely heavily on herbal remedies and brewing potent alchemical spirits. While Vol'jin coordinates broader tribal defense from the Horde capital, local shamans, hunters, and scouts gather here to recruit fresh wanderers stepping out of the Valley of Trials. Their aim is clear: to gather resources, protect Durotar's southern flank, and plot the eventual downfall of the traitor Zalazane."
+      "text": "Sen'jin Village. Sen'jin Village shelters the Darkspear on Durotar's southern shore. Vol'jin founded it after Zalazane drove his people from the Echo Isles, naming it for his fallen father. The villagers endure exile and prepare to reclaim their home. Sen'jin Village shelters the Darkspear survivors on Durotar's shore. After the witch doctor Zalazane betrayed the tribe and seized the Echo Isles, Chieftain Vol'jin led them across the strait to the mainland. They raised crude huts beneath coastal cliffs, facing the water and the home they had lost. The village bears the name of Sen'jin, Vol'jin's father, who was captured and sacrificed by murlocs during the Third War. Though the Darkspear are closely allied with Thrall's Horde, exile remains their burden. Each day, the lost isles lie just across the shallows. Life in Sen'jin Village turns on preparation and defense. Quilboar raids, aggressive sea beasts, and Zalazane's hexes from across the sea threaten the villagers. Herbal remedies and potent alchemical spirits help sustain them. Vol'jin coordinates the tribe's wider defense from the Horde capital, while local shamans, hunters, and scouts gather recruits arriving from the Valley of Trials. They seek resources, guard Durotar's southern flank, and plan Zalazane's downfall."
     },
     "subzone:shadowglen": {
       "1": [
         {
-          "duration": 71.13142857142857,
-          "file": "Audio/Transport/full_subzone_shadowglen-4c864d432914145aa010/1-0000.mp3",
-          "sha256": "27bc583729cb0780c1ac9cbbad8f031a6d21a9e6141771750d713d244af960ad",
+          "duration": 55.04,
+          "file": "Audio/Transport/full_subzone_shadowglen-ce0a9d724af8f97e78d7/1-0000.mp3",
+          "sha256": "d9ef0954d36c669ee4ef7c7c05cbd5781a628eb5605ada2fe0f928cbbd9fab79",
           "start": 0
         }
       ],
@@ -1498,22 +1498,22 @@
           "1"
         ]
       },
-      "fullHash": "154808",
-      "generation": "49b583cf46b773a89fb1",
+      "fullHash": "24d4b9",
+      "generation": "615d5e6f87f271d8ecf7",
       "hash": "3ce49c",
       "source": {
-        "duration": 71.10525,
+        "duration": 55.04,
         "file": null,
-        "sha256": "4c864d432914145aa010009a8a32d4a78ab584c87f398ee8848c87ae96fbf348"
+        "sha256": "ce0a9d724af8f97e78d76e3916839fee2c82d33b512fbdd91a59688899f7f0cd"
       },
-      "text": "Shadowglen. Shadowglen is a secluded, twilit vale nestled within the northeastern boughs of Teldrassil. Dominated by the great barrow-tree Aldrassil, it serves as the safe haven where young night elves take their first steps into service before journeying out into the wider world. Tucked away in the northeastern canopy of Teldrassil, Shadowglen is ringed by high ridges that shelter it from the rest of the world. Bathed in eternal dusk, the vale centers on Aldrassil, a massive barrow-tree whose hollowed trunk houses elders, priestesses, and mentors for young night elves beginning their training. The only route out of the valley leads south through a narrow mountain pass toward Starbreeze Village and Dolanaar, making Shadowglen one of the most naturally fortified and peaceful sanctuaries on the World Tree. Despite its tranquil seclusion, Shadowglen is not entirely free from danger. In the extreme northwest lies Shadowthread Cave, a dark cavern infested with venomous spiders that constantly threaten the tranquil glade. Even on the pristine branches of Teldrassil, vigilance is required, and fledgling defenders are tasked with driving back the encroaching vermin and untamed wildlife before venturing into the broader expanse of the boughs beyond."
+      "text": "Shadowglen. Young night elves begin their training in Shadowglen, beneath the boughs of Teldrassil. The vale gathers around Aldrassil, where elders, priestesses, and mentors guide them before they travel farther into the world. Shadowglen lies beneath the northeastern boughs of Teldrassil, ringed by high ridges that shelter it from the rest of the world. Eternal dusk falls over the vale, where Aldrassil rises as a massive barrow-tree. Its hollowed trunk houses elders, priestesses, and mentors who guide young night elves beginning their training. A narrow mountain pass leads south toward Starbreeze Village and Dolanaar. This single route out leaves the sanctuary sheltered and peaceful. Danger reaches even this sheltered vale. Shadowthread Cave lies in the extreme northwest, where venomous spiders threaten the glade. Young defenders drive back the encroaching vermin and untamed wildlife before venturing farther among Teldrassil's boughs."
     },
     "subzone:valley-of-trials": {
       "1": [
         {
-          "duration": 52.32326530612245,
-          "file": "Audio/Transport/full_subzone_valley-of-trials-b443d3db75505d7eb97d/1-0000.mp3",
-          "sha256": "c7240ca988596139e952a12671125deaf0e273b85c93ad83572cf9a3f88ad5d3",
+          "duration": 34.40326530612245,
+          "file": "Audio/Transport/full_subzone_valley-of-trials-2e1927edb07a53bdd56b/1-0000.mp3",
+          "sha256": "98b22167f72e219e81b7bd37770c4be0551fb7e5c110140976ba9b45705ed957",
           "start": 0
         }
       ],
@@ -1524,15 +1524,15 @@
           "1"
         ]
       },
-      "fullHash": "5fcb12",
-      "generation": "923cd93df61dc761bd76",
-      "hash": "5fcb12",
+      "fullHash": "f9cb37",
+      "generation": "5836036fad07d605ee17",
+      "hash": "f9cb37",
       "source": {
-        "duration": 52.349388,
+        "duration": 34.429388,
         "file": null,
-        "sha256": "b443d3db75505d7eb97d2d9df0fb27a70c31a0293587c5212dde6b804fc86809"
+        "sha256": "2e1927edb07a53bdd56bc427281833ac081f4c3c4f80cedf622b9311e554843a"
       },
-      "text": "Valley of Trials. Tucked away behind the rugged red cliffs of southern Durotar, the Valley of Trials serves as the testing ground for new recruits of the Horde. Young orcs and their Darkspear troll allies come here to prove their strength and earn their place among the warriors of Kalimdor. Those who survive the valley's harsh wildlife and hidden threats depart ready to defend their fledgling nation. The Valley of Trials is designed to weed out the weak before they ever set foot in the broader reaches of Durotar. Overseen by chieftains and trainers stationed in the carved cliffside shelter known as The Den, young fighters are thrust into the sun-scorched gulch to hunt scorpids, culled aggressive boars, and enforce discipline among lazy peons harvesting scarce timber. The trial is uncompromising: those who prove their mettle earn the right to venture forth as true soldiers of the Horde, while those who fail are left to bleach beneath the desert sun."
+      "text": "Valley of Trials. In the Valley of Trials, young Horde recruits test their strength in southern Durotar. Orcs and Darkspear trolls face the valley’s wildlife and dangers before they leave ready to defend their people. Young fighters face the Valley of Trials before they venture into Durotar. Chieftains and trainers watch over them from The Den, a shelter carved into the cliffs. In the sunlit gulch, recruits hunt scorpids, cull aggressive boars, and keep lazy peons in line as they harvest scarce timber. The trial is hard, and only those who prove their mettle earn the right to leave as soldiers of the Horde. Those who fail are left beneath the desert sun."
     },
     "topic:alliance-of-lordaeron": {
       "1": [
@@ -2291,9 +2291,9 @@
     "topic:grommash-hellscream": {
       "1": [
         {
-          "duration": 141.1657142857143,
-          "file": "Audio/Transport/full_topic_grommash-hellscream-93316ff191e3dfe062e2/1-0000.mp3",
-          "sha256": "48b608a1dbef41b2dd1fb9d828646c2d0e8438afd7dc7c4978c94ec1c734c18f",
+          "duration": 119.19673469387756,
+          "file": "Audio/Transport/full_topic_grommash-hellscream-17eab57c831f43cccd5f/1-0000.mp3",
+          "sha256": "32fb2197a062a4d0e62c788b36e28a1928d1198d1dff8e4ea2cc76de09196931",
           "start": 0
         }
       ],
@@ -2304,15 +2304,15 @@
           "1"
         ]
       },
-      "fullHash": "6854bc",
-      "generation": "2c54f5e9ab08aab80684",
-      "hash": "6854bc",
+      "fullHash": "11683e",
+      "generation": "25f91fdb1e21014abc96",
+      "hash": "11683e",
       "source": {
-        "duration": 141.139563,
+        "duration": 119.196735,
         "file": null,
-        "sha256": "93316ff191e3dfe062e2d622f3f47ae8ba6b71687e48fd0a03a9d704fab964f2"
+        "sha256": "17eab57c831f43cccd5f766d8c999221dc7f571e95ee4ffd277edad4121b0fec"
       },
-      "text": "Grommash Hellscream. Grommash Hellscream was the legendary chieftain of the Warsong clan, a close brother-in-arms to Warchief Thrall, and the first orc to drink the blood of Mannoroth. Though his thirst for battle once bound his people to the Burning Legion, he redeemed the orcish race by slaying the demon lord in Ashenvale at the cost of his own life. Before the Dark Portal ever bridged worlds, Grom Hellscream led the Warsong clan with unyielding ferocity, distinguished by his pitch-black tattooed jaw and the deadly sweep of his two-handed axe, Gorehowl. When Gul'dan and the Shadow Council offered the chalice of demonic strength on Draenor, Grom was the first chieftain to drink the blood of the pit lord Mannoroth. That fateful draught doomed the orcish race to demonic subservience and a burning bloodlust. Yet unlike many chieftains who perished or succumbed entirely, Grom possessed an iron will that kept his fierce spirit intact, surviving the horrors of the old Horde while harboring an unspoken ache for what his people had surrendered. Kept behind on Draenor during the Second War, Grom later crossed through the Dark Portal only to be stranded when the rift was shattered. For nearly fifteen years, Grom and his surviving Warsong warriors evaded the Alliance of Lordaeron, enduring the lethargy and despair that fell upon the orcs after the demon blood faded. Hope rekindled when a young fugitive named Thrall sought him out in the wilderness. Recognizing Thrall's strength and noble heart, Grom mentored him in the proud heritage of their people. Alongside Orgrim Doomhammer, the two rallied their disparate clans, broke open the human internment camps, and ignited the birth of the New Horde. Upon arriving in Kalimdor during the Third War, Grom's unquenched aggression resurfaced in the ancient forests of Ashenvale. Beset by the night elves and the demigod Cenarius, Grom succumbed once more, drinking from a corrupted fountain infused with Mannoroth's blood to save his clan. Enslaved anew by the demon lord, Grom turned against his own people until Thrall and Jaina Proudmoore captured and cleansed his corrupted spirit with ancient shamanic and arcane rites. Fully restored to his senses and burdened by immense guilt, Grom pursued Mannoroth into Demon Fall Canyon. In a desperate final strike, he drove Gorehowl into the demon lord's chest, severing the demonic curse forever as hellfire claimed his life."
+      "text": "Grommash Hellscream. After the Third War, Grommash Hellscream's people are free of the Blood Curse. Once bound to the Burning Legion by his thirst for battle, the Warsong chieftain gave his life to slay Mannoroth in Ashenvale and free the orcs. Before the Dark Portal opened, Grom Hellscream led the Warsong clan with fierce resolve. His pitch-black tattooed jaw and the deadly sweep of his two-handed axe, Gorehowl, set him apart. On Draenor, Gul'dan and the Shadow Council offered the orcs demonic strength. Grom was the first chieftain to drink the blood of the pit lord Mannoroth. The draught bound the orcs to demonic service and filled them with burning bloodlust. Many chieftains perished or lost themselves to it, but Grom kept his fierce spirit through the old Horde's horrors. He carried a quiet ache for what his people had surrendered. Left behind on Draenor during the Second War, Grom later crossed the Dark Portal and was stranded when the rift was shattered. For nearly fifteen years, he and the surviving Warsong warriors evaded the Alliance of Lordaeron. They endured the lethargy and despair that followed the fading of the demon blood. Then a young fugitive named Thrall found Grom in the wilderness, and hope returned. Grom saw Thrall's strength and noble heart, and taught him the proud heritage of their people. Together with Orgrim Doomhammer, they rallied the scattered clans, broke open the human internment camps, and began the New Horde. During the Third War, Grom's aggression rose again in Ashenvale's ancient forests. The night elves and the demigod Cenarius pressed his clan hard, and Grom drank from a fountain corrupted with Mannoroth's blood to save them. Bound again to the demon lord, he turned against his own people. Thrall and Jaina Proudmoore captured him and cleansed his spirit with ancient shamanic and arcane rites. Restored to his senses and burdened with guilt, Grom pursued Mannoroth into Demon Fall Canyon. He drove Gorehowl into the demon lord's chest, ending the demonic curse forever. Hellfire took Grom's life."
     },
     "topic:harpy": {
       "1": [
@@ -3721,9 +3721,9 @@
     "zone:barrens": {
       "1": [
         {
-          "duration": 86.30857142857143,
-          "file": "Audio/Transport/full_zone_barrens-87a97620a46a8f8352a0/1-0000.mp3",
-          "sha256": "a2066782aa6d0cce81eb0d6f7f2b53b671b18d42966e62b2bd38de5dbf60ee9e",
+          "duration": 73.2734693877551,
+          "file": "Audio/Transport/full_zone_barrens-666e7805d5002f1435f9/1-0000.mp3",
+          "sha256": "6524bd68ab4548f95482ce4c8c46b31d946d522a8e3e4758f8e1490c5db1b128",
           "start": 0
         }
       ],
@@ -3734,15 +3734,15 @@
           "1"
         ]
       },
-      "fullHash": "44979c",
-      "generation": "e4b58c7b5462b80d877b",
+      "fullHash": "f8b903",
+      "generation": "e3d95015d5dd2a16af4e",
       "hash": "883834",
       "source": {
-        "duration": 86.308571,
+        "duration": 73.273469,
         "file": null,
-        "sha256": "87a97620a46a8f8352a019a97902ec3137208669e6f73ad336713c9da9672866"
+        "sha256": "666e7805d5002f1435f92b6f1d0a5832f82a59fb14681073880f1c9d77fae817"
       },
-      "text": "The Barrens. The Barrens is an expansive, sun-baked savanna that serves as the beating geographical and logistical heart of the Horde in central Kalimdor. Once a verdant forest prior to the Great Sundering, it is now an arid plain of red dust, hardy scrub, and wandering wildlife. Centered around the strategic hub of the Crossroads, the land remains locked in constant struggle against quilboar tribes, centaur raiders, and creeping corruption. For countless generations, nomadic tauren hunted kodo and zhevra across these plains while waging a defensive, cyclical war against marauding Kolkar centaur. When Thrall led the orcs to Kalimdor during the Third War, he aided Cairne Bloodhoof in repelling the centaur and traversing the savanna into Mulgore. Today, the Barrens connects Durotar, Mulgore, and Ashenvale. Outposts like the Crossroads and Camp Taurajo secure trade along the Gold Road, while orcish homesteads brave the arid climate to forge a lasting home. Despite Horde dominance, control over the savanna is hotly contested. Porcupine-like Razormane quilboar aggressively raid farms and supply lines from their thorn-choked redoubts, backed by the looming dens of Razorfen Kraul to the south. Along the eastern coast, Theramore forces garrison Northwatch Hold, while dwarven prospectors dig into the titan complex of Bael Modan. Meanwhile, the goblins of Ratchet enforce an uneasy mercantile neutrality, welcoming any traveler with coin."
+      "text": "The Barrens. Across The Barrens, Horde outposts hold the roads while rival forces press in from every side. Once a forest before the Great Sundering, the central Kalimdor plain is now dry country of red dust, scrub, and wandering wildlife. The Crossroads anchors Horde traffic, but quilboar, centaur, and creeping corruption threaten its hold. For generations, tauren nomads hunted kodo and zhevra across the plains and fought a repeating defensive war against Kolkar centaur. During the Third War, Thrall led the orcs to Kalimdor and helped Cairne Bloodhoof drive back the centaur and cross the savanna into Mulgore. The Barrens now links Durotar, Mulgore, and Ashenvale. The Crossroads and Camp Taurajo guard trade along the Gold Road, while orcish homesteads endure the harsh climate as they build a lasting home. Horde control of the savanna remains contested. Razormane quilboar, with their porcupine-like bristles, raid farms and supply lines from thorn-choked strongholds. Razorfen Kraul's dens loom to the south. On the eastern coast, Theramore forces hold Northwatch Hold, while dwarven prospectors dig into the titan complex of Bael Modan. Ratchet's goblins keep an uneasy neutrality in trade, welcoming travelers who bring coin."
     },
     "zone:blackfathom": {
       "1": [
@@ -3825,9 +3825,9 @@
     "zone:darkshore": {
       "1": [
         {
-          "duration": 118.30857142857143,
-          "file": "Audio/Transport/full_zone_darkshore-0db105596cc0108d5a14/1-0000.mp3",
-          "sha256": "ca1e81e7675b6f35bba2c85543935c87b408d8dcfcc32dcd1cc444968809d2b8",
+          "duration": 93.80571428571429,
+          "file": "Audio/Transport/full_zone_darkshore-564a731aee37a8e69ddb/1-0000.mp3",
+          "sha256": "672435a44160689e1cf6d0880ec805eb8a8327a5471207a9ec2d1c293d0b113d",
           "start": 0
         }
       ],
@@ -3838,22 +3838,22 @@
           "1"
         ]
       },
-      "fullHash": "5dc611",
-      "generation": "9bcb73dc5bac381f9e76",
+      "fullHash": "47e9e4",
+      "generation": "3f9f5d8db37e42dc3664",
       "hash": "3b8af3",
       "source": {
-        "duration": 118.282438,
+        "duration": 93.831837,
         "file": null,
-        "sha256": "0db105596cc0108d5a14ceeed1780d85e64d1ac34946808276a0e5ee649f7847"
+        "sha256": "564a731aee37a8e69ddb514f4f2b2396a4730b82acdd8b3ef4c285b5fa52c8fb"
       },
-      "text": "Darkshore. Darkshore is a cold, mist-shrouded strip of coast lining northwestern Kalimdor, dotted with ancient Kaldorei ruins and troubled wildlife. Anchored by the Alliance harbor town of Auberdine, it serves as the primary continental gateway for travelers arriving from Teldrassil and the Eastern Kingdoms. Beyond the patrolled road, demonic cults, encroaching naga, and a creeping corruption from the highlands threaten the region's delicate balance. Stretching beneath the western shadows of Mount Hyjal and Felwood, Darkshore is characterized by pine groves, sea fog, and rocky beaches beaten by cold waves. Millennia ago, this coast was home to the flourishing Kaldorei twin cities of Ameth'Aran and Bashal'Aran. Shattered during the Great Sundering, their skeletal pillars and marble arches now lie half-drowned in the surf or overgrown with roots, haunted by restless Highborne spirits and overrun by scavenger murlocs and invasive naga. Following the Third War and the planting of Teldrassil, the night elves established Auberdine as a bustling maritime haven amidst the wilderness. Featuring wooden piers that welcome regular vessels from Rut'theran Village, Stormwind Harbor and, by way of Southshore, Menethil Harbor in the distant Wetlands, Auberdine is the lifeline linking night elf territory to the rest of the Alliance. Sentinels diligently patrol the trade highway south toward Ashenvale, though their small garrison struggles to police the deep wilds beyond the path. Despite its shelter against the eastern mountains, Darkshore suffers from a slow, malignant rot. Corrupted run-off trickling down from Felwood poisons sources like Cliffspring Falls, fouling the water table and driving the local bears, stags, and furbolgs of Blackwood Den into violent madness. Worse still, sinister organizations have established footholds in the shadows: the Dark Strand and Twilight's Hammer cultists perform foul rituals at the Tower of Althalaxx and convene around the terrifying, ancient monument known as the Master's Glaive."
+      "text": "Darkshore. In Darkshore, Auberdine links night elf lands to the wider Alliance. This cold, misty coast in northwestern Kalimdor is the main gateway for travelers from Teldrassil and the Eastern Kingdoms. Ancient ruins and troubled wildlife mark the land, while cultists, naga, and a creeping rot threaten it. Darkshore stretches beneath the western shadows of Mount Hyjal and Felwood, where pine groves meet fog and cold, rocky shores. Millennia ago, the Kaldorei cities of Ameth'Aran and Bashal'Aran flourished along this coast. The Great Sundering shattered them, leaving pillars and arches half-drowned or tangled in roots. Highborne spirits haunt the ruins, while scavenging murlocs and invading naga range among them. After the Third War and the planting of Teldrassil, the night elves made Auberdine a busy maritime haven in the wilderness. Ships arrive from Rut'theran Village, Stormwind Harbor, and Menethil Harbor in the distant Wetlands by way of Southshore. Auberdine is the lifeline between night elf lands and the rest of the Alliance. Sentinels patrol the trade road south to Ashenvale, but their small garrison cannot keep watch over the deep wilds beyond it. Darkshore's shelter beneath the eastern mountains has not spared it a slow, malignant rot. Corrupted runoff from Felwood reaches sources such as Cliffspring Falls, poisoning the water and driving bears, stags, and the furbolgs of Blackwood Den into violent madness. The Dark Strand cultists perform foul rites at the Tower of Althalaxx. Twilight's Hammer gathers around the ancient, terrifying monument called the Master's Glaive."
     },
     "zone:darnassus": {
       "1": [
         {
-          "duration": 115.8530612244898,
-          "file": "Audio/Transport/full_zone_darnassus-1068e90049172f71bcac/1-0000.mp3",
-          "sha256": "d3aec90195bd9303a345c5518b85941e063ed6c43a33a65ad9260ec799bd65c6",
+          "duration": 80.87510204081633,
+          "file": "Audio/Transport/full_zone_darnassus-9f92f9fae349e6f8f58b/1-0000.mp3",
+          "sha256": "3ff6e0873755e8eb327084bd745d7d222e8f379cd3f7ded26e40a1e12b24ccc9",
           "start": 0
         }
       ],
@@ -3864,15 +3864,15 @@
           "1"
         ]
       },
-      "fullHash": "30a404",
-      "generation": "7860189064dbc987ee82",
+      "fullHash": "5b6936",
+      "generation": "33d9bcb0e09ea2d7110b",
       "hash": "64ec56",
       "source": {
-        "duration": 115.826938,
+        "duration": 80.875102,
         "file": null,
-        "sha256": "1068e90049172f71bcac2a7829b33354720fa483c12f7fdd0147a0903227d1b4"
+        "sha256": "9f92f9fae349e6f8f58bd2a75c305157bd9185bfd85e6743580ee8ed870e4389"
       },
-      "text": "Darnassus. Darnassus is the serene, open-air capital city of the night elves, built amidst the branches of the newly planted World Tree, Teldrassil. Governed by High Priestess Tyrande Whisperwind alongside the druids of the Cenarion Enclave, it serves as a tranquil sanctuary for an ancient people adapting to mortality. Sheltered across vast terraces surrounding a crystalline lake, it stands as the heart of night elf society and their bridge to the Alliance. Unlike the dense masonry of Stormwind or the carved stone tunnels of Ironforge, Darnassus is broad, quiet, and intimately open to the wilderness. Formed upon the upper canopy of Teldrassil off northern Kalimdor's coast, the capital's graceful wooden structures and winding pathways encircle a tranquil central lake. Elegant bridges connect terraces dedicated to tradesmen, craftsmen, sentinels, and druids, creating an atmosphere that balances civic governance with profound reverence for nature. Darnassus is remarkably young for a civilization thousands of years old. Following the Third War and the sacrifice of Nordrassil at Mount Hyjal, the kaldorei suddenly faced the perils of aging and sickness. Seeking a renewal of their lost vitality, Archdruid Fandral Staghelm and his followers planted Teldrassil while Archdruid Malfurion Stormrage was lost in the Emerald Dream. Darnassus was founded among its immense boughs as an asylum and monument to their survival, though shadows of malaise already whisper among its roots. Though peaceful on its surface, Darnassus balances on a delicate political divide. From the towering colonnades of the Temple of the Moon, High Priestess Tyrande Whisperwind guides the spiritual life and military defense of her people through the vigilant Sentinels. Across the waterways in the Cenarion Enclave, Archdruid Fandral Staghelm commands the druids in Malfurion's continuing absence. While both leaders present a united front to their newfound Alliance partners, friction between the priestesses and the druidic circle lingers throughout the city."
+      "text": "Darnassus. Darnassus shelters the night elves high among Teldrassil’s branches. Tyrande Whisperwind and the druids guide the city, where an ancient people face life without immortality and seek ties with the Alliance. Darnassus spreads across Teldrassil’s upper canopy, off northern Kalimdor’s coast. Wooden buildings and winding paths circle a quiet central lake. Bridges join terraces for tradesmen, craftsmen, Sentinels, and druids, leaving the wilderness close to the city’s daily life. Darnassus is young beside the civilization of the kaldorei. After the Third War and the sacrifice of Nordrassil at Mount Hyjal, the night elves faced aging and sickness. With Archdruid Malfurion Stormrage lost in the Emerald Dream, Archdruid Fandral Staghelm and his followers planted Teldrassil in hope of renewing their lost vitality. The city grew among its boughs as refuge and monument to their survival, though malaise already stirs among the tree’s roots. Darnassus holds two centers of authority. High Priestess Tyrande Whisperwind guides the spiritual life and defense of her people from the Temple of the Moon, with the Sentinels at her command. Across the waterways, Archdruid Fandral Staghelm leads the druids in Malfurion’s absence. Both leaders present a united face to their new Alliance partners, yet friction between the priestesses and the druidic circle lingers."
     },
     "zone:deadmines": {
       "1": [
@@ -4371,9 +4371,9 @@
     "zone:orgrimmar": {
       "1": [
         {
-          "duration": 78.10612244897959,
-          "file": "Audio/Transport/full_zone_orgrimmar-9e24c8368489b3daab77/1-0000.mp3",
-          "sha256": "a1f4f2fed5aa636cc78342dde96cb1901754c9d8d3fc99ded2fb4937dff42f18",
+          "duration": 69.04163265306123,
+          "file": "Audio/Transport/full_zone_orgrimmar-f7475ff9c9e33bdd1ddb/1-0000.mp3",
+          "sha256": "f5f5f88577f9034863f17820d24c73acbc2c3f2733fd50c3ea405fd3a62b1534",
           "start": 0
         }
       ],
@@ -4384,22 +4384,22 @@
           "1"
         ]
       },
-      "fullHash": "3d5e0c",
-      "generation": "e0b0e735a24ca0f62ee3",
+      "fullHash": "9b8a7d",
+      "generation": "a52a67aa14f46bd8e603",
       "hash": "bbb1c4",
       "source": {
-        "duration": 78.08,
+        "duration": 69.041633,
         "file": null,
-        "sha256": "9e24c8368489b3daab776c66b86fb20d0ca1e60f35a9cc0eb731f28ecc40962d"
+        "sha256": "f7475ff9c9e33bdd1ddb729dac2940fbbf73fbaaf5124785391d9fd5a4f80692"
       },
-      "text": "Orgrimmar. Orgrimmar is the fortress capital of the orcs and the beating heart of Thrall's New Horde. Carved directly into the towering red-rock canyons of northern Durotar, the fortified city stands as a monument to orcish perseverance and an unyielding sanctuary for trolls, tauren, and Forsaken allies alike. Following the Third War, Warchief Thrall led the orcs to the arid coasts of Kalimdor to build a homeland free from demonic corruption and human bondage. Naming the harsh region Durotar after his father, Thrall established Orgrimmar in memory of his fallen mentor, Orgrim Doomhammer. Raising the city required blood and sweat; aided by the tauren, the Darkspear trolls, goblin engineers, and the Champion Rexxar, the Horde drove back encroaching centaur, harpies, and ferocious thunder lizards to secure the canyon stronghold. Orgrimmar is naturally fortified by rugged mountains that shield it from both foreign invaders and the violent razor-winds sweeping through Durotar. The settlement is partitioned into distinct natural hollows. The Valley of Strength serves as the bustling civic gatehouse, leading deeper into the trade bazaar of The Drag. Tauren druids and shaman congregate in the serene pools of the Valley of Wisdom, while Darkspear shadow hunters and witch doctors dwell among the stilted pavilions of the Valley of Spirits."
+      "text": "Orgrimmar. Orgrimmar rises from the red canyons of northern Durotar as the orcs’ fortified capital and the New Horde’s heart. Trolls, tauren, and Forsaken allies also find shelter within its walls. Orgrimmar grew from the orcs’ search for a homeland after the Third War. Warchief Thrall led them to Kalimdor’s arid coasts, seeking freedom from demonic corruption and human bondage. He named the harsh land Durotar for his father and the city for his fallen mentor, Orgrim Doomhammer. Building the stronghold cost blood and sweat. With help from the tauren, Darkspear trolls, goblin engineers, and the Champion Rexxar, the Horde drove back centaur, harpies, and ferocious thunder lizards that threatened the canyons. Rugged mountains shield Orgrimmar from foreign invaders and Durotar’s violent razor-winds. The city’s natural hollows give each valley its own place in Horde life. The Valley of Strength holds the civic gatehouse, with a route deeper into the trade bazaar of The Drag. Tauren druids and shaman gather by the pools in the Valley of Wisdom. Darkspear shadow hunters and witch doctors live among the stilted pavilions of the Valley of Spirits."
     },
     "zone:ragefire": {
       "1": [
         {
-          "duration": 71.34040816326531,
-          "file": "Audio/Transport/full_zone_ragefire-3df09a4ee14ce97f1889/1-0000.mp3",
-          "sha256": "ebe3addd327e9f9f718d670bd3c3377934dd1b667e6cb0073f977b9cce1d6fbb",
+          "duration": 54.25632653061225,
+          "file": "Audio/Transport/full_zone_ragefire-f17be7db68ea92fe2318/1-0000.mp3",
+          "sha256": "773c04b463a4605f485bd3aad6ec78af7073f94865d70a68a8e7521bbd852646",
           "start": 0
         }
       ],
@@ -4410,15 +4410,15 @@
           "1"
         ]
       },
-      "fullHash": "f9b5eb",
-      "generation": "bcac30f78c8895adf0a8",
+      "fullHash": "72908f",
+      "generation": "2daed08e459be753d557",
       "hash": "7abebc",
       "source": {
-        "duration": 71.31425,
+        "duration": 54.256327,
         "file": null,
-        "sha256": "3df09a4ee14ce97f1889a97065c90d0c6cd9c3fb74782b7147181c84e65e8821"
+        "sha256": "f17be7db68ea92fe231813fe54e1cb4d31c3d07228da2bc8b07a1663d40be36c"
       },
-      "text": "Ragefire Chasm. Ragefire Chasm is a network of winding volcanic tunnels situated directly beneath the orcish capital of Orgrimmar. Entered through the dark hollows of the Cleft of Shadow, the chasm is overrun by savage troggs and a demonic sect of cultists known as the Searing Blade. Left unchecked, the dark powers and subterranean swarms festering below threaten the very foundation of the young Horde nation. Beneath the dust and red rocks of Orgrimmar lies a blistering maze of volcanic corridors and lava pits. While orcish builders forged their new home above, aggressive Ragefire troggs began erupting from deep below the surface. Magatha Grimtotem sought to open diplomatic channels with the brutes on behalf of Thunder Bluff, but her envoy Maur Grimtotem was slaughtered, proving the troggs will yield only to force. Far more dangerous than simple troggs is the presence of the Searing Blade, a fanatical cell loyal to the Shadow Council. Operating from the dark caverns alongside the magma streams, this demonic cult plots the utter ruin of the fledgling Horde. They are led by the warlock Jergosh the Invoker, a cunning satyr named Bazzalan, and the vicious felguard Taragaman the Hungerer, who presides over an altar in the lava lake."
+      "text": "Ragefire Chasm. Beneath Orgrimmar, Ragefire Chasm's volcanic tunnels shelter troggs and a demonic cult. The Searing Blade plots against the young Horde from caverns below the Cleft of Shadow, threatening the capital above. Ragefire troggs erupt from deep beneath Orgrimmar into a maze of volcanic corridors and lava pits. As orcish builders raise their new home above, the troggs grow aggressive. Magatha Grimtotem sends Maur Grimtotem to open talks on Thunder Bluff's behalf, but the troggs slaughter the envoy. They yield only to force. A demonic cult called the Searing Blade is more dangerous than the troggs. Loyal to the Shadow Council, the fanatics plot the young Horde's ruin from caverns beside streams of magma. The warlock Jergosh the Invoker, the cunning satyr Bazzalan, and the vicious felguard Taragaman the Hungerer lead them. Taragaman presides over an altar in the lava lake."
     },
     "zone:razorfenkraul": {
       "1": [
@@ -4839,9 +4839,9 @@
     "zone:teldrassil": {
       "1": [
         {
-          "duration": 77.81877551020409,
-          "file": "Audio/Transport/full_zone_teldrassil-ee4a048d19e7add97ef7/1-0000.mp3",
-          "sha256": "44640c4a2784c1e731c7fa65f8b3eeecf2b87101cd94dc49209257e51f47a4d3",
+          "duration": 53.524897959183676,
+          "file": "Audio/Transport/full_zone_teldrassil-98e178f2df9f35a56eb2/1-0000.mp3",
+          "sha256": "9250621d1974b109768bd60de41f00344f407796af4eaf1da2732df6a9067c3a",
           "start": 0
         }
       ],
@@ -4852,15 +4852,15 @@
           "1"
         ]
       },
-      "fullHash": "3be20d",
-      "generation": "943eb00a9be5ef2ba756",
+      "fullHash": "f8ef4d",
+      "generation": "55933d3c63137e051305",
       "hash": "9db73b",
       "source": {
-        "duration": 77.792625,
+        "duration": 53.524898,
         "file": null,
-        "sha256": "ee4a048d19e7add97ef75a18fa2c77cbd19140930f8e3f423d7af6877a3eb7d8"
+        "sha256": "98e178f2df9f35a56eb201537e36e998c613378305d5c687709224262b5e2d90"
       },
-      "text": "Teldrassil. Teldrassil, meaning 'Crown of the Earth', is a gargantuan new World Tree raised off Kalimdor's northwest coast. Grown by the druids in the wake of the Third War, its colossal boughs support an entire twilit wilderness and the night elf capital of Darnassus. Yet beneath its tranquil, moonlit canopy, a creeping corruption has begun to stir. Teldrassil is not merely a tree; it is an elevated ecosystem standing tall amidst the waters of the Veiled Sea. Its gargantuan limbs support rolling hills, flowing rivers fed by morning dew, misty lakes, and dense ancient glades. At its western edge sits Darnassus, the grand capital of the kaldorei. At the base of its monumental trunk lies Rut'theran Village, connected to the crown above by a mystical gateway and serving as the island's primary harbor. Following the sacrifice of Nordrassil during the Third War and the mysterious disappearance of Shan'do Malfurion Stormrage into the Emerald Dream, Archdruid Fandral Staghelm convinced the Circle of Ancients to grow a replacement. Staghelm hoped to restore the kaldorei to their lost immortality. However, Nozdormu and the Dragon Aspects deemed the effort hubristic and withheld their blessings. Without their vital warding, Teldrassil's growth has suffered from unnatural flaws."
+      "text": "Teldrassil. Teldrassil rises from the sea off Kalimdor's northwest coast, its crown sheltering Darnassus. Druids raised the World Tree after the Third War, but its growth is troubled. You stand beneath Teldrassil's vast limbs above the Veiled Sea. Hills, rivers fed by morning dew, misty lakes, and ancient glades spread across its boughs. Darnassus, the kaldorei capital, lies at the western edge. At the base of the trunk, Rut'theran Village is the island's harbor, linked to the crown by a mystical gateway. After Nordrassil was sacrificed during the Third War, Shan'do Malfurion Stormrage vanished into the Emerald Dream. Archdruid Fandral Staghelm persuaded the Circle of Ancients to grow a replacement, hoping to restore the kaldorei's lost immortality. Nozdormu and the Dragon Aspects judged the effort hubristic and withheld their blessings. Without their warding, Teldrassil has grown with unnatural flaws."
     },
     "zone:thousandneedles": {
       "1": [
@@ -5316,6 +5316,11 @@
       3033,
       3457
     ],
+    "1627a0a8b6ae74af78a99bdb55dcd15007b568dca4a0222912d662f4c6fd9f9f": [
+      235,
+      566,
+      1047
+    ],
     "1a02948c4bf14eb095b1437c6a932e5992ac67d46447354de512d25bd3110653": [
       242
     ],
@@ -5348,6 +5353,12 @@
       2963,
       3228,
       3474
+    ],
+    "1d85ba8d136d78cf111e2dbde741b6a1926470ece6051ce5aa11c511e83f50c4": [
+      188,
+      504,
+      840,
+      1078
     ],
     "1e7b43119978fe9feb363fbfc6dc080c7dc98fcbaa9d4ff0a5e123832add6876": [
       196,
@@ -5396,15 +5407,6 @@
       722,
       898,
       1085
-    ],
-    "27bc583729cb0780c1ac9cbbad8f031a6d21a9e6141771750d713d244af960ad": [
-      216,
-      601,
-      889,
-      1321,
-      1738,
-      1920,
-      2254
     ],
     "2801d1c1f12fc430e8bb2f4a8c2cd91c8d2f0aa25fab2065ba1c90d9d40a0a1d": [
       545,
@@ -5512,6 +5514,27 @@
       3704,
       4501
     ],
+    "32fb2197a062a4d0e62c788b36e28a1928d1198d1dff8e4ea2cc76de09196931": [
+      177,
+      489,
+      685,
+      906,
+      1081,
+      1255,
+      1457,
+      1724,
+      2141,
+      2355,
+      2533,
+      2728,
+      2935,
+      3241,
+      3429,
+      3733,
+      3868,
+      4098,
+      4310
+    ],
     "339f6ff4f452af098c1a781623685aeffbbe1f3cd4027c4d20000e77c7f149bd": [
       467,
       1359,
@@ -5602,6 +5625,13 @@
       1897,
       2137
     ],
+    "3e7e5dc1c55c0395096a6a6f72c15621d22eadf8f0ed3a675aa0cc462a2f428f": [
+      367,
+      549,
+      965,
+      1180,
+      1490
+    ],
     "3eb9217524f3989092d3d9ce19481f94399079f72610015b27595e9020fcb3a6": [
       291,
       661,
@@ -5614,6 +5644,18 @@
       3646,
       4049,
       4441
+    ],
+    "3ff6e0873755e8eb327084bd745d7d222e8f379cd3f7ded26e40a1e12b24ccc9": [
+      163,
+      463,
+      681,
+      840,
+      1136,
+      1281,
+      1889,
+      2154,
+      2503,
+      2815
     ],
     "3ffae8e77cfdf48f18d2b32aad1b7cd19097c00319ef1d94b9de57c26b37cef2": [
       321,
@@ -5638,11 +5680,6 @@
       4167,
       4565
     ],
-    "415c632d345c0ab405f388fbfe4b13ec02c75176d9bb88c2c602f178fe3985f6": [
-      523,
-      1081,
-      1654
-    ],
     "426b1428719002c3dd7de4ef70452e2fd053945f570275246d1382c68bbed8a3": [
       359,
       776,
@@ -5654,15 +5691,6 @@
       3520,
       3943,
       4187
-    ],
-    "44640c4a2784c1e731c7fa65f8b3eeecf2b87101cd94dc49209257e51f47a4d3": [
-      266,
-      780,
-      1061,
-      1380,
-      1575,
-      1934,
-      2795
     ],
     "44ed65f988d1cae12d4ad4b592f84e44f77f07440073a778834826f647295f5a": [
       282,
@@ -5732,18 +5760,6 @@
       3159,
       3520,
       3806
-    ],
-    "48b608a1dbef41b2dd1fb9d828646c2d0e8438afd7dc7c4978c94ec1c734c18f": [
-      367,
-      830,
-      1230,
-      1563,
-      2293,
-      3022,
-      3775,
-      4060,
-      4402,
-      5086
     ],
     "4902781bf1927c316cb0f6498eb8e4786cddd6cd3231d3ec5e4b0d35e5e8c6d7": [
       407,
@@ -5879,10 +5895,19 @@
       1787,
       2192
     ],
-    "5beed8ff6307e32c224d292858c7cd83f6d5e98ca2de8fca647c1097ab97261c": [
-      235,
-      860,
-      1315
+    "5d4443b36a969b65cd7d700aeedd1c241e9f0616765bd21e1ac47fce6905dd46": [
+      153,
+      398,
+      536,
+      687,
+      872,
+      1212,
+      1496,
+      1631,
+      1863,
+      2007,
+      2266,
+      2738
     ],
     "6133e1aa683d05840eec2f2bcd7667f61f89f8bfd74e8655648c85a81b0aa5aa": [
       327,
@@ -5926,6 +5951,14 @@
       3349,
       3770
     ],
+    "6524bd68ab4548f95482ce4c8c46b31d946d522a8e3e4758f8e1490c5db1b128": [
+      1046,
+      1373,
+      1518,
+      1815,
+      2198,
+      2610
+    ],
     "6530242687c21ecde44403512bc6072041ccca185b7c03e205f2959abc3d6603": [
       212,
       403,
@@ -5936,6 +5969,21 @@
     "653c9580de2d902c056e8e38cee184a3e42222f7fccc7ebc57270fe6547c0b78": [
       567,
       1293
+    ],
+    "672435a44160689e1cf6d0880ec805eb8a8327a5471207a9ec2d1c293d0b113d": [
+      175,
+      702,
+      981,
+      1222,
+      1451,
+      1662,
+      1924,
+      2224,
+      2392,
+      2680,
+      2875,
+      3252,
+      3426
     ],
     "675944eb610f14b4e30c9b20d2097e93993b552016a9dba0b61efc029ee8140e": [
       986,
@@ -6045,6 +6093,15 @@
       3611,
       3784,
       3928
+    ],
+    "773c04b463a4605f485bd3aad6ec78af7073f94865d70a68a8e7521bbd852646": [
+      248,
+      433,
+      763,
+      940,
+      1210,
+      1439,
+      1684
     ],
     "77c46d148c84d4f2e914dabc2074d534c0f8583aef777c526e2574ecaef988d2": [
       298,
@@ -6218,26 +6275,6 @@
       4053,
       4248
     ],
-    "83e9d503932403758458888b017b32d58f90e8d4e437ff6759e0399a7c21b556": [
-      267,
-      874,
-      1097,
-      1315,
-      1598,
-      1877,
-      2198,
-      2600,
-      2788,
-      3229
-    ],
-    "86a0f8d73911ab54d064ae0bc2381c3e209124d96be70eff0ffa63ea5aec6d4f": [
-      293,
-      721,
-      960,
-      1716,
-      2144,
-      2344
-    ],
     "86be802e32b0f44cf1eade40ad25a338c437cd7470c14a03a41f173c86982c24": [
       359,
       645,
@@ -6330,6 +6367,14 @@
       3846,
       4122
     ],
+    "9250621d1974b109768bd60de41f00344f407796af4eaf1da2732df6a9067c3a": [
+      246,
+      419,
+      563,
+      909,
+      1149,
+      1709
+    ],
     "96f2a191bbd8d8928f74256e77e5534e05b4c04008c347352c4dbea4ffa729de": [
       167,
       602,
@@ -6344,16 +6389,16 @@
       4265,
       4595
     ],
-    "979dd1901a3f435b75ca4d014a72714e1262a27b39f8f8dacb378f539957cd54": [
-      628,
-      1165
-    ],
     "97b6a8aa776ac4a5e40f10d871a7cff901180a7bfef412d9af0eb748e4ae7605": [
       271,
       687,
       1304,
       1695,
       2309
+    ],
+    "98b22167f72e219e81b7bd37770c4be0551fb7e5c110140976ba9b45705ed957": [
+      398,
+      980
     ],
     "9a68e232c5827a3cb829d51378347bc608ba7bf0211d304f7196f23907ebb8b1": [
       824,
@@ -6442,32 +6487,10 @@
       1390,
       1825
     ],
-    "a1f4f2fed5aa636cc78342dde96cb1901754c9d8d3fc99ded2fb4937dff42f18": [
-      202,
-      366,
-      687,
-      1036,
-      1369,
-      2239,
-      2373,
-      2616
-    ],
     "a1fc84dd1ba713ad1159b38d3638fdf88cc5178198f6c117de7e96ebdc9312c9": [
       591,
       1116,
       1461
-    ],
-    "a2066782aa6d0cce81eb0d6f7f2b53b671b18d42966e62b2bd38de5dbf60ee9e": [
-      336,
-      647,
-      996,
-      1359,
-      1677,
-      1820,
-      2014,
-      2340,
-      2720,
-      3050
     ],
     "a2a6c2430c3b74fdf45e3ef2426b75c5bc02d583df0b31fb3a7adafd3bb38b9b": [
       617,
@@ -6524,6 +6547,16 @@
       2228,
       2644,
       2971
+    ],
+    "a8d9dcd61f68f4d6a8d8b865ec4a3e10eeeab10caf655fb2f06c25ec70b1ffbe": [
+      186,
+      332,
+      508,
+      741,
+      1131,
+      1354,
+      1637,
+      1844
     ],
     "a91e8e9122ffe70fd0baed4e4b16515d1ace0a17de50c970d47f705c39da5f39": [
       350,
@@ -6650,13 +6683,6 @@
       3329,
       4121
     ],
-    "c7240ca988596139e952a12671125deaf0e273b85c93ad83572cf9a3f88ad5d3": [
-      328,
-      606,
-      832,
-      1254,
-      1629
-    ],
     "c73c8058cb33877b1f647ca70771267e8fd1597ac3ce8fae31a85ebf456b126b": [
       175,
       965,
@@ -6685,19 +6711,6 @@
       4045,
       4386,
       4708
-    ],
-    "ca1e81e7675b6f35bba2c85543935c87b408d8dcfcc32dcd1cc444968809d2b8": [
-      337,
-      968,
-      1126,
-      1387,
-      2118,
-      2427,
-      2950,
-      3293,
-      3509,
-      3961,
-      4160
     ],
     "caaacfe6d413e918cf64373e15641fdb3b021fbc52c82d908695bc258ef9e26f": [
       397,
@@ -6769,18 +6782,6 @@
       1886,
       2216
     ],
-    "d3aec90195bd9303a345c5518b85941e063ed6c43a33a65ad9260ec799bd65c6": [
-      500,
-      1321,
-      2055,
-      2228,
-      2534,
-      2941,
-      3251,
-      3441,
-      3786,
-      4107
-    ],
     "d4d294ab1e7cd53ec717c1580a0f62fd931c2be6dd142ae8bd156d49f5d62a30": [
       348,
       750,
@@ -6797,6 +6798,17 @@
       3972,
       4301,
       4655
+    ],
+    "d9ef0954d36c669ee4ef7c7c05cbd5781a628eb5605ada2fe0f928cbbd9fab79": [
+      202,
+      492,
+      626,
+      763,
+      975,
+      1226,
+      1393,
+      1530,
+      1826
     ],
     "dc26ba9307ea6ac253cf8fe3b0da8ba703912f5fedad766453bfd59c978e806d": [
       301,
@@ -6910,13 +6922,6 @@
       2228,
       2473
     ],
-    "ebe3addd327e9f9f718d670bd3c3377934dd1b667e6cb0073f977b9cce1d6fbb": [
-      887,
-      1399,
-      1786,
-      1962,
-      2373
-    ],
     "ec0a3885c7fbd8d4b759ca07f39b667e44ba91fdff944164870df1c985380ccb": [
       292,
       695,
@@ -6989,6 +6994,16 @@
       4497,
       4788,
       4922
+    ],
+    "f5f5f88577f9034863f17820d24c73acbc2c3f2733fd50c3ea405fd3a62b1534": [
+      279,
+      472,
+      645,
+      893,
+      1124,
+      1664,
+      2051,
+      2277
     ],
     "f6779907fb2f4ab18c13e9b0ed87a1d1fe01a2d4561274df9608496a02f9b3ef": [
       152,
@@ -7172,6 +7187,62 @@
     {
       "file": "Audio/Transport/full_zone_westfall-568b9d4a3448aaca2d51/1-0000.mp3",
       "sha256": "b63fb14d1f652280f44ea1dbf8c3f84904f2113cc2fd480bdd2889f250432b5a"
+    },
+    {
+      "file": "Audio/Transport/full_npc_bazzalan-939d5d6abaec2bb4c78b/1-0000.mp3",
+      "sha256": "415c632d345c0ab405f388fbfe4b13ec02c75176d9bb88c2c602f178fe3985f6"
+    },
+    {
+      "file": "Audio/Transport/full_npc_jergosh-the-invoker-06ae5fa0884ae6ed4aab/1-0000.mp3",
+      "sha256": "5beed8ff6307e32c224d292858c7cd83f6d5e98ca2de8fca647c1097ab97261c"
+    },
+    {
+      "file": "Audio/Transport/full_npc_oggleflint-592a9746fe82cabdd99c/1-0000.mp3",
+      "sha256": "86a0f8d73911ab54d064ae0bc2381c3e209124d96be70eff0ffa63ea5aec6d4f"
+    },
+    {
+      "file": "Audio/Transport/full_npc_taragaman-the-hungerer-c2acb3acecb1aebc2741/1-0000.mp3",
+      "sha256": "979dd1901a3f435b75ca4d014a72714e1262a27b39f8f8dacb378f539957cd54"
+    },
+    {
+      "file": "Audio/Transport/full_subzone_sen-jin-village-dc83f1ef09ed70a89b29/1-0000.mp3",
+      "sha256": "83e9d503932403758458888b017b32d58f90e8d4e437ff6759e0399a7c21b556"
+    },
+    {
+      "file": "Audio/Transport/full_subzone_valley-of-trials-b443d3db75505d7eb97d/1-0000.mp3",
+      "sha256": "c7240ca988596139e952a12671125deaf0e273b85c93ad83572cf9a3f88ad5d3"
+    },
+    {
+      "file": "Audio/Transport/full_topic_grommash-hellscream-93316ff191e3dfe062e2/1-0000.mp3",
+      "sha256": "48b608a1dbef41b2dd1fb9d828646c2d0e8438afd7dc7c4978c94ec1c734c18f"
+    },
+    {
+      "file": "Audio/Transport/full_zone_barrens-87a97620a46a8f8352a0/1-0000.mp3",
+      "sha256": "a2066782aa6d0cce81eb0d6f7f2b53b671b18d42966e62b2bd38de5dbf60ee9e"
+    },
+    {
+      "file": "Audio/Transport/full_zone_orgrimmar-9e24c8368489b3daab77/1-0000.mp3",
+      "sha256": "a1f4f2fed5aa636cc78342dde96cb1901754c9d8d3fc99ded2fb4937dff42f18"
+    },
+    {
+      "file": "Audio/Transport/full_zone_ragefire-3df09a4ee14ce97f1889/1-0000.mp3",
+      "sha256": "ebe3addd327e9f9f718d670bd3c3377934dd1b667e6cb0073f977b9cce1d6fbb"
+    },
+    {
+      "file": "Audio/Transport/full_subzone_shadowglen-4c864d432914145aa010/1-0000.mp3",
+      "sha256": "27bc583729cb0780c1ac9cbbad8f031a6d21a9e6141771750d713d244af960ad"
+    },
+    {
+      "file": "Audio/Transport/full_zone_darkshore-0db105596cc0108d5a14/1-0000.mp3",
+      "sha256": "ca1e81e7675b6f35bba2c85543935c87b408d8dcfcc32dcd1cc444968809d2b8"
+    },
+    {
+      "file": "Audio/Transport/full_zone_darnassus-1068e90049172f71bcac/1-0000.mp3",
+      "sha256": "d3aec90195bd9303a345c5518b85941e063ed6c43a33a65ad9260ec799bd65c6"
+    },
+    {
+      "file": "Audio/Transport/full_zone_teldrassil-ee4a048d19e7add97ef7/1-0000.mp3",
+      "sha256": "44640c4a2784c1e731c7fa65f8b3eeecf2b87101cd94dc49209257e51f47a4d3"
     }
   ],
   "version": 1

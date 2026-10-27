@@ -10,11 +10,11 @@
    "quest:937"
   ]
  },
- "summary": "A Bloodfeather Belt is a crude leather strap worn by the Bloodfeather harpies infesting northern Teldrassil. Sentinel Arynia Cloudsbreak collects these belts as proof that local nests encroaching on the Oracle Glade have been cleared.",
+ "summary": "In northern Teldrassil, Bloodfeather harpies wear crude leather belts as they crowd the Oracle Glade. Sentinel Arynia Cloudsbreak collects them as proof that the nearby nests have been cleared.",
  "sections": [
   {
    "title": "Trophies from the Nests",
-   "body": "The Bloodfeather harpies have nested aggressively in the boughs around the Oracle Glade, threatening the ancient Oracle Tree and choking travel through northern Teldrassil. When a runner carrying reports to Darnassus was ambushed and slain by the flock, Sentinel Arynia Cloudsbreak called on travelers to strike back directly at their nests. Taking the belts from fallen harpies serves as tangible proof that their numbers are being culled, securing the paths so communication with the capital can resume.",
+   "body": "Bloodfeather harpies have built aggressive nests in the boughs around the Oracle Glade. Their presence threatens the ancient Oracle Tree and blocks travel through northern Teldrassil. After the flock ambushed and killed a runner carrying reports to Darnassus, Sentinel Arynia Cloudsbreak called on travelers to strike at the nests. The belts taken from fallen harpies show that their numbers are being culled and the paths are being secured, so messages can reach the capital again.",
    "spoiler": 0
   }
  ],
@@ -26,7 +26,7 @@
     "bloodfeather belt purpose",
     "why collect belts"
    ],
-   "answer": "Arynia Cloudsbreak and her small detachment of Sentinels are stationed to protect the sacred Oracle Tree from the surrounding Bloodfeather nests. Because the harpies recently killed a messenger bound for Darnassus, Arynia demands the belts as physical proof that adventurers are clearing the nests and thinning the flock's ranks."
+   "answer": "Arynia Cloudsbreak and her small detachment of Sentinels guard the sacred Oracle Tree against the nearby Bloodfeather nests. After the harpies killed a messenger bound for Darnassus, Arynia asks travelers to bring back belts as proof that they are clearing the nests and thinning the flock."
   },
   {
    "q": "Where do Bloodfeather Belts come from?",
@@ -35,7 +35,7 @@
     "where to get belts",
     "bloodfeather belt location"
    ],
-   "answer": "They are taken from the Bloodfeather harpies residing in the trees and crags surrounding the Oracle Glade in northern Teldrassil. All varieties of harpies in the flock, including wind witches, sorceresses, rogues, and furies, carry them."
+   "answer": "Bloodfeather harpies in the trees and crags around the Oracle Glade in northern Teldrassil carry these belts. Every kind in the flock carries one, including wind witches, sorceresses, rogues, and furies."
   },
   {
    "q": "Why are harpies a problem in the Oracle Glade?",
@@ -44,17 +44,17 @@
     "why are harpies in teldrassil",
     "harpy threat oracle tree"
    ],
-   "answer": "The harpies have nested in close proximity to the Oracle Tree, an ancient and revered tree that monitors the health of the World Tree. Their aggressive presence isolates the Sentinels guarding the glade and violently disrupts messages traveling back to Darnassus."
+   "answer": "The harpies have nested close to the Oracle Tree, an ancient tree that watches over the health of the World Tree. Their aggression isolates the Sentinels guarding the glade and violently disrupts messages bound for Darnassus."
   }
  ],
  "angles": [
   {
    "target": "race:NightElf",
-   "text": "The Bloodfeather coven desecrates the natural canopy of Teldrassil, and reclaiming the Oracle Glade from their screeching nests is an essential duty for any protector of the Kaldorei homeland."
+   "text": "The Bloodfeather coven has defiled Teldrassil’s natural canopy. Reclaiming the Oracle Glade from their nests is a duty for any protector of the Kaldorei homeland."
   },
   {
    "target": "faction:Alliance",
-   "text": "Aiding Sentinel Arynia Cloudsbreak ensures the vital reports from the ancient trees of Teldrassil reach the leadership in Darnassus uninterrupted."
+   "text": "Helping Sentinel Arynia Cloudsbreak lets vital reports from Teldrassil’s ancient trees reach Darnassus’s leaders without interruption."
   }
  ],
  "keywords": [
@@ -79,5 +79,6 @@
  "attribution": [
   "Bloodfeather Belt",
   "The Enchanted Glade (Classic)"
- ]
+ ],
+ "style": 1
 }

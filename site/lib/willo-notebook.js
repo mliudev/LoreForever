@@ -52,6 +52,15 @@ const ITEM_CHARS = 160, HEADING_CHARS = 40, ITEMS_MAX = 10;
 const CHARACTER = /^[^\s\-:/\\]{2,24}-[^\n\r\t:/\\]{1,48}$/u;
 const encoder = new TextEncoder();
 const bytes = s => encoder.encode(s).length;
+// The same count without encoding, for a line at a time (a long notebook's fill, below).
+const utf8 = s => {
+  let n = 0;
+  for (let i = 0; i < s.length; i++) {
+    const c = s.charCodeAt(i);
+    n += c < 0x80 ? 1 : c < 0x800 ? 2 : c >= 0xd800 && c < 0xdc00 ? (i++, 4) : 3;
+  }
+  return n;
+};
 
 // The page a request names: "account", or a character's page from the add-on's key ("char:Húrin-ClassicBetaPvE"),
 // either way round. null for anything else.
@@ -426,7 +435,9 @@ export function notebookView(pages, { current = null, intent = { write: false, r
       "you. Tell them what's in it when they ask; otherwise bring a line up only when it helps this answer. Call them " +
       "lines, to-dos or notes, never entries." + (short ? " Out loud, name the lines shown, then say how many more " +
       "there are." : "") + ")";
-    const build = keepDone => {
+    // only: the lines to show, by key (page#index), for a notebook too long for the block (below); its headings only
+    // over a line shown.
+    const build = (keepDone, only = null) => {
       refs.clear();
       let n = 0;
       const parts = [head];
@@ -434,14 +445,30 @@ export function notebookView(pages, { current = null, intent = { write: false, r
         const row = rows[page];
         // As she'd say it: "your list for Húrin", never "Húrin's page" (the blind check's nit, spoken).
         const label = page === ACCOUNT_PAGE ? "[Their list for all their characters]" : `[Their list for ${titleOf(page)}]`;
-        let lines = linesOf(row?.body).filter(l => l.kind !== "blank" && (keepDone || !(l.kind === "todo" && l.done)));
+        const own = linesOf(row?.body).map((l, i) => ({ ...l, key: `${page}#${i}` }))
+          .filter(l => l.kind !== "blank" && (keepDone || !(l.kind === "todo" && l.done)));
+        let lines = own;
+        if (only) {
+          // A heading stays when a line it holds is shown: one before the next heading of its level or higher. From
+          // the end, `lowest` is the highest-ranked heading (least level) since the last line shown.
+          const keep = new Set();
+          let lowest = Infinity, seen = false;
+          for (let i = lines.length - 1; i >= 0; i--) {
+            const l = lines[i];
+            if (l.kind !== "heading") { if (only.has(l.key)) { seen = true; lowest = Infinity; keep.add(l); } continue; }
+            if (seen && lowest > l.level) keep.add(l);
+            lowest = Math.min(lowest, l.level);
+          }
+          lines = lines.filter(l => keep.has(l));
+        }
         let more = 0;
         if (short) {
           const open = lines.filter(l => itemLine(l) && !(l.kind === "todo" && l.done));
           const named = open.filter(l => overlap(l.text, said) > 0);
           // Named first, then what's still to do, then notes.
           const shown = new Set([...named, ...open.filter(l => l.kind === "todo"), ...open].slice(0, SPOKEN_LINES));
-          more = open.length - shown.size;
+          // How many more of the page's own, not of the lines a long notebook's fill kept (only).
+          more = own.filter(l => itemLine(l) && !(l.kind === "todo" && l.done)).length - shown.size;
           lines = lines.filter(l => shown.has(l));
         }
         // Exact counts, for "what's left?" (the blind check: "one more note" for three, "nine more lines left empty").
@@ -452,7 +479,8 @@ export function notebookView(pages, { current = null, intent = { write: false, r
         const counted = [open && `${open} open to-do${open === 1 ? "" : "s"}`, ticked && `${ticked} ticked off`,
           notes && `${notes} note${notes === 1 ? "" : "s"}`, timed && `${timed} reminder${timed === 1 ? "" : "s"}`]
           .filter(Boolean).join(", ");
-        parts.push(label + (counted ? ` (${counted})` : "") + (lines.length || timed ? "" : " (empty)"));
+        // Empty only when the page is, not when a long notebook's fill showed none of it.
+        parts.push(label + (counted ? ` (${counted})` : "") + (all.some(l => l.kind !== "blank") || timed ? "" : " (empty)"));
         for (const l of lines) {
           if (l.kind === "heading") { parts.push(`${"#".repeat(l.level)} ${l.text}`); continue; }
           refs.set(++n, { page, raw: l.raw, text: l.text, kind: l.kind });
@@ -467,8 +495,38 @@ export function notebookView(pages, { current = null, intent = { write: false, r
       }
       return parts.join("\n");
     };
-    let block = build(true);
-    if (bytes(block) > NOTEBOOK_MAX_BYTES) block = build(false);
+    // Pages more than twice the block can't fit whole, ticked lines dropped or not: straight to the fill below.
+    const huge = order.reduce((n, page) => n + utf8(rows[page]?.body || ""), 0) > 2 * NOTEBOOK_MAX_BYTES;
+    let block = huge ? "" : build(true);
+    if (!huge && bytes(block) > NOTEBOOK_MAX_BYTES) block = build(false);
+    // Still too long (60 lines or so): the lines the question or the turn before names first, then what's still to do,
+    // then the rest, as many as fit, each where it stands; a cut in page order lost "tick off the Hogger one" past it
+    // (the Architect, 10/26).
+    if (huge || bytes(block) > NOTEBOOK_MAX_BYTES) {
+      // Each line's bytes measured once (its number at most four digits), and its heading's the first time one is
+      // needed, against what the head, labels, counts and reminders leave: one build, not one per line (the Architect).
+      const named = terms(`${question} ${previous}`);
+      const pool = [];
+      for (const page of order) {
+        let heading = null;
+        linesOf(rows[page]?.body).forEach((l, i) => {
+          if (l.kind === "heading") heading = { key: `${page}#${i}`, cost: utf8(`\n${"#".repeat(l.level)} ${l.text}`) };
+          else if (itemLine(l)) pool.push({ ...l, key: `${page}#${i}`, heading,
+            cost: utf8(`\n9999. ${l.kind === "todo" ? "[ ] " : ""}${l.text}`) });
+        });
+      }
+      for (const l of pool) l.rank = overlap(l.text, named) > 0 ? 0 : l.kind === "todo" && !l.done ? 1 : 2;
+      const only = new Set(), headed = new Set();
+      let left = NOTEBOOK_MAX_BYTES - bytes(`${build(true, only)}\n(more in the notebook)`);
+      for (const l of [...pool].sort((a, b) => a.rank - b.rank)) {
+        const cost = l.cost + (l.heading && !headed.has(l.heading.key) ? l.heading.cost : 0);
+        if (cost > left) continue;
+        left -= cost;
+        only.add(l.key);
+        if (l.heading) headed.add(l.heading.key);
+      }
+      block = only.size ? `${build(true, only)}\n(more in the notebook)` : build(false);
+    }
     if (bytes(block) > NOTEBOOK_MAX_BYTES) {
       // Cut at the last whole line that fits; numbers past it name nothing.
       const kept = [];
@@ -618,6 +676,10 @@ export function notebookCall(call, offered, view) {
   if (["notebook_add", "notebook_remind"].includes(call.name) && !notebookWritePage(view))
     return { say: NEED_CHARACTER_LINE };
   const nums = v => (Array.isArray(v) ? v : [v]).map(Number).filter(n => Number.isInteger(n) && n > 0).slice(0, 20);
+  // A question they asked, with no word of writing in it, is answered, never written down ("I'm Alliance, can I still
+  // go there and how do I get there?" came back as a route in their notes: the lab, 10/26).
+  if (["notebook_add", "notebook_remind"].includes(call.name) && /\?\s*$/.test(view.question || "")
+    && !WRITE_WORDS.test(view.question || "")) return null;
   if (call.name === "notebook_add") {
     const kind = args.kind === "note" ? "note" : args.kind === "todo" ? "todo" : null;
     // Map coordinates only when they gave them: Flash-Lite added "(56, 53)" to "the flight master in Sentinel Hill is
@@ -650,6 +712,9 @@ export function notebookCall(call, offered, view) {
       return there.length === 1 ? { page, op: { op: "move", target: there[0], to: "top" } }
         : { page, op: { op: "move", targets: there, target: there[0], to: "top" } };
     }
+    // Asked to change, tick, take off or move a line that isn't there, never a new one written instead ("rename my Thor
+    // note to Thor the gryphon master", no Thor note: the lab, 10/26): she offers it, for their yes (absentLine).
+    if (changeAsked(view.question)) return { missing: true, absent: items[0] };
     // One line asked for in so many words ("remember to visit the bank sometime") is kept in them: the model wrote
     // "Visit the bank in Stormwind City" (LOR-663's blind check, a partial).
     const said = items.length === 1 ? askedTodo(view.question) : "";
@@ -675,8 +740,10 @@ export function notebookCall(call, offered, view) {
   const said = call.name === "notebook_update" ? namingTerms(view.question, args.text) : terms(view.question);
   const before = terms(view.previous);
   const byNumber = /\b(?:#?\d{1,2}(?:st|nd|rd|th)?|first|second|third|fourth|fifth|last|top|bottom)\b/i.test(view.question || "");
-  const fits = t => [...terms(refWords(t))].some(w => said.has(w) || (REFERS.test(view.question || "") && before.has(w)));
-  if (!byNumber && !named.every(fits)) return { missing: true };
+  // A yes to her asking if it's that line ("Do you mean Copper ore x10? Say yes…", nearLine) names it as "that" does.
+  const back = REFERS.test(view.question || "") || saidYes(view.question, view.previous);
+  const fits = t => [...terms(refWords(t))].some(w => said.has(w) || (back && before.has(w)));
+  if (!byNumber && !named.every(fits)) return { missing: true, near: named.find(t => !fits(t)) };
   // Reminders named: taken off (or ticked off: done with) or their words changed, keeping their moment.
   const timed = named.filter(t => t.reminder);
   if (timed.length && call.name === "notebook_update") {
@@ -698,8 +765,22 @@ export function notebookCall(call, offered, view) {
       return { say: "Those are on different pages, so I can't make them one line. Move one first." };
     return { page, op: { op: "merge", targets: mine, text } };
   }
-  if (!byNumber && !PLURAL.test(view.question || "")) {
-    const shared = [...view.refs.values()].filter(r => !r.reminder && r.page === page && fits(r) && overlap(r.text, said) >= best(mine, said));
+  // More than one thing named: "both", "all", or a list ("and", a comma) whose words tell each line apart ("the copper
+  // bars and the copper ore"), never one that doesn't ("I've got the copper, cross it off" ticked both copper lines).
+  const apart = mine.every(t => [...terms(refWords(t))].some(w => said.has(w)
+    && !mine.some(o => o !== t && terms(refWords(o)).has(w))));
+  const plural = ALL.test(view.question || "") || (LISTED.test(view.question || "") && (mine.length === 1 || apart));
+  // Named by "that" alone, no word of theirs: the lines the talk before named last, in its last sentence naming any
+  // ("Kill Hogger, linen cloth and the paladin trainer. The linen's the quickest." "Tick that one off": the linen).
+  const onPage = [...view.refs.values()].filter(r => !r.reminder && r.page === page);
+  const latest = mine.every(t => !overlap(refWords(t), said)) && back
+    ? (String(view.previous || "").match(/[^.!?]+[.!?]*/g) || []).map(terms).reverse()
+      .find(s => onPage.some(r => overlap(refWords(r), s))) : null;
+  if (!byNumber && !plural) {
+    const shared = latest ? onPage.filter(r => overlap(refWords(r), latest))
+      : onPage.filter(r => fits(r) && overlap(r.text, said) >= best(mine, said));
+    // Another line than the one the talk named last: whether it's that one.
+    if (latest && shared.length === 1 && mine.some(t => t.raw !== shared[0].raw)) return { missing: true, near: shared[0] };
     if (shared.length > 1 && (mine.length > 1 || shared.some(r => r.raw !== mine[0].raw))) {
       const names = shared.slice(0, 3).map(r => r.text);
       return { say: `Which one: ${names.slice(0, -1).join(", ")}, or ${names[names.length - 1]}?` };
@@ -758,14 +839,20 @@ const overlap = (text, said) => [...terms(text)].filter(w => said.has(w)).length
 const best = (lines, said) => Math.max(0, ...lines.map(l => overlap(l.text, said)));
 // "Tick that off", "remove it": the line the talk just before named.
 const REFERS = /\b(?:it|that|this|those|these|them)\b/i;
-// They named more than one thing.
-const PLURAL = /\b(?:both|all|each|every|everything|and)\b|,/i;
+// They named more than one thing: in so many words, or a list of them (notebookCall: only when it tells them apart).
+const ALL = /\b(?:both|all|each|every|everything)\b/i;
+const LISTED = /\band\b|,/i;
 // Done with it: tick, cross or mark off, done, finished, got.
 const TICKY = /\b(?:tick|check|cross|strike|scratch|mark)\w*\b[^.?!]{0,40}\boff\b|\b(?:done|finished|completed?|got\s+(?:it|them|that)|have\s+(?:it|them|that))\b/i;
 // Taking a line off, or changing its words: with an order asked for, offered only when these say so ("do the trainer
 // first on my list" came back taken off, and added again, 10/18 live).
 const REMOVEY = /\b(?:remove|delete|drop|erase|clear|scratch|take\s+(?:\w+\s+){0,4}off|get\s+rid)\b/i;
 const CHANGEY = /\b(?:change|rename|edit|update|fix|reword|correct)\b/i;
+const WRITE_WORDS = /\b(?:add|put|write|jot|notes?|notebook|remember|remind\w*|save|keep|track|list|to-?dos?|reminders?)\b/i;
+// A change to lines that are there asked for, with nothing asked written.
+const ADD_ASK = /\b(?:add|put|write|jot|remember|remind|save|keep|track)\b|\bnote\s+(?:that|down)\b|\bmake\s+a\s+note\b|\b(?:list|to-?dos?|things to do)\s*:/i;
+const changeAsked = question => { const q = String(question || "");
+  return (CHANGEY.test(q) || REMOVEY.test(q) || TICKY.test(q) || /\bmove\b/i.test(q)) && !ADD_ASK.test(q); };
 // Something to do or get, not a fact to keep.
 const TASKY = /\b(?:need|get|buy|sell|repair|grab|collect|farm|gather|craft|make|do|finish|kill|turn\s+in|pick\s+up|visit|train|learn|bring|deliver|return|check|see|meet|talk\s+to|to-?dos?|list)\b/i;
 
@@ -1097,7 +1184,14 @@ export const REMIND_PLAN_SPOKEN = "They asked for a reminder at a moment, which 
 
 // What Willo says when the model named a line the notebook doesn't have; when the page is full; and when her change came
 // back without words of its own.
-export const NOT_FOUND_LINE = "I couldn't find that in your notebook. Tell me the words as you wrote them and I'll try again.";
+// A line her call named that their words don't (notebookCall's near, after her second try): asked, never changed, so
+// their yes does it.
+const NEAR_DOES = { notebook_check: "tick it off", notebook_remove: "take it off", notebook_update: "change it",
+  notebook_move: "move it" };
+// A change asked to a line that isn't there, and her add of it instead (notebookCall's absent): offered, never written.
+export const absentLine = text => `I don't see that in your notebook. Want me to add "${text}" as a note?`;
+export const nearLine = (near, tool) => `Do you mean "${near.text}"? Say yes and I'll ${NEAR_DOES[tool] || "do it"}.`;
+export const NOT_FOUND_LINE ="I couldn't find that in your notebook. Tell me the words as you wrote them and I'll try again.";
 export const FULL_LINE = "That page of your notebook is full. Clear out what's done, and I'll write it in.";
 export const notedLine = op => ({ add: "Noted in your notebook.", check: op.done === false ? "Unticked." : "Ticked off.",
   update: "Changed in your notebook.", remove: "Taken out of your notebook." })[op.op] || "Done.";
@@ -1158,7 +1252,7 @@ export function alreadyLine(op) {
 // ("I have added that to the top of your list", "your notebook now shows that first": the blind check, case 3, came as a
 // plain answer with no tool called), and when nothing's left, a line that's true. Negated ones stay ("I haven't
 // added…").
-const CLAIMED = /\b(?:I(?:'ve|\s+have|\s+just)?|I'll|we've)\s+(?:just\s+|now\s+|also\s+|gone\s+ahead\s+and\s+)?(?:added|moved|put|placed|ticked|crossed|noted|updated|changed|removed|written|wrote|saved|marked|jotted|deleted|taken|bumped|listed|set|cleared|wiped|emptied|erased)\b|\b(?:notebook|list|page|to-?do(?:\s+list)?)\s+(?:now\s+)?(?:shows|has|lists|reads)\b[^.?!]*\bnow\b|\bnow\s+(?:shows|has|lists|reads)\b|\bis\s+now\s+(?:first|at\s+the\s+(?:top|bottom)|on\s+your|in\s+your)\b|^\s*(?:done|noted|got\s+it|all\s+set|added|moved|sure|of\s+course|absolutely|certainly|happy\s+to|will\s+do|okay|ok)\b[^.?!]{0,20}[.!]?\s*$|\b(?:I'll|I\s+will|I\s+shall|I'm\s+going\s+to)\s+(?:\w+\s+){0,3}(?:remind|tell|ping|nudge|alert|let\s+you\s+know|call\s+(?:it|that)\s+out)\b/i;
+const CLAIMED = /\b(?:I(?:'ve|\s+have|\s+just)?|I'll|we've)\s+(?:just\s+|now\s+|also\s+|gone\s+ahead\s+and\s+)?(?:added|moved|put|placed|ticked|crossed|noted|updated|changed|removed|written|wrote|saved|marked|jotted|deleted|taken|bumped|listed|set|cleared|wiped|emptied|erased)\b|\b(?:notebook|list|page|to-?do(?:\s+list)?)\s+(?:now\s+)?(?:shows|has|lists|reads)\b[^.?!]*\bnow\b|\bnow\s+(?:shows|has|lists|reads)\b|\bis\s+now\s+(?:first|at\s+the\s+(?:top|bottom)|on\s+your|in\s+your)\b|^\s*(?:done|noted|written(?:\s+down)?|jotted(?:\s+down)?|saved|got\s+it|all\s+set|added|moved|sure|of\s+course|absolutely|certainly|happy\s+to|will\s+do|okay|ok)\b[^.?!]{0,20}[.!]?\s*$|\b(?:I'll|I\s+will|I\s+shall|I'm\s+going\s+to)\s+(?:\w+\s+){0,3}(?:remind|tell|ping|nudge|alert|let\s+you\s+know|call\s+(?:it|that)\s+out)\b/i;
 export const NO_CHANGE_LINE = "I haven't changed your notebook yet. Tell me what to add, tick off or move.";
 // A claim of writing to their notes, list, map or pins in an answer that wrote nothing, whatever the question was: the
 // notebook's guard (unclaimed) runs only when the notebook is in play, and "mark this as a spot that's cool to look out
@@ -1166,11 +1260,22 @@ export const NO_CHANGE_LINE = "I haven't changed your notebook yet. Tell me what
 export const NOTE_CLAIM = /\b(?:I(?:'ve|\s+have|\s+just)?|I'll|I\s+will)\s+(?:just\s+|now\s+|also\s+|gone\s+ahead\s+and\s+)?(?:marked|noted|pinned|added|saved|written|wrote|jotted|put|kept|stored|recorded|logged|mark|note|pin|add|save|write|jot|keep|store|record)\b[^.?!]{0,80}\b(?:notes?|notebook|list|map|pins?|journal|to-?dos?)\b|\b(?:I(?:'ve|\s+have|\s+just)?|I'll|I\s+will)\s+(?:just\s+|now\s+|also\s+)?(?:pinned|marked|pin|mark)\b/i;
 export const NOT_WRITTEN_LINE = "I haven't written that down. Say \"pin this spot\" for where you stand, or \"note that…\", and I will.";
 // Her answer without the claim: the line that's true, and what else she said that isn't about her notebook.
+// Her written line's opening ("Noted: copper ore done", "Ticked off: Hogger") claims it too, and one that says a line
+// is done says what wasn't changed instead (no pin or "note that…" for a tick asked for).
+const SAYS_WRITTEN = /^\s*(?:noted|jotted(?: down)?|ticked(?: off)?|crossed off|added|pinned|written down|saved)\s*[:,—-]/i;
+const SAYS_TICKED = /\b(?:ticked|crossed|struck|scratched|done|removed|taken off)\b/i;
+// "Hogger: ticked off", "I've crossed it off": a tick said done.
+const TICK_CLAIM = /(?<!n't |not |never )\b(?:ticked|crossed|struck|scratched|taken) (?:it |that |them |him |her )?off\b/i;
+const sentencesOf = answer => String(answer || "").match(/[^.!?]+[.!?]*\s*/g) || [];
+// Any sentence of hers opening as a written line or saying a tick done (answer.js: with nothing written, never).
+export const saysWritten = answer => sentencesOf(answer).some(t => SAYS_WRITTEN.test(t) || TICK_CLAIM.test(t));
 export function notWritten(answer) {
-  const sentences = String(answer || "").match(/[^.!?]+[.!?]*\s*/g) || [];
-  const rest = sentences.filter(t => !NOTE_CLAIM.test(t) && !/\b(?:notes?|notebook|list|pins?|journal|to-?dos?)\b/i.test(t)
-    && !CLAIMED.test(t)).join("").trim();
-  return rest ? `${NOT_WRITTEN_LINE} ${rest}` : NOT_WRITTEN_LINE;
+  const sentences = sentencesOf(answer);
+  const claims = t => NOTE_CLAIM.test(t) || SAYS_WRITTEN.test(t) || TICK_CLAIM.test(t) || CLAIMED.test(t) || claimsDone(t);
+  const rest = sentences.filter(t => !claims(t) && !/\b(?:notes?|notebook|list|pins?|journal|to-?dos?)\b/i.test(t))
+    .join("").trim();
+  const line = sentences.some(t => claims(t) && SAYS_TICKED.test(t)) ? NO_CHANGE_LINE : NOT_WRITTEN_LINE;
+  return rest ? `${line} ${rest}` : line;
 }
 export const NO_REMINDER_LINE = "I haven't set a reminder yet. Tell me where or when, and what to say.";
 // Asked to clear all of it: she can't, so never a line that says she did (the stream, 10/18: "I have cleared your notes").

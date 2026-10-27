@@ -1,0 +1,90 @@
+{
+ "key": "quest:2360",
+ "type": "quest",
+ "name": "Mathias and the Defias",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   2360
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "SI:7 reports unusually heavy Defias activity in Westfall. You are sent to Agent Kearnen for a debriefing near an abandoned Alliance watch tower.",
+ "sections": [
+  {
+   "title": "The Watch Tower",
+   "body": "The Defias have taken over an abandoned Alliance watch tower southeast of Sentinel Hill. SI:7 reports they are using it as a base to smuggle goods from the Redridge supply route. You are sent to Westfall to find Agent Kearnen, hidden near the tower, and receive her debriefing.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is happening in Westfall?",
+   "aliases": [
+    "defias in westfall",
+    "westfall defias activity"
+   ],
+   "answer": "SI:7 reports unusually heavy Defias activity in Westfall. The Defias have taken over an abandoned Alliance watch tower and use it to smuggle goods from the Redridge supply route."
+  },
+  {
+   "q": "Where is the Defias base?",
+   "aliases": [
+    "defias tower",
+    "where is their base"
+   ],
+   "answer": "The Defias have taken over an abandoned Alliance watch tower southeast of Sentinel Hill."
+  },
+  {
+   "q": "Who is Agent Kearnen?",
+   "aliases": [
+    "kearnen",
+    "who is kearnen"
+   ],
+   "answer": "Agent Kearnen is the SI:7 agent you are sent to find near the tower for a debriefing."
+  },
+  {
+   "q": "What does SI:7 want me to do?",
+   "aliases": [
+    "si7 task",
+    "find kearnen"
+   ],
+   "answer": "SI:7 sends you to Westfall to find Agent Kearnen, who is hidden near the tower, for a debriefing."
+  },
+  {
+   "q": "What are the Defias smuggling?",
+   "aliases": [
+    "defias goods",
+    "redridge supplies"
+   ],
+   "answer": "The Defias are smuggling goods from the Redridge supply route."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Alliance",
+   "text": "The Defias have taken an abandoned Alliance watch tower in Westfall and use it as a smuggling base."
+  }
+ ],
+ "keywords": [
+  "agent kearnen",
+  "defias",
+  "mathias",
+  "redridge",
+  "sentinel hill",
+  "si:7",
+  "watch tower",
+  "westfall"
+ ],
+ "related": [
+  "quest:2300",
+  "zone:westfall",
+  "subzone:sentinel-hill",
+  "topic:alliance"
+ ],
+ "style": 1,
+ "attribution": [
+  "In-game quest text: Mathias and the Defias"
+ ]
+}

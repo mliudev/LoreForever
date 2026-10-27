@@ -1,196 +1,111 @@
-/* /downloads (LOR-437) as one open book (the site design, 2026-10-25; lab/lore-site-v3 "Downloads"): a two-page spread on
-   the ground. The left page is the add-on (its two ways to get it, what comes with it, your language, install help
-   folded); the right page the voices to add (a tile per pack with wax play seals, the community's narrators, and the
-   folds: how to install an extra pack, every file by language and voice). One Meet Willo slip sits under the book.
-   The page is a .ch-sheet, so style.css turns the older --h-* colour names to ink on parchment and the rules below draw
-   in the book's colours. chronicle.css has the sheet, spread, fold, seal and slip. Scoped to .bw to win over the older
-   dl-* rules in style.css. */
+/* /downloads, "Pick a bundle" (LOR-848, Mike's pick 10/26; the Design Lead's mockup C): one parchment page. The bar
+   with your language and narrator and its chooser, three bundle cards side by side (one column on a phone), then the
+   folds (every file, install help) and "Lend your voice". Willo's card sits under the page in her own look
+   (chronicle.css .ch-willo). The page is a .ch-sheet, so the colours are the book's --pg-* tokens (style.css), the
+   same in light and dark. Scoped to .bw to win over the older dl-* rules in style.css. */
 
 .bw main.dl-page { max-width: none; padding: 0; }
 .dl-page .ch-stack { margin-top: 28px; }
-.dl-page .ch-stack.ch-top { margin-top: 12px; }
+.bx-page { display: grid; gap: 16px; padding: 30px 34px 32px; min-width: 0; }
+.bx-page > * { min-width: 0; }
+.bx-lead { margin: -4px 0 0; font-size: 1.12rem; color: var(--pg-ink); max-width: 52ch; }
+.bx-note { color: var(--pg-note); font-size: 0.92rem; }
+.bx-lab { font: 700 0.74rem/1.3 var(--h-body, sans-serif); letter-spacing: 0.1em; text-transform: uppercase; color: var(--pg-note); }
+
 /* From /voices, the link voice actors were sent to record (functions/downloads/index.js): the recorder first. */
 .bw .dl-record { display: flex; flex-wrap: wrap; align-items: center; gap: 10px 16px; margin: 0; padding: 12px 18px;
   border: 1px solid var(--pg-rim); border-radius: 4px; background: var(--pg); color: var(--pg-ink); box-shadow: inset 0 0 0 3px var(--pg-rim-soft); }
 .bw .dl-record b { color: var(--pg-title); font-size: 1.05rem; }
 
-/* The left page */
-.dl-spread .ch-page { padding: 32px 34px 34px; }
-.dl-spread .ch-read { margin: 0; font-size: 1.1rem; }
-.dl-page .dl-cta-note .dl-size { white-space: nowrap; }
-.dl-page .dl-left > .dl-cta-note { margin-top: -2px; }
+/* The bar: what's picked, and Change (shown once /js/downloads.js can open the chooser) */
+.bx-bar { display: flex; flex-wrap: wrap; align-items: center; gap: 8px 16px; padding: 12px 16px; border: 1px solid var(--pg-edge);
+  border-radius: 6px; background: var(--pg-paper); scroll-margin-top: 70px; }
+.bx-bar-text { display: grid; gap: 2px; flex: 1 1 240px; min-width: 0; }
+.bx-bar-text b { font-size: 1.2rem; line-height: 1.3; color: var(--pg-ink); }
+.bx-change { display: none; }
+.bx-ready .bx-change { display: inline-flex; }
 
-/* What comes with it: a list on the page, no card */
-.bw .pk-comes { min-width: 0; margin: 4px 0 0; padding: 0; border: 0; background: none; scroll-margin-top: 70px; }
-.bw .pk-comes h2 { display: flex; flex-wrap: wrap; align-items: center; gap: 4px 10px; margin: 0 0 6px; font: 700 0.78rem/1.3 var(--h-body, sans-serif);
-  letter-spacing: 0.1em; text-transform: uppercase; color: var(--pg-note); }
-.pk-comes ul { list-style: none; margin: 0 0 12px; padding: 0; display: grid; gap: 4px; color: var(--pg-ink); }
-.pk-comes li { position: relative; padding-left: 22px; }
-.pk-comes li::before { content: "\2713"; position: absolute; left: 0; color: var(--pg-new); font-weight: 700; }
-.pk-comes strong { color: var(--pg-ink); font-variant-numeric: tabular-nums; }
-.pk-comes :target, .dl-page .pk-row:target { background: var(--pg-wash); box-shadow: 0 0 0 4px var(--pg-wash); border-radius: 2px; }
-.pk-tag { display: inline-flex; padding: 1px 8px; border: 1px solid color-mix(in srgb, var(--pg-new) 55%, transparent); border-radius: 3px; background: none;
-  color: var(--pg-new); font: 700 0.68rem/1.4 var(--h-body, sans-serif); letter-spacing: 0.08em; text-transform: uppercase; white-space: nowrap; }
+/* Change: language chips, narrator cards with a ▶ seal, the computer */
+.bx-choose { display: grid; gap: 10px; padding: 16px; border: 1px solid var(--pg-edge); border-radius: 6px; background: var(--pg-paper); }
+.bx-choose[hidden] { display: none; }
+.bx-choose p { margin: 0; }
+.bx-chips { display: flex; flex-wrap: wrap; gap: 6px; }
+.bx-chip { padding: 3px 12px; border-radius: 3px; border: 1px solid transparent; background: var(--pg-chip); color: var(--pg-ink);
+  font: 500 0.95rem/1.5 var(--h-body, sans-serif); cursor: pointer; }
+.bx-chip:hover { border-color: var(--pg-title); }
+.bx-chip[aria-pressed="true"] { background: var(--pg-btn); color: var(--pg-btn-ink); }
+.bx-vcs { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 10px; }
+.bx-vc { display: flex; gap: 10px; align-items: flex-start; padding: 10px; border: 1px solid var(--pg-edge); border-radius: 4px; background: var(--pg-tile); min-width: 0; }
+.bx-vc.bx-on { border-color: var(--pg-title); box-shadow: inset 0 0 0 2px var(--pg-title); }
+.bx-play { flex: none; display: grid; place-items: center; width: 32px; height: 32px; border-radius: 50%; border: 0; cursor: pointer;
+  background: var(--a-wax); color: var(--a-wax-ink); font-size: 0.7rem; box-shadow: inset 0 0 0 3px color-mix(in srgb, #000 18%, transparent); }
+.bx-vsel { flex: 1; min-width: 0; display: grid; gap: 2px; padding: 0; border: 0; background: none; color: inherit; font: inherit; text-align: left; cursor: pointer; }
+.bx-vsel b { font: 600 1rem/1.25 var(--h-display, serif); color: var(--pg-title); }
+.bx-vsel span { font-size: 0.92rem; line-height: 1.3; color: var(--pg-note); }
+.bx-vsel .bx-now { color: var(--pg-title); font-style: italic; }
 
-/* ▶ chips: a line to hear (a wax seal and its title), its words in a caption while it plays */
-.pk-chips { display: flex; flex-wrap: wrap; gap: 6px 10px; }
-.pk-play { display: inline-flex; align-items: center; gap: 8px; max-width: 100%; padding: 2px 10px 2px 2px; border-radius: 999px;
-  border: 1px solid transparent; background: none; color: var(--pg-ink); font: 600 0.92rem/1.2 var(--h-body, sans-serif);
-  text-decoration: none; cursor: pointer; }
-.pk-play:hover { border-color: var(--pg-edge); background: var(--pg-paper); color: var(--pg-ink); }
-.pk-play:focus-visible { outline: 2px solid var(--pg-title); outline-offset: 2px; }
-.pk-play.pk-on { border-color: var(--pg-title); background: var(--pg-paper); color: var(--pg-title); }
-.pk-pl { flex: none; display: inline-grid; place-items: center; width: 26px; height: 26px; border-radius: 50%; border: 0;
-  background: var(--a-wax); color: var(--a-wax-ink); font-size: 0.62rem; box-shadow: inset 0 0 0 3px color-mix(in srgb, #000 18%, transparent); }
-.dl-page .pk-t { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; overflow-wrap: normal; }
-.pk-cap { margin: 8px 0 0; padding: 4px 10px; border-left: 3px solid var(--pg-rim); background: color-mix(in srgb, var(--pg-rim) 10%, transparent);
-  font-size: 0.95rem; font-style: italic; color: var(--pg-ink); }
-.pk-cap small { display: block; font-style: normal; color: var(--pg-note); font-size: 0.82rem; }
+/* The three cards. Storyteller, the recommended one, stands out; a card a language has nothing for is dimmed. */
+.bx-cards { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 14px; align-items: stretch; scroll-margin-top: 70px; }
+.bx-card { display: flex; flex-direction: column; gap: 10px; min-width: 0; padding: 18px; border: 1px solid var(--pg-edge); border-radius: 6px; background: var(--pg-tile); }
+.bx-card.bx-rec { border: 2px solid var(--pg-title); background: var(--pg-paper); box-shadow: 0 4px 14px var(--pg-shadow, #0003); }
+.bx-card.bx-off { border-style: dashed; background: none; opacity: 0.8; }
+.bx-head { display: flex; flex-wrap: wrap; align-items: center; gap: 6px 10px; }
+.bw .bx-head h2 { margin: 0; font: 700 1.2rem/1.2 var(--h-display, serif); color: var(--pg-title); }
+.bx-badge { padding: 4px 8px; border-radius: 3px; background: var(--a-wax); color: var(--a-wax-ink); font: 700 0.7rem/1 var(--h-body, sans-serif);
+  letter-spacing: 0.08em; text-transform: uppercase; }
+.bx-size { margin: 0; font: 700 1.9rem/1 var(--h-display, serif); color: var(--pg-title); font-variant-numeric: tabular-nums; }
+.bx-has { list-style: none; margin: 0; padding: 0; display: grid; gap: 4px; color: var(--pg-ink); }
+.bx-has li { position: relative; padding-left: 20px; }
+.bx-has li::before { content: "\2713"; position: absolute; left: 0; color: var(--pg-new); font-weight: 700; }
+.bx-why { margin: 0; color: var(--pg-note); }
+.bx-cta { margin-top: auto; display: grid; gap: 8px; justify-items: start; }
+.bx-cta p, .bx-cta .bx-other { margin: 0; font-size: 0.92rem; color: var(--pg-note); }
+.bx-go { font-size: 1.05rem; }
+.bx-tick { color: var(--pg-ink) !important; }
+.bx-other { line-height: 1.6; }
+.bx-nw { white-space: nowrap; }
+/* Closed, a fold sits in the line like a link (inline-block: an inline <details> breaks the line after it); open, its
+   list takes the card's width. */
+.bx-ways { display: inline-block; }
+.bx-ways[open] { display: block; }
+.bx-ways > summary { display: inline; cursor: pointer; color: var(--pg-title); text-decoration: underline; text-underline-offset: 2px; }
+.bx-ways > summary::-webkit-details-marker { display: none; }
+.bx-ways > summary::after { content: " \25BE"; font-size: 0.8em; }
+.bx-ways[open] > summary::after { content: " \25B4"; }
+.bx-ways ul { margin: 6px 0 2px; padding-left: 18px; display: grid; gap: 2px; white-space: normal; }
+.bx-ways small { color: var(--pg-note); font-variant-numeric: tabular-nums; }
+.bx-zips > summary.ch-btn { display: inline-flex; text-decoration: none; color: var(--pg-btn-ink); }
+.bx-zips > summary.ch-btn::after { color: var(--pg-btn-ink); }
 
-/* Your language: the heading is a kicker, a chip per language (/js/packs.js), the pack rows under it; without JavaScript
-   every language shows, each under its name. */
-.bw .dl-left .pk-tile { gap: 8px; padding: 0; border: 0; background: none; box-shadow: none; border-radius: 0; }
-.dl-left .pk-tile .pk-ico { display: none; }
-.bw .dl-left .pk-head h3 { margin: 0; font: 700 0.78rem/1.3 var(--h-body, sans-serif); letter-spacing: 0.1em; text-transform: uppercase; color: var(--pg-note); }
-.bw .dl-left .pk-head p { display: none; }
-.pk-langs { display: flex; flex-wrap: wrap; gap: 5px; }
-.pk-langs button { padding: 2px 10px; border-radius: 3px; border: 1px solid transparent; background: var(--pg-chip); color: var(--pg-ink);
-  font: 500 0.88rem/1.5 var(--h-body, sans-serif); cursor: pointer; }
-.pk-langs button:hover { border-color: var(--pg-title); }
-.pk-langs button:focus-visible { outline: 2px solid var(--pg-title); outline-offset: 2px; }
-.pk-langs button[aria-pressed="true"] { background: var(--pg-btn); color: var(--pg-btn-ink); }
-.pk-lang-hint { margin: 0; color: var(--pg-note); font-size: 0.92rem; }
-.pk-lang h4 { margin: 12px 0 0; font: 600 1.05rem var(--h-display, serif); color: var(--pg-title); }
-.pk-picking .pk-lang h4 { display: none; }
-.pk-lang .pk-rows { margin-top: 6px; }
-.pk-picking .pk-lang .pk-rows { margin-top: 0; }
-.dl-left .pk-hint { margin: 4px 0 0; color: var(--pg-note); font-size: 0.9rem; }
-
-/* The right page: tiles of the voices to add */
-.dl-right { container-type: inline-size; }
-.pk-tiles { display: grid; grid-template-columns: repeat(auto-fill, minmax(210px, 1fr)); gap: 10px; align-items: start; }   /* an open tile doesn't stretch its neighbour */
-.bw .dl-right .pk-tile { display: flex; flex-direction: column; gap: 8px; min-width: 0; padding: 12px; border: 1px solid var(--pg-edge); border-radius: 3px;
-  background: var(--pg-tile); box-shadow: none; scroll-margin-top: 70px; }
-.bw .dl-right .pk-tile:target { border-color: var(--pg-title); }
-.bw .dl-right .pk-tile.blank { border-style: dashed; background: var(--a-blank); }
-.dl-right .pk-tile:has(.pk-get[open]) { grid-column: 1 / -1; }
-.dl-right .pk-tile-wide { grid-column: 1 / -1; }
-.pk-head { display: flex; gap: 12px; align-items: center; }
-.pk-head > div { min-width: 0; }
-.bw .pk-head h3 { margin: 0; font: 600 1rem/1.2 var(--h-display, serif); color: var(--pg-title); }
-.bw .pk-head p { margin: 2px 0 0; color: var(--pg-note); font-size: 0.9rem; line-height: 1.35; }
-.dl-right .pk-ico { display: none; }
-.pk-ico { flex: none; display: inline-flex; align-items: center; justify-content: center; width: 40px; height: 40px; border-radius: 50%;
-  border: 1px solid var(--pg-rim); background: var(--pg-paper); color: var(--pg-title); }
-.pk-ico svg { width: 22px; height: 22px; fill: none; stroke: currentColor; stroke-width: 1.7; stroke-linecap: round; stroke-linejoin: round; }
-.pk-get { margin-top: auto; }
-.pk-get > summary { display: flex; align-items: center; justify-content: space-between; gap: 6px 10px; flex-wrap: wrap; cursor: pointer; list-style: none; }
-.pk-get > summary::-webkit-details-marker { display: none; }
-.pk-get > summary:focus-visible { outline: 2px solid var(--pg-title); outline-offset: 3px; }
-.pk-meta { color: var(--pg-note); font-size: 0.85rem; font-variant-numeric: tabular-nums; }
-.pk-meta strong { color: var(--pg-ink); }
-/* "Get it" opens the pack's files: an outline button, like the rest */
-.pk-get-btn { display: inline-flex; align-items: center; gap: 8px; min-height: 34px; padding: 0 12px; border-radius: 5px;
-  border: 1px solid var(--pg-edge); background: none; color: var(--pg-ink); font: 700 0.9rem var(--h-body, sans-serif); white-space: nowrap; }
-.pk-get-btn::after { content: "\25BE"; font-size: 0.8em; color: var(--pg-title); }
-.pk-get[open] .pk-get-btn::after { content: "\25B4"; }
-.pk-get > summary:hover .pk-get-btn { border-color: var(--pg-title); }
-.pk-rows { list-style: none; margin: 10px 0 0; padding: 8px 0 0; border-top: 1px solid color-mix(in srgb, var(--pg-edge) 30%, transparent); }
-.pk-row { display: flex; align-items: center; justify-content: space-between; gap: 6px 14px; flex-wrap: wrap; padding: 9px 0;
+/* Every file, install help and Lend your voice */
+.bx-every > p { margin: 4px 14px 0; }
+.ef-lang { margin-top: 10px; }
+.ef-lang[hidden] { display: none; }
+.bw .ef-lang h3 { margin: 10px 0 0; font: 600 1.1rem var(--h-display, serif); color: var(--pg-title); }
+.bw .ef-lang h4 { margin: 10px 0 0; font: 700 0.74rem/1.3 var(--h-body, sans-serif); letter-spacing: 0.1em; text-transform: uppercase; color: var(--pg-note); }
+.ef-rows { list-style: none; margin: 4px 0 0; padding: 0; }
+.ef-row { display: grid; grid-template-columns: minmax(0, 1fr) auto auto; gap: 4px 14px; align-items: baseline; padding: 7px 0;
   border-top: 1px solid color-mix(in srgb, var(--pg-edge) 25%, transparent); scroll-margin-top: 70px; }
-.pk-row:first-child { border-top: 0; }
-.pk-row p { margin: 0; }
-.pk-row-main { flex: 1 1 220px; min-width: 0; }
-.pk-row-name { font-weight: 700; color: var(--pg-ink); }
-.pk-row-what { color: var(--pg-note); font-size: 0.9rem; }
-.pk-row-main .pk-chips { margin-top: 6px; }
-.pk-row-get { display: flex; align-items: center; gap: 8px 12px; flex-wrap: wrap; font-size: 0.95rem; }
-.pk-row-get a.dl-link { font-weight: 700; }
-.pk-row-get small, .pk-row-get .dl-size { color: var(--pg-note); }
-.bw main .btn-small.pk-cf { margin-top: 0; color: var(--pg-ink); background: transparent; border-color: var(--pg-edge); box-shadow: none; }   /* CurseForge: outline */
-.bw main .btn-small.pk-cf:hover { border-color: var(--pg-title); }
-.pk-hint { margin: 8px 0 0; color: var(--pg-note); font-size: 0.9rem; }
-.pk-lend { margin: 0; }
+.ef-row:first-child { border-top: 0; }
+.ef-row:target { background: var(--pg-wash); box-shadow: 0 0 0 4px var(--pg-wash); }
+.ef-name { color: var(--pg-ink); }
+.ef-size { color: var(--pg-note); font-variant-numeric: tabular-nums; white-space: nowrap; }
+.ef-get { white-space: nowrap; font-weight: 700; }
+.bx-steps { margin: 8px 14px 0 34px; padding: 0; display: grid; gap: 6px; color: var(--pg-ink); }
+.bx-lend { margin: 0; display: flex; flex-wrap: wrap; gap: 4px 10px; align-items: baseline; }
+.bx-lend a { font-weight: 700; }
+.bx-willo { scroll-margin-top: 70px; }
 
-/* The community's narrators (lib/downloads.js communitySection): tiles with a seal to hear and a Download button */
-.bw .dl-right .dl-section { grid-column: 1 / -1; padding: 6px 0 0; }
-.bw .dl-right .dl-section > h2 { margin: 0 0 2px; font: 700 0.78rem/1.3 var(--h-body, sans-serif); letter-spacing: 0.1em; text-transform: uppercase; color: var(--pg-note); }
-.bw .dl-right .dl-intro { margin: 0 0 10px; max-width: none; color: var(--pg-note); font-size: 0.95rem; }
-.bw .dl-right #community > p:last-child { display: none; }   /* the "Lend your voice" tile after them is the same link */
-.bw .cm-cards { display: grid; grid-template-columns: repeat(auto-fill, minmax(210px, 1fr)); gap: 10px; margin: 0; padding: 0; list-style: none; }
-.bw .cm-card { display: grid; grid-template-columns: 34px minmax(0, 1fr); gap: 2px 10px; align-items: center; padding: 12px; border: 1px solid var(--pg-edge); border-radius: 3px; background: var(--pg-tile); }
-.bw .cm-card .cm-by { grid-column: 1 / -1; margin: 0; font: 600 1rem/1.2 var(--h-display, serif); color: var(--pg-title); }
-.bw .cm-card .cm-what { grid-column: 1 / -1; margin: 0; color: var(--pg-note); font-size: 0.88rem; }
-.bw .cm-card .btn-small, .bw .cm-card .dl-get { justify-self: start; margin-top: 4px; }
-.bw .dl-play { flex: 0 0 34px; width: 34px; height: 34px; border: 0; border-radius: 50%; background: var(--a-wax); color: var(--a-wax-ink); font-size: 0.78rem;
-  box-shadow: inset 0 0 0 3px color-mix(in srgb, #000 18%, transparent); cursor: pointer; }
-.bw .dl-play:hover, .bw .dl-play:focus-visible { filter: brightness(1.12); }
-.bw .dl-play:focus-visible { outline: 2px solid var(--pg-title); outline-offset: 2px; }
-
-/* Folds: install help and every file */
-.dl-fold { margin: 0; }
-.dl-fold ol { margin: 10px 0 6px; padding-left: 22px; display: grid; gap: 8px; color: var(--pg-ink); font-size: 0.98rem; }
-.dl-fold code { word-break: break-word; }
-.dl-fold.dl-howto { padding: 0; border: 1px solid var(--pg-edge); border-radius: 3px; background: color-mix(in srgb, var(--pg-tile) 40%, transparent); }
-.dl-fold.dl-howto > summary { margin: 0; }
-.dl-howto .steps { list-style: none; padding: 0; }
-.dl-howto .steps li { font-size: 0.98rem; color: var(--pg-ink); }
-.dl-howto .steps li::before { background: var(--pg-title); border: 1px solid var(--pg-title); color: var(--pg-on); font-family: var(--h-body, sans-serif); }
-.dl-howto .steps strong { color: var(--pg-ink); }
-.bw .dl-fold .dl-intro { margin: 8px 0 0; max-width: none; color: var(--pg-ink); font-size: 0.95rem; }
-.dl-filters select { border-color: var(--pg-edge); border-radius: 3px; background: var(--pg-paper); color: var(--pg-ink); font-family: var(--h-body, sans-serif); }
-.dl-filters legend, .dl-filters label { color: var(--pg-note); }
-.dl-table-wrap { margin-top: 8px; border: 1px solid var(--pg-edge); border-radius: 3px; background: var(--pg-paper); }
-.dl-table th { color: var(--pg-note); border-bottom-color: var(--pg-line); }
-.dl-table td { border-bottom-color: color-mix(in srgb, var(--pg-edge) 30%, transparent); }
-.dl-table td small { color: var(--pg-note); }
-.dl-narrator { color: var(--pg-title); }
-.dl-choice-included { background: var(--pg-wash); }
-.dl-choice:target, .dl-file:target { background: var(--pg-wash); box-shadow: 0 0 0 6px var(--pg-wash); }
-.dl-install-choice[open] > summary { background: var(--pg-hover); }
-.dl-install-panel { border-color: var(--pg-rim); border-radius: 3px; background: var(--pg-tile); }
-.dl-install-panel h3 { color: var(--pg-title); }
-.dl-meter { background: color-mix(in srgb, var(--pg-edge) 30%, transparent); }
-.dl-alliance { color: var(--c-alliance); border-color: color-mix(in srgb, var(--c-alliance) 55%, transparent); background: color-mix(in srgb, var(--c-alliance) 8%, transparent); }
-.dl-horde { color: var(--c-horde); border-color: color-mix(in srgb, var(--c-horde) 55%, transparent); background: color-mix(in srgb, var(--c-horde) 8%, transparent); }
-.dl-all { color: var(--pg-title); border-color: var(--pg-rim); background: var(--pg-wash); }
-.dl-parts { border-top-color: var(--pg-line); }
-.cm-voices a { background: var(--pg-paper); border-color: var(--pg-edge); color: var(--pg-ink); }
-.cm-voices a:hover, .cm-voices a:focus-visible { border-color: var(--pg-title); }
-.vc-like button { border-color: var(--pg-edge); background: var(--pg-paper); color: var(--pg-ink); font-family: var(--h-body, sans-serif); }
-.vc-like button[aria-pressed="true"] { border-color: var(--pg-title); background: var(--pg-title); color: var(--pg-on); }
-
-/* The table in a half page: the phone's stacked rows, from the page's own width (a container), not the window's. */
-@container (max-width: 600px) {
-  .dl-table-wrap { padding: 0 12px; }
-  .dl-table, .dl-table tbody, .dl-table tr, .dl-table .dl-choice, .dl-table td { display: block; width: auto; }
-  .dl-table thead { display: none; }
-  .dl-table tr { padding: 12px 0; border-bottom: 1px solid var(--pg-line); }
-  .dl-table tr:last-child { border-bottom: 0; }
-  .dl-table td { padding: 4px 0; border: 0; }
-  .dl-table td[data-label]::before { content: attr(data-label) ": "; color: var(--pg-note); font-size: 0.85rem; }
-  .dl-table td small { display: inline; margin-left: 6px; }
-  .dl-table .dl-voice-head { display: inline-flex; vertical-align: middle; max-width: 100%; }
-  .dl-table .dl-voice-head small { display: block; margin-left: 0; }
-  .dl-table .vc-like { display: inline-block; margin: 0 0 0 6px; vertical-align: middle; }
-  .dl-install-choice > summary { width: fit-content; max-width: 100%; }
-  .dl-install-panel { position: static; width: auto; margin-top: 10px; padding: 12px; box-shadow: none; }
-  .dl-install-panel .dl-file { flex-wrap: wrap; }
-  .dl-install-panel .dl-get { white-space: normal; }
+@media (max-width: 860px) {
+  .bx-cards { grid-template-columns: 1fr; }
 }
-
 @media (max-width: 640px) {
-  .dl-spread .ch-page { padding: 20px 14px 22px; }
-  .ch-acts { flex-direction: column; align-items: stretch; }
-  .pk-row-get { flex-basis: 100%; }
-  .pk-tiles, .cm-cards { grid-template-columns: minmax(0, 1fr); }
+  .bx-page { padding: 20px 14px 22px; gap: 14px; }
+  .bx-choose { padding: 12px; }
+  .bx-vcs { grid-template-columns: 1fr; }
+  .bx-cta, .bx-go { width: 100%; }
+  .bx-cta { justify-items: stretch; }
+  .bx-go { justify-content: center; }
+  .ef-row { grid-template-columns: minmax(0, 1fr) auto; }
+  .ef-get { grid-column: 1 / -1; }
 }
-
-/* Anchors that carry no content (#packs) take no place in the page's grid. */
-.dl-right > span[id] { position: absolute; }
-.dl-right { position: relative; }
-.bw .cm-card { display: flex; flex-wrap: wrap; align-items: center; gap: 4px 10px; }
-.bw .cm-card .cm-by, .bw .cm-card .cm-what { flex: 1 1 100%; }
-.bw .cm-card .btn-small, .bw .cm-card .dl-get { margin-top: 0; }
-.bw .dl-record .h-btn { min-height: 36px; padding: 0 14px; border: 1px solid transparent; border-radius: 5px; background: var(--pg-btn); color: var(--pg-btn-ink); box-shadow: none; text-decoration: none; font: 700 0.92rem var(--h-body, sans-serif); }
-.bw .dl-record .h-btn:hover { background: var(--pg-btn-hover); color: var(--pg-btn-ink); transform: none; }

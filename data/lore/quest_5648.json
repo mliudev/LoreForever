@@ -20,16 +20,16 @@
    "Garments of Spirituality"
   ]
  },
- "summary": "Garments of Spirituality is a rite of passage for fledgling Horde priests in Durotar, assigned by Tai'jin in Razor Hill. Initiates are sent into the field to locate and mend the wounds of an injured grunt standing vigil against Kul Tiras survivors. Completing the task earns a priest their first ceremonial vestments and formal recognition among the Horde's spiritual practitioners.",
+ "summary": "In Razor Hill, Tai'jin sends new priests to prove their healing in the field. They seek Grunt Kor'ja, wounded while standing against Kul Tiras survivors, and tend her injuries. Those who succeed earn ceremonial vestments and recognition among the Horde's spiritual practitioners.",
  "sections": [
   {
    "title": "A Healer's Trial",
-   "body": "In the arid scrub south of Razor Hill, the Horde faces relentless skirmishes against remnants of Grand Admiral Daelin Proudmoore's forces. Rather than sending prospective priests into abstract rituals, the troll trainer Tai'jin tests their discipline in real combat triage. Initiates are charged with seeking out Grunt Kor'ja, a warrior critically injured while repelling human infiltrators, to tend her injuries and bolster her constitution before she succumbs.",
+   "body": "South of Razor Hill, the Horde still fights remnants of Grand Admiral Daelin Proudmoore's forces. Tai'jin, the troll priest trainer, tests new priests in the work of real combat triage. She sends them to find Grunt Kor'ja, a warrior badly wounded while repelling human infiltrators. You tend her injuries and strengthen her before she succumbs.",
    "spoiler": 0
   },
   {
    "title": "Vestments of the Faithful",
-   "body": "Restoring Kor'ja to fighting condition proves the young priest's readiness to bear the mantle of Horde spiritual tradition. In recognition of saving a frontline defender, Tai'jin bestows the Garments of Spirituality. For both orcish allies and Darkspear trolls, these robes signify that the wearer is not merely an apprentice studying incantations, but a reliable lifeline capable of keeping the Horde's warriors alive in battle.",
+   "body": "Healing Kor'ja proves a young priest is ready to serve the Horde's spiritual tradition. Tai'jin awards the Garments of Spirituality for saving a frontline defender. To orcs and Darkspear trolls alike, the robes mark their wearer as more than an apprentice of incantations: they can be trusted to keep Horde warriors alive in battle.",
    "spoiler": 0
   }
  ],
@@ -41,7 +41,7 @@
     "who is korja",
     "injured grunt south"
    ],
-   "answer": "Grunt Kor'ja is a Horde warrior posted just south of Razor Hill. She was wounded in a skirmish against surviving soldiers from Admiral Proudmoore's Kul Tiras expedition who still harass the Durotar coastline."
+   "answer": "Grunt Kor'ja is a Horde warrior posted just south of Razor Hill. She was wounded fighting soldiers who survived Admiral Proudmoore's Kul Tiras expedition and still harass the Durotar coastline."
   },
   {
    "q": "Where can I find Tai'jin?",
@@ -50,7 +50,7 @@
     "who gives garments of spirituality",
     "priest trainer razor hill"
    ],
-   "answer": "Tai'jin is located in Razor Hill in Durotar. She serves as a spiritual mentor and priest trainer for young Horde adventurers leaving the Valley of Trials."
+   "answer": "Tai'jin is in Razor Hill, Durotar. She mentors young Horde priests leaving the Valley of Trials."
   },
   {
    "q": "What powers are required to heal Kor'ja?",
@@ -59,7 +59,7 @@
     "how to complete garments of spirituality",
     "korja spells"
    ],
-   "answer": "Priests must tend to Kor'ja's injuries using Lesser Heal and bolster her endurance with the blessing of Power Word: Fortitude before returning to Tai'jin."
+   "answer": "Use Lesser Heal to tend Kor'ja's injuries, then strengthen her endurance with Power Word: Fortitude before returning to Tai'jin."
   },
   {
    "q": "Why are Kul Tiras soldiers still fighting in Durotar?",
@@ -68,7 +68,7 @@
     "why humans in razor hill",
     "kul tiras remnants"
    ],
-   "answer": "Following Grand Admiral Proudmoore's invasion and defeat, remnants of his fleet dispersed along the eastern coast of Durotar. They continue to mount desperate raids and establish footholds like Tiragarde Keep."
+   "answer": "After Grand Admiral Proudmoore's invasion was defeated, remnants of his fleet scattered along Durotar's eastern coast. They still launch desperate raids and hold places such as Tiragarde Keep."
   },
   {
    "q": "What is the significance of the garments awarded?",
@@ -77,7 +77,7 @@
     "why give a robe",
     "priest vestments razor hill"
    ],
-   "answer": "The robes awarded by Tai'jin mark an initiate's transition into an active healer of the Horde. Surviving this practical test earns the student the right to wear the vestments of their calling."
+   "answer": "The robes Tai'jin awards mark an initiate's passage into active service as a Horde healer. Passing this practical test earns the student the right to wear the vestments of their calling."
   },
   {
    "q": "What quest precedes Garments of Spirituality?",
@@ -86,21 +86,21 @@
     "before garments of spirituality",
     "how to start garments"
    ],
-   "answer": "This trial follows 'In Favor of Spirituality', an introductory quest in which Ken'jai in the Valley of Trials sends a young priest to Tai'jin in Razor Hill."
+   "answer": "The trial follows In Favor of Spirituality. Ken'jai sends a young priest from the Valley of Trials to Tai'jin in Razor Hill."
   }
  ],
  "angles": [
   {
    "target": "class:Priest",
-   "text": "This rite of passage is the defining early test for Horde priests in Durotar, validating their field triage skills and granting their first vestments."
+   "text": "As a priest, you face an early test of field healing in Durotar and earn your first vestments."
   },
   {
    "target": "race:Troll",
-   "text": "Tai'jin's mentorship weaves troll ancestral spirituality into practical battlefield duty, ensuring young Darkspear wield their faith to protect their allies."
+   "text": "As a troll, you learn from Tai'jin to put Darkspear spirituality to work protecting allies in battle."
   },
   {
    "target": "faction:Horde",
-   "text": "Grunt Kor'ja's survival directly bolsters the defense of Razor Hill against lingering Kul Tiras human aggressors entrenched nearby."
+   "text": "As a member of the Horde, you help keep Grunt Kor'ja alive as Razor Hill faces nearby Kul Tiras aggressors."
   }
  ],
  "keywords": [
@@ -122,5 +122,6 @@
  ],
  "attribution": [
   "Garments of Spirituality"
- ]
+ ],
+ "style": 1
 }

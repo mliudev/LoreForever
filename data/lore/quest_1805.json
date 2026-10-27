@@ -17,21 +17,21 @@
   "wiki": "Tome of the Cabal (Horde, 3)",
   "chain": []
  },
- "summary": "This quest marks the final preparatory leg in a Horde warlock's journey to summon and command a felhunter. Having helped Jorah Annison restore the ancient Tome of the Cabal, the practitioner must travel into hostile territory to seize three Rods of Channeling before bringing the components to Strahad Farsan in Ratchet.",
+ "summary": "A warlock's work with the Tome of the Cabal now leads into hostile territory. After helping Jorah Annison restore the tome, you must claim three Rods of Channeling and bring them to Strahad Farsan in Ratchet.",
  "sections": [
   {
    "title": "Secrets of the Reconstructed Tome",
-   "body": "In the Undercity, the Forsaken scholar Jorah Annison examines the fragments of the recovered Tome of the Cabal, piecing together its eldritch passages. While pleased with the rare intellectual bounty, Jorah delivers an urgent directive sent by Strahad Farsan. To bind a demonic predator like a felhunter, raw knowledge is not enough: a warlock must possess precise instruments of power capable of focusing violent demonic energies into a binding circle.",
+   "body": "In the Undercity, Jorah Annison studies the recovered fragments of the Tome of the Cabal. The Forsaken scholar pieces together its eldritch passages and welcomes the rare knowledge they offer. Then Jorah delivers an urgent directive from Strahad Farsan. Knowledge alone cannot bind a felhunter. A warlock needs precise instruments to focus demonic power into a binding circle.",
    "spoiler": 0
   },
   {
    "title": "Venture into the Wetlands",
-   "body": "Strahad requires three Rods of Channeling, specialized conduits carried by the renegade orcs of the Dragonmaw clan. Far from the Horde's heartlands, these Dragonmaw dwell amid the ruins of Angerfang Encampment in the sodden marshes of the Wetlands. Hunting them down demands entering contested lands ruled by hostile clan remnants who despise the modern Horde just as readily as they butcher Alliance explorers.",
+   "body": "Strahad needs three Rods of Channeling, carried by renegade orcs of the Dragonmaw clan. They dwell among the ruins of Angerfang Encampment in the Wetlands, far from Horde lands. You must enter contested territory and face clan remnants who hate the modern Horde as much as they butcher Alliance explorers.",
    "spoiler": 0
   },
   {
    "title": "Return to Ratchet",
-   "body": "With the recovered rods in hand and the Reconstructed Tome secured, the warlock returns across the sea to Strahad Farsan's tower overlooking Ratchet. Strahad greets the returning spellcaster with grim satisfaction. The components for the summoning ritual are assembled, setting the stage for a dangerous test of will against an untamed beast of the Twisting Nether.",
+   "body": "With the rods and the Reconstructed Tome secured, you return across the sea to Strahad Farsan's tower above Ratchet. Strahad greets you with grim satisfaction. The ritual's components are assembled, and a dangerous test of will against a beast from the Twisting Nether lies ahead.",
    "spoiler": 1
   }
  ],
@@ -43,7 +43,7 @@
     "quest purpose",
     "what is tome of the cabal for"
    ],
-   "answer": "It is the third step in the Horde warlock chain to learn how to summon a felhunter. It requires delivering the restored Tome of the Cabal and three Rods of Channeling to Strahad Farsan above Ratchet."
+   "answer": "This is the third step in the Horde warlock chain to learn to summon a felhunter. You deliver the restored Tome of the Cabal and three Rods of Channeling to Strahad Farsan above Ratchet."
   },
   {
    "q": "Who is Jorah Annison?",
@@ -51,7 +51,7 @@
     "who is jorah",
     "jorah annison lore"
    ],
-   "answer": "Jorah Annison is a Forsaken warlock and scholar stationed in the Magic Quarter of the Undercity. He studies esoteric and dark texts, assisting fellow practitioners by piecing together shattered grimoires like the Tome of the Cabal."
+   "answer": "Jorah Annison is a Forsaken warlock and scholar in the Magic Quarter of the Undercity. Jorah studies esoteric and dark texts, helping fellow practitioners piece together shattered grimoires such as the Tome of the Cabal."
   },
   {
    "q": "Why are Rods of Channeling needed?",
@@ -59,7 +59,7 @@
     "why rods of channeling",
     "rods purpose"
    ],
-   "answer": "Summoning and compelling a felhunter requires precise metaphysical control. The rods serve as focusing conduits to stabilize and shape the summoning circle so the warlock can subdue the demon rather than be devoured by it."
+   "answer": "The rods give a warlock precise control when summoning and compelling a felhunter. They focus the ritual, stabilizing and shaping the summoning circle so the warlock can subdue the demon rather than be devoured."
   },
   {
    "q": "Where are the Dragonmaw orcs located for this quest?",
@@ -68,7 +68,7 @@
     "dragonmaw location wetlands",
     "angerfang encampment"
    ],
-   "answer": "The Dragonmaw clan holds the Angerfang Encampment within the Wetlands, an Alliance-dominated territory across the sea in Khaz Modan. Specifically, their bonewarders carry the coveted channeling rods."
+   "answer": "The Dragonmaw clan holds Angerfang Encampment in the Wetlands, across the sea in Khaz Modan. Their bonewarders carry the channeling rods."
   },
   {
    "q": "Who is Strahad Farsan?",
@@ -76,7 +76,7 @@
     "who is strahad",
     "strahad farsan ratchet"
    ],
-   "answer": "Strahad Farsan is an influential human warlock allied with the Horde's dark spellcasters, operating out of a solitary tower on the bluffs overlooking the goblin port of Ratchet in the Barrens."
+   "answer": "Strahad Farsan is a human warlock allied with the Horde's dark spellcasters. He works from a lone tower on the bluffs above Ratchet, the goblin port in the Barrens."
   },
   {
    "q": "What happens after completing this quest?",
@@ -84,25 +84,25 @@
     "what comes next",
     "next quest after tome"
    ],
-   "answer": "Completing this delivery leads directly into 'The Binding', where Strahad instructs the warlock to draw a summoning circle and face a summoned felhunter in magical combat to master the beast."
+   "answer": "Your delivery leads into 'The Binding'. Strahad then instructs you to draw a summoning circle and face a summoned felhunter in magical combat to master the beast."
   }
  ],
  "angles": [
   {
    "target": "class:Warlock",
-   "text": "This trial tests your resolve to secure dangerous ritual reagents from hostile lands, proving you have the knowledge and nerve to bind a predatory felhunter to your service."
+   "text": "As a warlock, you face a trial of resolve: securing dangerous ritual reagents in hostile lands takes the knowledge and nerve to bind a predatory felhunter to your service."
   },
   {
    "target": "faction:Horde",
-   "text": "Dragonmaw renegades in the Wetlands remain bitter enemies of Thrall's Horde, making the violent reclamation of their channeling rods a double victory for Horde interests."
+   "text": "As a member of the Horde, you face Dragonmaw renegades in the Wetlands, bitter enemies of Thrall's Horde. Taking their channeling rods is a victory for Horde interests."
   },
   {
    "target": "race:Orc",
-   "text": "Striking down the rogue Dragonmaw clan members in the Wetlands serves as a harsh reminder of the dark, unrepentant path the Horde fought to leave behind."
+   "text": "As an orc, striking down rogue Dragonmaw in the Wetlands recalls the dark, unrepentant path the Horde fought to leave behind."
   },
   {
    "target": "race:Undead",
-   "text": "Jorah Annison's scholarly work in the Undercity reflects the Forsaken warlock tradition of dissecting forbidden arcane texts for practical arcane supremacy."
+   "text": "As an undead, you can see Jorah Annison's work in the Undercity: Forsaken warlocks study forbidden arcane texts for practical supremacy."
   }
  ],
  "keywords": [
@@ -127,5 +127,6 @@
  ],
  "attribution": [
   "Tome of the Cabal (Horde, 3)"
- ]
+ ],
+ "style": 1
 }

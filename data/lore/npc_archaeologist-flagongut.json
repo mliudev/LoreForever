@@ -8,16 +8,16 @@
   "wiki": "Archaeologist Flagongut",
   "refs": 2
  },
- "summary": "Archaeologist Flagongut is a dwarven scholar representing the Explorers' League, stationed within the Deepwater Tavern at Menethil Harbor. Though originally en route to the local dig at the Whelgar Excavation Site, he becomes an important contact for field reports traveling across the sea from Darkshore.",
+ "summary": "At Menethil Harbor, Archaeologist Flagongut keeps in touch with field researchers across the Great Sea. The dwarven scholar of the Explorers' League is staying at the Deepwater Tavern while bound for the Whelgar Excavation Site.",
  "sections": [
   {
    "title": "A Scholar in Port",
-   "body": "Archaeologist Flagongut can be found resting with a mug in hand at the Deepwater Tavern in Menethil Harbor. Like many members of Ironforge's Explorers' League, he traveled west across Khaz Modan aiming to assist with discoveries near the Whelgar Excavation Site in the Wetlands. Despite being far from the high halls of the library, he maintains vital ties with field researchers, helping process lost relics and reports ferried across the Great Sea from remote expeditions.",
+   "body": "Archaeologist Flagongut rests with a mug at the Deepwater Tavern in Menethil Harbor. Like many members of Ironforge's Explorers' League, he traveled west across Khaz Modan to help with discoveries near the Whelgar Excavation Site in the Wetlands. Though far from the high halls of the library, he keeps ties with field researchers, processing lost relics and reports carried across the Great Sea from distant expeditions.",
    "spoiler": 0
   },
   {
    "title": "Ties to the Field",
-   "body": "Dwarven curiosity is rarely confined to one continent. When the mysterious fossil that the absent-minded Prospector Remtravel unearthed in Darkshore is sent on to him by Chief Archaeologist Greywhisker in Darnassus, Flagongut is amazed: he once brought a fossil much like it to the Explorers' League's annual conference in Ironforge, convinced it held a power that could somehow be unlocked.",
+   "body": "Dwarven curiosity reaches beyond one continent. Chief Archaeologist Greywhisker in Darnassus sends Flagongut the mysterious fossil unearthed in Darkshore by the absent-minded Prospector Remtravel. Flagongut is amazed: he once brought a similar fossil to the Explorers' League's annual conference in Ironforge, convinced it held a power that could somehow be unlocked.",
    "spoiler": 0
   }
  ],
@@ -29,7 +29,7 @@
     "flagongut npc",
     "archaeologist flagongut lore"
    ],
-   "answer": "Flagongut is a dwarven researcher from the Explorers' League. He is stationed in Menethil Harbor's Deepwater Tavern, where he reviews excavation field work and communicates with dig sites."
+   "answer": "Flagongut is a dwarven researcher with the Explorers' League, staying at the Deepwater Tavern in Menethil Harbor. There he reviews excavation reports and keeps in touch with dig sites."
   },
   {
    "q": "Why is Flagongut at the Deepwater Tavern?",
@@ -38,7 +38,7 @@
     "flagongut location",
     "what is flagongut doing here"
    ],
-   "answer": "He originally arrived at Menethil Harbor to reach the Whelgar Excavation Site in the Wetlands. While in port, he uses the tavern as a base to handle mail, incoming artifacts, and correspondence from abroad."
+   "answer": "Flagongut came to Menethil Harbor on his way to the Whelgar Excavation Site in the Wetlands. While in port, he uses the tavern as a base for mail, incoming artifacts, and correspondence from abroad."
   },
   {
    "q": "How is Flagongut connected to Darkshore?",
@@ -46,7 +46,7 @@
     "flagongut darkshore connection",
     "why darkshore quest in wetlands"
    ],
-   "answer": "Prospector Remtravel's mysterious fossil from Darkshore is sent on to Flagongut by Chief Archaeologist Greywhisker in Darnassus, because it closely resembles a fossil Flagongut once brought to an Explorers' League conference. Flagongut believes such fossils hold a power that can be unlocked."
+   "answer": "Chief Archaeologist Greywhisker in Darnassus sends Flagongut Prospector Remtravel's mysterious fossil from Darkshore. It resembles one Flagongut brought to an Explorers' League conference, and he believes such fossils hold a power that can be unlocked."
   },
   {
    "q": "What organization does he belong to?",
@@ -54,17 +54,17 @@
     "flagongut faction",
     "flagongut explorers league"
    ],
-   "answer": "He belongs to the Explorers' League, King Magni Bronzebeard's royal society dedicated to uncovering the ancient origins, relics, and history of the dwarven race across Azeroth."
+   "answer": "Flagongut belongs to the Explorers' League, King Magni Bronzebeard's royal society. It seeks the ancient origins, relics, and history of the dwarven race across Azeroth."
   }
  ],
  "angles": [
   {
    "target": "race:Dwarf",
-   "text": "Flagongut represents the far-reaching ambitions of the Explorers' League, proving that even a tavern by the sea can serve as an outpost for piecing together Titan secrets."
+   "text": "As a dwarf, you can see the Explorers' League's reach in Flagongut's work at a seaside tavern, where he pieces together Titan secrets."
   },
   {
    "target": "faction:Alliance",
-   "text": "Flagongut acts as a logistical bridge between the night elf lands of Darkshore and the eastern Alliance strongholds of Khaz Modan."
+   "text": "As an Alliance member, you can see Flagongut linking the night elf lands of Darkshore with the eastern Alliance strongholds of Khaz Modan."
   }
  ],
  "keywords": [
@@ -87,5 +87,6 @@
  ],
  "attribution": [
   "Archaeologist Flagongut"
- ]
+ ],
+ "style": 1
 }

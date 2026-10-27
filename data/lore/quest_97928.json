@@ -1,0 +1,83 @@
+{
+ "key": "quest:97928",
+ "type": "quest",
+ "name": "Camping 101: Blacksmithing",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   97928
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "You learn to craft a Sharpening Wheel for use in the wilderness. A campfire is needed before you can set up camp.",
+ "sections": [
+  {
+   "title": "Ready to Camp",
+   "body": "You can now craft a Sharpening Wheel. To try it out, head into the wilderness, where camps can be set up away from the center of town. Bring a campfire too; cooks can teach you how to make one.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What can I craft now?",
+   "aliases": [
+    "sharpening wheel",
+    "blacksmithing craft",
+    "what do i make"
+   ],
+   "answer": "You can craft your own Sharpening Wheel."
+  },
+  {
+   "q": "Where can I try the Sharpening Wheel?",
+   "aliases": [
+    "where to test it",
+    "sharpening wheel location",
+    "camping where"
+   ],
+   "answer": "You can test it in the wilderness, where camps can be set up away from the center of town."
+  },
+  {
+   "q": "What do I need before setting up camp?",
+   "aliases": [
+    "campfire needed",
+    "how to start a camp",
+    "camping basics"
+   ],
+   "answer": "You need a campfire before you start your camp."
+  },
+  {
+   "q": "Who can teach me to make a campfire?",
+   "aliases": [
+    "learn campfire",
+    "who teaches fire",
+    "cooking fire"
+   ],
+   "answer": "A cook can teach you to make a campfire."
+  }
+ ],
+ "angles": [
+  {
+   "target": "profession:Blacksmithing",
+   "text": "You can now craft a Sharpening Wheel for use in the wilderness."
+  },
+  {
+   "target": "profession:Cooking",
+   "text": "You can learn to make a campfire from a cook."
+  }
+ ],
+ "keywords": [
+  "blacksmithing",
+  "campfire",
+  "camping",
+  "cook",
+  "sharpening wheel",
+  "wilderness"
+ ],
+ "related": [],
+ "style": 1,
+ "attribution": [
+  "In-game quest text: Camping 101: Blacksmithing"
+ ]
+}

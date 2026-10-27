@@ -228,6 +228,37 @@
       "hasText": true
     },
     {
+      "locale": "roRO",
+      "name": "Română",
+      "englishName": "Romanian",
+      "reviewed": false,
+      "coverage": {
+        "percent": 94.3,
+        "strings": [
+          128017,
+          138082
+        ],
+        "ui": [
+          918,
+          962
+        ],
+        "entries": [
+          4954,
+          4954
+        ]
+      },
+      "kit": "/translate/kits/roRO.zip",
+      "credits": [
+        {
+          "name": "Indurin",
+          "strings": 132460
+        }
+      ],
+      "kitSize": 14049205,
+      "kitSha256": "967a9466a8eed2808b9ee4593e920a23d386126707fd1a5f6ca15d7d983f6194",
+      "hasText": true
+    },
+    {
       "locale": "plPL",
       "name": "Polski",
       "englishName": "Polish",
@@ -259,24 +290,24 @@
       "englishName": "Swedish",
       "reviewed": false,
       "coverage": {
-        "percent": 0.0,
+        "percent": 100.0,
         "strings": [
-          0,
-          138061
+          138083,
+          138083
         ],
         "ui": [
-          0,
-          941
+          963,
+          963
         ],
         "entries": [
-          0,
+          4954,
           4954
         ]
       },
-      "kit": "/translate/kits/new.zip",
-      "kitSize": 6943814,
-      "kitSha256": "de49c33c95f930598e415007c86bd24612b153eb797b8eb37cc9ac630ecb1556",
-      "hasText": false
+      "kit": "/translate/kits/svSE.zip",
+      "kitSize": 13253345,
+      "kitSha256": "7d4759943f21378ddf20213c11f09581af112f7ebc32022efd98ef77fc17fb52",
+      "hasText": true
     },
     {
       "locale": "daDK",

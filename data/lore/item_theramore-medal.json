@@ -10,16 +10,16 @@
    "quest:891"
   ]
  },
- "summary": "A Theramore Medal is a military insignia carried by the Alliance garrison stationed at Northwatch Hold. Emblazoned with the mark of Theramore, these tokens serve as identifying proof of service among the marines and officers defending the outpost along the Merchant Coast.",
+ "summary": "At Northwatch Hold, Theramore Medal marks service among the marines and officers defending the outpost along the Merchant Coast. The insignia bears Theramore’s mark and identifies the Alliance garrison.",
  "sections": [
   {
    "title": "Tokens of Northwatch",
-   "body": "Carried by marines, marksmen, commandos, and officers serving out of Northwatch Hold, these stamped medals signify military allegiance to Lady Jaina Proudmoore's realm of Theramore. To the human soldiers perched on the cliffs overlooking the Barrens, they represent legitimate service and sovereign authority in a hostile frontier. To outsiders, however, the medals are trophies of an overzealous foreign garrison that treats every approaching vessel along the coast as a mortal threat.",
+   "body": "Marines, marksmen, commandos, and officers serving from Northwatch Hold carry stamped medals bearing Theramore’s mark. The soldiers are loyal to Lady Jaina Proudmoore’s realm. For the human troops on the cliffs above the Barrens, the medals show that their service is legitimate and their authority comes from Theramore. Others see the tokens as trophies from an overzealous foreign garrison, one that treats every vessel approaching the coast as a mortal threat.",
    "spoiler": 0
   },
   {
    "title": "Pirate Vengeance",
-   "body": "Northwatch Hold's gun batteries pose a deadly hazard to maritime traffic navigating the Merchant Coast, frequently bombarding privateers and merchantmen alike. In response to lost vessels, Ratchet privateer Captain Thalo'thas Brightsun seeks these medals as proof that Northwatch's trigger-happy ranks have paid in blood for sinking his ships.",
+   "body": "Northwatch Hold’s gun batteries menace ships along the Merchant Coast, often bombarding privateers and merchantmen alike. After losing ships to the guns, Ratchet privateer Captain Thalo'thas Brightsun seeks the medals. He wants proof that Northwatch’s trigger-happy ranks have paid in blood for sinking his ships, and that the soldiers responsible have been slain in retribution.",
    "spoiler": 0
   }
  ],
@@ -31,7 +31,7 @@
     "what are theramore medals",
     "northwatch medal"
    ],
-   "answer": "It is an insignia carried by Theramore military personnel deployed at Northwatch Hold. It identifies the bearer as an active marine, sailor, or officer serving the Alliance garrison in the Barrens."
+   "answer": "A Theramore Medal is an insignia carried by Theramore military personnel serving at Northwatch Hold. It identifies the bearer as an active marine, sailor, or officer in the Alliance garrison in the Barrens."
   },
   {
    "q": "Who carries these medals?",
@@ -40,7 +40,7 @@
     "who drops theramore medals",
     "where do theramore medals come from"
    ],
-   "answer": "They are carried by the soldiers of Northwatch Hold along the Merchant Coast, including marines, sharpshooters, deck hands, commandos, and the garrison's senior cannoneers and officers."
+   "answer": "Marines, sharpshooters, deck hands, commandos, senior cannoneers, and officers serving at Northwatch Hold carry these medals along the Merchant Coast."
   },
   {
    "q": "Why does Captain Thalo'thas Brightsun want them?",
@@ -49,7 +49,7 @@
     "brightsun medals",
     "why collect theramore medals"
    ],
-   "answer": "Northwatch Hold's artillery batteries have been bombarding passing ships, including vessels belonging to Captain Brightsun's fleet. He demands the medals as undeniable proof that the soldiers responsible have been slain in retribution."
+   "answer": "Northwatch Hold’s artillery has bombarded passing ships, including vessels belonging to Captain Thalo'thas Brightsun’s fleet. He demands the medals as proof that the soldiers responsible have been slain in retribution."
   },
   {
    "q": "Why is Northwatch Hold attacking passing ships?",
@@ -58,17 +58,17 @@
     "northwatch aggression",
     "why does northwatch attack ratchet"
    ],
-   "answer": "The garrison at Northwatch operates in a state of heightened paranoia on the edge of Horde territory. Their cannoneers have grown reckless and trigger-happy, firing on nearly any vessel that approaches their coastal enclave."
+   "answer": "Northwatch Hold’s garrison is paranoid on the edge of Horde territory. Its cannoneers have grown reckless and trigger-happy, firing on nearly any vessel that approaches their coastal enclave."
   }
  ],
  "angles": [
   {
    "target": "faction:Alliance",
-   "text": "For Alliance loyalists, seeing medals of Theramore collected as blood bounties is a harsh reminder of how isolated and aggressive Northwatch Hold has become on Kalimdor's frontier."
+   "text": "For Alliance loyalists, medals of Theramore gathered as blood bounties show how isolated and aggressive Northwatch Hold has become on Kalimdor’s frontier."
   },
   {
    "target": "faction:Horde",
-   "text": "Horde adventurers see these medals as physical proof of the growing Alliance military presence encroaching directly onto the shores of the Barrens."
+   "text": "For Horde adventurers, these medals are proof of the growing Alliance military presence on the shores of the Barrens."
   }
  ],
  "keywords": [
@@ -91,5 +91,6 @@
  "attribution": [
   "Theramore Medal",
   "The Guns of Northwatch (Classic)"
- ]
+ ],
+ "style": 1
 }

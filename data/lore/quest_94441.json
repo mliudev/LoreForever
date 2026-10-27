@@ -1,0 +1,85 @@
+{
+ "key": "quest:94441",
+ "type": "quest",
+ "name": "A Lesson in Divinity",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   94441
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "A fellow Forsaken asks you to thank Danitha Morr for the service performed by the <class>s of Bandarion Keep. Your work has earned the Deathguard\u2019s gratitude and brings you a gift of redemption.",
+ "sections": [
+  {
+   "title": "Thanks at the Keep",
+   "body": "A fellow Forsaken asks you to carry their thanks to Danitha Morr at Bandarion Keep. The rest of the Deathguard will hear about the service you and the other <class>s performed. They are proud to count you among the Forsaken and trust that the Dark Lady watches over you.",
+   "spoiler": 0
+  },
+  {
+   "title": "A Gift of Light",
+   "body": "Danitha says the Symbol of Life can be used by a <class> ready to receive one of the Light\u2019s greatest blessings. She bestows the gift of redemption, which lets you resurrect fallen companions. Your service matters to both the Forsaken and the <class>s of Bandarion Keep, and the Deathguard hopes such acts will win the hearts and minds of fellow Forsaken.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who do I thank?",
+   "aliases": [
+    "who is Danitha",
+    "thank Danitha",
+    "Danitha Morr"
+   ],
+   "answer": "You are asked to thank Danitha Morr at Bandarion Keep for the service performed by the <class>s there."
+  },
+  {
+   "q": "Who will hear about the service?",
+   "aliases": [
+    "Deathguard thanks",
+    "who gets told",
+    "keep service"
+   ],
+   "answer": "The rest of the Deathguard will hear about the service performed by the <class>s of Bandarion Keep."
+  },
+  {
+   "q": "What does the Symbol of Life do?",
+   "aliases": [
+    "Symbol of Life",
+    "life symbol",
+    "what does it do"
+   ],
+   "answer": "The Symbol of Life is for a <class> ready to make use of one of the Light\u2019s greatest blessings."
+  },
+  {
+   "q": "Why is the Deathguard proud of me?",
+   "aliases": [
+    "Forsaken proud",
+    "why proud",
+    "Deathguard proud"
+   ],
+   "answer": "They are proud to count you among the Forsaken and value the service you performed with the <class>s of Bandarion Keep."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "a lesson in divinity",
+  "bandarion keep",
+  "danitha morr",
+  "deathguard",
+  "forsaken",
+  "light",
+  "redemption",
+  "symbol of life"
+ ],
+ "related": [
+  "subzone:bandarion-keep",
+  "topic:light",
+  "topic:forsaken"
+ ],
+ "style": 1,
+ "attribution": [
+  "In-game quest text: A Lesson in Divinity"
+ ]
+}

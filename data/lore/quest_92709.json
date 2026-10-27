@@ -1,0 +1,94 @@
+{
+ "key": "quest:92709",
+ "type": "quest",
+ "name": "A Grand Adventure",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   92709
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "Elaadrin Evengale asks you to hear the High Order\u2019s plans in Valanaar. Rediscovering ancient magic is tied to Zephras Isle\u2019s future.",
+ "sections": [
+  {
+   "title": "A Lost Heritage",
+   "body": "Elaadrin speaks of your Highborne lineage and the young people who may help save their home. The High Order seeks to recover the ancient magic of its forebears and what has been lost over many millennia.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Way Ahead",
+   "body": "Elaadrin says Azeroth is key to the search, and that the Kirin Tor will show the High Order the way. While its members prepare to leave, you can speak with the others in Valanaar, many of whom need help with their work.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is asking me to listen?",
+   "aliases": [
+    "who is Elaadrin",
+    "Elaadrin Evengale",
+    "who wants to talk"
+   ],
+   "answer": "Elaadrin Evengale in Valanaar asks you to hear the High Order\u2019s plans."
+  },
+  {
+   "q": "What is the High Order trying to rediscover?",
+   "aliases": [
+    "what are they looking for",
+    "ancient magic",
+    "high order plans"
+   ],
+   "answer": "The High Order seeks to recover the ancient magic of its forebears and what has been lost over many millennia."
+  },
+  {
+   "q": "Why does the High Order seek ancient magic?",
+   "aliases": [
+    "why ancient magic",
+    "save Zephras",
+    "isle future"
+   ],
+   "answer": "Elaadrin says rediscovering ancient magic is key to unlocking Zephras Isle\u2019s secrets and securing its future."
+  },
+  {
+   "q": "Who will show them the way?",
+   "aliases": [
+    "Kirin Tor",
+    "who guides them",
+    "azeroth plan"
+   ],
+   "answer": "Elaadrin says the Kirin Tor will show the High Order the way."
+  },
+  {
+   "q": "What can I do while they prepare to leave?",
+   "aliases": [
+    "help in Valanaar",
+    "other High Order members",
+    "what next"
+   ],
+   "answer": "You can check in with the other members of the High Order in Valanaar; most have work that could use your help."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "a grand adventure",
+  "ancient magic",
+  "elaadrin evengale",
+  "high order",
+  "highborne",
+  "kirin tor",
+  "valanaar",
+  "zephras isle"
+ ],
+ "related": [
+  "zone:zephras",
+  "topic:highborne",
+  "quest:92596"
+ ],
+ "style": 1,
+ "attribution": [
+  "In-game quest text: A Grand Adventure"
+ ]
+}

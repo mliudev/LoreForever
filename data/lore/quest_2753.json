@@ -22,16 +22,16 @@
    "Horns of Frenzy"
   ]
  },
- "summary": "Trampled Under Foot is an advanced blacksmithing trial assigned by Orokk Omosh in the Valley of Honor in Orgrimmar. By forging an array of green iron armor pieces, smiths prove their endurance and master the craft of heavy iron boots. Completion of the task earns the secret techniques passed down through the Omosh bloodline.",
+ "summary": "In Orgrimmar's Valley of Honor, Orokk Omosh puts smiths through an advanced blacksmithing trial. Forging green iron armor tests their endurance and teaches them to make heavy iron boots, with the Omosh bloodline's secret techniques at stake.",
  "sections": [
   {
    "title": "The Trials of Omosh",
-   "body": "Orokk Omosh trains armorsmiths in Orgrimmar with relentless, physical demands. To Orokk, metalworking is not merely heating ore and hammering shapes; it is an endurance test designed to honor his ancestral clan. Trampled Under Foot represents the third trial in his rigorous chain of tasks, demanding repeated crafting of tempered green iron armor to forge muscle and discipline in the artisan.",
+   "body": "Orokk Omosh trains armorsmiths in Orgrimmar through hard physical trials. He sees metalworking as more than heating ore and shaping it; the work honors his ancestral clan and tests a smith's endurance. This is the third trial in his chain, and repeated crafting of tempered green iron armor is meant to build muscle and discipline.",
    "spoiler": 0
   },
   {
    "title": "Legacy of Chief Gorokk",
-   "body": "Smiths who deliver the requested suits of green iron gear earn rare praise from the gruff armorsmith. Orokk likens an artisan who survives this grueling workload to his grandfather, Chief Gorokk of Omosh. In exchange for the crafted armor, Orokk imparts the ancestral design for sturdy iron boots\u2014footwear intended to ensure Horde warriors crush their enemies beneath their heel.",
+   "body": "Smiths who bring Orokk the requested green iron gear earn rare praise from the gruff armorsmith. He compares an artisan who endures the work to his grandfather, Chief Gorokk of Omosh. In exchange for the armor, Orokk teaches the ancestral design for sturdy iron boots, made so Horde warriors can crush their enemies beneath their heels.",
    "spoiler": 0
   }
  ],
@@ -43,7 +43,7 @@
     "who gives trampled under foot",
     "orokk omosh location"
    ],
-   "answer": "The quest is given by Orokk Omosh, an orc armorsmith located in the Valley of Honor within Orgrimmar."
+   "answer": "Orokk Omosh, an orc armorsmith in Orgrimmar's Valley of Honor, offers the trial."
   },
   {
    "q": "What does Orokk Omosh require for this trial?",
@@ -52,7 +52,7 @@
     "what items needed",
     "materials needed"
    ],
-   "answer": "Orokk requires four Green Iron Helms, four Green Iron Bracers, and two Green Iron Leggings, proving the smith's mastery over green iron craftsmanship."
+   "answer": "Orokk requires four Green Iron Helms, four Green Iron Bracers, and two Green Iron Leggings. These pieces test and prove the smith's mastery of green iron craftsmanship."
   },
   {
    "q": "What is the lore behind the Omosh training chain?",
@@ -60,7 +60,7 @@
     "why does orokk make you craft armor",
     "omosh clan lore"
    ],
-   "answer": "Orokk Omosh tests young smiths through punishing physical labor to uphold the martial heritage of his ancestors. He believes that grueling armorsmithing builds the strength necessary to create gear that withstands brutal warfare."
+   "answer": "Orokk Omosh puts young smiths through punishing physical labor to uphold his ancestors' martial heritage. He believes grueling armorsmithing builds the strength to make gear that can withstand brutal warfare."
   },
   {
    "q": "Who is Chief Gorokk of Omosh?",
@@ -68,7 +68,7 @@
     "chief gorokk",
     "orokk grandfather"
    ],
-   "answer": "Chief Gorokk of Omosh is the grandfather of Orokk Omosh. Orokk holds his grandfather's martial prowess in high esteem, comparing any smith who endures his heavy ironwork trials to the legendary chieftain."
+   "answer": "Chief Gorokk of Omosh is Orokk Omosh's grandfather. Orokk honors his grandfather's martial prowess and compares smiths who endure his heavy ironwork trials to the chieftain."
   },
   {
    "q": "What quest precedes Trampled Under Foot?",
@@ -76,7 +76,7 @@
     "prerequisite quest",
     "previous quest in chain"
    ],
-   "answer": "Trampled Under Foot directly follows the quest On Iron Pauldrons, continuing Orokk's multi-part series of armorsmithing challenges."
+   "answer": "On Iron Pauldrons comes before this trial in Orokk's series of armorsmithing challenges."
   },
   {
    "q": "What is the next quest after completing Trampled Under Foot?",
@@ -84,17 +84,17 @@
     "next quest",
     "what comes after trampled under foot"
    ],
-   "answer": "Upon completing this task, Orokk Omosh offers Horns of Frenzy, the next of his two remaining lessons before the series ends with Joys of Omosh."
+   "answer": "After this trial, Orokk Omosh offers Horns of Frenzy. Joys of Omosh ends the series after the two remaining lessons."
   }
  ],
  "angles": [
   {
    "target": "profession:Blacksmithing",
-   "text": "This quest represents a key milestone for aspiring armorsmiths in the Horde, requiring extensive iron smelting and green dye preparation to unlock exclusive boot plans."
+   "text": "For a Horde armorsmith, this trial is a major step. It calls for extensive iron smelting and green dye preparation to earn exclusive boot plans."
   },
   {
    "target": "faction:Horde",
-   "text": "Orokk's lessons supply durable iron armor patterns tailored to the brutal combat doctrine favored across Horde warfronts."
+   "text": "Orokk's lessons teach durable iron armor patterns shaped for the brutal fighting favored across Horde warfronts."
   }
  ],
  "keywords": [
@@ -114,5 +114,6 @@
  ],
  "attribution": [
   "Trampled Under Foot"
- ]
+ ],
+ "style": 1
 }

@@ -8,16 +8,16 @@
   "wiki": "Dazalar",
   "refs": 4
  },
- "summary": "Dazalar is a night elf hunter trainer stationed in Dolanaar within Teldrassil. He guides fledgling sentinels and scouts as they hone their marksmanship and learn the sacred art of bonding with the wild beasts of the great boughs.",
+ "summary": "In Dolanaar, Dazalar trains young night elf hunters for the wilds of Teldrassil. He teaches them to aim true and form bonds with the beasts of the great boughs.",
  "sections": [
   {
    "title": "The Dolanaar Encampment",
-   "body": "Standing within the settlement of Dolanaar, Dazalar serves as a primary mentor for young hunters venturing beyond the sheltered glade of Shadowglen. Night elf society relies heavily on its rangers and sentinels to patrol the wilderness, and Dazalar ensures newcomers possess the discipline and patience necessary to protect Teldrassil's fragile ecosystem.",
+   "body": "Dazalar trains young hunters in Dolanaar before they venture beyond Shadowglen. Night elf rangers and sentinels patrol the wilderness, and he teaches newcomers the patience and discipline needed to protect Teldrassil's fragile ecosystem.",
    "spoiler": 0
   },
   {
    "title": "Bonding with the Wild",
-   "body": "A critical rite of passage under Dazalar's guidance is learning to tame and care for beasts. Rather than bending creatures to a hunter's whim through sheer force, the Kaldorei way emphasizes forming a mutual pact with forest predators like nightsabers, owls, and strigid hunters, training them to fight alongside their masters with respect.",
+   "body": "Dazalar teaches hunters to tame and care for beasts. The Kaldorei seek a pact with forest predators such as nightsabers, owls, and strigid hunters, training them to fight beside their companions with respect rather than force.",
    "spoiler": 0
   }
  ],
@@ -29,7 +29,7 @@
     "dazalar lore",
     "dazalar identity"
    ],
-   "answer": "Dazalar is a night elf hunter trainer located in the village of Dolanaar in Teldrassil. He teaches novice hunters new combat abilities and guides them in the ways of taming wild beasts."
+   "answer": "Dazalar trains night elf hunters in Dolanaar, teaching them combat skills and how to tame wild beasts."
   },
   {
    "q": "Where can I find Dazalar?",
@@ -38,7 +38,7 @@
     "where is dazalar",
     "dolanaar hunter trainer"
    ],
-   "answer": "He is stationed outdoors in Dolanaar, the central hub of Teldrassil that adventurers reach shortly after leaving the starting grounds of Shadowglen."
+   "answer": "You can find Dazalar outdoors in Dolanaar, Teldrassil's central hub, shortly after leaving Shadowglen."
   },
   {
    "q": "What training does Dazalar provide?",
@@ -47,7 +47,7 @@
     "dazalar skills",
     "hunter training dazalar"
    ],
-   "answer": "Dazalar teaches various ranged attacks, traps, and survival techniques suitable for developing hunters, and he sends novices on trials to master the taming of wilderness animals."
+   "answer": "Dazalar teaches ranged attacks, traps, and survival skills. He also guides novice hunters through trials to master taming wilderness animals."
   },
   {
    "q": "Does Dazalar offer any special quests?",
@@ -56,7 +56,7 @@
     "hunter quests dolanaar",
     "taming the beast quest"
    ],
-   "answer": "Yes, Dazalar offers pivotal hunter training quests, including The Hunter's Path, the multi-part trial Taming the Beast, and Training the Beast, which teach young hunters how to bond with and maintain animal companions."
+   "answer": "Yes. Dazalar offers hunter training that includes The Hunter's Path, the multi-part trial Taming the Beast, and Training the Beast. These teach young hunters to bond with and care for animal companions."
   },
   {
    "q": "Why do night elves rely so heavily on hunters?",
@@ -65,7 +65,7 @@
     "why sentinels use hunters",
     "kaldorei hunters"
    ],
-   "answer": "For millennia, the Kaldorei have lived in harmony with the ancient forests of Kalimdor. Archers and scouts form the backbone of the Sentinel army, utilizing stealth, marksmanship, and animal allies to safeguard their lands without disrupting nature."
+   "answer": "Night elves have lived in harmony with Kalimdor's ancient forests for millennia. Archers and scouts form the backbone of the Sentinel army, using stealth, marksmanship, and animal allies to protect their lands without disrupting nature."
   },
   {
    "q": "What kind of beasts does Dazalar send hunters to tame?",
@@ -74,17 +74,17 @@
     "dolanaar taming trial",
     "tame beasts teldrassil"
    ],
-   "answer": "He directs hunters to track down native Teldrassil fauna, including local spiders, nightsabers, and birds of prey, testing the hunter's ability to approach and calm wild predators."
+   "answer": "Dazalar directs hunters to find native Teldrassil beasts, including local spiders, nightsabers, and birds of prey. The trials test their ability to approach and calm wild predators."
   }
  ],
  "angles": [
   {
    "target": "class:Hunter",
-   "text": "Dazalar is one of the earliest mentors a night elf hunter encounters, guiding them through the foundational trials of beast mastery and pet training."
+   "text": "As a hunter, Dazalar guides you through the first trials of beast mastery and caring for an animal companion."
   },
   {
    "target": "race:NightElf",
-   "text": "He upholds the traditions of the Kaldorei sentinels and scouts, teaching young night elves how to live in balance with nature's fierce predators."
+   "text": "As a night elf, you learn the traditions of the Kaldorei sentinels and scouts, and how to live in balance with nature's fierce predators."
   }
  ],
  "keywords": [
@@ -108,5 +108,6 @@
  ],
  "attribution": [
   "Dazalar"
- ]
+ ],
+ "style": 1
 }

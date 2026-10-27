@@ -131,23 +131,97 @@ export function stockOf(raw) {
 // - what they wore, when the question is about gear, stats, their damage, tanking or healing, or being ready for a
 //   dungeon or raid;
 // - what's in their bags: the items the question names, or (asked about their bags) the first BAG_LINE kinds.
+// reads (LOR-844 step 5, DeepSeek with her read tools, readTools): the talents taken, their gear and the whole of their
+// bags wait for her call instead of these words (the lab, 10/26: the words put gear or talents in ~17% of answers that
+// never used them, and she called for them where they were needed, 49 of 50 with none where they weren't).
 const CONTEXT = /((?:^|\n)PLAYER CONTEXT\n)([\s\S]*?)(?=\n\n|$)/;
 const SLOTS = [null, "head", "neck", "shoulders", "shirt", "chest", "waist", "legs", "feet", "wrists", "hands", "finger",
   "finger", "trinket", "trinket", "back", "main hand", "off hand", "ranged", "tabard"];
 const GEAR_ASKED = /\b(?:gear|equip\w*|wear\w*|upgrades?|armou?r|weapons?|swords?|axes?|maces?|daggers?|sta(?:ff|ves)|bows?|guns?|wands?|shields?|trinkets?|rings?|neck\w*|cloaks?|helms?|chest|legs|boots|gloves|bracers|belts?|stats?|strength|agility|stamina|intellect|spirit|dps|damage|tank\w*|heal\w*|ready|prepared?|prep|dungeons?|raids?|instances?|bis|enchant\w*|runes?)\b/i;
 const TALENTS_ASKED = /\b(?:talents?|spec\w*|builds?|respec\w*|points?|trees?|rotation)\b/i;
 const BAGS_ASKED = /\b(?:bags?|inventory|carry\w*|backpack)\b/i;
-// "What should I do next?", "plan my evening": where their talents count too.
-const PLAN_ASKED = /\b(?:what (?:should|can|do) i do|what next|next step|plan\w*|goals?|focus)\b/i;
+// With reads, a question plainly about their own things still gets its line, with no call (the Architect, 10/26: about
+// 0.59 s instead of 0.92 s, and "should I swap my helm…" missed its read).
+const MY = String.raw`\b(?:my|mine)\s+(?:current\s+|own\s+|old\s+|new\s+)?`;
+const MY_GEAR = new RegExp(MY + String.raw`(?:gear|equipment|armou?r|weapons?|helm|head|neck\w*|shoulders?|chest|robe|waist|` +
+  String.raw`belt|legs|pants|feet|boots|wrists?|bracers|hands|gloves|rings?|trinkets?|cloak|back|main ?hand|off ?hand|ranged|` +
+  String.raw`bow|gun|wand|staff|sword|axe|mace|dagger|shield)\b(?!\s+(?:rogue|warrior|paladin|hunter|shaman|spec|build)s?\b)|` +
+  String.raw`\bam i (?:wearing|using|wielding)\b|\bitems of mine\b`, "i");
+const MY_BAGS = new RegExp(MY + String.raw`(?:bags?|inventory|backpack)\b|\bdo i (?:still )?have\b|\bam i carrying\b|\bhave i got\b`, "i");
+const MY_TALENTS = new RegExp(MY + String.raw`(?:talents?|talent points?|build|spec|tree|points?)\b|\bwhat spec am i\b`, "i");
 const BAG_LINE = 40;
 const wordsOf = text => new Set(String(text).toLowerCase().match(/[a-z']{4,}/g)?.map(w => w.replace(/(?:es|s)$/, "")) || []);
-export function withSave(prompt, stock, question = "", now = new Date()) {
+// Gear and bags by item ID in English: the save names them in the client's language (the Software Architect, 10/25:
+// a German save's "Leinenstoff" is the Linen Cloth she's asked about).
+const english = (id, saved) => itemNames()[id] || saved;
+const wornOf = stock => Object.entries(stock?.gear || {}).map(([slot, [id, name, rune]]) => [slot, english(id, name), rune])
+  .filter(([, name]) => name);
+const carriedOf = stock => Object.entries(stock?.bags || {}).map(([id, [count, name]]) => [count, english(id, name)])
+  .filter(([, name]) => name);
+const takenOf = stock => (stock?.talents || []).filter(t => Object.keys(t.ranks || {}).length);
+const takenLine = stock => takenOf(stock).map(t => `${t.name}: ` + Object.entries(t.ranks).map(([name, r]) => `${name} ${r}`)
+  .join(", ")).join("; ");
+const wornLine = worn => worn.map(([slot, name, rune]) => `${SLOTS[slot]} ${name}` + (rune ? ` (rune: ${rune})` : "")).join("; ");
+const bagsLine = (carried, bags, all) => bags.map(([count, name]) => `${count} ${name}`).join(", ") +
+  (all && bags.length < carried.length ? ` and ${carried.length - bags.length} more kinds` : "");
+const whenOf = (stock, now) => {
+  const age = stock?.t ? now.getTime() / 1000 - stock.t : null;
+  return `as of the game's last save` + (age !== null && age >= 0 ? ` (${ago(age)}, at login or a /reload)` : "");
+};
+
+// Her read tools for what withSave leaves out with reads, each only when the save has it.
+export const READ_TOOLS = ["get_gear", "get_bags", "get_talents"];
+const readTool = (name, description) => ({ name, description, parameters: { type: "object", properties: {} } });
+export function readTools(stock) {
+  return [
+    wornOf(stock).length && readTool("get_gear", "What they're wearing and wielding now, slot by slot, from the game's " +
+      "last save. Only when your answer depends on their own equipment: an upgrade, their damage or armor, whether " +
+      "they're ready for a dungeon. Never for gear in general or what a boss drops."),
+    carriedOf(stock).length && readTool("get_bags", "What's in their bags now, from the game's last save. Only when your " +
+      "answer depends on what they carry: whether they have an item, what to sell, what they can make. Never for where " +
+      "to buy bags or what an item is."),
+    takenOf(stock).length && readTool("get_talents", "The talents they've taken, tree by tree (their points per tree " +
+      "are in PLAYER CONTEXT). Only when your answer depends on which talents they picked: their next point, their " +
+      "build, a respec."),
+  ].filter(Boolean);
+}
+// What one of them reads, for her prompt before she answers, or null for any other call.
+export function readOf(call, stock, now = new Date()) {
+  const when = whenOf(stock, now);
+  if (call?.name === "get_gear" && wornOf(stock).length) return `THEIR GEAR, ${when}: ${wornLine(wornOf(stock))}`;
+  if (call?.name === "get_bags" && carriedOf(stock).length) {
+    const carried = carriedOf(stock);
+    return `THEIR BAGS, ${when}: ${bagsLine(carried, carried.slice(0, BAG_LINE), true)}`;
+  }
+  if (call?.name === "get_talents" && takenOf(stock).length) return `THEIR TALENTS TAKEN, ${when}: ${takenLine(stock)}`;
+  return null;
+}
+export const READ_RULE = "THEIR CHARACTER: their gear, bags and talents taken aren't above. When your answer depends " +
+  "on one of them, call its tool first; otherwise answer in plain words.";
+
+export function withSave(prompt, stock, question = "", now = new Date(), { reads = false } = {}) {
   const text = String(prompt || ""), context = CONTEXT.exec(text)?.[2];
   if (!stock || context === undefined) return text;
-  const have = stock.skills && !/^(?:their )?professions\b/im.test(context) ? PROFESSIONS.map(p => [p,
+  const saved = savedOf(context, stock, question, now, { reads });
+  if (!saved) return text;
+  return text.replace(CONTEXT, (_, head, old) => head + (old.trim() === "(none)" ? saved : `${old}\n${saved}`));
+}
+// A prompt withSave told, as it would be with reads: on DeepSeek with her read tools, once the rest of the prompt is
+// built. Unchanged when it doesn't carry what withSave wrote.
+export function withReads(prompt, stock, question = "", now = new Date()) {
+  const text = String(prompt || ""), context = CONTEXT.exec(text)?.[2];
+  if (!stock || context === undefined) return text;
+  const told = savedOf(context, stock, question, now), lean = savedOf(context, stock, question, now, { reads: true });
+  if (!told || told === lean || !text.includes(told)) return text;
+  if (lean) return text.replace(told, () => lean);
+  return text.includes(`\n${told}`) ? text.replace(`\n${told}`, "") : text.replace(told, "(none)");
+}
+function savedOf(context, stock, question, now, { reads = false } = {}) {
+  // The prompt's own lines, not what withSave added to them already (withReads reads it after).
+  const own = context.replace(/(?:^|\n)their character as of[\s\S]*$/, "");
+  const have = stock.skills && !/^(?:their )?professions\b/im.test(own) ? PROFESSIONS.map(p => [p,
     Object.entries(stock.skills).find(([n]) => n.toLowerCase() === p.toLowerCase())?.[1]]).filter(([, v]) => v) : [];
-  const age = stock.t ? now.getTime() / 1000 - stock.t : null;
-  const when = `as of the game's last save` + (age !== null && age >= 0 ? ` (${ago(age)}, at login or a /reload)` : "");
+  const when = whenOf(stock, now);
   const lines = [];
   // Each with the rank its cap is (212 of 225, Expert) and whether it's at that cap, and the two main ones said as
   // the most anyone can have (the K1 check, 10/25: "learn Tailoring" to one with Herbalism and Skinning, 2 of 2).
@@ -159,31 +233,21 @@ export function withSave(prompt, stock, question = "", now = new Date()) {
   if (have.length) lines.push(`their professions: ` + have.map(said).join(", ") + (main.length === 2 ? `; ${main
     .map(([p]) => p).join(" and ")} are their two main professions, the most a character can have` : ""));
   const asked = String(question || "");
-  if (stock.talents?.some(t => t.points) && [TALENTS_ASKED, GEAR_ASKED, PLAN_ASKED].some(re => re.test(asked))) {
+  // Points on every answer, a line of their profile (LOR-844 step 5: "should I go dungeons now?" needs the spec too).
+  if (stock.talents?.some(t => t.points)) {
     lines.push(`their talent points: ${stock.talents.map(t => `${t.name} ${t.points}`).join(", ")}` +
-      (TALENTS_ASKED.test(asked) ? `; taken: ${stock.talents.filter(t => Object.keys(t.ranks).length).map(t => `${t.name}: ` +
-        Object.entries(t.ranks).map(([name, r]) => `${name} ${r}`).join(", ")).join("; ")}` : ""));
+      ((reads ? MY_TALENTS : TALENTS_ASKED).test(asked) && takenOf(stock).length ? `; taken: ${takenLine(stock)}` : ""));
   }
-  // Gear and bags by item ID in English: the save names them in the client's language (the Software Architect, 10/25:
-  // a German save's "Leinenstoff" is the Linen Cloth she's asked about).
-  const english = (id, saved) => itemNames()[id] || saved;
-  const worn = Object.entries(stock.gear || {}).map(([slot, [id, name, rune]]) => [slot, english(id, name), rune])
-    .filter(([, name]) => name);
-  if (worn.length && GEAR_ASKED.test(asked)) {
-    lines.push(`what they wore: ` + worn.map(([slot, name, rune]) => `${SLOTS[slot]} ${name}` +
-      (rune ? ` (rune: ${rune})` : "")).join("; "));
-  }
-  const carried = Object.entries(stock.bags || {}).map(([id, [count, name]]) => [count, english(id, name)])
-    .filter(([, name]) => name);
+  const worn = wornOf(stock);
+  if (worn.length && (reads ? MY_GEAR : GEAR_ASKED).test(asked)) lines.push(`what they wore: ` + wornLine(worn));
+  // With reads, still the items the question names: no call for "do I have linen cloth?".
+  const carried = carriedOf(stock);
   if (carried.length) {
-    const named = wordsOf(asked), all = BAGS_ASKED.test(asked);
+    const named = wordsOf(asked), all = (reads ? MY_BAGS : BAGS_ASKED).test(asked);
     const bags = all ? carried.slice(0, BAG_LINE) : carried.filter(([, name]) => [...wordsOf(name)].some(w => named.has(w)));
-    if (bags.length) lines.push(`in their bags: ${bags.map(([count, name]) => `${count} ${name}`).join(", ")}` +
-      (all && bags.length < carried.length ? ` and ${carried.length - bags.length} more kinds` : ""));
+    if (bags.length) lines.push(`in their bags: ${bagsLine(carried, bags, all)}`);
   }
-  if (!lines.length) return text;
-  const saved = `their character ${when}:\n` + lines.join("\n");
-  return text.replace(CONTEXT, (_, head, old) => head + (old.trim() === "(none)" ? saved : `${old}\n${saved}`));
+  return lines.length ? `their character ${when}:\n` + lines.join("\n") : "";
 }
 
 // Their level with the bar's fraction (36.6), from the save, or the live level when it's newer (Live game info).
@@ -301,7 +365,9 @@ export function askedGoal(question) {
   // Onyxia attunement"): kept in their words.
   if ((m = /\b(?:my\s+(?:next\s+|new\s+|big\s+|main\s+)?goal\s+(?:is|will\s+be)|(?:new|set\s+a)\s+goal\s*:?|goal\s*:)\s+(?:to\s+(?:get|earn|buy|finish|have|do|reach)\s+)?(?:the\s+|my\s+|a\s+|an\s+)?([^.?!]{3,60})/i.exec(q))) {
     const text = cleanItem(m[1].replace(/\s+(?:please|for me|by\s+\w+)$/i, ""), 60);
-    if (text) return { kind: "other", text: text.charAt(0).toUpperCase() + text.slice(1) };
+    // A wish with nothing to reach ("my goal is to have fun") is no goal: never kept (the Software Architect's lab case,
+    // 10/26).
+    if (text && !NO_GOAL.test(text)) return { kind: "other", text: text.charAt(0).toUpperCase() + text.slice(1) };
   }
   return null;
 }
@@ -682,6 +748,8 @@ function cheersOf(done) {
 // ---- Her tools ----
 
 export const GOAL_TOOLS = ["goal_set", "goal_checkins"];
+// A goal's words that are only a wish, with nothing to do or reach: fun, a good time, relaxing, enjoying the game.
+const NO_GOAL = /^(?:to\s+)?(?:(?:have|having)\s+)?(?:(?:some|lots of|more|a)\s+)?(?:fun|(?:good|great|nice)\s+times?|enjoy(?:ing)?\b.*|relax(?:ing)?\b.*|chill(?:ing)?\b.*|(?:be|being)\s+happy|happiness)$/i;
 export const isGoalTool = name => GOAL_TOOLS.includes(name);
 // What her answer is told when it's offered the goals' tools (lib/companion-answers.js systemPrompt), like the
 // notebook's NOTEBOOK_RULES: these are done the moment she calls one.
@@ -745,7 +813,7 @@ function goalFrom(args, question) {
     const standing = standingOf(a.standing), faction = cleanItem(a.faction, 40).replace(/^the\s+/i, "");
     return standing >= 5 && faction ? { kind: "rep", standing, faction } : null;
   }
-  if (what === "other") { const text = cleanItem(a.text, 80); return text ? { kind: "other", text } : null; }
+  if (what === "other") { const text = cleanItem(a.text, 80); return text && !NO_GOAL.test(text) ? { kind: "other", text } : null; }
   return null;
 }
 

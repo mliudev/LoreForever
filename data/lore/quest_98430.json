@@ -1,0 +1,88 @@
+{
+ "key": "quest:98430",
+ "type": "quest",
+ "name": "Die Langl\u00e4ufer",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   98430
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "Perith Stormhoof, a scout sent by Cairne Bloodhoof, is trapped at Bleachmane Rock after peace efforts with the gnolls turned violent. His escape matters to Cairne and the Tauren people.",
+ "sections": [
+  {
+   "title": "A Scout in Danger",
+   "body": "Cairne Bloodhoof sent Perith Stormhoof to make contact with the gnolls settled here. As one of Cairne\u2019s Long Runners, Perith cannot speak of his full mission. The attempt at peace met with violence, and he fears the gnolls will eat him if he remains through the night. You are asked to help him escape Bleachmane Rock and report his safety to Cairne in Thunder Bluff.",
+   "spoiler": 0
+  },
+  {
+   "title": "Cairne\u2019s Thanks",
+   "body": "Cairne is relieved that Perith is safe. He calls the scout his most trusted and says the mission is of great importance. Cairne thanks you for risking your life to save him, saying you have done the Tauren people a greater service than you know.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Perith Stormhoof?",
+   "aliases": [
+    "perith who",
+    "stormhoof scout",
+    "long runner guy"
+   ],
+   "answer": "Perith Stormhoof is one of Cairne Bloodhoof\u2019s Long Runners, the chieftain\u2019s scouts."
+  },
+  {
+   "q": "Why is Perith at Bleachmane Rock?",
+   "aliases": [
+    "why perith there",
+    "bleachmane rock",
+    "perith mission"
+   ],
+   "answer": "Cairne sent Perith to make contact with the gnolls settled there, though Perith cannot discuss the full mission."
+  },
+  {
+   "q": "What happened to the peace effort?",
+   "aliases": [
+    "gnolls peace",
+    "why is perith trapped",
+    "peace with gnolls"
+   ],
+   "answer": "The gnolls answered the Long Runners\u2019 attempt at peace with violence, leaving Perith in danger."
+  },
+  {
+   "q": "What does Cairne ask me to do?",
+   "aliases": [
+    "help perith",
+    "stormhoof task",
+    "get him out"
+   ],
+   "answer": "You are asked to help Perith escape Bleachmane Rock and tell Cairne in Thunder Bluff that he is safe."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Tauren",
+   "text": "As a Tauren, you are helping Cairne Bloodhoof\u2019s trusted scout, whose mission matters to the Tauren people."
+  }
+ ],
+ "keywords": [
+  "bleachmane rock",
+  "cairne bloodhoof",
+  "gnolls",
+  "long runners",
+  "peace effort",
+  "perith stormhoof",
+  "thunder bluff"
+ ],
+ "related": [
+  "npc:cairne-bloodhoof",
+  "zone:thunderbluff"
+ ],
+ "style": 1,
+ "attribution": [
+  "In-game quest text: Die Langl\u00e4ufer"
+ ]
+}

@@ -1,0 +1,79 @@
+{
+ "key": "quest:97951",
+ "type": "quest",
+ "name": "Camping 101: Alchemy",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   97951
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "As an alchemist, you can learn to craft a Mana Well for your camp. Carolai Anise in Brill can teach you once you have shown proficiency in your skill.",
+ "sections": [
+  {
+   "title": "A camp for brews",
+   "body": "Carolai Anise can teach you to craft a Mana Well, a camping item for your profession. Once you know the craft, you can set up camp in the wilderness. A campfire is needed to start your camp, and cooks can teach you how to make one.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who teaches me to craft a Mana Well?",
+   "aliases": [
+    "mana well trainer",
+    "who teaches mana well",
+    "carolai anise alchemy"
+   ],
+   "answer": "Carolai Anise in Brill can teach you to craft a Mana Well once you have shown proficiency in your alchemy skill."
+  },
+  {
+   "q": "What is a Mana Well for?",
+   "aliases": [
+    "mana well use",
+    "what does mana well do",
+    "mana camp item"
+   ],
+   "answer": "A Mana Well is a camping item you can craft as an alchemist. Healers and spellcasters are drawn to it for a refreshing taste."
+  },
+  {
+   "q": "Where can I learn the Mana Well craft?",
+   "aliases": [
+    "mana well location",
+    "brill alchemy trainer",
+    "where is carolai"
+   ],
+   "answer": "You can learn the craft from Carolai Anise in Brill."
+  },
+  {
+   "q": "What do I need before starting a camp?",
+   "aliases": [
+    "campfire needed",
+    "how start camp",
+    "camp basics"
+   ],
+   "answer": "You need a campfire before you start your camp. Most cooks can teach you to make one."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "alchemist",
+  "alchemy",
+  "brill",
+  "camp",
+  "campfire",
+  "camping 101",
+  "carolai anise",
+  "mana well"
+ ],
+ "related": [
+  "npc:carolai-anise",
+  "subzone:brill"
+ ],
+ "style": 1,
+ "attribution": [
+  "In-game quest text: Camping 101: Alchemy"
+ ]
+}

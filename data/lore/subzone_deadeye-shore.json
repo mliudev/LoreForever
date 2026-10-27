@@ -7,11 +7,11 @@
  "meta": {
   "wiki": "Deadeye Shore"
  },
- "summary": "Deadeye Shore is a windswept stretch of coastline along Durotar's eastern edge, directly east of Drygulch Ravine. Named in memory of the legendary Bleeding Hollow chieftain Kilrogg Deadeye, the barren sands are roamed primarily by wild raptors, scorpids, and feral boars.",
+ "summary": "Deadeye Shore lies windswept along Durotar’s eastern edge, east of Drygulch Ravine. Named for Kilrogg Deadeye, the Bleeding Hollow chieftain, its barren sands are roamed by raptors, scorpids, and feral boars.",
  "sections": [
   {
    "title": "A Shoreline of the Bleeding Hollow",
-   "body": "Stretching beneath the red bluffs of central Durotar, Deadeye Shore takes its name from Kilrogg Deadeye, the one-eyed chieftain of the Bleeding Hollow clan who fought in the First and Second Wars. From high above, the sand and rocky outcrops faintly mirror the shape of a skull with a missing eye socket. While lacking major settlements or military outposts, the shoreline is far from peaceful: aggressive wildlife dominates the sands, and shadowy cultists from the Burning Blade have been known to prowl down toward the water from their nearby hideouts in the ravines.",
+   "body": "Deadeye Shore runs beneath central Durotar’s red bluffs, with sand and rocky outcrops that faintly resemble a skull missing an eye socket. The coast takes its name from Kilrogg Deadeye, the one-eyed Bleeding Hollow chieftain who fought in the First and Second Wars. No major settlement or military outpost holds the shore. It is far from peaceful: aggressive wildlife rules the sands, and Burning Blade cultists from nearby ravine hideouts have been seen prowling toward the water.",
    "spoiler": 0
   }
  ],
@@ -23,7 +23,7 @@
     "why deadeye shore",
     "origin of name"
    ],
-   "answer": "The shoreline is named after Kilrogg Deadeye, the famed chieftain of the Bleeding Hollow clan. The natural coastal terrain also resembles a skull missing an eye, echoing the chieftain's own blinded socket."
+   "answer": "The shore is named for Kilrogg Deadeye, the famed Bleeding Hollow chieftain. Its natural terrain also resembles a skull missing an eye, recalling his blinded socket."
   },
   {
    "q": "Who lives along Deadeye Shore?",
@@ -32,7 +32,7 @@
     "settlements deadeye shore",
     "npcs deadeye"
    ],
-   "answer": "No permanent settlements stand on Deadeye Shore. The stretch of coast is inhabited primarily by native wildlife like raptors, scorpids, and boars, though fishermen and travelers occasionally pass through\u2014sometimes running afoul of hidden Burning Blade cultists."
+   "answer": "No permanent settlements occupy Deadeye Shore. Raptors, scorpids, and boars roam the coast, while fishermen and travelers sometimes pass through and may encounter hidden Burning Blade cultists."
   },
   {
    "q": "What threats are found around Deadeye Shore?",
@@ -41,13 +41,13 @@
     "enemies here",
     "burning blade deadeye"
    ],
-   "answer": "Beyond aggressive local beasts, the greatest danger comes from the neighboring Drygulch Ravine. Cultists belonging to the Burning Blade occasionally wander down from the rocky canyons toward the coast, ambushing unwary travelers and fishermen."
+   "answer": "Aggressive beasts roam the coast, and Burning Blade cultists from neighboring Drygulch Ravine sometimes wander down from its rocky canyons. They ambush unwary travelers and fishermen."
   }
  ],
  "angles": [
   {
    "target": "race:Orc",
-   "text": "For orcs establishing their new nation in Durotar, the shore honors Kilrogg Deadeye, reminding them of the old chieftains who shaped the Horde's history during the wars on Azeroth."
+   "text": "As an orc establishing a new nation in Durotar, you see a shore that honors Kilrogg Deadeye and recalls the old chieftains who shaped the Horde’s history during the wars on Azeroth."
   }
  ],
  "keywords": [
@@ -63,5 +63,6 @@
  ],
  "attribution": [
   "Deadeye Shore"
- ]
+ ],
+ "style": 1
 }

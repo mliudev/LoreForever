@@ -10,16 +10,16 @@
    "quest:2478"
   ]
  },
- "summary": "The Cache of Zanzil's Altered Mixture is a stockpile of potent poison secured inside a locked chest at the Venture Company tower near the Sludge Fen. Named for the jungle troll witch doctor Zanzil, it serves as a critical target for the Shattered Hand in Orgrimmar.",
+ "summary": "At the Venture Company tower near the Sludge Fen, a stockpile of potent poison lies locked away. The mixture bears the name of Zanzil, a jungle troll witch doctor, and draws the Shattered Hand's attention.",
  "sections": [
   {
    "title": "A Toxic Enterprise",
-   "body": "North of the Sludge Fen in the Barrens, the Venture Company keeps a tower outpost. A cache of an altered mixture bearing the name of the infamous troll witch doctor Zanzil sits locked inside Grand Foreman Puzik Gallywix's private strongbox at the summit of the tower. A poison has weakened everything in the tower, leaving its goblin inhabitants vulnerable to any intruder bold enough to strike.",
+   "body": "North of the Sludge Fen in the Barrens, the Venture Company holds a tower outpost. At its summit, Grand Foreman Puzik Gallywix keeps a cache of altered mixture bearing the name of the troll witch doctor Zanzil in his private strongbox. A poison has weakened everyone in the tower, leaving its goblin inhabitants vulnerable to a bold intruder.",
    "spoiler": 0
   },
   {
    "title": "Recovery for the Shattered Hand",
-   "body": "The presence of such dangerous alchemical materials so close to Durotar caught the immediate attention of the Shattered Hand, the secretive rogue guild operating beneath Orgrimmar. Seeking both to neutralize the threat and secure the mixture for their own intelligence studies, master trainer Shenthul deployed operatives to storm the tower, execute Gallywix, and crack the foreman's lockbox. Recovering the volatile cache requires significant infiltration skill, as handling the contaminated container risks exposing the thief to its virulent, debilitating toxins.",
+   "body": "The Shattered Hand, a secretive rogue guild beneath Orgrimmar, has taken notice of dangerous alchemical materials so close to Durotar. Master trainer Shenthul sends operatives to storm the tower, kill Gallywix, and break open his lockbox. The guild seeks both to neutralize the threat and to study the mixture for its own intelligence work. Recovering the volatile cache demands strong infiltration skills. The contaminated container's toxins can leave whoever handles it exposed and debilitated.",
    "spoiler": 1
   }
  ],
@@ -31,7 +31,7 @@
     "what is the cache",
     "zanzil potion"
    ],
-   "answer": "It is a potent poison bearing the name of the troll witch doctor Zanzil. A cache of it is locked away in the Venture Company tower near the Sludge Fen, where a poison has weakened everything inside."
+   "answer": "Zanzil's Altered Mixture is a potent poison named for the troll witch doctor Zanzil. A cache of it lies locked in the Venture Company tower near the Sludge Fen, where a poison has weakened everyone inside."
   },
   {
    "q": "Where is the cache found?",
@@ -40,7 +40,7 @@
     "where is zanzil cache",
     "mixture location"
    ],
-   "answer": "The mixture is stored within Gallywix's Lockbox at the very top of the Venture Company tower, located just north of the Sludge Fen in northeastern Barrens."
+   "answer": "The cache is in Gallywix's Lockbox at the top of the Venture Company tower, north of the Sludge Fen in the Barrens."
   },
   {
    "q": "Why does the Shattered Hand want the mixture?",
@@ -49,7 +49,7 @@
     "why does shenthul want it",
     "shattered hand mission"
    ],
-   "answer": "Shenthul and the Shattered Hand want to eliminate a hazardous Venture Company operation right on the Horde's doorstep while recovering the rare compound to deepen their own understanding of poisons and tactical venoms."
+   "answer": "Shenthul and the Shattered Hand seek to neutralize the Venture Company operation right on the Horde's doorstep and recover the compound for their own intelligence studies."
   },
   {
    "q": "How do you open the chest containing the cache?",
@@ -58,17 +58,17 @@
     "open zanzil chest",
     "lockpicking zanzil cache"
    ],
-   "answer": "The chest requires advanced lockpicking expertise to bypass its physical mechanisms, making it accessible only to trained operatives who know how to work delicate tumbler locks under hazardous conditions."
+   "answer": "The chest has delicate tumbler locks that call for advanced lockpicking skill, and the contaminated container can expose its handler to debilitating toxins."
   }
  ],
  "angles": [
   {
    "target": "class:Rogue",
-   "text": "Retrieving the mixture serves as an essential rite of passage for Horde rogues, proving their mastery of lockpicking, pickpocketing, and poison handling in service to the Shattered Hand."
+   "text": "For Horde rogues, retrieving the mixture is an essential rite of passage, proving mastery of lockpicking, pickpocketing, and poison handling in service to the Shattered Hand."
   },
   {
    "target": "faction:Horde",
-   "text": "The Venture Company's poison-laden tower north of the Sludge Fen poses an immediate environmental and security threat to both Durotar and the Barrens."
+   "text": "The Venture Company's poison-laden tower north of the Sludge Fen threatens the surroundings and security of both Durotar and the Barrens."
   }
  ],
  "keywords": [
@@ -95,5 +95,6 @@
  "attribution": [
   "Cache of Zanzil's Altered Mixture",
   "Mission: Possible But Not Probable"
- ]
+ ],
+ "style": 1
 }

@@ -51,15 +51,16 @@ async function built(persona, [question, research, operation, extra], more = {})
   return systems[0];
 }
 
-// Hashes of the system prompts main built for each case before the away state existed (2026-10-21, commit 147b91e).
+// Hashes of the system prompts main built for each case before the away state existed (2026-10-21, commit 147b91e;
+// refreshed 10/27 for the class-and-era rule, QA 10/26).
 const MAIN = {
-  "sam answer": "e554cb633d5a8a8f", "sam extras": "af9af481b2cbc180", "sam spoken": "bcf63de330ea933d",
-  "sam layered": "7d25a6ae6b8dacad", "sam picture": "bcf63de330ea933d", "sam grounded": "735f89d9f1cfcccf",
-  "sam groundedExtras": "e842c25873dfd83e", "sam character": "813ef01e36bad5b6", "sam characterText": "3659ea0ede473e1f",
+  "sam answer": "8566992ccda5333b", "sam extras": "3af0553949c3f9f7", "sam spoken": "5b6f44dffdd7df51",
+  "sam layered": "6d456da9e59c448c", "sam picture": "5b6f44dffdd7df51", "sam grounded": "1ebe105954369147",
+  "sam groundedExtras": "56fc1dcc9b85c898", "sam character": "813ef01e36bad5b6", "sam characterText": "3659ea0ede473e1f",
   "sam compact": "7edf7db34438f427",
-  "willo answer": "ab12322e8192691f", "willo extras": "83c5f653005c6c0a", "willo spoken": "8821e94a4b4ddde9",
-  "willo layered": "779a398a7fd4ea48", "willo picture": "8821e94a4b4ddde9", "willo grounded": "8b592f6b0d3cdadd",
-  "willo groundedExtras": "2c4ec6a06d83d73d", "willo character": "813ef01e36bad5b6",
+  "willo answer": "5b06cd143629005a", "willo extras": "3873042148f965fe", "willo spoken": "05676c90d6b81828",
+  "willo layered": "7e1d18d553ab68f8", "willo picture": "05676c90d6b81828", "willo grounded": "f7ee35831e5afc23",
+  "willo groundedExtras": "e4d9b2d082f3c24c", "willo character": "813ef01e36bad5b6",
   "willo characterText": "3659ea0ede473e1f", "willo compact": "847a22fc0913c8f8",
 };
 test("a request that is not away builds the same system prompt as before", async () => {

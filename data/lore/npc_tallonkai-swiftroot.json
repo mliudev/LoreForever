@@ -8,16 +8,16 @@
   "wiki": "Tallonkai Swiftroot",
   "refs": 7
  },
- "summary": "Tallonkai Swiftroot is a night elf resident of Dolanaar in Teldrassil. Concerned with the emerging corruption tainting the great boughs, he enlists young adventurers to recover enchanted relics and stem the foul forces plaguing the woods.",
+ "summary": "In Dolanaar, Tallonkai Swiftroot watches the woods as corruption spreads beneath Teldrassil’s boughs. He sends young adventurers to recover enchanted relics and check the foul forces troubling the forest.",
  "sections": [
   {
    "title": "A Sentinel of Dolanaar",
-   "body": "Dwelling in the canopy settlement of Dolanaar, Tallonkai Swiftroot keeps a watchful eye over the surrounding woods. Like many night elves living beneath the boughs of the newly grown World Tree, he is alarmed by the unnatural agitation of the wildlife and the unsettling shadows gathering at the edges of their settlements.",
+   "body": "Tallonkai Swiftroot watches the woods from Dolanaar, the settlement in Teldrassil’s canopy. Like many night elves beneath the newly grown World Tree, he is alarmed by wildlife acting in unnatural ways and shadows gathering at the edges of their homes.",
    "spoiler": 0
   },
   {
    "title": "Threats in the Canopy",
-   "body": "Tallonkai directs adventurers to confront foul entities disturbing Teldrassil's peace. His concerns include corrupted dream catchers crafted to protect sleeping druids, vicious gnarlpine furbolgs succumbing to a dark malaise, and the corrupted Gnarlpine mystics led by Ferocitas the Dream Eater. To Tallonkai, cleansing these disturbances is crucial to defending the fragile home of the Kaldorei.",
+   "body": "Tallonkai sends adventurers against the foul beings disturbing Teldrassil’s peace. Corrupted dream catchers threaten the sleep of druids, while gnarlpine furbolgs have grown vicious under a dark malaise. Ferocitas the Dream Eater leads corrupted Gnarlpine mystics. Tallonkai seeks to cleanse these threats and defend the Kaldorei’s fragile home.",
    "spoiler": 0
   }
  ],
@@ -29,7 +29,7 @@
     "tallonkai swiftroot",
     "dolanaar questgiver"
    ],
-   "answer": "Tallonkai Swiftroot is a night elf quest giver stationed in Dolanaar on the boughs of Teldrassil, dedicated to safeguarding the settlement from local threats."
+   "answer": "Tallonkai Swiftroot watches over Dolanaar and works to protect it from nearby threats. He is a night elf who lives in the settlement on Teldrassil’s boughs."
   },
   {
    "q": "Where can I find Tallonkai Swiftroot?",
@@ -38,7 +38,7 @@
     "where is tallonkai",
     "find tallonkai swiftroot"
    ],
-   "answer": "He is located in the town of Dolanaar, the central night elf village found just outside Shadowglen in Teldrassil."
+   "answer": "Tallonkai Swiftroot is in Dolanaar, the central night elf village just outside Shadowglen in Teldrassil."
   },
   {
    "q": "What tasks does Tallonkai give?",
@@ -46,7 +46,7 @@
     "tallonkai quests",
     "what does tallonkai want"
    ],
-   "answer": "He asks travelers to retrieve the Emerald Dreamcatcher from the gnarlpine furbolgs, defeat the Gnarlpine furbolg Ferocitas the Dream Eater, and slay the satyr Lord Melenas in his cave at Fel Rock in Twisted Hatred."
+   "answer": "Tallonkai asks travelers to retrieve the Emerald Dreamcatcher from the gnarlpine furbolgs, defeat Ferocitas the Dream Eater, and slay Lord Melenas in his cave at Fel Rock in Twisted Hatred."
   },
   {
    "q": "Why is he concerned about the dreamcatchers?",
@@ -54,7 +54,7 @@
     "emerald dreamcatcher lore",
     "why dreamcatchers"
    ],
-   "answer": "Dreamcatchers are sacred night elf talismans tied to the Emerald Dream, used to ward against nightmares and dark visions. Their theft and corruption by hostile creatures poses a spiritual danger to the local druids and denizens of Teldrassil."
+   "answer": "Dreamcatchers are sacred night elf talismans tied to the Emerald Dream. They ward against nightmares and dark visions, so their theft and corruption endanger the local druids and other residents of Teldrassil."
   },
   {
    "q": "Who is Ferocitas the Dream Eater?",
@@ -62,7 +62,7 @@
     "who is ferocitas",
     "ferocitas lore"
    ],
-   "answer": "Ferocitas the Dream Eater is the leader of a band of corrupted Gnarlpine mystics north of Starbreeze. He stole the emerald from Tallonkai's dreamcatcher and wears it on a necklace that glows green in the night."
+   "answer": "Ferocitas the Dream Eater leads corrupted Gnarlpine mystics north of Starbreeze. He stole the emerald from Tallonkai’s dreamcatcher and wears it on a necklace that glows green at night."
   },
   {
    "q": "What is causing the unrest Tallonkai fights against?",
@@ -70,17 +70,17 @@
     "why are furbolgs mad",
     "twisted hatred lore"
    ],
-   "answer": "A growing sickness and unnatural corruption has seeped into Teldrassil, driving previously peaceful creatures like the gnarlpine furbolgs into violent madness."
+   "answer": "A growing sickness and unnatural corruption have spread through Teldrassil. They drive once peaceful creatures, including the gnarlpine furbolgs, into violent madness."
   }
  ],
  "angles": [
   {
    "target": "race:NightElf",
-   "text": "Tallonkai Swiftroot represents the vigilance needed to protect Teldrassil during its vulnerable early years, asking young Kaldorei to purge corruption taking root in their new home."
+   "text": "As a night elf, you can help protect Teldrassil while corruption takes root in your new home."
   },
   {
    "target": "class:Druid",
-   "text": "Tallonkai's concerns center on relics that tether minds safely to the Emerald Dream, making his requests deeply relevant to druidic spiritual traditions."
+   "text": "As a druid, you know the spiritual importance of relics that keep minds safely tied to the Emerald Dream."
   }
  ],
  "keywords": [
@@ -101,5 +101,6 @@
  ],
  "attribution": [
   "Tallonkai Swiftroot"
- ]
+ ],
+ "style": 1
 }

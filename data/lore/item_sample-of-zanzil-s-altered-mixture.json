@@ -10,16 +10,16 @@
    "quest:2479"
   ]
  },
- "summary": "This vial contains a potent specimen of a concoction brewed by the witch doctor Zanzil, recovered during a covert infiltration in the Barrens. Carried by an operative suffering from its debilitating effects, the sample is sent across the sea to Tarren Mill in hopes of unlocking both an antidote and the lethal secrets of poisoncraft.",
+ "summary": "A courier carries Sample of Zanzil's Altered Mixture across the sea to Tarren Mill. The brew came from the witch doctor Zanzil and leaves its carrier weakened. Serge Hinott may find a cure and uncover the poison's workings.",
  "sections": [
   {
    "title": "A Toxic Token",
-   "body": "After infiltrating the Venture Company's tower near the Sludge Fen and looting the cache of Zanzil's mixture from Gallywix's lockbox, an operative ends up afflicted by Zanzil's foul touch. Shenthul orders the stricken agent across the Great Sea with a sample of the brew in hand. Finding a cure means locating Serge Hinott, an apothecary stationed at Tarren Mill in Hillsbrad Foothills, who possesses the rare expertise required to isolate the toxin and decipher its components.",
+   "body": "An operative carries the mixture after infiltrating the Venture Company's tower near the Sludge Fen in the Barrens. The sample came from a cache in Gallywix's lockbox, and Zanzil's brew has left the agent afflicted. Shenthul sends the stricken operative across the Great Sea with the sample. At Tarren Mill in the Hillsbrad Foothills, apothecary Serge Hinott has the rare skill to isolate the toxin and learn its components.",
    "spoiler": 0
   },
   {
    "title": "Secrets of Poisoncraft",
-   "body": "The sample serves as more than just a medical urgency; it is an invaluable specimen for Horde rogues looking to master the darker arts of their trade. Serge Hinott analyzes the altered mixture not merely to cleanse the afflicted courier, but to demonstrate the precise chemical craft required to brew and handle potent envenomings in the field.",
+   "body": "Serge Hinott studies the altered mixture to help the afflicted courier and reveal how to brew and handle potent poisons in the field. Horde rogues seek this knowledge to master the darker arts of their trade.",
    "spoiler": 1
   }
  ],
@@ -31,7 +31,7 @@
     "sample of zanzils altered mixture",
     "zanzil poison sample"
    ],
-   "answer": "It is a specimen of an alchemical brew tied to the witch doctor Zanzil, recovered during a mission to the Venture Co. tower near the Sludge Fen in the Barrens. It carries a potent toxin that inflicts lingering, debilitating effects on whoever comes into direct contact with it."
+   "answer": "It is an alchemical brew tied to the witch doctor Zanzil, recovered from the Venture Company's tower near the Sludge Fen in the Barrens. Its potent toxin causes lingering, debilitating effects on anyone who touches it directly."
   },
   {
    "q": "Why do I need to take it to Serge Hinott?",
@@ -40,7 +40,7 @@
     "why take to tarren mill",
     "cure for zanzil mixture"
    ],
-   "answer": "Serge Hinott is a skilled apothecary stationed at Tarren Mill in the Hillsbrad Foothills. He possesses the specialized knowledge needed to neutralize the brew's effects and produce a reliable cure before the toxin causes permanent harm."
+   "answer": "Serge Hinott is an apothecary at Tarren Mill in the Hillsbrad Foothills. His knowledge can neutralize the brew's effects and produce a reliable cure before the toxin causes permanent harm."
   },
   {
    "q": "Who is Zanzil?",
@@ -49,7 +49,7 @@
     "zanzil the outcast",
     "zanzil lore"
    ],
-   "answer": "Zanzil the Outcast is a notorious jungle troll witch doctor known for creating madness-inducing elixirs, poisons, and mutagens. His toxic recipes have spread well beyond his native jungles, finding their way into mercenary and industrial operations like the Venture Company."
+   "answer": "Zanzil the Outcast is a jungle troll witch doctor known for creating madness-inducing elixirs, poisons, and mutagens. His toxic recipes have spread beyond his native jungles into mercenary and industrial operations such as the Venture Company."
   },
   {
    "q": "How do you reach Tarren Mill to deliver it?",
@@ -58,17 +58,17 @@
     "travel to hillsbrad",
     "tarren mill directions"
    ],
-   "answer": "Travelers must board the zeppelin from Durotar to the Undercity in Tirisfal Glades. From there, take the main road south through Silverpine Forest, following the signs eastward into the Hillsbrad Foothills until reaching the town of Tarren Mill."
+   "answer": "Take the zeppelin from Durotar to the Undercity in Tirisfal Glades. Then follow the main road south through Silverpine Forest and the signs east into the Hillsbrad Foothills to Tarren Mill."
   }
  ],
  "angles": [
   {
    "target": "class:Rogue",
-   "text": "Delivering this vile sample is a rite of passage for Horde rogues, leading directly into Serge Hinott's advanced lessons on brewing, handling, and applying lethal poisons."
+   "text": "As a Horde rogue, you carry this dangerous sample to Serge Hinott, whose lessons cover brewing, handling, and applying lethal poisons."
   },
   {
    "target": "faction:Horde",
-   "text": "Transporting this dangerous brew requires a cross-continental journey, relying on the zeppelin towers and established roads linking Kalimdor to the Forsaken territories in Lordaeron."
+   "text": "As a Horde traveler, you carry the brew across a continent by zeppelin and road, following routes from Kalimdor to the Forsaken territories in Lordaeron."
   }
  ],
  "keywords": [
@@ -91,5 +91,6 @@
  "attribution": [
   "Sample of Zanzil's Altered Mixture",
   "Hinott's Assistance"
- ]
+ ],
+ "style": 1
 }

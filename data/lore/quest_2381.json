@@ -23,16 +23,16 @@
    "Plundering the Plunderers"
   ]
  },
- "summary": "Assigned by the goblin Wrenix the Wretched in Ratchet, this rite of passage tests an aspiring Horde rogue against the Southsea Freebooters. Infiltrating the pirate vessel Tide Razor, operatives must bypass the cutthroats, crack the locks in the hold, and neutralize a monstrous avian guardian using goblin technology to claim the Southsea Treasure.",
+ "summary": "Wrenix the Wretched sends new Shattered Hand rogues against the Southsea Freebooters near Ratchet. Aboard the Tide Razor, they face pirates, locked strongboxes, and a dangerous guardian before claiming the Southsea Treasure.",
  "sections": [
   {
    "title": "A Test of Stealth and Steel",
-   "body": "For an aspiring operative of the Shattered Hand, raw brawn means nothing without finesse. Wrenix the Wretched, a goblin contact operating out of Ratchet, provides the field test. He directs rogues south along the sun-scorched coastline of the Barrens to a cove anchored by the Tide Razor, a vessel manned by Southsea Freebooters. The assignment is deceptively simple: board the ship unnoticed, break into the pirate den where they instruct their own cutpurses, crack the strongboxes in the deep hold, and bring back their prized plunder.",
+   "body": "Wrenix the Wretched, a goblin contact in Ratchet, tests aspiring Shattered Hand operatives. He sends rogues south along the Barrens coast to a cove where the Tide Razor lies at anchor, crewed by Southsea Freebooters. They must board without being seen, enter the pirates’ den where cutpurses train, pick the strongboxes in the hold, and bring back the plunder.",
    "spoiler": 0
   },
   {
    "title": "Polly and the Gizmo",
-   "body": "Reaching the prize requires more than nimble fingers. Wrenix warns that earlier thieves were returned to him in pieces, primarily due to the guardian guarding the vessel's lowest hold: a shockingly savage parrot named Polly. To counter this winged terror, Wrenix provides an experimental device known as an E.C.A.C. When hurled at the vicious bird upon cracking the pirate strongbox, the gizmo disorients and diminishes the beast, turning an impossible death sentence into a winnable duel.",
+   "body": "Wrenix warns that earlier thieves were returned to him in pieces. A savage parrot named Polly guards the vessel’s lowest hold. To help a rogue face the bird, Wrenix provides an experimental E.C.A.C. Hurl it at Polly after cracking the pirate strongbox; the device disorients and weakens the bird, making the fight winnable.",
    "spoiler": 1
   }
  ],
@@ -44,7 +44,7 @@
     "who is wrenix",
     "ratchet goblin rogue quest"
    ],
-   "answer": "Wrenix the Wretched is a goblin rogue contact based in the neutral port of Ratchet. Working with operatives connected to Orgrimmar's Shattered Hand, he tests emerging thieves by sending them into pirate territory to practice lockpicking and recover stolen plunder."
+   "answer": "Wrenix the Wretched is a goblin rogue contact in Ratchet. He works with operatives linked to Orgrimmar’s Shattered Hand, sending new thieves into pirate territory to practice lockpicking and recover stolen plunder."
   },
   {
    "q": "Where is the Tide Razor located?",
@@ -53,7 +53,7 @@
     "where is pirate ship",
     "where are the southsea pirates"
    ],
-   "answer": "The Tide Razor is docked south of Ratchet along the eastern coast of the Barrens, nestled inside the Southsea Freebooter enclave. The ship serves as a base and training den for pirate scoundrels."
+   "answer": "The Tide Razor is anchored south of Ratchet along the Barrens’ eastern coast, in a Southsea Freebooter cove. The ship is a base and training den for the pirates."
   },
   {
    "q": "What is an E.C.A.C. and how do I use it?",
@@ -62,7 +62,7 @@
     "what is ecac",
     "how to beat polly"
    ],
-   "answer": "The E.C.A.C. is an experimental goblin gizmo dispensed by Wrenix's Gizmotronic Apparatus. It is used against Polly, the lethal giant parrot guarding the Southsea Treasure in the belly of the Tide Razor, drastically weakening the beast so it can be defeated."
+   "answer": "The E.C.A.C. is an experimental goblin device dispensed by Wrenix’s Gizmotronic Apparatus. Use it against Polly, the giant parrot guarding the Southsea Treasure in the Tide Razor’s hold, to weaken the bird so it can be defeated."
   },
   {
    "q": "Why is the lockpicking area on the ship significant?",
@@ -71,7 +71,7 @@
     "footpad training ship",
     "picking boxes barrens"
    ],
-   "answer": "The second deck of the Tide Razor serves as the Southsea pirates' training room. It contains a collection of respawning lockboxes where rogues can practice their lockpicking techniques in field conditions before attempting the main strongbox below."
+   "answer": "The Tide Razor’s second deck is the Southsea pirates’ training room. Its lockboxes let rogues practice lockpicking in the field before they try the strongbox below."
   },
   {
    "q": "Why is this mission so vital for rogues?",
@@ -80,7 +80,7 @@
     "why do plundering the plunderers",
     "rogue quest reward"
    ],
-   "answer": "Completing the heist proves a rogue's worth to the Shattered Hand network. As part of your cut, Wrenix rewards you with a supply of Thistle Tea, an invaluable herbal brew that rapidly restores a rogue's combat energy."
+   "answer": "Completing the heist proves a rogue’s worth to the Shattered Hand network. Wrenix gives you Thistle Tea as your share, a brew that quickly restores a rogue’s combat energy."
   },
   {
    "q": "Who is Polly?",
@@ -89,21 +89,21 @@
     "giant parrot",
     "tide razor boss"
    ],
-   "answer": "Polly is the Southsea Freebooters' vicious watchdog parrot stationed inside the lower hold of the Tide Razor. Left unchecked, the bird is lethal to inexperienced infiltrators unless weakened with goblin technology."
+   "answer": "Polly is a vicious parrot guarding the lower hold of the Tide Razor for the Southsea Freebooters. Without goblin technology to weaken the bird, it is lethal to inexperienced infiltrators."
   }
  ],
  "angles": [
   {
    "target": "class:Rogue",
-   "text": "This rite of passage teaches the essential art of picking locks under pressure and awards a stash of prized Thistle Tea, making it an indispensable milestone for any operative serving the Horde."
+   "text": "As a rogue, you learn to pick locks under pressure and receive Thistle Tea, a prized brew for operatives serving the Horde."
   },
   {
    "target": "profession:Cooking",
-   "text": "The mission pays out in Thistle Tea, the herbal energy tonic that culinary-minded rogues prize above any ordinary drink."
+   "text": "As a rogue with an interest in cooking, you can earn Thistle Tea, an herbal tonic valued for restoring energy."
   },
   {
    "target": "faction:Horde",
-   "text": "The Shattered Hand uses neutral goblin connections in Ratchet to test prospective field agents against the Southsea Freebooters menacing the Barrens coast."
+   "text": "The Shattered Hand uses goblin contacts in Ratchet to test prospective agents against the Southsea Freebooters, who menace the Barrens coast."
   }
  ],
  "keywords": [
@@ -130,5 +130,6 @@
  ],
  "attribution": [
   "Plundering the Plunderers"
- ]
+ ],
+ "style": 1
 }

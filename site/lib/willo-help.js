@@ -26,7 +26,7 @@ const plansText = ({ azeroth }) => `Your plans (a player asking what Adventurer,
   ["free", ...PAID].map(id => `${PLANS[id].name}${id === "free" ? " (free)" : ""}: ${planFeatures({ ...cardFlags(null), azeroth })[id].join("; ")}.`).join(" ") +
   ` ${VOICE_NOTE} Nothing is bought once: answers can't be bought. When a plan's answers are used up, I answer from ` +
   `the add-on's lore library until they ` +
-  `come back. Never say a price (the Plans page has them), nor "limit", "cap" or "unlimited": answers are counts.`;
+  `come back. Out loud or over the game the Plans page isn't a button: say it opens from your window (right-click the wisp brings it up), never that your Settings is it. Never say a price (the Plans page has them), nor "limit", "cap" or "unlimited": answers are counts.`;
 
 // A topic's own words with more alternatives joined on (other patterns').
 const orElse = (...patterns) => new RegExp(patterns.map(r => r.source).join("|"), "i");
@@ -148,7 +148,7 @@ const TOPICS = [
       `off (in your window or unticked in the add-on), the game needs a /reload, the sky over the minimap isn't ` +
       `showing, the game is minimized, behind another window or in exclusive fullscreen, seeing the game is off, ` +
       `or nothing is targeted. Meanwhile they can tell you who it is; never guess.` },
-  { id: "plans", own: /\b(?:hero|champion|legend|adventurer)\b(?!\s+of\b)[^.?!]*\b(?:plan|tier|adds?|gets?|includes?|costs?|price|worth|gives?|offers?|differen\w*|upgrade|subscri\w*)\b|\b(?:what|which)\b[^.?!]*\b(?:do i get|comes? with|in|with|on)\b[^.?!]*\b(?:hero|champion|legend)\b(?!\s+of\b)[^.?!]*\?|\b(?:subscription|subscribe|billing|refund|paid plan|free plan|your plans?|willo plans?|my plan|upgrade (?:my|to)|cancel my)\b|\banswers? (?:left|a day|per day|a month)\b|\bout of answers\b|\bvoice pack\b|\bwhat am i trying\b(?! to\b)|\b(?:how many )?tries\b[^.?!]*\bleft\b|\b(?:my|this|the|free|first-run) trial\b(?! of\b)/i,
+  { id: "plans", own: /\b(?:hero|champion|legend|adventurer)\b(?!\s+of\b)[^.?!]*\b(?:plan|tier|adds?|gets?|includes?|costs?|price|worth|gives?|offers?|differen\w*|upgrade|subscri\w*)\b|\b(?:what|which)\b[^.?!]*\b(?:do i get|comes? with|in|with|on)\b[^.?!]*\b(?:hero|champion|legend)\b(?!\s+of\b)[^.?!]*\?|\b(?:subscription|subscribe|billing|refund|paid plan|free plan|your plans?|willo plans?|my plan|plans? page|pricing|upgrade (?:my|to)|cancel my)\b|\banswers? (?:left|a day|per day|a month)\b|\bout of answers\b|\bvoice pack\b|\bwhat am i trying\b(?! to\b)|\b(?:how many )?tries\b[^.?!]*\bleft\b|\b(?:my|this|the|free|first-run) trial\b(?! of\b)/i,
     words: /\bplans?\b|\bpay\b|\bcost\b|\bprice\b|\bfree\b/i,
     text: plansText },
   { id: "signin", own: /\bsign(?:ed|ing)? (?:in|out)\b|\bconnect(?:ed)? (?:my |your )?(?:account|profile)\b|\b(?:dis|re)connect\b/i,
@@ -157,16 +157,21 @@ const TOPICS = [
       `site's page opens, they sign in and choose Connect. Sign out: Settings › Account › Your profile › Sign out, or ` +
       `Disconnect on loreforeverwow.com/account. "Reconnect account for answers" means the site signed this PC out: ` +
       `sign in again from your window.` },
-  { id: "chat", own: /\bnew chat\b|\bstart (?:over|fresh)\b|\/lore\b|\bin-game chat\b|\bchat over the game\b/i,
+  { id: "chat", own: /\b(?:past|old|older|previous|earlier|saved|other)\s+(?:chats?|conversations?)\b|\b(?:show|list|see|find)\s+(?:me\s+)?(?:all\s+)?(?:of\s+)?my\s+(?:chats|conversations)\b|\bnew (?:chat|conversation)\b|\bstart (?:over|fresh)\b|\/lore\b|\bin-game chat\b|\bchat over the game\b/i,
     words: /\bchats?\b|\btype\b|\bconversations?\b|\bforget\b|\bremember\b|\bmemory\b/i,
     text: () => `Chats: in your window, + New chat starts one; over the game, left-click the wisp for a text box above ` +
       `you (Enter asks, + starts a new chat, Esc closes; after a character answered it says "Ask" and their name: click ` +
-      `the name to come back to you); out loud, say "new chat", "start over" or "forget that". WoW's own chat doesn't ` +
+      `the name to come back to you); out loud, "new chat" or "start over" starts one right away (the old chat stays ` +
+      `in the list). "Forget that", "never mind" or "scratch that" only takes back their last words: ` +
+      `carry on in this chat, never a new one. WoW's own chat doesn't ` +
       `reach you. Questions asked ` +
       `out loud less than ten minutes apart share a chat. In the game, /lore ask followed by a question opens the Live ` +
       `answers box; Ctrl+C sends it and the answer shows over the game in a few seconds. You remember the recent turns ` +
       `of a chat and a short summary of earlier ones (longer on Champion and Legend). Delete in the chat's header ` +
-      `deletes it for good; Rename is beside it.` },
+      `deletes it for good; Rename is beside it. Their past chats are all kept, newest first, in the chat list in your ` +
+      `window (beside the conversation, or behind the list button at the top left on a narrow window); your state's ` +
+      `past chats names the newest. Asked to see or list them: never say you can't; name the newest few and say where ` +
+      `the list is, or show it when you can.` },
   // What she keeps (LOR-666): the What Willo keeps page (lib/willo-keeps.js) shows it all, to change or erase. Its own
   // words win over "chat" and "quit" for a question that's about her keeping things (KEEPS_FIRST): "forget everything
   // you know about me" isn't a new chat, and "delete the questions I asked you" isn't quitting her. Her answer always
@@ -306,7 +311,7 @@ const TOPICS = [
   { id: "friends", own: /\b(?:my|any|of my)\s+friends?\b[^.?!]{0,30}\b(?:online|on\s+now|playing|around|on\s+willo|up\s+to|doing)\b|\bwhere\s+(?:are|is)\s+my\s+friends?\b|\bfriends?\s+(?:list|tab)\b|\badd(?:ing)?\s+(?:a\s+|my\s+|some\s+)?friends?\b|\bhow\s+do\s+(?:i|we)\s+(?:make|get|find)\s+friends\b/i,
     text: () => `Your friends: other players they add in the Friends tab at the top of your window (next to Notebook), ` +
       `by their friend's profile name or the link their friend sent; the friend says yes first. For friends who share ` +
-      `it, you know whether they're out in the world and where they were last seen (the FRIENDS section, when there is ` +
+      `it, you know whether each has their Willo with them and where they were last seen (the FRIENDS section, when there is ` +
       `one). No FRIENDS section means they haven't ` +
       `added any friends to you yet: say so and how to add one. You can't see the game's own friends list.` },
   // "Can you open your settings?" got "I don't have settings or a menu to open" (Mike, 10/17).
@@ -362,6 +367,11 @@ const topicsOf = (question, plans, client = null) => {
 };
 // The help topics a question is about (lib/willo-tools.js lookupsFor), by id; none for any other question.
 export const helpTopics = (question, { plans = true, client = null } = {}) => topicsOf(question, plans, client).map(t => t.id);
+// Whether one of them is in its own words (a topic's own: "talk key"), not only words that count in a question to her.
+export const helpOwned = (question, { plans = true, client = null } = {}) => {
+  const q = String(question || "").replace(/’/g, "'");
+  return topicsOf(q, plans, client).some(t => t.own?.test(q));
+};
 // What a question about her asks, with a short follow-up to one ("it isn't there", "still on screen") read with the
 // question before it, so it gets the same help (LOR-623: both got the add-on's folder to delete instead).
 // A follow-up to a follow-up ("still on screen") goes by her last answer, which named her settings.
@@ -382,8 +392,16 @@ export function stateOf(prompt) {
   const text = String(prompt || "");
   const found = STATE_SECTION.exec(text);
   if (!found) return { state: "", prompt: text };
-  let state = found[1].trim();
-  while (new TextEncoder().encode(state).length > STATE_MAX_BYTES) state = state.slice(0, state.lastIndexOf("\n"));
+  // Over it, the lines that tell least go first: a check that's ok, then the longest; never by where they come, since
+  // the newest are last (the Lore Player, past chats, a reminder showing: the Software Architect, 10/26).
+  const bytes = s => new TextEncoder().encode(s).length;
+  const lines = found[1].trim().split("\n");
+  while (lines.length > 1 && bytes(lines.join("\n")) > STATE_MAX_BYTES) {
+    const ok = lines.findIndex(l => /^[\w-]+: ok\b/.test(l));
+    lines.splice(ok >= 0 ? ok : lines.reduce((m, l, i) => (bytes(l) > bytes(lines[m]) ? i : m), 0), 1);
+  }
+  let state = lines.join("\n");
+  while (bytes(state) > STATE_MAX_BYTES) state = state.slice(0, -1);
   return { state, prompt: (text.slice(0, found.index) + text.slice(found.index + found[0].length)).replace(/^\n+/, "") };
 }
 

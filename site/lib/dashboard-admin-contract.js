@@ -68,9 +68,9 @@ const ACTIONS = {
     "contrib-reject": ["uploader"], "contrib-restore": ["uploader"], "contrib-pick": ["id pick", "reason"],
     "exclude-account": ["id"], "count-account": ["id"], "delete-subscriber": ["email"],
   },
-  creators: { save: ["code name", "contact account discount share_pct months gift promo_id channel"],
+  creators: { save: ["code name", "contact account discount share_pct months gift promo_id channel term_start term_end tax_form"],
     approve: ["id code"], decline: ["id"], retire: ["code"], restore: ["code"],
-    pay: ["code method expected_cents", "note"], "stripe-payouts": ["on"] },
+    pay: ["code expected_cents", "method note"] },
   retention: { preview: ["id subject text", "as"], write: ["id subject text reviewed", "as"] },
   sources: { link: ["slug label target"], retire: ["slug"], restore: ["slug"] },
   willo: { "feedback-status": ["id status", "note"], "friend-report-done": ["id"],
@@ -108,12 +108,12 @@ export function validateAction(name, body) {
       ? /^(u|ip):[\w-]{1,80}$/.test(value) : /^[uihx]:[\w-]{1,64}$/.test(value));
     else if (["discount", "share_pct", "months", "gift"].includes(field)) valid = integer(value, ({ discount: 100, share_pct: 100, months: 120, gift: 100000 })[field]);
     else if (field === "reasons") valid = value && typeof value === "object" && !Array.isArray(value) && Object.keys(value).length <= 2000 && Object.entries(value).every(([k, v]) => integer(k, 2147483647, 1) && text(v, 200, true));
-    else valid = text(value, ["text"].includes(field) ? 20000 : ["note", "reason"].includes(field) ? 4000 : ["target", "source_url"].includes(field) ? 2048 : 500, ["note", "reason", "contact", "account", "zone", "source_title", "source_url", "ref"].includes(field));
+    else valid = text(value, ["text"].includes(field) ? 20000 : ["note", "reason"].includes(field) ? 4000 : ["target", "source_url"].includes(field) ? 2048 : 500, ["note", "reason", "contact", "account", "zone", "source_title", "source_url", "ref", "tax_form"].includes(field));
     if (!valid) bad("Invalid action field: " + field);
   }
   const one = (field, values) => { if (own(body, field) && body[field] !== null && !values.includes(body[field])) bad("Invalid " + field + "."); };
   one("pick", ["use", "skip", "reset"]); one("resolution", ["fixed", "kept"]);
-  one("method", ["manual", "stripe"]); one("origin", ["mike", "research", "players"]);
+  one("method", ["manual"]); one("tax_form", ["", "w9", "w8ben"]); one("origin", ["mike", "research", "players"]);
   one("how", ["fact", "lore", "prompt", "code", "voice"]);
   if (name === "retention") one("as", Object.keys(SENDERS));
   if (name === "main") one("status", action === "voice-status" ? ["new", "done", "rejected"] : ["new", "done"]);

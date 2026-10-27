@@ -41,9 +41,11 @@ player pinned under them (`lib/lore.js` `bookHtml`; styles `.bk` in `public/lore
   title, description and trail in (`history.pushState`; back and forward work), so the click and a full load of the same
   address show the same thing. Anything unexpected is a normal page load. The player keeps playing across the swap.
 - **Language**: the switch in the tools changes the page being read to the translated page when one exists (`/de/lore/...`);
-  a page with none shows English with "Not in <language> yet". Only native recordings play for another language: in one,
-  the rows have no play button, Play all is off and the page says there is no recording in that language yet (never the
-  English narrator under translated text; the translated pages have no recordings of their own today).
+  a page with none shows English with "Not in <language> yet". Only native recordings play for another language: a
+  translated page plays its own language's narrators (below), and so does the list. Picking the language reads
+  `/<seg>/lore/narration.json` (below); a row plays its page's first recording in that language that R2 has, Play all and
+  the narrator pick go with it, and a row with none has no play button ("No Deutsch recording yet"). Never the English
+  narrator under translated text. If the list doesn't load, the rows play nothing and the note sends listeners to the pages.
 - **Signed in**: with a profile, `GET /api/profile/found` lists the lore pages the journey names; those rows get a tick and the
   rest dim, "In my book" filters to them, and the left page's "Is this page in your book?" line is the one from
   `/api/profile/page`. Signed out, or without a profile, nothing changes.
@@ -69,7 +71,7 @@ player pinned under them (`lib/lore.js` `bookHtml`; styles `.bk` in `public/lore
    `X-Robots-Tag: noindex` goes, the header shows a **Lore** link after Download, and player profiles link their
    moments to these pages (LOR-248). `site/tests/lore.test.mjs` asserts the feature is off: flip that line too. Add a
    CHANGELOG line ("Hear every narration on the site...").
-3. Merge, then publish the site as usual (`git push origin origin/main:site-live`).
+3. Merge, then publish the site as usual (`scripts/ship-site.sh origin/main`).
 
 The Pages variable **`SITE_FEATURES=lore`** turns it on without a code change, e.g. on Preview to look at it as it
 will be (`-lore` turns it off). Don't use it as the switch for production: a variable needs a redeploy and isn't in
@@ -239,20 +241,37 @@ today's text, never a spoiler; the preferences are `EXAMPLES` in site_packs.py.
 `/de/lore/zone/elwynn`: a lore page in one of the add-on's languages (de, es, fr, it, pt-br, ru, uk, zh), at the English
 address with the language in front, so the language switch only swaps the first segment. A page is translated when its
 translation (`data/i18n/<locale>/lore/`) is current, the same `src_hash` check the language packs use, and has the summary
-and every spoiler-free section; thin pages aren't translated. It's text only: no recordings (English audio under German
-text is the wrong accent).
+and every spoiler-free section; thin pages aren't translated.
+
+- **Its own narrators:** a translated page plays the add-on's native recordings in its language (Mike, 10/26), never
+  English audio under German text. `site_i18n.py native_voices` takes each of our narrators' packs in that language that
+  `voices.json` lists as live (a pack the voice audit retired plays nothing), as a voice of its own, `<voice>-<seg>`
+  (`male-narrator-de`), named in the page's language (`lib/lore.js voiceNames`, `lib/lore-strings.js`). A recording plays
+  only while it reads what the page shows (its stamp is the language pack's hash of the translation, or of the game's
+  own quest text in that language). The packs hold short stories, so a narrated page reads the summary and first section
+  and shows the other sections after it; quest pages add the quest giver's words. The recordings are in R2 under
+  `narration/<voice>-<seg>/` (`scripts/upload-narration-r2.sh` sends them with the English ones). A page with no recording
+  in its language says so in that language.
 
 - **Built and kept in R2, not Pages or git:** about 36,000 pages, more than Pages' 20,000-file cap. `pipeline/lore/
   site_i18n.py` builds them from main in the English page's shape (`e/*.json`) plus `lang` and `en`, and uploads what
   changed to the STUDIO bucket under `lore-i18n/<seg>/<type>/<id>.json` through `functions/api/admin/lore-i18n.js` (ADMIN_KEY only, behind Cloudflare Access; scripts send the service token):
-  the pages first, then `lore-i18n/index.json` (the languages, and each English page's languages as a bitmask), then
-  deletes what's gone, so the index never names a page R2 lacks. `scripts/site-lore-i18n.sh` runs build, upload and
+  the pages first (with each language's `lore-i18n/<seg>/narration.json`, below), then `lore-i18n/index.json` (the
+  languages, and each English page's languages as a bitmask), so the index never names a page R2 lacks. It deletes
+  nothing: a page the build lacks (its translation now behind the English) stays live and in the index while its English
+  page exists (the PM, 10/26: a slightly stale translation beats a missing page); `--prune` deletes them, on purpose. `scripts/site-lore-i18n.sh` runs build, upload and
   check from origin/main in its own sparse checkout; release.sh and post-release.sh start it in the background after
   each site-live push (log: `~/.cache/lore-forever/site-lore-i18n.log`). There's no Pages build step to hang it on.
 - **Served by** `functions/[lang]/lore/[type]/[id].js` with the same `entryPage` as English: only the loader differs.
   `lang` gives the page's labels (`lib/lore-strings.js`), `<html lang>`, its canonical and the hreflang alternates (only
   the languages that page has, plus English and x-default). Edge-cached like English, keyed on the index's etag too.
-- **A missing or stale translation** is a 302 to the English page; a segment that isn't a language is the 404 page.
+- **The list in a language:** `site_i18n.py narration_list` writes `lore-i18n/<seg>/narration.json`, the recordings
+  its translated pages play, by English path in `index.json`'s `pages[].c` shape (about 400 KB for German, so the admin
+  API takes up to 4 MB for it). `functions/[lang]/lore/narration.json.js` serves it as `{names, list}`, the narrators named
+  in that language; 404 before an upload has one.
+- **A missing translation** is a 302 to the English page; a segment that isn't a language is the 404 page. A stale
+  one (the English changed since) stays the page as in the add-on: the language pack's last shipped text, minus any
+  section translated from a spoiler (`site_i18n.py carried`), until the translation catches up.
 - **The switch:** "Read in" chips under the title on every page that has another language. Translated pages have no
   "Your page" line (the profile's moments name English pages).
 - **Search:** each language's sitemap, `/<seg>/lore/sitemap.xml`, named in `public/robots.txt`, empty while the lore

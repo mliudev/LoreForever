@@ -17,16 +17,16 @@
   "wiki": "To Gadgetzan You Go!",
   "chain": []
  },
- "summary": "To Gadgetzan You Go! is a journey undertaken by Horde cooks seeking to advance beyond the limits of their capital city instructors. Directed by Zamja in Orgrimmar, aspiring chefs travel south across Kalimdor to Tanaris to seek out the eccentric goblin butcher Dirge Quikcleave. This breadcrumb marks the transition into true mastery over the culinary arts.",
+ "summary": "In Orgrimmar, Zamja sends Horde cooks south to learn from an eccentric goblin butcher.",
  "sections": [
   {
    "title": "A Cook Outgrows Orgrimmar",
-   "body": "In the Drag, the troll cook Zamja feeds countless warriors and travelers passing through the red canyons of Durotar. Yet when a dedicated cook absorbs every recipe and technique Zamja has to offer, the master admits defeat. Having imparted all her culinary mojo, she sends her seasoned pupil south to the sands of Tanaris, admitting that only a true master of strange and exotic meats can push a talented cook any further.",
+   "body": "Zamja trains cooks in the Drag, where she feeds warriors and travelers passing through Durotar. When a cook has learned every recipe and technique she can teach, Zamja admits she has imparted all her culinary mojo. She sends her seasoned pupil to Tanaris, saying only a master of strange and exotic meats can help a talented cook advance further.",
    "spoiler": 0
   },
   {
    "title": "The Butcher in the Desert",
-   "body": "The destination is Gadgetzan, the steam-powered trading hub run by the Steamwheedle Cartel. There, inside the noisy town tavern, operates Dirge Quikcleave. A goblin with an unconventional palate and zero culinary squeamishness, Dirge is legendary across Kalimdor for preparing monstrous desert fauna\u2014and occasional leather scraps\u2014into hearty meals capable of sustaining hardened adventurers.",
+   "body": "In Tanaris, Gadgetzan is a steam-powered trading hub run by the Steamwheedle Cartel. Dirge Quikcleave works inside the town tavern. The eccentric goblin butcher has an unconventional palate and no squeamishness about food. Across Kalimdor, he is known for turning monstrous desert creatures, and sometimes scraps of leather, into hearty meals for hardened adventurers.",
    "spoiler": 0
   }
  ],
@@ -38,7 +38,7 @@
     "who starts this",
     "zamja quest"
    ],
-   "answer": "Zamja, the troll expert cooking trainer situated near the cookfires of the Drag in Orgrimmar, gives this task to cooks who have mastered everything she knows."
+   "answer": "Zamja, the troll cooking trainer near the cookfires in Orgrimmar's Drag, sends cooks who have mastered everything she knows."
   },
   {
    "q": "Why does Zamja send you away?",
@@ -47,7 +47,7 @@
     "why dirge quikcleave",
     "cooking master"
    ],
-   "answer": "Zamja has exhausted all the recipes and culinary techniques she can teach. To achieve artisan-level cooking mastery, she directs promising cooks to Dirge Quikcleave in Tanaris, an eccentric expert renowned for making edible meals out of the harshest desert ingredients."
+   "answer": "Zamja has exhausted the recipes and techniques she can teach. She sends promising cooks to Dirge Quikcleave in Tanaris, an eccentric expert known for making meals from the harshest desert ingredients."
   },
   {
    "q": "Who is Dirge Quikcleave?",
@@ -55,7 +55,7 @@
     "who is dirge",
     "dirge gadgetzan"
    ],
-   "answer": "Dirge Quikcleave is a goblin butcher and artisan cooking trainer located in the inn at Gadgetzan. He is famous for his rough temperament, odd nutritional theories\u2014such as finding protein in old leather boots\u2014and his mastery of high-end, exotic wilderness cooking."
+   "answer": "Dirge Quikcleave is a goblin butcher and artisan cooking trainer in Gadgetzan's inn. He has a rough temperament, odd ideas about nutrition, including finding protein in old leather boots, and mastery of high-end, exotic wilderness cooking."
   },
   {
    "q": "Is this quest required to learn Artisan Cooking?",
@@ -64,7 +64,7 @@
     "breadcrumb cooking",
     "is it mandatory"
    ],
-   "answer": "No. The quest is simply a breadcrumb guide directing Horde players toward Tanaris. A cook with sufficient skill can travel directly to Gadgetzan and speak with Dirge Quikcleave without having received Zamja's referral first."
+   "answer": "No. This is a breadcrumb pointing Horde cooks toward Tanaris. A cook with sufficient skill can travel straight to Gadgetzan and speak with Dirge Quikcleave without Zamja's referral."
   },
   {
    "q": "Where is Gadgetzan located?",
@@ -72,7 +72,7 @@
     "gadgetzan location",
     "where is dirge"
    ],
-   "answer": "Gadgetzan is the walled desert outpost operated by the Steamwheedle Cartel in the northern sands of Tanaris, located far south on the continent of Kalimdor below Thousand Needles."
+   "answer": "Gadgetzan is a walled desert trading hub operated by the Steamwheedle Cartel in northern Tanaris, far south on Kalimdor below Thousand Needles."
   },
   {
    "q": "Does Zamja actually learn anything when you return?",
@@ -80,17 +80,17 @@
     "does zamja learn cooking",
     "teach zamja"
    ],
-   "answer": "Though Zamja cheekily demands that you return and teach her once you become the big cook on the block, she remains an expert trainer in Orgrimmar, tending her cookfires for the next generation of travelers."
+   "answer": "Zamja cheekily demands that you return and teach her once you become the big cook on the block. She remains an expert trainer in Orgrimmar, tending her cookfires for the next generation of travelers."
   }
  ],
  "angles": [
   {
    "target": "profession:Cooking",
-   "text": "This quest marks the milestone where a cook outgrows capital city instruction and must venture into the dangerous wilds to study under an artisan master."
+   "text": "As a cook, you reach the point where capital city instruction runs out, and you must venture into the dangerous wilds to study under an artisan master."
   },
   {
    "target": "faction:Horde",
-   "text": "Orgrimmar relies on outside specialists like neutral goblin chefs to push its crafters beyond standard tribal staples."
+   "text": "Orgrimmar relies on outside specialists, including neutral goblin chefs, to take its crafters beyond standard tribal staples."
   }
  ],
  "keywords": [
@@ -112,5 +112,6 @@
  ],
  "attribution": [
   "To Gadgetzan You Go!"
- ]
+ ],
+ "style": 1
 }

@@ -10,16 +10,16 @@
    "quest:3120"
   ]
  },
- "summary": "The Verdant Sigil is an inscribed druidic token presented to fledgling night elf druids beginning their training in Shadowglen. Carried as a summons from the druid mentor Mardant Strongoak, it marks a novice's formal entry into the Cenarion teachings under the branches of Aldrassil.",
+ "summary": "In Shadowglen, Conservator Ilthalaine gives young night elf druids the Verdant Sigil as a summons to begin training.",
  "sections": [
   {
    "title": "A Summons to the Path",
-   "body": "In the sheltered boughs of Shadowglen, young night elves who feel the call of the wild receive the Verdant Sigil from Conservator Ilthalaine. Sent via messenger from the trainer Mardant Strongoak, the token directs novices to climb into the boughs of the great tree Aldrassil. Carrying the sigil serves as a formal invitation to leave basic chores behind and commence serious training in communion with nature spirits and the deep mysteries of the Emerald Dream.",
+   "body": "Young night elves in Shadowglen who feel the call of the wild receive the Verdant Sigil from Conservator Ilthalaine. A messenger brings it from Mardant Strongoak, the druid trainer, and it directs novices to climb into Aldrassil's boughs. The token invites them to leave basic chores behind and begin serious study of communion with nature spirits and the mysteries of the Emerald Dream.",
    "spoiler": 0
   },
   {
    "title": "The First Step Into the Dream",
-   "body": "Presenting the sigil to Mardant Strongoak initiates the young druid into their lifelong craft. While novices are not yet prepared to walk the sleeping trance of the Emerald Dream, acknowledging the sigil marks the start of their mentorship. Under Mardant's instruction, initiates learn to interpret the whispers of the wilderness and master early shapeshifting and healing arts in service of Teldrassil.",
+   "body": "Presenting the Verdant Sigil to Mardant Strongoak begins a young druid's lifelong craft. Novices are not yet ready to walk the sleeping trance of the Emerald Dream, but the token marks the start of their mentorship. Under Mardant's instruction, they learn to read the wilderness's whispers and practice early shapeshifting and healing arts in service of Teldrassil.",
    "spoiler": 0
   }
  ],
@@ -31,7 +31,7 @@
     "why do i have verdant sigil",
     "verdant sigil use"
    ],
-   "answer": "The Verdant Sigil is an introductory token given to novice night elf druids in Shadowglen. It acts as a formal summons from the trainer Mardant Strongoak, directing new druids to seek him out within the tree Aldrassil to begin their formal education."
+   "answer": "The Verdant Sigil summons novice night elf druids in Shadowglen to seek out Mardant Strongoak in Aldrassil and begin formal training."
   },
   {
    "q": "Who hands out the Verdant Sigil?",
@@ -39,7 +39,7 @@
     "who gives verdant sigil",
     "where do i get verdant sigil"
    ],
-   "answer": "Conservator Ilthalaine hands the sigil to budding druids shortly after they begin assisting him in Shadowglen, passing along a message sent from Mardant Strongoak."
+   "answer": "Conservator Ilthalaine gives budding druids the Verdant Sigil in Shadowglen, carrying a message from Mardant Strongoak."
   },
   {
    "q": "Where do I take the sigil once I receive it?",
@@ -48,7 +48,7 @@
     "who takes verdant sigil",
     "verdant sigil turn in"
    ],
-   "answer": "You bring the sigil to Mardant Strongoak, the druid trainer located within the central chambers of the great tree Aldrassil, situated at the heart of Shadowglen."
+   "answer": "You bring the Verdant Sigil to Mardant Strongoak, the druid trainer in Aldrassil's central chambers at the heart of Shadowglen."
   },
   {
    "q": "What happens after presenting the sigil to Mardant Strongoak?",
@@ -56,17 +56,17 @@
     "what does mardant do with sigil",
     "after verdant sigil"
    ],
-   "answer": "Mardant accepts the sigil, formally welcoming you as his student. He establishes himself as your guide in mastering nature communion and promises to prepare you for the intricacies of the Emerald Dream as your strength increases."
+   "answer": "Mardant accepts the Verdant Sigil and welcomes you as his student. He guides you in communion with nature and prepares you for the mysteries of the Emerald Dream as your strength grows."
   }
  ],
  "angles": [
   {
    "target": "class:Druid",
-   "text": "For young night elf druids, receiving the Verdant Sigil is the traditional first rite of passage, bridging the gap between basic forest tending and disciplined Cenarion tutelage."
+   "text": "As a young night elf druid, receiving the Verdant Sigil marks your first rite of passage from basic forest tending to disciplined Cenarion teaching."
   },
   {
    "target": "race:NightElf",
-   "text": "Given under the canopy of Aldrassil, the sigil represents the enduring kaldorei tradition of attuning one's spirit to the natural world and the guardians of Teldrassil."
+   "text": "Under Aldrassil's canopy, the sigil reflects the kaldorei tradition of attuning your spirit to the natural world and Teldrassil's guardians."
   }
  ],
  "keywords": [
@@ -92,5 +92,6 @@
  "attribution": [
   "Verdant Sigil",
   "Verdant Sigil (Classic)"
- ]
+ ],
+ "style": 1
 }

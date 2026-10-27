@@ -17,16 +17,16 @@
   "wiki": "Buzzbox 323 (quest)",
   "chain": []
  },
- "summary": "Buzzbox 323 is the third task in a field-research line along the coast of Darkshore, commissioned through a speaker device by the eccentric gnome engineer Wizbang Cranktoggle. Players must gather Moonstalker fangs from local predators and deposit them into the humming contraption situated north of Auberdine.",
+ "summary": "Wizbang Cranktoggle’s field research reaches Buzzbox 323, the third stop along Darkshore’s coast. You gather six Moonstalker fangs and place them in the machine north of Auberdine.",
  "sections": [
   {
    "title": "A Slurred Transmission",
-   "body": "After operating Buzzbox 411 further south, the voice of the gnomish inventor Wizbang Cranktoggle crackles to life over the speaker. Interspersed with the sounds of heavy drinking and slurred directions, Wizbang directs adventurers north of Auberdine, pointing them to Buzzbox 323 near a road bridge. His research requires six Moonstalker Fangs, harvested from the fierce feline hunters roaming the shrouded forests of Darkshore.",
+   "body": "Wizbang Cranktoggle’s voice crackles through the speaker after you operate Buzzbox 411 farther south. Heavy drinking muddles his directions, but he points you north of Auberdine, to Buzzbox 323 near a road bridge. His research calls for six Moonstalker fangs from the fierce hunters roaming Darkshore’s forests.",
    "spoiler": 0
   },
   {
    "title": "Gnomish Field Machinery",
-   "body": "Approaching Buzzbox 323 reveals a machine that chatters with static and faint muttering even before repairs begin. Once the requested fangs are placed inside its intake hopper, the machine violently rattles to life, noisily pulverizing the teeth to dust. Wizbang's boozy voice promptly resumes over the transceiver, celebrating the delivery before prodding the traveler toward the next machine in his scattered network.",
+   "body": "Buzzbox 323 chatters with static and faint muttering before you begin. Place the requested fangs in its intake hopper, and the machine rattles violently, grinding the teeth into dust. Wizbang’s boozy voice returns through the transceiver to celebrate your delivery and point you toward the next machine in his scattered network.",
    "spoiler": 0
   }
  ],
@@ -38,7 +38,7 @@
     "where is buzzbox 323",
     "find buzzbox 323"
    ],
-   "answer": "Buzzbox 323 stands alongside the main road north of Auberdine, just near the bridge crossing the local river in Darkshore."
+   "answer": "Buzzbox 323 sits beside the main road north of Auberdine, near the bridge over the local river in Darkshore."
   },
   {
    "q": "Who is speaking through the Buzzbox?",
@@ -47,7 +47,7 @@
     "buzzbox gnome",
     "wizbang cranktoggle"
    ],
-   "answer": "The voice belongs to Wizbang Cranktoggle, a gnome inventor stationed elsewhere in Darkshore who communicates through remote transmitters while heavily indulging in ale."
+   "answer": "Wizbang Cranktoggle, a gnome inventor elsewhere in Darkshore, speaks through the remote transmitters while drinking ale."
   },
   {
    "q": "What does Buzzbox 323 do with the fangs?",
@@ -56,7 +56,7 @@
     "why moonstalker fangs",
     "buzzbox grinding"
    ],
-   "answer": "Upon dropping the Moonstalker fangs inside, internal gears immediately grind them down into fine powder as part of Wizbang's automated biological sampling mechanism."
+   "answer": "Place the Moonstalker fangs inside, and Buzzbox 323’s gears grind them into fine powder for Wizbang’s automated biological sampling."
   },
   {
    "q": "Where can I find Moonstalkers in Darkshore?",
@@ -65,7 +65,7 @@
     "moonstalker fang farm",
     "moonstalker location"
    ],
-   "answer": "Moonstalkers and their runts prowl the shaded woodlands and hills bordering the road both north and south of Auberdine."
+   "answer": "Moonstalkers and their runts prowl the shaded woodlands and hills along the road north and south of Auberdine."
   },
   {
    "q": "What quest comes before and after Buzzbox 323?",
@@ -74,7 +74,7 @@
     "what follows buzzbox 323",
     "buzzbox order"
    ],
-   "answer": "This assignment follows Buzzbox 411, which required thresher eyes, and directly precedes Buzzbox 525, which sends you to collect grizzled scalps from thistle bears far south along the road."
+   "answer": "Buzzbox 323 follows Buzzbox 411, where you gathered thresher eyes, and comes before Buzzbox 525, which sends you south along the road to collect grizzled scalps from thistle bears."
   },
   {
    "q": "Why does Wizbang sound so incoherent?",
@@ -82,21 +82,21 @@
     "why is wizbang drunk",
     "buzzbox voice slurring"
    ],
-   "answer": "Wizbang is thoroughly intoxicated while giving instructions, pausing to search for his ale and taking loud gulps between sentences."
+   "answer": "Wizbang is thoroughly intoxicated as he gives directions, pausing to search for his ale and taking loud gulps between sentences."
   }
  ],
  "angles": [
   {
    "target": "race:Gnome",
-   "text": "Wizbang's remote acoustic communication network showcases typical gnomish engineering flair\u2014even if his personal discipline leaves much to be desired."
+   "text": "As a gnome, you can hear Wizbang’s remote voice network at work, an example of gnomish engineering flair despite his poor personal discipline."
   },
   {
    "target": "race:NightElf",
-   "text": "While native night elves treat the fierce Moonstalkers with reverent caution, gnomish science reduces their lethal fangs to pulverized machine fuel."
+   "text": "As a night elf, you know the fierce Moonstalkers call for reverent caution. Gnomish science grinds their lethal fangs to dust."
   },
   {
    "target": "profession:Engineering",
-   "text": "The Buzzbox series demonstrates automated material processing coupled with long-range voice relay, an impressive technical design despite its rough operation."
+   "text": "As an engineer, you can see how the Buzzboxes combine automated material processing with long-range voice relay, despite their rough operation."
   }
  ],
  "keywords": [
@@ -117,5 +117,6 @@
  ],
  "attribution": [
   "Buzzbox 323 (quest)"
- ]
+ ],
+ "style": 1
 }

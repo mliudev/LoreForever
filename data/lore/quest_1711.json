@@ -17,16 +17,16 @@
   "wiki": "Mathiel's Armor",
   "chain": []
  },
- "summary": "\"Mathiel's Armor\" marks the completion of an armorsmithing effort undertaken by Mathiel in the Warrior's Terrace of Darnassus. By combining his own night elven craftsmanship with innovative dwarven metalworking methods devised by Furen Longbeard, Mathiel reforges exotic materials into protective battle gear. The quest represents a fruitful blending of allied traditions in service of Alliance warriors.",
+ "summary": "At the forge in Darnassus, Mathiel's Armor brings night elf and dwarven craft together. Mathiel works in the Warrior's Terrace, using methods devised by Furen Longbeard to shape exotic materials into armor for Alliance warriors.",
  "sections": [
   {
    "title": "A Blend of Crafts",
-   "body": "Night elven armorers traditionally favor methods honed over millennia, relying on harmony with nature, supple leathers, or delicately worked metals. However, the exchange between the night elves and the Eastern Kingdoms has prompted master smiths like Mathiel to experiment. By incorporating newly devised techniques from the dwarven armorer Furen Longbeard, Mathiel manages to meld dwarven metallurgy with elven artistry.",
+   "body": "Night elf armorers have favored methods honed over millennia, with work shaped by nature, supple leathers, and carefully worked metals. Trade with the Eastern Kingdoms has led smiths such as Mathiel to try new ways. He brings the dwarven techniques devised by Furen Longbeard together with elven craft.",
    "spoiler": 0
   },
   {
    "title": "Exotic Components",
-   "body": "Forging this resilient armor required sunscorched eggshells gathered from the Highperch wyvern nests of Thousand Needles. By rendering these sun-hardened shells into lacquer and applying Furen's heat-treatment formulas, Mathiel successfully created a resilient set of leggings designed to withstand brutal frontline combat.",
+   "body": "Mathiel needs sunscorched eggshells from the Highperch wyvern nests in Thousand Needles. He renders the sun-hardened shells into lacquer and uses Furen's heat-treatment formulas to forge resilient leggings for the front lines.",
    "spoiler": 0
   }
  ],
@@ -38,7 +38,7 @@
     "who is mathiel",
     "darnassus armorer"
    ],
-   "answer": "Mathiel is a skilled night elf armorsmith stationed in the Warrior's Terrace within Darnassus. He works closely with fellow craftsmen across the Alliance, testing new concepts developed by allies such as Furen Longbeard."
+   "answer": "Mathiel is a skilled night elf armorsmith in Darnassus's Warrior's Terrace. He works with fellow Alliance craftsmen and tests ideas from allies such as Furen Longbeard."
   },
   {
    "q": "Who is Furen Longbeard?",
@@ -46,7 +46,7 @@
     "furen",
     "furen longbeard"
    ],
-   "answer": "Furen Longbeard is a master dwarven armorsmith residing in Stormwind City. Known for inventing innovative techniques to temper and forge specialized armor plates, he regularly shares instructions and designs with allied smiths throughout the Alliance."
+   "answer": "Furen Longbeard is a master dwarven armorsmith who lives in Stormwind City. He devised methods for tempering and forging specialized armor plates, and shares instructions and designs with allied smiths."
   },
   {
    "q": "What materials were used to forge the armor?",
@@ -54,7 +54,7 @@
     "armor materials",
     "what is mathiel's armor made of"
    ],
-   "answer": "The armor is forged using sunscorched eggshells gathered below the Highperch wyvern nests in Thousand Needles, which Mathiel reinforces and shapes using Furen Longbeard's specific smithing procedures."
+   "answer": "The armor uses sunscorched eggshells gathered below the Highperch wyvern nests in Thousand Needles. Mathiel reinforces and shapes them with Furen Longbeard's smithing methods."
   },
   {
    "q": "Why is an elf using dwarven techniques?",
@@ -62,7 +62,7 @@
     "why dwarven smithing",
     "night elf dwarf collaboration"
    ],
-   "answer": "Alliance smiths frequently share knowledge to equip their fighters against escalating threats. While night elf smithing is renowned for finesse and durability, dwarven innovations provide exceptional hardening methods that Mathiel gladly incorporated."
+   "answer": "Alliance smiths share knowledge to equip their fighters against growing threats. Mathiel uses dwarven hardening methods alongside the finesse and durability of night elf smithing."
   },
   {
    "q": "Where does this quest take place?",
@@ -70,7 +70,7 @@
     "mathiel location",
     "where is mathiel"
    ],
-   "answer": "The quest begins and completes at the forge located in the Warrior's Terrace of Darnassus on the island of Teldrassil."
+   "answer": "The work begins and ends at the forge in Darnassus's Warrior's Terrace, on the island of Teldrassil."
   },
   {
    "q": "What is the previous quest in this chain?",
@@ -78,21 +78,21 @@
     "previous quest",
     "mathiels armor prereq"
    ],
-   "answer": "This quest immediately follows 'Sunscorched Shells', wherein an adventurer must travel to the far reaches of Kalimdor to acquire tough eggshells suitable for Mathiel's craft."
+   "answer": "The chain follows 'Sunscorched Shells', in which an adventurer travels to a distant part of Kalimdor to gather tough eggshells for Mathiel's craft."
   }
  ],
  "angles": [
   {
    "target": "class:Warrior",
-   "text": "For Alliance warriors, this quest chain produces sturdy leggings forged through the combined metallurgical wisdom of night elf and dwarven smiths."
+   "text": "For Alliance warriors, this chain yields sturdy leggings made with night elf and dwarven smithing knowledge."
   },
   {
    "target": "profession:Blacksmithing",
-   "text": "The project serves as a shining example of inter-factional crafting, proving that rigid dwarven tempering can harmonize with elegant night elven forge craft."
+   "text": "Dwarven tempering and night elf forge craft come together in this work."
   },
   {
    "target": "faction:Alliance",
-   "text": "Mathiel and Furen's collaboration illustrates the practical military benefits of the Alliance, uniting distant peoples through shared trade and mutual defense."
+   "text": "Mathiel and Furen's partnership shows how the Alliance unites distant peoples through trade and mutual defense to serve its military needs."
   }
  ],
  "keywords": [
@@ -110,5 +110,6 @@
  ],
  "attribution": [
   "Mathiel's Armor"
- ]
+ ],
+ "style": 1
 }

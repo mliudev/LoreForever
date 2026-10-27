@@ -7,16 +7,16 @@
  "meta": {
   "wiki": "Grol'dom Farm"
  },
- "summary": "Grol'dom Farm is a modest orcish homestead situated in the northern Barrens along the road between Durotar and the Crossroads. Inhabited by Kranal Fiss and his family, the farm raises swine in the arid plains despite constant harassment from aggressive local quilboars.",
+ "summary": "Along the road from Durotar to the Crossroads, Grol'dom Farm raises swine in the northern Barrens. Kranal Fiss and his family work the homestead, despite constant harassment from aggressive local quilboars.",
  "sections": [
   {
    "title": "A Swine Farm in the Savannah",
-   "body": "Established following the settlement of Durotar, Grol'dom Farm represents the Horde's early efforts to farm the dry expanse of the Barrens. Tended by the orc Kranal Fiss and his children, the small homestead primarily raises pigs while braving the harsh wildlife and aggressive Razormane quilboar raiders that prowl the nearby ridges. It is a lonely, rugged outpost that supplies vital sustenance to the emerging orcish nation.",
+   "body": "Established after Durotar was settled, Grol'dom Farm is an early Horde effort to farm the dry Barrens. Kranal Fiss and his children tend the homestead and raise pigs, while Razormane quilboar raiders prowl the nearby ridges. The farm supplies sustenance to the emerging orcish nation, though life here remains lonely and rugged.",
    "spoiler": 0
   },
   {
    "title": "A Beacon for Young Shaman",
-   "body": "Beyond its mundane function as a pig farm, the homestead holds quiet importance for Horde initiates on the spiritual path. Kranal Fiss possesses deep knowledge of elemental rites and plays a key role in guiding young shaman through their trials. Seekers traveling west from Orgrimmar are regularly directed to this humble farm to learn the secrets necessary to commune with the primal spirits of fire.",
+   "body": "Grol'dom Farm is a pig farm, but its purpose reaches beyond that daily work. Kranal Fiss knows the elemental rites and plays a key part in guiding young shaman through their trials. Horde initiates on the spiritual path hold the farm in quiet regard, and seekers traveling west from Orgrimmar are regularly directed here to learn how to commune with the primal spirits of fire.",
    "spoiler": 0
   }
  ],
@@ -28,7 +28,7 @@
     "what is this place barrens",
     "orc pig farm"
    ],
-   "answer": "Grol'dom Farm is an orcish swine farm located in the northern Barrens. Established after the founding of Orgrimmar, it serves as a remote homestead worked by the orc Kranal Fiss and his children."
+   "answer": "Grol'dom Farm is an orcish swine farm in the northern Barrens, along the road between Durotar and the Crossroads. Established after Orgrimmar was founded, it is a remote homestead worked by Kranal Fiss and his children."
   },
   {
    "q": "Who lives at Grol'dom Farm?",
@@ -37,7 +37,7 @@
     "who lives here",
     "kranal fiss home"
    ],
-   "answer": "The farm is tended by an orc named Kranal Fiss along with his children. Together they maintain the pens, herd the pigs, and defend their meager livelihood against roving beasts and quilboar raiders."
+   "answer": "Kranal Fiss and his children live at the farm. They tend the pens, herd the pigs, and defend their meager livelihood against roving beasts and quilboar raiders."
   },
   {
    "q": "Why do shamans come to Grol'dom Farm?",
@@ -46,7 +46,7 @@
     "why come to groldom",
     "kranal fiss shaman"
    ],
-   "answer": "Kranal Fiss possesses knowledge of elemental rites. Orc and tauren shaman are routinely sent to speak with him during their early training to undergo trials necessary to earn their Call of Fire and manifest the Fire Totem."
+   "answer": "Kranal Fiss knows the elemental rites, and orc and tauren shaman are routinely sent to speak with him during their early training. He guides them through trials needed to earn their Call of Fire and manifest the Fire Totem."
   },
   {
    "q": "What threats face the farm?",
@@ -55,17 +55,17 @@
     "who attacks groldom",
     "farm enemies"
    ],
-   "answer": "The surrounding savannah is infested with the Razormane tribe of quilboars. These aggressive raiders constantly harass the farm, threatening the livestock and endangering Kranal's family."
+   "answer": "Razormane quilboars from the surrounding savannah constantly harass the farm. Their raids threaten the livestock and endanger Kranal's family."
   }
  ],
  "angles": [
   {
    "target": "class:Shaman",
-   "text": "For initiates walking the elemental path, Grol'dom Farm is a vital milestone where Kranal Fiss guides you through the dangerous rites required to commune with the spirits of fire."
+   "text": "As a shaman initiate walking the elemental path, you come to Grol'dom Farm to face the dangerous rites Kranal Fiss guides you through, rites needed to commune with the spirits of fire."
   },
   {
    "target": "faction:Horde",
-   "text": "Homesteads like Grol'dom Farm showcase the grit required by early Horde settlers trying to carve a sustainable life out of the harsh, untamed Barrens."
+   "text": "As a member of the Horde, you can see in Grol'dom Farm the grit early settlers need to make a sustainable life in the harsh, untamed Barrens."
   }
  ],
  "keywords": [
@@ -86,5 +86,6 @@
  ],
  "attribution": [
   "Grol'dom Farm"
- ]
+ ],
+ "style": 1
 }

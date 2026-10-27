@@ -97,19 +97,71 @@ test("no first words from Together in time: Gemini answers instead", async t => 
   assert.equal((await answer).answer, FROM_GEMINI);
 });
 
-test("an answer inside an offered action comes back whole from Together, and an offer is never streamed", async () => {
+// An action's arguments in pieces, as Together streams them.
+const piece = (name, args) => ({ choices: [{ delta: { tool_calls: [{ index: 0, function: { ...(name ? { name } : {}), arguments: args } }] } }] });
+const toolsDone = { choices: [{ delta: {}, finish_reason: "tool_calls" }], usage: { prompt_tokens: 300, completion_tokens: 20 } };
+
+test("an answer inside an offered action comes from Together whole, or streamed as her words while it's written", async () => {
   const offer = { systemInstruction: { parts: [{ text: "rules" }] }, contents: [{ role: "user", parts: [{ text: "Change your voice?" }] }],
     tools: [{ functionDeclarations: [{ name: "set_voice", description: "Set her voice", parameters: { type: "object",
       properties: { answer: { type: "string" }, voice: { type: "string" } }, required: ["answer"] } }] }],
     toolConfig: { functionCallingConfig: { mode: "ANY" } }, generationConfig: { temperature: 0.4, maxOutputTokens: 512 } };
-  // The action's arguments arrive in pieces, as Together streams them.
-  const call = (name, args) => ({ choices: [{ delta: { tool_calls: [{ index: 0, function: { ...(name ? { name } : {}), arguments: args } }] } }] });
-  const fetcher = async () => new Response(events([call("set_voice", "{\"answer\":\"I'll sound like Moon"), call("", "well now.\",\"voice\":\"moonwell\"}"),
-    { choices: [{ delta: {}, finish_reason: "tool_calls" }] }]), { headers: { "Content-Type": "text/event-stream" } });
-  const result = await (await viaTogether(env, offer, "deepseek-ai/DeepSeek-V4.1-Flash", { fetcher })).json();
-  assert.deepEqual(result.candidates[0].content.parts.find(p => p.functionCall).functionCall,
-    { name: "set_voice", args: { answer: "I'll sound like Moonwell now.", voice: "moonwell" } });
-  await assert.rejects(viaTogether(env, offer, "deepseek-ai/DeepSeek-V4.1-Flash", { stream: true, fetcher }));
+  // An escape split between two pieces ("\" then "n") waits for its second half.
+  const fetcher = async () => new Response(events([piece("set_voice", "{\"answer\":\"I'll sound like Moon"),
+    piece("", "well.\\"), piece("", "nWant me to \\u0073witch?\",\"voice\":\"moonwell\"}"), toolsDone]),
+  { headers: { "Content-Type": "text/event-stream" } });
+  const moonwell = { functionCall: { name: "set_voice", args: { answer: "I'll sound like Moonwell.\nWant me to switch?",
+    voice: "moonwell" } } };
+  const whole = await (await viaTogether(env, offer, "deepseek-ai/DeepSeek-V4.1-Flash", { fetcher })).json();
+  assert.deepEqual(whole.candidates[0].content.parts, [moonwell]);
+  const streamed = await (await viaTogether(env, offer, "deepseek-ai/DeepSeek-V4.1-Flash", { stream: true, fetcher })).text();
+  const parts = streamed.split("\n").filter(l => l.startsWith("data:"))
+    .flatMap(l => JSON.parse(l.slice(5)).candidates[0].content.parts);
+  assert.deepEqual(parts.filter(p => p.text).map(p => p.text), ["I'll sound like Moon", "well.", "\nWant me to switch?"]);
+  assert.deepEqual(parts.filter(p => p.functionCall), [moonwell]);
+});
+
+// LOR-844 step 0: offering tools no longer holds back her spoken words. The call still comes first and carries her
+// answer (tool_choice "required": the tools lab lost a third of the offers to "auto"), and her words stream out of it.
+const VOICES = "Can you show me your voices?";
+test("a spoken question offered an action: her words go out first, and the offer comes after them", async () => {
+  const sent = [];
+  together = options => {
+    sent.push(JSON.parse(options.body));
+    return new Response(events([piece("open_settings", "{\"answer\":\"My voices are on their own card.\\n"),
+      piece("", "~~~\\nSettings has them all.\""), piece("", ",\"section\":\"voice\"}"), toolsDone]),
+    { headers: { "Content-Type": "text/event-stream" } });
+  };
+  const res = await onRequest({ env, request: new Request("https://example.test/api/companion/answer", {
+    method: "POST", headers: { "X-LF-Client": "companion/0.1.0", Authorization: `Bearer ${await linked()}`,
+      "Content-Type": "application/json" },
+    body: JSON.stringify({ prompt: `PLAYER CONTEXT\nzone: Durotar\n\nQUESTION\n${VOICES}`, persona: "willo",
+      style: "spoken", layers: 2 }) }) });
+  const lines = (await res.text()).trim().split("\n").map(l => JSON.parse(l));
+  assert.equal(lines.length, 2, "her words on a line of their own, before the answer");
+  assert.match(lines[0].say, /voices/i);
+  assert.equal(lines[1].action?.id, "open_settings");
+  assert.deepEqual(lines[1].action.args, { section: "voice" });
+  assert.equal(lines[1].answer, "My voices are on their own card. Settings has them all.");
+  assert.deepEqual([sent.length, sent[0].stream, sent[0].tool_choice], [1, true, "required"]);
+  assert.ok(!geminiCalled());
+});
+
+test("Together failing an offered answer: Gemini answers it with the call that carries the answer, as before", async () => {
+  together = () => new Response("busy", { status: 503 });
+  const mocked = globalThis.fetch;
+  let geminiBody;
+  globalThis.fetch = async (url, options) => {
+    if (!String(url).includes("generativelanguage")) return mocked(url, options);
+    geminiBody = JSON.parse(options.body);
+    return Response.json({ candidates: [{ content: { parts: [{ functionCall: { name: "open_settings",
+      args: { answer: FROM_GEMINI, section: "voice" } } }] }, finishReason: "STOP" }],
+      usageMetadata: { promptTokenCount: 300, candidatesTokenCount: 20 } });
+  };
+  const reply = await ask({ question: VOICES, style: "spoken", layers: 2 });
+  assert.equal(reply.answer, FROM_GEMINI);
+  assert.equal(reply.action?.id, "open_settings");
+  assert.equal(geminiBody.toolConfig.functionCallingConfig.mode, "ANY");
 });
 
 test("a rush of fallbacks opens Together's breaker: answers skip it, say so, and try it again after", async t => {
@@ -196,4 +248,26 @@ test("without the setting, every answer stays on Gemini", async () => {
   } finally {
     env.WILLO_ANSWER_HOST = host;
   }
+});
+
+// LOR-844 steps 1 and 6 on DeepSeek: her friends tools ride beside her app's only on a question that may ask for one,
+// so everyday answers stay as fast (the Architect, 10/26); what she says of their Friends is still the site's.
+test("her friends tools ride on DeepSeek only for a question that may ask, and what she says of Friends is the site's", async () => {
+  const sent = [];
+  let reply;
+  together = options => {
+    sent.push(JSON.parse(options.body));
+    return new Response(events(reply ? [piece(reply.name, JSON.stringify(reply.args)), toolsDone]
+      : [words(FROM_TOGETHER), end]), { headers: { "Content-Type": "text/event-stream" } });
+  };
+  reply = null;
+  assert.equal((await ask({ question: "Where is Thrall?" })).answer, FROM_TOGETHER);
+  const offered = body => (body.tools || []).map(t => t.function.name);
+  assert.ok(!offered(sent[0]).includes("friends_look"), "an everyday question carries no friends tools (speed)");
+  reply = { name: "friends_look", args: { answer: "Your code is 1234.", what: "code" } };
+  const code = await ask({ question: "what's my friend code?" });
+  assert.ok(offered(sent[1]).includes("friends_look"));
+  assert.match(code.answer, /friend code is/i);
+  assert.doesNotMatch(code.answer, /1234/);
+  assert.ok(!geminiCalled());
 });

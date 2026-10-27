@@ -10,16 +10,16 @@
    "quest:1512"
   ]
  },
- "summary": "The Dirt-Caked Pendant is a personal keepsake belonging to the captured orc Dogran. Given to an aspiring warlock in the Barrens, it serves as a crucial emotional bait to lure and bind a succubus in Orgrimmar.",
+ "summary": "In the Barrens, a captive orc gives up the Dirt-Caked Pendant he carried. The keepsake reaches Gan'rul Bloodeye in Orgrimmar, where it is used to draw a succubus.",
  "sections": [
   {
    "title": "A Tragic Token",
-   "body": "Held by the broken warrior Dogran during his torment in the Barrens, the Dirt-Caked Pendant represents his unspoken love for his mate, Zankaja. Poisoned and crippled beyond recovery, Dogran surrendered the pendant rather than return as a burden to her, choosing instead to perish fighting his captors in battle. Entrusted to a warlock, the grim memento was carried back to Orgrimmar so that its heavy burden of heartbreak and devotion could be repurposed by the warlocks of the Cleft of Shadow.",
+   "body": "Dogran gives up the Dirt-Caked Pendant while held captive in the Barrens. Poisoned and crippled beyond recovery, he will not return to his mate, Zankaja, as a burden. He chooses to die fighting his captors instead. The pendant carries his unspoken love for her. A warlock takes the keepsake to Orgrimmar, where the warlocks of the Cleft of Shadow put its heartbreak and devotion to use.",
    "spoiler": 1
   },
   {
    "title": "Bait for a Demon",
-   "body": "In the subterranean depths of the Cleft of Shadow, Gan'rul Bloodeye recognizes the dark potential woven into such relics. A succubus thrives upon mortal yearning, romance, and tragedy. By cleaning and polishing Dogran's pendant until it shines, the warlock master transforms a symbol of devoted love into an irresistible spiritual lure, calling forth a succubus to be dominated through ritual combat.",
+   "body": "In the Cleft of Shadow, Gan'rul Bloodeye sees how the pendant can draw a succubus. These demons are drawn to mortal yearning, romance, and tragedy. The warlock cleans and polishes Dogran's pendant until it shines, turning a token of devoted love into a lure. The warlock then calls a succubus forth to face ritual combat and be dominated.",
    "spoiler": 1
   }
  ],
@@ -31,7 +31,7 @@
     "where do i get the pendant",
     "who gives the pendant"
    ],
-   "answer": "The pendant is handed over by Dogran, a captive orc warrior held in the Barrens, after you administer Ken'zigla's draught to revive his senses."
+   "answer": "Dogran, a captive orc warrior in the Barrens, hands you the pendant after you give him Ken'zigla's draught and revive his senses."
   },
   {
    "q": "What is the pendant's connection to Zankaja?",
@@ -40,7 +40,7 @@
     "dogran and zankaja",
     "pendant meaning"
    ],
-   "answer": "Zankaja is Dogran's mate in Orgrimmar. Dogran chose to give up the pendant and hide his survival from her so she would not be saddled with caring for an invalid warrior."
+   "answer": "Zankaja is Dogran's mate in Orgrimmar. He gives up the pendant and hides that he survived so she will not have to care for him as an invalid warrior."
   },
   {
    "q": "Why does Gan'rul Bloodeye need this specific pendant?",
@@ -49,7 +49,7 @@
     "succubus bait pendant",
     "ganrul bloodeye pendant"
    ],
-   "answer": "Succubi are drawn to strong mortal emotions, particularly romance, heartbreak, and devotion. Once cleaned, Dogran's pendant serves as a potent focus to summon a succubus into the summoning circle."
+   "answer": "Succubi are drawn to powerful mortal feelings, especially romance, heartbreak, and devotion. Once cleaned, Dogran's pendant can focus the call that draws a succubus into the summoning circle."
   },
   {
    "q": "What happens after the pendant is delivered to Orgrimmar?",
@@ -57,17 +57,17 @@
     "what next pendant",
     "what to do with pendant"
    ],
-   "answer": "Gan'rul Bloodeye cleans the pendant and uses its allure to initiate The Binding, drawing a succubus into the circle beneath the Cleft of Shadow for the warlock to defeat and subjugate."
+   "answer": "After you deliver the pendant to Orgrimmar, Gan'rul Bloodeye cleans it and uses its allure to begin The Binding. A succubus is drawn into the circle beneath the Cleft of Shadow for you to defeat and subjugate."
   }
  ],
  "angles": [
   {
    "target": "class:Warlock",
-   "text": "For warlocks in training, the pendant illustrates the dark art of leveraging mortal grief and devotion to command demons from the Twisting Nether."
+   "text": "As a warlock in training, you see how mortal grief and devotion can help command demons from the Twisting Nether."
   },
   {
    "target": "race:Orc",
-   "text": "The pendant embodies Dogran's bittersweet choice: refusing to burden his clan and mate as a cripple, he sacrificed his keepsake to buy a warrior's final stand."
+   "text": "As an orc, you see Dogran's bittersweet choice: he refuses to burden his clan and mate as a cripple, giving up his keepsake to make a warrior's final stand."
   }
  ],
  "keywords": [
@@ -91,5 +91,6 @@
  "attribution": [
   "Dirt-Caked Pendant",
   "Love's Gift"
- ]
+ ],
+ "style": 1
 }

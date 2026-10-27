@@ -26,16 +26,16 @@
    "The Binding (Succubus, Orgrimmar)"
   ]
  },
- "summary": "Devourer of Souls is the opening task in an aspiring Horde warlock's journey to summon and command a succubus. Offered by Gan'rul Bloodeye deep within the Cleft of Shadow, the quest sends the practitioner across the cavern to consult the ancient warlock Cazul on how to lure and bind such a manipulative demon.",
+ "summary": "Gan'rul Bloodeye sends an aspiring Horde warlock to begin the path to summoning and commanding a succubus. In Orgrimmar's Cleft of Shadow, the warlock seeks Cazul's counsel on luring and binding the demon.",
  "sections": [
   {
    "title": "A Step Into Seductive Shadows",
-   "body": "Warlocks of the Horde who have mastered lesser demons like the imp and the voidwalker eventually reach a point where brute force is no longer enough. Gan'rul Bloodeye, overseer of dark arts beneath Orgrimmar, judges when a warlock is ready to reach into the Twisting Nether for a succubus\u2014a creature notorious for turning the minds of the frail against themselves. Binding such a fiend requires subtle methods rather than sheer strength.",
+   "body": "Horde warlocks who master lesser demons such as imps and voidwalkers may seek a succubus next. Gan'rul Bloodeye oversees the dark arts beneath Orgrimmar and judges when a warlock is ready to call one from the Twisting Nether. A succubus can turn the frail against themselves, so binding one takes subtlety as well as strength.",
    "spoiler": 0
   },
   {
    "title": "The Lore of Cazul",
-   "body": "Because a succubus preys on mortal desires, it cannot be summoned by raw incantations alone; it must be baited into our world with an object imbued with pure love and devotion. Unwilling or unable to provide such a relic himself, Gan'rul directs the summoner to Cazul, an ancient warlock lurking within the Cleft of Shadow whose extensive knowledge of the arcane and demonic rites guides the next phase of the ritual.",
+   "body": "A succubus preys on mortal desire, so raw incantations cannot call one alone. The summoner must lure it with an object filled with pure love and devotion. Gan'rul is unwilling or unable to provide such a relic himself, so he sends the warlock across the Cleft of Shadow to Cazul. The ancient warlock knows the arcane and demonic rites needed for the next part of the ritual.",
    "spoiler": 0
   }
  ],
@@ -47,7 +47,7 @@
     "succubus quest start",
     "what does this quest unlock"
    ],
-   "answer": "Devourer of Souls initiates the Horde quest chain required to learn the ritual to summon a succubus minion. It connects you with mentors in the Cleft of Shadow who teach you the nature of the demon and how to lure one from the Twisting Nether."
+   "answer": "This begins an aspiring Horde warlock's path to learning how to summon and command a succubus. It connects you with mentors in the Cleft of Shadow, who teach you the demon's nature and how to lure one from the Twisting Nether."
   },
   {
    "q": "Where do I find Cazul?",
@@ -56,7 +56,7 @@
     "where is cazul",
     "find cazul orgrimmar"
    ],
-   "answer": "Cazul is located within the Cleft of Shadow, the subterranean cavern hidden beneath Orgrimmar where the city's rogue and warlock trainers practice their forbidden arts away from the scrutiny of the Warchief."
+   "answer": "Cazul is in the Cleft of Shadow, a cavern beneath Orgrimmar where rogue and warlock trainers practice away from the Warchief's scrutiny."
   },
   {
    "q": "Why does a warlock need an object of love to summon a succubus?",
@@ -65,7 +65,7 @@
     "why love item for succubus",
     "succubus summoning lore"
    ],
-   "answer": "Succubi are demonic manipulators that feed upon mortal emotion, devotion, and weak will. To draw one across the veil of the Twisting Nether, a summoner must offer a potent talisman of genuine devotion and affection as bait before overpowering and binding the creature."
+   "answer": "Succubi feed on mortal emotion, devotion, and weak will. To draw one from the Twisting Nether, a summoner offers a potent token of genuine devotion and affection as bait, then overpowers and binds the demon."
   },
   {
    "q": "Who is Gan'rul Bloodeye?",
@@ -74,7 +74,7 @@
     "gan'rul lore",
     "ganrul bloodeye"
    ],
-   "answer": "Gan'rul Bloodeye is a senior warlock trainer of the Horde residing in Orgrimmar's Cleft of Shadow. He guides developing practitioners through the dangerous bindings of increasingly powerful demonic servants."
+   "answer": "Gan'rul Bloodeye is a senior Horde warlock trainer in Orgrimmar's Cleft of Shadow. He guides developing practitioners through the bindings of increasingly powerful demonic servants."
   },
   {
    "q": "What level is required to begin this quest?",
@@ -83,7 +83,7 @@
     "devourer of souls level",
     "succubus chain level req"
    ],
-   "answer": "A warlock must reach level 20 before Gan'rul Bloodeye considers their magical prowess and mental fortitude sufficient to undertake the ritual and survive bargaining with a succubus."
+   "answer": "A warlock must reach level twenty before Gan'rul judges their magical prowess and mental fortitude sufficient. The ritual means bargaining with a succubus and surviving the encounter."
   },
   {
    "q": "What follows after speaking with Cazul?",
@@ -92,17 +92,17 @@
     "what comes after cazul",
     "succubus quest progression"
    ],
-   "answer": "Speaking to Cazul leads into the quest 'Blind Cazul', which sends the summoner to Zankaja in Orgrimmar, whose mate Dogran has not returned from duty at the Crossroads. The search for a suitable token of love begins with her."
+   "answer": "Speaking with Cazul leads to Blind Cazul. There, you seek Zankaja in Orgrimmar, whose mate Dogran has not returned from duty at the Crossroads. The search for a suitable token of love begins with her."
   }
  ],
  "angles": [
   {
    "target": "class:Warlock",
-   "text": "This quest marks your transition into commanding demons of mental dominance and seduction, demanding psychological resolve as well as raw fel power."
+   "text": "As a warlock, you take a step toward commanding demons of mental dominance and seduction. The rite calls for psychological resolve as well as raw fel power."
   },
   {
    "target": "faction:Horde",
-   "text": "Unlike the public shamans and warriors of Thrall's Horde, warlocks must conduct these dangerous rites hidden away within the damp, secluded crevices of the Cleft of Shadow."
+   "text": "As a member of the Horde, you see warlocks conduct dangerous rites in the Cleft of Shadow's damp, secluded crevices. Thrall's shamans and warriors practice in public, while warlocks work out of sight."
   }
  ],
  "keywords": [
@@ -127,5 +127,6 @@
  ],
  "attribution": [
   "Devourer of Souls (Orgrimmar)"
- ]
+ ],
+ "style": 1
 }

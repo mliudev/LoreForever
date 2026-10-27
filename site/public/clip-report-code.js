@@ -25,6 +25,8 @@ const PREFIX = "LoreForever_Voice_";
 // The site's names for our narrators (public/voices/voices.json ids) -> their packs.
 const SITE_VOICES = { "male-narrator": "LoreForever_Voice_Default", "female-narrator": "LoreForever_Voice_Female",
   "original-male-narrator": "LoreForever_Voice_Original" };
+// The site's language segments (pipeline/lore/site_i18n.py LANGS) -> the add-on's locales.
+const SITE_LOCALES = { de: "deDE", es: "esES", fr: "frFR", it: "itIT", "pt-br": "ptBR", ru: "ruRU", uk: "ukUA", zh: "zhCN" };
 
 // A voice as the folder name of its narrator's pack, so reports from the add-on (which names the pack that played,
 // lands and quest dialogue packs included) and from the site (voices.json ids) group together:
@@ -35,6 +37,11 @@ const SITE_VOICES = { "male-narrator": "LoreForever_Voice_Default", "female-narr
 export function normalizeVoice(v) {
   let s = String(v ?? "").trim();
   if (SITE_VOICES[s]) return SITE_VOICES[s];
+  // A narrator on a page in another language ("female-narrator-de", pipeline/lore/site_i18n.py): that language's pack.
+  for (const [seg, locale] of Object.entries(SITE_LOCALES)) {
+    const base = s.endsWith(`-${seg}`) ? SITE_VOICES[s.slice(0, -seg.length - 1)] : null;
+    if (base) return `${base}_${locale}`;
+  }
   if (!s.startsWith(PREFIX)) s = PREFIX + s;
   s = s.replace(/^(LoreForever_Voice_(?:Default|Female|Original))(?:_(?:Alliance|Horde|Quests[23]?|Answers_[A-Z][a-z]+\d?))+(_[a-z]{2}[A-Z]{2})?$/, "$1$2");
   return VOICE.test(s) ? s : null;

@@ -26,16 +26,16 @@
    "The Binding (Succubus, Orgrimmar)"
   ]
  },
- "summary": "Love's Gift is the penultimate quest in the Horde warlock chain to summon and bind a succubus. After being tracked down and revived in the Barrens, the dying Grunt Dogran relinquishes a treasured keepsake to provide the bait necessary for the dark ritual.",
+ "summary": "In Orgrimmar, Gan'rul Bloodeye awaits a pendant for the succubus rite. Dogran gives up a treasured keepsake after being found and revived in the Barrens.",
  "sections": [
   {
    "title": "A Grunt's Sacrifice",
-   "body": "Found imprisoned and tortured by the Bristleback quilboar in the Barrens, Grunt Dogran is nursed back to consciousness by Ken'zigla's draught. Knowing his body is broken beyond recovery, Dogran resolves to face death in glorious battle rather than return to his mate, Zankaja, as an invalid. He surrenders a dirt-caked pendant\u2014a gift born of pure love\u2014asking only that she never learn of what he gave up.",
+   "body": "Grunt Dogran was held and tortured by the Bristleback quilboar in the Barrens. Ken'zigla's draught brings him back to consciousness, but his body cannot recover. He chooses to meet death in battle rather than return to his mate, Zankaja, unable to fight. Dogran gives up a dirt-caked pendant, a gift born of love, and asks that Zankaja never learn what he surrendered.",
    "spoiler": 1
   },
   {
    "title": "Bait for a Demon",
-   "body": "To summon and subjugate a succubus, a warlock requires a talisman of intense, unblemished emotion. Succubi feed on mortal desire and pervert genuine affection into anguish. Dogran's pendant carries the weight of authentic devotion and tragic parting. Returned to Gan'rul Bloodeye in the shadowy clefts of Orgrimmar, the talisman is cleaned and polished so its radiant emotional resonance can lure the devourer of souls across the Twisting Nether.",
+   "body": "A warlock needs a talisman charged with strong, unblemished emotion to summon and control a succubus. These demons feed on mortal desire and twist genuine affection into anguish. Dogran's pendant bears his devotion and their parting. Bring it to Gan'rul Bloodeye in Orgrimmar's shadowy clefts, where it is cleaned and polished. Its bright emotional force can draw the soul-devourer across the Twisting Nether.",
    "spoiler": 0
   }
  ],
@@ -47,7 +47,7 @@
     "succubus bait",
     "why dirt-caked pendant"
    ],
-   "answer": "Succubi are demonic beings drawn to deep mortal passions, which they twist and consume. Dogran's pendant represents selfless love and heartfelt sacrifice, making it the perfect mystical lure to entice a succubus into the summoner's circle."
+   "answer": "Succubi are drawn to deep mortal passions, which they twist and consume. Dogran's pendant holds selfless love and sacrifice, making it a potent lure for a succubus."
   },
   {
    "q": "Who is Grunt Dogran?",
@@ -55,7 +55,7 @@
     "who is dogran",
     "grunt dogran lore"
    ],
-   "answer": "Dogran is a Horde warrior captured and brutally tortured by the Bristleback quilboar in the southern Barrens. Though rescued and revived with an alchemical tonic, his grievous injuries leave him unable to live as a proud warrior."
+   "answer": "Grunt Dogran is a Horde warrior captured and tortured by the Bristleback quilboar in the southern Barrens. An alchemical tonic revives him, but his injuries leave him unable to live as a proud warrior."
   },
   {
    "q": "Who is Zankaja?",
@@ -63,7 +63,7 @@
     "zankaja lore",
     "dogran mate"
    ],
-   "answer": "Zankaja is Dogran's young mate who waited anxiously for news of his whereabouts. To spare her the sorrow and burden of nursing a broken shell, Dogran chooses to give up her token and seek a warrior's death."
+   "answer": "Zankaja is Dogran's young mate, who waited anxiously for news of him. He gives up her token and chooses to seek a warrior's death rather than burden her with caring for him."
   },
   {
    "q": "Why does Dogran ask you to keep this secret from Zankaja?",
@@ -71,7 +71,7 @@
     "why not tell zankaja",
     "dogran secret"
    ],
-   "answer": "Dogran refuses to chain a young mate to a dying invalid. He surrenders her pendant knowing it will never return to her, but begs that she be spared the guilt of knowing how his fate ended."
+   "answer": "Dogran does not want his young mate bound to a dying invalid. He gives up her pendant, knowing it will not return to her, and asks that she be spared the guilt of learning how his fate ended."
   },
   {
    "q": "Who cleans the pendant and why?",
@@ -79,7 +79,7 @@
     "gan'rul bloodeye role",
     "why clean the pendant"
    ],
-   "answer": "Gan'rul Bloodeye, the warlock trainer in Orgrimmar, takes the pendant. He cleans off the filth and grime so its bright, pristine appearance and emotional resonance will prove irresistible to the summoned demon."
+   "answer": "Gan'rul Bloodeye, the warlock trainer in Orgrimmar, takes the pendant and cleans away its filth. Its bright appearance and emotional force can then draw the summoned demon."
   },
   {
    "q": "What happens immediately after completing this quest?",
@@ -87,17 +87,17 @@
     "what comes next",
     "next quest after love's gift"
    ],
-   "answer": "Gan'rul Bloodeye directs you to bring the purified pendant into the summoning circle beneath Orgrimmar to cast the binding ritual and defeat the succubus in single combat."
+   "answer": "Gan'rul Bloodeye sends you to carry the purified pendant into the summoning circle beneath Orgrimmar. There you cast the binding rite and face the succubus alone."
   }
  ],
  "angles": [
   {
    "target": "class:Warlock",
-   "text": "The binding of a succubus teaches warlocks that demons are not merely summoned with arcane power, but ensnared by exploiting their hunger for raw mortal passions like love and grief."
+   "text": "As a warlock, you learn that arcane power alone cannot bind a demon. A succubus can be ensnared by turning its hunger for mortal passions like love and grief against it."
   },
   {
    "target": "faction:Horde",
-   "text": "Grunt Dogran embodies the harsh martial ethos of the Horde, preferring to die on the battlefield rather than live as a crippled burden to his kin."
+   "text": "As a member of the Horde, you see Grunt Dogran choose death in battle over life as a burden to his kin."
   }
  ],
  "keywords": [
@@ -122,5 +122,6 @@
  ],
  "attribution": [
   "Love's Gift"
- ]
+ ],
+ "style": 1
 }

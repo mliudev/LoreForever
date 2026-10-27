@@ -10,11 +10,11 @@
    "quest:821"
   ]
  },
- "summary": "A thunder lizard horn is a hardy trophy harvested from the massive, lightning-attuned thunder lizards wandering the Barrens. Brewmaster Drohn in Ratchet seeks this unusual reagent to recreate a legendary beverage originally concocted by Chen Stormstout.",
+ "summary": "In the Barrens, Brewmaster Drohn seeks a Thunder Lizard Horn for Chen Stormstout's legendary brew.",
  "sections": [
   {
    "title": "A Potent Brewing Reagent",
-   "body": "Thunder lizards roam the arid flats of the Barrens, crackling with raw, localized lightning that arcs from their crested bodies. While hunters occasionally seek their thick hides, Brewmaster Drohn in Ratchet values their horns for a very different purpose. Handed down from a mentor who learned it from the wandering pandaren Brewmaster Chen Stormstout, the recipe for Stormstout ale calls for unusual, potent local ingredients. The horn of a thunder lizard provides the electrifying kick that gives the legendary draught its fiery, unforgettable bite.",
+   "body": "Thunder lizards roam the Barrens, their crested bodies crackling with lightning. Brewmaster Drohn in Ratchet values their horns as an ingredient for Stormstout ale. His mentor learned the recipe from the wandering pandaren Brewmaster Chen Stormstout and passed it down to Drohn. The horn gives the drink its potent kick.",
    "spoiler": 0
   }
  ],
@@ -26,7 +26,7 @@
     "what uses thunder lizard horn",
     "why do i need thunder lizard horn"
    ],
-   "answer": "The horn is used by Brewmaster Drohn in Ratchet as an essential ingredient to recreate Chen Stormstout's famous namesake brew, known for its potent kick."
+   "answer": "Brewmaster Drohn in Ratchet uses the horn as an ingredient in the brew Chen Stormstout made famous."
   },
   {
    "q": "Which beasts yield a thunder lizard horn?",
@@ -35,7 +35,7 @@
     "who drops thunder lizard horn",
     "thunder lizard horn sources"
    ],
-   "answer": "Any of the thunder lizard breeds across the Barrens can yield a horn, including thunderheads, stormsnouts, thunderstomps, stormhides, and the elusive beast Owatanka."
+   "answer": "Thunderheads, stormsnouts, thunderstomps, stormhides, and the elusive Owatanka can yield a thunder lizard horn."
   },
   {
    "q": "Who is Brewmaster Drohn?",
@@ -44,7 +44,7 @@
     "brewmaster drohn lore",
     "drohn ratchet"
    ],
-   "answer": "Brewmaster Drohn is a brewer operating out of the goblin port of Ratchet. His former mentor learned the stormstout recipe directly from the famed wanderer Chen Stormstout and passed it down to him."
+   "answer": "Brewmaster Drohn brews in Ratchet. His former mentor learned the Stormstout recipe from Chen Stormstout and passed it down to him."
   },
   {
    "q": "Are thunder lizards dangerous to hunt for their horns?",
@@ -52,17 +52,17 @@
     "how tough are thunder lizards",
     "hunting thunder lizards"
    ],
-   "answer": "Thunder lizards are formidable beasts that naturally discharge lightning and unleash thunderous stomps when provoked, making harvesting their horns a hazardous endeavor for solitary travelers."
+   "answer": "Thunder lizards can discharge lightning and unleash thunderous stomps when provoked, making them dangerous to hunt alone."
   }
  ],
  "angles": [
   {
    "target": "profession:Cooking",
-   "text": "Culinary adventurers often marvel at Brewmaster Drohn's unusual recipe, which combines plainstrider organs, predator tusks, and a beast's horn to create an intoxicating beverage."
+   "text": "As a cook, you may find Drohn's recipe unusual: it combines plainstrider organs, predator tusks, and a beast's horn into an intoxicating drink."
   },
   {
    "target": "class:Hunter",
-   "text": "Tracking thunder lizards across the open savannah requires caution, as their natural lightning discharges make them far deadlier than ordinary Barrens kodo or plainstriders."
+   "text": "As a hunter, take care when tracking thunder lizards across the open savannah. Their lightning makes them deadlier than ordinary Barrens kodo or plainstriders."
   }
  ],
  "keywords": [
@@ -88,5 +88,6 @@
  "attribution": [
   "Thunder Lizard Horn",
   "Chen's Empty Keg (2)"
- ]
+ ],
+ "style": 1
 }

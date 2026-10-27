@@ -1,0 +1,91 @@
+{
+ "key": "quest:97985",
+ "type": "quest",
+ "name": "Thundering Hearts",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   97985
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "A researcher studying abomination creation seeks a massive heart from Stormheart, a thunder lizard in Thousand Needles. The heart is needed for the researcher\u2019s work.",
+ "sections": [
+  {
+   "title": "A Large Heart",
+   "body": "The researcher has studied notes on creating an abomination and believes the work requires a massive heart. Stormheart, a thunder lizard said to patrol the canyon edge in Thousand Needles, seems the right size. The researcher warns that Stormheart is not docile.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Heart",
+   "body": "Stormheart\u2019s heart still carries electrical pulses. The researcher says it appears to be the specified size and will be added to the abomination.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who wants Stormheart\u2019s heart?",
+   "aliases": [
+    "who needs the heart",
+    "abomination researcher",
+    "who sent me"
+   ],
+   "answer": "A researcher studying the secrets of abomination creation wants Stormheart\u2019s heart for an abomination."
+  },
+  {
+   "q": "Where is Stormheart?",
+   "aliases": [
+    "stormheart location",
+    "where's the thunder lizard",
+    "stormheart where"
+   ],
+   "answer": "Stormheart patrols along the canyon edge in Thousand Needles."
+  },
+  {
+   "q": "What is Stormheart?",
+   "aliases": [
+    "stormheart creature",
+    "big lizard",
+    "thunder lizard"
+   ],
+   "answer": "Stormheart is a thunder lizard of impressive size."
+  },
+  {
+   "q": "Why is a heart needed?",
+   "aliases": [
+    "why heart",
+    "abomination heart",
+    "what's the heart for"
+   ],
+   "answer": "The researcher\u2019s notes indicate that abomination creation requires a massive heart."
+  },
+  {
+   "q": "What does the researcher know about the heart?",
+   "aliases": [
+    "heart details",
+    "electrical heart",
+    "what's special about it"
+   ],
+   "answer": "The researcher says the heart still has electrical pulses and appears to be the size specified in the notes."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "abomination",
+  "creation",
+  "heart",
+  "stormheart",
+  "thousand needles",
+  "thunder lizard",
+  "thundering hearts"
+ ],
+ "related": [
+  "zone:thousandneedles"
+ ],
+ "style": 1,
+ "attribution": [
+  "In-game quest text: Thundering Hearts"
+ ]
+}

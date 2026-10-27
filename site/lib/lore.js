@@ -39,10 +39,11 @@ const LIVE_TTL = 60 * 1000;
 
 // The pages in other languages (LOR-809, pipeline/lore/site_i18n.py): /de/lore/zone/westfall reads
 // lore-i18n/de/zone/westfall.json from R2, rendered by the same entryPage in its language. lore-i18n/index.json names the
-// languages and, for each English page, the ones it has (bit i of its mask: langs[i]). functions/api/admin/lore-i18n.js fills
-// them; functions/[lang]/lore/ serves them.
+// languages and, for each English page, the ones it has (bit i of its mask: langs[i]); lore-i18n/recordings.json, the
+// recordings each language's pages play (scripts/narration-watch.sh checks R2 has them); lore-i18n/de/narration.json, what
+// the /lore list plays in German. functions/api/admin/lore-i18n.js fills them; functions/[lang]/lore/ serves them.
 export const I18N_PREFIX = "lore-i18n/";
-export const I18N_KEY = /^(?:index\.json|[a-z]{2}(?:-[a-z]{2})?\/[a-z]+\/[a-z0-9-]+\.json)$/;
+export const I18N_KEY = /^(?:index\.json|recordings\.json|[a-z]{2}(?:-[a-z]{2})?\/(?:narration|[a-z]+\/[a-z0-9-]+)\.json)$/;
 const I18N_TTL = 5 * 60 * 1000;
 const i18nCache = new WeakMap();
 
@@ -152,12 +153,14 @@ export async function liveKeys(env, request) {
   return set;
 }
 
-// {voice id: "Male narrator"} from voices.json's names.
-export function voiceNames(voices) {
+// {voice id: "Male narrator"} from voices.json's names; with a page's language, also each narrator in that language,
+// named in it ("male-narrator-de": "Erzähler", the voice ids pipeline/lore/site_i18n.py native_voices gives them).
+export function voiceNames(voices, lang = "en") {
   const out = {};
   for (const v of voices || []) {
     const s = String(v.name || v.id).replace(/^Lore Forever\s+/, "");
     out[v.id] = s.charAt(0).toUpperCase() + s.slice(1);
+    if (lang !== "en") out[`${v.id}-${lang}`] = tr(lang, out[v.id]);
   }
   return out;
 }
@@ -181,28 +184,33 @@ export function sentences(text) {
 const readAlong = paras => paras.map(p => `<p>${sentences(p).map(s => `<span class="rl-s">${escape(s)}</span>`).join("")}</p>`)
   .join("\n      ");
 
-function players(clip, live, names) {
+// A clip's heading in the page's language: an answer's is its question, the rest are the page's words ("The story").
+const clipTitle = (clip, lang) => (clip.part === "faq" ? clip.title : tr(lang, clip.title));
+
+function players(clip, live, names, lang = "en") {
   const buttons = [];
   for (const [vid, ref] of Object.entries(clip.voices || {})) {
     const key = audioKey(vid, clip.id, ref);
     if (!live.has(key)) continue;
     buttons.push(`<a class="lp-btn" href="${AUDIO}${escape(key)}" data-voice="${escape(vid)}" data-sec="${Number(ref.sec) || 0}"
-          aria-label="Play ${escape(clip.title)}, ${escape(names[vid] || vid)}"><span class="lp-ic" aria-hidden="true">&#9654;</span>
+          aria-label="Play ${escape(clipTitle(clip, lang))}, ${escape(names[vid] || vid)}"><span class="lp-ic" aria-hidden="true">&#9654;</span>
           <span class="lp-vn">${escape(names[vid] || vid)}</span> <span class="lp-len">${fmtTime(ref.sec)}</span></a>`);
   }
-  if (!buttons.length) return { html: `<p class="lp-ingame">Hear this one in game: <a href="${DOWNLOAD}">get Lore Forever</a>.</p>`, n: 0 };
+  if (!buttons.length) {
+    return { html: `<p class="lp-ingame">${tr(lang, "Hear this one in game:")} <a href="${DOWNLOAD}">${tr(lang, "get Lore Forever")}</a>.</p>`, n: 0 };
+  }
   return { html: `<div class="lp-play">${buttons.join("\n        ")}</div>`, n: buttons.length };
 }
 
-function clipSection(clip, live, names, heading) {
-  const p = players(clip, live, names);
+function clipSection(clip, live, names, heading, lang = "en") {
+  const p = players(clip, live, names, lang);
   const text = readAlong(clip.paras || []);
   // What a quest giver says when you turn the quest in can give the ending away: folded until asked for.
   const body = clip.part === "complete"
-    ? `<details class="lp-fold"><summary>Show the words</summary><div class="lp-text">${text}</div></details>`
+    ? `<details class="lp-fold"><summary>${tr(lang, "Show the words")}</summary><div class="lp-text">${text}</div></details>`
     : `<div class="lp-text">${text}</div>`;
   return `<section class="lp-clip lp-${escape(clip.part)}" id="${escape(clip.anchor)}" data-clip="${escape(clip.id)}" data-hash="${escape(clip.hash)}">
-      <${heading}>${escape(clip.title)}</${heading}>
+      <${heading}>${escape(clipTitle(clip, lang))}</${heading}>
       ${p.html}
       ${body}
       ${p.n ? `<p class="lp-tools"><button type="button" class="lp-rep" hidden>Report a problem with this line</button>
@@ -570,14 +578,17 @@ export function entryPage(entry, { live = new Set(), names = {}, env, packs = []
     zone && zone.path !== entry.path ? (zone.path ? `<a href="${escape(zone.path)}">${escape(zone.name)}</a>` : escape(zone.name)) : "",
     escape(levelsIn(lang, entry.levels)),
   ].filter(Boolean).join(" &middot; ");
+  // The story first, then the sections it doesn't read (a translated page's narrators read the summary and the first
+  // section: pipeline/lore/site_i18n.py), then the rest.
+  const story = (entry.clips || []).find(c => c.part === "narration");
   const clipsHtml = [];
   const faqs = (entry.clips || []).filter(c => c.part === "faq");
   for (const c of entry.clips || []) {
-    if (c.part === "faq") continue;
-    clipsHtml.push(clipSection(c, live, names, "h2"));
+    if (c.part === "faq" || c === story) continue;
+    clipsHtml.push(clipSection(c, live, names, "h2", lang));
   }
   if (faqs.length) {
-    clipsHtml.push(`<h2 class="lp-faqs">Questions, answered</h2>\n    ${faqs.map(c => clipSection(c, live, names, "h3")).join("\n    ")}`);
+    clipsHtml.push(`<h2 class="lp-faqs">Questions, answered</h2>\n    ${faqs.map(c => clipSection(c, live, names, "h3", lang)).join("\n    ")}`);
   }
   const playable = (entry.clips || []).some(c => players(c, live, names).n);
   const intro = (entry.intro || []).length ? `<div class="lp-intro">${(entry.intro || []).map(p => `<p>${escape(p)}</p>`).join("")}</div>` : "";
@@ -587,22 +598,23 @@ export function entryPage(entry, { live = new Set(), names = {}, env, packs = []
       <h2>${escape(s.t)}</h2>
       <div class="lp-text">${(s.p || []).map(p => `<p>${escape(p)}</p>`).join("")}</div>
     </section>`).join("\n    ");
-  const speed = playable ? `<div class="lp-speed" role="group" aria-label="Playback speed" hidden>Speed
+  const speed = playable ? `<div class="lp-speed" role="group" aria-label="${tr(lang, "Playback speed")}" hidden>${tr(lang, "Speed")}
       <button type="button" data-rate="1" aria-pressed="true">1&times;</button><button type="button" data-rate="1.25"
         aria-pressed="false">1.25&times;</button><button type="button" data-rate="1.5" aria-pressed="false">1.5&times;</button>
     </div>` : "";
   // Listen, for everyone (no sign-in): the whole page in a row, in the narrator the listener picked. The button works only
-  // with JavaScript (lore.js shows it); each clip's own play links work without. A page with nothing to play says so, and
-  // a page in another language has no recording in that language (only the English page's narrators exist).
+  // with JavaScript (lore.js shows it); each clip's own play links work without. A page in another language plays its own
+  // language's narrators, never the English ones. A page with no recording in its language says so.
   const whole = wholePage(entry, live, names);
   const listen = playable ? `<div class="lp-listen">
       <p class="lp-whole" hidden><button type="button" class="lp-all"><span class="lp-ic" aria-hidden="true">&#9654;</span>
-        <span class="lp-al">Listen</span><span class="lp-nv">${whole.voice ? ` &middot; ${escape(whole.voice)}` : ""}</span></button>
-        <span class="lp-count">${whole.n === 1 ? "" : `${whole.n} recordings &middot; `}${fmtTime(whole.sec)}</span></p>
+        <span class="lp-al">${tr(lang, "Listen")}</span><span class="lp-nv">${whole.voice ? ` &middot; ${escape(whole.voice)}` : ""}</span></button>
+        <span class="lp-count">${whole.n === 1 ? "" : `${tr(lang, "{n} recordings", whole.n)} &middot; `}${fmtTime(whole.sec)}</span></p>
       ${speed}
     </div>`
-    : lang !== "en" ? `<p class="lp-ingame lp-norec">No ${escape(langName)} recording yet. <a href="${escape(enPath)}">The English page</a> has the narrators.</p>`
-      : (entry.clips || []).length ? "" : `<p class="lp-ingame lp-norec">No recording yet: read it here, and hear it in game once it's recorded.</p>`;
+    : (entry.clips || []).length ? ""
+      : lang !== "en" ? `<p class="lp-ingame lp-norec">${escape(tr(lang, "norec", langName))}</p>`
+        : `<p class="lp-ingame lp-norec">No recording yet: read it here, and hear it in game once it's recorded.</p>`;
   // (Its sources aren't listed here: /credits says where the lore comes from, and the public data names each entry's
   // articles. Mike, 10/25.)
   const childCount = (entry.children || []).length;
@@ -649,6 +661,7 @@ export function entryPage(entry, { live = new Set(), names = {}, env, packs = []
     ${langRow}
     ${listen}
     ${intro}
+    ${story ? clipSection(story, live, names, "h2", lang) : ""}
     ${sections}
     ${clipsHtml.join("\n    ")}
     ${related}

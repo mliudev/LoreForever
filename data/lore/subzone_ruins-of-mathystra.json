@@ -7,16 +7,16 @@
  "meta": {
   "wiki": "Ruins of Mathystra"
  },
- "summary": "The Ruins of Mathystra are the crumbled remnants of an ancient night elven city sitting along the northern coast of Darkshore. Shattered during the Great Sundering ten thousand years ago, the coastal ruins are now overrun by hostile Stormscale naga and prowled by elusive Ghost Sabers.",
+ "summary": "Stormscale naga guard Mathystra's broken halls along Darkshore's northern coast. Ghost Sabers stalk the ruins of the ancient night elven city, shattered during the Great Sundering ten thousand years ago.",
  "sections": [
   {
    "title": "A City Cast into the Sea",
-   "body": "Ten millennia ago, Mathystra stood as a bustling night elven settlement, home to high-ranking Highborne nobility. When the Well of Eternity collapsed during the Great Sundering, cataclysmic waves shattered the coastal city, toppling its grand marble arches and washing much of its stonework into the sea. The surviving night elves abandoned the ruined city in favor of smaller woodland villages further south, leaving Mathystra's sunken courtyards and cracked foundations to the relentless coastal elements.",
+   "body": "Mathystra once housed high-ranking Highborne nobility on Darkshore's northern coast. When the Well of Eternity collapsed during the Great Sundering, great waves shattered the city, toppled its marble arches, and swept much of its stonework into the sea. The surviving night elves left for smaller woodland villages farther south. Sunken courtyards and cracked foundations remain, battered by the coast.",
    "spoiler": 0
   },
   {
    "title": "The Stormscale Vipers and Ghost Sabers",
-   "body": "In the modern era, Mathystra has become a dangerous domain ruled by the Stormscale naga. Creeping up from the dark depths, these serpentine abominations guard the broken halls fiercely, driving away any travelers who venture north past the Tower of Althalaxx. Among the shattered flagstones, ancient Highborne relics still lie half-buried in sand and seafoam. Daring young night elves sometimes brave the naga vipers hoping to recover remnants of their lost heritage, often contending not only with serpent blades but also with the spectral Ghost Sabers that stalk the broken streets.",
+   "body": "Stormscale naga guard Mathystra's broken halls, driving away travelers who venture north past the Tower of Althalaxx. Ancient Highborne relics lie half-buried among the flagstones, sand, and seafoam. Young night elves sometimes brave the naga to recover remnants of their heritage, while spectral Ghost Sabers stalk the broken streets.",
    "spoiler": 0
   }
  ],
@@ -28,7 +28,7 @@
     "who built mathystra",
     "what was mathystra"
    ],
-   "answer": "Mathystra was a thriving night elven city built during the height of the ancient Highborne empire. It was shattered and largely drowned ten thousand years ago during the Great Sundering, when the Well of Eternity exploded and cleaved Kalimdor apart."
+   "answer": "Mathystra was a thriving night elven city built during the height of the ancient Highborne empire. The Well of Eternity's collapse during the Great Sundering shattered the city and drowned much of it ten thousand years ago, cleaving Kalimdor apart."
   },
   {
    "q": "Who controls the Ruins of Mathystra right now?",
@@ -37,7 +37,7 @@
     "mathystra mobs",
     "who is at mathystra"
    ],
-   "answer": "The ruins are currently occupied by the Stormscale naga, who have emerged from the sea to claim the sunken pavilions and coastlines. They aggressively attack any land-dwellers who intrude upon their territory."
+   "answer": "Stormscale naga occupy the ruins, emerging from the sea to claim the sunken pavilions and coastlines. They attack land-dwellers who enter their territory."
   },
   {
    "q": "What are Ghost Sabers?",
@@ -46,7 +46,7 @@
     "glowing cat darkshore",
     "ghost sabers"
    ],
-   "answer": "Ghost Sabers are ethereal, translucent felines that haunt the ruined stonework of Mathystra. Hunters often seek them out along the coast, though disturbing the ancient figurines in the area is known to draw these spirits out from the shadows."
+   "answer": "Ghost Sabers are ethereal, translucent felines that haunt Mathystra's ruined stonework. Hunters seek them along the coast, and disturbing ancient figurines in the area can draw the spirits from the shadows."
   },
   {
    "q": "Why do night elves visit these ruins today?",
@@ -54,17 +54,17 @@
     "mathystra relics",
     "why go to mathystra"
    ],
-   "answer": "Young night elves and scholars occasionally venture into the ruins to recover ancient Highborne relics left behind after the Sundering. However, the presence of fierce Stormscale naga makes recovering these historical treasures extremely perilous."
+   "answer": "Young night elves and scholars sometimes enter the ruins to recover Highborne relics left behind after the Sundering. Stormscale naga make the search perilous."
   }
  ],
  "angles": [
   {
    "target": "race:NightElf",
-   "text": "Mathystra stands as a somber monument to the hubris of the ancient Highborne, whose reckless sorcery brought cataclysm down upon their own grand coastal settlements."
+   "text": "Mathystra recalls the hubris of the ancient Highborne, whose reckless sorcery brought cataclysm upon their coastal settlements."
   },
   {
    "target": "class:Hunter",
-   "text": "The translucent Ghost Sabers prowling among the rubble of Mathystra are renowned beasts for beastmasters seeking a striking companion with ties to the spirit world."
+   "text": "Ghost Sabers prowl Mathystra's rubble as translucent beasts with ties to the spirit world, sought by beastmasters looking for a striking companion."
   }
  ],
  "keywords": [
@@ -86,5 +86,6 @@
  ],
  "attribution": [
   "Ruins of Mathystra"
- ]
+ ],
+ "style": 1
 }

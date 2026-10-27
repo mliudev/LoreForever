@@ -17,16 +17,16 @@
   "wiki": "Brutal Gauntlets (quest)",
   "chain": []
  },
- "summary": "Brutal Gauntlets is the culmination of an artisan's craft for seasoned Horde warriors. After gathering rare components across distant lands, the craftsman Ula'elek fashions a formidable pair of handguards designed to bring honor to both the maker and the bearer.",
+ "summary": "Ula'elek has finished a pair of Brutal Gauntlets for a seasoned Horde warrior. Rare materials gathered across distant lands have gone into the work, meant to honor both maker and bearer.",
  "sections": [
   {
    "title": "A Craftsman's Masterpiece",
-   "body": "Forging armor fit for a seasoned frontline warrior is more than simple metalworking\u2014it is a spiritual undertaking for Horde artisans. Ula'elek, a craftsman residing in Durotar, pours his lineage and skill into shaping these brutal gauntlets. By employing hardened trophies harvested from dangerous adversaries, he constructs armor tailored to withstand ferocious blows while enhancing the wearer's offensive might.",
+   "body": "Ula'elek brings his lineage and skill to the forging of armor for a seasoned frontline warrior. In Durotar, the Horde craftsman shapes brutal gauntlets from hardened trophies taken from dangerous foes. The finished armor is made to withstand fierce blows and strengthen the wearer's attacks.",
    "spoiler": 0
   },
   {
    "title": "Ancestral Honor",
-   "body": "In orcish and troll traditions, fine arms and armor carry the prestige of the forge and the spirit of the maker into battle. When Ula'elek presents the finished gauntlets to a warrior, he entrusts them with the legacy of his ancestors. A champion who wears them into combat is expected to display courage, martial discipline, and strength worthy of the craftsmanship.",
+   "body": "For orcs and trolls, fine arms and armor carry the forge's prestige and the maker's spirit into battle. When Ula'elek presents the finished gauntlets, he entrusts a warrior with his ancestors' legacy. A champion who wears them is expected to meet that craft with courage, martial discipline, and strength.",
    "spoiler": 0
   }
  ],
@@ -38,7 +38,7 @@
     "who gives brutal gauntlets",
     "quest giver"
    ],
-   "answer": "Ula'elek is a craftsman based in Durotar who aids Horde warriors in securing tailored, high-grade armor. He demands exotic materials to ensure that his smithing honors both his trade and his ancestral traditions."
+   "answer": "Ula'elek is a craftsman in Durotar who makes tailored armor for Horde warriors. He asks for exotic materials so his work honors his trade and ancestral traditions."
   },
   {
    "q": "Why were satyr hooves needed for these gauntlets?",
@@ -47,7 +47,7 @@
     "satyr parts",
     "materials used"
    ],
-   "answer": "The satyrs' swollen, uncloven hooves hold the power they leeched from Ashenvale's magic. Ula'elek draws that power out of the hooves and harnesses it into his crafting, so the gauntlets hold great magic."
+   "answer": "Satyr hooves are swollen and uncloven, and hold power leeched from Ashenvale's magic. Ula'elek draws out that power and puts it into the gauntlets, giving them great magic."
   },
   {
    "q": "What does wearing the gauntlets signify to Ula'elek?",
@@ -55,7 +55,7 @@
     "honor ancestors",
     "ula'elek honor"
    ],
-   "answer": "To Ula'elek, crafting these gauntlets represents his pinnacle work. Entrusting them to a worthy warrior brings deep honor to his craft and his ancestors, linking his labor directly to the Horde's martial victories."
+   "answer": "To Ula'elek, the gauntlets are the finest work of his craft. Giving them to a worthy warrior honors his trade and ancestors, and ties his labor to the Horde's victories in battle."
   },
   {
    "q": "Where does this task take place?",
@@ -63,7 +63,7 @@
     "location",
     "where is brutal gauntlets turned in"
    ],
-   "answer": "The forging concludes in Durotar, the arid heartland of the orcs and Darkspear trolls, where Ula'elek inspects the recovered materials and presents the completed armor."
+   "answer": "The forging ends in Durotar, the arid homeland of the orcs and Darkspear trolls. There Ula'elek inspects the recovered materials and presents the finished armor."
   },
   {
    "q": "Is this trial intended for all adventurers?",
@@ -71,7 +71,7 @@
     "is this warrior only",
     "class requirement"
    ],
-   "answer": "This path is forged specifically for frontline warriors who have proven their stamina and martial dedication, marking their ascent into more seasoned combat roles within the Horde."
+   "answer": "The trial is meant for frontline warriors who have proved their stamina and martial dedication. It marks their rise into more seasoned combat roles within the Horde."
   },
   {
    "q": "What comes after receiving the gauntlets?",
@@ -79,17 +79,17 @@
     "next quest",
     "brutal gauntlets follow up"
    ],
-   "answer": "The delivery of the gauntlets marks the completion of this specific crafting trial, leaving the warrior fully equipped to face greater threats across Azeroth's war-torn battlefields."
+   "answer": "Receiving the gauntlets completes this crafting trial. The warrior is equipped to face greater threats across Azeroth's war-torn battlefields."
   }
  ],
  "angles": [
   {
    "target": "class:Warrior",
-   "text": "These gauntlets represent a warrior's transition into disciplined martial leadership, serving as a trusted piece of protective kit forged specifically for heavy melee engagements."
+   "text": "As a warrior, you carry gauntlets made for heavy melee combat. They mark a step toward disciplined martial leadership."
   },
   {
    "target": "faction:Horde",
-   "text": "Horde craftsmanship relies on enduring tradition and martial pride, ensuring champions carry the spiritual weight and honor of their craftspeople into battle."
+   "text": "As a member of the Horde, you carry your craftworkers' tradition and martial pride into battle. Their work bears spiritual weight and honor."
   }
  ],
  "keywords": [
@@ -108,5 +108,6 @@
  ],
  "attribution": [
   "Brutal Gauntlets (quest)"
- ]
+ ],
+ "style": 1
 }

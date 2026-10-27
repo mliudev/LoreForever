@@ -17,16 +17,16 @@
   "wiki": "Lost But Not Forgotten (Classic)",
   "chain": []
  },
- "summary": "Lost But Not Forgotten is a somber quest given by Misha Tor'kren at her homestead northwest of Razor Hill. Desperate for closure, she asks travelers to search the dangerous banks of the Southfury River for any trace of her headstrong son, Kron.",
+ "summary": "Misha Tor'kren waits at her homestead for news of her son, Kron. He went west to hunt crocolisks along the Southfury River, and she fears the worst.",
  "sections": [
   {
    "title": "A Mother's Dread",
-   "body": "Northwest of Razor Hill, tucked away in the arid red wastes of Durotar, sits the humble Tor'kren farmstead. Here lives Misha Tor'kren, an orc mother paralyzed by sorrow and anxiety. Days earlier, her son Kron declared he was heading west toward the Southfury River on the border of the Barrens to hunt the river's ferocious crocolisks. Despite her warnings about the deadly beasts, Kron's stubborn pride drove him to storm off to prove his mettle. He has not been seen since.",
+   "body": "Misha Tor'kren lives at a farmstead northwest of Razor Hill in Durotar. Days ago, her son Kron set out west toward the Southfury River, along the Barrens border, to hunt its fierce crocolisks. Misha warned him how deadly the beasts were, but pride drove him to leave and prove his strength. No one has seen him since.",
    "spoiler": 0
   },
   {
    "title": "A Grim Confirmation",
-   "body": "Misha asks passing adventurers to comb the shores of the Southfury River for any sign of Kron's fate, even suggesting they look inside the bellies of the crocolisks. Tragically, her darkest instincts prove true. Slaying the vicious Dreadmaw crocolisks along the water reveals Kron's swallowed amulet. Returning the keepsake to Misha extinguishes any lingering hope that her boy survived, but finally grants a grieving mother the closure she needs to begin mourning.",
+   "body": "Misha asks you to search the Southfury River's banks for any sign of Kron, even inside the crocolisks. The Dreadmaw crocolisks hold the answer: among their remains, you find Kron's swallowed amulet. When you bring it back, Misha knows her son did not survive. The keepsake gives her the closure she needs to begin mourning.",
    "spoiler": 1
   }
  ],
@@ -38,7 +38,7 @@
     "who gives lost but not forgotten",
     "kron mother"
    ],
-   "answer": "Misha Tor'kren is an orcish farm mother living at a secluded homestead northwest of Razor Hill in Durotar. Plagued by grief and worry, she asks wanderers to seek out any trace of her missing son, Kron."
+   "answer": "Misha Tor'kren is an orc mother who lives at a homestead northwest of Razor Hill in Durotar. She fears for her missing son, Kron, and asks travelers to look for any sign of him."
   },
   {
    "q": "Who was Kron?",
@@ -47,7 +47,7 @@
     "what happened to kron",
     "misha son"
    ],
-   "answer": "Kron was Misha Tor'kren's headstrong son. Seeking to prove his strength, he ignored his mother's cautions and left to hunt dangerous crocolisks near the Southfury River, where he met his untimely death."
+   "answer": "Kron was Misha Tor'kren's headstrong son. He went to hunt dangerous crocolisks near the Southfury River, hoping to prove his strength, and died there."
   },
   {
    "q": "Where did Kron go missing?",
@@ -56,7 +56,7 @@
     "where to look for kron",
     "kron location"
    ],
-   "answer": "Kron traveled west across Durotar toward the border of the Barrens to hunt along the banks of the Southfury River."
+   "answer": "Kron went west across Durotar toward the Barrens border, to hunt along the banks of the Southfury River."
   },
   {
    "q": "How do you prove Kron's fate to Misha?",
@@ -65,7 +65,7 @@
     "sign of krons fate",
     "crocolisk stomach"
    ],
-   "answer": "You find Kron's swallowed amulet among the remains of Dreadmaw crocolisks prowling the waters of the Southfury River. Bringing this recovered heirloom back to Misha confirms his death."
+   "answer": "You find Kron's swallowed amulet among the remains of Dreadmaw crocolisks in the Southfury River. Bringing it to Misha confirms that he died."
   },
   {
    "q": "What reward does Misha give?",
@@ -73,7 +73,7 @@
     "lost but not forgotten reward",
     "misha gift"
    ],
-   "answer": "Misha gives you a gift she had originally prepared for Kron to celebrate his triumphant return from the hunt. Unable to bear looking at it after learning of his death, she passes it to the adventurer who brought her closure."
+   "answer": "Misha gives you a gift she had prepared for Kron's triumphant return from the hunt. After learning of his death, she cannot bear to look at it and gives it to you, the traveler who brought her closure."
   },
   {
    "q": "Why did Kron leave in the first place?",
@@ -81,21 +81,21 @@
     "why did kron hunt",
     "kron pride"
    ],
-   "answer": "Kron was driven by stubborn pride and a desire to prove his hunting prowess. When his mother warned him that the crocolisks were far too vicious and dangerous, he grew furious and stormed out to hunt them anyway."
+   "answer": "Kron left out of pride and a desire to prove his skill as a hunter. When Misha warned him about the dangerous crocolisks, he grew angry and stormed off to hunt them anyway."
   }
  ],
  "angles": [
   {
    "target": "race:Orc",
-   "text": "Kron's fate is a tragic reminder that while pride and martial glory are core to orcish culture, reckless arrogance without respect for dangerous beasts leads to an unheroic death."
+   "text": "As an orc, you know pride and martial glory matter deeply in your culture. Kron's fate shows the cost of facing dangerous beasts without respect for their strength."
   },
   {
    "target": "class:Hunter",
-   "text": "For hunters, Kron serves as a cautionary tale of a tracker who failed to assess the ferocity of his prey and ended up as their meal."
+   "text": "As a hunter, you know a tracker must judge the prey's ferocity. Kron failed to do so, and the crocolisks killed him."
   },
   {
    "target": "faction:Horde",
-   "text": "Life in early Durotar is harsh and unyielding, where everyday families struggle against the unforgiving landscape and the deadly predators that roam its borders."
+   "text": "As a member of the Horde, you know life in Durotar is harsh. Families struggle against the unforgiving land and the deadly predators along its borders."
   }
  ],
  "keywords": [
@@ -117,5 +117,6 @@
  ],
  "attribution": [
   "Lost But Not Forgotten (Classic)"
- ]
+ ],
+ "style": 1
 }

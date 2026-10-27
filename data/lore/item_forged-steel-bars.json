@@ -10,11 +10,11 @@
    "quest:1503"
   ]
  },
- "summary": "Forged Steel Bars are refined metal ingots belonging to the orc blacksmith Thun'grim Firegaze. Stolen by opportunistic Razormane quilboar during a night raid, they serve as proof of a warrior's resolve to recover stolen property in the Barrens.",
+ "summary": "In the northern Barrens, Thun'grim Firegaze's steel bars are missing. Recovering them will prove a warrior's resolve to reclaim stolen property.",
  "sections": [
   {
    "title": "Stolen Metal",
-   "body": "Forged Steel Bars represent high-quality smithing stock belonging to the visually impaired orc smith Thun'grim Firegaze, who maintains a camp in the northern Barrens. Taking advantage of Thun'grim's failing eyesight, local Razormane quilboar distracted the smith with grunts and snorts while thieves slipped away with an iron chest containing the ingots. Unskilled in metalcrafting fine steel, the quilboar abandoned the unopened container near a ruined wagon in their encampment to the northwest, leaving the bars intact for recovering warriors to reclaim.",
+   "body": "Thun'grim Firegaze, a visually impaired orc smith, keeps a camp in the northern Barrens. Razormane quilboar took his iron chest during a night raid, distracting him with grunts and snorts while thieves slipped away. Unable to work fine steel, the quilboar left the unopened chest near a ruined wagon in their encampment to the northwest. The bars remain intact for warriors willing to recover them.",
    "spoiler": 0
   }
  ],
@@ -26,7 +26,7 @@
     "thungrim steel",
     "whose steel is this"
    ],
-   "answer": "They belong to Thun'grim Firegaze, an orc armorer and weaponsmith living in a camp in the northern Barrens."
+   "answer": "The bars belong to Thun'grim Firegaze, an orc armorer and weaponsmith who lives in a camp in the northern Barrens."
   },
   {
    "q": "Why did the quilboar steal them?",
@@ -35,7 +35,7 @@
     "quilboar motive",
     "razormane theft"
    ],
-   "answer": "The Razormane quilboar raided Thun'grim's camp simply to pillage his valuables. Knowing the smith suffered from poor eyesight, they taunted and distracted him while other tribe members made off with his iron chest."
+   "answer": "The Razormane quilboar stole them to pillage Thun'grim's valuables. Knowing his eyesight was poor, they taunted and distracted him while others carried off his iron chest."
   },
   {
    "q": "Did the quilboar use the steel?",
@@ -43,7 +43,7 @@
     "did quilboar forge anything",
     "what did quilboar do with steel"
    ],
-   "answer": "No. As Thun'grim expected, the Razormanes lacked the metallurgical knowledge and craft to work such finely refined steel. The chest remained closed and abandoned beside a broken wagon in their camp."
+   "answer": "No. The Razormanes lacked the skill to work such finely refined steel. They left the chest unopened beside a broken wagon in their camp."
   },
   {
    "q": "What will Thun'grim offer in return for them?",
@@ -51,17 +51,17 @@
     "forged steel reward",
     "what do i get for the steel"
    ],
-   "answer": "In exchange for braving the quilboar camps and returning all the bars, Thun'grim rewards aspiring warriors with a crafted weapon."
+   "answer": "Thun'grim offers aspiring warriors a crafted weapon in exchange for braving the quilboar camps and returning all the bars."
   }
  ],
  "angles": [
   {
    "target": "class:Warrior",
-   "text": "Recovering Thun'grim's stolen steel proves a warrior's ability to track down thieves and face dangerous quilboar packs in exchange for custom weaponry."
+   "text": "Recovering Thun'grim's stolen steel proves a warrior can track down thieves and face dangerous quilboar packs. In return, Thun'grim offers custom weaponry."
   },
   {
    "target": "profession:Blacksmithing",
-   "text": "The refined bars highlight the gap between crude tribal scrap metal and the quality steel crafted by trained Horde smiths."
+   "text": "The refined bars show the difference between crude tribal scrap metal and the quality steel made by trained Horde smiths."
   }
  ],
  "keywords": [
@@ -82,5 +82,6 @@
  "attribution": [
   "Forged Steel Bars",
   "Forged Steel"
- ]
+ ],
+ "style": 1
 }

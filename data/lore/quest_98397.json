@@ -17,16 +17,16 @@
   "wiki": "To Darnassus (Forever)",
   "chain": []
  },
- "summary": "To Darnassus is the culmination of a night elf druid's journey to commune with the Great Cat Spirit. After proving yourself to Dendrite Starblaze in Moonglade, you are sent back to the Cenarion Enclave to master the art of shifting into cat form.",
+ "summary": "In Darnassus, your trial with the Great Cat Spirit brings you back to the Cenarion Enclave. After proving yourself to Dendrite Starblaze in Moonglade, you return to Mathrengyl Bearwalker to learn cat form.",
  "sections": [
   {
    "title": "Return to the Enclave",
-   "body": "Having commune with the Great Cat Spirit through the guidance of Dendrite Starblaze in Moonglade, an aspiring night elf druid must return to Teldrassil. Starblaze acknowledges that you have proven yourself a worthy student and directs you back to your primary instructor, Mathrengyl Bearwalker, waiting beneath the boughs of the Cenarion Enclave in Darnassus.",
+   "body": "You return to Teldrassil after communing with the Great Cat Spirit under Dendrite Starblaze's guidance in Moonglade. Starblaze sees that you have proved yourself a worthy student and sends you to your primary instructor, Mathrengyl Bearwalker. He waits beneath the boughs of the Cenarion Enclave in Darnassus.",
    "spoiler": 0
   },
   {
    "title": "The Nature of the Cat",
-   "body": "Upon arriving in Darnassus, Mathrengyl Bearwalker acknowledges that you have absorbed the wisdom of the Great Cat Spirit. In his eyes, every generation of druids faces a trial shaped by this ancient entity, which is as playful as it is deadly. With your connection established and your spirit prepared, Mathrengyl imparts the final rites necessary to shift into the graceful form of the cat.",
+   "body": "In Darnassus, Mathrengyl Bearwalker recognizes the wisdom you have gained from the Great Cat Spirit. Every generation of druids faces a trial shaped by this ancient spirit, playful yet deadly. Your bond is established and your spirit prepared; Mathrengyl teaches you the final rites for taking the cat's form.",
    "spoiler": 0
   }
  ],
@@ -38,7 +38,7 @@
     "to darnassus purpose",
     "cat form quest"
    ],
-   "answer": "This quest concludes your trial with the Great Cat Spirit. After completing your tasks for Dendrite Starblaze in Moonglade, it directs you back to Mathrengyl Bearwalker in Darnassus so he can teach you how to shift into cat form."
+   "answer": "This is the final part of your trial with the Great Cat Spirit. After your time with Dendrite Starblaze in Moonglade, you return to Mathrengyl Bearwalker in Darnassus, who teaches you to take cat form."
   },
   {
    "q": "Who sends you back to Darnassus?",
@@ -46,7 +46,7 @@
     "who starts this quest",
     "quest giver"
    ],
-   "answer": "Dendrite Starblaze, a senior druid residing in Nighthaven within the sacred haven of Moonglade, gives you this quest after you receive the blessing of the Great Cat Spirit."
+   "answer": "Dendrite Starblaze, a senior druid who lives in Nighthaven in Moonglade, sends you back after you receive the Great Cat Spirit's blessing."
   },
   {
    "q": "Where can I find Mathrengyl Bearwalker?",
@@ -54,7 +54,7 @@
     "mathrengyl location",
     "where is bearwalker"
    ],
-   "answer": "Mathrengyl Bearwalker is stationed in the Cenarion Enclave, the druidic sanctum located in the northwestern quarter of Darnassus on Teldrassil."
+   "answer": "Mathrengyl Bearwalker waits in the Cenarion Enclave, in Darnassus's northwestern quarter on Teldrassil."
   },
   {
    "q": "What is the significance of the Great Cat Spirit?",
@@ -62,7 +62,7 @@
     "cat spirit lore",
     "what is great cat spirit"
    ],
-   "answer": "The Great Cat Spirit is an ancient, feral spirit of nature that represents agile, deadly predators. Druids must earn its favor and understand its dual nature of playfulness and lethality before they are allowed to channel its shape."
+   "answer": "The Great Cat Spirit is an ancient, feral spirit of nature tied to agile, deadly predators. Druids must earn its favor and understand its playful yet lethal nature before they can channel its shape."
   },
   {
    "q": "Do all druids complete the exact same trial?",
@@ -70,7 +70,7 @@
     "are druid trials the same",
     "generation trials"
    ],
-   "answer": "According to Mathrengyl Bearwalker, while all druids must pass a trial granted by the Great Cat Spirit to master its form, the exact nature of the trials varies across generations."
+   "answer": "Mathrengyl Bearwalker says all druids must pass a trial granted by the Great Cat Spirit to master its form, though the trials vary across generations."
   },
   {
    "q": "Can non-night elves take this quest?",
@@ -78,21 +78,21 @@
     "is this alliance only",
     "can tauren do this"
    ],
-   "answer": "This specific quest is for Alliance night elf druids returning to Darnassus. Tauren druids follow their own path and report back to their own trainers in Thunder Bluff after visiting Moonglade."
+   "answer": "This path is for Alliance night elf druids returning to Darnassus. Tauren druids follow their own path and report to their trainers in Thunder Bluff after visiting Moonglade."
   }
  ],
  "angles": [
   {
    "target": "class:Druid",
-   "text": "This quest marks your transition into hunting from the shadows, granting you the ability to channel the Great Cat Spirit directly through Cat Form."
+   "text": "As a druid, Cat Form lets you channel the Great Cat Spirit directly."
   },
   {
    "target": "race:NightElf",
-   "text": "Returning to Darnassus honors the night elven traditions preserved by the Cenarion Circle beneath the world tree Teldrassil."
+   "text": "As a night elf, your return to Darnassus honors the traditions the Cenarion Circle keeps beneath Teldrassil."
   },
   {
    "target": "faction:Alliance",
-   "text": "Alliance druids return from the neutral grounds of Moonglade to Darnassus, strengthening their homeland's magical defenses."
+   "text": "As an Alliance druid, you return from neutral Moonglade to Darnassus, strengthening your homeland's magical defenses."
   }
  ],
  "keywords": [
@@ -114,5 +114,6 @@
  ],
  "attribution": [
   "To Darnassus (Forever)"
- ]
+ ],
+ "style": 1
 }

@@ -8,16 +8,16 @@
   "wiki": "Priestess Alathea",
   "refs": 11
  },
- "summary": "Priestess Alathea is a night elf priest trainer residing within the tranquil halls of the Temple of the Moon in Darnassus. Devoted to the Moon Goddess, she guides novitiates in the sacred arts and racial blessings bestowed by Elune. Her teachings help night elf practitioners attune their minds to defensive prayers and celestial magic.",
+ "summary": "Within Darnassus, Priestess Alathea guides night elf priests in the Temple of the Moon. Devoted to Elune, she teaches sacred rites and helps acolytes prepare for healing, protection, and celestial magic.",
  "sections": [
   {
    "title": "Devotion in the Temple of the Moon",
-   "body": "Standing within the soaring silver heights of Darnassus's grandest sanctuary, Priestess Alathea serves the Sisterhood of Elune as an instructor and spiritual guide. As night elf initiates progress beyond the quiet boughs of Shadowglen, they are directed to the Temple of the Moon to deepen their covenant with the Goddess. Alathea stands among the priestesses ready to impart sacred knowledge to those who dedicate their lives to healing, warding, and divine light.",
+   "body": "Priestess Alathea teaches and guides the Sisterhood of Elune within Darnassus's Temple of the Moon. After leaving Shadowglen, night elf initiates come to the temple to deepen their bond with the Goddess. Alathea shares sacred knowledge with those who devote themselves to healing, protection, and divine light.",
    "spoiler": 0
   },
   {
    "title": "Blessings of the White Lady",
-   "body": "Unlike priests of the Holy Light who draw strength strictly from human and dwarven traditions, kaldorei priests draw directly upon the grace of Elune. Alathea plays a key role in testing and granting blessings tailored to night elves, such as Stars of Elune and Elune's Grace. Through her guidance, acolytes learn how to weave starlight into shields of swiftness and defensive power to survive the growing perils facing Kalimdor.",
+   "body": "Night elf priests draw on Elune's grace, while human and dwarven priests follow the traditions of the Holy Light. Alathea teaches night elf blessings such as Stars of Elune and Elune's Grace. Under her guidance, acolytes learn to shape starlight into swift, protective shields against the dangers facing Kalimdor.",
    "spoiler": 0
   }
  ],
@@ -29,7 +29,7 @@
     "alathea darnassus",
     "alathea priest trainer"
    ],
-   "answer": "Priestess Alathea is a kaldorei priest trainer stationed inside the Temple of the Moon in Darnassus, responsible for training budding priests and guiding night elf acolytes through their sacred trials."
+   "answer": "Priestess Alathea trains kaldorei priests in the Temple of the Moon in Darnassus, guiding acolytes through their sacred trials."
   },
   {
    "q": "What abilities does she teach?",
@@ -38,7 +38,7 @@
     "alathea spells",
     "priest spells darnassus"
    ],
-   "answer": "She offers standard priest spell training as well as specific trials for night elf racials, including Starshards and Elune's Grace, which channel the direct power and protection of the Moon Goddess."
+   "answer": "Alathea teaches standard priest spells and night elf trials, including Starshards and Elune's Grace, which channel the Moon Goddess's power and protection."
   },
   {
    "q": "Where can I find Priestess Alathea?",
@@ -46,7 +46,7 @@
     "where is alathea",
     "alathea location"
    ],
-   "answer": "She resides on the ground floor of the Temple of the Moon in the southern reaches of Darnassus, surrounded by the sanctuary's luminous waters and fellow priestesses."
+   "answer": "Priestess Alathea is on the ground floor of the Temple of the Moon in southern Darnassus, among the sanctuary's luminous waters and fellow priestesses."
   },
   {
    "q": "Why do night elf priests visit her specifically?",
@@ -54,7 +54,7 @@
     "priest quests alathea",
     "stars of elune quest"
    ],
-   "answer": "As kaldorei priests advance in their training, novice instructors across Teldrassil send them to Alathea to undertake spiritual rites\u2014such as Stars of Elune and Elune's Grace\u2014marking their transition into mature servants of the goddess."
+   "answer": "As kaldorei priests advance, novice instructors across Teldrassil send them to Alathea for rites such as Stars of Elune and Elune's Grace, marking their passage into mature service to the goddess."
   },
   {
    "q": "Does she train races other than night elves?",
@@ -62,7 +62,7 @@
     "can humans train with alathea",
     "alathea dwarf priest"
    ],
-   "answer": "Yes. While human and dwarven priests belong to the Church of the Holy Light, any Alliance priest visiting Darnassus can learn general spells from her, though she only administers kaldorei-specific racial trials to night elves."
+   "answer": "Yes. Any Alliance priest visiting Darnassus can learn general spells from Alathea, though she gives kaldorei racial trials only to night elves. Human and dwarven priests belong to the Church of the Holy Light."
   },
   {
    "q": "How does her faith differ from human and dwarven priests?",
@@ -70,21 +70,21 @@
     "elune vs holy light",
     "night elf priest lore"
    ],
-   "answer": "While the priests of Stormwind and Ironforge invoke the ambient and philosophical Holy Light, Alathea and her sisters revere Elune as a living deity, wielding starlight and moonlit wards alongside curative magic."
+   "answer": "Priests in Stormwind and Ironforge invoke the Holy Light, while Alathea and her sisters worship Elune as a living deity. They wield starlight and moonlit wards alongside curative magic."
   }
  ],
  "angles": [
   {
    "target": "class:Priest",
-   "text": "Priestess Alathea is a vital contact for Alliance priests visiting Darnassus, offering rank advancements and guiding kaldorei acolytes to their unique celestial powers."
+   "text": "As an Alliance priest in Darnassus, you can turn to Priestess Alathea for rank advancements and guidance in kaldorei celestial powers."
   },
   {
    "target": "race:NightElf",
-   "text": "As a priestess in the heart of Darnassus, Alathea represents the living spiritual traditions of the Sisterhood of Elune that have protected the kaldorei for millennia."
+   "text": "As a night elf, you find the Sisterhood of Elune's living traditions in Priestess Alathea, within Darnassus."
   },
   {
    "target": "faction:Alliance",
-   "text": "Alathea opens the Temple of the Moon's teachings to all traveling members of the Alliance who study the clerical arts."
+   "text": "As an Alliance member who studies the clerical arts, you can learn at the Temple of the Moon from Priestess Alathea."
   }
  ],
  "keywords": [
@@ -109,5 +109,6 @@
  ],
  "attribution": [
   "Priestess Alathea"
- ]
+ ],
+ "style": 1
 }

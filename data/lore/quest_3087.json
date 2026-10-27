@@ -17,16 +17,16 @@
   "wiki": "Etched Parchment (Classic)",
   "chain": []
  },
- "summary": "Etched Parchment is an initiation quest directing young orc hunters in the Valley of Trials to their local class trainer, Jen'shan. Delivered through Gornek after an initiate's first blooding, the note opens the door to specialized wilderness training and survival skills in Durotar.",
+ "summary": "In the Valley of Trials, Etched Parchment calls a young hunter to Jen'shan. Gornek delivers it after the initiate's first blooding, opening the way to wilderness training in Durotar.",
  "sections": [
   {
    "title": "A Summons from the Wild",
-   "body": "After proving their basic mettle against the local mottled boars, hunters starting in the Valley of Trials receive an etched parchment handled by Gornek. The missive originates from Jen'shan, a skilled Darkspear hunter who observes new arrivals from the edges of the encampment. The note serves as an official invitation to begin formal training, acknowledging that the initiate possesses the instincts required to master the untamed beasts and harsh landscape of Durotar.",
+   "body": "After proving themselves against mottled boars, hunters in the Valley of Trials receive an etched parchment from Gornek. Jen'shan, a skilled Darkspear hunter, sent the note after watching new arrivals from the edges of the encampment. It welcomes the initiate to formal training and recognizes the instincts needed to master Durotar's untamed beasts and harsh land.",
    "spoiler": 0
   },
   {
    "title": "The Hunter's Way",
-   "body": "Reporting to Jen'shan marks the transition from common recruit to dedicated stalker. Jen'shan disabuses newcomers of the notion that the hunter's craft is simpler than the arcane arts or ancestral shamanism. Mastering Durotar's predators, maintaining ranged weaponry, and surviving off an unforgiving land demand relentless discipline. She directs her apprentices to aid the other denizens of the valley to test their abilities before returning to her for more advanced survival techniques.",
+   "body": "Reporting to Jen'shan marks the move from recruit to dedicated stalker. She warns that hunting is no easier than the arcane arts or ancestral shamanism. Mastering Durotar's predators, maintaining ranged weapons, and surviving on unforgiving land all demand discipline. Jen'shan sends her apprentices to aid the valley's other inhabitants and test their abilities before returning to learn more advanced survival techniques.",
    "spoiler": 0
   }
  ],
@@ -38,7 +38,7 @@
     "etched parchment note",
     "hunter parchment"
    ],
-   "answer": "It is a written summons delivered by Gornek on behalf of the hunter trainer Jen'shan. It calls promising recruits to report to her for specialized martial and wilderness instruction in the Valley of Trials."
+   "answer": "Etched Parchment is a written summons from Gornek on behalf of Jen'shan, the hunter trainer. It calls promising recruits to her for specialized martial and wilderness instruction in the Valley of Trials."
   },
   {
    "q": "Who delivers this summons to the player?",
@@ -46,7 +46,7 @@
     "who gives etched parchment",
     "where do i get the quest"
    ],
-   "answer": "Gornek hands over the parchment after you complete your initial trial of slaying mottled boars in the Valley of Trials."
+   "answer": "Gornek gives you the parchment after your first trial, slaying mottled boars in the Valley of Trials."
   },
   {
    "q": "Who is Jen'shan?",
@@ -54,7 +54,7 @@
     "jen'shan lore",
     "who is jenshan"
    ],
-   "answer": "Jen'shan is a Darkspear troll hunter stationed in the Valley of Trials. She evaluates new orc and troll hunters, teaching them the foundational skills of ranged warfare, tracking, and beastcraft."
+   "answer": "Jen'shan is a Darkspear troll hunter stationed in the Valley of Trials. She evaluates new orc and troll hunters and teaches ranged warfare, tracking, and beastcraft."
   },
   {
    "q": "Why does Jen'shan compare hunters to mages and shamans?",
@@ -62,7 +62,7 @@
     "why hunters not easy",
     "jen'shan dialogue meaning"
    ],
-   "answer": "Jen'shan warns that many dismiss hunting as an easy path compared to wielding ancestral spirits or arcane magic. She emphasizes that mastering lethal marksmanship and wild beasts requires equal dedication and danger."
+   "answer": "Jen'shan warns that many mistake hunting for an easier path than ancestral spirits or arcane magic. Lethal marksmanship and mastery of wild beasts demand equal dedication and carry equal danger."
   },
   {
    "q": "What happens after reporting to Jen'shan?",
@@ -70,7 +70,7 @@
     "what next after etched parchment",
     "hunter quest continuation"
    ],
-   "answer": "Jen'shan introduces you to advanced hunter techniques and instructs you to aid the other inhabitants of the Valley of Trials to hone your newly acquired skills in practical survival."
+   "answer": "Jen'shan introduces you to advanced hunter techniques and sends you to aid the Valley of Trials' other inhabitants. You practice your newly acquired skills through practical survival."
   },
   {
    "q": "Who can receive this quest?",
@@ -78,25 +78,25 @@
     "who gets etched parchment",
     "is this hunter only"
    ],
-   "answer": "This quest is exclusively offered to newly created orc hunters training in the Valley of Trials."
+   "answer": "Only newly created orc hunters training in the Valley of Trials can receive it."
   }
  ],
  "angles": [
   {
    "target": "class:Hunter",
-   "text": "This note represents your first formal recognition as a hunter of the Horde, pointing you to Jen'shan to refine your aim and understand the wild."
+   "text": "As a hunter, this summons points you to Jen'shan to refine your aim and understand the wild."
   },
   {
    "target": "race:Troll",
-   "text": "For Darkspear recruits, studying under Jen'shan keeps alive the ancient jungle tracking traditions carried over from the Echo Isles."
+   "text": "As a Darkspear recruit, studying under Jen'shan keeps alive the ancient jungle tracking traditions carried from the Echo Isles."
   },
   {
    "target": "race:Orc",
-   "text": "Orcish hunters rely on mentors like Jen'shan to adapt traditional clan hunting methods to the arid crags and deadly beasts of Durotar."
+   "text": "As an orc, you rely on mentors like Jen'shan to adapt clan hunting methods to Durotar's arid crags and deadly beasts."
   },
   {
    "target": "faction:Horde",
-   "text": "Hunters scout the borders and feed the camps; introducing initiates to their craft early ensures the nascent nation of Durotar stays supplied and guarded."
+   "text": "As a Horde hunter, you scout the borders and feed the camps. Early training helps keep Durotar supplied and guarded."
   }
  ],
  "keywords": [
@@ -117,5 +117,6 @@
  ],
  "attribution": [
   "Etched Parchment (Classic)"
- ]
+ ],
+ "style": 1
 }

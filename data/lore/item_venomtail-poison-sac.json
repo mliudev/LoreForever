@@ -10,11 +10,11 @@
    "quest:813"
   ]
  },
- "summary": "A Venomtail Poison Sac is a biological organ harvested from scorpids native to the arid expanses of Durotar. While containing a virulent toxin capable of incapacitating an unwary hunter, it is also the vital ingredient required to brew an effective counter-agent.",
+ "summary": "In Durotar, a scorpion’s venom can bring a hunter near death, while its poison sac holds what alchemists need to make a cure.",
  "sections": [
   {
    "title": "A Deadly Toxin and Its Remedy",
-   "body": "The scorpids prowling the red rocks of Durotar\u2014chiefly the Venomtail Scorpid, alongside mutated varieties like the Corrupted Scorpid and the notorious Death Flayer\u2014produce a fast-acting, debilitating venom. Stored within specialized tail sacs, this poison can quickly overwhelm even seasoned warriors if left untreated. Ironically, the very sacs that deliver this lethal sting contain the primary compounds necessary to synthesize an antidote. When the hunter Rhinag fell victim to a sting outside Orgrimmar, local alchemists required four fresh poison sacs to concoct the remedy needed to neutralize the venom coursing through his veins.",
+   "body": "Scorpids roam Durotar’s red rocks, including Venomtail Scorpids, Corrupted Scorpids, and the Death Flayer. Their tail sacs hold a fast-acting venom that can overwhelm even seasoned warriors if left untreated. The same sacs contain the primary compounds alchemists need to make an antidote. When a scorpion stung the hunter Rhinag outside Orgrimmar, local alchemists needed four fresh poison sacs to make a remedy and neutralize the venom in his veins.",
    "spoiler": 0
   }
  ],
@@ -26,7 +26,7 @@
     "where to get venomtail poison sac",
     "which scorpids have poison sacs"
    ],
-   "answer": "They are harvested from scorpids in Durotar, primarily the Venomtail Scorpids found roaming near the outskirts of Orgrimmar, as well as Corrupted Scorpids and the rare Death Flayer."
+   "answer": "Scorpids in Durotar carry the poison sacs, chiefly Venomtail Scorpids near Orgrimmar, along with Corrupted Scorpids and the rare Death Flayer."
   },
   {
    "q": "What is the poison sac used for?",
@@ -34,7 +34,7 @@
     "venomtail sac use",
     "why do i need venomtail poison sac"
    ],
-   "answer": "The sacs are brought to Kor'ghan in Orgrimmar to distill a specialized antidote. This cure is urgently needed to treat the hunter Rhinag, who was stung and poisoned while hunting without proper preparation."
+   "answer": "Kor'ghan in Orgrimmar uses the sacs to distill a specialized antidote, urgently needed to treat Rhinag after he was stung and poisoned while hunting without proper preparation."
   },
   {
    "q": "Who can brew the antidote from these sacs?",
@@ -43,17 +43,17 @@
     "where to turn in venomtail sacs",
     "kor'ghan venomtail"
    ],
-   "answer": "Kor'ghan, located within Orgrimmar, knows the proper method to refine the raw venom from four intact sacs into a curative draft before the poison proves fatal."
+   "answer": "Kor'ghan in Orgrimmar knows how to refine the raw venom from four intact sacs into a curative draft before the poison proves fatal."
   }
  ],
  "angles": [
   {
    "target": "faction:Horde",
-   "text": "Young Horde adventurers learning the harsh realities of Durotar quickly discover that survival requires understanding the wildlife, as local toxins can easily kill those who rush unprepared into the red wastes."
+   "text": "As a young Horde adventurer in Durotar, you learn that local toxins can kill those who rush into the red wastes unprepared."
   },
   {
    "target": "class:Hunter",
-   "text": "Rhinag's misfortune serves as an object lesson for hunters: pursuing dangerous beasts without understanding their venom or carrying proper remedies beforehand can easily cost a tracker their life."
+   "text": "As a hunter, you can take Rhinag’s misfortune as a warning: pursuing dangerous beasts without knowing their venom or carrying a remedy can cost you your life."
   }
  ],
  "keywords": [
@@ -78,5 +78,6 @@
  "attribution": [
   "Venomtail Poison Sac",
   "Finding the Antidote"
- ]
+ ],
+ "style": 1
 }

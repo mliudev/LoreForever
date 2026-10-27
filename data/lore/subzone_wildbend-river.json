@@ -7,11 +7,11 @@
  "meta": {
   "wiki": "Wildbend River"
  },
- "summary": "Wildbend River is a tainted waterway winding through the southern forests of Darkshore near the Grove of the Ancients. Flowing down directly from the corrupted heights of Felwood, its waters carry demonic poison toward the sea, endangering the surrounding wilderness.",
+ "summary": "Near the Grove of the Ancients, Wildbend River carries demonic poison toward the sea. Its tainted waters run through southern Darkshore from the corrupted heights of Felwood, endangering the wilderness.",
  "sections": [
   {
    "title": "A Toxic Mountain Stream",
-   "body": "Wildbend River cuts through the southern reaches of Darkshore, flowing westward past the sacred Grove of the Ancients before emptying into the sea. Rather than offering clean nourishment to the woodland, it brings corruption down from the mountains. The river is the direct continuation of Felwood's Bloodvenom River, tumbling through the rocky ridges and dragging foul, corrupted runoff into Darkshore's ecosystem. The night elves monitor its banks closely, watching for twisted wildlife and the creeping spread of demonic blight.",
+   "body": "Wildbend River brings corruption, not clean nourishment, to southern Darkshore. It flows west past the Grove of the Ancients and empties into the sea. The river continues from Felwood's Bloodvenom River, tumbling through rocky ridges with foul runoff. Night elves watch its banks for twisted wildlife and the spread of demonic blight.",
    "spoiler": 0
   }
  ],
@@ -23,7 +23,7 @@
     "wildbend river poison",
     "darkshore dirty water"
    ],
-   "answer": "The river originates high in the mountains of Felwood, where it is known as the Bloodvenom River. Felwood was thoroughly saturated with demonic magic during the Third War, and that foul runoff spills down the cliffs into Darkshore as the Wildbend River."
+   "answer": "Wildbend River begins high in Felwood's mountains, where it is called the Bloodvenom River. Demonic magic saturated Felwood during the Third War, and foul runoff spills down the cliffs into Darkshore."
   },
   {
    "q": "Where does the river flow?",
@@ -32,7 +32,7 @@
     "wildbend path",
     "wildbend river location"
    ],
-   "answer": "Cascading down from the eastern ridges that separate Felwood from Darkshore, the river winds through southern Darkshore near the Grove of the Ancients before flowing into the Veiled Sea."
+   "answer": "The river descends from the eastern ridges between Felwood and Darkshore. It winds through southern Darkshore near the Grove of the Ancients, then flows into the Veiled Sea."
   },
   {
    "q": "Does the river affect the Grove of the Ancients?",
@@ -40,17 +40,17 @@
     "grove of the ancients water",
     "is grove of ancients corrupted"
    ],
-   "answer": "The river passes close to the Grove of the Ancients, posing a constant environmental threat to the ancient protectors rooted there. The night elves work tirelessly to contain the blight and prevent the poisoned water from rotting the sacred groves."
+   "answer": "Wildbend River passes close to the Grove of the Ancients, threatening the ancient protectors rooted there. Night elves work tirelessly to contain the blight and keep the poisoned water from rotting the sacred groves."
   }
  ],
  "angles": [
   {
    "target": "race:NightElf",
-   "text": "The polluted waters cascading from Felwood threaten the ancient roots of Darkshore, making the riverbanks a frequent concern for night elf wardens."
+   "text": "For night elf wardens, the riverbanks are a frequent concern as polluted water from Felwood threatens Darkshore's ancient roots."
   },
   {
    "target": "class:Druid",
-   "text": "Druids studying the ecological aftermath of the Third War keep a wary eye on the river, monitoring how deeply Felwood's corruption penetrates downstream flora and fauna."
+   "text": "Druids study the ecological aftermath of the Third War and watch how deeply Felwood's corruption reaches the plants and animals downstream."
   }
  ],
  "keywords": [
@@ -69,5 +69,6 @@
  ],
  "attribution": [
   "Wildbend River"
- ]
+ ],
+ "style": 1
 }

@@ -49,11 +49,14 @@ function catalogRow(voices, folder) {
 }
 
 // The folders whose pack is out: the main download's, and the rest once voices.json (or translate/packs.json, for
-// the text packs) says they're released. An edition's text add-on shows with its recordings.
+// the text packs) says they're released. An edition's text add-on shows with its recordings. The original male
+// narrator's packs never show (Mike, 10/26: off the downloads page, LOR-848); they keep working in game for the
+// players who have them.
 export function visiblePacks(data, voices = [], langs = []) {
   const out = new Set();
   for (const [folder, f] of Object.entries(data?.packs || {})) {
     if (f.in_main) { out.add(folder); continue; }
+    if (f.lore_voice === "original-male-narrator") continue;
     if (f.kind === "text") { if (langs.some(p => `LoreForever_Lang_${p.locale}` === folder && p.download)) out.add(folder); continue; }
     if (f.kind === "edition-text") continue;
     const [v, p] = catalogRow(voices, folder);
@@ -334,7 +337,7 @@ export function packsForEntry(key, entries, data, shown) {
 
 // The language a pack's recordings speak, in English, for /lore's "plays in French in the add-on".
 const LANGUAGE = { deDE: "German", frFR: "French", esES: "Spanish", esMX: "Spanish", ptBR: "Brazilian Portuguese",
-  itIT: "Italian", ruRU: "Russian", ukUA: "Ukrainian", zhCN: "Simplified Chinese" };
+  itIT: "Italian", ruRU: "Russian", ukUA: "Ukrainian", zhCN: "Simplified Chinese", roRO: "Romanian" };
 
 // What /lore plays when a pack is picked (site_packs.py writes it): an English narrator's pack plays its narrator's
 // recordings in the list where it has them ({voice}); where it has none (another language, the "more" packs, the

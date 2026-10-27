@@ -26,21 +26,21 @@
    "Razorhide"
   ]
  },
- "summary": "Tribes at War is a Horde quest offered by the captive quilboar Mangletooth in Camp Taurajo. Trapped behind bars by the tauren, Mangletooth barters critical intelligence about quilboar incursions in exchange for the slaughter of rival Bristleback spiritual leaders.",
+ "summary": "Mangletooth bargains for help against the Bristleback from his cage in Camp Taurajo. The captive Razormane quilboar offers intelligence about quilboar incursions in exchange for the deaths of rival spiritual leaders.",
  "sections": [
   {
    "title": "A Prisoner's Bargain",
-   "body": "Caged in Camp Taurajo, the Razormane quilboar Mangletooth proves that captivity does not blunt old hatreds. The Barrens has long been contested between two dominant quilboar factions: the Razormane and the Bristleback. While the Horde struggles to secure its settlements and supply lines against sudden ambushes, Mangletooth offers valuable insight into who is truly tormenting Thork's outpost\u2014provided a champion of the Horde first cuts down the Bristleback's most revered casters.",
+   "body": "Mangletooth, a Razormane quilboar, is held in Camp Taurajo by the tauren. The Barrens has long been contested by two powerful quilboar tribes, the Razormane and the Bristleback. The Horde struggles to secure its settlements and supply lines against sudden ambushes. Mangletooth offers insight into who is tormenting Thork's outpost, but he asks a Horde champion to kill the Bristleback's most revered casters.",
    "spoiler": 0
   },
   {
    "title": "Targeting the Earthweavers",
-   "body": "Mangletooth directs adventurers north against the Bristleback's mystical core: their Water Seekers, Thornweavers, and Geomancers. Both tribes revere the earth and draw raw power from ancient magic tied to their demigod progenitor, Agamaggan. By eliminating their casters, the Horde strikes a crippling blow to Bristleback ritual strength, leaving them vulnerable to Razormane rivals and reducing pressure on nearby trails.",
+   "body": "Mangletooth sends you north to strike at the Bristleback's spiritual heart: its Water Seekers, Thornweavers, and Geomancers. Both tribes revere the earth and draw power from ancient magic tied to their demigod progenitor, Agamaggan. Killing the casters weakens Bristleback rituals, leaves the tribe vulnerable to Razormane rivals, and eases pressure on nearby trails.",
    "spoiler": 0
   },
   {
    "title": "Bitter Revelations",
-   "body": "When the task is done, vengeance brings Mangletooth no peace. Rather than celebrating the Bristleback losses, the prisoner descends into rage over his own abandonment. Despite orchestrating strikes to aid his tribe from behind iron bars, the Razormane have sent no rescue party to Camp Taurajo. Spurned and forgotten, Mangletooth turns his gaze toward even deeper secrets of the quilboar, opening the way toward the power of Agamaggan's blood.",
+   "body": "Mangletooth finds no peace in vengeance after the Bristleback losses. Rage replaces any celebration as he faces his own abandonment. Though he has arranged strikes to aid his tribe from behind iron bars, the Razormane have sent no rescue party to Camp Taurajo. Spurned and forgotten, Mangletooth turns to deeper quilboar secrets and the power of Agamaggan's blood.",
    "spoiler": 1
   }
  ],
@@ -52,7 +52,7 @@
     "who captured mangletooth",
     "mangletooth cage"
    ],
-   "answer": "Mangletooth is a Razormane quilboar captured by the Horde forces stationed at Camp Taurajo. The tauren hold him prisoner to prevent raids and pry information from him regarding quilboar incursions across the southern Barrens."
+   "answer": "Mangletooth is a Razormane quilboar captured by Horde forces at Camp Taurajo. The tauren keep him caged to prevent raids and learn about quilboar incursions across the southern Barrens."
   },
   {
    "q": "What is the feud between the Razormane and the Bristleback?",
@@ -61,7 +61,7 @@
     "why do quilboar fight each other",
     "quilboar war"
    ],
-   "answer": "The Razormane and Bristleback are rival quilboar tribes competing fiercely for territory, scarce water, and the sacred thorn-covered grounds of the Barrens. Despite sharing a spiritual lineage linked to the Great Boar Agamaggan, they despise each other and constantly clash over dominion of the plains."
+   "answer": "The Razormane and Bristleback are rival quilboar tribes fighting for territory, scarce water, and the Barrens' sacred thorn-covered grounds. Though both share a spiritual lineage tied to the Great Boar Agamaggan, they despise each other and clash over control of the plains."
   },
   {
    "q": "Why does Mangletooth want their spiritual leaders dead specifically?",
@@ -70,7 +70,7 @@
     "bristleback casters",
     "water seekers and thornweavers"
    ],
-   "answer": "Quilboar warfare relies heavily on their connection to the earth and blood magic. Geomancers, Thornweavers, and Water Seekers sustain the tribe's life, call upon stone and brambles in battle, and guide their warriors. Striking their casters breaks their morale and cripples their fighting power."
+   "answer": "Geomancers, Thornweavers, and Water Seekers sustain quilboar life, call stone and brambles into battle, and guide their warriors. Killing these casters breaks morale and weakens the tribe's fighting power."
   },
   {
    "q": "Who is Thork, and why does Mangletooth mention him?",
@@ -79,7 +79,7 @@
     "thork camp taurajo",
     "thork horde"
    ],
-   "answer": "Thork is an orc officer overseeing Horde efforts and security at the Crossroads and throughout the Barrens. His forces face relentless pressure from quilboar war bands, making intelligence on their tribal movements immensely valuable."
+   "answer": "Thork is an orc officer overseeing Horde efforts and security at the Crossroads and throughout the Barrens. His forces face relentless pressure from quilboar war bands, so intelligence on their movements is valuable."
   },
   {
    "q": "What happens after completing this quest?",
@@ -88,7 +88,7 @@
     "what unlocks after tribes at war",
     "next quest after mangletooth"
    ],
-   "answer": "Embittered by his tribe's failure to rescue him, Mangletooth offers to share the secret of Blood Shards. This unlocks the quest Blood Shards of Agamaggan, eventually allowing players to trade shards found on quilboar for various tribal spirit blessings."
+   "answer": "Mangletooth, embittered by his tribe's failure to rescue him, offers to reveal the secret of Blood Shards. This opens the way to Blood Shards of Agamaggan, where you can trade shards found on quilboar for tribal spirit blessings."
   },
   {
    "q": "Where do I find the Bristleback spiritualists?",
@@ -97,21 +97,21 @@
     "where are thornweavers",
     "bristleback geomancers location"
    ],
-   "answer": "Bristleback Water Seekers, Thornweavers, and Geomancers inhabit the thorny thickets, camps, and ravines held by the Bristleback tribe in the southern Barrens, just north of Camp Taurajo."
+   "answer": "Bristleback Water Seekers, Thornweavers, and Geomancers live in the tribe's thorny thickets, camps, and ravines in the southern Barrens, just north of Camp Taurajo."
   }
  ],
  "angles": [
   {
    "target": "faction:Horde",
-   "text": "Camp Taurajo sits surrounded by hostile brush, making any opportunity to pit the savage quilboar factions against one another a tactical victory for Horde supply lines."
+   "text": "Camp Taurajo is ringed by hostile brush. Turning the savage quilboar tribes against each other helps protect Horde supply lines."
   },
   {
    "target": "class:Shaman",
-   "text": "The quilboar geomancers bend earth and stone through primordial pacts tied to ancient spirits, showing shamans a crude yet potent distortion of elemental reverence."
+   "text": "As a shaman, you can see how quilboar geomancers bend earth and stone through ancient pacts with spirits, a crude but potent distortion of elemental reverence."
   },
   {
    "target": "race:Tauren",
-   "text": "As stewards of Camp Taurajo, the tauren tolerate Mangletooth's presence in their camp only so long as his grudges yield security for the southern frontier."
+   "text": "As a tauren, you help keep Camp Taurajo secure. Mangletooth remains there only while his grudges serve the southern frontier."
   }
  ],
  "keywords": [
@@ -138,5 +138,6 @@
  ],
  "attribution": [
   "Tribes at War"
- ]
+ ],
+ "style": 1
 }

@@ -10,16 +10,16 @@
    "quest:857"
   ]
  },
- "summary": "The Tear of the Moons is a mysterious, radiant crystal unearthed by dwarven excavators at Bael Modan in the southern Barrens. Though prized by the dwarven expedition, it carries a volatile and corruptive power that led directly to obsession, exile, and bloodshed.",
+ "summary": "At Bael Modan in the southern Barrens, dwarven excavators have unearthed the Tear of the Moons. Its strange power draws Feegly into obsession, while General Twinbraid fears what the crystal can do.",
  "sections": [
   {
    "title": "A Unearthed Relic",
-   "body": "Discovered during the initial excavations of Bael Modan, the crystal was celebrated as the dig site's first major triumph. Its strange radiance captivated the miners, but none more intensely than Feegly. Claiming the relic gifted him profound strength, Feegly fell under its sway. Fearing the artifact's dark influence\u2014and alarmed by Feegly's increasingly unstable behavior toward his comrades\u2014expedition commander General Twinbraid declared the stone cursed. Twinbraid confiscated the relic, sealed it securely inside his personal strongbox within Bael'dun Keep, and cast Feegly out into the Barrens wasteland.",
+   "body": "Dwarven excavators unearthed the Tear of the Moons during the first digging at Bael Modan. The crystal's strange radiance captivated the miners, especially Feegly. He claimed it gave him great strength, then grew unstable and turned against his comrades. General Twinbraid, commander of the expedition, feared the relic's influence and declared it cursed. He took the crystal and locked it in his personal strongbox at Bael'dun Keep. Then he cast Feegly out into the Barrens.",
    "spoiler": 0
   },
   {
    "title": "The Price of Obsession",
-   "body": "Unable to overcome his craving for the crystal's power, the exiled Feegly turns to passing Horde travelers to breach the dwarven fortress and reclaim it from Twinbraid's vault. Upon receiving and rubbing the crystal, Feegly begins to make strange grunting noises. The Tear falls from his hands and shatters on the ground; he then turns into a trogg and dies shortly afterward.",
+   "body": "Exiled Feegly cannot master his craving for the crystal's power. He asks passing Horde travelers to help break into the dwarven fortress and take it from Twinbraid's vault. When Feegly gets the Tear and rubs it, strange grunts escape him. The crystal falls from his hands and shatters on the ground. Feegly turns into a trogg and dies shortly afterward.",
    "spoiler": 1
   }
  ],
@@ -31,7 +31,7 @@
     "where was the tear found",
     "tear of the moons background"
    ],
-   "answer": "The crystal was unearthed by the dwarven Prospectors and excavators at the archaeological dig site of Bael Modan, situated in the southern reaches of the Barrens."
+   "answer": "Dwarven Prospectors and excavators unearthed the Tear of the Moons at Bael Modan, an archaeological dig site in the southern Barrens."
   },
   {
    "q": "Why was the crystal locked inside Bael'dun Keep?",
@@ -40,7 +40,7 @@
     "twinbraid strongbox tear",
     "why did twinbraid take it"
    ],
-   "answer": "General Twinbraid recognized the artifact as cursed after Feegly began obsessing over it and turning against his fellow miners. To protect the expedition, Twinbraid locked it away inside his strongbox."
+   "answer": "General Twinbraid feared the crystal was cursed after Feegly grew obsessed with it and turned against his fellow miners. He locked it in his strongbox at Bael'dun Keep to protect the expedition."
   },
   {
    "q": "What happens when Feegly gets the Tear back?",
@@ -49,7 +49,7 @@
     "what happens to feegly",
     "trogg transformation feegly"
    ],
-   "answer": "Feegly eagerly receives the crystal and begins rubbing it. What follows is the ending of his story, described in the spoiler-protected section."
+   "answer": "Feegly rubs the crystal, which falls from his hands and shatters. He turns into a trogg and dies shortly afterward."
   },
   {
    "q": "Can the Tear of the Moons be saved or repaired?",
@@ -58,17 +58,17 @@
     "shattered tear",
     "repair tear of the moons"
    ],
-   "answer": "The relic's ultimate fate is revealed when Feegly receives it. The quest offers no account of anyone repairing it afterward."
+   "answer": "The Tear shatters when Feegly gets it back. The account gives no word of anyone repairing it afterward."
   }
  ],
  "angles": [
   {
    "target": "race:Dwarf",
-   "text": "The tragic fate of Feegly serves as a grim warning of the dangers the Bael'dun expedition risks waking deep beneath Kalimdor."
+   "text": "As a dwarf, Feegly's fate warns of the danger the Bael'dun expedition risks waking beneath Kalimdor."
   },
   {
    "target": "faction:Horde",
-   "text": "Infiltrating Bael'dun Keep to recover the relic strikes a disruptive blow against the Ironforge military presence encroaching on ancestral tauren lands."
+   "text": "As a member of the Horde, you help recover the relic from Bael'dun Keep, disrupting the Ironforge military presence encroaching on ancestral tauren lands."
   }
  ],
  "keywords": [
@@ -93,5 +93,6 @@
  "attribution": [
   "Tear of the Moons",
   "The Tear of the Moons"
- ]
+ ],
+ "style": 1
 }

@@ -10,16 +10,16 @@
    "quest:6127"
   ]
  },
- "summary": "The Filled Dreadmist Peak Sampler is a vial containing corrupted water drawn from the elevated pools atop Dreadmist Peak in the northern Barrens. Gathered by fledgling druids of the Horde, it provides the physical evidence needed by the Cenarion Circle to study a vile affliction poisoning the region's wildlife.",
+ "summary": "At Dreadmist Peak, a filled sampler holds water gathered by Horde druids from the summit pools. The Cenarion Circle studies the sample to learn what is poisoning wildlife in the northern Barrens.",
  "sections": [
   {
    "title": "A Tainted Source",
-   "body": "The high crags of Dreadmist Peak house natural pools whose mists historically shape weather and rainfall across the northern Barrens. When the demon-worshipping Burning Blade established their coven atop the summit, the water quickly soured. Suspecting that demonic rituals poisoned the vapors feeding the surrounding savanna, Cenarion druids dispatch initiates to capture a specimen using a specialized sampler. The foul liquid inside confirms their worst fears, reeking of corruption potent enough to sicken the herds wandering below.",
+   "body": "Dreadmist Peak’s high crags hold pools whose mists shape weather and rainfall across the northern Barrens. The Burning Blade, who worship demons, made their coven atop the summit, and the water soon soured. Cenarion druids suspect demonic rites poisoned the vapors that feed the surrounding savanna. They send initiates to collect a sample in a special sampler. The foul liquid confirms their fears: its corruption can sicken the herds below.",
    "spoiler": 0
   },
   {
    "title": "Curing the Savanna",
-   "body": "Brought to Tonga Runetotem at the Crossroads, the vile sample serves as the focal point for formulating an antidote. While the Burning Blade are suspected of tainting the water, analyzing its properties enables the Cenarion Circle to understand the poison's nature. By isolating the taint within this vial, druids develop the herbal remedies required to purge the affliction from dying gazelles and master their own natural power over poison.",
+   "body": "At the Crossroads, Tonga Runetotem uses the sample to help find an antidote. The Burning Blade are suspected of tainting the water, and its properties help the Cenarion Circle understand the poison. By studying the taint in the vial, druids make herbal remedies for dying gazelles and learn to wield their own natural power over poison.",
    "spoiler": 1
   }
  ],
@@ -31,7 +31,7 @@
     "dreadmist sampler location",
     "where to fill sampler"
    ],
-   "answer": "The sample is gathered from a water pool situated at the very summit of Dreadmist Peak, a craggy mountain located northwest of the Crossroads in the Barrens."
+   "answer": "The sample comes from a pool at Dreadmist Peak’s summit, northwest of the Crossroads in the Barrens."
   },
   {
    "q": "Why is the water on Dreadmist Peak tainted?",
@@ -40,7 +40,7 @@
     "who poisoned dreadmist peak",
     "burning blade water"
    ],
-   "answer": "The Burning Blade cult has taken over the heights of Dreadmist Peak to practice demon worship. Dendrite Starblaze suspects that the cult has tainted the summit's natural waters."
+   "answer": "The Burning Blade cult has taken over Dreadmist Peak’s heights to worship demons. Dendrite Starblaze suspects the cult tainted the summit’s natural waters."
   },
   {
    "q": "Who needs the filled sampler?",
@@ -49,7 +49,7 @@
     "tonga runetotem sampler",
     "turn in dreadmist water"
    ],
-   "answer": "It must be delivered to Tonga Runetotem, a Cenarion druid stationed at the Crossroads in the Barrens who is investigating the sudden sickness plaguing regional wildlife."
+   "answer": "Tonga Runetotem needs the filled sampler. He is a Cenarion druid at the Crossroads, investigating the sudden sickness among wildlife in the Barrens."
   },
   {
    "q": "How does this poisoned water affect the Barrens?",
@@ -58,7 +58,7 @@
     "sick gazelles barrens",
     "dreadmist mist effect"
    ],
-   "answer": "The airy peaks and pools atop Dreadmist Peak naturally influence local weather patterns and mist. When poisoned, the vapors settle over the savanna north of the main road, causing widespread illness among the native gazelles."
+   "answer": "Dreadmist Peak’s airy heights and pools influence local weather and mist. Once poisoned, the vapors settle over the savanna north of the main road and make the native gazelles sick."
   },
   {
    "q": "What is the sampler used for after it is collected?",
@@ -67,17 +67,17 @@
     "cure for the poison",
     "power over poison research"
    ],
-   "answer": "Tonga Runetotem analyzes the foul liquid to discern the exact properties of the demonic taint, using that knowledge to concoct a curative salve that druids use to treat the afflicted gazelles."
+   "answer": "Tonga Runetotem studies the foul liquid to learn the nature of its demonic taint, then uses that knowledge to make a curative salve for druids to treat afflicted gazelles."
   }
  ],
  "angles": [
   {
    "target": "class:Druid",
-   "text": "Retrieving this sample is an essential rite of passage for Horde druids, teaching them how natural waterways spread corruption and preparing them to master curative magics."
+   "text": "As a Horde druid, you gather this sample as a rite of passage. It teaches you how corruption spreads through natural waterways and prepares you to master curative magic."
   },
   {
    "target": "faction:Horde",
-   "text": "Investigating Dreadmist Peak exposes the encroaching threat of the Burning Blade cult right in the heart of the Horde's territory in the Barrens."
+   "text": "As a member of the Horde, you can see the Burning Blade cult’s threat growing within Horde territory in the Barrens."
   }
  ],
  "keywords": [
@@ -103,5 +103,6 @@
  "attribution": [
   "Filled Dreadmist Peak Sampler",
   "The Principal Source (Horde)"
- ]
+ ],
+ "style": 1
 }

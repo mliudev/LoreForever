@@ -431,6 +431,23 @@ test("asked where her notes are, she points to the Notebook tab, never the Setti
   assert.equal(unclaimed("I haven't cleared anything.", { clear: true, changing: true }), "I haven't cleared anything.");
 });
 
+test("the site's own replies (clear all, yes, undo) hold nothing of the month's answer budget", async () => {
+  // A reply the site writes itself has no model call to settle what reserveAnswer held for it: held all month, it
+  // closed the free pool early (the Architect, 10/25).
+  const held = () => env.DB.sqlite.prepare("SELECT reserved_micro - actual_micro AS held FROM answer_spend").get()?.held || 0;
+  const { user, token } = await linked();
+  seed(user, "## To do\n- [ ] Linen cloth for bags\n- [ ] Copper bars\n");
+  const before = held();
+  const turn = (question, player, willo) => ({ prompt: `PLAYER CONTEXT\nzone: Elwynn Forest\nlevel: 9\n\nSOURCES\n\n` +
+    `RECENT CONVERSATION (oldest first)\n${JSON.stringify([{ player, willo }])}\n\nQUESTION\n${question}` });
+  let out = await ask(token, "Now clear your notes.");
+  out = await ask(token, "Yes.", turn("Yes.", "Now clear your notes.", out.answer));
+  out = await ask(token, "Undo that.", turn("Undo that.", "Yes.", out.answer));
+  assert.equal(page(user, `char:${HURIN}`).body, "## To do\n- [ ] Linen cloth for bags\n- [ ] Copper bars\n");
+  assert.equal(calls.length, 0, "the site wrote all three");
+  assert.equal(held(), before);
+});
+
 test("a new heading only where the player named one: otherwise To do or Notes", () => {
   const view = (question, body = "") => notebookView([{ page: `char:${HURIN}`, body, version: 1 }],
     { current: `char:${HURIN}`, intent: { write: true, read: true }, question });
@@ -567,9 +584,11 @@ test("a name two lines share asks which; a line they didn't name is never change
   const { user, token } = await linked();
   const body = "## To do\n- [ ] Copper bars\n- [ ] Copper ore\n- [ ] Silver ore\n";
   seed(user, body);
-  for (const items of [[1, 2], [1]]) {
+  // A comma that lists nothing tells no line apart ("I've got the copper, cross it off" ticked both).
+  for (const [items, question] of [[[1, 2], "tick off copper"], [[1], "tick off copper"],
+    [[1, 2], "I've got the copper, cross it off"]]) {
     reply = () => called("notebook_check", { answer: "I've ticked off the copper items.", items });
-    const out = await ask(token, "tick off copper");
+    const out = await ask(token, question);
     says(out.answer, "Copper bars", "Copper ore");
     assert.match(out.answer, /\?$/);
     assert.equal(out.notebook, undefined);
@@ -578,9 +597,12 @@ test("a name two lines share asks which; a line they didn't name is never change
   reply = () => called("notebook_check", { answer: "Done.", items: [1, 2] });
   hers((await ask(token, "tick off both copper lines")).answer, namedLines({ op: "check" }, ["Copper bars", "Copper ore"]));
   seed(user, "## To do\n- [ ] Copper bars\n- [ ] Silver ore\n", ACCOUNT_PAGE);
-  // Asked to cross off linen with no linen there, the model ticked the copper bars.
+  // Asked to cross off linen with no linen there, the model ticked the copper bars: asked again, it named them again,
+  // so she asks whether it's those, never saying she crossed anything off.
   reply = () => called("notebook_check", { answer: "I've crossed that off for you.", items: [4] });
-  assert.equal((await ask(token, "cross off the linen")).answer, NOT_FOUND_LINE);
+  const linen = (await ask(token, "cross off the linen")).answer;
+  assert.doesNotMatch(linen, /crossed/i);
+  assert.match(linen, /Copper bars.*\?/);
   assert.equal(page(user, ACCOUNT_PAGE).body, "## To do\n- [ ] Copper bars\n- [ ] Silver ore\n");
   // "Tick that off" names the line the talk before did; and a number names a line too.
   reply = () => called("notebook_check", { answer: "Done.", items: [3] });

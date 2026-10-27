@@ -20,21 +20,21 @@
    "The Lord of Blackrock (Horde 2)"
   ]
  },
- "summary": "This quest marks the culmination of the assault against Blackwing Lair, tasking champions with returning the severed head of Nefarian to Orgrimmar. Bringing the monstrous trophy to Warchief Thrall secures proof that the brood of the Black Dragonflight has been broken. It is a moment of monumental triumph for the Horde against one of their most insidious enemies.",
+ "summary": "Nefarian's severed head is carried from Blackrock Mountain to Orgrimmar as proof of victory. Presented to Warchief Thrall, it marks the fall of a great enemy of the Horde.",
  "sections": [
   {
    "title": "A Trophy of Ruin",
-   "body": "Nefarian, the mastermind of Blackwing Lair and brood leader of the black dragons in the Eastern Kingdoms, has finally fallen. His colossal, battle-scarred head serves as undeniable proof of his demise. For the warriors of the Horde, hauling such a monumental prize out of the burning heights of Blackrock Mountain and across the Great Sea to Durotar is an act of undeniable glory.",
+   "body": "Nefarian has fallen at last. He masterminded Blackwing Lair and led the black dragon brood in the Eastern Kingdoms. His colossal, battle-scarred head proves his death. For Horde warriors, carrying the prize from the burning heights of Blackrock Mountain across the Great Sea to Durotar brings great honor.",
    "spoiler": 0
   },
   {
    "title": "The Warchief's Judgment",
-   "body": "The trophy is presented directly to Warchief Thrall. Thrall knows the corruption within Blackrock Mountain better than almost anyone, having freed his people from the internment camps and led them away from the demonic bloodlust of the old Horde. Seeing the son of Deathwing struck down validates years of struggle and breaks the dark dragon's cruel dominion over the orcs of the Blackrock clan.",
+   "body": "The trophy is brought before Warchief Thrall. He knows the corruption of Blackrock Mountain well. He freed his people from the internment camps and led them away from the old Horde's demonic bloodlust. The son of Deathwing has fallen, and the Blackrock orcs are free of the dark dragon's cruel dominion.",
    "spoiler": 0
   },
   {
    "title": "Shadows of the Father",
-   "body": "While Nefarian's death breaks the black dragonflight's twisted genetic experiments, his fall does not eliminate every danger. Upon viewing the decapitated dragon, Thrall remarks that Deathwing himself surely stirs at the news of his son's destruction. The victory is real, but it serves as a stark reminder of the greater terrors sleeping beneath the surface of the world.",
+   "body": "Nefarian's death ends the black dragonflight's twisted experiments, but danger remains. When Thrall sees the dragon's severed head, he says Deathwing surely stirs at the news of his son's destruction. The victory is real, and greater terrors still sleep beneath the world.",
    "spoiler": 1
   }
  ],
@@ -46,7 +46,7 @@
     "who is nefarian",
     "black dragon lord"
    ],
-   "answer": "Nefarian is a great black dragon and the son of Deathwing. From his perch high within Blackwing Lair atop Blackrock Mountain, he conducted twisted experiments to create the chromatic dragonflight and manipulated mortal races\u2014especially the Dark Horde\u2014to do his bidding."
+   "answer": "Nefarian is a great black dragon and the son of Deathwing. From his lair atop Blackrock Mountain, he conducted twisted experiments to create the chromatic dragonflight and manipulated mortal races, especially the Dark Horde, to do his bidding."
   },
   {
    "q": "Why is the trophy delivered to Thrall?",
@@ -54,7 +54,7 @@
     "why thrall",
     "who receives the head"
    ],
-   "answer": "Thrall is the Warchief of the Horde. He led the orcs out of the internment camps and away from the demonic bloodlust of the Old Horde, so proof that the dragon who enslaved the Blackrock orcs and the Dark Horde has fallen belongs in his hands."
+   "answer": "Thrall is the Warchief of the Horde. He led the orcs out of the internment camps and away from the old Horde's demonic bloodlust, so proof that the dragon who enslaved the Blackrock orcs and the Dark Horde has fallen belongs in his hands."
   },
   {
    "q": "What happens in Orgrimmar when the head is turned in?",
@@ -63,7 +63,7 @@
     "orgrimmar world buff",
     "rallying cry buff"
    ],
-   "answer": "When the head of Nefarian is returned and mounted in Orgrimmar, a city-wide celebration takes place. The entire capital is granted the Rallying Cry of the Dragonslayer, boosting the combat prowess of all Horde members nearby."
+   "answer": "When Nefarian's head is returned and mounted in Orgrimmar, the city celebrates. The capital's Horde members nearby receive the Rallying Cry of the Dragonslayer, which boosts their combat prowess."
   },
   {
    "q": "Does this quest have an Alliance equivalent?",
@@ -71,7 +71,7 @@
     "alliance version",
     "alliance counterpart"
    ],
-   "answer": "Yes, Alliance heroes complete a matching quest also named 'The Lord of Blackrock', delivering the head of Nefarian to Highlord Bolvar Fordragon in Stormwind Keep to grant their city the same blessing."
+   "answer": "Yes. Alliance heroes deliver Nefarian's head to Highlord Bolvar Fordragon in Stormwind Keep, granting their city the same blessing."
   },
   {
    "q": "Why is Deathwing a concern?",
@@ -87,21 +87,21 @@
     "how to get head of nefarian",
     "quest starter item"
    ],
-   "answer": "The quest begins by looting the Head of Nefarian directly from Nefarian's corpse after defeating him at the pinnacle of Blackwing Lair."
+   "answer": "The Head of Nefarian comes from Nefarian's corpse at the pinnacle of Blackwing Lair, after he is defeated."
   }
  ],
  "angles": [
   {
    "target": "faction:Horde",
-   "text": "Striking down Nefarian vindicates the Horde's honor and frees the Blackrock region from the grasp of a dragon who enslaved the renegade Dark Horde."
+   "text": "Nefarian's fall restores the Horde's honor and frees the Blackrock region from the dragon who enslaved the renegade Dark Horde."
   },
   {
    "target": "race:Orc",
-   "text": "For the orcs, presenting Nefarian's head to Thrall represents retribution against the beast that puppeteered Rend Blackhand and enslaved orcish clans for his experiments."
+   "text": "For you as an orc, presenting Nefarian's head to Thrall brings retribution against the beast who puppeteered Rend Blackhand and enslaved orcish clans for his experiments."
   },
   {
    "target": "class:Warrior",
-   "text": "Bearing the massive, severed skull of a dragon lord to the Warchief himself is among the highest marks of martial renown."
+   "text": "For you as a warrior, bearing a dragon lord's massive severed skull to the Warchief is a great mark of martial renown."
   }
  ],
  "keywords": [
@@ -123,5 +123,6 @@
  ],
  "attribution": [
   "The Lord of Blackrock (Horde)"
- ]
+ ],
+ "style": 1
 }

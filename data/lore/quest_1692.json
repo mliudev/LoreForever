@@ -17,16 +17,16 @@
   "wiki": "Smith Mathiel",
   "chain": []
  },
- "summary": "Smith Mathiel is a pivotal warrior quest in Darnassus marking the transition from raw materials to forged arms. Having secured sacred elunite ore from a shipwreck off Auberdine, an aspiring warrior delivers the ore to the master blacksmith Mathiel. He agrees to work the blessed metal into a weapon fit for defending the Kaldorei.",
+ "summary": "In Darnassus, sacred ore is on its way to the forge. After you recover elunite from the shipwreck off Auberdine, Elanaria sends you to Mathiel to have it shaped into a weapon for the Kaldorei.",
  "sections": [
   {
    "title": "A Sacred Delivery",
-   "body": "After recovering elunite ore from the haunted shipwreck off Auberdine and securing it with the aid of the warrior trainer Elanaria, young night elf warriors are sent across the Warrior's Terrace of Darnassus. Elanaria carefully packs the ore into a sturdy case, instructing the novice to seek out Mathiel, one of the premier smiths in the capital, to fashion a weapon worthy of their martial calling.",
+   "body": "Elanaria sends you across Darnassus's Warrior's Terrace with the elunite ore you recovered from the haunted shipwreck off Auberdine. The warrior trainer packs it in a sturdy case and directs you to Mathiel, one of the capital's finest smiths. He can shape the metal into a weapon worthy of your calling.",
    "spoiler": 0
   },
   {
    "title": "The Blessing of Elunite",
-   "body": "Mathiel views his forge work not merely as manual labor, but as a devotional craft. Elunite is no ordinary ore—it carries the sacred blessing of the Moon Goddess, Elune. When presented with the case, Mathiel readily takes on the task, considering it a profound honor to shape such holy metal into arms meant to defend the young boughs of Teldrassil.",
+   "body": "Mathiel treats smithing as a craft of devotion. Elunite bears the sacred blessing of Elune, the Moon Goddess, and he accepts the case as an honor. He will shape the holy metal into arms to defend the young boughs of Teldrassil.",
    "spoiler": 0
   }
  ],
@@ -38,7 +38,7 @@
     "blacksmith mathiel",
     "where is mathiel"
    ],
-   "answer": "Mathiel is a skilled night elf blacksmith stationed in the Warrior's Terrace of Darnassus. He crafts specialty armaments and takes on custom forging for the defenders of Darnassus."
+   "answer": "Mathiel is a skilled night elf blacksmith who works in Darnassus's Warrior's Terrace. He makes specialty arms and accepts custom work for the city's defenders."
   },
   {
    "q": "What is special about elunite ore?",
@@ -47,7 +47,7 @@
     "is elunite magical",
     "elunite lore"
    ],
-   "answer": "Elunite is a rare metal revered by the night elves because it is blessed by Elune herself. Smiths like Mathiel treat crafting with it as a high honor, utilizing its sacred properties to fashion potent weapons."
+   "answer": "Night elves revere elunite as a rare metal blessed by Elune. Mathiel considers shaping it into potent weapons a high honor."
   },
   {
    "q": "Who sends you to Mathiel?",
@@ -55,7 +55,7 @@
     "who gives smith mathiel quest",
     "quest giver smith mathiel"
    ],
-   "answer": "Elanaria, a prominent warrior trainer residing in the Warrior's Terrace of Darnassus, packs your recovered ore and directs you to seek Mathiel just across the terrace."
+   "answer": "Elanaria, the warrior trainer in Darnassus's Warrior's Terrace, packs your recovered ore and sends you to Mathiel across the terrace."
   },
   {
    "q": "Is this quest only available to warriors?",
@@ -63,7 +63,7 @@
     "warrior only",
     "can other classes do smith mathiel"
    ],
-   "answer": "Yes. This quest is part of the level 10 warrior class questline designed to equip young warriors with their first specialized martial weaponry."
+   "answer": "Yes. This is part of the level ten warrior class story, meant to arm young warriors with their first specialized weapon."
   },
   {
    "q": "Where in Darnassus can Mathiel be found?",
@@ -71,7 +71,7 @@
     "mathiel location",
     "find mathiel"
    ],
-   "answer": "Mathiel works in the Warrior's Terrace in Darnassus, located just south across the structure from Elanaria."
+   "answer": "Mathiel works in Darnassus's Warrior's Terrace, just south across the structure from Elanaria."
   },
   {
    "q": "What happens after you deliver the ore to Mathiel?",
@@ -79,21 +79,21 @@
     "what comes after smith mathiel",
     "next quest after smith mathiel"
    ],
-   "answer": "Mathiel begins hammering the elunite ore into shape, immediately offering the follow-up quest where you choose which elunite-forged weapon best suits your fighting style."
+   "answer": "After you deliver the ore, Mathiel begins shaping it and offers you a choice of which elunite weapon suits your fighting style."
   }
  ],
  "angles": [
   {
    "target": "class:Warrior",
-   "text": "For young Kaldorei warriors, bringing elunite to Mathiel is a rite of passage, exchanging simple training blades for custom weapons blessed by the Moon Goddess."
+   "text": "As a young Kaldorei warrior, bringing elunite to Mathiel marks a passage from training blades to a custom weapon blessed by the Moon Goddess."
   },
   {
    "target": "race:NightElf",
-   "text": "Working elunite ore bridges night elf craftsmanship with holy devotion to Elune, demonstrating that martial strength and divine faith go hand in hand."
+   "text": "As a night elf, elunite work joins your people's craft with devotion to Elune, where martial strength and faith meet."
   },
   {
    "target": "profession:Blacksmithing",
-   "text": "Mathiel's reverence for elunite highlights how Kaldorei smiths integrate sacred blessings into their forgecraft rather than relying solely on brute heat and hammer."
+   "text": "As a blacksmith, Mathiel's reverence for elunite shows how Kaldorei smiths bring sacred blessings into their craft alongside heat and hammer."
   }
  ],
  "keywords": [
@@ -114,5 +114,6 @@
  ],
  "attribution": [
   "Smith Mathiel"
- ]
+ ],
+ "style": 1
 }

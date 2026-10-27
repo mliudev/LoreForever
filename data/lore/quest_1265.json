@@ -1,0 +1,77 @@
+{
+ "key": "quest:1265",
+ "type": "quest",
+ "name": "The Missing Diplomat",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   1265
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "Elling has sent you to find Private Hendel, and a local officer says the search sounds troubling. Hendel was stationed at the first tower outside Theramore, where you are asked to look for signs of him.",
+ "sections": [
+  {
+   "title": "At the Tower",
+   "body": "The officer knows Hendel and says he was stationed at Sentry Point, the first tower outside Theramore. The officer worries that Elling sent you there first because your business may be troubling, and asks to be told what you can share. The officer has a duty to protect the lands, so any disturbance matters to the local watch.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Private Hendel?",
+   "aliases": [
+    "private hendel",
+    "hendel who",
+    "hendel backstory"
+   ],
+   "answer": "Private Hendel is the man Elling sent you to find. A local officer says Hendel was stationed at the first tower outside Theramore."
+  },
+  {
+   "q": "Where should I look for Hendel?",
+   "aliases": [
+    "hendel location",
+    "where hendel",
+    "sentry point hendel"
+   ],
+   "answer": "Look for signs of Private Hendel at Sentry Point, the first tower outside Theramore."
+  },
+  {
+   "q": "Who sent me to find Hendel?",
+   "aliases": [
+    "who sent me",
+    "elling hendel",
+    "hendel search"
+   ],
+   "answer": "Elling sent you to find Private Hendel."
+  },
+  {
+   "q": "Why is the officer concerned?",
+   "aliases": [
+    "why concerned",
+    "officer worried",
+    "what's troubling"
+   ],
+   "answer": "The officer thinks Elling would not have sent you there first unless your business was troubling, and wants to know what you can share to protect the lands."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "elling",
+  "hendel",
+  "officer",
+  "private hendel",
+  "sentry point",
+  "theramore",
+  "tower"
+ ],
+ "related": [
+  "subzone:sentry-point"
+ ],
+ "style": 1,
+ "attribution": [
+  "In-game quest text: The Missing Diplomat"
+ ]
+}

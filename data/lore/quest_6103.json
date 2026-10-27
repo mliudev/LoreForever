@@ -17,16 +17,16 @@
   "wiki": "Training the Beast (night elf)",
   "chain": []
  },
- "summary": "Training the Beast is the culminating rite of passage for fledgling night elf hunters in Teldrassil. After proving their mastery by taming wild beasts across the boughs, hunters are sent to Darnassus to learn the deeper arts of pet care and discipline from Jocaste.",
+ "summary": "In Teldrassil, Training the Beast sends night elf hunters from the wilds to Darnassus. After taming beasts among the boughs, they learn pet care and discipline from Jocaste.",
  "sections": [
   {
    "title": "A Hunter's Rite of Passage",
-   "body": "Before a night elf hunter can roam Kalimdor with a loyal companion by their side, they must master more than just the taming rod. While subduing a wild creature proves basic strength and will, an untutored beast remains an unpredictable liability. Once an initiate demonstrates their capability in the wilderness surrounding Dolanaar, Dazalar directs them inward to Darnassus to complete their training.",
+   "body": "Dazalar sends you from the wilds near Dolanaar to Darnassus once you prove you can tame a beast. Before you travel Kalimdor with a loyal companion, you need to learn more than how to use a taming rod. Subduing a wild creature tests your strength and will, but an untrained beast can still be unpredictable.",
    "spoiler": 0
   },
   {
    "title": "Guidance in the Cenarion Enclave",
-   "body": "Within the serene groves of the Cenarion Enclave, the revered hunter Jocaste imparts the essential arts of companionship. She instructs the young hunter in how to properly nourish their pet, resurrect it should tragedy strike, and nurture its fighting instincts through training. To night elves, this relationship is rooted in deep reverence for nature rather than simple domination.",
+   "body": "Jocaste teaches you the arts of caring for a companion in Darnassus's Cenarion Enclave. She shows you how to feed your pet, bring it back if tragedy strikes, and train it to fight. For night elves, this bond reflects reverence for nature, not simple control.",
    "spoiler": 0
   }
  ],
@@ -38,7 +38,7 @@
     "pet training quest night elf",
     "what does training the beast do"
    ],
-   "answer": "This quest completes the initial hunter pet questline for night elves. It directs you to Darnassus to unlock the core skills required to maintain and train your permanent animal companion."
+   "answer": "You go to Darnassus to learn the skills needed to care for and train a lasting animal companion. This completes the first steps of a night elf hunter's training with a pet."
   },
   {
    "q": "Where do I find Jocaste?",
@@ -47,7 +47,7 @@
     "jocaste location",
     "find jocaste"
    ],
-   "answer": "Jocaste resides in Darnassus within the Cenarion Enclave, nestled among the towering trees and hunter lodges in the northwest portion of the capital."
+   "answer": "Jocaste is in Darnassus, in the Cenarion Enclave among the trees and hunter lodges in the northwest of the city."
   },
   {
    "q": "Who starts the quest?",
@@ -56,7 +56,7 @@
     "who gives training the beast",
     "dazalar location"
    ],
-   "answer": "Dazalar, the hunter trainer in Dolanaar, offers this quest after you have completed all three steps of taming trials across Teldrassil."
+   "answer": "Dazalar, the hunter trainer in Dolanaar, sends you after you've completed all three taming trials across Teldrassil."
   },
   {
    "q": "What skills do you learn from Jocaste?",
@@ -65,7 +65,7 @@
     "jocaste rewards",
     "hunter pet spells"
    ],
-   "answer": "Speaking with Jocaste unlocks the essential arts of beast mastery: feeding your companion, reviving it if it falls in combat, and training it with new abilities."
+   "answer": "Jocaste teaches you to feed your companion, revive it if it falls in combat, and train it in new abilities."
   },
   {
    "q": "Why does night elf culture emphasize pet training?",
@@ -73,7 +73,7 @@
     "night elf hunter lore",
     "why train beasts night elf"
    ],
-   "answer": "Kaldorei hunters view their pets as partners rather than subservient tools. Proper training and care reflect the race's core philosophy of living in balance and awe of nature."
+   "answer": "Night elf hunters treat their pets as partners, not tools to command. Their care reflects a belief in living with respect for nature."
   },
   {
    "q": "Is this quest available to other races?",
@@ -81,17 +81,17 @@
     "can dwarves do this",
     "can horde do training the beast"
    ],
-   "answer": "This specific journey to Darnassus is unique to night elf hunters. Other hunter races undergo equivalent training rites under their own racial mentors."
+   "answer": "This journey to Darnassus is for night elf hunters. Hunters of other races undergo similar training with mentors of their own race."
   }
  ],
  "angles": [
   {
    "target": "class:Hunter",
-   "text": "This rite marks your graduation from novice tracker to a true master of beasts, unlocking the ability to train, feed, and revive your companion."
+   "text": "As a hunter, you learn to train, feed, and revive your companion as you move beyond the novice's path."
   },
   {
    "target": "race:NightElf",
-   "text": "The kaldorei tradition of beast companionship centers on respect and coexistence, reflecting the teachings passed down through Darnassus and the Cenarion Enclave."
+   "text": "As a night elf, you share a tradition of companionship with beasts built on respect and coexistence, taught in Darnassus and the Cenarion Enclave."
   }
  ],
  "keywords": [
@@ -114,5 +114,6 @@
  ],
  "attribution": [
   "Training the Beast (night elf)"
- ]
+ ],
+ "style": 1
 }

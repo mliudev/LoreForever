@@ -8,16 +8,16 @@
   "wiki": "Gwennyth Bly'Leggonde",
   "refs": 11
  },
- "summary": "Gwennyth Bly'Leggonde is a night elf residing in the coastal port of Auberdine. Stationed along the misty Darkshore coast, she watches the tides and directs travelers to investigate the strange remains washing ashore. Her concerns center on the mysterious sea creatures and massive turtles whose carcasses have begun littering the northern beaches.",
+ "summary": "Along Darkshore's coast, Gwennyth Bly'Leggonde watches the tides and the remains washing ashore. The night elf lives in Auberdine and sends travelers to examine strange sea creatures and massive turtles found dead on the northern beaches.",
  "sections": [
   {
    "title": "Watcher of the Shifting Sands",
-   "body": "Gwennyth Bly'Leggonde makes her home in Auberdine, the bustling seaside haven of Darkshore. While many in town concern themselves with the forest or shipping across the Veiled Sea, Gwennyth keeps her gaze firmly on the coastline. The tides have recently turned grim, depositing the remains of colossal marine life onto the surf. To understand what is happening in the waters offshore, she relies on willing adventurers to scour the sands, retrieve skeletal samples, and bring back answers.",
+   "body": "Gwennyth Bly'Leggonde keeps watch over the coast from her home in Auberdine. While others in town tend to the forest or shipping across the Veiled Sea, she follows the shoreline. Lately, the tides have carried the remains of huge sea creatures onto the sands. She asks travelers to search the beaches, bring back skeletal samples, and learn what is happening in the waters offshore.",
    "spoiler": 0
   },
   {
    "title": "The Stranded Giants",
-   "body": "The beaches north and south of Auberdine have seen an alarming influx of beached sea creatures and ancient sea turtles. Rather than letting their deaths go unnoticed, Gwennyth tasks travelers with inspecting these fallen titans. By studying the bones and discovering what drove these beasts ashore or took their lives, she hopes to piece together the hidden perils lurking off the shores of northern Kalimdor.",
+   "body": "North and south of Auberdine, more sea creatures and ancient sea turtles are washing ashore. Gwennyth asks travelers to inspect the bodies and bones. She hopes to learn what drove the creatures onto the beaches or killed them, and to understand the danger in the waters off northern Kalimdor.",
    "spoiler": 0
   }
  ],
@@ -29,7 +29,7 @@
     "gwennyth auberdine",
     "gwennyth lore"
    ],
-   "answer": "She is a night elf inhabitant of Auberdine in Darkshore who studies the recent ecological disturbances along the shoreline. She enlists travelers to survey the beach and investigate strange wash-ups from the sea."
+   "answer": "Gwennyth Bly'Leggonde is a night elf in Auberdine, Darkshore, who studies strange changes along the shore. She sends travelers to survey the beaches and investigate what the sea has cast ashore."
   },
   {
    "q": "Where can I find Gwennyth Bly'Leggonde?",
@@ -38,7 +38,7 @@
     "gwennyth location",
     "find gwennyth"
    ],
-   "answer": "She can be found in the coastal settlement of Auberdine, situated near the beach and docks along the mist-shrouded coast of Darkshore."
+   "answer": "Gwennyth Bly'Leggonde can be found in Auberdine, near the beach and docks on Darkshore's mist-shrouded coast."
   },
   {
    "q": "Why is she interested in beached creatures?",
@@ -47,7 +47,7 @@
     "why does she want bones",
     "washed ashore quest"
    ],
-   "answer": "The sudden deaths and beachings of massive sea turtles and mysterious marine behemoths point to an imbalance or unseen predator in the waters off Darkshore. Gwennyth seeks to understand the cause by examining remains recovered from along the coast."
+   "answer": "The dead sea turtles and other strange sea creatures may point to an imbalance or an unseen predator in the waters off Darkshore. Gwennyth examines remains from the coast to find the cause."
   },
   {
    "q": "What quests does Gwennyth offer?",
@@ -55,7 +55,7 @@
     "gwennyth quests",
     "what does she give"
    ],
-   "answer": "She sends adventurers out on 'Washed Ashore' and serves as the turn-in point for various discoveries related to the beached sea creatures and beached sea turtles found along Darkshore's coastline."
+   "answer": "Gwennyth sends travelers to investigate the sea creatures and turtles washing ashore along Darkshore's coast, and receives their discoveries."
   },
   {
    "q": "Is she part of the Cenarion Circle or the Sentinels?",
@@ -63,7 +63,7 @@
     "gwennyth faction",
     "is gwennyth a druid"
    ],
-   "answer": "Neither. She is a Priestess of the Moon serving the Sisters of Elune in Auberdine rather than a Cenarion druid or Sentinel commander, yet she shares her kin's deep concern for the health and balance of Darkshore's natural environment."
+   "answer": "Gwennyth is a Priestess of the Moon who serves the Sisters of Elune in Auberdine. She is neither a Cenarion druid nor a Sentinel commander, though she shares her kin's concern for Darkshore's natural balance."
   },
   {
    "q": "What does her name mean?",
@@ -71,21 +71,21 @@
     "bly leggonde meaning",
     "gwennyth name easter egg"
    ],
-   "answer": "While fitting the rhythmic naming style of the kaldorei, her unusual surname 'Bly'Leggonde' is an anagram of 'Leggy Blonde', a playful touch from the world's creators."
+   "answer": "Gwennyth's surname, Bly'Leggonde, is an anagram of 'Leggy Blonde', a playful touch from the world's creators."
   }
  ],
  "angles": [
   {
    "target": "race:NightElf",
-   "text": "For the kaldorei, the unnatural death of great sea beasts off the shores of Darkshore is a troubling sign of imbalance in their ancestral lands, making Gwennyth's beachside watch especially urgent."
+   "text": "For the kaldorei, the unnatural deaths of great sea beasts off Darkshore are a troubling sign of imbalance in their ancestral lands. Gwennyth's watch on the beaches matters deeply to them."
   },
   {
    "target": "class:Druid",
-   "text": "Druids committed to preserving Kalimdor's natural harmony will find Gwennyth's reports of stranded marine life an alarming indicator of disturbance within the coastal ecosystem."
+   "text": "As a druid, you may see Gwennyth's reports of stranded sea life as an alarming sign of disturbance in Kalimdor's natural harmony."
   },
   {
    "target": "faction:Alliance",
-   "text": "Auberdine serves as the Alliance's primary coastal port in northern Kalimdor; keeping its waterways and beaches safe from hidden threats is vital to all allied races venturing through."
+   "text": "As an Alliance traveler, you rely on Auberdine as the primary coastal port in northern Kalimdor. Safe waterways and beaches matter to all allied races traveling through."
   }
  ],
  "keywords": [
@@ -109,5 +109,6 @@
  ],
  "attribution": [
   "Gwennyth Bly'Leggonde"
- ]
+ ],
+ "style": 1
 }

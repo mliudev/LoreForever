@@ -7,16 +7,16 @@
  "meta": {
   "wiki": "Ameth'Aran"
  },
- "summary": "Ameth'Aran is an ancient ruin in southern Darkshore, once a thriving city where Queen Azshara's Highborne practiced arcane sorcery. When the Great Sundering shattered the ancient world, the city fell with it. Today, its broken colonnades are haunted by the vengeful ghosts of the elves who died there.",
+ "summary": "In Ameth'Aran, broken colonnades mark the ruin of a once-great Highborne city in southern Darkshore. Queen Azshara's nobles practiced arcane sorcery here before the Great Sundering shattered the ancient world. Now the vengeful ghosts of the elves who died here haunt the stones.",
  "sections": [
   {
    "title": "A City of Sorcerers",
-   "body": "Before the Great Sundering, Ameth'Aran and its sister settlement, Bashal'Aran, stood as twin centers of Highborne influence along the ancient coastline. Under the favor of Queen Azshara, its ruling nobility dedicated themselves to unrestrained arcane experimentation. Governed from afar by the sorcerer Athrikus Narassin in the Tower of Althalaxx, the city thrived until the catastrophic collapse of the Well of Eternity tore the Kaldorei Empire apart.",
+   "body": "Before the Great Sundering, Ameth'Aran and its sister settlement, Bashal'Aran, were twin centers of Highborne influence along the ancient coastline. Favored by Queen Azshara, Ameth'Aran's ruling nobles devoted themselves to unrestrained arcane experiments. The sorcerer Athrikus Narassin governed from afar in the Tower of Althalaxx. The city thrived until the Well of Eternity collapsed and tore the Kaldorei Empire apart.",
    "spoiler": 0
   },
   {
    "title": "Betrayal and Eternal Torment",
-   "body": "As the world began to tear itself apart, Athrikus Narassin returned to Ameth'Aran, promising his panicked subjects salvation through powerful shielding magic. Instead of shielding them, the sorcerer enacted a horrific betrayal, stealing their life force to feed his own soul gems under the cruel guise of giving them eternal preservation. Shattered by cataclysm and dark magic, Ameth'Aran fell. Today, its grounds are stalked by anguished Highborne specters, unable to find rest ten thousand years after their murder.",
+   "body": "As the world began to tear apart, Athrikus Narassin returned to Ameth'Aran and promised his panicked subjects salvation through powerful shielding magic. Instead, he stole their life force to feed his own soul gems, disguising the betrayal as a promise of eternal preservation. Dark magic and a great cataclysm shattered Ameth'Aran. Anguished Highborne specters still stalk its grounds, unable to rest ten thousand years after their murder.",
    "spoiler": 1
   }
  ],
@@ -28,7 +28,7 @@
     "ameth aran history",
     "fall of ametharan"
    ],
-   "answer": "Ameth'Aran was already in ruins in the final days of the Kaldorei Empire, and it was destroyed when the Well of Eternity was shattered in the Great Sundering ten thousand years ago. The ruins remain haunted by the spirits of the Highborne who died there."
+   "answer": "Ameth'Aran was already in ruins in the Kaldorei Empire's final days, then the Well of Eternity shattered during the Great Sundering and destroyed it ten thousand years ago. The spirits of the Highborne who died there still haunt the ruins."
   },
   {
    "q": "Who are the ghosts wandering the ruins?",
@@ -37,7 +37,7 @@
     "ametharan specters",
     "highborne ghosts darkshore"
    ],
-   "answer": "They are the restless spirits of the Highborne elves who lived and practiced arcane magic in the city before the Great Sundering. Unable to find rest, they wander the broken stones in perpetual agony and fury."
+   "answer": "The ghosts are restless Highborne elves who lived and practiced arcane magic in Ameth'Aran before the Great Sundering. Unable to rest, they wander the broken stones in unending agony and fury."
   },
   {
    "q": "Who was Anaya Dawnrunner?",
@@ -46,7 +46,7 @@
     "cerellean lover",
     "ameth aran lost love"
    ],
-   "answer": "Anaya Dawnrunner was a resident of Ameth'Aran and the beloved of Cerellean Whiteclaw. She perished when the city fell during the Sundering, and her ghost remained bound to the ruins until Cerellean sought outside aid to finally grant her soul release."
+   "answer": "Anaya Dawnrunner lived in Ameth'Aran and was beloved by Cerellean Whiteclaw. She died when the city fell during the Sundering, and her ghost remained bound to the ruins until Cerellean sought outside aid to release her soul."
   },
   {
    "q": "What are the stone tablets found in the ruins?",
@@ -55,17 +55,17 @@
     "runestones in ameth aran",
     "fall of ametharan tablets"
    ],
-   "answer": "The ruins contain ancient stone tablets inscribed with the history of Ameth'Aran and the account of its fall. Sentinel Tysha Moonblade attempted to decipher them to deliver a historical report to the Cenarion Circle, but hostile ghosts forced her to rely on passing travelers."
+   "answer": "The stone tablets in the ruins bear Ameth'Aran's history and an account of its fall. Sentinel Tysha Moonblade tried to decipher them for a historical report to the Cenarion Circle, but hostile ghosts forced her to depend on passing travelers."
   }
  ],
  "angles": [
   {
    "target": "race:NightElf",
-   "text": "For night elves, Ameth'Aran is a grim monument to the hubris and treachery of the Highborne caste that brought about the Sundering."
+   "text": "As a night elf, you can see Ameth'Aran as a grim monument to the Highborne caste's hubris and treachery, which brought about the Sundering."
   },
   {
    "target": "class:Druid",
-   "text": "Druids view the ruins as an unhealed scar upon Darkshore, where tormented spirits linger and disrupt the natural balance of the wilds."
+   "text": "As a druid, you can see these ruins as an unhealed scar on Darkshore. Tormented spirits linger here and disrupt the wilds' natural balance."
   }
  ],
  "keywords": [
@@ -90,5 +90,6 @@
  ],
  "attribution": [
   "Ameth'Aran"
- ]
+ ],
+ "style": 1
 }

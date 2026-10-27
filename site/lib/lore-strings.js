@@ -90,10 +90,44 @@ const S = {
   },
 };
 
+// The player's words, for the pages that play their own language's narrators (pipeline/lore/site_i18n.py
+// native_voices), and the line on a page with no recording in its language.
+const PLAYER = {
+  de: { Listen: "Anhören", "{n} recordings": "{n} Aufnahmen", Speed: "Tempo", "Playback speed": "Wiedergabetempo",
+    "The story": "Die Geschichte", "Quest text": "Questtext", Progress: "Fortschritt", Completion: "Abschluss",
+    "Show the words": "Text anzeigen", "Male narrator": "Erzähler", "Female narrator": "Erzählerin",
+    "Hear this one in game:": "Hör sie im Spiel:", "get Lore Forever": "Lore Forever holen",
+    norec: "Davon gibt es noch keine deutsche Aufnahme: Lies es hier." },
+  es: { Listen: "Escuchar", "{n} recordings": "{n} grabaciones", Speed: "Velocidad", "Playback speed": "Velocidad de reproducción",
+    "The story": "La historia", "Quest text": "Texto de la misión", Progress: "Progreso", Completion: "Finalización",
+    "Show the words": "Mostrar el texto", "Male narrator": "Narrador", "Female narrator": "Narradora",
+    "Hear this one in game:": "Escúchalo en el juego:", "get Lore Forever": "consigue Lore Forever",
+    norec: "Todavía no hay grabación en español de esto: léelo aquí." },
+  fr: { Listen: "Écouter", "{n} recordings": "{n} enregistrements", Speed: "Vitesse", "Playback speed": "Vitesse de lecture",
+    "The story": "L'histoire", "Quest text": "Texte de la quête", Progress: "Progression", Completion: "Achèvement",
+    "Show the words": "Afficher le texte", "Male narrator": "Narrateur", "Female narrator": "Narratrice",
+    "Hear this one in game:": "Écoutez-le en jeu :", "get Lore Forever": "obtenez Lore Forever",
+    norec: "Pas encore d'enregistrement en français : lisez-le ici." },
+  it: { Listen: "Ascolta", "{n} recordings": "{n} registrazioni", Speed: "Velocità", "Playback speed": "Velocità di riproduzione",
+    "The story": "La storia", "Quest text": "Testo della missione", Progress: "Avanzamento", Completion: "Completamento",
+    "Show the words": "Mostra il testo", "Male narrator": "Narratore", "Female narrator": "Narratrice",
+    "Hear this one in game:": "Ascoltalo in gioco:", "get Lore Forever": "scarica Lore Forever",
+    norec: "Ancora nessuna registrazione in italiano: leggilo qui." },
+  "pt-br": { Listen: "Ouvir", "{n} recordings": "{n} gravações", Speed: "Velocidade", "Playback speed": "Velocidade de reprodução",
+    "The story": "A história", "Quest text": "Texto da missão", Progress: "Progresso", Completion: "Conclusão",
+    "Show the words": "Mostrar o texto", "Male narrator": "Narrador", "Female narrator": "Narradora",
+    "Hear this one in game:": "Ouça no jogo:", "get Lore Forever": "baixe o Lore Forever",
+    norec: "Ainda não há gravação em português disto: leia aqui." },
+  ru: { norec: "Записи на русском пока нет: прочитайте здесь." },
+  uk: { norec: "Запису українською ще немає: прочитайте тут." },
+  zh: { norec: "暂无中文录音：请在此阅读。" },
+};
+for (const [lang, words] of Object.entries(PLAYER)) Object.assign(S[lang], words);
+
 const EN = {
   "In {n}": "In {n}", "Read in": "Read in", "on Wowhead": "on Wowhead", "on the Warcraft Wiki": "on the Warcraft Wiki",
   "WoW Forever database": "WoW Forever database", "Hear it as you play": "Hear it as you play",
-  "Get Lore Forever": "Get Lore Forever",
+  "Get Lore Forever": "Get Lore Forever", norec: "No {n} recording of this yet: read it here.",
   cta: "Lore Forever tells you the story of each zone, place, character and quest as you reach it in WoW Forever, read " +
     "aloud, and answers what you wonder about along the way.",
 };

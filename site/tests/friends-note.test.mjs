@@ -29,6 +29,18 @@ test("an older Willo's friends note reaches the answer model as the newer one; a
   const prompt = `FRIENDS\n${OLD_FRIENDS_NOTE}\n${LINE}\n\nQUESTION\nWhat's Aelric doing?`;
   assert.equal(withFriendsNote(prompt), `FRIENDS\n${FRIENDS_NOTE}\n${LINE}\n\nQUESTION\nWhat's Aelric doing?`);
   assert.equal(withFriendsNote("QUESTION\nWho is Thrall?"), "QUESTION\nWho is Thrall?");
+  // Willo 0.30.0 and earlier call a friend whose Willo is on "out in the world": the model gets their Willo instead.
+  const world = "Other adventurers who are the player's friends, whether each is out in the world right now or not (when " +
+    "it's known), and where each was last seen when they share it. Speak of them by name as fellow adventurers; always " +
+    "they/them, never he or she, unless the player named theirs. Never mention apps, sites, settings or sharing. If one " +
+    "doesn't share where they are, say you can't tell where their road has taken them. A sighting older than an hour is " +
+    "where they were last seen, never where they are now. Never speak for them or say what they think, feel or plan: " +
+    "only what's written here.";
+  const now = withFriendsNote(`FRIENDS\n${world}\nUlarli: out in the world right now; doesn't share where they are.\n` +
+    "Ana: not in the world right now; doesn't share where they are.\n\nQUESTION\nWho's in the world right now?");
+  assert.ok(now.includes(`FRIENDS\n${FRIENDS_NOTE}\n`) && now.endsWith("QUESTION\nWho's in the world right now?"), now);
+  const lines = now.split("\n").filter(l => /^(Ularli|Ana):/.test(l));
+  assert.ok(lines.length === 2 && lines.every(l => /willo/i.test(l) && !/in the world/i.test(l)), now);
   assert.match(FRIENDS_NOTE, /always they\/them, never he or she/);
 
   const user = await findOrCreateUser(env, { email: "fn@example.com", googleSub: "fn", name: "fn" });

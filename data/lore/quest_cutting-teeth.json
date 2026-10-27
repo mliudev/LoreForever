@@ -17,16 +17,16 @@
   "wiki": "Cutting Teeth",
   "chain": []
  },
- "summary": "Cutting Teeth is the initial trial given to fresh recruits arriving in the Valley of Trials in Durotar. Overseer Gornek assigns newcomers to thin the mottled boar population roaming the nearby cactus dirt farms, testing their basic combat readiness. Surviving this modest rite of passage proves an aspiring warrior or spellcaster possesses the backbone necessary to serve the Horde.",
+ "summary": "In the Valley of Trials, fresh recruits face a first test against mottled boars. Overseer Gornek sends aspiring warriors and spellcasters to thin the boars around the cactus dirt farms, where they can prove their fighting skill and readiness to serve the Horde.",
  "sections": [
   {
    "title": "A Measure of Backbone",
-   "body": "The Valley of Trials does not indulge delusions of grandeur. While young recruits might dream of pursuing massive beasts across the Barrens or winning glory on battlefields, overseer Gornek begins their evaluation with far more grounded matters. Thinning the mottled boars around the valley farms serves as a baseline assessment: it ensures a recruit knows how to wield a weapon or cast a spell, can handle wild aggression, and possesses enough sense to survive their very first skirmish.",
+   "body": "The Valley of Trials leaves little room for grand dreams. Young recruits may imagine hunting great beasts in the Barrens or winning glory on a battlefield, but overseer Gornek begins with the farms. Thinning the mottled boars is a grounded test of a recruit’s first skills with a weapon or spell. It shows whether they can face a wild attacker and have the sense to survive their first skirmish.",
    "spoiler": 0
   },
   {
    "title": "Taming the Red Dust",
-   "body": "Beyond testing raw recruits, culling the mottled boars serves a practical domestic purpose for the red desert settlement. The feral swine roam the dirt farms north and northeast of the camp, rooting through cactus patches and threatening the scarce supplies cultivated in Durotar's harsh soil. By sending aspirants to clear them out, the camp keeps local pests in check while forging young orcs and trolls into competent defenders of the new nation.",
+   "body": "Feral swine roam the red desert settlement’s dirt farms north and northeast of camp. They root through cactus patches and threaten the few supplies grown in Durotar’s harsh soil. Sending aspirants to clear them keeps local pests in check while shaping young orcs and trolls into defenders of the new nation.",
    "spoiler": 0
   }
  ],
@@ -38,7 +38,7 @@
     "why kill boars",
     "gornek boar hunt"
    ],
-   "answer": "As Gornek himself admits, recruits are far more useful to the Horde alive than dead. While the Barrens hold mighty kodo and predators, sending an untried rookie against them would simply result in needless slaughter. Boars provide a reliable test of basic fighting ability without throwing away lives."
+   "answer": "Gornek sends recruits after boars because the Horde needs them alive. The Barrens hold mighty kodo and predators, but an untried recruit sent against them could be needlessly killed. Boars offer a sound test of basic fighting skill without throwing lives away."
   },
   {
    "q": "Where are the mottled boars located?",
@@ -47,7 +47,7 @@
     "where are boars",
     "find mottled boars"
    ],
-   "answer": "Mottled boars root through the scrub and dirt farms situated to the north and northeast of the central clearing in the Valley of Trials."
+   "answer": "Mottled boars root through scrub and dirt farms north and northeast of the central clearing in the Valley of Trials."
   },
   {
    "q": "What is the significance of the phrase 'cutting teeth'?",
@@ -55,7 +55,7 @@
     "what does cutting teeth mean",
     "meaning of cutting teeth"
    ],
-   "answer": "The phrase refers to gaining one's very first practical experience in a craft or calling. For an aspiring defender of the Horde, it marks the transition from training dummies and idle talk to drawing blood in actual survival."
+   "answer": "“Cutting teeth” means gaining a first practical experience in a craft or calling. For an aspiring Horde defender, it means leaving training dummies and idle talk behind and drawing blood in a fight for survival."
   },
   {
    "q": "Who assigns this trial?",
@@ -64,7 +64,7 @@
     "quest giver cutting teeth",
     "gornek trial"
    ],
-   "answer": "The task is assigned by Gornek, an overseer stationed at the heart of the Valley of Trials who evaluates and directs new recruits entering Durotar's training grounds."
+   "answer": "Gornek assigns the trial. He is an overseer at the heart of the Valley of Trials, where he evaluates and directs new recruits entering Durotar’s training grounds."
   },
   {
    "q": "Does this complete the training in the Valley of Trials?",
@@ -72,7 +72,7 @@
     "is this the last quest",
     "what comes after cutting teeth"
    ],
-   "answer": "No. Gornek warns that fighting boars is merely a warm-up. Completing this task leads immediately to more hazardous challenges, including confronting humanoid intruders and gathering vital valley resources."
+   "answer": "No. Gornek warns that fighting boars is only a warm-up. More dangerous challenges follow, including facing humanoid intruders and gathering vital valley resources."
   },
   {
    "q": "Why do the boars pose a problem in the valley?",
@@ -80,21 +80,21 @@
     "boar problem",
     "valley of trials boars"
    ],
-   "answer": "The feral boars aggressively wander the local dirt farms and brush patches, endangering workers and consuming the few resilient crops, like cactus fruit, that sustain the encampment."
+   "answer": "Feral boars roam the local dirt farms and brush patches, endangering workers and eating the few hardy crops, such as cactus fruit, that sustain the encampment."
   }
  ],
  "angles": [
   {
    "target": "faction:Horde",
-   "text": "Every young champion stepping into Durotar must start from the very dirt, proving that the Horde's future rests on blood and sweat rather than unearned prestige."
+   "text": "Every young champion who enters Durotar starts in the dirt, proving that the Horde’s future rests on their blood and sweat, not unearned prestige."
   },
   {
    "target": "race:Orc",
-   "text": "Orcish culture values practical survival and martial honor above all else; even humble boar-culling acts as a sacred first step into adulthood and the service of Thrall's new nation."
+   "text": "Orcish culture prizes practical survival and martial honor. Even culling boars is a sacred first step into adulthood and service to Thrall’s new nation."
   },
   {
    "target": "race:Troll",
-   "text": "As the Darkspear tribe rebuilds alongside their orc allies, young troll scouts and mystics must also prove their self-reliance amidst Durotar's unforgiving predators."
+   "text": "As the Darkspear tribe rebuilds alongside its orc allies, young troll scouts and mystics prove their self-reliance among Durotar’s unforgiving predators."
   }
  ],
  "keywords": [
@@ -116,5 +116,6 @@
  ],
  "attribution": [
   "Cutting Teeth"
- ]
+ ],
+ "style": 1
 }

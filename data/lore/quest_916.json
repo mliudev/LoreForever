@@ -17,16 +17,16 @@
   "wiki": "Webwood Venom",
   "chain": []
  },
- "summary": "Webwood Venom is an Alliance quest in Shadowglen, Teldrassil. The scholar Gilshalan Windwalker tasks young night elves with gathering venom sacs from giant webwood spiders to study how the growth of the new World Tree has affected native wildlife.",
+ "summary": "In Shadowglen, Gilshalan Windwalker studies the giant webwood spiders of Shadowthread Cave. He asks young night elves to gather venom sacs so he can learn how Teldrassil's growth has affected the forest's wildlife.",
  "sections": [
   {
    "title": "A Naturalist's Curiosity",
-   "body": "Gilshalan Windwalker has journeyed to Shadowglen to examine the unnatural size and aggression of the local webwood spiders infesting Shadowthread Cave. He notes that these beasts are cousins to much smaller varieties elsewhere. Suspecting that the immense magical energies of Teldrassil are causing rapid and disturbing mutations in local fauna, he requests venom sacs to compare their biological properties against ordinary arachnid species.",
+   "body": "Gilshalan Windwalker has come to Shadowglen to study the webwood spiders in Shadowthread Cave. They are far larger and more aggressive than their cousins elsewhere. He suspects Teldrassil's immense magical energies are changing the local wildlife. He asks for venom sacs to compare with those of ordinary spiders and learn what has changed.",
    "spoiler": 0
   },
   {
    "title": "The Looming Threat in Shadowglen",
-   "body": "The webwood spiders dwelling around and inside Shadowthread Cave have become increasingly hazardous to young night elf novices in the glen. Gathering their venom serves a dual purpose: it thins out a dangerous localized infestation while supplying Darnassian researchers with direct biological evidence regarding Teldrassil's volatile influence on the wild.",
+   "body": "Webwood spiders live in and around Shadowthread Cave, where they threaten young night elves in the glen. Gathering their venom can help thin their numbers and give Darnassian researchers evidence of Teldrassil's effect on the wild.",
    "spoiler": 0
   }
  ],
@@ -38,7 +38,7 @@
     "who gives webwood venom",
     "quest giver webwood venom"
    ],
-   "answer": "Gilshalan Windwalker is a night elf researcher stationed at Aldrassil in Shadowglen. He studies the native wildlife of Teldrassil to uncover how the rapid growth of the World Tree is affecting local ecology."
+   "answer": "Gilshalan Windwalker is a night elf researcher at Aldrassil in Shadowglen. He studies Teldrassil's wildlife to learn how the World Tree's rapid growth affects the local ecology."
   },
   {
    "q": "Why are the webwood spiders so large?",
@@ -47,7 +47,7 @@
     "why are spiders big shadowglen",
     "webwood mutations"
    ],
-   "answer": "They are naturally cousins to much smaller spider varieties. Gilshalan Windwalker believes the rapid growth and latent magical forces of Teldrassil have unnaturally enlarged them and warped their behavior."
+   "answer": "Webwood spiders are cousins to much smaller varieties. Gilshalan Windwalker believes Teldrassil's rapid growth and latent magical forces have enlarged them and changed their behavior."
   },
   {
    "q": "Where is Shadowthread Cave?",
@@ -56,7 +56,7 @@
     "where find webwoods",
     "webwood spider cave"
    ],
-   "answer": "Shadowthread Cave lies in the northern reaches of Shadowglen, nestled into the rocky ridges past the training grounds of Aldrassil."
+   "answer": "Shadowthread Cave lies in northern Shadowglen, in the rocky ridges beyond Aldrassil's training grounds."
   },
   {
    "q": "What will Gilshalan do with the venom sacs?",
@@ -65,7 +65,7 @@
     "gilshalan venom study",
     "venom research darnassus"
    ],
-   "answer": "He plans to transport the venom back to Darnassus to compare its chemical and magical properties with those of standard forest spiders, searching for anomalies caused by the World Tree."
+   "answer": "Gilshalan plans to take the venom to Darnassus and compare its chemical and magical properties with those of ordinary forest spiders. He hopes to find signs of changes caused by the World Tree."
   },
   {
    "q": "Are there other quests in Shadowthread Cave?",
@@ -74,7 +74,7 @@
     "shadowthread cave quests",
     "iverron quest"
    ],
-   "answer": "Yes. While collecting venom, adventurers often assist Dirania Silvershine nearby in aiding Iverron, an elf poisoned by the very same spiders in Shadowthread Cave."
+   "answer": "Yes. Near Shadowthread Cave, Dirania Silvershine helps Iverron, an elf poisoned by the same spiders."
   },
   {
    "q": "What quest follows Webwood Venom?",
@@ -83,17 +83,17 @@
     "what comes after webwood venom",
     "gilshalan followup"
    ],
-   "answer": "After examining the venom, Gilshalan asks adventurers to retrieve a Webwood Egg directly from the depths of Shadowthread Cave to study their life cycle."
+   "answer": "After studying the venom, Gilshalan asks for a Webwood Egg from deep inside Shadowthread Cave so he can study the spiders' life cycle."
   }
  ],
  "angles": [
   {
    "target": "race:NightElf",
-   "text": "For young night elves coming of age in Shadowglen, this task offers an early lesson in how fragile and unpredictable nature has become under the boughs of Teldrassil."
+   "text": "For young night elves coming of age in Shadowglen, this work offers an early lesson in how fragile and unpredictable nature has become beneath Teldrassil's boughs."
   },
   {
    "target": "class:Druid",
-   "text": "Druids hold a vested interest in Gilshalan's findings, as understanding whether Teldrassil heals or warps surrounding wildlife is central to the Cenarion Circle's vigilance."
+   "text": "As a druid, you have reason to follow Gilshalan's findings. The Cenarion Circle watches closely to learn whether Teldrassil heals or warps the wildlife around it."
   }
  ],
  "keywords": [
@@ -119,5 +119,6 @@
  ],
  "attribution": [
   "Webwood Venom"
- ]
+ ],
+ "style": 1
 }

@@ -17,16 +17,16 @@
   "wiki": "Escape Through Force",
   "chain": []
  },
- "summary": "Escape Through Force is an Alliance quest in Darkshore where the adventurer helps Volcor break through surrounding threats by direct combat. After fighting past the perils of the wild to reach the road and reunite with his faithful companion Grimclaw, the player reports Volcor's safe escape back to Terenthis in Auberdine.",
+ "summary": "In Darkshore, Volcor fights through the wild to reach safety. He reunites with Grimclaw by the road, and you carry word of his escape to Terenthis in Auberdine.",
  "sections": [
   {
    "title": "A Direct Way Out",
-   "body": "When stranded in the perilous wilderness of Darkshore, subtle movement is not always the chosen path. Faced with danger, the night elf Volcor accepts a blunt strategy: cutting directly through the surrounding hostile creatures to reach safety. Rather than attempting to slip away unseen, Volcor relies on martial prowess to carve a corridor straight down to the main road.",
+   "body": "Volcor is stranded in Darkshore's perilous wilderness, with danger closing around him. He chooses to fight through the hostile creatures rather than slip away unseen. His skill in battle clears a path straight to the main road and safety.",
    "spoiler": 0
   },
   {
    "title": "Reunion on the Road",
-   "body": "Reaching the thoroughfare safely allows Volcor to reunite with Grimclaw, his stalwart bear companion who has been waiting by the path. With their escape secured, Volcor prepares for his next journey while urging the adventurer to report directly to Terenthis in Auberdine. Delivering news of Volcor's safety reassures the night elf leadership and immediately draws the attention of Sentinel Selarin, pointing toward deeper troubles brewing southward in Ashenvale.",
+   "body": "Volcor reaches the road and reunites with Grimclaw, his bear companion who waited by the path. Once safe, Volcor prepares for his next journey and asks you to report to Terenthis in Auberdine. The news of his escape reaches the night elf leadership and brings Sentinel Selarin's attention to troubles in southern Ashenvale.",
    "spoiler": 1
   }
  ],
@@ -38,7 +38,7 @@
     "who is volcor",
     "volcor darkshore"
    ],
-   "answer": "Volcor is a night elf scout or woodsman in Darkshore who went missing along with his companion Grimclaw. After being located by adventurers searching on behalf of Terenthis, he requires assistance escaping hostile wildlife and dangerous terrain."
+   "answer": "Volcor is a night elf scout or woodsman in Darkshore who went missing with his companion Grimclaw. After adventurers find him while searching for Terenthis, he needs help escaping hostile wildlife and dangerous terrain."
   },
   {
    "q": "Who is Grimclaw?",
@@ -47,7 +47,7 @@
     "volcor bear",
     "volcor pet"
    ],
-   "answer": "Grimclaw is Volcor's loyal companion bear. During Volcor's entrapment, Grimclaw remained separated near the road, serving as the landmark rendezvous point for Volcor's escape."
+   "answer": "Grimclaw is Volcor's loyal bear companion. While Volcor was trapped, Grimclaw waited apart from him near the road, where the two could meet again."
   },
   {
    "q": "Why does Terenthis care about Volcor's return?",
@@ -56,7 +56,7 @@
     "why help volcor",
     "terenthis quest"
    ],
-   "answer": "Terenthis coordinates scout movements and local defense efforts out of Auberdine. Tracking down lost allies and assessing threats along the coastline is critical to maintaining night elf control across a rapidly destabilizing Darkshore."
+   "answer": "Terenthis coordinates scout movements and local defenses from Auberdine. Finding lost allies and judging threats along the coast helps the night elves hold Darkshore."
   },
   {
    "q": "What happens after completing this quest?",
@@ -65,7 +65,7 @@
     "what comes next",
     "next quest after volcor"
    ],
-   "answer": "Report Volcor's safe passage to Terenthis in Auberdine. The chain then leads to Trek to Ashenvale."
+   "answer": "Report Volcor's safe passage to Terenthis in Auberdine. The next stage leads to Trek to Ashenvale."
   },
   {
    "q": "Is there an alternate way to finish Volcor's escort?",
@@ -74,7 +74,7 @@
     "escape through stealth",
     "volcor choices"
    ],
-   "answer": "Yes. When rescuing Volcor, adventurers are offered a choice in approach: fighting their way out head-on via Escape Through Force, or guiding him quietly past danger using stealth."
+   "answer": "Yes. You can fight your way out with Volcor or guide him quietly past danger using stealth."
   },
   {
    "q": "Where does this quest lead in the broader storyline?",
@@ -82,17 +82,17 @@
     "volcor storyline",
     "darkshore to ashenvale questline"
    ],
-   "answer": "Securing Volcor's survival serves as a bridge between the local conflicts of Darkshore and the larger regional defense of the night elf lands, directly opening up assignments in Ashenvale."
+   "answer": "Volcor's safe return links Darkshore's local conflicts to the defense of night elf lands and opens assignments in Ashenvale."
   }
  ],
  "angles": [
   {
    "target": "race:NightElf",
-   "text": "Rescuing scouts like Volcor is vital to the Kaldorei's tenuous grip on Darkshore, where wild beasts, corruption, and outside invaders threaten their ancestral woodlands."
+   "text": "As a night elf, you help protect the Kaldorei's hold on Darkshore, where wild beasts, corruption, and outside invaders threaten their ancestral woodlands."
   },
   {
    "target": "faction:Alliance",
-   "text": "Assisting local scouts deepens the bond between the young Alliance and the Night Elves, proving the faction's value in securing Kalimdor's northern frontier."
+   "text": "As an Alliance member, you strengthen the bond between the young Alliance and the Night Elves by helping secure Kalimdor's northern frontier."
   }
  ],
  "keywords": [
@@ -115,5 +115,6 @@
  ],
  "attribution": [
   "Escape Through Force"
- ]
+ ],
+ "style": 1
 }

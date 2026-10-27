@@ -17,16 +17,16 @@
   "wiki": "Flight to Auberdine",
   "chain": []
  },
- "summary": "This errand introduces adventurers leaving Teldrassil to the night elves' aerial transit network. Tasked by the hippogryph master Vesprystus at Rut'theran Village, travellers take wing across the sea to deliver a bundle of oversized marine specimens to Laird in Auberdine.",
+ "summary": "You leave Teldrassil for Auberdine with a bundle of unusual fish specimens. Vesprystus sends you from Rut'theran Village by hippogryph to deliver them to Laird.",
  "sections": [
   {
    "title": "Taking Wing to Darkshore",
-   "body": "For many young adventurers departing the boughs of Teldrassil, Rut'theran Village marks the threshold between sanctuary and the wider world. While a mundane ferry plies the strait between the island haven and mainland Kalimdor, the night elves rely equally on their bonded hippogryphs. Entrusted with a parcel of rare fish parts from Nessa Shadowsong, travellers mount one of these winged beasts to establish their very first flight path onto the shores of Darkshore.",
+   "body": "Rut'theran Village is a sanctuary at the edge of the wider world for young adventurers leaving Teldrassil. A mundane ferry crosses the strait between the island and mainland Kalimdor, while night elves also travel by bonded hippogryph. Nessa Shadowsong entrusts you with a parcel of rare fish parts, and you take wing to reach the shores of Darkshore.",
    "spoiler": 0
   },
   {
    "title": "Curious Catches",
-   "body": "The delivery itself is of keen interest to the fishermen of Darkshore. Laird, awaiting Nessa's findings at the docks of Auberdine, inspects the catch to find enormous scales the size of fists and a jawbone nearly twice the size of mainland specimens. The island waters around the base of the World Tree seem to produce altered or abnormally large life, a curiosity that hints at the potent, restless nature of Teldrassil itself.",
+   "body": "Laird waits for Nessa's findings at the docks of Auberdine. He finds enormous scales as large as fists and a jawbone nearly twice the size of mainland specimens. The waters around the base of the World Tree seem to produce altered or abnormally large life, a curiosity tied to Teldrassil's potent, restless nature.",
    "spoiler": 0
   }
  ],
@@ -38,7 +38,7 @@
     "flight to auberdine quest goal",
     "why fly"
    ],
-   "answer": "The journey serves as a practical lesson in connecting flight paths between settlements while also delivering research samples of unusual fish caught around Rut'theran Village to Laird in Auberdine."
+   "answer": "You carry unusual fish specimens caught around Rut'theran Village to Laird in Auberdine, while making the flight between settlements."
   },
   {
    "q": "Who sends the parcel, and what is inside it?",
@@ -47,7 +47,7 @@
     "what is in the package",
     "who sent package"
    ],
-   "answer": "The package comes from the fisherwoman Nessa Shadowsong. It contains fish specimens from the waters surrounding Rut'theran Village, including massive scales and an oversized jawbone."
+   "answer": "Nessa Shadowsong, a fisherwoman, sends the parcel. It holds fish specimens from Rut'theran Village's waters, including massive scales and an oversized jawbone."
   },
   {
    "q": "Why are the fish from Teldrassil so large?",
@@ -56,7 +56,7 @@
     "rut'theran fish size",
     "huge scales"
    ],
-   "answer": "Laird notes that the jawbone is nearly twice normal size and the scales are as big as a fist. The waters encircling the World Tree of Teldrassil foster strangely magnified wildlife compared to the mainland shores of Darkshore."
+   "answer": "Laird notes scales as big as a fist and a jawbone nearly twice normal size. Waters around Teldrassil's World Tree seem to foster magnified wildlife compared with the mainland shores of Darkshore."
   },
   {
    "q": "Who is Vesprystus?",
@@ -64,7 +64,7 @@
     "vesprystus lore",
     "who is the hippogryph master"
    ],
-   "answer": "Vesprystus is the hippogryph master stationed at Rut'theran Village. He tends the night elven mounts and coordinates aerial travel across the water to mainland Kalimdor."
+   "answer": "Vesprystus is the hippogryph master at Rut'theran Village. He tends the night elven mounts and coordinates flights across the water to mainland Kalimdor."
   },
   {
    "q": "Who is Laird?",
@@ -73,7 +73,7 @@
     "who is laird",
     "laird darkshore"
    ],
-   "answer": "Laird is a night elf fisherman based in Auberdine on the coast of Darkshore. He studies local aquatic life and compares mainland catches against those caught near Teldrassil."
+   "answer": "Laird is a night elf fisherman in Auberdine on the coast of Darkshore. He studies local aquatic life and compares mainland catches with those near Teldrassil."
   },
   {
    "q": "Can you travel between Rut'theran and Auberdine without flying?",
@@ -82,17 +82,17 @@
     "ferry to darkshore",
     "other way to auberdine"
    ],
-   "answer": "Yes. A regular ferry boat runs between the docks at Rut'theran Village and the pier at Auberdine, offering an alternative to the hippogryph flight."
+   "answer": "Yes. A regular ferry runs between the docks at Rut'theran Village and the pier at Auberdine, offering an alternative to the hippogryph flight."
   }
  ],
  "angles": [
   {
    "target": "race:NightElf",
-   "text": "Taking flight on a hippogryph to Auberdine marks an iconic rite of passage for young kaldorei stepping forth from Teldrassil onto the ancestral mainland."
+   "text": "As a night elf, you take a hippogryph to Auberdine, a rite of passage for young kaldorei leaving Teldrassil for the ancestral mainland."
   },
   {
    "target": "faction:Alliance",
-   "text": "Hippogryphs serve as the Alliance's primary aerial network throughout northern Kalimdor, linking coastal outposts directly to the capital."
+   "text": "As an Alliance traveler, you can rely on hippogryphs to link coastal outposts across northern Kalimdor directly to the capital."
   }
  ],
  "keywords": [
@@ -119,5 +119,6 @@
  ],
  "attribution": [
   "Flight to Auberdine"
- ]
+ ],
+ "style": 1
 }

@@ -17,16 +17,16 @@
   "wiki": "Investigate the Scourge of Orgrimmar",
   "chain": []
  },
- "summary": "The Scourge has brazenly established an encampment right outside the gates of Orgrimmar under the shadow of a floating necropolis. Lieutenant Dagel tasks defenders with repelling the undead, recovering necrotic stones, and probing the mysterious runic circles humming with necromantic energy. This sudden intrusion brings the Lich King's reach directly to the heart of Durotar.",
+ "summary": "Outside Orgrimmar, the Scourge has raised a camp beneath a floating necropolis. Lieutenant Dagel calls on defenders to repel the undead, recover necrotic stones, and examine runic circles charged with necromantic energy. The attack brings the Lich King's reach to Durotar.",
  "sections": [
   {
    "title": "Undead at the Gates",
-   "body": "The threat of the Scourge is no longer confined to the ruined kingdoms of Lordaeron or the icy wastes of the north. Floating necropolises have appeared across Azeroth, casting dark shadows even over Durotar. At Orgrimmar's very threshold, undead forces have gathered, carving out encampments and threatening the capital of the Horde. Lieutenant Dagel and the Argent Dawn are coordinating defensive efforts, calling upon local champions to push the invaders back before they can establish an unbreakable siege.",
+   "body": "The Scourge now threatens lands far from Lordaeron and the northern ice. Floating necropolises cast their shadows across Azeroth, even over Durotar. Undead forces have gathered at Orgrimmar's threshold, raising camps that threaten the Horde capital. Lieutenant Dagel and the Argent Dawn coordinate the defense, calling on local champions to drive the invaders back before they can secure a siege.",
    "spoiler": 0
   },
   {
    "title": "Necrotic Relics and Dark Whispers",
-   "body": "Beyond simply slaying the encroaching monstrosities and gathering their dim necrotic stones, the defense hinges on understanding the invaders' methods. Encircling their camp are glowing runic sigils, resonant with the same dark power suffusing the necropolis above. Those brave enough to step into the runes encounter unnatural voices echoing through the ether\u2014suggesting communication of some kind, although Dagel does not know whom the voices contact.",
+   "body": "The Scourge's camp holds dim necrotic stones and glowing runic circles. The circles ring the camp and carry the same dark power as the necropolis above. Those who step into the runes hear unnatural voices echoing through the ether. The voices suggest some kind of communication, though Dagel does not know whom they reach.",
    "spoiler": 1
   }
  ],
@@ -38,7 +38,7 @@
     "undead outside org",
     "lich king attacks orgrimmar"
    ],
-   "answer": "The assignment concerns Scourge forces camped outside Orgrimmar beneath a necropolis. Lieutenant Dagel asks defenders to thin their numbers and investigate the strange runic circles nearby."
+   "answer": "Scourge forces have camped outside Orgrimmar beneath a necropolis. Lieutenant Dagel asks defenders to thin their ranks and investigate the nearby runic circles."
   },
   {
    "q": "Who is Lieutenant Dagel?",
@@ -47,7 +47,7 @@
     "dagel questgiver",
     "who is dagel"
    ],
-   "answer": "Lieutenant Dagel is an officer working in coordination with the Argent Dawn to rally defenders against the invasion. Stationed near the threat, Dagel directs fighters to eliminate the undead and examine the arcane tools they use on the battlefield."
+   "answer": "Lieutenant Dagel is an officer coordinating with the Argent Dawn to rally defenders against the invasion. From near the threat, Dagel directs fighters to slay the undead and examine their arcane tools."
   },
   {
    "q": "What are the dim necrotic stones?",
@@ -56,7 +56,7 @@
     "what are dim necrotic stones",
     "dim stones"
    ],
-   "answer": "Dim necrotic stones are recovered from Scourge invaders and brought to the Argent Dawn as proof of slain undead."
+   "answer": "Dim necrotic stones are taken from Scourge invaders and brought to the Argent Dawn as proof that undead have been slain."
   },
   {
    "q": "What are the glowing runic circles outside the city?",
@@ -65,7 +65,7 @@
     "glowing runes org",
     "scourge circles"
    ],
-   "answer": "The glowing circles carry the same strange energy as the nearby undead and necropolis. Dagel asks defenders to investigate their purpose."
+   "answer": "The glowing circles hold the same strange energy as the nearby undead and necropolis. Dagel asks defenders to investigate their purpose."
   },
   {
    "q": "Why is the Argent Dawn involved in Durotar?",
@@ -74,7 +74,7 @@
     "why argent dawn here",
     "argent dawn horde"
    ],
-   "answer": "The Argent Dawn is an independent order dedicated to eradicating the Scourge wherever it manifests. Because the invasion threatens every living civilization, the order cooperates with Horde defenders to secure Orgrimmar's borders."
+   "answer": "The Argent Dawn is an independent order devoted to destroying the Scourge wherever it appears. The order works with Horde defenders to protect Orgrimmar's borders from the invasion."
   },
   {
    "q": "Is the necropolis overhead dangerous to the city?",
@@ -82,21 +82,21 @@
     "floating citadel org",
     "necropolis above durotar"
    ],
-   "answer": "The necropolis looms over the Scourge encampment and shares its strange energy. Its presence makes the nearby undead threat a concern for the city."
+   "answer": "The necropolis looms over the Scourge camp and shares its strange energy. Its presence makes the undead threat near the city a concern."
   }
  ],
  "angles": [
   {
    "target": "faction:Horde",
-   "text": "An invasion force camped within sight of Orgrimmar's towers is an unbearable insult to the Horde. Defending Durotar against the Lich King's minions is a vital duty for any sworn champion."
+   "text": "A Scourge force camped within sight of Orgrimmar's towers is an insult the Horde cannot bear. Every sworn champion has a duty to defend Durotar from the Lich King's minions."
   },
   {
    "target": "race:Orc",
-   "text": "The dry red soil of Durotar was won through hardship and blood. Orcs will not allow mindless monstrosities to blight the home they carved out with their bare hands."
+   "text": "Orcs won Durotar's dry red soil through hardship and blood. They will not let mindless monstrosities blight the home they carved out with their bare hands."
   },
   {
    "target": "race:Undead",
-   "text": "For the Forsaken, the Scourge is a reminder of their former enslavement. Crushing these invaders is a personal vendetta against the Lich King's continuing reach."
+   "text": "For the Forsaken, the Scourge recalls their former enslavement. Crushing the invaders is a personal vendetta against the Lich King's continuing reach."
   }
  ],
  "keywords": [
@@ -118,5 +118,6 @@
  ],
  "attribution": [
   "Investigate the Scourge of Orgrimmar"
- ]
+ ],
+ "style": 1
 }

@@ -17,21 +17,21 @@
   "wiki": "Minshina's Skull (quest)",
   "chain": []
  },
- "summary": "Master Gadrin of Sen'jin Village is haunted by the desperate cries of his deceased brother, Minshina. Slain and subjected to dark magic by the rogue witch doctor Zalazane on the Echo Isles, Minshina's soul remains bound inside his own severed skull. Freeing the fallen troll requires infiltrating Zalazane's ritual grounds to reclaim the relic and release his spirit from eternal torment.",
+ "summary": "In Sen'jin Village, Master Gadrin hears the desperate cries of his dead brother, Minshina. Zalazane slew Minshina on the Echo Isles and bound his soul with dark magic to his own severed skull. To free him from torment, you must reclaim the skull from Zalazane's ritual grounds.",
  "sections": [
   {
    "title": "A Plea from the Shadows",
-   "body": "Master Gadrin serves as one of the Darkspear tribe's spiritual anchors in Sen'jin Village, but his mind is tormented by dark visions. His brother Minshina fell victim to Zalazane's betrayal when the mad warlock seized control of the Echo Isles. Minshina perished during the conflict, but in troll tradition and voodoo mysticism, physical death does not always grant peace. Minshina's tormented voice speaks into Gadrin's dreams, pleading for salvation from a fate worse than death.",
+   "body": "Master Gadrin is one of the Darkspear tribe's spiritual anchors in Sen'jin Village, yet dark visions torment him. His brother Minshina fell when Zalazane betrayed the tribe and seized control of the Echo Isles. Minshina died in the conflict, but death has brought him no peace. In troll tradition and voodoo mysticism, the body can die while the spirit remains bound. Now Minshina's tormented voice reaches Gadrin in his dreams, pleading to be saved from a fate worse than death.",
    "spoiler": 0
   },
   {
    "title": "Zalazane's Circle of Power",
-   "body": "Zalazane does not simply kill his former brethren; he ensnares their souls to fuel his dark sorcery. Minshina's essence was ritually bound to his own skull, which now rests amidst a blasphemous circle of power on the largest of the Echo Isles. Guarded by hexed trolls and bathed in candlelit ritual, the skull serves as a focal point for the traitor's twisted mojo. So long as it sits within the circle, Minshina remains an eternal captive to Zalazane's will.",
+   "body": "Zalazane does more than kill his former brethren; he traps their souls to fuel his dark sorcery. He bound Minshina's spirit to his own skull, now set within a blasphemous circle of power on the largest of the Echo Isles. Hexed trolls guard the circle, where candles burn through the rites and the skull focuses Zalazane's twisted mojo. While it remains there, Minshina is captive to the witch doctor's will.",
    "spoiler": 0
   },
   {
    "title": "Freedom in Death",
-   "body": "To save Minshina, a brave champion must cross the waters east of Sen'jin Village to the southern reaches of the Echo Isles, break into the ritual ring, and extract the skull from the witch doctor's influence. Returning the remains to Master Gadrin severs the dark bindings, allowing Minshina's grateful spirit to briefly materialize, bow in reverence, and finally depart for the realm of the ancestors.",
+   "body": "To free Minshina, you cross the waters east of Sen'jin Village to the southern reaches of the Echo Isles. You break into the ritual ring and take the skull from Zalazane's grasp. When you return Minshina's remains to Master Gadrin, the dark bindings break. Minshina's grateful spirit briefly appears, bows in reverence, then leaves for the realm of the ancestors.",
    "spoiler": 1
   }
  ],
@@ -43,7 +43,7 @@
     "who is minshina",
     "gadrin brother"
    ],
-   "answer": "Minshina was the brother of Master Gadrin, the prominent witch doctor and elder residing in Sen'jin Village. He was murdered during the uprising on the Echo Isles by Zalazane, who then desecrated his remains with dark sorcery."
+   "answer": "Minshina was Master Gadrin's brother. Zalazane murdered him during the uprising on the Echo Isles, then defiled his remains with dark sorcery."
   },
   {
    "q": "Why is Minshina's spirit trapped in his skull?",
@@ -52,7 +52,7 @@
     "zalazane soul trap",
     "minshina soul"
    ],
-   "answer": "Zalazane uses dark voodoo and warlock magic to enslave the spirits of slain Darkspear trolls. By binding Minshina's soul directly to his physical skull and placing it within a ritual circle of power, Zalazane denied him passage to the afterlife and harnessed his spirit."
+   "answer": "Zalazane uses dark voodoo and warlock magic to enslave the spirits of slain Darkspear trolls. He bound Minshina's soul to his physical skull and placed it in a circle of power, denying him passage to the afterlife and harnessing his spirit."
   },
   {
    "q": "Where is the circle of power located?",
@@ -61,7 +61,7 @@
     "circle of power location",
     "minshina skull spot"
    ],
-   "answer": "The ritual site is located atop a hill on the southernmost and largest of the Echo Isles, off the southeastern coast of Durotar. It is recognizable by ritual candles, dancing hexed trolls, and displays of skulls."
+   "answer": "The circle of power lies atop a hill on the southernmost and largest of the Echo Isles, off Durotar's southeastern coast. Ritual candles, dancing hexed trolls, and displays of skulls mark the site."
   },
   {
    "q": "What happens when the skull is brought back to Sen'jin Village?",
@@ -70,7 +70,7 @@
     "what happens to minshina",
     "does minshina appear"
    ],
-   "answer": "Once Master Gadrin receives the skull, the necromantic bindings shatter. Minshina's ghostly form appears before his brother and the adventurer, bows in gratitude, and vanishes to rest peacefully with the ancestors."
+   "answer": "When Master Gadrin receives the skull, the necromantic bindings shatter. Minshina's ghostly form appears before Gadrin and you, bows in gratitude, then vanishes to rest peacefully with the ancestors."
   },
   {
    "q": "Who is Zalazane and why did he do this?",
@@ -79,7 +79,7 @@
     "why zalazane evil",
     "zalazane lore"
    ],
-   "answer": "Zalazane was once a respected witch doctor of the Darkspear tribe. Driven mad by lust for power, he turned on his tribe, used hexes to mind-control his brothers and sisters, and drove the remaining Darkspear refugees onto the mainland of Durotar."
+   "answer": "Zalazane was once a respected Darkspear witch doctor. Driven mad by lust for power, he turned on his tribe, used hexes to mind-control his brothers and sisters, and drove the remaining Darkspear refugees onto Durotar's mainland."
   },
   {
    "q": "Why can't Gadrin retrieve the skull himself?",
@@ -87,25 +87,25 @@
     "why doesn't gadrin go",
     "gadrin duties"
    ],
-   "answer": "Master Gadrin is crucial to holding Sen'jin Village together. Between guiding the young Darkspear leadership, advising chieftain Vol'jin, and actively countering Zalazane's expanding hexes across the coast, Gadrin cannot leave the settlement unprotected."
+   "answer": "Master Gadrin cannot leave Sen'jin Village unprotected. He holds the settlement together, guides the young Darkspear leadership, advises chieftain Vol'jin, and works to counter Zalazane's expanding hexes along the coast."
   }
  ],
  "angles": [
   {
    "target": "race:Troll",
-   "text": "For a Darkspear troll, recovering Minshina's skull is a sacred duty to family and tribe, striking a blow against Zalazane's perversion of ancestral voodoo traditions."
+   "text": "As a Darkspear troll, you honor family and tribe by recovering Minshina's skull. You strike at Zalazane's corruption of ancestral voodoo traditions."
   },
   {
    "target": "class:Priest",
-   "text": "Priests understand the deep sanctity of the departed soul and recognize the horror of ritual necromancy that binds a fallen brother from finding eternal peace."
+   "text": "As a priest, you know the sanctity of a departed soul and the horror of ritual necromancy that keeps a fallen brother from eternal peace."
   },
   {
    "target": "class:Shaman",
-   "text": "Shaman revere the spirits of the ancestors; breaking Zalazane's circle to release a tortured soul restores balance between the spirit world and the living."
+   "text": "As a shaman, you revere the spirits of the ancestors. Breaking Zalazane's circle releases a tortured soul and restores balance between the spirit world and the living."
   },
   {
    "target": "faction:Horde",
-   "text": "Assisting Master Gadrin honors the bond between the new Horde and the Darkspear tribe, proving that an ally's grief is shared by all."
+   "text": "As a member of the Horde, you honor its bond with the Darkspear tribe by helping Master Gadrin. Your aid proves an ally's grief is shared by all."
   }
  ],
  "keywords": [
@@ -131,5 +131,6 @@
  ],
  "attribution": [
   "Minshina's Skull (quest)"
- ]
+ ],
+ "style": 1
 }

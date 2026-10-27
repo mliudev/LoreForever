@@ -1,0 +1,89 @@
+{
+ "key": "quest:95036",
+ "type": "quest",
+ "name": "A Moon-Kissed Blade",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   95036
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "Trevan warns that the worgen threaten Silverpine Forest and names Old Fire-Eye as a foe who resists death through unknown magic. He asks you to learn what is needed for a special blade.",
+ "sections": [
+  {
+   "title": "A smith's list",
+   "body": "Old Fire-Eye is the worgen who attacked Trevan and his companions. Trevan will give you a list of the materials needed to forge a weapon against him. The materials are gathered, and Trevan believes he knows a smith who can craft the blade.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Old Fire-Eye?",
+   "aliases": [
+    "old fire-eye",
+    "fire eye worgen",
+    "big worgen"
+   ],
+   "answer": "Old Fire-Eye is the largest and meanest of the worgen, and he attacked Trevan and his companions."
+  },
+  {
+   "q": "Why does Old Fire-Eye keep coming back?",
+   "aliases": [
+    "why wont fire-eye die",
+    "old fire eye magic",
+    "worgen that wont stay dead"
+   ],
+   "answer": "Unknown magic keeps Old Fire-Eye from staying dead."
+  },
+  {
+   "q": "What does Trevan need from me?",
+   "aliases": [
+    "what does Trevan want",
+    "Trevan list",
+    "blade materials"
+   ],
+   "answer": "Trevan will give you a list of materials needed to forge a special weapon."
+  },
+  {
+   "q": "Why is a special blade needed?",
+   "aliases": [
+    "moon kissed blade why",
+    "weapon for Old Fire-Eye",
+    "kill fire eye"
+   ],
+   "answer": "Old Fire-Eye resists death through unknown magic, so Trevan says a special weapon is needed to put him down."
+  },
+  {
+   "q": "Who can craft the blade?",
+   "aliases": [
+    "smith for the blade",
+    "who makes moon blade",
+    "blade blacksmith"
+   ],
+   "answer": "Trevan believes he knows a smith who can craft the blade."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "a moon-kissed blade",
+  "blade materials",
+  "old fire-eye",
+  "silverpine forest",
+  "special weapon",
+  "trevan",
+  "worgen"
+ ],
+ "related": [
+  "zone:silverpine",
+  "topic:worgen",
+  "quest:95140",
+  "topic:light"
+ ],
+ "style": 1,
+ "attribution": [
+  "In-game quest text: A Moon-Kissed Blade"
+ ]
+}

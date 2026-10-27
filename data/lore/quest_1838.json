@@ -17,21 +17,21 @@
   "wiki": "Brutal Armor",
   "chain": []
  },
- "summary": "Brutal Armor is a Horde warrior rite of passage overseen by the near-blind smith Thun'grim Firegaze in the northern Barrens. Seeking to craft armor worthy of a rising champion, Thun'grim sends seasoned warriors across distant lands to gather rare reagents and exotic smelting agents. Fulfilling his scroll begins the forging of a complete set of brutal battle gear.",
+ "summary": "A warrior in the northern Barrens faces Thun'grim Firegaze's test. The near-blind smith sends seasoned Horde warriors across distant lands for rare ingredients and smelting agents. Fulfilling his scroll begins the forging of a full set of brutal battle gear.",
  "sections": [
   {
    "title": "A Master's Calling",
-   "body": "Perched along the craggy hills of the northern Barrens, the veteran orc smith Thun'grim Firegaze listens closely to the winds of war. Though his eyesight is failing and clouded, his reputation at the forge remains unmatched. Having heard rumors of a warrior whose strength and valor outpace ordinary soldiers, Thun'grim decides to craft an enduring set of mail that can withstand the harshest clashes of Kalimdor and the Eastern Kingdoms.",
+   "body": "In the northern Barrens, Thun'grim Firegaze listens for news of war. The veteran orc smith's eyesight is failing, but his skill at the forge remains unmatched. Rumors reach him of a warrior whose strength and valor exceed those of ordinary soldiers. Thun'grim sets out to craft mail that can withstand the fiercest battles across Kalimdor and the Eastern Kingdoms.",
    "spoiler": 0
   },
   {
    "title": "A Cross-Continental Search",
-   "body": "Forging armor of this caliber requires far more than common ore. Struggling by firelight with weak eyes, Thun'grim pens an exacting scroll detailing the components required for the core chestpiece. The task demands common refined iron alongside rare smoky iron ingots carried by burrowing kobolds, powdered azurite worked by miners across the sea, and a volatile vial of phlogiston. Only a warrior willing to endure far-flung trials can hope to see the suit brought to life.",
+   "body": "Thun'grim's armor calls for more than common ore. By firelight, his failing eyes guide him as he writes a precise scroll for the core chestpiece. Its ingredients include refined iron, smoky iron ingots carried by burrowing kobolds, powdered azurite worked by miners across the sea, and a volatile vial of phlogiston. Only a warrior ready to face trials across distant lands can bring the required materials together.",
    "spoiler": 0
   },
   {
    "title": "The First Strike of the Hammer",
-   "body": "Delivering these rare supplies is only the start of Thun'grim's vision. Upon accepting the materials and firing his furnace to forge the Brutal Hauberk, the old smith recognizes that one artisan alone cannot finish such an ambitious armory. Creating the full set demands calling upon expert craftsmen of the other Horde races\u2014a Tauren helm-shaper, a Troll gauntlet-maker, and an Undead greave-smith across the continents.",
+   "body": "Thun'grim's rare materials begin a much larger undertaking. When they arrive, he fires his furnace and forges the Brutal Hauberk. The old smith sees that he cannot complete such an ambitious armory alone. The full set calls for expert craftsmen of the other Horde races: a Tauren helm-shaper, a Troll gauntlet-maker, and an Undead greave-smith, each found across the continents.",
    "spoiler": 1
   }
  ],
@@ -43,7 +43,7 @@
     "thun'grim firegaze lore",
     "thungrim backstory"
    ],
-   "answer": "Thun'grim Firegaze is an esteemed veteran orc blacksmith dwelling on a hill overlooking the northern Barrens. Despite his failing vision, his instincts at the anvil are sharp, and he crafts powerful, custom battle mail for Horde warriors who have earned renown through acts of valor."
+   "answer": "Thun'grim Firegaze is a veteran orc blacksmith who lives on a hill overlooking the northern Barrens. Though his eyesight is failing, his instincts at the anvil remain sharp, and he crafts powerful custom battle mail for Horde warriors renowned for valor."
   },
   {
    "q": "What is Brutal Armor?",
@@ -52,7 +52,7 @@
     "brutal armor set lore",
     "warrior armor chain"
    ],
-   "answer": "Brutal Armor is a celebrated set of battle-forged mail designed specifically for seasoned Horde warriors. Crafted through the collective expertise of Horde smiths, each piece requires dangerous journeys to secure rare alchemical reagents, purified ores, and ancient techniques."
+   "answer": "Brutal Armor is a set of battle-forged mail for seasoned Horde warriors. Horde smiths bring their skills together to make it, and each piece calls for dangerous journeys to find rare alchemical reagents, purified ores, and ancient techniques."
   },
   {
    "q": "Why does Thun'grim need such unusual ingredients?",
@@ -61,7 +61,7 @@
     "why phlogiston",
     "what are the reagents for"
    ],
-   "answer": "Standard iron is too brittle to withstand the heavy blows dealt to a frontline champion. Exotic reagents like powdered azurite, smoky iron ingots, and volatile phlogiston are used as flux and tempering agents, allowing Thun'grim to infuse the metal with immense resilience and strength."
+   "answer": "Thun'grim needs unusual ingredients because standard iron is too brittle to endure the heavy blows faced by a frontline champion. He uses powdered azurite, smoky iron ingots, and volatile phlogiston as flux and tempering agents to give the metal greater resilience and strength."
   },
   {
    "q": "Does Thun'grim forge the entire set himself?",
@@ -69,7 +69,7 @@
     "does thungrim make all of it",
     "who makes the brutal armor pieces"
    ],
-   "answer": "No. Thun'grim creates the central hauberk himself, but he directs the warrior to fellow artisan smiths throughout the Horde\u2014including Orm Stonehoof, Ula'elek, and Velora Nitely\u2014to craft the matching helm, gauntlets, and legguards."
+   "answer": "No. Thun'grim forges the central hauberk, while fellow Horde smiths craft the matching helm, gauntlets, and legguards. They include Orm Stonehoof, Ula'elek, and Velora Nitely."
   },
   {
    "q": "Where does this quest chain lead next?",
@@ -77,7 +77,7 @@
     "what comes after brutal armor",
     "brutal armor follow up"
    ],
-   "answer": "Completing this trial leads directly into the forging of the Brutal Hauberk, while opening up avenues to consult smiths in Thunder Bluff, Sen'jin Village, and the Undercity to assemble the rest of the brutal battle mail."
+   "answer": "The trial leads to the forging of the Brutal Hauberk and opens the way to consult smiths in Thunder Bluff, Sen'jin Village, and the Undercity for the rest of the brutal battle mail."
   },
   {
    "q": "Why does a warrior have to travel so far for these materials?",
@@ -85,21 +85,21 @@
     "why travel to eastern kingdoms",
     "why so many materials"
    ],
-   "answer": "The trial is both a test of martial tenacity and a lesson in resourcefulness. Proving worthy of master-forged armor requires a warrior to navigate enemy territory, delve into hazardous mines, and gather components beyond ordinary reach."
+   "answer": "The journey tests a warrior's martial tenacity and resourcefulness. To prove worthy of master-forged armor, a warrior must cross enemy territory, enter hazardous mines, and gather components beyond ordinary reach."
   }
  ],
  "angles": [
   {
    "target": "class:Warrior",
-   "text": "This quest represents a defining milestone for Horde warriors, proving their valor and endurance across multiple continents to earn custom-forged battle armor."
+   "text": "As a Horde warrior, you prove your valor and endurance across multiple continents to earn custom-forged battle armor."
   },
   {
    "target": "faction:Horde",
-   "text": "The Brutal Armor suits are a testament to Horde solidarity, uniting the distinct craft traditions of Orc, Tauren, Troll, and Forsaken smiths into one battle set."
+   "text": "As a member of the Horde, you see Orc, Tauren, Troll, and Forsaken smiths bring their distinct craft traditions together in one battle set."
   },
   {
    "target": "profession:Blacksmithing",
-   "text": "Thun'grim's scroll demonstrates advanced metallurgical alchemy, blending smoky iron, powdered azurite, and phlogiston to elevate standard iron smelting."
+   "text": "As a blacksmith, you can see how Thun'grim's scroll blends smoky iron, powdered azurite, and phlogiston to refine standard iron smelting."
   }
  ],
  "keywords": [
@@ -121,5 +121,6 @@
  ],
  "attribution": [
   "Brutal Armor"
- ]
+ ],
+ "style": 1
 }

@@ -17,16 +17,16 @@
   "wiki": "Hinott's Assistance",
   "chain": []
  },
- "summary": "Hinott's Assistance is an urgent journey undertaken by Horde rogues suffering from a debilitating tropical toxin. Contracted during an infiltration mission in the Barrens, the affliction requires the specialized expertise of Serge Hinott in Tarren Mill. Seeking his aid promises both a life-saving cure and instruction in the art of concocting deadly poisons.",
+ "summary": "In Orgrimmar, poisoned rogues seek Hinott's Assistance before Zanzil's mixture claims their lives. The toxin came from an infiltration in the Barrens, and Serge Hinott in Tarren Mill can offer a cure and teach the brewing of poisons.",
  "sections": [
   {
    "title": "A Toxic Predicament",
-   "body": "Following the daring infiltration of the Venture Company's tower north of the Sludge Fen, rogues find themselves afflicted by Zanzil's altered mixture. The poison wreaks havoc on the body, dulling reflexes and threatening life itself. Recognizing the severity of the affliction, rogue trainer Shenthul in Orgrimmar admits that local remedies are inadequate and directs the poisoned operative across the sea to the Eastern Kingdoms.",
+   "body": "A daring infiltration of the Venture Company's tower north of the Sludge Fen leaves rogues poisoned by Zanzil's altered mixture. It dulls their reflexes and threatens their lives. Shenthul, the rogue trainer in Orgrimmar, knows local remedies cannot help. He sends the poisoned rogue across the sea to the Eastern Kingdoms for care.",
    "spoiler": 0
   },
   {
    "title": "Journey to Tarren Mill",
-   "body": "The search for a cure leads south through the continent of Lordaeron to the village of Tarren Mill in Hillsbrad Foothills. There resides Serge Hinott, an apothecary whose fascination with virulent brews makes him ideally suited to analyze the exotic sample. While ordinary healers recoiled from Zanzil's venom, Hinott treats the deadly compound with professional glee, eager to dissect the foul concoction and instruct worthy rogues in brewing their own venoms.",
+   "body": "The search for a cure leads south through Lordaeron to Tarren Mill, a village in Hillsbrad Foothills. Serge Hinott lives there as an apothecary, known for his fascination with virulent brews. Ordinary healers recoil from Zanzil's venom, but Hinott treats the deadly compound with professional glee. He can dissect the foul concoction and teach worthy rogues to brew their own venoms.",
    "spoiler": 0
   }
  ],
@@ -38,7 +38,7 @@
     "who cures the poison",
     "serge hinott role"
    ],
-   "answer": "Serge Hinott is an expert apothecary residing in Tarren Mill who specializes in rare toxins and their antidotes. Ordinary healers cannot purge Zanzil's altered mixture, making Hinott the only contact capable of analyzing the compound, saving your life, and teaching the art of poisoncraft."
+   "answer": "Serge Hinott is an apothecary in Tarren Mill who specializes in rare toxins and their antidotes. Ordinary healers cannot purge Zanzil's altered mixture, so Hinott is the contact who can analyze it, save your life, and teach you poisoncraft."
   },
   {
    "q": "Where is Tarren Mill located?",
@@ -47,7 +47,7 @@
     "how to get to tarren mill",
     "where is hinott"
    ],
-   "answer": "Tarren Mill is a Forsaken settlement in northern Hillsbrad Foothills. From Orgrimmar, take the zeppelin to the Undercity in Tirisfal Glades, then travel south through Silverpine Forest and turn east along the road into Hillsbrad."
+   "answer": "Tarren Mill is a Forsaken settlement in northern Hillsbrad Foothills. From Orgrimmar, take the zeppelin to the Undercity in Tirisfal Glades, travel south through Silverpine Forest, then turn east along the road into Hillsbrad."
   },
   {
    "q": "How did I get poisoned in the first place?",
@@ -56,7 +56,7 @@
     "mission possible poison",
     "why am i poisoned"
    ],
-   "answer": "You were infected during the covert task Mission: Possible But Not Probable at the Venture Company tower north of the Sludge Fen in the Barrens. Opening the high-security chest exposed you to Zanzil's altered mixture, leaving a lingering, debilitating affliction."
+   "answer": "You were infected during the covert task called Mission: Possible But Not Probable at the Venture Company tower north of the Sludge Fen in the Barrens. Opening the high-security chest exposed you to Zanzil's altered mixture, leaving you with a lingering, debilitating affliction."
   },
   {
    "q": "What happens after Serge Hinott receives the sample?",
@@ -65,7 +65,7 @@
     "do i get cured",
     "after hinotts assistance"
    ],
-   "answer": "Once Hinott receives the sample, he examines its properties and prepares an antidote to cleanse your system. After curing the toxin, he shares his expertise, allowing rogues to master the brewing and application of their own poisons."
+   "answer": "After Serge Hinott receives the sample, he examines its properties and prepares an antidote to cleanse your system. Once he cures the toxin, he shares his expertise so rogues can learn to brew and apply their own poisons."
   },
   {
    "q": "Who is Shenthul and why did he send me away?",
@@ -74,7 +74,7 @@
     "shenthul orgrimmar",
     "why did trainer send me"
    ],
-   "answer": "Shenthul is the rogue trainer of the Shattered Hand, located in the Cleft of Shadow in Orgrimmar. He oversaw your test of skill in the Barrens and recognized that Zanzil's concoction was far beyond Orgrimmar's medical knowledge, requiring a specialist in Hillsbrad."
+   "answer": "Shenthul is the rogue trainer of the Shattered Hand in the Cleft of Shadow in Orgrimmar. He oversaw your test of skill in the Barrens and saw that Zanzil's concoction was beyond Orgrimmar's medical knowledge, so he sent you to a Hillsbrad specialist."
   },
   {
    "q": "Can any other class complete this quest?",
@@ -82,17 +82,17 @@
     "rogue only quest",
     "can warriors do hinotts assistance"
    ],
-   "answer": "No. This mission is part of the dedicated rogue training lineage that unlocks the fundamental discipline of brewing poisons and remedies."
+   "answer": "No. This training is part of the rogue lineage and teaches the fundamentals of brewing poisons and remedies."
   }
  ],
  "angles": [
   {
    "target": "class:Rogue",
-   "text": "This rite of passage bridges the gap between simple stealth and the alchemical arts, testing a rogue's stamina while opening the door to self-crafted venoms."
+   "text": "As a rogue, you face a rite of passage that tests your stamina and opens the door to crafting your own venoms."
   },
   {
    "target": "faction:Horde",
-   "text": "The mission illustrates the practical cooperation binding Kalimdor's orc and troll rogues with the sinister alchemical knowledge of the Forsaken in Lordaeron."
+   "text": "As a Horde member, you see practical cooperation between Kalimdor's orc and troll rogues and the Forsaken's alchemical knowledge in Lordaeron."
   }
  ],
  "keywords": [
@@ -116,5 +116,6 @@
  ],
  "attribution": [
   "Hinott's Assistance"
- ]
+ ],
+ "style": 1
 }

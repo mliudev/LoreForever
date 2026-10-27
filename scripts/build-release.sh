@@ -17,6 +17,10 @@
 # Usage: scripts/build-release.sh
 set -euo pipefail
 ROOT="$(cd "$(dirname "$0")/.." && pwd)"
+# In lore-heavy.slice (scripts/heavy.sh), capped, so a runaway or a pile-up of builds can't take the machine (10/25: six at
+# once froze WSL). One build peaks near 2 GB (measured 10/25), so 8G leaves it room. No-op where the slice isn't (the fixture copy of this script, macOS, CI).
+[ -n "${LORE_HEAVY:-}" ] || [ ! -x "$ROOT/scripts/heavy.sh" ] \
+  || LORE_HEAVY_MAX="${LORE_HEAVY_MAX:-8G}" exec "$ROOT/scripts/heavy.sh" "$0" "$@"
 # A sparse worktree without the language folders would do English only: stop, with the line that adds them.
 [ ! -f "$ROOT/scripts/need_langs.py" ] || python3 "$ROOT/scripts/need_langs.py" "${0##*/}" || exit 1   # (a fixture copy of this script has no checkout)
 # A sparse worktree (scripts/new-worktree.sh) has no voice audio or translated lore, and the main checkout no voice
@@ -68,6 +72,7 @@ PACKS = ["LoreForever_Voice_Default", "LoreForever_Voice_Default_Alliance", "Lor
 # separate pack").
 RELEASE_PACKS = ["LoreForever_Lang_deDE", "LoreForever_Lang_esES", "LoreForever_Lang_frFR", "LoreForever_Lang_ptBR",
                  "LoreForever_Lang_ruRU", "LoreForever_Lang_ukUA", "LoreForever_Lang_itIT", "LoreForever_Lang_zhCN",
+                 "LoreForever_Lang_roRO", "LoreForever_Lang_svSE",
                  "LoreForever_Voice_Default_ukUA",
                  "LoreForever_Edition_Densuad_esES_Text", "LoreForever_Edition_Densuad_esES_Audio",
                  "LoreForever_Voice_Default_Quests", "LoreForever_Voice_Female",
@@ -259,6 +264,7 @@ CLIP = re.compile(r"""\[\s*["'](\w+:[\w\-]+(?:#faq\d+|#detail|#progress|#complet
 KEY = re.compile(r"(?<![\w-])(?:AIza[\w-]{35}|sk-(?:ant|proj)-[\w-]{20,}|sk_[0-9a-f]{40,}|sk-[A-Za-z0-9]{40,})(?![\w-])")
 NAME = re.compile(r"op://|GEMINI_API_KEY|ANTHROPIC_API_KEY|OPENAI_API_KEY|ELEVENLABS_API_KEY|xi-api-key"
                   r"|-----BEGIN [A-Z ]*PRIVATE KEY", re.I)
+SCAN_WORKER_MB = 200   # a scan worker's peak RSS, 172 MB (measured 10/25, 16 workers; most of it pages shared with this process)
 def scan(item):
     """(audio paths named, clip ids listed (bundled voice packs' Lua only), the first secret-looking string or None)"""
     path, _, folder = item
@@ -266,7 +272,9 @@ def scan(item):
     clips = CLIP.findall(body) if folder in VOICE_PACKS and path.suffix.lower() == ".lua" else []
     m = KEY.search(body) or NAME.search(body)
     return AUDIO_REF.findall(body), clips, m.group(0) if m else None
-with multiprocessing.get_context("fork").Pool() as pool:
+import build_jobs   # sized by free memory too, so builds started together can't take it all (scripts/build_jobs.py)
+with build_jobs.reserve("build-release", SCAN_WORKER_MB, tasks=len(text_files)) as slot, \
+        multiprocessing.get_context("fork").Pool(slot.workers) as pool:
     scans = pool.map(scan, text_files, chunksize=1)
 
 # Audio files the code names literally must be in the zip, in the folder that ships them. AddOns\<Folder>\Audio\x.mp3

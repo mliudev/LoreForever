@@ -7,11 +7,11 @@
  "meta": {
   "wiki": "Long Wash"
  },
- "summary": "The Long Wash is a bleak, windswept stretch of beach in Darkshore running just south of Auberdine toward the ruins of Ameth'Aran. Gloomy and scattered with marine carcasses and flotsam, the shoreline has recently grown dangerous due to an increasing presence of hostile murlocs.",
+ "summary": "Along Darkshore, Long Wash runs south from Auberdine toward Ameth'Aran beneath a gray sky. Murlocs now make its shore dangerous.",
  "sections": [
   {
    "title": "A Gloomy Shoreline",
-   "body": "Despite its name, the Long Wash is actually the shortest distinct stretch of coastline in Darkshore. It sits under the region's perpetual overcast skies, an expanse of damp sand littered with flotsam, beached driftwood, and the carcasses of sea creatures washed up by the Veiled Sea. While local crabs comb through the surf, travelers southward from Auberdine must tread cautiously: murloc tribes have established camps along the water's edge, aggressively attacking anyone encroaching on their scavenged territory.",
+   "body": "Long Wash is Darkshore's shortest distinct stretch of coast, despite its name. Beneath the region's perpetual overcast skies, damp sand lies strewn with flotsam, driftwood, and sea creatures washed up by the Veiled Sea. Crabs comb the surf, but travelers heading south from Auberdine must watch for murloc tribes camped along the water's edge. The murlocs attack anyone who enters the territory where they scavenge.",
    "spoiler": 0
   }
  ],
@@ -23,7 +23,7 @@
     "where is long wash",
     "how to find long wash"
    ],
-   "answer": "The Long Wash stretches along the coastline of Darkshore immediately south of Auberdine, extending down until it lies roughly west of the ancient ruins of Ameth'Aran."
+   "answer": "Long Wash follows Darkshore's coast just south of Auberdine and reaches roughly west of the ruins of Ameth'Aran."
   },
   {
    "q": "Why is it called the Long Wash?",
@@ -32,7 +32,7 @@
     "long wash meaning",
     "what does wash mean"
    ],
-   "answer": "A 'wash' is an archaic term referring to the portion of a shore swept and washed over by ocean waves. Ironically, despite being named the Long Wash, it is actually the shortest distinct stretch of beach in Darkshore."
+   "answer": "A wash is an old word for a stretch of shore swept by ocean waves. Though called Long Wash, it is Darkshore's shortest distinct beach."
   },
   {
    "q": "What threats can be found along the Long Wash?",
@@ -41,7 +41,7 @@
     "long wash mobs",
     "what lives in long wash"
    ],
-   "answer": "The main danger along the Long Wash comes from aggressive murloc clans that have begun gathering in greater numbers along the coastline, alongside territorial tide crawlers and other beach wildlife."
+   "answer": "Aggressive murloc clans gather along Long Wash, alongside territorial tide crawlers and other beach wildlife."
   },
   {
    "q": "Why are there so many dead creatures on the beach?",
@@ -50,13 +50,13 @@
     "beached creatures darkshore beach",
     "flotsam on the shore"
    ],
-   "answer": "The rough surf of the Veiled Sea and the encroaching corruption affecting the coastal waters of Darkshore regularly wash up debris, ship drift, and dying marine life onto the damp sands of the shore."
+   "answer": "The rough surf of the Veiled Sea washes debris, ship drift, and dying marine life onto Long Wash's damp sands. Corruption is also encroaching on Darkshore's coastal waters."
   }
  ],
  "angles": [
   {
    "target": "race:NightElf",
-   "text": "For the kaldorei of Auberdine, the encroaching murlocs along the Long Wash represent another sign of unsettling imbalance creeping right up to the doorstep of their main port."
+   "text": "For the kaldorei of Auberdine, the murlocs along Long Wash are another sign of an unsettling imbalance creeping right up to their main port's doorstep."
   }
  ],
  "keywords": [
@@ -76,5 +76,6 @@
  ],
  "attribution": [
   "Long Wash"
- ]
+ ],
+ "style": 1
 }

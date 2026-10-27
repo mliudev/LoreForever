@@ -17,21 +17,21 @@
   "wiki": "Dig Rat Stew (quest)",
   "chain": []
  },
- "summary": "Dig Rat Stew is a culinary task offered by Grub, an orc camping east of the Crossroads in the Barrens. To satisfy a hearty desert appetite, Grub sends hungry adventurers south to the dwarven excavation at Bael Modan to gather a batch of plump dig rats for a dubious pot of stew.",
+ "summary": "Grub waits east of the Crossroads, hungry for a pot of dig rat stew. He sends travelers to Bael Modan in the southern Barrens to bring back dig rats for his recipe.",
  "sections": [
   {
    "title": "Barrens Delicacies",
-   "body": "Survival in the arid expanse of the Barrens demands an unpretentious palate. While seasoned hunters bring down zhevras, plainstriders, and raptors, the lone orc Grub has developed a peculiar craving for subterranean rodents. Claiming to be famished all day long, Grub promises to share his personal recipe with any traveler willing to do the undignified legwork of rat-catching.",
+   "body": "Across the dry Barrens, hunters bring down zhevras, plainstriders, and raptors. Grub, an orc camping east of the Crossroads, craves something different: dig rats. He says he is hungry all day and offers to share his recipe with any traveler willing to catch the burrowing rodents.",
    "spoiler": 0
   },
   {
    "title": "The Dwarven Vermin",
-   "body": "The chosen source for these creatures is Bael Modan, the vast Alliance excavation site located deep in the southern Barrens. As dwarven prospectors tear into the red earth, their deep quarrying has inadvertently stirred up nests of prolific dig rats. While the dwarves view the tiny rodents as an infestation, Grub considers the overrunning critters an unmissable feast right under the enemy's nose.",
+   "body": "Bael Modan lies deep in the southern Barrens, where dwarven prospectors dig into the red earth. Their work has disturbed nests of dig rats. The dwarves see the small rodents as an infestation, while Grub sees a feast close to the excavation.",
    "spoiler": 0
   },
   {
    "title": "A Matter of Flavor",
-   "body": "Preparing Dig Rat Stew requires a sturdy stomach. According to Grub, the rodents are actually best when allowed to rot for several weeks to draw out their pungent taste. Though he settles for fresher specimens to satisfy a starving adventurer on the spot, his cooking techniques illustrate just how rough-hewn and forgiving roadside cuisine can be on Kalimdor's frontier.",
+   "body": "Grub says dig rats taste best after rotting for several weeks. For a hungry traveler who wants food now, he accepts fresher meat. His recipe shows how forgiving roadside cooking can be on Kalimdor's frontier.",
    "spoiler": 0
   }
  ],
@@ -43,7 +43,7 @@
     "who is grub",
     "orc east of crossroads"
    ],
-   "answer": "Grub is an eccentric orc stationed along the trail east of the Crossroads in the Barrens. Always hungry, he is known for his peculiar culinary tastes and willingness to teach traveling adventurers how to cook local vermin."
+   "answer": "Grub is an orc camping along the trail east of the Crossroads in the Barrens. He is always hungry, has peculiar tastes, and will teach travelers to cook local vermin."
   },
   {
    "q": "Where do dig rats come from?",
@@ -52,7 +52,7 @@
     "dig rat location",
     "find dig rats"
    ],
-   "answer": "Dig rats infest Bael Modan, an Alliance excavation located in the far southern Barrens, south of Camp Taurajo and north of Razorfen Kraul. The invasive mining operations of the dwarves disturbed the ground and attracted swarms of the small creatures."
+   "answer": "Dig rats infest Bael Modan, an Alliance excavation in the far southern Barrens, south of Camp Taurajo and north of Razorfen Kraul. The dwarves' mining disturbed the ground and brought swarms of the small creatures."
   },
   {
    "q": "Why does Grub want dig rats specifically?",
@@ -61,7 +61,7 @@
     "why dig rats",
     "grub motivation"
    ],
-   "answer": "Grub considers them 'everyone's favorite feast' and claims that hunting vermin is a rite of passage for any seasoned adventurer. He uses them as the core ingredient in his hearty, albeit pungent, stew."
+   "answer": "Grub calls dig rats everyone's favorite feast and says hunting vermin is a rite of passage for seasoned travelers. They are the main ingredient in his hearty, pungent stew."
   },
   {
    "q": "Is Dig Rat Stew actually good to eat?",
@@ -70,7 +70,7 @@
     "eating dig rats",
     "grub recipe flavor"
    ],
-   "answer": "By Grub's standard, it is delicious, though his palate is rather extreme. He openly admits he prefers the meat after letting it rot for a few weeks to heighten the flavor, making the dish an acquired taste even by rugged Horde standards."
+   "answer": "Grub calls it delicious, though his taste is extreme. He prefers the meat after it has rotted for a few weeks, making the stew an acquired taste even by rugged Horde standards."
   },
   {
    "q": "Why are there dwarves in Bael Modan?",
@@ -79,7 +79,7 @@
     "why bael modan",
     "alliance southern barrens"
    ],
-   "answer": "The dwarves of Bael Modan are an Ironforge expedition that built a keep and an excavation in the southern Barrens, blasting and digging deep into the land. Their presence has heightened tensions with the Horde and stirred up native vermin."
+   "answer": "The dwarves of Bael Modan are an Ironforge expedition. They built a keep and excavation in the southern Barrens, blasting and digging deep into the land; their presence has heightened tensions with the Horde and stirred up native vermin."
   },
   {
    "q": "Do you need special culinary training to make the stew?",
@@ -87,21 +87,21 @@
     "cooking requirement",
     "do i need cooking skill"
    ],
-   "answer": "Grub's instruction requires basic familiarity with hearthcraft and field dressing. Anyone who has practiced rudimentary cooking can pick up his method for simmering the rodents into a sustaining meal."
+   "answer": "Grub's method calls for basic hearthcraft and field dressing. Anyone with rudimentary cooking experience can learn to simmer the rodents into a sustaining meal."
   }
  ],
  "angles": [
   {
    "target": "profession:Cooking",
-   "text": "Preparing Dig Rat Stew teaches basic frontier foraging, turning annoying quarry vermin into a filling, albeit foul-smelling, campfire meal."
+   "text": "Preparing dig rat stew teaches frontier foraging: quarry vermin become a filling, foul-smelling campfire meal."
   },
   {
    "target": "faction:Horde",
-   "text": "Poaching dig rats out of Bael Modan provides a satisfying way to mock the dwarven excavation while picking up rations in the southern Barrens."
+   "text": "Taking dig rats from Bael Modan offers a way to mock the dwarven excavation while gathering rations in the southern Barrens."
   },
   {
    "target": "race:Undead",
-   "text": "Grub's fondness for letting meat rot for weeks before boiling makes him one of the few living cooks whose tastes align with the Forsaken."
+   "text": "Grub likes to let meat rot for weeks before boiling it, a taste few living cooks share with the Forsaken."
   }
  ],
  "keywords": [
@@ -125,5 +125,6 @@
  ],
  "attribution": [
   "Dig Rat Stew (quest)"
- ]
+ ],
+ "style": 1
 }

@@ -17,16 +17,16 @@
   "wiki": "Sample for Helbrim",
   "chain": []
  },
- "summary": "Sample for Helbrim is a Horde courier task bridging Undercity alchemical experiments with Forsaken outposts in central Kalimdor. Handed down by Apothecary Zinge, it sends couriers across the sea to deliver a blighted wolf heart to Apothecary Helbrim at the Crossroads.",
+ "summary": "At the Crossroads, Apothecary Helbrim awaits a wolf heart from across the sea. Apothecary Zinge sends it from the Undercity to support the Forsaken's research in central Kalimdor.",
  "sections": [
   {
    "title": "A Contagion Across the Sea",
-   "body": "The Royal Apothecary Society rarely keeps its gruesome experiments confined to the ruins of Lordaeron. After receiving tainted organs from Apothecary Renferrel in Silverpine, Apothecary Zinge in the Undercity sought to expand their research globally. She entrusted an adventurer with a Wolf Heart Sample to be carried overseas to Apothecary Helbrim, an alchemist stationed in the arid savanna of the Barrens.",
+   "body": "Apothecary Zinge sends a Wolf Heart Sample from the Undercity to Apothecary Helbrim in the Barrens. The Royal Apothecary Society's experiments reach beyond the ruins of Lordaeron. After Apothecary Renferrel in Silverpine sent tainted organs, Zinge sought to extend their research across the world. Now a courier carries the sample overseas to Helbrim, an alchemist stationed in the Barrens' dry savanna.",
    "spoiler": 0
   },
   {
    "title": "Helbrim's Ambition",
-   "body": "Stationed atop the tower at the Crossroads, Apothecary Helbrim studies how native Kalimdor beasts react to the virulent compounds born in the Plaguelands. The delivered wolf heart offers valuable insight into extreme toxicity. Helbrim believes dissecting and testing the specimen alongside local creatures will significantly advance the Forsaken's mastery over poisons and unnatural afflictions.",
+   "body": "At the Crossroads, Apothecary Helbrim studies how Kalimdor's native beasts react to compounds from the Plaguelands. The wolf heart could show how those toxins affect local creatures. Helbrim believes that dissecting and testing it alongside them will help the Forsaken master poisons and unnatural afflictions.",
    "spoiler": 0
   }
  ],
@@ -38,7 +38,7 @@
     "wolf heart package",
     "what did zinge give me"
    ],
-   "answer": "The package contains a Wolf Heart Sample, originally harvested by Apothecary Renferrel from the corrupted wolves of Silverpine Forest and analyzed by Apothecary Zinge in the Undercity."
+   "answer": "The package holds a Wolf Heart Sample, harvested by Apothecary Renferrel from Silverpine Forest's corrupted wolves and analyzed by Apothecary Zinge in the Undercity."
   },
   {
    "q": "Why does Apothecary Helbrim want a tainted wolf heart?",
@@ -47,7 +47,7 @@
     "helbrim research",
     "helbrim purpose"
    ],
-   "answer": "Helbrim is researching how toxins originating from Lordaeron affect the wildlife of Kalimdor. He intends to study the heart's extreme toxicity to develop more potent concoctions and poisons for the Royal Apothecary Society."
+   "answer": "Helbrim studies how toxins from Lordaeron affect Kalimdor's wildlife. He hopes the heart's extreme toxicity will help develop stronger concoctions and poisons for the Royal Apothecary Society."
   },
   {
    "q": "Where is Apothecary Helbrim located?",
@@ -56,7 +56,7 @@
     "helbrim location",
     "find helbrim"
    ],
-   "answer": "Helbrim is stationed at the Crossroads in the Barrens. He can be found on the upper exterior deck of the central watchtower overlooking the settlement."
+   "answer": "Apothecary Helbrim is stationed at the Crossroads in the Barrens, on the upper exterior deck of the central watchtower overlooking the settlement."
   },
   {
    "q": "How does a traveler get from Undercity to the Crossroads?",
@@ -65,7 +65,7 @@
     "how to get to helbrim",
     "undercity to barrens"
    ],
-   "answer": "Travelers board the zeppelin tower outside Undercity to reach Orgrimmar in Durotar. From Orgrimmar, you journey south through Durotar, cross the Southfury River into the Barrens, and continue west along the main road to the Crossroads."
+   "answer": "Take the zeppelin from the tower outside Undercity to Orgrimmar in Durotar. Travel south through Durotar, cross the Southfury River into the Barrens, then follow the main road west to the Crossroads."
   },
   {
    "q": "Who are Apothecary Renferrel and Apothecary Zinge?",
@@ -74,7 +74,7 @@
     "who is zinge",
     "zinge and renferrel lore"
    ],
-   "answer": "They are both researchers in the Royal Apothecary Society. Renferrel operates out of the Sepulcher in Silverpine Forest, while Zinge conducts her studies within the Apothecarium in the Undercity."
+   "answer": "Apothecary Renferrel and Apothecary Zinge are researchers in the Royal Apothecary Society. Renferrel works from the Sepulcher in Silverpine Forest, while Zinge studies in the Apothecarium in the Undercity."
   },
   {
    "q": "What faction does this research serve?",
@@ -83,17 +83,17 @@
     "is this for sylvanas",
     "apothecary goal"
    ],
-   "answer": "This research directly serves the Forsaken and the Royal Apothecary Society under Lady Sylvanas Windrunner, advancing their overarching efforts to engineer deadly chemical and biological weapons."
+   "answer": "The research serves the Forsaken and the Royal Apothecary Society under Lady Sylvanas Windrunner. It advances their effort to create deadly chemical and biological weapons."
   }
  ],
  "angles": [
   {
    "target": "race:Undead",
-   "text": "Carrying tainted specimens across the world highlights the Royal Apothecary Society's far-reaching ambitions to secure the Forsaken's dominance through chemical supremacy."
+   "text": "As an Undead, you carry the Royal Apothecary Society's tainted specimens across the world, part of its far-reaching effort to secure Forsaken dominance through chemical supremacy."
   },
   {
    "target": "faction:Horde",
-   "text": "While orcs and tauren welcome Forsaken aid in defending the Crossroads, the apothecaries' quiet dissection of plagued remains introduces a dark, unsettling presence to the peaceful Barrens."
+   "text": "As a member of the Horde, you see orcs and tauren welcome Forsaken aid in defending the Crossroads. The apothecaries' quiet study of plagued remains brings an unsettling presence to the peaceful Barrens."
   }
  ],
  "keywords": [
@@ -118,5 +118,6 @@
  ],
  "attribution": [
   "Sample for Helbrim"
- ]
+ ],
+ "style": 1
 }

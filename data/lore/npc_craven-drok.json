@@ -8,11 +8,11 @@
   "wiki": "Craven Drok",
   "refs": 1
  },
- "summary": "Craven Drok is a wandering orc found skulking in the dimly lit tunnels of the Cleft of Shadow beneath Orgrimmar. True to his moniker, he keeps to the dark corners of the city, occasionally reaching out to travelers willing to help with a delicate matter: how the Alliance sees the Horde.",
+ "summary": "In Orgrimmar, Craven Drok keeps to the Cleft of Shadow and seeks travelers for a delicate matter. He wants them to consider how the Alliance sees the Horde.",
  "sections": [
   {
    "title": "A Skulker in the Shadows",
-   "body": "While most orcs of Orgrimmar proudly walk the sunlit avenues of the Valley of Honor or the Valley of Strength, Craven Drok avoids the daylight entirely. He haunts the winding, subterranean paths of the Cleft of Shadow, an enclave typically reserved for warlocks, rogues, and practitioners of less honorable trades. Drok lives up to his cowardly reputation, preferring to stay out of sight while hiring passersby to carry out his discreet errands, including an errand concerning the Horde's standing with the Alliance.",
+   "body": "Craven Drok avoids Orgrimmar's sunlit avenues and wanders the winding paths beneath the city. The Cleft of Shadow draws warlocks, rogues, and practitioners of less honorable trades. Drok keeps out of sight and hires passersby to handle discreet errands, including one about the Horde's standing with the Alliance.",
    "spoiler": 0
   }
  ],
@@ -24,7 +24,7 @@
     "where is craven drok",
     "drok orgrimmar loc"
    ],
-   "answer": "Craven Drok wanders the cavernous underground pathways of the Cleft of Shadow, situated deep beneath the main thoroughfares of Orgrimmar."
+   "answer": "Craven Drok wanders the underground paths of the Cleft of Shadow, beneath Orgrimmar's main thoroughfares."
   },
   {
    "q": "Why is he called 'Craven'?",
@@ -33,7 +33,7 @@
     "craven drok name",
     "is craven drok a coward"
    ],
-   "answer": "Orcish culture prizes overt bravery and martial glory above all else. Drok earns his moniker by skulking in dark caverns, keeping his head down, and contracting others to handle tasks he prefers not to deal with personally."
+   "answer": "Craven Drok earns his name by skulking in dark caverns and keeping his head down. He hires others to handle tasks he would rather avoid, against orcish ideals of bravery and martial glory."
   },
   {
    "q": "What is his involvement with the Alliance?",
@@ -41,7 +41,7 @@
     "craven drok alliance",
     "alliance relations drok"
    ],
-   "answer": "Drok starts the errand known as Alliance Relations. He speaks of Thrall as a wise diplomat who learned much of human ways, then sends travelers to Keldran, who works to keep the Alliance from wrongly concluding that the Horde has made pacts with the Burning Legion."
+   "answer": "Craven Drok begins Alliance Relations by praising Thrall's wisdom and knowledge of human ways. He sends travelers to Keldran, who works to keep the Alliance from wrongly believing the Horde has made pacts with the Burning Legion."
   },
   {
    "q": "Who does Craven Drok send travelers to?",
@@ -49,17 +49,17 @@
     "who is keldran",
     "drok contacts"
    ],
-   "answer": "He sends them to Keldran, a student of magic whose hovel lies near the western exit of Orgrimmar. With the Warchief's blessing, Keldran works to make sure the Horde is not mistaken for an ally of the Burning Legion."
+   "answer": "Craven Drok sends travelers to Keldran, a student of magic whose hovel lies near Orgrimmar's western exit. With the Warchief's blessing, Keldran works to keep the Horde from being mistaken for an ally of the Burning Legion."
   }
  ],
  "angles": [
   {
    "target": "race:Orc",
-   "text": "Most orcs regard Craven Drok with disdain, as his preference for lurking in the gloomy Cleft of Shadow stands in stark contrast to traditional notions of orcish honor and courage."
+   "text": "As an orc, you may see Craven Drok's habit of lurking in the Cleft of Shadow as a mark against the honor and courage your people prize."
   },
   {
    "target": "class:Rogue",
-   "text": "The Cleft of Shadow is the natural gathering place for those who operate outside the spotlight, making contacts like Drok typical of the subterranean underworld beneath the capital."
+   "text": "As a rogue, you may find the Cleft of Shadow familiar ground, where those who work out of sight gather and make contacts like Drok."
   }
  ],
  "keywords": [
@@ -76,5 +76,6 @@
  ],
  "attribution": [
   "Craven Drok"
- ]
+ ],
+ "style": 1
 }

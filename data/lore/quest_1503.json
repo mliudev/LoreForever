@@ -17,16 +17,16 @@
   "wiki": "Forged Steel",
   "chain": []
  },
- "summary": "The orc smith Thun'grim Firegaze requires assistance recovering stolen metalwork from a nearby quilboar encampment. In exchange for reclaiming his prized forged steel bars, he offers to craft a fine weapon for a rising warrior.",
+ "summary": "Thun'grim Firegaze waits in the eastern Barrens for the steel stolen from his camp. He offers to forge a weapon for the warrior who brings it back.",
  "sections": [
   {
    "title": "A Blind Spot Exploited",
-   "body": "Thun'grim Firegaze makes his camp atop the rugged ridges of the eastern Barrens, living as an armorer and smith far from the bustling forge-works of Orgrimmar. Despite his fierce spirit, long years of staring into the forge's flame have cost him much of his eyesight. Recognizing this vulnerability, the neighboring Razormane quilboar crept into his camp under the cover of darkness. By deliberately making noise and snorting from one side to draw his clouded gaze, a band of thieves slipped in from the other and made off with an iron chest filled with his prepared stock of forged steel.",
+   "body": "Thun'grim Firegaze keeps a smithy in the eastern Barrens, far from Orgrimmar. Years at the forge have dimmed his sight. The nearby Razormane quilboar used that weakness to steal an iron chest from his camp. Some snorted and made noise on one side to draw his gaze while others slipped in from the other and carried off his forged steel bars.",
    "spoiler": 0
   },
   {
    "title": "Priceless Metal, Clueless Thieves",
-   "body": "While Thun'grim was infuriated by the indignity of the theft, he held little fear that the Razormanes would actually put the metal to good use. Quilboar craftsmanship typically relies on crude stone, sharpened tusks, and thorny roots rather than advanced metallurgy. The heavy iron chest remained intact and untouched within their camp near a broken-down wagon, utterly useless to the quilboar yet invaluable to the orcish armorer waiting to forge battle gear for young warriors of the Horde.",
+   "body": "Thun'grim is angry at the theft, but doubts the Razormanes can use the steel. Quilboar craft with stone, tusks, and thorny roots, not refined metal. The heavy chest remains near a broken wagon in their camp, untouched and useless to them. For Thun'grim, its steel is the stock he needs to forge weapons for young Horde warriors.",
    "spoiler": 0
   }
  ],
@@ -38,7 +38,7 @@
     "who is the smith",
     "thungrim"
    ],
-   "answer": "Thun'grim Firegaze is a veteran orc armorer and weaponsmith living in a small encampment in the eastern Barrens. Despite having failing eyesight, he continues his craft and helps train and arm aspiring Horde warriors."
+   "answer": "Thun'grim Firegaze is an orc armorer and weaponsmith in the eastern Barrens. Though his eyesight is failing, he keeps working and arms young Horde warriors."
   },
   {
    "q": "Why did the quilboar steal the steel?",
@@ -47,7 +47,7 @@
     "why quilboar stole",
     "what did razormane want"
    ],
-   "answer": "The Razormane quilboar are opportunistic scavengers who routinely raid travelers and outposts across the Barrens. They snatched the iron chest during a nighttime diversion simply to rob the vulnerable smith, though they lacked the blacksmithing knowledge to actually work the forged steel inside."
+   "answer": "The Razormane quilboar stole the iron chest from Thun'grim's camp in a nighttime diversion. They lack the skill to work the forged steel inside."
   },
   {
    "q": "Where are the forged steel bars kept?",
@@ -56,7 +56,7 @@
     "stolen iron chest location",
     "where are the bars"
    ],
-   "answer": "The steel bars remain locked inside the Stolen Iron Chest, abandoned near a broken wagon in the Razormane quilboar grounds northwest of Thun'grim's campsite."
+   "answer": "The forged steel bars are locked in the Stolen Iron Chest near a broken wagon in the Razormane grounds northwest of Thun'grim's camp."
   },
   {
    "q": "What weapon does Thun'grim offer in return?",
@@ -65,7 +65,7 @@
     "what do i get",
     "forged steel reward"
    ],
-   "answer": "In exchange for recovering his stock of fine steel, Thun'grim offers young warriors a choice of freshly forged armaments to aid in their trials across Kalimdor."
+   "answer": "Thun'grim offers young warriors a choice of freshly forged weapons in exchange for recovering his steel."
   },
   {
    "q": "How did the Razormanes manage to trick Thun'grim?",
@@ -74,7 +74,7 @@
     "how was thungrim robbed",
     "distracted thungrim"
    ],
-   "answer": "The quilboar took advantage of Thun'grim's failing vision. A few raiders stayed at a distance making loud snorting noises to draw his attention away, allowing others to sneak into his camp unnoticed and drag off the chest."
+   "answer": "The Razormanes exploited Thun'grim's failing eyesight. Some raiders snorted and made noise to draw his attention while others slipped into his camp and took the chest."
   },
   {
    "q": "Why is Thun'grim living out in the Barrens instead of Orgrimmar?",
@@ -82,21 +82,21 @@
     "why is thungrim here",
     "why barrens camp"
    ],
-   "answer": "Thun'grim maintains a solitary outpost in the arid hills overlooking the trade roads, serving as an armorer and mentor for warriors journeying out from Durotar into the broader proving grounds of the Barrens."
+   "answer": "Thun'grim keeps a solitary outpost in the eastern Barrens, where he arms and mentors warriors traveling from Durotar."
   }
  ],
  "angles": [
   {
    "target": "class:Warrior",
-   "text": "This task marks an essential early rite of passage, teaching warriors to recover vital military supplies and proving their worth before receiving their first custom-forged weaponry."
+   "text": "As a warrior, you recover stolen steel and prove your worth before Thun'grim forges you a weapon."
   },
   {
    "target": "profession:Blacksmithing",
-   "text": "Thun'grim's reliance on high-quality forged steel demonstrates the Horde's ongoing demand for refined metallurgy in the harsh, resource-strapped Kalimdor frontier."
+   "text": "As a blacksmith, you see why refined steel matters to the Horde in Kalimdor's harsh frontier."
   },
   {
    "target": "faction:Horde",
-   "text": "The Razormane tribe poses a constant nuisance to supply lines and independent camps throughout the Barrens, making counter-raids a necessity to secure Horde frontiers."
+   "text": "As a member of the Horde, you face Razormane raids on camps and supply lines across the Barrens."
   }
  ],
  "keywords": [
@@ -117,5 +117,6 @@
  ],
  "attribution": [
   "Forged Steel"
- ]
+ ],
+ "style": 1
 }

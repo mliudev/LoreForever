@@ -23,21 +23,21 @@
    "The Binding (Felhunter)"
   ]
  },
- "summary": "Tome of the Cabal sends an aspiring Alliance warlock from the heights above Ratchet back to the Library of Ironforge. To summon and dominate a ravenous felhunter, the summoner must locate a legendary manual written by the first warlocks who ever conquered the beast.",
+ "summary": "Above Ratchet, Strahad Farsan sends an aspiring Alliance warlock to the Library of Ironforge. A felhunter’s hunger can overwhelm an unprepared summoner, and the Tome of the Cabal holds the knowledge needed to summon and bind the demon.",
  "sections": [
   {
    "title": "A Beast That Feeds on Magic",
-   "body": "Subjugating an imp, a voidwalker, or a succubus requires ritual, but a felhunter poses an entirely different hazard. Felhunters do not merely serve the Burning Legion; they actively hunt and devour arcane energy. A standard summoning circle will crumble before one, draining the summoner's magic before a binding can even take hold. Strahad Farsan, watching over Ratchet from his redoubt in the Barrens, knows better than to let an amateur try such a binding unprepared.",
+   "body": "An imp, a voidwalker, or a succubus can be subdued through ritual, but a felhunter brings a different hazard. Felhunters serve the Burning Legion and hunt down arcane energy to devour it. A standard summoning circle will crumble before one, draining the summoner’s magic before a binding can take hold. From his redoubt in the Barrens, Strahad Farsan watches over Ratchet and knows an amateur must not attempt the binding unprepared.",
    "spoiler": 0
   },
   {
    "title": "The First Binding",
-   "body": "To safely draw forth and bind a felhunter, an acolyte requires the arcane formulas compiled within the Tome of the Cabal. Authored by the earliest mortal cabal of warlocks who successfully broke a felhunter without outside aid, the manuscript details the specific geomancy, materials, and binding runes necessary to withstand the creature's hunger. Unfortunately for Strahad and his circle, their copy of this masterwork was lost long ago.",
+   "body": "An acolyte needs the arcane formulas in the Tome of the Cabal to draw forth and bind a felhunter safely. The earliest mortal cabal of warlocks who successfully broke a felhunter without outside aid authored the manuscript. Its pages detail the geomancy, materials, and binding runes needed to withstand the creature’s hunger. The copy was lost long ago, leaving Strahad and his circle without the masterwork.",
    "spoiler": 0
   },
   {
    "title": "The Hoarder of Dun Morogh",
-   "body": "Unable to provide the text himself, Strahad dispatches Alliance warlocks across the Great Sea to the Hall of Explorers in Ironforge. There skulks Krom Stoutarm, an itinerant dwarven warlock who spends his twilight years combing through ancient manuscripts and library records. If any trace of the lost grimoire remains recorded in the Eastern Kingdoms, it rests buried in Krom's meticulous catalogs.",
+   "body": "Strahad sends Alliance warlocks across the Great Sea to the Hall of Explorers in Ironforge, since he cannot provide the text himself. Krom Stoutarm, an itinerant dwarven warlock, resides there and spends his twilight years combing through ancient manuscripts and library records. If any trace of the lost grimoire remains recorded in the Eastern Kingdoms, it rests buried in Krom’s meticulous catalogs.",
    "spoiler": 0
   }
  ],
@@ -49,7 +49,7 @@
     "why find book",
     "tome of cabal purpose"
    ],
-   "answer": "The Tome of the Cabal contains the precise instructions written by the first mortal warlocks who ever summoned and subdued a felhunter unaided. Ordinary summoning rituals are insufficient to entrap a demon that actively feeds on magical energy."
+   "answer": "The Tome of the Cabal holds precise instructions from the first mortal warlocks who summoned and subdued a felhunter without outside aid. Ordinary summoning rituals cannot entrap a demon that actively feeds on magical energy."
   },
   {
    "q": "Who is Krom Stoutarm?",
@@ -58,7 +58,7 @@
     "who is krom stoutarm",
     "krom ironforge"
    ],
-   "answer": "Krom Stoutarm is a wandering dwarven warlock residing in the Library of the Hall of Explorers in Ironforge. He spends his days holed up among dusty tomes and cataloguing ancient historical records."
+   "answer": "Krom Stoutarm is a wandering dwarven warlock who resides in the Library of the Hall of Explorers in Ironforge. He spends his days holed up among dusty tomes, cataloguing ancient historical records."
   },
   {
    "q": "Why is Strahad Farsan in the Barrens?",
@@ -67,7 +67,7 @@
     "why ratchet",
     "who is strahad"
    ],
-   "answer": "Strahad Farsan is an accomplished human warlock who maintains a quiet, neutral redoubt on the bluffs above Ratchet. Operating outside the watchful eyes of the Kirin Tor and Stormwind's authorities, he trains both Alliance and Horde practitioners in powerful demonology."
+   "answer": "Strahad Farsan is an accomplished human warlock with a quiet, neutral redoubt on the bluffs above Ratchet. Outside the watchful eyes of the Kirin Tor and Stormwind’s authorities, he trains both Alliance and Horde practitioners in powerful demonology."
   },
   {
    "q": "What happens after I speak to Krom Stoutarm?",
@@ -76,7 +76,7 @@
     "after krom",
     "tome of cabal next step"
    ],
-   "answer": "Krom Stoutarm recalls references to the tome from old cataloguing registers. He will charge you with tracking down its lost parts and recovering the rare reagents needed to reconstruct the grimoire."
+   "answer": "Krom Stoutarm recalls references to the tome in old cataloguing registers. He charges you with tracking down its lost parts and recovering the rare reagents needed to reconstruct the grimoire."
   },
   {
    "q": "Can Horde warlocks do this quest?",
@@ -84,7 +84,7 @@
     "horde version",
     "is this alliance only"
    ],
-   "answer": "This specific journey to Ironforge is strictly for Alliance warlocks. Horde warlocks are given an equivalent task by Strahad that sends them to find knowledgeable contacts within Horde territory instead."
+   "answer": "This journey to Ironforge is for Alliance warlocks. Strahad gives Horde warlocks an equivalent task, sending them to find knowledgeable contacts within Horde territory."
   },
   {
    "q": "What demon does this questline unlock?",
@@ -93,21 +93,21 @@
     "felhunter quest",
     "what pet do i get"
    ],
-   "answer": "Completing the entire Tome of the Cabal quest chain culminates in ritual combat against a summoned felhunter, teaching the warlock how to summon and bind one as a permanent minion."
+   "answer": "Completing the Tome of the Cabal chain brings ritual combat against a summoned felhunter. The warlock learns to summon and bind one as a permanent minion."
   }
  ],
  "angles": [
   {
    "target": "class:Warlock",
-   "text": "Obtaining the Tome of the Cabal is the pivotal rite of passage for a practitioner of the dark arts seeking mastery over felhunters, moving past lesser servants into true anti-magic demonology."
+   "text": "As a warlock, obtaining the Tome of the Cabal is a rite of passage toward mastery over felhunters, taking you beyond lesser servants into anti-magic demonology."
   },
   {
    "target": "faction:Alliance",
-   "text": "Alliance practitioners must cross back from the frontier of Kalimdor to the Hall of Explorers in Ironforge to tap into dwarven scholarship for illicit dark texts."
+   "text": "As an Alliance practitioner, you cross back from the frontier of Kalimdor to the Hall of Explorers in Ironforge to seek illicit dark texts."
   },
   {
    "target": "race:Dwarf",
-   "text": "Krom Stoutarm proves that not every dwarf buried in the Hall of Explorers is digging up Titan artifacts\u2014some are privately compiling demonic lore."
+   "text": "As a dwarf, you see that not everyone buried in the Hall of Explorers digs up Titan artifacts; Krom Stoutarm privately compiles demonic lore."
   }
  ],
  "keywords": [
@@ -132,5 +132,6 @@
  ],
  "attribution": [
   "Tome of the Cabal (Alliance)"
- ]
+ ],
+ "style": 1
 }

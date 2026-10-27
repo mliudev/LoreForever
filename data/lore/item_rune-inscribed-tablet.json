@@ -10,11 +10,11 @@
    "quest:3084"
   ]
  },
- "summary": "A Rune-Inscribed Tablet is a stone message delivered to young Darkspear troll shamans in the Valley of Trials. Handed over by Gornek, it directs promising mystics to begin formal communion with the elements under the tutelage of the orc trainer Shikrik.",
+ "summary": "In the Valley of Trials, Gornek gives young Darkspear troll shamans a stone message. It sends promising mystics to Shikrik to begin formal communion with the elements.",
  "sections": [
   {
    "title": "A Summons to the Spirits",
-   "body": "Carved with elemental runes, this tablet serves as a formal invitation for burgeoning troll shamans taking their first steps in Durotar. When an initiate demonstrates their mettle in the Valley of Trials, the overseer Gornek presents the stone, sent by the troll shaman Ishi-yo to direct the initiate to the shaman trainer Shikrik. For the Darkspear trolls\u2014who hold deep spiritual traditions of their own\u2014the tablet marks the beginning of their shared path with the orcs, bridging ancient troll mysticism with the revitalized shamanic heritage championed by Warchief Thrall.",
+   "body": "Gornek gives the rune-carved stone to initiates who prove their mettle in the Valley of Trials. The troll shaman Ishi-yo sent it to direct them to Shikrik, the shaman trainer. For Darkspear trolls, the tablet begins a shared path with the orcs, joining their old spiritual traditions with the shamanic heritage Warchief Thrall has renewed.",
    "spoiler": 0
   }
  ],
@@ -26,7 +26,7 @@
     "what does the tablet do",
     "rune tablet use"
    ],
-   "answer": "The tablet is an introductory message delivered by Gornek to young troll shamans in the Valley of Trials. It instructs the initiate to present themselves to Shikrik, the local shaman trainer, to begin their formal spiritual education."
+   "answer": "Gornek gives the tablet to young troll shamans in the Valley of Trials. It directs them to Shikrik to begin their formal spiritual education."
   },
   {
    "q": "Who sends the tablet?",
@@ -35,7 +35,7 @@
     "tablet sender",
     "who carved it"
    ],
-   "answer": "The tablet is signed by Ishi-yo, the troll shaman who taught the initiate their first lessons. It sends them on to Shikrik, the orc shaman trainer stationed just outside the Den in the Valley of Trials, who already knows they are coming."
+   "answer": "The troll shaman Ishi-yo sends the tablet. It directs the initiate to Shikrik, the orc shaman trainer just outside the Den in the Valley of Trials, who knows they are coming."
   },
   {
    "q": "Who receives this tablet?",
@@ -43,17 +43,17 @@
     "who gets rune-inscribed tablet",
     "which class gets the tablet"
    ],
-   "answer": "Only newly arrived Darkspear troll shamans receive this specific tablet from Gornek as their initial class summons in Durotar."
+   "answer": "Gornek gives this tablet to newly arrived Darkspear troll shamans as their initial class summons in Durotar."
   }
  ],
  "angles": [
   {
    "target": "class:Shaman",
-   "text": "The tablet represents a shaman's first official step toward mastering the elements of earth, fire, water, and air, reminding students that their strength flows from ancestral spirits."
+   "text": "As a shaman, the tablet marks your first official step toward mastering earth, fire, water, and air. It reminds you that your strength flows from ancestral spirits."
   },
   {
    "target": "race:Troll",
-   "text": "For Darkspear trolls, answering the summons of an orc trainer highlights the growing bond and shared spiritual path between the trolls and their new Horde allies."
+   "text": "As a Darkspear troll, you answer an orc trainer's summons, a sign of the growing bond and shared spiritual path between your people and their new Horde allies."
   }
  ],
  "keywords": [
@@ -79,5 +79,6 @@
  "attribution": [
   "Rune-Inscribed Tablet",
   "Rune-Inscribed Tablet (quest)"
- ]
+ ],
+ "style": 1
 }

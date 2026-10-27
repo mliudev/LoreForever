@@ -17,16 +17,16 @@
   "wiki": "You Too Good.",
   "chain": []
  },
- "summary": "\"You Too Good.\" is a Horde quest offered by the Orgrimmar fishing trainer, Lumak, once an angler has surpassed ordinary training. Lumak sends his accomplished pupil to track down his human friend, Nat Pagle, camped along the remote shores of Dustwallow Marsh. It marks the transition from standard instruction to the demanding art of artisan fishing.",
+ "summary": "Lumak sends you from Orgrimmar to find his friend Nat Pagle. Your skill has outgrown ordinary lessons, and Nat camps on a distant islet south of Theramore Isle.",
  "sections": [
   {
    "title": "Lumak's Limits",
-   "body": "Lumak serves as Orgrimmar's primary fishing trainer down in the Valley of Honor, but even the patient orc recognizes when a student has matched his own understanding of the rod and reel. Rather than pretending to have further wisdom to bestow, Lumak candidly confesses that the angler has become 'too good' for ordinary lessons. To reach the rank of artisan, one must look beyond city walls and racial boundaries.",
+   "body": "Lumak trains fishers in Orgrimmar's Valley of Honor. He sees that you have learned all he can teach about rod and reel, and admits you are too good for ordinary lessons. To learn the art of artisan fishing, you must seek knowledge beyond the city and the Horde.",
    "spoiler": 0
   },
   {
    "title": "An Unlikely Friendship",
-   "body": "Despite the simmering friction between the Horde and the Alliance across Kalimdor, fishing often bridges divides where diplomacy fails. Lumak points travelers toward his personal acquaintance, Nat Pagle, insisting emphatically that the human is not to be harmed or eaten. Nat makes his camp on an islet south of Theramore Isle in Dustwallow Marsh, content to ignore politics as long as the fish are biting.",
+   "body": "Lumak sends you to find his human friend, Nat Pagle. He warns you not to harm or eat Nat, despite the friction between the Horde and Alliance across Kalimdor. Nat camps on an islet south of Theramore Isle in Dustwallow Marsh. He keeps clear of politics and cares only whether the fish are biting.",
    "spoiler": 0
   }
  ],
@@ -38,7 +38,7 @@
     "lumak quest giver",
     "where to get you too good"
    ],
-   "answer": "Lumak, the fishing trainer located by the water in Orgrimmar's Valley of Honor, gives you this quest once your fishing skill is high enough to advance beyond expert."
+   "answer": "Lumak, the fishing trainer in Orgrimmar's Valley of Honor, sends you once your skill has grown beyond expert."
   },
   {
    "q": "Where is Nat Pagle located?",
@@ -47,7 +47,7 @@
     "nat pagle location",
     "find nat pagle"
    ],
-   "answer": "Nat Pagle is stationed on an islet off the coast of Dustwallow Marsh, south of the human settlement of Theramore Isle."
+   "answer": "Nat Pagle camps on an islet off the coast of Dustwallow Marsh, south of Theramore Isle."
   },
   {
    "q": "Why does an orc have a human friend?",
@@ -55,7 +55,7 @@
     "lumak and nat pagle friendship",
     "why is nat pagle friends with an orc"
    ],
-   "answer": "Anglers throughout Azeroth often share a mutual respect that transcends the faction war. Lumak and Nat Pagle bonded purely over fishing, recognizing each other's passion regardless of the bitter rivalry between orcs and humans."
+   "answer": "Lumak and Nat Pagle became friends through fishing, sharing a passion that crosses the bitter rivalry between orcs and humans."
   },
   {
    "q": "What happens when I speak to Nat Pagle?",
@@ -63,7 +63,7 @@
     "what does nat pagle teach",
     "artisan fishing quest"
    ],
-   "answer": "Speaking with Nat Pagle introduces you to his demanding artisan trial, requiring you to travel across Azeroth catching rare fish before he will personally instruct you further."
+   "answer": "Nat Pagle gives you a demanding trial: travel across Azeroth and catch rare fish before he teaches you further."
   },
   {
    "q": "Is Theramore safe for Horde to pass through?",
@@ -71,7 +71,7 @@
     "can horde go through theramore",
     "getting to nat pagle as horde"
    ],
-   "answer": "No, Theramore is a strictly Alliance-guarded fortress town. Horde adventurers must detour around the town or skirt the coast to reach Nat's island without drawing the wrath of the Theramore guards."
+   "answer": "No. Theramore is a fortress town guarded by the Alliance. To reach Nat's island, skirt the coast or detour around town to avoid the guards."
   },
   {
    "q": "Why can't Lumak train me further himself?",
@@ -79,17 +79,17 @@
     "why lumak stops training",
     "expert to artisan fishing horde"
    ],
-   "answer": "Lumak has taught you all he knows. True mastery of artisan fishing requires insight from Nat Pagle, widely regarded as the most legendary angler in the known world."
+   "answer": "Lumak has taught you all he knows. Nat Pagle can teach you artisan fishing, and anglers across the known world regard him as a legend."
   }
  ],
  "angles": [
   {
    "target": "faction:Horde",
-   "text": "This quest demonstrates that beneath the faction war, individuals occasionally form cross-faction bonds over harmless craft and common pastimes."
+   "text": "Even during the faction war, people can form bonds across its lines through a shared craft or pastime."
   },
   {
    "target": "race:Orc",
-   "text": "Even within the martial stronghold of Orgrimmar, Lumak proves that patience, good humor, and deep respect for nature can lead an orc to make friends across enemy lines."
+   "text": "As an orc, you can see Lumak's patience, good humor, and respect for nature in the friendship he has made across enemy lines."
   }
  ],
  "keywords": [
@@ -107,5 +107,6 @@
  ],
  "attribution": [
   "You Too Good."
- ]
+ ],
+ "style": 1
 }

@@ -20,16 +20,16 @@
    "Stars of Elune"
   ]
  },
- "summary": "Returning Home is a summons for night elf priests traveling abroad in Ironforge to return to the Temple of the Moon in Darnassus. An emissary of the Sisterhood sought out wandering acolytes, directing them back to Priestess Alathea for urgent training and spiritual duties.",
+ "summary": "Night elf priests in Ironforge are called back to the Temple of the Moon in Darnassus. A Sisterhood emissary seeks out acolytes abroad and sends them to Priestess Alathea for urgent training and sacred duties.",
  "sections": [
   {
    "title": "Summoned from the Mountain City",
-   "body": "Even while wandering far from Teldrassil in the bustling subterranean halls of Ironforge, night elf priests remain bound to the Sisterhood of Elune. Braenna Flintcrag, a dwarven priest trainer in the Mystic Ward, passes along a message left by a visiting night elf priestess. The messenger came seeking young disciples abroad, carrying word that their mentors require their presence immediately back in the capital.",
+   "body": "In Ironforge, night elf priests remain tied to the Sisterhood of Elune, though they are far from Teldrassil. Braenna Flintcrag, a dwarven priest trainer in the Mystic Ward, carries a message from a visiting night elf priestess. The messenger sought young disciples traveling abroad and said their mentors needed them back in the capital at once.",
    "spoiler": 0
   },
   {
    "title": "The Temple of the Moon",
-   "body": "Upon arriving at the Temple of the Moon in Darnassus, returning acolytes report directly to Priestess Alathea. Welcoming her student back under the watchful gaze of High Priestess Tyrande Whisperwind, Alathea expresses relief at their safe journey across the seas. The urgent summons serves as the threshold to deeper devotion, opening the way for sacred duties such as the Stars of Elune.",
+   "body": "At the Temple of the Moon in Darnassus, returning acolytes report to Priestess Alathea. Beneath the watchful gaze of High Priestess Tyrande Whisperwind, Alathea welcomes her student and is relieved they crossed the seas safely. Their return begins further devotion and sacred duties, including the Stars of Elune.",
    "spoiler": 0
   }
  ],
@@ -41,7 +41,7 @@
     "quest giver returning home",
     "braenna flintcrag location"
    ],
-   "answer": "The quest is given by Braenna Flintcrag, the dwarf priest trainer found in the Mystic Ward of Ironforge."
+   "answer": "Braenna Flintcrag, the dwarf priest trainer in Ironforge's Mystic Ward, gives the summons."
   },
   {
    "q": "Who do I report to in Darnassus?",
@@ -50,7 +50,7 @@
     "priestess alathea location",
     "turn in returning home"
    ],
-   "answer": "You must speak with Priestess Alathea, who resides inside the Temple of the Moon in Darnassus."
+   "answer": "Report to Priestess Alathea inside the Temple of the Moon in Darnassus."
   },
   {
    "q": "Why is the Sisterhood calling priests back?",
@@ -58,7 +58,7 @@
     "why returning home",
     "why go back to darnassus"
    ],
-   "answer": "The Sisterhood of Elune keeps close watch on its initiates. Once an acolyte has proven their capabilities abroad, the leadership in Darnassus recalls them to undertake advanced training and sacred rites like the Stars of Elune."
+   "answer": "The Sisterhood of Elune recalls its acolytes from abroad for advanced training and sacred rites such as the Stars of Elune."
   },
   {
    "q": "Is this quest available to other classes?",
@@ -66,7 +66,7 @@
     "can warriors do returning home",
     "priest only quest"
    ],
-   "answer": "No, this quest is specifically intended for night elf priests who have journeyed to Dun Morogh and Ironforge early in their adventures."
+   "answer": "No. The summons is for night elf priests who have traveled to Dun Morogh and Ironforge early in their travels."
   },
   {
    "q": "What happens after turning in this quest?",
@@ -74,7 +74,7 @@
     "returning home next quest",
     "followup to returning home"
    ],
-   "answer": "Priestess Alathea welcomes you back to Darnassus and offers the follow-up quest Stars of Elune, which delves deeper into the goddess's teachings."
+   "answer": "Priestess Alathea welcomes you back to Darnassus and offers the Stars of Elune, which teaches more of the goddess's ways."
   },
   {
    "q": "How does Braenna know to look for you?",
@@ -82,21 +82,21 @@
     "why does braenna know me",
     "ironforge priestess message"
    ],
-   "answer": "A priestess sent directly from the Temple of the Moon passed through Ironforge looking for acolytes, leaving explicit instructions with local trainers like Braenna to redirect any wandering night elves home."
+   "answer": "A priestess from the Temple of the Moon came through Ironforge seeking acolytes. She left instructions with local trainers such as Braenna to send wandering night elves home."
   }
  ],
  "angles": [
   {
    "target": "class:Priest",
-   "text": "This quest bridges your early travels among Alliance allies back to the core spiritual home of the night elf priesthood at the Temple of the Moon."
+   "text": "As a priest, you travel from early adventures among Alliance allies back to the night elf priesthood's spiritual home at the Temple of the Moon."
   },
   {
    "target": "race:NightElf",
-   "text": "Leaving Kalimdor for the Eastern Kingdoms is a rare journey for a young kaldorei, but the guidance of Elune and Tyrande's priesthood reaches across the Great Sea."
+   "text": "As a night elf, you make a rare journey from Kalimdor to the Eastern Kingdoms, while Elune's guidance and Tyrande's priesthood reach across the Great Sea."
   },
   {
    "target": "faction:Alliance",
-   "text": "Cooperation between dwarven clerics in Ironforge and the Sisterhood of Elune in Darnassus shows how Alliance factions coordinate to support wandering adventurers."
+   "text": "As an Alliance adventurer, you see dwarven clerics in Ironforge and the Sisterhood of Elune in Darnassus coordinating to aid travelers."
   }
  ],
  "keywords": [
@@ -120,5 +120,6 @@
  ],
  "attribution": [
   "Returning Home (Ironforge)"
- ]
+ ],
+ "style": 1
 }

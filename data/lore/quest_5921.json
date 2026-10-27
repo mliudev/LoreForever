@@ -17,21 +17,21 @@
   "wiki": "Moonglade (Alliance)",
   "chain": []
  },
- "summary": "Moonglade is an introductory rite of passage for young night elf druids learning to commune with the sacred lands of Kalimdor. Guided by Mathrengyl Bearwalker in Darnassus, novices learn the spell to magically transport themselves across the world into Moonglade to meet Dendrite Starblaze in Nighthaven. This marks the beginning of their spiritual journey toward mastering the strength of the bear form.",
+ "summary": "In Darnassus, young night elf druids learn to reach Moonglade. Mathrengyl Bearwalker teaches novices a spell to carry themselves across the world into Moonglade, where they meet Dendrite Starblaze in Nighthaven. There begins their path toward mastering bear form.",
  "sections": [
   {
    "title": "A Sacred Refuge",
-   "body": "Moonglade stands apart from the rest of Azeroth as an ancient sanctuary dedicated to the teachings of Cenarius. Under the watchful stewardship of Keeper Remulos, its tranquil groves provide peace and deep communion with nature. For a young druid, learning to project one's spirit across the land into Moonglade via the teleportation spell is a critical step, granting constant access to the heart of druidic wisdom regardless of mortal distances.",
+   "body": "Moonglade is an ancient sanctuary apart from the rest of Azeroth, devoted to the teachings of Cenarius. Keeper Remulos watches over its groves, where druids find peace and communion with nature. Young druids learn a spell that lets them carry themselves across the world into Moonglade, reaching a heart of druidic wisdom beyond mortal distances.",
    "spoiler": 0
   },
   {
    "title": "Politics of the Circle",
-   "body": "While Moonglade is open to all who walk the path of the wild, it is not free of tension. A growing rift divides Arch Druid Fandral Staghelm in Darnassus and Keeper Remulos in Moonglade over the stewardship of nature and the creation of Teldrassil. Despite these philosophical fractures within the Cenarion Circle, young acolytes are still welcomed unconditionally into the haven of Nighthaven to pursue their sacred studies.",
+   "body": "Moonglade welcomes all who follow the wild, though the Cenarion Circle knows its share of tension. In Darnassus, Arch Druid Fandral Staghelm and Keeper Remulos disagree over nature’s care and the creation of Teldrassil. Their differences do not close Nighthaven to young acolytes, who are welcomed to pursue their studies.",
    "spoiler": 0
   },
   {
    "title": "The Path of the Bear",
-   "body": "Arriving in Nighthaven brings the novice before Dendrite Starblaze, an elder tasked with guiding fledglings along the ways of the Claw. Before any initiate can claim the mantle of the bear, they must be immersed in its perspective: endurance, fury, and unyielding defense of the wild. Starblaze receives each new student with reverent deference to Father Cenarius, commencing the trials of the Great Bear Spirit.",
+   "body": "In Nighthaven, Dendrite Starblaze guides young druids in the ways of the Claw. Before an initiate can take up the bear’s mantle, the trials teach the bear’s endurance, fury, and defense of the wild. Starblaze welcomes each student in reverence to Father Cenarius as the trials of the Great Bear Spirit begin.",
    "spoiler": 0
   }
  ],
@@ -43,7 +43,7 @@
     "teleport moonglade purpose",
     "why go to moonglade"
    ],
-   "answer": "Teleporting to Moonglade connects a druid directly to the heart of their order. Because training, communion with spirits, and high-level council take place in Nighthaven, having an instantaneous spiritual conduit ensures every practitioner can return to study and replenish their spiritual energies."
+   "answer": "The spell gives druids a way to return to Moonglade, where training, communion with spirits, and high-level council take place in Nighthaven. Its instant passage lets each practitioner return to study and replenish spiritual energies."
   },
   {
    "q": "Who is Dendrite Starblaze?",
@@ -52,7 +52,7 @@
     "who is dendrite",
     "dendrite starblaze"
    ],
-   "answer": "Dendrite Starblaze is an elder druid stationed on the upper floor of a major lodge in Nighthaven. He oversees initiates arriving in Moonglade, initiating their trials to master animal perspectives\u2014starting with the primal spirit of the bear."
+   "answer": "Dendrite Starblaze is an elder druid on the upper floor of a major lodge in Nighthaven. He oversees arriving initiates and begins their trials in animal perspectives, starting with the bear."
   },
   {
    "q": "What tensions exist between Fandral Staghelm and Keeper Remulos?",
@@ -61,7 +61,7 @@
     "fandral vs remulos",
     "circle division"
    ],
-   "answer": "Arch Druid Fandral Staghelm led the planting of Teldrassil without the blessing of the Dragon Aspects, pursuing a more aggressive, nationalistic posture for the night elves. Keeper Remulos and traditionalists in Moonglade remain dedicated to the ancient, neutral ways of Cenarius, creating ideological friction within the Cenarion Circle."
+   "answer": "Arch Druid Fandral Staghelm led the planting of Teldrassil without the Dragon Aspects’ blessing and pursued a more aggressive, nationalistic path for the night elves. Keeper Remulos and Moonglade’s traditionalists hold to Cenarius’s ancient, neutral ways, bringing ideological friction to the Cenarion Circle."
   },
   {
    "q": "Can Horde druids visit Moonglade as well?",
@@ -70,7 +70,7 @@
     "are tauren allowed in moonglade",
     "is moonglade neutral"
    ],
-   "answer": "Yes. Moonglade is a neutral haven protected by Keeper Remulos and the Cenarion Circle. Both night elf and tauren druids are welcome in Nighthaven to study the wild ways together, setting aside factional hostility while under the peace of Cenarius."
+   "answer": "Yes. Moonglade is a neutral haven under Keeper Remulos and the Cenarion Circle. Night elf and tauren druids study the wild ways together there, setting aside factional hostility within Cenarius’s peace."
   },
   {
    "q": "What happens after reaching Dendrite Starblaze?",
@@ -79,7 +79,7 @@
     "next step bear form",
     "bear quest next"
    ],
-   "answer": "Once you report to Dendrite Starblaze, he guides you into the ritual trial of the Great Bear Spirit. This spiritual confrontation tests your resolve and understanding before you are permitted to harness the raw power of the bear."
+   "answer": "After you reach Dendrite Starblaze, he guides you into the ritual trial of the Great Bear Spirit. The spiritual confrontation tests your resolve and understanding before you can wield the bear’s power."
   },
   {
    "q": "Where in Nighthaven is Dendrite located?",
@@ -88,21 +88,21 @@
     "dendrite starblaze location",
     "where is dendrite"
    ],
-   "answer": "Dendrite Starblaze is located inside the main night elf lodge near the center of Nighthaven, standing watch on the second floor balcony overlooking the village."
+   "answer": "Dendrite Starblaze is inside the main night elf lodge near the center of Nighthaven, on its second-floor balcony overlooking the village."
   }
  ],
  "angles": [
   {
    "target": "class:Druid",
-   "text": "This journey represents your awakening to global druidic heritage, giving you an eternal lifeline to the tranquil heart of the Cenarion Circle."
+   "text": "As a druid, this journey awakens you to a wider druidic heritage and gives you an eternal lifeline to the tranquil heart of the Cenarion Circle."
   },
   {
    "target": "race:NightElf",
-   "text": "Leaving Teldrassil's boughs for ancient Moonglade connects young kaldorei directly with the ancestral homeland preserved before the Great Sundering."
+   "text": "As a night elf, leaving Teldrassil’s boughs for ancient Moonglade connects you with the ancestral homeland preserved before the Great Sundering."
   },
   {
    "target": "faction:Alliance",
-   "text": "While Darnassus champions the Alliance, stepping into Moonglade reminds night elf druids of an older, higher calling that transcends worldly factions."
+   "text": "As an Alliance member, entering Moonglade reminds you that night elf druids answer to an older calling beyond worldly factions."
   }
  ],
  "keywords": [
@@ -126,5 +126,6 @@
  ],
  "attribution": [
   "Moonglade (Alliance)"
- ]
+ ],
+ "style": 1
 }

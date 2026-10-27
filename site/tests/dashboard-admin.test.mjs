@@ -259,70 +259,45 @@ test("lost audit completion after an accepted email cannot cause a second send",
   assert.equal(env.DB.sqlite.prepare("SELECT status FROM email_sends").get().status, "sent");
 });
 
-test("provider timeouts preserve email and payout claims, even with a fresh request key", async () => {
-  const env = await fixture(); let emails = 0, transfers = 0;
+test("provider timeouts preserve email claims, even with a fresh request key", async () => {
+  const env = await fixture(); let emails = 0;
   env.EMAIL = { async send() { emails++; throw Error("timeout after accepting mail"); } };
-  env.STRIPE_SECRET_KEY = "sk_test_fake";
-  const original = globalThis.fetch;
-  globalThis.fetch = async (url, options) => {
-    assert.equal(String(url), "https://api.stripe.com/v1/transfers");
-    assert.equal(options.method, "POST");
-    transfers++; throw Error("timeout after accepting transfer");
-  };
-  try {
-    for (const [endpoint, body] of [["retention", await reviewedNote(env)],
-      ["creators", { action: "pay", code: "test", method: "stripe", expected_cents: 3000 }]]) {
-      assert.equal((await post(env, endpoint, body, `${endpoint}-first`)).status, 502);
-      assert.equal((await post(env, endpoint, body, `${endpoint}-first`)).status, 409);
-      const fresh = await post(env, endpoint, body, `${endpoint}-fresh`);
-      if (endpoint === "retention") {
-        assert.equal(fresh.status, 502);
-        assert.equal((await fresh.json()).code, "action_outcome_unknown");
-        assert.equal(env.DB.sqlite.prepare("SELECT state FROM dashboard_admin_actions WHERE request_key = 'retention-fresh'").get().state, "unknown");
-      }
-    }
-    // An old caller still receives its documented "already claimed" result.
-    assert.equal(await sendOnce(env, { id: "winback:sub_test", kind: "winback",
-      message: { to: "test@example.com", subject: "Ignored", text: "Ignored" } }), "seen");
-    assert.equal(emails, 1); assert.equal(transfers, 1);
-    assert.equal(env.DB.sqlite.prepare("SELECT status FROM email_sends").get().status, "sending");
-    assert.ok(env.DB.sqlite.prepare("SELECT payout_id FROM creator_earnings").get().payout_id);
-  } finally { globalThis.fetch = original; }
+  const body = await reviewedNote(env);
+  assert.equal((await post(env, "retention", body, "retention-first")).status, 502);
+  assert.equal((await post(env, "retention", body, "retention-first")).status, 409);
+  const fresh = await post(env, "retention", body, "retention-fresh");
+  assert.equal(fresh.status, 502);
+  assert.equal((await fresh.json()).code, "action_outcome_unknown");
+  assert.equal(env.DB.sqlite.prepare("SELECT state FROM dashboard_admin_actions WHERE request_key = 'retention-fresh'").get().state, "unknown");
+  // An old caller still receives its documented "already claimed" result.
+  assert.equal(await sendOnce(env, { id: "winback:sub_test", kind: "winback",
+    message: { to: "test@example.com", subject: "Ignored", text: "Ignored" } }), "seen");
+  assert.equal(emails, 1);
+  assert.equal(env.DB.sqlite.prepare("SELECT status FROM email_sends").get().status, "sending");
 });
 
-test("payout transfers only the reviewed claimed amount, while legacy payout callers keep their contract", async () => {
-  const env = await fixture(), original = globalThis.fetch;
-  env.STRIPE_SECRET_KEY = "sk_test_fake";
-  let transfers = 0;
-  globalThis.fetch = async (url, options) => {
-    assert.equal(String(url), "https://api.stripe.com/v1/transfers");
-    assert.equal(new URLSearchParams(options.body).get("amount"), "4000");
-    transfers++;
-    return Response.json({ id: "tr_reviewed" });
-  };
-  try {
-    const body = { action: "pay", code: "test", method: "stripe", expected_cents: 3000 };
-    // More becomes payable after the owner has reviewed 3000 cents.
-    env.DB.sqlite.exec("UPDATE creator_earnings SET share_cents = 4000");
-    const stale = await post(env, "creators", body);
-    assert.equal(stale.status, 409, await stale.clone().text());
-    assert.equal(transfers, 0);
-    assert.equal(env.DB.sqlite.prepare("SELECT payout_id FROM creator_earnings").get().payout_id, null);
-    const reviewed = { ...body, expected_cents: 4000 };
-    const paid = await post(env, "creators", reviewed, "reviewed-payout");
-    assert.equal(paid.status, 200, await paid.clone().text());
-    assert.equal((await paid.json()).payout.cents, 4000);
-    assert.equal((await post(env, "creators", reviewed, "reviewed-payout")).headers.get("Idempotency-Replayed"), "true");
-    assert.equal(transfers, 1);
-    const legacyEnv = await fixture();
-    legacyEnv.ADMIN_KEY = "legacy-key";
-    const legacy = await legacyCreatorsPost({ env: legacyEnv, request: new Request("https://loreforeverwow.com/api/admin/creators", {
-      method: "POST", headers: { Authorization: "Bearer legacy-key", "Content-Type": "application/json" },
-      body: JSON.stringify({ action: "pay", code: "test", method: "manual" }),
-    }) });
-    assert.equal(legacy.status, 200, await legacy.clone().text());
-    assert.equal((await legacy.json()).payout.cents, 3000);
-  } finally { globalThis.fetch = original; }
+test("Mark paid records only the reviewed claimed amount, while legacy payout callers keep their contract", async () => {
+  const env = await fixture();
+  const body = { action: "pay", code: "test", method: "manual", expected_cents: 3000 };
+  // More becomes payable after the owner has reviewed 3000 cents.
+  env.DB.sqlite.exec("UPDATE creator_earnings SET share_cents = 4000");
+  const stale = await post(env, "creators", body);
+  assert.equal(stale.status, 409, await stale.clone().text());
+  assert.equal(env.DB.sqlite.prepare("SELECT payout_id FROM creator_earnings").get().payout_id, null);
+  const reviewed = { ...body, expected_cents: 4000 };
+  const paid = await post(env, "creators", reviewed, "reviewed-payout");
+  assert.equal(paid.status, 200, await paid.clone().text());
+  assert.equal((await paid.json()).payout.cents, 4000);
+  assert.equal((await post(env, "creators", reviewed, "reviewed-payout")).headers.get("Idempotency-Replayed"), "true");
+  assert.equal(env.DB.sqlite.prepare("SELECT COUNT(*) AS n FROM creator_payouts WHERE status = 'paid'").get().n, 1);
+  const legacyEnv = await fixture();
+  legacyEnv.ADMIN_KEY = "legacy-key";
+  const legacy = await legacyCreatorsPost({ env: legacyEnv, request: new Request("https://loreforeverwow.com/api/admin/creators", {
+    method: "POST", headers: { Authorization: "Bearer legacy-key", "Content-Type": "application/json" },
+    body: JSON.stringify({ action: "pay", code: "test", method: "manual" }),
+  }) });
+  assert.equal(legacy.status, 200, await legacy.clone().text());
+  assert.equal((await legacy.json()).payout.cents, 3000);
 });
 
 test("a plan cancelled before the cancellation log began can be previewed from the dashboard", async () => {

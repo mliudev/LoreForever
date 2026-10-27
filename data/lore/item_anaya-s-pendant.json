@@ -10,16 +10,16 @@
    "quest:963"
   ]
  },
- "summary": "Anaya's Pendant is a keepsake carried by the restless ghost of Anaya Dawnrunner among the ruins of Ameth'Aran. It serves as a tragic token of remembrance for her lover, Cerellean Whiteclaw, who survived the Sundering only to find her spirit still tormented millennia later.",
+ "summary": "Across Ameth'Aran, Anaya's Pendant remains with the restless ghost of Anaya Dawnrunner. Cerellean Whiteclaw carries grief for the love he lost when the Sundering shattered their world.",
  "sections": [
   {
    "title": "A Keepsake Across Millennia",
-   "body": "Ten thousand years ago, during the cataclysmic destruction of the Well of Eternity, the ancient kaldorei city of Ameth'Aran fell in ruin. Believing his beloved Anaya had perished, Cerellean Whiteclaw carried his profound grief into the long slumber alongside Shan'do Malfurion Stormrage. When he at last awakened, he wandered Darkshore only to discover that Anaya's tormented apparition still drifted through Ameth'Aran, bearing this very pendant. Unable to bear raising a hand against her himself, Cerellean asks passing travelers to release her spirit and recover the heirloom.",
+   "body": "When the Well of Eternity was destroyed ten thousand years ago, the ancient kaldorei city of Ameth'Aran fell into ruin. Cerellean Whiteclaw believed his beloved Anaya had perished, and carried his grief into a long sleep beside Shan'do Malfurion Stormrage. After waking, he wandered Darkshore and found Anaya's tormented apparition still drifting through Ameth'Aran, bearing the pendant. Cerellean cannot raise a hand against her himself, so he asks travelers to free her spirit and recover the heirloom.",
    "spoiler": 0
   },
   {
    "title": "Parting and Peace",
-   "body": "Returning the pendant to Cerellean in Auberdine allows the lingering spirit of Anaya Dawnrunner to briefly manifest before him one last time. Freed from the anguish binding her to the haunted ruins of Ameth'Aran, her ghost fades peacefully into the night, leaving Cerellean alone with the pendant and his enduring memory of their ancient love.",
+   "body": "In Auberdine, Cerellean receives the pendant, and Anaya Dawnrunner's spirit briefly appears before him one last time. Freed from the anguish binding her to Ameth'Aran's haunted ruins, her ghost fades peacefully into the night. Cerellean is left alone with the pendant and the memory of their ancient love.",
    "spoiler": 1
   }
  ],
@@ -31,7 +31,7 @@
     "how do i get anaya pendant",
     "who drops anaya pendant"
    ],
-   "answer": "The pendant is recovered from the ghost of Anaya Dawnrunner, who wanders the ancient kaldorei ruins of Ameth'Aran in southern Darkshore."
+   "answer": "Anaya's Pendant comes from the ghost of Anaya Dawnrunner, who wanders the ancient kaldorei ruins of Ameth'Aran in southern Darkshore."
   },
   {
    "q": "Who wants Anaya's Pendant?",
@@ -40,7 +40,7 @@
     "cerellean whiteclaw quest",
     "turn in anayas pendant"
    ],
-   "answer": "It belongs to Cerellean Whiteclaw, a grieving night elf residing in the coastal town of Auberdine in Darkshore."
+   "answer": "Cerellean Whiteclaw wants Anaya's Pendant. He is a grieving night elf who lives in Auberdine, the coastal town in Darkshore."
   },
   {
    "q": "Why couldn't Cerellean retrieve the pendant himself?",
@@ -48,7 +48,7 @@
     "why didnt cerellean kill anaya",
     "why does cerellean need help"
    ],
-   "answer": "Cerellean discovered his lost love's spirit roaming the ruins of Ameth'Aran, but even after ten thousand years of sorrow, he could not bear the heartbreak of raising his own hand against her."
+   "answer": "Cerellean found his lost love's spirit roaming Ameth'Aran, but could not bear to raise his own hand against her, even after ten thousand years of sorrow."
   },
   {
    "q": "What happens when you return the pendant to Cerellean?",
@@ -56,17 +56,17 @@
     "what happens to anaya",
     "cerellean reaction"
    ],
-   "answer": "When the pendant is brought back to Cerellean in Auberdine, Anaya's spirit briefly appears before him in farewell before fading away into peace, allowing Cerellean to grieve her memory at last."
+   "answer": "When you return the pendant to Cerellean in Auberdine, Anaya's spirit briefly appears to bid farewell, then fades into peace. Cerellean is left to grieve her memory."
   }
  ],
  "angles": [
   {
    "target": "race:NightElf",
-   "text": "The pendant is a poignant reminder of the enduring scars left by the War of the Ancients, where countless lives and loves were torn apart during the Great Sundering."
+   "text": "As a night elf, you can see in the pendant a reminder of the War of the Ancients and the many lives and loves torn apart in the Great Sundering."
   },
   {
    "target": "class:Druid",
-   "text": "Like many druids who followed Shan'do Stormrage into the Emerald Dream, Cerellean slept for millennia hoping to escape his grief, only to wake to lingering ghosts in the waking world."
+   "text": "As a druid, you know Cerellean slept for millennia beside Shan'do Stormrage, hoping to escape his grief, only to wake to ghosts lingering in the waking world."
   }
  ],
  "keywords": [
@@ -90,5 +90,6 @@
  "attribution": [
   "Anaya's Pendant",
   "For Love Eternal"
- ]
+ ],
+ "style": 1
 }

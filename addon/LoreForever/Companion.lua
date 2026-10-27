@@ -174,6 +174,12 @@ function Companion.QuestPage(qid, kind, counter)
   return { 0xC4, math.floor(v / 0x1000000) % 256, math.floor(v / 0x10000) % 256, math.floor(v / 0x100) % 256, v % 256 }
 end
 
+-- Whether Willo would read a quest page named now: she can be sent it (Companion.ReadsAnswers) and reads quest pages
+-- for this player (willoReads). For Listen beside the quest window (Voice.QuestPageState).
+function Companion.CanReadQuestPage()
+  return Companion.ReadsAnswers() and willoReads("quests")
+end
+
 -- The quest window shows a page no recording plays: Willo reads it, when she can (installed, Live game info on, the
 -- add-on in English). Returns true if the page was named.
 function Companion.ReadQuestPage(qid, kind, text)

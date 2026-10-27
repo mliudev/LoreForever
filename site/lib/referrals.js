@@ -1,5 +1,4 @@
 import { isReportRead } from "./report-read.js";
-import { actionIsUncertain } from "./dashboard-action.js";
 // Inviting friends and the creator program (Share Willo: LOR-253, LOR-503, CC-72; Patrick's spec, Coaching 74,
 // 2026-10-16, LOR-617). Two loops, kept apart: players invite friends and earn product (answers, a free month);
 // approved creators bring subscribers and earn cash.
@@ -28,18 +27,24 @@ import { actionIsUncertain } from "./dashboard-action.js";
 //
 // Creators (LOR-503, CC-72). Creators apply on /creators (applyCreator) and /admin approves them (decideApplication),
 // or /admin adds one; each gets a readable link (/w/ziqo) tied to their own account, which opens their dashboard on
-// /creators (creatorDashboard). They earn share_pct% (CREATOR_DEFAULTS: 60) of what each subscriber they brought pays
-// in their first paid month (months: 1), without tax (notePayment); later months are ours. A first month is the first
-// invoice for a whole month (a pre-order's is the launch's; a beta checkout's few half-price days before it count too, and so does an upgrade within
-// it). Each paid invoice is a row in creator_earnings, payable PAYOUTS.holdDays after it was paid; a refund or a
-// dispute of it takes it back (reverseCommission), from the next payout if it was paid out already. Once a month the
-// payout list (payoutList) has every creator owed at least PAYOUTS.minimumCents: /admin pays them by hand ("Mark paid")
-// or, once Mike has Stripe Connect and switches "Stripe payouts" on (referral_settings stripe_payouts), with a Stripe
-// transfer to the Express account the creator set up from their dashboard (startConnect, payCreator). Their audience
-// gets discount% off their first month (CREATOR_DEFAULTS: 15), through the creator's Stripe promotion code (their code
-// in capitals, syncPromo): taken off at checkout for someone their link brought, or typed there by anyone, which makes
-// that subscriber the creator's too (notePayment). Gift answers only when /admin gives that creator some. The creator
-// terms are on /creators; anything legal is Mike's to look over.
+// /creators (creatorDashboard). The deal is Patrick's Willo Creator Partnership Agreement (v0, 10/24; LOR-836), for a
+// term (CREATOR_TERM: from November 3, 2026, 90 days, as three 30-day payout cycles; per creator in term_start and
+// term_end, which /admin may extend). A Conversion is a subscriber they brought whose first payment (the Qualifying
+// Payment, referrals.first_invoice; a pre-order's is the launch's charge) was made during their term and isn't
+// refunded; the creator earns a share of it,
+// without tax (notePayment), by how many Conversions they've made in the term (CREATOR_TIERS: 60% rising to 90%; the
+// one that reaches a step earns the new rate, earlier ones keep theirs). Renewals, upgrades and later payments earn
+// nothing. Each is a row in creator_earnings, payable PAYOUTS.holdDays after it was paid; a refund or a dispute of it
+// takes it back (reverseCommission), from the next payout if it was paid out already. After each payout cycle the
+// payout list (payoutList) has every creator owed at least PAYOUTS.minimumCents, with the PayPal email or bank wire
+// they chose on their dashboard (savePayoutDetails): Mike pays them by hand and presses "Mark paid" (payCreator).
+// (Stripe Connect transfers were dropped on 10/25: Stripe Managed Payments doesn't allow Connect platforms.) Creators
+// get Champion free for their term (a plan_grants row, syncCreatorPlan), and /admin's "End" ends the agreement: the
+// link and code stop, and so does the free plan, while what they earned is still paid. Their audience gets discount%
+// off their first month (CREATOR_DEFAULTS: 15), through the creator's Stripe promotion code (their code in capitals,
+// syncPromo): taken off at checkout for someone their link brought, or typed there by anyone, which makes that
+// subscriber the creator's too (notePayment). Gift answers only when /admin gives that creator some. The creator terms
+// are on /creators; Patrick owns the agreement's text.
 //
 // The tables (made by setupReferrals; "Delete my account" removes or strips the account's rows, REFERRAL_USER_DATA):
 // share_codes: every code, one live player code per account (retired: when "New link" replaced it; a retired code
@@ -49,16 +54,20 @@ import { actionIsUncertain } from "./dashboard-action.js";
 //   creator, the friend's one-way Google code (sub_hash, so once per Google account), via ('signup', 'connect', or
 //   NULL: counted at a Willo connect before activation, 10/16-18), connected (Willo signed in), activated (her first
 //   real answer), counted (1: it moves the inviter on), void (why it doesn't count), browser and machine (one-way
-//   codes), card (a one-way code of the first payment's card), paid (their first payment), first_month (when their
-//   first whole paid month started), answers (what the sharer got for it before 10/18).
+//   codes), card (a one-way code of the first payment's card), paid (their first payment), first_invoice (the invoice
+//   of it: the creator's Qualifying Payment), first_month (when their first whole paid month started, before 10/25),
+//   answers (what the sharer got for it before 10/18).
 // referral_rewards: each reward a player earned (id "bonus:<user>:<n>" or "month:<user>:<n>"), applied once.
-// creators: a creator's terms, their account (user_id), Stripe promotion code (promo_id) and Connect account.
+// creators: a creator's terms, their account (user_id), Stripe promotion code (promo_id), term (term_start and
+//   term_end, days), payout details (payout_method 'paypal' or 'wire', payout_email) and tax form on file (tax_form
+//   'w9' or 'w8ben', /admin's mark: Mike collects the forms; their contents are never kept here). retired: when the
+//   agreement ended. (connect_*: Stripe Connect accounts, before 10/25.)
 // creator_applications: who asked to join the program, and what /admin decided.
-// creator_earnings: per paid invoice of a player a creator brought: what was paid (before Stripe's fees, without
-//   tax), the creator's share, when it's payable, reversed (refunded or disputed), and the payout that paid it.
-// creator_payouts: each payout, by hand or by Stripe transfer.
-// referral_settings: stripe_payouts ("on" once Stripe Connect is set up). browser_seen: one-way browser codes and the
-//   accounts signed in with them (lib/accounts.js startSession's sign-ins, noteBrowser).
+// creator_earnings: per Conversion: its invoice, what was paid (before Stripe's fees, without tax), the creator's
+//   share and its rate (pct), when it's payable, reversed (refunded or disputed), and the payout that paid it.
+// creator_payouts: each payout, by hand, with the payout cycle it was for.
+// referral_settings: schema. browser_seen: one-way browser codes and the accounts signed in with them
+//   (lib/accounts.js startSession's sign-ins, noteBrowser).
 
 import { PLANS, PAID, setupBilling, starterClaim, planIdNow, billedPlan, promoClaimed, stripe, giveFreeMonth } from "./billing.js";
 import { COMPANION_NAME } from "./brand.js";
@@ -78,12 +87,21 @@ export const REWARDS = {
   perMonth: 10,              // friends who count in one calendar month, at most (for anything)
 };
 // A creator's terms unless /admin says otherwise (Mike and Patrick's deal, 10/19 call, LOR-691: "60% of the first month
-// of the plan", and "a 15% discount" for their audience with the creator's code): they get sharePct% of each
-// subscriber's first `months` paid months, and their audience discount% off its first month (and no gift answers).
-// Creators made before keep their own terms.
+// of the plan", and "a 15% discount" for their audience with the creator's code): sharePct% is the least they earn on
+// a Conversion (the tiers raise it), and their audience gets discount% off its first month (and no gift answers).
+// months: always 1 since the agreement (only the first payment earns); kept on the row.
 export const CREATOR_DEFAULTS = { discount: 15, sharePct: 60, months: 1, gift: 0 };
+// The agreement's tiers (§5): Conversions during the term -> the share of each one's Eligible Revenue. The Conversion
+// that reaches a step earns its rate (the 50th earns 65%); earlier ones keep theirs.
+export const CREATOR_TIERS = [{ from: 1, pct: 60 }, { from: 50, pct: 65 }, { from: 100, pct: 70 }, { from: 500, pct: 80 },
+  { from: 1000, pct: 90 }];
+export const tierFor = n => CREATOR_TIERS.reduce((tier, step) => n >= step.from ? step : tier, CREATOR_TIERS[0]);
+// The agreement's term (§3, §6): it starts on `start` (a creator added later starts the day they're added), runs
+// `days` days as `cycleDays`-day payout cycles, and each cycle's payout run is within runDays after it ends. Each
+// creator's own term is on their row (term_start, term_end: its first and last day, UTC), so /admin can extend one.
+export const CREATOR_TERM = { start: "2026-11-03", days: 90, cycleDays: 30, runDays: 7 };
 // Payouts: a commission is payable holdDays after its invoice was paid (refunds and disputes come first), and a
-// creator is paid once at least minimumCents is payable (less carries over to the next month).
+// creator is paid once at least minimumCents is payable (less carries over to the next run, after the term too).
 export const PAYOUTS = { holdDays: 30, minimumCents: 1000 };
 // What a free month's bonus is, by the inviter's plan.
 export const bonusAnswersFor = planId => Math.round((PLANS[planId] || PLANS.free).answersPerMonth * REWARDS.bonusPercent / 100);
@@ -150,7 +168,9 @@ const MIGRATE = ["referrals via TEXT", "referrals connected TEXT", "referrals ac
   "referrals card TEXT", "referrals first_month TEXT", "creators user_id TEXT", "creators channel TEXT",
   "creators connect_id TEXT", "creators connect_ready INTEGER NOT NULL DEFAULT 0", "creators connect_country TEXT",
   "creator_earnings payable_at TEXT", "creator_earnings reversed TEXT", "creator_earnings reversed_why TEXT",
-  "creator_earnings payout_id TEXT", "creator_earnings clawed TEXT", "devices machine TEXT"]
+  "creator_earnings payout_id TEXT", "creator_earnings clawed TEXT", "devices machine TEXT", "referrals first_invoice TEXT",
+  "creators term_start TEXT", "creators term_end TEXT", "creators payout_method TEXT", "creators payout_email TEXT",
+  "creators tax_form TEXT", "creator_payouts cycle INTEGER"]
   .map(s => { const [table, ...column] = s.split(" "); return `ALTER TABLE ${table} ADD COLUMN ${column.join(" ")}`; });
 const INDEXES = ["CREATE INDEX IF NOT EXISTS referrals_machine ON referrals (machine)",
   "CREATE INDEX IF NOT EXISTS referrals_browser ON referrals (browser)",
@@ -656,6 +676,60 @@ export function shareBanner(owner, escape) {
 
 const creatorRow = (env, code) => env.DB.prepare("SELECT * FROM creators WHERE code = ?").bind(code).first();
 
+// A creator's term (CREATOR_TERM; their row's term_start and term_end, UTC days, both in it): {startDay, endDay, start,
+// end (milliseconds; end is the moment after its last day, or when the agreement ended if that's sooner), ended
+// (the agreement was ended by /admin)}. Rows from before the term columns get the program's.
+const DAY_RE = /^\d{4}-\d{2}-\d{2}$/;
+const dayMs = d => Date.parse(`${d}T00:00:00Z`);
+const dayOf = ms => iso(ms).slice(0, 10);
+const termEndDay = startDay => dayOf(dayMs(startDay) + (CREATOR_TERM.days - 1) * DAY_MS);
+export function termOf(creator) {
+  const startDay = DAY_RE.test(creator?.term_start || "") ? creator.term_start : CREATOR_TERM.start;
+  const endDay = DAY_RE.test(creator?.term_end || "") ? creator.term_end : termEndDay(startDay);
+  const retired = creator?.retired ? Date.parse(creator.retired) : Infinity;
+  return { startDay, endDay, start: dayMs(startDay), end: Math.min(dayMs(endDay) + DAY_MS, retired), ended: Boolean(creator?.retired) };
+}
+// The payout cycle a run at `now` is for (§3, §6): the last cycle that has ended (cycles go on after the term, for
+// what's still owed), or the first while none has. {n, startDay, endDay (its last day), runBy (the last day of its
+// run), ended}.
+export function payoutCycle(creator, now = new Date()) {
+  const { start } = termOf(creator), len = CREATOR_TERM.cycleDays * DAY_MS;
+  const done = Math.floor((now.getTime() - start) / len);
+  const n = Math.max(1, done), from = start + (n - 1) * len;
+  return { n, startDay: dayOf(from), endDay: dayOf(from + len - DAY_MS), runBy: dayOf(from + len + (CREATOR_TERM.runDays - 1) * DAY_MS),
+           ended: done >= 1 };
+}
+// The free Champion plan for a creator's term (§4): a plan_grants row ("creator:<code>") on their account from when
+// they're added until their term ends, or the agreement does. Ending it, or the account moving, ends or moves it.
+export async function syncCreatorPlan(env, code, now = new Date()) {
+  const creator = await creatorRow(env, code);
+  if (!creator) return null;
+  const id = `creator:${code}`, at = now.getTime();
+  const old = await env.DB.prepare("SELECT user_id, starts, ends FROM plan_grants WHERE id = ?").bind(id).first();
+  const ends = termOf(creator).end;
+  if (!creator.user_id || ends <= at) {
+    if (old && Date.parse(old.ends) > at)
+      await env.DB.prepare("UPDATE plan_grants SET ends = ? WHERE id = ?").bind(iso(at), id).run();
+    return null;
+  }
+  if (!old) {
+    await env.DB.prepare("INSERT INTO plan_grants (id, user_id, plan, starts, ends, reason, created) VALUES (?, ?, 'champion', ?, ?, ?, ?)")
+      .bind(id, creator.user_id, iso(at), iso(ends), "Creator program: Champion for the term", iso(at)).run();
+  } else {
+    const starts = Date.parse(old.ends) <= at || old.user_id !== creator.user_id ? iso(at) : old.starts;
+    await env.DB.prepare("UPDATE plan_grants SET user_id = ?, starts = ?, ends = ? WHERE id = ?")
+      .bind(creator.user_id, starts, iso(ends), id).run();
+  }
+  return { plan: "champion", ends: iso(ends) };
+}
+// What a creator sees about their tier: {pct (the tier they're in: 60% before their first), conversions (in their
+// term), next: {at (the Conversion that reaches it), pct, more (Conversions to go)} or null at the top}.
+export function tierView(creator, conversions) {
+  const pct = Math.max(creator?.share_pct || 0, tierFor(Math.max(1, conversions)).pct);
+  const step = CREATOR_TIERS.find(s => s.from > conversions && s.pct > pct);
+  return { pct, conversions, next: step ? { at: step.from, pct: step.pct, more: step.from - conversions } : null };
+}
+
 // The creator whose link brought this account, for checkout and /plans: {code, name, discount, promoId}, or null.
 export async function creatorFor(env, userId) {
   await setupReferrals(env);
@@ -736,8 +810,10 @@ async function creatorAccount(env, input, code) {
 
 // /admin's "Add creator", its edits and an approved application (functions/api/admin/creators.js): {creator} or
 // {error}. A new code must be free (no player or creator has it). Terms left out keep what they were (a new
-// creator's: CREATOR_DEFAULTS).
-export async function saveCreator(env, input) {
+// creator's: CREATOR_DEFAULTS, and a term from CREATOR_TERM.start, or today when that's past). term_start, term_end:
+// the term's first and last day (an extension agreed in writing moves the last); tax_form: "w9", "w8ben" or "" (none
+// on file). Their free Champion plan follows (syncCreatorPlan).
+export async function saveCreator(env, input, now = new Date()) {
   await setupReferrals(env);
   const code = String(input.code || "").trim().toLowerCase();
   if (!CREATOR_CODE.test(code)) return { error: "A code is 2-24 letters, digits or dashes, like ziqo." };
@@ -746,6 +822,14 @@ export async function saveCreator(env, input) {
   if (!name) return { error: "A creator needs a name." };
   const account = await creatorAccount(env, input, code);
   if (account?.error) return account;
+  const day = (v, fallback) => v === undefined || v === null || v === "" ? fallback
+    : DAY_RE.test(String(v)) && dayOf(dayMs(v)) === v ? v : undefined;
+  const termStart = day(input.term_start, old?.term_start || [CREATOR_TERM.start, dayOf(now.getTime())].sort()[1]);
+  const termEnd = day(input.term_end, input.term_start ? termEndDay(termStart) : old?.term_end || termEndDay(termStart));
+  if (!termStart || !termEnd || termEnd < termStart) return { error: "A term is a first and a last day, like 2026-11-03 to 2027-01-31." };
+  const tax = input.tax_form === undefined ? old?.tax_form ?? null : ["w9", "w8ben"].includes(input.tax_form) ? input.tax_form
+    : input.tax_form === "" || input.tax_form === null ? null : undefined;
+  if (tax === undefined) return { error: "A tax form is a W-9 (w9) or a W-8BEN (w8ben)." };
   const d = CREATOR_DEFAULTS;
   const row = { code, name, contact: input.contact === undefined ? old?.contact ?? null : text(input.contact, 200) || null,
     discount: whole(input.discount, 0, 100, old?.discount ?? d.discount),
@@ -754,17 +838,18 @@ export async function saveCreator(env, input) {
     channel: input.channel === undefined ? old?.channel ?? null : text(input.channel, 200) || null };
   if (!old) {
     const made = await env.DB.prepare("INSERT OR IGNORE INTO share_codes (code, user_id, kind, created) VALUES (?, NULL, 'creator', ?)")
-      .bind(code, iso()).run();
+      .bind(code, iso(now.getTime())).run();
     if (!made.meta.changes) return { error: "That code is taken." };
-    await env.DB.prepare("INSERT INTO creators (code, name, contact, discount, share_pct, months, gift, channel, created) " +
-      "VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)").bind(code, row.name, row.contact, row.discount, row.share_pct, row.months,
-      row.gift, row.channel, iso()).run();
+    await env.DB.prepare("INSERT INTO creators (code, name, contact, discount, share_pct, months, gift, channel, created, " +
+      "term_start, term_end, tax_form) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)").bind(code, row.name, row.contact,
+      row.discount, row.share_pct, row.months, row.gift, row.channel, iso(now.getTime()), termStart, termEnd, tax).run();
   } else {
     await env.DB.prepare("UPDATE creators SET name = ?, contact = ?, discount = ?, share_pct = ?, months = ?, gift = ?, " +
-      "channel = ? WHERE code = ?").bind(row.name, row.contact, row.discount, row.share_pct, row.months, row.gift,
-      row.channel, code).run();
+      "channel = ?, term_start = ?, term_end = ?, tax_form = ? WHERE code = ?").bind(row.name, row.contact, row.discount,
+      row.share_pct, row.months, row.gift, row.channel, termStart, termEnd, tax, code).run();
   }
   if (account !== undefined) await env.DB.prepare("UPDATE creators SET user_id = ? WHERE code = ?").bind(account, code).run();
+  await syncCreatorPlan(env, code, now);
   // A promotion code made by hand in Stripe's Dashboard (when the site's key may not make one): used as it is.
   const byHand = String(input.promo_id || "").trim();
   if (/^promo_[A-Za-z0-9]{4,64}$/.test(byHand)) {
@@ -775,17 +860,19 @@ export async function saveCreator(env, input) {
   return { creator: await syncPromo(env, await creatorRow(env, code)) };
 }
 
-// Retire a creator's link (or bring it back): a retired link no longer brings anyone, and its Stripe code is switched
-// off; friends it brought before still earn for it.
-export async function retireCreator(env, code, retire = true) {
+// End a creator's agreement (§13), or undo that: their link no longer brings anyone, its Stripe code is switched off,
+// their free Champion plan ends and their link and code earn nothing from then on; what they earned before is still
+// paid. Restoring brings all of it back for the rest of their term.
+export async function retireCreator(env, code, retire = true, now = new Date()) {
   await setupReferrals(env);
   const creator = await creatorRow(env, code);
   if (!creator) return false;
-  const at = retire ? iso() : null;
+  const at = retire ? iso(now.getTime()) : null;
   await env.DB.batch([
     env.DB.prepare("UPDATE creators SET retired = ? WHERE code = ?").bind(at, code),
     env.DB.prepare("UPDATE share_codes SET retired = ? WHERE code = ?").bind(at, code),
   ]);
+  await syncCreatorPlan(env, code, now);
   if (creator.promo_id && env.STRIPE_SECRET_KEY) {
     try { await stripe(env, "POST", `promotion_codes/${encodeURIComponent(creator.promo_id)}`, { active: !retire }); }
     catch (e) { console.warn(`referrals: creator ${code}'s Stripe code: ${e?.message || e}`); }
@@ -844,7 +931,7 @@ export async function decideApplication(env, id, { approve, code = "", ...terms 
   }
   const pick = String(code || "").trim().toLowerCase() || await freeCode(env, app.name);
   const out = await saveCreator(env, { ...terms, code: pick, name: app.name, contact: app.contact, channel: app.channel,
-                                       user_id: app.user_id });
+                                       user_id: app.user_id }, now);
   if (out.error) return out;
   await env.DB.prepare("UPDATE creator_applications SET status = 'approved', code = ?, decided = ? WHERE id = ?")
     .bind(out.creator.code, iso(now.getTime()), id).run();
@@ -876,22 +963,14 @@ async function accountCards(env, userId) {
   } catch (e) { return []; }
 }
 
-// The service period an invoice pays for: {start, end} (Unix seconds) over its lines, and whether it's a whole month.
-function invoicePeriod(invoice) {
-  const periods = (invoice.lines?.data || []).map(l => l?.period).filter(p => Number.isFinite(p?.start) && p.end > p.start);
-  if (!periods.length) return null;
-  const start = Math.min(...periods.map(p => p.start)), end = Math.max(...periods.map(p => p.end));
-  return { start, end, whole: end - start >= 27 * 86400 };
-}
-const addMonths = (ms, n) => { const d = new Date(ms); d.setUTCMonth(d.getUTCMonth() + n); return d.getTime(); };
-
 // A paid invoice (the webhook's invoice.paid, functions/api/billing/[action].js). The friend's first payment is noted
-// on their referral, with its card: a friend who pays with the inviter's (or the creator's) card is void. A player
-// friend's payment moves their inviter on when the free month counts paying friends. When a creator brought them
-// (their link, or their code typed at checkout), the creator's share_pct% of what was paid without tax is kept, once
-// per invoice, for the invoices of their first `months` paid months: up to the first invoice for a whole month, and
-// any whose period starts within `months` of that one's start. Payable PAYOUTS.holdDays after it was paid. Throws when
-// Stripe or D1 fails, so Stripe sends the event again.
+// on their referral (paid, first_invoice), with its card: a friend who pays with the inviter's (or the creator's) card
+// is void. A player friend's payment moves their inviter on when the free month counts paying friends. When a creator
+// brought them (their link, or their code typed at checkout) and this is that first payment, made during the
+// creator's term and before the agreement ended, it's a Conversion: the creator's share of what was paid without tax
+// is kept, at the rate of their tier with this one counted (tierFor; never under the creator's own share_pct), once.
+// Later payments earn nothing. Payable PAYOUTS.holdDays after it was paid. Throws when Stripe or D1 fails, so Stripe
+// sends the event again.
 export async function notePayment(env, invoice) {
   if (!invoice?.id || !(invoice.amount_paid > 0)) return { skipped: "nothing paid" };
   await setupReferrals(env);
@@ -925,32 +1004,29 @@ export async function notePayment(env, invoice) {
     const card = await invoiceCard(env, invoice);
     const inviter = ref.sharer_id || creator?.user_id || null;
     const same = card && inviter && (await accountCards(env, inviter)).includes(card);
-    await env.DB.prepare("UPDATE referrals SET paid = ?, card = COALESCE(card, ?), void = COALESCE(void, ?), " +
-      "counted = CASE WHEN ? THEN 0 ELSE counted END WHERE user_id = ? AND paid IS NULL")
-      .bind(iso(paidAt), card, same ? "inviter's card" : null, same ? 1 : 0, userId).run();
+    await env.DB.prepare("UPDATE referrals SET paid = ?, first_invoice = ?, card = COALESCE(card, ?), " +
+      "void = COALESCE(void, ?), counted = CASE WHEN ? THEN 0 ELSE counted END WHERE user_id = ? AND paid IS NULL")
+      .bind(iso(paidAt), invoice.id, card, same ? "inviter's card" : null, same ? 1 : 0, userId).run();
     ref = await read();
     if (ref.kind === "player" && ref.sharer_id && !ref.void && REWARDS.monthCounts === "paid")
       await settleRewards(env, ref.sharer_id, new Date(paidAt));
   }
   if (!creator) return { skipped: "no creator" };
   if (ref.void) return { skipped: `void: ${ref.void}` };
-  const period = invoicePeriod(invoice);
-  const start = period ? period.start * 1000 : paidAt;
-  let first = ref.first_month ? Date.parse(ref.first_month) : null;
-  if (first === null && period?.whole) {
-    await env.DB.prepare("UPDATE referrals SET first_month = ? WHERE user_id = ? AND first_month IS NULL")
-      .bind(iso(start), userId).run();
-    first = Date.parse((await read()).first_month);
-  }
-  if (first !== null && start >= addMonths(first, creator.months)) return { skipped: "past the creator's months" };
+  if (ref.first_invoice !== invoice.id) return { skipped: "not the first payment" };
+  const term = termOf(creator);
+  if (paidAt < term.start || paidAt >= term.end) return { skipped: "outside the creator's term" };
   const taxes = Array.isArray(invoice.total_taxes) ? invoice.total_taxes.reduce((a, t) => a + (t?.amount || 0), 0)
     : Number(invoice.tax) || 0;
   const paid = Math.max(0, invoice.amount_paid - taxes);
-  const share = Math.round(paid * creator.share_pct / 100);
+  const before = await env.DB.prepare("SELECT COUNT(*) AS n FROM creator_earnings WHERE creator = ? AND reversed IS NULL " +
+    "AND invoice_id != ? AND paid_at >= ? AND paid_at < ?").bind(creator.code, invoice.id, iso(term.start), iso(term.end)).first();
+  const pct = Math.max(creator.share_pct, tierFor((before?.n || 0) + 1).pct);
+  const share = Math.round(paid * pct / 100);
   await env.DB.prepare("INSERT OR IGNORE INTO creator_earnings (invoice_id, creator, user_id, paid_cents, share_cents, pct, " +
     "paid_at, recorded, payable_at) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)").bind(invoice.id, creator.code, userId, paid, share,
-    creator.share_pct, iso(paidAt), iso(), iso(paidAt + PAYOUTS.holdDays * DAY_MS)).run();
-  return { creator: creator.code, paid, share };
+    pct, iso(paidAt), iso(), iso(paidAt + PAYOUTS.holdDays * DAY_MS)).run();
+  return { creator: creator.code, paid, share, pct };
 }
 
 // A refund (charge.refunded) or a dispute (charge.dispute.created) of a payment a creator earned on: that commission
@@ -971,42 +1047,19 @@ export async function reverseCommission(env, object, why) {
 
 // ---- Payouts ----
 
-const SETTING = "stripe_payouts";
-export async function stripePayoutsOn(env) {
+// A creator's payout details, from their dashboard (functions/api/creators/[action].js payout; §6: we can't pay them
+// without these): "paypal" with the email of the PayPal account to send to, or "wire" (a bank wire: Mike writes to
+// them for the bank details, at this email if they give one). {payout: {method, email}} or {error}.
+const EMAIL = /^[^\s@]{1,64}@[^\s@]+\.[^\s@]{2,}$/;
+export async function savePayoutDetails(env, creator, { method, email } = {}) {
   await setupReferrals(env);
-  return (await env.DB.prepare("SELECT value FROM referral_settings WHERE key = ?").bind(SETTING).first())?.value === "on";
-}
-// A creator's Express account, as Stripe is asked to make it (startConnect, and the switch's probe). In the US,
-// Stripe's standard Express account: card payments and transfers together (asking for transfers alone needs Stripe's
-// approval: "Your platform needs approval for accounts to have requested the transfers capability without the
-// card_payments capability", 10/19). Outside the US, transfers only, under the recipient service agreement
-// (cross-border payouts: such an account can't take payments, and card_payments isn't allowed on it). channel: the
-// creator's channel, as their website, so Stripe's form doesn't ask for one.
-export function connectAccount({ country = "US", email = null, channel = null, metadata = {} } = {}) {
-  const us = country === "US", url = /^https:\/\/[^\s/]+\.[^\s]+$/i.test(channel || "") ? channel : null;
-  return { type: "express", country, ...(email ? { email } : {}),
-    capabilities: us ? { card_payments: { requested: true }, transfers: { requested: true } } : { transfers: { requested: true } },
-    ...(us ? {} : { tos_acceptance: { service_agreement: "recipient" } }),
-    ...(url ? { business_profile: { url } } : {}), metadata };
-}
-
-// /admin's switch, once Mike has Stripe Connect: creators can then set up payouts from their dashboard, and /admin
-// pays with Stripe transfers. Turning it on proves the site's key can make a creator's Express account (Connect is set
-// up, the key may write them, and Stripe takes the account as startConnect asks for it): it makes one, empty, and
-// deletes it again. Listing accounts proves nothing (it works without Connect), and Stripe checks a request's fields
-// before whether Connect is on.
-export async function setStripePayouts(env, on) {
-  await setupReferrals(env);
-  if (on) {
-    try {
-      const probe = await stripe(env, "POST", "accounts", connectAccount({ metadata: { probe: "lore-forever payouts switch" } }));
-      await stripe(env, "DELETE", `accounts/${encodeURIComponent(probe.id)}`).catch(e =>
-        console.warn(`referrals: payouts probe ${probe.id} not deleted: ${e?.message || e}`));
-    } catch (e) { return { error: `Stripe said no to Connect: ${e.message}` }; }
-  }
-  await env.DB.prepare("INSERT INTO referral_settings (key, value, updated) VALUES (?, ?, ?) " +
-    "ON CONFLICT(key) DO UPDATE SET value = excluded.value, updated = excluded.updated").bind(SETTING, on ? "on" : "off", iso()).run();
-  return { on: Boolean(on) };
+  if (!["paypal", "wire"].includes(method)) return { error: "Pick PayPal or a bank wire." };
+  const address = String(email || "").trim().toLowerCase().slice(0, 254);
+  if (method === "paypal" && !EMAIL.test(address)) return { error: "Type the email of your PayPal account." };
+  if (address && !EMAIL.test(address)) return { error: "That email doesn't look right." };
+  await env.DB.prepare("UPDATE creators SET payout_method = ?, payout_email = ? WHERE code = ?")
+    .bind(method, address || null, creator.code).run();
+  return { payout: { method, email: address || null } };
 }
 
 const monthKey = (now = new Date()) => iso(now.getTime()).slice(0, 7);
@@ -1019,17 +1072,18 @@ const OWED = "SELECT creator, " +
   "MIN(CASE WHEN payout_id IS NULL AND paid_out IS NULL AND reversed IS NULL AND payable_at > ?1 THEN payable_at END) AS next_payable " +
   "FROM creator_earnings GROUP BY creator";
 
-// The month's payout list (/admin): every creator owed at least PAYOUTS.minimumCents now, how they're paid (Stripe,
-// once payouts are on and their account is ready, else by hand), and what's still in its hold.
-// {month, minimum, stripe (payouts on), due: [{code, name, contact, due, payable, clawback, held, method, connect}],
-// held: [{code, name, held, next}]}.
+// The payout list (/admin): every creator owed at least PAYOUTS.minimumCents now, the payout cycle the run is for
+// (payoutCycle: the run is within CREATOR_TERM.runDays after it), where to send it (their PayPal email or a bank
+// wire; null until they've said) and whether a tax form is on file; and what's still in its hold. Mike pays each by
+// hand, then presses "Mark paid" (payCreator).
+// {month, minimum, due: [{code, name, contact, due, payable, clawback, held, cycle, payout: {method, email}, taxForm}],
+// held: [{code, name, held, carried, next}]}.
 export async function payoutList(env, now = new Date()) {
   await setupReferrals(env);
   const at = iso(now.getTime());
-  const [{ results: owed }, { results: creators }, stripeOn] = await Promise.all([
+  const [{ results: owed }, { results: creators }] = await Promise.all([
     env.DB.prepare(OWED).bind(at).all(),
-    env.DB.prepare("SELECT code, name, contact, connect_id, connect_ready FROM creators").all(),
-    stripePayoutsOn(env),
+    env.DB.prepare("SELECT * FROM creators").all(),
   ]);
   const byCode = new Map(creators.map(c => [c.code, c]));
   const due = [], held = [];
@@ -1037,28 +1091,25 @@ export async function payoutList(env, now = new Date()) {
     const c = byCode.get(o.creator) || { code: o.creator, name: o.creator };
     const amount = o.payable - o.clawback;
     if (amount >= PAYOUTS.minimumCents) due.push({ code: c.code, name: c.name, contact: c.contact || null, due: amount,
-      payable: o.payable, clawback: o.clawback, held: o.held,
-      method: stripeOn && c.connect_id && c.connect_ready ? "stripe" : "manual", connect: Boolean(c.connect_id && c.connect_ready) });
+      payable: o.payable, clawback: o.clawback, held: o.held, cycle: payoutCycle(c, now),
+      payout: { method: c.payout_method || null, email: c.payout_email || null }, taxForm: c.tax_form || null });
     else if (o.held > 0 || amount > 0) held.push({ code: c.code, name: c.name, held: o.held, carried: Math.max(0, amount), next: o.next_payable });
   }
-  return { month: monthKey(now), minimum: PAYOUTS.minimumCents, stripe: stripeOn, due, held };
+  return { month: monthKey(now), minimum: PAYOUTS.minimumCents, due, held };
 }
 
-// Pays a creator what's due now (payoutList's due), once: their payable earnings and the clawbacks it takes off are
-// tied to one payout (creator_payouts), so a second "Pay" at the same time finds nothing. method "stripe": a Stripe
-// transfer to their Express account (only with payouts on and their account ready; the payout's id is Stripe's
-// idempotency key; a failed transfer unties the earnings again); "manual": paid outside the site (a bank transfer,
-// PayPal), noted. {payout} or {error}.
-export async function payCreator(env, code, { method = "manual", note = "", now = new Date(), expectedCents } = {}) {
+// Marks what's due to a creator now (payoutList's due) as paid, once Mike has sent it by PayPal or bank wire: their
+// payable earnings and the clawbacks it takes off are tied to one payout (creator_payouts, with its cycle), so a second
+// "Mark paid" at the same time finds nothing. note: how it went (a PayPal transaction id). {payout} or {error}.
+export async function payCreator(env, code, { note = "", now = new Date(), expectedCents } = {}) {
   await setupReferrals(env);
   const creator = await creatorRow(env, code);
   if (!creator) return { error: "No such creator." };
-  if (method === "stripe" && !(await stripePayoutsOn(env))) return { error: "Stripe payouts aren't on yet." };
-  if (method === "stripe" && !(creator.connect_id && creator.connect_ready)) return { error: `${creator.name} hasn't set up payouts with Stripe yet.` };
   const at = iso(now.getTime()), id = `po_${code}_${now.getTime().toString(36)}${hex(crypto.getRandomValues(new Uint8Array(3)))}`;
   await env.DB.batch([
-    env.DB.prepare("INSERT INTO creator_payouts (id, creator, month, cents, items, method, status, note, created) " +
-      "VALUES (?, ?, ?, 0, 0, ?, 'pending', ?, ?)").bind(id, code, monthKey(now), method, text(note, 200) || null, at),
+    env.DB.prepare("INSERT INTO creator_payouts (id, creator, month, cycle, cents, items, method, status, note, created) " +
+      "VALUES (?, ?, ?, ?, 0, 0, 'manual', 'pending', ?, ?)").bind(id, code, monthKey(now), payoutCycle(creator, now).n,
+      text(note, 200) || null, at),
     env.DB.prepare("UPDATE creator_earnings SET payout_id = ? WHERE creator = ? AND payout_id IS NULL AND paid_out IS NULL " +
       "AND reversed IS NULL AND payable_at <= ?").bind(id, code, at),
     env.DB.prepare("UPDATE creator_earnings SET clawed = ? WHERE creator = ? AND reversed IS NOT NULL AND " +
@@ -1082,88 +1133,30 @@ export async function payCreator(env, code, { method = "manual", note = "", now 
     return { error, status: 409 };
   }
   if (cents <= 0) { await untie("nothing due"); return { error: `Nothing is due to ${creator.name} now.` }; }
-  // Under the minimum (clawbacks netted in, as payoutList does) is carried to next month, not paid.
+  // Under the minimum (clawbacks netted in, as payoutList does) is carried to the next run, not paid.
   if (cents < PAYOUTS.minimumCents) {
     await untie("below minimum");
-    return { error: `Under ${usd(PAYOUTS.minimumCents)} is carried to next month: ${creator.name} has ${usd(cents)} due.` };
-  }
-  let transfer = null;
-  if (method === "stripe") {
-    try {
-      transfer = await stripe(env, "POST", "transfers", { amount: cents, currency: "usd", destination: creator.connect_id,
-        description: `Lore Forever creator payout, ${monthKey(now)}`, metadata: { creator: code, payout: id } },
-        { idempotencyKey: `lf-payout-${id}` });
-    } catch (e) {
-      if (!actionIsUncertain(env)) await untie(String(e?.message || e).slice(0, 300));
-      return { error: `Stripe didn't send it: ${e.message}` };
-    }
+    return { error: `Under ${usd(PAYOUTS.minimumCents)} is carried to the next payout: ${creator.name} has ${usd(cents)} due.` };
   }
   await env.DB.batch([
-    env.DB.prepare("UPDATE creator_payouts SET cents = ?, items = ?, status = 'paid', transfer_id = ?, paid_at = ? WHERE id = ?")
-      .bind(cents, sums.items, transfer?.id || null, at, id),
+    env.DB.prepare("UPDATE creator_payouts SET cents = ?, items = ?, status = 'paid', paid_at = ? WHERE id = ?")
+      .bind(cents, sums.items, at, id),
     env.DB.prepare("UPDATE creator_earnings SET paid_out = ? WHERE payout_id = ?").bind(at, id),
   ]);
   return { payout: await env.DB.prepare("SELECT * FROM creator_payouts WHERE id = ?").bind(id).first() };
 }
 
-// A creator's Express account (connectAccount) and Stripe's onboarding page for it (their dashboard's "Set up
-// payouts"): {url} or {error}. country: theirs (two letters); outside the US, Stripe's recipient agreement (payouts only).
-const COUNTRY = /^[A-Z]{2}$/;
-export async function startConnect(env, creator, origin, { country = "US", email = null } = {}) {
-  if (!(await stripePayoutsOn(env))) return { error: "Payouts through Stripe aren't open yet. We'll pay you by hand until then." };
-  country = String(country || "US").toUpperCase();
-  if (!COUNTRY.test(country)) return { error: "Pick your country." };
-  let id = creator.connect_id;
-  try {
-    if (!id) {
-      const make = (channel, key) => stripe(env, "POST", "accounts",
-        connectAccount({ country, email, channel, metadata: { creator: creator.code } }), { idempotencyKey: key });
-      const key = `lf-connect-${creator.code}-${country}`;
-      // A channel link Stripe won't take as a website: their account is made without it (its form asks instead).
-      const acct = await make(creator.channel, key).catch(e => e.status === 400 && /business_profile|url/i.test(e.message)
-        ? make(null, `${key}-nourl`) : Promise.reject(e));
-      id = acct.id;
-      await env.DB.prepare("UPDATE creators SET connect_id = ?, connect_country = ?, connect_ready = 0 WHERE code = ?")
-        .bind(id, country, creator.code).run();
-    }
-    const link = await stripe(env, "POST", "account_links", { account: id, type: "account_onboarding",
-      refresh_url: `${origin}/creators?payouts=again`, return_url: `${origin}/creators?payouts=done` });
-    return { url: link.url };
-  } catch (e) {
-    console.warn(`referrals: connect ${creator.code}: ${e?.message || e}`);
-    return { error: "Stripe couldn't start that just now. Please try again in a moment." };
-  }
-}
-
-// Whether a creator's Express account can take transfers now (Stripe says so), noted on their row. {ready, due (what
-// Stripe still wants from them)}.
-export async function refreshConnect(env, creator) {
-  if (!creator?.connect_id) return { ready: false };
-  try {
-    const acct = await stripe(env, "GET", `accounts/${encodeURIComponent(creator.connect_id)}`);
-    const ready = Boolean(acct?.payouts_enabled) && acct?.capabilities?.transfers === "active";
-    if (ready !== Boolean(creator.connect_ready))
-      await env.DB.prepare("UPDATE creators SET connect_ready = ? WHERE code = ?").bind(ready ? 1 : 0, creator.code).run();
-    return { ready, due: (acct?.requirements?.currently_due || []).length };
-  } catch (e) { return { ready: Boolean(creator.connect_ready) }; }
-}
-
-// Stripe's own page for a creator's payouts and bank details (their Express dashboard): {url} or {error}.
-export async function connectLogin(env, creator) {
-  if (!creator?.connect_id) return { error: "Set up payouts first." };
-  try { return { url: (await stripe(env, "POST", `accounts/${encodeURIComponent(creator.connect_id)}/login_links`)).url }; }
-  catch (e) { return { error: "Stripe couldn't open that just now." }; }
-}
-
 // ---- What creators and /admin see ----
 
 // One creator's numbers (US cents): clicks, signups (accounts their link brought, not void), connected (signed in to
-// Willo), activated (a first real answer), paying (paid a first month), earned (commission, not reversed), held (in
-// its hold), payable (past it, not paid yet), paidOut, reversed; and by month, the last six.
-async function creatorNumbers(env, code, now) {
-  const at = iso(now.getTime());
+// Willo), activated (a first real answer), paying (paid a first month), conversions (Conversions in their term: first
+// payments that earned, not refunded), earned (commission, not reversed), held (in its hold), payable (past it, not
+// paid yet), paidOut, reversed; and by month, the last six.
+async function creatorNumbers(env, creator, now) {
+  const code = creator.code, at = iso(now.getTime());
   const [row, { results: months }] = await Promise.all([
     env.DB.prepare("SELECT (SELECT clicks FROM share_codes WHERE code = ?1) AS clicks, " +
+      "(SELECT COUNT(*) FROM creator_earnings WHERE creator = ?1 AND reversed IS NULL AND paid_at >= ?3) AS conversions, " +
       "COALESCE(SUM(void IS NULL), 0) AS signups, COALESCE(SUM(void IS NULL AND connected IS NOT NULL), 0) AS connected, " +
       "COALESCE(SUM(void IS NULL AND activated IS NOT NULL), 0) AS activated, " +
       "COALESCE(SUM(void IS NULL AND paid IS NOT NULL), 0) AS paying, " +
@@ -1174,7 +1167,7 @@ async function creatorNumbers(env, code, now) {
       "FROM creator_earnings WHERE creator = ?1) AS payable, " +
       "(SELECT COALESCE(SUM(cents), 0) FROM creator_payouts WHERE creator = ?1 AND status = 'paid') AS paidOut, " +
       "(SELECT COALESCE(SUM(CASE WHEN reversed IS NOT NULL THEN share_cents END), 0) FROM creator_earnings WHERE creator = ?1) AS reversed " +
-      "FROM referrals WHERE creator = ?1").bind(code, at).first(),
+      "FROM referrals WHERE creator = ?1").bind(code, at, iso(termOf(creator).start)).first(),
     env.DB.prepare("WITH m AS (SELECT substr(created, 1, 7) AS month, 1 AS signups, 0 AS activated, 0 AS paying, 0 AS earned " +
       "FROM referrals WHERE creator = ?1 AND void IS NULL " +
       "UNION ALL SELECT substr(activated, 1, 7), 0, 1, 0, 0 FROM referrals WHERE creator = ?1 AND void IS NULL AND activated IS NOT NULL " +
@@ -1183,32 +1176,48 @@ async function creatorNumbers(env, code, now) {
       "SELECT month, SUM(signups) AS signups, SUM(activated) AS activated, SUM(paying) AS paying, SUM(earned) AS earned " +
       "FROM m GROUP BY month ORDER BY month DESC LIMIT 6").bind(code).all(),
   ]);
-  return { ...row, clicks: row?.clicks || 0, months };
+  return { ...row, clicks: row?.clicks || 0, conversions: row?.conversions || 0, months };
 }
 
 // The signed-in creator's dashboard (/creators, functions/api/creators/[action].js me): their link and terms, their
-// numbers, and how they're paid: {code, name, url, promoCode (what their audience types at checkout, once Stripe has
-// it; else null), terms: {sharePct, months, discount, gift, holdDays, minimum}, numbers, payouts:
-// {stripe (payouts on), connect (set up), ready, next (the 1st of next month), last {cents, when, method}}}, or null
-// when the account isn't a creator.
+// numbers, their tier, and how they're paid: {code, name, url, retired (the agreement ended), promoCode (what their
+// audience types at checkout, once Stripe has it; else null), terms: {sharePct (their least), discount, gift,
+// holdDays, minimum, termStart, termEnd (days), tiers}, numbers, tier (tierView), payouts: {method, email (their
+// payout details, null until given), taxForm ("w9" | "w8ben" | null: on file), cycle (payoutCycle: the run due next or
+// now), last {cents, when}}}, or null when the account isn't a creator.
 export async function creatorDashboard(env, userId, origin, now = new Date()) {
   await setupReferrals(env);
   const creator = await env.DB.prepare("SELECT * FROM creators WHERE user_id = ?").bind(userId).first();
   if (!creator) return null;
-  const [numbers, stripeOn, last, connect] = await Promise.all([
-    creatorNumbers(env, creator.code, now), stripePayoutsOn(env),
-    env.DB.prepare("SELECT cents, paid_at, method FROM creator_payouts WHERE creator = ? AND status = 'paid' " +
+  const [numbers, last] = await Promise.all([
+    creatorNumbers(env, creator, now),
+    env.DB.prepare("SELECT cents, paid_at FROM creator_payouts WHERE creator = ? AND status = 'paid' " +
       "ORDER BY paid_at DESC LIMIT 1").bind(creator.code).first(),
-    creator.connect_id && !creator.connect_ready ? refreshConnect(env, creator) : null,
   ]);
-  const next = new Date(Date.UTC(now.getUTCFullYear(), now.getUTCMonth() + 1, 1)).toISOString();
+  const term = termOf(creator), cycle = payoutCycle(creator, now);
   return { code: creator.code, name: creator.name, url: shareUrl(origin, creator.code), retired: Boolean(creator.retired),
            promoCode: creator.promo_id && creator.discount > 0 ? creator.promo_code || null : null,
-           terms: { sharePct: creator.share_pct, months: creator.months, discount: creator.discount, gift: creator.gift,
-                    holdDays: PAYOUTS.holdDays, minimum: PAYOUTS.minimumCents },
-           numbers,
-           payouts: { stripe: stripeOn, connect: Boolean(creator.connect_id), ready: Boolean(connect?.ready ?? creator.connect_ready),
-                      next, last: last ? { cents: last.cents, when: last.paid_at, method: last.method } : null } };
+           terms: { sharePct: creator.share_pct, discount: creator.discount, gift: creator.gift, holdDays: PAYOUTS.holdDays,
+                    minimum: PAYOUTS.minimumCents, termStart: term.startDay, termEnd: term.endDay, tiers: CREATOR_TIERS },
+           numbers, tier: tierView(creator, numbers.conversions),
+           payouts: { method: creator.payout_method || null, email: creator.payout_email || null, taxForm: creator.tax_form || null,
+                      cycle: cycle.ended ? payoutCycle(creator, new Date(now.getTime() + CREATOR_TERM.cycleDays * DAY_MS)) : cycle,
+                      last: last ? { cents: last.cents, when: last.paid_at } : null } };
+}
+
+// A creator's badge on their public profile (functions/u/[handle].js, with the contribution badges; the agreement's §9
+// lets us show it and their number of Conversions): {kind, label, title, href}, or null when the account isn't a
+// creator whose agreement is on.
+export async function creatorBadge(env, userId, now = new Date()) {
+  if (!userId) return null;
+  try {
+    await setupReferrals(env);
+    const creator = await env.DB.prepare("SELECT * FROM creators WHERE user_id = ? AND retired IS NULL").bind(userId).first();
+    if (!creator) return null;
+    const { conversions } = await creatorNumbers(env, creator, now);
+    return { kind: "creator", label: conversions ? `Willo creator · ${conversions.toLocaleString("en-US")} brought in` : "Willo creator",
+             title: "A creator partner of Willo", href: "/creators" };
+  } catch (e) { return null; }
 }
 
 // The creator a signed-in account is (for its payout buttons), or null.
@@ -1224,9 +1233,9 @@ export async function applicationOf(env, userId) {
     "ORDER BY created DESC LIMIT 1").bind(userId).first();
 }
 
-// /admin's Creators tab: each creator with their numbers and what's owed, the applications waiting, the month's payout
-// list, the last commissions and payouts, players' own invites (friends joined, activated, counted, void by reason,
-// rewards given), and whether Stripe payouts are on.
+// /admin's Creators tab (Mike's, and Patrick's to read): each creator with their numbers, Conversions, tier, term and
+// what's owed, the applications waiting, the payout list, the last commissions and payouts, and players' own invites
+// (friends joined, activated, counted, void by reason, rewards given).
 export async function referralReport(env, origin, now = new Date()) {
   await setupReferrals(env);
   const at = iso(now.getTime()), month = at.slice(0, 7);
@@ -1239,8 +1248,11 @@ export async function referralReport(env, origin, now = new Date()) {
       "(SELECT COALESCE(SUM(share_cents), 0) FROM creator_earnings e WHERE e.creator = c.code AND e.reversed IS NULL) AS earned, " +
       "(SELECT COALESCE(SUM(share_cents), 0) FROM creator_earnings e WHERE e.creator = c.code AND e.reversed IS NULL " +
       "AND e.payout_id IS NULL AND e.paid_out IS NULL) AS owed, " +
-      "(SELECT COALESCE(SUM(paid_cents), 0) FROM creator_earnings e WHERE e.creator = c.code AND e.reversed IS NULL) AS brought " +
-      "FROM creators c LEFT JOIN share_codes s ON s.code = c.code LEFT JOIN users u ON u.id = c.user_id ORDER BY c.created DESC"),
+      "(SELECT COALESCE(SUM(paid_cents), 0) FROM creator_earnings e WHERE e.creator = c.code AND e.reversed IS NULL) AS brought, " +
+      "(SELECT COUNT(*) FROM creator_earnings e WHERE e.creator = c.code AND e.reversed IS NULL " +
+      "AND e.paid_at >= COALESCE(c.term_start, ?)) AS conversions " +
+      "FROM creators c LEFT JOIN share_codes s ON s.code = c.code LEFT JOIN users u ON u.id = c.user_id ORDER BY c.created DESC",
+      CREATOR_TERM.start),
     env.DB.prepare("SELECT COUNT(*) AS joined, COALESCE(SUM(activated IS NOT NULL), 0) AS activated, " +
       "COALESCE(SUM(counted), 0) AS friends, COALESCE(SUM(counted AND substr(activated, 1, 7) = ?), 0) AS month, " +
       "COALESCE(SUM(answers), 0) AS answers, COALESCE(SUM(paid IS NOT NULL), 0) AS paying, " +
@@ -1257,6 +1269,10 @@ export async function referralReport(env, origin, now = new Date()) {
   ]);
   const ledgerView = ledger.map(e => ({ ...e, state: e.reversed ? (e.payout_id || e.paid_out ? "reversed after payout" : "reversed")
     : e.payout_id || e.paid_out ? "paid" : e.payable_at > at ? "in hold" : "payable" }));
-  return { creators: creators.map(c => ({ ...c, url: shareUrl(origin, c.code) })), players, voids, rewards, applications,
-           ledger: ledgerView, payouts, payoutList: list, rules: { ...REWARDS }, payoutRules: { ...PAYOUTS } };
+  return { creators: creators.map(c => {
+             const term = termOf(c);
+             return { ...c, url: shareUrl(origin, c.code), term_start: term.startDay, term_end: term.endDay,
+                      tier: tierView(c, c.conversions) };
+           }), players, voids, rewards, applications, ledger: ledgerView, payouts, payoutList: list, rules: { ...REWARDS },
+           payoutRules: { ...PAYOUTS }, tiers: CREATOR_TIERS, term: { ...CREATOR_TERM } };
 }

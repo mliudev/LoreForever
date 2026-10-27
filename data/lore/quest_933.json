@@ -17,16 +17,16 @@
   "wiki": "Crown of the Earth (4)",
   "chain": []
  },
- "summary": "Crown of the Earth is an Alliance quest given by Corithras Moonrage in Dolanaar. He directs you to draw water from the moonwell near the Pools of Arlithrien, an area increasingly threatened by crazed Gnarlpine furbolgs. Completing this task uncovers how Arch Druid Fandral Staghelm rallied the night elves to raise Teldrassil in the wake of Malfurion Stormrage's disappearance.",
+ "summary": "Corithras Moonrage sends you to the Pools of Arlithrien for water as Gnarlpine furbolgs turn violent. His account of Teldrassil begins with Malfurion Stormrage's disappearance after the Third War.",
  "sections": [
   {
    "title": "A Perilous Moonwell",
-   "body": "Corithras Moonrage tasks you with taking a tourmaline phial to a moonwell resting southeast of Darnassus's entrance, along the shores of the Pools of Arlithrien. The journey is far from quiet. The once peaceful Gnarlpine furbolgs have succumbed to sudden, violent fury, ambushing travelers and harrying Sentinel patrols throughout the region. What early reports wrote off as isolated skirmishes has escalated into a pervasive threat haunting the new home of the night elves.",
+   "body": "Corithras Moonrage sends you with a tourmaline phial to a moonwell southeast of Darnassus's entrance, along the Pools of Arlithrien. The Gnarlpine furbolgs, once peaceful, now lash out with sudden violence. They ambush travelers and harry Sentinel patrols across the region. What seemed like isolated skirmishes has become a threat to the night elves' new home.",
    "spoiler": 0
   },
   {
    "title": "Fandral Staghelm's Ambition",
-   "body": "Upon receiving the filled phial, Corithras shares critical history regarding Teldrassil's creation. Following the Third War, Shan'do Malfurion Stormrage vanished, leaving the Cenarion druids leaderless and fractured. In his absence, Arch Druid Fandral Staghelm seized the mantle of leadership. Staghelm persuaded the Circle of Ancients in Darkshore that the night elves could not afford idle mourning; they needed to reclaim their lost immortality and heal their civilization by planting a massive new World Tree.",
+   "body": "When you return with the filled phial, Corithras tells you how Teldrassil came to be. After the Third War, Shan'do Malfurion Stormrage vanished, leaving the Cenarion druids without a leader and divided. Arch Druid Fandral Staghelm took the mantle of leadership in his absence. He urged the Circle of Ancients in Darkshore to set aside their mourning. The night elves, he argued, had to regain their lost immortality and heal their civilization by planting a vast new World Tree.",
    "spoiler": 0
   }
  ],
@@ -38,7 +38,7 @@
     "moonwell location",
     "where to fill phial"
    ],
-   "answer": "The moonwell is located southeast of the main entrance to Darnassus, situated along the southern shores of the Pools of Arlithrien."
+   "answer": "The moonwell lies southeast of Darnassus's main entrance, along the southern shores of the Pools of Arlithrien."
   },
   {
    "q": "Why are the Gnarlpine furbolgs attacking?",
@@ -47,7 +47,7 @@
     "gnarlpine aggressive",
     "why furbolgs attack"
    ],
-   "answer": "The Gnarlpine were traditionally a peaceful kin of bear-men, but a dark, mindless rage has recently consumed them across Teldrassil. The Sentinels initially dismissed the early attacks as isolated incidents, but the corruption has spread rapidly, turning them into a constant menace to nearby settlements and patrols."
+   "answer": "The Gnarlpine furbolgs, once a peaceful kin of bear-men, have been consumed by a dark, mindless rage across Teldrassil. Sentinels first dismissed the attacks as isolated incidents, but they have spread into a constant danger to nearby settlements and patrols."
   },
   {
    "q": "What happened to Malfurion Stormrage?",
@@ -56,7 +56,7 @@
     "what happened to stormrage",
     "malfurion missing"
    ],
-   "answer": "Shan'do Malfurion Stormrage vanished without explanation following the Third War. Even to this day, neither the Cenarion druids nor the night elf leadership know what became of him."
+   "answer": "Shan'do Malfurion Stormrage vanished without explanation after the Third War. The Cenarion druids and night elf leaders do not know what became of him."
   },
   {
    "q": "Who decided to plant Teldrassil?",
@@ -65,17 +65,17 @@
     "staghelm world tree",
     "why was teldrassil grown"
    ],
-   "answer": "With Malfurion missing, Arch Druid Fandral Staghelm stepped up to guide the druids. He convinced the Circle of Ancients in Darkshore to support raising a new World Tree, arguing it was essential for the kaldorei to rebuild and regain the immortality lost during the destruction of Nordrassil."
+   "answer": "With Malfurion missing, Arch Druid Fandral Staghelm took the lead among the druids. He persuaded the Circle of Ancients in Darkshore to raise a new World Tree, saying the kaldorei needed it to rebuild and regain the immortality lost with Nordrassil's destruction."
   }
  ],
  "angles": [
   {
    "target": "race:NightElf",
-   "text": "This leg of your journey explains the controversial political momentum that brought Teldrassil into existence following Malfurion's sudden disappearance."
+   "text": "As a night elf, you hear how Teldrassil came to be after Malfurion's sudden disappearance, and the political choice behind its planting."
   },
   {
    "target": "class:Druid",
-   "text": "The Cenarion Circle's fracture under Fandral Staghelm's leadership becomes clearer as Corithras recounts the desperate push to regain ancient immortality."
+   "text": "As a druid, you hear how Fandral Staghelm's leadership left the Cenarion Circle divided as he pressed to regain the night elves' ancient immortality."
   }
  ],
  "keywords": [
@@ -99,5 +99,6 @@
  ],
  "attribution": [
   "Crown of the Earth (4)"
- ]
+ ],
+ "style": 1
 }

@@ -17,16 +17,16 @@
   "wiki": "Glyphic Tablet (quest)",
   "chain": []
  },
- "summary": "Glyphic Tablet is an introductory class quest in the Valley of Trials directed at novice Horde mages. Dispatched via Gornek after proving one's strength, it directs young spellcasters to Mai'ah, a troll mage trainer stationed outside the Den.",
+ "summary": "In the Valley of Trials, a Glyphic Tablet sends young Horde mages to Mai'ah. Gornek passes it to them after they prove their strength, and the troll trainer waits outside the Den.",
  "sections": [
   {
    "title": "A Message in Inscribed Stone",
-   "body": "After proving their basic mettle against the local wildlife in the Valley of Trials, fledgling mages are presented with an inscribed tablet passed along by Gornek. The missive originates from Mai'ah, the valley's resident mage trainer, bidding the initiate to seek her out by the entrance to the Den when they are ready to pursue their formal arcane studies.",
+   "body": "You have proved your strength against the Valley of Trials' wildlife, and Gornek gives you an inscribed tablet. Mai'ah, the valley's mage trainer, sent it. She asks you to find her by the Den's entrance when you are ready to begin your arcane studies.",
    "spoiler": 0
   },
   {
    "title": "The Dangers of the Unseen",
-   "body": "When greeted, Mai'ah wastes little time on formalities, cutting straight to the sober reality of arcane power. While acknowledging that mages wield world-shaping potential, she warns that their greatest threat is neither rival warriors nor enemy races, but the unseen corrupting lure of magic itself. She counsels humility and patience, cautioning that unchecked sorcery easily tricks a practitioner into overestimating their own mastery.",
+   "body": "Mai'ah speaks plainly about the power mages wield and the danger that comes with it. She warns that their greatest threat is magic's unseen pull toward corruption, not rival warriors or enemy races. Humility and patience matter, she says, because unchecked sorcery can make a mage believe they have mastered more than they have.",
    "spoiler": 0
   }
  ],
@@ -38,7 +38,7 @@
     "where do i get glyphic tablet",
     "glyphic tablet starter"
    ],
-   "answer": "Gornek, the valley's initial questgiver, passes the tablet to you once you have completed your preliminary task of clearing mottled boars in the Valley of Trials."
+   "answer": "Gornek gives you the tablet after you clear the mottled boars in the Valley of Trials."
   },
   {
    "q": "Who is Mai'ah?",
@@ -47,7 +47,7 @@
     "mai'ah lore",
     "troll mage trainer"
    ],
-   "answer": "Mai'ah is a Darkspear troll mage trainer stationed just outside the entrance of the Den in the Valley of Trials. She instructs beginning Horde mages in early spells and offers strict warnings about the perils of arcane corruption."
+   "answer": "Mai'ah is a Darkspear troll mage trainer outside the Den in the Valley of Trials. She teaches beginning Horde mages early spells and warns them about arcane corruption."
   },
   {
    "q": "Where is Mai'ah located?",
@@ -56,7 +56,7 @@
     "maiah location",
     "find maiah"
    ],
-   "answer": "Mai'ah stands just outside the entrance to the Den, to the right of the tunnel mouth, in the northern section of the Valley of Trials."
+   "answer": "Mai'ah waits just outside the Den's entrance, to the right of the tunnel mouth in the northern Valley of Trials."
   },
   {
    "q": "What warning does Mai'ah give about magic?",
@@ -65,7 +65,7 @@
     "magic corruption lore",
     "what does maiah say"
    ],
-   "answer": "Mai'ah warns that magic has an inherent corrupting influence that cannot be easily stopped. She emphasizes that mages should fear the unseen temptations and delusions of power brought by the arcane rather than physical enemies like orcs, elves, or dwarves."
+   "answer": "Mai'ah warns that magic can corrupt those who wield it. She says mages should fear its unseen temptations and delusions of power more than physical enemies such as orcs, elves, or dwarves."
   },
   {
    "q": "Do other classes receive the Glyphic Tablet?",
@@ -73,7 +73,7 @@
     "can other classes get glyphic tablet",
     "is glyphic tablet mage only"
    ],
-   "answer": "No. The Glyphic Tablet is designated strictly for novice mages. Other classes receive distinct introductory summons\u2014such as runes, scrolls, or sigils\u2014tailored to their respective trainers."
+   "answer": "No. The Glyphic Tablet is for novice mages. Other classes receive different introductory summons, such as runes, scrolls, or sigils, suited to their trainers."
   },
   {
    "q": "What prerequisite must be met to receive this tablet?",
@@ -81,21 +81,21 @@
     "glyphic tablet requirements",
     "prereq for glyphic tablet"
    ],
-   "answer": "You must first complete the opening quest 'Cutting Teeth' for Gornek by slaying mottled boars across the red dirt flats of the Valley of Trials."
+   "answer": "You must first complete Gornek's opening task by slaying mottled boars across the red dirt flats of the Valley of Trials."
   }
  ],
  "angles": [
   {
    "target": "class:Mage",
-   "text": "This quest marks your formal welcome into the ranks of Horde mages, introducing you to the valley's trainer and emphasizing the disciplined mindset needed to control raw magic."
+   "text": "As a mage, you receive a formal welcome among Horde spellcasters from the valley's trainer. Mai'ah teaches the discipline needed to control raw magic."
   },
   {
    "target": "race:Troll",
-   "text": "For Darkspear trolls taking up the arcane path, receiving instruction from Mai'ah reflects the tribe's growing adaptation of formalized spellcasting alongside their traditional spiritual rites."
+   "text": "As a Darkspear troll, your training with Mai'ah reflects your tribe's growing use of formal spellcasting alongside its traditional spiritual rites."
   },
   {
    "target": "race:Orc",
-   "text": "Mages are a rare sight in an orc culture long shaped by shamans and warriors, so an orc who takes up the arcane under Mai'ah walks a path few of their people have tried."
+   "text": "As an orc, you take up a rare path under Mai'ah. Orcish culture has long been shaped by shamans and warriors, and few of your people have tried the arcane."
   }
  ],
  "keywords": [
@@ -118,5 +118,6 @@
  ],
  "attribution": [
   "Glyphic Tablet (quest)"
- ]
+ ],
+ "style": 1
 }

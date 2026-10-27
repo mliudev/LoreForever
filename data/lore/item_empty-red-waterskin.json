@@ -10,11 +10,11 @@
    "quest:1536"
   ]
  },
- "summary": "The Empty Red Waterskin is a leather vessel entrusted to fledgling shaman during their elemental trials. It is used to collect fresh, untainted water from a surprising source in the plagued town of Tarren Mill.",
+ "summary": "In Tarren Mill, an empty red waterskin is bound for a well untouched by blight. Brine gives it to shaman initiates for their elemental trials.",
  "sections": [
   {
    "title": "A Vessel for Pure Water",
-   "body": "Given by the hermit Brine in the Barrens, this plain red skin serves a vital spiritual purpose in the Call of Water trials. Initiates are tasked with carrying it far across the sea to the Hillsbrad Foothills, seeking out the town of Tarren Mill. Though the town is occupied by the Forsaken and steeped in undeath, a lone well in its center continues to draw sweet, pristine spring water. Filling the red waterskin captures a vital sample of life persevering amidst blight, which Brine blends into a vial of purest water for the initiate's trial.",
+   "body": "Brine gives shaman initiates this plain red skin for the Call of Water trials. They carry it across the sea to Tarren Mill in the Hillsbrad Foothills. The Forsaken occupy the town, but its central well still draws fresh spring water. The filled skin brings a sample to Brine, who blends the water into a vial of purest water for the initiate’s trial.",
    "spoiler": 0
   }
  ],
@@ -25,7 +25,7 @@
     "empty red waterskin use",
     "what to do with red waterskin"
    ],
-   "answer": "It is used by shaman on the Call of Water questline to collect spring water from the well in Tarren Mill, transforming it into a Filled Red Waterskin."
+   "answer": "Shaman use the skin during the Call of Water trials to gather spring water from Tarren Mill’s well. The water turns it into a Filled Red Waterskin."
   },
   {
    "q": "Who provides this waterskin?",
@@ -33,7 +33,7 @@
     "who gives red waterskin",
     "red waterskin questgiver"
    ],
-   "answer": "Brine, an orc shaman hermit living on a hill in the southern Barrens, gives it to shaman initiates undergoing the elemental trials."
+   "answer": "Brine, an orc shaman hermit on a hill in the southern Barrens, gives the waterskin to shaman initiates undergoing elemental trials."
   },
   {
    "q": "Why gather water from Tarren Mill specifically?",
@@ -41,7 +41,7 @@
     "why tarren mill water",
     "tarren mill well lore"
    ],
-   "answer": "Despite Tarren Mill falling under the control of the Forsaken, the central well remains completely uncorrupted. Brine sees this pure spring as a powerful elemental symbol of hope and enduring life surviving in an unhallowed land."
+   "answer": "Tarren Mill is under Forsaken control, yet its central well remains uncorrupted. Brine sees the pure spring as a sign of hope and life enduring in an unhallowed land."
   },
   {
    "q": "What happens after the waterskin is filled?",
@@ -49,17 +49,17 @@
     "what next red waterskin",
     "filled red waterskin turn in"
    ],
-   "answer": "Once filled at the well, the skin must be brought back to Brine in the Barrens, who combines the water with other rare samples into a vial of purest water, from which Islen Waterseer creates the Water Sapta."
+   "answer": "After filling the skin at the well, you bring it back to Brine in the Barrens. He blends its water with other rare samples into a vial of purest water, which Islen Waterseer uses to create the Water Sapta."
   }
  ],
  "angles": [
   {
    "target": "class:Shaman",
-   "text": "Carrying and filling this waterskin is a foundational step in mastering the Water Totem and attuning your senses to the resilient spirits of water."
+   "text": "As a shaman, you carry and fill this waterskin as a first step toward mastering the Water Totem and attuning your senses to water’s resilient spirits."
   },
   {
    "target": "race:Orc",
-   "text": "Brine compares the pure well in Tarren Mill to Warchief Thrall\u2014a beacon of unyielding strength and hope enduring through immense suffering."
+   "text": "As an orc, you hear Brine compare the pure well in Tarren Mill to Warchief Thrall, a beacon of strength and hope enduring immense suffering."
   }
  ],
  "keywords": [
@@ -83,5 +83,6 @@
  "attribution": [
   "Empty Red Waterskin",
   "Call of Water (4)"
- ]
+ ],
+ "style": 1
 }

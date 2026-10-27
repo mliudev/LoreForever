@@ -8,11 +8,11 @@
   "wiki": "Magga",
   "refs": 1
  },
- "summary": "Magga is an orc resident living in the Valley of Trials within Durotar. Stationed near the Den, she serves as a welcoming face for newly arrived Horde adventurers beginning their journey in the valley.",
+ "summary": "Near the Den in the Valley of Trials, Magga welcomes new arrivals. The orc lives in Durotar and greets Horde travelers beginning their journey through the valley.",
  "sections": [
   {
    "title": "A Welcoming Face in the Valley of Trials",
-   "body": "The Valley of Trials is the first taste of the world for young orcs and darkspear trolls. Positioned near the Den, Magga greets new arrivals to the valley. While she keeps a low profile among the valley's busy trainers and recruits, she helps bind the small camp together.",
+   "body": "Young orcs and Darkspear trolls first meet the wider world in the Valley of Trials. Near the Den, Magga greets those arriving in the valley. Trainers and recruits keep busy nearby, while Magga helps bring the small camp together.",
    "spoiler": 0
   }
  ],
@@ -24,7 +24,7 @@
     "magga valley of trials",
     "who is magga"
    ],
-   "answer": "Magga is an orc civilian stationed in the Valley of Trials, Durotar. She stands near the Den, welcoming new Horde travelers."
+   "answer": "Magga is an orc civilian near the Den in the Valley of Trials, Durotar, where she welcomes new Horde travelers."
   },
   {
    "q": "What is Magga's connection to Innkeeper Grosk?",
@@ -32,7 +32,7 @@
     "magga and grosk",
     "magga innkeeper"
    ],
-   "answer": "No special tie between them is recorded. Magga stays in the Valley of Trials, while Innkeeper Grosk keeps the inn at Razor Hill, offering travelers food, drink and a place to bind their hearthstones."
+   "answer": "Magga has no special tie to Innkeeper Grosk. She stays in the Valley of Trials, while Innkeeper Grosk keeps the inn at Razor Hill, where travelers can find food, drink, and a place to bind their hearthstones."
   },
   {
    "q": "Does Magga offer any quests?",
@@ -40,13 +40,13 @@
     "magga quests",
     "welcome quest"
    ],
-   "answer": "Magga receives the 'Welcome!' errand: adventurers who carry a Valley of Trials Gift Voucher hand it to her, and she welcomes them to Azeroth with a small companion as a gift."
+   "answer": "Magga receives the 'Welcome!' errand. Adventurers bring her a Valley of Trials Gift Voucher, and she welcomes them to Azeroth with a small companion as a gift."
   }
  ],
  "angles": [
   {
    "target": "faction:Horde",
-   "text": "For fresh recruits arriving in the harsh Valley of Trials, Magga provides a reassuring welcome to Durotar."
+   "text": "As a fresh Horde recruit in the harsh Valley of Trials, you receive a reassuring welcome to Durotar from Magga."
   }
  ],
  "keywords": [
@@ -65,5 +65,6 @@
  ],
  "attribution": [
   "Magga"
- ]
+ ],
+ "style": 1
 }

@@ -17,16 +17,16 @@
   "wiki": "Water Sapta (quest)",
   "chain": []
  },
- "summary": "Water Sapta is a transitional task bestowed upon young Horde shaman by Islen Waterseer along the coast of the Barrens. Imbued with a ritual brew, the shaman is sent across the Great Sea to the blighted lands of Silverpine Forest to face a corrupted spring.",
+ "summary": "At Islen Waterseer's shore, a young Horde shaman receives Water Sapta for a journey across the Great Sea. The trial leads from the Barrens to Silverpine Forest, where a spring has been corrupted.",
  "sections": [
   {
    "title": "A Vision of Water",
-   "body": "In the elemental traditions of the Horde's shaman, a sapta is an alchemical draught crafted to attune the senses directly to the spirits of the world. While common eyes perceive only tranquil streams or stagnant ponds, drinking a sapta pierces the veil of the physical plane, revealing the elemental beings dwelling within the current.",
+   "body": "Among Horde shaman, a sapta is a draught made to open the senses to the world's spirits. To ordinary eyes, a stream may look calm and a pond still. Drink a sapta, and the veil of the physical world parts, showing the elementals that dwell in the water.",
    "spoiler": 0
   },
   {
    "title": "The Road to Silverpine",
-   "body": "Having demonstrated their dedication to the spirits, the shaman receives the concoction directly from Islen Waterseer, a hermit dwelling along the desolate shores south of Ratchet. Rather than testing the sapta in the arid valleys of Kalimdor, Islen commands the initiate to journey far across the Great Sea to the shadowy, forsaken woods of Silverpine Forest to confront an elemental corruption poisoning Lordaeron's streams.",
+   "body": "Islen Waterseer gives the shaman the draught after they have shown their devotion to the spirits. She lives alone on the barren shore south of Ratchet. She sends the initiate across the Great Sea, away from Kalimdor's dry valleys, to Silverpine Forest. There, an elemental corruption is poisoning Lordaeron's streams, and the shaman must face it.",
    "spoiler": 0
   }
  ],
@@ -38,7 +38,7 @@
     "water sapta meaning",
     "what does sapta do"
    ],
-   "answer": "A sapta is a ceremonial elixir prepared by shamanic mentors. When consumed, it heightens spiritual perception, allowing the imbiber to see and communicate directly with elemental spirits that are otherwise invisible to mortal eyes."
+   "answer": "A sapta is a ceremonial draught prepared by shamanic mentors. Drinking it sharpens spiritual sight, so the shaman can see and speak with elementals hidden from mortal eyes."
   },
   {
    "q": "Who is Islen Waterseer?",
@@ -46,7 +46,7 @@
     "islen waterseer lore",
     "who is islen"
    ],
-   "answer": "Islen Waterseer is a master shaman who lives in solitary contemplation along the eastern coast of the Barrens, south of the Merchant Coast. She guides young Horde shaman along the arduous path to commune with and bind the element of water."
+   "answer": "Islen Waterseer is a master shaman who lives alone on the Barrens' eastern coast, south of the Merchant Coast. She guides young Horde shaman on the hard path to commune with and bind the element of water."
   },
   {
    "q": "Why must the shaman travel to Silverpine Forest?",
@@ -54,7 +54,7 @@
     "why silverpine",
     "why go to eastern kingdoms"
    ],
-   "answer": "The elemental spirits of water are suffering from widespread affliction in Silverpine Forest. To complete their initiation, the shaman must bear the sapta across the sea to gaze upon a corrupted water source firsthand and cleanse the taint."
+   "answer": "Water's elementals are suffering from a widespread affliction in Silverpine Forest. To complete their initiation, shaman carry the sapta across the sea and see a corrupted water source firsthand, then cleanse its taint."
   },
   {
    "q": "What happens after drinking the sapta?",
@@ -62,7 +62,7 @@
     "drinking sapta",
     "sapta effect"
    ],
-   "answer": "Consuming the water sapta allows the shaman to witness the corrupted water elementals lurking within Silverpine's tainted pools, opening the way to confront the source of decay."
+   "answer": "After drinking the sapta, shaman can see the corrupted water elementals in Silverpine's tainted pools. That sight opens the way to confront the source of the decay."
   },
   {
    "q": "Is this trial required for all Horde shaman?",
@@ -70,7 +70,7 @@
     "who takes this quest",
     "is this class quest"
    ],
-   "answer": "Yes. Orc, tauren, and troll shaman alike must heed the Call of Water, receiving this sapta as an essential rite of passage before they can earn their Water Totem."
+   "answer": "Yes. Orc, tauren, and troll shaman all heed the Call of Water and receive the sapta as a rite of passage before earning their Water Totem."
   },
   {
    "q": "Where in Silverpine is the corrupted pool located?",
@@ -78,17 +78,17 @@
     "silverpine pool location",
     "where is the water pool"
    ],
-   "answer": "The corrupted spring lies along the coast of Silverpine Forest, west of the Sepulcher."
+   "answer": "The corrupted spring lies on Silverpine Forest's coast, west of the Sepulcher."
   }
  ],
  "angles": [
   {
    "target": "class:Shaman",
-   "text": "The Water Sapta marks a critical turning point in your elemental trials, opening your eyes to the spirit world before granting command over your healing Water Totem."
+   "text": "As a shaman, you take a turning step in your elemental trials with the Water Sapta. It opens your eyes to the spirit world before you gain command of your healing Water Totem."
   },
   {
    "target": "faction:Horde",
-   "text": "The trial demonstrates the cross-continental unity of the new Horde, sending initiates from the sun-bleached plains of Kalimdor into the haunted woods of Lordaeron."
+   "text": "As a member of the Horde, you see this trial send initiates from Kalimdor's sun-bleached plains to Lordaeron's haunted woods."
   }
  ],
  "keywords": [
@@ -106,5 +106,6 @@
  ],
  "attribution": [
   "Water Sapta (quest)"
- ]
+ ],
+ "style": 1
 }

@@ -10,16 +10,16 @@
    "quest:933"
   ]
  },
- "summary": "The Filled Tourmaline Phial holds enchanted waters drawn from the moonwell bordering the Pools of Arlithrien in southern Teldrassil. Collected at the request of Corithras Moonrage, the water serves as part of an effort to monitor the health and balance of the growing World Tree.",
+ "summary": "At the Pools of Arlithrien, the Filled Tourmaline Phial carries moonwell water for Corithras Moonrage. Its waters help him watch the health and balance of the growing World Tree.",
  "sections": [
   {
    "title": "Waters of Arlithrien",
-   "body": "The Tourmaline Phial is prepared specifically to draw water from the moonwell located southeast of the road to Darnassus, on the shores of the Pools of Arlithrien. Gathering water from this shrine has become fraught with peril due to the sudden aggression of the Gnarlpine furbolgs, peaceful neighbors who have rapidly deteriorated into violent madness. Corithras Moonrage tasks travelers with braving the hostile groves to secure this water, aiming to diagnose the deepening corruption unsettling the land.",
+   "body": "The Filled Tourmaline Phial draws water from a moonwell southeast of the road to Darnassus, on the shores of the Pools of Arlithrien. Reaching the shrine has grown dangerous as the Gnarlpine furbolgs, once peaceful neighbors, turn violently mad. Corithras Moonrage asks travelers to brave the hostile groves and bring back the water. He hopes it will help him find the deepening corruption unsettling the land.",
    "spoiler": 0
   },
   {
    "title": "The Roots of Teldrassil",
-   "body": "Bringing the phial back to Dolanaar prompts Corithras Moonrage to reflect on the genesis of the boughs above. Following the disappearance of Shan'do Malfurion Stormrage, Archdruid Fandral Staghelm rallied the Circle of Ancients across the sea in Darkshore to plant Teldrassil in hopes of regaining their lost immortality. The waters carried within the gemmed phial reflect the state of that sacred experiment\u2014an ambition now tainted by an unexplained sickness spreading into beasts and furbolgs alike.",
+   "body": "Back in Dolanaar, Corithras Moonrage speaks of how Teldrassil came to be. After Shan'do Malfurion Stormrage disappeared, Archdruid Fandral Staghelm rallied the Circle of Ancients across the sea in Darkshore to plant the tree and seek the return of their lost immortality. The water in the phial reflects the state of that sacred undertaking. An unexplained sickness now spreads among the beasts and furbolgs.",
    "spoiler": 1
   }
  ],
@@ -31,7 +31,7 @@
     "tourmaline phial purpose",
     "why fill the phial"
    ],
-   "answer": "It is an enchanted container of moonwell water requested by Corithras Moonrage in Dolanaar. He gathers waters from moonwells across Teldrassil to study the spread of corruption and explain the history of the World Tree to newly arrived defenders."
+   "answer": "Corithras Moonrage in Dolanaar asks for the Filled Tourmaline Phial, which carries enchanted moonwell water. He gathers water from moonwells across Teldrassil to study the spread of corruption and explain the World Tree's history to newly arrived defenders."
   },
   {
    "q": "Where is the moonwell for the Tourmaline Phial located?",
@@ -40,7 +40,7 @@
     "pools of arlithrien moonwell",
     "arlithrien well location"
    ],
-   "answer": "The moonwell is located southeast of the main gate of Darnassus, situated along the shores of the Pools of Arlithrien in southwestern Teldrassil. The area is heavily contested by enraged Gnarlpine furbolgs."
+   "answer": "The moonwell lies southeast of Darnassus's main gate, along the shores of the Pools of Arlithrien in southwestern Teldrassil. Enraged Gnarlpine furbolgs contest the area."
   },
   {
    "q": "Why are the furbolgs near the moonwell attacking?",
@@ -49,7 +49,7 @@
     "furbolg hostility arlithrien",
     "crazed gnarlpine"
    ],
-   "answer": "The Gnarlpine furbolgs, once peaceful bear-men living alongside the night elves, have fallen prey to a creeping corruption afflicting Teldrassil. Their sudden descent into mindless violence is one of several symptoms plaguing the young World Tree."
+   "answer": "The Gnarlpine furbolgs once lived peacefully alongside the night elves, but a creeping corruption afflicts them. Their sudden violence is one of several signs of sickness in the young World Tree."
   },
   {
    "q": "Who is Corithras Moonrage?",
@@ -57,17 +57,17 @@
     "corithras role",
     "corithras dolanaar"
    ],
-   "answer": "Corithras Moonrage is a night elf scholar and caretaker stationed in Dolanaar. He guides young adventurers through the rite known as the Crown of the Earth, teaching them about the history of the night elves, the planting of Teldrassil, and the vanishing of Malfurion Stormrage."
+   "answer": "Corithras Moonrage is a night elf scholar and caretaker in Dolanaar. He guides young adventurers through the rite known as the Crown of the Earth, teaching the history of the night elves, the planting of Teldrassil, and Malfurion Stormrage's disappearance."
   }
  ],
  "angles": [
   {
    "target": "class:Druid",
-   "text": "For druids, carrying the phial touches directly upon the controversial legacy of Archdruid Fandral Staghelm, who pushed to plant Teldrassil during Shan'do Stormrage's unexplained absence."
+   "text": "As a druid, you carry a phial tied to Archdruid Fandral Staghelm's controversial legacy. He pushed to plant Teldrassil during Shan'do Stormrage's unexplained absence."
   },
   {
    "target": "race:NightElf",
-   "text": "The moonwell waters are an essential spiritual lifeline for the kaldorei, making the corruption of the surrounding Gnarlpine groves a deeply unsettling omen for their new home."
+   "text": "As a night elf, you know moonwell waters are a spiritual lifeline for the kaldorei. Corruption in the Gnarlpine groves surrounding this moonwell is an unsettling omen for your new home."
   }
  ],
  "keywords": [
@@ -93,5 +93,6 @@
  "attribution": [
   "Filled Tourmaline Phial",
   "Crown of the Earth (4)"
- ]
+ ],
+ "style": 1
 }

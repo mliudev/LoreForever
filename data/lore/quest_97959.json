@@ -1,0 +1,70 @@
+{
+ "key": "quest:97959",
+ "type": "quest",
+ "name": "Camping 101: Mining",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   97959
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "You learn to make a Lodestone for a wilderness camp. A campfire is also needed before you can start your camp.",
+ "sections": [
+  {
+   "title": "A Place to Camp",
+   "body": "You can now craft your own Lodestone. To try it out, head into the wilderness; most folk do not want camps set up in the center of town. You will also need a campfire before starting your camp. A cook can teach you how to make one.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What can I make now?",
+   "aliases": [
+    "lodestone recipe",
+    "make lodestone"
+   ],
+   "answer": "You can now craft your own Lodestone."
+  },
+  {
+   "q": "Where should I try the Lodestone?",
+   "aliases": [
+    "where to camp",
+    "test lodestone"
+   ],
+   "answer": "Head into the wilderness to try it out, since most folk do not care for camps in the center of town."
+  },
+  {
+   "q": "What do I need before starting a camp?",
+   "aliases": [
+    "campfire needed",
+    "camp setup"
+   ],
+   "answer": "You need a campfire before starting your camp."
+  },
+  {
+   "q": "Who can teach me to make a campfire?",
+   "aliases": [
+    "learn campfire",
+    "who teaches fire"
+   ],
+   "answer": "A cook can teach you to make a campfire."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "campfire",
+  "camping",
+  "cook",
+  "lodestone",
+  "mining",
+  "wilderness"
+ ],
+ "related": [],
+ "style": 1,
+ "attribution": [
+  "In-game quest text: Camping 101: Mining"
+ ]
+}

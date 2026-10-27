@@ -10,11 +10,11 @@
    "quest:3521"
   ]
  },
- "summary": "Hyacinth Mushrooms are distinctive fungi found sprouting at the roots of trees throughout Shadowglen on Teldrassil. Prized by local night elf herbalists for their medicinal properties, they also happen to be favored food and forage for the mischievous grell and grellkin.",
+ "summary": "In Shadowglen, Hyacinth Mushrooms grow at the roots of trees across Teldrassil. Night elf herbalists use them for medicine, and grell and grellkin forage for them.",
  "sections": [
   {
    "title": "Flora of Shadowglen",
-   "body": "Hyacinth Mushrooms grow abundantly across Shadowglen, flourishing in the damp shadows at the bases of trees, mossy stones, and the sprawling roots of Aldrassil. While useful in woodland remedies, they have also caught the attention of the corrupted grell, who frequently hoard them. When young night elf sentinels or trainees are afflicted by local venomous fauna\u2014such as the spiders of Shadowthread Cave\u2014these mushrooms serve as a core component in soothing draughts and antivenoms concocted by forest healers.",
+   "body": "Hyacinth Mushrooms grow in Shadowglen among the trees and roots of Aldrassil. Forest healers use them in remedies for young night elf sentinels and trainees harmed by venomous creatures. The spiders of Shadowthread Cave are among the dangers they face, and the mushrooms go into soothing draughts and antivenoms. Corrupted grell also hoard them.",
    "spoiler": 0
   }
  ],
@@ -26,7 +26,7 @@
     "what does it do",
     "iverron cure"
    ],
-   "answer": "Dirania Silvershine uses them as a vital ingredient to concoct an antidote for Iverron, a young night elf who was bitten and poisoned by venomous spiders while exploring Shadowthread Cave."
+   "answer": "Dirania Silvershine uses Hyacinth Mushrooms to make an antidote for Iverron, a young night elf poisoned by venomous spiders while exploring Shadowthread Cave."
   },
   {
    "q": "Where do Hyacinth Mushrooms grow?",
@@ -35,7 +35,7 @@
     "where to find hyacinth mushroom",
     "shadowglen mushrooms"
    ],
-   "answer": "They sprout directly on the ground near the trunks and roots of large trees, as well as beside boulders throughout the secluded vale of Shadowglen on Teldrassil."
+   "answer": "Hyacinth Mushrooms grow on the ground near large tree trunks and roots, and beside boulders in Shadowglen on Teldrassil."
   },
   {
    "q": "Why do the grell carry Hyacinth Mushrooms?",
@@ -44,7 +44,7 @@
     "why do grell have them",
     "grellkin mushrooms"
    ],
-   "answer": "The mischievous grell and grellkin infesting southern Shadowglen have taken a peculiar liking to the mushrooms, foraging and hoarding them in their camps."
+   "answer": "Grell and grellkin in southern Shadowglen forage for Hyacinth Mushrooms and hoard them in their camps."
   },
   {
    "q": "Are Hyacinth Mushrooms poisonous themselves?",
@@ -52,17 +52,17 @@
     "is hyacinth mushroom toxic",
     "poisonous mushroom"
    ],
-   "answer": "No. Despite their bright appearance and the shady environment in which they flourish, local healers employ them safely as an ingredient in healing poultices and restorative antivenoms."
+   "answer": "No. Local healers safely use Hyacinth Mushrooms in healing poultices and antivenoms."
   }
  ],
  "angles": [
   {
    "target": "profession:Herbalism",
-   "text": "Though gathering these fungi in Shadowglen requires no formal training, any fledgling herbalist will appreciate their role in neutralizing virulent forest toxins."
+   "text": "Gathering these fungi in Shadowglen takes no formal training. A fledgling herbalist can learn how they help counter forest toxins."
   },
   {
    "target": "race:NightElf",
-   "text": "For young night elves training within Shadowglen, harvesting wild flora like Hyacinth Mushrooms is an early lesson in utilizing nature's bounty to sustain their kin."
+   "text": "As a young night elf training in Shadowglen, you can gather wild plants like Hyacinth Mushrooms to help sustain your kin."
   }
  ],
  "keywords": [
@@ -88,5 +88,6 @@
  "attribution": [
   "Hyacinth Mushroom",
   "Iverron's Antidote (Classic)"
- ]
+ ],
+ "style": 1
 }

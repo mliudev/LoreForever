@@ -7,16 +7,16 @@
  "meta": {
   "wiki": "Starbreeze Village"
  },
- "summary": "Starbreeze Village is an abandoned night elf settlement situated east of Dolanaar in Teldrassil. Once a tranquil woodland hamlet, it has recently fallen to the maddened furbolgs of the Gnarlpine tribe. The ruined settlement now stands as a glaring symbol of the growing corruption seeping into the roots of the World Tree.",
+ "summary": "Gnarlpine furbolgs have overrun Starbreeze Village, east of Dolanaar in Teldrassil. Once a quiet night elf hamlet, it now lies in ruins beneath the spreading corruption of the World Tree.",
  "sections": [
   {
    "title": "A Fallen Hamlet",
-   "body": "Located southeast of Shadowglen and just down the road from Dolanaar, Starbreeze Village was once home to peaceful night elf families living beneath the boughs of Teldrassil. Today, the village lies in shambles, its wooden structures overrun by aggressive Gnarlpine furbolgs. Driven wild by a sinister corruption afflicting the boughs of the World Tree, the beast-men drove the elven residents out and now defend the ruined grounds ferociously.",
+   "body": "Starbreeze Village lies southeast of Shadowglen, just down the road from Dolanaar. Peaceful night elf families once lived beneath Teldrassil’s boughs, but the village now lies in shambles. Aggressive Gnarlpine furbolgs have overrun its wooden homes. Driven wild by corruption afflicting the World Tree’s boughs, they drove out the elven residents and fiercely defend the ruined grounds.",
    "spoiler": 0
   },
   {
    "title": "The Threat of Ferocitas",
-   "body": "The Gnarlpine presence in the village is not merely an ordinary territorial raid. Lurking on the outskirts of the settlement is Ferocitas the Dream Eater, an enigmatic, corrupted entity whose presence suggests dark, foul magic is actively driving the furbolgs mad. Together with hulking beasts like Uruson who prowl the paths, these invaders make Starbreeze an active danger to travelers journeying through eastern Teldrassil.",
+   "body": "Ferocitas the Dream Eater lurks on the settlement’s outskirts, where the Gnarlpine presence is more than an ordinary territorial raid. This enigmatic, corrupted entity suggests foul magic is driving the furbolgs mad. Hulking beasts like Uruson prowl the paths with them, making Starbreeze an active danger to travelers crossing eastern Teldrassil.",
    "spoiler": 1
   }
  ],
@@ -28,7 +28,7 @@
     "why is starbreeze ruined",
     "starbreeze empty"
    ],
-   "answer": "The village was overrun when the Gnarlpine furbolgs fell prey to a spreading corruption within Teldrassil. Driven mad and violent, the furbolgs attacked the night elf inhabitants, forcing them to flee and abandon their homes."
+   "answer": "Gnarlpine furbolgs overran the village after falling prey to a spreading corruption within Teldrassil. Driven mad and violent, they attacked the night elf inhabitants and forced them to flee their homes."
   },
   {
    "q": "Who lives in Starbreeze Village now?",
@@ -37,7 +37,7 @@
     "starbreeze mobs",
     "who took over starbreeze"
    ],
-   "answer": "Hostile Gnarlpine furbolgs now occupy the village. Prominent figures among them include the wandering patrol Uruson and the corrupt figure known as Ferocitas the Dream Eater."
+   "answer": "Hostile Gnarlpine furbolgs occupy the village now. Among them are the wandering patrol Uruson and Ferocitas the Dream Eater, a corrupted figure."
   },
   {
    "q": "Where is Starbreeze Village located?",
@@ -46,7 +46,7 @@
     "starbreeze map location",
     "how to find starbreeze"
    ],
-   "answer": "Starbreeze Village is located in eastern Teldrassil, lying southeast of Shadowglen and east of Dolanaar."
+   "answer": "Starbreeze Village lies in eastern Teldrassil, southeast of Shadowglen and east of Dolanaar."
   },
   {
    "q": "Who is Ferocitas the Dream Eater?",
@@ -55,17 +55,17 @@
     "who is ferocitas",
     "ferocitas starbreeze"
    ],
-   "answer": "Ferocitas is a dangerous, corrupted creature found on the outskirts of Starbreeze Village, associated with the dark forces driving the local Gnarlpine tribe into frenzy."
+   "answer": "Ferocitas the Dream Eater is a dangerous, corrupted creature on the outskirts of Starbreeze Village. The creature is associated with the dark forces driving the local Gnarlpine tribe into a frenzy."
   }
  ],
  "angles": [
   {
    "target": "race:NightElf",
-   "text": "Seeing an elven settlement so close to Dolanaar fall into ruin is a painful reminder of Teldrassil's precarious state and the corruption gnawing at the World Tree."
+   "text": "As a night elf, seeing a settlement so close to Dolanaar in ruins is a painful reminder of Teldrassil’s precarious state and the corruption gnawing at the World Tree."
   },
   {
    "target": "class:Druid",
-   "text": "The madness consuming the Gnarlpine furbolgs and the defilement of Starbreeze Village directly challenge the Cenarion Circle's charge to restore balance to Teldrassil's wildlife."
+   "text": "As a druid, the madness consuming the Gnarlpine furbolgs and the defilement of Starbreeze Village challenge the Cenarion Circle’s charge to restore balance to Teldrassil’s wildlife."
   }
  ],
  "keywords": [
@@ -89,5 +89,6 @@
  ],
  "attribution": [
   "Starbreeze Village"
- ]
+ ],
+ "style": 1
 }

@@ -17,16 +17,16 @@
   "wiki": "The Absent Minded Prospector (5)",
   "chain": []
  },
- "summary": "This quest marks the final chapter in the search sparked by Prospector Remtravel's excavations in Darkshore. Archaeologist Flagongut in Menethil Harbor seeks to combine Remtravel's finds with his own fossil and the lost Stone of Relu to unlock the ancient relics' hidden powers.",
+ "summary": "In Darkshore, Remtravel's excavations set a search in motion. In Menethil Harbor, Archaeologist Flagongut hopes to join Remtravel's finds with his own fossil and the lost Stone of Relu to reveal the relics' hidden powers.",
  "sections": [
   {
    "title": "Cross-Continental Archaeology",
-   "body": "What began as an escort mission aiding the distracted Prospector Remtravel in the northern reaches of Darkshore leads across the Great Sea to the marshlands of the Wetlands. Flagongut's own original fossil is held by Prospector Whelgar at his excavation site in the Wetlands. Archaeologist Flagongut, reviewing the collected finds, realizes that unlocking the mysterious powers within the fossils requires a key artifact: the Stone of Relu.",
+   "body": "You once helped the distracted Prospector Remtravel during an escort through northern Darkshore. His search now reaches across the Great Sea to the Wetlands marshes, where Prospector Whelgar keeps Flagongut's original fossil at his excavation site. After reviewing the collected finds, Archaeologist Flagongut believes a key artifact, the Stone of Relu, can unlock the mysterious powers within the fossils.",
    "spoiler": 0
   },
   {
    "title": "Lost to the Marshes",
-   "body": "Before Flagongut could rendezvous with Whelgar, a pack of mottled raptors ambushed his caravan along the road, devouring the Stone of Relu. To piece the mystery together, Flagongut requires an adventurer to hunt down the predatory beasts, recover the ingested stone, and retrieve the original fossil from Whelgar's camp. With both fossils and the key assembled, the dwarven researchers hope to uncover the relics' true origin and power.",
+   "body": "Before Flagongut could meet Whelgar, mottled raptors ambushed his caravan along the road and swallowed the Stone of Relu. To piece together the mystery, Flagongut needs you to hunt the beasts, recover the stone, and retrieve his original fossil from Whelgar's camp. With both fossils and the key assembled, the dwarven researchers hope to learn the relics' true origin and power.",
    "spoiler": 1
   }
  ],
@@ -38,7 +38,7 @@
     "menethil harbor connection",
     "why send to wetlands"
    ],
-   "answer": "The Explorers' League maintains active operations across both Kalimdor and the Eastern Kingdoms. Chief Archaeologist Greywhisker sent Remtravel's fossil from Darkshore across the sea to Archaeologist Flagongut in the Wetlands, connecting the two dig sites through shared research."
+   "answer": "The Explorers' League works across Kalimdor and the Eastern Kingdoms. Chief Archaeologist Greywhisker sent Remtravel's fossil from Darkshore across the sea to Archaeologist Flagongut in the Wetlands, joining the two dig sites through shared research."
   },
   {
    "q": "What is the Stone of Relu?",
@@ -47,7 +47,7 @@
     "what is relu stone",
     "relu artifact"
    ],
-   "answer": "The Stone of Relu is an ancient relic recovered by Archaeologist Flagongut. He believes it acts as a cipher or catalyst capable of unlocking the dormant magical secrets preserved inside the fossils excavated in Darkshore and the Wetlands."
+   "answer": "The Stone of Relu is an ancient relic recovered by Archaeologist Flagongut. He believes it can act as a cipher or catalyst, unlocking dormant magical secrets preserved in the fossils excavated in Darkshore and the Wetlands."
   },
   {
    "q": "Who is Archaeologist Flagongut?",
@@ -55,7 +55,7 @@
     "flagongut",
     "who is flagongut"
    ],
-   "answer": "Archaeologist Flagongut is an operative of the dwarven Explorers' League based in Menethil Harbor. He studies ancient relics recovered from surrounding excavations and hopes to unlock the hidden power of the fossils found by Prospectors Remtravel and Whelgar."
+   "answer": "Archaeologist Flagongut is an operative of the dwarven Explorers' League, based in Menethil Harbor. He studies ancient relics from nearby excavations and hopes to unlock the hidden power in fossils found by Prospectors Remtravel and Whelgar."
   },
   {
    "q": "Who has the original fossil?",
@@ -64,7 +64,7 @@
     "who has remtravel fossil",
     "whelgar fossil"
    ],
-   "answer": "Prospector Whelgar holds Flagongut's original fossil at his excavation site in the Wetlands. Remtravel's fossil from Darkshore is the one you already delivered to Flagongut."
+   "answer": "Prospector Whelgar holds Flagongut's original fossil at his excavation site in the Wetlands. You have already delivered Remtravel's Darkshore fossil to Flagongut."
   },
   {
    "q": "Why do raptors have the Stone of Relu?",
@@ -72,7 +72,7 @@
     "raptor swallowed relic",
     "why raptors have stone"
    ],
-   "answer": "While traveling the Wetlands road to consult with Prospector Whelgar, Flagongut was ambushed by mottled raptors. In the chaos of the attack, one of the predatory beasts swallowed the stone whole."
+   "answer": "While traveling along the Wetlands road to consult Prospector Whelgar, Flagongut was ambushed by mottled raptors. In the chaos, one of the beasts swallowed the stone whole."
   },
   {
    "q": "What do the dwarves expect the fossils to do?",
@@ -80,17 +80,17 @@
     "fossil power",
     "what does the fossil do"
    ],
-   "answer": "Flagongut believes the fossils hold a hidden power and secrets of the past, and that the Stone of Relu is the key to unlocking them."
+   "answer": "Flagongut believes the fossils hold hidden power and secrets of the past, and that the Stone of Relu is the key to unlocking them."
   }
  ],
  "angles": [
   {
    "target": "race:Dwarf",
-   "text": "The quest chain exemplifies the core mission of the Explorers' League, linking remote dig sites across continents to piece together dwarven heritage and the mysteries of the Titans."
+   "text": "As a dwarf, you see the Explorers' League at work, linking distant dig sites across continents to piece together dwarven heritage and the mysteries of the Titans."
   },
   {
    "target": "faction:Alliance",
-   "text": "Alliance couriers and adventurers frequently bridge the maritime divide between the night elven lands of Darkshore and the dwarven settlements around Menethil Harbor."
+   "text": "As an Alliance adventurer, you may help bridge the sea between the night elven lands of Darkshore and the dwarven settlements around Menethil Harbor, alongside Alliance couriers."
   }
  ],
  "keywords": [
@@ -113,5 +113,6 @@
  ],
  "attribution": [
   "The Absent Minded Prospector (5)"
- ]
+ ],
+ "style": 1
 }

@@ -1,0 +1,84 @@
+{
+ "key": "quest:94946",
+ "type": "quest",
+ "name": "The Magical City of Dalaran",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   94946
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "A mage in Valanaar sends you from Zephras Isle to Dalaran City, where mages await your people's arrival. The city is a place to begin exploring Azeroth, though the lands beyond it are dangerous without preparation and experience.",
+ "sections": [
+  {
+   "title": "Arrival in Dalaran",
+   "body": "Recent events with the cult have kept the speaker in Valanaar, while several mages wait in Dalaran for your people. You are sent to the dock outside the lodge to board a skycutter for Dalaran City. Once there, speak with Danaaris Stargale. Your people are still getting established in the city, and the country beyond its safety can be dangerous.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is waiting in Dalaran?",
+   "aliases": [
+    "mages in dalaran",
+    "who's in dalaran",
+    "dalaran mages"
+   ],
+   "answer": "Several mages await your people's arrival in Dalaran. Danaaris Stargale is the person you are asked to speak with when you arrive."
+  },
+  {
+   "q": "Where do I travel from?",
+   "aliases": [
+    "how get to dalaran",
+    "from zephras",
+    "skycutter"
+   ],
+   "answer": "You travel from Zephras Isle to Dalaran City aboard the skycutter ship at the dock outside the lodge."
+  },
+  {
+   "q": "Why is the speaker staying in Valanaar?",
+   "aliases": [
+    "why stay valanaar",
+    "cult changed plans",
+    "valanaar mage"
+   ],
+   "answer": "Recent events with the cult changed the speaker's plans, so they intend to remain in Valanaar for a time."
+  },
+  {
+   "q": "Is it safe outside Dalaran?",
+   "aliases": [
+    "outside dalaran safe",
+    "danger near dalaran",
+    "dalaran outskirts"
+   ],
+   "answer": "The land beyond Dalaran can be dangerous without appropriate preparation and experience."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Skyborne",
+   "text": "As a Skyborne, you are traveling from Zephras Isle to join the mages awaiting your people's arrival in Dalaran."
+  }
+ ],
+ "keywords": [
+  "cult",
+  "dalaran",
+  "dalaran city",
+  "danaaris stargale",
+  "mages",
+  "skycutter",
+  "valanaar",
+  "zephras isle"
+ ],
+ "related": [
+  "zone:zephras",
+  "subzone:dalaran"
+ ],
+ "style": 1,
+ "attribution": [
+  "In-game quest text: The Magical City of Dalaran"
+ ]
+}

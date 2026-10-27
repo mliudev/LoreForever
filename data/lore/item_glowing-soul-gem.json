@@ -10,16 +10,16 @@
    "quest:970"
   ]
  },
- "summary": "A Glowing Soul Gem is a dark ritual artifact carried by operatives of the Cult of the Dark Strand in northern Ashenvale. Imbued with shadowy sorcery, the stone traps the spirit of an unwitting victim to fuel the cult's sinister operations.",
+ "summary": "In Ordil'Aran, the Glowing Soul Gem serves the Cult of the Dark Strand's work in northern Ashenvale. Shadow sorcery fills the stone, which holds the spirit of an unwitting victim.",
  "sections": [
   {
    "title": "A Vessel of Dark Sorcery",
-   "body": "Northeast of Maestra's Post, in the shadowed ruins of Ordil'Aran, members of the Cult of the Dark Strand wield dark sorcery under the watchful eyes of their shadowy masters. Among their ranks, operatives carry Glowing Soul Gems\u2014vessels enchanted to trap and torment the souls of the dead. Rather than mere decorative trinkets, these stones act as conduits of magical energy, anchoring bound spirits to serve the cult's shadowy ends.",
+   "body": "Northeast of Maestra's Post, the ruins of Ordil'Aran shelter members of the Cult of the Dark Strand and their shadowy masters. The cult's operatives carry Glowing Soul Gems, enchanted vessels that trap and torment the souls of the dead. These stones channel magical energy and bind spirits to the cult's ends.",
    "spoiler": 0
   },
   {
    "title": "The Secrets of Ordil'Aran",
-   "body": "Seeking to dismantle the Dark Strand's influence across northern Kalimdor, Delgren the Purifier at Maestra's Post investigates these artifacts. Deciphering the enchantments woven into a Glowing Soul Gem reveals not just dark arcane formulas, but an imprisoned soul crying out from within the gem, exposing the sinister experiments linking the cultists in Ashenvale to their kin at the Tower of Althalaxx.",
+   "body": "At Maestra's Post, Delgren the Purifier investigates the gems to weaken the Dark Strand's influence across northern Kalimdor. Deciphering a Glowing Soul Gem's enchantments reveals dark arcane formulas and an imprisoned soul crying out from within. The formulas expose experiments linking the cultists in Ashenvale to their kin at the Tower of Althalaxx.",
    "spoiler": 1
   }
  ],
@@ -31,7 +31,7 @@
     "soul gem darkshore",
     "glowing soul gem lore"
    ],
-   "answer": "It is an enchanted soulstone used by the Cult of the Dark Strand. Imbued with shadow magic, it traps spirits inside to harness their essence and fuel the cult's foul sorcery."
+   "answer": "The Cult of the Dark Strand uses the Glowing Soul Gem as an enchanted soulstone. Shadow magic traps spirits inside, so the cult can harness their essence for its sorcery."
   },
   {
    "q": "Where does this soul gem come from?",
@@ -40,7 +40,7 @@
     "glowing soul gem location",
     "ordil'aran gem"
    ],
-   "answer": "It is carried by members of the Cult of the Dark Strand\u2014including their cultists, assassins, enforcers, and adepts\u2014operating out of the ruins of Ordil'Aran in northern Ashenvale."
+   "answer": "Members of the Cult of the Dark Strand carry the gem from the ruins of Ordil'Aran in northern Ashenvale. Its bearers include cultists, assassins, enforcers, and adepts."
   },
   {
    "q": "Who wants this soul gem and why?",
@@ -49,7 +49,7 @@
     "why delgren wants soul gem",
     "maestra's post soul gem"
    ],
-   "answer": "Delgren the Purifier, stationed at Maestra's Post, seeks the gem. He believes deciphering its enchantments will uncover the secret source of the cult's power and reveal what they are plotting."
+   "answer": "Delgren the Purifier at Maestra's Post seeks the gem. He believes its enchantments will reveal the secret source of the cult's power and what they are plotting."
   },
   {
    "q": "What happens when the soul gem is deciphered?",
@@ -57,17 +57,17 @@
     "what is inside soul gem",
     "ghost in soul gem"
    ],
-   "answer": "Unraveling the enchantments on the gem releases the ghost trapped within it, freeing the tormented soul and exposing the twisted depths of the Dark Strand's practices."
+   "answer": "Deciphering the gem's enchantments frees the ghost trapped within. The tormented soul is released, and the Dark Strand's practices are exposed."
   }
  ],
  "angles": [
   {
    "target": "class:Warlock",
-   "text": "Warlocks understand the art of trapping spirits within soulstones better than anyone, recognizing the Dark Strand's gem as a cruder, necromantic derivative of soul manipulation."
+   "text": "As a Warlock, you know the art of trapping spirits in soulstones. The Dark Strand's gem is a cruder, necromantic form of soul manipulation."
   },
   {
    "target": "class:Priest",
-   "text": "Priests viewing the soul gem can sense the agony of the spirit imprisoned within, recognizing the urgent need to cleanse the artifact and release the soul to peace."
+   "text": "As a Priest, you can sense the agony of the spirit imprisoned in the gem. The artifact must be cleansed so the soul can find peace."
   }
  ],
  "keywords": [
@@ -90,5 +90,6 @@
  "attribution": [
   "Glowing Soul Gem",
   "The Tower of Althalaxx (4)"
- ]
+ ],
+ "style": 1
 }

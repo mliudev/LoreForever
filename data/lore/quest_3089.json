@@ -17,16 +17,16 @@
   "wiki": "Rune-Inscribed Parchment (Classic)",
   "chain": []
  },
- "summary": "Rune-Inscribed Parchment is a missive delivered to fledgling Horde shamans beginning their journey in the Valley of Trials. Written by the trainer Shikrik, the parchment summons promising initiates to begin their formal tutelage in commune with the spirits and elements.",
+ "summary": "At the Valley of Trials, a rune-marked summons calls new shamans to Shikrik. Gornek delivers the parchment, which begins their formal training in communion with spirits and elements.",
  "sections": [
   {
    "title": "A Summons from the Spirits",
-   "body": "After proving their basic survival skills against the local wildlife, new orc shamans are handed a rune-inscribed parchment by Gornek, the overseer of the Valley of Trials. The parchment bears mystical writing from Shikrik, the valley's resident shaman trainer, requesting an audience with the newly arrived initiate.",
+   "body": "After proving their survival skills against local wildlife, new orc shamans receive a rune-inscribed parchment from Gornek, overseer of the Valley of Trials. Its mystical writing comes from Shikrik, the valley's shaman trainer, who asks to meet the newly arrived initiate.",
    "spoiler": 0
   },
   {
    "title": "The Path of the Shaman",
-   "body": "Reporting to Shikrik marks the formal beginning of a shaman's sacred duty to the Horde. Shikrik reminds the young initiate that their calling is not merely martial; they are chosen to serve as conduits for the ancestral spirits and wielders of elemental wrath. Through Shikrik, new shamans learn to channel spiritual energies, mend wounds, and call upon the natural forces of Kalimdor.",
+   "body": "Meeting Shikrik begins a shaman's sacred duty to the Horde. She teaches that shamans serve as conduits for ancestral spirits and wielders of elemental wrath. Under her guidance, new shamans learn to channel spiritual energies, mend wounds, and call upon Kalimdor's natural forces.",
    "spoiler": 0
   }
  ],
@@ -38,7 +38,7 @@
     "parchment quest",
     "shaman starter note"
    ],
-   "answer": "It is a written summons given by Gornek in the Valley of Trials to new shamans, bidding them to seek out their trainer, Shikrik, for formal instruction in the elements."
+   "answer": "Gornek gives new shamans in the Valley of Trials a written summons to seek formal instruction from their trainer, Shikrik."
   },
   {
    "q": "Who sends the parchment?",
@@ -47,7 +47,7 @@
     "shikrik note",
     "who is shikrik"
    ],
-   "answer": "The message was penned by Shikrik, the shaman trainer stationed near the dens in the Valley of Trials, awaiting individuals chosen to guide their people spiritually."
+   "answer": "Shikrik, the shaman trainer near the dens in the Valley of Trials, wrote the message and awaits those chosen to guide their people spiritually."
   },
   {
    "q": "Where do I take the parchment?",
@@ -56,7 +56,7 @@
     "where is shikrik",
     "turn in location"
    ],
-   "answer": "You take it just a short walk away inside the Valley of Trials, where Shikrik stands ready under the red crags to train orc and troll shamans."
+   "answer": "You take the parchment a short walk away within the Valley of Trials, where Shikrik waits beneath the red crags to train orc and troll shamans."
   },
   {
    "q": "Why was my character chosen to receive it?",
@@ -65,7 +65,7 @@
     "why chosen",
     "shaman calling lore"
    ],
-   "answer": "According to Shikrik, those drawn to the shamanic path are chosen to act as conduits for the ancestors and speak directly with the elemental forces of the world."
+   "answer": "Shikrik says those drawn to shamanism are chosen to serve as conduits for the ancestors and speak with the world's elemental forces."
   },
   {
    "q": "What happens after presenting the parchment?",
@@ -74,7 +74,7 @@
     "what does shikrik do",
     "after parchment"
    ],
-   "answer": "Shikrik accepts you as her student, introducing you to the path of elemental magic, ancestor commune, and the fundamentals of healing and combat."
+   "answer": "Shikrik accepts you as her student and introduces you to elemental magic, communion with ancestors, and the basics of healing and combat."
   },
   {
    "q": "Can any class complete this quest?",
@@ -83,21 +83,21 @@
     "who gets this parchment",
     "parchment for warriors"
    ],
-   "answer": "No. The Rune-Inscribed Parchment is specifically addressed to fledgling shamans. Other classes receive their own distinct summons to their respective trainers."
+   "answer": "No. The Rune-Inscribed Parchment is for new shamans. Other classes receive distinct summons to their own trainers."
   }
  ],
  "angles": [
   {
    "target": "class:Shaman",
-   "text": "This parchment represents your earliest step along the spiritual journey, cementing your sacred covenant with the spirits and the raw elements of Durotar."
+   "text": "As a shaman, this parchment marks your first step on a spiritual path, binding you to the spirits and Durotar's raw elements."
   },
   {
    "target": "race:Orc",
-   "text": "For orcs, returning to shamanism honors the ancestral traditions of Draenor that were nearly extinguished during the demonic corruption of the Old Horde."
+   "text": "As an orc, your return to shamanism honors Draenor's ancestral traditions, nearly extinguished by the demonic corruption of the Old Horde."
   },
   {
    "target": "race:Troll",
-   "text": "Darkspear trolls answering this call weave their innate spiritual communion and ancestral reverence into the shared shamanic traditions of the new Horde."
+   "text": "As a Darkspear troll, you bring your natural communion with spirits and reverence for ancestors into the Horde's shared shamanic traditions."
   }
  ],
  "keywords": [
@@ -118,5 +118,6 @@
  ],
  "attribution": [
   "Rune-Inscribed Parchment (Classic)"
- ]
+ ],
+ "style": 1
 }

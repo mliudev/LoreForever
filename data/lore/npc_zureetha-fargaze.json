@@ -8,11 +8,11 @@
   "wiki": "Zureetha Fargaze",
   "refs": 2
  },
- "summary": "Zureetha Fargaze is an orc mentor stationed in the Valley of Trials in Durotar alongside Foreman Thazz'ril. Vigilant against corruption, she directs young Horde recruits to investigate and root out the dark influence of the Burning Blade cult hiding within the valley.",
+ "summary": "In the Valley of Trials, Zureetha Fargaze watches for threats to young Horde recruits. Alongside Foreman Thazz'ril in Durotar, she sends them to uncover and root out the Burning Blade cult hidden in the valley.",
  "sections": [
   {
    "title": "Eyes in the Valley",
-   "body": "While Foreman Thazz'ril oversees the labor and discipline of young orcs and Darkspear trolls, Zureetha Fargaze keeps watch for subtler, more insidious threats. The Burning Blade cult has secretly infiltrated the Valley of Trials, corrupting lesser demons and gathering strength in the nearby cavern of Burning Blade Coven. Zureetha tasks untested adventurers with retrieving medallions from the cultists to confirm their presence and dismantle their early operations before directing seasoned recruits outward into Durotar.",
+   "body": "Zureetha Fargaze watches for dangers beyond the work and discipline Foreman Thazz'ril oversees. The Burning Blade cult has secretly entered the Valley of Trials, corrupted lesser demons, and gathered strength in the nearby Burning Blade Coven. She sends untested adventurers to recover medallions from the cultists, confirm their presence, and disrupt their early efforts. Then she directs seasoned recruits farther into Durotar.",
    "spoiler": 0
   }
  ],
@@ -24,7 +24,7 @@
     "who is zureetha",
     "fargaze valley of trials"
    ],
-   "answer": "Zureetha Fargaze is an orc questgiver stationed in the Valley of Trials in Durotar. She stands near Foreman Thazz'ril and monitors the hidden threats creeping into the training grounds."
+   "answer": "Zureetha Fargaze watches over the Valley of Trials in Durotar. She stands near Foreman Thazz'ril and looks for hidden threats to the training grounds."
   },
   {
    "q": "Why is she concerned about the Burning Blade?",
@@ -33,7 +33,7 @@
     "why does zureetha want medallions",
     "burning blade cult durotar"
    ],
-   "answer": "The demonic Burning Blade cult has taken root inside a nearby cave, drawing foul familiars and corrupting the peaceful trial grounds. Zureetha seeks proof of their presence through their cultist medallions and sends recruits to thin their numbers."
+   "answer": "The Burning Blade cult has taken root in a nearby cave, where it gathers foul familiars and corrupts the peaceful trial grounds. Zureetha sends recruits to recover cultist medallions as proof and thin the cult's ranks."
   },
   {
    "q": "Where does she send recruits after their initial trials?",
@@ -42,17 +42,17 @@
     "zureetha next quest",
     "report to sen'jin"
    ],
-   "answer": "Once young orcs and trolls prove their competence against the local threats, Zureetha dispatches them southeast across the ridge to Sen'jin Village to aid the Darkspear tribe."
+   "answer": "After young orcs and trolls prove themselves against local threats, Zureetha sends them southeast across the ridge to Sen'jin Village to aid the Darkspear tribe."
   }
  ],
  "angles": [
   {
    "target": "race:Orc",
-   "text": "For young orcs taking their first steps into the world, Zureetha represents the watchful vigilance required to keep the demonic taint of the past from polluting their new homeland."
+   "text": "As a young orc taking your first steps into the world, you see in Zureetha the vigilance needed to keep the demonic taint of the past from polluting your new homeland."
   },
   {
    "target": "class:Warlock",
-   "text": "Warlocks in the Valley of Trials cross paths with Zureetha's tasks early on, dealing with the loose, corrupt vile familiars tied to the Burning Blade's dark summonings."
+   "text": "As a warlock in the Valley of Trials, you encounter Zureetha's early tasks and face the corrupt vile familiars tied to the Burning Blade's dark summonings."
   }
  ],
  "keywords": [
@@ -70,5 +70,6 @@
  ],
  "attribution": [
   "Zureetha Fargaze"
- ]
+ ],
+ "style": 1
 }

@@ -8,11 +8,11 @@
   "wiki": "Doan Karhan",
   "refs": 1
  },
- "summary": "Doan Karhan is a human scholar and practitioner of the dark arts dwelling isolated in the southern Barrens. He has dedicated his life to researching the demonic artifacts of the Burning Legion, especially the enigmatic Orb of Soran'ruk.",
+ "summary": "In the southern Barrens, Doan Karhan studies the Burning Legion’s demonic artifacts. A human scholar and practitioner of the dark arts, he lives alone to pursue his research, especially into the enigmatic Orb of Soran'ruk.",
  "sections": [
   {
    "title": "The Hermit of the Barrens",
-   "body": "Tucked away in a solitary camp in the wild savannah of the southern Barrens, Doan Karhan lives far from the civilized bastions of the Alliance. Rather than seeking ordinary solitude, he retreated to the wilderness to study dangerous demonic relics unmolested. Doan holds deep lore concerning powerful fel vessels, possessing the Orb of Zargain and obsessing over the legendary Orb of Soran'ruk. Practicing warlocks often seek him out when delving into artifact crafting and dark rituals.",
+   "body": "Doan Karhan keeps a solitary camp in the southern Barrens, far from the Alliance’s civilized bastions. He withdrew into the wilderness to study dangerous demonic relics without disturbance. He knows much about powerful fel vessels, possesses the Orb of Zargain, and is absorbed by the legendary Orb of Soran'ruk. Warlocks seeking knowledge of artifact crafting and dark rituals often come to him.",
    "spoiler": 0
   }
  ],
@@ -24,7 +24,7 @@
     "where is doan karhan",
     "doan karhan southern barrens"
    ],
-   "answer": "Doan Karhan makes his camp in the southern Barrens, tucked away east of Camp Taurajo and the main road. He resides alone in a small, easily overlooked clearing."
+   "answer": "Doan Karhan camps in the southern Barrens, east of Camp Taurajo and the main road. He lives alone in a small clearing that is easy to overlook."
   },
   {
    "q": "Why is a human living alone in the Barrens?",
@@ -33,7 +33,7 @@
     "why is there a human in barrens",
     "doan karhan lore"
    ],
-   "answer": "Doan Karhan chose exile in the hostile wilderness to pursue research into the Burning Legion's magical relics. Such dark studies into demonic orbs are forbidden or heavily scrutinized in civil Alliance territories."
+   "answer": "Doan Karhan chose exile in the hostile wilderness to research the Burning Legion's magical relics. Civil Alliance lands forbid or closely scrutinize such studies of demonic orbs."
   },
   {
    "q": "What is the Orb of Soran'ruk?",
@@ -42,17 +42,17 @@
     "orb of soran'ruk",
     "what is orb of soran'ruk"
    ],
-   "answer": "The Orb of Soran'ruk is an ancient, potent Legion relic imbued with dark power. Doan Karhan possesses extensive knowledge regarding its construction and the similar Orb of Zargain, guiding warlocks seeking to reconstruct it."
+   "answer": "The Orb of Soran'ruk is an ancient, potent Legion relic imbued with dark power. Doan Karhan knows much about its construction and the similar Orb of Zargain, and guides warlocks seeking to reconstruct it."
   }
  ],
  "angles": [
   {
    "target": "class:Warlock",
-   "text": "Doan Karhan is an invaluable resource for seasoned warlocks, possessing the arcane knowledge needed to uncover, mend, and wield legendary demonic orbs."
+   "text": "As a seasoned warlock, you can turn to Doan Karhan for arcane knowledge to uncover, mend, and wield legendary demonic orbs."
   },
   {
    "target": "faction:Alliance",
-   "text": "Though human, Doan operates far from Stormwind or Theramore, preferring lonely exile in Kalimdor's heartland over the constraints of the Grand Alliance."
+   "text": "Though Doan Karhan is human, he lives far from Stormwind or Theramore, choosing lonely exile in Kalimdor's heartland over the constraints of the Grand Alliance."
   }
  ],
  "keywords": [
@@ -70,5 +70,6 @@
  ],
  "attribution": [
   "Doan Karhan"
- ]
+ ],
+ "style": 1
 }

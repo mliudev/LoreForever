@@ -8,16 +8,16 @@
   "wiki": "Master Vornal",
   "refs": 1
  },
- "summary": "Master Vornal is an elderly Darkspear jungle troll who resides in Sen'jin Village along the southern coast of Durotar. Despite his advancing years and extensive knowledge of alchemical concoctions, he stubbornly refuses to take on any apprentices.",
+ "summary": "In Sen'jin Village, Master Vornal brews for the Darkspear trolls and keeps his craft to himself. The elderly jungle troll refuses to take on apprentices despite his deep knowledge of alchemy.",
  "sections": [
   {
    "title": "The Stubborn Brewer of Sen'jin",
-   "body": "Master Vornal is a fixture of Sen'jin Village, known for brewing potent draughts and spirits for his fellow Darkspear trolls. Though age is visibly catching up with him, Vornal remains intensely independent and stubbornly refuses to train any apprentices, preferring to mix his remedies and volatile mixtures entirely by his own hand.",
+   "body": "Master Vornal brews draughts and spirits for his fellow Darkspear trolls in Sen'jin Village. Age is catching up with him, but he remains fiercely independent and refuses to train an apprentice. He mixes his remedies and volatile brews by his own hand.",
    "spoiler": 0
   },
   {
    "title": "A Solvent Spirit",
-   "body": "Vornal occasionally tasks young adventurers with gathering harsh or peculiar ingredients from the surrounding lands, such as potent materials needed for solvents and mixtures. While he is willing to reward those who assist him, he keeps his precise methods and recipes guarded, treating his craft as a solitary pursuit.",
+   "body": "Master Vornal sometimes sends young adventurers to gather harsh or unusual ingredients from the surrounding lands. The materials go into solvents and other mixtures. He rewards those who help, but guards his methods and recipes, keeping the work of brewing to himself.",
    "spoiler": 0
   }
  ],
@@ -30,7 +30,7 @@
     "sen'jin master vornal",
     "who is vornal"
    ],
-   "answer": "Master Vornal is an elderly Darkspear jungle troll residing in Sen'jin Village. He brews potent spirits and remedies for the tribe but insists on working without an apprentice."
+   "answer": "Master Vornal is an elderly Darkspear jungle troll who brews spirits and remedies in Sen'jin Village. He insists on working without an apprentice."
   },
   {
    "q": "Where can I find Master Vornal?",
@@ -39,7 +39,7 @@
     "where is master vornal",
     "find master vornal"
    ],
-   "answer": "He can be found standing among the huts in Sen'jin Village, situated along the southern coast of Durotar just north of the Echo Isles."
+   "answer": "Master Vornal stands among the huts in Sen'jin Village, on Durotar's southern coast just north of the Echo Isles."
   },
   {
    "q": "Why does Master Vornal refuse to take apprentices?",
@@ -48,7 +48,7 @@
     "why no apprentice",
     "vornal students"
    ],
-   "answer": "Vornal says no troll or orc worthy enough has ever come forward. Though his eyes are failing and he leans more on his alchemy, he would rather work alone than teach someone unworthy."
+   "answer": "Master Vornal says no troll or orc worthy of teaching has come forward. His eyesight is failing, and he relies more on alchemy, but he would rather work alone than teach someone unworthy."
   },
   {
    "q": "What tasks does he offer adventurers?",
@@ -57,17 +57,17 @@
     "a solvent spirit",
     "vornal quest"
    ],
-   "answer": "Vornal sends wanderers to gather raw components across the region for his solvent mixtures, relying on travelers for materials while keeping the brewing process strictly to himself."
+   "answer": "Master Vornal sends wanderers across the region to gather raw components for his solvent mixtures. He relies on travelers for materials and keeps the brewing to himself."
   }
  ],
  "angles": [
   {
    "target": "race:Troll",
-   "text": "For Darkspear trolls, Master Vornal represents the stubborn, elder craftspeople who helped establish Sen'jin Village after the tribe fled their island home."
+   "text": "As a Darkspear troll, you can see Master Vornal as one of the stubborn elder craftspeople who helped establish Sen'jin Village after the tribe fled its island home."
   },
   {
    "target": "profession:Herbalism",
-   "text": "Those skilled with raw flora will recognize Vornal's keen eye for rare catalysts and harsh natural reagents required for his solvents."
+   "text": "With Herbalism, you can recognize Master Vornal's search for rare catalysts and harsh natural reagents for his solvents."
   }
  ],
  "keywords": [
@@ -87,5 +87,6 @@
  ],
  "attribution": [
   "Master Vornal"
- ]
+ ],
+ "style": 1
 }

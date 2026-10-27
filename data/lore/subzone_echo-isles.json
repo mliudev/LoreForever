@@ -7,16 +7,16 @@
  "meta": {
   "wiki": "Echo Isles"
  },
- "summary": "The Echo Isles are a cluster of tropical islands lying just off the southeastern coast of Durotar. Originally settled by the Darkspear trolls after fleeing their ancestral islands, the archipelago is currently lost to the rogue witch doctor Zalazane, who drove his people into exile with dark magic and enslaved minions.",
+ "summary": "The Darkspear have fled the Echo Isles, leaving their home under Zalazane's control. The tribe first settled here after crossing the Great Sea with Thrall, but now seeks to reclaim the islands.",
  "sections": [
   {
    "title": "A Fractured Sanctuary",
-   "body": "Following their flight across the Great Sea alongside Thrall, the Darkspear tribe claimed the Echo Isles as their new home. Their peace was repeatedly shattered: first by the naval forces of Grand Admiral Daelin Proudmoore during Kul Tiras' invasion of Durotar, and later from within. Shortly after the trolls drove back Proudmoore's fleet, one of their own witch doctors, Zalazane, seized dark arts to enslave the minds of his kin. Chieftain Vol'jin and the free Darkspears were forced to abandon the islands once more, seeking temporary refuge across the narrow strait at Sen'jin Village.",
+   "body": "The Darkspear made the Echo Isles their home after fleeing across the Great Sea with Thrall. Their peace broke when Grand Admiral Daelin Proudmoore's naval forces invaded Durotar during Kul Tiras' attack. The trolls drove back Proudmoore's fleet, but another threat rose within the tribe. Zalazane, one of their witch doctors, seized dark arts and enslaved the minds of his kin. Chieftain Vol'jin and the free Darkspears fled the islands once more, finding temporary refuge across the narrow strait at Sen'jin Village.",
    "spoiler": 0
   },
   {
    "title": "Zalazane's Grip",
-   "body": "Today, the tropical cluster is overrun by aggressive predators, tainted wildlife, and the thralls of Zalazane. Using malevolent hexes, voodoo fetishes, and ju-ju heaps placed throughout the islands, the traitorous witch doctor bends beasts and captive trolls to his will. From their encampment at Darkspear Strand, Vol'jin's scouts and warriors mount frequent sorties into the islands, determined to recover the remains of their fallen and strike down the mad mystic who stole their home.",
+   "body": "Aggressive predators, tainted wildlife, and Zalazane's thralls now overrun the tropical islands. The rogue witch doctor uses malevolent hexes, voodoo fetishes, and ju-ju heaps across the isles to bend beasts and captive trolls to his will. Vol'jin's scouts and warriors set out from their camp at Darkspear Strand on frequent sorties. They seek the remains of their fallen and a chance to strike down the mystic who stole their home.",
    "spoiler": 0
   }
  ],
@@ -28,7 +28,7 @@
     "why did trolls leave",
     "troll home"
    ],
-   "answer": "The witch doctor Zalazane betrayed the tribe, using dark magic to strip his brethren of their free will and twist them into obedient servitors. Chieftain Vol'jin ordered an evacuation to the mainland coast of Durotar, founding Sen'jin Village as a staging ground while the tribe fights to reclaim their home."
+   "answer": "Zalazane betrayed the Darkspear and used dark magic to strip his kin of their free will, turning them into obedient servitors. Chieftain Vol'jin ordered the tribe to evacuate to Durotar's mainland coast and founded Sen'jin Village as a base while they fight to reclaim their home."
   },
   {
    "q": "Who is Zalazane?",
@@ -37,7 +37,7 @@
     "boss on echo isles",
     "witch doctor zalazane"
    ],
-   "answer": "Zalazane is a traitorous Darkspear witch doctor who turned on his tribe. Using powerful voodoo and dark magic, he placed hexes over the islands, corrupted the local wildlife, and enslaved fellow trolls into mindless thralls."
+   "answer": "Zalazane is a Darkspear witch doctor who turned against his tribe. His powerful voodoo and dark magic laid hexes over the islands, corrupted local wildlife, and enslaved fellow trolls as mindless thralls."
   },
   {
    "q": "What threats are on the islands?",
@@ -46,7 +46,7 @@
     "what is on the islands",
     "echo isles dangers"
    ],
-   "answer": "The archipelago is infested with wild raptors, tigers, and corrupted beasts, as well as Zalazane's voodoo heaps and his mind-controlled troll minions, including hexed and voodoo trolls."
+   "answer": "Wild raptors, tigers, and corrupted beasts roam the islands, alongside Zalazane's voodoo heaps and mind-controlled troll minions, including hexed and voodoo trolls."
   },
   {
    "q": "How did the Darkspear tribe end up on these islands originally?",
@@ -55,17 +55,17 @@
     "darkspear origin",
     "echo isles history"
    ],
-   "answer": "After Thrall and the Horde rescued the Darkspear tribe from a sinking island and hostile naga in the Great Sea, the trolls journeyed to Kalimdor and were granted the Echo Isles to settle alongside their orc allies."
+   "answer": "Thrall and the Horde rescued the Darkspear from a sinking island and hostile naga in the Great Sea. The trolls journeyed to Kalimdor, where they were granted the Echo Isles to settle beside their orc allies."
   }
  ],
  "angles": [
   {
    "target": "race:Troll",
-   "text": "The Echo Isles represent both the promised home of the Darkspear in Kalimdor and the bitter sting of Zalazane's betrayal. Reclaiming them is a matter of tribal survival and personal honor."
+   "text": "For the Darkspear, the Echo Isles are their promised home in Kalimdor and a reminder of Zalazane's betrayal. Reclaiming them is a matter of tribal survival and personal honor."
   },
   {
    "target": "faction:Horde",
-   "text": "Securing the Echo Isles is essential for stabilizing the southern coast of Durotar, protecting Sen'jin Village, and consolidating the young Horde's borders against naval threats and rogue mystics."
+   "text": "For the Horde, securing the Echo Isles means stabilizing Durotar's southern coast, protecting Sen'jin Village, and holding its borders against naval threats and rogue mystics."
   }
  ],
  "keywords": [
@@ -90,5 +90,6 @@
  ],
  "attribution": [
   "Echo Isles"
- ]
+ ],
+ "style": 1
 }

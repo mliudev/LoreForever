@@ -10,11 +10,11 @@
    "quest:873"
   ]
  },
- "summary": "The Heart of Isha Awak is taken from the mighty thresher known as Isha Awak, the Deep Doom of the Merchant Coast. Sought by the tauren seer Mahren Skyseer, it serves as proof of overcoming one of the ocean's most formidable predators.",
+ "summary": "Hunters seek Isha Awak’s heart along the Merchant Coast south of Ratchet. Mahren Skyseer wants it as proof that the Deep Doom has been overcome.",
  "sections": [
   {
    "title": "Trophy of the Deep Doom",
-   "body": "Off the sun-drenched shores of the Merchant Coast south of Ratchet dwells Isha Awak, a massive sea beast revered and feared by sailors and coastal inhabitants alike. Known as the Deep Doom, the creature has claimed the lives of numerous human trespassers along the shoreline. For the mystic Mahren Skyseer, however, the beast represents an honorable predator rather than a mindless menace. She believes Isha Awak's fierce spirit resides directly within its heart, charging brave hunters to plunge into the waves, best the beast in its domain, and claim the pulsating organ as both trophy and spiritual offering.",
+   "body": "Isha Awak prowls the sea off the Merchant Coast, south of Ratchet. Sailors and coastal folk revere and fear the massive thresher, known as the Deep Doom. It has killed many human trespassers along the shore. Mahren Skyseer, a tauren mystic, sees an honorable predator, not a mindless menace. She believes its fierce spirit dwells in its heart. Mahren charges brave hunters to plunge into the waves, defeat Isha Awak in its own domain, and claim the heart as both trophy and spiritual offering.",
    "spoiler": 0
   }
  ],
@@ -26,7 +26,7 @@
     "isha awak heart",
     "what is this heart"
    ],
-   "answer": "It is the heart of Isha Awak, a giant aquatic thresher prowling the coastal waters south of Ratchet. It is claimed as proof of slaying the beast for the tauren mystic Mahren Skyseer."
+   "answer": "The Heart of Isha Awak is the heart of the giant thresher that prowls the waters south of Ratchet. Hunters claim it as proof of overcoming the Deep Doom for Mahren Skyseer."
   },
   {
    "q": "Who wants the Heart of Isha Awak?",
@@ -35,7 +35,7 @@
     "who do i give the heart to",
     "mahren skyseer"
    ],
-   "answer": "Mahren Skyseer, a tauren seer camped along the Merchant Coast south of Ratchet, asks hunters to retrieve the heart to honor the beast's power and absorb its spirit."
+   "answer": "Mahren Skyseer, a tauren seer camped along the Merchant Coast south of Ratchet, wants hunters to retrieve the heart. She seeks to honor the beast’s power and absorb its spirit."
   },
   {
    "q": "Where is Isha Awak found?",
@@ -44,7 +44,7 @@
     "where is isha awak",
     "where to find isha awak"
    ],
-   "answer": "Isha Awak dwells in the ocean waters off the Merchant Coast in the eastern Barrens, swimming south of the goblin port of Ratchet."
+   "answer": "Isha Awak dwells in the ocean off the Merchant Coast in the eastern Barrens, south of Ratchet."
   },
   {
    "q": "Why does Mahren Skyseer want the heart?",
@@ -52,17 +52,17 @@
     "why kill isha awak",
     "why does mahren want the heart"
    ],
-   "answer": "Mahren considers Isha Awak an honorable hunter and worthy adversary. By slaying the beast and holding its heart, the hunter takes the sea creature's spirit into themselves."
+   "answer": "Mahren Skyseer considers Isha Awak an honorable hunter and worthy adversary. By slaying the beast and holding its heart, a hunter takes the sea creature’s spirit into themselves."
   }
  ],
  "angles": [
   {
    "target": "race:Tauren",
-   "text": "For tauren hunters, pursuing Isha Awak is an act of spiritual communion with nature's fiercest predators, following the guidance of the elder Mahren Skyseer."
+   "text": "As a tauren hunter, you pursue Isha Awak as an act of spiritual communion with nature’s fiercest predators, guided by the elder Mahren Skyseer."
   },
   {
    "target": "class:Hunter",
-   "text": "Tracking and conquering the Deep Doom beneath the waves of the Merchant Coast is an ultimate test of a hunter's courage against aquatic prey."
+   "text": "As a hunter, you face an ultimate test of courage when tracking and conquering the Deep Doom beneath the Merchant Coast’s waves."
   }
  ],
  "keywords": [
@@ -84,5 +84,6 @@
  "attribution": [
   "Heart of Isha Awak",
   "Isha Awak (quest)"
- ]
+ ],
+ "style": 1
 }

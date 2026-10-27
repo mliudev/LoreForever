@@ -8,11 +8,11 @@
   "wiki": "Jahan Hawkwing",
   "refs": 2
  },
- "summary": "Jahan Hawkwing is a tauren armorer stationed at the Crossroads in the Barrens. He provides essential leather and chainmail gear to travelers braving the harsh, predator-filled plains.",
+ "summary": "At the Crossroads, Jahan Hawkwing keeps Horde travelers supplied with armor. The tauren armorer works from this outpost in the Barrens, where predators roam the plains.",
  "sections": [
   {
    "title": "Armorer of the Crossroads",
-   "body": "Situated at the bustling hub of the Crossroads, Jahan Hawkwing tends to the equipment needs of Horde wanderers and defenders. The Barrens is a brutal expanse where durable protective gear often makes the difference between survival and falling to centaur, quilboar, or wild beasts. Jahan works alongside local leatherworkers, handling deliveries of cured hides to keep his shop stocked with reliable tanned leather and sturdy chainmail.",
+   "body": "Jahan Hawkwing tends to the armor needs of Horde travelers and defenders at the Crossroads. In the Barrens, durable gear can mean survival against centaur, quilboar, and wild beasts. Jahan works with local leatherworkers, sending cured hides for delivery so his shop stays stocked with dependable tanned leather and sturdy chainmail.",
    "spoiler": 0
   }
  ],
@@ -24,7 +24,7 @@
     "who is jahan",
     "crossroads armor vendor"
    ],
-   "answer": "Jahan Hawkwing is a tauren merchant and armorer residing at the Crossroads in the Barrens. He supplies passing adventurers and Horde guards with protective leather and mail equipment."
+   "answer": "Jahan Hawkwing is a tauren merchant and armorer stationed at the Crossroads in the Barrens. He supplies passing adventurers and Horde guards with protective leather and mail equipment."
   },
   {
    "q": "What goods does he sell?",
@@ -33,7 +33,7 @@
     "jahan hawkwing inventory",
     "jahan armor"
    ],
-   "answer": "Jahan sells basic sets of tanned leather and chainmail armor, including jerkins, boots, belts, bracers, and gloves suitable for novice warriors, hunters, and scouts."
+   "answer": "Jahan sells basic sets of tanned leather and chainmail armor, including jerkins, boots, belts, bracers, and gloves. The gear suits novice warriors, hunters, and scouts."
   },
   {
    "q": "What tasks does he offer to travelers?",
@@ -42,17 +42,17 @@
     "bundle of hides quest",
     "crossroads hide delivery"
    ],
-   "answer": "Jahan relies on nearby artisans to supply his wares. He asks helpful travelers to run shipments of raw or prepared materials, sending bundles of hides to local tanners and awaiting finished goods in return."
+   "answer": "Jahan depends on nearby artisans to supply his wares. He asks travelers to carry raw or prepared materials to local tanners, then waits for the finished goods to return."
   }
  ],
  "angles": [
   {
    "target": "faction:Horde",
-   "text": "Stationed at the intersection of Kalimdor's major trails, Jahan ensures Horde warriors and scouts stay armored against relentless centaur raids and local wildlife."
+   "text": "At the Crossroads, where Kalimdor's major trails meet, Jahan helps keep Horde warriors and scouts armored against centaur raids and local wildlife."
   },
   {
    "target": "race:Tauren",
-   "text": "Jahan represents the practical, self-reliant nature of the shu'halo, using hidecraft and sturdy materials to protect travelers in the ancestral lands of the Barrens."
+   "text": "Jahan reflects the shu'halo's practical, self-reliant ways. He uses hidecraft and sturdy materials to protect travelers in the Barrens, the ancestral lands of the tauren."
   }
  ],
  "keywords": [
@@ -74,5 +74,6 @@
  ],
  "attribution": [
   "Jahan Hawkwing"
- ]
+ ],
+ "style": 1
 }

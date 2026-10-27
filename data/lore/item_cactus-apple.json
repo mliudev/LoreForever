@@ -10,11 +10,11 @@
    "quest:galgar-s-cactus-apple-surprise"
   ]
  },
- "summary": "Cactus Apples are tough, moisture-rich fruits harvested from the rugged flora of Durotar's Valley of Trials. Flourishing in the arid desert heat, they are prized by local orcs as a rare, refreshing source of sustenance.",
+ "summary": "In the Valley of Trials, Cactus Apples offer orcs a rare source of moisture in Durotar's dry heat.",
  "sections": [
   {
    "title": "Desert Harvest",
-   "body": "The sun-scorched earth of Durotar offers little luxury, forcing its inhabitants to make use of whatever hardy plants survive the elements. Cactus apples grow in clusters around the thick cactuses dotting the Valley of Trials. While difficult to gather without catching a few thorns, the fruit provides vital hydration in the sweltering canyon. A local orc named Galgar gathers these fruits to prepare his signature Cactus Apple Surprise, a cooling confection that brings welcome relief to recruits enduring their harsh initial training.",
+   "body": "Cactus apples grow in clusters around the thick cactuses scattered across the Valley of Trials. Gathering them means working among the thorns, but the fruit gives welcome hydration in Durotar's heat. Galgar, an orc in the valley, gathers the apples to make Cactus Apple Surprise, a cooling treat for recruits enduring their early training.",
    "spoiler": 0
   }
  ],
@@ -26,7 +26,7 @@
     "where to find cactus apple",
     "cactus apple spot"
    ],
-   "answer": "They grow wild across the red dust of the Valley of Trials in southern Durotar, typically resting at the bases of the stout cactus plants scattered through the basin."
+   "answer": "Cactus apples grow wild in the Valley of Trials in southern Durotar, near the bases of stout cactus plants scattered across the basin."
   },
   {
    "q": "What is Cactus Apple Surprise?",
@@ -35,7 +35,7 @@
     "cactus apple recipe",
     "galgar treat"
    ],
-   "answer": "It is a chilled, refreshing dish prepared by the Valley of Trials local Galgar. Using freshly gathered cactus apples, he cooks a sweet snack that provides instant relief from Durotar's punishing desert heat."
+   "answer": "Cactus Apple Surprise is a chilled dish Galgar prepares with freshly gathered cactus apples, offering relief from Durotar's desert heat."
   },
   {
    "q": "Who asks for these apples?",
@@ -44,17 +44,17 @@
     "who wants cactus apples",
     "galgar apples"
    ],
-   "answer": "Galgar, an orc stationed in the Valley of Trials, trades portions of his cooling dessert to any young recruit willing to venture out and bring back six fresh apples."
+   "answer": "Galgar, an orc in the Valley of Trials, asks young recruits to bring back six fresh apples in exchange for portions of his cooling dessert."
   }
  ],
  "angles": [
   {
    "target": "profession:Cooking",
-   "text": "For wilderness cooks surviving in Durotar, harvesting desert cactuses is a prime lesson in turning prickly, inhospitable desert vegetation into a hydrating meal."
+   "text": "As a wilderness cook in Durotar, you can turn desert cactuses into a hydrating meal."
   },
   {
    "target": "race:Orc",
-   "text": "Young orcs undergoing trials in Durotar quickly learn that enduring the red canyon means taking advantage of every scarce scrap of moisture nature offers."
+   "text": "As a young orc in Durotar, you learn to make use of every scarce bit of moisture the red canyon offers."
   }
  ],
  "keywords": [
@@ -74,5 +74,6 @@
  "attribution": [
   "Cactus Apple",
   "Galgar's Cactus Apple Surprise"
- ]
+ ],
+ "style": 1
 }

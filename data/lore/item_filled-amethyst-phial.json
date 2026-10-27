@@ -10,16 +10,16 @@
    "quest:934"
   ]
  },
- "summary": "The Filled Amethyst Phial contains sacred water taken from the ancient moonwell beneath the boughs of the Oracle Tree. Gathered on behalf of Corithras Moonrage, this purified water is used by the Cenarion druids to study the troubled, imperfect growth of Teldrassil.",
+ "summary": "In Teldrassil, water from the Oracle Tree's moonwell fills an amethyst phial. Corithras Moonrage receives it for the Cenarion druids to study the World Tree's troubled growth.",
  "sections": [
   {
    "title": "Water of the Oracle Tree",
-   "body": "Far to the northwest in Teldrassil lies the Oracle Glade, where the oldest and most potent of the island's moonwells rests beneath the great Oracle Tree. While the lesser moonwells across the boughs serve the day-to-day needs of the night elves, this well's waters are saturated with the raw essence of Elune's grace. Druids tasked with monitoring the health of the World Tree use specialized amethyst phials to collect and preserve this powerful liquid for testing and ritual cleansing.",
+   "body": "The Oracle Glade lies in northwest Teldrassil, where the oldest and most potent moonwell rests beneath the Oracle Tree. Other moonwells across the boughs meet the night elves' daily needs, but the water here carries the raw essence of Elune's grace. Druids who watch over the World Tree's health collect it in amethyst phials, preserving it for testing and ritual cleansing.",
    "spoiler": 0
   },
   {
    "title": "A Flawed Renewal",
-   "body": "Bringing this sample back to Corithras Moonrage serves a somber purpose. Despite Archdruid Fandral Staghelm's triumph in raising Teldrassil to replace the fallen Nordrassil, the Dragon Aspects refused to sanctify it. Without the blessing of Nozdormu to restore night elven immortality or Alexstrasza to protect its life force, Teldrassil's growth remains stunted and plagued by corruption. Samples from the glade reveal that even the island's most sacred waters cannot hide the creeping malaise taking root in the World Tree.",
+   "body": "Corithras Moonrage receives the sample as the druids watch over Teldrassil's troubled growth. Archdruid Fandral Staghelm raised the tree to replace fallen Nordrassil, but the Dragon Aspects refused to sanctify it. Without Nozdormu's blessing to restore night elven immortality or Alexstrasza's protection for its life force, Teldrassil remains stunted and afflicted by corruption. Even the sacred waters of the glade reveal the malaise taking root in the World Tree.",
    "spoiler": 1
   }
  ],
@@ -31,7 +31,7 @@
     "moonwell location",
     "oracle tree well"
    ],
-   "answer": "The water is scooped directly from the moonwell in the Oracle Glade, located in the northwestern reaches of Teldrassil beneath the vast roots of the Oracle Tree."
+   "answer": "The water comes from the moonwell in the Oracle Glade, beneath the Oracle Tree in northwest Teldrassil."
   },
   {
    "q": "Why is the moonwell in Oracle Glade special?",
@@ -39,7 +39,7 @@
     "why oracle glade",
     "oracle moonwell importance"
    ],
-   "answer": "It is revered as the first and most powerful moonwell created on Teldrassil, holding the concentrated essence of Elune's power and watched over by the ancient Oracle Tree itself."
+   "answer": "The Oracle Glade moonwell is the first and most powerful moonwell created on Teldrassil. It holds the concentrated essence of Elune's power, beneath the ancient Oracle Tree."
   },
   {
    "q": "Who asks you to gather this water?",
@@ -47,7 +47,7 @@
     "who wants the phial",
     "corithras quest"
    ],
-   "answer": "Corithras Moonrage, a night elf druid stationed in Dolanaar, tasks young adventurers with collecting the water as part of the Crown of the Earth rituals."
+   "answer": "Corithras Moonrage, a night elf druid stationed in Dolanaar, asks you to gather the water for the Crown of the Earth rituals."
   },
   {
    "q": "Why are the druids testing Teldrassil's moonwells?",
@@ -55,17 +55,17 @@
     "why test the water",
     "teldrassil sickness"
    ],
-   "answer": "Teldrassil was raised without the blessings of the Dragon Aspects, leaving it vulnerable. The druids sample the moonwells to monitor the World Tree's health, which is showing troubling signs of corruption and stunted growth."
+   "answer": "The druids test Teldrassil's moonwells because the tree was raised without the Dragon Aspects' blessings and remains vulnerable. The samples help them watch for its troubling corruption and stunted growth."
   }
  ],
  "angles": [
   {
    "target": "race:NightElf",
-   "text": "For the kaldorei, filling this phial marks a grim realization: their glorious new home was rejected by the Dragon Aspects, and their lost immortality has not returned."
+   "text": "As a kaldorei, you fill this phial knowing the Dragon Aspects rejected your new home and your lost immortality has not returned."
   },
   {
    "target": "class:Druid",
-   "text": "Cenarion druids revere moonwells as conduits of nature and astral energy, using purified vessels like this phial to study the blighted ecology of Teldrassil."
+   "text": "As a druid, you know Cenarion druids revere moonwells as sources of nature and astral energy. They use purified vessels like this phial to study Teldrassil's blighted ecology."
   }
  ],
  "keywords": [
@@ -92,5 +92,6 @@
   "Filled Amethyst Phial",
   "Crown of the Earth (5)",
   "Teldrassil: The Burden of the Kaldorei"
- ]
+ ],
+ "style": 1
 }

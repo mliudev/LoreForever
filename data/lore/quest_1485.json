@@ -17,16 +17,16 @@
   "wiki": "Vile Familiars (Warlock)",
   "chain": []
  },
- "summary": "In the arid valley of the Valley of Trials, the warlock trainer Ruzan tasks aspiring practitioners of the dark arts with proving their mettle against vile familiars. To earn the knowledge of demon summoning, initiates must face these impish creatures in combat and claim their severed heads. It marks the humble, dangerous first step toward mastering fel power under the watchful eyes of the Horde.",
+ "summary": "Near the Den, Vile Familiars threaten every warlock who seeks the power of demons. Ruzan asks you to prove your strength against them and bring back their heads. This is the humble, dangerous first step toward mastering fel power under the Horde’s watchful eyes.",
  "sections": [
   {
    "title": "A Precarious Place in the Horde",
-   "body": "Warlocks hold an uneasy place within Thrall's newly forged Horde. The legacy of demonic corruption and blood pacts that once brought ruin to the orcish race left deep scars and lingering distrust. Though practitioners of fel magic are tolerated in Durotar, they are neither loved nor widely embraced. Many choose reclusive lives in shadowy corners like the Den, practicing their art away from prying eyes while teaching those rare initiates daring enough to walk the path.",
+   "body": "Warlocks live uneasily within Thrall’s new Horde. Demonic corruption and blood pacts once brought ruin to the orcs, leaving deep scars and distrust. Fel magic is tolerated in Durotar, but its practitioners are neither loved nor welcomed. Many warlocks live in seclusion, practicing in shadowed places like the Den, away from prying eyes. There, they teach the few initiates daring enough to follow their path.",
    "spoiler": 0
   },
   {
    "title": "The Trial of Mastery",
-   "body": "Before granting an apprentice the dangerous rites required to bend an imp to their will, Ruzan demands evidence of dominance. Near a cave northeast of the Den, vile familiars skulk and hurl bolts of flame at any who approach. By slaying these lesser demons and claiming their heads, an initiate proves they can overpower the fiery adversaries they seek to control, ensuring they will not be consumed by the very magic they intend to command.",
+   "body": "Ruzan asks you to prove your strength before he teaches you the dangerous rites for bending an imp to your will. Vile Familiars skulk near a cave northeast of the Den and hurl bolts of flame at those who approach. Slay these lesser demons and bring back their heads to show you can overcome the fiery creatures you hope to control. Only then can you face the danger of the magic you seek to command.",
    "spoiler": 0
   }
  ],
@@ -38,7 +38,7 @@
     "ruzan test",
     "imp trial"
    ],
-   "answer": "Ruzan requires initiates to face vile familiars so they understand the fiery nature and danger of imps before attempting to summon one. Because warlocks are few and distrusted, he refuses to risk an apprentice's life by teaching the art of demon summoning before they have proven they can best such creatures in direct combat."
+   "answer": "Ruzan sends you to fight Vile Familiars so you can face an imp’s fiery nature and danger before trying to summon one. Warlocks are few and distrusted, so he asks you to prove you can defeat such creatures before he teaches you demon summoning."
   },
   {
    "q": "Where are the vile familiars found?",
@@ -47,7 +47,7 @@
     "where are familiars",
     "ruzan cave"
    ],
-   "answer": "They gather around and inside a cave to the northeast of the Den in the Valley of Trials, beyond the roaming boars and scorpids. This cavern serves as an encampment for the sinister Burning Blade Coven."
+   "answer": "Vile Familiars gather around and inside a cave northeast of the Den in the Valley of Trials, beyond the roaming boars and scorpids. The cave is an encampment for the Burning Blade Coven."
   },
   {
    "q": "How does the Horde view warlocks in Durotar?",
@@ -56,7 +56,7 @@
     "horde warlock lore",
     "why distrust warlocks"
    ],
-   "answer": "Warlocks are viewed with deep suspicion and distrust throughout the Horde due to the demonic history that previously corrupted the orcish people. While Thrall's government tolerates their presence and recognizes their combat utility, they are kept at arm's length, leading many practitioners to live solitary lives."
+   "answer": "Warlocks face deep suspicion across the Horde because demonic corruption once scarred the orcs. Thrall’s government tolerates them and sees their value in battle, but many still keep to solitary lives."
   },
   {
    "q": "What reward does completing this trial offer?",
@@ -65,7 +65,7 @@
     "quest reward ruzan",
     "imp spell"
    ],
-   "answer": "Slaying the creatures and returning their severed heads to Ruzan proves you possess the discipline and strength needed to command demons, leading directly into learning how to summon an imp minion."
+   "answer": "Bringing the heads of slain Vile Familiars to Ruzan proves you have the strength and discipline to command demons. He can then teach you to summon an imp minion."
   },
   {
    "q": "Are vile familiars actual demons?",
@@ -74,7 +74,7 @@
     "are familiars imps",
     "familiar demon type"
    ],
-   "answer": "Yes, vile familiars are minor demonic imps associated with fel magic. Though small in stature, they are formidable adversaries capable of slinging fireballs at their enemies."
+   "answer": "Yes. Vile Familiars are minor demonic imps tied to fel magic. Though small, they are formidable foes who hurl fireballs at their enemies."
   },
   {
    "q": "Who is Ruzan?",
@@ -83,21 +83,21 @@
     "who is ruzan",
     "valley of trials warlock"
    ],
-   "answer": "Ruzan is an orc warlock trainer stationed inside the Den in the Valley of Trials. He instructs new orc warlocks on how to safely harness fel energies and control summoned servants."
+   "answer": "Ruzan is an orc warlock trainer in the Den in the Valley of Trials. He teaches new orc warlocks to harness fel energy safely and control summoned servants."
   }
  ],
  "angles": [
   {
    "target": "class:Warlock",
-   "text": "This trial marks your inaugural rite of passage as a warlock, proving you can subdue demonic fire before invoking the ritual to summon an imp of your own."
+   "text": "As a warlock, you face this first trial to prove you can subdue demonic fire before learning the rite to summon an imp of your own."
   },
   {
    "target": "race:Orc",
-   "text": "Orcish warlocks must confront the dark history of their people every day, proving their control and loyalty in a society that remembers the horrors of fel corruption."
+   "text": "As an orc, you meet your people’s dark history each day. You must prove your control and loyalty in a society that remembers the horrors of fel corruption."
   },
   {
    "target": "faction:Horde",
-   "text": "Though the Horde allows warlocks to train within Durotar, their dark arts are kept tightly contained within isolated areas like the Den."
+   "text": "As a member of the Horde, you can train in Durotar as a warlock, though the dark arts remain confined to isolated places like the Den."
   }
  ],
  "keywords": [
@@ -119,5 +119,6 @@
  ],
  "attribution": [
   "Vile Familiars (Warlock)"
- ]
+ ],
+ "style": 1
 }

@@ -8,11 +8,11 @@
   "wiki": "Ruga Ragetotem",
   "refs": 2
  },
- "summary": "Ruga Ragetotem is a veteran tauren warrior stationed at Camp Taurajo in the southern Barrens. Serving as a mentor to promising Horde fighters, he tests their mettle against the strange silithid infestation emerging nearby before sending them toward custom armor.",
+ "summary": "At Camp Taurajo, Ruga Ragetotem trains warriors for the Horde. He tests them against the silithid in the southern Barrens before sending the proven toward custom armor.",
  "sections": [
   {
    "title": "A Mentor in Camp Taurajo",
-   "body": "Standing watch over Camp Taurajo, Ruga Ragetotem helps train emerging warriors looking to prove their strength in Kalimdor. Recognizing the sudden, unsettling emergence of insectoid silithid carving hives into the Field of Giants to the south, Ruga sets a trial for young fighters to hunt the beasts and sever their antennae. Those who endure the ordeal earn his respect and a recommendation to the renowned armorsmith Thun'grim Firegaze.",
+   "body": "At Camp Taurajo, Ruga Ragetotem trains warriors who want to prove their strength in Kalimdor. Silithid have suddenly appeared to the south, carving hives into the Field of Giants. Ruga sends young fighters to hunt the insectoids and cut off their antennae. Those who endure the trial earn his respect and a recommendation to Thun'grim Firegaze, a renowned armorsmith.",
    "spoiler": 0
   }
  ],
@@ -24,7 +24,7 @@
     "ruga ragetotem lore",
     "ruga taurajo"
    ],
-   "answer": "Ruga Ragetotem is a tauren warrior located at Camp Taurajo in the southern Barrens. He acts as an instructor and trial master for up-and-coming Horde warriors."
+   "answer": "Ruga Ragetotem trains warriors at Camp Taurajo in the southern Barrens. He tests fighters who hope to prove themselves to the Horde."
   },
   {
    "q": "What trial does Ruga give to warriors?",
@@ -33,7 +33,7 @@
     "trial at the field of giants",
     "what does ruga want"
    ],
-   "answer": "Ruga sends warriors south to the Field of Giants to face the newly emerged silithid. Initiates must slay the aggressive insectoids and retrieve their antennae to prove their bravery and martial ability."
+   "answer": "Ruga sends warriors south to the Field of Giants to fight the newly emerged silithid. They must slay the aggressive insectoids and bring back their antennae to prove their bravery and skill in battle."
   },
   {
    "q": "Who does Ruga send you to after his trial?",
@@ -42,7 +42,7 @@
     "ruga next quest",
     "thun'grim ruga"
    ],
-   "answer": "Once a warrior proves themselves against the silithid, Ruga directs them north to the orc armorsmith Thun'grim Firegaze, who crafts specialized armor for worthy combatants."
+   "answer": "After a warrior proves themselves against the silithid, Ruga sends them north to Thun'grim Firegaze, an orc armorsmith who crafts specialized armor for worthy fighters."
   },
   {
    "q": "Why is Ruga interested in the Field of Giants?",
@@ -51,17 +51,17 @@
     "ruga bugs",
     "silithid taurajo"
    ],
-   "answer": "The Field of Giants has recently been invaded by silithid, an eerie insectoid threat carving hives into the earth. Ruga uses this nearby danger as a real combat test for warriors looking to defend the Horde."
+   "answer": "Silithid have recently invaded the Field of Giants, carving hives into the earth. Ruga uses the nearby threat to test warriors who may defend the Horde."
   }
  ],
  "angles": [
   {
    "target": "class:Warrior",
-   "text": "Ruga serves as an essential milestone in early martial training, testing your combat instincts against the silithid before pointing you toward Thun'grim Firegaze for forged armor."
+   "text": "As a warrior, you face the silithid to prove your skill before Ruga sends you to Thun'grim Firegaze for forged armor."
   },
   {
    "target": "race:Tauren",
-   "text": "Stationed at Camp Taurajo, Ruga Ragetotem represents the strength and stoic vigilance of the Earthmother's children guarding their southern ranges."
+   "text": "As a tauren, you find Ruga Ragetotem at Camp Taurajo, guarding the southern ranges with the strength and vigilance of the Earthmother's children."
   }
  ],
  "keywords": [
@@ -84,5 +84,6 @@
  ],
  "attribution": [
   "Ruga Ragetotem"
- ]
+ ],
+ "style": 1
 }

@@ -1,0 +1,85 @@
+{
+ "key": "quest:98095",
+ "type": "quest",
+ "name": "Valuable Vantages",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   98095
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "Deathstalker Masoj needs you to restore three signaling marks around Hillsbrad Foothills. Bat riders rely on those points to guide strategic troops to their drop-off sites.",
+ "sections": [
+  {
+   "title": "Three Peaks",
+   "body": "You carry Apothecary Vials to the hills beside Dun Garok, the plateau above Dunholde Keep, and the Headland ridge above Hillsbrad. Their vapors draw bats back to the signaling points, helping Masoj's high command guide its troops through the foothills.",
+   "spoiler": 0
+  },
+  {
+   "title": "Masoj's Orders",
+   "body": "Masoj asks you to look for crushed, empty vials and renew the marks at all three locations. He calls the work part of the plans advancing under the Deathstalkers' banner.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is asking me to place the vials?",
+   "aliases": [
+    "who gave valuable vantages",
+    "masoj vials",
+    "who is Masoj"
+   ],
+   "answer": "Deathstalker Masoj asks you to restore the signaling marks around Hillsbrad Foothills."
+  },
+  {
+   "q": "Why are the signaling marks needed?",
+   "aliases": [
+    "why bats need marks",
+    "bat signals",
+    "what are the beacons for"
+   ],
+   "answer": "Bat riders use the signaling points to guide strategic troops to drop-off sites."
+  },
+  {
+   "q": "Where do I place the vials?",
+   "aliases": [
+    "vial locations",
+    "where are the peaks",
+    "three vial spots"
+   ],
+   "answer": "The three locations are the hills beside Dun Garok, the plateau above Dunholde Keep, and the Headland ridge above Hillsbrad."
+  },
+  {
+   "q": "What do the vial vapors do?",
+   "aliases": [
+    "what do vials do",
+    "bat scent",
+    "vial purpose"
+   ],
+   "answer": "The vapors act as a signal that draws bats back to the desired drop-off points."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "apothecary vials",
+  "bat riders",
+  "deathstalker masoj",
+  "dun garok",
+  "dunholde keep",
+  "headland",
+  "hillsbrad foothills",
+  "signaling beacons",
+  "valuable vantages"
+ ],
+ "related": [
+  "zone:hillsbrad",
+  "subzone:dun-garok"
+ ],
+ "style": 1,
+ "attribution": [
+  "In-game quest text: Valuable Vantages"
+ ]
+}

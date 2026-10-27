@@ -10,16 +10,16 @@
    "quest:3301"
   ]
  },
- "summary": "A Sample Snapjaw Shell is a durable tortoise carapace harvested from the freshwater oases of the Barrens. Remarkable for its lingering vitality, it is sent across the Great Sea to aid druidic research into rejuvenating the blighted woodlands of Silverpine Forest.",
+ "summary": "Across the Barrens, Sample Snapjaw Shells carry lingering vitality from freshwater oases. Tauren druids send them across the Great Sea to help heal Silverpine Forest.",
  "sections": [
   {
    "title": "A Spark of Oasis Life",
-   "body": "The snapping turtles that dwell in the lush, anomaly-tinged oases of the Barrens possess shells of surprising vigor. Unlike common shell matter, a fresh Sample Snapjaw Shell retains a faint inner radiance and an energetic pulse long after being separated from the creature. To the tauren druids observing the land's rapid ecological shifts, these carapaces embody the resilient, adaptive spark of Kalimdor's wilderness, suggesting that nature can flourish even amidst harsh arid surroundings.",
+   "body": "Snapjaws thrive in the lush, strange oases of the Barrens. Their durable shells keep a faint inner glow and pulse with energy long after separation from the creature. Tauren druids watching the land's swift changes see in these carapaces the resilient spark of Kalimdor's wilderness. Their vigor shows how life can flourish even in harsh, arid surroundings.",
    "spoiler": 0
   },
   {
    "title": "Healing Distant Lands",
-   "body": "Recognizing the latent vitality within the shell, tauren naturalists dispatch couriers across the sea to deliver specimens to Mura Runetotem at the Sepulcher. Stationed within the blighted expanses of Silverpine Forest, Mura seeks to aid the Forsaken by finding ways to heal the afflicted northlands. By examining the enduring life-force preserved inside the snapjaw's armor, she hopes to isolate secrets that can revitalize an ailing forest and encourage new growth in dying soil.",
+   "body": "Tauren naturalists send couriers across the sea with shells for Mura Runetotem at the Sepulcher. Stationed in Silverpine Forest's blighted expanses, Mura seeks ways to help the Forsaken heal the northlands. She studies the life-force preserved in the snapjaw's armor, hoping to find what can renew an ailing forest and bring growth back to dying soil.",
    "spoiler": 0
   }
  ],
@@ -31,7 +31,7 @@
     "what is snapjaw shell",
     "glowing shell"
    ],
-   "answer": "Unlike brittle mundane bone, this carapace retains an inner glow and seems to still pulse with life after collection. It comes from the snapjaws flourishing around the strange freshwater oases of the Barrens, where natural energies run unusually high."
+   "answer": "A Sample Snapjaw Shell keeps a faint inner glow and pulse of life long after collection. It comes from snapjaws around the Barrens' strange freshwater oases, where natural energies run unusually high."
   },
   {
    "q": "Who needs this sample?",
@@ -40,7 +40,7 @@
     "where do i bring shell",
     "mura runetotem quest"
    ],
-   "answer": "The shell is destined for Mura Runetotem, a tauren druid dwelling at the Sepulcher in Silverpine Forest. She traveled to the Eastern Kingdoms to assist the Forsaken and study how to bring dying lands back to life."
+   "answer": "Mura Runetotem, a tauren druid, needs the shell at the Sepulcher in Silverpine Forest. She is there to help the Forsaken find ways to heal dying lands."
   },
   {
    "q": "Why send a Barrens shell all the way to Silverpine?",
@@ -48,7 +48,7 @@
     "why send to silverpine",
     "shell connection to silverpine"
    ],
-   "answer": "Silverpine is an ailing, corrupted woodland, whereas the Barrens oases have suddenly exploded with stubborn, persistent life. The druids believe studying the robust vitality locked in Kalimdor's beasts might grant insight into healing Lordaeron's blighted soil."
+   "answer": "Silverpine's woodland is ailing and blighted, while life has suddenly surged at the Barrens oases and persisted. Druids hope the vitality in Kalimdor's beasts can teach them how to heal Lordaeron's damaged soil."
   },
   {
    "q": "Is the shell dangerous or tainted?",
@@ -56,17 +56,17 @@
     "is shell evil",
     "is the shell corrupted"
    ],
-   "answer": "No. The shell radiates pure vitality rather than dark magic. While the sudden overgrowth in the Barrens' oases is mysterious, the druids perceive this lingering energy as a natural resilience worth cultivating."
+   "answer": "No. The shell radiates pure vitality rather than dark magic. The druids find the lingering energy in the Barrens' mysterious sudden growth natural resilience worth cultivating."
   }
  ],
  "angles": [
   {
    "target": "class:Druid",
-   "text": "For druids of the Cenarion circle, studying the resilient vitality of oasis snapjaws provides crucial lessons in how life perseveres and how blighted ground might one day be healed."
+   "text": "For druids of the Cenarion Circle, studying oasis snapjaws offers crucial lessons in how life perseveres and how blighted ground might be healed."
   },
   {
    "target": "race:Tauren",
-   "text": "The delivery of this shell highlights the tauren commitment to the Earth Mother, demonstrating their willingness to extend aid and natural healing even to their undead allies across the sea."
+   "text": "As a tauren, you can see this shell's journey as a commitment to the Earth Mother. Your people carry aid and natural healing across the sea, even to their undead allies."
   }
  ],
  "keywords": [
@@ -88,5 +88,6 @@
  "attribution": [
   "Sample Snapjaw Shell",
   "Mura Runetotem (quest)"
- ]
+ ],
+ "style": 1
 }

@@ -1,0 +1,92 @@
+{
+ "key": "quest:95126",
+ "type": "quest",
+ "name": "The Moonsilver Blade",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   95126
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "Trevan Rol asks you to bring him Ott's Masterwork in Silverpine Forest. The blade is the last part of his work before he faces a beast.",
+ "sections": [
+  {
+   "title": "The Blade",
+   "body": "Ott thanks you for the opportunity and asks you to pass his gratitude to Trevan. You carry Ott's Masterwork back to Trevan Rol in Silverpine Forest.",
+   "spoiler": 0
+  },
+  {
+   "title": "Trevan's Approval",
+   "body": "Trevan inspects the blade and approves of Ott's work. He says the only thing left is to kill the beast, and directs you to speak with Lumina when you are ready.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who made Ott's Masterwork?",
+   "aliases": [
+    "who made the blade",
+    "ott blade",
+    "masterwork maker"
+   ],
+   "answer": "Ott made the blade and sent it with you to Trevan Rol."
+  },
+  {
+   "q": "Who is Trevan Rol?",
+   "aliases": [
+    "who is trevan",
+    "trevan blade",
+    "trevan rol"
+   ],
+   "answer": "Trevan Rol is the one who receives and inspects Ott's Masterwork in Silverpine Forest."
+  },
+  {
+   "q": "Where do I bring the blade?",
+   "aliases": [
+    "where blade go",
+    "take ott's masterwork where",
+    "blade destination"
+   ],
+   "answer": "Bring Ott's Masterwork to Trevan Rol in Silverpine Forest."
+  },
+  {
+   "q": "What does Trevan think of the blade?",
+   "aliases": [
+    "trevan like blade",
+    "is ott's blade good",
+    "trevan approval"
+   ],
+   "answer": "Trevan inspects the blade and says it will do nicely."
+  },
+  {
+   "q": "Who should I speak with after Trevan?",
+   "aliases": [
+    "what next",
+    "who is lumina",
+    "speak to lumina"
+   ],
+   "answer": "Trevan directs you to speak with Lumina when you are ready."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "beast",
+  "lumina",
+  "moonsilver blade",
+  "ott",
+  "ott's masterwork",
+  "silverpine forest",
+  "trevan rol"
+ ],
+ "related": [
+  "quest:95125",
+  "zone:silverpine"
+ ],
+ "style": 1,
+ "attribution": [
+  "In-game quest text: The Moonsilver Blade"
+ ]
+}

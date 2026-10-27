@@ -1,0 +1,58 @@
+{
+ "key": "quest:95508",
+ "type": "quest",
+ "name": "Unwelcome Guests",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   95508
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "Someone thanks you for helping them survive an encounter with unwelcome guests. Their gratitude is clear, though the trouble that brought you together is not described.",
+ "sections": [],
+ "faq": [
+  {
+   "q": "What happened here?",
+   "aliases": [
+    "what happened",
+    "unwelcome guests",
+    "guest trouble"
+   ],
+   "answer": "The speaker says you helped them survive, but gives no details about the encounter."
+  },
+  {
+   "q": "Who is thanking me?",
+   "aliases": [
+    "who is this",
+    "who thanked me",
+    "quest giver"
+   ],
+   "answer": "The completion text does not name the speaker."
+  },
+  {
+   "q": "Why are they in my debt?",
+   "aliases": [
+    "why thank me",
+    "why do they owe me",
+    "helped them"
+   ],
+   "answer": "They say you helped them survive, but do not explain what happened."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "debt",
+  "help",
+  "survive",
+  "thanks",
+  "unwelcome guests"
+ ],
+ "related": [],
+ "style": 1,
+ "attribution": [
+  "In-game quest text: Unwelcome Guests"
+ ]
+}

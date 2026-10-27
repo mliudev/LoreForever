@@ -1,9 +1,10 @@
 // Inviting friends and the creator program (lib/referrals.js). The rules that guard money and abuse: a friend counts
 // only once Willo has given them a first real answer, once per Google account, never from the inviter's computer,
 // browser or card; every second friend gives a free month (one a calendar month) and the fifth of each ten bonus
-// answers, each once (a Stripe credit for a paying plan, a month on us for a free one), at most ten a month; a creator earns 60% of a subscriber's first paid
-// month without tax, payable after the hold, taken back on a refund, paid once, and their audience gets 15% off its
-// first month with the creator's link or code. Stripe and Gemini are mocked through
+// answers, each once (a Stripe credit for a paying plan, a month on us for a free one), at most ten a month; a creator
+// earns their tier's share (60% rising to 90%) of a subscriber's first payment without tax, during their term only,
+// payable after the hold, taken back on a refund, paid once; they get Champion free for the term; and their audience
+// gets 15% off its first month with the creator's link or code. Stripe and Gemini are mocked through
 // fetch; D1 is node:sqlite (helpers.mjs). Run: node --test 'site/tests/*.test.mjs'
 
 import { test, beforeEach, afterEach } from "node:test";
@@ -14,12 +15,13 @@ import { onRequestGet as shareLink } from "../functions/w/[code].js";
 import { onRequest as device } from "../functions/api/device/[action].js";
 import { onRequest as billing } from "../functions/api/billing/[action].js";
 import { onRequest as answer } from "../functions/api/companion/answer.js";
+import { onRequest as creatorsPage } from "../functions/api/creators/[action].js";
 import { findOrCreateUser, startSession, setup, deleteUser } from "../lib/accounts.js";
 import { startLink, claimToken } from "../lib/devices.js";
 import { setupBilling, planFor } from "../lib/billing.js";
 import { setupReferrals, shareCode, saveCreator, referralReport, shareSummary, noteJoin, noteBrowser, activateReferral,
-  settleRewards, payoutList, payCreator, setStripePayouts, startConnect, refreshConnect, applyCreator, decideApplication,
-  creatorDashboard, connectAccount, REWARDS, PAYOUTS } from "../lib/referrals.js";
+  settleRewards, payoutList, payCreator, retireCreator, applyCreator, decideApplication, REWARDS, PAYOUTS, CREATOR_TIERS,
+  CREATOR_TERM } from "../lib/referrals.js";
 
 import { d1 } from "./helpers.mjs";
 
@@ -333,12 +335,19 @@ function payments(cards = {}) {
 const promoCodes = () => { routes["POST promotion_codes"] = call =>
   Response.json({ id: `promo_${call.body.get("code").toLowerCase()}`, code: call.body.get("code"), active: true }); };
 
-test("a creator earns 60% of a subscriber's first paid month, without tax; later months are ours; paid once, after the hold", async () => {
+// Days from NOW (10/16) to the first day of the agreement's term, and a creator's term as /admin sets it.
+const TERM_DAY = (Date.parse(`${CREATOR_TERM.start}T00:00:00Z`) - NOW) / (DAY * 1000);
+const creatorsApi = async (user, action, body) => creatorsPage({ env, params: { action }, request: new Request(`${ORIGIN}/api/creators/${action}`,
+  body ? { method: "POST", body: JSON.stringify(body), headers: { "Content-Type": "application/json", Origin: ORIGIN, Cookie: await session(user) } }
+    : { headers: { Cookie: await session(user) } }) }).then(r => r.json());
+
+test("a creator earns 60% of a Conversion's first payment, without tax; upgrades and renewals earn nothing; paid once, after the hold", async () => {
   const owner = await player("ziqo-owner", "ziqo@example.com");
   promoCodes();
   const saved = await saveCreator(env, { code: "Ziqo", name: "Ziqo", account: "ziqo@example.com" });
-  assert.deepEqual([saved.creator.code, saved.creator.share_pct, saved.creator.months, saved.creator.discount, saved.creator.gift,
-                    saved.creator.user_id], ["ziqo", 60, 1, 15, 0, owner.id], "the 10/19 deal: 60% of the first month, 15% off for fans");
+  assert.deepEqual([saved.creator.code, saved.creator.share_pct, saved.creator.discount, saved.creator.gift, saved.creator.user_id],
+    ["ziqo", CREATOR_TIERS[0].pct, 15, 0, owner.id], "the deal: 60% to start, 15% off for fans");
+  assert.equal(saved.creator.term_start, CREATOR_TERM.start, "the agreement's start date");
   // Their code for the audience: 15% off a first month, once, first payment only.
   const coupon = stripeCalls.find(c => c.method === "POST" && c.path === "coupons").body;
   assert.deepEqual([coupon.get("id"), coupon.get("percent_off"), coupon.get("duration")], ["lore_forever_creator_15", "15", "once"]);
@@ -362,53 +371,90 @@ test("a creator earns 60% of a subscriber's first paid month, without tax; later
 
   payments();
   const customer = env.DB.sqlite.prepare("SELECT customer_id FROM entitlements WHERE user_id = ?").get(fan.id).customer_id;
-  // A few half-price beta days, then the first whole month (tax left out), an upgrade within it, then the renewal.
-  await hook(paidInvoice("in_beta", customer, 0, 10, { amount: 250 }));
-  await hook(paidInvoice("in_beta", customer, 0, 10, { amount: 250 }));
-  // (October 26 to November 26: a calendar month, as Stripe's are.)
-  await hook(paidInvoice("in_m1", customer, 10, 41, { amount: 1299, tax: 90 }));
-  await hook(paidInvoice("in_up", customer, 20, 41, { amount: 300 }));
-  await hook(paidInvoice("in_m2", customer, 41, 71, { amount: 999 }));
-  const earned = env.DB.sqlite.prepare("SELECT invoice_id, paid_cents, share_cents FROM creator_earnings ORDER BY paid_at").all()
+  // In the term: the first payment (Legend, tax left out), sent twice, an upgrade within the month, then the renewal.
+  const first = TERM_DAY + 2;
+  await hook(paidInvoice("in_m1", customer, first, first + 31, { amount: 2199, tax: 200 }));
+  await hook(paidInvoice("in_m1", customer, first, first + 31, { amount: 2199, tax: 200 }));
+  await hook(paidInvoice("in_up", customer, first + 10, first + 31, { amount: 300 }));
+  await hook(paidInvoice("in_m2", customer, first + 31, first + 61, { amount: 999 }));
+  const earned = env.DB.sqlite.prepare("SELECT invoice_id, paid_cents, share_cents, pct FROM creator_earnings ORDER BY paid_at").all()
     .map(r => ({ ...r }));
-  assert.deepEqual(earned, [{ invoice_id: "in_beta", paid_cents: 250, share_cents: 150 },
-                            { invoice_id: "in_m1", paid_cents: 1209, share_cents: 725 },
-                            { invoice_id: "in_up", paid_cents: 300, share_cents: 180 }]);
+  assert.deepEqual(earned, [{ invoice_id: "in_m1", paid_cents: 1999, share_cents: 1199, pct: 60 }]);
 
-  // In the hold: nothing due yet. After it: one payout, once.
-  assert.equal((await payoutList(env, new Date(NOW + 20 * DAY * 1000))).due.length, 0);
-  const later = new Date(NOW + (20 + PAYOUTS.holdDays) * DAY * 1000);
+  // The creator gives their PayPal email on their dashboard; until then the list says nothing about where to send it.
+  assert.match((await creatorsApi(owner, "payout", { method: "paypal", email: "" })).error, /PayPal/);
+  assert.equal((await creatorsApi(owner, "payout", { method: "paypal", email: "Ziqo@Example.com" })).ok, true);
+
+  // In the hold: nothing due yet. After it: one payout, for the cycle that ended, once.
+  const at = days => new Date(NOW + days * DAY * 1000);
+  assert.equal((await payoutList(env, at(first + 20))).due.length, 0);
+  const later = at(first + PAYOUTS.holdDays + 5);
   const list = await payoutList(env, later);
-  assert.deepEqual(list.due.map(d => [d.code, d.due, d.method]), [["ziqo", 1055, "manual"]]);
-  const paid = await payCreator(env, "ziqo", { method: "manual", now: later });
-  assert.deepEqual([paid.payout.cents, paid.payout.items, paid.payout.status], [1055, 3, "paid"]);
+  assert.deepEqual(list.due.map(d => [d.code, d.due, d.payout.method, d.payout.email, d.taxForm, d.cycle.n]),
+    [["ziqo", 1199, "paypal", "ziqo@example.com", null, 1]]);
+  const paid = await payCreator(env, "ziqo", { note: "PayPal 5TY123", now: later });
+  assert.deepEqual([paid.payout.cents, paid.payout.items, paid.payout.status, paid.payout.cycle], [1199, 1, "paid", 1]);
   assert.match((await payCreator(env, "ziqo", { now: later })).error, /Nothing is due/);
 
-  // A refund after the payout comes off the next one.
+  // A refund after the payout comes off the next one, and the Conversion no longer counts.
   await hook({ id: "evt_refund", type: "charge.refunded", livemode: false,
-    data: { object: { id: "ch_1", object: "charge", payment_intent: "pi_in_m1", refunded: true, amount_refunded: 999 } } });
-  const after = (await payoutList(env, later)).held.find(h => h.code === "ziqo");
+    data: { object: { id: "ch_1", object: "charge", payment_intent: "pi_in_m1", refunded: true, amount_refunded: 2199 } } });
   assert.equal((await referralReport(env, ORIGIN, later)).ledger.find(e => e.invoice_id === "in_m1").state, "reversed after payout");
-  assert.equal(after, undefined, "owed less than nothing: not on the list");
-  const dash = await creatorDashboard(env, owner.id, ORIGIN, later);
-  assert.deepEqual([dash.numbers.clicks, dash.numbers.signups, dash.numbers.activated, dash.numbers.paying,
-                    dash.numbers.earned, dash.numbers.paidOut, dash.numbers.reversed], [1, 1, 1, 1, 330, 1055, 725]);
-  assert.deepEqual([dash.promoCode, dash.terms.sharePct, dash.terms.discount], ["ZIQO", 60, 15], "the code to tell their audience");
+  assert.equal((await payoutList(env, later)).held.find(h => h.code === "ziqo"), undefined, "owed less than nothing: not on the list");
+  const dash = (await creatorsApi(owner, "me")).creator;
+  assert.deepEqual([dash.numbers.clicks, dash.numbers.signups, dash.numbers.activated, dash.numbers.paying, dash.numbers.conversions,
+                    dash.numbers.earned, dash.numbers.paidOut, dash.numbers.reversed], [1, 1, 1, 1, 0, 0, 1199, 1199]);
+  assert.deepEqual([dash.promoCode, dash.terms.discount, dash.payouts.method, dash.payouts.email], ["ZIQO", 15, "paypal", "ziqo@example.com"]);
+  assert.deepEqual([dash.tier.pct, dash.tier.next.pct, dash.tier.next.more], [CREATOR_TIERS[0].pct, CREATOR_TIERS[1].pct, CREATOR_TIERS[1].from]);
 });
 
 test("anyone may type a creator's code at checkout: the subscriber is the creator's, and earns them 60%", async () => {
   promoCodes();
   await saveCreator(env, { code: "ziqo", name: "Ziqo" });
-  const viewer = await player("viewer");
-  await env.DB.prepare("INSERT INTO entitlements (user_id, customer_id, updated) VALUES (?, 'cus_viewer', ?)")
-    .bind(viewer.id, new Date(NOW).toISOString()).run();
-  payments();
-  routes["GET invoices/in_typed"] = () => Response.json({ id: "in_typed", discounts: [{ promotion_code: "promo_ziqo" }] });
-  // Hero at 15% off (499 - 75), as Stripe charges it.
-  await hook(paidInvoice("in_typed", "cus_viewer", 0, 31, { amount: 424, discounts: ["di_1"] }));
+  const viewer = await typed("ziqo", "viewer", TERM_DAY + 1);
   assert.deepEqual([row(viewer).creator, row(viewer).via], ["ziqo", "code"]);
   const earned = env.DB.sqlite.prepare("SELECT creator, paid_cents, share_cents, pct FROM creator_earnings").get();
   assert.deepEqual({ ...earned }, { creator: "ziqo", paid_cents: 424, share_cents: 254, pct: 60 });
+});
+
+// A subscriber who types the creator's code at checkout and pays Hero at 15% off (499 - 75, as Stripe charges it) on
+// day `day` (days from now): their first payment.
+async function typed(code, sub, day) {
+  const viewer = await player(sub);
+  await env.DB.prepare("INSERT INTO entitlements (user_id, customer_id, updated) VALUES (?, ?, ?)")
+    .bind(viewer.id, `cus_${sub}`, new Date(NOW).toISOString()).run();
+  payments();
+  const promo = env.DB.sqlite.prepare("SELECT promo_id FROM creators WHERE code = ?").get(code).promo_id;
+  routes[`GET invoices/in_${sub}`] = () => Response.json({ id: `in_${sub}`, discounts: [{ promotion_code: promo }] });
+  await hook(paidInvoice(`in_${sub}`, `cus_${sub}`, day, day + 31, { amount: 424, discounts: ["di_1"] }));
+  return viewer;
+}
+
+test("the tiers: the Conversion that reaches a step earns its rate, earlier ones keep theirs; only during the term", async () => {
+  promoCodes();
+  await saveCreator(env, { code: "ziqo", name: "Ziqo" });
+  const day = TERM_DAY + 3;
+  const pctOf = sub => env.DB.sqlite.prepare("SELECT pct FROM creator_earnings WHERE invoice_id = ?").get(`in_${sub}`)?.pct;
+  // Before the term starts, a first payment earns nothing.
+  await typed("ziqo", "early", TERM_DAY - 1);
+  assert.equal(pctOf("early"), undefined);
+  // The step below 65%: Conversions already made in the term.
+  const step = CREATOR_TIERS[1];
+  for (let n = 1; n < step.from - 1; n++)
+    await env.DB.prepare("INSERT INTO creator_earnings (invoice_id, creator, paid_cents, share_cents, pct, paid_at, recorded, payable_at) " +
+      "VALUES (?, 'ziqo', 424, 254, 60, ?, ?, ?)").bind(`in_seed_${n}`, new Date(NOW + day * DAY * 1000).toISOString(),
+      new Date(NOW).toISOString(), new Date(NOW + (day + 30) * DAY * 1000).toISOString()).run();
+  await typed("ziqo", "last-of-tier", day + 1);
+  assert.equal(pctOf("last-of-tier"), CREATOR_TIERS[0].pct);
+  await typed("ziqo", "reaches", day + 2);
+  assert.equal(pctOf("reaches"), step.pct, "the 50th earns 65%");
+  assert.equal(pctOf("last-of-tier"), CREATOR_TIERS[0].pct, "earlier ones keep theirs");
+  const report = (await referralReport(env, ORIGIN)).creators.find(c => c.code === "ziqo");
+  assert.deepEqual([report.conversions, report.tier.pct, report.tier.next.pct], [step.from, step.pct, CREATOR_TIERS[2].pct]);
+  // After the last day of the term, a first payment earns nothing.
+  const after = (Date.parse(`${report.term_end}T00:00:00Z`) - NOW) / (DAY * 1000) + 1;
+  await typed("ziqo", "late", after);
+  assert.equal(pctOf("late"), undefined);
 });
 
 // A creator with earnings rows of the given cents, past their hold (reversed: after they were paid out, clawed back).
@@ -432,7 +478,7 @@ test("a creator under the $10 minimum isn't paid: it's carried over, untied, and
   await owed("small", [[509]]);
   assert.equal((await payoutList(env)).due.length, 0, "not on the list");
   const refused = await payCreator(env, "small", { method: "manual" });
-  assert.equal(refused.error, "Under $10.00 is carried to next month: small has $5.09 due.");
+  assert.equal(refused.error, "Under $10.00 is carried to the next payout: small has $5.09 due.");
   assert.equal(refused.payout, undefined);
   assert.deepEqual(earnings("small").map(e => e.payout_id), [null], "still payable later");
   assert.equal(payouts("small", "paid").length, 0);
@@ -480,57 +526,30 @@ test("a subscriber who pays with the creator's own card brings them nothing", as
   assert.equal(env.DB.sqlite.prepare("SELECT COUNT(*) AS n FROM creator_earnings").get().n, 0);
 });
 
-test("creators apply, /admin approves them, and Stripe payouts go by transfer once they're switched on", async () => {
+test("creators apply, /admin approves them with Champion free for the term, and ending the agreement stops new earnings and the plan", async () => {
   const fan = await player("lorenerd", "nerd@example.com");
   assert.match((await applyCreator(env, fan, { name: "Lore Nerd", channel: "youtube.com/nerd", agree: true })).error, /link/);
   assert.match((await applyCreator(env, fan, { name: "Lore Nerd", channel: "https://youtube.com/@nerd" })).error, /terms/);
   const { application } = await applyCreator(env, fan, { name: "Lore Nerd", channel: "https://youtube.com/@nerd", agree: true });
   assert.equal(application.status, "pending");
+  promoCodes();
   const { creator } = await decideApplication(env, application.id, { approve: true });
   assert.deepEqual([creator.code, creator.user_id, creator.share_pct, creator.discount], ["lore-nerd", fan.id, 60, 15]);
+  assert.equal((await planFor(env, fan.id)).id, "champion", "free Champion from the day they're in");
+  const lastDay = new Date(Date.parse(`${creator.term_end}T12:00:00Z`));
+  assert.equal((await planFor(env, fan.id, lastDay)).id, "champion", "through the term's last day");
+  assert.equal((await planFor(env, fan.id, new Date(lastDay.getTime() + DAY * 1000))).id, "free", "and not after it");
 
-  // Payouts through Stripe wait for the switch, then an Express account the creator sets up.
-  assert.match((await startConnect(env, creator, ORIGIN)).error, /aren't open yet/);
-  // The switch proves Connect works with the site's key: an empty Express account, made and deleted.
-  routes["POST accounts"] = () => Response.json({ error: { message: "You can only create new accounts if you've signed up for Connect" } }, { status: 400 });
-  assert.match((await setStripePayouts(env, true)).error, /signed up for Connect/);
-  routes["POST accounts"] = () => Response.json({ id: "acct_probe" });
-  routes["DELETE accounts/acct_probe"] = () => Response.json({ id: "acct_probe", deleted: true });
-  assert.deepEqual(await setStripePayouts(env, true), { on: true });
-  assert.ok(stripeCalls.some(c => c.method === "DELETE" && c.path === "accounts/acct_probe"));
-  // The probe asks for the account startConnect does: a US Express account takes card payments with its transfers
-  // (transfers alone need Stripe's approval).
-  const probe = stripeCalls.filter(c => c.path === "accounts" && c.method === "POST").at(-1).body;
-  assert.deepEqual([probe.get("type"), probe.get("capabilities[card_payments][requested]"), probe.get("capabilities[transfers][requested]")],
-    ["express", "true", "true"]);
-  stripeCalls.length = 0;
-  routes["POST accounts"] = () => Response.json({ id: "acct_nerd" });
-  routes["POST account_links"] = () => Response.json({ url: "https://connect.stripe.com/setup/e/acct_nerd" });
-  assert.equal((await startConnect(env, creator, ORIGIN, { country: "us" })).url, "https://connect.stripe.com/setup/e/acct_nerd");
-  const acct = stripeCalls.find(c => c.path === "accounts" && c.method === "POST").body;
-  assert.deepEqual([acct.get("type"), acct.get("country"), acct.get("capabilities[card_payments][requested]"),
-    acct.get("capabilities[transfers][requested]"), acct.get("business_profile[url]"), acct.get("tos_acceptance[service_agreement]")],
-    ["express", "US", "true", "true", "https://youtube.com/@nerd", null]);
-  // Outside the US: transfers only, under the recipient agreement (cross-border payouts can't take card payments).
-  assert.deepEqual(connectAccount({ country: "GB", channel: "twitch.tv/x" }), { type: "express", country: "GB",
-    capabilities: { transfers: { requested: true } }, tos_acceptance: { service_agreement: "recipient" }, metadata: {} });
-  routes["GET accounts/acct_nerd"] = () => Response.json({ id: "acct_nerd", payouts_enabled: true, capabilities: { transfers: "active" } });
-  const row = env.DB.sqlite.prepare("SELECT * FROM creators WHERE code = 'lore-nerd'").get();
-  assert.equal((await refreshConnect(env, row)).ready, true);
-
-  await env.DB.prepare("INSERT INTO creator_earnings (invoice_id, creator, paid_cents, share_cents, pct, paid_at, recorded, " +
-    "payable_at) VALUES ('in_a', 'lore-nerd', 1999, 1399, 70, ?, ?, ?)").bind(new Date(NOW - 40 * DAY * 1000).toISOString(),
-    new Date(NOW).toISOString(), new Date(NOW - 10 * DAY * 1000).toISOString()).run();
-  let down = true;
-  routes["POST transfers"] = () => down ? Response.json({ error: { message: "Insufficient funds" } }, { status: 400 })
-    : Response.json({ id: "tr_1" });
-  assert.match((await payCreator(env, "lore-nerd", { method: "stripe" })).error, /Insufficient funds/);
-  assert.equal((await payoutList(env)).due[0].due, 1399, "a failed transfer leaves it due");
-  down = false;
-  const { payout } = await payCreator(env, "lore-nerd", { method: "stripe" });
-  assert.deepEqual([payout.cents, payout.transfer_id, payout.method], [1399, "tr_1", "stripe"]);
-  const transfer = stripeCalls.filter(c => c.path === "transfers").at(-1);
-  assert.deepEqual([transfer.body.get("amount"), transfer.body.get("destination"), transfer.key], ["1399", "acct_nerd", `lf-payout-${payout.id}`]);
-  const dash = await creatorDashboard(env, fan.id, ORIGIN);
-  assert.deepEqual([dash.payouts.ready, dash.payouts.last.cents, dash.numbers.payable], [true, 1399, 0]);
+  // /admin ends the agreement: the plan ends now, the link stops, and a first payment after that earns nothing; what
+  // was earned before is still paid.
+  const day = TERM_DAY + 2;
+  await typed("lore-nerd", "before-end", day);
+  await retireCreator(env, "lore-nerd", true, new Date(NOW + (day + 1) * DAY * 1000));
+  assert.equal((await planFor(env, fan.id, new Date(NOW + (day + 2) * DAY * 1000))).id, "free");
+  assert.equal((await open("lore-nerd")).cookie, "", "the link no longer brings anyone");
+  await typed("lore-nerd", "after-end", day + 2);
+  assert.deepEqual(env.DB.sqlite.prepare("SELECT invoice_id FROM creator_earnings").all().map(e => e.invoice_id), ["in_before-end"]);
+  const later = new Date(NOW + (day + PAYOUTS.holdDays + 60) * DAY * 1000);
+  await env.DB.prepare("UPDATE creator_earnings SET share_cents = 1200").run();
+  assert.equal((await payCreator(env, "lore-nerd", { now: later })).payout.cents, 1200, "paid on the normal schedule after the end");
 });

@@ -20,21 +20,21 @@
    "From The Wreckage...."
   ]
  },
- "summary": "Gar'Thok of Razor Hill directs Horde scouts to scavenge the sunken remains of Grand Admiral Proudmoore's fleet off the Scuttle Coast. By recovering advanced Gnomish Tools from the watery wreckage, the Horde hopes to dissect Alliance engineering and turn that technological advantage to its own benefit.",
+ "summary": "Gar'Thok sends Horde scouts to the wrecks off the Scuttle Coast for Gnomish Tools. The Horde hopes to study Alliance engineering and turn its advantage to their own use.",
  "sections": [
   {
    "title": "Echoes of the Fleet",
-   "body": "When Grand Admiral Daelin Proudmoore brought the naval might of Kul Tiras to Kalimdor, his vessels choked the shoreline near Tiragarde Keep. Following his defeat, shattered hulls settled along the Scuttle Coast. While the surviving Kul Tiran soldiers fortify the keep itself, the remnants of their armada lie broken on the shoals, slowly rotting beneath the tide.",
+   "body": "Grand Admiral Daelin Proudmoore brought Kul Tiras's fleet to Kalimdor, where its ships crowded the shore near Tiragarde Keep. After his defeat, broken hulls sank along the Scuttle Coast. Kul Tiran soldiers who survived fortify the keep, while the fleet's wreckage lies scattered on the shoals beneath the tide.",
    "spoiler": 0
   },
   {
    "title": "Gnomish Contraptions",
-   "body": "Orcish warfare traditionally relies on raw strength, iron, and blood, but the Horde recognizes the dangerous edge provided by Alliance ingenuity. Gnomish technicians accompanied the expeditionary fleets, outfitting the Alliance vessels with complex machinery and precision gear. Gar'Thok seeks to recover these submerged tools so the Horde can unravel the mechanics behind them.",
+   "body": "The Horde knows Alliance ingenuity can give its enemies an edge over orcish strength, iron, and blood. Gnomish technicians sailed with the expeditionary fleet and equipped its ships with complex machinery and precise tools. Gar'Thok wants those tools recovered from the wrecks so the Horde can learn how they work.",
    "spoiler": 0
   },
   {
    "title": "Destined for Orgrimmar",
-   "body": "The salvaged tools are not meant to remain gathering dust in Razor Hill. Gar'Thok arranges for them to be transported by caravan directly to Orgrimmar. By reverse-engineering gnomish instruments, Horde craftspeople and tacticians aim to better counter Alliance devices in coming conflicts while bolstering their own emerging industries.",
+   "body": "Gar'Thok sends the salvaged tools by caravan from Razor Hill to Orgrimmar. Horde craftspeople and tacticians hope to study the gnomish instruments and better counter Alliance devices in future conflicts, while strengthening their own industries.",
    "spoiler": 0
   }
  ],
@@ -46,7 +46,7 @@
     "why salvage wreck",
     "gar'thok reason for tools"
    ],
-   "answer": "The Horde wants to understand the advanced technology utilized by the Alliance. Gnomes build intricate machinery for human forces, and by studying their tools, Horde tacticians can figure out how to counter Alliance devices while adopting useful mechanics for their own craftspeople."
+   "answer": "The Horde wants to understand the Alliance's advanced technology. Gnomes make intricate machinery for human forces, and studying their tools may show Horde tacticians how to counter Alliance devices and adapt useful designs for their own craftspeople."
   },
   {
    "q": "Whose ships are wrecked off the Scuttle Coast?",
@@ -55,7 +55,7 @@
     "who wrecked ships durotar",
     "proudmoore fleet wreckage"
    ],
-   "answer": "The sunken vessels belonged to Grand Admiral Daelin Proudmoore's Kul Tiras fleet. After landing on the shores of Durotar to wage war against Thrall's newly founded nation, several ships were destroyed along the coastline just east of Tiragarde Keep."
+   "answer": "The wrecked ships belonged to Grand Admiral Daelin Proudmoore's Kul Tiras fleet. After landing in Durotar to fight Thrall's newly founded nation, several were destroyed along the coast just east of Tiragarde Keep."
   },
   {
    "q": "Where do the recovered tools go after Razor Hill?",
@@ -64,7 +64,7 @@
     "where do gnomish tools go",
     "who gets the salvage"
    ],
-   "answer": "Gar'Thok sends the recovered Gnomish Tools on the next caravan bound for Orgrimmar. There, engineers and craftsmen can study the contraptions thoroughly to help strengthen the capital's defenses and industry."
+   "answer": "Gar'Thok sends the recovered Gnomish Tools by caravan from Razor Hill to Orgrimmar. Engineers and craftspeople there can study them to strengthen the capital's defenses and industry."
   },
   {
    "q": "Why are gnomish tools found on human warships?",
@@ -73,7 +73,7 @@
     "gnomes on proudmoore ships",
     "alliance gnomish tech"
    ],
-   "answer": "The gnomes are close allies of the humans within the Grand Alliance, frequently providing naval expeditions with mechanical expertise, siege gear, and precision maintenance tools to keep war fleets operational."
+   "answer": "Gnomes are close allies of the humans in the Grand Alliance. They often bring mechanical expertise, siege gear, and precision tools to keep human warships working."
   },
   {
    "q": "What is the Scuttle Coast?",
@@ -82,7 +82,7 @@
     "scuttle coast location",
     "durotar sunken ships area"
    ],
-   "answer": "The Scuttle Coast is the eastern shoreline of Durotar running past Tiragarde Keep. It is named for the half-submerged and sunken vessels littering the shallow waters following the battles against Proudmoore's expedition."
+   "answer": "The Scuttle Coast is Durotar's eastern shore, running past Tiragarde Keep. Its shallow waters hold half-submerged and sunken ships left after the battles against Proudmoore's expedition."
   },
   {
    "q": "How does this task relate to the threat at Tiragarde Keep?",
@@ -91,21 +91,21 @@
     "vanquish the betrayers link",
     "why do this after tiragarde"
    ],
-   "answer": "After clearing out Kul Tiran marines during the assault on Tiragarde Keep, Gar'Thok uses the opportunity to loot the remaining Alliance resources. Stripping the nearby shipwrecks ensures the Horde profits from the enemy's defeat before scavengers or tides take everything."
+   "answer": "After the assault on Tiragarde Keep clears out Kul Tiran marines, Gar'Thok takes the chance to claim the remaining Alliance resources. The Horde can profit from the defeat by stripping nearby wrecks before scavengers or the tide take everything."
   }
  ],
  "angles": [
   {
    "target": "profession:Engineering",
-   "text": "For tinkers, the recovery of Gnomish Tools highlights the early technological friction between Alliance mechanical precision and the burgeoning craft industries of the Horde."
+   "text": "For you as a tinker, the Gnomish Tools show the early clash between Alliance mechanical precision and the Horde's growing craft industries."
   },
   {
    "target": "faction:Horde",
-   "text": "Gar'Thok views every scrap of Alliance metal as a dual prize: knowledge to defeat future invasions and material to help build the nascent nation of Durotar."
+   "text": "As a member of the Horde, you know Gar'Thok sees Alliance metal as both knowledge for defeating future invasions and material for building Durotar."
   },
   {
    "target": "race:Gnome",
-   "text": "Though small in stature, gnomes leave their mark everywhere the Alliance sails; their sophisticated gear is respected enough by the Horde to warrant dedicated recovery missions."
+   "text": "As a gnome, you leave your mark wherever the Alliance sails. The Horde respects your sophisticated gear enough to send scouts to recover it."
   }
  ],
  "keywords": [
@@ -131,5 +131,6 @@
  ],
  "attribution": [
   "From The Wreckage...."
- ]
+ ],
+ "style": 1
 }

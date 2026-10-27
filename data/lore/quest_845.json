@@ -17,16 +17,16 @@
   "wiki": "The Zhevra (Classic)",
   "chain": []
  },
- "summary": "The Zhevra is an early hunting trial issued by Sergra Darkthorn at the Crossroads. As part of a progressing test of martial prowess across the savannas of the Barrens, young hunters are charged with tracking down swift zhevra runners and taking their powerful hooves.",
+ "summary": "At the Crossroads, Sergra Darkthorn sends young Horde warriors after the zhevra. Their hunt tests the skills needed to face the Barrens' more dangerous beasts.",
  "sections": [
   {
    "title": "A Step Up in the Savanna",
-   "body": "Following an initial cull of the Barrens' overgrown plainstriders, Sergra Darkthorn directs fledgling Horde warriors toward slightly more formidable game. The striped zhevras roam in herds across the northern and southern plains. While not the apex predators of the savanna, they are fleet-footed herd beasts known for their stubborn endurance and powerful, bone-cracking kicks.",
+   "body": "After the plainstriders, Sergra Darkthorn sends you after tougher prey. Zhevras run in herds across the northern and southern Barrens. They are not the savanna's fiercest beasts, but they are swift and stubborn, and their kicks can break bone.",
    "spoiler": 0
   },
   {
    "title": "The Trials of Darkthorn",
-   "body": "To Sergra, this hunt is less about securing trade goods and more about testing an adventurer's developing edge. She demands four intact hooves as physical proof of the kill, warning that the beast's rear kick has enough force to drop a grown tauren onto its haunches. Proving oneself against these fleet runners earns a hunter entry into even deadlier trials against the predatory prowlers of the plains.",
+   "body": "Sergra uses the hunt to test your growing skill. She asks for four intact hooves as proof of the kill and warns that a zhevra's rear kick can knock a grown tauren onto their haunches. Passing this trial brings you closer to facing the plains' predatory prowlers.",
    "spoiler": 0
   }
  ],
@@ -38,7 +38,7 @@
     "quest giver zhevra",
     "sergra darkthorn quest"
    ],
-   "answer": "Sergra Darkthorn, an experienced orc shaman stationed at the Crossroads in the central Barrens, issues this trial to test growing Horde warriors."
+   "answer": "Sergra Darkthorn, an experienced orc shaman at the Crossroads in the central Barrens, sets this trial to test growing Horde warriors."
   },
   {
    "q": "Where are the zhevra found?",
@@ -47,7 +47,7 @@
     "zhevra location",
     "barrens zhevra map"
    ],
-   "answer": "Zhevra runners roam the open plains both north and south of the Crossroads across the central Barrens."
+   "answer": "Zhevra runners roam the open plains north and south of the Crossroads in the central Barrens."
   },
   {
    "q": "Why does Sergra want zhevra hooves?",
@@ -56,7 +56,7 @@
     "zhevra hoof proof",
     "why hunt zhevra"
    ],
-   "answer": "The hooves serve as trophy proof of a clean hunt. Their legs are remarkably powerful, and returning with four hooves demonstrates that a hunter can overcome a beast capable of knocking down even a mighty tauren."
+   "answer": "The hooves prove that you killed a zhevra. Bringing back four shows you overcame a beast whose powerful legs can knock down even a mighty tauren."
   },
   {
    "q": "What comes after this quest?",
@@ -65,7 +65,7 @@
     "zhevra follow up",
     "darkthorn next quest"
    ],
-   "answer": "After proving your capability against zhevra, Sergra tests you against true predators in the quest Prowlers of the Barrens."
+   "answer": "After you prove yourself against zhevra, Sergra tests you against the Barrens' predators in Prowlers of the Barrens."
   },
   {
    "q": "Are zhevras dangerous?",
@@ -74,7 +74,7 @@
     "zhevra danger",
     "zhevra kick"
    ],
-   "answer": "While generally passive grazers, zhevras possess tremendous leg strength. Sergra warns that a single direct kick from a startled or cornered zhevra runner can knock a sturdy tauren flat on its back."
+   "answer": "Zhevras are usually passive grazers, but their legs are powerful. Sergra warns that a startled or cornered runner can knock even a sturdy tauren flat with one kick."
   },
   {
    "q": "Why were plainstriders hunted before this?",
@@ -82,21 +82,21 @@
     "previous quest",
     "plainstrider menace connection"
    ],
-   "answer": "Sergra structures her trials as a gradual escalation in difficulty. Plainstriders serve as initial target practice, while zhevras require dealing with faster and physically stronger prey before advancing to aggressive savanna prowlers."
+   "answer": "Sergra makes her trials harder step by step. Plainstriders are the first target; zhevras are faster and stronger prey, preparing you to face aggressive savanna prowlers."
   }
  ],
  "angles": [
   {
    "target": "race:Tauren",
-   "text": "Sergra specifically points out that a zhevra kick can knock a full-grown tauren off their hooves, making this trial an apt reminder that even plains grazers demand respect."
+   "text": "As a tauren, you know how forceful a zhevra's kick can be. Sergra warns that it can knock a full-grown tauren off their hooves."
   },
   {
    "target": "class:Hunter",
-   "text": "For marksmen and trackers cutting their teeth in the Barrens, stalking swift zhevra herds serves as essential field practice in pursuit and precision."
+   "text": "As a hunter learning the Barrens, you can sharpen your tracking and aim by stalking swift zhevra herds."
   },
   {
    "target": "faction:Horde",
-   "text": "The Crossroads relies on passing adventurers to manage surrounding wildlife populations, ensuring the settlement's supply routes remain unobstructed."
+   "text": "As a member of the Horde, you help the Crossroads manage the surrounding wildlife and keep its supply routes clear."
   }
  ],
  "keywords": [
@@ -117,5 +117,6 @@
  ],
  "attribution": [
   "The Zhevra (Classic)"
- ]
+ ],
+ "style": 1
 }

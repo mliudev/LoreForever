@@ -23,8 +23,8 @@ SELECT t."id", t."kind", t."ref_id", t."part", t."locale", t."build", t."text", 
 SELECT t."id", t."taken_at", t."json" FROM "cost_snapshots" AS t LIMIT 0;
 SELECT t."id", t."user_id", t."name", t."channel", t."audience", t."contact", t."note", t."status", t."code", t."created", t."decided" FROM "creator_applications" AS t LIMIT 0;
 SELECT t."invoice_id", t."creator", t."user_id", t."paid_cents", t."share_cents", t."pct", t."paid_at", t."recorded", t."paid_out", t."payable_at", t."reversed", t."reversed_why", t."payout_id", t."clawed" FROM "creator_earnings" AS t LIMIT 0;
-SELECT t."id", t."creator", t."month", t."cents", t."items", t."method", t."status", t."transfer_id", t."error", t."note", t."created", t."paid_at" FROM "creator_payouts" AS t LIMIT 0;
-SELECT t."code", t."name", t."contact", t."discount", t."share_pct", t."months", t."gift", t."promo_id", t."promo_code", t."stripe_error", t."created", t."retired", t."user_id", t."channel", t."connect_id", t."connect_ready", t."connect_country" FROM "creators" AS t LIMIT 0;
+SELECT t."id", t."creator", t."month", t."cents", t."items", t."method", t."status", t."transfer_id", t."error", t."note", t."created", t."paid_at", t."cycle" FROM "creator_payouts" AS t LIMIT 0;
+SELECT t."code", t."name", t."contact", t."discount", t."share_pct", t."months", t."gift", t."promo_id", t."promo_code", t."stripe_error", t."created", t."retired", t."user_id", t."channel", t."connect_id", t."connect_ready", t."connect_country", t."term_start", t."term_end", t."payout_method", t."payout_email", t."tax_form" FROM "creators" AS t LIMIT 0;
 SELECT t."id", t."token_hash", t."user_id", t."label", t."created", t."last_used", t."last_sync", t."machine" FROM "devices" AS t LIMIT 0;
 SELECT t."day", t."file", t."user_id", t."n" FROM "download_accounts" AS t LIMIT 0;
 SELECT t."day", t."file", t."src", t."n" FROM "download_sources" AS t LIMIT 0;
@@ -45,7 +45,7 @@ SELECT t."user_id", t."handle", t."public", t."spec", t."data", t."story", t."st
 SELECT t."claim", t."subscription_id", t."created" FROM "promo_claims" AS t LIMIT 0;
 SELECT t."id", t."user_id", t."kind", t."cycle", t."status", t."method", t."plan", t."answers", t."cents", t."stripe_id", t."starts", t."ends", t."error", t."created", t."tried", t."applied" FROM "referral_rewards" AS t LIMIT 0;
 SELECT t."key", t."value", t."updated" FROM "referral_settings" AS t LIMIT 0;
-SELECT t."user_id", t."code", t."kind", t."sharer_id", t."creator", t."sub_hash", t."answers", t."created", t."paid", t."via", t."connected", t."activated", t."counted", t."void", t."browser", t."machine", t."card", t."first_month" FROM "referrals" AS t LIMIT 0;
+SELECT t."user_id", t."code", t."kind", t."sharer_id", t."creator", t."sub_hash", t."answers", t."created", t."paid", t."via", t."connected", t."activated", t."counted", t."void", t."browser", t."machine", t."card", t."first_month", t."first_invoice" FROM "referrals" AS t LIMIT 0;
 SELECT t."code", t."user_id", t."kind", t."created", t."retired", t."clicks" FROM "share_codes" AS t LIMIT 0;
 SELECT t."user_id", t."day" FROM "signin_days" AS t LIMIT 0;
 SELECT t."day", t."metric", t."n" FROM "site_counts" AS t LIMIT 0;

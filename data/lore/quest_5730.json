@@ -17,21 +17,21 @@
   "wiki": "Hidden Enemies (5)",
   "chain": []
  },
- "summary": "Hidden Enemies is the culmination of Warchief Thrall's operation to infiltrate and assess the Burning Blade coven lurking inside Orgrimmar. By returning to Thrall after securing the trust of Neeru Fireblade, you provide critical intelligence on the cult's widening reach across Kalimdor.",
+ "summary": "Neeru Fireblade has earned your trust, and Thrall awaits your report in Orgrimmar. The Warchief needs to know how far the Burning Blade's reach extends across Kalimdor.",
  "sections": [
   {
    "title": "A Cult Unveiled",
-   "body": "At Warchief Thrall's request, an operative carried a Lieutenant's Insignia taken at Skull Rock to Neeru Fireblade, a warlock dwelling openly in the Cleft of Shadow, and later struck at the Searing Blade's leaders deep within Ragefire Chasm. By playing the role of a willing recruit and bearing the insignias of fallen cultists, the operative earns Fireblade's trust, leading the warlock to inadvertently reveal the broader network backing his operations.",
+   "body": "You carried a Lieutenant's Insignia from Skull Rock to Neeru Fireblade at Warchief Thrall's request. The warlock lives openly in the Cleft of Shadow. Later, you struck at the Searing Blade's leaders deep within Ragefire Chasm. By posing as a willing recruit and bearing the insignias of fallen cultists, you won Fireblade's trust. He revealed more of the network behind his operations.",
    "spoiler": 1
   },
   {
    "title": "Whispers of the Shadow Council",
-   "body": "Thinking he has gained a loyal lieutenant, Neeru Fireblade admits that the loss in Ragefire Chasm is a setback for the Searing Blade, but declares that the Shadow Council's greater designs remain intact. He reveals that his masters have active agents operating not only in the Barrens, but deeper in the forests of Ashenvale. Reporting this news to Thrall catches the Warchief off-guard, revealing that the demonic conspiracy extends far beyond the subterranean tunnels of the capital.",
+   "body": "Neeru Fireblade believes you are a loyal lieutenant. He admits that the loss in Ragefire Chasm has set the Searing Blade back, but says the Shadow Council's greater designs remain intact. His masters have active agents in the Barrens and deeper in the forests of Ashenvale. Your report catches Thrall off guard: the demonic conspiracy reaches far beyond the tunnels beneath Orgrimmar.",
    "spoiler": 2
   },
   {
    "title": "The Warchief's Vigilance",
-   "body": "Rather than executing Neeru immediately, Thrall chooses a cautious path. Keeping Neeru unaware of his compromise allows the Horde to monitor his communications and track the cult's tentacles across Durotar, the Barrens, and Ashenvale. The Warchief prepares his scouts and spies to investigate these regional branches, recognizing that rooting out demonic corruption requires precision rather than reckless haste.",
+   "body": "Thrall chooses caution instead of executing Neeru at once. Keeping the warlock unaware that his cover is compromised lets the Horde monitor his communications and track the cult across Durotar, the Barrens, and Ashenvale. The Warchief prepares scouts and spies to investigate those branches, seeking to root out demonic corruption without reckless haste.",
    "spoiler": 1
   }
  ],
@@ -43,7 +43,7 @@
     "what to do hidden enemies 5",
     "thrall turn in"
    ],
-   "answer": "You must travel from the Cleft of Shadow to the Valley of Wisdom in Orgrimmar and speak with Warchief Thrall, reporting what Neeru Fireblade disclosed about the Shadow Council's plans."
+   "answer": "Travel from the Cleft of Shadow to the Valley of Wisdom in Orgrimmar and report to Warchief Thrall. Tell him what Neeru Fireblade disclosed about the Shadow Council's plans."
   },
   {
    "q": "Why does Neeru Fireblade trust me?",
@@ -52,7 +52,7 @@
     "tricking neeru",
     "fireblade infiltration"
    ],
-   "answer": "Throughout the Hidden Enemies chain, you recovered a Lieutenant's Insignia from the Burning Blade at Skull Rock and presented it to Neeru under the guise of an ambitious cult initiate, convincing him you were a loyal asset."
+   "answer": "You recovered a Lieutenant's Insignia from the Burning Blade at Skull Rock and presented it to Neeru as an ambitious cult initiate. He believes you are a loyal asset."
   },
   {
    "q": "Why doesn't Thrall arrest or execute Neeru Fireblade right away?",
@@ -61,7 +61,7 @@
     "why not kill neeru",
     "why thrall leaves neeru"
    ],
-   "answer": "Neeru is far more useful alive and oblivious. By allowing him to think his cover is intact, Thrall's scouts can monitor Neeru's messages and trace his contacts back to larger Shadow Council cells across Kalimdor."
+   "answer": "Thrall can learn more by letting Neeru believe his cover remains intact. The Warchief's scouts can monitor his messages and trace his contacts to larger Shadow Council cells across Kalimdor."
   },
   {
    "q": "What new information does Thrall learn from this report?",
@@ -70,7 +70,7 @@
     "shadow council ashenvale",
     "neeru secret"
    ],
-   "answer": "Thrall learns that the cult beneath Orgrimmar is backed by the Shadow Council and that their agents are actively plotting operations in both the Barrens and the forests of Ashenvale."
+   "answer": "Thrall learns that the Shadow Council backs the cult beneath Orgrimmar and has agents plotting operations in the Barrens and the forests of Ashenvale."
   },
   {
    "q": "Is the Burning Blade the same thing as the Searing Blade?",
@@ -79,7 +79,7 @@
     "ragefire chasm cults",
     "cult differences"
    ],
-   "answer": "The Searing Blade is a local sect operating inside Ragefire Chasm beneath Orgrimmar, serving as an arm of the wider Burning Blade cult, which is orchestrated by the demonic Shadow Council."
+   "answer": "The Searing Blade is a local sect operating in Ragefire Chasm beneath Orgrimmar. It serves the wider Burning Blade cult, which the demonic Shadow Council directs."
   },
   {
    "q": "Does this quest chain continue anywhere?",
@@ -88,21 +88,21 @@
     "next quest after hidden enemies",
     "where does thrall send you next"
    ],
-   "answer": "Thrall tells you to rest and promises to call upon you later, but there is no direct quest immediately continuing this specific undercover infiltration line."
+   "answer": "Thrall tells you to rest and promises to call on you later. No direct continuation of this undercover line follows immediately."
   }
  ],
  "angles": [
   {
    "target": "faction:Horde",
-   "text": "Uncovering treason within Orgrimmar's own borders proves that the nascent Horde must guard against ancient demonic corruption from within while battling outside enemies."
+   "text": "As a member of the Horde, you uncover treason within Orgrimmar's own borders. The young Horde must guard against ancient demonic corruption within while it battles enemies beyond."
   },
   {
    "target": "class:Warlock",
-   "text": "Neeru Fireblade represents the dangerous fringe of fel practice, showing how easily dark arts can slip from state-sanctioned utility into outright subservience to the Shadow Council."
+   "text": "As a warlock, you see the danger in Neeru Fireblade's path. Fel practice can slip from sanctioned use into service to the Shadow Council."
   },
   {
    "target": "class:Rogue",
-   "text": "This mission represents the Horde's early espionage tradecraft, prioritizing deep cover, counter-intelligence, and patience over immediate confrontation."
+   "text": "As a rogue, you see the Horde's early methods of espionage at work. Deep cover, counterintelligence, and patience take the place of immediate confrontation."
   }
  ],
  "keywords": [
@@ -129,5 +129,6 @@
  ],
  "attribution": [
   "Hidden Enemies (5)"
- ]
+ ],
+ "style": 1
 }

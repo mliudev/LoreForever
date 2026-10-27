@@ -10,16 +10,16 @@
    "quest:1534"
   ]
  },
- "summary": "The Empty Blue Waterskin is a ritual vessel given to initiates during the shamanic trials of water. Provided by the hermit Brine in the Barrens, it is carried north into ancient night elf lands to secure a sacred, untainted liquid necessary to fashion the Water Totem.",
+ "summary": "Brine sends the Empty Blue Waterskin north from the Barrens to gather sacred water. The liquid will help her prepare the draught needed to summon and appease the water spirit.",
  "sections": [
   {
    "title": "A Sacred Vessel",
-   "body": "Communing with the spirit of water requires tangible communion with pure, undisturbed sources across Kalimdor. Handed down by the recluse Brine from her hilltop hut in the southern Barrens, the Empty Blue Waterskin represents the final and most perilous gathering task of a shaman's early training. It is destined to hold pristine water taken directly from a secluded fountain deep within the ancient Ruins of Stardust, nestled along the contested borderlands of Ashenvale.",
+   "body": "Brine gives the Empty Blue Waterskin to a shaman initiate at her hilltop hut in the southern Barrens. The vessel marks the final and most perilous gathering task of early training. To commune with the spirit of water, the initiate must seek pure, undisturbed sources across Kalimdor. The waterskin is meant for a secluded fountain deep within the Ruins of Stardust, along Ashenvale's contested borderlands.",
    "spoiler": 0
   },
   {
    "title": "The Forest Fountain",
-   "body": "Filling this simple container demands that the initiate journey beyond the safety of Horde territory into the ancient groves guarded by nature beasts and night elves. Once dipped into the waters of the ruined sanctuary, the vessel becomes a Filled Blue Waterskin. Combined with samples from the Barrens and Tarren Mill, its contents allow Brine to brew the draught needed to summon and appease the elemental spirit of water.",
+   "body": "The initiate must leave the safety of Horde territory and travel into ancient groves guarded by nature beasts and night elves. At a fountain in the ruined sanctuary deep within the Ruins of Stardust, the waterskin is filled and becomes a Filled Blue Waterskin. With water samples from the Barrens and Tarren Mill, its contents let Brine brew the draught needed to summon and appease the elemental spirit of water.",
    "spoiler": 0
   }
  ],
@@ -31,7 +31,7 @@
     "empty blue waterskin use",
     "why do i have empty blue waterskin"
    ],
-   "answer": "It is an empty container used during the Call of Water questline. An initiate must carry it to a holy fountain in the Ruins of Stardust in Ashenvale, where it is filled and returned to Brine to help brew a draught of pure water."
+   "answer": "The Empty Blue Waterskin carries water from the fountain deep within the Ruins of Stardust in Ashenvale back to Brine, who uses it to brew a draught of pure water."
   },
   {
    "q": "Who gives you this waterskin?",
@@ -39,7 +39,7 @@
     "who gives empty blue waterskin",
     "where do you get blue waterskin"
    ],
-   "answer": "It is given by Brine, an ascetic shaman mentor dwelling alone in a hut in the southern Barrens, south of Camp Taurajo near the Razorfen border."
+   "answer": "Brine gives you the waterskin at her hut in the southern Barrens, south of Camp Taurajo near the Razorfen border."
   },
   {
    "q": "Where must the waterskin be filled?",
@@ -48,7 +48,7 @@
     "blue waterskin location",
     "where do i fill it"
    ],
-   "answer": "It must be filled at the central fountain found within the Ruins of Stardust, situated deep in south-western Ashenvale, just past Lake Mystral near the Stonetalon mountain ridge."
+   "answer": "Fill it at the central fountain deep within the Ruins of Stardust in south-western Ashenvale, just past Lake Mystral near the Stonetalon mountain ridge."
   },
   {
    "q": "Why does Brine need water from Ashenvale?",
@@ -56,17 +56,17 @@
     "why ashenvale water",
     "why ruins of stardust water"
    ],
-   "answer": "Brine seeks to create the purest vial of water known on Kalimdor. The untouched sacred wellsprings of the night elven ruins provide the pristine final component necessary to commune with the elemental spirits of water."
+   "answer": "Brine seeks to make the purest vial of water known on Kalimdor. The untouched sacred wellsprings of the night elven ruins provide the pristine final component for communing with the elemental spirits of water."
   }
  ],
  "angles": [
   {
    "target": "class:Shaman",
-   "text": "Carrying and filling this waterskin is a vital milestone in mastering the spirits of water, yielding the pure liquid needed to craft your permanent Water Totem."
+   "text": "As a shaman, you carry and fill the waterskin as a vital step in mastering the spirits of water. Its pure liquid is needed to craft your permanent Water Totem."
   },
   {
    "target": "faction:Horde",
-   "text": "Retrieving the water requires a perilous trek out of the Barrens and into hostile night elf territory in western Ashenvale."
+   "text": "As a member of the Horde, you must travel from the Barrens into hostile night elf territory in western Ashenvale to retrieve the water."
   }
  ],
  "keywords": [
@@ -90,5 +90,6 @@
  "attribution": [
   "Empty Blue Waterskin",
   "Call of Water (5)"
- ]
+ ],
+ "style": 1
 }

@@ -7,16 +7,16 @@
  "meta": {
   "wiki": "Jaggedswine Farm"
  },
- "summary": "Jaggedswine Farm is a modest livestock steading situated in northern Durotar, just south of the main entrance to Orgrimmar. Comprising a timber storage shed, a sprawling pen, and a muddy watering hole, it serves as a critical food source raising hardy swine for the nearby Horde capital.",
+ "summary": "South of Orgrimmar's main gate, Jaggedswine Farm raises swine for the capital. Its shed, pen, and watering hole serve the Horde's nearby stronghold.",
  "sections": [
   {
    "title": "Provisions for the Capital",
-   "body": "Carved out of Durotar's unforgiving, sunbaked earth, Jaggedswine Farm represents the harsh reality of sustaining an urban stronghold like Orgrimmar. The red soil of the region yields sparse agriculture, making robust livestock essential to feeding thousands of orcish warriors and laborers. The farm centers on a timber storehouse, a wide wooden pen, and a natural watering pond where swine are herded, bred, and butchered to keep the Horde's granaries stocked.",
+   "body": "Jaggedswine Farm shows the harsh work of feeding an urban stronghold like Orgrimmar. Durotar's red soil supports little farming, so hardy livestock helps feed the city's warriors and laborers. A timber storehouse, a broad wooden pen, and a natural watering hole anchor the farm. Swine are herded, bred, and butchered here to keep the Horde's granaries supplied.",
    "spoiler": 0
   },
   {
    "title": "A Quiet Frontier",
-   "body": "Though quiet and often appearing half-tended under the dry heat, the farm is a regular stomping ground for local swineherds and patrolling Orgrimmar Grunts. Wild and mature swine roam both inside and outside the enclosures, occasionally testing the patience of nearby guards. Sitting right on the threshold of the capital's valley approach, the plot remains an unassuming yet indispensable outpost in the daily logistics of Durotar.",
+   "body": "Swineherds and patrolling Orgrimmar Grunts visit the farm, though the dry heat can leave it looking half-tended. Wild and mature swine roam inside and beyond the enclosures, sometimes testing nearby guards. The farm stands at the edge of the valley approach to the capital, an unassuming but necessary part of Durotar's daily supply work.",
    "spoiler": 0
   }
  ],
@@ -28,7 +28,7 @@
     "why is there a pig farm in durotar",
     "jaggedswine farm purpose"
    ],
-   "answer": "The farm raises and maintains swine to provide meat and lard for the Horde, particularly to feed the population and garrison of nearby Orgrimmar."
+   "answer": "Jaggedswine Farm raises swine for meat and lard, feeding the people and garrison of nearby Orgrimmar."
   },
   {
    "q": "Where exactly is Jaggedswine Farm located?",
@@ -37,7 +37,7 @@
     "how to get to jaggedswine farm",
     "pig farm durotar location"
    ],
-   "answer": "It lies in northern Durotar, sitting just outside the southern approach and grand gates that lead into the Valley of Strength in Orgrimmar."
+   "answer": "Jaggedswine Farm lies in northern Durotar, just outside the southern approach and grand gates leading into Orgrimmar's Valley of Strength."
   },
   {
    "q": "Why does the farm look somewhat deserted?",
@@ -46,7 +46,7 @@
     "who lives at jaggedswine farm",
     "why no farmers"
    ],
-   "answer": "Orcish livestock farming in Durotar is utilitarian and unglamorous. Between free-roaming boars and sparse timber structures, the steading lacks grand homesteads, but it remains actively used by Horde supply lines."
+   "answer": "Orcish livestock farming in Durotar is utilitarian and unglamorous. Free-roaming boars and sparse timber buildings leave the farm without grand homesteads, but Horde supply lines still use it."
   },
   {
    "q": "Are the pigs here dangerous to travelers?",
@@ -55,17 +55,17 @@
     "do pigs attack here",
     "swine dangerous"
    ],
-   "answer": "While the domesticated swine inside the pens are docile, wild and mature boars roaming the outskirts can be aggressive if startled by young travelers or careless foragers."
+   "answer": "The domesticated swine inside the pens are docile, but wild and mature boars on the outskirts can turn aggressive if startled by young travelers or careless foragers."
   }
  ],
  "angles": [
   {
    "target": "profession:Cooking",
-   "text": "For Horde cooks learning their trade in Durotar, the abundant swine around Jaggedswine Farm make it a primary local source for tender ribs, pork cuts, and cooking grease."
+   "text": "As a Horde cook learning the trade in Durotar, you can find tender ribs, pork cuts, and cooking grease among the swine raised around Jaggedswine Farm, a primary local source."
   },
   {
    "target": "faction:Horde",
-   "text": "Establishing stable meat supplies in the arid wastes of Durotar is a matter of survival, making outposts like Jaggedswine vital to sustaining Orgrimmar's military strength."
+   "text": "As a member of the Horde, you know stable meat supplies in Durotar's arid wastes mean survival. Jaggedswine Farm helps sustain Orgrimmar's military strength."
   }
  ],
  "keywords": [
@@ -86,5 +86,6 @@
  ],
  "attribution": [
   "Jaggedswine Farm"
- ]
+ ],
+ "style": 1
 }

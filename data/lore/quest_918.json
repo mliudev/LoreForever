@@ -17,16 +17,16 @@
   "wiki": "Timberling Seeds (Classic)",
   "chain": []
  },
- "summary": "Timberling Seeds is an early task given by the botanist Denalan at Lake Al'Ameth in Teldrassil. Concerned by the growing hostility of the local nature elementals, Denalan seeks to harvest their seeds to test whether enriched soil can cultivate calmer, more harmonious growth. The task offers a glimpse into the quiet efforts of night elf herbalists working to understand the subtle afflictions plaguing the World Tree.",
+ "summary": "At Lake Al'Ameth, botanist Denalan studies the growing hostility of Teldrassil's nature elementals. He seeks to harvest Timberling Seeds and test whether enriched soil can help them grow calmer. His work is one quiet effort by night elf herbalists to understand the subtle afflictions troubling the World Tree.",
  "sections": [
   {
    "title": "Restless Nature",
-   "body": "Timberlings are nature elementals native to the boughs of Teldrassil, intricately linked to the health and vitality of the flora around them. Ordinarily peaceful reflections of the forest's balance, their recent and inexplicable hostility has alarmed the local night elves. Rather than merely culling them, the botanist Denalan hopes to understand the source of their agitation.",
+   "body": "Timberlings are nature elementals native to Teldrassil's boughs, closely bound to the health and vitality of the surrounding flora. They are usually peaceful reflections of the forest's balance, but their recent hostility has alarmed the local night elves, and no cause is known. Botanist Denalan hopes to learn what has stirred them rather than simply cull them.",
    "spoiler": 0
   },
   {
    "title": "Seeds of a New Growth",
-   "body": "Suspecting the blemish lies deep within the ground itself, Denalan aims to sprout fresh timberlings in enriched, carefully treated loam. By collecting seeds from the wandering timberlings near Lake Al'Ameth, he hopes to nurture a gentler generation of elementals and discover whether the land's corruption can be countered from the roots up.",
+   "body": "Denalan suspects the blemish lies deep in the ground. He hopes to sprout fresh timberlings, a gentler generation of elementals, in enriched and carefully treated loam. By harvesting seeds from wandering timberlings near Lake Al'Ameth, he aims to learn whether the land's corruption can be countered from the roots up.",
    "spoiler": 0
   }
  ],
@@ -38,7 +38,7 @@
     "what are timberlings",
     "nature elementals teldrassil"
    ],
-   "answer": "Timberlings are small plant-like nature elementals found on Teldrassil. They mirror the natural order and life cycle of the great tree's flora and fauna."
+   "answer": "Timberlings are small, plant-like nature elementals found on Teldrassil. They mirror the natural order and life cycle of the great tree's flora and fauna."
   },
   {
    "q": "Why have the timberlings become aggressive?",
@@ -47,7 +47,7 @@
     "timberling hostility",
     "angry timberlings"
    ],
-   "answer": "Denalan suspects an underlying flaw or contamination in Teldrassil's soil. As elemental manifestations of the tree's ecology, the timberlings reflect the growing corruption spreading through the island."
+   "answer": "Denalan suspects a flaw or contamination in Teldrassil's soil. As elemental manifestations of the tree's ecology, timberlings reflect the growing corruption spreading through the island."
   },
   {
    "q": "Who is Denalan?",
@@ -56,7 +56,7 @@
     "who is denalan",
     "lake al'ameth botanist"
    ],
-   "answer": "Denalan is a night elf naturalist and botanist who tends a small garden retreat on the eastern shore of Lake Al'Ameth, studying Teldrassil's unusual flora and soils."
+   "answer": "Denalan is a night elf naturalist and botanist who tends a small garden retreat on Lake Al'Ameth's eastern shore. He studies Teldrassil's unusual flora and soils."
   },
   {
    "q": "Where can timberling seeds be gathered?",
@@ -65,7 +65,7 @@
     "timberling locations",
     "lake al'ameth seeds"
    ],
-   "answer": "Timberlings roam the shaded thickets, shores, and forest glades surrounding Lake Al'Ameth in central Teldrassil."
+   "answer": "Timberlings roam the shaded thickets, shores, and forest glades around Lake Al'Ameth in central Teldrassil."
   },
   {
    "q": "What does Denalan plan to do with the seeds?",
@@ -74,7 +74,7 @@
     "denalan plan",
     "planting timberling seeds"
    ],
-   "answer": "Denalan intends to cultivate the seeds within special, purified soil mixtures he has developed, hoping to grow docile timberlings that are free from the forest's agitation."
+   "answer": "Denalan plans to cultivate the seeds in special, purified soil mixtures he has developed. He hopes to grow docile timberlings free from the forest's agitation."
   },
   {
    "q": "How does this connect to Teldrassil's wider troubles?",
@@ -83,21 +83,21 @@
     "why is teldrassil sick",
     "tree corruption"
    ],
-   "answer": "The aggression of these basic nature spirits is one of the earliest signs that Teldrassil is suffering from an unnatural taint, leading researchers toward deeper investigations in Darnassus."
+   "answer": "The aggression of these basic nature spirits is an early sign that Teldrassil suffers from an unnatural taint. It leads researchers toward deeper investigations in Darnassus."
   }
  ],
  "angles": [
   {
    "target": "race:NightElf",
-   "text": "For the kaldorei, timberlings are direct barometers of Teldrassil's well-being. Watching these gentle spirits turn feral is a chilling sign that their new home is unwell."
+   "text": "For the kaldorei, timberlings are direct signs of Teldrassil's well-being. Seeing these gentle spirits turn feral is a chilling sign that their new home is unwell."
   },
   {
    "target": "class:Druid",
-   "text": "Druids hold a deep affinity for nature spirits. Aiding Denalan's study helps preserve elemental balance without relying solely on violent culling."
+   "text": "As a druid, you have a deep affinity for nature spirits. Helping Denalan study them supports elemental balance without relying only on culling them."
   },
   {
    "target": "profession:Herbalism",
-   "text": "Gatherers attuned to the flora of Teldrassil can appreciate Denalan's botanical experiments, which explore the delicate relationship between plant seeds and enriched soil."
+   "text": "As an herbalist, you can appreciate Denalan's botanical experiments on the delicate relationship between plant seeds and enriched soil."
   }
  ],
  "keywords": [
@@ -117,5 +117,6 @@
  ],
  "attribution": [
   "Timberling Seeds (Classic)"
- ]
+ ],
+ "style": 1
 }

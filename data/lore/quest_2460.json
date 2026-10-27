@@ -17,16 +17,16 @@
   "wiki": "The Shattered Salute",
   "chain": []
  },
- "summary": "The Shattered Salute is an initiation ritual overseen by Shenthul within the Cleft of Shadow in Orgrimmar. By learning this distinct sign of recognition, budding rogues are taught how to safely identify fellow operatives of the Shattered Hand in the field.",
+ "summary": "In Orgrimmar's Cleft of Shadow, Shenthul teaches a silent sign to new rogues. The Shattered Hand uses it to recognize its agents safely in the field.",
  "sections": [
   {
    "title": "Signs and Shadows",
-   "body": "Within the dark tunnels of the Cleft of Shadow, the Shattered Hand operates as the clandestine intelligence and assassination arm of Thrall's Horde. Given the dangerous and secretive nature of their assignments, operatives cannot rely on overt banners or standard military heraldry. Shenthul instructs newly inducted rogues in the Shattered Salute, a specific gesture meant to serve as an unmistakable, silent signal among allies.",
+   "body": "In Orgrimmar's Cleft of Shadow, the Shattered Hand works in secrecy as Thrall's Horde intelligence and assassination arm. Its agents cannot use banners or military signs on dangerous, secret assignments. Shenthul teaches newly inducted rogues the Shattered Salute, a silent gesture that lets allies recognize one another.",
    "spoiler": 0
   },
   {
    "title": "Preparation for the Field",
-   "body": "Mastering the salute is not merely a ceremonial exercise; it is vital tradecraft. Rogue agents sent into perilous territory or tasked with infiltrating rival factions must verify contacts without alerting bystanders or targets. Shenthul insists that an operative be able to recognize and mirror the gesture effortlessly before entrusting them with covert fieldwork.",
+   "body": "For Shenthul's rogues, learning the salute is vital tradecraft, not ceremony. Agents sent into danger or to infiltrate rival factions need to verify contacts without alerting bystanders or targets. Before entrusting an agent with covert fieldwork, Shenthul expects them to recognize and mirror the gesture without hesitation.",
    "spoiler": 0
   }
  ],
@@ -38,7 +38,7 @@
     "shattered salute purpose",
     "what does the salute do"
    ],
-   "answer": "The Shattered Salute serves as a covert recognition signal among members of the Shattered Hand. It allows operatives to identify one another in deep cover or hostile territory without exposing their true affiliations to outsiders."
+   "answer": "The Shattered Salute lets Shattered Hand agents recognize one another, even in deep cover or hostile territory, without revealing their ties to outsiders."
   },
   {
    "q": "Who teaches the Shattered Salute?",
@@ -47,7 +47,7 @@
     "who is shenthul",
     "where do i learn the salute"
    ],
-   "answer": "The salute is taught by Shenthul, a rogue trainer stationed deep within the Cleft of Shadow beneath Orgrimmar."
+   "answer": "Shenthul, a rogue trainer stationed deep within Orgrimmar's Cleft of Shadow, teaches the salute."
   },
   {
    "q": "What organization uses this gesture?",
@@ -56,7 +56,7 @@
     "who are the shattered hand",
     "what guild uses this"
    ],
-   "answer": "It is used by the Shattered Hand, an order of orcish rogues, spies, and assassins that serves the modern Horde from the shadows of Orgrimmar."
+   "answer": "The Shattered Hand uses the gesture. Orcish rogues, spies, and assassins of the order serve Thrall's Horde from Orgrimmar's shadows."
   },
   {
    "q": "Why is learning the salute necessary before going into the field?",
@@ -64,7 +64,7 @@
     "why practice salute",
     "is the salute required"
    ],
-   "answer": "Operatives sent on infiltration assignments, such as making contact with undercover agents, rely on the salute to avoid blowing their cover or mistaking an enemy for an ally."
+   "answer": "Agents on infiltration assignments use the salute to contact undercover allies without exposing their cover or mistaking an enemy for one."
   },
   {
    "q": "Where does this training take place?",
@@ -72,7 +72,7 @@
     "salute location",
     "where is shenthul located"
    ],
-   "answer": "The training takes place in the Cleft of Shadow, the subterranean district beneath Orgrimmar where rogues, warlocks, and other practitioners of forbidden arts gather away from public scrutiny."
+   "answer": "Training takes place in the Cleft of Shadow, a subterranean district beneath Orgrimmar where rogues, warlocks, and other practitioners of forbidden arts gather away from public scrutiny."
   },
   {
    "q": "What assignment follows after mastering the salute?",
@@ -81,17 +81,17 @@
     "next quest after salute",
     "deep cover quest"
    ],
-   "answer": "Once Shenthul is satisfied with an operative's mastery of the salute, he assigns them to deep cover operations, testing their ability to use the signal to contact agents in the field."
+   "answer": "After Shenthul is satisfied with an agent's mastery, he assigns them to deep cover operations. The assignment tests their ability to use the signal to contact agents in the field."
   }
  ],
  "angles": [
   {
    "target": "class:Rogue",
-   "text": "For a Horde rogue, mastering the Shattered Hand's secret signals represents the transition from an ordinary cutpurse to a trusted agent of Orgrimmar's intelligence network."
+   "text": "As a Horde rogue, you learn the Shattered Hand's secret signals and move from ordinary cutpurse to trusted agent of Orgrimmar's intelligence network."
   },
   {
    "target": "faction:Horde",
-   "text": "Though Warchief Thrall leads with honor, the Horde relies heavily on the clandestine methods of the Shattered Hand to neutralize threats before they reach the surface."
+   "text": "As a member of the Horde, you serve under Warchief Thrall, who leads with honor. The Horde also relies on the Shattered Hand's secret methods to stop threats before they reach the surface."
   }
  ],
  "keywords": [
@@ -111,5 +111,6 @@
  ],
  "attribution": [
   "The Shattered Salute"
- ]
+ ],
+ "style": 1
 }

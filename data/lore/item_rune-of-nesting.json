@@ -10,16 +10,16 @@
    "quest:483"
   ]
  },
- "summary": "The Rune of Nesting is one of the four sacred Relics of Wakening kept within the Ban'ethil Barrow Den on Teldrassil. It is an essential component in the delicate druidic ritual required to safely summon sleeping Druids of the Talon back from the Emerald Dream.",
+ "summary": "At Ban'ethil Barrow Den, the Rune of Nesting lies among four sacred relics. It helps Athridas Bearmantle prepare the ritual that safely awakens the Druids of the Talon from the Emerald Dream.",
  "sections": [
   {
    "title": "A Sacred Focus for Awakening",
-   "body": "Night elf druids undergo deep, cyclical hibernations within underground barrow dens to commune with nature through the Emerald Dream. Waking from this profound trance is not simply a matter of stirring; it requires a precise ritual guided by sacred instruments. The Rune of Nesting, kept safely within the Chest of Nesting deep in the winding chambers of the Ban'ethil Barrow Den, anchors this process. Alongside the Raven Claw Talisman, the Black Feather Quill, and the Sapphire of Sky, the rune serves as a conduit to call the Druids of the Talon back to the waking world.",
+   "body": "The Rune of Nesting lies in the Chest of Nesting, deep in the winding chambers of Ban'ethil Barrow Den. Night elf druids hibernate in underground barrow dens to commune with nature through the Emerald Dream. To return safely, the Druids of the Talon need a precise awakening ritual guided by sacred relics. The rune is one of four: the Raven Claw Talisman, the Black Feather Quill, the Sapphire of Sky, and the Rune of Nesting. Together, the relics help call the sleeping druids back to the waking world.",
    "spoiler": 0
   },
   {
    "title": "Crisis in Ban'ethil",
-   "body": "When corrupted Gnarlpine furbolgs overran the Ban'ethil Barrow Den, the barrow's slumbering defenders were placed in immediate peril. Without access to their relics, the druids risked being trapped within the Emerald Dream indefinitely while invaders desecrated their sanctuary. Recovering the Rune of Nesting and its companion artifacts allows Athridas Bearmantle in Dolanaar to prepare the ritual necessary to safely awaken the endangered druids.",
+   "body": "Corrupted Gnarlpine furbolgs have overrun Ban'ethil Barrow Den, putting its sleeping defenders in peril. Without the relics, the druids risk remaining trapped in the Emerald Dream while invaders desecrate their sanctuary. Recovering the Rune of Nesting and its companion artifacts allows Athridas Bearmantle in Dolanaar to prepare the ritual that can safely awaken them.",
    "spoiler": 0
   }
  ],
@@ -30,7 +30,7 @@
     "what does rune of nesting do",
     "rune of nesting purpose"
    ],
-   "answer": "It is one of the four Relics of Wakening required by Athridas Bearmantle to conduct the ritual that safely rouses the Druids of the Talon from their deep slumber in the Emerald Dream."
+   "answer": "Athridas Bearmantle requires the Rune of Nesting to conduct the ritual that safely rouses the Druids of the Talon from their deep slumber in the Emerald Dream. It is one of the four Relics of Wakening used in that ritual."
   },
   {
    "q": "Where is the Rune of Nesting found?",
@@ -38,7 +38,7 @@
     "where is rune of nesting",
     "chest of nesting location"
    ],
-   "answer": "It is stored inside the Chest of Nesting, located within the subterranean tunnels of the Ban'ethil Barrow Den, west of Dolanaar on Teldrassil."
+   "answer": "The Rune of Nesting is stored in the Chest of Nesting, in the subterranean tunnels of Ban'ethil Barrow Den, west of Dolanaar on Teldrassil."
   },
   {
    "q": "Why can't the sleeping druids simply wake up on their own?",
@@ -46,7 +46,7 @@
     "why do druids need waking ritual",
     "why can't druids wake up"
    ],
-   "answer": "Entering the Emerald Dream in hibernation is a delicate, trance-like state. Without the guidance of sacred relics and an awakening ritual, returning can be impossible, leaving their minds adrift while their physical bodies are exposed to danger."
+   "answer": "The druids enter a delicate, trance-like state when they hibernate in the Emerald Dream. Without sacred relics and an awakening ritual, they may be unable to return, leaving their minds adrift and their bodies exposed to danger."
   },
   {
    "q": "What other relics are needed alongside the Rune of Nesting?",
@@ -54,17 +54,17 @@
     "other relics of wakening",
     "relics of wakening items"
    ],
-   "answer": "The full ritual requires four Relics of Wakening: the Rune of Nesting, the Raven Claw Talisman, the Black Feather Quill, and the Sapphire of Sky."
+   "answer": "The ritual requires four Relics of Wakening: the Rune of Nesting, the Raven Claw Talisman, the Black Feather Quill, and the Sapphire of Sky."
   }
  ],
  "angles": [
   {
    "target": "class:Druid",
-   "text": "For druids, the Rune of Nesting represents the sacred rituals of the Cenarion Circle, highlighting the vulnerability of the sleeping brethren when sacred sanctuaries are breached."
+   "text": "As a druid, the Rune of Nesting speaks to the sacred rituals of the Cenarion Circle and the danger sleeping brethren face when their sanctuaries are breached."
   },
   {
    "target": "race:NightElf",
-   "text": "The desecration of the barrow dens and the loss of these wakening relics underscore the growing corruption plaguing the wildlife and furbolgs of Teldrassil."
+   "text": "As a night elf, the loss of wakening relics and the desecration of barrow dens reflect the growing corruption among Teldrassil's wildlife and furbolgs."
   }
  ],
  "keywords": [
@@ -89,5 +89,6 @@
  "attribution": [
   "Rune of Nesting",
   "The Relics of Wakening"
- ]
+ ],
+ "style": 1
 }

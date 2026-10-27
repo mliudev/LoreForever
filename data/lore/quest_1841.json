@@ -17,16 +17,16 @@
   "wiki": "Velora Nitely and the Brutal Legguards",
   "chain": []
  },
- "summary": "This quest directs seasoned Horde warriors from the Barrens across the sea to the Undercity in Lordaeron. There, the Forsaken armorsmith Velora Nitely uses her retained mortal craftsmanship to forge specialized Brutal Legguards. It represents a vital step in assembling a durable set of armor for the Horde's front-line champions.",
+ "summary": "Thun'grim Firegaze sends Horde warriors across the Great Sea for Velora Nitely's Brutal Legguards. In the Undercity, the Forsaken smith draws on the craft she kept from her mortal life to forge the armor. Her work helps assemble a durable suit for the Horde's warriors.",
  "sections": [
   {
    "title": "A Journey Across the Sea",
-   "body": "After proving their mettle to the veteran smith Thun'grim Firegaze atop his vigil in the Barrens, warriors are tasked with assembling the fabled Brutal Armor. Thun'grim cannot fashion the entire suit alone and directs aspiring champions to skilled allies across the Horde. For the greaves, he sends them eastward across the Great Sea to the subterranean kingdom of the Forsaken, seeking an artisan whose work was revered long before the fall of northern humanity.",
+   "body": "Thun'grim Firegaze sends you east across the Great Sea to find a smith for the Brutal Legguards. You've proved your mettle to the veteran smith at his vigil in the Barrens, and now he points you toward the fabled Brutal Armor. Thun'grim cannot make the whole suit alone, so he relies on skilled allies across the Horde. The greaves call for an artisan whose work was revered before northern humanity fell, in the Forsaken's underground kingdom.",
    "spoiler": 0
   },
   {
    "title": "The Artistry of Velora Nitely",
-   "body": "Before her demise during the Scourging of the north, Velora Nitely was renowned as one of the preeminent armorsmiths in the Kingdom of Lordaeron. Despite the loss of her mortal life and the corruption of her homeland, death failed to diminish her metallurgical mastery. Now plying her trade in the Trade Quarter of the Undercity, she turns her ancient human craft toward aiding the Horde's warriors, maintaining a dry, macabre wit about her undead condition.",
+   "body": "Velora Nitely works in the Undercity's Trade Quarter, where her old craft still serves the Horde. Before the Scourging of the north ended her mortal life, she was one of the Kingdom of Lordaeron's foremost armorsmiths. Her homeland was corrupted, and she became one of the Forsaken, but death did not take her mastery of metal. She now turns her human skill toward the Horde's warriors, with a dry, macabre wit about being undead.",
    "spoiler": 0
   }
  ],
@@ -38,7 +38,7 @@
     "who is velora",
     "forsaken smith velora"
    ],
-   "answer": "Velora Nitely was once celebrated as one of the finest armorsmiths in the kingdom of Lordaeron. Following the third war and her resurrection as one of the Forsaken, she relocated to the Undercity's Trade Quarter, where she continues her smithing craft for the Horde."
+   "answer": "Velora Nitely was once celebrated as one of the finest armorsmiths in the kingdom of Lordaeron. After the Third War, she rose again as one of the Forsaken and made her home in the Undercity's Trade Quarter, where she still practices her craft for the Horde."
   },
   {
    "q": "Why does Thun'grim send me to Undercity?",
@@ -47,7 +47,7 @@
     "thun'grim undercity quest",
     "barrens to undercity warrior"
    ],
-   "answer": "While Thun'grim Firegaze oversees your training in the Barrens, crafting the full Brutal Armor set requires specialized artisans across the Horde. He recognizes Velora's unmatched reputation for armor and dispatches you to Lordaeron to commission the legguards directly."
+   "answer": "Thun'grim Firegaze sends you to the Undercity because the full Brutal Armor set calls for skilled artisans across the Horde. He knows Velora's reputation for armor and dispatches you to Lordaeron to commission the legguards from her."
   },
   {
    "q": "Where can I find Velora Nitely in the Undercity?",
@@ -56,7 +56,7 @@
     "where is velora nitely",
     "find velora nitely"
    ],
-   "answer": "Velora Nitely can be found working at the forges in the Trade Quarter of the Undercity, surrounded by other master crafters and smiths serving Lady Sylvanas Windrunner."
+   "answer": "Velora Nitely works in the Trade Quarter of the Undercity, at the forges among smiths and other master crafters serving Lady Sylvanas Windrunner."
   },
   {
    "q": "What comes after speaking to Velora Nitely?",
@@ -65,7 +65,7 @@
     "dragonmaw shinbones quest",
     "what does velora want"
    ],
-   "answer": "Velora asks you to collect shinbones from Dragonmaw orcs in the Wetlands so she can use them to craft your Brutal Legguards."
+   "answer": "Velora asks you to gather shinbones from Dragonmaw orcs in the Wetlands for your Brutal Legguards."
   },
   {
    "q": "Does Velora have any dialogue about being undead?",
@@ -74,7 +74,7 @@
     "undead smith dialogue",
     "velora humor"
    ],
-   "answer": "Yes. Upon completing the journey to speak with her, she dryly jokes about whether she is crafting the armor for you or vice versa, noting that she lost her sense of humor around the same time she lost her sense of smell and stopped breathing."
+   "answer": "Yes. Velora dryly jokes about whether she is making the armor for you or the other way around. She says she lost her sense of humor around the time she lost her sense of smell and stopped breathing."
   },
   {
    "q": "Is Brutal Armor only for warriors?",
@@ -82,21 +82,21 @@
     "can other classes get brutal armor",
     "warrior only quest brutal armor"
    ],
-   "answer": "Yes, the Brutal Armor trials\u2014including seeking out Velora Nitely for the legguards\u2014are an exclusive rite of martial advancement designed specifically for Horde warriors reaching seasoned ranks."
+   "answer": "Yes. The Brutal Armor trials, including seeking Velora Nitely for the legguards, are for Horde warriors advancing through the seasoned ranks."
   }
  ],
  "angles": [
   {
    "target": "class:Warrior",
-   "text": "This quest represents a key milestone for Horde warriors around level 30, expanding their journey beyond Kalimdor to acquire specialized class armor."
+   "text": "As a warrior, you reach a milestone in the Horde's armor trials around level thirty, traveling beyond Kalimdor for specialized class armor."
   },
   {
    "target": "race:Undead",
-   "text": "Velora Nitely showcases that the Forsaken retain the refined cultural skills and artistic legacies of the fallen kingdom of Lordaeron."
+   "text": "As Forsaken, you can see Velora Nitely carrying on the refined skills and artistic legacy of fallen Lordaeron."
   },
   {
    "target": "faction:Horde",
-   "text": "The Brutal Armor questline binds the young Horde together, forcing Kalimdor-based orcs, trolls, and tauren to coordinate directly with Forsaken craftsmen in the Eastern Kingdoms."
+   "text": "As Horde, you join a line of work that brings orcs, trolls, and tauren from Kalimdor together with Forsaken craftsmen in the Eastern Kingdoms."
   }
  ],
  "keywords": [
@@ -120,5 +120,6 @@
  ],
  "attribution": [
   "Velora Nitely and the Brutal Legguards"
- ]
+ ],
+ "style": 1
 }

@@ -10,16 +10,16 @@
    "quest:220"
   ]
  },
- "summary": "The Vial of Purest Water is a sacred vessel blessed by the hermit Brine deep in the southern Barrens. Entrusted to an initiate shaman, its purified contents are essential for concocting the draught required to perceive elusive elemental spirits.",
+ "summary": "In the southern Barrens, Brine blesses a vial of pure water for a shaman initiate. Its contents help Islen Waterseer prepare a water sapta for seeing elemental spirits.",
  "sections": [
   {
    "title": "A Purified Offering",
-   "body": "Forged through trials of patience and cleansing under the guidance of Brine, the water sealed in this vial represents liquid in its uncorrupted elemental essence. Transported across the arid wastes of the Barrens back to the solitary shore where Islen Waterseer keeps watch, the vial serves as the vital component in brewing a water sapta. Without its pristine purity, a shaman cannot commune with the spiritual guardians that dwell in places far removed from the sunbaked flats.",
+   "body": "Brine guides the initiate through trials of patience and cleansing before sealing the water in the vial. The water holds an uncorrupted elemental purity. Carry it across the Barrens to Islen Waterseer, who keeps watch on a solitary shore. She needs it to brew a water sapta. Without such pure water, a shaman cannot commune with spiritual guardians in places far from the sunbaked flats.",
    "spoiler": 0
   },
   {
    "title": "Path to the Water Totem",
-   "body": "Islen uses the blessed liquid not merely to test a practitioner's dedication, but to open their senses to the hidden elements. Part of the water is blended into the sapta to reveal the spirits stationed at a distant shrine in Silverpine Forest, while the remaining drops are reserved for confronting and cleansing rogue manifestation elsewhere. Carrying this vial is the turning point where an aspiring mystic transitions from performing humble chores to directly facing elemental realities.",
+   "body": "Islen uses the blessed water to test the initiate’s dedication and open their senses to hidden elements. She blends some into a sapta, which reveals spirits at a distant shrine in Silverpine Forest. She keeps the remaining drops for confronting and cleansing a rogue manifestation elsewhere. Carrying the vial marks a turning point: the initiate moves from humble chores to facing elemental realities directly.",
    "spoiler": 1
   }
  ],
@@ -31,7 +31,7 @@
     "what does the vial do",
     "use of purest water"
    ],
-   "answer": "The vial contains carefully cleansed and blessed water given to a shaman initiate. Islen Waterseer uses the liquid to brew a water sapta, an elixir that grants the spiritual sight needed to perceive water elementals, as well as for further ritual trials required to earn the Water Totem."
+   "answer": "The vial holds water cleansed and blessed for a shaman initiate. Islen Waterseer uses it to brew a water sapta, which grants the spiritual sight needed to perceive water elementals, and for further ritual trials required to earn the Water Totem."
   },
   {
    "q": "Who prepares the water inside the vial?",
@@ -40,7 +40,7 @@
     "who fills the vial",
     "brine water"
    ],
-   "answer": "The water is gathered by the shaman under the direction of Brine, an orc shaman hermit dwelling deep in the southern Barrens. Once gathered through various trials, Brine blesses and seals the purified water into the vial for transport."
+   "answer": "The shaman gathers the water under Brine’s direction. Brine is an orc shaman hermit deep in the southern Barrens; after the initiate’s trials, Brine blesses and seals the purified water in the vial for transport."
   },
   {
    "q": "Where does the vial need to be taken?",
@@ -49,7 +49,7 @@
     "where to deliver vial",
     "turn in purest water"
    ],
-   "answer": "The vial must be carried back to Islen Waterseer, who resides on the eastern shore of the Barrens, just south of Ratchet overlooking the Great Sea."
+   "answer": "Carry the vial to Islen Waterseer on the Barrens’ eastern shore, just south of Ratchet and overlooking the Great Sea."
   },
   {
    "q": "Where does the ritual lead after delivering the vial?",
@@ -58,17 +58,17 @@
     "next step after vial",
     "silverpine water shrine"
    ],
-   "answer": "Once Islen Waterseer receives the vial and brews the sapta, she sends the shaman across the sea to the Eastern Kingdoms, specifically to a shrine located in Silverpine Forest south of the Undercity."
+   "answer": "After receiving the vial and brewing the sapta, Islen Waterseer sends the shaman across the sea to the Eastern Kingdoms. The shrine lies in Silverpine Forest, south of the Undercity."
   }
  ],
  "angles": [
   {
    "target": "class:Shaman",
-   "text": "Obtaining and delivering this purified water marks your final steps toward communing with water spirits and claiming your Water Totem."
+   "text": "As a shaman, delivering this purified water brings you through the final steps toward communing with water spirits and claiming your Water Totem."
   },
   {
    "target": "faction:Horde",
-   "text": "The trials surrounding the vial send young Horde shamans across both Kalimdor and the Eastern Kingdoms to deepen their bond with the elements."
+   "text": "As a Horde shaman, you cross Kalimdor and the Eastern Kingdoms during the vial’s trials, deepening your bond with the elements."
   }
  ],
  "keywords": [
@@ -92,5 +92,6 @@
  "attribution": [
   "Vial of Purest Water",
   "Call of Water (6)"
- ]
+ ],
+ "style": 1
 }

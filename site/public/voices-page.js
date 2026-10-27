@@ -48,7 +48,7 @@
         el.textContent = fmt(bytes) || "Size unavailable";
       });
       preferred.forEach(details => {
-        const match = /^(v\d+\.\d+\.\d+(?:[-+][a-zA-Z0-9.-]+)?):(LoreForever_Voice_(?:Default|Female)_[a-z]{2}[A-Z]{2}-complete\.zip)$/.exec(details.dataset.preferred);
+        const match = /^(v\d+\.\d+\.\d+(?:[-+][a-zA-Z0-9.-]+)?):(LoreForever_Voice_(?:Default|Female)(?:_[a-z]{2}[A-Z]{2})?-complete\.zip)$/.exec(details.dataset.preferred);
         if (!match) return;
         const [, tag, name] = match, assets = data?.byTag?.[tag];
         const bytes = assets && Object.hasOwn(assets, name) ? assets[name] : null;

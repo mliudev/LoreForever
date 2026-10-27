@@ -17,16 +17,16 @@
   "wiki": "Call of Water (3)",
   "chain": []
  },
- "summary": "This quest marks the first gathering trial assigned by Brine in the Barrens during a shaman's attunement to water. Seeking to brew a water sapta, Brine directs initiates to fetch a sample from the guarded watering hole below her hut, urging them to contemplate the sacred and contested nature of life-giving water in a desert.",
+ "summary": "Brine sends shamans into the Barrens to gather water for a sapta. The trial begins with a sample from the guarded pool below her hill, where water means survival.",
  "sections": [
   {
    "title": "A Lesson in the Desert",
-   "body": "Before granting the water sapta needed to commune with the spirits, the hermit Brine requires shaman initiates to study water in all its forms across the world. In the arid Barrens, water is the difference between survival and starvation. Brine bids shamans to observe not just the liquid itself, but the surrounding ecology: how forests flourish in its embrace, how deserts starve in its absence, and how living beings will kill to protect even the humblest spring.",
+   "body": "Brine asks shaman initiates to study water in all its forms before she grants the water sapta that lets them commune with the spirits. In the arid Barrens, water means the difference between survival and starvation. She asks them to notice what water makes possible: forests flourish where it flows, deserts starve where it is absent, and living beings will kill to protect even the humblest spring.",
    "spoiler": 0
   },
   {
    "title": "The Quilboar's Hoard",
-   "body": "The watering hole beneath Brine's hill is fiercely guarded by native quilboar. To them, any pool of water is a priceless hoard of wealth, celebrated with feasts whenever the skies deign to rain. While Brine regrets the inevitable violence that arises from their hoarding, she notes that the quilboar's insular greed and divided clans keep their threat contained, preserving a precarious balance for the other races striving to survive in the plains.",
+   "body": "Native quilboar fiercely guard the watering hole beneath Brine's hill. They treat every pool as a priceless hoard and feast whenever rain comes. Brine regrets the violence their hoarding brings, but their insular greed and divided clans keep their threat contained. For the other races surviving on the plains, that leaves a precarious balance.",
    "spoiler": 0
   }
  ],
@@ -38,7 +38,7 @@
     "brine water task",
     "call of water quest 3 purpose"
    ],
-   "answer": "Brine requires samples of pure water from distinct corners of the world to brew a ceremonial water sapta. This draught opens the initiate's perception, allowing them to commune directly with elemental water spirits."
+   "answer": "Brine needs samples of pure water from distinct corners of the world to brew a ceremonial water sapta. The draught opens an initiate's perception, allowing communion with elemental water spirits."
   },
   {
    "q": "Why is the watering hole below Brine so heavily contested?",
@@ -47,7 +47,7 @@
     "quilboar pond",
     "water hole barrens"
    ],
-   "answer": "In the parched climate of the Barrens, water is the most precious resource. The local quilboar revere any pool as sacred treasure and will fiercely fight anyone who tries to draw from it."
+   "answer": "In the parched Barrens, water is the most precious resource. Local quilboar treat every pool as sacred treasure and fight fiercely against anyone who tries to draw from it."
   },
   {
    "q": "Who is Brine?",
@@ -56,7 +56,7 @@
     "brine barrens",
     "brine npc"
    ],
-   "answer": "Brine is an orc shaman and hermit dwelling in a lonely hut overlooking the southern Barrens. She possesses deep wisdom regarding water and elemental spirits, guiding Horde shamans along their path of communion."
+   "answer": "Brine is an orc shaman and hermit who lives in a lonely hut overlooking the southern Barrens. Her deep wisdom about water and elemental spirits guides Horde shamans toward communion."
   },
   {
    "q": "What happens after returning the filled brown waterskin?",
@@ -65,7 +65,7 @@
     "after watering hole",
     "next step brine"
    ],
-   "answer": "Once you return with the sample from the watering hole, Brine expands your pilgrimage, sending you further afield to draw pristine water from vastly different environments such as the well of Tarren Mill in Hillsbrad Foothills."
+   "answer": "After you return with a sample from the watering hole, Brine sends you farther afield to gather pristine water from very different places, including the well of Tarren Mill in Hillsbrad Foothills."
   },
   {
    "q": "Why does Brine remark on the quilboar's division?",
@@ -73,7 +73,7 @@
     "brine quilboar commentary",
     "why quilboar fighting each other"
    ],
-   "answer": "Brine observes that the quilboar's fierce territorialism and clan rivalries perpetuate their own misery. If they ever united their strength rather than fighting over isolated springs, they would pose a far greater danger to the rest of the Barrens."
+   "answer": "Brine sees the quilboar's territorial ways and clan rivalries as causes of their misery. If they united instead of fighting over isolated springs, they would threaten the rest of the Barrens far more."
   },
   {
    "q": "What is a sapta?",
@@ -81,17 +81,17 @@
     "what is sapta",
     "water sapta meaning"
    ],
-   "answer": "A sapta is a mystical elixir prepared by shamans using gathered reagents and elementally aligned waters. Drinking it expands one's spiritual sight, revealing elemental beings normally hidden from mortal eyes."
+   "answer": "A sapta is a mystical elixir shamans prepare from gathered reagents and waters aligned with the elements. Drinking it expands spiritual sight, revealing elemental beings usually hidden from mortal eyes."
   }
  ],
  "angles": [
   {
    "target": "class:Shaman",
-   "text": "This trial teaches shamans that the element of water is not merely about healing and restoration, but also the catalyst for conflict and life's desperate struggle to survive."
+   "text": "As a shaman, you learn that water brings healing and restoration, but also sparks conflict and the desperate struggle to survive."
   },
   {
    "target": "faction:Horde",
-   "text": "Controlling and sharing water remains the ultimate challenge of settling the Barrens, where competing tribes and beasts fight constantly over every trickle."
+   "text": "As a member of the Horde, you face the challenge of controlling and sharing water in the Barrens, where tribes and beasts constantly fight over every trickle."
   }
  ],
  "keywords": [
@@ -110,5 +110,6 @@
  ],
  "attribution": [
   "Call of Water (3)"
- ]
+ ],
+ "style": 1
 }

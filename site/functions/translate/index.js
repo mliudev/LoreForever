@@ -14,7 +14,9 @@ export async function onRequestGet({ request, env }) {
   const [languages, likes, credits, packs] = await Promise.all([loadLanguages(env, request), likeCounts(env),
     translatorCredits(env), loadPacks(env, request)]);
   const byLocale = Object.fromEntries(packs.map(p => [p.locale, p]));
-  const cards = languages.map(l => languageCard(l, likes[l.locale], credits[l.locale], byLocale[l.locale]))
+  // A whole kit sent outside the dashboard credits its translator from languages.json (data/i18n/<locale>/pack.json).
+  const names = l => [...new Set([...(credits[l.locale] || []), ...(l.credits || []).map(c => c.name)])];
+  const cards = languages.map(l => languageCard(l, likes[l.locale], names(l), byLocale[l.locale]))
     .join("\n    ");
   const headers = new Headers(page.headers);
   headers.set("Cache-Control", "no-cache");

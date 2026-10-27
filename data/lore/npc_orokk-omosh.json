@@ -8,16 +8,16 @@
   "wiki": "Orokk Omosh",
   "refs": 2
  },
- "summary": "Orokk Omosh is an aging orc blacksmith stationed in Orgrimmar's Valley of Honor. As the last heir to a storied lineage of smiths, he seeks worthy apprentices across the Horde to preserve his family's armoring secrets before they are lost to time.",
+ "summary": "In Orgrimmar's Valley of Honor, Orokk Omosh keeps his family's smithing craft alive. The aging orc has no children to inherit it, so he seeks worthy Horde apprentices to learn the Omosh armorcraft secrets.",
  "sections": [
   {
    "title": "A Lineage at Its End",
-   "body": "Standing beside the roaring forges in the Valley of Honor, Orokk Omosh carries a heavy burden: he is the final smith of the venerable Omosh line. Having fathered no children to inherit his craft, Orokk refuses to let his family's hard-won techniques die with him. Instead, he invites capable Horde blacksmiths to undertake demanding trials of metalwork, promising to impart the revered secrets of Omosh armorcraft to those who prove their dedication.",
+   "body": "In the Valley of Honor, Orokk Omosh is the last smith of the Omosh line. He has no children to inherit his craft, and he will not let his family's techniques die with him. Capable Horde blacksmiths can undertake his demanding trials of metalwork. Those who prove their dedication earn the revered secrets of Omosh armorcraft.",
    "spoiler": 0
   },
   {
    "title": "The Spirit of the Forge",
-   "body": "Despite the somber reality of his fading bloodline, Orokk is known among fellow artisans for his boisterous enthusiasm when true mastery is displayed. Completing his trials of craftsmanship earns more than just specialized armoring patterns\u2014it often provokes the famous 'Omosh Dance of Joy,' a jubilant celebration of traditional smithing that echoes through the halls of Orgrimmar.",
+   "body": "Among fellow artisans, Orokk is known for his boisterous delight in true mastery. Those who complete his craftsmanship trials often see him perform the Omosh Dance of Joy, a jubilant celebration of traditional smithing that echoes through Orgrimmar's halls.",
    "spoiler": 0
   }
  ],
@@ -29,7 +29,7 @@
     "orokk omosh lore",
     "orc smith orgrimmar"
    ],
-   "answer": "Orokk Omosh is a master orc blacksmith residing in the Valley of Honor in Orgrimmar. He is the last surviving member of the Omosh lineage of smiths and spends his days searching for promising apprentices to inherit his family's metallurgical knowledge."
+   "answer": "Orokk Omosh is an aging orc blacksmith in Orgrimmar's Valley of Honor. He is the last smith of the Omosh lineage and seeks worthy Horde apprentices to preserve his family's craft."
   },
   {
    "q": "Where can Orokk Omosh be found?",
@@ -38,7 +38,7 @@
     "where is orokk",
     "find orokk omosh"
    ],
-   "answer": "You can find Orokk Omosh near the smithing forges and anvils in the Valley of Honor, located in the northeastern section of Orgrimmar."
+   "answer": "You can find Orokk Omosh beside the smithing forges and anvils in Orgrimmar's Valley of Honor, in the city's northeastern section."
   },
   {
    "q": "Why is Orokk Omosh teaching outsiders his family secrets?",
@@ -47,7 +47,7 @@
     "omosh legacy",
     "why teach blacksmiths"
    ],
-   "answer": "Orokk has no children of his own to inherit his family's craft. Rather than allow generations of orcish armoring techniques to die out, he has chosen to teach any skilled Horde blacksmith who proves capable of meeting his high standards."
+   "answer": "Orokk has no children to inherit his family's craft. He teaches skilled Horde blacksmiths who prove capable in his trials so the Omosh techniques do not die with him."
   },
   {
    "q": "What is the 'Omosh Dance of Joy'?",
@@ -56,17 +56,17 @@
     "omosh dance",
     "joys of omosh"
    ],
-   "answer": "It is an exuberant, celebratory jig that Orokk performs when an artisan successfully proves their worth and masters his line's smithing techniques. It serves as both his personal stamp of approval and a spirited tribute to the craft."
+   "answer": "The Omosh Dance of Joy is a jubilant jig Orokk performs when an artisan proves their worth and masters his line's smithing techniques. It is his spirited tribute to the craft."
   }
  ],
  "angles": [
   {
    "target": "profession:Blacksmithing",
-   "text": "For aspiring Horde armorers, Orokk Omosh is an essential mentor who offers specialized patterns and training to ensure his ancestral craft survives."
+   "text": "As a Horde blacksmith, you can learn from Orokk Omosh and help preserve his family's ancestral craft."
   },
   {
    "target": "faction:Horde",
-   "text": "Orokk's dedication ensures that traditional orcish plate and mail techniques remain available to bolster the warriors defending the fledgling Horde."
+   "text": "As a member of the Horde, you can help keep traditional orcish plate and mail techniques available to the warriors defending the fledgling Horde."
   }
  ],
  "keywords": [
@@ -89,5 +89,6 @@
  ],
  "attribution": [
   "Orokk Omosh"
- ]
+ ],
+ "style": 1
 }

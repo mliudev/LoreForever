@@ -7,11 +7,11 @@
  "meta": {
   "wiki": "Tidus Stair"
  },
- "summary": "Tidus Stair is a natural rock formation of broad, stepped stone terraces perched over the Merchant Coast southeast of Ratchet. Sheltered beside the Great Sea, it serves as a quiet retreat for two tauren shamans communing with the tides and water spirits.",
+ "summary": "At Tidus Stair, two tauren shamans seek insight from the coastal water spirits. Broad stone terraces rise above the Merchant Coast southeast of Ratchet, sheltered beside the Great Sea.",
  "sections": [
   {
    "title": "Steps to the Sea",
-   "body": "Descending toward the surf southeast of Ratchet, the Tidus Stair resembles a monumental set of weathered stone steps cut directly into the coastal bluffs. While the surrounding Barrens are arid, dusty, and prone to skirmishes, this quiet stretch overlooking the Merchant Coast is dominated by the sound of crashing waves. Perched on the terraces is a modest hut where the tauren Islen Waterseer and Mahren Skyseer reside. Far from the bustling trade docks of the goblins, the two spend their days fishing, watching the horizon, and seeking insight from the coastal water spirits.",
+   "body": "Waves crash below the weathered stone terraces of Tidus Stair, cut into the coastal bluffs southeast of Ratchet. The Barrens around you are arid and dusty, and skirmishes trouble the region, but this stretch above the Merchant Coast is quiet. A modest hut stands on the terraces, home to the tauren Islen Waterseer and Mahren Skyseer. Far from the goblin trade docks, they spend their days fishing, watching the horizon, and seeking insight from the coastal water spirits.",
    "spoiler": 0
   }
  ],
@@ -32,7 +32,7 @@
     "tidus stair npcs",
     "who lives here"
    ],
-   "answer": "Two tauren make their home here: Islen Waterseer and Mahren Skyseer. They live in a simple seaside hut on the terraces, spending their time fishing and communing with nature."
+   "answer": "Islen Waterseer and Mahren Skyseer, two tauren, live here in a simple seaside hut on the terraces. They spend their time fishing and communing with nature."
   },
   {
    "q": "Why is Tidus Stair significant to shamans?",
@@ -41,7 +41,7 @@
     "water totem tidus stair",
     "why do shamans come here"
    ],
-   "answer": "Horde shamans seeking to master the element of water are guided across Kalimdor to find Islen Waterseer at Tidus Stair. Here, beside the open ocean, initiates learn to commune with the tides and seek out pure waters to bind their water totem."
+   "answer": "Horde shamans seeking to master water are guided across Kalimdor to find Islen Waterseer at Tidus Stair. Beside the open ocean, initiates learn to commune with the tides and seek pure waters to bind their water totem."
   },
   {
    "q": "Is Tidus Stair aligned with the Horde or neutral?",
@@ -49,17 +49,17 @@
     "is tidus stair horde",
     "tidus stair faction"
    ],
-   "answer": "The resident tauren are loyal to the Horde and guide Horde shamans, though the remote terraces sit outside any formal military borders."
+   "answer": "The tauren who live at Tidus Stair are loyal to the Horde and guide Horde shamans. The remote terraces lie outside formal military borders."
   }
  ],
  "angles": [
   {
    "target": "class:Shaman",
-   "text": "Every Horde shaman eventually journeys down these coastal steps to seek out Islen Waterseer during their trials to bind the water totem."
+   "text": "As a Horde shaman, you eventually journey down these coastal steps to seek Islen Waterseer during your trials to bind the water totem."
   },
   {
    "target": "race:Tauren",
-   "text": "The quiet presence of Islen Waterseer and Mahren Skyseer shows how tauren seers maintain a spiritual vigil even far outside Mulgore's borders."
+   "text": "As a tauren, you can see in Islen Waterseer and Mahren Skyseer how tauren seers keep a spiritual vigil far beyond Mulgore's borders."
   }
  ],
  "keywords": [
@@ -81,5 +81,6 @@
  ],
  "attribution": [
   "Tidus Stair"
- ]
+ ],
+ "style": 1
 }

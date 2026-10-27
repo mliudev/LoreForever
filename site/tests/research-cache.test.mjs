@@ -168,6 +168,18 @@ test("Willo's help answers questions about her and stays out of lore and the pla
     /488 left this month, more on November 13/);
 });
 
+test("a long WILLO STATE keeps its newest lines and what's wrong, and lets go of checks that are fine", async () => {
+  const token = await linked();
+  const fine = ["addon", "folder", "saved", "talk", "sound", "voice"].map(id =>
+    `${id}: ok, ${"everything about this one checks out and works as it should ".repeat(3).trim()}`);
+  const prompt = "PLAYER CONTEXT\nzone: Westfall\nlevel: 15\n\nWILLO STATE\n" + [...fine,
+    "live: bad, Live game info is unticked in the add-on", "lore player: playing The Fall of Lordaeron"].join("\n") +
+    "\n\nSOURCES\n\nQUESTION\nWhy can't you see who I'm targeting?";
+  await ask(token, "", "", { prompt, style: undefined });
+  assert.match(calls[0].system, /lore player: playing The Fall of Lordaeron/);
+  assert.match(calls[0].system, /live: bad, Live game info is unticked/);
+});
+
 test("Willo's own state goes to her help for a question about her, and out of every other answer (LOR-546)", async () => {
   const token = await linked();
   const prompt = q => "PLAYER CONTEXT\nzone: Westfall\nrace: Human\nclass: Warrior\nlevel: 15\nfaction: Alliance\n\n" +

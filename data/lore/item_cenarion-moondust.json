@@ -10,11 +10,11 @@
    "quest:6001"
   ]
  },
- "summary": "Cenarion Moondust is a sacred powder entrusted to night elf druids undergoing their trials to become Druids of the Claw. When scattered upon the ancient Moonkin Stone in the hills east of Auberdine, it draws forth Lunaclaw, the feral guardian of the cave.",
+ "summary": "At the Moonkin Stone east of Auberdine, Cenarion Moondust calls forth Lunaclaw. Night elf druids use the sacred powder in their trial to become Druids of the Claw.",
  "sections": [
   {
    "title": "A Rite of the Claw",
-   "body": "Bestowed by Mathrengyl Bearwalker in Darnassus, Cenarion Moondust serves as the catalyst for a young druid's final trial of heart and body. To commune with and prove oneself against the guardian Lunaclaw, the initiate must journey to the moonkin dens east of Auberdine in Darkshore. Applying the moondust to the ancient Moonkin Stone summons the beast to test the initiate in combat, allowing the druid to internalize the enduring strength needed to channel the form of the bear.",
+   "body": "Mathrengyl Bearwalker gives Cenarion Moondust to young druids in Darnassus for their final trial of heart and body. To face Lunaclaw, the guardian, an initiate travels to the moonkin dens east of Auberdine in Darkshore. Scattered on the ancient Moonkin Stone, the powder summons Lunaclaw to test the druid in combat. Through the trial, the initiate takes in the enduring strength needed to channel the bear form.",
    "spoiler": 0
   }
  ],
@@ -26,7 +26,7 @@
     "what does cenarion moondust do",
     "cenarion moondust purpose"
    ],
-   "answer": "It is used by night elf druid initiates at the Moonkin Stone in Darkshore to awaken Lunaclaw, testing their strength and determination to earn the power of the bear form."
+   "answer": "Night elf druid initiates scatter Cenarion Moondust on the Moonkin Stone in Darkshore to summon Lunaclaw and prove their strength and resolve in the trial for bear form."
   },
   {
    "q": "Where do I use the Cenarion Moondust?",
@@ -35,7 +35,7 @@
     "moonkin stone location",
     "where is lunaclaw stone"
    ],
-   "answer": "It must be scattered over the Moonkin Stone inside a moonkin cave nestled in the hills directly east of Auberdine in Darkshore."
+   "answer": "Scatter the Cenarion Moondust over the Moonkin Stone in a moonkin cave in the hills directly east of Auberdine in Darkshore."
   },
   {
    "q": "Who provides Cenarion Moondust?",
@@ -44,7 +44,7 @@
     "where to get cenarion moondust",
     "mathrengyl moondust"
    ],
-   "answer": "Mathrengyl Bearwalker, the druid trainer residing at the Cenarion Enclave in Darnassus, gives it to initiates who have demonstrated readiness for the trial of body and heart."
+   "answer": "Mathrengyl Bearwalker, a druid trainer at the Cenarion Enclave in Darnassus, gives Cenarion Moondust to initiates ready for the trial of body and heart."
   },
   {
    "q": "What happens if I lose the moondust?",
@@ -53,17 +53,17 @@
     "lost moondust",
     "get moondust back"
    ],
-   "answer": "If the moondust is misplaced or spent in an unsuccessful attempt against Lunaclaw, initiates must return to Darnassus and petition Mathrengyl Bearwalker again to renew the trial."
+   "answer": "If the moondust is lost or spent in a failed attempt against Lunaclaw, return to Darnassus and ask Mathrengyl Bearwalker to renew the trial."
   }
  ],
  "angles": [
   {
    "target": "class:Druid",
-   "text": "For night elf druids, handling Cenarion Moondust marks the culminating step in the path to becoming a Druid of the Claw, leading directly to mastering the bear form."
+   "text": "As a night elf druid, using Cenarion Moondust begins the final step toward becoming a Druid of the Claw and mastering bear form."
   },
   {
    "target": "race:NightElf",
-   "text": "The dust reflects the ancient traditions of the Cenarion Circle, blending nature worship with lunar ritual to honor the beasts of Darkshore."
+   "text": "As a night elf, you encounter the ancient traditions of the Cenarion Circle in the dust, which joins nature worship with lunar ritual to honor Darkshore's beasts."
   }
  ],
  "keywords": [
@@ -89,5 +89,6 @@
  "attribution": [
   "Cenarion Moondust",
   "Body and Heart (Alliance)"
- ]
+ ],
+ "style": 1
 }

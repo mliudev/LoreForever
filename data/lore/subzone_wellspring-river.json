@@ -7,11 +7,11 @@
  "meta": {
   "wiki": "Wellspring River"
  },
- "summary": "The Wellspring River flows from a natural spring within Teldrassil, coursing north out of Wellspring Lake until it plummets off the boughs in a towering waterfall to the ocean far below. Once a peaceful source of fresh water for the World Tree's ecosystem, its banks have grown perilous due to agitated local wildlife.",
+ "summary": "In Teldrassil, Wellspring River carries fresh water north from Wellspring Lake before plunging to the ocean below. Its banks have grown dangerous as the timberlings turn hostile.",
  "sections": [
   {
    "title": "Waters of the World Tree",
-   "body": "Nourished by the deep natural springs nestled in the boughs of Teldrassil, the Wellspring River carries water north from Wellspring Lake across the verdant forest floor before cascading dramatically over the edge of the great tree down into the sea below. Despite the serene surroundings, the riverbanks are increasingly unsafe. The timberlings that dwell along the water have grown crazed and hostile, violently attacking travelers and druids who attempt to draw near the river's edge.",
+   "body": "Wellspring River runs north from Wellspring Lake through Teldrassil's forest before falling from the great tree into the sea below. Its banks are no longer safe. The timberlings living there have grown crazed and attack travelers and druids who come near the water.",
    "spoiler": 0
   }
  ],
@@ -23,7 +23,7 @@
     "wellspring river destination",
     "where does wellspring river go"
    ],
-   "answer": "The Wellspring River flows northward out of Wellspring Lake. Eventually, it reaches the rim of Teldrassil's canopy and plunges over the edge in an enormous waterfall that drops all the way down into the surrounding ocean."
+   "answer": "Wellspring River flows north from Wellspring Lake, then reaches the edge of Teldrassil's canopy and plunges in a great waterfall to the ocean below."
   },
   {
    "q": "Why are the timberlings along the river attacking people?",
@@ -32,7 +32,7 @@
     "crazed timberlings wellspring",
     "why timberlings hostile"
    ],
-   "answer": "The timberlings along the Wellspring River have become erratic and crazed, turning on anyone who wanders nearby. This aggression is part of a broader disturbance spreading through Teldrassil's natural wildlife, alarming the local night elven druids."
+   "answer": "The timberlings along Wellspring River have grown erratic and crazed, attacking anyone nearby. This unrest among Teldrassil's wildlife alarms the local night elven druids."
   },
   {
    "q": "Where does the water in the river come from?",
@@ -40,17 +40,17 @@
     "wellspring water source",
     "where does wellspring water come from"
    ],
-   "answer": "The river is fed directly by Wellspring Lake, which itself is sustained by a natural freshwater spring rising deep from within the living trunk and boughs of the World Tree."
+   "answer": "Wellspring River flows from Wellspring Lake, which is fed by a natural freshwater spring deep within the living trunk and boughs of the World Tree."
   }
  ],
  "angles": [
   {
    "target": "class:Druid",
-   "text": "The corrupted and maddened state of the river's native timberlings is an unsettling sign of the growing sickness creeping through Teldrassil's ecosystem."
+   "text": "The maddened timberlings along Wellspring River are an unsettling sign of sickness spreading through Teldrassil's ecosystem."
   },
   {
    "target": "race:NightElf",
-   "text": "The freshwater waterways flowing from the heart of Teldrassil represent the vitality of the Kaldorei's new home, making the unrest along their banks deeply concerning."
+   "text": "The freshwater waterways flowing from Teldrassil's heart represent the vitality of the Kaldorei's new home, so unrest along their banks is deeply concerning."
   }
  ],
  "keywords": [
@@ -68,5 +68,6 @@
  ],
  "attribution": [
   "Wellspring River"
- ]
+ ],
+ "style": 1
 }

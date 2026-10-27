@@ -10,11 +10,11 @@
    "quest:867"
   ]
  },
- "summary": "A Witchwing Talon is a severed claw taken from the aggressive harpies inhabiting the northwestern canyons of the Barrens. Collected as bloody proof of dead raiders, they are sought by Horde scouts at the Crossroads trying to secure vital caravan routes.",
+ "summary": "In the northwestern Barrens, Witchwing Talons mark dead harpy raiders. Horde scouts at the Crossroads seek them as proof while they work to secure vital caravan routes.",
  "sections": [
   {
    "title": "Trophies from the Roosts",
-   "body": "The Witchwing harpies roost in the crags and ravines northwest of the Crossroads, routinely swooping down to pillage Horde supply caravans traversing the arid plains. To counter this threat, the scout Darsok Swiftdagger coordinates strikes against the flock's hierarchy. Rather than relying on simple reports, Darsok demands physical proof of every dead scavenger. Collecting these razor-sharp talons serves as concrete evidence that a marauder's throat has been cut, chipping away at the harpy rank and file before scouts dare strike higher up the chain of command.",
+   "body": "Witchwing harpies raid Horde supply caravans from their roosts northwest of the Crossroads. Scout Darsok Swiftdagger coordinates strikes against the flock's hierarchy. Darsok requires physical proof of each dead scavenger, and the talons provide it. With proof that raiders have fallen, the scouts can weaken the flock's ranks before striking higher in its command.",
    "spoiler": 0
   }
  ],
@@ -26,7 +26,7 @@
     "witchwing talon quest giver",
     "darsok swiftdagger talons"
    ],
-   "answer": "Darsok Swiftdagger, an orc scout stationed at the Crossroads, collects them. He is plotting a systematic campaign to cull the Witchwing brood and requires eight talons as proof that their frontline raiders have been slain."
+   "answer": "Darsok Swiftdagger, an orc scout at the Crossroads, collects them. He plans a campaign against the Witchwing brood and requires eight talons as proof that its frontline raiders have been slain."
   },
   {
    "q": "Which harpies carry these talons?",
@@ -34,7 +34,7 @@
     "what drops witchwing talons",
     "which harpies have talons"
    ],
-   "answer": "They can be severed from virtually any Witchwing harpy in the northwestern Barrens, particularly common harpies and Witchwing Roguefeathers nesting along the cliffs and dry ridges."
+   "answer": "Witchwing Talons come from harpies in the northwestern Barrens, including common harpies and Witchwing Roguefeathers that nest along the cliffs and dry ridges."
   },
   {
    "q": "Why are the Witchwing harpies being targeted?",
@@ -42,17 +42,17 @@
     "why kill witchwing harpies",
     "harpy raiders purpose"
    ],
-   "answer": "The Witchwing flock has grown increasingly bold, regularly descending upon Horde supply lines and trade caravans moving across the Barrens. Darsok's offensive aims to thin their lower ranks before mounting attacks against their lieutenants and matriarch."
+   "answer": "The Witchwing flock has grown increasingly bold, attacking Horde supply lines and trade caravans across the Barrens. Darsok aims to thin its lower ranks before striking its lieutenants and matriarch."
   }
  ],
  "angles": [
   {
    "target": "faction:Horde",
-   "text": "Caravans are the lifeblood connecting Kalimdor's scattered Horde outposts, making the bloody eradication of the harpy roosts essential frontier security."
+   "text": "Caravans connect Kalimdor's scattered Horde outposts, so clearing the harpy roosts helps secure the frontier."
   },
   {
    "target": "class:Rogue",
-   "text": "Darsok Swiftdagger appreciates quiet, throat-slitting precision, treating these sharp claws as marks of professional butchery against aerial predators."
+   "text": "Darsok Swiftdagger values quiet, precise attacks. To him, these sharp claws mark the work of a skilled killer against aerial predators."
   }
  ],
  "keywords": [
@@ -77,5 +77,6 @@
  "attribution": [
   "Witchwing Talon",
   "Harpy Raiders (Classic)"
- ]
+ ],
+ "style": 1
 }

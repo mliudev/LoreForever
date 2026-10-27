@@ -10,11 +10,11 @@
    "quest:1003"
   ]
  },
- "summary": "A Grizzled Scalp is the thick, furred hide taken from grizzled thistle bears roaming the southern forests of Darkshore. While seemingly an odd trophy, these pelts are sought by the eccentric gnome tinkerer Wizbang Cranktoggle to supply his hidden wilderness machinery.",
+ "summary": "In southern Darkshore, grizzled thistle bears roam the forests south of Auberdine. Their thick, furred hides reach Wizbang Cranktoggle, a gnome tinkerer with a use for them.",
  "sections": [
   {
    "title": "A Peculiar Fermentation",
-   "body": "Travelers hunting along the road south of Auberdine encounter the weathered grizzled thistle bears, known for their rough, thick pelts. While skinning dangerous predators is second nature to wilderness stalkers, bringing four of their scalps to Buzzbox 525 reveals a far less dignified purpose. The apparatus does not need bear fur for engineering repairs or scientific analysis. Instead, the gnome Wizbang Cranktoggle utilizes the hidden buzzboxes scattered across Darkshore as covert distilleries. Since the local night elves frown upon illicit brewing operations within their settlements, Wizbang relies on gullible adventurers gathering bear scalps and other bizarre ingredients to produce his beloved 'thistle bear beer.'",
+   "body": "Grizzled thistle bears roam the road south of Auberdine, their rough pelts prized by hunters. Bring four scalps to Buzzbox 525, and the reason becomes clear. The bears’ fur is not meant for repairs or study. Wizbang Cranktoggle uses the hidden buzzboxes scattered across Darkshore as stills. Night elves frown on illicit brewing in their settlements, so Wizbang depends on adventurers to gather bear scalps and other strange ingredients for his beloved thistle bear beer.",
    "spoiler": 1
   }
  ],
@@ -26,7 +26,7 @@
     "who drops grizzled scalps",
     "thistle bear scalp"
    ],
-   "answer": "Grizzled Scalps are obtained from grizzled thistle bears and their matriarch, the Den Mother, in the forests south of Auberdine along the main trail in Darkshore."
+   "answer": "You can find grizzled thistle bears and their matriarch, the Den Mother, in the forests south of Auberdine, along Darkshore’s main trail."
   },
   {
    "q": "What are Grizzled Scalps used for?",
@@ -34,7 +34,7 @@
     "grizzled scalp use",
     "what do i do with grizzled scalps"
    ],
-   "answer": "They are deposited into Buzzbox 525, an automated mechanical terminal hidden in the bushes alongside the road far south of Auberdine."
+   "answer": "Deposit the scalps in Buzzbox 525, a mechanical terminal hidden in the bushes beside the road far south of Auberdine."
   },
   {
    "q": "Why does Buzzbox 525 need bear scalps?",
@@ -42,7 +42,7 @@
     "why does wizbang want scalps",
     "buzzbox 525 purpose"
    ],
-   "answer": "Wizbang Cranktoggle secretly uses his buzzbox network to distill bootleg liquor away from watchful night elf eyes. The grizzled scalps serve as an ingredient in his homebrewed thistle bear beer."
+   "answer": "Wizbang Cranktoggle uses his hidden buzzbox network to distill liquor away from night elf eyes. The scalps are an ingredient in his thistle bear beer."
   },
   {
    "q": "Why is Wizbang hiding his brewing in Darkshore's wilderness?",
@@ -50,17 +50,17 @@
     "why hide buzzbox",
     "wizbang liquor darkshore"
    ],
-   "answer": "The night elves residing in Auberdine do not appreciate an unauthorized, noisy alcohol trade in their sacred groves. Wizbang hid his contraptions in the brush along the wilderness roads to keep his moonshine operation running undetected."
+   "answer": "Wizbang hides his stills in the wilderness brush because the night elves of Auberdine object to unauthorized, noisy brewing in their sacred groves. The hidden contraptions let his moonshine operation go undetected."
   }
  ],
  "angles": [
   {
    "target": "profession:Engineering",
-   "text": "The buzzbox network demonstrates the gnomish talent for disguising automated brewing stills as field-repair communication arrays."
+   "text": "As an engineer, you can see how gnomish skill disguises automated brewing stills as field-repair communication arrays."
   },
   {
    "target": "race:NightElf",
-   "text": "Night elves protect Darkshore's wildlife and take a dim view of both wanton poaching and surreptitious gnomish stills cluttering their wilderness."
+   "text": "As a night elf, you protect Darkshore’s wildlife and look askance at wanton poaching and gnomish stills hidden in the wilderness."
   }
  ],
  "keywords": [
@@ -80,5 +80,6 @@
  "attribution": [
   "Grizzled Scalp",
   "Buzzbox 525 (quest)"
- ]
+ ],
+ "style": 1
 }

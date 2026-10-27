@@ -17,16 +17,16 @@
   "wiki": "Onu (quest)",
   "chain": []
  },
- "summary": "This errand directs travelers from Auberdine south toward the Grove of the Ancients to consult with Onu. Having scouted the cave behind Cliffspring Falls, your findings have drawn the urgent attention of one of Darkshore's oldest guardians.",
+ "summary": "Barithras Moonshade sends you south from Auberdine to speak with Onu. Your findings in Cliffspring Falls have drawn the attention of one of Darkshore's oldest guardians.",
  "sections": [
   {
    "title": "A Summons from the Ancients",
-   "body": "After returning to Auberdine with fungal samples from the depths of Cliffspring Falls, Barithras Moonshade realizes that the implications stretch far beyond mere botanical curiosity. Word of the tainted caverns travels quickly to Onu, an Ancient of Lore rooted in the tranquil sanctuary of the Grove of the Ancients south of town. Patient and ponderous though the ancient treants are by nature, Onu's immediate desire for counsel signals that the corruption running through Darkshore's waterways may touch upon ancient, unsettling powers.",
+   "body": "Barithras Moonshade sees more than strange fungi in the samples you brought back to Auberdine. The caves beneath Cliffspring Falls are tainted, and word of them reaches Onu, an Ancient of Lore in the Grove of the Ancients south of town. The corruption in Darkshore's waterways may reach beyond anything a naturalist can explain. Onu wants counsel, and even an Ancient's patient nature cannot hide the weight of that summons.",
    "spoiler": 0
   },
   {
    "title": "Journey to the Grove",
-   "body": "Following the southern road out of Auberdine leads away from the coastal ruins and inland toward the mountain slopes. The Grove of the Ancients serves as an ancestral redoubt of nature, largely sheltered from the creeping decay that plagues the shoreline. Here, Onu waits among towering stone barrows and kindred spirits, preparing to direct allies toward deeper, more terrifying blights stirring at the edge of the wilderness.",
+   "body": "The road south from Auberdine turns inland, away from the coastal ruins and toward the mountain slopes. The Grove of the Ancients shelters an old refuge of nature, set apart from the decay along the shore. Onu waits among stone barrows and kindred spirits, ready to guide allies toward the blights stirring at the edge of the wilderness.",
    "spoiler": 0
   }
  ],
@@ -38,7 +38,7 @@
     "onu identity",
     "what is onu"
    ],
-   "answer": "Onu is an Ancient of Lore, a colossal, sapient tree-guardian dedicated to gathering and preserving knowledge. He presides over the Grove of the Ancients nestled in southern Darkshore, offering wisdom and guidance to defenders of the land."
+   "answer": "Onu is an Ancient of Lore, a great tree guardian who gathers and preserves knowledge. He watches over the Grove of the Ancients in southern Darkshore and offers wisdom to those defending the land."
   },
   {
    "q": "Why does Onu want to speak with me?",
@@ -47,7 +47,7 @@
     "reason for talk",
     "why go to onu"
    ],
-   "answer": "You recently ventured into the caverns beneath Cliffspring Falls to gather fungal samples for Barithras Moonshade. The peculiar nature of what was uncovered there alarmed the naturalists, prompting Onu to request an audience to address the growing corruption."
+   "answer": "You gathered fungal samples for Barithras Moonshade from the caves beneath Cliffspring Falls. What you found alarmed the naturalists, and Onu wants to speak with you about the spreading corruption."
   },
   {
    "q": "Where is the Grove of the Ancients?",
@@ -56,7 +56,7 @@
     "where is grove of the ancients",
     "how to find onu"
    ],
-   "answer": "The Grove of the Ancients lies south of Auberdine, nestled along the foothills of the eastern mountain range. Follow the main road south through Darkshore and head east toward the mountain slopes to find Onu."
+   "answer": "The Grove of the Ancients lies south of Auberdine, along the eastern mountain foothills. Follow the main road south through Darkshore, then head east toward the mountain slopes to reach Onu."
   },
   {
    "q": "What kind of creature is an Ancient of Lore?",
@@ -65,7 +65,7 @@
     "what creature is onu",
     "treant vs ancient"
    ],
-   "answer": "Ancients of Lore are ancient treant beings allied with the night elves and the Cenarion Circle. Revered for their deep wisdom and memory, they serve as living repositories of nature magic and historical secrets."
+   "answer": "Ancients of Lore are old treant beings allied with the night elves and the Cenarion Circle. They are revered for their wisdom and memory, and preserve nature's magic and history."
   },
   {
    "q": "Why is Onu's summons considered urgent?",
@@ -74,7 +74,7 @@
     "is onu worried",
     "barithras warning"
    ],
-   "answer": "Ancients are known for their deliberate, unhurried demeanor, rarely acting in haste. As Barithras Moonshade notes, if a being as patient and methodical as Onu actively calls for your counsel, the threat to Darkshore must be severe."
+   "answer": "Ancients are deliberate and rarely hurry. Barithras Moonshade says Onu's call for counsel means the threat to Darkshore is severe."
   },
   {
    "q": "What comes after meeting with Onu?",
@@ -83,21 +83,21 @@
     "what happens next",
     "where does onu send you"
    ],
-   "answer": "Upon greeting you at the Grove of the Ancients, Onu enlists your aid in investigating a far darker threat situated further south along the coast: the ominous excavation taking place around the Master's Glaive."
+   "answer": "After you meet Onu at the Grove of the Ancients, he asks for your help investigating a darker threat farther south along the coast: the excavation around the Master's Glaive."
   }
  ],
  "angles": [
   {
    "target": "race:NightElf",
-   "text": "The Ancients of Lore are sacred partners to the Kaldorei, having guided your people since before the Sundering. Answering Onu's call is a solemn duty to preserve the sanctity of Darkshore."
+   "text": "As a night elf, you know the Ancients of Lore as sacred partners who have guided your people since before the Sundering. Answering Onu's call helps preserve Darkshore."
   },
   {
    "target": "class:Druid",
-   "text": "Druids hold the Ancients in deep reverence as manifestations of nature's wisdom. Investigating strange cavern growths at Onu's behest aligns directly with the duties of the Cenarion Circle."
+   "text": "As a druid, you revere the Ancients as keepers of nature's wisdom. Investigating the strange growths in the caves at Onu's request fits the Cenarion Circle's work."
   },
   {
    "target": "faction:Alliance",
-   "text": "For Alliance travelers helping secure Darkshore, gaining the trust and insight of the regional ancients is crucial to navigating Kalimdor's mysterious northern wilderness."
+   "text": "As an Alliance traveler helping defend Darkshore, you can turn to the region's Ancients for insight into Kalimdor's northern wilderness."
   }
  ],
  "keywords": [
@@ -117,5 +117,6 @@
  ],
  "attribution": [
   "Onu (quest)"
- ]
+ ],
+ "style": 1
 }

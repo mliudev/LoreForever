@@ -7,16 +7,16 @@
  "meta": {
   "wiki": "Remtravel's Excavation"
  },
- "summary": "Remtravel's Excavation is an archaeological dig site located in the southern reaches of Darkshore. Established by the dwarven Prospector Remtravel, the expedition recently struck ancient subterranean ruins, inadvertently unearthing hostile troggs and stone golems that quickly overran the quarry.",
+ "summary": "At Remtravel's Excavation, Prospector Remtravel's dig has broken into ancient ruins.",
  "sections": [
   {
    "title": "A Quarry Overrun",
-   "body": "Prospector Remtravel came to Darkshore in search of relics of the distant past, establishing an ambitious dig far from the safety of Auberdine. While excavating ancient strata, his team unearthed a swarm of subterranean Gravelflint troggs alongside hulking stone golems buried beneath the earth. The site was instantly transformed from a scholarly quarry into a hazard zone, scattering the miners and leaving Remtravel scrambling to retrieve his most promising findings.",
+   "body": "Prospector Remtravel came to southern Darkshore seeking relics from the distant past. He established a large dig far from Auberdine's safety. As his team cut through ancient layers of earth, they uncovered Gravelflint troggs and hulking stone golems buried below. The creatures overran the quarry, scattering the miners. Remtravel now scrambles to recover his most promising finds.",
    "spoiler": 0
   },
   {
    "title": "The Missing Fossil",
-   "body": "Before the excavation descended into chaos, Remtravel had uncovered a rare fossil radiating curious mystic properties. In the panic of the trogg onslaught\u2014and hindered by his notorious absent-mindedness\u2014the prospector misplaced the valuable relic amid the sprawling dirt pits. Venturing down into the dig to recover it means braving both the vicious troggs and the ancient automatons awakened by the pickaxes.",
+   "body": "A rare fossil with curious mystic properties was uncovered before chaos swept the excavation. In the panic of the trogg attack, the absent-minded prospector misplaced it among the sprawling dirt pits. Recovering the relic means venturing into the dig, where vicious troggs and ancient automatons awakened by the pickaxes remain.",
    "spoiler": 1
   }
  ],
@@ -28,7 +28,7 @@
     "darkshore dig site",
     "remtravel site"
    ],
-   "answer": "It is an archaeological dig site in southern Darkshore founded by Prospector Remtravel, an explorer searching for ancient fossils and subterranean relics."
+   "answer": "Remtravel's Excavation is an archaeological dig in southern Darkshore, established by Prospector Remtravel as he searched for ancient fossils and subterranean relics."
   },
   {
    "q": "Why are there troggs here?",
@@ -37,7 +37,7 @@
     "gravelflint troggs",
     "where did troggs come from"
    ],
-   "answer": "Dwarven miners dug too deeply into the earth and breached subterranean caverns, awakening a local tribe known as the Gravelflint troggs alongside dormant stone golems."
+   "answer": "Dwarven miners dug too deeply and broke into underground caverns, awakening the Gravelflint troggs and dormant stone golems."
   },
   {
    "q": "Who is Prospector Remtravel?",
@@ -45,7 +45,7 @@
     "who is remtravel",
     "prospector remtravel lore"
    ],
-   "answer": "He is a dwarven archaeologist leading the excavation. Known for his keen eye for artifacts as well as his absent-minded nature, he lost track of a key fossil when his dig was attacked."
+   "answer": "Prospector Remtravel is a dwarven archaeologist leading the excavation. He has a keen eye for artifacts, but lost track of a key fossil when the dig came under attack."
   },
   {
    "q": "What kind of relic was discovered here?",
@@ -54,17 +54,17 @@
     "remtravel fossil",
     "mystic fossil"
    ],
-   "answer": "Remtravel discovered an unusual fossil imbued with strange, mystic properties shortly before the troggs surged from the lower depths."
+   "answer": "Remtravel uncovered an unusual fossil with strange mystic properties shortly before the troggs surged from below."
   }
  ],
  "angles": [
   {
    "target": "race:Dwarf",
-   "text": "Dwarven explorers of the Explorers' League are well known for seeking the secrets of the past, though unearthing dangerous troggs in foreign lands often leads to familiar headaches."
+   "text": "As a dwarf, you know the Explorers' League seeks the secrets of the past. Digging in foreign lands can uncover dangerous troggs along with them."
   },
   {
    "target": "race:NightElf",
-   "text": "The kaldorei generally observe the deep meddling of Alliance dwarven picks with skepticism, especially when careless delving awakens wild troggs on Darkshore's ancient soil."
+   "text": "As a night elf, you may watch Alliance dwarves' deep digging with skepticism, especially when it awakens wild troggs on Darkshore's ancient soil."
   }
  ],
  "keywords": [
@@ -84,5 +84,6 @@
  ],
  "attribution": [
   "Remtravel's Excavation"
- ]
+ ],
+ "style": 1
 }

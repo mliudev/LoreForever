@@ -7,11 +7,11 @@
  "meta": {
   "wiki": "Razor Hill Watchtower"
  },
- "summary": "Perched on the red stone bluffs overlooking Razor Hill, this sturdy outpost serves as an early warning post for the heart of Durotar. Furl Scornbrow keeps a vigilant eye across the dusty plains and toward the coast, safeguarding the settlement below from encroaching threats.",
+ "summary": "Furl Scornbrow watches Durotar from the Razor Hill Watchtower. From its red stone bluffs, he keeps an eye on the plains and coast, guarding the settlement below.",
  "sections": [
   {
    "title": "Eyes Over Durotar",
-   "body": "Constructed from thick timber and iron framing, the Razor Hill Watchtower guards the settlement of Razor Hill and the surrounding canyons. Durotar faces relentless threats from Kul Tiras marines along the eastern shore, quilboar raiders prowling the scrublands, and Burning Blade cultists lurking in nearby crags. From this elevated vantage point atop the ridgeline, the lookout can spot approaching warbands, smoke signals, and incursions long before they reach the settlement gates.",
+   "body": "The Razor Hill Watchtower rises above Razor Hill and the canyons around it. Thick timber and iron framing hold the outpost together. Durotar faces threats from Kul Tiras marines along the eastern shore, quilboar raiders across the scrublands, and Burning Blade cultists in nearby crags. From the ridgeline, a lookout can spot warbands, smoke signals, and incursions before they reach the settlement gates.",
    "spoiler": 0
   }
  ],
@@ -23,7 +23,7 @@
     "watchtower purpose",
     "razor hill tower"
    ],
-   "answer": "The watchtower serves as the primary lookout post for Razor Hill and central Durotar. Its high elevation allows scouts to monitor the trails, watch for hostile beasts, and detect any troop movements from nearby Alliance encampments or centaur raiding parties."
+   "answer": "The Razor Hill Watchtower is the main lookout for Razor Hill and central Durotar. Its height lets scouts watch the trails, spot hostile beasts, and see troop movements from nearby Alliance camps or centaur raiding parties."
   },
   {
    "q": "Who guards the watchtower?",
@@ -31,7 +31,7 @@
     "who is at the tower",
     "watchtower guards"
    ],
-   "answer": "Furl Scornbrow, an aging orc, keeps watch here for invaders and sounds his signal horn when needed. As Durotar has become more settled, he has taken to making bags for young adventurers."
+   "answer": "Furl Scornbrow, an aging orc, watches for invaders and sounds his signal horn when needed. As Durotar has grown more settled, he has also taken to making bags for young adventurers."
   },
   {
    "q": "What threats can be seen from up here?",
@@ -39,17 +39,17 @@
     "threats to razor hill",
     "what are they looking for"
    ],
-   "answer": "Scouts primarily keep watch for aggressive quilboar from the Razormane tribes, human infiltrators from Tiragarde Keep along the eastern coast, and wild beasts roaming the dry valleys."
+   "answer": "Scouts primarily watch for aggressive quilboar of the Razormane tribes, human infiltrators from Tiragarde Keep along the eastern coast, and wild beasts in the dry valleys."
   }
  ],
  "angles": [
   {
    "target": "faction:Horde",
-   "text": "For young warriors and scouts emerging from the Valley of Trials, the watchtower is a reassuring landmark signaling the safety and strength of the fledgling Horde."
+   "text": "For young warriors and scouts leaving the Valley of Trials, the watchtower is a reassuring landmark of the fledgling Horde’s safety and strength."
   },
   {
    "target": "class:Hunter",
-   "text": "The high vantage point offers an unobstructed view of the surrounding crags, ideal for spotters tracking quarry and tracking beast movements across Durotar."
+   "text": "The watchtower’s high, unobstructed vantage point is ideal for spotters tracking quarry and watching beast movements across Durotar."
   }
  ],
  "keywords": [
@@ -68,5 +68,6 @@
  ],
  "attribution": [
   "Razor Hill Watchtower"
- ]
+ ],
+ "style": 1
 }

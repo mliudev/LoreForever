@@ -17,21 +17,21 @@
   "wiki": "Seek Redemption!",
   "chain": []
  },
- "summary": "Seek Redemption! is a quest given in Dolanaar to adventurers who were duped into doing the dirty work of the satyr Zenn Foulhoof. The Council of the Forest demands penance for harming woodland beasts, sending you to trick the deceitful satyr into eating corrupted fel cones.",
+ "summary": "In Dolanaar, you face the Council of the Forest's demand for atonement. Adventurers were duped into doing Zenn Foulhoof's dirty work, and now the council sends you to trick the satyr into eating corrupted fel cones.",
  "sections": [
   {
    "title": "A Fool's Errand Undone",
-   "body": "Zenn Foulhoof, a solitary satyr lurking just outside Dolanaar, relies on deceit to trick passersby into doing his bidding. Adventurers who unwittingly slaughtered nightsabers, strigid owls, and webwood spiders for his twisted appetites soon draw the sharp disapproval of the Council of the Forest. The council does not suffer the defilement of nature lightly, especially from their own allies.",
+   "body": "Just outside Dolanaar, solitary satyr Zenn Foulhoof uses deceit to make passersby do his bidding. Adventurers who unwittingly slaughtered nightsabers, strigid owls, and webwood spiders to satisfy his twisted appetites draw the Council of the Forest's sharp disapproval. The council will not accept harm to nature, especially from its own allies.",
    "spoiler": 0
   },
   {
    "title": "The Price of Atonement",
-   "body": "Whether warned by Syral Bladeleaf, Sentinel Kyra Starsong, or Sentinel Shayla Nightbreeze, the message is plain: to remain welcome in Teldrassil, you must make amends. Rather than confronting Foulhoof with naked steel, the guardians of Dolanaar instruct you to exploit his wicked gluttony. By gathering billowing, corrupted fel cones from the forest floor, you offer the unsuspecting creature a taste of his own foul medicine.",
+   "body": "Syral Bladeleaf, Sentinel Kyra Starsong, or Sentinel Shayla Nightbreeze warns you that you must make amends to remain welcome in Teldrassil. Dolanaar's guardians tell you to turn Foulhoof's wicked gluttony against him instead of facing him with steel. Gather the billowing, corrupted fel cones from the forest floor, then offer the unsuspecting satyr a taste of his own foul medicine.",
    "spoiler": 0
   },
   {
    "title": "A Croaking Retribution",
-   "body": "Under the guise of another loyal errand-runner presenting a sweet snack, you hand Foulhoof the noxious cones. Unaware of the druidic snare sprung around him, Zenn eagerly devours the offerings\u2014only to be promptly polymorphed into a helpless frog, stripped of his vile schemes and humbled before the wilderness he sought to taint.",
+   "body": "You hand Zenn Foulhoof the noxious cones, posing as a loyal errand-runner with a sweet snack. Unaware of the druidic snare, the satyr eagerly devours them and is promptly changed into a helpless frog, humbled before the wilderness he sought to taint.",
    "spoiler": 1
   }
  ],
@@ -43,7 +43,7 @@
     "seek redemption why",
     "why do i need redemption"
    ],
-   "answer": "You accepted an earlier task from Zenn Foulhoof, slaughtering local wildlife\u2014nightsabers, strigid owls, and spiders\u2014to satisfy a satyr's whims. The Council views the needless killing of nature's creatures as a defilement of Teldrassil, demanding you atone to remain in good standing."
+   "answer": "You followed Zenn Foulhoof's earlier bidding and unwittingly slaughtered nightsabers, strigid owls, and spiders. The Council of the Forest sees that needless killing as a defilement of Teldrassil and demands atonement."
   },
   {
    "q": "Who can give me this quest?",
@@ -52,7 +52,7 @@
     "who starts seek redemption",
     "where to get seek redemption"
    ],
-   "answer": "Several watchers in and around Dolanaar offer this quest once you finish aiding Foulhoof. You can speak to Syral Bladeleaf outside the northern dwelling, Sentinel Kyra Starsong inside the inn, or Sentinel Shayla Nightbreeze along the western road."
+   "answer": "Syral Bladeleaf outside the northern dwelling, Sentinel Kyra Starsong inside the inn, or Sentinel Shayla Nightbreeze along the western road can offer it after you finish helping Foulhoof."
   },
   {
    "q": "What are fel cones?",
@@ -61,7 +61,7 @@
     "what is fel cone",
     "where fel cones come from"
    ],
-   "answer": "Fel cones are corrupted pine seeds that drop from the twisted branches around Teldrassil. Readily identified by the eerie green vapors billowing from their husks, they carry a foul magic that druids turn against unsuspecting miscreants."
+   "answer": "Fel cones are corrupted pine seeds from the twisted branches around Teldrassil. Green vapors billow from their husks, and druids turn their foul magic against unsuspecting miscreants."
   },
   {
    "q": "Why offer the fel cones to Zenn Foulhoof?",
@@ -70,7 +70,7 @@
     "foulhoof snack",
     "fel cone trick"
    ],
-   "answer": "The Council expects you to teach Foulhoof a lesson. He will mistake the corrupted cones for a harmless snack from someone who previously did his bidding."
+   "answer": "The Council expects you to teach Foulhoof a lesson. He takes the corrupted cones for a harmless snack from someone who once did his bidding."
   },
   {
    "q": "Why is there a satyr living so close to Dolanaar?",
@@ -79,7 +79,7 @@
     "satyr in dolanaar",
     "zenn foulhoof lore"
    ],
-   "answer": "Zenn Foulhoof keeps a low profile in a hollowed clearing just outside the settlement, disguising his malicious nature behind false pleasantries. Satyrs across Kalimdor are ancient servants of the Burning Legion, and Zenn's presence shows how deep corruption reaches into the young World Tree."
+   "answer": "Zenn Foulhoof keeps to a hollowed clearing just outside Dolanaar and hides his malice behind false pleasantries. Satyrs across Kalimdor are ancient servants of the Burning Legion, and his presence shows how far corruption reaches into the young World Tree."
   },
   {
    "q": "Can you skip or abandon this quest without ruining your standing?",
@@ -88,17 +88,17 @@
     "can i abandon seek redemption",
     "fail seek redemption"
    ],
-   "answer": "Yes. While the Council of the Forest scolds you sternly for helping Foulhoof, choosing not to undertake or complete the quest will not damage your standing or reputation with the night elves of Darnassus."
+   "answer": "Yes. The Council of the Forest scolds you for helping Foulhoof, but leaving this unfinished does not harm your standing or reputation with the night elves of Darnassus."
   }
  ],
  "angles": [
   {
    "target": "race:NightElf",
-   "text": "For the kaldorei, aiding a satyr is deeply humiliating. Satyrs are ancient enemies warped by the Burning Legion during the War of the Ancients, making penance through the Council of the Forest a matter of cultural honor."
+   "text": "For the kaldorei, aiding a satyr brings deep humiliation. The Burning Legion warped satyrs into ancient enemies during the War of the Ancients, so making amends before the Council of the Forest matters to cultural honor."
   },
   {
    "target": "class:Druid",
-   "text": "Druids hold the balance of Teldrassil sacred; hunting predators and scavengers at the behest of a demon-tainted outcast directly violates the Cenarion circle's tenets of guardianship."
+   "text": "As a druid, you hold Teldrassil's balance sacred. Hunting predators and scavengers for a demon-tainted outcast violates the Cenarion circle's tenets of guardianship."
   }
  ],
  "keywords": [
@@ -124,5 +124,6 @@
  ],
  "attribution": [
   "Seek Redemption!"
- ]
+ ],
+ "style": 1
 }

@@ -7,16 +7,16 @@
  "meta": {
   "wiki": "Cleft"
  },
- "summary": "The Cleft is a darkened hollow located northwest of Dolanaar in Teldrassil. Once a tranquil corner of the boughs, it has been claimed by the corrupted Gnarlpine furbolgs, who use it as a stronghold to ambush travelers moving along the main highway toward Darnassus.",
+ "summary": "Gnarlpine furbolgs ambush travelers in the Cleft, northwest of Dolanaar.",
  "sections": [
   {
    "title": "A Den of Corruption",
-   "body": "Situated off the highway between Dolanaar and Darnassus, the Cleft has turned into one of the most perilous dens on the world tree. Driven mad by the foul taint spreading through Teldrassil, the resident Gnarlpine furbolgs have fortified this hollow. From this redoubt, the maddened beasts terrorize the local roads, threatening to cut Dolanaar off from the capital.",
+   "body": "The Cleft lies off the road between Dolanaar and Darnassus, where Gnarlpine furbolgs have made their den. Teldrassil’s spreading corruption has driven them mad, and they have fortified the hollow. From there, they threaten travelers on the main road and risk cutting Dolanaar off from Darnassus.",
    "spoiler": 0
   },
   {
    "title": "The Roadway Ambushers",
-   "body": "The threat posed by the Cleft grew dire enough that Moon Priestess Amara and her sentinels were forced to establish a defensive watch along the road outside its entrance. Cleansing the Cleft is crucial for the Sentinels to secure the primary artery connecting Teldrassil's villages to Darnassus.",
+   "body": "Moon Priestess Amara and her sentinels keep watch outside the Cleft’s entrance. Their defense guards the main road linking Teldrassil’s villages with Darnassus, but the Gnarlpine still threaten its passage.",
    "spoiler": 1
   }
  ],
@@ -28,7 +28,7 @@
     "the cleft teldrassil",
     "cleft location"
    ],
-   "answer": "The Cleft is a furbolg den located in the boughs of Teldrassil, situated northwest of Dolanaar along the main road that leads toward Darnassus."
+   "answer": "The Cleft is a furbolg den northwest of Dolanaar, beside the main road to Darnassus."
   },
   {
    "q": "Who controls the Cleft?",
@@ -37,7 +37,7 @@
     "cleft enemies",
     "who rules the cleft"
    ],
-   "answer": "It is occupied by hostile Gnarlpine furbolgs who have fallen victim to Teldrassil's creeping corruption."
+   "answer": "Hostile Gnarlpine furbolgs occupy the Cleft, driven mad by Teldrassil’s spreading corruption."
   },
   {
    "q": "Why are the night elves fighting here?",
@@ -46,7 +46,7 @@
     "cleft night elf quests",
     "road to darnassus"
    ],
-   "answer": "The Gnarlpine inside the Cleft have been ambushing travelers along the road to Darnassus. Moon Priestess Amara and the Sentinels seek to keep that road safe."
+   "answer": "The Gnarlpine ambush travelers on the road to Darnassus, so Moon Priestess Amara and the Sentinels work to keep the road safe."
   },
   {
    "q": "Is the Cleft related to the Cleft of Shadow?",
@@ -54,17 +54,17 @@
     "cleft of shadow connection",
     "cleft vs cleft of shadow"
    ],
-   "answer": "No. Despite having a similar name, this Cleft is a furbolg cave in Teldrassil, whereas the Cleft of Shadow is the dark subterranean cavern located inside the Horde capital of Orgrimmar."
+   "answer": "No. The Cleft is a furbolg cave in Teldrassil; the Cleft of Shadow is a dark cavern beneath Orgrimmar."
   }
  ],
  "angles": [
   {
    "target": "race:NightElf",
-   "text": "The Cleft represents a painful tragedy for night elves, watching their longtime furbolg allies succumb to madness and attack travelers."
+   "text": "As a night elf, you see longtime furbolg allies driven mad and attacking travelers."
   },
   {
    "target": "class:Druid",
-   "text": "The corrupted Gnarlpine threaten the safety of travelers along the road to Darnassus."
+   "text": "As a druid, you know the corrupted Gnarlpine threaten travelers on the road to Darnassus."
   }
  ],
  "keywords": [
@@ -86,5 +86,6 @@
  ],
  "attribution": [
   "Cleft"
- ]
+ ],
+ "style": 1
 }

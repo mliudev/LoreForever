@@ -10,16 +10,16 @@
    "quest:842"
   ]
  },
- "summary": "The Signed Recruitment Letter is an official dispatch issued by Kargal Battlescar at the Far Watch Post. Bearing Kargal's mark, it transfers new recruits deeper into the arid interior of the Barrens to report for duty at the Crossroads.",
+ "summary": "Kargal Battlescar sends the Signed Recruitment Letter west from the Far Watch Post. His mark directs new recruits to report for duty at the Crossroads.",
  "sections": [
   {
    "title": "A Conscript's Transfer",
-   "body": "Standing as the eastern threshold of the Barrens, the Far Watch Post evaluates newcomers crossing over the Southfury River from Durotar. Once a conscript proves their readiness to Kargal Battlescar, he stamps and signs this letter of introduction. It serves as military orders directing recruits west down the road to the Crossroads, where Sergra Darkthorn coordinates logistical operations and territorial defense across the dry plains.",
+   "body": "At the Far Watch Post, Kargal Battlescar prepares recruits for service in the Barrens. The post stands east of the Southfury River, where newcomers cross from Durotar. When a conscript proves ready to Kargal, he stamps and signs a letter of introduction. The orders send recruits west along the road to the Crossroads. There, Sergra Darkthorn coordinates supplies and the defense of the dry plains.",
    "spoiler": 0
   },
   {
    "title": "Tension at the Outposts",
-   "body": "While the letter is an official document of the Horde, Kargal does not hide his personal contempt for the officer awaiting the recruit. He views Sergra Darkthorn as an abrasive shaman who talks circles around soldiers, openly questioning Warchief Thrall's high opinion of her. Despite his misgivings, the dispatch must be delivered directly into Sergra's hands before any further assignments in the Crossroads are granted.",
+   "body": "Kargal's orders carry his personal contempt for the officer who awaits the recruit. He calls Sergra Darkthorn an abrasive shaman who talks in circles around soldiers. Kargal openly questions Warchief Thrall's high opinion of her. Even so, the dispatch must reach Sergra's hands before any further assignments at the Crossroads are granted.",
    "spoiler": 0
   }
  ],
@@ -31,7 +31,7 @@
     "recruitment letter use",
     "signed letter barrens"
    ],
-   "answer": "The letter acts as an official military transfer paper. It proves to Sergra Darkthorn at the Crossroads that Kargal Battlescar has vetted you at the Far Watch Post and deemed you ready for duty in the Barrens."
+   "answer": "The Signed Recruitment Letter transfers you from Kargal Battlescar at the Far Watch Post to duty in the Barrens. It shows Sergra Darkthorn at the Crossroads that Kargal has judged you ready."
   },
   {
    "q": "Who signed the letter?",
@@ -40,7 +40,7 @@
     "kargal letter",
     "who signed this"
    ],
-   "answer": "Kargal Battlescar, an orc veteran overseeing the Far Watch Post on the border between Durotar and the Barrens. He signs the letter after a recruit completes initial duties at the border."
+   "answer": "Kargal Battlescar signs the letter. The orc veteran oversees the Far Watch Post on the border between Durotar and the Barrens, and signs after a recruit completes initial duties there."
   },
   {
    "q": "Who do I deliver the letter to?",
@@ -49,7 +49,7 @@
     "who gets the letter",
     "letter recipient"
    ],
-   "answer": "You deliver it to Sergra Darkthorn, an influential orc shaman stationed at the central intersection of the Crossroads."
+   "answer": "You deliver the letter to Sergra Darkthorn, an influential orc shaman stationed at the Crossroads' central intersection."
   },
   {
    "q": "Why does Kargal speak poorly of Sergra Darkthorn?",
@@ -57,17 +57,17 @@
     "kargal sergra feud",
     "why does kargal hate sergra"
    ],
-   "answer": "Kargal considers Sergra to be a sharp-tongued, difficult officer who wastes time talking when there is work to be done. Although Warchief Thrall holds her in high regard, Kargal remains skeptical of her leadership."
+   "answer": "Kargal calls Sergra sharp-tongued and difficult, and thinks she wastes time talking when work needs doing. Warchief Thrall holds her in high regard, but Kargal doubts her leadership."
   }
  ],
  "angles": [
   {
    "target": "faction:Horde",
-   "text": "The recruitment letter represents your transition from basic service in Durotar into the broader military apparatus of the Horde frontier."
+   "text": "As a member of the Horde, you carry this letter from basic service in Durotar into the Horde's wider frontier forces."
   },
   {
    "target": "class:Shaman",
-   "text": "The document delivers you into the service of Sergra Darkthorn, a prominent orc shaman entrusted by Thrall to help secure the Barrens."
+   "text": "As a shaman, you report to Sergra Darkthorn, an orc shaman whom Thrall has entrusted with helping secure the Barrens."
   }
  ],
  "keywords": [
@@ -93,5 +93,6 @@
  "attribution": [
   "Signed Recruitment Letter",
   "Crossroads Conscription"
- ]
+ ],
+ "style": 1
 }

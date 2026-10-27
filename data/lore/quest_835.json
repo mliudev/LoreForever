@@ -17,16 +17,16 @@
   "wiki": "Securing the Lines (Classic)",
   "chain": []
  },
- "summary": "Securing the Lines is a task given by Rezlak near Razorwind Canyon to protect vital goblin supply routes running through Durotar. Harpies roosting in Drygulch Ravine continuously intercept and plunder supply caravans, prompting the frustrated goblin to hire muscle to clear them out.",
+ "summary": "Near Razorwind Canyon, Rezlak needs the goblin supply routes through Durotar protected. Harpies in Drygulch Ravine keep intercepting and plundering caravans, so he hires help to drive them out.",
  "sections": [
   {
    "title": "A Route Plagued by Harpies",
-   "body": "The dry valleys of Durotar are harsh enough without aggressive harpies swooping down on unsuspecting travelers. Operating on behalf of his boss Gazlowe, the goblin Rezlak watches over regional supply operations. Unfortunately, the Dustwind harpies inhabiting Drygulch Ravine have turned Razorwind Canyon into a hazard, routinely raiding caravans and seizing incoming shipments before they can reach their destinations.",
+   "body": "Dustwind harpies make travel through Durotar’s dry valleys dangerous. Rezlak watches over regional supply operations for his boss, Gazlowe. The harpies roosting in Drygulch Ravine raid caravans in Razorwind Canyon and seize shipments before they reach their destinations.",
    "spoiler": 0
   },
   {
    "title": "Business and Bloodshed",
-   "body": "Rezlak lives by the goblin maxim that you can get anything done if the price is right. Rather than personally entering the canyon, he hires adventurers to break the back of the roost by eliminating Dustwind Savages and Dustwind Storm Witches. Clearing these harpies keeps the trade corridors open, secures incoming shipments of engineering gadgets, and points helpful travelers toward greater opportunities in Ratchet.",
+   "body": "Rezlak believes the right price can get anything done. Rather than enter the canyon himself, he hires adventurers to break the roost by eliminating Dustwind Savages and Dustwind Storm Witches. Clearing the harpies keeps trade corridors open, secures shipments of engineering gadgets, and points helpful travelers toward greater opportunities in Ratchet.",
    "spoiler": 0
   }
  ],
@@ -38,7 +38,7 @@
     "who does rezlak work for",
     "rezlak employer"
    ],
-   "answer": "Rezlak works for Gazlowe, the chief engineer and boss of the neutral goblin port town of Ratchet. Gazlowe oversees extensive commerce and infrastructure projects throughout Durotar and the Barrens."
+   "answer": "Rezlak works for Gazlowe, chief engineer and boss of Ratchet, the neutral goblin port town. Gazlowe oversees extensive commerce and infrastructure projects throughout Durotar and the Barrens."
   },
   {
    "q": "Why are the harpies attacking caravans?",
@@ -47,7 +47,7 @@
     "dustwind harpies motive",
     "why drygulch ravine"
    ],
-   "answer": "The Dustwind harpies have established a substantial roost in Drygulch Ravine, which cuts directly alongside the primary transit routes of Razorwind Canyon. They fiercely attack any intruders and plunder the wagons and goods passing nearby."
+   "answer": "The Dustwind harpies roost in Drygulch Ravine, which runs alongside Razorwind Canyon’s main transit routes. They attack intruders and plunder nearby wagons and goods."
   },
   {
    "q": "Where is Drygulch Ravine located?",
@@ -56,7 +56,7 @@
     "where is drygulch ravine",
     "how to find drygulch"
    ],
-   "answer": "Drygulch Ravine is nestled deep within the eastern reaches of Razorwind Canyon in northern Durotar, carved out into the arid crimson hills."
+   "answer": "Drygulch Ravine lies deep in the eastern reaches of Razorwind Canyon in northern Durotar, carved into the arid crimson hills."
   },
   {
    "q": "What happens after helping Rezlak?",
@@ -65,7 +65,7 @@
     "rezlak follow up",
     "what next after rezlak"
    ],
-   "answer": "With the Dustwind harpies culled and his supply route secured, Rezlak points adventurers toward Ratchet across the border in the Barrens, encouraging them to seek out Gazlowe for further profitable contracts."
+   "answer": "Once the Dustwind harpies are culled and the supply route is secure, Rezlak points adventurers across the border to Ratchet in the Barrens. He encourages them to seek out Gazlowe for more profitable contracts."
   },
   {
    "q": "Why doesn't the Horde handle the harpies instead of goblins?",
@@ -74,7 +74,7 @@
     "why isn't orgrimmar handling this",
     "horde and harpies"
    ],
-   "answer": "While the Horde maintains outposts in Durotar, their resources are stretched thin managing centaur, quilboar, and internal settlement needs. Goblin merchants like Rezlak often find it quicker and cheaper to hire independent adventurers directly to protect their private enterprise."
+   "answer": "The Horde has outposts in Durotar, but its resources are stretched thin by centaur, quilboar, and the needs of its settlements. Goblin merchants like Rezlak often find it quicker and cheaper to hire independent adventurers to protect their private enterprise."
   },
   {
    "q": "What kinds of harpies reside in Drygulch Ravine?",
@@ -83,17 +83,17 @@
     "dustwind harpy types",
     "drygulch enemies"
    ],
-   "answer": "The roost primarily consists of feral Dustwind Savages who attack in close combat and Dustwind Storm Witches who command wind and lightning against trespassing caravans."
+   "answer": "Drygulch Ravine’s roost includes feral Dustwind Savages, who attack at close range, and Dustwind Storm Witches, who wield wind and lightning against trespassing caravans."
   }
  ],
  "angles": [
   {
    "target": "profession:Engineering",
-   "text": "Safeguarding Rezlak's shipments keeps cutting-edge goblin components moving from Ratchet into the hands of local tinkerers."
+   "text": "Keeping Rezlak’s shipments safe helps goblin components move from Ratchet into the hands of local tinkerers."
   },
   {
    "target": "faction:Horde",
-   "text": "Clearing the harpy menace in eastern Razorwind Canyon preserves the flow of goods and reinforcements between Durotar's frontier outposts and the coastal trade hubs."
+   "text": "Clearing the harpies in eastern Razorwind Canyon keeps goods and reinforcements moving between Durotar’s frontier outposts and coastal trade hubs."
   }
  ],
  "keywords": [
@@ -115,5 +115,6 @@
  ],
  "attribution": [
   "Securing the Lines (Classic)"
- ]
+ ],
+ "style": 1
 }

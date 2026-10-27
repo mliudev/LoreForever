@@ -8,16 +8,16 @@
   "wiki": "Gorbold Steelhand",
   "refs": 1
  },
- "summary": "Gorbold Steelhand is a dwarven merchant stationed in Auberdine along the misty coast of Darkshore. Operating far from the snowy halls of Khaz Modan, he supplies travelers, crafters, and local night elves with general goods and trade supplies.",
+ "summary": "In Auberdine, Gorbold Steelhand keeps trade moving along Darkshore’s coast. The dwarven merchant brings goods from far across the Great Sea for travelers, crafters, and night elves.",
  "sections": [
   {
    "title": "A Dwarven Trader in Kalimdor",
-   "body": "While most of Kalimdor's northern reaches are populated by the secretive night elves, Alliance outposts like Auberdine rely on merchants from across the Great Sea to keep trade moving. Gorbold Steelhand represents the far-reaching presence of Ironforge commerce in the region. Working alongside the kaldorei, he sells trade goods, reagents, crafting sundries, and tools to adventurers preparing to explore the treacherous shores and forests of Darkshore.",
+   "body": "Gorbold Steelhand brings Ironforge trade to Auberdine. Night elves populate much of northern Kalimdor, so Alliance outposts depend on merchants who cross the Great Sea. Gorbold works alongside the kaldorei, selling trade goods, reagents, crafting supplies, and tools. Travelers come to him as they prepare to explore Darkshore’s dangerous shores and forests.",
    "spoiler": 0
   },
   {
    "title": "Maritime Ventures",
-   "body": "Beyond stocking daily goods, Gorbold keeps a keen eye on the perilous coastal waters off Auberdine. Darkshore's reef-strewn waters are notorious for swallowing Alliance vessels, and merchants like Gorbold have a direct interest in the cargo lost beneath the waves. Travelers willing to dive into the deep ocean can often find him interested in the salvage and lost logs scattered across sunken wrecks.",
+   "body": "Gorbold Steelhand watches the perilous waters off Auberdine as closely as his stock. Reefs along Darkshore have swallowed Alliance vessels, and lost cargo draws the merchant’s interest. Travelers who dive into the deep ocean may find him eager to hear about salvage and lost logs from sunken wrecks.",
    "spoiler": 0
   }
  ],
@@ -29,7 +29,7 @@
     "who is gorbold steelhand",
     "dwarf in auberdine"
    ],
-   "answer": "Gorbold Steelhand is a dwarven general trade merchant based in the coastal port of Auberdine in Darkshore."
+   "answer": "Gorbold Steelhand is a dwarven merchant in Auberdine, the coastal port of Darkshore."
   },
   {
    "q": "What does Gorbold Steelhand sell?",
@@ -38,7 +38,7 @@
     "gorbold trade goods",
     "gorbold vendor list"
    ],
-   "answer": "He carries general trade supplies, crafting ingredients, gathering tools, and reagents such as vials and thread used by tradesfolk passing through Auberdine."
+   "answer": "Gorbold Steelhand sells general trade supplies, crafting ingredients, gathering tools, and reagents such as vials and thread for tradesfolk passing through Auberdine."
   },
   {
    "q": "Why is an Ironforge dwarf living in Darkshore?",
@@ -47,7 +47,7 @@
     "why is gorbold in darkshore",
     "ironforge in auberdine"
    ],
-   "answer": "Auberdine serves as a key Alliance transit hub connecting Kalimdor to the Eastern Kingdoms. Dwarves frequently travel here for commerce, exploration, and supporting allied night elf operations."
+   "answer": "Auberdine connects Kalimdor to the Eastern Kingdoms as an Alliance transit hub. Dwarves travel there for commerce, exploration, and support of allied night elf operations."
   },
   {
    "q": "Does Gorbold offer any quests?",
@@ -55,17 +55,17 @@
     "gorbold quest",
     "deep ocean vast sea quest giver"
    ],
-   "answer": "Yes, he directs adventurers toward sunken wreckage off the coast of Darkshore in the quest 'Deep Ocean, Vast Sea' to recover lost ship cargo."
+   "answer": "Yes. Gorbold Steelhand directs adventurers to recover lost ship cargo from sunken wreckage off Darkshore in 'Deep Ocean, Vast Sea'."
   }
  ],
  "angles": [
   {
    "target": "race:Dwarf",
-   "text": "Seeing a familiar Ironforge face like Gorbold in the misty, nocturnal environment of Darkshore provides dwarven travelers a welcome reminder of home."
+   "text": "As a dwarf, seeing Gorbold Steelhand in Darkshore’s misty, nocturnal surroundings can remind you of home in Ironforge."
   },
   {
    "target": "faction:Alliance",
-   "text": "Gorbold illustrates the practical cooperation between the eastern races of the Alliance and the night elves, keeping trade flowing across the Great Sea."
+   "text": "As an Alliance member, you can see Gorbold Steelhand helping eastern Alliance races and night elves keep trade flowing across the Great Sea."
   }
  ],
  "keywords": [
@@ -86,5 +86,6 @@
  ],
  "attribution": [
   "Gorbold Steelhand"
- ]
+ ],
+ "style": 1
 }

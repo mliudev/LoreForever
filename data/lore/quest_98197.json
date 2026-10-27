@@ -1,0 +1,115 @@
+{
+ "key": "quest:98197",
+ "type": "quest",
+ "name": "Spoils of War",
+ "era": "forever",
+ "zone": "wetlands",
+ "meta": {
+  "ids": [
+   98197
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "Valstag Ironjaw needs Khaz Modan timber and iron from Menethil Harbor. The recovered materials will help strengthen the town\u2019s defenses as the Dragonmaw move.",
+ "sections": [
+  {
+   "title": "Harbor Stores",
+   "body": "Menethil Harbor began as an Old Horde staging ground for an invasion of Hillsbrad. The fleet built there used resources stolen from Khaz Modan, and some of those supplies remain in the harbor. Valstag asks you to bring him the timber and iron so they can support the town\u2019s defenses.",
+   "spoiler": 0
+  },
+  {
+   "title": "A New Supply",
+   "body": "Valstag thanks you for the materials. With them, the town need not rely only on shipments from Theramore or Auberdine.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "What does Valstag need from Menethil Harbor?",
+   "aliases": [
+    "what does he need",
+    "timber and iron",
+    "harbor supplies"
+   ],
+   "answer": "Valstag asks you to recover Khaz Modan timber and iron from Menethil Harbor."
+  },
+  {
+   "q": "Why are Khaz Modan supplies in the harbor?",
+   "aliases": [
+    "why is timber there",
+    "khaz modan iron",
+    "old horde supplies"
+   ],
+   "answer": "The Old Horde built a fleet at Menethil Harbor using resources stolen from Khaz Modan."
+  },
+  {
+   "q": "What will the materials be used for?",
+   "aliases": [
+    "why gather supplies",
+    "defenses",
+    "what are they for"
+   ],
+   "answer": "Valstag says the materials will help bolster the town\u2019s defenses as the Dragonmaw move."
+  },
+  {
+   "q": "Who is Valstag Ironjaw?",
+   "aliases": [
+    "who's valstag",
+    "valstag",
+    "ironjaw"
+   ],
+   "answer": "Valstag Ironjaw is the one asking you to recover timber and iron from Menethil Harbor."
+  },
+  {
+   "q": "Where did the Old Horde use Menethil Harbor?",
+   "aliases": [
+    "old horde harbor",
+    "menethil history",
+    "hillsbrad invasion"
+   ],
+   "answer": "The Old Horde built Menethil Harbor as a staging ground for its naval invasion of Hillsbrad."
+  },
+  {
+   "q": "Why does Valstag welcome these supplies?",
+   "aliases": [
+    "why thank you",
+    "theramore shipments",
+    "auberdine supplies"
+   ],
+   "answer": "The materials mean the town need not rely only on shipments from Theramore or Auberdine."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Alliance",
+   "text": "As an Alliance traveler, you are helping bolster the town\u2019s defenses against the Dragonmaw."
+  },
+  {
+   "target": "race:Dwarf",
+   "text": "As a dwarf, you may note that the Old Horde built its fleet here with resources stolen from Khaz Modan."
+  }
+ ],
+ "keywords": [
+  "dragonmaw",
+  "khaz modan iron",
+  "khaz modan timber",
+  "menethil harbor",
+  "old horde",
+  "spoils of war",
+  "town defenses",
+  "valstag ironjaw"
+ ],
+ "related": [
+  "subzone:menethil-harbor",
+  "npc:valstag-ironjaw",
+  "subzone:auberdine",
+  "topic:old-horde",
+  "topic:alliance",
+  "zone:wetlands"
+ ],
+ "style": 1,
+ "attribution": [
+  "In-game quest text: Spoils of War"
+ ]
+}

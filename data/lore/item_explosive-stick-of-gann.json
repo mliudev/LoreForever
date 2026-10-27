@@ -10,16 +10,16 @@
    "quest:849"
   ]
  },
- "summary": "The Explosive Stick of Gann is a customized blasting charge assembled by Gann Stonespire using stolen dwarven schematics. It was designed specifically to sabotage the dwarven flying machine stationed at Bael Modan in the southern Barrens.",
+ "summary": "In the southern Barrens, Gann Stonespire turns stolen dwarven plans against Bael Modan. He built the charge to sabotage the dwarves’ flying machine.",
  "sections": [
   {
    "title": "A Weapon of Retribution",
-   "body": "When the dwarven Prospector Khazgorm led the Ironforge excavation into southern Kalimdor, the dwarves drove the Stonespire tauren from their ancestral village and razed their sacred grounds to build the fortress-dig of Bael Modan. Driven by vengeance and a desire to honor his displaced and fallen kin, Gann Stonespire reclaimed Khazgorm's blueprints to turn dwarven engineering against the invaders. By studying the recovered plans, Gann assembled this specialized charge with enough concussive force to wreck heavy machinery.",
+   "body": "When Prospector Khazgorm led the Ironforge excavation into southern Kalimdor, the dwarves drove the Stonespire tauren from their ancestral village and razed their sacred grounds to build Bael Modan. Gann Stonespire reclaimed Khazgorm’s blueprints to avenge his displaced and fallen kin. He studied the plans and assembled a charge with enough force to wreck heavy machinery.",
    "spoiler": 0
   },
   {
    "title": "Targeting the Sky Machine",
-   "body": "The explosive stick was crafted for a singular target: the dwarven flying machine perched on an observation tower overlooking the excavation site. To Gann, the mechanical flyer is not merely aerial transport or a weapon of war; it stands as an arrogant symbol of Alliance dominion cast over sacred tauren soil. Detonating the charge destroys a cornerstone of the dwarven outpost's infrastructure and strikes a critical blow for the lost Stonespire tribe.",
+   "body": "Gann made the explosive stick for the dwarven flying machine on an observation tower above the excavation. To him, the machine is more than transport or a weapon of war. It marks Alliance dominion over sacred tauren soil. Destroying it cripples the dwarven outpost and strikes a blow for the lost Stonespire tribe.",
    "spoiler": 1
   }
  ],
@@ -31,7 +31,7 @@
     "ganns explosive stick",
     "gann bomb"
    ],
-   "answer": "It is an explosive charge crafted by the tauren Gann Stonespire. Using recovered dwarven schematics, Gann built it specifically to sabotage the machinery of the Prospectors occupying his ancestral lands."
+   "answer": "Gann Stonespire crafted the explosive charge from recovered dwarven schematics to sabotage the Prospectors’ machinery on his ancestral lands."
   },
   {
    "q": "Who made this explosive?",
@@ -40,7 +40,7 @@
     "who is gann",
     "gann stonespire"
    ],
-   "answer": "It was assembled by Gann Stonespire, a tauren seeking vengeance after the Ironforge dwarves of Bael Modan destroyed his tribe's village and desecrated their homeland in the southern Barrens."
+   "answer": "Gann Stonespire assembled the explosive to avenge his tribe after the Ironforge dwarves at Bael Modan destroyed their village and desecrated their homeland in the southern Barrens."
   },
   {
    "q": "What is the explosive supposed to blow up?",
@@ -49,7 +49,7 @@
     "flying machine target",
     "where do i use it"
    ],
-   "answer": "It is designed to destroy the dwarven flying machine situated on an overlook tower above the excavation pit at Bael Modan. Destroying the aircraft cripples the site's reconnaissance and serves as symbolic revenge for the Stonespire tribe."
+   "answer": "The charge is meant to destroy the dwarven flying machine on a tower above the excavation at Bael Modan. Its destruction cripples the site's reconnaissance and brings symbolic revenge for the Stonespire tribe."
   },
   {
    "q": "How did a tauren learn to make dwarven explosives?",
@@ -58,17 +58,17 @@
     "explosive schematics",
     "khazgorm plans"
    ],
-   "answer": "Gann constructed the stick by following engineering blueprints recovered from Prospector Khazgorm, the leader of the dwarven dig at Bael Modan, turning the invaders' own technology against them."
+   "answer": "Gann built the stick from engineering blueprints recovered from Prospector Khazgorm, leader of the dwarven dig at Bael Modan. He turned the invaders’ own technology against them."
   }
  ],
  "angles": [
   {
    "target": "race:Tauren",
-   "text": "Using this weapon avenges the displaced Stonespire tribe and strikes back at the Prospectors who dug up sacred Kalimdor soil."
+   "text": "As a tauren, using this weapon avenges the displaced Stonespire tribe and strikes back at the Prospectors who dug into sacred Kalimdor soil."
   },
   {
    "target": "profession:Engineering",
-   "text": "The weapon showcases the irony of simple stolen blueprints being turned back against advanced dwarven machinery."
+   "text": "As an engineer, you can see how stolen blueprints turned against the dwarven machinery."
   }
  ],
  "keywords": [
@@ -92,5 +92,6 @@
  "attribution": [
   "Explosive Stick of Gann",
   "Revenge of Gann (2)"
- ]
+ ],
+ "style": 1
 }

@@ -1,5 +1,6 @@
 // /admin's Creators tab (functions/api/admin/creators.js, lib/referrals.js): applications to approve or decline, the
-// month's payout list with Mark paid (paid by hand) or Pay with Stripe (once Stripe payouts are on and the creator has
+// payout list with Mark paid (sent by PayPal or bank wire; Stripe Connect payouts were dropped 10/25, LOR-836; the
+// private dashboard's copy, dashboard/public/product/admin-creators.js, is the one Mike uses) (once the creator has
 // set up theirs), each creator's link, terms and numbers, the form that adds a creator or changes one's terms, the
 // last commissions and payouts, and how players' own invites are doing. Loaded by admin-page.js when the tab opens,
 // with the admin key. Its ids start ct- (the clip reports above have the cr- ones).
@@ -46,15 +47,11 @@ export function loadCreators(key, $ = id => document.getElementById(id)) {
     let res;
     try { res = await call(key, "GET"); } catch (e) { say(e.message); return; }
     const list = res.payoutList || { due: [], held: [] };
-    // The Stripe payouts switch, and the rules in force.
+    // The rules in force.
     const r = res.rules || {}, pr = res.payoutRules || {};
     $("ct-switch").replaceChildren(`Players: a friend counts after Willo's first answer; every ${r.monthAt} give a free month, ${r.monthsPerMonth} a month at most ` +
       `(counts ${r.monthCounts} friends), the ${r.bonusAt}th of each ${r.bonusEvery} bonus answers (${r.bonusPercent}% of their plan's month), at most ` +
-      `${r.perMonth} a month. Creators are paid ${pr.holdDays} days after a payment, from ${usd(pr.minimumCents)}. ` +
-      `Stripe payouts: ${list.stripe ? "on" : "off (pay by hand)"}. `,
-      el("button", { type: "button", text: list.stripe ? "Turn Stripe payouts off" : "Turn Stripe payouts on",
-        onclick: () => act({ action: "stripe-payouts", on: !list.stripe },
-          list.stripe ? "Stripe payouts off: creators are paid by hand." : "Stripe payouts on: creators can set theirs up.") }));
+      `${r.perMonth} a month. Creators are paid ${pr.holdDays} days after a payment, from ${usd(pr.minimumCents)}, by PayPal or bank wire.`);
     // Applications.
     $("ct-apps").replaceChildren(...(res.applications || []).map(a => {
       const code = el("input", { "aria-label": "Code", placeholder: "from their name", style: "width:9em" });
@@ -75,11 +72,9 @@ export function loadCreators(key, $ = id => document.getElementById(id)) {
     $("ct-due").replaceChildren(...list.due.map(d => el("tr", {},
       el("td", {}, el("strong", { text: d.name }), d.contact ? el("div", { class: "ad-count", text: d.contact }) : null),
       el("td", {}, el("strong", { text: usd(d.due) })), el("td", { text: usd(d.payable) }), el("td", { text: usd(d.clawback) }),
-      el("td", { text: usd(d.held) }), el("td", { text: d.method === "stripe" ? "Stripe" : d.connect ? "Stripe ready, payouts off" : "By hand" }),
+      el("td", { text: usd(d.held) }), el("td", { text: !d.payout?.method ? "No payout details yet"
+        : d.payout.method === "paypal" ? `PayPal ${d.payout.email}` : "Bank wire" }),
       el("td", {},
-        d.method === "stripe" ? el("button", { type: "button", text: `Pay ${usd(d.due)} with Stripe`, onclick: () =>
-          confirm(`Send ${usd(d.due)} to ${d.name} through Stripe?`) && act({ action: "pay", code: d.code, method: "stripe" },
-            `Sent ${usd(d.due)} to ${d.name}.`) }) : null, " ",
         el("button", { type: "button", text: "Mark paid", onclick: () => {
           const note = prompt(`Paid ${usd(d.due)} to ${d.name} outside the site? A note (how, a reference):`, "");
           if (note !== null) act({ action: "pay", code: d.code, method: "manual", note }, `Marked ${usd(d.due)} paid to ${d.name}.`);
@@ -96,7 +91,7 @@ export function loadCreators(key, $ = id => document.getElementById(id)) {
         : c.stripe_error ? el("div", { class: "ad-count", text: `Stripe code not made: ${c.stripe_error}` }) : null),
       el("td", { text: n0(c.clicks) }), el("td", { text: n0(c.joined) }), el("td", { text: n0(c.activated) }),
       el("td", { text: n0(c.paying) }), el("td", { text: `${usd(c.earned)} of ${usd(c.brought)}` }), el("td", { text: usd(c.owed) }),
-      el("td", { text: c.connect_id ? (c.connect_ready ? "Stripe ready" : "Stripe: details due") : "By hand" }),
+      el("td", { text: !c.payout_method ? "No details yet" : c.payout_method === "paypal" ? `PayPal ${c.payout_email}` : "Bank wire" }),
       el("td", {},
         el("button", { type: "button", text: "Edit", onclick: () => fill(c) }), " ",
         el("button", { type: "button", text: c.retired ? "Restore" : "Retire", onclick: () =>

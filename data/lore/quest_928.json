@@ -17,16 +17,16 @@
   "wiki": "Crown of the Earth (2)",
   "chain": []
  },
- "summary": "Crown of the Earth is a transitional journey that takes young night elves out of Shadowglen and into the broader realm of Teldrassil. Carrying sacred moonwell water consecrated atop Aldrassil, travelers are directed south along the forest road to meet Corithras Moonrage in Dolanaar. It marks the graduation from secluded training to the urgent ecological defense of the great World Tree.",
+ "summary": "In Shadowglen, you set out with moonwell water for Corithras Moonrage in Dolanaar. The journey carries you from secluded training into the wider work of protecting Teldrassil.",
  "sections": [
   {
    "title": "Leaving the Glade",
-   "body": "After proving their dedication by sampling the enchanted waters of Shadowglen's moonwell, initiates are summoned before Tenaron Stormgrip at the crown of Aldrassil. Recognizing their readiness, Tenaron seals the gathered water into a larger vessel and commands them to venture beyond the sheltered grove. The road leading south toward Dolanaar is the primary artery out of Shadowglen, winding through woods that have grown increasingly unpredictable and hostile.",
+   "body": "After tasting the enchanted water of Shadowglen's moonwell, you meet Tenaron Stormgrip at the crown of Aldrassil. He seals the gathered water in a larger vessel and sends you beyond the sheltered glade. The road runs south toward Dolanaar, through woods where danger has grown harder to predict.",
    "spoiler": 0
   },
   {
    "title": "The Road to Dolanaar",
-   "body": "Dolanaar serves as the first major village travelers encounter upon exiting the starting glen. Situated along the cobblestone paths curving through central Teldrassil, the settlement bustles around its own pristine moonwell. Here awaits Corithras Moonrage, an elder tasked with overseeing broader preservation efforts across the boughs. The vessel delivered into his keeping ties the fledgling adventurer directly to the wider, troubled fate of the World Tree.",
+   "body": "Dolanaar is the first major village beyond Shadowglen, along the cobblestone paths through central Teldrassil. Its own moonwell lies at the heart of the village. Corithras Moonrage, an elder who oversees preservation across the boughs, waits there. The vessel you bring places you in the wider effort to protect the World Tree.",
    "spoiler": 0
   }
  ],
@@ -38,7 +38,7 @@
     "partially filled vessel lore",
     "what water is this"
    ],
-   "answer": "You carry the Partially Filled Vessel, containing sanctified waters drawn from the moonwell in Shadowglen. Tenaron Stormgrip combined your initial offering into this container so Corithras Moonrage could continue ritual work across Teldrassil."
+   "answer": "You carry the Partially Filled Vessel, holding sanctified water from Shadowglen's moonwell. Tenaron Stormgrip gathered your offering in it for Corithras Moonrage to use in ritual work across Teldrassil."
   },
   {
    "q": "Who is Corithras Moonrage?",
@@ -47,7 +47,7 @@
     "corithras moonrage role",
     "where is corithras"
    ],
-   "answer": "Corithras Moonrage is a night elf elder stationed beside the moonwell in Dolanaar. He directs arriving adventurers in continuing the vital rites and investigations needed to sustain the newly grown World Tree."
+   "answer": "Corithras Moonrage is a night elf elder beside the moonwell in Dolanaar. He directs those who arrive in rites and investigations meant to sustain the World Tree."
   },
   {
    "q": "Why does Tenaron send me away from Shadowglen?",
@@ -56,7 +56,7 @@
     "why go to dolanaar",
     "tenaron sending me away"
    ],
-   "answer": "Shadowglen provides basic training, but the challenges confronting Teldrassil require aid across the entire bough. Having proven your ability to handle local threats and venerate the moonwells, Tenaron sends you to Dolanaar where broader tasks await."
+   "answer": "Shadowglen gives you basic training, while Teldrassil's troubles reach across the boughs. After you prove yourself against local threats and honor the moonwells, Tenaron sends you to Dolanaar, where broader work awaits."
   },
   {
    "q": "Where is the road to Dolanaar?",
@@ -65,7 +65,7 @@
     "path to dolanaar",
     "road out of shadowglen"
    ],
-   "answer": "Follow the cobblestone path south out of Aldrassil and past the gates of Shadowglen. Continue following the cobblestones as the trail bends south and west until you arrive in the village of Dolanaar."
+   "answer": "Follow the cobblestone path south from Aldrassil and through Shadowglen's gates. Keep to the road as it bends south and west, and it will bring you to Dolanaar."
   },
   {
    "q": "Why does Tenaron warn about dangerous beasts?",
@@ -74,7 +74,7 @@
     "corrupted beasts teldrassil",
     "stay on the road warning"
    ],
-   "answer": "Tenaron says only that dangerous beasts have roamed the forests of late. Even within the sacred boughs of Teldrassil, wildlife has grown aggressive, so straying off the paved trail is a real risk."
+   "answer": "Tenaron says dangerous beasts have roamed the forests of late. Wildlife has grown aggressive even within Teldrassil's sacred boughs, so leaving the paved trail puts you at risk."
   },
   {
    "q": "What happens after reaching Dolanaar?",
@@ -83,21 +83,21 @@
     "dolanaar next quest",
     "what does corithras do"
    ],
-   "answer": "Corithras Moonrage accepts the vessel and sends you to fill phials at other moonwells throughout Teldrassil, continuing the story of the tree as you go."
+   "answer": "Corithras Moonrage takes the vessel and sends you to fill phials at other moonwells throughout Teldrassil. The work continues across the tree."
   }
  ],
  "angles": [
   {
    "target": "race:NightElf",
-   "text": "Taking the step beyond Shadowglen's perimeter is an essential rite of passage for every young Kaldorei setting out to serve their people."
+   "text": "As a young Kaldorei, leaving Shadowglen is a rite of passage as you set out to serve your people."
   },
   {
    "target": "class:Druid",
-   "text": "Transporting the sanctified waters connects young druids to the ongoing, fragile efforts to nurture and balance Teldrassil's burgeoning ecosystem."
+   "text": "As a druid, carrying the sanctified waters connects you to the effort to nurture and balance Teldrassil's growing ecosystem."
   },
   {
    "target": "class:Priest",
-   "text": "Carrying moonwell water consecrated by Elune's grace represents the sacred duty of her priesthood to tend to the spiritual health of the community."
+   "text": "As a priest, carrying moonwell water consecrated by Elune's grace reflects your duty to tend to your community's spiritual health."
   }
  ],
  "keywords": [
@@ -123,5 +123,6 @@
  ],
  "attribution": [
   "Crown of the Earth (2)"
- ]
+ ],
+ "style": 1
 }

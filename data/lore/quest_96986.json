@@ -1,0 +1,90 @@
+{
+ "key": "quest:96986",
+ "type": "quest",
+ "name": "The Grave Knight",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   96986
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "Melisara in Tarren Mill asks you to confront Atrexis, a necromancer raising the dead beneath Dalaran. She sees his work as an affront to the Forsaken.",
+ "sections": [
+  {
+   "title": "Melisara's Charge",
+   "body": "Melisara says Atrexis is a traitor to the Forsaken and raises an undead army beneath Dalaran. You are asked to defeat the Grave Knight for her; she cares little for the fate of the mage city, but says no one is beyond the Dark Lady's reach.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is the Grave Knight?",
+   "aliases": [
+    "atrexis",
+    "atrexis grave knight",
+    "grave knight who"
+   ],
+   "answer": "Atrexis is a necromancer in Dalaran whom Melisara calls the Grave Knight."
+  },
+  {
+   "q": "Who sent me after Atrexis?",
+   "aliases": [
+    "who gave grave knight quest",
+    "melisara atrexis",
+    "who wants atrexis dead"
+   ],
+   "answer": "Melisara in Tarren Mill asks you to defeat Atrexis."
+  },
+  {
+   "q": "Why does Melisara want Atrexis defeated?",
+   "aliases": [
+    "why kill atrexis",
+    "why grave knight",
+    "forsaken reason atrexis"
+   ],
+   "answer": "Melisara says Atrexis is a traitor to the Forsaken who raises an undead army beneath Dalaran."
+  },
+  {
+   "q": "Where is Atrexis?",
+   "aliases": [
+    "atrexis location",
+    "grave knight location",
+    "where grave knight"
+   ],
+   "answer": "Atrexis is in the City of Dalaran."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Alliance",
+   "text": "Melisara says she cares little for Dalaran's fate as she sends you after Atrexis."
+  },
+  {
+   "target": "race:Undead",
+   "text": "Melisara calls Atrexis a traitor to the Forsaken and says his undead army defies what they stand for."
+  }
+ ],
+ "keywords": [
+  "atrexis",
+  "dalaran",
+  "forsaken",
+  "grave knight",
+  "melisara",
+  "necromancer",
+  "tarren mill",
+  "undead army"
+ ],
+ "related": [
+  "subzone:tarren-mill",
+  "subzone:dalaran",
+  "topic:forsaken",
+  "topic:mage"
+ ],
+ "style": 1,
+ "attribution": [
+  "In-game quest text: The Grave Knight"
+ ]
+}

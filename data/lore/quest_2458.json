@@ -17,16 +17,16 @@
   "wiki": "Deep Cover",
   "chain": []
  },
- "summary": "Deep Cover is an undercover assignment given to promising Horde rogues by Shenthul in Orgrimmar. The mission dispatches the operative to the Venture Company drilling grounds at Sludge Fen to establish secret contact with an embedded agent of the Shattered Hand.",
+ "summary": "Shenthul sends a promising Horde rogue to Sludge Fen to contact an agent hidden among the Venture Company. The Shattered Hand has spent a year placing Taskmaster Fizzule inside the company’s drilling grounds, where he watches their plans.",
  "sections": [
   {
    "title": "A Spy Among Profiteers",
-   "body": "The Shattered Hand operates as the clandestine intelligence and assassin guild of the Horde, quietly guarding Orgrimmar's interests through ruthlessly practical means. For an entire year, the guild labored to slip an operative into the hierarchy of the rapacious Venture Company. That asset, Taskmaster Fizzule, managed to ingratiate himself into their industrial drilling outpost north of Sludge Fen.",
+   "body": "The Shattered Hand protects Orgrimmar’s interests through secret intelligence and assassination. For a year, its members worked to place an agent in the Venture Company’s ranks. Taskmaster Fizzule earned a place at their drilling outpost north of Sludge Fen, among the company’s mercenaries.",
    "spoiler": 0
   },
   {
    "title": "Signs and Signals",
-   "body": "Operating deep within mercenary lines leaves no margin for error. Because Fizzule maintains a ruthless persona to satisfy his corporate overseers, any unannounced visitor risks immediate attack. To verify their identity, arriving rogues must fire twin flares from a designated signaling gun within sight of his tower, approach quietly, and perform the secret salute of the Shattered Hand before receiving his report on the Venture Company's escalating schemes.",
+   "body": "Fizzule must keep his hard-edged reputation to satisfy the Venture Company’s overseers. An unexpected visitor could bring an attack. Rogues who reach his tower must fire two flares from the signaling gun within sight, approach quietly, and give the Shattered Hand’s secret salute. Then Fizzule can share what he has learned about the company’s growing schemes.",
    "spoiler": 0
   }
  ],
@@ -38,7 +38,7 @@
     "who is fizzule",
     "taskmaster fizzule identity"
    ],
-   "answer": "Taskmaster Fizzule is a deep-cover operative of the Shattered Hand planted within the Venture Company hierarchy north of Sludge Fen. He spent a full year climbing into a position of authority among the mercenaries, watching their operations and feeding intelligence back to Orgrimmar."
+   "answer": "Taskmaster Fizzule is a Shattered Hand agent placed inside the Venture Company north of Sludge Fen. He spent a year gaining authority among its mercenaries while watching their work and sending intelligence to Orgrimmar."
   },
   {
    "q": "Why does Fizzule attack if you do not signal him properly?",
@@ -47,7 +47,7 @@
     "fizzule hostile",
     "fizzule kills me"
    ],
-   "answer": "Fizzule is maintaining cover as an abrasive, hard-nosed Venture Company taskmaster. If anyone approaches his post without providing the exact two-flare signal and the Shattered Hand salute, he must assume they are hostile intruders or rival corporate agents, attacking them on sight to preserve his disguise."
+   "answer": "Fizzule keeps up the harsh manner expected of a Venture Company taskmaster. Without the two-flare signal and Shattered Hand salute, he takes an approaching stranger for a hostile intruder or rival agent and attacks to protect his disguise."
   },
   {
    "q": "Where is the Venture Company tower located?",
@@ -56,7 +56,7 @@
     "tower location",
     "where is sludge fen tower"
    ],
-   "answer": "The tower stands overlooking the industrial operations just north of Sludge Fen, located in the central northern expanse of the Barrens."
+   "answer": "The Venture Company tower overlooks its drilling grounds north of Sludge Fen, in the northern Barrens."
   },
   {
    "q": "Why is the Horde spying on the Venture Company?",
@@ -64,7 +64,7 @@
     "why spy on venture co",
     "venture co threat"
    ],
-   "answer": "The Venture Company is notorious for reckless resource stripping, exploitation, and ruthless violence across Kalimdor. Recent intelligence gathered by the Shattered Hand revealed the cartel is planning a major scheme in the Barrens, prompting Shenthul to activate his contact."
+   "answer": "The Shattered Hand spies on the Venture Company because its reckless extraction, exploitation, and violence threaten Kalimdor. Recent intelligence pointed to a major scheme in the Barrens, so Shenthul called on his contact."
   },
   {
    "q": "What happens after making contact with Fizzule?",
@@ -72,7 +72,7 @@
     "what next after deep cover",
     "after fizzule"
    ],
-   "answer": "Once contact is safely established, Fizzule gives the rogue instructions to infiltrate the nearby Venture Company tower, slay its inhabitants including Grand Foreman Puzik Gallywix, and steal the cache of Zanzil's Altered Mixture, proving their worth to the guild."
+   "answer": "After contact, Fizzule directs the rogue to enter the nearby Venture Company tower, kill its inhabitants, including Grand Foreman Puzik Gallywix, and take Zanzil's Altered Mixture to prove their worth to the guild."
   },
   {
    "q": "What is the Shattered Hand?",
@@ -80,17 +80,17 @@
     "shattered hand",
     "who are shattered hand"
    ],
-   "answer": "The Shattered Hand is the shadowy network of rogues, spies, and assassins operating out of the Cleft of Shadow in Orgrimmar. While once an infamous clan on Draenor, in the new Horde they serve as the Horde's covert intelligence arm."
+   "answer": "The Shattered Hand is a network of rogues, spies, and assassins based in Orgrimmar’s Cleft of Shadow. Once an infamous clan on Draenor, it now gathers intelligence for the Horde in secret."
   }
  ],
  "angles": [
   {
    "target": "class:Rogue",
-   "text": "This assignment marks a critical milestone for growing rogues in the Horde, transitioning them from simple street scouts into trusted operatives capable of covert field coordination."
+   "text": "As a Horde rogue, you are taking a step from street scouting toward trusted work in the field, coordinating in secret."
   },
   {
    "target": "faction:Horde",
-   "text": "The Venture Company's relentless clear-cutting and drilling in the Barrens threatens Horde territorial control and natural resources, necessitating aggressive espionage."
+   "text": "As a member of the Horde, you see the Venture Company’s logging and drilling threaten Horde lands and resources in the Barrens."
   }
  ],
  "keywords": [
@@ -113,5 +113,6 @@
  ],
  "attribution": [
   "Deep Cover"
- ]
+ ],
+ "style": 1
 }

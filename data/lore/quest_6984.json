@@ -20,16 +20,16 @@
    "A Smokywood Pastures' Thank You! (Horde)"
   ]
  },
- "summary": "This festive task marks the conclusion of Smokywood Pastures' winter recovery efforts in Orgrimmar. After retrieving stolen treats from the Abominable Greench, adventurers are directed by goblin merchant Kaymard Copperpinch to receive a formal holiday token of appreciation directly from Great-father Winter.",
+ "summary": "Great-father Winter waits in Orgrimmar to thank those who recovered Smokywood Pastures' stolen holiday treats. Kaymard Copperpinch sends you to receive a token of appreciation for bringing the supplies back.",
  "sections": [
   {
    "title": "A Corporate Holiday",
-   "body": "Smokywood Pastures is keen to capitalize on the spirit of the Feast of Winter Veil, marketing treats, recipes, and seasonal cheer across the capitals of Azeroth. When their shipment of holiday goods was snatched away in the snowy hills of the Alterac Mountains, business stalled. With the treats reclaimed and the thieving Greench dealt with, vendor Kaymard Copperpinch is quick to ensure that helpful champions receive full corporate gratitude\u2014and a suitably grand presentation.",
+   "body": "In Orgrimmar, Smokywood Pastures sells treats, recipes, and seasonal cheer for the Feast of Winter Veil. Their shipment was stolen in the snowy hills of the Alterac Mountains, and business stalled. With the treats recovered and the Abominable Greench dealt with, Kaymard Copperpinch sends you to receive the company's thanks.",
    "spoiler": 0
   },
   {
    "title": "Audience with Great-father Winter",
-   "body": "Rather than handing over a standard coin purse over the counter, the goblins arrange for Great-father Winter himself to deliver the reward. Holding court beside the holiday tree in the Valley of Strength, the festive figure acts as both cultural patron and honorary figurehead for the festivities. He honors those who rescued the holiday supplies with a seasonal blessing and a Smokywood Pastures Special Gift.",
+   "body": "Great-father Winter waits beside the holiday tree in the Valley of Strength. The goblins have arranged for him to honor those who rescued the holiday supplies with a seasonal blessing and a Smokywood Pastures Special Gift.",
    "spoiler": 0
   }
  ],
@@ -41,7 +41,7 @@
     "quest giver",
     "kaymard role"
    ],
-   "answer": "Kaymard Copperpinch, the Smokywood Pastures representative stationed in Orgrimmar's Valley of Strength, sends you to Great-father Winter once you have successfully recovered the company's stolen holiday treats."
+   "answer": "Kaymard Copperpinch, Smokywood Pastures' representative in Orgrimmar's Valley of Strength, sends you to Great-father Winter after you recover the company's stolen holiday treats."
   },
   {
    "q": "What did I do to earn Smokywood Pastures' gratitude?",
@@ -50,7 +50,7 @@
     "what treats were stolen",
     "greench background"
    ],
-   "answer": "You tracked down the Abominable Greench in the Alterac Mountains and recovered the stolen holiday treats, saving the Feast of Winter Veil supply chain for the goblins."
+   "answer": "You tracked down the Abominable Greench in the Alterac Mountains and recovered the stolen holiday treats, saving Smokywood Pastures' supplies for the Feast of Winter Veil."
   },
   {
    "q": "Where is Great-father Winter located in Orgrimmar?",
@@ -59,7 +59,7 @@
     "where is santa in org",
     "winter veil tree org"
    ],
-   "answer": "He sits under the large decorated Winter Veil tree in the Valley of Strength, right beside the Smokywood Pastures vendor stalls."
+   "answer": "Great-father Winter waits beneath the decorated Winter Veil tree in the Valley of Strength, beside the Smokywood Pastures vendor stalls."
   },
   {
    "q": "Who is Great-father Winter?",
@@ -68,7 +68,7 @@
     "is great-father winter real",
     "winter veil lore"
    ],
-   "answer": "In ancient lore, Great-father Winter is an elemental or mythic herald of the changing seasons, draping the land in winter snow. For the Feast of Winter Veil, mortal stand-ins don his traditional red robes to spread goodwill and hand out treats to children and adventurers."
+   "answer": "Great-father Winter is an elemental or mythic herald of the changing seasons, said to cover the land in winter snow. During the Feast of Winter Veil, mortals wear his red robes to spread goodwill and give treats to children and adventurers."
   },
   {
    "q": "What is Smokywood Pastures?",
@@ -77,7 +77,7 @@
     "who are smokywood pastures",
     "goblin holiday vendor"
    ],
-   "answer": "Smokywood Pastures is a goblin-run culinary and agricultural enterprise. They supply festive foods, seasonal ingredients, and decorative novelties to both the Horde and the Alliance during the Feast of Winter Veil."
+   "answer": "Smokywood Pastures is a goblin-run culinary and agricultural enterprise. It supplies festive foods, seasonal ingredients, and decorations to the Horde and the Alliance during the Feast of Winter Veil."
   },
   {
    "q": "Do I receive anything else after speaking with him?",
@@ -86,17 +86,17 @@
     "disguise kit",
     "mail gift"
    ],
-   "answer": "Yes. Great-father Winter hands you a Smokywood Pastures Special Gift on the company's behalf, and your efforts earn standing with the Steamwheedle Cartel."
+   "answer": "Yes. Great-father Winter gives you a Smokywood Pastures Special Gift on the company's behalf, and your efforts earn standing with the Steamwheedle Cartel."
   }
  ],
  "angles": [
   {
    "target": "faction:Horde",
-   "text": "The Horde's celebration of Winter Veil in Orgrimmar blends ancient shamanic reverence for the changing seasons with rowdy goblin commercialism."
+   "text": "In Orgrimmar, the Horde's Winter Veil celebration blends shamanic reverence for the changing seasons with goblin commerce."
   },
   {
    "target": "profession:Cooking",
-   "text": "Smokywood Pastures' seasonal supplies are central to holiday cooking, providing exotic recipes and festive ingredients that chefs eagerly await each year."
+   "text": "As a cook, you can rely on Smokywood Pastures for seasonal supplies, exotic recipes, and festive ingredients eagerly awaited each year."
   }
  ],
  "keywords": [
@@ -118,5 +118,6 @@
  ],
  "attribution": [
   "A Smokywood Pastures' Thank You! (Horde)"
- ]
+ ],
+ "style": 1
 }

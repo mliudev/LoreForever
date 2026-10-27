@@ -17,16 +17,16 @@
   "wiki": "Moonglow Vest (quest)",
   "chain": []
  },
- "summary": "Moonglow Vest is a trade training task offered by the night elf leatherworker Lotherias in Darnassus. Overwhelmed by the constant needs of young adventurers heading into the wilds of Kalimdor, she trades the knowledge of a specialized night elven tunic pattern in exchange for bulk shipments of embossed leather gear.",
+ "summary": "In Darnassus, Lotherias needs leather gear for young adventurers setting out across Kalimdor. She offers the pattern for a Moonglow Vest in return for shipments of embossed leather goods.",
  "sections": [
   {
    "title": "Equipping the Kaldorei",
-   "body": "In the sheltered boughs of Darnassus, tradesmen work tirelessly to outfit the swelling ranks of sentinels and aspiring wilderness scouts. As young night elves and allied wanderers venture forth beyond Teldrassil into a volatile Kalimdor, reliable armor is in fierce demand. Master leatherworkers like Lotherias bear the burden of keeping these frontiers supplied with sturdy hides.",
+   "body": "In Darnassus, leatherworkers work to outfit sentinels and young scouts. Night elves and allied wanderers leave Teldrassil for the wilds of Kalimdor, where sturdy armor is in demand. Lotherias is among the master leatherworkers supplying them with gear.",
    "spoiler": 0
   },
   {
    "title": "Mastering the Craft",
-   "body": "To ensure her apprentices possess both endurance and technical precision, Lotherias requires proof of their handiwork through multiple matched garments: embossed gloves, boots, and cloaks. Meeting this quota earns her trust, prompting her to impart the distinct night elven pattern for the Moonglow Vest\u2014a garment favored for balancing supple protection with agile mobility.",
+   "body": "Lotherias asks apprentices to bring matched embossed gloves, boots, and cloaks as proof of their skill. Those who meet her order earn her trust, and she teaches them a night elf pattern for the Moonglow Vest, made to protect while allowing free movement.",
    "spoiler": 0
   }
  ],
@@ -37,7 +37,7 @@
     "lotherias darnassus",
     "who gives moonglow vest"
    ],
-   "answer": "Lotherias is a skilled night elf leatherworking trainer stationed in Darnassus. She oversees craft instruction for Alliance artisans and provides advanced designs to leatherworkers who prove their dedication."
+   "answer": "Lotherias is a night elf leatherworking trainer in Darnassus. She teaches the craft and offers advanced patterns to leatherworkers who prove their skill."
   },
   {
    "q": "Why does Lotherias need so many leather items?",
@@ -45,7 +45,7 @@
     "why need so many boots",
     "why craft embossed leather"
    ],
-   "answer": "Darnassus is bustling with newly trained adventurers preparing to journey out into the world. Craftsmen are struggling to keep up with the continuous demand for field gear, prompting Lotherias to outsource standard embossed garments to capable apprentices."
+   "answer": "Lotherias needs embossed leather gear to outfit young adventurers preparing to travel beyond Darnassus. She asks apprentices to supply the standard garments."
   },
   {
    "q": "What is the Moonglow Vest?",
@@ -53,7 +53,7 @@
     "moonglow vest recipe",
     "what do i get"
    ],
-   "answer": "The Moonglow Vest is an advanced piece of crafted leather armor. Its pattern is taught as a reward by Lotherias once you demonstrate your ability to manufacture high-quality embossed goods in volume."
+   "answer": "The Moonglow Vest is a leather armor pattern Lotherias teaches after you prove you can craft embossed goods in quantity."
   },
   {
    "q": "What materials are required to complete this task?",
@@ -61,7 +61,7 @@
     "what do i need",
     "moonglow vest items"
    ],
-   "answer": "You must provide one pair of Embossed Leather Gloves, five pairs of Embossed Leather Boots, and five Embossed Leather Cloaks. All pieces must be crafted and delivered directly to Lotherias."
+   "answer": "Bring Lotherias one pair of Embossed Leather Gloves, five pairs of Embossed Leather Boots, and five Embossed Leather Cloaks. You must craft each piece and deliver it to her."
   },
   {
    "q": "Can Horde leatherworkers learn this pattern here?",
@@ -69,7 +69,7 @@
     "can horde do this",
     "is moonglow vest alliance only"
    ],
-   "answer": "No. Lotherias resides within Darnassus and strictly trains Alliance craftspeople. Horde artisans must seek out their own respective trainers across Kalimdor and the Eastern Kingdoms to expand their trade."
+   "answer": "No. Lotherias trains Alliance craftspeople in Darnassus. Horde leatherworkers need to find trainers of their own across Kalimdor and the Eastern Kingdoms."
   },
   {
    "q": "Does this quest require a specific trade skill level?",
@@ -77,17 +77,17 @@
     "leatherworking level needed",
     "when can i get moonglow vest"
    ],
-   "answer": "Yes, an artisan must achieve a leatherworking proficiency of at least 70 before Lotherias considers them skilled enough to take on the order and learn the vest pattern."
+   "answer": "Yes. You need leatherworking proficiency of at least seventy before Lotherias will consider you skilled enough for the order and the vest pattern."
   }
  ],
  "angles": [
   {
    "target": "race:NightElf",
-   "text": "The Moonglow Vest represents the elegant craftsmanship typical of Teldrassil's artisans, providing scouts and sentinels with agile protection under the forest canopy."
+   "text": "As a night elf, you can see the fine leatherwork of Teldrassil in the Moonglow Vest, with its agile protection for scouts and sentinels beneath the forest canopy."
   },
   {
    "target": "faction:Alliance",
-   "text": "Outfitting fresh recruits in Darnassus helps maintain the Alliance's fragile hold across northern Kalimdor amidst growing wild and hostile threats."
+   "text": "As an Alliance artisan, you help outfit new recruits in Darnassus, where the Alliance holds a fragile foothold in northern Kalimdor amid growing wild and hostile threats."
   }
  ],
  "keywords": [
@@ -105,5 +105,6 @@
  ],
  "attribution": [
   "Moonglow Vest (quest)"
- ]
+ ],
+ "style": 1
 }

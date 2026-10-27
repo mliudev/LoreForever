@@ -22,16 +22,16 @@
    "Letter to Jin'Zil (quest)"
   ]
  },
- "summary": "This bounty task charges Horde adventurers with slaying Serena Bloodfeather, the matriarch driving harpy raids against Crossroads supply lines. Her campaign is a personal blood feud stemming from the Champion of the Horde Rexxar slaying her sister. Putting an end to Serena aims to shatter the coordination behind the harpy flock in the northern Barrens.",
+ "summary": "Across the northern Barrens, harpy raids threaten the Crossroads supply lines. Serena Bloodfeather leads the Witchwing flock, driven by a blood feud with the Horde after Rexxar slew her sister. Ending her campaign could break the harpies’ coordination.",
  "sections": [
   {
    "title": "A Legacy of Vengeance",
-   "body": "The Witchwing harpies infesting the crags northwest of the Crossroads do not strike solely out of animalistic hunger. Their leader, Serena Bloodfeather, wages an explicit blood feud against the Horde. Years ago during the founding of Durotar, the wandering beastmaster Rexxar struck down Serena's sister, a notorious matriarch named Bloodfeather. Consumed by hatred for the nascent Horde, Serena has rallied her flock into an organized scourge intent on butchering supply trains, scouts, and merchants traveling the arid trails.",
+   "body": "Witchwing harpies strike the trails northwest of the Crossroads under Serena Bloodfeather’s command. Their attacks are driven by more than hunger: Serena seeks vengeance against the Horde. During Durotar’s founding, the beastmaster Rexxar slew her sister, the notorious matriarch Bloodfeather. Serena has rallied her flock to attack supply trains, scouts, and merchants traveling the arid trails.",
    "spoiler": 0
   },
   {
    "title": "Cutting Off the Head",
-   "body": "Darsok Swiftdagger at the Crossroads has overseen the systematic culling of the harpies, progressing from petty raiders to seasoned lieutenants. Slaying Serena represents the final, decisive blow against the threat. Darsok explicitly demands her severed head not just as proof of the deed, but as a gruesome trophy to mount upon the next outgoing caravan. By hoisting their matriarch's head before the surviving harpies, the Horde hopes to terrify the flock into abandoning their assault on the Barrens' lifelines.",
+   "body": "Darsok Swiftdagger at the Crossroads has led the effort to cull the harpies, from petty raiders to seasoned lieutenants. He now calls for Serena’s head as proof of her death and as a trophy for the next outgoing caravan. The Horde hopes that showing the surviving harpies their matriarch’s fate will frighten them away from the Barrens’ supply lines.",
    "spoiler": 1
   }
  ],
@@ -43,7 +43,7 @@
     "serena motivation",
     "why serena mad"
    ],
-   "answer": "Serena seeks vengeance against the Horde. Her sister, the harpy matriarch Bloodfeather, was slain by the beastmaster Rexxar during the founding of Durotar. Serena directs her flock against Horde supply wagons and travelers as retribution for her sister's death."
+   "answer": "Serena attacks Horde caravans to avenge her sister. The beastmaster Rexxar slew the harpy matriarch Bloodfeather during Durotar’s founding, and Serena now turns her flock against Horde supply wagons and travelers."
   },
   {
    "q": "Who was Bloodfeather?",
@@ -52,7 +52,7 @@
     "original bloodfeather",
     "rexxar bloodfeather"
    ],
-   "answer": "Bloodfeather was a notorious harpy leader who terrorized the borders of Durotar and the Barrens years ago. Rexxar hunted and slew her during his travels serving Warchief Thrall. Serena is her surviving sister, who took up her mantle and grudge."
+   "answer": "Bloodfeather was a notorious harpy leader who terrorized the borders of Durotar and the Barrens. Rexxar slew her while serving Warchief Thrall. Serena, her surviving sister, took up her mantle and grudge."
   },
   {
    "q": "Why does Darsok Swiftdagger want her head?",
@@ -60,7 +60,7 @@
     "why darsok wants head",
     "darsok swiftdagger head caravan"
    ],
-   "answer": "Beyond confirming her demise, Darsok intends to mount Serena's severed head onto an outgoing caravan wagon. He believes displaying the matriarch's fate will serve as a stark warning to any surviving harpies tempted to swoop down on Horde supply lines."
+   "answer": "Darsok wants Serena’s head to confirm her death and display it on an outgoing caravan wagon. He hopes the sight will warn surviving harpies away from Horde supply lines."
   },
   {
    "q": "Where can Serena Bloodfeather be found?",
@@ -69,7 +69,7 @@
     "where is serena",
     "serena spawn"
    ],
-   "answer": "Serena nests high in the rugged cliffs and wind-carved crags northwest of the Crossroads, surrounded by the elite lieutenants and guards of the Witchwing coven."
+   "answer": "Serena is among the rugged cliffs and wind-carved crags northwest of the Crossroads, surrounded by Witchwing lieutenants and guards."
   },
   {
    "q": "What happens after Serena is defeated?",
@@ -77,7 +77,7 @@
     "what next after serena",
     "quest chain after serena"
    ],
-   "answer": "With the harpy threat neutralized, Darsok directs reliable mercenaries to assist other allies in need, dispatching them with a letter to the witch doctor Jin'Zil in the Stonetalon Mountains."
+   "answer": "After Serena falls, Darsok sends reliable mercenaries to help other allies in need. He dispatches them with a letter to Jin'Zil, the witch doctor in the Stonetalon Mountains."
   },
   {
    "q": "Who assigned this bounty?",
@@ -85,21 +85,21 @@
     "who gives serena quest",
     "darsok role"
    ],
-   "answer": "Darsok Swiftdagger, an orc scout and operative stationed at the Crossroads, oversees the suppression of wild threats menacing the trade routes and issues the bounty once her flock's lower ranks have been cleared."
+   "answer": "Darsok Swiftdagger, an orc scout stationed at the Crossroads, assigns the bounty. He oversees efforts against wild threats along trade routes and issues it after the flock’s lower ranks have been cleared."
   }
  ],
  "angles": [
   {
    "target": "faction:Horde",
-   "text": "The northern trade routes passing through the Crossroads are vital for supplying orcish outposts and connecting Durotar to Mulgore and Stonetalon; putting down organized harpy raiders keeps these arteries open."
+   "text": "The northern trade routes through the Crossroads supply orcish outposts and connect Durotar with Mulgore and Stonetalon. Putting down organized harpy raiders keeps those routes open."
   },
   {
    "target": "class:Rogue",
-   "text": "Darsok Swiftdagger admires cold-blooded efficiency, calling for a swift slit of Serena's throat rather than a prolonged brawl."
+   "text": "As a rogue, you’ll find Darsok Swiftdagger values cold efficiency. He calls for Serena’s throat to be slit swiftly, without a prolonged fight."
   },
   {
    "target": "race:Orc",
-   "text": "The hunt cleanses unfinished business rooted in the exploits of Rexxar, invoking the fierce spirit of Durotar's early frontier struggles."
+   "text": "As an orc, you face unfinished business tied to Rexxar’s deeds and the fierce struggles on Durotar’s early frontier."
   }
  ],
  "keywords": [
@@ -124,5 +124,6 @@
  ],
  "attribution": [
   "Serena Bloodfeather (Classic)"
- ]
+ ],
+ "style": 1
 }

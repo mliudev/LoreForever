@@ -60,8 +60,9 @@ function preferredBundle(v, group, packs) {
   const translation = translationFor(group, packs), versions = [...new Set(packs.map(p => p.version).filter(Boolean))];
   const tag = versionTag(translation?.version || (group.language === "English" && versions.length === 1 ? versions[0] : ""));
   const locale = translation?.locale || (group.language === "English" ? "enUS" : "");
-  // Metadata only: no href is supplied until the exact tag and filename exist.
-  return tag && locale ? `${tag}:${v.addon}_${locale}-complete.zip` : "";
+  // Metadata only: no href is supplied until the exact tag and filename exist. English has no _enUS bundle: its one
+  // zip is <addon>-complete.zip (the release builds no second name for it).
+  return tag && locale ? `${tag}:${v.addon}${locale === "enUS" ? "" : `_${locale}`}-complete.zip` : "";
 }
 export function voiceChoices(v, packs = []) {
   if (!validId(v?.id) || !released(v)) return [];

@@ -17,16 +17,16 @@
   "wiki": "The Spirits of Stonetalon",
   "chain": []
  },
- "summary": "The Spirits of Stonetalon is a Horde courier quest initiated by the orc advisor Zor Lonetree in Orgrimmar. He detects deep unrest among the earth spirits across the western crags and dispatches young champions into the Stonetalon Mountains. Traveling west past the Crossroads, adventurers report directly to Seereth Stonebreak near the Greatwood Vale to address rampant logging.",
+ "summary": "Unrest stirs among the spirits of Stonetalon, and Zor Lonetree sends Horde champions west to learn why. From Orgrimmar, they travel past the Crossroads and report directly to Seereth Stonebreak near Greatwood Vale.",
  "sections": [
   {
    "title": "A Cry from the West",
-   "body": "In Grommash Hold within Orgrimmar, Zor Lonetree communes with the natural world and senses profound distress emanating from the Stonetalon Mountains. The elemental spirits of the rocky peaks have grown furious as industrial exploitation tears into their forests. Listening to their distress, the shamans of the Horde recognize that unbridled devastation in the western highlands threatens the spiritual balance of Kalimdor.",
+   "body": "In Grommash Hold, Zor Lonetree listens to the natural world and feels deep distress from the Stonetalon Mountains. The elemental spirits of its rocky peaks are furious as logging tears into their forests. Horde shamans hear that unrest and fear the devastation in the western highlands will upset Kalimdor's spiritual balance.",
    "spoiler": 0
   },
   {
    "title": "Industrial Deforestation",
-   "body": "The primary threat in the region stems from the Venture Company, an unscrupulous goblin syndicate clear-cutting timber in Greatwood Vale. Rather than harvesting sustainably, these commercial crews employ aggressive machinery, saws, and muscle to butcher the ancient woodland. To investigate this assault, the Horde dispatched Seereth Stonebreak, an insightful young shaman stationed on the frontier to monitor the forest and rally defenders against the ravagers.",
+   "body": "The Venture Company, an unscrupulous goblin syndicate, is cutting timber in Greatwood Vale. Its commercial crews use aggressive machinery, saws, and muscle to butcher the ancient woodland instead of harvesting sustainably. The Horde sent Seereth Stonebreak, a young shaman, to watch the forest from the frontier and rally defenders against the ravagers.",
    "spoiler": 0
   }
  ],
@@ -38,7 +38,7 @@
     "where get quest",
     "zor lonetree location"
    ],
-   "answer": "The quest is offered by Zor Lonetree, a wise orc advisor found in Grommash Hold in the Horde capital of Orgrimmar."
+   "answer": "Zor Lonetree, an orc advisor, offers this in Grommash Hold in Orgrimmar."
   },
   {
    "q": "Where can I find Seereth Stonebreak?",
@@ -47,7 +47,7 @@
     "where is seereth stonebreak",
     "stonetalon camp"
    ],
-   "answer": "Seereth Stonebreak is stationed in the Stonetalon Mountains, along the path near the Greatwood Vale just past the eastern entrance leading from the northern Barrens."
+   "answer": "Seereth Stonebreak waits in the Stonetalon Mountains, along the path near Greatwood Vale, just past the eastern entrance from the northern Barrens."
   },
   {
    "q": "Why are the spirits of Stonetalon angry?",
@@ -56,7 +56,7 @@
     "stonetalon unrest",
     "angry spirits"
    ],
-   "answer": "Goblins—specifically those working for the Venture Company—are violently clear-cutting the pristine mountain woods, scarring the wilderness and provoking the land's ancient elemental guardians."
+   "answer": "The Venture Company goblins are clear-cutting the mountain woods, provoking the land's elemental guardians."
   },
   {
    "q": "How do I reach the Stonetalon Mountains from Orgrimmar?",
@@ -65,7 +65,7 @@
     "how to get to stonetalon",
     "route to stonetalon"
    ],
-   "answer": "Leave Orgrimmar and journey south across the Barrens to the Crossroads, then take the westward road that climbs through the rocky pass directly into Stonetalon."
+   "answer": "Travel south from Orgrimmar across the Barrens to the Crossroads, then follow the westward road through the rocky pass into Stonetalon."
   },
   {
    "q": "What comes next after speaking with Seereth?",
@@ -74,7 +74,7 @@
     "followup",
     "what after spirits of stonetalon"
    ],
-   "answer": "Upon arriving at her camp, Seereth Stonebreak assigns you 'Goblin Invaders', sending you into the woods of Greatwood Vale to eliminate loggers and cut down their operations directly."
+   "answer": "At her camp, Seereth Stonebreak gives you Goblin Invaders, sending you into Greatwood Vale to eliminate loggers and cut down their operations."
   },
   {
    "q": "Why is the Horde intervening in Stonetalon's deforestation?",
@@ -82,21 +82,21 @@
     "why does horde care",
     "tauren stonetalon interest"
    ],
-   "answer": "The tauren and orc shamans hold a sacred reverence for the elemental spirits. Allowing reckless goblin strip-logging damages the land's spiritual harmony and poses a threat right along the borders of the Barrens."
+   "answer": "Tauren and orc shamans revere the elemental spirits. Reckless goblin logging harms the land's spiritual harmony and threatens the borders of the Barrens."
   }
  ],
  "angles": [
   {
    "target": "class:Shaman",
-   "text": "For shamans, this summons is a direct plea from the elements itself, calling upon spiritual practitioners to mend a fractured bond between the earth and the living."
+   "text": "As a shaman, you hear a plea from the elements to mend the bond between earth and the living."
   },
   {
    "target": "race:Tauren",
-   "text": "Tauren adventurers feel a heavy cultural obligation to soothe the weeping earth and defend sacred forests from wanton goblin exploitation."
+   "text": "As a tauren, you carry a cultural duty to soothe the earth and defend sacred forests from goblin logging."
   },
   {
    "target": "faction:Horde",
-   "text": "Securing the borders between Stonetalon and the Barrens ensures Horde travel corridors remain free from rogue commercial syndicates."
+   "text": "As a member of the Horde, you help keep travel routes between Stonetalon and the Barrens clear of rogue commercial syndicates."
   }
  ],
  "keywords": [
@@ -121,5 +121,6 @@
  ],
  "attribution": [
   "The Spirits of Stonetalon"
- ]
+ ],
+ "style": 1
 }

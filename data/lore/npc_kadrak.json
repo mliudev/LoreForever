@@ -8,16 +8,16 @@
   "wiki": "Kadrak",
   "refs": 5
  },
- "summary": "Kadrak is a seasoned orc commander stationed at the Mor'shan Rampart on the border between the Barrens and Ashenvale. Tasked with safeguarding the northern frontier, he coordinates the flow of dispatches and reinforcements into the contested forest. For Horde adventurers pushing past the arid plains, Kadrak serves as the gateway to the ongoing struggle against the night elves.",
+ "summary": "At the Mor'shan Rampart, Kadrak guards the northern frontier between the Barrens and Ashenvale. He directs dispatches and reinforcements into the contested forest, where the Horde fights the night elves.",
  "sections": [
   {
    "title": "Guardian of the Rampart",
-   "body": "Standing atop the fortified timber barricades of the Mor'shan Rampart, Kadrak watches over the primary route connecting the Barrens to Ashenvale. The border is a precarious frontier: to the south lie the sun-scorched plains claimed by the Horde, while to the north loom the ancient woods guarded fiercely by the night elves. Kadrak ensures that the defensive perimeter remains unbroken against encroaching Sentinels and hostile woodland creatures.",
+   "body": "At the Mor'shan Rampart, Kadrak guards the main route between the Barrens and Ashenvale. The barricade marks a hard border: Horde-held plains lie to the south, and night elf-guarded woods stretch north. Kadrak keeps watch against Sentinels and hostile woodland creatures, holding the perimeter against incursions.",
    "spoiler": 0
   },
   {
    "title": "Frontline Logistics",
-   "body": "Beyond holding the line, Kadrak manages essential military intelligence between the Barrens and the forward logging camps deeper in the forest. He receives couriers bearing critical combat reports from the Warsong Outriders and coordinates the movement of supplies and fresh blood into outpost hubs like Splintertree Post. Those reporting to him are promptly directed into the heart of the territorial war.",
+   "body": "Kadrak also handles military reports between the Barrens and logging camps deeper in Ashenvale. Couriers bring him combat reports from the Warsong Outriders, and he directs supplies and reinforcements to outposts such as Splintertree Post. Those who report to Kadrak are sent onward into the struggle for the forest.",
    "spoiler": 0
   }
  ],
@@ -29,7 +29,7 @@
     "who is the orc at the wall",
     "mor'shan rampart commander"
    ],
-   "answer": "Kadrak is an orc officer stationed at the Mor'shan Rampart. He oversees border security and directs Horde forces traveling between the Barrens and the warzones of Ashenvale."
+   "answer": "Kadrak is an orc officer at the Mor'shan Rampart. He oversees the border and directs Horde forces traveling between the Barrens and the fighting in Ashenvale."
   },
   {
    "q": "Where can Kadrak be found?",
@@ -38,7 +38,7 @@
     "find kadrak",
     "where is kadrak"
    ],
-   "answer": "Kadrak stands at the Mor'shan Rampart, the fortified wooden barricade at the far northern edge of the Barrens, marking the boundary leading into Ashenvale."
+   "answer": "Kadrak can be found at the Mor'shan Rampart, a fortified wooden barricade at the northern edge of the Barrens, where the road leads into Ashenvale."
   },
   {
    "q": "What is Kadrak's role in the Horde?",
@@ -47,7 +47,7 @@
     "what does kadrak do",
     "kadrak role"
    ],
-   "answer": "He commands the defensive perimeter at the border, gathers military intelligence from scout runners, and briefs Horde travelers heading north to reinforce outposts like Splintertree Post."
+   "answer": "Kadrak commands the border defenses and gathers military reports from scout runners. He briefs Horde travelers heading north to reinforce outposts such as Splintertree Post."
   },
   {
    "q": "Why is the Mor'shan Rampart heavily defended?",
@@ -56,7 +56,7 @@
     "purpose of the rampart",
     "why guard ashenvale border"
    ],
-   "answer": "The Rampart protects the northern approaches of the Barrens and Durotar from retaliatory night elf incursions sparked by the Horde's logging operations in Ashenvale."
+   "answer": "The Mor'shan Rampart guards the northern approaches to the Barrens and Durotar against night elf incursions in response to the Horde's logging operations in Ashenvale."
   },
   {
    "q": "What quests does Kadrak provide or complete?",
@@ -65,32 +65,32 @@
     "report to kadrak",
     "the warsong reports"
    ],
-   "answer": "Kadrak receives reports carried from the Barrens and dispatches adventurers on missions regarding Warsong scouting reports and establishing a firmer Horde presence along the forest frontier."
+   "answer": "Kadrak receives reports carried from the Barrens and sends adventurers on assignments involving Warsong scouting reports and strengthening the Horde presence along the forest frontier."
   },
   {
    "q": "Does Kadrak have ties to other notable Horde figures?",
    "aliases": [
     "kadrak connections"
    ],
-   "answer": "Kadrak maintains regular communication with the Warsong Outriders operating within Ashenvale, receiving their scouting reports at the Rampart."
+   "answer": "Kadrak keeps in regular contact with the Warsong Outriders in Ashenvale and receives their scouting reports at the Rampart."
   }
  ],
  "angles": [
   {
    "target": "faction:Horde",
-   "text": "Kadrak is your entry point to Ashenvale's campaigns, directing the flow of warriors northward to defend lumber operations and carve out Horde territory."
+   "text": "As a member of the Horde, you can look to Kadrak to direct warriors north to defend lumber operations and claim Horde territory in Ashenvale."
   },
   {
    "target": "faction:Alliance",
-   "text": "For Alliance forces attempting to strike into the Barrens from Ashenvale, Kadrak and his rampart represent a fortified roadblock guarding the Horde's heartland."
+   "text": "If you fight for the Alliance and try to enter the Barrens from Ashenvale, Kadrak's rampart blocks the road into the Horde heartland."
   },
   {
    "target": "race:Orc",
-   "text": "As a steadfast veteran upholding the legacy of the Warsong Clan's territorial efforts, Kadrak represents the unyielding orcish resolve on the Ashenvale border."
+   "text": "As an orc, you can see Kadrak's defense of the Ashenvale border as part of the Warsong Clan's effort to claim territory."
   },
   {
    "target": "class:Warrior",
-   "text": "Kadrak embodies frontline discipline, relying on raw steel and martial strength to hold a fortified choke point against hostile woodcraft and guerrilla raids."
+   "text": "As a warrior, you know the discipline it takes to hold a fortified choke point against woodland fighters and guerrilla raids."
   }
  ],
  "keywords": [
@@ -114,5 +114,6 @@
  ],
  "attribution": [
   "Kadrak"
- ]
+ ],
+ "style": 1
 }
